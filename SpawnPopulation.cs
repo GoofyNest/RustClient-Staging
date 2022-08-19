@@ -1,0 +1,37 @@
+public class SpawnPopulation : BaseScriptableObject // TypeDefIndex: 9995
+{	// Fields
+	[HeaderAttribute] // RVA: 0xAC7A0 Offset: 0xABBA0 VA: 0x1800AC7A0
+	public string ResourceFolder; // 0x20
+	public GameObjectRef[] ResourceList; // 0x28
+	[HeaderAttribute] // RVA: 0xAC890 Offset: 0xABC90 VA: 0x1800AC890
+	[TooltipAttribute] // RVA: 0xAC890 Offset: 0xABC90 VA: 0x1800AC890
+	[SerializeField] // RVA: 0xAC890 Offset: 0xABC90 VA: 0x1800AC890
+	[FormerlySerializedAsAttribute] // RVA: 0xAC890 Offset: 0xABC90 VA: 0x1800AC890
+	private float _targetDensity; // 0x30
+	public float SpawnRate; // 0x34
+	public int ClusterSizeMin; // 0x38
+	public int ClusterSizeMax; // 0x3C
+	public int ClusterDithering; // 0x40
+	public int SpawnAttemptsInitial; // 0x44
+	public int SpawnAttemptsRepeating; // 0x48
+	public bool EnforcePopulationLimits; // 0x4C
+	public bool ScaleWithLargeMaps; // 0x4D
+	public bool ScaleWithSpawnFilter; // 0x4E
+	public bool ScaleWithServerPopulation; // 0x4F
+	public bool AlignToNormal; // 0x50
+	public SpawnFilter Filter; // 0x58
+	public float FilterCutoff; // 0x60
+
+	// Properties
+	public virtual float TargetDensity { get; }
+
+	// Methods
+
+	// RVA: 0x6BB930 Offset: 0x6B9F30 VA: 0x1806BB930 Slot: 4
+	public virtual float get_TargetDensity() { }
+
+	// RVA: 0xA7DBB0 Offset: 0xA7C1B0 VA: 0x180A7DBB0
+	public void .ctor() { }
+
+}
+
