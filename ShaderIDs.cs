@@ -133,7 +133,7 @@ internal static class ShaderIDs // TypeDefIndex: 11870
 
 	// Methods
 
-	// RVA: 0x11DED00 Offset: 0x11DD300 VA: 0x1811DED00
+	// RVA: 0x11DEFC0 Offset: 0x11DD5C0 VA: 0x1811DEFC0
 	private static void .cctor() { }
 
 }

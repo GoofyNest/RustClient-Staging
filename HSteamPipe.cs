@@ -19,10 +19,10 @@ internal struct HSteamPipe : IEquatable<HSteamPipe>, IComparable<HSteamPipe> // 
 	// RVA: 0x1D7CB0 Offset: 0x1D70B0 VA: 0x1801D7CB0 Slot: 4
 	public bool Equals(HSteamPipe p) { }
 
-	// RVA: 0x1371B60 Offset: 0x1370160 VA: 0x181371B60
+	// RVA: 0x1371E20 Offset: 0x1370420 VA: 0x181371E20
 	public static bool op_Equality(HSteamPipe a, HSteamPipe b) { }
 
-	// RVA: 0x1371B70 Offset: 0x1370170 VA: 0x181371B70
+	// RVA: 0x1371E30 Offset: 0x1370430 VA: 0x181371E30
 	public static bool op_Inequality(HSteamPipe a, HSteamPipe b) { }
 
 	// RVA: 0x1D91A0 Offset: 0x1D85A0 VA: 0x1801D91A0 Slot: 5

@@ -5,19 +5,19 @@ internal static class TimeSpanFormat // TypeDefIndex: 720
 
 	// Methods
 
-	// RVA: 0x138B440 Offset: 0x1389A40 VA: 0x18138B440
+	// RVA: 0x138B700 Offset: 0x1389D00 VA: 0x18138B700
 	private static string IntToString(int n, int digits) { }
 
-	// RVA: 0x138B230 Offset: 0x1389830 VA: 0x18138B230
+	// RVA: 0x138B4F0 Offset: 0x1389AF0 VA: 0x18138B4F0
 	internal static string Format(TimeSpan value, string format, IFormatProvider formatProvider) { }
 
-	// RVA: 0x138AC10 Offset: 0x1389210 VA: 0x18138AC10
+	// RVA: 0x138AED0 Offset: 0x13894D0 VA: 0x18138AED0
 	private static string FormatStandard(TimeSpan value, bool isInvariant, string format, TimeSpanFormat.Pattern pattern) { }
 
-	// RVA: 0x138A1B0 Offset: 0x13887B0 VA: 0x18138A1B0
+	// RVA: 0x138A470 Offset: 0x1388A70 VA: 0x18138A470
 	internal static string FormatCustomized(TimeSpan value, string format, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x138B470 Offset: 0x1389A70 VA: 0x18138B470
+	// RVA: 0x138B730 Offset: 0x1389D30 VA: 0x18138B730
 	private static void .cctor() { }
 
 }
@@ -69,7 +69,7 @@ internal struct TimeSpanFormat.FormatLiterals // TypeDefIndex: 722
 	// RVA: 0x1EC810 Offset: 0x1EBC10 VA: 0x1801EC810
 	internal string get_End() { }
 
-	// RVA: 0x137DFD0 Offset: 0x137C5D0 VA: 0x18137DFD0
+	// RVA: 0x137E290 Offset: 0x137C890 VA: 0x18137E290
 	internal static TimeSpanFormat.FormatLiterals InitInvariant(bool isNegative) { }
 
 	// RVA: 0x1EC7C0 Offset: 0x1EBBC0 VA: 0x1801EC7C0

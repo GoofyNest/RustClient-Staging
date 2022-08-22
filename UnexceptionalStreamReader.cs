@@ -5,28 +5,28 @@ internal class UnexceptionalStreamReader : StreamReader // TypeDefIndex: 681
 
 	// Methods
 
-	// RVA: 0x1637FA0 Offset: 0x16365A0 VA: 0x181637FA0
+	// RVA: 0x1638260 Offset: 0x1636860 VA: 0x181638260
 	private static void .cctor() { }
 
-	// RVA: 0x1638030 Offset: 0x1636630 VA: 0x181638030
+	// RVA: 0x16382F0 Offset: 0x16368F0 VA: 0x1816382F0
 	public void .ctor(Stream stream, Encoding encoding) { }
 
-	// RVA: 0x1637AF0 Offset: 0x16360F0 VA: 0x181637AF0 Slot: 9
+	// RVA: 0x1637DB0 Offset: 0x16363B0 VA: 0x181637DB0 Slot: 9
 	public override int Peek() { }
 
-	// RVA: 0x1637D40 Offset: 0x1636340 VA: 0x181637D40 Slot: 10
+	// RVA: 0x1638000 Offset: 0x1636600 VA: 0x181638000 Slot: 10
 	public override int Read() { }
 
-	// RVA: 0x1637DA0 Offset: 0x16363A0 VA: 0x181637DA0 Slot: 11
+	// RVA: 0x1638060 Offset: 0x1636660 VA: 0x181638060 Slot: 11
 	public override int Read([In] [Out] char[] dest_buffer, int index, int count) { }
 
-	// RVA: 0x16378C0 Offset: 0x1635EC0 VA: 0x1816378C0
+	// RVA: 0x1637B80 Offset: 0x1636180 VA: 0x181637B80
 	private bool CheckEOL(char current) { }
 
-	// RVA: 0x1637BC0 Offset: 0x16361C0 VA: 0x181637BC0 Slot: 13
+	// RVA: 0x1637E80 Offset: 0x1636480 VA: 0x181637E80 Slot: 13
 	public override string ReadLine() { }
 
-	// RVA: 0x1637C20 Offset: 0x1636220 VA: 0x181637C20 Slot: 12
+	// RVA: 0x1637EE0 Offset: 0x16364E0 VA: 0x181637EE0 Slot: 12
 	public override string ReadToEnd() { }
 
 }

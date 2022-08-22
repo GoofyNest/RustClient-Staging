@@ -27,10 +27,10 @@ public class RowUpdatingEventArgs : EventArgs // TypeDefIndex: 4409
 	// RVA: 0x4D3FB0 Offset: 0x4D25B0 VA: 0x1804D3FB0
 	public IDbCommand get_Command() { }
 
-	// RVA: 0x17D6970 Offset: 0x17D4F70 VA: 0x1817D6970
+	// RVA: 0x17D6C30 Offset: 0x17D5230 VA: 0x1817D6C30
 	public void set_Command(IDbCommand value) { }
 
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	public void set_Errors(Exception value) { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
@@ -39,10 +39,10 @@ public class RowUpdatingEventArgs : EventArgs // TypeDefIndex: 4409
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
 	public StatementType get_StatementType() { }
 
-	// RVA: 0x6BB940 Offset: 0x6B9F40 VA: 0x1806BB940
+	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50
 	public UpdateStatus get_Status() { }
 
-	// RVA: 0x17D6990 Offset: 0x17D4F90 VA: 0x1817D6990
+	// RVA: 0x17D6C50 Offset: 0x17D5250 VA: 0x1817D6C50
 	public void set_Status(UpdateStatus value) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70

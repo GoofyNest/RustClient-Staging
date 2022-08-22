@@ -8,13 +8,13 @@ public class ObjectFlasher : BaseMonoBehaviour // TypeDefIndex: 11323
 
 	// Methods
 
-	// RVA: 0x9D6990 Offset: 0x9D4F90 VA: 0x1809D6990
+	// RVA: 0x9D6C50 Offset: 0x9D5250 VA: 0x1809D6C50
 	public void Awake() { }
 
-	// RVA: 0x9D6A50 Offset: 0x9D5050 VA: 0x1809D6A50
+	// RVA: 0x9D6D10 Offset: 0x9D5310 VA: 0x1809D6D10
 	public void Toggle() { }
 
-	// RVA: 0x9D6AC0 Offset: 0x9D50C0 VA: 0x1809D6AC0
+	// RVA: 0x9D6D80 Offset: 0x9D5380 VA: 0x1809D6D80
 	public void .ctor() { }
 
 }

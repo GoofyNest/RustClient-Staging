@@ -4,19 +4,19 @@ public class ToggleGroupCookie : MonoBehaviour // TypeDefIndex: 11238
 
 	// Methods
 
-	// RVA: 0x88C3D0 Offset: 0x88A9D0 VA: 0x18088C3D0
+	// RVA: 0x88C4E0 Offset: 0x88AAE0 VA: 0x18088C4E0
 	public ToggleGroup get_group() { }
 
-	// RVA: 0x88BE30 Offset: 0x88A430 VA: 0x18088BE30
+	// RVA: 0x88BF40 Offset: 0x88A540 VA: 0x18088BF40
 	private void OnEnable() { }
 
-	// RVA: 0x88BD00 Offset: 0x88A300 VA: 0x18088BD00
+	// RVA: 0x88BE10 Offset: 0x88A410 VA: 0x18088BE10
 	private void OnDisable() { }
 
-	// RVA: 0x88C2D0 Offset: 0x88A8D0 VA: 0x18088C2D0
+	// RVA: 0x88C3E0 Offset: 0x88A9E0 VA: 0x18088C3E0
 	private void SetupListeners() { }
 
-	// RVA: 0x88C130 Offset: 0x88A730 VA: 0x18088C130
+	// RVA: 0x88C240 Offset: 0x88A840 VA: 0x18088C240
 	private void OnToggleChanged(bool b) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -32,7 +32,7 @@ private sealed class ToggleGroupCookie.<>c // TypeDefIndex: 11239
 
 	// Methods
 
-	// RVA: 0x890460 Offset: 0x88EA60 VA: 0x180890460
+	// RVA: 0x890570 Offset: 0x88EB70 VA: 0x180890570
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

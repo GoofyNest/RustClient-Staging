@@ -4,7 +4,7 @@ public class AssemblyLoadEventArgs : EventArgs // TypeDefIndex: 348
 
 	// Methods
 
-	// RVA: 0x155B9C0 Offset: 0x1559FC0 VA: 0x18155B9C0
+	// RVA: 0x155BC80 Offset: 0x155A280 VA: 0x18155BC80
 	public void .ctor(Assembly loadedAssembly) { }
 
 }
@@ -15,10 +15,10 @@ public sealed class AssemblyLoadEventHandler : MulticastDelegate // TypeDefIndex
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xAE45C0 Offset: 0xAE2BC0 VA: 0x180AE45C0 Slot: 12
+	// RVA: 0xAE4880 Offset: 0xAE2E80 VA: 0x180AE4880 Slot: 12
 	public virtual void Invoke(object sender, AssemblyLoadEventArgs args) { }
 
-	// RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580 Slot: 13
+	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
 	public virtual IAsyncResult BeginInvoke(object sender, AssemblyLoadEventArgs args, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -53,7 +53,7 @@ public sealed class AssemblyCopyrightAttribute : Attribute // TypeDefIndex: 504
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string copyright) { }
 
 }
@@ -64,7 +64,7 @@ public sealed class AssemblyTrademarkAttribute : Attribute // TypeDefIndex: 505
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string trademark) { }
 
 }
@@ -75,7 +75,7 @@ public sealed class AssemblyProductAttribute : Attribute // TypeDefIndex: 506
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string product) { }
 
 }
@@ -86,7 +86,7 @@ public sealed class AssemblyCompanyAttribute : Attribute // TypeDefIndex: 507
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string company) { }
 
 }
@@ -97,7 +97,7 @@ public sealed class AssemblyDescriptionAttribute : Attribute // TypeDefIndex: 50
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string description) { }
 
 }
@@ -108,7 +108,7 @@ public sealed class AssemblyTitleAttribute : Attribute // TypeDefIndex: 509
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string title) { }
 
 }
@@ -119,7 +119,7 @@ public sealed class AssemblyConfigurationAttribute : Attribute // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string configuration) { }
 
 }
@@ -130,7 +130,7 @@ public sealed class AssemblyDefaultAliasAttribute : Attribute // TypeDefIndex: 5
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string defaultAlias) { }
 
 }
@@ -141,7 +141,7 @@ public sealed class AssemblyInformationalVersionAttribute : Attribute // TypeDef
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string informationalVersion) { }
 
 }
@@ -152,7 +152,7 @@ public sealed class AssemblyFileVersionAttribute : Attribute // TypeDefIndex: 51
 
 	// Methods
 
-	// RVA: 0x18C3620 Offset: 0x18C1C20 VA: 0x1818C3620
+	// RVA: 0x18C38E0 Offset: 0x18C1EE0 VA: 0x1818C38E0
 	public void .ctor(string version) { }
 
 }
@@ -163,7 +163,7 @@ public sealed class AssemblyKeyFileAttribute : Attribute // TypeDefIndex: 514
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string keyFile) { }
 
 }
@@ -174,7 +174,7 @@ public sealed class AssemblyDelaySignAttribute : Attribute // TypeDefIndex: 515
 
 	// Methods
 
-	// RVA: 0xFDCB80 Offset: 0xFDB180 VA: 0x180FDCB80
+	// RVA: 0xFDCE40 Offset: 0xFDB440 VA: 0x180FDCE40
 	public void .ctor(bool delaySign) { }
 
 }
@@ -186,7 +186,7 @@ public sealed class AssemblyMetadataAttribute : Attribute // TypeDefIndex: 516
 
 	// Methods
 
-	// RVA: 0x7ED280 Offset: 0x7EB880 VA: 0x1807ED280
+	// RVA: 0x7ED390 Offset: 0x7EB990 VA: 0x1807ED390
 	public void .ctor(string key, string value) { }
 
 }
@@ -234,186 +234,186 @@ public class Assembly : ICustomAttributeProvider, ISerializable, _Assembly // Ty
 
 	// Methods
 
-	// RVA: 0x18C6250 Offset: 0x18C4850 VA: 0x1818C6250
+	// RVA: 0x18C6510 Offset: 0x18C4B10 VA: 0x1818C6510
 	protected void .ctor() { }
 
-	// RVA: 0x18C4D70 Offset: 0x18C3370 VA: 0x1818C4D70
+	// RVA: 0x18C5030 Offset: 0x18C3630 VA: 0x1818C5030
 	private string get_code_base(bool escaped) { }
 
-	// RVA: 0x18C6320 Offset: 0x18C4920 VA: 0x1818C6320
+	// RVA: 0x18C65E0 Offset: 0x18C4BE0 VA: 0x1818C65E0
 	private string get_fullname() { }
 
-	// RVA: 0x18C6330 Offset: 0x18C4930 VA: 0x1818C6330
+	// RVA: 0x18C65F0 Offset: 0x18C4BF0 VA: 0x1818C65F0
 	private string get_location() { }
 
-	// RVA: 0x17C9C90 Offset: 0x17C8290 VA: 0x1817C9C90
+	// RVA: 0x17C9F50 Offset: 0x17C8550 VA: 0x1817C9F50
 	internal static string GetAotId() { }
 
-	// RVA: 0x18C4D70 Offset: 0x18C3370 VA: 0x1818C4D70
+	// RVA: 0x18C5030 Offset: 0x18C3630 VA: 0x1818C5030
 	private string GetCodeBase(bool escaped) { }
 
-	// RVA: 0x18C62C0 Offset: 0x18C48C0 VA: 0x1818C62C0 Slot: 8
+	// RVA: 0x18C6580 Offset: 0x18C4B80 VA: 0x1818C6580 Slot: 8
 	public virtual string get_CodeBase() { }
 
-	// RVA: 0xD86B30 Offset: 0xD85130 VA: 0x180D86B30 Slot: 9
+	// RVA: 0xD86DF0 Offset: 0xD853F0 VA: 0x180D86DF0 Slot: 9
 	public virtual string get_FullName() { }
 
-	// RVA: 0x18C62D0 Offset: 0x18C48D0 VA: 0x1818C62D0 Slot: 10
+	// RVA: 0x18C6590 Offset: 0x18C4B90 VA: 0x1818C6590 Slot: 10
 	public virtual string get_Location() { }
 
-	// RVA: 0x18C5850 Offset: 0x18C3E50 VA: 0x1818C5850 Slot: 11
+	// RVA: 0x18C5B10 Offset: 0x18C4110 VA: 0x1818C5B10 Slot: 11
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x18C6000 Offset: 0x18C4600 VA: 0x1818C6000 Slot: 12
+	// RVA: 0x18C62C0 Offset: 0x18C48C0 VA: 0x1818C62C0 Slot: 12
 	public virtual bool IsDefined(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18C4D80 Offset: 0x18C3380 VA: 0x1818C4D80 Slot: 13
+	// RVA: 0x18C5040 Offset: 0x18C3640 VA: 0x1818C5040 Slot: 13
 	public virtual object[] GetCustomAttributes(bool inherit) { }
 
-	// RVA: 0x18C4DF0 Offset: 0x18C33F0 VA: 0x1818C4DF0 Slot: 14
+	// RVA: 0x18C50B0 Offset: 0x18C36B0 VA: 0x1818C50B0 Slot: 14
 	public virtual object[] GetCustomAttributes(Type attributeType, bool inherit) { }
 
-	// RVA: 0x17C9C90 Offset: 0x17C8290 VA: 0x1817C9C90
+	// RVA: 0x17C9F50 Offset: 0x17C8550 VA: 0x1817C9F50
 	private object GetFilesInternal(string name, bool getResourceModules) { }
 
-	// RVA: 0x18C4EA0 Offset: 0x18C34A0 VA: 0x1818C4EA0 Slot: 15
+	// RVA: 0x18C5160 Offset: 0x18C3760 VA: 0x1818C5160 Slot: 15
 	public virtual FileStream GetFile(string name) { }
 
-	// RVA: 0x18C5110 Offset: 0x18C3710 VA: 0x1818C5110
+	// RVA: 0x18C53D0 Offset: 0x18C39D0 VA: 0x1818C53D0
 	internal IntPtr GetManifestResourceInternal(string name, out int size, out Module module) { }
 
-	// RVA: 0x18C5130 Offset: 0x18C3730 VA: 0x1818C5130 Slot: 16
+	// RVA: 0x18C53F0 Offset: 0x18C39F0 VA: 0x1818C53F0 Slot: 16
 	public virtual Stream GetManifestResourceStream(string name) { }
 
-	// RVA: 0x18C55B0 Offset: 0x18C3BB0 VA: 0x1818C55B0
+	// RVA: 0x18C5870 Offset: 0x18C3E70 VA: 0x1818C5870
 	internal Stream GetManifestResourceStream(Type type, string name, bool skipSecurityCheck, ref StackCrawlMark stackMark) { }
 
-	// RVA: 0x18C54A0 Offset: 0x18C3AA0 VA: 0x1818C54A0
+	// RVA: 0x18C5760 Offset: 0x18C3D60 VA: 0x1818C5760
 	internal Stream GetManifestResourceStream(string name, ref StackCrawlMark stackMark, bool skipSecurityCheck) { }
 
-	// RVA: 0x18C5B70 Offset: 0x18C4170 VA: 0x1818C5B70
+	// RVA: 0x18C5E30 Offset: 0x18C4430 VA: 0x1818C5E30
 	internal string GetSimpleName() { }
 
-	// RVA: 0x18C58A0 Offset: 0x18C3EA0 VA: 0x1818C58A0
+	// RVA: 0x18C5B60 Offset: 0x18C4160 VA: 0x1818C5B60
 	internal byte[] GetPublicKey() { }
 
-	// RVA: 0x18C5C70 Offset: 0x18C4270 VA: 0x1818C5C70
+	// RVA: 0x18C5F30 Offset: 0x18C4530 VA: 0x1818C5F30
 	internal Version GetVersion() { }
 
-	// RVA: 0x18C4FC0 Offset: 0x18C35C0 VA: 0x1818C4FC0
+	// RVA: 0x18C5280 Offset: 0x18C3880 VA: 0x1818C5280
 	private AssemblyNameFlags GetFlags() { }
 
-	// RVA: 0x18C5C60 Offset: 0x18C4260 VA: 0x1818C5C60 Slot: 17
+	// RVA: 0x18C5F20 Offset: 0x18C4520 VA: 0x1818C5F20 Slot: 17
 	internal virtual Type[] GetTypes(bool exportedOnly) { }
 
-	// RVA: 0x18C5C40 Offset: 0x18C4240 VA: 0x1818C5C40 Slot: 18
+	// RVA: 0x18C5F00 Offset: 0x18C4500 VA: 0x1818C5F00 Slot: 18
 	public virtual Type[] GetTypes() { }
 
-	// RVA: 0x18C5BE0 Offset: 0x18C41E0 VA: 0x1818C5BE0 Slot: 19
+	// RVA: 0x18C5EA0 Offset: 0x18C44A0 VA: 0x1818C5EA0 Slot: 19
 	public virtual Type GetType(string name, bool throwOnError) { }
 
-	// RVA: 0x18C5C10 Offset: 0x18C4210 VA: 0x1818C5C10 Slot: 20
+	// RVA: 0x18C5ED0 Offset: 0x18C44D0 VA: 0x1818C5ED0 Slot: 20
 	public virtual Type GetType(string name) { }
 
-	// RVA: 0x18C5FF0 Offset: 0x18C45F0 VA: 0x1818C5FF0
+	// RVA: 0x18C62B0 Offset: 0x18C48B0 VA: 0x1818C62B0
 	internal Type InternalGetType(Module module, string name, bool throwOnError, bool ignoreCase) { }
 
-	// RVA: 0x18C57E0 Offset: 0x18C3DE0 VA: 0x1818C57E0 Slot: 21
+	// RVA: 0x18C5AA0 Offset: 0x18C40A0 VA: 0x1818C5AA0 Slot: 21
 	public virtual AssemblyName GetName(bool copiedName) { }
 
-	// RVA: 0x18C5830 Offset: 0x18C3E30 VA: 0x1818C5830 Slot: 22
+	// RVA: 0x18C5AF0 Offset: 0x18C40F0 VA: 0x1818C5AF0 Slot: 22
 	public virtual AssemblyName GetName() { }
 
-	// RVA: 0x18C6220 Offset: 0x18C4820 VA: 0x1818C6220 Slot: 3
+	// RVA: 0x18C64E0 Offset: 0x18C4AE0 VA: 0x1818C64E0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x18C4CB0 Offset: 0x18C32B0 VA: 0x1818C4CB0
+	// RVA: 0x18C4F70 Offset: 0x18C3570 VA: 0x1818C4F70
 	public static Assembly GetAssembly(Type type) { }
 
-	// RVA: 0x18C5CB0 Offset: 0x18C42B0 VA: 0x1818C5CB0
+	// RVA: 0x18C5F70 Offset: 0x18C4570 VA: 0x1818C5F70
 	internal RuntimeAssembly InternalGetSatelliteAssembly(string name, CultureInfo culture, Version version, bool throwOnFileNotFound, ref StackCrawlMark stackMark) { }
 
-	// RVA: 0x18C6090 Offset: 0x18C4690 VA: 0x1818C6090
+	// RVA: 0x18C6350 Offset: 0x18C4950 VA: 0x1818C6350
 	private static Assembly LoadFrom(string assemblyFile, bool refonly) { }
 
-	// RVA: 0x18C6080 Offset: 0x18C4680 VA: 0x1818C6080
+	// RVA: 0x18C6340 Offset: 0x18C4940 VA: 0x1818C6340
 	public static Assembly LoadFrom(string assemblyFile) { }
 
 	[ObsoleteAttribute] // RVA: 0x9E110 Offset: 0x9D510 VA: 0x18009E110
-	// RVA: 0x18C6080 Offset: 0x18C4680 VA: 0x1818C6080
+	// RVA: 0x18C6340 Offset: 0x18C4940 VA: 0x1818C6340
 	public static Assembly LoadFrom(string assemblyFile, Evidence securityEvidence) { }
 
-	// RVA: 0x18C61C0 Offset: 0x18C47C0 VA: 0x1818C61C0
+	// RVA: 0x18C6480 Offset: 0x18C4A80 VA: 0x1818C6480
 	public static Assembly Load(string assemblyString) { }
 
-	// RVA: 0x18C61F0 Offset: 0x18C47F0 VA: 0x1818C61F0
+	// RVA: 0x18C64B0 Offset: 0x18C4AB0 VA: 0x1818C64B0
 	public static Assembly Load(AssemblyName assemblyRef) { }
 
-	// RVA: 0x18C6340 Offset: 0x18C4940 VA: 0x1818C6340
+	// RVA: 0x18C6600 Offset: 0x18C4C00 VA: 0x1818C6600
 	private static Assembly load_with_partial_name(string name, Evidence e) { }
 
 	[ObsoleteAttribute] // RVA: 0x9E240 Offset: 0x9D640 VA: 0x18009E240
-	// RVA: 0x18C60A0 Offset: 0x18C46A0 VA: 0x1818C60A0
+	// RVA: 0x18C6360 Offset: 0x18C4960 VA: 0x1818C6360
 	public static Assembly LoadWithPartialName(string partialName, Evidence securityEvidence) { }
 
-	// RVA: 0x18C6110 Offset: 0x18C4710 VA: 0x1818C6110
+	// RVA: 0x18C63D0 Offset: 0x18C49D0 VA: 0x1818C63D0
 	internal static Assembly LoadWithPartialName(string partialName, Evidence securityEvidence, bool oldBehavior) { }
 
-	// RVA: 0x18C5790 Offset: 0x18C3D90 VA: 0x1818C5790 Slot: 23
+	// RVA: 0x18C5A50 Offset: 0x18C4050 VA: 0x1818C5A50 Slot: 23
 	internal virtual Module[] GetModulesInternal() { }
 
-	// RVA: 0x18C5120 Offset: 0x18C3720 VA: 0x1818C5120 Slot: 24
+	// RVA: 0x18C53E0 Offset: 0x18C39E0 VA: 0x1818C53E0 Slot: 24
 	public virtual string[] GetManifestResourceNames() { }
 
-	// RVA: 0x18C4E70 Offset: 0x18C3470 VA: 0x1818C4E70
+	// RVA: 0x18C5130 Offset: 0x18C3730 VA: 0x1818C5130
 	public static Assembly GetExecutingAssembly() { }
 
-	// RVA: 0x18C4D60 Offset: 0x18C3360 VA: 0x1818C4D60
+	// RVA: 0x18C5020 Offset: 0x18C3620 VA: 0x1818C5020
 	public static Assembly GetCallingAssembly() { }
 
-	// RVA: 0x18C5CA0 Offset: 0x18C42A0 VA: 0x1818C5CA0
+	// RVA: 0x18C5F60 Offset: 0x18C4560 VA: 0x1818C5F60
 	internal static IntPtr InternalGetReferencedAssemblies(Assembly module) { }
 
-	// RVA: 0x18C58D0 Offset: 0x18C3ED0 VA: 0x1818C58D0
+	// RVA: 0x18C5B90 Offset: 0x18C4190 VA: 0x1818C5B90
 	internal static AssemblyName[] GetReferencedAssemblies(Assembly module) { }
 
-	// RVA: 0x18C4FF0 Offset: 0x18C35F0 VA: 0x1818C4FF0
+	// RVA: 0x18C52B0 Offset: 0x18C38B0 VA: 0x1818C52B0
 	private bool GetManifestResourceInfoInternal(string name, ManifestResourceInfo info) { }
 
-	// RVA: 0x18C5000 Offset: 0x18C3600 VA: 0x1818C5000 Slot: 25
+	// RVA: 0x18C52C0 Offset: 0x18C38C0 VA: 0x1818C52C0 Slot: 25
 	public virtual ManifestResourceInfo GetManifestResourceInfo(string resourceName) { }
 
-	// RVA: 0xD69700 Offset: 0xD67D00 VA: 0x180D69700 Slot: 26
+	// RVA: 0xD699C0 Offset: 0xD67FC0 VA: 0x180D699C0 Slot: 26
 	public virtual bool get_ReflectionOnly() { }
 
-	// RVA: 0xCCE560 Offset: 0xCCCB60 VA: 0x180CCE560 Slot: 2
+	// RVA: 0xCCE820 Offset: 0xCCCE20 VA: 0x180CCE820 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x18C4BC0 Offset: 0x18C31C0 VA: 0x1818C4BC0 Slot: 0
+	// RVA: 0x18C4E80 Offset: 0x18C3480 VA: 0x1818C4E80 Slot: 0
 	public override bool Equals(object o) { }
 
-	// RVA: 0x18C4B70 Offset: 0x18C3170 VA: 0x1818C4B70
+	// RVA: 0x18C4E30 Offset: 0x18C3430 VA: 0x1818C4E30
 	private static Exception CreateNIE() { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250
 	public bool get_IsFullyTrusted() { }
 
-	// RVA: 0x18C5BA0 Offset: 0x18C41A0 VA: 0x1818C5BA0 Slot: 27
+	// RVA: 0x18C5E60 Offset: 0x18C4460 VA: 0x1818C5E60 Slot: 27
 	public virtual Type GetType(string name, bool throwOnError, bool ignoreCase) { }
 
-	// RVA: 0x18C5750 Offset: 0x18C3D50 VA: 0x1818C5750 Slot: 28
+	// RVA: 0x18C5A10 Offset: 0x18C4010 VA: 0x1818C5A10 Slot: 28
 	public virtual Module GetModule(string name) { }
 
-	// RVA: 0x18C5B30 Offset: 0x18C4130 VA: 0x1818C5B30 Slot: 29
+	// RVA: 0x18C5DF0 Offset: 0x18C43F0 VA: 0x1818C5DF0 Slot: 29
 	public virtual AssemblyName[] GetReferencedAssemblies() { }
 
-	// RVA: 0x18C57A0 Offset: 0x18C3DA0 VA: 0x1818C57A0 Slot: 30
+	// RVA: 0x18C5A60 Offset: 0x18C4060 VA: 0x1818C5A60 Slot: 30
 	public virtual Module[] GetModules(bool getResourceModules) { }
 
-	// RVA: 0x18C6350 Offset: 0x18C4950 VA: 0x1818C6350
+	// RVA: 0x18C6610 Offset: 0x18C4C10 VA: 0x1818C6610
 	public static bool op_Equality(Assembly left, Assembly right) { }
 
-	// RVA: 0x18C63A0 Offset: 0x18C49A0 VA: 0x1818C63A0
+	// RVA: 0x18C6660 Offset: 0x18C4C60 VA: 0x1818C6660
 	public static bool op_Inequality(Assembly left, Assembly right) { }
 
 }
@@ -432,10 +432,10 @@ internal class Assembly.UnmanagedMemoryStreamForModule : UnmanagedMemoryStream /
 
 	// Methods
 
-	// RVA: 0x18D7DF0 Offset: 0x18D63F0 VA: 0x1818D7DF0
+	// RVA: 0x18D80B0 Offset: 0x18D66B0 VA: 0x1818D80B0
 	public void .ctor(byte* pointer, long length, Module module) { }
 
-	// RVA: 0x18D7DA0 Offset: 0x18D63A0 VA: 0x1818D7DA0 Slot: 17
+	// RVA: 0x18D8060 Offset: 0x18D6660 VA: 0x1818D8060 Slot: 17
 	protected override void Dispose(bool disposing) { }
 
 }
@@ -470,16 +470,16 @@ public sealed class AssemblyName : ICloneable, ISerializable, IDeserializationCa
 
 	// Methods
 
-	// RVA: 0x18C4650 Offset: 0x18C2C50 VA: 0x1818C4650
+	// RVA: 0x18C4910 Offset: 0x18C2F10 VA: 0x1818C4910
 	public void .ctor() { }
 
-	// RVA: 0x18C3FE0 Offset: 0x18C25E0 VA: 0x1818C3FE0
+	// RVA: 0x18C42A0 Offset: 0x18C28A0 VA: 0x1818C42A0
 	private static bool ParseAssemblyName(IntPtr name, out MonoAssemblyName aname, out bool is_version_definited, out bool is_token_defined) { }
 
-	// RVA: 0x18C4050 Offset: 0x18C2650 VA: 0x1818C4050
+	// RVA: 0x18C4310 Offset: 0x18C2910 VA: 0x1818C4310
 	public void .ctor(string assemblyName) { }
 
-	// RVA: 0x18C4290 Offset: 0x18C2890 VA: 0x1818C4290
+	// RVA: 0x18C4550 Offset: 0x18C2B50 VA: 0x1818C4550
 	internal void .ctor(SerializationInfo si, StreamingContext sc) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
@@ -497,61 +497,61 @@ public sealed class AssemblyName : ICloneable, ISerializable, IDeserializationCa
 	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
 	public void set_CultureInfo(CultureInfo value) { }
 
-	// RVA: 0x6BB940 Offset: 0x6B9F40 VA: 0x1806BB940
+	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50
 	public AssemblyNameFlags get_Flags() { }
 
-	// RVA: 0xC74910 Offset: 0xC72F10 VA: 0x180C74910
+	// RVA: 0xC74BD0 Offset: 0xC731D0 VA: 0x180C74BD0
 	public void set_Flags(AssemblyNameFlags value) { }
 
-	// RVA: 0x18C4670 Offset: 0x18C2C70 VA: 0x1818C4670
+	// RVA: 0x18C4930 Offset: 0x18C2F30 VA: 0x1818C4930
 	public string get_FullName() { }
 
 	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
 	public Version get_Version() { }
 
-	// RVA: 0x18C4AC0 Offset: 0x18C30C0 VA: 0x1818C4AC0
+	// RVA: 0x18C4D80 Offset: 0x18C3380 VA: 0x1818C4D80
 	public void set_Version(Version value) { }
 
-	// RVA: 0x18C4020 Offset: 0x18C2620 VA: 0x1818C4020 Slot: 3
+	// RVA: 0x18C42E0 Offset: 0x18C28E0 VA: 0x1818C42E0 Slot: 3
 	public override string ToString() { }
 
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	public byte[] GetPublicKey() { }
 
-	// RVA: 0x18C3E00 Offset: 0x18C2400 VA: 0x1818C3E00
+	// RVA: 0x18C40C0 Offset: 0x18C26C0 VA: 0x1818C40C0
 	public byte[] GetPublicKeyToken() { }
 
-	// RVA: 0x18C4A10 Offset: 0x18C3010 VA: 0x1818C4A10
+	// RVA: 0x18C4CD0 Offset: 0x18C32D0 VA: 0x1818C4CD0
 	private bool get_IsPublicKeyValid() { }
 
-	// RVA: 0x18C3F00 Offset: 0x18C2500 VA: 0x1818C3F00
+	// RVA: 0x18C41C0 Offset: 0x18C27C0 VA: 0x1818C41C0
 	private byte[] InternalGetPublicKeyToken() { }
 
-	// RVA: 0xD72E30 Offset: 0xD71430 VA: 0x180D72E30
+	// RVA: 0xD730F0 Offset: 0xD716F0 VA: 0x180D730F0
 	private static void get_public_token(byte* token, byte* pubkey, int len) { }
 
-	// RVA: 0x18C37B0 Offset: 0x18C1DB0 VA: 0x1818C37B0
+	// RVA: 0x18C3A70 Offset: 0x18C2070 VA: 0x1818C3A70
 	private byte[] ComputePublicKeyToken() { }
 
-	// RVA: 0x18C3FF0 Offset: 0x18C25F0 VA: 0x1818C3FF0
+	// RVA: 0x18C42B0 Offset: 0x18C28B0 VA: 0x1818C42B0
 	public void SetPublicKey(byte[] publicKey) { }
 
-	// RVA: 0x18C3C00 Offset: 0x18C2200 VA: 0x1818C3C00 Slot: 5
+	// RVA: 0x18C3EC0 Offset: 0x18C24C0 VA: 0x1818C3EC0 Slot: 5
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x18C36B0 Offset: 0x18C1CB0 VA: 0x1818C36B0 Slot: 4
+	// RVA: 0x18C3970 Offset: 0x18C1F70 VA: 0x1818C3970 Slot: 4
 	public object Clone() { }
 
-	// RVA: 0x18C3FD0 Offset: 0x18C25D0 VA: 0x1818C3FD0 Slot: 6
+	// RVA: 0x18C4290 Offset: 0x18C2890 VA: 0x1818C4290 Slot: 6
 	public void OnDeserialization(object sender) { }
 
-	// RVA: 0x18C3BF0 Offset: 0x18C21F0 VA: 0x1818C3BF0
+	// RVA: 0x18C3EB0 Offset: 0x18C24B0 VA: 0x1818C3EB0
 	private static MonoAssemblyName* GetNativeName(IntPtr assembly_ptr) { }
 
-	// RVA: 0x18C3910 Offset: 0x18C1F10 VA: 0x1818C3910
+	// RVA: 0x18C3BD0 Offset: 0x18C21D0 VA: 0x1818C3BD0
 	internal void FillName(MonoAssemblyName* native, string codeBase, bool addVersion, bool addPublickey, bool defaultToken, bool assemblyRef) { }
 
-	// RVA: 0x18C3840 Offset: 0x18C1E40 VA: 0x1818C3840
+	// RVA: 0x18C3B00 Offset: 0x18C2100 VA: 0x1818C3B00
 	internal static AssemblyName Create(Assembly assembly, bool fillCodebase) { }
 
 }

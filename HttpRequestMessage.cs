@@ -18,10 +18,10 @@ public class HttpRequestMessage : IDisposable // TypeDefIndex: 5754
 
 	// Methods
 
-	// RVA: 0x108FE60 Offset: 0x108E460 VA: 0x18108FE60
+	// RVA: 0x1090120 Offset: 0x108E720 VA: 0x181090120
 	public void .ctor(HttpMethod method, string requestUri) { }
 
-	// RVA: 0x108FF80 Offset: 0x108E580 VA: 0x18108FF80
+	// RVA: 0x1090240 Offset: 0x108E840 VA: 0x181090240
 	public void .ctor(HttpMethod method, Uri requestUri) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -29,40 +29,40 @@ public class HttpRequestMessage : IDisposable // TypeDefIndex: 5754
 	public HttpContent get_Content() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	public void set_Content(HttpContent value) { }
 
-	// RVA: 0x1090040 Offset: 0x108E640 VA: 0x181090040
+	// RVA: 0x1090300 Offset: 0x108E900 VA: 0x181090300
 	public HttpRequestHeaders get_Headers() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public HttpMethod get_Method() { }
 
-	// RVA: 0x1090160 Offset: 0x108E760 VA: 0x181090160
+	// RVA: 0x1090420 Offset: 0x108EA20 VA: 0x181090420
 	public void set_Method(HttpMethod value) { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public Uri get_RequestUri() { }
 
-	// RVA: 0x1090200 Offset: 0x108E800 VA: 0x181090200
+	// RVA: 0x10904C0 Offset: 0x108EAC0 VA: 0x1810904C0
 	public void set_RequestUri(Uri value) { }
 
-	// RVA: 0x108FA70 Offset: 0x108E070 VA: 0x18108FA70
+	// RVA: 0x108FD30 Offset: 0x108E330 VA: 0x18108FD30
 	private static bool IsAllowedAbsoluteUri(Uri uri) { }
 
-	// RVA: 0x10900F0 Offset: 0x108E6F0 VA: 0x1810900F0
+	// RVA: 0x10903B0 Offset: 0x108E9B0 VA: 0x1810903B0
 	public Version get_Version() { }
 
-	// RVA: 0x100F0B0 Offset: 0x100D6B0 VA: 0x18100F0B0 Slot: 4
+	// RVA: 0x100F370 Offset: 0x100D970 VA: 0x18100F370 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x108FA40 Offset: 0x108E040 VA: 0x18108FA40 Slot: 5
+	// RVA: 0x108FD00 Offset: 0x108E300 VA: 0x18108FD00 Slot: 5
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x108FBE0 Offset: 0x108E1E0 VA: 0x18108FBE0
+	// RVA: 0x108FEA0 Offset: 0x108E4A0 VA: 0x18108FEA0
 	internal bool SetIsUsed() { }
 
-	// RVA: 0x108FBF0 Offset: 0x108E1F0 VA: 0x18108FBF0 Slot: 3
+	// RVA: 0x108FEB0 Offset: 0x108E4B0 VA: 0x18108FEB0 Slot: 3
 	public override string ToString() { }
 
 }

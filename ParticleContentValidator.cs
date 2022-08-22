@@ -10,82 +10,82 @@ internal sealed class ParticleContentValidator : ContentValidator // TypeDefInde
 
 	// Methods
 
-	// RVA: 0xB18DC0 Offset: 0xB173C0 VA: 0x180B18DC0
+	// RVA: 0xB19080 Offset: 0xB17680 VA: 0x180B19080
 	public void .ctor(XmlSchemaContentType contentType) { }
 
-	// RVA: 0xB18D40 Offset: 0xB17340 VA: 0x180B18D40
+	// RVA: 0xB19000 Offset: 0xB17600 VA: 0x180B19000
 	public void .ctor(XmlSchemaContentType contentType, bool enableUpaCheck) { }
 
-	// RVA: 0xB18B70 Offset: 0xB17170 VA: 0x180B18B70 Slot: 5
+	// RVA: 0xB18E30 Offset: 0xB17430 VA: 0x180B18E30 Slot: 5
 	public override void InitValidation(ValidationState context) { }
 
-	// RVA: 0xB18CF0 Offset: 0xB172F0 VA: 0x180B18CF0 Slot: 6
+	// RVA: 0xB18FB0 Offset: 0xB175B0 VA: 0x180B18FB0 Slot: 6
 	public override object ValidateElement(XmlQualifiedName name, ValidationState context, out int errorCode) { }
 
-	// RVA: 0xB18110 Offset: 0xB16710 VA: 0x180B18110 Slot: 7
+	// RVA: 0xB183D0 Offset: 0xB169D0 VA: 0x180B183D0 Slot: 7
 	public override bool CompleteValidation(ValidationState context) { }
 
-	// RVA: 0xB18BF0 Offset: 0xB171F0 VA: 0x180B18BF0
+	// RVA: 0xB18EB0 Offset: 0xB174B0 VA: 0x180B18EB0
 	public void Start() { }
 
-	// RVA: 0xB18BC0 Offset: 0xB171C0 VA: 0x180B18BC0
+	// RVA: 0xB18E80 Offset: 0xB17480 VA: 0x180B18E80
 	public void OpenGroup() { }
 
-	// RVA: 0xB17DB0 Offset: 0xB163B0 VA: 0x180B17DB0
+	// RVA: 0xB18070 Offset: 0xB16670 VA: 0x180B18070
 	public void CloseGroup() { }
 
-	// RVA: 0xB18160 Offset: 0xB16760 VA: 0x180B18160
+	// RVA: 0xB18420 Offset: 0xB16A20 VA: 0x180B18420
 	public bool Exists(XmlQualifiedName name) { }
 
-	// RVA: 0xB16B30 Offset: 0xB15130 VA: 0x180B16B30
+	// RVA: 0xB16DF0 Offset: 0xB153F0 VA: 0x180B16DF0
 	public void AddName(XmlQualifiedName name, object particle) { }
 
-	// RVA: 0xB16BE0 Offset: 0xB151E0 VA: 0x180B16BE0
+	// RVA: 0xB16EA0 Offset: 0xB154A0 VA: 0x180B16EA0
 	public void AddNamespaceList(NamespaceList namespaceList, object particle) { }
 
-	// RVA: 0xB16940 Offset: 0xB14F40 VA: 0x180B16940
+	// RVA: 0xB16C00 Offset: 0xB15200 VA: 0x180B16C00
 	private void AddLeafNode(SyntaxTreeNode node) { }
 
-	// RVA: 0xB16840 Offset: 0xB14E40 VA: 0x180B16840
+	// RVA: 0xB16B00 Offset: 0xB15100 VA: 0x180B16B00
 	public void AddChoice() { }
 
-	// RVA: 0xB16D60 Offset: 0xB15360 VA: 0x180B16D60
+	// RVA: 0xB17020 Offset: 0xB15620 VA: 0x180B17020
 	public void AddSequence() { }
 
-	// RVA: 0xB16E60 Offset: 0xB15460 VA: 0x180B16E60
+	// RVA: 0xB17120 Offset: 0xB15720 VA: 0x180B17120
 	public void AddStar() { }
 
-	// RVA: 0xB16CA0 Offset: 0xB152A0 VA: 0x180B16CA0
+	// RVA: 0xB16F60 Offset: 0xB15560 VA: 0x180B16F60
 	public void AddPlus() { }
 
-	// RVA: 0xB16D00 Offset: 0xB15300 VA: 0x180B16D00
+	// RVA: 0xB16FC0 Offset: 0xB155C0 VA: 0x180B16FC0
 	public void AddQMark() { }
 
-	// RVA: 0xB16A50 Offset: 0xB15050 VA: 0x180B16A50
+	// RVA: 0xB16D10 Offset: 0xB15310 VA: 0x180B16D10
 	public void AddLeafRange(Decimal min, Decimal max) { }
 
-	// RVA: 0xB17F50 Offset: 0xB16550 VA: 0x180B17F50
+	// RVA: 0xB18210 Offset: 0xB16810 VA: 0x180B18210
 	private void Closure(InteriorNode node) { }
 
-	// RVA: 0xB18190 Offset: 0xB16790 VA: 0x180B18190
+	// RVA: 0xB18450 Offset: 0xB16A50 VA: 0x180B18450
 	public ContentValidator Finish(bool useDFA) { }
 
-	// RVA: 0xB17480 Offset: 0xB15A80 VA: 0x180B17480
+	// RVA: 0xB17740 Offset: 0xB15D40 VA: 0x180B17740
 	private BitSet[] CalculateTotalFollowposForRangeNodes(BitSet firstpos, BitSet[] followpos, out BitSet posWithRangeTerminals) { }
 
-	// RVA: 0xB17840 Offset: 0xB15E40 VA: 0x180B17840
+	// RVA: 0xB17B00 Offset: 0xB16100 VA: 0x180B17B00
 	private void CheckCMUPAWithLeafRangeNodes(BitSet curpos) { }
 
-	// RVA: 0xB18970 Offset: 0xB16F70 VA: 0x180B18970
+	// RVA: 0xB18C30 Offset: 0xB17230 VA: 0x180B18C30
 	private BitSet GetApplicableMinMaxFollowPos(BitSet curpos, BitSet posWithRangeTerminals, BitSet[] minmaxFollowPos) { }
 
-	// RVA: 0xB17D00 Offset: 0xB16300 VA: 0x180B17D00
+	// RVA: 0xB17FC0 Offset: 0xB165C0 VA: 0x180B17FC0
 	private void CheckUniqueParticleAttribution(BitSet firstpos, BitSet[] followpos) { }
 
-	// RVA: 0xB17A60 Offset: 0xB16060 VA: 0x180B17A60
+	// RVA: 0xB17D20 Offset: 0xB16320 VA: 0x180B17D20
 	private void CheckUniqueParticleAttribution(BitSet curpos) { }
 
-	// RVA: 0xB16EC0 Offset: 0xB154C0 VA: 0x180B16EC0
+	// RVA: 0xB17180 Offset: 0xB15780 VA: 0x180B17180
 	private int[][] BuildTransitionTable(BitSet firstpos, BitSet[] followpos, int endMarkerPos) { }
 
 }

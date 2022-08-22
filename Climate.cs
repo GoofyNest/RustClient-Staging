@@ -274,13 +274,13 @@ public class Climate.Value4<T> // TypeDefIndex: 9832
 	public float FindBlendParameters(TOD_Sky sky, out T src, out T dst) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15EA1B0 Offset: 0x15E87B0 VA: 0x1815EA1B0
+	|-RVA: 0x15EA470 Offset: 0x15E8A70 VA: 0x1815EA470
 	|-Climate.Value4<object>.FindBlendParameters
 	|
-	|-RVA: 0x15EA400 Offset: 0x15E8A00 VA: 0x1815EA400
+	|-RVA: 0x15EA6C0 Offset: 0x15E8CC0 VA: 0x1815EA6C0
 	|-Climate.Value4<float>.FindBlendParameters
 	|
-	|-RVA: 0x15E9F90 Offset: 0x15E8590 VA: 0x1815E9F90
+	|-RVA: 0x15EA250 Offset: 0x15E8850 VA: 0x1815EA250
 	|-Climate.Value4<Color>.FindBlendParameters
 	*/
 
@@ -288,7 +288,7 @@ public class Climate.Value4<T> // TypeDefIndex: 9832
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-Climate.Value4<object>..ctor
 	|-Climate.Value4<float>..ctor
 	|-Climate.Value4<Color>..ctor

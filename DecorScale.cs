@@ -5,10 +5,10 @@ public class DecorScale : DecorComponent // TypeDefIndex: 10328
 
 	// Methods
 
-	// RVA: 0x842D70 Offset: 0x841370 VA: 0x180842D70 Slot: 8
+	// RVA: 0x842E80 Offset: 0x841480 VA: 0x180842E80 Slot: 8
 	public override void Apply(ref Vector3 pos, ref Quaternion rot, ref Vector3 scale) { }
 
-	// RVA: 0x842EF0 Offset: 0x8414F0 VA: 0x180842EF0
+	// RVA: 0x843000 Offset: 0x841600 VA: 0x180843000
 	public void .ctor() { }
 
 }

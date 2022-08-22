@@ -7,10 +7,10 @@ public class CompilationRelaxationsAttribute : Attribute // TypeDefIndex: 1300
 
 	// Methods
 
-	// RVA: 0xB11110 Offset: 0xB0F710 VA: 0x180B11110
+	// RVA: 0xB113D0 Offset: 0xB0F9D0 VA: 0x180B113D0
 	public void .ctor(int relaxations) { }
 
-	// RVA: 0xB11110 Offset: 0xB0F710 VA: 0x180B11110
+	// RVA: 0xB113D0 Offset: 0xB0F9D0 VA: 0x180B113D0
 	public void .ctor(CompilationRelaxations relaxations) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00

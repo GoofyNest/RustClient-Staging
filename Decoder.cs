@@ -12,7 +12,7 @@ public abstract class Decoder // TypeDefIndex: 433
 
 	// Methods
 
-	// RVA: 0x18ADDB0 Offset: 0x18AC3B0 VA: 0x1818ADDB0
+	// RVA: 0x18AE070 Offset: 0x18AC670 VA: 0x1818AE070
 	internal void SerializeDecoder(SerializationInfo info) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -21,46 +21,46 @@ public abstract class Decoder // TypeDefIndex: 433
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public DecoderFallback get_Fallback() { }
 
-	// RVA: 0x18ADE10 Offset: 0x18AC410 VA: 0x1818ADE10
+	// RVA: 0x18AE0D0 Offset: 0x18AC6D0 VA: 0x1818AE0D0
 	public DecoderFallbackBuffer get_FallbackBuffer() { }
 
-	// RVA: 0x17CB140 Offset: 0x17C9740 VA: 0x1817CB140
+	// RVA: 0x17CB400 Offset: 0x17C9A00 VA: 0x1817CB400
 	internal bool get_InternalHasFallbackBuffer() { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x18ADCE0 Offset: 0x18AC2E0 VA: 0x1818ADCE0 Slot: 4
+	// RVA: 0x18ADFA0 Offset: 0x18AC5A0 VA: 0x1818ADFA0 Slot: 4
 	public virtual void Reset() { }
 
 	// RVA: -1 Offset: -1 Slot: 5
 	public abstract int GetCharCount(byte[] bytes, int index, int count);
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x18ADA70 Offset: 0x18AC070 VA: 0x1818ADA70 Slot: 6
+	// RVA: 0x18ADD30 Offset: 0x18AC330 VA: 0x1818ADD30 Slot: 6
 	public virtual int GetCharCount(byte[] bytes, int index, int count, bool flush) { }
 
 	[ComVisibleAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
 	[CLSCompliantAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
-	// RVA: 0x18AD920 Offset: 0x18ABF20 VA: 0x1818AD920 Slot: 7
+	// RVA: 0x18ADBE0 Offset: 0x18AC1E0 VA: 0x1818ADBE0 Slot: 7
 	public virtual int GetCharCount(byte* bytes, int count, bool flush) { }
 
 	// RVA: -1 Offset: -1 Slot: 8
 	public abstract int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex);
 
-	// RVA: 0x18ADCC0 Offset: 0x18AC2C0 VA: 0x1818ADCC0 Slot: 9
+	// RVA: 0x18ADF80 Offset: 0x18AC580 VA: 0x1818ADF80 Slot: 9
 	public virtual int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex, bool flush) { }
 
 	[CLSCompliantAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
 	[ComVisibleAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
-	// RVA: 0x18ADA90 Offset: 0x18AC090 VA: 0x1818ADA90 Slot: 10
+	// RVA: 0x18ADD50 Offset: 0x18AC350 VA: 0x1818ADD50 Slot: 10
 	public virtual int GetChars(byte* bytes, int byteCount, char* chars, int charCount, bool flush) { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x18AD5B0 Offset: 0x18ABBB0 VA: 0x1818AD5B0 Slot: 11
+	// RVA: 0x18AD870 Offset: 0x18ABE70 VA: 0x1818AD870 Slot: 11
 	public virtual void Convert(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex, int charCount, bool flush, out int bytesUsed, out int charsUsed, out bool completed) { }
 
 	[ComVisibleAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
 	[CLSCompliantAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
-	// RVA: 0x18AD370 Offset: 0x18AB970 VA: 0x1818AD370 Slot: 12
+	// RVA: 0x18AD630 Offset: 0x18ABC30 VA: 0x1818AD630 Slot: 12
 	public virtual void Convert(byte* bytes, int byteCount, char* chars, int charCount, bool flush, out int bytesUsed, out int charsUsed, out bool completed) { }
 
 }
@@ -149,46 +149,46 @@ public sealed class Decoder : IDisposable // TypeDefIndex: 11568
 
 	// Methods
 
-	// RVA: 0x877230 Offset: 0x875830 VA: 0x180877230
+	// RVA: 0x877340 Offset: 0x875940 VA: 0x180877340
 	private void .ctor(string jsonString) { }
 
-	// RVA: 0x8770B0 Offset: 0x8756B0 VA: 0x1808770B0
+	// RVA: 0x8771C0 Offset: 0x8757C0 VA: 0x1808771C0
 	public static Variant Decode(string jsonString) { }
 
-	// RVA: 0x8771F0 Offset: 0x8757F0 VA: 0x1808771F0 Slot: 4
+	// RVA: 0x877300 Offset: 0x875900 VA: 0x180877300 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x876AF0 Offset: 0x8750F0 VA: 0x180876AF0
+	// RVA: 0x876C00 Offset: 0x875200 VA: 0x180876C00
 	private ProxyObject DecodeObject() { }
 
-	// RVA: 0x8766F0 Offset: 0x874CF0 VA: 0x1808766F0
+	// RVA: 0x876800 Offset: 0x874E00 VA: 0x180876800
 	private ProxyArray DecodeArray() { }
 
-	// RVA: 0x877080 Offset: 0x875680 VA: 0x180877080
+	// RVA: 0x877190 Offset: 0x875790 VA: 0x180877190
 	private Variant DecodeValue() { }
 
-	// RVA: 0x876820 Offset: 0x874E20 VA: 0x180876820
+	// RVA: 0x876930 Offset: 0x874F30 VA: 0x180876930
 	private Variant DecodeByToken(Decoder.Token token) { }
 
-	// RVA: 0x876D50 Offset: 0x875350 VA: 0x180876D50
+	// RVA: 0x876E60 Offset: 0x875460 VA: 0x180876E60
 	private Variant DecodeString() { }
 
-	// RVA: 0x876A90 Offset: 0x875090 VA: 0x180876A90
+	// RVA: 0x876BA0 Offset: 0x8751A0 VA: 0x180876BA0
 	private Variant DecodeNumber() { }
 
-	// RVA: 0x876640 Offset: 0x874C40 VA: 0x180876640
+	// RVA: 0x876750 Offset: 0x874D50 VA: 0x180876750
 	private void ConsumeWhiteSpace() { }
 
-	// RVA: 0x8776C0 Offset: 0x875CC0 VA: 0x1808776C0
+	// RVA: 0x8777D0 Offset: 0x875DD0 VA: 0x1808777D0
 	private char get_PeekChar() { }
 
-	// RVA: 0x8772B0 Offset: 0x8758B0 VA: 0x1808772B0
+	// RVA: 0x8773C0 Offset: 0x8759C0 VA: 0x1808773C0
 	private char get_NextChar() { }
 
-	// RVA: 0x8775D0 Offset: 0x875BD0 VA: 0x1808775D0
+	// RVA: 0x8776E0 Offset: 0x875CE0 VA: 0x1808776E0
 	private string get_NextWord() { }
 
-	// RVA: 0x877330 Offset: 0x875930 VA: 0x180877330
+	// RVA: 0x877440 Offset: 0x875A40 VA: 0x180877440
 	private Decoder.Token get_NextToken() { }
 
 }

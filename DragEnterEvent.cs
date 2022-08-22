@@ -1,13 +1,13 @@
 public class DragEnterEvent : DragAndDropEventBase<DragEnterEvent> // TypeDefIndex: 4635
 {	// Methods
 
-	// RVA: 0xEA9D20 Offset: 0xEA8320 VA: 0x180EA9D20 Slot: 12
+	// RVA: 0xEA9FE0 Offset: 0xEA85E0 VA: 0x180EA9FE0 Slot: 12
 	protected override void Init() { }
 
-	// RVA: 0xEA9D60 Offset: 0xEA8360 VA: 0x180EA9D60
+	// RVA: 0xEAA020 Offset: 0xEA8620 VA: 0x180EAA020
 	private void LocalInit() { }
 
-	// RVA: 0xEA9D70 Offset: 0xEA8370 VA: 0x180EA9D70
+	// RVA: 0xEAA030 Offset: 0xEA8630 VA: 0x180EAA030
 	public void .ctor() { }
 
 }

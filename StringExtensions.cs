@@ -8,58 +8,58 @@ public static class StringExtensions // TypeDefIndex: 4846
 	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2270720 Offset: 0x226ED20 VA: 0x182270720
+	// RVA: 0x22709E0 Offset: 0x226EFE0 VA: 0x1822709E0
 	public static string QuoteSafe(string str) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2270A80 Offset: 0x226F080 VA: 0x182270A80
+	// RVA: 0x2270D40 Offset: 0x226F340 VA: 0x182270D40
 	public static string[] SplitQuotesStrings(string input, int maxCount = 2147483647) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2270D80 Offset: 0x226F380 VA: 0x182270D80
+	// RVA: 0x2271040 Offset: 0x226F640 VA: 0x182271040
 	public static Decimal ToDecimal(string str, Decimal Default) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2270E00 Offset: 0x226F400 VA: 0x182270E00
+	// RVA: 0x22710C0 Offset: 0x226F6C0 VA: 0x1822710C0
 	public static float ToFloat(string str, float Default = 0) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2270EF0 Offset: 0x226F4F0 VA: 0x182270EF0
+	// RVA: 0x22711B0 Offset: 0x226F7B0 VA: 0x1822711B0
 	public static int ToInt(string str, int Default = 0) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2270C40 Offset: 0x226F240 VA: 0x182270C40
+	// RVA: 0x2270F00 Offset: 0x226F500 VA: 0x182270F00
 	public static bool ToBool(string str) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2271290 Offset: 0x226F890 VA: 0x182271290
+	// RVA: 0x2271550 Offset: 0x226FB50 VA: 0x182271550
 	public static string Truncate(string str, int maxLength, string appendage) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22710D0 Offset: 0x226F6D0 VA: 0x1822710D0
+	// RVA: 0x2271390 Offset: 0x226F990 VA: 0x182271390
 	public static string TruncateFilename(string str, int maxLength, string appendage) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22706F0 Offset: 0x226ECF0 VA: 0x1822706F0
+	// RVA: 0x22709B0 Offset: 0x226EFB0 VA: 0x1822709B0
 	public static bool Contains(string source, string toCheck, StringComparison comp) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22708E0 Offset: 0x226EEE0 VA: 0x1822708E0
+	// RVA: 0x2270BA0 Offset: 0x226F1A0 VA: 0x182270BA0
 	public static string Snippet(string source, string find, int padding) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22707D0 Offset: 0x226EDD0 VA: 0x1822707D0
+	// RVA: 0x2270A90 Offset: 0x226F090 VA: 0x182270A90
 	public static string RemoveBadCharacters(string str) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2270670 Offset: 0x226EC70 VA: 0x182270670
+	// RVA: 0x2270930 Offset: 0x226EF30 VA: 0x182270930
 	public static string Base64Encode(string plainText) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22705F0 Offset: 0x226EBF0 VA: 0x1822705F0
+	// RVA: 0x22708B0 Offset: 0x226EEB0 VA: 0x1822708B0
 	public static string Base64Decode(string base64EncodedData) { }
 
-	// RVA: 0x2271310 Offset: 0x226F910 VA: 0x182271310
+	// RVA: 0x22715D0 Offset: 0x226FBD0 VA: 0x1822715D0
 	private static void .cctor() { }
 
 }
@@ -71,13 +71,13 @@ private sealed class StringExtensions.<>c // TypeDefIndex: 4847
 
 	// Methods
 
-	// RVA: 0x2271540 Offset: 0x226FB40 VA: 0x182271540
+	// RVA: 0x2271800 Offset: 0x226FE00 VA: 0x182271800
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x22714C0 Offset: 0x226FAC0 VA: 0x1822714C0
+	// RVA: 0x2271780 Offset: 0x226FD80 VA: 0x182271780
 	internal bool <RemoveBadCharacters>b__14_0(char x) { }
 
 }
@@ -86,15 +86,15 @@ public static class StringExtensions // TypeDefIndex: 5604
 {	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21BCE30 Offset: 0x21BB430 VA: 0x1821BCE30
+	// RVA: 0x21BD0F0 Offset: 0x21BB6F0 VA: 0x1821BD0F0
 	public static string BBCodeToUnity(string x) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21BD070 Offset: 0x21BB670 VA: 0x1821BD070
+	// RVA: 0x21BD330 Offset: 0x21BB930 VA: 0x1821BD330
 	public static Vector3 ToVector3(string str) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21BCEA0 Offset: 0x21BB4A0 VA: 0x1821BCEA0
+	// RVA: 0x21BD160 Offset: 0x21BB760 VA: 0x1821BD160
 	public static Color ToColor(string str) { }
 
 }

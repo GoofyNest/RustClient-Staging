@@ -36,7 +36,7 @@ public struct Vector2Int : IEquatable<Vector2Int> // TypeDefIndex: 3471
 	// RVA: 0x235920 Offset: 0x234D20 VA: 0x180235920 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x2181780 Offset: 0x217FD80 VA: 0x182181780
+	// RVA: 0x2181A40 Offset: 0x2180040 VA: 0x182181A40
 	private static void .cctor() { }
 
 }

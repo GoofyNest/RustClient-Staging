@@ -23,28 +23,28 @@ public class DeferredDecalSystem // TypeDefIndex: 10652
 
 	// Methods
 
-	// RVA: 0x846D40 Offset: 0x845340 VA: 0x180846D40
+	// RVA: 0x846E50 Offset: 0x845450 VA: 0x180846E50
 	public static bool get_IsEmpty() { }
 
-	// RVA: 0x845D90 Offset: 0x844390 VA: 0x180845D90
+	// RVA: 0x845EA0 Offset: 0x8444A0 VA: 0x180845EA0
 	public static void Clear() { }
 
-	// RVA: 0x845F70 Offset: 0x844570 VA: 0x180845F70
+	// RVA: 0x846080 Offset: 0x844680 VA: 0x180846080
 	private static ListHashSet<DeferredDecal> GetList(DeferredDecal decal, ListDictionary<InstancingKey, ListHashSet<DeferredDecal>> dict, int pass) { }
 
-	// RVA: 0x8459D0 Offset: 0x843FD0 VA: 0x1808459D0
+	// RVA: 0x845AE0 Offset: 0x8440E0 VA: 0x180845AE0
 	public static void AddDecal(DeferredDecal decal) { }
 
-	// RVA: 0x846130 Offset: 0x844730 VA: 0x180846130
+	// RVA: 0x846240 Offset: 0x844840 VA: 0x180846240
 	public static void RemoveDecal(DeferredDecal decal) { }
 
-	// RVA: 0x8460D0 Offset: 0x8446D0 VA: 0x1808460D0
+	// RVA: 0x8461E0 Offset: 0x8447E0 VA: 0x1808461E0
 	public static void RefreshDecal(DeferredDecal decal) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8463A0 Offset: 0x8449A0 VA: 0x1808463A0
+	// RVA: 0x8464B0 Offset: 0x844AB0 VA: 0x1808464B0
 	private static void .cctor() { }
 
 }

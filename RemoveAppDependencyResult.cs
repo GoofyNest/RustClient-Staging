@@ -17,7 +17,7 @@ internal struct RemoveAppDependencyResult_t : ICallbackData // TypeDefIndex: 544
 	// RVA: 0x1D7930 Offset: 0x1D6D30 VA: 0x1801D7930 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E830 Offset: 0x128CE30 VA: 0x18128E830
+	// RVA: 0x128EAF0 Offset: 0x128D0F0 VA: 0x18128EAF0
 	private static void .cctor() { }
 
 }

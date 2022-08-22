@@ -7,10 +7,10 @@ public class WaterPump : LiquidContainer // TypeDefIndex: 9522
 
 	// Methods
 
-	// RVA: 0xC1A220 Offset: 0xC18820 VA: 0x180C1A220 Slot: 150
+	// RVA: 0xC1A4E0 Offset: 0xC18AE0 VA: 0x180C1A4E0 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0xC1A230 Offset: 0xC18830 VA: 0x180C1A230
+	// RVA: 0xC1A4F0 Offset: 0xC18AF0 VA: 0x180C1A4F0
 	public void .ctor() { }
 
 }

@@ -12,25 +12,25 @@ public class uiPlayerPreview : SingletonComponent<uiPlayerPreview> // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1A95220 Offset: 0x1A93820 VA: 0x181A95220
+	// RVA: 0x1A954E0 Offset: 0x1A93AE0 VA: 0x181A954E0
 	public static void Create() { }
 
-	// RVA: 0x1A95310 Offset: 0x1A93910 VA: 0x181A95310
+	// RVA: 0x1A955D0 Offset: 0x1A93BD0 VA: 0x181A955D0
 	private void Start() { }
 
-	// RVA: 0x1A953A0 Offset: 0x1A939A0 VA: 0x181A953A0
+	// RVA: 0x1A95660 Offset: 0x1A93C60 VA: 0x181A95660
 	public void UpdateFrom(BasePlayer player) { }
 
-	// RVA: 0x1A95430 Offset: 0x1A93A30 VA: 0x181A95430
+	// RVA: 0x1A956F0 Offset: 0x1A93CF0 VA: 0x181A956F0
 	private void Update() { }
 
-	// RVA: 0x1A95180 Offset: 0x1A93780 VA: 0x181A95180
+	// RVA: 0x1A95440 Offset: 0x1A93A40 VA: 0x181A95440
 	private void CleanupLayers() { }
 
-	// RVA: 0x1A95A70 Offset: 0x1A94070 VA: 0x181A95A70
+	// RVA: 0x1A95D30 Offset: 0x1A94330 VA: 0x181A95D30
 	public void .ctor() { }
 
-	// RVA: 0x1A959E0 Offset: 0x1A93FE0 VA: 0x181A959E0
+	// RVA: 0x1A95CA0 Offset: 0x1A942A0 VA: 0x181A95CA0
 	private static void .cctor() { }
 
 }

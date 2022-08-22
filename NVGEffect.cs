@@ -13,31 +13,31 @@ public class NVGEffect : PostEffectsBase, IImageEffect // TypeDefIndex: 8678
 
 	// Methods
 
-	// RVA: 0x7C6540 Offset: 0x7C4B40 VA: 0x1807C6540
+	// RVA: 0x7C6650 Offset: 0x7C4C50 VA: 0x1807C6650
 	private void Awake() { }
 
-	// RVA: 0x7C67D0 Offset: 0x7C4DD0 VA: 0x1807C67D0
+	// RVA: 0x7C68E0 Offset: 0x7C4EE0 VA: 0x1807C68E0
 	private void OnDestroy() { }
 
-	// RVA: 0x7C7340 Offset: 0x7C5940 VA: 0x1807C7340
+	// RVA: 0x7C7450 Offset: 0x7C5A50 VA: 0x1807C7450
 	private void UpdateColorCorrectionTexture(NVGEffect.ColorCorrectionParams param, ref Texture2D tex) { }
 
-	// RVA: 0x7C76B0 Offset: 0x7C5CB0 VA: 0x1807C76B0
+	// RVA: 0x7C77C0 Offset: 0x7C5DC0 VA: 0x1807C77C0
 	public void UpdateTextures() { }
 
-	// RVA: 0x7C6550 Offset: 0x7C4B50 VA: 0x1807C6550 Slot: 4
+	// RVA: 0x7C6660 Offset: 0x7C4C60 VA: 0x1807C6660 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x7C6740 Offset: 0x7C4D40 VA: 0x1807C6740 Slot: 5
+	// RVA: 0x7C6850 Offset: 0x7C4E50 VA: 0x1807C6850 Slot: 5
 	public bool IsActive() { }
 
-	// RVA: 0x7C6980 Offset: 0x7C4F80 VA: 0x1807C6980 Slot: 6
+	// RVA: 0x7C6A90 Offset: 0x7C5090 VA: 0x1807C6A90 Slot: 6
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x7C7770 Offset: 0x7C5D70 VA: 0x1807C7770
+	// RVA: 0x7C7880 Offset: 0x7C5E80 VA: 0x1807C7880
 	public void .ctor() { }
 
-	// RVA: 0x7C7730 Offset: 0x7C5D30 VA: 0x1807C7730
+	// RVA: 0x7C7840 Offset: 0x7C5E40 VA: 0x1807C7840
 	private static void .cctor() { }
 
 }

@@ -20,40 +20,40 @@ public sealed class X509ChainPolicy // TypeDefIndex: 2828
 
 	// Methods
 
-	// RVA: 0x14D8F00 Offset: 0x14D7500 VA: 0x1814D8F00
+	// RVA: 0x14D91C0 Offset: 0x14D77C0 VA: 0x1814D91C0
 	public void .ctor() { }
 
-	// RVA: 0x14D8EC0 Offset: 0x14D74C0 VA: 0x1814D8EC0
+	// RVA: 0x14D9180 Offset: 0x14D7780 VA: 0x1814D9180
 	internal void .ctor(X509CertificateCollection store) { }
 
-	// RVA: 0x14D8F20 Offset: 0x14D7520 VA: 0x1814D8F20
+	// RVA: 0x14D91E0 Offset: 0x14D77E0 VA: 0x1814D91E0
 	public X509Certificate2Collection get_ExtraStore() { }
 
-	// RVA: 0xA38CE0 Offset: 0xA372E0 VA: 0x180A38CE0
+	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
 	public X509RevocationFlag get_RevocationFlag() { }
 
-	// RVA: 0x14D91E0 Offset: 0x14D77E0 VA: 0x1814D91E0
+	// RVA: 0x14D94A0 Offset: 0x14D7AA0 VA: 0x1814D94A0
 	public void set_RevocationFlag(X509RevocationFlag value) { }
 
 	// RVA: 0x5E2F40 Offset: 0x5E1540 VA: 0x1805E2F40
 	public X509RevocationMode get_RevocationMode() { }
 
-	// RVA: 0x14D9250 Offset: 0x14D7850 VA: 0x1814D9250
+	// RVA: 0x14D9510 Offset: 0x14D7B10 VA: 0x1814D9510
 	public void set_RevocationMode(X509RevocationMode value) { }
 
-	// RVA: 0xC15040 Offset: 0xC13640 VA: 0x180C15040
+	// RVA: 0xC15300 Offset: 0xC13900 VA: 0x180C15300
 	public void set_UrlRetrievalTimeout(TimeSpan value) { }
 
 	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
 	public X509VerificationFlags get_VerificationFlags() { }
 
-	// RVA: 0x14D92C0 Offset: 0x14D78C0 VA: 0x1814D92C0
+	// RVA: 0x14D9580 Offset: 0x14D7B80 VA: 0x1814D9580
 	public void set_VerificationFlags(X509VerificationFlags value) { }
 
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	public DateTime get_VerificationTime() { }
 
-	// RVA: 0x14D8DB0 Offset: 0x14D73B0 VA: 0x1814D8DB0
+	// RVA: 0x14D9070 Offset: 0x14D7670 VA: 0x1814D9070
 	public void Reset() { }
 
 }

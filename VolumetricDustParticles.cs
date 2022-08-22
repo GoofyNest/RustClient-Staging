@@ -30,56 +30,56 @@ public class VolumetricDustParticles : MonoBehaviour // TypeDefIndex: 11556
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1040 Offset: 0x8BF640 VA: 0x1808C1040
+	// RVA: 0x8C1150 Offset: 0x8BF750 VA: 0x1808C1150
 	public bool get_isCulled() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x78E170 Offset: 0x78C770 VA: 0x18078E170
+	// RVA: 0x78E280 Offset: 0x78C880 VA: 0x18078E280
 	private void set_isCulled(bool value) { }
 
-	// RVA: 0xAE0BE0 Offset: 0xADF1E0 VA: 0x180AE0BE0
+	// RVA: 0xAE0EA0 Offset: 0xADF4A0 VA: 0x180AE0EA0
 	public bool get_particlesAreInstantiated() { }
 
-	// RVA: 0xAE0C40 Offset: 0xADF240 VA: 0x180AE0C40
+	// RVA: 0xAE0F00 Offset: 0xADF500 VA: 0x180AE0F00
 	public int get_particlesCurrentCount() { }
 
-	// RVA: 0xAE0CD0 Offset: 0xADF2D0 VA: 0x180AE0CD0
+	// RVA: 0xAE0F90 Offset: 0xADF590 VA: 0x180AE0F90
 	public int get_particlesMaxCount() { }
 
-	// RVA: 0xAE09C0 Offset: 0xADEFC0 VA: 0x180AE09C0
+	// RVA: 0xAE0C80 Offset: 0xADF280 VA: 0x180AE0C80
 	public Camera get_mainCamera() { }
 
-	// RVA: 0xAE04A0 Offset: 0xADEAA0 VA: 0x180AE04A0
+	// RVA: 0xAE0760 Offset: 0xADED60 VA: 0x180AE0760
 	private void Start() { }
 
-	// RVA: 0xADF9E0 Offset: 0xADDFE0 VA: 0x180ADF9E0
+	// RVA: 0xADFCA0 Offset: 0xADE2A0 VA: 0x180ADFCA0
 	private void InstantiateParticleSystem() { }
 
-	// RVA: 0xADFCD0 Offset: 0xADE2D0 VA: 0x180ADFCD0
+	// RVA: 0xADFF90 Offset: 0xADE590 VA: 0x180ADFF90
 	private void OnEnable() { }
 
-	// RVA: 0xADFCE0 Offset: 0xADE2E0 VA: 0x180ADFCE0
+	// RVA: 0xADFFA0 Offset: 0xADE5A0 VA: 0x180ADFFA0
 	private void SetActiveAndPlay() { }
 
-	// RVA: 0xADFC40 Offset: 0xADE240 VA: 0x180ADFC40
+	// RVA: 0xADFF00 Offset: 0xADE500 VA: 0x180ADFF00
 	private void OnDisable() { }
 
-	// RVA: 0xADFB80 Offset: 0xADE180 VA: 0x180ADFB80
+	// RVA: 0xADFE40 Offset: 0xADE440 VA: 0x180ADFE40
 	private void OnDestroy() { }
 
-	// RVA: 0xAE08E0 Offset: 0xADEEE0 VA: 0x180AE08E0
+	// RVA: 0xAE0BA0 Offset: 0xADF1A0 VA: 0x180AE0BA0
 	private void Update() { }
 
-	// RVA: 0xADFD90 Offset: 0xADE390 VA: 0x180ADFD90
+	// RVA: 0xAE0050 Offset: 0xADE650 VA: 0x180AE0050
 	private void SetParticleProperties() { }
 
-	// RVA: 0xAE0560 Offset: 0xADEB60 VA: 0x180AE0560
+	// RVA: 0xAE0820 Offset: 0xADEE20 VA: 0x180AE0820
 	private void UpdateCulling() { }
 
-	// RVA: 0xAE0980 Offset: 0xADEF80 VA: 0x180AE0980
+	// RVA: 0xAE0C40 Offset: 0xADF240 VA: 0x180AE0C40
 	public void .ctor() { }
 
-	// RVA: 0xAE0910 Offset: 0xADEF10 VA: 0x180AE0910
+	// RVA: 0xAE0BD0 Offset: 0xADF1D0 VA: 0x180AE0BD0
 	private static void .cctor() { }
 
 }

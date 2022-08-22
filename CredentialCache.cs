@@ -4,7 +4,7 @@ public class CredentialCache // TypeDefIndex: 2871
 
 	// Methods
 
-	// RVA: 0x1528F50 Offset: 0x1527550 VA: 0x181528F50
+	// RVA: 0x1529210 Offset: 0x1527810 VA: 0x181529210
 	public static ICredentials get_DefaultCredentials() { }
 
 }

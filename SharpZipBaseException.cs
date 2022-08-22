@@ -1,10 +1,10 @@
 internal class SharpZipBaseException : Exception // TypeDefIndex: 5653
 {	// Methods
 
-	// RVA: 0x2303920 Offset: 0x2301F20 VA: 0x182303920
+	// RVA: 0x2303BE0 Offset: 0x23021E0 VA: 0x182303BE0
 	public void .ctor() { }
 
-	// RVA: 0x2303980 Offset: 0x2301F80 VA: 0x182303980
+	// RVA: 0x2303C40 Offset: 0x2302240 VA: 0x182303C40
 	public void .ctor(string msg) { }
 
 }

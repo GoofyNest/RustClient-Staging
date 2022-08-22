@@ -8,7 +8,7 @@ public class ResourceDispenser : EntityComponent<BaseEntity>, IServerComponent /
 
 	// Methods
 
-	// RVA: 0x955E60 Offset: 0x954460 VA: 0x180955E60
+	// RVA: 0x955F70 Offset: 0x954570 VA: 0x180955F70
 	public void .ctor() { }
 
 }

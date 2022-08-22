@@ -1,22 +1,22 @@
 internal class KeyHelper // TypeDefIndex: 2056
 {	// Methods
 
-	// RVA: 0x1100C30 Offset: 0x10FF230 VA: 0x181100C30
+	// RVA: 0x1100EF0 Offset: 0x10FF4F0 VA: 0x181100EF0
 	public static void AddField(StringBuilder sb, int n, string val) { }
 
-	// RVA: 0x1100AD0 Offset: 0x10FF0D0 VA: 0x181100AD0
+	// RVA: 0x1100D90 Offset: 0x10FF390 VA: 0x181100D90
 	public static void AddField(StringBuilder sb, int n, string val, string def) { }
 
-	// RVA: 0x1100BB0 Offset: 0x10FF1B0 VA: 0x181100BB0
+	// RVA: 0x1100E70 Offset: 0x10FF470 VA: 0x181100E70
 	public static void AddField(StringBuilder sb, int n, bool val) { }
 
-	// RVA: 0x1100BF0 Offset: 0x10FF1F0 VA: 0x181100BF0
+	// RVA: 0x1100EB0 Offset: 0x10FF4B0 VA: 0x181100EB0
 	public static void AddField(StringBuilder sb, int n, bool val, bool def) { }
 
-	// RVA: 0x1100A10 Offset: 0x10FF010 VA: 0x181100A10
+	// RVA: 0x1100CD0 Offset: 0x10FF2D0 VA: 0x181100CD0
 	public static void AddField(StringBuilder sb, int n, int val, int def) { }
 
-	// RVA: 0x1100930 Offset: 0x10FEF30 VA: 0x181100930
+	// RVA: 0x1100BF0 Offset: 0x10FF1F0 VA: 0x181100BF0
 	public static void AddField(StringBuilder sb, int n, Type val) { }
 
 }

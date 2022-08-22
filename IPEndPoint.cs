@@ -15,10 +15,10 @@ public class IPEndPoint : EndPoint // TypeDefIndex: 2883
 
 	// Methods
 
-	// RVA: 0x1344A20 Offset: 0x1343020 VA: 0x181344A20 Slot: 4
+	// RVA: 0x1344CE0 Offset: 0x13432E0 VA: 0x181344CE0 Slot: 4
 	public override AddressFamily get_AddressFamily() { }
 
-	// RVA: 0x1344930 Offset: 0x1342F30 VA: 0x181344930
+	// RVA: 0x1344BF0 Offset: 0x13431F0 VA: 0x181344BF0
 	public void .ctor(IPAddress address, int port) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
@@ -27,22 +27,22 @@ public class IPEndPoint : EndPoint // TypeDefIndex: 2883
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
 	public int get_Port() { }
 
-	// RVA: 0x1344790 Offset: 0x1342D90 VA: 0x181344790 Slot: 3
+	// RVA: 0x1344A50 Offset: 0x1343050 VA: 0x181344A50 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1344720 Offset: 0x1342D20 VA: 0x181344720 Slot: 5
+	// RVA: 0x13449E0 Offset: 0x1342FE0 VA: 0x1813449E0 Slot: 5
 	public override SocketAddress Serialize() { }
 
-	// RVA: 0x1344200 Offset: 0x1342800 VA: 0x181344200 Slot: 6
+	// RVA: 0x13444C0 Offset: 0x1342AC0 VA: 0x1813444C0 Slot: 6
 	public override EndPoint Create(SocketAddress socketAddress) { }
 
-	// RVA: 0x1344510 Offset: 0x1342B10 VA: 0x181344510 Slot: 0
+	// RVA: 0x13447D0 Offset: 0x1342DD0 VA: 0x1813447D0 Slot: 0
 	public override bool Equals(object comparand) { }
 
-	// RVA: 0x13446E0 Offset: 0x1342CE0 VA: 0x1813446E0 Slot: 2
+	// RVA: 0x13449A0 Offset: 0x1342FA0 VA: 0x1813449A0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1344840 Offset: 0x1342E40 VA: 0x181344840
+	// RVA: 0x1344B00 Offset: 0x1343100 VA: 0x181344B00
 	private static void .cctor() { }
 
 }

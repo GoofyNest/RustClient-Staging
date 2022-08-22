@@ -29,115 +29,115 @@ public class Regex : ISerializable // TypeDefIndex: 2600
 
 	// Methods
 
-	// RVA: 0x14CE780 Offset: 0x14CCD80 VA: 0x1814CE780
+	// RVA: 0x14CEA40 Offset: 0x14CD040 VA: 0x1814CEA40
 	protected void .ctor() { }
 
-	// RVA: 0x14CDEF0 Offset: 0x14CC4F0 VA: 0x1814CDEF0
+	// RVA: 0x14CE1B0 Offset: 0x14CC7B0 VA: 0x1814CE1B0
 	public void .ctor(string pattern) { }
 
-	// RVA: 0x14CE590 Offset: 0x14CCB90 VA: 0x1814CE590
+	// RVA: 0x14CE850 Offset: 0x14CCE50 VA: 0x1814CE850
 	public void .ctor(string pattern, RegexOptions options) { }
 
-	// RVA: 0x14CDF80 Offset: 0x14CC580 VA: 0x1814CDF80
+	// RVA: 0x14CE240 Offset: 0x14CC840 VA: 0x1814CE240
 	private void .ctor(string pattern, RegexOptions options, TimeSpan matchTimeout, bool useCache) { }
 
-	// RVA: 0x14CE630 Offset: 0x14CCC30 VA: 0x1814CE630
+	// RVA: 0x14CE8F0 Offset: 0x14CCEF0 VA: 0x1814CE8F0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x14CDB80 Offset: 0x14CC180 VA: 0x1814CDB80 Slot: 4
+	// RVA: 0x14CDE40 Offset: 0x14CC440 VA: 0x1814CDE40 Slot: 4
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo si, StreamingContext context) { }
 
-	// RVA: 0x14CDC50 Offset: 0x14CC250 VA: 0x1814CDC50
+	// RVA: 0x14CDF10 Offset: 0x14CC510 VA: 0x1814CDF10
 	protected internal static void ValidateMatchTimeout(TimeSpan matchTimeout) { }
 
-	// RVA: 0x14CC1A0 Offset: 0x14CA7A0 VA: 0x1814CC1A0
+	// RVA: 0x14CC460 Offset: 0x14CAA60 VA: 0x1814CC460
 	private static TimeSpan InitDefaultMatchTimeout() { }
 
-	// RVA: 0x14CBE80 Offset: 0x14CA480 VA: 0x1814CBE80
+	// RVA: 0x14CC140 Offset: 0x14CA740 VA: 0x1814CC140
 	public static string Escape(string str) { }
 
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	public RegexOptions get_Options() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public TimeSpan get_MatchTimeout() { }
 
-	// RVA: 0x14CDC40 Offset: 0x14CC240 VA: 0x1814CDC40
+	// RVA: 0x14CDF00 Offset: 0x14CC500 VA: 0x1814CDF00
 	public bool get_RightToLeft() { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x14CBF10 Offset: 0x14CA510 VA: 0x1814CBF10
+	// RVA: 0x14CC1D0 Offset: 0x14CA7D0 VA: 0x1814CC1D0
 	public string GroupNameFromNumber(int i) { }
 
-	// RVA: 0x14CC080 Offset: 0x14CA680 VA: 0x1814CC080
+	// RVA: 0x14CC340 Offset: 0x14CA940 VA: 0x1814CC340
 	public int GroupNumberFromName(string name) { }
 
-	// RVA: 0x14CC540 Offset: 0x14CAB40 VA: 0x1814CC540
+	// RVA: 0x14CC800 Offset: 0x14CAE00 VA: 0x1814CC800
 	public static bool IsMatch(string input, string pattern) { }
 
-	// RVA: 0x14CC7A0 Offset: 0x14CADA0 VA: 0x1814CC7A0
+	// RVA: 0x14CCA60 Offset: 0x14CB060 VA: 0x1814CCA60
 	public static bool IsMatch(string input, string pattern, RegexOptions options, TimeSpan matchTimeout) { }
 
-	// RVA: 0x14CC6C0 Offset: 0x14CACC0 VA: 0x1814CC6C0
+	// RVA: 0x14CC980 Offset: 0x14CAF80 VA: 0x1814CC980
 	public bool IsMatch(string input) { }
 
-	// RVA: 0x14CC490 Offset: 0x14CAA90 VA: 0x1814CC490
+	// RVA: 0x14CC750 Offset: 0x14CAD50 VA: 0x1814CC750
 	public bool IsMatch(string input, int startat) { }
 
-	// RVA: 0x14CCC60 Offset: 0x14CB260 VA: 0x1814CCC60
+	// RVA: 0x14CCF20 Offset: 0x14CB520 VA: 0x1814CCF20
 	public static Match Match(string input, string pattern) { }
 
-	// RVA: 0x14CCB30 Offset: 0x14CB130 VA: 0x1814CCB30
+	// RVA: 0x14CCDF0 Offset: 0x14CB3F0 VA: 0x1814CCDF0
 	public static Match Match(string input, string pattern, RegexOptions options) { }
 
-	// RVA: 0x14CCDC0 Offset: 0x14CB3C0 VA: 0x1814CCDC0
+	// RVA: 0x14CD080 Offset: 0x14CB680 VA: 0x1814CD080
 	public static Match Match(string input, string pattern, RegexOptions options, TimeSpan matchTimeout) { }
 
-	// RVA: 0x14CCCF0 Offset: 0x14CB2F0 VA: 0x1814CCCF0
+	// RVA: 0x14CCFB0 Offset: 0x14CB5B0 VA: 0x1814CCFB0
 	public Match Match(string input) { }
 
-	// RVA: 0x14CCBC0 Offset: 0x14CB1C0 VA: 0x1814CCBC0
+	// RVA: 0x14CCE80 Offset: 0x14CB480 VA: 0x1814CCE80
 	public Match Match(string input, int startat) { }
 
-	// RVA: 0x14CD0B0 Offset: 0x14CB6B0 VA: 0x1814CD0B0
+	// RVA: 0x14CD370 Offset: 0x14CB970 VA: 0x1814CD370
 	public static MatchCollection Matches(string input, string pattern) { }
 
-	// RVA: 0x14CD140 Offset: 0x14CB740 VA: 0x1814CD140
+	// RVA: 0x14CD400 Offset: 0x14CBA00 VA: 0x1814CD400
 	public static MatchCollection Matches(string input, string pattern, RegexOptions options, TimeSpan matchTimeout) { }
 
-	// RVA: 0x14CCF00 Offset: 0x14CB500 VA: 0x1814CCF00
+	// RVA: 0x14CD1C0 Offset: 0x14CB7C0 VA: 0x1814CD1C0
 	public MatchCollection Matches(string input) { }
 
-	// RVA: 0x14CD350 Offset: 0x14CB950 VA: 0x1814CD350
+	// RVA: 0x14CD610 Offset: 0x14CBC10 VA: 0x1814CD610
 	public MatchCollection Matches(string input, int startat) { }
 
-	// RVA: 0x14CD4E0 Offset: 0x14CBAE0 VA: 0x1814CD4E0
+	// RVA: 0x14CD7A0 Offset: 0x14CBDA0 VA: 0x1814CD7A0
 	public string Replace(string input, string replacement) { }
 
-	// RVA: 0x14CD590 Offset: 0x14CBB90 VA: 0x1814CD590
+	// RVA: 0x14CD850 Offset: 0x14CBE50 VA: 0x1814CD850
 	public string Replace(string input, string replacement, int count, int startat) { }
 
-	// RVA: 0x14CC3C0 Offset: 0x14CA9C0 VA: 0x1814CC3C0
+	// RVA: 0x14CC680 Offset: 0x14CAC80 VA: 0x1814CC680
 	protected void InitializeReferences() { }
 
-	// RVA: 0x14CD750 Offset: 0x14CBD50 VA: 0x1814CD750
+	// RVA: 0x14CDA10 Offset: 0x14CC010 VA: 0x1814CDA10
 	internal Match Run(bool quick, int prevlen, string input, int beginning, int length, int startat) { }
 
-	// RVA: 0x14CC8F0 Offset: 0x14CAEF0 VA: 0x1814CC8F0
+	// RVA: 0x14CCBB0 Offset: 0x14CB1B0 VA: 0x1814CCBB0
 	private static CachedCodeEntry LookupCachedAndUpdate(string key) { }
 
-	// RVA: 0x14CBA60 Offset: 0x14CA060 VA: 0x1814CBA60
+	// RVA: 0x14CBD20 Offset: 0x14CA320 VA: 0x1814CBD20
 	private CachedCodeEntry CacheCode(string key) { }
 
-	// RVA: 0x14CDC40 Offset: 0x14CC240 VA: 0x1814CDC40
+	// RVA: 0x14CDF00 Offset: 0x14CC500 VA: 0x1814CDF00
 	protected bool UseOptionR() { }
 
-	// RVA: 0x14CDC30 Offset: 0x14CC230 VA: 0x1814CDC30
+	// RVA: 0x14CDEF0 Offset: 0x14CC4F0 VA: 0x1814CDEF0
 	internal bool UseOptionInvariant() { }
 
-	// RVA: 0x14CDDC0 Offset: 0x14CC3C0 VA: 0x1814CDDC0
+	// RVA: 0x14CE080 Offset: 0x14CC680 VA: 0x1814CE080
 	private static void .cctor() { }
 
 }

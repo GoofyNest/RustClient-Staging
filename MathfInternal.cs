@@ -9,7 +9,7 @@ public struct MathfInternal // TypeDefIndex: 3292
 
 	// Methods
 
-	// RVA: 0x2177F90 Offset: 0x2176590 VA: 0x182177F90
+	// RVA: 0x2178250 Offset: 0x2176850 VA: 0x182178250
 	private static void .cctor() { }
 
 }

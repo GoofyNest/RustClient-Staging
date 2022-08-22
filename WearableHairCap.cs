@@ -12,13 +12,13 @@ public class WearableHairCap : MonoBehaviour // TypeDefIndex: 9256
 
 	// Methods
 
-	// RVA: 0x8F12D0 Offset: 0x8EF8D0 VA: 0x1808F12D0
+	// RVA: 0x8F13E0 Offset: 0x8EF9E0 VA: 0x1808F13E0
 	public void ApplyHairCap(MaterialPropertyBlock block) { }
 
-	// RVA: 0x8F1560 Offset: 0x8EFB60 VA: 0x1808F1560
+	// RVA: 0x8F1670 Offset: 0x8EFC70 VA: 0x1808F1670
 	public void .ctor() { }
 
-	// RVA: 0x8F14C0 Offset: 0x8EFAC0 VA: 0x1808F14C0
+	// RVA: 0x8F15D0 Offset: 0x8EFBD0 VA: 0x1808F15D0
 	private static void .cctor() { }
 
 }

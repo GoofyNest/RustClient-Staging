@@ -10,18 +10,18 @@ public abstract class ChannelEvent : MidiEvent // TypeDefIndex: 7515
 
 	// Methods
 
-	// RVA: 0x13960D0 Offset: 0x13946D0 VA: 0x1813960D0
+	// RVA: 0x1396390 Offset: 0x1394990 VA: 0x181396390
 	protected void .ctor(MidiEventType eventType) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB10410 Offset: 0xB0EA10 VA: 0x180B10410
+	// RVA: 0xB106D0 Offset: 0xB0ECD0 VA: 0x180B106D0
 	public FourBitNumber get_Channel() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE30020 Offset: 0xE2E620 VA: 0x180E30020
+	// RVA: 0xE302E0 Offset: 0xE2E8E0 VA: 0x180E302E0
 	public void set_Channel(FourBitNumber value) { }
 
-	// RVA: 0x13968D0 Offset: 0x1394ED0 VA: 0x1813968D0
+	// RVA: 0x1396B90 Offset: 0x1395190 VA: 0x181396B90
 	protected byte ReadDataByte(MidiReader reader, ReadingSettings settings) { }
 
 }

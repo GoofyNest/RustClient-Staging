@@ -21,19 +21,19 @@ public class TechTreeSelectedNodeUI : MonoBehaviour // TypeDefIndex: 10917
 
 	// Methods
 
-	// RVA: 0x7AF9D0 Offset: 0x7ADFD0 VA: 0x1807AF9D0
+	// RVA: 0x7AFAE0 Offset: 0x7AE0E0 VA: 0x1807AFAE0
 	public void Start() { }
 
-	// RVA: 0x7AF9D0 Offset: 0x7ADFD0 VA: 0x1807AF9D0
+	// RVA: 0x7AFAE0 Offset: 0x7AE0E0 VA: 0x1807AFAE0
 	public void HideIP() { }
 
-	// RVA: 0x7AFA50 Offset: 0x7AE050 VA: 0x1807AFA50
+	// RVA: 0x7AFB60 Offset: 0x7AE160 VA: 0x1807AFB60
 	public void TryUnlock() { }
 
-	// RVA: 0x7AEF20 Offset: 0x7AD520 VA: 0x1807AEF20
+	// RVA: 0x7AF030 Offset: 0x7AD630 VA: 0x1807AF030
 	public void DoSelection(TechTreeData.NodeInstance node) { }
 
-	// RVA: 0x7AFA70 Offset: 0x7AE070 VA: 0x1807AFA70
+	// RVA: 0x7AFB80 Offset: 0x7AE180 VA: 0x1807AFB80
 	public void .ctor() { }
 
 }

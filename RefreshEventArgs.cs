@@ -5,10 +5,10 @@ public class RefreshEventArgs : EventArgs // TypeDefIndex: 2744
 
 	// Methods
 
-	// RVA: 0x17338E0 Offset: 0x1731EE0 VA: 0x1817338E0
+	// RVA: 0x1733BA0 Offset: 0x17321A0 VA: 0x181733BA0
 	public void .ctor(object componentChanged) { }
 
-	// RVA: 0x1733970 Offset: 0x1731F70 VA: 0x181733970
+	// RVA: 0x1733C30 Offset: 0x1732230 VA: 0x181733C30
 	public void .ctor(Type typeChanged) { }
 
 }

@@ -10,7 +10,7 @@ internal class MSCompatUnicodeTableUtil // TypeDefIndex: 37
 
 	// Methods
 
-	// RVA: 0x1643AA0 Offset: 0x16420A0 VA: 0x181643AA0
+	// RVA: 0x1643D60 Offset: 0x1642360 VA: 0x181643D60
 	private static void .cctor() { }
 
 }

@@ -5,7 +5,7 @@ public class TargetTrigger : TriggerBase // TypeDefIndex: 9578
 
 	// Methods
 
-	// RVA: 0x7A8C20 Offset: 0x7A7220 VA: 0x1807A8C20 Slot: 6
+	// RVA: 0x7A8D30 Offset: 0x7A7330 VA: 0x1807A8D30 Slot: 6
 	internal override GameObject InterestedInObject(GameObject obj) { }
 
 	// RVA: 0x4D38B0 Offset: 0x4D1EB0 VA: 0x1804D38B0

@@ -5,13 +5,13 @@ public class NeedsKeyboardInputField : NeedsKeyboard // TypeDefIndex: 8014
 
 	// Methods
 
-	// RVA: 0x10704B0 Offset: 0x106EAB0 VA: 0x1810704B0
+	// RVA: 0x1070770 Offset: 0x106ED70 VA: 0x181070770
 	private void Awake() { }
 
-	// RVA: 0x1070520 Offset: 0x106EB20 VA: 0x181070520 Slot: 8
+	// RVA: 0x10707E0 Offset: 0x106EDE0 VA: 0x1810707E0 Slot: 8
 	protected override bool ShouldBlockInput() { }
 
-	// RVA: 0x1070600 Offset: 0x106EC00 VA: 0x181070600
+	// RVA: 0x10708C0 Offset: 0x106EEC0 VA: 0x1810708C0
 	public void .ctor() { }
 
 }

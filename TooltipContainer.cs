@@ -5,13 +5,13 @@ public class TooltipContainer : MonoBehaviour // TypeDefIndex: 11242
 
 	// Methods
 
-	// RVA: 0xA08E80 Offset: 0xA07480 VA: 0x180A08E80
+	// RVA: 0xA09140 Offset: 0xA07740 VA: 0x180A09140
 	private void Update() { }
 
-	// RVA: 0xA08CD0 Offset: 0xA072D0 VA: 0x180A08CD0
+	// RVA: 0xA08F90 Offset: 0xA07590 VA: 0x180A08F90
 	public void SetSourceRect(RectTransform source) { }
 
-	// RVA: 0xA095B0 Offset: 0xA07BB0 VA: 0x180A095B0
+	// RVA: 0xA09870 Offset: 0xA07E70 VA: 0x180A09870
 	public void .ctor() { }
 
 }

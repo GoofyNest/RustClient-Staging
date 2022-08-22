@@ -15,7 +15,7 @@ internal struct P2PSessionRequest_t : ICallbackData // TypeDefIndex: 5404
 	// RVA: 0x1EC420 Offset: 0x1EB820 VA: 0x1801EC420 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13754D0 Offset: 0x1373AD0 VA: 0x1813754D0
+	// RVA: 0x1375790 Offset: 0x1373D90 VA: 0x181375790
 	private static void .cctor() { }
 
 }

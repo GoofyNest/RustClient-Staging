@@ -15,13 +15,13 @@ public class WaterDepthMask : MonoBehaviour // TypeDefIndex: 10602
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public Material get_Material() { }
 
-	// RVA: 0x805640 Offset: 0x803C40 VA: 0x180805640
+	// RVA: 0x805750 Offset: 0x803D50 VA: 0x180805750
 	private void OnEnable() { }
 
-	// RVA: 0x8055E0 Offset: 0x803BE0 VA: 0x1808055E0
+	// RVA: 0x8056F0 Offset: 0x803CF0 VA: 0x1808056F0
 	private void OnBecameVisible() { }
 
-	// RVA: 0x805580 Offset: 0x803B80 VA: 0x180805580
+	// RVA: 0x805690 Offset: 0x803C90 VA: 0x180805690
 	private void OnBecameInvisible() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

@@ -9,13 +9,13 @@ public class SoundLightDialog : UIDialog // TypeDefIndex: 10908
 
 	// Methods
 
-	// RVA: 0xA76170 Offset: 0xA74770 VA: 0x180A76170
+	// RVA: 0xA76430 Offset: 0xA74A30 VA: 0x180A76430
 	public void SetLight(AudioVisualisationEntity entity) { }
 
-	// RVA: 0xA75EE0 Offset: 0xA744E0 VA: 0x180A75EE0 Slot: 9
+	// RVA: 0xA761A0 Offset: 0xA747A0 VA: 0x180A761A0 Slot: 9
 	public override void CloseDialog() { }
 
-	// RVA: 0xA76110 Offset: 0xA74710 VA: 0x180A76110
+	// RVA: 0xA763D0 Offset: 0xA749D0 VA: 0x180A763D0
 	private int GetValueFromOption(RustOption option, int defaultValue = 0) { }
 
 	// RVA: 0x4C1AB0 Offset: 0x4C00B0 VA: 0x1804C1AB0

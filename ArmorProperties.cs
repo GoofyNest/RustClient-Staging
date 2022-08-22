@@ -5,7 +5,7 @@ public class ArmorProperties : ScriptableObject // TypeDefIndex: 9977
 
 	// Methods
 
-	// RVA: 0x82E920 Offset: 0x82CF20 VA: 0x18082E920
+	// RVA: 0x82EA30 Offset: 0x82D030 VA: 0x18082EA30
 	public bool Contains(HitArea hitArea) { }
 
 	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0

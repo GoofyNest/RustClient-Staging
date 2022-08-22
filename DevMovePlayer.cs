@@ -8,7 +8,7 @@ public class DevMovePlayer : BaseMonoBehaviour // TypeDefIndex: 9302
 
 	// Methods
 
-	// RVA: 0x97F400 Offset: 0x97DA00 VA: 0x18097F400
+	// RVA: 0x97F510 Offset: 0x97DB10 VA: 0x18097F510
 	public void .ctor() { }
 
 }

@@ -5,13 +5,13 @@ public class ParticleSystemIK : MonoBehaviour, IClientComponent // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x85EE80 Offset: 0x85D480 VA: 0x18085EE80
+	// RVA: 0x85EF90 Offset: 0x85D590 VA: 0x18085EF90
 	private void Awake() { }
 
-	// RVA: 0x85EFE0 Offset: 0x85D5E0 VA: 0x18085EFE0
+	// RVA: 0x85F0F0 Offset: 0x85D6F0 VA: 0x18085F0F0
 	private void Update() { }
 
-	// RVA: 0x85EED0 Offset: 0x85D4D0 VA: 0x18085EED0
+	// RVA: 0x85EFE0 Offset: 0x85D5E0 VA: 0x18085EFE0
 	private void OnParticleUpdateJobScheduled() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

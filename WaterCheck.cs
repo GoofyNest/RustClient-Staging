@@ -4,16 +4,16 @@ public class WaterCheck : PrefabAttribute // TypeDefIndex: 10635
 
 	// Methods
 
-	// RVA: 0x8040C0 Offset: 0x8026C0 VA: 0x1808040C0
+	// RVA: 0x8041D0 Offset: 0x8027D0 VA: 0x1808041D0
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x803FE0 Offset: 0x8025E0 VA: 0x180803FE0
+	// RVA: 0x8040F0 Offset: 0x8026F0 VA: 0x1808040F0
 	public bool Check(Vector3 pos) { }
 
-	// RVA: 0x804060 Offset: 0x802660 VA: 0x180804060 Slot: 7
+	// RVA: 0x804170 Offset: 0x802770 VA: 0x180804170 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x804170 Offset: 0x802770 VA: 0x180804170
+	// RVA: 0x804280 Offset: 0x802880 VA: 0x180804280
 	public void .ctor() { }
 
 }

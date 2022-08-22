@@ -14,19 +14,19 @@ public class GenerateRailSiding : ProceduralComponent // TypeDefIndex: 10493
 
 	// Methods
 
-	// RVA: 0xC8E800 Offset: 0xC8CE00 VA: 0x180C8E800
+	// RVA: 0xC8EAC0 Offset: 0xC8D0C0 VA: 0x180C8EAC0
 	private PathList CreateSegment(int number, Vector3[] points) { }
 
-	// RVA: 0xC8E9D0 Offset: 0xC8CFD0 VA: 0x180C8E9D0 Slot: 5
+	// RVA: 0xC8EC90 Offset: 0xC8D290 VA: 0x180C8EC90 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0xC8E8F0 Offset: 0xC8CEF0 VA: 0x180C8E8F0
+	// RVA: 0xC8EBB0 Offset: 0xC8D1B0 VA: 0x180C8EBB0
 	public PathFinder.Point GetPathFinderPoint(Vector3 worldPos, int res) { }
 
 	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40
 	public void .ctor() { }
 
-	// RVA: 0xC8FEC0 Offset: 0xC8E4C0 VA: 0x180C8FEC0
+	// RVA: 0xC90180 Offset: 0xC8E780 VA: 0x180C90180
 	private static void .cctor() { }
 
 }

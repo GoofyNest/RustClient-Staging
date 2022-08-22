@@ -4,88 +4,88 @@ public abstract class Attribute // TypeDefIndex: 174
 
 	// Methods
 
-	// RVA: 0x155DA90 Offset: 0x155C090 VA: 0x18155DA90
+	// RVA: 0x155DD50 Offset: 0x155C350 VA: 0x18155DD50
 	private static Attribute[] InternalGetCustomAttributes(PropertyInfo element, Type type, bool inherit) { }
 
-	// RVA: 0x155D9F0 Offset: 0x155BFF0 VA: 0x18155D9F0
+	// RVA: 0x155DCB0 Offset: 0x155C2B0 VA: 0x18155DCB0
 	private static Attribute[] InternalGetCustomAttributes(EventInfo element, Type type, bool inherit) { }
 
-	// RVA: 0x155DC30 Offset: 0x155C230 VA: 0x18155DC30
+	// RVA: 0x155DEF0 Offset: 0x155C4F0 VA: 0x18155DEF0
 	private static Attribute[] InternalParamGetCustomAttributes(ParameterInfo parameter, Type attributeType, bool inherit) { }
 
-	// RVA: 0x155DB30 Offset: 0x155C130 VA: 0x18155DB30
+	// RVA: 0x155DDF0 Offset: 0x155C3F0 VA: 0x18155DDF0
 	private static bool InternalIsDefined(PropertyInfo element, Type attributeType, bool inherit) { }
 
-	// RVA: 0x155DBB0 Offset: 0x155C1B0 VA: 0x18155DBB0
+	// RVA: 0x155DE70 Offset: 0x155C470 VA: 0x18155DE70
 	private static bool InternalIsDefined(EventInfo element, Type attributeType, bool inherit) { }
 
-	// RVA: 0x155C700 Offset: 0x155AD00 VA: 0x18155C700
+	// RVA: 0x155C9C0 Offset: 0x155AFC0 VA: 0x18155C9C0
 	public static Attribute[] GetCustomAttributes(MemberInfo element, Type type) { }
 
-	// RVA: 0x155CB90 Offset: 0x155B190 VA: 0x18155CB90
+	// RVA: 0x155CE50 Offset: 0x155B450 VA: 0x18155CE50
 	public static Attribute[] GetCustomAttributes(MemberInfo element, Type type, bool inherit) { }
 
-	// RVA: 0x155CE70 Offset: 0x155B470 VA: 0x18155CE70
+	// RVA: 0x155D130 Offset: 0x155B730 VA: 0x18155D130
 	public static Attribute[] GetCustomAttributes(MemberInfo element, bool inherit) { }
 
-	// RVA: 0x155E3E0 Offset: 0x155C9E0 VA: 0x18155E3E0
+	// RVA: 0x155E6A0 Offset: 0x155CCA0 VA: 0x18155E6A0
 	public static bool IsDefined(MemberInfo element, Type attributeType) { }
 
-	// RVA: 0x155E0C0 Offset: 0x155C6C0 VA: 0x18155E0C0
+	// RVA: 0x155E380 Offset: 0x155C980 VA: 0x18155E380
 	public static bool IsDefined(MemberInfo element, Type attributeType, bool inherit) { }
 
-	// RVA: 0x155C590 Offset: 0x155AB90 VA: 0x18155C590
+	// RVA: 0x155C850 Offset: 0x155AE50 VA: 0x18155C850
 	public static Attribute GetCustomAttribute(MemberInfo element, Type attributeType) { }
 
-	// RVA: 0x155C420 Offset: 0x155AA20 VA: 0x18155C420
+	// RVA: 0x155C6E0 Offset: 0x155ACE0 VA: 0x18155C6E0
 	public static Attribute GetCustomAttribute(MemberInfo element, Type attributeType, bool inherit) { }
 
-	// RVA: 0x155D1A0 Offset: 0x155B7A0 VA: 0x18155D1A0
+	// RVA: 0x155D460 Offset: 0x155BA60 VA: 0x18155D460
 	public static Attribute[] GetCustomAttributes(ParameterInfo element, Type attributeType, bool inherit) { }
 
-	// RVA: 0x155D680 Offset: 0x155BC80 VA: 0x18155D680
+	// RVA: 0x155D940 Offset: 0x155BF40 VA: 0x18155D940
 	public static Attribute[] GetCustomAttributes(ParameterInfo element, bool inherit) { }
 
-	// RVA: 0x155D550 Offset: 0x155BB50 VA: 0x18155D550
+	// RVA: 0x155D810 Offset: 0x155BE10 VA: 0x18155D810
 	public static Attribute[] GetCustomAttributes(Module element, bool inherit) { }
 
-	// RVA: 0x155C940 Offset: 0x155AF40 VA: 0x18155C940
+	// RVA: 0x155CC00 Offset: 0x155B200 VA: 0x18155CC00
 	public static Attribute[] GetCustomAttributes(Module element, Type attributeType, bool inherit) { }
 
-	// RVA: 0x155D820 Offset: 0x155BE20 VA: 0x18155D820
+	// RVA: 0x155DAE0 Offset: 0x155C0E0 VA: 0x18155DAE0
 	public static Attribute[] GetCustomAttributes(Assembly element, Type attributeType) { }
 
-	// RVA: 0x155C710 Offset: 0x155AD10 VA: 0x18155C710
+	// RVA: 0x155C9D0 Offset: 0x155AFD0 VA: 0x18155C9D0
 	public static Attribute[] GetCustomAttributes(Assembly element, Type attributeType, bool inherit) { }
 
-	// RVA: 0x155D450 Offset: 0x155BA50 VA: 0x18155D450
+	// RVA: 0x155D710 Offset: 0x155BD10 VA: 0x18155D710
 	public static Attribute[] GetCustomAttributes(Assembly element) { }
 
-	// RVA: 0x155D090 Offset: 0x155B690 VA: 0x18155D090
+	// RVA: 0x155D350 Offset: 0x155B950 VA: 0x18155D350
 	public static Attribute[] GetCustomAttributes(Assembly element, bool inherit) { }
 
-	// RVA: 0x155C4E0 Offset: 0x155AAE0 VA: 0x18155C4E0
+	// RVA: 0x155C7A0 Offset: 0x155ADA0 VA: 0x18155C7A0
 	public static Attribute GetCustomAttribute(Assembly element, Type attributeType) { }
 
-	// RVA: 0x155C640 Offset: 0x155AC40 VA: 0x18155C640
+	// RVA: 0x155C900 Offset: 0x155AF00 VA: 0x18155C900
 	public static Attribute GetCustomAttribute(Assembly element, Type attributeType, bool inherit) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	protected void .ctor() { }
 
-	// RVA: 0x155C0F0 Offset: 0x155A6F0 VA: 0x18155C0F0 Slot: 0
+	// RVA: 0x155C3B0 Offset: 0x155A9B0 VA: 0x18155C3B0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x155BEE0 Offset: 0x155A4E0 VA: 0x18155BEE0
+	// RVA: 0x155C1A0 Offset: 0x155A7A0 VA: 0x18155C1A0
 	private static bool AreFieldValuesEqual(object thisValue, object thatValue) { }
 
-	// RVA: 0x155D830 Offset: 0x155BE30 VA: 0x18155D830 Slot: 2
+	// RVA: 0x155DAF0 Offset: 0x155C0F0 VA: 0x18155DAF0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x10DC6A0 Offset: 0x10DACA0 VA: 0x1810DC6A0 Slot: 4
+	// RVA: 0x10DC960 Offset: 0x10DAF60 VA: 0x1810DC960 Slot: 4
 	public virtual object get_TypeId() { }
 
-	// RVA: 0x155E3F0 Offset: 0x155C9F0 VA: 0x18155E3F0 Slot: 5
+	// RVA: 0x155E6B0 Offset: 0x155CCB0 VA: 0x18155E6B0 Slot: 5
 	public virtual bool Match(object obj) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 6
@@ -128,22 +128,22 @@ public sealed class AttributeUsageAttribute : Attribute // TypeDefIndex: 176
 
 	// Methods
 
-	// RVA: 0x155BEA0 Offset: 0x155A4A0 VA: 0x18155BEA0
+	// RVA: 0x155C160 Offset: 0x155A760 VA: 0x18155C160
 	public void .ctor(AttributeTargets validOn) { }
 
-	// RVA: 0xA10E00 Offset: 0xA0F400 VA: 0x180A10E00
+	// RVA: 0xA110C0 Offset: 0xA0F6C0 VA: 0x180A110C0
 	public bool get_AllowMultiple() { }
 
-	// RVA: 0xA10E20 Offset: 0xA0F420 VA: 0x180A10E20
+	// RVA: 0xA110E0 Offset: 0xA0F6E0 VA: 0x180A110E0
 	public void set_AllowMultiple(bool value) { }
 
-	// RVA: 0x13A53D0 Offset: 0x13A39D0 VA: 0x1813A53D0
+	// RVA: 0x13A5690 Offset: 0x13A3C90 VA: 0x1813A5690
 	public bool get_Inherited() { }
 
-	// RVA: 0x155BED0 Offset: 0x155A4D0 VA: 0x18155BED0
+	// RVA: 0x155C190 Offset: 0x155A790 VA: 0x18155C190
 	public void set_Inherited(bool value) { }
 
-	// RVA: 0x155BE30 Offset: 0x155A430 VA: 0x18155BE30
+	// RVA: 0x155C0F0 Offset: 0x155A6F0 VA: 0x18155C0F0
 	private static void .cctor() { }
 
 }
@@ -167,10 +167,10 @@ internal class AttributePSVIInfo // TypeDefIndex: 1943
 
 	// Methods
 
-	// RVA: 0x12DD560 Offset: 0x12DBB60 VA: 0x1812DD560
+	// RVA: 0x12DD820 Offset: 0x12DBE20 VA: 0x1812DD820
 	internal void .ctor() { }
 
-	// RVA: 0x12DD4D0 Offset: 0x12DBAD0 VA: 0x1812DD4D0
+	// RVA: 0x12DD790 Offset: 0x12DBD90 VA: 0x1812DD790
 	internal void Reset() { }
 
 }
@@ -209,40 +209,40 @@ public class AttributeCollection : ICollection, IEnumerable // TypeDefIndex: 266
 
 	// Methods
 
-	// RVA: 0x15BD6D0 Offset: 0x15BBCD0 VA: 0x1815BD6D0
+	// RVA: 0x15BD990 Offset: 0x15BBF90 VA: 0x1815BD990
 	public void .ctor(Attribute[] attributes) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 8
 	protected virtual Attribute[] get_Attributes() { }
 
-	// RVA: 0x15BD600 Offset: 0x15BBC00 VA: 0x1815BD600
+	// RVA: 0x15BD8C0 Offset: 0x15BBEC0 VA: 0x1815BD8C0
 	public int get_Count() { }
 
-	// RVA: 0x15BD7B0 Offset: 0x15BBDB0 VA: 0x1815BD7B0 Slot: 9
+	// RVA: 0x15BDA70 Offset: 0x15BC070 VA: 0x1815BDA70 Slot: 9
 	public virtual Attribute get_Item(Type attributeType) { }
 
-	// RVA: 0x15BCFA0 Offset: 0x15BB5A0 VA: 0x1815BCFA0
+	// RVA: 0x15BD260 Offset: 0x15BB860 VA: 0x1815BD260
 	public bool Contains(Attribute attribute) { }
 
-	// RVA: 0x15BD0B0 Offset: 0x15BB6B0 VA: 0x1815BD0B0
+	// RVA: 0x15BD370 Offset: 0x15BB970 VA: 0x1815BD370
 	protected Attribute GetDefaultAttribute(Type attributeType) { }
 
-	// RVA: 0x15BD5D0 Offset: 0x15BBBD0 VA: 0x1815BD5D0
+	// RVA: 0x15BD890 Offset: 0x15BBE90 VA: 0x1815BD890
 	public IEnumerator GetEnumerator() { }
 
-	// RVA: 0x15BD600 Offset: 0x15BBC00 VA: 0x1815BD600 Slot: 5
+	// RVA: 0x15BD8C0 Offset: 0x15BBEC0 VA: 0x1815BD8C0 Slot: 5
 	private int System.Collections.ICollection.get_Count() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 6
 	private object System.Collections.ICollection.get_SyncRoot() { }
 
-	// RVA: 0x15BD020 Offset: 0x15BB620 VA: 0x1815BD020 Slot: 4
+	// RVA: 0x15BD2E0 Offset: 0x15BB8E0 VA: 0x1815BD2E0 Slot: 4
 	public void CopyTo(Array array, int index) { }
 
-	// RVA: 0x15BD5D0 Offset: 0x15BBBD0 VA: 0x1815BD5D0 Slot: 7
+	// RVA: 0x15BD890 Offset: 0x15BBE90 VA: 0x1815BD890 Slot: 7
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x15BD630 Offset: 0x15BBC30 VA: 0x1815BD630
+	// RVA: 0x15BD8F0 Offset: 0x15BBEF0 VA: 0x1815BD8F0
 	private static void .cctor() { }
 
 }
@@ -282,34 +282,34 @@ internal class AttributeHelperEngine // TypeDefIndex: 3492
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x181F0D0 Offset: 0x181D6D0 VA: 0x18181F0D0
+	// RVA: 0x181F390 Offset: 0x181D990 VA: 0x18181F390
 	private static Type GetParentTypeDisallowingMultipleInclusion(Type type) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x181F1B0 Offset: 0x181D7B0 VA: 0x18181F1B0
+	// RVA: 0x181F470 Offset: 0x181DA70 VA: 0x18181F470
 	private static Type[] GetRequiredComponents(Type klass) { }
 
-	// RVA: 0x181EFD0 Offset: 0x181D5D0 VA: 0x18181EFD0
+	// RVA: 0x181F290 Offset: 0x181D890 VA: 0x18181F290
 	private static int GetExecuteMode(Type klass) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x181EEA0 Offset: 0x181D4A0 VA: 0x18181EEA0
+	// RVA: 0x181F160 Offset: 0x181D760 VA: 0x18181F160
 	private static int CheckIsEditorScript(Type klass) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x181EF60 Offset: 0x181D560 VA: 0x18181EF60
+	// RVA: 0x181F220 Offset: 0x181D820 VA: 0x18181F220
 	private static int GetDefaultExecutionOrderFor(Type klass) { }
 
 	// RVA: -1 Offset: -1
 	private static T GetCustomAttributeOfType<T>(Type klass) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159E4B0 Offset: 0x159CAB0 VA: 0x18159E4B0
+	|-RVA: 0x159E770 Offset: 0x159CD70 VA: 0x18159E770
 	|-AttributeHelperEngine.GetCustomAttributeOfType<object>
 	|-AttributeHelperEngine.GetCustomAttributeOfType<DefaultExecutionOrder>
 	*/
 
-	// RVA: 0x181F570 Offset: 0x181DB70 VA: 0x18181F570
+	// RVA: 0x181F830 Offset: 0x181DE30 VA: 0x18181F830
 	private static void .cctor() { }
 
 }

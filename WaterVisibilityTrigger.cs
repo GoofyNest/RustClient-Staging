@@ -8,37 +8,37 @@ public class WaterVisibilityTrigger : EnvironmentVolumeTrigger // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x8EF460 Offset: 0x8EDA60 VA: 0x1808EF460
+	// RVA: 0x8EF570 Offset: 0x8EDB70 VA: 0x1808EF570
 	public static void Reset() { }
 
-	// RVA: 0x8EE7F0 Offset: 0x8ECDF0 VA: 0x1808EE7F0
+	// RVA: 0x8EE900 Offset: 0x8ECF00 VA: 0x1808EE900
 	protected void OnDestroy() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
 	private int GetVisibilityMask() { }
 
-	// RVA: 0x8EF690 Offset: 0x8EDC90 VA: 0x1808EF690
+	// RVA: 0x8EF7A0 Offset: 0x8EDDA0 VA: 0x1808EF7A0
 	private void ToggleVisibility() { }
 
-	// RVA: 0x8EF2F0 Offset: 0x8ED8F0 VA: 0x1808EF2F0
+	// RVA: 0x8EF400 Offset: 0x8EDA00 VA: 0x1808EF400
 	private void ResetVisibility() { }
 
-	// RVA: 0x8EF4F0 Offset: 0x8EDAF0 VA: 0x1808EF4F0
+	// RVA: 0x8EF600 Offset: 0x8EDC00 VA: 0x1808EF600
 	private void ToggleCollision(Collider other) { }
 
-	// RVA: 0x8EF150 Offset: 0x8ED750 VA: 0x1808EF150
+	// RVA: 0x8EF260 Offset: 0x8ED860 VA: 0x1808EF260
 	private void ResetCollision(Collider other) { }
 
-	// RVA: 0x8EE8B0 Offset: 0x8ECEB0 VA: 0x1808EE8B0
+	// RVA: 0x8EE9C0 Offset: 0x8ECFC0 VA: 0x1808EE9C0
 	protected void OnTriggerEnter(Collider other) { }
 
-	// RVA: 0x8EEBD0 Offset: 0x8ED1D0 VA: 0x1808EEBD0
+	// RVA: 0x8EECE0 Offset: 0x8ED2E0 VA: 0x1808EECE0
 	protected void OnTriggerExit(Collider other) { }
 
-	// RVA: 0x8EF880 Offset: 0x8EDE80 VA: 0x1808EF880
+	// RVA: 0x8EF990 Offset: 0x8EDF90 VA: 0x1808EF990
 	public void .ctor() { }
 
-	// RVA: 0x8EF800 Offset: 0x8EDE00 VA: 0x1808EF800
+	// RVA: 0x8EF910 Offset: 0x8EDF10 VA: 0x1808EF910
 	private static void .cctor() { }
 
 }

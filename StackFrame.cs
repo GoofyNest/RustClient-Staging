@@ -13,16 +13,16 @@ public class StackFrame // TypeDefIndex: 1502
 
 	// Methods
 
-	// RVA: 0xD860B0 Offset: 0xD846B0 VA: 0x180D860B0
+	// RVA: 0xD86370 Offset: 0xD84970 VA: 0x180D86370
 	private static bool get_frame_info(int skip, bool needFileInfo, out MethodBase method, out int iloffset, out int native_offset, out string file, out int line, out int column) { }
 
-	// RVA: 0xD85FB0 Offset: 0xD845B0 VA: 0x180D85FB0
+	// RVA: 0xD86270 Offset: 0xD84870 VA: 0x180D86270
 	public void .ctor() { }
 
-	// RVA: 0xD86020 Offset: 0xD84620 VA: 0x180D86020
+	// RVA: 0xD862E0 Offset: 0xD848E0 VA: 0x180D862E0
 	public void .ctor(int skipFrames, bool fNeedFileInfo) { }
 
-	// RVA: 0x6BB940 Offset: 0x6B9F40 VA: 0x1806BB940 Slot: 4
+	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50 Slot: 4
 	public virtual int GetFileLineNumber() { }
 
 	// RVA: 0x5E2F50 Offset: 0x5E1550 VA: 0x1805E2F50 Slot: 5
@@ -31,13 +31,13 @@ public class StackFrame // TypeDefIndex: 1502
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050 Slot: 6
 	public virtual string GetFileName() { }
 
-	// RVA: 0xD85D80 Offset: 0xD84380 VA: 0x180D85D80
+	// RVA: 0xD86040 Offset: 0xD84640 VA: 0x180D86040
 	internal string GetSecureFileName() { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00 Slot: 7
 	public virtual int GetILOffset() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330 Slot: 8
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 8
 	public virtual MethodBase GetMethod() { }
 
 	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0 Slot: 9
@@ -52,7 +52,7 @@ public class StackFrame // TypeDefIndex: 1502
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
 	internal string GetInternalMethodName() { }
 
-	// RVA: 0xD85DF0 Offset: 0xD843F0 VA: 0x180D85DF0 Slot: 3
+	// RVA: 0xD860B0 Offset: 0xD846B0 VA: 0x180D860B0 Slot: 3
 	public override string ToString() { }
 
 }

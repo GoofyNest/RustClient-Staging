@@ -10,82 +10,82 @@ public class PrefabData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 650
 
 	// Methods
 
-	// RVA: 0x2047CC0 Offset: 0x20462C0 VA: 0x182047CC0
+	// RVA: 0x2047F80 Offset: 0x2046580 VA: 0x182047F80
 	public static void ResetToPool(PrefabData instance) { }
 
-	// RVA: 0x2047DA0 Offset: 0x20463A0 VA: 0x182047DA0
+	// RVA: 0x2048060 Offset: 0x2046660 VA: 0x182048060
 	public void ResetToPool() { }
 
-	// RVA: 0x2047900 Offset: 0x2045F00 VA: 0x182047900 Slot: 9
+	// RVA: 0x2047BC0 Offset: 0x20461C0 VA: 0x182047BC0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20465A0 Offset: 0x2044BA0 VA: 0x1820465A0
+	// RVA: 0x2046860 Offset: 0x2044E60 VA: 0x182046860
 	public void CopyTo(PrefabData instance) { }
 
-	// RVA: 0x2046610 Offset: 0x2044C10 VA: 0x182046610
+	// RVA: 0x20468D0 Offset: 0x2044ED0 VA: 0x1820468D0
 	public PrefabData Copy() { }
 
-	// RVA: 0x2047350 Offset: 0x2045950 VA: 0x182047350
+	// RVA: 0x2047610 Offset: 0x2045C10 VA: 0x182047610
 	public static PrefabData Deserialize(Stream stream) { }
 
-	// RVA: 0x20466D0 Offset: 0x2044CD0 VA: 0x1820466D0
+	// RVA: 0x2046990 Offset: 0x2044F90 VA: 0x182046990
 	public static PrefabData DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2046A70 Offset: 0x2045070 VA: 0x182046A70
+	// RVA: 0x2046D30 Offset: 0x2045330 VA: 0x182046D30
 	public static PrefabData DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20475D0 Offset: 0x2045BD0 VA: 0x1820475D0
+	// RVA: 0x2047890 Offset: 0x2045E90 VA: 0x182047890
 	public static PrefabData Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2047A60 Offset: 0x2046060 VA: 0x182047A60
+	// RVA: 0x2047D20 Offset: 0x2046320 VA: 0x182047D20
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2048860 Offset: 0x2046E60 VA: 0x182048860 Slot: 12
+	// RVA: 0x2048B20 Offset: 0x2047120 VA: 0x182048B20 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2048880 Offset: 0x2046E80 VA: 0x182048880 Slot: 13
+	// RVA: 0x2048B40 Offset: 0x2047140 VA: 0x182048B40 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, PrefabData previous) { }
 
-	// RVA: 0x2047CA0 Offset: 0x20462A0 VA: 0x182047CA0 Slot: 14
+	// RVA: 0x2047F60 Offset: 0x2046560 VA: 0x182047F60 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2047040 Offset: 0x2045640 VA: 0x182047040
+	// RVA: 0x2047300 Offset: 0x2045900 VA: 0x182047300
 	public static PrefabData Deserialize(byte[] buffer, PrefabData instance, bool isDelta = False) { }
 
-	// RVA: 0x2046E00 Offset: 0x2045400 VA: 0x182046E00
+	// RVA: 0x20470C0 Offset: 0x20456C0 VA: 0x1820470C0
 	public static PrefabData Deserialize(Stream stream, PrefabData instance, bool isDelta) { }
 
-	// RVA: 0x2046750 Offset: 0x2044D50 VA: 0x182046750
+	// RVA: 0x2046A10 Offset: 0x2045010 VA: 0x182046A10
 	public static PrefabData DeserializeLengthDelimited(Stream stream, PrefabData instance, bool isDelta) { }
 
-	// RVA: 0x2046B00 Offset: 0x2045100 VA: 0x182046B00
+	// RVA: 0x2046DC0 Offset: 0x20453C0 VA: 0x182046DC0
 	public static PrefabData DeserializeLength(Stream stream, int length, PrefabData instance, bool isDelta) { }
 
-	// RVA: 0x2047E80 Offset: 0x2046480 VA: 0x182047E80
+	// RVA: 0x2048140 Offset: 0x2046740 VA: 0x182048140
 	public static void SerializeDelta(Stream stream, PrefabData instance, PrefabData previous) { }
 
-	// RVA: 0x20484A0 Offset: 0x2046AA0 VA: 0x1820484A0
+	// RVA: 0x2048760 Offset: 0x2046D60 VA: 0x182048760
 	public static void Serialize(Stream stream, PrefabData instance) { }
 
-	// RVA: 0x2048850 Offset: 0x2046E50 VA: 0x182048850
+	// RVA: 0x2048B10 Offset: 0x2047110 VA: 0x182048B10
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2048860 Offset: 0x2046E60 VA: 0x182048860
+	// RVA: 0x2048B20 Offset: 0x2047120 VA: 0x182048B20
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2048390 Offset: 0x2046990 VA: 0x182048390
+	// RVA: 0x2048650 Offset: 0x2046C50 VA: 0x182048650
 	public static byte[] SerializeToBytes(PrefabData instance) { }
 
-	// RVA: 0x20482E0 Offset: 0x20468E0 VA: 0x1820482E0
+	// RVA: 0x20485A0 Offset: 0x2046BA0 VA: 0x1820485A0
 	public static void SerializeLengthDelimited(Stream stream, PrefabData instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

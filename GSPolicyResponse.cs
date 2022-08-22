@@ -15,7 +15,7 @@ internal struct GSPolicyResponse_t : ICallbackData // TypeDefIndex: 5494
 	// RVA: 0x1E76C0 Offset: 0x1E6AC0 VA: 0x1801E76C0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370BB0 Offset: 0x136F1B0 VA: 0x181370BB0
+	// RVA: 0x1370E70 Offset: 0x136F470 VA: 0x181370E70
 	private static void .cctor() { }
 
 }

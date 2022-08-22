@@ -4,7 +4,7 @@ public class RecipeList : BaseScriptableObject // TypeDefIndex: 10755
 
 	// Methods
 
-	// RVA: 0x6A7A30 Offset: 0x6A6030 VA: 0x1806A7A30
+	// RVA: 0x6A7B40 Offset: 0x6A6140 VA: 0x1806A7B40
 	public void .ctor() { }
 
 }

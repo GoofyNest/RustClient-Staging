@@ -8,37 +8,37 @@ public sealed class TrailRenderer : Renderer // TypeDefIndex: 3400
 
 	// Methods
 
-	// RVA: 0x217D7D0 Offset: 0x217BDD0 VA: 0x18217D7D0
+	// RVA: 0x217DA90 Offset: 0x217C090 VA: 0x18217DA90
 	public float get_time() { }
 
-	// RVA: 0x217D940 Offset: 0x217BF40 VA: 0x18217D940
+	// RVA: 0x217DC00 Offset: 0x217C200 VA: 0x18217DC00
 	public void set_time(float value) { }
 
-	// RVA: 0x217D790 Offset: 0x217BD90 VA: 0x18217D790
+	// RVA: 0x217DA50 Offset: 0x217C050 VA: 0x18217DA50
 	public float get_startWidth() { }
 
-	// RVA: 0x217D8F0 Offset: 0x217BEF0 VA: 0x18217D8F0
+	// RVA: 0x217DBB0 Offset: 0x217C1B0 VA: 0x18217DBB0
 	public void set_startWidth(float value) { }
 
-	// RVA: 0x217D750 Offset: 0x217BD50 VA: 0x18217D750
+	// RVA: 0x217DA10 Offset: 0x217C010 VA: 0x18217DA10
 	public float get_endWidth() { }
 
-	// RVA: 0x217D8A0 Offset: 0x217BEA0 VA: 0x18217D8A0
+	// RVA: 0x217DB60 Offset: 0x217C160 VA: 0x18217DB60
 	public void set_endWidth(float value) { }
 
-	// RVA: 0x217D810 Offset: 0x217BE10 VA: 0x18217D810
+	// RVA: 0x217DAD0 Offset: 0x217C0D0 VA: 0x18217DAD0
 	public float get_widthMultiplier() { }
 
-	// RVA: 0x217D990 Offset: 0x217BF90 VA: 0x18217D990
+	// RVA: 0x217DC50 Offset: 0x217C250 VA: 0x18217DC50
 	public void set_widthMultiplier(float value) { }
 
-	// RVA: 0x217D710 Offset: 0x217BD10 VA: 0x18217D710
+	// RVA: 0x217D9D0 Offset: 0x217BFD0 VA: 0x18217D9D0
 	public bool get_emitting() { }
 
-	// RVA: 0x217D850 Offset: 0x217BE50 VA: 0x18217D850
+	// RVA: 0x217DB10 Offset: 0x217C110 VA: 0x18217DB10
 	public void set_emitting(bool value) { }
 
-	// RVA: 0x217D6D0 Offset: 0x217BCD0 VA: 0x18217D6D0
+	// RVA: 0x217D990 Offset: 0x217BF90 VA: 0x18217D990
 	public void Clear() { }
 
 }

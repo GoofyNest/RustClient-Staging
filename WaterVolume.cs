@@ -8,28 +8,28 @@ public class WaterVolume : TriggerBase // TypeDefIndex: 10058
 
 	// Methods
 
-	// RVA: 0x8EFAE0 Offset: 0x8EE0E0 VA: 0x1808EFAE0
+	// RVA: 0x8EFBF0 Offset: 0x8EE1F0 VA: 0x1808EFBF0
 	private void OnEnable() { }
 
-	// RVA: 0x8EFF80 Offset: 0x8EE580 VA: 0x1808EFF80
+	// RVA: 0x8F0090 Offset: 0x8EE690 VA: 0x1808F0090
 	public bool Test(Vector3 pos, out WaterLevel.WaterInfo info) { }
 
-	// RVA: 0x8F0260 Offset: 0x8EE860 VA: 0x1808F0260
+	// RVA: 0x8F0370 Offset: 0x8EE970 VA: 0x1808F0370
 	public bool Test(Bounds bounds, out WaterLevel.WaterInfo info) { }
 
-	// RVA: 0x8EFBA0 Offset: 0x8EE1A0 VA: 0x1808EFBA0
+	// RVA: 0x8EFCB0 Offset: 0x8EE2B0 VA: 0x1808EFCB0
 	public bool Test(Vector3 start, Vector3 end, float radius, out WaterLevel.WaterInfo info) { }
 
-	// RVA: 0x8EF890 Offset: 0x8EDE90 VA: 0x1808EF890
+	// RVA: 0x8EF9A0 Offset: 0x8EDFA0 VA: 0x1808EF9A0
 	private bool CheckCutOffPlanes(Vector3 pos) { }
 
-	// RVA: 0x8F0590 Offset: 0x8EEB90 VA: 0x1808F0590
+	// RVA: 0x8F06A0 Offset: 0x8EECA0 VA: 0x1808F06A0
 	private void UpdateCachedTransform() { }
 
-	// RVA: 0x8EFA00 Offset: 0x8EE000 VA: 0x1808EFA00 Slot: 6
+	// RVA: 0x8EFB10 Offset: 0x8EE110 VA: 0x1808EFB10 Slot: 6
 	internal override GameObject InterestedInObject(GameObject obj) { }
 
-	// RVA: 0x8F06D0 Offset: 0x8EECD0 VA: 0x1808F06D0
+	// RVA: 0x8F07E0 Offset: 0x8EEDE0 VA: 0x1808F07E0
 	public void .ctor() { }
 
 }

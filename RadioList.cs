@@ -7,82 +7,82 @@ public class RadioList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6505
 
 	// Methods
 
-	// RVA: 0x2051110 Offset: 0x204F710 VA: 0x182051110
+	// RVA: 0x20513D0 Offset: 0x204F9D0 VA: 0x1820513D0
 	public static void ResetToPool(RadioList instance) { }
 
-	// RVA: 0x2051260 Offset: 0x204F860 VA: 0x182051260
+	// RVA: 0x2051520 Offset: 0x204FB20 VA: 0x182051520
 	public void ResetToPool() { }
 
-	// RVA: 0x2050F10 Offset: 0x204F510 VA: 0x182050F10 Slot: 9
+	// RVA: 0x20511D0 Offset: 0x204F7D0 VA: 0x1820511D0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x2050110 Offset: 0x204E710 VA: 0x182050110
+	// RVA: 0x20503D0 Offset: 0x204E9D0 VA: 0x1820503D0
 	public void CopyTo(RadioList instance) { }
 
-	// RVA: 0x2050310 Offset: 0x204E910 VA: 0x182050310
+	// RVA: 0x20505D0 Offset: 0x204EBD0 VA: 0x1820505D0
 	public RadioList Copy() { }
 
-	// RVA: 0x2050B60 Offset: 0x204F160 VA: 0x182050B60
+	// RVA: 0x2050E20 Offset: 0x204F420 VA: 0x182050E20
 	public static RadioList Deserialize(Stream stream) { }
 
-	// RVA: 0x2050390 Offset: 0x204E990 VA: 0x182050390
+	// RVA: 0x2050650 Offset: 0x204EC50 VA: 0x182050650
 	public static RadioList DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20509D0 Offset: 0x204EFD0 VA: 0x1820509D0
+	// RVA: 0x2050C90 Offset: 0x204F290 VA: 0x182050C90
 	public static RadioList DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2050BE0 Offset: 0x204F1E0 VA: 0x182050BE0
+	// RVA: 0x2050EA0 Offset: 0x204F4A0 VA: 0x182050EA0
 	public static RadioList Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20510D0 Offset: 0x204F6D0 VA: 0x1820510D0
+	// RVA: 0x2051390 Offset: 0x204F990 VA: 0x182051390
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2051960 Offset: 0x204FF60 VA: 0x182051960 Slot: 12
+	// RVA: 0x2051C20 Offset: 0x2050220 VA: 0x182051C20 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2051980 Offset: 0x204FF80 VA: 0x182051980 Slot: 13
+	// RVA: 0x2051C40 Offset: 0x2050240 VA: 0x182051C40 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, RadioList previous) { }
 
-	// RVA: 0x20510F0 Offset: 0x204F6F0 VA: 0x1820510F0 Slot: 14
+	// RVA: 0x20513B0 Offset: 0x204F9B0 VA: 0x1820513B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2050A60 Offset: 0x204F060 VA: 0x182050A60
+	// RVA: 0x2050D20 Offset: 0x204F320 VA: 0x182050D20
 	public static RadioList Deserialize(byte[] buffer, RadioList instance, bool isDelta = False) { }
 
-	// RVA: 0x2050D00 Offset: 0x204F300 VA: 0x182050D00
+	// RVA: 0x2050FC0 Offset: 0x204F5C0 VA: 0x182050FC0
 	public static RadioList Deserialize(Stream stream, RadioList instance, bool isDelta) { }
 
-	// RVA: 0x2050410 Offset: 0x204EA10 VA: 0x182050410
+	// RVA: 0x20506D0 Offset: 0x204ECD0 VA: 0x1820506D0
 	public static RadioList DeserializeLengthDelimited(Stream stream, RadioList instance, bool isDelta) { }
 
-	// RVA: 0x2050700 Offset: 0x204ED00 VA: 0x182050700
+	// RVA: 0x20509C0 Offset: 0x204EFC0 VA: 0x1820509C0
 	public static RadioList DeserializeLength(Stream stream, int length, RadioList instance, bool isDelta) { }
 
-	// RVA: 0x20513B0 Offset: 0x204F9B0 VA: 0x1820513B0
+	// RVA: 0x2051670 Offset: 0x204FC70 VA: 0x182051670
 	public static void SerializeDelta(Stream stream, RadioList instance, RadioList previous) { }
 
-	// RVA: 0x2051760 Offset: 0x204FD60 VA: 0x182051760
+	// RVA: 0x2051A20 Offset: 0x2050020 VA: 0x182051A20
 	public static void Serialize(Stream stream, RadioList instance) { }
 
-	// RVA: 0x2051950 Offset: 0x204FF50 VA: 0x182051950
+	// RVA: 0x2051C10 Offset: 0x2050210 VA: 0x182051C10
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2051960 Offset: 0x204FF60 VA: 0x182051960
+	// RVA: 0x2051C20 Offset: 0x2050220 VA: 0x182051C20
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2051650 Offset: 0x204FC50 VA: 0x182051650
+	// RVA: 0x2051910 Offset: 0x204FF10 VA: 0x182051910
 	public static byte[] SerializeToBytes(RadioList instance) { }
 
-	// RVA: 0x20515A0 Offset: 0x204FBA0 VA: 0x1820515A0
+	// RVA: 0x2051860 Offset: 0x204FE60 VA: 0x182051860
 	public static void SerializeLengthDelimited(Stream stream, RadioList instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

@@ -15,17 +15,17 @@ public class PetBrain : BaseAIBrain<BasePet> // TypeDefIndex: 8614
 
 	// Methods
 
-	// RVA: 0x86EBA0 Offset: 0x86D1A0 VA: 0x18086EBA0 Slot: 9
+	// RVA: 0x86ECB0 Offset: 0x86D2B0 VA: 0x18086ECB0 Slot: 9
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x86EAF0 Offset: 0x86D0F0 VA: 0x18086EAF0
+	// RVA: 0x86EC00 Offset: 0x86D200 VA: 0x18086EC00
 	private void OnCommandGiven(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x86F0F0 Offset: 0x86D6F0 VA: 0x18086F0F0
+	// RVA: 0x86F200 Offset: 0x86D800 VA: 0x18086F200
 	public void .ctor() { }
 
-	// RVA: 0x86F060 Offset: 0x86D660 VA: 0x18086F060
+	// RVA: 0x86F170 Offset: 0x86D770 VA: 0x18086F170
 	private static void .cctor() { }
 
 }

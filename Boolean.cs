@@ -31,13 +31,13 @@ public struct Boolean : IComparable, IConvertible, IComparable<bool>, IEquatable
 	// RVA: 0x1F1F20 Offset: 0x1F1320 VA: 0x1801F1F20 Slot: 22
 	public int CompareTo(bool value) { }
 
-	// RVA: 0x155FE90 Offset: 0x155E490 VA: 0x18155FE90
+	// RVA: 0x1560150 Offset: 0x155E750 VA: 0x181560150
 	public static bool Parse(string value) { }
 
-	// RVA: 0x15602D0 Offset: 0x155E8D0 VA: 0x1815602D0
+	// RVA: 0x1560590 Offset: 0x155EB90 VA: 0x181560590
 	public static bool TryParse(string value, out bool result) { }
 
-	// RVA: 0x15601A0 Offset: 0x155E7A0 VA: 0x1815601A0
+	// RVA: 0x1560460 Offset: 0x155EA60 VA: 0x181560460
 	private static string TrimWhiteSpaceAndNull(string value) { }
 
 	// RVA: 0x1F20D0 Offset: 0x1F14D0 VA: 0x1801F20D0 Slot: 5
@@ -88,7 +88,7 @@ public struct Boolean : IComparable, IConvertible, IComparable<bool>, IEquatable
 	// RVA: 0x1F2430 Offset: 0x1F1830 VA: 0x1801F2430 Slot: 21
 	private object System.IConvertible.ToType(Type type, IFormatProvider provider) { }
 
-	// RVA: 0x1560510 Offset: 0x155EB10 VA: 0x181560510
+	// RVA: 0x15607D0 Offset: 0x155EDD0 VA: 0x1815607D0
 	private static void .cctor() { }
 
 }

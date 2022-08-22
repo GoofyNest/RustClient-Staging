@@ -13,31 +13,31 @@ public class RawImage : MaskableGraphic // TypeDefIndex: 4992
 
 	// Methods
 
-	// RVA: 0x1717B20 Offset: 0x1716120 VA: 0x181717B20
+	// RVA: 0x1717DE0 Offset: 0x17163E0 VA: 0x181717DE0
 	protected void .ctor() { }
 
-	// RVA: 0x1717C40 Offset: 0x1716240 VA: 0x181717C40 Slot: 35
+	// RVA: 0x1717F00 Offset: 0x1716500 VA: 0x181717F00 Slot: 35
 	public override Texture get_mainTexture() { }
 
-	// RVA: 0xDA00E0 Offset: 0xD9E6E0 VA: 0x180DA00E0
+	// RVA: 0xDA03A0 Offset: 0xD9E9A0 VA: 0x180DA03A0
 	public Texture get_texture() { }
 
-	// RVA: 0x1717DE0 Offset: 0x17163E0 VA: 0x181717DE0
+	// RVA: 0x17180A0 Offset: 0x17166A0 VA: 0x1817180A0
 	public void set_texture(Texture value) { }
 
-	// RVA: 0x1717DD0 Offset: 0x17163D0 VA: 0x181717DD0
+	// RVA: 0x1718090 Offset: 0x1716690 VA: 0x181718090
 	public Rect get_uvRect() { }
 
-	// RVA: 0x1717EA0 Offset: 0x17164A0 VA: 0x181717EA0
+	// RVA: 0x1718160 Offset: 0x1716760 VA: 0x181718160
 	public void set_uvRect(Rect value) { }
 
-	// RVA: 0x1717950 Offset: 0x1715F50 VA: 0x181717950 Slot: 45
+	// RVA: 0x1717C10 Offset: 0x1716210 VA: 0x181717C10 Slot: 45
 	public override void SetNativeSize() { }
 
-	// RVA: 0x1717460 Offset: 0x1715A60 VA: 0x181717460 Slot: 44
+	// RVA: 0x1717720 Offset: 0x1715D20 VA: 0x181717720 Slot: 44
 	protected override void OnPopulateMesh(VertexHelper vh) { }
 
-	// RVA: 0x1717420 Offset: 0x1715A20 VA: 0x181717420 Slot: 13
+	// RVA: 0x17176E0 Offset: 0x1715CE0 VA: 0x1817176E0 Slot: 13
 	protected override void OnDidApplyAnimationProperties() { }
 
 }

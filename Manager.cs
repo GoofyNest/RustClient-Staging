@@ -5,34 +5,34 @@ public class Manager : IDisposable // TypeDefIndex: 6709
 
 	// Methods
 
-	// RVA: 0x220F310 Offset: 0x220D910 VA: 0x18220F310 Slot: 5
+	// RVA: 0x220F5D0 Offset: 0x220DBD0 VA: 0x18220F5D0 Slot: 5
 	public virtual void Dispose() { }
 
-	// RVA: 0x220F930 Offset: 0x220DF30 VA: 0x18220F930
+	// RVA: 0x220FBF0 Offset: 0x220E1F0 VA: 0x18220FBF0
 	public void .ctor(Provider p) { }
 
-	// RVA: 0x220F8B0 Offset: 0x220DEB0 VA: 0x18220F8B0
+	// RVA: 0x220FB70 Offset: 0x220E170 VA: 0x18220FB70
 	public Group TryGet(uint ID) { }
 
-	// RVA: 0x220F640 Offset: 0x220DC40 VA: 0x18220F640
+	// RVA: 0x220F900 Offset: 0x220DF00 VA: 0x18220F900
 	public Group Get(uint ID) { }
 
-	// RVA: 0x220F200 Offset: 0x220D800 VA: 0x18220F200
+	// RVA: 0x220F4C0 Offset: 0x220DAC0 VA: 0x18220F4C0
 	public Subscriber CreateSubscriber(Connection connection) { }
 
-	// RVA: 0x220F2A0 Offset: 0x220D8A0 VA: 0x18220F2A0
+	// RVA: 0x220F560 Offset: 0x220DB60 VA: 0x18220F560
 	public void DestroySubscriber(ref Subscriber subscriber) { }
 
-	// RVA: 0x220F7B0 Offset: 0x220DDB0 VA: 0x18220F7B0
+	// RVA: 0x220FA70 Offset: 0x220E070 VA: 0x18220FA70
 	public bool IsInside(Group group, Vector3 vPos) { }
 
-	// RVA: 0x220F470 Offset: 0x220DA70 VA: 0x18220F470
+	// RVA: 0x220F730 Offset: 0x220DD30 VA: 0x18220F730
 	public Group GetGroup(Vector3 vPos) { }
 
-	// RVA: 0x220F560 Offset: 0x220DB60 VA: 0x18220F560
+	// RVA: 0x220F820 Offset: 0x220DE20 VA: 0x18220F820
 	public void GetVisibleFromFar(Group center, List<Group> groups) { }
 
-	// RVA: 0x220F5D0 Offset: 0x220DBD0 VA: 0x18220F5D0
+	// RVA: 0x220F890 Offset: 0x220DE90 VA: 0x18220F890
 	public void GetVisibleFromNear(Group center, List<Group> groups) { }
 
 }
@@ -43,7 +43,7 @@ public static class Manager // TypeDefIndex: 7007
 
 	// Methods
 
-	// RVA: 0xFC40E0 Offset: 0xFC26E0 VA: 0x180FC40E0
+	// RVA: 0xFC43A0 Offset: 0xFC29A0 VA: 0x180FC43A0
 	internal static GameObject CreatePrefab(string name) { }
 
 	// RVA: -1 Offset: -1
@@ -70,7 +70,7 @@ public static class Manager // TypeDefIndex: 7007
 	|-Manager.Create<LayoutElement>
 	*/
 
-	// RVA: 0xFC42B0 Offset: 0xFC28B0 VA: 0x180FC42B0
+	// RVA: 0xFC4570 Offset: 0xFC2B70 VA: 0x180FC4570
 	private static void .cctor() { }
 
 }
@@ -89,37 +89,37 @@ public class Manager // TypeDefIndex: 7372
 
 	// Methods
 
-	// RVA: 0x22AC260 Offset: 0x22AA860 VA: 0x1822AC260
+	// RVA: 0x22AC520 Offset: 0x22AAB20 VA: 0x1822AC520
 	private void .ctor() { }
 
-	// RVA: 0x22AC200 Offset: 0x22AA800 VA: 0x1822AC200
+	// RVA: 0x22AC4C0 Offset: 0x22AAAC0 VA: 0x1822AC4C0
 	private static void .cctor() { }
 
-	// RVA: 0x22AC360 Offset: 0x22AA960 VA: 0x1822AC360
+	// RVA: 0x22AC620 Offset: 0x22AAC20 VA: 0x1822AC620
 	public static Manager get_PrimaryManager() { }
 
-	// RVA: 0x22AC180 Offset: 0x22AA780 VA: 0x1822AC180
+	// RVA: 0x22AC440 Offset: 0x22AAA40 VA: 0x1822AC440
 	private static string Normalize(string name) { }
 
-	// RVA: 0x22AB980 Offset: 0x22A9F80 VA: 0x1822AB980
+	// RVA: 0x22ABC40 Offset: 0x22AA240 VA: 0x1822ABC40
 	public Encoding GetEncoding(int codePage) { }
 
-	// RVA: 0x22AB590 Offset: 0x22A9B90 VA: 0x1822AB590
+	// RVA: 0x22AB850 Offset: 0x22A9E50 VA: 0x1822AB850
 	public Encoding GetEncoding(string name) { }
 
-	// RVA: 0x22AB180 Offset: 0x22A9780 VA: 0x1822AB180
+	// RVA: 0x22AB440 Offset: 0x22A9A40 VA: 0x1822AB440
 	public CultureInfo GetCulture(int culture, bool useUserOverride) { }
 
-	// RVA: 0x22AB370 Offset: 0x22A9970 VA: 0x1822AB370
+	// RVA: 0x22AB630 Offset: 0x22A9C30 VA: 0x1822AB630
 	public CultureInfo GetCulture(string name, bool useUserOverride) { }
 
-	// RVA: 0x22ABA30 Offset: 0x22AA030 VA: 0x1822ABA30
+	// RVA: 0x22ABCF0 Offset: 0x22AA2F0 VA: 0x1822ABCF0
 	internal object Instantiate(string name) { }
 
-	// RVA: 0x22ABE60 Offset: 0x22AA460 VA: 0x1822ABE60
+	// RVA: 0x22AC120 Offset: 0x22AA720 VA: 0x1822AC120
 	private void LoadClassList() { }
 
-	// RVA: 0x22AC020 Offset: 0x22AA620 VA: 0x1822AC020
+	// RVA: 0x22AC2E0 Offset: 0x22AA8E0 VA: 0x1822AC2E0
 	private void LoadInternalClasses() { }
 
 }

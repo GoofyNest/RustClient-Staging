@@ -15,7 +15,7 @@ internal struct GameOverlayActivated_t : ICallbackData // TypeDefIndex: 5308
 	// RVA: 0x1E7AB0 Offset: 0x1E6EB0 VA: 0x1801E7AB0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371180 Offset: 0x136F780 VA: 0x181371180
+	// RVA: 0x1371440 Offset: 0x136FA40 VA: 0x181371440
 	private static void .cctor() { }
 
 }

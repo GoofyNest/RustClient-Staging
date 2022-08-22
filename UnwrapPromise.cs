@@ -9,7 +9,7 @@ private sealed class UnwrapPromise.<>c<TResult> // TypeDefIndex: 869
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD65280 Offset: 0xD63880 VA: 0x180D65280
+	|-RVA: 0xD65540 Offset: 0xD63B40 VA: 0x180D65540
 	|-UnwrapPromise.<>c<object>..cctor
 	*/
 
@@ -17,7 +17,7 @@ private sealed class UnwrapPromise.<>c<TResult> // TypeDefIndex: 869
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-UnwrapPromise.<>c<object>..ctor
 	*/
 
@@ -25,7 +25,7 @@ private sealed class UnwrapPromise.<>c<TResult> // TypeDefIndex: 869
 	internal void <InvokeCoreAsync>b__8_0(object state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A60040 Offset: 0x1A5E640 VA: 0x181A60040
+	|-RVA: 0x1A60300 Offset: 0x1A5E900 VA: 0x181A60300
 	|-UnwrapPromise.<>c<object>.<InvokeCoreAsync>b__8_0
 	*/
 

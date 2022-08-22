@@ -15,16 +15,16 @@ public class BloomOptimized : PostEffectsBase // TypeDefIndex: 8162
 
 	// Methods
 
-	// RVA: 0x1073E20 Offset: 0x1072420 VA: 0x181073E20 Slot: 4
+	// RVA: 0x10740E0 Offset: 0x10726E0 VA: 0x1810740E0 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x12C4DB0 Offset: 0x12C33B0 VA: 0x1812C4DB0
+	// RVA: 0x12C5070 Offset: 0x12C3670 VA: 0x1812C5070
 	private void OnDisable() { }
 
-	// RVA: 0x12C4E40 Offset: 0x12C3440 VA: 0x1812C4E40
+	// RVA: 0x12C5100 Offset: 0x12C3700 VA: 0x1812C5100
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x12C5290 Offset: 0x12C3890 VA: 0x1812C5290
+	// RVA: 0x12C5550 Offset: 0x12C3B50 VA: 0x1812C5550
 	public void .ctor() { }
 
 }

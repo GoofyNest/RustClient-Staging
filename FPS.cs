@@ -1,6 +1,6 @@
 public class FPS : ConsoleSystem // TypeDefIndex: 11923
 {	// Fields
-	private static int m_graph; // 0x2B101A0
+	private static int m_graph; // 0x2B111E0
 
 	// Properties
 	[ClientVar] // RVA: 0x9B020 Offset: 0x9A420 VA: 0x18009B020
@@ -11,19 +11,19 @@ public class FPS : ConsoleSystem // TypeDefIndex: 11923
 
 	// Methods
 
-	// RVA: 0x6E0250 Offset: 0x6DE850 VA: 0x1806E0250
+	// RVA: 0x6E0360 Offset: 0x6DE960 VA: 0x1806E0360
 	public static int get_limit() { }
 
-	// RVA: 0x6E0390 Offset: 0x6DE990 VA: 0x1806E0390
+	// RVA: 0x6E04A0 Offset: 0x6DEAA0 VA: 0x1806E04A0
 	public static void set_limit(int value) { }
 
-	// RVA: 0x6E0210 Offset: 0x6DE810 VA: 0x1806E0210
+	// RVA: 0x6E0320 Offset: 0x6DE920 VA: 0x1806E0320
 	public static int get_graph() { }
 
-	// RVA: 0x6E0260 Offset: 0x6DE860 VA: 0x1806E0260
+	// RVA: 0x6E0370 Offset: 0x6DE970 VA: 0x1806E0370
 	public static void set_graph(int value) { }
 
-	// RVA: 0x6E01B0 Offset: 0x6DE7B0 VA: 0x1806E01B0
+	// RVA: 0x6E02C0 Offset: 0x6DE8C0 VA: 0x1806E02C0
 	public void .ctor() { }
 
 }

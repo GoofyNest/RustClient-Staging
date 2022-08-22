@@ -10,82 +10,82 @@ public class PuzzleReset : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 	// Methods
 
-	// RVA: 0x204D7F0 Offset: 0x204BDF0 VA: 0x18204D7F0
+	// RVA: 0x204DAB0 Offset: 0x204C0B0 VA: 0x18204DAB0
 	public static void ResetToPool(PuzzleReset instance) { }
 
-	// RVA: 0x204D8A0 Offset: 0x204BEA0 VA: 0x18204D8A0
+	// RVA: 0x204DB60 Offset: 0x204C160 VA: 0x18204DB60
 	public void ResetToPool() { }
 
-	// RVA: 0x204D440 Offset: 0x204BA40 VA: 0x18204D440 Slot: 9
+	// RVA: 0x204D700 Offset: 0x204BD00 VA: 0x18204D700 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x204C0F0 Offset: 0x204A6F0 VA: 0x18204C0F0
+	// RVA: 0x204C3B0 Offset: 0x204A9B0 VA: 0x18204C3B0
 	public void CopyTo(PuzzleReset instance) { }
 
-	// RVA: 0x204C130 Offset: 0x204A730 VA: 0x18204C130
+	// RVA: 0x204C3F0 Offset: 0x204A9F0 VA: 0x18204C3F0
 	public PuzzleReset Copy() { }
 
-	// RVA: 0x204CF50 Offset: 0x204B550 VA: 0x18204CF50
+	// RVA: 0x204D210 Offset: 0x204B810 VA: 0x18204D210
 	public static PuzzleReset Deserialize(Stream stream) { }
 
-	// RVA: 0x204C1C0 Offset: 0x204A7C0 VA: 0x18204C1C0
+	// RVA: 0x204C480 Offset: 0x204AA80 VA: 0x18204C480
 	public static PuzzleReset DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x204C870 Offset: 0x204AE70 VA: 0x18204C870
+	// RVA: 0x204CB30 Offset: 0x204B130 VA: 0x18204CB30
 	public static PuzzleReset DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x204CC10 Offset: 0x204B210 VA: 0x18204CC10
+	// RVA: 0x204CED0 Offset: 0x204B4D0 VA: 0x18204CED0
 	public static PuzzleReset Deserialize(byte[] buffer) { }
 
-	// RVA: 0x204D570 Offset: 0x204BB70 VA: 0x18204D570
+	// RVA: 0x204D830 Offset: 0x204BE30 VA: 0x18204D830
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x204E0B0 Offset: 0x204C6B0 VA: 0x18204E0B0 Slot: 12
+	// RVA: 0x204E370 Offset: 0x204C970 VA: 0x18204E370 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x204E0D0 Offset: 0x204C6D0 VA: 0x18204E0D0 Slot: 13
+	// RVA: 0x204E390 Offset: 0x204C990 VA: 0x18204E390 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, PuzzleReset previous) { }
 
-	// RVA: 0x204D7D0 Offset: 0x204BDD0 VA: 0x18204D7D0 Slot: 14
+	// RVA: 0x204DA90 Offset: 0x204C090 VA: 0x18204DA90 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x204C900 Offset: 0x204AF00 VA: 0x18204C900
+	// RVA: 0x204CBC0 Offset: 0x204B1C0 VA: 0x18204CBC0
 	public static PuzzleReset Deserialize(byte[] buffer, PuzzleReset instance, bool isDelta = False) { }
 
-	// RVA: 0x204D1E0 Offset: 0x204B7E0 VA: 0x18204D1E0
+	// RVA: 0x204D4A0 Offset: 0x204BAA0 VA: 0x18204D4A0
 	public static PuzzleReset Deserialize(Stream stream, PuzzleReset instance, bool isDelta) { }
 
-	// RVA: 0x204C240 Offset: 0x204A840 VA: 0x18204C240
+	// RVA: 0x204C500 Offset: 0x204AB00 VA: 0x18204C500
 	public static PuzzleReset DeserializeLengthDelimited(Stream stream, PuzzleReset instance, bool isDelta) { }
 
-	// RVA: 0x204C570 Offset: 0x204AB70 VA: 0x18204C570
+	// RVA: 0x204C830 Offset: 0x204AE30 VA: 0x18204C830
 	public static PuzzleReset DeserializeLength(Stream stream, int length, PuzzleReset instance, bool isDelta) { }
 
-	// RVA: 0x204D950 Offset: 0x204BF50 VA: 0x18204D950
+	// RVA: 0x204DC10 Offset: 0x204C210 VA: 0x18204DC10
 	public static void SerializeDelta(Stream stream, PuzzleReset instance, PuzzleReset previous) { }
 
-	// RVA: 0x204DE90 Offset: 0x204C490 VA: 0x18204DE90
+	// RVA: 0x204E150 Offset: 0x204C750 VA: 0x18204E150
 	public static void Serialize(Stream stream, PuzzleReset instance) { }
 
-	// RVA: 0x204E0A0 Offset: 0x204C6A0 VA: 0x18204E0A0
+	// RVA: 0x204E360 Offset: 0x204C960 VA: 0x18204E360
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x204E0B0 Offset: 0x204C6B0 VA: 0x18204E0B0
+	// RVA: 0x204E370 Offset: 0x204C970 VA: 0x18204E370
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x204DD80 Offset: 0x204C380 VA: 0x18204DD80
+	// RVA: 0x204E040 Offset: 0x204C640 VA: 0x18204E040
 	public static byte[] SerializeToBytes(PuzzleReset instance) { }
 
-	// RVA: 0x204DCD0 Offset: 0x204C2D0 VA: 0x18204DCD0
+	// RVA: 0x204DF90 Offset: 0x204C590 VA: 0x18204DF90
 	public static void SerializeLengthDelimited(Stream stream, PuzzleReset instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -107,7 +107,7 @@ public class PuzzleReset : FacepunchBehaviour // TypeDefIndex: 9811
 
 	// Methods
 
-	// RVA: 0x69AD80 Offset: 0x699380 VA: 0x18069AD80
+	// RVA: 0x69AE90 Offset: 0x699490 VA: 0x18069AE90
 	public void .ctor() { }
 
 }

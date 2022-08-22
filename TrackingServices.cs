@@ -4,16 +4,16 @@ public class TrackingServices // TypeDefIndex: 1158
 
 	// Methods
 
-	// RVA: 0x1205A90 Offset: 0x1204090 VA: 0x181205A90
+	// RVA: 0x1205D50 Offset: 0x1204350 VA: 0x181205D50
 	internal static void NotifyMarshaledObject(object obj, ObjRef or) { }
 
-	// RVA: 0x1205DF0 Offset: 0x12043F0 VA: 0x181205DF0
+	// RVA: 0x12060B0 Offset: 0x12046B0 VA: 0x1812060B0
 	internal static void NotifyUnmarshaledObject(object obj, ObjRef or) { }
 
-	// RVA: 0x1205750 Offset: 0x1203D50 VA: 0x181205750
+	// RVA: 0x1205A10 Offset: 0x1204010 VA: 0x181205A10
 	internal static void NotifyDisconnectedObject(object obj) { }
 
-	// RVA: 0x1206150 Offset: 0x1204750 VA: 0x181206150
+	// RVA: 0x1206410 Offset: 0x1204A10 VA: 0x181206410
 	private static void .cctor() { }
 
 }

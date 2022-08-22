@@ -4,7 +4,7 @@ internal abstract class BaseInvokableCall // TypeDefIndex: 3627
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	protected void .ctor() { }
 
-	// RVA: 0x181F6D0 Offset: 0x181DCD0 VA: 0x18181F6D0
+	// RVA: 0x181F990 Offset: 0x181DF90 VA: 0x18181F990
 	protected void .ctor(object target, MethodInfo function) { }
 
 	// RVA: -1 Offset: -1 Slot: 4
@@ -42,7 +42,7 @@ internal abstract class BaseInvokableCall // TypeDefIndex: 3627
 	|-BaseInvokableCall.ThrowOnInvalidArg<Vector2>
 	*/
 
-	// RVA: 0x181F620 Offset: 0x181DC20 VA: 0x18181F620
+	// RVA: 0x181F8E0 Offset: 0x181DEE0 VA: 0x18181F8E0
 	protected static bool AllowInvoke(Delegate delegate) { }
 
 	// RVA: -1 Offset: -1 Slot: 5

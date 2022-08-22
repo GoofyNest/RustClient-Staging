@@ -4,16 +4,16 @@ public static class RuntimeHelpers // TypeDefIndex: 1317
 
 	// Methods
 
-	// RVA: 0xFF3E20 Offset: 0xFF2420 VA: 0x180FF3E20
+	// RVA: 0xFF40E0 Offset: 0xFF26E0 VA: 0x180FF40E0
 	private static void InitializeArray(Array array, IntPtr fldHandle) { }
 
-	// RVA: 0xFF3DA0 Offset: 0xFF23A0 VA: 0x180FF3DA0
+	// RVA: 0xFF4060 Offset: 0xFF2660 VA: 0x180FF4060
 	public static void InitializeArray(Array array, RuntimeFieldHandle fldHandle) { }
 
-	// RVA: 0xFF3E30 Offset: 0xFF2430 VA: 0x180FF3E30
+	// RVA: 0xFF40F0 Offset: 0xFF26F0 VA: 0x180FF40F0
 	public static int get_OffsetToStringData() { }
 
-	// RVA: 0xCCE560 Offset: 0xCCCB60 VA: 0x180CCE560
+	// RVA: 0xCCE820 Offset: 0xCCCE20 VA: 0x180CCE820
 	public static int GetHashCode(object o) { }
 
 	[ReliabilityContractAttribute] // RVA: 0xD9EA0 Offset: 0xD92A0 VA: 0x1800D9EA0
@@ -25,52 +25,52 @@ public static class RuntimeHelpers // TypeDefIndex: 1317
 	public static bool IsReferenceOrContainsReferences<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF2ED0 Offset: 0xBF14D0 VA: 0x180BF2ED0
+	|-RVA: 0xBF3190 Offset: 0xBF1790 VA: 0x180BF3190
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<RCon.Command>
 	|
-	|-RVA: 0xBF2FA0 Offset: 0xBF15A0 VA: 0x180BF2FA0
+	|-RVA: 0xBF3260 Offset: 0xBF1860 VA: 0x180BF3260
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<Connection>
 	|
-	|-RVA: 0xBF3480 Offset: 0xBF1A80 VA: 0x180BF3480
+	|-RVA: 0xBF3740 Offset: 0xBF1D40 VA: 0x180BF3740
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<KeyValuePair<int, int>>
 	|
-	|-RVA: 0xBF3210 Offset: 0xBF1810 VA: 0x180BF3210
+	|-RVA: 0xBF34D0 Offset: 0xBF1AD0 VA: 0x180BF34D0
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<int>
 	|
-	|-RVA: 0xBF32E0 Offset: 0xBF18E0 VA: 0x180BF32E0
+	|-RVA: 0xBF35A0 Offset: 0xBF1BA0 VA: 0x180BF35A0
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<long>
 	|
-	|-RVA: 0xBF33B0 Offset: 0xBF19B0 VA: 0x180BF33B0
+	|-RVA: 0xBF3670 Offset: 0xBF1C70 VA: 0x180BF3670
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<IntPtr>
 	|
-	|-RVA: 0xBF3620 Offset: 0xBF1C20 VA: 0x180BF3620
+	|-RVA: 0xBF38E0 Offset: 0xBF1EE0 VA: 0x180BF38E0
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<object>
 	|
-	|-RVA: 0xBF37C0 Offset: 0xBF1DC0 VA: 0x180BF37C0
+	|-RVA: 0xBF3A80 Offset: 0xBF2080 VA: 0x180BF3A80
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<uint>
 	|
-	|-RVA: 0xBF3890 Offset: 0xBF1E90 VA: 0x180BF3890
+	|-RVA: 0xBF3B50 Offset: 0xBF2150 VA: 0x180BF3B50
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<ulong>
 	|
-	|-RVA: 0xBF36F0 Offset: 0xBF1CF0 VA: 0x180BF36F0
+	|-RVA: 0xBF39B0 Offset: 0xBF1FB0 VA: 0x180BF39B0
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<SequenceNode.SequenceConstructPosContext>
 	|
-	|-RVA: 0xBF3550 Offset: 0xBF1B50 VA: 0x180BF3550
+	|-RVA: 0xBF3810 Offset: 0xBF1E10 VA: 0x180BF3810
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<Matrix4x4>
 	|
-	|-RVA: 0xBF2E00 Offset: 0xBF1400 VA: 0x180BF2E00
+	|-RVA: 0xBF30C0 Offset: 0xBF16C0 VA: 0x180BF30C0
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<AsyncGPUReadbackRequest>
 	|
-	|-RVA: 0xBF3070 Offset: 0xBF1670 VA: 0x180BF3070
+	|-RVA: 0xBF3330 Offset: 0xBF1930 VA: 0x180BF3330
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<EventDispatcher.DispatchContext>
 	|
-	|-RVA: 0xBF3140 Offset: 0xBF1740 VA: 0x180BF3140
+	|-RVA: 0xBF3400 Offset: 0xBF1A00 VA: 0x180BF3400
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<EventDispatcher.EventRecord>
 	|
-	|-RVA: 0xBF3960 Offset: 0xBF1F60 VA: 0x180BF3960
+	|-RVA: 0xBF3C20 Offset: 0xBF2220 VA: 0x180BF3C20
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<Vector2>
 	|
-	|-RVA: 0xBF3A30 Offset: 0xBF2030 VA: 0x180BF3A30
+	|-RVA: 0xBF3CF0 Offset: 0xBF22F0 VA: 0x180BF3CF0
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<Vector3>
 	*/
 

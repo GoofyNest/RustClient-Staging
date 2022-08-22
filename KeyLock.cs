@@ -6,82 +6,82 @@ public class KeyLock : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6305
 
 	// Methods
 
-	// RVA: 0x1F1C2A0 Offset: 0x1F1A8A0 VA: 0x181F1C2A0
+	// RVA: 0x1F1C560 Offset: 0x1F1AB60 VA: 0x181F1C560
 	public static void ResetToPool(KeyLock instance) { }
 
-	// RVA: 0x1F1C220 Offset: 0x1F1A820 VA: 0x181F1C220
+	// RVA: 0x1F1C4E0 Offset: 0x1F1AAE0 VA: 0x181F1C4E0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F1C0F0 Offset: 0x1F1A6F0 VA: 0x181F1C0F0 Slot: 9
+	// RVA: 0x1F1C3B0 Offset: 0x1F1A9B0 VA: 0x181F1C3B0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE4D0 Offset: 0x1BFCAD0 VA: 0x181BFE4D0
+	// RVA: 0x1BFE790 Offset: 0x1BFCD90 VA: 0x181BFE790
 	public void CopyTo(KeyLock instance) { }
 
-	// RVA: 0x1F1B770 Offset: 0x1F19D70 VA: 0x181F1B770
+	// RVA: 0x1F1BA30 Offset: 0x1F1A030 VA: 0x181F1BA30
 	public KeyLock Copy() { }
 
-	// RVA: 0x1F1BD10 Offset: 0x1F1A310 VA: 0x181F1BD10
+	// RVA: 0x1F1BFD0 Offset: 0x1F1A5D0 VA: 0x181F1BFD0
 	public static KeyLock Deserialize(Stream stream) { }
 
-	// RVA: 0x1F1B7E0 Offset: 0x1F19DE0 VA: 0x181F1B7E0
+	// RVA: 0x1F1BAA0 Offset: 0x1F1A0A0 VA: 0x181F1BAA0
 	public static KeyLock DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F1BA80 Offset: 0x1F1A080 VA: 0x181F1BA80
+	// RVA: 0x1F1BD40 Offset: 0x1F1A340 VA: 0x181F1BD40
 	public static KeyLock DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F1BE90 Offset: 0x1F1A490 VA: 0x181F1BE90
+	// RVA: 0x1F1C150 Offset: 0x1F1A750 VA: 0x181F1C150
 	public static KeyLock Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F1C1E0 Offset: 0x1F1A7E0 VA: 0x181F1C1E0
+	// RVA: 0x1F1C4A0 Offset: 0x1F1AAA0 VA: 0x181F1C4A0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F1C770 Offset: 0x1F1AD70 VA: 0x181F1C770 Slot: 12
+	// RVA: 0x1F1CA30 Offset: 0x1F1B030 VA: 0x181F1CA30 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F1C840 Offset: 0x1F1AE40 VA: 0x181F1C840 Slot: 13
+	// RVA: 0x1F1CB00 Offset: 0x1F1B100 VA: 0x181F1CB00 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, KeyLock previous) { }
 
-	// RVA: 0x1F1C200 Offset: 0x1F1A800 VA: 0x181F1C200 Slot: 14
+	// RVA: 0x1F1C4C0 Offset: 0x1F1AAC0 VA: 0x181F1C4C0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F1BD90 Offset: 0x1F1A390 VA: 0x181F1BD90
+	// RVA: 0x1F1C050 Offset: 0x1F1A650 VA: 0x181F1C050
 	public static KeyLock Deserialize(byte[] buffer, KeyLock instance, bool isDelta = False) { }
 
-	// RVA: 0x1F1BFB0 Offset: 0x1F1A5B0 VA: 0x181F1BFB0
+	// RVA: 0x1F1C270 Offset: 0x1F1A870 VA: 0x181F1C270
 	public static KeyLock Deserialize(Stream stream, KeyLock instance, bool isDelta) { }
 
-	// RVA: 0x1F1B860 Offset: 0x1F19E60 VA: 0x181F1B860
+	// RVA: 0x1F1BB20 Offset: 0x1F1A120 VA: 0x181F1BB20
 	public static KeyLock DeserializeLengthDelimited(Stream stream, KeyLock instance, bool isDelta) { }
 
-	// RVA: 0x1F1BB10 Offset: 0x1F1A110 VA: 0x181F1BB10
+	// RVA: 0x1F1BDD0 Offset: 0x1F1A3D0 VA: 0x181F1BDD0
 	public static KeyLock DeserializeLength(Stream stream, int length, KeyLock instance, bool isDelta) { }
 
-	// RVA: 0x1F1C320 Offset: 0x1F1A920 VA: 0x181F1C320
+	// RVA: 0x1F1C5E0 Offset: 0x1F1ABE0 VA: 0x181F1C5E0
 	public static void SerializeDelta(Stream stream, KeyLock instance, KeyLock previous) { }
 
-	// RVA: 0x1F1C690 Offset: 0x1F1AC90 VA: 0x181F1C690
+	// RVA: 0x1F1C950 Offset: 0x1F1AF50 VA: 0x181F1C950
 	public static void Serialize(Stream stream, KeyLock instance) { }
 
-	// RVA: 0x1F1C760 Offset: 0x1F1AD60 VA: 0x181F1C760
+	// RVA: 0x1F1CA20 Offset: 0x1F1B020 VA: 0x181F1CA20
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F1C770 Offset: 0x1F1AD70 VA: 0x181F1C770
+	// RVA: 0x1F1CA30 Offset: 0x1F1B030 VA: 0x181F1CA30
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F1C4E0 Offset: 0x1F1AAE0 VA: 0x181F1C4E0
+	// RVA: 0x1F1C7A0 Offset: 0x1F1ADA0 VA: 0x181F1C7A0
 	public static byte[] SerializeToBytes(KeyLock instance) { }
 
-	// RVA: 0x1F1C430 Offset: 0x1F1AA30 VA: 0x181F1C430
+	// RVA: 0x1F1C6F0 Offset: 0x1F1ACF0 VA: 0x181F1C6F0
 	public static void SerializeLengthDelimited(Stream stream, KeyLock instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

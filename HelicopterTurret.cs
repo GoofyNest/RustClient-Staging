@@ -14,7 +14,7 @@ public class HelicopterTurret : MonoBehaviour // TypeDefIndex: 9600
 
 	// Methods
 
-	// RVA: 0x739D00 Offset: 0x738300 VA: 0x180739D00
+	// RVA: 0x739E10 Offset: 0x738410 VA: 0x180739E10
 	public void .ctor() { }
 
 }

@@ -12,22 +12,22 @@ public class BaseBulb : MonoBehaviour // TypeDefIndex: 8824
 
 	// Methods
 
-	// RVA: 0x7D6A40 Offset: 0x7D5040 VA: 0x1807D6A40 Slot: 4
+	// RVA: 0x7D6B50 Offset: 0x7D5150 VA: 0x1807D6B50 Slot: 4
 	public virtual void SetOn(bool wantsOn) { }
 
-	// RVA: 0x7D6A50 Offset: 0x7D5050 VA: 0x1807D6A50 Slot: 5
+	// RVA: 0x7D6B60 Offset: 0x7D5160 VA: 0x1807D6B60 Slot: 5
 	public virtual void SetSpacingIndex(float timeOffset, int bulbIndex) { }
 
-	// RVA: 0x7D6A30 Offset: 0x7D5030 VA: 0x1807D6A30 Slot: 6
+	// RVA: 0x7D6B40 Offset: 0x7D5140 VA: 0x1807D6B40 Slot: 6
 	public virtual void SetBulbAnimation(AdvancedChristmasLights.AnimationType type) { }
 
-	// RVA: 0x7D6A60 Offset: 0x7D5060 VA: 0x1807D6A60
+	// RVA: 0x7D6B70 Offset: 0x7D5170 VA: 0x1807D6B70
 	private void UpdateMaterialProperties() { }
 
-	// RVA: 0x7D6C20 Offset: 0x7D5220 VA: 0x1807D6C20
+	// RVA: 0x7D6D30 Offset: 0x7D5330 VA: 0x1807D6D30
 	public void .ctor() { }
 
-	// RVA: 0x7D6BA0 Offset: 0x7D51A0 VA: 0x1807D6BA0
+	// RVA: 0x7D6CB0 Offset: 0x7D52B0 VA: 0x1807D6CB0
 	private static void .cctor() { }
 
 }

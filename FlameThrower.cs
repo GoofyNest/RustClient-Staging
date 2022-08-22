@@ -32,70 +32,70 @@ public class FlameThrower : AttackEntity // TypeDefIndex: 8568
 
 	// Methods
 
-	// RVA: 0x78F420 Offset: 0x78DA20 VA: 0x18078F420 Slot: 35
+	// RVA: 0x78F530 Offset: 0x78DB30 VA: 0x18078F530 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x78EBB0 Offset: 0x78D1B0 VA: 0x18078EBB0
+	// RVA: 0x78ECC0 Offset: 0x78D2C0 VA: 0x18078ECC0
 	private bool IsWeaponBusy() { }
 
-	// RVA: 0x78F6A0 Offset: 0x78DCA0 VA: 0x18078F6A0
+	// RVA: 0x78F7B0 Offset: 0x78DDB0 VA: 0x18078F7B0
 	private void SetBusyFor(float dur) { }
 
-	// RVA: 0x78E6C0 Offset: 0x78CCC0 VA: 0x18078E6C0
+	// RVA: 0x78E7D0 Offset: 0x78CDD0 VA: 0x18078E7D0
 	private void ClearBusy() { }
 
-	// RVA: 0x78F5D0 Offset: 0x78DBD0 VA: 0x18078F5D0
+	// RVA: 0x78F6E0 Offset: 0x78DCE0 VA: 0x18078F6E0
 	public void ReduceAmmo(float firingTime) { }
 
-	// RVA: 0x78F590 Offset: 0x78DB90 VA: 0x18078F590
+	// RVA: 0x78F6A0 Offset: 0x78DCA0 VA: 0x18078F6A0
 	public void PilotLightToggle_Shared() { }
 
 	// RVA: 0x4F6310 Offset: 0x4F4910 VA: 0x1804F6310
 	public bool IsPilotOn() { }
 
-	// RVA: 0x7889F0 Offset: 0x786FF0 VA: 0x1807889F0
+	// RVA: 0x788B00 Offset: 0x787100 VA: 0x180788B00
 	public bool IsFlameOn() { }
 
-	// RVA: 0x78EAB0 Offset: 0x78D0B0 VA: 0x18078EAB0
+	// RVA: 0x78EBC0 Offset: 0x78D1C0 VA: 0x18078EBC0
 	public bool HasAmmo() { }
 
-	// RVA: 0x78E6F0 Offset: 0x78CCF0 VA: 0x18078E6F0
+	// RVA: 0x78E800 Offset: 0x78CE00 VA: 0x18078E800
 	public Item GetAmmo() { }
 
-	// RVA: 0x78E7E0 Offset: 0x78CDE0 VA: 0x18078E7E0
+	// RVA: 0x78E8F0 Offset: 0x78CEF0 VA: 0x18078E8F0
 	public Sound GetFlameLoopSound() { }
 
-	// RVA: 0x78E9E0 Offset: 0x78CFE0 VA: 0x18078E9E0
+	// RVA: 0x78EAF0 Offset: 0x78D0F0 VA: 0x18078EAF0
 	public Sound GetPilotLoopSound() { }
 
-	// RVA: 0x78FAC0 Offset: 0x78E0C0 VA: 0x18078FAC0
+	// RVA: 0x78FBD0 Offset: 0x78E1D0 VA: 0x18078FBD0
 	public void Update() { }
 
-	// RVA: 0x78F8D0 Offset: 0x78DED0 VA: 0x18078F8D0
+	// RVA: 0x78F9E0 Offset: 0x78DFE0 VA: 0x18078F9E0
 	private void UpdateSounds(bool isFirstPerson = False) { }
 
-	// RVA: 0x78EC60 Offset: 0x78D260 VA: 0x18078EC60 Slot: 138
+	// RVA: 0x78ED70 Offset: 0x78D370 VA: 0x18078ED70 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x78F770 Offset: 0x78DD70 VA: 0x18078F770
+	// RVA: 0x78F880 Offset: 0x78DE80 VA: 0x18078F880
 	public void UpdateFlameStateFirstPerson() { }
 
-	// RVA: 0x78F510 Offset: 0x78DB10 VA: 0x18078F510 Slot: 144
+	// RVA: 0x78F620 Offset: 0x78DC20 VA: 0x18078F620 Slot: 144
 	public override void OnViewmodelEvent(string name) { }
 
-	// RVA: 0x78EC50 Offset: 0x78D250 VA: 0x18078EC50 Slot: 143
+	// RVA: 0x78ED60 Offset: 0x78D360 VA: 0x18078ED60 Slot: 143
 	public override void OnHolstered() { }
 
-	// RVA: 0x78EBE0 Offset: 0x78D1E0 VA: 0x18078EBE0 Slot: 34
+	// RVA: 0x78ECF0 Offset: 0x78D2F0 VA: 0x18078ECF0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x78E8B0 Offset: 0x78CEB0 VA: 0x18078E8B0 Slot: 51
+	// RVA: 0x78E9C0 Offset: 0x78CFC0 VA: 0x18078E9C0 Slot: 51
 	public override void GetItemOptions(List<Option> options) { }
 
-	// RVA: 0x78F6D0 Offset: 0x78DCD0 VA: 0x18078F6D0 Slot: 160
+	// RVA: 0x78F7E0 Offset: 0x78DDE0 VA: 0x18078F7E0 Slot: 160
 	protected virtual void UpdateAmmoDisplay() { }
 
-	// RVA: 0x78FD90 Offset: 0x78E390 VA: 0x18078FD90
+	// RVA: 0x78FEA0 Offset: 0x78E4A0 VA: 0x18078FEA0
 	public void .ctor() { }
 
 }

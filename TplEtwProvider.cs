@@ -7,22 +7,22 @@ internal class TplEtwProvider : EventSource // TypeDefIndex: 1594
 
 	// Methods
 
-	// RVA: 0x10E6FA0 Offset: 0x10E55A0 VA: 0x1810E6FA0
+	// RVA: 0x10E7260 Offset: 0x10E5860 VA: 0x1810E7260
 	public bool get_Debug() { }
 
-	// RVA: 0x10E6D90 Offset: 0x10E5390 VA: 0x1810E6D90
+	// RVA: 0x10E7050 Offset: 0x10E5650 VA: 0x1810E7050
 	public void DebugFacilityMessage(string Facility, string Message) { }
 
-	// RVA: 0x10E6D60 Offset: 0x10E5360 VA: 0x1810E6D60
+	// RVA: 0x10E7020 Offset: 0x10E5620 VA: 0x1810E7020
 	public void DebugFacilityMessage1(string Facility, string Message, string Arg) { }
 
-	// RVA: 0x10E6DC0 Offset: 0x10E53C0 VA: 0x1810E6DC0
+	// RVA: 0x10E7080 Offset: 0x10E5680 VA: 0x1810E7080
 	public void SetActivityId(Guid Id) { }
 
-	// RVA: 0x10E6F40 Offset: 0x10E5540 VA: 0x1810E6F40
+	// RVA: 0x10E7200 Offset: 0x10E5800 VA: 0x1810E7200
 	public void .ctor() { }
 
-	// RVA: 0x10E6EA0 Offset: 0x10E54A0 VA: 0x1810E6EA0
+	// RVA: 0x10E7160 Offset: 0x10E5760 VA: 0x1810E7160
 	private static void .cctor() { }
 
 }

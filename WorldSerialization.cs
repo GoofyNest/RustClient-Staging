@@ -29,46 +29,46 @@ public class WorldSerialization // TypeDefIndex: 7787
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_Checksum(string value) { }
 
-	// RVA: 0x2304CD0 Offset: 0x23032D0 VA: 0x182304CD0
+	// RVA: 0x2304F90 Offset: 0x2303590 VA: 0x182304F90
 	public void .ctor() { }
 
-	// RVA: 0x23040C0 Offset: 0x23026C0 VA: 0x1823040C0
+	// RVA: 0x2304380 Offset: 0x2302980 VA: 0x182304380
 	public MapData GetMap(string name) { }
 
-	// RVA: 0x2303D20 Offset: 0x2302320 VA: 0x182303D20
+	// RVA: 0x2303FE0 Offset: 0x23025E0 VA: 0x182303FE0
 	public void AddMap(string name, byte[] data) { }
 
-	// RVA: 0x2304380 Offset: 0x2302980 VA: 0x182304380
+	// RVA: 0x2304640 Offset: 0x2302C40 VA: 0x182304640
 	public IEnumerable<PrefabData> GetPrefabs(string category) { }
 
-	// RVA: 0x2303E30 Offset: 0x2302430 VA: 0x182303E30
+	// RVA: 0x23040F0 Offset: 0x23026F0 VA: 0x1823040F0
 	public void AddPrefab(string category, uint id, Vector3 position, Quaternion rotation, Vector3 scale) { }
 
-	// RVA: 0x23042C0 Offset: 0x23028C0 VA: 0x1823042C0
+	// RVA: 0x2304580 Offset: 0x2302B80 VA: 0x182304580
 	public IEnumerable<PathData> GetPaths(string name) { }
 
-	// RVA: 0x23041C0 Offset: 0x23027C0 VA: 0x1823041C0
+	// RVA: 0x2304480 Offset: 0x2302A80 VA: 0x182304480
 	public PathData GetPath(string name) { }
 
-	// RVA: 0x2303DD0 Offset: 0x23023D0 VA: 0x182303DD0
+	// RVA: 0x2304090 Offset: 0x2302690 VA: 0x182304090
 	public void AddPath(PathData path) { }
 
-	// RVA: 0x2304010 Offset: 0x2302610 VA: 0x182304010
+	// RVA: 0x23042D0 Offset: 0x23028D0 VA: 0x1823042D0
 	public void Clear() { }
 
-	// RVA: 0x23049E0 Offset: 0x2302FE0 VA: 0x1823049E0
+	// RVA: 0x2304CA0 Offset: 0x23032A0 VA: 0x182304CA0
 	public void Save(string fileName) { }
 
-	// RVA: 0x23045E0 Offset: 0x2302BE0 VA: 0x1823045E0
+	// RVA: 0x23048A0 Offset: 0x2302EA0 VA: 0x1823048A0
 	public void Load(string fileName) { }
 
-	// RVA: 0x2303F80 Offset: 0x2302580 VA: 0x182303F80
+	// RVA: 0x2304240 Offset: 0x2302840 VA: 0x182304240
 	public void CalculateChecksum() { }
 
-	// RVA: 0x2304440 Offset: 0x2302A40 VA: 0x182304440
+	// RVA: 0x2304700 Offset: 0x2302D00 VA: 0x182304700
 	private string Hash() { }
 
-	// RVA: 0x2303FB0 Offset: 0x23025B0 VA: 0x182303FB0
+	// RVA: 0x2304270 Offset: 0x2302870 VA: 0x182304270
 	public int CalculateCount() { }
 
 }
@@ -82,7 +82,7 @@ private sealed class WorldSerialization.<>c__DisplayClass13_0 // TypeDefIndex: 7
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8D9800 Offset: 0x8D7E00 VA: 0x1808D9800
+	// RVA: 0x8D9910 Offset: 0x8D7F10 VA: 0x1808D9910
 	internal bool <GetPrefabs>b__0(PrefabData p) { }
 
 }
@@ -96,7 +96,7 @@ private sealed class WorldSerialization.<>c__DisplayClass15_0 // TypeDefIndex: 7
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2303CF0 Offset: 0x23022F0 VA: 0x182303CF0
+	// RVA: 0x2303FB0 Offset: 0x23025B0 VA: 0x182303FB0
 	internal bool <GetPaths>b__0(PathData p) { }
 
 }

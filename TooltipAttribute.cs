@@ -4,7 +4,7 @@ public class TooltipAttribute : PropertyAttribute // TypeDefIndex: 3479
 
 	// Methods
 
-	// RVA: 0x813EC0 Offset: 0x8124C0 VA: 0x180813EC0
+	// RVA: 0x813FD0 Offset: 0x8125D0 VA: 0x180813FD0
 	public void .ctor(string tooltip) { }
 
 }

@@ -4,25 +4,25 @@ internal static class GAUtilities // TypeDefIndex: 5636
 
 	// Methods
 
-	// RVA: 0x13C5180 Offset: 0x13C3780 VA: 0x1813C5180
+	// RVA: 0x13C5440 Offset: 0x13C3A40 VA: 0x1813C5440
 	public static byte[] GzipCompress(string data) { }
 
-	// RVA: 0x13C5430 Offset: 0x13C3A30 VA: 0x1813C5430
+	// RVA: 0x13C56F0 Offset: 0x13C3CF0 VA: 0x1813C56F0
 	public static string HmacWithKey(string key, byte[] data) { }
 
-	// RVA: 0x13C5620 Offset: 0x13C3C20 VA: 0x1813C5620
+	// RVA: 0x13C58E0 Offset: 0x13C3EE0 VA: 0x1813C58E0
 	public static bool StringMatch(string s, string pattern) { }
 
-	// RVA: 0x13C5590 Offset: 0x13C3B90 VA: 0x1813C5590
+	// RVA: 0x13C5850 Offset: 0x13C3E50 VA: 0x1813C5850
 	public static bool StringArrayContainsString(string[] array, string search) { }
 
-	// RVA: 0x13C56A0 Offset: 0x13C3CA0 VA: 0x1813C56A0
+	// RVA: 0x13C5960 Offset: 0x13C3F60 VA: 0x1813C5960
 	public static long TimeIntervalSince1970() { }
 
-	// RVA: 0x13C4FD0 Offset: 0x13C35D0 VA: 0x1813C4FD0
+	// RVA: 0x13C5290 Offset: 0x13C3890 VA: 0x1813C5290
 	public static string ArrayOfObjectsToJsonString(List<JSONNode> arr) { }
 
-	// RVA: 0x13C5760 Offset: 0x13C3D60 VA: 0x1813C5760
+	// RVA: 0x13C5A20 Offset: 0x13C4020 VA: 0x1813C5A20
 	private static void .cctor() { }
 
 }

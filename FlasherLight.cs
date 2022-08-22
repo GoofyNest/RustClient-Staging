@@ -10,22 +10,22 @@ public class FlasherLight : IOEntity // TypeDefIndex: 8714
 
 	// Methods
 
-	// RVA: 0x792410 Offset: 0x790A10 VA: 0x180792410 Slot: 27
+	// RVA: 0x792520 Offset: 0x790B20 VA: 0x180792520 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0x7922C0 Offset: 0x7908C0 VA: 0x1807922C0 Slot: 16
+	// RVA: 0x7923D0 Offset: 0x7909D0 VA: 0x1807923D0 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0x792160 Offset: 0x790760 VA: 0x180792160
+	// RVA: 0x792270 Offset: 0x790870 VA: 0x180792270
 	public void Flash() { }
 
-	// RVA: 0x7920C0 Offset: 0x7906C0 VA: 0x1807920C0
+	// RVA: 0x7921D0 Offset: 0x7907D0 VA: 0x1807921D0
 	public void FlashOn() { }
 
-	// RVA: 0x7924D0 Offset: 0x790AD0 VA: 0x1807924D0
+	// RVA: 0x7925E0 Offset: 0x790BE0 VA: 0x1807925E0
 	public void SetOff() { }
 
-	// RVA: 0x792510 Offset: 0x790B10 VA: 0x180792510
+	// RVA: 0x792620 Offset: 0x790C20 VA: 0x180792620
 	public void .ctor() { }
 
 }

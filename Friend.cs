@@ -66,7 +66,7 @@ public struct Friend.FriendGameInfo // TypeDefIndex: 5237
 	// RVA: 0x1D2D20 Offset: 0x1D2120 VA: 0x1801D2D20
 	public IPAddress get_IpAddress() { }
 
-	// RVA: 0x1284AD0 Offset: 0x12830D0 VA: 0x181284AD0
+	// RVA: 0x1284D90 Offset: 0x1283390 VA: 0x181284D90
 	internal static Friend.FriendGameInfo From(FriendGameInfo_t i) { }
 
 }

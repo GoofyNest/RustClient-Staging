@@ -17,7 +17,7 @@ internal struct RemoveUGCDependencyResult_t : ICallbackData // TypeDefIndex: 544
 	// RVA: 0x1D79A0 Offset: 0x1D6DA0 VA: 0x1801D79A0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E8D0 Offset: 0x128CED0 VA: 0x18128E8D0
+	// RVA: 0x128EB90 Offset: 0x128D190 VA: 0x18128EB90
 	private static void .cctor() { }
 
 }

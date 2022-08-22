@@ -48,14 +48,14 @@ public struct RaycastCommand // TypeDefIndex: 3935
 	// RVA: 0x1EF0C0 Offset: 0x1EE4C0 VA: 0x1801EF0C0
 	public void set_maxHits(int value) { }
 
-	// RVA: 0x229D9C0 Offset: 0x229BFC0 VA: 0x18229D9C0
+	// RVA: 0x229DC80 Offset: 0x229C280 VA: 0x18229DC80
 	public static JobHandle ScheduleBatch(NativeArray<RaycastCommand> commands, NativeArray<RaycastHit> results, int minCommandsPerJob, JobHandle dependsOn) { }
 
 	[FreeFunctionAttribute] // RVA: 0x9B5B0 Offset: 0x9A9B0 VA: 0x18009B5B0
-	// RVA: 0x229DBE0 Offset: 0x229C1E0 VA: 0x18229DBE0
+	// RVA: 0x229DEA0 Offset: 0x229C4A0 VA: 0x18229DEA0
 	private static JobHandle ScheduleRaycastBatch(ref JobsUtility.JobScheduleParameters parameters, void* commands, int commandLen, void* result, int resultLen, int minCommandsPerJob) { }
 
-	// RVA: 0x229DB70 Offset: 0x229C170 VA: 0x18229DB70
+	// RVA: 0x229DE30 Offset: 0x229C430 VA: 0x18229DE30
 	private static void ScheduleRaycastBatch_Injected(ref JobsUtility.JobScheduleParameters parameters, void* commands, int commandLen, void* result, int resultLen, int minCommandsPerJob, out JobHandle ret) { }
 
 }

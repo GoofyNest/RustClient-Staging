@@ -8,13 +8,13 @@ internal sealed class SharedStatics // TypeDefIndex: 298
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	// RVA: 0x18AEE90 Offset: 0x18AD490 VA: 0x1818AEE90
+	// RVA: 0x18AF150 Offset: 0x18AD750 VA: 0x1818AF150
 	public static Tokenizer.StringMaker GetSharedStringMaker() { }
 
-	// RVA: 0x18AF0B0 Offset: 0x18AD6B0 VA: 0x1818AF0B0
+	// RVA: 0x18AF370 Offset: 0x18AD970 VA: 0x1818AF370
 	public static void ReleaseSharedStringMaker(ref Tokenizer.StringMaker maker) { }
 
-	// RVA: 0x18AF200 Offset: 0x18AD800 VA: 0x1818AF200
+	// RVA: 0x18AF4C0 Offset: 0x18ADAC0 VA: 0x1818AF4C0
 	private static void .cctor() { }
 
 }

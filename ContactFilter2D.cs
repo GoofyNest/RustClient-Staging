@@ -34,10 +34,10 @@ public struct ContactFilter2D // TypeDefIndex: 4081
 	// RVA: 0x240030 Offset: 0x23F430 VA: 0x180240030
 	public void SetDepth(float minDepth, float maxDepth) { }
 
-	// RVA: 0x230F740 Offset: 0x230DD40 VA: 0x18230F740
+	// RVA: 0x230FA00 Offset: 0x230E000 VA: 0x18230FA00
 	internal static ContactFilter2D CreateLegacyFilter(int layerMask, float minDepth, float maxDepth) { }
 
-	// RVA: 0x230F700 Offset: 0x230DD00 VA: 0x18230F700
+	// RVA: 0x230F9C0 Offset: 0x230DFC0 VA: 0x18230F9C0
 	private static void CheckConsistency_Injected(ref ContactFilter2D _unity_self) { }
 
 }

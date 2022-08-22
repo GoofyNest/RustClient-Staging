@@ -22,83 +22,83 @@ public class TechTreeDialog : UIDialog, IInventoryChanged // TypeDefIndex: 10912
 
 	// Methods
 
-	// RVA: 0x7AD5A0 Offset: 0x7ABBA0 VA: 0x1807AD5A0 Slot: 8
+	// RVA: 0x7AD6B0 Offset: 0x7ABCB0 VA: 0x1807AD6B0 Slot: 8
 	public override void OpenDialog() { }
 
-	// RVA: 0x7AC9A0 Offset: 0x7AAFA0 VA: 0x1807AC9A0 Slot: 9
+	// RVA: 0x7ACAB0 Offset: 0x7AB0B0 VA: 0x1807ACAB0 Slot: 9
 	public override void CloseDialog() { }
 
-	// RVA: 0x7ADDC0 Offset: 0x7AC3C0 VA: 0x1807ADDC0
+	// RVA: 0x7ADED0 Offset: 0x7AC4D0 VA: 0x1807ADED0
 	public void SetScalerEnabled(bool wants) { }
 
-	// RVA: 0x7AC6B0 Offset: 0x7AACB0 VA: 0x1807AC6B0
+	// RVA: 0x7AC7C0 Offset: 0x7AADC0 VA: 0x1807AC7C0
 	public Vector2 CalculateContentSize() { }
 
-	// RVA: 0x7ACCA0 Offset: 0x7AB2A0 VA: 0x1807ACCA0
+	// RVA: 0x7ACDB0 Offset: 0x7AB3B0 VA: 0x1807ACDB0
 	public void GetFarthestExtents(TechTreeData.NodeInstance node, ref Vector2 mins, ref Vector2 maxs) { }
 
-	// RVA: 0x7ACA20 Offset: 0x7AB020 VA: 0x1807ACA20
+	// RVA: 0x7ACB30 Offset: 0x7AB130 VA: 0x1807ACB30
 	public Vector2 GetColumnRowIndexForPosition(Vector2 position) { }
 
-	// RVA: 0x7ADE20 Offset: 0x7AC420 VA: 0x1807ADE20
+	// RVA: 0x7ADF30 Offset: 0x7AC530 VA: 0x1807ADF30
 	public void SetWidgetSelected(int id, bool wantsSelected) { }
 
-	// RVA: 0x7AC950 Offset: 0x7AAF50 VA: 0x1807AC950
+	// RVA: 0x7ACA60 Offset: 0x7AB060 VA: 0x1807ACA60
 	public void ClearSelection() { }
 
-	// RVA: 0x7AE350 Offset: 0x7AC950 VA: 0x1807AE350
+	// RVA: 0x7AE460 Offset: 0x7ACA60 VA: 0x1807AE460
 	public void UpdateSelectedNode(int newSelectedNodeID) { }
 
-	// RVA: 0x7ACAE0 Offset: 0x7AB0E0 VA: 0x1807ACAE0
+	// RVA: 0x7ACBF0 Offset: 0x7AB1F0 VA: 0x1807ACBF0
 	public BaseEntity GetContainerEntity() { }
 
-	// RVA: 0x7ADF50 Offset: 0x7AC550 VA: 0x1807ADF50
+	// RVA: 0x7AE060 Offset: 0x7AC660 VA: 0x1807AE060
 	public void SetWorkbench(Workbench wb) { }
 
-	// RVA: 0x7ACF70 Offset: 0x7AB570 VA: 0x1807ACF70
+	// RVA: 0x7AD080 Offset: 0x7AB680 VA: 0x1807AD080
 	private Workbench GetWorkbench() { }
 
-	// RVA: 0x7ADFA0 Offset: 0x7AC5A0 VA: 0x1807ADFA0
+	// RVA: 0x7AE0B0 Offset: 0x7AC6B0 VA: 0x1807AE0B0
 	public void UnlockPressed() { }
 
-	// RVA: 0x7ACF10 Offset: 0x7AB510 VA: 0x1807ACF10
+	// RVA: 0x7AD020 Offset: 0x7AB620 VA: 0x1807AD020
 	public Vector2 GetNodeStartPoint() { }
 
-	// RVA: 0x7ADCC0 Offset: 0x7AC2C0 VA: 0x1807ADCC0
+	// RVA: 0x7ADDD0 Offset: 0x7AC3D0 VA: 0x1807ADDD0
 	public bool PlayerHasPathForUnlock(TechTreeData.NodeInstance node) { }
 
-	// RVA: 0x7ADB20 Offset: 0x7AC120 VA: 0x1807ADB20
+	// RVA: 0x7ADC30 Offset: 0x7AC230 VA: 0x1807ADC30
 	public bool PlayerCanUnlock(TechTreeData.NodeInstance node) { }
 
-	// RVA: 0x7AD0F0 Offset: 0x7AB6F0 VA: 0x1807AD0F0
+	// RVA: 0x7AD200 Offset: 0x7AB800 VA: 0x1807AD200
 	public bool HasPlayerUnlocked(TechTreeData.NodeInstance node) { }
 
-	// RVA: 0x7ACF40 Offset: 0x7AB540 VA: 0x1807ACF40
+	// RVA: 0x7AD050 Offset: 0x7AB650 VA: 0x1807AD050
 	public void GetNodesRequiredToUnlock(BasePlayer player, TechTreeData.NodeInstance node, List<TechTreeData.NodeInstance> foundNodes) { }
 
-	// RVA: 0x7ABDB0 Offset: 0x7AA3B0 VA: 0x1807ABDB0
+	// RVA: 0x7ABEC0 Offset: 0x7AA4C0 VA: 0x1807ABEC0
 	public void AddSingleNode(TechTreeData.NodeInstance node) { }
 
-	// RVA: 0x7ACF80 Offset: 0x7AB580 VA: 0x1807ACF80
+	// RVA: 0x7AD090 Offset: 0x7AB690 VA: 0x1807AD090
 	public bool HasLine(int from, int to) { }
 
-	// RVA: 0x7AB360 Offset: 0x7A9960 VA: 0x1807AB360
+	// RVA: 0x7AB470 Offset: 0x7A9A70 VA: 0x1807AB470
 	public void AddNodesRecursive(TechTreeData.NodeInstance startNode) { }
 
-	// RVA: 0x7AE050 Offset: 0x7AC650 VA: 0x1807AE050
+	// RVA: 0x7AE160 Offset: 0x7AC760 VA: 0x1807AE160
 	public void UpdateLines() { }
 
-	// RVA: 0x7AD1C0 Offset: 0x7AB7C0 VA: 0x1807AD1C0 Slot: 10
+	// RVA: 0x7AD2D0 Offset: 0x7AB8D0 VA: 0x1807AD2D0 Slot: 10
 	public void OnInventoryChanged() { }
 
-	// RVA: 0x7AE200 Offset: 0x7AC800 VA: 0x1807AE200
+	// RVA: 0x7AE310 Offset: 0x7AC910 VA: 0x1807AE310
 	private void UpdateScrapCount() { }
 
-	// RVA: 0x7AE3C0 Offset: 0x7AC9C0 VA: 0x1807AE3C0
+	// RVA: 0x7AE4D0 Offset: 0x7ACAD0 VA: 0x1807AE4D0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7AC950 Offset: 0x7AAF50 VA: 0x1807AC950
+	// RVA: 0x7ACA60 Offset: 0x7AB060 VA: 0x1807ACA60
 	private void <OpenDialog>b__17_0() { }
 
 }
@@ -113,7 +113,7 @@ private sealed class TechTreeDialog.<>c__DisplayClass37_0 // TypeDefIndex: 10913
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7B50D0 Offset: 0x7B36D0 VA: 0x1807B50D0
+	// RVA: 0x7B51E0 Offset: 0x7B37E0 VA: 0x1807B51E0
 	internal void <AddSingleNode>b__0() { }
 
 }

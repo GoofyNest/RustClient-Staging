@@ -10,19 +10,19 @@ public sealed class HistogramMonitor : Monitor // TypeDefIndex: 11817
 
 	// Methods
 
-	// RVA: 0x1017470 Offset: 0x1015A70 VA: 0x181017470 Slot: 7
+	// RVA: 0x1017730 Offset: 0x1015D30 VA: 0x181017730 Slot: 7
 	internal override void OnDisable() { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 5
 	internal override bool NeedsHalfRes() { }
 
-	// RVA: 0x1017AD0 Offset: 0x10160D0 VA: 0x181017AD0 Slot: 4
+	// RVA: 0x1017D90 Offset: 0x1016390 VA: 0x181017D90 Slot: 4
 	internal override bool ShaderResourcesAvailable(PostProcessRenderContext context) { }
 
-	// RVA: 0x1017500 Offset: 0x1015B00 VA: 0x181017500 Slot: 8
+	// RVA: 0x10177C0 Offset: 0x1015DC0 VA: 0x1810177C0 Slot: 8
 	internal override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x1017B50 Offset: 0x1016150 VA: 0x181017B50
+	// RVA: 0x1017E10 Offset: 0x1016410 VA: 0x181017E10
 	public void .ctor() { }
 
 }

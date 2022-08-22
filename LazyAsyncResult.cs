@@ -21,10 +21,10 @@ internal class LazyAsyncResult : IAsyncResult // TypeDefIndex: 2919
 
 	// Methods
 
-	// RVA: 0x1345EF0 Offset: 0x13444F0 VA: 0x181345EF0
+	// RVA: 0x13461B0 Offset: 0x13447B0 VA: 0x1813461B0
 	private static LazyAsyncResult.ThreadContext get_CurrentThreadContext() { }
 
-	// RVA: 0x1345D50 Offset: 0x1344350 VA: 0x181345D50
+	// RVA: 0x1346010 Offset: 0x1344610 VA: 0x181346010
 	internal void .ctor(object myObject, object myState, AsyncCallback myCallBack) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
@@ -33,40 +33,40 @@ internal class LazyAsyncResult : IAsyncResult // TypeDefIndex: 2919
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 6
 	public object get_AsyncState() { }
 
-	// RVA: 0x1345E20 Offset: 0x1344420 VA: 0x181345E20 Slot: 5
+	// RVA: 0x13460E0 Offset: 0x13446E0 VA: 0x1813460E0 Slot: 5
 	public WaitHandle get_AsyncWaitHandle() { }
 
-	// RVA: 0x1345740 Offset: 0x1343D40 VA: 0x181345740
+	// RVA: 0x1345A00 Offset: 0x1344000 VA: 0x181345A00
 	private bool LazilyCreateEvent(out ManualResetEvent waitHandle) { }
 
-	// RVA: 0x1345EC0 Offset: 0x13444C0 VA: 0x181345EC0 Slot: 7
+	// RVA: 0x1346180 Offset: 0x1344780 VA: 0x181346180 Slot: 7
 	public bool get_CompletedSynchronously() { }
 
-	// RVA: 0x1345F80 Offset: 0x1344580 VA: 0x181345F80 Slot: 4
+	// RVA: 0x1346240 Offset: 0x1344840 VA: 0x181346240 Slot: 4
 	public bool get_IsCompleted() { }
 
-	// RVA: 0x1345F70 Offset: 0x1344570 VA: 0x181345F70
+	// RVA: 0x1346230 Offset: 0x1344830 VA: 0x181346230
 	internal bool get_InternalPeekCompleted() { }
 
-	// RVA: 0x13458B0 Offset: 0x1343EB0 VA: 0x1813458B0
+	// RVA: 0x1345B70 Offset: 0x1344170 VA: 0x181345B70
 	protected void ProtectedInvokeCallback(object result, IntPtr userToken) { }
 
-	// RVA: 0x13456F0 Offset: 0x1343CF0 VA: 0x1813456F0
+	// RVA: 0x13459B0 Offset: 0x1343FB0 VA: 0x1813459B0
 	internal void InvokeCallback(object result) { }
 
-	// RVA: 0x1345510 Offset: 0x1343B10 VA: 0x181345510 Slot: 8
+	// RVA: 0x13457D0 Offset: 0x1343DD0 VA: 0x1813457D0 Slot: 8
 	protected virtual void Complete(IntPtr userToken) { }
 
-	// RVA: 0x1345C90 Offset: 0x1344290 VA: 0x181345C90
+	// RVA: 0x1345F50 Offset: 0x1344550 VA: 0x181345F50
 	private void WorkerThreadComplete(object state) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 9
 	protected virtual void Cleanup() { }
 
-	// RVA: 0x13456E0 Offset: 0x1343CE0 VA: 0x1813456E0
+	// RVA: 0x13459A0 Offset: 0x1343FA0 VA: 0x1813459A0
 	internal object InternalWaitForCompletion() { }
 
-	// RVA: 0x1345A30 Offset: 0x1344030 VA: 0x181345A30
+	// RVA: 0x1345CF0 Offset: 0x13442F0 VA: 0x181345CF0
 	private object WaitForCompletion(bool snap) { }
 
 }

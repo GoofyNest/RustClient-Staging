@@ -1,7 +1,7 @@
 internal class FormatterData : ProviderData // TypeDefIndex: 1141
 {	// Methods
 
-	// RVA: 0x14779F0 Offset: 0x1475FF0 VA: 0x1814779F0
+	// RVA: 0x1477CB0 Offset: 0x14762B0 VA: 0x181477CB0
 	public void .ctor() { }
 
 }

@@ -29,19 +29,19 @@ public class WebSocketServer : IDisposable // TypeDefIndex: 6931
 
 	// Methods
 
-	// RVA: 0x220C1E0 Offset: 0x220A7E0 VA: 0x18220C1E0
+	// RVA: 0x220C4A0 Offset: 0x220AAA0 VA: 0x18220C4A0
 	public void .ctor(string location, bool supportDualStack = True) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public ISocket get_ListenerSocket() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	public void set_ListenerSocket(ISocket value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1040 Offset: 0x8BF640 VA: 0x1808C1040
+	// RVA: 0x8C1150 Offset: 0x8BF750 VA: 0x1808C1150
 	public bool get_SupportDualStack() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -49,7 +49,7 @@ public class WebSocketServer : IDisposable // TypeDefIndex: 6931
 	public int get_Port() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1070 Offset: 0x8BF670 VA: 0x1808C1070
+	// RVA: 0x8C1180 Offset: 0x8BF780 VA: 0x1808C1180
 	private void set_Port(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -65,37 +65,37 @@ public class WebSocketServer : IDisposable // TypeDefIndex: 6931
 	public SslProtocols get_EnabledSslProtocols() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC20A70 Offset: 0xC1F070 VA: 0x180C20A70
+	// RVA: 0xC20D30 Offset: 0xC1F330 VA: 0x180C20D30
 	public bool get_RestartAfterListenError() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC20A80 Offset: 0xC1F080 VA: 0x180C20A80
+	// RVA: 0xC20D40 Offset: 0xC1F340 VA: 0x180C20D40
 	public void set_RestartAfterListenError(bool value) { }
 
-	// RVA: 0x220C3E0 Offset: 0x220A9E0 VA: 0x18220C3E0
+	// RVA: 0x220C6A0 Offset: 0x220ACA0 VA: 0x18220C6A0
 	public bool get_IsSecure() { }
 
-	// RVA: 0x220B630 Offset: 0x2209C30 VA: 0x18220B630 Slot: 4
+	// RVA: 0x220B8F0 Offset: 0x2209EF0 VA: 0x18220B8F0 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x220BB80 Offset: 0x220A180 VA: 0x18220BB80
+	// RVA: 0x220BE40 Offset: 0x220A440 VA: 0x18220BE40
 	private IPAddress ParseIPAddress(Uri uri) { }
 
-	// RVA: 0x220BCF0 Offset: 0x220A2F0 VA: 0x18220BCF0 Slot: 5
+	// RVA: 0x220BFB0 Offset: 0x220A5B0 VA: 0x18220BFB0 Slot: 5
 	public void Start(Action<IWebSocketConnection> config) { }
 
-	// RVA: 0x220B680 Offset: 0x2209C80 VA: 0x18220B680
+	// RVA: 0x220B940 Offset: 0x2209F40 VA: 0x18220B940
 	private void ListenForClients() { }
 
-	// RVA: 0x220B7A0 Offset: 0x2209DA0 VA: 0x18220B7A0
+	// RVA: 0x220BA60 Offset: 0x220A060 VA: 0x18220BA60
 	private void OnClientConnect(ISocket clientSocket) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x220C010 Offset: 0x220A610 VA: 0x18220C010
+	// RVA: 0x220C2D0 Offset: 0x220A8D0 VA: 0x18220C2D0
 	private void <ListenForClients>b__35_0(Exception e) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x220C170 Offset: 0x220A770 VA: 0x18220C170
+	// RVA: 0x220C430 Offset: 0x220AA30 VA: 0x18220C430
 	private WebSocketHttpRequest <OnClientConnect>b__36_0(ArraySegment<byte> bytes) { }
 
 }
@@ -108,16 +108,16 @@ private sealed class WebSocketServer.<>c // TypeDefIndex: 6932
 
 	// Methods
 
-	// RVA: 0x2209800 Offset: 0x2207E00 VA: 0x182209800
+	// RVA: 0x2209AC0 Offset: 0x22080C0 VA: 0x182209AC0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2208BF0 Offset: 0x22071F0 VA: 0x182208BF0
+	// RVA: 0x2208EB0 Offset: 0x22074B0 VA: 0x182208EB0
 	internal IHandler <OnClientConnect>b__36_1(IWebSocketConnection c, WebSocketHttpRequest r) { }
 
-	// RVA: 0x2208C00 Offset: 0x2207200 VA: 0x182208C00
+	// RVA: 0x2208EC0 Offset: 0x22074C0 VA: 0x182208EC0
 	internal void <OnClientConnect>b__36_2(Exception e) { }
 
 }

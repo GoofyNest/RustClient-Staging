@@ -19,7 +19,7 @@ internal struct GameRichPresenceJoinRequested_t : ICallbackData // TypeDefIndex:
 	// RVA: 0x1E7BA0 Offset: 0x1E6FA0 VA: 0x1801E7BA0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13712B0 Offset: 0x136F8B0 VA: 0x1813712B0
+	// RVA: 0x1371570 Offset: 0x136FB70 VA: 0x181371570
 	private static void .cctor() { }
 
 }

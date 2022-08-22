@@ -7,62 +7,62 @@ public static class GC // TypeDefIndex: 224
 
 	// Methods
 
-	// RVA: 0x10DDD70 Offset: 0x10DC370 VA: 0x1810DDD70
+	// RVA: 0x10DE030 Offset: 0x10DC630 VA: 0x1810DE030
 	private static int GetCollectionCount(int generation) { }
 
-	// RVA: 0x10DDD80 Offset: 0x10DC380 VA: 0x1810DDD80
+	// RVA: 0x10DE040 Offset: 0x10DC640 VA: 0x1810DE040
 	private static int GetMaxGeneration() { }
 
-	// RVA: 0x10DDDA0 Offset: 0x10DC3A0 VA: 0x1810DDDA0
+	// RVA: 0x10DE060 Offset: 0x10DC660 VA: 0x1810DE060
 	private static void InternalCollect(int generation) { }
 
-	// RVA: 0x10DDE40 Offset: 0x10DC440 VA: 0x1810DDE40
+	// RVA: 0x10DE100 Offset: 0x10DC700 VA: 0x1810DE100
 	private static void RecordPressure(long bytesAllocated) { }
 
-	// RVA: 0xD69710 Offset: 0xD67D10 VA: 0x180D69710
+	// RVA: 0xD699D0 Offset: 0xD67FD0 VA: 0x180D699D0
 	internal static void register_ephemeron_array(Ephemeron[] array) { }
 
-	// RVA: 0x10DE0A0 Offset: 0x10DC6A0 VA: 0x1810DE0A0
+	// RVA: 0x10DE360 Offset: 0x10DC960 VA: 0x1810DE360
 	private static object get_ephemeron_tombstone() { }
 
-	// RVA: 0x10DDB40 Offset: 0x10DC140 VA: 0x1810DDB40
+	// RVA: 0x10DDE00 Offset: 0x10DC400 VA: 0x1810DDE00
 	public static void AddMemoryPressure(long bytesAllocated) { }
 
-	// RVA: 0x10DDE50 Offset: 0x10DC450 VA: 0x1810DDE50
+	// RVA: 0x10DE110 Offset: 0x10DC710 VA: 0x1810DE110
 	public static void RemoveMemoryPressure(long bytesAllocated) { }
 
-	// RVA: 0x10DDC40 Offset: 0x10DC240 VA: 0x1810DDC40
+	// RVA: 0x10DDF00 Offset: 0x10DC500 VA: 0x1810DDF00
 	public static void Collect() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x10DDCD0 Offset: 0x10DC2D0 VA: 0x1810DDCD0
+	// RVA: 0x10DDF90 Offset: 0x10DC590 VA: 0x1810DDF90
 	public static int CollectionCount(int generation) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void KeepAlive(object obj) { }
 
-	// RVA: 0x10DE050 Offset: 0x10DC650 VA: 0x1810DE050
+	// RVA: 0x10DE310 Offset: 0x10DC910 VA: 0x1810DE310
 	public static int get_MaxGeneration() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x10DDFF0 Offset: 0x10DC5F0 VA: 0x1810DDFF0
+	// RVA: 0x10DE2B0 Offset: 0x10DC8B0 VA: 0x1810DE2B0
 	private static void _SuppressFinalize(object o) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x10DDF50 Offset: 0x10DC550 VA: 0x1810DDF50
+	// RVA: 0x10DE210 Offset: 0x10DC810 VA: 0x1810DE210
 	public static void SuppressFinalize(object obj) { }
 
-	// RVA: 0x10DDFE0 Offset: 0x10DC5E0 VA: 0x1810DDFE0
+	// RVA: 0x10DE2A0 Offset: 0x10DC8A0 VA: 0x1810DE2A0
 	private static void _ReRegisterForFinalize(object o) { }
 
-	// RVA: 0x10DDDB0 Offset: 0x10DC3B0 VA: 0x1810DDDB0
+	// RVA: 0x10DE070 Offset: 0x10DC670 VA: 0x1810DE070
 	public static void ReRegisterForFinalize(object obj) { }
 
-	// RVA: 0x10DDD90 Offset: 0x10DC390 VA: 0x1810DDD90
+	// RVA: 0x10DE050 Offset: 0x10DC650 VA: 0x1810DE050
 	public static long GetTotalMemory(bool forceFullCollection) { }
 
-	// RVA: 0x10DE000 Offset: 0x10DC600 VA: 0x1810DE000
+	// RVA: 0x10DE2C0 Offset: 0x10DC8C0 VA: 0x1810DE2C0
 	private static void .cctor() { }
 
 }
@@ -90,49 +90,49 @@ public class GC : ConsoleSystem // TypeDefIndex: 11925
 
 	// Methods
 
-	// RVA: 0x6E0830 Offset: 0x6DEE30 VA: 0x1806E0830
+	// RVA: 0x6E0940 Offset: 0x6DEF40 VA: 0x1806E0940
 	public static int get_buffer() { }
 
-	// RVA: 0x6E08E0 Offset: 0x6DEEE0 VA: 0x1806E08E0
+	// RVA: 0x6E09F0 Offset: 0x6DEFF0 VA: 0x1806E09F0
 	public static void set_buffer(int value) { }
 
-	// RVA: 0x6E08A0 Offset: 0x6DEEA0 VA: 0x1806E08A0
+	// RVA: 0x6E09B0 Offset: 0x6DEFB0 VA: 0x1806E09B0
 	public static bool get_incremental_enabled() { }
 
-	// RVA: 0x6E09D0 Offset: 0x6DEFD0 VA: 0x1806E09D0
+	// RVA: 0x6E0AE0 Offset: 0x6DF0E0 VA: 0x1806E0AE0
 	public static void set_incremental_enabled(bool value) { }
 
-	// RVA: 0x6E08B0 Offset: 0x6DEEB0 VA: 0x1806E08B0
+	// RVA: 0x6E09C0 Offset: 0x6DEFC0 VA: 0x1806E09C0
 	public static int get_incremental_milliseconds() { }
 
-	// RVA: 0x6E0A20 Offset: 0x6DF020 VA: 0x1806E0A20
+	// RVA: 0x6E0B30 Offset: 0x6DF130 VA: 0x1806E0B30
 	public static void set_incremental_milliseconds(int value) { }
 
-	// RVA: 0x6E0890 Offset: 0x6DEE90 VA: 0x1806E0890
+	// RVA: 0x6E09A0 Offset: 0x6DEFA0 VA: 0x1806E09A0
 	public static bool get_enabled() { }
 
-	// RVA: 0x6E0980 Offset: 0x6DEF80 VA: 0x1806E0980
+	// RVA: 0x6E0A90 Offset: 0x6DF090 VA: 0x1806E0A90
 	public static void set_enabled(bool value) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6E0820 Offset: 0x6DEE20 VA: 0x1806E0820
+	// RVA: 0x6E0930 Offset: 0x6DEF30 VA: 0x1806E0930
 	public static void collect() { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6E0A90 Offset: 0x6DF090 VA: 0x1806E0A90
+	// RVA: 0x6E0BA0 Offset: 0x6DF1A0 VA: 0x1806E0BA0
 	public static void unload() { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6E06A0 Offset: 0x6DECA0 VA: 0x1806E06A0
+	// RVA: 0x6E07B0 Offset: 0x6DEDB0 VA: 0x1806E07B0
 	public static void alloc(ConsoleSystem.Arg args) { }
 
-	// RVA: 0x6E0640 Offset: 0x6DEC40 VA: 0x1806E0640
+	// RVA: 0x6E0750 Offset: 0x6DED50 VA: 0x1806E0750
 	public void .ctor() { }
 
-	// RVA: 0x6E05E0 Offset: 0x6DEBE0 VA: 0x1806E05E0
+	// RVA: 0x6E06F0 Offset: 0x6DECF0 VA: 0x1806E06F0
 	private static void .cctor() { }
 
 }

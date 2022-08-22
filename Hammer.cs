@@ -1,28 +1,28 @@
 public class Hammer : BaseMelee // TypeDefIndex: 9467
 {	// Methods
 
-	// RVA: 0x735780 Offset: 0x733D80 VA: 0x180735780
+	// RVA: 0x735890 Offset: 0x733E90 VA: 0x180735890
 	protected BuildingBlock GetBuildingBlock(BasePlayer player) { }
 
-	// RVA: 0x735840 Offset: 0x733E40 VA: 0x180735840
+	// RVA: 0x735950 Offset: 0x733F50 VA: 0x180735950
 	protected BaseVehicleModule GetVehicleModule(BasePlayer player) { }
 
-	// RVA: 0x735900 Offset: 0x733F00 VA: 0x180735900 Slot: 137
+	// RVA: 0x735A10 Offset: 0x734010 VA: 0x180735A10 Slot: 137
 	public override void OnFrame() { }
 
-	// RVA: 0x735AA0 Offset: 0x7340A0 VA: 0x180735AA0 Slot: 138
+	// RVA: 0x735BB0 Offset: 0x7341B0 VA: 0x180735BB0 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x735C50 Offset: 0x734250 VA: 0x180735C50
+	// RVA: 0x735D60 Offset: 0x734360 VA: 0x180735D60
 	private void OpenContextMenu() { }
 
-	// RVA: 0x735520 Offset: 0x733B20 VA: 0x180735520 Slot: 167
+	// RVA: 0x735630 Offset: 0x733C30 VA: 0x180735630 Slot: 167
 	public override bool CanHit(HitTest info) { }
 
-	// RVA: 0x735650 Offset: 0x733C50 VA: 0x180735650 Slot: 160
+	// RVA: 0x735760 Offset: 0x733D60 VA: 0x180735760 Slot: 160
 	public override void DoAttackShared(HitInfo info) { }
 
-	// RVA: 0x735D30 Offset: 0x734330 VA: 0x180735D30
+	// RVA: 0x735E40 Offset: 0x734440 VA: 0x180735E40
 	public void .ctor() { }
 
 }

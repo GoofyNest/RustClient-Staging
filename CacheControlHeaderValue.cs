@@ -50,132 +50,132 @@ public class CacheControlHeaderValue : ICloneable // TypeDefIndex: 5759
 
 	// Methods
 
-	// RVA: 0x1086400 Offset: 0x1084A00 VA: 0x181086400
+	// RVA: 0x10866C0 Offset: 0x1084CC0 VA: 0x1810866C0
 	public ICollection<NameValueHeaderValue> get_Extensions() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB11220 Offset: 0xB0F820 VA: 0x180B11220
+	// RVA: 0xB114E0 Offset: 0xB0FAE0 VA: 0x180B114E0
 	public Nullable<TimeSpan> get_MaxAge() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10865C0 Offset: 0x1084BC0 VA: 0x1810865C0
+	// RVA: 0x1086880 Offset: 0x1084E80 VA: 0x181086880
 	public void set_MaxAge(Nullable<TimeSpan> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1040 Offset: 0x8BF640 VA: 0x1808C1040
+	// RVA: 0x8C1150 Offset: 0x8BF750 VA: 0x1808C1150
 	public bool get_MaxStale() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x78E170 Offset: 0x78C770 VA: 0x18078E170
+	// RVA: 0x78E280 Offset: 0x78C880 VA: 0x18078E280
 	public void set_MaxStale(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1086470 Offset: 0x1084A70 VA: 0x181086470
+	// RVA: 0x1086730 Offset: 0x1084D30 VA: 0x181086730
 	public Nullable<TimeSpan> get_MaxStaleLimit() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10865D0 Offset: 0x1084BD0 VA: 0x1810865D0
+	// RVA: 0x1086890 Offset: 0x1084E90 VA: 0x181086890
 	public void set_MaxStaleLimit(Nullable<TimeSpan> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x105DDA0 Offset: 0x105C3A0 VA: 0x18105DDA0
+	// RVA: 0x105E060 Offset: 0x105C660 VA: 0x18105E060
 	public Nullable<TimeSpan> get_MinFresh() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10865E0 Offset: 0x1084BE0 VA: 0x1810865E0
+	// RVA: 0x10868A0 Offset: 0x1084EA0 VA: 0x1810868A0
 	public void set_MinFresh(Nullable<TimeSpan> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4EFF0 Offset: 0xA4D5F0 VA: 0x180A4EFF0
+	// RVA: 0xA4F2B0 Offset: 0xA4D8B0 VA: 0x180A4F2B0
 	public bool get_MustRevalidate() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6F1820 Offset: 0x6EFE20 VA: 0x1806F1820
+	// RVA: 0x6F1930 Offset: 0x6EFF30 VA: 0x1806F1930
 	public void set_MustRevalidate(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10864F0 Offset: 0x1084AF0 VA: 0x1810864F0
+	// RVA: 0x10867B0 Offset: 0x1084DB0 VA: 0x1810867B0
 	public bool get_NoCache() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10865F0 Offset: 0x1084BF0 VA: 0x1810865F0
+	// RVA: 0x10868B0 Offset: 0x1084EB0 VA: 0x1810868B0
 	public void set_NoCache(bool value) { }
 
-	// RVA: 0x1086480 Offset: 0x1084A80 VA: 0x181086480
+	// RVA: 0x1086740 Offset: 0x1084D40 VA: 0x181086740
 	public ICollection<string> get_NoCacheHeaders() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1086500 Offset: 0x1084B00 VA: 0x181086500
+	// RVA: 0x10867C0 Offset: 0x1084DC0 VA: 0x1810867C0
 	public bool get_NoStore() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1086600 Offset: 0x1084C00 VA: 0x181086600
+	// RVA: 0x10868C0 Offset: 0x1084EC0 VA: 0x1810868C0
 	public void set_NoStore(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1086510 Offset: 0x1084B10 VA: 0x181086510
+	// RVA: 0x10867D0 Offset: 0x1084DD0 VA: 0x1810867D0
 	public bool get_NoTransform() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1086610 Offset: 0x1084C10 VA: 0x181086610
+	// RVA: 0x10868D0 Offset: 0x1084ED0 VA: 0x1810868D0
 	public void set_NoTransform(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7AE500 Offset: 0x7ACB00 VA: 0x1807AE500
+	// RVA: 0x7AE610 Offset: 0x7ACC10 VA: 0x1807AE610
 	public bool get_OnlyIfCached() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1086620 Offset: 0x1084C20 VA: 0x181086620
+	// RVA: 0x10868E0 Offset: 0x1084EE0 VA: 0x1810868E0
 	public void set_OnlyIfCached(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7AE4F0 Offset: 0x7ACAF0 VA: 0x1807AE4F0
+	// RVA: 0x7AE600 Offset: 0x7ACC00 VA: 0x1807AE600
 	public bool get_Private() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1086630 Offset: 0x1084C30 VA: 0x181086630
+	// RVA: 0x10868F0 Offset: 0x1084EF0 VA: 0x1810868F0
 	public void set_Private(bool value) { }
 
-	// RVA: 0x1086520 Offset: 0x1084B20 VA: 0x181086520
+	// RVA: 0x10867E0 Offset: 0x1084DE0 VA: 0x1810867E0
 	public ICollection<string> get_PrivateHeaders() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1086590 Offset: 0x1084B90 VA: 0x181086590
+	// RVA: 0x1086850 Offset: 0x1084E50 VA: 0x181086850
 	public bool get_ProxyRevalidate() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1086640 Offset: 0x1084C40 VA: 0x181086640
+	// RVA: 0x1086900 Offset: 0x1084F00 VA: 0x181086900
 	public void set_ProxyRevalidate(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10865A0 Offset: 0x1084BA0 VA: 0x1810865A0
+	// RVA: 0x1086860 Offset: 0x1084E60 VA: 0x181086860
 	public bool get_Public() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1086650 Offset: 0x1084C50 VA: 0x181086650
+	// RVA: 0x1086910 Offset: 0x1084F10 VA: 0x181086910
 	public void set_Public(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10865B0 Offset: 0x1084BB0 VA: 0x1810865B0
+	// RVA: 0x1086870 Offset: 0x1084E70 VA: 0x181086870
 	public Nullable<TimeSpan> get_SharedMaxAge() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1086660 Offset: 0x1084C60 VA: 0x181086660
+	// RVA: 0x1086920 Offset: 0x1084F20 VA: 0x181086920
 	public void set_SharedMaxAge(Nullable<TimeSpan> value) { }
 
-	// RVA: 0x1084E80 Offset: 0x1083480 VA: 0x181084E80 Slot: 4
+	// RVA: 0x1085140 Offset: 0x1083740 VA: 0x181085140 Slot: 4
 	private object System.ICloneable.Clone() { }
 
-	// RVA: 0x1084950 Offset: 0x1082F50 VA: 0x181084950 Slot: 0
+	// RVA: 0x1084C10 Offset: 0x1083210 VA: 0x181084C10 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1084C50 Offset: 0x1083250 VA: 0x181084C50 Slot: 2
+	// RVA: 0x1084F10 Offset: 0x1083510 VA: 0x181084F10 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1085920 Offset: 0x1083F20 VA: 0x181085920
+	// RVA: 0x1085BE0 Offset: 0x10841E0 VA: 0x181085BE0
 	public static bool TryParse(string input, out CacheControlHeaderValue parsedValue) { }
 
-	// RVA: 0x1085310 Offset: 0x1083910 VA: 0x181085310 Slot: 3
+	// RVA: 0x10855D0 Offset: 0x1083BD0 VA: 0x1810855D0 Slot: 3
 	public override string ToString() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

@@ -5,19 +5,19 @@ public class BaseScriptableObject : ScriptableObject // TypeDefIndex: 11292
 
 	// Methods
 
-	// RVA: 0x92C1C0 Offset: 0x92A7C0 VA: 0x18092C1C0
+	// RVA: 0x92C2D0 Offset: 0x92A8D0 VA: 0x18092C2D0
 	public string LookupFileName() { }
 
-	// RVA: 0x92C220 Offset: 0x92A820 VA: 0x18092C220
+	// RVA: 0x92C330 Offset: 0x92A930 VA: 0x18092C330
 	public static bool op_Equality(BaseScriptableObject a, BaseScriptableObject b) { }
 
-	// RVA: 0x92C240 Offset: 0x92A840 VA: 0x18092C240
+	// RVA: 0x92C350 Offset: 0x92A950 VA: 0x18092C350
 	public static bool op_Inequality(BaseScriptableObject a, BaseScriptableObject b) { }
 
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x92C0E0 Offset: 0x92A6E0 VA: 0x18092C0E0 Slot: 0
+	// RVA: 0x92C1F0 Offset: 0x92A7F0 VA: 0x18092C1F0 Slot: 0
 	public override bool Equals(object o) { }
 
 	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0

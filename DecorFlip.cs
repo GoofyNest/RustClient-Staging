@@ -4,10 +4,10 @@ public class DecorFlip : DecorComponent // TypeDefIndex: 10324
 
 	// Methods
 
-	// RVA: 0x8418F0 Offset: 0x83FEF0 VA: 0x1808418F0 Slot: 8
+	// RVA: 0x841A00 Offset: 0x840000 VA: 0x180841A00 Slot: 8
 	public override void Apply(ref Vector3 pos, ref Quaternion rot, ref Vector3 scale) { }
 
-	// RVA: 0x841AD0 Offset: 0x8400D0 VA: 0x180841AD0
+	// RVA: 0x841BE0 Offset: 0x8401E0 VA: 0x180841BE0
 	public void .ctor() { }
 
 }

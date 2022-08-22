@@ -4,10 +4,10 @@ public abstract class RandomNumberGenerator : IDisposable // TypeDefIndex: 972
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	protected void .ctor() { }
 
-	// RVA: 0x17B72A0 Offset: 0x17B58A0 VA: 0x1817B72A0
+	// RVA: 0x17B7560 Offset: 0x17B5B60 VA: 0x1817B7560
 	public static RandomNumberGenerator Create() { }
 
-	// RVA: 0x17B72F0 Offset: 0x17B58F0 VA: 0x1817B72F0 Slot: 4
+	// RVA: 0x17B75B0 Offset: 0x17B5BB0 VA: 0x1817B75B0 Slot: 4
 	public void Dispose() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5

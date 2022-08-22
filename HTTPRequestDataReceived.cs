@@ -18,7 +18,7 @@ internal struct HTTPRequestDataReceived_t : ICallbackData // TypeDefIndex: 5426
 	// RVA: 0x1EA7A0 Offset: 0x1E9BA0 VA: 0x1801EA7A0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372A80 Offset: 0x1371080 VA: 0x181372A80
+	// RVA: 0x1372D40 Offset: 0x1371340 VA: 0x181372D40
 	private static void .cctor() { }
 
 }

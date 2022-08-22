@@ -6,82 +6,82 @@ public class MapNoteList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 64
 
 	// Methods
 
-	// RVA: 0x1F3FEF0 Offset: 0x1F3E4F0 VA: 0x181F3FEF0
+	// RVA: 0x1F401B0 Offset: 0x1F3E7B0 VA: 0x181F401B0
 	public static void ResetToPool(MapNoteList instance) { }
 
-	// RVA: 0x1F400A0 Offset: 0x1F3E6A0 VA: 0x181F400A0
+	// RVA: 0x1F40360 Offset: 0x1F3E960 VA: 0x181F40360
 	public void ResetToPool() { }
 
-	// RVA: 0x1F3FC70 Offset: 0x1F3E270 VA: 0x181F3FC70 Slot: 9
+	// RVA: 0x1F3FF30 Offset: 0x1F3E530 VA: 0x181F3FF30 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F3EDE0 Offset: 0x1F3D3E0 VA: 0x181F3EDE0
+	// RVA: 0x1F3F0A0 Offset: 0x1F3D6A0 VA: 0x181F3F0A0
 	public void CopyTo(MapNoteList instance) { }
 
-	// RVA: 0x1F3EF70 Offset: 0x1F3D570 VA: 0x181F3EF70
+	// RVA: 0x1F3F230 Offset: 0x1F3D830 VA: 0x181F3F230
 	public MapNoteList Copy() { }
 
-	// RVA: 0x1F3FBF0 Offset: 0x1F3E1F0 VA: 0x181F3FBF0
+	// RVA: 0x1F3FEB0 Offset: 0x1F3E4B0 VA: 0x181F3FEB0
 	public static MapNoteList Deserialize(Stream stream) { }
 
-	// RVA: 0x1F3F160 Offset: 0x1F3D760 VA: 0x181F3F160
+	// RVA: 0x1F3F420 Offset: 0x1F3DA20 VA: 0x181F3F420
 	public static MapNoteList DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F3F4B0 Offset: 0x1F3DAB0 VA: 0x181F3F4B0
+	// RVA: 0x1F3F770 Offset: 0x1F3DD70 VA: 0x181F3F770
 	public static MapNoteList DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F3F7E0 Offset: 0x1F3DDE0 VA: 0x181F3F7E0
+	// RVA: 0x1F3FAA0 Offset: 0x1F3E0A0 VA: 0x181F3FAA0
 	public static MapNoteList Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F3FEB0 Offset: 0x1F3E4B0 VA: 0x181F3FEB0
+	// RVA: 0x1F40170 Offset: 0x1F3E770 VA: 0x181F40170
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F407E0 Offset: 0x1F3EDE0 VA: 0x181F407E0 Slot: 12
+	// RVA: 0x1F40AA0 Offset: 0x1F3F0A0 VA: 0x181F40AA0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F40800 Offset: 0x1F3EE00 VA: 0x181F40800 Slot: 13
+	// RVA: 0x1F40AC0 Offset: 0x1F3F0C0 VA: 0x181F40AC0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, MapNoteList previous) { }
 
-	// RVA: 0x1F3FED0 Offset: 0x1F3E4D0 VA: 0x181F3FED0 Slot: 14
+	// RVA: 0x1F40190 Offset: 0x1F3E790 VA: 0x181F40190 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F3FAF0 Offset: 0x1F3E0F0 VA: 0x181F3FAF0
+	// RVA: 0x1F3FDB0 Offset: 0x1F3E3B0 VA: 0x181F3FDB0
 	public static MapNoteList Deserialize(byte[] buffer, MapNoteList instance, bool isDelta = False) { }
 
-	// RVA: 0x1F3F900 Offset: 0x1F3DF00 VA: 0x181F3F900
+	// RVA: 0x1F3FBC0 Offset: 0x1F3E1C0 VA: 0x181F3FBC0
 	public static MapNoteList Deserialize(Stream stream, MapNoteList instance, bool isDelta) { }
 
-	// RVA: 0x1F3F1E0 Offset: 0x1F3D7E0 VA: 0x181F3F1E0
+	// RVA: 0x1F3F4A0 Offset: 0x1F3DAA0 VA: 0x181F3F4A0
 	public static MapNoteList DeserializeLengthDelimited(Stream stream, MapNoteList instance, bool isDelta) { }
 
-	// RVA: 0x1F3F540 Offset: 0x1F3DB40 VA: 0x181F3F540
+	// RVA: 0x1F3F800 Offset: 0x1F3DE00 VA: 0x181F3F800
 	public static MapNoteList DeserializeLength(Stream stream, int length, MapNoteList instance, bool isDelta) { }
 
-	// RVA: 0x1F40250 Offset: 0x1F3E850 VA: 0x181F40250
+	// RVA: 0x1F40510 Offset: 0x1F3EB10 VA: 0x181F40510
 	public static void SerializeDelta(Stream stream, MapNoteList instance, MapNoteList previous) { }
 
-	// RVA: 0x1F405F0 Offset: 0x1F3EBF0 VA: 0x181F405F0
+	// RVA: 0x1F408B0 Offset: 0x1F3EEB0 VA: 0x181F408B0
 	public static void Serialize(Stream stream, MapNoteList instance) { }
 
-	// RVA: 0x1F407D0 Offset: 0x1F3EDD0 VA: 0x181F407D0
+	// RVA: 0x1F40A90 Offset: 0x1F3F090 VA: 0x181F40A90
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F407E0 Offset: 0x1F3EDE0 VA: 0x181F407E0
+	// RVA: 0x1F40AA0 Offset: 0x1F3F0A0 VA: 0x181F40AA0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F404E0 Offset: 0x1F3EAE0 VA: 0x181F404E0
+	// RVA: 0x1F407A0 Offset: 0x1F3EDA0 VA: 0x181F407A0
 	public static byte[] SerializeToBytes(MapNoteList instance) { }
 
-	// RVA: 0x1F40430 Offset: 0x1F3EA30 VA: 0x181F40430
+	// RVA: 0x1F406F0 Offset: 0x1F3ECF0 VA: 0x181F406F0
 	public static void SerializeLengthDelimited(Stream stream, MapNoteList instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

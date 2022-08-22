@@ -6,82 +6,82 @@ public class SimpleFloat : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 	// Methods
 
-	// RVA: 0x1E0C090 Offset: 0x1E0A690 VA: 0x181E0C090
+	// RVA: 0x1E0C350 Offset: 0x1E0A950 VA: 0x181E0C350
 	public static void ResetToPool(SimpleFloat instance) { }
 
-	// RVA: 0x1E0C010 Offset: 0x1E0A610 VA: 0x181E0C010
+	// RVA: 0x1E0C2D0 Offset: 0x1E0A8D0 VA: 0x181E0C2D0
 	public void ResetToPool() { }
 
-	// RVA: 0x1E0BEE0 Offset: 0x1E0A4E0 VA: 0x181E0BEE0 Slot: 9
+	// RVA: 0x1E0C1A0 Offset: 0x1E0A7A0 VA: 0x181E0C1A0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE4D0 Offset: 0x1BFCAD0 VA: 0x181BFE4D0
+	// RVA: 0x1BFE790 Offset: 0x1BFCD90 VA: 0x181BFE790
 	public void CopyTo(SimpleFloat instance) { }
 
-	// RVA: 0x1E0B550 Offset: 0x1E09B50 VA: 0x181E0B550
+	// RVA: 0x1E0B810 Offset: 0x1E09E10 VA: 0x181E0B810
 	public SimpleFloat Copy() { }
 
-	// RVA: 0x1E0BAF0 Offset: 0x1E0A0F0 VA: 0x181E0BAF0
+	// RVA: 0x1E0BDB0 Offset: 0x1E0A3B0 VA: 0x181E0BDB0
 	public static SimpleFloat Deserialize(Stream stream) { }
 
-	// RVA: 0x1E0B5C0 Offset: 0x1E09BC0 VA: 0x181E0B5C0
+	// RVA: 0x1E0B880 Offset: 0x1E09E80 VA: 0x181E0B880
 	public static SimpleFloat DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E0BA60 Offset: 0x1E0A060 VA: 0x181E0BA60
+	// RVA: 0x1E0BD20 Offset: 0x1E0A320 VA: 0x181E0BD20
 	public static SimpleFloat DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E0BC70 Offset: 0x1E0A270 VA: 0x181E0BC70
+	// RVA: 0x1E0BF30 Offset: 0x1E0A530 VA: 0x181E0BF30
 	public static SimpleFloat Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E0BFD0 Offset: 0x1E0A5D0 VA: 0x181E0BFD0
+	// RVA: 0x1E0C290 Offset: 0x1E0A890 VA: 0x181E0C290
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E0C4E0 Offset: 0x1E0AAE0 VA: 0x181E0C4E0 Slot: 12
+	// RVA: 0x1E0C7A0 Offset: 0x1E0ADA0 VA: 0x181E0C7A0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E0C500 Offset: 0x1E0AB00 VA: 0x181E0C500 Slot: 13
+	// RVA: 0x1E0C7C0 Offset: 0x1E0ADC0 VA: 0x181E0C7C0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, SimpleFloat previous) { }
 
-	// RVA: 0x1E0BFF0 Offset: 0x1E0A5F0 VA: 0x181E0BFF0 Slot: 14
+	// RVA: 0x1E0C2B0 Offset: 0x1E0A8B0 VA: 0x181E0C2B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E0BB70 Offset: 0x1E0A170 VA: 0x181E0BB70
+	// RVA: 0x1E0BE30 Offset: 0x1E0A430 VA: 0x181E0BE30
 	public static SimpleFloat Deserialize(byte[] buffer, SimpleFloat instance, bool isDelta = False) { }
 
-	// RVA: 0x1E0BD90 Offset: 0x1E0A390 VA: 0x181E0BD90
+	// RVA: 0x1E0C050 Offset: 0x1E0A650 VA: 0x181E0C050
 	public static SimpleFloat Deserialize(Stream stream, SimpleFloat instance, bool isDelta) { }
 
-	// RVA: 0x1E0B640 Offset: 0x1E09C40 VA: 0x181E0B640
+	// RVA: 0x1E0B900 Offset: 0x1E09F00 VA: 0x181E0B900
 	public static SimpleFloat DeserializeLengthDelimited(Stream stream, SimpleFloat instance, bool isDelta) { }
 
-	// RVA: 0x1E0B860 Offset: 0x1E09E60 VA: 0x181E0B860
+	// RVA: 0x1E0BB20 Offset: 0x1E0A120 VA: 0x181E0BB20
 	public static SimpleFloat DeserializeLength(Stream stream, int length, SimpleFloat instance, bool isDelta) { }
 
-	// RVA: 0x1E0C110 Offset: 0x1E0A710 VA: 0x181E0C110
+	// RVA: 0x1E0C3D0 Offset: 0x1E0A9D0 VA: 0x181E0C3D0
 	public static void SerializeDelta(Stream stream, SimpleFloat instance, SimpleFloat previous) { }
 
-	// RVA: 0x1E0C3F0 Offset: 0x1E0A9F0 VA: 0x181E0C3F0
+	// RVA: 0x1E0C6B0 Offset: 0x1E0ACB0 VA: 0x181E0C6B0
 	public static void Serialize(Stream stream, SimpleFloat instance) { }
 
-	// RVA: 0x1E0C4D0 Offset: 0x1E0AAD0 VA: 0x181E0C4D0
+	// RVA: 0x1E0C790 Offset: 0x1E0AD90 VA: 0x181E0C790
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E0C4E0 Offset: 0x1E0AAE0 VA: 0x181E0C4E0
+	// RVA: 0x1E0C7A0 Offset: 0x1E0ADA0 VA: 0x181E0C7A0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E0C2E0 Offset: 0x1E0A8E0 VA: 0x181E0C2E0
+	// RVA: 0x1E0C5A0 Offset: 0x1E0ABA0 VA: 0x181E0C5A0
 	public static byte[] SerializeToBytes(SimpleFloat instance) { }
 
-	// RVA: 0x1E0C230 Offset: 0x1E0A830 VA: 0x181E0C230
+	// RVA: 0x1E0C4F0 Offset: 0x1E0AAF0 VA: 0x181E0C4F0
 	public static void SerializeLengthDelimited(Stream stream, SimpleFloat instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

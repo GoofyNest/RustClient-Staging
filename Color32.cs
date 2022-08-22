@@ -12,10 +12,10 @@ public struct Color32 // TypeDefIndex: 3461
 	// RVA: 0x212EE0 Offset: 0x2122E0 VA: 0x180212EE0
 	public void .ctor(byte r, byte g, byte b, byte a) { }
 
-	// RVA: 0x1823AD0 Offset: 0x18220D0 VA: 0x181823AD0
+	// RVA: 0x1823D90 Offset: 0x1822390 VA: 0x181823D90
 	public static Color32 op_Implicit(Color c) { }
 
-	// RVA: 0x1823BE0 Offset: 0x18221E0 VA: 0x181823BE0
+	// RVA: 0x1823EA0 Offset: 0x18224A0 VA: 0x181823EA0
 	public static Color op_Implicit(Color32 c) { }
 
 	// RVA: 0x212ED0 Offset: 0x2122D0 VA: 0x180212ED0 Slot: 3

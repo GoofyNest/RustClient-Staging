@@ -13,10 +13,10 @@ internal class DoubleLinkAxis : Axis // TypeDefIndex: 2135
 	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
 	internal void set_Next(Axis value) { }
 
-	// RVA: 0x1516DF0 Offset: 0x15153F0 VA: 0x181516DF0
+	// RVA: 0x15170B0 Offset: 0x15156B0 VA: 0x1815170B0
 	internal void .ctor(Axis axis, DoubleLinkAxis inputaxis) { }
 
-	// RVA: 0x1516CC0 Offset: 0x15152C0 VA: 0x181516CC0
+	// RVA: 0x1516F80 Offset: 0x1515580 VA: 0x181516F80
 	internal static DoubleLinkAxis ConvertTree(Axis axis) { }
 
 }

@@ -12,16 +12,16 @@ public class Decal : ConsoleSystem // TypeDefIndex: 11904
 	// Methods
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6D8E70 Offset: 0x6D7470 VA: 0x1806D8E70
+	// RVA: 0x6D8F80 Offset: 0x6D7580 VA: 0x1806D8F80
 	public static void clear(ConsoleSystem.Arg args) { }
 
-	// RVA: 0x6D8EC0 Offset: 0x6D74C0 VA: 0x1806D8EC0
+	// RVA: 0x6D8FD0 Offset: 0x6D75D0 VA: 0x1806D8FD0
 	public static void clear() { }
 
-	// RVA: 0x6D8E10 Offset: 0x6D7410 VA: 0x1806D8E10
+	// RVA: 0x6D8F20 Offset: 0x6D7520 VA: 0x1806D8F20
 	public void .ctor() { }
 
-	// RVA: 0x6D8D90 Offset: 0x6D7390 VA: 0x1806D8D90
+	// RVA: 0x6D8EA0 Offset: 0x6D74A0 VA: 0x1806D8EA0
 	private static void .cctor() { }
 
 }

@@ -7,82 +7,82 @@ public class MicrophoneStand : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1F46A00 Offset: 0x1F45000 VA: 0x181F46A00
+	// RVA: 0x1F46CC0 Offset: 0x1F452C0 VA: 0x181F46CC0
 	public static void ResetToPool(MicrophoneStand instance) { }
 
-	// RVA: 0x1F46A80 Offset: 0x1F45080 VA: 0x181F46A80
+	// RVA: 0x1F46D40 Offset: 0x1F45340 VA: 0x181F46D40
 	public void ResetToPool() { }
 
-	// RVA: 0x1F46760 Offset: 0x1F44D60 VA: 0x181F46760 Slot: 9
+	// RVA: 0x1F46A20 Offset: 0x1F45020 VA: 0x181F46A20 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DBE8E0 Offset: 0x1DBCEE0 VA: 0x181DBE8E0
+	// RVA: 0x1DBEBA0 Offset: 0x1DBD1A0 VA: 0x181DBEBA0
 	public void CopyTo(MicrophoneStand instance) { }
 
-	// RVA: 0x1F45960 Offset: 0x1F43F60 VA: 0x181F45960
+	// RVA: 0x1F45C20 Offset: 0x1F44220 VA: 0x181F45C20
 	public MicrophoneStand Copy() { }
 
-	// RVA: 0x1F465A0 Offset: 0x1F44BA0 VA: 0x181F465A0
+	// RVA: 0x1F46860 Offset: 0x1F44E60 VA: 0x181F46860
 	public static MicrophoneStand Deserialize(Stream stream) { }
 
-	// RVA: 0x1F459D0 Offset: 0x1F43FD0 VA: 0x181F459D0
+	// RVA: 0x1F45C90 Offset: 0x1F44290 VA: 0x181F45C90
 	public static MicrophoneStand DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F45CA0 Offset: 0x1F442A0 VA: 0x181F45CA0
+	// RVA: 0x1F45F60 Offset: 0x1F44560 VA: 0x181F45F60
 	public static MicrophoneStand DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F46330 Offset: 0x1F44930 VA: 0x181F46330
+	// RVA: 0x1F465F0 Offset: 0x1F44BF0 VA: 0x181F465F0
 	public static MicrophoneStand Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F46860 Offset: 0x1F44E60 VA: 0x181F46860
+	// RVA: 0x1F46B20 Offset: 0x1F45120 VA: 0x181F46B20
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F46F40 Offset: 0x1F45540 VA: 0x181F46F40 Slot: 12
+	// RVA: 0x1F47200 Offset: 0x1F45800 VA: 0x181F47200 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F46F60 Offset: 0x1F45560 VA: 0x181F46F60 Slot: 13
+	// RVA: 0x1F47220 Offset: 0x1F45820 VA: 0x181F47220 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, MicrophoneStand previous) { }
 
-	// RVA: 0x1F469E0 Offset: 0x1F44FE0 VA: 0x181F469E0 Slot: 14
+	// RVA: 0x1F46CA0 Offset: 0x1F452A0 VA: 0x181F46CA0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F460E0 Offset: 0x1F446E0 VA: 0x181F460E0
+	// RVA: 0x1F463A0 Offset: 0x1F449A0 VA: 0x181F463A0
 	public static MicrophoneStand Deserialize(byte[] buffer, MicrophoneStand instance, bool isDelta = False) { }
 
-	// RVA: 0x1F45F60 Offset: 0x1F44560 VA: 0x181F45F60
+	// RVA: 0x1F46220 Offset: 0x1F44820 VA: 0x181F46220
 	public static MicrophoneStand Deserialize(Stream stream, MicrophoneStand instance, bool isDelta) { }
 
-	// RVA: 0x1F45A50 Offset: 0x1F44050 VA: 0x181F45A50
+	// RVA: 0x1F45D10 Offset: 0x1F44310 VA: 0x181F45D10
 	public static MicrophoneStand DeserializeLengthDelimited(Stream stream, MicrophoneStand instance, bool isDelta) { }
 
-	// RVA: 0x1F45D30 Offset: 0x1F44330 VA: 0x181F45D30
+	// RVA: 0x1F45FF0 Offset: 0x1F445F0 VA: 0x181F45FF0
 	public static MicrophoneStand DeserializeLength(Stream stream, int length, MicrophoneStand instance, bool isDelta) { }
 
-	// RVA: 0x1F46B00 Offset: 0x1F45100 VA: 0x181F46B00
+	// RVA: 0x1F46DC0 Offset: 0x1F453C0 VA: 0x181F46DC0
 	public static void SerializeDelta(Stream stream, MicrophoneStand instance, MicrophoneStand previous) { }
 
-	// RVA: 0x1F46E30 Offset: 0x1F45430 VA: 0x181F46E30
+	// RVA: 0x1F470F0 Offset: 0x1F456F0 VA: 0x181F470F0
 	public static void Serialize(Stream stream, MicrophoneStand instance) { }
 
-	// RVA: 0x1F46F30 Offset: 0x1F45530 VA: 0x181F46F30
+	// RVA: 0x1F471F0 Offset: 0x1F457F0 VA: 0x181F471F0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F46F40 Offset: 0x1F45540 VA: 0x181F46F40
+	// RVA: 0x1F47200 Offset: 0x1F45800 VA: 0x181F47200
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F46D20 Offset: 0x1F45320 VA: 0x181F46D20
+	// RVA: 0x1F46FE0 Offset: 0x1F455E0 VA: 0x181F46FE0
 	public static byte[] SerializeToBytes(MicrophoneStand instance) { }
 
-	// RVA: 0x1F46C70 Offset: 0x1F45270 VA: 0x181F46C70
+	// RVA: 0x1F46F30 Offset: 0x1F45530 VA: 0x181F46F30
 	public static void SerializeLengthDelimited(Stream stream, MicrophoneStand instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -108,37 +108,37 @@ public class MicrophoneStand : BaseMountable // TypeDefIndex: 8605
 
 	// Methods
 
-	// RVA: 0x96C020 Offset: 0x96A620 VA: 0x18096C020 Slot: 35
+	// RVA: 0x96C130 Offset: 0x96A730 VA: 0x18096C130 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x96C360 Offset: 0x96A960 VA: 0x18096C360
+	// RVA: 0x96C470 Offset: 0x96AA70 VA: 0x18096C470
 	private void Update() { }
 
-	// RVA: 0x96BCF0 Offset: 0x96A2F0 VA: 0x18096BCF0 Slot: 158
+	// RVA: 0x96BE00 Offset: 0x96A400 VA: 0x18096BE00 Slot: 158
 	public override void OnClientInput(BasePlayer player) { }
 
-	// RVA: 0x96C110 Offset: 0x96A710 VA: 0x18096C110
+	// RVA: 0x96C220 Offset: 0x96A820 VA: 0x18096C220
 	public bool Receive(byte[] data) { }
 
-	// RVA: 0x96BB90 Offset: 0x96A190 VA: 0x18096BB90 Slot: 131
+	// RVA: 0x96BCA0 Offset: 0x96A2A0 VA: 0x18096BCA0 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0x96BBC0 Offset: 0x96A1C0 VA: 0x18096BBC0 Slot: 34
+	// RVA: 0x96BCD0 Offset: 0x96A2D0 VA: 0x18096BCD0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x96C3B0 Offset: 0x96A9B0 VA: 0x18096C3B0
+	// RVA: 0x96C4C0 Offset: 0x96AAC0 VA: 0x18096C4C0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x96C270 Offset: 0x96A870 VA: 0x18096C270
+	// RVA: 0x96C380 Offset: 0x96A980 VA: 0x18096C380
 	private void <OnClientInput>b__19_0(BasePlayer ply) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x96C2C0 Offset: 0x96A8C0 VA: 0x18096C2C0
+	// RVA: 0x96C3D0 Offset: 0x96A9D0 VA: 0x18096C3D0
 	private void <OnClientInput>b__19_1(BasePlayer ply) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x96C310 Offset: 0x96A910 VA: 0x18096C310
+	// RVA: 0x96C420 Offset: 0x96AA20 VA: 0x18096C420
 	private void <OnClientInput>b__19_2(BasePlayer ply) { }
 
 }

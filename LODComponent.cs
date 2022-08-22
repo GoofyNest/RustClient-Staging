@@ -158,13 +158,13 @@ private sealed class LODComponent.<>c // TypeDefIndex: 9932
 
 	// Methods
 
-	// RVA: 0x690FA0 Offset: 0x68F5A0 VA: 0x180690FA0
+	// RVA: 0x6910B0 Offset: 0x68F6B0 VA: 0x1806910B0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x690C30 Offset: 0x68F230 VA: 0x180690C30
+	// RVA: 0x690D40 Offset: 0x68F340 VA: 0x180690D40
 	internal bool <ChangeCullingAll>b__34_0(LODComponent i) { }
 
 }

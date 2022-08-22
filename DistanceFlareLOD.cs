@@ -20,43 +20,43 @@ public class DistanceFlareLOD : FacepunchBehaviour, ILOD, IClientComponent // Ty
 
 	// Methods
 
-	// RVA: 0x98AE10 Offset: 0x989410 VA: 0x18098AE10
+	// RVA: 0x98AF20 Offset: 0x989520 VA: 0x18098AF20
 	private float GetDistance() { }
 
-	// RVA: 0x98A8D0 Offset: 0x988ED0 VA: 0x18098A8D0
+	// RVA: 0x98A9E0 Offset: 0x988FE0 VA: 0x18098A9E0
 	protected void Awake() { }
 
-	// RVA: 0x98AF60 Offset: 0x989560 VA: 0x18098AF60
+	// RVA: 0x98B070 Offset: 0x989670 VA: 0x18098B070
 	protected void OnEnable() { }
 
-	// RVA: 0x98AE90 Offset: 0x989490 VA: 0x18098AE90
+	// RVA: 0x98AFA0 Offset: 0x9895A0 VA: 0x18098AFA0
 	protected void OnDisable() { }
 
-	// RVA: 0x98B1D0 Offset: 0x9897D0 VA: 0x18098B1D0
+	// RVA: 0x98B2E0 Offset: 0x9898E0 VA: 0x18098B2E0
 	private void UpdateMaterialPropertyBlock() { }
 
-	// RVA: 0x98B1B0 Offset: 0x9897B0 VA: 0x18098B1B0
+	// RVA: 0x98B2C0 Offset: 0x9898C0 VA: 0x18098B2C0
 	private void ToggleFlare(bool state) { }
 
-	// RVA: 0x98AC70 Offset: 0x989270 VA: 0x18098AC70
+	// RVA: 0x98AD80 Offset: 0x989380 VA: 0x18098AD80
 	private void FadingToggle() { }
 
-	// RVA: 0x98B090 Offset: 0x989690 VA: 0x18098B090
+	// RVA: 0x98B1A0 Offset: 0x9897A0 VA: 0x18098B1A0
 	public void SetFlareActive(bool lightOn) { }
 
-	// RVA: 0x98B1A0 Offset: 0x9897A0 VA: 0x18098B1A0
+	// RVA: 0x98B2B0 Offset: 0x9898B0 VA: 0x18098B2B0
 	public void SetFlareIntensity(float intensity) { }
 
-	// RVA: 0x98B000 Offset: 0x989600 VA: 0x18098B000 Slot: 5
+	// RVA: 0x98B110 Offset: 0x989710 VA: 0x18098B110 Slot: 5
 	public void RefreshLOD() { }
 
-	// RVA: 0x98AAE0 Offset: 0x9890E0 VA: 0x18098AAE0 Slot: 4
+	// RVA: 0x98ABF0 Offset: 0x9891F0 VA: 0x18098ABF0 Slot: 4
 	public void ChangeLOD() { }
 
-	// RVA: 0x98B350 Offset: 0x989950 VA: 0x18098B350
+	// RVA: 0x98B460 Offset: 0x989A60 VA: 0x18098B460
 	public void .ctor() { }
 
-	// RVA: 0x98B300 Offset: 0x989900 VA: 0x18098B300
+	// RVA: 0x98B410 Offset: 0x989A10 VA: 0x18098B410
 	private static void .cctor() { }
 
 }

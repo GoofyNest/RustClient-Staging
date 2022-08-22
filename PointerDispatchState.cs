@@ -6,37 +6,37 @@ internal class PointerDispatchState // TypeDefIndex: 4604
 
 	// Methods
 
-	// RVA: 0xEB7C70 Offset: 0xEB6270 VA: 0x180EB7C70
+	// RVA: 0xEB7F30 Offset: 0xEB6530 VA: 0x180EB7F30
 	public void .ctor() { }
 
-	// RVA: 0xEB7AD0 Offset: 0xEB60D0 VA: 0x180EB7AD0
+	// RVA: 0xEB7D90 Offset: 0xEB6390 VA: 0x180EB7D90
 	internal void Reset() { }
 
-	// RVA: 0x9EB5E0 Offset: 0x9E9BE0 VA: 0x1809EB5E0
+	// RVA: 0x9EB8A0 Offset: 0x9E9EA0 VA: 0x1809EB8A0
 	public IEventHandler GetCapturingElement(int pointerId) { }
 
-	// RVA: 0xEB7300 Offset: 0xEB5900 VA: 0x180EB7300
+	// RVA: 0xEB75C0 Offset: 0xEB5BC0 VA: 0x180EB75C0
 	public bool HasPointerCapture(IEventHandler handler, int pointerId) { }
 
-	// RVA: 0xEB71A0 Offset: 0xEB57A0 VA: 0x180EB71A0
+	// RVA: 0xEB7460 Offset: 0xEB5A60 VA: 0x180EB7460
 	public void CapturePointer(IEventHandler handler, int pointerId) { }
 
-	// RVA: 0xEB7A80 Offset: 0xEB6080 VA: 0x180EB7A80
+	// RVA: 0xEB7D40 Offset: 0xEB6340 VA: 0x180EB7D40
 	public void ReleasePointer(int pointerId) { }
 
-	// RVA: 0xEB7A20 Offset: 0xEB6020 VA: 0x180EB7A20
+	// RVA: 0xEB7CE0 Offset: 0xEB62E0 VA: 0x180EB7CE0
 	public void ReleasePointer(IEventHandler handler, int pointerId) { }
 
-	// RVA: 0xEB7380 Offset: 0xEB5980 VA: 0x180EB7380
+	// RVA: 0xEB7640 Offset: 0xEB5C40 VA: 0x180EB7640
 	public void ProcessPointerCapture(int pointerId) { }
 
-	// RVA: 0xEB7160 Offset: 0xEB5760 VA: 0x180EB7160
+	// RVA: 0xEB7420 Offset: 0xEB5A20 VA: 0x180EB7420
 	public void ActivateCompatibilityMouseEvents(int pointerId) { }
 
-	// RVA: 0xEB7340 Offset: 0xEB5940 VA: 0x180EB7340
+	// RVA: 0xEB7600 Offset: 0xEB5C00 VA: 0x180EB7600
 	public void PreventCompatibilityMouseEvents(int pointerId) { }
 
-	// RVA: 0xEB7BC0 Offset: 0xEB61C0 VA: 0x180EB7BC0
+	// RVA: 0xEB7E80 Offset: 0xEB6480 VA: 0x180EB7E80
 	public bool ShouldSendCompatibilityMouseEvents(IPointerEvent evt) { }
 
 }

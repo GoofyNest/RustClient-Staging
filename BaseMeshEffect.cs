@@ -7,19 +7,19 @@ public abstract class BaseMeshEffect : UIBehaviour, IMeshModifier // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x10B6C20 Offset: 0x10B5220 VA: 0x1810B6C20
+	// RVA: 0x10B6EE0 Offset: 0x10B54E0 VA: 0x1810B6EE0
 	protected Graphic get_graphic() { }
 
-	// RVA: 0x10B6B80 Offset: 0x10B5180 VA: 0x1810B6B80 Slot: 5
+	// RVA: 0x10B6E40 Offset: 0x10B5440 VA: 0x1810B6E40 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x10B6AE0 Offset: 0x10B50E0 VA: 0x1810B6AE0 Slot: 7
+	// RVA: 0x10B6DA0 Offset: 0x10B53A0 VA: 0x1810B6DA0 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x10B6A40 Offset: 0x10B5040 VA: 0x1810B6A40 Slot: 13
+	// RVA: 0x10B6D00 Offset: 0x10B5300 VA: 0x1810B6D00 Slot: 13
 	protected override void OnDidApplyAnimationProperties() { }
 
-	// RVA: 0x10B6930 Offset: 0x10B4F30 VA: 0x1810B6930 Slot: 19
+	// RVA: 0x10B6BF0 Offset: 0x10B51F0 VA: 0x1810B6BF0 Slot: 19
 	public virtual void ModifyMesh(Mesh mesh) { }
 
 	// RVA: -1 Offset: -1 Slot: 20

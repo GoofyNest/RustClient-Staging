@@ -4,7 +4,7 @@ internal sealed class CachingEventHandler : MulticastDelegate // TypeDefIndex: 1
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x12E2ED0 Offset: 0x12E14D0 VA: 0x1812E2ED0 Slot: 12
+	// RVA: 0x12E3190 Offset: 0x12E1790 VA: 0x1812E3190 Slot: 12
 	public virtual void Invoke(XsdCachingReader cachingReader) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13

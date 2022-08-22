@@ -5,34 +5,34 @@ public sealed class RNGCryptoServiceProvider : RandomNumberGenerator // TypeDefI
 
 	// Methods
 
-	// RVA: 0x1709590 Offset: 0x1707B90 VA: 0x181709590
+	// RVA: 0x1709850 Offset: 0x1707E50 VA: 0x181709850
 	private static void .cctor() { }
 
-	// RVA: 0x1709610 Offset: 0x1707C10 VA: 0x181709610
+	// RVA: 0x17098D0 Offset: 0x1707ED0 VA: 0x1817098D0
 	public void .ctor() { }
 
-	// RVA: 0x1709220 Offset: 0x1707820 VA: 0x181709220
+	// RVA: 0x17094E0 Offset: 0x1707AE0 VA: 0x1817094E0
 	private void Check() { }
 
-	// RVA: 0x14530D0 Offset: 0x14516D0 VA: 0x1814530D0
+	// RVA: 0x1453390 Offset: 0x1451990 VA: 0x181453390
 	private static bool RngOpen() { }
 
-	// RVA: 0x1709580 Offset: 0x1707B80 VA: 0x181709580
+	// RVA: 0x1709840 Offset: 0x1707E40 VA: 0x181709840
 	private static IntPtr RngInitialize(byte[] seed) { }
 
-	// RVA: 0x1709570 Offset: 0x1707B70 VA: 0x181709570
+	// RVA: 0x1709830 Offset: 0x1707E30 VA: 0x181709830
 	private static IntPtr RngGetBytes(IntPtr handle, byte[] data) { }
 
-	// RVA: 0x1709560 Offset: 0x1707B60 VA: 0x181709560
+	// RVA: 0x1709820 Offset: 0x1707E20 VA: 0x181709820
 	private static void RngClose(IntPtr handle) { }
 
-	// RVA: 0x1709390 Offset: 0x1707990 VA: 0x181709390 Slot: 6
+	// RVA: 0x1709650 Offset: 0x1707C50 VA: 0x181709650 Slot: 6
 	public override void GetBytes(byte[] data) { }
 
-	// RVA: 0x17092B0 Offset: 0x17078B0 VA: 0x1817092B0 Slot: 1
+	// RVA: 0x1709570 Offset: 0x1707B70 VA: 0x181709570 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x889980 Offset: 0x887F80 VA: 0x180889980 Slot: 5
+	// RVA: 0x889A90 Offset: 0x888090 VA: 0x180889A90 Slot: 5
 	protected override void Dispose(bool disposing) { }
 
 }

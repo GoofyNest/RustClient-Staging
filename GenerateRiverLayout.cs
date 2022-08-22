@@ -11,7 +11,7 @@ public class GenerateRiverLayout : ProceduralComponent // TypeDefIndex: 10499
 
 	// Methods
 
-	// RVA: 0xC90E60 Offset: 0xC8F460 VA: 0x180C90E60 Slot: 5
+	// RVA: 0xC91120 Offset: 0xC8F720 VA: 0x180C91120 Slot: 5
 	public override void Process(uint seed) { }
 
 	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40
@@ -26,13 +26,13 @@ private sealed class GenerateRiverLayout.<>c // TypeDefIndex: 10500
 
 	// Methods
 
-	// RVA: 0xCA7D70 Offset: 0xCA6370 VA: 0x180CA7D70
+	// RVA: 0xCA8030 Offset: 0xCA6630 VA: 0x180CA8030
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xCA7450 Offset: 0xCA5A50 VA: 0x180CA7450
+	// RVA: 0xCA7710 Offset: 0xCA5D10 VA: 0x180CA7710
 	internal int <Process>b__8_0(PathList a, PathList b) { }
 
 }

@@ -12,16 +12,16 @@ public class OutputChannels // TypeDefIndex: 7394
 
 	// Methods
 
-	// RVA: 0x2262990 Offset: 0x2260F90 VA: 0x182262990
+	// RVA: 0x2262C50 Offset: 0x2261250 VA: 0x182262C50
 	private void .ctor(int channels) { }
 
-	// RVA: 0x2262770 Offset: 0x2260D70 VA: 0x182262770 Slot: 0
+	// RVA: 0x2262A30 Offset: 0x2261030 VA: 0x182262A30 Slot: 0
 	public override bool Equals(object obj) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x2262800 Offset: 0x2260E00 VA: 0x182262800
+	// RVA: 0x2262AC0 Offset: 0x22610C0 VA: 0x182262AC0
 	private static void .cctor() { }
 
 }

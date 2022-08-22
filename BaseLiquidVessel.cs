@@ -24,37 +24,37 @@ public class BaseLiquidVessel : AttackEntity // TypeDefIndex: 8522
 
 	// Methods
 
-	// RVA: 0xA439F0 Offset: 0xA41FF0 VA: 0x180A439F0 Slot: 35
+	// RVA: 0xA43CB0 Offset: 0xA422B0 VA: 0x180A43CB0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA42A00 Offset: 0xA41000 VA: 0x180A42A00
+	// RVA: 0xA42CC0 Offset: 0xA412C0 VA: 0x180A42CC0
 	public int AmountHeld() { }
 
-	// RVA: 0xA43120 Offset: 0xA41720 VA: 0x180A43120
+	// RVA: 0xA433E0 Offset: 0xA419E0 VA: 0x180A433E0
 	public float HeldFraction() { }
 
-	// RVA: 0xA431F0 Offset: 0xA417F0 VA: 0x180A431F0
+	// RVA: 0xA434B0 Offset: 0xA41AB0 VA: 0x180A434B0
 	public int MaxHoldable() { }
 
-	// RVA: 0xA42C30 Offset: 0xA41230 VA: 0x180A42C30
+	// RVA: 0xA42EF0 Offset: 0xA414F0 VA: 0x180A42EF0
 	public bool CanDrink() { }
 
-	// RVA: 0xA431C0 Offset: 0xA417C0 VA: 0x180A431C0
+	// RVA: 0xA43480 Offset: 0xA41A80 VA: 0x180A43480
 	private bool IsWeaponBusy() { }
 
-	// RVA: 0xA44610 Offset: 0xA42C10 VA: 0x180A44610
+	// RVA: 0xA448D0 Offset: 0xA42ED0 VA: 0x180A448D0
 	private void SetBusyFor(float dur) { }
 
-	// RVA: 0xA42E20 Offset: 0xA41420 VA: 0x180A42E20
+	// RVA: 0xA430E0 Offset: 0xA416E0 VA: 0x180A430E0
 	private void ClearBusy() { }
 
-	// RVA: 0xA42B10 Offset: 0xA41110 VA: 0x180A42B10 Slot: 160
+	// RVA: 0xA42DD0 Offset: 0xA413D0 VA: 0x180A42DD0 Slot: 160
 	public virtual void CLThrow() { }
 
-	// RVA: 0xA43280 Offset: 0xA41880 VA: 0x180A43280 Slot: 138
+	// RVA: 0xA43540 Offset: 0xA41B40 VA: 0x180A43540 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0xA42E50 Offset: 0xA41450 VA: 0x180A42E50 Slot: 161
+	// RVA: 0xA43110 Offset: 0xA41710 VA: 0x180A43110 Slot: 161
 	public virtual void DoSendFilling(bool flag) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 162
@@ -72,43 +72,43 @@ public class BaseLiquidVessel : AttackEntity // TypeDefIndex: 8522
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 166
 	public virtual void OnReloadHeld() { }
 
-	// RVA: 0xA437F0 Offset: 0xA41DF0 VA: 0x180A437F0 Slot: 167
+	// RVA: 0xA43AB0 Offset: 0xA420B0 VA: 0x180A43AB0 Slot: 167
 	public virtual void OnPrimaryAttackHeld(Item ammo, BasePlayer player) { }
 
-	// RVA: 0xA444C0 Offset: 0xA42AC0 VA: 0x180A444C0 Slot: 144
+	// RVA: 0xA44780 Offset: 0xA42D80 VA: 0x180A44780 Slot: 144
 	public override void OnViewmodelEvent(string name) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA42A40 Offset: 0xA41040 VA: 0x180A42A40
+	// RVA: 0xA42D00 Offset: 0xA41300 VA: 0x180A42D00
 	public void CLIENT_StartFillingSoundsContainer(BaseEntity.RPCMessage rpc) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA42A50 Offset: 0xA41050 VA: 0x180A42A50
+	// RVA: 0xA42D10 Offset: 0xA41310 VA: 0x180A42D10
 	public void CLIENT_StartFillingSoundsWorld(BaseEntity.RPCMessage rpc) { }
 
-	// RVA: 0xA44640 Offset: 0xA42C40 VA: 0x180A44640
+	// RVA: 0xA44900 Offset: 0xA42F00 VA: 0x180A44900
 	private void StartFillingSounds(bool fromContainer = True) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA42A60 Offset: 0xA41060 VA: 0x180A42A60
+	// RVA: 0xA42D20 Offset: 0xA41320 VA: 0x180A42D20
 	public void CLIENT_StopFillingSounds(BaseEntity.RPCMessage rpc) { }
 
-	// RVA: 0xA42A60 Offset: 0xA41060 VA: 0x180A42A60
+	// RVA: 0xA42D20 Offset: 0xA41320 VA: 0x180A42D20
 	private void StopFillingSounds() { }
 
-	// RVA: 0xA44560 Offset: 0xA42B60 VA: 0x180A44560 Slot: 153
+	// RVA: 0xA44820 Offset: 0xA42E20 VA: 0x180A44820 Slot: 153
 	public override void ProcessSpectatorViewmodelEvent(ViewModel vm, BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0xA42D10 Offset: 0xA41310 VA: 0x180A42D10
+	// RVA: 0xA42FD0 Offset: 0xA415D0 VA: 0x180A42FD0
 	public bool CanFillFromWorld() { }
 
-	// RVA: 0xA42E00 Offset: 0xA41400 VA: 0x180A42E00
+	// RVA: 0xA430C0 Offset: 0xA416C0 VA: 0x180A430C0
 	public bool CanThrow() { }
 
-	// RVA: 0xA42EA0 Offset: 0xA414A0 VA: 0x180A42EA0
+	// RVA: 0xA43160 Offset: 0xA41760 VA: 0x180A43160
 	public LiquidContainer GetFacingLiquidContainer() { }
 
-	// RVA: 0xA44920 Offset: 0xA42F20 VA: 0x180A44920
+	// RVA: 0xA44BE0 Offset: 0xA431E0 VA: 0x180A44BE0
 	public void .ctor() { }
 
 }

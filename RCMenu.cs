@@ -25,71 +25,71 @@ public class RCMenu : ComputerMenu // TypeDefIndex: 8687
 
 	// Methods
 
-	// RVA: 0x69DF90 Offset: 0x69C590 VA: 0x18069DF90 Slot: 10
+	// RVA: 0x69E0A0 Offset: 0x69C6A0 VA: 0x18069E0A0 Slot: 10
 	public override void InitMenu(BaseEntity computer) { }
 
-	// RVA: 0x69DF00 Offset: 0x69C500 VA: 0x18069DF00
+	// RVA: 0x69E010 Offset: 0x69C610 VA: 0x18069E010
 	public ComputerStation GetOwnerComputer() { }
 
-	// RVA: 0x69E2F0 Offset: 0x69C8F0 VA: 0x18069E2F0
+	// RVA: 0x69E400 Offset: 0x69CA00 VA: 0x18069E400
 	public void SetDevicesVisible(bool wants) { }
 
-	// RVA: 0x69E3E0 Offset: 0x69C9E0 VA: 0x18069E3E0
+	// RVA: 0x69E4F0 Offset: 0x69CAF0 VA: 0x18069E4F0
 	public void ToggleDevicePanelVisible() { }
 
-	// RVA: 0x69D720 Offset: 0x69BD20 VA: 0x18069D720
+	// RVA: 0x69D830 Offset: 0x69BE30 VA: 0x18069D830
 	public void BackgroundClick() { }
 
-	// RVA: 0x69DED0 Offset: 0x69C4D0 VA: 0x18069DED0
+	// RVA: 0x69DFE0 Offset: 0x69C5E0 VA: 0x18069DFE0
 	public float GetInterferenceLevel() { }
 
-	// RVA: 0x69DDB0 Offset: 0x69C3B0 VA: 0x18069DDB0
+	// RVA: 0x69DEC0 Offset: 0x69C4C0 VA: 0x18069DEC0
 	public IRemoteControllable GetCurrentlyControllingEnt() { }
 
-	// RVA: 0x69F0E0 Offset: 0x69D6E0 VA: 0x18069F0E0
+	// RVA: 0x69F1F0 Offset: 0x69D7F0 VA: 0x18069F1F0
 	public bool get_RequiresMouseForControl() { }
 
-	// RVA: 0x69E4D0 Offset: 0x69CAD0 VA: 0x18069E4D0
+	// RVA: 0x69E5E0 Offset: 0x69CBE0 VA: 0x18069E5E0
 	public void Update() { }
 
-	// RVA: 0x69E200 Offset: 0x69C800 VA: 0x18069E200
+	// RVA: 0x69E310 Offset: 0x69C910 VA: 0x18069E310
 	public void OnDestroy() { }
 
-	// RVA: 0x69D950 Offset: 0x69BF50 VA: 0x18069D950
+	// RVA: 0x69DA60 Offset: 0x69C060 VA: 0x18069DA60
 	public void DelayedLODRefresh() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xB9F40 Offset: 0xB9340 VA: 0x1800B9F40
-	// RVA: 0x69E2A0 Offset: 0x69C8A0 VA: 0x18069E2A0
+	// RVA: 0x69E3B0 Offset: 0x69C9B0 VA: 0x18069E3B0
 	private IEnumerator RefreshLODs() { }
 
-	// RVA: 0x69D630 Offset: 0x69BC30 VA: 0x18069D630
+	// RVA: 0x69D740 Offset: 0x69BD40 VA: 0x18069D740
 	public void AddBookmarkPressed() { }
 
-	// RVA: 0x69DA60 Offset: 0x69C060 VA: 0x18069DA60 Slot: 16
+	// RVA: 0x69DB70 Offset: 0x69C170 VA: 0x18069DB70 Slot: 16
 	public override void DeletePressed(RCBookmarkEntry entry) { }
 
-	// RVA: 0x69DBE0 Offset: 0x69C1E0 VA: 0x18069DBE0
+	// RVA: 0x69DCF0 Offset: 0x69C2F0 VA: 0x18069DCF0
 	public void Exit() { }
 
-	// RVA: 0x69E0E0 Offset: 0x69C6E0 VA: 0x18069E0E0 Slot: 17
+	// RVA: 0x69E1F0 Offset: 0x69C7F0 VA: 0x18069E1F0 Slot: 17
 	public override bool IsControlling(string identifier) { }
 
-	// RVA: 0x69DB20 Offset: 0x69C120 VA: 0x18069DB20 Slot: 15
+	// RVA: 0x69DC30 Offset: 0x69C230 VA: 0x18069DC30 Slot: 15
 	public override void DisconnectPressed(RCBookmarkEntry entry) { }
 
-	// RVA: 0x69D790 Offset: 0x69BD90 VA: 0x18069D790 Slot: 14
+	// RVA: 0x69D8A0 Offset: 0x69BEA0 VA: 0x18069D8A0 Slot: 14
 	public override void BookmarkPressed(RCBookmarkEntry entryPressed) { }
 
-	// RVA: 0x69DC70 Offset: 0x69C270 VA: 0x18069DC70 Slot: 13
+	// RVA: 0x69DD80 Offset: 0x69C380 VA: 0x18069DD80 Slot: 13
 	public override BasePlayer.CameraMode GetCameraMode() { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 11
 	public override bool WantsEyeOverride() { }
 
-	// RVA: 0x69DCB0 Offset: 0x69C2B0 VA: 0x18069DCB0 Slot: 12
+	// RVA: 0x69DDC0 Offset: 0x69C3C0 VA: 0x18069DDC0 Slot: 12
 	public override Transform GetCameraOverrideTransform() { }
 
-	// RVA: 0x69F0C0 Offset: 0x69D6C0 VA: 0x18069F0C0
+	// RVA: 0x69F1D0 Offset: 0x69D7D0 VA: 0x18069F1D0
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -116,7 +116,7 @@ private sealed class RCMenu.<RefreshLODs>d__31 : IEnumerator<object>, IEnumerato
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x6ACDC0 Offset: 0x6AB3C0 VA: 0x1806ACDC0 Slot: 6
+	// RVA: 0x6ACED0 Offset: 0x6AB4D0 VA: 0x1806ACED0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -124,7 +124,7 @@ private sealed class RCMenu.<RefreshLODs>d__31 : IEnumerator<object>, IEnumerato
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD120 Offset: 0x6AB720 VA: 0x1806AD120 Slot: 8
+	// RVA: 0x6AD230 Offset: 0x6AB830 VA: 0x1806AD230 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

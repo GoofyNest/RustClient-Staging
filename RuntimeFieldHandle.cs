@@ -26,13 +26,13 @@ public struct RuntimeFieldHandle : ISerializable // TypeDefIndex: 389
 	// RVA: 0x14C4D0 Offset: 0x14B8D0 VA: 0x18014C4D0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1298DC0 Offset: 0x12973C0 VA: 0x181298DC0
+	// RVA: 0x1299080 Offset: 0x1297680 VA: 0x181299080
 	private static void SetValueInternal(FieldInfo fi, object obj, object value) { }
 
-	// RVA: 0x1298DC0 Offset: 0x12973C0 VA: 0x181298DC0
+	// RVA: 0x1299080 Offset: 0x1297680 VA: 0x181299080
 	internal static void SetValue(RtFieldInfo field, object obj, object value, RuntimeType fieldType, FieldAttributes fieldAttr, RuntimeType declaringType, ref bool domainInitialized) { }
 
-	// RVA: 0x1298DB0 Offset: 0x12973B0 VA: 0x181298DB0
+	// RVA: 0x1299070 Offset: 0x1297670 VA: 0x181299070
 	internal static void SetValueDirect(RtFieldInfo field, RuntimeType fieldType, void* pTypedRef, object value, RuntimeType contextType) { }
 
 }

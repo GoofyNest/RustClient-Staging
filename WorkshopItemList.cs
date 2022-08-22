@@ -20,47 +20,47 @@ internal class WorkshopItemList : MonoBehaviour // TypeDefIndex: 7743
 
 	// Methods
 
-	// RVA: 0xE844A0 Offset: 0xE82AA0 VA: 0x180E844A0
+	// RVA: 0xE84760 Offset: 0xE82D60 VA: 0x180E84760
 	public static void RefreshAll() { }
 
-	// RVA: 0xE84780 Offset: 0xE82D80 VA: 0x180E84780
+	// RVA: 0xE84A40 Offset: 0xE83040 VA: 0x180E84A40
 	private int get_NumPages() { }
 
-	// RVA: 0xE83F50 Offset: 0xE82550 VA: 0x180E83F50
+	// RVA: 0xE84210 Offset: 0xE82810 VA: 0x180E84210
 	private void Awake() { }
 
-	// RVA: 0xE84460 Offset: 0xE82A60 VA: 0x180E84460
+	// RVA: 0xE84720 Offset: 0xE82D20 VA: 0x180E84720
 	private void PageNext() { }
 
-	// RVA: 0xE84480 Offset: 0xE82A80 VA: 0x180E84480
+	// RVA: 0xE84740 Offset: 0xE82D40 VA: 0x180E84740
 	private void PagePrev() { }
 
-	// RVA: 0xE843B0 Offset: 0xE829B0 VA: 0x180E843B0
+	// RVA: 0xE84670 Offset: 0xE82C70 VA: 0x180E84670
 	public void OnChangedItemType(int type) { }
 
-	// RVA: 0xE84680 Offset: 0xE82C80 VA: 0x180E84680
+	// RVA: 0xE84940 Offset: 0xE82F40 VA: 0x180E84940
 	private void Update() { }
 
-	// RVA: 0xE84620 Offset: 0xE82C20 VA: 0x180E84620
+	// RVA: 0xE848E0 Offset: 0xE82EE0 VA: 0x180E848E0
 	public void SwitchToLatest() { }
 
-	// RVA: 0xE84660 Offset: 0xE82C60 VA: 0x180E84660
+	// RVA: 0xE84920 Offset: 0xE82F20 VA: 0x180E84920
 	public void SwitchToTrending() { }
 
-	// RVA: 0xE84640 Offset: 0xE82C40 VA: 0x180E84640
+	// RVA: 0xE84900 Offset: 0xE82F00 VA: 0x180E84900
 	public void SwitchToPopular() { }
 
-	// RVA: 0xE84600 Offset: 0xE82C00 VA: 0x180E84600
+	// RVA: 0xE848C0 Offset: 0xE82EC0 VA: 0x180E848C0
 	public void SwitchToAccepted() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD1580 Offset: 0xD0980 VA: 0x1800D1580
-	// RVA: 0xE84510 Offset: 0xE82B10 VA: 0x180E84510
+	// RVA: 0xE847D0 Offset: 0xE82DD0 VA: 0x180E847D0
 	public Task Refresh() { }
 
-	// RVA: 0xE84770 Offset: 0xE82D70 VA: 0x180E84770
+	// RVA: 0xE84A30 Offset: 0xE83030 VA: 0x180E84A30
 	public void .ctor() { }
 
-	// RVA: 0xE84730 Offset: 0xE82D30 VA: 0x180E84730
+	// RVA: 0xE849F0 Offset: 0xE82FF0 VA: 0x180E849F0
 	private static void .cctor() { }
 
 }
@@ -75,22 +75,22 @@ private sealed class WorkshopItemList.<>c // TypeDefIndex: 7744
 
 	// Methods
 
-	// RVA: 0xE80850 Offset: 0xE7EE50 VA: 0x180E80850
+	// RVA: 0xE80B10 Offset: 0xE7F110 VA: 0x180E80B10
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xE80640 Offset: 0xE7EC40 VA: 0x180E80640
+	// RVA: 0xE80900 Offset: 0xE7EF00 VA: 0x180E80900
 	internal bool <Awake>b__17_0(Skinnable x) { }
 
-	// RVA: 0x956DB0 Offset: 0x9553B0 VA: 0x180956DB0
+	// RVA: 0x956EC0 Offset: 0x9554C0 VA: 0x180956EC0
 	internal string <Awake>b__17_1(Skinnable x) { }
 
-	// RVA: 0x7B4E80 Offset: 0x7B3480 VA: 0x1807B4E80
+	// RVA: 0x7B4F90 Offset: 0x7B3590 VA: 0x1807B4F90
 	internal string <Awake>b__17_2(string x) { }
 
-	// RVA: 0xE80660 Offset: 0xE7EC60 VA: 0x180E80660
+	// RVA: 0xE80920 Offset: 0xE7EF20 VA: 0x180E80920
 	internal DateTime <Refresh>b__26_0(Item x) { }
 
 }

@@ -15,7 +15,7 @@ internal struct AssociateWithClanResult_t : ICallbackData // TypeDefIndex: 5498
 	// RVA: 0x1E4450 Offset: 0x1E3850 VA: 0x1801E4450 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x136AE70 Offset: 0x1369470 VA: 0x18136AE70
+	// RVA: 0x136B130 Offset: 0x1369730 VA: 0x18136B130
 	private static void .cctor() { }
 
 }

@@ -13,50 +13,50 @@ public class RendererGrid : SingletonComponent<RendererGrid>, IClientComponent /
 
 	// Methods
 
-	// RVA: 0x94EDB0 Offset: 0x94D3B0 VA: 0x18094EDB0
+	// RVA: 0x94EEC0 Offset: 0x94D4C0 VA: 0x18094EEC0
 	protected void OnEnable() { }
 
-	// RVA: 0x94EEB0 Offset: 0x94D4B0 VA: 0x18094EEB0
+	// RVA: 0x94EFC0 Offset: 0x94D5C0 VA: 0x18094EFC0
 	public static void RefreshAll() { }
 
-	// RVA: 0x94F010 Offset: 0x94D610 VA: 0x18094F010
+	// RVA: 0x94F120 Offset: 0x94D720 VA: 0x18094F120
 	public void Refresh() { }
 
-	// RVA: 0x94E900 Offset: 0x94CF00 VA: 0x18094E900
+	// RVA: 0x94EA10 Offset: 0x94D010 VA: 0x18094EA10
 	public RendererGroup Add(Vector3 position, RendererBatch batch) { }
 
-	// RVA: 0x94F0C0 Offset: 0x94D6C0 VA: 0x18094F0C0
+	// RVA: 0x94F1D0 Offset: 0x94D7D0 VA: 0x18094F1D0
 	public void Remove(RendererCell cell) { }
 
-	// RVA: 0x94EC30 Offset: 0x94D230 VA: 0x18094EC30
+	// RVA: 0x94ED40 Offset: 0x94D340 VA: 0x18094ED40
 	private void Init() { }
 
-	// RVA: 0x94EB70 Offset: 0x94D170 VA: 0x18094EB70
+	// RVA: 0x94EC80 Offset: 0x94D280 VA: 0x18094EC80
 	public MeshRendererBatch CreateInstance() { }
 
-	// RVA: 0x94EE20 Offset: 0x94D420 VA: 0x18094EE20
+	// RVA: 0x94EF30 Offset: 0x94D530 VA: 0x18094EF30
 	public void RecycleInstance(MeshRendererBatch instance) { }
 
-	// RVA: 0x94ECF0 Offset: 0x94D2F0 VA: 0x18094ECF0
+	// RVA: 0x94EE00 Offset: 0x94D400 VA: 0x18094EE00
 	public int MeshCount() { }
 
-	// RVA: 0x94EAB0 Offset: 0x94D0B0 VA: 0x18094EAB0
+	// RVA: 0x94EBC0 Offset: 0x94D1C0 VA: 0x18094EBC0
 	public int BatchedMeshCount() { }
 
-	// RVA: 0x94F2E0 Offset: 0x94D8E0 VA: 0x18094F2E0
+	// RVA: 0x94F3F0 Offset: 0x94D9F0 VA: 0x18094F3F0
 	public int VertexCount() { }
 
-	// RVA: 0x94F440 Offset: 0x94DA40 VA: 0x18094F440
+	// RVA: 0x94F550 Offset: 0x94DB50 VA: 0x18094F550
 	public bool get_NeedsTimeout() { }
 
-	// RVA: 0x94F230 Offset: 0x94D830 VA: 0x18094F230
+	// RVA: 0x94F340 Offset: 0x94D940 VA: 0x18094F340
 	public void ResetTimeout() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xA9430 Offset: 0xA8830 VA: 0x1800A9430
-	// RVA: 0x94F270 Offset: 0x94D870 VA: 0x18094F270
+	// RVA: 0x94F380 Offset: 0x94D980 VA: 0x18094F380
 	private IEnumerator UpdateCoroutine() { }
 
-	// RVA: 0x94F3A0 Offset: 0x94D9A0 VA: 0x18094F3A0
+	// RVA: 0x94F4B0 Offset: 0x94DAB0 VA: 0x18094F4B0
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -88,7 +88,7 @@ private sealed class RendererGrid.<UpdateCoroutine>d__21 : IEnumerator<object>, 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x956ED0 Offset: 0x9554D0 VA: 0x180956ED0 Slot: 6
+	// RVA: 0x956FE0 Offset: 0x9555E0 VA: 0x180956FE0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -96,7 +96,7 @@ private sealed class RendererGrid.<UpdateCoroutine>d__21 : IEnumerator<object>, 
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x957270 Offset: 0x955870 VA: 0x180957270 Slot: 8
+	// RVA: 0x957380 Offset: 0x955980 VA: 0x180957380 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

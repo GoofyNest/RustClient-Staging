@@ -7,28 +7,28 @@ public class RagdollEditor : SingletonComponent<RagdollEditor> // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x6A3930 Offset: 0x6A1F30 VA: 0x1806A3930
+	// RVA: 0x6A3A40 Offset: 0x6A2040 VA: 0x1806A3A40
 	private void OnGUI() { }
 
-	// RVA: 0x6A38F0 Offset: 0x6A1EF0 VA: 0x1806A38F0 Slot: 6
+	// RVA: 0x6A3A00 Offset: 0x6A2000 VA: 0x1806A3A00 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x6A3F70 Offset: 0x6A2570 VA: 0x1806A3F70
+	// RVA: 0x6A4080 Offset: 0x6A2680 VA: 0x1806A4080
 	private void Update() { }
 
-	// RVA: 0x6A3900 Offset: 0x6A1F00 VA: 0x1806A3900
+	// RVA: 0x6A3A10 Offset: 0x6A2010 VA: 0x1806A3A10
 	private void FixedUpdate() { }
 
-	// RVA: 0x6A3A00 Offset: 0x6A2000 VA: 0x1806A3A00
+	// RVA: 0x6A3B10 Offset: 0x6A2110 VA: 0x1806A3B10
 	private void StartGrab() { }
 
-	// RVA: 0x6A3CD0 Offset: 0x6A22D0 VA: 0x1806A3CD0
+	// RVA: 0x6A3DE0 Offset: 0x6A23E0 VA: 0x1806A3DE0
 	private void UpdateGrab() { }
 
-	// RVA: 0x6A3CB0 Offset: 0x6A22B0 VA: 0x1806A3CB0
+	// RVA: 0x6A3DC0 Offset: 0x6A23C0 VA: 0x1806A3DC0
 	private void StopGrab() { }
 
-	// RVA: 0x6A4460 Offset: 0x6A2A60 VA: 0x1806A4460
+	// RVA: 0x6A4570 Offset: 0x6A2B70 VA: 0x1806A4570
 	public void .ctor() { }
 
 }

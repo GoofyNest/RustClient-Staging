@@ -5,16 +5,16 @@ public class DefaultSerializationBinder : SerializationBinder // TypeDefIndex: 6
 
 	// Methods
 
-	// RVA: 0x13EF5C0 Offset: 0x13EDBC0 VA: 0x1813EF5C0
+	// RVA: 0x13EF880 Offset: 0x13EDE80 VA: 0x1813EF880
 	private static Type GetTypeFromTypeNameKey(DefaultSerializationBinder.TypeNameKey typeNameKey) { }
 
-	// RVA: 0x13EF520 Offset: 0x13EDB20 VA: 0x1813EF520 Slot: 5
+	// RVA: 0x13EF7E0 Offset: 0x13EDDE0 VA: 0x1813EF7E0 Slot: 5
 	public override Type BindToType(string assemblyName, string typeName) { }
 
-	// RVA: 0x13EF910 Offset: 0x13EDF10 VA: 0x1813EF910
+	// RVA: 0x13EFBD0 Offset: 0x13EE1D0 VA: 0x1813EFBD0
 	public void .ctor() { }
 
-	// RVA: 0x13EF830 Offset: 0x13EDE30 VA: 0x1813EF830
+	// RVA: 0x13EFAF0 Offset: 0x13EE0F0 VA: 0x1813EFAF0
 	private static void .cctor() { }
 
 }

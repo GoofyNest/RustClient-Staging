@@ -8,7 +8,7 @@ public sealed class LoadCompletedEventArgs : LoadEventArgs // TypeDefIndex: 7150
 
 	// Methods
 
-	// RVA: 0x22E5620 Offset: 0x22E3C20 VA: 0x1822E5620
+	// RVA: 0x22E58E0 Offset: 0x22E3EE0 VA: 0x1822E58E0
 	internal void .ctor(LoadResult Result, string Message) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -16,10 +16,10 @@ public sealed class LoadCompletedEventArgs : LoadEventArgs // TypeDefIndex: 7150
 	public LoadResult get_Status() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0C80 Offset: 0x7CF280 VA: 0x1807D0C80
+	// RVA: 0x7D0D90 Offset: 0x7CF390 VA: 0x1807D0D90
 	private void set_Status(LoadResult value) { }
 
-	// RVA: 0x22E55C0 Offset: 0x22E3BC0 VA: 0x1822E55C0 Slot: 3
+	// RVA: 0x22E5880 Offset: 0x22E3E80 VA: 0x1822E5880 Slot: 3
 	public override string ToString() { }
 
 }

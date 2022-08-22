@@ -19,94 +19,94 @@ internal class QueryOutputWriter : XmlRawWriter // TypeDefIndex: 1859
 
 	// Methods
 
-	// RVA: 0xF60640 Offset: 0xF5EC40 VA: 0x180F60640
+	// RVA: 0xF60900 Offset: 0xF5EF00 VA: 0x180F60900
 	public void .ctor(XmlRawWriter writer, XmlWriterSettings settings) { }
 
-	// RVA: 0xF608B0 Offset: 0xF5EEB0 VA: 0x180F608B0 Slot: 35
+	// RVA: 0xF60B70 Offset: 0xF5F170 VA: 0x180F60B70 Slot: 35
 	internal override void set_NamespaceResolver(IXmlNamespaceResolver value) { }
 
-	// RVA: 0xF60610 Offset: 0xF5EC10 VA: 0x180F60610 Slot: 36
+	// RVA: 0xF608D0 Offset: 0xF5EED0 VA: 0x180F608D0 Slot: 36
 	internal override void WriteXmlDeclaration(XmlStandalone standalone) { }
 
-	// RVA: 0xF605E0 Offset: 0xF5EBE0 VA: 0x180F605E0 Slot: 37
+	// RVA: 0xF608A0 Offset: 0xF5EEA0 VA: 0x180F608A0 Slot: 37
 	internal override void WriteXmlDeclaration(string xmldecl) { }
 
-	// RVA: 0xF5FF40 Offset: 0xF5E540 VA: 0x180F5FF40 Slot: 8
+	// RVA: 0xF60200 Offset: 0xF5E800 VA: 0x180F60200 Slot: 8
 	public override void WriteDocType(string name, string pubid, string sysid, string subset) { }
 
-	// RVA: 0xF602A0 Offset: 0xF5E8A0 VA: 0x180F602A0 Slot: 9
+	// RVA: 0xF60560 Offset: 0xF5EB60 VA: 0x180F60560 Slot: 9
 	public override void WriteStartElement(string prefix, string localName, string ns) { }
 
-	// RVA: 0xF5FFB0 Offset: 0xF5E5B0 VA: 0x180F5FFB0 Slot: 40
+	// RVA: 0xF60270 Offset: 0xF5E870 VA: 0x180F60270 Slot: 40
 	internal override void WriteEndElement(string prefix, string localName, string ns) { }
 
-	// RVA: 0xF60040 Offset: 0xF5E640 VA: 0x180F60040 Slot: 41
+	// RVA: 0xF60300 Offset: 0xF5E900 VA: 0x180F60300 Slot: 41
 	internal override void WriteFullEndElement(string prefix, string localName, string ns) { }
 
-	// RVA: 0xE577A0 Offset: 0xE55DA0 VA: 0x180E577A0 Slot: 38
+	// RVA: 0xE57A60 Offset: 0xE56060 VA: 0x180E57A60 Slot: 38
 	internal override void StartElementContent() { }
 
-	// RVA: 0xF60260 Offset: 0xF5E860 VA: 0x180F60260 Slot: 12
+	// RVA: 0xF60520 Offset: 0xF5EB20 VA: 0x180F60520 Slot: 12
 	public override void WriteStartAttribute(string prefix, string localName, string ns) { }
 
-	// RVA: 0xF5FF80 Offset: 0xF5E580 VA: 0x180F5FF80 Slot: 13
+	// RVA: 0xF60240 Offset: 0xF5E840 VA: 0x180F60240 Slot: 13
 	public override void WriteEndAttribute() { }
 
-	// RVA: 0xF600A0 Offset: 0xF5E6A0 VA: 0x180F600A0 Slot: 42
+	// RVA: 0xF60360 Offset: 0xF5E960 VA: 0x180F60360 Slot: 42
 	internal override void WriteNamespaceDeclaration(string prefix, string ns) { }
 
-	// RVA: 0xE58320 Offset: 0xE56920 VA: 0x180E58320 Slot: 43
+	// RVA: 0xE585E0 Offset: 0xE56BE0 VA: 0x180E585E0 Slot: 43
 	internal override bool get_SupportsNamespaceDeclarationInChunks() { }
 
-	// RVA: 0xF60460 Offset: 0xF5EA60 VA: 0x180F60460 Slot: 44
+	// RVA: 0xF60720 Offset: 0xF5ED20 VA: 0x180F60720 Slot: 44
 	internal override void WriteStartNamespaceDeclaration(string prefix) { }
 
-	// RVA: 0xE57B60 Offset: 0xE56160 VA: 0x180E57B60 Slot: 45
+	// RVA: 0xE57E20 Offset: 0xE56420 VA: 0x180E57E20 Slot: 45
 	internal override void WriteEndNamespaceDeclaration() { }
 
-	// RVA: 0xF5FDE0 Offset: 0xF5E3E0 VA: 0x180F5FDE0 Slot: 14
+	// RVA: 0xF600A0 Offset: 0xF5E6A0 VA: 0x180F600A0 Slot: 14
 	public override void WriteCData(string text) { }
 
-	// RVA: 0xF5FF10 Offset: 0xF5E510 VA: 0x180F5FF10 Slot: 15
+	// RVA: 0xF601D0 Offset: 0xF5E7D0 VA: 0x180F601D0 Slot: 15
 	public override void WriteComment(string text) { }
 
-	// RVA: 0xF600D0 Offset: 0xF5E6D0 VA: 0x180F600D0 Slot: 16
+	// RVA: 0xF60390 Offset: 0xF5E990 VA: 0x180F60390 Slot: 16
 	public override void WriteProcessingInstruction(string name, string text) { }
 
-	// RVA: 0xF60550 Offset: 0xF5EB50 VA: 0x180F60550 Slot: 19
+	// RVA: 0xF60810 Offset: 0xF5EE10 VA: 0x180F60810 Slot: 19
 	public override void WriteWhitespace(string ws) { }
 
-	// RVA: 0xF60490 Offset: 0xF5EA90 VA: 0x180F60490 Slot: 20
+	// RVA: 0xF60750 Offset: 0xF5ED50 VA: 0x180F60750 Slot: 20
 	public override void WriteString(string text) { }
 
-	// RVA: 0xF5FE40 Offset: 0xF5E440 VA: 0x180F5FE40 Slot: 22
+	// RVA: 0xF60100 Offset: 0xF5E700 VA: 0x180F60100 Slot: 22
 	public override void WriteChars(char[] buffer, int index, int count) { }
 
-	// RVA: 0xF60010 Offset: 0xF5E610 VA: 0x180F60010 Slot: 17
+	// RVA: 0xF602D0 Offset: 0xF5E8D0 VA: 0x180F602D0 Slot: 17
 	public override void WriteEntityRef(string name) { }
 
-	// RVA: 0xF5FE10 Offset: 0xF5E410 VA: 0x180F5FE10 Slot: 18
+	// RVA: 0xF600D0 Offset: 0xF5E6D0 VA: 0x180F600D0 Slot: 18
 	public override void WriteCharEntity(char ch) { }
 
-	// RVA: 0xF60520 Offset: 0xF5EB20 VA: 0x180F60520 Slot: 21
+	// RVA: 0xF607E0 Offset: 0xF5EDE0 VA: 0x180F607E0 Slot: 21
 	public override void WriteSurrogateCharEntity(char lowChar, char highChar) { }
 
-	// RVA: 0xF60190 Offset: 0xF5E790 VA: 0x180F60190 Slot: 23
+	// RVA: 0xF60450 Offset: 0xF5EA50 VA: 0x180F60450 Slot: 23
 	public override void WriteRaw(char[] buffer, int index, int count) { }
 
-	// RVA: 0xF60100 Offset: 0xF5E700 VA: 0x180F60100 Slot: 24
+	// RVA: 0xF603C0 Offset: 0xF5E9C0 VA: 0x180F603C0 Slot: 24
 	public override void WriteRaw(string data) { }
 
-	// RVA: 0xF5FCB0 Offset: 0xF5E2B0 VA: 0x180F5FCB0 Slot: 28
+	// RVA: 0xF5FF70 Offset: 0xF5E570 VA: 0x180F5FF70 Slot: 28
 	public override void Close() { }
 
-	// RVA: 0xF5FD70 Offset: 0xF5E370 VA: 0x180F5FD70 Slot: 29
+	// RVA: 0xF60030 Offset: 0xF5E630 VA: 0x180F60030 Slot: 29
 	public override void Flush() { }
 
-	// RVA: 0xF5FDA0 Offset: 0xF5E3A0 VA: 0x180F5FDA0
+	// RVA: 0xF60060 Offset: 0xF5E660 VA: 0x180F60060
 	private bool StartCDataSection() { }
 
-	// RVA: 0xF5FD60 Offset: 0xF5E360 VA: 0x180F5FD60
+	// RVA: 0xF60020 Offset: 0xF5E620 VA: 0x180F60020
 	private void EndCDataSection() { }
 
 }

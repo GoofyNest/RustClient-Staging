@@ -21,22 +21,22 @@ public sealed class ExecutionContext : IDisposable, ISerializable // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x1494A20 Offset: 0x1493020 VA: 0x181494A20
+	// RVA: 0x1494CE0 Offset: 0x14932E0 VA: 0x181494CE0
 	internal bool get_isNewCapture() { }
 
-	// RVA: 0x1494A50 Offset: 0x1493050 VA: 0x181494A50
+	// RVA: 0x1494D10 Offset: 0x1493310 VA: 0x181494D10
 	internal void set_isNewCapture(bool value) { }
 
-	// RVA: 0x1494A10 Offset: 0x1493010 VA: 0x181494A10
+	// RVA: 0x1494CD0 Offset: 0x14932D0 VA: 0x181494CD0
 	internal bool get_isFlowSuppressed() { }
 
-	// RVA: 0x1494A30 Offset: 0x1493030 VA: 0x181494A30
+	// RVA: 0x1494CF0 Offset: 0x14932F0 VA: 0x181494CF0
 	internal void set_isFlowSuppressed(bool value) { }
 
-	// RVA: 0x1494950 Offset: 0x1492F50 VA: 0x181494950
+	// RVA: 0x1494C10 Offset: 0x1493210 VA: 0x181494C10
 	internal static ExecutionContext get_PreAllocatedDefault() { }
 
-	// RVA: 0x14948D0 Offset: 0x1492ED0 VA: 0x1814948D0
+	// RVA: 0x1494B90 Offset: 0x1493190 VA: 0x181494B90
 	internal bool get_IsPreAllocatedDefault() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
@@ -44,29 +44,29 @@ public sealed class ExecutionContext : IDisposable, ISerializable // TypeDefInde
 	internal void .ctor() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x1494830 Offset: 0x1492E30 VA: 0x181494830
+	// RVA: 0x1494AF0 Offset: 0x14930F0 VA: 0x181494AF0
 	internal void .ctor(bool isPreAllocatedDefault) { }
 
-	// RVA: 0x14939F0 Offset: 0x1491FF0 VA: 0x1814939F0
+	// RVA: 0x1493CB0 Offset: 0x14922B0 VA: 0x181493CB0
 	internal static object GetLocalValue(IAsyncLocal local) { }
 
-	// RVA: 0x1494510 Offset: 0x1492B10 VA: 0x181494510
+	// RVA: 0x14947D0 Offset: 0x1492DD0 VA: 0x1814947D0
 	internal static void SetLocalValue(IAsyncLocal local, object newValue, bool needChangeNotifications) { }
 
 	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1493BE0 Offset: 0x14921E0 VA: 0x181493BE0
+	// RVA: 0x1493EA0 Offset: 0x14924A0 VA: 0x181493EA0
 	internal static void OnAsyncLocalContextChanged(ExecutionContext previous, ExecutionContext current) { }
 
-	// RVA: 0x14948E0 Offset: 0x1492EE0 VA: 0x1814948E0
+	// RVA: 0x1494BA0 Offset: 0x14931A0 VA: 0x181494BA0
 	internal LogicalCallContext get_LogicalCallContext() { }
 
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	internal void set_LogicalCallContext(LogicalCallContext value) { }
 
-	// RVA: 0x1494860 Offset: 0x1492E60 VA: 0x181494860
+	// RVA: 0x1494B20 Offset: 0x1493120 VA: 0x181494B20
 	internal IllogicalCallContext get_IllogicalCallContext() { }
 
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	internal void set_IllogicalCallContext(IllogicalCallContext value) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
@@ -88,56 +88,56 @@ public sealed class ExecutionContext : IDisposable, ISerializable // TypeDefInde
 	// RVA: 0x48BD30 Offset: 0x48A330 VA: 0x18048BD30 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x1494200 Offset: 0x1492800 VA: 0x181494200
+	// RVA: 0x14944C0 Offset: 0x1492AC0 VA: 0x1814944C0
 	public static void Run(ExecutionContext executionContext, ContextCallback callback, object state) { }
 
 	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1494310 Offset: 0x1492910 VA: 0x181494310
+	// RVA: 0x14945D0 Offset: 0x1492BD0 VA: 0x1814945D0
 	internal static void Run(ExecutionContext executionContext, ContextCallback callback, object state, bool preserveSyncCtx) { }
 
 	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1493F60 Offset: 0x1492560 VA: 0x181493F60
+	// RVA: 0x1494220 Offset: 0x1492820 VA: 0x181494220
 	internal static void RunInternal(ExecutionContext executionContext, ContextCallback callback, object state, bool preserveSyncCtx) { }
 
-	// RVA: 0x14938E0 Offset: 0x1491EE0 VA: 0x1814938E0
+	// RVA: 0x1493BA0 Offset: 0x14921A0 VA: 0x181493BA0
 	internal static void EstablishCopyOnWriteScope(ref ExecutionContextSwitcher ecsw) { }
 
-	// RVA: 0x1493870 Offset: 0x1491E70 VA: 0x181493870
+	// RVA: 0x1493B30 Offset: 0x1492130 VA: 0x181493B30
 	private static void EstablishCopyOnWriteScope(Thread currentThread, bool knownNullWindowsIdentity, ref ExecutionContextSwitcher ecsw) { }
 
 	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14943A0 Offset: 0x14929A0 VA: 0x1814943A0
+	// RVA: 0x1494660 Offset: 0x1492C60 VA: 0x181494660
 	internal static ExecutionContextSwitcher SetExecutionContext(ExecutionContext executionContext, bool preserveSyncCtx) { }
 
-	// RVA: 0x14934D0 Offset: 0x1491AD0 VA: 0x1814934D0
+	// RVA: 0x1493790 Offset: 0x1491D90 VA: 0x181493790
 	public ExecutionContext CreateCopy() { }
 
-	// RVA: 0x1493680 Offset: 0x1491C80 VA: 0x181493680
+	// RVA: 0x1493940 Offset: 0x1491F40 VA: 0x181493940
 	internal ExecutionContext CreateMutableCopy() { }
 
-	// RVA: 0x1493BA0 Offset: 0x14921A0 VA: 0x181493BA0
+	// RVA: 0x1493E60 Offset: 0x1492460 VA: 0x181493E60
 	public static bool IsFlowSuppressed() { }
 
-	// RVA: 0x1493480 Offset: 0x1491A80 VA: 0x181493480
+	// RVA: 0x1493740 Offset: 0x1491D40 VA: 0x181493740
 	public static ExecutionContext Capture() { }
 
 	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1493990 Offset: 0x1491F90 VA: 0x181493990
+	// RVA: 0x1493C50 Offset: 0x1492250 VA: 0x181493C50
 	internal static ExecutionContext FastCapture() { }
 
-	// RVA: 0x1493280 Offset: 0x1491880 VA: 0x181493280
+	// RVA: 0x1493540 Offset: 0x1491B40 VA: 0x181493540
 	internal static ExecutionContext Capture(ref StackCrawlMark stackMark, ExecutionContext.CaptureOptions options) { }
 
-	// RVA: 0x1493A80 Offset: 0x1492080 VA: 0x181493A80 Slot: 5
+	// RVA: 0x1493D40 Offset: 0x1492340 VA: 0x181493D40 Slot: 5
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1494750 Offset: 0x1492D50 VA: 0x181494750
+	// RVA: 0x1494A10 Offset: 0x1493010 VA: 0x181494A10
 	private void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1493B50 Offset: 0x1492150 VA: 0x181493B50
+	// RVA: 0x1493E10 Offset: 0x1492410 VA: 0x181493E10
 	internal bool IsDefaultFTContext(bool ignoreSyncCtx) { }
 
-	// RVA: 0x14946F0 Offset: 0x1492CF0 VA: 0x1814946F0
+	// RVA: 0x14949B0 Offset: 0x1492FB0 VA: 0x1814949B0
 	private static void .cctor() { }
 
 }

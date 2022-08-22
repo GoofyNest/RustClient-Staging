@@ -19,40 +19,40 @@ public class RustText : TextMeshProUGUI, ILocalize // TypeDefIndex: 7033
 
 	// Methods
 
-	// RVA: 0xFD04F0 Offset: 0xFCEAF0 VA: 0x180FD04F0 Slot: 135
+	// RVA: 0xFD07B0 Offset: 0xFCEDB0 VA: 0x180FD07B0 Slot: 135
 	public string get_LanguageToken() { }
 
-	// RVA: 0xFD04E0 Offset: 0xFCEAE0 VA: 0x180FD04E0 Slot: 136
+	// RVA: 0xFD07A0 Offset: 0xFCEDA0 VA: 0x180FD07A0 Slot: 136
 	public string get_LanguageEnglish() { }
 
-	// RVA: 0xFD02E0 Offset: 0xFCE8E0 VA: 0x180FD02E0
+	// RVA: 0xFD05A0 Offset: 0xFCEBA0 VA: 0x180FD05A0
 	public void SetPhrase(Translate.Phrase phrase) { }
 
-	// RVA: 0xFCFAB0 Offset: 0xFCE0B0 VA: 0x180FCFAB0 Slot: 4
+	// RVA: 0xFCFD70 Offset: 0xFCE370 VA: 0x180FCFD70 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0xFD02B0 Offset: 0xFCE8B0 VA: 0x180FD02B0
+	// RVA: 0xFD0570 Offset: 0xFCEB70 VA: 0x180FD0570
 	public void SetPhraseArguments(object[] args) { }
 
-	// RVA: 0xFD0360 Offset: 0xFCE960 VA: 0x180FD0360
+	// RVA: 0xFD0620 Offset: 0xFCEC20 VA: 0x180FD0620
 	public void SetText(string str) { }
 
-	// RVA: 0xFCFAE0 Offset: 0xFCE0E0 VA: 0x180FCFAE0
+	// RVA: 0xFCFDA0 Offset: 0xFCE3A0 VA: 0x180FCFDA0
 	public void DoAutoSize() { }
 
-	// RVA: 0xFD0230 Offset: 0xFCE830 VA: 0x180FD0230 Slot: 37
+	// RVA: 0xFD04F0 Offset: 0xFCEAF0 VA: 0x180FD04F0 Slot: 37
 	public override void Rebuild(CanvasUpdate update) { }
 
-	// RVA: 0xFD0070 Offset: 0xFCE670 VA: 0x180FD0070
+	// RVA: 0xFD0330 Offset: 0xFCE930 VA: 0x180FD0330
 	private string GetLocalizedText(bool englishVersion) { }
 
-	// RVA: 0xFD0390 Offset: 0xFCE990 VA: 0x180FD0390
+	// RVA: 0xFD0650 Offset: 0xFCEC50 VA: 0x180FD0650
 	private void UpdateLocalizedText(bool forceEnglish) { }
 
-	// RVA: 0xFD01A0 Offset: 0xFCE7A0 VA: 0x180FD01A0
+	// RVA: 0xFD0460 Offset: 0xFCEA60 VA: 0x180FD0460
 	public static void OnLanguageChanged() { }
 
-	// RVA: 0xFD04C0 Offset: 0xFCEAC0 VA: 0x180FD04C0
+	// RVA: 0xFD0780 Offset: 0xFCED80 VA: 0x180FD0780
 	public void .ctor() { }
 
 }

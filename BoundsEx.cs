@@ -1,6 +1,6 @@
 public static class BoundsEx // TypeDefIndex: 11343
 {	// Fields
-	private static Vector3[] pts; // 0x2B10588
+	private static Vector3[] pts; // 0x2B115C8
 
 	// Methods
 

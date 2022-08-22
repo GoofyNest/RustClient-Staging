@@ -42,7 +42,7 @@ public struct SpinLock // TypeDefIndex: 762
 	// RVA: 0x1F0A90 Offset: 0x1EFE90 VA: 0x1801F0A90
 	public bool get_IsThreadOwnerTrackingEnabled() { }
 
-	// RVA: 0x149B2B0 Offset: 0x14998B0 VA: 0x18149B2B0
+	// RVA: 0x149B570 Offset: 0x1499B70 VA: 0x18149B570
 	private static void .cctor() { }
 
 }

@@ -14,82 +14,82 @@ public class ArcadeMachine : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1FF2FD0 Offset: 0x1FF15D0 VA: 0x181FF2FD0
+	// RVA: 0x1FF3290 Offset: 0x1FF1890 VA: 0x181FF3290
 	public static void ResetToPool(ArcadeMachine instance) { }
 
-	// RVA: 0x1FF2D90 Offset: 0x1FF1390 VA: 0x181FF2D90
+	// RVA: 0x1FF3050 Offset: 0x1FF1650 VA: 0x181FF3050
 	public void ResetToPool() { }
 
-	// RVA: 0x1FF2CD0 Offset: 0x1FF12D0 VA: 0x181FF2CD0 Slot: 9
+	// RVA: 0x1FF2F90 Offset: 0x1FF1590 VA: 0x181FF2F90 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1FF18F0 Offset: 0x1FEFEF0 VA: 0x181FF18F0
+	// RVA: 0x1FF1BB0 Offset: 0x1FF01B0 VA: 0x181FF1BB0
 	public void CopyTo(ArcadeMachine instance) { }
 
-	// RVA: 0x1FF1AE0 Offset: 0x1FF00E0 VA: 0x181FF1AE0
+	// RVA: 0x1FF1DA0 Offset: 0x1FF03A0 VA: 0x181FF1DA0
 	public ArcadeMachine Copy() { }
 
-	// RVA: 0x1FF2840 Offset: 0x1FF0E40 VA: 0x181FF2840
+	// RVA: 0x1FF2B00 Offset: 0x1FF1100 VA: 0x181FF2B00
 	public static ArcadeMachine Deserialize(Stream stream) { }
 
-	// RVA: 0x1FF2050 Offset: 0x1FF0650 VA: 0x181FF2050
+	// RVA: 0x1FF2310 Offset: 0x1FF0910 VA: 0x181FF2310
 	public static ArcadeMachine DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1FF20D0 Offset: 0x1FF06D0 VA: 0x181FF20D0
+	// RVA: 0x1FF2390 Offset: 0x1FF0990 VA: 0x181FF2390
 	public static ArcadeMachine DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1FF2720 Offset: 0x1FF0D20 VA: 0x181FF2720
+	// RVA: 0x1FF29E0 Offset: 0x1FF0FE0 VA: 0x181FF29E0
 	public static ArcadeMachine Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1FF2D50 Offset: 0x1FF1350 VA: 0x181FF2D50
+	// RVA: 0x1FF3010 Offset: 0x1FF1610 VA: 0x181FF3010
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1FF3BE0 Offset: 0x1FF21E0 VA: 0x181FF3BE0 Slot: 12
+	// RVA: 0x1FF3EA0 Offset: 0x1FF24A0 VA: 0x181FF3EA0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1FF3C00 Offset: 0x1FF2200 VA: 0x181FF3C00 Slot: 13
+	// RVA: 0x1FF3EC0 Offset: 0x1FF24C0 VA: 0x181FF3EC0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ArcadeMachine previous) { }
 
-	// RVA: 0x1FF2D70 Offset: 0x1FF1370 VA: 0x181FF2D70 Slot: 14
+	// RVA: 0x1FF3030 Offset: 0x1FF1630 VA: 0x181FF3030 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1FF2620 Offset: 0x1FF0C20 VA: 0x181FF2620
+	// RVA: 0x1FF28E0 Offset: 0x1FF0EE0 VA: 0x181FF28E0
 	public static ArcadeMachine Deserialize(byte[] buffer, ArcadeMachine instance, bool isDelta = False) { }
 
-	// RVA: 0x1FF28C0 Offset: 0x1FF0EC0 VA: 0x181FF28C0
+	// RVA: 0x1FF2B80 Offset: 0x1FF1180 VA: 0x181FF2B80
 	public static ArcadeMachine Deserialize(Stream stream, ArcadeMachine instance, bool isDelta) { }
 
-	// RVA: 0x1FF1B60 Offset: 0x1FF0160 VA: 0x181FF1B60
+	// RVA: 0x1FF1E20 Offset: 0x1FF0420 VA: 0x181FF1E20
 	public static ArcadeMachine DeserializeLengthDelimited(Stream stream, ArcadeMachine instance, bool isDelta) { }
 
-	// RVA: 0x1FF2160 Offset: 0x1FF0760 VA: 0x181FF2160
+	// RVA: 0x1FF2420 Offset: 0x1FF0A20 VA: 0x181FF2420
 	public static ArcadeMachine DeserializeLength(Stream stream, int length, ArcadeMachine instance, bool isDelta) { }
 
-	// RVA: 0x1FF3210 Offset: 0x1FF1810 VA: 0x181FF3210
+	// RVA: 0x1FF34D0 Offset: 0x1FF1AD0 VA: 0x181FF34D0
 	public static void SerializeDelta(Stream stream, ArcadeMachine instance, ArcadeMachine previous) { }
 
-	// RVA: 0x1FF38A0 Offset: 0x1FF1EA0 VA: 0x181FF38A0
+	// RVA: 0x1FF3B60 Offset: 0x1FF2160 VA: 0x181FF3B60
 	public static void Serialize(Stream stream, ArcadeMachine instance) { }
 
-	// RVA: 0x1FF3BD0 Offset: 0x1FF21D0 VA: 0x181FF3BD0
+	// RVA: 0x1FF3E90 Offset: 0x1FF2490 VA: 0x181FF3E90
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1FF3BE0 Offset: 0x1FF21E0 VA: 0x181FF3BE0
+	// RVA: 0x1FF3EA0 Offset: 0x1FF24A0 VA: 0x181FF3EA0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1FF3790 Offset: 0x1FF1D90 VA: 0x181FF3790
+	// RVA: 0x1FF3A50 Offset: 0x1FF2050 VA: 0x181FF3A50
 	public static byte[] SerializeToBytes(ArcadeMachine instance) { }
 
-	// RVA: 0x1FF36E0 Offset: 0x1FF1CE0 VA: 0x181FF36E0
+	// RVA: 0x1FF39A0 Offset: 0x1FF1FA0 VA: 0x181FF39A0
 	public static void SerializeLengthDelimited(Stream stream, ArcadeMachine instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -104,82 +104,82 @@ public class ArcadeMachine.ScoreEntry : IDisposable, Pool.IPooled, IProto // Typ
 
 	// Methods
 
-	// RVA: 0x2006C40 Offset: 0x2005240 VA: 0x182006C40
+	// RVA: 0x2006F00 Offset: 0x2005500 VA: 0x182006F00
 	public static void ResetToPool(ArcadeMachine.ScoreEntry instance) { }
 
-	// RVA: 0x2006CF0 Offset: 0x20052F0 VA: 0x182006CF0
+	// RVA: 0x2006FB0 Offset: 0x20055B0 VA: 0x182006FB0
 	public void ResetToPool() { }
 
-	// RVA: 0x20069E0 Offset: 0x2004FE0 VA: 0x1820069E0 Slot: 9
+	// RVA: 0x2006CA0 Offset: 0x20052A0 VA: 0x182006CA0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20059F0 Offset: 0x2003FF0 VA: 0x1820059F0
+	// RVA: 0x2005CB0 Offset: 0x20042B0 VA: 0x182005CB0
 	public void CopyTo(ArcadeMachine.ScoreEntry instance) { }
 
-	// RVA: 0x2005A40 Offset: 0x2004040 VA: 0x182005A40
+	// RVA: 0x2005D00 Offset: 0x2004300 VA: 0x182005D00
 	public ArcadeMachine.ScoreEntry Copy() { }
 
-	// RVA: 0x2006550 Offset: 0x2004B50 VA: 0x182006550
+	// RVA: 0x2006810 Offset: 0x2004E10 VA: 0x182006810
 	public static ArcadeMachine.ScoreEntry Deserialize(Stream stream) { }
 
-	// RVA: 0x2005AD0 Offset: 0x20040D0 VA: 0x182005AD0
+	// RVA: 0x2005D90 Offset: 0x2004390 VA: 0x182005D90
 	public static ArcadeMachine.ScoreEntry DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2005DE0 Offset: 0x20043E0 VA: 0x182005DE0
+	// RVA: 0x20060A0 Offset: 0x20046A0 VA: 0x1820060A0
 	public static ArcadeMachine.ScoreEntry DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20062A0 Offset: 0x20048A0 VA: 0x1820062A0
+	// RVA: 0x2006560 Offset: 0x2004B60 VA: 0x182006560
 	public static ArcadeMachine.ScoreEntry Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2006A60 Offset: 0x2005060 VA: 0x182006A60
+	// RVA: 0x2006D20 Offset: 0x2005320 VA: 0x182006D20
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20072E0 Offset: 0x20058E0 VA: 0x1820072E0 Slot: 12
+	// RVA: 0x20075A0 Offset: 0x2005BA0 VA: 0x1820075A0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2007300 Offset: 0x2005900 VA: 0x182007300 Slot: 13
+	// RVA: 0x20075C0 Offset: 0x2005BC0 VA: 0x1820075C0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ArcadeMachine.ScoreEntry previous) { }
 
-	// RVA: 0x2006C20 Offset: 0x2005220 VA: 0x182006C20 Slot: 14
+	// RVA: 0x2006EE0 Offset: 0x20054E0 VA: 0x182006EE0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2006750 Offset: 0x2004D50 VA: 0x182006750
+	// RVA: 0x2006A10 Offset: 0x2005010 VA: 0x182006A10
 	public static ArcadeMachine.ScoreEntry Deserialize(byte[] buffer, ArcadeMachine.ScoreEntry instance, bool isDelta = False) { }
 
-	// RVA: 0x20060E0 Offset: 0x20046E0 VA: 0x1820060E0
+	// RVA: 0x20063A0 Offset: 0x20049A0 VA: 0x1820063A0
 	public static ArcadeMachine.ScoreEntry Deserialize(Stream stream, ArcadeMachine.ScoreEntry instance, bool isDelta) { }
 
-	// RVA: 0x2005B50 Offset: 0x2004150 VA: 0x182005B50
+	// RVA: 0x2005E10 Offset: 0x2004410 VA: 0x182005E10
 	public static ArcadeMachine.ScoreEntry DeserializeLengthDelimited(Stream stream, ArcadeMachine.ScoreEntry instance, bool isDelta) { }
 
-	// RVA: 0x2005E70 Offset: 0x2004470 VA: 0x182005E70
+	// RVA: 0x2006130 Offset: 0x2004730 VA: 0x182006130
 	public static ArcadeMachine.ScoreEntry DeserializeLength(Stream stream, int length, ArcadeMachine.ScoreEntry instance, bool isDelta) { }
 
-	// RVA: 0x2006DA0 Offset: 0x20053A0 VA: 0x182006DA0
+	// RVA: 0x2007060 Offset: 0x2005660 VA: 0x182007060
 	public static void SerializeDelta(Stream stream, ArcadeMachine.ScoreEntry instance, ArcadeMachine.ScoreEntry previous) { }
 
-	// RVA: 0x2007140 Offset: 0x2005740 VA: 0x182007140
+	// RVA: 0x2007400 Offset: 0x2005A00 VA: 0x182007400
 	public static void Serialize(Stream stream, ArcadeMachine.ScoreEntry instance) { }
 
-	// RVA: 0x20072D0 Offset: 0x20058D0 VA: 0x1820072D0
+	// RVA: 0x2007590 Offset: 0x2005B90 VA: 0x182007590
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20072E0 Offset: 0x20058E0 VA: 0x1820072E0
+	// RVA: 0x20075A0 Offset: 0x2005BA0 VA: 0x1820075A0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2007030 Offset: 0x2005630 VA: 0x182007030
+	// RVA: 0x20072F0 Offset: 0x20058F0 VA: 0x1820072F0
 	public static byte[] SerializeToBytes(ArcadeMachine.ScoreEntry instance) { }
 
-	// RVA: 0x2006F80 Offset: 0x2005580 VA: 0x182006F80
+	// RVA: 0x2007240 Offset: 0x2005840 VA: 0x182007240
 	public static void SerializeLengthDelimited(Stream stream, ArcadeMachine.ScoreEntry instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

@@ -31,64 +31,64 @@ public class WaterDynamics : MonoBehaviour // TypeDefIndex: 10603
 
 	// Methods
 
-	// RVA: 0x8061C0 Offset: 0x8047C0 VA: 0x1808061C0
+	// RVA: 0x8062D0 Offset: 0x8048D0 VA: 0x1808062D0
 	private void RasterBindImage(WaterDynamics.Image image) { }
 
-	// RVA: 0x8062C0 Offset: 0x8048C0 VA: 0x1808062C0
+	// RVA: 0x8063D0 Offset: 0x8049D0 VA: 0x1808063D0
 	private void RasterBindTarget(WaterDynamics.Target target) { }
 
-	// RVA: 0x8064C0 Offset: 0x804AC0 VA: 0x1808064C0
+	// RVA: 0x8065D0 Offset: 0x804BD0 VA: 0x1808065D0
 	private void RasterInteraction(Vector2 pos, Vector2 scale, float rotation, float disp, float dist) { }
 
-	// RVA: 0x805930 Offset: 0x803F30 VA: 0x180805930
+	// RVA: 0x805A40 Offset: 0x804040 VA: 0x180805A40
 	private float Frac(float x) { }
 
-	// RVA: 0x807AF0 Offset: 0x8060F0 VA: 0x180807AF0
+	// RVA: 0x807C00 Offset: 0x806200 VA: 0x180807C00
 	private Vector2 Rotate2D(Vector2 v, float s, float c) { }
 
-	// RVA: 0x805C30 Offset: 0x804230 VA: 0x180805C30
+	// RVA: 0x805D40 Offset: 0x804340 VA: 0x180805D40
 	private int Min3(int a, int b, int c) { }
 
-	// RVA: 0x805BB0 Offset: 0x8041B0 VA: 0x180805BB0
+	// RVA: 0x805CC0 Offset: 0x8042C0 VA: 0x180805CC0
 	private int Max3(int a, int b, int c) { }
 
-	// RVA: 0x8058F0 Offset: 0x803EF0 VA: 0x1808058F0
+	// RVA: 0x805A00 Offset: 0x804000 VA: 0x180805A00
 	private int EdgeFunction(WaterDynamics.Point2D a, WaterDynamics.Point2D b, WaterDynamics.Point2D c) { }
 
-	// RVA: 0x805B90 Offset: 0x804190 VA: 0x180805B90
+	// RVA: 0x805CA0 Offset: 0x8042A0 VA: 0x180805CA0
 	private bool IsTopLeft(WaterDynamics.Point2D a, WaterDynamics.Point2D b) { }
 
-	// RVA: 0x8069E0 Offset: 0x804FE0 VA: 0x1808069E0
+	// RVA: 0x806AF0 Offset: 0x8050F0 VA: 0x180806AF0
 	private void RasterizeTriangle(WaterDynamics.Point2D p0, WaterDynamics.Point2D p1, WaterDynamics.Point2D p2, Vector2 uv0, Vector2 uv1, Vector2 uv2, byte disp, byte dist) { }
 
-	// RVA: 0x806340 Offset: 0x804940 VA: 0x180806340
+	// RVA: 0x806450 Offset: 0x804A50 VA: 0x180806450
 	private static extern void RasterClearTile_Native(ref byte pixels, int offset, int stride, int width, int height) { }
 
-	// RVA: 0x806130 Offset: 0x804730 VA: 0x180806130
+	// RVA: 0x806240 Offset: 0x804840 VA: 0x180806240
 	private static extern void RasterBindImage_Native(ref WaterDynamics.ImageDesc desc, ref byte pixels) { }
 
-	// RVA: 0x806200 Offset: 0x804800 VA: 0x180806200
+	// RVA: 0x806310 Offset: 0x804910 VA: 0x180806310
 	private static extern void RasterBindTarget_Native(ref WaterDynamics.TargetDesc desc, ref byte pixels, ref byte drawTileTable, ref ushort drawTileList, ref int drawTileCount) { }
 
-	// RVA: 0x8063F0 Offset: 0x8049F0 VA: 0x1808063F0
+	// RVA: 0x806500 Offset: 0x804B00 VA: 0x180806500
 	private static extern void RasterInteraction_Native(Vector2 pos, Vector2 scale, float rotation, float disp, float dist) { }
 
-	// RVA: 0x805950 Offset: 0x803F50 VA: 0x180805950
+	// RVA: 0x805A60 Offset: 0x804060 VA: 0x180805A60
 	public void InitializeRender() { }
 
-	// RVA: 0x807B40 Offset: 0x806140 VA: 0x180807B40
+	// RVA: 0x807C50 Offset: 0x806250 VA: 0x180807C50
 	public void ShutdownRender() { }
 
-	// RVA: 0x8056D0 Offset: 0x803CD0 VA: 0x1808056D0
+	// RVA: 0x8057E0 Offset: 0x803DE0 VA: 0x1808057E0
 	private Mesh CreateMesh() { }
 
-	// RVA: 0x807780 Offset: 0x805D80 VA: 0x180807780
+	// RVA: 0x807890 Offset: 0x805E90 VA: 0x180807890
 	private void RenderIssueBindTarget(WaterDynamics.Target target) { }
 
-	// RVA: 0x8078B0 Offset: 0x805EB0 VA: 0x1808078B0
+	// RVA: 0x8079C0 Offset: 0x805FC0 VA: 0x1808079C0
 	private void RenderIssueInteraction(Texture2D texture, Vector2 pos, Vector2 scale, float rotation, float disp, float dist) { }
 
-	// RVA: 0x8073D0 Offset: 0x8059D0 VA: 0x1808073D0
+	// RVA: 0x8074E0 Offset: 0x805AE0 VA: 0x1808074E0
 	private void RenderFlushInteractions() { }
 
 	// RVA: -1 Offset: -1
@@ -106,7 +106,7 @@ public class WaterDynamics : MonoBehaviour // TypeDefIndex: 10603
 	public static T SafeDestroy<T>(T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BBBA0 Offset: 0x15BA1A0 VA: 0x1815BBBA0
+	|-RVA: 0x15BBE60 Offset: 0x15BA460 VA: 0x1815BBE60
 	|-WaterDynamics.SafeDestroy<object>
 	*/
 
@@ -123,47 +123,47 @@ public class WaterDynamics : MonoBehaviour // TypeDefIndex: 10603
 	public static T SafeRelease<T>(T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BBC30 Offset: 0x15BA230 VA: 0x1815BBC30
+	|-RVA: 0x15BBEF0 Offset: 0x15BA4F0 VA: 0x1815BBEF0
 	|-WaterDynamics.SafeRelease<object>
 	|-WaterDynamics.SafeRelease<ComputeBuffer>
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x808500 Offset: 0x806B00 VA: 0x180808500
+	// RVA: 0x808610 Offset: 0x806C10 VA: 0x180808610
 	private void set_IsInitialized(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8084F0 Offset: 0x806AF0 VA: 0x1808084F0
+	// RVA: 0x808600 Offset: 0x806C00 VA: 0x180808600
 	public bool get_IsInitialized() { }
 
-	// RVA: 0x807350 Offset: 0x805950 VA: 0x180807350
+	// RVA: 0x807460 Offset: 0x805A60 VA: 0x180807460
 	public static void RegisterInteraction(WaterInteraction interaction) { }
 
-	// RVA: 0x8081E0 Offset: 0x8067E0 VA: 0x1808081E0
+	// RVA: 0x8082F0 Offset: 0x8068F0 VA: 0x1808082F0
 	public static void UnregisterInteraction(WaterInteraction interaction) { }
 
-	// RVA: 0x807E00 Offset: 0x806400 VA: 0x180807E00
+	// RVA: 0x807F10 Offset: 0x806510 VA: 0x180807F10
 	private bool SupportsNativePath() { }
 
-	// RVA: 0x805A20 Offset: 0x804020 VA: 0x180805A20
+	// RVA: 0x805B30 Offset: 0x804130 VA: 0x180805B30
 	public void Initialize(Vector3 areaPosition, Vector3 areaSize) { }
 
-	// RVA: 0x807F50 Offset: 0x806550 VA: 0x180807F50
+	// RVA: 0x808060 Offset: 0x806660 VA: 0x180808060
 	public bool TryInitialize() { }
 
-	// RVA: 0x805CB0 Offset: 0x8042B0 VA: 0x180805CB0
+	// RVA: 0x805DC0 Offset: 0x8043C0 VA: 0x180805DC0
 	public void Shutdown() { }
 
-	// RVA: 0x805E10 Offset: 0x804410 VA: 0x180805E10
+	// RVA: 0x805F20 Offset: 0x804520 VA: 0x180805F20
 	public void OnEnable() { }
 
-	// RVA: 0x805CB0 Offset: 0x8042B0 VA: 0x180805CB0
+	// RVA: 0x805DC0 Offset: 0x8043C0 VA: 0x180805DC0
 	public void OnDisable() { }
 
-	// RVA: 0x808260 Offset: 0x806860 VA: 0x180808260
+	// RVA: 0x808370 Offset: 0x806970 VA: 0x180808370
 	public void Update() { }
 
-	// RVA: 0x805E20 Offset: 0x804420 VA: 0x180805E20
+	// RVA: 0x805F30 Offset: 0x804530 VA: 0x180805F30
 	private void ProcessInteractions() { }
 
 	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0
@@ -172,7 +172,7 @@ public class WaterDynamics : MonoBehaviour // TypeDefIndex: 10603
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0x808450 Offset: 0x806A50 VA: 0x180808450
+	// RVA: 0x808560 Offset: 0x806B60 VA: 0x180808560
 	private static void .cctor() { }
 
 }
@@ -208,20 +208,20 @@ public class WaterDynamics.Image // TypeDefIndex: 10605
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public Texture2D get_texture() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	private void set_texture(Texture2D value) { }
 
-	// RVA: 0x7EE220 Offset: 0x7EC820 VA: 0x1807EE220
+	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
 	public void .ctor(Texture2D tex) { }
 
-	// RVA: 0x7EE130 Offset: 0x7EC730 VA: 0x1807EE130
+	// RVA: 0x7EE240 Offset: 0x7EC840 VA: 0x1807EE240
 	public void Destroy() { }
 
-	// RVA: 0x7EE170 Offset: 0x7EC770 VA: 0x1807EE170
+	// RVA: 0x7EE280 Offset: 0x7EC880 VA: 0x1807EE280
 	private byte[] GetDisplacementPixelsFromTexture(Texture2D tex) { }
 
 }
@@ -307,25 +307,25 @@ private class WaterDynamics.InstanceBatch // TypeDefIndex: 10608
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	public ComputeBuffer get_InstanceBuffer() { }
 
-	// RVA: 0x7EE8B0 Offset: 0x7ECEB0 VA: 0x1807EE8B0
+	// RVA: 0x7EE9C0 Offset: 0x7ECFC0 VA: 0x1807EE9C0
 	public int get_Count() { }
 
-	// RVA: 0x7EE710 Offset: 0x7ECD10 VA: 0x1807EE710
+	// RVA: 0x7EE820 Offset: 0x7ECE20 VA: 0x1807EE820
 	private ComputeBuffer SafeRelease(ComputeBuffer buffer) { }
 
-	// RVA: 0x7EE410 Offset: 0x7ECA10 VA: 0x1807EE410
+	// RVA: 0x7EE520 Offset: 0x7ECB20 VA: 0x1807EE520
 	public void Initialize(Mesh mesh, Texture texture) { }
 
-	// RVA: 0x7EE630 Offset: 0x7ECC30 VA: 0x1807EE630
+	// RVA: 0x7EE740 Offset: 0x7ECD40 VA: 0x1807EE740
 	public void Release() { }
 
-	// RVA: 0x7EE3C0 Offset: 0x7EC9C0 VA: 0x1807EE3C0
+	// RVA: 0x7EE4D0 Offset: 0x7ECAD0 VA: 0x1807EE4D0
 	public void Clear() { }
 
-	// RVA: 0x7EE350 Offset: 0x7EC950 VA: 0x1807EE350
+	// RVA: 0x7EE460 Offset: 0x7ECA60 VA: 0x1807EE460
 	public void AddInstance(WaterDynamics.InstanceData data) { }
 
-	// RVA: 0x7EE730 Offset: 0x7ECD30 VA: 0x1807EE730
+	// RVA: 0x7EE840 Offset: 0x7ECE40 VA: 0x1807EE840
 	public void UpdateBuffers() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -397,7 +397,7 @@ public class WaterDynamics.Target // TypeDefIndex: 10610
 
 	// Methods
 
-	// RVA: 0x7EFC30 Offset: 0x7EE230 VA: 0x1807EFC30
+	// RVA: 0x7EFD40 Offset: 0x7EE340 VA: 0x1807EFD40
 	public WaterDynamics.TargetDesc get_Desc() { }
 
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
@@ -418,34 +418,34 @@ public class WaterDynamics.Target // TypeDefIndex: 10610
 	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
 	public SimpleList<ushort> get_DrawTileList() { }
 
-	// RVA: 0x7EF9C0 Offset: 0x7EDFC0 VA: 0x1807EF9C0
+	// RVA: 0x7EFAD0 Offset: 0x7EE0D0 VA: 0x1807EFAD0
 	public void .ctor(WaterDynamics owner, Vector3 areaPosition, Vector3 areaSize) { }
 
-	// RVA: 0x7EED30 Offset: 0x7ED330 VA: 0x1807EED30
+	// RVA: 0x7EEE40 Offset: 0x7ED440 VA: 0x1807EEE40
 	public void Destroy() { }
 
-	// RVA: 0x7EEBB0 Offset: 0x7ED1B0 VA: 0x1807EEBB0
+	// RVA: 0x7EECC0 Offset: 0x7ED2C0 VA: 0x1807EECC0
 	private Texture2D CreateDynamicTexture(int size) { }
 
-	// RVA: 0x7EEC50 Offset: 0x7ED250 VA: 0x1807EEC50
+	// RVA: 0x7EED60 Offset: 0x7ED360 VA: 0x1807EED60
 	private RenderTexture CreateRenderTexture(int size) { }
 
-	// RVA: 0x7EE990 Offset: 0x7ECF90 VA: 0x1807EE990
+	// RVA: 0x7EEAA0 Offset: 0x7ED0A0 VA: 0x1807EEAA0
 	public void ClearTiles() { }
 
-	// RVA: 0x7EF2E0 Offset: 0x7ED8E0 VA: 0x1807EF2E0
+	// RVA: 0x7EF3F0 Offset: 0x7ED9F0 VA: 0x1807EF3F0
 	public void ProcessTiles() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void UpdateTiles() { }
 
-	// RVA: 0x7EEE50 Offset: 0x7ED450 VA: 0x1807EEE50
+	// RVA: 0x7EEF60 Offset: 0x7ED560 VA: 0x1807EEF60
 	public void Prepare() { }
 
-	// RVA: 0x7EF580 Offset: 0x7EDB80 VA: 0x1807EF580
+	// RVA: 0x7EF690 Offset: 0x7EDC90 VA: 0x1807EF690
 	public void Update() { }
 
-	// RVA: 0x7EF540 Offset: 0x7EDB40 VA: 0x1807EF540
+	// RVA: 0x7EF650 Offset: 0x7EDC50 VA: 0x1807EF650
 	public void UpdateGlobalShaderProperties() { }
 
 }

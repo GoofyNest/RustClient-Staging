@@ -6,13 +6,13 @@ public class IndependentScale : MonoBehaviour, IClientComponent // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x8135C0 Offset: 0x811BC0 VA: 0x1808135C0
+	// RVA: 0x8136D0 Offset: 0x811CD0 VA: 0x1808136D0
 	public void OnEnable() { }
 
-	// RVA: 0x813660 Offset: 0x811C60 VA: 0x180813660
+	// RVA: 0x813770 Offset: 0x811D70 VA: 0x180813770
 	public void Update() { }
 
-	// RVA: 0x8137D0 Offset: 0x811DD0 VA: 0x1808137D0
+	// RVA: 0x8138E0 Offset: 0x811EE0 VA: 0x1808138E0
 	public void .ctor() { }
 
 }

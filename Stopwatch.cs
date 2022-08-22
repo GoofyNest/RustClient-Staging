@@ -13,37 +13,37 @@ public class Stopwatch // TypeDefIndex: 2657
 
 	// Methods
 
-	// RVA: 0x161AAA0 Offset: 0x16190A0 VA: 0x18161AAA0
+	// RVA: 0x161AD60 Offset: 0x1619360 VA: 0x18161AD60
 	public static long GetTimestamp() { }
 
-	// RVA: 0x1734400 Offset: 0x1732A00 VA: 0x181734400
+	// RVA: 0x17346C0 Offset: 0x1732CC0 VA: 0x1817346C0
 	public static Stopwatch StartNew() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1734850 Offset: 0x1732E50 VA: 0x181734850
+	// RVA: 0x1734B10 Offset: 0x1733110 VA: 0x181734B10
 	public TimeSpan get_Elapsed() { }
 
-	// RVA: 0x17345D0 Offset: 0x1732BD0 VA: 0x1817345D0
+	// RVA: 0x1734890 Offset: 0x1732E90 VA: 0x181734890
 	public long get_ElapsedMilliseconds() { }
 
-	// RVA: 0x17347E0 Offset: 0x1732DE0 VA: 0x1817347E0
+	// RVA: 0x1734AA0 Offset: 0x17330A0 VA: 0x181734AA0
 	public long get_ElapsedTicks() { }
 
-	// RVA: 0x1734390 Offset: 0x1732990 VA: 0x181734390
+	// RVA: 0x1734650 Offset: 0x1732C50 VA: 0x181734650
 	public void Reset() { }
 
-	// RVA: 0x17344A0 Offset: 0x1732AA0 VA: 0x1817344A0
+	// RVA: 0x1734760 Offset: 0x1732D60 VA: 0x181734760
 	public void Start() { }
 
-	// RVA: 0x1734500 Offset: 0x1732B00 VA: 0x181734500
+	// RVA: 0x17347C0 Offset: 0x1732DC0 VA: 0x1817347C0
 	public void Stop() { }
 
-	// RVA: 0x17343A0 Offset: 0x17329A0 VA: 0x1817343A0
+	// RVA: 0x1734660 Offset: 0x1732C60 VA: 0x181734660
 	public void Restart() { }
 
-	// RVA: 0x1734580 Offset: 0x1732B80 VA: 0x181734580
+	// RVA: 0x1734840 Offset: 0x1732E40 VA: 0x181734840
 	private static void .cctor() { }
 
 }

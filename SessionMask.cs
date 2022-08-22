@@ -14,16 +14,16 @@ internal struct SessionMask // TypeDefIndex: 1621
 	// RVA: 0x19F670 Offset: 0x19EA70 VA: 0x18019F670
 	public bool IsEqualOrSupersetOf(SessionMask m) { }
 
-	// RVA: 0x10E4BC0 Offset: 0x10E31C0 VA: 0x1810E4BC0
+	// RVA: 0x10E4E80 Offset: 0x10E3480 VA: 0x1810E4E80
 	public static SessionMask get_All() { }
 
-	// RVA: 0x10E4B80 Offset: 0x10E3180 VA: 0x1810E4B80
+	// RVA: 0x10E4E40 Offset: 0x10E3440 VA: 0x1810E4E40
 	public static SessionMask FromId(int perEventSourceSessionId) { }
 
 	// RVA: 0x19F680 Offset: 0x19EA80 VA: 0x18019F680
 	public ulong ToEventKeywords() { }
 
-	// RVA: 0x10E4B70 Offset: 0x10E3170 VA: 0x1810E4B70
+	// RVA: 0x10E4E30 Offset: 0x10E3430 VA: 0x1810E4E30
 	public static SessionMask FromEventKeywords(ulong m) { }
 
 	// RVA: 0x19F6A0 Offset: 0x19EAA0 VA: 0x18019F6A0

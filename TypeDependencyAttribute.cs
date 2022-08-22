@@ -8,7 +8,7 @@ internal sealed class TypeDependencyAttribute : Attribute // TypeDefIndex: 1310
 
 	// Methods
 
-	// RVA: 0xFF61C0 Offset: 0xFF47C0 VA: 0x180FF61C0
+	// RVA: 0xFF6480 Offset: 0xFF4A80 VA: 0x180FF6480
 	public void .ctor(string typeName) { }
 
 }

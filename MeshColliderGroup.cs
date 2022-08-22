@@ -1,7 +1,7 @@
 public class MeshColliderGroup : PooledList<MeshColliderInstance> // TypeDefIndex: 9156
 {	// Methods
 
-	// RVA: 0x960860 Offset: 0x95EE60 VA: 0x180960860
+	// RVA: 0x960970 Offset: 0x95EF70 VA: 0x180960970
 	public void .ctor() { }
 
 }

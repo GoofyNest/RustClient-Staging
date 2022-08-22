@@ -19,16 +19,16 @@ public class VendingMachineScreen : MonoBehaviour // TypeDefIndex: 8738
 
 	// Methods
 
-	// RVA: 0xAD8B40 Offset: 0xAD7140 VA: 0x180AD8B40
+	// RVA: 0xAD8E00 Offset: 0xAD7400 VA: 0x180AD8E00
 	public void UpdateLOD() { }
 
-	// RVA: 0xAD8DF0 Offset: 0xAD73F0 VA: 0x180AD8DF0
+	// RVA: 0xAD90B0 Offset: 0xAD76B0 VA: 0x180AD90B0
 	public void UpdateLightAnimation() { }
 
-	// RVA: 0xAD8EF0 Offset: 0xAD74F0 VA: 0x180AD8EF0
+	// RVA: 0xAD91B0 Offset: 0xAD77B0 VA: 0x180AD91B0
 	private void Update() { }
 
-	// RVA: 0x86A660 Offset: 0x868C60 VA: 0x18086A660
+	// RVA: 0x86A770 Offset: 0x868D70 VA: 0x18086A770
 	public void .ctor() { }
 
 }

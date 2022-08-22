@@ -20,7 +20,7 @@ public class StyleAsset.Group // TypeDefIndex: 7064
 
 	// Methods
 
-	// RVA: 0xFC16B0 Offset: 0xFBFCB0 VA: 0x180FC16B0
+	// RVA: 0xFC1970 Offset: 0xFBFF70 VA: 0x180FC1970
 	public void .ctor() { }
 
 }

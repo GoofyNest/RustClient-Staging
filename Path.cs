@@ -18,109 +18,109 @@ public static class Path // TypeDefIndex: 678
 
 	// Methods
 
-	// RVA: 0x1629F60 Offset: 0x1628560 VA: 0x181629F60
+	// RVA: 0x162A220 Offset: 0x1628820 VA: 0x18162A220
 	public static string ChangeExtension(string path, string extension) { }
 
-	// RVA: 0x162A920 Offset: 0x1628F20 VA: 0x18162A920
+	// RVA: 0x162ABE0 Offset: 0x16291E0 VA: 0x18162ABE0
 	public static string Combine(string path1, string path2) { }
 
-	// RVA: 0x162A430 Offset: 0x1628A30 VA: 0x18162A430
+	// RVA: 0x162A6F0 Offset: 0x1628CF0 VA: 0x18162A6F0
 	internal static string CleanPath(string s) { }
 
-	// RVA: 0x162B1B0 Offset: 0x16297B0 VA: 0x18162B1B0
+	// RVA: 0x162B470 Offset: 0x1629A70 VA: 0x18162B470
 	public static string GetDirectoryName(string path) { }
 
-	// RVA: 0x162B5C0 Offset: 0x1629BC0 VA: 0x18162B5C0
+	// RVA: 0x162B880 Offset: 0x1629E80 VA: 0x18162B880
 	public static string GetExtension(string path) { }
 
-	// RVA: 0x162B730 Offset: 0x1629D30 VA: 0x18162B730
+	// RVA: 0x162B9F0 Offset: 0x1629FF0 VA: 0x18162B9F0
 	public static string GetFileName(string path) { }
 
-	// RVA: 0x162B6D0 Offset: 0x1629CD0 VA: 0x18162B6D0
+	// RVA: 0x162B990 Offset: 0x1629F90 VA: 0x18162B990
 	public static string GetFileNameWithoutExtension(string path) { }
 
-	// RVA: 0x162BC40 Offset: 0x162A240 VA: 0x18162BC40
+	// RVA: 0x162BF00 Offset: 0x162A500 VA: 0x18162BF00
 	public static string GetFullPath(string path) { }
 
-	// RVA: 0x162B840 Offset: 0x1629E40 VA: 0x18162B840
+	// RVA: 0x162BB00 Offset: 0x162A100 VA: 0x18162BB00
 	internal static string GetFullPathInternal(string path) { }
 
-	// RVA: 0x162B8A0 Offset: 0x1629EA0 VA: 0x18162B8A0
+	// RVA: 0x162BB60 Offset: 0x162A160 VA: 0x18162BB60
 	private static extern int GetFullPathName(string path, int numBufferChars, StringBuilder buffer, ref IntPtr lpFilePartOrNull) { }
 
-	// RVA: 0x162B980 Offset: 0x1629F80 VA: 0x18162B980
+	// RVA: 0x162BC40 Offset: 0x162A240 VA: 0x18162BC40
 	internal static string GetFullPathName(string path) { }
 
-	// RVA: 0x162DCE0 Offset: 0x162C2E0 VA: 0x18162DCE0
+	// RVA: 0x162DFA0 Offset: 0x162C5A0 VA: 0x18162DFA0
 	internal static string WindowsDriveAdjustment(string path) { }
 
-	// RVA: 0x162C9C0 Offset: 0x162AFC0 VA: 0x18162C9C0
+	// RVA: 0x162CC80 Offset: 0x162B280 VA: 0x18162CC80
 	internal static string InsecureGetFullPath(string path) { }
 
-	// RVA: 0x162D3F0 Offset: 0x162B9F0 VA: 0x18162D3F0
+	// RVA: 0x162D6B0 Offset: 0x162BCB0 VA: 0x18162D6B0
 	internal static bool IsDirectorySeparator(char c) { }
 
-	// RVA: 0x162BDB0 Offset: 0x162A3B0 VA: 0x18162BDB0
+	// RVA: 0x162C070 Offset: 0x162A670 VA: 0x18162C070
 	public static string GetPathRoot(string path) { }
 
-	// RVA: 0x162C520 Offset: 0x162AB20 VA: 0x18162C520
+	// RVA: 0x162C7E0 Offset: 0x162ADE0 VA: 0x18162C7E0
 	public static string GetTempFileName() { }
 
-	// RVA: 0x162C8A0 Offset: 0x162AEA0 VA: 0x18162C8A0
+	// RVA: 0x162CB60 Offset: 0x162B160 VA: 0x18162CB60
 	public static string GetTempPath() { }
 
-	// RVA: 0x162E3D0 Offset: 0x162C9D0 VA: 0x18162E3D0
+	// RVA: 0x162E690 Offset: 0x162CC90 VA: 0x18162E690
 	private static string get_temp_path() { }
 
-	// RVA: 0x162D480 Offset: 0x162BA80 VA: 0x18162D480
+	// RVA: 0x162D740 Offset: 0x162BD40 VA: 0x18162D740
 	public static bool IsPathRooted(string path) { }
 
-	// RVA: 0x162BCA0 Offset: 0x162A2A0 VA: 0x18162BCA0
+	// RVA: 0x162BF60 Offset: 0x162A560 VA: 0x18162BF60
 	public static char[] GetInvalidFileNameChars() { }
 
-	// RVA: 0x162BD40 Offset: 0x162A340 VA: 0x18162BD40
+	// RVA: 0x162C000 Offset: 0x162A600 VA: 0x18162C000
 	public static char[] GetInvalidPathChars() { }
 
-	// RVA: 0x162E230 Offset: 0x162C830 VA: 0x18162E230
+	// RVA: 0x162E4F0 Offset: 0x162CAF0 VA: 0x18162E4F0
 	private static int findExtension(string path) { }
 
-	// RVA: 0x162DF90 Offset: 0x162C590 VA: 0x18162DF90
+	// RVA: 0x162E250 Offset: 0x162C850 VA: 0x18162E250
 	private static void .cctor() { }
 
-	// RVA: 0x162C2E0 Offset: 0x162A8E0 VA: 0x18162C2E0
+	// RVA: 0x162C5A0 Offset: 0x162ABA0 VA: 0x18162C5A0
 	private static string GetServerAndShare(string path) { }
 
-	// RVA: 0x162D650 Offset: 0x162BC50 VA: 0x18162D650
+	// RVA: 0x162D910 Offset: 0x162BF10 VA: 0x18162D910
 	private static bool SameRoot(string root, string path) { }
 
-	// RVA: 0x1629730 Offset: 0x1627D30 VA: 0x181629730
+	// RVA: 0x16299F0 Offset: 0x1627FF0 VA: 0x1816299F0
 	private static string CanonicalizePath(string path) { }
 
-	// RVA: 0x162AE60 Offset: 0x1629460 VA: 0x18162AE60
+	// RVA: 0x162B120 Offset: 0x1629720 VA: 0x18162B120
 	public static string Combine(string[] paths) { }
 
-	// RVA: 0x162AC20 Offset: 0x1629220 VA: 0x18162AC20
+	// RVA: 0x162AEE0 Offset: 0x16294E0 VA: 0x18162AEE0
 	public static string Combine(string path1, string path2, string path3) { }
 
-	// RVA: 0x162D980 Offset: 0x162BF80 VA: 0x18162D980
+	// RVA: 0x162DC40 Offset: 0x162C240 VA: 0x18162DC40
 	internal static void Validate(string path) { }
 
-	// RVA: 0x162DB50 Offset: 0x162C150 VA: 0x18162DB50
+	// RVA: 0x162DE10 Offset: 0x162C410 VA: 0x18162DE10
 	internal static void Validate(string path, string parameterName) { }
 
-	// RVA: 0x162E2D0 Offset: 0x162C8D0 VA: 0x18162E2D0
+	// RVA: 0x162E590 Offset: 0x162CB90 VA: 0x18162E590
 	internal static string get_DirectorySeparatorCharAsString() { }
 
-	// RVA: 0x162E330 Offset: 0x162C930 VA: 0x18162E330
+	// RVA: 0x162E5F0 Offset: 0x162CBF0 VA: 0x18162E5F0
 	internal static char[] get_TrimEndChars() { }
 
-	// RVA: 0x162A280 Offset: 0x1628880 VA: 0x18162A280
+	// RVA: 0x162A540 Offset: 0x1628B40 VA: 0x18162A540
 	internal static void CheckSearchPattern(string searchPattern) { }
 
-	// RVA: 0x162A170 Offset: 0x1628770 VA: 0x18162A170
+	// RVA: 0x162A430 Offset: 0x1628A30 VA: 0x18162A430
 	internal static void CheckInvalidPathChars(string path, bool checkAdditional = False) { }
 
-	// RVA: 0x162D100 Offset: 0x162B700 VA: 0x18162D100
+	// RVA: 0x162D3C0 Offset: 0x162B9C0 VA: 0x18162D3C0
 	internal static string InternalCombine(string path1, string path2) { }
 
 }

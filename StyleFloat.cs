@@ -22,10 +22,10 @@ public struct StyleFloat : IStyleValue<float>, IEquatable<StyleFloat> // TypeDef
 	// RVA: 0x13A7B0 Offset: 0x139BB0 VA: 0x18013A7B0
 	internal void .ctor(float v, StyleKeyword keyword) { }
 
-	// RVA: 0xEB9B10 Offset: 0xEB8110 VA: 0x180EB9B10
+	// RVA: 0xEB9DD0 Offset: 0xEB83D0 VA: 0x180EB9DD0
 	public static bool op_Equality(StyleFloat lhs, StyleFloat rhs) { }
 
-	// RVA: 0xEB9B40 Offset: 0xEB8140 VA: 0x180EB9B40
+	// RVA: 0xEB9E00 Offset: 0xEB8400 VA: 0x180EB9E00
 	public static StyleFloat op_Implicit(float v) { }
 
 	// RVA: 0x13A5F0 Offset: 0x1399F0 VA: 0x18013A5F0 Slot: 6

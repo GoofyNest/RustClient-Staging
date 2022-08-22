@@ -12,7 +12,7 @@ internal class DefaultWatcherData // TypeDefIndex: 2839
 
 	// Methods
 
-	// RVA: 0x1529260 Offset: 0x1527860 VA: 0x181529260
+	// RVA: 0x1529520 Offset: 0x1527B20 VA: 0x181529520
 	public void .ctor() { }
 
 }

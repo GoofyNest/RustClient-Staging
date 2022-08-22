@@ -7,82 +7,82 @@ public class ReclaimManager : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1DFE460 Offset: 0x1DFCA60 VA: 0x181DFE460
+	// RVA: 0x1DFE720 Offset: 0x1DFCD20 VA: 0x181DFE720
 	public static void ResetToPool(ReclaimManager instance) { }
 
-	// RVA: 0x1DFE280 Offset: 0x1DFC880 VA: 0x181DFE280
+	// RVA: 0x1DFE540 Offset: 0x1DFCB40 VA: 0x181DFE540
 	public void ResetToPool() { }
 
-	// RVA: 0x1DFE1C0 Offset: 0x1DFC7C0 VA: 0x181DFE1C0 Slot: 9
+	// RVA: 0x1DFE480 Offset: 0x1DFCA80 VA: 0x181DFE480 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DFD360 Offset: 0x1DFB960 VA: 0x181DFD360
+	// RVA: 0x1DFD620 Offset: 0x1DFBC20 VA: 0x181DFD620
 	public void CopyTo(ReclaimManager instance) { }
 
-	// RVA: 0x1DFD570 Offset: 0x1DFBB70 VA: 0x181DFD570
+	// RVA: 0x1DFD830 Offset: 0x1DFBE30 VA: 0x181DFD830
 	public ReclaimManager Copy() { }
 
-	// RVA: 0x1DFDE10 Offset: 0x1DFC410 VA: 0x181DFDE10
+	// RVA: 0x1DFE0D0 Offset: 0x1DFC6D0 VA: 0x181DFE0D0
 	public static ReclaimManager Deserialize(Stream stream) { }
 
-	// RVA: 0x1DFD900 Offset: 0x1DFBF00 VA: 0x181DFD900
+	// RVA: 0x1DFDBC0 Offset: 0x1DFC1C0 VA: 0x181DFDBC0
 	public static ReclaimManager DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DFDC60 Offset: 0x1DFC260 VA: 0x181DFDC60
+	// RVA: 0x1DFDF20 Offset: 0x1DFC520 VA: 0x181DFDF20
 	public static ReclaimManager DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DFDCF0 Offset: 0x1DFC2F0 VA: 0x181DFDCF0
+	// RVA: 0x1DFDFB0 Offset: 0x1DFC5B0 VA: 0x181DFDFB0
 	public static ReclaimManager Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DFE240 Offset: 0x1DFC840 VA: 0x181DFE240
+	// RVA: 0x1DFE500 Offset: 0x1DFCB00 VA: 0x181DFE500
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DFEC90 Offset: 0x1DFD290 VA: 0x181DFEC90 Slot: 12
+	// RVA: 0x1DFEF50 Offset: 0x1DFD550 VA: 0x181DFEF50 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DFECB0 Offset: 0x1DFD2B0 VA: 0x181DFECB0 Slot: 13
+	// RVA: 0x1DFEF70 Offset: 0x1DFD570 VA: 0x181DFEF70 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ReclaimManager previous) { }
 
-	// RVA: 0x1DFE260 Offset: 0x1DFC860 VA: 0x181DFE260 Slot: 14
+	// RVA: 0x1DFE520 Offset: 0x1DFCB20 VA: 0x181DFE520 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DFE0C0 Offset: 0x1DFC6C0 VA: 0x181DFE0C0
+	// RVA: 0x1DFE380 Offset: 0x1DFC980 VA: 0x181DFE380
 	public static ReclaimManager Deserialize(byte[] buffer, ReclaimManager instance, bool isDelta = False) { }
 
-	// RVA: 0x1DFDE90 Offset: 0x1DFC490 VA: 0x181DFDE90
+	// RVA: 0x1DFE150 Offset: 0x1DFC750 VA: 0x181DFE150
 	public static ReclaimManager Deserialize(Stream stream, ReclaimManager instance, bool isDelta) { }
 
-	// RVA: 0x1DFD5F0 Offset: 0x1DFBBF0 VA: 0x181DFD5F0
+	// RVA: 0x1DFD8B0 Offset: 0x1DFBEB0 VA: 0x181DFD8B0
 	public static ReclaimManager DeserializeLengthDelimited(Stream stream, ReclaimManager instance, bool isDelta) { }
 
-	// RVA: 0x1DFD980 Offset: 0x1DFBF80 VA: 0x181DFD980
+	// RVA: 0x1DFDC40 Offset: 0x1DFC240 VA: 0x181DFDC40
 	public static ReclaimManager DeserializeLength(Stream stream, int length, ReclaimManager instance, bool isDelta) { }
 
-	// RVA: 0x1DFE640 Offset: 0x1DFCC40 VA: 0x181DFE640
+	// RVA: 0x1DFE900 Offset: 0x1DFCF00 VA: 0x181DFE900
 	public static void SerializeDelta(Stream stream, ReclaimManager instance, ReclaimManager previous) { }
 
-	// RVA: 0x1DFEA50 Offset: 0x1DFD050 VA: 0x181DFEA50
+	// RVA: 0x1DFED10 Offset: 0x1DFD310 VA: 0x181DFED10
 	public static void Serialize(Stream stream, ReclaimManager instance) { }
 
-	// RVA: 0x1DFEC80 Offset: 0x1DFD280 VA: 0x181DFEC80
+	// RVA: 0x1DFEF40 Offset: 0x1DFD540 VA: 0x181DFEF40
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DFEC90 Offset: 0x1DFD290 VA: 0x181DFEC90
+	// RVA: 0x1DFEF50 Offset: 0x1DFD550 VA: 0x181DFEF50
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DFE940 Offset: 0x1DFCF40 VA: 0x181DFE940
+	// RVA: 0x1DFEC00 Offset: 0x1DFD200 VA: 0x181DFEC00
 	public static byte[] SerializeToBytes(ReclaimManager instance) { }
 
-	// RVA: 0x1DFE890 Offset: 0x1DFCE90 VA: 0x181DFE890
+	// RVA: 0x1DFEB50 Offset: 0x1DFD150 VA: 0x181DFEB50
 	public static void SerializeLengthDelimited(Stream stream, ReclaimManager instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -98,82 +98,82 @@ public class ReclaimManager.ReclaimInfo : IDisposable, Pool.IPooled, IProto // T
 
 	// Methods
 
-	// RVA: 0x1DFC950 Offset: 0x1DFAF50 VA: 0x181DFC950
+	// RVA: 0x1DFCC10 Offset: 0x1DFB210 VA: 0x181DFCC10
 	public static void ResetToPool(ReclaimManager.ReclaimInfo instance) { }
 
-	// RVA: 0x1DFCA50 Offset: 0x1DFB050 VA: 0x181DFCA50
+	// RVA: 0x1DFCD10 Offset: 0x1DFB310 VA: 0x181DFCD10
 	public void ResetToPool() { }
 
-	// RVA: 0x1DFC680 Offset: 0x1DFAC80 VA: 0x181DFC680 Slot: 9
+	// RVA: 0x1DFC940 Offset: 0x1DFAF40 VA: 0x181DFC940 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DFB340 Offset: 0x1DF9940 VA: 0x181DFB340
+	// RVA: 0x1DFB600 Offset: 0x1DF9C00 VA: 0x181DFB600
 	public void CopyTo(ReclaimManager.ReclaimInfo instance) { }
 
-	// RVA: 0x1DFB3D0 Offset: 0x1DF99D0 VA: 0x181DFB3D0
+	// RVA: 0x1DFB690 Offset: 0x1DF9C90 VA: 0x181DFB690
 	public ReclaimManager.ReclaimInfo Copy() { }
 
-	// RVA: 0x1DFC410 Offset: 0x1DFAA10 VA: 0x181DFC410
+	// RVA: 0x1DFC6D0 Offset: 0x1DFACD0 VA: 0x181DFC6D0
 	public static ReclaimManager.ReclaimInfo Deserialize(Stream stream) { }
 
-	// RVA: 0x1DFB7C0 Offset: 0x1DF9DC0 VA: 0x181DFB7C0
+	// RVA: 0x1DFBA80 Offset: 0x1DFA080 VA: 0x181DFBA80
 	public static ReclaimManager.ReclaimInfo DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DFB840 Offset: 0x1DF9E40 VA: 0x181DFB840
+	// RVA: 0x1DFBB00 Offset: 0x1DFA100 VA: 0x181DFBB00
 	public static ReclaimManager.ReclaimInfo DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DFBEC0 Offset: 0x1DFA4C0 VA: 0x181DFBEC0
+	// RVA: 0x1DFC180 Offset: 0x1DFA780 VA: 0x181DFC180
 	public static ReclaimManager.ReclaimInfo Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DFC700 Offset: 0x1DFAD00 VA: 0x181DFC700
+	// RVA: 0x1DFC9C0 Offset: 0x1DFAFC0 VA: 0x181DFC9C0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DFD320 Offset: 0x1DFB920 VA: 0x181DFD320 Slot: 12
+	// RVA: 0x1DFD5E0 Offset: 0x1DFBBE0 VA: 0x181DFD5E0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DFD340 Offset: 0x1DFB940 VA: 0x181DFD340 Slot: 13
+	// RVA: 0x1DFD600 Offset: 0x1DFBC00 VA: 0x181DFD600 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ReclaimManager.ReclaimInfo previous) { }
 
-	// RVA: 0x1DFC930 Offset: 0x1DFAF30 VA: 0x181DFC930 Slot: 14
+	// RVA: 0x1DFCBF0 Offset: 0x1DFB1F0 VA: 0x181DFCBF0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DFBBC0 Offset: 0x1DFA1C0 VA: 0x181DFBBC0
+	// RVA: 0x1DFBE80 Offset: 0x1DFA480 VA: 0x181DFBE80
 	public static ReclaimManager.ReclaimInfo Deserialize(byte[] buffer, ReclaimManager.ReclaimInfo instance, bool isDelta = False) { }
 
-	// RVA: 0x1DFC1E0 Offset: 0x1DFA7E0 VA: 0x181DFC1E0
+	// RVA: 0x1DFC4A0 Offset: 0x1DFAAA0 VA: 0x181DFC4A0
 	public static ReclaimManager.ReclaimInfo Deserialize(Stream stream, ReclaimManager.ReclaimInfo instance, bool isDelta) { }
 
-	// RVA: 0x1DFB4B0 Offset: 0x1DF9AB0 VA: 0x181DFB4B0
+	// RVA: 0x1DFB770 Offset: 0x1DF9D70 VA: 0x181DFB770
 	public static ReclaimManager.ReclaimInfo DeserializeLengthDelimited(Stream stream, ReclaimManager.ReclaimInfo instance, bool isDelta) { }
 
-	// RVA: 0x1DFB8D0 Offset: 0x1DF9ED0 VA: 0x181DFB8D0
+	// RVA: 0x1DFBB90 Offset: 0x1DFA190 VA: 0x181DFBB90
 	public static ReclaimManager.ReclaimInfo DeserializeLength(Stream stream, int length, ReclaimManager.ReclaimInfo instance, bool isDelta) { }
 
-	// RVA: 0x1DFCB50 Offset: 0x1DFB150 VA: 0x181DFCB50
+	// RVA: 0x1DFCE10 Offset: 0x1DFB410 VA: 0x181DFCE10
 	public static void SerializeDelta(Stream stream, ReclaimManager.ReclaimInfo instance, ReclaimManager.ReclaimInfo previous) { }
 
-	// RVA: 0x1DFD050 Offset: 0x1DFB650 VA: 0x181DFD050
+	// RVA: 0x1DFD310 Offset: 0x1DFB910 VA: 0x181DFD310
 	public static void Serialize(Stream stream, ReclaimManager.ReclaimInfo instance) { }
 
-	// RVA: 0x1DFD310 Offset: 0x1DFB910 VA: 0x181DFD310
+	// RVA: 0x1DFD5D0 Offset: 0x1DFBBD0 VA: 0x181DFD5D0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DFD320 Offset: 0x1DFB920 VA: 0x181DFD320
+	// RVA: 0x1DFD5E0 Offset: 0x1DFBBE0 VA: 0x181DFD5E0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DFCF40 Offset: 0x1DFB540 VA: 0x181DFCF40
+	// RVA: 0x1DFD200 Offset: 0x1DFB800 VA: 0x181DFD200
 	public static byte[] SerializeToBytes(ReclaimManager.ReclaimInfo instance) { }
 
-	// RVA: 0x1DFCE90 Offset: 0x1DFB490 VA: 0x181DFCE90
+	// RVA: 0x1DFD150 Offset: 0x1DFB750 VA: 0x181DFD150
 	public static void SerializeLengthDelimited(Stream stream, ReclaimManager.ReclaimInfo instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -185,7 +185,7 @@ public class ReclaimManager : BaseEntity // TypeDefIndex: 9887
 
 	// Methods
 
-	// RVA: 0x6AC560 Offset: 0x6AAB60 VA: 0x1806AC560
+	// RVA: 0x6AC670 Offset: 0x6AAC70 VA: 0x1806AC670
 	public void .ctor() { }
 
 }

@@ -8,10 +8,10 @@ internal struct SafeStringMarshal : IDisposable // TypeDefIndex: 22
 
 	// Methods
 
-	// RVA: 0x164A8A0 Offset: 0x1648EA0 VA: 0x18164A8A0
+	// RVA: 0x164AB60 Offset: 0x1649160 VA: 0x18164AB60
 	public static IntPtr StringToUtf8(string str) { }
 
-	// RVA: 0x164A890 Offset: 0x1648E90 VA: 0x18164A890
+	// RVA: 0x164AB50 Offset: 0x1649150 VA: 0x18164AB50
 	public static void GFree(IntPtr ptr) { }
 
 	// RVA: 0x1F6B90 Offset: 0x1F5F90 VA: 0x1801F6B90

@@ -7,34 +7,34 @@ public class DeferredMeshDecal : MonoBehaviour, IClientComponent // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x84BC40 Offset: 0x84A240 VA: 0x18084BC40
+	// RVA: 0x84BD50 Offset: 0x84A350 VA: 0x18084BD50
 	private void OnEnable() { }
 
-	// RVA: 0x84BB40 Offset: 0x84A140 VA: 0x18084BB40
+	// RVA: 0x84BC50 Offset: 0x84A250 VA: 0x18084BC50
 	private void OnDisable() { }
 
-	// RVA: 0x84BA60 Offset: 0x84A060 VA: 0x18084BA60
+	// RVA: 0x84BB70 Offset: 0x84A170 VA: 0x18084BB70
 	private void OnBecameVisible() { }
 
-	// RVA: 0x84B990 Offset: 0x849F90 VA: 0x18084B990
+	// RVA: 0x84BAA0 Offset: 0x84A0A0 VA: 0x18084BAA0
 	private void OnBecameInvisible() { }
 
-	// RVA: 0x84B6D0 Offset: 0x849CD0 VA: 0x18084B6D0
+	// RVA: 0x84B7E0 Offset: 0x849DE0 VA: 0x18084B7E0
 	private void CleanupLinks() { }
 
-	// RVA: 0x84BD50 Offset: 0x84A350 VA: 0x18084BD50
+	// RVA: 0x84BE60 Offset: 0x84A460 VA: 0x18084BE60
 	private void PrepareLinks(Material[] mats) { }
 
-	// RVA: 0x84B890 Offset: 0x849E90 VA: 0x18084B890
+	// RVA: 0x84B9A0 Offset: 0x849FA0 VA: 0x18084B9A0
 	public bool IsLinkedToMaterial(Material mat) { }
 
-	// RVA: 0x84B5F0 Offset: 0x849BF0 VA: 0x18084B5F0
+	// RVA: 0x84B700 Offset: 0x849D00 VA: 0x18084B700
 	public void AddToCommandBuffer(CommandBuffer cb) { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	public List<DeferredMeshDecal.InstanceData> GetInstanceData() { }
 
-	// RVA: 0x84C020 Offset: 0x84A620 VA: 0x18084C020
+	// RVA: 0x84C130 Offset: 0x84A730 VA: 0x18084C130
 	public void .ctor() { }
 
 }
@@ -48,16 +48,16 @@ public class DeferredMeshDecal.MaterialReplacement // TypeDefIndex: 10667
 
 	// Methods
 
-	// RVA: 0x858E10 Offset: 0x857410 VA: 0x180858E10
+	// RVA: 0x858F20 Offset: 0x857520 VA: 0x180858F20
 	private void .ctor(Material reference) { }
 
-	// RVA: 0x858A70 Offset: 0x857070 VA: 0x180858A70
+	// RVA: 0x858B80 Offset: 0x857180 VA: 0x180858B80
 	public static DeferredMeshDecal.MaterialReplacement Allocate(Material reference) { }
 
-	// RVA: 0x858CC0 Offset: 0x8572C0 VA: 0x180858CC0
+	// RVA: 0x858DD0 Offset: 0x8573D0 VA: 0x180858DD0
 	public void Release() { }
 
-	// RVA: 0x858DB0 Offset: 0x8573B0 VA: 0x180858DB0
+	// RVA: 0x858EC0 Offset: 0x8574C0 VA: 0x180858EC0
 	private static void .cctor() { }
 
 }
@@ -99,16 +99,16 @@ public class DeferredMeshDecal.InstanceData // TypeDefIndex: 10669
 	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
 	public int get_SubmeshIndex() { }
 
-	// RVA: 0x858A20 Offset: 0x857020 VA: 0x180858A20
+	// RVA: 0x858B30 Offset: 0x857130 VA: 0x180858B30
 	public Matrix4x4 get_LocalToWorld() { }
 
-	// RVA: 0x8587D0 Offset: 0x856DD0 VA: 0x1808587D0
+	// RVA: 0x8588E0 Offset: 0x856EE0 VA: 0x1808588E0
 	public void .ctor(Renderer renderer, Material material, int submeshIndex) { }
 
-	// RVA: 0x858750 Offset: 0x856D50 VA: 0x180858750
+	// RVA: 0x858860 Offset: 0x856E60 VA: 0x180858860
 	private int GenerateHashCode() { }
 
-	// RVA: 0x858630 Offset: 0x856C30 VA: 0x180858630 Slot: 0
+	// RVA: 0x858740 Offset: 0x856D40 VA: 0x180858740 Slot: 0
 	public override bool Equals(object obj) { }
 
 	// RVA: 0x5DE3B0 Offset: 0x5DC9B0 VA: 0x1805DE3B0 Slot: 2

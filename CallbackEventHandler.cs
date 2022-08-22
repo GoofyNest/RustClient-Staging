@@ -7,16 +7,16 @@ public abstract class CallbackEventHandler : IEventHandler // TypeDefIndex: 4650
 	// RVA: -1 Offset: -1 Slot: 6
 	public abstract void SendEvent(EventBase e);
 
-	// RVA: 0xEA9300 Offset: 0xEA7900 VA: 0x180EA9300
+	// RVA: 0xEA95C0 Offset: 0xEA7BC0 VA: 0x180EA95C0
 	internal void HandleEventAtTargetPhase(EventBase evt) { }
 
-	// RVA: 0xEA9360 Offset: 0xEA7960 VA: 0x180EA9360 Slot: 7
+	// RVA: 0xEA9620 Offset: 0xEA7C20 VA: 0x180EA9620 Slot: 7
 	public virtual void HandleEvent(EventBase evt) { }
 
-	// RVA: 0xEA9610 Offset: 0xEA7C10 VA: 0x180EA9610 Slot: 8
+	// RVA: 0xEA98D0 Offset: 0xEA7ED0 VA: 0x180EA98D0 Slot: 8
 	public bool HasTrickleDownHandlers() { }
 
-	// RVA: 0xEA95F0 Offset: 0xEA7BF0 VA: 0x180EA95F0 Slot: 9
+	// RVA: 0xEA98B0 Offset: 0xEA7EB0 VA: 0x180EA98B0 Slot: 9
 	public bool HasBubbleUpHandlers() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 10

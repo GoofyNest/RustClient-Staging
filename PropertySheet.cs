@@ -27,19 +27,19 @@ public sealed class PropertySheet // TypeDefIndex: 11865
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_material(Material value) { }
 
-	// RVA: 0x11D6E00 Offset: 0x11D5400 VA: 0x1811D6E00
+	// RVA: 0x11D70C0 Offset: 0x11D56C0 VA: 0x1811D70C0
 	internal void .ctor(Material material) { }
 
-	// RVA: 0x11D6D10 Offset: 0x11D5310 VA: 0x1811D6D10
+	// RVA: 0x11D6FD0 Offset: 0x11D55D0 VA: 0x1811D6FD0
 	public void ClearKeywords() { }
 
-	// RVA: 0x11D6D60 Offset: 0x11D5360 VA: 0x1811D6D60
+	// RVA: 0x11D7020 Offset: 0x11D5620 VA: 0x1811D7020
 	public void EnableKeyword(string keyword) { }
 
-	// RVA: 0x11D6D40 Offset: 0x11D5340 VA: 0x1811D6D40
+	// RVA: 0x11D7000 Offset: 0x11D5600 VA: 0x1811D7000
 	public void DisableKeyword(string keyword) { }
 
-	// RVA: 0x11D6D80 Offset: 0x11D5380 VA: 0x1811D6D80
+	// RVA: 0x11D7040 Offset: 0x11D5640 VA: 0x1811D7040
 	internal void Release() { }
 
 }

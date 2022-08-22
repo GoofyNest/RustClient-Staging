@@ -40,516 +40,516 @@ public class LeanTween : MonoBehaviour // TypeDefIndex: 5580
 
 	// Methods
 
-	// RVA: 0x21B4650 Offset: 0x21B2C50 VA: 0x1821B4650
+	// RVA: 0x21B4910 Offset: 0x21B2F10 VA: 0x1821B4910
 	public static void init() { }
 
-	// RVA: 0x21B3F60 Offset: 0x21B2560 VA: 0x1821B3F60
+	// RVA: 0x21B4220 Offset: 0x21B2820 VA: 0x1821B4220
 	public static int get_maxSearch() { }
 
-	// RVA: 0x21B3FC0 Offset: 0x21B25C0 VA: 0x1821B3FC0
+	// RVA: 0x21B4280 Offset: 0x21B2880 VA: 0x1821B4280
 	public static int get_maxSimulataneousTweens() { }
 
-	// RVA: 0x21B40E0 Offset: 0x21B26E0 VA: 0x1821B40E0
+	// RVA: 0x21B43A0 Offset: 0x21B29A0 VA: 0x1821B43A0
 	public static int get_tweensRunning() { }
 
-	// RVA: 0x21B4700 Offset: 0x21B2D00 VA: 0x1821B4700
+	// RVA: 0x21B49C0 Offset: 0x21B2FC0 VA: 0x1821B49C0
 	public static void init(int maxSimultaneousTweens) { }
 
-	// RVA: 0x21B41C0 Offset: 0x21B27C0 VA: 0x1821B41C0
+	// RVA: 0x21B4480 Offset: 0x21B2A80 VA: 0x1821B4480
 	public static void init(int maxSimultaneousTweens, int maxSimultaneousSequences) { }
 
-	// RVA: 0x21B8BB0 Offset: 0x21B71B0 VA: 0x1821B8BB0
+	// RVA: 0x21B8E70 Offset: 0x21B7470 VA: 0x1821B8E70
 	public static void reset() { }
 
-	// RVA: 0x21AE360 Offset: 0x21AC960 VA: 0x1821AE360
+	// RVA: 0x21AE620 Offset: 0x21ACC20 VA: 0x1821AE620
 	public void Update() { }
 
-	// RVA: 0x21B74A0 Offset: 0x21B5AA0 VA: 0x1821B74A0
+	// RVA: 0x21B7760 Offset: 0x21B5D60 VA: 0x1821B7760
 	private static void onLevelWasLoaded54(Scene scene, LoadSceneMode mode) { }
 
-	// RVA: 0x21B4770 Offset: 0x21B2D70 VA: 0x1821B4770
+	// RVA: 0x21B4A30 Offset: 0x21B3030 VA: 0x1821B4A30
 	private static void internalOnLevelWasLoaded(int lvl) { }
 
-	// RVA: 0x21BAE30 Offset: 0x21B9430 VA: 0x1821BAE30
+	// RVA: 0x21BB0F0 Offset: 0x21B96F0 VA: 0x1821BB0F0
 	public static void update() { }
 
-	// RVA: 0x21B8610 Offset: 0x21B6C10 VA: 0x1821B8610
+	// RVA: 0x21B88D0 Offset: 0x21B6ED0 VA: 0x1821B88D0
 	public static void removeTween(int i, int uniqueId) { }
 
-	// RVA: 0x21B86E0 Offset: 0x21B6CE0 VA: 0x1821B86E0
+	// RVA: 0x21B89A0 Offset: 0x21B6FA0 VA: 0x1821B89A0
 	public static void removeTween(int i) { }
 
-	// RVA: 0x21AF110 Offset: 0x21AD710 VA: 0x1821AF110
+	// RVA: 0x21AF3D0 Offset: 0x21AD9D0 VA: 0x1821AF3D0
 	public static Vector3[] add(Vector3[] a, Vector3 b) { }
 
-	// RVA: 0x21B0890 Offset: 0x21AEE90 VA: 0x1821B0890
+	// RVA: 0x21B0B50 Offset: 0x21AF150 VA: 0x1821B0B50
 	public static float closestRot(float from, float to) { }
 
-	// RVA: 0x21AF910 Offset: 0x21ADF10 VA: 0x1821AF910
+	// RVA: 0x21AFBD0 Offset: 0x21AE1D0 VA: 0x1821AFBD0
 	public static void cancelAll() { }
 
-	// RVA: 0x21AF960 Offset: 0x21ADF60 VA: 0x1821AF960
+	// RVA: 0x21AFC20 Offset: 0x21AE220 VA: 0x1821AFC20
 	public static void cancelAll(bool callComplete) { }
 
-	// RVA: 0x21B0210 Offset: 0x21AE810 VA: 0x1821B0210
+	// RVA: 0x21B04D0 Offset: 0x21AEAD0 VA: 0x1821B04D0
 	public static void cancel(GameObject gameObject) { }
 
-	// RVA: 0x21AFBD0 Offset: 0x21AE1D0 VA: 0x1821AFBD0
+	// RVA: 0x21AFE90 Offset: 0x21AE490 VA: 0x1821AFE90
 	public static void cancel(GameObject gameObject, bool callOnComplete) { }
 
-	// RVA: 0x21B0750 Offset: 0x21AED50 VA: 0x1821B0750
+	// RVA: 0x21B0A10 Offset: 0x21AF010 VA: 0x1821B0A10
 	public static void cancel(RectTransform rect) { }
 
-	// RVA: 0x21B0410 Offset: 0x21AEA10 VA: 0x1821B0410
+	// RVA: 0x21B06D0 Offset: 0x21AECD0 VA: 0x1821B06D0
 	public static void cancel(GameObject gameObject, int uniqueId, bool callOnComplete = False) { }
 
-	// RVA: 0x21B0270 Offset: 0x21AE870 VA: 0x1821B0270
+	// RVA: 0x21B0530 Offset: 0x21AEB30 VA: 0x1821B0530
 	public static void cancel(LTRect ltRect, int uniqueId) { }
 
-	// RVA: 0x21B03B0 Offset: 0x21AE9B0 VA: 0x1821B03B0
+	// RVA: 0x21B0670 Offset: 0x21AEC70 VA: 0x1821B0670
 	public static void cancel(int uniqueId) { }
 
-	// RVA: 0x21AFED0 Offset: 0x21AE4D0 VA: 0x1821AFED0
+	// RVA: 0x21B0190 Offset: 0x21AE790 VA: 0x1821B0190
 	public static void cancel(int uniqueId, bool callOnComplete) { }
 
-	// RVA: 0x21B14A0 Offset: 0x21AFAA0 VA: 0x1821B14A0
+	// RVA: 0x21B1760 Offset: 0x21AFD60 VA: 0x1821B1760
 	public static LTDescr descr(int uniqueId) { }
 
-	// RVA: 0x21B17F0 Offset: 0x21AFDF0 VA: 0x1821B17F0
+	// RVA: 0x21B1AB0 Offset: 0x21B00B0 VA: 0x1821B1AB0
 	public static LTDescr description(int uniqueId) { }
 
-	// RVA: 0x21B1840 Offset: 0x21AFE40 VA: 0x1821B1840
+	// RVA: 0x21B1B00 Offset: 0x21B0100 VA: 0x1821B1B00
 	public static LTDescr[] descriptions(GameObject gameObject) { }
 
 	[ObsoleteAttribute] // RVA: 0xB4B40 Offset: 0xB3F40 VA: 0x1800B4B40
-	// RVA: 0x21B7DF0 Offset: 0x21B63F0 VA: 0x1821B7DF0
+	// RVA: 0x21B80B0 Offset: 0x21B66B0 VA: 0x1821B80B0
 	public static void pause(GameObject gameObject, int uniqueId) { }
 
-	// RVA: 0x21B7CE0 Offset: 0x21B62E0 VA: 0x1821B7CE0
+	// RVA: 0x21B7FA0 Offset: 0x21B65A0 VA: 0x1821B7FA0
 	public static void pause(int uniqueId) { }
 
-	// RVA: 0x21B7B40 Offset: 0x21B6140 VA: 0x1821B7B40
+	// RVA: 0x21B7E00 Offset: 0x21B6400 VA: 0x1821B7E00
 	public static void pause(GameObject gameObject) { }
 
-	// RVA: 0x21B7A40 Offset: 0x21B6040 VA: 0x1821B7A40
+	// RVA: 0x21B7D00 Offset: 0x21B6300 VA: 0x1821B7D00
 	public static void pauseAll() { }
 
-	// RVA: 0x21B8DA0 Offset: 0x21B73A0 VA: 0x1821B8DA0
+	// RVA: 0x21B9060 Offset: 0x21B7660 VA: 0x1821B9060
 	public static void resumeAll() { }
 
 	[ObsoleteAttribute] // RVA: 0xB4C10 Offset: 0xB4010 VA: 0x1800B4C10
-	// RVA: 0x21B9150 Offset: 0x21B7750 VA: 0x1821B9150
+	// RVA: 0x21B9410 Offset: 0x21B7A10 VA: 0x1821B9410
 	public static void resume(GameObject gameObject, int uniqueId) { }
 
-	// RVA: 0x21B9040 Offset: 0x21B7640 VA: 0x1821B9040
+	// RVA: 0x21B9300 Offset: 0x21B7900 VA: 0x1821B9300
 	public static void resume(int uniqueId) { }
 
-	// RVA: 0x21B8EA0 Offset: 0x21B74A0 VA: 0x1821B8EA0
+	// RVA: 0x21B9160 Offset: 0x21B7760 VA: 0x1821B9160
 	public static void resume(GameObject gameObject) { }
 
-	// RVA: 0x21B4920 Offset: 0x21B2F20 VA: 0x1821B4920
+	// RVA: 0x21B4BE0 Offset: 0x21B31E0 VA: 0x1821B4BE0
 	public static bool isTweening(GameObject gameObject) { }
 
-	// RVA: 0x21B4B90 Offset: 0x21B3190 VA: 0x1821B4B90
+	// RVA: 0x21B4E50 Offset: 0x21B3450 VA: 0x1821B4E50
 	public static bool isTweening(RectTransform rect) { }
 
-	// RVA: 0x21B47C0 Offset: 0x21B2DC0 VA: 0x1821B47C0
+	// RVA: 0x21B4A80 Offset: 0x21B3080 VA: 0x1821B4A80
 	public static bool isTweening(int uniqueId) { }
 
-	// RVA: 0x21B4C00 Offset: 0x21B3200 VA: 0x1821B4C00
+	// RVA: 0x21B4EC0 Offset: 0x21B34C0 VA: 0x1821B4EC0
 	public static bool isTweening(LTRect ltRect) { }
 
-	// RVA: 0x21B1F00 Offset: 0x21B0500 VA: 0x1821B1F00
+	// RVA: 0x21B21C0 Offset: 0x21B07C0 VA: 0x1821B21C0
 	public static void drawBezierPath(Vector3 a, Vector3 b, Vector3 c, Vector3 d, float arrowSize = 0, Transform arrowTransform) { }
 
-	// RVA: 0x21B4DE0 Offset: 0x21B33E0 VA: 0x1821B4DE0
+	// RVA: 0x21B50A0 Offset: 0x21B36A0 VA: 0x1821B50A0
 	public static object logError(string error) { }
 
-	// RVA: 0x21B7540 Offset: 0x21B5B40 VA: 0x1821B7540
+	// RVA: 0x21B7800 Offset: 0x21B5E00 VA: 0x1821B7800
 	public static LTDescr options(LTDescr seed) { }
 
-	// RVA: 0x21B75A0 Offset: 0x21B5BA0 VA: 0x1821B75A0
+	// RVA: 0x21B7860 Offset: 0x21B5E60 VA: 0x1821B7860
 	public static LTDescr options() { }
 
-	// RVA: 0x21B4020 Offset: 0x21B2620 VA: 0x1821B4020
+	// RVA: 0x21B42E0 Offset: 0x21B28E0 VA: 0x1821B42E0
 	public static GameObject get_tweenEmpty() { }
 
-	// RVA: 0x21B8070 Offset: 0x21B6670 VA: 0x1821B8070
+	// RVA: 0x21B8330 Offset: 0x21B6930 VA: 0x1821B8330
 	private static LTDescr pushNewTween(GameObject gameObject, Vector3 to, float time, LTDescr tween) { }
 
-	// RVA: 0x21B7F40 Offset: 0x21B6540 VA: 0x1821B7F40
+	// RVA: 0x21B8200 Offset: 0x21B6800 VA: 0x1821B8200
 	public static LTDescr play(RectTransform rectTransform, Sprite[] sprites) { }
 
-	// RVA: 0x21AF6F0 Offset: 0x21ADCF0 VA: 0x1821AF6F0
+	// RVA: 0x21AF9B0 Offset: 0x21ADFB0 VA: 0x1821AF9B0
 	public static LTDescr alpha(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21BA450 Offset: 0x21B8A50 VA: 0x1821BA450
+	// RVA: 0x21BA710 Offset: 0x21B8D10 VA: 0x1821BA710
 	public static LTSeq sequence(bool initSequence = True) { }
 
-	// RVA: 0x21AF5E0 Offset: 0x21ADBE0 VA: 0x1821AF5E0
+	// RVA: 0x21AF8A0 Offset: 0x21ADEA0 VA: 0x1821AF8A0
 	public static LTDescr alpha(LTRect ltRect, float to, float time) { }
 
-	// RVA: 0x21BAA10 Offset: 0x21B9010 VA: 0x1821BAA10
+	// RVA: 0x21BACD0 Offset: 0x21B92D0 VA: 0x1821BACD0
 	public static LTDescr textAlpha(RectTransform rectTransform, float to, float time) { }
 
-	// RVA: 0x21AF410 Offset: 0x21ADA10 VA: 0x1821AF410
+	// RVA: 0x21AF6D0 Offset: 0x21ADCD0 VA: 0x1821AF6D0
 	public static LTDescr alphaText(RectTransform rectTransform, float to, float time) { }
 
-	// RVA: 0x21AF320 Offset: 0x21AD920 VA: 0x1821AF320
+	// RVA: 0x21AF5E0 Offset: 0x21ADBE0 VA: 0x1821AF5E0
 	public static LTDescr alphaCanvas(CanvasGroup canvasGroup, float to, float time) { }
 
-	// RVA: 0x21AF500 Offset: 0x21ADB00 VA: 0x1821AF500
+	// RVA: 0x21AF7C0 Offset: 0x21ADDC0 VA: 0x1821AF7C0
 	public static LTDescr alphaVertex(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21B0C40 Offset: 0x21AF240 VA: 0x1821B0C40
+	// RVA: 0x21B0F00 Offset: 0x21AF500 VA: 0x1821B0F00
 	public static LTDescr color(GameObject gameObject, Color to, float time) { }
 
-	// RVA: 0x21BAB00 Offset: 0x21B9100 VA: 0x1821BAB00
+	// RVA: 0x21BADC0 Offset: 0x21B93C0 VA: 0x1821BADC0
 	public static LTDescr textColor(RectTransform rectTransform, Color to, float time) { }
 
-	// RVA: 0x21B0970 Offset: 0x21AEF70 VA: 0x1821B0970
+	// RVA: 0x21B0C30 Offset: 0x21AF230 VA: 0x1821B0C30
 	public static LTDescr colorText(RectTransform rectTransform, Color to, float time) { }
 
-	// RVA: 0x21B0EC0 Offset: 0x21AF4C0 VA: 0x1821B0EC0
+	// RVA: 0x21B1180 Offset: 0x21AF780 VA: 0x1821B1180
 	public static LTDescr delayedCall(float delayTime, Action callback) { }
 
-	// RVA: 0x21B0FD0 Offset: 0x21AF5D0 VA: 0x1821B0FD0
+	// RVA: 0x21B1290 Offset: 0x21AF890 VA: 0x1821B1290
 	public static LTDescr delayedCall(float delayTime, Action<object> callback) { }
 
-	// RVA: 0x21B10E0 Offset: 0x21AF6E0 VA: 0x1821B10E0
+	// RVA: 0x21B13A0 Offset: 0x21AF9A0 VA: 0x1821B13A0
 	public static LTDescr delayedCall(GameObject gameObject, float delayTime, Action callback) { }
 
-	// RVA: 0x21B0DC0 Offset: 0x21AF3C0 VA: 0x1821B0DC0
+	// RVA: 0x21B1080 Offset: 0x21AF680 VA: 0x1821B1080
 	public static LTDescr delayedCall(GameObject gameObject, float delayTime, Action<object> callback) { }
 
-	// RVA: 0x21B1AD0 Offset: 0x21B00D0 VA: 0x1821B1AD0
+	// RVA: 0x21B1D90 Offset: 0x21B0390 VA: 0x1821B1D90
 	public static LTDescr destroyAfter(LTRect rect, float delayTime) { }
 
-	// RVA: 0x21B6800 Offset: 0x21B4E00 VA: 0x1821B6800
+	// RVA: 0x21B6AC0 Offset: 0x21B50C0 VA: 0x1821B6AC0
 	public static LTDescr move(GameObject gameObject, Vector3 to, float time) { }
 
-	// RVA: 0x21B6E40 Offset: 0x21B5440 VA: 0x1821B6E40
+	// RVA: 0x21B7100 Offset: 0x21B5700 VA: 0x1821B7100
 	public static LTDescr move(GameObject gameObject, Vector2 to, float time) { }
 
-	// RVA: 0x21B68B0 Offset: 0x21B4EB0 VA: 0x1821B68B0
+	// RVA: 0x21B6B70 Offset: 0x21B5170 VA: 0x1821B6B70
 	public static LTDescr move(GameObject gameObject, Vector3[] to, float time) { }
 
-	// RVA: 0x21B6BF0 Offset: 0x21B51F0 VA: 0x1821B6BF0
+	// RVA: 0x21B6EB0 Offset: 0x21B54B0 VA: 0x1821B6EB0
 	public static LTDescr move(GameObject gameObject, LTBezierPath to, float time) { }
 
-	// RVA: 0x21B7150 Offset: 0x21B5750 VA: 0x1821B7150
+	// RVA: 0x21B7410 Offset: 0x21B5A10 VA: 0x1821B7410
 	public static LTDescr move(GameObject gameObject, LTSpline to, float time) { }
 
-	// RVA: 0x21B5FB0 Offset: 0x21B45B0 VA: 0x1821B5FB0
+	// RVA: 0x21B6270 Offset: 0x21B4870 VA: 0x1821B6270
 	public static LTDescr moveSpline(GameObject gameObject, Vector3[] to, float time) { }
 
-	// RVA: 0x21B5D60 Offset: 0x21B4360 VA: 0x1821B5D60
+	// RVA: 0x21B6020 Offset: 0x21B4620 VA: 0x1821B6020
 	public static LTDescr moveSpline(GameObject gameObject, LTSpline to, float time) { }
 
-	// RVA: 0x21B5AE0 Offset: 0x21B40E0 VA: 0x1821B5AE0
+	// RVA: 0x21B5DA0 Offset: 0x21B43A0 VA: 0x1821B5DA0
 	public static LTDescr moveSplineLocal(GameObject gameObject, Vector3[] to, float time) { }
 
-	// RVA: 0x21B6F60 Offset: 0x21B5560 VA: 0x1821B6F60
+	// RVA: 0x21B7220 Offset: 0x21B5820 VA: 0x1821B7220
 	public static LTDescr move(LTRect ltRect, Vector2 to, float time) { }
 
-	// RVA: 0x21B59D0 Offset: 0x21B3FD0 VA: 0x1821B59D0
+	// RVA: 0x21B5C90 Offset: 0x21B4290 VA: 0x1821B5C90
 	public static LTDescr moveMargin(LTRect ltRect, Vector2 to, float time) { }
 
-	// RVA: 0x21B6340 Offset: 0x21B4940 VA: 0x1821B6340
+	// RVA: 0x21B6600 Offset: 0x21B4C00 VA: 0x1821B6600
 	public static LTDescr moveX(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21B6530 Offset: 0x21B4B30 VA: 0x1821B6530
+	// RVA: 0x21B67F0 Offset: 0x21B4DF0 VA: 0x1821B67F0
 	public static LTDescr moveY(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21B6610 Offset: 0x21B4C10 VA: 0x1821B6610
+	// RVA: 0x21B68D0 Offset: 0x21B4ED0 VA: 0x1821B68D0
 	public static LTDescr moveZ(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21B5480 Offset: 0x21B3A80 VA: 0x1821B5480
+	// RVA: 0x21B5740 Offset: 0x21B3D40 VA: 0x1821B5740
 	public static LTDescr moveLocal(GameObject gameObject, Vector3 to, float time) { }
 
-	// RVA: 0x21B5140 Offset: 0x21B3740 VA: 0x1821B5140
+	// RVA: 0x21B5400 Offset: 0x21B3A00 VA: 0x1821B5400
 	public static LTDescr moveLocal(GameObject gameObject, Vector3[] to, float time) { }
 
-	// RVA: 0x21B4EA0 Offset: 0x21B34A0 VA: 0x1821B4EA0
+	// RVA: 0x21B5160 Offset: 0x21B3760 VA: 0x1821B5160
 	public static LTDescr moveLocalX(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21B4F80 Offset: 0x21B3580 VA: 0x1821B4F80
+	// RVA: 0x21B5240 Offset: 0x21B3840 VA: 0x1821B5240
 	public static LTDescr moveLocalY(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21B5060 Offset: 0x21B3660 VA: 0x1821B5060
+	// RVA: 0x21B5320 Offset: 0x21B3920 VA: 0x1821B5320
 	public static LTDescr moveLocalZ(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21B5530 Offset: 0x21B3B30 VA: 0x1821B5530
+	// RVA: 0x21B57F0 Offset: 0x21B3DF0 VA: 0x1821B57F0
 	public static LTDescr moveLocal(GameObject gameObject, LTBezierPath to, float time) { }
 
-	// RVA: 0x21B5780 Offset: 0x21B3D80 VA: 0x1821B5780
+	// RVA: 0x21B5A40 Offset: 0x21B4040 VA: 0x1821B5A40
 	public static LTDescr moveLocal(GameObject gameObject, LTSpline to, float time) { }
 
-	// RVA: 0x21B73A0 Offset: 0x21B59A0 VA: 0x1821B73A0
+	// RVA: 0x21B7660 Offset: 0x21B5C60 VA: 0x1821B7660
 	public static LTDescr move(GameObject gameObject, Transform to, float time) { }
 
-	// RVA: 0x21B9D20 Offset: 0x21B8320 VA: 0x1821B9D20
+	// RVA: 0x21B9FE0 Offset: 0x21B85E0 VA: 0x1821B9FE0
 	public static LTDescr rotate(GameObject gameObject, Vector3 to, float time) { }
 
-	// RVA: 0x21B9C20 Offset: 0x21B8220 VA: 0x1821B9C20
+	// RVA: 0x21B9EE0 Offset: 0x21B84E0 VA: 0x1821B9EE0
 	public static LTDescr rotate(LTRect ltRect, float to, float time) { }
 
-	// RVA: 0x21B9760 Offset: 0x21B7D60 VA: 0x1821B9760
+	// RVA: 0x21B9A20 Offset: 0x21B8020 VA: 0x1821B9A20
 	public static LTDescr rotateLocal(GameObject gameObject, Vector3 to, float time) { }
 
-	// RVA: 0x21B9810 Offset: 0x21B7E10 VA: 0x1821B9810
+	// RVA: 0x21B9AD0 Offset: 0x21B80D0 VA: 0x1821B9AD0
 	public static LTDescr rotateX(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21B98F0 Offset: 0x21B7EF0 VA: 0x1821B98F0
+	// RVA: 0x21B9BB0 Offset: 0x21B81B0 VA: 0x1821B9BB0
 	public static LTDescr rotateY(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21B99D0 Offset: 0x21B7FD0 VA: 0x1821B99D0
+	// RVA: 0x21B9C90 Offset: 0x21B8290 VA: 0x1821B9C90
 	public static LTDescr rotateZ(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21B9650 Offset: 0x21B7C50 VA: 0x1821B9650
+	// RVA: 0x21B9910 Offset: 0x21B7F10 VA: 0x1821B9910
 	public static LTDescr rotateAround(GameObject gameObject, Vector3 axis, float add, float time) { }
 
-	// RVA: 0x21B93F0 Offset: 0x21B79F0 VA: 0x1821B93F0
+	// RVA: 0x21B96B0 Offset: 0x21B7CB0 VA: 0x1821B96B0
 	public static LTDescr rotateAroundLocal(GameObject gameObject, Vector3 axis, float add, float time) { }
 
-	// RVA: 0x21BA2C0 Offset: 0x21B88C0 VA: 0x1821BA2C0
+	// RVA: 0x21BA580 Offset: 0x21B8B80 VA: 0x1821BA580
 	public static LTDescr scale(GameObject gameObject, Vector3 to, float time) { }
 
-	// RVA: 0x21BA1B0 Offset: 0x21B87B0 VA: 0x1821BA1B0
+	// RVA: 0x21BA470 Offset: 0x21B8A70 VA: 0x1821BA470
 	public static LTDescr scale(LTRect ltRect, Vector2 to, float time) { }
 
-	// RVA: 0x21B9F10 Offset: 0x21B8510 VA: 0x1821B9F10
+	// RVA: 0x21BA1D0 Offset: 0x21B87D0 VA: 0x1821BA1D0
 	public static LTDescr scaleX(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21B9FF0 Offset: 0x21B85F0 VA: 0x1821B9FF0
+	// RVA: 0x21BA2B0 Offset: 0x21B88B0 VA: 0x1821BA2B0
 	public static LTDescr scaleY(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21BA0D0 Offset: 0x21B86D0 VA: 0x1821BA0D0
+	// RVA: 0x21BA390 Offset: 0x21B8990 VA: 0x1821BA390
 	public static LTDescr scaleZ(GameObject gameObject, float to, float time) { }
 
-	// RVA: 0x21BB6A0 Offset: 0x21B9CA0 VA: 0x1821BB6A0
+	// RVA: 0x21BB960 Offset: 0x21B9F60 VA: 0x1821BB960
 	public static LTDescr value(GameObject gameObject, float from, float to, float time) { }
 
-	// RVA: 0x21BC0C0 Offset: 0x21BA6C0 VA: 0x1821BC0C0
+	// RVA: 0x21BC380 Offset: 0x21BA980 VA: 0x1821BC380
 	public static LTDescr value(float from, float to, float time) { }
 
-	// RVA: 0x21BBB60 Offset: 0x21BA160 VA: 0x1821BBB60
+	// RVA: 0x21BBE20 Offset: 0x21BA420 VA: 0x1821BBE20
 	public static LTDescr value(GameObject gameObject, Vector2 from, Vector2 to, float time) { }
 
-	// RVA: 0x21BC6C0 Offset: 0x21BACC0 VA: 0x1821BC6C0
+	// RVA: 0x21BC980 Offset: 0x21BAF80 VA: 0x1821BC980
 	public static LTDescr value(GameObject gameObject, Vector3 from, Vector3 to, float time) { }
 
-	// RVA: 0x21BB9A0 Offset: 0x21B9FA0 VA: 0x1821BB9A0
+	// RVA: 0x21BBC60 Offset: 0x21BA260 VA: 0x1821BBC60
 	public static LTDescr value(GameObject gameObject, Color from, Color to, float time) { }
 
-	// RVA: 0x21BC220 Offset: 0x21BA820 VA: 0x1821BC220
+	// RVA: 0x21BC4E0 Offset: 0x21BAAE0 VA: 0x1821BC4E0
 	public static LTDescr value(GameObject gameObject, Action<float> callOnUpdate, float from, float to, float time) { }
 
-	// RVA: 0x21BBF10 Offset: 0x21BA510 VA: 0x1821BBF10
+	// RVA: 0x21BC1D0 Offset: 0x21BA7D0 VA: 0x1821BC1D0
 	public static LTDescr value(GameObject gameObject, Action<float, float> callOnUpdateRatio, float from, float to, float time) { }
 
-	// RVA: 0x21BBCF0 Offset: 0x21BA2F0 VA: 0x1821BBCF0
+	// RVA: 0x21BBFB0 Offset: 0x21BA5B0 VA: 0x1821BBFB0
 	public static LTDescr value(GameObject gameObject, Action<Color> callOnUpdate, Color from, Color to, float time) { }
 
-	// RVA: 0x21BB480 Offset: 0x21B9A80 VA: 0x1821BB480
+	// RVA: 0x21BB740 Offset: 0x21B9D40 VA: 0x1821BB740
 	public static LTDescr value(GameObject gameObject, Action<Color, object> callOnUpdate, Color from, Color to, float time) { }
 
-	// RVA: 0x21BB800 Offset: 0x21B9E00 VA: 0x1821BB800
+	// RVA: 0x21BBAC0 Offset: 0x21BA0C0 VA: 0x1821BBAC0
 	public static LTDescr value(GameObject gameObject, Action<Vector2> callOnUpdate, Vector2 from, Vector2 to, float time) { }
 
-	// RVA: 0x21BC590 Offset: 0x21BAB90 VA: 0x1821BC590
+	// RVA: 0x21BC850 Offset: 0x21BAE50 VA: 0x1821BC850
 	public static LTDescr value(GameObject gameObject, Action<Vector3> callOnUpdate, Vector3 from, Vector3 to, float time) { }
 
-	// RVA: 0x21BC3D0 Offset: 0x21BA9D0 VA: 0x1821BC3D0
+	// RVA: 0x21BC690 Offset: 0x21BAC90 VA: 0x1821BC690
 	public static LTDescr value(GameObject gameObject, Action<float, object> callOnUpdate, float from, float to, float time) { }
 
-	// RVA: 0x21B11E0 Offset: 0x21AF7E0 VA: 0x1821B11E0
+	// RVA: 0x21B14A0 Offset: 0x21AFAA0 VA: 0x1821B14A0
 	public static LTDescr delayedSound(AudioClip audio, Vector3 pos, float volume) { }
 
-	// RVA: 0x21B1340 Offset: 0x21AF940 VA: 0x1821B1340
+	// RVA: 0x21B1600 Offset: 0x21AFC00 VA: 0x1821B1600
 	public static LTDescr delayedSound(GameObject gameObject, AudioClip audio, Vector3 pos, float volume) { }
 
-	// RVA: 0x21B7070 Offset: 0x21B5670 VA: 0x1821B7070
+	// RVA: 0x21B7330 Offset: 0x21B5930 VA: 0x1821B7330
 	public static LTDescr move(RectTransform rectTrans, Vector3 to, float time) { }
 
-	// RVA: 0x21B6230 Offset: 0x21B4830 VA: 0x1821B6230
+	// RVA: 0x21B64F0 Offset: 0x21B4AF0 VA: 0x1821B64F0
 	public static LTDescr moveX(RectTransform rectTrans, float to, float time) { }
 
-	// RVA: 0x21B6420 Offset: 0x21B4A20 VA: 0x1821B6420
+	// RVA: 0x21B66E0 Offset: 0x21B4CE0 VA: 0x1821B66E0
 	public static LTDescr moveY(RectTransform rectTrans, float to, float time) { }
 
-	// RVA: 0x21B66F0 Offset: 0x21B4CF0 VA: 0x1821B66F0
+	// RVA: 0x21B69B0 Offset: 0x21B4FB0 VA: 0x1821B69B0
 	public static LTDescr moveZ(RectTransform rectTrans, float to, float time) { }
 
-	// RVA: 0x21B9AB0 Offset: 0x21B80B0 VA: 0x1821B9AB0
+	// RVA: 0x21B9D70 Offset: 0x21B8370 VA: 0x1821B9D70
 	public static LTDescr rotate(RectTransform rectTrans, float to, float time) { }
 
-	// RVA: 0x21B9DD0 Offset: 0x21B83D0 VA: 0x1821B9DD0
+	// RVA: 0x21BA090 Offset: 0x21B8690 VA: 0x1821BA090
 	public static LTDescr rotate(RectTransform rectTrans, Vector3 to, float time) { }
 
-	// RVA: 0x21B9500 Offset: 0x21B7B00 VA: 0x1821B9500
+	// RVA: 0x21B97C0 Offset: 0x21B7DC0 VA: 0x1821B97C0
 	public static LTDescr rotateAround(RectTransform rectTrans, Vector3 axis, float to, float time) { }
 
-	// RVA: 0x21B92A0 Offset: 0x21B78A0 VA: 0x1821B92A0
+	// RVA: 0x21B9560 Offset: 0x21B7B60 VA: 0x1821B9560
 	public static LTDescr rotateAroundLocal(RectTransform rectTrans, Vector3 axis, float to, float time) { }
 
-	// RVA: 0x21BA370 Offset: 0x21B8970 VA: 0x1821BA370
+	// RVA: 0x21BA630 Offset: 0x21B8C30 VA: 0x1821BA630
 	public static LTDescr scale(RectTransform rectTrans, Vector3 to, float time) { }
 
-	// RVA: 0x21BA7D0 Offset: 0x21B8DD0 VA: 0x1821BA7D0
+	// RVA: 0x21BAA90 Offset: 0x21B9090 VA: 0x1821BAA90
 	public static LTDescr size(RectTransform rectTrans, Vector2 to, float time) { }
 
-	// RVA: 0x21AF800 Offset: 0x21ADE00 VA: 0x1821AF800
+	// RVA: 0x21AFAC0 Offset: 0x21AE0C0 VA: 0x1821AFAC0
 	public static LTDescr alpha(RectTransform rectTrans, float to, float time) { }
 
-	// RVA: 0x21B0AD0 Offset: 0x21AF0D0 VA: 0x1821B0AD0
+	// RVA: 0x21B0D90 Offset: 0x21AF390 VA: 0x1821B0D90
 	public static LTDescr color(RectTransform rectTrans, Color to, float time) { }
 
-	// RVA: 0x21BADD0 Offset: 0x21B93D0 VA: 0x1821BADD0
+	// RVA: 0x21BB090 Offset: 0x21B9690 VA: 0x1821BB090
 	public static float tweenOnCurve(LTDescr tweenDescr, float ratioPassed) { }
 
-	// RVA: 0x21BAC60 Offset: 0x21B9260 VA: 0x1821BAC60
+	// RVA: 0x21BAF20 Offset: 0x21B9520 VA: 0x1821BAF20
 	public static Vector3 tweenOnCurveVector(LTDescr tweenDescr, float ratioPassed) { }
 
-	// RVA: 0x21B3E00 Offset: 0x21B2400 VA: 0x1821B3E00
+	// RVA: 0x21B40C0 Offset: 0x21B26C0 VA: 0x1821B40C0
 	public static float easeOutQuadOpt(float start, float diff, float ratioPassed) { }
 
-	// RVA: 0x21B38D0 Offset: 0x21B1ED0 VA: 0x1821B38D0
+	// RVA: 0x21B3B90 Offset: 0x21B2190 VA: 0x1821B3B90
 	public static float easeInQuadOpt(float start, float diff, float ratioPassed) { }
 
-	// RVA: 0x21B3670 Offset: 0x21B1C70 VA: 0x1821B3670
+	// RVA: 0x21B3930 Offset: 0x21B1F30 VA: 0x1821B3930
 	public static float easeInOutQuadOpt(float start, float diff, float ratioPassed) { }
 
-	// RVA: 0x21B3460 Offset: 0x21B1A60 VA: 0x1821B3460
+	// RVA: 0x21B3720 Offset: 0x21B1D20 VA: 0x1821B3720
 	public static Vector3 easeInOutQuadOpt(Vector3 start, Vector3 diff, float ratioPassed) { }
 
-	// RVA: 0x21B4D60 Offset: 0x21B3360 VA: 0x1821B4D60
+	// RVA: 0x21B5020 Offset: 0x21B3620 VA: 0x1821B5020
 	public static float linear(float start, float end, float val) { }
 
-	// RVA: 0x21B07C0 Offset: 0x21AEDC0 VA: 0x1821B07C0
+	// RVA: 0x21B0A80 Offset: 0x21AF080 VA: 0x1821B0A80
 	public static float clerp(float start, float end, float val) { }
 
-	// RVA: 0x21BA8F0 Offset: 0x21B8EF0 VA: 0x1821BA8F0
+	// RVA: 0x21BABB0 Offset: 0x21B91B0 VA: 0x1821BABB0
 	public static float spring(float start, float end, float val) { }
 
-	// RVA: 0x21B38E0 Offset: 0x21B1EE0 VA: 0x1821B38E0
+	// RVA: 0x21B3BA0 Offset: 0x21B21A0 VA: 0x1821B3BA0
 	public static float easeInQuad(float start, float end, float val) { }
 
-	// RVA: 0x21B3E20 Offset: 0x21B2420 VA: 0x1821B3E20
+	// RVA: 0x21B40E0 Offset: 0x21B26E0 VA: 0x1821B40E0
 	public static float easeOutQuad(float start, float end, float val) { }
 
-	// RVA: 0x21B36D0 Offset: 0x21B1CD0 VA: 0x1821B36D0
+	// RVA: 0x21B3990 Offset: 0x21B1F90 VA: 0x1821B3990
 	public static float easeInOutQuad(float start, float end, float val) { }
 
-	// RVA: 0x21B3420 Offset: 0x21B1A20 VA: 0x1821B3420
+	// RVA: 0x21B36E0 Offset: 0x21B1CE0 VA: 0x1821B36E0
 	public static float easeInOutQuadOpt2(float start, float diffBy2, float val, float val2) { }
 
-	// RVA: 0x21B2B80 Offset: 0x21B1180 VA: 0x1821B2B80
+	// RVA: 0x21B2E40 Offset: 0x21B1440 VA: 0x1821B2E40
 	public static float easeInCubic(float start, float end, float val) { }
 
-	// RVA: 0x21B3BD0 Offset: 0x21B21D0 VA: 0x1821B3BD0
+	// RVA: 0x21B3E90 Offset: 0x21B2490 VA: 0x1821B3E90
 	public static float easeOutCubic(float start, float end, float val) { }
 
-	// RVA: 0x21B30B0 Offset: 0x21B16B0 VA: 0x1821B30B0
+	// RVA: 0x21B3370 Offset: 0x21B1970 VA: 0x1821B3370
 	public static float easeInOutCubic(float start, float end, float val) { }
 
-	// RVA: 0x21B3900 Offset: 0x21B1F00 VA: 0x1821B3900
+	// RVA: 0x21B3BC0 Offset: 0x21B21C0 VA: 0x1821B3BC0
 	public static float easeInQuart(float start, float end, float val) { }
 
-	// RVA: 0x21B3E50 Offset: 0x21B2450 VA: 0x1821B3E50
+	// RVA: 0x21B4110 Offset: 0x21B2710 VA: 0x1821B4110
 	public static float easeOutQuart(float start, float end, float val) { }
 
-	// RVA: 0x21B3740 Offset: 0x21B1D40 VA: 0x1821B3740
+	// RVA: 0x21B3A00 Offset: 0x21B2000 VA: 0x1821B3A00
 	public static float easeInOutQuart(float start, float end, float val) { }
 
-	// RVA: 0x21B3920 Offset: 0x21B1F20 VA: 0x1821B3920
+	// RVA: 0x21B3BE0 Offset: 0x21B21E0 VA: 0x1821B3BE0
 	public static float easeInQuint(float start, float end, float val) { }
 
-	// RVA: 0x21B3E90 Offset: 0x21B2490 VA: 0x1821B3E90
+	// RVA: 0x21B4150 Offset: 0x21B2750 VA: 0x1821B4150
 	public static float easeOutQuint(float start, float end, float val) { }
 
-	// RVA: 0x21B37B0 Offset: 0x21B1DB0 VA: 0x1821B37B0
+	// RVA: 0x21B3A70 Offset: 0x21B2070 VA: 0x1821B3A70
 	public static float easeInOutQuint(float start, float end, float val) { }
 
-	// RVA: 0x21B3940 Offset: 0x21B1F40 VA: 0x1821B3940
+	// RVA: 0x21B3C00 Offset: 0x21B2200 VA: 0x1821B3C00
 	public static float easeInSine(float start, float end, float val) { }
 
-	// RVA: 0x21B3ED0 Offset: 0x21B24D0 VA: 0x1821B3ED0
+	// RVA: 0x21B4190 Offset: 0x21B2790 VA: 0x1821B4190
 	public static float easeOutSine(float start, float end, float val) { }
 
-	// RVA: 0x21B3820 Offset: 0x21B1E20 VA: 0x1821B3820
+	// RVA: 0x21B3AE0 Offset: 0x21B20E0 VA: 0x1821B3AE0
 	public static float easeInOutSine(float start, float end, float val) { }
 
-	// RVA: 0x21B2D00 Offset: 0x21B1300 VA: 0x1821B2D00
+	// RVA: 0x21B2FC0 Offset: 0x21B15C0 VA: 0x1821B2FC0
 	public static float easeInExpo(float start, float end, float val) { }
 
-	// RVA: 0x21B3D50 Offset: 0x21B2350 VA: 0x1821B3D50
+	// RVA: 0x21B4010 Offset: 0x21B2610 VA: 0x1821B4010
 	public static float easeOutExpo(float start, float end, float val) { }
 
-	// RVA: 0x21B3310 Offset: 0x21B1910 VA: 0x1821B3310
+	// RVA: 0x21B35D0 Offset: 0x21B1BD0 VA: 0x1821B35D0
 	public static float easeInOutExpo(float start, float end, float val) { }
 
-	// RVA: 0x21B2AD0 Offset: 0x21B10D0 VA: 0x1821B2AD0
+	// RVA: 0x21B2D90 Offset: 0x21B1390 VA: 0x1821B2D90
 	public static float easeInCirc(float start, float end, float val) { }
 
-	// RVA: 0x21B3B30 Offset: 0x21B2130 VA: 0x1821B3B30
+	// RVA: 0x21B3DF0 Offset: 0x21B23F0 VA: 0x1821B3DF0
 	public static float easeOutCirc(float start, float end, float val) { }
 
-	// RVA: 0x21B2FB0 Offset: 0x21B15B0 VA: 0x1821B2FB0
+	// RVA: 0x21B3270 Offset: 0x21B1870 VA: 0x1821B3270
 	public static float easeInOutCirc(float start, float end, float val) { }
 
-	// RVA: 0x21B2A30 Offset: 0x21B1030 VA: 0x1821B2A30
+	// RVA: 0x21B2CF0 Offset: 0x21B12F0 VA: 0x1821B2CF0
 	public static float easeInBounce(float start, float end, float val) { }
 
-	// RVA: 0x21B3A30 Offset: 0x21B2030 VA: 0x1821B3A30
+	// RVA: 0x21B3CF0 Offset: 0x21B22F0 VA: 0x1821B3CF0
 	public static float easeOutBounce(float start, float end, float val) { }
 
-	// RVA: 0x21B2E40 Offset: 0x21B1440 VA: 0x1821B2E40
+	// RVA: 0x21B3100 Offset: 0x21B1700 VA: 0x1821B3100
 	public static float easeInOutBounce(float start, float end, float val) { }
 
-	// RVA: 0x21B29F0 Offset: 0x21B0FF0 VA: 0x1821B29F0
+	// RVA: 0x21B2CB0 Offset: 0x21B12B0 VA: 0x1821B2CB0
 	public static float easeInBack(float start, float end, float val, float overshoot = 1) { }
 
-	// RVA: 0x21B39E0 Offset: 0x21B1FE0 VA: 0x1821B39E0
+	// RVA: 0x21B3CA0 Offset: 0x21B22A0 VA: 0x1821B3CA0
 	public static float easeOutBack(float start, float end, float val, float overshoot = 1) { }
 
-	// RVA: 0x21B2DA0 Offset: 0x21B13A0 VA: 0x1821B2DA0
+	// RVA: 0x21B3060 Offset: 0x21B1660 VA: 0x1821B3060
 	public static float easeInOutBack(float start, float end, float val, float overshoot = 1) { }
 
-	// RVA: 0x21B2BA0 Offset: 0x21B11A0 VA: 0x1821B2BA0
+	// RVA: 0x21B2E60 Offset: 0x21B1460 VA: 0x1821B2E60
 	public static float easeInElastic(float start, float end, float val, float overshoot = 1, float period = 0,3) { }
 
-	// RVA: 0x21B3C00 Offset: 0x21B2200 VA: 0x1821B3C00
+	// RVA: 0x21B3EC0 Offset: 0x21B24C0 VA: 0x1821B3EC0
 	public static float easeOutElastic(float start, float end, float val, float overshoot = 1, float period = 0,3) { }
 
-	// RVA: 0x21B3110 Offset: 0x21B1710 VA: 0x1821B3110
+	// RVA: 0x21B33D0 Offset: 0x21B19D0 VA: 0x1821B33D0
 	public static float easeInOutElastic(float start, float end, float val, float overshoot = 1, float period = 0,3) { }
 
-	// RVA: 0x21AF0A0 Offset: 0x21AD6A0 VA: 0x1821AF0A0
+	// RVA: 0x21AF360 Offset: 0x21AD960 VA: 0x1821AF360
 	public static void addListener(int eventId, Action<LTEvent> callback) { }
 
-	// RVA: 0x21AEB10 Offset: 0x21AD110 VA: 0x1821AEB10
+	// RVA: 0x21AEDD0 Offset: 0x21AD3D0 VA: 0x1821AEDD0
 	public static void addListener(GameObject caller, int eventId, Action<LTEvent> callback) { }
 
-	// RVA: 0x21B84A0 Offset: 0x21B6AA0 VA: 0x1821B84A0
+	// RVA: 0x21B8760 Offset: 0x21B6D60 VA: 0x1821B8760
 	public static bool removeListener(int eventId, Action<LTEvent> callback) { }
 
-	// RVA: 0x21B8510 Offset: 0x21B6B10 VA: 0x1821B8510
+	// RVA: 0x21B87D0 Offset: 0x21B6DD0 VA: 0x1821B87D0
 	public static bool removeListener(int eventId) { }
 
-	// RVA: 0x21B81D0 Offset: 0x21B67D0 VA: 0x1821B81D0
+	// RVA: 0x21B8490 Offset: 0x21B6A90 VA: 0x1821B8490
 	public static bool removeListener(GameObject caller, int eventId, Action<LTEvent> callback) { }
 
-	// RVA: 0x21B1BF0 Offset: 0x21B01F0 VA: 0x1821B1BF0
+	// RVA: 0x21B1EB0 Offset: 0x21B04B0 VA: 0x1821B1EB0
 	public static void dispatchEvent(int eventId) { }
 
-	// RVA: 0x21B1C50 Offset: 0x21B0250 VA: 0x1821B1C50
+	// RVA: 0x21B1F10 Offset: 0x21B0510 VA: 0x1821B1F10
 	public static void dispatchEvent(int eventId, object data) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0x21AE3B0 Offset: 0x21AC9B0 VA: 0x1821AE3B0
+	// RVA: 0x21AE670 Offset: 0x21ACC70 VA: 0x1821AE670
 	private static void .cctor() { }
 
 }

@@ -5,10 +5,10 @@ public static class CertificateValidationHelper // TypeDefIndex: 1740
 
 	// Methods
 
-	// RVA: 0x1AB14C0 Offset: 0x1AAFAC0 VA: 0x181AB14C0
+	// RVA: 0x1AB1780 Offset: 0x1AAFD80 VA: 0x181AB1780
 	private static void .cctor() { }
 
-	// RVA: 0x1AB1450 Offset: 0x1AAFA50 VA: 0x181AB1450
+	// RVA: 0x1AB1710 Offset: 0x1AAFD10 VA: 0x181AB1710
 	internal static ICertificateValidator2 GetInternalValidator(MonoTlsSettings settings, MonoTlsProvider provider) { }
 
 }

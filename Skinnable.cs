@@ -23,13 +23,13 @@ public class Skinnable : ScriptableObject // TypeDefIndex: 7715
 
 	// Methods
 
-	// RVA: 0xE75940 Offset: 0xE73F40 VA: 0x180E75940
+	// RVA: 0xE75C00 Offset: 0xE74200 VA: 0x180E75C00
 	public static Skinnable FindForItem(string itemType) { }
 
-	// RVA: 0xE75880 Offset: 0xE73E80 VA: 0x180E75880
+	// RVA: 0xE75B40 Offset: 0xE74140 VA: 0x180E75B40
 	public static Skinnable FindForEntity(string entityName) { }
 
-	// RVA: 0xE75A00 Offset: 0xE74000 VA: 0x180E75A00
+	// RVA: 0xE75CC0 Offset: 0xE742C0 VA: 0x180E75CC0
 	public Material[] get_SourceMaterials() { }
 
 	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
@@ -45,7 +45,7 @@ public class Skinnable.Group // TypeDefIndex: 7716
 
 	// Methods
 
-	// RVA: 0xE735F0 Offset: 0xE71BF0 VA: 0x180E735F0
+	// RVA: 0xE738B0 Offset: 0xE71EB0 VA: 0x180E738B0
 	public void .ctor() { }
 
 }
@@ -59,7 +59,7 @@ private sealed class Skinnable.<>c__DisplayClass13_0 // TypeDefIndex: 7717
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xE80760 Offset: 0xE7ED60 VA: 0x180E80760
+	// RVA: 0xE80A20 Offset: 0xE7F020 VA: 0x180E80A20
 	internal bool <FindForItem>b__0(Skinnable x) { }
 
 }
@@ -73,7 +73,7 @@ private sealed class Skinnable.<>c__DisplayClass14_0 // TypeDefIndex: 7718
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xE807D0 Offset: 0xE7EDD0 VA: 0x180E807D0
+	// RVA: 0xE80A90 Offset: 0xE7F090 VA: 0x180E80A90
 	internal bool <FindForEntity>b__0(Skinnable x) { }
 
 }

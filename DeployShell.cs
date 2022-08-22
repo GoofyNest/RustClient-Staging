@@ -4,16 +4,16 @@ public class DeployShell : PrefabAttribute // TypeDefIndex: 9843
 
 	// Methods
 
-	// RVA: 0x973650 Offset: 0x971C50 VA: 0x180973650
+	// RVA: 0x973760 Offset: 0x971D60 VA: 0x180973760
 	public OBB WorldSpaceBounds(Transform transform) { }
 
-	// RVA: 0x973640 Offset: 0x971C40 VA: 0x180973640
+	// RVA: 0x973750 Offset: 0x971D50 VA: 0x180973750
 	public float LineOfSightPadding() { }
 
-	// RVA: 0x9735E0 Offset: 0x971BE0 VA: 0x1809735E0 Slot: 7
+	// RVA: 0x9736F0 Offset: 0x971CF0 VA: 0x1809736F0 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x973780 Offset: 0x971D80 VA: 0x180973780
+	// RVA: 0x973890 Offset: 0x971E90 VA: 0x180973890
 	public void .ctor() { }
 
 }

@@ -5,13 +5,13 @@ public class GhostSheetSystemSpaceUpdater : MonoBehaviour, IClientComponent // T
 
 	// Methods
 
-	// RVA: 0xC98D80 Offset: 0xC97380 VA: 0x180C98D80
+	// RVA: 0xC99040 Offset: 0xC97640 VA: 0x180C99040
 	public void Awake() { }
 
-	// RVA: 0xC98EF0 Offset: 0xC974F0 VA: 0x180C98EF0
+	// RVA: 0xC991B0 Offset: 0xC977B0 VA: 0x180C991B0
 	public void Update() { }
 
-	// RVA: 0xC98E40 Offset: 0xC97440 VA: 0x180C98E40
+	// RVA: 0xC99100 Offset: 0xC97700 VA: 0x180C99100
 	private void SetSimulateSpace(Transform transform, bool collisionEnabled) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

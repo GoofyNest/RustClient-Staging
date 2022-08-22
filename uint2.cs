@@ -8,7 +8,7 @@ public struct uint2 : IEquatable<uint2>, IFormattable // TypeDefIndex: 7114
 	// RVA: 0xF88D0 Offset: 0xF7CD0 VA: 0x1800F88D0
 	public void .ctor(uint x, uint y) { }
 
-	// RVA: 0x22B0840 Offset: 0x22AEE40 VA: 0x1822B0840
+	// RVA: 0x22B0B00 Offset: 0x22AF100 VA: 0x1822B0B00
 	public static uint2 op_Multiply(uint2 lhs, uint2 rhs) { }
 
 	// RVA: 0xF94A0 Offset: 0xF88A0 VA: 0x1800F94A0 Slot: 4

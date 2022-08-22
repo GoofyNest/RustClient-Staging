@@ -19,7 +19,7 @@ internal struct ComputeNewPlayerCompatibilityResult_t : ICallbackData // TypeDef
 	// RVA: 0x1E4760 Offset: 0x1E3B60 VA: 0x1801E4760 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x136E3A0 Offset: 0x136C9A0 VA: 0x18136E3A0
+	// RVA: 0x136E660 Offset: 0x136CC60 VA: 0x18136E660
 	private static void .cctor() { }
 
 }

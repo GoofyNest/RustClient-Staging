@@ -9,58 +9,58 @@ internal class GAEvents // TypeDefIndex: 5674
 
 	// Methods
 
-	// RVA: 0x13B5490 Offset: 0x13B3A90 VA: 0x1813B5490
+	// RVA: 0x13B5750 Offset: 0x13B3D50 VA: 0x1813B5750
 	private static GAEvents get_Instance() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	// RVA: 0x13B5140 Offset: 0x13B3740 VA: 0x1813B5140
+	// RVA: 0x13B5400 Offset: 0x13B3A00 VA: 0x1813B5400
 	public static void StopEventQueue() { }
 
-	// RVA: 0x13B3440 Offset: 0x13B1A40 VA: 0x1813B3440
+	// RVA: 0x13B3700 Offset: 0x13B1D00 VA: 0x1813B3700
 	public static void EnsureEventQueueIsRunning() { }
 
-	// RVA: 0x13B31A0 Offset: 0x13B17A0 VA: 0x1813B31A0
+	// RVA: 0x13B3460 Offset: 0x13B1A60 VA: 0x1813B3460
 	public static void AddSessionStartEvent() { }
 
-	// RVA: 0x13B2F70 Offset: 0x13B1570 VA: 0x1813B2F70
+	// RVA: 0x13B3230 Offset: 0x13B1830 VA: 0x1813B3230
 	public static void AddSessionEndEvent() { }
 
-	// RVA: 0x13B1690 Offset: 0x13AFC90 VA: 0x1813B1690
+	// RVA: 0x13B1950 Offset: 0x13AFF50 VA: 0x1813B1950
 	public static void AddBusinessEvent(string currency, int amount, string itemType, string itemId, string cartType, IDictionary<string, object> fields) { }
 
-	// RVA: 0x13B1F10 Offset: 0x13B0510 VA: 0x1813B1F10
+	// RVA: 0x13B21D0 Offset: 0x13B07D0 VA: 0x1813B21D0
 	public static void AddDesignEvent(string eventId, double value, bool sendValue, IDictionary<string, object> fields) { }
 
-	// RVA: 0x13B3AF0 Offset: 0x13B20F0 VA: 0x1813B3AF0
+	// RVA: 0x13B3DB0 Offset: 0x13B23B0 VA: 0x1813B3DB0
 	private static void ProcessEventQueue() { }
 
-	// RVA: 0x13B3C80 Offset: 0x13B2280 VA: 0x1813B3C80
+	// RVA: 0x13B3F40 Offset: 0x13B2540 VA: 0x1813B3F40
 	private static void ProcessEvents(string category, bool performCleanUp) { }
 
-	// RVA: 0x13B4BF0 Offset: 0x13B31F0 VA: 0x1813B4BF0
+	// RVA: 0x13B4EB0 Offset: 0x13B34B0 VA: 0x1813B4EB0
 	public static void ProcessEvents(EGAHTTPApiResponse responseEnum, JSONNode dataDict, string putbackSql, string deleteSql, int eventCount) { }
 
-	// RVA: 0x13B33F0 Offset: 0x13B19F0 VA: 0x1813B33F0
+	// RVA: 0x13B36B0 Offset: 0x13B1CB0 VA: 0x1813B36B0
 	private static void CleanupEvents() { }
 
-	// RVA: 0x13B3630 Offset: 0x13B1C30 VA: 0x1813B3630
+	// RVA: 0x13B38F0 Offset: 0x13B1EF0 VA: 0x1813B38F0
 	private static void FixMissingSessionEndEvents() { }
 
-	// RVA: 0x13B2580 Offset: 0x13B0B80 VA: 0x1813B2580
+	// RVA: 0x13B2840 Offset: 0x13B0E40 VA: 0x1813B2840
 	private static void AddEventToStore(JSONObject eventData) { }
 
-	// RVA: 0x13B2390 Offset: 0x13B0990 VA: 0x1813B2390
+	// RVA: 0x13B2650 Offset: 0x13B0C50 VA: 0x1813B2650
 	private static void AddDimensionsToEvent(JSONObject eventData) { }
 
-	// RVA: 0x13B2ED0 Offset: 0x13B14D0 VA: 0x1813B2ED0
+	// RVA: 0x13B3190 Offset: 0x13B1790 VA: 0x1813B3190
 	private static void AddFieldsToEvent(JSONObject eventData, JSONObject fields) { }
 
-	// RVA: 0x13B51F0 Offset: 0x13B37F0 VA: 0x1813B51F0
+	// RVA: 0x13B54B0 Offset: 0x13B3AB0 VA: 0x1813B54B0
 	private static void UpdateSessionTime() { }
 
-	// RVA: 0x13B5430 Offset: 0x13B3A30 VA: 0x1813B5430
+	// RVA: 0x13B56F0 Offset: 0x13B3CF0 VA: 0x1813B56F0
 	private static void .cctor() { }
 
 }

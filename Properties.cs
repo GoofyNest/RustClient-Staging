@@ -14,61 +14,61 @@ public class Properties // TypeDefIndex: 7055
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xFC8B10 Offset: 0xFC7110 VA: 0x180FC8B10
+	// RVA: 0xFC8DD0 Offset: 0xFC73D0 VA: 0x180FC8DD0
 	public void add_UpdateControlsFromValues(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xFC8BB0 Offset: 0xFC71B0 VA: 0x180FC8BB0
+	// RVA: 0xFC8E70 Offset: 0xFC7470 VA: 0x180FC8E70
 	public void remove_UpdateControlsFromValues(Action value) { }
 
-	// RVA: 0xFC8A60 Offset: 0xFC7060 VA: 0x180FC8A60
+	// RVA: 0xFC8D20 Offset: 0xFC7320 VA: 0x180FC8D20
 	public void .ctor(object Parent, RectTransform Canvas) { }
 
-	// RVA: 0xFC73B0 Offset: 0xFC59B0 VA: 0x180FC73B0
+	// RVA: 0xFC7670 Offset: 0xFC5C70 VA: 0x180FC7670
 	public void CreateControls() { }
 
-	// RVA: 0xFC6BC0 Offset: 0xFC51C0 VA: 0x180FC6BC0
+	// RVA: 0xFC6E80 Offset: 0xFC5480 VA: 0x180FC6E80
 	private void AddControl(RustControl ctrl, LabelAttribute label) { }
 
-	// RVA: 0xFC71B0 Offset: 0xFC57B0 VA: 0x180FC71B0
+	// RVA: 0xFC7470 Offset: 0xFC5A70 VA: 0x180FC7470
 	private bool CreateControl(FieldInfo f) { }
 
-	// RVA: 0xFC7820 Offset: 0xFC5E20 VA: 0x180FC7820
+	// RVA: 0xFC7AE0 Offset: 0xFC60E0 VA: 0x180FC7AE0
 	private bool CreateReadOnlyControl(FieldInfo f) { }
 
-	// RVA: 0xFC7B50 Offset: 0xFC6150 VA: 0x180FC7B50
+	// RVA: 0xFC7E10 Offset: 0xFC6410 VA: 0x180FC7E10
 	private bool CreateStringControl(FieldInfo f) { }
 
-	// RVA: 0xFC6EE0 Offset: 0xFC54E0 VA: 0x180FC6EE0
+	// RVA: 0xFC71A0 Offset: 0xFC57A0 VA: 0x180FC71A0
 	private bool CreateBooleanControl(FieldInfo f) { }
 
-	// RVA: 0xFC7450 Offset: 0xFC5A50 VA: 0x180FC7450
+	// RVA: 0xFC7710 Offset: 0xFC5D10 VA: 0x180FC7710
 	private bool CreateNumericControl(FieldInfo f) { }
 
-	// RVA: 0xFC8A40 Offset: 0xFC7040 VA: 0x180FC8A40
+	// RVA: 0xFC8D00 Offset: 0xFC7300 VA: 0x180FC8D00
 	public void SyncControls() { }
 
-	// RVA: 0xFC7EA0 Offset: 0xFC64A0 VA: 0x180FC7EA0
+	// RVA: 0xFC8160 Offset: 0xFC6760 VA: 0x180FC8160
 	public Dictionary<string, object> GetValues() { }
 
-	// RVA: 0xFC88C0 Offset: 0xFC6EC0 VA: 0x180FC88C0
+	// RVA: 0xFC8B80 Offset: 0xFC7180 VA: 0x180FC8B80
 	public void SetValues(Dictionary<string, object> d) { }
 
-	// RVA: 0xFC8270 Offset: 0xFC6870 VA: 0x180FC8270
+	// RVA: 0xFC8530 Offset: 0xFC6B30 VA: 0x180FC8530
 	public void SetValues(Dictionary<string, object> a, Dictionary<string, object> b, float delta) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x82BC90 Offset: 0x82A290 VA: 0x18082BC90
+	// RVA: 0x82BDA0 Offset: 0x82A3A0 VA: 0x18082BDA0
 	public bool get_IsDirty() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x82BCC0 Offset: 0x82A2C0 VA: 0x18082BCC0
+	// RVA: 0x82BDD0 Offset: 0x82A3D0 VA: 0x18082BDD0
 	public void set_IsDirty(bool value) { }
 
-	// RVA: 0xFC8260 Offset: 0xFC6860 VA: 0x180FC8260
+	// RVA: 0xFC8520 Offset: 0xFC6B20 VA: 0x180FC8520
 	private void MarkDirty() { }
 
-	// RVA: 0xFC8040 Offset: 0xFC6640 VA: 0x180FC8040
+	// RVA: 0xFC8300 Offset: 0xFC6900 VA: 0x180FC8300
 	public void Load(JProperty entry) { }
 
 }
@@ -84,7 +84,7 @@ private sealed class Properties.<>c__DisplayClass10_0 // TypeDefIndex: 7056
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFD84F0 Offset: 0xFD6AF0 VA: 0x180FD84F0
+	// RVA: 0xFD87B0 Offset: 0xFD6DB0 VA: 0x180FD87B0
 	internal void <CreateReadOnlyControl>b__0() { }
 
 }
@@ -99,7 +99,7 @@ private sealed class Properties.<>c__DisplayClass11_0 // TypeDefIndex: 7057
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFD8580 Offset: 0xFD6B80 VA: 0x180FD8580
+	// RVA: 0xFD8840 Offset: 0xFD6E40 VA: 0x180FD8840
 	internal void <CreateStringControl>b__1(Option x) { }
 
 }
@@ -114,7 +114,7 @@ private sealed class Properties.<>c__DisplayClass11_1 // TypeDefIndex: 7058
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFD85D0 Offset: 0xFD6BD0 VA: 0x180FD85D0
+	// RVA: 0xFD8890 Offset: 0xFD6E90 VA: 0x180FD8890
 	internal void <CreateStringControl>b__2() { }
 
 }
@@ -126,13 +126,13 @@ private sealed class Properties.<>c // TypeDefIndex: 7059
 
 	// Methods
 
-	// RVA: 0xFD8F50 Offset: 0xFD7550 VA: 0x180FD8F50
+	// RVA: 0xFD9210 Offset: 0xFD7810 VA: 0x180FD9210
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFD83C0 Offset: 0xFD69C0 VA: 0x180FD83C0
+	// RVA: 0xFD8680 Offset: 0xFD6C80 VA: 0x180FD8680
 	internal Option <CreateStringControl>b__11_0(OptionAttribute x) { }
 
 }
@@ -148,10 +148,10 @@ private sealed class Properties.<>c__DisplayClass12_0 // TypeDefIndex: 7060
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFD88D0 Offset: 0xFD6ED0 VA: 0x180FD88D0
+	// RVA: 0xFD8B90 Offset: 0xFD7190 VA: 0x180FD8B90
 	internal void <CreateBooleanControl>b__0(bool x) { }
 
-	// RVA: 0xFD8970 Offset: 0xFD6F70 VA: 0x180FD8970
+	// RVA: 0xFD8C30 Offset: 0xFD7230 VA: 0x180FD8C30
 	internal void <CreateBooleanControl>b__1() { }
 
 }
@@ -166,7 +166,7 @@ private sealed class Properties.<>c__DisplayClass13_0 // TypeDefIndex: 7061
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFD8A20 Offset: 0xFD7020 VA: 0x180FD8A20
+	// RVA: 0xFD8CE0 Offset: 0xFD72E0 VA: 0x180FD8CE0
 	internal void <CreateNumericControl>b__0(float x) { }
 
 }
@@ -181,7 +181,7 @@ private sealed class Properties.<>c__DisplayClass13_1 // TypeDefIndex: 7062
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFD8AC0 Offset: 0xFD70C0 VA: 0x180FD8AC0
+	// RVA: 0xFD8D80 Offset: 0xFD7380 VA: 0x180FD8D80
 	internal void <CreateNumericControl>b__1() { }
 
 }

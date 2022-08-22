@@ -6,16 +6,16 @@ internal abstract class Base64Encoder // TypeDefIndex: 1813
 
 	// Methods
 
-	// RVA: 0x12DDBB0 Offset: 0x12DC1B0 VA: 0x1812DDBB0
+	// RVA: 0x12DDE70 Offset: 0x12DC470 VA: 0x1812DDE70
 	internal void .ctor() { }
 
 	// RVA: -1 Offset: -1 Slot: 4
 	internal abstract void WriteChars(char[] chars, int index, int count);
 
-	// RVA: 0x12DD760 Offset: 0x12DBD60 VA: 0x1812DD760
+	// RVA: 0x12DDA20 Offset: 0x12DC020 VA: 0x1812DDA20
 	internal void Encode(byte[] buffer, int index, int count) { }
 
-	// RVA: 0x12DDAE0 Offset: 0x12DC0E0 VA: 0x1812DDAE0
+	// RVA: 0x12DDDA0 Offset: 0x12DC3A0 VA: 0x1812DDDA0
 	internal void Flush() { }
 
 }
@@ -29,16 +29,16 @@ internal class Base64Encoder // TypeDefIndex: 5917
 
 	// Methods
 
-	// RVA: 0x17FE1F0 Offset: 0x17FC7F0 VA: 0x1817FE1F0
+	// RVA: 0x17FE4B0 Offset: 0x17FCAB0 VA: 0x1817FE4B0
 	public void .ctor(TextWriter writer) { }
 
-	// RVA: 0x17FDD60 Offset: 0x17FC360 VA: 0x1817FDD60
+	// RVA: 0x17FE020 Offset: 0x17FC620 VA: 0x1817FE020
 	public void Encode(byte[] buffer, int index, int count) { }
 
-	// RVA: 0x17FE0F0 Offset: 0x17FC6F0 VA: 0x1817FE0F0
+	// RVA: 0x17FE3B0 Offset: 0x17FC9B0 VA: 0x1817FE3B0
 	public void Flush() { }
 
-	// RVA: 0x17FE1C0 Offset: 0x17FC7C0 VA: 0x1817FE1C0
+	// RVA: 0x17FE480 Offset: 0x17FCA80 VA: 0x1817FE480
 	private void WriteChars(char[] chars, int index, int count) { }
 
 }

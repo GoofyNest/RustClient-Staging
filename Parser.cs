@@ -5,22 +5,22 @@ internal sealed class Parser // TypeDefIndex: 919
 
 	// Methods
 
-	// RVA: 0x17B4F50 Offset: 0x17B3550 VA: 0x1817B4F50
+	// RVA: 0x17B5210 Offset: 0x17B3810 VA: 0x1817B5210
 	internal SecurityElement GetTopElement() { }
 
-	// RVA: 0x17B4690 Offset: 0x17B2C90 VA: 0x1817B4690
+	// RVA: 0x17B4950 Offset: 0x17B2F50 VA: 0x1817B4950
 	private void GetRequiredSizes(TokenizerStream stream, ref int index) { }
 
-	// RVA: 0x17B44C0 Offset: 0x17B2AC0 VA: 0x1817B44C0
+	// RVA: 0x17B4780 Offset: 0x17B2D80 VA: 0x1817B4780
 	private int DetermineFormat(TokenizerStream stream) { }
 
-	// RVA: 0x17B4F80 Offset: 0x17B3580 VA: 0x1817B4F80
+	// RVA: 0x17B5240 Offset: 0x17B3840 VA: 0x1817B5240
 	private void ParseContents() { }
 
-	// RVA: 0x17B53F0 Offset: 0x17B39F0 VA: 0x1817B53F0
+	// RVA: 0x17B56B0 Offset: 0x17B3CB0 VA: 0x1817B56B0
 	private void .ctor(Tokenizer t) { }
 
-	// RVA: 0x17B52F0 Offset: 0x17B38F0 VA: 0x1817B52F0
+	// RVA: 0x17B55B0 Offset: 0x17B3BB0 VA: 0x1817B55B0
 	internal void .ctor(string input) { }
 
 }
@@ -55,16 +55,16 @@ internal sealed class Parser // TypeDefIndex: 2265
 
 	// Methods
 
-	// RVA: 0xB16740 Offset: 0xB14D40 VA: 0x180B16740
+	// RVA: 0xB16A00 Offset: 0xB15000 VA: 0x180B16A00
 	public void .ctor(SchemaType schemaType, XmlNameTable nameTable, SchemaNames schemaNames, ValidationEventHandler eventHandler) { }
 
-	// RVA: 0xB15EB0 Offset: 0xB144B0 VA: 0x180B15EB0
+	// RVA: 0xB16170 Offset: 0xB14770 VA: 0x180B16170
 	public SchemaType Parse(XmlReader reader, string targetNamespace) { }
 
-	// RVA: 0xB16240 Offset: 0xB14840 VA: 0x180B16240
+	// RVA: 0xB16500 Offset: 0xB14B00 VA: 0x180B16500
 	public void StartParsing(XmlReader reader, string targetNamespace) { }
 
-	// RVA: 0xB14BD0 Offset: 0xB131D0 VA: 0x180B14BD0
+	// RVA: 0xB14E90 Offset: 0xB13490 VA: 0x180B14E90
 	private bool CheckSchemaRoot(SchemaType rootType, out string code) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
@@ -79,22 +79,22 @@ internal sealed class Parser // TypeDefIndex: 2265
 	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
 	public SchemaInfo get_XdrSchema() { }
 
-	// RVA: 0xB156B0 Offset: 0xB13CB0 VA: 0x180B156B0
+	// RVA: 0xB15970 Offset: 0xB13F70 VA: 0x180B15970
 	public bool ParseReaderNode() { }
 
-	// RVA: 0xB15F10 Offset: 0xB14510 VA: 0x180B15F10
+	// RVA: 0xB161D0 Offset: 0xB147D0 VA: 0x180B161D0
 	private void ProcessAppInfoDocMarkup(bool root) { }
 
-	// RVA: 0xB14FA0 Offset: 0xB135A0 VA: 0x180B14FA0
+	// RVA: 0xB15260 Offset: 0xB13860 VA: 0x180B15260
 	private XmlElement LoadElementNode(bool root) { }
 
-	// RVA: 0xB14CD0 Offset: 0xB132D0 VA: 0x180B14CD0
+	// RVA: 0xB14F90 Offset: 0xB13590 VA: 0x180B14F90
 	private XmlAttribute CreateXmlNsAttribute(string prefix, string value) { }
 
-	// RVA: 0xB14DF0 Offset: 0xB133F0 VA: 0x180B14DF0
+	// RVA: 0xB150B0 Offset: 0xB136B0 VA: 0x180B150B0
 	private XmlAttribute LoadAttributeNode() { }
 
-	// RVA: 0xB15440 Offset: 0xB13A40 VA: 0x180B15440
+	// RVA: 0xB15700 Offset: 0xB13D00 VA: 0x180B15700
 	private XmlEntityReference LoadEntityReferenceInAttribute() { }
 
 }
@@ -105,10 +105,10 @@ public static class Parser.Token // TypeDefIndex: 5790
 public static class Parser.Token // TypeDefIndex: 5790
 	// Methods
 
-	// RVA: 0x10974B0 Offset: 0x1095AB0 VA: 0x1810974B0
+	// RVA: 0x1097770 Offset: 0x1095D70 VA: 0x181097770
 	public static void Check(string s) { }
 
-	// RVA: 0x1097620 Offset: 0x1095C20 VA: 0x181097620
+	// RVA: 0x10978E0 Offset: 0x1095EE0 VA: 0x1810978E0
 	public static bool TryCheck(string s) { }
 
 }
@@ -119,27 +119,27 @@ public static class Parser.DateTime // TypeDefIndex: 5791
 
 	// Methods
 
-	// RVA: 0x1087B90 Offset: 0x1086190 VA: 0x181087B90
+	// RVA: 0x1087E50 Offset: 0x1086450 VA: 0x181087E50
 	public static bool TryParse(string input, out DateTimeOffset result) { }
 
-	// RVA: 0x1087C00 Offset: 0x1086200 VA: 0x181087C00
+	// RVA: 0x1087EC0 Offset: 0x10864C0 VA: 0x181087EC0
 	private static void .cctor() { }
 
 }
 
 private sealed class Parser.DateTime.<>c // TypeDefIndex: 5792
 {	// Fields
-	public static readonly Parser.DateTime.<>c <>9; // 0x2B10260
+	public static readonly Parser.DateTime.<>c <>9; // 0x2B112A0
 
 	// Methods
 
-	// RVA: 0x109AF40 Offset: 0x1099540 VA: 0x18109AF40
+	// RVA: 0x109B200 Offset: 0x1099800 VA: 0x18109B200
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x109AB80 Offset: 0x1099180 VA: 0x18109AB80
+	// RVA: 0x109AE40 Offset: 0x1099440 VA: 0x18109AE40
 	internal string <.cctor>b__2_0(object l) { }
 
 }
@@ -147,7 +147,7 @@ private sealed class Parser.DateTime.<>c // TypeDefIndex: 5792
 public static class Parser.EmailAddress // TypeDefIndex: 5793
 {	// Methods
 
-	// RVA: 0x1087CB0 Offset: 0x10862B0 VA: 0x181087CB0
+	// RVA: 0x1087F70 Offset: 0x1086570 VA: 0x181087F70
 	public static bool TryParse(string input, out string result) { }
 
 }
@@ -155,7 +155,7 @@ public static class Parser.EmailAddress // TypeDefIndex: 5793
 public static class Parser.Host // TypeDefIndex: 5794
 {	// Methods
 
-	// RVA: 0x1088720 Offset: 0x1086D20 VA: 0x181088720
+	// RVA: 0x10889E0 Offset: 0x1086FE0 VA: 0x1810889E0
 	public static bool TryParse(string input, out string result) { }
 
 }
@@ -163,7 +163,7 @@ public static class Parser.Host // TypeDefIndex: 5794
 public static class Parser.Int // TypeDefIndex: 5795
 {	// Methods
 
-	// RVA: 0x10909B0 Offset: 0x108EFB0 VA: 0x1810909B0
+	// RVA: 0x1090C70 Offset: 0x108F270 VA: 0x181090C70
 	public static bool TryParse(string input, out int result) { }
 
 }
@@ -171,7 +171,7 @@ public static class Parser.Int // TypeDefIndex: 5795
 public static class Parser.Long // TypeDefIndex: 5796
 {	// Methods
 
-	// RVA: 0x1091A00 Offset: 0x1090000 VA: 0x181091A00
+	// RVA: 0x1091CC0 Offset: 0x10902C0 VA: 0x181091CC0
 	public static bool TryParse(string input, out long result) { }
 
 }
@@ -182,10 +182,10 @@ public static class Parser.MD5 // TypeDefIndex: 5797
 
 	// Methods
 
-	// RVA: 0x1091A80 Offset: 0x1090080 VA: 0x181091A80
+	// RVA: 0x1091D40 Offset: 0x1090340 VA: 0x181091D40
 	public static bool TryParse(string input, out byte[] result) { }
 
-	// RVA: 0x1091B20 Offset: 0x1090120 VA: 0x181091B20
+	// RVA: 0x1091DE0 Offset: 0x10903E0 VA: 0x181091DE0
 	private static void .cctor() { }
 
 }
@@ -196,13 +196,13 @@ private sealed class Parser.MD5.<>c // TypeDefIndex: 5798
 
 	// Methods
 
-	// RVA: 0x109AFA0 Offset: 0x10995A0 VA: 0x18109AFA0
+	// RVA: 0x109B260 Offset: 0x1099860 VA: 0x18109B260
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x109AC20 Offset: 0x1099220 VA: 0x18109AC20
+	// RVA: 0x109AEE0 Offset: 0x10994E0 VA: 0x18109AEE0
 	internal string <.cctor>b__2_0(object l) { }
 
 }
@@ -210,7 +210,7 @@ private sealed class Parser.MD5.<>c // TypeDefIndex: 5798
 public static class Parser.TimeSpanSeconds // TypeDefIndex: 5799
 {	// Methods
 
-	// RVA: 0x1097390 Offset: 0x1095990 VA: 0x181097390
+	// RVA: 0x1097650 Offset: 0x1095C50 VA: 0x181097650
 	public static bool TryParse(string input, out TimeSpan result) { }
 
 }
@@ -218,7 +218,7 @@ public static class Parser.TimeSpanSeconds // TypeDefIndex: 5799
 public static class Parser.Uri // TypeDefIndex: 5800
 {	// Methods
 
-	// RVA: 0x109B000 Offset: 0x1099600 VA: 0x18109B000
+	// RVA: 0x109B2C0 Offset: 0x10998C0 VA: 0x18109B2C0
 	public static bool TryParse(string input, out Uri result) { }
 
 }

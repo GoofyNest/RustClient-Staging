@@ -9,13 +9,13 @@ internal static class Platform // TypeDefIndex: 2597
 
 	// Methods
 
-	// RVA: 0x117C900 Offset: 0x117AF00 VA: 0x18117C900
+	// RVA: 0x117CBC0 Offset: 0x117B1C0 VA: 0x18117CBC0
 	private static extern int uname(IntPtr buf) { }
 
-	// RVA: 0x117C650 Offset: 0x117AC50 VA: 0x18117C650
+	// RVA: 0x117C910 Offset: 0x117AF10 VA: 0x18117C910
 	private static void CheckOS() { }
 
-	// RVA: 0x117C880 Offset: 0x117AE80 VA: 0x18117C880
+	// RVA: 0x117CB40 Offset: 0x117B140 VA: 0x18117CB40
 	public static bool get_IsMacOS() { }
 
 }

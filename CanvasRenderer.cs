@@ -15,100 +15,100 @@ public sealed class CanvasRenderer : Component // TypeDefIndex: 4732
 
 	// Methods
 
-	// RVA: 0x2308920 Offset: 0x2306F20 VA: 0x182308920
+	// RVA: 0x2308BE0 Offset: 0x23071E0 VA: 0x182308BE0
 	public void set_hasPopInstruction(bool value) { }
 
-	// RVA: 0x2308890 Offset: 0x2306E90 VA: 0x182308890
+	// RVA: 0x2308B50 Offset: 0x2307150 VA: 0x182308B50
 	public int get_materialCount() { }
 
-	// RVA: 0x2308970 Offset: 0x2306F70 VA: 0x182308970
+	// RVA: 0x2308C30 Offset: 0x2307230 VA: 0x182308C30
 	public void set_materialCount(int value) { }
 
-	// RVA: 0x23089B0 Offset: 0x2306FB0 VA: 0x1823089B0
+	// RVA: 0x2308C70 Offset: 0x2307270 VA: 0x182308C70
 	public void set_popMaterialCount(int value) { }
 
-	// RVA: 0x23087D0 Offset: 0x2306DD0 VA: 0x1823087D0
+	// RVA: 0x2308A90 Offset: 0x2307090 VA: 0x182308A90
 	public int get_absoluteDepth() { }
 
-	// RVA: 0x2308850 Offset: 0x2306E50 VA: 0x182308850
+	// RVA: 0x2308B10 Offset: 0x2307110 VA: 0x182308B10
 	public bool get_hasMoved() { }
 
-	// RVA: 0x2308810 Offset: 0x2306E10 VA: 0x182308810
+	// RVA: 0x2308AD0 Offset: 0x23070D0 VA: 0x182308AD0
 	public bool get_cull() { }
 
-	// RVA: 0x23088D0 Offset: 0x2306ED0 VA: 0x1823088D0
+	// RVA: 0x2308B90 Offset: 0x2307190 VA: 0x182308B90
 	public void set_cull(bool value) { }
 
-	// RVA: 0x23083E0 Offset: 0x23069E0 VA: 0x1823083E0
+	// RVA: 0x23086A0 Offset: 0x2306CA0 VA: 0x1823086A0
 	public void SetColor(Color color) { }
 
-	// RVA: 0x23081D0 Offset: 0x23067D0 VA: 0x1823081D0
+	// RVA: 0x2308490 Offset: 0x2306A90 VA: 0x182308490
 	public Color GetColor() { }
 
-	// RVA: 0x2308130 Offset: 0x2306730 VA: 0x182308130
+	// RVA: 0x23083F0 Offset: 0x23069F0 VA: 0x1823083F0
 	public void EnableRectClipping(Rect rect) { }
 
-	// RVA: 0x23080A0 Offset: 0x23066A0 VA: 0x1823080A0
+	// RVA: 0x2308360 Offset: 0x2306960 VA: 0x182308360
 	public void DisableRectClipping() { }
 
-	// RVA: 0x2308430 Offset: 0x2306A30 VA: 0x182308430
+	// RVA: 0x23086F0 Offset: 0x2306CF0 VA: 0x1823086F0
 	public void SetMaterial(Material material, int index) { }
 
-	// RVA: 0x2308260 Offset: 0x2306860 VA: 0x182308260
+	// RVA: 0x2308520 Offset: 0x2306B20 VA: 0x182308520
 	public Material GetMaterial(int index) { }
 
-	// RVA: 0x2308600 Offset: 0x2306C00 VA: 0x182308600
+	// RVA: 0x23088C0 Offset: 0x2306EC0 VA: 0x1823088C0
 	public void SetPopMaterial(Material material, int index) { }
 
-	// RVA: 0x2308660 Offset: 0x2306C60 VA: 0x182308660
+	// RVA: 0x2308920 Offset: 0x2306F20 VA: 0x182308920
 	public void SetTexture(Texture texture) { }
 
-	// RVA: 0x23082A0 Offset: 0x23068A0 VA: 0x1823082A0
+	// RVA: 0x2308560 Offset: 0x2306B60 VA: 0x182308560
 	public void SetAlphaTexture(Texture texture) { }
 
-	// RVA: 0x23085B0 Offset: 0x2306BB0 VA: 0x1823085B0
+	// RVA: 0x2308870 Offset: 0x2306E70 VA: 0x182308870
 	public void SetMesh(Mesh mesh) { }
 
-	// RVA: 0x2307FF0 Offset: 0x23065F0 VA: 0x182307FF0
+	// RVA: 0x23082B0 Offset: 0x23068B0 VA: 0x1823082B0
 	public void Clear() { }
 
-	// RVA: 0x23082F0 Offset: 0x23068F0 VA: 0x1823082F0
+	// RVA: 0x23085B0 Offset: 0x2306BB0 VA: 0x1823085B0
 	public void SetAlpha(float alpha) { }
 
-	// RVA: 0x2308490 Offset: 0x2306A90 VA: 0x182308490
+	// RVA: 0x2308750 Offset: 0x2306D50 VA: 0x182308750
 	public void SetMaterial(Material material, Texture texture) { }
 
-	// RVA: 0x2308220 Offset: 0x2306820 VA: 0x182308220
+	// RVA: 0x23084E0 Offset: 0x2306AE0 VA: 0x1823084E0
 	public Material GetMaterial() { }
 
-	// RVA: 0x2308700 Offset: 0x2306D00 VA: 0x182308700
+	// RVA: 0x23089C0 Offset: 0x2306FC0 VA: 0x1823089C0
 	public static void SplitUIVertexStreams(List<UIVertex> verts, List<Vector3> positions, List<Color32> colors, List<Vector2> uv0S, List<Vector2> uv1S, List<Vector2> uv2S, List<Vector2> uv3S, List<Vector3> normals, List<Vector4> tangents, List<int> indices) { }
 
-	// RVA: 0x2308030 Offset: 0x2306630 VA: 0x182308030
+	// RVA: 0x23082F0 Offset: 0x23068F0 VA: 0x1823082F0
 	public static void CreateUIVertexStream(List<UIVertex> verts, List<Vector3> positions, List<Color32> colors, List<Vector2> uv0S, List<Vector2> uv1S, List<Vector2> uv2S, List<Vector2> uv3S, List<Vector3> normals, List<Vector4> tangents, List<int> indices) { }
 
-	// RVA: 0x2307F80 Offset: 0x2306580 VA: 0x182307F80
+	// RVA: 0x2308240 Offset: 0x2306840 VA: 0x182308240
 	public static void AddUIVertexStream(List<UIVertex> verts, List<Vector3> positions, List<Color32> colors, List<Vector2> uv0S, List<Vector2> uv1S, List<Vector2> uv2S, List<Vector2> uv3S, List<Vector3> normals, List<Vector4> tangents) { }
 
 	[StaticAccessorAttribute] // RVA: 0xA4B60 Offset: 0xA3F60 VA: 0x1800A4B60
-	// RVA: 0x23086B0 Offset: 0x2306CB0 VA: 0x1823086B0
+	// RVA: 0x2308970 Offset: 0x2306F70 VA: 0x182308970
 	private static void SplitIndicesStreamsInternal(object verts, object indices) { }
 
 	[StaticAccessorAttribute] // RVA: 0xA4B60 Offset: 0xA3F60 VA: 0x1800A4B60
-	// RVA: 0x2307F80 Offset: 0x2306580 VA: 0x182307F80
+	// RVA: 0x2308240 Offset: 0x2306840 VA: 0x182308240
 	private static void SplitUIVertexStreamsInternal(object verts, object positions, object colors, object uv0S, object uv1S, object uv2S, object uv3S, object normals, object tangents) { }
 
 	[StaticAccessorAttribute] // RVA: 0xA4B60 Offset: 0xA3F60 VA: 0x1800A4B60
-	// RVA: 0x2308030 Offset: 0x2306630 VA: 0x182308030
+	// RVA: 0x23082F0 Offset: 0x23068F0 VA: 0x1823082F0
 	private static void CreateUIVertexStreamInternal(object verts, object positions, object colors, object uv0S, object uv1S, object uv2S, object uv3S, object normals, object tangents, object indices) { }
 
-	// RVA: 0x2308390 Offset: 0x2306990 VA: 0x182308390
+	// RVA: 0x2308650 Offset: 0x2306C50 VA: 0x182308650
 	private void SetColor_Injected(ref Color color) { }
 
-	// RVA: 0x2308180 Offset: 0x2306780 VA: 0x182308180
+	// RVA: 0x2308440 Offset: 0x2306A40 VA: 0x182308440
 	private void GetColor_Injected(out Color ret) { }
 
-	// RVA: 0x23080E0 Offset: 0x23066E0 VA: 0x1823080E0
+	// RVA: 0x23083A0 Offset: 0x23069A0 VA: 0x1823083A0
 	private void EnableRectClipping_Injected(ref Rect rect) { }
 
 }

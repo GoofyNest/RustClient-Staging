@@ -4,7 +4,7 @@ internal static class CallbackTypeFactory // TypeDefIndex: 5114
 
 	// Methods
 
-	// RVA: 0x136C240 Offset: 0x136A840 VA: 0x18136C240
+	// RVA: 0x136C500 Offset: 0x136AB00 VA: 0x18136C500
 	private static void .cctor() { }
 
 }

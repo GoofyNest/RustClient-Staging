@@ -9,7 +9,7 @@ public sealed class FixedBufferAttribute : Attribute // TypeDefIndex: 1306
 
 	// Methods
 
-	// RVA: 0xFE7540 Offset: 0xFE5B40 VA: 0x180FE7540
+	// RVA: 0xFE7800 Offset: 0xFE5E00 VA: 0x180FE7800
 	public void .ctor(Type elementType, int length) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0

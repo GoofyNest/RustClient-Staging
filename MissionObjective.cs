@@ -62,7 +62,7 @@ public class MissionObjective_Move : MissionObjective // TypeDefIndex: 10224
 
 	// Methods
 
-	// RVA: 0x7681E0 Offset: 0x7667E0 VA: 0x1807681E0
+	// RVA: 0x7682F0 Offset: 0x7668F0 VA: 0x1807682F0
 	public void .ctor() { }
 
 }

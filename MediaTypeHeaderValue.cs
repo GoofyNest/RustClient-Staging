@@ -10,46 +10,46 @@ public class MediaTypeHeaderValue : ICloneable // TypeDefIndex: 5784
 
 	// Methods
 
-	// RVA: 0x1092440 Offset: 0x1090A40 VA: 0x181092440
+	// RVA: 0x1092700 Offset: 0x1090D00 VA: 0x181092700
 	public void .ctor(string mediaType) { }
 
-	// RVA: 0x10921B0 Offset: 0x10907B0 VA: 0x1810921B0
+	// RVA: 0x1092470 Offset: 0x1090A70 VA: 0x181092470
 	protected void .ctor(MediaTypeHeaderValue source) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x1092580 Offset: 0x1090B80 VA: 0x181092580
+	// RVA: 0x1092840 Offset: 0x1090E40 VA: 0x181092840
 	public string get_CharSet() { }
 
-	// RVA: 0x1092700 Offset: 0x1090D00 VA: 0x181092700
+	// RVA: 0x10929C0 Offset: 0x1090FC0 VA: 0x1810929C0
 	public void set_CharSet(string value) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public string get_MediaType() { }
 
-	// RVA: 0x10928C0 Offset: 0x1090EC0 VA: 0x1810928C0
+	// RVA: 0x1092B80 Offset: 0x1091180 VA: 0x181092B80
 	public void set_MediaType(string value) { }
 
-	// RVA: 0x1092690 Offset: 0x1090C90 VA: 0x181092690
+	// RVA: 0x1092950 Offset: 0x1090F50 VA: 0x181092950
 	public ICollection<NameValueHeaderValue> get_Parameters() { }
 
-	// RVA: 0x1091D10 Offset: 0x1090310 VA: 0x181091D10 Slot: 4
+	// RVA: 0x1091FD0 Offset: 0x10905D0 VA: 0x181091FD0 Slot: 4
 	private object System.ICloneable.Clone() { }
 
-	// RVA: 0x1091BD0 Offset: 0x10901D0 VA: 0x181091BD0 Slot: 0
+	// RVA: 0x1091E90 Offset: 0x1090490 VA: 0x181091E90 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1091C90 Offset: 0x1090290 VA: 0x181091C90 Slot: 2
+	// RVA: 0x1091F50 Offset: 0x1090550 VA: 0x181091F50 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1091D70 Offset: 0x1090370 VA: 0x181091D70 Slot: 3
+	// RVA: 0x1092030 Offset: 0x1090630 VA: 0x181092030 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1092010 Offset: 0x1090610 VA: 0x181092010
+	// RVA: 0x10922D0 Offset: 0x10908D0 VA: 0x1810922D0
 	public static bool TryParse(string input, out MediaTypeHeaderValue parsedValue) { }
 
-	// RVA: 0x1091DD0 Offset: 0x10903D0 VA: 0x181091DD0
+	// RVA: 0x1092090 Offset: 0x1090690 VA: 0x181092090
 	internal static Nullable<Token> TryParseMediaType(Lexer lexer, out string media) { }
 
 }
@@ -61,13 +61,13 @@ private sealed class MediaTypeHeaderValue.<>c // TypeDefIndex: 5785
 
 	// Methods
 
-	// RVA: 0x109AE80 Offset: 0x1099480 VA: 0x18109AE80
+	// RVA: 0x109B140 Offset: 0x1099740 VA: 0x18109B140
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x109ACB0 Offset: 0x10992B0 VA: 0x18109ACB0
+	// RVA: 0x109AF70 Offset: 0x1099570 VA: 0x18109AF70
 	internal bool <get_CharSet>b__6_0(NameValueHeaderValue l) { }
 
 }

@@ -5,10 +5,10 @@ internal static class MidiTimeSpanParser // TypeDefIndex: 7487
 
 	// Methods
 
-	// RVA: 0x21FC170 Offset: 0x21FA770 VA: 0x1821FC170
+	// RVA: 0x21FC430 Offset: 0x21FAA30 VA: 0x1821FC430
 	internal static ParsingResult TryParse(string input, out MidiTimeSpan timeSpan) { }
 
-	// RVA: 0x21FC360 Offset: 0x21FA960 VA: 0x1821FC360
+	// RVA: 0x21FC620 Offset: 0x21FAC20 VA: 0x1821FC620
 	private static void .cctor() { }
 
 }

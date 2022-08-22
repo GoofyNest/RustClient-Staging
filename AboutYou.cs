@@ -6,10 +6,10 @@ public class AboutYou : BaseMonoBehaviour // TypeDefIndex: 11084
 
 	// Methods
 
-	// RVA: 0xA969A0 Offset: 0xA94FA0 VA: 0x180A969A0
+	// RVA: 0xA96C60 Offset: 0xA95260 VA: 0x180A96C60
 	private void OnEnable() { }
 
-	// RVA: 0xA96740 Offset: 0xA94D40 VA: 0x180A96740
+	// RVA: 0xA96A00 Offset: 0xA95000 VA: 0x180A96A00
 	private void Init() { }
 
 	// RVA: 0x521BF0 Offset: 0x5201F0 VA: 0x180521BF0

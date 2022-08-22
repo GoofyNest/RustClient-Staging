@@ -16,19 +16,19 @@ public class Listener // TypeDefIndex: 7338
 
 	// Methods
 
-	// RVA: 0x23121B0 Offset: 0x23107B0 VA: 0x1823121B0
+	// RVA: 0x2312470 Offset: 0x2310A70 VA: 0x182312470
 	public void Start() { }
 
-	// RVA: 0x2312170 Offset: 0x2310770 VA: 0x182312170
+	// RVA: 0x2312430 Offset: 0x2310A30 VA: 0x182312430
 	public void Shutdown() { }
 
-	// RVA: 0x2311BB0 Offset: 0x23101B0 VA: 0x182311BB0
+	// RVA: 0x2311E70 Offset: 0x2310470 VA: 0x182311E70
 	public void BroadcastMessage(string str) { }
 
-	// RVA: 0x2311FC0 Offset: 0x23105C0 VA: 0x182311FC0
+	// RVA: 0x2312280 Offset: 0x2310880 VA: 0x182312280
 	public void SendMessage(int target, string str) { }
 
-	// RVA: 0x2312520 Offset: 0x2310B20 VA: 0x182312520
+	// RVA: 0x23127E0 Offset: 0x2310DE0 VA: 0x1823127E0
 	public void .ctor() { }
 
 }
@@ -43,7 +43,7 @@ private sealed class Listener.<>c__DisplayClass10_0 // TypeDefIndex: 7339
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2312630 Offset: 0x2310C30 VA: 0x182312630
+	// RVA: 0x23128F0 Offset: 0x2310EF0 VA: 0x1823128F0
 	internal void <Start>b__0(IWebSocketConnection socket) { }
 
 }
@@ -60,13 +60,13 @@ private sealed class Listener.<>c__DisplayClass10_1 // TypeDefIndex: 7340
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2312AD0 Offset: 0x23110D0 VA: 0x182312AD0
+	// RVA: 0x2312D90 Offset: 0x2311390 VA: 0x182312D90
 	internal void <Start>b__1() { }
 
-	// RVA: 0x2312BF0 Offset: 0x23111F0 VA: 0x182312BF0
+	// RVA: 0x2312EB0 Offset: 0x23114B0 VA: 0x182312EB0
 	internal void <Start>b__2() { }
 
-	// RVA: 0x2312D10 Offset: 0x2311310 VA: 0x182312D10
+	// RVA: 0x2312FD0 Offset: 0x23115D0 VA: 0x182312FD0
 	internal void <Start>b__3(string s) { }
 
 }
@@ -78,13 +78,13 @@ private sealed class Listener.<>c // TypeDefIndex: 7341
 
 	// Methods
 
-	// RVA: 0x2312D90 Offset: 0x2311390 VA: 0x182312D90
+	// RVA: 0x2313050 Offset: 0x2311650 VA: 0x182313050
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x23125C0 Offset: 0x2310BC0 VA: 0x1823125C0
+	// RVA: 0x2312880 Offset: 0x2310E80 VA: 0x182312880
 	internal void <Start>b__10_4(Exception e) { }
 
 }

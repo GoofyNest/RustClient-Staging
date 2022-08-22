@@ -6,67 +6,67 @@ public class CRC // TypeDefIndex: 6564
 
 	// Methods
 
-	// RVA: 0x1B9F780 Offset: 0x1B9DD80 VA: 0x181B9F780
+	// RVA: 0x1B9FA40 Offset: 0x1B9E040 VA: 0x181B9FA40
 	public static uint Compute32(uint crc, int i) { }
 
-	// RVA: 0x1B9EB60 Offset: 0x1B9D160 VA: 0x181B9EB60
+	// RVA: 0x1B9EE20 Offset: 0x1B9D420 VA: 0x181B9EE20
 	public static uint Compute32(uint crc, uint u) { }
 
-	// RVA: 0x1B9E5D0 Offset: 0x1B9CBD0 VA: 0x181B9E5D0
+	// RVA: 0x1B9E890 Offset: 0x1B9CE90 VA: 0x181B9E890
 	public static uint Compute32(uint crc, float f) { }
 
-	// RVA: 0x1B9F450 Offset: 0x1B9DA50 VA: 0x181B9F450
+	// RVA: 0x1B9F710 Offset: 0x1B9DD10 VA: 0x181B9F710
 	public static uint Compute32(uint crc, long i) { }
 
-	// RVA: 0x1B9E830 Offset: 0x1B9CE30 VA: 0x181B9E830
+	// RVA: 0x1B9EAF0 Offset: 0x1B9D0F0 VA: 0x181B9EAF0
 	public static uint Compute32(uint crc, ulong u) { }
 
-	// RVA: 0x1B9ED90 Offset: 0x1B9D390 VA: 0x181B9ED90
+	// RVA: 0x1B9F050 Offset: 0x1B9D650 VA: 0x181B9F050
 	public static uint Compute32(uint crc, double f) { }
 
-	// RVA: 0x1B9F270 Offset: 0x1B9D870 VA: 0x181B9F270
+	// RVA: 0x1B9F530 Offset: 0x1B9DB30 VA: 0x181B9F530
 	public static uint Compute32(uint crc, string str) { }
 
-	// RVA: 0x1B9F0E0 Offset: 0x1B9D6E0 VA: 0x181B9F0E0
+	// RVA: 0x1B9F3A0 Offset: 0x1B9D9A0 VA: 0x181B9F3A0
 	public static uint Compute32(string[] strs) { }
 
-	// RVA: 0x1BA0030 Offset: 0x1B9E630 VA: 0x181BA0030
+	// RVA: 0x1BA02F0 Offset: 0x1B9E8F0 VA: 0x181BA02F0
 	public static ulong Compute64(ulong crc, int i) { }
 
-	// RVA: 0x1BA0990 Offset: 0x1B9EF90 VA: 0x181BA0990
+	// RVA: 0x1BA0C50 Offset: 0x1B9F250 VA: 0x181BA0C50
 	public static ulong Compute64(ulong crc, uint u) { }
 
-	// RVA: 0x1BA05A0 Offset: 0x1B9EBA0 VA: 0x181BA05A0
+	// RVA: 0x1BA0860 Offset: 0x1B9EE60 VA: 0x181BA0860
 	public static ulong Compute64(ulong crc, float f) { }
 
-	// RVA: 0x1BA0270 Offset: 0x1B9E870 VA: 0x181BA0270
+	// RVA: 0x1BA0530 Offset: 0x1B9EB30 VA: 0x181BA0530
 	public static ulong Compute64(ulong crc, long i) { }
 
-	// RVA: 0x1B9FD00 Offset: 0x1B9E300 VA: 0x181B9FD00
+	// RVA: 0x1B9FFC0 Offset: 0x1B9E5C0 VA: 0x181B9FFC0
 	public static ulong Compute64(ulong crc, ulong u) { }
 
-	// RVA: 0x1B9F9B0 Offset: 0x1B9DFB0 VA: 0x181B9F9B0
+	// RVA: 0x1B9FC70 Offset: 0x1B9E270 VA: 0x181B9FC70
 	public static ulong Compute64(ulong crc, double f) { }
 
-	// RVA: 0x1BA0BD0 Offset: 0x1B9F1D0 VA: 0x181BA0BD0
+	// RVA: 0x1BA0E90 Offset: 0x1B9F490 VA: 0x181BA0E90
 	public static ulong Compute64(ulong crc, string str) { }
 
-	// RVA: 0x1BA0800 Offset: 0x1B9EE00 VA: 0x181BA0800
+	// RVA: 0x1BA0AC0 Offset: 0x1B9F0C0 VA: 0x181BA0AC0
 	public static ulong Compute64(string[] strs) { }
 
-	// RVA: 0x1BA0DC0 Offset: 0x1B9F3C0 VA: 0x181BA0DC0
+	// RVA: 0x1BA1080 Offset: 0x1B9F680 VA: 0x181BA1080
 	private static int GrowByteBuffer(int count) { }
 
-	// RVA: 0x1B9E3B0 Offset: 0x1B9C9B0 VA: 0x181B9E3B0
+	// RVA: 0x1B9E670 Offset: 0x1B9CC70 VA: 0x181B9E670
 	private static uint CRC32(uint value, byte[] buf, ulong size) { }
 
-	// RVA: 0x1B9E4C0 Offset: 0x1B9CAC0 VA: 0x181B9E4C0
+	// RVA: 0x1B9E780 Offset: 0x1B9CD80 VA: 0x181B9E780
 	private static ulong CRC64(ulong value, byte[] buf, ulong size) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1BA0E80 Offset: 0x1B9F480 VA: 0x181BA0E80
+	// RVA: 0x1BA1140 Offset: 0x1B9F740 VA: 0x181BA1140
 	private static void .cctor() { }
 
 }

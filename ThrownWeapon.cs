@@ -9,19 +9,19 @@ public class ThrownWeapon : AttackEntity // TypeDefIndex: 8654
 
 	// Methods
 
-	// RVA: 0x889890 Offset: 0x887E90 VA: 0x180889890 Slot: 35
+	// RVA: 0x8899A0 Offset: 0x887FA0 VA: 0x1808899A0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x8894C0 Offset: 0x887AC0 VA: 0x1808894C0 Slot: 157
+	// RVA: 0x8895D0 Offset: 0x887BD0 VA: 0x1808895D0 Slot: 157
 	public override Vector3 GetInheritedVelocity(BasePlayer player) { }
 
-	// RVA: 0x889510 Offset: 0x887B10 VA: 0x180889510 Slot: 138
+	// RVA: 0x889620 Offset: 0x887C20 VA: 0x180889620 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x889980 Offset: 0x887F80 VA: 0x180889980 Slot: 144
+	// RVA: 0x889A90 Offset: 0x888090 VA: 0x180889A90 Slot: 144
 	public override void OnViewmodelEvent(string name) { }
 
-	// RVA: 0x889990 Offset: 0x887F90 VA: 0x180889990
+	// RVA: 0x889AA0 Offset: 0x8880A0 VA: 0x180889AA0
 	public void .ctor() { }
 
 }

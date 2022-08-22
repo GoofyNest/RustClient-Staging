@@ -8,7 +8,7 @@ public sealed class UnmanagedFunctionPointerAttribute : Attribute // TypeDefInde
 
 	// Methods
 
-	// RVA: 0xB11110 Offset: 0xB0F710 VA: 0x180B11110
+	// RVA: 0xB113D0 Offset: 0xB0F9D0 VA: 0x180B113D0
 	public void .ctor(CallingConvention callingConvention) { }
 
 }

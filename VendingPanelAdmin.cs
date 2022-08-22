@@ -7,31 +7,31 @@ public class VendingPanelAdmin : UIDialog // TypeDefIndex: 8737
 
 	// Methods
 
-	// RVA: 0xADCBC0 Offset: 0xADB1C0 VA: 0x180ADCBC0 Slot: 8
+	// RVA: 0xADCE80 Offset: 0xADB480 VA: 0x180ADCE80 Slot: 8
 	public override void OpenDialog() { }
 
-	// RVA: 0xADCA60 Offset: 0xADB060 VA: 0x180ADCA60 Slot: 9
+	// RVA: 0xADCD20 Offset: 0xADB320 VA: 0x180ADCD20 Slot: 9
 	public override void CloseDialog() { }
 
-	// RVA: 0xADCA50 Offset: 0xADB050 VA: 0x180ADCA50
+	// RVA: 0xADCD10 Offset: 0xADB310 VA: 0x180ADCD10
 	public void Awake() { }
 
-	// RVA: 0xADCF40 Offset: 0xADB540 VA: 0x180ADCF40
+	// RVA: 0xADD200 Offset: 0xADB800 VA: 0x180ADD200
 	public void VendingMachineUpdated() { }
 
-	// RVA: 0xADCC40 Offset: 0xADB240 VA: 0x180ADCC40
+	// RVA: 0xADCF00 Offset: 0xADB500 VA: 0x180ADCF00
 	public void UpdateSellOrders() { }
 
-	// RVA: 0xADCBE0 Offset: 0xADB1E0 VA: 0x180ADCBE0
+	// RVA: 0xADCEA0 Offset: 0xADB4A0 VA: 0x180ADCEA0
 	public void SetVendingMachine(VendingMachine vend) { }
 
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	public VendingMachine GetVendingMachine() { }
 
-	// RVA: 0xADCEA0 Offset: 0xADB4A0 VA: 0x180ADCEA0
+	// RVA: 0xADD160 Offset: 0xADB760 VA: 0x180ADD160
 	public void Update() { }
 
-	// RVA: 0xADCB30 Offset: 0xADB130 VA: 0x180ADCB30
+	// RVA: 0xADCDF0 Offset: 0xADB3F0 VA: 0x180ADCDF0
 	public void DeleteClicked(int index) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

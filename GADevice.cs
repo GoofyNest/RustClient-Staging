@@ -28,57 +28,57 @@ internal static class GADevice // TypeDefIndex: 5675
 	public static void Touch() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13B13B0 Offset: 0x13AF9B0 VA: 0x1813B13B0
+	// RVA: 0x13B1670 Offset: 0x13AFC70 VA: 0x1813B1670
 	private static string get_SdkGameEngineVersion() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13B1620 Offset: 0x13AFC20 VA: 0x1813B1620
+	// RVA: 0x13B18E0 Offset: 0x13AFEE0 VA: 0x1813B18E0
 	public static void set_SdkGameEngineVersion(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13B11C0 Offset: 0x13AF7C0 VA: 0x1813B11C0
+	// RVA: 0x13B1480 Offset: 0x13AFA80 VA: 0x1813B1480
 	public static string get_GameEngineVersion() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13B15B0 Offset: 0x13AFBB0 VA: 0x1813B15B0
+	// RVA: 0x13B1870 Offset: 0x13AFE70 VA: 0x1813B1870
 	public static void set_GameEngineVersion(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13B1100 Offset: 0x13AF700 VA: 0x1813B1100
+	// RVA: 0x13B13C0 Offset: 0x13AF9C0 VA: 0x1813B13C0
 	public static string get_ConnectionType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13B14D0 Offset: 0x13AFAD0 VA: 0x1813B14D0
+	// RVA: 0x13B1790 Offset: 0x13AFD90 VA: 0x1813B1790
 	public static void set_ConnectionType(string value) { }
 
-	// RVA: 0x13B1280 Offset: 0x13AF880 VA: 0x1813B1280
+	// RVA: 0x13B1540 Offset: 0x13AFB40 VA: 0x1813B1540
 	public static string get_RelevantSdkVersion() { }
 
-	// RVA: 0x13B10A0 Offset: 0x13AF6A0 VA: 0x1813B10A0
+	// RVA: 0x13B1360 Offset: 0x13AF960 VA: 0x1813B1360
 	public static string get_BuildPlatform() { }
 
-	// RVA: 0x13B1220 Offset: 0x13AF820 VA: 0x1813B1220
+	// RVA: 0x13B14E0 Offset: 0x13AFAE0 VA: 0x1813B14E0
 	public static string get_OSVersion() { }
 
-	// RVA: 0x13B1160 Offset: 0x13AF760 VA: 0x1813B1160
+	// RVA: 0x13B1420 Offset: 0x13AFA20 VA: 0x1813B1420
 	public static string get_DeviceManufacturer() { }
 
-	// RVA: 0x13B1410 Offset: 0x13AFA10 VA: 0x1813B1410
+	// RVA: 0x13B16D0 Offset: 0x13AFCD0 VA: 0x1813B16D0
 	public static string get_WritablePath() { }
 
-	// RVA: 0x13B0E20 Offset: 0x13AF420 VA: 0x1813B0E20
+	// RVA: 0x13B10E0 Offset: 0x13AF6E0 VA: 0x1813B10E0
 	public static void UpdateConnectionType() { }
 
-	// RVA: 0x13B0770 Offset: 0x13AED70 VA: 0x1813B0770
+	// RVA: 0x13B0A30 Offset: 0x13AF030 VA: 0x1813B0A30
 	private static string GetOSVersionString() { }
 
-	// RVA: 0x13B0AD0 Offset: 0x13AF0D0 VA: 0x1813B0AD0
+	// RVA: 0x13B0D90 Offset: 0x13AF390 VA: 0x1813B0D90
 	private static string GetPersistentPath() { }
 
-	// RVA: 0x13B0DA0 Offset: 0x13AF3A0 VA: 0x1813B0DA0
+	// RVA: 0x13B1060 Offset: 0x13AF660 VA: 0x1813B1060
 	private static string UnityRuntimePlatformToString(RuntimePlatform platform) { }
 
-	// RVA: 0x13B0F50 Offset: 0x13AF550 VA: 0x1813B0F50
+	// RVA: 0x13B1210 Offset: 0x13AF810 VA: 0x1813B1210
 	private static void .cctor() { }
 
 }

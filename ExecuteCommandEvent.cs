@@ -1,7 +1,7 @@
 public class ExecuteCommandEvent : CommandEventBase<ExecuteCommandEvent> // TypeDefIndex: 4631
 {	// Methods
 
-	// RVA: 0xEAEBC0 Offset: 0xEAD1C0 VA: 0x180EAEBC0
+	// RVA: 0xEAEE80 Offset: 0xEAD480 VA: 0x180EAEE80
 	public void .ctor() { }
 
 }

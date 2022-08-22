@@ -18,7 +18,7 @@ internal struct LobbyChatUpdate_t : ICallbackData // TypeDefIndex: 5339
 	// RVA: 0x1EB430 Offset: 0x1EA830 VA: 0x1801EB430 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1373810 Offset: 0x1371E10 VA: 0x181373810
+	// RVA: 0x1373AD0 Offset: 0x13720D0 VA: 0x181373AD0
 	private static void .cctor() { }
 
 }

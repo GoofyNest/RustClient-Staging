@@ -7,82 +7,82 @@ public class LinePoint : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6433
 
 	// Methods
 
-	// RVA: 0x1F22EB0 Offset: 0x1F214B0 VA: 0x181F22EB0
+	// RVA: 0x1F23170 Offset: 0x1F21770 VA: 0x181F23170
 	public static void ResetToPool(LinePoint instance) { }
 
-	// RVA: 0x1F22E20 Offset: 0x1F21420 VA: 0x181F22E20
+	// RVA: 0x1F230E0 Offset: 0x1F216E0 VA: 0x181F230E0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F22B70 Offset: 0x1F21170 VA: 0x181F22B70 Slot: 9
+	// RVA: 0x1F22E30 Offset: 0x1F21430 VA: 0x181F22E30 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F21D50 Offset: 0x1F20350 VA: 0x181F21D50
+	// RVA: 0x1F22010 Offset: 0x1F20610 VA: 0x181F22010
 	public void CopyTo(LinePoint instance) { }
 
-	// RVA: 0x1F21D90 Offset: 0x1F20390 VA: 0x181F21D90
+	// RVA: 0x1F22050 Offset: 0x1F20650 VA: 0x181F22050
 	public LinePoint Copy() { }
 
-	// RVA: 0x1F22520 Offset: 0x1F20B20 VA: 0x181F22520
+	// RVA: 0x1F227E0 Offset: 0x1F20DE0 VA: 0x181F227E0
 	public static LinePoint Deserialize(Stream stream) { }
 
-	// RVA: 0x1F21E20 Offset: 0x1F20420 VA: 0x181F21E20
+	// RVA: 0x1F220E0 Offset: 0x1F206E0 VA: 0x181F220E0
 	public static LinePoint DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F220F0 Offset: 0x1F206F0 VA: 0x181F220F0
+	// RVA: 0x1F223B0 Offset: 0x1F209B0 VA: 0x181F223B0
 	public static LinePoint DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F22920 Offset: 0x1F20F20 VA: 0x181F22920
+	// RVA: 0x1F22BE0 Offset: 0x1F211E0 VA: 0x181F22BE0
 	public static LinePoint Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F22C80 Offset: 0x1F21280 VA: 0x181F22C80
+	// RVA: 0x1F22F40 Offset: 0x1F21540 VA: 0x181F22F40
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F236F0 Offset: 0x1F21CF0 VA: 0x181F236F0 Slot: 12
+	// RVA: 0x1F239B0 Offset: 0x1F21FB0 VA: 0x181F239B0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F23710 Offset: 0x1F21D10 VA: 0x181F23710 Slot: 13
+	// RVA: 0x1F239D0 Offset: 0x1F21FD0 VA: 0x181F239D0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, LinePoint previous) { }
 
-	// RVA: 0x1F22E00 Offset: 0x1F21400 VA: 0x181F22E00 Slot: 14
+	// RVA: 0x1F230C0 Offset: 0x1F216C0 VA: 0x181F230C0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F226E0 Offset: 0x1F20CE0 VA: 0x181F226E0
+	// RVA: 0x1F229A0 Offset: 0x1F20FA0 VA: 0x181F229A0
 	public static LinePoint Deserialize(byte[] buffer, LinePoint instance, bool isDelta = False) { }
 
-	// RVA: 0x1F223A0 Offset: 0x1F209A0 VA: 0x181F223A0
+	// RVA: 0x1F22660 Offset: 0x1F20C60 VA: 0x181F22660
 	public static LinePoint Deserialize(Stream stream, LinePoint instance, bool isDelta) { }
 
-	// RVA: 0x1F21EA0 Offset: 0x1F204A0 VA: 0x181F21EA0
+	// RVA: 0x1F22160 Offset: 0x1F20760 VA: 0x181F22160
 	public static LinePoint DeserializeLengthDelimited(Stream stream, LinePoint instance, bool isDelta) { }
 
-	// RVA: 0x1F22180 Offset: 0x1F20780 VA: 0x181F22180
+	// RVA: 0x1F22440 Offset: 0x1F20A40 VA: 0x181F22440
 	public static LinePoint DeserializeLength(Stream stream, int length, LinePoint instance, bool isDelta) { }
 
-	// RVA: 0x1F22F40 Offset: 0x1F21540 VA: 0x181F22F40
+	// RVA: 0x1F23200 Offset: 0x1F21800 VA: 0x181F23200
 	public static void SerializeDelta(Stream stream, LinePoint instance, LinePoint previous) { }
 
-	// RVA: 0x1F234A0 Offset: 0x1F21AA0 VA: 0x181F234A0
+	// RVA: 0x1F23760 Offset: 0x1F21D60 VA: 0x181F23760
 	public static void Serialize(Stream stream, LinePoint instance) { }
 
-	// RVA: 0x1F236E0 Offset: 0x1F21CE0 VA: 0x181F236E0
+	// RVA: 0x1F239A0 Offset: 0x1F21FA0 VA: 0x181F239A0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F236F0 Offset: 0x1F21CF0 VA: 0x181F236F0
+	// RVA: 0x1F239B0 Offset: 0x1F21FB0 VA: 0x181F239B0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F23390 Offset: 0x1F21990 VA: 0x181F23390
+	// RVA: 0x1F23650 Offset: 0x1F21C50 VA: 0x181F23650
 	public static byte[] SerializeToBytes(LinePoint instance) { }
 
-	// RVA: 0x1F232E0 Offset: 0x1F218E0 VA: 0x181F232E0
+	// RVA: 0x1F235A0 Offset: 0x1F21BA0 VA: 0x181F235A0
 	public static void SerializeLengthDelimited(Stream stream, LinePoint instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

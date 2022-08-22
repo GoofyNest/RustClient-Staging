@@ -12,16 +12,16 @@ internal class BufferOffsetSize // TypeDefIndex: 2530
 
 	// Methods
 
-	// RVA: 0x79B540 Offset: 0x799B40 VA: 0x18079B540
+	// RVA: 0x79B650 Offset: 0x799C50 VA: 0x18079B650
 	public int get_EndOffset() { }
 
-	// RVA: 0x1210260 Offset: 0x120E860 VA: 0x181210260
+	// RVA: 0x1210520 Offset: 0x120EB20 VA: 0x181210520
 	public int get_Remaining() { }
 
-	// RVA: 0x1210130 Offset: 0x120E730 VA: 0x181210130
+	// RVA: 0x12103F0 Offset: 0x120E9F0 VA: 0x1812103F0
 	public void .ctor(byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x12100B0 Offset: 0x120E6B0 VA: 0x1812100B0 Slot: 3
+	// RVA: 0x1210370 Offset: 0x120E970 VA: 0x181210370 Slot: 3
 	public override string ToString() { }
 
 }
@@ -34,7 +34,7 @@ internal class BufferOffsetSize // TypeDefIndex: 2913
 
 	// Methods
 
-	// RVA: 0x151FE70 Offset: 0x151E470 VA: 0x18151FE70
+	// RVA: 0x1520130 Offset: 0x151E730 VA: 0x181520130
 	internal void .ctor(byte[] buffer, int offset, int size, bool copyBuffer) { }
 
 }

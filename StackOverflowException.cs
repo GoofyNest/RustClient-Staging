@@ -1,13 +1,13 @@
 public sealed class StackOverflowException : SystemException // TypeDefIndex: 300
 {	// Methods
 
-	// RVA: 0x18AFEB0 Offset: 0x18AE4B0 VA: 0x1818AFEB0
+	// RVA: 0x18B0170 Offset: 0x18AE770 VA: 0x1818B0170
 	public void .ctor() { }
 
-	// RVA: 0x18AFE80 Offset: 0x18AE480 VA: 0x1818AFE80
+	// RVA: 0x18B0140 Offset: 0x18AE740 VA: 0x1818B0140
 	public void .ctor(string message) { }
 
-	// RVA: 0x18AFE00 Offset: 0x18AE400 VA: 0x1818AFE00
+	// RVA: 0x18B00C0 Offset: 0x18AE6C0 VA: 0x1818B00C0
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

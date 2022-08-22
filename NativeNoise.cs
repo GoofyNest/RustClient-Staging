@@ -1,55 +1,55 @@
 public static class NativeNoise // TypeDefIndex: 10289
 {	// Methods
 
-	// RVA: 0x7CA090 Offset: 0x7C8690 VA: 0x1807CA090
+	// RVA: 0x7CA1A0 Offset: 0x7C87A0 VA: 0x1807CA1A0
 	public static extern float Simplex1D(float x) { }
 
-	// RVA: 0x7CA000 Offset: 0x7C8600 VA: 0x1807CA000
+	// RVA: 0x7CA110 Offset: 0x7C8710 VA: 0x1807CA110
 	public static extern float Simplex1D(float x, out float dx) { }
 
-	// RVA: 0x7CA110 Offset: 0x7C8710 VA: 0x1807CA110
+	// RVA: 0x7CA220 Offset: 0x7C8820 VA: 0x1807CA220
 	public static extern float Simplex2D(float x, float y) { }
 
-	// RVA: 0x7CA1A0 Offset: 0x7C87A0 VA: 0x1807CA1A0
+	// RVA: 0x7CA2B0 Offset: 0x7C88B0 VA: 0x1807CA2B0
 	public static extern float Simplex2D(float x, float y, out float dx, out float dy) { }
 
-	// RVA: 0x7CA430 Offset: 0x7C8A30 VA: 0x1807CA430
+	// RVA: 0x7CA540 Offset: 0x7C8B40 VA: 0x1807CA540
 	public static extern float Turbulence(float x, float y, int octaves, float frequency, float amplitude, float lacunarity, float gain) { }
 
-	// RVA: 0x7C9860 Offset: 0x7C7E60 VA: 0x1807C9860
+	// RVA: 0x7C9970 Offset: 0x7C7F70 VA: 0x1807C9970
 	public static extern float Billow(float x, float y, int octaves, float frequency, float amplitude, float lacunarity, float gain) { }
 
-	// RVA: 0x7C9C40 Offset: 0x7C8240 VA: 0x1807C9C40
+	// RVA: 0x7C9D50 Offset: 0x7C8350 VA: 0x1807C9D50
 	public static extern float Ridge(float x, float y, int octaves, float frequency, float amplitude, float lacunarity, float gain) { }
 
-	// RVA: 0x7C9F10 Offset: 0x7C8510 VA: 0x1807C9F10
+	// RVA: 0x7CA020 Offset: 0x7C8620 VA: 0x1807CA020
 	public static extern float Sharp(float x, float y, int octaves, float frequency, float amplitude, float lacunarity, float gain) { }
 
-	// RVA: 0x7CA250 Offset: 0x7C8850 VA: 0x1807CA250
+	// RVA: 0x7CA360 Offset: 0x7C8960 VA: 0x1807CA360
 	public static extern float TurbulenceIQ(float x, float y, int octaves, float frequency, float amplitude, float lacunarity, float gain) { }
 
-	// RVA: 0x7C9680 Offset: 0x7C7C80 VA: 0x1807C9680
+	// RVA: 0x7C9790 Offset: 0x7C7D90 VA: 0x1807C9790
 	public static extern float BillowIQ(float x, float y, int octaves, float frequency, float amplitude, float lacunarity, float gain) { }
 
-	// RVA: 0x7C9A60 Offset: 0x7C8060 VA: 0x1807C9A60
+	// RVA: 0x7C9B70 Offset: 0x7C8170 VA: 0x1807C9B70
 	public static extern float RidgeIQ(float x, float y, int octaves, float frequency, float amplitude, float lacunarity, float gain) { }
 
-	// RVA: 0x7C9D30 Offset: 0x7C8330 VA: 0x1807C9D30
+	// RVA: 0x7C9E40 Offset: 0x7C8440 VA: 0x1807C9E40
 	public static extern float SharpIQ(float x, float y, int octaves, float frequency, float amplitude, float lacunarity, float gain) { }
 
-	// RVA: 0x7CA340 Offset: 0x7C8940 VA: 0x1807CA340
+	// RVA: 0x7CA450 Offset: 0x7C8A50 VA: 0x1807CA450
 	public static extern float TurbulenceWarp(float x, float y, int octaves, float frequency, float amplitude, float lacunarity, float gain, float warp) { }
 
-	// RVA: 0x7C9770 Offset: 0x7C7D70 VA: 0x1807C9770
+	// RVA: 0x7C9880 Offset: 0x7C7E80 VA: 0x1807C9880
 	public static extern float BillowWarp(float x, float y, int octaves, float frequency, float amplitude, float lacunarity, float gain, float warp) { }
 
-	// RVA: 0x7C9B50 Offset: 0x7C8150 VA: 0x1807C9B50
+	// RVA: 0x7C9C60 Offset: 0x7C8260 VA: 0x1807C9C60
 	public static extern float RidgeWarp(float x, float y, int octaves, float frequency, float amplitude, float lacunarity, float gain, float warp) { }
 
-	// RVA: 0x7C9E20 Offset: 0x7C8420 VA: 0x1807C9E20
+	// RVA: 0x7C9F30 Offset: 0x7C8530 VA: 0x1807C9F30
 	public static extern float SharpWarp(float x, float y, int octaves, float frequency, float amplitude, float lacunarity, float gain, float warp) { }
 
-	// RVA: 0x7C9950 Offset: 0x7C7F50 VA: 0x1807C9950
+	// RVA: 0x7C9A60 Offset: 0x7C8060 VA: 0x1807C9A60
 	public static extern float Jordan(float x, float y, int octaves, float frequency, float amplitude, float lacunarity, float gain, float warp, float damp, float damp_scale) { }
 
 }

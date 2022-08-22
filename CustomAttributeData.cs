@@ -18,63 +18,63 @@ public class CustomAttributeData // TypeDefIndex: 560
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	protected void .ctor() { }
 
-	// RVA: 0x18C7990 Offset: 0x18C5F90 VA: 0x1818C7990
+	// RVA: 0x18C7C50 Offset: 0x18C6250 VA: 0x1818C7C50
 	internal void .ctor(ConstructorInfo ctorInfo, Assembly assembly, IntPtr data, uint data_length) { }
 
-	// RVA: 0x18C7230 Offset: 0x18C5830 VA: 0x1818C7230
+	// RVA: 0x18C74F0 Offset: 0x18C5AF0 VA: 0x1818C74F0
 	private static void ResolveArgumentsInternal(ConstructorInfo ctor, Assembly assembly, IntPtr data, uint data_length, out object[] ctorArgs, out object[] namedArgs) { }
 
-	// RVA: 0x18C7240 Offset: 0x18C5840 VA: 0x1818C7240
+	// RVA: 0x18C7500 Offset: 0x18C5B00 VA: 0x1818C7500
 	private void ResolveArguments() { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 4
 	public virtual ConstructorInfo get_Constructor() { }
 
-	// RVA: 0x18C7A60 Offset: 0x18C6060 VA: 0x1818C7A60 Slot: 5
+	// RVA: 0x18C7D20 Offset: 0x18C6320 VA: 0x1818C7D20 Slot: 5
 	public virtual IList<CustomAttributeTypedArgument> get_ConstructorArguments() { }
 
-	// RVA: 0x18C7A80 Offset: 0x18C6080 VA: 0x1818C7A80 Slot: 6
+	// RVA: 0x18C7D40 Offset: 0x18C6340 VA: 0x1818C7D40 Slot: 6
 	public virtual IList<CustomAttributeNamedArgument> get_NamedArguments() { }
 
-	// RVA: 0x18C6D70 Offset: 0x18C5370 VA: 0x1818C6D70
+	// RVA: 0x18C7030 Offset: 0x18C5630 VA: 0x1818C7030
 	public static IList<CustomAttributeData> GetCustomAttributes(Assembly target) { }
 
-	// RVA: 0x18C6DD0 Offset: 0x18C53D0 VA: 0x1818C6DD0
+	// RVA: 0x18C7090 Offset: 0x18C5690 VA: 0x1818C7090
 	public static IList<CustomAttributeData> GetCustomAttributes(MemberInfo target) { }
 
-	// RVA: 0x18C6C50 Offset: 0x18C5250 VA: 0x1818C6C50
+	// RVA: 0x18C6F10 Offset: 0x18C5510 VA: 0x1818C6F10
 	internal static IList<CustomAttributeData> GetCustomAttributesInternal(RuntimeType target) { }
 
-	// RVA: 0x18C6D10 Offset: 0x18C5310 VA: 0x1818C6D10
+	// RVA: 0x18C6FD0 Offset: 0x18C55D0 VA: 0x1818C6FD0
 	public static IList<CustomAttributeData> GetCustomAttributes(Module target) { }
 
-	// RVA: 0x18C6CB0 Offset: 0x18C52B0 VA: 0x1818C6CB0
+	// RVA: 0x18C6F70 Offset: 0x18C5570 VA: 0x1818C6F70
 	public static IList<CustomAttributeData> GetCustomAttributes(ParameterInfo target) { }
 
-	// RVA: 0xBC8B50 Offset: 0xBC7150 VA: 0x180BC8B50
+	// RVA: 0xBC8E10 Offset: 0xBC7410 VA: 0x180BC8E10
 	public Type get_AttributeType() { }
 
-	// RVA: 0x18C73A0 Offset: 0x18C59A0 VA: 0x1818C73A0 Slot: 3
+	// RVA: 0x18C7660 Offset: 0x18C5C60 VA: 0x1818C7660 Slot: 3
 	public override string ToString() { }
 
 	// RVA: -1 Offset: -1
 	private static T[] UnboxValues<T>(object[] values) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A377A0 Offset: 0x1A35DA0 VA: 0x181A377A0
+	|-RVA: 0x1A37A60 Offset: 0x1A36060 VA: 0x181A37A60
 	|-CustomAttributeData.UnboxValues<object>
 	|
-	|-RVA: 0x1A37540 Offset: 0x1A35B40 VA: 0x181A37540
+	|-RVA: 0x1A37800 Offset: 0x1A35E00 VA: 0x181A37800
 	|-CustomAttributeData.UnboxValues<CustomAttributeNamedArgument>
 	|
-	|-RVA: 0x1A37680 Offset: 0x1A35C80 VA: 0x181A37680
+	|-RVA: 0x1A37940 Offset: 0x1A35F40 VA: 0x181A37940
 	|-CustomAttributeData.UnboxValues<CustomAttributeTypedArgument>
 	*/
 
-	// RVA: 0x18C67E0 Offset: 0x18C4DE0 VA: 0x1818C67E0 Slot: 0
+	// RVA: 0x18C6AA0 Offset: 0x18C50A0 VA: 0x1818C6AA0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x18C6E30 Offset: 0x18C5430 VA: 0x1818C6E30 Slot: 2
+	// RVA: 0x18C70F0 Offset: 0x18C56F0 VA: 0x1818C70F0 Slot: 2
 	public override int GetHashCode() { }
 
 }

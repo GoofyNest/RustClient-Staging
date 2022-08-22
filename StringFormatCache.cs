@@ -7,19 +7,19 @@ public static class StringFormatCache // TypeDefIndex: 10768
 
 	// Methods
 
-	// RVA: 0x79E080 Offset: 0x79C680 VA: 0x18079E080
+	// RVA: 0x79E190 Offset: 0x79C790 VA: 0x18079E190
 	public static string Get(string format, string value1) { }
 
-	// RVA: 0x79E1C0 Offset: 0x79C7C0 VA: 0x18079E1C0
+	// RVA: 0x79E2D0 Offset: 0x79C8D0 VA: 0x18079E2D0
 	public static string Get(string format, string value1, string value2) { }
 
-	// RVA: 0x79E350 Offset: 0x79C950 VA: 0x18079E350
+	// RVA: 0x79E460 Offset: 0x79CA60 VA: 0x18079E460
 	public static string Get(string format, string value1, string value2, string value3) { }
 
-	// RVA: 0x79DD40 Offset: 0x79C340 VA: 0x18079DD40
+	// RVA: 0x79DE50 Offset: 0x79C450 VA: 0x18079DE50
 	public static string Get(string format, string value1, string value2, string value3, string value4) { }
 
-	// RVA: 0x79E4F0 Offset: 0x79CAF0 VA: 0x18079E4F0
+	// RVA: 0x79E600 Offset: 0x79CC00 VA: 0x18079E600
 	private static void .cctor() { }
 
 }

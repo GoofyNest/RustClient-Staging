@@ -7,40 +7,40 @@ internal class ManifestBasedResourceGroveler : IResourceGroveler // TypeDefIndex
 	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
 	public void .ctor(ResourceManager.ResourceManagerMediator mediator) { }
 
-	// RVA: 0xFE9230 Offset: 0xFE7830 VA: 0x180FE9230 Slot: 4
+	// RVA: 0xFE94F0 Offset: 0xFE7AF0 VA: 0x180FE94F0 Slot: 4
 	public ResourceSet GrovelForResourceSet(CultureInfo culture, Dictionary<string, ResourceSet> localResourceSets, bool tryParents, bool createIfNotExists, ref StackCrawlMark stackMark) { }
 
-	// RVA: 0xFE9D70 Offset: 0xFE8370 VA: 0x180FE9D70
+	// RVA: 0xFEA030 Offset: 0xFE8630 VA: 0x180FEA030
 	private CultureInfo UltimateFallbackFixup(CultureInfo lookForCulture) { }
 
-	// RVA: 0xFE8D00 Offset: 0xFE7300 VA: 0x180FE8D00
+	// RVA: 0xFE8FC0 Offset: 0xFE75C0 VA: 0x180FE8FC0
 	internal static CultureInfo GetNeutralResourcesLanguage(Assembly a, ref UltimateResourceFallbackLocation fallbackLocation) { }
 
-	// RVA: 0xFE80B0 Offset: 0xFE66B0 VA: 0x180FE80B0
+	// RVA: 0xFE8370 Offset: 0xFE6970 VA: 0x180FE8370
 	internal ResourceSet CreateResourceSet(Stream store, Assembly assembly) { }
 
-	// RVA: 0xFE8B80 Offset: 0xFE7180 VA: 0x180FE8B80
+	// RVA: 0xFE8E40 Offset: 0xFE7440 VA: 0x180FE8E40
 	private Stream GetManifestResourceStream(RuntimeAssembly satellite, string fileName, ref StackCrawlMark stackMark) { }
 
-	// RVA: 0xFE7CF0 Offset: 0xFE62F0 VA: 0x180FE7CF0
+	// RVA: 0xFE7FB0 Offset: 0xFE65B0 VA: 0x180FE7FB0
 	private Stream CaseInsensitiveManifestResourceStreamLookup(RuntimeAssembly satellite, string name) { }
 
-	// RVA: 0xFE9050 Offset: 0xFE7650 VA: 0x180FE9050
+	// RVA: 0xFE9310 Offset: 0xFE7910 VA: 0x180FE9310
 	private RuntimeAssembly GetSatelliteAssembly(CultureInfo lookForCulture, ref StackCrawlMark stackMark) { }
 
-	// RVA: 0xFE7B60 Offset: 0xFE6160 VA: 0x180FE7B60
+	// RVA: 0xFE7E20 Offset: 0xFE6420 VA: 0x180FE7E20
 	private bool CanUseDefaultResourceClasses(string readerTypeName, string resSetTypeName) { }
 
-	// RVA: 0xFE8FF0 Offset: 0xFE75F0 VA: 0x180FE8FF0
+	// RVA: 0xFE92B0 Offset: 0xFE78B0 VA: 0x180FE92B0
 	private string GetSatelliteAssemblyName() { }
 
-	// RVA: 0xFE99F0 Offset: 0xFE7FF0 VA: 0x180FE99F0
+	// RVA: 0xFE9CB0 Offset: 0xFE82B0 VA: 0x180FE9CB0
 	private void HandleSatelliteMissing() { }
 
-	// RVA: 0xFE96D0 Offset: 0xFE7CD0 VA: 0x180FE96D0
+	// RVA: 0xFE9990 Offset: 0xFE7F90 VA: 0x180FE9990
 	private void HandleResourceStreamMissing(string fileName) { }
 
-	// RVA: 0xFE8C70 Offset: 0xFE7270 VA: 0x180FE8C70
+	// RVA: 0xFE8F30 Offset: 0xFE7530 VA: 0x180FE8F30
 	private static bool GetNeutralResourcesLanguageAttribute(Assembly assembly, ref string cultureName, ref short fallbackLocation) { }
 
 }
@@ -58,7 +58,7 @@ public class ManifestResourceInfo // TypeDefIndex: 531
 
 	// Methods
 
-	// RVA: 0x1386000 Offset: 0x1384600 VA: 0x181386000
+	// RVA: 0x13862C0 Offset: 0x13848C0 VA: 0x1813862C0
 	public void .ctor(Assembly containingAssembly, string containingFileName, ResourceLocation resourceLocation) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 4
@@ -95,73 +95,73 @@ internal class ManifestBuilder // TypeDefIndex: 1624
 
 	// Methods
 
-	// RVA: 0x10E3FF0 Offset: 0x10E25F0 VA: 0x1810E3FF0
+	// RVA: 0x10E42B0 Offset: 0x10E28B0 VA: 0x1810E42B0
 	public void .ctor(string providerName, Guid providerGuid, string dllName, ResourceManager resources, EventManifestOptions flags) { }
 
-	// RVA: 0x10DFD60 Offset: 0x10DE360 VA: 0x1810DFD60
+	// RVA: 0x10E0020 Offset: 0x10DE620 VA: 0x1810E0020
 	public void AddOpcode(string name, int value) { }
 
-	// RVA: 0x10E00A0 Offset: 0x10DE6A0 VA: 0x1810E00A0
+	// RVA: 0x10E0360 Offset: 0x10DE960 VA: 0x1810E0360
 	public void AddTask(string name, int value) { }
 
-	// RVA: 0x10DF7F0 Offset: 0x10DDDF0 VA: 0x1810DF7F0
+	// RVA: 0x10DFAB0 Offset: 0x10DE0B0 VA: 0x1810DFAB0
 	public void AddKeyword(string name, ulong value) { }
 
-	// RVA: 0x10E2BF0 Offset: 0x10E11F0 VA: 0x1810E2BF0
+	// RVA: 0x10E2EB0 Offset: 0x10E14B0 VA: 0x1810E2EB0
 	public void StartEvent(string eventName, EventAttribute eventAttribute) { }
 
-	// RVA: 0x10DF2A0 Offset: 0x10DD8A0 VA: 0x1810DF2A0
+	// RVA: 0x10DF560 Offset: 0x10DDB60 VA: 0x1810DF560
 	public void AddEventParameter(Type type, string name) { }
 
-	// RVA: 0x10E1A70 Offset: 0x10E0070 VA: 0x1810E1A70
+	// RVA: 0x10E1D30 Offset: 0x10E0330 VA: 0x1810E1D30
 	public void EndEvent() { }
 
-	// RVA: 0x10E1A30 Offset: 0x10E0030 VA: 0x1810E1A30
+	// RVA: 0x10E1CF0 Offset: 0x10E02F0 VA: 0x1810E1CF0
 	public byte[] CreateManifest() { }
 
 	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
 	public IList<string> get_Errors() { }
 
-	// RVA: 0x10E2AE0 Offset: 0x10E10E0 VA: 0x1810E2AE0
+	// RVA: 0x10E2DA0 Offset: 0x10E13A0 VA: 0x1810E2DA0
 	public void ManifestError(string msg, bool runtimeCritical = False) { }
 
-	// RVA: 0x10E0420 Offset: 0x10DEA20 VA: 0x1810E0420
+	// RVA: 0x10E06E0 Offset: 0x10DECE0 VA: 0x1810E06E0
 	private string CreateManifestString() { }
 
-	// RVA: 0x10E3F30 Offset: 0x10E2530 VA: 0x1810E3F30
+	// RVA: 0x10E41F0 Offset: 0x10E27F0 VA: 0x1810E41F0
 	private void WriteNameAndMessageAttribs(StringBuilder stringBuilder, string elementName, string name) { }
 
-	// RVA: 0x10E3D10 Offset: 0x10E2310 VA: 0x1810E3D10
+	// RVA: 0x10E3FD0 Offset: 0x10E25D0 VA: 0x1810E3FD0
 	private void WriteMessageAttrib(StringBuilder stringBuilder, string elementName, string name, string value) { }
 
-	// RVA: 0x10E1FA0 Offset: 0x10E05A0 VA: 0x1810E1FA0
+	// RVA: 0x10E2260 Offset: 0x10E0860 VA: 0x1810E2260
 	internal string GetLocalizedMessage(string key, CultureInfo ci, bool etwFormat) { }
 
-	// RVA: 0x10E2380 Offset: 0x10E0980 VA: 0x1810E2380
+	// RVA: 0x10E2640 Offset: 0x10E0C40 VA: 0x1810E2640
 	private static List<CultureInfo> GetSupportedCultures(ResourceManager resources) { }
 
-	// RVA: 0x10E1EF0 Offset: 0x10E04F0 VA: 0x1810E1EF0
+	// RVA: 0x10E21B0 Offset: 0x10E07B0 VA: 0x1810E21B0
 	private static string GetLevelName(EventLevel level) { }
 
-	// RVA: 0x10E2530 Offset: 0x10E0B30 VA: 0x1810E2530
+	// RVA: 0x10E27F0 Offset: 0x10E0DF0 VA: 0x1810E27F0
 	private string GetTaskName(EventTask task, string eventName) { }
 
-	// RVA: 0x10E20C0 Offset: 0x10E06C0 VA: 0x1810E20C0
+	// RVA: 0x10E2380 Offset: 0x10E0980 VA: 0x1810E2380
 	private string GetOpcodeName(EventOpcode opcode, string eventName) { }
 
-	// RVA: 0x10E1C60 Offset: 0x10E0260 VA: 0x1810E1C60
+	// RVA: 0x10E1F20 Offset: 0x10E0520 VA: 0x1810E1F20
 	private string GetKeywords(ulong keywords, string eventName) { }
 
-	// RVA: 0x10E2640 Offset: 0x10E0C40 VA: 0x1810E2640
+	// RVA: 0x10E2900 Offset: 0x10E0F00 VA: 0x1810E2900
 	private string GetTypeName(Type type) { }
 
-	// RVA: 0x10E3C60 Offset: 0x10E2260 VA: 0x1810E3C60
+	// RVA: 0x10E3F20 Offset: 0x10E2520 VA: 0x1810E3F20
 	private static void UpdateStringBuilder(ref StringBuilder stringBuilder, string eventMessage, int startIndex, int count) { }
 
-	// RVA: 0x10E31E0 Offset: 0x10E17E0 VA: 0x1810E31E0
+	// RVA: 0x10E34A0 Offset: 0x10E1AA0 VA: 0x1810E34A0
 	private string TranslateToManifestConvention(string eventMessage, string evtName) { }
 
-	// RVA: 0x10E3070 Offset: 0x10E1670 VA: 0x1810E3070
+	// RVA: 0x10E3330 Offset: 0x10E1930 VA: 0x1810E3330
 	private int TranslateIndexToManifestConvention(int idx, string evtName) { }
 
 }
@@ -189,7 +189,7 @@ private sealed class ManifestBuilder.<>c__DisplayClass22_1 // TypeDefIndex: 1626
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x10E9DE0 Offset: 0x10E83E0 VA: 0x1810E9DE0
+	// RVA: 0x10EA0A0 Offset: 0x10E86A0 VA: 0x1810EA0A0
 	internal void <TranslateToManifestConvention>b__0(char ch, string escape) { }
 
 }
@@ -226,32 +226,32 @@ public static class Manifest // TypeDefIndex: 6199
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B59C0 Offset: 0x14B3FC0 VA: 0x1814B59C0
+	// RVA: 0x14B5C80 Offset: 0x14B4280 VA: 0x1814B5C80
 	public static DateTime get_LastDownloaded() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B5A50 Offset: 0x14B4050 VA: 0x1814B5A50
+	// RVA: 0x14B5D10 Offset: 0x14B4310 VA: 0x1814B5D10
 	internal static void set_LastDownloaded(DateTime value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B5980 Offset: 0x14B3F80 VA: 0x1814B5980
+	// RVA: 0x14B5C40 Offset: 0x14B4240 VA: 0x1814B5C40
 	public static string get_Contents() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B5A00 Offset: 0x14B4000 VA: 0x1814B5A00
+	// RVA: 0x14B5CC0 Offset: 0x14B42C0 VA: 0x1814B5CC0
 	internal static void set_Contents(string value) { }
 
-	// RVA: 0x14B4DD0 Offset: 0x14B33D0 VA: 0x1814B4DD0
+	// RVA: 0x14B5090 Offset: 0x14B3690 VA: 0x1814B5090
 	internal static void Download() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xA5500 Offset: 0xA4900 VA: 0x1800A5500
-	// RVA: 0x14B5930 Offset: 0x14B3F30 VA: 0x1814B5930
+	// RVA: 0x14B5BF0 Offset: 0x14B41F0 VA: 0x1814B5BF0
 	private static IEnumerator UpdateManifest() { }
 
-	// RVA: 0x14B5040 Offset: 0x14B3640 VA: 0x1814B5040
+	// RVA: 0x14B5300 Offset: 0x14B3900 VA: 0x1814B5300
 	private static void LoadManifest(string text) { }
 
-	// RVA: 0x14B5860 Offset: 0x14B3E60 VA: 0x1814B5860
+	// RVA: 0x14B5B20 Offset: 0x14B4120 VA: 0x1814B5B20
 	private static void OnManifestLoaded(Manifest manifest) { }
 
 }
@@ -263,13 +263,13 @@ private sealed class Manifest.<>c // TypeDefIndex: 6200
 
 	// Methods
 
-	// RVA: 0x14BCFE0 Offset: 0x14BB5E0 VA: 0x1814BCFE0
+	// RVA: 0x14BD2A0 Offset: 0x14BB8A0 VA: 0x1814BD2A0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x14BC830 Offset: 0x14BAE30 VA: 0x1814BC830
+	// RVA: 0x14BCAF0 Offset: 0x14BB0F0 VA: 0x1814BCAF0
 	internal void <UpdateManifest>b__9_0(string str) { }
 
 }
@@ -294,7 +294,7 @@ private sealed class Manifest.<UpdateManifest>d__9 : IEnumerator<object>, IEnume
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x14BD1C0 Offset: 0x14BB7C0 VA: 0x1814BD1C0 Slot: 6
+	// RVA: 0x14BD480 Offset: 0x14BBA80 VA: 0x1814BD480 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -302,7 +302,7 @@ private sealed class Manifest.<UpdateManifest>d__9 : IEnumerator<object>, IEnume
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14BD520 Offset: 0x14BBB20 VA: 0x1814BD520 Slot: 8
+	// RVA: 0x14BD7E0 Offset: 0x14BBDE0 VA: 0x1814BD7E0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -328,7 +328,7 @@ public class Manifest // TypeDefIndex: 6244
 
 	// Methods
 
-	// RVA: 0x14B4F40 Offset: 0x14B3540 VA: 0x1814B4F40
+	// RVA: 0x14B5200 Offset: 0x14B3800 VA: 0x1814B5200
 	internal static Manifest FromJson(string text) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -383,7 +383,7 @@ public class Manifest.ServersInfo // TypeDefIndex: 6248
 
 	// Methods
 
-	// RVA: 0x14B8F00 Offset: 0x14B7500 VA: 0x1814B8F00
+	// RVA: 0x14B91C0 Offset: 0x14B77C0 VA: 0x1814B91C0
 	public bool IsBannedServer(string ip) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

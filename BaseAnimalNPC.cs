@@ -9,22 +9,22 @@ public class BaseAnimalNPC : BaseNpc, IAIAttack, IAITirednessAbove, IAISleep, IA
 
 	// Methods
 
-	// RVA: 0x7D0D50 Offset: 0x7CF350 VA: 0x1807D0D50 Slot: 49
+	// RVA: 0x7D0E60 Offset: 0x7CF460 VA: 0x1807D0E60 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x7D1200 Offset: 0x7CF800 VA: 0x1807D1200 Slot: 50
+	// RVA: 0x7D1310 Offset: 0x7CF910 VA: 0x1807D1310 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
 	[BaseEntity.Menu] // RVA: 0x831D0 Offset: 0x825D0 VA: 0x1800831D0
 	[BaseEntity.Menu.Description] // RVA: 0x831D0 Offset: 0x825D0 VA: 0x1800831D0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x831D0 Offset: 0x825D0 VA: 0x1800831D0
-	// RVA: 0x7D10C0 Offset: 0x7CF6C0 VA: 0x1807D10C0
+	// RVA: 0x7D11D0 Offset: 0x7CF7D0 VA: 0x1807D11D0
 	public void MenuDesignAI(BasePlayer ply) { }
 
-	// RVA: 0x7D0CB0 Offset: 0x7CF2B0 VA: 0x1807D0CB0
+	// RVA: 0x7D0DC0 Offset: 0x7CF3C0 VA: 0x1807D0DC0
 	public bool CanDesignAI(BasePlayer player) { }
 
-	// RVA: 0x7D1190 Offset: 0x7CF790 VA: 0x1807D1190
+	// RVA: 0x7D12A0 Offset: 0x7CF8A0 VA: 0x1807D12A0
 	public void .ctor() { }
 
 }

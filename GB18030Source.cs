@@ -13,31 +13,31 @@ internal class GB18030Source // TypeDefIndex: 7833
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	// RVA: 0x2250600 Offset: 0x224EC00 VA: 0x182250600
+	// RVA: 0x22508C0 Offset: 0x224EEC0 VA: 0x1822508C0
 	private static void .cctor() { }
 
-	// RVA: 0x22504E0 Offset: 0x224EAE0 VA: 0x1822504E0
+	// RVA: 0x22507A0 Offset: 0x224EDA0 VA: 0x1822507A0
 	public static void Unlinear(byte[] bytes, int start, long gbx) { }
 
-	// RVA: 0x2250430 Offset: 0x224EA30 VA: 0x182250430
+	// RVA: 0x22506F0 Offset: 0x224ECF0 VA: 0x1822506F0
 	public static void Unlinear(byte* bytes, long gbx) { }
 
-	// RVA: 0x224FC80 Offset: 0x224E280 VA: 0x18224FC80
+	// RVA: 0x224FF40 Offset: 0x224E540 VA: 0x18224FF40
 	public static long FromGBX(byte[] bytes, int start) { }
 
-	// RVA: 0x2250100 Offset: 0x224E700 VA: 0x182250100
+	// RVA: 0x22503C0 Offset: 0x224E9C0 VA: 0x1822503C0
 	public static long FromUCSSurrogate(int cp) { }
 
-	// RVA: 0x2250160 Offset: 0x224E760 VA: 0x182250160
+	// RVA: 0x2250420 Offset: 0x224EA20 VA: 0x182250420
 	public static long FromUCS(int cp) { }
 
-	// RVA: 0x224FC30 Offset: 0x224E230 VA: 0x18224FC30
+	// RVA: 0x224FEF0 Offset: 0x224E4F0 VA: 0x18224FEF0
 	private static long FromGBXRaw(byte b1, byte b2, byte b3, byte b4, bool supp) { }
 
-	// RVA: 0x22503C0 Offset: 0x224E9C0 VA: 0x1822503C0
+	// RVA: 0x2250680 Offset: 0x224EC80 VA: 0x182250680
 	private static int ToUcsRaw(int idx) { }
 
-	// RVA: 0x2250300 Offset: 0x224E900 VA: 0x182250300
+	// RVA: 0x22505C0 Offset: 0x224EBC0 VA: 0x1822505C0
 	private static long ToGbxRaw(int idx) { }
 
 }
@@ -52,7 +52,7 @@ private class GB18030Source.GB18030Map // TypeDefIndex: 7834
 
 	// Methods
 
-	// RVA: 0x224FBD0 Offset: 0x224E1D0 VA: 0x18224FBD0
+	// RVA: 0x224FE90 Offset: 0x224E490 VA: 0x18224FE90
 	public void .ctor(int ustart, int uend, long gstart, long gend, bool dummy) { }
 
 }

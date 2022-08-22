@@ -16,7 +16,7 @@ public class RazerChromaService : IRgbService // TypeDefIndex: 7713
 
 	// Methods
 
-	// RVA: 0x21BFE10 Offset: 0x21BE410 VA: 0x1821BFE10
+	// RVA: 0x21C00D0 Offset: 0x21BE6D0 VA: 0x1821C00D0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -28,46 +28,46 @@ public class RazerChromaService : IRgbService // TypeDefIndex: 7713
 	private void set_IsConnected(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21BFEE0 Offset: 0x21BE4E0 VA: 0x1821BFEE0 Slot: 5
+	// RVA: 0x21C01A0 Offset: 0x21BE7A0 VA: 0x1821C01A0 Slot: 5
 	public Vector3 get_ColorCorrection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21BFF00 Offset: 0x21BE500 VA: 0x1821BFF00 Slot: 6
+	// RVA: 0x21C01C0 Offset: 0x21BE7C0 VA: 0x1821C01C0 Slot: 6
 	public void set_ColorCorrection(Vector3 value) { }
 
-	// RVA: 0x21BF360 Offset: 0x21BD960 VA: 0x1821BF360 Slot: 7
+	// RVA: 0x21BF620 Offset: 0x21BDC20 VA: 0x1821BF620 Slot: 7
 	public ValueTask Start() { }
 
-	// RVA: 0x21BF930 Offset: 0x21BDF30 VA: 0x1821BF930 Slot: 8
+	// RVA: 0x21BFBF0 Offset: 0x21BE1F0 VA: 0x1821BFBF0 Slot: 8
 	public ValueTask Stop() { }
 
-	// RVA: 0x21BFD40 Offset: 0x21BE340 VA: 0x1821BFD40 Slot: 9
+	// RVA: 0x21C0000 Offset: 0x21BE600 VA: 0x1821C0000 Slot: 9
 	public ValueTask Update() { }
 
-	// RVA: 0x21BF7A0 Offset: 0x21BDDA0 VA: 0x1821BF7A0 Slot: 10
+	// RVA: 0x21BFA60 Offset: 0x21BE060 VA: 0x1821BFA60 Slot: 10
 	public void StaticColor(Color color) { }
 
-	// RVA: 0x21BEDF0 Offset: 0x21BD3F0 VA: 0x1821BEDF0 Slot: 11
+	// RVA: 0x21BF0B0 Offset: 0x21BD6B0 VA: 0x1821BF0B0 Slot: 11
 	public void PulseColor(Color color, float duration) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 12
 	public void Event(RgbEventType type) { }
 
-	// RVA: 0x21BEC60 Offset: 0x21BD260 VA: 0x1821BEC60
+	// RVA: 0x21BEF20 Offset: 0x21BD520 VA: 0x1821BEF20
 	private void CalculateAndRenderColor() { }
 
-	// RVA: 0x21BEFE0 Offset: 0x21BD5E0 VA: 0x1821BEFE0
+	// RVA: 0x21BF2A0 Offset: 0x21BD8A0 VA: 0x1821BF2A0
 	private static void SetColor(Color32 color) { }
 
-	// RVA: 0x21BEDD0 Offset: 0x21BD3D0 VA: 0x1821BEDD0
+	// RVA: 0x21BF090 Offset: 0x21BD690 VA: 0x1821BF090
 	private static int ColorToInt32(byte r, byte g, byte b) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21BFB70 Offset: 0x21BE170 VA: 0x1821BFB70
+	// RVA: 0x21BFE30 Offset: 0x21BE430 VA: 0x1821BFE30
 	internal static void <SetColor>g__EnableEffect|21_0(Guid effectId) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21BFAE0 Offset: 0x21BE0E0 VA: 0x1821BFAE0
+	// RVA: 0x21BFDA0 Offset: 0x21BE3A0 VA: 0x1821BFDA0
 	internal static void <SetColor>g__CheckCreateEffect|21_1(int result) { }
 
 }

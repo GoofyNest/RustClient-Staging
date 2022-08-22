@@ -5,19 +5,19 @@ public class ObjectMotionVectorFix : MonoBehaviour // TypeDefIndex: 10688
 
 	// Methods
 
-	// RVA: 0x9D6CB0 Offset: 0x9D52B0 VA: 0x1809D6CB0
+	// RVA: 0x9D6F70 Offset: 0x9D5570 VA: 0x1809D6F70
 	private void OnBecameVisible() { }
 
-	// RVA: 0x9D6AD0 Offset: 0x9D50D0 VA: 0x1809D6AD0
+	// RVA: 0x9D6D90 Offset: 0x9D5390 VA: 0x1809D6D90
 	public static void DisableObjectMotionVectors(LODGroup lodGroup) { }
 
-	// RVA: 0x9D6E10 Offset: 0x9D5410 VA: 0x1809D6E10
+	// RVA: 0x9D70D0 Offset: 0x9D56D0 VA: 0x1809D70D0
 	public static void RestoreObjectMotionVectors() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0x9D6F20 Offset: 0x9D5520 VA: 0x1809D6F20
+	// RVA: 0x9D71E0 Offset: 0x9D57E0 VA: 0x1809D71E0
 	private static void .cctor() { }
 
 }

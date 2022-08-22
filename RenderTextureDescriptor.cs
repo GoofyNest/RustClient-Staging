@@ -188,7 +188,7 @@ public struct RenderTextureDescriptor // TypeDefIndex: 3451
 	// RVA: 0x222830 Offset: 0x221C30 VA: 0x180222830
 	public void set_useDynamicScale(bool value) { }
 
-	// RVA: 0x19B08E0 Offset: 0x19AEEE0 VA: 0x1819B08E0
+	// RVA: 0x19B0BA0 Offset: 0x19AF1A0 VA: 0x1819B0BA0
 	private static void .cctor() { }
 
 }

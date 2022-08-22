@@ -1,19 +1,19 @@
 public sealed class DESCryptoServiceProvider : DES // TypeDefIndex: 954
 {	// Methods
 
-	// RVA: 0x16FD040 Offset: 0x16FB640 VA: 0x1816FD040
+	// RVA: 0x16FD300 Offset: 0x16FB900 VA: 0x1816FD300
 	public void .ctor() { }
 
-	// RVA: 0x16FCD60 Offset: 0x16FB360 VA: 0x1816FCD60 Slot: 21
+	// RVA: 0x16FD020 Offset: 0x16FB620 VA: 0x1816FD020 Slot: 21
 	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV) { }
 
-	// RVA: 0x16FCBF0 Offset: 0x16FB1F0 VA: 0x1816FCBF0 Slot: 23
+	// RVA: 0x16FCEB0 Offset: 0x16FB4B0 VA: 0x1816FCEB0 Slot: 23
 	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV) { }
 
-	// RVA: 0x16FCF50 Offset: 0x16FB550 VA: 0x1816FCF50 Slot: 24
+	// RVA: 0x16FD210 Offset: 0x16FB810 VA: 0x1816FD210 Slot: 24
 	public override void GenerateKey() { }
 
-	// RVA: 0x16FCED0 Offset: 0x16FB4D0 VA: 0x1816FCED0 Slot: 25
+	// RVA: 0x16FD190 Offset: 0x16FB790 VA: 0x1816FD190 Slot: 25
 	public override void GenerateIV() { }
 
 }

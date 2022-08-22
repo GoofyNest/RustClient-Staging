@@ -9,19 +9,19 @@ public class Stag : BaseAnimalNPC // TypeDefIndex: 8942
 
 	// Methods
 
-	// RVA: 0xA8A480 Offset: 0xA88A80 VA: 0x180A8A480 Slot: 76
+	// RVA: 0xA8A740 Offset: 0xA88D40 VA: 0x180A8A740 Slot: 76
 	public override float get_RealisticMass() { }
 
 	// RVA: 0x50E1B0 Offset: 0x50C7B0 VA: 0x18050E1B0 Slot: 86
 	public override BaseEntity.TraitFlag get_Traits() { }
 
-	// RVA: 0xA8A410 Offset: 0xA88A10 VA: 0x180A8A410 Slot: 122
+	// RVA: 0xA8A6D0 Offset: 0xA88CD0 VA: 0x180A8A6D0 Slot: 122
 	public override string Categorize() { }
 
 	// RVA: 0x50E190 Offset: 0x50C790 VA: 0x18050E190
 	public void .ctor() { }
 
-	// RVA: 0xA8A440 Offset: 0xA88A40 VA: 0x180A8A440
+	// RVA: 0xA8A700 Offset: 0xA88D00 VA: 0x180A8A700
 	private static void .cctor() { }
 
 }

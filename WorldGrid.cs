@@ -15,35 +15,35 @@ public class WorldGrid : SingletonComponent<WorldGrid>, IClientComponent // Type
 
 	// Methods
 
-	// RVA: 0x8FFA20 Offset: 0x8FE020 VA: 0x1808FFA20
+	// RVA: 0x8FFB30 Offset: 0x8FE130 VA: 0x1808FFB30
 	protected void OnEnable() { }
 
-	// RVA: 0x8FFA90 Offset: 0x8FE090 VA: 0x1808FFA90
+	// RVA: 0x8FFBA0 Offset: 0x8FE1A0 VA: 0x1808FFBA0
 	public static void RefreshAll() { }
 
-	// RVA: 0x8FFB60 Offset: 0x8FE160 VA: 0x1808FFB60
+	// RVA: 0x8FFC70 Offset: 0x8FE270 VA: 0x1808FFC70
 	public void Refresh() { }
 
-	// RVA: 0x8FF400 Offset: 0x8FDA00 VA: 0x1808FF400
+	// RVA: 0x8FF510 Offset: 0x8FDB10 VA: 0x1808FF510
 	public static void Add(string category, Prefab prefab, Vector3 position, Quaternion rotation, Vector3 scale) { }
 
-	// RVA: 0x8FF930 Offset: 0x8FDF30 VA: 0x1808FF930
+	// RVA: 0x8FFA40 Offset: 0x8FE040 VA: 0x1808FFA40
 	private void Init() { }
 
-	// RVA: 0x8FFE60 Offset: 0x8FE460 VA: 0x1808FFE60
+	// RVA: 0x8FFF70 Offset: 0x8FE570 VA: 0x1808FFF70
 	public bool get_NeedsTimeout() { }
 
-	// RVA: 0x8FFD10 Offset: 0x8FE310 VA: 0x1808FFD10
+	// RVA: 0x8FFE20 Offset: 0x8FE420 VA: 0x1808FFE20
 	public void ResetTimeout() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xB3410 Offset: 0xB2810 VA: 0x1800B3410
-	// RVA: 0x8FFD50 Offset: 0x8FE350 VA: 0x1808FFD50
+	// RVA: 0x8FFE60 Offset: 0x8FE460 VA: 0x1808FFE60
 	private IEnumerator UpdateCoroutine() { }
 
-	// RVA: 0x8FF870 Offset: 0x8FDE70 VA: 0x1808FF870
+	// RVA: 0x8FF980 Offset: 0x8FDF80 VA: 0x1808FF980
 	private Vector2i GetCurrentCellCoordinates() { }
 
-	// RVA: 0x8FFDC0 Offset: 0x8FE3C0 VA: 0x1808FFDC0
+	// RVA: 0x8FFED0 Offset: 0x8FE4D0 VA: 0x1808FFED0
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -77,7 +77,7 @@ private sealed class WorldGrid.<UpdateCoroutine>d__17 : IEnumerator<object>, IEn
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x8EE3C0 Offset: 0x8EC9C0 VA: 0x1808EE3C0 Slot: 6
+	// RVA: 0x8EE4D0 Offset: 0x8ECAD0 VA: 0x1808EE4D0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -85,7 +85,7 @@ private sealed class WorldGrid.<UpdateCoroutine>d__17 : IEnumerator<object>, IEn
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8EE7A0 Offset: 0x8ECDA0 VA: 0x1808EE7A0 Slot: 8
+	// RVA: 0x8EE8B0 Offset: 0x8ECEB0 VA: 0x1808EE8B0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

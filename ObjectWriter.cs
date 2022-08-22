@@ -27,97 +27,97 @@ internal sealed class ObjectWriter // TypeDefIndex: 1115
 
 	// Methods
 
-	// RVA: 0x11FFD00 Offset: 0x11FE300 VA: 0x1811FFD00
+	// RVA: 0x11FFFC0 Offset: 0x11FE5C0 VA: 0x1811FFFC0
 	internal void .ctor(ISurrogateSelector selector, StreamingContext context, InternalFE formatterEnums, SerializationBinder binder) { }
 
-	// RVA: 0x11FC690 Offset: 0x11FAC90 VA: 0x1811FC690
+	// RVA: 0x11FC950 Offset: 0x11FAF50 VA: 0x1811FC950
 	internal void Serialize(object graph, Header[] inHeaders, __BinaryWriter serWriter, bool fCheck) { }
 
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	internal SerializationObjectManager get_ObjectManager() { }
 
-	// RVA: 0x11FF320 Offset: 0x11FD920 VA: 0x1811FF320
+	// RVA: 0x11FF5E0 Offset: 0x11FDBE0 VA: 0x1811FF5E0
 	private void Write(WriteObjectInfo objectInfo, NameInfo memberNameInfo, NameInfo typeNameInfo) { }
 
-	// RVA: 0x11FEE80 Offset: 0x11FD480 VA: 0x1811FEE80
+	// RVA: 0x11FF140 Offset: 0x11FD740 VA: 0x1811FF140
 	private void Write(WriteObjectInfo objectInfo, NameInfo memberNameInfo, NameInfo typeNameInfo, string[] memberNames, Type[] memberTypes, object[] memberData, WriteObjectInfo[] memberObjectInfos) { }
 
-	// RVA: 0x11FE340 Offset: 0x11FC940 VA: 0x1811FE340
+	// RVA: 0x11FE600 Offset: 0x11FCC00 VA: 0x1811FE600
 	private void WriteMemberSetup(WriteObjectInfo objectInfo, NameInfo memberNameInfo, NameInfo typeNameInfo, string memberName, Type memberType, object memberData, WriteObjectInfo memberObjectInfo) { }
 
-	// RVA: 0x11FE4B0 Offset: 0x11FCAB0 VA: 0x1811FE4B0
+	// RVA: 0x11FE770 Offset: 0x11FCD70 VA: 0x1811FE770
 	private void WriteMembers(NameInfo memberNameInfo, NameInfo memberTypeNameInfo, object memberData, WriteObjectInfo objectInfo, NameInfo typeNameInfo, WriteObjectInfo memberObjectInfo) { }
 
-	// RVA: 0x11FD510 Offset: 0x11FBB10 VA: 0x1811FD510
+	// RVA: 0x11FD7D0 Offset: 0x11FBDD0 VA: 0x1811FD7D0
 	private void WriteArray(WriteObjectInfo objectInfo, NameInfo memberNameInfo, WriteObjectInfo memberObjectInfo) { }
 
-	// RVA: 0x11FD120 Offset: 0x11FB720 VA: 0x1811FD120
+	// RVA: 0x11FD3E0 Offset: 0x11FB9E0 VA: 0x1811FD3E0
 	private void WriteArrayMember(WriteObjectInfo objectInfo, NameInfo arrayElemTypeNameInfo, object data) { }
 
-	// RVA: 0x11FEA80 Offset: 0x11FD080 VA: 0x1811FEA80
+	// RVA: 0x11FED40 Offset: 0x11FD340 VA: 0x1811FED40
 	private void WriteRectangle(WriteObjectInfo objectInfo, int rank, int[] maxA, Array array, NameInfo arrayElemNameTypeInfo, int[] lowerBoundA) { }
 
-	// RVA: 0x11FC130 Offset: 0x11FA730 VA: 0x1811FC130
+	// RVA: 0x11FC3F0 Offset: 0x11FA9F0 VA: 0x1811FC3F0
 	private object GetNext(out long objID) { }
 
-	// RVA: 0x11FC2C0 Offset: 0x11FA8C0 VA: 0x1811FC2C0
+	// RVA: 0x11FC580 Offset: 0x11FAB80 VA: 0x1811FC580
 	private long InternalGetId(object obj, bool assignUniqueIdToValueType, Type type, out bool isNew) { }
 
-	// RVA: 0x11FC570 Offset: 0x11FAB70 VA: 0x1811FC570
+	// RVA: 0x11FC830 Offset: 0x11FAE30 VA: 0x1811FC830
 	private long Schedule(object obj, bool assignUniqueIdToValueType, Type type) { }
 
-	// RVA: 0x11FC420 Offset: 0x11FAA20 VA: 0x1811FC420
+	// RVA: 0x11FC6E0 Offset: 0x11FACE0 VA: 0x1811FC6E0
 	private long Schedule(object obj, bool assignUniqueIdToValueType, Type type, WriteObjectInfo objectInfo) { }
 
-	// RVA: 0x11FE110 Offset: 0x11FC710 VA: 0x1811FE110
+	// RVA: 0x11FE3D0 Offset: 0x11FC9D0 VA: 0x1811FE3D0
 	private bool WriteKnownValueClass(NameInfo memberNameInfo, NameInfo typeNameInfo, object data) { }
 
-	// RVA: 0x11FEA60 Offset: 0x11FD060 VA: 0x1811FEA60
+	// RVA: 0x11FED20 Offset: 0x11FD320 VA: 0x1811FED20
 	private void WriteObjectRef(NameInfo nameInfo, long objectId) { }
 
-	// RVA: 0x11FED10 Offset: 0x11FD310 VA: 0x1811FED10
+	// RVA: 0x11FEFD0 Offset: 0x11FD5D0 VA: 0x1811FEFD0
 	private void WriteString(NameInfo memberNameInfo, NameInfo typeNameInfo, object stringObject) { }
 
-	// RVA: 0x11FBCE0 Offset: 0x11FA2E0 VA: 0x1811FBCE0
+	// RVA: 0x11FBFA0 Offset: 0x11FA5A0 VA: 0x1811FBFA0
 	private bool CheckForNull(WriteObjectInfo objectInfo, NameInfo memberNameInfo, NameInfo typeNameInfo, object data) { }
 
-	// RVA: 0x11FECE0 Offset: 0x11FD2E0 VA: 0x1811FECE0
+	// RVA: 0x11FEFA0 Offset: 0x11FD5A0 VA: 0x1811FEFA0
 	private void WriteSerializedStreamHeader(long topId, long headerId) { }
 
-	// RVA: 0x11FCF80 Offset: 0x11FB580 VA: 0x1811FCF80
+	// RVA: 0x11FD240 Offset: 0x11FB840 VA: 0x1811FD240
 	private NameInfo TypeToNameInfo(Type type, WriteObjectInfo objectInfo, InternalPrimitiveTypeE code, NameInfo nameInfo) { }
 
-	// RVA: 0x11FCF20 Offset: 0x11FB520 VA: 0x1811FCF20
+	// RVA: 0x11FD1E0 Offset: 0x11FB7E0 VA: 0x1811FD1E0
 	private NameInfo TypeToNameInfo(Type type) { }
 
-	// RVA: 0x11FCD70 Offset: 0x11FB370 VA: 0x1811FCD70
+	// RVA: 0x11FD030 Offset: 0x11FB630 VA: 0x1811FD030
 	private NameInfo TypeToNameInfo(WriteObjectInfo objectInfo) { }
 
-	// RVA: 0x11FCE20 Offset: 0x11FB420 VA: 0x1811FCE20
+	// RVA: 0x11FD0E0 Offset: 0x11FB6E0 VA: 0x1811FD0E0
 	private NameInfo TypeToNameInfo(WriteObjectInfo objectInfo, NameInfo nameInfo) { }
 
-	// RVA: 0x11FD070 Offset: 0x11FB670 VA: 0x1811FD070
+	// RVA: 0x11FD330 Offset: 0x11FB930 VA: 0x1811FD330
 	private void TypeToNameInfo(Type type, NameInfo nameInfo) { }
 
-	// RVA: 0x11FC3B0 Offset: 0x11FA9B0 VA: 0x1811FC3B0
+	// RVA: 0x11FC670 Offset: 0x11FAC70 VA: 0x1811FC670
 	private NameInfo MemberToNameInfo(string name) { }
 
-	// RVA: 0x11FCCB0 Offset: 0x11FB2B0 VA: 0x1811FCCB0
+	// RVA: 0x11FCF70 Offset: 0x11FB570 VA: 0x1811FCF70
 	internal InternalPrimitiveTypeE ToCode(Type type) { }
 
-	// RVA: 0x11FBDB0 Offset: 0x11FA3B0 VA: 0x1811FBDB0
+	// RVA: 0x11FC070 Offset: 0x11FA670 VA: 0x1811FC070
 	private long GetAssemblyId(WriteObjectInfo objectInfo) { }
 
-	// RVA: 0x98C070 Offset: 0x98A670 VA: 0x18098C070
+	// RVA: 0x98C180 Offset: 0x98A780 VA: 0x18098C180
 	private Type GetType(object obj) { }
 
-	// RVA: 0x11FC040 Offset: 0x11FA640 VA: 0x1811FC040
+	// RVA: 0x11FC300 Offset: 0x11FA900 VA: 0x1811FC300
 	private NameInfo GetNameInfo() { }
 
-	// RVA: 0xF9BFE0 Offset: 0xF9A5E0 VA: 0x180F9BFE0
+	// RVA: 0xF9C2A0 Offset: 0xF9A8A0 VA: 0x180F9C2A0
 	private bool CheckTypeFormat(FormatterTypeStyle test, FormatterTypeStyle want) { }
 
-	// RVA: 0x11FC3F0 Offset: 0x11FA9F0 VA: 0x1811FC3F0
+	// RVA: 0x11FC6B0 Offset: 0x11FACB0 VA: 0x1811FC6B0
 	private void PutNameInfo(NameInfo nameInfo) { }
 
 }

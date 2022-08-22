@@ -5,10 +5,10 @@ public class DiagnosticsConfigurationHandler : IConfigurationSectionHandler // T
 public class DiagnosticsConfigurationHandler : IConfigurationSectionHandler // TypeDefIndex: 3185
 	// Methods
 
-	// RVA: 0x172B100 Offset: 0x1729700 VA: 0x18172B100
+	// RVA: 0x172B3C0 Offset: 0x17299C0 VA: 0x18172B3C0
 	public void .ctor() { }
 
-	// RVA: 0x172B0D0 Offset: 0x17296D0 VA: 0x18172B0D0 Slot: 4
+	// RVA: 0x172B390 Offset: 0x1729990 VA: 0x18172B390 Slot: 4
 	public virtual object Create(object parent, object configContext, XmlNode section) { }
 
 }

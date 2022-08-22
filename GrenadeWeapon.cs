@@ -4,16 +4,16 @@ public class GrenadeWeapon : ThrownWeapon // TypeDefIndex: 9466
 
 	// Methods
 
-	// RVA: 0xCA5060 Offset: 0xCA3660 VA: 0x180CA5060 Slot: 138
+	// RVA: 0xCA5320 Offset: 0xCA3920 VA: 0x180CA5320 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0xCA5210 Offset: 0xCA3810 VA: 0x180CA5210 Slot: 144
+	// RVA: 0xCA54D0 Offset: 0xCA3AD0 VA: 0x180CA54D0 Slot: 144
 	public override void OnViewmodelEvent(string name) { }
 
-	// RVA: 0xCA5450 Offset: 0xCA3A50 VA: 0x180CA5450 Slot: 153
+	// RVA: 0xCA5710 Offset: 0xCA3D10 VA: 0x180CA5710 Slot: 153
 	public override void ProcessSpectatorViewmodelEvent(ViewModel vm, BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0xCA54E0 Offset: 0xCA3AE0 VA: 0x180CA54E0
+	// RVA: 0xCA57A0 Offset: 0xCA3DA0 VA: 0x180CA57A0
 	public void .ctor() { }
 
 }

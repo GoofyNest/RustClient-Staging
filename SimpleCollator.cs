@@ -17,145 +17,145 @@ internal class SimpleCollator // TypeDefIndex: 39
 
 	// Methods
 
-	// RVA: 0x1650440 Offset: 0x164EA40 VA: 0x181650440
+	// RVA: 0x1650700 Offset: 0x164ED00 VA: 0x181650700
 	public void .ctor(CultureInfo culture) { }
 
-	// RVA: 0x16501F0 Offset: 0x164E7F0 VA: 0x1816501F0
+	// RVA: 0x16504B0 Offset: 0x164EAB0 VA: 0x1816504B0
 	private void SetCJKTable(CultureInfo culture, ref CodePointIndexer cjkIndexer, ref byte* catTable, ref byte* lv1Table, ref CodePointIndexer lv2Indexer, ref byte* lv2Table) { }
 
-	// RVA: 0x164CEE0 Offset: 0x164B4E0 VA: 0x18164CEE0
+	// RVA: 0x164D1A0 Offset: 0x164B7A0 VA: 0x18164D1A0
 	private static CultureInfo GetNeutralCulture(CultureInfo info) { }
 
-	// RVA: 0x164AE50 Offset: 0x1649450 VA: 0x18164AE50
+	// RVA: 0x164B110 Offset: 0x1649710 VA: 0x18164B110
 	private byte Category(int cp) { }
 
-	// RVA: 0x164EF00 Offset: 0x164D500 VA: 0x18164EF00
+	// RVA: 0x164F1C0 Offset: 0x164D7C0 VA: 0x18164F1C0
 	private byte Level1(int cp) { }
 
-	// RVA: 0x164EFA0 Offset: 0x164D5A0 VA: 0x18164EFA0
+	// RVA: 0x164F260 Offset: 0x164D860 VA: 0x18164F260
 	private byte Level2(int cp, SimpleCollator.ExtenderType ext) { }
 
-	// RVA: 0x164E1C0 Offset: 0x164C7C0 VA: 0x18164E1C0
+	// RVA: 0x164E480 Offset: 0x164CA80 VA: 0x18164E480
 	private static bool IsHalfKana(int cp, CompareOptions opt) { }
 
-	// RVA: 0x164CC00 Offset: 0x164B200 VA: 0x18164CC00
+	// RVA: 0x164CEC0 Offset: 0x164B4C0 VA: 0x18164CEC0
 	private Contraction GetContraction(string s, int start, int end) { }
 
-	// RVA: 0x164CCE0 Offset: 0x164B2E0 VA: 0x18164CCE0
+	// RVA: 0x164CFA0 Offset: 0x164B5A0 VA: 0x18164CFA0
 	private Contraction GetContraction(string s, int start, int end, Contraction[] clist) { }
 
-	// RVA: 0x164D4E0 Offset: 0x164BAE0 VA: 0x18164D4E0
+	// RVA: 0x164D7A0 Offset: 0x164BDA0 VA: 0x18164D7A0
 	private Contraction GetTailContraction(string s, int start, int end) { }
 
-	// RVA: 0x164D5C0 Offset: 0x164BBC0 VA: 0x18164D5C0
+	// RVA: 0x164D880 Offset: 0x164BE80 VA: 0x18164D880
 	private Contraction GetTailContraction(string s, int start, int end, Contraction[] clist) { }
 
-	// RVA: 0x164C940 Offset: 0x164AF40 VA: 0x18164C940
+	// RVA: 0x164CC00 Offset: 0x164B200 VA: 0x18164CC00
 	private int FilterOptions(int i, CompareOptions opt) { }
 
-	// RVA: 0x164CE30 Offset: 0x164B430 VA: 0x18164CE30
+	// RVA: 0x164D0F0 Offset: 0x164B6F0 VA: 0x18164D0F0
 	private SimpleCollator.ExtenderType GetExtenderType(int i) { }
 
-	// RVA: 0x1650350 Offset: 0x164E950 VA: 0x181650350
+	// RVA: 0x1650610 Offset: 0x164EC10 VA: 0x181650610
 	private static byte ToDashTypeValue(SimpleCollator.ExtenderType ext, CompareOptions opt) { }
 
-	// RVA: 0x164C720 Offset: 0x164AD20 VA: 0x18164C720
+	// RVA: 0x164C9E0 Offset: 0x164AFE0 VA: 0x18164C9E0
 	private int FilterExtender(int i, SimpleCollator.ExtenderType ext, CompareOptions opt) { }
 
-	// RVA: 0x164E250 Offset: 0x164C850 VA: 0x18164E250
+	// RVA: 0x164E510 Offset: 0x164CB10 VA: 0x18164E510
 	private static bool IsIgnorable(int i, CompareOptions opt) { }
 
-	// RVA: 0x164E4A0 Offset: 0x164CAA0 VA: 0x18164E4A0
+	// RVA: 0x164E760 Offset: 0x164CD60 VA: 0x18164E760
 	private bool IsSafe(int i) { }
 
-	// RVA: 0x164CF70 Offset: 0x164B570 VA: 0x18164CF70
+	// RVA: 0x164D230 Offset: 0x164B830 VA: 0x18164D230
 	public SortKey GetSortKey(string s, CompareOptions options) { }
 
-	// RVA: 0x164D060 Offset: 0x164B660 VA: 0x18164D060
+	// RVA: 0x164D320 Offset: 0x164B920 VA: 0x18164D320
 	public SortKey GetSortKey(string s, int start, int length, CompareOptions options) { }
 
-	// RVA: 0x164D160 Offset: 0x164B760 VA: 0x18164D160
+	// RVA: 0x164D420 Offset: 0x164BA20 VA: 0x18164D420
 	private void GetSortKey(string s, int start, int end, SortKeyBuffer buf, CompareOptions opt) { }
 
-	// RVA: 0x164C1D0 Offset: 0x164A7D0 VA: 0x18164C1D0
+	// RVA: 0x164C490 Offset: 0x164AA90 VA: 0x18164C490
 	private void FillSortKeyRaw(int i, SimpleCollator.ExtenderType ext, SortKeyBuffer buf, CompareOptions opt) { }
 
-	// RVA: 0x164C670 Offset: 0x164AC70 VA: 0x18164C670
+	// RVA: 0x164C930 Offset: 0x164AF30 VA: 0x18164C930
 	private void FillSurrogateSortKeyRaw(int i, SortKeyBuffer buf) { }
 
-	// RVA: 0x164C0D0 Offset: 0x164A6D0 VA: 0x18164C0D0
+	// RVA: 0x164C390 Offset: 0x164A990 VA: 0x18164C390
 	internal int Compare(string s1, int idx1, int len1, string s2, int idx2, int len2, CompareOptions options) { }
 
-	// RVA: 0x164AEF0 Offset: 0x16494F0 VA: 0x18164AEF0
+	// RVA: 0x164B1B0 Offset: 0x16497B0 VA: 0x18164B1B0
 	private void ClearBuffer(byte* buffer, int size) { }
 
-	// RVA: 0x164AF30 Offset: 0x1649530 VA: 0x18164AF30
+	// RVA: 0x164B1F0 Offset: 0x16497F0 VA: 0x18164B1F0
 	private int CompareInternal(string s1, int idx1, int len1, string s2, int idx2, int len2, out bool targetConsumed, out bool sourceConsumed, bool skipHeadingExtenders, bool immediateBreakup, ref SimpleCollator.Context ctx) { }
 
-	// RVA: 0x164AF10 Offset: 0x1649510 VA: 0x18164AF10
+	// RVA: 0x164B1D0 Offset: 0x16497D0 VA: 0x18164B1D0
 	private int CompareFlagPair(bool b1, bool b2) { }
 
-	// RVA: 0x164E2E0 Offset: 0x164C8E0 VA: 0x18164E2E0
+	// RVA: 0x164E5A0 Offset: 0x164CBA0 VA: 0x18164E5A0
 	public bool IsPrefix(string src, string target, CompareOptions opt) { }
 
-	// RVA: 0x164E320 Offset: 0x164C920 VA: 0x18164E320
+	// RVA: 0x164E5E0 Offset: 0x164CBE0 VA: 0x18164E5E0
 	public bool IsPrefix(string s, string target, int start, int length, CompareOptions opt) { }
 
-	// RVA: 0x164E420 Offset: 0x164CA20 VA: 0x18164E420
+	// RVA: 0x164E6E0 Offset: 0x164CCE0 VA: 0x18164E6E0
 	private bool IsPrefix(string s, string target, int start, int length, bool skipHeadingExtenders, ref SimpleCollator.Context ctx) { }
 
-	// RVA: 0x164E5D0 Offset: 0x164CBD0 VA: 0x18164E5D0
+	// RVA: 0x164E890 Offset: 0x164CE90 VA: 0x18164E890
 	public bool IsSuffix(string src, string target, CompareOptions opt) { }
 
-	// RVA: 0x164E510 Offset: 0x164CB10 VA: 0x18164E510
+	// RVA: 0x164E7D0 Offset: 0x164CDD0 VA: 0x18164E7D0
 	public bool IsSuffix(string s, string target, int start, int length, CompareOptions opt) { }
 
-	// RVA: 0x16500B0 Offset: 0x164E6B0 VA: 0x1816500B0
+	// RVA: 0x1650370 Offset: 0x164E970 VA: 0x181650370
 	private int QuickIndexOf(string s, string target, int start, int length, out bool testWasUnable) { }
 
-	// RVA: 0x164DF00 Offset: 0x164C500 VA: 0x18164DF00
+	// RVA: 0x164E1C0 Offset: 0x164C7C0 VA: 0x18164E1C0
 	public int IndexOf(string s, string target, int start, int length, CompareOptions opt) { }
 
-	// RVA: 0x164D870 Offset: 0x164BE70 VA: 0x18164D870
+	// RVA: 0x164DB30 Offset: 0x164C130 VA: 0x18164DB30
 	private int IndexOfOrdinal(string s, string target, int start, int length) { }
 
-	// RVA: 0x164D7F0 Offset: 0x164BDF0 VA: 0x18164D7F0
+	// RVA: 0x164DAB0 Offset: 0x164C0B0 VA: 0x18164DAB0
 	private int IndexOfOrdinal(string s, char target, int start, int length) { }
 
-	// RVA: 0x164D930 Offset: 0x164BF30 VA: 0x18164D930
+	// RVA: 0x164DBF0 Offset: 0x164C1F0 VA: 0x18164DBF0
 	private int IndexOfSortKey(string s, int start, int length, byte* sortkey, char target, int ti, bool noLv4, ref SimpleCollator.Context ctx) { }
 
-	// RVA: 0x164D9F0 Offset: 0x164BFF0 VA: 0x18164D9F0
+	// RVA: 0x164DCB0 Offset: 0x164C2B0 VA: 0x18164DCB0
 	private int IndexOf(string s, string target, int start, int length, byte* targetSortKey, ref SimpleCollator.Context ctx) { }
 
-	// RVA: 0x164ED70 Offset: 0x164D370 VA: 0x18164ED70
+	// RVA: 0x164F030 Offset: 0x164D630 VA: 0x18164F030
 	public int LastIndexOf(string s, string target, int start, int length, CompareOptions opt) { }
 
-	// RVA: 0x164E690 Offset: 0x164CC90 VA: 0x18164E690
+	// RVA: 0x164E950 Offset: 0x164CF50 VA: 0x18164E950
 	private int LastIndexOfOrdinal(string s, string target, int start, int length) { }
 
-	// RVA: 0x164E7C0 Offset: 0x164CDC0 VA: 0x18164E7C0
+	// RVA: 0x164EA80 Offset: 0x164D080 VA: 0x18164EA80
 	private int LastIndexOfSortKey(string s, int start, int orgStart, int length, byte* sortkey, int ti, bool noLv4, ref SimpleCollator.Context ctx) { }
 
-	// RVA: 0x164E890 Offset: 0x164CE90 VA: 0x18164E890
+	// RVA: 0x164EB50 Offset: 0x164D150 VA: 0x18164EB50
 	private int LastIndexOf(string s, string target, int start, int length, byte* targetSortKey, ref SimpleCollator.Context ctx) { }
 
-	// RVA: 0x164FCE0 Offset: 0x164E2E0 VA: 0x18164FCE0
+	// RVA: 0x164FFA0 Offset: 0x164E5A0 VA: 0x18164FFA0
 	private bool MatchesForward(string s, ref int idx, int end, int ti, byte* sortkey, bool noLv4, ref SimpleCollator.Context ctx) { }
 
-	// RVA: 0x164F930 Offset: 0x164DF30 VA: 0x18164F930
+	// RVA: 0x164FBF0 Offset: 0x164E1F0 VA: 0x18164FBF0
 	private bool MatchesForwardCore(string s, ref int idx, int end, int ti, byte* sortkey, bool noLv4, SimpleCollator.ExtenderType ext, ref Contraction ct, ref SimpleCollator.Context ctx) { }
 
-	// RVA: 0x164FEB0 Offset: 0x164E4B0 VA: 0x18164FEB0
+	// RVA: 0x1650170 Offset: 0x164E770 VA: 0x181650170
 	private bool MatchesPrimitive(CompareOptions opt, byte* source, int si, SimpleCollator.ExtenderType ext, byte* target, int ti, bool noLv4) { }
 
-	// RVA: 0x164F750 Offset: 0x164DD50 VA: 0x18164F750
+	// RVA: 0x164FA10 Offset: 0x164E010 VA: 0x18164FA10
 	private bool MatchesBackward(string s, ref int idx, int end, int orgStart, int ti, byte* sortkey, bool noLv4, ref SimpleCollator.Context ctx) { }
 
-	// RVA: 0x164F140 Offset: 0x164D740 VA: 0x18164F140
+	// RVA: 0x164F400 Offset: 0x164DA00 VA: 0x18164F400
 	private bool MatchesBackwardCore(string s, ref int idx, int end, int orgStart, int ti, byte* sortkey, bool noLv4, SimpleCollator.ExtenderType ext, ref Contraction ct, ref SimpleCollator.Context ctx) { }
 
-	// RVA: 0x1650370 Offset: 0x164E970 VA: 0x181650370
+	// RVA: 0x1650630 Offset: 0x164EC30 VA: 0x181650630
 	private static void .cctor() { }
 
 }

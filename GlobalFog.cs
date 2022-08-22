@@ -17,17 +17,17 @@ internal class GlobalFog : PostEffectsBase // TypeDefIndex: 8189
 
 	// Methods
 
-	// RVA: 0x21DFBE0 Offset: 0x21DE1E0 VA: 0x1821DFBE0 Slot: 4
+	// RVA: 0x21DFEA0 Offset: 0x21DE4A0 VA: 0x1821DFEA0 Slot: 4
 	public override bool CheckResources() { }
 
 	[ImageEffectOpaque] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21DFD90 Offset: 0x21DE390 VA: 0x1821DFD90
+	// RVA: 0x21E0050 Offset: 0x21DE650 VA: 0x1821E0050
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21DFC40 Offset: 0x21DE240 VA: 0x1821DFC40
+	// RVA: 0x21DFF00 Offset: 0x21DE500 VA: 0x1821DFF00
 	private static void CustomGraphicsBlit(RenderTexture source, RenderTexture dest, Material fxMaterial, int passNr) { }
 
-	// RVA: 0x21E0A60 Offset: 0x21DF060 VA: 0x1821E0A60
+	// RVA: 0x21E0D20 Offset: 0x21DF320 VA: 0x1821E0D20
 	public void .ctor() { }
 
 }

@@ -9,26 +9,26 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 
 	// Methods
 
-	// RVA: 0x10B75A0 Offset: 0x10B5BA0 VA: 0x1810B75A0
+	// RVA: 0x10B7860 Offset: 0x10B5E60 VA: 0x1810B7860
 	protected void .ctor() { }
 
-	// RVA: 0x872140 Offset: 0x870740 VA: 0x180872140
+	// RVA: 0x872250 Offset: 0x870850 VA: 0x180872250
 	public Button.ButtonClickedEvent get_onClick() { }
 
-	// RVA: 0x8721C0 Offset: 0x8707C0 VA: 0x1808721C0
+	// RVA: 0x8722D0 Offset: 0x8708D0 VA: 0x1808722D0
 	public void set_onClick(Button.ButtonClickedEvent value) { }
 
-	// RVA: 0x10B7510 Offset: 0x10B5B10 VA: 0x1810B7510
+	// RVA: 0x10B77D0 Offset: 0x10B5DD0 VA: 0x1810B77D0
 	private void Press() { }
 
-	// RVA: 0x10B7410 Offset: 0x10B5A10 VA: 0x1810B7410 Slot: 41
+	// RVA: 0x10B76D0 Offset: 0x10B5CD0 VA: 0x1810B76D0 Slot: 41
 	public virtual void OnPointerClick(PointerEventData eventData) { }
 
-	// RVA: 0x10B7440 Offset: 0x10B5A40 VA: 0x1810B7440 Slot: 42
+	// RVA: 0x10B7700 Offset: 0x10B5D00 VA: 0x1810B7700 Slot: 42
 	public virtual void OnSubmit(BaseEventData eventData) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xE5E90 Offset: 0xE5290 VA: 0x1800E5E90
-	// RVA: 0x10B73A0 Offset: 0x10B59A0 VA: 0x1810B73A0
+	// RVA: 0x10B7660 Offset: 0x10B5C60 VA: 0x1810B7660
 	private IEnumerator OnFinishSubmit() { }
 
 }
@@ -36,7 +36,7 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 public class Button.ButtonClickedEvent : UnityEvent // TypeDefIndex: 4906
 {	// Methods
 
-	// RVA: 0x10B7390 Offset: 0x10B5990 VA: 0x1810B7390
+	// RVA: 0x10B7650 Offset: 0x10B5C50 VA: 0x1810B7650
 	public void .ctor() { }
 
 }
@@ -63,7 +63,7 @@ private sealed class Button.<OnFinishSubmit>d__9 : IEnumerator<object>, IEnumera
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x10CEC30 Offset: 0x10CD230 VA: 0x1810CEC30 Slot: 6
+	// RVA: 0x10CEEF0 Offset: 0x10CD4F0 VA: 0x1810CEEF0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -71,7 +71,7 @@ private sealed class Button.<OnFinishSubmit>d__9 : IEnumerator<object>, IEnumera
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10CED10 Offset: 0x10CD310 VA: 0x1810CED10 Slot: 8
+	// RVA: 0x10CEFD0 Offset: 0x10CD5D0 VA: 0x1810CEFD0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

@@ -18,16 +18,16 @@ public class ByteArrayContent : HttpContent // TypeDefIndex: 5736
 
 	// Methods
 
-	// RVA: 0x10848C0 Offset: 0x1082EC0 VA: 0x1810848C0
+	// RVA: 0x1084B80 Offset: 0x1083180 VA: 0x181084B80
 	public void .ctor(byte[] content) { }
 
-	// RVA: 0x10847C0 Offset: 0x1082DC0 VA: 0x1810847C0 Slot: 5
+	// RVA: 0x1084A80 Offset: 0x1083080 VA: 0x181084A80 Slot: 5
 	protected override Task<Stream> CreateContentReadStreamAsync() { }
 
-	// RVA: 0x1084870 Offset: 0x1082E70 VA: 0x181084870 Slot: 7
+	// RVA: 0x1084B30 Offset: 0x1083130 VA: 0x181084B30 Slot: 7
 	protected internal override Task SerializeToStreamAsync(Stream stream, TransportContext context) { }
 
-	// RVA: 0x10848B0 Offset: 0x1082EB0 VA: 0x1810848B0 Slot: 8
+	// RVA: 0x1084B70 Offset: 0x1083170 VA: 0x181084B70 Slot: 8
 	protected internal override bool TryComputeLength(out long length) { }
 
 }

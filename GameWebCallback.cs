@@ -18,7 +18,7 @@ internal struct GameWebCallback_t : ICallbackData // TypeDefIndex: 5303
 	// RVA: 0x1E8AC0 Offset: 0x1E7EC0 VA: 0x1801E8AC0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371590 Offset: 0x136FB90 VA: 0x181371590
+	// RVA: 0x1371850 Offset: 0x136FE50 VA: 0x181371850
 	private static void .cctor() { }
 
 }

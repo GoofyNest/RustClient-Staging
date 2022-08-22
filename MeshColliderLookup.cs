@@ -5,16 +5,16 @@ public class MeshColliderLookup // TypeDefIndex: 9158
 
 	// Methods
 
-	// RVA: 0x960A70 Offset: 0x95F070 VA: 0x180960A70
+	// RVA: 0x960B80 Offset: 0x95F180 VA: 0x180960B80
 	public void Apply() { }
 
-	// RVA: 0x9608A0 Offset: 0x95EEA0 VA: 0x1809608A0
+	// RVA: 0x9609B0 Offset: 0x95EFB0 VA: 0x1809609B0
 	public void Add(MeshColliderInstance instance) { }
 
-	// RVA: 0x960B00 Offset: 0x95F100 VA: 0x180960B00
+	// RVA: 0x960C10 Offset: 0x95F210 VA: 0x180960C10
 	public MeshColliderLookup.LookupEntry Get(int index) { }
 
-	// RVA: 0x960BF0 Offset: 0x95F1F0 VA: 0x180960BF0
+	// RVA: 0x960D00 Offset: 0x95F300 VA: 0x180960D00
 	public void .ctor() { }
 
 }
@@ -26,16 +26,16 @@ public class MeshColliderLookup.LookupGroup // TypeDefIndex: 9159
 
 	// Methods
 
-	// RVA: 0x957E50 Offset: 0x956450 VA: 0x180957E50
+	// RVA: 0x957F60 Offset: 0x956560 VA: 0x180957F60
 	public void Clear() { }
 
-	// RVA: 0x957C00 Offset: 0x956200 VA: 0x180957C00
+	// RVA: 0x957D10 Offset: 0x956310 VA: 0x180957D10
 	public void Add(MeshColliderInstance instance) { }
 
-	// RVA: 0x957F60 Offset: 0x956560 VA: 0x180957F60
+	// RVA: 0x958070 Offset: 0x956670 VA: 0x180958070
 	public MeshColliderLookup.LookupEntry Get(int index) { }
 
-	// RVA: 0x9580B0 Offset: 0x9566B0 VA: 0x1809580B0
+	// RVA: 0x9581C0 Offset: 0x9567C0 VA: 0x1809581C0
 	public void .ctor() { }
 
 }

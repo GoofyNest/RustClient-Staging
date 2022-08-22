@@ -4,13 +4,13 @@ public sealed class DefaultProxySection : ConfigurationSection // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1529200 Offset: 0x1527800 VA: 0x181529200
+	// RVA: 0x15294C0 Offset: 0x1527AC0 VA: 0x1815294C0
 	public void .ctor() { }
 
-	// RVA: 0x1529230 Offset: 0x1527830 VA: 0x181529230 Slot: 4
+	// RVA: 0x15294F0 Offset: 0x1527AF0 VA: 0x1815294F0 Slot: 4
 	protected override ConfigurationPropertyCollection get_Properties() { }
 
-	// RVA: 0x15291D0 Offset: 0x15277D0 VA: 0x1815291D0 Slot: 6
+	// RVA: 0x1529490 Offset: 0x1527A90 VA: 0x181529490 Slot: 6
 	protected override void Reset(ConfigurationElement parentElement) { }
 
 }

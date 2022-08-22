@@ -4,7 +4,7 @@ internal sealed class Locale // TypeDefIndex: 2
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
 	public static string GetText(string msg) { }
 
-	// RVA: 0x1643A90 Offset: 0x1642090 VA: 0x181643A90
+	// RVA: 0x1643D50 Offset: 0x1642350 VA: 0x181643D50
 	public static string GetText(string fmt, object[] args) { }
 
 }

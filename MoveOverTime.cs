@@ -8,7 +8,7 @@ public class MoveOverTime : MonoBehaviour // TypeDefIndex: 10227
 
 	// Methods
 
-	// RVA: 0x7BBA70 Offset: 0x7BA070 VA: 0x1807BBA70
+	// RVA: 0x7BBB80 Offset: 0x7BA180 VA: 0x1807BBB80
 	private void Update() { }
 
 	// RVA: 0x571960 Offset: 0x56FF60 VA: 0x180571960

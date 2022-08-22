@@ -10,7 +10,7 @@ public class TerrainCheckGenerator : MonoBehaviour, IEditorComponent // TypeDefI
 
 	// Methods
 
-	// RVA: 0x113C4D0 Offset: 0x113AAD0 VA: 0x18113C4D0
+	// RVA: 0x113C790 Offset: 0x113AD90 VA: 0x18113C790
 	public void .ctor() { }
 
 }

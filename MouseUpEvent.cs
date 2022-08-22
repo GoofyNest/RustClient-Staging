@@ -1,19 +1,19 @@
 public class MouseUpEvent : MouseEventBase<MouseUpEvent> // TypeDefIndex: 4672
 {	// Methods
 
-	// RVA: 0xEB4DD0 Offset: 0xEB33D0 VA: 0x180EB4DD0
+	// RVA: 0xEB5090 Offset: 0xEB3690 VA: 0x180EB5090
 	private static MouseUpEvent MakeFromPointerEvent(IPointerEvent pointerEvent) { }
 
-	// RVA: 0xEB4DC0 Offset: 0xEB33C0 VA: 0x180EB4DC0
+	// RVA: 0xEB5080 Offset: 0xEB3680 VA: 0x180EB5080
 	internal static MouseUpEvent GetPooled(PointerUpEvent pointerEvent) { }
 
-	// RVA: 0xEB4DC0 Offset: 0xEB33C0 VA: 0x180EB4DC0
+	// RVA: 0xEB5080 Offset: 0xEB3680 VA: 0x180EB5080
 	internal static MouseUpEvent GetPooled(PointerMoveEvent pointerEvent) { }
 
-	// RVA: 0xEB4DC0 Offset: 0xEB33C0 VA: 0x180EB4DC0
+	// RVA: 0xEB5080 Offset: 0xEB3680 VA: 0x180EB5080
 	internal static MouseUpEvent GetPooled(PointerCancelEvent pointerEvent) { }
 
-	// RVA: 0xEB4EC0 Offset: 0xEB34C0 VA: 0x180EB4EC0
+	// RVA: 0xEB5180 Offset: 0xEB3780 VA: 0x180EB5180
 	public void .ctor() { }
 
 }

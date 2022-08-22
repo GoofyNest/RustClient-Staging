@@ -12,13 +12,13 @@ public class PlaceMonumentsOffshore : ProceduralComponent // TypeDefIndex: 10542
 
 	// Methods
 
-	// RVA: 0x9112E0 Offset: 0x90F8E0 VA: 0x1809112E0 Slot: 5
+	// RVA: 0x9113F0 Offset: 0x90F9F0 VA: 0x1809113F0 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x9110D0 Offset: 0x90F6D0 VA: 0x1809110D0
+	// RVA: 0x9111E0 Offset: 0x90F7E0 VA: 0x1809111E0
 	private bool CheckRadius(List<PlaceMonumentsOffshore.SpawnInfo> spawns, Vector3 pos, float radius) { }
 
-	// RVA: 0x911E40 Offset: 0x910440 VA: 0x180911E40
+	// RVA: 0x911F50 Offset: 0x910550 VA: 0x180911F50
 	public void .ctor() { }
 
 }
@@ -39,13 +39,13 @@ private sealed class PlaceMonumentsOffshore.<>c // TypeDefIndex: 10544
 
 	// Methods
 
-	// RVA: 0x920C10 Offset: 0x91F210 VA: 0x180920C10
+	// RVA: 0x920D20 Offset: 0x91F320 VA: 0x180920D20
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x9209D0 Offset: 0x91EFD0 VA: 0x1809209D0
+	// RVA: 0x920AE0 Offset: 0x91F0E0 VA: 0x180920AE0
 	internal string <Process>b__9_0(string folder) { }
 
 }

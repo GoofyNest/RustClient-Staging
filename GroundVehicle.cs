@@ -31,29 +31,29 @@ public abstract class GroundVehicle : BaseVehicle, IEngineControllerUser, IEntit
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xCA72D0 Offset: 0xCA58D0 VA: 0x180CA72D0 Slot: 195
+	// RVA: 0xCA7590 Offset: 0xCA5B90 VA: 0x180CA7590 Slot: 195
 	public Vector3 get_Velocity() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xCA72F0 Offset: 0xCA58F0 VA: 0x180CA72F0
+	// RVA: 0xCA75B0 Offset: 0xCA5BB0 VA: 0x180CA75B0
 	private void set_Velocity(Vector3 value) { }
 
 	// RVA: -1 Offset: -1 Slot: 196
 	public abstract float get_DriveWheelVelocity();
 
-	// RVA: 0x738190 Offset: 0x736790 VA: 0x180738190
+	// RVA: 0x7382A0 Offset: 0x7368A0 VA: 0x1807382A0
 	public bool get_LightsAreOn() { }
 
-	// RVA: 0xCA7280 Offset: 0xCA5880 VA: 0x180CA7280
+	// RVA: 0xCA7540 Offset: 0xCA5B40 VA: 0x180CA7540
 	public VehicleEngineController.EngineState<GroundVehicle> get_CurEngineState() { }
 
-	// RVA: 0xCA6F90 Offset: 0xCA5590 VA: 0x180CA6F90 Slot: 28
+	// RVA: 0xCA7250 Offset: 0xCA5850 VA: 0x180CA7250 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0xCA7070 Offset: 0xCA5670 VA: 0x180CA7070 Slot: 80
+	// RVA: 0xCA7330 Offset: 0xCA5930 VA: 0x180CA7330 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0xCA6DF0 Offset: 0xCA53F0 VA: 0x180CA6DF0
+	// RVA: 0xCA70B0 Offset: 0xCA56B0 VA: 0x180CA70B0
 	public float GetSpeed() { }
 
 	// RVA: -1 Offset: -1 Slot: 197
@@ -65,28 +65,28 @@ public abstract class GroundVehicle : BaseVehicle, IEngineControllerUser, IEntit
 	// RVA: -1 Offset: -1 Slot: 199
 	public abstract float GetBrakeInput();
 
-	// RVA: 0xCA6AD0 Offset: 0xCA50D0 VA: 0x180CA6AD0 Slot: 192
+	// RVA: 0xCA6D90 Offset: 0xCA5390 VA: 0x180CA6D90 Slot: 192
 	protected override bool CanPushNow(BasePlayer pusher) { }
 
-	// RVA: 0xCA6DB0 Offset: 0xCA53B0 VA: 0x180CA6DB0 Slot: 14
+	// RVA: 0xCA7070 Offset: 0xCA5670 VA: 0x180CA7070 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xCA6B50 Offset: 0xCA5150 VA: 0x180CA6B50 Slot: 200
+	// RVA: 0xCA6E10 Offset: 0xCA5410 VA: 0x180CA6E10 Slot: 200
 	protected virtual void ClientFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0xCA70D0 Offset: 0xCA56D0 VA: 0x180CA70D0
+	// RVA: 0xCA7390 Offset: 0xCA5990 VA: 0x180CA7390
 	private void StartClientTick() { }
 
-	// RVA: 0xCA7160 Offset: 0xCA5760 VA: 0x180CA7160
+	// RVA: 0xCA7420 Offset: 0xCA5A20 VA: 0x180CA7420
 	private void StopClientTick() { }
 
 	// RVA: -1 Offset: -1 Slot: 201
 	protected abstract void OnClientTickStopped();
 
-	// RVA: 0xCA6EE0 Offset: 0xCA54E0 VA: 0x180CA6EE0 Slot: 202
+	// RVA: 0xCA71A0 Offset: 0xCA57A0 VA: 0x180CA71A0 Slot: 202
 	protected virtual void GroundVehicleClientTick() { }
 
-	// RVA: 0xCA7250 Offset: 0xCA5850 VA: 0x180CA7250
+	// RVA: 0xCA7510 Offset: 0xCA5B10 VA: 0x180CA7510
 	protected void .ctor() { }
 
 }

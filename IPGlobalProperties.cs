@@ -10,13 +10,13 @@ public abstract class IPGlobalProperties // TypeDefIndex: 3073
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1344B40 Offset: 0x1343140 VA: 0x181344B40
+	// RVA: 0x1344E00 Offset: 0x1343400 VA: 0x181344E00
 	private static bool get_PlatformNeedsLibCWorkaround() { }
 
-	// RVA: 0x1344A40 Offset: 0x1343040 VA: 0x181344A40
+	// RVA: 0x1344D00 Offset: 0x1343300 VA: 0x181344D00
 	public static IPGlobalProperties GetIPGlobalProperties() { }
 
-	// RVA: 0x1344A40 Offset: 0x1343040 VA: 0x181344A40
+	// RVA: 0x1344D00 Offset: 0x1343300 VA: 0x181344D00
 	internal static IPGlobalProperties InternalGetIPGlobalProperties() { }
 
 	// RVA: -1 Offset: -1 Slot: 4

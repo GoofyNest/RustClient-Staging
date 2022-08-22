@@ -53,34 +53,34 @@ public class CanvasScaler : UIBehaviour // TypeDefIndex: 4959
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
 	public CanvasScaler.ScaleMode get_uiScaleMode() { }
 
-	// RVA: 0x7D0C80 Offset: 0x7CF280 VA: 0x1807D0C80
+	// RVA: 0x7D0D90 Offset: 0x7CF390 VA: 0x1807D0D90
 	public void set_uiScaleMode(CanvasScaler.ScaleMode value) { }
 
-	// RVA: 0x774680 Offset: 0x772C80 VA: 0x180774680
+	// RVA: 0x774790 Offset: 0x772D90 VA: 0x180774790
 	public float get_referencePixelsPerUnit() { }
 
-	// RVA: 0x7746C0 Offset: 0x772CC0 VA: 0x1807746C0
+	// RVA: 0x7747D0 Offset: 0x772DD0 VA: 0x1807747D0
 	public void set_referencePixelsPerUnit(float value) { }
 
-	// RVA: 0x7746A0 Offset: 0x772CA0 VA: 0x1807746A0
+	// RVA: 0x7747B0 Offset: 0x772DB0 VA: 0x1807747B0
 	public float get_scaleFactor() { }
 
-	// RVA: 0x10B7FB0 Offset: 0x10B65B0 VA: 0x1810B7FB0
+	// RVA: 0x10B8270 Offset: 0x10B6870 VA: 0x1810B8270
 	public void set_scaleFactor(float value) { }
 
-	// RVA: 0x10B7E30 Offset: 0x10B6430 VA: 0x1810B7E30
+	// RVA: 0x10B80F0 Offset: 0x10B66F0 VA: 0x1810B80F0
 	public Vector2 get_referenceResolution() { }
 
-	// RVA: 0x10B7ED0 Offset: 0x10B64D0 VA: 0x1810B7ED0
+	// RVA: 0x10B8190 Offset: 0x10B6790 VA: 0x1810B8190
 	public void set_referenceResolution(Vector2 value) { }
 
 	// RVA: 0x5DE3B0 Offset: 0x5DC9B0 VA: 0x1805DE3B0
 	public CanvasScaler.ScreenMatchMode get_screenMatchMode() { }
 
-	// RVA: 0x10B8020 Offset: 0x10B6620 VA: 0x1810B8020
+	// RVA: 0x10B82E0 Offset: 0x10B68E0 VA: 0x1810B82E0
 	public void set_screenMatchMode(CanvasScaler.ScreenMatchMode value) { }
 
-	// RVA: 0x6BB930 Offset: 0x6B9F30 VA: 0x1806BB930
+	// RVA: 0x6BBA40 Offset: 0x6BA040 VA: 0x1806BBA40
 	public float get_matchWidthOrHeight() { }
 
 	// RVA: 0x4E63E0 Offset: 0x4E49E0 VA: 0x1804E63E0
@@ -89,19 +89,19 @@ public class CanvasScaler : UIBehaviour // TypeDefIndex: 4959
 	// RVA: 0x5E2F40 Offset: 0x5E1540 VA: 0x1805E2F40
 	public CanvasScaler.Unit get_physicalUnit() { }
 
-	// RVA: 0xD73D10 Offset: 0xD72310 VA: 0x180D73D10
+	// RVA: 0xD73FD0 Offset: 0xD725D0 VA: 0x180D73FD0
 	public void set_physicalUnit(CanvasScaler.Unit value) { }
 
-	// RVA: 0x10B7E20 Offset: 0x10B6420 VA: 0x1810B7E20
+	// RVA: 0x10B80E0 Offset: 0x10B66E0 VA: 0x1810B80E0
 	public float get_fallbackScreenDPI() { }
 
-	// RVA: 0x10B7EC0 Offset: 0x10B64C0 VA: 0x1810B7EC0
+	// RVA: 0x10B8180 Offset: 0x10B6780 VA: 0x1810B8180
 	public void set_fallbackScreenDPI(float value) { }
 
-	// RVA: 0xA218C0 Offset: 0xA1FEC0 VA: 0x180A218C0
+	// RVA: 0xA21B80 Offset: 0xA20180 VA: 0x180A21B80
 	public float get_defaultSpriteDPI() { }
 
-	// RVA: 0x10B7E50 Offset: 0x10B6450 VA: 0x1810B7E50
+	// RVA: 0x10B8110 Offset: 0x10B6710 VA: 0x1810B8110
 	public void set_defaultSpriteDPI(float value) { }
 
 	// RVA: 0x533E60 Offset: 0x532460 VA: 0x180533E60
@@ -110,37 +110,37 @@ public class CanvasScaler : UIBehaviour // TypeDefIndex: 4959
 	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
 	public void set_dynamicPixelsPerUnit(float value) { }
 
-	// RVA: 0x10B7D90 Offset: 0x10B6390 VA: 0x1810B7D90
+	// RVA: 0x10B8050 Offset: 0x10B6650 VA: 0x1810B8050
 	protected void .ctor() { }
 
-	// RVA: 0x10B7C90 Offset: 0x10B6290 VA: 0x1810B7C90 Slot: 5
+	// RVA: 0x10B7F50 Offset: 0x10B6550 VA: 0x1810B7F50 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x10B7C20 Offset: 0x10B6220 VA: 0x1810B7C20 Slot: 7
+	// RVA: 0x10B7EE0 Offset: 0x10B64E0 VA: 0x1810B7EE0 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x10B7D70 Offset: 0x10B6370 VA: 0x1810B7D70 Slot: 17
+	// RVA: 0x10B8030 Offset: 0x10B6630 VA: 0x1810B8030 Slot: 17
 	protected virtual void Update() { }
 
-	// RVA: 0x10B7B00 Offset: 0x10B6100 VA: 0x1810B7B00 Slot: 18
+	// RVA: 0x10B7DC0 Offset: 0x10B63C0 VA: 0x1810B7DC0 Slot: 18
 	protected virtual void Handle() { }
 
-	// RVA: 0x10B7A90 Offset: 0x10B6090 VA: 0x1810B7A90 Slot: 19
+	// RVA: 0x10B7D50 Offset: 0x10B6350 VA: 0x1810B7D50 Slot: 19
 	protected virtual void HandleWorldCanvas() { }
 
-	// RVA: 0x10B7710 Offset: 0x10B5D10 VA: 0x1810B7710 Slot: 20
+	// RVA: 0x10B79D0 Offset: 0x10B5FD0 VA: 0x1810B79D0 Slot: 20
 	protected virtual void HandleConstantPixelSize() { }
 
-	// RVA: 0x10B7780 Offset: 0x10B5D80 VA: 0x1810B7780 Slot: 21
+	// RVA: 0x10B7A40 Offset: 0x10B6040 VA: 0x1810B7A40 Slot: 21
 	protected virtual void HandleScaleWithScreenSize() { }
 
-	// RVA: 0x10B7630 Offset: 0x10B5C30 VA: 0x1810B7630 Slot: 22
+	// RVA: 0x10B78F0 Offset: 0x10B5EF0 VA: 0x1810B78F0 Slot: 22
 	protected virtual void HandleConstantPhysicalSize() { }
 
-	// RVA: 0x10B7D30 Offset: 0x10B6330 VA: 0x1810B7D30
+	// RVA: 0x10B7FF0 Offset: 0x10B65F0 VA: 0x1810B7FF0
 	protected void SetScaleFactor(float scaleFactor) { }
 
-	// RVA: 0x10B7CF0 Offset: 0x10B62F0 VA: 0x1810B7CF0
+	// RVA: 0x10B7FB0 Offset: 0x10B65B0 VA: 0x1810B7FB0
 	protected void SetReferencePixelsPerUnit(float referencePixelsPerUnit) { }
 
 }

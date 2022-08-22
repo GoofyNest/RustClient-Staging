@@ -10,17 +10,17 @@ public class NeonMeshPaintableSource : MeshPaintableSource // TypeDefIndex: 8834
 
 	// Methods
 
-	// RVA: 0x7CBFC0 Offset: 0x7CA5C0 VA: 0x1807CBFC0 Slot: 4
+	// RVA: 0x7CC0D0 Offset: 0x7CA6D0 VA: 0x1807CC0D0 Slot: 4
 	public override void UpdateMaterials(MaterialPropertyBlock block, Texture2D textureOverride, bool forEditing = False, bool isSelected = False) { }
 
-	// RVA: 0x7CBDE0 Offset: 0x7CA3E0 VA: 0x1807CBDE0 Slot: 5
+	// RVA: 0x7CBEF0 Offset: 0x7CA4F0 VA: 0x1807CBEF0 Slot: 5
 	public override Color32[] UpdateFrom(Texture2D input) { }
 
-	// RVA: 0x7CC180 Offset: 0x7CA780 VA: 0x1807CC180
+	// RVA: 0x7CC290 Offset: 0x7CA890 VA: 0x1807CC290
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7CBBD0 Offset: 0x7CA1D0 VA: 0x1807CBBD0
+	// RVA: 0x7CBCE0 Offset: 0x7CA2E0 VA: 0x1807CBCE0
 	private Color <UpdateFrom>g__GetColorForRegion|8_0(int x, int y, int regionWidth, int regionHeight, ref NeonMeshPaintableSource.<>c__DisplayClass8_0 ) { }
 
 }

@@ -215,10 +215,10 @@ public class SideObjectLog // TypeDefIndex: 7248
 
 	// Methods
 
-	// RVA: 0x22C3910 Offset: 0x22C1F10 VA: 0x1822C3910
+	// RVA: 0x22C3BD0 Offset: 0x22C21D0 VA: 0x1822C3BD0
 	public void OODOOOQQCO(SideObject so) { }
 
-	// RVA: 0x22C4740 Offset: 0x22C2D40 VA: 0x1822C4740
+	// RVA: 0x22C4A00 Offset: 0x22C3000 VA: 0x1822C4A00
 	public void .ctor() { }
 
 }

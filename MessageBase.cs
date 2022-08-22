@@ -22,19 +22,19 @@ public abstract class MessageBase // TypeDefIndex: 1727
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public int get_Type() { }
 
-	// RVA: 0x1AB8300 Offset: 0x1AB6900 VA: 0x181AB8300
+	// RVA: 0x1AB85C0 Offset: 0x1AB6BC0 VA: 0x181AB85C0
 	protected byte[] PrepareMessage(int messageSize) { }
 
-	// RVA: 0x1AB8080 Offset: 0x1AB6680 VA: 0x181AB8080 Slot: 4
+	// RVA: 0x1AB8340 Offset: 0x1AB6940 VA: 0x181AB8340 Slot: 4
 	protected virtual void Decode(byte[] message) { }
 
-	// RVA: 0x1AB7F40 Offset: 0x1AB6540 VA: 0x181AB7F40
+	// RVA: 0x1AB8200 Offset: 0x1AB6800 VA: 0x181AB8200
 	protected bool CheckHeader(byte[] message) { }
 
 	// RVA: -1 Offset: -1 Slot: 5
 	public abstract byte[] GetBytes();
 
-	// RVA: 0x1AB8420 Offset: 0x1AB6A20 VA: 0x181AB8420
+	// RVA: 0x1AB86E0 Offset: 0x1AB6CE0 VA: 0x181AB86E0
 	private static void .cctor() { }
 
 }

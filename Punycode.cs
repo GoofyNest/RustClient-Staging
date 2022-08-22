@@ -1,7 +1,7 @@
 internal class Punycode : Bootstring // TypeDefIndex: 745
 {	// Methods
 
-	// RVA: 0x13856A0 Offset: 0x1383CA0 VA: 0x1813856A0
+	// RVA: 0x1385960 Offset: 0x1383F60 VA: 0x181385960
 	public void .ctor() { }
 
 }

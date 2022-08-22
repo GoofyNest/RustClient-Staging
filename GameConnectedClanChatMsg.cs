@@ -17,7 +17,7 @@ internal struct GameConnectedClanChatMsg_t : ICallbackData // TypeDefIndex: 5315
 	// RVA: 0x1E7960 Offset: 0x1E6D60 VA: 0x1801E7960 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370F70 Offset: 0x136F570 VA: 0x181370F70
+	// RVA: 0x1371230 Offset: 0x136F830 VA: 0x181371230
 	private static void .cctor() { }
 
 }

@@ -4,10 +4,10 @@ public class FireSpot : BaseEntity // TypeDefIndex: 9539
 
 	// Methods
 
-	// RVA: 0x7890E0 Offset: 0x7876E0 VA: 0x1807890E0 Slot: 34
+	// RVA: 0x7891F0 Offset: 0x7877F0 VA: 0x1807891F0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x789100 Offset: 0x787700 VA: 0x180789100
+	// RVA: 0x789210 Offset: 0x787810 VA: 0x180789210
 	public void .ctor() { }
 
 }

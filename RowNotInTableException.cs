@@ -1,13 +1,13 @@
 public class RowNotInTableException : DataException // TypeDefIndex: 4199
 {	// Methods
 
-	// RVA: 0xE95DA0 Offset: 0xE943A0 VA: 0x180E95DA0
+	// RVA: 0xE96060 Offset: 0xE94660 VA: 0x180E96060
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xE95E20 Offset: 0xE94420 VA: 0x180E95E20
+	// RVA: 0xE960E0 Offset: 0xE946E0 VA: 0x180E960E0
 	public void .ctor() { }
 
-	// RVA: 0xE95E70 Offset: 0xE94470 VA: 0x180E95E70
+	// RVA: 0xE96130 Offset: 0xE94730 VA: 0x180E96130
 	public void .ctor(string s) { }
 
 }

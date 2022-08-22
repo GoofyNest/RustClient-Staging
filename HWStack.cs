@@ -12,37 +12,37 @@ internal class HWStack : ICloneable // TypeDefIndex: 1984
 
 	// Methods
 
-	// RVA: 0x12F0B00 Offset: 0x12EF100 VA: 0x1812F0B00
+	// RVA: 0x12F0DC0 Offset: 0x12EF3C0 VA: 0x1812F0DC0
 	internal void .ctor(int GrowthRate) { }
 
-	// RVA: 0x12F0A20 Offset: 0x12EF020 VA: 0x1812F0A20
+	// RVA: 0x12F0CE0 Offset: 0x12EF2E0 VA: 0x1812F0CE0
 	internal void .ctor(int GrowthRate, int limit) { }
 
-	// RVA: 0x12F0900 Offset: 0x12EEF00 VA: 0x1812F0900
+	// RVA: 0x12F0BC0 Offset: 0x12EF1C0 VA: 0x1812F0BC0
 	internal object Push() { }
 
-	// RVA: 0x12F08B0 Offset: 0x12EEEB0 VA: 0x1812F08B0
+	// RVA: 0x12F0B70 Offset: 0x12EF170 VA: 0x1812F0B70
 	internal object Pop() { }
 
-	// RVA: 0x12F0860 Offset: 0x12EEE60 VA: 0x1812F0860
+	// RVA: 0x12F0B20 Offset: 0x12EF120 VA: 0x1812F0B20
 	internal object Peek() { }
 
-	// RVA: 0x12F06D0 Offset: 0x12EECD0 VA: 0x1812F06D0
+	// RVA: 0x12F0990 Offset: 0x12EEF90 VA: 0x1812F0990
 	internal void AddToTop(object o) { }
 
-	// RVA: 0x12F0B70 Offset: 0x12EF170 VA: 0x1812F0B70
+	// RVA: 0x12F0E30 Offset: 0x12EF430 VA: 0x1812F0E30
 	internal object get_Item(int index) { }
 
-	// RVA: 0x12F0C10 Offset: 0x12EF210 VA: 0x1812F0C10
+	// RVA: 0x12F0ED0 Offset: 0x12EF4D0 VA: 0x1812F0ED0
 	internal void set_Item(int index, object value) { }
 
 	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
 	internal int get_Length() { }
 
-	// RVA: 0x12F0AA0 Offset: 0x12EF0A0 VA: 0x1812F0AA0
+	// RVA: 0x12F0D60 Offset: 0x12EF360 VA: 0x1812F0D60
 	private void .ctor(object[] stack, int growthRate, int used, int size) { }
 
-	// RVA: 0x12F0760 Offset: 0x12EED60 VA: 0x1812F0760 Slot: 4
+	// RVA: 0x12F0A20 Offset: 0x12EF020 VA: 0x1812F0A20 Slot: 4
 	public object Clone() { }
 
 }

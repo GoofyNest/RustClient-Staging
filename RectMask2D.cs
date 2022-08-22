@@ -19,43 +19,43 @@ public class RectMask2D : UIBehaviour, IClipper, ICanvasRaycastFilter // TypeDef
 
 	// Methods
 
-	// RVA: 0x1719850 Offset: 0x1717E50 VA: 0x181719850
+	// RVA: 0x1719B10 Offset: 0x1718110 VA: 0x181719B10
 	private Canvas get_Canvas() { }
 
-	// RVA: 0x1719990 Offset: 0x1717F90 VA: 0x181719990
+	// RVA: 0x1719C50 Offset: 0x1718250 VA: 0x181719C50
 	public Rect get_canvasRect() { }
 
-	// RVA: 0x1719A50 Offset: 0x1718050 VA: 0x181719A50
+	// RVA: 0x1719D10 Offset: 0x1718310 VA: 0x181719D10
 	public RectTransform get_rectTransform() { }
 
-	// RVA: 0x17196E0 Offset: 0x1717CE0 VA: 0x1817196E0
+	// RVA: 0x17199A0 Offset: 0x1717FA0 VA: 0x1817199A0
 	protected void .ctor() { }
 
-	// RVA: 0x1718CD0 Offset: 0x17172D0 VA: 0x181718CD0 Slot: 5
+	// RVA: 0x1718F90 Offset: 0x1717590 VA: 0x181718F90 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x1718C40 Offset: 0x1717240 VA: 0x181718C40 Slot: 7
+	// RVA: 0x1718F00 Offset: 0x1717500 VA: 0x181718F00 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x1718B10 Offset: 0x1717110 VA: 0x181718B10 Slot: 19
+	// RVA: 0x1718DD0 Offset: 0x17173D0 VA: 0x181718DD0 Slot: 19
 	public virtual bool IsRaycastLocationValid(Vector2 sp, Camera eventCamera) { }
 
-	// RVA: 0x1719AC0 Offset: 0x17180C0 VA: 0x181719AC0
+	// RVA: 0x1719D80 Offset: 0x1718380 VA: 0x181719D80
 	private Rect get_rootCanvasRect() { }
 
-	// RVA: 0x1718D20 Offset: 0x1717320 VA: 0x181718D20 Slot: 20
+	// RVA: 0x1718FE0 Offset: 0x17175E0 VA: 0x181718FE0 Slot: 20
 	public virtual void PerformClipping() { }
 
-	// RVA: 0x1718A20 Offset: 0x1717020 VA: 0x181718A20
+	// RVA: 0x1718CE0 Offset: 0x17172E0 VA: 0x181718CE0
 	public void AddClippable(IClippable clippable) { }
 
-	// RVA: 0x1719560 Offset: 0x1717B60 VA: 0x181719560
+	// RVA: 0x1719820 Offset: 0x1717E20 VA: 0x181719820
 	public void RemoveClippable(IClippable clippable) { }
 
-	// RVA: 0x1718D00 Offset: 0x1717300 VA: 0x181718D00 Slot: 12
+	// RVA: 0x1718FC0 Offset: 0x17175C0 VA: 0x181718FC0 Slot: 12
 	protected override void OnTransformParentChanged() { }
 
-	// RVA: 0x1718C10 Offset: 0x1717210 VA: 0x181718C10 Slot: 15
+	// RVA: 0x1718ED0 Offset: 0x17174D0 VA: 0x181718ED0 Slot: 15
 	protected override void OnCanvasHierarchyChanged() { }
 
 }

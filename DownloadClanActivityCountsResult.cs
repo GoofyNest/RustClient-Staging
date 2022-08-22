@@ -15,7 +15,7 @@ internal struct DownloadClanActivityCountsResult_t : ICallbackData // TypeDefInd
 	// RVA: 0x1E5400 Offset: 0x1E4800 VA: 0x1801E5400 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x136FF80 Offset: 0x136E580 VA: 0x18136FF80
+	// RVA: 0x1370240 Offset: 0x136E840 VA: 0x181370240
 	private static void .cctor() { }
 
 }

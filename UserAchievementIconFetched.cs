@@ -21,7 +21,7 @@ internal struct UserAchievementIconFetched_t : ICallbackData // TypeDefIndex: 53
 	// RVA: 0x1DB520 Offset: 0x1DA920 VA: 0x1801DB520 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1291AC0 Offset: 0x12900C0 VA: 0x181291AC0
+	// RVA: 0x1291D80 Offset: 0x1290380 VA: 0x181291D80
 	private static void .cctor() { }
 
 }

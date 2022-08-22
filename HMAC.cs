@@ -14,40 +14,40 @@ public abstract class HMAC : KeyedHashAlgorithm // TypeDefIndex: 960
 
 	// Methods
 
-	// RVA: 0xA38CE0 Offset: 0xA372E0 VA: 0x180A38CE0
+	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
 	protected int get_BlockSizeValue() { }
 
-	// RVA: 0xA392A0 Offset: 0xA378A0 VA: 0x180A392A0
+	// RVA: 0xA39560 Offset: 0xA37B60 VA: 0x180A39560
 	protected void set_BlockSizeValue(int value) { }
 
-	// RVA: 0x1701BA0 Offset: 0x17001A0 VA: 0x181701BA0
+	// RVA: 0x1701E60 Offset: 0x1700460 VA: 0x181701E60
 	private void UpdateIOPadBuffers() { }
 
-	// RVA: 0x1701970 Offset: 0x16FFF70 VA: 0x181701970
+	// RVA: 0x1701C30 Offset: 0x1700230 VA: 0x181701C30
 	internal void InitializeKey(byte[] key) { }
 
-	// RVA: 0x1701D70 Offset: 0x1700370 VA: 0x181701D70 Slot: 19
+	// RVA: 0x1702030 Offset: 0x1700630 VA: 0x181702030 Slot: 19
 	public override byte[] get_Key() { }
 
-	// RVA: 0x1701DF0 Offset: 0x17003F0 VA: 0x181701DF0 Slot: 20
+	// RVA: 0x17020B0 Offset: 0x17006B0 VA: 0x1817020B0 Slot: 20
 	public override void set_Key(byte[] value) { }
 
-	// RVA: 0x1701640 Offset: 0x16FFC40 VA: 0x181701640
+	// RVA: 0x1701900 Offset: 0x16FFF00 VA: 0x181701900
 	public static HMAC Create() { }
 
-	// RVA: 0x1701B50 Offset: 0x1700150 VA: 0x181701B50 Slot: 16
+	// RVA: 0x1701E10 Offset: 0x1700410 VA: 0x181701E10 Slot: 16
 	public override void Initialize() { }
 
-	// RVA: 0x1701740 Offset: 0x16FFD40 VA: 0x181701740 Slot: 17
+	// RVA: 0x1701A00 Offset: 0x1700000 VA: 0x181701A00 Slot: 17
 	protected override void HashCore(byte[] rgb, int ib, int cb) { }
 
-	// RVA: 0x17017F0 Offset: 0x16FFDF0 VA: 0x1817017F0 Slot: 18
+	// RVA: 0x1701AB0 Offset: 0x17000B0 VA: 0x181701AB0 Slot: 18
 	protected override byte[] HashFinal() { }
 
-	// RVA: 0x1701690 Offset: 0x16FFC90 VA: 0x181701690 Slot: 15
+	// RVA: 0x1701950 Offset: 0x16FFF50 VA: 0x181701950 Slot: 15
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x1701D60 Offset: 0x1700360 VA: 0x181701D60
+	// RVA: 0x1702020 Offset: 0x1700620 VA: 0x181702020
 	protected void .ctor() { }
 
 }

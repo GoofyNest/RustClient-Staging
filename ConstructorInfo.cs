@@ -19,25 +19,25 @@ public abstract class ConstructorInfo : MethodBase, _ConstructorInfo // TypeDefI
 
 	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	// RVA: 0x18C66C0 Offset: 0x18C4CC0 VA: 0x1818C66C0
+	// RVA: 0x18C6980 Offset: 0x18C4F80 VA: 0x1818C6980
 	public object Invoke(object[] parameters) { }
 
 	// RVA: -1 Offset: -1 Slot: 40
 	public abstract object Invoke(BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture);
 
-	// RVA: 0x1291940 Offset: 0x128FF40 VA: 0x181291940 Slot: 0
+	// RVA: 0x1291C00 Offset: 0x1290200 VA: 0x181291C00 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xCCE560 Offset: 0xCCCB60 VA: 0x180CCE560 Slot: 2
+	// RVA: 0xCCE820 Offset: 0xCCCE20 VA: 0x180CCE820 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x18C6350 Offset: 0x18C4950 VA: 0x1818C6350
+	// RVA: 0x18C6610 Offset: 0x18C4C10 VA: 0x1818C6610
 	public static bool op_Equality(ConstructorInfo left, ConstructorInfo right) { }
 
-	// RVA: 0x18C63A0 Offset: 0x18C49A0 VA: 0x1818C63A0
+	// RVA: 0x18C6660 Offset: 0x18C4C60 VA: 0x1818C6660
 	public static bool op_Inequality(ConstructorInfo left, ConstructorInfo right) { }
 
-	// RVA: 0x18C6770 Offset: 0x18C4D70 VA: 0x1818C6770
+	// RVA: 0x18C6A30 Offset: 0x18C5030 VA: 0x1818C6A30
 	private static void .cctor() { }
 
 }

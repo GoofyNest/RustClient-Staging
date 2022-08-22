@@ -4,10 +4,10 @@ public sealed class PerformanceCountersElement : ConfigurationElement // TypeDef
 
 	// Methods
 
-	// RVA: 0x15369E0 Offset: 0x1534FE0 VA: 0x1815369E0
+	// RVA: 0x1536CA0 Offset: 0x15352A0 VA: 0x181536CA0
 	public void .ctor() { }
 
-	// RVA: 0x1536A10 Offset: 0x1535010 VA: 0x181536A10 Slot: 4
+	// RVA: 0x1536CD0 Offset: 0x15352D0 VA: 0x181536CD0 Slot: 4
 	protected override ConfigurationPropertyCollection get_Properties() { }
 
 }

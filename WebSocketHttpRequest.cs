@@ -34,14 +34,14 @@ public class WebSocketHttpRequest // TypeDefIndex: 6930
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_Scheme(string value) { }
 
-	// RVA: 0x220B540 Offset: 0x2209B40 VA: 0x18220B540
+	// RVA: 0x220B800 Offset: 0x2209E00 VA: 0x18220B800
 	public string get_Item(string name) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public IDictionary<string, string> get_Headers() { }
 
-	// RVA: 0x220B450 Offset: 0x2209A50 VA: 0x18220B450
+	// RVA: 0x220B710 Offset: 0x2209D10 VA: 0x18220B710
 	public void .ctor() { }
 
 }

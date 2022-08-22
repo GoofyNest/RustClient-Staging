@@ -7,7 +7,7 @@ internal class TernaryTreeReadOnly // TypeDefIndex: 1864
 	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
 	public void .ctor(byte[] nodeBuffer) { }
 
-	// RVA: 0xE4CFB0 Offset: 0xE4B5B0 VA: 0x180E4CFB0
+	// RVA: 0xE4D270 Offset: 0xE4B870 VA: 0x180E4D270
 	public byte FindCaseInsensitiveString(string stringToFind) { }
 
 }

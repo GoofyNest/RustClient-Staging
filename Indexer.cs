@@ -13,43 +13,43 @@ public class Indexer // TypeDefIndex: 6641
 
 	// Methods
 
-	// RVA: 0x22CA160 Offset: 0x22C8760 VA: 0x1822CA160
+	// RVA: 0x22CA420 Offset: 0x22C8A20 VA: 0x1822CA420
 	public TimeSpan get_TotalLength() { }
 
-	// RVA: 0x8D8F10 Offset: 0x8D7510 VA: 0x1808D8F10
+	// RVA: 0x8D9020 Offset: 0x8D7620 VA: 0x1808D9020
 	public long get_Interval() { }
 
-	// RVA: 0x22C9DC0 Offset: 0x22C83C0 VA: 0x1822C9DC0
+	// RVA: 0x22CA080 Offset: 0x22C8680 VA: 0x1822CA080
 	internal void .ctor(Reader reader) { }
 
-	// RVA: 0x22C97A0 Offset: 0x22C7DA0 VA: 0x1822C97A0
+	// RVA: 0x22C9A60 Offset: 0x22C8060 VA: 0x1822C9A60
 	private void ProcessPacket(Packet packet) { }
 
-	// RVA: 0x22C9330 Offset: 0x22C7930 VA: 0x1822C9330
+	// RVA: 0x22C95F0 Offset: 0x22C7BF0 VA: 0x1822C95F0
 	private void EntityUpdated(uint ent) { }
 
-	// RVA: 0x22C9120 Offset: 0x22C7720 VA: 0x1822C9120
+	// RVA: 0x22C93E0 Offset: 0x22C79E0 VA: 0x1822C93E0
 	private void EntityPosition(BinaryReader reader) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void RpcMessage(BinaryReader reader) { }
 
-	// RVA: 0x22C9710 Offset: 0x22C7D10 VA: 0x1822C9710
+	// RVA: 0x22C99D0 Offset: 0x22C7FD0 VA: 0x1822C99D0
 	internal Indexer.Keyframe LookupKeyframeForTime(long time) { }
 
-	// RVA: 0x22C9670 Offset: 0x22C7C70 VA: 0x1822C9670
+	// RVA: 0x22C9930 Offset: 0x22C7F30 VA: 0x1822C9930
 	internal Indexer.Keyframe GetKeyframe(int index) { }
 
-	// RVA: 0x22C93A0 Offset: 0x22C79A0 VA: 0x1822C93A0
+	// RVA: 0x22C9660 Offset: 0x22C7C60 VA: 0x1822C9660
 	internal HashSet<uint> GetChangedEntities(long from, long to) { }
 
-	// RVA: 0x22C9060 Offset: 0x22C7660 VA: 0x1822C9060
+	// RVA: 0x22C9320 Offset: 0x22C7920 VA: 0x1822C9320
 	private void EntityDestroy(BinaryReader reader) { }
 
-	// RVA: 0x22C8EB0 Offset: 0x22C74B0 VA: 0x1822C8EB0
+	// RVA: 0x22C9170 Offset: 0x22C7770 VA: 0x1822C9170
 	private void Entities(BinaryReader reader) { }
 
-	// RVA: 0x22C9A50 Offset: 0x22C8050 VA: 0x1822C9A50
+	// RVA: 0x22C9D10 Offset: 0x22C8310 VA: 0x1822C9D10
 	private void TryCreateKeyframe(Packet packet) { }
 
 }
@@ -66,10 +66,10 @@ public class Indexer.Entity // TypeDefIndex: 6642
 
 	// Methods
 
-	// RVA: 0x22C8E80 Offset: 0x22C7480 VA: 0x1822C8E80
+	// RVA: 0x22C9140 Offset: 0x22C7740 VA: 0x1822C9140
 	public uint get_UId() { }
 
-	// RVA: 0x22C8DE0 Offset: 0x22C73E0 VA: 0x1822C8DE0
+	// RVA: 0x22C90A0 Offset: 0x22C76A0 VA: 0x1822C90A0
 	public Indexer.Entity Copy() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -86,10 +86,10 @@ public class Indexer.Keyframe // TypeDefIndex: 6643
 
 	// Methods
 
-	// RVA: 0x22CA220 Offset: 0x22C8820 VA: 0x1822CA220
+	// RVA: 0x22CA4E0 Offset: 0x22C8AE0 VA: 0x1822CA4E0
 	public void Init() { }
 
-	// RVA: 0x22CA1C0 Offset: 0x22C87C0 VA: 0x1822CA1C0
+	// RVA: 0x22CA480 Offset: 0x22C8A80 VA: 0x1822CA480
 	public bool HasEntity(uint iD) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -105,16 +105,16 @@ private sealed class Indexer.Keyframe.<>c // TypeDefIndex: 6644
 
 	// Methods
 
-	// RVA: 0x22CB200 Offset: 0x22C9800 VA: 0x1822CB200
+	// RVA: 0x22CB4C0 Offset: 0x22C9AC0 VA: 0x1822CB4C0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x22CB100 Offset: 0x22C9700 VA: 0x1822CB100
+	// RVA: 0x22CB3C0 Offset: 0x22C99C0 VA: 0x1822CB3C0
 	internal uint <Init>b__4_0(Indexer.Entity x) { }
 
-	// RVA: 0x7B4E80 Offset: 0x7B3480 VA: 0x1807B4E80
+	// RVA: 0x7B4F90 Offset: 0x7B3590 VA: 0x1807B4F90
 	internal Indexer.Entity <Init>b__4_1(Indexer.Entity x) { }
 
 }
@@ -126,13 +126,13 @@ private sealed class Indexer.<>c // TypeDefIndex: 6645
 
 	// Methods
 
-	// RVA: 0x22CB260 Offset: 0x22C9860 VA: 0x1822CB260
+	// RVA: 0x22CB520 Offset: 0x22C9B20 VA: 0x1822CB520
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x22CB130 Offset: 0x22C9730 VA: 0x1822CB130
+	// RVA: 0x22CB3F0 Offset: 0x22C99F0 VA: 0x1822CB3F0
 	internal Indexer.Entity <TryCreateKeyframe>b__21_0(KeyValuePair<uint, Indexer.Entity> x) { }
 
 }

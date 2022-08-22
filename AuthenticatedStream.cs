@@ -9,13 +9,13 @@ public abstract class AuthenticatedStream : Stream // TypeDefIndex: 3067
 
 	// Methods
 
-	// RVA: 0xFF6D20 Offset: 0xFF5320 VA: 0x180FF6D20
+	// RVA: 0xFF6FE0 Offset: 0xFF55E0 VA: 0x180FF6FE0
 	protected void .ctor(Stream innerStream, bool leaveInnerStreamOpen) { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	protected Stream get_InnerStream() { }
 
-	// RVA: 0xFF6C20 Offset: 0xFF5220 VA: 0x180FF6C20 Slot: 17
+	// RVA: 0xFF6EE0 Offset: 0xFF54E0 VA: 0x180FF6EE0 Slot: 17
 	protected override void Dispose(bool disposing) { }
 
 	// RVA: -1 Offset: -1 Slot: 31

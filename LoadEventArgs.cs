@@ -8,7 +8,7 @@ public abstract class LoadEventArgs : EventArgs // TypeDefIndex: 7151
 
 	// Methods
 
-	// RVA: 0x22E56A0 Offset: 0x22E3CA0 VA: 0x1822E56A0
+	// RVA: 0x22E5960 Offset: 0x22E3F60 VA: 0x1822E5960
 	protected internal void .ctor(string message) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

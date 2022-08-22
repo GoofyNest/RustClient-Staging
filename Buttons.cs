@@ -108,7 +108,7 @@ public class Buttons // TypeDefIndex: 9271
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x6F1EF0 Offset: 0x6F04F0 VA: 0x1806F1EF0
+	// RVA: 0x6F2000 Offset: 0x6F0600 VA: 0x1806F2000
 	private static void .cctor() { }
 
 }
@@ -135,10 +135,10 @@ public class Buttons.ConButton : ConsoleSystem.IConsoleButton // TypeDefIndex: 9
 	// RVA: 0x49AFC0 Offset: 0x4995C0 VA: 0x18049AFC0
 	public void set_IsDown(bool value) { }
 
-	// RVA: 0x704F10 Offset: 0x703510 VA: 0x180704F10
+	// RVA: 0x705020 Offset: 0x703620 VA: 0x180705020
 	public bool get_JustPressed() { }
 
-	// RVA: 0x704F40 Offset: 0x703540 VA: 0x180704F40
+	// RVA: 0x705050 Offset: 0x703650 VA: 0x180705050
 	public bool get_JustReleased() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -147,7 +147,7 @@ public class Buttons.ConButton : ConsoleSystem.IConsoleButton // TypeDefIndex: 9
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90 Slot: 4
 	public bool get_IsPressed() { }
 
-	// RVA: 0x704F70 Offset: 0x703570 VA: 0x180704F70 Slot: 5
+	// RVA: 0x705080 Offset: 0x703680 VA: 0x180705080 Slot: 5
 	public void set_IsPressed(bool value) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

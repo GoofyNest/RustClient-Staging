@@ -8,82 +8,82 @@ public class SmartAlarm : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 636
 
 	// Methods
 
-	// RVA: 0x1DB2AA0 Offset: 0x1DB10A0 VA: 0x181DB2AA0
+	// RVA: 0x1DB2D60 Offset: 0x1DB1360 VA: 0x181DB2D60
 	public static void ResetToPool(SmartAlarm instance) { }
 
-	// RVA: 0x1DB2BD0 Offset: 0x1DB11D0 VA: 0x181DB2BD0
+	// RVA: 0x1DB2E90 Offset: 0x1DB1490 VA: 0x181DB2E90
 	public void ResetToPool() { }
 
-	// RVA: 0x1DB28B0 Offset: 0x1DB0EB0 VA: 0x181DB28B0 Slot: 9
+	// RVA: 0x1DB2B70 Offset: 0x1DB1170 VA: 0x181DB2B70 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DB1610 Offset: 0x1DAFC10 VA: 0x181DB1610
+	// RVA: 0x1DB18D0 Offset: 0x1DAFED0 VA: 0x181DB18D0
 	public void CopyTo(SmartAlarm instance) { }
 
-	// RVA: 0x1DB1760 Offset: 0x1DAFD60 VA: 0x181DB1760
+	// RVA: 0x1DB1A20 Offset: 0x1DB0020 VA: 0x181DB1A20
 	public SmartAlarm Copy() { }
 
-	// RVA: 0x1DB2310 Offset: 0x1DB0910 VA: 0x181DB2310
+	// RVA: 0x1DB25D0 Offset: 0x1DB0BD0 VA: 0x181DB25D0
 	public static SmartAlarm Deserialize(Stream stream) { }
 
-	// RVA: 0x1DB18F0 Offset: 0x1DAFEF0 VA: 0x181DB18F0
+	// RVA: 0x1DB1BB0 Offset: 0x1DB01B0 VA: 0x181DB1BB0
 	public static SmartAlarm DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DB1C80 Offset: 0x1DB0280 VA: 0x181DB1C80
+	// RVA: 0x1DB1F40 Offset: 0x1DB0540 VA: 0x181DB1F40
 	public static SmartAlarm DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DB2010 Offset: 0x1DB0610 VA: 0x181DB2010
+	// RVA: 0x1DB22D0 Offset: 0x1DB08D0 VA: 0x181DB22D0
 	public static SmartAlarm Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DB2A60 Offset: 0x1DB1060 VA: 0x181DB2A60
+	// RVA: 0x1DB2D20 Offset: 0x1DB1320 VA: 0x181DB2D20
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DB3300 Offset: 0x1DB1900 VA: 0x181DB3300 Slot: 12
+	// RVA: 0x1DB35C0 Offset: 0x1DB1BC0 VA: 0x181DB35C0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DB3320 Offset: 0x1DB1920 VA: 0x181DB3320 Slot: 13
+	// RVA: 0x1DB35E0 Offset: 0x1DB1BE0 VA: 0x181DB35E0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, SmartAlarm previous) { }
 
-	// RVA: 0x1DB2A80 Offset: 0x1DB1080 VA: 0x181DB2A80 Slot: 14
+	// RVA: 0x1DB2D40 Offset: 0x1DB1340 VA: 0x181DB2D40 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DB2570 Offset: 0x1DB0B70 VA: 0x181DB2570
+	// RVA: 0x1DB2830 Offset: 0x1DB0E30 VA: 0x181DB2830
 	public static SmartAlarm Deserialize(byte[] buffer, SmartAlarm instance, bool isDelta = False) { }
 
-	// RVA: 0x1DB2670 Offset: 0x1DB0C70 VA: 0x181DB2670
+	// RVA: 0x1DB2930 Offset: 0x1DB0F30 VA: 0x181DB2930
 	public static SmartAlarm Deserialize(Stream stream, SmartAlarm instance, bool isDelta) { }
 
-	// RVA: 0x1DB1970 Offset: 0x1DAFF70 VA: 0x181DB1970
+	// RVA: 0x1DB1C30 Offset: 0x1DB0230 VA: 0x181DB1C30
 	public static SmartAlarm DeserializeLengthDelimited(Stream stream, SmartAlarm instance, bool isDelta) { }
 
-	// RVA: 0x1DB1D10 Offset: 0x1DB0310 VA: 0x181DB1D10
+	// RVA: 0x1DB1FD0 Offset: 0x1DB05D0 VA: 0x181DB1FD0
 	public static SmartAlarm DeserializeLength(Stream stream, int length, SmartAlarm instance, bool isDelta) { }
 
-	// RVA: 0x1DB2D00 Offset: 0x1DB1300 VA: 0x181DB2D00
+	// RVA: 0x1DB2FC0 Offset: 0x1DB15C0 VA: 0x181DB2FC0
 	public static void SerializeDelta(Stream stream, SmartAlarm instance, SmartAlarm previous) { }
 
-	// RVA: 0x1DB3100 Offset: 0x1DB1700 VA: 0x181DB3100
+	// RVA: 0x1DB33C0 Offset: 0x1DB19C0 VA: 0x181DB33C0
 	public static void Serialize(Stream stream, SmartAlarm instance) { }
 
-	// RVA: 0x1DB32F0 Offset: 0x1DB18F0 VA: 0x181DB32F0
+	// RVA: 0x1DB35B0 Offset: 0x1DB1BB0 VA: 0x181DB35B0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DB3300 Offset: 0x1DB1900 VA: 0x181DB3300
+	// RVA: 0x1DB35C0 Offset: 0x1DB1BC0 VA: 0x181DB35C0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DB2FF0 Offset: 0x1DB15F0 VA: 0x181DB2FF0
+	// RVA: 0x1DB32B0 Offset: 0x1DB18B0 VA: 0x181DB32B0
 	public static byte[] SerializeToBytes(SmartAlarm instance) { }
 
-	// RVA: 0x1DB2F40 Offset: 0x1DB1540 VA: 0x181DB2F40
+	// RVA: 0x1DB3200 Offset: 0x1DB1800 VA: 0x181DB3200
 	public static void SerializeLengthDelimited(Stream stream, SmartAlarm instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

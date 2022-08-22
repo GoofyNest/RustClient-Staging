@@ -12,58 +12,58 @@ internal sealed class FunctionNode : ExpressionNode // TypeDefIndex: 4259
 
 	// Methods
 
-	// RVA: 0x13ED7F0 Offset: 0x13EBDF0 VA: 0x1813ED7F0
+	// RVA: 0x13EDAB0 Offset: 0x13EC0B0 VA: 0x1813EDAB0
 	internal void .ctor(DataTable table, string name) { }
 
-	// RVA: 0x13E8DC0 Offset: 0x13E73C0 VA: 0x1813E8DC0
+	// RVA: 0x13E9080 Offset: 0x13E7680 VA: 0x1813E9080
 	internal void AddArgument(ExpressionNode argument) { }
 
-	// RVA: 0x13E8FE0 Offset: 0x13E75E0 VA: 0x1813E8FE0 Slot: 5
+	// RVA: 0x13E92A0 Offset: 0x13E78A0 VA: 0x1813E92A0 Slot: 5
 	internal override void Bind(DataTable table, List<DataColumn> list) { }
 
-	// RVA: 0xCCD4E0 Offset: 0xCCBAE0 VA: 0x180CCD4E0 Slot: 6
+	// RVA: 0xCCD7A0 Offset: 0xCCBDA0 VA: 0x180CCD7A0 Slot: 6
 	internal override object Eval() { }
 
-	// RVA: 0x13EB740 Offset: 0x13E9D40 VA: 0x1813EB740 Slot: 7
+	// RVA: 0x13EBA00 Offset: 0x13EA000 VA: 0x1813EBA00 Slot: 7
 	internal override object Eval(DataRow row, DataRowVersion version) { }
 
-	// RVA: 0x13EB6F0 Offset: 0x13E9CF0 VA: 0x1813EB6F0 Slot: 8
+	// RVA: 0x13EB9B0 Offset: 0x13E9FB0 VA: 0x1813EB9B0 Slot: 8
 	internal override object Eval(int[] recordNos) { }
 
-	// RVA: 0x13EC7D0 Offset: 0x13EADD0 VA: 0x1813EC7D0 Slot: 9
+	// RVA: 0x13ECA90 Offset: 0x13EB090 VA: 0x1813ECA90 Slot: 9
 	internal override bool IsConstant() { }
 
-	// RVA: 0x13EC850 Offset: 0x13EAE50 VA: 0x1813EC850 Slot: 10
+	// RVA: 0x13ECB10 Offset: 0x13EB110 VA: 0x1813ECB10 Slot: 10
 	internal override bool IsTableConstant() { }
 
-	// RVA: 0x13EC6D0 Offset: 0x13EACD0 VA: 0x1813EC6D0 Slot: 11
+	// RVA: 0x13EC990 Offset: 0x13EAF90 VA: 0x1813EC990 Slot: 11
 	internal override bool HasLocalAggregate() { }
 
-	// RVA: 0x13EC750 Offset: 0x13EAD50 VA: 0x1813EC750 Slot: 12
+	// RVA: 0x13ECA10 Offset: 0x13EB010 VA: 0x1813ECA10 Slot: 12
 	internal override bool HasRemoteAggregate() { }
 
-	// RVA: 0x13E95F0 Offset: 0x13E7BF0 VA: 0x1813E95F0 Slot: 14
+	// RVA: 0x13E98B0 Offset: 0x13E7EB0 VA: 0x1813E98B0 Slot: 14
 	internal override bool DependsOn(DataColumn column) { }
 
-	// RVA: 0x13EC8D0 Offset: 0x13EAED0 VA: 0x1813EC8D0 Slot: 13
+	// RVA: 0x13ECB90 Offset: 0x13EB190 VA: 0x1813ECB90 Slot: 13
 	internal override ExpressionNode Optimize() { }
 
-	// RVA: 0x13EC430 Offset: 0x13EAA30 VA: 0x1813EC430
+	// RVA: 0x13EC6F0 Offset: 0x13EACF0 VA: 0x1813EC6F0
 	private Type GetDataType(ExpressionNode node) { }
 
-	// RVA: 0x13E9680 Offset: 0x13E7C80 VA: 0x1813E9680
+	// RVA: 0x13E9940 Offset: 0x13E7F40 VA: 0x1813E9940
 	private object EvalFunction(FunctionId id, object[] argumentValues, DataRow row, DataRowVersion version) { }
 
-	// RVA: 0x13ED960 Offset: 0x13EBF60 VA: 0x1813ED960
+	// RVA: 0x13EDC20 Offset: 0x13EC220 VA: 0x1813EDC20
 	internal FunctionId get_Aggregate() { }
 
-	// RVA: 0x13EDA10 Offset: 0x13EC010 VA: 0x1813EDA10
+	// RVA: 0x13EDCD0 Offset: 0x13EC2D0 VA: 0x1813EDCD0
 	internal bool get_IsAggregate() { }
 
-	// RVA: 0x13E9340 Offset: 0x13E7940 VA: 0x1813E9340
+	// RVA: 0x13E9600 Offset: 0x13E7C00 VA: 0x1813E9600
 	internal void Check() { }
 
-	// RVA: 0x13ECAD0 Offset: 0x13EB0D0 VA: 0x1813ECAD0
+	// RVA: 0x13ECD90 Offset: 0x13EB390 VA: 0x1813ECD90
 	private static void .cctor() { }
 
 }

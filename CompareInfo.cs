@@ -36,112 +36,112 @@ public class CompareInfo : IDeserializationCallback // TypeDefIndex: 690
 
 	// Methods
 
-	// RVA: 0x16D7E50 Offset: 0x16D6450 VA: 0x1816D7E50
+	// RVA: 0x16D8110 Offset: 0x16D6710 VA: 0x1816D8110
 	internal void .ctor(CultureInfo culture) { }
 
-	// RVA: 0x16D6F80 Offset: 0x16D5580 VA: 0x1816D6F80
+	// RVA: 0x16D7240 Offset: 0x16D5840 VA: 0x1816D7240
 	public static CompareInfo GetCompareInfo(string name) { }
 
 	[OnDeserializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE36CA0 Offset: 0xE352A0 VA: 0x180E36CA0
+	// RVA: 0xE36F60 Offset: 0xE35560 VA: 0x180E36F60
 	private void OnDeserializing(StreamingContext ctx) { }
 
-	// RVA: 0x16D7C80 Offset: 0x16D6280 VA: 0x1816D7C80
+	// RVA: 0x16D7F40 Offset: 0x16D6540 VA: 0x1816D7F40
 	private void OnDeserialized() { }
 
 	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x16D7D50 Offset: 0x16D6350 VA: 0x1816D7D50
+	// RVA: 0x16D8010 Offset: 0x16D6610 VA: 0x1816D8010
 	private void OnDeserialized(StreamingContext ctx) { }
 
 	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x16D7D60 Offset: 0x16D6360 VA: 0x1816D7D60
+	// RVA: 0x16D8020 Offset: 0x16D6620 VA: 0x1816D8020
 	private void OnSerializing(StreamingContext ctx) { }
 
-	// RVA: 0x16D7D50 Offset: 0x16D6350 VA: 0x1816D7D50 Slot: 4
+	// RVA: 0x16D8010 Offset: 0x16D6610 VA: 0x1816D8010 Slot: 4
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
 
-	// RVA: 0x16D7EE0 Offset: 0x16D64E0 VA: 0x1816D7EE0 Slot: 5
+	// RVA: 0x16D81A0 Offset: 0x16D67A0 VA: 0x1816D81A0 Slot: 5
 	public virtual string get_Name() { }
 
-	// RVA: 0x16D64A0 Offset: 0x16D4AA0 VA: 0x1816D64A0 Slot: 6
+	// RVA: 0x16D6760 Offset: 0x16D4D60 VA: 0x1816D6760 Slot: 6
 	public virtual int Compare(string string1, string string2) { }
 
-	// RVA: 0x16D64D0 Offset: 0x16D4AD0 VA: 0x1816D64D0 Slot: 7
+	// RVA: 0x16D6790 Offset: 0x16D4D90 VA: 0x1816D6790 Slot: 7
 	public virtual int Compare(string string1, string string2, CompareOptions options) { }
 
-	// RVA: 0x16D6640 Offset: 0x16D4C40 VA: 0x1816D6640 Slot: 8
+	// RVA: 0x16D6900 Offset: 0x16D4F00 VA: 0x1816D6900 Slot: 8
 	public virtual int Compare(string string1, int offset1, int length1, string string2, int offset2, int length2, CompareOptions options) { }
 
-	// RVA: 0x16D6440 Offset: 0x16D4A40 VA: 0x1816D6440
+	// RVA: 0x16D6700 Offset: 0x16D4D00 VA: 0x1816D6700
 	private static int CompareOrdinal(string string1, int offset1, int length1, string string2, int offset2, int length2) { }
 
-	// RVA: 0x16D7660 Offset: 0x16D5C60 VA: 0x1816D7660 Slot: 9
+	// RVA: 0x16D7920 Offset: 0x16D5F20 VA: 0x1816D7920 Slot: 9
 	public virtual bool IsPrefix(string source, string prefix, CompareOptions options) { }
 
-	// RVA: 0x16D7830 Offset: 0x16D5E30 VA: 0x1816D7830 Slot: 10
+	// RVA: 0x16D7AF0 Offset: 0x16D60F0 VA: 0x1816D7AF0 Slot: 10
 	public virtual bool IsSuffix(string source, string suffix, CompareOptions options) { }
 
-	// RVA: 0x16D7320 Offset: 0x16D5920 VA: 0x1816D7320 Slot: 11
+	// RVA: 0x16D75E0 Offset: 0x16D5BE0 VA: 0x1816D75E0 Slot: 11
 	public virtual int IndexOf(string source, string value, CompareOptions options) { }
 
-	// RVA: 0x16D73E0 Offset: 0x16D59E0 VA: 0x1816D73E0 Slot: 12
+	// RVA: 0x16D76A0 Offset: 0x16D5CA0 VA: 0x1816D76A0 Slot: 12
 	public virtual int IndexOf(string source, string value, int startIndex, int count, CompareOptions options) { }
 
-	// RVA: 0x16D7A00 Offset: 0x16D6000 VA: 0x1816D7A00 Slot: 13
+	// RVA: 0x16D7CC0 Offset: 0x16D62C0 VA: 0x1816D7CC0 Slot: 13
 	public virtual int LastIndexOf(string source, string value, int startIndex, int count, CompareOptions options) { }
 
-	// RVA: 0x16D7190 Offset: 0x16D5790 VA: 0x1816D7190 Slot: 14
+	// RVA: 0x16D7450 Offset: 0x16D5A50 VA: 0x1816D7450 Slot: 14
 	public virtual SortKey GetSortKey(string source, CompareOptions options) { }
 
-	// RVA: 0x16D6A90 Offset: 0x16D5090 VA: 0x1816D6A90
+	// RVA: 0x16D6D50 Offset: 0x16D5350 VA: 0x1816D6D50
 	private SortKey CreateSortKey(string source, CompareOptions options) { }
 
-	// RVA: 0x16D6C20 Offset: 0x16D5220 VA: 0x1816D6C20 Slot: 0
+	// RVA: 0x16D6EE0 Offset: 0x16D54E0 VA: 0x1816D6EE0 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x16D7150 Offset: 0x16D5750 VA: 0x1816D7150 Slot: 2
+	// RVA: 0x16D7410 Offset: 0x16D5A10 VA: 0x1816D7410 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x16D7030 Offset: 0x16D5630 VA: 0x1816D7030
+	// RVA: 0x16D72F0 Offset: 0x16D58F0 VA: 0x1816D72F0
 	internal int GetHashCodeOfString(string source, CompareOptions options) { }
 
-	// RVA: 0x16D7030 Offset: 0x16D5630 VA: 0x1816D7030
+	// RVA: 0x16D72F0 Offset: 0x16D58F0 VA: 0x1816D72F0
 	internal int GetHashCodeOfString(string source, CompareOptions options, bool forceRandomizedHashing, long additionalEntropy) { }
 
-	// RVA: 0x16D7E00 Offset: 0x16D6400 VA: 0x1816D7E00 Slot: 3
+	// RVA: 0x16D80C0 Offset: 0x16D66C0 VA: 0x1816D80C0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x16D7F50 Offset: 0x16D6550 VA: 0x1816D7F50
+	// RVA: 0x16D8210 Offset: 0x16D6810 VA: 0x1816D8210
 	private static bool get_UseManagedCollation() { }
 
-	// RVA: 0x16D6CF0 Offset: 0x16D52F0 VA: 0x1816D6CF0
+	// RVA: 0x16D6FB0 Offset: 0x16D55B0 VA: 0x1816D6FB0
 	private SimpleCollator GetCollator() { }
 
-	// RVA: 0x16D69B0 Offset: 0x16D4FB0 VA: 0x1816D69B0
+	// RVA: 0x16D6C70 Offset: 0x16D5270 VA: 0x1816D6C70
 	private SortKey CreateSortKeyCore(string source, CompareOptions options) { }
 
-	// RVA: 0x16D8270 Offset: 0x16D6870 VA: 0x1816D8270
+	// RVA: 0x16D8530 Offset: 0x16D6B30 VA: 0x1816D8530
 	private int internal_index_switch(string s1, int sindex, int count, string s2, CompareOptions opt, bool first) { }
 
-	// RVA: 0x16D80E0 Offset: 0x16D66E0 VA: 0x1816D80E0
+	// RVA: 0x16D83A0 Offset: 0x16D69A0 VA: 0x1816D83A0
 	private int internal_compare_switch(string str1, int offset1, int length1, string str2, int offset2, int length2, CompareOptions options) { }
 
-	// RVA: 0x16D8080 Offset: 0x16D6680 VA: 0x1816D8080
+	// RVA: 0x16D8340 Offset: 0x16D6940 VA: 0x1816D8340
 	private int internal_compare_managed(string str1, int offset1, int length1, string str2, int offset2, int length2, CompareOptions options) { }
 
-	// RVA: 0x16D81D0 Offset: 0x16D67D0 VA: 0x1816D81D0
+	// RVA: 0x16D8490 Offset: 0x16D6A90 VA: 0x1816D8490
 	private int internal_index_managed(string s1, int sindex, int count, string s2, CompareOptions opt, bool first) { }
 
-	// RVA: 0x16D7ED0 Offset: 0x16D64D0 VA: 0x1816D7ED0
+	// RVA: 0x16D8190 Offset: 0x16D6790 VA: 0x1816D8190
 	private void assign_sortkey(object key, string source, CompareOptions options) { }
 
-	// RVA: 0x16D8070 Offset: 0x16D6670 VA: 0x1816D8070
+	// RVA: 0x16D8330 Offset: 0x16D6930 VA: 0x1816D8330
 	private int internal_compare(string str1, int offset1, int length1, string str2, int offset2, int length2, CompareOptions options) { }
 
-	// RVA: 0x16D81C0 Offset: 0x16D67C0 VA: 0x1816D81C0
+	// RVA: 0x16D8480 Offset: 0x16D6A80 VA: 0x1816D8480
 	private int internal_index(string source, int sindex, int count, string value, CompareOptions options, bool first) { }
 
-	// RVA: 0x16D7EA0 Offset: 0x16D64A0 VA: 0x1816D7EA0
+	// RVA: 0x16D8160 Offset: 0x16D6760 VA: 0x1816D8160
 	internal void .ctor() { }
 
 }

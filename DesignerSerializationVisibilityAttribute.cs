@@ -11,22 +11,22 @@ public sealed class DesignerSerializationVisibilityAttribute : Attribute // Type
 
 	// Methods
 
-	// RVA: 0xB11110 Offset: 0xB0F710 VA: 0x180B11110
+	// RVA: 0xB113D0 Offset: 0xB0F9D0 VA: 0x180B113D0
 	public void .ctor(DesignerSerializationVisibility visibility) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public DesignerSerializationVisibility get_Visibility() { }
 
-	// RVA: 0x15C1AD0 Offset: 0x15C00D0 VA: 0x1815C1AD0 Slot: 0
+	// RVA: 0x15C1D90 Offset: 0x15C0390 VA: 0x1815C1D90 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x15C0570 Offset: 0x15BEB70 VA: 0x1815C0570 Slot: 2
+	// RVA: 0x15C0830 Offset: 0x15BEE30 VA: 0x1815C0830 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x15C1B50 Offset: 0x15C0150 VA: 0x1815C1B50 Slot: 6
+	// RVA: 0x15C1E10 Offset: 0x15C0410 VA: 0x1815C1E10 Slot: 6
 	public override bool IsDefaultAttribute() { }
 
-	// RVA: 0x15C1BC0 Offset: 0x15C01C0 VA: 0x1815C1BC0
+	// RVA: 0x15C1E80 Offset: 0x15C0480 VA: 0x1815C1E80
 	private static void .cctor() { }
 
 }

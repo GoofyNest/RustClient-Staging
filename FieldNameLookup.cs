@@ -4,7 +4,7 @@ internal sealed class FieldNameLookup : BasicFieldNameLookup // TypeDefIndex: 43
 
 	// Methods
 
-	// RVA: 0xE88400 Offset: 0xE86A00 VA: 0x180E88400
+	// RVA: 0xE886C0 Offset: 0xE86CC0 VA: 0x180E886C0
 	public void .ctor(IDataReader reader, int defaultLocaleID) { }
 
 }

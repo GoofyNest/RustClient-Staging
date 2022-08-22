@@ -61,64 +61,64 @@ public abstract class UriParser // TypeDefIndex: 2583
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 4
 	protected virtual UriParser OnNewUri() { }
 
-	// RVA: 0x22B9490 Offset: 0x22B7A90 VA: 0x1822B9490 Slot: 5
+	// RVA: 0x22B9750 Offset: 0x22B7D50 VA: 0x1822B9750 Slot: 5
 	protected virtual void InitializeAndValidate(Uri uri, out UriFormatException parsingError) { }
 
-	// RVA: 0x22B96C0 Offset: 0x22B7CC0 VA: 0x1822B96C0 Slot: 6
+	// RVA: 0x22B9980 Offset: 0x22B7F80 VA: 0x1822B9980 Slot: 6
 	protected virtual string Resolve(Uri baseUri, Uri relativeUri, out UriFormatException parsingError) { }
 
-	// RVA: 0x22B9130 Offset: 0x22B7730 VA: 0x1822B9130 Slot: 7
+	// RVA: 0x22B93F0 Offset: 0x22B79F0 VA: 0x1822B93F0 Slot: 7
 	protected virtual string GetComponents(Uri uri, UriComponents components, UriFormat format) { }
 
-	// RVA: 0x22B9640 Offset: 0x22B7C40 VA: 0x1822B9640 Slot: 8
+	// RVA: 0x22B9900 Offset: 0x22B7F00 VA: 0x1822B9900 Slot: 8
 	protected virtual bool IsWellFormedOriginalString(Uri uri) { }
 
-	// RVA: 0x22BA3F0 Offset: 0x22B89F0 VA: 0x1822BA3F0
+	// RVA: 0x22BA6B0 Offset: 0x22B8CB0 VA: 0x1822BA6B0
 	internal static bool get_ShouldUseLegacyV2Quirks() { }
 
-	// RVA: 0x22B98C0 Offset: 0x22B7EC0 VA: 0x1822B98C0
+	// RVA: 0x22B9B80 Offset: 0x22B8180 VA: 0x1822B9B80
 	private static void .cctor() { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	internal UriSyntaxFlags get_Flags() { }
 
-	// RVA: 0x22B9660 Offset: 0x22B7C60 VA: 0x1822B9660
+	// RVA: 0x22B9920 Offset: 0x22B7F20 VA: 0x1822B9920
 	internal bool NotAny(UriSyntaxFlags flags) { }
 
-	// RVA: 0x22B9430 Offset: 0x22B7A30 VA: 0x1822B9430
+	// RVA: 0x22B96F0 Offset: 0x22B7CF0 VA: 0x1822B96F0
 	internal bool InFact(UriSyntaxFlags flags) { }
 
-	// RVA: 0x22B9570 Offset: 0x22B7B70 VA: 0x1822B9570
+	// RVA: 0x22B9830 Offset: 0x22B7E30 VA: 0x1822B9830
 	internal bool IsAllSet(UriSyntaxFlags flags) { }
 
-	// RVA: 0x22B95D0 Offset: 0x22B7BD0 VA: 0x1822B95D0
+	// RVA: 0x22B9890 Offset: 0x22B7E90 VA: 0x1822B9890
 	private bool IsFullMatch(UriSyntaxFlags flags, UriSyntaxFlags expected) { }
 
-	// RVA: 0x22BA380 Offset: 0x22B8980 VA: 0x1822BA380
+	// RVA: 0x22BA640 Offset: 0x22B8C40 VA: 0x1822BA640
 	internal void .ctor(UriSyntaxFlags flags) { }
 
-	// RVA: 0x22B8E30 Offset: 0x22B7430 VA: 0x1822B8E30
+	// RVA: 0x22B90F0 Offset: 0x22B76F0 VA: 0x1822B90F0
 	internal static UriParser FindOrFetchAsUnknownV1Syntax(string lwrCaseScheme) { }
 
-	// RVA: 0x22B9350 Offset: 0x22B7950 VA: 0x1822B9350
+	// RVA: 0x22B9610 Offset: 0x22B7C10 VA: 0x1822B9610
 	internal static UriParser GetSyntax(string lwrCaseScheme) { }
 
-	// RVA: 0x22BA3E0 Offset: 0x22B89E0 VA: 0x1822BA3E0
+	// RVA: 0x22BA6A0 Offset: 0x22B8CA0 VA: 0x1822BA6A0
 	internal bool get_IsSimple() { }
 
-	// RVA: 0x22B94F0 Offset: 0x22B7AF0 VA: 0x1822B94F0
+	// RVA: 0x22B97B0 Offset: 0x22B7DB0 VA: 0x1822B97B0
 	internal UriParser InternalOnNewUri() { }
 
-	// RVA: 0x22B9550 Offset: 0x22B7B50 VA: 0x1822B9550
+	// RVA: 0x22B9810 Offset: 0x22B7E10 VA: 0x1822B9810
 	internal void InternalValidate(Uri thisUri, out UriFormatException parsingError) { }
 
-	// RVA: 0x139BE80 Offset: 0x139A480 VA: 0x18139BE80
+	// RVA: 0x139C140 Offset: 0x139A740 VA: 0x18139C140
 	internal string InternalResolve(Uri thisBaseUri, Uri uriLink, out UriFormatException parsingError) { }
 
-	// RVA: 0x22B94D0 Offset: 0x22B7AD0 VA: 0x1822B94D0
+	// RVA: 0x22B9790 Offset: 0x22B7D90 VA: 0x1822B9790
 	internal string InternalGetComponents(Uri thisUri, UriComponents uriComponents, UriFormat uriFormat) { }
 
-	// RVA: 0xE59160 Offset: 0xE57760 VA: 0x180E59160
+	// RVA: 0xE59420 Offset: 0xE57A20 VA: 0x180E59420
 	internal bool InternalIsWellFormedOriginalString(Uri thisUri) { }
 
 }
@@ -134,7 +134,7 @@ private enum UriParser.UriQuirksVersion // TypeDefIndex: 2584
 private class UriParser.BuiltInUriParser : UriParser // TypeDefIndex: 2585
 {	// Methods
 
-	// RVA: 0x22B5D90 Offset: 0x22B4390 VA: 0x1822B5D90
+	// RVA: 0x22B6050 Offset: 0x22B4650 VA: 0x1822B6050
 	internal void .ctor(string lwrCaseScheme, int defaultPort, UriSyntaxFlags syntaxFlags) { }
 
 }

@@ -13,31 +13,31 @@ public sealed class HttpRequestHeaders : HttpHeaders // TypeDefIndex: 5778
 
 	// Methods
 
-	// RVA: 0x108F340 Offset: 0x108D940 VA: 0x18108F340
+	// RVA: 0x108F600 Offset: 0x108DC00 VA: 0x18108F600
 	internal void .ctor() { }
 
-	// RVA: 0x108F680 Offset: 0x108DC80 VA: 0x18108F680
+	// RVA: 0x108F940 Offset: 0x108DF40 VA: 0x18108F940
 	public HttpHeaderValueCollection<string> get_Connection() { }
 
-	// RVA: 0x108F3A0 Offset: 0x108D9A0 VA: 0x18108F3A0
+	// RVA: 0x108F660 Offset: 0x108DC60 VA: 0x18108F660
 	public Nullable<bool> get_ConnectionClose() { }
 
-	// RVA: 0x108F540 Offset: 0x108DB40 VA: 0x18108F540
+	// RVA: 0x108F800 Offset: 0x108DE00 VA: 0x18108F800
 	internal bool get_ConnectionKeepAlive() { }
 
-	// RVA: 0x108F6C0 Offset: 0x108DCC0 VA: 0x18108F6C0
+	// RVA: 0x108F980 Offset: 0x108DF80 VA: 0x18108F980
 	public Nullable<bool> get_ExpectContinue() { }
 
-	// RVA: 0x108F840 Offset: 0x108DE40 VA: 0x18108F840
+	// RVA: 0x108FB00 Offset: 0x108E100 VA: 0x18108FB00
 	public string get_Host() { }
 
-	// RVA: 0x108FA00 Offset: 0x108E000 VA: 0x18108FA00
+	// RVA: 0x108FCC0 Offset: 0x108E2C0 VA: 0x18108FCC0
 	public HttpHeaderValueCollection<TransferCodingHeaderValue> get_TransferEncoding() { }
 
-	// RVA: 0x108F880 Offset: 0x108DE80 VA: 0x18108F880
+	// RVA: 0x108FB40 Offset: 0x108E140 VA: 0x18108FB40
 	public Nullable<bool> get_TransferEncodingChunked() { }
 
-	// RVA: 0x108F170 Offset: 0x108D770 VA: 0x18108F170
+	// RVA: 0x108F430 Offset: 0x108DA30 VA: 0x18108F430
 	internal void AddHeaders(HttpRequestHeaders headers) { }
 
 }
@@ -52,22 +52,22 @@ private sealed class HttpRequestHeaders.<>c // TypeDefIndex: 5779
 
 	// Methods
 
-	// RVA: 0x109AE20 Offset: 0x1099420 VA: 0x18109AE20
+	// RVA: 0x109B0E0 Offset: 0x10996E0 VA: 0x18109B0E0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x109AD00 Offset: 0x1099300 VA: 0x18109AD00
+	// RVA: 0x109AFC0 Offset: 0x10995C0 VA: 0x18109AFC0
 	internal bool <get_ConnectionClose>b__19_0(string l) { }
 
-	// RVA: 0x109AD40 Offset: 0x1099340 VA: 0x18109AD40
+	// RVA: 0x109B000 Offset: 0x1099600 VA: 0x18109B000
 	internal bool <get_ConnectionKeepAlive>b__22_0(string l) { }
 
-	// RVA: 0x109AD80 Offset: 0x1099380 VA: 0x18109AD80
+	// RVA: 0x109B040 Offset: 0x1099640 VA: 0x18109B040
 	internal bool <get_ExpectContinue>b__29_0(TransferCodingHeaderValue l) { }
 
-	// RVA: 0x109ADD0 Offset: 0x10993D0 VA: 0x18109ADD0
+	// RVA: 0x109B090 Offset: 0x1099690 VA: 0x18109B090
 	internal bool <get_TransferEncodingChunked>b__71_0(TransferCodingHeaderValue l) { }
 
 }

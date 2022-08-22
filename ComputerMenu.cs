@@ -7,7 +7,7 @@ public class ComputerMenu : UIDialog // TypeDefIndex: 8685
 
 	// Methods
 
-	// RVA: 0x6D2DB0 Offset: 0x6D13B0 VA: 0x1806D2DB0 Slot: 10
+	// RVA: 0x6D2EC0 Offset: 0x6D14C0 VA: 0x1806D2EC0 Slot: 10
 	public virtual void InitMenu(BaseEntity computer) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 11
@@ -31,13 +31,13 @@ public class ComputerMenu : UIDialog // TypeDefIndex: 8685
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 17
 	public virtual bool IsControlling(string identifier) { }
 
-	// RVA: 0x6D2C40 Offset: 0x6D1240 VA: 0x1806D2C40
+	// RVA: 0x6D2D50 Offset: 0x6D1350 VA: 0x1806D2D50
 	public void ClearBookmarkEntries() { }
 
-	// RVA: 0x6D2DE0 Offset: 0x6D13E0 VA: 0x1806D2DE0
+	// RVA: 0x6D2EF0 Offset: 0x6D14F0 VA: 0x1806D2EF0
 	public void UpdateBookmarks() { }
 
-	// RVA: 0x6D3130 Offset: 0x6D1730 VA: 0x1806D3130
+	// RVA: 0x6D3240 Offset: 0x6D1840 VA: 0x1806D3240
 	public void .ctor() { }
 
 }

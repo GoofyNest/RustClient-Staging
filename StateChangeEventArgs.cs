@@ -5,7 +5,7 @@ public sealed class StateChangeEventArgs : EventArgs // TypeDefIndex: 4308
 
 	// Methods
 
-	// RVA: 0xCCC690 Offset: 0xCCAC90 VA: 0x180CCC690
+	// RVA: 0xCCC950 Offset: 0xCCAF50 VA: 0x180CCC950
 	public void .ctor(ConnectionState originalState, ConnectionState currentState) { }
 
 }

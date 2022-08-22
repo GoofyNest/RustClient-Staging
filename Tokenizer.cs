@@ -19,22 +19,22 @@ internal sealed class Tokenizer // TypeDefIndex: 920
 
 	// Methods
 
-	// RVA: 0x17C6840 Offset: 0x17C4E40 VA: 0x1817C6840
+	// RVA: 0x17C6B00 Offset: 0x17C5100 VA: 0x1817C6B00
 	internal void BasicInitialization() { }
 
-	// RVA: 0x17C7590 Offset: 0x17C5B90 VA: 0x1817C7590
+	// RVA: 0x17C7850 Offset: 0x17C5E50 VA: 0x1817C7850
 	public void Recycle() { }
 
-	// RVA: 0x17C75F0 Offset: 0x17C5BF0 VA: 0x1817C75F0
+	// RVA: 0x17C78B0 Offset: 0x17C5EB0 VA: 0x1817C78B0
 	internal void .ctor(string input) { }
 
-	// RVA: 0x17C68C0 Offset: 0x17C4EC0 VA: 0x1817C68C0
+	// RVA: 0x17C6B80 Offset: 0x17C5180 VA: 0x1817C6B80
 	internal void ChangeFormat(Encoding encoding) { }
 
-	// RVA: 0x17C6B50 Offset: 0x17C5150 VA: 0x1817C6B50
+	// RVA: 0x17C6E10 Offset: 0x17C5410 VA: 0x1817C6E10
 	internal void GetTokens(TokenizerStream stream, int maxNum, bool endAfterKet) { }
 
-	// RVA: 0x17C6B30 Offset: 0x17C5130 VA: 0x1817C6B30
+	// RVA: 0x17C6DF0 Offset: 0x17C53F0 VA: 0x1817C6DF0
 	private string GetStringToken() { }
 
 }
@@ -63,19 +63,19 @@ internal sealed class Tokenizer.StringMaker // TypeDefIndex: 922
 
 	// Methods
 
-	// RVA: 0x18B07D0 Offset: 0x18AEDD0 VA: 0x1818B07D0
+	// RVA: 0x18B0A90 Offset: 0x18AF090 VA: 0x1818B0A90
 	private static uint HashString(string str) { }
 
-	// RVA: 0x18B0770 Offset: 0x18AED70 VA: 0x1818B0770
+	// RVA: 0x18B0A30 Offset: 0x18AF030 VA: 0x1818B0A30
 	private static uint HashCharArray(char[] a, int l) { }
 
-	// RVA: 0x18B0CE0 Offset: 0x18AF2E0 VA: 0x1818B0CE0
+	// RVA: 0x18B0FA0 Offset: 0x18AF5A0 VA: 0x1818B0FA0
 	public void .ctor() { }
 
-	// RVA: 0x18B0670 Offset: 0x18AEC70 VA: 0x1818B0670
+	// RVA: 0x18B0930 Offset: 0x18AEF30 VA: 0x1818B0930
 	private bool CompareStringAndChars(string str, char[] a, int l) { }
 
-	// RVA: 0x18B08A0 Offset: 0x18AEEA0 VA: 0x1818B08A0
+	// RVA: 0x18B0B60 Offset: 0x18AF160 VA: 0x1818B0B60
 	public string MakeString() { }
 
 }
@@ -90,10 +90,10 @@ internal class Tokenizer.StreamTokenReader : Tokenizer.ITokenReader // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x18AFF50 Offset: 0x18AE550 VA: 0x1818AFF50
+	// RVA: 0x18B0210 Offset: 0x18AE810 VA: 0x1818B0210
 	internal void .ctor(StreamReader input) { }
 
-	// RVA: 0x18AFF10 Offset: 0x18AE510 VA: 0x1818AFF10 Slot: 5
+	// RVA: 0x18B01D0 Offset: 0x18AE7D0 VA: 0x1818B01D0 Slot: 5
 	public virtual int Read() { }
 
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470

@@ -8,16 +8,16 @@ public class WeightedStringList // TypeDefIndex: 6214
 
 	// Methods
 
-	// RVA: 0x14BEB20 Offset: 0x14BD120 VA: 0x1814BEB20
+	// RVA: 0x14BEDE0 Offset: 0x14BD3E0 VA: 0x1814BEDE0
 	private float get_Total() { }
 
-	// RVA: 0x14BE890 Offset: 0x14BCE90 VA: 0x1814BE890
+	// RVA: 0x14BEB50 Offset: 0x14BD150 VA: 0x1814BEB50
 	public string Get(float f) { }
 
-	// RVA: 0x14BE860 Offset: 0x14BCE60 VA: 0x1814BE860
+	// RVA: 0x14BEB20 Offset: 0x14BD120 VA: 0x1814BEB20
 	public string GetRandom() { }
 
-	// RVA: 0x14BEAB0 Offset: 0x14BD0B0 VA: 0x1814BEAB0
+	// RVA: 0x14BED70 Offset: 0x14BD370 VA: 0x1814BED70
 	public void .ctor() { }
 
 }
@@ -36,13 +36,13 @@ private sealed class WeightedStringList.<>c // TypeDefIndex: 6216
 
 	// Methods
 
-	// RVA: 0x14BD100 Offset: 0x14BB700 VA: 0x1814BD100
+	// RVA: 0x14BD3C0 Offset: 0x14BB9C0 VA: 0x1814BD3C0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x14BCA90 Offset: 0x14BB090 VA: 0x1814BCA90
+	// RVA: 0x14BCD50 Offset: 0x14BB350 VA: 0x1814BCD50
 	internal float <get_Total>b__3_0(WeightedStringList.Container x) { }
 
 }

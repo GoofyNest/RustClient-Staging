@@ -4,10 +4,10 @@ public class TerrainMargin // TypeDefIndex: 10424
 
 	// Methods
 
-	// RVA: 0x1148510 Offset: 0x1146B10 VA: 0x181148510
+	// RVA: 0x11487D0 Offset: 0x1146DD0 VA: 0x1811487D0
 	public static void Create() { }
 
-	// RVA: 0x11483B0 Offset: 0x11469B0 VA: 0x1811483B0
+	// RVA: 0x1148670 Offset: 0x1146C70 VA: 0x181148670
 	private static void Create(Vector3 position, Vector3 size, Material material) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

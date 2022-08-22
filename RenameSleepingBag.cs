@@ -5,19 +5,19 @@ public class RenameSleepingBag : UIDialog // TypeDefIndex: 10909
 
 	// Methods
 
-	// RVA: 0x94CFF0 Offset: 0x94B5F0 VA: 0x18094CFF0 Slot: 8
+	// RVA: 0x94D100 Offset: 0x94B700 VA: 0x18094D100 Slot: 8
 	public override void OpenDialog() { }
 
-	// RVA: 0x94D020 Offset: 0x94B620 VA: 0x18094D020
+	// RVA: 0x94D130 Offset: 0x94B730 VA: 0x18094D130
 	public void SelectTextField() { }
 
-	// RVA: 0x94CE80 Offset: 0x94B480 VA: 0x18094CE80
+	// RVA: 0x94CF90 Offset: 0x94B590 VA: 0x18094CF90
 	public void DoRename() { }
 
 	// RVA: 0x4C27D0 Offset: 0x4C0DD0 VA: 0x1804C27D0
 	public void Cancel() { }
 
-	// RVA: 0x94CF30 Offset: 0x94B530 VA: 0x18094CF30
+	// RVA: 0x94D040 Offset: 0x94B640 VA: 0x18094D040
 	public void OnTextFieldEnd() { }
 
 	// RVA: 0x4C1AB0 Offset: 0x4C00B0 VA: 0x1804C1AB0

@@ -11,32 +11,32 @@ public class TimerSwitch : IOEntity // TypeDefIndex: 8466
 
 	// Methods
 
-	// RVA: 0x88B200 Offset: 0x889800 VA: 0x18088B200 Slot: 49
+	// RVA: 0x88B310 Offset: 0x889910 VA: 0x18088B310 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x88B8B0 Offset: 0x889EB0 VA: 0x18088B8B0 Slot: 50
+	// RVA: 0x88B9C0 Offset: 0x889FC0 VA: 0x18088B9C0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x88B5C0 Offset: 0x889BC0 VA: 0x18088B5C0 Slot: 35
+	// RVA: 0x88B6D0 Offset: 0x889CD0 VA: 0x18088B6D0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x88B510 Offset: 0x889B10 VA: 0x18088B510 Slot: 34
+	// RVA: 0x88B620 Offset: 0x889C20 VA: 0x18088B620 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x88B6B0 Offset: 0x889CB0 VA: 0x18088B6B0
+	// RVA: 0x88B7C0 Offset: 0x889DC0 VA: 0x18088B7C0
 	public void Update() { }
 
 	[BaseEntity.Menu] // RVA: 0x90AF0 Offset: 0x8FEF0 VA: 0x180090AF0
 	[BaseEntity.Menu.Description] // RVA: 0x90AF0 Offset: 0x8FEF0 VA: 0x180090AF0
 	[BaseEntity.Menu.Icon] // RVA: 0x90AF0 Offset: 0x8FEF0 VA: 0x180090AF0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x90AF0 Offset: 0x8FEF0 VA: 0x180090AF0
-	// RVA: 0x88B580 Offset: 0x889B80 VA: 0x18088B580
+	// RVA: 0x88B690 Offset: 0x889C90 VA: 0x18088B690
 	public void Menu_TurnOn(BasePlayer player) { }
 
-	// RVA: 0x6C7940 Offset: 0x6C5F40 VA: 0x1806C7940
+	// RVA: 0x6C7A50 Offset: 0x6C6050 VA: 0x1806C7A50
 	public bool Menu_Activate_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x88B840 Offset: 0x889E40 VA: 0x18088B840
+	// RVA: 0x88B950 Offset: 0x889F50 VA: 0x18088B950
 	public void .ctor() { }
 
 }

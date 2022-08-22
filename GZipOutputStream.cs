@@ -4,22 +4,22 @@ internal class GZipOutputStream : DeflaterOutputStream // TypeDefIndex: 5655
 
 	// Methods
 
-	// RVA: 0x23032A0 Offset: 0x23018A0 VA: 0x1823032A0
+	// RVA: 0x2303560 Offset: 0x2301B60 VA: 0x182303560
 	public void .ctor(Stream baseOutputStream) { }
 
-	// RVA: 0x2303070 Offset: 0x2301670 VA: 0x182303070
+	// RVA: 0x2303330 Offset: 0x2301930 VA: 0x182303330
 	public void .ctor(Stream baseOutputStream, int size) { }
 
-	// RVA: 0x2302DA0 Offset: 0x23013A0 VA: 0x182302DA0
+	// RVA: 0x2303060 Offset: 0x2301660 VA: 0x182303060
 	private void WriteHeader() { }
 
-	// RVA: 0x2302FF0 Offset: 0x23015F0 VA: 0x182302FF0 Slot: 29
+	// RVA: 0x23032B0 Offset: 0x23018B0 VA: 0x1823032B0 Slot: 29
 	public override void Write(byte[] buf, int off, int len) { }
 
-	// RVA: 0x2302B80 Offset: 0x2301180 VA: 0x182302B80 Slot: 16
+	// RVA: 0x2302E40 Offset: 0x2301440 VA: 0x182302E40 Slot: 16
 	public override void Close() { }
 
-	// RVA: 0x2302BD0 Offset: 0x23011D0 VA: 0x182302BD0 Slot: 31
+	// RVA: 0x2302E90 Offset: 0x2301490 VA: 0x182302E90 Slot: 31
 	public override void Finish() { }
 
 }

@@ -7,13 +7,13 @@ internal class Fisheye : PostEffectsBase // TypeDefIndex: 8188
 
 	// Methods
 
-	// RVA: 0x21DF950 Offset: 0x21DDF50 VA: 0x1821DF950 Slot: 4
+	// RVA: 0x21DFC10 Offset: 0x21DE210 VA: 0x1821DFC10 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x21DFA10 Offset: 0x21DE010 VA: 0x1821DFA10
+	// RVA: 0x21DFCD0 Offset: 0x21DE2D0 VA: 0x1821DFCD0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21DFBB0 Offset: 0x21DE1B0 VA: 0x1821DFBB0
+	// RVA: 0x21DFE70 Offset: 0x21DE470 VA: 0x1821DFE70
 	public void .ctor() { }
 
 }

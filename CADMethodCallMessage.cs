@@ -11,16 +11,16 @@ internal class CADMethodCallMessage : CADMessageBase // TypeDefIndex: 1228
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
 	internal string get_Uri() { }
 
-	// RVA: 0x14709E0 Offset: 0x146EFE0 VA: 0x1814709E0
+	// RVA: 0x1470CA0 Offset: 0x146F2A0 VA: 0x181470CA0
 	internal static CADMethodCallMessage Create(IMessage callMsg) { }
 
-	// RVA: 0x1470C50 Offset: 0x146F250 VA: 0x181470C50
+	// RVA: 0x1470F10 Offset: 0x146F510 VA: 0x181470F10
 	internal void .ctor(IMethodCallMessage callMsg) { }
 
-	// RVA: 0x1470B70 Offset: 0x146F170 VA: 0x181470B70
+	// RVA: 0x1470E30 Offset: 0x146F430 VA: 0x181470E30
 	internal ArrayList GetArguments() { }
 
-	// RVA: 0x1470B60 Offset: 0x146F160 VA: 0x181470B60
+	// RVA: 0x1470E20 Offset: 0x146F420 VA: 0x181470E20
 	internal object[] GetArgs(ArrayList args) { }
 
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0

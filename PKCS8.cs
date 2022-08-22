@@ -13,28 +13,28 @@ public class PKCS8.PrivateKeyInfo // TypeDefIndex: 72
 
 	// Methods
 
-	// RVA: 0x1754690 Offset: 0x1752C90 VA: 0x181754690
+	// RVA: 0x1754950 Offset: 0x1752F50 VA: 0x181754950
 	public void .ctor() { }
 
-	// RVA: 0x1754600 Offset: 0x1752C00 VA: 0x181754600
+	// RVA: 0x17548C0 Offset: 0x1752EC0 VA: 0x1817548C0
 	public void .ctor(byte[] data) { }
 
-	// RVA: 0x1754700 Offset: 0x1752D00 VA: 0x181754700
+	// RVA: 0x17549C0 Offset: 0x1752FC0 VA: 0x1817549C0
 	public byte[] get_PrivateKey() { }
 
-	// RVA: 0x1754200 Offset: 0x1752800 VA: 0x181754200
+	// RVA: 0x17544C0 Offset: 0x1752AC0 VA: 0x1817544C0
 	private void Decode(byte[] data) { }
 
-	// RVA: 0x1754550 Offset: 0x1752B50 VA: 0x181754550
+	// RVA: 0x1754810 Offset: 0x1752E10 VA: 0x181754810
 	private static byte[] RemoveLeadingZero(byte[] bigInt) { }
 
-	// RVA: 0x17544A0 Offset: 0x1752AA0 VA: 0x1817544A0
+	// RVA: 0x1754760 Offset: 0x1752D60 VA: 0x181754760
 	private static byte[] Normalize(byte[] bigInt, int length) { }
 
-	// RVA: 0x1753D80 Offset: 0x1752380 VA: 0x181753D80
+	// RVA: 0x1754040 Offset: 0x1752640 VA: 0x181754040
 	public static RSA DecodeRSA(byte[] keypair) { }
 
-	// RVA: 0x1753BE0 Offset: 0x17521E0 VA: 0x181753BE0
+	// RVA: 0x1753EA0 Offset: 0x17524A0 VA: 0x181753EA0
 	public static DSA DecodeDSA(byte[] privateKey, DSAParameters dsaParameters) { }
 
 }
@@ -57,22 +57,22 @@ public class PKCS8.EncryptedPrivateKeyInfo // TypeDefIndex: 73
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1748950 Offset: 0x1746F50 VA: 0x181748950
+	// RVA: 0x1748C10 Offset: 0x1747210 VA: 0x181748C10
 	public void .ctor(byte[] data) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public string get_Algorithm() { }
 
-	// RVA: 0x1748980 Offset: 0x1746F80 VA: 0x181748980
+	// RVA: 0x1748C40 Offset: 0x1747240 VA: 0x181748C40
 	public byte[] get_EncryptedData() { }
 
-	// RVA: 0x1748A00 Offset: 0x1747000 VA: 0x181748A00
+	// RVA: 0x1748CC0 Offset: 0x17472C0 VA: 0x181748CC0
 	public byte[] get_Salt() { }
 
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	public int get_IterationCount() { }
 
-	// RVA: 0x1748650 Offset: 0x1746C50 VA: 0x181748650
+	// RVA: 0x1748910 Offset: 0x1746F10 VA: 0x181748910
 	private void Decode(byte[] data) { }
 
 }
@@ -92,37 +92,37 @@ public class PKCS8.PrivateKeyInfo // TypeDefIndex: 1759
 
 	// Methods
 
-	// RVA: 0x1AC2ED0 Offset: 0x1AC14D0 VA: 0x181AC2ED0
+	// RVA: 0x1AC3190 Offset: 0x1AC1790 VA: 0x181AC3190
 	public void .ctor() { }
 
-	// RVA: 0x1AC2E40 Offset: 0x1AC1440 VA: 0x181AC2E40
+	// RVA: 0x1AC3100 Offset: 0x1AC1700 VA: 0x181AC3100
 	public void .ctor(byte[] data) { }
 
-	// RVA: 0x1AC2F40 Offset: 0x1AC1540 VA: 0x181AC2F40
+	// RVA: 0x1AC3200 Offset: 0x1AC1800 VA: 0x181AC3200
 	public byte[] get_PrivateKey() { }
 
-	// RVA: 0x1AC2220 Offset: 0x1AC0820 VA: 0x181AC2220
+	// RVA: 0x1AC24E0 Offset: 0x1AC0AE0 VA: 0x181AC24E0
 	private void Decode(byte[] data) { }
 
-	// RVA: 0x1AC2D90 Offset: 0x1AC1390 VA: 0x181AC2D90
+	// RVA: 0x1AC3050 Offset: 0x1AC1650 VA: 0x181AC3050
 	private static byte[] RemoveLeadingZero(byte[] bigInt) { }
 
-	// RVA: 0x1AC2CE0 Offset: 0x1AC12E0 VA: 0x181AC2CE0
+	// RVA: 0x1AC2FA0 Offset: 0x1AC15A0 VA: 0x181AC2FA0
 	private static byte[] Normalize(byte[] bigInt, int length) { }
 
-	// RVA: 0x1AC1D90 Offset: 0x1AC0390 VA: 0x181AC1D90
+	// RVA: 0x1AC2050 Offset: 0x1AC0650 VA: 0x181AC2050
 	public static RSA DecodeRSA(byte[] keypair) { }
 
-	// RVA: 0x1AC2740 Offset: 0x1AC0D40 VA: 0x181AC2740
+	// RVA: 0x1AC2A00 Offset: 0x1AC1000 VA: 0x181AC2A00
 	public static byte[] Encode(RSA rsa) { }
 
-	// RVA: 0x1AC1BF0 Offset: 0x1AC01F0 VA: 0x181AC1BF0
+	// RVA: 0x1AC1EB0 Offset: 0x1AC04B0 VA: 0x181AC1EB0
 	public static DSA DecodeDSA(byte[] privateKey, DSAParameters dsaParameters) { }
 
-	// RVA: 0x1AC24E0 Offset: 0x1AC0AE0 VA: 0x181AC24E0
+	// RVA: 0x1AC27A0 Offset: 0x1AC0DA0 VA: 0x181AC27A0
 	public static byte[] Encode(DSA dsa) { }
 
-	// RVA: 0x1AC2550 Offset: 0x1AC0B50 VA: 0x181AC2550
+	// RVA: 0x1AC2810 Offset: 0x1AC0E10 VA: 0x181AC2810
 	public static byte[] Encode(AsymmetricAlgorithm aa) { }
 
 }
@@ -145,22 +145,22 @@ public class PKCS8.EncryptedPrivateKeyInfo // TypeDefIndex: 1760
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1AB5160 Offset: 0x1AB3760 VA: 0x181AB5160
+	// RVA: 0x1AB5420 Offset: 0x1AB3A20 VA: 0x181AB5420
 	public void .ctor(byte[] data) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public string get_Algorithm() { }
 
-	// RVA: 0x1AB5190 Offset: 0x1AB3790 VA: 0x181AB5190
+	// RVA: 0x1AB5450 Offset: 0x1AB3A50 VA: 0x181AB5450
 	public byte[] get_EncryptedData() { }
 
-	// RVA: 0x1AB5210 Offset: 0x1AB3810 VA: 0x181AB5210
+	// RVA: 0x1AB54D0 Offset: 0x1AB3AD0 VA: 0x181AB54D0
 	public byte[] get_Salt() { }
 
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	public int get_IterationCount() { }
 
-	// RVA: 0x1AB4E50 Offset: 0x1AB3450 VA: 0x181AB4E50
+	// RVA: 0x1AB5110 Offset: 0x1AB3710 VA: 0x181AB5110
 	private void Decode(byte[] data) { }
 
 }

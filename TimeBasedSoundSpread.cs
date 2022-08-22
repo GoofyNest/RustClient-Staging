@@ -8,13 +8,13 @@ public class TimeBasedSoundSpread : SoundModifier // TypeDefIndex: 9046
 
 	// Methods
 
-	// RVA: 0x88A120 Offset: 0x888720 VA: 0x18088A120 Slot: 4
+	// RVA: 0x88A230 Offset: 0x888830 VA: 0x18088A230 Slot: 4
 	public override void Init(Sound targetSound) { }
 
-	// RVA: 0x88A1A0 Offset: 0x8887A0 VA: 0x18088A1A0 Slot: 6
+	// RVA: 0x88A2B0 Offset: 0x8888B0 VA: 0x18088A2B0 Slot: 6
 	public override void OnSoundPlay() { }
 
-	// RVA: 0x889F70 Offset: 0x888570 VA: 0x180889F70 Slot: 5
+	// RVA: 0x88A080 Offset: 0x888680 VA: 0x18088A080 Slot: 5
 	public override void ApplyModification() { }
 
 	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0

@@ -9,7 +9,7 @@ public sealed class InvalidChunkSizeException : MidiException // TypeDefIndex: 7
 
 	// Methods
 
-	// RVA: 0x13992F0 Offset: 0x13978F0 VA: 0x1813992F0
+	// RVA: 0x13995B0 Offset: 0x1397BB0 VA: 0x1813995B0
 	internal void .ctor(string chunkId, long expectedSize, long actualSize) { }
 
 }

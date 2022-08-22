@@ -7,22 +7,22 @@ public sealed class SetTempoEvent : MetaEvent // TypeDefIndex: 7546
 
 	// Methods
 
-	// RVA: 0x13A5B90 Offset: 0x13A4190 VA: 0x1813A5B90
+	// RVA: 0x13A5E50 Offset: 0x13A4450 VA: 0x1813A5E50
 	public void .ctor() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public long get_MicrosecondsPerQuarterNote() { }
 
-	// RVA: 0x13A5BC0 Offset: 0x13A41C0 VA: 0x1813A5BC0
+	// RVA: 0x13A5E80 Offset: 0x13A4480 VA: 0x1813A5E80
 	public void set_MicrosecondsPerQuarterNote(long value) { }
 
-	// RVA: 0x13A5960 Offset: 0x13A3F60 VA: 0x1813A5960 Slot: 6
+	// RVA: 0x13A5C20 Offset: 0x13A4220 VA: 0x1813A5C20 Slot: 6
 	protected override void ReadContent(MidiReader reader, ReadingSettings settings, int size) { }
 
-	// RVA: 0x13A58F0 Offset: 0x13A3EF0 VA: 0x1813A58F0 Slot: 5
+	// RVA: 0x13A5BB0 Offset: 0x13A41B0 VA: 0x1813A5BB0 Slot: 5
 	protected override MidiEvent CloneEvent() { }
 
-	// RVA: 0x13A5B30 Offset: 0x13A4130 VA: 0x1813A5B30 Slot: 3
+	// RVA: 0x13A5DF0 Offset: 0x13A43F0 VA: 0x1813A5DF0 Slot: 3
 	public override string ToString() { }
 
 }

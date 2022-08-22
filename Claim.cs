@@ -18,20 +18,20 @@ public class Claim // TypeDefIndex: 934
 
 	// Methods
 
-	// RVA: 0x1292600 Offset: 0x1290C00 VA: 0x181292600
+	// RVA: 0x12928C0 Offset: 0x1290EC0 VA: 0x1812928C0
 	public void .ctor(string type, string value, string valueType, string issuer, string originalIssuer, ClaimsIdentity subject) { }
 
-	// RVA: 0x12927B0 Offset: 0x1290DB0 VA: 0x1812927B0
+	// RVA: 0x1292A70 Offset: 0x1291070 VA: 0x181292A70
 	internal void .ctor(string type, string value, string valueType, string issuer, string originalIssuer, ClaimsIdentity subject, string propertyKey, string propertyValue) { }
 
-	// RVA: 0x1292A00 Offset: 0x1291000 VA: 0x181292A00
+	// RVA: 0x1292CC0 Offset: 0x12912C0 VA: 0x181292CC0
 	protected void .ctor(Claim other, ClaimsIdentity subject) { }
 
 	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1292530 Offset: 0x1290B30 VA: 0x181292530
+	// RVA: 0x12927F0 Offset: 0x1290DF0 VA: 0x1812927F0
 	private void OnDeserializedMethod(StreamingContext context) { }
 
-	// RVA: 0x1292CD0 Offset: 0x12912D0 VA: 0x181292CD0
+	// RVA: 0x1292F90 Offset: 0x1291590 VA: 0x181292F90
 	public IDictionary<string, string> get_Properties() { }
 
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
@@ -43,13 +43,13 @@ public class Claim // TypeDefIndex: 934
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public string get_Type() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public string get_Value() { }
 
-	// RVA: 0x12924C0 Offset: 0x1290AC0 VA: 0x1812924C0 Slot: 4
+	// RVA: 0x1292780 Offset: 0x1290D80 VA: 0x181292780 Slot: 4
 	public virtual Claim Clone(ClaimsIdentity identity) { }
 
-	// RVA: 0x1292590 Offset: 0x1290B90 VA: 0x181292590 Slot: 3
+	// RVA: 0x1292850 Offset: 0x1290E50 VA: 0x181292850 Slot: 3
 	public override string ToString() { }
 
 }

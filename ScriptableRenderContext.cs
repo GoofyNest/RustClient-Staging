@@ -28,10 +28,10 @@ public struct ScriptableRenderContext : IEquatable<ScriptableRenderContext> // T
 	// RVA: 0x222CA0 Offset: 0x2220A0 VA: 0x180222CA0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x19B4DA0 Offset: 0x19B33A0 VA: 0x1819B4DA0
+	// RVA: 0x19B5060 Offset: 0x19B3660 VA: 0x1819B5060
 	private static int GetNumberOfCameras_Internal_Injected(ref ScriptableRenderContext _unity_self) { }
 
-	// RVA: 0x19B4D60 Offset: 0x19B3360 VA: 0x1819B4D60
+	// RVA: 0x19B5020 Offset: 0x19B3620 VA: 0x1819B5020
 	private static Camera GetCamera_Internal_Injected(ref ScriptableRenderContext _unity_self, int index) { }
 
 }

@@ -4,19 +4,19 @@ public class BaseCommandBuffer : MonoBehaviour // TypeDefIndex: 11289
 
 	// Methods
 
-	// RVA: 0x7D8B80 Offset: 0x7D7180 VA: 0x1807D8B80
+	// RVA: 0x7D8C90 Offset: 0x7D7290 VA: 0x1807D8C90
 	protected CommandBuffer GetCommandBuffer(string name, Camera camera, CameraEvent cameraEvent) { }
 
-	// RVA: 0x7D87B0 Offset: 0x7D6DB0 VA: 0x1807D87B0
+	// RVA: 0x7D88C0 Offset: 0x7D6EC0 VA: 0x1807D88C0
 	protected void CleanupCamera(string name, Camera camera, CameraEvent cameraEvent) { }
 
-	// RVA: 0x7D8880 Offset: 0x7D6E80 VA: 0x1807D8880
+	// RVA: 0x7D8990 Offset: 0x7D6F90 VA: 0x1807D8990
 	protected void CleanupCommandBuffer(Camera camera, CameraEvent cameraEvent) { }
 
-	// RVA: 0x7D8930 Offset: 0x7D6F30 VA: 0x1807D8930
+	// RVA: 0x7D8A40 Offset: 0x7D7040 VA: 0x1807D8A40
 	protected void Cleanup() { }
 
-	// RVA: 0x7D8D80 Offset: 0x7D7380 VA: 0x1807D8D80
+	// RVA: 0x7D8E90 Offset: 0x7D7490 VA: 0x1807D8E90
 	public void .ctor() { }
 
 }

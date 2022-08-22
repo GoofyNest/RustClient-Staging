@@ -14,10 +14,10 @@ public class RandomRendererEnable : MonoBehaviour // TypeDefIndex: 8786
 	public int get_EnabledIndex() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D620 Offset: 0x69BC20 VA: 0x18069D620
+	// RVA: 0x69D730 Offset: 0x69BD30 VA: 0x18069D730
 	private void set_EnabledIndex(int value) { }
 
-	// RVA: 0x6A7AD0 Offset: 0x6A60D0 VA: 0x1806A7AD0
+	// RVA: 0x6A7BE0 Offset: 0x6A61E0 VA: 0x1806A7BE0
 	public void OnEnable() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

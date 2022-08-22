@@ -8,7 +8,7 @@ public sealed class SafeSerializationEventArgs : EventArgs // TypeDefIndex: 1045
 
 	// Methods
 
-	// RVA: 0x12A47F0 Offset: 0x12A2DF0 VA: 0x1812A47F0
+	// RVA: 0x12A4AB0 Offset: 0x12A30B0 VA: 0x1812A4AB0
 	internal void .ctor(StreamingContext streamingContext) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70

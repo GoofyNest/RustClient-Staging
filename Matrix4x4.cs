@@ -69,39 +69,39 @@ public struct Matrix4x4 : IEquatable<Matrix4x4> // TypeDefIndex: 3466
 	public FrustumPlanes get_decomposeProjection() { }
 
 	[FreeFunctionAttribute] // RVA: 0xAB440 Offset: 0xAA840 VA: 0x1800AB440
-	// RVA: 0x18F0C90 Offset: 0x18EF290 VA: 0x1818F0C90
+	// RVA: 0x18F0F50 Offset: 0x18EF550 VA: 0x1818F0F50
 	public static Matrix4x4 TRS(Vector3 pos, Quaternion q, Vector3 s) { }
 
 	// RVA: 0x2163B0 Offset: 0x2157B0 VA: 0x1802163B0
 	public void SetTRS(Vector3 pos, Quaternion q, Vector3 s) { }
 
 	[FreeFunctionAttribute] // RVA: 0xAB5E0 Offset: 0xAA9E0 VA: 0x1800AB5E0
-	// RVA: 0x18F0350 Offset: 0x18EE950 VA: 0x1818F0350
+	// RVA: 0x18F0610 Offset: 0x18EEC10 VA: 0x1818F0610
 	public static Matrix4x4 Inverse(Matrix4x4 m) { }
 
 	// RVA: 0x2166B0 Offset: 0x215AB0 VA: 0x1802166B0
 	public Matrix4x4 get_inverse() { }
 
 	[FreeFunctionAttribute] // RVA: 0xAB6A0 Offset: 0xAAAA0 VA: 0x1800AB6A0
-	// RVA: 0x18F15E0 Offset: 0x18EFBE0 VA: 0x1818F15E0
+	// RVA: 0x18F18A0 Offset: 0x18EFEA0 VA: 0x1818F18A0
 	public static Matrix4x4 Transpose(Matrix4x4 m) { }
 
 	// RVA: 0x216980 Offset: 0x215D80 VA: 0x180216980
 	public Matrix4x4 get_transpose() { }
 
 	[FreeFunctionAttribute] // RVA: 0xAB850 Offset: 0xAAC50 VA: 0x1800AB850
-	// RVA: 0x18F0700 Offset: 0x18EED00 VA: 0x1818F0700
+	// RVA: 0x18F09C0 Offset: 0x18EEFC0 VA: 0x1818F09C0
 	public static Matrix4x4 Ortho(float left, float right, float bottom, float top, float zNear, float zFar) { }
 
 	[FreeFunctionAttribute] // RVA: 0xAB890 Offset: 0xAAC90 VA: 0x1800AB890
-	// RVA: 0x18F0860 Offset: 0x18EEE60 VA: 0x1818F0860
+	// RVA: 0x18F0B20 Offset: 0x18EF120 VA: 0x1818F0B20
 	public static Matrix4x4 Perspective(float fov, float aspect, float zNear, float zFar) { }
 
 	[FreeFunctionAttribute] // RVA: 0xAB9A0 Offset: 0xAADA0 VA: 0x1800AB9A0
-	// RVA: 0x18EFC40 Offset: 0x18EE240 VA: 0x1818EFC40
+	// RVA: 0x18EFF00 Offset: 0x18EE500 VA: 0x1818EFF00
 	public static Matrix4x4 Frustum(float left, float right, float bottom, float top, float zNear, float zFar) { }
 
-	// RVA: 0x18EFAC0 Offset: 0x18EE0C0 VA: 0x1818EFAC0
+	// RVA: 0x18EFD80 Offset: 0x18EE380 VA: 0x1818EFD80
 	public static Matrix4x4 Frustum(FrustumPlanes fp) { }
 
 	// RVA: 0x216520 Offset: 0x215920 VA: 0x180216520
@@ -128,10 +128,10 @@ public struct Matrix4x4 : IEquatable<Matrix4x4> // TypeDefIndex: 3466
 	// RVA: 0x215C00 Offset: 0x215000 VA: 0x180215C00 Slot: 4
 	public bool Equals(Matrix4x4 other) { }
 
-	// RVA: 0x18F22C0 Offset: 0x18F08C0 VA: 0x1818F22C0
+	// RVA: 0x18F2580 Offset: 0x18F0B80 VA: 0x1818F2580
 	public static Matrix4x4 op_Multiply(Matrix4x4 lhs, Matrix4x4 rhs) { }
 
-	// RVA: 0x18F2120 Offset: 0x18F0720 VA: 0x1818F2120
+	// RVA: 0x18F23E0 Offset: 0x18F09E0 VA: 0x1818F23E0
 	public static Vector4 op_Multiply(Matrix4x4 lhs, Vector4 vector) { }
 
 	// RVA: 0x215C40 Offset: 0x215040 VA: 0x180215C40
@@ -155,46 +155,46 @@ public struct Matrix4x4 : IEquatable<Matrix4x4> // TypeDefIndex: 3466
 	// RVA: 0x216200 Offset: 0x215600 VA: 0x180216200
 	public Vector3 MultiplyVector(Vector3 vector) { }
 
-	// RVA: 0x18F0920 Offset: 0x18EEF20 VA: 0x1818F0920
+	// RVA: 0x18F0BE0 Offset: 0x18EF1E0 VA: 0x1818F0BE0
 	public static Matrix4x4 Scale(Vector3 vector) { }
 
-	// RVA: 0x18F14F0 Offset: 0x18EFAF0 VA: 0x1818F14F0
+	// RVA: 0x18F17B0 Offset: 0x18EFDB0 VA: 0x1818F17B0
 	public static Matrix4x4 Translate(Vector3 vector) { }
 
-	// RVA: 0x18F1C40 Offset: 0x18F0240 VA: 0x1818F1C40
+	// RVA: 0x18F1F00 Offset: 0x18F0500 VA: 0x1818F1F00
 	public static Matrix4x4 get_identity() { }
 
 	// RVA: 0x216510 Offset: 0x215910 VA: 0x180216510 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x18F1670 Offset: 0x18EFC70 VA: 0x1818F1670
+	// RVA: 0x18F1930 Offset: 0x18EFF30 VA: 0x1818F1930
 	private static void .cctor() { }
 
-	// RVA: 0x18F0100 Offset: 0x18EE700 VA: 0x1818F0100
+	// RVA: 0x18F03C0 Offset: 0x18EE9C0 VA: 0x1818F03C0
 	private static void GetRotation_Injected(ref Matrix4x4 _unity_self, out Quaternion ret) { }
 
-	// RVA: 0x18F0020 Offset: 0x18EE620 VA: 0x1818F0020
+	// RVA: 0x18F02E0 Offset: 0x18EE8E0 VA: 0x1818F02E0
 	private static void GetLossyScale_Injected(ref Matrix4x4 _unity_self, out Vector3 ret) { }
 
-	// RVA: 0x18EF590 Offset: 0x18EDB90 VA: 0x1818EF590
+	// RVA: 0x18EF850 Offset: 0x18EDE50 VA: 0x1818EF850
 	private static void DecomposeProjection_Injected(ref Matrix4x4 _unity_self, out FrustumPlanes ret) { }
 
-	// RVA: 0x18F0C20 Offset: 0x18EF220 VA: 0x1818F0C20
+	// RVA: 0x18F0EE0 Offset: 0x18EF4E0 VA: 0x1818F0EE0
 	private static void TRS_Injected(ref Vector3 pos, ref Quaternion q, ref Vector3 s, out Matrix4x4 ret) { }
 
-	// RVA: 0x18F0300 Offset: 0x18EE900 VA: 0x1818F0300
+	// RVA: 0x18F05C0 Offset: 0x18EEBC0 VA: 0x1818F05C0
 	private static void Inverse_Injected(ref Matrix4x4 m, out Matrix4x4 ret) { }
 
-	// RVA: 0x18F1590 Offset: 0x18EFB90 VA: 0x1818F1590
+	// RVA: 0x18F1850 Offset: 0x18EFE50 VA: 0x1818F1850
 	private static void Transpose_Injected(ref Matrix4x4 m, out Matrix4x4 ret) { }
 
-	// RVA: 0x18F0680 Offset: 0x18EEC80 VA: 0x1818F0680
+	// RVA: 0x18F0940 Offset: 0x18EEF40 VA: 0x1818F0940
 	private static void Ortho_Injected(float left, float right, float bottom, float top, float zNear, float zFar, out Matrix4x4 ret) { }
 
-	// RVA: 0x18F07E0 Offset: 0x18EEDE0 VA: 0x1818F07E0
+	// RVA: 0x18F0AA0 Offset: 0x18EF0A0 VA: 0x1818F0AA0
 	private static void Perspective_Injected(float fov, float aspect, float zNear, float zFar, out Matrix4x4 ret) { }
 
-	// RVA: 0x18EFA40 Offset: 0x18EE040 VA: 0x1818EFA40
+	// RVA: 0x18EFD00 Offset: 0x18EE300 VA: 0x1818EFD00
 	private static void Frustum_Injected(float left, float right, float bottom, float top, float zNear, float zFar, out Matrix4x4 ret) { }
 
 }

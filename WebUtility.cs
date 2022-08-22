@@ -6,25 +6,25 @@ public static class WebUtility // TypeDefIndex: 2912
 
 	// Methods
 
-	// RVA: 0x118F5B0 Offset: 0x118DBB0 VA: 0x18118F5B0
+	// RVA: 0x118F870 Offset: 0x118DE70 VA: 0x18118F870
 	private static byte[] UrlEncode(byte[] bytes, int offset, int count, bool alwaysCreateNewReturnValue) { }
 
-	// RVA: 0x118F680 Offset: 0x118DC80 VA: 0x18118F680
+	// RVA: 0x118F940 Offset: 0x118DF40 VA: 0x18118F940
 	private static byte[] UrlEncode(byte[] bytes, int offset, int count) { }
 
-	// RVA: 0x118F490 Offset: 0x118DA90 VA: 0x18118F490
+	// RVA: 0x118F750 Offset: 0x118DD50 VA: 0x18118F750
 	public static string UrlEncode(string value) { }
 
-	// RVA: 0x118F410 Offset: 0x118DA10 VA: 0x18118F410
+	// RVA: 0x118F6D0 Offset: 0x118DCD0 VA: 0x18118F6D0
 	private static char IntToHex(int n) { }
 
-	// RVA: 0x118F420 Offset: 0x118DA20 VA: 0x18118F420
+	// RVA: 0x118F6E0 Offset: 0x118DCE0 VA: 0x18118F6E0
 	private static bool IsUrlSafeChar(char ch) { }
 
-	// RVA: 0x118FA90 Offset: 0x118E090 VA: 0x18118FA90
+	// RVA: 0x118FD50 Offset: 0x118E350 VA: 0x18118FD50
 	private static bool ValidateUrlEncodingParameters(byte[] bytes, int offset, int count) { }
 
-	// RVA: 0x118FBA0 Offset: 0x118E1A0 VA: 0x18118FBA0
+	// RVA: 0x118FE60 Offset: 0x118E460 VA: 0x18118FE60
 	private static void .cctor() { }
 
 }

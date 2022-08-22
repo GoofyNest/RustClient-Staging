@@ -24,34 +24,34 @@ internal class CalendarData // TypeDefIndex: 688
 
 	// Methods
 
-	// RVA: 0x10D2520 Offset: 0x10D0B20 VA: 0x1810D2520
+	// RVA: 0x10D27E0 Offset: 0x10D0DE0 VA: 0x1810D27E0
 	private void .ctor() { }
 
-	// RVA: 0x10D05B0 Offset: 0x10CEBB0 VA: 0x1810D05B0
+	// RVA: 0x10D0870 Offset: 0x10CEE70 VA: 0x1810D0870
 	private static void .cctor() { }
 
-	// RVA: 0x10D1DC0 Offset: 0x10D03C0 VA: 0x1810D1DC0
+	// RVA: 0x10D2080 Offset: 0x10D0680 VA: 0x1810D2080
 	internal void .ctor(string localeName, int calendarId, bool bUseUserOverrides) { }
 
-	// RVA: 0x10CFDE0 Offset: 0x10CE3E0 VA: 0x1810CFDE0
+	// RVA: 0x10D00A0 Offset: 0x10CE6A0 VA: 0x1810D00A0
 	private void InitializeEraNames(string localeName, int calendarId) { }
 
-	// RVA: 0x10CF930 Offset: 0x10CDF30 VA: 0x1810CF930
+	// RVA: 0x10CFBF0 Offset: 0x10CE1F0 VA: 0x1810CFBF0
 	private void InitializeAbbreviatedEraNames(string localeName, int calendarId) { }
 
-	// RVA: 0x10CF7B0 Offset: 0x10CDDB0 VA: 0x1810CF7B0
+	// RVA: 0x10CFA70 Offset: 0x10CE070 VA: 0x1810CFA70
 	internal static CalendarData GetCalendarData(int calendarId) { }
 
-	// RVA: 0x10CF690 Offset: 0x10CDC90 VA: 0x1810CF690
+	// RVA: 0x10CF950 Offset: 0x10CDF50 VA: 0x1810CF950
 	private static string CalendarIdToCultureName(int calendarId) { }
 
 	// RVA: 0x686A10 Offset: 0x685010 VA: 0x180686A10
 	public static int nativeGetTwoDigitYearMax(int calID) { }
 
-	// RVA: 0x10D2550 Offset: 0x10D0B50 VA: 0x1810D2550
+	// RVA: 0x10D2810 Offset: 0x10D0E10 VA: 0x1810D2810
 	private static bool nativeGetCalendarData(CalendarData data, string localeName, int calendarId) { }
 
-	// RVA: 0x10D2540 Offset: 0x10D0B40 VA: 0x1810D2540
+	// RVA: 0x10D2800 Offset: 0x10D0E00 VA: 0x1810D2800
 	private bool fill_calendar_data(string localeName, int datetimeIndex) { }
 
 }

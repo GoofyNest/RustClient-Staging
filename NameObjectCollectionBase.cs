@@ -17,73 +17,73 @@ public abstract class NameObjectCollectionBase : ICollection, IEnumerable, ISeri
 
 	// Methods
 
-	// RVA: 0x15CCC30 Offset: 0x15CB230 VA: 0x1815CCC30
+	// RVA: 0x15CCEF0 Offset: 0x15CB4F0 VA: 0x1815CCEF0
 	protected void .ctor() { }
 
-	// RVA: 0x15CCAF0 Offset: 0x15CB0F0 VA: 0x1815CCAF0
+	// RVA: 0x15CCDB0 Offset: 0x15CB3B0 VA: 0x1815CCDB0
 	protected void .ctor(IEqualityComparer equalityComparer) { }
 
-	// RVA: 0x15CCAB0 Offset: 0x15CB0B0 VA: 0x1815CCAB0
+	// RVA: 0x15CCD70 Offset: 0x15CB370 VA: 0x1815CCD70
 	protected void .ctor(int capacity, IEqualityComparer equalityComparer) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor(DBNull dummy) { }
 
-	// RVA: 0x15CCA80 Offset: 0x15CB080 VA: 0x1815CCA80
+	// RVA: 0x15CCD40 Offset: 0x15CB340 VA: 0x1815CCD40
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x15CB730 Offset: 0x15C9D30 VA: 0x1815CB730 Slot: 10
+	// RVA: 0x15CB9F0 Offset: 0x15C9FF0 VA: 0x1815CB9F0 Slot: 10
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x15CBDF0 Offset: 0x15CA3F0 VA: 0x1815CBDF0 Slot: 11
+	// RVA: 0x15CC0B0 Offset: 0x15CA6B0 VA: 0x1815CC0B0 Slot: 11
 	public virtual void OnDeserialization(object sender) { }
 
-	// RVA: 0x15CC4E0 Offset: 0x15CAAE0 VA: 0x1815CC4E0
+	// RVA: 0x15CC7A0 Offset: 0x15CADA0 VA: 0x1815CC7A0
 	private void Reset() { }
 
-	// RVA: 0x15CC5A0 Offset: 0x15CABA0 VA: 0x1815CC5A0
+	// RVA: 0x15CC860 Offset: 0x15CAE60 VA: 0x1815CC860
 	private void Reset(int capacity) { }
 
-	// RVA: 0x15CB5D0 Offset: 0x15C9BD0 VA: 0x1815CB5D0
+	// RVA: 0x15CB890 Offset: 0x15C9E90 VA: 0x1815CB890
 	private NameObjectCollectionBase.NameObjectEntry FindEntry(string key) { }
 
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	protected bool get_IsReadOnly() { }
 
-	// RVA: 0x15CAE30 Offset: 0x15C9430 VA: 0x1815CAE30
+	// RVA: 0x15CB0F0 Offset: 0x15C96F0 VA: 0x1815CB0F0
 	protected void BaseAdd(string name, object value) { }
 
-	// RVA: 0x15CB2C0 Offset: 0x15C98C0 VA: 0x1815CB2C0
+	// RVA: 0x15CB580 Offset: 0x15C9B80 VA: 0x1815CB580
 	protected void BaseRemove(string name) { }
 
-	// RVA: 0x15CB1B0 Offset: 0x15C97B0 VA: 0x1815CB1B0
+	// RVA: 0x15CB470 Offset: 0x15C9A70 VA: 0x1815CB470
 	protected object BaseGet(string name) { }
 
-	// RVA: 0x15CB500 Offset: 0x15C9B00 VA: 0x1815CB500
+	// RVA: 0x15CB7C0 Offset: 0x15C9DC0 VA: 0x1815CB7C0
 	protected void BaseSet(string name, object value) { }
 
-	// RVA: 0x15CB1D0 Offset: 0x15C97D0 VA: 0x1815CB1D0
+	// RVA: 0x15CB490 Offset: 0x15C9A90 VA: 0x1815CB490
 	protected object BaseGet(int index) { }
 
-	// RVA: 0x15CB0C0 Offset: 0x15C96C0 VA: 0x1815CB0C0
+	// RVA: 0x15CB380 Offset: 0x15C9980 VA: 0x1815CB380
 	protected string BaseGetKey(int index) { }
 
-	// RVA: 0x15CB6A0 Offset: 0x15C9CA0 VA: 0x1815CB6A0 Slot: 12
+	// RVA: 0x15CB960 Offset: 0x15C9F60 VA: 0x1815CB960 Slot: 12
 	public virtual IEnumerator GetEnumerator() { }
 
-	// RVA: 0x15216D0 Offset: 0x151FCD0 VA: 0x1815216D0 Slot: 13
+	// RVA: 0x1521990 Offset: 0x151FF90 VA: 0x181521990 Slot: 13
 	public virtual int get_Count() { }
 
-	// RVA: 0x15CC670 Offset: 0x15CAC70 VA: 0x1815CC670 Slot: 4
+	// RVA: 0x15CC930 Offset: 0x15CAF30 VA: 0x1815CC930 Slot: 4
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 
-	// RVA: 0x15CC960 Offset: 0x15CAF60 VA: 0x1815CC960 Slot: 6
+	// RVA: 0x15CCC20 Offset: 0x15CB220 VA: 0x1815CCC20 Slot: 6
 	private object System.Collections.ICollection.get_SyncRoot() { }
 
-	// RVA: 0x15CAFB0 Offset: 0x15C95B0 VA: 0x1815CAFB0
+	// RVA: 0x15CB270 Offset: 0x15C9870 VA: 0x1815CB270
 	protected string[] BaseGetAllKeys() { }
 
-	// RVA: 0x15CC9D0 Offset: 0x15CAFD0 VA: 0x1815CC9D0
+	// RVA: 0x15CCC90 Offset: 0x15CB290 VA: 0x1815CCC90
 	private static void .cctor() { }
 
 }
@@ -111,16 +111,16 @@ internal class NameObjectCollectionBase.NameObjectKeysEnumerator : IEnumerator /
 
 	// Methods
 
-	// RVA: 0x15CCF10 Offset: 0x15CB510 VA: 0x1815CCF10
+	// RVA: 0x15CD1D0 Offset: 0x15CB7D0 VA: 0x1815CD1D0
 	internal void .ctor(NameObjectCollectionBase coll) { }
 
-	// RVA: 0x15CCDB0 Offset: 0x15CB3B0 VA: 0x1815CCDB0 Slot: 4
+	// RVA: 0x15CD070 Offset: 0x15CB670 VA: 0x1815CD070 Slot: 4
 	public bool MoveNext() { }
 
-	// RVA: 0x15CCE80 Offset: 0x15CB480 VA: 0x1815CCE80 Slot: 6
+	// RVA: 0x15CD140 Offset: 0x15CB740 VA: 0x1815CD140 Slot: 6
 	public void Reset() { }
 
-	// RVA: 0x15CCF70 Offset: 0x15CB570 VA: 0x1815CCF70 Slot: 5
+	// RVA: 0x15CD230 Offset: 0x15CB830 VA: 0x1815CD230 Slot: 5
 	public object get_Current() { }
 
 }

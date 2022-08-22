@@ -42,110 +42,110 @@ public static class RuntimeUtilities // TypeDefIndex: 11867
 
 	// Methods
 
-	// RVA: 0x11DB270 Offset: 0x11D9870 VA: 0x1811DB270
+	// RVA: 0x11DB530 Offset: 0x11D9B30 VA: 0x1811DB530
 	public static Texture2D get_whiteTexture() { }
 
-	// RVA: 0x11DB080 Offset: 0x11D9680 VA: 0x1811DB080
+	// RVA: 0x11DB340 Offset: 0x11D9940 VA: 0x1811DB340
 	public static Texture3D get_whiteTexture3D() { }
 
-	// RVA: 0x11D9A40 Offset: 0x11D8040 VA: 0x1811D9A40
+	// RVA: 0x11D9D00 Offset: 0x11D8300 VA: 0x1811D9D00
 	public static Texture2D get_blackTexture() { }
 
-	// RVA: 0x11D9850 Offset: 0x11D7E50 VA: 0x1811D9850
+	// RVA: 0x11D9B10 Offset: 0x11D8110 VA: 0x1811D9B10
 	public static Texture3D get_blackTexture3D() { }
 
-	// RVA: 0x11DAEC0 Offset: 0x11D94C0 VA: 0x1811DAEC0
+	// RVA: 0x11DB180 Offset: 0x11D9780 VA: 0x1811DB180
 	public static Texture2D get_transparentTexture() { }
 
-	// RVA: 0x11DACD0 Offset: 0x11D92D0 VA: 0x1811DACD0
+	// RVA: 0x11DAF90 Offset: 0x11D9590 VA: 0x1811DAF90
 	public static Texture3D get_transparentTexture3D() { }
 
-	// RVA: 0x11D90F0 Offset: 0x11D76F0 VA: 0x1811D90F0
+	// RVA: 0x11D93B0 Offset: 0x11D79B0 VA: 0x1811D93B0
 	public static Texture2D GetLutStrip(int size) { }
 
-	// RVA: 0x11DA740 Offset: 0x11D8D40 VA: 0x1811DA740
+	// RVA: 0x11DAA00 Offset: 0x11D9000 VA: 0x1811DAA00
 	public static Mesh get_fullscreenTriangle() { }
 
-	// RVA: 0x11DA560 Offset: 0x11D8B60 VA: 0x1811DA560
+	// RVA: 0x11DA820 Offset: 0x11D8E20 VA: 0x1811DA820
 	public static Material get_copyStdMaterial() { }
 
-	// RVA: 0x11DA380 Offset: 0x11D8980 VA: 0x1811DA380
+	// RVA: 0x11DA640 Offset: 0x11D8C40 VA: 0x1811DA640
 	public static Material get_copyStdFromDoubleWideMaterial() { }
 
-	// RVA: 0x11DA090 Offset: 0x11D8690 VA: 0x1811DA090
+	// RVA: 0x11DA350 Offset: 0x11D8950 VA: 0x1811DA350
 	public static Material get_copyMaterial() { }
 
-	// RVA: 0x11D9C00 Offset: 0x11D8200 VA: 0x1811D9C00
+	// RVA: 0x11D9EC0 Offset: 0x11D84C0 VA: 0x1811D9EC0
 	public static Material get_copyFromTexArrayMaterial() { }
 
-	// RVA: 0x11DA270 Offset: 0x11D8870 VA: 0x1811DA270
+	// RVA: 0x11DA530 Offset: 0x11D8B30 VA: 0x1811DA530
 	public static PropertySheet get_copySheet() { }
 
-	// RVA: 0x11D9DE0 Offset: 0x11D83E0 VA: 0x1811D9DE0
+	// RVA: 0x11DA0A0 Offset: 0x11D86A0 VA: 0x1811DA0A0
 	public static PropertySheet get_copyFromTexArraySheet() { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11D9790 Offset: 0x11D7D90 VA: 0x1811D9790
+	// RVA: 0x11D9A50 Offset: 0x11D8050 VA: 0x1811D9A50
 	public static void SetRenderTargetWithLoadStoreAction(CommandBuffer cmd, RenderTargetIdentifier rt, RenderBufferLoadAction loadAction, RenderBufferStoreAction storeAction) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11D9700 Offset: 0x11D7D00 VA: 0x1811D9700
+	// RVA: 0x11D99C0 Offset: 0x11D7FC0 VA: 0x1811D99C0
 	public static void SetRenderTargetWithLoadStoreAction(CommandBuffer cmd, RenderTargetIdentifier color, RenderBufferLoadAction colorLoadAction, RenderBufferStoreAction colorStoreAction, RenderTargetIdentifier depth, RenderBufferLoadAction depthLoadAction, RenderBufferStoreAction depthStoreAction) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11D7D90 Offset: 0x11D6390 VA: 0x1811D7D90
+	// RVA: 0x11D8050 Offset: 0x11D6650 VA: 0x1811D8050
 	public static void BlitFullscreenTriangle(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier destination, bool clear = False, Nullable<Rect> viewport) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11D7B20 Offset: 0x11D6120 VA: 0x1811D7B20
+	// RVA: 0x11D7DE0 Offset: 0x11D63E0 VA: 0x1811D7DE0
 	public static void BlitFullscreenTriangle(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier destination, PropertySheet propertySheet, int pass, RenderBufferLoadAction loadAction, Nullable<Rect> viewport) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11D76F0 Offset: 0x11D5CF0 VA: 0x1811D76F0
+	// RVA: 0x11D79B0 Offset: 0x11D5FB0 VA: 0x1811D79B0
 	public static void BlitFullscreenTriangle(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier destination, PropertySheet propertySheet, int pass, bool clear = False, Nullable<Rect> viewport) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11D6E80 Offset: 0x11D5480 VA: 0x1811D6E80
+	// RVA: 0x11D7140 Offset: 0x11D5740 VA: 0x1811D7140
 	public static void BlitFullscreenTriangleFromDoubleWide(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier destination, Material material, int pass, int eye) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11D7290 Offset: 0x11D5890 VA: 0x1811D7290
+	// RVA: 0x11D7550 Offset: 0x11D5B50 VA: 0x1811D7550
 	public static void BlitFullscreenTriangleToDoubleWide(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier destination, PropertySheet propertySheet, int pass, int eye) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11D7060 Offset: 0x11D5660 VA: 0x1811D7060
+	// RVA: 0x11D7320 Offset: 0x11D5920 VA: 0x1811D7320
 	public static void BlitFullscreenTriangleFromTexArray(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier destination, PropertySheet propertySheet, int pass, bool clear = False, int depthSlice = -1) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11D74D0 Offset: 0x11D5AD0 VA: 0x1811D74D0
+	// RVA: 0x11D7790 Offset: 0x11D5D90 VA: 0x1811D7790
 	public static void BlitFullscreenTriangleToTexArray(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier destination, PropertySheet propertySheet, int pass, bool clear = False, int depthSlice = -1) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11D7820 Offset: 0x11D5E20 VA: 0x1811D7820
+	// RVA: 0x11D7AE0 Offset: 0x11D60E0 VA: 0x1811D7AE0
 	public static void BlitFullscreenTriangle(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier destination, RenderTargetIdentifier depth, PropertySheet propertySheet, int pass, bool clear = False, Nullable<Rect> viewport) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11D8030 Offset: 0x11D6630 VA: 0x1811D8030
+	// RVA: 0x11D82F0 Offset: 0x11D68F0 VA: 0x1811D82F0
 	public static void BlitFullscreenTriangle(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier[] destinations, RenderTargetIdentifier depth, PropertySheet propertySheet, int pass, bool clear = False, Nullable<Rect> viewport) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11D8350 Offset: 0x11D6950 VA: 0x1811D8350
+	// RVA: 0x11D8610 Offset: 0x11D6C10 VA: 0x1811D8610
 	public static void BuiltinBlit(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier destination) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11D8250 Offset: 0x11D6850 VA: 0x1811D8250
+	// RVA: 0x11D8510 Offset: 0x11D6B10 VA: 0x1811D8510
 	public static void BuiltinBlit(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier destination, Material mat, int pass = 0) { }
 
-	// RVA: 0x11D8430 Offset: 0x11D6A30 VA: 0x1811D8430
+	// RVA: 0x11D86F0 Offset: 0x11D6CF0 VA: 0x1811D86F0
 	public static void CopyTexture(CommandBuffer cmd, RenderTargetIdentifier source, RenderTargetIdentifier destination) { }
 
-	// RVA: 0x11DAB10 Offset: 0x11D9110 VA: 0x1811DAB10
+	// RVA: 0x11DADD0 Offset: 0x11D93D0 VA: 0x1811DADD0
 	public static bool get_scriptableRenderPipelineActive() { }
 
-	// RVA: 0x11DAB70 Offset: 0x11D9170 VA: 0x1811DAB70
+	// RVA: 0x11DAE30 Offset: 0x11D9430 VA: 0x1811DAE30
 	public static bool get_supportsDeferredShading() { }
 
-	// RVA: 0x11DAC20 Offset: 0x11D9220 VA: 0x1811DAC20
+	// RVA: 0x11DAEE0 Offset: 0x11D94E0 VA: 0x1811DAEE0
 	public static bool get_supportsDepthNormals() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
@@ -154,34 +154,34 @@ public static class RuntimeUtilities // TypeDefIndex: 11867
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	public static bool get_isVREnabled() { }
 
-	// RVA: 0x11DAAC0 Offset: 0x11D90C0 VA: 0x1811DAAC0
+	// RVA: 0x11DAD80 Offset: 0x11D9380 VA: 0x1811DAD80
 	public static bool get_isAndroidOpenGL() { }
 
-	// RVA: 0xE665F0 Offset: 0xE64BF0 VA: 0x180E665F0
+	// RVA: 0xE668B0 Offset: 0xE64EB0 VA: 0x180E668B0
 	public static RenderTextureFormat get_defaultHDRRenderTextureFormat() { }
 
-	// RVA: 0x11DB420 Offset: 0x11D9A20 VA: 0x1811DB420
+	// RVA: 0x11DB6E0 Offset: 0x11D9CE0 VA: 0x1811DB6E0
 	public static bool isFloatingPointFormat(RenderTextureFormat format) { }
 
-	// RVA: 0x11D8860 Offset: 0x11D6E60 VA: 0x1811D8860
+	// RVA: 0x11D8B20 Offset: 0x11D7120 VA: 0x1811D8B20
 	public static void Destroy(Object obj) { }
 
-	// RVA: 0x11DAAF0 Offset: 0x11D90F0 VA: 0x1811DAAF0
+	// RVA: 0x11DADB0 Offset: 0x11D93B0 VA: 0x1811DADB0
 	public static bool get_isLinearColorSpace() { }
 
-	// RVA: 0x11D95A0 Offset: 0x11D7BA0 VA: 0x1811D95A0
+	// RVA: 0x11D9860 Offset: 0x11D7E60 VA: 0x1811D9860
 	public static bool IsResolvedDepthAvailable(Camera camera) { }
 
-	// RVA: 0x11D85A0 Offset: 0x11D6BA0 VA: 0x1811D85A0
+	// RVA: 0x11D8860 Offset: 0x11D6E60 VA: 0x1811D8860
 	public static void DestroyProfile(PostProcessProfile profile, bool destroyEffects) { }
 
-	// RVA: 0x11D8710 Offset: 0x11D6D10 VA: 0x1811D8710
+	// RVA: 0x11D89D0 Offset: 0x11D6FD0 VA: 0x1811D89D0
 	public static void DestroyVolume(PostProcessVolume volume, bool destroyProfile, bool destroyGameObject = False) { }
 
-	// RVA: 0x11D9520 Offset: 0x11D7B20 VA: 0x1811D9520
+	// RVA: 0x11D97E0 Offset: 0x11D7DE0 VA: 0x1811D97E0
 	public static bool IsPostProcessingActive(PostProcessLayer layer) { }
 
-	// RVA: 0x11D9610 Offset: 0x11D7C10 VA: 0x1811D9610
+	// RVA: 0x11D98D0 Offset: 0x11D7ED0 VA: 0x1811D98D0
 	public static bool IsTemporalAntialiasingActive(PostProcessLayer layer) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x7FE40 Offset: 0x7F240 VA: 0x18007FE40
@@ -189,7 +189,7 @@ public static class RuntimeUtilities // TypeDefIndex: 11867
 	public static IEnumerable<T> GetAllSceneObjects<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD03230 Offset: 0xD01830 VA: 0x180D03230
+	|-RVA: 0xD034F0 Offset: 0xD01AF0 VA: 0x180D034F0
 	|-RuntimeUtilities.GetAllSceneObjects<object>
 	*/
 
@@ -213,19 +213,19 @@ public static class RuntimeUtilities // TypeDefIndex: 11867
 	|-RuntimeUtilities.CreateIfNull<WaveformMonitor>
 	*/
 
-	// RVA: 0x11D88F0 Offset: 0x11D6EF0 VA: 0x1811D88F0
+	// RVA: 0x11D8BB0 Offset: 0x11D71B0 VA: 0x1811D8BB0
 	public static float Exp2(float x) { }
 
-	// RVA: 0x11D8EF0 Offset: 0x11D74F0 VA: 0x1811D8EF0
+	// RVA: 0x11D91B0 Offset: 0x11D77B0 VA: 0x1811D91B0
 	public static Matrix4x4 GetJitteredPerspectiveProjectionMatrix(Camera camera, Vector2 offset) { }
 
-	// RVA: 0x11D8D00 Offset: 0x11D7300 VA: 0x1811D8D00
+	// RVA: 0x11D8FC0 Offset: 0x11D75C0 VA: 0x1811D8FC0
 	public static Matrix4x4 GetJitteredOrthographicProjectionMatrix(Camera camera, Vector2 offset) { }
 
-	// RVA: 0x11D8950 Offset: 0x11D6F50 VA: 0x1811D8950
+	// RVA: 0x11D8C10 Offset: 0x11D7210 VA: 0x1811D8C10
 	public static Matrix4x4 GenerateJitteredProjectionMatrixFromOriginal(PostProcessRenderContext context, Matrix4x4 origProj, Vector2 jitter) { }
 
-	// RVA: 0x11D8B30 Offset: 0x11D7130 VA: 0x1811D8B30
+	// RVA: 0x11D8DF0 Offset: 0x11D73F0 VA: 0x1811D8DF0
 	public static IEnumerable<Type> GetAllAssemblyTypes() { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -233,7 +233,7 @@ public static class RuntimeUtilities // TypeDefIndex: 11867
 	public static T GetAttribute<T>(Type type) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BAA30 Offset: 0x15B9030 VA: 0x1815BAA30
+	|-RVA: 0x15BACF0 Offset: 0x15B92F0 VA: 0x1815BACF0
 	|-RuntimeUtilities.GetAttribute<object>
 	|-RuntimeUtilities.GetAttribute<PostProcessAttribute>
 	*/
@@ -242,7 +242,7 @@ public static class RuntimeUtilities // TypeDefIndex: 11867
 	public static Attribute[] GetMemberAttributes<TType, TValue>(Expression<Func<TType, TValue>> expr) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125ED70 Offset: 0x125D370 VA: 0x18125ED70
+	|-RVA: 0x125F030 Offset: 0x125D630 VA: 0x18125F030
 	|-RuntimeUtilities.GetMemberAttributes<object, object>
 	*/
 
@@ -250,11 +250,11 @@ public static class RuntimeUtilities // TypeDefIndex: 11867
 	public static string GetFieldPath<TType, TValue>(Expression<Func<TType, TValue>> expr) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED81E0 Offset: 0xED67E0 VA: 0x180ED81E0
+	|-RVA: 0xED84A0 Offset: 0xED6AA0 VA: 0x180ED84A0
 	|-RuntimeUtilities.GetFieldPath<object, object>
 	*/
 
-	// RVA: 0x11D97E0 Offset: 0x11D7DE0 VA: 0x1811D97E0
+	// RVA: 0x11D9AA0 Offset: 0x11D80A0 VA: 0x1811D9AA0
 	private static void .cctor() { }
 
 }
@@ -280,7 +280,7 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x144B840 Offset: 0x1449E40 VA: 0x18144B840
+	|-RVA: 0x144BB00 Offset: 0x144A100 VA: 0x18144BB00
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>..ctor
 	*/
 
@@ -289,7 +289,7 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C6F00 Offset: 0x19C5500 VA: 0x1819C6F00
+	|-RVA: 0x19C71C0 Offset: 0x19C57C0 VA: 0x1819C71C0
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.IDisposable.Dispose
 	*/
 
@@ -297,7 +297,7 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C6A10 Offset: 0x19C5010 VA: 0x1819C6A10
+	|-RVA: 0x19C6CD0 Offset: 0x19C52D0 VA: 0x1819C6CD0
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.MoveNext
 	*/
 
@@ -305,7 +305,7 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C6F80 Offset: 0x19C5580 VA: 0x1819C6F80
+	|-RVA: 0x19C7240 Offset: 0x19C5840 VA: 0x1819C7240
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.<>m__Finally1
 	*/
 
@@ -323,7 +323,7 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C6EB0 Offset: 0x19C54B0 VA: 0x1819C6EB0
+	|-RVA: 0x19C7170 Offset: 0x19C5770 VA: 0x1819C7170
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -341,7 +341,7 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C6DE0 Offset: 0x19C53E0 VA: 0x1819C6DE0
+	|-RVA: 0x19C70A0 Offset: 0x19C56A0 VA: 0x1819C70A0
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
@@ -350,7 +350,7 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C6E80 Offset: 0x19C5480 VA: 0x1819C6E80
+	|-RVA: 0x19C7140 Offset: 0x19C5740 VA: 0x1819C7140
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
@@ -363,13 +363,13 @@ private sealed class RuntimeUtilities.<>c // TypeDefIndex: 11869
 
 	// Methods
 
-	// RVA: 0x11E78B0 Offset: 0x11E5EB0 VA: 0x1811E78B0
+	// RVA: 0x11E7B70 Offset: 0x11E6170 VA: 0x1811E7B70
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x11E7740 Offset: 0x11E5D40 VA: 0x1811E7740
+	// RVA: 0x11E7A00 Offset: 0x11E6000 VA: 0x1811E7A00
 	internal IEnumerable<Type> <GetAllAssemblyTypes>b__86_0(Assembly t) { }
 
 }

@@ -12,7 +12,7 @@ public class GenerateRiverMeshes : ProceduralComponent // TypeDefIndex: 10501
 
 	// Methods
 
-	// RVA: 0xC92000 Offset: 0xC90600 VA: 0x180C92000 Slot: 5
+	// RVA: 0xC922C0 Offset: 0xC908C0 VA: 0x180C922C0 Slot: 5
 	public override void Process(uint seed) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 4

@@ -5,7 +5,7 @@ public class ORSwitch : IOEntity // TypeDefIndex: 9803
 
 	// Methods
 
-	// RVA: 0x9D62E0 Offset: 0x9D48E0 VA: 0x1809D62E0
+	// RVA: 0x9D65A0 Offset: 0x9D4BA0 VA: 0x1809D65A0
 	public void .ctor() { }
 
 }

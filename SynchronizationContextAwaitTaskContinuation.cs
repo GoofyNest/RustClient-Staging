@@ -6,19 +6,19 @@ internal sealed class SynchronizationContextAwaitTaskContinuation : AwaitTaskCon
 
 	// Methods
 
-	// RVA: 0x149BB20 Offset: 0x149A120 VA: 0x18149BB20
+	// RVA: 0x149BDE0 Offset: 0x149A3E0 VA: 0x18149BDE0
 	internal void .ctor(SynchronizationContext context, Action action, bool flowExecutionContext, ref StackCrawlMark stackMark) { }
 
-	// RVA: 0x149B850 Offset: 0x1499E50 VA: 0x18149B850 Slot: 4
+	// RVA: 0x149BB10 Offset: 0x149A110 VA: 0x18149BB10 Slot: 4
 	internal sealed override void Run(Task task, bool canInlineContinuationTask) { }
 
-	// RVA: 0x149B7A0 Offset: 0x1499DA0 VA: 0x18149B7A0
+	// RVA: 0x149BA60 Offset: 0x149A060 VA: 0x18149BA60
 	private static void PostAction(object state) { }
 
-	// RVA: 0x149B6C0 Offset: 0x1499CC0 VA: 0x18149B6C0
+	// RVA: 0x149B980 Offset: 0x1499F80 VA: 0x18149B980
 	private static ContextCallback GetPostActionCallback() { }
 
-	// RVA: 0x149BA70 Offset: 0x149A070 VA: 0x18149BA70
+	// RVA: 0x149BD30 Offset: 0x149A330 VA: 0x18149BD30
 	private static void .cctor() { }
 
 }
@@ -29,13 +29,13 @@ private sealed class SynchronizationContextAwaitTaskContinuation.<>c // TypeDefI
 
 	// Methods
 
-	// RVA: 0x14A4290 Offset: 0x14A2890 VA: 0x1814A4290
+	// RVA: 0x14A4550 Offset: 0x14A2B50 VA: 0x1814A4550
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x14A4230 Offset: 0x14A2830 VA: 0x1814A4230
+	// RVA: 0x14A44F0 Offset: 0x14A2AF0 VA: 0x1814A44F0
 	internal void <.cctor>b__7_0(object state) { }
 
 }

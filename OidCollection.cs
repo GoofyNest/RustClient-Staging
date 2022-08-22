@@ -9,22 +9,22 @@ public sealed class OidCollection : ICollection, IEnumerable // TypeDefIndex: 27
 
 	// Methods
 
-	// RVA: 0x117C2C0 Offset: 0x117A8C0 VA: 0x18117C2C0
+	// RVA: 0x117C580 Offset: 0x117AB80 VA: 0x18117C580
 	public void .ctor() { }
 
-	// RVA: 0x117BFC0 Offset: 0x117A5C0 VA: 0x18117BFC0
+	// RVA: 0x117C280 Offset: 0x117A880 VA: 0x18117C280
 	public int Add(Oid oid) { }
 
-	// RVA: 0x117C330 Offset: 0x117A930 VA: 0x18117C330
+	// RVA: 0x117C5F0 Offset: 0x117ABF0 VA: 0x18117C5F0
 	public Oid get_Item(int index) { }
 
-	// RVA: 0xB19040 Offset: 0xB17640 VA: 0x180B19040 Slot: 5
+	// RVA: 0xB19300 Offset: 0xB17900 VA: 0x180B19300 Slot: 5
 	public int get_Count() { }
 
-	// RVA: 0x117C250 Offset: 0x117A850 VA: 0x18117C250 Slot: 7
+	// RVA: 0x117C510 Offset: 0x117AB10 VA: 0x18117C510 Slot: 7
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x117BFF0 Offset: 0x117A5F0 VA: 0x18117BFF0 Slot: 4
+	// RVA: 0x117C2B0 Offset: 0x117A8B0 VA: 0x18117C2B0 Slot: 4
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 6

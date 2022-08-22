@@ -21,10 +21,10 @@ internal sealed class NativeClassAttribute : Attribute // TypeDefIndex: 3267
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_Declaration(string value) { }
 
-	// RVA: 0x23114A0 Offset: 0x230FAA0 VA: 0x1823114A0
+	// RVA: 0x2311760 Offset: 0x230FD60 VA: 0x182311760
 	public void .ctor(string qualifiedCppName) { }
 
-	// RVA: 0x7ED280 Offset: 0x7EB880 VA: 0x1807ED280
+	// RVA: 0x7ED390 Offset: 0x7EB990 VA: 0x1807ED390
 	public void .ctor(string qualifiedCppName, string declaration) { }
 
 }

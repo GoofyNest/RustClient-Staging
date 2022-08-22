@@ -15,37 +15,37 @@ public class CP932 : MonoEncoding // TypeDefIndex: 7797
 
 	// Methods
 
-	// RVA: 0x224C390 Offset: 0x224A990 VA: 0x18224C390
+	// RVA: 0x224C650 Offset: 0x224AC50 VA: 0x18224C650
 	public void .ctor() { }
 
-	// RVA: 0x224B6F0 Offset: 0x2249CF0 VA: 0x18224B6F0 Slot: 46
+	// RVA: 0x224B9B0 Offset: 0x2249FB0 VA: 0x18224B9B0 Slot: 46
 	public override int GetByteCountImpl(char* chars, int count) { }
 
-	// RVA: 0x224B900 Offset: 0x2249F00 VA: 0x18224B900 Slot: 47
+	// RVA: 0x224BBC0 Offset: 0x224A1C0 VA: 0x18224BBC0 Slot: 47
 	public override int GetBytesImpl(char* chars, int charCount, byte* bytes, int byteCount) { }
 
-	// RVA: 0x224BFA0 Offset: 0x224A5A0 VA: 0x18224BFA0 Slot: 29
+	// RVA: 0x224C260 Offset: 0x224A860 VA: 0x18224C260 Slot: 29
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x224C100 Offset: 0x224A700 VA: 0x18224C100 Slot: 33
+	// RVA: 0x224C3C0 Offset: 0x224A9C0 VA: 0x18224C3C0 Slot: 33
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x224C290 Offset: 0x224A890 VA: 0x18224C290 Slot: 40
+	// RVA: 0x224C550 Offset: 0x224AB50 VA: 0x18224C550 Slot: 40
 	public override int GetMaxByteCount(int charCount) { }
 
-	// RVA: 0x224C310 Offset: 0x224A910 VA: 0x18224C310 Slot: 41
+	// RVA: 0x224C5D0 Offset: 0x224ABD0 VA: 0x18224C5D0 Slot: 41
 	public override int GetMaxCharCount(int byteCount) { }
 
-	// RVA: 0x224C1F0 Offset: 0x224A7F0 VA: 0x18224C1F0 Slot: 38
+	// RVA: 0x224C4B0 Offset: 0x224AAB0 VA: 0x18224C4B0 Slot: 38
 	public override Decoder GetDecoder() { }
 
-	// RVA: 0x224C3A0 Offset: 0x224A9A0 VA: 0x18224C3A0 Slot: 7
+	// RVA: 0x224C660 Offset: 0x224AC60 VA: 0x18224C660 Slot: 7
 	public override string get_BodyName() { }
 
-	// RVA: 0x224C3D0 Offset: 0x224A9D0 VA: 0x18224C3D0 Slot: 8
+	// RVA: 0x224C690 Offset: 0x224AC90 VA: 0x18224C690 Slot: 8
 	public override string get_EncodingName() { }
 
-	// RVA: 0x224C400 Offset: 0x224AA00 VA: 0x18224C400 Slot: 9
+	// RVA: 0x224C6C0 Offset: 0x224ACC0 VA: 0x18224C6C0 Slot: 9
 	public override string get_HeaderName() { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 12
@@ -60,10 +60,10 @@ public class CP932 : MonoEncoding // TypeDefIndex: 7797
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 15
 	public override bool get_IsMailNewsSave() { }
 
-	// RVA: 0x224C430 Offset: 0x224AA30 VA: 0x18224C430 Slot: 10
+	// RVA: 0x224C6F0 Offset: 0x224ACF0 VA: 0x18224C6F0 Slot: 10
 	public override string get_WebName() { }
 
-	// RVA: 0x224C460 Offset: 0x224AA60 VA: 0x18224C460 Slot: 11
+	// RVA: 0x224C720 Offset: 0x224AD20 VA: 0x18224C720 Slot: 11
 	public override int get_WindowsCodePage() { }
 
 }
@@ -76,19 +76,19 @@ internal sealed class CP932Decoder : DbcsEncoding.DbcsDecoder // TypeDefIndex: 7
 
 	// Methods
 
-	// RVA: 0x224B6A0 Offset: 0x2249CA0 VA: 0x18224B6A0
+	// RVA: 0x224B960 Offset: 0x2249F60 VA: 0x18224B960
 	public void .ctor(JISConvert convert) { }
 
-	// RVA: 0x224B1E0 Offset: 0x22497E0 VA: 0x18224B1E0 Slot: 5
+	// RVA: 0x224B4A0 Offset: 0x2249AA0 VA: 0x18224B4A0 Slot: 5
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x224B100 Offset: 0x2249700 VA: 0x18224B100 Slot: 6
+	// RVA: 0x224B3C0 Offset: 0x22499C0 VA: 0x18224B3C0 Slot: 6
 	public override int GetCharCount(byte[] bytes, int index, int count, bool refresh) { }
 
-	// RVA: 0x224B2A0 Offset: 0x22498A0 VA: 0x18224B2A0 Slot: 8
+	// RVA: 0x224B560 Offset: 0x2249B60 VA: 0x18224B560 Slot: 8
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x224B2D0 Offset: 0x22498D0 VA: 0x18224B2D0 Slot: 9
+	// RVA: 0x224B590 Offset: 0x2249B90 VA: 0x18224B590 Slot: 9
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex, bool refresh) { }
 
 }
@@ -99,10 +99,10 @@ public class CP50220 : ISO2022JPEncoding // TypeDefIndex: 7800
 
 	// Methods
 
-	// RVA: 0x2249B00 Offset: 0x2248100 VA: 0x182249B00
+	// RVA: 0x2249DC0 Offset: 0x22483C0 VA: 0x182249DC0
 	public void .ctor() { }
 
-	// RVA: 0x2249B30 Offset: 0x2248130 VA: 0x182249B30 Slot: 8
+	// RVA: 0x2249DF0 Offset: 0x22483F0 VA: 0x182249DF0 Slot: 8
 	public override string get_EncodingName() { }
 
 }
@@ -113,10 +113,10 @@ public class CP50221 : ISO2022JPEncoding // TypeDefIndex: 7801
 
 	// Methods
 
-	// RVA: 0x2249B60 Offset: 0x2248160 VA: 0x182249B60
+	// RVA: 0x2249E20 Offset: 0x2248420 VA: 0x182249E20
 	public void .ctor() { }
 
-	// RVA: 0x2249B90 Offset: 0x2248190 VA: 0x182249B90 Slot: 8
+	// RVA: 0x2249E50 Offset: 0x2248450 VA: 0x182249E50 Slot: 8
 	public override string get_EncodingName() { }
 
 }
@@ -127,10 +127,10 @@ public class CP50222 : ISO2022JPEncoding // TypeDefIndex: 7802
 
 	// Methods
 
-	// RVA: 0x2249BC0 Offset: 0x22481C0 VA: 0x182249BC0
+	// RVA: 0x2249E80 Offset: 0x2248480 VA: 0x182249E80
 	public void .ctor() { }
 
-	// RVA: 0x2249BF0 Offset: 0x22481F0 VA: 0x182249BF0 Slot: 8
+	// RVA: 0x2249EB0 Offset: 0x22484B0 VA: 0x182249EB0 Slot: 8
 	public override string get_EncodingName() { }
 
 }
@@ -151,43 +151,43 @@ public class CP51932 : MonoEncoding // TypeDefIndex: 7808
 
 	// Methods
 
-	// RVA: 0x224AF10 Offset: 0x2249510 VA: 0x18224AF10
+	// RVA: 0x224B1D0 Offset: 0x22497D0 VA: 0x18224B1D0
 	public void .ctor() { }
 
-	// RVA: 0x224AA80 Offset: 0x2249080 VA: 0x18224AA80 Slot: 19
+	// RVA: 0x224AD40 Offset: 0x2249340 VA: 0x18224AD40 Slot: 19
 	public override int GetByteCount(char[] chars, int index, int length) { }
 
-	// RVA: 0x224A9E0 Offset: 0x2248FE0 VA: 0x18224A9E0 Slot: 46
+	// RVA: 0x224ACA0 Offset: 0x22492A0 VA: 0x18224ACA0 Slot: 46
 	public override int GetByteCountImpl(char* chars, int count) { }
 
-	// RVA: 0x224AB30 Offset: 0x2249130 VA: 0x18224AB30 Slot: 47
+	// RVA: 0x224ADF0 Offset: 0x22493F0 VA: 0x18224ADF0 Slot: 47
 	public override int GetBytesImpl(char* chars, int charCount, byte* bytes, int byteCount) { }
 
-	// RVA: 0x224ABF0 Offset: 0x22491F0 VA: 0x18224ABF0 Slot: 29
+	// RVA: 0x224AEB0 Offset: 0x22494B0 VA: 0x18224AEB0 Slot: 29
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x224AC90 Offset: 0x2249290 VA: 0x18224AC90 Slot: 33
+	// RVA: 0x224AF50 Offset: 0x2249550 VA: 0x18224AF50 Slot: 33
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x224AE10 Offset: 0x2249410 VA: 0x18224AE10 Slot: 40
+	// RVA: 0x224B0D0 Offset: 0x22496D0 VA: 0x18224B0D0 Slot: 40
 	public override int GetMaxByteCount(int charCount) { }
 
-	// RVA: 0x224AE90 Offset: 0x2249490 VA: 0x18224AE90 Slot: 41
+	// RVA: 0x224B150 Offset: 0x2249750 VA: 0x18224B150 Slot: 41
 	public override int GetMaxCharCount(int byteCount) { }
 
-	// RVA: 0x224ADB0 Offset: 0x22493B0 VA: 0x18224ADB0 Slot: 39
+	// RVA: 0x224B070 Offset: 0x2249670 VA: 0x18224B070 Slot: 39
 	public override Encoder GetEncoder() { }
 
-	// RVA: 0x224AD50 Offset: 0x2249350 VA: 0x18224AD50 Slot: 38
+	// RVA: 0x224B010 Offset: 0x2249610 VA: 0x18224B010 Slot: 38
 	public override Decoder GetDecoder() { }
 
-	// RVA: 0x224AF30 Offset: 0x2249530 VA: 0x18224AF30 Slot: 7
+	// RVA: 0x224B1F0 Offset: 0x22497F0 VA: 0x18224B1F0 Slot: 7
 	public override string get_BodyName() { }
 
-	// RVA: 0x224AF60 Offset: 0x2249560 VA: 0x18224AF60 Slot: 8
+	// RVA: 0x224B220 Offset: 0x2249820 VA: 0x18224B220 Slot: 8
 	public override string get_EncodingName() { }
 
-	// RVA: 0x224AF90 Offset: 0x2249590 VA: 0x18224AF90 Slot: 9
+	// RVA: 0x224B250 Offset: 0x2249850 VA: 0x18224B250 Slot: 9
 	public override string get_HeaderName() { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 12
@@ -202,7 +202,7 @@ public class CP51932 : MonoEncoding // TypeDefIndex: 7808
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 15
 	public override bool get_IsMailNewsSave() { }
 
-	// RVA: 0x224AFC0 Offset: 0x22495C0 VA: 0x18224AFC0 Slot: 10
+	// RVA: 0x224B280 Offset: 0x2249880 VA: 0x18224B280 Slot: 10
 	public override string get_WebName() { }
 
 }
@@ -210,13 +210,13 @@ public class CP51932 : MonoEncoding // TypeDefIndex: 7808
 public class CP51932Encoder : MonoEncoder // TypeDefIndex: 7809
 {	// Methods
 
-	// RVA: 0x224A9D0 Offset: 0x2248FD0 VA: 0x18224A9D0
+	// RVA: 0x224AC90 Offset: 0x2249290 VA: 0x18224AC90
 	public void .ctor(MonoEncoding encoding) { }
 
-	// RVA: 0x224A3C0 Offset: 0x22489C0 VA: 0x18224A3C0 Slot: 11
+	// RVA: 0x224A680 Offset: 0x2248C80 VA: 0x18224A680 Slot: 11
 	public override int GetByteCountImpl(char* chars, int count, bool refresh) { }
 
-	// RVA: 0x224A5D0 Offset: 0x2248BD0 VA: 0x18224A5D0 Slot: 12
+	// RVA: 0x224A890 Offset: 0x2248E90 VA: 0x18224A890 Slot: 12
 	public override int GetBytesImpl(char* chars, int charCount, byte* bytes, int byteCount, bool refresh) { }
 
 }
@@ -228,22 +228,22 @@ internal class CP51932Decoder : DbcsEncoding.DbcsDecoder // TypeDefIndex: 7810
 
 	// Methods
 
-	// RVA: 0x224A390 Offset: 0x2248990 VA: 0x18224A390
+	// RVA: 0x224A650 Offset: 0x2248C50 VA: 0x18224A650
 	public void .ctor() { }
 
-	// RVA: 0xE4D640 Offset: 0xE4BC40 VA: 0x180E4D640 Slot: 5
+	// RVA: 0xE4D900 Offset: 0xE4BF00 VA: 0x180E4D900 Slot: 5
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x2249C20 Offset: 0x2248220 VA: 0x182249C20 Slot: 6
+	// RVA: 0x2249EE0 Offset: 0x22484E0 VA: 0x182249EE0 Slot: 6
 	public override int GetCharCount(byte[] bytes, int index, int count, bool refresh) { }
 
-	// RVA: 0x18ACC90 Offset: 0x18AB290 VA: 0x1818ACC90 Slot: 8
+	// RVA: 0x18ACF50 Offset: 0x18AB550 VA: 0x1818ACF50 Slot: 8
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x2249E60 Offset: 0x2248460 VA: 0x182249E60 Slot: 9
+	// RVA: 0x224A120 Offset: 0x2248720 VA: 0x18224A120 Slot: 9
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex, bool refresh) { }
 
-	// RVA: 0x224A320 Offset: 0x2248920 VA: 0x18224A320
+	// RVA: 0x224A5E0 Offset: 0x2248BE0 VA: 0x18224A5E0
 	private Exception Insufficient() { }
 
 }
@@ -264,34 +264,34 @@ internal class CP936 : DbcsEncoding // TypeDefIndex: 7812
 
 	// Methods
 
-	// RVA: 0x224CEE0 Offset: 0x224B4E0 VA: 0x18224CEE0
+	// RVA: 0x224D1A0 Offset: 0x224B7A0 VA: 0x18224D1A0
 	public void .ctor() { }
 
-	// RVA: 0x224CE00 Offset: 0x224B400 VA: 0x18224CE00 Slot: 48
+	// RVA: 0x224D0C0 Offset: 0x224B6C0 VA: 0x18224D0C0 Slot: 48
 	internal override DbcsConvert GetConvert() { }
 
-	// RVA: 0x224CA60 Offset: 0x224B060 VA: 0x18224CA60 Slot: 46
+	// RVA: 0x224CD20 Offset: 0x224B320 VA: 0x18224CD20 Slot: 46
 	public override int GetByteCountImpl(char* chars, int count) { }
 
-	// RVA: 0x224CB50 Offset: 0x224B150 VA: 0x18224CB50 Slot: 47
+	// RVA: 0x224CE10 Offset: 0x224B410 VA: 0x18224CE10 Slot: 47
 	public override int GetBytesImpl(char* chars, int charCount, byte* bytes, int byteCount) { }
 
-	// RVA: 0x224CD20 Offset: 0x224B320 VA: 0x18224CD20 Slot: 29
+	// RVA: 0x224CFE0 Offset: 0x224B5E0 VA: 0x18224CFE0 Slot: 29
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x224CD90 Offset: 0x224B390 VA: 0x18224CD90 Slot: 33
+	// RVA: 0x224D050 Offset: 0x224B650 VA: 0x18224D050 Slot: 33
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x224CE60 Offset: 0x224B460 VA: 0x18224CE60 Slot: 38
+	// RVA: 0x224D120 Offset: 0x224B720 VA: 0x18224D120 Slot: 38
 	public override Decoder GetDecoder() { }
 
-	// RVA: 0x224CEF0 Offset: 0x224B4F0 VA: 0x18224CEF0 Slot: 7
+	// RVA: 0x224D1B0 Offset: 0x224B7B0 VA: 0x18224D1B0 Slot: 7
 	public override string get_BodyName() { }
 
-	// RVA: 0x224CF20 Offset: 0x224B520 VA: 0x18224CF20 Slot: 8
+	// RVA: 0x224D1E0 Offset: 0x224B7E0 VA: 0x18224D1E0 Slot: 8
 	public override string get_EncodingName() { }
 
-	// RVA: 0x224CF50 Offset: 0x224B550 VA: 0x18224CF50 Slot: 9
+	// RVA: 0x224D210 Offset: 0x224B810 VA: 0x18224D210 Slot: 9
 	public override string get_HeaderName() { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 12
@@ -306,7 +306,7 @@ internal class CP936 : DbcsEncoding // TypeDefIndex: 7812
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 15
 	public override bool get_IsMailNewsSave() { }
 
-	// RVA: 0x224CF80 Offset: 0x224B580 VA: 0x18224CF80 Slot: 10
+	// RVA: 0x224D240 Offset: 0x224B840 VA: 0x18224D240 Slot: 10
 	public override string get_WebName() { }
 
 }
@@ -318,19 +318,19 @@ internal sealed class CP936Decoder : DbcsEncoding.DbcsDecoder // TypeDefIndex: 7
 
 	// Methods
 
-	// RVA: 0x15C0D00 Offset: 0x15BF300 VA: 0x1815C0D00
+	// RVA: 0x15C0FC0 Offset: 0x15BF5C0 VA: 0x1815C0FC0
 	public void .ctor(DbcsConvert convert) { }
 
-	// RVA: 0x224C470 Offset: 0x224AA70 VA: 0x18224C470 Slot: 5
+	// RVA: 0x224C730 Offset: 0x224AD30 VA: 0x18224C730 Slot: 5
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x224C530 Offset: 0x224AB30 VA: 0x18224C530 Slot: 6
+	// RVA: 0x224C7F0 Offset: 0x224ADF0 VA: 0x18224C7F0 Slot: 6
 	public override int GetCharCount(byte[] bytes, int index, int count, bool refresh) { }
 
-	// RVA: 0x224C600 Offset: 0x224AC00 VA: 0x18224C600 Slot: 8
+	// RVA: 0x224C8C0 Offset: 0x224AEC0 VA: 0x18224C8C0 Slot: 8
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x224C810 Offset: 0x224AE10 VA: 0x18224C810 Slot: 9
+	// RVA: 0x224CAD0 Offset: 0x224B0D0 VA: 0x18224CAD0 Slot: 9
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex, bool refresh) { }
 
 }
@@ -347,19 +347,19 @@ internal class CP949 : KoreanEncoding // TypeDefIndex: 7815
 
 	// Methods
 
-	// RVA: 0x224CFB0 Offset: 0x224B5B0 VA: 0x18224CFB0
+	// RVA: 0x224D270 Offset: 0x224B870 VA: 0x18224D270
 	public void .ctor() { }
 
-	// RVA: 0x224CFE0 Offset: 0x224B5E0 VA: 0x18224CFE0 Slot: 7
+	// RVA: 0x224D2A0 Offset: 0x224B8A0 VA: 0x18224D2A0 Slot: 7
 	public override string get_BodyName() { }
 
-	// RVA: 0x224D010 Offset: 0x224B610 VA: 0x18224D010 Slot: 8
+	// RVA: 0x224D2D0 Offset: 0x224B8D0 VA: 0x18224D2D0 Slot: 8
 	public override string get_EncodingName() { }
 
-	// RVA: 0x224D040 Offset: 0x224B640 VA: 0x18224D040 Slot: 9
+	// RVA: 0x224D300 Offset: 0x224B900 VA: 0x18224D300 Slot: 9
 	public override string get_HeaderName() { }
 
-	// RVA: 0x224D070 Offset: 0x224B670 VA: 0x18224D070 Slot: 10
+	// RVA: 0x224D330 Offset: 0x224B930 VA: 0x18224D330 Slot: 10
 	public override string get_WebName() { }
 
 }
@@ -376,19 +376,19 @@ internal class CP51949 : KoreanEncoding // TypeDefIndex: 7816
 
 	// Methods
 
-	// RVA: 0x224AFF0 Offset: 0x22495F0 VA: 0x18224AFF0
+	// RVA: 0x224B2B0 Offset: 0x22498B0 VA: 0x18224B2B0
 	public void .ctor() { }
 
-	// RVA: 0x224B020 Offset: 0x2249620 VA: 0x18224B020 Slot: 7
+	// RVA: 0x224B2E0 Offset: 0x22498E0 VA: 0x18224B2E0 Slot: 7
 	public override string get_BodyName() { }
 
-	// RVA: 0x224B050 Offset: 0x2249650 VA: 0x18224B050 Slot: 8
+	// RVA: 0x224B310 Offset: 0x2249910 VA: 0x18224B310 Slot: 8
 	public override string get_EncodingName() { }
 
-	// RVA: 0x224B080 Offset: 0x2249680 VA: 0x18224B080 Slot: 9
+	// RVA: 0x224B340 Offset: 0x2249940 VA: 0x18224B340 Slot: 9
 	public override string get_HeaderName() { }
 
-	// RVA: 0x224B0B0 Offset: 0x22496B0 VA: 0x18224B0B0 Slot: 10
+	// RVA: 0x224B370 Offset: 0x2249970 VA: 0x18224B370 Slot: 10
 	public override string get_WebName() { }
 
 }
@@ -405,34 +405,34 @@ internal class CP950 : DbcsEncoding // TypeDefIndex: 7821
 
 	// Methods
 
-	// RVA: 0x224D9C0 Offset: 0x224BFC0 VA: 0x18224D9C0
+	// RVA: 0x224DC80 Offset: 0x224C280 VA: 0x18224DC80
 	public void .ctor() { }
 
-	// RVA: 0x224D8E0 Offset: 0x224BEE0 VA: 0x18224D8E0 Slot: 48
+	// RVA: 0x224DBA0 Offset: 0x224C1A0 VA: 0x18224DBA0 Slot: 48
 	internal override DbcsConvert GetConvert() { }
 
-	// RVA: 0x224D7F0 Offset: 0x224BDF0 VA: 0x18224D7F0 Slot: 46
+	// RVA: 0x224DAB0 Offset: 0x224C0B0 VA: 0x18224DAB0 Slot: 46
 	public override int GetByteCountImpl(char* chars, int count) { }
 
-	// RVA: 0x224CB50 Offset: 0x224B150 VA: 0x18224CB50 Slot: 47
+	// RVA: 0x224CE10 Offset: 0x224B410 VA: 0x18224CE10 Slot: 47
 	public override int GetBytesImpl(char* chars, int charCount, byte* bytes, int byteCount) { }
 
-	// RVA: 0x224CD90 Offset: 0x224B390 VA: 0x18224CD90 Slot: 33
+	// RVA: 0x224D050 Offset: 0x224B650 VA: 0x18224D050 Slot: 33
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x224D940 Offset: 0x224BF40 VA: 0x18224D940 Slot: 38
+	// RVA: 0x224DC00 Offset: 0x224C200 VA: 0x18224DC00 Slot: 38
 	public override Decoder GetDecoder() { }
 
-	// RVA: 0x224D9D0 Offset: 0x224BFD0 VA: 0x18224D9D0 Slot: 7
+	// RVA: 0x224DC90 Offset: 0x224C290 VA: 0x18224DC90 Slot: 7
 	public override string get_BodyName() { }
 
-	// RVA: 0x224DA00 Offset: 0x224C000 VA: 0x18224DA00 Slot: 8
+	// RVA: 0x224DCC0 Offset: 0x224C2C0 VA: 0x18224DCC0 Slot: 8
 	public override string get_EncodingName() { }
 
-	// RVA: 0x224DA30 Offset: 0x224C030 VA: 0x18224DA30 Slot: 9
+	// RVA: 0x224DCF0 Offset: 0x224C2F0 VA: 0x18224DCF0 Slot: 9
 	public override string get_HeaderName() { }
 
-	// RVA: 0x224DA60 Offset: 0x224C060 VA: 0x18224DA60 Slot: 10
+	// RVA: 0x224DD20 Offset: 0x224C320 VA: 0x18224DD20 Slot: 10
 	public override string get_WebName() { }
 
 }
@@ -444,19 +444,19 @@ private sealed class CP950.CP950Decoder : DbcsEncoding.DbcsDecoder // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x15C0D00 Offset: 0x15BF300 VA: 0x1815C0D00
+	// RVA: 0x15C0FC0 Offset: 0x15BF5C0 VA: 0x1815C0FC0
 	public void .ctor(DbcsConvert convert) { }
 
-	// RVA: 0x224D0A0 Offset: 0x224B6A0 VA: 0x18224D0A0 Slot: 5
+	// RVA: 0x224D360 Offset: 0x224B960 VA: 0x18224D360 Slot: 5
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x224D1E0 Offset: 0x224B7E0 VA: 0x18224D1E0 Slot: 6
+	// RVA: 0x224D4A0 Offset: 0x224BAA0 VA: 0x18224D4A0 Slot: 6
 	public override int GetCharCount(byte[] bytes, int index, int count, bool refresh) { }
 
-	// RVA: 0x224D330 Offset: 0x224B930 VA: 0x18224D330 Slot: 8
+	// RVA: 0x224D5F0 Offset: 0x224BBF0 VA: 0x18224D5F0 Slot: 8
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x224D570 Offset: 0x224BB70 VA: 0x18224D570 Slot: 9
+	// RVA: 0x224D830 Offset: 0x224BE30 VA: 0x18224D830 Slot: 9
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex, bool refresh) { }
 
 }
@@ -464,7 +464,7 @@ private sealed class CP950.CP950Decoder : DbcsEncoding.DbcsDecoder // TypeDefInd
 public class CP54936 : GB18030Encoding // TypeDefIndex: 7829
 {	// Methods
 
-	// RVA: 0x224B0E0 Offset: 0x22496E0 VA: 0x18224B0E0
+	// RVA: 0x224B3A0 Offset: 0x22499A0 VA: 0x18224B3A0
 	public void .ctor() { }
 
 }
@@ -475,30 +475,30 @@ public class CP1254 : ByteEncoding // TypeDefIndex: 7840
 
 	// Methods
 
-	// RVA: 0x23052D0 Offset: 0x23038D0 VA: 0x1823052D0
+	// RVA: 0x2305590 Offset: 0x2303B90 VA: 0x182305590
 	public void .ctor() { }
 
-	// RVA: 0x2305260 Offset: 0x2303860 VA: 0x182305260
+	// RVA: 0x2305520 Offset: 0x2303B20 VA: 0x182305520
 	private static void .cctor() { }
 
-	// RVA: 0x2304E00 Offset: 0x2303400 VA: 0x182304E00 Slot: 48
+	// RVA: 0x23050C0 Offset: 0x23036C0 VA: 0x1823050C0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP1255 : ByteEncoding // TypeDefIndex: 7842
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10180
+	private static readonly char[] ToChars; // 0x2B111C0
 
 	// Methods
 
-	// RVA: 0x2305810 Offset: 0x2303E10 VA: 0x182305810
+	// RVA: 0x2305AD0 Offset: 0x23040D0 VA: 0x182305AD0
 	public void .ctor() { }
 
-	// RVA: 0x23057A0 Offset: 0x2303DA0 VA: 0x1823057A0
+	// RVA: 0x2305A60 Offset: 0x2304060 VA: 0x182305A60
 	private static void .cctor() { }
 
-	// RVA: 0x2305390 Offset: 0x2303990 VA: 0x182305390 Slot: 48
+	// RVA: 0x2305650 Offset: 0x2303C50 VA: 0x182305650 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -509,13 +509,13 @@ public class CP1256 : ByteEncoding // TypeDefIndex: 7844
 
 	// Methods
 
-	// RVA: 0x2306370 Offset: 0x2304970 VA: 0x182306370
+	// RVA: 0x2306630 Offset: 0x2304C30 VA: 0x182306630
 	public void .ctor() { }
 
-	// RVA: 0x2306300 Offset: 0x2304900 VA: 0x182306300
+	// RVA: 0x23065C0 Offset: 0x2304BC0 VA: 0x1823065C0
 	private static void .cctor() { }
 
-	// RVA: 0x23058C0 Offset: 0x2303EC0 VA: 0x1823058C0 Slot: 48
+	// RVA: 0x2305B80 Offset: 0x2304180 VA: 0x182305B80 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -526,30 +526,30 @@ public class CP28596 : ByteEncoding // TypeDefIndex: 7846
 
 	// Methods
 
-	// RVA: 0x2306E50 Offset: 0x2305450 VA: 0x182306E50
+	// RVA: 0x2307110 Offset: 0x2305710 VA: 0x182307110
 	public void .ctor() { }
 
-	// RVA: 0x2306DE0 Offset: 0x23053E0 VA: 0x182306DE0
+	// RVA: 0x23070A0 Offset: 0x23056A0 VA: 0x1823070A0
 	private static void .cctor() { }
 
-	// RVA: 0x2306420 Offset: 0x2304A20 VA: 0x182306420 Slot: 48
+	// RVA: 0x23066E0 Offset: 0x2304CE0 VA: 0x1823066E0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP28598 : ByteEncoding // TypeDefIndex: 7848
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B101B4
+	private static readonly char[] ToChars; // 0x2B111F4
 
 	// Methods
 
-	// RVA: 0x2307180 Offset: 0x2305780 VA: 0x182307180
+	// RVA: 0x2307440 Offset: 0x2305A40 VA: 0x182307440
 	public void .ctor() { }
 
-	// RVA: 0x2307110 Offset: 0x2305710 VA: 0x182307110
+	// RVA: 0x23073D0 Offset: 0x23059D0 VA: 0x1823073D0
 	private static void .cctor() { }
 
-	// RVA: 0x2306F00 Offset: 0x2305500 VA: 0x182306F00 Slot: 48
+	// RVA: 0x23071C0 Offset: 0x23057C0 VA: 0x1823071C0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -560,13 +560,13 @@ public class CP28599 : ByteEncoding // TypeDefIndex: 7850
 
 	// Methods
 
-	// RVA: 0x23074B0 Offset: 0x2305AB0 VA: 0x1823074B0
+	// RVA: 0x2307770 Offset: 0x2305D70 VA: 0x182307770
 	public void .ctor() { }
 
-	// RVA: 0x2307440 Offset: 0x2305A40 VA: 0x182307440
+	// RVA: 0x2307700 Offset: 0x2305D00 VA: 0x182307700
 	private static void .cctor() { }
 
-	// RVA: 0x2307230 Offset: 0x2305830 VA: 0x182307230 Slot: 48
+	// RVA: 0x23074F0 Offset: 0x2305AF0 VA: 0x1823074F0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -577,30 +577,30 @@ public class CP38598 : ByteEncoding // TypeDefIndex: 7852
 
 	// Methods
 
-	// RVA: 0x23075D0 Offset: 0x2305BD0 VA: 0x1823075D0
+	// RVA: 0x2307890 Offset: 0x2305E90 VA: 0x182307890
 	public void .ctor() { }
 
-	// RVA: 0x2307560 Offset: 0x2305B60 VA: 0x182307560
+	// RVA: 0x2307820 Offset: 0x2305E20 VA: 0x182307820
 	private static void .cctor() { }
 
-	// RVA: 0x2306F00 Offset: 0x2305500 VA: 0x182306F00 Slot: 48
+	// RVA: 0x23071C0 Offset: 0x23057C0 VA: 0x1823071C0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP1251 : ByteEncoding // TypeDefIndex: 7858
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10330
+	private static readonly char[] ToChars; // 0x2B11370
 
 	// Methods
 
-	// RVA: 0x22F1390 Offset: 0x22EF990 VA: 0x1822F1390
+	// RVA: 0x22F1650 Offset: 0x22EFC50 VA: 0x1822F1650
 	public void .ctor() { }
 
-	// RVA: 0x22F1320 Offset: 0x22EF920 VA: 0x1822F1320
+	// RVA: 0x22F15E0 Offset: 0x22EFBE0 VA: 0x1822F15E0
 	private static void .cctor() { }
 
-	// RVA: 0x22F0DE0 Offset: 0x22EF3E0 VA: 0x1822F0DE0 Slot: 48
+	// RVA: 0x22F10A0 Offset: 0x22EF6A0 VA: 0x1822F10A0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -611,13 +611,13 @@ public class CP1257 : ByteEncoding // TypeDefIndex: 7860
 
 	// Methods
 
-	// RVA: 0x22F1C40 Offset: 0x22F0240 VA: 0x1822F1C40
+	// RVA: 0x22F1F00 Offset: 0x22F0500 VA: 0x1822F1F00
 	public void .ctor() { }
 
-	// RVA: 0x22F1BD0 Offset: 0x22F01D0 VA: 0x1822F1BD0
+	// RVA: 0x22F1E90 Offset: 0x22F0490 VA: 0x1822F1E90
 	private static void .cctor() { }
 
-	// RVA: 0x22F1450 Offset: 0x22EFA50 VA: 0x1822F1450 Slot: 48
+	// RVA: 0x22F1710 Offset: 0x22EFD10 VA: 0x1822F1710 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -628,30 +628,30 @@ public class CP1258 : ByteEncoding // TypeDefIndex: 7862
 
 	// Methods
 
-	// RVA: 0x22F21F0 Offset: 0x22F07F0 VA: 0x1822F21F0
+	// RVA: 0x22F24B0 Offset: 0x22F0AB0 VA: 0x1822F24B0
 	public void .ctor() { }
 
-	// RVA: 0x22F2180 Offset: 0x22F0780 VA: 0x1822F2180
+	// RVA: 0x22F2440 Offset: 0x22F0A40 VA: 0x1822F2440
 	private static void .cctor() { }
 
-	// RVA: 0x22F1D00 Offset: 0x22F0300 VA: 0x1822F1D00 Slot: 48
+	// RVA: 0x22F1FC0 Offset: 0x22F05C0 VA: 0x1822F1FC0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP20866 : ByteEncoding // TypeDefIndex: 7864
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10390
+	private static readonly char[] ToChars; // 0x2B113D0
 
 	// Methods
 
-	// RVA: 0x22F2A20 Offset: 0x22F1020 VA: 0x1822F2A20
+	// RVA: 0x22F2CE0 Offset: 0x22F12E0 VA: 0x1822F2CE0
 	public void .ctor() { }
 
-	// RVA: 0x22F29B0 Offset: 0x22F0FB0 VA: 0x1822F29B0
+	// RVA: 0x22F2C70 Offset: 0x22F1270 VA: 0x1822F2C70
 	private static void .cctor() { }
 
-	// RVA: 0x22F22A0 Offset: 0x22F08A0 VA: 0x1822F22A0 Slot: 48
+	// RVA: 0x22F2560 Offset: 0x22F0B60 VA: 0x1822F2560 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -662,13 +662,13 @@ public class CP21866 : ByteEncoding // TypeDefIndex: 7866
 
 	// Methods
 
-	// RVA: 0x22F3330 Offset: 0x22F1930 VA: 0x1822F3330
+	// RVA: 0x22F35F0 Offset: 0x22F1BF0 VA: 0x1822F35F0
 	public void .ctor() { }
 
-	// RVA: 0x22F32C0 Offset: 0x22F18C0 VA: 0x1822F32C0
+	// RVA: 0x22F3580 Offset: 0x22F1B80 VA: 0x1822F3580
 	private static void .cctor() { }
 
-	// RVA: 0x22F2AD0 Offset: 0x22F10D0 VA: 0x1822F2AD0 Slot: 48
+	// RVA: 0x22F2D90 Offset: 0x22F1390 VA: 0x1822F2D90 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -679,30 +679,30 @@ public class CP28594 : ByteEncoding // TypeDefIndex: 7868
 
 	// Methods
 
-	// RVA: 0x22F39D0 Offset: 0x22F1FD0 VA: 0x1822F39D0
+	// RVA: 0x22F3C90 Offset: 0x22F2290 VA: 0x1822F3C90
 	public void .ctor() { }
 
-	// RVA: 0x22F3960 Offset: 0x22F1F60 VA: 0x1822F3960
+	// RVA: 0x22F3C20 Offset: 0x22F2220 VA: 0x1822F3C20
 	private static void .cctor() { }
 
-	// RVA: 0x22F33E0 Offset: 0x22F19E0 VA: 0x1822F33E0 Slot: 48
+	// RVA: 0x22F36A0 Offset: 0x22F1CA0 VA: 0x1822F36A0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP28595 : ByteEncoding // TypeDefIndex: 7870
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10190
+	private static readonly char[] ToChars; // 0x2B111D0
 
 	// Methods
 
-	// RVA: 0x22F3CF0 Offset: 0x22F22F0 VA: 0x1822F3CF0
+	// RVA: 0x22F3FB0 Offset: 0x22F25B0 VA: 0x1822F3FB0
 	public void .ctor() { }
 
-	// RVA: 0x22F3C80 Offset: 0x22F2280 VA: 0x1822F3C80
+	// RVA: 0x22F3F40 Offset: 0x22F2540 VA: 0x1822F3F40
 	private static void .cctor() { }
 
-	// RVA: 0x22F3A80 Offset: 0x22F2080 VA: 0x1822F3A80 Slot: 48
+	// RVA: 0x22F3D40 Offset: 0x22F2340 VA: 0x1822F3D40 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -710,7 +710,7 @@ public class CP28595 : ByteEncoding // TypeDefIndex: 7870
 public class CP57002 : ISCIIEncoding // TypeDefIndex: 7873
 {	// Methods
 
-	// RVA: 0x22F3DA0 Offset: 0x22F23A0 VA: 0x1822F3DA0
+	// RVA: 0x22F4060 Offset: 0x22F2660 VA: 0x1822F4060
 	public void .ctor() { }
 
 }
@@ -718,7 +718,7 @@ public class CP57002 : ISCIIEncoding // TypeDefIndex: 7873
 public class CP57003 : ISCIIEncoding // TypeDefIndex: 7874
 {	// Methods
 
-	// RVA: 0x22F3E20 Offset: 0x22F2420 VA: 0x1822F3E20
+	// RVA: 0x22F40E0 Offset: 0x22F26E0 VA: 0x1822F40E0
 	public void .ctor() { }
 
 }
@@ -726,7 +726,7 @@ public class CP57003 : ISCIIEncoding // TypeDefIndex: 7874
 public class CP57004 : ISCIIEncoding // TypeDefIndex: 7875
 {	// Methods
 
-	// RVA: 0x22F3EA0 Offset: 0x22F24A0 VA: 0x1822F3EA0
+	// RVA: 0x22F4160 Offset: 0x22F2760 VA: 0x1822F4160
 	public void .ctor() { }
 
 }
@@ -734,7 +734,7 @@ public class CP57004 : ISCIIEncoding // TypeDefIndex: 7875
 public class CP57005 : ISCIIEncoding // TypeDefIndex: 7876
 {	// Methods
 
-	// RVA: 0x22F3F20 Offset: 0x22F2520 VA: 0x1822F3F20
+	// RVA: 0x22F41E0 Offset: 0x22F27E0 VA: 0x1822F41E0
 	public void .ctor() { }
 
 }
@@ -742,7 +742,7 @@ public class CP57005 : ISCIIEncoding // TypeDefIndex: 7876
 public class CP57006 : ISCIIEncoding // TypeDefIndex: 7877
 {	// Methods
 
-	// RVA: 0x22F3FA0 Offset: 0x22F25A0 VA: 0x1822F3FA0
+	// RVA: 0x22F4260 Offset: 0x22F2860 VA: 0x1822F4260
 	public void .ctor() { }
 
 }
@@ -750,7 +750,7 @@ public class CP57006 : ISCIIEncoding // TypeDefIndex: 7877
 public class CP57007 : ISCIIEncoding // TypeDefIndex: 7878
 {	// Methods
 
-	// RVA: 0x22F4020 Offset: 0x22F2620 VA: 0x1822F4020
+	// RVA: 0x22F42E0 Offset: 0x22F28E0 VA: 0x1822F42E0
 	public void .ctor() { }
 
 }
@@ -758,7 +758,7 @@ public class CP57007 : ISCIIEncoding // TypeDefIndex: 7878
 public class CP57008 : ISCIIEncoding // TypeDefIndex: 7879
 {	// Methods
 
-	// RVA: 0x22F40A0 Offset: 0x22F26A0 VA: 0x1822F40A0
+	// RVA: 0x22F4360 Offset: 0x22F2960 VA: 0x1822F4360
 	public void .ctor() { }
 
 }
@@ -766,7 +766,7 @@ public class CP57008 : ISCIIEncoding // TypeDefIndex: 7879
 public class CP57009 : ISCIIEncoding // TypeDefIndex: 7880
 {	// Methods
 
-	// RVA: 0x22F4120 Offset: 0x22F2720 VA: 0x1822F4120
+	// RVA: 0x22F43E0 Offset: 0x22F29E0 VA: 0x1822F43E0
 	public void .ctor() { }
 
 }
@@ -774,7 +774,7 @@ public class CP57009 : ISCIIEncoding // TypeDefIndex: 7880
 public class CP57010 : ISCIIEncoding // TypeDefIndex: 7881
 {	// Methods
 
-	// RVA: 0x22F41A0 Offset: 0x22F27A0 VA: 0x1822F41A0
+	// RVA: 0x22F4460 Offset: 0x22F2A60 VA: 0x1822F4460
 	public void .ctor() { }
 
 }
@@ -782,7 +782,7 @@ public class CP57010 : ISCIIEncoding // TypeDefIndex: 7881
 public class CP57011 : ISCIIEncoding // TypeDefIndex: 7882
 {	// Methods
 
-	// RVA: 0x22F4220 Offset: 0x22F2820 VA: 0x1822F4220
+	// RVA: 0x22F44E0 Offset: 0x22F2AE0 VA: 0x1822F44E0
 	public void .ctor() { }
 
 }
@@ -793,13 +793,13 @@ public class CP874 : ByteEncoding // TypeDefIndex: 7893
 
 	// Methods
 
-	// RVA: 0x22F45E0 Offset: 0x22F2BE0 VA: 0x1822F45E0
+	// RVA: 0x22F48A0 Offset: 0x22F2EA0 VA: 0x1822F48A0
 	public void .ctor() { }
 
-	// RVA: 0x22F4570 Offset: 0x22F2B70 VA: 0x1822F4570
+	// RVA: 0x22F4830 Offset: 0x22F2E30 VA: 0x1822F4830
 	private static void .cctor() { }
 
-	// RVA: 0x22F42A0 Offset: 0x22F28A0 VA: 0x1822F42A0 Slot: 48
+	// RVA: 0x22F4560 Offset: 0x22F2B60 VA: 0x1822F4560 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -810,30 +810,30 @@ public class CP866 : ByteEncoding // TypeDefIndex: 7899
 
 	// Methods
 
-	// RVA: 0x22EAD60 Offset: 0x22E9360 VA: 0x1822EAD60
+	// RVA: 0x22EB020 Offset: 0x22E9620 VA: 0x1822EB020
 	public void .ctor() { }
 
-	// RVA: 0x22EACF0 Offset: 0x22E92F0 VA: 0x1822EACF0
+	// RVA: 0x22EAFB0 Offset: 0x22E95B0 VA: 0x1822EAFB0
 	private static void .cctor() { }
 
-	// RVA: 0x22EA370 Offset: 0x22E8970 VA: 0x1822EA370 Slot: 48
+	// RVA: 0x22EA630 Offset: 0x22E8C30 VA: 0x1822EA630 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP1026 : ByteEncoding // TypeDefIndex: 7901
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10460
+	private static readonly char[] ToChars; // 0x2B114A0
 
 	// Methods
 
-	// RVA: 0x21877D0 Offset: 0x2185DD0 VA: 0x1821877D0
+	// RVA: 0x2187A90 Offset: 0x2186090 VA: 0x182187A90
 	public void .ctor() { }
 
-	// RVA: 0x2187760 Offset: 0x2185D60 VA: 0x182187760
+	// RVA: 0x2187A20 Offset: 0x2186020 VA: 0x182187A20
 	private static void .cctor() { }
 
-	// RVA: 0x2186A70 Offset: 0x2185070 VA: 0x182186A70 Slot: 48
+	// RVA: 0x2186D30 Offset: 0x2185330 VA: 0x182186D30 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -844,13 +844,13 @@ public class CP869 : ByteEncoding // TypeDefIndex: 7903
 
 	// Methods
 
-	// RVA: 0x22EB980 Offset: 0x22E9F80 VA: 0x1822EB980
+	// RVA: 0x22EBC40 Offset: 0x22EA240 VA: 0x1822EBC40
 	public void .ctor() { }
 
-	// RVA: 0x22EB910 Offset: 0x22E9F10 VA: 0x1822EB910
+	// RVA: 0x22EBBD0 Offset: 0x22EA1D0 VA: 0x1822EBBD0
 	private static void .cctor() { }
 
-	// RVA: 0x22EAE10 Offset: 0x22E9410 VA: 0x1822EAE10 Slot: 48
+	// RVA: 0x22EB0D0 Offset: 0x22E96D0 VA: 0x1822EB0D0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -861,30 +861,30 @@ public class CP870 : ByteEncoding // TypeDefIndex: 7905
 
 	// Methods
 
-	// RVA: 0x22EC7E0 Offset: 0x22EADE0 VA: 0x1822EC7E0
+	// RVA: 0x22ECAA0 Offset: 0x22EB0A0 VA: 0x1822ECAA0
 	public void .ctor() { }
 
-	// RVA: 0x22EC770 Offset: 0x22EAD70 VA: 0x1822EC770
+	// RVA: 0x22ECA30 Offset: 0x22EB030 VA: 0x1822ECA30
 	private static void .cctor() { }
 
-	// RVA: 0x22EBA30 Offset: 0x22EA030 VA: 0x1822EBA30 Slot: 48
+	// RVA: 0x22EBCF0 Offset: 0x22EA2F0 VA: 0x1822EBCF0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP875 : ByteEncoding // TypeDefIndex: 7907
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B101A0
+	private static readonly char[] ToChars; // 0x2B111E0
 
 	// Methods
 
-	// RVA: 0x22ED380 Offset: 0x22EB980 VA: 0x1822ED380
+	// RVA: 0x22ED640 Offset: 0x22EBC40 VA: 0x1822ED640
 	public void .ctor() { }
 
-	// RVA: 0x22ED310 Offset: 0x22EB910 VA: 0x1822ED310
+	// RVA: 0x22ED5D0 Offset: 0x22EBBD0 VA: 0x1822ED5D0
 	private static void .cctor() { }
 
-	// RVA: 0x22EC890 Offset: 0x22EAE90 VA: 0x1822EC890 Slot: 48
+	// RVA: 0x22ECB50 Offset: 0x22EB150 VA: 0x1822ECB50 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -895,13 +895,13 @@ public class CP1047 : ByteEncoding // TypeDefIndex: 7909
 
 	// Methods
 
-	// RVA: 0x2188580 Offset: 0x2186B80 VA: 0x182188580
+	// RVA: 0x2188840 Offset: 0x2186E40 VA: 0x182188840
 	public void .ctor() { }
 
-	// RVA: 0x2188510 Offset: 0x2186B10 VA: 0x182188510
+	// RVA: 0x21887D0 Offset: 0x2186DD0 VA: 0x1821887D0
 	private static void .cctor() { }
 
-	// RVA: 0x2187880 Offset: 0x2185E80 VA: 0x182187880 Slot: 48
+	// RVA: 0x2187B40 Offset: 0x2186140 VA: 0x182187B40 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -912,30 +912,30 @@ public class CP1140 : ByteEncoding // TypeDefIndex: 7911
 
 	// Methods
 
-	// RVA: 0x2189340 Offset: 0x2187940 VA: 0x182189340
+	// RVA: 0x2189600 Offset: 0x2187C00 VA: 0x182189600
 	public void .ctor() { }
 
-	// RVA: 0x21892D0 Offset: 0x21878D0 VA: 0x1821892D0
+	// RVA: 0x2189590 Offset: 0x2187B90 VA: 0x182189590
 	private static void .cctor() { }
 
-	// RVA: 0x2188630 Offset: 0x2186C30 VA: 0x182188630 Slot: 48
+	// RVA: 0x21888F0 Offset: 0x2186EF0 VA: 0x1821888F0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP1141 : ByteEncoding // TypeDefIndex: 7913
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10188
+	private static readonly char[] ToChars; // 0x2B111C8
 
 	// Methods
 
-	// RVA: 0x218A100 Offset: 0x2188700 VA: 0x18218A100
+	// RVA: 0x218A3C0 Offset: 0x21889C0 VA: 0x18218A3C0
 	public void .ctor() { }
 
-	// RVA: 0x218A090 Offset: 0x2188690 VA: 0x18218A090
+	// RVA: 0x218A350 Offset: 0x2188950 VA: 0x18218A350
 	private static void .cctor() { }
 
-	// RVA: 0x21893F0 Offset: 0x21879F0 VA: 0x1821893F0 Slot: 48
+	// RVA: 0x21896B0 Offset: 0x2187CB0 VA: 0x1821896B0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -946,13 +946,13 @@ public class CP1142 : ByteEncoding // TypeDefIndex: 7915
 
 	// Methods
 
-	// RVA: 0x218AEC0 Offset: 0x21894C0 VA: 0x18218AEC0
+	// RVA: 0x218B180 Offset: 0x2189780 VA: 0x18218B180
 	public void .ctor() { }
 
-	// RVA: 0x218AE50 Offset: 0x2189450 VA: 0x18218AE50
+	// RVA: 0x218B110 Offset: 0x2189710 VA: 0x18218B110
 	private static void .cctor() { }
 
-	// RVA: 0x218A1B0 Offset: 0x21887B0 VA: 0x18218A1B0 Slot: 48
+	// RVA: 0x218A470 Offset: 0x2188A70 VA: 0x18218A470 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -963,30 +963,30 @@ public class CP1143 : ByteEncoding // TypeDefIndex: 7917
 
 	// Methods
 
-	// RVA: 0x218BC80 Offset: 0x218A280 VA: 0x18218BC80
+	// RVA: 0x218BF40 Offset: 0x218A540 VA: 0x18218BF40
 	public void .ctor() { }
 
-	// RVA: 0x218BC10 Offset: 0x218A210 VA: 0x18218BC10
+	// RVA: 0x218BED0 Offset: 0x218A4D0 VA: 0x18218BED0
 	private static void .cctor() { }
 
-	// RVA: 0x218AF70 Offset: 0x2189570 VA: 0x18218AF70 Slot: 48
+	// RVA: 0x218B230 Offset: 0x2189830 VA: 0x18218B230 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP1144 : ByteEncoding // TypeDefIndex: 7919
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B102FC
+	private static readonly char[] ToChars; // 0x2B1133C
 
 	// Methods
 
-	// RVA: 0x218CA40 Offset: 0x218B040 VA: 0x18218CA40
+	// RVA: 0x218CD00 Offset: 0x218B300 VA: 0x18218CD00
 	public void .ctor() { }
 
-	// RVA: 0x218C9D0 Offset: 0x218AFD0 VA: 0x18218C9D0
+	// RVA: 0x218CC90 Offset: 0x218B290 VA: 0x18218CC90
 	private static void .cctor() { }
 
-	// RVA: 0x218BD30 Offset: 0x218A330 VA: 0x18218BD30 Slot: 48
+	// RVA: 0x218BFF0 Offset: 0x218A5F0 VA: 0x18218BFF0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -997,13 +997,13 @@ public class CP1145 : ByteEncoding // TypeDefIndex: 7921
 
 	// Methods
 
-	// RVA: 0x218D800 Offset: 0x218BE00 VA: 0x18218D800
+	// RVA: 0x218DAC0 Offset: 0x218C0C0 VA: 0x18218DAC0
 	public void .ctor() { }
 
-	// RVA: 0x218D790 Offset: 0x218BD90 VA: 0x18218D790
+	// RVA: 0x218DA50 Offset: 0x218C050 VA: 0x18218DA50
 	private static void .cctor() { }
 
-	// RVA: 0x218CAF0 Offset: 0x218B0F0 VA: 0x18218CAF0 Slot: 48
+	// RVA: 0x218CDB0 Offset: 0x218B3B0 VA: 0x18218CDB0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1014,30 +1014,30 @@ public class CP1146 : ByteEncoding // TypeDefIndex: 7923
 
 	// Methods
 
-	// RVA: 0x218E5C0 Offset: 0x218CBC0 VA: 0x18218E5C0
+	// RVA: 0x218E880 Offset: 0x218CE80 VA: 0x18218E880
 	public void .ctor() { }
 
-	// RVA: 0x218E550 Offset: 0x218CB50 VA: 0x18218E550
+	// RVA: 0x218E810 Offset: 0x218CE10 VA: 0x18218E810
 	private static void .cctor() { }
 
-	// RVA: 0x218D8B0 Offset: 0x218BEB0 VA: 0x18218D8B0 Slot: 48
+	// RVA: 0x218DB70 Offset: 0x218C170 VA: 0x18218DB70 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP1147 : ByteEncoding // TypeDefIndex: 7925
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10878
+	private static readonly char[] ToChars; // 0x2B118B8
 
 	// Methods
 
-	// RVA: 0x218F380 Offset: 0x218D980 VA: 0x18218F380
+	// RVA: 0x218F640 Offset: 0x218DC40 VA: 0x18218F640
 	public void .ctor() { }
 
-	// RVA: 0x218F310 Offset: 0x218D910 VA: 0x18218F310
+	// RVA: 0x218F5D0 Offset: 0x218DBD0 VA: 0x18218F5D0
 	private static void .cctor() { }
 
-	// RVA: 0x218E670 Offset: 0x218CC70 VA: 0x18218E670 Slot: 48
+	// RVA: 0x218E930 Offset: 0x218CF30 VA: 0x18218E930 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1048,13 +1048,13 @@ public class CP1148 : ByteEncoding // TypeDefIndex: 7927
 
 	// Methods
 
-	// RVA: 0x2190140 Offset: 0x218E740 VA: 0x182190140
+	// RVA: 0x2190400 Offset: 0x218EA00 VA: 0x182190400
 	public void .ctor() { }
 
-	// RVA: 0x21900D0 Offset: 0x218E6D0 VA: 0x1821900D0
+	// RVA: 0x2190390 Offset: 0x218E990 VA: 0x182190390
 	private static void .cctor() { }
 
-	// RVA: 0x218F430 Offset: 0x218DA30 VA: 0x18218F430 Slot: 48
+	// RVA: 0x218F6F0 Offset: 0x218DCF0 VA: 0x18218F6F0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1065,30 +1065,30 @@ public class CP1149 : ByteEncoding // TypeDefIndex: 7929
 
 	// Methods
 
-	// RVA: 0x2190F00 Offset: 0x218F500 VA: 0x182190F00
+	// RVA: 0x21911C0 Offset: 0x218F7C0 VA: 0x1821911C0
 	public void .ctor() { }
 
-	// RVA: 0x2190E90 Offset: 0x218F490 VA: 0x182190E90
+	// RVA: 0x2191150 Offset: 0x218F750 VA: 0x182191150
 	private static void .cctor() { }
 
-	// RVA: 0x21901F0 Offset: 0x218E7F0 VA: 0x1821901F0 Slot: 48
+	// RVA: 0x21904B0 Offset: 0x218EAB0 VA: 0x1821904B0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP20273 : ByteEncoding // TypeDefIndex: 7931
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10180
+	private static readonly char[] ToChars; // 0x2B111C0
 
 	// Methods
 
-	// RVA: 0x2191CC0 Offset: 0x21902C0 VA: 0x182191CC0
+	// RVA: 0x2191F80 Offset: 0x2190580 VA: 0x182191F80
 	public void .ctor() { }
 
-	// RVA: 0x2191C50 Offset: 0x2190250 VA: 0x182191C50
+	// RVA: 0x2191F10 Offset: 0x2190510 VA: 0x182191F10
 	private static void .cctor() { }
 
-	// RVA: 0x2190FB0 Offset: 0x218F5B0 VA: 0x182190FB0 Slot: 48
+	// RVA: 0x2191270 Offset: 0x218F870 VA: 0x182191270 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1099,13 +1099,13 @@ public class CP20277 : ByteEncoding // TypeDefIndex: 7933
 
 	// Methods
 
-	// RVA: 0x2192A80 Offset: 0x2191080 VA: 0x182192A80
+	// RVA: 0x2192D40 Offset: 0x2191340 VA: 0x182192D40
 	public void .ctor() { }
 
-	// RVA: 0x2192A10 Offset: 0x2191010 VA: 0x182192A10
+	// RVA: 0x2192CD0 Offset: 0x21912D0 VA: 0x182192CD0
 	private static void .cctor() { }
 
-	// RVA: 0x2191D70 Offset: 0x2190370 VA: 0x182191D70 Slot: 48
+	// RVA: 0x2192030 Offset: 0x2190630 VA: 0x182192030 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1116,30 +1116,30 @@ public class CP20278 : ByteEncoding // TypeDefIndex: 7935
 
 	// Methods
 
-	// RVA: 0x2193840 Offset: 0x2191E40 VA: 0x182193840
+	// RVA: 0x2193B00 Offset: 0x2192100 VA: 0x182193B00
 	public void .ctor() { }
 
-	// RVA: 0x21937D0 Offset: 0x2191DD0 VA: 0x1821937D0
+	// RVA: 0x2193A90 Offset: 0x2192090 VA: 0x182193A90
 	private static void .cctor() { }
 
-	// RVA: 0x2192B30 Offset: 0x2191130 VA: 0x182192B30 Slot: 48
+	// RVA: 0x2192DF0 Offset: 0x21913F0 VA: 0x182192DF0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP20280 : ByteEncoding // TypeDefIndex: 7937
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10330
+	private static readonly char[] ToChars; // 0x2B11370
 
 	// Methods
 
-	// RVA: 0x2194600 Offset: 0x2192C00 VA: 0x182194600
+	// RVA: 0x21948C0 Offset: 0x2192EC0 VA: 0x1821948C0
 	public void .ctor() { }
 
-	// RVA: 0x2194590 Offset: 0x2192B90 VA: 0x182194590
+	// RVA: 0x2194850 Offset: 0x2192E50 VA: 0x182194850
 	private static void .cctor() { }
 
-	// RVA: 0x21938F0 Offset: 0x2191EF0 VA: 0x1821938F0 Slot: 48
+	// RVA: 0x2193BB0 Offset: 0x21921B0 VA: 0x182193BB0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1150,13 +1150,13 @@ public class CP20284 : ByteEncoding // TypeDefIndex: 7939
 
 	// Methods
 
-	// RVA: 0x21953C0 Offset: 0x21939C0 VA: 0x1821953C0
+	// RVA: 0x2195680 Offset: 0x2193C80 VA: 0x182195680
 	public void .ctor() { }
 
-	// RVA: 0x2195350 Offset: 0x2193950 VA: 0x182195350
+	// RVA: 0x2195610 Offset: 0x2193C10 VA: 0x182195610
 	private static void .cctor() { }
 
-	// RVA: 0x21946B0 Offset: 0x2192CB0 VA: 0x1821946B0 Slot: 48
+	// RVA: 0x2194970 Offset: 0x2192F70 VA: 0x182194970 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1167,30 +1167,30 @@ public class CP20285 : ByteEncoding // TypeDefIndex: 7941
 
 	// Methods
 
-	// RVA: 0x2196180 Offset: 0x2194780 VA: 0x182196180
+	// RVA: 0x2196440 Offset: 0x2194A40 VA: 0x182196440
 	public void .ctor() { }
 
-	// RVA: 0x2196110 Offset: 0x2194710 VA: 0x182196110
+	// RVA: 0x21963D0 Offset: 0x21949D0 VA: 0x1821963D0
 	private static void .cctor() { }
 
-	// RVA: 0x2195470 Offset: 0x2193A70 VA: 0x182195470 Slot: 48
+	// RVA: 0x2195730 Offset: 0x2193D30 VA: 0x182195730 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP20290 : ByteEncoding // TypeDefIndex: 7943
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10180
+	private static readonly char[] ToChars; // 0x2B111C0
 
 	// Methods
 
-	// RVA: 0x2196B10 Offset: 0x2195110 VA: 0x182196B10
+	// RVA: 0x2196DD0 Offset: 0x21953D0 VA: 0x182196DD0
 	public void .ctor() { }
 
-	// RVA: 0x2196AA0 Offset: 0x21950A0 VA: 0x182196AA0
+	// RVA: 0x2196D60 Offset: 0x2195360 VA: 0x182196D60
 	private static void .cctor() { }
 
-	// RVA: 0x2196230 Offset: 0x2194830 VA: 0x182196230 Slot: 48
+	// RVA: 0x21964F0 Offset: 0x2194AF0 VA: 0x1821964F0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1201,13 +1201,13 @@ public class CP20297 : ByteEncoding // TypeDefIndex: 7945
 
 	// Methods
 
-	// RVA: 0x21978D0 Offset: 0x2195ED0 VA: 0x1821978D0
+	// RVA: 0x2197B90 Offset: 0x2196190 VA: 0x182197B90
 	public void .ctor() { }
 
-	// RVA: 0x2197860 Offset: 0x2195E60 VA: 0x182197860
+	// RVA: 0x2197B20 Offset: 0x2196120 VA: 0x182197B20
 	private static void .cctor() { }
 
-	// RVA: 0x2196BC0 Offset: 0x21951C0 VA: 0x182196BC0 Slot: 48
+	// RVA: 0x2196E80 Offset: 0x2195480 VA: 0x182196E80 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1218,30 +1218,30 @@ public class CP20420 : ByteEncoding // TypeDefIndex: 7947
 
 	// Methods
 
-	// RVA: 0x21986F0 Offset: 0x2196CF0 VA: 0x1821986F0
+	// RVA: 0x21989B0 Offset: 0x2196FB0 VA: 0x1821989B0
 	public void .ctor() { }
 
-	// RVA: 0x2198680 Offset: 0x2196C80 VA: 0x182198680
+	// RVA: 0x2198940 Offset: 0x2196F40 VA: 0x182198940
 	private static void .cctor() { }
 
-	// RVA: 0x2197980 Offset: 0x2195F80 VA: 0x182197980 Slot: 48
+	// RVA: 0x2197C40 Offset: 0x2196240 VA: 0x182197C40 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP20424 : ByteEncoding // TypeDefIndex: 7949
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B102F4
+	private static readonly char[] ToChars; // 0x2B11334
 
 	// Methods
 
-	// RVA: 0x2199190 Offset: 0x2197790 VA: 0x182199190
+	// RVA: 0x2199450 Offset: 0x2197A50 VA: 0x182199450
 	public void .ctor() { }
 
-	// RVA: 0x2199120 Offset: 0x2197720 VA: 0x182199120
+	// RVA: 0x21993E0 Offset: 0x21979E0 VA: 0x1821993E0
 	private static void .cctor() { }
 
-	// RVA: 0x21987A0 Offset: 0x2196DA0 VA: 0x1821987A0 Slot: 48
+	// RVA: 0x2198A60 Offset: 0x2197060 VA: 0x182198A60 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1252,13 +1252,13 @@ public class CP20871 : ByteEncoding // TypeDefIndex: 7951
 
 	// Methods
 
-	// RVA: 0x2199F50 Offset: 0x2198550 VA: 0x182199F50
+	// RVA: 0x219A210 Offset: 0x2198810 VA: 0x18219A210
 	public void .ctor() { }
 
-	// RVA: 0x2199EE0 Offset: 0x21984E0 VA: 0x182199EE0
+	// RVA: 0x219A1A0 Offset: 0x21987A0 VA: 0x18219A1A0
 	private static void .cctor() { }
 
-	// RVA: 0x2199240 Offset: 0x2197840 VA: 0x182199240 Slot: 48
+	// RVA: 0x2199500 Offset: 0x2197B00 VA: 0x182199500 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1269,30 +1269,30 @@ public class CP21025 : ByteEncoding // TypeDefIndex: 7953
 
 	// Methods
 
-	// RVA: 0x219ABF0 Offset: 0x21991F0 VA: 0x18219ABF0
+	// RVA: 0x219AEB0 Offset: 0x21994B0 VA: 0x18219AEB0
 	public void .ctor() { }
 
-	// RVA: 0x219AB80 Offset: 0x2199180 VA: 0x18219AB80
+	// RVA: 0x219AE40 Offset: 0x2199440 VA: 0x18219AE40
 	private static void .cctor() { }
 
-	// RVA: 0x219A000 Offset: 0x2198600 VA: 0x18219A000 Slot: 48
+	// RVA: 0x219A2C0 Offset: 0x21988C0 VA: 0x18219A2C0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP37 : ByteEncoding // TypeDefIndex: 7955
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B101A0
+	private static readonly char[] ToChars; // 0x2B111E0
 
 	// Methods
 
-	// RVA: 0x219B9B0 Offset: 0x2199FB0 VA: 0x18219B9B0
+	// RVA: 0x219BC70 Offset: 0x219A270 VA: 0x18219BC70
 	public void .ctor() { }
 
-	// RVA: 0x219B940 Offset: 0x2199F40 VA: 0x18219B940
+	// RVA: 0x219BC00 Offset: 0x219A200 VA: 0x18219BC00
 	private static void .cctor() { }
 
-	// RVA: 0x219ACA0 Offset: 0x21992A0 VA: 0x18219ACA0 Slot: 48
+	// RVA: 0x219AF60 Offset: 0x2199560 VA: 0x18219AF60 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1303,13 +1303,13 @@ public class CP500 : ByteEncoding // TypeDefIndex: 7957
 
 	// Methods
 
-	// RVA: 0x219C770 Offset: 0x219AD70 VA: 0x18219C770
+	// RVA: 0x219CA30 Offset: 0x219B030 VA: 0x18219CA30
 	public void .ctor() { }
 
-	// RVA: 0x219C700 Offset: 0x219AD00 VA: 0x18219C700
+	// RVA: 0x219C9C0 Offset: 0x219AFC0 VA: 0x18219C9C0
 	private static void .cctor() { }
 
-	// RVA: 0x219BA60 Offset: 0x219A060 VA: 0x18219BA60 Slot: 48
+	// RVA: 0x219BD20 Offset: 0x219A320 VA: 0x18219BD20 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1320,30 +1320,30 @@ public class CP708 : ByteEncoding // TypeDefIndex: 7959
 
 	// Methods
 
-	// RVA: 0x219CDF0 Offset: 0x219B3F0 VA: 0x18219CDF0
+	// RVA: 0x219D0B0 Offset: 0x219B6B0 VA: 0x18219D0B0
 	public void .ctor() { }
 
-	// RVA: 0x219CD80 Offset: 0x219B380 VA: 0x18219CD80
+	// RVA: 0x219D040 Offset: 0x219B640 VA: 0x18219D040
 	private static void .cctor() { }
 
-	// RVA: 0x219C820 Offset: 0x219AE20 VA: 0x18219C820 Slot: 48
+	// RVA: 0x219CAE0 Offset: 0x219B0E0 VA: 0x18219CAE0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP852 : ByteEncoding // TypeDefIndex: 7961
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B101B4
+	private static readonly char[] ToChars; // 0x2B111F4
 
 	// Methods
 
-	// RVA: 0x219DC50 Offset: 0x219C250 VA: 0x18219DC50
+	// RVA: 0x219DF10 Offset: 0x219C510 VA: 0x18219DF10
 	public void .ctor() { }
 
-	// RVA: 0x219DBE0 Offset: 0x219C1E0 VA: 0x18219DBE0
+	// RVA: 0x219DEA0 Offset: 0x219C4A0 VA: 0x18219DEA0
 	private static void .cctor() { }
 
-	// RVA: 0x219CEB0 Offset: 0x219B4B0 VA: 0x18219CEB0 Slot: 48
+	// RVA: 0x219D170 Offset: 0x219B770 VA: 0x18219D170 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1354,13 +1354,13 @@ public class CP855 : ByteEncoding // TypeDefIndex: 7963
 
 	// Methods
 
-	// RVA: 0x219E9F0 Offset: 0x219CFF0 VA: 0x18219E9F0
+	// RVA: 0x219ECB0 Offset: 0x219D2B0 VA: 0x18219ECB0
 	public void .ctor() { }
 
-	// RVA: 0x219E980 Offset: 0x219CF80 VA: 0x18219E980
+	// RVA: 0x219EC40 Offset: 0x219D240 VA: 0x18219EC40
 	private static void .cctor() { }
 
-	// RVA: 0x219DD00 Offset: 0x219C300 VA: 0x18219DD00 Slot: 48
+	// RVA: 0x219DFC0 Offset: 0x219C5C0 VA: 0x18219DFC0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1371,30 +1371,30 @@ public class CP857 : ByteEncoding // TypeDefIndex: 7965
 
 	// Methods
 
-	// RVA: 0x219F7D0 Offset: 0x219DDD0 VA: 0x18219F7D0
+	// RVA: 0x219FA90 Offset: 0x219E090 VA: 0x18219FA90
 	public void .ctor() { }
 
-	// RVA: 0x219F760 Offset: 0x219DD60 VA: 0x18219F760
+	// RVA: 0x219FA20 Offset: 0x219E020 VA: 0x18219FA20
 	private static void .cctor() { }
 
-	// RVA: 0x219EAA0 Offset: 0x219D0A0 VA: 0x18219EAA0 Slot: 48
+	// RVA: 0x219ED60 Offset: 0x219D360 VA: 0x18219ED60 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP858 : ByteEncoding // TypeDefIndex: 7967
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B101A0
+	private static readonly char[] ToChars; // 0x2B111E0
 
 	// Methods
 
-	// RVA: 0x21A0620 Offset: 0x219EC20 VA: 0x1821A0620
+	// RVA: 0x21A08E0 Offset: 0x219EEE0 VA: 0x1821A08E0
 	public void .ctor() { }
 
-	// RVA: 0x21A05B0 Offset: 0x219EBB0 VA: 0x1821A05B0
+	// RVA: 0x21A0870 Offset: 0x219EE70 VA: 0x1821A0870
 	private static void .cctor() { }
 
-	// RVA: 0x219F880 Offset: 0x219DE80 VA: 0x18219F880 Slot: 48
+	// RVA: 0x219FB40 Offset: 0x219E140 VA: 0x18219FB40 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1405,13 +1405,13 @@ public class CP862 : ByteEncoding // TypeDefIndex: 7969
 
 	// Methods
 
-	// RVA: 0x21A1350 Offset: 0x219F950 VA: 0x1821A1350
+	// RVA: 0x21A1610 Offset: 0x219FC10 VA: 0x1821A1610
 	public void .ctor() { }
 
-	// RVA: 0x21A12E0 Offset: 0x219F8E0 VA: 0x1821A12E0
+	// RVA: 0x21A15A0 Offset: 0x219FBA0 VA: 0x1821A15A0
 	private static void .cctor() { }
 
-	// RVA: 0x21A06D0 Offset: 0x219ECD0 VA: 0x1821A06D0 Slot: 48
+	// RVA: 0x21A0990 Offset: 0x219EF90 VA: 0x1821A0990 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1422,30 +1422,30 @@ public class CP864 : ByteEncoding // TypeDefIndex: 7971
 
 	// Methods
 
-	// RVA: 0x22EA2C0 Offset: 0x22E88C0 VA: 0x1822EA2C0
+	// RVA: 0x22EA580 Offset: 0x22E8B80 VA: 0x1822EA580
 	public void .ctor() { }
 
-	// RVA: 0x22EA250 Offset: 0x22E8850 VA: 0x1822EA250
+	// RVA: 0x22EA510 Offset: 0x22E8B10 VA: 0x1822EA510
 	private static void .cctor() { }
 
-	// RVA: 0x22E9560 Offset: 0x22E7B60 VA: 0x1822E9560 Slot: 48
+	// RVA: 0x22E9820 Offset: 0x22E7E20 VA: 0x1822E9820 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP10000 : ByteEncoding // TypeDefIndex: 7977
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10190
+	private static readonly char[] ToChars; // 0x2B111D0
 
 	// Methods
 
-	// RVA: 0x2283630 Offset: 0x2281C30 VA: 0x182283630
+	// RVA: 0x22838F0 Offset: 0x2281EF0 VA: 0x1822838F0
 	public void .ctor() { }
 
-	// RVA: 0x22835C0 Offset: 0x2281BC0 VA: 0x1822835C0
+	// RVA: 0x2283880 Offset: 0x2281E80 VA: 0x182283880
 	private static void .cctor() { }
 
-	// RVA: 0x2282C00 Offset: 0x2281200 VA: 0x182282C00 Slot: 48
+	// RVA: 0x2282EC0 Offset: 0x22814C0 VA: 0x182282EC0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1456,13 +1456,13 @@ public class CP10079 : ByteEncoding // TypeDefIndex: 7979
 
 	// Methods
 
-	// RVA: 0x22840C0 Offset: 0x22826C0 VA: 0x1822840C0
+	// RVA: 0x2284380 Offset: 0x2282980 VA: 0x182284380
 	public void .ctor() { }
 
-	// RVA: 0x2284050 Offset: 0x2282650 VA: 0x182284050
+	// RVA: 0x2284310 Offset: 0x2282910 VA: 0x182284310
 	private static void .cctor() { }
 
-	// RVA: 0x22836E0 Offset: 0x2281CE0 VA: 0x1822836E0 Slot: 48
+	// RVA: 0x22839A0 Offset: 0x2281FA0 VA: 0x1822839A0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1473,30 +1473,30 @@ public class CP1250 : ByteEncoding // TypeDefIndex: 7981
 
 	// Methods
 
-	// RVA: 0x22848C0 Offset: 0x2282EC0 VA: 0x1822848C0
+	// RVA: 0x2284B80 Offset: 0x2283180 VA: 0x182284B80
 	public void .ctor() { }
 
-	// RVA: 0x2284850 Offset: 0x2282E50 VA: 0x182284850
+	// RVA: 0x2284B10 Offset: 0x2283110 VA: 0x182284B10
 	private static void .cctor() { }
 
-	// RVA: 0x2284170 Offset: 0x2282770 VA: 0x182284170 Slot: 48
+	// RVA: 0x2284430 Offset: 0x2282A30 VA: 0x182284430 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP1252 : ByteEncoding // TypeDefIndex: 7983
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B101A0
+	private static readonly char[] ToChars; // 0x2B111E0
 
 	// Methods
 
-	// RVA: 0x2284E00 Offset: 0x2283400 VA: 0x182284E00
+	// RVA: 0x22850C0 Offset: 0x22836C0 VA: 0x1822850C0
 	public void .ctor() { }
 
-	// RVA: 0x2284D90 Offset: 0x2283390 VA: 0x182284D90
+	// RVA: 0x2285050 Offset: 0x2283650 VA: 0x182285050
 	private static void .cctor() { }
 
-	// RVA: 0x2284980 Offset: 0x2282F80 VA: 0x182284980 Slot: 48
+	// RVA: 0x2284C40 Offset: 0x2283240 VA: 0x182284C40 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1507,13 +1507,13 @@ public class CP1253 : ByteEncoding // TypeDefIndex: 7985
 
 	// Methods
 
-	// RVA: 0x2285310 Offset: 0x2283910 VA: 0x182285310
+	// RVA: 0x22855D0 Offset: 0x2283BD0 VA: 0x1822855D0
 	public void .ctor() { }
 
-	// RVA: 0x22852A0 Offset: 0x22838A0 VA: 0x1822852A0
+	// RVA: 0x2285560 Offset: 0x2283B60 VA: 0x182285560
 	private static void .cctor() { }
 
-	// RVA: 0x2284EC0 Offset: 0x22834C0 VA: 0x182284EC0 Slot: 48
+	// RVA: 0x2285180 Offset: 0x2283780 VA: 0x182285180 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1524,30 +1524,30 @@ public class CP28592 : ByteEncoding // TypeDefIndex: 7987
 
 	// Methods
 
-	// RVA: 0x2285F00 Offset: 0x2284500 VA: 0x182285F00
+	// RVA: 0x22861C0 Offset: 0x22847C0 VA: 0x1822861C0
 	public void .ctor() { }
 
-	// RVA: 0x2285E90 Offset: 0x2284490 VA: 0x182285E90
+	// RVA: 0x2286150 Offset: 0x2284750 VA: 0x182286150
 	private static void .cctor() { }
 
-	// RVA: 0x22853D0 Offset: 0x22839D0 VA: 0x1822853D0 Slot: 48
+	// RVA: 0x2285690 Offset: 0x2283C90 VA: 0x182285690 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP28593 : ByteEncoding // TypeDefIndex: 7989
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10188
+	private static readonly char[] ToChars; // 0x2B111C8
 
 	// Methods
 
-	// RVA: 0x22863C0 Offset: 0x22849C0 VA: 0x1822863C0
+	// RVA: 0x2286680 Offset: 0x2284C80 VA: 0x182286680
 	public void .ctor() { }
 
-	// RVA: 0x2286350 Offset: 0x2284950 VA: 0x182286350
+	// RVA: 0x2286610 Offset: 0x2284C10 VA: 0x182286610
 	private static void .cctor() { }
 
-	// RVA: 0x2285FB0 Offset: 0x22845B0 VA: 0x182285FB0 Slot: 48
+	// RVA: 0x2286270 Offset: 0x2284870 VA: 0x182286270 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1558,13 +1558,13 @@ public class CP28597 : ByteEncoding // TypeDefIndex: 7991
 
 	// Methods
 
-	// RVA: 0x2286740 Offset: 0x2284D40 VA: 0x182286740
+	// RVA: 0x2286A00 Offset: 0x2285000 VA: 0x182286A00
 	public void .ctor() { }
 
-	// RVA: 0x22866D0 Offset: 0x2284CD0 VA: 0x1822866D0
+	// RVA: 0x2286990 Offset: 0x2284F90 VA: 0x182286990
 	private static void .cctor() { }
 
-	// RVA: 0x2286470 Offset: 0x2284A70 VA: 0x182286470 Slot: 48
+	// RVA: 0x2286730 Offset: 0x2284D30 VA: 0x182286730 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1575,30 +1575,30 @@ public class CP28605 : ByteEncoding // TypeDefIndex: 7993
 
 	// Methods
 
-	// RVA: 0x2286AA0 Offset: 0x22850A0 VA: 0x182286AA0
+	// RVA: 0x2286D60 Offset: 0x2285360 VA: 0x182286D60
 	public void .ctor() { }
 
-	// RVA: 0x2286A30 Offset: 0x2285030 VA: 0x182286A30
+	// RVA: 0x2286CF0 Offset: 0x22852F0 VA: 0x182286CF0
 	private static void .cctor() { }
 
-	// RVA: 0x22867F0 Offset: 0x2284DF0 VA: 0x1822867F0 Slot: 48
+	// RVA: 0x2286AB0 Offset: 0x22850B0 VA: 0x182286AB0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP437 : ByteEncoding // TypeDefIndex: 7995
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10304
+	private static readonly char[] ToChars; // 0x2B11344
 
 	// Methods
 
-	// RVA: 0x2288240 Offset: 0x2286840 VA: 0x182288240
+	// RVA: 0x2288500 Offset: 0x2286B00 VA: 0x182288500
 	public void .ctor() { }
 
-	// RVA: 0x22881D0 Offset: 0x22867D0 VA: 0x1822881D0
+	// RVA: 0x2288490 Offset: 0x2286A90 VA: 0x182288490
 	private static void .cctor() { }
 
-	// RVA: 0x2286B50 Offset: 0x2285150 VA: 0x182286B50 Slot: 48
+	// RVA: 0x2286E10 Offset: 0x2285410 VA: 0x182286E10 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1609,13 +1609,13 @@ public class CP850 : ByteEncoding // TypeDefIndex: 7997
 
 	// Methods
 
-	// RVA: 0x2289090 Offset: 0x2287690 VA: 0x182289090
+	// RVA: 0x2289350 Offset: 0x2287950 VA: 0x182289350
 	public void .ctor() { }
 
-	// RVA: 0x2289020 Offset: 0x2287620 VA: 0x182289020
+	// RVA: 0x22892E0 Offset: 0x22878E0 VA: 0x1822892E0
 	private static void .cctor() { }
 
-	// RVA: 0x22882F0 Offset: 0x22868F0 VA: 0x1822882F0 Slot: 48
+	// RVA: 0x22885B0 Offset: 0x2286BB0 VA: 0x1822885B0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1626,30 +1626,30 @@ public class CP860 : ByteEncoding // TypeDefIndex: 7999
 
 	// Methods
 
-	// RVA: 0x2289EF0 Offset: 0x22884F0 VA: 0x182289EF0
+	// RVA: 0x228A1B0 Offset: 0x22887B0 VA: 0x18228A1B0
 	public void .ctor() { }
 
-	// RVA: 0x2289E80 Offset: 0x2288480 VA: 0x182289E80
+	// RVA: 0x228A140 Offset: 0x2288740 VA: 0x18228A140
 	private static void .cctor() { }
 
-	// RVA: 0x2289140 Offset: 0x2287740 VA: 0x182289140 Slot: 48
+	// RVA: 0x2289400 Offset: 0x2287A00 VA: 0x182289400 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
 
 public class CP861 : ByteEncoding // TypeDefIndex: 8001
 {	// Fields
-	private static readonly char[] ToChars; // 0x2B10260
+	private static readonly char[] ToChars; // 0x2B112A0
 
 	// Methods
 
-	// RVA: 0x228AD50 Offset: 0x2289350 VA: 0x18228AD50
+	// RVA: 0x228B010 Offset: 0x2289610 VA: 0x18228B010
 	public void .ctor() { }
 
-	// RVA: 0x228ACE0 Offset: 0x22892E0 VA: 0x18228ACE0
+	// RVA: 0x228AFA0 Offset: 0x22895A0 VA: 0x18228AFA0
 	private static void .cctor() { }
 
-	// RVA: 0x2289FA0 Offset: 0x22885A0 VA: 0x182289FA0 Slot: 48
+	// RVA: 0x228A260 Offset: 0x2288860 VA: 0x18228A260 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1660,13 +1660,13 @@ public class CP863 : ByteEncoding // TypeDefIndex: 8003
 
 	// Methods
 
-	// RVA: 0x228BBA0 Offset: 0x228A1A0 VA: 0x18228BBA0
+	// RVA: 0x228BE60 Offset: 0x228A460 VA: 0x18228BE60
 	public void .ctor() { }
 
-	// RVA: 0x228BB30 Offset: 0x228A130 VA: 0x18228BB30
+	// RVA: 0x228BDF0 Offset: 0x228A3F0 VA: 0x18228BDF0
 	private static void .cctor() { }
 
-	// RVA: 0x228AE00 Offset: 0x2289400 VA: 0x18228AE00 Slot: 48
+	// RVA: 0x228B0C0 Offset: 0x22896C0 VA: 0x18228B0C0 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }
@@ -1677,13 +1677,13 @@ public class CP865 : ByteEncoding // TypeDefIndex: 8005
 
 	// Methods
 
-	// RVA: 0x228CA00 Offset: 0x228B000 VA: 0x18228CA00
+	// RVA: 0x228CCC0 Offset: 0x228B2C0 VA: 0x18228CCC0
 	public void .ctor() { }
 
-	// RVA: 0x228C990 Offset: 0x228AF90 VA: 0x18228C990
+	// RVA: 0x228CC50 Offset: 0x228B250 VA: 0x18228CC50
 	private static void .cctor() { }
 
-	// RVA: 0x228BC50 Offset: 0x228A250 VA: 0x18228BC50 Slot: 48
+	// RVA: 0x228BF10 Offset: 0x228A510 VA: 0x18228BF10 Slot: 48
 	protected override void ToBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 }

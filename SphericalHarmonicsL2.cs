@@ -40,7 +40,7 @@ public struct SphericalHarmonicsL2 : IEquatable<SphericalHarmonicsL2> // TypeDef
 	public void AddDirectionalLight(Vector3 direction, Color color, float intensity) { }
 
 	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
-	// RVA: 0x19B67C0 Offset: 0x19B4DC0 VA: 0x1819B67C0
+	// RVA: 0x19B6A80 Offset: 0x19B5080 VA: 0x1819B6A80
 	private static void AddDirectionalLightInternal(ref SphericalHarmonicsL2 sh, Vector3 direction, Color color) { }
 
 	// RVA: 0x223140 Offset: 0x222540 VA: 0x180223140
@@ -55,13 +55,13 @@ public struct SphericalHarmonicsL2 : IEquatable<SphericalHarmonicsL2> // TypeDef
 	// RVA: 0x223070 Offset: 0x222470 VA: 0x180223070 Slot: 4
 	public bool Equals(SphericalHarmonicsL2 other) { }
 
-	// RVA: 0x19B6F10 Offset: 0x19B5510 VA: 0x1819B6F10
+	// RVA: 0x19B71D0 Offset: 0x19B57D0 VA: 0x1819B71D0
 	public static bool op_Equality(SphericalHarmonicsL2 lhs, SphericalHarmonicsL2 rhs) { }
 
-	// RVA: 0x19B66C0 Offset: 0x19B4CC0 VA: 0x1819B66C0
+	// RVA: 0x19B6980 Offset: 0x19B4F80 VA: 0x1819B6980
 	private static void AddAmbientLight_Injected(ref SphericalHarmonicsL2 _unity_self, ref Color color) { }
 
-	// RVA: 0x19B6760 Offset: 0x19B4D60 VA: 0x1819B6760
+	// RVA: 0x19B6A20 Offset: 0x19B5020 VA: 0x1819B6A20
 	private static void AddDirectionalLightInternal_Injected(ref SphericalHarmonicsL2 sh, ref Vector3 direction, ref Color color) { }
 
 }

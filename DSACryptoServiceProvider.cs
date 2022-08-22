@@ -15,37 +15,37 @@ public sealed class DSACryptoServiceProvider : DSA // TypeDefIndex: 1005
 
 	// Methods
 
-	// RVA: 0x16FFA60 Offset: 0x16FE060 VA: 0x1816FFA60
+	// RVA: 0x16FFD20 Offset: 0x16FE320 VA: 0x1816FFD20
 	public void .ctor() { }
 
-	// RVA: 0x16FFA20 Offset: 0x16FE020 VA: 0x1816FFA20
+	// RVA: 0x16FFCE0 Offset: 0x16FE2E0 VA: 0x1816FFCE0
 	public void .ctor(int dwKeySize) { }
 
-	// RVA: 0x16FF5B0 Offset: 0x16FDBB0 VA: 0x1816FF5B0
+	// RVA: 0x16FF870 Offset: 0x16FDE70 VA: 0x1816FF870
 	private void Common(int dwKeySize, bool parameters) { }
 
-	// RVA: 0x9E4550 Offset: 0x9E2B50 VA: 0x1809E4550 Slot: 1
+	// RVA: 0x9E4810 Offset: 0x9E2E10 VA: 0x1809E4810 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x16FFA90 Offset: 0x16FE090 VA: 0x1816FFA90 Slot: 6
+	// RVA: 0x16FFD50 Offset: 0x16FE350 VA: 0x1816FFD50 Slot: 6
 	public override int get_KeySize() { }
 
-	// RVA: 0x16FFAC0 Offset: 0x16FE0C0 VA: 0x1816FFAC0
+	// RVA: 0x16FFD80 Offset: 0x16FE380 VA: 0x1816FFD80
 	public bool get_PublicOnly() { }
 
-	// RVA: 0x16FF840 Offset: 0x16FDE40 VA: 0x1816FF840 Slot: 11
+	// RVA: 0x16FFB00 Offset: 0x16FE100 VA: 0x1816FFB00 Slot: 11
 	public override DSAParameters ExportParameters(bool includePrivateParameters) { }
 
-	// RVA: 0x16FF920 Offset: 0x16FDF20 VA: 0x1816FF920 Slot: 12
+	// RVA: 0x16FFBE0 Offset: 0x16FE1E0 VA: 0x1816FFBE0 Slot: 12
 	public override void ImportParameters(DSAParameters parameters) { }
 
-	// RVA: 0x16FF9F0 Offset: 0x16FDFF0 VA: 0x1816FF9F0 Slot: 10
+	// RVA: 0x16FFCB0 Offset: 0x16FE2B0 VA: 0x1816FFCB0 Slot: 10
 	public override bool VerifySignature(byte[] rgbHash, byte[] rgbSignature) { }
 
-	// RVA: 0x16FF7F0 Offset: 0x16FDDF0 VA: 0x1816FF7F0 Slot: 5
+	// RVA: 0x16FFAB0 Offset: 0x16FE0B0 VA: 0x1816FFAB0 Slot: 5
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x16FF970 Offset: 0x16FDF70 VA: 0x1816FF970
+	// RVA: 0x16FFC30 Offset: 0x16FE230 VA: 0x1816FFC30
 	private void OnKeyGenerated(object sender, EventArgs e) { }
 
 }

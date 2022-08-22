@@ -16,46 +16,46 @@ public class WWW : CustomYieldInstruction, IDisposable // TypeDefIndex: 4755
 
 	// Methods
 
-	// RVA: 0x231A050 Offset: 0x2318650 VA: 0x18231A050
+	// RVA: 0x231A310 Offset: 0x2318910 VA: 0x18231A310
 	public static string UnEscapeURL(string s) { }
 
-	// RVA: 0x231A080 Offset: 0x2318680 VA: 0x18231A080
+	// RVA: 0x231A340 Offset: 0x2318940 VA: 0x18231A340
 	public static string UnEscapeURL(string s, Encoding e) { }
 
-	// RVA: 0x231A170 Offset: 0x2318770 VA: 0x18231A170
+	// RVA: 0x231A430 Offset: 0x2318A30 VA: 0x18231A430
 	public void .ctor(string url) { }
 
-	// RVA: 0x231A430 Offset: 0x2318A30 VA: 0x18231A430
+	// RVA: 0x231A6F0 Offset: 0x2318CF0 VA: 0x18231A6F0
 	public void .ctor(string url, WWWForm form) { }
 
-	// RVA: 0x231A1D0 Offset: 0x23187D0 VA: 0x18231A1D0
+	// RVA: 0x231A490 Offset: 0x2318A90 VA: 0x18231A490
 	public void .ctor(string url, byte[] postData, Dictionary<string, string> headers) { }
 
-	// RVA: 0x231A4B0 Offset: 0x2318AB0 VA: 0x18231A4B0
+	// RVA: 0x231A770 Offset: 0x2318D70 VA: 0x18231A770
 	public string get_error() { }
 
-	// RVA: 0x231A5C0 Offset: 0x2318BC0 VA: 0x18231A5C0
+	// RVA: 0x231A880 Offset: 0x2318E80 VA: 0x18231A880
 	public bool get_isDone() { }
 
-	// RVA: 0x231A610 Offset: 0x2318C10 VA: 0x18231A610
+	// RVA: 0x231A8D0 Offset: 0x2318ED0 VA: 0x18231A8D0
 	public string get_text() { }
 
-	// RVA: 0x2319EF0 Offset: 0x23184F0 VA: 0x182319EF0
+	// RVA: 0x231A1B0 Offset: 0x23187B0 VA: 0x18231A1B0
 	private Texture2D CreateTextureFromDownloadedData(bool markNonReadable) { }
 
-	// RVA: 0x231A690 Offset: 0x2318C90 VA: 0x18231A690
+	// RVA: 0x231A950 Offset: 0x2318F50 VA: 0x18231A950
 	public Texture2D get_texture() { }
 
-	// RVA: 0x231A790 Offset: 0x2318D90 VA: 0x18231A790
+	// RVA: 0x231AA50 Offset: 0x2319050 VA: 0x18231AA50
 	public string get_url() { }
 
-	// RVA: 0x231A5E0 Offset: 0x2318BE0 VA: 0x18231A5E0 Slot: 7
+	// RVA: 0x231A8A0 Offset: 0x2318EA0 VA: 0x18231A8A0 Slot: 7
 	public override bool get_keepWaiting() { }
 
-	// RVA: 0x231A010 Offset: 0x2318610 VA: 0x18231A010 Slot: 8
+	// RVA: 0x231A2D0 Offset: 0x23188D0 VA: 0x18231A2D0 Slot: 8
 	public void Dispose() { }
 
-	// RVA: 0x231A090 Offset: 0x2318690 VA: 0x18231A090
+	// RVA: 0x231A350 Offset: 0x2318950 VA: 0x18231A350
 	private bool WaitUntilDoneIfPossible() { }
 
 }

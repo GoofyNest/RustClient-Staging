@@ -3,12 +3,12 @@ public static class TimedEventsManagingUtilities // TypeDefIndex: 7459
 
 	[IteratorStateMachineAttribute] // RVA: 0xA2B40 Offset: 0xA1F40 VA: 0x1800A2B40
 	[ExtensionAttribute] // RVA: 0xA2B40 Offset: 0xA1F40 VA: 0x1800A2B40
-	// RVA: 0x2203130 Offset: 0x2201730 VA: 0x182203130
+	// RVA: 0x22033F0 Offset: 0x22019F0 VA: 0x1822033F0
 	internal static IEnumerable<Tuple<TimedEvent, int>> GetTimedEventsLazy(EventsCollection[] eventsCollections, int eventsCount, bool cloneEvent = True) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xA2D00 Offset: 0xA2100 VA: 0x1800A2D00
 	[ExtensionAttribute] // RVA: 0xA2D00 Offset: 0xA2100 VA: 0x1800A2D00
-	// RVA: 0x22031C0 Offset: 0x22017C0 VA: 0x1822031C0
+	// RVA: 0x2203480 Offset: 0x2201A80 VA: 0x182203480
 	internal static IEnumerable<TimedEvent> GetTimedEventsLazy(IEnumerable<MidiEvent> events, bool cloneEvent = True) { }
 
 }
@@ -20,13 +20,13 @@ private sealed class TimedEventsManagingUtilities.<>c // TypeDefIndex: 7460
 
 	// Methods
 
-	// RVA: 0x2205260 Offset: 0x2203860 VA: 0x182205260
+	// RVA: 0x2205520 Offset: 0x2203B20 VA: 0x182205520
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2205150 Offset: 0x2203750 VA: 0x182205150
+	// RVA: 0x2205410 Offset: 0x2203A10 VA: 0x182205410
 	internal int <GetTimedEventsLazy>b__26_0(EventsCollection c) { }
 
 }
@@ -58,17 +58,17 @@ private sealed class TimedEventsManagingUtilities.<GetTimedEventsLazy>d__26 : IE
 	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD87490 Offset: 0xD85A90 VA: 0x180D87490
+	// RVA: 0xD87750 Offset: 0xD85D50 VA: 0x180D87750
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2204BE0 Offset: 0x22031E0 VA: 0x182204BE0 Slot: 7
+	// RVA: 0x2204EA0 Offset: 0x22034A0 VA: 0x182204EA0 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x2204510 Offset: 0x2202B10 VA: 0x182204510 Slot: 8
+	// RVA: 0x22047D0 Offset: 0x2202DD0 VA: 0x1822047D0 Slot: 8
 	private bool MoveNext() { }
 
-	// RVA: 0x2204C90 Offset: 0x2203290 VA: 0x182204C90
+	// RVA: 0x2204F50 Offset: 0x2203550 VA: 0x182204F50
 	private void <>m__Finally1() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -76,7 +76,7 @@ private sealed class TimedEventsManagingUtilities.<GetTimedEventsLazy>d__26 : IE
 	private Tuple<TimedEvent, int> System.Collections.Generic.IEnumerator<System.Tuple<Melanchall.DryWetMidi.Interaction.TimedEvent,System.Int32>>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2204B90 Offset: 0x2203190 VA: 0x182204B90 Slot: 10
+	// RVA: 0x2204E50 Offset: 0x2203450 VA: 0x182204E50 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -84,11 +84,11 @@ private sealed class TimedEventsManagingUtilities.<GetTimedEventsLazy>d__26 : IE
 	private object System.Collections.IEnumerator.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2204AE0 Offset: 0x22030E0 VA: 0x182204AE0 Slot: 4
+	// RVA: 0x2204DA0 Offset: 0x22033A0 VA: 0x182204DA0 Slot: 4
 	private IEnumerator<Tuple<TimedEvent, int>> System.Collections.Generic.IEnumerable<System.Tuple<Melanchall.DryWetMidi.Interaction.TimedEvent,System.Int32>>.GetEnumerator() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2204AE0 Offset: 0x22030E0 VA: 0x182204AE0 Slot: 5
+	// RVA: 0x2204DA0 Offset: 0x22033A0 VA: 0x182204DA0 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
@@ -112,17 +112,17 @@ private sealed class TimedEventsManagingUtilities.<GetTimedEventsLazy>d__27 : IE
 	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD87490 Offset: 0xD85A90 VA: 0x180D87490
+	// RVA: 0xD87750 Offset: 0xD85D50 VA: 0x180D87750
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2205030 Offset: 0x2203630 VA: 0x182205030 Slot: 7
+	// RVA: 0x22052F0 Offset: 0x22038F0 VA: 0x1822052F0 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x2204CE0 Offset: 0x22032E0 VA: 0x182204CE0 Slot: 8
+	// RVA: 0x2204FA0 Offset: 0x22035A0 VA: 0x182204FA0 Slot: 8
 	private bool MoveNext() { }
 
-	// RVA: 0x22050E0 Offset: 0x22036E0 VA: 0x1822050E0
+	// RVA: 0x22053A0 Offset: 0x22039A0 VA: 0x1822053A0
 	private void <>m__Finally1() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -130,7 +130,7 @@ private sealed class TimedEventsManagingUtilities.<GetTimedEventsLazy>d__27 : IE
 	private TimedEvent System.Collections.Generic.IEnumerator<Melanchall.DryWetMidi.Interaction.TimedEvent>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2204FE0 Offset: 0x22035E0 VA: 0x182204FE0 Slot: 10
+	// RVA: 0x22052A0 Offset: 0x22038A0 VA: 0x1822052A0 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -138,11 +138,11 @@ private sealed class TimedEventsManagingUtilities.<GetTimedEventsLazy>d__27 : IE
 	private object System.Collections.IEnumerator.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2204F30 Offset: 0x2203530 VA: 0x182204F30 Slot: 4
+	// RVA: 0x22051F0 Offset: 0x22037F0 VA: 0x1822051F0 Slot: 4
 	private IEnumerator<TimedEvent> System.Collections.Generic.IEnumerable<Melanchall.DryWetMidi.Interaction.TimedEvent>.GetEnumerator() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2204F30 Offset: 0x2203530 VA: 0x182204F30 Slot: 5
+	// RVA: 0x22051F0 Offset: 0x22037F0 VA: 0x1822051F0 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }

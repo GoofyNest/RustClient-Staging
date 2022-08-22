@@ -4,13 +4,13 @@ public class UndergroundLODSwitcher : MonoBehaviour, IClientComponent // TypeDef
 
 	// Methods
 
-	// RVA: 0xA06410 Offset: 0xA04A10 VA: 0x180A06410
+	// RVA: 0xA066D0 Offset: 0xA04CD0 VA: 0x180A066D0
 	private void OnEnable() { }
 
-	// RVA: 0xA062D0 Offset: 0xA048D0 VA: 0x180A062D0
+	// RVA: 0xA06590 Offset: 0xA04B90 VA: 0x180A06590
 	private bool IsUnderground() { }
 
-	// RVA: 0xA065B0 Offset: 0xA04BB0 VA: 0x180A065B0
+	// RVA: 0xA06870 Offset: 0xA04E70 VA: 0x180A06870
 	private void Reset() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

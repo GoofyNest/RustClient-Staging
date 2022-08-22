@@ -37,16 +37,16 @@ public struct SqlBoolean : INullable, IComparable, IXmlSerializable // TypeDefIn
 	// RVA: 0x138490 Offset: 0x137890 VA: 0x180138490
 	public bool get_IsFalse() { }
 
-	// RVA: 0xE9C850 Offset: 0xE9AE50 VA: 0x180E9C850
+	// RVA: 0xE9CB10 Offset: 0xE9B110 VA: 0x180E9CB10
 	public static SqlBoolean op_Implicit(bool x) { }
 
-	// RVA: 0xE9C860 Offset: 0xE9AE60 VA: 0x180E9C860
+	// RVA: 0xE9CB20 Offset: 0xE9B120 VA: 0x180E9CB20
 	public static bool op_True(SqlBoolean x) { }
 
-	// RVA: 0xE9C5A0 Offset: 0xE9ABA0 VA: 0x180E9C5A0
+	// RVA: 0xE9C860 Offset: 0xE9AE60 VA: 0x180E9C860
 	public static SqlBoolean op_BitwiseAnd(SqlBoolean x, SqlBoolean y) { }
 
-	// RVA: 0xE9C6B0 Offset: 0xE9ACB0 VA: 0x180E9C6B0
+	// RVA: 0xE9C970 Offset: 0xE9AF70 VA: 0x180E9C970
 	public static SqlBoolean op_BitwiseOr(SqlBoolean x, SqlBoolean y) { }
 
 	// RVA: 0x138430 Offset: 0x137830 VA: 0x180138430
@@ -55,13 +55,13 @@ public struct SqlBoolean : INullable, IComparable, IXmlSerializable // TypeDefIn
 	// RVA: 0x138340 Offset: 0x137740 VA: 0x180138340 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xE9C7C0 Offset: 0xE9ADC0 VA: 0x180E9C7C0
+	// RVA: 0xE9CA80 Offset: 0xE9B080 VA: 0x180E9CA80
 	public static SqlBoolean op_Equality(SqlBoolean x, SqlBoolean y) { }
 
-	// RVA: 0xE9BED0 Offset: 0xE9A4D0 VA: 0x180E9BED0
+	// RVA: 0xE9C190 Offset: 0xE9A790 VA: 0x180E9C190
 	public static SqlBoolean And(SqlBoolean x, SqlBoolean y) { }
 
-	// RVA: 0xE9C350 Offset: 0xE9A950 VA: 0x180E9C350
+	// RVA: 0xE9C610 Offset: 0xE9AC10 VA: 0x180E9C610
 	public static SqlBoolean Or(SqlBoolean x, SqlBoolean y) { }
 
 	// RVA: 0x137E30 Offset: 0x137230 VA: 0x180137E30 Slot: 5
@@ -85,10 +85,10 @@ public struct SqlBoolean : INullable, IComparable, IXmlSerializable // TypeDefIn
 	// RVA: 0x138290 Offset: 0x137690 VA: 0x180138290 Slot: 8
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
-	// RVA: 0xE9C2F0 Offset: 0xE9A8F0 VA: 0x180E9C2F0
+	// RVA: 0xE9C5B0 Offset: 0xE9ABB0 VA: 0x180E9C5B0
 	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet) { }
 
-	// RVA: 0xE9C480 Offset: 0xE9AA80 VA: 0x180E9C480
+	// RVA: 0xE9C740 Offset: 0xE9AD40 VA: 0x180E9C740
 	private static void .cctor() { }
 
 }

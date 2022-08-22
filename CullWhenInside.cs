@@ -4,16 +4,16 @@ public class CullWhenInside : MonoBehaviour, ILOD // TypeDefIndex: 9171
 
 	// Methods
 
-	// RVA: 0x6C4C90 Offset: 0x6C3290 VA: 0x1806C4C90
+	// RVA: 0x6C4DA0 Offset: 0x6C33A0 VA: 0x1806C4DA0
 	protected void Awake() { }
 
-	// RVA: 0x6C4F80 Offset: 0x6C3580 VA: 0x1806C4F80
+	// RVA: 0x6C5090 Offset: 0x6C3690 VA: 0x1806C5090
 	protected void OnEnable() { }
 
-	// RVA: 0x6C4F50 Offset: 0x6C3550 VA: 0x1806C4F50
+	// RVA: 0x6C5060 Offset: 0x6C3660 VA: 0x1806C5060
 	protected void OnDisable() { }
 
-	// RVA: 0x6C4CE0 Offset: 0x6C32E0 VA: 0x1806C4CE0 Slot: 4
+	// RVA: 0x6C4DF0 Offset: 0x6C33F0 VA: 0x1806C4DF0 Slot: 4
 	public void ChangeLOD() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5

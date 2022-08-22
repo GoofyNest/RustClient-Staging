@@ -10,7 +10,7 @@ internal static class PointerEventsHelper // TypeDefIndex: 4683
 	|-PointerEventsHelper.SendEnterLeave<PointerLeaveEvent, PointerEnterEvent>
 	*/
 
-	// RVA: 0xEB8510 Offset: 0xEB6B10 VA: 0x180EB8510
+	// RVA: 0xEB87D0 Offset: 0xEB6DD0 VA: 0x180EB87D0
 	internal static void SendOverOut(VisualElement previousTopElementUnderPointer, VisualElement currentTopElementUnderPointer, IPointerEvent triggerEvent, Vector2 position, int pointerId) { }
 
 }

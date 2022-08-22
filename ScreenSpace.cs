@@ -16,17 +16,17 @@ internal class ScreenSpaceAmbientObscurance : PostEffectsBase // TypeDefIndex: 8
 
 	// Methods
 
-	// RVA: 0x21E59B0 Offset: 0x21E3FB0 VA: 0x1821E59B0 Slot: 4
+	// RVA: 0x21E5C70 Offset: 0x21E4270 VA: 0x1821E5C70 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x21E5A10 Offset: 0x21E4010 VA: 0x1821E5A10
+	// RVA: 0x21E5CD0 Offset: 0x21E42D0 VA: 0x1821E5CD0
 	private void OnDisable() { }
 
 	[ImageEffectOpaque] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21E5AC0 Offset: 0x21E40C0 VA: 0x1821E5AC0
+	// RVA: 0x21E5D80 Offset: 0x21E4380 VA: 0x1821E5D80
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21E61B0 Offset: 0x21E47B0 VA: 0x1821E61B0
+	// RVA: 0x21E6470 Offset: 0x21E4A70 VA: 0x1821E6470
 	public void .ctor() { }
 
 }
@@ -47,29 +47,29 @@ public class ScreenSpaceAmbientOcclusion : MonoBehaviour // TypeDefIndex: 8202
 
 	// Methods
 
-	// RVA: 0x21E61F0 Offset: 0x21E47F0 VA: 0x1821E61F0
+	// RVA: 0x21E64B0 Offset: 0x21E4AB0 VA: 0x1821E64B0
 	private static Material CreateMaterial(Shader shader) { }
 
-	// RVA: 0x21E63F0 Offset: 0x21E49F0 VA: 0x1821E63F0
+	// RVA: 0x21E66B0 Offset: 0x21E4CB0 VA: 0x1821E66B0
 	private static void DestroyMaterial(Material mat) { }
 
-	// RVA: 0x21E6480 Offset: 0x21E4A80 VA: 0x1821E6480
+	// RVA: 0x21E6740 Offset: 0x21E4D40 VA: 0x1821E6740
 	private void OnDisable() { }
 
-	// RVA: 0x21E6D60 Offset: 0x21E5360 VA: 0x1821E6D60
+	// RVA: 0x21E7020 Offset: 0x21E5620 VA: 0x1821E7020
 	private void Start() { }
 
-	// RVA: 0x21E6510 Offset: 0x21E4B10 VA: 0x1821E6510
+	// RVA: 0x21E67D0 Offset: 0x21E4DD0 VA: 0x1821E67D0
 	private void OnEnable() { }
 
-	// RVA: 0x21E62A0 Offset: 0x21E48A0 VA: 0x1821E62A0
+	// RVA: 0x21E6560 Offset: 0x21E4B60 VA: 0x1821E6560
 	private void CreateMaterials() { }
 
 	[ImageEffectOpaque] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21E6570 Offset: 0x21E4B70 VA: 0x1821E6570
+	// RVA: 0x21E6830 Offset: 0x21E4E30 VA: 0x1821E6830
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21E6E20 Offset: 0x21E5420 VA: 0x1821E6E20
+	// RVA: 0x21E70E0 Offset: 0x21E56E0 VA: 0x1821E70E0
 	public void .ctor() { }
 
 }
@@ -109,7 +109,7 @@ public enum ScreenSpaceReflectionResolution // TypeDefIndex: 11801
 public sealed class ScreenSpaceReflectionPresetParameter : ParameterOverride<ScreenSpaceReflectionPreset> // TypeDefIndex: 11802
 {	// Methods
 
-	// RVA: 0x11DCB20 Offset: 0x11DB120 VA: 0x1811DCB20
+	// RVA: 0x11DCDE0 Offset: 0x11DB3E0 VA: 0x1811DCDE0
 	public void .ctor() { }
 
 }
@@ -117,7 +117,7 @@ public sealed class ScreenSpaceReflectionPresetParameter : ParameterOverride<Scr
 public sealed class ScreenSpaceReflectionResolutionParameter : ParameterOverride<ScreenSpaceReflectionResolution> // TypeDefIndex: 11803
 {	// Methods
 
-	// RVA: 0x11DCB60 Offset: 0x11DB160 VA: 0x1811DCB60
+	// RVA: 0x11DCE20 Offset: 0x11DB420 VA: 0x1811DCE20
 	public void .ctor() { }
 
 }
@@ -145,10 +145,10 @@ public sealed class ScreenSpaceReflections : PostProcessEffectSettings // TypeDe
 
 	// Methods
 
-	// RVA: 0x11DE980 Offset: 0x11DCF80 VA: 0x1811DE980 Slot: 4
+	// RVA: 0x11DEC40 Offset: 0x11DD240 VA: 0x1811DEC40 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x11DEAF0 Offset: 0x11DD0F0 VA: 0x1811DEAF0
+	// RVA: 0x11DEDB0 Offset: 0x11DD3B0 VA: 0x1811DEDB0
 	public void .ctor() { }
 
 }
@@ -162,19 +162,19 @@ internal sealed class ScreenSpaceReflectionsRenderer : PostProcessEffectRenderer
 
 	// Methods
 
-	// RVA: 0x6F3500 Offset: 0x6F1B00 VA: 0x1806F3500 Slot: 5
+	// RVA: 0x6F3610 Offset: 0x6F1C10 VA: 0x1806F3610 Slot: 5
 	public override DepthTextureMode GetCameraFlags() { }
 
-	// RVA: 0x11DCBA0 Offset: 0x11DB1A0 VA: 0x1811DCBA0
+	// RVA: 0x11DCE60 Offset: 0x11DB460 VA: 0x1811DCE60
 	internal void CheckRT(ref RenderTexture rt, int width, int height, FilterMode filterMode, bool useMipMap) { }
 
-	// RVA: 0x11DCE40 Offset: 0x11DB440 VA: 0x1811DCE40 Slot: 8
+	// RVA: 0x11DD100 Offset: 0x11DB700 VA: 0x1811DD100 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x11DCDA0 Offset: 0x11DB3A0 VA: 0x1811DCDA0 Slot: 7
+	// RVA: 0x11DD060 Offset: 0x11DB660 VA: 0x1811DD060 Slot: 7
 	public override void Release() { }
 
-	// RVA: 0x11DE550 Offset: 0x11DCB50 VA: 0x1811DE550
+	// RVA: 0x11DE810 Offset: 0x11DCE10 VA: 0x1811DE810
 	public void .ctor() { }
 
 }

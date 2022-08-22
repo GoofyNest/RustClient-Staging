@@ -1,13 +1,13 @@
 public class MissingManifestResourceException : SystemException // TypeDefIndex: 486
 {	// Methods
 
-	// RVA: 0xFEAEE0 Offset: 0xFE94E0 VA: 0x180FEAEE0
+	// RVA: 0xFEB1A0 Offset: 0xFE97A0 VA: 0x180FEB1A0
 	public void .ctor() { }
 
-	// RVA: 0xFEAEB0 Offset: 0xFE94B0 VA: 0x180FEAEB0
+	// RVA: 0xFEB170 Offset: 0xFE9770 VA: 0x180FEB170
 	public void .ctor(string message) { }
 
-	// RVA: 0xFDD150 Offset: 0xFDB750 VA: 0x180FDD150
+	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

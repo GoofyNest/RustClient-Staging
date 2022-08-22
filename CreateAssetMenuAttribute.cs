@@ -26,10 +26,10 @@ public sealed class CreateAssetMenuAttribute : Attribute // TypeDefIndex: 3496
 	public void set_fileName(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D620 Offset: 0x69BC20 VA: 0x18069D620
+	// RVA: 0x69D730 Offset: 0x69BD30 VA: 0x18069D730
 	public void set_order(int value) { }
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 }

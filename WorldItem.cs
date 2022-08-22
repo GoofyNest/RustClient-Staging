@@ -6,82 +6,82 @@ public class WorldItem : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6304
 
 	// Methods
 
-	// RVA: 0x1E57A10 Offset: 0x1E56010 VA: 0x181E57A10
+	// RVA: 0x1E57CD0 Offset: 0x1E562D0 VA: 0x181E57CD0
 	public static void ResetToPool(WorldItem instance) { }
 
-	// RVA: 0x1E57AB0 Offset: 0x1E560B0 VA: 0x181E57AB0
+	// RVA: 0x1E57D70 Offset: 0x1E56370 VA: 0x181E57D70
 	public void ResetToPool() { }
 
-	// RVA: 0x1E578B0 Offset: 0x1E55EB0 VA: 0x181E578B0 Slot: 9
+	// RVA: 0x1E57B70 Offset: 0x1E56170 VA: 0x181E57B70 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E56E10 Offset: 0x1E55410 VA: 0x181E56E10
+	// RVA: 0x1E570D0 Offset: 0x1E556D0 VA: 0x181E570D0
 	public void CopyTo(WorldItem instance) { }
 
-	// RVA: 0x1E56E80 Offset: 0x1E55480 VA: 0x181E56E80
+	// RVA: 0x1E57140 Offset: 0x1E55740 VA: 0x181E57140
 	public WorldItem Copy() { }
 
-	// RVA: 0x1E574B0 Offset: 0x1E55AB0 VA: 0x181E574B0
+	// RVA: 0x1E57770 Offset: 0x1E55D70 VA: 0x181E57770
 	public static WorldItem Deserialize(Stream stream) { }
 
-	// RVA: 0x1E56F50 Offset: 0x1E55550 VA: 0x181E56F50
+	// RVA: 0x1E57210 Offset: 0x1E55810 VA: 0x181E57210
 	public static WorldItem DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E57210 Offset: 0x1E55810 VA: 0x181E57210
+	// RVA: 0x1E574D0 Offset: 0x1E55AD0 VA: 0x181E574D0
 	public static WorldItem DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E57790 Offset: 0x1E55D90 VA: 0x181E57790
+	// RVA: 0x1E57A50 Offset: 0x1E56050 VA: 0x181E57A50
 	public static WorldItem Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E579D0 Offset: 0x1E55FD0 VA: 0x181E579D0
+	// RVA: 0x1E57C90 Offset: 0x1E56290 VA: 0x181E57C90
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E58130 Offset: 0x1E56730 VA: 0x181E58130 Slot: 12
+	// RVA: 0x1E583F0 Offset: 0x1E569F0 VA: 0x181E583F0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E58150 Offset: 0x1E56750 VA: 0x181E58150 Slot: 13
+	// RVA: 0x1E58410 Offset: 0x1E56A10 VA: 0x181E58410 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, WorldItem previous) { }
 
-	// RVA: 0x1E579F0 Offset: 0x1E55FF0 VA: 0x181E579F0 Slot: 14
+	// RVA: 0x1E57CB0 Offset: 0x1E562B0 VA: 0x181E57CB0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E57690 Offset: 0x1E55C90 VA: 0x181E57690
+	// RVA: 0x1E57950 Offset: 0x1E55F50 VA: 0x181E57950
 	public static WorldItem Deserialize(byte[] buffer, WorldItem instance, bool isDelta = False) { }
 
-	// RVA: 0x1E57530 Offset: 0x1E55B30 VA: 0x181E57530
+	// RVA: 0x1E577F0 Offset: 0x1E55DF0 VA: 0x181E577F0
 	public static WorldItem Deserialize(Stream stream, WorldItem instance, bool isDelta) { }
 
-	// RVA: 0x1E56FD0 Offset: 0x1E555D0 VA: 0x181E56FD0
+	// RVA: 0x1E57290 Offset: 0x1E55890 VA: 0x181E57290
 	public static WorldItem DeserializeLengthDelimited(Stream stream, WorldItem instance, bool isDelta) { }
 
-	// RVA: 0x1E572A0 Offset: 0x1E558A0 VA: 0x181E572A0
+	// RVA: 0x1E57560 Offset: 0x1E55B60 VA: 0x181E57560
 	public static WorldItem DeserializeLength(Stream stream, int length, WorldItem instance, bool isDelta) { }
 
-	// RVA: 0x1E57B50 Offset: 0x1E56150 VA: 0x181E57B50
+	// RVA: 0x1E57E10 Offset: 0x1E56410 VA: 0x181E57E10
 	public static void SerializeDelta(Stream stream, WorldItem instance, WorldItem previous) { }
 
-	// RVA: 0x1E57F40 Offset: 0x1E56540 VA: 0x181E57F40
+	// RVA: 0x1E58200 Offset: 0x1E56800 VA: 0x181E58200
 	public static void Serialize(Stream stream, WorldItem instance) { }
 
-	// RVA: 0x1E58120 Offset: 0x1E56720 VA: 0x181E58120
+	// RVA: 0x1E583E0 Offset: 0x1E569E0 VA: 0x181E583E0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E58130 Offset: 0x1E56730 VA: 0x181E58130
+	// RVA: 0x1E583F0 Offset: 0x1E569F0 VA: 0x181E583F0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E57E30 Offset: 0x1E56430 VA: 0x181E57E30
+	// RVA: 0x1E580F0 Offset: 0x1E566F0 VA: 0x181E580F0
 	public static byte[] SerializeToBytes(WorldItem instance) { }
 
-	// RVA: 0x1E57D40 Offset: 0x1E56340 VA: 0x181E57D40
+	// RVA: 0x1E58000 Offset: 0x1E56600 VA: 0x181E58000
 	public static void SerializeLengthDelimited(Stream stream, WorldItem instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -97,61 +97,61 @@ public class WorldItem : BaseEntity // TypeDefIndex: 8667
 
 	// Methods
 
-	// RVA: 0x900890 Offset: 0x8FEE90 VA: 0x180900890 Slot: 35
+	// RVA: 0x9009A0 Offset: 0x8FEFA0 VA: 0x1809009A0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x8FFEB0 Offset: 0x8FE4B0 VA: 0x1808FFEB0 Slot: 14
+	// RVA: 0x8FFFC0 Offset: 0x8FE5C0 VA: 0x1808FFFC0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x901480 Offset: 0x8FFA80 VA: 0x180901480
+	// RVA: 0x901590 Offset: 0x8FFB90 VA: 0x180901590
 	public void UpdateItem(BaseEntity.RPCMessage packet) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x901170 Offset: 0x8FF770 VA: 0x180901170
+	// RVA: 0x901280 Offset: 0x8FF880 VA: 0x180901280
 	public void PickupSound(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x900390 Offset: 0x8FE990 VA: 0x180900390 Slot: 131
+	// RVA: 0x9004A0 Offset: 0x8FEAA0 VA: 0x1809004A0 Slot: 131
 	public virtual Vector3 IdealMenuPosition(BasePlayer playerUser) { }
 
-	// RVA: 0x900020 Offset: 0x8FE620 VA: 0x180900020 Slot: 64
+	// RVA: 0x900130 Offset: 0x8FE730 VA: 0x180900130 Slot: 64
 	public override Info GetMenuInformation(GameObject primaryObject, BasePlayer player) { }
 
-	// RVA: 0x900210 Offset: 0x8FE810 VA: 0x180900210 Slot: 66
+	// RVA: 0x900320 Offset: 0x8FE920 VA: 0x180900320 Slot: 66
 	public override List<Option> GetMenuItems(BasePlayer player) { }
 
-	// RVA: 0x8FFFF0 Offset: 0x8FE5F0 VA: 0x1808FFFF0 Slot: 19
+	// RVA: 0x900100 Offset: 0x8FE700 VA: 0x180900100 Slot: 19
 	protected override void DoClientDestroy() { }
 
-	// RVA: 0x900010 Offset: 0x8FE610 VA: 0x180900010 Slot: 117
+	// RVA: 0x900120 Offset: 0x8FE720 VA: 0x180900120 Slot: 117
 	public override Item GetItem() { }
 
-	// RVA: 0x900540 Offset: 0x8FEB40 VA: 0x180900540
+	// RVA: 0x900650 Offset: 0x8FEC50 VA: 0x180900650
 	public void InitializeItem(Item in_item) { }
 
-	// RVA: 0x901270 Offset: 0x8FF870 VA: 0x180901270
+	// RVA: 0x901380 Offset: 0x8FF980 VA: 0x180901380
 	public void RemoveItem() { }
 
-	// RVA: 0x8FFF20 Offset: 0x8FE520 VA: 0x1808FFF20
+	// RVA: 0x900030 Offset: 0x8FE630 VA: 0x180900030
 	public void DestroyItem() { }
 
-	// RVA: 0x9007E0 Offset: 0x8FEDE0 VA: 0x1809007E0 Slot: 132
+	// RVA: 0x9008F0 Offset: 0x8FEEF0 VA: 0x1809008F0 Slot: 132
 	protected virtual void OnItemDirty(Item in_item) { }
 
-	// RVA: 0x900660 Offset: 0x8FEC60 VA: 0x180900660 Slot: 34
+	// RVA: 0x900770 Offset: 0x8FED70 VA: 0x180900770 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x9015B0 Offset: 0x8FFBB0 VA: 0x1809015B0 Slot: 86
+	// RVA: 0x9016C0 Offset: 0x8FFCC0 VA: 0x1809016C0 Slot: 86
 	public override BaseEntity.TraitFlag get_Traits() { }
 
-	// RVA: 0x901320 Offset: 0x8FF920 VA: 0x180901320 Slot: 3
+	// RVA: 0x901430 Offset: 0x8FFA30 VA: 0x180901430 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x901550 Offset: 0x8FFB50 VA: 0x180901550
+	// RVA: 0x901660 Offset: 0x8FFC60 VA: 0x180901660
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x901440 Offset: 0x8FFA40 VA: 0x180901440
+	// RVA: 0x901550 Offset: 0x8FFB50 VA: 0x180901550
 	private void <GetMenuItems>b__6_0(BasePlayer ply) { }
 
 }

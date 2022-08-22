@@ -11,10 +11,10 @@ internal class Group : AstNode // TypeDefIndex: 1794
 	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
 	public void .ctor(AstNode groupNode) { }
 
-	// RVA: 0x6F3500 Offset: 0x6F1B00 VA: 0x1806F3500 Slot: 4
+	// RVA: 0x6F3610 Offset: 0x6F1C10 VA: 0x1806F3610 Slot: 4
 	public override AstNode.AstType get_Type() { }
 
-	// RVA: 0xAC1DA0 Offset: 0xAC03A0 VA: 0x180AC1DA0 Slot: 5
+	// RVA: 0xAC2060 Offset: 0xAC0660 VA: 0x180AC2060 Slot: 5
 	public override XPathResultType get_ReturnType() { }
 
 }
@@ -34,19 +34,19 @@ public class Group : Capture // TypeDefIndex: 2616
 
 	// Methods
 
-	// RVA: 0x14BFFF0 Offset: 0x14BE5F0 VA: 0x1814BFFF0
+	// RVA: 0x14C02B0 Offset: 0x14BE8B0 VA: 0x1814C02B0
 	internal void .ctor(string text, int[] caps, int capcount, string name) { }
 
-	// RVA: 0x14C0190 Offset: 0x14BE790 VA: 0x1814C0190
+	// RVA: 0x14C0450 Offset: 0x14BEA50 VA: 0x1814C0450
 	public bool get_Success() { }
 
-	// RVA: 0x14C00E0 Offset: 0x14BE6E0 VA: 0x1814C00E0
+	// RVA: 0x14C03A0 Offset: 0x14BE9A0 VA: 0x1814C03A0
 	public CaptureCollection get_Captures() { }
 
-	// RVA: 0x14BFED0 Offset: 0x14BE4D0 VA: 0x1814BFED0
+	// RVA: 0x14C0190 Offset: 0x14BE790 VA: 0x1814C0190
 	private static void .cctor() { }
 
-	// RVA: 0x14BFFC0 Offset: 0x14BE5C0 VA: 0x1814BFFC0
+	// RVA: 0x14C0280 Offset: 0x14BE880 VA: 0x1814C0280
 	internal void .ctor() { }
 
 }
@@ -64,31 +64,31 @@ public class Group : IDisposable // TypeDefIndex: 6708
 
 	// Methods
 
-	// RVA: 0x14CAD50 Offset: 0x14C9350 VA: 0x1814CAD50
+	// RVA: 0x14CB010 Offset: 0x14C9610 VA: 0x1814CB010
 	public bool get_isGlobal() { }
 
-	// RVA: 0x220F130 Offset: 0x220D730 VA: 0x18220F130
+	// RVA: 0x220F3F0 Offset: 0x220D9F0 VA: 0x18220F3F0
 	public void .ctor(Manager m, uint id) { }
 
-	// RVA: 0x220EE90 Offset: 0x220D490 VA: 0x18220EE90 Slot: 5
+	// RVA: 0x220F150 Offset: 0x220D750 VA: 0x18220F150 Slot: 5
 	public virtual void Dispose() { }
 
-	// RVA: 0x220EF20 Offset: 0x220D520 VA: 0x18220EF20
+	// RVA: 0x220F1E0 Offset: 0x220D7E0 VA: 0x18220F1E0
 	public void Join(Networkable nw) { }
 
-	// RVA: 0x220EFD0 Offset: 0x220D5D0 VA: 0x18220EFD0
+	// RVA: 0x220F290 Offset: 0x220D890 VA: 0x18220F290
 	public void Leave(Networkable nw) { }
 
-	// RVA: 0x220EE30 Offset: 0x220D430 VA: 0x18220EE30
+	// RVA: 0x220F0F0 Offset: 0x220D6F0 VA: 0x18220F0F0
 	public void AddSubscriber(Connection cn) { }
 
-	// RVA: 0x220F080 Offset: 0x220D680 VA: 0x18220F080
+	// RVA: 0x220F340 Offset: 0x220D940 VA: 0x18220F340
 	public void RemoveSubscriber(Connection cn) { }
 
-	// RVA: 0x220EEE0 Offset: 0x220D4E0 VA: 0x18220EEE0
+	// RVA: 0x220F1A0 Offset: 0x220D7A0 VA: 0x18220F1A0
 	public bool HasSubscribers() { }
 
-	// RVA: 0x220F0D0 Offset: 0x220D6D0 VA: 0x18220F0D0 Slot: 3
+	// RVA: 0x220F390 Offset: 0x220D990 VA: 0x18220F390 Slot: 3
 	public override string ToString() { }
 
 }

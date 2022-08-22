@@ -38,15 +38,15 @@ public class RCBookmarkEntry : MonoBehaviour // TypeDefIndex: 8686
 	public uint get_netid() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D620 Offset: 0x69BC20 VA: 0x18069D620
+	// RVA: 0x69D730 Offset: 0x69BD30 VA: 0x18069D730
 	private void set_netid(uint value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D600 Offset: 0x69BC00 VA: 0x18069D600
+	// RVA: 0x69D710 Offset: 0x69BD10 VA: 0x18069D710
 	public bool get_isControlling() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D610 Offset: 0x69BC10 VA: 0x18069D610
+	// RVA: 0x69D720 Offset: 0x69BD20 VA: 0x18069D720
 	private void set_isControlling(bool value) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -55,16 +55,16 @@ public class RCBookmarkEntry : MonoBehaviour // TypeDefIndex: 8686
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void CursorExit() { }
 
-	// RVA: 0x69D4A0 Offset: 0x69BAA0 VA: 0x18069D4A0
+	// RVA: 0x69D5B0 Offset: 0x69BBB0 VA: 0x18069D5B0
 	public void Setup(string newidentifier, uint newnetid, ComputerMenu ownerMenu, string overrideText = "") { }
 
-	// RVA: 0x69D410 Offset: 0x69BA10 VA: 0x18069D410
+	// RVA: 0x69D520 Offset: 0x69BB20 VA: 0x18069D520
 	public void DeletePressed() { }
 
-	// RVA: 0x69D470 Offset: 0x69BA70 VA: 0x18069D470
+	// RVA: 0x69D580 Offset: 0x69BB80 VA: 0x18069D580
 	public void OnPressed() { }
 
-	// RVA: 0x69D440 Offset: 0x69BA40 VA: 0x18069D440
+	// RVA: 0x69D550 Offset: 0x69BB50 VA: 0x18069D550
 	public void DisconnectedPressed() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

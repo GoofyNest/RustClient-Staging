@@ -5,7 +5,7 @@ public class ToolgunScreen : MonoBehaviour // TypeDefIndex: 8901
 
 	// Methods
 
-	// RVA: 0xA085D0 Offset: 0xA06BD0 VA: 0x180A085D0
+	// RVA: 0xA08890 Offset: 0xA06E90 VA: 0x180A08890
 	public void SetScreenText(string newText) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

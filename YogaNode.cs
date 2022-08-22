@@ -12,22 +12,22 @@ internal class YogaNode // TypeDefIndex: 4579
 
 	// Methods
 
-	// RVA: 0x22F7E70 Offset: 0x22F6470 VA: 0x1822F7E70
+	// RVA: 0x22F8130 Offset: 0x22F6730 VA: 0x1822F8130
 	public float get_LayoutX() { }
 
-	// RVA: 0x22F7EB0 Offset: 0x22F64B0 VA: 0x1822F7EB0
+	// RVA: 0x22F8170 Offset: 0x22F6770 VA: 0x1822F8170
 	public float get_LayoutY() { }
 
-	// RVA: 0x22F7E30 Offset: 0x22F6430 VA: 0x1822F7E30
+	// RVA: 0x22F80F0 Offset: 0x22F66F0 VA: 0x1822F80F0
 	public float get_LayoutWidth() { }
 
-	// RVA: 0x22F7DF0 Offset: 0x22F63F0 VA: 0x1822F7DF0
+	// RVA: 0x22F80B0 Offset: 0x22F66B0 VA: 0x1822F80B0
 	public float get_LayoutHeight() { }
 
-	// RVA: 0x22F7D30 Offset: 0x22F6330 VA: 0x1822F7D30
+	// RVA: 0x22F7FF0 Offset: 0x22F65F0 VA: 0x1822F7FF0
 	public static YogaSize MeasureInternal(YogaNode node, float width, YogaMeasureMode widthMode, float height, YogaMeasureMode heightMode) { }
 
-	// RVA: 0x22F7C90 Offset: 0x22F6290 VA: 0x1822F7C90
+	// RVA: 0x22F7F50 Offset: 0x22F6550 VA: 0x1822F7F50
 	public static float BaselineInternal(YogaNode node, float width, float height) { }
 
 }

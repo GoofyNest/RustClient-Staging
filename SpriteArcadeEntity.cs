@@ -4,25 +4,25 @@ public class SpriteArcadeEntity : ArcadeEntity // TypeDefIndex: 8773
 
 	// Methods
 
-	// RVA: 0xA8A280 Offset: 0xA88880 VA: 0x180A8A280 Slot: 17
+	// RVA: 0xA8A540 Offset: 0xA88B40 VA: 0x180A8A540 Slot: 17
 	public override void SetVisible(bool wantsVis) { }
 
-	// RVA: 0xA89FD0 Offset: 0xA885D0 VA: 0x180A89FD0 Slot: 11
+	// RVA: 0xA8A290 Offset: 0xA88890 VA: 0x180A8A290 Slot: 11
 	public override void Initialize() { }
 
-	// RVA: 0xA89FE0 Offset: 0xA885E0 VA: 0x180A89FE0 Slot: 18
+	// RVA: 0xA8A2A0 Offset: 0xA888A0 VA: 0x180A8A2A0 Slot: 18
 	public override bool IsVisible() { }
 
-	// RVA: 0xA8A150 Offset: 0xA88750 VA: 0x180A8A150 Slot: 19
+	// RVA: 0xA8A410 Offset: 0xA88A10 VA: 0x180A8A410 Slot: 19
 	public virtual void SetHeading(Vector3 newHeading) { }
 
-	// RVA: 0xA8A010 Offset: 0xA88610 VA: 0x180A8A010
+	// RVA: 0xA8A2D0 Offset: 0xA888D0 VA: 0x180A8A2D0
 	public void UpdateSprite() { }
 
-	// RVA: 0xA8A010 Offset: 0xA88610 VA: 0x180A8A010 Slot: 15
+	// RVA: 0xA8A2D0 Offset: 0xA888D0 VA: 0x180A8A2D0 Slot: 15
 	public override void PostLoad() { }
 
-	// RVA: 0xA8A2B0 Offset: 0xA888B0 VA: 0x180A8A2B0
+	// RVA: 0xA8A570 Offset: 0xA88B70 VA: 0x180A8A570
 	public void .ctor() { }
 
 }

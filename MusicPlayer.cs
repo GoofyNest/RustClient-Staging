@@ -1,6 +1,6 @@
 internal struct MusicPlayerRemoteWillActivate_t : ICallbackData // TypeDefIndex: 5410
 {	// Fields
-	public static int _datasize; // 0x2B1083C
+	public static int _datasize; // 0x2B1187C
 
 	// Properties
 	public int DataSize { get; }
@@ -14,7 +14,7 @@ internal struct MusicPlayerRemoteWillActivate_t : ICallbackData // TypeDefIndex:
 	// RVA: 0x1EBA00 Offset: 0x1EAE00 VA: 0x1801EBA00 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1374020 Offset: 0x1372620 VA: 0x181374020
+	// RVA: 0x13742E0 Offset: 0x13728E0 VA: 0x1813742E0
 	private static void .cctor() { }
 
 }
@@ -35,7 +35,7 @@ internal struct MusicPlayerRemoteWillDeactivate_t : ICallbackData // TypeDefInde
 	// RVA: 0x1EBA70 Offset: 0x1EAE70 VA: 0x1801EBA70 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13740C0 Offset: 0x13726C0 VA: 0x1813740C0
+	// RVA: 0x1374380 Offset: 0x1372980 VA: 0x181374380
 	private static void .cctor() { }
 
 }
@@ -56,14 +56,14 @@ internal struct MusicPlayerRemoteToFront_t : ICallbackData // TypeDefIndex: 5412
 	// RVA: 0x1EB990 Offset: 0x1EAD90 VA: 0x1801EB990 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1373F80 Offset: 0x1372580 VA: 0x181373F80
+	// RVA: 0x1374240 Offset: 0x1372840 VA: 0x181374240
 	private static void .cctor() { }
 
 }
 
 internal struct MusicPlayerWillQuit_t : ICallbackData // TypeDefIndex: 5413
 {	// Fields
-	public static int _datasize; // 0x2B10190
+	public static int _datasize; // 0x2B111D0
 
 	// Properties
 	public int DataSize { get; }
@@ -77,7 +77,7 @@ internal struct MusicPlayerWillQuit_t : ICallbackData // TypeDefIndex: 5413
 	// RVA: 0x1EBF40 Offset: 0x1EB340 VA: 0x1801EBF40 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13747A0 Offset: 0x1372DA0 VA: 0x1813747A0
+	// RVA: 0x1374A60 Offset: 0x1373060 VA: 0x181374A60
 	private static void .cctor() { }
 
 }
@@ -98,7 +98,7 @@ internal struct MusicPlayerWantsPlay_t : ICallbackData // TypeDefIndex: 5414
 	// RVA: 0x1EBD80 Offset: 0x1EB180 VA: 0x1801EBD80 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1374520 Offset: 0x1372B20 VA: 0x181374520
+	// RVA: 0x13747E0 Offset: 0x1372DE0 VA: 0x1813747E0
 	private static void .cctor() { }
 
 }
@@ -119,14 +119,14 @@ internal struct MusicPlayerWantsPause_t : ICallbackData // TypeDefIndex: 5415
 	// RVA: 0x1EBC30 Offset: 0x1EB030 VA: 0x1801EBC30 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1374340 Offset: 0x1372940 VA: 0x181374340
+	// RVA: 0x1374600 Offset: 0x1372C00 VA: 0x181374600
 	private static void .cctor() { }
 
 }
 
 internal struct MusicPlayerWantsPlayPrevious_t : ICallbackData // TypeDefIndex: 5416
 {	// Fields
-	public static int _datasize; // 0x2B10180
+	public static int _datasize; // 0x2B111C0
 
 	// Properties
 	public int DataSize { get; }
@@ -140,7 +140,7 @@ internal struct MusicPlayerWantsPlayPrevious_t : ICallbackData // TypeDefIndex: 
 	// RVA: 0x1EBD10 Offset: 0x1EB110 VA: 0x1801EBD10 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1374480 Offset: 0x1372A80 VA: 0x181374480
+	// RVA: 0x1374740 Offset: 0x1372D40 VA: 0x181374740
 	private static void .cctor() { }
 
 }
@@ -161,7 +161,7 @@ internal struct MusicPlayerWantsPlayNext_t : ICallbackData // TypeDefIndex: 5417
 	// RVA: 0x1EBCA0 Offset: 0x1EB0A0 VA: 0x1801EBCA0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13743E0 Offset: 0x13729E0 VA: 0x1813743E0
+	// RVA: 0x13746A0 Offset: 0x1372CA0 VA: 0x1813746A0
 	private static void .cctor() { }
 
 }
@@ -183,7 +183,7 @@ internal struct MusicPlayerWantsShuffled_t : ICallbackData // TypeDefIndex: 5418
 	// RVA: 0x1EBE60 Offset: 0x1EB260 VA: 0x1801EBE60 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1374660 Offset: 0x1372C60 VA: 0x181374660
+	// RVA: 0x1374920 Offset: 0x1372F20 VA: 0x181374920
 	private static void .cctor() { }
 
 }
@@ -205,7 +205,7 @@ internal struct MusicPlayerWantsLooped_t : ICallbackData // TypeDefIndex: 5419
 	// RVA: 0x1EBBC0 Offset: 0x1EAFC0 VA: 0x1801EBBC0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13742A0 Offset: 0x13728A0 VA: 0x1813742A0
+	// RVA: 0x1374560 Offset: 0x1372B60 VA: 0x181374560
 	private static void .cctor() { }
 
 }
@@ -227,7 +227,7 @@ internal struct MusicPlayerWantsVolume_t : ICallbackData // TypeDefIndex: 5420
 	// RVA: 0x1EBED0 Offset: 0x1EB2D0 VA: 0x1801EBED0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1374700 Offset: 0x1372D00 VA: 0x181374700
+	// RVA: 0x13749C0 Offset: 0x1372FC0 VA: 0x1813749C0
 	private static void .cctor() { }
 
 }
@@ -249,7 +249,7 @@ internal struct MusicPlayerSelectsQueueEntry_t : ICallbackData // TypeDefIndex: 
 	// RVA: 0x1EBB50 Offset: 0x1EAF50 VA: 0x1801EBB50 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1374200 Offset: 0x1372800 VA: 0x181374200
+	// RVA: 0x13744C0 Offset: 0x1372AC0 VA: 0x1813744C0
 	private static void .cctor() { }
 
 }
@@ -271,7 +271,7 @@ internal struct MusicPlayerSelectsPlaylistEntry_t : ICallbackData // TypeDefInde
 	// RVA: 0x1EBAE0 Offset: 0x1EAEE0 VA: 0x1801EBAE0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1374160 Offset: 0x1372760 VA: 0x181374160
+	// RVA: 0x1374420 Offset: 0x1372A20 VA: 0x181374420
 	private static void .cctor() { }
 
 }
@@ -293,7 +293,7 @@ internal struct MusicPlayerWantsPlayingRepeatStatus_t : ICallbackData // TypeDef
 	// RVA: 0x1EBDF0 Offset: 0x1EB1F0 VA: 0x1801EBDF0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13745C0 Offset: 0x1372BC0 VA: 0x1813745C0
+	// RVA: 0x1374880 Offset: 0x1372E80 VA: 0x181374880
 	private static void .cctor() { }
 
 }

@@ -1,10 +1,10 @@
 public class MouseMoveEvent : MouseEventBase<MouseMoveEvent> // TypeDefIndex: 4673
 {	// Methods
 
-	// RVA: 0xEB4CC0 Offset: 0xEB32C0 VA: 0x180EB4CC0
+	// RVA: 0xEB4F80 Offset: 0xEB3580 VA: 0x180EB4F80
 	internal static MouseMoveEvent GetPooled(PointerMoveEvent pointerEvent) { }
 
-	// RVA: 0xEB4D00 Offset: 0xEB3300 VA: 0x180EB4D00
+	// RVA: 0xEB4FC0 Offset: 0xEB35C0 VA: 0x180EB4FC0
 	public void .ctor() { }
 
 }

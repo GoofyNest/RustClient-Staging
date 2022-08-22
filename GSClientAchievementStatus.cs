@@ -17,7 +17,7 @@ internal struct GSClientAchievementStatus_t : ICallbackData // TypeDefIndex: 549
 	// RVA: 0x1E6420 Offset: 0x1E5820 VA: 0x1801E6420 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13707F0 Offset: 0x136EDF0 VA: 0x1813707F0
+	// RVA: 0x1370AB0 Offset: 0x136F0B0 VA: 0x181370AB0
 	private static void .cctor() { }
 
 }

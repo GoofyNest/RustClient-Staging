@@ -44,34 +44,34 @@ private sealed class ResultPage.<get_Entries>d__10 : IEnumerable<Item>, IEnumera
 	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19E0E70 Offset: 0x19DF470 VA: 0x1819E0E70
+	// RVA: 0x19E1130 Offset: 0x19DF730 VA: 0x1819E1130
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x19E04D0 Offset: 0x19DEAD0 VA: 0x1819E04D0 Slot: 8
+	// RVA: 0x19E0790 Offset: 0x19DED90 VA: 0x1819E0790 Slot: 8
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x176D430 Offset: 0x176BA30 VA: 0x18176D430 Slot: 6
+	// RVA: 0x176D6F0 Offset: 0x176BCF0 VA: 0x18176D6F0 Slot: 6
 	private Item System.Collections.Generic.IEnumerator<Steamworks.Ugc.Item>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19E0D50 Offset: 0x19DF350 VA: 0x1819E0D50 Slot: 10
+	// RVA: 0x19E1010 Offset: 0x19DF610 VA: 0x1819E1010 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19E0DA0 Offset: 0x19DF3A0 VA: 0x1819E0DA0 Slot: 9
+	// RVA: 0x19E1060 Offset: 0x19DF660 VA: 0x1819E1060 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19E0CA0 Offset: 0x19DF2A0 VA: 0x1819E0CA0 Slot: 4
+	// RVA: 0x19E0F60 Offset: 0x19DF560 VA: 0x1819E0F60 Slot: 4
 	private IEnumerator<Item> System.Collections.Generic.IEnumerable<Steamworks.Ugc.Item>.GetEnumerator() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19E0CA0 Offset: 0x19DF2A0 VA: 0x1819E0CA0 Slot: 5
+	// RVA: 0x19E0F60 Offset: 0x19DF560 VA: 0x1819E0F60 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }

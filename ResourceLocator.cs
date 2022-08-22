@@ -21,7 +21,7 @@ internal struct ResourceLocator // TypeDefIndex: 494
 	// RVA: 0xF1490 Offset: 0xF0890 VA: 0x1800F1490
 	internal void set_Value(object value) { }
 
-	// RVA: 0xFEC610 Offset: 0xFEAC10 VA: 0x180FEC610
+	// RVA: 0xFEC8D0 Offset: 0xFEAED0 VA: 0x180FEC8D0
 	internal static bool CanCache(ResourceTypeCode value) { }
 
 }

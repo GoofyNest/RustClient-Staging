@@ -8,45 +8,45 @@ public sealed class LineRenderer : Renderer // TypeDefIndex: 3401
 	// Methods
 
 	[ObsoleteAttribute] // RVA: 0x8DF20 Offset: 0x8D320 VA: 0x18008DF20
-	// RVA: 0x18EA760 Offset: 0x18E8D60 VA: 0x1818EA760
+	// RVA: 0x18EAA20 Offset: 0x18E9020 VA: 0x1818EAA20
 	public void SetColors(Color start, Color end) { }
 
-	// RVA: 0x18EAA40 Offset: 0x18E9040 VA: 0x1818EAA40
+	// RVA: 0x18EAD00 Offset: 0x18E9300 VA: 0x1818EAD00
 	public void set_startColor(Color value) { }
 
-	// RVA: 0x18EA960 Offset: 0x18E8F60 VA: 0x1818EA960
+	// RVA: 0x18EAC20 Offset: 0x18E9220 VA: 0x1818EAC20
 	public void set_endColor(Color value) { }
 
-	// RVA: 0x18EA8D0 Offset: 0x18E8ED0 VA: 0x1818EA8D0
+	// RVA: 0x18EAB90 Offset: 0x18E9190 VA: 0x1818EAB90
 	public int get_positionCount() { }
 
-	// RVA: 0x18EA9B0 Offset: 0x18E8FB0 VA: 0x1818EA9B0
+	// RVA: 0x18EAC70 Offset: 0x18E9270 VA: 0x1818EAC70
 	public void set_positionCount(int value) { }
 
-	// RVA: 0x18EA830 Offset: 0x18E8E30 VA: 0x1818EA830
+	// RVA: 0x18EAAF0 Offset: 0x18E90F0 VA: 0x1818EAAF0
 	public void SetPosition(int index, Vector3 position) { }
 
-	// RVA: 0x18EA6B0 Offset: 0x18E8CB0 VA: 0x1818EA6B0
+	// RVA: 0x18EA970 Offset: 0x18E8F70 VA: 0x1818EA970
 	public Vector3 GetPosition(int index) { }
 
 	[FreeFunctionAttribute] // RVA: 0x8DF80 Offset: 0x8D380 VA: 0x18008DF80
-	// RVA: 0x18EA710 Offset: 0x18E8D10 VA: 0x1818EA710
+	// RVA: 0x18EA9D0 Offset: 0x18E8FD0 VA: 0x1818EA9D0
 	public int GetPositions([Out] Vector3[] positions) { }
 
 	[FreeFunctionAttribute] // RVA: 0x8E060 Offset: 0x8D460 VA: 0x18008E060
-	// RVA: 0x18EA880 Offset: 0x18E8E80 VA: 0x1818EA880
+	// RVA: 0x18EAB40 Offset: 0x18E9140 VA: 0x1818EAB40
 	public void SetPositions(Vector3[] positions) { }
 
-	// RVA: 0x18EA9F0 Offset: 0x18E8FF0 VA: 0x1818EA9F0
+	// RVA: 0x18EACB0 Offset: 0x18E92B0 VA: 0x1818EACB0
 	private void set_startColor_Injected(ref Color value) { }
 
-	// RVA: 0x18EA910 Offset: 0x18E8F10 VA: 0x1818EA910
+	// RVA: 0x18EABD0 Offset: 0x18E91D0 VA: 0x1818EABD0
 	private void set_endColor_Injected(ref Color value) { }
 
-	// RVA: 0x18EA7E0 Offset: 0x18E8DE0 VA: 0x1818EA7E0
+	// RVA: 0x18EAAA0 Offset: 0x18E90A0 VA: 0x1818EAAA0
 	private void SetPosition_Injected(int index, ref Vector3 position) { }
 
-	// RVA: 0x18EA660 Offset: 0x18E8C60 VA: 0x1818EA660
+	// RVA: 0x18EA920 Offset: 0x18E8F20 VA: 0x1818EA920
 	private void GetPosition_Injected(int index, out Vector3 ret) { }
 
 }

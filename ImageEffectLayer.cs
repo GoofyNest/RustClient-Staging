@@ -17,19 +17,19 @@ public class ImageEffectLayer : FacepunchBehaviour // TypeDefIndex: 8032
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public IImageEffect[] get_Effects() { }
 
-	// RVA: 0x106D990 Offset: 0x106BF90 VA: 0x18106D990 Slot: 4
+	// RVA: 0x106DC50 Offset: 0x106C250 VA: 0x18106DC50 Slot: 4
 	public virtual void Start() { }
 
-	// RVA: 0x106D8A0 Offset: 0x106BEA0 VA: 0x18106D8A0 Slot: 5
+	// RVA: 0x106DB60 Offset: 0x106C160 VA: 0x18106DB60 Slot: 5
 	public virtual void OnDisable() { }
 
-	// RVA: 0x9974E0 Offset: 0x995AE0 VA: 0x1809974E0
+	// RVA: 0x9975F0 Offset: 0x995BF0 VA: 0x1809975F0
 	public bool get_layerEnabled() { }
 
-	// RVA: 0x106DB30 Offset: 0x106C130 VA: 0x18106DB30
+	// RVA: 0x106DDF0 Offset: 0x106C3F0 VA: 0x18106DDF0
 	public void set_layerEnabled(bool value) { }
 
-	// RVA: 0x106DB20 Offset: 0x106C120 VA: 0x18106DB20
+	// RVA: 0x106DDE0 Offset: 0x106C3E0 VA: 0x18106DDE0
 	public void .ctor() { }
 
 }

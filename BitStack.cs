@@ -6,22 +6,22 @@ internal class BitStack // TypeDefIndex: 1830
 
 	// Methods
 
-	// RVA: 0x12E2AD0 Offset: 0x12E10D0 VA: 0x1812E2AD0
+	// RVA: 0x12E2D90 Offset: 0x12E1390 VA: 0x1812E2D90
 	public void .ctor() { }
 
-	// RVA: 0x12E28C0 Offset: 0x12E0EC0 VA: 0x1812E28C0
+	// RVA: 0x12E2B80 Offset: 0x12E1180 VA: 0x1812E2B80
 	public void PushBit(bool bit) { }
 
-	// RVA: 0x12E2800 Offset: 0x12E0E00 VA: 0x1812E2800
+	// RVA: 0x12E2AC0 Offset: 0x12E10C0 VA: 0x1812E2AC0
 	public bool PopBit() { }
 
-	// RVA: 0x12E27F0 Offset: 0x12E0DF0 VA: 0x1812E27F0
+	// RVA: 0x12E2AB0 Offset: 0x12E10B0 VA: 0x1812E2AB0
 	public bool PeekBit() { }
 
-	// RVA: 0x12E29E0 Offset: 0x12E0FE0 VA: 0x1812E29E0
+	// RVA: 0x12E2CA0 Offset: 0x12E12A0 VA: 0x1812E2CA0
 	private void PushCurr() { }
 
-	// RVA: 0x12E2870 Offset: 0x12E0E70 VA: 0x1812E2870
+	// RVA: 0x12E2B30 Offset: 0x12E1130 VA: 0x1812E2B30
 	private void PopCurr() { }
 
 }

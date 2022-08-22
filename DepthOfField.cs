@@ -37,31 +37,31 @@ public class DepthOfField : PostEffectsBase // TypeDefIndex: 8178
 	// RVA: 0x592640 Offset: 0x590C40 VA: 0x180592640
 	public void set_ForceOnlyFarBlur(bool value) { }
 
-	// RVA: 0x21DCE70 Offset: 0x21DB470 VA: 0x1821DCE70 Slot: 4
+	// RVA: 0x21DD130 Offset: 0x21DB730 VA: 0x1821DD130 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x21DD5B0 Offset: 0x21DBBB0 VA: 0x1821DD5B0
+	// RVA: 0x21DD870 Offset: 0x21DBE70 VA: 0x1821DD870
 	private void OnEnable() { }
 
-	// RVA: 0x21DD440 Offset: 0x21DBA40 VA: 0x1821DD440
+	// RVA: 0x21DD700 Offset: 0x21DBD00 VA: 0x1821DD700
 	private void OnDisable() { }
 
-	// RVA: 0x21DF100 Offset: 0x21DD700 VA: 0x1821DF100
+	// RVA: 0x21DF3C0 Offset: 0x21DD9C0 VA: 0x1821DF3C0
 	private void ReleaseComputeResources() { }
 
-	// RVA: 0x21DD080 Offset: 0x21DB680 VA: 0x1821DD080
+	// RVA: 0x21DD340 Offset: 0x21DB940 VA: 0x1821DD340
 	private void CreateComputeResources() { }
 
-	// RVA: 0x21DD210 Offset: 0x21DB810 VA: 0x1821DD210
+	// RVA: 0x21DD4D0 Offset: 0x21DBAD0 VA: 0x1821DD4D0
 	private float FocalDistance01(float worldDist) { }
 
-	// RVA: 0x21DF170 Offset: 0x21DD770 VA: 0x1821DF170
+	// RVA: 0x21DF430 Offset: 0x21DDA30 VA: 0x1821DF430
 	private void WriteCoc(RenderTexture fromTo, bool fgDilate) { }
 
-	// RVA: 0x21DD610 Offset: 0x21DBC10 VA: 0x1821DD610
+	// RVA: 0x21DD8D0 Offset: 0x21DBED0 VA: 0x1821DD8D0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21DF4D0 Offset: 0x21DDAD0 VA: 0x1821DF4D0
+	// RVA: 0x21DF790 Offset: 0x21DDD90 VA: 0x1821DF790
 	public void .ctor() { }
 
 }
@@ -100,10 +100,10 @@ public sealed class DepthOfField : PostProcessEffectSettings // TypeDefIndex: 11
 
 	// Methods
 
-	// RVA: 0x9FD010 Offset: 0x9FB610 VA: 0x1809FD010 Slot: 4
+	// RVA: 0x9FD2D0 Offset: 0x9FB8D0 VA: 0x1809FD2D0 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x9FD050 Offset: 0x9FB650 VA: 0x1809FD050
+	// RVA: 0x9FD310 Offset: 0x9FB910 VA: 0x1809FD310
 	public void .ctor() { }
 
 }

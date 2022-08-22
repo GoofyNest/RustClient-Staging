@@ -15,7 +15,7 @@ public sealed class XHashtable.ExtractKeyDelegate<TValue> : MulticastDelegate //
 	public virtual string Invoke(TValue value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x133B5E0 Offset: 0x1339BE0 VA: 0x18133B5E0
+	|-RVA: 0x133B8A0 Offset: 0x1339EA0 VA: 0x18133B8A0
 	|-XHashtable.ExtractKeyDelegate<object>.Invoke
 	*/
 
@@ -50,7 +50,7 @@ private sealed class XHashtable.XHashtableState<TValue> // TypeDefIndex: 5820
 	public void .ctor(XHashtable.ExtractKeyDelegate<TValue> extractKey, int capacity) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A682C0 Offset: 0x1A668C0 VA: 0x181A682C0
+	|-RVA: 0x1A68580 Offset: 0x1A66B80 VA: 0x181A68580
 	|-XHashtable.XHashtableState<object>..ctor
 	*/
 
@@ -58,7 +58,7 @@ private sealed class XHashtable.XHashtableState<TValue> // TypeDefIndex: 5820
 	public XHashtable.XHashtableState<TValue> Resize() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A67C00 Offset: 0x1A66200 VA: 0x181A67C00
+	|-RVA: 0x1A67EC0 Offset: 0x1A664C0 VA: 0x181A67EC0
 	|-XHashtable.XHashtableState<object>.Resize
 	*/
 
@@ -66,7 +66,7 @@ private sealed class XHashtable.XHashtableState<TValue> // TypeDefIndex: 5820
 	public bool TryGetValue(string key, int index, int count, out TValue value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A681C0 Offset: 0x1A667C0 VA: 0x181A681C0
+	|-RVA: 0x1A68480 Offset: 0x1A66A80 VA: 0x181A68480
 	|-XHashtable.XHashtableState<object>.TryGetValue
 	*/
 
@@ -74,7 +74,7 @@ private sealed class XHashtable.XHashtableState<TValue> // TypeDefIndex: 5820
 	public bool TryAdd(TValue value, out TValue newValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A67F50 Offset: 0x1A66550 VA: 0x181A67F50
+	|-RVA: 0x1A68210 Offset: 0x1A66810 VA: 0x181A68210
 	|-XHashtable.XHashtableState<object>.TryAdd
 	*/
 
@@ -82,7 +82,7 @@ private sealed class XHashtable.XHashtableState<TValue> // TypeDefIndex: 5820
 	private bool FindEntry(int hashCode, string key, int index, int count, ref int entryIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A679D0 Offset: 0x1A65FD0 VA: 0x181A679D0
+	|-RVA: 0x1A67C90 Offset: 0x1A66290 VA: 0x181A67C90
 	|-XHashtable.XHashtableState<object>.FindEntry
 	*/
 
@@ -90,7 +90,7 @@ private sealed class XHashtable.XHashtableState<TValue> // TypeDefIndex: 5820
 	private static int ComputeHashCode(string key, int index, int count) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A67950 Offset: 0x1A65F50 VA: 0x181A67950
+	|-RVA: 0x1A67C10 Offset: 0x1A66210 VA: 0x181A67C10
 	|-XHashtable.XHashtableState<object>.ComputeHashCode
 	*/
 

@@ -16,7 +16,7 @@ internal struct GameConnectedFriendChatMsg_t : ICallbackData // TypeDefIndex: 53
 	// RVA: 0x1E79D0 Offset: 0x1E6DD0 VA: 0x1801E79D0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371020 Offset: 0x136F620 VA: 0x181371020
+	// RVA: 0x13712E0 Offset: 0x136F8E0 VA: 0x1813712E0
 	private static void .cctor() { }
 
 }

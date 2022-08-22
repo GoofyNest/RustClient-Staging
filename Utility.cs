@@ -14,18 +14,18 @@ internal class Utility // TypeDefIndex: 4719
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEBEA30 Offset: 0xEBD030 VA: 0x180EBEA30
+	// RVA: 0xEBECF0 Offset: 0xEBD2F0 VA: 0x180EBECF0
 	internal static void RaiseGraphicsResourcesRecreate(bool recreate) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEBE920 Offset: 0xEBCF20 VA: 0x180EBE920
+	// RVA: 0xEBEBE0 Offset: 0xEBD1E0 VA: 0x180EBEBE0
 	internal static void RaiseEngineUpdate() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEBE9C0 Offset: 0xEBCFC0 VA: 0x180EBE9C0
+	// RVA: 0xEBEC80 Offset: 0xEBD280 VA: 0x180EBEC80
 	internal static void RaiseFlushPendingResources() { }
 
-	// RVA: 0xEBEAB0 Offset: 0xEBD0B0 VA: 0x180EBEAB0
+	// RVA: 0xEBED70 Offset: 0xEBD370 VA: 0x180EBED70
 	private static void .cctor() { }
 
 }
@@ -223,27 +223,27 @@ public static class Utility // TypeDefIndex: 5272
 	*/
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19E20E0 Offset: 0x19E06E0 VA: 0x1819E20E0
+	// RVA: 0x19E23A0 Offset: 0x19E09A0 VA: 0x1819E23A0
 	internal static object ToType(IntPtr ptr, Type t) { }
 
-	// RVA: 0x19E20B0 Offset: 0x19E06B0 VA: 0x1819E20B0
+	// RVA: 0x19E2370 Offset: 0x19E0970 VA: 0x1819E2370
 	internal static uint Swap(uint x) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19E1DD0 Offset: 0x19E03D0 VA: 0x1819E1DD0
+	// RVA: 0x19E2090 Offset: 0x19E0690 VA: 0x1819E2090
 	public static uint IpToInt32(IPAddress ipAddress) { }
 
-	// RVA: 0x19E1D30 Offset: 0x19E0330 VA: 0x1819E1D30
+	// RVA: 0x19E1FF0 Offset: 0x19E05F0 VA: 0x1819E1FF0
 	public static IPAddress Int32ToIp(uint ipAddress) { }
 
-	// RVA: 0x19E1220 Offset: 0x19DF820 VA: 0x1819E1220
+	// RVA: 0x19E14E0 Offset: 0x19DFAE0 VA: 0x1819E14E0
 	public static string FormatPrice(string currency, double price) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19E1E60 Offset: 0x19E0460 VA: 0x1819E1E60
+	// RVA: 0x19E2120 Offset: 0x19E0720 VA: 0x1819E2120
 	public static string ReadNullTerminatedUTF8String(BinaryReader br) { }
 
-	// RVA: 0x19E2160 Offset: 0x19E0760 VA: 0x1819E2160
+	// RVA: 0x19E2420 Offset: 0x19E0A20 VA: 0x1819E2420
 	private static void .cctor() { }
 
 }

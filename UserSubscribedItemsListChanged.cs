@@ -15,7 +15,7 @@ internal struct UserSubscribedItemsListChanged_t : ICallbackData // TypeDefIndex
 	// RVA: 0x1DC890 Offset: 0x1DBC90 VA: 0x1801DC890 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1291F50 Offset: 0x1290550 VA: 0x181291F50
+	// RVA: 0x1292210 Offset: 0x1290810 VA: 0x181292210
 	private static void .cctor() { }
 
 }

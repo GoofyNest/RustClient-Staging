@@ -12,7 +12,7 @@ public struct FixedSByteNorm3 // TypeDefIndex: 11418
 	// RVA: 0xF5410 Offset: 0xF4810 VA: 0x1800F5410
 	public void .ctor(Vector3 vec) { }
 
-	// RVA: 0x78DC90 Offset: 0x78C290 VA: 0x18078DC90
+	// RVA: 0x78DDA0 Offset: 0x78C3A0 VA: 0x18078DDA0
 	public static Vector3 op_Explicit(FixedSByteNorm3 vec) { }
 
 }

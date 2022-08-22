@@ -7,7 +7,7 @@ public class RainEffect : WeatherEffect // TypeDefIndex: 10071
 
 	// Methods
 
-	// RVA: 0x6A5F70 Offset: 0x6A4570 VA: 0x1806A5F70 Slot: 6
+	// RVA: 0x6A6080 Offset: 0x6A4680 VA: 0x1806A6080 Slot: 6
 	protected override float GetCurrentIntensity() { }
 
 	// RVA: 0x5B1170 Offset: 0x5AF770 VA: 0x1805B1170 Slot: 7

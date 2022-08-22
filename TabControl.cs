@@ -10,19 +10,19 @@ public class TabControl : RustControl // TypeDefIndex: 7038
 
 	// Methods
 
-	// RVA: 0xFD4390 Offset: 0xFD2990 VA: 0x180FD4390
+	// RVA: 0xFD4650 Offset: 0xFD2C50 VA: 0x180FD4650
 	public RustLayout Panel(string name) { }
 
-	// RVA: 0xFD4320 Offset: 0xFD2920 VA: 0x180FD4320
+	// RVA: 0xFD45E0 Offset: 0xFD2BE0 VA: 0x180FD45E0
 	public RustButton Button(string name) { }
 
-	// RVA: 0xFD3D40 Offset: 0xFD2340 VA: 0x180FD3D40
+	// RVA: 0xFD4000 Offset: 0xFD2600 VA: 0x180FD4000
 	public void AddTab(string name, Translate.Phrase buttontext, Icons icon = 62241) { }
 
-	// RVA: 0xFD4210 Offset: 0xFD2810 VA: 0x180FD4210 Slot: 30
+	// RVA: 0xFD44D0 Offset: 0xFD2AD0 VA: 0x180FD44D0 Slot: 30
 	protected override void ApplyStyle(StyleAsset.Group s) { }
 
-	// RVA: 0xFD4400 Offset: 0xFD2A00 VA: 0x180FD4400
+	// RVA: 0xFD46C0 Offset: 0xFD2CC0 VA: 0x180FD46C0
 	public void .ctor() { }
 
 }

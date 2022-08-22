@@ -21,16 +21,16 @@ internal class ForwardAxis // TypeDefIndex: 2136
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	internal DoubleLinkAxis get_TopNode() { }
 
-	// RVA: 0xB103F0 Offset: 0xB0E9F0 VA: 0x180B103F0
+	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0
 	internal bool get_IsAttribute() { }
 
-	// RVA: 0xB10400 Offset: 0xB0EA00 VA: 0x180B10400
+	// RVA: 0xB106C0 Offset: 0xB0ECC0 VA: 0x180B106C0
 	internal bool get_IsDss() { }
 
-	// RVA: 0xB10410 Offset: 0xB0EA10 VA: 0x180B10410
+	// RVA: 0xB106D0 Offset: 0xB0ECD0 VA: 0x180B106D0
 	internal bool get_IsSelfAxis() { }
 
-	// RVA: 0xB102C0 Offset: 0xB0E8C0 VA: 0x180B102C0
+	// RVA: 0xB10580 Offset: 0xB0EB80 VA: 0x180B10580
 	public void .ctor(DoubleLinkAxis axis, bool isdesorself) { }
 
 }

@@ -23,46 +23,46 @@ public class Tile : TileBase // TypeDefIndex: 4566
 
 	// Methods
 
-	// RVA: 0x181D9E0 Offset: 0x181BFE0 VA: 0x18181D9E0
+	// RVA: 0x181DCA0 Offset: 0x181C2A0 VA: 0x18181DCA0
 	public Sprite get_sprite() { }
 
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	public void set_sprite(Sprite value) { }
 
-	// RVA: 0x231F310 Offset: 0x231D910 VA: 0x18231F310
+	// RVA: 0x231F5D0 Offset: 0x231DBD0 VA: 0x18231F5D0
 	public Color get_color() { }
 
-	// RVA: 0x10965B0 Offset: 0x1094BB0 VA: 0x1810965B0
+	// RVA: 0x1096870 Offset: 0x1094E70 VA: 0x181096870
 	public void set_color(Color value) { }
 
-	// RVA: 0x231F330 Offset: 0x231D930 VA: 0x18231F330
+	// RVA: 0x231F5F0 Offset: 0x231DBF0 VA: 0x18231F5F0
 	public Matrix4x4 get_transform() { }
 
-	// RVA: 0x231F360 Offset: 0x231D960 VA: 0x18231F360
+	// RVA: 0x231F620 Offset: 0x231DC20 VA: 0x18231F620
 	public void set_transform(Matrix4x4 value) { }
 
-	// RVA: 0x1A78580 Offset: 0x1A76B80 VA: 0x181A78580
+	// RVA: 0x1A78840 Offset: 0x1A76E40 VA: 0x181A78840
 	public GameObject get_gameObject() { }
 
 	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
 	public void set_gameObject(GameObject value) { }
 
-	// RVA: 0x231F320 Offset: 0x231D920 VA: 0x18231F320
+	// RVA: 0x231F5E0 Offset: 0x231DBE0 VA: 0x18231F5E0
 	public TileFlags get_flags() { }
 
-	// RVA: 0xB28CD0 Offset: 0xB272D0 VA: 0x180B28CD0
+	// RVA: 0xB28F90 Offset: 0xB27590 VA: 0x180B28F90
 	public void set_flags(TileFlags value) { }
 
-	// RVA: 0x231F300 Offset: 0x231D900 VA: 0x18231F300
+	// RVA: 0x231F5C0 Offset: 0x231DBC0 VA: 0x18231F5C0
 	public Tile.ColliderType get_colliderType() { }
 
-	// RVA: 0x144A4D0 Offset: 0x1448AD0 VA: 0x18144A4D0
+	// RVA: 0x144A790 Offset: 0x1448D90 VA: 0x18144A790
 	public void set_colliderType(Tile.ColliderType value) { }
 
-	// RVA: 0x231F1F0 Offset: 0x231D7F0 VA: 0x18231F1F0 Slot: 5
+	// RVA: 0x231F4B0 Offset: 0x231DAB0 VA: 0x18231F4B0 Slot: 5
 	public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData) { }
 
-	// RVA: 0x231F260 Offset: 0x231D860 VA: 0x18231F260
+	// RVA: 0x231F520 Offset: 0x231DB20 VA: 0x18231F520
 	public void .ctor() { }
 
 }

@@ -1,13 +1,13 @@
 public class CannotUnloadAppDomainException : SystemException // TypeDefIndex: 182
 {	// Methods
 
-	// RVA: 0x1561F40 Offset: 0x1560540 VA: 0x181561F40
+	// RVA: 0x1562200 Offset: 0x1560800 VA: 0x181562200
 	public void .ctor() { }
 
-	// RVA: 0x1561FA0 Offset: 0x15605A0 VA: 0x181561FA0
+	// RVA: 0x1562260 Offset: 0x1560860 VA: 0x181562260
 	public void .ctor(string message) { }
 
-	// RVA: 0xFDD150 Offset: 0xFDB750 VA: 0x180FDD150
+	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

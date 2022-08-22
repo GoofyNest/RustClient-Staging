@@ -8,82 +8,82 @@ public class CodeLock : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6306
 
 	// Methods
 
-	// RVA: 0x20AEF40 Offset: 0x20AD540 VA: 0x1820AEF40
+	// RVA: 0x20AF200 Offset: 0x20AD800 VA: 0x1820AF200
 	public static void ResetToPool(CodeLock instance) { }
 
-	// RVA: 0x20AF000 Offset: 0x20AD600 VA: 0x1820AF000
+	// RVA: 0x20AF2C0 Offset: 0x20AD8C0 VA: 0x1820AF2C0
 	public void ResetToPool() { }
 
-	// RVA: 0x20AEDC0 Offset: 0x20AD3C0 VA: 0x1820AEDC0 Slot: 9
+	// RVA: 0x20AF080 Offset: 0x20AD680 VA: 0x1820AF080 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20ADFE0 Offset: 0x20AC5E0 VA: 0x1820ADFE0
+	// RVA: 0x20AE2A0 Offset: 0x20AC8A0 VA: 0x1820AE2A0
 	public void CopyTo(CodeLock instance) { }
 
-	// RVA: 0x20AE0D0 Offset: 0x20AC6D0 VA: 0x1820AE0D0
+	// RVA: 0x20AE390 Offset: 0x20AC990 VA: 0x1820AE390
 	public CodeLock Copy() { }
 
-	// RVA: 0x20AED40 Offset: 0x20AD340 VA: 0x1820AED40
+	// RVA: 0x20AF000 Offset: 0x20AD600 VA: 0x1820AF000
 	public static CodeLock Deserialize(Stream stream) { }
 
-	// RVA: 0x20AE210 Offset: 0x20AC810 VA: 0x1820AE210
+	// RVA: 0x20AE4D0 Offset: 0x20ACAD0 VA: 0x1820AE4D0
 	public static CodeLock DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20AE860 Offset: 0x20ACE60 VA: 0x1820AE860
+	// RVA: 0x20AEB20 Offset: 0x20AD120 VA: 0x1820AEB20
 	public static CodeLock DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20AEC20 Offset: 0x20AD220 VA: 0x1820AEC20
+	// RVA: 0x20AEEE0 Offset: 0x20AD4E0 VA: 0x1820AEEE0
 	public static CodeLock Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20AEF00 Offset: 0x20AD500 VA: 0x1820AEF00
+	// RVA: 0x20AF1C0 Offset: 0x20AD7C0 VA: 0x1820AF1C0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20AF6C0 Offset: 0x20ADCC0 VA: 0x1820AF6C0 Slot: 12
+	// RVA: 0x20AF980 Offset: 0x20ADF80 VA: 0x1820AF980 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20AF6E0 Offset: 0x20ADCE0 VA: 0x1820AF6E0 Slot: 13
+	// RVA: 0x20AF9A0 Offset: 0x20ADFA0 VA: 0x1820AF9A0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, CodeLock previous) { }
 
-	// RVA: 0x20AEF20 Offset: 0x20AD520 VA: 0x1820AEF20 Slot: 14
+	// RVA: 0x20AF1E0 Offset: 0x20AD7E0 VA: 0x1820AF1E0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20AEB20 Offset: 0x20AD120 VA: 0x1820AEB20
+	// RVA: 0x20AEDE0 Offset: 0x20AD3E0 VA: 0x1820AEDE0
 	public static CodeLock Deserialize(byte[] buffer, CodeLock instance, bool isDelta = False) { }
 
-	// RVA: 0x20AE8F0 Offset: 0x20ACEF0 VA: 0x1820AE8F0
+	// RVA: 0x20AEBB0 Offset: 0x20AD1B0 VA: 0x1820AEBB0
 	public static CodeLock Deserialize(Stream stream, CodeLock instance, bool isDelta) { }
 
-	// RVA: 0x20AE290 Offset: 0x20AC890 VA: 0x1820AE290
+	// RVA: 0x20AE550 Offset: 0x20ACB50 VA: 0x1820AE550
 	public static CodeLock DeserializeLengthDelimited(Stream stream, CodeLock instance, bool isDelta) { }
 
-	// RVA: 0x20AE590 Offset: 0x20ACB90 VA: 0x1820AE590
+	// RVA: 0x20AE850 Offset: 0x20ACE50 VA: 0x1820AE850
 	public static CodeLock DeserializeLength(Stream stream, int length, CodeLock instance, bool isDelta) { }
 
-	// RVA: 0x20AF0C0 Offset: 0x20AD6C0 VA: 0x1820AF0C0
+	// RVA: 0x20AF380 Offset: 0x20AD980 VA: 0x1820AF380
 	public static void SerializeDelta(Stream stream, CodeLock instance, CodeLock previous) { }
 
-	// RVA: 0x20AF4A0 Offset: 0x20ADAA0 VA: 0x1820AF4A0
+	// RVA: 0x20AF760 Offset: 0x20ADD60 VA: 0x1820AF760
 	public static void Serialize(Stream stream, CodeLock instance) { }
 
-	// RVA: 0x20AF6B0 Offset: 0x20ADCB0 VA: 0x1820AF6B0
+	// RVA: 0x20AF970 Offset: 0x20ADF70 VA: 0x1820AF970
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20AF6C0 Offset: 0x20ADCC0 VA: 0x1820AF6C0
+	// RVA: 0x20AF980 Offset: 0x20ADF80 VA: 0x1820AF980
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20AF390 Offset: 0x20AD990 VA: 0x1820AF390
+	// RVA: 0x20AF650 Offset: 0x20ADC50 VA: 0x1820AF650
 	public static byte[] SerializeToBytes(CodeLock instance) { }
 
-	// RVA: 0x20AF2E0 Offset: 0x20AD8E0 VA: 0x1820AF2E0
+	// RVA: 0x20AF5A0 Offset: 0x20ADBA0 VA: 0x1820AF5A0
 	public static void SerializeLengthDelimited(Stream stream, CodeLock instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -99,82 +99,82 @@ public class CodeLock.Private : IDisposable, Pool.IPooled, IProto // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x20BE140 Offset: 0x20BC740 VA: 0x1820BE140
+	// RVA: 0x20BE400 Offset: 0x20BCA00 VA: 0x1820BE400
 	public static void ResetToPool(CodeLock.Private instance) { }
 
-	// RVA: 0x20BDFA0 Offset: 0x20BC5A0 VA: 0x1820BDFA0
+	// RVA: 0x20BE260 Offset: 0x20BC860 VA: 0x1820BE260
 	public void ResetToPool() { }
 
-	// RVA: 0x20BDEE0 Offset: 0x20BC4E0 VA: 0x1820BDEE0 Slot: 9
+	// RVA: 0x20BE1A0 Offset: 0x20BC7A0 VA: 0x1820BE1A0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20BC9E0 Offset: 0x20BAFE0 VA: 0x1820BC9E0
+	// RVA: 0x20BCCA0 Offset: 0x20BB2A0 VA: 0x1820BCCA0
 	public void CopyTo(CodeLock.Private instance) { }
 
-	// RVA: 0x20BCC00 Offset: 0x20BB200 VA: 0x1820BCC00
+	// RVA: 0x20BCEC0 Offset: 0x20BB4C0 VA: 0x1820BCEC0
 	public CodeLock.Private Copy() { }
 
-	// RVA: 0x20BD5A0 Offset: 0x20BBBA0 VA: 0x1820BD5A0
+	// RVA: 0x20BD860 Offset: 0x20BBE60 VA: 0x1820BD860
 	public static CodeLock.Private Deserialize(Stream stream) { }
 
-	// RVA: 0x20BD010 Offset: 0x20BB610 VA: 0x1820BD010
+	// RVA: 0x20BD2D0 Offset: 0x20BB8D0 VA: 0x1820BD2D0
 	public static CodeLock.Private DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20BD090 Offset: 0x20BB690 VA: 0x1820BD090
+	// RVA: 0x20BD350 Offset: 0x20BB950 VA: 0x1820BD350
 	public static CodeLock.Private DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20BDB30 Offset: 0x20BC130 VA: 0x1820BDB30
+	// RVA: 0x20BDDF0 Offset: 0x20BC3F0 VA: 0x1820BDDF0
 	public static CodeLock.Private Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20BDF60 Offset: 0x20BC560 VA: 0x1820BDF60
+	// RVA: 0x20BE220 Offset: 0x20BC820 VA: 0x1820BE220
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20BEA20 Offset: 0x20BD020 VA: 0x1820BEA20 Slot: 12
+	// RVA: 0x20BECE0 Offset: 0x20BD2E0 VA: 0x1820BECE0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20BEA40 Offset: 0x20BD040 VA: 0x1820BEA40 Slot: 13
+	// RVA: 0x20BED00 Offset: 0x20BD300 VA: 0x1820BED00 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, CodeLock.Private previous) { }
 
-	// RVA: 0x20BDF80 Offset: 0x20BC580 VA: 0x1820BDF80 Slot: 14
+	// RVA: 0x20BE240 Offset: 0x20BC840 VA: 0x1820BE240 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20BD4A0 Offset: 0x20BBAA0 VA: 0x1820BD4A0
+	// RVA: 0x20BD760 Offset: 0x20BBD60 VA: 0x1820BD760
 	public static CodeLock.Private Deserialize(byte[] buffer, CodeLock.Private instance, bool isDelta = False) { }
 
-	// RVA: 0x20BD880 Offset: 0x20BBE80 VA: 0x1820BD880
+	// RVA: 0x20BDB40 Offset: 0x20BC140 VA: 0x1820BDB40
 	public static CodeLock.Private Deserialize(Stream stream, CodeLock.Private instance, bool isDelta) { }
 
-	// RVA: 0x20BCC80 Offset: 0x20BB280 VA: 0x1820BCC80
+	// RVA: 0x20BCF40 Offset: 0x20BB540 VA: 0x1820BCF40
 	public static CodeLock.Private DeserializeLengthDelimited(Stream stream, CodeLock.Private instance, bool isDelta) { }
 
-	// RVA: 0x20BD120 Offset: 0x20BB720 VA: 0x1820BD120
+	// RVA: 0x20BD3E0 Offset: 0x20BB9E0 VA: 0x1820BD3E0
 	public static CodeLock.Private DeserializeLength(Stream stream, int length, CodeLock.Private instance, bool isDelta) { }
 
-	// RVA: 0x20BE2E0 Offset: 0x20BC8E0 VA: 0x1820BE2E0
+	// RVA: 0x20BE5A0 Offset: 0x20BCBA0 VA: 0x1820BE5A0
 	public static void SerializeDelta(Stream stream, CodeLock.Private instance, CodeLock.Private previous) { }
 
-	// RVA: 0x20BE770 Offset: 0x20BCD70 VA: 0x1820BE770
+	// RVA: 0x20BEA30 Offset: 0x20BD030 VA: 0x1820BEA30
 	public static void Serialize(Stream stream, CodeLock.Private instance) { }
 
-	// RVA: 0x20BEA10 Offset: 0x20BD010 VA: 0x1820BEA10
+	// RVA: 0x20BECD0 Offset: 0x20BD2D0 VA: 0x1820BECD0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20BEA20 Offset: 0x20BD020 VA: 0x1820BEA20
+	// RVA: 0x20BECE0 Offset: 0x20BD2E0 VA: 0x1820BECE0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20BE660 Offset: 0x20BCC60 VA: 0x1820BE660
+	// RVA: 0x20BE920 Offset: 0x20BCF20 VA: 0x1820BE920
 	public static byte[] SerializeToBytes(CodeLock.Private instance) { }
 
-	// RVA: 0x20BE5B0 Offset: 0x20BCBB0 VA: 0x1820BE5B0
+	// RVA: 0x20BE870 Offset: 0x20BCE70 VA: 0x1820BE870
 	public static void SerializeLengthDelimited(Stream stream, CodeLock.Private instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

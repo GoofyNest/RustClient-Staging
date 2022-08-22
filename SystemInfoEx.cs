@@ -7,13 +7,13 @@ public static class SystemInfoEx // TypeDefIndex: 9291
 
 	// Methods
 
-	// RVA: 0x7A7560 Offset: 0x7A5B60 VA: 0x1807A7560
+	// RVA: 0x7A7670 Offset: 0x7A5C70 VA: 0x1807A7670
 	private static extern ulong System_GetMemoryUsage() { }
 
-	// RVA: 0x7A75D0 Offset: 0x7A5BD0 VA: 0x1807A75D0
+	// RVA: 0x7A76E0 Offset: 0x7A5CE0 VA: 0x1807A76E0
 	public static int get_systemMemoryUsed() { }
 
-	// RVA: 0x7A7280 Offset: 0x7A5880 VA: 0x1807A7280
+	// RVA: 0x7A7390 Offset: 0x7A5990 VA: 0x1807A7390
 	public static bool SupportsRenderTextureFormat(RenderTextureFormat format) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

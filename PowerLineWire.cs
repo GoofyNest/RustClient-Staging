@@ -6,16 +6,16 @@ public class PowerLineWire : MonoBehaviour // TypeDefIndex: 10368
 
 	// Methods
 
-	// RVA: 0x99E530 Offset: 0x99CB30 VA: 0x18099E530
+	// RVA: 0x99E640 Offset: 0x99CC40 VA: 0x18099E640
 	public void Copy(PowerLineWire from, PowerLineWireConnectionHelper helper) { }
 
-	// RVA: 0x99E850 Offset: 0x99CE50 VA: 0x18099E850
+	// RVA: 0x99E960 Offset: 0x99CF60 VA: 0x18099E960
 	public static PowerLineWire Create(PowerLineWire wire, List<GameObject> objs, GameObjectRef wirePrefab, string name, PowerLineWire copyfrom, float wiresize, float str) { }
 
-	// RVA: 0x99EDA0 Offset: 0x99D3A0 VA: 0x18099EDA0
+	// RVA: 0x99EEB0 Offset: 0x99D4B0 VA: 0x18099EEB0
 	public void Init() { }
 
-	// RVA: 0x99F0C0 Offset: 0x99D6C0 VA: 0x18099F0C0
+	// RVA: 0x99F1D0 Offset: 0x99D7D0 VA: 0x18099F1D0
 	public void .ctor() { }
 
 }

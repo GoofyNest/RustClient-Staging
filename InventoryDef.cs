@@ -20,46 +20,46 @@ public class InventoryDef : IEquatable<InventoryDef> // TypeDefIndex: 5239
 
 	// Methods
 
-	// RVA: 0xDE0CE0 Offset: 0xDDF2E0 VA: 0x180DE0CE0
+	// RVA: 0xDE0FA0 Offset: 0xDDF5A0 VA: 0x180DE0FA0
 	public void .ctor(InventoryDefId defId) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public int get_Id() { }
 
-	// RVA: 0xDE1080 Offset: 0xDDF680 VA: 0x180DE1080
+	// RVA: 0xDE1340 Offset: 0xDDF940 VA: 0x180DE1340
 	public string get_Name() { }
 
-	// RVA: 0xDE0D10 Offset: 0xDDF310 VA: 0x180DE0D10
+	// RVA: 0xDE0FD0 Offset: 0xDDF5D0 VA: 0x180DE0FD0
 	public string get_Description() { }
 
-	// RVA: 0xDE0DD0 Offset: 0xDDF3D0 VA: 0x180DE0DD0
+	// RVA: 0xDE1090 Offset: 0xDDF690 VA: 0x180DE1090
 	public string get_IconUrl() { }
 
-	// RVA: 0xDE0D90 Offset: 0xDDF390 VA: 0x180DE0D90
+	// RVA: 0xDE1050 Offset: 0xDDF650 VA: 0x180DE1050
 	public string get_IconUrlLarge() { }
 
-	// RVA: 0xDE10C0 Offset: 0xDDF6C0 VA: 0x180DE10C0
+	// RVA: 0xDE1380 Offset: 0xDDF980 VA: 0x180DE1380
 	public string get_PriceCategory() { }
 
-	// RVA: 0xDE1100 Offset: 0xDDF700 VA: 0x180DE1100
+	// RVA: 0xDE13C0 Offset: 0xDDF9C0 VA: 0x180DE13C0
 	public string get_Type() { }
 
-	// RVA: 0xDE0E10 Offset: 0xDDF410 VA: 0x180DE0E10
+	// RVA: 0xDE10D0 Offset: 0xDDF6D0 VA: 0x180DE10D0
 	public bool get_IsGenerator() { }
 
-	// RVA: 0xDE0D50 Offset: 0xDDF350 VA: 0x180DE0D50
+	// RVA: 0xDE1010 Offset: 0xDDF610 VA: 0x180DE1010
 	public string get_ExchangeSchema() { }
 
-	// RVA: 0xDE0B20 Offset: 0xDDF120 VA: 0x180DE0B20
+	// RVA: 0xDE0DE0 Offset: 0xDDF3E0 VA: 0x180DE0DE0
 	public InventoryRecipe[] GetRecipes() { }
 
-	// RVA: 0xDE0FE0 Offset: 0xDDF5E0 VA: 0x180DE0FE0
+	// RVA: 0xDE12A0 Offset: 0xDDF8A0 VA: 0x180DE12A0
 	public bool get_Marketable() { }
 
-	// RVA: 0xDE06D0 Offset: 0xDDECD0 VA: 0x180DE06D0
+	// RVA: 0xDE0990 Offset: 0xDDEF90 VA: 0x180DE0990
 	public string GetProperty(string name) { }
 
-	// RVA: 0xDE0640 Offset: 0xDDEC40 VA: 0x180DE0640
+	// RVA: 0xDE0900 Offset: 0xDDEF00 VA: 0x180DE0900
 	public bool GetBoolProperty(string name) { }
 
 	// RVA: -1 Offset: -1
@@ -74,36 +74,36 @@ public class InventoryDef : IEquatable<InventoryDef> // TypeDefIndex: 5239
 	|-InventoryDef.GetProperty<ulong>
 	*/
 
-	// RVA: 0xDE0F70 Offset: 0xDDF570 VA: 0x180DE0F70
+	// RVA: 0xDE1230 Offset: 0xDDF830 VA: 0x180DE1230
 	public int get_LocalPrice() { }
 
-	// RVA: 0xDE0E80 Offset: 0xDDF480 VA: 0x180DE0E80
+	// RVA: 0xDE1140 Offset: 0xDDF740 VA: 0x180DE1140
 	public string get_LocalPriceFormatted() { }
 
-	// RVA: 0xDE0810 Offset: 0xDDEE10 VA: 0x180DE0810
+	// RVA: 0xDE0AD0 Offset: 0xDDF0D0 VA: 0x180DE0AD0
 	public InventoryRecipe[] GetRecipesContainingThis() { }
 
-	// RVA: 0xDE1140 Offset: 0xDDF740 VA: 0x180DE1140
+	// RVA: 0xDE1400 Offset: 0xDDFA00 VA: 0x180DE1400
 	public static bool op_Equality(InventoryDef a, InventoryDef b) { }
 
-	// RVA: 0xDE11B0 Offset: 0xDDF7B0 VA: 0x180DE11B0
+	// RVA: 0xDE1470 Offset: 0xDDFA70 VA: 0x180DE1470
 	public static bool op_Inequality(InventoryDef a, InventoryDef b) { }
 
-	// RVA: 0xDE0530 Offset: 0xDDEB30 VA: 0x180DE0530 Slot: 0
+	// RVA: 0xDE07F0 Offset: 0xDDEDF0 VA: 0x180DE07F0 Slot: 0
 	public override bool Equals(object p) { }
 
-	// RVA: 0xDE06B0 Offset: 0xDDECB0 VA: 0x180DE06B0 Slot: 2
+	// RVA: 0xDE0970 Offset: 0xDDEF70 VA: 0x180DE0970 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0xDE05F0 Offset: 0xDDEBF0 VA: 0x180DE05F0 Slot: 4
+	// RVA: 0xDE08B0 Offset: 0xDDEEB0 VA: 0x180DE08B0 Slot: 4
 	public bool Equals(InventoryDef p) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDE0CA0 Offset: 0xDDF2A0 VA: 0x180DE0CA0
+	// RVA: 0xDE0F60 Offset: 0xDDF560 VA: 0x180DE0F60
 	private InventoryRecipe <GetRecipes>b__21_0(string x) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDE0C80 Offset: 0xDDF280 VA: 0x180DE0C80
+	// RVA: 0xDE0F40 Offset: 0xDDF540 VA: 0x180DE0F40
 	private bool <GetRecipesContainingThis>b__44_3(InventoryRecipe x) { }
 
 }
@@ -117,19 +117,19 @@ private sealed class InventoryDef.<>c // TypeDefIndex: 5240
 
 	// Methods
 
-	// RVA: 0xDF0400 Offset: 0xDEEA00 VA: 0x180DF0400
+	// RVA: 0xDF06C0 Offset: 0xDEECC0 VA: 0x180DF06C0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xDEF3A0 Offset: 0xDED9A0 VA: 0x180DEF3A0
+	// RVA: 0xDEF660 Offset: 0xDEDC60 VA: 0x180DEF660
 	internal InventoryRecipe[] <GetRecipesContainingThis>b__44_0(InventoryDef x) { }
 
-	// RVA: 0xDEF510 Offset: 0xDEDB10 VA: 0x180DEF510
+	// RVA: 0xDEF7D0 Offset: 0xDEDDD0 VA: 0x180DEF7D0
 	internal bool <GetRecipesContainingThis>b__44_1(InventoryRecipe[] x) { }
 
-	// RVA: 0x7B4E80 Offset: 0x7B3480 VA: 0x1807B4E80
+	// RVA: 0x7B4F90 Offset: 0x7B3590 VA: 0x1807B4F90
 	internal IEnumerable<InventoryRecipe> <GetRecipesContainingThis>b__44_2(InventoryRecipe[] x) { }
 
 }

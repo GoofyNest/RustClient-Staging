@@ -28,7 +28,7 @@ public class TirednessAboveAIEvent : BaseAIEvent // TypeDefIndex: 9421
 	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
 	private void set_Value(float value) { }
 
-	// RVA: 0x88BBB0 Offset: 0x88A1B0 VA: 0x18088BBB0
+	// RVA: 0x88BCC0 Offset: 0x88A2C0 VA: 0x18088BCC0
 	public void .ctor() { }
 
 }

@@ -14,7 +14,7 @@ internal class RepaintData // TypeDefIndex: 4598
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEB99D0 Offset: 0xEB7FD0 VA: 0x180EB99D0
+	// RVA: 0xEB9C90 Offset: 0xEB8290 VA: 0x180EB9C90
 	public Matrix4x4 get_currentOffset() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

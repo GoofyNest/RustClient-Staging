@@ -12,7 +12,7 @@ public class TorpedoServerProjectile : ServerProjectile // TypeDefIndex: 9613
 
 	// Methods
 
-	// RVA: 0xA0AE50 Offset: 0xA09450 VA: 0x180A0AE50
+	// RVA: 0xA0B110 Offset: 0xA09710 VA: 0x180A0B110
 	public void .ctor() { }
 
 }

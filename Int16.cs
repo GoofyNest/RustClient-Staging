@@ -33,19 +33,19 @@ public struct Int16 : IComparable, IFormattable, IConvertible, IComparable<short
 	// RVA: 0x1FA970 Offset: 0x1F9D70 VA: 0x1801FA970
 	private string ToString(string format, NumberFormatInfo info) { }
 
-	// RVA: 0x1672090 Offset: 0x1670690 VA: 0x181672090
+	// RVA: 0x1672350 Offset: 0x1670950 VA: 0x181672350
 	public static short Parse(string s, IFormatProvider provider) { }
 
-	// RVA: 0x16720C0 Offset: 0x16706C0 VA: 0x1816720C0
+	// RVA: 0x1672380 Offset: 0x1670980 VA: 0x181672380
 	public static short Parse(string s, NumberStyles style, IFormatProvider provider) { }
 
-	// RVA: 0x1672110 Offset: 0x1670710 VA: 0x181672110
+	// RVA: 0x16723D0 Offset: 0x16709D0 VA: 0x1816723D0
 	private static short Parse(string s, NumberStyles style, NumberFormatInfo info) { }
 
-	// RVA: 0x1672620 Offset: 0x1670C20 VA: 0x181672620
+	// RVA: 0x16728E0 Offset: 0x1670EE0 VA: 0x1816728E0
 	public static bool TryParse(string s, NumberStyles style, IFormatProvider provider, out short result) { }
 
-	// RVA: 0x16725A0 Offset: 0x1670BA0 VA: 0x1816725A0
+	// RVA: 0x1672860 Offset: 0x1670E60 VA: 0x181672860
 	private static bool TryParse(string s, NumberStyles style, NumberFormatInfo info, out short result) { }
 
 	// RVA: 0x1FA3F0 Offset: 0x1F97F0 VA: 0x1801FA3F0 Slot: 6

@@ -93,59 +93,59 @@ public class BaseNavigator : BaseMonoBehaviour // TypeDefIndex: 8945
 	// RVA: 0x574410 Offset: 0x572A10 VA: 0x180574410
 	public void set_AStarGraph(BasePath value) { }
 
-	// RVA: 0xA4D020 Offset: 0xA4B620 VA: 0x180A4D020
+	// RVA: 0xA4D2E0 Offset: 0xA4B8E0 VA: 0x180A4D2E0
 	public int TopologyPreference() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9921A0 Offset: 0x9907A0 VA: 0x1809921A0
+	// RVA: 0x9922B0 Offset: 0x9908B0 VA: 0x1809922B0
 	public NavMeshAgent get_Agent() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D220 Offset: 0xA4B820 VA: 0x180A4D220
+	// RVA: 0xA4D4E0 Offset: 0xA4BAE0 VA: 0x180A4D4E0
 	private void set_Agent(NavMeshAgent value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7ACF70 Offset: 0x7AB570 VA: 0x1807ACF70
+	// RVA: 0x7AD080 Offset: 0x7AB680 VA: 0x1807AD080
 	public BaseCombatEntity get_BaseEntity() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D230 Offset: 0xA4B830 VA: 0x180A4D230
+	// RVA: 0xA4D4F0 Offset: 0xA4BAF0 VA: 0x180A4D4F0
 	private void set_BaseEntity(BaseCombatEntity value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D1A0 Offset: 0xA4B7A0 VA: 0x180A4D1A0
+	// RVA: 0xA4D460 Offset: 0xA4BA60 VA: 0x180A4D460
 	public Vector3 get_Destination() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D250 Offset: 0xA4B850 VA: 0x180A4D250
+	// RVA: 0xA4D510 Offset: 0xA4BB10 VA: 0x180A4D510
 	protected void set_Destination(Vector3 value) { }
 
-	// RVA: 0xA4D1C0 Offset: 0xA4B7C0 VA: 0x180A4D1C0 Slot: 6
+	// RVA: 0xA4D480 Offset: 0xA4BA80 VA: 0x180A4D480 Slot: 6
 	public virtual bool get_IsOnNavMeshLink() { }
 
-	// RVA: 0xA4D210 Offset: 0xA4B810 VA: 0x180A4D210
+	// RVA: 0xA4D4D0 Offset: 0xA4BAD0 VA: 0x180A4D4D0
 	public bool get_Moving() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D190 Offset: 0xA4B790 VA: 0x180A4D190
+	// RVA: 0xA4D450 Offset: 0xA4BA50 VA: 0x180A4D450
 	public BaseNavigator.NavigationType get_CurrentNavigationType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D240 Offset: 0xA4B840 VA: 0x180A4D240
+	// RVA: 0xA4D500 Offset: 0xA4BB00 VA: 0x180A4D500
 	private void set_CurrentNavigationType(BaseNavigator.NavigationType value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x887950 Offset: 0x885F50 VA: 0x180887950
+	// RVA: 0x887A60 Offset: 0x886060 VA: 0x180887A60
 	public BaseNavigator.NavigationType get_LastUsedNavigationType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7425E0 Offset: 0x740BE0 VA: 0x1807425E0
+	// RVA: 0x7426F0 Offset: 0x740CF0 VA: 0x1807426F0
 	private void set_LastUsedNavigationType(BaseNavigator.NavigationType value) { }
 
-	// RVA: 0xA4D0C0 Offset: 0xA4B6C0 VA: 0x180A4D0C0
+	// RVA: 0xA4D380 Offset: 0xA4B980 VA: 0x180A4D380
 	public void .ctor() { }
 
-	// RVA: 0xA4D030 Offset: 0xA4B630 VA: 0x180A4D030
+	// RVA: 0xA4D2F0 Offset: 0xA4B8F0 VA: 0x180A4D2F0
 	private static void .cctor() { }
 
 }

@@ -7,10 +7,10 @@ public sealed class NotEnoughBytesException : MidiException // TypeDefIndex: 757
 
 	// Methods
 
-	// RVA: 0x13A07E0 Offset: 0x139EDE0 VA: 0x1813A07E0
+	// RVA: 0x13A0AA0 Offset: 0x139F0A0 VA: 0x1813A0AA0
 	internal void .ctor(string message, Exception innerException) { }
 
-	// RVA: 0x13A3AC0 Offset: 0x13A20C0 VA: 0x1813A3AC0
+	// RVA: 0x13A3D80 Offset: 0x13A2380 VA: 0x1813A3D80
 	internal void .ctor(string message, long expectedCount, long actualCount) { }
 
 }

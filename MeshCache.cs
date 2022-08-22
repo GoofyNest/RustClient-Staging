@@ -4,10 +4,10 @@ public static class MeshCache // TypeDefIndex: 9153
 
 	// Methods
 
-	// RVA: 0x95FA10 Offset: 0x95E010 VA: 0x18095FA10
+	// RVA: 0x95FB20 Offset: 0x95E120 VA: 0x18095FB20
 	public static MeshCache.Data Get(Mesh mesh) { }
 
-	// RVA: 0x95FCA0 Offset: 0x95E2A0 VA: 0x18095FCA0
+	// RVA: 0x95FDB0 Offset: 0x95E3B0 VA: 0x18095FDB0
 	private static void .cctor() { }
 
 }

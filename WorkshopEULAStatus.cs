@@ -20,7 +20,7 @@ internal struct WorkshopEULAStatus_t : ICallbackData // TypeDefIndex: 5448
 	// RVA: 0x1DC9E0 Offset: 0x1DBDE0 VA: 0x1801DC9E0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1292150 Offset: 0x1290750 VA: 0x181292150
+	// RVA: 0x1292410 Offset: 0x1290A10 VA: 0x181292410
 	private static void .cctor() { }
 
 }

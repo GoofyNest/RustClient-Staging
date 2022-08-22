@@ -4,10 +4,10 @@ public class InternalRemotingServices // TypeDefIndex: 1135
 
 	// Methods
 
-	// RVA: 0x14784D0 Offset: 0x1476AD0 VA: 0x1814784D0
+	// RVA: 0x1478790 Offset: 0x1476D90 VA: 0x181478790
 	public static SoapAttribute GetCachedSoapAttribute(object reflectionObject) { }
 
-	// RVA: 0x1478A00 Offset: 0x1477000 VA: 0x181478A00
+	// RVA: 0x1478CC0 Offset: 0x14772C0 VA: 0x181478CC0
 	private static void .cctor() { }
 
 }

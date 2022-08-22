@@ -5,7 +5,7 @@ public static class LazyInitializer // TypeDefIndex: 757
 	public static T EnsureInitialized<T>(ref T target, Func<T> valueFactory) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBDFF50 Offset: 0xBDE550 VA: 0x180BDFF50
+	|-RVA: 0xBE0210 Offset: 0xBDE810 VA: 0x180BE0210
 	|-LazyInitializer.EnsureInitialized<object>
 	|-LazyInitializer.EnsureInitialized<ManualResetEvent>
 	|-LazyInitializer.EnsureInitialized<SemaphoreSlim>
@@ -16,7 +16,7 @@ public static class LazyInitializer // TypeDefIndex: 757
 	private static T EnsureInitializedCore<T>(ref T target, Func<T> valueFactory) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBDFE90 Offset: 0xBDE490 VA: 0x180BDFE90
+	|-RVA: 0xBE0150 Offset: 0xBDE750 VA: 0x180BE0150
 	|-LazyInitializer.EnsureInitializedCore<object>
 	*/
 

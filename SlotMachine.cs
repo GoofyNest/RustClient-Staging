@@ -15,82 +15,82 @@ public class SlotMachine : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 64
 
 	// Methods
 
-	// RVA: 0x1DB0BD0 Offset: 0x1DAF1D0 VA: 0x181DB0BD0
+	// RVA: 0x1DB0E90 Offset: 0x1DAF490 VA: 0x181DB0E90
 	public static void ResetToPool(SlotMachine instance) { }
 
-	// RVA: 0x1DB0CD0 Offset: 0x1DAF2D0 VA: 0x181DB0CD0
+	// RVA: 0x1DB0F90 Offset: 0x1DAF590 VA: 0x181DB0F90
 	public void ResetToPool() { }
 
-	// RVA: 0x1DB0680 Offset: 0x1DAEC80 VA: 0x181DB0680 Slot: 9
+	// RVA: 0x1DB0940 Offset: 0x1DAEF40 VA: 0x181DB0940 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DAEAA0 Offset: 0x1DAD0A0 VA: 0x181DAEAA0
+	// RVA: 0x1DAED60 Offset: 0x1DAD360 VA: 0x181DAED60
 	public void CopyTo(SlotMachine instance) { }
 
-	// RVA: 0x1DAEB00 Offset: 0x1DAD100 VA: 0x181DAEB00
+	// RVA: 0x1DAEDC0 Offset: 0x1DAD3C0 VA: 0x181DAEDC0
 	public SlotMachine Copy() { }
 
-	// RVA: 0x1DAFA60 Offset: 0x1DAE060 VA: 0x181DAFA60
+	// RVA: 0x1DAFD20 Offset: 0x1DAE320 VA: 0x181DAFD20
 	public static SlotMachine Deserialize(Stream stream) { }
 
-	// RVA: 0x1DAEBB0 Offset: 0x1DAD1B0 VA: 0x181DAEBB0
+	// RVA: 0x1DAEE70 Offset: 0x1DAD470 VA: 0x181DAEE70
 	public static SlotMachine DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DAF0B0 Offset: 0x1DAD6B0 VA: 0x181DAF0B0
+	// RVA: 0x1DAF370 Offset: 0x1DAD970 VA: 0x181DAF370
 	public static SlotMachine DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DAF5A0 Offset: 0x1DADBA0 VA: 0x181DAF5A0
+	// RVA: 0x1DAF860 Offset: 0x1DADE60 VA: 0x181DAF860
 	public static SlotMachine Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DB0810 Offset: 0x1DAEE10 VA: 0x181DB0810
+	// RVA: 0x1DB0AD0 Offset: 0x1DAF0D0 VA: 0x181DB0AD0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DB15D0 Offset: 0x1DAFBD0 VA: 0x181DB15D0 Slot: 12
+	// RVA: 0x1DB1890 Offset: 0x1DAFE90 VA: 0x181DB1890 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DB15F0 Offset: 0x1DAFBF0 VA: 0x181DB15F0 Slot: 13
+	// RVA: 0x1DB18B0 Offset: 0x1DAFEB0 VA: 0x181DB18B0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, SlotMachine previous) { }
 
-	// RVA: 0x1DB0BB0 Offset: 0x1DAF1B0 VA: 0x181DB0BB0 Slot: 14
+	// RVA: 0x1DB0E70 Offset: 0x1DAF470 VA: 0x181DB0E70 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DAFE40 Offset: 0x1DAE440 VA: 0x181DAFE40
+	// RVA: 0x1DB0100 Offset: 0x1DAE700 VA: 0x181DB0100
 	public static SlotMachine Deserialize(byte[] buffer, SlotMachine instance, bool isDelta = False) { }
 
-	// RVA: 0x1DB02E0 Offset: 0x1DAE8E0 VA: 0x181DB02E0
+	// RVA: 0x1DB05A0 Offset: 0x1DAEBA0 VA: 0x181DB05A0
 	public static SlotMachine Deserialize(Stream stream, SlotMachine instance, bool isDelta) { }
 
-	// RVA: 0x1DAEC30 Offset: 0x1DAD230 VA: 0x181DAEC30
+	// RVA: 0x1DAEEF0 Offset: 0x1DAD4F0 VA: 0x181DAEEF0
 	public static SlotMachine DeserializeLengthDelimited(Stream stream, SlotMachine instance, bool isDelta) { }
 
-	// RVA: 0x1DAF140 Offset: 0x1DAD740 VA: 0x181DAF140
+	// RVA: 0x1DAF400 Offset: 0x1DADA00 VA: 0x181DAF400
 	public static SlotMachine DeserializeLength(Stream stream, int length, SlotMachine instance, bool isDelta) { }
 
-	// RVA: 0x1DB0DD0 Offset: 0x1DAF3D0 VA: 0x181DB0DD0
+	// RVA: 0x1DB1090 Offset: 0x1DAF690 VA: 0x181DB1090
 	public static void SerializeDelta(Stream stream, SlotMachine instance, SlotMachine previous) { }
 
-	// RVA: 0x1DB13A0 Offset: 0x1DAF9A0 VA: 0x181DB13A0
+	// RVA: 0x1DB1660 Offset: 0x1DAFC60 VA: 0x181DB1660
 	public static void Serialize(Stream stream, SlotMachine instance) { }
 
-	// RVA: 0x1DB15C0 Offset: 0x1DAFBC0 VA: 0x181DB15C0
+	// RVA: 0x1DB1880 Offset: 0x1DAFE80 VA: 0x181DB1880
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DB15D0 Offset: 0x1DAFBD0 VA: 0x181DB15D0
+	// RVA: 0x1DB1890 Offset: 0x1DAFE90 VA: 0x181DB1890
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DB1290 Offset: 0x1DAF890 VA: 0x181DB1290
+	// RVA: 0x1DB1550 Offset: 0x1DAFB50 VA: 0x181DB1550
 	public static byte[] SerializeToBytes(SlotMachine instance) { }
 
-	// RVA: 0x1DB11E0 Offset: 0x1DAF7E0 VA: 0x181DB11E0
+	// RVA: 0x1DB14A0 Offset: 0x1DAFAA0 VA: 0x181DB14A0
 	public static void SerializeLengthDelimited(Stream stream, SlotMachine instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

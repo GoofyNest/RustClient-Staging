@@ -10,16 +10,16 @@ public class Authorization // TypeDefIndex: 2870
 
 	// Methods
 
-	// RVA: 0x151F230 Offset: 0x151D830 VA: 0x18151F230
+	// RVA: 0x151F4F0 Offset: 0x151DAF0 VA: 0x18151F4F0
 	public void .ctor(string token) { }
 
-	// RVA: 0x151F2B0 Offset: 0x151D8B0 VA: 0x18151F2B0
+	// RVA: 0x151F570 Offset: 0x151DB70 VA: 0x18151F570
 	public void .ctor(string token, bool finished) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public string get_Message() { }
 
-	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
+	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
 	public bool get_Complete() { }
 
 }

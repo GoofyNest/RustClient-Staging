@@ -26,28 +26,28 @@ public class FirecrackerRepeater : BaseMonoBehaviour, IClientComponent // TypeDe
 
 	// Methods
 
-	// RVA: 0x789940 Offset: 0x787F40 VA: 0x180789940
+	// RVA: 0x789A50 Offset: 0x788050 VA: 0x180789A50
 	private void Start() { }
 
-	// RVA: 0x7895A0 Offset: 0x787BA0 VA: 0x1807895A0
+	// RVA: 0x7896B0 Offset: 0x787CB0 VA: 0x1807896B0
 	public void OnDestroy() { }
 
-	// RVA: 0x789160 Offset: 0x787760 VA: 0x180789160
+	// RVA: 0x789270 Offset: 0x787870 VA: 0x180789270
 	public void Begin() { }
 
-	// RVA: 0x789500 Offset: 0x787B00 VA: 0x180789500
+	// RVA: 0x789610 Offset: 0x787C10 VA: 0x180789610
 	public float GetProgress() { }
 
-	// RVA: 0x789BE0 Offset: 0x7881E0 VA: 0x180789BE0
+	// RVA: 0x789CF0 Offset: 0x7882F0 VA: 0x180789CF0
 	public void Update() { }
 
-	// RVA: 0x789600 Offset: 0x787C00 VA: 0x180789600
+	// RVA: 0x789710 Offset: 0x787D10 VA: 0x180789710
 	public void SetTwistAmount(int index, Vector3 twistAmountToUse) { }
 
-	// RVA: 0x7891A0 Offset: 0x7877A0 VA: 0x1807891A0
+	// RVA: 0x7892B0 Offset: 0x7878B0 VA: 0x1807892B0
 	public void Explode() { }
 
-	// RVA: 0x789FB0 Offset: 0x7885B0 VA: 0x180789FB0
+	// RVA: 0x78A0C0 Offset: 0x7886C0 VA: 0x18078A0C0
 	public void .ctor() { }
 
 }

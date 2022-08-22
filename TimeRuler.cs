@@ -7,13 +7,13 @@ public class TimeRuler : RustControl // TypeDefIndex: 7039
 
 	// Methods
 
-	// RVA: 0xFD4B00 Offset: 0xFD3100 VA: 0x180FD4B00
+	// RVA: 0xFD4DC0 Offset: 0xFD33C0 VA: 0x180FD4DC0
 	public void Rebuild() { }
 
-	// RVA: 0xFD51A0 Offset: 0xFD37A0 VA: 0x180FD51A0
+	// RVA: 0xFD5460 Offset: 0xFD3A60 VA: 0x180FD5460
 	public float TimeToPos(int time) { }
 
-	// RVA: 0xFD5260 Offset: 0xFD3860 VA: 0x180FD5260
+	// RVA: 0xFD5520 Offset: 0xFD3B20 VA: 0x180FD5520
 	public void .ctor() { }
 
 }

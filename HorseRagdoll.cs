@@ -12,22 +12,22 @@ public class HorseRagdoll : AnimalRagdoll // TypeDefIndex: 8928
 
 	// Methods
 
-	// RVA: 0x7425E0 Offset: 0x740BE0 VA: 0x1807425E0
+	// RVA: 0x7426F0 Offset: 0x740CF0 VA: 0x1807426F0
 	public void SetBreedIndex(int newIndex) { }
 
-	// RVA: 0x742600 Offset: 0x740C00 VA: 0x180742600
+	// RVA: 0x742710 Offset: 0x740D10 VA: 0x180742710
 	public void SetShowHair(bool wants) { }
 
-	// RVA: 0x7425F0 Offset: 0x740BF0 VA: 0x1807425F0
+	// RVA: 0x742700 Offset: 0x740D00 VA: 0x180742700
 	public void SetShowArmor(bool showWood, bool showRoadsign) { }
 
-	// RVA: 0x7423A0 Offset: 0x7409A0 VA: 0x1807423A0 Slot: 7
+	// RVA: 0x7424B0 Offset: 0x740AB0 VA: 0x1807424B0 Slot: 7
 	public override void Init() { }
 
-	// RVA: 0x742610 Offset: 0x740C10 VA: 0x180742610
+	// RVA: 0x742720 Offset: 0x740D20 VA: 0x180742720
 	public void UpdateVisuals() { }
 
-	// RVA: 0x742800 Offset: 0x740E00 VA: 0x180742800
+	// RVA: 0x742910 Offset: 0x740F10 VA: 0x180742910
 	public void .ctor() { }
 
 }

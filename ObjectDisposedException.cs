@@ -8,25 +8,25 @@ public class ObjectDisposedException : InvalidOperationException // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x16833A0 Offset: 0x16819A0 VA: 0x1816833A0
+	// RVA: 0x1683660 Offset: 0x1681C60 VA: 0x181683660
 	private void .ctor() { }
 
-	// RVA: 0x16834B0 Offset: 0x1681AB0 VA: 0x1816834B0
+	// RVA: 0x1683770 Offset: 0x1681D70 VA: 0x181683770
 	public void .ctor(string objectName) { }
 
-	// RVA: 0x1683340 Offset: 0x1681940 VA: 0x181683340
+	// RVA: 0x1683600 Offset: 0x1681C00 VA: 0x181683600
 	public void .ctor(string objectName, string message) { }
 
-	// RVA: 0x1683540 Offset: 0x1681B40 VA: 0x181683540 Slot: 5
+	// RVA: 0x1683800 Offset: 0x1681E00 VA: 0x181683800 Slot: 5
 	public override string get_Message() { }
 
-	// RVA: 0x16836A0 Offset: 0x1681CA0 VA: 0x1816836A0
+	// RVA: 0x1683960 Offset: 0x1681F60 VA: 0x181683960
 	public string get_ObjectName() { }
 
-	// RVA: 0x1683420 Offset: 0x1681A20 VA: 0x181683420
+	// RVA: 0x16836E0 Offset: 0x1681CE0 VA: 0x1816836E0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1683230 Offset: 0x1681830 VA: 0x181683230 Slot: 10
+	// RVA: 0x16834F0 Offset: 0x1681AF0 VA: 0x1816834F0 Slot: 10
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 }

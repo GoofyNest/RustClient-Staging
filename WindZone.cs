@@ -9,25 +9,25 @@ public class WindZone : Component // TypeDefIndex: 4790
 
 	// Methods
 
-	// RVA: 0x2322F40 Offset: 0x2321540 VA: 0x182322F40
+	// RVA: 0x2323200 Offset: 0x2321800 VA: 0x182323200
 	public WindZoneMode get_mode() { }
 
-	// RVA: 0x2322F80 Offset: 0x2321580 VA: 0x182322F80
+	// RVA: 0x2323240 Offset: 0x2321840 VA: 0x182323240
 	public float get_radius() { }
 
-	// RVA: 0x2322FC0 Offset: 0x23215C0 VA: 0x182322FC0
+	// RVA: 0x2323280 Offset: 0x2321880 VA: 0x182323280
 	public float get_windMain() { }
 
-	// RVA: 0x23230C0 Offset: 0x23216C0 VA: 0x1823230C0
+	// RVA: 0x2323380 Offset: 0x2321980 VA: 0x182323380
 	public void set_windMain(float value) { }
 
-	// RVA: 0x2323080 Offset: 0x2321680 VA: 0x182323080
+	// RVA: 0x2323340 Offset: 0x2321940 VA: 0x182323340
 	public float get_windTurbulence() { }
 
-	// RVA: 0x2323040 Offset: 0x2321640 VA: 0x182323040
+	// RVA: 0x2323300 Offset: 0x2321900 VA: 0x182323300
 	public float get_windPulseMagnitude() { }
 
-	// RVA: 0x2323000 Offset: 0x2321600 VA: 0x182323000
+	// RVA: 0x23232C0 Offset: 0x23218C0 VA: 0x1823232C0
 	public float get_windPulseFrequency() { }
 
 }

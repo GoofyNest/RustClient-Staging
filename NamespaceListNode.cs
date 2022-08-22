@@ -8,19 +8,19 @@ internal class NamespaceListNode : SyntaxTreeNode // TypeDefIndex: 2158
 
 	// Methods
 
-	// RVA: 0x7ED280 Offset: 0x7EB880 VA: 0x1807ED280
+	// RVA: 0x7ED390 Offset: 0x7EB990 VA: 0x1807ED390
 	public void .ctor(NamespaceList namespaceList, object particle) { }
 
-	// RVA: 0xB11910 Offset: 0xB0FF10 VA: 0x180B11910 Slot: 8
+	// RVA: 0xB11BD0 Offset: 0xB101D0 VA: 0x180B11BD0 Slot: 8
 	public virtual ICollection GetResolvedSymbols(SymbolsDictionary symbols) { }
 
-	// RVA: 0xB11610 Offset: 0xB0FC10 VA: 0x180B11610 Slot: 4
+	// RVA: 0xB118D0 Offset: 0xB0FED0 VA: 0x180B118D0 Slot: 4
 	public override void ExpandTree(InteriorNode parent, SymbolsDictionary symbols, Positions positions) { }
 
-	// RVA: 0xB115C0 Offset: 0xB0FBC0 VA: 0x180B115C0 Slot: 5
+	// RVA: 0xB11880 Offset: 0xB0FE80 VA: 0x180B11880 Slot: 5
 	public override void ConstructPos(BitSet firstpos, BitSet lastpos, BitSet[] followpos) { }
 
-	// RVA: 0xB11940 Offset: 0xB0FF40 VA: 0x180B11940 Slot: 6
+	// RVA: 0xB11C00 Offset: 0xB10200 VA: 0x180B11C00 Slot: 6
 	public override bool get_IsNullable() { }
 
 }

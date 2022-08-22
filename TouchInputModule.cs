@@ -14,49 +14,49 @@ public class TouchInputModule : PointerInputModule // TypeDefIndex: 5087
 
 	// Methods
 
-	// RVA: 0x10CEBE0 Offset: 0x10CD1E0 VA: 0x1810CEBE0
+	// RVA: 0x10CEEA0 Offset: 0x10CD4A0 VA: 0x1810CEEA0
 	protected void .ctor() { }
 
-	// RVA: 0xC312F0 Offset: 0xC2F8F0 VA: 0x180C312F0
+	// RVA: 0xC315B0 Offset: 0xC2FBB0 VA: 0x180C315B0
 	public bool get_allowActivationOnStandalone() { }
 
-	// RVA: 0xC32410 Offset: 0xC30A10 VA: 0x180C32410
+	// RVA: 0xC326D0 Offset: 0xC30CD0 VA: 0x180C326D0
 	public void set_allowActivationOnStandalone(bool value) { }
 
-	// RVA: 0xC312F0 Offset: 0xC2F8F0 VA: 0x180C312F0
+	// RVA: 0xC315B0 Offset: 0xC2FBB0 VA: 0x180C315B0
 	public bool get_forceModuleActive() { }
 
-	// RVA: 0xC32410 Offset: 0xC30A10 VA: 0x180C32410
+	// RVA: 0xC326D0 Offset: 0xC30CD0 VA: 0x180C326D0
 	public void set_forceModuleActive(bool value) { }
 
-	// RVA: 0x10CEA40 Offset: 0x10CD040 VA: 0x1810CEA40 Slot: 24
+	// RVA: 0x10CED00 Offset: 0x10CD300 VA: 0x1810CED00 Slot: 24
 	public override void UpdateModule() { }
 
-	// RVA: 0x10CD610 Offset: 0x10CBC10 VA: 0x1810CD610 Slot: 25
+	// RVA: 0x10CD8D0 Offset: 0x10CBED0 VA: 0x1810CD8D0 Slot: 25
 	public override bool IsModuleSupported() { }
 
-	// RVA: 0x10CE640 Offset: 0x10CCC40 VA: 0x1810CE640 Slot: 21
+	// RVA: 0x10CE900 Offset: 0x10CCF00 VA: 0x1810CE900 Slot: 21
 	public override bool ShouldActivateModule() { }
 
-	// RVA: 0x10CEBA0 Offset: 0x10CD1A0 VA: 0x1810CEBA0
+	// RVA: 0x10CEE60 Offset: 0x10CD460 VA: 0x1810CEE60
 	private bool UseFakeInput() { }
 
-	// RVA: 0x10CE5F0 Offset: 0x10CCBF0 VA: 0x1810CE5F0 Slot: 17
+	// RVA: 0x10CE8B0 Offset: 0x10CCEB0 VA: 0x1810CE8B0 Slot: 17
 	public override void Process() { }
 
-	// RVA: 0x10CD490 Offset: 0x10CBA90 VA: 0x1810CD490
+	// RVA: 0x10CD750 Offset: 0x10CBD50 VA: 0x1810CD750
 	private void FakeTouches() { }
 
-	// RVA: 0x10CD650 Offset: 0x10CBC50 VA: 0x1810CD650
+	// RVA: 0x10CD910 Offset: 0x10CBF10 VA: 0x1810CD910
 	private void ProcessTouchEvents() { }
 
-	// RVA: 0x10CDEE0 Offset: 0x10CC4E0 VA: 0x1810CDEE0
+	// RVA: 0x10CE1A0 Offset: 0x10CC7A0 VA: 0x1810CE1A0
 	protected void ProcessTouchPress(PointerEventData pointerEvent, bool pressed, bool released) { }
 
-	// RVA: 0x10CA990 Offset: 0x10C8F90 VA: 0x1810CA990 Slot: 22
+	// RVA: 0x10CAC50 Offset: 0x10C9250 VA: 0x1810CAC50 Slot: 22
 	public override void DeactivateModule() { }
 
-	// RVA: 0x10CE7D0 Offset: 0x10CCDD0 VA: 0x1810CE7D0 Slot: 3
+	// RVA: 0x10CEA90 Offset: 0x10CD090 VA: 0x1810CEA90 Slot: 3
 	public override string ToString() { }
 
 }

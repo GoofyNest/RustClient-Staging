@@ -43,262 +43,262 @@ internal sealed class XdrBuilder : SchemaBuilder // TypeDefIndex: 2291
 
 	// Methods
 
-	// RVA: 0xEFACA0 Offset: 0xEF92A0 VA: 0x180EFACA0
+	// RVA: 0xEFAF60 Offset: 0xEF9560 VA: 0x180EFAF60
 	internal void .ctor(XmlReader reader, XmlNamespaceManager curmgr, SchemaInfo sinfo, string targetNamspace, XmlNameTable nameTable, SchemaNames schemaNames, ValidationEventHandler eventhandler) { }
 
-	// RVA: 0xEF41E0 Offset: 0xEF27E0 VA: 0x180EF41E0 Slot: 4
+	// RVA: 0xEF44A0 Offset: 0xEF2AA0 VA: 0x180EF44A0 Slot: 4
 	internal override bool ProcessElement(string prefix, string name, string ns) { }
 
-	// RVA: 0xEF3CE0 Offset: 0xEF22E0 VA: 0x180EF3CE0 Slot: 5
+	// RVA: 0xEF3FA0 Offset: 0xEF25A0 VA: 0x180EF3FA0 Slot: 5
 	internal override void ProcessAttribute(string prefix, string name, string ns, string value) { }
 
-	// RVA: 0xEFAF20 Offset: 0xEF9520 VA: 0x180EFAF20
+	// RVA: 0xEFB1E0 Offset: 0xEF97E0 VA: 0x180EFB1E0
 	internal void set_XmlResolver(XmlResolver value) { }
 
-	// RVA: 0xEF3050 Offset: 0xEF1650 VA: 0x180EF3050
+	// RVA: 0xEF3310 Offset: 0xEF1910 VA: 0x180EF3310
 	private bool LoadSchema(string uri) { }
 
-	// RVA: 0xEF2E80 Offset: 0xEF1480 VA: 0x180EF2E80
+	// RVA: 0xEF3140 Offset: 0xEF1740 VA: 0x180EF3140
 	internal static bool IsXdrSchema(string uri) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 6
 	internal override bool IsContentParsed() { }
 
-	// RVA: 0xEF4440 Offset: 0xEF2A40 VA: 0x180EF4440 Slot: 7
+	// RVA: 0xEF4700 Offset: 0xEF2D00 VA: 0x180EF4700 Slot: 7
 	internal override void ProcessMarkup(XmlNode[] markup) { }
 
-	// RVA: 0xEF4160 Offset: 0xEF2760 VA: 0x180EF4160 Slot: 8
+	// RVA: 0xEF4420 Offset: 0xEF2A20 VA: 0x180EF4420 Slot: 8
 	internal override void ProcessCData(string value) { }
 
-	// RVA: 0xEF4970 Offset: 0xEF2F70 VA: 0x180EF4970 Slot: 9
+	// RVA: 0xEF4C30 Offset: 0xEF3230 VA: 0x180EF4C30 Slot: 9
 	internal override void StartChildren() { }
 
-	// RVA: 0xEF2320 Offset: 0xEF0920 VA: 0x180EF2320 Slot: 10
+	// RVA: 0xEF25E0 Offset: 0xEF0BE0 VA: 0x180EF25E0 Slot: 10
 	internal override void EndChildren() { }
 
-	// RVA: 0xEF4510 Offset: 0xEF2B10 VA: 0x180EF4510
+	// RVA: 0xEF47D0 Offset: 0xEF2DD0 VA: 0x180EF47D0
 	private void Push() { }
 
-	// RVA: 0xEF3C60 Offset: 0xEF2260 VA: 0x180EF3C60
+	// RVA: 0xEF3F20 Offset: 0xEF2520 VA: 0x180EF3F20
 	private void Pop() { }
 
-	// RVA: 0xEF44B0 Offset: 0xEF2AB0 VA: 0x180EF44B0
+	// RVA: 0xEF4770 Offset: 0xEF2D70 VA: 0x180EF4770
 	private void PushGroupInfo() { }
 
-	// RVA: 0xEF3BE0 Offset: 0xEF21E0 VA: 0x180EF3BE0
+	// RVA: 0xEF3EA0 Offset: 0xEF24A0 VA: 0x180EF3EA0
 	private void PopGroupInfo() { }
 
-	// RVA: 0xEF89D0 Offset: 0xEF6FD0 VA: 0x180EF89D0
+	// RVA: 0xEF8C90 Offset: 0xEF7290 VA: 0x180EF8C90
 	private static void XDR_InitRoot(XdrBuilder builder, object obj) { }
 
-	// RVA: 0xEF6DE0 Offset: 0xEF53E0 VA: 0x180EF6DE0
+	// RVA: 0xEF70A0 Offset: 0xEF56A0 VA: 0x180EF70A0
 	private static void XDR_BuildRoot_Name(XdrBuilder builder, object obj, string prefix) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private static void XDR_BuildRoot_ID(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF5150 Offset: 0xEF3750 VA: 0x180EF5150
+	// RVA: 0xEF5410 Offset: 0xEF3A10 VA: 0x180EF5410
 	private static void XDR_BeginRoot(XdrBuilder builder) { }
 
-	// RVA: 0xEF7EC0 Offset: 0xEF64C0 VA: 0x180EF7EC0
+	// RVA: 0xEF8180 Offset: 0xEF6780 VA: 0x180EF8180
 	private static void XDR_EndRoot(XdrBuilder builder) { }
 
-	// RVA: 0xEF8610 Offset: 0xEF6C10 VA: 0x180EF8610
+	// RVA: 0xEF88D0 Offset: 0xEF6ED0 VA: 0x180EF88D0
 	private static void XDR_InitElementType(XdrBuilder builder, object obj) { }
 
-	// RVA: 0xEF6500 Offset: 0xEF4B00 VA: 0x180EF6500
+	// RVA: 0xEF67C0 Offset: 0xEF4DC0 VA: 0x180EF67C0
 	private static void XDR_BuildElementType_Name(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF5D60 Offset: 0xEF4360 VA: 0x180EF5D60
+	// RVA: 0xEF6020 Offset: 0xEF4620 VA: 0x180EF6020
 	private static void XDR_BuildElementType_Content(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF6360 Offset: 0xEF4960 VA: 0x180EF6360
+	// RVA: 0xEF6620 Offset: 0xEF4C20 VA: 0x180EF6620
 	private static void XDR_BuildElementType_Model(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF66F0 Offset: 0xEF4CF0 VA: 0x180EF66F0
+	// RVA: 0xEF69B0 Offset: 0xEF4FB0 VA: 0x180EF69B0
 	private static void XDR_BuildElementType_Order(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF6140 Offset: 0xEF4740 VA: 0x180EF6140
+	// RVA: 0xEF6400 Offset: 0xEF4A00 VA: 0x180EF6400
 	private static void XDR_BuildElementType_DtType(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF6280 Offset: 0xEF4880 VA: 0x180EF6280
+	// RVA: 0xEF6540 Offset: 0xEF4B40 VA: 0x180EF6540
 	private static void XDR_BuildElementType_DtValues(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF5E20 Offset: 0xEF4420 VA: 0x180EF5E20
+	// RVA: 0xEF60E0 Offset: 0xEF46E0 VA: 0x180EF60E0
 	private static void XDR_BuildElementType_DtMaxLength(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF5FB0 Offset: 0xEF45B0 VA: 0x180EF5FB0
+	// RVA: 0xEF6270 Offset: 0xEF4870 VA: 0x180EF6270
 	private static void XDR_BuildElementType_DtMinLength(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF4E50 Offset: 0xEF3450 VA: 0x180EF4E50
+	// RVA: 0xEF5110 Offset: 0xEF3710 VA: 0x180EF5110
 	private static void XDR_BeginElementType(XdrBuilder builder) { }
 
-	// RVA: 0xEF74B0 Offset: 0xEF5AB0 VA: 0x180EF74B0
+	// RVA: 0xEF7770 Offset: 0xEF5D70 VA: 0x180EF7770
 	private static void XDR_EndElementType(XdrBuilder builder) { }
 
-	// RVA: 0xEF8380 Offset: 0xEF6980 VA: 0x180EF8380
+	// RVA: 0xEF8640 Offset: 0xEF6C40 VA: 0x180EF8640
 	private static void XDR_InitAttributeType(XdrBuilder builder, object obj) { }
 
-	// RVA: 0xEF5870 Offset: 0xEF3E70 VA: 0x180EF5870
+	// RVA: 0xEF5B30 Offset: 0xEF4130 VA: 0x180EF5B30
 	private static void XDR_BuildAttributeType_Name(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF5B30 Offset: 0xEF4130 VA: 0x180EF5B30
+	// RVA: 0xEF5DF0 Offset: 0xEF43F0 VA: 0x180EF5DF0
 	private static void XDR_BuildAttributeType_Required(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF5230 Offset: 0xEF3830 VA: 0x180EF5230
+	// RVA: 0xEF54F0 Offset: 0xEF3AF0 VA: 0x180EF54F0
 	private static void XDR_BuildAttributeType_Default(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF5580 Offset: 0xEF3B80 VA: 0x180EF5580
+	// RVA: 0xEF5840 Offset: 0xEF3E40 VA: 0x180EF5840
 	private static void XDR_BuildAttributeType_DtType(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF5790 Offset: 0xEF3D90 VA: 0x180EF5790
+	// RVA: 0xEF5A50 Offset: 0xEF4050 VA: 0x180EF5A50
 	private static void XDR_BuildAttributeType_DtValues(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF5260 Offset: 0xEF3860 VA: 0x180EF5260
+	// RVA: 0xEF5520 Offset: 0xEF3B20 VA: 0x180EF5520
 	private static void XDR_BuildAttributeType_DtMaxLength(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF53F0 Offset: 0xEF39F0 VA: 0x180EF53F0
+	// RVA: 0xEF56B0 Offset: 0xEF3CB0 VA: 0x180EF56B0
 	private static void XDR_BuildAttributeType_DtMinLength(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF49A0 Offset: 0xEF2FA0 VA: 0x180EF49A0
+	// RVA: 0xEF4C60 Offset: 0xEF3260 VA: 0x180EF4C60
 	private static void XDR_BeginAttributeType(XdrBuilder builder) { }
 
-	// RVA: 0xEF7080 Offset: 0xEF5680 VA: 0x180EF7080
+	// RVA: 0xEF7340 Offset: 0xEF5940 VA: 0x180EF7340
 	private static void XDR_EndAttributeType(XdrBuilder builder) { }
 
-	// RVA: 0xEF8790 Offset: 0xEF6D90 VA: 0x180EF8790
+	// RVA: 0xEF8A50 Offset: 0xEF7050 VA: 0x180EF8A50
 	private static void XDR_InitElement(XdrBuilder builder, object obj) { }
 
-	// RVA: 0xEF68E0 Offset: 0xEF4EE0 VA: 0x180EF68E0
+	// RVA: 0xEF6BA0 Offset: 0xEF51A0 VA: 0x180EF6BA0
 	private static void XDR_BuildElement_Type(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF6850 Offset: 0xEF4E50 VA: 0x180EF6850
+	// RVA: 0xEF6B10 Offset: 0xEF5110 VA: 0x180EF6B10
 	private static void XDR_BuildElement_MinOccurs(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF67C0 Offset: 0xEF4DC0 VA: 0x180EF67C0
+	// RVA: 0xEF6A80 Offset: 0xEF5080 VA: 0x180EF6A80
 	private static void XDR_BuildElement_MaxOccurs(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF7BA0 Offset: 0xEF61A0 VA: 0x180EF7BA0
+	// RVA: 0xEF7E60 Offset: 0xEF6460 VA: 0x180EF7E60
 	private static void XDR_EndElement(XdrBuilder builder) { }
 
-	// RVA: 0xEF8490 Offset: 0xEF6A90 VA: 0x180EF8490
+	// RVA: 0xEF8750 Offset: 0xEF6D50 VA: 0x180EF8750
 	private static void XDR_InitAttribute(XdrBuilder builder, object obj) { }
 
-	// RVA: 0xEF5C80 Offset: 0xEF4280 VA: 0x180EF5C80
+	// RVA: 0xEF5F40 Offset: 0xEF4540 VA: 0x180EF5F40
 	private static void XDR_BuildAttribute_Type(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF5BF0 Offset: 0xEF41F0 VA: 0x180EF5BF0
+	// RVA: 0xEF5EB0 Offset: 0xEF44B0 VA: 0x180EF5EB0
 	private static void XDR_BuildAttribute_Required(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF5BC0 Offset: 0xEF41C0 VA: 0x180EF5BC0
+	// RVA: 0xEF5E80 Offset: 0xEF4480 VA: 0x180EF5E80
 	private static void XDR_BuildAttribute_Default(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF4A40 Offset: 0xEF3040 VA: 0x180EF4A40
+	// RVA: 0xEF4D00 Offset: 0xEF3300 VA: 0x180EF4D00
 	private static void XDR_BeginAttribute(XdrBuilder builder) { }
 
-	// RVA: 0xEF7360 Offset: 0xEF5960 VA: 0x180EF7360
+	// RVA: 0xEF7620 Offset: 0xEF5C20 VA: 0x180EF7620
 	private static void XDR_EndAttribute(XdrBuilder builder) { }
 
-	// RVA: 0xEF8870 Offset: 0xEF6E70 VA: 0x180EF8870
+	// RVA: 0xEF8B30 Offset: 0xEF7130 VA: 0x180EF8B30
 	private static void XDR_InitGroup(XdrBuilder builder, object obj) { }
 
-	// RVA: 0xEF6CC0 Offset: 0xEF52C0 VA: 0x180EF6CC0
+	// RVA: 0xEF6F80 Offset: 0xEF5580 VA: 0x180EF6F80
 	private static void XDR_BuildGroup_Order(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF6C30 Offset: 0xEF5230 VA: 0x180EF6C30
+	// RVA: 0xEF6EF0 Offset: 0xEF54F0 VA: 0x180EF6EF0
 	private static void XDR_BuildGroup_MinOccurs(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF6BA0 Offset: 0xEF51A0 VA: 0x180EF6BA0
+	// RVA: 0xEF6E60 Offset: 0xEF5460 VA: 0x180EF6E60
 	private static void XDR_BuildGroup_MaxOccurs(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0xEF7CC0 Offset: 0xEF62C0 VA: 0x180EF7CC0
+	// RVA: 0xEF7F80 Offset: 0xEF6580 VA: 0x180EF7F80
 	private static void XDR_EndGroup(XdrBuilder builder) { }
 
-	// RVA: 0xEF8520 Offset: 0xEF6B20 VA: 0x180EF8520
+	// RVA: 0xEF87E0 Offset: 0xEF6DE0 VA: 0x180EF87E0
 	private static void XDR_InitElementDtType(XdrBuilder builder, object obj) { }
 
-	// RVA: 0xEF7390 Offset: 0xEF5990 VA: 0x180EF7390
+	// RVA: 0xEF7650 Offset: 0xEF5C50 VA: 0x180EF7650
 	private static void XDR_EndElementDtType(XdrBuilder builder) { }
 
-	// RVA: 0xEF82F0 Offset: 0xEF68F0 VA: 0x180EF82F0
+	// RVA: 0xEF85B0 Offset: 0xEF6BB0 VA: 0x180EF85B0
 	private static void XDR_InitAttributeDtType(XdrBuilder builder, object obj) { }
 
-	// RVA: 0xEF6F80 Offset: 0xEF5580 VA: 0x180EF6F80
+	// RVA: 0xEF7240 Offset: 0xEF5840 VA: 0x180EF7240
 	private static void XDR_EndAttributeDtType(XdrBuilder builder) { }
 
-	// RVA: 0xEF2730 Offset: 0xEF0D30 VA: 0x180EF2730
+	// RVA: 0xEF29F0 Offset: 0xEF0FF0 VA: 0x180EF29F0
 	private bool GetNextState(XmlQualifiedName qname) { }
 
-	// RVA: 0xEF2D60 Offset: 0xEF1360 VA: 0x180EF2D60
+	// RVA: 0xEF3020 Offset: 0xEF1620 VA: 0x180EF3020
 	private bool IsSkipableElement(XmlQualifiedName qname) { }
 
-	// RVA: 0xEF2BA0 Offset: 0xEF11A0 VA: 0x180EF2BA0
+	// RVA: 0xEF2E60 Offset: 0xEF1460 VA: 0x180EF2E60
 	private bool IsSkipableAttribute(XmlQualifiedName qname) { }
 
-	// RVA: 0xEF2980 Offset: 0xEF0F80 VA: 0x180EF2980
+	// RVA: 0xEF2C40 Offset: 0xEF1240 VA: 0x180EF2C40
 	private int GetOrder(XmlQualifiedName qname) { }
 
-	// RVA: 0xEF1F50 Offset: 0xEF0550 VA: 0x180EF1F50
+	// RVA: 0xEF2210 Offset: 0xEF0810 VA: 0x180EF2210
 	private void AddOrder() { }
 
-	// RVA: 0xEF2F20 Offset: 0xEF1520 VA: 0x180EF2F20
+	// RVA: 0xEF31E0 Offset: 0xEF17E0 VA: 0x180EF31E0
 	private static bool IsYes(object obj, XdrBuilder builder) { }
 
-	// RVA: 0xEF3AC0 Offset: 0xEF20C0 VA: 0x180EF3AC0
+	// RVA: 0xEF3D80 Offset: 0xEF2380 VA: 0x180EF3D80
 	private static uint ParseMinOccurs(object obj, XdrBuilder builder) { }
 
-	// RVA: 0xEF3980 Offset: 0xEF1F80 VA: 0x180EF3980
+	// RVA: 0xEF3C40 Offset: 0xEF2240 VA: 0x180EF3C40
 	private static uint ParseMaxOccurs(object obj, XdrBuilder builder) { }
 
-	// RVA: 0xEF2B60 Offset: 0xEF1160 VA: 0x180EF2B60
+	// RVA: 0xEF2E20 Offset: 0xEF1420 VA: 0x180EF2E20
 	private static void HandleMinMax(ParticleContentValidator pContent, uint cMin, uint cMax) { }
 
-	// RVA: 0xEF36C0 Offset: 0xEF1CC0 VA: 0x180EF36C0
+	// RVA: 0xEF3980 Offset: 0xEF1F80 VA: 0x180EF3980
 	private static void ParseDtMaxLength(ref uint cVal, object obj, XdrBuilder builder) { }
 
-	// RVA: 0xEF3800 Offset: 0xEF1E00 VA: 0x180EF3800
+	// RVA: 0xEF3AC0 Offset: 0xEF20C0 VA: 0x180EF3AC0
 	private static void ParseDtMinLength(ref uint cVal, object obj, XdrBuilder builder) { }
 
-	// RVA: 0xEF22B0 Offset: 0xEF08B0 VA: 0x180EF22B0
+	// RVA: 0xEF2570 Offset: 0xEF0B70 VA: 0x180EF2570
 	private static void CompareMinMaxLength(uint cMin, uint cMax, XdrBuilder builder) { }
 
-	// RVA: 0xEF3940 Offset: 0xEF1F40 VA: 0x180EF3940
+	// RVA: 0xEF3C00 Offset: 0xEF2200 VA: 0x180EF3C00
 	private static bool ParseInteger(string str, ref uint n) { }
 
-	// RVA: 0xEF6E70 Offset: 0xEF5470 VA: 0x180EF6E70
+	// RVA: 0xEF7130 Offset: 0xEF5730 VA: 0x180EF7130
 	private void XDR_CheckAttributeDefault(XdrBuilder.DeclBaseInfo decl, SchemaAttDef pAttdef) { }
 
-	// RVA: 0xEF4910 Offset: 0xEF2F10 VA: 0x180EF4910
+	// RVA: 0xEF4BD0 Offset: 0xEF31D0 VA: 0x180EF4BD0
 	private void SetAttributePresence(SchemaAttDef pAttdef, bool fRequired) { }
 
-	// RVA: 0xEF23C0 Offset: 0xEF09C0 VA: 0x180EF23C0
+	// RVA: 0xEF2680 Offset: 0xEF0C80 VA: 0x180EF2680
 	private int GetContent(XmlQualifiedName qname) { }
 
-	// RVA: 0xEF2600 Offset: 0xEF0C00 VA: 0x180EF2600
+	// RVA: 0xEF28C0 Offset: 0xEF0EC0 VA: 0x180EF28C0
 	private bool GetModel(XmlQualifiedName qname) { }
 
-	// RVA: 0xEF2000 Offset: 0xEF0600 VA: 0x180EF2000
+	// RVA: 0xEF22C0 Offset: 0xEF08C0 VA: 0x180EF22C0
 	private XmlSchemaDatatype CheckDatatype(string str) { }
 
-	// RVA: 0xEF2160 Offset: 0xEF0760 VA: 0x180EF2160
+	// RVA: 0xEF2420 Offset: 0xEF0A20 VA: 0x180EF2420
 	private void CheckDefaultAttValue(SchemaAttDef attDef) { }
 
-	// RVA: 0xEF2B90 Offset: 0xEF1190 VA: 0x180EF2B90
+	// RVA: 0xEF2E50 Offset: 0xEF1450 VA: 0x180EF2E50
 	private bool IsGlobal(int flags) { }
 
-	// RVA: 0xEF47F0 Offset: 0xEF2DF0 VA: 0x180EF47F0
+	// RVA: 0xEF4AB0 Offset: 0xEF30B0 VA: 0x180EF4AB0
 	private void SendValidationEvent(string code, string[] args, XmlSeverityType severity) { }
 
-	// RVA: 0xEF4680 Offset: 0xEF2C80 VA: 0x180EF4680
+	// RVA: 0xEF4940 Offset: 0xEF2F40 VA: 0x180EF4940
 	private void SendValidationEvent(string code) { }
 
-	// RVA: 0xEF4570 Offset: 0xEF2B70 VA: 0x180EF4570
+	// RVA: 0xEF4830 Offset: 0xEF2E30 VA: 0x180EF4830
 	private void SendValidationEvent(string code, string msg) { }
 
-	// RVA: 0xEF46E0 Offset: 0xEF2CE0 VA: 0x180EF46E0
+	// RVA: 0xEF49A0 Offset: 0xEF2FA0 VA: 0x180EF49A0
 	private void SendValidationEvent(XmlSchemaException e, XmlSeverityType severity) { }
 
-	// RVA: 0xEF8A50 Offset: 0xEF7050 VA: 0x180EF8A50
+	// RVA: 0xEF8D10 Offset: 0xEF7310 VA: 0x180EF8D10
 	private static void .cctor() { }
 
 }
@@ -320,10 +320,10 @@ private sealed class XdrBuilder.DeclBaseInfo // TypeDefIndex: 2292
 
 	// Methods
 
-	// RVA: 0x1429310 Offset: 0x1427910 VA: 0x181429310
+	// RVA: 0x14295D0 Offset: 0x1427BD0 VA: 0x1814295D0
 	internal void .ctor() { }
 
-	// RVA: 0x1429200 Offset: 0x1427800 VA: 0x181429200
+	// RVA: 0x14294C0 Offset: 0x1427AC0 VA: 0x1814294C0
 	internal void Reset() { }
 
 }
@@ -338,10 +338,10 @@ private sealed class XdrBuilder.GroupContent // TypeDefIndex: 2293
 
 	// Methods
 
-	// RVA: 0x1429420 Offset: 0x1427A20 VA: 0x181429420
+	// RVA: 0x14296E0 Offset: 0x1427CE0 VA: 0x1814296E0
 	internal static void Copy(XdrBuilder.GroupContent from, XdrBuilder.GroupContent to) { }
 
-	// RVA: 0x1429450 Offset: 0x1427A50 VA: 0x181429450
+	// RVA: 0x1429710 Offset: 0x1427D10 VA: 0x181429710
 	internal static XdrBuilder.GroupContent Copy(XdrBuilder.GroupContent other) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -401,10 +401,10 @@ private sealed class XdrBuilder.XdrBuildFunction : MulticastDelegate // TypeDefI
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x14299A0 Offset: 0x1427FA0 VA: 0x1814299A0 Slot: 12
+	// RVA: 0x1429C60 Offset: 0x1428260 VA: 0x181429C60 Slot: 12
 	public virtual void Invoke(XdrBuilder builder, object obj, string prefix) { }
 
-	// RVA: 0x130F9A0 Offset: 0x130DFA0 VA: 0x18130F9A0 Slot: 13
+	// RVA: 0x130FC60 Offset: 0x130E260 VA: 0x18130FC60 Slot: 13
 	public virtual IAsyncResult BeginInvoke(XdrBuilder builder, object obj, string prefix, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -418,10 +418,10 @@ private sealed class XdrBuilder.XdrInitFunction : MulticastDelegate // TypeDefIn
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xAE45C0 Offset: 0xAE2BC0 VA: 0x180AE45C0 Slot: 12
+	// RVA: 0xAE4880 Offset: 0xAE2E80 VA: 0x180AE4880 Slot: 12
 	public virtual void Invoke(XdrBuilder builder, object obj) { }
 
-	// RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580 Slot: 13
+	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
 	public virtual IAsyncResult BeginInvoke(XdrBuilder builder, object obj, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -435,7 +435,7 @@ private sealed class XdrBuilder.XdrBeginChildFunction : MulticastDelegate // Typ
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x14296F0 Offset: 0x1427CF0 VA: 0x1814296F0 Slot: 12
+	// RVA: 0x14299B0 Offset: 0x1427FB0 VA: 0x1814299B0 Slot: 12
 	public virtual void Invoke(XdrBuilder builder) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13
@@ -452,7 +452,7 @@ private sealed class XdrBuilder.XdrEndChildFunction : MulticastDelegate // TypeD
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x14296F0 Offset: 0x1427CF0 VA: 0x1814296F0 Slot: 12
+	// RVA: 0x14299B0 Offset: 0x1427FB0 VA: 0x1814299B0 Slot: 12
 	public virtual void Invoke(XdrBuilder builder) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13
@@ -472,10 +472,10 @@ private sealed class XdrBuilder.XdrAttributeEntry // TypeDefIndex: 2300
 
 	// Methods
 
-	// RVA: 0x1429610 Offset: 0x1427C10 VA: 0x181429610
+	// RVA: 0x14298D0 Offset: 0x1427ED0 VA: 0x1814298D0
 	internal void .ctor(SchemaNames.Token a, XmlTokenizedType ttype, XdrBuilder.XdrBuildFunction build) { }
 
-	// RVA: 0x1429680 Offset: 0x1427C80 VA: 0x181429680
+	// RVA: 0x1429940 Offset: 0x1427F40 VA: 0x181429940
 	internal void .ctor(SchemaNames.Token a, XmlTokenizedType ttype, int schemaFlags, XdrBuilder.XdrBuildFunction build) { }
 
 }
@@ -492,7 +492,7 @@ private sealed class XdrBuilder.XdrEntry // TypeDefIndex: 2301
 
 	// Methods
 
-	// RVA: 0x1429EA0 Offset: 0x14284A0 VA: 0x181429EA0
+	// RVA: 0x142A160 Offset: 0x1428760 VA: 0x18142A160
 	internal void .ctor(SchemaNames.Token n, int[] states, XdrBuilder.XdrAttributeEntry[] attributes, XdrBuilder.XdrInitFunction init, XdrBuilder.XdrBeginChildFunction begin, XdrBuilder.XdrEndChildFunction end, bool fText) { }
 
 }

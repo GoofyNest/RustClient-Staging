@@ -7,10 +7,10 @@ public class FrankensteinPartInformationPanel : ItemInformationPanel // TypeDefI
 
 	// Methods
 
-	// RVA: 0x751C80 Offset: 0x750280 VA: 0x180751C80 Slot: 4
+	// RVA: 0x751D90 Offset: 0x750390 VA: 0x180751D90 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0x751D10 Offset: 0x750310 VA: 0x180751D10 Slot: 5
+	// RVA: 0x751E20 Offset: 0x750420 VA: 0x180751E20 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
 	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0

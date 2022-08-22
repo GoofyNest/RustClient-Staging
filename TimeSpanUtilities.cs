@@ -6,14 +6,14 @@ public static class TimeSpanUtilities // TypeDefIndex: 7499
 
 	// Methods
 
-	// RVA: 0x2202A80 Offset: 0x2201080 VA: 0x182202A80
+	// RVA: 0x2202D40 Offset: 0x2201340 VA: 0x182202D40
 	internal static ITimeSpan Subtract(ITimeSpan timeSpan1, ITimeSpan timeSpan2, TimeSpanMode mode) { }
 
 	// RVA: -1 Offset: -1
 	private static Parsing<ITimeSpan> GetParsing<TTimeSpan>(Parsing<TTimeSpan> parsing) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125F1F0 Offset: 0x125D7F0 VA: 0x18125F1F0
+	|-RVA: 0x125F4B0 Offset: 0x125DAB0 VA: 0x18125F4B0
 	|-TimeSpanUtilities.GetParsing<BarBeatFractionTimeSpan>
 	|-TimeSpanUtilities.GetParsing<BarBeatTicksTimeSpan>
 	|-TimeSpanUtilities.GetParsing<MetricTimeSpan>
@@ -22,7 +22,7 @@ public static class TimeSpanUtilities // TypeDefIndex: 7499
 	|-TimeSpanUtilities.GetParsing<object>
 	*/
 
-	// RVA: 0x2202B20 Offset: 0x2201120 VA: 0x182202B20
+	// RVA: 0x2202DE0 Offset: 0x22013E0 VA: 0x182202DE0
 	private static void .cctor() { }
 
 }
@@ -37,7 +37,7 @@ private sealed class TimeSpanUtilities.<>c__DisplayClass12_0<TTimeSpan> // TypeD
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-TimeSpanUtilities.<>c__DisplayClass12_0<object>..ctor
 	*/
 
@@ -45,7 +45,7 @@ private sealed class TimeSpanUtilities.<>c__DisplayClass12_0<TTimeSpan> // TypeD
 	internal ParsingResult <GetParsing>b__0(string input, out ITimeSpan timeSpan) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17FC8D0 Offset: 0x17FAED0 VA: 0x1817FC8D0
+	|-RVA: 0x17FCB90 Offset: 0x17FB190 VA: 0x1817FCB90
 	|-TimeSpanUtilities.<>c__DisplayClass12_0<object>.<GetParsing>b__0
 	*/
 

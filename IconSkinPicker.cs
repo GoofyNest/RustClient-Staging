@@ -12,46 +12,46 @@ public class IconSkinPicker : MonoBehaviour // TypeDefIndex: 9193
 
 	// Methods
 
-	// RVA: 0x8094F0 Offset: 0x807AF0 VA: 0x1808094F0
+	// RVA: 0x809600 Offset: 0x807C00 VA: 0x180809600
 	public static bool HasRecentlyUsed(int skinId, out TimeSpan timeSince) { }
 
-	// RVA: 0x80AAC0 Offset: 0x8090C0 VA: 0x18080AAC0
+	// RVA: 0x80ABD0 Offset: 0x8091D0 VA: 0x18080ABD0
 	public static void RegisterAsRecentlyUsedSkin(int skinId) { }
 
-	// RVA: 0x809640 Offset: 0x807C40 VA: 0x180809640
+	// RVA: 0x809750 Offset: 0x807D50 VA: 0x180809750
 	private static void LoadSkinHistory() { }
 
-	// RVA: 0x80AE50 Offset: 0x809450 VA: 0x18080AE50
+	// RVA: 0x80AF60 Offset: 0x809560 VA: 0x18080AF60
 	private static void SaveSkinHistory() { }
 
-	// RVA: 0x8099A0 Offset: 0x807FA0 VA: 0x1808099A0
+	// RVA: 0x809AB0 Offset: 0x8080B0 VA: 0x180809AB0
 	private void OnEnable() { }
 
-	// RVA: 0x809AC0 Offset: 0x8080C0 VA: 0x180809AC0
+	// RVA: 0x809BD0 Offset: 0x8081D0 VA: 0x180809BD0
 	private void OnSearchFilterChanged(string filter) { }
 
-	// RVA: 0x809890 Offset: 0x807E90 VA: 0x180809890
+	// RVA: 0x8099A0 Offset: 0x807FA0 VA: 0x1808099A0
 	private void OnDisable() { }
 
-	// RVA: 0x8094D0 Offset: 0x807AD0 VA: 0x1808094D0
+	// RVA: 0x8095E0 Offset: 0x807BE0 VA: 0x1808095E0
 	internal void ForceNextRefresh() { }
 
-	// RVA: 0x809E60 Offset: 0x808460 VA: 0x180809E60
+	// RVA: 0x809F70 Offset: 0x808570 VA: 0x180809F70
 	internal bool Refresh(ItemBlueprint blueprint) { }
 
-	// RVA: 0x80AD20 Offset: 0x809320 VA: 0x18080AD20
+	// RVA: 0x80AE30 Offset: 0x809430 VA: 0x18080AE30
 	private void ResetScroller() { }
 
-	// RVA: 0x809390 Offset: 0x807990 VA: 0x180809390
+	// RVA: 0x8094A0 Offset: 0x807AA0 VA: 0x1808094A0
 	private int CompareSkinOption(IconSkinPicker.SkinButtonSetup a, IconSkinPicker.SkinButtonSetup b) { }
 
-	// RVA: 0x809060 Offset: 0x807660 VA: 0x180809060
+	// RVA: 0x809170 Offset: 0x807770 VA: 0x180809170
 	private void AddOption(ItemDefinition item, int skinid, string text, bool canUse) { }
 
-	// RVA: 0x809D40 Offset: 0x808340 VA: 0x180809D40 Slot: 4
+	// RVA: 0x809E50 Offset: 0x808450 VA: 0x180809E50 Slot: 4
 	public virtual void OnSkinChanged(int skinId) { }
 
-	// RVA: 0x80AF20 Offset: 0x809520 VA: 0x18080AF20
+	// RVA: 0x80B030 Offset: 0x809630 VA: 0x18080B030
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -65,7 +65,7 @@ private class IconSkinPicker.SkinHistory // TypeDefIndex: 9194
 
 	// Methods
 
-	// RVA: 0x8202F0 Offset: 0x81E8F0 VA: 0x1808202F0
+	// RVA: 0x820400 Offset: 0x81EA00 VA: 0x180820400
 	public void .ctor() { }
 
 }

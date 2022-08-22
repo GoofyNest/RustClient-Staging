@@ -44,20 +44,20 @@ public static class ByteExtensions // TypeDefIndex: 4841
 	public static void WriteUnsafe<T>(byte[] buffer, in T value, int iOffset = 0) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1571460 Offset: 0x156FA60 VA: 0x181571460
+	|-RVA: 0x1571720 Offset: 0x156FD20 VA: 0x181571720
 	|-ByteExtensions.WriteUnsafe<byte>
 	|-ByteExtensions.WriteUnsafe<sbyte>
 	|
-	|-RVA: 0x15714A0 Offset: 0x156FAA0 VA: 0x1815714A0
+	|-RVA: 0x1571760 Offset: 0x156FD60 VA: 0x181571760
 	|-ByteExtensions.WriteUnsafe<double>
 	|-ByteExtensions.WriteUnsafe<long>
 	|-ByteExtensions.WriteUnsafe<ulong>
 	|
-	|-RVA: 0x15714E0 Offset: 0x156FAE0 VA: 0x1815714E0
+	|-RVA: 0x15717A0 Offset: 0x156FDA0 VA: 0x1815717A0
 	|-ByteExtensions.WriteUnsafe<short>
 	|-ByteExtensions.WriteUnsafe<ushort>
 	|
-	|-RVA: 0x1571520 Offset: 0x156FB20 VA: 0x181571520
+	|-RVA: 0x15717E0 Offset: 0x156FDE0 VA: 0x1815717E0
 	|-ByteExtensions.WriteUnsafe<int>
 	|-ByteExtensions.WriteUnsafe<float>
 	|-ByteExtensions.WriteUnsafe<uint>

@@ -5,10 +5,10 @@ public sealed class AddComponentMenu : Attribute // TypeDefIndex: 3495
 
 	// Methods
 
-	// RVA: 0x181BE90 Offset: 0x181A490 VA: 0x18181BE90
+	// RVA: 0x181C150 Offset: 0x181A750 VA: 0x18181C150
 	public void .ctor(string menuName) { }
 
-	// RVA: 0xFE7540 Offset: 0xFE5B40 VA: 0x180FE7540
+	// RVA: 0xFE7800 Offset: 0xFE5E00 VA: 0x180FE7800
 	public void .ctor(string menuName, int order) { }
 
 }

@@ -19,7 +19,7 @@ public class HungerAboveAIEvent : BaseAIEvent // TypeDefIndex: 9399
 	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
 	private void set_Value(float value) { }
 
-	// RVA: 0x745DB0 Offset: 0x7443B0 VA: 0x180745DB0
+	// RVA: 0x745EC0 Offset: 0x7444C0 VA: 0x180745EC0
 	public void .ctor() { }
 
 }

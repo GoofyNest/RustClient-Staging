@@ -8,19 +8,19 @@ internal class ClientIdentity : Identity // TypeDefIndex: 1134
 
 	// Methods
 
-	// RVA: 0xFE0870 Offset: 0xFDEE70 VA: 0x180FE0870
+	// RVA: 0xFE0B30 Offset: 0xFDF130 VA: 0x180FE0B30
 	public void .ctor(string objectUri, ObjRef objRef) { }
 
-	// RVA: 0xFE0940 Offset: 0xFDEF40 VA: 0x180FE0940
+	// RVA: 0xFE0C00 Offset: 0xFDF200 VA: 0x180FE0C00
 	public MarshalByRefObject get_ClientProxy() { }
 
-	// RVA: 0xFE0A10 Offset: 0xFDF010 VA: 0x180FE0A10
+	// RVA: 0xFE0CD0 Offset: 0xFDF2D0 VA: 0x180FE0CD0
 	public void set_ClientProxy(MarshalByRefObject value) { }
 
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0 Slot: 4
 	public override ObjRef CreateObjRef(Type requestedType) { }
 
-	// RVA: 0xFE09E0 Offset: 0xFDEFE0 VA: 0x180FE09E0
+	// RVA: 0xFE0CA0 Offset: 0xFDF2A0 VA: 0x180FE0CA0
 	public string get_TargetUri() { }
 
 }
@@ -31,7 +31,7 @@ internal class ClientActivatedIdentity : ServerIdentity // TypeDefIndex: 1146
 
 	// Methods
 
-	// RVA: 0xFE0850 Offset: 0xFDEE50 VA: 0x180FE0850
+	// RVA: 0xFE0B10 Offset: 0xFDF110 VA: 0x180FE0B10
 	public void .ctor(string objectUri, Type objectType) { }
 
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
@@ -40,13 +40,13 @@ internal class ClientActivatedIdentity : ServerIdentity // TypeDefIndex: 1146
 	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
 	public void SetClientProxy(MarshalByRefObject obj) { }
 
-	// RVA: 0xFE0750 Offset: 0xFDED50 VA: 0x180FE0750 Slot: 5
+	// RVA: 0xFE0A10 Offset: 0xFDF010 VA: 0x180FE0A10 Slot: 5
 	public override void OnLifetimeExpired() { }
 
-	// RVA: 0xFE07B0 Offset: 0xFDEDB0 VA: 0x180FE07B0 Slot: 6
+	// RVA: 0xFE0A70 Offset: 0xFDF070 VA: 0x180FE0A70 Slot: 6
 	public override IMessage SyncObjectProcessMessage(IMessage msg) { }
 
-	// RVA: 0xFE0630 Offset: 0xFDEC30 VA: 0x180FE0630 Slot: 7
+	// RVA: 0xFE08F0 Offset: 0xFDEEF0 VA: 0x180FE08F0 Slot: 7
 	public override IMessageCtrl AsyncObjectProcessMessage(IMessage msg, IMessageSink replySink) { }
 
 }
@@ -60,10 +60,10 @@ internal class ClientContextTerminatorSink : IMessageSink // TypeDefIndex: 1230
 	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
 	public void .ctor(Context ctx) { }
 
-	// RVA: 0x14724A0 Offset: 0x1470AA0 VA: 0x1814724A0 Slot: 4
+	// RVA: 0x1472760 Offset: 0x1470D60 VA: 0x181472760 Slot: 4
 	public IMessage SyncProcessMessage(IMessage msg) { }
 
-	// RVA: 0x14721E0 Offset: 0x14707E0 VA: 0x1814721E0 Slot: 5
+	// RVA: 0x14724A0 Offset: 0x1470AA0 VA: 0x1814724A0 Slot: 5
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink) { }
 
 }
@@ -75,13 +75,13 @@ internal class ClientContextReplySink : IMessageSink // TypeDefIndex: 1231
 
 	// Methods
 
-	// RVA: 0xFDC360 Offset: 0xFDA960 VA: 0x180FDC360
+	// RVA: 0xFDC620 Offset: 0xFDAC20 VA: 0x180FDC620
 	public void .ctor(Context ctx, IMessageSink replySink) { }
 
-	// RVA: 0x14720F0 Offset: 0x14706F0 VA: 0x1814720F0 Slot: 4
+	// RVA: 0x14723B0 Offset: 0x14709B0 VA: 0x1814723B0 Slot: 4
 	public IMessage SyncProcessMessage(IMessage msg) { }
 
-	// RVA: 0x14720A0 Offset: 0x14706A0 VA: 0x1814720A0 Slot: 5
+	// RVA: 0x1472360 Offset: 0x1470960 VA: 0x181472360 Slot: 5
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink) { }
 
 }
@@ -107,7 +107,7 @@ internal struct ClientGameServerDeny_t : ICallbackData // TypeDefIndex: 5296
 	// RVA: 0x1E46F0 Offset: 0x1E3AF0 VA: 0x1801E46F0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x136E2F0 Offset: 0x136C8F0 VA: 0x18136E2F0
+	// RVA: 0x136E5B0 Offset: 0x136CBB0 VA: 0x18136E5B0
 	private static void .cctor() { }
 
 }
@@ -120,82 +120,82 @@ public class ClientReady : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 64
 
 	// Methods
 
-	// RVA: 0x20ABCD0 Offset: 0x20AA2D0 VA: 0x1820ABCD0
+	// RVA: 0x20ABF90 Offset: 0x20AA590 VA: 0x1820ABF90
 	public static void ResetToPool(ClientReady instance) { }
 
-	// RVA: 0x20ABB20 Offset: 0x20AA120 VA: 0x1820ABB20
+	// RVA: 0x20ABDE0 Offset: 0x20AA3E0 VA: 0x1820ABDE0
 	public void ResetToPool() { }
 
-	// RVA: 0x20AB8A0 Offset: 0x20A9EA0 VA: 0x1820AB8A0 Slot: 9
+	// RVA: 0x20ABB60 Offset: 0x20AA160 VA: 0x1820ABB60 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20AAB60 Offset: 0x20A9160 VA: 0x1820AAB60
+	// RVA: 0x20AAE20 Offset: 0x20A9420 VA: 0x1820AAE20
 	public void CopyTo(ClientReady instance) { }
 
-	// RVA: 0x20AAD10 Offset: 0x20A9310 VA: 0x1820AAD10
+	// RVA: 0x20AAFD0 Offset: 0x20A95D0 VA: 0x1820AAFD0
 	public ClientReady Copy() { }
 
-	// RVA: 0x20AB410 Offset: 0x20A9A10 VA: 0x1820AB410
+	// RVA: 0x20AB6D0 Offset: 0x20A9CD0 VA: 0x1820AB6D0
 	public static ClientReady Deserialize(Stream stream) { }
 
-	// RVA: 0x20AAD90 Offset: 0x20A9390 VA: 0x1820AAD90
+	// RVA: 0x20AB050 Offset: 0x20A9650 VA: 0x1820AB050
 	public static ClientReady DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20AB0E0 Offset: 0x20A96E0 VA: 0x1820AB0E0
+	// RVA: 0x20AB3A0 Offset: 0x20A99A0 VA: 0x1820AB3A0
 	public static ClientReady DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20AB780 Offset: 0x20A9D80 VA: 0x1820AB780
+	// RVA: 0x20ABA40 Offset: 0x20AA040 VA: 0x1820ABA40
 	public static ClientReady Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20ABAE0 Offset: 0x20AA0E0 VA: 0x1820ABAE0
+	// RVA: 0x20ABDA0 Offset: 0x20AA3A0 VA: 0x1820ABDA0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20AC410 Offset: 0x20AAA10 VA: 0x1820AC410 Slot: 12
+	// RVA: 0x20AC6D0 Offset: 0x20AACD0 VA: 0x1820AC6D0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20AC430 Offset: 0x20AAA30 VA: 0x1820AC430 Slot: 13
+	// RVA: 0x20AC6F0 Offset: 0x20AACF0 VA: 0x1820AC6F0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ClientReady previous) { }
 
-	// RVA: 0x20ABB00 Offset: 0x20AA100 VA: 0x1820ABB00 Slot: 14
+	// RVA: 0x20ABDC0 Offset: 0x20AA3C0 VA: 0x1820ABDC0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20AB680 Offset: 0x20A9C80 VA: 0x1820AB680
+	// RVA: 0x20AB940 Offset: 0x20A9F40 VA: 0x1820AB940
 	public static ClientReady Deserialize(byte[] buffer, ClientReady instance, bool isDelta = False) { }
 
-	// RVA: 0x20AB490 Offset: 0x20A9A90 VA: 0x1820AB490
+	// RVA: 0x20AB750 Offset: 0x20A9D50 VA: 0x1820AB750
 	public static ClientReady Deserialize(Stream stream, ClientReady instance, bool isDelta) { }
 
-	// RVA: 0x20AAE10 Offset: 0x20A9410 VA: 0x1820AAE10
+	// RVA: 0x20AB0D0 Offset: 0x20A96D0 VA: 0x1820AB0D0
 	public static ClientReady DeserializeLengthDelimited(Stream stream, ClientReady instance, bool isDelta) { }
 
-	// RVA: 0x20AB170 Offset: 0x20A9770 VA: 0x1820AB170
+	// RVA: 0x20AB430 Offset: 0x20A9A30 VA: 0x1820AB430
 	public static ClientReady DeserializeLength(Stream stream, int length, ClientReady instance, bool isDelta) { }
 
-	// RVA: 0x20ABE80 Offset: 0x20AA480 VA: 0x1820ABE80
+	// RVA: 0x20AC140 Offset: 0x20AA740 VA: 0x1820AC140
 	public static void SerializeDelta(Stream stream, ClientReady instance, ClientReady previous) { }
 
-	// RVA: 0x20AC220 Offset: 0x20AA820 VA: 0x1820AC220
+	// RVA: 0x20AC4E0 Offset: 0x20AAAE0 VA: 0x1820AC4E0
 	public static void Serialize(Stream stream, ClientReady instance) { }
 
-	// RVA: 0x20AC400 Offset: 0x20AAA00 VA: 0x1820AC400
+	// RVA: 0x20AC6C0 Offset: 0x20AACC0 VA: 0x1820AC6C0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20AC410 Offset: 0x20AAA10 VA: 0x1820AC410
+	// RVA: 0x20AC6D0 Offset: 0x20AACD0 VA: 0x1820AC6D0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20AC110 Offset: 0x20AA710 VA: 0x1820AC110
+	// RVA: 0x20AC3D0 Offset: 0x20AA9D0 VA: 0x1820AC3D0
 	public static byte[] SerializeToBytes(ClientReady instance) { }
 
-	// RVA: 0x20AC060 Offset: 0x20AA660 VA: 0x1820AC060
+	// RVA: 0x20AC320 Offset: 0x20AA920 VA: 0x1820AC320
 	public static void SerializeLengthDelimited(Stream stream, ClientReady instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -209,82 +209,82 @@ public class ClientReady.ClientInfo : IDisposable, Pool.IPooled, IProto // TypeD
 
 	// Methods
 
-	// RVA: 0x20AA3F0 Offset: 0x20A89F0 VA: 0x1820AA3F0
+	// RVA: 0x20AA6B0 Offset: 0x20A8CB0 VA: 0x1820AA6B0
 	public static void ResetToPool(ClientReady.ClientInfo instance) { }
 
-	// RVA: 0x20AA4B0 Offset: 0x20A8AB0 VA: 0x1820AA4B0
+	// RVA: 0x20AA770 Offset: 0x20A8D70 VA: 0x1820AA770
 	public void ResetToPool() { }
 
-	// RVA: 0x20AA330 Offset: 0x20A8930 VA: 0x1820AA330 Slot: 9
+	// RVA: 0x20AA5F0 Offset: 0x20A8BF0 VA: 0x1820AA5F0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20A9850 Offset: 0x20A7E50 VA: 0x1820A9850
+	// RVA: 0x20A9B10 Offset: 0x20A8110 VA: 0x1820A9B10
 	public void CopyTo(ClientReady.ClientInfo instance) { }
 
-	// RVA: 0x20A98A0 Offset: 0x20A7EA0 VA: 0x1820A98A0
+	// RVA: 0x20A9B60 Offset: 0x20A8160 VA: 0x1820A9B60
 	public ClientReady.ClientInfo Copy() { }
 
-	// RVA: 0x20AA2B0 Offset: 0x20A88B0 VA: 0x1820AA2B0
+	// RVA: 0x20AA570 Offset: 0x20A8B70 VA: 0x1820AA570
 	public static ClientReady.ClientInfo Deserialize(Stream stream) { }
 
-	// RVA: 0x20A9930 Offset: 0x20A7F30 VA: 0x1820A9930
+	// RVA: 0x20A9BF0 Offset: 0x20A81F0 VA: 0x1820A9BF0
 	public static ClientReady.ClientInfo DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20A9C20 Offset: 0x20A8220 VA: 0x1820A9C20
+	// RVA: 0x20A9EE0 Offset: 0x20A84E0 VA: 0x1820A9EE0
 	public static ClientReady.ClientInfo DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20AA090 Offset: 0x20A8690 VA: 0x1820AA090
+	// RVA: 0x20AA350 Offset: 0x20A8950 VA: 0x1820AA350
 	public static ClientReady.ClientInfo Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20AA3B0 Offset: 0x20A89B0 VA: 0x1820AA3B0
+	// RVA: 0x20AA670 Offset: 0x20A8C70 VA: 0x1820AA670
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20AAB20 Offset: 0x20A9120 VA: 0x1820AAB20 Slot: 12
+	// RVA: 0x20AADE0 Offset: 0x20A93E0 VA: 0x1820AADE0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20AAB40 Offset: 0x20A9140 VA: 0x1820AAB40 Slot: 13
+	// RVA: 0x20AAE00 Offset: 0x20A9400 VA: 0x1820AAE00 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ClientReady.ClientInfo previous) { }
 
-	// RVA: 0x20AA3D0 Offset: 0x20A89D0 VA: 0x1820AA3D0 Slot: 14
+	// RVA: 0x20AA690 Offset: 0x20A8C90 VA: 0x1820AA690 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20AA1B0 Offset: 0x20A87B0 VA: 0x1820AA1B0
+	// RVA: 0x20AA470 Offset: 0x20A8A70 VA: 0x1820AA470
 	public static ClientReady.ClientInfo Deserialize(byte[] buffer, ClientReady.ClientInfo instance, bool isDelta = False) { }
 
-	// RVA: 0x20A9F00 Offset: 0x20A8500 VA: 0x1820A9F00
+	// RVA: 0x20AA1C0 Offset: 0x20A87C0 VA: 0x1820AA1C0
 	public static ClientReady.ClientInfo Deserialize(Stream stream, ClientReady.ClientInfo instance, bool isDelta) { }
 
-	// RVA: 0x20A99B0 Offset: 0x20A7FB0 VA: 0x1820A99B0
+	// RVA: 0x20A9C70 Offset: 0x20A8270 VA: 0x1820A9C70
 	public static ClientReady.ClientInfo DeserializeLengthDelimited(Stream stream, ClientReady.ClientInfo instance, bool isDelta) { }
 
-	// RVA: 0x20A9CB0 Offset: 0x20A82B0 VA: 0x1820A9CB0
+	// RVA: 0x20A9F70 Offset: 0x20A8570 VA: 0x1820A9F70
 	public static ClientReady.ClientInfo DeserializeLength(Stream stream, int length, ClientReady.ClientInfo instance, bool isDelta) { }
 
-	// RVA: 0x20AA570 Offset: 0x20A8B70 VA: 0x1820AA570
+	// RVA: 0x20AA830 Offset: 0x20A8E30 VA: 0x1820AA830
 	public static void SerializeDelta(Stream stream, ClientReady.ClientInfo instance, ClientReady.ClientInfo previous) { }
 
-	// RVA: 0x20AA940 Offset: 0x20A8F40 VA: 0x1820AA940
+	// RVA: 0x20AAC00 Offset: 0x20A9200 VA: 0x1820AAC00
 	public static void Serialize(Stream stream, ClientReady.ClientInfo instance) { }
 
-	// RVA: 0x20AAB10 Offset: 0x20A9110 VA: 0x1820AAB10
+	// RVA: 0x20AADD0 Offset: 0x20A93D0 VA: 0x1820AADD0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20AAB20 Offset: 0x20A9120 VA: 0x1820AAB20
+	// RVA: 0x20AADE0 Offset: 0x20A93E0 VA: 0x1820AADE0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20AA830 Offset: 0x20A8E30 VA: 0x1820AA830
+	// RVA: 0x20AAAF0 Offset: 0x20A90F0 VA: 0x1820AAAF0
 	public static byte[] SerializeToBytes(ClientReady.ClientInfo instance) { }
 
-	// RVA: 0x20AA780 Offset: 0x20A8D80 VA: 0x1820AA780
+	// RVA: 0x20AAA40 Offset: 0x20A9040 VA: 0x1820AAA40
 	public static void SerializeLengthDelimited(Stream stream, ClientReady.ClientInfo instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -324,15 +324,15 @@ public class Client : BaseNetwork // TypeDefIndex: 6687
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public Connection get_Connection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	protected void set_Connection(Connection value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x82BC90 Offset: 0x82A290 VA: 0x18082BC90 Slot: 7
+	// RVA: 0x82BDA0 Offset: 0x82A3A0 VA: 0x18082BDA0 Slot: 7
 	public virtual bool get_IsPlaying() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -367,7 +367,7 @@ public class Client : BaseNetwork // TypeDefIndex: 6687
 	// RVA: 0x592640 Offset: 0x590C40 VA: 0x180592640
 	public void set_IsOfficialServer(bool value) { }
 
-	// RVA: 0x220CFA0 Offset: 0x220B5A0 VA: 0x18220CFA0 Slot: 8
+	// RVA: 0x220D260 Offset: 0x220B860 VA: 0x18220D260 Slot: 8
 	public virtual bool Connect(string strURL, int port) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 9
@@ -379,40 +379,40 @@ public class Client : BaseNetwork // TypeDefIndex: 6687
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 11
 	public virtual bool IsConnected() { }
 
-	// RVA: 0x220D150 Offset: 0x220B750 VA: 0x18220D150
+	// RVA: 0x220D410 Offset: 0x220BA10 VA: 0x18220D410
 	protected void OnDisconnected(string str) { }
 
-	// RVA: 0x220D010 Offset: 0x220B610 VA: 0x18220D010
+	// RVA: 0x220D2D0 Offset: 0x220B8D0 VA: 0x18220D2D0
 	public Networkable CreateNetworkable(uint networkID, uint networkGroup) { }
 
-	// RVA: 0x220D0C0 Offset: 0x220B6C0 VA: 0x18220D0C0
+	// RVA: 0x220D380 Offset: 0x220B980 VA: 0x18220D380
 	public void DestroyNetworkable(ref Networkable networkable) { }
 
-	// RVA: 0x220D210 Offset: 0x220B810 VA: 0x18220D210
+	// RVA: 0x220D4D0 Offset: 0x220BAD0 VA: 0x18220D4D0
 	public void SetupNetworkable(Networkable net) { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 12
 	public virtual int GetLastPing() { }
 
-	// RVA: 0x220D540 Offset: 0x220BB40 VA: 0x18220D540
+	// RVA: 0x220D800 Offset: 0x220BE00 VA: 0x18220D800
 	public bool get_IsRecording() { }
 
-	// RVA: 0xFA0BF0 Offset: 0xF9F1F0 VA: 0x180FA0BF0
+	// RVA: 0xFA0EB0 Offset: 0xF9F4B0 VA: 0x180FA0EB0
 	public string get_RecordFilename() { }
 
-	// RVA: 0x220D560 Offset: 0x220BB60 VA: 0x18220D560
+	// RVA: 0x220D820 Offset: 0x220BE20 VA: 0x18220D820
 	public TimeSpan get_RecordTimeElapsed() { }
 
-	// RVA: 0x220D240 Offset: 0x220B840 VA: 0x18220D240
+	// RVA: 0x220D500 Offset: 0x220BB00 VA: 0x18220D500
 	public bool StartRecording(string targetFilename, IDemoHeader header) { }
 
-	// RVA: 0x220D360 Offset: 0x220B960 VA: 0x18220D360
+	// RVA: 0x220D620 Offset: 0x220BC20 VA: 0x18220D620
 	public void StopRecording() { }
 
-	// RVA: 0x220D3D0 Offset: 0x220B9D0 VA: 0x18220D3D0
+	// RVA: 0x220D690 Offset: 0x220BC90 VA: 0x18220D690
 	public void .ctor() { }
 
-	// RVA: 0x220D380 Offset: 0x220B980 VA: 0x18220D380
+	// RVA: 0x220D640 Offset: 0x220BC40 VA: 0x18220D640
 	private static void .cctor() { }
 
 }
@@ -420,7 +420,7 @@ public class Client : BaseNetwork // TypeDefIndex: 6687
 public class ClientVar : ConsoleVar // TypeDefIndex: 6894
 {	// Methods
 
-	// RVA: 0x22B1E90 Offset: 0x22B0490 VA: 0x1822B1E90
+	// RVA: 0x22B2150 Offset: 0x22B0750 VA: 0x1822B2150
 	public void .ctor() { }
 
 }
@@ -454,40 +454,40 @@ public class Client : Client // TypeDefIndex: 7331
 
 	// Methods
 
-	// RVA: 0x22CC5D0 Offset: 0x22CABD0 VA: 0x1822CC5D0 Slot: 11
+	// RVA: 0x22CC890 Offset: 0x22CAE90 VA: 0x1822CC890 Slot: 11
 	public override bool IsConnected() { }
 
-	// RVA: 0x22CB2C0 Offset: 0x22C98C0 VA: 0x1822CB2C0 Slot: 8
+	// RVA: 0x22CB580 Offset: 0x22C9B80 VA: 0x1822CB580 Slot: 8
 	public override bool Connect(string strURL, int port) { }
 
-	// RVA: 0x22CC050 Offset: 0x22CA650 VA: 0x1822CC050
+	// RVA: 0x22CC310 Offset: 0x22CA910 VA: 0x1822CC310
 	internal bool HandleRaknetPacket(byte type) { }
 
-	// RVA: 0x22CBA30 Offset: 0x22CA030 VA: 0x1822CBA30
+	// RVA: 0x22CBCF0 Offset: 0x22CA2F0 VA: 0x1822CBCF0
 	protected void HandleMessage() { }
 
-	// RVA: 0x22CB3D0 Offset: 0x22C99D0 VA: 0x1822CB3D0 Slot: 9
+	// RVA: 0x22CB690 Offset: 0x22C9C90 VA: 0x1822CB690 Slot: 9
 	public override void Cycle() { }
 
-	// RVA: 0x22CB7F0 Offset: 0x22C9DF0 VA: 0x1822CB7F0 Slot: 10
+	// RVA: 0x22CBAB0 Offset: 0x22CA0B0 VA: 0x1822CBAB0 Slot: 10
 	public override void Disconnect(string reason, bool sendReasonToServer) { }
 
-	// RVA: 0x22CB950 Offset: 0x22C9F50 VA: 0x1822CB950 Slot: 5
+	// RVA: 0x22CBC10 Offset: 0x22CA210 VA: 0x1822CBC10 Slot: 5
 	public override string GetDebug(Connection connection) { }
 
-	// RVA: 0x22CBA10 Offset: 0x22CA010 VA: 0x1822CBA10 Slot: 6
+	// RVA: 0x22CBCD0 Offset: 0x22CA2D0 VA: 0x1822CBCD0 Slot: 6
 	public override ulong GetStat(Connection connection, BaseNetwork.StatTypeLong type) { }
 
-	// RVA: 0x22CB9D0 Offset: 0x22C9FD0 VA: 0x1822CB9D0 Slot: 12
+	// RVA: 0x22CBC90 Offset: 0x22CA290 VA: 0x1822CBC90 Slot: 12
 	public override int GetLastPing() { }
 
-	// RVA: 0x22CC5E0 Offset: 0x22CABE0 VA: 0x1822CC5E0 Slot: 4
+	// RVA: 0x22CC8A0 Offset: 0x22CAEA0 VA: 0x1822CC8A0 Slot: 4
 	public override void Send(SendInfo sendinfo, MemoryStream data) { }
 
-	// RVA: 0x22CC780 Offset: 0x22CAD80 VA: 0x1822CC780
+	// RVA: 0x22CCA40 Offset: 0x22CB040 VA: 0x1822CCA40
 	public void .ctor() { }
 
-	// RVA: 0x22CC730 Offset: 0x22CAD30 VA: 0x1822CC730
+	// RVA: 0x22CC9F0 Offset: 0x22CAFF0 VA: 0x1822CC9F0
 	private static void .cctor() { }
 
 }
@@ -1180,127 +1180,127 @@ public class Client : ConsoleSystem // TypeDefIndex: 11892
 
 	// Methods
 
-	// RVA: 0x6D0120 Offset: 0x6CE720 VA: 0x1806D0120
+	// RVA: 0x6D0230 Offset: 0x6CE830 VA: 0x1806D0230
 	public static float get_maxreceivetime() { }
 
-	// RVA: 0x6D16E0 Offset: 0x6CFCE0 VA: 0x1806D16E0
+	// RVA: 0x6D17F0 Offset: 0x6CFDF0 VA: 0x1806D17F0
 	public static void set_maxreceivetime(float value) { }
 
-	// RVA: 0x6D0180 Offset: 0x6CE780 VA: 0x1806D0180
+	// RVA: 0x6D0290 Offset: 0x6CE890 VA: 0x1806D0290
 	public static float get_minreceivefraction() { }
 
-	// RVA: 0x6D17A0 Offset: 0x6CFDA0 VA: 0x1806D17A0
+	// RVA: 0x6D18B0 Offset: 0x6CFEB0 VA: 0x1806D18B0
 	public static void set_minreceivefraction(float value) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CF700 Offset: 0x6CDD00 VA: 0x1806CF700
+	// RVA: 0x6CF810 Offset: 0x6CDE10 VA: 0x1806CF810
 	public static string connect(string address = "127.0.0.1:28015", string protocol = "", bool hideIpAddress = False) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CF9C0 Offset: 0x6CDFC0 VA: 0x1806CF9C0
+	// RVA: 0x6CFAD0 Offset: 0x6CE0D0 VA: 0x1806CFAD0
 	public static string connecthidden(string address = "127.0.0.1:28015", string protocol = "") { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CFD00 Offset: 0x6CE300 VA: 0x1806CFD00
+	// RVA: 0x6CFE10 Offset: 0x6CE410 VA: 0x1806CFE10
 	public static string fps() { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CFAA0 Offset: 0x6CE0A0 VA: 0x1806CFAA0
+	// RVA: 0x6CFBB0 Offset: 0x6CE1B0 VA: 0x1806CFBB0
 	public static string disconnect() { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6D0840 Offset: 0x6CEE40 VA: 0x1806D0840
+	// RVA: 0x6D0950 Offset: 0x6CEF50 VA: 0x1806D0950
 	public static void report() { }
 
 	[ClientVar] // RVA: 0x8F3B0 Offset: 0x8E7B0 VA: 0x18008F3B0
-	// RVA: 0x6D05E0 Offset: 0x6CEBE0 VA: 0x1806D05E0
+	// RVA: 0x6D06F0 Offset: 0x6CECF0 VA: 0x1806D06F0
 	public static string printpos() { }
 
 	[ClientVar] // RVA: 0x8F4C0 Offset: 0x8E8C0 VA: 0x18008F4C0
-	// RVA: 0x6D0700 Offset: 0x6CED00 VA: 0x1806D0700
+	// RVA: 0x6D0810 Offset: 0x6CEE10 VA: 0x1806D0810
 	public static string printrot() { }
 
 	[ClientVar] // RVA: 0x8F7A0 Offset: 0x8EBA0 VA: 0x18008F7A0
-	// RVA: 0x6D0280 Offset: 0x6CE880 VA: 0x1806D0280
+	// RVA: 0x6D0390 Offset: 0x6CE990 VA: 0x1806D0390
 	public static string printeyes() { }
 
 	[ClientVar] // RVA: 0x8F820 Offset: 0x8EC20 VA: 0x18008F820
-	// RVA: 0x6D04D0 Offset: 0x6CEAD0 VA: 0x1806D04D0
+	// RVA: 0x6D05E0 Offset: 0x6CEBE0 VA: 0x1806D05E0
 	public static string printinput() { }
 
 	[ClientVar] // RVA: 0x8F9B0 Offset: 0x8EDB0 VA: 0x18008F9B0
-	// RVA: 0x6D03C0 Offset: 0x6CE9C0 VA: 0x1806D03C0
+	// RVA: 0x6D04D0 Offset: 0x6CEAD0 VA: 0x1806D04D0
 	public static string printhead() { }
 
-	// RVA: 0x6CE480 Offset: 0x6CCA80 VA: 0x1806CE480
+	// RVA: 0x6CE590 Offset: 0x6CCB90 VA: 0x1806CE590
 	public static string GetClientFolder(string folder) { }
 
-	// RVA: 0x6D0040 Offset: 0x6CE640 VA: 0x1806D0040
+	// RVA: 0x6D0150 Offset: 0x6CE750 VA: 0x1806D0150
 	public static bool get_camPhysical() { }
 
-	// RVA: 0x6D1240 Offset: 0x6CF840 VA: 0x1806D1240
+	// RVA: 0x6D1350 Offset: 0x6CF950 VA: 0x1806D1350
 	public static void set_camPhysical(bool value) { }
 
-	// RVA: 0x6CFE50 Offset: 0x6CE450 VA: 0x1806CFE50
+	// RVA: 0x6CFF60 Offset: 0x6CE560 VA: 0x1806CFF60
 	public static int get_camPhysicalSensor() { }
 
-	// RVA: 0x6D10A0 Offset: 0x6CF6A0 VA: 0x1806D10A0
+	// RVA: 0x6D11B0 Offset: 0x6CF7B0 VA: 0x1806D11B0
 	public static void set_camPhysicalSensor(int value) { }
 
-	// RVA: 0x6CFD70 Offset: 0x6CE370 VA: 0x1806CFD70
+	// RVA: 0x6CFE80 Offset: 0x6CE480 VA: 0x1806CFE80
 	public static float get_camPhysicalFocalLength() { }
 
-	// RVA: 0x6D0FC0 Offset: 0x6CF5C0 VA: 0x1806D0FC0
+	// RVA: 0x6D10D0 Offset: 0x6CF6D0 VA: 0x1806D10D0
 	public static void set_camPhysicalFocalLength(float value) { }
 
 	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
-	// RVA: 0x6CF590 Offset: 0x6CDB90 VA: 0x1806CF590
+	// RVA: 0x6CF6A0 Offset: 0x6CDCA0 VA: 0x1806CF6A0
 	public static void camPhysicalSensorTypes(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
-	// RVA: 0x6D1B10 Offset: 0x6D0110 VA: 0x1806D1B10
+	// RVA: 0x6D1C20 Offset: 0x6D0220 VA: 0x1806D1C20
 	public static void sv(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CFA30 Offset: 0x6CE030 VA: 0x1806CFA30
+	// RVA: 0x6CFB40 Offset: 0x6CE140 VA: 0x1806CFB40
 	public static void consoletoggle() { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6D01E0 Offset: 0x6CE7E0 VA: 0x1806D01E0
+	// RVA: 0x6D02F0 Offset: 0x6CE8F0 VA: 0x1806D02F0
 	public static int ping() { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CF450 Offset: 0x6CDA50 VA: 0x1806CF450
+	// RVA: 0x6CF560 Offset: 0x6CDB60 VA: 0x1806CF560
 	public static void benchmark(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CF300 Offset: 0x6CD900 VA: 0x1806CF300
+	// RVA: 0x6CF410 Offset: 0x6CDA10 VA: 0x1806CF410
 	public static void benchmark_demo(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6D1860 Offset: 0x6CFE60 VA: 0x1806D1860
+	// RVA: 0x6D1970 Offset: 0x6CFF70 VA: 0x1806D1970
 	public static void setunderwear(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CE4B0 Offset: 0x6CCAB0 VA: 0x1806CE4B0
+	// RVA: 0x6CE5C0 Offset: 0x6CCBC0 VA: 0x1806CE5C0
 	public static void PlayerSeed(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CE950 Offset: 0x6CCF50 VA: 0x1806CE950
+	// RVA: 0x6CEA60 Offset: 0x6CD060 VA: 0x1806CEA60
 	public static void ShufflePlayerSeed(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CE860 Offset: 0x6CCE60 VA: 0x1806CE860
+	// RVA: 0x6CE970 Offset: 0x6CCF70 VA: 0x1806CE970
 	public static void ReportPlayer(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CE7A0 Offset: 0x6CCDA0 VA: 0x1806CE7A0
+	// RVA: 0x6CE8B0 Offset: 0x6CCEB0 VA: 0x1806CE8B0
 	public static void ReportBug(ConsoleSystem.Arg arg) { }
 
-	// RVA: 0x6CF2A0 Offset: 0x6CD8A0 VA: 0x1806CF2A0
+	// RVA: 0x6CF3B0 Offset: 0x6CD9B0 VA: 0x1806CF3B0
 	public void .ctor() { }
 
-	// RVA: 0x6CEC10 Offset: 0x6CD210 VA: 0x1806CEC10
+	// RVA: 0x6CED20 Offset: 0x6CD320 VA: 0x1806CED20
 	private static void .cctor() { }
 
 }

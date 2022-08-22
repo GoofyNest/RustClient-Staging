@@ -21,16 +21,16 @@ internal class Axis : AstNode // TypeDefIndex: 1789
 
 	// Methods
 
-	// RVA: 0x12DD5D0 Offset: 0x12DBBD0 VA: 0x1812DD5D0
+	// RVA: 0x12DD890 Offset: 0x12DBE90 VA: 0x1812DD890
 	public void .ctor(Axis.AxisType axisType, AstNode input, string prefix, string name, XPathNodeType nodetype) { }
 
-	// RVA: 0x12DD680 Offset: 0x12DBC80 VA: 0x1812DD680
+	// RVA: 0x12DD940 Offset: 0x12DBF40 VA: 0x1812DD940
 	public void .ctor(Axis.AxisType axisType, AstNode input) { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 4
 	public override AstNode.AstType get_Type() { }
 
-	// RVA: 0xAC1DA0 Offset: 0xAC03A0 VA: 0x180AC1DA0 Slot: 5
+	// RVA: 0xAC2060 Offset: 0xAC0660 VA: 0x180AC2060 Slot: 5
 	public override XPathResultType get_ReturnType() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
@@ -42,22 +42,22 @@ internal class Axis : AstNode // TypeDefIndex: 1789
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public string get_Prefix() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public string get_Name() { }
 
-	// RVA: 0xA38CE0 Offset: 0xA372E0 VA: 0x180A38CE0
+	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
 	public XPathNodeType get_NodeType() { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public Axis.AxisType get_TypeOfAxis() { }
 
-	// RVA: 0xBA1A80 Offset: 0xBA0080 VA: 0x180BA1A80
+	// RVA: 0xBA1D40 Offset: 0xBA0340 VA: 0x180BA1D40
 	public bool get_AbbrAxis() { }
 
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
 	public string get_Urn() { }
 
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	public void set_Urn(string value) { }
 
 }

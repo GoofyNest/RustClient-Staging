@@ -21,22 +21,22 @@ public struct SqlBinary : INullable, IComparable, IXmlSerializable // TypeDefInd
 	// RVA: 0x137DC0 Offset: 0x1371C0 VA: 0x180137DC0
 	public byte[] get_Value() { }
 
-	// RVA: 0xE9BD60 Offset: 0xE9A360 VA: 0x180E9BD60
+	// RVA: 0xE9C020 Offset: 0xE9A620 VA: 0x180E9C020
 	public static SqlBinary op_Implicit(byte[] x) { }
 
 	// RVA: 0x137C80 Offset: 0x137080 VA: 0x180137C80 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xE9B900 Offset: 0xE99F00 VA: 0x180E9B900
+	// RVA: 0xE9BBC0 Offset: 0xE9A1C0 VA: 0x180E9BBC0
 	private static EComparison PerformCompareByte(byte[] x, byte[] y) { }
 
-	// RVA: 0xE9BBA0 Offset: 0xE9A1A0 VA: 0x180E9BBA0
+	// RVA: 0xE9BE60 Offset: 0xE9A460 VA: 0x180E9BE60
 	public static SqlBoolean op_Equality(SqlBinary x, SqlBinary y) { }
 
-	// RVA: 0xE9BDF0 Offset: 0xE9A3F0 VA: 0x180E9BDF0
+	// RVA: 0xE9C0B0 Offset: 0xE9A6B0 VA: 0x180E9C0B0
 	public static SqlBoolean op_LessThan(SqlBinary x, SqlBinary y) { }
 
-	// RVA: 0xE9BC80 Offset: 0xE9A280 VA: 0x180E9BC80
+	// RVA: 0xE9BF40 Offset: 0xE9A540 VA: 0x180E9BF40
 	public static SqlBoolean op_GreaterThan(SqlBinary x, SqlBinary y) { }
 
 	// RVA: 0x137870 Offset: 0x136C70 VA: 0x180137870 Slot: 5
@@ -48,7 +48,7 @@ public struct SqlBinary : INullable, IComparable, IXmlSerializable // TypeDefInd
 	// RVA: 0x137970 Offset: 0x136D70 VA: 0x180137970 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0xE9B890 Offset: 0xE99E90 VA: 0x180E9B890
+	// RVA: 0xE9BB50 Offset: 0xE9A150 VA: 0x180E9BB50
 	internal static int HashByteArray(byte[] rgbValue, int length) { }
 
 	// RVA: 0x137980 Offset: 0x136D80 VA: 0x180137980 Slot: 2
@@ -63,10 +63,10 @@ public struct SqlBinary : INullable, IComparable, IXmlSerializable // TypeDefInd
 	// RVA: 0x137BB0 Offset: 0x136FB0 VA: 0x180137BB0 Slot: 8
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
-	// RVA: 0xE9B830 Offset: 0xE99E30 VA: 0x180E9B830
+	// RVA: 0xE9BAF0 Offset: 0xE9A0F0 VA: 0x180E9BAF0
 	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet) { }
 
-	// RVA: 0xE9BA10 Offset: 0xE9A010 VA: 0x180E9BA10
+	// RVA: 0xE9BCD0 Offset: 0xE9A2D0 VA: 0x180E9BCD0
 	private static void .cctor() { }
 
 }

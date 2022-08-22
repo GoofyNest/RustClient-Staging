@@ -16,7 +16,7 @@ internal struct GSStatsReceived_t : ICallbackData // TypeDefIndex: 5500
 	// RVA: 0x1E77A0 Offset: 0x1E6BA0 VA: 0x1801E77A0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370CF0 Offset: 0x136F2F0 VA: 0x181370CF0
+	// RVA: 0x1370FB0 Offset: 0x136F5B0 VA: 0x181370FB0
 	private static void .cctor() { }
 
 }

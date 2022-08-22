@@ -42,55 +42,55 @@ public class ViewModelCamera : MonoBehaviour // TypeDefIndex: 11450
 
 	// Methods
 
-	// RVA: 0x7F1CB0 Offset: 0x7F02B0 VA: 0x1807F1CB0
+	// RVA: 0x7F1DC0 Offset: 0x7F03C0 VA: 0x1807F1DC0
 	private void OnEnable() { }
 
-	// RVA: 0x7F1B60 Offset: 0x7F0160 VA: 0x1807F1B60
+	// RVA: 0x7F1C70 Offset: 0x7F0270 VA: 0x1807F1C70
 	private void OnDisable() { }
 
-	// RVA: 0x7F0C20 Offset: 0x7EF220 VA: 0x1807F0C20
+	// RVA: 0x7F0D30 Offset: 0x7EF330 VA: 0x1807F0D30
 	public void OnBeforeGBuffer(CommandBuffer cb) { }
 
-	// RVA: 0x7F0600 Offset: 0x7EEC00 VA: 0x1807F0600
+	// RVA: 0x7F0710 Offset: 0x7EED10 VA: 0x1807F0710
 	public void OnAfterGBuffer(CommandBuffer cb) { }
 
-	// RVA: 0x7F0F40 Offset: 0x7EF540 VA: 0x1807F0F40
+	// RVA: 0x7F1050 Offset: 0x7EF650 VA: 0x1807F1050
 	private void OnBeforeImageEffectsOpaque(CommandBuffer cb) { }
 
-	// RVA: 0x7F0300 Offset: 0x7EE900 VA: 0x1807F0300
+	// RVA: 0x7F0410 Offset: 0x7EEA10 VA: 0x1807F0410
 	private void OnAfterForwardAlpha(CommandBuffer cb) { }
 
-	// RVA: 0x7F2100 Offset: 0x7F0700 VA: 0x1807F2100
+	// RVA: 0x7F2210 Offset: 0x7F0810 VA: 0x1807F2210
 	private void SetCameraMatrices(CommandBuffer cb) { }
 
-	// RVA: 0x7F23B0 Offset: 0x7F09B0 VA: 0x1807F23B0
+	// RVA: 0x7F24C0 Offset: 0x7F0AC0 VA: 0x1807F24C0
 	private void UpdateAmbientProbe(CommandBuffer cb) { }
 
-	// RVA: 0x7F32F0 Offset: 0x7F18F0 VA: 0x1807F32F0
+	// RVA: 0x7F3400 Offset: 0x7F1A00 VA: 0x1807F3400
 	private void UpdateSkyReflection(CommandBuffer cb) { }
 
-	// RVA: 0x7F2C50 Offset: 0x7F1250 VA: 0x1807F2C50
+	// RVA: 0x7F2D60 Offset: 0x7F1360 VA: 0x1807F2D60
 	private void UpdateSHCoefficients(CommandBuffer cb) { }
 
-	// RVA: 0x7F2A50 Offset: 0x7F1050 VA: 0x1807F2A50
+	// RVA: 0x7F2B60 Offset: 0x7F1160 VA: 0x1807F2B60
 	private void UpdateLightParameters(CommandBuffer cb) { }
 
-	// RVA: 0x7F02A0 Offset: 0x7EE8A0 VA: 0x1807F02A0
+	// RVA: 0x7F03B0 Offset: 0x7EE9B0 VA: 0x1807F03B0
 	public void Clear() { }
 
-	// RVA: 0x7F01E0 Offset: 0x7EE7E0 VA: 0x1807F01E0
+	// RVA: 0x7F02F0 Offset: 0x7EE8F0 VA: 0x1807F02F0
 	public void AddGBufferDrawEvent(ViewModelDrawEvent drawEvent) { }
 
-	// RVA: 0x7F0120 Offset: 0x7EE720 VA: 0x1807F0120
+	// RVA: 0x7F0230 Offset: 0x7EE830 VA: 0x1807F0230
 	public void AddForwardAlphaDrawEvent(ViewModelDrawEvent drawEvent) { }
 
-	// RVA: 0x7F2080 Offset: 0x7F0680 VA: 0x1807F2080
+	// RVA: 0x7F2190 Offset: 0x7F0790 VA: 0x1807F2190
 	public void RemoveGBufferDrawEvent(ViewModelDrawEvent drawEvent) { }
 
-	// RVA: 0x7F2000 Offset: 0x7F0600 VA: 0x1807F2000
+	// RVA: 0x7F2110 Offset: 0x7F0710 VA: 0x1807F2110
 	public void RemoveForwardAlphaDrawEvent(ViewModelDrawEvent drawEvent) { }
 
-	// RVA: 0x7F3840 Offset: 0x7F1E40 VA: 0x1807F3840
+	// RVA: 0x7F3950 Offset: 0x7F1F50 VA: 0x1807F3950
 	public void .ctor() { }
 
 }

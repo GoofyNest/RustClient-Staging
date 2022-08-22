@@ -6,148 +6,148 @@ public class TerrainHeightMap : TerrainMap<short> // TypeDefIndex: 10400
 
 	// Methods
 
-	// RVA: 0x1145250 Offset: 0x1143850 VA: 0x181145250 Slot: 4
+	// RVA: 0x1145510 Offset: 0x1143B10 VA: 0x181145510 Slot: 4
 	public override void Setup() { }
 
-	// RVA: 0x11415A0 Offset: 0x113FBA0 VA: 0x1811415A0
+	// RVA: 0x1141860 Offset: 0x113FE60 VA: 0x181141860
 	public void ApplyToTerrain() { }
 
-	// RVA: 0x1141770 Offset: 0x113FD70 VA: 0x181141770
+	// RVA: 0x1141A30 Offset: 0x1140030 VA: 0x181141A30
 	public void GenerateTextures(bool heightTexture = True, bool normalTexture = True) { }
 
-	// RVA: 0x1141520 Offset: 0x113FB20 VA: 0x181141520
+	// RVA: 0x11417E0 Offset: 0x113FDE0 VA: 0x1811417E0
 	public void ApplyTextures() { }
 
-	// RVA: 0x1142090 Offset: 0x1140690 VA: 0x181142090
+	// RVA: 0x1142350 Offset: 0x1140950 VA: 0x181142350
 	public float GetHeight(Vector3 worldPos) { }
 
-	// RVA: 0x1142330 Offset: 0x1140930 VA: 0x181142330
+	// RVA: 0x11425F0 Offset: 0x1140BF0 VA: 0x1811425F0
 	public float GetHeight(float normX, float normZ) { }
 
-	// RVA: 0x1141E70 Offset: 0x1140470 VA: 0x181141E70
+	// RVA: 0x1142130 Offset: 0x1140730 VA: 0x181142130
 	public float GetHeightFast(Vector2 uv) { }
 
-	// RVA: 0x1142250 Offset: 0x1140850 VA: 0x181142250
+	// RVA: 0x1142510 Offset: 0x1140B10 VA: 0x181142510
 	public float GetHeight(int x, int z) { }
 
-	// RVA: 0x1141AB0 Offset: 0x11400B0 VA: 0x181141AB0
+	// RVA: 0x1141D70 Offset: 0x1140370 VA: 0x181141D70
 	public float GetHeight01(Vector3 worldPos) { }
 
-	// RVA: 0x1141BF0 Offset: 0x11401F0 VA: 0x181141BF0
+	// RVA: 0x1141EB0 Offset: 0x11404B0 VA: 0x181141EB0
 	public float GetHeight01(float normX, float normZ) { }
 
-	// RVA: 0x1143780 Offset: 0x1141D80 VA: 0x181143780
+	// RVA: 0x1143A40 Offset: 0x1142040 VA: 0x181143A40
 	public float GetTriangulatedHeight01(float normX, float normZ) { }
 
-	// RVA: 0x883970 Offset: 0x881F70 VA: 0x180883970
+	// RVA: 0x883A80 Offset: 0x882080 VA: 0x180883A80
 	public float GetHeight01(int x, int z) { }
 
-	// RVA: 0x883970 Offset: 0x881F70 VA: 0x180883970
+	// RVA: 0x883A80 Offset: 0x882080 VA: 0x180883A80
 	private float GetSrcHeight01(int x, int z) { }
 
-	// RVA: 0x1141A60 Offset: 0x1140060 VA: 0x181141A60
+	// RVA: 0x1141D20 Offset: 0x1140320 VA: 0x181141D20
 	private float GetDstHeight01(int x, int z) { }
 
-	// RVA: 0x1142F30 Offset: 0x1141530 VA: 0x181142F30
+	// RVA: 0x11431F0 Offset: 0x11417F0 VA: 0x1811431F0
 	public Vector3 GetNormal(Vector3 worldPos) { }
 
-	// RVA: 0x11429E0 Offset: 0x1140FE0 VA: 0x1811429E0
+	// RVA: 0x1142CA0 Offset: 0x11412A0 VA: 0x181142CA0
 	public Vector3 GetNormal(float normX, float normZ) { }
 
-	// RVA: 0x1142CA0 Offset: 0x11412A0 VA: 0x181142CA0
+	// RVA: 0x1142F60 Offset: 0x1141560 VA: 0x181142F60
 	public Vector3 GetNormal(int x, int z) { }
 
-	// RVA: 0x11423E0 Offset: 0x11409E0 VA: 0x1811423E0
+	// RVA: 0x11426A0 Offset: 0x1140CA0 VA: 0x1811426A0
 	private Vector3 GetNormalSobel(int x, int z) { }
 
-	// RVA: 0x1143580 Offset: 0x1141B80 VA: 0x181143580
+	// RVA: 0x1143840 Offset: 0x1141E40 VA: 0x181143840
 	public float GetSlope(Vector3 worldPos) { }
 
-	// RVA: 0x11434A0 Offset: 0x1141AA0 VA: 0x1811434A0
+	// RVA: 0x1143760 Offset: 0x1141D60 VA: 0x181143760
 	public float GetSlope(float normX, float normZ) { }
 
-	// RVA: 0x11433C0 Offset: 0x11419C0 VA: 0x1811433C0
+	// RVA: 0x1143680 Offset: 0x1141C80 VA: 0x181143680
 	public float GetSlope(int x, int z) { }
 
-	// RVA: 0x11431B0 Offset: 0x11417B0 VA: 0x1811431B0
+	// RVA: 0x1143470 Offset: 0x1141A70 VA: 0x181143470
 	public float GetSlope01(Vector3 worldPos) { }
 
-	// RVA: 0x1143190 Offset: 0x1141790 VA: 0x181143190
+	// RVA: 0x1143450 Offset: 0x1141A50 VA: 0x181143450
 	public float GetSlope01(float normX, float normZ) { }
 
-	// RVA: 0x11430B0 Offset: 0x11416B0 VA: 0x1811430B0
+	// RVA: 0x1143370 Offset: 0x1141970 VA: 0x181143370
 	public float GetSlope01(int x, int z) { }
 
-	// RVA: 0x11448C0 Offset: 0x1142EC0 VA: 0x1811448C0
+	// RVA: 0x1144B80 Offset: 0x1143180 VA: 0x181144B80
 	public void SetHeight(Vector3 worldPos, float height) { }
 
-	// RVA: 0x1144F10 Offset: 0x1143510 VA: 0x181144F10
+	// RVA: 0x11451D0 Offset: 0x11437D0 VA: 0x1811451D0
 	public void SetHeight(float normX, float normZ, float height) { }
 
-	// RVA: 0x884E60 Offset: 0x883460 VA: 0x180884E60
+	// RVA: 0x884F70 Offset: 0x883570 VA: 0x180884F70
 	public void SetHeight(int x, int z, float height) { }
 
-	// RVA: 0x1144D60 Offset: 0x1143360 VA: 0x181144D60
+	// RVA: 0x1145020 Offset: 0x1143620 VA: 0x181145020
 	public void SetHeight(Vector3 worldPos, float height, float opacity) { }
 
-	// RVA: 0x11450E0 Offset: 0x11436E0 VA: 0x1811450E0
+	// RVA: 0x11453A0 Offset: 0x11439A0 VA: 0x1811453A0
 	public void SetHeight(float normX, float normZ, float height, float opacity) { }
 
-	// RVA: 0x1145130 Offset: 0x1143730 VA: 0x181145130
+	// RVA: 0x11453F0 Offset: 0x11439F0 VA: 0x1811453F0
 	public void SetHeight(int x, int z, float height, float opacity) { }
 
-	// RVA: 0x1141380 Offset: 0x113F980 VA: 0x181141380
+	// RVA: 0x1141640 Offset: 0x113FC40 VA: 0x181141640
 	public void AddHeight(Vector3 worldPos, float delta) { }
 
-	// RVA: 0x1141200 Offset: 0x113F800 VA: 0x181141200
+	// RVA: 0x11414C0 Offset: 0x113FAC0 VA: 0x1811414C0
 	public void AddHeight(float normX, float normZ, float delta) { }
 
-	// RVA: 0x11410F0 Offset: 0x113F6F0 VA: 0x1811410F0
+	// RVA: 0x11413B0 Offset: 0x113F9B0 VA: 0x1811413B0
 	public void AddHeight(int x, int z, float delta) { }
 
-	// RVA: 0x1143E30 Offset: 0x1142430 VA: 0x181143E30
+	// RVA: 0x11440F0 Offset: 0x11426F0 VA: 0x1811440F0
 	public void LowerHeight(Vector3 worldPos, float height, float opacity) { }
 
-	// RVA: 0x1143FE0 Offset: 0x11425E0 VA: 0x181143FE0
+	// RVA: 0x11442A0 Offset: 0x11428A0 VA: 0x1811442A0
 	public void LowerHeight(float normX, float normZ, float height, float opacity) { }
 
-	// RVA: 0x1143CB0 Offset: 0x11422B0 VA: 0x181143CB0
+	// RVA: 0x1143F70 Offset: 0x1142570 VA: 0x181143F70
 	public void LowerHeight(int x, int z, float height, float opacity) { }
 
-	// RVA: 0x1144590 Offset: 0x1142B90 VA: 0x181144590
+	// RVA: 0x1144850 Offset: 0x1142E50 VA: 0x181144850
 	public void RaiseHeight(Vector3 worldPos, float height, float opacity) { }
 
-	// RVA: 0x1144270 Offset: 0x1142870 VA: 0x181144270
+	// RVA: 0x1144530 Offset: 0x1142B30 VA: 0x181144530
 	public void RaiseHeight(float normX, float normZ, float height, float opacity) { }
 
-	// RVA: 0x1144740 Offset: 0x1142D40 VA: 0x181144740
+	// RVA: 0x1144A00 Offset: 0x1143000 VA: 0x181144A00
 	public void RaiseHeight(int x, int z, float height, float opacity) { }
 
-	// RVA: 0x1144A90 Offset: 0x1143090 VA: 0x181144A90
+	// RVA: 0x1144D50 Offset: 0x1143350 VA: 0x181144D50
 	public void SetHeight(Vector3 worldPos, float opacity, float radius, float fade = 0) { }
 
-	// RVA: 0x1144FC0 Offset: 0x11435C0 VA: 0x181144FC0
+	// RVA: 0x1145280 Offset: 0x1143880 VA: 0x181145280
 	public void SetHeight(float normX, float normZ, float height, float opacity, float radius, float fade = 0) { }
 
-	// RVA: 0x11439E0 Offset: 0x1141FE0 VA: 0x1811439E0
+	// RVA: 0x1143CA0 Offset: 0x11422A0 VA: 0x181143CA0
 	public void LowerHeight(Vector3 worldPos, float opacity, float radius, float fade = 0) { }
 
-	// RVA: 0x1144030 Offset: 0x1142630 VA: 0x181144030
+	// RVA: 0x11442F0 Offset: 0x11428F0 VA: 0x1811442F0
 	public void LowerHeight(float normX, float normZ, float height, float opacity, float radius, float fade = 0) { }
 
-	// RVA: 0x11442C0 Offset: 0x11428C0 VA: 0x1811442C0
+	// RVA: 0x1144580 Offset: 0x1142B80 VA: 0x181144580
 	public void RaiseHeight(Vector3 worldPos, float opacity, float radius, float fade = 0) { }
 
-	// RVA: 0x1144150 Offset: 0x1142750 VA: 0x181144150
+	// RVA: 0x1144410 Offset: 0x1142A10 VA: 0x181144410
 	public void RaiseHeight(float normX, float normZ, float height, float opacity, float radius, float fade = 0) { }
 
-	// RVA: 0x1140ED0 Offset: 0x113F4D0 VA: 0x181140ED0
+	// RVA: 0x1141190 Offset: 0x113F790 VA: 0x181141190
 	public void AddHeight(Vector3 worldPos, float delta, float radius, float fade = 0) { }
 
-	// RVA: 0x1141260 Offset: 0x113F860 VA: 0x181141260
+	// RVA: 0x1141520 Offset: 0x113FB20 VA: 0x181141520
 	public void AddHeight(float normX, float normZ, float delta, float radius, float fade = 0) { }
 
-	// RVA: 0x1145560 Offset: 0x1143B60 VA: 0x181145560
+	// RVA: 0x1145820 Offset: 0x1143E20 VA: 0x181145820
 	public void .ctor() { }
 
 }
@@ -162,7 +162,7 @@ private sealed class TerrainHeightMap.<>c__DisplayClass4_0 // TypeDefIndex: 1040
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x11554F0 Offset: 0x1153AF0 VA: 0x1811554F0
+	// RVA: 0x11557B0 Offset: 0x1153DB0 VA: 0x1811557B0
 	internal void <ApplyToTerrain>b__0(int z) { }
 
 }
@@ -177,7 +177,7 @@ private sealed class TerrainHeightMap.<>c__DisplayClass5_0 // TypeDefIndex: 1040
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x88FF60 Offset: 0x88E560 VA: 0x18088FF60
+	// RVA: 0x890070 Offset: 0x88E670 VA: 0x180890070
 	internal void <GenerateTextures>b__0(int z) { }
 
 }
@@ -193,7 +193,7 @@ private sealed class TerrainHeightMap.<>c__DisplayClass5_1 // TypeDefIndex: 1040
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1155720 Offset: 0x1153D20 VA: 0x181155720
+	// RVA: 0x11559E0 Offset: 0x1153FE0 VA: 0x1811559E0
 	internal void <GenerateTextures>b__1(int z) { }
 
 }
@@ -209,7 +209,7 @@ private sealed class TerrainHeightMap.<>c__DisplayClass43_0 // TypeDefIndex: 104
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x11553C0 Offset: 0x11539C0 VA: 0x1811553C0
+	// RVA: 0x1155680 Offset: 0x1153C80 VA: 0x181155680
 	internal void <SetHeight>b__0(int x, int z, float lerp) { }
 
 }
@@ -225,7 +225,7 @@ private sealed class TerrainHeightMap.<>c__DisplayClass45_0 // TypeDefIndex: 104
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1155410 Offset: 0x1153A10 VA: 0x181155410
+	// RVA: 0x11556D0 Offset: 0x1153CD0 VA: 0x1811556D0
 	internal void <LowerHeight>b__0(int x, int z, float lerp) { }
 
 }
@@ -241,7 +241,7 @@ private sealed class TerrainHeightMap.<>c__DisplayClass47_0 // TypeDefIndex: 104
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1155460 Offset: 0x1153A60 VA: 0x181155460
+	// RVA: 0x1155720 Offset: 0x1153D20 VA: 0x181155720
 	internal void <RaiseHeight>b__0(int x, int z, float lerp) { }
 
 }
@@ -256,7 +256,7 @@ private sealed class TerrainHeightMap.<>c__DisplayClass49_0 // TypeDefIndex: 104
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x11554B0 Offset: 0x1153AB0 VA: 0x1811554B0
+	// RVA: 0x1155770 Offset: 0x1153D70 VA: 0x181155770
 	internal void <AddHeight>b__0(int x, int z, float lerp) { }
 
 }

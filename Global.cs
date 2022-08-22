@@ -14,18 +14,18 @@ public static class Global // TypeDefIndex: 6621
 
 	// Methods
 
-	// RVA: 0x1BA2EF0 Offset: 0x1BA14F0 VA: 0x181BA2EF0
+	// RVA: 0x1BA31B0 Offset: 0x1BA17B0 VA: 0x181BA31B0
 	public static MonoBehaviour get_Runner() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BA2EB0 Offset: 0x1BA14B0 VA: 0x181BA2EB0
+	// RVA: 0x1BA3170 Offset: 0x1BA1770 VA: 0x181BA3170
 	public static int get_LaunchCountThisVersion() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BA2FF0 Offset: 0x1BA15F0 VA: 0x181BA2FF0
+	// RVA: 0x1BA32B0 Offset: 0x1BA18B0 VA: 0x181BA32B0
 	private static void set_LaunchCountThisVersion(int value) { }
 
-	// RVA: 0x1BA2DB0 Offset: 0x1BA13B0 VA: 0x181BA2DB0
+	// RVA: 0x1BA3070 Offset: 0x1BA1670 VA: 0x181BA3070
 	public static void Init() { }
 
 }
@@ -105,43 +105,43 @@ public class Global : ConsoleSystem // TypeDefIndex: 11926
 
 	// Methods
 
-	// RVA: 0x6E2A40 Offset: 0x6E1040 VA: 0x1806E2A40
+	// RVA: 0x6E2B50 Offset: 0x6E1150 VA: 0x1806E2B50
 	public static void set_developer(int value) { }
 
-	// RVA: 0x6E1790 Offset: 0x6DFD90 VA: 0x1806E1790
+	// RVA: 0x6E18A0 Offset: 0x6DFEA0 VA: 0x1806E18A0
 	public static int get_developer() { }
 
-	// RVA: 0x6E15E0 Offset: 0x6DFBE0 VA: 0x1806E15E0
+	// RVA: 0x6E16F0 Offset: 0x6DFCF0 VA: 0x1806E16F0
 	public static int get_censornudity() { }
 
-	// RVA: 0x6E2500 Offset: 0x6E0B00 VA: 0x1806E2500
+	// RVA: 0x6E2610 Offset: 0x6E0C10 VA: 0x1806E2610
 	public static void set_censornudity(int value) { }
 
-	// RVA: 0x6E0AA0 Offset: 0x6DF0A0 VA: 0x1806E0AA0
+	// RVA: 0x6E0BB0 Offset: 0x6DF1B0 VA: 0x1806E0BB0
 	private static bool ForceUnderwear() { }
 
-	// RVA: 0x6E16D0 Offset: 0x6DFCD0 VA: 0x1806E16D0
+	// RVA: 0x6E17E0 Offset: 0x6DFDE0 VA: 0x1806E17E0
 	public static bool get_censorsigns() { }
 
-	// RVA: 0x6E2800 Offset: 0x6E0E00 VA: 0x1806E2800
+	// RVA: 0x6E2910 Offset: 0x6E0F10 VA: 0x1806E2910
 	public static void set_censorsigns(bool value) { }
 
-	// RVA: 0x6E1670 Offset: 0x6DFC70 VA: 0x1806E1670
+	// RVA: 0x6E1780 Offset: 0x6DFD80 VA: 0x1806E1780
 	public static bool get_censorrecordings() { }
 
-	// RVA: 0x6E25E0 Offset: 0x6E0BE0 VA: 0x1806E25E0
+	// RVA: 0x6E26F0 Offset: 0x6E0CF0 VA: 0x1806E26F0
 	public static void set_censorrecordings(bool value) { }
 
-	// RVA: 0x6E19D0 Offset: 0x6DFFD0 VA: 0x1806E19D0
+	// RVA: 0x6E1AE0 Offset: 0x6E00E0 VA: 0x1806E1AE0
 	public static bool get_processMidiInput() { }
 
-	// RVA: 0x6E2BD0 Offset: 0x6E11D0 VA: 0x1806E2BD0
+	// RVA: 0x6E2CE0 Offset: 0x6E12E0 VA: 0x1806E2CE0
 	public static void set_processMidiInput(bool value) { }
 
-	// RVA: 0x6E1A30 Offset: 0x6E0030 VA: 0x1806E1A30
+	// RVA: 0x6E1B40 Offset: 0x6E0140 VA: 0x1806E1B40
 	public static bool get_showBlood() { }
 
-	// RVA: 0x6E2CC0 Offset: 0x6E12C0 VA: 0x1806E2CC0
+	// RVA: 0x6E2DD0 Offset: 0x6E13D0 VA: 0x1806E2DD0
 	public static void set_showBlood(bool value) { }
 
 	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
@@ -150,19 +150,19 @@ public class Global : ConsoleSystem // TypeDefIndex: 11926
 
 	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
-	// RVA: 0x6E22F0 Offset: 0x6E08F0 VA: 0x1806E22F0
+	// RVA: 0x6E2400 Offset: 0x6E0A00 VA: 0x1806E2400
 	public static void quit(ConsoleSystem.Arg args) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6E37C0 Offset: 0x6E1DC0 VA: 0x1806E37C0
+	// RVA: 0x6E38D0 Offset: 0x6E1ED0 VA: 0x1806E38D0
 	public static void writecfg() { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6E23D0 Offset: 0x6E09D0 VA: 0x1806E23D0
+	// RVA: 0x6E24E0 Offset: 0x6E0AE0 VA: 0x1806E24E0
 	public static void readcfg(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6E1300 Offset: 0x6DF900 VA: 0x1806E1300
+	// RVA: 0x6E1410 Offset: 0x6DFA10 VA: 0x1806E1410
 	public static void exec(ConsoleSystem.Arg arg) { }
 
 	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
@@ -171,31 +171,31 @@ public class Global : ConsoleSystem // TypeDefIndex: 11926
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6E1A90 Offset: 0x6E0090 VA: 0x1806E1A90
+	// RVA: 0x6E1BA0 Offset: 0x6E01A0 VA: 0x1806E1BA0
 	public static void objects(ConsoleSystem.Arg args) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6E31B0 Offset: 0x6E17B0 VA: 0x1806E31B0
+	// RVA: 0x6E32C0 Offset: 0x6E18C0 VA: 0x1806E32C0
 	public static void textures(ConsoleSystem.Arg args) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6E0EB0 Offset: 0x6DF4B0 VA: 0x1806E0EB0
+	// RVA: 0x6E0FC0 Offset: 0x6DF5C0 VA: 0x1806E0FC0
 	public static void colliders(ConsoleSystem.Arg args) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6E12D0 Offset: 0x6DF8D0 VA: 0x1806E12D0
+	// RVA: 0x6E13E0 Offset: 0x6DF9E0 VA: 0x1806E13E0
 	public static void error(ConsoleSystem.Arg args) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6E22A0 Offset: 0x6E08A0 VA: 0x1806E22A0
+	// RVA: 0x6E23B0 Offset: 0x6E09B0 VA: 0x1806E23B0
 	public static void queue(ConsoleSystem.Arg args) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6E2D20 Offset: 0x6E1320 VA: 0x1806E2D20
+	// RVA: 0x6E2E30 Offset: 0x6E1430 VA: 0x1806E2E30
 	public static void status_cl(ConsoleSystem.Arg args) { }
 
 	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
@@ -236,34 +236,34 @@ public class Global : ConsoleSystem // TypeDefIndex: 11926
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6E1470 Offset: 0x6DFA70 VA: 0x1806E1470
+	// RVA: 0x6E1580 Offset: 0x6DFB80 VA: 0x1806E1580
 	public static void free(ConsoleSystem.Arg args) { }
 
-	// RVA: 0x6E1930 Offset: 0x6DFF30 VA: 0x1806E1930
+	// RVA: 0x6E1A40 Offset: 0x6E0040 VA: 0x1806E1A40
 	public static string get_language() { }
 
-	// RVA: 0x6E2AA0 Offset: 0x6E10A0 VA: 0x1806E2AA0
+	// RVA: 0x6E2BB0 Offset: 0x6E11B0 VA: 0x1806E2BB0
 	public static void set_language(string value) { }
 
-	// RVA: 0x6E1730 Offset: 0x6DFD30 VA: 0x1806E1730
+	// RVA: 0x6E1840 Offset: 0x6DFE40 VA: 0x1806E1840
 	public static float get_consoleScale() { }
 
-	// RVA: 0x6E28F0 Offset: 0x6E0EF0 VA: 0x1806E28F0
+	// RVA: 0x6E2A00 Offset: 0x6E1000 VA: 0x1806E2A00
 	public static void set_consoleScale(float value) { }
 
 	[ServerVar] // RVA: 0x9F4F0 Offset: 0x9E8F0 VA: 0x18009F4F0
 	[ClientVar] // RVA: 0x9F4F0 Offset: 0x9E8F0 VA: 0x18009F4F0
-	// RVA: 0x6E3500 Offset: 0x6E1B00 VA: 0x1806E3500
+	// RVA: 0x6E3610 Offset: 0x6E1C10 VA: 0x1806E3610
 	public static void version(ConsoleSystem.Arg arg) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6E3150 Offset: 0x6E1750 VA: 0x1806E3150
+	// RVA: 0x6E3260 Offset: 0x6E1860 VA: 0x1806E3260
 	public static void sysinfo(ConsoleSystem.Arg arg) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6E3180 Offset: 0x6E1780 VA: 0x1806E3180
+	// RVA: 0x6E3290 Offset: 0x6E1890 VA: 0x1806E3290
 	public static void sysuid(ConsoleSystem.Arg arg) { }
 
 	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
@@ -276,13 +276,13 @@ public class Global : ConsoleSystem // TypeDefIndex: 11926
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6E2DF0 Offset: 0x6E13F0 VA: 0x1806E2DF0
+	// RVA: 0x6E2F00 Offset: 0x6E1500 VA: 0x1806E2F00
 	public static void subscriptions(ConsoleSystem.Arg arg) { }
 
-	// RVA: 0x6E0E50 Offset: 0x6DF450 VA: 0x1806E0E50
+	// RVA: 0x6E0F60 Offset: 0x6DF560 VA: 0x1806E0F60
 	public void .ctor() { }
 
-	// RVA: 0x6E0C80 Offset: 0x6DF280 VA: 0x1806E0C80
+	// RVA: 0x6E0D90 Offset: 0x6DF390 VA: 0x1806E0D90
 	private static void .cctor() { }
 
 }
@@ -296,19 +296,19 @@ private sealed class Global.<>c // TypeDefIndex: 11927
 
 	// Methods
 
-	// RVA: 0x6E8770 Offset: 0x6E6D70 VA: 0x1806E8770
+	// RVA: 0x6E8880 Offset: 0x6E6E80 VA: 0x1806E8880
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x6E8330 Offset: 0x6E6930 VA: 0x1806E8330
+	// RVA: 0x6E8440 Offset: 0x6E6A40 VA: 0x1806E8440
 	internal long <objects>b__46_0(KeyValuePair<Type, long> x) { }
 
-	// RVA: 0x6E8220 Offset: 0x6E6820 VA: 0x1806E8220
+	// RVA: 0x6E8330 Offset: 0x6E6930 VA: 0x1806E8330
 	internal bool <colliders>b__48_0(Collider x) { }
 
-	// RVA: 0x6E8240 Offset: 0x6E6840 VA: 0x1806E8240
+	// RVA: 0x6E8350 Offset: 0x6E6950 VA: 0x1806E8350
 	internal bool <colliders>b__48_1(Collider x) { }
 
 }

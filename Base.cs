@@ -21,7 +21,7 @@ public abstract class Base : IDisposable // TypeDefIndex: 5283
 
 	// Methods
 
-	// RVA: 0xDD76C0 Offset: 0xDD5CC0 VA: 0x180DD76C0
+	// RVA: 0xDD7980 Offset: 0xDD5F80 VA: 0x180DD7980
 	internal static ISteamMatchmakingServers get_Internal() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -33,68 +33,68 @@ public abstract class Base : IDisposable // TypeDefIndex: 5283
 	public void set_AppId(AppId value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDD75F0 Offset: 0xDD5BF0 VA: 0x180DD75F0
+	// RVA: 0xDD78B0 Offset: 0xDD5EB0 VA: 0x180DD78B0
 	public void add_OnChanges(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDD77C0 Offset: 0xDD5DC0 VA: 0x180DD77C0
+	// RVA: 0xDD7A80 Offset: 0xDD6080 VA: 0x180DD7A80
 	public void remove_OnChanges(Action value) { }
 
-	// RVA: 0xDD7480 Offset: 0xDD5A80 VA: 0x180DD7480
+	// RVA: 0xDD7740 Offset: 0xDD5D40 VA: 0x180DD7740
 	public void .ctor() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA25E0 Offset: 0xA19E0 VA: 0x1800A25E0
-	// RVA: 0xDD6F90 Offset: 0xDD5590 VA: 0x180DD6F90 Slot: 5
+	// RVA: 0xDD7250 Offset: 0xDD5850 VA: 0x180DD7250 Slot: 5
 	public virtual Task<bool> RunQueryAsync(float timeoutSeconds = 10) { }
 
-	// RVA: 0xDD6BF0 Offset: 0xDD51F0 VA: 0x180DD6BF0 Slot: 6
+	// RVA: 0xDD6EB0 Offset: 0xDD54B0 VA: 0x180DD6EB0 Slot: 6
 	public virtual void Cancel() { }
 
 	// RVA: -1 Offset: -1 Slot: 7
 	internal abstract void LaunchQuery();
 
-	// RVA: 0xDD6C30 Offset: 0xDD5230 VA: 0x180DD6C30 Slot: 8
+	// RVA: 0xDD6EF0 Offset: 0xDD54F0 VA: 0x180DD6EF0 Slot: 8
 	internal virtual MatchMakingKeyValuePair[] GetFilters() { }
 
-	// RVA: 0xDD6B50 Offset: 0xDD5150 VA: 0x180DD6B50
+	// RVA: 0xDD6E10 Offset: 0xDD5410 VA: 0x180DD6E10
 	public void AddFilter(string key, string value) { }
 
-	// RVA: 0xDD7690 Offset: 0xDD5C90 VA: 0x180DD7690
+	// RVA: 0xDD7950 Offset: 0xDD5F50 VA: 0x180DD7950
 	internal int get_Count() { }
 
-	// RVA: 0xDD7750 Offset: 0xDD5D50 VA: 0x180DD7750
+	// RVA: 0xDD7A10 Offset: 0xDD6010 VA: 0x180DD7A10
 	internal bool get_IsRefreshing() { }
 
-	// RVA: 0xDD6F30 Offset: 0xDD5530 VA: 0x180DD6F30
+	// RVA: 0xDD71F0 Offset: 0xDD57F0 VA: 0x180DD71F0
 	private void Reset() { }
 
-	// RVA: 0xDD6EB0 Offset: 0xDD54B0 VA: 0x180DD6EB0
+	// RVA: 0xDD7170 Offset: 0xDD5770 VA: 0x180DD7170
 	private void ReleaseQuery() { }
 
-	// RVA: 0xDD6C20 Offset: 0xDD5220 VA: 0x180DD6C20 Slot: 4
+	// RVA: 0xDD6EE0 Offset: 0xDD54E0 VA: 0x180DD6EE0 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0xDD6C80 Offset: 0xDD5280 VA: 0x180DD6C80
+	// RVA: 0xDD6F40 Offset: 0xDD5540 VA: 0x180DD6F40
 	internal void InvokeChanges() { }
 
-	// RVA: 0xDD7360 Offset: 0xDD5960 VA: 0x180DD7360
+	// RVA: 0xDD7620 Offset: 0xDD5C20 VA: 0x180DD7620
 	private void UpdatePending() { }
 
-	// RVA: 0xDD73F0 Offset: 0xDD59F0 VA: 0x180DD73F0
+	// RVA: 0xDD76B0 Offset: 0xDD5CB0 VA: 0x180DD76B0
 	public void UpdateResponsive() { }
 
-	// RVA: 0xDD6CA0 Offset: 0xDD52A0 VA: 0x180DD6CA0
+	// RVA: 0xDD6F60 Offset: 0xDD5560 VA: 0x180DD6F60
 	private void MovePendingToUnresponsive() { }
 
-	// RVA: 0xDD6D30 Offset: 0xDD5330 VA: 0x180DD6D30
+	// RVA: 0xDD6FF0 Offset: 0xDD55F0 VA: 0x180DD6FF0
 	private void OnServer(ServerInfo serverInfo, bool responded) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDD7200 Offset: 0xDD5800 VA: 0x180DD7200
+	// RVA: 0xDD74C0 Offset: 0xDD5AC0 VA: 0x180DD74C0
 	private bool <UpdateResponsive>b__33_0(int x) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDD7090 Offset: 0xDD5690 VA: 0x180DD7090
+	// RVA: 0xDD7350 Offset: 0xDD5950 VA: 0x180DD7350
 	private bool <MovePendingToUnresponsive>b__34_0(int x) { }
 
 }

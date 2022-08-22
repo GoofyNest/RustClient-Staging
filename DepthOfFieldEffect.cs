@@ -10,7 +10,7 @@ public class DepthOfFieldEffect : PostProcessEffectSettings // TypeDefIndex: 102
 
 	// Methods
 
-	// RVA: 0x97CDE0 Offset: 0x97B3E0 VA: 0x18097CDE0
+	// RVA: 0x97CEF0 Offset: 0x97B4F0 VA: 0x18097CEF0
 	public void .ctor() { }
 
 }

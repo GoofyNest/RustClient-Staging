@@ -6,82 +6,82 @@ public class SleepingBagCamper : IDisposable, Pool.IPooled, IProto // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1DACC60 Offset: 0x1DAB260 VA: 0x181DACC60
+	// RVA: 0x1DACF20 Offset: 0x1DAB520 VA: 0x181DACF20
 	public static void ResetToPool(SleepingBagCamper instance) { }
 
-	// RVA: 0x1DACCE0 Offset: 0x1DAB2E0 VA: 0x181DACCE0
+	// RVA: 0x1DACFA0 Offset: 0x1DAB5A0 VA: 0x181DACFA0
 	public void ResetToPool() { }
 
-	// RVA: 0x1DACB30 Offset: 0x1DAB130 VA: 0x181DACB30 Slot: 9
+	// RVA: 0x1DACDF0 Offset: 0x1DAB3F0 VA: 0x181DACDF0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE4D0 Offset: 0x1BFCAD0 VA: 0x181BFE4D0
+	// RVA: 0x1BFE790 Offset: 0x1BFCD90 VA: 0x181BFE790
 	public void CopyTo(SleepingBagCamper instance) { }
 
-	// RVA: 0x1DAC1B0 Offset: 0x1DAA7B0 VA: 0x181DAC1B0
+	// RVA: 0x1DAC470 Offset: 0x1DAAA70 VA: 0x181DAC470
 	public SleepingBagCamper Copy() { }
 
-	// RVA: 0x1DACAB0 Offset: 0x1DAB0B0 VA: 0x181DACAB0
+	// RVA: 0x1DACD70 Offset: 0x1DAB370 VA: 0x181DACD70
 	public static SleepingBagCamper Deserialize(Stream stream) { }
 
-	// RVA: 0x1DAC440 Offset: 0x1DAAA40 VA: 0x181DAC440
+	// RVA: 0x1DAC700 Offset: 0x1DAAD00 VA: 0x181DAC700
 	public static SleepingBagCamper DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DAC4C0 Offset: 0x1DAAAC0 VA: 0x181DAC4C0
+	// RVA: 0x1DAC780 Offset: 0x1DAAD80 VA: 0x181DAC780
 	public static SleepingBagCamper DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DAC990 Offset: 0x1DAAF90 VA: 0x181DAC990
+	// RVA: 0x1DACC50 Offset: 0x1DAB250 VA: 0x181DACC50
 	public static SleepingBagCamper Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DACC20 Offset: 0x1DAB220 VA: 0x181DACC20
+	// RVA: 0x1DACEE0 Offset: 0x1DAB4E0 VA: 0x181DACEE0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DAD1B0 Offset: 0x1DAB7B0 VA: 0x181DAD1B0 Slot: 12
+	// RVA: 0x1DAD470 Offset: 0x1DABA70 VA: 0x181DAD470 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DAD280 Offset: 0x1DAB880 VA: 0x181DAD280 Slot: 13
+	// RVA: 0x1DAD540 Offset: 0x1DABB40 VA: 0x181DAD540 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, SleepingBagCamper previous) { }
 
-	// RVA: 0x1DACC40 Offset: 0x1DAB240 VA: 0x181DACC40 Slot: 14
+	// RVA: 0x1DACF00 Offset: 0x1DAB500 VA: 0x181DACF00 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DAC890 Offset: 0x1DAAE90 VA: 0x181DAC890
+	// RVA: 0x1DACB50 Offset: 0x1DAB150 VA: 0x181DACB50
 	public static SleepingBagCamper Deserialize(byte[] buffer, SleepingBagCamper instance, bool isDelta = False) { }
 
-	// RVA: 0x1DAC750 Offset: 0x1DAAD50 VA: 0x181DAC750
+	// RVA: 0x1DACA10 Offset: 0x1DAB010 VA: 0x181DACA10
 	public static SleepingBagCamper Deserialize(Stream stream, SleepingBagCamper instance, bool isDelta) { }
 
-	// RVA: 0x1DAC220 Offset: 0x1DAA820 VA: 0x181DAC220
+	// RVA: 0x1DAC4E0 Offset: 0x1DAAAE0 VA: 0x181DAC4E0
 	public static SleepingBagCamper DeserializeLengthDelimited(Stream stream, SleepingBagCamper instance, bool isDelta) { }
 
-	// RVA: 0x1DAC550 Offset: 0x1DAAB50 VA: 0x181DAC550
+	// RVA: 0x1DAC810 Offset: 0x1DAAE10 VA: 0x181DAC810
 	public static SleepingBagCamper DeserializeLength(Stream stream, int length, SleepingBagCamper instance, bool isDelta) { }
 
-	// RVA: 0x1DACD60 Offset: 0x1DAB360 VA: 0x181DACD60
+	// RVA: 0x1DAD020 Offset: 0x1DAB620 VA: 0x181DAD020
 	public static void SerializeDelta(Stream stream, SleepingBagCamper instance, SleepingBagCamper previous) { }
 
-	// RVA: 0x1DAD0D0 Offset: 0x1DAB6D0 VA: 0x181DAD0D0
+	// RVA: 0x1DAD390 Offset: 0x1DAB990 VA: 0x181DAD390
 	public static void Serialize(Stream stream, SleepingBagCamper instance) { }
 
-	// RVA: 0x1DAD1A0 Offset: 0x1DAB7A0 VA: 0x181DAD1A0
+	// RVA: 0x1DAD460 Offset: 0x1DABA60 VA: 0x181DAD460
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DAD1B0 Offset: 0x1DAB7B0 VA: 0x181DAD1B0
+	// RVA: 0x1DAD470 Offset: 0x1DABA70 VA: 0x181DAD470
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DACF20 Offset: 0x1DAB520 VA: 0x181DACF20
+	// RVA: 0x1DAD1E0 Offset: 0x1DAB7E0 VA: 0x181DAD1E0
 	public static byte[] SerializeToBytes(SleepingBagCamper instance) { }
 
-	// RVA: 0x1DACE70 Offset: 0x1DAB470 VA: 0x181DACE70
+	// RVA: 0x1DAD130 Offset: 0x1DAB730 VA: 0x181DAD130
 	public static void SerializeLengthDelimited(Stream stream, SleepingBagCamper instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

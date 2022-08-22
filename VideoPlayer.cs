@@ -38,69 +38,69 @@ public sealed class VideoPlayer : Behaviour // TypeDefIndex: 4783
 
 	// Methods
 
-	// RVA: 0x231CED0 Offset: 0x231B4D0 VA: 0x18231CED0
+	// RVA: 0x231D190 Offset: 0x231B790 VA: 0x18231D190
 	public void set_url(string value) { }
 
-	// RVA: 0x231CDB0 Offset: 0x231B3B0 VA: 0x18231CDB0
+	// RVA: 0x231D070 Offset: 0x231B670 VA: 0x18231D070
 	public Texture get_texture() { }
 
 	[NativeNameAttribute] // RVA: 0xCD490 Offset: 0xCC890 VA: 0x1800CD490
-	// RVA: 0x231CD70 Offset: 0x231B370 VA: 0x18231CD70
+	// RVA: 0x231D030 Offset: 0x231B630 VA: 0x18231D030
 	public bool get_isPrepared() { }
 
-	// RVA: 0x231CBD0 Offset: 0x231B1D0 VA: 0x18231CBD0
+	// RVA: 0x231CE90 Offset: 0x231B490 VA: 0x18231CE90
 	public void Play() { }
 
-	// RVA: 0x231CC10 Offset: 0x231B210 VA: 0x18231CC10
+	// RVA: 0x231CED0 Offset: 0x231B4D0 VA: 0x18231CED0
 	public void Stop() { }
 
-	// RVA: 0x231CCF0 Offset: 0x231B2F0 VA: 0x18231CCF0
+	// RVA: 0x231CFB0 Offset: 0x231B5B0 VA: 0x18231CFB0
 	public long get_frame() { }
 
-	// RVA: 0x231CDF0 Offset: 0x231B3F0 VA: 0x18231CDF0
+	// RVA: 0x231D0B0 Offset: 0x231B6B0 VA: 0x18231D0B0
 	public uint get_width() { }
 
-	// RVA: 0x231CD30 Offset: 0x231B330 VA: 0x18231CD30
+	// RVA: 0x231CFF0 Offset: 0x231B5F0 VA: 0x18231CFF0
 	public uint get_height() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x231CC50 Offset: 0x231B250 VA: 0x18231CC50
+	// RVA: 0x231CF10 Offset: 0x231B510 VA: 0x18231CF10
 	public void add_errorReceived(VideoPlayer.ErrorEventHandler value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x231CE30 Offset: 0x231B430 VA: 0x18231CE30
+	// RVA: 0x231D0F0 Offset: 0x231B6F0 VA: 0x18231D0F0
 	public void remove_errorReceived(VideoPlayer.ErrorEventHandler value) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x231CB40 Offset: 0x231B140 VA: 0x18231CB40
+	// RVA: 0x231CE00 Offset: 0x231B400 VA: 0x18231CE00
 	private static void InvokePrepareCompletedCallback_Internal(VideoPlayer source) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x231CAD0 Offset: 0x231B0D0 VA: 0x18231CAD0
+	// RVA: 0x231CD90 Offset: 0x231B390 VA: 0x18231CD90
 	private static void InvokeFrameReadyCallback_Internal(VideoPlayer source, long frameIdx) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x231CB10 Offset: 0x231B110 VA: 0x18231CB10
+	// RVA: 0x231CDD0 Offset: 0x231B3D0 VA: 0x18231CDD0
 	private static void InvokeLoopPointReachedCallback_Internal(VideoPlayer source) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x231CBA0 Offset: 0x231B1A0 VA: 0x18231CBA0
+	// RVA: 0x231CE60 Offset: 0x231B460 VA: 0x18231CE60
 	private static void InvokeStartedCallback_Internal(VideoPlayer source) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x231CAA0 Offset: 0x231B0A0 VA: 0x18231CAA0
+	// RVA: 0x231CD60 Offset: 0x231B360 VA: 0x18231CD60
 	private static void InvokeFrameDroppedCallback_Internal(VideoPlayer source) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x231CA60 Offset: 0x231B060 VA: 0x18231CA60
+	// RVA: 0x231CD20 Offset: 0x231B320 VA: 0x18231CD20
 	private static void InvokeErrorReceivedCallback_Internal(VideoPlayer source, string errorStr) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x231CB70 Offset: 0x231B170 VA: 0x18231CB70
+	// RVA: 0x231CE30 Offset: 0x231B430 VA: 0x18231CE30
 	private static void InvokeSeekCompletedCallback_Internal(VideoPlayer source) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x231CA20 Offset: 0x231B020 VA: 0x18231CA20
+	// RVA: 0x231CCE0 Offset: 0x231B2E0 VA: 0x18231CCE0
 	private static void InvokeClockResyncOccurredCallback_Internal(VideoPlayer source, double seconds) { }
 
 }
@@ -111,7 +111,7 @@ public sealed class VideoPlayer.EventHandler : MulticastDelegate // TypeDefIndex
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x12E2ED0 Offset: 0x12E14D0 VA: 0x1812E2ED0 Slot: 12
+	// RVA: 0x12E3190 Offset: 0x12E1790 VA: 0x1812E3190 Slot: 12
 	public virtual void Invoke(VideoPlayer source) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13
@@ -128,10 +128,10 @@ public sealed class VideoPlayer.ErrorEventHandler : MulticastDelegate // TypeDef
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xAE45C0 Offset: 0xAE2BC0 VA: 0x180AE45C0 Slot: 12
+	// RVA: 0xAE4880 Offset: 0xAE2E80 VA: 0x180AE4880 Slot: 12
 	public virtual void Invoke(VideoPlayer source, string message) { }
 
-	// RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580 Slot: 13
+	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
 	public virtual IAsyncResult BeginInvoke(VideoPlayer source, string message, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -145,10 +145,10 @@ public sealed class VideoPlayer.FrameReadyEventHandler : MulticastDelegate // Ty
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x231BF30 Offset: 0x231A530 VA: 0x18231BF30 Slot: 12
+	// RVA: 0x231C1F0 Offset: 0x231A7F0 VA: 0x18231C1F0 Slot: 12
 	public virtual void Invoke(VideoPlayer source, long frameIdx) { }
 
-	// RVA: 0x231BEA0 Offset: 0x231A4A0 VA: 0x18231BEA0 Slot: 13
+	// RVA: 0x231C160 Offset: 0x231A760 VA: 0x18231C160 Slot: 13
 	public virtual IAsyncResult BeginInvoke(VideoPlayer source, long frameIdx, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -162,10 +162,10 @@ public sealed class VideoPlayer.TimeEventHandler : MulticastDelegate // TypeDefI
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x231C510 Offset: 0x231AB10 VA: 0x18231C510 Slot: 12
+	// RVA: 0x231C7D0 Offset: 0x231ADD0 VA: 0x18231C7D0 Slot: 12
 	public virtual void Invoke(VideoPlayer source, double seconds) { }
 
-	// RVA: 0x231C480 Offset: 0x231AA80 VA: 0x18231C480 Slot: 13
+	// RVA: 0x231C740 Offset: 0x231AD40 VA: 0x18231C740 Slot: 13
 	public virtual IAsyncResult BeginInvoke(VideoPlayer source, double seconds, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

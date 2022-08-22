@@ -16,10 +16,10 @@ public class DecodeAlias : Attribute // TypeDefIndex: 11578
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	private void set_Names(string[] value) { }
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string[] names) { }
 
-	// RVA: 0x876500 Offset: 0x874B00 VA: 0x180876500
+	// RVA: 0x876610 Offset: 0x874C10 VA: 0x180876610
 	public bool Contains(string name) { }
 
 }

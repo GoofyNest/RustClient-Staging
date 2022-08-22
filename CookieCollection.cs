@@ -15,43 +15,43 @@ public class CookieCollection : ICollection, IEnumerable // TypeDefIndex: 2940
 
 	// Methods
 
-	// RVA: 0x1521630 Offset: 0x151FC30 VA: 0x181521630
+	// RVA: 0x15218F0 Offset: 0x151FEF0 VA: 0x1815218F0
 	public void .ctor() { }
 
-	// RVA: 0x1521700 Offset: 0x151FD00 VA: 0x181521700
+	// RVA: 0x15219C0 Offset: 0x151FFC0 VA: 0x1815219C0
 	public Cookie get_Item(int index) { }
 
-	// RVA: 0x1520DF0 Offset: 0x151F3F0 VA: 0x181520DF0
+	// RVA: 0x15210B0 Offset: 0x151F6B0 VA: 0x1815210B0
 	public void Add(Cookie cookie) { }
 
-	// RVA: 0x1520AF0 Offset: 0x151F0F0 VA: 0x181520AF0
+	// RVA: 0x1520DB0 Offset: 0x151F3B0 VA: 0x181520DB0
 	public void Add(CookieCollection cookies) { }
 
-	// RVA: 0x15216D0 Offset: 0x151FCD0 VA: 0x1815216D0 Slot: 5
+	// RVA: 0x1521990 Offset: 0x151FF90 VA: 0x181521990 Slot: 5
 	public int get_Count() { }
 
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 6
 	public object get_SyncRoot() { }
 
-	// RVA: 0x1520EC0 Offset: 0x151F4C0 VA: 0x181520EC0 Slot: 4
+	// RVA: 0x1521180 Offset: 0x151F780 VA: 0x181521180 Slot: 4
 	public void CopyTo(Array array, int index) { }
 
-	// RVA: 0x1521520 Offset: 0x151FB20 VA: 0x181521520
+	// RVA: 0x15217E0 Offset: 0x151FDE0 VA: 0x1815217E0
 	internal DateTime TimeStamp(CookieCollection.Stamp how) { }
 
-	// RVA: 0x9974E0 Offset: 0x995AE0 VA: 0x1809974E0
+	// RVA: 0x9975F0 Offset: 0x995BF0 VA: 0x1809975F0
 	internal bool get_IsOtherVersionSeen() { }
 
-	// RVA: 0x15211C0 Offset: 0x151F7C0 VA: 0x1815211C0
+	// RVA: 0x1521480 Offset: 0x151FA80 VA: 0x181521480
 	internal int InternalAdd(Cookie cookie, bool isStrict) { }
 
-	// RVA: 0x1520F90 Offset: 0x151F590 VA: 0x181520F90
+	// RVA: 0x1521250 Offset: 0x151F850 VA: 0x181521250
 	internal int IndexOf(Cookie cookie) { }
 
-	// RVA: 0x15214F0 Offset: 0x151FAF0 VA: 0x1815214F0
+	// RVA: 0x15217B0 Offset: 0x151FDB0 VA: 0x1815217B0
 	internal void RemoveAt(int idx) { }
 
-	// RVA: 0x1520EF0 Offset: 0x151F4F0 VA: 0x181520EF0 Slot: 7
+	// RVA: 0x15211B0 Offset: 0x151F7B0 VA: 0x1815211B0 Slot: 7
 	public IEnumerator GetEnumerator() { }
 
 }
@@ -78,16 +78,16 @@ private class CookieCollection.CookieCollectionEnumerator : IEnumerator // TypeD
 
 	// Methods
 
-	// RVA: 0x1520A80 Offset: 0x151F080 VA: 0x181520A80
+	// RVA: 0x1520D40 Offset: 0x151F340 VA: 0x181520D40
 	internal void .ctor(CookieCollection cookies) { }
 
-	// RVA: 0x15209A0 Offset: 0x151EFA0 VA: 0x1815209A0 Slot: 5
+	// RVA: 0x1520C60 Offset: 0x151F260 VA: 0x181520C60 Slot: 5
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	// RVA: 0x15208E0 Offset: 0x151EEE0 VA: 0x1815208E0 Slot: 4
+	// RVA: 0x1520BA0 Offset: 0x151F1A0 VA: 0x181520BA0 Slot: 4
 	private bool System.Collections.IEnumerator.MoveNext() { }
 
-	// RVA: 0x1520990 Offset: 0x151EF90 VA: 0x181520990 Slot: 6
+	// RVA: 0x1520C50 Offset: 0x151F250 VA: 0x181520C50 Slot: 6
 	private void System.Collections.IEnumerator.Reset() { }
 
 }

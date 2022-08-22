@@ -11,31 +11,31 @@ internal class LongList // TypeDefIndex: 1041
 
 	// Methods
 
-	// RVA: 0x1293070 Offset: 0x1291670 VA: 0x181293070
+	// RVA: 0x1293330 Offset: 0x1291930 VA: 0x181293330
 	internal void .ctor() { }
 
-	// RVA: 0x12930D0 Offset: 0x12916D0 VA: 0x1812930D0
+	// RVA: 0x1293390 Offset: 0x1291990 VA: 0x181293390
 	internal void .ctor(int startingSize) { }
 
-	// RVA: 0x1292DE0 Offset: 0x12913E0 VA: 0x181292DE0
+	// RVA: 0x12930A0 Offset: 0x12916A0 VA: 0x1812930A0
 	internal void Add(long value) { }
 
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
 	internal int get_Count() { }
 
-	// RVA: 0x1293060 Offset: 0x1291660 VA: 0x181293060
+	// RVA: 0x1293320 Offset: 0x1291920 VA: 0x181293320
 	internal void StartEnumeration() { }
 
-	// RVA: 0x1292F60 Offset: 0x1291560 VA: 0x181292F60
+	// RVA: 0x1293220 Offset: 0x1291820 VA: 0x181293220
 	internal bool MoveNext() { }
 
-	// RVA: 0x1293140 Offset: 0x1291740 VA: 0x181293140
+	// RVA: 0x1293400 Offset: 0x1291A00 VA: 0x181293400
 	internal long get_Current() { }
 
-	// RVA: 0x1292FD0 Offset: 0x12915D0 VA: 0x181292FD0
+	// RVA: 0x1293290 Offset: 0x1291890 VA: 0x181293290
 	internal bool RemoveElement(long value) { }
 
-	// RVA: 0x1292ED0 Offset: 0x12914D0 VA: 0x181292ED0
+	// RVA: 0x1293190 Offset: 0x1291790 VA: 0x181293190
 	private void EnlargeArray() { }
 
 }

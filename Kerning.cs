@@ -44,34 +44,34 @@ public class KerningPair // TypeDefIndex: 6768
 	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
 	public void set_firstGlyph(uint value) { }
 
-	// RVA: 0xC659D0 Offset: 0xC63FD0 VA: 0x180C659D0
+	// RVA: 0xC65C90 Offset: 0xC64290 VA: 0x180C65C90
 	public GlyphValueRecord_Legacy get_firstGlyphAdjustments() { }
 
-	// RVA: 0x7D0C00 Offset: 0x7CF200 VA: 0x1807D0C00
+	// RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10
 	public uint get_secondGlyph() { }
 
-	// RVA: 0x7D0C60 Offset: 0x7CF260 VA: 0x1807D0C60
+	// RVA: 0x7D0D70 Offset: 0x7CF370 VA: 0x1807D0D70
 	public void set_secondGlyph(uint value) { }
 
-	// RVA: 0xB11220 Offset: 0xB0F820 VA: 0x180B11220
+	// RVA: 0xB114E0 Offset: 0xB0FAE0 VA: 0x180B114E0
 	public GlyphValueRecord_Legacy get_secondGlyphAdjustments() { }
 
-	// RVA: 0xC659E0 Offset: 0xC63FE0 VA: 0x180C659E0
+	// RVA: 0xC65CA0 Offset: 0xC642A0 VA: 0x180C65CA0
 	public bool get_ignoreSpacingAdjustments() { }
 
-	// RVA: 0xC659A0 Offset: 0xC63FA0 VA: 0x180C659A0
+	// RVA: 0xC65C60 Offset: 0xC64260 VA: 0x180C65C60
 	public void .ctor() { }
 
-	// RVA: 0xC65950 Offset: 0xC63F50 VA: 0x180C65950
+	// RVA: 0xC65C10 Offset: 0xC64210 VA: 0x180C65C10
 	public void .ctor(uint left, uint right, float offset) { }
 
-	// RVA: 0xC658F0 Offset: 0xC63EF0 VA: 0x180C658F0
+	// RVA: 0xC65BB0 Offset: 0xC641B0 VA: 0x180C65BB0
 	public void .ctor(uint firstGlyph, GlyphValueRecord_Legacy firstGlyphAdjustments, uint secondGlyph, GlyphValueRecord_Legacy secondGlyphAdjustments) { }
 
-	// RVA: 0xC65860 Offset: 0xC63E60 VA: 0x180C65860
+	// RVA: 0xC65B20 Offset: 0xC64120 VA: 0x180C65B20
 	internal void ConvertLegacyKerningData() { }
 
-	// RVA: 0xC65870 Offset: 0xC63E70 VA: 0x180C65870
+	// RVA: 0xC65B30 Offset: 0xC64130 VA: 0x180C65B30
 	private static void .cctor() { }
 
 }
@@ -82,25 +82,25 @@ public class KerningTable // TypeDefIndex: 6769
 
 	// Methods
 
-	// RVA: 0xC660C0 Offset: 0xC646C0 VA: 0x180C660C0
+	// RVA: 0xC66380 Offset: 0xC64980 VA: 0x180C66380
 	public void .ctor() { }
 
-	// RVA: 0xC65B30 Offset: 0xC64130 VA: 0x180C65B30
+	// RVA: 0xC65DF0 Offset: 0xC643F0 VA: 0x180C65DF0
 	public void AddKerningPair() { }
 
-	// RVA: 0xC65C60 Offset: 0xC64260 VA: 0x180C65C60
+	// RVA: 0xC65F20 Offset: 0xC64520 VA: 0x180C65F20
 	public int AddKerningPair(uint first, uint second, float offset) { }
 
-	// RVA: 0xC659F0 Offset: 0xC63FF0 VA: 0x180C659F0
+	// RVA: 0xC65CB0 Offset: 0xC642B0 VA: 0x180C65CB0
 	public int AddGlyphPairAdjustmentRecord(uint first, GlyphValueRecord_Legacy firstAdjustments, uint second, GlyphValueRecord_Legacy secondAdjustments) { }
 
-	// RVA: 0xC65DE0 Offset: 0xC643E0 VA: 0x180C65DE0
+	// RVA: 0xC660A0 Offset: 0xC646A0 VA: 0x180C660A0
 	public void RemoveKerningPair(int left, int right) { }
 
-	// RVA: 0xC65D80 Offset: 0xC64380 VA: 0x180C65D80
+	// RVA: 0xC66040 Offset: 0xC64640 VA: 0x180C66040
 	public void RemoveKerningPair(int index) { }
 
-	// RVA: 0xC65EC0 Offset: 0xC644C0 VA: 0x180C65EC0
+	// RVA: 0xC66180 Offset: 0xC64780 VA: 0x180C66180
 	public void SortKerningPairs() { }
 
 }
@@ -115,7 +115,7 @@ private sealed class KerningTable.<>c__DisplayClass3_0 // TypeDefIndex: 6770
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xC84E00 Offset: 0xC83400 VA: 0x180C84E00
+	// RVA: 0xC850C0 Offset: 0xC836C0 VA: 0x180C850C0
 	internal bool <AddKerningPair>b__0(KerningPair item) { }
 
 }
@@ -130,7 +130,7 @@ private sealed class KerningTable.<>c__DisplayClass4_0 // TypeDefIndex: 6771
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xC84E00 Offset: 0xC83400 VA: 0x180C84E00
+	// RVA: 0xC850C0 Offset: 0xC836C0 VA: 0x180C850C0
 	internal bool <AddGlyphPairAdjustmentRecord>b__0(KerningPair item) { }
 
 }
@@ -145,7 +145,7 @@ private sealed class KerningTable.<>c__DisplayClass5_0 // TypeDefIndex: 6772
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xC84E30 Offset: 0xC83430 VA: 0x180C84E30
+	// RVA: 0xC850F0 Offset: 0xC836F0 VA: 0x180C850F0
 	internal bool <RemoveKerningPair>b__0(KerningPair item) { }
 
 }
@@ -158,13 +158,13 @@ private sealed class KerningTable.<>c // TypeDefIndex: 6773
 
 	// Methods
 
-	// RVA: 0xC84ED0 Offset: 0xC834D0 VA: 0x180C84ED0
+	// RVA: 0xC85190 Offset: 0xC83790 VA: 0x180C85190
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7B4E60 Offset: 0x7B3460 VA: 0x1807B4E60
+	// RVA: 0x7B4F70 Offset: 0x7B3570 VA: 0x1807B4F70
 	internal uint <SortKerningPairs>b__7_0(KerningPair s) { }
 
 	// RVA: 0x4D5880 Offset: 0x4D3E80 VA: 0x1804D5880

@@ -27,7 +27,7 @@ public class IPHostEntry // TypeDefIndex: 2884
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_AddressList(IPAddress[] value) { }
 
-	// RVA: 0xA54630 Offset: 0xA52C30 VA: 0x180A54630
+	// RVA: 0xA548F0 Offset: 0xA52EF0 VA: 0x180A548F0
 	public void .ctor() { }
 
 }

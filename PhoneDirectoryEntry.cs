@@ -12,19 +12,19 @@ public class PhoneDirectoryEntry : MonoBehaviour // TypeDefIndex: 10899
 
 	// Methods
 
-	// RVA: 0x906D70 Offset: 0x905370 VA: 0x180906D70
+	// RVA: 0x906E80 Offset: 0x905480 VA: 0x180906E80
 	public void Populate(PhoneDirectory.DirectoryEntry entry, PhoneDialler forDialog, PhoneDirectoryEntry.NumberType type) { }
 
-	// RVA: 0x906E70 Offset: 0x905470 VA: 0x180906E70
+	// RVA: 0x906F80 Offset: 0x905580 VA: 0x180906F80
 	private void SetPhoneName(string phoneName, int number, PhoneDirectoryEntry.NumberType type) { }
 
-	// RVA: 0x906D40 Offset: 0x905340 VA: 0x180906D40
+	// RVA: 0x906E50 Offset: 0x905450 VA: 0x180906E50
 	public void OnClickedDial() { }
 
-	// RVA: 0x906C80 Offset: 0x905280 VA: 0x180906C80
+	// RVA: 0x906D90 Offset: 0x905390 VA: 0x180906D90
 	public void OnClickedDelete() { }
 
-	// RVA: 0x906F50 Offset: 0x905550 VA: 0x180906F50
+	// RVA: 0x907060 Offset: 0x905660 VA: 0x180907060
 	public void .ctor() { }
 
 }

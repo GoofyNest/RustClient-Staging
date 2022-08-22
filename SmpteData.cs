@@ -19,58 +19,58 @@ internal sealed class SmpteData // TypeDefIndex: 7618
 
 	// Methods
 
-	// RVA: 0x13A64C0 Offset: 0x13A4AC0 VA: 0x1813A64C0
+	// RVA: 0x13A6780 Offset: 0x13A4D80 VA: 0x1813A6780
 	public void .ctor() { }
 
-	// RVA: 0x13A63F0 Offset: 0x13A49F0 VA: 0x1813A63F0
+	// RVA: 0x13A66B0 Offset: 0x13A4CB0 VA: 0x1813A66B0
 	public void .ctor(SmpteFormat format, byte hours, byte minutes, byte seconds, byte frames, byte subFrames) { }
 
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public SmpteFormat get_Format() { }
 
-	// RVA: 0x13A64E0 Offset: 0x13A4AE0 VA: 0x1813A64E0
+	// RVA: 0x13A67A0 Offset: 0x13A4DA0 VA: 0x1813A67A0
 	public void set_Format(SmpteFormat value) { }
 
-	// RVA: 0xF8B3B0 Offset: 0xF899B0 VA: 0x180F8B3B0
+	// RVA: 0xF8B670 Offset: 0xF89C70 VA: 0x180F8B670
 	public byte get_Hours() { }
 
-	// RVA: 0x13A6610 Offset: 0x13A4C10 VA: 0x1813A6610
+	// RVA: 0x13A68D0 Offset: 0x13A4ED0 VA: 0x1813A68D0
 	public void set_Hours(byte value) { }
 
-	// RVA: 0xF9E160 Offset: 0xF9C760 VA: 0x180F9E160
+	// RVA: 0xF9E420 Offset: 0xF9CA20 VA: 0x180F9E420
 	public byte get_Minutes() { }
 
-	// RVA: 0x13A66A0 Offset: 0x13A4CA0 VA: 0x1813A66A0
+	// RVA: 0x13A6960 Offset: 0x13A4F60 VA: 0x1813A6960
 	public void set_Minutes(byte value) { }
 
-	// RVA: 0x13A64D0 Offset: 0x13A4AD0 VA: 0x1813A64D0
+	// RVA: 0x13A6790 Offset: 0x13A4D90 VA: 0x1813A6790
 	public byte get_Seconds() { }
 
-	// RVA: 0x13A6730 Offset: 0x13A4D30 VA: 0x1813A6730
+	// RVA: 0x13A69F0 Offset: 0x13A4FF0 VA: 0x1813A69F0
 	public void set_Seconds(byte value) { }
 
-	// RVA: 0xA10E00 Offset: 0xA0F400 VA: 0x180A10E00
+	// RVA: 0xA110C0 Offset: 0xA0F6C0 VA: 0x180A110C0
 	public byte get_Frames() { }
 
-	// RVA: 0x13A6530 Offset: 0x13A4B30 VA: 0x1813A6530
+	// RVA: 0x13A67F0 Offset: 0x13A4DF0 VA: 0x1813A67F0
 	public void set_Frames(byte value) { }
 
-	// RVA: 0x13A53D0 Offset: 0x13A39D0 VA: 0x1813A53D0
+	// RVA: 0x13A5690 Offset: 0x13A3C90 VA: 0x1813A5690
 	public byte get_SubFrames() { }
 
-	// RVA: 0x13A67C0 Offset: 0x13A4DC0 VA: 0x1813A67C0
+	// RVA: 0x13A6A80 Offset: 0x13A5080 VA: 0x1813A6A80
 	public void set_SubFrames(byte value) { }
 
-	// RVA: 0x13A5FF0 Offset: 0x13A45F0 VA: 0x1813A5FF0
+	// RVA: 0x13A62B0 Offset: 0x13A48B0 VA: 0x1813A62B0
 	public static SmpteData Read(Func<byte> byteReader, Func<byte, string, byte, byte> valueProcessor) { }
 
-	// RVA: 0x13A5F50 Offset: 0x13A4550 VA: 0x1813A5F50
+	// RVA: 0x13A6210 Offset: 0x13A4810 VA: 0x1813A6210
 	internal static SmpteFormat GetFormat(byte formatAndHours) { }
 
-	// RVA: 0x13A5FE0 Offset: 0x13A45E0 VA: 0x1813A5FE0
+	// RVA: 0x13A62A0 Offset: 0x13A48A0 VA: 0x1813A62A0
 	internal static byte GetHours(byte formatAndHours) { }
 
-	// RVA: 0x13A62F0 Offset: 0x13A48F0 VA: 0x1813A62F0
+	// RVA: 0x13A65B0 Offset: 0x13A4BB0 VA: 0x1813A65B0
 	private static void .cctor() { }
 
 }

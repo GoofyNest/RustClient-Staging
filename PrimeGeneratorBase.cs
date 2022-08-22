@@ -9,10 +9,10 @@ internal abstract class PrimeGeneratorBase // TypeDefIndex: 87
 	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 4
 	public virtual ConfidenceFactor get_Confidence() { }
 
-	// RVA: 0x1648550 Offset: 0x1646B50 VA: 0x181648550 Slot: 5
+	// RVA: 0x1648810 Offset: 0x1646E10 VA: 0x181648810 Slot: 5
 	public virtual PrimalityTest get_PrimalityTest() { }
 
-	// RVA: 0x16485B0 Offset: 0x1646BB0 VA: 0x1816485B0 Slot: 6
+	// RVA: 0x1648870 Offset: 0x1646E70 VA: 0x181648870 Slot: 6
 	public virtual int get_TrialDivisionBounds() { }
 
 	// RVA: -1 Offset: -1 Slot: 7
@@ -34,10 +34,10 @@ public abstract class PrimeGeneratorBase // TypeDefIndex: 1770
 	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 4
 	public virtual ConfidenceFactor get_Confidence() { }
 
-	// RVA: 0x1AC1B90 Offset: 0x1AC0190 VA: 0x181AC1B90 Slot: 5
+	// RVA: 0x1AC1E50 Offset: 0x1AC0450 VA: 0x181AC1E50 Slot: 5
 	public virtual PrimalityTest get_PrimalityTest() { }
 
-	// RVA: 0x16485B0 Offset: 0x1646BB0 VA: 0x1816485B0 Slot: 6
+	// RVA: 0x1648870 Offset: 0x1646E70 VA: 0x181648870 Slot: 6
 	public virtual int get_TrialDivisionBounds() { }
 
 	// RVA: -1 Offset: -1 Slot: 7

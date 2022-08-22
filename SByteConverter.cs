@@ -4,16 +4,16 @@ public class SByteConverter : BaseNumberConverter // TypeDefIndex: 2746
 
 	// Methods
 
-	// RVA: 0x1733D30 Offset: 0x1732330 VA: 0x181733D30 Slot: 17
+	// RVA: 0x1733FF0 Offset: 0x17325F0 VA: 0x181733FF0 Slot: 17
 	internal override Type get_TargetType() { }
 
-	// RVA: 0x1733BC0 Offset: 0x17321C0 VA: 0x181733BC0 Slot: 18
+	// RVA: 0x1733E80 Offset: 0x1732480 VA: 0x181733E80 Slot: 18
 	internal override object FromString(string value, int radix) { }
 
-	// RVA: 0x1733C40 Offset: 0x1732240 VA: 0x181733C40 Slot: 19
+	// RVA: 0x1733F00 Offset: 0x1732500 VA: 0x181733F00 Slot: 19
 	internal override object FromString(string value, NumberFormatInfo formatInfo) { }
 
-	// RVA: 0x1733CA0 Offset: 0x17322A0 VA: 0x181733CA0 Slot: 21
+	// RVA: 0x1733F60 Offset: 0x1732560 VA: 0x181733F60 Slot: 21
 	internal override string ToString(object value, NumberFormatInfo formatInfo) { }
 
 }

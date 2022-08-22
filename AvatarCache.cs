@@ -5,10 +5,10 @@ public class AvatarCache // TypeDefIndex: 5684
 
 	// Methods
 
-	// RVA: 0x22FFD00 Offset: 0x22FE300 VA: 0x1822FFD00
+	// RVA: 0x22FFFC0 Offset: 0x22FE5C0 VA: 0x1822FFFC0
 	public void .ctor(Action<ulong, Texture2D> loadAvatar) { }
 
-	// RVA: 0x22FFA90 Offset: 0x22FE090 VA: 0x1822FFA90
+	// RVA: 0x22FFD50 Offset: 0x22FE350 VA: 0x1822FFD50
 	public Texture2D Get(ulong userId) { }
 
 }

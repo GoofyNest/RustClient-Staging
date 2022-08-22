@@ -5,13 +5,13 @@ internal class InvariantComparer : IComparer // TypeDefIndex: 2566
 
 	// Methods
 
-	// RVA: 0x15359B0 Offset: 0x1533FB0 VA: 0x1815359B0
+	// RVA: 0x1535C70 Offset: 0x1534270 VA: 0x181535C70
 	internal void .ctor() { }
 
-	// RVA: 0x15357F0 Offset: 0x1533DF0 VA: 0x1815357F0 Slot: 4
+	// RVA: 0x1535AB0 Offset: 0x15340B0 VA: 0x181535AB0 Slot: 4
 	public int Compare(object a, object b) { }
 
-	// RVA: 0x15358E0 Offset: 0x1533EE0 VA: 0x1815358E0
+	// RVA: 0x1535BA0 Offset: 0x15341A0 VA: 0x181535BA0
 	private static void .cctor() { }
 
 }

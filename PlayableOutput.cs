@@ -15,7 +15,7 @@ public struct PlayableOutput : IEquatable<PlayableOutput> // TypeDefIndex: 3871
 	// RVA: 0x217510 Offset: 0x216910 VA: 0x180217510 Slot: 4
 	public bool Equals(PlayableOutput other) { }
 
-	// RVA: 0x18FA920 Offset: 0x18F8F20 VA: 0x1818FA920
+	// RVA: 0x18FABE0 Offset: 0x18F91E0 VA: 0x1818FABE0
 	private static void .cctor() { }
 
 }

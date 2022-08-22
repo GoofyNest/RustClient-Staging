@@ -12,16 +12,16 @@ public class ListChangedEventArgs : EventArgs // TypeDefIndex: 2725
 
 	// Methods
 
-	// RVA: 0x15C8850 Offset: 0x15C6E50 VA: 0x1815C8850
+	// RVA: 0x15C8B10 Offset: 0x15C7110 VA: 0x1815C8B10
 	public void .ctor(ListChangedType listChangedType, int newIndex) { }
 
-	// RVA: 0x15C87B0 Offset: 0x15C6DB0 VA: 0x1815C87B0
+	// RVA: 0x15C8A70 Offset: 0x15C7070 VA: 0x1815C8A70
 	public void .ctor(ListChangedType listChangedType, int newIndex, PropertyDescriptor propDesc) { }
 
-	// RVA: 0x15C8730 Offset: 0x15C6D30 VA: 0x1815C8730
+	// RVA: 0x15C89F0 Offset: 0x15C6FF0 VA: 0x1815C89F0
 	public void .ctor(ListChangedType listChangedType, PropertyDescriptor propDesc) { }
 
-	// RVA: 0x15C86B0 Offset: 0x15C6CB0 VA: 0x1815C86B0
+	// RVA: 0x15C8970 Offset: 0x15C6F70 VA: 0x1815C8970
 	public void .ctor(ListChangedType listChangedType, int newIndex, int oldIndex) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00

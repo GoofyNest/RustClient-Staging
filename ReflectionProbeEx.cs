@@ -72,140 +72,140 @@ public class ReflectionProbeEx : MonoBehaviour // TypeDefIndex: 10690
 
 	// Methods
 
-	// RVA: 0x943250 Offset: 0x941850 VA: 0x180943250
+	// RVA: 0x943360 Offset: 0x941960 VA: 0x180943360
 	private Vector2 Hammersley(uint index, uint numSamples) { }
 
-	// RVA: 0x942AF0 Offset: 0x9410F0 VA: 0x180942AF0
+	// RVA: 0x942C00 Offset: 0x941200 VA: 0x180942C00
 	private float D_GGX(float roughness, float NdotH) { }
 
-	// RVA: 0x943320 Offset: 0x941920 VA: 0x180943320
+	// RVA: 0x943430 Offset: 0x941A30 VA: 0x180943430
 	private Vector3 ImportanceSampleGGX(Vector2 Xi, float roughness) { }
 
-	// RVA: 0x93F920 Offset: 0x93DF20 VA: 0x18093F920
+	// RVA: 0x93FA30 Offset: 0x93E030 VA: 0x18093FA30
 	private void ApplyConvolution(Texture target) { }
 
-	// RVA: 0x941A70 Offset: 0x940070 VA: 0x180941A70
+	// RVA: 0x941B80 Offset: 0x940180 VA: 0x180941B80
 	private void CreateMeshes() { }
 
-	// RVA: 0x942C00 Offset: 0x941200 VA: 0x180942C00
+	// RVA: 0x942D10 Offset: 0x941310 VA: 0x180942D10
 	private void DestroyMeshes() { }
 
-	// RVA: 0x941370 Offset: 0x93F970 VA: 0x180941370
+	// RVA: 0x941480 Offset: 0x93FA80 VA: 0x180941480
 	private static Mesh CreateBlitMesh() { }
 
-	// RVA: 0x946720 Offset: 0x944D20 VA: 0x180946720
+	// RVA: 0x946830 Offset: 0x944E30 VA: 0x180946830
 	private static ReflectionProbeEx.CubemapSkyboxVertex SubDivVert(ReflectionProbeEx.CubemapSkyboxVertex v1, ReflectionProbeEx.CubemapSkyboxVertex v2) { }
 
-	// RVA: 0x946ED0 Offset: 0x9454D0 VA: 0x180946ED0
+	// RVA: 0x946FE0 Offset: 0x9455E0 VA: 0x180946FE0
 	private static void Subdivide(List<ReflectionProbeEx.CubemapSkyboxVertex> destArray, ReflectionProbeEx.CubemapSkyboxVertex v1, ReflectionProbeEx.CubemapSkyboxVertex v2, ReflectionProbeEx.CubemapSkyboxVertex v3) { }
 
-	// RVA: 0x9468B0 Offset: 0x944EB0 VA: 0x1809468B0
+	// RVA: 0x9469C0 Offset: 0x944FC0 VA: 0x1809469C0
 	private static void SubdivideYOnly(List<ReflectionProbeEx.CubemapSkyboxVertex> destArray, ReflectionProbeEx.CubemapSkyboxVertex v1, ReflectionProbeEx.CubemapSkyboxVertex v2, ReflectionProbeEx.CubemapSkyboxVertex v3) { }
 
-	// RVA: 0x941B80 Offset: 0x940180 VA: 0x180941B80
+	// RVA: 0x941C90 Offset: 0x940290 VA: 0x180941C90
 	private static Mesh CreateSkyboxMesh() { }
 
-	// RVA: 0x943420 Offset: 0x941A20 VA: 0x180943420
+	// RVA: 0x943530 Offset: 0x941B30 VA: 0x180943530
 	private bool InitializeCubemapFaceMatrices() { }
 
-	// RVA: 0x9425F0 Offset: 0x940BF0 VA: 0x1809425F0
+	// RVA: 0x942700 Offset: 0x940D00 VA: 0x180942700
 	private void CreateTextures() { }
 
-	// RVA: 0x942D30 Offset: 0x941330 VA: 0x180942D30
+	// RVA: 0x942E40 Offset: 0x941440 VA: 0x180942E40
 	private void DestroyTextures() { }
 
-	// RVA: 0x944F30 Offset: 0x943530 VA: 0x180944F30
+	// RVA: 0x945040 Offset: 0x943640 VA: 0x180945040
 	private Material RegisterMaterialReplacement(Material material) { }
 
-	// RVA: 0x943160 Offset: 0x941760 VA: 0x180943160
+	// RVA: 0x943270 Offset: 0x941870 VA: 0x180943270
 	private Material FindMaterialReplacement(Material material) { }
 
-	// RVA: 0x941770 Offset: 0x93FD70 VA: 0x180941770
+	// RVA: 0x941880 Offset: 0x93FE80 VA: 0x180941880
 	private void CreateMaterials() { }
 
-	// RVA: 0x942B90 Offset: 0x941190 VA: 0x180942B90
+	// RVA: 0x942CA0 Offset: 0x9412A0 VA: 0x180942CA0
 	private void DestroyMaterials() { }
 
-	// RVA: 0x9416D0 Offset: 0x93FCD0 VA: 0x1809416D0
+	// RVA: 0x9417E0 Offset: 0x93FDE0 VA: 0x1809417E0
 	private void CreateCommandBuffers() { }
 
-	// RVA: 0x942B30 Offset: 0x941130 VA: 0x180942B30
+	// RVA: 0x942C40 Offset: 0x941240 VA: 0x180942C40
 	private void DestroyCommandBuffers() { }
 
-	// RVA: 0x941280 Offset: 0x93F880 VA: 0x180941280
+	// RVA: 0x941390 Offset: 0x93F990 VA: 0x180941390
 	private void ClearCommandBuffers() { }
 
-	// RVA: 0x9400C0 Offset: 0x93E6C0 VA: 0x1809400C0
+	// RVA: 0x9401D0 Offset: 0x93E7D0 VA: 0x1809401D0
 	private void AttachToLight() { }
 
-	// RVA: 0x942DE0 Offset: 0x9413E0 VA: 0x180942DE0
+	// RVA: 0x942EF0 Offset: 0x9414F0 VA: 0x180942EF0
 	private void DetachFromLight() { }
 
-	// RVA: 0x942FF0 Offset: 0x9415F0 VA: 0x180942FF0
+	// RVA: 0x943100 Offset: 0x941700 VA: 0x180943100
 	private void FindEnvironmentReflection() { }
 
-	// RVA: 0x940F30 Offset: 0x93F530 VA: 0x180940F30
+	// RVA: 0x941040 Offset: 0x93F640 VA: 0x180941040
 	private void BindGlobalProperties() { }
 
-	// RVA: 0x940AA0 Offset: 0x93F0A0 VA: 0x180940AA0
+	// RVA: 0x940BB0 Offset: 0x93F1B0 VA: 0x180940BB0
 	private void BindGlobalLight() { }
 
-	// RVA: 0x9401E0 Offset: 0x93E7E0 VA: 0x1809401E0
+	// RVA: 0x9402F0 Offset: 0x93E8F0 VA: 0x1809402F0
 	private void BindGlobalAmbient() { }
 
-	// RVA: 0x941030 Offset: 0x93F630 VA: 0x180941030
+	// RVA: 0x941140 Offset: 0x93F740 VA: 0x180941140
 	private void BindGlobalReflection() { }
 
-	// RVA: 0x945310 Offset: 0x943910 VA: 0x180945310
+	// RVA: 0x945420 Offset: 0x943A20 VA: 0x180945420
 	private void RenderObjects() { }
 
-	// RVA: 0x945C60 Offset: 0x944260 VA: 0x180945C60
+	// RVA: 0x945D70 Offset: 0x944370 VA: 0x180945D70
 	private void RenderSkybox() { }
 
-	// RVA: 0x943990 Offset: 0x941F90 VA: 0x180943990
+	// RVA: 0x943AA0 Offset: 0x9420A0 VA: 0x180943AA0
 	private void IssueRender() { }
 
-	// RVA: 0x9438B0 Offset: 0x941EB0 VA: 0x1809438B0
+	// RVA: 0x9439C0 Offset: 0x941FC0 VA: 0x1809439C0
 	private void IssueGenerateMips() { }
 
-	// RVA: 0x943590 Offset: 0x941B90 VA: 0x180943590
+	// RVA: 0x9436A0 Offset: 0x941CA0 VA: 0x1809436A0
 	private void IssueConvolution() { }
 
-	// RVA: 0x943BC0 Offset: 0x9421C0 VA: 0x180943BC0
+	// RVA: 0x943CD0 Offset: 0x9422D0 VA: 0x180943CD0
 	private void IssueShadow() { }
 
-	// RVA: 0x944D20 Offset: 0x943320 VA: 0x180944D20
+	// RVA: 0x944E30 Offset: 0x943430 VA: 0x180944E30
 	private void PrepareFullRender() { }
 
-	// RVA: 0x944E00 Offset: 0x943400 VA: 0x180944E00
+	// RVA: 0x944F10 Offset: 0x943510 VA: 0x180944F10
 	private void PrepareTimeSlicedRender(ReflectionProbeEx.TimeSlicingState state) { }
 
-	// RVA: 0x942EB0 Offset: 0x9414B0 VA: 0x180942EB0
+	// RVA: 0x942FC0 Offset: 0x9415C0 VA: 0x180942FC0
 	private void ExecuteRender() { }
 
-	// RVA: 0x942F40 Offset: 0x941540 VA: 0x180942F40
+	// RVA: 0x943050 Offset: 0x941650 VA: 0x180943050
 	private int FastLog2(int value) { }
 
-	// RVA: 0x946290 Offset: 0x944890 VA: 0x180946290
+	// RVA: 0x9463A0 Offset: 0x9449A0 VA: 0x1809463A0
 	private uint ReverseBits(uint bits) { }
 
-	// RVA: 0x946680 Offset: 0x944C80 VA: 0x180946680
+	// RVA: 0x946790 Offset: 0x944D90 VA: 0x180946790
 	private void SafeCreateMaterial(ref Material mat, Shader shader) { }
 
-	// RVA: 0x946580 Offset: 0x944B80 VA: 0x180946580
+	// RVA: 0x946690 Offset: 0x944C90 VA: 0x180946690
 	private void SafeCreateMaterial(ref Material mat, string shaderName) { }
 
-	// RVA: 0x946390 Offset: 0x944990 VA: 0x180946390
+	// RVA: 0x9464A0 Offset: 0x944AA0 VA: 0x1809464A0
 	private void SafeCreateCubeRT(ref RenderTexture rt, string name, int size, int depth, bool mips, TextureDimension dim, FilterMode filter, RenderTextureFormat format, RenderTextureReadWrite readWrite = 1) { }
 
-	// RVA: 0x946300 Offset: 0x944900 VA: 0x180946300
+	// RVA: 0x946410 Offset: 0x944A10 VA: 0x180946410
 	private void SafeCreateCB(ref CommandBuffer cb, string name) { }
 
 	// RVA: -1 Offset: -1
 	private void SafeDestroy<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xCFEA20 Offset: 0xCFD020 VA: 0x180CFEA20
+	|-RVA: 0xCFECE0 Offset: 0xCFD2E0 VA: 0x180CFECE0
 	|-ReflectionProbeEx.SafeDestroy<object>
 	|-ReflectionProbeEx.SafeDestroy<Material>
 	|-ReflectionProbeEx.SafeDestroy<RenderTexture>
@@ -215,51 +215,51 @@ public class ReflectionProbeEx : MonoBehaviour // TypeDefIndex: 10690
 	private void SafeDispose<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xCFEAC0 Offset: 0xCFD0C0 VA: 0x180CFEAC0
+	|-RVA: 0xCFED80 Offset: 0xCFD380 VA: 0x180CFED80
 	|-ReflectionProbeEx.SafeDispose<object>
 	|-ReflectionProbeEx.SafeDispose<CommandBuffer>
 	*/
 
-	// RVA: 0x7DDC60 Offset: 0x7DC260 VA: 0x1807DDC60
+	// RVA: 0x7DDD70 Offset: 0x7DC370 VA: 0x1807DDD70
 	public RenderTexture get_Texture() { }
 
-	// RVA: 0x941320 Offset: 0x93F920 VA: 0x180941320
+	// RVA: 0x941430 Offset: 0x93FA30 VA: 0x180941430
 	public void ClearRenderList() { }
 
-	// RVA: 0x93F860 Offset: 0x93DE60 VA: 0x18093F860
+	// RVA: 0x93F970 Offset: 0x93DF70 VA: 0x18093F970
 	public void AddToRenderList(Renderer renderer, bool alwaysEnabled = False) { }
 
-	// RVA: 0x940190 Offset: 0x93E790 VA: 0x180940190
+	// RVA: 0x9402A0 Offset: 0x93E8A0 VA: 0x1809402A0
 	private void Awake() { }
 
-	// RVA: 0x944830 Offset: 0x942E30 VA: 0x180944830
+	// RVA: 0x944940 Offset: 0x942F40 VA: 0x180944940
 	private void OnEnable() { }
 
-	// RVA: 0x944510 Offset: 0x942B10 VA: 0x180944510
+	// RVA: 0x944620 Offset: 0x942C20 VA: 0x180944620
 	private void OnDisable() { }
 
-	// RVA: 0x944060 Offset: 0x942660 VA: 0x180944060
+	// RVA: 0x944170 Offset: 0x942770 VA: 0x180944170
 	private void OnCameraPreRender(Camera cam) { }
 
-	// RVA: 0x945C40 Offset: 0x944240 VA: 0x180945C40
+	// RVA: 0x945D50 Offset: 0x944350 VA: 0x180945D50
 	public void RenderProbe() { }
 
-	// RVA: 0x943570 Offset: 0x941B70 VA: 0x180943570
+	// RVA: 0x943680 Offset: 0x941C80 VA: 0x180943680
 	public bool IsFinishedRendering() { }
 
-	// RVA: 0x943F40 Offset: 0x942540 VA: 0x180943F40
+	// RVA: 0x944050 Offset: 0x942650 VA: 0x180944050
 	private void ModifyProbeProperties() { }
 
-	// RVA: 0x9461D0 Offset: 0x9447D0 VA: 0x1809461D0
+	// RVA: 0x9462E0 Offset: 0x9448E0 VA: 0x1809462E0
 	private void RestoreProbeSettings() { }
 
-	// RVA: 0x9472D0 Offset: 0x9458D0 VA: 0x1809472D0
+	// RVA: 0x9473E0 Offset: 0x9459E0 VA: 0x1809473E0
 	private bool UpdateProperties() { }
 
-	// RVA: 0x949600 Offset: 0x947C00 VA: 0x180949600
+	// RVA: 0x949710 Offset: 0x947D10 VA: 0x180949710
 	public void .ctor() { }
 
-	// RVA: 0x9475B0 Offset: 0x945BB0 VA: 0x1809475B0
+	// RVA: 0x9476C0 Offset: 0x945CC0 VA: 0x1809476C0
 	private static void .cctor() { }
 
 }

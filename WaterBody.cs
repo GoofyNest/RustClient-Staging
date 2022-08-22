@@ -38,14 +38,14 @@ public class WaterBody : MonoBehaviour // TypeDefIndex: 10597
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	private void set_Transform(Transform value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
 	public Transform get_Transform() { }
 
-	// RVA: 0x8035F0 Offset: 0x801BF0 VA: 0x1808035F0
+	// RVA: 0x803700 Offset: 0x801D00 VA: 0x180803700
 	private void Awake() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -89,39 +89,39 @@ public class WaterBody : MonoBehaviour // TypeDefIndex: 10597
 	public int get_DepthDisplacementPass() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x803AB0 Offset: 0x8020B0 VA: 0x180803AB0
+	// RVA: 0x803BC0 Offset: 0x8021C0 VA: 0x180803BC0
 	private void set_OcclusionPass(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x803A80 Offset: 0x802080 VA: 0x180803A80
+	// RVA: 0x803B90 Offset: 0x802190 VA: 0x180803B90
 	public int get_OcclusionPass() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x803A90 Offset: 0x802090 VA: 0x180803A90
+	// RVA: 0x803BA0 Offset: 0x8021A0 VA: 0x180803BA0
 	private void set_CausticsPass(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x803A60 Offset: 0x802060 VA: 0x180803A60
+	// RVA: 0x803B70 Offset: 0x802170 VA: 0x180803B70
 	public int get_CausticsPass() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x803AA0 Offset: 0x8020A0 VA: 0x180803AA0
+	// RVA: 0x803BB0 Offset: 0x8021B0 VA: 0x180803BB0
 	private void set_OcclusionCausticsPass(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x803A70 Offset: 0x802070 VA: 0x180803A70
+	// RVA: 0x803B80 Offset: 0x802180 VA: 0x180803B80
 	public int get_OcclusionCausticsPass() { }
 
-	// RVA: 0x803680 Offset: 0x801C80 VA: 0x180803680
+	// RVA: 0x803790 Offset: 0x801D90 VA: 0x180803790
 	private void OnEnable() { }
 
-	// RVA: 0x803620 Offset: 0x801C20 VA: 0x180803620
+	// RVA: 0x803730 Offset: 0x801D30 VA: 0x180803730
 	private void OnDisable() { }
 
-	// RVA: 0x803940 Offset: 0x801F40 VA: 0x180803940
+	// RVA: 0x803A50 Offset: 0x802050 VA: 0x180803A50
 	public void OnOceanLevelChanged(float newLevel) { }
 
-	// RVA: 0x803A50 Offset: 0x802050 VA: 0x180803A50
+	// RVA: 0x803B60 Offset: 0x802160 VA: 0x180803B60
 	public void .ctor() { }
 
 }

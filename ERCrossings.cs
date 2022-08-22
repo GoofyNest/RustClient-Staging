@@ -183,82 +183,82 @@ public class ERCrossings : MonoBehaviour // TypeDefIndex: 7169
 
 	// Methods
 
-	// RVA: 0xB951A0 Offset: 0xB937A0 VA: 0x180B951A0
+	// RVA: 0xB95460 Offset: 0xB93A60 VA: 0x180B95460
 	public void Refresh() { }
 
-	// RVA: 0xB94300 Offset: 0xB92900 VA: 0x180B94300
+	// RVA: 0xB945C0 Offset: 0xB92BC0 VA: 0x180B945C0
 	public void ODOCCDCQOC() { }
 
-	// RVA: 0xB951B0 Offset: 0xB937B0 VA: 0x180B951B0
+	// RVA: 0xB95470 Offset: 0xB93A70 VA: 0x180B95470
 	public Vector3 OOQCQDQCOO(int index, Vector3 p0, Vector3 p1, Vector3 p2, bool update) { }
 
-	// RVA: 0xB97DF0 Offset: 0xB963F0 VA: 0x180B97DF0
+	// RVA: 0xB980B0 Offset: 0xB966B0 VA: 0x180B980B0
 	public void UpdateAllConnectionAngles() { }
 
-	// RVA: 0xB951A0 Offset: 0xB937A0 VA: 0x180B951A0
+	// RVA: 0xB95460 Offset: 0xB93A60 VA: 0x180B95460
 	public void OOOCDCQQCO() { }
 
-	// RVA: 0xB983F0 Offset: 0xB969F0 VA: 0x180B983F0
+	// RVA: 0xB986B0 Offset: 0xB96CB0 VA: 0x180B986B0
 	public bool UpdateToRoadType(QDQDOOQQDQODD sourcePreset, ref List<ERModularRoad> updatedRoads) { }
 
-	// RVA: 0xB97AE0 Offset: 0xB960E0 VA: 0x180B97AE0
+	// RVA: 0xB97DA0 Offset: 0xB963A0 VA: 0x180B97DA0
 	public bool RoadIsUpdated(ERModularRoad rd, ref List<ERModularRoad> updatedRoads) { }
 
-	// RVA: 0xB97C80 Offset: 0xB96280 VA: 0x180B97C80
+	// RVA: 0xB97F40 Offset: 0xB96540 VA: 0x180B97F40
 	public int SetRoadTypeInt(double id) { }
 
-	// RVA: 0xB8B880 Offset: 0xB89E80 VA: 0x180B8B880
+	// RVA: 0xB8BB40 Offset: 0xB8A140 VA: 0x180B8BB40
 	public void OCQCQODOQC(ERCrossings source, bool refreshFlag) { }
 
-	// RVA: 0xB95B90 Offset: 0xB94190 VA: 0x180B95B90
+	// RVA: 0xB95E50 Offset: 0xB94450 VA: 0x180B95E50
 	public void OQCQCOOCDD() { }
 
-	// RVA: 0xB8D470 Offset: 0xB8BA70 VA: 0x180B8D470
+	// RVA: 0xB8D730 Offset: 0xB8BD30 VA: 0x180B8D730
 	public void OCQDQODOQD(bool sidewalkSceneHandleFlag, bool rebuildRoads) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void OQCQDQDCOD() { }
 
-	// RVA: 0xB90F90 Offset: 0xB8F590 VA: 0x180B90F90
+	// RVA: 0xB91250 Offset: 0xB8F850 VA: 0x180B91250
 	public void ODDDOCDCQO(bool rebuildRoads) { }
 
-	// RVA: 0xB96280 Offset: 0xB94880 VA: 0x180B96280
+	// RVA: 0xB96540 Offset: 0xB94B40 VA: 0x180B96540
 	public void OQCQQCQDCQ(int el, List<List<int>> trIntArray, List<float> uvArray, List<List<int>> leftSidewalkIntArray, List<List<int>> rightSidewalkIntArray, int startend) { }
 
-	// RVA: 0xB94690 Offset: 0xB92C90 VA: 0x180B94690
+	// RVA: 0xB94950 Offset: 0xB92F50 VA: 0x180B94950
 	public void ODQCODQDDQ(int el, Material roadMaterial, int leftCorner, int rightCorner, int leftVecCount, int rightVecCount) { }
 
-	// RVA: 0xB8B0D0 Offset: 0xB896D0 VA: 0x180B8B0D0
+	// RVA: 0xB8B390 Offset: 0xB89990 VA: 0x180B8B390
 	public void OCDDOCDDOQ(List<Vector3> meshVecs, List<int> connectionVecInts, ref List<Vector2> roadShapeVecs, List<List<Vector3>> vecArrays, List<List<Vector3>> leftSidewalkArray, List<List<Vector3>> rightSidewalkArray, int connectionElement, int startend) { }
 
-	// RVA: 0xB94480 Offset: 0xB92A80 VA: 0x180B94480
+	// RVA: 0xB94740 Offset: 0xB92D40 VA: 0x180B94740
 	public static void ODOODQDCCQ(List<Vector3> sourceVecs, ref List<Vector2> roadShapeVecs, Vector3 centerPoint, Vector3 startPoint, float halfWayDistance) { }
 
-	// RVA: 0xB8A3C0 Offset: 0xB889C0 VA: 0x180B8A3C0
+	// RVA: 0xB8A680 Offset: 0xB88C80 VA: 0x180B8A680
 	public static string GetRoadShapeVecString(List<Vector2> vecs, List<Vector2> lvecs, List<Vector2> rvecs, ref int matchCount) { }
 
-	// RVA: 0xB8E860 Offset: 0xB8CE60 VA: 0x180B8E860
+	// RVA: 0xB8EB20 Offset: 0xB8D120 VA: 0x180B8EB20
 	public void ODCCCQCQOO() { }
 
-	// RVA: 0xB900F0 Offset: 0xB8E6F0 VA: 0x180B900F0
+	// RVA: 0xB903B0 Offset: 0xB8E9B0 VA: 0x180B903B0
 	public void ODCDCDDOCC(List<SidewalkPresetClass> sidewalkPresets, int el) { }
 
-	// RVA: 0xB8A7F0 Offset: 0xB88DF0 VA: 0x180B8A7F0
+	// RVA: 0xB8AAB0 Offset: 0xB890B0 VA: 0x180B8AAB0
 	public void OCCODQDOCO() { }
 
-	// RVA: 0xB96F00 Offset: 0xB95500 VA: 0x180B96F00
+	// RVA: 0xB971C0 Offset: 0xB957C0 VA: 0x180B971C0
 	public void OQDOQDQQQQ(int el) { }
 
-	// RVA: 0xB94D50 Offset: 0xB93350 VA: 0x180B94D50
+	// RVA: 0xB95010 Offset: 0xB93610 VA: 0x180B95010
 	public void OODOQQQQCO() { }
 
-	// RVA: 0xB95930 Offset: 0xB93F30 VA: 0x180B95930
+	// RVA: 0xB95BF0 Offset: 0xB941F0 VA: 0x180B95BF0
 	public void OQCOOQQOOD() { }
 
-	// RVA: 0xB96A10 Offset: 0xB95010 VA: 0x180B96A10
+	// RVA: 0xB96CD0 Offset: 0xB952D0 VA: 0x180B96CD0
 	public bool OQDOOCDOCD(ERModularRoad road, float angle) { }
 
-	// RVA: 0xB99330 Offset: 0xB97930 VA: 0x180B99330
+	// RVA: 0xB995F0 Offset: 0xB97BF0 VA: 0x180B995F0
 	public void .ctor() { }
 
 }
@@ -270,13 +270,13 @@ private sealed class ERCrossings.ᙃ // TypeDefIndex: 7170
 
 	// Methods
 
-	// RVA: 0x9CF460 Offset: 0x9CDA60 VA: 0x1809CF460
+	// RVA: 0x9CF720 Offset: 0x9CDD20 VA: 0x1809CF720
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x9CF430 Offset: 0x9CDA30 VA: 0x1809CF430
+	// RVA: 0x9CF6F0 Offset: 0x9CDCF0 VA: 0x1809CF6F0
 	internal int <OQDOOCDOCD>b__203_0(ERConnectionSibling x, ERConnectionSibling y) { }
 
 }

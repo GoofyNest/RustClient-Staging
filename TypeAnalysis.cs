@@ -9,7 +9,7 @@ internal sealed class TypeAnalysis // TypeDefIndex: 1591
 
 	// Methods
 
-	// RVA: 0x10E9700 Offset: 0x10E7D00 VA: 0x1810E9700
+	// RVA: 0x10E99C0 Offset: 0x10E7FC0 VA: 0x1810E99C0
 	public void .ctor(Type dataType, EventDataAttribute eventAttrib, List<Type> recursionCheck) { }
 
 }

@@ -11,16 +11,16 @@ public class HudMenuInput : ListComponent<HudMenuInput> // TypeDefIndex: 8010
 
 	// Methods
 
-	// RVA: 0x106C870 Offset: 0x106AE70 VA: 0x18106C870
+	// RVA: 0x106CB30 Offset: 0x106B130 VA: 0x18106CB30
 	public static bool AnyActive() { }
 
-	// RVA: 0x106CA40 Offset: 0x106B040 VA: 0x18106CA40
+	// RVA: 0x106CD00 Offset: 0x106B300 VA: 0x18106CD00
 	private void Start() { }
 
-	// RVA: 0x106C960 Offset: 0x106AF60 VA: 0x18106C960
+	// RVA: 0x106CC20 Offset: 0x106B220 VA: 0x18106CC20
 	private bool IsCurrentlyActive() { }
 
-	// RVA: 0x106CAB0 Offset: 0x106B0B0 VA: 0x18106CAB0
+	// RVA: 0x106CD70 Offset: 0x106B370 VA: 0x18106CD70
 	public void .ctor() { }
 
 }

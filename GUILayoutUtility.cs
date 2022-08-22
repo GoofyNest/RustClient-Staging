@@ -11,76 +11,76 @@ public class GUILayoutUtility // TypeDefIndex: 4041
 
 	// Methods
 
-	// RVA: 0x1A723D0 Offset: 0x1A709D0 VA: 0x181A723D0
+	// RVA: 0x1A72690 Offset: 0x1A70C90 VA: 0x181A72690
 	private static Rect Internal_GetWindowRect(int windowID) { }
 
-	// RVA: 0x1A724A0 Offset: 0x1A70AA0 VA: 0x181A724A0
+	// RVA: 0x1A72760 Offset: 0x1A70D60 VA: 0x181A72760
 	private static void Internal_MoveWindow(int windowID, Rect r) { }
 
 	[VisibleToOtherModulesAttribute] // RVA: 0xCF680 Offset: 0xCEA80 VA: 0x1800CF680
-	// RVA: 0x1A73450 Offset: 0x1A71A50 VA: 0x181A73450
+	// RVA: 0x1A73710 Offset: 0x1A71D10 VA: 0x181A73710
 	internal static GUILayoutUtility.LayoutCache SelectIDList(int instanceID, bool isWindow) { }
 
-	// RVA: 0x1A71320 Offset: 0x1A6F920 VA: 0x181A71320
+	// RVA: 0x1A715E0 Offset: 0x1A6FBE0 VA: 0x181A715E0
 	internal static void Begin(int instanceID) { }
 
 	[VisibleToOtherModulesAttribute] // RVA: 0xCF870 Offset: 0xCEC70 VA: 0x1800CF870
-	// RVA: 0x1A70730 Offset: 0x1A6ED30 VA: 0x181A70730
+	// RVA: 0x1A709F0 Offset: 0x1A6EFF0 VA: 0x181A709F0
 	internal static void BeginContainer(GUILayoutUtility.LayoutCache cache) { }
 
-	// RVA: 0x1A70F60 Offset: 0x1A6F560 VA: 0x181A70F60
+	// RVA: 0x1A71220 Offset: 0x1A6F820 VA: 0x181A71220
 	internal static void BeginWindow(int windowID, GUIStyle style, GUILayoutOption[] options) { }
 
-	// RVA: 0x1A73150 Offset: 0x1A71750 VA: 0x181A73150
+	// RVA: 0x1A73410 Offset: 0x1A71A10 VA: 0x181A73410
 	internal static void Layout() { }
 
-	// RVA: 0x1A72BC0 Offset: 0x1A711C0 VA: 0x181A72BC0
+	// RVA: 0x1A72E80 Offset: 0x1A71480 VA: 0x181A72E80
 	internal static void LayoutFromEditorWindow() { }
 
 	[VisibleToOtherModulesAttribute] // RVA: 0xCFA60 Offset: 0xCEE60 VA: 0x1800CFA60
-	// RVA: 0x1A729E0 Offset: 0x1A70FE0 VA: 0x181A729E0
+	// RVA: 0x1A72CA0 Offset: 0x1A712A0 VA: 0x181A72CA0
 	internal static void LayoutFromContainer(float w, float h) { }
 
-	// RVA: 0x1A72520 Offset: 0x1A70B20 VA: 0x181A72520
+	// RVA: 0x1A727E0 Offset: 0x1A70DE0 VA: 0x181A727E0
 	internal static void LayoutFreeGroup(GUILayoutGroup toplevel) { }
 
-	// RVA: 0x1A72E10 Offset: 0x1A71410 VA: 0x181A72E10
+	// RVA: 0x1A730D0 Offset: 0x1A716D0 VA: 0x181A730D0
 	private static void LayoutSingleGroup(GUILayoutGroup i) { }
 
-	// RVA: 0x1A715D0 Offset: 0x1A6FBD0 VA: 0x181A715D0
+	// RVA: 0x1A71890 Offset: 0x1A6FE90 VA: 0x181A71890
 	private static GUILayoutGroup CreateGUILayoutGroupInstanceOfType(Type LayoutType) { }
 
-	// RVA: 0x1A70C10 Offset: 0x1A6F210 VA: 0x181A70C10
+	// RVA: 0x1A70ED0 Offset: 0x1A6F4D0 VA: 0x181A70ED0
 	internal static GUILayoutGroup BeginLayoutGroup(GUIStyle style, GUILayoutOption[] options, Type layoutType) { }
 
-	// RVA: 0x1A71F80 Offset: 0x1A70580 VA: 0x181A71F80
+	// RVA: 0x1A72240 Offset: 0x1A70840 VA: 0x181A72240
 	internal static void EndLayoutGroup() { }
 
-	// RVA: 0x1A70910 Offset: 0x1A6EF10 VA: 0x181A70910
+	// RVA: 0x1A70BD0 Offset: 0x1A6F1D0 VA: 0x181A70BD0
 	internal static GUILayoutGroup BeginLayoutArea(GUIStyle style, Type layoutType) { }
 
-	// RVA: 0x1A72230 Offset: 0x1A70830 VA: 0x181A72230
+	// RVA: 0x1A724F0 Offset: 0x1A70AF0 VA: 0x181A724F0
 	public static Rect GetRect(GUIContent content, GUIStyle style, GUILayoutOption[] options) { }
 
-	// RVA: 0x1A716F0 Offset: 0x1A6FCF0 VA: 0x181A716F0
+	// RVA: 0x1A719B0 Offset: 0x1A6FFB0 VA: 0x181A719B0
 	private static Rect DoGetRect(GUIContent content, GUIStyle style, GUILayoutOption[] options) { }
 
-	// RVA: 0x1A722D0 Offset: 0x1A708D0 VA: 0x181A722D0
+	// RVA: 0x1A72590 Offset: 0x1A70B90 VA: 0x181A72590
 	public static Rect GetRect(float width, float height, GUIStyle style, GUILayoutOption[] options) { }
 
-	// RVA: 0x1A71D20 Offset: 0x1A70320 VA: 0x181A71D20
+	// RVA: 0x1A71FE0 Offset: 0x1A705E0 VA: 0x181A71FE0
 	private static Rect DoGetRect(float minWidth, float maxWidth, float minHeight, float maxHeight, GUIStyle style, GUILayoutOption[] options) { }
 
-	// RVA: 0x1A73740 Offset: 0x1A71D40 VA: 0x181A73740
+	// RVA: 0x1A73A00 Offset: 0x1A72000 VA: 0x181A73A00
 	internal static GUIStyle get_spaceStyle() { }
 
-	// RVA: 0x1A73620 Offset: 0x1A71C20 VA: 0x181A73620
+	// RVA: 0x1A738E0 Offset: 0x1A71EE0 VA: 0x181A738E0
 	private static void .cctor() { }
 
-	// RVA: 0x1A72390 Offset: 0x1A70990 VA: 0x181A72390
+	// RVA: 0x1A72650 Offset: 0x1A70C50 VA: 0x181A72650
 	private static void Internal_GetWindowRect_Injected(int windowID, out Rect ret) { }
 
-	// RVA: 0x1A72460 Offset: 0x1A70A60 VA: 0x181A72460
+	// RVA: 0x1A72720 Offset: 0x1A70D20 VA: 0x181A72720
 	private static void Internal_MoveWindow_Injected(int windowID, ref Rect r) { }
 
 }
@@ -95,7 +95,7 @@ internal sealed class GUILayoutUtility.LayoutCache // TypeDefIndex: 4042
 	// Methods
 
 	[VisibleToOtherModulesAttribute] // RVA: 0xD0110 Offset: 0xCF510 VA: 0x1800D0110
-	// RVA: 0x1A85700 Offset: 0x1A83D00 VA: 0x181A85700
+	// RVA: 0x1A859C0 Offset: 0x1A83FC0 VA: 0x181A859C0
 	internal void .ctor() { }
 
 }

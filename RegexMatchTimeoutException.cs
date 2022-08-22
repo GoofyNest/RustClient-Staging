@@ -6,22 +6,22 @@ public class RegexMatchTimeoutException : TimeoutException, ISerializable // Typ
 
 	// Methods
 
-	// RVA: 0x16AF140 Offset: 0x16AD740 VA: 0x1816AF140
+	// RVA: 0x16AF400 Offset: 0x16ADA00 VA: 0x1816AF400
 	public void .ctor(string regexInput, string regexPattern, TimeSpan matchTimeout) { }
 
-	// RVA: 0x16AEF30 Offset: 0x16AD530 VA: 0x1816AEF30
+	// RVA: 0x16AF1F0 Offset: 0x16AD7F0 VA: 0x1816AF1F0
 	public void .ctor() { }
 
-	// RVA: 0x16AF020 Offset: 0x16AD620 VA: 0x1816AF020
+	// RVA: 0x16AF2E0 Offset: 0x16AD8E0 VA: 0x1816AF2E0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x16AEE70 Offset: 0x16AD470 VA: 0x1816AEE70 Slot: 4
+	// RVA: 0x16AF130 Offset: 0x16AD730 VA: 0x1816AF130 Slot: 4
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo si, StreamingContext context) { }
 
-	// RVA: 0x16AED80 Offset: 0x16AD380 VA: 0x1816AED80
+	// RVA: 0x16AF040 Offset: 0x16AD640 VA: 0x1816AF040
 	private void Init() { }
 
-	// RVA: 0x16AEE20 Offset: 0x16AD420 VA: 0x1816AEE20
+	// RVA: 0x16AF0E0 Offset: 0x16AD6E0 VA: 0x1816AF0E0
 	private void Init(string input, string pattern, TimeSpan timeout) { }
 
 }

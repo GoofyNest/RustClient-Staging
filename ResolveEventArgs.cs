@@ -5,10 +5,10 @@ public class ResolveEventArgs : EventArgs // TypeDefIndex: 386
 
 	// Methods
 
-	// RVA: 0xFEB800 Offset: 0xFE9E00 VA: 0x180FEB800
+	// RVA: 0xFEBAC0 Offset: 0xFEA0C0 VA: 0x180FEBAC0
 	public void .ctor(string name) { }
 
-	// RVA: 0xFEB770 Offset: 0xFE9D70 VA: 0x180FEB770
+	// RVA: 0xFEBA30 Offset: 0xFEA030 VA: 0x180FEBA30
 	public void .ctor(string name, Assembly requestingAssembly) { }
 
 }

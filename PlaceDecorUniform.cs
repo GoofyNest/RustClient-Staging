@@ -7,10 +7,10 @@ public class PlaceDecorUniform : ProceduralComponent // TypeDefIndex: 10532
 
 	// Methods
 
-	// RVA: 0x90F440 Offset: 0x90DA40 VA: 0x18090F440 Slot: 5
+	// RVA: 0x90F550 Offset: 0x90DB50 VA: 0x18090F550 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x90FA80 Offset: 0x90E080 VA: 0x18090FA80
+	// RVA: 0x90FB90 Offset: 0x90E190 VA: 0x18090FB90
 	public void .ctor() { }
 
 }

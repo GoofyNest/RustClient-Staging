@@ -6,82 +6,82 @@ public class SAMSite : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6345
 
 	// Methods
 
-	// RVA: 0x1E07070 Offset: 0x1E05670 VA: 0x181E07070
+	// RVA: 0x1E07330 Offset: 0x1E05930 VA: 0x181E07330
 	public static void ResetToPool(SAMSite instance) { }
 
-	// RVA: 0x1E06FF0 Offset: 0x1E055F0 VA: 0x181E06FF0
+	// RVA: 0x1E072B0 Offset: 0x1E058B0 VA: 0x181E072B0
 	public void ResetToPool() { }
 
-	// RVA: 0x1E06EC0 Offset: 0x1E054C0 VA: 0x181E06EC0 Slot: 9
+	// RVA: 0x1E07180 Offset: 0x1E05780 VA: 0x181E07180 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DB8170 Offset: 0x1DB6770 VA: 0x181DB8170
+	// RVA: 0x1DB8430 Offset: 0x1DB6A30 VA: 0x181DB8430
 	public void CopyTo(SAMSite instance) { }
 
-	// RVA: 0x1E06540 Offset: 0x1E04B40 VA: 0x181E06540
+	// RVA: 0x1E06800 Offset: 0x1E04E00 VA: 0x181E06800
 	public SAMSite Copy() { }
 
-	// RVA: 0x1E06E40 Offset: 0x1E05440 VA: 0x181E06E40
+	// RVA: 0x1E07100 Offset: 0x1E05700 VA: 0x181E07100
 	public static SAMSite Deserialize(Stream stream) { }
 
-	// RVA: 0x1E065B0 Offset: 0x1E04BB0 VA: 0x181E065B0
+	// RVA: 0x1E06870 Offset: 0x1E04E70 VA: 0x181E06870
 	public static SAMSite DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E06A40 Offset: 0x1E05040 VA: 0x181E06A40
+	// RVA: 0x1E06D00 Offset: 0x1E05300 VA: 0x181E06D00
 	public static SAMSite DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E06D20 Offset: 0x1E05320 VA: 0x181E06D20
+	// RVA: 0x1E06FE0 Offset: 0x1E055E0 VA: 0x181E06FE0
 	public static SAMSite Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E06FB0 Offset: 0x1E055B0 VA: 0x181E06FB0
+	// RVA: 0x1E07270 Offset: 0x1E05870 VA: 0x181E07270
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E07670 Offset: 0x1E05C70 VA: 0x181E07670 Slot: 12
+	// RVA: 0x1E07930 Offset: 0x1E05F30 VA: 0x181E07930 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E07690 Offset: 0x1E05C90 VA: 0x181E07690 Slot: 13
+	// RVA: 0x1E07950 Offset: 0x1E05F50 VA: 0x181E07950 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, SAMSite previous) { }
 
-	// RVA: 0x1E06FD0 Offset: 0x1E055D0 VA: 0x181E06FD0 Slot: 14
+	// RVA: 0x1E07290 Offset: 0x1E05890 VA: 0x181E07290 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E06AD0 Offset: 0x1E050D0 VA: 0x181E06AD0
+	// RVA: 0x1E06D90 Offset: 0x1E05390 VA: 0x181E06D90
 	public static SAMSite Deserialize(byte[] buffer, SAMSite instance, bool isDelta = False) { }
 
-	// RVA: 0x1E06BD0 Offset: 0x1E051D0 VA: 0x181E06BD0
+	// RVA: 0x1E06E90 Offset: 0x1E05490 VA: 0x181E06E90
 	public static SAMSite Deserialize(Stream stream, SAMSite instance, bool isDelta) { }
 
-	// RVA: 0x1E06630 Offset: 0x1E04C30 VA: 0x181E06630
+	// RVA: 0x1E068F0 Offset: 0x1E04EF0 VA: 0x181E068F0
 	public static SAMSite DeserializeLengthDelimited(Stream stream, SAMSite instance, bool isDelta) { }
 
-	// RVA: 0x1E06850 Offset: 0x1E04E50 VA: 0x181E06850
+	// RVA: 0x1E06B10 Offset: 0x1E05110 VA: 0x181E06B10
 	public static SAMSite DeserializeLength(Stream stream, int length, SAMSite instance, bool isDelta) { }
 
-	// RVA: 0x1E070F0 Offset: 0x1E056F0 VA: 0x181E070F0
+	// RVA: 0x1E073B0 Offset: 0x1E059B0 VA: 0x181E073B0
 	public static void SerializeDelta(Stream stream, SAMSite instance, SAMSite previous) { }
 
-	// RVA: 0x1E074F0 Offset: 0x1E05AF0 VA: 0x181E074F0
+	// RVA: 0x1E077B0 Offset: 0x1E05DB0 VA: 0x181E077B0
 	public static void Serialize(Stream stream, SAMSite instance) { }
 
-	// RVA: 0x1E07660 Offset: 0x1E05C60 VA: 0x181E07660
+	// RVA: 0x1E07920 Offset: 0x1E05F20 VA: 0x181E07920
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E07670 Offset: 0x1E05C70 VA: 0x181E07670
+	// RVA: 0x1E07930 Offset: 0x1E05F30 VA: 0x181E07930
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E073E0 Offset: 0x1E059E0 VA: 0x181E073E0
+	// RVA: 0x1E076A0 Offset: 0x1E05CA0 VA: 0x181E076A0
 	public static byte[] SerializeToBytes(SAMSite instance) { }
 
-	// RVA: 0x1E07330 Offset: 0x1E05930 VA: 0x181E07330
+	// RVA: 0x1E075F0 Offset: 0x1E05BF0 VA: 0x181E075F0
 	public static void SerializeLengthDelimited(Stream stream, SAMSite instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

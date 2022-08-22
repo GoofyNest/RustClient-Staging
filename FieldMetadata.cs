@@ -10,16 +10,16 @@ internal class FieldMetadata // TypeDefIndex: 1523
 
 	// Methods
 
-	// RVA: 0x10DDA70 Offset: 0x10DC070 VA: 0x1810DDA70
+	// RVA: 0x10DDD30 Offset: 0x10DC330 VA: 0x1810DDD30
 	public void .ctor(string name, TraceLoggingDataType type, EventFieldTags tags, bool variableCount) { }
 
-	// RVA: 0x10DD7D0 Offset: 0x10DBDD0 VA: 0x1810DD7D0
+	// RVA: 0x10DDA90 Offset: 0x10DC090 VA: 0x1810DDA90
 	private void .ctor(string name, TraceLoggingDataType dataType, EventFieldTags tags, byte countFlags, ushort fixedCount = 0, byte[] custom) { }
 
-	// RVA: 0x10DD750 Offset: 0x10DBD50 VA: 0x1810DD750
+	// RVA: 0x10DDA10 Offset: 0x10DC010 VA: 0x1810DDA10
 	public void IncrementStructFieldCount() { }
 
-	// RVA: 0x10DD520 Offset: 0x10DBB20 VA: 0x1810DD520
+	// RVA: 0x10DD7E0 Offset: 0x10DBDE0 VA: 0x1810DD7E0
 	public void Encode(ref int pos, byte[] metadata) { }
 
 }

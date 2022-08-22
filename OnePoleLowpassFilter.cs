@@ -11,19 +11,19 @@ public class OnePoleLowpassFilter : MonoBehaviour // TypeDefIndex: 9015
 
 	// Methods
 
-	// RVA: 0x9E6800 Offset: 0x9E4E00 VA: 0x1809E6800
+	// RVA: 0x9E6AC0 Offset: 0x9E50C0 VA: 0x1809E6AC0
 	public void Update() { }
 
-	// RVA: 0x9E6480 Offset: 0x9E4A80 VA: 0x1809E6480
+	// RVA: 0x9E6740 Offset: 0x9E4D40 VA: 0x1809E6740
 	private void OnAudioFilterRead(float[] data, int channels) { }
 
-	// RVA: 0x9E6660 Offset: 0x9E4C60 VA: 0x1809E6660
+	// RVA: 0x9E6920 Offset: 0x9E4F20 VA: 0x1809E6920
 	private void SetupChannelData(int channels) { }
 
-	// RVA: 0x9E6760 Offset: 0x9E4D60 VA: 0x1809E6760
+	// RVA: 0x9E6A20 Offset: 0x9E5020 VA: 0x1809E6A20
 	private void UpdateFilterCoefficients() { }
 
-	// RVA: 0x9E68E0 Offset: 0x9E4EE0 VA: 0x1809E68E0
+	// RVA: 0x9E6BA0 Offset: 0x9E51A0 VA: 0x1809E6BA0
 	public void .ctor() { }
 
 }

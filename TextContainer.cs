@@ -37,58 +37,58 @@ public class TextContainer : UIBehaviour // TypeDefIndex: 6869
 
 	// Methods
 
-	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
+	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
 	public bool get_hasChanged() { }
 
-	// RVA: 0x95FA00 Offset: 0x95E000 VA: 0x18095FA00
+	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10
 	public void set_hasChanged(bool value) { }
 
-	// RVA: 0x1160340 Offset: 0x115E940 VA: 0x181160340
+	// RVA: 0x1160600 Offset: 0x115EC00 VA: 0x181160600
 	public Vector2 get_pivot() { }
 
-	// RVA: 0x11607F0 Offset: 0x115EDF0 VA: 0x1811607F0
+	// RVA: 0x1160AB0 Offset: 0x115F0B0 VA: 0x181160AB0
 	public void set_pivot(Vector2 value) { }
 
-	// RVA: 0x7D0C00 Offset: 0x7CF200 VA: 0x1807D0C00
+	// RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10
 	public TextContainerAnchors get_anchorPosition() { }
 
-	// RVA: 0x1160510 Offset: 0x115EB10 VA: 0x181160510
+	// RVA: 0x11607D0 Offset: 0x115EDD0 VA: 0x1811607D0
 	public void set_anchorPosition(TextContainerAnchors value) { }
 
-	// RVA: 0xB11220 Offset: 0xB0F820 VA: 0x180B11220
+	// RVA: 0xB114E0 Offset: 0xB0FAE0 VA: 0x180B114E0
 	public Rect get_rect() { }
 
-	// RVA: 0x11608B0 Offset: 0x115EEB0 VA: 0x1811608B0
+	// RVA: 0x1160B70 Offset: 0x115F170 VA: 0x181160B70
 	public void set_rect(Rect value) { }
 
-	// RVA: 0x1160400 Offset: 0x115EA00 VA: 0x181160400
+	// RVA: 0x11606C0 Offset: 0x115ECC0 VA: 0x1811606C0
 	public Vector2 get_size() { }
 
-	// RVA: 0x1160910 Offset: 0x115EF10 VA: 0x181160910
+	// RVA: 0x1160BD0 Offset: 0x115F1D0 VA: 0x181160BD0
 	public void set_size(Vector2 value) { }
 
-	// RVA: 0x1160500 Offset: 0x115EB00 VA: 0x181160500
+	// RVA: 0x11607C0 Offset: 0x115EDC0 VA: 0x1811607C0
 	public float get_width() { }
 
-	// RVA: 0x1160A40 Offset: 0x115F040 VA: 0x181160A40
+	// RVA: 0x1160D00 Offset: 0x115F300 VA: 0x181160D00
 	public void set_width(float value) { }
 
-	// RVA: 0x1160320 Offset: 0x115E920 VA: 0x181160320
+	// RVA: 0x11605E0 Offset: 0x115EBE0 VA: 0x1811605E0
 	public float get_height() { }
 
-	// RVA: 0x1160660 Offset: 0x115EC60 VA: 0x181160660
+	// RVA: 0x1160920 Offset: 0x115EF20 VA: 0x181160920
 	public void set_height(float value) { }
 
-	// RVA: 0x8C1040 Offset: 0x8BF640 VA: 0x1808C1040
+	// RVA: 0x8C1150 Offset: 0x8BF750 VA: 0x1808C1150
 	public bool get_isDefaultWidth() { }
 
-	// RVA: 0x8C1050 Offset: 0x8BF650 VA: 0x1808C1050
+	// RVA: 0x8C1160 Offset: 0x8BF760 VA: 0x1808C1160
 	public bool get_isDefaultHeight() { }
 
-	// RVA: 0x1160330 Offset: 0x115E930 VA: 0x181160330
+	// RVA: 0x11605F0 Offset: 0x115EBF0 VA: 0x1811605F0
 	public bool get_isAutoFitting() { }
 
-	// RVA: 0x1160740 Offset: 0x115ED40 VA: 0x181160740
+	// RVA: 0x1160A00 Offset: 0x115F000 VA: 0x181160A00
 	public void set_isAutoFitting(bool value) { }
 
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
@@ -97,49 +97,49 @@ public class TextContainer : UIBehaviour // TypeDefIndex: 6869
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	public Vector3[] get_worldCorners() { }
 
-	// RVA: 0x105DDA0 Offset: 0x105C3A0 VA: 0x18105DDA0
+	// RVA: 0x105E060 Offset: 0x105C660 VA: 0x18105E060
 	public Vector4 get_margins() { }
 
-	// RVA: 0x1160750 Offset: 0x115ED50 VA: 0x181160750
+	// RVA: 0x1160A10 Offset: 0x115F010 VA: 0x181160A10
 	public void set_margins(Vector4 value) { }
 
-	// RVA: 0x1160360 Offset: 0x115E960 VA: 0x181160360
+	// RVA: 0x1160620 Offset: 0x115EC20 VA: 0x181160620
 	public RectTransform get_rectTransform() { }
 
-	// RVA: 0x1160460 Offset: 0x115EA60 VA: 0x181160460
+	// RVA: 0x1160720 Offset: 0x115ED20 VA: 0x181160720
 	public TextMeshPro get_textMeshPro() { }
 
-	// RVA: 0x115F3C0 Offset: 0x115D9C0 VA: 0x18115F3C0 Slot: 4
+	// RVA: 0x115F680 Offset: 0x115DC80 VA: 0x18115F680 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0x115FAB0 Offset: 0x115E0B0 VA: 0x18115FAB0 Slot: 5
+	// RVA: 0x115FD70 Offset: 0x115E370 VA: 0x18115FD70 Slot: 5
 	protected override void OnEnable() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x115F8D0 Offset: 0x115DED0 VA: 0x18115F8D0
+	// RVA: 0x115FB90 Offset: 0x115E190 VA: 0x18115FB90
 	private void OnContainerChanged() { }
 
-	// RVA: 0x115FAC0 Offset: 0x115E0C0 VA: 0x18115FAC0 Slot: 10
+	// RVA: 0x115FD80 Offset: 0x115E380 VA: 0x18115FD80 Slot: 10
 	protected override void OnRectTransformDimensionsChange() { }
 
-	// RVA: 0x115FE70 Offset: 0x115E470 VA: 0x18115FE70
+	// RVA: 0x1160130 Offset: 0x115E730 VA: 0x181160130
 	private void SetRect(Vector2 size) { }
 
-	// RVA: 0x115FEF0 Offset: 0x115E4F0 VA: 0x18115FEF0
+	// RVA: 0x11601B0 Offset: 0x115E7B0 VA: 0x1811601B0
 	private void UpdateCorners() { }
 
-	// RVA: 0x115F7B0 Offset: 0x115DDB0 VA: 0x18115F7B0
+	// RVA: 0x115FA70 Offset: 0x115E070 VA: 0x18115FA70
 	private Vector2 GetPivot(TextContainerAnchors anchor) { }
 
-	// RVA: 0x115F460 Offset: 0x115DA60 VA: 0x18115F460
+	// RVA: 0x115F720 Offset: 0x115DD20 VA: 0x18115F720
 	private TextContainerAnchors GetAnchorPosition(Vector2 pivot) { }
 
-	// RVA: 0x11602A0 Offset: 0x115E8A0 VA: 0x1811602A0
+	// RVA: 0x1160560 Offset: 0x115EB60 VA: 0x181160560
 	public void .ctor() { }
 
-	// RVA: 0x1160230 Offset: 0x115E830 VA: 0x181160230
+	// RVA: 0x11604F0 Offset: 0x115EAF0 VA: 0x1811604F0
 	private static void .cctor() { }
 
 }

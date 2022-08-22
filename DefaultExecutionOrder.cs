@@ -7,10 +7,10 @@ public class DefaultExecutionOrder : Attribute // TypeDefIndex: 3502
 
 	// Methods
 
-	// RVA: 0xB11110 Offset: 0xB0F710 VA: 0x180B11110
+	// RVA: 0xB113D0 Offset: 0xB0F9D0 VA: 0x180B113D0
 	public void .ctor(int order) { }
 
-	// RVA: 0x18296A0 Offset: 0x1827CA0 VA: 0x1818296A0
+	// RVA: 0x1829960 Offset: 0x1827F60 VA: 0x181829960
 	public int get_order() { }
 
 }

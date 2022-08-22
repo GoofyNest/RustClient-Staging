@@ -20,55 +20,55 @@ public class ImpostorRenderer : MonoBehaviour // TypeDefIndex: 10682
 
 	// Methods
 
-	// RVA: 0x811E30 Offset: 0x810430 VA: 0x180811E30
+	// RVA: 0x811F40 Offset: 0x810540 VA: 0x180811F40
 	private Camera get_Camera() { }
 
-	// RVA: 0x811F30 Offset: 0x810530 VA: 0x180811F30
+	// RVA: 0x812040 Offset: 0x810640 VA: 0x180812040
 	public static bool get_IsSupported() { }
 
-	// RVA: 0x811ED0 Offset: 0x8104D0 VA: 0x180811ED0
+	// RVA: 0x811FE0 Offset: 0x8105E0 VA: 0x180811FE0
 	public static ImpostorRenderer get_Instance() { }
 
-	// RVA: 0x810540 Offset: 0x80EB40 VA: 0x180810540
+	// RVA: 0x810650 Offset: 0x80EC50 VA: 0x180810650
 	private void CheckInstance() { }
 
-	// RVA: 0x810640 Offset: 0x80EC40 VA: 0x180810640
+	// RVA: 0x810750 Offset: 0x80ED50 VA: 0x180810750
 	public static void Clear() { }
 
-	// RVA: 0x811830 Offset: 0x80FE30 VA: 0x180811830
+	// RVA: 0x811940 Offset: 0x80FF40 VA: 0x180811940
 	public static void Register(ImpostorShadows shadows) { }
 
-	// RVA: 0x811B60 Offset: 0x810160 VA: 0x180811B60
+	// RVA: 0x811C70 Offset: 0x810270 VA: 0x180811C70
 	public static void Unregister(ImpostorShadows shadows) { }
 
-	// RVA: 0x8118E0 Offset: 0x80FEE0 VA: 0x1808118E0
+	// RVA: 0x8119F0 Offset: 0x80FFF0 VA: 0x1808119F0
 	public static void Register(Impostor impostor) { }
 
-	// RVA: 0x811C10 Offset: 0x810210 VA: 0x180811C10
+	// RVA: 0x811D20 Offset: 0x810320 VA: 0x180811D20
 	public static void Unregister(Impostor impostor) { }
 
-	// RVA: 0x8115F0 Offset: 0x80FBF0 VA: 0x1808115F0
+	// RVA: 0x811700 Offset: 0x80FD00 VA: 0x180811700
 	public static void RegisterBatching(ImpostorInstanceData data) { }
 
-	// RVA: 0x8119C0 Offset: 0x80FFC0 VA: 0x1808119C0
+	// RVA: 0x811AD0 Offset: 0x8100D0 VA: 0x180811AD0
 	public static void UnregisterBatching(ImpostorInstanceData data) { }
 
-	// RVA: 0x8104C0 Offset: 0x80EAC0 VA: 0x1808104C0
+	// RVA: 0x8105D0 Offset: 0x80EBD0 VA: 0x1808105D0
 	private void Awake() { }
 
-	// RVA: 0x810BA0 Offset: 0x80F1A0 VA: 0x180810BA0
+	// RVA: 0x810CB0 Offset: 0x80F2B0 VA: 0x180810CB0
 	private void OnEnable() { }
 
-	// RVA: 0x810B50 Offset: 0x80F150 VA: 0x180810B50
+	// RVA: 0x810C60 Offset: 0x80F260 VA: 0x180810C60
 	private void OnDisable() { }
 
-	// RVA: 0x810D30 Offset: 0x80F330 VA: 0x180810D30
+	// RVA: 0x810E40 Offset: 0x80F440 VA: 0x180810E40
 	public void OnPreCull() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0x811CF0 Offset: 0x8102F0 VA: 0x180811CF0
+	// RVA: 0x811E00 Offset: 0x810400 VA: 0x180811E00
 	private static void .cctor() { }
 
 }

@@ -7,13 +7,13 @@ public class HMACSHA384 : HMAC // TypeDefIndex: 965
 
 	// Methods
 
-	// RVA: 0x1701310 Offset: 0x16FF910 VA: 0x181701310
+	// RVA: 0x17015D0 Offset: 0x16FFBD0 VA: 0x1817015D0
 	public void .ctor() { }
 
-	// RVA: 0x1701220 Offset: 0x16FF820 VA: 0x181701220
+	// RVA: 0x17014E0 Offset: 0x16FFAE0 VA: 0x1817014E0
 	public void .ctor(byte[] key) { }
 
-	// RVA: 0x1701420 Offset: 0x16FFA20 VA: 0x181701420
+	// RVA: 0x17016E0 Offset: 0x16FFCE0 VA: 0x1817016E0
 	private int get_BlockSize() { }
 
 }

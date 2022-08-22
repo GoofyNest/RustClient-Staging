@@ -8,16 +8,16 @@ public class HairSetCollection : ScriptableObject // TypeDefIndex: 10736
 
 	// Methods
 
-	// RVA: 0x734BB0 Offset: 0x7331B0 VA: 0x180734BB0
+	// RVA: 0x734CC0 Offset: 0x7332C0 VA: 0x180734CC0
 	public HairSetCollection.HairSetEntry[] GetListByType(HairType hairType) { }
 
-	// RVA: 0x734B20 Offset: 0x733120 VA: 0x180734B20
+	// RVA: 0x734C30 Offset: 0x733230 VA: 0x180734C30
 	public int GetIndex(HairSetCollection.HairSetEntry[] list, float typeNum) { }
 
-	// RVA: 0x734A60 Offset: 0x733060 VA: 0x180734A60
+	// RVA: 0x734B70 Offset: 0x733170 VA: 0x180734B70
 	public int GetIndex(HairType hairType, float typeNum) { }
 
-	// RVA: 0x734BF0 Offset: 0x7331F0 VA: 0x180734BF0
+	// RVA: 0x734D00 Offset: 0x733300 VA: 0x180734D00
 	public HairSetCollection.HairSetEntry Get(HairType hairType, float typeNum) { }
 
 	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0

@@ -5,25 +5,25 @@ public class ConstructionSkin : BasePrefab // TypeDefIndex: 9059
 
 	// Methods
 
-	// RVA: 0x6B1030 Offset: 0x6AF630 VA: 0x1806B1030
+	// RVA: 0x6B1140 Offset: 0x6AF740 VA: 0x1806B1140
 	private void RefreshRendererBatching() { }
 
-	// RVA: 0x6B1370 Offset: 0x6AF970 VA: 0x1806B1370
+	// RVA: 0x6B1480 Offset: 0x6AFA80 VA: 0x1806B1480
 	public void SpawnGibs(BuildingBlock parent) { }
 
-	// RVA: 0x6B0F30 Offset: 0x6AF530 VA: 0x1806B0F30
+	// RVA: 0x6B1040 Offset: 0x6AF640 VA: 0x1806B1040
 	public int DetermineConditionalModelState(BuildingBlock parent) { }
 
-	// RVA: 0x6B0C30 Offset: 0x6AF230 VA: 0x1806B0C30
+	// RVA: 0x6B0D40 Offset: 0x6AF340 VA: 0x1806B0D40
 	private void CreateConditionalModels(BuildingBlock parent) { }
 
-	// RVA: 0x6B0DE0 Offset: 0x6AF3E0 VA: 0x1806B0DE0
+	// RVA: 0x6B0EF0 Offset: 0x6AF4F0 VA: 0x1806B0EF0
 	private void DestroyConditionalModels(BuildingBlock parent) { }
 
-	// RVA: 0x6B10F0 Offset: 0x6AF6F0 VA: 0x1806B10F0
+	// RVA: 0x6B1200 Offset: 0x6AF800 VA: 0x1806B1200
 	public void Refresh(BuildingBlock parent) { }
 
-	// RVA: 0x6B0ED0 Offset: 0x6AF4D0 VA: 0x1806B0ED0
+	// RVA: 0x6B0FE0 Offset: 0x6AF5E0 VA: 0x1806B0FE0
 	public void Destroy(BuildingBlock parent) { }
 
 	// RVA: 0x4D38B0 Offset: 0x4D1EB0 VA: 0x1804D38B0

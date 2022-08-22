@@ -31,7 +31,7 @@ public class AmbienceDefinition : ScriptableObject // TypeDefIndex: 8969
 
 	// Methods
 
-	// RVA: 0xAA5C90 Offset: 0xAA4290 VA: 0x180AA5C90
+	// RVA: 0xAA5F50 Offset: 0xAA4550 VA: 0x180AA5F50
 	public void .ctor() { }
 
 }
@@ -43,7 +43,7 @@ public class AmbienceDefinition.ValueRange // TypeDefIndex: 8970
 
 	// Methods
 
-	// RVA: 0x7D0150 Offset: 0x7CE750 VA: 0x1807D0150
+	// RVA: 0x7D0260 Offset: 0x7CE860 VA: 0x1807D0260
 	public void .ctor(float min, float max) { }
 
 }
@@ -99,7 +99,7 @@ public class AmbienceEmitter : MonoBehaviour, IClientComponent, IComparable<Ambi
 	public TerrainTopology.Enum get_currentTopology() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C0D00 Offset: 0x8BF300 VA: 0x1808C0D00
+	// RVA: 0x8C0E10 Offset: 0x8BF410 VA: 0x1808C0E10
 	private void set_currentTopology(TerrainTopology.Enum value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -110,91 +110,91 @@ public class AmbienceEmitter : MonoBehaviour, IClientComponent, IComparable<Ambi
 	// RVA: 0x598430 Offset: 0x596A30 VA: 0x180598430
 	private void set_currentBiome(TerrainBiome.Enum value) { }
 
-	// RVA: 0xAA5DE0 Offset: 0xAA43E0 VA: 0x180AA5DE0
+	// RVA: 0xAA60A0 Offset: 0xAA46A0 VA: 0x180AA60A0
 	protected void Awake() { }
 
-	// RVA: 0xAA6EA0 Offset: 0xAA54A0 VA: 0x180AA6EA0
+	// RVA: 0xAA7160 Offset: 0xAA5760 VA: 0x180AA7160
 	protected void OnEnable() { }
 
-	// RVA: 0xAA6D10 Offset: 0xAA5310 VA: 0x180AA6D10
+	// RVA: 0xAA6FD0 Offset: 0xAA55D0 VA: 0x180AA6FD0
 	protected void OnDisable() { }
 
-	// RVA: 0xAA6BC0 Offset: 0xAA51C0 VA: 0x180AA6BC0
+	// RVA: 0xAA6E80 Offset: 0xAA5480 VA: 0x180AA6E80
 	protected void OnDestroy() { }
 
-	// RVA: 0xAA61F0 Offset: 0xAA47F0 VA: 0x180AA61F0
+	// RVA: 0xAA64B0 Offset: 0xAA4AB0 VA: 0x180AA64B0
 	public void FadeOut(float fadeTimeOverride = -1) { }
 
-	// RVA: 0xAA6BA0 Offset: 0xAA51A0 VA: 0x180AA6BA0
+	// RVA: 0xAA6E60 Offset: 0xAA5460 VA: 0x180AA6E60
 	public bool IsFadingOut() { }
 
-	// RVA: 0xAA7D90 Offset: 0xAA6390 VA: 0x180AA7D90
+	// RVA: 0xAA8050 Offset: 0xAA6650 VA: 0x180AA8050
 	public void Reset() { }
 
-	// RVA: 0xAA7DF0 Offset: 0xAA63F0 VA: 0x180AA7DF0
+	// RVA: 0xAA80B0 Offset: 0xAA66B0 VA: 0x180AA80B0
 	public void SetBaseAmbience(AmbienceDefinitionList ambienceList) { }
 
-	// RVA: 0xAA6080 Offset: 0xAA4680 VA: 0x180AA6080
+	// RVA: 0xAA6340 Offset: 0xAA4940 VA: 0x180AA6340
 	public void DoUpdate() { }
 
-	// RVA: 0xAA82E0 Offset: 0xAA68E0 VA: 0x180AA82E0
+	// RVA: 0xAA85A0 Offset: 0xAA6BA0 VA: 0x180AA85A0
 	public void Tick() { }
 
-	// RVA: 0xAA8430 Offset: 0xAA6A30 VA: 0x180AA8430
+	// RVA: 0xAA86F0 Offset: 0xAA6CF0 VA: 0x180AA86F0
 	public void UpdateCameraDistance() { }
 
-	// RVA: 0xAA8090 Offset: 0xAA6690 VA: 0x180AA8090
+	// RVA: 0xAA8350 Offset: 0xAA6950 VA: 0x180AA8350
 	public void StartImmediately() { }
 
-	// RVA: 0xAA7760 Offset: 0xAA5D60 VA: 0x180AA7760
+	// RVA: 0xAA7A20 Offset: 0xAA6020 VA: 0x180AA7A20
 	private void ReadAndUpdateEnvironment() { }
 
-	// RVA: 0xAA7970 Offset: 0xAA5F70 VA: 0x180AA7970
+	// RVA: 0xAA7C30 Offset: 0xAA6230 VA: 0x180AA7C30
 	private void ReadEnvironment() { }
 
-	// RVA: 0xAA84E0 Offset: 0xAA6AE0 VA: 0x180AA84E0
+	// RVA: 0xAA87A0 Offset: 0xAA6DA0 VA: 0x180AA87A0
 	private void UpdateCurrentEnvironment() { }
 
-	// RVA: 0xAA66B0 Offset: 0xAA4CB0 VA: 0x180AA66B0
+	// RVA: 0xAA6970 Offset: 0xAA4F70 VA: 0x180AA6970
 	private int GetMostCommonReading(List<int> readings) { }
 
-	// RVA: 0xAA6950 Offset: 0xAA4F50 VA: 0x180AA6950
+	// RVA: 0xAA6C10 Offset: 0xAA5210 VA: 0x180AA6C10
 	private float GetScore(AmbienceDefinition definition, float rain, float snow, float wind, bool underground) { }
 
-	// RVA: 0xAA8320 Offset: 0xAA6920 VA: 0x180AA8320
+	// RVA: 0xAA85E0 Offset: 0xAA6BE0 VA: 0x180AA85E0
 	private void UpdateBaseSound(float crossFadeTimeOverride = -1) { }
 
-	// RVA: 0xAA68A0 Offset: 0xAA4EA0 VA: 0x180AA68A0
+	// RVA: 0xAA6B60 Offset: 0xAA5160 VA: 0x180AA6B60
 	public SoundModulation.Modulator GetPitchModulator() { }
 
-	// RVA: 0xAA80C0 Offset: 0xAA66C0 VA: 0x180AA80C0
+	// RVA: 0xAA8380 Offset: 0xAA6980 VA: 0x180AA8380
 	private void StartSound(SoundDefinition def, float fadeTime) { }
 
-	// RVA: 0xAA5F70 Offset: 0xAA4570 VA: 0x180AA5F70
+	// RVA: 0xAA6230 Offset: 0xAA4830 VA: 0x180AA6230
 	private void CrossfadeTo(SoundDefinition def, float fadeTime) { }
 
-	// RVA: 0xAA6510 Offset: 0xAA4B10 VA: 0x180AA6510
+	// RVA: 0xAA67D0 Offset: 0xAA4DD0 VA: 0x180AA67D0
 	public SoundDefinition GetBaseSound() { }
 
-	// RVA: 0xAA6240 Offset: 0xAA4840 VA: 0x180AA6240
+	// RVA: 0xAA6500 Offset: 0xAA4B00 VA: 0x180AA6500
 	private SoundDefinition GetBaseSound(AmbienceDefinitionList ambienceDefinitionList) { }
 
-	// RVA: 0xAA6FD0 Offset: 0xAA55D0 VA: 0x180AA6FD0
+	// RVA: 0xAA7290 Offset: 0xAA5890 VA: 0x180AA7290
 	public void PlayStings() { }
 
-	// RVA: 0xAA7220 Offset: 0xAA5820 VA: 0x180AA7220
+	// RVA: 0xAA74E0 Offset: 0xAA5AE0 VA: 0x180AA74E0
 	private void PlayStings(AmbienceDefinitionList ambienceDefinitionList) { }
 
-	// RVA: 0xAA7C20 Offset: 0xAA6220 VA: 0x180AA7C20
+	// RVA: 0xAA7EE0 Offset: 0xAA64E0 VA: 0x180AA7EE0
 	private void ResetStingTimes(AmbienceDefinitionList ambienceDefinitionList) { }
 
-	// RVA: 0xAA6850 Offset: 0xAA4E50 VA: 0x180AA6850
+	// RVA: 0xAA6B10 Offset: 0xAA5110 VA: 0x180AA6B10
 	public float GetNextStingTime(AmbienceDefinition sting) { }
 
-	// RVA: 0xAA5F40 Offset: 0xAA4540 VA: 0x180AA5F40 Slot: 4
+	// RVA: 0xAA6200 Offset: 0xAA4800 VA: 0x180AA6200 Slot: 4
 	public int CompareTo(AmbienceEmitter other) { }
 
-	// RVA: 0xAA8520 Offset: 0xAA6B20 VA: 0x180AA8520
+	// RVA: 0xAA87E0 Offset: 0xAA6DE0 VA: 0x180AA87E0
 	public void .ctor() { }
 
 }
@@ -210,16 +210,16 @@ public class AmbienceLocalStings : MonoBehaviour // TypeDefIndex: 8973
 
 	// Methods
 
-	// RVA: 0xAA8650 Offset: 0xAA6C50 VA: 0x180AA8650
+	// RVA: 0xAA8910 Offset: 0xAA6F10 VA: 0x180AA8910
 	private void PlaySting(uint seed) { }
 
-	// RVA: 0xAA88E0 Offset: 0xAA6EE0 VA: 0x180AA88E0
+	// RVA: 0xAA8BA0 Offset: 0xAA71A0 VA: 0x180AA8BA0
 	private void Start() { }
 
-	// RVA: 0xAA8990 Offset: 0xAA6F90 VA: 0x180AA8990
+	// RVA: 0xAA8C50 Offset: 0xAA7250 VA: 0x180AA8C50
 	private void Update() { }
 
-	// RVA: 0xAA89B0 Offset: 0xAA6FB0 VA: 0x180AA89B0
+	// RVA: 0xAA8C70 Offset: 0xAA7270 VA: 0x180AA8C70
 	public void .ctor() { }
 
 }
@@ -244,85 +244,85 @@ public class AmbienceManager : SingletonComponent<AmbienceManager>, IClientCompo
 
 	// Methods
 
-	// RVA: 0xAA9E10 Offset: 0xAA8410 VA: 0x180AA9E10
+	// RVA: 0xAAA0D0 Offset: 0xAA86D0 VA: 0x180AAA0D0
 	private void Start() { }
 
-	// RVA: 0xAA96E0 Offset: 0xAA7CE0 VA: 0x180AA96E0
+	// RVA: 0xAA99A0 Offset: 0xAA7FA0 VA: 0x180AA99A0
 	private void OnApplicationQuit() { }
 
-	// RVA: 0xAA98E0 Offset: 0xAA7EE0 VA: 0x180AA98E0
+	// RVA: 0xAA9BA0 Offset: 0xAA81A0 VA: 0x180AA9BA0
 	private void OnDisable() { }
 
-	// RVA: 0xAAAA20 Offset: 0xAA9020 VA: 0x180AAAA20
+	// RVA: 0xAAACE0 Offset: 0xAA92E0 VA: 0x180AAACE0
 	private void Update() { }
 
-	// RVA: 0xAAA510 Offset: 0xAA8B10 VA: 0x180AAA510
+	// RVA: 0xAAA7D0 Offset: 0xAA8DD0 VA: 0x180AAA7D0
 	private void Tick() { }
 
-	// RVA: 0xAAA250 Offset: 0xAA8850 VA: 0x180AAA250
+	// RVA: 0xAAA510 Offset: 0xAA8B10 VA: 0x180AAA510
 	private void TickLocalEmitters() { }
 
-	// RVA: 0xAA9150 Offset: 0xAA7750 VA: 0x180AA9150
+	// RVA: 0xAA9410 Offset: 0xAA7A10 VA: 0x180AA9410
 	public void DeactivateEmitter(AmbienceEmitter emitter) { }
 
-	// RVA: 0xAA8A30 Offset: 0xAA7030 VA: 0x180AA8A30
+	// RVA: 0xAA8CF0 Offset: 0xAA72F0 VA: 0x180AA8CF0
 	public void ActivateEmitter(AmbienceEmitter emitter) { }
 
-	// RVA: 0xAA9F50 Offset: 0xAA8550 VA: 0x180AA9F50
+	// RVA: 0xAAA210 Offset: 0xAA8810 VA: 0x180AAA210
 	private void TickCameraEmitters() { }
 
-	// RVA: 0xAA9C90 Offset: 0xAA8290 VA: 0x180AA9C90
+	// RVA: 0xAA9F50 Offset: 0xAA8550 VA: 0x180AA9F50
 	private void SortLocalEmitters() { }
 
-	// RVA: 0xAA9400 Offset: 0xAA7A00 VA: 0x180AA9400
+	// RVA: 0xAA96C0 Offset: 0xAA7CC0 VA: 0x180AA96C0
 	private AmbienceManager.EmitterTypeLimit EmitterLimit(AmbienceEmitter emitter) { }
 
-	// RVA: 0xAA9800 Offset: 0xAA7E00 VA: 0x180AA9800
+	// RVA: 0xAA9AC0 Offset: 0xAA80C0 VA: 0x180AA9AC0
 	public void OnCullingGroupChange(CullingGroupEvent evt, AmbienceManager.AmbienceGroup group) { }
 
-	// RVA: 0xAA9360 Offset: 0xAA7960 VA: 0x180AA9360
+	// RVA: 0xAA9620 Offset: 0xAA7C20 VA: 0x180AA9620
 	public void EmitterLeaveRange(AmbienceEmitter emitter) { }
 
-	// RVA: 0xAA8B80 Offset: 0xAA7180 VA: 0x180AA8B80
+	// RVA: 0xAA8E40 Offset: 0xAA7440 VA: 0x180AA8E40
 	public void AddEmitter(AmbienceEmitter emitter) { }
 
-	// RVA: 0xAA99B0 Offset: 0xAA7FB0 VA: 0x180AA99B0
+	// RVA: 0xAA9C70 Offset: 0xAA8270 VA: 0x180AA9C70
 	public void RemoveEmitter(AmbienceEmitter emitter) { }
 
-	// RVA: 0xAA8B20 Offset: 0xAA7120 VA: 0x180AA8B20
+	// RVA: 0xAA8DE0 Offset: 0xAA73E0 VA: 0x180AA8DE0
 	public void AddCameraEmitter(AmbienceEmitter emitter) { }
 
-	// RVA: 0xAA9950 Offset: 0xAA7F50 VA: 0x180AA9950
+	// RVA: 0xAA9C10 Offset: 0xAA8210 VA: 0x180AA9C10
 	public void RemoveCameraEmitter(AmbienceEmitter emitter) { }
 
-	// RVA: 0xAAA550 Offset: 0xAA8B50 VA: 0x180AAA550
+	// RVA: 0xAAA810 Offset: 0xAA8E10 VA: 0x180AAA810
 	private void UpdateCullingGroups() { }
 
-	// RVA: 0xAA8E70 Offset: 0xAA7470 VA: 0x180AA8E70
+	// RVA: 0xAA9130 Offset: 0xAA7730 VA: 0x180AA9130
 	private AmbienceManager.AmbienceGroup AmbienceGroupForEmitter(AmbienceEmitter emitter) { }
 
-	// RVA: 0xAA9490 Offset: 0xAA7A90 VA: 0x180AA9490
+	// RVA: 0xAA9750 Offset: 0xAA7D50 VA: 0x180AA9750
 	public void EnableAdvancedAmbience() { }
 
-	// RVA: 0xAA91B0 Offset: 0xAA77B0 VA: 0x180AA91B0
+	// RVA: 0xAA9470 Offset: 0xAA7A70 VA: 0x180AA9470
 	public void DisableAdvancedAmbience() { }
 
-	// RVA: 0xAA9C30 Offset: 0xAA8230 VA: 0x180AA9C30
+	// RVA: 0xAA9EF0 Offset: 0xAA84F0 VA: 0x180AA9EF0
 	private void SortEmitters(List<AmbienceEmitter> emitterList) { }
 
-	// RVA: 0xAA9A60 Offset: 0xAA8060 VA: 0x180AA9A60
+	// RVA: 0xAA9D20 Offset: 0xAA8320 VA: 0x180AA9D20
 	private void SortEmitters(List<AmbienceEmitter> emitterList, int left, int right) { }
 
-	// RVA: 0xAA8F70 Offset: 0xAA7570 VA: 0x180AA8F70
+	// RVA: 0xAA9230 Offset: 0xAA7830 VA: 0x180AA9230
 	public void AmbienceZoneEntered(AmbienceZone zone) { }
 
-	// RVA: 0xAA8FD0 Offset: 0xAA75D0 VA: 0x180AA8FD0
+	// RVA: 0xAA9290 Offset: 0xAA7890 VA: 0x180AA9290
 	public void AmbienceZoneExited(AmbienceZone zone) { }
 
-	// RVA: 0xAA9030 Offset: 0xAA7630 VA: 0x180AA9030
+	// RVA: 0xAA92F0 Offset: 0xAA78F0 VA: 0x180AA92F0
 	public AmbienceZone CurrentAmbienceZone() { }
 
-	// RVA: 0xAAAF10 Offset: 0xAA9510 VA: 0x180AAAF10
+	// RVA: 0xAAB1D0 Offset: 0xAA97D0 VA: 0x180AAB1D0
 	public void .ctor() { }
 
 }
@@ -335,7 +335,7 @@ public class AmbienceManager.EmitterTypeLimit // TypeDefIndex: 8975
 
 	// Methods
 
-	// RVA: 0x83C7F0 Offset: 0x83ADF0 VA: 0x18083C7F0
+	// RVA: 0x83C900 Offset: 0x83AF00 VA: 0x18083C900
 	public void .ctor() { }
 
 }
@@ -351,10 +351,10 @@ public class AmbienceManager.AmbienceGroup // TypeDefIndex: 8976
 
 	// Methods
 
-	// RVA: 0x821CA0 Offset: 0x8202A0 VA: 0x180821CA0
+	// RVA: 0x821DB0 Offset: 0x8203B0 VA: 0x180821DB0
 	public void OnCullingGroupChange(CullingGroupEvent evt) { }
 
-	// RVA: 0x821D20 Offset: 0x820320 VA: 0x180821D20
+	// RVA: 0x821E30 Offset: 0x820430 VA: 0x180821E30
 	public void .ctor() { }
 
 }
@@ -367,13 +367,13 @@ public class AmbienceSpawnEmitters : MonoBehaviour, IClientComponent // TypeDefI
 
 	// Methods
 
-	// RVA: 0x8221A0 Offset: 0x8207A0 VA: 0x1808221A0
+	// RVA: 0x8222B0 Offset: 0x8208B0 VA: 0x1808222B0
 	private void Start() { }
 
-	// RVA: 0x821DE0 Offset: 0x8203E0 VA: 0x180821DE0
+	// RVA: 0x821EF0 Offset: 0x8204F0 VA: 0x180821EF0
 	private void CreateBaseEmitters() { }
 
-	// RVA: 0x8221B0 Offset: 0x8207B0 VA: 0x1808221B0
+	// RVA: 0x8222C0 Offset: 0x8208C0 VA: 0x1808222C0
 	public void .ctor() { }
 
 }
@@ -388,22 +388,22 @@ public class AmbienceZone : TriggerBase, IClientComponentEx // TypeDefIndex: 897
 
 	// Methods
 
-	// RVA: 0x8221D0 Offset: 0x8207D0 VA: 0x1808221D0
+	// RVA: 0x8222E0 Offset: 0x8208E0 VA: 0x1808222E0
 	private void Awake() { }
 
-	// RVA: 0x8221F0 Offset: 0x8207F0 VA: 0x1808221F0 Slot: 6
+	// RVA: 0x822300 Offset: 0x820900 VA: 0x180822300 Slot: 6
 	internal override GameObject InterestedInObject(GameObject obj) { }
 
-	// RVA: 0x822350 Offset: 0x820950 VA: 0x180822350 Slot: 8
+	// RVA: 0x822460 Offset: 0x820A60 VA: 0x180822460 Slot: 8
 	internal override void OnEntityEnter(BaseEntity ent) { }
 
-	// RVA: 0x8223D0 Offset: 0x8209D0 VA: 0x1808223D0 Slot: 9
+	// RVA: 0x8224E0 Offset: 0x820AE0 VA: 0x1808224E0 Slot: 9
 	internal override void OnEntityLeave(BaseEntity ent) { }
 
-	// RVA: 0x822450 Offset: 0x820A50 VA: 0x180822450 Slot: 16
+	// RVA: 0x822560 Offset: 0x820B60 VA: 0x180822560 Slot: 16
 	public virtual void PreClientComponentCull(IPrefabProcessor p) { }
 
-	// RVA: 0x822590 Offset: 0x820B90 VA: 0x180822590
+	// RVA: 0x8226A0 Offset: 0x820CA0 VA: 0x1808226A0
 	public void .ctor() { }
 
 }
@@ -429,40 +429,40 @@ public class AmbientLightLOD : FacepunchBehaviour, ILOD, IClientComponent // Typ
 
 	// Methods
 
-	// RVA: 0x822A30 Offset: 0x821030 VA: 0x180822A30
+	// RVA: 0x822B40 Offset: 0x821140 VA: 0x180822B40
 	private float GetDistance() { }
 
-	// RVA: 0x8225A0 Offset: 0x820BA0 VA: 0x1808225A0
+	// RVA: 0x8226B0 Offset: 0x820CB0 VA: 0x1808226B0
 	protected void Awake() { }
 
-	// RVA: 0x822BD0 Offset: 0x8211D0 VA: 0x180822BD0
+	// RVA: 0x822CE0 Offset: 0x8212E0 VA: 0x180822CE0
 	protected void OnEnable() { }
 
-	// RVA: 0x822B00 Offset: 0x821100 VA: 0x180822B00
+	// RVA: 0x822C10 Offset: 0x821210 VA: 0x180822C10
 	protected void OnDisable() { }
 
-	// RVA: 0x822E80 Offset: 0x821480 VA: 0x180822E80
+	// RVA: 0x822F90 Offset: 0x821590 VA: 0x180822F90
 	private void ToggleLight(bool state) { }
 
-	// RVA: 0x822890 Offset: 0x820E90 VA: 0x180822890
+	// RVA: 0x8229A0 Offset: 0x820FA0 VA: 0x1808229A0
 	private void FadingToggle() { }
 
-	// RVA: 0x822D20 Offset: 0x821320 VA: 0x180822D20
+	// RVA: 0x822E30 Offset: 0x821430 VA: 0x180822E30
 	public void SetLightActive(bool lightOn) { }
 
-	// RVA: 0x822E60 Offset: 0x821460 VA: 0x180822E60
+	// RVA: 0x822F70 Offset: 0x821570 VA: 0x180822F70
 	public void SetTargetIntensity(float intensity, float fadeDuration = -1) { }
 
-	// RVA: 0x822C90 Offset: 0x821290 VA: 0x180822C90 Slot: 5
+	// RVA: 0x822DA0 Offset: 0x8213A0 VA: 0x180822DA0 Slot: 5
 	public void RefreshLOD() { }
 
-	// RVA: 0x822690 Offset: 0x820C90 VA: 0x180822690 Slot: 4
+	// RVA: 0x8227A0 Offset: 0x820DA0 VA: 0x1808227A0 Slot: 4
 	public void ChangeLOD() { }
 
-	// RVA: 0x822C70 Offset: 0x821270 VA: 0x180822C70
+	// RVA: 0x822D80 Offset: 0x821380 VA: 0x180822D80
 	protected void OnValidate() { }
 
-	// RVA: 0x822FD0 Offset: 0x8215D0 VA: 0x180822FD0
+	// RVA: 0x8230E0 Offset: 0x8216E0 VA: 0x1808230E0
 	public void .ctor() { }
 
 }
@@ -489,7 +489,7 @@ public enum AmbientOcclusionQuality // TypeDefIndex: 11757
 public sealed class AmbientOcclusionModeParameter : ParameterOverride<AmbientOcclusionMode> // TypeDefIndex: 11758
 {	// Methods
 
-	// RVA: 0x9EBC40 Offset: 0x9EA240 VA: 0x1809EBC40
+	// RVA: 0x9EBF00 Offset: 0x9EA500 VA: 0x1809EBF00
 	public void .ctor() { }
 
 }
@@ -497,7 +497,7 @@ public sealed class AmbientOcclusionModeParameter : ParameterOverride<AmbientOcc
 public sealed class AmbientOcclusionQualityParameter : ParameterOverride<AmbientOcclusionQuality> // TypeDefIndex: 11759
 {	// Methods
 
-	// RVA: 0x9EBC80 Offset: 0x9EA280 VA: 0x1809EBC80
+	// RVA: 0x9EBF40 Offset: 0x9EA540 VA: 0x1809EBF40
 	public void .ctor() { }
 
 }
@@ -533,10 +533,10 @@ public sealed class AmbientOcclusion : PostProcessEffectSettings // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x9EC2B0 Offset: 0x9EA8B0 VA: 0x1809EC2B0 Slot: 4
+	// RVA: 0x9EC570 Offset: 0x9EAB70 VA: 0x1809EC570 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x9EC6C0 Offset: 0x9EACC0 VA: 0x1809EC6C0
+	// RVA: 0x9EC980 Offset: 0x9EAF80 VA: 0x1809EC980
 	public void .ctor() { }
 
 }
@@ -547,31 +547,31 @@ internal sealed class AmbientOcclusionRenderer : PostProcessEffectRenderer<Ambie
 
 	// Methods
 
-	// RVA: 0x9EBF40 Offset: 0x9EA540 VA: 0x1809EBF40 Slot: 4
+	// RVA: 0x9EC200 Offset: 0x9EA800 VA: 0x1809EC200 Slot: 4
 	public override void Init() { }
 
-	// RVA: 0x9EC0C0 Offset: 0x9EA6C0 VA: 0x1809EC0C0
+	// RVA: 0x9EC380 Offset: 0x9EA980 VA: 0x1809EC380
 	public bool IsAmbientOnly(PostProcessRenderContext context) { }
 
-	// RVA: 0x9EBED0 Offset: 0x9EA4D0 VA: 0x1809EBED0
+	// RVA: 0x9EC190 Offset: 0x9EA790 VA: 0x1809EC190
 	public IAmbientOcclusionMethod Get() { }
 
-	// RVA: 0x9EBCC0 Offset: 0x9EA2C0 VA: 0x1809EBCC0 Slot: 5
+	// RVA: 0x9EBF80 Offset: 0x9EA580 VA: 0x1809EBF80 Slot: 5
 	public override DepthTextureMode GetCameraFlags() { }
 
-	// RVA: 0x9EC150 Offset: 0x9EA750 VA: 0x1809EC150 Slot: 7
+	// RVA: 0x9EC410 Offset: 0x9EAA10 VA: 0x1809EC410 Slot: 7
 	public override void Release() { }
 
-	// RVA: 0x9EBE50 Offset: 0x9EA450 VA: 0x1809EBE50
+	// RVA: 0x9EC110 Offset: 0x9EA710 VA: 0x1809EC110
 	public ScalableAO GetScalableAO() { }
 
-	// RVA: 0x9EBDD0 Offset: 0x9EA3D0 VA: 0x1809EBDD0
+	// RVA: 0x9EC090 Offset: 0x9EA690 VA: 0x1809EC090
 	public MultiScaleVO GetMultiScaleVO() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x9EC270 Offset: 0x9EA870 VA: 0x1809EC270
+	// RVA: 0x9EC530 Offset: 0x9EAB30 VA: 0x1809EC530
 	public void .ctor() { }
 
 }

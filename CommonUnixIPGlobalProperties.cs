@@ -4,10 +4,10 @@ internal abstract class CommonUnixIPGlobalProperties : IPGlobalProperties // Typ
 
 	// Methods
 
-	// RVA: 0x132FC00 Offset: 0x132E200 VA: 0x18132FC00
+	// RVA: 0x132FEC0 Offset: 0x132E4C0 VA: 0x18132FEC0
 	private static extern int getdomainname(byte[] name, int len) { }
 
-	// RVA: 0x132FA90 Offset: 0x132E090 VA: 0x18132FA90 Slot: 4
+	// RVA: 0x132FD50 Offset: 0x132E350 VA: 0x18132FD50 Slot: 4
 	public override string get_DomainName() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

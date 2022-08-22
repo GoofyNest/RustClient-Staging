@@ -26,7 +26,7 @@ public struct RuntimeMethodHandle : ISerializable // TypeDefIndex: 390
 	// RVA: 0x14C4D0 Offset: 0x14B8D0 VA: 0x18014C4D0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1298DD0 Offset: 0x12973D0 VA: 0x181298DD0
+	// RVA: 0x1299090 Offset: 0x1297690 VA: 0x181299090
 	internal static string ConstructInstantiation(RuntimeMethodInfo method, TypeNameFormatFlags format) { }
 
 	// RVA: 0x1DEEB0 Offset: 0x1DE2B0 VA: 0x1801DEEB0

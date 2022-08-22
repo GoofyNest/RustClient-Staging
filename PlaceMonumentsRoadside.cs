@@ -19,16 +19,16 @@ public class PlaceMonumentsRoadside : ProceduralComponent // TypeDefIndex: 10551
 
 	// Methods
 
-	// RVA: 0x914FF0 Offset: 0x9135F0 VA: 0x180914FF0 Slot: 5
+	// RVA: 0x915100 Offset: 0x913700 VA: 0x180915100 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x914580 Offset: 0x912B80 VA: 0x180914580
+	// RVA: 0x914690 Offset: 0x912C90 VA: 0x180914690
 	private PlaceMonumentsRoadside.DistanceInfo GetDistanceInfo(List<PlaceMonumentsRoadside.SpawnInfo> spawns, Prefab<MonumentInfo> prefab, Vector3 monumentPos, Quaternion monumentRot, Vector3 monumentScale) { }
 
-	// RVA: 0x916A90 Offset: 0x915090 VA: 0x180916A90
+	// RVA: 0x916BA0 Offset: 0x9151A0 VA: 0x180916BA0
 	public void .ctor() { }
 
-	// RVA: 0x916A10 Offset: 0x915010 VA: 0x180916A10
+	// RVA: 0x916B20 Offset: 0x915120 VA: 0x180916B20
 	private static void .cctor() { }
 
 }
@@ -91,13 +91,13 @@ private sealed class PlaceMonumentsRoadside.<>c // TypeDefIndex: 10557
 
 	// Methods
 
-	// RVA: 0x920B50 Offset: 0x91F150 VA: 0x180920B50
+	// RVA: 0x920C60 Offset: 0x91F260 VA: 0x180920C60
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x920880 Offset: 0x91EE80 VA: 0x180920880
+	// RVA: 0x920990 Offset: 0x91EF90 VA: 0x180920990
 	internal string <Process>b__17_0(string folder) { }
 
 }

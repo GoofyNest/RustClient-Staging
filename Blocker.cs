@@ -1,13 +1,13 @@
 public class Blocker : RustControl, IPointerDownHandler, IEventSystemHandler // TypeDefIndex: 7004
 {	// Methods
 
-	// RVA: 0xFBDE40 Offset: 0xFBC440 VA: 0x180FBDE40 Slot: 31
+	// RVA: 0xFBE100 Offset: 0xFBC700 VA: 0x180FBE100 Slot: 31
 	public void OnPointerDown(PointerEventData eventData) { }
 
-	// RVA: 0xFBDCD0 Offset: 0xFBC2D0 VA: 0x180FBDCD0
+	// RVA: 0xFBDF90 Offset: 0xFBC590 VA: 0x180FBDF90
 	public void AddToCanvasOf(RectTransform rt) { }
 
-	// RVA: 0xFBDEA0 Offset: 0xFBC4A0 VA: 0x180FBDEA0
+	// RVA: 0xFBE160 Offset: 0xFBC760 VA: 0x180FBE160
 	public void .ctor() { }
 
 }

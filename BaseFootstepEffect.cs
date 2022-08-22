@@ -10,10 +10,10 @@ public abstract class BaseFootstepEffect : MonoBehaviour, IClientComponent // Ty
 
 	// Methods
 
-	// RVA: 0xA3B550 Offset: 0xA39B50 VA: 0x180A3B550
+	// RVA: 0xA3B810 Offset: 0xA39E10 VA: 0x180A3B810
 	protected BaseFootstepEffect.GroundInfo GetGroundInfo(Vector3 position, Vector3 forward, bool bIgnoreDistanceCheck = False) { }
 
-	// RVA: 0xA3B980 Offset: 0xA39F80 VA: 0x180A3B980
+	// RVA: 0xA3BC40 Offset: 0xA3A240 VA: 0x180A3BC40
 	protected void .ctor() { }
 
 }

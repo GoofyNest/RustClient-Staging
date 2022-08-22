@@ -7,7 +7,7 @@ public sealed class RuntimeCompatibilityAttribute : Attribute // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 	// RVA: 0x49AFC0 Offset: 0x4995C0 VA: 0x18049AFC0

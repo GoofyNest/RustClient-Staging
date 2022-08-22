@@ -9,34 +9,34 @@ public class MonumentSign : LODComponent // TypeDefIndex: 8808
 
 	// Methods
 
-	// RVA: 0x7B67D0 Offset: 0x7B4DD0 VA: 0x1807B67D0
+	// RVA: 0x7B68E0 Offset: 0x7B4EE0 VA: 0x1807B68E0
 	private void UpdateText() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 8
 	protected override void InitLOD() { }
 
-	// RVA: 0x7B60D0 Offset: 0x7B46D0 VA: 0x1807B60D0 Slot: 9
+	// RVA: 0x7B61E0 Offset: 0x7B47E0 VA: 0x1807B61E0 Slot: 9
 	protected override void EnableLOD() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 10
 	protected override void DisableLOD() { }
 
-	// RVA: 0x7B6630 Offset: 0x7B4C30 VA: 0x1807B6630 Slot: 13
+	// RVA: 0x7B6740 Offset: 0x7B4D40 VA: 0x1807B6740 Slot: 13
 	protected override void Show() { }
 
-	// RVA: 0x7B64F0 Offset: 0x7B4AF0 VA: 0x1807B64F0 Slot: 14
+	// RVA: 0x7B6600 Offset: 0x7B4C00 VA: 0x1807B6600 Slot: 14
 	protected override void Hide() { }
 
-	// RVA: 0x7B6580 Offset: 0x7B4B80 VA: 0x1807B6580 Slot: 12
+	// RVA: 0x7B6690 Offset: 0x7B4C90 VA: 0x1807B6690 Slot: 12
 	protected override void SetLOD(int newlod) { }
 
 	// RVA: 0x4C7930 Offset: 0x4C5F30 VA: 0x1804C7930 Slot: 11
 	protected override int GetLOD(float distance) { }
 
-	// RVA: 0x7B60E0 Offset: 0x7B46E0 VA: 0x1807B60E0
+	// RVA: 0x7B61F0 Offset: 0x7B47F0 VA: 0x1807B61F0
 	private MonumentInfo FindClosestMonument() { }
 
-	// RVA: 0x7B6900 Offset: 0x7B4F00 VA: 0x1807B6900
+	// RVA: 0x7B6A10 Offset: 0x7B5010 VA: 0x1807B6A10
 	public void .ctor() { }
 
 }

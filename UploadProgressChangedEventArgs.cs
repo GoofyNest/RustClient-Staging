@@ -7,7 +7,7 @@ public class UploadProgressChangedEventArgs : ProgressChangedEventArgs // TypeDe
 
 	// Methods
 
-	// RVA: 0x100FBD0 Offset: 0x100E1D0 VA: 0x18100FBD0
+	// RVA: 0x100FE90 Offset: 0x100E490 VA: 0x18100FE90
 	internal void .ctor(int progressPercentage, object userToken, long bytesSent, long totalBytesToSend, long bytesReceived, long totalBytesToReceive) { }
 
 }

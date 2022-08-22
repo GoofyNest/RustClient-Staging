@@ -8,7 +8,7 @@ public struct Playable : IEquatable<Playable> // TypeDefIndex: 3864
 
 	// Methods
 
-	// RVA: 0x18FAA80 Offset: 0x18F9080 VA: 0x1818FAA80
+	// RVA: 0x18FAD40 Offset: 0x18F9340 VA: 0x1818FAD40
 	public static Playable get_Null() { }
 
 	[VisibleToOtherModulesAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -21,7 +21,7 @@ public struct Playable : IEquatable<Playable> // TypeDefIndex: 3864
 	// RVA: 0x2175F0 Offset: 0x2169F0 VA: 0x1802175F0 Slot: 4
 	public bool Equals(Playable other) { }
 
-	// RVA: 0x18FA9D0 Offset: 0x18F8FD0 VA: 0x1818FA9D0
+	// RVA: 0x18FAC90 Offset: 0x18F9290 VA: 0x1818FAC90
 	private static void .cctor() { }
 
 }

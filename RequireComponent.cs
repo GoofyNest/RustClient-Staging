@@ -6,10 +6,10 @@ public sealed class RequireComponent : Attribute // TypeDefIndex: 3494
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(Type requiredComponent) { }
 
-	// RVA: 0x7ED280 Offset: 0x7EB880 VA: 0x1807ED280
+	// RVA: 0x7ED390 Offset: 0x7EB990 VA: 0x1807ED390
 	public void .ctor(Type requiredComponent, Type requiredComponent2) { }
 
 }

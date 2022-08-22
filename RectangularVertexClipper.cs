@@ -5,10 +5,10 @@ internal class RectangularVertexClipper // TypeDefIndex: 4916
 
 	// Methods
 
-	// RVA: 0x1719CC0 Offset: 0x17182C0 VA: 0x181719CC0
+	// RVA: 0x1719F80 Offset: 0x1718580 VA: 0x181719F80
 	public Rect GetCanvasRect(RectTransform t, Canvas c) { }
 
-	// RVA: 0x1719EE0 Offset: 0x17184E0 VA: 0x181719EE0
+	// RVA: 0x171A1A0 Offset: 0x17187A0 VA: 0x18171A1A0
 	public void .ctor() { }
 
 }

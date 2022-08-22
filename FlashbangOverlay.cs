@@ -13,22 +13,22 @@ public class FlashbangOverlay : MonoBehaviour, IClientComponent // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x790F10 Offset: 0x78F510 VA: 0x180790F10
+	// RVA: 0x791020 Offset: 0x78F620 VA: 0x180791020
 	protected void Awake() { }
 
-	// RVA: 0x790FA0 Offset: 0x78F5A0 VA: 0x180790FA0
+	// RVA: 0x7910B0 Offset: 0x78F6B0 VA: 0x1807910B0
 	public void Flash(float time) { }
 
-	// RVA: 0x7915A0 Offset: 0x78FBA0 VA: 0x1807915A0
+	// RVA: 0x7916B0 Offset: 0x78FCB0 VA: 0x1807916B0
 	private void Update() { }
 
-	// RVA: 0x7912F0 Offset: 0x78F8F0 VA: 0x1807912F0
+	// RVA: 0x791400 Offset: 0x78FA00 VA: 0x180791400
 	public void UpdateAudio() { }
 
-	// RVA: 0x7911A0 Offset: 0x78F7A0 VA: 0x1807911A0
+	// RVA: 0x7912B0 Offset: 0x78F8B0 VA: 0x1807912B0
 	public void ShutdownAudio() { }
 
-	// RVA: 0x791020 Offset: 0x78F620 VA: 0x180791020
+	// RVA: 0x791130 Offset: 0x78F730 VA: 0x180791130
 	private void OnDestroy() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

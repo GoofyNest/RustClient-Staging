@@ -36,13 +36,13 @@ internal struct Token // TypeDefIndex: 5781
 	// RVA: 0xF3720 Offset: 0xF2B20 VA: 0x1800F3720
 	public Token.Type get_Kind() { }
 
-	// RVA: 0xDE6620 Offset: 0xDE4C20 VA: 0x180DE6620
+	// RVA: 0xDE68E0 Offset: 0xDE4EE0 VA: 0x180DE68E0
 	public static Token.Type op_Implicit(Token token) { }
 
 	// RVA: 0x19DEB0 Offset: 0x19D2B0 VA: 0x18019DEB0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1097680 Offset: 0x1095C80 VA: 0x181097680
+	// RVA: 0x1097940 Offset: 0x1095F40 VA: 0x181097940
 	private static void .cctor() { }
 
 }

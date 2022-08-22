@@ -4,19 +4,19 @@ public class TokenisedPhrase : Translate.Phrase // TypeDefIndex: 9245
 
 	// Methods
 
-	// RVA: 0x88DB90 Offset: 0x88C190 VA: 0x18088DB90 Slot: 4
+	// RVA: 0x88DCA0 Offset: 0x88C2A0 VA: 0x18088DCA0 Slot: 4
 	public override string get_translated() { }
 
-	// RVA: 0x88D370 Offset: 0x88B970 VA: 0x18088D370
+	// RVA: 0x88D480 Offset: 0x88BA80 VA: 0x18088D480
 	public static string ReplaceTokens(string str) { }
 
-	// RVA: 0x88DB80 Offset: 0x88C180 VA: 0x18088DB80
+	// RVA: 0x88DC90 Offset: 0x88C290 VA: 0x18088DC90
 	public void .ctor(string t = "", string eng = "") { }
 
-	// RVA: 0x88DAE0 Offset: 0x88C0E0 VA: 0x18088DAE0
+	// RVA: 0x88DBF0 Offset: 0x88C1F0 VA: 0x18088DBF0
 	public static string TranslateMouseButton(string mouseButton) { }
 
-	// RVA: 0x88D0E0 Offset: 0x88B6E0 VA: 0x18088D0E0
+	// RVA: 0x88D1F0 Offset: 0x88B7F0 VA: 0x18088D1F0
 	private static string GetButtonWithBind(string s) { }
 
 }

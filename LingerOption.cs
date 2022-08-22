@@ -9,7 +9,7 @@ public class LingerOption // TypeDefIndex: 3042
 
 	// Methods
 
-	// RVA: 0xFF9300 Offset: 0xFF7900 VA: 0x180FF9300
+	// RVA: 0xFF95C0 Offset: 0xFF7BC0 VA: 0x180FF95C0
 	public void .ctor(bool enable, int seconds) { }
 
 	// RVA: 0x49AFC0 Offset: 0x4995C0 VA: 0x18049AFC0

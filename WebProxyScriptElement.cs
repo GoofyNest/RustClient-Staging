@@ -4,10 +4,10 @@ public sealed class WebProxyScriptElement : ConfigurationElement // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1537920 Offset: 0x1535F20 VA: 0x181537920
+	// RVA: 0x1537BE0 Offset: 0x15361E0 VA: 0x181537BE0
 	public void .ctor() { }
 
-	// RVA: 0x1537950 Offset: 0x1535F50 VA: 0x181537950 Slot: 4
+	// RVA: 0x1537C10 Offset: 0x1536210 VA: 0x181537C10 Slot: 4
 	protected override ConfigurationPropertyCollection get_Properties() { }
 
 }

@@ -6,7 +6,7 @@ public struct InventoryRecipe : IEquatable<InventoryRecipe> // TypeDefIndex: 524
 
 	// Methods
 
-	// RVA: 0xDE1D10 Offset: 0xDE0310 VA: 0x180DE1D10
+	// RVA: 0xDE1FD0 Offset: 0xDE05D0 VA: 0x180DE1FD0
 	internal static InventoryRecipe FromString(string part, InventoryDef Result) { }
 
 	// RVA: 0x122E50 Offset: 0x122250 VA: 0x180122E50
@@ -31,7 +31,7 @@ public struct InventoryRecipe.Ingredient // TypeDefIndex: 5247
 
 	// Methods
 
-	// RVA: 0xDE0350 Offset: 0xDDE950 VA: 0x180DE0350
+	// RVA: 0xDE0610 Offset: 0xDDEC10 VA: 0x180DE0610
 	internal static InventoryRecipe.Ingredient FromString(string part) { }
 
 }
@@ -44,16 +44,16 @@ private sealed class InventoryRecipe.<>c // TypeDefIndex: 5248
 
 	// Methods
 
-	// RVA: 0xDF03A0 Offset: 0xDEE9A0 VA: 0x180DF03A0
+	// RVA: 0xDF0660 Offset: 0xDEEC60 VA: 0x180DF0660
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xDEF290 Offset: 0xDED890 VA: 0x180DEF290
+	// RVA: 0xDEF550 Offset: 0xDEDB50 VA: 0x180DEF550
 	internal InventoryRecipe.Ingredient <FromString>b__4_0(string x) { }
 
-	// RVA: 0xDEF2D0 Offset: 0xDED8D0 VA: 0x180DEF2D0
+	// RVA: 0xDEF590 Offset: 0xDEDB90 VA: 0x180DEF590
 	internal bool <FromString>b__4_1(InventoryRecipe.Ingredient x) { }
 
 }
@@ -67,7 +67,7 @@ private sealed class InventoryRecipe.<>c__DisplayClass5_0 // TypeDefIndex: 5249
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xDF0260 Offset: 0xDEE860 VA: 0x180DF0260
+	// RVA: 0xDF0520 Offset: 0xDEEB20 VA: 0x180DF0520
 	internal bool <ContainsIngredient>b__0(InventoryRecipe.Ingredient x) { }
 
 }

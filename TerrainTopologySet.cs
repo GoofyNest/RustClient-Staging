@@ -5,10 +5,10 @@ public class TerrainTopologySet : TerrainModifier // TypeDefIndex: 10583
 
 	// Methods
 
-	// RVA: 0x882F00 Offset: 0x881500 VA: 0x180882F00 Slot: 8
+	// RVA: 0x883010 Offset: 0x881610 VA: 0x180883010 Slot: 8
 	protected override void Apply(Vector3 position, float opacity, float radius, float fade) { }
 
-	// RVA: 0x881B20 Offset: 0x880120 VA: 0x180881B20
+	// RVA: 0x881C30 Offset: 0x880230 VA: 0x180881C30
 	public void .ctor() { }
 
 }

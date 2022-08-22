@@ -22,19 +22,19 @@ public class LensDirtiness : MonoBehaviour, IImageEffect // TypeDefIndex: 8063
 
 	// Methods
 
-	// RVA: 0x106F000 Offset: 0x106D600 VA: 0x18106F000
+	// RVA: 0x106F2C0 Offset: 0x106D8C0 VA: 0x18106F2C0
 	private void OnEnable() { }
 
-	// RVA: 0x106F940 Offset: 0x106DF40 VA: 0x18106F940
+	// RVA: 0x106FC00 Offset: 0x106E200 VA: 0x18106FC00
 	private void SetKeyword() { }
 
-	// RVA: 0x8D60F0 Offset: 0x8D46F0 VA: 0x1808D60F0 Slot: 4
+	// RVA: 0x8D6200 Offset: 0x8D4800 VA: 0x1808D6200 Slot: 4
 	public bool IsActive() { }
 
-	// RVA: 0x106F210 Offset: 0x106D810 VA: 0x18106F210 Slot: 5
+	// RVA: 0x106F4D0 Offset: 0x106DAD0 VA: 0x18106F4D0 Slot: 5
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106FA70 Offset: 0x106E070 VA: 0x18106FA70
+	// RVA: 0x106FD30 Offset: 0x106E330 VA: 0x18106FD30
 	public void .ctor() { }
 
 }

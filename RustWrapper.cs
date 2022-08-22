@@ -5,16 +5,16 @@ public class RustWrapper : RustControl // TypeDefIndex: 7037
 
 	// Methods
 
-	// RVA: 0xFD3AA0 Offset: 0xFD20A0 VA: 0x180FD3AA0 Slot: 30
+	// RVA: 0xFD3D60 Offset: 0xFD2360 VA: 0x180FD3D60 Slot: 30
 	protected override void ApplyStyle(StyleAsset.Group s) { }
 
-	// RVA: 0xFD39D0 Offset: 0xFD1FD0 VA: 0x180FD39D0
+	// RVA: 0xFD3C90 Offset: 0xFD2290 VA: 0x180FD3C90
 	public void Add(UIBehaviour ui) { }
 
-	// RVA: 0xFD38D0 Offset: 0xFD1ED0 VA: 0x180FD38D0
+	// RVA: 0xFD3B90 Offset: 0xFD2190 VA: 0x180FD3B90
 	public void AddFlex() { }
 
-	// RVA: 0xFD3BC0 Offset: 0xFD21C0 VA: 0x180FD3BC0
+	// RVA: 0xFD3E80 Offset: 0xFD2480 VA: 0x180FD3E80
 	public void .ctor() { }
 
 }

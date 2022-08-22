@@ -24,61 +24,61 @@ public class SoundPlayer : BaseMonoBehaviour, IClientComponent, IOnParentDestroy
 	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
 	protected void set_sound(Sound value) { }
 
-	// RVA: 0xA7AD10 Offset: 0xA79310 VA: 0x180A7AD10
+	// RVA: 0xA7AFD0 Offset: 0xA795D0 VA: 0x180A7AFD0
 	protected void Awake() { }
 
-	// RVA: 0xA7B490 Offset: 0xA79A90 VA: 0x180A7B490
+	// RVA: 0xA7B750 Offset: 0xA79D50 VA: 0x180A7B750
 	protected void OnEnable() { }
 
-	// RVA: 0xA7B040 Offset: 0xA79640 VA: 0x180A7B040
+	// RVA: 0xA7B300 Offset: 0xA79900 VA: 0x180A7B300
 	public void DoPendingUpdate() { }
 
-	// RVA: 0xA7BA10 Offset: 0xA7A010 VA: 0x180A7BA10
+	// RVA: 0xA7BCD0 Offset: 0xA7A2D0 VA: 0x180A7BCD0
 	public bool ShouldStartThisFrame() { }
 
-	// RVA: 0xA7B920 Offset: 0xA79F20 VA: 0x180A7B920
+	// RVA: 0xA7BBE0 Offset: 0xA7A1E0 VA: 0x180A7BBE0
 	public void Play() { }
 
-	// RVA: 0xA7B870 Offset: 0xA79E70 VA: 0x180A7B870
+	// RVA: 0xA7BB30 Offset: 0xA7A130 VA: 0x180A7BB30
 	public void PlayOneshot() { }
 
-	// RVA: 0xA7B5F0 Offset: 0xA79BF0 VA: 0x180A7B5F0
+	// RVA: 0xA7B8B0 Offset: 0xA79EB0 VA: 0x180A7B8B0
 	public void PlayOneshotRandomDelay(float min = 0, float max = 1) { }
 
-	// RVA: 0xA7B0B0 Offset: 0xA796B0 VA: 0x180A7B0B0
+	// RVA: 0xA7B370 Offset: 0xA79970 VA: 0x180A7B370
 	public void FadeInAndPlay(float time = 0,5) { }
 
-	// RVA: 0xA7B150 Offset: 0xA79750 VA: 0x180A7B150
+	// RVA: 0xA7B410 Offset: 0xA79A10 VA: 0x180A7B410
 	public void FadeOutAndRecycle(float time = 0,5) { }
 
-	// RVA: 0xA7ADC0 Offset: 0xA793C0 VA: 0x180A7ADC0 Slot: 7
+	// RVA: 0xA7B080 Offset: 0xA79680 VA: 0x180A7B080 Slot: 7
 	public virtual void CreateSound() { }
 
-	// RVA: 0xA7B2E0 Offset: 0xA798E0 VA: 0x180A7B2E0
+	// RVA: 0xA7B5A0 Offset: 0xA79BA0 VA: 0x180A7B5A0
 	public bool IsPlaying() { }
 
-	// RVA: 0xA7B280 Offset: 0xA79880 VA: 0x180A7B280
+	// RVA: 0xA7B540 Offset: 0xA79B40 VA: 0x180A7B540
 	public bool HasSound() { }
 
-	// RVA: 0xA7AF90 Offset: 0xA79590 VA: 0x180A7AF90
+	// RVA: 0xA7B250 Offset: 0xA79850 VA: 0x180A7B250
 	public void DestroySound() { }
 
-	// RVA: 0xA7BA40 Offset: 0xA7A040 VA: 0x180A7BA40
+	// RVA: 0xA7BD00 Offset: 0xA7A300 VA: 0x180A7BD00
 	public void Stop() { }
 
-	// RVA: 0xA7B400 Offset: 0xA79A00 VA: 0x180A7B400
+	// RVA: 0xA7B6C0 Offset: 0xA79CC0 VA: 0x180A7B6C0
 	public void MakeThirdPerson() { }
 
-	// RVA: 0xA7B370 Offset: 0xA79970 VA: 0x180A7B370
+	// RVA: 0xA7B630 Offset: 0xA79C30 VA: 0x180A7B630
 	public void MakeFirstPerson() { }
 
-	// RVA: 0xA7B1F0 Offset: 0xA797F0 VA: 0x180A7B1F0
+	// RVA: 0xA7B4B0 Offset: 0xA79AB0 VA: 0x180A7B4B0
 	public float GetLength() { }
 
-	// RVA: 0x8094D0 Offset: 0x807AD0 VA: 0x1808094D0 Slot: 6
+	// RVA: 0x8095E0 Offset: 0x807BE0 VA: 0x1808095E0 Slot: 6
 	public void OnParentDestroying() { }
 
-	// RVA: 0xA7BAC0 Offset: 0xA7A0C0 VA: 0x180A7BAC0
+	// RVA: 0xA7BD80 Offset: 0xA7A380 VA: 0x180A7BD80
 	public void .ctor() { }
 
 }

@@ -8,19 +8,19 @@ public class MACTripleDES : KeyedHashAlgorithm // TypeDefIndex: 969
 
 	// Methods
 
-	// RVA: 0x1702F60 Offset: 0x1701560 VA: 0x181702F60
+	// RVA: 0x1703220 Offset: 0x1701820 VA: 0x181703220
 	public void .ctor() { }
 
-	// RVA: 0x817270 Offset: 0x815870 VA: 0x180817270 Slot: 16
+	// RVA: 0x817380 Offset: 0x815980 VA: 0x180817380 Slot: 16
 	public override void Initialize() { }
 
-	// RVA: 0x1702C40 Offset: 0x1701240 VA: 0x181702C40 Slot: 17
+	// RVA: 0x1702F00 Offset: 0x1701500 VA: 0x181702F00 Slot: 17
 	protected override void HashCore(byte[] rgbData, int ibStart, int cbSize) { }
 
-	// RVA: 0x1702DE0 Offset: 0x17013E0 VA: 0x181702DE0 Slot: 18
+	// RVA: 0x17030A0 Offset: 0x17016A0 VA: 0x1817030A0 Slot: 18
 	protected override byte[] HashFinal() { }
 
-	// RVA: 0x1702BA0 Offset: 0x17011A0 VA: 0x181702BA0 Slot: 15
+	// RVA: 0x1702E60 Offset: 0x1701460 VA: 0x181702E60 Slot: 15
 	protected override void Dispose(bool disposing) { }
 
 }

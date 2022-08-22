@@ -5,16 +5,16 @@ internal sealed class NameCache // TypeDefIndex: 1121
 
 	// Methods
 
-	// RVA: 0x11F5F80 Offset: 0x11F4580 VA: 0x1811F5F80
+	// RVA: 0x11F6240 Offset: 0x11F4840 VA: 0x1811F6240
 	internal object GetCachedValue(string name) { }
 
-	// RVA: 0x11F6040 Offset: 0x11F4640 VA: 0x1811F6040
+	// RVA: 0x11F6300 Offset: 0x11F4900 VA: 0x1811F6300
 	internal void SetCachedValue(object value) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x11F60D0 Offset: 0x11F46D0 VA: 0x1811F60D0
+	// RVA: 0x11F6390 Offset: 0x11F4990 VA: 0x1811F6390
 	private static void .cctor() { }
 
 }

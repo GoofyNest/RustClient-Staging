@@ -8,13 +8,13 @@ public class FlybySound : MonoBehaviour, IClientComponent // TypeDefIndex: 8991
 
 	// Methods
 
-	// RVA: 0x793740 Offset: 0x791D40 VA: 0x180793740
+	// RVA: 0x793850 Offset: 0x791E50 VA: 0x180793850
 	private void Update() { }
 
-	// RVA: 0x793550 Offset: 0x791B50 VA: 0x180793550
+	// RVA: 0x793660 Offset: 0x791C60 VA: 0x180793660
 	private void DoFlybySound() { }
 
-	// RVA: 0x793750 Offset: 0x791D50 VA: 0x180793750
+	// RVA: 0x793860 Offset: 0x791E60 VA: 0x180793860
 	public void .ctor() { }
 
 }

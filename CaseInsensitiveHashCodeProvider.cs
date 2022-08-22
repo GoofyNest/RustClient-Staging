@@ -7,16 +7,16 @@ public class CaseInsensitiveHashCodeProvider : IHashCodeProvider // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1451330 Offset: 0x144F930 VA: 0x181451330
+	// RVA: 0x14515F0 Offset: 0x144FBF0 VA: 0x1814515F0
 	public void .ctor() { }
 
-	// RVA: 0x1451290 Offset: 0x144F890 VA: 0x181451290
+	// RVA: 0x1451550 Offset: 0x144FB50 VA: 0x181451550
 	public void .ctor(CultureInfo culture) { }
 
-	// RVA: 0x14513C0 Offset: 0x144F9C0 VA: 0x1814513C0
+	// RVA: 0x1451680 Offset: 0x144FC80 VA: 0x181451680
 	public static CaseInsensitiveHashCodeProvider get_Default() { }
 
-	// RVA: 0x14511D0 Offset: 0x144F7D0 VA: 0x1814511D0 Slot: 4
+	// RVA: 0x1451490 Offset: 0x144FA90 VA: 0x181451490 Slot: 4
 	public int GetHashCode(object obj) { }
 
 }

@@ -8,13 +8,13 @@ public class DeliveryDroneConfig : BaseScriptableObject // TypeDefIndex: 8800
 
 	// Methods
 
-	// RVA: 0x84C170 Offset: 0x84A770 VA: 0x18084C170
+	// RVA: 0x84C280 Offset: 0x84A880 VA: 0x18084C280
 	public void FindDescentPoints(VendingMachine vendingMachine, float currentY, out Vector3 waitPosition, out Vector3 descendPosition) { }
 
-	// RVA: 0x84C600 Offset: 0x84AC00 VA: 0x18084C600
+	// RVA: 0x84C710 Offset: 0x84AD10 VA: 0x18084C710
 	public bool IsVendingMachineAccessible(VendingMachine vendingMachine, Vector3 offset, out RaycastHit hitInfo) { }
 
-	// RVA: 0x84C880 Offset: 0x84AE80 VA: 0x18084C880
+	// RVA: 0x84C990 Offset: 0x84AF90 VA: 0x18084C990
 	public void .ctor() { }
 
 }

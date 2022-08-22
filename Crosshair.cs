@@ -19,34 +19,34 @@ public class Crosshair : BaseMonoBehaviour // TypeDefIndex: 10844
 
 	// Methods
 
-	// RVA: 0x6C42B0 Offset: 0x6C28B0 VA: 0x1806C42B0
+	// RVA: 0x6C43C0 Offset: 0x6C29C0 VA: 0x1806C43C0
 	private void Start() { }
 
-	// RVA: 0x6C3570 Offset: 0x6C1B70 VA: 0x1806C3570
+	// RVA: 0x6C3680 Offset: 0x6C1C80 VA: 0x1806C3680
 	private void FixedUpdate() { }
 
-	// RVA: 0x6C43E0 Offset: 0x6C29E0 VA: 0x1806C43E0
+	// RVA: 0x6C44F0 Offset: 0x6C2AF0 VA: 0x1806C44F0
 	private void Update() { }
 
-	// RVA: 0x6C3C20 Offset: 0x6C2220 VA: 0x1806C3C20
+	// RVA: 0x6C3D30 Offset: 0x6C2330 VA: 0x1806C3D30
 	public void PointsEffect() { }
 
-	// RVA: 0x6C3420 Offset: 0x6C1A20 VA: 0x1806C3420
+	// RVA: 0x6C3530 Offset: 0x6C1B30 VA: 0x1806C3530
 	public void DoPointsSplash(int amount) { }
 
-	// RVA: 0x6C3410 Offset: 0x6C1A10 VA: 0x1806C3410
+	// RVA: 0x6C3520 Offset: 0x6C1B20 VA: 0x1806C3520
 	private void ClearPoints() { }
 
-	// RVA: 0x6C35F0 Offset: 0x6C1BF0 VA: 0x1806C35F0
+	// RVA: 0x6C3700 Offset: 0x6C1D00 VA: 0x1806C3700
 	public static void OnHit(bool wasKillShot = False) { }
 
-	// RVA: 0x6C3D10 Offset: 0x6C2310 VA: 0x1806C3D10
+	// RVA: 0x6C3E20 Offset: 0x6C2420 VA: 0x1806C3E20
 	private bool ShouldShowCrosshair() { }
 
-	// RVA: 0x6C4C60 Offset: 0x6C3260 VA: 0x1806C4C60
+	// RVA: 0x6C4D70 Offset: 0x6C3370 VA: 0x1806C4D70
 	public void .ctor() { }
 
-	// RVA: 0x6C4C10 Offset: 0x6C3210 VA: 0x1806C4C10
+	// RVA: 0x6C4D20 Offset: 0x6C3320 VA: 0x1806C4D20
 	private static void .cctor() { }
 
 }

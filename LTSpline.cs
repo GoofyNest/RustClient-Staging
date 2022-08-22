@@ -14,64 +14,64 @@ public class LTSpline // TypeDefIndex: 5584
 
 	// Methods
 
-	// RVA: 0x21AAEC0 Offset: 0x21A94C0 VA: 0x1821AAEC0
+	// RVA: 0x21AB180 Offset: 0x21A9780 VA: 0x1821AB180
 	public void .ctor(Vector3[] pts) { }
 
-	// RVA: 0x21AAE70 Offset: 0x21A9470 VA: 0x1821AAE70
+	// RVA: 0x21AB130 Offset: 0x21A9730 VA: 0x1821AB130
 	public void .ctor(Vector3[] pts, bool constantSpeed) { }
 
-	// RVA: 0x21AB740 Offset: 0x21A9D40 VA: 0x1821AB740
+	// RVA: 0x21ABA00 Offset: 0x21AA000 VA: 0x1821ABA00
 	private void init(Vector3[] pts, bool constantSpeed) { }
 
-	// RVA: 0x21AC1C0 Offset: 0x21AA7C0 VA: 0x1821AC1C0
+	// RVA: 0x21AC480 Offset: 0x21AAA80 VA: 0x1821AC480
 	public Vector3 map(float u) { }
 
-	// RVA: 0x21ABBD0 Offset: 0x21AA1D0 VA: 0x1821ABBD0
+	// RVA: 0x21ABE90 Offset: 0x21AA490 VA: 0x1821ABE90
 	public Vector3 interp(float t) { }
 
-	// RVA: 0x21ACE40 Offset: 0x21AB440 VA: 0x1821ACE40
+	// RVA: 0x21AD100 Offset: 0x21AB700 VA: 0x1821AD100
 	public float ratioAtPoint(Vector3 pt) { }
 
-	// RVA: 0x21ACDF0 Offset: 0x21AB3F0 VA: 0x1821ACDF0
+	// RVA: 0x21AD0B0 Offset: 0x21AB6B0 VA: 0x1821AD0B0
 	public Vector3 point(float ratio) { }
 
-	// RVA: 0x21AC420 Offset: 0x21AAA20 VA: 0x1821AC420
+	// RVA: 0x21AC6E0 Offset: 0x21AACE0 VA: 0x1821AC6E0
 	public void place2d(Transform transform, float ratio) { }
 
-	// RVA: 0x21AC620 Offset: 0x21AAC20 VA: 0x1821AC620
+	// RVA: 0x21AC8E0 Offset: 0x21AAEE0 VA: 0x1821AC8E0
 	public void placeLocal2d(Transform transform, float ratio) { }
 
-	// RVA: 0x21ACB80 Offset: 0x21AB180 VA: 0x1821ACB80
+	// RVA: 0x21ACE40 Offset: 0x21AB440 VA: 0x1821ACE40
 	public void place(Transform transform, float ratio) { }
 
-	// RVA: 0x21ACCE0 Offset: 0x21AB2E0 VA: 0x1821ACCE0
+	// RVA: 0x21ACFA0 Offset: 0x21AB5A0 VA: 0x1821ACFA0
 	public void place(Transform transform, float ratio, Vector3 worldUp) { }
 
-	// RVA: 0x21AC870 Offset: 0x21AAE70 VA: 0x1821AC870
+	// RVA: 0x21ACB30 Offset: 0x21AB130 VA: 0x1821ACB30
 	public void placeLocal(Transform transform, float ratio) { }
 
-	// RVA: 0x21ACA20 Offset: 0x21AB020 VA: 0x1821ACA20
+	// RVA: 0x21ACCE0 Offset: 0x21AB2E0 VA: 0x1821ACCE0
 	public void placeLocal(Transform transform, float ratio, Vector3 worldUp) { }
 
-	// RVA: 0x21AB660 Offset: 0x21A9C60 VA: 0x1821AB660
+	// RVA: 0x21AB920 Offset: 0x21A9F20 VA: 0x1821AB920
 	public void gizmoDraw(float t = -1) { }
 
-	// RVA: 0x21AB140 Offset: 0x21A9740 VA: 0x1821AB140
+	// RVA: 0x21AB400 Offset: 0x21A9A00 VA: 0x1821AB400
 	public void drawGizmo(Color color) { }
 
-	// RVA: 0x21AAF00 Offset: 0x21A9500 VA: 0x1821AAF00
+	// RVA: 0x21AB1C0 Offset: 0x21A97C0 VA: 0x1821AB1C0
 	public static void drawGizmo(Transform[] arr, Color color) { }
 
-	// RVA: 0x21AB280 Offset: 0x21A9880 VA: 0x1821AB280
+	// RVA: 0x21AB540 Offset: 0x21A9B40 VA: 0x1821AB540
 	public static void drawLine(Transform[] arr, float width, Color color) { }
 
-	// RVA: 0x21AB2A0 Offset: 0x21A98A0 VA: 0x1821AB2A0
+	// RVA: 0x21AB560 Offset: 0x21A9B60 VA: 0x1821AB560
 	public void drawLinesGLLines(Material outlineMaterial, Color color, float width) { }
 
-	// RVA: 0x21AB4E0 Offset: 0x21A9AE0 VA: 0x1821AB4E0
+	// RVA: 0x21AB7A0 Offset: 0x21A9DA0 VA: 0x1821AB7A0
 	public Vector3[] generateVectors() { }
 
-	// RVA: 0x21AAE20 Offset: 0x21A9420 VA: 0x1821AAE20
+	// RVA: 0x21AB0E0 Offset: 0x21A96E0 VA: 0x1821AB0E0
 	private static void .cctor() { }
 
 }

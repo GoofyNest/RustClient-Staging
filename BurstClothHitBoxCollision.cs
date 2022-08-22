@@ -14,35 +14,35 @@ public class BurstClothHitBoxCollision : BurstCloth, IClientComponent, IPrefabPr
 
 	// Methods
 
-	// RVA: 0x6F0670 Offset: 0x6EEC70 VA: 0x1806F0670 Slot: 4
+	// RVA: 0x6F0780 Offset: 0x6EED80 VA: 0x1806F0780 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0x6F1820 Offset: 0x6EFE20 VA: 0x1806F1820
+	// RVA: 0x6F1930 Offset: 0x6EFF30 VA: 0x1806F1930
 	public void PlayerPreviewVisibility(bool isVisible) { }
 
-	// RVA: 0x6F0750 Offset: 0x6EED50 VA: 0x1806F0750 Slot: 7
+	// RVA: 0x6F0860 Offset: 0x6EEE60 VA: 0x1806F0860 Slot: 7
 	protected override void FrameUpdate() { }
 
-	// RVA: 0x6F1910 Offset: 0x6EFF10 VA: 0x1806F1910
+	// RVA: 0x6F1A20 Offset: 0x6F0020 VA: 0x1806F1A20
 	private void UpdateSimulationSpace() { }
 
-	// RVA: 0x6F1720 Offset: 0x6EFD20 VA: 0x1806F1720 Slot: 8
+	// RVA: 0x6F1830 Offset: 0x6EFE30 VA: 0x1806F1830 Slot: 8
 	protected override ValueTuple<Vector3, Quaternion, Vector3> GetOriginTransform() { }
 
-	// RVA: 0x6F1380 Offset: 0x6EF980 VA: 0x1806F1380
+	// RVA: 0x6F1490 Offset: 0x6EFA90 VA: 0x1806F1490
 	private ValueTuple<Quaternion, Vector3> GetOrientation() { }
 
-	// RVA: 0x6F0A30 Offset: 0x6EF030 VA: 0x1806F0A30 Slot: 9
+	// RVA: 0x6F0B40 Offset: 0x6EF140 VA: 0x1806F0B40 Slot: 9
 	protected override void GatherColliders(List<CapsuleParams> colliders) { }
 
-	// RVA: 0x6F1830 Offset: 0x6EFE30 VA: 0x1806F1830 Slot: 10
+	// RVA: 0x6F1940 Offset: 0x6EFF40 VA: 0x1806F1940 Slot: 10
 	public void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x6F1A30 Offset: 0x6F0030 VA: 0x1806F1A30
+	// RVA: 0x6F1B40 Offset: 0x6F0140 VA: 0x1806F1B40
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6F1840 Offset: 0x6EFE40 VA: 0x1806F1840
+	// RVA: 0x6F1950 Offset: 0x6EFF50 VA: 0x1806F1950
 	private bool <GatherColliders>g__ShouldIgnore|15_0(string name) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -53,7 +53,7 @@ public class BurstClothHitBoxCollision : BurstCloth, IClientComponent, IPrefabPr
 	|-RVA: 0x570EF0 Offset: 0x56F4F0 VA: 0x180570EF0
 	|-BurstClothHitBoxCollision.<GatherColliders>g__Swap|15_1<object>
 	|
-	|-RVA: 0x1571450 Offset: 0x156FA50 VA: 0x181571450
+	|-RVA: 0x1571710 Offset: 0x156FD10 VA: 0x181571710
 	|-BurstClothHitBoxCollision.<GatherColliders>g__Swap|15_1<ValueTuple<float, Vector3>>
 	*/
 

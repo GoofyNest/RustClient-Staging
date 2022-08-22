@@ -22,54 +22,54 @@ internal class DSAManaged : DSA // TypeDefIndex: 78
 
 	// Methods
 
-	// RVA: 0x1747510 Offset: 0x1745B10 VA: 0x181747510
+	// RVA: 0x17477D0 Offset: 0x1745DD0 VA: 0x1817477D0
 	public void .ctor(int dwKeySize) { }
 
-	// RVA: 0x9E4550 Offset: 0x9E2B50 VA: 0x1809E4550 Slot: 1
+	// RVA: 0x9E4810 Offset: 0x9E2E10 VA: 0x1809E4810 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1746A90 Offset: 0x1745090 VA: 0x181746A90
+	// RVA: 0x1746D50 Offset: 0x1745350 VA: 0x181746D50
 	private void Generate() { }
 
-	// RVA: 0x17460C0 Offset: 0x17446C0 VA: 0x1817460C0
+	// RVA: 0x1746380 Offset: 0x1744980 VA: 0x181746380
 	private void GenerateKeyPair() { }
 
-	// RVA: 0x17476A0 Offset: 0x1745CA0 VA: 0x1817476A0
+	// RVA: 0x1747960 Offset: 0x1745F60 VA: 0x181747960
 	private void add(byte[] a, byte[] b, int value) { }
 
-	// RVA: 0x17461F0 Offset: 0x17447F0 VA: 0x1817461F0
+	// RVA: 0x17464B0 Offset: 0x1744AB0 VA: 0x1817464B0
 	private void GenerateParams(int keyLength) { }
 
-	// RVA: 0x17477F0 Offset: 0x1745DF0 VA: 0x1817477F0
+	// RVA: 0x1747AB0 Offset: 0x17460B0 VA: 0x181747AB0
 	private RandomNumberGenerator get_Random() { }
 
-	// RVA: 0x1747750 Offset: 0x1745D50 VA: 0x181747750 Slot: 6
+	// RVA: 0x1747A10 Offset: 0x1746010 VA: 0x181747A10 Slot: 6
 	public override int get_KeySize() { }
 
-	// RVA: 0x1747780 Offset: 0x1745D80 VA: 0x181747780
+	// RVA: 0x1747A40 Offset: 0x1746040 VA: 0x181747A40
 	public bool get_PublicOnly() { }
 
-	// RVA: 0x1746FE0 Offset: 0x17455E0 VA: 0x181746FE0
+	// RVA: 0x17472A0 Offset: 0x17458A0 VA: 0x1817472A0
 	private byte[] NormalizeArray(byte[] array) { }
 
-	// RVA: 0x1745C90 Offset: 0x1744290 VA: 0x181745C90 Slot: 11
+	// RVA: 0x1745F50 Offset: 0x1744550 VA: 0x181745F50 Slot: 11
 	public override DSAParameters ExportParameters(bool includePrivateParameters) { }
 
-	// RVA: 0x1746BF0 Offset: 0x17451F0 VA: 0x181746BF0 Slot: 12
+	// RVA: 0x1746EB0 Offset: 0x17454B0 VA: 0x181746EB0 Slot: 12
 	public override void ImportParameters(DSAParameters parameters) { }
 
-	// RVA: 0x1747090 Offset: 0x1745690 VA: 0x181747090 Slot: 10
+	// RVA: 0x1747350 Offset: 0x1745950 VA: 0x181747350 Slot: 10
 	public override bool VerifySignature(byte[] rgbHash, byte[] rgbSignature) { }
 
-	// RVA: 0x17459D0 Offset: 0x1743FD0 VA: 0x1817459D0 Slot: 5
+	// RVA: 0x1745C90 Offset: 0x1744290 VA: 0x181745C90 Slot: 5
 	protected override void Dispose(bool disposing) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1747600 Offset: 0x1745C00 VA: 0x181747600
+	// RVA: 0x17478C0 Offset: 0x1745EC0 VA: 0x1817478C0
 	public void add_KeyGenerated(DSAManaged.KeyGeneratedEventHandler value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1747830 Offset: 0x1745E30 VA: 0x181747830
+	// RVA: 0x1747AF0 Offset: 0x17460F0 VA: 0x181747AF0
 	public void remove_KeyGenerated(DSAManaged.KeyGeneratedEventHandler value) { }
 
 }
@@ -80,10 +80,10 @@ public sealed class DSAManaged.KeyGeneratedEventHandler : MulticastDelegate // T
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1111140 Offset: 0x110F740 VA: 0x181111140 Slot: 12
+	// RVA: 0x1111400 Offset: 0x110FA00 VA: 0x181111400 Slot: 12
 	public virtual void Invoke(object sender, EventArgs e) { }
 
-	// RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580 Slot: 13
+	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
 	public virtual IAsyncResult BeginInvoke(object sender, EventArgs e, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

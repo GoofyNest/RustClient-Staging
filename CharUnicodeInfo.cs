@@ -8,40 +8,40 @@ public static class CharUnicodeInfo // TypeDefIndex: 685
 
 	// Methods
 
-	// RVA: 0x10D3020 Offset: 0x10D1620 VA: 0x1810D3020
+	// RVA: 0x10D32E0 Offset: 0x10D18E0 VA: 0x1810D32E0
 	internal static int InternalConvertToUtf32(string s, int index) { }
 
-	// RVA: 0x10D2F50 Offset: 0x10D1550 VA: 0x1810D2F50
+	// RVA: 0x10D3210 Offset: 0x10D1810 VA: 0x1810D3210
 	internal static int InternalConvertToUtf32(string s, int index, out int charLength) { }
 
-	// RVA: 0x10D3570 Offset: 0x10D1B70 VA: 0x1810D3570
+	// RVA: 0x10D3830 Offset: 0x10D1E30 VA: 0x1810D3830
 	internal static bool IsWhiteSpace(string s, int index) { }
 
-	// RVA: 0x10D3760 Offset: 0x10D1D60 VA: 0x1810D3760
+	// RVA: 0x10D3A20 Offset: 0x10D2020 VA: 0x1810D3A20
 	internal static bool IsWhiteSpace(char c) { }
 
-	// RVA: 0x10D2F00 Offset: 0x10D1500 VA: 0x1810D2F00
+	// RVA: 0x10D31C0 Offset: 0x10D17C0 VA: 0x1810D31C0
 	public static UnicodeCategory GetUnicodeCategory(char ch) { }
 
-	// RVA: 0x10D2D60 Offset: 0x10D1360 VA: 0x1810D2D60
+	// RVA: 0x10D3020 Offset: 0x10D1620 VA: 0x1810D3020
 	public static UnicodeCategory GetUnicodeCategory(string s, int index) { }
 
-	// RVA: 0x10D31F0 Offset: 0x10D17F0 VA: 0x1810D31F0
+	// RVA: 0x10D34B0 Offset: 0x10D1AB0 VA: 0x1810D34B0
 	internal static UnicodeCategory InternalGetUnicodeCategory(int ch) { }
 
-	// RVA: 0x10D30E0 Offset: 0x10D16E0 VA: 0x1810D30E0
+	// RVA: 0x10D33A0 Offset: 0x10D19A0 VA: 0x1810D33A0
 	internal static byte InternalGetCategoryValue(int ch, int offset) { }
 
-	// RVA: 0x10D3330 Offset: 0x10D1930 VA: 0x1810D3330
+	// RVA: 0x10D35F0 Offset: 0x10D1BF0 VA: 0x1810D35F0
 	internal static UnicodeCategory InternalGetUnicodeCategory(string value, int index) { }
 
-	// RVA: 0x10D3420 Offset: 0x10D1A20 VA: 0x1810D3420
+	// RVA: 0x10D36E0 Offset: 0x10D1CE0 VA: 0x1810D36E0
 	internal static UnicodeCategory InternalGetUnicodeCategory(string str, int index, out int charLength) { }
 
-	// RVA: 0x10D3530 Offset: 0x10D1B30 VA: 0x1810D3530
+	// RVA: 0x10D37F0 Offset: 0x10D1DF0 VA: 0x1810D37F0
 	internal static bool IsCombiningCategory(UnicodeCategory uc) { }
 
-	// RVA: 0x10D3800 Offset: 0x10D1E00 VA: 0x1810D3800
+	// RVA: 0x10D3AC0 Offset: 0x10D20C0 VA: 0x1810D3AC0
 	private static void .cctor() { }
 
 }

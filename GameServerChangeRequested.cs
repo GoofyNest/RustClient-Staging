@@ -22,7 +22,7 @@ internal struct GameServerChangeRequested_t : ICallbackData // TypeDefIndex: 530
 	// RVA: 0x1E7E60 Offset: 0x1E7260 VA: 0x1801E7E60 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371460 Offset: 0x136FA60 VA: 0x181371460
+	// RVA: 0x1371720 Offset: 0x136FD20 VA: 0x181371720
 	private static void .cctor() { }
 
 }

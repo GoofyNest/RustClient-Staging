@@ -9,19 +9,19 @@ public sealed class SettingsBindableAttribute : Attribute // TypeDefIndex: 2747
 
 	// Methods
 
-	// RVA: 0xFDCB80 Offset: 0xFDB180 VA: 0x180FDCB80
+	// RVA: 0xFDCE40 Offset: 0xFDB440 VA: 0x180FDCE40
 	public void .ctor(bool bindable) { }
 
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public bool get_Bindable() { }
 
-	// RVA: 0x1733D90 Offset: 0x1732390 VA: 0x181733D90 Slot: 0
+	// RVA: 0x1734050 Offset: 0x1732650 VA: 0x181734050 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x13C88F0 Offset: 0x13C6EF0 VA: 0x1813C88F0 Slot: 2
+	// RVA: 0x13C8BB0 Offset: 0x13C71B0 VA: 0x1813C8BB0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1733E30 Offset: 0x1732430 VA: 0x181733E30
+	// RVA: 0x17340F0 Offset: 0x17326F0 VA: 0x1817340F0
 	private static void .cctor() { }
 
 }

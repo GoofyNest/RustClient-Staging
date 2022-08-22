@@ -19,28 +19,28 @@ public abstract class Constraint // TypeDefIndex: 4174
 
 	// Methods
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330 Slot: 4
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 4
 	public virtual string get_ConstraintName() { }
 
-	// RVA: 0x12295D0 Offset: 0x1227BD0 VA: 0x1812295D0 Slot: 5
+	// RVA: 0x1229890 Offset: 0x1227E90 VA: 0x181229890 Slot: 5
 	public virtual void set_ConstraintName(string value) { }
 
-	// RVA: 0x1229590 Offset: 0x1227B90 VA: 0x181229590
+	// RVA: 0x1229850 Offset: 0x1227E50 VA: 0x181229850
 	internal string get_SchemaName() { }
 
-	// RVA: 0x1229850 Offset: 0x1227E50 VA: 0x181229850
+	// RVA: 0x1229B10 Offset: 0x1228110 VA: 0x181229B10
 	internal void set_SchemaName(string value) { }
 
-	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0 Slot: 6
+	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0 Slot: 6
 	internal virtual bool get_InCollection() { }
 
-	// RVA: 0x12297F0 Offset: 0x1227DF0 VA: 0x1812297F0 Slot: 7
+	// RVA: 0x1229AB0 Offset: 0x12280B0 VA: 0x181229AB0 Slot: 7
 	internal virtual void set_InCollection(bool value) { }
 
 	// RVA: -1 Offset: -1 Slot: 8
 	public abstract DataTable get_Table();
 
-	// RVA: 0x1229520 Offset: 0x1227B20 VA: 0x181229520
+	// RVA: 0x12297E0 Offset: 0x1227DE0 VA: 0x1812297E0
 	public PropertyCollection get_ExtendedProperties() { }
 
 	// RVA: -1 Offset: -1 Slot: 9
@@ -55,7 +55,7 @@ public abstract class Constraint // TypeDefIndex: 4174
 	// RVA: -1 Offset: -1 Slot: 12
 	internal abstract Constraint Clone(DataSet destination, bool ignoreNSforTableLookup);
 
-	// RVA: 0x1229310 Offset: 0x1227910 VA: 0x181229310
+	// RVA: 0x12295D0 Offset: 0x1227BD0 VA: 0x1812295D0
 	internal void CheckConstraint() { }
 
 	// RVA: -1 Offset: -1 Slot: 13
@@ -70,7 +70,7 @@ public abstract class Constraint // TypeDefIndex: 4174
 	// RVA: -1 Offset: -1 Slot: 16
 	internal abstract void CheckState();
 
-	// RVA: 0x1229380 Offset: 0x1227980 VA: 0x181229380
+	// RVA: 0x1229640 Offset: 0x1227C40 VA: 0x181229640
 	protected void CheckStateForProperty() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 17
@@ -82,7 +82,7 @@ public abstract class Constraint // TypeDefIndex: 4174
 	// RVA: 0x4D3FB0 Offset: 0x4D25B0 VA: 0x1804D3FB0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x12294B0 Offset: 0x1227AB0 VA: 0x1812294B0
+	// RVA: 0x1229770 Offset: 0x1227D70 VA: 0x181229770
 	protected void .ctor() { }
 
 }

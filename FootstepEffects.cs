@@ -13,31 +13,31 @@ public class FootstepEffects : BaseFootstepEffect // TypeDefIndex: 9349
 
 	// Methods
 
-	// RVA: 0x7511D0 Offset: 0x74F7D0 VA: 0x1807511D0
+	// RVA: 0x7512E0 Offset: 0x74F8E0 VA: 0x1807512E0
 	private void OnEnable() { }
 
-	// RVA: 0x751780 Offset: 0x74FD80 VA: 0x180751780
+	// RVA: 0x751890 Offset: 0x74FE90 VA: 0x180751890
 	private void Update() { }
 
-	// RVA: 0x750F40 Offset: 0x74F540 VA: 0x180750F40
+	// RVA: 0x751050 Offset: 0x74F650 VA: 0x180751050
 	private void LeftFoot(float fVolume) { }
 
-	// RVA: 0x751320 Offset: 0x74F920 VA: 0x180751320
+	// RVA: 0x751430 Offset: 0x74FA30 VA: 0x180751430
 	private void RightFoot(float fVolume) { }
 
-	// RVA: 0x750A90 Offset: 0x74F090 VA: 0x180750A90
+	// RVA: 0x750BA0 Offset: 0x74F1A0 VA: 0x180750BA0
 	private void Footstep(Vector3 vFootPos, bool left, bool bIgnoreDistanceCheck = False) { }
 
-	// RVA: 0x7508B0 Offset: 0x74EEB0 VA: 0x1807508B0
+	// RVA: 0x7509C0 Offset: 0x74EFC0 VA: 0x1807509C0
 	private void DoLandingEffect() { }
 
-	// RVA: 0x7506D0 Offset: 0x74ECD0 VA: 0x1807506D0
+	// RVA: 0x7507E0 Offset: 0x74EDE0 VA: 0x1807507E0
 	private void DoJumpStartEffect() { }
 
-	// RVA: 0x7515A0 Offset: 0x74FBA0 VA: 0x1807515A0
+	// RVA: 0x7516B0 Offset: 0x74FCB0 VA: 0x1807516B0
 	private void SetupPlayerFootstep(BasePlayer player, GameObject effect, bool left) { }
 
-	// RVA: 0x751920 Offset: 0x74FF20 VA: 0x180751920
+	// RVA: 0x751A30 Offset: 0x750030 VA: 0x180751A30
 	public void .ctor() { }
 
 }

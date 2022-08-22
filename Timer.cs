@@ -11,34 +11,34 @@ public sealed class Timer : MarshalByRefObject, IDisposable // TypeDefIndex: 832
 
 	// Methods
 
-	// RVA: 0x161AC20 Offset: 0x1619220 VA: 0x18161AC20
+	// RVA: 0x161AEE0 Offset: 0x16194E0 VA: 0x18161AEE0
 	public void .ctor(TimerCallback callback, object state, int dueTime, int period) { }
 
-	// RVA: 0x161ACF0 Offset: 0x16192F0 VA: 0x18161ACF0
+	// RVA: 0x161AFB0 Offset: 0x16195B0 VA: 0x18161AFB0
 	public void .ctor(TimerCallback callback, object state, TimeSpan dueTime, TimeSpan period) { }
 
-	// RVA: 0x161AAB0 Offset: 0x16190B0 VA: 0x18161AAB0
+	// RVA: 0x161AD70 Offset: 0x1619370 VA: 0x18161AD70
 	private void Init(TimerCallback callback, object state, long dueTime, long period) { }
 
-	// RVA: 0x161A970 Offset: 0x1618F70 VA: 0x18161A970
+	// RVA: 0x161AC30 Offset: 0x1619230 VA: 0x18161AC30
 	public bool Change(int dueTime, int period) { }
 
-	// RVA: 0x161A990 Offset: 0x1618F90 VA: 0x18161A990
+	// RVA: 0x161AC50 Offset: 0x1619250 VA: 0x18161AC50
 	public bool Change(TimeSpan dueTime, TimeSpan period) { }
 
-	// RVA: 0x161AA10 Offset: 0x1619010 VA: 0x18161AA10 Slot: 6
+	// RVA: 0x161ACD0 Offset: 0x16192D0 VA: 0x18161ACD0 Slot: 6
 	public void Dispose() { }
 
-	// RVA: 0x161A730 Offset: 0x1618D30 VA: 0x18161A730
+	// RVA: 0x161A9F0 Offset: 0x1618FF0 VA: 0x18161A9F0
 	private bool Change(long dueTime, long period, bool first) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal void KeepRootedWhileScheduled() { }
 
-	// RVA: 0x161AAA0 Offset: 0x16190A0 VA: 0x18161AAA0
+	// RVA: 0x161AD60 Offset: 0x1619360 VA: 0x18161AD60
 	private static long GetTimeMonotonic() { }
 
-	// RVA: 0x161AB70 Offset: 0x1619170 VA: 0x18161AB70
+	// RVA: 0x161AE30 Offset: 0x1619430 VA: 0x18161AE30
 	private static void .cctor() { }
 
 }
@@ -46,7 +46,7 @@ public sealed class Timer : MarshalByRefObject, IDisposable // TypeDefIndex: 832
 private sealed class Timer.TimerComparer : IComparer // TypeDefIndex: 833
 {	// Methods
 
-	// RVA: 0x161A690 Offset: 0x1618C90 VA: 0x18161A690 Slot: 4
+	// RVA: 0x161A950 Offset: 0x1618F50 VA: 0x18161A950 Slot: 4
 	public int Compare(object x, object y) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -65,37 +65,37 @@ private sealed class Timer.Scheduler // TypeDefIndex: 834
 
 	// Methods
 
-	// RVA: 0x1607160 Offset: 0x1605760 VA: 0x181607160
+	// RVA: 0x1607420 Offset: 0x1605A20 VA: 0x181607420
 	private static void .cctor() { }
 
-	// RVA: 0x1607390 Offset: 0x1605990 VA: 0x181607390
+	// RVA: 0x1607650 Offset: 0x1605C50 VA: 0x181607650
 	public static Timer.Scheduler get_Instance() { }
 
-	// RVA: 0x16071C0 Offset: 0x16057C0 VA: 0x1816071C0
+	// RVA: 0x1607480 Offset: 0x1605A80 VA: 0x181607480
 	private void .ctor() { }
 
-	// RVA: 0x16069B0 Offset: 0x1604FB0 VA: 0x1816069B0
+	// RVA: 0x1606C70 Offset: 0x1605270 VA: 0x181606C70
 	public void Remove(Timer timer) { }
 
-	// RVA: 0x1606630 Offset: 0x1604C30 VA: 0x181606630
+	// RVA: 0x16068F0 Offset: 0x1604EF0 VA: 0x1816068F0
 	public void Change(Timer timer, long new_next_run) { }
 
-	// RVA: 0x16067F0 Offset: 0x1604DF0 VA: 0x1816067F0
+	// RVA: 0x1606AB0 Offset: 0x16050B0 VA: 0x181606AB0
 	private int FindByDueTime(long nr) { }
 
-	// RVA: 0x16064E0 Offset: 0x1604AE0 VA: 0x1816064E0
+	// RVA: 0x16067A0 Offset: 0x1604DA0 VA: 0x1816067A0
 	private void Add(Timer timer) { }
 
-	// RVA: 0x1606950 Offset: 0x1604F50 VA: 0x181606950
+	// RVA: 0x1606C10 Offset: 0x1605210 VA: 0x181606C10
 	private int InternalRemove(Timer timer) { }
 
-	// RVA: 0x16070F0 Offset: 0x16056F0 VA: 0x1816070F0
+	// RVA: 0x16073B0 Offset: 0x16059B0 VA: 0x1816073B0
 	private static void TimerCB(object o) { }
 
-	// RVA: 0x1606A90 Offset: 0x1605090 VA: 0x181606A90
+	// RVA: 0x1606D50 Offset: 0x1605350 VA: 0x181606D50
 	private void SchedulerThread() { }
 
-	// RVA: 0x1607070 Offset: 0x1605670 VA: 0x181607070
+	// RVA: 0x1607330 Offset: 0x1605930 VA: 0x181607330
 	private void ShrinkIfNeeded(List<Timer> list, int initial) { }
 
 }

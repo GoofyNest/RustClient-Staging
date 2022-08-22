@@ -16,7 +16,7 @@ internal struct FriendRichPresenceUpdate_t : ICallbackData // TypeDefIndex: 5313
 	// RVA: 0x1E5A70 Offset: 0x1E4E70 VA: 0x1801E5A70 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370550 Offset: 0x136EB50 VA: 0x181370550
+	// RVA: 0x1370810 Offset: 0x136EE10 VA: 0x181370810
 	private static void .cctor() { }
 
 }

@@ -1,7 +1,7 @@
 public class PreserveAttribute : Attribute // TypeDefIndex: 3652
 {	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 }
@@ -9,7 +9,7 @@ public class PreserveAttribute : Attribute // TypeDefIndex: 3652
 internal class PreserveAttribute : Attribute // TypeDefIndex: 5257
 {	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 }
@@ -17,7 +17,7 @@ internal class PreserveAttribute : Attribute // TypeDefIndex: 5257
 public class PreserveAttribute : Attribute // TypeDefIndex: 5973
 {	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 }

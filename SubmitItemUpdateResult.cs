@@ -17,7 +17,7 @@ internal struct SubmitItemUpdateResult_t : ICallbackData // TypeDefIndex: 5433
 	// RVA: 0x1DB050 Offset: 0x1DA450 VA: 0x1801DB050 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1291070 Offset: 0x128F670 VA: 0x181291070
+	// RVA: 0x1291330 Offset: 0x128F930 VA: 0x181291330
 	private static void .cctor() { }
 
 }

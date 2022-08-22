@@ -4,13 +4,13 @@ public class TaskCanceledException : OperationCanceledException // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1607460 Offset: 0x1605A60 VA: 0x181607460
+	// RVA: 0x1607720 Offset: 0x1605D20 VA: 0x181607720
 	public void .ctor() { }
 
-	// RVA: 0x16074B0 Offset: 0x1605AB0 VA: 0x1816074B0
+	// RVA: 0x1607770 Offset: 0x1605D70 VA: 0x181607770
 	public void .ctor(Task task) { }
 
-	// RVA: 0xFFB560 Offset: 0xFF9B60 VA: 0x180FFB560
+	// RVA: 0xFFB820 Offset: 0xFF9E20 VA: 0x180FFB820
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

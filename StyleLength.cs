@@ -19,7 +19,7 @@ public struct StyleLength : IStyleValue<Length>, IEquatable<StyleLength> // Type
 	// RVA: 0x13ADF0 Offset: 0x13A1F0 VA: 0x18013ADF0
 	internal void .ctor(Length v, StyleKeyword keyword) { }
 
-	// RVA: 0xEB9D80 Offset: 0xEB8380 VA: 0x180EB9D80
+	// RVA: 0xEBA040 Offset: 0xEB8640 VA: 0x180EBA040
 	public static bool op_Equality(StyleLength lhs, StyleLength rhs) { }
 
 	// RVA: 0x13AD20 Offset: 0x13A120 VA: 0x18013AD20 Slot: 6

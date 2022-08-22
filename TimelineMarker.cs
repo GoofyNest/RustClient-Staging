@@ -10,34 +10,34 @@ public class TimelineMarker : RustControl, IPointerDownHandler, IEventSystemHand
 
 	// Methods
 
-	// RVA: 0xFD53B0 Offset: 0xFD39B0 VA: 0x180FD53B0 Slot: 31
+	// RVA: 0xFD5670 Offset: 0xFD3C70 VA: 0x180FD5670 Slot: 31
 	public void OnPointerDown(PointerEventData eventData) { }
 
-	// RVA: 0xFD53C0 Offset: 0xFD39C0 VA: 0x180FD53C0 Slot: 32
+	// RVA: 0xFD5680 Offset: 0xFD3C80 VA: 0x180FD5680 Slot: 32
 	public void OnPointerUp(PointerEventData eventData) { }
 
-	// RVA: 0xFD54F0 Offset: 0xFD3AF0 VA: 0x180FD54F0 Slot: 34
+	// RVA: 0xFD57B0 Offset: 0xFD3DB0 VA: 0x180FD57B0 Slot: 34
 	public virtual void SelectMarker() { }
 
-	// RVA: 0xFD5390 Offset: 0xFD3990 VA: 0x180FD5390 Slot: 33
+	// RVA: 0xFD5650 Offset: 0xFD3C50 VA: 0x180FD5650 Slot: 33
 	public void OnDrag(PointerEventData eventData) { }
 
-	// RVA: 0xFD5570 Offset: 0xFD3B70 VA: 0x180FD5570 Slot: 26
+	// RVA: 0xFD5830 Offset: 0xFD3E30 VA: 0x180FD5830 Slot: 26
 	public override bool get_IsPressed() { }
 
-	// RVA: 0xFD53E0 Offset: 0xFD39E0 VA: 0x180FD53E0
+	// RVA: 0xFD56A0 Offset: 0xFD3CA0 VA: 0x180FD56A0
 	internal void Position(Timeline timeline) { }
 
-	// RVA: 0xFD52C0 Offset: 0xFD38C0 VA: 0x180FD52C0 Slot: 30
+	// RVA: 0xFD5580 Offset: 0xFD3B80 VA: 0x180FD5580 Slot: 30
 	protected override void ApplyStyle(StyleAsset.Group s) { }
 
-	// RVA: 0xA392A0 Offset: 0xA378A0 VA: 0x180A392A0 Slot: 35
+	// RVA: 0xA39560 Offset: 0xA37B60 VA: 0x180A39560 Slot: 35
 	public virtual void SetTime(int time) { }
 
-	// RVA: 0xFD5300 Offset: 0xFD3900 VA: 0x180FD5300
+	// RVA: 0xFD55C0 Offset: 0xFD3BC0 VA: 0x180FD55C0
 	public void Delete() { }
 
-	// RVA: 0xFD5510 Offset: 0xFD3B10 VA: 0x180FD5510
+	// RVA: 0xFD57D0 Offset: 0xFD3DD0 VA: 0x180FD57D0
 	public void .ctor() { }
 
 }

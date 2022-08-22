@@ -7,28 +7,28 @@ internal static class SecurityUtils // TypeDefIndex: 2565
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private static void DemandGrantSet(Assembly assembly) { }
 
-	// RVA: 0x14CE890 Offset: 0x14CCE90 VA: 0x1814CE890
+	// RVA: 0x14CEB50 Offset: 0x14CD150 VA: 0x1814CEB50
 	private static bool HasReflectionPermission(Type type) { }
 
-	// RVA: 0x14CECD0 Offset: 0x14CD2D0 VA: 0x1814CECD0
+	// RVA: 0x14CEF90 Offset: 0x14CD590 VA: 0x1814CEF90
 	internal static object SecureCreateInstance(Type type) { }
 
-	// RVA: 0x14CEDA0 Offset: 0x14CD3A0 VA: 0x1814CEDA0
+	// RVA: 0x14CF060 Offset: 0x14CD660 VA: 0x1814CF060
 	internal static object SecureCreateInstance(Type type, object[] args, bool allowNonPublic) { }
 
-	// RVA: 0x14CED90 Offset: 0x14CD390 VA: 0x1814CED90
+	// RVA: 0x14CF050 Offset: 0x14CD650 VA: 0x1814CF050
 	internal static object SecureCreateInstance(Type type, object[] args) { }
 
-	// RVA: 0x14CEA00 Offset: 0x14CD000 VA: 0x1814CEA00
+	// RVA: 0x14CECC0 Offset: 0x14CD2C0 VA: 0x1814CECC0
 	internal static object SecureConstructorInvoke(Type type, Type[] argTypes, object[] args, bool allowNonPublic) { }
 
-	// RVA: 0x14CEB60 Offset: 0x14CD160 VA: 0x1814CEB60
+	// RVA: 0x14CEE20 Offset: 0x14CD420 VA: 0x1814CEE20
 	internal static object SecureConstructorInvoke(Type type, Type[] argTypes, object[] args, bool allowNonPublic, BindingFlags extraFlags) { }
 
-	// RVA: 0x14CE7F0 Offset: 0x14CCDF0 VA: 0x1814CE7F0
+	// RVA: 0x14CEAB0 Offset: 0x14CD0B0 VA: 0x1814CEAB0
 	private static bool GenericArgumentsAreVisible(MethodInfo method) { }
 
-	// RVA: 0x14CE8D0 Offset: 0x14CCED0 VA: 0x1814CE8D0
+	// RVA: 0x14CEB90 Offset: 0x14CD190 VA: 0x1814CEB90
 	internal static object MethodInfoInvoke(MethodInfo method, object target, object[] args) { }
 
 }

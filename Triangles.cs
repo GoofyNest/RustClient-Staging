@@ -5,16 +5,16 @@ internal class Triangles // TypeDefIndex: 8214
 
 	// Methods
 
-	// RVA: 0x21E9B60 Offset: 0x21E8160 VA: 0x1821E9B60
+	// RVA: 0x21E9E20 Offset: 0x21E8420 VA: 0x1821E9E20
 	private static bool HasMeshes() { }
 
-	// RVA: 0x21E8F60 Offset: 0x21E7560 VA: 0x1821E8F60
+	// RVA: 0x21E9220 Offset: 0x21E7820 VA: 0x1821E9220
 	private static void Cleanup() { }
 
-	// RVA: 0x21E9760 Offset: 0x21E7D60 VA: 0x1821E9760
+	// RVA: 0x21E9A20 Offset: 0x21E8020 VA: 0x1821E9A20
 	private static Mesh[] GetMeshes(int totalWidth, int totalHeight) { }
 
-	// RVA: 0x21E91B0 Offset: 0x21E77B0 VA: 0x1821E91B0
+	// RVA: 0x21E9470 Offset: 0x21E7A70 VA: 0x1821E9470
 	private static Mesh GetMesh(int triCount, int triOffset, int totalWidth, int totalHeight) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

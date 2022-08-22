@@ -5,13 +5,13 @@ public sealed class SubpixelMorphologicalAntialiasing // TypeDefIndex: 11808
 
 	// Methods
 
-	// RVA: 0x11E0670 Offset: 0x11DEC70 VA: 0x1811E0670
+	// RVA: 0x11E0930 Offset: 0x11DEF30 VA: 0x1811E0930
 	public bool IsSupported() { }
 
-	// RVA: 0x11E06C0 Offset: 0x11DECC0 VA: 0x1811E06C0
+	// RVA: 0x11E0980 Offset: 0x11DEF80 VA: 0x1811E0980
 	internal void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x11E0CC0 Offset: 0x11DF2C0 VA: 0x1811E0CC0
+	// RVA: 0x11E0F80 Offset: 0x11DF580 VA: 0x1811E0F80
 	public void .ctor() { }
 
 }

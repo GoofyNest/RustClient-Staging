@@ -14,7 +14,7 @@ public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 	public static NativeArray<T> ConvertExistingDataToNativeArray<T>(void* dataPointer, int length, Allocator allocator) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B560 Offset: 0x1A39B60 VA: 0x181A3B560
+	|-RVA: 0x1A3B820 Offset: 0x1A39E20 VA: 0x181A3B820
 	|-NativeArrayUnsafeUtility.ConvertExistingDataToNativeArray<BoneData>
 	|-NativeArrayUnsafeUtility.ConvertExistingDataToNativeArray<BoneState>
 	|-NativeArrayUnsafeUtility.ConvertExistingDataToNativeArray<ColliderData>

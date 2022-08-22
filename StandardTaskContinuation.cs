@@ -6,10 +6,10 @@ internal class StandardTaskContinuation : TaskContinuation // TypeDefIndex: 876
 
 	// Methods
 
-	// RVA: 0x149B5E0 Offset: 0x1499BE0 VA: 0x18149B5E0
+	// RVA: 0x149B8A0 Offset: 0x1499EA0 VA: 0x18149B8A0
 	internal void .ctor(Task task, TaskContinuationOptions options, TaskScheduler scheduler) { }
 
-	// RVA: 0x149B4D0 Offset: 0x1499AD0 VA: 0x18149B4D0 Slot: 4
+	// RVA: 0x149B790 Offset: 0x1499D90 VA: 0x18149B790 Slot: 4
 	internal override void Run(Task completedTask, bool bCanInlineContinuationTask) { }
 
 }

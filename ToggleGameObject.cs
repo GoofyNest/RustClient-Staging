@@ -5,13 +5,13 @@ internal class ToggleGameObject : MonoBehaviour // TypeDefIndex: 7072
 
 	// Methods
 
-	// RVA: 0xFD65B0 Offset: 0xFD4BB0 VA: 0x180FD65B0
+	// RVA: 0xFD6870 Offset: 0xFD4E70 VA: 0x180FD6870
 	public void OnEnable() { }
 
-	// RVA: 0xFD64E0 Offset: 0xFD4AE0 VA: 0x180FD64E0
+	// RVA: 0xFD67A0 Offset: 0xFD4DA0 VA: 0x180FD67A0
 	public void OnDisable() { }
 
-	// RVA: 0xFD6660 Offset: 0xFD4C60 VA: 0x180FD6660
+	// RVA: 0xFD6920 Offset: 0xFD4F20 VA: 0x180FD6920
 	public void Update() { }
 
 	// RVA: 0x5525A0 Offset: 0x550BA0 VA: 0x1805525A0

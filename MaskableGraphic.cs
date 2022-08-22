@@ -22,37 +22,37 @@ public abstract class MaskableGraphic : Graphic, IClippable, IMaskable, IMateria
 
 	// Methods
 
-	// RVA: 0x9921A0 Offset: 0x9907A0 VA: 0x1809921A0
+	// RVA: 0x9922B0 Offset: 0x9908B0 VA: 0x1809922B0
 	public MaskableGraphic.CullStateChangedEvent get_onCullStateChanged() { }
 
-	// RVA: 0xA4D220 Offset: 0xA4B820 VA: 0x180A4D220
+	// RVA: 0xA4D4E0 Offset: 0xA4BAE0 VA: 0x180A4D4E0
 	public void set_onCullStateChanged(MaskableGraphic.CullStateChangedEvent value) { }
 
-	// RVA: 0x8084F0 Offset: 0x806AF0 VA: 0x1808084F0
+	// RVA: 0x808600 Offset: 0x806C00 VA: 0x180808600
 	public bool get_maskable() { }
 
-	// RVA: 0x1716BC0 Offset: 0x17151C0 VA: 0x181716BC0
+	// RVA: 0x1716E80 Offset: 0x1715480 VA: 0x181716E80
 	public void set_maskable(bool value) { }
 
-	// RVA: 0x1715E10 Offset: 0x1714410 VA: 0x181715E10 Slot: 57
+	// RVA: 0x17160D0 Offset: 0x17146D0 VA: 0x1817160D0 Slot: 57
 	public virtual Material GetModifiedMaterial(Material baseMaterial) { }
 
-	// RVA: 0x1715DA0 Offset: 0x17143A0 VA: 0x181715DA0 Slot: 58
+	// RVA: 0x1716060 Offset: 0x1714660 VA: 0x181716060 Slot: 58
 	public virtual void Cull(Rect clipRect, bool validRect) { }
 
-	// RVA: 0x1716570 Offset: 0x1714B70 VA: 0x181716570
+	// RVA: 0x1716830 Offset: 0x1714E30 VA: 0x181716830
 	private void UpdateCull(bool cull) { }
 
-	// RVA: 0x17162B0 Offset: 0x17148B0 VA: 0x1817162B0 Slot: 59
+	// RVA: 0x1716570 Offset: 0x1714B70 VA: 0x181716570 Slot: 59
 	public virtual void SetClipRect(Rect clipRect, bool validRect) { }
 
-	// RVA: 0x1716100 Offset: 0x1714700 VA: 0x181716100 Slot: 5
+	// RVA: 0x17163C0 Offset: 0x17149C0 VA: 0x1817163C0 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x1716000 Offset: 0x1714600 VA: 0x181716000 Slot: 7
+	// RVA: 0x17162C0 Offset: 0x17148C0 VA: 0x1817162C0 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x17161B0 Offset: 0x17147B0 VA: 0x1817161B0 Slot: 12
+	// RVA: 0x1716470 Offset: 0x1714A70 VA: 0x181716470 Slot: 12
 	protected override void OnTransformParentChanged() { }
 
 	[EditorBrowsableAttribute] // RVA: 0x75F10 Offset: 0x75310 VA: 0x180075F10
@@ -60,22 +60,22 @@ public abstract class MaskableGraphic : Graphic, IClippable, IMaskable, IMateria
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 60
 	public virtual void ParentMaskStateChanged() { }
 
-	// RVA: 0x1715FB0 Offset: 0x17145B0 VA: 0x181715FB0 Slot: 15
+	// RVA: 0x1716270 Offset: 0x1714870 VA: 0x181716270 Slot: 15
 	protected override void OnCanvasHierarchyChanged() { }
 
-	// RVA: 0x1716710 Offset: 0x1714D10 VA: 0x181716710
+	// RVA: 0x17169D0 Offset: 0x1714FD0 VA: 0x1817169D0
 	private Rect get_rootCanvasRect() { }
 
-	// RVA: 0x1716310 Offset: 0x1714910 VA: 0x181716310
+	// RVA: 0x17165D0 Offset: 0x1714BD0 VA: 0x1817165D0
 	private void UpdateClipParent() { }
 
-	// RVA: 0x1716200 Offset: 0x1714800 VA: 0x181716200 Slot: 61
+	// RVA: 0x17164C0 Offset: 0x1714AC0 VA: 0x1817164C0 Slot: 61
 	public virtual void RecalculateClipping() { }
 
-	// RVA: 0x1716210 Offset: 0x1714810 VA: 0x181716210 Slot: 62
+	// RVA: 0x17164D0 Offset: 0x1714AD0 VA: 0x1817164D0 Slot: 62
 	public virtual void RecalculateMasking() { }
 
-	// RVA: 0x1716630 Offset: 0x1714C30 VA: 0x181716630
+	// RVA: 0x17168F0 Offset: 0x1714EF0 VA: 0x1817168F0
 	protected void .ctor() { }
 
 	// RVA: 0x4EFC70 Offset: 0x4EE270 VA: 0x1804EFC70 Slot: 50
@@ -86,7 +86,7 @@ public abstract class MaskableGraphic : Graphic, IClippable, IMaskable, IMateria
 public class MaskableGraphic.CullStateChangedEvent : UnityEvent<bool> // TypeDefIndex: 4987
 {	// Methods
 
-	// RVA: 0x170FD30 Offset: 0x170E330 VA: 0x18170FD30
+	// RVA: 0x170FFF0 Offset: 0x170E5F0 VA: 0x18170FFF0
 	public void .ctor() { }
 
 }

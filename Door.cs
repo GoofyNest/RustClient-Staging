@@ -24,22 +24,22 @@ public class Door : AnimatedBuildingBlock, INotifyTrigger // TypeDefIndex: 8381
 
 	// Methods
 
-	// RVA: 0xAAD560 Offset: 0xAABB60 VA: 0x180AAD560 Slot: 49
+	// RVA: 0xAAD820 Offset: 0xAABE20 VA: 0x180AAD820 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xAAF040 Offset: 0xAAD640 VA: 0x180AAF040 Slot: 50
+	// RVA: 0xAAF300 Offset: 0xAAD900 VA: 0x180AAF300 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xAAE990 Offset: 0xAACF90 VA: 0x180AAE990 Slot: 35
+	// RVA: 0xAAEC50 Offset: 0xAAD250 VA: 0x180AAEC50 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xAAEDE0 Offset: 0xAAD3E0 VA: 0x180AAEDE0 Slot: 27
+	// RVA: 0xAAF0A0 Offset: 0xAAD6A0 VA: 0x180AAF0A0 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0xAAE150 Offset: 0xAAC750 VA: 0x180AAE150 Slot: 85
+	// RVA: 0xAAE410 Offset: 0xAACA10 VA: 0x180AAE410 Slot: 85
 	public override bool HasSlot(BaseEntity.Slot slot) { }
 
-	// RVA: 0xAAD3F0 Offset: 0xAAB9F0 VA: 0x180AAD3F0 Slot: 134
+	// RVA: 0xAAD6B0 Offset: 0xAABCB0 VA: 0x180AAD6B0 Slot: 134
 	public override bool CanPickup(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
@@ -47,16 +47,16 @@ public class Door : AnimatedBuildingBlock, INotifyTrigger // TypeDefIndex: 8381
 	[BaseEntity.Menu.Icon] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
 	[BaseEntity.Menu.ShowIf] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
 	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
-	// RVA: 0xAAE540 Offset: 0xAACB40 VA: 0x180AAE540
+	// RVA: 0xAAE800 Offset: 0xAACE00 VA: 0x180AAE800
 	public void Menu_OpenDoor(BasePlayer player) { }
 
-	// RVA: 0xAAE420 Offset: 0xAACA20 VA: 0x180AAE420
+	// RVA: 0xAAE6E0 Offset: 0xAACCE0 VA: 0x180AAE6E0
 	public void Menu_OpenDoor_Proxy(ref Option option) { }
 
-	// RVA: 0xAAE3E0 Offset: 0xAAC9E0 VA: 0x180AAE3E0
+	// RVA: 0xAAE6A0 Offset: 0xAACCA0 VA: 0x180AAE6A0
 	public void Menu_OpenDoorStart() { }
 
-	// RVA: 0xAAE500 Offset: 0xAACB00 VA: 0x180AAE500
+	// RVA: 0xAAE7C0 Offset: 0xAACDC0 VA: 0x180AAE7C0
 	public bool Menu_OpenDoor_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
@@ -64,16 +64,16 @@ public class Door : AnimatedBuildingBlock, INotifyTrigger // TypeDefIndex: 8381
 	[BaseEntity.Menu.Icon] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
 	[BaseEntity.Menu.ShowIf] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
 	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
-	// RVA: 0xAAE2F0 Offset: 0xAAC8F0 VA: 0x180AAE2F0
+	// RVA: 0xAAE5B0 Offset: 0xAACBB0 VA: 0x180AAE5B0
 	public void Menu_CloseDoor(BasePlayer player) { }
 
-	// RVA: 0xAAE1D0 Offset: 0xAAC7D0 VA: 0x180AAE1D0
+	// RVA: 0xAAE490 Offset: 0xAACA90 VA: 0x180AAE490
 	public void Menu_CloseDoor_Proxy(ref Option option) { }
 
-	// RVA: 0xAAE190 Offset: 0xAAC790 VA: 0x180AAE190
+	// RVA: 0xAAE450 Offset: 0xAACA50 VA: 0x180AAE450
 	public void Menu_CloseDoorStart() { }
 
-	// RVA: 0xAAE2B0 Offset: 0xAAC8B0 VA: 0x180AAE2B0
+	// RVA: 0xAAE570 Offset: 0xAACB70 VA: 0x180AAE570
 	public bool Menu_CloseDoor_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
@@ -81,33 +81,33 @@ public class Door : AnimatedBuildingBlock, INotifyTrigger // TypeDefIndex: 8381
 	[BaseEntity.Menu.Icon] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
 	[BaseEntity.Menu.ShowIf] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
 	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
-	// RVA: 0xAAE3A0 Offset: 0xAAC9A0 VA: 0x180AAE3A0
+	// RVA: 0xAAE660 Offset: 0xAACC60 VA: 0x180AAE660
 	public void Menu_KnockDoor(BasePlayer player) { }
 
-	// RVA: 0xAAE330 Offset: 0xAAC930 VA: 0x180AAE330
+	// RVA: 0xAAE5F0 Offset: 0xAACBF0 VA: 0x180AAE5F0
 	public bool Menu_KnockDoor_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xD9C00 Offset: 0xD9000 VA: 0x1800D9C00
 	[BaseEntity.Menu.Description] // RVA: 0xD9C00 Offset: 0xD9000 VA: 0x1800D9C00
 	[BaseEntity.Menu.Icon] // RVA: 0xD9C00 Offset: 0xD9000 VA: 0x1800D9C00
 	[BaseEntity.Menu.ShowIf] // RVA: 0xD9C00 Offset: 0xD9000 VA: 0x1800D9C00
-	// RVA: 0xAAE590 Offset: 0xAACB90 VA: 0x180AAE590
+	// RVA: 0xAAE850 Offset: 0xAACE50 VA: 0x180AAE850
 	public void Menu_ToggleHatch(BasePlayer player) { }
 
-	// RVA: 0xAAE580 Offset: 0xAACB80 VA: 0x180AAE580
+	// RVA: 0xAAE840 Offset: 0xAACE40 VA: 0x180AAE840
 	public bool Menu_ToggleHatch_ShowIf(BasePlayer player) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 72
 	public override bool NeedsCrosshair() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAAE5D0 Offset: 0xAACBD0 VA: 0x180AAE5D0
+	// RVA: 0xAAE890 Offset: 0xAACE90 VA: 0x180AAE890
 	private void OnDoorInterrupted(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0xAAEDF0 Offset: 0xAAD3F0 VA: 0x180AAEDF0
+	// RVA: 0xAAF0B0 Offset: 0xAAD6B0 VA: 0x180AAF0B0
 	private void ReverseDoorAnimation(bool wasOpening) { }
 
-	// RVA: 0x7A5D70 Offset: 0x7A4370 VA: 0x1807A5D70 Slot: 113
+	// RVA: 0x7A5E80 Offset: 0x7A4480 VA: 0x1807A5E80 Slot: 113
 	public override float BoundsPadding() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 146
@@ -116,13 +116,13 @@ public class Door : AnimatedBuildingBlock, INotifyTrigger // TypeDefIndex: 8381
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 147
 	public void OnEmpty() { }
 
-	// RVA: 0xAAE860 Offset: 0xAACE60 VA: 0x180AAE860 Slot: 80
+	// RVA: 0xAAEB20 Offset: 0xAAD120 VA: 0x180AAEB20 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0xAAF020 Offset: 0xAAD620 VA: 0x180AAF020
+	// RVA: 0xAAF2E0 Offset: 0xAAD8E0 VA: 0x180AAF2E0
 	public void .ctor() { }
 
-	// RVA: 0xAAEFB0 Offset: 0xAAD5B0 VA: 0x180AAEFB0
+	// RVA: 0xAAF270 Offset: 0xAAD870 VA: 0x180AAF270
 	private static void .cctor() { }
 
 }

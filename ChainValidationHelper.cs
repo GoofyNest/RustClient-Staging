@@ -14,34 +14,34 @@ internal class ChainValidationHelper : ICertificateValidator2, ICertificateValid
 
 	// Methods
 
-	// RVA: 0x1215E90 Offset: 0x1214490 VA: 0x181215E90
+	// RVA: 0x1216150 Offset: 0x1214750 VA: 0x181216150
 	internal static ICertificateValidator GetInternalValidator(MonoTlsProvider provider, MonoTlsSettings settings) { }
 
-	// RVA: 0x1215DA0 Offset: 0x12143A0 VA: 0x181215DA0
+	// RVA: 0x1216060 Offset: 0x1214660 VA: 0x181216060
 	internal static ChainValidationHelper Create(MonoTlsProvider provider, ref MonoTlsSettings settings, MonoTlsStream stream) { }
 
-	// RVA: 0x12167A0 Offset: 0x1214DA0 VA: 0x1812167A0
+	// RVA: 0x1216A60 Offset: 0x1215060 VA: 0x181216A60
 	private void .ctor(MonoTlsProvider provider, MonoTlsSettings settings, bool cloneSettings, MonoTlsStream stream, ServerCertValidationCallbackWrapper callbackWrapper) { }
 
-	// RVA: 0x1215E50 Offset: 0x1214450 VA: 0x181215E50
+	// RVA: 0x1216110 Offset: 0x1214710 VA: 0x181216110
 	private static X509Certificate DefaultSelectionCallback(string targetHost, X509CertificateCollection localCertificates, X509Certificate remoteCertificate, string[] acceptableIssuers) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 5
 	public MonoTlsSettings get_Settings() { }
 
-	// RVA: 0x1215F30 Offset: 0x1214530 VA: 0x181215F30 Slot: 6
+	// RVA: 0x12161F0 Offset: 0x12147F0 VA: 0x1812161F0 Slot: 6
 	public bool SelectClientCertificate(string targetHost, X509CertificateCollection localCertificates, X509Certificate remoteCertificate, string[] acceptableIssuers, out X509Certificate clientCertificate) { }
 
-	// RVA: 0x1215F90 Offset: 0x1214590 VA: 0x181215F90 Slot: 7
+	// RVA: 0x1216250 Offset: 0x1214850 VA: 0x181216250 Slot: 7
 	public ValidationResult ValidateCertificate(string host, bool serverMode, X509CertificateCollection certs) { }
 
-	// RVA: 0x12160B0 Offset: 0x12146B0 VA: 0x1812160B0 Slot: 4
+	// RVA: 0x1216370 Offset: 0x1214970 VA: 0x181216370 Slot: 4
 	public ValidationResult ValidateCertificate(string host, bool serverMode, X509Certificate leaf, X509Chain chain) { }
 
-	// RVA: 0x12161B0 Offset: 0x12147B0 VA: 0x1812161B0
+	// RVA: 0x1216470 Offset: 0x1214A70 VA: 0x181216470
 	private ValidationResult ValidateChain(string host, bool server, X509Certificate leaf, X509Chain chain, X509CertificateCollection certs, SslPolicyErrors errors) { }
 
-	// RVA: 0x12162A0 Offset: 0x12148A0 VA: 0x1812162A0
+	// RVA: 0x1216560 Offset: 0x1214B60 VA: 0x181216560
 	private ValidationResult ValidateChain(string host, bool server, X509Certificate leaf, ref X509Chain chain, X509CertificateCollection certs, SslPolicyErrors errors) { }
 
 }

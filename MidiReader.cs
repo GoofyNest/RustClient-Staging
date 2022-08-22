@@ -21,77 +21,77 @@ public sealed class MidiReader : IDisposable // TypeDefIndex: 7587
 
 	// Methods
 
-	// RVA: 0x13A2B90 Offset: 0x13A1190 VA: 0x1813A2B90
+	// RVA: 0x13A2E50 Offset: 0x13A1450 VA: 0x1813A2E50
 	public void .ctor(Stream stream, ReaderSettings settings) { }
 
-	// RVA: 0x13A2F60 Offset: 0x13A1560 VA: 0x1813A2F60
+	// RVA: 0x13A3220 Offset: 0x13A1820 VA: 0x1813A3220
 	public long get_Position() { }
 
-	// RVA: 0x13A2FA0 Offset: 0x13A15A0 VA: 0x1813A2FA0
+	// RVA: 0x13A3260 Offset: 0x13A1860 VA: 0x1813A3260
 	public void set_Position(long value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
 	public long get_Length() { }
 
-	// RVA: 0x13A2E70 Offset: 0x13A1470 VA: 0x1813A2E70
+	// RVA: 0x13A3130 Offset: 0x13A1730 VA: 0x1813A3130
 	public bool get_EndReached() { }
 
-	// RVA: 0x13A1F50 Offset: 0x13A0550 VA: 0x1813A1F50
+	// RVA: 0x13A2210 Offset: 0x13A0810 VA: 0x1813A2210
 	public byte ReadByte() { }
 
-	// RVA: 0x13A2950 Offset: 0x13A0F50 VA: 0x1813A2950
+	// RVA: 0x13A2C10 Offset: 0x13A1210 VA: 0x1813A2C10
 	public sbyte ReadSByte() { }
 
-	// RVA: 0x13A2560 Offset: 0x13A0B60 VA: 0x1813A2560
+	// RVA: 0x13A2820 Offset: 0x13A0E20 VA: 0x1813A2820
 	public byte[] ReadBytes(int count) { }
 
-	// RVA: 0x13A2A60 Offset: 0x13A1060 VA: 0x1813A2A60
+	// RVA: 0x13A2D20 Offset: 0x13A1320 VA: 0x1813A2D20
 	public ushort ReadWord() { }
 
-	// RVA: 0x13A2750 Offset: 0x13A0D50 VA: 0x1813A2750
+	// RVA: 0x13A2A10 Offset: 0x13A1010 VA: 0x1813A2A10
 	public uint ReadDword() { }
 
-	// RVA: 0x13A2870 Offset: 0x13A0E70 VA: 0x1813A2870
+	// RVA: 0x13A2B30 Offset: 0x13A1130 VA: 0x1813A2B30
 	public short ReadInt16() { }
 
-	// RVA: 0x13A2960 Offset: 0x13A0F60 VA: 0x1813A2960
+	// RVA: 0x13A2C20 Offset: 0x13A1220 VA: 0x1813A2C20
 	public string ReadString(int count) { }
 
-	// RVA: 0x13A2A50 Offset: 0x13A1050 VA: 0x1813A2A50
+	// RVA: 0x13A2D10 Offset: 0x13A1310 VA: 0x1813A2D10
 	public int ReadVlqNumber() { }
 
-	// RVA: 0x13A29A0 Offset: 0x13A0FA0 VA: 0x1813A29A0
+	// RVA: 0x13A2C60 Offset: 0x13A1260 VA: 0x1813A2C60
 	public long ReadVlqLongNumber() { }
 
-	// RVA: 0x13A1E50 Offset: 0x13A0450 VA: 0x1813A1E50
+	// RVA: 0x13A2110 Offset: 0x13A0710 VA: 0x1813A2110
 	public uint Read3ByteDword() { }
 
-	// RVA: 0x13A2170 Offset: 0x13A0770 VA: 0x1813A2170
+	// RVA: 0x13A2430 Offset: 0x13A0A30 VA: 0x1813A2430
 	private byte[] ReadBytesInternal(int count) { }
 
-	// RVA: 0x13A22E0 Offset: 0x13A08E0 VA: 0x1813A22E0
+	// RVA: 0x13A25A0 Offset: 0x13A0BA0 VA: 0x1813A25A0
 	private byte[] ReadBytesWithBuffering(int count) { }
 
-	// RVA: 0x13A2090 Offset: 0x13A0690 VA: 0x1813A2090
+	// RVA: 0x13A2350 Offset: 0x13A0950 VA: 0x1813A2350
 	private byte[] ReadBytesFromBuffer(int count) { }
 
-	// RVA: 0x13A2480 Offset: 0x13A0A80 VA: 0x1813A2480
+	// RVA: 0x13A2740 Offset: 0x13A0D40 VA: 0x1813A2740
 	private byte[] ReadBytesWithoutBuffering(int count) { }
 
-	// RVA: 0x13A1AD0 Offset: 0x13A00D0 VA: 0x1813A1AD0
+	// RVA: 0x13A1D90 Offset: 0x13A0390 VA: 0x1813A1D90
 	private bool EnsureBufferIsReadyForReading() { }
 
-	// RVA: 0x13A1C10 Offset: 0x13A0210 VA: 0x1813A1C10
+	// RVA: 0x13A1ED0 Offset: 0x13A04D0 VA: 0x1813A1ED0
 	private void PrepareBuffer() { }
 
-	// RVA: 0x13A1AC0 Offset: 0x13A00C0 VA: 0x1813A1AC0 Slot: 4
+	// RVA: 0x13A1D80 Offset: 0x13A0380 VA: 0x1813A1D80 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x13A1AC0 Offset: 0x13A00C0 VA: 0x1813A1AC0
+	// RVA: 0x13A1D80 Offset: 0x13A0380 VA: 0x1813A1D80
 	private void Dispose(bool disposing) { }
 
-	// RVA: 0x13A2B40 Offset: 0x13A1140 VA: 0x1813A2B40
+	// RVA: 0x13A2E00 Offset: 0x13A1400 VA: 0x1813A2E00
 	private static void .cctor() { }
 
 }
@@ -103,13 +103,13 @@ private sealed class MidiReader.<>c // TypeDefIndex: 7588
 
 	// Methods
 
-	// RVA: 0x13AAB90 Offset: 0x13A9190 VA: 0x1813AAB90
+	// RVA: 0x13AAE50 Offset: 0x13A9450 VA: 0x1813AAE50
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7B4E80 Offset: 0x7B3480 VA: 0x1807B4E80
+	// RVA: 0x7B4F90 Offset: 0x7B3590 VA: 0x1807B4F90
 	internal IEnumerable<byte> <ReadBytes>b__22_0(byte[] bytes) { }
 
 }

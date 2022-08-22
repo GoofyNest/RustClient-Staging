@@ -24,7 +24,7 @@ public struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion //
 	// RVA: 0x2407C0 Offset: 0x23FBC0 VA: 0x1802407C0 Slot: 4
 	public void UnsafeOnCompleted(Action continuation) { }
 
-	// RVA: 0x2313280 Offset: 0x2311880 VA: 0x182313280
+	// RVA: 0x2313540 Offset: 0x2311B40 VA: 0x182313540
 	private static void .cctor() { }
 
 }
@@ -35,13 +35,13 @@ private sealed class ValueTaskAwaiter.<>c // TypeDefIndex: 7095
 
 	// Methods
 
-	// RVA: 0x23130D0 Offset: 0x23116D0 VA: 0x1823130D0
+	// RVA: 0x2313390 Offset: 0x2311990 VA: 0x182313390
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2313070 Offset: 0x2311670 VA: 0x182313070
+	// RVA: 0x2313330 Offset: 0x2311930 VA: 0x182313330
 	internal void <.cctor>b__9_0(object state) { }
 
 }

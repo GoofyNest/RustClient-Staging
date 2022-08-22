@@ -5,10 +5,10 @@ public class MissionEntity : BaseMonoBehaviour, IOnParentDestroying // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x767E00 Offset: 0x766400 VA: 0x180767E00 Slot: 6
+	// RVA: 0x767F10 Offset: 0x766510 VA: 0x180767F10 Slot: 6
 	public void OnParentDestroying() { }
 
-	// RVA: 0x767E60 Offset: 0x766460 VA: 0x180767E60
+	// RVA: 0x767F70 Offset: 0x766570 VA: 0x180767F70
 	public void .ctor() { }
 
 }

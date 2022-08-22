@@ -6,7 +6,7 @@ public abstract class CriticalFinalizerObject // TypeDefIndex: 1266
 	protected void .ctor() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0xFE4AD0 Offset: 0xFE30D0 VA: 0x180FE4AD0 Slot: 1
+	// RVA: 0xFE4D90 Offset: 0xFE3390 VA: 0x180FE4D90 Slot: 1
 	protected override void Finalize() { }
 
 }

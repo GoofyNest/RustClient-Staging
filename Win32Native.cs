@@ -1,13 +1,13 @@
 internal static class Win32Native // TypeDefIndex: 111
 {	// Methods
 
-	// RVA: 0x1652470 Offset: 0x1650A70 VA: 0x181652470
+	// RVA: 0x1652730 Offset: 0x1650D30 VA: 0x181652730
 	public static string GetMessage(int hr) { }
 
-	// RVA: 0x16524C0 Offset: 0x1650AC0 VA: 0x1816524C0
+	// RVA: 0x1652780 Offset: 0x1650D80 VA: 0x181652780
 	public static int MakeHRFromErrorCode(int errorCode) { }
 
-	// RVA: 0x16523F0 Offset: 0x16509F0 VA: 0x1816523F0
+	// RVA: 0x16526B0 Offset: 0x1650CB0 VA: 0x1816526B0
 	internal static extern uint GetCurrentProcessId() { }
 
 }

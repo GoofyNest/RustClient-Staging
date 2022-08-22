@@ -14,13 +14,13 @@ public class EdgeER // TypeDefIndex: 6873
 	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
 	public void .ctor(PointER startPoint, PointER endPoint) { }
 
-	// RVA: 0x15C14D0 Offset: 0x15BFAD0 VA: 0x1815C14D0 Slot: 2
+	// RVA: 0x15C1790 Offset: 0x15BFD90 VA: 0x1815C1790 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x2317990 Offset: 0x2315F90 VA: 0x182317990 Slot: 0
+	// RVA: 0x2317C50 Offset: 0x2316250 VA: 0x182317C50 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x2317A20 Offset: 0x2316020 VA: 0x182317A20
+	// RVA: 0x2317CE0 Offset: 0x23162E0 VA: 0x182317CE0
 	public static bool op_Equality(EdgeER left, EdgeER right) { }
 
 }

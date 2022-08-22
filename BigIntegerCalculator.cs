@@ -7,49 +7,49 @@ internal static class BigIntegerCalculator // TypeDefIndex: 3965
 
 	// Methods
 
-	// RVA: 0x222D050 Offset: 0x222B650 VA: 0x18222D050
+	// RVA: 0x222D310 Offset: 0x222B910 VA: 0x18222D310
 	public static uint[] Add(uint[] left, uint right) { }
 
-	// RVA: 0x222CE90 Offset: 0x222B490 VA: 0x18222CE90
+	// RVA: 0x222D150 Offset: 0x222B750 VA: 0x18222D150
 	public static uint[] Add(uint[] left, uint[] right) { }
 
-	// RVA: 0x222CFA0 Offset: 0x222B5A0 VA: 0x18222CFA0
+	// RVA: 0x222D260 Offset: 0x222B860 VA: 0x18222D260
 	private static void Add(uint* left, int leftLength, uint* right, int rightLength, uint* bits, int bitsLength) { }
 
-	// RVA: 0x222CE20 Offset: 0x222B420 VA: 0x18222CE20
+	// RVA: 0x222D0E0 Offset: 0x222B6E0 VA: 0x18222D0E0
 	private static void AddSelf(uint* left, int leftLength, uint* right, int rightLength) { }
 
-	// RVA: 0x222E070 Offset: 0x222C670 VA: 0x18222E070
+	// RVA: 0x222E330 Offset: 0x222C930 VA: 0x18222E330
 	public static uint[] Subtract(uint[] left, uint right) { }
 
-	// RVA: 0x222E160 Offset: 0x222C760 VA: 0x18222E160
+	// RVA: 0x222E420 Offset: 0x222CA20 VA: 0x18222E420
 	public static uint[] Subtract(uint[] left, uint[] right) { }
 
-	// RVA: 0x222DFC0 Offset: 0x222C5C0 VA: 0x18222DFC0
+	// RVA: 0x222E280 Offset: 0x222C880 VA: 0x18222E280
 	private static void Subtract(uint* left, int leftLength, uint* right, int rightLength, uint* bits, int bitsLength) { }
 
-	// RVA: 0x222D160 Offset: 0x222B760 VA: 0x18222D160
+	// RVA: 0x222D420 Offset: 0x222BA20 VA: 0x18222D420
 	public static int Compare(uint[] left, uint[] right) { }
 
-	// RVA: 0x222DDF0 Offset: 0x222C3F0 VA: 0x18222DDF0
+	// RVA: 0x222E0B0 Offset: 0x222C6B0 VA: 0x18222E0B0
 	public static uint[] Square(uint[] value) { }
 
-	// RVA: 0x222D970 Offset: 0x222BF70 VA: 0x18222D970
+	// RVA: 0x222DC30 Offset: 0x222C230 VA: 0x18222DC30
 	private static void Square(uint* value, int valueLength, uint* bits, int bitsLength) { }
 
-	// RVA: 0x222D770 Offset: 0x222BD70 VA: 0x18222D770
+	// RVA: 0x222DA30 Offset: 0x222C030 VA: 0x18222DA30
 	public static uint[] Multiply(uint[] left, uint right) { }
 
-	// RVA: 0x222D860 Offset: 0x222BE60 VA: 0x18222D860
+	// RVA: 0x222DB20 Offset: 0x222C120 VA: 0x18222DB20
 	public static uint[] Multiply(uint[] left, uint[] right) { }
 
-	// RVA: 0x222D1F0 Offset: 0x222B7F0 VA: 0x18222D1F0
+	// RVA: 0x222D4B0 Offset: 0x222BAB0 VA: 0x18222D4B0
 	private static void Multiply(uint* left, int leftLength, uint* right, int rightLength, uint* bits, int bitsLength) { }
 
-	// RVA: 0x222DEC0 Offset: 0x222C4C0 VA: 0x18222DEC0
+	// RVA: 0x222E180 Offset: 0x222C780 VA: 0x18222E180
 	private static void SubtractCore(uint* left, int leftLength, uint* right, int rightLength, uint* core, int coreLength) { }
 
-	// RVA: 0x222E2C0 Offset: 0x222C8C0 VA: 0x18222E2C0
+	// RVA: 0x222E580 Offset: 0x222CB80 VA: 0x18222E580
 	private static void .cctor() { }
 
 }

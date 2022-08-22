@@ -6,7 +6,7 @@ public class DirectionalDamageTrigger : TriggerBase // TypeDefIndex: 9278
 
 	// Methods
 
-	// RVA: 0x986B00 Offset: 0x985100 VA: 0x180986B00
+	// RVA: 0x986C10 Offset: 0x985210 VA: 0x180986C10
 	public void .ctor() { }
 
 }

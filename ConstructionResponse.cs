@@ -4,16 +4,16 @@ public class ConstructionResponse : MethodResponse, IConstructionReturnMessage, 
 
 	// Methods
 
-	// RVA: 0x1473990 Offset: 0x1471F90 VA: 0x181473990
+	// RVA: 0x1473C50 Offset: 0x1472250 VA: 0x181473C50
 	internal void .ctor(object resultObject, LogicalCallContext callCtx, IMethodCallMessage msg) { }
 
-	// RVA: 0x1473890 Offset: 0x1471E90 VA: 0x181473890
+	// RVA: 0x1473B50 Offset: 0x1472150 VA: 0x181473B50
 	internal void .ctor(Exception e, IMethodCallMessage msg) { }
 
-	// RVA: 0x1473970 Offset: 0x1471F70 VA: 0x181473970
+	// RVA: 0x1473C30 Offset: 0x1472230 VA: 0x181473C30
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x14739C0 Offset: 0x1471FC0 VA: 0x1814739C0 Slot: 22
+	// RVA: 0x1473C80 Offset: 0x1472280 VA: 0x181473C80 Slot: 22
 	public override IDictionary get_Properties() { }
 
 }

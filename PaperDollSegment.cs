@@ -7,13 +7,13 @@ public class PaperDollSegment : BaseMonoBehaviour, IPointerEnterHandler, IEventS
 
 	// Methods
 
-	// RVA: 0x85BF00 Offset: 0x85A500 VA: 0x18085BF00 Slot: 6
+	// RVA: 0x85C010 Offset: 0x85A610 VA: 0x18085C010 Slot: 6
 	public void OnPointerEnter(PointerEventData eventData) { }
 
-	// RVA: 0x85BFD0 Offset: 0x85A5D0 VA: 0x18085BFD0 Slot: 7
+	// RVA: 0x85C0E0 Offset: 0x85A6E0 VA: 0x18085C0E0 Slot: 7
 	public void OnPointerExit(PointerEventData eventData) { }
 
-	// RVA: 0x85C0A0 Offset: 0x85A6A0 VA: 0x18085C0A0
+	// RVA: 0x85C1B0 Offset: 0x85A7B0 VA: 0x18085C1B0
 	public void SetSegmentVisible(bool vis) { }
 
 	// RVA: 0x521BF0 Offset: 0x5201F0 VA: 0x180521BF0

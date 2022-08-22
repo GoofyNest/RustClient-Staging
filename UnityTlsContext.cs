@@ -24,65 +24,65 @@ internal class UnityTlsContext : MobileTlsContext // TypeDefIndex: 2509
 
 	// Methods
 
-	// RVA: 0x12200E0 Offset: 0x121E6E0 VA: 0x1812200E0
+	// RVA: 0x12203A0 Offset: 0x121E9A0 VA: 0x1812203A0
 	public void .ctor(MobileAuthenticatedStream parent, bool serverMode, string targetHost, SslProtocols enabledProtocols, X509Certificate serverCertificate, X509CertificateCollection clientCertificates, bool askForClientCert) { }
 
-	// RVA: 0x121E830 Offset: 0x121CE30 VA: 0x18121E830
+	// RVA: 0x121EAF0 Offset: 0x121D0F0 VA: 0x18121EAF0
 	private static void ExtractNativeKeyAndChainFromManagedCertificate(X509Certificate cert, UnityTls.unitytls_errorstate* errorState, out UnityTls.unitytls_x509list* nativeCertChain, out UnityTls.unitytls_key* nativeKey) { }
 
-	// RVA: 0x8084F0 Offset: 0x806AF0 VA: 0x1808084F0 Slot: 5
+	// RVA: 0x808600 Offset: 0x806C00 VA: 0x180808600 Slot: 5
 	public override bool get_IsAuthenticated() { }
 
 	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050 Slot: 9
 	internal override X509Certificate get_LocalClientCertificate() { }
 
-	// RVA: 0x121F390 Offset: 0x121D990 VA: 0x18121F390 Slot: 10
+	// RVA: 0x121F650 Offset: 0x121DC50 VA: 0x18121F650 Slot: 10
 	public override ValueTuple<int, bool> Read(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x121FEF0 Offset: 0x121E4F0 VA: 0x18121FEF0 Slot: 11
+	// RVA: 0x12201B0 Offset: 0x121E7B0 VA: 0x1812201B0 Slot: 11
 	public override ValueTuple<int, bool> Write(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x121F580 Offset: 0x121DB80 VA: 0x18121F580 Slot: 12
+	// RVA: 0x121F840 Offset: 0x121DE40 VA: 0x18121F840 Slot: 12
 	public override void Shutdown() { }
 
-	// RVA: 0x121E6F0 Offset: 0x121CCF0 VA: 0x18121E6F0 Slot: 13
+	// RVA: 0x121E9B0 Offset: 0x121CFB0 VA: 0x18121E9B0 Slot: 13
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x121F690 Offset: 0x121DC90 VA: 0x18121F690 Slot: 6
+	// RVA: 0x121F950 Offset: 0x121DF50 VA: 0x18121F950 Slot: 6
 	public override void StartHandshake() { }
 
-	// RVA: 0x121EC20 Offset: 0x121D220 VA: 0x18121EC20 Slot: 7
+	// RVA: 0x121EEE0 Offset: 0x121D4E0 VA: 0x18121EEE0 Slot: 7
 	public override bool ProcessHandshake() { }
 
-	// RVA: 0x121EAE0 Offset: 0x121D0E0 VA: 0x18121EAE0 Slot: 8
+	// RVA: 0x121EDA0 Offset: 0x121D3A0 VA: 0x18121EDA0 Slot: 8
 	public override void FinishHandshake() { }
 
 	[MonoPInvokeCallbackAttribute] // RVA: 0x9F9D0 Offset: 0x9EDD0 VA: 0x18009F9D0
-	// RVA: 0x121FBD0 Offset: 0x121E1D0 VA: 0x18121FBD0
+	// RVA: 0x121FE90 Offset: 0x121E490 VA: 0x18121FE90
 	private static IntPtr WriteCallback(void* userData, byte* data, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x121FCF0 Offset: 0x121E2F0 VA: 0x18121FCF0
+	// RVA: 0x121FFB0 Offset: 0x121E5B0 VA: 0x18121FFB0
 	private IntPtr WriteCallback(byte* data, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
 	[MonoPInvokeCallbackAttribute] // RVA: 0x9FAF0 Offset: 0x9EEF0 VA: 0x18009FAF0
-	// RVA: 0x121EFF0 Offset: 0x121D5F0 VA: 0x18121EFF0
+	// RVA: 0x121F2B0 Offset: 0x121D8B0 VA: 0x18121F2B0
 	private static IntPtr ReadCallback(void* userData, byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x121F110 Offset: 0x121D710 VA: 0x18121F110
+	// RVA: 0x121F3D0 Offset: 0x121D9D0 VA: 0x18121F3D0
 	private IntPtr ReadCallback(byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
 	[MonoPInvokeCallbackAttribute] // RVA: 0x9FB70 Offset: 0x9EF70 VA: 0x18009FB70
-	// RVA: 0x121F900 Offset: 0x121DF00 VA: 0x18121F900
+	// RVA: 0x121FBC0 Offset: 0x121E1C0 VA: 0x18121FBC0
 	private static UnityTls.unitytls_x509verify_result VerifyCallback(void* userData, UnityTls.unitytls_x509list_ref chain, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x121FA10 Offset: 0x121E010 VA: 0x18121FA10
+	// RVA: 0x121FCD0 Offset: 0x121E2D0 VA: 0x18121FCD0
 	private UnityTls.unitytls_x509verify_result VerifyCallback(UnityTls.unitytls_x509list_ref chain, UnityTls.unitytls_errorstate* errorState) { }
 
 	[MonoPInvokeCallbackAttribute] // RVA: 0xA1000 Offset: 0xA0400 VA: 0x1800A1000
-	// RVA: 0x121E1B0 Offset: 0x121C7B0 VA: 0x18121E1B0
+	// RVA: 0x121E470 Offset: 0x121CA70 VA: 0x18121E470
 	private static void CertificateCallback(void* userData, UnityTls.unitytls_tlsctx* ctx, byte* cn, IntPtr cnLen, UnityTls.unitytls_x509name* caList, IntPtr caListLen, UnityTls.unitytls_x509list_ref* chain, UnityTls.unitytls_key_ref* key, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x121E320 Offset: 0x121C920 VA: 0x18121E320
+	// RVA: 0x121E5E0 Offset: 0x121CBE0 VA: 0x18121E5E0
 	private void CertificateCallback(UnityTls.unitytls_tlsctx* ctx, byte* cn, IntPtr cnLen, UnityTls.unitytls_x509name* caList, IntPtr caListLen, UnityTls.unitytls_x509list_ref* chain, UnityTls.unitytls_key_ref* key, UnityTls.unitytls_errorstate* errorState) { }
 
 }

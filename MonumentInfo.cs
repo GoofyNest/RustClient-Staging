@@ -24,64 +24,64 @@ public class MonumentInfo : LandmarkInfo, IPrefabPreProcess // TypeDefIndex: 996
 
 	// Methods
 
-	// RVA: 0x77B1D0 Offset: 0x7797D0 VA: 0x18077B1D0 Slot: 5
+	// RVA: 0x77B2E0 Offset: 0x7798E0 VA: 0x18077B2E0 Slot: 5
 	protected override void Awake() { }
 
-	// RVA: 0x77B940 Offset: 0x779F40 VA: 0x18077B940
+	// RVA: 0x77BA50 Offset: 0x77A050 VA: 0x18077BA50
 	public bool CheckPlacement(Vector3 pos, Quaternion rot, Vector3 scale) { }
 
-	// RVA: 0x77BF10 Offset: 0x77A510 VA: 0x18077BF10
+	// RVA: 0x77C020 Offset: 0x77A620 VA: 0x18077C020
 	public float Distance(Vector3 position) { }
 
-	// RVA: 0x77CBF0 Offset: 0x77B1F0 VA: 0x18077CBF0
+	// RVA: 0x77CD00 Offset: 0x77B300 VA: 0x18077CD00
 	public float SqrDistance(Vector3 position) { }
 
-	// RVA: 0x77C050 Offset: 0x77A650 VA: 0x18077C050
+	// RVA: 0x77C160 Offset: 0x77A760 VA: 0x18077C160
 	public float Distance(OBB obb) { }
 
-	// RVA: 0x77CA90 Offset: 0x77B090 VA: 0x18077CA90
+	// RVA: 0x77CBA0 Offset: 0x77B1A0 VA: 0x18077CBA0
 	public float SqrDistance(OBB obb) { }
 
-	// RVA: 0x77C440 Offset: 0x77AA40 VA: 0x18077C440
+	// RVA: 0x77C550 Offset: 0x77AB50 VA: 0x18077C550
 	public bool IsInBounds(Vector3 position) { }
 
-	// RVA: 0x77BC90 Offset: 0x77A290 VA: 0x18077BC90
+	// RVA: 0x77BDA0 Offset: 0x77A3A0 VA: 0x18077BDA0
 	public Vector3 ClosestPointOnBounds(Vector3 position) { }
 
-	// RVA: 0x77C1F0 Offset: 0x77A7F0 VA: 0x18077C1F0
+	// RVA: 0x77C300 Offset: 0x77A900 VA: 0x18077C300
 	public PathFinder.Point GetPathFinderPoint(int res) { }
 
-	// RVA: 0x77C310 Offset: 0x77A910 VA: 0x18077C310
+	// RVA: 0x77C420 Offset: 0x77AA20 VA: 0x18077C420
 	public int GetPathFinderRadius(int res) { }
 
-	// RVA: 0x77C690 Offset: 0x77AC90 VA: 0x18077C690
+	// RVA: 0x77C7A0 Offset: 0x77ADA0 VA: 0x18077C7A0
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x77CD30 Offset: 0x77B330 VA: 0x18077CD30
+	// RVA: 0x77CE40 Offset: 0x77B440 VA: 0x18077CE40
 	public static int TierToMask(MonumentTier tier) { }
 
-	// RVA: 0x77C8E0 Offset: 0x77AEE0 VA: 0x18077C8E0 Slot: 6
+	// RVA: 0x77C9F0 Offset: 0x77AFF0 VA: 0x18077C9F0 Slot: 6
 	public void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x77C1B0 Offset: 0x77A7B0 VA: 0x18077C1B0
+	// RVA: 0x77C2C0 Offset: 0x77A8C0 VA: 0x18077C2C0
 	private DungeonGridInfo FindDungeonEntrance() { }
 
-	// RVA: 0x77BE00 Offset: 0x77A400 VA: 0x18077BE00
+	// RVA: 0x77BF10 Offset: 0x77A510 VA: 0x18077BF10
 	private bool DetermineHasDungeonLink() { }
 
-	// RVA: 0x77BE70 Offset: 0x77A470 VA: 0x18077BE70
+	// RVA: 0x77BF80 Offset: 0x77A580 VA: 0x18077BF80
 	private bool DetermineWantsDungeonLink() { }
 
-	// RVA: 0x77C580 Offset: 0x77AB80 VA: 0x18077C580
+	// RVA: 0x77C690 Offset: 0x77AC90 VA: 0x18077C690
 	public bool IsPointWithinApproximatePreventBuildingRadius(Vector3 worldPoint) { }
 
-	// RVA: 0x77CE50 Offset: 0x77B450 VA: 0x18077CE50
+	// RVA: 0x77CF60 Offset: 0x77B560 VA: 0x18077CF60
 	private bool get_HasApproximatePreventBuildingRadius() { }
 
-	// RVA: 0x77B2C0 Offset: 0x7798C0 VA: 0x18077B2C0
+	// RVA: 0x77B3D0 Offset: 0x7799D0 VA: 0x18077B3D0
 	private void CalculatePreventBuildingRadius(out Vector3 localSpaceCentre, out float radius) { }
 
-	// RVA: 0x77CD60 Offset: 0x77B360 VA: 0x18077CD60
+	// RVA: 0x77CE70 Offset: 0x77B470 VA: 0x18077CE70
 	public void .ctor() { }
 
 }

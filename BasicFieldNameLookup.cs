@@ -4,7 +4,7 @@ internal class BasicFieldNameLookup // TypeDefIndex: 4361
 
 	// Methods
 
-	// RVA: 0xE881F0 Offset: 0xE867F0 VA: 0x180E881F0
+	// RVA: 0xE884B0 Offset: 0xE86AB0 VA: 0x180E884B0
 	public void .ctor(IDataReader reader) { }
 
 }

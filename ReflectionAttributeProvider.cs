@@ -4,7 +4,7 @@ public class ReflectionAttributeProvider : IAttributeProvider // TypeDefIndex: 5
 
 	// Methods
 
-	// RVA: 0x180B7D0 Offset: 0x1809DD0 VA: 0x18180B7D0
+	// RVA: 0x180BA90 Offset: 0x180A090 VA: 0x18180BA90
 	public void .ctor(object attributeProvider) { }
 
 }

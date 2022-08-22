@@ -4,7 +4,7 @@ public class ReferenceConverter : TypeConverter // TypeDefIndex: 2740
 
 	// Methods
 
-	// RVA: 0x15D36F0 Offset: 0x15D1CF0 VA: 0x1815D36F0
+	// RVA: 0x15D39B0 Offset: 0x15D1FB0 VA: 0x1815D39B0
 	private static void .cctor() { }
 
 }

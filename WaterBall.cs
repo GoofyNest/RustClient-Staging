@@ -7,7 +7,7 @@ public class WaterBall : BaseEntity // TypeDefIndex: 9618
 
 	// Methods
 
-	// RVA: 0x803590 Offset: 0x801B90 VA: 0x180803590
+	// RVA: 0x8036A0 Offset: 0x801CA0 VA: 0x1808036A0
 	public void .ctor() { }
 
 }

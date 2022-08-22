@@ -15,7 +15,7 @@ internal sealed class StreamWrapper : Stream // TypeDefIndex: 7636
 
 	// Methods
 
-	// RVA: 0x13A8480 Offset: 0x13A6A80 VA: 0x1813A8480
+	// RVA: 0x13A8740 Offset: 0x13A6D40 VA: 0x1813A8740
 	public void .ctor(Stream stream, int bufferCapacity) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 7
@@ -27,34 +27,34 @@ internal sealed class StreamWrapper : Stream // TypeDefIndex: 7636
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 9
 	public override bool get_CanWrite() { }
 
-	// RVA: 0x13A8570 Offset: 0x13A6B70 VA: 0x1813A8570 Slot: 10
+	// RVA: 0x13A8830 Offset: 0x13A6E30 VA: 0x1813A8830 Slot: 10
 	public override long get_Length() { }
 
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450 Slot: 11
 	public override long get_Position() { }
 
-	// RVA: 0x13A8580 Offset: 0x13A6B80 VA: 0x1813A8580 Slot: 12
+	// RVA: 0x13A8840 Offset: 0x13A6E40 VA: 0x1813A8840 Slot: 12
 	public override void set_Position(long value) { }
 
-	// RVA: 0x13A8110 Offset: 0x13A6710 VA: 0x1813A8110
+	// RVA: 0x13A83D0 Offset: 0x13A69D0 VA: 0x1813A83D0
 	public bool IsEndReached() { }
 
-	// RVA: 0x13A80C0 Offset: 0x13A66C0 VA: 0x1813A80C0 Slot: 18
+	// RVA: 0x13A8380 Offset: 0x13A6980 VA: 0x1813A8380 Slot: 18
 	public override void Flush() { }
 
-	// RVA: 0x13A8180 Offset: 0x13A6780 VA: 0x1813A8180 Slot: 27
+	// RVA: 0x13A8440 Offset: 0x13A6A40 VA: 0x1813A8440 Slot: 27
 	public override int Read(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x13A82E0 Offset: 0x13A68E0 VA: 0x1813A82E0 Slot: 25
+	// RVA: 0x13A85A0 Offset: 0x13A6BA0 VA: 0x1813A85A0 Slot: 25
 	public override long Seek(long offset, SeekOrigin origin) { }
 
-	// RVA: 0x13A8330 Offset: 0x13A6930 VA: 0x1813A8330 Slot: 26
+	// RVA: 0x13A85F0 Offset: 0x13A6BF0 VA: 0x1813A85F0 Slot: 26
 	public override void SetLength(long value) { }
 
-	// RVA: 0x13A8430 Offset: 0x13A6A30 VA: 0x1813A8430 Slot: 29
+	// RVA: 0x13A86F0 Offset: 0x13A6CF0 VA: 0x1813A86F0 Slot: 29
 	public override void Write(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x13A8380 Offset: 0x13A6980 VA: 0x1813A8380
+	// RVA: 0x13A8640 Offset: 0x13A6C40 VA: 0x1813A8640
 	private void SkipBytes(int count) { }
 
 }

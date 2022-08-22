@@ -1,19 +1,19 @@
 public class TimeSpanConverter : TypeConverter // TypeDefIndex: 2750
 {	// Methods
 
-	// RVA: 0x1735450 Offset: 0x1733A50 VA: 0x181735450 Slot: 4
+	// RVA: 0x1735710 Offset: 0x1733D10 VA: 0x181735710 Slot: 4
 	public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType) { }
 
-	// RVA: 0x1735500 Offset: 0x1733B00 VA: 0x181735500 Slot: 5
+	// RVA: 0x17357C0 Offset: 0x1733DC0 VA: 0x1817357C0 Slot: 5
 	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType) { }
 
-	// RVA: 0x17355E0 Offset: 0x1733BE0 VA: 0x1817355E0 Slot: 6
+	// RVA: 0x17358A0 Offset: 0x1733EA0 VA: 0x1817358A0 Slot: 6
 	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value) { }
 
-	// RVA: 0x17357F0 Offset: 0x1733DF0 VA: 0x1817357F0 Slot: 7
+	// RVA: 0x1735AB0 Offset: 0x17340B0 VA: 0x181735AB0 Slot: 7
 	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType) { }
 
-	// RVA: 0x1735AF0 Offset: 0x17340F0 VA: 0x181735AF0
+	// RVA: 0x1735DB0 Offset: 0x17343B0 VA: 0x181735DB0
 	public void .ctor() { }
 
 }
@@ -29,28 +29,28 @@ internal static class TimeSpanConverter // TypeDefIndex: 7481
 	public static TTimeSpan ConvertTo<TTimeSpan>(long timeSpan, long time, TempoMap tempoMap) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BB1A0 Offset: 0x15B97A0 VA: 0x1815BB1A0
+	|-RVA: 0x15BB460 Offset: 0x15B9A60 VA: 0x1815BB460
 	|-TimeSpanConverter.ConvertTo<object>
 	*/
 
-	// RVA: 0x22024F0 Offset: 0x2200AF0 VA: 0x1822024F0
+	// RVA: 0x22027B0 Offset: 0x2200DB0 VA: 0x1822027B0
 	public static ITimeSpan ConvertTo(ITimeSpan timeSpan, Type timeSpanType, long time, TempoMap tempoMap) { }
 
-	// RVA: 0x22023C0 Offset: 0x22009C0 VA: 0x1822023C0
+	// RVA: 0x2202680 Offset: 0x2200C80 VA: 0x182202680
 	public static long ConvertFrom(ITimeSpan timeSpan, long time, TempoMap tempoMap) { }
 
 	// RVA: -1 Offset: -1
 	private static ITimeSpanConverter GetConverter<TTimeSpan>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125F160 Offset: 0x125D760 VA: 0x18125F160
+	|-RVA: 0x125F420 Offset: 0x125DA20 VA: 0x18125F420
 	|-TimeSpanConverter.GetConverter<object>
 	*/
 
-	// RVA: 0x2202680 Offset: 0x2200C80 VA: 0x182202680
+	// RVA: 0x2202940 Offset: 0x2200F40 VA: 0x182202940
 	private static ITimeSpanConverter GetConverter(Type timeSpanType) { }
 
-	// RVA: 0x2202760 Offset: 0x2200D60 VA: 0x182202760
+	// RVA: 0x2202A20 Offset: 0x2201020 VA: 0x182202A20
 	private static void .cctor() { }
 
 }

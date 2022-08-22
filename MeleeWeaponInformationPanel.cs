@@ -10,10 +10,10 @@ public class MeleeWeaponInformationPanel : ItemInformationPanel // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x95D580 Offset: 0x95BB80 VA: 0x18095D580 Slot: 4
+	// RVA: 0x95D690 Offset: 0x95BC90 VA: 0x18095D690 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0x95D670 Offset: 0x95BC70 VA: 0x18095D670 Slot: 5
+	// RVA: 0x95D780 Offset: 0x95BD80 VA: 0x18095D780 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
 	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0

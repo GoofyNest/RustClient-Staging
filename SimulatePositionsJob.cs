@@ -47,16 +47,16 @@ internal struct SimulatePositionsJob : IJob // TypeDefIndex: 7320
 	// RVA: 0x237F70 Offset: 0x237370 VA: 0x180237F70
 	private float Scene(in float3 position) { }
 
-	// RVA: 0x223EB70 Offset: 0x223D170 VA: 0x18223EB70
+	// RVA: 0x223EE30 Offset: 0x223D430 VA: 0x18223EE30
 	private static float Union(float d1, float d2) { }
 
-	// RVA: 0x223D740 Offset: 0x223BD40 VA: 0x18223D740
+	// RVA: 0x223DA00 Offset: 0x223C000 VA: 0x18223DA00
 	private static float Capsule(in float3 p, in float3 a, in float3 b, float r) { }
 
-	// RVA: 0x223EA20 Offset: 0x223D020 VA: 0x18223EA20
+	// RVA: 0x223ECE0 Offset: 0x223D2E0 VA: 0x18223ECE0
 	private static float3 Slerp(float3 a, float3 b, float t) { }
 
-	// RVA: 0x223DA00 Offset: 0x223C000 VA: 0x18223DA00
+	// RVA: 0x223DCC0 Offset: 0x223C2C0 VA: 0x18223DCC0
 	private static quaternion FromToRotation(float3 from, float3 to) { }
 
 }

@@ -18,37 +18,37 @@ public class Stack : ICollection, IEnumerable, ICloneable // TypeDefIndex: 1423
 
 	// Methods
 
-	// RVA: 0x146B3F0 Offset: 0x14699F0 VA: 0x18146B3F0
+	// RVA: 0x146B6B0 Offset: 0x1469CB0 VA: 0x18146B6B0
 	public void .ctor() { }
 
-	// RVA: 0x146B450 Offset: 0x1469A50 VA: 0x18146B450
+	// RVA: 0x146B710 Offset: 0x1469D10 VA: 0x18146B710
 	public void .ctor(int initialCapacity) { }
 
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470 Slot: 9
 	public virtual int get_Count() { }
 
-	// RVA: 0x146B510 Offset: 0x1469B10 VA: 0x18146B510 Slot: 10
+	// RVA: 0x146B7D0 Offset: 0x1469DD0 VA: 0x18146B7D0 Slot: 10
 	public virtual object get_SyncRoot() { }
 
-	// RVA: 0x146ACA0 Offset: 0x14692A0 VA: 0x18146ACA0 Slot: 11
+	// RVA: 0x146AF60 Offset: 0x1469560 VA: 0x18146AF60 Slot: 11
 	public virtual void Clear() { }
 
-	// RVA: 0x146ACD0 Offset: 0x14692D0 VA: 0x18146ACD0 Slot: 12
+	// RVA: 0x146AF90 Offset: 0x1469590 VA: 0x18146AF90 Slot: 12
 	public virtual object Clone() { }
 
-	// RVA: 0x146ADF0 Offset: 0x14693F0 VA: 0x18146ADF0 Slot: 13
+	// RVA: 0x146B0B0 Offset: 0x14696B0 VA: 0x18146B0B0 Slot: 13
 	public virtual void CopyTo(Array array, int index) { }
 
-	// RVA: 0x146B0B0 Offset: 0x14696B0 VA: 0x18146B0B0 Slot: 14
+	// RVA: 0x146B370 Offset: 0x1469970 VA: 0x18146B370 Slot: 14
 	public virtual IEnumerator GetEnumerator() { }
 
-	// RVA: 0x146B150 Offset: 0x1469750 VA: 0x18146B150 Slot: 15
+	// RVA: 0x146B410 Offset: 0x1469A10 VA: 0x18146B410 Slot: 15
 	public virtual object Peek() { }
 
-	// RVA: 0x146B200 Offset: 0x1469800 VA: 0x18146B200 Slot: 16
+	// RVA: 0x146B4C0 Offset: 0x1469AC0 VA: 0x18146B4C0 Slot: 16
 	public virtual object Pop() { }
 
-	// RVA: 0x146B2D0 Offset: 0x14698D0 VA: 0x18146B2D0 Slot: 17
+	// RVA: 0x146B590 Offset: 0x1469B90 VA: 0x18146B590 Slot: 17
 	public virtual void Push(object obj) { }
 
 }
@@ -65,19 +65,19 @@ private class Stack.StackEnumerator : IEnumerator, ICloneable // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0x146AB60 Offset: 0x1469160 VA: 0x18146AB60
+	// RVA: 0x146AE20 Offset: 0x1469420 VA: 0x18146AE20
 	internal void .ctor(Stack stack) { }
 
-	// RVA: 0xD71020 Offset: 0xD6F620 VA: 0x180D71020 Slot: 7
+	// RVA: 0xD712E0 Offset: 0xD6F8E0 VA: 0x180D712E0 Slot: 7
 	public object Clone() { }
 
-	// RVA: 0x146A970 Offset: 0x1468F70 VA: 0x18146A970 Slot: 8
+	// RVA: 0x146AC30 Offset: 0x1469230 VA: 0x18146AC30 Slot: 8
 	public virtual bool MoveNext() { }
 
-	// RVA: 0x146ABD0 Offset: 0x14691D0 VA: 0x18146ABD0 Slot: 9
+	// RVA: 0x146AE90 Offset: 0x1469490 VA: 0x18146AE90 Slot: 9
 	public virtual object get_Current() { }
 
-	// RVA: 0x146AAC0 Offset: 0x14690C0 VA: 0x18146AAC0 Slot: 10
+	// RVA: 0x146AD80 Offset: 0x1469380 VA: 0x18146AD80 Slot: 10
 	public virtual void Reset() { }
 
 }

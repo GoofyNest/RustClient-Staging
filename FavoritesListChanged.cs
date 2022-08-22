@@ -21,7 +21,7 @@ internal struct FavoritesListChanged_t : ICallbackData // TypeDefIndex: 5335
 	// RVA: 0x1E56A0 Offset: 0x1E4AA0 VA: 0x1801E56A0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370370 Offset: 0x136E970 VA: 0x181370370
+	// RVA: 0x1370630 Offset: 0x136EC30 VA: 0x181370630
 	private static void .cctor() { }
 
 }

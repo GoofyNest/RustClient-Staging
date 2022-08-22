@@ -6,61 +6,61 @@ internal static class ConvertUtils // TypeDefIndex: 5943
 
 	// Methods
 
-	// RVA: 0x17FF8A0 Offset: 0x17FDEA0 VA: 0x1817FF8A0
+	// RVA: 0x17FFB60 Offset: 0x17FE160 VA: 0x1817FFB60
 	public static PrimitiveTypeCode GetTypeCode(Type t) { }
 
-	// RVA: 0x17FF900 Offset: 0x17FDF00 VA: 0x1817FF900
+	// RVA: 0x17FFBC0 Offset: 0x17FE1C0 VA: 0x1817FFBC0
 	public static PrimitiveTypeCode GetTypeCode(Type t, out bool isEnum) { }
 
-	// RVA: 0x17FFBA0 Offset: 0x17FE1A0 VA: 0x1817FFBA0
+	// RVA: 0x17FFE60 Offset: 0x17FE460 VA: 0x1817FFE60
 	public static TypeInformation GetTypeInformation(IConvertible convertable) { }
 
-	// RVA: 0x1800170 Offset: 0x17FE770 VA: 0x181800170
+	// RVA: 0x1800430 Offset: 0x17FEA30 VA: 0x181800430
 	public static bool IsConvertible(Type t) { }
 
-	// RVA: 0x1800320 Offset: 0x17FE920 VA: 0x181800320
+	// RVA: 0x18005E0 Offset: 0x17FEBE0 VA: 0x1818005E0
 	public static TimeSpan ParseTimeSpan(string input) { }
 
-	// RVA: 0x17FF310 Offset: 0x17FD910 VA: 0x1817FF310
+	// RVA: 0x17FF5D0 Offset: 0x17FDBD0 VA: 0x1817FF5D0
 	private static Func<object, object> CreateCastConverter(ConvertUtils.TypeConvertKey t) { }
 
-	// RVA: 0x1800E80 Offset: 0x17FF480 VA: 0x181800E80
+	// RVA: 0x1801140 Offset: 0x17FF740 VA: 0x181801140
 	private static bool TryConvert(object initialValue, CultureInfo culture, Type targetType, out object value) { }
 
-	// RVA: 0x18004C0 Offset: 0x17FEAC0 VA: 0x1818004C0
+	// RVA: 0x1800780 Offset: 0x17FED80 VA: 0x181800780
 	private static ConvertUtils.ConvertResult TryConvertInternal(object initialValue, CultureInfo culture, Type targetType, out object value) { }
 
-	// RVA: 0x17FF1A0 Offset: 0x17FD7A0 VA: 0x1817FF1A0
+	// RVA: 0x17FF460 Offset: 0x17FDA60 VA: 0x1817FF460
 	public static object ConvertOrCast(object initialValue, CultureInfo culture, Type targetType) { }
 
-	// RVA: 0x17FF550 Offset: 0x17FDB50 VA: 0x1817FF550
+	// RVA: 0x17FF810 Offset: 0x17FDE10 VA: 0x1817FF810
 	private static object EnsureTypeAssignable(object value, Type initialType, Type targetType) { }
 
-	// RVA: 0x17FF810 Offset: 0x17FDE10 VA: 0x1817FF810
+	// RVA: 0x17FFAD0 Offset: 0x17FE0D0 VA: 0x1817FFAD0
 	internal static TypeConverter GetConverter(Type t) { }
 
-	// RVA: 0x1800F50 Offset: 0x17FF550 VA: 0x181800F50
+	// RVA: 0x1801210 Offset: 0x17FF810 VA: 0x181801210
 	public static bool VersionTryParse(string input, out Version result) { }
 
-	// RVA: 0x1800200 Offset: 0x17FE800 VA: 0x181800200
+	// RVA: 0x18004C0 Offset: 0x17FEAC0 VA: 0x1818004C0
 	public static bool IsInteger(object value) { }
 
-	// RVA: 0x17FFE00 Offset: 0x17FE400 VA: 0x1817FFE00
+	// RVA: 0x18000C0 Offset: 0x17FE6C0 VA: 0x1818000C0
 	public static ParseResult Int32TryParse(char[] chars, int start, int length, out int value) { }
 
-	// RVA: 0x17FFFD0 Offset: 0x17FE5D0 VA: 0x1817FFFD0
+	// RVA: 0x1800290 Offset: 0x17FE890 VA: 0x181800290
 	public static ParseResult Int64TryParse(char[] chars, int start, int length, out long value) { }
 
-	// RVA: 0x1800380 Offset: 0x17FE980 VA: 0x181800380
+	// RVA: 0x1800640 Offset: 0x17FEC40 VA: 0x181800640
 	public static bool TryConvertGuid(string s, out Guid g) { }
 
-	// RVA: 0x17FFD20 Offset: 0x17FE320 VA: 0x1817FFD20
+	// RVA: 0x17FFFE0 Offset: 0x17FE5E0 VA: 0x1817FFFE0
 	public static int HexTextToInt(char[] text, int start, int end) { }
 
-	// RVA: 0x17FFC50 Offset: 0x17FE250 VA: 0x1817FFC50
+	// RVA: 0x17FFF10 Offset: 0x17FE510 VA: 0x1817FFF10
 	private static int HexCharToInt(char ch) { }
 
-	// RVA: 0x1800FF0 Offset: 0x17FF5F0 VA: 0x181800FF0
+	// RVA: 0x18012B0 Offset: 0x17FF8B0 VA: 0x1818012B0
 	private static void .cctor() { }
 
 }
@@ -115,7 +115,7 @@ private sealed class ConvertUtils.<>c__DisplayClass9_0 // TypeDefIndex: 5946
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x18154C0 Offset: 0x1813AC0 VA: 0x1818154C0
+	// RVA: 0x1815780 Offset: 0x1813D80 VA: 0x181815780
 	internal object <CreateCastConverter>b__0(object o) { }
 
 }

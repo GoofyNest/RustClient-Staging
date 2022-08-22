@@ -11,10 +11,10 @@ public class TerrainSetNeighbours : MonoBehaviour // TypeDefIndex: 11590
 
 	// Methods
 
-	// RVA: 0x68FC10 Offset: 0x68E210 VA: 0x18068FC10
+	// RVA: 0x68FD20 Offset: 0x68E320 VA: 0x18068FD20
 	private void Awake() { }
 
-	// RVA: 0x68FCB0 Offset: 0x68E2B0 VA: 0x18068FCB0
+	// RVA: 0x68FDC0 Offset: 0x68E3C0 VA: 0x18068FDC0
 	public void SetNeighbours(Terrain leftTerrain, Terrain topTerrain, Terrain rightTerrain, Terrain bottomTerrain) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

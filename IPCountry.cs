@@ -14,7 +14,7 @@ internal struct IPCountry_t : ICallbackData // TypeDefIndex: 5327
 	// RVA: 0x1EA8F0 Offset: 0x1E9CF0 VA: 0x1801EA8F0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372C60 Offset: 0x1371260 VA: 0x181372C60
+	// RVA: 0x1372F20 Offset: 0x1371520 VA: 0x181372F20
 	private static void .cctor() { }
 
 }

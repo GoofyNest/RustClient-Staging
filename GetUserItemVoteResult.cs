@@ -19,7 +19,7 @@ internal struct GetUserItemVoteResult_t : ICallbackData // TypeDefIndex: 5438
 	// RVA: 0x1E91E0 Offset: 0x1E85E0 VA: 0x1801E91E0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13718E0 Offset: 0x136FEE0 VA: 0x1813718E0
+	// RVA: 0x1371BA0 Offset: 0x13701A0 VA: 0x181371BA0
 	private static void .cctor() { }
 
 }

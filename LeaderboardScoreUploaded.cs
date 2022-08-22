@@ -20,7 +20,7 @@ internal struct LeaderboardScoreUploaded_t : ICallbackData // TypeDefIndex: 5391
 	// RVA: 0x1EB200 Offset: 0x1EA600 VA: 0x1801EB200 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13734D0 Offset: 0x1371AD0 VA: 0x1813734D0
+	// RVA: 0x1373790 Offset: 0x1371D90 VA: 0x181373790
 	private static void .cctor() { }
 
 }

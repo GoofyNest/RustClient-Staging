@@ -1,22 +1,22 @@
 internal class UnexceptionalStreamWriter : StreamWriter // TypeDefIndex: 682
 {	// Methods
 
-	// RVA: 0x1638480 Offset: 0x1636A80 VA: 0x181638480
+	// RVA: 0x1638740 Offset: 0x1636D40 VA: 0x181638740
 	public void .ctor(Stream stream, Encoding encoding) { }
 
-	// RVA: 0x1638100 Offset: 0x1636700 VA: 0x181638100 Slot: 10
+	// RVA: 0x16383C0 Offset: 0x16369C0 VA: 0x1816383C0 Slot: 10
 	public override void Flush() { }
 
-	// RVA: 0x1638400 Offset: 0x1636A00 VA: 0x181638400 Slot: 14
+	// RVA: 0x16386C0 Offset: 0x1636CC0 VA: 0x1816386C0 Slot: 14
 	public override void Write(char[] buffer, int index, int count) { }
 
-	// RVA: 0x1638160 Offset: 0x1636760 VA: 0x181638160 Slot: 12
+	// RVA: 0x1638420 Offset: 0x1636A20 VA: 0x181638420 Slot: 12
 	public override void Write(char value) { }
 
-	// RVA: 0x1638310 Offset: 0x1636910 VA: 0x181638310 Slot: 13
+	// RVA: 0x16385D0 Offset: 0x1636BD0 VA: 0x1816385D0 Slot: 13
 	public override void Write(char[] value) { }
 
-	// RVA: 0x1638220 Offset: 0x1636820 VA: 0x181638220 Slot: 15
+	// RVA: 0x16384E0 Offset: 0x1636AE0 VA: 0x1816384E0 Slot: 15
 	public override void Write(string value) { }
 
 }

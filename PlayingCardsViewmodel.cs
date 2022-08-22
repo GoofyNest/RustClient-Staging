@@ -11,13 +11,13 @@ public class PlayingCardsViewmodel : MonoBehaviour // TypeDefIndex: 9584
 
 	// Methods
 
-	// RVA: 0x9972B0 Offset: 0x9958B0 VA: 0x1809972B0
+	// RVA: 0x9973C0 Offset: 0x9959C0 VA: 0x1809973C0
 	protected void Start() { }
 
-	// RVA: 0x997010 Offset: 0x995610 VA: 0x180997010
+	// RVA: 0x997120 Offset: 0x995720 VA: 0x180997120
 	public bool PopulateCards(List<PlayingCard> cards) { }
 
-	// RVA: 0x997210 Offset: 0x995810 VA: 0x180997210
+	// RVA: 0x997320 Offset: 0x995920 VA: 0x180997320
 	private bool SetSprite(Image image, Sprite sprite) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

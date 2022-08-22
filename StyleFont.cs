@@ -16,7 +16,7 @@ public struct StyleFont : IStyleValue<Font>, IEquatable<StyleFont> // TypeDefInd
 	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0 Slot: 5
 	public StyleKeyword get_keyword() { }
 
-	// RVA: 0xEB9BF0 Offset: 0xEB81F0 VA: 0x180EB9BF0
+	// RVA: 0xEB9EB0 Offset: 0xEB84B0 VA: 0x180EB9EB0
 	public static bool op_Equality(StyleFont lhs, StyleFont rhs) { }
 
 	// RVA: 0x13A8D0 Offset: 0x139CD0 VA: 0x18013A8D0 Slot: 6

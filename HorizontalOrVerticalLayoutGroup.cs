@@ -29,55 +29,55 @@ public abstract class HorizontalOrVerticalLayoutGroup : LayoutGroup // TypeDefIn
 	// RVA: 0x5743C0 Offset: 0x5729C0 VA: 0x1805743C0
 	public float get_spacing() { }
 
-	// RVA: 0x15F2070 Offset: 0x15F0670 VA: 0x1815F2070
+	// RVA: 0x15F2330 Offset: 0x15F0930 VA: 0x1815F2330
 	public void set_spacing(float value) { }
 
-	// RVA: 0x15F1E80 Offset: 0x15F0480 VA: 0x1815F1E80
+	// RVA: 0x15F2140 Offset: 0x15F0740 VA: 0x1815F2140
 	public bool get_childForceExpandWidth() { }
 
-	// RVA: 0x15F1F80 Offset: 0x15F0580 VA: 0x1815F1F80
+	// RVA: 0x15F2240 Offset: 0x15F0840 VA: 0x1815F2240
 	public void set_childForceExpandWidth(bool value) { }
 
-	// RVA: 0x15F1E70 Offset: 0x15F0470 VA: 0x1815F1E70
+	// RVA: 0x15F2130 Offset: 0x15F0730 VA: 0x1815F2130
 	public bool get_childForceExpandHeight() { }
 
-	// RVA: 0x15F1F30 Offset: 0x15F0530 VA: 0x1815F1F30
+	// RVA: 0x15F21F0 Offset: 0x15F07F0 VA: 0x1815F21F0
 	public void set_childForceExpandHeight(bool value) { }
 
-	// RVA: 0x15F1E60 Offset: 0x15F0460 VA: 0x1815F1E60
+	// RVA: 0x15F2120 Offset: 0x15F0720 VA: 0x1815F2120
 	public bool get_childControlWidth() { }
 
-	// RVA: 0x15F1EE0 Offset: 0x15F04E0 VA: 0x1815F1EE0
+	// RVA: 0x15F21A0 Offset: 0x15F07A0 VA: 0x1815F21A0
 	public void set_childControlWidth(bool value) { }
 
-	// RVA: 0x15F1E50 Offset: 0x15F0450 VA: 0x1815F1E50
+	// RVA: 0x15F2110 Offset: 0x15F0710 VA: 0x1815F2110
 	public bool get_childControlHeight() { }
 
-	// RVA: 0x15F1E90 Offset: 0x15F0490 VA: 0x1815F1E90
+	// RVA: 0x15F2150 Offset: 0x15F0750 VA: 0x1815F2150
 	public void set_childControlHeight(bool value) { }
 
-	// RVA: 0xA4EFF0 Offset: 0xA4D5F0 VA: 0x180A4EFF0
+	// RVA: 0xA4F2B0 Offset: 0xA4D8B0 VA: 0x180A4F2B0
 	public bool get_childScaleWidth() { }
 
-	// RVA: 0x15F2020 Offset: 0x15F0620 VA: 0x1815F2020
+	// RVA: 0x15F22E0 Offset: 0x15F08E0 VA: 0x1815F22E0
 	public void set_childScaleWidth(bool value) { }
 
-	// RVA: 0x10864F0 Offset: 0x1084AF0 VA: 0x1810864F0
+	// RVA: 0x10867B0 Offset: 0x1084DB0 VA: 0x1810867B0
 	public bool get_childScaleHeight() { }
 
-	// RVA: 0x15F1FD0 Offset: 0x15F05D0 VA: 0x1815F1FD0
+	// RVA: 0x15F2290 Offset: 0x15F0890 VA: 0x1815F2290
 	public void set_childScaleHeight(bool value) { }
 
-	// RVA: 0x15F10A0 Offset: 0x15EF6A0 VA: 0x1815F10A0
+	// RVA: 0x15F1360 Offset: 0x15EF960 VA: 0x1815F1360
 	protected void CalcAlongAxis(int axis, bool isVertical) { }
 
-	// RVA: 0x15F15F0 Offset: 0x15EFBF0 VA: 0x1815F15F0
+	// RVA: 0x15F18B0 Offset: 0x15EFEB0 VA: 0x1815F18B0
 	protected void SetChildrenAlongAxis(int axis, bool isVertical) { }
 
-	// RVA: 0x15F14C0 Offset: 0x15EFAC0 VA: 0x1815F14C0
+	// RVA: 0x15F1780 Offset: 0x15EFD80 VA: 0x1815F1780
 	private void GetChildSizes(RectTransform child, int axis, bool controlSize, bool childForceExpand, out float min, out float preferred, out float flexible) { }
 
-	// RVA: 0x15F1090 Offset: 0x15EF690 VA: 0x1815F1090
+	// RVA: 0x15F1350 Offset: 0x15EF950 VA: 0x1815F1350
 	protected void .ctor() { }
 
 }

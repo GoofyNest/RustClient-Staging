@@ -13,7 +13,7 @@ public class DynamicNavMesh : SingletonComponent<DynamicNavMesh>, IServerCompone
 
 	// Methods
 
-	// RVA: 0xAB5EB0 Offset: 0xAB44B0 VA: 0x180AB5EB0
+	// RVA: 0xAB6170 Offset: 0xAB4770 VA: 0x180AB6170
 	public void .ctor() { }
 
 }

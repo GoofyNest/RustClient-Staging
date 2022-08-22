@@ -6,82 +6,82 @@ public class BaseProjectile : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1F652B0 Offset: 0x1F638B0 VA: 0x181F652B0
+	// RVA: 0x1F65570 Offset: 0x1F63B70 VA: 0x181F65570
 	public static void ResetToPool(BaseProjectile instance) { }
 
-	// RVA: 0x1F65210 Offset: 0x1F63810 VA: 0x181F65210
+	// RVA: 0x1F654D0 Offset: 0x1F63AD0 VA: 0x181F654D0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F650B0 Offset: 0x1F636B0 VA: 0x181F650B0 Slot: 9
+	// RVA: 0x1F65370 Offset: 0x1F63970 VA: 0x181F65370 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F64610 Offset: 0x1F62C10 VA: 0x181F64610
+	// RVA: 0x1F648D0 Offset: 0x1F62ED0 VA: 0x181F648D0
 	public void CopyTo(BaseProjectile instance) { }
 
-	// RVA: 0x1F64680 Offset: 0x1F62C80 VA: 0x181F64680
+	// RVA: 0x1F64940 Offset: 0x1F62F40 VA: 0x181F64940
 	public BaseProjectile Copy() { }
 
-	// RVA: 0x1F64E10 Offset: 0x1F63410 VA: 0x181F64E10
+	// RVA: 0x1F650D0 Offset: 0x1F636D0 VA: 0x181F650D0
 	public static BaseProjectile Deserialize(Stream stream) { }
 
-	// RVA: 0x1F64990 Offset: 0x1F62F90 VA: 0x181F64990
+	// RVA: 0x1F64C50 Offset: 0x1F63250 VA: 0x181F64C50
 	public static BaseProjectile DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F64A10 Offset: 0x1F63010 VA: 0x181F64A10
+	// RVA: 0x1F64CD0 Offset: 0x1F632D0 VA: 0x181F64CD0
 	public static BaseProjectile DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F64F90 Offset: 0x1F63590 VA: 0x181F64F90
+	// RVA: 0x1F65250 Offset: 0x1F63850 VA: 0x181F65250
 	public static BaseProjectile Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F651D0 Offset: 0x1F637D0 VA: 0x181F651D0
+	// RVA: 0x1F65490 Offset: 0x1F63A90 VA: 0x181F65490
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F65840 Offset: 0x1F63E40 VA: 0x181F65840 Slot: 12
+	// RVA: 0x1F65B00 Offset: 0x1F64100 VA: 0x181F65B00 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F65860 Offset: 0x1F63E60 VA: 0x181F65860 Slot: 13
+	// RVA: 0x1F65B20 Offset: 0x1F64120 VA: 0x181F65B20 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, BaseProjectile previous) { }
 
-	// RVA: 0x1F651F0 Offset: 0x1F637F0 VA: 0x181F651F0 Slot: 14
+	// RVA: 0x1F654B0 Offset: 0x1F63AB0 VA: 0x181F654B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F64E90 Offset: 0x1F63490 VA: 0x181F64E90
+	// RVA: 0x1F65150 Offset: 0x1F63750 VA: 0x181F65150
 	public static BaseProjectile Deserialize(byte[] buffer, BaseProjectile instance, bool isDelta = False) { }
 
-	// RVA: 0x1F64CB0 Offset: 0x1F632B0 VA: 0x181F64CB0
+	// RVA: 0x1F64F70 Offset: 0x1F63570 VA: 0x181F64F70
 	public static BaseProjectile Deserialize(Stream stream, BaseProjectile instance, bool isDelta) { }
 
-	// RVA: 0x1F64750 Offset: 0x1F62D50 VA: 0x181F64750
+	// RVA: 0x1F64A10 Offset: 0x1F63010 VA: 0x181F64A10
 	public static BaseProjectile DeserializeLengthDelimited(Stream stream, BaseProjectile instance, bool isDelta) { }
 
-	// RVA: 0x1F64AA0 Offset: 0x1F630A0 VA: 0x181F64AA0
+	// RVA: 0x1F64D60 Offset: 0x1F63360 VA: 0x181F64D60
 	public static BaseProjectile DeserializeLength(Stream stream, int length, BaseProjectile instance, bool isDelta) { }
 
-	// RVA: 0x1F65350 Offset: 0x1F63950 VA: 0x181F65350
+	// RVA: 0x1F65610 Offset: 0x1F63C10 VA: 0x181F65610
 	public static void SerializeDelta(Stream stream, BaseProjectile instance, BaseProjectile previous) { }
 
-	// RVA: 0x1F656B0 Offset: 0x1F63CB0 VA: 0x181F656B0
+	// RVA: 0x1F65970 Offset: 0x1F63F70 VA: 0x181F65970
 	public static void Serialize(Stream stream, BaseProjectile instance) { }
 
-	// RVA: 0x1F65830 Offset: 0x1F63E30 VA: 0x181F65830
+	// RVA: 0x1F65AF0 Offset: 0x1F640F0 VA: 0x181F65AF0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F65840 Offset: 0x1F63E40 VA: 0x181F65840
+	// RVA: 0x1F65B00 Offset: 0x1F64100 VA: 0x181F65B00
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F655A0 Offset: 0x1F63BA0 VA: 0x181F655A0
+	// RVA: 0x1F65860 Offset: 0x1F63E60 VA: 0x181F65860
 	public static byte[] SerializeToBytes(BaseProjectile instance) { }
 
-	// RVA: 0x1F654F0 Offset: 0x1F63AF0 VA: 0x181F654F0
+	// RVA: 0x1F657B0 Offset: 0x1F63DB0 VA: 0x181F657B0
 	public static void SerializeLengthDelimited(Stream stream, BaseProjectile instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -104,82 +104,82 @@ public class Attack : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6483
 
 	// Methods
 
-	// RVA: 0x1FF5EC0 Offset: 0x1FF44C0 VA: 0x181FF5EC0
+	// RVA: 0x1FF6180 Offset: 0x1FF4780 VA: 0x181FF6180
 	public static void ResetToPool(Attack instance) { }
 
-	// RVA: 0x1FF5D90 Offset: 0x1FF4390 VA: 0x181FF5D90
+	// RVA: 0x1FF6050 Offset: 0x1FF4650 VA: 0x181FF6050
 	public void ResetToPool() { }
 
-	// RVA: 0x1FF5820 Offset: 0x1FF3E20 VA: 0x181FF5820 Slot: 9
+	// RVA: 0x1FF5AE0 Offset: 0x1FF40E0 VA: 0x181FF5AE0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1FF3C20 Offset: 0x1FF2220 VA: 0x181FF3C20
+	// RVA: 0x1FF3EE0 Offset: 0x1FF24E0 VA: 0x181FF3EE0
 	public void CopyTo(Attack instance) { }
 
-	// RVA: 0x1FF3CC0 Offset: 0x1FF22C0 VA: 0x181FF3CC0
+	// RVA: 0x1FF3F80 Offset: 0x1FF2580 VA: 0x181FF3F80
 	public Attack Copy() { }
 
-	// RVA: 0x1FF4FD0 Offset: 0x1FF35D0 VA: 0x181FF4FD0
+	// RVA: 0x1FF5290 Offset: 0x1FF3890 VA: 0x181FF5290
 	public static Attack Deserialize(Stream stream) { }
 
-	// RVA: 0x1FF4220 Offset: 0x1FF2820 VA: 0x181FF4220
+	// RVA: 0x1FF44E0 Offset: 0x1FF2AE0 VA: 0x181FF44E0
 	public static Attack DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1FF42A0 Offset: 0x1FF28A0 VA: 0x181FF42A0
+	// RVA: 0x1FF4560 Offset: 0x1FF2B60 VA: 0x181FF4560
 	public static Attack DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1FF4780 Offset: 0x1FF2D80 VA: 0x181FF4780
+	// RVA: 0x1FF4A40 Offset: 0x1FF3040 VA: 0x181FF4A40
 	public static Attack Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1FF59D0 Offset: 0x1FF3FD0 VA: 0x181FF59D0
+	// RVA: 0x1FF5C90 Offset: 0x1FF4290 VA: 0x181FF5C90
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1FF72B0 Offset: 0x1FF58B0 VA: 0x181FF72B0 Slot: 12
+	// RVA: 0x1FF7570 Offset: 0x1FF5B70 VA: 0x181FF7570 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1FF72D0 Offset: 0x1FF58D0 VA: 0x181FF72D0 Slot: 13
+	// RVA: 0x1FF7590 Offset: 0x1FF5B90 VA: 0x181FF7590 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Attack previous) { }
 
-	// RVA: 0x1FF5D70 Offset: 0x1FF4370 VA: 0x181FF5D70 Slot: 14
+	// RVA: 0x1FF6030 Offset: 0x1FF4630 VA: 0x181FF6030 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1FF53A0 Offset: 0x1FF39A0 VA: 0x181FF53A0
+	// RVA: 0x1FF5660 Offset: 0x1FF3C60 VA: 0x181FF5660
 	public static Attack Deserialize(byte[] buffer, Attack instance, bool isDelta = False) { }
 
-	// RVA: 0x1FF4C30 Offset: 0x1FF3230 VA: 0x181FF4C30
+	// RVA: 0x1FF4EF0 Offset: 0x1FF34F0 VA: 0x181FF4EF0
 	public static Attack Deserialize(Stream stream, Attack instance, bool isDelta) { }
 
-	// RVA: 0x1FF3DB0 Offset: 0x1FF23B0 VA: 0x181FF3DB0
+	// RVA: 0x1FF4070 Offset: 0x1FF2670 VA: 0x181FF4070
 	public static Attack DeserializeLengthDelimited(Stream stream, Attack instance, bool isDelta) { }
 
-	// RVA: 0x1FF4330 Offset: 0x1FF2930 VA: 0x181FF4330
+	// RVA: 0x1FF45F0 Offset: 0x1FF2BF0 VA: 0x181FF45F0
 	public static Attack DeserializeLength(Stream stream, int length, Attack instance, bool isDelta) { }
 
-	// RVA: 0x1FF5FF0 Offset: 0x1FF45F0 VA: 0x181FF5FF0
+	// RVA: 0x1FF62B0 Offset: 0x1FF48B0 VA: 0x181FF62B0
 	public static void SerializeDelta(Stream stream, Attack instance, Attack previous) { }
 
-	// RVA: 0x1FF6CB0 Offset: 0x1FF52B0 VA: 0x181FF6CB0
+	// RVA: 0x1FF6F70 Offset: 0x1FF5570 VA: 0x181FF6F70
 	public static void Serialize(Stream stream, Attack instance) { }
 
-	// RVA: 0x1FF72A0 Offset: 0x1FF58A0 VA: 0x181FF72A0
+	// RVA: 0x1FF7560 Offset: 0x1FF5B60 VA: 0x181FF7560
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1FF72B0 Offset: 0x1FF58B0 VA: 0x181FF72B0
+	// RVA: 0x1FF7570 Offset: 0x1FF5B70 VA: 0x181FF7570
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1FF6BA0 Offset: 0x1FF51A0 VA: 0x181FF6BA0
+	// RVA: 0x1FF6E60 Offset: 0x1FF5460 VA: 0x181FF6E60
 	public static byte[] SerializeToBytes(Attack instance) { }
 
-	// RVA: 0x1FF6AF0 Offset: 0x1FF50F0 VA: 0x181FF6AF0
+	// RVA: 0x1FF6DB0 Offset: 0x1FF53B0 VA: 0x181FF6DB0
 	public static void SerializeLengthDelimited(Stream stream, Attack instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -193,82 +193,82 @@ public class ProjectileShoot : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x20498E0 Offset: 0x2047EE0 VA: 0x1820498E0
+	// RVA: 0x2049BA0 Offset: 0x20481A0 VA: 0x182049BA0
 	public static void ResetToPool(ProjectileShoot instance) { }
 
-	// RVA: 0x2049AA0 Offset: 0x20480A0 VA: 0x182049AA0
+	// RVA: 0x2049D60 Offset: 0x2048360 VA: 0x182049D60
 	public void ResetToPool() { }
 
-	// RVA: 0x2049820 Offset: 0x2047E20 VA: 0x182049820 Slot: 9
+	// RVA: 0x2049AE0 Offset: 0x20480E0 VA: 0x182049AE0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20488A0 Offset: 0x2046EA0 VA: 0x1820488A0
+	// RVA: 0x2048B60 Offset: 0x2047160 VA: 0x182048B60
 	public void CopyTo(ProjectileShoot instance) { }
 
-	// RVA: 0x2048A50 Offset: 0x2047050 VA: 0x182048A50
+	// RVA: 0x2048D10 Offset: 0x2047310 VA: 0x182048D10
 	public ProjectileShoot Copy() { }
 
-	// RVA: 0x2049350 Offset: 0x2047950 VA: 0x182049350
+	// RVA: 0x2049610 Offset: 0x2047C10 VA: 0x182049610
 	public static ProjectileShoot Deserialize(Stream stream) { }
 
-	// RVA: 0x2048C50 Offset: 0x2047250 VA: 0x182048C50
+	// RVA: 0x2048F10 Offset: 0x2047510 VA: 0x182048F10
 	public static ProjectileShoot DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20492C0 Offset: 0x20478C0 VA: 0x1820492C0
+	// RVA: 0x2049580 Offset: 0x2047B80 VA: 0x182049580
 	public static ProjectileShoot DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2049700 Offset: 0x2047D00 VA: 0x182049700
+	// RVA: 0x20499C0 Offset: 0x2047FC0 VA: 0x1820499C0
 	public static ProjectileShoot Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20498A0 Offset: 0x2047EA0 VA: 0x1820498A0
+	// RVA: 0x2049B60 Offset: 0x2048160 VA: 0x182049B60
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x204A290 Offset: 0x2048890 VA: 0x18204A290 Slot: 12
+	// RVA: 0x204A550 Offset: 0x2048B50 VA: 0x18204A550 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x204A2B0 Offset: 0x20488B0 VA: 0x18204A2B0 Slot: 13
+	// RVA: 0x204A570 Offset: 0x2048B70 VA: 0x18204A570 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ProjectileShoot previous) { }
 
-	// RVA: 0x20498C0 Offset: 0x2047EC0 VA: 0x1820498C0 Slot: 14
+	// RVA: 0x2049B80 Offset: 0x2048180 VA: 0x182049B80 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20493D0 Offset: 0x20479D0 VA: 0x1820493D0
+	// RVA: 0x2049690 Offset: 0x2047C90 VA: 0x182049690
 	public static ProjectileShoot Deserialize(byte[] buffer, ProjectileShoot instance, bool isDelta = False) { }
 
-	// RVA: 0x20494D0 Offset: 0x2047AD0 VA: 0x1820494D0
+	// RVA: 0x2049790 Offset: 0x2047D90 VA: 0x182049790
 	public static ProjectileShoot Deserialize(Stream stream, ProjectileShoot instance, bool isDelta) { }
 
-	// RVA: 0x2048CD0 Offset: 0x20472D0 VA: 0x182048CD0
+	// RVA: 0x2048F90 Offset: 0x2047590 VA: 0x182048F90
 	public static ProjectileShoot DeserializeLengthDelimited(Stream stream, ProjectileShoot instance, bool isDelta) { }
 
-	// RVA: 0x2048FE0 Offset: 0x20475E0 VA: 0x182048FE0
+	// RVA: 0x20492A0 Offset: 0x20478A0 VA: 0x1820492A0
 	public static ProjectileShoot DeserializeLength(Stream stream, int length, ProjectileShoot instance, bool isDelta) { }
 
-	// RVA: 0x2049C60 Offset: 0x2048260 VA: 0x182049C60
+	// RVA: 0x2049F20 Offset: 0x2048520 VA: 0x182049F20
 	public static void SerializeDelta(Stream stream, ProjectileShoot instance, ProjectileShoot previous) { }
 
-	// RVA: 0x204A060 Offset: 0x2048660 VA: 0x18204A060
+	// RVA: 0x204A320 Offset: 0x2048920 VA: 0x18204A320
 	public static void Serialize(Stream stream, ProjectileShoot instance) { }
 
-	// RVA: 0x204A280 Offset: 0x2048880 VA: 0x18204A280
+	// RVA: 0x204A540 Offset: 0x2048B40 VA: 0x18204A540
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x204A290 Offset: 0x2048890 VA: 0x18204A290
+	// RVA: 0x204A550 Offset: 0x2048B50 VA: 0x18204A550
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2049F50 Offset: 0x2048550 VA: 0x182049F50
+	// RVA: 0x204A210 Offset: 0x2048810 VA: 0x18204A210
 	public static byte[] SerializeToBytes(ProjectileShoot instance) { }
 
-	// RVA: 0x2049EA0 Offset: 0x20484A0 VA: 0x182049EA0
+	// RVA: 0x204A160 Offset: 0x2048760 VA: 0x18204A160
 	public static void SerializeLengthDelimited(Stream stream, ProjectileShoot instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -284,82 +284,82 @@ public class ProjectileShoot.Projectile : IDisposable, Pool.IPooled, IProto // T
 
 	// Methods
 
-	// RVA: 0x204B6A0 Offset: 0x2049CA0 VA: 0x18204B6A0
+	// RVA: 0x204B960 Offset: 0x2049F60 VA: 0x18204B960
 	public static void ResetToPool(ProjectileShoot.Projectile instance) { }
 
-	// RVA: 0x204B750 Offset: 0x2049D50 VA: 0x18204B750
+	// RVA: 0x204BA10 Offset: 0x204A010 VA: 0x18204BA10
 	public void ResetToPool() { }
 
-	// RVA: 0x204B400 Offset: 0x2049A00 VA: 0x18204B400 Slot: 9
+	// RVA: 0x204B6C0 Offset: 0x2049CC0 VA: 0x18204B6C0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x203D3E0 Offset: 0x203B9E0 VA: 0x18203D3E0
+	// RVA: 0x203D6A0 Offset: 0x203BCA0 VA: 0x18203D6A0
 	public void CopyTo(ProjectileShoot.Projectile instance) { }
 
-	// RVA: 0x204A2D0 Offset: 0x20488D0 VA: 0x18204A2D0
+	// RVA: 0x204A590 Offset: 0x2048B90 VA: 0x18204A590
 	public ProjectileShoot.Projectile Copy() { }
 
-	// RVA: 0x204AEF0 Offset: 0x20494F0 VA: 0x18204AEF0
+	// RVA: 0x204B1B0 Offset: 0x20497B0 VA: 0x18204B1B0
 	public static ProjectileShoot.Projectile Deserialize(Stream stream) { }
 
-	// RVA: 0x204A370 Offset: 0x2048970 VA: 0x18204A370
+	// RVA: 0x204A630 Offset: 0x2048C30 VA: 0x18204A630
 	public static ProjectileShoot.Projectile DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x204A6C0 Offset: 0x2048CC0 VA: 0x18204A6C0
+	// RVA: 0x204A980 Offset: 0x2048F80 VA: 0x18204A980
 	public static ProjectileShoot.Projectile DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x204AC10 Offset: 0x2049210 VA: 0x18204AC10
+	// RVA: 0x204AED0 Offset: 0x20494D0 VA: 0x18204AED0
 	public static ProjectileShoot.Projectile Deserialize(byte[] buffer) { }
 
-	// RVA: 0x204B480 Offset: 0x2049A80 VA: 0x18204B480
+	// RVA: 0x204B740 Offset: 0x2049D40 VA: 0x18204B740
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x204C0B0 Offset: 0x204A6B0 VA: 0x18204C0B0 Slot: 12
+	// RVA: 0x204C370 Offset: 0x204A970 VA: 0x18204C370 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x204C0D0 Offset: 0x204A6D0 VA: 0x18204C0D0 Slot: 13
+	// RVA: 0x204C390 Offset: 0x204A990 VA: 0x18204C390 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ProjectileShoot.Projectile previous) { }
 
-	// RVA: 0x204B680 Offset: 0x2049C80 VA: 0x18204B680 Slot: 14
+	// RVA: 0x204B940 Offset: 0x2049F40 VA: 0x18204B940 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x204B130 Offset: 0x2049730 VA: 0x18204B130
+	// RVA: 0x204B3F0 Offset: 0x20499F0 VA: 0x18204B3F0
 	public static ProjectileShoot.Projectile Deserialize(byte[] buffer, ProjectileShoot.Projectile instance, bool isDelta = False) { }
 
-	// RVA: 0x204AA00 Offset: 0x2049000 VA: 0x18204AA00
+	// RVA: 0x204ACC0 Offset: 0x20492C0 VA: 0x18204ACC0
 	public static ProjectileShoot.Projectile Deserialize(Stream stream, ProjectileShoot.Projectile instance, bool isDelta) { }
 
-	// RVA: 0x204A3F0 Offset: 0x20489F0 VA: 0x18204A3F0
+	// RVA: 0x204A6B0 Offset: 0x2048CB0 VA: 0x18204A6B0
 	public static ProjectileShoot.Projectile DeserializeLengthDelimited(Stream stream, ProjectileShoot.Projectile instance, bool isDelta) { }
 
-	// RVA: 0x204A750 Offset: 0x2048D50 VA: 0x18204A750
+	// RVA: 0x204AA10 Offset: 0x2049010 VA: 0x18204AA10
 	public static ProjectileShoot.Projectile DeserializeLength(Stream stream, int length, ProjectileShoot.Projectile instance, bool isDelta) { }
 
-	// RVA: 0x204B800 Offset: 0x2049E00 VA: 0x18204B800
+	// RVA: 0x204BAC0 Offset: 0x204A0C0 VA: 0x18204BAC0
 	public static void SerializeDelta(Stream stream, ProjectileShoot.Projectile instance, ProjectileShoot.Projectile previous) { }
 
-	// RVA: 0x204BE10 Offset: 0x204A410 VA: 0x18204BE10
+	// RVA: 0x204C0D0 Offset: 0x204A6D0 VA: 0x18204C0D0
 	public static void Serialize(Stream stream, ProjectileShoot.Projectile instance) { }
 
-	// RVA: 0x204C0A0 Offset: 0x204A6A0 VA: 0x18204C0A0
+	// RVA: 0x204C360 Offset: 0x204A960 VA: 0x18204C360
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x204C0B0 Offset: 0x204A6B0 VA: 0x18204C0B0
+	// RVA: 0x204C370 Offset: 0x204A970 VA: 0x18204C370
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x204BD00 Offset: 0x204A300 VA: 0x18204BD00
+	// RVA: 0x204BFC0 Offset: 0x204A5C0 VA: 0x18204BFC0
 	public static byte[] SerializeToBytes(ProjectileShoot.Projectile instance) { }
 
-	// RVA: 0x204BC50 Offset: 0x204A250 VA: 0x18204BC50
+	// RVA: 0x204BF10 Offset: 0x204A510 VA: 0x18204BF10
 	public static void SerializeLengthDelimited(Stream stream, ProjectileShoot.Projectile instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -439,178 +439,178 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 8529
 
 	// Methods
 
-	// RVA: 0x9265B0 Offset: 0x924BB0 VA: 0x1809265B0 Slot: 35
+	// RVA: 0x9266C0 Offset: 0x924CC0 VA: 0x1809266C0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x928110 Offset: 0x926710 VA: 0x180928110
+	// RVA: 0x928220 Offset: 0x926820 VA: 0x180928220
 	public RecoilProperties get_recoilProperties() { }
 
-	// RVA: 0x923BB0 Offset: 0x9221B0 VA: 0x180923BB0 Slot: 157
+	// RVA: 0x923CC0 Offset: 0x9222C0 VA: 0x180923CC0 Slot: 157
 	public override Vector3 GetInheritedVelocity(BasePlayer player) { }
 
-	// RVA: 0x923B90 Offset: 0x922190 VA: 0x180923B90 Slot: 160
+	// RVA: 0x923CA0 Offset: 0x9222A0 VA: 0x180923CA0 Slot: 160
 	public virtual float GetDamageScale(bool getMax = False) { }
 
-	// RVA: 0x923BA0 Offset: 0x9221A0 VA: 0x180923BA0 Slot: 161
+	// RVA: 0x923CB0 Offset: 0x9222B0 VA: 0x180923CB0 Slot: 161
 	public virtual float GetDistanceScale(bool getMax = False) { }
 
-	// RVA: 0x924390 Offset: 0x922990 VA: 0x180924390 Slot: 162
+	// RVA: 0x9244A0 Offset: 0x922AA0 VA: 0x1809244A0 Slot: 162
 	public virtual float GetProjectileVelocityScale(bool getMax = False) { }
 
-	// RVA: 0x927D90 Offset: 0x926390 VA: 0x180927D90
+	// RVA: 0x927EA0 Offset: 0x9264A0 VA: 0x180927EA0
 	protected void StartReloadCooldown(float cooldown) { }
 
-	// RVA: 0x9271B0 Offset: 0x9257B0 VA: 0x1809271B0
+	// RVA: 0x9272C0 Offset: 0x9258C0 VA: 0x1809272C0
 	protected void ResetReloadCooldown() { }
 
-	// RVA: 0x924AB0 Offset: 0x9230B0 VA: 0x180924AB0
+	// RVA: 0x924BC0 Offset: 0x9231C0 VA: 0x180924BC0
 	protected bool HasReloadCooldown() { }
 
-	// RVA: 0x9243B0 Offset: 0x9229B0 VA: 0x1809243B0
+	// RVA: 0x9244C0 Offset: 0x922AC0 VA: 0x1809244C0
 	protected float GetReloadCooldown() { }
 
-	// RVA: 0x924510 Offset: 0x922B10 VA: 0x180924510
+	// RVA: 0x924620 Offset: 0x922C20 VA: 0x180924620
 	protected float GetReloadIdle() { }
 
-	// RVA: 0x925DF0 Offset: 0x9243F0 VA: 0x180925DF0
+	// RVA: 0x925F00 Offset: 0x924500 VA: 0x180925F00
 	private void OnDrawGizmos() { }
 
-	// RVA: 0x9243A0 Offset: 0x9229A0 VA: 0x1809243A0 Slot: 163
+	// RVA: 0x9244B0 Offset: 0x922AB0 VA: 0x1809244B0 Slot: 163
 	public virtual RecoilProperties GetRecoil() { }
 
-	// RVA: 0x928100 Offset: 0x926700 VA: 0x180928100
+	// RVA: 0x928210 Offset: 0x926810 VA: 0x180928210
 	public bool get_isSemiAuto() { }
 
-	// RVA: 0x9230A0 Offset: 0x9216A0 VA: 0x1809230A0 Slot: 164
+	// RVA: 0x9231B0 Offset: 0x9217B0 VA: 0x1809231B0 Slot: 164
 	public virtual float GetAimCone() { }
 
-	// RVA: 0x9271C0 Offset: 0x9257C0 VA: 0x1809271C0
+	// RVA: 0x9272D0 Offset: 0x9258D0 VA: 0x1809272D0
 	public float ScaleRepeatDelay(float delay) { }
 
-	// RVA: 0x923D50 Offset: 0x922350 VA: 0x180923D50
+	// RVA: 0x923E60 Offset: 0x922460 VA: 0x180923E60
 	public Projectile.Modifier GetProjectileModifier() { }
 
-	// RVA: 0x921590 Offset: 0x91FB90 VA: 0x180921590 Slot: 165
+	// RVA: 0x9216A0 Offset: 0x91FCA0 VA: 0x1809216A0 Slot: 165
 	public virtual void DidAttackClientside() { }
 
-	// RVA: 0x923C00 Offset: 0x922200 VA: 0x180923C00 Slot: 51
+	// RVA: 0x923D10 Offset: 0x922310 VA: 0x180923D10 Slot: 51
 	public override void GetItemOptions(List<Option> options) { }
 
-	// RVA: 0x9212B0 Offset: 0x91F8B0 VA: 0x1809212B0
+	// RVA: 0x9213C0 Offset: 0x91F9C0 VA: 0x1809213C0
 	public bool ClientIsReloading() { }
 
-	// RVA: 0x925DA0 Offset: 0x9243A0 VA: 0x180925DA0
+	// RVA: 0x925EB0 Offset: 0x9244B0 VA: 0x180925EB0
 	public void NotifySpectatorReloading(bool state) { }
 
-	// RVA: 0x9226A0 Offset: 0x920CA0 VA: 0x1809226A0 Slot: 135
+	// RVA: 0x9227B0 Offset: 0x920DB0 VA: 0x1809227B0 Slot: 135
 	public override void EditViewAngles() { }
 
-	// RVA: 0x9261C0 Offset: 0x9247C0 VA: 0x1809261C0 Slot: 137
+	// RVA: 0x9262D0 Offset: 0x9248D0 VA: 0x1809262D0 Slot: 137
 	public override void OnFrame() { }
 
-	// RVA: 0x9274F0 Offset: 0x925AF0 VA: 0x1809274F0 Slot: 166
+	// RVA: 0x927600 Offset: 0x925C00 VA: 0x180927600 Slot: 166
 	public virtual void ShotFired() { }
 
-	// RVA: 0x927550 Offset: 0x925B50 VA: 0x180927550 Slot: 167
+	// RVA: 0x927660 Offset: 0x925C60 VA: 0x180927660 Slot: 167
 	public virtual void SimulateAimcone() { }
 
-	// RVA: 0x9210B0 Offset: 0x91F6B0 VA: 0x1809210B0 Slot: 168
+	// RVA: 0x9211C0 Offset: 0x91F7C0 VA: 0x1809211C0 Slot: 168
 	public virtual bool CanAttack() { }
 
-	// RVA: 0x921080 Offset: 0x91F680 VA: 0x180921080 Slot: 169
+	// RVA: 0x921190 Offset: 0x91F790 VA: 0x180921190 Slot: 169
 	public virtual bool CanAim() { }
 
-	// RVA: 0x9261D0 Offset: 0x9247D0 VA: 0x1809261D0 Slot: 138
+	// RVA: 0x9262E0 Offset: 0x9248E0 VA: 0x1809262E0 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x927100 Offset: 0x925700 VA: 0x180927100
+	// RVA: 0x927210 Offset: 0x925810 VA: 0x180927210
 	public bool ReadyToAim() { }
 
-	// RVA: 0x927150 Offset: 0x925750 VA: 0x180927150
+	// RVA: 0x927260 Offset: 0x925860 VA: 0x180927260
 	public bool ReadyToFire() { }
 
-	// RVA: 0x920F60 Offset: 0x91F560 VA: 0x180920F60
+	// RVA: 0x921070 Offset: 0x91F670 VA: 0x180921070
 	public void AmmoTypeClicked(ItemDefinition newAmmoType) { }
 
-	// RVA: 0x920DB0 Offset: 0x91F3B0 VA: 0x180920DB0
+	// RVA: 0x920EC0 Offset: 0x91F4C0 VA: 0x180920EC0
 	private void AddAmmoOption(ItemDefinition ammo, List<Option> opts, int order = 0) { }
 
-	// RVA: 0x924590 Offset: 0x922B90 VA: 0x180924590
+	// RVA: 0x9246A0 Offset: 0x922CA0 VA: 0x1809246A0
 	public List<Option> GetReloadMenu(BasePlayer player) { }
 
-	// RVA: 0x926D60 Offset: 0x925360 VA: 0x180926D60
+	// RVA: 0x926E70 Offset: 0x925470 VA: 0x180926E70
 	private void PredictAmmoType() { }
 
-	// RVA: 0x924800 Offset: 0x922E00 VA: 0x180924800 Slot: 170
+	// RVA: 0x924910 Offset: 0x922F10 VA: 0x180924910 Slot: 170
 	public virtual bool HasMoreThanOneAmmoType(AmmoTypes ammoType) { }
 
-	// RVA: 0x925DB0 Offset: 0x9243B0 VA: 0x180925DB0 Slot: 140
+	// RVA: 0x925EC0 Offset: 0x9244C0 VA: 0x180925EC0 Slot: 140
 	public override void OnDeploy() { }
 
-	// RVA: 0x922120 Offset: 0x920720 VA: 0x180922120
+	// RVA: 0x922230 Offset: 0x920830 VA: 0x180922230
 	private void DoReload() { }
 
-	// RVA: 0x924AE0 Offset: 0x9230E0 VA: 0x180924AE0
+	// RVA: 0x924BF0 Offset: 0x9231F0 VA: 0x180924BF0
 	protected void InsertAmmoFraction() { }
 
-	// RVA: 0x9210D0 Offset: 0x91F6D0 VA: 0x1809210D0
+	// RVA: 0x9211E0 Offset: 0x91F7E0 VA: 0x1809211E0
 	public void CancelFractionalReloading() { }
 
-	// RVA: 0x921170 Offset: 0x91F770 VA: 0x180921170
+	// RVA: 0x921280 Offset: 0x91F880 VA: 0x180921280
 	protected void ClientFinishFractionalReload() { }
 
-	// RVA: 0x9212C0 Offset: 0x91F8C0 VA: 0x1809212C0
+	// RVA: 0x9213D0 Offset: 0x91F9D0 VA: 0x1809213D0
 	protected void ClientSingleReload() { }
 
-	// RVA: 0x921660 Offset: 0x91FC60 VA: 0x180921660 Slot: 171
+	// RVA: 0x921770 Offset: 0x91FD70 VA: 0x180921770 Slot: 171
 	public virtual void DoAttack() { }
 
-	// RVA: 0x920FF0 Offset: 0x91F5F0 VA: 0x180920FF0
+	// RVA: 0x921100 Offset: 0x91F700 VA: 0x180921100
 	public void BeginCycle() { }
 
-	// RVA: 0x925BB0 Offset: 0x9241B0 VA: 0x180925BB0 Slot: 172
+	// RVA: 0x925CC0 Offset: 0x9242C0 VA: 0x180925CC0 Slot: 172
 	public virtual void LaunchProjectile() { }
 
-	// RVA: 0x9225E0 Offset: 0x920BE0 VA: 0x1809225E0
+	// RVA: 0x9226F0 Offset: 0x920CF0 VA: 0x1809226F0
 	public void DryFire() { }
 
-	// RVA: 0x9270A0 Offset: 0x9256A0 VA: 0x1809270A0 Slot: 152
+	// RVA: 0x9271B0 Offset: 0x9257B0 VA: 0x1809271B0 Slot: 152
 	public override void ProcessSpectatorViewmodel(ViewModel vm) { }
 
-	// RVA: 0x926F90 Offset: 0x925590 VA: 0x180926F90 Slot: 153
+	// RVA: 0x9270A0 Offset: 0x9256A0 VA: 0x1809270A0 Slot: 153
 	public override void ProcessSpectatorViewmodelEvent(ViewModel vm, BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0x924430 Offset: 0x922A30 VA: 0x180924430
+	// RVA: 0x924540 Offset: 0x922B40 VA: 0x180924540
 	public float GetReloadDuration() { }
 
-	// RVA: 0x923980 Offset: 0x921F80 VA: 0x180923980
+	// RVA: 0x923A90 Offset: 0x922090 VA: 0x180923A90
 	public int GetAvailableAmmo() { }
 
-	// RVA: 0x924B40 Offset: 0x923140 VA: 0x180924B40
+	// RVA: 0x924C50 Offset: 0x923250 VA: 0x180924C50
 	public bool IsSilenced() { }
 
-	// RVA: 0x923010 Offset: 0x921610 VA: 0x180923010
+	// RVA: 0x923120 Offset: 0x921720 VA: 0x180923120
 	public bool FiredUnderground() { }
 
-	// RVA: 0x9266A0 Offset: 0x924CA0 VA: 0x1809266A0 Slot: 83
+	// RVA: 0x9267B0 Offset: 0x924DB0 VA: 0x1809267B0 Slot: 83
 	public override void OnSignal(BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0x924D20 Offset: 0x923320 VA: 0x180924D20
+	// RVA: 0x924E30 Offset: 0x923430 VA: 0x180924E30
 	internal void LaunchProjectileClientside(ItemDefinition ammo, int projectileCount, float projSpreadaimCone) { }
 
-	// RVA: 0x921400 Offset: 0x91FA00 VA: 0x180921400
+	// RVA: 0x921510 Offset: 0x91FB10 VA: 0x180921510
 	private Projectile CreateProjectile(string prefabPath, Vector3 pos, Vector3 forward, Vector3 velocity) { }
 
-	// RVA: 0x927DE0 Offset: 0x9263E0 VA: 0x180927DE0 Slot: 173
+	// RVA: 0x927EF0 Offset: 0x9264F0 VA: 0x180927EF0 Slot: 173
 	protected virtual void UpdateAmmoDisplay() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	private bool get_UsingInfiniteAmmoCheat() { }
 
-	// RVA: 0x925D00 Offset: 0x924300 VA: 0x180925D00 Slot: 34
+	// RVA: 0x925E10 Offset: 0x924410 VA: 0x180925E10 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x927E90 Offset: 0x926490 VA: 0x180927E90
+	// RVA: 0x927FA0 Offset: 0x9265A0 VA: 0x180927FA0
 	public void .ctor() { }
 
 }
@@ -625,16 +625,16 @@ public class BaseProjectile.Magazine // TypeDefIndex: 8530
 
 	// Methods
 
-	// RVA: 0x93A7E0 Offset: 0x938DE0 VA: 0x18093A7E0
+	// RVA: 0x93A8F0 Offset: 0x938EF0 VA: 0x18093A8F0
 	public void ServerInit() { }
 
-	// RVA: 0x93A710 Offset: 0x938D10 VA: 0x18093A710
+	// RVA: 0x93A820 Offset: 0x938E20 VA: 0x18093A820
 	public Magazine Save() { }
 
-	// RVA: 0x93A6C0 Offset: 0x938CC0 VA: 0x18093A6C0
+	// RVA: 0x93A7D0 Offset: 0x938DD0 VA: 0x18093A7D0
 	public void Load(Magazine mag) { }
 
-	// RVA: 0x93A680 Offset: 0x938C80 VA: 0x18093A680
+	// RVA: 0x93A790 Offset: 0x938D90 VA: 0x18093A790
 	public bool CanReload(BasePlayer owner) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -699,133 +699,133 @@ private sealed class BaseProjectile.<>c // TypeDefIndex: 8532
 
 	// Methods
 
-	// RVA: 0x93B320 Offset: 0x939920 VA: 0x18093B320
+	// RVA: 0x93B430 Offset: 0x939A30 VA: 0x18093B430
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x93B010 Offset: 0x939610 VA: 0x18093B010
+	// RVA: 0x93B120 Offset: 0x939720 VA: 0x18093B120
 	internal ProjectileWeaponMod.Modifier <GetAimCone>b__63_0(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF80 Offset: 0x939580 VA: 0x18093AF80
+	// RVA: 0x93B090 Offset: 0x939690 VA: 0x18093B090
 	internal float <GetAimCone>b__63_1(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93B010 Offset: 0x939610 VA: 0x18093B010
+	// RVA: 0x93B120 Offset: 0x939720 VA: 0x18093B120
 	internal ProjectileWeaponMod.Modifier <GetAimCone>b__63_2(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF90 Offset: 0x939590 VA: 0x18093AF90
+	// RVA: 0x93B0A0 Offset: 0x9396A0 VA: 0x18093B0A0
 	internal float <GetAimCone>b__63_3(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93B040 Offset: 0x939640 VA: 0x18093B040
+	// RVA: 0x93B150 Offset: 0x939750 VA: 0x18093B150
 	internal ProjectileWeaponMod.Modifier <GetAimCone>b__63_4(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF80 Offset: 0x939580 VA: 0x18093AF80
+	// RVA: 0x93B090 Offset: 0x939690 VA: 0x18093B090
 	internal float <GetAimCone>b__63_5(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93B040 Offset: 0x939640 VA: 0x18093B040
+	// RVA: 0x93B150 Offset: 0x939750 VA: 0x18093B150
 	internal ProjectileWeaponMod.Modifier <GetAimCone>b__63_6(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF90 Offset: 0x939590 VA: 0x18093AF90
+	// RVA: 0x93B0A0 Offset: 0x9396A0 VA: 0x18093B0A0
 	internal float <GetAimCone>b__63_7(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93B1A0 Offset: 0x9397A0 VA: 0x18093B1A0
+	// RVA: 0x93B2B0 Offset: 0x9398B0 VA: 0x18093B2B0
 	internal ProjectileWeaponMod.Modifier <ScaleRepeatDelay>b__64_0(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF80 Offset: 0x939580 VA: 0x18093AF80
+	// RVA: 0x93B090 Offset: 0x939690 VA: 0x18093B090
 	internal float <ScaleRepeatDelay>b__64_1(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93B1A0 Offset: 0x9397A0 VA: 0x18093B1A0
+	// RVA: 0x93B2B0 Offset: 0x9398B0 VA: 0x18093B2B0
 	internal ProjectileWeaponMod.Modifier <ScaleRepeatDelay>b__64_2(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF90 Offset: 0x939590 VA: 0x18093AF90
+	// RVA: 0x93B0A0 Offset: 0x9396A0 VA: 0x18093B0A0
 	internal float <ScaleRepeatDelay>b__64_3(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93B070 Offset: 0x939670 VA: 0x18093B070
+	// RVA: 0x93B180 Offset: 0x939780 VA: 0x18093B180
 	internal ProjectileWeaponMod.Modifier <GetProjectileModifier>b__65_0(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF90 Offset: 0x939590 VA: 0x18093AF90
+	// RVA: 0x93B0A0 Offset: 0x9396A0 VA: 0x18093B0A0
 	internal float <GetProjectileModifier>b__65_1(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93B070 Offset: 0x939670 VA: 0x18093B070
+	// RVA: 0x93B180 Offset: 0x939780 VA: 0x18093B180
 	internal ProjectileWeaponMod.Modifier <GetProjectileModifier>b__65_2(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF80 Offset: 0x939580 VA: 0x18093AF80
+	// RVA: 0x93B090 Offset: 0x939690 VA: 0x18093B090
 	internal float <GetProjectileModifier>b__65_3(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93B0A0 Offset: 0x9396A0 VA: 0x18093B0A0
+	// RVA: 0x93B1B0 Offset: 0x9397B0 VA: 0x18093B1B0
 	internal ProjectileWeaponMod.Modifier <GetProjectileModifier>b__65_4(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF90 Offset: 0x939590 VA: 0x18093AF90
+	// RVA: 0x93B0A0 Offset: 0x9396A0 VA: 0x18093B0A0
 	internal float <GetProjectileModifier>b__65_5(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93B0A0 Offset: 0x9396A0 VA: 0x18093B0A0
+	// RVA: 0x93B1B0 Offset: 0x9397B0 VA: 0x18093B1B0
 	internal ProjectileWeaponMod.Modifier <GetProjectileModifier>b__65_6(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF80 Offset: 0x939580 VA: 0x18093AF80
+	// RVA: 0x93B090 Offset: 0x939690 VA: 0x18093B090
 	internal float <GetProjectileModifier>b__65_7(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93AFB0 Offset: 0x9395B0 VA: 0x18093AFB0
+	// RVA: 0x93B0C0 Offset: 0x9396C0 VA: 0x18093B0C0
 	internal ProjectileWeaponMod.Modifier <EditViewAngles>b__72_0(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF80 Offset: 0x939580 VA: 0x18093AF80
+	// RVA: 0x93B090 Offset: 0x939690 VA: 0x18093B090
 	internal float <EditViewAngles>b__72_1(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93AFB0 Offset: 0x9395B0 VA: 0x18093AFB0
+	// RVA: 0x93B0C0 Offset: 0x9396C0 VA: 0x18093B0C0
 	internal ProjectileWeaponMod.Modifier <EditViewAngles>b__72_2(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF90 Offset: 0x939590 VA: 0x18093AF90
+	// RVA: 0x93B0A0 Offset: 0x9396A0 VA: 0x18093B0A0
 	internal float <EditViewAngles>b__72_3(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93AFE0 Offset: 0x9395E0 VA: 0x18093AFE0
+	// RVA: 0x93B0F0 Offset: 0x9396F0 VA: 0x18093B0F0
 	internal ProjectileWeaponMod.Modifier <EditViewAngles>b__72_4(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF80 Offset: 0x939580 VA: 0x18093AF80
+	// RVA: 0x93B090 Offset: 0x939690 VA: 0x18093B090
 	internal float <EditViewAngles>b__72_5(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93AFE0 Offset: 0x9395E0 VA: 0x18093AFE0
+	// RVA: 0x93B0F0 Offset: 0x9396F0 VA: 0x18093B0F0
 	internal ProjectileWeaponMod.Modifier <EditViewAngles>b__72_6(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF90 Offset: 0x939590 VA: 0x18093AF90
+	// RVA: 0x93B0A0 Offset: 0x9396A0 VA: 0x18093B0A0
 	internal float <EditViewAngles>b__72_7(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93AF50 Offset: 0x939550 VA: 0x18093AF50
+	// RVA: 0x93B060 Offset: 0x939660 VA: 0x18093B060
 	internal ProjectileWeaponMod.Modifier <SimulateAimcone>b__76_0(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF80 Offset: 0x939580 VA: 0x18093AF80
+	// RVA: 0x93B090 Offset: 0x939690 VA: 0x18093B090
 	internal float <SimulateAimcone>b__76_1(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93AF50 Offset: 0x939550 VA: 0x18093AF50
+	// RVA: 0x93B060 Offset: 0x939660 VA: 0x18093B060
 	internal ProjectileWeaponMod.Modifier <SimulateAimcone>b__76_2(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF90 Offset: 0x939590 VA: 0x18093AF90
+	// RVA: 0x93B0A0 Offset: 0x9396A0 VA: 0x18093B0A0
 	internal float <SimulateAimcone>b__76_3(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93AF50 Offset: 0x939550 VA: 0x18093AF50
+	// RVA: 0x93B060 Offset: 0x939660 VA: 0x18093B060
 	internal ProjectileWeaponMod.Modifier <DoAttack>b__98_0(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF80 Offset: 0x939580 VA: 0x18093AF80
+	// RVA: 0x93B090 Offset: 0x939690 VA: 0x18093B090
 	internal float <DoAttack>b__98_1(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93AF50 Offset: 0x939550 VA: 0x18093AF50
+	// RVA: 0x93B060 Offset: 0x939660 VA: 0x18093B060
 	internal ProjectileWeaponMod.Modifier <DoAttack>b__98_2(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF90 Offset: 0x939590 VA: 0x18093AF90
+	// RVA: 0x93B0A0 Offset: 0x9396A0 VA: 0x18093B0A0
 	internal float <DoAttack>b__98_3(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93B140 Offset: 0x939740 VA: 0x18093B140
+	// RVA: 0x93B250 Offset: 0x939850 VA: 0x18093B250
 	internal bool <OnSignal>b__110_0(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93B0D0 Offset: 0x9396D0 VA: 0x18093B0D0
+	// RVA: 0x93B1E0 Offset: 0x9397E0 VA: 0x18093B1E0
 	internal ProjectileWeaponMod.Modifier <LaunchProjectileClientside>b__112_0(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF80 Offset: 0x939580 VA: 0x18093AF80
+	// RVA: 0x93B090 Offset: 0x939690 VA: 0x18093B090
 	internal float <LaunchProjectileClientside>b__112_1(ProjectileWeaponMod.Modifier y) { }
 
-	// RVA: 0x93B0D0 Offset: 0x9396D0 VA: 0x18093B0D0
+	// RVA: 0x93B1E0 Offset: 0x9397E0 VA: 0x18093B1E0
 	internal ProjectileWeaponMod.Modifier <LaunchProjectileClientside>b__112_2(ProjectileWeaponMod x) { }
 
-	// RVA: 0x93AF90 Offset: 0x939590 VA: 0x18093AF90
+	// RVA: 0x93B0A0 Offset: 0x9396A0 VA: 0x18093B0A0
 	internal float <LaunchProjectileClientside>b__112_3(ProjectileWeaponMod.Modifier y) { }
 
 }
@@ -840,7 +840,7 @@ private sealed class BaseProjectile.<>c__DisplayClass84_0 // TypeDefIndex: 8533
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x93B280 Offset: 0x939880 VA: 0x18093B280
+	// RVA: 0x93B390 Offset: 0x939990 VA: 0x18093B390
 	internal void <AddAmmoOption>b__0(BasePlayer ply) { }
 
 }
@@ -931,91 +931,91 @@ public class Projectile : BaseMonoBehaviour // TypeDefIndex: 9223
 
 	// Methods
 
-	// RVA: 0x694730 Offset: 0x692D30 VA: 0x180694730
+	// RVA: 0x694840 Offset: 0x692E40 VA: 0x180694840
 	public void CalculateDamage(HitInfo info, Projectile.Modifier mod, float scale) { }
 
-	// RVA: 0x6994E0 Offset: 0x697AE0 VA: 0x1806994E0
+	// RVA: 0x6995F0 Offset: 0x697BF0 VA: 0x1806995F0
 	public bool get_isAuthoritative() { }
 
-	// RVA: 0x6994A0 Offset: 0x697AA0 VA: 0x1806994A0
+	// RVA: 0x6995B0 Offset: 0x697BB0 VA: 0x1806995B0
 	private bool get_isAlive() { }
 
-	// RVA: 0x698290 Offset: 0x696890 VA: 0x180698290
+	// RVA: 0x6983A0 Offset: 0x6969A0 VA: 0x1806983A0
 	private void Retire() { }
 
-	// RVA: 0x694C80 Offset: 0x693280 VA: 0x180694C80
+	// RVA: 0x694D90 Offset: 0x693390 VA: 0x180694D90
 	private void Cleanup() { }
 
-	// RVA: 0x6944C0 Offset: 0x692AC0 VA: 0x1806944C0
+	// RVA: 0x6945D0 Offset: 0x692BD0 VA: 0x1806945D0
 	public void AdjustVelocity(Vector3 delta) { }
 
-	// RVA: 0x6974D0 Offset: 0x695AD0 VA: 0x1806974D0
+	// RVA: 0x6975E0 Offset: 0x695BE0 VA: 0x1806975E0
 	public void InitializeVelocity(Vector3 overrideVel) { }
 
-	// RVA: 0x697740 Offset: 0x695D40 VA: 0x180697740
+	// RVA: 0x697850 Offset: 0x695E50 VA: 0x180697850
 	protected void OnDisable() { }
 
-	// RVA: 0x699100 Offset: 0x697700 VA: 0x180699100
+	// RVA: 0x699210 Offset: 0x697810 VA: 0x180699210
 	protected void Update() { }
 
-	// RVA: 0x698860 Offset: 0x696E60 VA: 0x180698860
+	// RVA: 0x698970 Offset: 0x696F70 VA: 0x180698970
 	private void SetEffectScale(float eScale) { }
 
-	// RVA: 0x694E80 Offset: 0x693480 VA: 0x180694E80
+	// RVA: 0x694F90 Offset: 0x693590 VA: 0x180694F90
 	private void DoFlybySound() { }
 
-	// RVA: 0x694BE0 Offset: 0x6931E0 VA: 0x180694BE0 Slot: 6
+	// RVA: 0x694CF0 Offset: 0x6932F0 VA: 0x180694CF0 Slot: 6
 	protected virtual float CalculateEffectScale() { }
 
-	// RVA: 0x698E20 Offset: 0x697420 VA: 0x180698E20
+	// RVA: 0x698F30 Offset: 0x697530 VA: 0x180698F30
 	private void UpdateVelocity(float deltaTime) { }
 
-	// RVA: 0x696CE0 Offset: 0x6952E0 VA: 0x180696CE0
+	// RVA: 0x696DF0 Offset: 0x6953F0 VA: 0x180696DF0
 	private void DoVelocityUpdate(float deltaTime) { }
 
-	// RVA: 0x695BA0 Offset: 0x6941A0 VA: 0x180695BA0
+	// RVA: 0x695CB0 Offset: 0x6942B0 VA: 0x180695CB0
 	private void DoMovement(float deltaTime) { }
 
-	// RVA: 0x6970C0 Offset: 0x6956C0 VA: 0x1806970C0
+	// RVA: 0x6971D0 Offset: 0x6957D0 VA: 0x1806971D0
 	private bool DoWaterHit(ref HitTest test, Vector3 targetPosition) { }
 
-	// RVA: 0x6968C0 Offset: 0x694EC0 VA: 0x1806968C0
+	// RVA: 0x6969D0 Offset: 0x694FD0 VA: 0x1806969D0
 	private bool DoRicochet(HitTest test, Vector3 point, Vector3 normal) { }
 
-	// RVA: 0x695490 Offset: 0x693A90 VA: 0x180695490
+	// RVA: 0x6955A0 Offset: 0x693BA0 VA: 0x1806955A0
 	private bool DoHit(HitTest test, Vector3 point, Vector3 normal) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	protected virtual void AdditiveImpactEffect(HitInfo info) { }
 
-	// RVA: 0x697A10 Offset: 0x696010 VA: 0x180697A10
+	// RVA: 0x697B20 Offset: 0x696120 VA: 0x180697B20
 	private bool Reflect(ref uint seed, Vector3 point, Vector3 normal) { }
 
-	// RVA: 0x697D60 Offset: 0x696360 VA: 0x180697D60
+	// RVA: 0x697E70 Offset: 0x696470 VA: 0x180697E70
 	private bool Refract(ref uint seed, Vector3 point, Vector3 normal, float resistance) { }
 
-	// RVA: 0x698130 Offset: 0x696730 VA: 0x180698130
+	// RVA: 0x698240 Offset: 0x696840 VA: 0x180698240
 	private Vector3 Refract(Vector3 v, Vector3 n, float f) { }
 
-	// RVA: 0x697910 Offset: 0x695F10 VA: 0x180697910
+	// RVA: 0x697A20 Offset: 0x696020 VA: 0x180697A20
 	private Quaternion RandomRotation(ref uint seed, float range) { }
 
-	// RVA: 0x6976B0 Offset: 0x695CB0 VA: 0x1806976B0
+	// RVA: 0x6977C0 Offset: 0x695DC0 VA: 0x1806977C0
 	internal void Launch() { }
 
-	// RVA: 0x6973D0 Offset: 0x6959D0 VA: 0x1806973D0
+	// RVA: 0x6974E0 Offset: 0x695AE0 VA: 0x1806974E0
 	public static uint FleshMaterialID() { }
 
-	// RVA: 0x699200 Offset: 0x697800 VA: 0x180699200
+	// RVA: 0x699310 Offset: 0x697910 VA: 0x180699310
 	public static uint WaterMaterialID() { }
 
-	// RVA: 0x697580 Offset: 0x695B80 VA: 0x180697580
+	// RVA: 0x697690 Offset: 0x695C90 VA: 0x180697690
 	public static bool IsWaterMaterial(string hitMaterial) { }
 
-	// RVA: 0x698D60 Offset: 0x697360 VA: 0x180698D60
+	// RVA: 0x698E70 Offset: 0x697470 VA: 0x180698E70
 	public static bool ShouldStopProjectile(RaycastHit hit) { }
 
-	// RVA: 0x699300 Offset: 0x697900 VA: 0x180699300
+	// RVA: 0x699410 Offset: 0x697A10 VA: 0x180699410
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -1033,7 +1033,7 @@ public struct Projectile.Modifier // TypeDefIndex: 9224
 
 	// Methods
 
-	// RVA: 0x6914B0 Offset: 0x68FAB0 VA: 0x1806914B0
+	// RVA: 0x6915C0 Offset: 0x68FBC0 VA: 0x1806915C0
 	private static void .cctor() { }
 
 }
@@ -1046,7 +1046,7 @@ public class ProjectileTestSpawner : MonoBehaviour // TypeDefIndex: 9323
 
 	// Methods
 
-	// RVA: 0x692FF0 Offset: 0x6915F0 VA: 0x180692FF0
+	// RVA: 0x693100 Offset: 0x691700 VA: 0x180693100
 	public void .ctor() { }
 
 }
@@ -1054,7 +1054,7 @@ public class ProjectileTestSpawner : MonoBehaviour // TypeDefIndex: 9323
 public class AttackTickAIEvent : BaseAIEvent // TypeDefIndex: 9391
 {	// Methods
 
-	// RVA: 0x835610 Offset: 0x833C10 VA: 0x180835610
+	// RVA: 0x835720 Offset: 0x833D20 VA: 0x180835720
 	public void .ctor() { }
 
 }
@@ -1066,7 +1066,7 @@ public class AttackedAIEvent : BaseAIEvent // TypeDefIndex: 9392
 
 	// Methods
 
-	// RVA: 0x835640 Offset: 0x833C40 VA: 0x180835640
+	// RVA: 0x835750 Offset: 0x833D50 VA: 0x180835750
 	public void .ctor() { }
 
 }
@@ -1111,67 +1111,67 @@ public class AttackEntity : HeldEntity // TypeDefIndex: 9460
 
 	// Methods
 
-	// RVA: 0x8350D0 Offset: 0x8336D0 VA: 0x1808350D0 Slot: 157
+	// RVA: 0x8351E0 Offset: 0x8337E0 VA: 0x1808351E0 Slot: 157
 	public virtual Vector3 GetInheritedVelocity(BasePlayer player) { }
 
-	// RVA: 0x835600 Offset: 0x833C00 VA: 0x180835600
+	// RVA: 0x835710 Offset: 0x833D10 VA: 0x180835710
 	public float get_NextAttackTime() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 158
 	public virtual void GetAttackStats(HitInfo info) { }
 
-	// RVA: 0x835340 Offset: 0x833940 VA: 0x180835340
+	// RVA: 0x835450 Offset: 0x833A50 VA: 0x180835450
 	protected void StartAttackCooldownRaw(float cooldown) { }
 
-	// RVA: 0x835370 Offset: 0x833970 VA: 0x180835370
+	// RVA: 0x835480 Offset: 0x833A80 VA: 0x180835480
 	protected void StartAttackCooldown(float cooldown) { }
 
-	// RVA: 0x8352E0 Offset: 0x8338E0 VA: 0x1808352E0
+	// RVA: 0x8353F0 Offset: 0x8339F0 VA: 0x1808353F0
 	protected void ResetAttackCooldown() { }
 
-	// RVA: 0x835140 Offset: 0x833740 VA: 0x180835140
+	// RVA: 0x835250 Offset: 0x833850 VA: 0x180835250
 	public bool HasAttackCooldown() { }
 
-	// RVA: 0x834FD0 Offset: 0x8335D0 VA: 0x180834FD0
+	// RVA: 0x8350E0 Offset: 0x8336E0 VA: 0x1808350E0
 	protected float GetAttackCooldown() { }
 
-	// RVA: 0x835050 Offset: 0x833650 VA: 0x180835050
+	// RVA: 0x835160 Offset: 0x833760 VA: 0x180835160
 	protected float GetAttackIdle() { }
 
-	// RVA: 0x834400 Offset: 0x832A00 VA: 0x180834400
+	// RVA: 0x834510 Offset: 0x832B10 VA: 0x180834510
 	protected float CalculateCooldownTime(float nextTime, float cooldown, bool catchup) { }
 
-	// RVA: 0x835170 Offset: 0x833770 VA: 0x180835170 Slot: 159
+	// RVA: 0x835280 Offset: 0x833880 VA: 0x180835280 Slot: 159
 	public virtual bool IsFullyDeployed() { }
 
-	// RVA: 0x835210 Offset: 0x833810 VA: 0x180835210
+	// RVA: 0x835320 Offset: 0x833920 VA: 0x180835320
 	protected void ProcessInputTime() { }
 
-	// RVA: 0x8351B0 Offset: 0x8337B0 VA: 0x1808351B0 Slot: 138
+	// RVA: 0x8352C0 Offset: 0x8338C0 VA: 0x1808352C0 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x835190 Offset: 0x833790 VA: 0x180835190 Slot: 140
+	// RVA: 0x8352A0 Offset: 0x8338A0 VA: 0x1808352A0 Slot: 140
 	public override void OnDeploy() { }
 
-	// RVA: 0x8352F0 Offset: 0x8338F0 VA: 0x1808352F0
+	// RVA: 0x835400 Offset: 0x833A00 VA: 0x180835400
 	public void SpectatorNotifyDeploy() { }
 
-	// RVA: 0x835300 Offset: 0x833900 VA: 0x180835300
+	// RVA: 0x835410 Offset: 0x833A10 VA: 0x180835410
 	public void SpectatorNotifyTick() { }
 
-	// RVA: 0x835260 Offset: 0x833860 VA: 0x180835260
+	// RVA: 0x835370 Offset: 0x833970 VA: 0x180835370
 	public bool RecoilCompReady() { }
 
-	// RVA: 0x834250 Offset: 0x832850 VA: 0x180834250 Slot: 131
+	// RVA: 0x834360 Offset: 0x832960 VA: 0x180834360 Slot: 131
 	public override void AddPunch(Vector3 amount, float duration) { }
 
-	// RVA: 0x834540 Offset: 0x832B40 VA: 0x180834540 Slot: 132
+	// RVA: 0x834650 Offset: 0x832C50 VA: 0x180834650 Slot: 132
 	public override void DoRecoilCompensation() { }
 
-	// RVA: 0x835510 Offset: 0x833B10 VA: 0x180835510
+	// RVA: 0x835620 Offset: 0x833C20 VA: 0x180835620
 	public void .ctor() { }
 
-	// RVA: 0x8354A0 Offset: 0x833AA0 VA: 0x1808354A0
+	// RVA: 0x8355B0 Offset: 0x833BB0 VA: 0x1808355B0
 	private static void .cctor() { }
 
 }
@@ -1208,37 +1208,37 @@ public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 9626
 
 	// Methods
 
-	// RVA: 0x6942B0 Offset: 0x6928B0 VA: 0x1806942B0 Slot: 80
+	// RVA: 0x6943C0 Offset: 0x6929C0 VA: 0x1806943C0 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x694380 Offset: 0x692980 VA: 0x180694380 Slot: 131
+	// RVA: 0x694490 Offset: 0x692A90 VA: 0x180694490 Slot: 131
 	public virtual void SetAiming(bool isAiming) { }
 
-	// RVA: 0x693D20 Offset: 0x692320 VA: 0x180693D20
+	// RVA: 0x693E30 Offset: 0x692430 VA: 0x180693E30
 	public float GetZoomAmount() { }
 
-	// RVA: 0x6940D0 Offset: 0x6926D0 VA: 0x1806940D0
+	// RVA: 0x6941E0 Offset: 0x6927E0 VA: 0x1806941E0
 	public static float Mult(BaseEntity parentEnt, Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> selector_modifier, Func<ProjectileWeaponMod.Modifier, float> selector_value, float def) { }
 
-	// RVA: 0x6943C0 Offset: 0x6929C0 VA: 0x1806943C0
+	// RVA: 0x6944D0 Offset: 0x692AD0 VA: 0x1806944D0
 	public static float Sum(BaseEntity parentEnt, Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> selector_modifier, Func<ProjectileWeaponMod.Modifier, float> selector_value, float def) { }
 
-	// RVA: 0x693A60 Offset: 0x692060 VA: 0x180693A60
+	// RVA: 0x693B70 Offset: 0x692170 VA: 0x180693B70
 	public static float Average(BaseEntity parentEnt, Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> selector_modifier, Func<ProjectileWeaponMod.Modifier, float> selector_value, float def) { }
 
-	// RVA: 0x693F90 Offset: 0x692590 VA: 0x180693F90
+	// RVA: 0x6940A0 Offset: 0x6926A0 VA: 0x1806940A0
 	public static float Max(BaseEntity parentEnt, Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> selector_modifier, Func<ProjectileWeaponMod.Modifier, float> selector_value, float def) { }
 
-	// RVA: 0x694030 Offset: 0x692630 VA: 0x180694030
+	// RVA: 0x694140 Offset: 0x692740 VA: 0x180694140
 	public static float Min(BaseEntity parentEnt, Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> selector_modifier, Func<ProjectileWeaponMod.Modifier, float> selector_value, float def) { }
 
-	// RVA: 0x693B00 Offset: 0x692100 VA: 0x180693B00
+	// RVA: 0x693C10 Offset: 0x692210 VA: 0x180693C10
 	public static IEnumerable<float> GetMods(BaseEntity parentEnt, Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> selector_modifier, Func<ProjectileWeaponMod.Modifier, float> selector_value) { }
 
-	// RVA: 0x693E60 Offset: 0x692460 VA: 0x180693E60
+	// RVA: 0x693F70 Offset: 0x692570 VA: 0x180693F70
 	public static bool HasBrokenWeaponMod(BaseEntity parentEnt) { }
 
-	// RVA: 0x694460 Offset: 0x692A60 VA: 0x180694460
+	// RVA: 0x694570 Offset: 0x692B70 VA: 0x180694570
 	public void .ctor() { }
 
 }
@@ -1262,19 +1262,19 @@ private sealed class ProjectileWeaponMod.<>c // TypeDefIndex: 9628
 
 	// Methods
 
-	// RVA: 0x6AD300 Offset: 0x6AB900 VA: 0x1806AD300
+	// RVA: 0x6AD410 Offset: 0x6ABA10 VA: 0x1806AD410
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x6AD170 Offset: 0x6AB770 VA: 0x1806AD170
+	// RVA: 0x6AD280 Offset: 0x6AB880 VA: 0x1806AD280
 	internal bool <GetMods>b__27_0(ProjectileWeaponMod x) { }
 
-	// RVA: 0x6AD200 Offset: 0x6AB800 VA: 0x1806AD200
+	// RVA: 0x6AD310 Offset: 0x6AB910 VA: 0x1806AD310
 	internal bool <GetMods>b__27_1(ProjectileWeaponMod.Modifier x) { }
 
-	// RVA: 0x6AD210 Offset: 0x6AB810 VA: 0x1806AD210
+	// RVA: 0x6AD320 Offset: 0x6AB920 VA: 0x1806AD320
 	internal bool <HasBrokenWeaponMod>b__28_0(ProjectileWeaponMod x) { }
 
 }
@@ -1305,10 +1305,10 @@ public class ProjectileWeaponInformationPanel : ItemInformationPanel // TypeDefI
 
 	// Methods
 
-	// RVA: 0x693010 Offset: 0x691610 VA: 0x180693010 Slot: 4
+	// RVA: 0x693120 Offset: 0x691720 VA: 0x180693120 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0x693100 Offset: 0x691700 VA: 0x180693100 Slot: 5
+	// RVA: 0x693210 Offset: 0x691810 VA: 0x180693210 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
 	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0

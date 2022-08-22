@@ -15,65 +15,65 @@ public class QuickCraft : SingletonComponent<QuickCraft>, IInventoryChanged // T
 
 	// Methods
 
-	// RVA: 0x69C190 Offset: 0x69A790 VA: 0x18069C190 Slot: 6
+	// RVA: 0x69C2A0 Offset: 0x69A8A0 VA: 0x18069C2A0 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x69C2D0 Offset: 0x69A8D0 VA: 0x18069C2D0
+	// RVA: 0x69C3E0 Offset: 0x69A9E0 VA: 0x18069C3E0
 	private void LoadFavourites() { }
 
-	// RVA: 0x69C590 Offset: 0x69AB90 VA: 0x18069C590
+	// RVA: 0x69C6A0 Offset: 0x69ACA0 VA: 0x18069C6A0
 	private void OnEnable() { }
 
-	// RVA: 0x69C4E0 Offset: 0x69AAE0 VA: 0x18069C4E0
+	// RVA: 0x69C5F0 Offset: 0x69ABF0 VA: 0x18069C5F0
 	private void OnDisable() { }
 
-	// RVA: 0x69C1D0 Offset: 0x69A7D0 VA: 0x18069C1D0 Slot: 8
+	// RVA: 0x69C2E0 Offset: 0x69A8E0 VA: 0x18069C2E0 Slot: 8
 	public void OnInventoryChanged() { }
 
-	// RVA: 0x69C1D0 Offset: 0x69A7D0 VA: 0x18069C1D0
+	// RVA: 0x69C2E0 Offset: 0x69A8E0 VA: 0x18069C2E0
 	private void Dirty() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x90D90 Offset: 0x90190 VA: 0x180090D90
-	// RVA: 0x69D2D0 Offset: 0x69B8D0 VA: 0x18069D2D0
+	// RVA: 0x69D3E0 Offset: 0x69B9E0 VA: 0x18069D3E0
 	private IEnumerator WatchForChanges() { }
 
-	// RVA: 0x69C670 Offset: 0x69AC70 VA: 0x18069C670
+	// RVA: 0x69C780 Offset: 0x69AD80 VA: 0x18069C780
 	private void Rebuild() { }
 
-	// RVA: 0x69CCB0 Offset: 0x69B2B0 VA: 0x18069CCB0
+	// RVA: 0x69CDC0 Offset: 0x69B3C0 VA: 0x18069CDC0
 	public bool RecentlyRebuilt() { }
 
-	// RVA: 0x69C1E0 Offset: 0x69A7E0 VA: 0x18069C1E0
+	// RVA: 0x69C2F0 Offset: 0x69A8F0 VA: 0x18069C2F0
 	public void ForceRebuild() { }
 
-	// RVA: 0x69D0C0 Offset: 0x69B6C0 VA: 0x18069D0C0
+	// RVA: 0x69D1D0 Offset: 0x69B7D0 VA: 0x18069D1D0
 	public void ToggleFavourite(ItemBlueprint bp) { }
 
-	// RVA: 0x69C250 Offset: 0x69A850 VA: 0x18069C250
+	// RVA: 0x69C360 Offset: 0x69A960 VA: 0x18069C360
 	public static bool IsBluePrintFavourited(ItemBlueprint bp) { }
 
-	// RVA: 0x69C090 Offset: 0x69A690 VA: 0x18069C090
+	// RVA: 0x69C1A0 Offset: 0x69A7A0 VA: 0x18069C1A0
 	public static void AddFavouriteBlueprint(ItemBlueprint bp) { }
 
-	// RVA: 0x69CD80 Offset: 0x69B380 VA: 0x18069CD80
+	// RVA: 0x69CE90 Offset: 0x69B490 VA: 0x18069CE90
 	public static void RemoveFavouriteBlueprint(ItemBlueprint bp) { }
 
-	// RVA: 0x69C1F0 Offset: 0x69A7F0 VA: 0x18069C1F0
+	// RVA: 0x69C300 Offset: 0x69A900 VA: 0x18069C300
 	private static string GetSaveString(ItemBlueprint bp) { }
 
-	// RVA: 0x69CF80 Offset: 0x69B580 VA: 0x18069CF80
+	// RVA: 0x69D090 Offset: 0x69B690 VA: 0x18069D090
 	public void SetFavouriteIconState(bool favourited, Image image) { }
 
-	// RVA: 0x69CE50 Offset: 0x69B450 VA: 0x18069CE50
+	// RVA: 0x69CF60 Offset: 0x69B560 VA: 0x18069CF60
 	public void SetFavouriteIconHoveredState(bool favourited, Image image) { }
 
-	// RVA: 0x69CFC0 Offset: 0x69B5C0 VA: 0x18069CFC0
+	// RVA: 0x69D0D0 Offset: 0x69B6D0 VA: 0x18069D0D0
 	public void SetFavouriteIconUnhoveredState(bool favourited, Image image) { }
 
-	// RVA: 0x69D3A0 Offset: 0x69B9A0 VA: 0x18069D3A0
+	// RVA: 0x69D4B0 Offset: 0x69BAB0 VA: 0x18069D4B0
 	public void .ctor() { }
 
-	// RVA: 0x69D340 Offset: 0x69B940 VA: 0x18069D340
+	// RVA: 0x69D450 Offset: 0x69BA50 VA: 0x18069D450
 	private static void .cctor() { }
 
 }
@@ -98,7 +98,7 @@ private sealed class QuickCraft.<WatchForChanges>d__16 : IEnumerator<object>, IE
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x6AD360 Offset: 0x6AB960 VA: 0x1806AD360 Slot: 6
+	// RVA: 0x6AD470 Offset: 0x6ABA70 VA: 0x1806AD470 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -106,7 +106,7 @@ private sealed class QuickCraft.<WatchForChanges>d__16 : IEnumerator<object>, IE
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD520 Offset: 0x6ABB20 VA: 0x1806AD520 Slot: 8
+	// RVA: 0x6AD630 Offset: 0x6ABC30 VA: 0x1806AD630 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

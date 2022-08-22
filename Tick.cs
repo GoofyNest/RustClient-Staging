@@ -7,28 +7,28 @@ public static class Tick // TypeDefIndex: 6603
 
 	// Methods
 
-	// RVA: 0x1BAE3E0 Offset: 0x1BAC9E0 VA: 0x181BAE3E0
+	// RVA: 0x1BAE6A0 Offset: 0x1BACCA0 VA: 0x181BAE6A0
 	public static void AddTimed(Object obj, float minDelay, float maxDelay, Action action, string DebugName) { }
 
-	// RVA: 0x1BAE550 Offset: 0x1BACB50 VA: 0x181BAE550
+	// RVA: 0x1BAE810 Offset: 0x1BACE10 VA: 0x181BAE810
 	public static void Add(Object obj, Action action, string DebugName) { }
 
-	// RVA: 0x1BAE290 Offset: 0x1BAC890 VA: 0x181BAE290
+	// RVA: 0x1BAE550 Offset: 0x1BACB50 VA: 0x181BAE550
 	public static void AddLateUpdate(Object obj, Action action, string DebugName) { }
 
-	// RVA: 0x1BAE970 Offset: 0x1BACF70 VA: 0x181BAE970
+	// RVA: 0x1BAEC30 Offset: 0x1BAD230 VA: 0x181BAEC30
 	public static void RemoveAll(Object obj) { }
 
-	// RVA: 0x1BAE6A0 Offset: 0x1BACCA0 VA: 0x181BAE6A0
+	// RVA: 0x1BAE960 Offset: 0x1BACF60 VA: 0x181BAE960
 	private static void Cleanup() { }
 
-	// RVA: 0x1BAE8E0 Offset: 0x1BACEE0 VA: 0x181BAE8E0
+	// RVA: 0x1BAEBA0 Offset: 0x1BAD1A0 VA: 0x181BAEBA0
 	internal static void OnFrame() { }
 
-	// RVA: 0x1BAE870 Offset: 0x1BACE70 VA: 0x181BAE870
+	// RVA: 0x1BAEB30 Offset: 0x1BAD130 VA: 0x181BAEB30
 	internal static void OnFrameLate() { }
 
-	// RVA: 0x1BAE9F0 Offset: 0x1BACFF0 VA: 0x181BAE9F0
+	// RVA: 0x1BAECB0 Offset: 0x1BAD2B0 VA: 0x181BAECB0
 	private static void .cctor() { }
 
 }
@@ -48,16 +48,16 @@ public struct Tick.Entry // TypeDefIndex: 6604
 public class Tick.Entry.List : List<Tick.Entry> // TypeDefIndex: 6605
 {	// Methods
 
-	// RVA: 0x1BA4360 Offset: 0x1BA2960 VA: 0x181BA4360
+	// RVA: 0x1BA4620 Offset: 0x1BA2C20 VA: 0x181BA4620
 	public void Remove(Object obj) { }
 
-	// RVA: 0x1BA4660 Offset: 0x1BA2C60 VA: 0x181BA4660
+	// RVA: 0x1BA4920 Offset: 0x1BA2F20 VA: 0x181BA4920
 	internal void Tick() { }
 
-	// RVA: 0x1BA4460 Offset: 0x1BA2A60 VA: 0x181BA4460
+	// RVA: 0x1BA4720 Offset: 0x1BA2D20 VA: 0x181BA4720
 	internal void TickTimed() { }
 
-	// RVA: 0x1BA4790 Offset: 0x1BA2D90 VA: 0x181BA4790
+	// RVA: 0x1BA4A50 Offset: 0x1BA3050 VA: 0x181BA4A50
 	public void .ctor() { }
 
 }

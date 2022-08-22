@@ -10,43 +10,43 @@ internal sealed class ColorGradingRenderer : PostProcessEffectRenderer<ColorGrad
 
 	// Methods
 
-	// RVA: 0x9F5F70 Offset: 0x9F4570 VA: 0x1809F5F70 Slot: 8
+	// RVA: 0x9F6230 Offset: 0x9F4830 VA: 0x1809F6230 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x9F2C70 Offset: 0x9F1270 VA: 0x1809F2C70
+	// RVA: 0x9F2F30 Offset: 0x9F1530 VA: 0x1809F2F30
 	private void RenderExternalPipeline3D(PostProcessRenderContext context) { }
 
-	// RVA: 0x9F40D0 Offset: 0x9F26D0 VA: 0x1809F40D0
+	// RVA: 0x9F4390 Offset: 0x9F2990 VA: 0x1809F4390
 	private void RenderHDRPipeline3D(PostProcessRenderContext context) { }
 
-	// RVA: 0x9F2F20 Offset: 0x9F1520 VA: 0x1809F2F20
+	// RVA: 0x9F31E0 Offset: 0x9F17E0 VA: 0x1809F31E0
 	private void RenderHDRPipeline2D(PostProcessRenderContext context) { }
 
-	// RVA: 0x9F4FB0 Offset: 0x9F35B0 VA: 0x1809F4FB0
+	// RVA: 0x9F5270 Offset: 0x9F3870 VA: 0x1809F5270
 	private void RenderLDRPipeline2D(PostProcessRenderContext context) { }
 
-	// RVA: 0x9F2290 Offset: 0x9F0890 VA: 0x1809F2290
+	// RVA: 0x9F2550 Offset: 0x9F0B50 VA: 0x1809F2550
 	private void CheckInternalLogLut() { }
 
-	// RVA: 0x9F2460 Offset: 0x9F0A60 VA: 0x1809F2460
+	// RVA: 0x9F2720 Offset: 0x9F0D20 VA: 0x1809F2720
 	private void CheckInternalStripLut() { }
 
-	// RVA: 0x9F2620 Offset: 0x9F0C20 VA: 0x1809F2620
+	// RVA: 0x9F28E0 Offset: 0x9F0EE0 VA: 0x1809F28E0
 	private Texture2D GetCurveTexture(bool hdr) { }
 
-	// RVA: 0x9F2B90 Offset: 0x9F1190 VA: 0x1809F2B90
+	// RVA: 0x9F2E50 Offset: 0x9F1450 VA: 0x1809F2E50
 	private static bool IsRenderTextureFormatSupportedForLinearFiltering(RenderTextureFormat format) { }
 
-	// RVA: 0x9F2B20 Offset: 0x9F1120 VA: 0x1809F2B20
+	// RVA: 0x9F2DE0 Offset: 0x9F13E0 VA: 0x1809F2DE0
 	private static RenderTextureFormat GetLutFormat() { }
 
-	// RVA: 0x9F25F0 Offset: 0x9F0BF0 VA: 0x1809F25F0
+	// RVA: 0x9F28B0 Offset: 0x9F0EB0 VA: 0x1809F28B0
 	private static TextureFormat GetCurveFormat() { }
 
-	// RVA: 0x9F2BC0 Offset: 0x9F11C0 VA: 0x1809F2BC0 Slot: 7
+	// RVA: 0x9F2E80 Offset: 0x9F1480 VA: 0x1809F2E80 Slot: 7
 	public override void Release() { }
 
-	// RVA: 0x9F60E0 Offset: 0x9F46E0 VA: 0x1809F60E0
+	// RVA: 0x9F63A0 Offset: 0x9F49A0 VA: 0x1809F63A0
 	public void .ctor() { }
 
 }

@@ -4,7 +4,7 @@ public class IODescriptionAttribute : DescriptionAttribute // TypeDefIndex: 2850
 
 	// Methods
 
-	// RVA: 0x1533890 Offset: 0x1531E90 VA: 0x181533890
+	// RVA: 0x1533B50 Offset: 0x1532150 VA: 0x181533B50
 	public void .ctor(string description) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 7

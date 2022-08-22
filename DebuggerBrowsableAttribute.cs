@@ -4,7 +4,7 @@ public sealed class DebuggerBrowsableAttribute : Attribute // TypeDefIndex: 1498
 
 	// Methods
 
-	// RVA: 0xD69520 Offset: 0xD67B20 VA: 0x180D69520
+	// RVA: 0xD697E0 Offset: 0xD67DE0 VA: 0x180D697E0
 	public void .ctor(DebuggerBrowsableState state) { }
 
 }

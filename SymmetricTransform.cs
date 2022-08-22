@@ -21,16 +21,16 @@ internal abstract class SymmetricTransform : ICryptoTransform, IDisposable // Ty
 
 	// Methods
 
-	// RVA: 0x1758130 Offset: 0x1756730 VA: 0x181758130
+	// RVA: 0x17583F0 Offset: 0x17569F0 VA: 0x1817583F0
 	public void .ctor(SymmetricAlgorithm symmAlgo, bool encryption, byte[] rgbIV) { }
 
-	// RVA: 0x15BF7C0 Offset: 0x15BDDC0 VA: 0x1815BF7C0 Slot: 1
+	// RVA: 0x15BFA80 Offset: 0x15BE080 VA: 0x1815BFA80 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1757A30 Offset: 0x1756030 VA: 0x181757A30 Slot: 9
+	// RVA: 0x1757CF0 Offset: 0x17562F0 VA: 0x181757CF0 Slot: 9
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x1756FE0 Offset: 0x17555E0 VA: 0x181756FE0 Slot: 10
+	// RVA: 0x17572A0 Offset: 0x17558A0 VA: 0x1817572A0 Slot: 10
 	protected virtual void Dispose(bool disposing) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 11
@@ -42,49 +42,49 @@ internal abstract class SymmetricTransform : ICryptoTransform, IDisposable // Ty
 	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460 Slot: 13
 	public virtual int get_OutputBlockSize() { }
 
-	// RVA: 0x1757F40 Offset: 0x1756540 VA: 0x181757F40 Slot: 14
+	// RVA: 0x1758200 Offset: 0x1756800 VA: 0x181758200 Slot: 14
 	protected virtual void Transform(byte[] input, byte[] output) { }
 
 	// RVA: -1 Offset: -1 Slot: 15
 	protected abstract void ECB(byte[] input, byte[] output);
 
-	// RVA: 0x1756A70 Offset: 0x1755070 VA: 0x181756A70 Slot: 16
+	// RVA: 0x1756D30 Offset: 0x1755330 VA: 0x181756D30 Slot: 16
 	protected virtual void CBC(byte[] input, byte[] output) { }
 
-	// RVA: 0x1756BF0 Offset: 0x17551F0 VA: 0x181756BF0 Slot: 17
+	// RVA: 0x1756EB0 Offset: 0x17554B0 VA: 0x181756EB0 Slot: 17
 	protected virtual void CFB(byte[] input, byte[] output) { }
 
-	// RVA: 0x1757900 Offset: 0x1755F00 VA: 0x181757900 Slot: 18
+	// RVA: 0x1757BC0 Offset: 0x17561C0 VA: 0x181757BC0 Slot: 18
 	protected virtual void OFB(byte[] input, byte[] output) { }
 
-	// RVA: 0x1756E30 Offset: 0x1755430 VA: 0x181756E30 Slot: 19
+	// RVA: 0x17570F0 Offset: 0x17556F0 VA: 0x1817570F0 Slot: 19
 	protected virtual void CTS(byte[] input, byte[] output) { }
 
-	// RVA: 0x1756E90 Offset: 0x1755490 VA: 0x181756E90
+	// RVA: 0x1757150 Offset: 0x1755750 VA: 0x181757150
 	private void CheckInput(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
-	// RVA: 0x1757BD0 Offset: 0x17561D0 VA: 0x181757BD0 Slot: 20
+	// RVA: 0x1757E90 Offset: 0x1756490 VA: 0x181757E90 Slot: 20
 	public virtual int TransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset) { }
 
-	// RVA: 0x1758460 Offset: 0x1756A60 VA: 0x181758460
+	// RVA: 0x1758720 Offset: 0x1756D20 VA: 0x181758720
 	private bool get_KeepLastBlock() { }
 
-	// RVA: 0x1757720 Offset: 0x1755D20 VA: 0x181757720
+	// RVA: 0x17579E0 Offset: 0x1755FE0 VA: 0x1817579E0
 	private int InternalTransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset) { }
 
-	// RVA: 0x1757960 Offset: 0x1755F60 VA: 0x181757960
+	// RVA: 0x1757C20 Offset: 0x1756220 VA: 0x181757C20
 	private void Random(byte[] buffer, int start, int length) { }
 
-	// RVA: 0x1757AA0 Offset: 0x17560A0 VA: 0x181757AA0
+	// RVA: 0x1757D60 Offset: 0x1756360 VA: 0x181757D60
 	private void ThrowBadPaddingException(PaddingMode padding, int length, int position) { }
 
-	// RVA: 0x17573B0 Offset: 0x17559B0 VA: 0x1817573B0 Slot: 21
+	// RVA: 0x1757670 Offset: 0x1755C70 VA: 0x181757670 Slot: 21
 	protected virtual byte[] FinalEncrypt(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
-	// RVA: 0x1757060 Offset: 0x1755660 VA: 0x181757060 Slot: 22
+	// RVA: 0x1757320 Offset: 0x1755920 VA: 0x181757320 Slot: 22
 	protected virtual byte[] FinalDecrypt(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
-	// RVA: 0x1757E60 Offset: 0x1756460 VA: 0x181757E60 Slot: 23
+	// RVA: 0x1758120 Offset: 0x1756720 VA: 0x181758120 Slot: 23
 	public virtual byte[] TransformFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
 }

@@ -7,7 +7,7 @@ public class CableTunnel : IOEntity // TypeDefIndex: 8718
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 148
 	public override bool WantsPower() { }
 
-	// RVA: 0x6F69B0 Offset: 0x6F4FB0 VA: 0x1806F69B0
+	// RVA: 0x6F6AC0 Offset: 0x6F50C0 VA: 0x1806F6AC0
 	public void .ctor() { }
 
 }

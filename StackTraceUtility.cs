@@ -5,21 +5,21 @@ public static class StackTraceUtility // TypeDefIndex: 3527
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B9030 Offset: 0x19B7630 VA: 0x1819B9030
+	// RVA: 0x19B92F0 Offset: 0x19B78F0 VA: 0x1819B92F0
 	internal static void SetProjectFolder(string folder) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B8C20 Offset: 0x19B7220 VA: 0x1819B8C20
+	// RVA: 0x19B8EE0 Offset: 0x19B74E0 VA: 0x1819B8EE0
 	public static string ExtractStackTrace() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B8CB0 Offset: 0x19B72B0 VA: 0x1819B8CB0
+	// RVA: 0x19B8F70 Offset: 0x19B7570 VA: 0x1819B8F70
 	internal static void ExtractStringFromExceptionInternal(object exceptiono, out string message, out string stackTrace) { }
 
-	// RVA: 0x19B85D0 Offset: 0x19B6BD0 VA: 0x1819B85D0
+	// RVA: 0x19B8890 Offset: 0x19B6E90 VA: 0x1819B8890
 	internal static string ExtractFormattedStackTrace(StackTrace stackTrace) { }
 
-	// RVA: 0x19B9120 Offset: 0x19B7720 VA: 0x1819B9120
+	// RVA: 0x19B93E0 Offset: 0x19B79E0 VA: 0x1819B93E0
 	private static void .cctor() { }
 
 }

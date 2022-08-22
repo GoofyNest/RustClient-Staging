@@ -8,27 +8,27 @@ public sealed class SongSelectEvent : SystemCommonEvent // TypeDefIndex: 7564
 
 	// Methods
 
-	// RVA: 0x13A7F30 Offset: 0x13A6530 VA: 0x1813A7F30
+	// RVA: 0x13A81F0 Offset: 0x13A67F0 VA: 0x1813A81F0
 	public void .ctor() { }
 
-	// RVA: 0x13A7F50 Offset: 0x13A6550 VA: 0x1813A7F50
+	// RVA: 0x13A8210 Offset: 0x13A6810 VA: 0x1813A8210
 	public void .ctor(SevenBitNumber number) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB103F0 Offset: 0xB0E9F0 VA: 0x180B103F0
+	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0
 	public SevenBitNumber get_Number() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7F9AE0 Offset: 0x7F80E0 VA: 0x1807F9AE0
+	// RVA: 0x7F9BF0 Offset: 0x7F81F0 VA: 0x1807F9BF0
 	public void set_Number(SevenBitNumber value) { }
 
-	// RVA: 0x13A7D30 Offset: 0x13A6330 VA: 0x1813A7D30 Slot: 4
+	// RVA: 0x13A7FF0 Offset: 0x13A65F0 VA: 0x1813A7FF0 Slot: 4
 	internal override void Read(MidiReader reader, ReadingSettings settings, int size) { }
 
-	// RVA: 0x13A7CD0 Offset: 0x13A62D0 VA: 0x1813A7CD0 Slot: 5
+	// RVA: 0x13A7F90 Offset: 0x13A6590 VA: 0x1813A7F90 Slot: 5
 	protected override MidiEvent CloneEvent() { }
 
-	// RVA: 0x13A7ED0 Offset: 0x13A64D0 VA: 0x1813A7ED0 Slot: 3
+	// RVA: 0x13A8190 Offset: 0x13A6790 VA: 0x1813A8190 Slot: 3
 	public override string ToString() { }
 
 }

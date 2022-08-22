@@ -174,64 +174,64 @@ public class ERIConnector : MonoBehaviour // TypeDefIndex: 7224
 
 	// Methods
 
-	// RVA: 0x9B9330 Offset: 0x9B7930 VA: 0x1809B9330
+	// RVA: 0x9B95F0 Offset: 0x9B7BF0 VA: 0x1809B95F0
 	public void UpdateERTexture(int road) { }
 
-	// RVA: 0x9B07F0 Offset: 0x9AEDF0 VA: 0x1809B07F0
+	// RVA: 0x9B0AB0 Offset: 0x9AF0B0 VA: 0x1809B0AB0
 	public void OCQOQCDCQC(ERModularRoad sourceRoad) { }
 
-	// RVA: 0x9AB540 Offset: 0x9A9B40 VA: 0x1809AB540
+	// RVA: 0x9AB800 Offset: 0x9A9E00 VA: 0x1809AB800
 	public void GetIConnectionData(List<Vector3> vecs1, List<bool> conInts1, List<bool> conInts2, bool reversed1, bool reversed2, int road2Start) { }
 
-	// RVA: 0x9ADE50 Offset: 0x9AC450 VA: 0x1809ADE50
+	// RVA: 0x9AE110 Offset: 0x9AC710 VA: 0x1809AE110
 	public void GetLeftRightInts(List<Vector2> roadShape, ref int mostLeftInt, ref int mostRightInt) { }
 
-	// RVA: 0x9B6EE0 Offset: 0x9B54E0 VA: 0x1809B6EE0
+	// RVA: 0x9B71A0 Offset: 0x9B57A0 VA: 0x1809B71A0
 	public void OQQCQCCODO(List<Vector3> splinePoints, List<Vector3> splinePointsOther, ref List<Vector3> vecs, ref List<Vector2> uvs, ref List<List<int>> tris, List<Vector2> roadShape, List<float> roadShapeUVs, List<int> roadShapeMaterialInts, float uvRatio, float stretchRatio, float stretchType, ref List<Vector3> leftPoints, ref List<Vector3> rightPoints, bool reversed, Vector3 cDir, int firstSecond, int startEnd) { }
 
-	// RVA: 0x9B5D60 Offset: 0x9B4360 VA: 0x1809B5D60
+	// RVA: 0x9B6020 Offset: 0x9B4620 VA: 0x1809B6020
 	public List<Vector2> OODCQQQQCQ(float startY, List<Vector3> splinePoints, List<float> roadShapeUVs, float uvRatio, bool reversed, float sourceUV) { }
 
-	// RVA: 0x9AFF90 Offset: 0x9AE590 VA: 0x1809AFF90
+	// RVA: 0x9B0250 Offset: 0x9AE850 VA: 0x1809B0250
 	public void OCOQOQOCOQ(ref List<Color> colors, List<Vector3> splinePoints1, List<Vector3> splinePoints2, List<Vector2> roadShape1, List<Vector2> roadShape2) { }
 
-	// RVA: 0x9B5850 Offset: 0x9B3E50 VA: 0x1809B5850
+	// RVA: 0x9B5B10 Offset: 0x9B4110 VA: 0x1809B5B10
 	public void ODDCCDQDCO(ref List<Vector3> targetArray, List<Vector3> otherArray) { }
 
-	// RVA: 0x9B84F0 Offset: 0x9B6AF0 VA: 0x1809B84F0
+	// RVA: 0x9B87B0 Offset: 0x9B6DB0 VA: 0x1809B87B0
 	public void SetUVS(List<Vector3> leftRoundingPoints, List<Vector3> leftPointsIndents, List<Vector3> centerPoints, List<Vector3> rightPointsIndents, List<Vector3> rightRoundingPoints, ref List<Vector2> leftRoundingPointsUV, ref List<Vector2> leftPointsIndentsUV, ref List<Vector2> centerPointsUV, ref List<Vector2> rightPointsIndentsUV, ref List<Vector2> rightRoundingPointsUV, ref Vector2 cp, float leftIndentUVX, float rightIndentUVX) { }
 
-	// RVA: 0x9B5900 Offset: 0x9B3F00 VA: 0x1809B5900
+	// RVA: 0x9B5BC0 Offset: 0x9B41C0 VA: 0x1809B5BC0
 	public Mesh ODDDOCDCQO() { }
 
-	// RVA: 0x9AFC50 Offset: 0x9AE250 VA: 0x1809AFC50
+	// RVA: 0x9AFF10 Offset: 0x9AE510 VA: 0x1809AFF10
 	private void OCOQOCDCCQ(ref List<int> tris, ref List<Vector3> vecs, ref List<Vector2> uvs, ref List<Vector2> uvs1, ref List<Vector2> uvs2, ref List<Color> colors, ref List<int> trisTmp, ref List<Vector3> vecsTmp, ref List<Vector2> uvsTmp, ref List<Vector2> uvsTmp1, ref List<Vector2> uvsTmp2, ref List<Color> colorsTmp, bool skipMiddles, bool weldVecs) { }
 
-	// RVA: 0x9B0350 Offset: 0x9AE950 VA: 0x1809B0350
+	// RVA: 0x9B0610 Offset: 0x9AEC10 VA: 0x1809B0610
 	private void OCQODCOQDO(ref List<int> tris, ref List<Vector3> vecs, ref List<Vector2> uvs, ref List<Vector2> uvs1, ref List<Vector2> uvs2, ref List<Color> colors, ref List<int> trisTmp, ref List<Vector3> vecsTmp, ref List<Vector2> uvsTmp, ref List<Vector2> uvsTmp1, ref List<Vector2> uvsTmp2, ref List<Color> colorsTmp, bool skipMiddles, bool weldVecs) { }
 
-	// RVA: 0x9B8C00 Offset: 0x9B7200 VA: 0x1809B8C00
+	// RVA: 0x9B8EC0 Offset: 0x9B74C0 VA: 0x1809B8EC0
 	private List<int> Triangulate(List<Vector3> vecs, List<Vector3> edges) { }
 
-	// RVA: 0x9B69F0 Offset: 0x9B4FF0 VA: 0x1809B69F0
+	// RVA: 0x9B6CB0 Offset: 0x9B52B0 VA: 0x1809B6CB0
 	public List<Vector3> OQDDOOOOQD(Vector3 p1, Vector3 p2, Vector3 p3, Vector3 p4, float tension, float res, float distance, ref float tValue) { }
 
-	// RVA: 0x9B66B0 Offset: 0x9B4CB0 VA: 0x1809B66B0
+	// RVA: 0x9B6970 Offset: 0x9B4F70 VA: 0x1809B6970
 	public void OQCDDQOCOD(ref List<Vector3> splinePoints, float distance) { }
 
-	// RVA: 0x9AB050 Offset: 0x9A9650 VA: 0x1809AB050
+	// RVA: 0x9AB310 Offset: 0x9A9910 VA: 0x1809AB310
 	public void Clear() { }
 
-	// RVA: 0x9B60D0 Offset: 0x9B46D0 VA: 0x1809B60D0
+	// RVA: 0x9B6390 Offset: 0x9B4990 VA: 0x1809B6390
 	public void OOODDOCOOO() { }
 
-	// RVA: 0x9B65D0 Offset: 0x9B4BD0 VA: 0x1809B65D0
+	// RVA: 0x9B6890 Offset: 0x9B4E90 VA: 0x1809B6890
 	public void OOOQQDDCCQ(ERTexture roadERTexture, ref float roadWidth, ref float leftIndent, ref float rightIndent, ref float leftUVX, ref float rightUVX, ref float leftIndentInner, ref float rightIndentInner, ref float roadOuterUVXInner, float cornerRadius) { }
 
-	// RVA: 0x9ADF80 Offset: 0x9AC580 VA: 0x1809ADF80
+	// RVA: 0x9AE240 Offset: 0x9AC840 VA: 0x1809AE240
 	public static void OCDCCQQQCO(List<Vector3> leftPoints, List<Vector3> rightPoints, ref GameObject surfaceMesh, Transform tr, ref List<Vector3> surfaceVecs, float indentLeftStart, float indentLeftEnd, float surroundingLeftStart, float surroundingLeftEnd, float indentRightStart, float indentRightEnd, float surroundingRightStart, float surroundingRightEnd, ERModularBase baseScript, bool hasMesh) { }
 
-	// RVA: 0x9B94F0 Offset: 0x9B7AF0 VA: 0x1809B94F0
+	// RVA: 0x9B97B0 Offset: 0x9B7DB0 VA: 0x1809B97B0
 	public void .ctor() { }
 
 }

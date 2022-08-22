@@ -83,181 +83,181 @@ public sealed class GUISkin : ScriptableObject // TypeDefIndex: 4044
 
 	// Methods
 
-	// RVA: 0x1A78290 Offset: 0x1A76890 VA: 0x181A78290
+	// RVA: 0x1A78550 Offset: 0x1A76B50 VA: 0x181A78550
 	public void .ctor() { }
 
-	// RVA: 0x1A76990 Offset: 0x1A74F90 VA: 0x181A76990
+	// RVA: 0x1A76C50 Offset: 0x1A75250 VA: 0x181A76C50
 	internal void OnEnable() { }
 
-	// RVA: 0x1A77C10 Offset: 0x1A76210 VA: 0x181A77C10
+	// RVA: 0x1A77ED0 Offset: 0x1A764D0 VA: 0x181A77ED0
 	internal static void CleanupRoots() { }
 
-	// RVA: 0x181D9E0 Offset: 0x181BFE0 VA: 0x18181D9E0
+	// RVA: 0x181DCA0 Offset: 0x181C2A0 VA: 0x18181DCA0
 	public Font get_font() { }
 
-	// RVA: 0x1A78730 Offset: 0x1A76D30 VA: 0x181A78730
+	// RVA: 0x1A789F0 Offset: 0x1A76FF0 VA: 0x181A789F0
 	public void set_font(Font value) { }
 
-	// RVA: 0x1A6C6E0 Offset: 0x1A6ACE0 VA: 0x181A6C6E0
+	// RVA: 0x1A6C9A0 Offset: 0x1A6AFA0 VA: 0x181A6C9A0
 	public GUIStyle get_box() { }
 
-	// RVA: 0x1A785A0 Offset: 0x1A76BA0 VA: 0x181A785A0
+	// RVA: 0x1A78860 Offset: 0x1A76E60 VA: 0x181A78860
 	public void set_box(GUIStyle value) { }
 
-	// RVA: 0x1A784F0 Offset: 0x1A76AF0 VA: 0x181A784F0
+	// RVA: 0x1A787B0 Offset: 0x1A76DB0 VA: 0x181A787B0
 	public GUIStyle get_label() { }
 
-	// RVA: 0x1A78BF0 Offset: 0x1A771F0 VA: 0x181A78BF0
+	// RVA: 0x1A78EB0 Offset: 0x1A774B0 VA: 0x181A78EB0
 	public void set_label(GUIStyle value) { }
 
-	// RVA: 0x1A6D990 Offset: 0x1A6BF90 VA: 0x181A6D990
+	// RVA: 0x1A6DC50 Offset: 0x1A6C250 VA: 0x181A6DC50
 	public GUIStyle get_textField() { }
 
-	// RVA: 0x1A78D70 Offset: 0x1A77370 VA: 0x181A78D70
+	// RVA: 0x1A79030 Offset: 0x1A77630 VA: 0x181A79030
 	public void set_textField(GUIStyle value) { }
 
-	// RVA: 0xEAC1D0 Offset: 0xEAA7D0 VA: 0x180EAC1D0
+	// RVA: 0xEAC490 Offset: 0xEAAA90 VA: 0x180EAC490
 	public GUIStyle get_textArea() { }
 
-	// RVA: 0x1A78CF0 Offset: 0x1A772F0 VA: 0x181A78CF0
+	// RVA: 0x1A78FB0 Offset: 0x1A775B0 VA: 0x181A78FB0
 	public void set_textArea(GUIStyle value) { }
 
-	// RVA: 0x181D9D0 Offset: 0x181BFD0 VA: 0x18181D9D0
+	// RVA: 0x181DC90 Offset: 0x181C290 VA: 0x18181DC90
 	public GUIStyle get_button() { }
 
-	// RVA: 0x1A78620 Offset: 0x1A76C20 VA: 0x181A78620
+	// RVA: 0x1A788E0 Offset: 0x1A76EE0 VA: 0x181A788E0
 	public void set_button(GUIStyle value) { }
 
-	// RVA: 0xEB5AD0 Offset: 0xEB40D0 VA: 0x180EB5AD0
+	// RVA: 0xEB5D90 Offset: 0xEB4390 VA: 0x180EB5D90
 	public GUIStyle get_toggle() { }
 
-	// RVA: 0x1A78DF0 Offset: 0x1A773F0 VA: 0x181A78DF0
+	// RVA: 0x1A790B0 Offset: 0x1A776B0 VA: 0x181A790B0
 	public void set_toggle(GUIStyle value) { }
 
-	// RVA: 0x1A78590 Offset: 0x1A76B90 VA: 0x181A78590
+	// RVA: 0x1A78850 Offset: 0x1A76E50 VA: 0x181A78850
 	public GUIStyle get_window() { }
 
-	// RVA: 0x1A791F0 Offset: 0x1A777F0 VA: 0x181A791F0
+	// RVA: 0x1A794B0 Offset: 0x1A77AB0 VA: 0x181A794B0
 	public void set_window(GUIStyle value) { }
 
-	// RVA: 0x1A784E0 Offset: 0x1A76AE0 VA: 0x181A784E0
+	// RVA: 0x1A787A0 Offset: 0x1A76DA0 VA: 0x181A787A0
 	public GUIStyle get_horizontalSlider() { }
 
-	// RVA: 0x1A78B70 Offset: 0x1A77170 VA: 0x181A78B70
+	// RVA: 0x1A78E30 Offset: 0x1A77430 VA: 0x181A78E30
 	public void set_horizontalSlider(GUIStyle value) { }
 
-	// RVA: 0xEABFF0 Offset: 0xEAA5F0 VA: 0x180EABFF0
+	// RVA: 0xEAC2B0 Offset: 0xEAA8B0 VA: 0x180EAC2B0
 	public GUIStyle get_horizontalSliderThumb() { }
 
-	// RVA: 0x1A78AF0 Offset: 0x1A770F0 VA: 0x181A78AF0
+	// RVA: 0x1A78DB0 Offset: 0x1A773B0 VA: 0x181A78DB0
 	public void set_horizontalSliderThumb(GUIStyle value) { }
 
-	// RVA: 0x1A784D0 Offset: 0x1A76AD0 VA: 0x181A784D0
+	// RVA: 0x1A78790 Offset: 0x1A76D90 VA: 0x181A78790
 	internal GUIStyle get_horizontalSliderThumbExtent() { }
 
-	// RVA: 0x1A78A70 Offset: 0x1A77070 VA: 0x181A78A70
+	// RVA: 0x1A78D30 Offset: 0x1A77330 VA: 0x181A78D30
 	internal void set_horizontalSliderThumbExtent(GUIStyle value) { }
 
-	// RVA: 0x1A78580 Offset: 0x1A76B80 VA: 0x181A78580
+	// RVA: 0x1A78840 Offset: 0x1A76E40 VA: 0x181A78840
 	public GUIStyle get_verticalSlider() { }
 
-	// RVA: 0x1A79170 Offset: 0x1A77770 VA: 0x181A79170
+	// RVA: 0x1A79430 Offset: 0x1A77A30 VA: 0x181A79430
 	public void set_verticalSlider(GUIStyle value) { }
 
-	// RVA: 0x1A78570 Offset: 0x1A76B70 VA: 0x181A78570
+	// RVA: 0x1A78830 Offset: 0x1A76E30 VA: 0x181A78830
 	public GUIStyle get_verticalSliderThumb() { }
 
-	// RVA: 0x1A790F0 Offset: 0x1A776F0 VA: 0x181A790F0
+	// RVA: 0x1A793B0 Offset: 0x1A779B0 VA: 0x181A793B0
 	public void set_verticalSliderThumb(GUIStyle value) { }
 
-	// RVA: 0x1A78560 Offset: 0x1A76B60 VA: 0x181A78560
+	// RVA: 0x1A78820 Offset: 0x1A76E20 VA: 0x181A78820
 	internal GUIStyle get_verticalSliderThumbExtent() { }
 
-	// RVA: 0x1A79070 Offset: 0x1A77670 VA: 0x181A79070
+	// RVA: 0x1A79330 Offset: 0x1A77930 VA: 0x181A79330
 	internal void set_verticalSliderThumbExtent(GUIStyle value) { }
 
-	// RVA: 0x1A784C0 Offset: 0x1A76AC0 VA: 0x181A784C0
+	// RVA: 0x1A78780 Offset: 0x1A76D80 VA: 0x181A78780
 	public GUIStyle get_horizontalScrollbar() { }
 
-	// RVA: 0x1A789F0 Offset: 0x1A76FF0 VA: 0x181A789F0
+	// RVA: 0x1A78CB0 Offset: 0x1A772B0 VA: 0x181A78CB0
 	public void set_horizontalScrollbar(GUIStyle value) { }
 
-	// RVA: 0x1A784B0 Offset: 0x1A76AB0 VA: 0x181A784B0
+	// RVA: 0x1A78770 Offset: 0x1A76D70 VA: 0x181A78770
 	public GUIStyle get_horizontalScrollbarThumb() { }
 
-	// RVA: 0x1A78970 Offset: 0x1A76F70 VA: 0x181A78970
+	// RVA: 0x1A78C30 Offset: 0x1A77230 VA: 0x181A78C30
 	public void set_horizontalScrollbarThumb(GUIStyle value) { }
 
-	// RVA: 0x1A78490 Offset: 0x1A76A90 VA: 0x181A78490
+	// RVA: 0x1A78750 Offset: 0x1A76D50 VA: 0x181A78750
 	public GUIStyle get_horizontalScrollbarLeftButton() { }
 
-	// RVA: 0x1A78870 Offset: 0x1A76E70 VA: 0x181A78870
+	// RVA: 0x1A78B30 Offset: 0x1A77130 VA: 0x181A78B30
 	public void set_horizontalScrollbarLeftButton(GUIStyle value) { }
 
-	// RVA: 0x1A784A0 Offset: 0x1A76AA0 VA: 0x181A784A0
+	// RVA: 0x1A78760 Offset: 0x1A76D60 VA: 0x181A78760
 	public GUIStyle get_horizontalScrollbarRightButton() { }
 
-	// RVA: 0x1A788F0 Offset: 0x1A76EF0 VA: 0x181A788F0
+	// RVA: 0x1A78BB0 Offset: 0x1A771B0 VA: 0x181A78BB0
 	public void set_horizontalScrollbarRightButton(GUIStyle value) { }
 
-	// RVA: 0x1A78550 Offset: 0x1A76B50 VA: 0x181A78550
+	// RVA: 0x1A78810 Offset: 0x1A76E10 VA: 0x181A78810
 	public GUIStyle get_verticalScrollbar() { }
 
-	// RVA: 0x1A78FF0 Offset: 0x1A775F0 VA: 0x181A78FF0
+	// RVA: 0x1A792B0 Offset: 0x1A778B0 VA: 0x181A792B0
 	public void set_verticalScrollbar(GUIStyle value) { }
 
-	// RVA: 0x1A78530 Offset: 0x1A76B30 VA: 0x181A78530
+	// RVA: 0x1A787F0 Offset: 0x1A76DF0 VA: 0x181A787F0
 	public GUIStyle get_verticalScrollbarThumb() { }
 
-	// RVA: 0x1A78EF0 Offset: 0x1A774F0 VA: 0x181A78EF0
+	// RVA: 0x1A791B0 Offset: 0x1A777B0 VA: 0x181A791B0
 	public void set_verticalScrollbarThumb(GUIStyle value) { }
 
-	// RVA: 0x1A78540 Offset: 0x1A76B40 VA: 0x181A78540
+	// RVA: 0x1A78800 Offset: 0x1A76E00 VA: 0x181A78800
 	public GUIStyle get_verticalScrollbarUpButton() { }
 
-	// RVA: 0x1A78F70 Offset: 0x1A77570 VA: 0x181A78F70
+	// RVA: 0x1A79230 Offset: 0x1A77830 VA: 0x181A79230
 	public void set_verticalScrollbarUpButton(GUIStyle value) { }
 
-	// RVA: 0x1A78520 Offset: 0x1A76B20 VA: 0x181A78520
+	// RVA: 0x1A787E0 Offset: 0x1A76DE0 VA: 0x181A787E0
 	public GUIStyle get_verticalScrollbarDownButton() { }
 
-	// RVA: 0x1A78E70 Offset: 0x1A77470 VA: 0x181A78E70
+	// RVA: 0x1A79130 Offset: 0x1A77730 VA: 0x181A79130
 	public void set_verticalScrollbarDownButton(GUIStyle value) { }
 
-	// RVA: 0x1A78500 Offset: 0x1A76B00 VA: 0x181A78500
+	// RVA: 0x1A787C0 Offset: 0x1A76DC0 VA: 0x181A787C0
 	public GUIStyle get_scrollView() { }
 
-	// RVA: 0x1A78C70 Offset: 0x1A77270 VA: 0x181A78C70
+	// RVA: 0x1A78F30 Offset: 0x1A77530 VA: 0x181A78F30
 	public void set_scrollView(GUIStyle value) { }
 
-	// RVA: 0x1A78390 Offset: 0x1A76990 VA: 0x181A78390
+	// RVA: 0x1A78650 Offset: 0x1A76C50 VA: 0x181A78650
 	public GUIStyle[] get_customStyles() { }
 
-	// RVA: 0x1A786A0 Offset: 0x1A76CA0 VA: 0x181A786A0
+	// RVA: 0x1A78960 Offset: 0x1A76F60 VA: 0x181A78960
 	public void set_customStyles(GUIStyle[] value) { }
 
-	// RVA: 0x1A78510 Offset: 0x1A76B10 VA: 0x181A78510
+	// RVA: 0x1A787D0 Offset: 0x1A76DD0 VA: 0x181A787D0
 	public GUISettings get_settings() { }
 
-	// RVA: 0x1A783A0 Offset: 0x1A769A0 VA: 0x181A783A0
+	// RVA: 0x1A78660 Offset: 0x1A76C60 VA: 0x181A78660
 	internal static GUIStyle get_error() { }
 
-	// RVA: 0x1A76990 Offset: 0x1A74F90 VA: 0x181A76990
+	// RVA: 0x1A76C50 Offset: 0x1A75250 VA: 0x181A76C50
 	internal void Apply() { }
 
-	// RVA: 0x1A76A00 Offset: 0x1A75000 VA: 0x181A76A00
+	// RVA: 0x1A76CC0 Offset: 0x1A752C0 VA: 0x181A76CC0
 	private void BuildStyleCache() { }
 
-	// RVA: 0x1A77DB0 Offset: 0x1A763B0 VA: 0x181A77DB0
+	// RVA: 0x1A78070 Offset: 0x1A76670 VA: 0x181A78070
 	public GUIStyle GetStyle(string styleName) { }
 
-	// RVA: 0x1A77C70 Offset: 0x1A76270 VA: 0x181A77C70
+	// RVA: 0x1A77F30 Offset: 0x1A76530 VA: 0x181A77F30
 	public GUIStyle FindStyle(string styleName) { }
 
-	// RVA: 0x1A781E0 Offset: 0x1A767E0 VA: 0x181A781E0
+	// RVA: 0x1A784A0 Offset: 0x1A76AA0 VA: 0x181A784A0
 	internal void MakeCurrent() { }
 
-	// RVA: 0x1A77D10 Offset: 0x1A76310 VA: 0x181A77D10
+	// RVA: 0x1A77FD0 Offset: 0x1A765D0 VA: 0x181A77FD0
 	public IEnumerator GetEnumerator() { }
 
 }
@@ -268,7 +268,7 @@ internal sealed class GUISkin.SkinChangedDelegate : MulticastDelegate // TypeDef
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1A85AC0 Offset: 0x1A840C0 VA: 0x181A85AC0 Slot: 12
+	// RVA: 0x1A85D80 Offset: 0x1A84380 VA: 0x181A85D80 Slot: 12
 	public virtual void Invoke() { }
 
 	// RVA: 0x49A190 Offset: 0x498790 VA: 0x18049A190 Slot: 13

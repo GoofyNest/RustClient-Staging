@@ -6,16 +6,16 @@ public class SprayCanViewmodel : MonoBehaviour, IAnimationEventReceiver // TypeD
 
 	// Methods
 
-	// RVA: 0xA83A60 Offset: 0xA82060 VA: 0x180A83A60
+	// RVA: 0xA83D20 Offset: 0xA82320 VA: 0x180A83D20
 	public void SetSprayColour(Color c) { }
 
-	// RVA: 0xA83B40 Offset: 0xA82140 VA: 0x180A83B40
+	// RVA: 0xA83E00 Offset: 0xA82400 VA: 0x180A83E00
 	public void ToggleSpray(bool state) { }
 
-	// RVA: 0xA839C0 Offset: 0xA81FC0 VA: 0x180A839C0
+	// RVA: 0xA83C80 Offset: 0xA82280 VA: 0x180A83C80
 	private void OnDisable() { }
 
-	// RVA: 0xA83930 Offset: 0xA81F30 VA: 0x180A83930 Slot: 4
+	// RVA: 0xA83BF0 Offset: 0xA821F0 VA: 0x180A83BF0 Slot: 4
 	public void OnAnimationEvent(string eventName) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

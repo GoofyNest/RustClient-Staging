@@ -4,10 +4,10 @@ public static class GameTrace // TypeDefIndex: 9262
 
 	// Methods
 
-	// RVA: 0xC48FE0 Offset: 0xC475E0 VA: 0x180C48FE0
+	// RVA: 0xC492A0 Offset: 0xC478A0 VA: 0x180C492A0
 	public static void TraceAll(HitTest test, List<TraceInfo> traces, int layerMask = -5) { }
 
-	// RVA: 0xC498E0 Offset: 0xC47EE0 VA: 0x180C498E0
+	// RVA: 0xC49BA0 Offset: 0xC481A0 VA: 0x180C49BA0
 	public static bool Trace(HitTest test, int layerMask = -5) { }
 
 }
@@ -19,13 +19,13 @@ private sealed class GameTrace.<>c // TypeDefIndex: 9263
 
 	// Methods
 
-	// RVA: 0xC64FC0 Offset: 0xC635C0 VA: 0x180C64FC0
+	// RVA: 0xC65280 Offset: 0xC63880 VA: 0x180C65280
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x93B1D0 Offset: 0x9397D0 VA: 0x18093B1D0
+	// RVA: 0x93B2E0 Offset: 0x9398E0 VA: 0x18093B2E0
 	internal int <TraceAll>b__1_0(TraceInfo a, TraceInfo b) { }
 
 }

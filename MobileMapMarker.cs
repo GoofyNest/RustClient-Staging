@@ -4,13 +4,13 @@ public class MobileMapMarker : MapMarker // TypeDefIndex: 8873
 
 	// Methods
 
-	// RVA: 0x76CD70 Offset: 0x76B370 VA: 0x18076CD70 Slot: 131
+	// RVA: 0x76CE80 Offset: 0x76B480 VA: 0x18076CE80 Slot: 131
 	public override void SetupUIMarker(GameObject marker) { }
 
-	// RVA: 0x76CDB0 Offset: 0x76B3B0 VA: 0x18076CDB0
+	// RVA: 0x76CEC0 Offset: 0x76B4C0 VA: 0x18076CEC0
 	public void Update() { }
 
-	// RVA: 0x76CF80 Offset: 0x76B580 VA: 0x18076CF80
+	// RVA: 0x76D090 Offset: 0x76B690 VA: 0x18076D090
 	public void .ctor() { }
 
 }

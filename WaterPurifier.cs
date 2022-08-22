@@ -12,7 +12,7 @@ public class WaterPurifier : LiquidContainer // TypeDefIndex: 9523
 	// RVA: 0x49BB60 Offset: 0x49A160 VA: 0x18049BB60
 	public bool IsBoiling() { }
 
-	// RVA: 0xC1A260 Offset: 0xC18860 VA: 0x180C1A260
+	// RVA: 0xC1A520 Offset: 0xC18B20 VA: 0x180C1A520
 	public void .ctor() { }
 
 }

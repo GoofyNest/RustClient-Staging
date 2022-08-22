@@ -5,7 +5,7 @@ public class WorkshopIconRender : MonoBehaviour // TypeDefIndex: 11536
 
 	// Methods
 
-	// RVA: 0x8FE5D0 Offset: 0x8FCBD0 VA: 0x1808FE5D0
+	// RVA: 0x8FE6E0 Offset: 0x8FCCE0 VA: 0x1808FE6E0
 	public void .ctor() { }
 
 }

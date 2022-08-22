@@ -42,28 +42,28 @@ internal sealed class SchemaEntity : IDtdEntityInfo // TypeDefIndex: 2278
 
 	// Methods
 
-	// RVA: 0xEE6ED0 Offset: 0xEE54D0 VA: 0x180EE6ED0
+	// RVA: 0xEE7190 Offset: 0xEE5790 VA: 0x180EE7190
 	internal void .ctor(XmlQualifiedName qname, bool isParameter) { }
 
-	// RVA: 0xB28B30 Offset: 0xB27130 VA: 0x180B28B30 Slot: 4
+	// RVA: 0xB28DF0 Offset: 0xB273F0 VA: 0x180B28DF0 Slot: 4
 	private string System.Xml.IDtdEntityInfo.get_Name() { }
 
-	// RVA: 0xEE6E90 Offset: 0xEE5490 VA: 0x180EE6E90 Slot: 5
+	// RVA: 0xEE7150 Offset: 0xEE5750 VA: 0x180EE7150 Slot: 5
 	private bool System.Xml.IDtdEntityInfo.get_IsExternal() { }
 
-	// RVA: 0xEE6E80 Offset: 0xEE5480 VA: 0x180EE6E80 Slot: 6
+	// RVA: 0xEE7140 Offset: 0xEE5740 VA: 0x180EE7140 Slot: 6
 	private bool System.Xml.IDtdEntityInfo.get_IsDeclaredInExternal() { }
 
-	// RVA: 0xEE6EA0 Offset: 0xEE54A0 VA: 0x180EE6EA0 Slot: 7
+	// RVA: 0xEE7160 Offset: 0xEE5760 VA: 0x180EE7160 Slot: 7
 	private bool System.Xml.IDtdEntityInfo.get_IsUnparsedEntity() { }
 
-	// RVA: 0x8054F0 Offset: 0x803AF0 VA: 0x1808054F0 Slot: 8
+	// RVA: 0x805600 Offset: 0x803C00 VA: 0x180805600 Slot: 8
 	private bool System.Xml.IDtdEntityInfo.get_IsParameterEntity() { }
 
-	// RVA: 0xEE6DE0 Offset: 0xEE53E0 VA: 0x180EE6DE0 Slot: 9
+	// RVA: 0xEE70A0 Offset: 0xEE56A0 VA: 0x180EE70A0 Slot: 9
 	private string System.Xml.IDtdEntityInfo.get_BaseUriString() { }
 
-	// RVA: 0xEE6E30 Offset: 0xEE5430 VA: 0x180EE6E30 Slot: 10
+	// RVA: 0xEE70F0 Offset: 0xEE56F0 VA: 0x180EE70F0 Slot: 10
 	private string System.Xml.IDtdEntityInfo.get_DeclaredUriString() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 11
@@ -72,16 +72,16 @@ internal sealed class SchemaEntity : IDtdEntityInfo // TypeDefIndex: 2278
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 12
 	private string System.Xml.IDtdEntityInfo.get_PublicId() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330 Slot: 13
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 13
 	private string System.Xml.IDtdEntityInfo.get_Text() { }
 
-	// RVA: 0x6BB940 Offset: 0x6B9F40 VA: 0x1806BB940 Slot: 14
+	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50 Slot: 14
 	private int System.Xml.IDtdEntityInfo.get_LineNumber() { }
 
 	// RVA: 0x5E2F50 Offset: 0x5E1550 VA: 0x1805E2F50 Slot: 15
 	private int System.Xml.IDtdEntityInfo.get_LinePosition() { }
 
-	// RVA: 0xEE6D40 Offset: 0xEE5340 VA: 0x180EE6D40
+	// RVA: 0xEE7000 Offset: 0xEE5600 VA: 0x180EE7000
 	internal static bool IsPredefinedEntity(string n) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
@@ -90,7 +90,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo // TypeDefIndex: 2278
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	internal string get_Url() { }
 
-	// RVA: 0xEE7070 Offset: 0xEE5670 VA: 0x180EE7070
+	// RVA: 0xEE7330 Offset: 0xEE5930 VA: 0x180EE7330
 	internal void set_Url(string value) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
@@ -99,16 +99,16 @@ internal sealed class SchemaEntity : IDtdEntityInfo // TypeDefIndex: 2278
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	internal void set_Pubid(string value) { }
 
-	// RVA: 0xEE6E90 Offset: 0xEE5490 VA: 0x180EE6E90
+	// RVA: 0xEE7150 Offset: 0xEE5750 VA: 0x180EE7150
 	internal bool get_IsExternal() { }
 
-	// RVA: 0xEE7030 Offset: 0xEE5630 VA: 0x180EE7030
+	// RVA: 0xEE72F0 Offset: 0xEE58F0 VA: 0x180EE72F0
 	internal void set_IsExternal(bool value) { }
 
-	// RVA: 0xEE6E80 Offset: 0xEE5480 VA: 0x180EE6E80
+	// RVA: 0xEE7140 Offset: 0xEE5740 VA: 0x180EE7140
 	internal bool get_DeclaredInExternal() { }
 
-	// RVA: 0xEE7020 Offset: 0xEE5620 VA: 0x180EE7020
+	// RVA: 0xEE72E0 Offset: 0xEE58E0 VA: 0x180EE72E0
 	internal void set_DeclaredInExternal(bool value) { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
@@ -117,37 +117,37 @@ internal sealed class SchemaEntity : IDtdEntityInfo // TypeDefIndex: 2278
 	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
 	internal void set_NData(XmlQualifiedName value) { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	internal string get_Text() { }
 
-	// RVA: 0xEE7050 Offset: 0xEE5650 VA: 0x180EE7050
+	// RVA: 0xEE7310 Offset: 0xEE5910 VA: 0x180EE7310
 	internal void set_Text(string value) { }
 
-	// RVA: 0x6BB940 Offset: 0x6B9F40 VA: 0x1806BB940
+	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50
 	internal int get_Line() { }
 
-	// RVA: 0xC74910 Offset: 0xC72F10 VA: 0x180C74910
+	// RVA: 0xC74BD0 Offset: 0xC731D0 VA: 0x180C74BD0
 	internal void set_Line(int value) { }
 
 	// RVA: 0x5E2F50 Offset: 0x5E1550 VA: 0x1805E2F50
 	internal int get_Pos() { }
 
-	// RVA: 0x8C1070 Offset: 0x8BF670 VA: 0x1808C1070
+	// RVA: 0x8C1180 Offset: 0x8BF780 VA: 0x1808C1180
 	internal void set_Pos(int value) { }
 
-	// RVA: 0xEE6F70 Offset: 0xEE5570 VA: 0x180EE6F70
+	// RVA: 0xEE7230 Offset: 0xEE5830 VA: 0x180EE7230
 	internal string get_BaseURI() { }
 
 	// RVA: 0x5DD810 Offset: 0x5DBE10 VA: 0x1805DD810
 	internal void set_BaseURI(string value) { }
 
-	// RVA: 0xEE7010 Offset: 0xEE5610 VA: 0x180EE7010
+	// RVA: 0xEE72D0 Offset: 0xEE58D0 VA: 0x180EE72D0
 	internal bool get_ParsingInProgress() { }
 
-	// RVA: 0xEE7040 Offset: 0xEE5640 VA: 0x180EE7040
+	// RVA: 0xEE7300 Offset: 0xEE5900 VA: 0x180EE7300
 	internal void set_ParsingInProgress(bool value) { }
 
-	// RVA: 0xEE6FC0 Offset: 0xEE55C0 VA: 0x180EE6FC0
+	// RVA: 0xEE7280 Offset: 0xEE5880 VA: 0x180EE7280
 	internal string get_DeclaredURI() { }
 
 	// RVA: 0x4CF890 Offset: 0x4CDE90 VA: 0x1804CF890

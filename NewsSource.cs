@@ -14,34 +14,34 @@ public class NewsSource : MonoBehaviour // TypeDefIndex: 11127
 
 	// Methods
 
-	// RVA: 0x9D1660 Offset: 0x9CFC60 VA: 0x1809D1660
+	// RVA: 0x9D1920 Offset: 0x9CFF20 VA: 0x1809D1920
 	public void Awake() { }
 
-	// RVA: 0x9D17C0 Offset: 0x9CFDC0 VA: 0x1809D17C0
+	// RVA: 0x9D1A80 Offset: 0x9D0080 VA: 0x1809D1A80
 	public void OnEnable() { }
 
-	// RVA: 0x9D25A0 Offset: 0x9D0BA0 VA: 0x1809D25A0
+	// RVA: 0x9D2860 Offset: 0x9D0E60 VA: 0x1809D2860
 	public void SetStory(SteamNewsSource.Story story) { }
 
-	// RVA: 0x9D1850 Offset: 0x9CFE50 VA: 0x1809D1850
+	// RVA: 0x9D1B10 Offset: 0x9D0110 VA: 0x1809D1B10
 	private void ParseBbcode(ref NewsSource.ParagraphBuilder currentParagraph, string bbcode, ref string firstImage, int depth = 0) { }
 
-	// RVA: 0x9D16B0 Offset: 0x9CFCB0 VA: 0x1809D16B0
+	// RVA: 0x9D1970 Offset: 0x9CFF70 VA: 0x1809D1970
 	private static string[] GetBulletPoints(string listContent) { }
 
-	// RVA: 0x9D1320 Offset: 0x9CF920 VA: 0x1809D1320
+	// RVA: 0x9D15E0 Offset: 0x9CFBE0 VA: 0x1809D15E0
 	private void AppendParagraph(ref NewsSource.ParagraphBuilder currentParagraph) { }
 
-	// RVA: 0x9D1260 Offset: 0x9CF860 VA: 0x1809D1260
+	// RVA: 0x9D1520 Offset: 0x9CFB20 VA: 0x1809D1520
 	private void AppendImage(ref NewsSource.ParagraphBuilder currentParagraph, string url) { }
 
-	// RVA: 0x9D14E0 Offset: 0x9CFAE0 VA: 0x1809D14E0
+	// RVA: 0x9D17A0 Offset: 0x9CFDA0 VA: 0x1809D17A0
 	private void AppendYouTube(ref NewsSource.ParagraphBuilder currentParagraph, string videoId) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0x9D28C0 Offset: 0x9D0EC0 VA: 0x1809D28C0
+	// RVA: 0x9D2B80 Offset: 0x9D1180 VA: 0x1809D2B80
 	private static void .cctor() { }
 
 }
@@ -53,7 +53,7 @@ private struct NewsSource.ParagraphBuilder // TypeDefIndex: 11128
 
 	// Methods
 
-	// RVA: 0x9EAE20 Offset: 0x9E9420 VA: 0x1809EAE20
+	// RVA: 0x9EB0E0 Offset: 0x9E96E0 VA: 0x1809EB0E0
 	public static NewsSource.ParagraphBuilder New() { }
 
 	// RVA: 0xFB190 Offset: 0xFA590 VA: 0x1800FB190
@@ -73,10 +73,10 @@ private sealed class NewsSource.<>c__DisplayClass12_0 // TypeDefIndex: 11129
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x9EB8A0 Offset: 0x9E9EA0 VA: 0x1809EB8A0
+	// RVA: 0x9EBB60 Offset: 0x9EA160 VA: 0x1809EBB60
 	internal void <SetStory>b__0() { }
 
-	// RVA: 0x9EB940 Offset: 0x9E9F40 VA: 0x1809EB940
+	// RVA: 0x9EBC00 Offset: 0x9EA200 VA: 0x1809EBC00
 	internal Manifest.NewsInfo.BlogInfo <SetStory>g__GetBlogPost|1() { }
 
 }
@@ -88,13 +88,13 @@ private sealed class NewsSource.<>c // TypeDefIndex: 11130
 
 	// Methods
 
-	// RVA: 0x9EBB80 Offset: 0x9EA180 VA: 0x1809EBB80
+	// RVA: 0x9EBE40 Offset: 0x9EA440 VA: 0x1809EBE40
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x93B100 Offset: 0x939700 VA: 0x18093B100
+	// RVA: 0x93B210 Offset: 0x939810 VA: 0x18093B210
 	internal string <SetStory>b__12_2(Manifest.NewsInfo.BlogInfo b) { }
 
 }
@@ -108,7 +108,7 @@ private sealed class NewsSource.<>c__DisplayClass18_0 // TypeDefIndex: 11131
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x9EBB00 Offset: 0x9EA100 VA: 0x1809EBB00
+	// RVA: 0x9EBDC0 Offset: 0x9EA3C0 VA: 0x1809EBDC0
 	internal void <AppendYouTube>b__0() { }
 
 }

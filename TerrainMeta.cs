@@ -93,273 +93,273 @@ public class TerrainMeta : MonoBehaviour // TypeDefIndex: 10425
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BE50 Offset: 0x114A450 VA: 0x18114BE50
+	// RVA: 0x114C110 Offset: 0x114A710 VA: 0x18114C110
 	public static TerrainConfig get_Config() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C5D0 Offset: 0x114ABD0 VA: 0x18114C5D0
+	// RVA: 0x114C890 Offset: 0x114AE90 VA: 0x18114C890
 	private static void set_Config(TerrainConfig value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C260 Offset: 0x114A860 VA: 0x18114C260
+	// RVA: 0x114C520 Offset: 0x114AB20 VA: 0x18114C520
 	public static Terrain get_Terrain() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114CA80 Offset: 0x114B080 VA: 0x18114CA80
+	// RVA: 0x114CD40 Offset: 0x114B340 VA: 0x18114CD40
 	private static void set_Terrain(Terrain value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C320 Offset: 0x114A920 VA: 0x18114C320
+	// RVA: 0x114C5E0 Offset: 0x114ABE0 VA: 0x18114C5E0
 	public static Transform get_Transform() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114CB70 Offset: 0x114B170 VA: 0x18114CB70
+	// RVA: 0x114CE30 Offset: 0x114B430 VA: 0x18114CE30
 	private static void set_Transform(Transform value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C140 Offset: 0x114A740 VA: 0x18114C140
+	// RVA: 0x114C400 Offset: 0x114AA00 VA: 0x18114C400
 	public static Vector3 get_Position() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C940 Offset: 0x114AF40 VA: 0x18114C940
+	// RVA: 0x114CC00 Offset: 0x114B200 VA: 0x18114CC00
 	private static void set_Position(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C1D0 Offset: 0x114A7D0 VA: 0x18114C1D0
+	// RVA: 0x114C490 Offset: 0x114AA90 VA: 0x18114C490
 	public static Vector3 get_Size() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C9E0 Offset: 0x114AFE0 VA: 0x18114C9E0
+	// RVA: 0x114CCA0 Offset: 0x114B2A0 VA: 0x18114CCA0
 	private static void set_Size(Vector3 value) { }
 
-	// RVA: 0x114BC50 Offset: 0x114A250 VA: 0x18114BC50
+	// RVA: 0x114BF10 Offset: 0x114A510 VA: 0x18114BF10
 	public static Vector3 get_Center() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C030 Offset: 0x114A630 VA: 0x18114C030
+	// RVA: 0x114C2F0 Offset: 0x114A8F0 VA: 0x18114C2F0
 	public static Vector3 get_OneOverSize() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C800 Offset: 0x114AE00 VA: 0x18114C800
+	// RVA: 0x114CAC0 Offset: 0x114B0C0 VA: 0x18114CAC0
 	private static void set_OneOverSize(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BF50 Offset: 0x114A550 VA: 0x18114BF50
+	// RVA: 0x114C210 Offset: 0x114A810 VA: 0x18114C210
 	public static Vector3 get_HighestPoint() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C710 Offset: 0x114AD10 VA: 0x18114C710
+	// RVA: 0x114C9D0 Offset: 0x114AFD0 VA: 0x18114C9D0
 	public static void set_HighestPoint(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BFE0 Offset: 0x114A5E0 VA: 0x18114BFE0
+	// RVA: 0x114C2A0 Offset: 0x114A8A0 VA: 0x18114C2A0
 	public static Vector3 get_LowestPoint() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C7B0 Offset: 0x114ADB0 VA: 0x18114C7B0
+	// RVA: 0x114CA70 Offset: 0x114B070 VA: 0x18114CA70
 	public static void set_LowestPoint(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BFA0 Offset: 0x114A5A0 VA: 0x18114BFA0
+	// RVA: 0x114C260 Offset: 0x114A860 VA: 0x18114C260
 	public static float get_LootAxisAngle() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C760 Offset: 0x114AD60 VA: 0x18114C760
+	// RVA: 0x114CA20 Offset: 0x114B020 VA: 0x18114CA20
 	private static void set_LootAxisAngle(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BB90 Offset: 0x114A190 VA: 0x18114BB90
+	// RVA: 0x114BE50 Offset: 0x114A450 VA: 0x18114BE50
 	public static float get_BiomeAxisAngle() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C3F0 Offset: 0x114A9F0 VA: 0x18114C3F0
+	// RVA: 0x114C6B0 Offset: 0x114ACB0 VA: 0x18114C6B0
 	private static void set_BiomeAxisAngle(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BE90 Offset: 0x114A490 VA: 0x18114BE90
+	// RVA: 0x114C150 Offset: 0x114A750 VA: 0x18114C150
 	public static TerrainData get_Data() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C620 Offset: 0x114AC20 VA: 0x18114C620
+	// RVA: 0x114C8E0 Offset: 0x114AEE0 VA: 0x18114C8E0
 	private static void set_Data(TerrainData value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BD90 Offset: 0x114A390 VA: 0x18114BD90
+	// RVA: 0x114C050 Offset: 0x114A650 VA: 0x18114C050
 	public static TerrainCollider get_Collider() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C4E0 Offset: 0x114AAE0 VA: 0x18114C4E0
+	// RVA: 0x114C7A0 Offset: 0x114ADA0 VA: 0x18114C7A0
 	private static void set_Collider(TerrainCollider value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BDD0 Offset: 0x114A3D0 VA: 0x18114BDD0
+	// RVA: 0x114C090 Offset: 0x114A690 VA: 0x18114C090
 	public static TerrainCollision get_Collision() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C530 Offset: 0x114AB30 VA: 0x18114C530
+	// RVA: 0x114C7F0 Offset: 0x114ADF0 VA: 0x18114C7F0
 	private static void set_Collision(TerrainCollision value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C0C0 Offset: 0x114A6C0 VA: 0x18114C0C0
+	// RVA: 0x114C380 Offset: 0x114A980 VA: 0x18114C380
 	public static TerrainPhysics get_Physics() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C8A0 Offset: 0x114AEA0 VA: 0x18114C8A0
+	// RVA: 0x114CB60 Offset: 0x114B160 VA: 0x18114CB60
 	private static void set_Physics(TerrainPhysics value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BE10 Offset: 0x114A410 VA: 0x18114BE10
+	// RVA: 0x114C0D0 Offset: 0x114A6D0 VA: 0x18114C0D0
 	public static TerrainColors get_Colors() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C580 Offset: 0x114AB80 VA: 0x18114C580
+	// RVA: 0x114C840 Offset: 0x114AE40 VA: 0x18114C840
 	private static void set_Colors(TerrainColors value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C190 Offset: 0x114A790 VA: 0x18114C190
+	// RVA: 0x114C450 Offset: 0x114AA50 VA: 0x18114C450
 	public static TerrainQuality get_Quality() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C990 Offset: 0x114AF90 VA: 0x18114C990
+	// RVA: 0x114CC50 Offset: 0x114B250 VA: 0x18114CC50
 	private static void set_Quality(TerrainQuality value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C080 Offset: 0x114A680 VA: 0x18114C080
+	// RVA: 0x114C340 Offset: 0x114A940 VA: 0x18114C340
 	public static TerrainPath get_Path() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C850 Offset: 0x114AE50 VA: 0x18114C850
+	// RVA: 0x114CB10 Offset: 0x114B110 VA: 0x18114CB10
 	private static void set_Path(TerrainPath value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BBD0 Offset: 0x114A1D0 VA: 0x18114BBD0
+	// RVA: 0x114BE90 Offset: 0x114A490 VA: 0x18114BE90
 	public static TerrainBiomeMap get_BiomeMap() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C440 Offset: 0x114AA40 VA: 0x18114C440
+	// RVA: 0x114C700 Offset: 0x114AD00 VA: 0x18114C700
 	private static void set_BiomeMap(TerrainBiomeMap value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BB50 Offset: 0x114A150 VA: 0x18114BB50
+	// RVA: 0x114BE10 Offset: 0x114A410 VA: 0x18114BE10
 	public static TerrainAlphaMap get_AlphaMap() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C3A0 Offset: 0x114A9A0 VA: 0x18114C3A0
+	// RVA: 0x114C660 Offset: 0x114AC60 VA: 0x18114C660
 	private static void set_AlphaMap(TerrainAlphaMap value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BC10 Offset: 0x114A210 VA: 0x18114BC10
+	// RVA: 0x114BED0 Offset: 0x114A4D0 VA: 0x18114BED0
 	public static TerrainBlendMap get_BlendMap() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C490 Offset: 0x114AA90 VA: 0x18114C490
+	// RVA: 0x114C750 Offset: 0x114AD50 VA: 0x18114C750
 	private static void set_BlendMap(TerrainBlendMap value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BF10 Offset: 0x114A510 VA: 0x18114BF10
+	// RVA: 0x114C1D0 Offset: 0x114A7D0 VA: 0x18114C1D0
 	public static TerrainHeightMap get_HeightMap() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C6C0 Offset: 0x114ACC0 VA: 0x18114C6C0
+	// RVA: 0x114C980 Offset: 0x114AF80 VA: 0x18114C980
 	private static void set_HeightMap(TerrainHeightMap value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C220 Offset: 0x114A820 VA: 0x18114C220
+	// RVA: 0x114C4E0 Offset: 0x114AAE0 VA: 0x18114C4E0
 	public static TerrainSplatMap get_SplatMap() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114CA30 Offset: 0x114B030 VA: 0x18114CA30
+	// RVA: 0x114CCF0 Offset: 0x114B2F0 VA: 0x18114CCF0
 	private static void set_SplatMap(TerrainSplatMap value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C2E0 Offset: 0x114A8E0 VA: 0x18114C2E0
+	// RVA: 0x114C5A0 Offset: 0x114ABA0 VA: 0x18114C5A0
 	public static TerrainTopologyMap get_TopologyMap() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114CB20 Offset: 0x114B120 VA: 0x18114CB20
+	// RVA: 0x114CDE0 Offset: 0x114B3E0 VA: 0x18114CDE0
 	private static void set_TopologyMap(TerrainTopologyMap value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C360 Offset: 0x114A960 VA: 0x18114C360
+	// RVA: 0x114C620 Offset: 0x114AC20 VA: 0x18114C620
 	public static TerrainWaterMap get_WaterMap() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114CBC0 Offset: 0x114B1C0 VA: 0x18114CBC0
+	// RVA: 0x114CE80 Offset: 0x114B480 VA: 0x18114CE80
 	private static void set_WaterMap(TerrainWaterMap value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114BED0 Offset: 0x114A4D0 VA: 0x18114BED0
+	// RVA: 0x114C190 Offset: 0x114A790 VA: 0x18114C190
 	public static TerrainDistanceMap get_DistanceMap() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C670 Offset: 0x114AC70 VA: 0x18114C670
+	// RVA: 0x114C930 Offset: 0x114AF30 VA: 0x18114C930
 	private static void set_DistanceMap(TerrainDistanceMap value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C100 Offset: 0x114A700 VA: 0x18114C100
+	// RVA: 0x114C3C0 Offset: 0x114A9C0 VA: 0x18114C3C0
 	public static TerrainPlacementMap get_PlacementMap() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C8F0 Offset: 0x114AEF0 VA: 0x18114C8F0
+	// RVA: 0x114CBB0 Offset: 0x114B1B0 VA: 0x18114CBB0
 	private static void set_PlacementMap(TerrainPlacementMap value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114C2A0 Offset: 0x114A8A0 VA: 0x18114C2A0
+	// RVA: 0x114C560 Offset: 0x114AB60 VA: 0x18114C560
 	public static TerrainTexturing get_Texturing() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x114CAD0 Offset: 0x114B0D0 VA: 0x18114CAD0
+	// RVA: 0x114CD90 Offset: 0x114B390 VA: 0x18114CD90
 	private static void set_Texturing(TerrainTexturing value) { }
 
-	// RVA: 0x114B260 Offset: 0x1149860 VA: 0x18114B260
+	// RVA: 0x114B520 Offset: 0x1149B20 VA: 0x18114B520
 	public static bool OutOfBounds(Vector3 worldPos) { }
 
-	// RVA: 0x114B420 Offset: 0x1149A20 VA: 0x18114B420
+	// RVA: 0x114B6E0 Offset: 0x1149CE0 VA: 0x18114B6E0
 	public static bool OutOfMargin(Vector3 worldPos) { }
 
-	// RVA: 0x114B780 Offset: 0x1149D80 VA: 0x18114B780
+	// RVA: 0x114BA40 Offset: 0x114A040 VA: 0x18114BA40
 	public static Vector3 RandomPointOffshore() { }
 
-	// RVA: 0x114B060 Offset: 0x1149660 VA: 0x18114B060
+	// RVA: 0x114B320 Offset: 0x1149920 VA: 0x18114B320
 	public static Vector3 Normalize(Vector3 worldPos) { }
 
-	// RVA: 0x114AEB0 Offset: 0x11494B0 VA: 0x18114AEB0
+	// RVA: 0x114B170 Offset: 0x1149770 VA: 0x18114B170
 	public static float NormalizeX(float x) { }
 
-	// RVA: 0x114AF40 Offset: 0x1149540 VA: 0x18114AF40
+	// RVA: 0x114B200 Offset: 0x1149800 VA: 0x18114B200
 	public static float NormalizeY(float y) { }
 
-	// RVA: 0x114AFD0 Offset: 0x11495D0 VA: 0x18114AFD0
+	// RVA: 0x114B290 Offset: 0x1149890 VA: 0x18114B290
 	public static float NormalizeZ(float z) { }
 
-	// RVA: 0x1149EB0 Offset: 0x11484B0 VA: 0x181149EB0
+	// RVA: 0x114A170 Offset: 0x1148770 VA: 0x18114A170
 	public static Vector3 Denormalize(Vector3 normPos) { }
 
-	// RVA: 0x1149D00 Offset: 0x1148300 VA: 0x181149D00
+	// RVA: 0x1149FC0 Offset: 0x11485C0 VA: 0x181149FC0
 	public static float DenormalizeX(float normX) { }
 
-	// RVA: 0x1149D90 Offset: 0x1148390 VA: 0x181149D90
+	// RVA: 0x114A050 Offset: 0x1148650 VA: 0x18114A050
 	public static float DenormalizeY(float normY) { }
 
-	// RVA: 0x1149E20 Offset: 0x1148420 VA: 0x181149E20
+	// RVA: 0x114A0E0 Offset: 0x11486E0 VA: 0x18114A0E0
 	public static float DenormalizeZ(float normZ) { }
 
-	// RVA: 0x1148B20 Offset: 0x1147120 VA: 0x181148B20
+	// RVA: 0x1148DE0 Offset: 0x11473E0 VA: 0x181148DE0
 	protected void Awake() { }
 
-	// RVA: 0x114A270 Offset: 0x1148870 VA: 0x18114A270
+	// RVA: 0x114A530 Offset: 0x1148B30 VA: 0x18114A530
 	public void Init(Terrain terrainOverride, TerrainConfig configOverride) { }
 
-	// RVA: 0x114A0A0 Offset: 0x11486A0 VA: 0x18114A0A0
+	// RVA: 0x114A360 Offset: 0x1148960 VA: 0x18114A360
 	public static void InitNoTerrain(bool createPath = False) { }
 
-	// RVA: 0x114BAA0 Offset: 0x114A0A0 VA: 0x18114BAA0
+	// RVA: 0x114BD60 Offset: 0x114A360 VA: 0x18114BD60
 	public void SetupComponents() { }
 
-	// RVA: 0x114B6E0 Offset: 0x1149CE0 VA: 0x18114B6E0
+	// RVA: 0x114B9A0 Offset: 0x1149FA0 VA: 0x18114B9A0
 	public void PostSetupComponents() { }
 
-	// RVA: 0x1148B70 Offset: 0x1147170 VA: 0x181148B70
+	// RVA: 0x1148E30 Offset: 0x1147430 VA: 0x181148E30
 	public void BindShaderProperties() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

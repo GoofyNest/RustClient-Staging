@@ -20,10 +20,10 @@ internal struct RuntimeGPtrArrayHandle // TypeDefIndex: 10
 	// RVA: 0x1F6950 Offset: 0x1F5D50 VA: 0x1801F6950
 	internal IntPtr Lookup(int i) { }
 
-	// RVA: 0x164A020 Offset: 0x1648620 VA: 0x18164A020
+	// RVA: 0x164A2E0 Offset: 0x16488E0 VA: 0x18164A2E0
 	private static void GPtrArrayFree(RuntimeStructs.GPtrArray* value) { }
 
-	// RVA: 0x164A000 Offset: 0x1648600 VA: 0x18164A000
+	// RVA: 0x164A2C0 Offset: 0x16488C0 VA: 0x18164A2C0
 	internal static void DestroyAndFree(ref RuntimeGPtrArrayHandle h) { }
 
 }

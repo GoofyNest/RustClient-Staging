@@ -9,16 +9,16 @@ public abstract class WeatherEffect : BaseMonoBehaviour, IClientComponent // Typ
 
 	// Methods
 
-	// RVA: 0x8F28E0 Offset: 0x8F0EE0 VA: 0x1808F28E0
+	// RVA: 0x8F29F0 Offset: 0x8F0FF0 VA: 0x1808F29F0
 	protected void Awake() { }
 
-	// RVA: 0x8F2E70 Offset: 0x8F1470 VA: 0x1808F2E70
+	// RVA: 0x8F2F80 Offset: 0x8F1580 VA: 0x1808F2F80
 	protected void OnEnable() { }
 
-	// RVA: 0x8F2E60 Offset: 0x8F1460 VA: 0x1808F2E60
+	// RVA: 0x8F2F70 Offset: 0x8F1570 VA: 0x1808F2F70
 	protected void OnDisable() { }
 
-	// RVA: 0x8F2A60 Offset: 0x8F1060 VA: 0x1808F2A60
+	// RVA: 0x8F2B70 Offset: 0x8F1170 VA: 0x1808F2B70
 	protected void InvokeUpdate() { }
 
 	// RVA: -1 Offset: -1 Slot: 6
@@ -30,7 +30,7 @@ public abstract class WeatherEffect : BaseMonoBehaviour, IClientComponent // Typ
 	// RVA: -1 Offset: -1 Slot: 8
 	protected abstract void UpdatePosition(float intensity);
 
-	// RVA: 0x8F2E80 Offset: 0x8F1480 VA: 0x1808F2E80
+	// RVA: 0x8F2F90 Offset: 0x8F1590 VA: 0x1808F2F90
 	protected void .ctor() { }
 
 }

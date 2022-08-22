@@ -7,16 +7,16 @@ public class CaseInsensitiveComparer : IComparer // TypeDefIndex: 1382
 
 	// Methods
 
-	// RVA: 0x1451050 Offset: 0x144F650 VA: 0x181451050
+	// RVA: 0x1451310 Offset: 0x144F910 VA: 0x181451310
 	public void .ctor() { }
 
-	// RVA: 0x1450FB0 Offset: 0x144F5B0 VA: 0x181450FB0
+	// RVA: 0x1451270 Offset: 0x144F870 VA: 0x181451270
 	public void .ctor(CultureInfo culture) { }
 
-	// RVA: 0x14510E0 Offset: 0x144F6E0 VA: 0x1814510E0
+	// RVA: 0x14513A0 Offset: 0x144F9A0 VA: 0x1814513A0
 	public static CaseInsensitiveComparer get_Default() { }
 
-	// RVA: 0x1450D80 Offset: 0x144F380 VA: 0x181450D80 Slot: 4
+	// RVA: 0x1451040 Offset: 0x144F640 VA: 0x181451040 Slot: 4
 	public int Compare(object a, object b) { }
 
 }

@@ -14,18 +14,18 @@ public sealed class Evidence : ICollection, IEnumerable // TypeDefIndex: 910
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x17B3EE0 Offset: 0x17B24E0 VA: 0x1817B3EE0 Slot: 5
+	// RVA: 0x17B41A0 Offset: 0x17B27A0 VA: 0x1817B41A0 Slot: 5
 	public int get_Count() { }
 
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 6
 	public object get_SyncRoot() { }
 
 	[ObsoleteAttribute] // RVA: 0x9E110 Offset: 0x9D510 VA: 0x18009E110
-	// RVA: 0x17B3D50 Offset: 0x17B2350 VA: 0x1817B3D50 Slot: 4
+	// RVA: 0x17B4010 Offset: 0x17B2610 VA: 0x1817B4010 Slot: 4
 	public void CopyTo(Array array, int index) { }
 
 	[ObsoleteAttribute] // RVA: 0x9E110 Offset: 0x9D510 VA: 0x18009E110
-	// RVA: 0x17B3E10 Offset: 0x17B2410 VA: 0x1817B3E10 Slot: 7
+	// RVA: 0x17B40D0 Offset: 0x17B26D0 VA: 0x1817B40D0 Slot: 7
 	public IEnumerator GetEnumerator() { }
 
 }
@@ -41,16 +41,16 @@ private class Evidence.EvidenceEnumerator : IEnumerator // TypeDefIndex: 911
 
 	// Methods
 
-	// RVA: 0x17B3C90 Offset: 0x17B2290 VA: 0x1817B3C90
+	// RVA: 0x17B3F50 Offset: 0x17B2550 VA: 0x1817B3F50
 	public void .ctor(IEnumerator hostenum, IEnumerator assemblyenum) { }
 
-	// RVA: 0x17B3B70 Offset: 0x17B2170 VA: 0x1817B3B70 Slot: 4
+	// RVA: 0x17B3E30 Offset: 0x17B2430 VA: 0x1817B3E30 Slot: 4
 	public bool MoveNext() { }
 
-	// RVA: 0x17B3C10 Offset: 0x17B2210 VA: 0x1817B3C10 Slot: 6
+	// RVA: 0x17B3ED0 Offset: 0x17B24D0 VA: 0x1817B3ED0 Slot: 6
 	public void Reset() { }
 
-	// RVA: 0x17B3D00 Offset: 0x17B2300 VA: 0x1817B3D00 Slot: 5
+	// RVA: 0x17B3FC0 Offset: 0x17B25C0 VA: 0x1817B3FC0 Slot: 5
 	public object get_Current() { }
 
 }

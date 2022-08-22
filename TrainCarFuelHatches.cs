@@ -30,28 +30,28 @@ public class TrainCarFuelHatches : MonoBehaviour // TypeDefIndex: 9769
 
 	// Methods
 
-	// RVA: 0xA0BD50 Offset: 0xA0A350 VA: 0x180A0BD50
+	// RVA: 0xA0C010 Offset: 0xA0A610 VA: 0x180A0C010
 	public void LinedUpStateChanged(bool linedUp) { }
 
-	// RVA: 0xA0BFC0 Offset: 0xA0A5C0 VA: 0x180A0BFC0
+	// RVA: 0xA0C280 Offset: 0xA0A880 VA: 0x180A0C280
 	private void MoveTick() { }
 
-	// RVA: 0xA0BCC0 Offset: 0xA0A2C0 VA: 0x180A0BCC0
+	// RVA: 0xA0BF80 Offset: 0xA0A580 VA: 0x180A0BF80
 	private void EndMove() { }
 
-	// RVA: 0xA0C280 Offset: 0xA0A880 VA: 0x180A0C280
+	// RVA: 0xA0C540 Offset: 0xA0AB40 VA: 0x180A0C540
 	private void SetAngleOnAll(float lerpT, bool closing) { }
 
-	// RVA: 0xA0C560 Offset: 0xA0AB60 VA: 0x180A0C560
+	// RVA: 0xA0C820 Offset: 0xA0AE20 VA: 0x180A0C820
 	private void SetAngle(Transform transform, float angle) { }
 
-	// RVA: 0xA0C170 Offset: 0xA0A770 VA: 0x180A0C170
+	// RVA: 0xA0C430 Offset: 0xA0AA30 VA: 0x180A0C430
 	private void PlayOpenSounds() { }
 
-	// RVA: 0xA0C060 Offset: 0xA0A660 VA: 0x180A0C060
+	// RVA: 0xA0C320 Offset: 0xA0A920 VA: 0x180A0C320
 	private void PlayCloseSounds() { }
 
-	// RVA: 0xA0C5A0 Offset: 0xA0ABA0 VA: 0x180A0C5A0
+	// RVA: 0xA0C860 Offset: 0xA0AE60 VA: 0x180A0C860
 	public void .ctor() { }
 
 }

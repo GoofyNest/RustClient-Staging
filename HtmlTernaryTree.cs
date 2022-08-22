@@ -5,7 +5,7 @@ internal abstract class HtmlTernaryTree // TypeDefIndex: 1841
 
 	// Methods
 
-	// RVA: 0x12F2BB0 Offset: 0x12F11B0 VA: 0x1812F2BB0
+	// RVA: 0x12F2E70 Offset: 0x12F1470 VA: 0x1812F2E70
 	private static void .cctor() { }
 
 }

@@ -16,31 +16,31 @@ public class TriggerSafeZone : TriggerBase // TypeDefIndex: 10046
 	public Collider get_triggerCollider() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	private void set_triggerCollider(Collider value) { }
 
-	// RVA: 0xA22AB0 Offset: 0xA210B0 VA: 0x180A22AB0
+	// RVA: 0xA22D70 Offset: 0xA21370 VA: 0x180A22D70
 	protected void Awake() { }
 
-	// RVA: 0xA22E80 Offset: 0xA21480 VA: 0x180A22E80
+	// RVA: 0xA23140 Offset: 0xA21740 VA: 0x180A23140
 	protected void OnEnable() { }
 
-	// RVA: 0xA22D20 Offset: 0xA21320 VA: 0x180A22D20 Slot: 7
+	// RVA: 0xA22FE0 Offset: 0xA215E0 VA: 0x180A22FE0 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0xA22C00 Offset: 0xA21200 VA: 0x180A22C00 Slot: 6
+	// RVA: 0xA22EC0 Offset: 0xA214C0 VA: 0x180A22EC0 Slot: 6
 	internal override GameObject InterestedInObject(GameObject obj) { }
 
-	// RVA: 0xA22F00 Offset: 0xA21500 VA: 0x180A22F00
+	// RVA: 0xA231C0 Offset: 0xA217C0 VA: 0x180A231C0
 	public bool PassesHeightChecks(Vector3 entPos) { }
 
-	// RVA: 0xA22B00 Offset: 0xA21100 VA: 0x180A22B00
+	// RVA: 0xA22DC0 Offset: 0xA213C0 VA: 0x180A22DC0
 	public float GetSafeLevel(Vector3 pos) { }
 
-	// RVA: 0xA23060 Offset: 0xA21660 VA: 0x180A23060
+	// RVA: 0xA23320 Offset: 0xA21920 VA: 0x180A23320
 	public void .ctor() { }
 
-	// RVA: 0xA23000 Offset: 0xA21600 VA: 0x180A23000
+	// RVA: 0xA232C0 Offset: 0xA218C0 VA: 0x180A232C0
 	private static void .cctor() { }
 
 }

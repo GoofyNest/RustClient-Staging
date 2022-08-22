@@ -19,13 +19,13 @@ public class TakeCollisionDamage : FacepunchBehaviour // TypeDefIndex: 9753
 
 	// Methods
 
-	// RVA: 0x7A8A80 Offset: 0x7A7080 VA: 0x1807A8A80
+	// RVA: 0x7A8B90 Offset: 0x7A7190 VA: 0x1807A8B90
 	private bool get_IsServer() { }
 
-	// RVA: 0x7A8A60 Offset: 0x7A7060 VA: 0x1807A8A60
+	// RVA: 0x7A8B70 Offset: 0x7A7170 VA: 0x1807A8B70
 	private bool get_IsClient() { }
 
-	// RVA: 0x7A8A30 Offset: 0x7A7030 VA: 0x1807A8A30
+	// RVA: 0x7A8B40 Offset: 0x7A7140 VA: 0x1807A8B40
 	public void .ctor() { }
 
 }

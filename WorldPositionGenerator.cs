@@ -6,7 +6,7 @@ public class WorldPositionGenerator : ScriptableObject // TypeDefIndex: 10226
 
 	// Methods
 
-	// RVA: 0x9025F0 Offset: 0x900BF0 VA: 0x1809025F0
+	// RVA: 0x902700 Offset: 0x900D00 VA: 0x180902700
 	public void .ctor() { }
 
 }

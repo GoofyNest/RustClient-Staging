@@ -14,7 +14,7 @@ internal struct UnreadChatMessagesChanged_t : ICallbackData // TypeDefIndex: 532
 	// RVA: 0x1DB430 Offset: 0x1DA830 VA: 0x1801DB430 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x12919A0 Offset: 0x128FFA0 VA: 0x1812919A0
+	// RVA: 0x1291C60 Offset: 0x1290260 VA: 0x181291C60
 	private static void .cctor() { }
 
 }

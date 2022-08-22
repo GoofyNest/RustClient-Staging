@@ -6,7 +6,7 @@ public class HairDyeCollection : ScriptableObject // TypeDefIndex: 10732
 
 	// Methods
 
-	// RVA: 0x7341A0 Offset: 0x7327A0 VA: 0x1807341A0
+	// RVA: 0x7342B0 Offset: 0x7328B0 VA: 0x1807342B0
 	public HairDye Get(float seed) { }
 
 	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0

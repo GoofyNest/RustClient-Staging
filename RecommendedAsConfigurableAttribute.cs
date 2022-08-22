@@ -10,22 +10,22 @@ public class RecommendedAsConfigurableAttribute : Attribute // TypeDefIndex: 273
 
 	// Methods
 
-	// RVA: 0xFDCB80 Offset: 0xFDB180 VA: 0x180FDCB80
+	// RVA: 0xFDCE40 Offset: 0xFDB440 VA: 0x180FDCE40
 	public void .ctor(bool recommendedAsConfigurable) { }
 
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public bool get_RecommendedAsConfigurable() { }
 
-	// RVA: 0x15D3580 Offset: 0x15D1B80 VA: 0x1815D3580 Slot: 0
+	// RVA: 0x15D3840 Offset: 0x15D1E40 VA: 0x1815D3840 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x15C0570 Offset: 0x15BEB70 VA: 0x1815C0570 Slot: 2
+	// RVA: 0x15C0830 Offset: 0x15BEE30 VA: 0x1815C0830 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x15D3620 Offset: 0x15D1C20 VA: 0x1815D3620 Slot: 6
+	// RVA: 0x15D38E0 Offset: 0x15D1EE0 VA: 0x1815D38E0 Slot: 6
 	public override bool IsDefaultAttribute() { }
 
-	// RVA: 0x15D3630 Offset: 0x15D1C30 VA: 0x1815D3630
+	// RVA: 0x15D38F0 Offset: 0x15D1EF0 VA: 0x1815D38F0
 	private static void .cctor() { }
 
 }

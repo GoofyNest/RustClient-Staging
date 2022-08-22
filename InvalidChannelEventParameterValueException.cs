@@ -7,7 +7,7 @@ public sealed class InvalidChannelEventParameterValueException : MidiException /
 
 	// Methods
 
-	// RVA: 0x1399210 Offset: 0x1397810 VA: 0x181399210
+	// RVA: 0x13994D0 Offset: 0x1397AD0 VA: 0x1813994D0
 	internal void .ctor(MidiEventType eventType, byte value) { }
 
 }

@@ -4,13 +4,13 @@ internal sealed class SequenceNode : InteriorNode // TypeDefIndex: 2160
 
 	// Methods
 
-	// RVA: 0xEEF330 Offset: 0xEED930 VA: 0x180EEF330 Slot: 5
+	// RVA: 0xEEF5F0 Offset: 0xEEDBF0 VA: 0x180EEF5F0 Slot: 5
 	public override void ConstructPos(BitSet firstpos, BitSet lastpos, BitSet[] followpos) { }
 
-	// RVA: 0xEEF7E0 Offset: 0xEEDDE0 VA: 0x180EEF7E0 Slot: 6
+	// RVA: 0xEEFAA0 Offset: 0xEEE0A0 VA: 0x180EEFAA0 Slot: 6
 	public override bool get_IsNullable() { }
 
-	// RVA: 0xEEF7D0 Offset: 0xEEDDD0 VA: 0x180EEF7D0 Slot: 4
+	// RVA: 0xEEFA90 Offset: 0xEEE090 VA: 0x180EEFA90 Slot: 4
 	public override void ExpandTree(InteriorNode parent, SymbolsDictionary symbols, Positions positions) { }
 
 	// RVA: 0x517860 Offset: 0x515E60 VA: 0x180517860

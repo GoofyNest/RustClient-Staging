@@ -31,7 +31,7 @@ public class MeshHolder // TypeDefIndex: 11528
 
 	// Methods
 
-	// RVA: 0x962A70 Offset: 0x961070 VA: 0x180962A70
+	// RVA: 0x962B80 Offset: 0x961180 VA: 0x180962B80
 	public void setAnimationData(Mesh mesh) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

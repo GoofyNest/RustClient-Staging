@@ -4,7 +4,7 @@ public class ProcessProceduralObjects : ProceduralComponent // TypeDefIndex: 105
 
 	// Methods
 
-	// RVA: 0x691760 Offset: 0x68FD60 VA: 0x180691760 Slot: 5
+	// RVA: 0x691870 Offset: 0x68FE70 VA: 0x180691870 Slot: 5
 	public override void Process(uint seed) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 4

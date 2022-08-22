@@ -25,16 +25,16 @@ public struct RenderTargetIdentifier : IEquatable<RenderTargetIdentifier> // Typ
 	// RVA: 0x222340 Offset: 0x221740 VA: 0x180222340
 	public void .ctor(RenderBuffer buf, int mipLevel = 0, CubemapFace cubeFace = -1, int depthSlice = 0) { }
 
-	// RVA: 0x19B06E0 Offset: 0x19AECE0 VA: 0x1819B06E0
+	// RVA: 0x19B09A0 Offset: 0x19AEFA0 VA: 0x1819B09A0
 	public static RenderTargetIdentifier op_Implicit(BuiltinRenderTextureType type) { }
 
-	// RVA: 0x19B0840 Offset: 0x19AEE40 VA: 0x1819B0840
+	// RVA: 0x19B0B00 Offset: 0x19AF100 VA: 0x1819B0B00
 	public static RenderTargetIdentifier op_Implicit(int nameID) { }
 
-	// RVA: 0x19B07E0 Offset: 0x19AEDE0 VA: 0x1819B07E0
+	// RVA: 0x19B0AA0 Offset: 0x19AF0A0 VA: 0x1819B0AA0
 	public static RenderTargetIdentifier op_Implicit(Texture tex) { }
 
-	// RVA: 0x19B0780 Offset: 0x19AED80 VA: 0x1819B0780
+	// RVA: 0x19B0A40 Offset: 0x19AF040 VA: 0x1819B0A40
 	public static RenderTargetIdentifier op_Implicit(RenderBuffer buf) { }
 
 	// RVA: 0x2222D0 Offset: 0x2216D0 VA: 0x1802222D0 Slot: 3

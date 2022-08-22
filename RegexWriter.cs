@@ -13,49 +13,49 @@ internal sealed class RegexWriter // TypeDefIndex: 2632
 
 	// Methods
 
-	// RVA: 0x16BA4C0 Offset: 0x16B8AC0 VA: 0x1816BA4C0
+	// RVA: 0x16BA780 Offset: 0x16B8D80 VA: 0x1816BA780
 	internal static RegexCode Write(RegexTree t) { }
 
-	// RVA: 0x16BA5E0 Offset: 0x16B8BE0 VA: 0x1816BA5E0
+	// RVA: 0x16BA8A0 Offset: 0x16B8EA0 VA: 0x1816BA8A0
 	private void .ctor() { }
 
-	// RVA: 0x16B9DB0 Offset: 0x16B83B0 VA: 0x1816B9DB0
+	// RVA: 0x16BA070 Offset: 0x16B8670 VA: 0x1816BA070
 	internal void PushInt(int I) { }
 
-	// RVA: 0x14CAD50 Offset: 0x14C9350 VA: 0x1814CAD50
+	// RVA: 0x14CB010 Offset: 0x14C9610 VA: 0x1814CB010
 	internal bool EmptyStack() { }
 
-	// RVA: 0x14CADB0 Offset: 0x14C93B0 VA: 0x1814CADB0
+	// RVA: 0x14CB070 Offset: 0x14C9670 VA: 0x1814CB070
 	internal int PopInt() { }
 
 	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
 	internal int CurPos() { }
 
-	// RVA: 0x16B9D70 Offset: 0x16B8370 VA: 0x1816B9D70
+	// RVA: 0x16BA030 Offset: 0x16B8630 VA: 0x1816BA030
 	internal void PatchJump(int Offset, int jumpDest) { }
 
-	// RVA: 0x16B9BE0 Offset: 0x16B81E0 VA: 0x1816B9BE0
+	// RVA: 0x16B9EA0 Offset: 0x16B84A0 VA: 0x1816B9EA0
 	internal void Emit(int op) { }
 
-	// RVA: 0x16B9A70 Offset: 0x16B8070 VA: 0x1816B9A70
+	// RVA: 0x16B9D30 Offset: 0x16B8330 VA: 0x1816B9D30
 	internal void Emit(int op, int opd1) { }
 
-	// RVA: 0x16B9B10 Offset: 0x16B8110 VA: 0x1816B9B10
+	// RVA: 0x16B9DD0 Offset: 0x16B83D0 VA: 0x1816B9DD0
 	internal void Emit(int op, int opd1, int opd2) { }
 
-	// RVA: 0x16BA3C0 Offset: 0x16B89C0 VA: 0x1816BA3C0
+	// RVA: 0x16BA680 Offset: 0x16B8C80 VA: 0x1816BA680
 	internal int StringCode(string str) { }
 
-	// RVA: 0x16B9C50 Offset: 0x16B8250 VA: 0x1816B9C50
+	// RVA: 0x16B9F10 Offset: 0x16B8510 VA: 0x1816B9F10
 	internal ArgumentException MakeException(string message) { }
 
-	// RVA: 0x16B9CB0 Offset: 0x16B82B0 VA: 0x1816B9CB0
+	// RVA: 0x16B9F70 Offset: 0x16B8570 VA: 0x1816B9F70
 	internal int MapCapnum(int capnum) { }
 
-	// RVA: 0x16B9E90 Offset: 0x16B8490 VA: 0x1816B9E90
+	// RVA: 0x16BA150 Offset: 0x16B8750 VA: 0x1816BA150
 	internal RegexCode RegexCodeFromRegexTree(RegexTree tree) { }
 
-	// RVA: 0x16B9030 Offset: 0x16B7630 VA: 0x1816B9030
+	// RVA: 0x16B92F0 Offset: 0x16B78F0 VA: 0x1816B92F0
 	internal void EmitFragment(int nodetype, RegexNode node, int CurIndex) { }
 
 }

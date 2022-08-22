@@ -8,16 +8,16 @@ public class BaseFirework : BaseCombatEntity, IIgniteable // TypeDefIndex: 8271
 
 	// Methods
 
-	// RVA: 0x7DFE50 Offset: 0x7DE450 VA: 0x1807DFE50
+	// RVA: 0x7DFF60 Offset: 0x7DE560 VA: 0x1807DFF60
 	public bool IsLit() { }
 
-	// RVA: 0x7E7700 Offset: 0x7E5D00 VA: 0x1807E7700
+	// RVA: 0x7E7810 Offset: 0x7E5E10 VA: 0x1807E7810
 	public bool IsExhausted() { }
 
-	// RVA: 0x7E7650 Offset: 0x7E5C50 VA: 0x1807E7650 Slot: 134
+	// RVA: 0x7E7760 Offset: 0x7E5D60 VA: 0x1807E7760 Slot: 134
 	public override bool CanPickup(BasePlayer player) { }
 
-	// RVA: 0x7E7710 Offset: 0x7E5D10 VA: 0x1807E7710
+	// RVA: 0x7E7820 Offset: 0x7E5E20 VA: 0x1807E7820
 	public void .ctor() { }
 
 }

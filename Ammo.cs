@@ -34,7 +34,7 @@ public class AmmoBelowAIEvent : BaseAIEvent // TypeDefIndex: 9389
 	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
 	private void set_Value(float value) { }
 
-	// RVA: 0x823000 Offset: 0x821600 VA: 0x180823000
+	// RVA: 0x823110 Offset: 0x821710 VA: 0x180823110
 	public void .ctor() { }
 
 }
@@ -42,10 +42,10 @@ public class AmmoBelowAIEvent : BaseAIEvent // TypeDefIndex: 9389
 public class AmmoBelowEventUI : BaseEventUI // TypeDefIndex: 10785
 {	// Methods
 
-	// RVA: 0x8230A0 Offset: 0x8216A0 VA: 0x1808230A0 Slot: 5
+	// RVA: 0x8231B0 Offset: 0x8217B0 VA: 0x1808231B0 Slot: 5
 	public override AIEventData Save() { }
 
-	// RVA: 0x823030 Offset: 0x821630 VA: 0x180823030 Slot: 6
+	// RVA: 0x823140 Offset: 0x821740 VA: 0x180823140 Slot: 6
 	public override void Load(AIEventData data) { }
 
 	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
@@ -64,10 +64,10 @@ public class AmmoInformationPanel : ItemInformationPanel // TypeDefIndex: 10980
 
 	// Methods
 
-	// RVA: 0x823150 Offset: 0x821750 VA: 0x180823150 Slot: 4
+	// RVA: 0x823260 Offset: 0x821860 VA: 0x180823260 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0x8232E0 Offset: 0x8218E0 VA: 0x1808232E0 Slot: 5
+	// RVA: 0x8233F0 Offset: 0x8219F0 VA: 0x1808233F0 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
 	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0

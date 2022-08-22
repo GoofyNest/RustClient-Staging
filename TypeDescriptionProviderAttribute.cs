@@ -7,10 +7,10 @@ public sealed class TypeDescriptionProviderAttribute : Attribute // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x173A0D0 Offset: 0x17386D0 VA: 0x18173A0D0
+	// RVA: 0x173A390 Offset: 0x1738990 VA: 0x18173A390
 	public void .ctor(string typeName) { }
 
-	// RVA: 0x173A160 Offset: 0x1738760 VA: 0x18173A160
+	// RVA: 0x173A420 Offset: 0x1738A20 VA: 0x18173A420
 	public void .ctor(Type type) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0

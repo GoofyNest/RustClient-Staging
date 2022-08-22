@@ -25,43 +25,43 @@ public class StrobeLight : BaseCombatEntity // TypeDefIndex: 8281
 
 	// Methods
 
-	// RVA: 0x79F300 Offset: 0x79D900 VA: 0x18079F300
+	// RVA: 0x79F410 Offset: 0x79DA10 VA: 0x18079F410
 	public float GetFrequency() { }
 
-	// RVA: 0x7A02E0 Offset: 0x79E8E0 VA: 0x1807A02E0
+	// RVA: 0x7A03F0 Offset: 0x79E9F0 VA: 0x1807A03F0
 	public void Update() { }
 
-	// RVA: 0x79F210 Offset: 0x79D810 VA: 0x18079F210
+	// RVA: 0x79F320 Offset: 0x79D920 VA: 0x18079F320
 	public void ClientSetLights(bool wantsOn) { }
 
-	// RVA: 0x7A02A0 Offset: 0x79E8A0 VA: 0x1807A02A0
+	// RVA: 0x7A03B0 Offset: 0x79E9B0 VA: 0x1807A03B0
 	public void Toggle() { }
 
 	[BaseEntity.Menu] // RVA: 0xA5EE0 Offset: 0xA52E0 VA: 0x1800A5EE0
 	[BaseEntity.Menu.Description] // RVA: 0xA5EE0 Offset: 0xA52E0 VA: 0x1800A5EE0
 	[BaseEntity.Menu.Icon] // RVA: 0xA5EE0 Offset: 0xA52E0 VA: 0x1800A5EE0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xA5EE0 Offset: 0xA52E0 VA: 0x1800A5EE0
-	// RVA: 0x7A0160 Offset: 0x79E760 VA: 0x1807A0160
+	// RVA: 0x7A0270 Offset: 0x79E870 VA: 0x1807A0270
 	public void Menu_TurnOn(BasePlayer player) { }
 
-	// RVA: 0x7A0080 Offset: 0x79E680 VA: 0x1807A0080
+	// RVA: 0x7A0190 Offset: 0x79E790 VA: 0x1807A0190
 	public bool Menu_StrobeOn_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xA7390 Offset: 0xA6790 VA: 0x1800A7390
 	[BaseEntity.Menu.Description] // RVA: 0xA7390 Offset: 0xA6790 VA: 0x1800A7390
 	[BaseEntity.Menu.Icon] // RVA: 0xA7390 Offset: 0xA6790 VA: 0x1800A7390
 	[BaseEntity.Menu.ShowIf] // RVA: 0xA7390 Offset: 0xA6790 VA: 0x1800A7390
-	// RVA: 0x7A0110 Offset: 0x79E710 VA: 0x1807A0110
+	// RVA: 0x7A0220 Offset: 0x79E820 VA: 0x1807A0220
 	public void Menu_TurnOff(BasePlayer player) { }
 
-	// RVA: 0x7A0040 Offset: 0x79E640 VA: 0x1807A0040
+	// RVA: 0x7A0150 Offset: 0x79E750 VA: 0x1807A0150
 	public bool Menu_StrobeOff_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xA74A0 Offset: 0xA68A0 VA: 0x1800A74A0
 	[BaseEntity.Menu.Description] // RVA: 0xA74A0 Offset: 0xA68A0 VA: 0x1800A74A0
 	[BaseEntity.Menu.Icon] // RVA: 0xA74A0 Offset: 0xA68A0 VA: 0x1800A74A0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xA74A0 Offset: 0xA68A0 VA: 0x1800A74A0
-	// RVA: 0x7A00C0 Offset: 0x79E6C0 VA: 0x1807A00C0
+	// RVA: 0x7A01D0 Offset: 0x79E7D0 VA: 0x1807A01D0
 	public void Menu_StrobeSlow(BasePlayer player) { }
 
 	// RVA: 0x55C0E0 Offset: 0x55A6E0 VA: 0x18055C0E0
@@ -71,7 +71,7 @@ public class StrobeLight : BaseCombatEntity // TypeDefIndex: 8281
 	[BaseEntity.Menu.Description] // RVA: 0xA7710 Offset: 0xA6B10 VA: 0x1800A7710
 	[BaseEntity.Menu.Icon] // RVA: 0xA7710 Offset: 0xA6B10 VA: 0x1800A7710
 	[BaseEntity.Menu.ShowIf] // RVA: 0xA7710 Offset: 0xA6B10 VA: 0x1800A7710
-	// RVA: 0x79FFF0 Offset: 0x79E5F0 VA: 0x18079FFF0
+	// RVA: 0x7A0100 Offset: 0x79E700 VA: 0x1807A0100
 	public void Menu_StrobeMed(BasePlayer player) { }
 
 	// RVA: 0x55C0E0 Offset: 0x55A6E0 VA: 0x18055C0E0
@@ -81,22 +81,22 @@ public class StrobeLight : BaseCombatEntity // TypeDefIndex: 8281
 	[BaseEntity.Menu.Description] // RVA: 0xA7B30 Offset: 0xA6F30 VA: 0x1800A7B30
 	[BaseEntity.Menu.Icon] // RVA: 0xA7B30 Offset: 0xA6F30 VA: 0x1800A7B30
 	[BaseEntity.Menu.ShowIf] // RVA: 0xA7B30 Offset: 0xA6F30 VA: 0x1800A7B30
-	// RVA: 0x79FFA0 Offset: 0x79E5A0 VA: 0x18079FFA0
+	// RVA: 0x7A00B0 Offset: 0x79E6B0 VA: 0x1807A00B0
 	public void Menu_StrobeFast(BasePlayer player) { }
 
 	// RVA: 0x55C0E0 Offset: 0x55A6E0 VA: 0x18055C0E0
 	public bool Menu_StrobeFast_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x79F370 Offset: 0x79D970 VA: 0x18079F370 Slot: 49
+	// RVA: 0x79F480 Offset: 0x79DA80 VA: 0x18079F480 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x7A0480 Offset: 0x79EA80 VA: 0x1807A0480 Slot: 50
+	// RVA: 0x7A0590 Offset: 0x79EB90 VA: 0x1807A0590 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x7A01B0 Offset: 0x79E7B0 VA: 0x1807A01B0 Slot: 35
+	// RVA: 0x7A02C0 Offset: 0x79E8C0 VA: 0x1807A02C0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x7A0440 Offset: 0x79EA40 VA: 0x1807A0440
+	// RVA: 0x7A0550 Offset: 0x79EB50 VA: 0x1807A0550
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

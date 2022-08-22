@@ -7,10 +7,10 @@ public class UnderwearIcon : MonoBehaviour, IClientComponent // TypeDefIndex: 92
 
 	// Methods
 
-	// RVA: 0xA06C50 Offset: 0xA05250 VA: 0x180A06C50
+	// RVA: 0xA06F10 Offset: 0xA05510 VA: 0x180A06F10
 	internal void Setup(string newUnderwearShortname, string text, bool canUse, Sprite icon) { }
 
-	// RVA: 0xA06B10 Offset: 0xA05110 VA: 0x180A06B10
+	// RVA: 0xA06DD0 Offset: 0xA053D0 VA: 0x180A06DD0
 	public void Select() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

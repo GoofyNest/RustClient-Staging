@@ -4,34 +4,34 @@ internal static class TimeSpanParse // TypeDefIndex: 723
 
 	// Methods
 
-	// RVA: 0x138FA00 Offset: 0x138E000 VA: 0x18138FA00
+	// RVA: 0x138FCC0 Offset: 0x138E2C0 VA: 0x18138FCC0
 	private static bool TryTimeToTicks(bool positive, TimeSpanParse.TimeSpanToken days, TimeSpanParse.TimeSpanToken hours, TimeSpanParse.TimeSpanToken minutes, TimeSpanParse.TimeSpanToken seconds, TimeSpanParse.TimeSpanToken fraction, out long result) { }
 
-	// RVA: 0x138B510 Offset: 0x1389B10 VA: 0x18138B510
+	// RVA: 0x138B7D0 Offset: 0x1389DD0 VA: 0x18138B7D0
 	internal static TimeSpan Parse(string input, IFormatProvider formatProvider) { }
 
-	// RVA: 0x138F3D0 Offset: 0x138D9D0 VA: 0x18138F3D0
+	// RVA: 0x138F690 Offset: 0x138DC90 VA: 0x18138F690
 	private static bool TryParseTimeSpan(string input, TimeSpanParse.TimeSpanStandardStyles style, IFormatProvider formatProvider, ref TimeSpanParse.TimeSpanResult result) { }
 
-	// RVA: 0x138B5D0 Offset: 0x1389BD0 VA: 0x18138B5D0
+	// RVA: 0x138B890 Offset: 0x1389E90 VA: 0x18138B890
 	private static bool ProcessTerminalState(ref TimeSpanParse.TimeSpanRawInfo raw, TimeSpanParse.TimeSpanStandardStyles style, ref TimeSpanParse.TimeSpanResult result) { }
 
-	// RVA: 0x138B7C0 Offset: 0x1389DC0 VA: 0x18138B7C0
+	// RVA: 0x138BA80 Offset: 0x138A080 VA: 0x18138BA80
 	private static bool ProcessTerminal_DHMSF(ref TimeSpanParse.TimeSpanRawInfo raw, TimeSpanParse.TimeSpanStandardStyles style, ref TimeSpanParse.TimeSpanResult result) { }
 
-	// RVA: 0x138C0C0 Offset: 0x138A6C0 VA: 0x18138C0C0
+	// RVA: 0x138C380 Offset: 0x138A980 VA: 0x18138C380
 	private static bool ProcessTerminal_HMS_F_D(ref TimeSpanParse.TimeSpanRawInfo raw, TimeSpanParse.TimeSpanStandardStyles style, ref TimeSpanParse.TimeSpanResult result) { }
 
-	// RVA: 0x138D9B0 Offset: 0x138BFB0 VA: 0x18138D9B0
+	// RVA: 0x138DC70 Offset: 0x138C270 VA: 0x18138DC70
 	private static bool ProcessTerminal_HM_S_D(ref TimeSpanParse.TimeSpanRawInfo raw, TimeSpanParse.TimeSpanStandardStyles style, ref TimeSpanParse.TimeSpanResult result) { }
 
-	// RVA: 0x138EFB0 Offset: 0x138D5B0 VA: 0x18138EFB0
+	// RVA: 0x138F270 Offset: 0x138D870 VA: 0x18138F270
 	private static bool ProcessTerminal_HM(ref TimeSpanParse.TimeSpanRawInfo raw, TimeSpanParse.TimeSpanStandardStyles style, ref TimeSpanParse.TimeSpanResult result) { }
 
-	// RVA: 0x138BCA0 Offset: 0x138A2A0 VA: 0x18138BCA0
+	// RVA: 0x138BF60 Offset: 0x138A560 VA: 0x18138BF60
 	private static bool ProcessTerminal_D(ref TimeSpanParse.TimeSpanRawInfo raw, TimeSpanParse.TimeSpanStandardStyles style, ref TimeSpanParse.TimeSpanResult result) { }
 
-	// RVA: 0x138FC40 Offset: 0x138E240 VA: 0x18138FC40
+	// RVA: 0x138FF00 Offset: 0x138E500 VA: 0x18138FF00
 	private static void .cctor() { }
 
 }

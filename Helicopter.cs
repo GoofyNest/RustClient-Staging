@@ -10,82 +10,82 @@ public class Helicopter : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 632
 
 	// Methods
 
-	// RVA: 0x1BFA1C0 Offset: 0x1BF87C0 VA: 0x181BFA1C0
+	// RVA: 0x1BFA480 Offset: 0x1BF8A80 VA: 0x181BFA480
 	public static void ResetToPool(Helicopter instance) { }
 
-	// RVA: 0x1BFA090 Offset: 0x1BF8690 VA: 0x181BFA090
+	// RVA: 0x1BFA350 Offset: 0x1BF8950 VA: 0x181BFA350
 	public void ResetToPool() { }
 
-	// RVA: 0x1BF9C30 Offset: 0x1BF8230 VA: 0x181BF9C30 Slot: 9
+	// RVA: 0x1BF9EF0 Offset: 0x1BF84F0 VA: 0x181BF9EF0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BF8570 Offset: 0x1BF6B70 VA: 0x181BF8570
+	// RVA: 0x1BF8830 Offset: 0x1BF6E30 VA: 0x181BF8830
 	public void CopyTo(Helicopter instance) { }
 
-	// RVA: 0x1BF86C0 Offset: 0x1BF6CC0 VA: 0x181BF86C0
+	// RVA: 0x1BF8980 Offset: 0x1BF6F80 VA: 0x181BF8980
 	public Helicopter Copy() { }
 
-	// RVA: 0x1BF9380 Offset: 0x1BF7980 VA: 0x181BF9380
+	// RVA: 0x1BF9640 Offset: 0x1BF7C40 VA: 0x181BF9640
 	public static Helicopter Deserialize(Stream stream) { }
 
-	// RVA: 0x1BF8BE0 Offset: 0x1BF71E0 VA: 0x181BF8BE0
+	// RVA: 0x1BF8EA0 Offset: 0x1BF74A0 VA: 0x181BF8EA0
 	public static Helicopter DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1BF8C60 Offset: 0x1BF7260 VA: 0x181BF8C60
+	// RVA: 0x1BF8F20 Offset: 0x1BF7520 VA: 0x181BF8F20
 	public static Helicopter DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1BF9040 Offset: 0x1BF7640 VA: 0x181BF9040
+	// RVA: 0x1BF9300 Offset: 0x1BF7900 VA: 0x181BF9300
 	public static Helicopter Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1BF9DE0 Offset: 0x1BF83E0 VA: 0x181BF9DE0
+	// RVA: 0x1BFA0A0 Offset: 0x1BF86A0 VA: 0x181BFA0A0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1BFB030 Offset: 0x1BF9630 VA: 0x181BFB030 Slot: 12
+	// RVA: 0x1BFB2F0 Offset: 0x1BF98F0 VA: 0x181BFB2F0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1BFB050 Offset: 0x1BF9650 VA: 0x181BFB050 Slot: 13
+	// RVA: 0x1BFB310 Offset: 0x1BF9910 VA: 0x181BFB310 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Helicopter previous) { }
 
-	// RVA: 0x1BFA070 Offset: 0x1BF8670 VA: 0x181BFA070 Slot: 14
+	// RVA: 0x1BFA330 Offset: 0x1BF8930 VA: 0x181BFA330 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1BF9630 Offset: 0x1BF7C30 VA: 0x181BF9630
+	// RVA: 0x1BF98F0 Offset: 0x1BF7EF0 VA: 0x181BF98F0
 	public static Helicopter Deserialize(byte[] buffer, Helicopter instance, bool isDelta = False) { }
 
-	// RVA: 0x1BF9990 Offset: 0x1BF7F90 VA: 0x181BF9990
+	// RVA: 0x1BF9C50 Offset: 0x1BF8250 VA: 0x181BF9C50
 	public static Helicopter Deserialize(Stream stream, Helicopter instance, bool isDelta) { }
 
-	// RVA: 0x1BF8870 Offset: 0x1BF6E70 VA: 0x181BF8870
+	// RVA: 0x1BF8B30 Offset: 0x1BF7130 VA: 0x181BF8B30
 	public static Helicopter DeserializeLengthDelimited(Stream stream, Helicopter instance, bool isDelta) { }
 
-	// RVA: 0x1BF8CF0 Offset: 0x1BF72F0 VA: 0x181BF8CF0
+	// RVA: 0x1BF8FB0 Offset: 0x1BF75B0 VA: 0x181BF8FB0
 	public static Helicopter DeserializeLength(Stream stream, int length, Helicopter instance, bool isDelta) { }
 
-	// RVA: 0x1BFA2F0 Offset: 0x1BF88F0 VA: 0x181BFA2F0
+	// RVA: 0x1BFA5B0 Offset: 0x1BF8BB0 VA: 0x181BFA5B0
 	public static void SerializeDelta(Stream stream, Helicopter instance, Helicopter previous) { }
 
-	// RVA: 0x1BFAB90 Offset: 0x1BF9190 VA: 0x181BFAB90
+	// RVA: 0x1BFAE50 Offset: 0x1BF9450 VA: 0x181BFAE50
 	public static void Serialize(Stream stream, Helicopter instance) { }
 
-	// RVA: 0x1BFB020 Offset: 0x1BF9620 VA: 0x181BFB020
+	// RVA: 0x1BFB2E0 Offset: 0x1BF98E0 VA: 0x181BFB2E0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1BFB030 Offset: 0x1BF9630 VA: 0x181BFB030
+	// RVA: 0x1BFB2F0 Offset: 0x1BF98F0 VA: 0x181BFB2F0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1BFAA80 Offset: 0x1BF9080 VA: 0x181BFAA80
+	// RVA: 0x1BFAD40 Offset: 0x1BF9340 VA: 0x181BFAD40
 	public static byte[] SerializeToBytes(Helicopter instance) { }
 
-	// RVA: 0x1BFA9D0 Offset: 0x1BF8FD0 VA: 0x181BFA9D0
+	// RVA: 0x1BFAC90 Offset: 0x1BF9290 VA: 0x181BFAC90
 	public static void SerializeLengthDelimited(Stream stream, Helicopter instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

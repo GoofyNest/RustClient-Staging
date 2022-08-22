@@ -5,7 +5,7 @@ public sealed class GUILayoutOption // TypeDefIndex: 4039
 
 	// Methods
 
-	// RVA: 0xC650C0 Offset: 0xC636C0 VA: 0x180C650C0
+	// RVA: 0xC65380 Offset: 0xC63980 VA: 0x180C65380
 	internal void .ctor(GUILayoutOption.Type type, object value) { }
 
 }

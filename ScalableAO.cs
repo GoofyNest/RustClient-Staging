@@ -8,28 +8,28 @@ internal sealed class ScalableAO : IAmbientOcclusionMethod // TypeDefIndex: 1179
 
 	// Methods
 
-	// RVA: 0x11DC9D0 Offset: 0x11DAFD0 VA: 0x1811DC9D0
+	// RVA: 0x11DCC90 Offset: 0x11DB290 VA: 0x1811DCC90
 	public void .ctor(AmbientOcclusion settings) { }
 
-	// RVA: 0xAC1DA0 Offset: 0xAC03A0 VA: 0x180AC1DA0 Slot: 4
+	// RVA: 0xAC2060 Offset: 0xAC0660 VA: 0x180AC2060 Slot: 4
 	public DepthTextureMode GetCameraFlags() { }
 
-	// RVA: 0x11DB7C0 Offset: 0x11D9DC0 VA: 0x1811DB7C0
+	// RVA: 0x11DBA80 Offset: 0x11DA080 VA: 0x1811DBA80
 	private void DoLazyInitialization(PostProcessRenderContext context) { }
 
-	// RVA: 0x11DBE70 Offset: 0x11DA470 VA: 0x1811DBE70
+	// RVA: 0x11DC130 Offset: 0x11DA730 VA: 0x1811DC130
 	private void Render(PostProcessRenderContext context, CommandBuffer cmd, int occlusionSource) { }
 
-	// RVA: 0x11DBB80 Offset: 0x11DA180 VA: 0x1811DBB80 Slot: 5
+	// RVA: 0x11DBE40 Offset: 0x11DA440 VA: 0x1811DBE40 Slot: 5
 	public void RenderAfterOpaque(PostProcessRenderContext context) { }
 
-	// RVA: 0x11DBDD0 Offset: 0x11DA3D0 VA: 0x1811DBDD0 Slot: 6
+	// RVA: 0x11DC090 Offset: 0x11DA690 VA: 0x1811DC090 Slot: 6
 	public void RenderAmbientOnly(PostProcessRenderContext context) { }
 
-	// RVA: 0x11DB440 Offset: 0x11D9A40 VA: 0x1811DB440 Slot: 7
+	// RVA: 0x11DB700 Offset: 0x11D9D00 VA: 0x1811DB700 Slot: 7
 	public void CompositeAmbientOnly(PostProcessRenderContext context) { }
 
-	// RVA: 0x11DBB00 Offset: 0x11DA100 VA: 0x1811DBB00 Slot: 8
+	// RVA: 0x11DBDC0 Offset: 0x11DA3C0 VA: 0x1811DBDC0 Slot: 8
 	public void Release() { }
 
 }

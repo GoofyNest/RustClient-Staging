@@ -6,7 +6,7 @@ public static class IJobExtensions // TypeDefIndex: 3299
 	public static JobHandle Schedule<T>(T jobData, JobHandle dependsOn) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A39090 Offset: 0x1A37690 VA: 0x181A39090
+	|-RVA: 0x1A39350 Offset: 0x1A37950 VA: 0x181A39350
 	|-IJobExtensions.Schedule<SimulatePositionsJob>
 	*/
 
@@ -22,7 +22,7 @@ internal struct IJobExtensions.JobStruct<T> // TypeDefIndex: 3300
 	public static IntPtr Initialize() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17ACF00 Offset: 0x17AB500 VA: 0x1817ACF00
+	|-RVA: 0x17AD1C0 Offset: 0x17AB7C0 VA: 0x1817AD1C0
 	|-IJobExtensions.JobStruct<SimulatePositionsJob>.Initialize
 	*/
 
@@ -30,7 +30,7 @@ internal struct IJobExtensions.JobStruct<T> // TypeDefIndex: 3300
 	public static void Execute(ref T data, IntPtr additionalPtr, IntPtr bufferRangePatchData, ref JobRanges ranges, int jobIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17ACEF0 Offset: 0x17AB4F0 VA: 0x1817ACEF0
+	|-RVA: 0x17AD1B0 Offset: 0x17AB7B0 VA: 0x1817AD1B0
 	|-IJobExtensions.JobStruct<SimulatePositionsJob>.Execute
 	*/
 
@@ -51,7 +51,7 @@ public sealed class IJobExtensions.JobStruct.ExecuteJobFunction<T> : MulticastDe
 	public virtual void Invoke(ref T data, IntPtr additionalPtr, IntPtr bufferRangePatchData, ref JobRanges ranges, int jobIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AB340 Offset: 0x17A9940 VA: 0x1817AB340
+	|-RVA: 0x17AB600 Offset: 0x17A9C00 VA: 0x1817AB600
 	|-IJobExtensions.JobStruct.ExecuteJobFunction<SimulatePositionsJob>.Invoke
 	*/
 
@@ -59,7 +59,7 @@ public sealed class IJobExtensions.JobStruct.ExecuteJobFunction<T> : MulticastDe
 	public virtual IAsyncResult BeginInvoke(ref T data, IntPtr additionalPtr, IntPtr bufferRangePatchData, ref JobRanges ranges, int jobIndex, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AB240 Offset: 0x17A9840 VA: 0x1817AB240
+	|-RVA: 0x17AB500 Offset: 0x17A9B00 VA: 0x1817AB500
 	|-IJobExtensions.JobStruct.ExecuteJobFunction<SimulatePositionsJob>.BeginInvoke
 	*/
 
@@ -67,7 +67,7 @@ public sealed class IJobExtensions.JobStruct.ExecuteJobFunction<T> : MulticastDe
 	public virtual void EndInvoke(ref T data, ref JobRanges ranges, IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AB320 Offset: 0x17A9920 VA: 0x1817AB320
+	|-RVA: 0x17AB5E0 Offset: 0x17A9BE0 VA: 0x1817AB5E0
 	|-IJobExtensions.JobStruct.ExecuteJobFunction<SimulatePositionsJob>.EndInvoke
 	*/
 

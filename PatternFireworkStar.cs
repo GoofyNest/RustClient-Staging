@@ -6,10 +6,10 @@ public class PatternFireworkStar : MonoBehaviour, IClientComponent // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x86BA90 Offset: 0x86A090 VA: 0x18086BA90
+	// RVA: 0x86BBA0 Offset: 0x86A1A0 VA: 0x18086BBA0
 	public void Initialize(Color color) { }
 
-	// RVA: 0x86B9C0 Offset: 0x869FC0 VA: 0x18086B9C0
+	// RVA: 0x86BAD0 Offset: 0x86A0D0 VA: 0x18086BAD0
 	public void Explode() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

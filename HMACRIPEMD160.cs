@@ -1,10 +1,10 @@
 public class HMACRIPEMD160 : HMAC // TypeDefIndex: 962
 {	// Methods
 
-	// RVA: 0x1700D10 Offset: 0x16FF310 VA: 0x181700D10
+	// RVA: 0x1700FD0 Offset: 0x16FF5D0 VA: 0x181700FD0
 	public void .ctor() { }
 
-	// RVA: 0x1700DF0 Offset: 0x16FF3F0 VA: 0x181700DF0
+	// RVA: 0x17010B0 Offset: 0x16FF6B0 VA: 0x1817010B0
 	public void .ctor(byte[] key) { }
 
 }

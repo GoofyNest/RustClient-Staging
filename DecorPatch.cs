@@ -11,16 +11,16 @@ public class DecorPatch // TypeDefIndex: 10333
 
 	// Methods
 
-	// RVA: 0x841D30 Offset: 0x840330 VA: 0x180841D30
+	// RVA: 0x841E40 Offset: 0x840440 VA: 0x180841E40
 	public void DestroyInstances() { }
 
-	// RVA: 0x842960 Offset: 0x840F60 VA: 0x180842960
+	// RVA: 0x842A70 Offset: 0x841070 VA: 0x180842A70
 	public void .ctor(DecorSpawn decorSpawn, int i, int j) { }
 
-	// RVA: 0x841E50 Offset: 0x840450 VA: 0x180841E50
+	// RVA: 0x841F60 Offset: 0x840560 VA: 0x180841F60
 	public bool Shift() { }
 
-	// RVA: 0x842160 Offset: 0x840760 VA: 0x180842160
+	// RVA: 0x842270 Offset: 0x840870 VA: 0x180842270
 	public void Spawn() { }
 
 }

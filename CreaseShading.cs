@@ -12,13 +12,13 @@ internal class CreaseShading : PostEffectsBase // TypeDefIndex: 8176
 
 	// Methods
 
-	// RVA: 0x21DA0D0 Offset: 0x21D86D0 VA: 0x1821DA0D0 Slot: 4
+	// RVA: 0x21DA390 Offset: 0x21D8990 VA: 0x1821DA390 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x21DA180 Offset: 0x21D8780 VA: 0x1821DA180
+	// RVA: 0x21DA440 Offset: 0x21D8A40 VA: 0x1821DA440
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21DA580 Offset: 0x21D8B80 VA: 0x1821DA580
+	// RVA: 0x21DA840 Offset: 0x21D8E40 VA: 0x1821DA840
 	public void .ctor() { }
 
 }

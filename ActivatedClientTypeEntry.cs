@@ -10,7 +10,7 @@ public class ActivatedClientTypeEntry : TypeEntry // TypeDefIndex: 1127
 
 	// Methods
 
-	// RVA: 0xFDA350 Offset: 0xFD8950 VA: 0x180FDA350
+	// RVA: 0xFDA610 Offset: 0xFD8C10 VA: 0x180FDA610
 	public void .ctor(string typeName, string assemblyName, string appUrl) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
@@ -19,10 +19,10 @@ public class ActivatedClientTypeEntry : TypeEntry // TypeDefIndex: 1127
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
 	public IContextAttribute[] get_ContextAttributes() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public Type get_ObjectType() { }
 
-	// RVA: 0xFDA330 Offset: 0xFD8930 VA: 0x180FDA330 Slot: 3
+	// RVA: 0xFDA5F0 Offset: 0xFD8BF0 VA: 0x180FDA5F0 Slot: 3
 	public override string ToString() { }
 
 }

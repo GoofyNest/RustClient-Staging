@@ -4,7 +4,7 @@ public class FuelElectricGenerator : IOEntity // TypeDefIndex: 8711
 
 	// Methods
 
-	// RVA: 0x755870 Offset: 0x753E70 VA: 0x180755870
+	// RVA: 0x755980 Offset: 0x753F80 VA: 0x180755980
 	public void .ctor() { }
 
 }

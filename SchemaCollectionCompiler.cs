@@ -7,199 +7,199 @@ internal sealed class SchemaCollectionCompiler : BaseProcessor // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0xB3B730 Offset: 0xB39D30 VA: 0x180B3B730
+	// RVA: 0xB3B9F0 Offset: 0xB39FF0 VA: 0x180B3B9F0
 	public void .ctor(XmlNameTable nameTable, ValidationEventHandler eventHandler) { }
 
-	// RVA: 0xB380F0 Offset: 0xB366F0 VA: 0x180B380F0
+	// RVA: 0xB383B0 Offset: 0xB369B0 VA: 0x180B383B0
 	public bool Execute(XmlSchema schema, SchemaInfo schemaInfo, bool compileContentModel) { }
 
-	// RVA: 0xB3B3D0 Offset: 0xB399D0 VA: 0x180B3B3D0
+	// RVA: 0xB3B690 Offset: 0xB39C90 VA: 0x180B3B690
 	private void Prepare() { }
 
-	// RVA: 0xB2D220 Offset: 0xB2B820 VA: 0x180B2D220
+	// RVA: 0xB2D4E0 Offset: 0xB2BAE0 VA: 0x180B2D4E0
 	private void Cleanup() { }
 
-	// RVA: 0xB2DED0 Offset: 0xB2C4D0 VA: 0x180B2DED0
+	// RVA: 0xB2E190 Offset: 0xB2C790 VA: 0x180B2E190
 	internal static void Cleanup(XmlSchema schema) { }
 
-	// RVA: 0xB35C80 Offset: 0xB34280 VA: 0x180B35C80
+	// RVA: 0xB35F40 Offset: 0xB34540 VA: 0x180B35F40
 	private void Compile() { }
 
-	// RVA: 0xB3A780 Offset: 0xB38D80 VA: 0x180B3A780
+	// RVA: 0xB3AA40 Offset: 0xB39040 VA: 0x180B3AA40
 	private void Output(SchemaInfo schemaInfo) { }
 
-	// RVA: 0xB2C750 Offset: 0xB2AD50 VA: 0x180B2C750
+	// RVA: 0xB2CA10 Offset: 0xB2B010 VA: 0x180B2CA10
 	private static void CleanupAttribute(XmlSchemaAttribute attribute) { }
 
-	// RVA: 0xB2C6F0 Offset: 0xB2ACF0 VA: 0x180B2C6F0
+	// RVA: 0xB2C9B0 Offset: 0xB2AFB0 VA: 0x180B2C9B0
 	private static void CleanupAttributeGroup(XmlSchemaAttributeGroup attributeGroup) { }
 
-	// RVA: 0xB2C8A0 Offset: 0xB2AEA0 VA: 0x180B2C8A0
+	// RVA: 0xB2CB60 Offset: 0xB2B160 VA: 0x180B2CB60
 	private static void CleanupComplexType(XmlSchemaComplexType complexType) { }
 
-	// RVA: 0xB2D200 Offset: 0xB2B800 VA: 0x180B2D200
+	// RVA: 0xB2D4C0 Offset: 0xB2BAC0 VA: 0x180B2D4C0
 	private static void CleanupSimpleType(XmlSchemaSimpleType simpleType) { }
 
-	// RVA: 0xB2CD60 Offset: 0xB2B360 VA: 0x180B2CD60
+	// RVA: 0xB2D020 Offset: 0xB2B620 VA: 0x180B2D020
 	private static void CleanupElement(XmlSchemaElement element) { }
 
-	// RVA: 0xB2C7A0 Offset: 0xB2ADA0 VA: 0x180B2C7A0
+	// RVA: 0xB2CA60 Offset: 0xB2B060 VA: 0x180B2CA60
 	private static void CleanupAttributes(XmlSchemaObjectCollection attributes) { }
 
-	// RVA: 0xB2CF70 Offset: 0xB2B570 VA: 0x180B2CF70
+	// RVA: 0xB2D230 Offset: 0xB2B830 VA: 0x180B2D230
 	private static void CleanupGroup(XmlSchemaGroup group) { }
 
-	// RVA: 0xB2CFB0 Offset: 0xB2B5B0 VA: 0x180B2CFB0
+	// RVA: 0xB2D270 Offset: 0xB2B870 VA: 0x180B2D270
 	private static void CleanupParticle(XmlSchemaParticle particle) { }
 
-	// RVA: 0xB35740 Offset: 0xB33D40 VA: 0x180B35740
+	// RVA: 0xB35A00 Offset: 0xB34000 VA: 0x180B35A00
 	private void CompileSubstitutionGroup(XmlSchemaSubstitutionGroupV1Compat substitutionGroup) { }
 
-	// RVA: 0xB2C380 Offset: 0xB2A980 VA: 0x180B2C380
+	// RVA: 0xB2C640 Offset: 0xB2AC40 VA: 0x180B2C640
 	private void CheckSubstitutionGroup(XmlSchemaSubstitutionGroup substitutionGroup) { }
 
-	// RVA: 0xB32D00 Offset: 0xB31300 VA: 0x180B32D00
+	// RVA: 0xB32FC0 Offset: 0xB315C0 VA: 0x180B32FC0
 	private void CompileGroup(XmlSchemaGroup group) { }
 
-	// RVA: 0xB34EC0 Offset: 0xB334C0 VA: 0x180B34EC0
+	// RVA: 0xB35180 Offset: 0xB33780 VA: 0x180B35180
 	private void CompileSimpleType(XmlSchemaSimpleType simpleType) { }
 
-	// RVA: 0xB2F8A0 Offset: 0xB2DEA0 VA: 0x180B2F8A0
+	// RVA: 0xB2FB60 Offset: 0xB2E160 VA: 0x180B2FB60
 	private XmlSchemaSimpleType[] CompileBaseMemberTypes(XmlSchemaSimpleType simpleType) { }
 
-	// RVA: 0xB2C5C0 Offset: 0xB2ABC0 VA: 0x180B2C5C0
+	// RVA: 0xB2C880 Offset: 0xB2AE80 VA: 0x180B2C880
 	private void CheckUnionType(XmlSchemaSimpleType unionMember, ArrayList memberTypeDefinitions, XmlSchemaSimpleType parentType) { }
 
-	// RVA: 0xB313B0 Offset: 0xB2F9B0 VA: 0x180B313B0
+	// RVA: 0xB31670 Offset: 0xB2FC70 VA: 0x180B31670
 	private void CompileComplexType(XmlSchemaComplexType complexType) { }
 
-	// RVA: 0xB34840 Offset: 0xB32E40 VA: 0x180B34840
+	// RVA: 0xB34B00 Offset: 0xB33100 VA: 0x180B34B00
 	private void CompileSimpleContentExtension(XmlSchemaComplexType complexType, XmlSchemaSimpleContentExtension simpleExtension) { }
 
-	// RVA: 0xB34AD0 Offset: 0xB330D0 VA: 0x180B34AD0
+	// RVA: 0xB34D90 Offset: 0xB33390 VA: 0x180B34D90
 	private void CompileSimpleContentRestriction(XmlSchemaComplexType complexType, XmlSchemaSimpleContentRestriction simpleRestriction) { }
 
-	// RVA: 0xB2FE00 Offset: 0xB2E400 VA: 0x180B2FE00
+	// RVA: 0xB300C0 Offset: 0xB2E6C0 VA: 0x180B300C0
 	private void CompileComplexContentExtension(XmlSchemaComplexType complexType, XmlSchemaComplexContent complexContent, XmlSchemaComplexContentExtension complexExtension) { }
 
-	// RVA: 0xB302A0 Offset: 0xB2E8A0 VA: 0x180B302A0
+	// RVA: 0xB30560 Offset: 0xB2EB60 VA: 0x180B30560
 	private void CompileComplexContentRestriction(XmlSchemaComplexType complexType, XmlSchemaComplexContent complexContent, XmlSchemaComplexContentRestriction complexRestriction) { }
 
-	// RVA: 0xB2C230 Offset: 0xB2A830 VA: 0x180B2C230
+	// RVA: 0xB2C4F0 Offset: 0xB2AAF0 VA: 0x180B2C4F0
 	private void CheckParticleDerivation(XmlSchemaComplexType complexType) { }
 
-	// RVA: 0xB31EB0 Offset: 0xB304B0 VA: 0x180B31EB0
+	// RVA: 0xB32170 Offset: 0xB30770 VA: 0x180B32170
 	private XmlSchemaParticle CompileContentTypeParticle(XmlSchemaParticle particle, bool substitution) { }
 
-	// RVA: 0xB2B850 Offset: 0xB29E50 VA: 0x180B2B850
+	// RVA: 0xB2BB10 Offset: 0xB2A110 VA: 0x180B2BB10
 	private XmlSchemaParticle CannonicalizeParticle(XmlSchemaParticle particle, bool root, bool substitution) { }
 
-	// RVA: 0xB2B000 Offset: 0xB29600 VA: 0x180B2B000
+	// RVA: 0xB2B2C0 Offset: 0xB298C0 VA: 0x180B2B2C0
 	private XmlSchemaParticle CannonicalizeElement(XmlSchemaElement element, bool substitution) { }
 
-	// RVA: 0xB2B1C0 Offset: 0xB297C0 VA: 0x180B2B1C0
+	// RVA: 0xB2B480 Offset: 0xB29A80 VA: 0x180B2B480
 	private XmlSchemaParticle CannonicalizeGroupRef(XmlSchemaGroupRef groupRef, bool root, bool substitution) { }
 
-	// RVA: 0xB2A3D0 Offset: 0xB289D0 VA: 0x180B2A3D0
+	// RVA: 0xB2A690 Offset: 0xB28C90 VA: 0x180B2A690
 	private XmlSchemaParticle CannonicalizeAll(XmlSchemaAll all, bool root, bool substitution) { }
 
-	// RVA: 0xB2A960 Offset: 0xB28F60 VA: 0x180B2A960
+	// RVA: 0xB2AC20 Offset: 0xB29220 VA: 0x180B2AC20
 	private XmlSchemaParticle CannonicalizeChoice(XmlSchemaChoice choice, bool root, bool substitution) { }
 
-	// RVA: 0xB2BC00 Offset: 0xB2A200 VA: 0x180B2BC00
+	// RVA: 0xB2BEC0 Offset: 0xB2A4C0 VA: 0x180B2BEC0
 	private XmlSchemaParticle CannonicalizeSequence(XmlSchemaSequence sequence, bool root, bool substitution) { }
 
-	// RVA: 0xB39B50 Offset: 0xB38150 VA: 0x180B39B50
+	// RVA: 0xB39E10 Offset: 0xB38410 VA: 0x180B39E10
 	private bool IsValidRestriction(XmlSchemaParticle derivedParticle, XmlSchemaParticle baseParticle) { }
 
-	// RVA: 0xB38800 Offset: 0xB36E00 VA: 0x180B38800
+	// RVA: 0xB38AC0 Offset: 0xB370C0 VA: 0x180B38AC0
 	private bool IsElementFromElement(XmlSchemaElement derivedElement, XmlSchemaElement baseElement) { }
 
-	// RVA: 0xB38790 Offset: 0xB36D90 VA: 0x180B38790
+	// RVA: 0xB38A50 Offset: 0xB37050 VA: 0x180B38A50
 	private bool IsElementFromAny(XmlSchemaElement derivedElement, XmlSchemaAny baseAny) { }
 
-	// RVA: 0xB38730 Offset: 0xB36D30 VA: 0x180B38730
+	// RVA: 0xB389F0 Offset: 0xB36FF0 VA: 0x180B389F0
 	private bool IsAnyFromAny(XmlSchemaAny derivedAny, XmlSchemaAny baseAny) { }
 
-	// RVA: 0xB38CD0 Offset: 0xB372D0 VA: 0x180B38CD0
+	// RVA: 0xB38F90 Offset: 0xB37590 VA: 0x180B38F90
 	private bool IsGroupBaseFromAny(XmlSchemaGroupBase derivedGroupBase, XmlSchemaAny baseAny) { }
 
-	// RVA: 0xB38930 Offset: 0xB36F30 VA: 0x180B38930
+	// RVA: 0xB38BF0 Offset: 0xB371F0 VA: 0x180B38BF0
 	private bool IsElementFromGroupBase(XmlSchemaElement derivedElement, XmlSchemaGroupBase baseGroupBase, bool skipEmptableOnly) { }
 
-	// RVA: 0xB38FA0 Offset: 0xB375A0 VA: 0x180B38FA0
+	// RVA: 0xB39260 Offset: 0xB37860 VA: 0x180B39260
 	private bool IsGroupBaseFromGroupBase(XmlSchemaGroupBase derivedGroupBase, XmlSchemaGroupBase baseGroupBase, bool skipEmptableOnly) { }
 
-	// RVA: 0xB39330 Offset: 0xB37930 VA: 0x180B39330
+	// RVA: 0xB395F0 Offset: 0xB37BF0 VA: 0x180B395F0
 	private bool IsSequenceFromAll(XmlSchemaSequence derivedSequence, XmlSchemaAll baseAll) { }
 
-	// RVA: 0xB39680 Offset: 0xB37C80 VA: 0x180B39680
+	// RVA: 0xB39940 Offset: 0xB37F40 VA: 0x180B39940
 	private bool IsSequenceFromChoice(XmlSchemaSequence derivedSequence, XmlSchemaChoice baseChoice) { }
 
-	// RVA: 0xB29F80 Offset: 0xB28580 VA: 0x180B29F80
+	// RVA: 0xB2A240 Offset: 0xB28840 VA: 0x180B2A240
 	private void CalculateSequenceRange(XmlSchemaSequence sequence, out Decimal minOccurs, out Decimal maxOccurs) { }
 
-	// RVA: 0xB39950 Offset: 0xB37F50 VA: 0x180B39950
+	// RVA: 0xB39C10 Offset: 0xB38210 VA: 0x180B39C10
 	private bool IsValidOccurrenceRangeRestriction(XmlSchemaParticle derivedParticle, XmlSchemaParticle baseParticle) { }
 
-	// RVA: 0xB39A70 Offset: 0xB38070 VA: 0x180B39A70
+	// RVA: 0xB39D30 Offset: 0xB38330 VA: 0x180B39D30
 	private bool IsValidOccurrenceRangeRestriction(Decimal minOccurs, Decimal maxOccurs, Decimal baseMinOccurs, Decimal baseMaxOccurs) { }
 
-	// RVA: 0xB38420 Offset: 0xB36A20 VA: 0x180B38420
+	// RVA: 0xB386E0 Offset: 0xB36CE0 VA: 0x180B386E0
 	private int GetMappingParticle(XmlSchemaParticle particle, XmlSchemaObjectCollection collection) { }
 
-	// RVA: 0xB39270 Offset: 0xB37870 VA: 0x180B39270
+	// RVA: 0xB39530 Offset: 0xB37B30 VA: 0x180B39530
 	private bool IsParticleEmptiable(XmlSchemaParticle particle) { }
 
-	// RVA: 0xB29660 Offset: 0xB27C60 VA: 0x180B29660
+	// RVA: 0xB29920 Offset: 0xB27F20 VA: 0x180B29920
 	private void CalculateEffectiveTotalRange(XmlSchemaParticle particle, out Decimal minOccurs, out Decimal maxOccurs) { }
 
-	// RVA: 0xB3B700 Offset: 0xB39D00 VA: 0x180B3B700
+	// RVA: 0xB3B9C0 Offset: 0xB39FC0 VA: 0x180B3B9C0
 	private void PushComplexType(XmlSchemaComplexType complexType) { }
 
-	// RVA: 0xB38530 Offset: 0xB36B30 VA: 0x180B38530
+	// RVA: 0xB387F0 Offset: 0xB36DF0 VA: 0x180B387F0
 	private XmlSchemaContentType GetSchemaContentType(XmlSchemaComplexType complexType, XmlSchemaComplexContent complexContent, XmlSchemaParticle particle) { }
 
-	// RVA: 0xB2E830 Offset: 0xB2CE30 VA: 0x180B2E830
+	// RVA: 0xB2EAF0 Offset: 0xB2D0F0 VA: 0x180B2EAF0
 	private void CompileAttributeGroup(XmlSchemaAttributeGroup attributeGroup) { }
 
-	// RVA: 0xB333B0 Offset: 0xB319B0 VA: 0x180B333B0
+	// RVA: 0xB33670 Offset: 0xB31C70 VA: 0x180B33670
 	private void CompileLocalAttributes(XmlSchemaComplexType baseType, XmlSchemaComplexType derivedType, XmlSchemaObjectCollection attributes, XmlSchemaAnyAttribute anyAttribute, XmlSchemaDerivationMethod derivedBy) { }
 
-	// RVA: 0xB2E790 Offset: 0xB2CD90 VA: 0x180B2E790
+	// RVA: 0xB2EA50 Offset: 0xB2D050 VA: 0x180B2EA50
 	private XmlSchemaAnyAttribute CompileAnyAttributeUnion(XmlSchemaAnyAttribute a, XmlSchemaAnyAttribute b) { }
 
-	// RVA: 0xB2E6F0 Offset: 0xB2CCF0 VA: 0x180B2E6F0
+	// RVA: 0xB2E9B0 Offset: 0xB2CFB0 VA: 0x180B2E9B0
 	private XmlSchemaAnyAttribute CompileAnyAttributeIntersection(XmlSchemaAnyAttribute a, XmlSchemaAnyAttribute b) { }
 
-	// RVA: 0xB2EF20 Offset: 0xB2D520 VA: 0x180B2EF20
+	// RVA: 0xB2F1E0 Offset: 0xB2D7E0 VA: 0x180B2F1E0
 	private void CompileAttribute(XmlSchemaAttribute xa) { }
 
-	// RVA: 0xB32DF0 Offset: 0xB313F0 VA: 0x180B32DF0
+	// RVA: 0xB330B0 Offset: 0xB316B0 VA: 0x180B330B0
 	private void CompileIdentityConstraint(XmlSchemaIdentityConstraint xi) { }
 
-	// RVA: 0xB32060 Offset: 0xB30660 VA: 0x180B32060
+	// RVA: 0xB32320 Offset: 0xB30920 VA: 0x180B32320
 	private void CompileElement(XmlSchemaElement xe) { }
 
-	// RVA: 0xB305C0 Offset: 0xB2EBC0 VA: 0x180B305C0
+	// RVA: 0xB30880 Offset: 0xB2EE80 VA: 0x180B30880
 	private ContentValidator CompileComplexContent(XmlSchemaComplexType complexType) { }
 
-	// RVA: 0xB28D20 Offset: 0xB27320 VA: 0x180B28D20
+	// RVA: 0xB28FE0 Offset: 0xB275E0 VA: 0x180B28FE0
 	private void BuildParticleContentModel(ParticleContentValidator contentValidator, XmlSchemaParticle particle) { }
 
-	// RVA: 0xB344B0 Offset: 0xB32AB0 VA: 0x180B344B0
+	// RVA: 0xB34770 Offset: 0xB32D70 VA: 0x180B34770
 	private void CompileParticleElements(XmlSchemaComplexType complexType, XmlSchemaParticle particle) { }
 
-	// RVA: 0xB2FD30 Offset: 0xB2E330 VA: 0x180B2FD30
+	// RVA: 0xB2FFF0 Offset: 0xB2E5F0 VA: 0x180B2FFF0
 	private void CompileCompexTypeElements(XmlSchemaComplexType complexType) { }
 
-	// RVA: 0xB385B0 Offset: 0xB36BB0 VA: 0x180B385B0
+	// RVA: 0xB38870 Offset: 0xB36E70 VA: 0x180B38870
 	private XmlSchemaSimpleType GetSimpleType(XmlQualifiedName name) { }
 
-	// RVA: 0xB38350 Offset: 0xB36950 VA: 0x180B38350
+	// RVA: 0xB38610 Offset: 0xB36C10 VA: 0x180B38610
 	private XmlSchemaComplexType GetComplexType(XmlQualifiedName name) { }
 
-	// RVA: 0xB38170 Offset: 0xB36770 VA: 0x180B38170
+	// RVA: 0xB38430 Offset: 0xB36A30 VA: 0x180B38430
 	private XmlSchemaType GetAnySchemaType(XmlQualifiedName name) { }
 
 }

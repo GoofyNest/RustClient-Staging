@@ -9,7 +9,7 @@ private sealed class IdentityFunction.<>c<TElement> // TypeDefIndex: 3223
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD65280 Offset: 0xD63880 VA: 0x180D65280
+	|-RVA: 0xD65540 Offset: 0xD63B40 VA: 0x180D65540
 	|-IdentityFunction.<>c<InventoryItem>..cctor
 	|-IdentityFunction.<>c<object>..cctor
 	|-IdentityFunction.<>c<Resolution>..cctor
@@ -19,7 +19,7 @@ private sealed class IdentityFunction.<>c<TElement> // TypeDefIndex: 3223
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-IdentityFunction.<>c<InventoryItem>..ctor
 	|-IdentityFunction.<>c<object>..ctor
 	|-IdentityFunction.<>c<Resolution>..ctor
@@ -29,13 +29,13 @@ private sealed class IdentityFunction.<>c<TElement> // TypeDefIndex: 3223
 	internal TElement <get_Instance>b__1_0(TElement x) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xFD8450 Offset: 0xFD6A50 VA: 0x180FD8450
+	|-RVA: 0xFD8710 Offset: 0xFD6D10 VA: 0x180FD8710
 	|-IdentityFunction.<>c<InventoryItem>.<get_Instance>b__1_0
 	|
-	|-RVA: 0x7B4E80 Offset: 0x7B3480 VA: 0x1807B4E80
+	|-RVA: 0x7B4F90 Offset: 0x7B3590 VA: 0x1807B4F90
 	|-IdentityFunction.<>c<object>.<get_Instance>b__1_0
 	|
-	|-RVA: 0xA4B430 Offset: 0xA49A30 VA: 0x180A4B430
+	|-RVA: 0xA4B6F0 Offset: 0xA49CF0 VA: 0x180A4B6F0
 	|-IdentityFunction.<>c<Resolution>.<get_Instance>b__1_0
 	*/
 

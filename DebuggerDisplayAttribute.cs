@@ -6,7 +6,7 @@ public sealed class DebuggerDisplayAttribute : Attribute // TypeDefIndex: 1500
 
 	// Methods
 
-	// RVA: 0xD695A0 Offset: 0xD67BA0 VA: 0x180D695A0
+	// RVA: 0xD69860 Offset: 0xD67E60 VA: 0x180D69860
 	public void .ctor(string value) { }
 
 }

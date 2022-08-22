@@ -5,19 +5,19 @@ internal class ByteMatcher // TypeDefIndex: 397
 
 	// Methods
 
-	// RVA: 0x1560EC0 Offset: 0x155F4C0 VA: 0x181560EC0
+	// RVA: 0x1561180 Offset: 0x155F780 VA: 0x181561180
 	public void AddMapping(TermInfoStrings key, byte[] val) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void Sort() { }
 
-	// RVA: 0x1561320 Offset: 0x155F920 VA: 0x181561320
+	// RVA: 0x15615E0 Offset: 0x155FBE0 VA: 0x1815615E0
 	public bool StartsWith(int c) { }
 
-	// RVA: 0x1560FE0 Offset: 0x155F5E0 VA: 0x181560FE0
+	// RVA: 0x15612A0 Offset: 0x155F8A0 VA: 0x1815612A0
 	public TermInfoStrings Match(char[] buffer, int offset, int length, out int used) { }
 
-	// RVA: 0x15613A0 Offset: 0x155F9A0 VA: 0x1815613A0
+	// RVA: 0x1561660 Offset: 0x155FC60 VA: 0x181561660
 	public void .ctor() { }
 
 }

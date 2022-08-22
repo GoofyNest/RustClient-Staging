@@ -5,16 +5,16 @@ public class TerrainFilter : PrefabAttribute // TypeDefIndex: 10441
 
 	// Methods
 
-	// RVA: 0x113FD90 Offset: 0x113E390 VA: 0x18113FD90
+	// RVA: 0x1140050 Offset: 0x113E650 VA: 0x181140050
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x113FCE0 Offset: 0x113E2E0 VA: 0x18113FCE0
+	// RVA: 0x113FFA0 Offset: 0x113E5A0 VA: 0x18113FFA0
 	public bool Check(Vector3 pos) { }
 
-	// RVA: 0x113FD30 Offset: 0x113E330 VA: 0x18113FD30 Slot: 7
+	// RVA: 0x113FFF0 Offset: 0x113E5F0 VA: 0x18113FFF0 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x1140020 Offset: 0x113E620 VA: 0x181140020
+	// RVA: 0x11402E0 Offset: 0x113E8E0 VA: 0x1811402E0
 	public void .ctor() { }
 
 }

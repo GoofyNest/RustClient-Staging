@@ -42,10 +42,10 @@ public struct PlayableHandle : IEquatable<PlayableHandle> // TypeDefIndex: 3870
 	|-PlayableHandle.IsPlayableOfType<AnimatorControllerPlayable>
 	*/
 
-	// RVA: 0x18FA6C0 Offset: 0x18F8CC0 VA: 0x1818FA6C0
+	// RVA: 0x18FA980 Offset: 0x18F8F80 VA: 0x1818FA980
 	public static PlayableHandle get_Null() { }
 
-	// RVA: 0x18FA730 Offset: 0x18F8D30 VA: 0x1818FA730
+	// RVA: 0x18FA9F0 Offset: 0x18F8FF0 VA: 0x1818FA9F0
 	public static bool op_Equality(PlayableHandle x, PlayableHandle y) { }
 
 	// RVA: 0x2170D0 Offset: 0x2164D0 VA: 0x1802170D0 Slot: 0
@@ -57,7 +57,7 @@ public struct PlayableHandle : IEquatable<PlayableHandle> // TypeDefIndex: 3870
 	// RVA: 0x217260 Offset: 0x216660 VA: 0x180217260 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x18FA4C0 Offset: 0x18F8AC0 VA: 0x1818FA4C0
+	// RVA: 0x18FA780 Offset: 0x18F8D80 VA: 0x1818FA780
 	internal static bool CompareVersion(PlayableHandle lhs, PlayableHandle rhs) { }
 
 	[VisibleToOtherModulesAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -69,13 +69,13 @@ public struct PlayableHandle : IEquatable<PlayableHandle> // TypeDefIndex: 3870
 	// RVA: 0x2172A0 Offset: 0x2166A0 VA: 0x1802172A0
 	internal Type GetPlayableType() { }
 
-	// RVA: 0x18FA680 Offset: 0x18F8C80 VA: 0x1818FA680
+	// RVA: 0x18FA940 Offset: 0x18F8F40 VA: 0x1818FA940
 	private static void .cctor() { }
 
-	// RVA: 0x18FA5D0 Offset: 0x18F8BD0 VA: 0x1818FA5D0
+	// RVA: 0x18FA890 Offset: 0x18F8E90 VA: 0x1818FA890
 	private static bool IsValid_Injected(ref PlayableHandle _unity_self) { }
 
-	// RVA: 0x18FA520 Offset: 0x18F8B20 VA: 0x1818FA520
+	// RVA: 0x18FA7E0 Offset: 0x18F8DE0 VA: 0x1818FA7E0
 	private static Type GetPlayableType_Injected(ref PlayableHandle _unity_self) { }
 
 }

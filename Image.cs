@@ -66,181 +66,181 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 
 	// Methods
 
-	// RVA: 0xDA00E0 Offset: 0xD9E6E0 VA: 0x180DA00E0
+	// RVA: 0xDA03A0 Offset: 0xD9E9A0 VA: 0x180DA03A0
 	public Sprite get_sprite() { }
 
-	// RVA: 0x15F9E40 Offset: 0x15F8440 VA: 0x1815F9E40
+	// RVA: 0x15FA100 Offset: 0x15F8700 VA: 0x1815FA100
 	public void set_sprite(Sprite value) { }
 
-	// RVA: 0x15F24A0 Offset: 0x15F0AA0 VA: 0x1815F24A0
+	// RVA: 0x15F2760 Offset: 0x15F0D60 VA: 0x1815F2760
 	public void DisableSpriteOptimizations() { }
 
-	// RVA: 0x15F9720 Offset: 0x15F7D20 VA: 0x1815F9720
+	// RVA: 0x15F99E0 Offset: 0x15F7FE0 VA: 0x1815F99E0
 	public Sprite get_overrideSprite() { }
 
-	// RVA: 0x15F9CF0 Offset: 0x15F82F0 VA: 0x1815F9CF0
+	// RVA: 0x15F9FB0 Offset: 0x15F85B0 VA: 0x1815F9FB0
 	public void set_overrideSprite(Sprite value) { }
 
-	// RVA: 0x15F9090 Offset: 0x15F7690 VA: 0x1815F9090
+	// RVA: 0x15F9350 Offset: 0x15F7950 VA: 0x1815F9350
 	private Sprite get_activeSprite() { }
 
-	// RVA: 0x1050470 Offset: 0x104EA70 VA: 0x181050470
+	// RVA: 0x1050730 Offset: 0x104ED30 VA: 0x181050730
 	public Image.Type get_type() { }
 
-	// RVA: 0x15FA150 Offset: 0x15F8750 VA: 0x1815FA150
+	// RVA: 0x15FA410 Offset: 0x15F8A10 VA: 0x1815FA410
 	public void set_type(Image.Type value) { }
 
-	// RVA: 0x15F9A50 Offset: 0x15F8050 VA: 0x1815F9A50
+	// RVA: 0x15F9D10 Offset: 0x15F8310 VA: 0x1815F9D10
 	public bool get_preserveAspect() { }
 
-	// RVA: 0x15F9DD0 Offset: 0x15F83D0 VA: 0x1815F9DD0
+	// RVA: 0x15FA090 Offset: 0x15F8690 VA: 0x1815FA090
 	public void set_preserveAspect(bool value) { }
 
-	// RVA: 0x15F9240 Offset: 0x15F7840 VA: 0x1815F9240
+	// RVA: 0x15F9500 Offset: 0x15F7B00 VA: 0x1815F9500
 	public bool get_fillCenter() { }
 
-	// RVA: 0x15F9B30 Offset: 0x15F8130 VA: 0x1815F9B30
+	// RVA: 0x15F9DF0 Offset: 0x15F83F0 VA: 0x1815F9DF0
 	public void set_fillCenter(bool value) { }
 
-	// RVA: 0x872130 Offset: 0x870730 VA: 0x180872130
+	// RVA: 0x872240 Offset: 0x870840 VA: 0x180872240
 	public Image.FillMethod get_fillMethod() { }
 
-	// RVA: 0x15F9C10 Offset: 0x15F8210 VA: 0x1815F9C10
+	// RVA: 0x15F9ED0 Offset: 0x15F84D0 VA: 0x1815F9ED0
 	public void set_fillMethod(Image.FillMethod value) { }
 
-	// RVA: 0x12DAAA0 Offset: 0x12D90A0 VA: 0x1812DAAA0
+	// RVA: 0x12DAD60 Offset: 0x12D9360 VA: 0x1812DAD60
 	public float get_fillAmount() { }
 
-	// RVA: 0x15F9A90 Offset: 0x15F8090 VA: 0x1815F9A90
+	// RVA: 0x15F9D50 Offset: 0x15F8350 VA: 0x1815F9D50
 	public void set_fillAmount(float value) { }
 
-	// RVA: 0xB0E090 Offset: 0xB0C690 VA: 0x180B0E090
+	// RVA: 0xB0E350 Offset: 0xB0C950 VA: 0x180B0E350
 	public bool get_fillClockwise() { }
 
-	// RVA: 0x15F9BA0 Offset: 0x15F81A0 VA: 0x1815F9BA0
+	// RVA: 0x15F9E60 Offset: 0x15F8460 VA: 0x1815F9E60
 	public void set_fillClockwise(bool value) { }
 
-	// RVA: 0x1079DF0 Offset: 0x10783F0 VA: 0x181079DF0
+	// RVA: 0x107A0B0 Offset: 0x10786B0 VA: 0x18107A0B0
 	public int get_fillOrigin() { }
 
-	// RVA: 0x15F9C80 Offset: 0x15F8280 VA: 0x1815F9C80
+	// RVA: 0x15F9F40 Offset: 0x15F8540 VA: 0x1815F9F40
 	public void set_fillOrigin(int value) { }
 
-	// RVA: 0x15F9220 Offset: 0x15F7820 VA: 0x1815F9220
+	// RVA: 0x15F94E0 Offset: 0x15F7AE0 VA: 0x1815F94E0
 	public float get_eventAlphaThreshold() { }
 
-	// RVA: 0x15F9A70 Offset: 0x15F8070 VA: 0x1815F9A70
+	// RVA: 0x15F9D30 Offset: 0x15F8330 VA: 0x1815F9D30
 	public void set_eventAlphaThreshold(float value) { }
 
-	// RVA: 0x11D5850 Offset: 0x11D3E50 VA: 0x1811D5850
+	// RVA: 0x11D5B10 Offset: 0x11D4110 VA: 0x1811D5B10
 	public float get_alphaHitTestMinimumThreshold() { }
 
-	// RVA: 0x11D5870 Offset: 0x11D3E70 VA: 0x1811D5870
+	// RVA: 0x11D5B30 Offset: 0x11D4130 VA: 0x1811D5B30
 	public void set_alphaHitTestMinimumThreshold(float value) { }
 
-	// RVA: 0x15F9A60 Offset: 0x15F8060 VA: 0x1815F9A60
+	// RVA: 0x15F9D20 Offset: 0x15F8320 VA: 0x1815F9D20
 	public bool get_useSpriteMesh() { }
 
-	// RVA: 0x15FA1C0 Offset: 0x15F87C0 VA: 0x1815FA1C0
+	// RVA: 0x15FA480 Offset: 0x15F8A80 VA: 0x1815FA480
 	public void set_useSpriteMesh(bool value) { }
 
-	// RVA: 0x15F9030 Offset: 0x15F7630 VA: 0x1815F9030
+	// RVA: 0x15F92F0 Offset: 0x15F78F0 VA: 0x1815F92F0
 	protected void .ctor() { }
 
-	// RVA: 0x15F9120 Offset: 0x15F7720 VA: 0x1815F9120
+	// RVA: 0x15F93E0 Offset: 0x15F79E0 VA: 0x1815F93E0
 	public static Material get_defaultETC1GraphicMaterial() { }
 
-	// RVA: 0x15F9310 Offset: 0x15F7910 VA: 0x1815F9310 Slot: 35
+	// RVA: 0x15F95D0 Offset: 0x15F7BD0 VA: 0x1815F95D0 Slot: 35
 	public override Texture get_mainTexture() { }
 
-	// RVA: 0x15F9250 Offset: 0x15F7850 VA: 0x1815F9250
+	// RVA: 0x15F9510 Offset: 0x15F7B10 VA: 0x1815F9510
 	public bool get_hasBorder() { }
 
-	// RVA: 0x112C0E0 Offset: 0x112A6E0 VA: 0x18112C0E0
+	// RVA: 0x112C3A0 Offset: 0x112A9A0 VA: 0x18112C3A0
 	public float get_pixelsPerUnitMultiplier() { }
 
-	// RVA: 0x15F9D60 Offset: 0x15F8360 VA: 0x1815F9D60
+	// RVA: 0x15FA020 Offset: 0x15F8620 VA: 0x1815FA020
 	public void set_pixelsPerUnitMultiplier(float value) { }
 
-	// RVA: 0x15F9730 Offset: 0x15F7D30 VA: 0x1815F9730
+	// RVA: 0x15F99F0 Offset: 0x15F7FF0 VA: 0x1815F99F0
 	public float get_pixelsPerUnit() { }
 
-	// RVA: 0x15F9700 Offset: 0x15F7D00 VA: 0x1815F9700
+	// RVA: 0x15F99C0 Offset: 0x15F7FC0 VA: 0x1815F99C0
 	protected float get_multipliedPixelsPerUnit() { }
 
-	// RVA: 0x15F94B0 Offset: 0x15F7AB0 VA: 0x1815F94B0 Slot: 32
+	// RVA: 0x15F9770 Offset: 0x15F7D70 VA: 0x1815F9770 Slot: 32
 	public override Material get_material() { }
 
-	// RVA: 0x15F0140 Offset: 0x15EE740 VA: 0x1815F0140 Slot: 33
+	// RVA: 0x15F0400 Offset: 0x15EEA00 VA: 0x1815F0400 Slot: 33
 	public override void set_material(Material value) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 75
 	public virtual void OnBeforeSerialize() { }
 
-	// RVA: 0x15F7560 Offset: 0x15F5B60 VA: 0x1815F7560 Slot: 76
+	// RVA: 0x15F7820 Offset: 0x15F5E20 VA: 0x1815F7820 Slot: 76
 	public virtual void OnAfterDeserialize() { }
 
-	// RVA: 0x15F7A60 Offset: 0x15F6060 VA: 0x1815F7A60
+	// RVA: 0x15F7D20 Offset: 0x15F6320 VA: 0x1815F7D20
 	private void PreserveSpriteAspectRatio(ref Rect rect, Vector2 spriteSize) { }
 
-	// RVA: 0x15F6820 Offset: 0x15F4E20 VA: 0x1815F6820
+	// RVA: 0x15F6AE0 Offset: 0x15F50E0 VA: 0x1815F6AE0
 	private Vector4 GetDrawingDimensions(bool shouldPreserveAspect) { }
 
-	// RVA: 0x15F8750 Offset: 0x15F6D50 VA: 0x1815F8750 Slot: 45
+	// RVA: 0x15F8A10 Offset: 0x15F7010 VA: 0x1815F8A10 Slot: 45
 	public override void SetNativeSize() { }
 
-	// RVA: 0x15F7980 Offset: 0x15F5F80 VA: 0x1815F7980 Slot: 10
+	// RVA: 0x15F7C40 Offset: 0x15F6240 VA: 0x1815F7C40 Slot: 10
 	protected override void OnRectTransformDimensionsChange() { }
 
-	// RVA: 0x15F7A40 Offset: 0x15F6040 VA: 0x1815F7A40 Slot: 12
+	// RVA: 0x15F7D00 Offset: 0x15F6300 VA: 0x1815F7D00 Slot: 12
 	protected override void OnTransformParentChanged() { }
 
-	// RVA: 0x15F7830 Offset: 0x15F5E30 VA: 0x1815F7830 Slot: 44
+	// RVA: 0x15F7AF0 Offset: 0x15F60F0 VA: 0x1815F7AF0 Slot: 44
 	protected override void OnPopulateMesh(VertexHelper toFill) { }
 
-	// RVA: 0x15F8B10 Offset: 0x15F7110 VA: 0x1815F8B10
+	// RVA: 0x15F8DD0 Offset: 0x15F73D0 VA: 0x1815F8DD0
 	private void TrackSprite() { }
 
-	// RVA: 0x15F7810 Offset: 0x15F5E10 VA: 0x1815F7810 Slot: 5
+	// RVA: 0x15F7AD0 Offset: 0x15F60D0 VA: 0x1815F7AD0 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x15F7730 Offset: 0x15F5D30 VA: 0x1815F7730 Slot: 7
+	// RVA: 0x15F79F0 Offset: 0x15F5FF0 VA: 0x1815F79F0 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x15F8DA0 Offset: 0x15F73A0 VA: 0x1815F8DA0 Slot: 40
+	// RVA: 0x15F9060 Offset: 0x15F7660 VA: 0x1815F9060 Slot: 40
 	protected override void UpdateMaterial() { }
 
-	// RVA: 0x15F7610 Offset: 0x15F5C10 VA: 0x1815F7610 Slot: 15
+	// RVA: 0x15F78D0 Offset: 0x15F5ED0 VA: 0x1815F78D0 Slot: 15
 	protected override void OnCanvasHierarchyChanged() { }
 
-	// RVA: 0x15F3B60 Offset: 0x15F2160 VA: 0x1815F3B60
+	// RVA: 0x15F3E20 Offset: 0x15F2420 VA: 0x1815F3E20
 	private void GenerateSimpleSprite(VertexHelper vh, bool lPreserveAspect) { }
 
-	// RVA: 0x15F48D0 Offset: 0x15F2ED0 VA: 0x1815F48D0
+	// RVA: 0x15F4B90 Offset: 0x15F3190 VA: 0x1815F4B90
 	private void GenerateSprite(VertexHelper vh, bool lPreserveAspect) { }
 
-	// RVA: 0x15F3E90 Offset: 0x15F2490 VA: 0x1815F3E90
+	// RVA: 0x15F4150 Offset: 0x15F2750 VA: 0x1815F4150
 	private void GenerateSlicedSprite(VertexHelper toFill) { }
 
-	// RVA: 0x15F4EB0 Offset: 0x15F34B0 VA: 0x1815F4EB0
+	// RVA: 0x15F5170 Offset: 0x15F3770 VA: 0x1815F5170
 	private void GenerateTiledSprite(VertexHelper toFill) { }
 
-	// RVA: 0x15F22F0 Offset: 0x15F08F0 VA: 0x1815F22F0
+	// RVA: 0x15F25B0 Offset: 0x15F0BB0 VA: 0x1815F25B0
 	private static void AddQuad(VertexHelper vertexHelper, Vector3[] quadPositions, Color32 color, Vector3[] quadUVs) { }
 
-	// RVA: 0x15F20C0 Offset: 0x15F06C0 VA: 0x1815F20C0
+	// RVA: 0x15F2380 Offset: 0x15F0980 VA: 0x1815F2380
 	private static void AddQuad(VertexHelper vertexHelper, Vector2 posMin, Vector2 posMax, Color32 color, Vector2 uvMin, Vector2 uvMax) { }
 
-	// RVA: 0x15F65A0 Offset: 0x15F4BA0 VA: 0x1815F65A0
+	// RVA: 0x15F6860 Offset: 0x15F4E60 VA: 0x1815F6860
 	private Vector4 GetAdjustedBorders(Vector4 border, Rect adjustedRect) { }
 
-	// RVA: 0x15F24B0 Offset: 0x15F0AB0 VA: 0x1815F24B0
+	// RVA: 0x15F2770 Offset: 0x15F0D70 VA: 0x1815F2770
 	private void GenerateFilledSprite(VertexHelper toFill, bool preserveAspect) { }
 
-	// RVA: 0x15F7C60 Offset: 0x15F6260 VA: 0x1815F7C60
+	// RVA: 0x15F7F20 Offset: 0x15F6520 VA: 0x1815F7F20
 	private static bool RadialCut(Vector3[] xy, Vector3[] uv, float fill, bool invert, int corner) { }
 
-	// RVA: 0x15F7DF0 Offset: 0x15F63F0 VA: 0x1815F7DF0
+	// RVA: 0x15F80B0 Offset: 0x15F66B0 VA: 0x1815F80B0
 	private static void RadialCut(Vector3[] xy, float cos, float sin, bool invert, int corner) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 77
@@ -252,40 +252,40 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 79
 	public virtual float get_minWidth() { }
 
-	// RVA: 0x15F9930 Offset: 0x15F7F30 VA: 0x1815F9930 Slot: 80
+	// RVA: 0x15F9BF0 Offset: 0x15F81F0 VA: 0x1815F9BF0 Slot: 80
 	public virtual float get_preferredWidth() { }
 
-	// RVA: 0xC82E90 Offset: 0xC81490 VA: 0x180C82E90 Slot: 81
+	// RVA: 0xC83150 Offset: 0xC81750 VA: 0x180C83150 Slot: 81
 	public virtual float get_flexibleWidth() { }
 
 	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 82
 	public virtual float get_minHeight() { }
 
-	// RVA: 0x15F9840 Offset: 0x15F7E40 VA: 0x1815F9840 Slot: 83
+	// RVA: 0x15F9B00 Offset: 0x15F8100 VA: 0x1815F9B00 Slot: 83
 	public virtual float get_preferredHeight() { }
 
-	// RVA: 0xC82E90 Offset: 0xC81490 VA: 0x180C82E90 Slot: 84
+	// RVA: 0xC83150 Offset: 0xC81750 VA: 0x180C83150 Slot: 84
 	public virtual float get_flexibleHeight() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 85
 	public virtual int get_layoutPriority() { }
 
-	// RVA: 0x15F6C90 Offset: 0x15F5290 VA: 0x1815F6C90 Slot: 86
+	// RVA: 0x15F6F50 Offset: 0x15F5550 VA: 0x1815F6F50 Slot: 86
 	public virtual bool IsRaycastLocationValid(Vector2 screenPoint, Camera eventCamera) { }
 
-	// RVA: 0x15F7070 Offset: 0x15F5670 VA: 0x1815F7070
+	// RVA: 0x15F7330 Offset: 0x15F5930 VA: 0x1815F7330
 	private Vector2 MapCoordinate(Vector2 local, Rect rect) { }
 
-	// RVA: 0x15F85E0 Offset: 0x15F6BE0 VA: 0x1815F85E0
+	// RVA: 0x15F88A0 Offset: 0x15F6EA0 VA: 0x1815F88A0
 	private static void RebuildImage(SpriteAtlas spriteAtlas) { }
 
-	// RVA: 0x15F89D0 Offset: 0x15F6FD0 VA: 0x1815F89D0
+	// RVA: 0x15F8C90 Offset: 0x15F7290 VA: 0x1815F8C90
 	private static void TrackImage(Image g) { }
 
-	// RVA: 0x15F8D20 Offset: 0x15F7320 VA: 0x1815F8D20
+	// RVA: 0x15F8FE0 Offset: 0x15F75E0 VA: 0x1815F8FE0
 	private static void UnTrackImage(Image g) { }
 
-	// RVA: 0x15F8EF0 Offset: 0x15F74F0 VA: 0x1815F8EF0
+	// RVA: 0x15F91B0 Offset: 0x15F77B0 VA: 0x1815F91B0
 	private static void .cctor() { }
 
 }

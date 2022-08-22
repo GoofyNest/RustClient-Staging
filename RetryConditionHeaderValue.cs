@@ -11,41 +11,41 @@ public class RetryConditionHeaderValue : ICloneable // TypeDefIndex: 5806
 
 	// Methods
 
-	// RVA: 0x1096C70 Offset: 0x1095270 VA: 0x181096C70
+	// RVA: 0x1096F30 Offset: 0x1095530 VA: 0x181096F30
 	public void .ctor(DateTimeOffset date) { }
 
-	// RVA: 0x1096BC0 Offset: 0x10951C0 VA: 0x181096BC0
+	// RVA: 0x1096E80 Offset: 0x1095480 VA: 0x181096E80
 	public void .ctor(TimeSpan delta) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1095200 Offset: 0x1093800 VA: 0x181095200
+	// RVA: 0x10954C0 Offset: 0x1093AC0 VA: 0x1810954C0
 	public Nullable<DateTimeOffset> get_Date() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1095220 Offset: 0x1093820 VA: 0x181095220
+	// RVA: 0x10954E0 Offset: 0x1093AE0 VA: 0x1810954E0
 	private void set_Date(Nullable<DateTimeOffset> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB11220 Offset: 0xB0F820 VA: 0x180B11220
+	// RVA: 0xB114E0 Offset: 0xB0FAE0 VA: 0x180B114E0
 	public Nullable<TimeSpan> get_Delta() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10865C0 Offset: 0x1084BC0 VA: 0x1810865C0
+	// RVA: 0x1086880 Offset: 0x1084E80 VA: 0x181086880
 	private void set_Delta(Nullable<TimeSpan> value) { }
 
-	// RVA: 0xD71020 Offset: 0xD6F620 VA: 0x180D71020 Slot: 4
+	// RVA: 0xD712E0 Offset: 0xD6F8E0 VA: 0x180D712E0 Slot: 4
 	private object System.ICloneable.Clone() { }
 
-	// RVA: 0x10965C0 Offset: 0x1094BC0 VA: 0x1810965C0 Slot: 0
+	// RVA: 0x1096880 Offset: 0x1094E80 VA: 0x181096880 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1096740 Offset: 0x1094D40 VA: 0x181096740 Slot: 2
+	// RVA: 0x1096A00 Offset: 0x1095000 VA: 0x181096A00 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x10968F0 Offset: 0x1094EF0 VA: 0x1810968F0
+	// RVA: 0x1096BB0 Offset: 0x10951B0 VA: 0x181096BB0
 	public static bool TryParse(string input, out RetryConditionHeaderValue parsedValue) { }
 
-	// RVA: 0x10967C0 Offset: 0x1094DC0 VA: 0x1810967C0 Slot: 3
+	// RVA: 0x1096A80 Offset: 0x1095080 VA: 0x181096A80 Slot: 3
 	public override string ToString() { }
 
 }

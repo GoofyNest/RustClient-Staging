@@ -21,7 +21,7 @@ public class HttpResponseMessage : IDisposable // TypeDefIndex: 5755
 
 	// Methods
 
-	// RVA: 0x1090770 Offset: 0x108ED70 VA: 0x181090770
+	// RVA: 0x1090A30 Offset: 0x108F030 VA: 0x181090A30
 	public void .ctor(HttpStatusCode statusCode) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -29,16 +29,16 @@ public class HttpResponseMessage : IDisposable // TypeDefIndex: 5755
 	public HttpContent get_Content() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	public void set_Content(HttpContent value) { }
 
-	// RVA: 0x10907E0 Offset: 0x108EDE0 VA: 0x1810907E0
+	// RVA: 0x1090AA0 Offset: 0x108F0A0 VA: 0x181090AA0
 	public HttpResponseHeaders get_Headers() { }
 
-	// RVA: 0x1090890 Offset: 0x108EE90 VA: 0x181090890
+	// RVA: 0x1090B50 Offset: 0x108F150 VA: 0x181090B50
 	public bool get_IsSuccessStatusCode() { }
 
-	// RVA: 0x10908B0 Offset: 0x108EEB0 VA: 0x1810908B0
+	// RVA: 0x1090B70 Offset: 0x108F170 VA: 0x181090B70
 	public string get_ReasonPhrase() { }
 
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
@@ -51,22 +51,22 @@ public class HttpResponseMessage : IDisposable // TypeDefIndex: 5755
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	public HttpStatusCode get_StatusCode() { }
 
-	// RVA: 0x1090940 Offset: 0x108EF40 VA: 0x181090940
+	// RVA: 0x1090C00 Offset: 0x108F200 VA: 0x181090C00
 	public void set_StatusCode(HttpStatusCode value) { }
 
-	// RVA: 0x10908D0 Offset: 0x108EED0 VA: 0x1810908D0
+	// RVA: 0x1090B90 Offset: 0x108F190 VA: 0x181090B90
 	public Version get_Version() { }
 
-	// RVA: 0x100F0B0 Offset: 0x100D6B0 VA: 0x18100F0B0 Slot: 4
+	// RVA: 0x100F370 Offset: 0x100D970 VA: 0x18100F370 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x1090460 Offset: 0x108EA60 VA: 0x181090460 Slot: 5
+	// RVA: 0x1090720 Offset: 0x108ED20 VA: 0x181090720 Slot: 5
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x1090490 Offset: 0x108EA90 VA: 0x181090490
+	// RVA: 0x1090750 Offset: 0x108ED50 VA: 0x181090750
 	public HttpResponseMessage EnsureSuccessStatusCode() { }
 
-	// RVA: 0x1090550 Offset: 0x108EB50 VA: 0x181090550 Slot: 3
+	// RVA: 0x1090810 Offset: 0x108EE10 VA: 0x181090810 Slot: 3
 	public override string ToString() { }
 
 }

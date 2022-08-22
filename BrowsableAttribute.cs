@@ -10,22 +10,22 @@ public sealed class BrowsableAttribute : Attribute // TypeDefIndex: 2670
 
 	// Methods
 
-	// RVA: 0x15BEDC0 Offset: 0x15BD3C0 VA: 0x1815BEDC0
+	// RVA: 0x15BF080 Offset: 0x15BD680 VA: 0x1815BF080
 	public void .ctor(bool browsable) { }
 
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public bool get_Browsable() { }
 
-	// RVA: 0x15BEC10 Offset: 0x15BD210 VA: 0x1815BEC10 Slot: 0
+	// RVA: 0x15BEED0 Offset: 0x15BD4D0 VA: 0x1815BEED0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x13C88F0 Offset: 0x13C6EF0 VA: 0x1813C88F0 Slot: 2
+	// RVA: 0x13C8BB0 Offset: 0x13C71B0 VA: 0x1813C8BB0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x15BEC90 Offset: 0x15BD290 VA: 0x1815BEC90 Slot: 6
+	// RVA: 0x15BEF50 Offset: 0x15BD550 VA: 0x1815BEF50 Slot: 6
 	public override bool IsDefaultAttribute() { }
 
-	// RVA: 0x15BED00 Offset: 0x15BD300 VA: 0x1815BED00
+	// RVA: 0x15BEFC0 Offset: 0x15BD5C0 VA: 0x1815BEFC0
 	private static void .cctor() { }
 
 }

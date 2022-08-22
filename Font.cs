@@ -15,36 +15,36 @@ public sealed class Font : Object // TypeDefIndex: 3959
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x230A690 Offset: 0x2308C90 VA: 0x18230A690
+	// RVA: 0x230A950 Offset: 0x2308F50 VA: 0x18230A950
 	public static void add_textureRebuilt(Action<Font> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x230A800 Offset: 0x2308E00 VA: 0x18230A800
+	// RVA: 0x230AAC0 Offset: 0x23090C0 VA: 0x18230AAC0
 	public static void remove_textureRebuilt(Action<Font> value) { }
 
-	// RVA: 0x230A7C0 Offset: 0x2308DC0 VA: 0x18230A7C0
+	// RVA: 0x230AA80 Offset: 0x2309080 VA: 0x18230AA80
 	public Material get_material() { }
 
-	// RVA: 0x230A740 Offset: 0x2308D40 VA: 0x18230A740
+	// RVA: 0x230AA00 Offset: 0x2309000 VA: 0x18230AA00
 	public bool get_dynamic() { }
 
-	// RVA: 0x230A780 Offset: 0x2308D80 VA: 0x18230A780
+	// RVA: 0x230AA40 Offset: 0x2309040 VA: 0x18230AA40
 	public int get_fontSize() { }
 
-	// RVA: 0x230A610 Offset: 0x2308C10 VA: 0x18230A610
+	// RVA: 0x230A8D0 Offset: 0x2308ED0 VA: 0x18230A8D0
 	public void .ctor() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x230A5A0 Offset: 0x2308BA0 VA: 0x18230A5A0
+	// RVA: 0x230A860 Offset: 0x2308E60 VA: 0x18230A860
 	internal static void InvokeTextureRebuilt_Internal(Font font) { }
 
-	// RVA: 0x230A4C0 Offset: 0x2308AC0 VA: 0x18230A4C0
+	// RVA: 0x230A780 Offset: 0x2308D80 VA: 0x18230A780
 	public bool HasCharacter(char c) { }
 
-	// RVA: 0x230A510 Offset: 0x2308B10 VA: 0x18230A510
+	// RVA: 0x230A7D0 Offset: 0x2308DD0 VA: 0x18230A7D0
 	private bool HasCharacter(int c) { }
 
-	// RVA: 0x230A550 Offset: 0x2308B50 VA: 0x18230A550
+	// RVA: 0x230A810 Offset: 0x2308E10 VA: 0x18230A810
 	private static void Internal_CreateFont(Font self, string name) { }
 
 }
@@ -55,7 +55,7 @@ public sealed class Font.FontTextureRebuildCallback : MulticastDelegate // TypeD
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1464520 Offset: 0x1462B20 VA: 0x181464520 Slot: 12
+	// RVA: 0x14647E0 Offset: 0x1462DE0 VA: 0x1814647E0 Slot: 12
 	public virtual void Invoke() { }
 
 	// RVA: 0x49A190 Offset: 0x498790 VA: 0x18049A190 Slot: 13

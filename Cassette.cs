@@ -9,82 +9,82 @@ public class Cassette : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6389
 
 	// Methods
 
-	// RVA: 0x20A8140 Offset: 0x20A6740 VA: 0x1820A8140
+	// RVA: 0x20A8400 Offset: 0x20A6A00 VA: 0x1820A8400
 	public static void ResetToPool(Cassette instance) { }
 
-	// RVA: 0x20A80A0 Offset: 0x20A66A0 VA: 0x1820A80A0
+	// RVA: 0x20A8360 Offset: 0x20A6960 VA: 0x1820A8360
 	public void ResetToPool() { }
 
-	// RVA: 0x20A7D50 Offset: 0x20A6350 VA: 0x1820A7D50 Slot: 9
+	// RVA: 0x20A8010 Offset: 0x20A6610 VA: 0x1820A8010 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20A6B90 Offset: 0x20A5190 VA: 0x1820A6B90
+	// RVA: 0x20A6E50 Offset: 0x20A5450 VA: 0x1820A6E50
 	public void CopyTo(Cassette instance) { }
 
-	// RVA: 0x20A6BC0 Offset: 0x20A51C0 VA: 0x1820A6BC0
+	// RVA: 0x20A6E80 Offset: 0x20A5480 VA: 0x1820A6E80
 	public Cassette Copy() { }
 
-	// RVA: 0x20A7600 Offset: 0x20A5C00 VA: 0x1820A7600
+	// RVA: 0x20A78C0 Offset: 0x20A5EC0 VA: 0x1820A78C0
 	public static Cassette Deserialize(Stream stream) { }
 
-	// RVA: 0x20A6F20 Offset: 0x20A5520 VA: 0x1820A6F20
+	// RVA: 0x20A71E0 Offset: 0x20A57E0 VA: 0x1820A71E0
 	public static Cassette DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20A6FA0 Offset: 0x20A55A0 VA: 0x1820A6FA0
+	// RVA: 0x20A7260 Offset: 0x20A5860 VA: 0x1820A7260
 	public static Cassette DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20A72F0 Offset: 0x20A58F0 VA: 0x1820A72F0
+	// RVA: 0x20A75B0 Offset: 0x20A5BB0 VA: 0x1820A75B0
 	public static Cassette Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20A7E70 Offset: 0x20A6470 VA: 0x1820A7E70
+	// RVA: 0x20A8130 Offset: 0x20A6730 VA: 0x1820A8130
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20A8720 Offset: 0x20A6D20 VA: 0x1820A8720 Slot: 12
+	// RVA: 0x20A89E0 Offset: 0x20A6FE0 VA: 0x1820A89E0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20A8740 Offset: 0x20A6D40 VA: 0x1820A8740 Slot: 13
+	// RVA: 0x20A8A00 Offset: 0x20A7000 VA: 0x1820A8A00 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Cassette previous) { }
 
-	// RVA: 0x20A8080 Offset: 0x20A6680 VA: 0x1820A8080 Slot: 14
+	// RVA: 0x20A8340 Offset: 0x20A6940 VA: 0x1820A8340 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20A7850 Offset: 0x20A5E50 VA: 0x1820A7850
+	// RVA: 0x20A7B10 Offset: 0x20A6110 VA: 0x1820A7B10
 	public static Cassette Deserialize(byte[] buffer, Cassette instance, bool isDelta = False) { }
 
-	// RVA: 0x20A7B40 Offset: 0x20A6140 VA: 0x1820A7B40
+	// RVA: 0x20A7E00 Offset: 0x20A6400 VA: 0x1820A7E00
 	public static Cassette Deserialize(Stream stream, Cassette instance, bool isDelta) { }
 
-	// RVA: 0x20A6C40 Offset: 0x20A5240 VA: 0x1820A6C40
+	// RVA: 0x20A6F00 Offset: 0x20A5500 VA: 0x1820A6F00
 	public static Cassette DeserializeLengthDelimited(Stream stream, Cassette instance, bool isDelta) { }
 
-	// RVA: 0x20A7030 Offset: 0x20A5630 VA: 0x1820A7030
+	// RVA: 0x20A72F0 Offset: 0x20A58F0 VA: 0x1820A72F0
 	public static Cassette DeserializeLength(Stream stream, int length, Cassette instance, bool isDelta) { }
 
-	// RVA: 0x20A81E0 Offset: 0x20A67E0 VA: 0x1820A81E0
+	// RVA: 0x20A84A0 Offset: 0x20A6AA0 VA: 0x1820A84A0
 	public static void SerializeDelta(Stream stream, Cassette instance, Cassette previous) { }
 
-	// RVA: 0x20A85C0 Offset: 0x20A6BC0 VA: 0x1820A85C0
+	// RVA: 0x20A8880 Offset: 0x20A6E80 VA: 0x1820A8880
 	public static void Serialize(Stream stream, Cassette instance) { }
 
-	// RVA: 0x20A8710 Offset: 0x20A6D10 VA: 0x1820A8710
+	// RVA: 0x20A89D0 Offset: 0x20A6FD0 VA: 0x1820A89D0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20A8720 Offset: 0x20A6D20 VA: 0x1820A8720
+	// RVA: 0x20A89E0 Offset: 0x20A6FE0 VA: 0x1820A89E0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20A84B0 Offset: 0x20A6AB0 VA: 0x1820A84B0
+	// RVA: 0x20A8770 Offset: 0x20A6D70 VA: 0x1820A8770
 	public static byte[] SerializeToBytes(Cassette instance) { }
 
-	// RVA: 0x20A8400 Offset: 0x20A6A00 VA: 0x1820A8400
+	// RVA: 0x20A86C0 Offset: 0x20A6CC0 VA: 0x1820A86C0
 	public static void SerializeLengthDelimited(Stream stream, Cassette instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

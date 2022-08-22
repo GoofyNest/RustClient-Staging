@@ -26,34 +26,34 @@ internal class CFProxy // TypeDefIndex: 2523
 
 	// Methods
 
-	// RVA: 0x12132D0 Offset: 0x12118D0 VA: 0x1812132D0
+	// RVA: 0x1213590 Offset: 0x1211B90 VA: 0x181213590
 	private static void .cctor() { }
 
 	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
 	internal void .ctor(CFDictionary settings) { }
 
-	// RVA: 0x12130D0 Offset: 0x12116D0 VA: 0x1812130D0
+	// RVA: 0x1213390 Offset: 0x1211990 VA: 0x181213390
 	private static CFProxyType CFProxyTypeToEnum(IntPtr type) { }
 
-	// RVA: 0x12134F0 Offset: 0x1211AF0 VA: 0x1812134F0
+	// RVA: 0x12137B0 Offset: 0x1211DB0 VA: 0x1812137B0
 	public IntPtr get_AutoConfigurationJavaScript() { }
 
-	// RVA: 0x12135B0 Offset: 0x1211BB0 VA: 0x1812135B0
+	// RVA: 0x1213870 Offset: 0x1211E70 VA: 0x181213870
 	public IntPtr get_AutoConfigurationUrl() { }
 
-	// RVA: 0x1213670 Offset: 0x1211C70 VA: 0x181213670
+	// RVA: 0x1213930 Offset: 0x1211F30 VA: 0x181213930
 	public string get_HostName() { }
 
-	// RVA: 0x1213740 Offset: 0x1211D40 VA: 0x181213740
+	// RVA: 0x1213A00 Offset: 0x1212000 VA: 0x181213A00
 	public string get_Password() { }
 
-	// RVA: 0x1213810 Offset: 0x1211E10 VA: 0x181213810
+	// RVA: 0x1213AD0 Offset: 0x12120D0 VA: 0x181213AD0
 	public int get_Port() { }
 
-	// RVA: 0x12139B0 Offset: 0x1211FB0 VA: 0x1812139B0
+	// RVA: 0x1213C70 Offset: 0x1212270 VA: 0x181213C70
 	public CFProxyType get_ProxyType() { }
 
-	// RVA: 0x1213A80 Offset: 0x1212080 VA: 0x181213A80
+	// RVA: 0x1213D40 Offset: 0x1212340 VA: 0x181213D40
 	public string get_Username() { }
 
 }

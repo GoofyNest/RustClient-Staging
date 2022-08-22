@@ -8,7 +8,7 @@ public class GroundWatch : BaseMonoBehaviour, IServerComponent // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x72DB50 Offset: 0x72C150 VA: 0x18072DB50
+	// RVA: 0x72DC60 Offset: 0x72C260 VA: 0x18072DC60
 	public void .ctor() { }
 
 }

@@ -15,7 +15,7 @@ internal struct StopPlaytimeTrackingResult_t : ICallbackData // TypeDefIndex: 54
 	// RVA: 0x1DAE40 Offset: 0x1DA240 VA: 0x1801DAE40 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1290F30 Offset: 0x128F530 VA: 0x181290F30
+	// RVA: 0x12911F0 Offset: 0x128F7F0 VA: 0x1812911F0
 	private static void .cctor() { }
 
 }

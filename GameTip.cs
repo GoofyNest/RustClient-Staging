@@ -11,49 +11,49 @@ public class GameTip : SingletonComponent<GameTip> // TypeDefIndex: 10941
 
 	// Methods
 
-	// RVA: 0x75D460 Offset: 0x75BA60 VA: 0x18075D460
+	// RVA: 0x75D570 Offset: 0x75BB70 VA: 0x18075D570
 	public void OnEnable() { }
 
-	// RVA: 0x75D1F0 Offset: 0x75B7F0 VA: 0x18075D1F0
+	// RVA: 0x75D300 Offset: 0x75B900 VA: 0x18075D300
 	private void ClientConnected() { }
 
-	// RVA: 0x75D9A0 Offset: 0x75BFA0 VA: 0x18075D9A0
+	// RVA: 0x75DAB0 Offset: 0x75C0B0 VA: 0x18075DAB0
 	public void Update() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x8C790 Offset: 0x8BB90 VA: 0x18008C790
-	// RVA: 0x75D930 Offset: 0x75BF30 VA: 0x18075D930
+	// RVA: 0x75DA40 Offset: 0x75C040 VA: 0x18075DA40
 	private IEnumerator Think() { }
 
-	// RVA: 0x75D290 Offset: 0x75B890 VA: 0x18075D290
+	// RVA: 0x75D3A0 Offset: 0x75B9A0 VA: 0x18075D3A0
 	private float GetStyleHoldDuration(int style) { }
 
-	// RVA: 0x75CFE0 Offset: 0x75B5E0 VA: 0x18075CFE0
+	// RVA: 0x75D0F0 Offset: 0x75B6F0 VA: 0x18075D0F0
 	private void ApplyStyle(int style) { }
 
 	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
-	// RVA: 0x75D4F0 Offset: 0x75BAF0 VA: 0x18075D4F0
+	// RVA: 0x75D600 Offset: 0x75BC00 VA: 0x18075D600
 	public static void ShowGameTip(string text) { }
 
 	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
-	// RVA: 0x75D340 Offset: 0x75B940 VA: 0x18075D340
+	// RVA: 0x75D450 Offset: 0x75BA50 VA: 0x18075D450
 	public static void HideGameTip() { }
 
 	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
-	// RVA: 0x75D6A0 Offset: 0x75BCA0 VA: 0x18075D6A0
+	// RVA: 0x75D7B0 Offset: 0x75BDB0 VA: 0x18075D7B0
 	public static void ShowToast(int style, string text) { }
 
 	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
-	// RVA: 0x75D600 Offset: 0x75BC00 VA: 0x18075D600
+	// RVA: 0x75D710 Offset: 0x75BD10 VA: 0x18075D710
 	public static void ShowToast_Translated(int style, string key, string english) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x75D400 Offset: 0x75BA00 VA: 0x18075D400
+	// RVA: 0x75D510 Offset: 0x75BB10 VA: 0x18075D510
 	public static BaseTip[] ListGameTips() { }
 
-	// RVA: 0x75F100 Offset: 0x75D700 VA: 0x18075F100
+	// RVA: 0x75F210 Offset: 0x75D810 VA: 0x18075F210
 	public void .ctor() { }
 
-	// RVA: 0x75D9F0 Offset: 0x75BFF0 VA: 0x18075D9F0
+	// RVA: 0x75DB00 Offset: 0x75C100 VA: 0x18075DB00
 	private static void .cctor() { }
 
 }
@@ -90,7 +90,7 @@ private sealed class GameTip.<Think>d__10 : IEnumerator<object>, IEnumerator, ID
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x763830 Offset: 0x761E30 VA: 0x180763830 Slot: 6
+	// RVA: 0x763940 Offset: 0x761F40 VA: 0x180763940 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -98,7 +98,7 @@ private sealed class GameTip.<Think>d__10 : IEnumerator<object>, IEnumerator, ID
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x763D30 Offset: 0x762330 VA: 0x180763D30 Slot: 8
+	// RVA: 0x763E40 Offset: 0x762440 VA: 0x180763E40 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

@@ -11,73 +11,73 @@ public sealed class MetricTimeSpan : ITimeSpan, IComparable, IComparable<MetricT
 
 	// Methods
 
-	// RVA: 0x139FD20 Offset: 0x139E320 VA: 0x18139FD20
+	// RVA: 0x139FFE0 Offset: 0x139E5E0 VA: 0x18139FFE0
 	public void .ctor() { }
 
-	// RVA: 0x139FB60 Offset: 0x139E160 VA: 0x18139FB60
+	// RVA: 0x139FE20 Offset: 0x139E420 VA: 0x18139FE20
 	public void .ctor(long totalMicroseconds) { }
 
-	// RVA: 0x139FB30 Offset: 0x139E130 VA: 0x18139FB30
+	// RVA: 0x139FDF0 Offset: 0x139E3F0 VA: 0x18139FDF0
 	public void .ctor(TimeSpan timeSpan) { }
 
-	// RVA: 0x139FBE0 Offset: 0x139E1E0 VA: 0x18139FBE0
+	// RVA: 0x139FEA0 Offset: 0x139E4A0 VA: 0x18139FEA0
 	public void .ctor(int hours, int minutes, int seconds, int milliseconds) { }
 
-	// RVA: 0x139FDB0 Offset: 0x139E3B0 VA: 0x18139FDB0
+	// RVA: 0x13A0070 Offset: 0x139E670 VA: 0x1813A0070
 	public long get_TotalMicroseconds() { }
 
-	// RVA: 0x139FD30 Offset: 0x139E330 VA: 0x18139FD30
+	// RVA: 0x139FFF0 Offset: 0x139E5F0 VA: 0x18139FFF0
 	public int get_Hours() { }
 
-	// RVA: 0x139FD70 Offset: 0x139E370 VA: 0x18139FD70
+	// RVA: 0x13A0030 Offset: 0x139E630 VA: 0x1813A0030
 	public int get_Minutes() { }
 
-	// RVA: 0x139FD90 Offset: 0x139E390 VA: 0x18139FD90
+	// RVA: 0x13A0050 Offset: 0x139E650 VA: 0x1813A0050
 	public int get_Seconds() { }
 
-	// RVA: 0x139FD50 Offset: 0x139E350 VA: 0x18139FD50
+	// RVA: 0x13A0010 Offset: 0x139E610 VA: 0x1813A0010
 	public int get_Milliseconds() { }
 
-	// RVA: 0x691E10 Offset: 0x690410 VA: 0x180691E10
+	// RVA: 0x691F20 Offset: 0x690520 VA: 0x180691F20
 	public static TimeSpan op_Implicit(MetricTimeSpan timeSpan) { }
 
-	// RVA: 0x139FF20 Offset: 0x139E520 VA: 0x18139FF20
+	// RVA: 0x13A01E0 Offset: 0x139E7E0 VA: 0x1813A01E0
 	public static bool op_Equality(MetricTimeSpan timeSpan1, MetricTimeSpan timeSpan2) { }
 
-	// RVA: 0x139FFD0 Offset: 0x139E5D0 VA: 0x18139FFD0
+	// RVA: 0x13A0290 Offset: 0x139E890 VA: 0x1813A0290
 	public static bool op_Inequality(MetricTimeSpan timeSpan1, MetricTimeSpan timeSpan2) { }
 
-	// RVA: 0x139FDD0 Offset: 0x139E3D0 VA: 0x18139FDD0
+	// RVA: 0x13A0090 Offset: 0x139E690 VA: 0x1813A0090
 	public static MetricTimeSpan op_Addition(MetricTimeSpan timeSpan1, MetricTimeSpan timeSpan2) { }
 
-	// RVA: 0x13A0190 Offset: 0x139E790 VA: 0x1813A0190
+	// RVA: 0x13A0450 Offset: 0x139EA50 VA: 0x1813A0450
 	public static MetricTimeSpan op_Subtraction(MetricTimeSpan timeSpan1, MetricTimeSpan timeSpan2) { }
 
-	// RVA: 0x13A0080 Offset: 0x139E680 VA: 0x1813A0080
+	// RVA: 0x13A0340 Offset: 0x139E940 VA: 0x1813A0340
 	public static bool op_LessThan(MetricTimeSpan timeSpan1, MetricTimeSpan timeSpan2) { }
 
-	// RVA: 0x139F470 Offset: 0x139DA70 VA: 0x18139F470 Slot: 0
+	// RVA: 0x139F730 Offset: 0x139DD30 VA: 0x18139F730 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x139F5E0 Offset: 0x139DBE0 VA: 0x18139F5E0 Slot: 2
+	// RVA: 0x139F8A0 Offset: 0x139DEA0 VA: 0x18139F8A0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x139F8C0 Offset: 0x139DEC0 VA: 0x18139F8C0 Slot: 3
+	// RVA: 0x139FB80 Offset: 0x139E180 VA: 0x18139FB80 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x139F620 Offset: 0x139DC20 VA: 0x18139F620 Slot: 4
+	// RVA: 0x139F8E0 Offset: 0x139DEE0 VA: 0x18139F8E0 Slot: 4
 	public ITimeSpan Subtract(ITimeSpan timeSpan, TimeSpanMode mode) { }
 
-	// RVA: 0x139F310 Offset: 0x139D910 VA: 0x18139F310 Slot: 5
+	// RVA: 0x139F5D0 Offset: 0x139DBD0 VA: 0x18139F5D0 Slot: 5
 	public ITimeSpan Clone() { }
 
-	// RVA: 0x139F3B0 Offset: 0x139D9B0 VA: 0x18139F3B0 Slot: 6
+	// RVA: 0x139F670 Offset: 0x139DC70 VA: 0x18139F670 Slot: 6
 	public int CompareTo(object other) { }
 
-	// RVA: 0x139F370 Offset: 0x139D970 VA: 0x18139F370 Slot: 7
+	// RVA: 0x139F630 Offset: 0x139DC30 VA: 0x18139F630 Slot: 7
 	public int CompareTo(MetricTimeSpan other) { }
 
-	// RVA: 0x139F550 Offset: 0x139DB50 VA: 0x18139F550 Slot: 8
+	// RVA: 0x139F810 Offset: 0x139DE10 VA: 0x18139F810 Slot: 8
 	public bool Equals(MetricTimeSpan other) { }
 
 }

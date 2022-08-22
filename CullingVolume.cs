@@ -16,40 +16,40 @@ public class CullingVolume : MonoBehaviour, IClientComponent // TypeDefIndex: 98
 
 	// Methods
 
-	// RVA: 0x6C5460 Offset: 0x6C3A60 VA: 0x1806C5460
+	// RVA: 0x6C5570 Offset: 0x6C3B70 VA: 0x1806C5570
 	protected void Awake() { }
 
-	// RVA: 0x6C5D30 Offset: 0x6C4330 VA: 0x1806C5D30
+	// RVA: 0x6C5E40 Offset: 0x6C4440 VA: 0x1806C5E40
 	protected void Start() { }
 
-	// RVA: 0x6C5D40 Offset: 0x6C4340 VA: 0x1806C5D40
+	// RVA: 0x6C5E50 Offset: 0x6C4450 VA: 0x1806C5E50
 	private void UpdateBounds() { }
 
-	// RVA: 0x6C60D0 Offset: 0x6C46D0 VA: 0x1806C60D0
+	// RVA: 0x6C61E0 Offset: 0x6C47E0 VA: 0x1806C61E0
 	private void UpdateTrigger() { }
 
-	// RVA: 0x6C5D90 Offset: 0x6C4390 VA: 0x1806C5D90
+	// RVA: 0x6C5EA0 Offset: 0x6C44A0 VA: 0x1806C5EA0
 	private void UpdateComponents() { }
 
-	// RVA: 0x6C5F60 Offset: 0x6C4560 VA: 0x1806C5F60
+	// RVA: 0x6C6070 Offset: 0x6C4670 VA: 0x1806C6070
 	private void UpdateLights() { }
 
-	// RVA: 0x6C5980 Offset: 0x6C3F80 VA: 0x1806C5980
+	// RVA: 0x6C5A90 Offset: 0x6C4090 VA: 0x1806C5A90
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x6C5820 Offset: 0x6C3E20 VA: 0x1806C5820
+	// RVA: 0x6C5930 Offset: 0x6C3F30 VA: 0x1806C5930
 	public void MarkSeen(bool recursive = True) { }
 
-	// RVA: 0x6C6200 Offset: 0x6C4800 VA: 0x1806C6200
+	// RVA: 0x6C6310 Offset: 0x6C4910 VA: 0x1806C6310
 	public bool UpdateVisible(bool recursive = True) { }
 
-	// RVA: 0x6C57F0 Offset: 0x6C3DF0 VA: 0x1806C57F0
+	// RVA: 0x6C5900 Offset: 0x6C3F00 VA: 0x1806C5900
 	private bool IsVisible() { }
 
-	// RVA: 0x6C5B00 Offset: 0x6C4100 VA: 0x1806C5B00
+	// RVA: 0x6C5C10 Offset: 0x6C4210 VA: 0x1806C5C10
 	private void SetVisible(bool state) { }
 
-	// RVA: 0x6C6360 Offset: 0x6C4960 VA: 0x1806C6360
+	// RVA: 0x6C6470 Offset: 0x6C4A70 VA: 0x1806C6470
 	public void .ctor() { }
 
 }

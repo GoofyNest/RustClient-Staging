@@ -8,26 +8,26 @@ public class SurveyCrater : BaseCombatEntity // TypeDefIndex: 8461
 
 	// Methods
 
-	// RVA: 0x7A5F40 Offset: 0x7A4540 VA: 0x1807A5F40 Slot: 49
+	// RVA: 0x7A6050 Offset: 0x7A4650 VA: 0x1807A6050 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x7A63A0 Offset: 0x7A49A0 VA: 0x1807A63A0 Slot: 50
+	// RVA: 0x7A64B0 Offset: 0x7A4AB0 VA: 0x1807A64B0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x7A62B0 Offset: 0x7A48B0 VA: 0x1807A62B0 Slot: 35
+	// RVA: 0x7A63C0 Offset: 0x7A49C0 VA: 0x1807A63C0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x7A5D70 Offset: 0x7A4370 VA: 0x1807A5D70 Slot: 113
+	// RVA: 0x7A5E80 Offset: 0x7A4480 VA: 0x1807A5E80 Slot: 113
 	public override float BoundsPadding() { }
 
-	// RVA: 0x7A5D80 Offset: 0x7A4380 VA: 0x1807A5D80 Slot: 14
+	// RVA: 0x7A5E90 Offset: 0x7A4490 VA: 0x1807A5E90 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
 	[BaseEntity.Menu] // RVA: 0x8F500 Offset: 0x8E900 VA: 0x18008F500
 	[BaseEntity.Menu.Description] // RVA: 0x8F500 Offset: 0x8E900 VA: 0x18008F500
 	[BaseEntity.Menu.Icon] // RVA: 0x8F500 Offset: 0x8E900 VA: 0x18008F500
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8F500 Offset: 0x8E900 VA: 0x18008F500
-	// RVA: 0x7A6270 Offset: 0x7A4870 VA: 0x1807A6270
+	// RVA: 0x7A6380 Offset: 0x7A4980 VA: 0x1807A6380
 	public void Menu_AnalysisComplete(BasePlayer player) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

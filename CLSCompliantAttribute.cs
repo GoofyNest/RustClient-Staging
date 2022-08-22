@@ -4,7 +4,7 @@ public sealed class CLSCompliantAttribute : Attribute // TypeDefIndex: 185
 
 	// Methods
 
-	// RVA: 0xF88700 Offset: 0xF86D00 VA: 0x180F88700
+	// RVA: 0xF889C0 Offset: 0xF86FC0 VA: 0x180F889C0
 	public void .ctor(bool isCompliant) { }
 
 }

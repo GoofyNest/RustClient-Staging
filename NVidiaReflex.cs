@@ -13,77 +13,77 @@ public class NVidiaReflex : MonoBehaviour // TypeDefIndex: 10229
 
 	// Methods
 
-	// RVA: 0x7C91F0 Offset: 0x7C77F0 VA: 0x1807C91F0
+	// RVA: 0x7C9300 Offset: 0x7C7900 VA: 0x1807C9300
 	public int get_intervalUs() { }
 
-	// RVA: 0x7C89C0 Offset: 0x7C6FC0 VA: 0x1807C89C0
+	// RVA: 0x7C8AD0 Offset: 0x7C70D0 VA: 0x1807C8AD0
 	private void OnEnable() { }
 
-	// RVA: 0x7C8940 Offset: 0x7C6F40 VA: 0x1807C8940
+	// RVA: 0x7C8A50 Offset: 0x7C7050 VA: 0x1807C8A50
 	private void OnDisable() { }
 
-	// RVA: 0x7C8160 Offset: 0x7C6760 VA: 0x1807C8160
+	// RVA: 0x7C8270 Offset: 0x7C6870 VA: 0x1807C8270
 	private void FixedUpdate() { }
 
-	// RVA: 0x7C9160 Offset: 0x7C7760 VA: 0x1807C9160
+	// RVA: 0x7C9270 Offset: 0x7C7870 VA: 0x1807C9270
 	private void Update() { }
 
-	// RVA: 0x7C8430 Offset: 0x7C6A30 VA: 0x1807C8430
+	// RVA: 0x7C8540 Offset: 0x7C6B40 VA: 0x1807C8540
 	private void LateUpdate() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xBEF30 Offset: 0xBE330 VA: 0x1800BEF30
-	// RVA: 0x7C8E90 Offset: 0x7C7490 VA: 0x1807C8E90
+	// RVA: 0x7C8FA0 Offset: 0x7C75A0 VA: 0x1807C8FA0
 	private IEnumerator SleepCoroutine() { }
 
-	// RVA: 0x7C8CF0 Offset: 0x7C72F0 VA: 0x1807C8CF0
+	// RVA: 0x7C8E00 Offset: 0x7C7400 VA: 0x1807C8E00
 	private void OnRenderSubmitStart(CommandBuffer cb) { }
 
-	// RVA: 0x7C8B90 Offset: 0x7C7190 VA: 0x1807C8B90
+	// RVA: 0x7C8CA0 Offset: 0x7C72A0 VA: 0x1807C8CA0
 	private void OnRenderSubmitEnd(CommandBuffer cb) { }
 
-	// RVA: 0x7C8130 Offset: 0x7C6730 VA: 0x1807C8130
+	// RVA: 0x7C8240 Offset: 0x7C6840 VA: 0x1807C8240
 	private void AfterPresent() { }
 
-	// RVA: 0x7C8F00 Offset: 0x7C7500 VA: 0x1807C8F00
+	// RVA: 0x7C9010 Offset: 0x7C7610 VA: 0x1807C9010
 	private void TriggerFlash() { }
 
-	// RVA: 0x7C8E50 Offset: 0x7C7450 VA: 0x1807C8E50
+	// RVA: 0x7C8F60 Offset: 0x7C7560 VA: 0x1807C8F60
 	private void PCLatencyPing() { }
 
-	// RVA: 0x7C82F0 Offset: 0x7C68F0 VA: 0x1807C82F0
+	// RVA: 0x7C8400 Offset: 0x7C6A00 VA: 0x1807C8400
 	public static NVidiaReflex.NvReflex_Status IsReflexLowLatencySupported() { }
 
-	// RVA: 0x7C8240 Offset: 0x7C6840 VA: 0x1807C8240
+	// RVA: 0x7C8350 Offset: 0x7C6950 VA: 0x1807C8350
 	public static NVidiaReflex.NvReflex_Status IsAutomaticReflexAnalyzerSupported() { }
 
-	// RVA: 0x7C81A0 Offset: 0x7C67A0 VA: 0x1807C81A0
+	// RVA: 0x7C82B0 Offset: 0x7C68B0 VA: 0x1807C82B0
 	public static bool HasReceivedRenderEvent() { }
 
-	// RVA: 0x7C8830 Offset: 0x7C6E30 VA: 0x1807C8830
+	// RVA: 0x7C8940 Offset: 0x7C6F40 VA: 0x1807C8940
 	public static extern NVidiaReflex.NvReflex_Status NvReflex_Plugin_SetSleepMode(bool lowLatencyMode, uint minimumIntervalUs, bool lowLatencyBoost, bool markersOptimzation) { }
 
-	// RVA: 0x7C88D0 Offset: 0x7C6ED0 VA: 0x1807C88D0
+	// RVA: 0x7C89E0 Offset: 0x7C6FE0 VA: 0x1807C89E0
 	public static extern NVidiaReflex.NvReflex_Status NvReflex_Plugin_Sleep() { }
 
-	// RVA: 0x7C87B0 Offset: 0x7C6DB0 VA: 0x1807C87B0
+	// RVA: 0x7C88C0 Offset: 0x7C6EC0 VA: 0x1807C88C0
 	public static extern NVidiaReflex.NvReflex_Status NvReflex_Plugin_SetLatencyMarker(NVidiaReflex.NvReflex_LATENCY_MARKER_TYPE marker, ulong frameID) { }
 
-	// RVA: 0x7C8570 Offset: 0x7C6B70 VA: 0x1807C8570
+	// RVA: 0x7C8680 Offset: 0x7C6C80 VA: 0x1807C8680
 	public static extern NVidiaReflex.NvReflex_Status NvReflex_Plugin_GetLatency(out NVidiaReflex.NvReflex_LATENCY_RESULT_PARAMS markers) { }
 
-	// RVA: 0x7C86C0 Offset: 0x7C6CC0 VA: 0x1807C86C0
+	// RVA: 0x7C87D0 Offset: 0x7C6DD0 VA: 0x1807C87D0
 	public static extern NVidiaReflex.NvReflex_Status NvReflex_Plugin_GetSleepStatus(out NVidiaReflex.NvReflex_GET_SLEEP_STATUS_PARAMS sleepStatusParams) { }
 
-	// RVA: 0x7C8500 Offset: 0x7C6B00 VA: 0x1807C8500
+	// RVA: 0x7C8610 Offset: 0x7C6C10 VA: 0x1807C8610
 	public static extern int NvReflex_Plugin_GetEventIDForEvent(int inEvent) { }
 
-	// RVA: 0x7C8650 Offset: 0x7C6C50 VA: 0x1807C8650
+	// RVA: 0x7C8760 Offset: 0x7C6D60 VA: 0x1807C8760
 	public static extern IntPtr NvReflex_Plugin_GetRenderEventAndDataFunc() { }
 
-	// RVA: 0x7C8740 Offset: 0x7C6D40 VA: 0x1807C8740
+	// RVA: 0x7C8850 Offset: 0x7C6E50 VA: 0x1807C8850
 	public static extern bool NvReflex_Plugin_HasReceivedRenderEvent() { }
 
-	// RVA: 0x7C8480 Offset: 0x7C6A80 VA: 0x1807C8480
+	// RVA: 0x7C8590 Offset: 0x7C6B90 VA: 0x1807C8590
 	public static extern NVidiaReflex.NvReflex_Status NvReflex_Plugin_GetDriverVersion(out uint ver) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -313,7 +313,7 @@ private sealed class NVidiaReflex.<SleepCoroutine>d__20 : IEnumerator<object>, I
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x7CED40 Offset: 0x7CD340 VA: 0x1807CED40 Slot: 6
+	// RVA: 0x7CEE50 Offset: 0x7CD450 VA: 0x1807CEE50 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -321,7 +321,7 @@ private sealed class NVidiaReflex.<SleepCoroutine>d__20 : IEnumerator<object>, I
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7CF060 Offset: 0x7CD660 VA: 0x1807CF060 Slot: 8
+	// RVA: 0x7CF170 Offset: 0x7CD770 VA: 0x1807CF170 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

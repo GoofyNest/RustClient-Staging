@@ -19,52 +19,52 @@ public class Model : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 9210
 
 	// Methods
 
-	// RVA: 0x773C10 Offset: 0x772210 VA: 0x180773C10
+	// RVA: 0x773D20 Offset: 0x772320 VA: 0x180773D20
 	protected void OnEnable() { }
 
-	// RVA: 0x773380 Offset: 0x771980 VA: 0x180773380
+	// RVA: 0x773490 Offset: 0x771A90 VA: 0x180773490
 	public void BuildBoneDictionary() { }
 
 	// RVA: 0x5743B0 Offset: 0x5729B0 VA: 0x1805743B0
 	public int GetSkin() { }
 
-	// RVA: 0x773470 Offset: 0x771A70 VA: 0x180773470
+	// RVA: 0x773580 Offset: 0x771B80 VA: 0x180773580
 	private Transform FindBoneInternal(string name) { }
 
-	// RVA: 0x773500 Offset: 0x771B00 VA: 0x180773500
+	// RVA: 0x773610 Offset: 0x771C10 VA: 0x180773610
 	public Transform FindBone(string name) { }
 
-	// RVA: 0x7734B0 Offset: 0x771AB0 VA: 0x1807734B0
+	// RVA: 0x7735C0 Offset: 0x771BC0 VA: 0x1807735C0
 	public Transform FindBone(uint hash) { }
 
-	// RVA: 0x773430 Offset: 0x771A30 VA: 0x180773430
+	// RVA: 0x773540 Offset: 0x771B40 VA: 0x180773540
 	public uint FindBoneID(Transform transform) { }
 
-	// RVA: 0x773710 Offset: 0x771D10 VA: 0x180773710
+	// RVA: 0x773820 Offset: 0x771E20 VA: 0x180773820
 	public Transform[] GetBones() { }
 
-	// RVA: 0x773570 Offset: 0x771B70 VA: 0x180773570
+	// RVA: 0x773680 Offset: 0x771C80 VA: 0x180773680
 	public Transform FindClosestBone(Vector3 worldPos) { }
 
-	// RVA: 0x774400 Offset: 0x772A00 VA: 0x180774400
+	// RVA: 0x774510 Offset: 0x772B10 VA: 0x180774510
 	public LODGroup get_lodGroup() { }
 
-	// RVA: 0x773AE0 Offset: 0x7720E0 VA: 0x180773AE0
+	// RVA: 0x773BF0 Offset: 0x7721F0 VA: 0x180773BF0
 	private void OnDisable() { }
 
-	// RVA: 0x773FE0 Offset: 0x7725E0 VA: 0x180773FE0
+	// RVA: 0x7740F0 Offset: 0x7726F0 VA: 0x1807740F0
 	public void SyncBones(Model other) { }
 
-	// RVA: 0x774350 Offset: 0x772950 VA: 0x180774350
+	// RVA: 0x774460 Offset: 0x772A60 VA: 0x180774460
 	public void Trigger(string triggerName) { }
 
-	// RVA: 0x773740 Offset: 0x771D40 VA: 0x180773740
+	// RVA: 0x773850 Offset: 0x771E50 VA: 0x180773850
 	public static Transform GetTransform(Transform bone, Vector3 position, BaseEntity entity) { }
 
-	// RVA: 0x7731F0 Offset: 0x7717F0 VA: 0x1807731F0
+	// RVA: 0x773300 Offset: 0x771900 VA: 0x180773300
 	public void ApplyVisibility(bool vis, bool animatorVis, bool shadowVis) { }
 
-	// RVA: 0x773C20 Offset: 0x772220 VA: 0x180773C20 Slot: 4
+	// RVA: 0x773D30 Offset: 0x772330 VA: 0x180773D30 Slot: 4
 	public void PreProcess(IPrefabProcessor process, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

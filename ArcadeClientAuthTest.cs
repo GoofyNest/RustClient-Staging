@@ -7,10 +7,10 @@ public class ArcadeClientAuthTest : ArcadeEntityController // TypeDefIndex: 8758
 
 	// Methods
 
-	// RVA: 0x82B7C0 Offset: 0x829DC0 VA: 0x18082B7C0
+	// RVA: 0x82B8D0 Offset: 0x829ED0 VA: 0x18082B8D0
 	public void AuthorativeThink(float delta) { }
 
-	// RVA: 0x82BC70 Offset: 0x82A270 VA: 0x18082BC70
+	// RVA: 0x82BD80 Offset: 0x82A380 VA: 0x18082BD80
 	public void .ctor() { }
 
 }

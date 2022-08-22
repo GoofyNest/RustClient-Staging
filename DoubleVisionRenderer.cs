@@ -6,13 +6,13 @@ public class DoubleVisionRenderer : PostProcessEffectRenderer<DoubleVision> // T
 
 	// Methods
 
-	// RVA: 0xAAF320 Offset: 0xAAD920 VA: 0x180AAF320 Slot: 4
+	// RVA: 0xAAF5E0 Offset: 0xAADBE0 VA: 0x180AAF5E0 Slot: 4
 	public override void Init() { }
 
-	// RVA: 0xAAF370 Offset: 0xAAD970 VA: 0x180AAF370 Slot: 8
+	// RVA: 0xAAF630 Offset: 0xAADC30 VA: 0x180AAF630 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0xAAF660 Offset: 0xAADC60 VA: 0x180AAF660
+	// RVA: 0xAAF920 Offset: 0xAADF20 VA: 0x180AAF920
 	public void .ctor() { }
 
 }

@@ -7,19 +7,19 @@ public class DepthOfFieldFocusPoint : ListComponent<DepthOfFieldFocusPoint> // T
 
 	// Methods
 
-	// RVA: 0x1BA2810 Offset: 0x1BA0E10 VA: 0x181BA2810
+	// RVA: 0x1BA2AD0 Offset: 0x1BA10D0 VA: 0x181BA2AD0
 	public Vector3 get_FocusPoint() { }
 
-	// RVA: 0x1BA24C0 Offset: 0x1BA0AC0 VA: 0x181BA24C0 Slot: 6
+	// RVA: 0x1BA2780 Offset: 0x1BA0D80 VA: 0x181BA2780 Slot: 6
 	protected override void OnEnable() { }
 
-	// RVA: 0x1BA22D0 Offset: 0x1BA08D0 VA: 0x181BA22D0
+	// RVA: 0x1BA2590 Offset: 0x1BA0B90 VA: 0x181BA2590
 	public static DepthOfFieldFocusPoint Evaluate(Camera cam) { }
 
-	// RVA: 0x1BA2580 Offset: 0x1BA0B80 VA: 0x181BA2580
+	// RVA: 0x1BA2840 Offset: 0x1BA0E40 VA: 0x181BA2840
 	private float Score(Camera cam) { }
 
-	// RVA: 0x1BA27B0 Offset: 0x1BA0DB0 VA: 0x181BA27B0
+	// RVA: 0x1BA2A70 Offset: 0x1BA1070 VA: 0x181BA2A70
 	public void .ctor() { }
 
 }

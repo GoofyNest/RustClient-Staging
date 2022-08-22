@@ -46,418 +46,418 @@ internal class RuntimeType : TypeInfo, ISerializable, ICloneable // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x12A3590 Offset: 0x12A1B90 VA: 0x1812A3590
+	// RVA: 0x12A3850 Offset: 0x12A1E50 VA: 0x1812A3850
 	private static void ThrowIfTypeNeverValidGenericArgument(RuntimeType type) { }
 
-	// RVA: 0x12A3250 Offset: 0x12A1850 VA: 0x1812A3250
+	// RVA: 0x12A3510 Offset: 0x12A1B10 VA: 0x1812A3510
 	internal static void SanityCheckGenericArguments(RuntimeType[] genericArguments, RuntimeType[] genericParamters) { }
 
-	// RVA: 0x12A3490 Offset: 0x12A1A90 VA: 0x1812A3490
+	// RVA: 0x12A3750 Offset: 0x12A1D50 VA: 0x1812A3750
 	private static void SplitName(string fullname, out string name, out string ns) { }
 
-	// RVA: 0x129AFF0 Offset: 0x12995F0 VA: 0x18129AFF0
+	// RVA: 0x129B2B0 Offset: 0x12998B0 VA: 0x18129B2B0
 	private static void FilterHelper(BindingFlags bindingFlags, ref string name, bool allowPrefixLookup, out bool prefixLookup, out bool ignoreCase, out RuntimeType.MemberListType listType) { }
 
-	// RVA: 0x129B130 Offset: 0x1299730 VA: 0x18129B130
+	// RVA: 0x129B3F0 Offset: 0x12999F0 VA: 0x18129B3F0
 	private static void FilterHelper(BindingFlags bindingFlags, ref string name, out bool ignoreCase, out RuntimeType.MemberListType listType) { }
 
-	// RVA: 0x129AE50 Offset: 0x1299450 VA: 0x18129AE50
+	// RVA: 0x129B110 Offset: 0x1299710 VA: 0x18129B110
 	private static bool FilterApplyPrefixLookup(MemberInfo memberInfo, string name, bool ignoreCase) { }
 
-	// RVA: 0x129A7F0 Offset: 0x1298DF0 VA: 0x18129A7F0
+	// RVA: 0x129AAB0 Offset: 0x12990B0 VA: 0x18129AAB0
 	private static bool FilterApplyBase(MemberInfo memberInfo, BindingFlags bindingFlags, bool isPublic, bool isNonProtectedInternal, bool isStatic, string name, bool prefixLookup) { }
 
-	// RVA: 0x129AED0 Offset: 0x12994D0 VA: 0x18129AED0
+	// RVA: 0x129B190 Offset: 0x1299790 VA: 0x18129B190
 	private static bool FilterApplyType(Type type, BindingFlags bindingFlags, string name, bool prefixLookup, string ns) { }
 
-	// RVA: 0x129ADA0 Offset: 0x12993A0 VA: 0x18129ADA0
+	// RVA: 0x129B060 Offset: 0x1299660 VA: 0x18129B060
 	private static bool FilterApplyMethodInfo(RuntimeMethodInfo method, BindingFlags bindingFlags, CallingConventions callConv, Type[] argumentTypes) { }
 
-	// RVA: 0x129AA30 Offset: 0x1299030 VA: 0x18129AA30
+	// RVA: 0x129ACF0 Offset: 0x12992F0 VA: 0x18129ACF0
 	private static bool FilterApplyConstructorInfo(RuntimeConstructorInfo constructor, BindingFlags bindingFlags, CallingConventions callConv, Type[] argumentTypes) { }
 
-	// RVA: 0x129AAE0 Offset: 0x12990E0 VA: 0x18129AAE0
+	// RVA: 0x129ADA0 Offset: 0x12993A0 VA: 0x18129ADA0
 	private static bool FilterApplyMethodBase(MethodBase methodBase, BindingFlags methodFlags, BindingFlags bindingFlags, CallingConventions callConv, Type[] argumentTypes) { }
 
-	// RVA: 0x12A3C90 Offset: 0x12A2290 VA: 0x1812A3C90
+	// RVA: 0x12A3F50 Offset: 0x12A2550 VA: 0x1812A3F50
 	internal void .ctor() { }
 
-	// RVA: 0x12A28B0 Offset: 0x12A0EB0 VA: 0x1812A28B0
+	// RVA: 0x12A2B70 Offset: 0x12A1170 VA: 0x1812A2B70
 	internal bool IsSpecialSerializableType() { }
 
-	// RVA: 0x129E270 Offset: 0x129C870 VA: 0x18129E270
+	// RVA: 0x129E530 Offset: 0x129CB30 VA: 0x18129E530
 	private RuntimeType.ListBuilder<MethodInfo> GetMethodCandidates(string name, BindingFlags bindingAttr, CallingConventions callConv, Type[] types, bool allowPrefixLookup) { }
 
-	// RVA: 0x129B710 Offset: 0x1299D10 VA: 0x18129B710
+	// RVA: 0x129B9D0 Offset: 0x1299FD0 VA: 0x18129B9D0
 	private RuntimeType.ListBuilder<ConstructorInfo> GetConstructorCandidates(string name, BindingFlags bindingAttr, CallingConventions callConv, Type[] types, bool allowPrefixLookup) { }
 
-	// RVA: 0x129F8D0 Offset: 0x129DED0 VA: 0x18129F8D0
+	// RVA: 0x129FB90 Offset: 0x129E190 VA: 0x18129FB90
 	private RuntimeType.ListBuilder<PropertyInfo> GetPropertyCandidates(string name, BindingFlags bindingAttr, Type[] types, bool allowPrefixLookup) { }
 
-	// RVA: 0x129C990 Offset: 0x129AF90 VA: 0x18129C990
+	// RVA: 0x129CC50 Offset: 0x129B250 VA: 0x18129CC50
 	private RuntimeType.ListBuilder<EventInfo> GetEventCandidates(string name, BindingFlags bindingAttr, bool allowPrefixLookup) { }
 
-	// RVA: 0x129D130 Offset: 0x129B730 VA: 0x18129D130
+	// RVA: 0x129D3F0 Offset: 0x129B9F0 VA: 0x18129D3F0
 	private RuntimeType.ListBuilder<FieldInfo> GetFieldCandidates(string name, BindingFlags bindingAttr, bool allowPrefixLookup) { }
 
-	// RVA: 0x129EB20 Offset: 0x129D120 VA: 0x18129EB20
+	// RVA: 0x129EDE0 Offset: 0x129D3E0 VA: 0x18129EDE0
 	private RuntimeType.ListBuilder<Type> GetNestedTypeCandidates(string fullname, BindingFlags bindingAttr, bool allowPrefixLookup) { }
 
-	// RVA: 0x129EA90 Offset: 0x129D090 VA: 0x18129EA90 Slot: 43
+	// RVA: 0x129ED50 Offset: 0x129D350 VA: 0x18129ED50 Slot: 43
 	public override MethodInfo[] GetMethods(BindingFlags bindingAttr) { }
 
 	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
-	// RVA: 0x129BED0 Offset: 0x129A4D0 VA: 0x18129BED0 Slot: 36
+	// RVA: 0x129C190 Offset: 0x129A790 VA: 0x18129C190 Slot: 36
 	public override ConstructorInfo[] GetConstructors(BindingFlags bindingAttr) { }
 
-	// RVA: 0x129F850 Offset: 0x129DE50 VA: 0x18129F850 Slot: 57
+	// RVA: 0x129FB10 Offset: 0x129E110 VA: 0x18129FB10 Slot: 57
 	public override PropertyInfo[] GetProperties(BindingFlags bindingAttr) { }
 
-	// RVA: 0x129DA90 Offset: 0x129C090 VA: 0x18129DA90 Slot: 47
+	// RVA: 0x129DD50 Offset: 0x129C350 VA: 0x18129DD50 Slot: 47
 	public override FieldInfo[] GetFields(BindingFlags bindingAttr) { }
 
-	// RVA: 0x129E500 Offset: 0x129CB00 VA: 0x18129E500 Slot: 41
+	// RVA: 0x129E7C0 Offset: 0x129CDC0 VA: 0x18129E7C0 Slot: 41
 	protected override MethodInfo GetMethodImpl(string name, BindingFlags bindingAttr, Binder binder, CallingConventions callConv, Type[] types, ParameterModifier[] modifiers) { }
 
-	// RVA: 0x129BA70 Offset: 0x129A070 VA: 0x18129BA70 Slot: 34
+	// RVA: 0x129BD30 Offset: 0x129A330 VA: 0x18129BD30 Slot: 34
 	protected override ConstructorInfo GetConstructorImpl(BindingFlags bindingAttr, Binder binder, CallingConventions callConvention, Type[] types, ParameterModifier[] modifiers) { }
 
-	// RVA: 0x129FBA0 Offset: 0x129E1A0 VA: 0x18129FBA0 Slot: 56
+	// RVA: 0x129FE60 Offset: 0x129E460 VA: 0x18129FE60 Slot: 56
 	protected override PropertyInfo GetPropertyImpl(string name, BindingFlags bindingAttr, Binder binder, Type returnType, Type[] types, ParameterModifier[] modifiers) { }
 
-	// RVA: 0x129CC00 Offset: 0x129B200 VA: 0x18129CC00 Slot: 50
+	// RVA: 0x129CEC0 Offset: 0x129B4C0 VA: 0x18129CEC0 Slot: 50
 	public override EventInfo GetEvent(string name, BindingFlags bindingAttr) { }
 
-	// RVA: 0x129D3A0 Offset: 0x129B9A0 VA: 0x18129D3A0 Slot: 44
+	// RVA: 0x129D660 Offset: 0x129BC60 VA: 0x18129D660 Slot: 44
 	public override FieldInfo GetField(string name, BindingFlags bindingAttr) { }
 
-	// RVA: 0x129EE30 Offset: 0x129D430 VA: 0x18129EE30 Slot: 60
+	// RVA: 0x129F0F0 Offset: 0x129D6F0 VA: 0x18129F0F0 Slot: 60
 	public override Type GetNestedType(string fullname, BindingFlags bindingAttr) { }
 
-	// RVA: 0x129DED0 Offset: 0x129C4D0 VA: 0x18129DED0 Slot: 63
+	// RVA: 0x129E190 Offset: 0x129C790 VA: 0x18129E190 Slot: 63
 	public override MemberInfo[] GetMember(string name, MemberTypes type, BindingFlags bindingAttr) { }
 
-	// RVA: 0x12991E0 Offset: 0x12977E0 VA: 0x1812991E0 Slot: 16
+	// RVA: 0x12994A0 Offset: 0x1297AA0 VA: 0x1812994A0 Slot: 16
 	public override Module get_Module() { }
 
-	// RVA: 0x12991E0 Offset: 0x12977E0 VA: 0x1812991E0
+	// RVA: 0x12994A0 Offset: 0x1297AA0 VA: 0x1812994A0
 	internal RuntimeModule GetRuntimeModule() { }
 
-	// RVA: 0x1299170 Offset: 0x1297770 VA: 0x181299170 Slot: 24
+	// RVA: 0x1299430 Offset: 0x1297A30 VA: 0x181299430 Slot: 24
 	public override Assembly get_Assembly() { }
 
-	// RVA: 0x1299170 Offset: 0x1297770 VA: 0x181299170
+	// RVA: 0x1299430 Offset: 0x1297A30 VA: 0x181299430
 	internal RuntimeAssembly GetRuntimeAssembly() { }
 
-	// RVA: 0x691E10 Offset: 0x690410 VA: 0x180691E10 Slot: 25
+	// RVA: 0x691F20 Offset: 0x690520 VA: 0x180691F20 Slot: 25
 	public override RuntimeTypeHandle get_TypeHandle() { }
 
-	// RVA: 0x1299520 Offset: 0x1297B20 VA: 0x181299520 Slot: 114
+	// RVA: 0x12997E0 Offset: 0x1297DE0 VA: 0x1812997E0 Slot: 114
 	public override bool IsInstanceOfType(object o) { }
 
 	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
-	// RVA: 0x12A2990 Offset: 0x12A0F90 VA: 0x1812A2990 Slot: 113
+	// RVA: 0x12A2C50 Offset: 0x12A1250 VA: 0x1812A2C50 Slot: 113
 	public override bool IsSubclassOf(Type type) { }
 
-	// RVA: 0x12A1450 Offset: 0x129FA50 VA: 0x1812A1450 Slot: 115
+	// RVA: 0x12A1710 Offset: 0x129FD10 VA: 0x1812A1710 Slot: 115
 	public override bool IsAssignableFrom(Type c) { }
 
-	// RVA: 0x12A27F0 Offset: 0x12A0DF0 VA: 0x1812A27F0 Slot: 116
+	// RVA: 0x12A2AB0 Offset: 0x12A10B0 VA: 0x1812A2AB0 Slot: 116
 	public override bool IsEquivalentTo(Type other) { }
 
-	// RVA: 0x12A3D10 Offset: 0x12A2310 VA: 0x1812A3D10 Slot: 30
+	// RVA: 0x12A3FD0 Offset: 0x12A25D0 VA: 0x1812A3FD0 Slot: 30
 	public override Type get_BaseType() { }
 
-	// RVA: 0x129B460 Offset: 0x1299A60 VA: 0x18129B460
+	// RVA: 0x129B720 Offset: 0x1299D20 VA: 0x18129B720
 	private RuntimeType GetBaseType() { }
 
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 112
 	public override Type get_UnderlyingSystemType() { }
 
-	// RVA: 0x1299180 Offset: 0x1297780 VA: 0x181299180 Slot: 94
+	// RVA: 0x1299440 Offset: 0x1297A40 VA: 0x181299440 Slot: 94
 	protected override TypeAttributes GetAttributeFlagsImpl() { }
 
-	// RVA: 0x1299470 Offset: 0x1297A70 VA: 0x181299470 Slot: 101
+	// RVA: 0x1299730 Offset: 0x1297D30 VA: 0x181299730 Slot: 101
 	protected override bool IsContextfulImpl() { }
 
-	// RVA: 0x1299450 Offset: 0x1297A50 VA: 0x181299450 Slot: 96
+	// RVA: 0x1299710 Offset: 0x1297D10 VA: 0x181299710 Slot: 96
 	protected override bool IsByRefImpl() { }
 
-	// RVA: 0x1299560 Offset: 0x1297B60 VA: 0x181299560 Slot: 98
+	// RVA: 0x1299820 Offset: 0x1297E20 VA: 0x181299820 Slot: 98
 	protected override bool IsPrimitiveImpl() { }
 
-	// RVA: 0x1299550 Offset: 0x1297B50 VA: 0x181299550 Slot: 97
+	// RVA: 0x1299810 Offset: 0x1297E10 VA: 0x181299810 Slot: 97
 	protected override bool IsPointerImpl() { }
 
-	// RVA: 0xD69700 Offset: 0xD67D00 VA: 0x180D69700 Slot: 99
+	// RVA: 0xD699C0 Offset: 0xD67FC0 VA: 0x180D699C0 Slot: 99
 	protected override bool IsCOMObjectImpl() { }
 
-	// RVA: 0x12A2B20 Offset: 0x12A1120 VA: 0x1812A2B20 Slot: 93
+	// RVA: 0x12A2DE0 Offset: 0x12A13E0 VA: 0x1812A2DE0 Slot: 93
 	protected override bool IsValueTypeImpl() { }
 
-	// RVA: 0x12A40A0 Offset: 0x12A26A0 VA: 0x1812A40A0 Slot: 76
+	// RVA: 0x12A4360 Offset: 0x12A2960 VA: 0x1812A4360 Slot: 76
 	public override bool get_IsEnum() { }
 
-	// RVA: 0x12993E0 Offset: 0x12979E0 VA: 0x1812993E0 Slot: 106
+	// RVA: 0x12996A0 Offset: 0x1297CA0 VA: 0x1812996A0 Slot: 106
 	protected override bool HasElementTypeImpl() { }
 
-	// RVA: 0x12A3F50 Offset: 0x12A2550 VA: 0x1812A3F50 Slot: 65
+	// RVA: 0x12A4210 Offset: 0x12A2810 VA: 0x1812A4210 Slot: 65
 	public override GenericParameterAttributes get_GenericParameterAttributes() { }
 
-	// RVA: 0x1299570 Offset: 0x1297B70 VA: 0x181299570 Slot: 79
+	// RVA: 0x1299830 Offset: 0x1297E30 VA: 0x181299830 Slot: 79
 	internal override bool get_IsSzArray() { }
 
-	// RVA: 0x1299440 Offset: 0x1297A40 VA: 0x181299440 Slot: 95
+	// RVA: 0x1299700 Offset: 0x1297D00 VA: 0x181299700 Slot: 95
 	protected override bool IsArrayImpl() { }
 
-	// RVA: 0x129B3D0 Offset: 0x12999D0 VA: 0x18129B3D0 Slot: 29
+	// RVA: 0x129B690 Offset: 0x1299C90 VA: 0x18129B690 Slot: 29
 	public override int GetArrayRank() { }
 
-	// RVA: 0x12991A0 Offset: 0x12977A0 VA: 0x1812991A0 Slot: 103
+	// RVA: 0x1299460 Offset: 0x1297A60 VA: 0x181299460 Slot: 103
 	public override Type GetElementType() { }
 
-	// RVA: 0x129C630 Offset: 0x129AC30 VA: 0x18129C630 Slot: 107
+	// RVA: 0x129C8F0 Offset: 0x129AEF0 VA: 0x18129C8F0 Slot: 107
 	public override string[] GetEnumNames() { }
 
-	// RVA: 0x129C7E0 Offset: 0x129ADE0 VA: 0x18129C7E0 Slot: 108
+	// RVA: 0x129CAA0 Offset: 0x129B0A0 VA: 0x18129CAA0 Slot: 108
 	public override Array GetEnumValues() { }
 
-	// RVA: 0x129C720 Offset: 0x129AD20 VA: 0x18129C720 Slot: 109
+	// RVA: 0x129C9E0 Offset: 0x129AFE0 VA: 0x18129C9E0 Slot: 109
 	public override Type GetEnumUnderlyingType() { }
 
-	// RVA: 0x12A2270 Offset: 0x12A0870 VA: 0x1812A2270 Slot: 110
+	// RVA: 0x12A2530 Offset: 0x12A0B30 VA: 0x1812A2530 Slot: 110
 	public override bool IsEnumDefined(object value) { }
 
-	// RVA: 0x129C450 Offset: 0x129AA50 VA: 0x18129C450 Slot: 111
+	// RVA: 0x129C710 Offset: 0x129AD10 VA: 0x18129C710 Slot: 111
 	public override string GetEnumName(object value) { }
 
-	// RVA: 0x129DB20 Offset: 0x129C120 VA: 0x18129DB20
+	// RVA: 0x129DDE0 Offset: 0x129C3E0 VA: 0x18129DDE0
 	internal RuntimeType[] GetGenericArgumentsInternal() { }
 
-	// RVA: 0x129DBA0 Offset: 0x129C1A0 VA: 0x18129DBA0 Slot: 104
+	// RVA: 0x129DE60 Offset: 0x129C460 VA: 0x18129DE60 Slot: 104
 	public override Type[] GetGenericArguments() { }
 
-	// RVA: 0x12A2D40 Offset: 0x12A1340 VA: 0x1812A2D40 Slot: 100
+	// RVA: 0x12A3000 Offset: 0x12A1600 VA: 0x1812A3000 Slot: 100
 	public override Type MakeGenericType(Type[] instantiation) { }
 
-	// RVA: 0x1299500 Offset: 0x1297B00 VA: 0x181299500 Slot: 81
+	// RVA: 0x12997C0 Offset: 0x1297DC0 VA: 0x1812997C0 Slot: 81
 	public override bool get_IsGenericTypeDefinition() { }
 
-	// RVA: 0x1299510 Offset: 0x1297B10 VA: 0x181299510 Slot: 82
+	// RVA: 0x12997D0 Offset: 0x1297DD0 VA: 0x1812997D0 Slot: 82
 	public override bool get_IsGenericParameter() { }
 
-	// RVA: 0x12A4010 Offset: 0x12A2610 VA: 0x1812A4010 Slot: 83
+	// RVA: 0x12A42D0 Offset: 0x12A28D0 VA: 0x1812A42D0 Slot: 83
 	public override int get_GenericParameterPosition() { }
 
-	// RVA: 0x129DD50 Offset: 0x129C350 VA: 0x18129DD50 Slot: 105
+	// RVA: 0x129E010 Offset: 0x129C610 VA: 0x18129E010 Slot: 105
 	public override Type GetGenericTypeDefinition() { }
 
-	// RVA: 0x1299420 Offset: 0x1297A20 VA: 0x181299420 Slot: 80
+	// RVA: 0x12996E0 Offset: 0x1297CE0 VA: 0x1812996E0 Slot: 80
 	public override bool get_IsGenericType() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	// RVA: 0x12A0080 Offset: 0x129E680 VA: 0x1812A0080 Slot: 23
+	// RVA: 0x12A0340 Offset: 0x129E940 VA: 0x1812A0340 Slot: 23
 	public override object InvokeMember(string name, BindingFlags bindingFlags, Binder binder, object target, object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, string[] namedParams) { }
 
-	// RVA: 0x1291940 Offset: 0x128FF40 VA: 0x181291940 Slot: 0
+	// RVA: 0x1291C00 Offset: 0x1290200 VA: 0x181291C00 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xAE59E0 Offset: 0xAE3FE0 VA: 0x180AE59E0
+	// RVA: 0xAE5CA0 Offset: 0xAE42A0 VA: 0x180AE5CA0
 	public static bool op_Equality(RuntimeType left, RuntimeType right) { }
 
-	// RVA: 0x12A4190 Offset: 0x12A2790 VA: 0x1812A4190
+	// RVA: 0x12A4450 Offset: 0x12A2A50 VA: 0x1812A4450
 	public static bool op_Inequality(RuntimeType left, RuntimeType right) { }
 
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 123
 	public object Clone() { }
 
-	// RVA: 0x129F4E0 Offset: 0x129DAE0 VA: 0x18129F4E0 Slot: 122
+	// RVA: 0x129F7A0 Offset: 0x129DDA0 VA: 0x18129F7A0 Slot: 122
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x129BF80 Offset: 0x129A580 VA: 0x18129BF80 Slot: 11
+	// RVA: 0x129C240 Offset: 0x129A840 VA: 0x18129C240 Slot: 11
 	public override object[] GetCustomAttributes(bool inherit) { }
 
-	// RVA: 0x129C030 Offset: 0x129A630 VA: 0x18129C030 Slot: 12
+	// RVA: 0x129C2F0 Offset: 0x129A8F0 VA: 0x18129C2F0 Slot: 12
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit) { }
 
-	// RVA: 0x12A2100 Offset: 0x12A0700 VA: 0x1812A2100 Slot: 13
+	// RVA: 0x12A23C0 Offset: 0x12A09C0 VA: 0x1812A23C0 Slot: 13
 	public override bool IsDefined(Type attributeType, bool inherit) { }
 
-	// RVA: 0x129BF70 Offset: 0x129A570 VA: 0x18129BF70 Slot: 14
+	// RVA: 0x129C230 Offset: 0x129A830 VA: 0x18129C230 Slot: 14
 	public override IList<CustomAttributeData> GetCustomAttributesData() { }
 
-	// RVA: 0x129B230 Offset: 0x1299830 VA: 0x18129B230 Slot: 117
+	// RVA: 0x129B4F0 Offset: 0x1299AF0 VA: 0x18129B4F0 Slot: 117
 	internal override string FormatTypeName(bool serialization) { }
 
-	// RVA: 0x12A4110 Offset: 0x12A2710 VA: 0x1812A4110 Slot: 7
+	// RVA: 0x12A43D0 Offset: 0x12A29D0 VA: 0x1812A43D0 Slot: 7
 	public override MemberTypes get_MemberType() { }
 
 	// RVA: 0x4C27D0 Offset: 0x4C0DD0 VA: 0x1804C27D0 Slot: 10
 	public override Type get_ReflectedType() { }
 
-	// RVA: 0x12991D0 Offset: 0x12977D0 VA: 0x1812991D0 Slot: 15
+	// RVA: 0x1299490 Offset: 0x1297A90 VA: 0x181299490 Slot: 15
 	public override int get_MetadataToken() { }
 
-	// RVA: 0x12997F0 Offset: 0x1297DF0 VA: 0x1812997F0
+	// RVA: 0x1299AB0 Offset: 0x12980B0 VA: 0x181299AB0
 	private void CreateInstanceCheckThis() { }
 
-	// RVA: 0x1299CD0 Offset: 0x12982D0 VA: 0x181299CD0
+	// RVA: 0x1299F90 Offset: 0x1298590 VA: 0x181299F90
 	internal object CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes, ref StackCrawlMark stackMark) { }
 
 	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	// RVA: 0x1299A30 Offset: 0x1298030 VA: 0x181299A30
+	// RVA: 0x1299CF0 Offset: 0x12982F0 VA: 0x181299CF0
 	internal object CreateInstanceDefaultCtor(bool publicOnly, bool skipCheckThis, bool fillCache, ref StackCrawlMark stackMark) { }
 
-	// RVA: 0x129C1A0 Offset: 0x129A7A0 VA: 0x18129C1A0
+	// RVA: 0x129C460 Offset: 0x129AA60 VA: 0x18129C460
 	internal MonoCMethod GetDefaultConstructor() { }
 
-	// RVA: 0x129C370 Offset: 0x129A970 VA: 0x18129C370
+	// RVA: 0x129C630 Offset: 0x129AC30 VA: 0x18129C630
 	private string GetDefaultMemberName() { }
 
-	// RVA: 0x129FE10 Offset: 0x129E410 VA: 0x18129FE10
+	// RVA: 0x12A00D0 Offset: 0x129E6D0 VA: 0x1812A00D0
 	internal RuntimeConstructorInfo GetSerializationCtor() { }
 
-	// RVA: 0x129A7B0 Offset: 0x1298DB0 VA: 0x18129A7B0
+	// RVA: 0x129AA70 Offset: 0x1299070 VA: 0x18129AA70
 	internal object CreateInstanceSlow(bool publicOnly, bool skipCheckThis, bool fillCache, ref StackCrawlMark stackMark) { }
 
-	// RVA: 0x129A4E0 Offset: 0x1298AE0 VA: 0x18129A4E0
+	// RVA: 0x129A7A0 Offset: 0x1298DA0 VA: 0x18129A7A0
 	private object CreateInstanceMono(bool nonPublic) { }
 
-	// RVA: 0x12995F0 Offset: 0x1297BF0 VA: 0x1812995F0
+	// RVA: 0x12998B0 Offset: 0x1297EB0 VA: 0x1812998B0
 	internal object CheckValue(object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr) { }
 
-	// RVA: 0x12A36E0 Offset: 0x12A1CE0 VA: 0x1812A36E0
+	// RVA: 0x12A39A0 Offset: 0x12A1FA0 VA: 0x1812A39A0
 	private object TryConvertToType(object value, ref bool failed) { }
 
-	// RVA: 0x12A1530 Offset: 0x129FB30 VA: 0x1812A1530
+	// RVA: 0x12A17F0 Offset: 0x129FDF0 VA: 0x1812A17F0
 	private static object IsConvertibleToPrimitiveType(object value, Type targetType) { }
 
-	// RVA: 0x129B690 Offset: 0x1299C90 VA: 0x18129B690
+	// RVA: 0x129B950 Offset: 0x1299F50 VA: 0x18129B950
 	private string GetCachedName(TypeNameKind kind) { }
 
-	// RVA: 0x12A4170 Offset: 0x12A2770 VA: 0x1812A4170
+	// RVA: 0x12A4430 Offset: 0x12A2A30 VA: 0x1812A4430
 	private Type make_array_type(int rank) { }
 
-	// RVA: 0x12A2C30 Offset: 0x12A1230 VA: 0x1812A2C30 Slot: 20
+	// RVA: 0x12A2EF0 Offset: 0x12A14F0 VA: 0x1812A2EF0 Slot: 20
 	public override Type MakeArrayType() { }
 
-	// RVA: 0x12A2C40 Offset: 0x12A1240 VA: 0x1812A2C40 Slot: 21
+	// RVA: 0x12A2F00 Offset: 0x12A1500 VA: 0x1812A2F00 Slot: 21
 	public override Type MakeArrayType(int rank) { }
 
-	// RVA: 0x12A4180 Offset: 0x12A2780 VA: 0x1812A4180
+	// RVA: 0x12A4440 Offset: 0x12A2A40 VA: 0x1812A4440
 	private Type make_byref_type() { }
 
-	// RVA: 0x12A2CC0 Offset: 0x12A12C0 VA: 0x1812A2CC0 Slot: 19
+	// RVA: 0x12A2F80 Offset: 0x12A1580 VA: 0x1812A2F80 Slot: 19
 	public override Type MakeByRefType() { }
 
-	// RVA: 0x12A3240 Offset: 0x12A1840 VA: 0x1812A3240
+	// RVA: 0x12A3500 Offset: 0x12A1B00 VA: 0x1812A3500
 	private static Type MakePointerType(Type type) { }
 
-	// RVA: 0x12A31F0 Offset: 0x12A17F0 VA: 0x1812A31F0 Slot: 18
+	// RVA: 0x12A34B0 Offset: 0x12A1AB0 VA: 0x1812A34B0 Slot: 18
 	public override Type MakePointerType() { }
 
-	// RVA: 0x12A3D20 Offset: 0x12A2320 VA: 0x1812A3D20 Slot: 84
+	// RVA: 0x12A3FE0 Offset: 0x12A25E0 VA: 0x1812A3FE0 Slot: 84
 	public override bool get_ContainsGenericParameters() { }
 
-	// RVA: 0x129DC50 Offset: 0x129C250 VA: 0x18129DC50 Slot: 85
+	// RVA: 0x129DF10 Offset: 0x129C510 VA: 0x18129DF10 Slot: 85
 	public override Type[] GetGenericParameterConstraints() { }
 
-	// RVA: 0x1299B40 Offset: 0x1298140 VA: 0x181299B40
+	// RVA: 0x1299E00 Offset: 0x1298400 VA: 0x181299E00
 	internal static object CreateInstanceForAnotherGenericParameter(Type genericType, RuntimeType genericArgument) { }
 
-	// RVA: 0x12A2D30 Offset: 0x12A1330 VA: 0x1812A2D30
+	// RVA: 0x12A2FF0 Offset: 0x12A15F0 VA: 0x1812A2FF0
 	private static Type MakeGenericType(Type gt, Type[] types) { }
 
-	// RVA: 0x129EA80 Offset: 0x129D080 VA: 0x18129EA80
+	// RVA: 0x129ED40 Offset: 0x129D340 VA: 0x18129ED40
 	internal IntPtr GetMethodsByName_native(IntPtr namePtr, BindingFlags bindingAttr, bool ignoreCase) { }
 
-	// RVA: 0x129E7A0 Offset: 0x129CDA0 VA: 0x18129E7A0
+	// RVA: 0x129EA60 Offset: 0x129D060 VA: 0x18129EA60
 	internal RuntimeMethodInfo[] GetMethodsByName(string name, BindingFlags bindingAttr, bool ignoreCase, RuntimeType reflectedType) { }
 
-	// RVA: 0x129F840 Offset: 0x129DE40 VA: 0x18129F840
+	// RVA: 0x129FB00 Offset: 0x129E100 VA: 0x18129FB00
 	private IntPtr GetPropertiesByName_native(IntPtr name, BindingFlags bindingAttr, bool icase) { }
 
-	// RVA: 0x129BF60 Offset: 0x129A560 VA: 0x18129BF60
+	// RVA: 0x129C220 Offset: 0x129A820 VA: 0x18129C220
 	private IntPtr GetConstructors_native(BindingFlags bindingAttr) { }
 
-	// RVA: 0x129BC70 Offset: 0x129A270 VA: 0x18129BC70
+	// RVA: 0x129BF30 Offset: 0x129A530 VA: 0x18129BF30
 	private RuntimeConstructorInfo[] GetConstructors_internal(BindingFlags bindingAttr, RuntimeType reflectedType) { }
 
-	// RVA: 0x129F560 Offset: 0x129DB60 VA: 0x18129F560
+	// RVA: 0x129F820 Offset: 0x129DE20 VA: 0x18129F820
 	private RuntimePropertyInfo[] GetPropertiesByName(string name, BindingFlags bindingAttr, bool icase, RuntimeType reflectedType) { }
 
-	// RVA: 0x12A0030 Offset: 0x129E630 VA: 0x1812A0030 Slot: 22
+	// RVA: 0x12A02F0 Offset: 0x129E8F0 VA: 0x1812A02F0 Slot: 22
 	protected override TypeCode GetTypeCodeImpl() { }
 
-	// RVA: 0x12A0020 Offset: 0x129E620 VA: 0x1812A0020
+	// RVA: 0x12A02E0 Offset: 0x129E8E0 VA: 0x1812A02E0
 	private static TypeCode GetTypeCodeImplInternal(Type type) { }
 
-	// RVA: 0x12A36D0 Offset: 0x12A1CD0 VA: 0x1812A36D0 Slot: 3
+	// RVA: 0x12A3990 Offset: 0x12A1F90 VA: 0x1812A3990 Slot: 3
 	public override string ToString() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	private bool IsGenericCOMObjectImpl() { }
 
-	// RVA: 0x129A4D0 Offset: 0x1298AD0 VA: 0x18129A4D0
+	// RVA: 0x129A790 Offset: 0x1298D90 VA: 0x18129A790
 	private static object CreateInstanceInternal(Type type) { }
 
-	// RVA: 0xD72E30 Offset: 0xD71430 VA: 0x180D72E30 Slot: 17
+	// RVA: 0xD730F0 Offset: 0xD716F0 VA: 0x180D730F0 Slot: 17
 	public override MethodBase get_DeclaringMethod() { }
 
-	// RVA: 0x12A3CF0 Offset: 0x12A22F0 VA: 0x1812A3CF0
+	// RVA: 0x12A3FB0 Offset: 0x12A25B0 VA: 0x1812A3FB0
 	internal string getFullName(bool full_name, bool assembly_qualified) { }
 
-	// RVA: 0x129DB90 Offset: 0x129C190 VA: 0x18129DB90
+	// RVA: 0x129DE50 Offset: 0x129C450 VA: 0x18129DE50
 	private Type[] GetGenericArgumentsInternal(bool runtimeArray) { }
 
-	// RVA: 0x129DC10 Offset: 0x129C210 VA: 0x18129DC10
+	// RVA: 0x129DED0 Offset: 0x129C4D0 VA: 0x18129DED0
 	private GenericParameterAttributes GetGenericParameterAttributes() { }
 
-	// RVA: 0x129DD40 Offset: 0x129C340 VA: 0x18129DD40
+	// RVA: 0x129E000 Offset: 0x129C600 VA: 0x18129E000
 	private int GetGenericParameterPosition() { }
 
-	// RVA: 0x129D120 Offset: 0x129B720 VA: 0x18129D120
+	// RVA: 0x129D3E0 Offset: 0x129B9E0 VA: 0x18129D3E0
 	private IntPtr GetEvents_native(IntPtr name, BindingFlags bindingAttr) { }
 
-	// RVA: 0x129DB10 Offset: 0x129C110 VA: 0x18129DB10
+	// RVA: 0x129DDD0 Offset: 0x129C3D0 VA: 0x18129DDD0
 	private IntPtr GetFields_native(IntPtr name, BindingFlags bindingAttr) { }
 
-	// RVA: 0x129D7C0 Offset: 0x129BDC0 VA: 0x18129D7C0
+	// RVA: 0x129DA80 Offset: 0x129C080 VA: 0x18129DA80
 	private RuntimeFieldInfo[] GetFields_internal(string name, BindingFlags bindingAttr, RuntimeType reflectedType) { }
 
-	// RVA: 0x129CE50 Offset: 0x129B450 VA: 0x18129CE50
+	// RVA: 0x129D110 Offset: 0x129B710 VA: 0x18129D110
 	private RuntimeEventInfo[] GetEvents_internal(string name, BindingFlags bindingAttr, RuntimeType reflectedType) { }
 
-	// RVA: 0x129DEC0 Offset: 0x129C4C0 VA: 0x18129DEC0 Slot: 48
+	// RVA: 0x129E180 Offset: 0x129C780 VA: 0x18129E180 Slot: 48
 	public override Type[] GetInterfaces() { }
 
-	// RVA: 0x129F4D0 Offset: 0x129DAD0 VA: 0x18129F4D0
+	// RVA: 0x129F790 Offset: 0x129DD90 VA: 0x18129F790
 	private IntPtr GetNestedTypes_native(IntPtr name, BindingFlags bindingAttr) { }
 
-	// RVA: 0x129F1A0 Offset: 0x129D7A0 VA: 0x18129F1A0
+	// RVA: 0x129F460 Offset: 0x129DA60 VA: 0x18129F460
 	private RuntimeType[] GetNestedTypes_internal(string displayName, BindingFlags bindingAttr) { }
 
-	// RVA: 0x12A3D00 Offset: 0x12A2300 VA: 0x1812A3D00 Slot: 28
+	// RVA: 0x12A3FC0 Offset: 0x12A25C0 VA: 0x1812A3FC0 Slot: 28
 	public override string get_AssemblyQualifiedName() { }
 
-	// RVA: 0x12A3E40 Offset: 0x12A2440 VA: 0x1812A3E40 Slot: 9
+	// RVA: 0x12A4100 Offset: 0x12A2700 VA: 0x1812A4100 Slot: 9
 	public override Type get_DeclaringType() { }
 
-	// RVA: 0x12A4150 Offset: 0x12A2750 VA: 0x1812A4150 Slot: 8
+	// RVA: 0x12A4410 Offset: 0x12A2A10 VA: 0x1812A4410 Slot: 8
 	public override string get_Name() { }
 
-	// RVA: 0x12A4160 Offset: 0x12A2760 VA: 0x1812A4160 Slot: 27
+	// RVA: 0x12A4420 Offset: 0x12A2A20 VA: 0x1812A4420 Slot: 27
 	public override string get_Namespace() { }
 
-	// RVA: 0x129DDE0 Offset: 0x129C3E0 VA: 0x18129DDE0 Slot: 2
+	// RVA: 0x129E0A0 Offset: 0x129C6A0 VA: 0x18129E0A0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x12A3E50 Offset: 0x12A2450 VA: 0x1812A3E50 Slot: 26
+	// RVA: 0x12A4110 Offset: 0x12A2710 VA: 0x1812A4110 Slot: 26
 	public override string get_FullName() { }
 
-	// RVA: 0x12A3970 Offset: 0x12A1F70 VA: 0x1812A3970
+	// RVA: 0x12A3C30 Offset: 0x12A2230 VA: 0x1812A3C30
 	private static void .cctor() { }
 
 }

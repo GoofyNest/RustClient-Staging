@@ -10,82 +10,82 @@ public class Modifier : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6448
 
 	// Methods
 
-	// RVA: 0x1F55920 Offset: 0x1F53F20 VA: 0x181F55920
+	// RVA: 0x1F55BE0 Offset: 0x1F541E0 VA: 0x181F55BE0
 	public static void ResetToPool(Modifier instance) { }
 
-	// RVA: 0x1F559D0 Offset: 0x1F53FD0 VA: 0x181F559D0
+	// RVA: 0x1F55C90 Offset: 0x1F54290 VA: 0x181F55C90
 	public void ResetToPool() { }
 
-	// RVA: 0x1F55580 Offset: 0x1F53B80 VA: 0x181F55580 Slot: 9
+	// RVA: 0x1F55840 Offset: 0x1F53E40 VA: 0x181F55840 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E219A0 Offset: 0x1E1FFA0 VA: 0x181E219A0
+	// RVA: 0x1E21C60 Offset: 0x1E20260 VA: 0x181E21C60
 	public void CopyTo(Modifier instance) { }
 
-	// RVA: 0x1F54250 Offset: 0x1F52850 VA: 0x181F54250
+	// RVA: 0x1F54510 Offset: 0x1F52B10 VA: 0x181F54510
 	public Modifier Copy() { }
 
-	// RVA: 0x1F552F0 Offset: 0x1F538F0 VA: 0x181F552F0
+	// RVA: 0x1F555B0 Offset: 0x1F53BB0 VA: 0x181F555B0
 	public static Modifier Deserialize(Stream stream) { }
 
-	// RVA: 0x1F54600 Offset: 0x1F52C00 VA: 0x181F54600
+	// RVA: 0x1F548C0 Offset: 0x1F52EC0 VA: 0x181F548C0
 	public static Modifier DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F54990 Offset: 0x1F52F90 VA: 0x181F54990
+	// RVA: 0x1F54C50 Offset: 0x1F53250 VA: 0x181F54C50
 	public static Modifier DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F54A20 Offset: 0x1F53020 VA: 0x181F54A20
+	// RVA: 0x1F54CE0 Offset: 0x1F532E0 VA: 0x181F54CE0
 	public static Modifier Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F556B0 Offset: 0x1F53CB0 VA: 0x181F556B0
+	// RVA: 0x1F55970 Offset: 0x1F53F70 VA: 0x181F55970
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F56050 Offset: 0x1F54650 VA: 0x181F56050 Slot: 12
+	// RVA: 0x1F56310 Offset: 0x1F54910 VA: 0x181F56310 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F56070 Offset: 0x1F54670 VA: 0x181F56070 Slot: 13
+	// RVA: 0x1F56330 Offset: 0x1F54930 VA: 0x181F56330 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Modifier previous) { }
 
-	// RVA: 0x1F55900 Offset: 0x1F53F00 VA: 0x181F55900 Slot: 14
+	// RVA: 0x1F55BC0 Offset: 0x1F541C0 VA: 0x181F55BC0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F54FC0 Offset: 0x1F535C0 VA: 0x181F54FC0
+	// RVA: 0x1F55280 Offset: 0x1F53880 VA: 0x181F55280
 	public static Modifier Deserialize(byte[] buffer, Modifier instance, bool isDelta = False) { }
 
-	// RVA: 0x1F54D70 Offset: 0x1F53370 VA: 0x181F54D70
+	// RVA: 0x1F55030 Offset: 0x1F53630 VA: 0x181F55030
 	public static Modifier Deserialize(Stream stream, Modifier instance, bool isDelta) { }
 
-	// RVA: 0x1F542D0 Offset: 0x1F528D0 VA: 0x181F542D0
+	// RVA: 0x1F54590 Offset: 0x1F52B90 VA: 0x181F54590
 	public static Modifier DeserializeLengthDelimited(Stream stream, Modifier instance, bool isDelta) { }
 
-	// RVA: 0x1F54680 Offset: 0x1F52C80 VA: 0x181F54680
+	// RVA: 0x1F54940 Offset: 0x1F52F40 VA: 0x181F54940
 	public static Modifier DeserializeLength(Stream stream, int length, Modifier instance, bool isDelta) { }
 
-	// RVA: 0x1F55A80 Offset: 0x1F54080 VA: 0x181F55A80
+	// RVA: 0x1F55D40 Offset: 0x1F54340 VA: 0x181F55D40
 	public static void SerializeDelta(Stream stream, Modifier instance, Modifier previous) { }
 
-	// RVA: 0x1F55ED0 Offset: 0x1F544D0 VA: 0x181F55ED0
+	// RVA: 0x1F56190 Offset: 0x1F54790 VA: 0x181F56190
 	public static void Serialize(Stream stream, Modifier instance) { }
 
-	// RVA: 0x1F56040 Offset: 0x1F54640 VA: 0x181F56040
+	// RVA: 0x1F56300 Offset: 0x1F54900 VA: 0x181F56300
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F56050 Offset: 0x1F54650 VA: 0x181F56050
+	// RVA: 0x1F56310 Offset: 0x1F54910 VA: 0x181F56310
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F55DC0 Offset: 0x1F543C0 VA: 0x181F55DC0
+	// RVA: 0x1F56080 Offset: 0x1F54680 VA: 0x181F56080
 	public static byte[] SerializeToBytes(Modifier instance) { }
 
-	// RVA: 0x1F55D10 Offset: 0x1F54310 VA: 0x181F55D10
+	// RVA: 0x1F55FD0 Offset: 0x1F545D0 VA: 0x181F55FD0
 	public static void SerializeLengthDelimited(Stream stream, Modifier instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -134,53 +134,53 @@ public class Modifier // TypeDefIndex: 9623
 	private void set_Source(Modifier.ModifierSource value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7746B0 Offset: 0x772CB0 VA: 0x1807746B0
+	// RVA: 0x7747C0 Offset: 0x772DC0 VA: 0x1807747C0
 	public float get_Value() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7746F0 Offset: 0x772CF0 VA: 0x1807746F0
+	// RVA: 0x774800 Offset: 0x772E00 VA: 0x180774800
 	private void set_Value(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x774680 Offset: 0x772C80 VA: 0x180774680
+	// RVA: 0x774790 Offset: 0x772D90 VA: 0x180774790
 	public float get_Duration() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7746C0 Offset: 0x772CC0 VA: 0x1807746C0
+	// RVA: 0x7747D0 Offset: 0x772DD0 VA: 0x1807747D0
 	private void set_Duration(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7746A0 Offset: 0x772CA0 VA: 0x1807746A0
+	// RVA: 0x7747B0 Offset: 0x772DB0 VA: 0x1807747B0
 	public float get_TimeRemaining() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7746E0 Offset: 0x772CE0 VA: 0x1807746E0
+	// RVA: 0x7747F0 Offset: 0x772DF0 VA: 0x1807747F0
 	private void set_TimeRemaining(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x774690 Offset: 0x772C90 VA: 0x180774690
+	// RVA: 0x7747A0 Offset: 0x772DA0 VA: 0x1807747A0
 	public bool get_Expired() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7746D0 Offset: 0x772CD0 VA: 0x1807746D0
+	// RVA: 0x7747E0 Offset: 0x772DE0 VA: 0x1807747E0
 	private void set_Expired(bool value) { }
 
-	// RVA: 0x7745E0 Offset: 0x772BE0 VA: 0x1807745E0
+	// RVA: 0x7746F0 Offset: 0x772CF0 VA: 0x1807746F0
 	public float get_ClientEstimatedTimeRemaining() { }
 
-	// RVA: 0x7744A0 Offset: 0x772AA0 VA: 0x1807744A0
+	// RVA: 0x7745B0 Offset: 0x772BB0 VA: 0x1807745B0
 	public void Init(Modifier.ModifierType type, Modifier.ModifierSource source, float value, float duration, float remaining) { }
 
-	// RVA: 0x7745A0 Offset: 0x772BA0 VA: 0x1807745A0
+	// RVA: 0x7746B0 Offset: 0x772CB0 VA: 0x1807746B0
 	public void Tick(BaseCombatEntity ownerEntity, float delta) { }
 
-	// RVA: 0x774520 Offset: 0x772B20 VA: 0x180774520
+	// RVA: 0x774630 Offset: 0x772C30 VA: 0x180774630
 	public Modifier Save() { }
 
-	// RVA: 0x7744F0 Offset: 0x772AF0 VA: 0x1807744F0
+	// RVA: 0x774600 Offset: 0x772C00 VA: 0x180774600
 	public void Load(Modifier m) { }
 
-	// RVA: 0x7745C0 Offset: 0x772BC0 VA: 0x1807745C0
+	// RVA: 0x7746D0 Offset: 0x772CD0 VA: 0x1807746D0
 	public void .ctor() { }
 
 }

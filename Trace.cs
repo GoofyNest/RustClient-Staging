@@ -1,6 +1,6 @@
 public sealed class Trace // TypeDefIndex: 2637
 {	// Fields
-	private static CorrelationManager correlationManager; // 0x2B1029C
+	private static CorrelationManager correlationManager; // 0x2B112DC
 
 	// Properties
 	public static TraceListenerCollection Listeners { get; }
@@ -9,13 +9,13 @@ public sealed class Trace // TypeDefIndex: 2637
 
 	// Methods
 
-	// RVA: 0x1738690 Offset: 0x1736C90 VA: 0x181738690
+	// RVA: 0x1738950 Offset: 0x1736F50 VA: 0x181738950
 	public static TraceListenerCollection get_Listeners() { }
 
-	// RVA: 0x1738540 Offset: 0x1736B40 VA: 0x181738540
+	// RVA: 0x1738800 Offset: 0x1736E00 VA: 0x181738800
 	public static bool get_AutoFlush() { }
 
-	// RVA: 0x17385F0 Offset: 0x1736BF0 VA: 0x1817385F0
+	// RVA: 0x17388B0 Offset: 0x1736EB0 VA: 0x1817388B0
 	public static CorrelationManager get_CorrelationManager() { }
 
 }

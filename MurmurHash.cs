@@ -4,16 +4,16 @@ public static class MurmurHash // TypeDefIndex: 11391
 
 	// Methods
 
-	// RVA: 0x7BD110 Offset: 0x7BB710 VA: 0x1807BD110
+	// RVA: 0x7BD220 Offset: 0x7BB820 VA: 0x1807BD220
 	public static int Signed(Stream stream) { }
 
-	// RVA: 0x7BD120 Offset: 0x7BB720 VA: 0x1807BD120
+	// RVA: 0x7BD230 Offset: 0x7BB830 VA: 0x1807BD230
 	public static uint Unsigned(Stream stream) { }
 
-	// RVA: 0x7BD4B0 Offset: 0x7BBAB0 VA: 0x1807BD4B0
+	// RVA: 0x7BD5C0 Offset: 0x7BBBC0 VA: 0x1807BD5C0
 	private static uint rot(uint x, byte r) { }
 
-	// RVA: 0x7BD480 Offset: 0x7BBA80 VA: 0x1807BD480
+	// RVA: 0x7BD590 Offset: 0x7BBB90 VA: 0x1807BD590
 	private static uint mix(uint h) { }
 
 }

@@ -11,17 +11,17 @@ public class Flashbang : TimedExplosive // TypeDefIndex: 8570
 
 	// Methods
 
-	// RVA: 0x791C20 Offset: 0x790220 VA: 0x180791C20 Slot: 35
+	// RVA: 0x791D30 Offset: 0x790330 VA: 0x180791D30 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x791910 Offset: 0x78FF10 VA: 0x180791910
+	// RVA: 0x791A20 Offset: 0x790020 VA: 0x180791A20
 	public void FlashFrom(Vector3 pos, float amount) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7918A0 Offset: 0x78FEA0 VA: 0x1807918A0
+	// RVA: 0x7919B0 Offset: 0x78FFB0 VA: 0x1807919B0
 	public void Client_DoFlash(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x792090 Offset: 0x790690 VA: 0x180792090
+	// RVA: 0x7921A0 Offset: 0x7907A0 VA: 0x1807921A0
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

@@ -5,7 +5,7 @@ public class UnreferencedObjectEventArgs : EventArgs // TypeDefIndex: 2053
 
 	// Methods
 
-	// RVA: 0x110AFB0 Offset: 0x11095B0 VA: 0x18110AFB0
+	// RVA: 0x110B270 Offset: 0x1109870 VA: 0x18110B270
 	public void .ctor(object o, string id) { }
 
 }

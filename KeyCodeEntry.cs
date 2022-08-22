@@ -74,7 +74,7 @@ private sealed class KeyCodeEntry.<ProcessLastNumberInput>d__17 : IEnumerator<ob
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x690500 Offset: 0x68EB00 VA: 0x180690500 Slot: 6
+	// RVA: 0x690610 Offset: 0x68EC10 VA: 0x180690610 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -82,7 +82,7 @@ private sealed class KeyCodeEntry.<ProcessLastNumberInput>d__17 : IEnumerator<ob
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6906C0 Offset: 0x68ECC0 VA: 0x1806906C0 Slot: 8
+	// RVA: 0x6907D0 Offset: 0x68EDD0 VA: 0x1806907D0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

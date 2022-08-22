@@ -14,7 +14,7 @@ internal struct ScreenshotRequested_t : ICallbackData // TypeDefIndex: 5407
 	// RVA: 0x1D7D40 Offset: 0x1D7140 VA: 0x1801D7D40 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128ECA0 Offset: 0x128D2A0 VA: 0x18128ECA0
+	// RVA: 0x128EF60 Offset: 0x128D560 VA: 0x18128EF60
 	private static void .cctor() { }
 
 }

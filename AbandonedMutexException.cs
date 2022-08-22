@@ -10,16 +10,16 @@ public class AbandonedMutexException : SystemException // TypeDefIndex: 773
 
 	// Methods
 
-	// RVA: 0x148EFD0 Offset: 0x148D5D0 VA: 0x18148EFD0
+	// RVA: 0x148F290 Offset: 0x148D890 VA: 0x18148F290
 	public void .ctor() { }
 
-	// RVA: 0x148EEE0 Offset: 0x148D4E0 VA: 0x18148EEE0
+	// RVA: 0x148F1A0 Offset: 0x148D7A0 VA: 0x18148F1A0
 	public void .ctor(int location, WaitHandle handle) { }
 
-	// RVA: 0x148EE70 Offset: 0x148D470 VA: 0x18148EE70
+	// RVA: 0x148F130 Offset: 0x148D730 VA: 0x18148F130
 	private void SetupException(int location, WaitHandle handle) { }
 
-	// RVA: 0x148EFA0 Offset: 0x148D5A0 VA: 0x18148EFA0
+	// RVA: 0x148F260 Offset: 0x148D860 VA: 0x18148F260
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

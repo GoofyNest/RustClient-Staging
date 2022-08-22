@@ -35,7 +35,7 @@ public class CarSettings // TypeDefIndex: 9705
 
 	// Methods
 
-	// RVA: 0x6FE1C0 Offset: 0x6FC7C0 VA: 0x1806FE1C0
+	// RVA: 0x6FE2D0 Offset: 0x6FC8D0 VA: 0x1806FE2D0
 	public void .ctor() { }
 
 }

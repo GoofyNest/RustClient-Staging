@@ -17,25 +17,25 @@ public abstract class BaseNumberConverter : TypeConverter // TypeDefIndex: 2773
 	// RVA: -1 Offset: -1 Slot: 19
 	internal abstract object FromString(string value, NumberFormatInfo formatInfo);
 
-	// RVA: 0x15BE3C0 Offset: 0x15BC9C0 VA: 0x1815BE3C0 Slot: 20
+	// RVA: 0x15BE680 Offset: 0x15BCC80 VA: 0x1815BE680 Slot: 20
 	internal virtual Exception FromStringError(string failedText, Exception innerException) { }
 
 	// RVA: -1 Offset: -1 Slot: 21
 	internal abstract string ToString(object value, NumberFormatInfo formatInfo);
 
-	// RVA: 0x15BDD60 Offset: 0x15BC360 VA: 0x1815BDD60 Slot: 4
+	// RVA: 0x15BE020 Offset: 0x15BC620 VA: 0x1815BE020 Slot: 4
 	public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType) { }
 
-	// RVA: 0x15BDE50 Offset: 0x15BC450 VA: 0x1815BDE50 Slot: 6
+	// RVA: 0x15BE110 Offset: 0x15BC710 VA: 0x1815BE110 Slot: 6
 	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value) { }
 
-	// RVA: 0x15BE140 Offset: 0x15BC740 VA: 0x1815BE140 Slot: 7
+	// RVA: 0x15BE400 Offset: 0x15BCA00 VA: 0x1815BE400 Slot: 7
 	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType) { }
 
-	// RVA: 0x15BDE10 Offset: 0x15BC410 VA: 0x1815BDE10 Slot: 5
+	// RVA: 0x15BE0D0 Offset: 0x15BC6D0 VA: 0x1815BE0D0 Slot: 5
 	public override bool CanConvertTo(ITypeDescriptorContext context, Type t) { }
 
-	// RVA: 0x15BE590 Offset: 0x15BCB90 VA: 0x1815BE590
+	// RVA: 0x15BE850 Offset: 0x15BCE50 VA: 0x1815BE850
 	protected void .ctor() { }
 
 }

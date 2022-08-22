@@ -10,64 +10,64 @@ public class HeldBoomBox : HeldEntity, ICassettePlayer // TypeDefIndex: 8574
 
 	// Methods
 
-	// RVA: 0x7367A0 Offset: 0x734DA0 VA: 0x1807367A0 Slot: 35
+	// RVA: 0x7368B0 Offset: 0x734EB0 VA: 0x1807368B0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 157
 	public BaseEntity get_ToBaseEntity() { }
 
-	// RVA: 0x7365D0 Offset: 0x734BD0 VA: 0x1807365D0 Slot: 138
+	// RVA: 0x7366E0 Offset: 0x734CE0 VA: 0x1807366E0 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x7363F0 Offset: 0x7349F0 VA: 0x1807363F0 Slot: 142
+	// RVA: 0x736500 Offset: 0x734B00 VA: 0x180736500 Slot: 142
 	public override void OnHolster() { }
 
-	// RVA: 0x7361F0 Offset: 0x7347F0 VA: 0x1807361F0 Slot: 140
+	// RVA: 0x736300 Offset: 0x734900 VA: 0x180736300 Slot: 140
 	public override void OnDeploy() { }
 
-	// RVA: 0x736230 Offset: 0x734830 VA: 0x180736230 Slot: 80
+	// RVA: 0x736340 Offset: 0x734940 VA: 0x180736340 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x736090 Offset: 0x734690 VA: 0x180736090
+	// RVA: 0x7361A0 Offset: 0x7347A0 VA: 0x1807361A0
 	public void Client_OnCassetteInserted(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7360E0 Offset: 0x7346E0 VA: 0x1807360E0
+	// RVA: 0x7361F0 Offset: 0x7347F0 VA: 0x1807361F0
 	public void Client_OnCassetteRemoved(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x736760 Offset: 0x734D60 VA: 0x180736760
+	// RVA: 0x736870 Offset: 0x734E70 VA: 0x180736870
 	public void OnRadioIPChanged(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x736720 Offset: 0x734D20 VA: 0x180736720 Slot: 158
+	// RVA: 0x736830 Offset: 0x734E30 VA: 0x180736830 Slot: 158
 	public void OnLoadedWithCassette(Cassette c) { }
 
-	// RVA: 0x7361C0 Offset: 0x7347C0 VA: 0x1807361C0 Slot: 159
+	// RVA: 0x7362D0 Offset: 0x7348D0 VA: 0x1807362D0 Slot: 159
 	public void OnCensorRecordingsChanged() { }
 
-	// RVA: 0x7372B0 Offset: 0x7358B0 VA: 0x1807372B0
+	// RVA: 0x7373C0 Offset: 0x7359C0 VA: 0x1807373C0
 	private void UpdateCassetteSwapper() { }
 
-	// RVA: 0x737380 Offset: 0x735980 VA: 0x180737380
+	// RVA: 0x737490 Offset: 0x735A90 VA: 0x180737490
 	private void UpdateViewmodelCassette(ViewModel vm) { }
 
-	// RVA: 0x737570 Offset: 0x735B70 VA: 0x180737570
+	// RVA: 0x737680 Offset: 0x735C80 VA: 0x180737680
 	private void UpdateViewmodelPlay(ViewModel vm) { }
 
-	// RVA: 0x737280 Offset: 0x735880 VA: 0x180737280 Slot: 152
+	// RVA: 0x737390 Offset: 0x735990 VA: 0x180737390 Slot: 152
 	public override void ProcessSpectatorViewmodel(ViewModel vm) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 153
 	public override void ProcessSpectatorViewmodelEvent(ViewModel vm, BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0x736130 Offset: 0x734730 VA: 0x180736130 Slot: 34
+	// RVA: 0x736240 Offset: 0x734840 VA: 0x180736240 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x737770 Offset: 0x735D70 VA: 0x180737770
+	// RVA: 0x737880 Offset: 0x735E80 VA: 0x180737880
 	public void .ctor() { }
 
-	// RVA: 0x737720 Offset: 0x735D20 VA: 0x180737720
+	// RVA: 0x737830 Offset: 0x735E30 VA: 0x180737830
 	private static void .cctor() { }
 
 }

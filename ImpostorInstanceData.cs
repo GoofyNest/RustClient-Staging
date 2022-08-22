@@ -42,25 +42,25 @@ public class ImpostorInstanceData // TypeDefIndex: 10680
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public Material get_Material() { }
 
-	// RVA: 0x8103B0 Offset: 0x80E9B0 VA: 0x1808103B0
+	// RVA: 0x8104C0 Offset: 0x80EAC0 VA: 0x1808104C0
 	public void .ctor(Renderer renderer, Mesh mesh, Material material) { }
 
-	// RVA: 0x810260 Offset: 0x80E860 VA: 0x180810260
+	// RVA: 0x810370 Offset: 0x80E970 VA: 0x180810370
 	public void .ctor(Vector3 position, Vector3 scale, Mesh mesh, Material material) { }
 
-	// RVA: 0x810020 Offset: 0x80E620 VA: 0x180810020
+	// RVA: 0x810130 Offset: 0x80E730 VA: 0x180810130
 	private int GenerateHashCode() { }
 
-	// RVA: 0x80FF00 Offset: 0x80E500 VA: 0x18080FF00 Slot: 0
+	// RVA: 0x810010 Offset: 0x80E610 VA: 0x180810010 Slot: 0
 	public override bool Equals(object obj) { }
 
 	// RVA: 0x5E2F40 Offset: 0x5E1540 VA: 0x1805E2F40 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x810080 Offset: 0x80E680 VA: 0x180810080
+	// RVA: 0x810190 Offset: 0x80E790 VA: 0x180810190
 	public Vector4 PositionAndScale() { }
 
-	// RVA: 0x8101C0 Offset: 0x80E7C0 VA: 0x1808101C0
+	// RVA: 0x8102D0 Offset: 0x80E8D0 VA: 0x1808102D0
 	public void Update() { }
 
 }

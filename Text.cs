@@ -39,121 +39,121 @@ public class Text : MaskableGraphic, ILayoutElement // TypeDefIndex: 5014
 
 	// Methods
 
-	// RVA: 0x2245F10 Offset: 0x2244510 VA: 0x182245F10
+	// RVA: 0x22461D0 Offset: 0x22447D0 VA: 0x1822461D0
 	protected void .ctor() { }
 
-	// RVA: 0x2246070 Offset: 0x2244670 VA: 0x182246070
+	// RVA: 0x2246330 Offset: 0x2244930 VA: 0x182246330
 	public TextGenerator get_cachedTextGenerator() { }
 
-	// RVA: 0x2245FF0 Offset: 0x22445F0 VA: 0x182245FF0
+	// RVA: 0x22462B0 Offset: 0x22448B0 VA: 0x1822462B0
 	public TextGenerator get_cachedTextGeneratorForLayout() { }
 
-	// RVA: 0x22461B0 Offset: 0x22447B0 VA: 0x1822461B0 Slot: 35
+	// RVA: 0x2246470 Offset: 0x2244A70 VA: 0x182246470 Slot: 35
 	public override Texture get_mainTexture() { }
 
-	// RVA: 0x22451A0 Offset: 0x22437A0 VA: 0x1822451A0
+	// RVA: 0x2245460 Offset: 0x2243A60 VA: 0x182245460
 	public void FontTextureChanged() { }
 
-	// RVA: 0x2246150 Offset: 0x2244750 VA: 0x182246150
+	// RVA: 0x2246410 Offset: 0x2244A10 VA: 0x182246410
 	public Font get_font() { }
 
-	// RVA: 0x22469D0 Offset: 0x2244FD0 VA: 0x1822469D0
+	// RVA: 0x2246C90 Offset: 0x2245290 VA: 0x182246C90
 	public void set_font(Font value) { }
 
-	// RVA: 0xC73A80 Offset: 0xC72080 VA: 0x180C73A80 Slot: 72
+	// RVA: 0xC73D40 Offset: 0xC72340 VA: 0x180C73D40 Slot: 72
 	public virtual string get_text() { }
 
-	// RVA: 0x2246D00 Offset: 0x2245300 VA: 0x182246D00 Slot: 73
+	// RVA: 0x2246FC0 Offset: 0x22455C0 VA: 0x182246FC0 Slot: 73
 	public virtual void set_text(string value) { }
 
-	// RVA: 0x2246830 Offset: 0x2244E30 VA: 0x182246830
+	// RVA: 0x2246AF0 Offset: 0x22450F0 VA: 0x182246AF0
 	public bool get_supportRichText() { }
 
-	// RVA: 0x2246CA0 Offset: 0x22452A0 VA: 0x182246CA0
+	// RVA: 0x2246F60 Offset: 0x2245560 VA: 0x182246F60
 	public void set_supportRichText(bool value) { }
 
-	// RVA: 0x22467D0 Offset: 0x2244DD0 VA: 0x1822467D0
+	// RVA: 0x2246A90 Offset: 0x2245090 VA: 0x182246A90
 	public bool get_resizeTextForBestFit() { }
 
-	// RVA: 0x2246B80 Offset: 0x2245180 VA: 0x182246B80
+	// RVA: 0x2246E40 Offset: 0x2245440 VA: 0x182246E40
 	public void set_resizeTextForBestFit(bool value) { }
 
-	// RVA: 0x2246810 Offset: 0x2244E10 VA: 0x182246810
+	// RVA: 0x2246AD0 Offset: 0x22450D0 VA: 0x182246AD0
 	public int get_resizeTextMinSize() { }
 
-	// RVA: 0x2246C40 Offset: 0x2245240 VA: 0x182246C40
+	// RVA: 0x2246F00 Offset: 0x2245500 VA: 0x182246F00
 	public void set_resizeTextMinSize(int value) { }
 
-	// RVA: 0x22467F0 Offset: 0x2244DF0 VA: 0x1822467F0
+	// RVA: 0x2246AB0 Offset: 0x22450B0 VA: 0x182246AB0
 	public int get_resizeTextMaxSize() { }
 
-	// RVA: 0x2246BE0 Offset: 0x22451E0 VA: 0x182246BE0
+	// RVA: 0x2246EA0 Offset: 0x22454A0 VA: 0x182246EA0
 	public void set_resizeTextMaxSize(int value) { }
 
-	// RVA: 0x2245FD0 Offset: 0x22445D0 VA: 0x182245FD0
+	// RVA: 0x2246290 Offset: 0x2244890 VA: 0x182246290
 	public TextAnchor get_alignment() { }
 
-	// RVA: 0x22468B0 Offset: 0x2244EB0 VA: 0x1822468B0
+	// RVA: 0x2246B70 Offset: 0x2245170 VA: 0x182246B70
 	public void set_alignment(TextAnchor value) { }
 
-	// RVA: 0x2245FB0 Offset: 0x22445B0 VA: 0x182245FB0
+	// RVA: 0x2246270 Offset: 0x2244870 VA: 0x182246270
 	public bool get_alignByGeometry() { }
 
-	// RVA: 0x2246870 Offset: 0x2244E70 VA: 0x182246870
+	// RVA: 0x2246B30 Offset: 0x2245130 VA: 0x182246B30
 	public void set_alignByGeometry(bool value) { }
 
-	// RVA: 0x2246110 Offset: 0x2244710 VA: 0x182246110
+	// RVA: 0x22463D0 Offset: 0x22449D0 VA: 0x1822463D0
 	public int get_fontSize() { }
 
-	// RVA: 0x2246910 Offset: 0x2244F10 VA: 0x182246910
+	// RVA: 0x2246BD0 Offset: 0x22451D0 VA: 0x182246BD0
 	public void set_fontSize(int value) { }
 
-	// RVA: 0x2246170 Offset: 0x2244770 VA: 0x182246170
+	// RVA: 0x2246430 Offset: 0x2244A30 VA: 0x182246430
 	public HorizontalWrapMode get_horizontalOverflow() { }
 
-	// RVA: 0x2246AC0 Offset: 0x22450C0 VA: 0x182246AC0
+	// RVA: 0x2246D80 Offset: 0x2245380 VA: 0x182246D80
 	public void set_horizontalOverflow(HorizontalWrapMode value) { }
 
-	// RVA: 0x2246850 Offset: 0x2244E50 VA: 0x182246850
+	// RVA: 0x2246B10 Offset: 0x2245110 VA: 0x182246B10
 	public VerticalWrapMode get_verticalOverflow() { }
 
-	// RVA: 0x2246DF0 Offset: 0x22453F0 VA: 0x182246DF0
+	// RVA: 0x22470B0 Offset: 0x22456B0 VA: 0x1822470B0
 	public void set_verticalOverflow(VerticalWrapMode value) { }
 
-	// RVA: 0x2246190 Offset: 0x2244790 VA: 0x182246190
+	// RVA: 0x2246450 Offset: 0x2244A50 VA: 0x182246450
 	public float get_lineSpacing() { }
 
-	// RVA: 0x2246B20 Offset: 0x2245120 VA: 0x182246B20
+	// RVA: 0x2246DE0 Offset: 0x22453E0 VA: 0x182246DE0
 	public void set_lineSpacing(float value) { }
 
-	// RVA: 0x2246130 Offset: 0x2244730 VA: 0x182246130
+	// RVA: 0x22463F0 Offset: 0x22449F0 VA: 0x1822463F0
 	public FontStyle get_fontStyle() { }
 
-	// RVA: 0x2246970 Offset: 0x2244F70 VA: 0x182246970
+	// RVA: 0x2246C30 Offset: 0x2245230 VA: 0x182246C30
 	public void set_fontStyle(FontStyle value) { }
 
-	// RVA: 0x22463D0 Offset: 0x22449D0 VA: 0x1822463D0
+	// RVA: 0x2246690 Offset: 0x2244C90 VA: 0x182246690
 	public float get_pixelsPerUnit() { }
 
-	// RVA: 0x2245700 Offset: 0x2243D00 VA: 0x182245700 Slot: 5
+	// RVA: 0x22459C0 Offset: 0x2243FC0 VA: 0x1822459C0 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x22456A0 Offset: 0x2243CA0 VA: 0x1822456A0 Slot: 7
+	// RVA: 0x2245960 Offset: 0x2243F60 VA: 0x182245960 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x2245E80 Offset: 0x2244480 VA: 0x182245E80 Slot: 41
+	// RVA: 0x2246140 Offset: 0x2244740 VA: 0x182246140 Slot: 41
 	protected override void UpdateGeometry() { }
 
-	// RVA: 0x2245080 Offset: 0x2243680 VA: 0x182245080
+	// RVA: 0x2245340 Offset: 0x2243940 VA: 0x182245340
 	internal void AssignDefaultFont() { }
 
-	// RVA: 0x22452D0 Offset: 0x22438D0 VA: 0x1822452D0
+	// RVA: 0x2245590 Offset: 0x2243B90 VA: 0x182245590
 	public TextGenerationSettings GetGenerationSettings(Vector2 extents) { }
 
-	// RVA: 0x2245520 Offset: 0x2243B20 VA: 0x182245520
+	// RVA: 0x22457E0 Offset: 0x2243DE0 VA: 0x1822457E0
 	public static Vector2 GetTextAnchorPivot(TextAnchor anchor) { }
 
-	// RVA: 0x2245780 Offset: 0x2243D80 VA: 0x182245780 Slot: 44
+	// RVA: 0x2245A40 Offset: 0x2244040 VA: 0x182245A40 Slot: 44
 	protected override void OnPopulateMesh(VertexHelper toFill) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 74
@@ -165,19 +165,19 @@ public class Text : MaskableGraphic, ILayoutElement // TypeDefIndex: 5014
 	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 76
 	public virtual float get_minWidth() { }
 
-	// RVA: 0x22466A0 Offset: 0x2244CA0 VA: 0x1822466A0 Slot: 77
+	// RVA: 0x2246960 Offset: 0x2244F60 VA: 0x182246960 Slot: 77
 	public virtual float get_preferredWidth() { }
 
-	// RVA: 0xC82E90 Offset: 0xC81490 VA: 0x180C82E90 Slot: 78
+	// RVA: 0xC83150 Offset: 0xC81750 VA: 0x180C83150 Slot: 78
 	public virtual float get_flexibleWidth() { }
 
 	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 79
 	public virtual float get_minHeight() { }
 
-	// RVA: 0x2246550 Offset: 0x2244B50 VA: 0x182246550 Slot: 80
+	// RVA: 0x2246810 Offset: 0x2244E10 VA: 0x182246810 Slot: 80
 	public virtual float get_preferredHeight() { }
 
-	// RVA: 0xC82E90 Offset: 0xC81490 VA: 0x180C82E90 Slot: 81
+	// RVA: 0xC83150 Offset: 0xC81750 VA: 0x180C83150 Slot: 81
 	public virtual float get_flexibleHeight() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 82

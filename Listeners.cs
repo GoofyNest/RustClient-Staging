@@ -17,13 +17,13 @@ internal sealed class Listeners.Action<TElem, T1, T2, T3, T4> : MulticastDelegat
 	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1775D90 Offset: 0x1774390 VA: 0x181775D90
+	|-RVA: 0x1776050 Offset: 0x1774650 VA: 0x181776050
 	|-Listeners.Action<object, object, Int32Enum, object, bool>.Invoke
 	|
-	|-RVA: 0x1776340 Offset: 0x1774940 VA: 0x181776340
+	|-RVA: 0x1776600 Offset: 0x1774C00 VA: 0x181776600
 	|-Listeners.Action<object, object, object, bool, bool>.Invoke
 	|
-	|-RVA: 0x1776880 Offset: 0x1774E80 VA: 0x181776880
+	|-RVA: 0x1776B40 Offset: 0x1775140 VA: 0x181776B40
 	|-Listeners.Action<object, object, object, object, object>.Invoke
 	*/
 
@@ -31,13 +31,13 @@ internal sealed class Listeners.Action<TElem, T1, T2, T3, T4> : MulticastDelegat
 	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1775C30 Offset: 0x1774230 VA: 0x181775C30
+	|-RVA: 0x1775EF0 Offset: 0x17744F0 VA: 0x181775EF0
 	|-Listeners.Action<object, object, Int32Enum, object, bool>.BeginInvoke
 	|
-	|-RVA: 0x1775CE0 Offset: 0x17742E0 VA: 0x181775CE0
+	|-RVA: 0x1775FA0 Offset: 0x17745A0 VA: 0x181775FA0
 	|-Listeners.Action<object, object, object, bool, bool>.BeginInvoke
 	|
-	|-RVA: 0xFF9340 Offset: 0xFF7940 VA: 0x180FF9340
+	|-RVA: 0xFF9600 Offset: 0xFF7C00 VA: 0x180FF9600
 	|-Listeners.Action<object, object, object, object, object>.BeginInvoke
 	*/
 
@@ -70,10 +70,10 @@ internal sealed class Listeners.Func<TElem, T1, TResult> : MulticastDelegate // 
 	public virtual TResult Invoke(T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1786050 Offset: 0x1784650 VA: 0x181786050
+	|-RVA: 0x1786310 Offset: 0x1784910 VA: 0x181786310
 	|-Listeners.Func<object, object, bool>.Invoke
 	|
-	|-RVA: 0xD59790 Offset: 0xD57D90 VA: 0x180D59790
+	|-RVA: 0xD59A50 Offset: 0xD58050 VA: 0x180D59A50
 	|-Listeners.Func<object, object, object>.Invoke
 	*/
 
@@ -90,7 +90,7 @@ internal sealed class Listeners.Func<TElem, T1, TResult> : MulticastDelegate // 
 	public virtual TResult EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xFF6250 Offset: 0xFF4850 VA: 0x180FF6250
+	|-RVA: 0xFF6510 Offset: 0xFF4B10 VA: 0x180FF6510
 	|-Listeners.Func<object, object, bool>.EndInvoke
 	|
 	|-RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0

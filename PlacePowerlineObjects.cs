@@ -8,7 +8,7 @@ public class PlacePowerlineObjects : ProceduralComponent // TypeDefIndex: 10558
 
 	// Methods
 
-	// RVA: 0x918ED0 Offset: 0x9174D0 VA: 0x180918ED0 Slot: 5
+	// RVA: 0x918FE0 Offset: 0x9175E0 VA: 0x180918FE0 Slot: 5
 	public override void Process(uint seed) { }
 
 	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40

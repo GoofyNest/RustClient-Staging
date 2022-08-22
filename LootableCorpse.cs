@@ -9,82 +9,82 @@ public class LootableCorpse : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1F25DC0 Offset: 0x1F243C0 VA: 0x181F25DC0
+	// RVA: 0x1F26080 Offset: 0x1F24680 VA: 0x181F26080
 	public static void ResetToPool(LootableCorpse instance) { }
 
-	// RVA: 0x1F25CC0 Offset: 0x1F242C0 VA: 0x181F25CC0
+	// RVA: 0x1F25F80 Offset: 0x1F24580 VA: 0x181F25F80
 	public void ResetToPool() { }
 
-	// RVA: 0x1F25B10 Offset: 0x1F24110 VA: 0x181F25B10 Slot: 9
+	// RVA: 0x1F25DD0 Offset: 0x1F243D0 VA: 0x181F25DD0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F24BE0 Offset: 0x1F231E0 VA: 0x181F24BE0
+	// RVA: 0x1F24EA0 Offset: 0x1F234A0 VA: 0x181F24EA0
 	public void CopyTo(LootableCorpse instance) { }
 
-	// RVA: 0x1F24CE0 Offset: 0x1F232E0 VA: 0x181F24CE0
+	// RVA: 0x1F24FA0 Offset: 0x1F235A0 VA: 0x181F24FA0
 	public LootableCorpse Copy() { }
 
-	// RVA: 0x1F256D0 Offset: 0x1F23CD0 VA: 0x181F256D0
+	// RVA: 0x1F25990 Offset: 0x1F23F90 VA: 0x181F25990
 	public static LootableCorpse Deserialize(Stream stream) { }
 
-	// RVA: 0x1F24E30 Offset: 0x1F23430 VA: 0x181F24E30
+	// RVA: 0x1F250F0 Offset: 0x1F236F0 VA: 0x181F250F0
 	public static LootableCorpse DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F25540 Offset: 0x1F23B40 VA: 0x181F25540
+	// RVA: 0x1F25800 Offset: 0x1F23E00 VA: 0x181F25800
 	public static LootableCorpse DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F25750 Offset: 0x1F23D50 VA: 0x181F25750
+	// RVA: 0x1F25A10 Offset: 0x1F24010 VA: 0x181F25A10
 	public static LootableCorpse Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F25C80 Offset: 0x1F24280 VA: 0x181F25C80
+	// RVA: 0x1F25F40 Offset: 0x1F24540 VA: 0x181F25F40
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F265D0 Offset: 0x1F24BD0 VA: 0x181F265D0 Slot: 12
+	// RVA: 0x1F26890 Offset: 0x1F24E90 VA: 0x181F26890 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F265F0 Offset: 0x1F24BF0 VA: 0x181F265F0 Slot: 13
+	// RVA: 0x1F268B0 Offset: 0x1F24EB0 VA: 0x181F268B0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, LootableCorpse previous) { }
 
-	// RVA: 0x1F25CA0 Offset: 0x1F242A0 VA: 0x181F25CA0 Slot: 14
+	// RVA: 0x1F25F60 Offset: 0x1F24560 VA: 0x181F25F60 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F255D0 Offset: 0x1F23BD0 VA: 0x181F255D0
+	// RVA: 0x1F25890 Offset: 0x1F23E90 VA: 0x181F25890
 	public static LootableCorpse Deserialize(byte[] buffer, LootableCorpse instance, bool isDelta = False) { }
 
-	// RVA: 0x1F25870 Offset: 0x1F23E70 VA: 0x181F25870
+	// RVA: 0x1F25B30 Offset: 0x1F24130 VA: 0x181F25B30
 	public static LootableCorpse Deserialize(Stream stream, LootableCorpse instance, bool isDelta) { }
 
-	// RVA: 0x1F24EB0 Offset: 0x1F234B0 VA: 0x181F24EB0
+	// RVA: 0x1F25170 Offset: 0x1F23770 VA: 0x181F25170
 	public static LootableCorpse DeserializeLengthDelimited(Stream stream, LootableCorpse instance, bool isDelta) { }
 
-	// RVA: 0x1F25210 Offset: 0x1F23810 VA: 0x181F25210
+	// RVA: 0x1F254D0 Offset: 0x1F23AD0 VA: 0x181F254D0
 	public static LootableCorpse DeserializeLength(Stream stream, int length, LootableCorpse instance, bool isDelta) { }
 
-	// RVA: 0x1F25EC0 Offset: 0x1F244C0 VA: 0x181F25EC0
+	// RVA: 0x1F26180 Offset: 0x1F24780 VA: 0x181F26180
 	public static void SerializeDelta(Stream stream, LootableCorpse instance, LootableCorpse previous) { }
 
-	// RVA: 0x1F26350 Offset: 0x1F24950 VA: 0x181F26350
+	// RVA: 0x1F26610 Offset: 0x1F24C10 VA: 0x181F26610
 	public static void Serialize(Stream stream, LootableCorpse instance) { }
 
-	// RVA: 0x1F265C0 Offset: 0x1F24BC0 VA: 0x181F265C0
+	// RVA: 0x1F26880 Offset: 0x1F24E80 VA: 0x181F26880
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F265D0 Offset: 0x1F24BD0 VA: 0x181F265D0
+	// RVA: 0x1F26890 Offset: 0x1F24E90 VA: 0x181F26890
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F26240 Offset: 0x1F24840 VA: 0x181F26240
+	// RVA: 0x1F26500 Offset: 0x1F24B00 VA: 0x181F26500
 	public static byte[] SerializeToBytes(LootableCorpse instance) { }
 
-	// RVA: 0x1F26190 Offset: 0x1F24790 VA: 0x181F26190
+	// RVA: 0x1F26450 Offset: 0x1F24A50 VA: 0x181F26450
 	public static void SerializeLengthDelimited(Stream stream, LootableCorpse instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -97,82 +97,82 @@ public class LootableCorpse.Private : IDisposable, Pool.IPooled, IProto // TypeD
 
 	// Methods
 
-	// RVA: 0x1F2C3C0 Offset: 0x1F2A9C0 VA: 0x181F2C3C0
+	// RVA: 0x1F2C680 Offset: 0x1F2AC80 VA: 0x181F2C680
 	public static void ResetToPool(LootableCorpse.Private instance) { }
 
-	// RVA: 0x1F2C210 Offset: 0x1F2A810 VA: 0x181F2C210
+	// RVA: 0x1F2C4D0 Offset: 0x1F2AAD0 VA: 0x181F2C4D0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F2C150 Offset: 0x1F2A750 VA: 0x181F2C150 Slot: 9
+	// RVA: 0x1F2C410 Offset: 0x1F2AA10 VA: 0x181F2C410 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F2B430 Offset: 0x1F29A30 VA: 0x181F2B430
+	// RVA: 0x1F2B6F0 Offset: 0x1F29CF0 VA: 0x181F2B6F0
 	public void CopyTo(LootableCorpse.Private instance) { }
 
-	// RVA: 0x1F2B5C0 Offset: 0x1F29BC0 VA: 0x181F2B5C0
+	// RVA: 0x1F2B880 Offset: 0x1F29E80 VA: 0x181F2B880
 	public LootableCorpse.Private Copy() { }
 
-	// RVA: 0x1F2BFB0 Offset: 0x1F2A5B0 VA: 0x181F2BFB0
+	// RVA: 0x1F2C270 Offset: 0x1F2A870 VA: 0x181F2C270
 	public static LootableCorpse.Private Deserialize(Stream stream) { }
 
-	// RVA: 0x1F2B640 Offset: 0x1F29C40 VA: 0x181F2B640
+	// RVA: 0x1F2B900 Offset: 0x1F29F00 VA: 0x181F2B900
 	public static LootableCorpse.Private DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F2BC30 Offset: 0x1F2A230 VA: 0x181F2BC30
+	// RVA: 0x1F2BEF0 Offset: 0x1F2A4F0 VA: 0x181F2BEF0
 	public static LootableCorpse.Private DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F2C030 Offset: 0x1F2A630 VA: 0x181F2C030
+	// RVA: 0x1F2C2F0 Offset: 0x1F2A8F0 VA: 0x181F2C2F0
 	public static LootableCorpse.Private Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F2C1D0 Offset: 0x1F2A7D0 VA: 0x181F2C1D0
+	// RVA: 0x1F2C490 Offset: 0x1F2AA90 VA: 0x181F2C490
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F2CB00 Offset: 0x1F2B100 VA: 0x181F2CB00 Slot: 12
+	// RVA: 0x1F2CDC0 Offset: 0x1F2B3C0 VA: 0x181F2CDC0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F2CB20 Offset: 0x1F2B120 VA: 0x181F2CB20 Slot: 13
+	// RVA: 0x1F2CDE0 Offset: 0x1F2B3E0 VA: 0x181F2CDE0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, LootableCorpse.Private previous) { }
 
-	// RVA: 0x1F2C1F0 Offset: 0x1F2A7F0 VA: 0x181F2C1F0 Slot: 14
+	// RVA: 0x1F2C4B0 Offset: 0x1F2AAB0 VA: 0x181F2C4B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F2BCC0 Offset: 0x1F2A2C0 VA: 0x181F2BCC0
+	// RVA: 0x1F2BF80 Offset: 0x1F2A580 VA: 0x181F2BF80
 	public static LootableCorpse.Private Deserialize(byte[] buffer, LootableCorpse.Private instance, bool isDelta = False) { }
 
-	// RVA: 0x1F2BDC0 Offset: 0x1F2A3C0 VA: 0x181F2BDC0
+	// RVA: 0x1F2C080 Offset: 0x1F2A680 VA: 0x181F2C080
 	public static LootableCorpse.Private Deserialize(Stream stream, LootableCorpse.Private instance, bool isDelta) { }
 
-	// RVA: 0x1F2B6C0 Offset: 0x1F29CC0 VA: 0x181F2B6C0
+	// RVA: 0x1F2B980 Offset: 0x1F29F80 VA: 0x181F2B980
 	public static LootableCorpse.Private DeserializeLengthDelimited(Stream stream, LootableCorpse.Private instance, bool isDelta) { }
 
-	// RVA: 0x1F2B990 Offset: 0x1F29F90 VA: 0x181F2B990
+	// RVA: 0x1F2BC50 Offset: 0x1F2A250 VA: 0x181F2BC50
 	public static LootableCorpse.Private DeserializeLength(Stream stream, int length, LootableCorpse.Private instance, bool isDelta) { }
 
-	// RVA: 0x1F2C570 Offset: 0x1F2AB70 VA: 0x181F2C570
+	// RVA: 0x1F2C830 Offset: 0x1F2AE30 VA: 0x181F2C830
 	public static void SerializeDelta(Stream stream, LootableCorpse.Private instance, LootableCorpse.Private previous) { }
 
-	// RVA: 0x1F2C910 Offset: 0x1F2AF10 VA: 0x181F2C910
+	// RVA: 0x1F2CBD0 Offset: 0x1F2B1D0 VA: 0x181F2CBD0
 	public static void Serialize(Stream stream, LootableCorpse.Private instance) { }
 
-	// RVA: 0x1F2CAF0 Offset: 0x1F2B0F0 VA: 0x181F2CAF0
+	// RVA: 0x1F2CDB0 Offset: 0x1F2B3B0 VA: 0x181F2CDB0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F2CB00 Offset: 0x1F2B100 VA: 0x181F2CB00
+	// RVA: 0x1F2CDC0 Offset: 0x1F2B3C0 VA: 0x181F2CDC0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F2C800 Offset: 0x1F2AE00 VA: 0x181F2C800
+	// RVA: 0x1F2CAC0 Offset: 0x1F2B0C0 VA: 0x181F2CAC0
 	public static byte[] SerializeToBytes(LootableCorpse.Private instance) { }
 
-	// RVA: 0x1F2C750 Offset: 0x1F2AD50 VA: 0x181F2C750
+	// RVA: 0x1F2CA10 Offset: 0x1F2B010 VA: 0x181F2CA10
 	public static void SerializeLengthDelimited(Stream stream, LootableCorpse.Private instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

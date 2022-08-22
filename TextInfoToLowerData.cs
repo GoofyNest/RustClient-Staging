@@ -12,7 +12,7 @@ internal static class TextInfoToLowerData // TypeDefIndex: 740
 
 	// Methods
 
-	// RVA: 0x1387AC0 Offset: 0x13860C0 VA: 0x181387AC0
+	// RVA: 0x1387D80 Offset: 0x1386380 VA: 0x181387D80
 	private static void .cctor() { }
 
 }

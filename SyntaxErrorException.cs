@@ -1,13 +1,13 @@
 public class SyntaxErrorException : InvalidExpressionException // TypeDefIndex: 4257
 {	// Methods
 
-	// RVA: 0xCCC710 Offset: 0xCCAD10 VA: 0x180CCC710
+	// RVA: 0xCCC9D0 Offset: 0xCCAFD0 VA: 0x180CCC9D0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xCCC700 Offset: 0xCCAD00 VA: 0x180CCC700
+	// RVA: 0xCCC9C0 Offset: 0xCCAFC0 VA: 0x180CCC9C0
 	public void .ctor() { }
 
-	// RVA: 0xCCC790 Offset: 0xCCAD90 VA: 0x180CCC790
+	// RVA: 0xCCCA50 Offset: 0xCCB050 VA: 0x180CCCA50
 	public void .ctor(string s) { }
 
 }

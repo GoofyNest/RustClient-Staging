@@ -4,10 +4,10 @@ public class MonitoringDescriptionAttribute : DescriptionAttribute // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x172C3E0 Offset: 0x172A9E0 VA: 0x18172C3E0
+	// RVA: 0x172C6A0 Offset: 0x172ACA0 VA: 0x18172C6A0
 	public void .ctor(string description) { }
 
-	// RVA: 0x172C450 Offset: 0x172AA50 VA: 0x18172C450 Slot: 7
+	// RVA: 0x172C710 Offset: 0x172AD10 VA: 0x18172C710 Slot: 7
 	public override string get_Description() { }
 
 }

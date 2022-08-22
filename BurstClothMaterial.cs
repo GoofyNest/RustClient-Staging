@@ -39,58 +39,58 @@ public class BurstClothMaterial : ScriptableObject // TypeDefIndex: 7312
 
 	// Methods
 
-	// RVA: 0x7746B0 Offset: 0x772CB0 VA: 0x1807746B0
+	// RVA: 0x7747C0 Offset: 0x772DC0 VA: 0x1807747C0
 	public float get_Damping() { }
 
-	// RVA: 0x2239050 Offset: 0x2237650 VA: 0x182239050
+	// RVA: 0x2239310 Offset: 0x2237910 VA: 0x182239310
 	public void set_Damping(float value) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public AnimationCurve get_DampingCurve() { }
 
-	// RVA: 0x862A20 Offset: 0x861020 VA: 0x180862A20
+	// RVA: 0x862B30 Offset: 0x861130 VA: 0x180862B30
 	public float get_Stiffness() { }
 
-	// RVA: 0x22391A0 Offset: 0x22377A0 VA: 0x1822391A0
+	// RVA: 0x2239460 Offset: 0x2237A60 VA: 0x182239460
 	public void set_Stiffness(float value) { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	public AnimationCurve get_StiffnessCurve() { }
 
-	// RVA: 0x10B7E20 Offset: 0x10B6420 VA: 0x1810B7E20
+	// RVA: 0x10B80E0 Offset: 0x10B66E0 VA: 0x1810B80E0
 	public float get_Resistance() { }
 
-	// RVA: 0x22390C0 Offset: 0x22376C0 VA: 0x1822390C0
+	// RVA: 0x2239380 Offset: 0x2237980 VA: 0x182239380
 	public void set_Resistance(float value) { }
 
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
 	public AnimationCurve get_ResistanceCurve() { }
 
-	// RVA: 0x6F0650 Offset: 0x6EEC50 VA: 0x1806F0650
+	// RVA: 0x6F0760 Offset: 0x6EED60 VA: 0x1806F0760
 	public float get_Slackness() { }
 
-	// RVA: 0x2239130 Offset: 0x2237730 VA: 0x182239130
+	// RVA: 0x22393F0 Offset: 0x22379F0 VA: 0x1822393F0
 	public void set_Slackness(float value) { }
 
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
 	public AnimationCurve get_SlacknessCurve() { }
 
-	// RVA: 0x2238F80 Offset: 0x2237580 VA: 0x182238F80
+	// RVA: 0x2239240 Offset: 0x2237840 VA: 0x182239240
 	public static BurstClothMaterial get_DefaultMaterial() { }
 
-	// RVA: 0x2238D90 Offset: 0x2237390 VA: 0x182238D90
+	// RVA: 0x2239050 Offset: 0x2237650 VA: 0x182239050
 	public float GetDamping(float t) { }
 
-	// RVA: 0x2238E50 Offset: 0x2237450 VA: 0x182238E50
+	// RVA: 0x2239110 Offset: 0x2237710 VA: 0x182239110
 	public float GetStiffness(float t) { }
 
-	// RVA: 0x2238DD0 Offset: 0x22373D0 VA: 0x182238DD0
+	// RVA: 0x2239090 Offset: 0x2237690 VA: 0x182239090
 	public float GetResistance(float t) { }
 
-	// RVA: 0x2238E10 Offset: 0x2237410 VA: 0x182238E10
+	// RVA: 0x22390D0 Offset: 0x22376D0 VA: 0x1822390D0
 	public float GetSlackness(float t) { }
 
-	// RVA: 0x2238E90 Offset: 0x2237490 VA: 0x182238E90
+	// RVA: 0x2239150 Offset: 0x2237750 VA: 0x182239150
 	public void .ctor() { }
 
 }

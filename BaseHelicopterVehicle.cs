@@ -39,29 +39,29 @@ public class BaseHelicopterVehicle : BaseVehicle // TypeDefIndex: 8325
 
 	// Methods
 
-	// RVA: 0xA3EEC0 Offset: 0xA3D4C0 VA: 0x180A3EEC0 Slot: 49
+	// RVA: 0xA3F180 Offset: 0xA3D780 VA: 0x180A3F180 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xA3FBF0 Offset: 0xA3E1F0 VA: 0x180A3FBF0 Slot: 50
+	// RVA: 0xA3FEB0 Offset: 0xA3E4B0 VA: 0x180A3FEB0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xA3F470 Offset: 0xA3DA70 VA: 0x180A3F470 Slot: 194
+	// RVA: 0xA3F730 Offset: 0xA3DD30 VA: 0x180A3F730 Slot: 194
 	public virtual void UpdateEffects() { }
 
-	// RVA: 0xA3EE20 Offset: 0xA3D420 VA: 0x180A3EE20 Slot: 14
+	// RVA: 0xA3F0E0 Offset: 0xA3D6E0 VA: 0x180A3F0E0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xA3F1E0 Offset: 0xA3D7E0 VA: 0x180A3F1E0
+	// RVA: 0xA3F4A0 Offset: 0xA3DAA0 VA: 0x180A3F4A0
 	public void InitializeClientsideEffects() { }
 
 	[BaseEntity.Menu] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
 	[BaseEntity.Menu.Description] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
 	[BaseEntity.Menu.Icon] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
-	// RVA: 0xA3F430 Offset: 0xA3DA30 VA: 0x180A3F430 Slot: 195
+	// RVA: 0xA3F6F0 Offset: 0xA3DCF0 VA: 0x180A3F6F0 Slot: 195
 	public virtual void Menu_Push(BasePlayer player) { }
 
-	// RVA: 0xA3FB80 Offset: 0xA3E180 VA: 0x180A3FB80
+	// RVA: 0xA3FE40 Offset: 0xA3E440 VA: 0x180A3FE40
 	public void .ctor() { }
 
 }
@@ -76,7 +76,7 @@ public class BaseHelicopterVehicle.HelicopterInputState // TypeDefIndex: 8326
 
 	// Methods
 
-	// RVA: 0xA542F0 Offset: 0xA528F0 VA: 0x180A542F0
+	// RVA: 0xA545B0 Offset: 0xA52BB0 VA: 0x180A545B0
 	public void Reset() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

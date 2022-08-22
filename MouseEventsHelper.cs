@@ -11,7 +11,7 @@ internal static class MouseEventsHelper // TypeDefIndex: 4682
 	|-MouseEventsHelper.SendEnterLeave<MouseLeaveEvent, MouseEnterEvent>
 	*/
 
-	// RVA: 0xEB4660 Offset: 0xEB2C60 VA: 0x180EB4660
+	// RVA: 0xEB4920 Offset: 0xEB2F20 VA: 0x180EB4920
 	internal static void SendMouseOverMouseOut(VisualElement previousTopElementUnderMouse, VisualElement currentTopElementUnderMouse, IMouseEvent triggerEvent, Vector2 mousePosition) { }
 
 }

@@ -7,19 +7,19 @@ public class VisualStorageContainer : LootContainer // TypeDefIndex: 9615
 
 	// Methods
 
-	// RVA: 0x7FDA30 Offset: 0x7FC030 VA: 0x1807FDA30
+	// RVA: 0x7FDB40 Offset: 0x7FC140 VA: 0x1807FDB40
 	public void ClearRigidBodies() { }
 
-	// RVA: 0x7FDBE0 Offset: 0x7FC1E0 VA: 0x1807FDBE0
+	// RVA: 0x7FDCF0 Offset: 0x7FC2F0 VA: 0x1807FDCF0
 	public void SetItemsVisible(bool vis) { }
 
-	// RVA: 0x7FDB00 Offset: 0x7FC100 VA: 0x1807FDB00
+	// RVA: 0x7FDC10 Offset: 0x7FC210 VA: 0x1807FDC10
 	public void ItemUpdateComplete() { }
 
-	// RVA: 0x7FDE00 Offset: 0x7FC400 VA: 0x1807FDE00
+	// RVA: 0x7FDF10 Offset: 0x7FC510 VA: 0x1807FDF10
 	public void UpdateVisibleItems(ItemContainer msg) { }
 
-	// RVA: 0x754D70 Offset: 0x753370 VA: 0x180754D70
+	// RVA: 0x754E80 Offset: 0x753480 VA: 0x180754E80
 	public void .ctor() { }
 
 }

@@ -7,19 +7,19 @@ internal class NtlmClient : IAuthenticationModule // TypeDefIndex: 2560
 
 	// Methods
 
-	// RVA: 0x121B240 Offset: 0x1219840 VA: 0x18121B240 Slot: 4
+	// RVA: 0x121B500 Offset: 0x1219B00 VA: 0x18121B500 Slot: 4
 	public Authorization Authenticate(string challenge, WebRequest webRequest, ICredentials credentials) { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
 	public Authorization PreAuthenticate(WebRequest webRequest, ICredentials credentials) { }
 
-	// RVA: 0x121B640 Offset: 0x1219C40 VA: 0x18121B640 Slot: 6
+	// RVA: 0x121B900 Offset: 0x1219F00 VA: 0x18121B900 Slot: 6
 	public string get_AuthenticationType() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x121B5E0 Offset: 0x1219BE0 VA: 0x18121B5E0
+	// RVA: 0x121B8A0 Offset: 0x1219EA0 VA: 0x18121B8A0
 	private static void .cctor() { }
 
 }
@@ -31,13 +31,13 @@ private sealed class NtlmClient.<>c // TypeDefIndex: 2561
 
 	// Methods
 
-	// RVA: 0x121E150 Offset: 0x121C750 VA: 0x18121E150
+	// RVA: 0x121E410 Offset: 0x121CA10 VA: 0x18121E410
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x121DD00 Offset: 0x121C300 VA: 0x18121DD00
+	// RVA: 0x121DFC0 Offset: 0x121C5C0 VA: 0x18121DFC0
 	internal NtlmSession <Authenticate>b__1_0(HttpWebRequest x) { }
 
 }
@@ -51,16 +51,16 @@ internal class NtlmClient : IAuthenticationModule // TypeDefIndex: 3017
 
 	// Methods
 
-	// RVA: 0x1348680 Offset: 0x1346C80 VA: 0x181348680
+	// RVA: 0x1348940 Offset: 0x1346F40 VA: 0x181348940
 	public void .ctor() { }
 
-	// RVA: 0x13485A0 Offset: 0x1346BA0 VA: 0x1813485A0 Slot: 4
+	// RVA: 0x1348860 Offset: 0x1346E60 VA: 0x181348860 Slot: 4
 	public Authorization Authenticate(string challenge, WebRequest webRequest, ICredentials credentials) { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
 	public Authorization PreAuthenticate(WebRequest webRequest, ICredentials credentials) { }
 
-	// RVA: 0x13486F0 Offset: 0x1346CF0 VA: 0x1813486F0 Slot: 6
+	// RVA: 0x13489B0 Offset: 0x1346FB0 VA: 0x1813489B0 Slot: 6
 	public string get_AuthenticationType() { }
 
 }

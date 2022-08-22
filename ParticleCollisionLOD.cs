@@ -5,16 +5,16 @@ public class ParticleCollisionLOD : LODComponentParticleSystem // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x85C210 Offset: 0x85A810 VA: 0x18085C210
+	// RVA: 0x85C320 Offset: 0x85A920 VA: 0x18085C320
 	private void UpdateLOD(int newlod) { }
 
-	// RVA: 0x85C1B0 Offset: 0x85A7B0 VA: 0x18085C1B0 Slot: 12
+	// RVA: 0x85C2C0 Offset: 0x85A8C0 VA: 0x18085C2C0 Slot: 12
 	protected override void SetLOD(int newlod) { }
 
-	// RVA: 0x85C110 Offset: 0x85A710 VA: 0x18085C110 Slot: 11
+	// RVA: 0x85C220 Offset: 0x85A820 VA: 0x18085C220 Slot: 11
 	protected override int GetLOD(float distance) { }
 
-	// RVA: 0x85C2F0 Offset: 0x85A8F0 VA: 0x18085C2F0
+	// RVA: 0x85C400 Offset: 0x85AA00 VA: 0x18085C400
 	public void .ctor() { }
 
 }
@@ -36,7 +36,7 @@ public class ParticleCollisionLOD.State // TypeDefIndex: 9948
 
 	// Methods
 
-	// RVA: 0x8753B0 Offset: 0x8739B0 VA: 0x1808753B0
+	// RVA: 0x8754C0 Offset: 0x873AC0 VA: 0x1808754C0
 	public void .ctor() { }
 
 }

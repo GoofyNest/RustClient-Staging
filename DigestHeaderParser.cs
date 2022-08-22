@@ -18,37 +18,37 @@ internal class DigestHeaderParser // TypeDefIndex: 2992
 
 	// Methods
 
-	// RVA: 0x152DC20 Offset: 0x152C220 VA: 0x18152DC20
+	// RVA: 0x152DEE0 Offset: 0x152C4E0 VA: 0x18152DEE0
 	public void .ctor(string header) { }
 
-	// RVA: 0x152DDE0 Offset: 0x152C3E0 VA: 0x18152DDE0
+	// RVA: 0x152E0A0 Offset: 0x152C6A0 VA: 0x18152E0A0
 	public string get_Realm() { }
 
-	// RVA: 0x152DD60 Offset: 0x152C360 VA: 0x18152DD60
+	// RVA: 0x152E020 Offset: 0x152C620 VA: 0x18152E020
 	public string get_Opaque() { }
 
-	// RVA: 0x152DD20 Offset: 0x152C320 VA: 0x18152DD20
+	// RVA: 0x152DFE0 Offset: 0x152C5E0 VA: 0x18152DFE0
 	public string get_Nonce() { }
 
-	// RVA: 0x152DCE0 Offset: 0x152C2E0 VA: 0x18152DCE0
+	// RVA: 0x152DFA0 Offset: 0x152C5A0 VA: 0x18152DFA0
 	public string get_Algorithm() { }
 
-	// RVA: 0x152DDA0 Offset: 0x152C3A0 VA: 0x18152DDA0
+	// RVA: 0x152E060 Offset: 0x152C660 VA: 0x18152E060
 	public string get_QOP() { }
 
-	// RVA: 0x152D710 Offset: 0x152BD10 VA: 0x18152D710
+	// RVA: 0x152D9D0 Offset: 0x152BFD0 VA: 0x18152D9D0
 	public bool Parse() { }
 
-	// RVA: 0x152D950 Offset: 0x152BF50 VA: 0x18152D950
+	// RVA: 0x152DC10 Offset: 0x152C210 VA: 0x18152DC10
 	private void SkipWhitespace() { }
 
-	// RVA: 0x152D420 Offset: 0x152BA20 VA: 0x18152D420
+	// RVA: 0x152D6E0 Offset: 0x152BCE0 VA: 0x18152D6E0
 	private string GetKey() { }
 
-	// RVA: 0x152D4B0 Offset: 0x152BAB0 VA: 0x18152D4B0
+	// RVA: 0x152D770 Offset: 0x152BD70 VA: 0x18152D770
 	private bool GetKeywordAndValue(out string key, out string value) { }
 
-	// RVA: 0x152D9C0 Offset: 0x152BFC0 VA: 0x18152D9C0
+	// RVA: 0x152DC80 Offset: 0x152C280 VA: 0x18152DC80
 	private static void .cctor() { }
 
 }

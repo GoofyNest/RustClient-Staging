@@ -23,7 +23,7 @@ public class ErrorContext // TypeDefIndex: 6002
 
 	// Methods
 
-	// RVA: 0x13EFDD0 Offset: 0x13EE3D0 VA: 0x1813EFDD0
+	// RVA: 0x13F0090 Offset: 0x13EE690 VA: 0x1813F0090
 	internal void .ctor(object originalObject, object member, string path, Exception error) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -47,7 +47,7 @@ public class ErrorContext // TypeDefIndex: 6002
 	private void set_OriginalObject(object value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	private void set_Member(object value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -55,7 +55,7 @@ public class ErrorContext // TypeDefIndex: 6002
 	private void set_Path(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1040 Offset: 0x8BF640 VA: 0x1808C1040
+	// RVA: 0x8C1150 Offset: 0x8BF750 VA: 0x1808C1150
 	public bool get_Handled() { }
 
 }

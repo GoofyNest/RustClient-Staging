@@ -8,16 +8,16 @@ public sealed class HttpContentHeaders : HttpHeaders // TypeDefIndex: 5772
 
 	// Methods
 
-	// RVA: 0x108A770 Offset: 0x1088D70 VA: 0x18108A770
+	// RVA: 0x108AA30 Offset: 0x1089030 VA: 0x18108AA30
 	internal void .ctor(HttpContent content) { }
 
-	// RVA: 0x108A7F0 Offset: 0x1088DF0 VA: 0x18108A7F0
+	// RVA: 0x108AAB0 Offset: 0x10890B0 VA: 0x18108AAB0
 	public Nullable<long> get_ContentLength() { }
 
-	// RVA: 0x108A990 Offset: 0x1088F90 VA: 0x18108A990
+	// RVA: 0x108AC50 Offset: 0x1089250 VA: 0x18108AC50
 	public MediaTypeHeaderValue get_ContentType() { }
 
-	// RVA: 0x108A9D0 Offset: 0x1088FD0 VA: 0x18108A9D0
+	// RVA: 0x108AC90 Offset: 0x1089290 VA: 0x18108AC90
 	public void set_ContentType(MediaTypeHeaderValue value) { }
 
 }

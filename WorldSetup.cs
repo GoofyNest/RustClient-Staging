@@ -15,23 +15,23 @@ public class WorldSetup : SingletonComponent<WorldSetup> // TypeDefIndex: 10571
 
 	// Methods
 
-	// RVA: 0x902CA0 Offset: 0x9012A0 VA: 0x180902CA0
+	// RVA: 0x902DB0 Offset: 0x9013B0 VA: 0x180902DB0
 	private void OnValidate() { }
 
-	// RVA: 0x902660 Offset: 0x900C60 VA: 0x180902660 Slot: 6
+	// RVA: 0x902770 Offset: 0x900D70 VA: 0x180902770 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x902B70 Offset: 0x901170 VA: 0x180902B70
+	// RVA: 0x902C80 Offset: 0x901280 VA: 0x180902C80
 	protected void CreateObject(GameObject prefab) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xDB980 Offset: 0xDAD80 VA: 0x1800DB980
-	// RVA: 0x902C30 Offset: 0x901230 VA: 0x180902C30
+	// RVA: 0x902D40 Offset: 0x901340 VA: 0x180902D40
 	public IEnumerator InitCoroutine() { }
 
-	// RVA: 0x902B10 Offset: 0x901110 VA: 0x180902B10
+	// RVA: 0x902C20 Offset: 0x901220 VA: 0x180902C20
 	private void CancelSetup(string msg) { }
 
-	// RVA: 0x902D70 Offset: 0x901370 VA: 0x180902D70
+	// RVA: 0x902E80 Offset: 0x901480 VA: 0x180902E80
 	public void .ctor() { }
 
 }
@@ -44,16 +44,16 @@ private sealed class WorldSetup.<>c // TypeDefIndex: 10572
 
 	// Methods
 
-	// RVA: 0x8EE180 Offset: 0x8EC780 VA: 0x1808EE180
+	// RVA: 0x8EE290 Offset: 0x8EC890 VA: 0x1808EE290
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8EDFB0 Offset: 0x8EC5B0 VA: 0x1808EDFB0
+	// RVA: 0x8EE0C0 Offset: 0x8EC6C0 VA: 0x1808EE0C0
 	internal void <InitCoroutine>b__15_0(string str) { }
 
-	// RVA: 0x8EDFB0 Offset: 0x8EC5B0 VA: 0x1808EDFB0
+	// RVA: 0x8EE0C0 Offset: 0x8EC6C0 VA: 0x1808EE0C0
 	internal void <InitCoroutine>b__15_1(string str) { }
 
 }
@@ -93,7 +93,7 @@ private sealed class WorldSetup.<InitCoroutine>d__15 : IEnumerator<object>, IEnu
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x8E96C0 Offset: 0x8E7CC0 VA: 0x1808E96C0 Slot: 6
+	// RVA: 0x8E97D0 Offset: 0x8E7DD0 VA: 0x1808E97D0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -101,7 +101,7 @@ private sealed class WorldSetup.<InitCoroutine>d__15 : IEnumerator<object>, IEnu
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8EC720 Offset: 0x8EAD20 VA: 0x1808EC720 Slot: 8
+	// RVA: 0x8EC830 Offset: 0x8EAE30 VA: 0x1808EC830 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

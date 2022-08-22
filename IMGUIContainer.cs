@@ -35,61 +35,61 @@ public class IMGUIContainer : VisualElement // TypeDefIndex: 4591
 
 	// Methods
 
-	// RVA: 0xEB1C20 Offset: 0xEB0220 VA: 0x180EB1C20
+	// RVA: 0xEB1EE0 Offset: 0xEB04E0 VA: 0x180EB1EE0
 	public Action get_onGUIHandler() { }
 
-	// RVA: 0xEB1A40 Offset: 0xEB0040 VA: 0x180EB1A40
+	// RVA: 0xEB1D00 Offset: 0xEB0300 VA: 0x180EB1D00
 	internal ObjectGUIState get_guiState() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEB1AF0 Offset: 0xEB00F0 VA: 0x180EB1AF0
+	// RVA: 0xEB1DB0 Offset: 0xEB03B0 VA: 0x180EB1DB0
 	internal Rect get_lastWorldClip() { }
 
-	// RVA: 0xEB19B0 Offset: 0xEAFFB0 VA: 0x180EB19B0
+	// RVA: 0xEB1C70 Offset: 0xEB0270 VA: 0x180EB1C70
 	private GUILayoutUtility.LayoutCache get_cache() { }
 
-	// RVA: 0xEB1B90 Offset: 0xEB0190 VA: 0x180EB1B90
+	// RVA: 0xEB1E50 Offset: 0xEB0450 VA: 0x180EB1E50
 	private float get_layoutMeasuredWidth() { }
 
-	// RVA: 0xEB1B00 Offset: 0xEB0100 VA: 0x180EB1B00
+	// RVA: 0xEB1DC0 Offset: 0xEB03C0 VA: 0x180EB1DC0
 	private float get_layoutMeasuredHeight() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEB1A30 Offset: 0xEB0030 VA: 0x180EB1A30
+	// RVA: 0xEB1CF0 Offset: 0xEB02F0 VA: 0x180EB1CF0
 	public ContextType get_contextType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDB3FC0 Offset: 0xDB25C0 VA: 0x180DB3FC0
+	// RVA: 0xDB4280 Offset: 0xDB2880 VA: 0x180DB4280
 	internal bool get_focusOnlyIfHasFocusableControls() { }
 
-	// RVA: 0xEB1760 Offset: 0xEAFD60 VA: 0x180EB1760
+	// RVA: 0xEB1A20 Offset: 0xEB0020 VA: 0x180EB1A20
 	private void SaveGlobals() { }
 
-	// RVA: 0xEB1610 Offset: 0xEAFC10 VA: 0x180EB1610
+	// RVA: 0xEB18D0 Offset: 0xEAFED0 VA: 0x180EB18D0
 	private void RestoreGlobals() { }
 
-	// RVA: 0xEAFDA0 Offset: 0xEAE3A0 VA: 0x180EAFDA0
+	// RVA: 0xEB0060 Offset: 0xEAE660 VA: 0x180EB0060
 	private void DoOnGUI(Event evt, Matrix4x4 parentTransform, Rect clippingRect, bool isComputingLayout, Rect layoutSize, Action onGUIHandler, bool canAffectFocus = True) { }
 
-	// RVA: 0xEB15E0 Offset: 0xEAFBE0 VA: 0x180EB15E0
+	// RVA: 0xEB18A0 Offset: 0xEAFEA0 VA: 0x180EB18A0
 	public void MarkDirtyLayout() { }
 
-	// RVA: 0xEB1870 Offset: 0xEAFE70 VA: 0x180EB1870
+	// RVA: 0xEB1B30 Offset: 0xEB0130 VA: 0x180EB1B30
 	internal bool SendEventToIMGUI(EventBase evt, bool canAffectFocus = True) { }
 
-	// RVA: 0xEB14D0 Offset: 0xEAFAD0 VA: 0x180EB14D0
+	// RVA: 0xEB1790 Offset: 0xEAFD90 VA: 0x180EB1790
 	internal bool HandleIMGUIEvent(Event e, bool canAffectFocus) { }
 
-	// RVA: 0xEB0F80 Offset: 0xEAF580 VA: 0x180EB0F80
+	// RVA: 0xEB1240 Offset: 0xEAF840 VA: 0x180EB1240
 	internal bool HandleIMGUIEvent(Event e, Action onGUIHandler, bool canAffectFocus) { }
 
-	// RVA: 0xEB1090 Offset: 0xEAF690 VA: 0x180EB1090
+	// RVA: 0xEB1350 Offset: 0xEAF950 VA: 0x180EB1350
 	private bool HandleIMGUIEvent(Event e, Matrix4x4 worldTransform, Rect clippingRect, Action onGUIHandler, bool canAffectFocus) { }
 
-	// RVA: 0xEB0BE0 Offset: 0xEAF1E0 VA: 0x180EB0BE0
+	// RVA: 0xEB0EA0 Offset: 0xEAF4A0 VA: 0x180EB0EA0
 	private static void GetCurrentTransformAndClip(IMGUIContainer container, Event evt, out Matrix4x4 transform, out Rect clipRect) { }
 
-	// RVA: 0xEB1970 Offset: 0xEAFF70 VA: 0x180EB1970
+	// RVA: 0xEB1C30 Offset: 0xEB0230 VA: 0x180EB1C30
 	private static void .cctor() { }
 
 }

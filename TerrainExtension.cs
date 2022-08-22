@@ -6,7 +6,7 @@ public abstract class TerrainExtension : MonoBehaviour // TypeDefIndex: 10389
 
 	// Methods
 
-	// RVA: 0x7F95C0 Offset: 0x7F7BC0 VA: 0x1807F95C0
+	// RVA: 0x7F96D0 Offset: 0x7F7CD0 VA: 0x1807F96D0
 	public void Init(Terrain terrain, TerrainConfig config) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4
@@ -15,7 +15,7 @@ public abstract class TerrainExtension : MonoBehaviour // TypeDefIndex: 10389
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	public virtual void PostSetup() { }
 
-	// RVA: 0x113F9C0 Offset: 0x113DFC0 VA: 0x18113F9C0
+	// RVA: 0x113FC80 Offset: 0x113E280 VA: 0x18113FC80
 	public void LogSize(object obj, ulong size) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

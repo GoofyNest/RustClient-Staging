@@ -7,7 +7,7 @@ public sealed class TypeForwardedFromAttribute : Attribute // TypeDefIndex: 1296
 
 	// Methods
 
-	// RVA: 0xFF6700 Offset: 0xFF4D00 VA: 0x180FF6700
+	// RVA: 0xFF69C0 Offset: 0xFF4FC0 VA: 0x180FF69C0
 	public void .ctor(string assemblyFullName) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0

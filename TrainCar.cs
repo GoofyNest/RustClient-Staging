@@ -90,110 +90,110 @@ public class TrainCar : BaseVehicle, IGenericLerpTarget<TrainCar.TrainCarSnapsho
 
 	// Methods
 
-	// RVA: 0xA0EEA0 Offset: 0xA0D4A0 VA: 0x180A0EEA0 Slot: 49
+	// RVA: 0xA0F160 Offset: 0xA0D760 VA: 0x180A0F160 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xA10B00 Offset: 0xA0F100 VA: 0x180A10B00 Slot: 50
+	// RVA: 0xA10DC0 Offset: 0xA0F3C0 VA: 0x180A10DC0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xA0F850 Offset: 0xA0DE50 VA: 0x180A0F850 Slot: 35
+	// RVA: 0xA0FB10 Offset: 0xA0E110 VA: 0x180A0FB10 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA0EDE0 Offset: 0xA0D3E0 VA: 0x180A0EDE0 Slot: 14
+	// RVA: 0xA0F0A0 Offset: 0xA0D6A0 VA: 0x180A0F0A0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xA0E870 Offset: 0xA0CE70 VA: 0x180A0E870 Slot: 199
+	// RVA: 0xA0EB30 Offset: 0xA0D130 VA: 0x180A0EB30 Slot: 199
 	protected virtual void ClientFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0xA10470 Offset: 0xA0EA70 VA: 0x180A10470
+	// RVA: 0xA10730 Offset: 0xA0ED30 VA: 0x180A10730
 	private void StartClientTick() { }
 
-	// RVA: 0xA10580 Offset: 0xA0EB80 VA: 0x180A10580 Slot: 200
+	// RVA: 0xA10840 Offset: 0xA0EE40 VA: 0x180A10840 Slot: 200
 	protected virtual void StopClientTick() { }
 
-	// RVA: 0xA10620 Offset: 0xA0EC20 VA: 0x180A10620 Slot: 201
+	// RVA: 0xA108E0 Offset: 0xA0EEE0 VA: 0x180A108E0 Slot: 201
 	protected virtual void TrainClientTick() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 202
 	protected virtual bool UpdateBraking(float forwardSpeed) { }
 
-	// RVA: 0xA0F1B0 Offset: 0xA0D7B0 VA: 0x180A0F1B0
+	// RVA: 0xA0F470 Offset: 0xA0DA70 VA: 0x180A0F470
 	private void InitAnimInterpolator() { }
 
-	// RVA: 0xA0E620 Offset: 0xA0CC20 VA: 0x180A0E620
+	// RVA: 0xA0E8E0 Offset: 0xA0CEE0 VA: 0x180A0E8E0
 	private void AddSnapshot(float time, float frontBogieYRot, float rearBogieYRot) { }
 
-	// RVA: 0xA10780 Offset: 0xA0ED80 VA: 0x180A10780
+	// RVA: 0xA10A40 Offset: 0xA0F040 VA: 0x180A10A40
 	private void UpdateWheelVisuals(Vector3 localVelocity, float frontBogieYRot, float rearBogieYRot) { }
 
-	// RVA: 0xA103A0 Offset: 0xA0E9A0 VA: 0x180A103A0 Slot: 194
+	// RVA: 0xA10660 Offset: 0xA0EC60 VA: 0x180A10660 Slot: 194
 	public void SetFrom(TrainCar.TrainCarSnapshot snapshot) { }
 
-	// RVA: 0xA0EE20 Offset: 0xA0D420 VA: 0x180A0EE20 Slot: 195
+	// RVA: 0xA0F0E0 Offset: 0xA0D6E0 VA: 0x180A0F0E0 Slot: 195
 	public TrainCar.TrainCarSnapshot GetCurrentState() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 196
 	public void DebugInterpolationState(Interpolator.Segment<TrainCar.TrainCarSnapshot> segment, List<TrainCar.TrainCarSnapshot> entries) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA10410 Offset: 0xA0EA10 VA: 0x180A10410
+	// RVA: 0xA106D0 Offset: 0xA0ECD0 VA: 0x180A106D0
 	private void SetTrackSelection(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA0E7C0 Offset: 0xA0CDC0 VA: 0x180A0E7C0
+	// RVA: 0xA0EA80 Offset: 0xA0D080 VA: 0x180A0EA80
 	private void BaseTrainUpdate(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.Menu] // RVA: 0x93B10 Offset: 0x92F10 VA: 0x180093B10
 	[BaseEntity.Menu.Description] // RVA: 0x93B10 Offset: 0x92F10 VA: 0x180093B10
 	[BaseEntity.Menu.Icon] // RVA: 0x93B10 Offset: 0x92F10 VA: 0x180093B10
 	[BaseEntity.Menu.ShowIf] // RVA: 0x93B10 Offset: 0x92F10 VA: 0x180093B10
-	// RVA: 0xA0F6C0 Offset: 0xA0DCC0 VA: 0x180A0F6C0
+	// RVA: 0xA0F980 Offset: 0xA0DF80 VA: 0x180A0F980
 	public void Menu_Uncouple(BasePlayer player) { }
 
-	// RVA: 0xA0F530 Offset: 0xA0DB30 VA: 0x180A0F530 Slot: 203
+	// RVA: 0xA0F7F0 Offset: 0xA0DDF0 VA: 0x180A0F7F0 Slot: 203
 	public virtual bool Menu_Uncouple_ShowIf(BasePlayer player) { }
 
-	// RVA: 0xA10AF0 Offset: 0xA0F0F0 VA: 0x180A10AF0
+	// RVA: 0xA10DB0 Offset: 0xA0F3B0 VA: 0x180A10DB0
 	public TriggerTrainCollisions get_FrontCollisionTrigger() { }
 
-	// RVA: 0xA10BD0 Offset: 0xA0F1D0 VA: 0x180A10BD0
+	// RVA: 0xA10E90 Offset: 0xA0F490 VA: 0x180A10E90
 	public TriggerTrainCollisions get_RearCollisionTrigger() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 204
 	public virtual TrainCar.TrainCarType get_CarType() { }
 
-	// RVA: 0x738180 Offset: 0x736780 VA: 0x180738180
+	// RVA: 0x738290 Offset: 0x736890 VA: 0x180738290
 	public bool get_LinedUpToUnload() { }
 
-	// RVA: 0xA10030 Offset: 0xA0E630 VA: 0x180A10030 Slot: 84
+	// RVA: 0xA102F0 Offset: 0xA0E8F0 VA: 0x180A102F0 Slot: 84
 	public override void PreProcess(IPrefabProcessor process, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0xA0F240 Offset: 0xA0D840 VA: 0x180A0F240 Slot: 28
+	// RVA: 0xA0F500 Offset: 0xA0DB00 VA: 0x180A0F500 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0xA0F3B0 Offset: 0xA0D9B0 VA: 0x180A0F3B0 Slot: 34
+	// RVA: 0xA0F670 Offset: 0xA0DC70 VA: 0x180A0F670 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xA0F7F0 Offset: 0xA0DDF0 VA: 0x180A0F7F0 Slot: 80
+	// RVA: 0xA0FAB0 Offset: 0xA0E0B0 VA: 0x180A0FAB0 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 197
 	public bool CustomCollision(TrainCar train, TriggerTrainCollisions trainTrigger) { }
 
-	// RVA: 0x714180 Offset: 0x712780 VA: 0x180714180 Slot: 99
+	// RVA: 0x714290 Offset: 0x712890 VA: 0x180714290 Slot: 99
 	public override float InheritedVelocityScale() { }
 
-	// RVA: 0xA10460 Offset: 0xA0EA60 VA: 0x180A10460 Slot: 205
+	// RVA: 0xA10720 Offset: 0xA0ED20 VA: 0x180A10720 Slot: 205
 	protected virtual void SetTrackSelection(TrainTrackSpline.TrackSelection trackSelection) { }
 
-	// RVA: 0xA10A10 Offset: 0xA0F010 VA: 0x180A10A10
+	// RVA: 0xA10CD0 Offset: 0xA0F2D0 VA: 0x180A10CD0
 	public void .ctor() { }
 
-	// RVA: 0xA109B0 Offset: 0xA0EFB0 VA: 0x180A109B0
+	// RVA: 0xA10C70 Offset: 0xA0F270 VA: 0x180A10C70
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA106C0 Offset: 0xA0ECC0 VA: 0x180A106C0
+	// RVA: 0xA10980 Offset: 0xA0EF80 VA: 0x180A10980
 	private void <UpdateWheelVisuals>g__SetBogieRotation|18_0(Transform pivot, float yAngle, bool canRotate) { }
 
 }

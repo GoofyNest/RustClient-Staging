@@ -19,22 +19,22 @@ public sealed class Cloth : Component // TypeDefIndex: 4516
 
 	// Methods
 
-	// RVA: 0x2322AE0 Offset: 0x23210E0 VA: 0x182322AE0
+	// RVA: 0x2322DA0 Offset: 0x23213A0 VA: 0x182322DA0
 	public Vector3 get_externalAcceleration() { }
 
-	// RVA: 0x2322BD0 Offset: 0x23211D0 VA: 0x182322BD0
+	// RVA: 0x2322E90 Offset: 0x2321490 VA: 0x182322E90
 	public void set_externalAcceleration(Vector3 value) { }
 
-	// RVA: 0x2322B30 Offset: 0x2321130 VA: 0x182322B30
+	// RVA: 0x2322DF0 Offset: 0x23213F0 VA: 0x182322DF0
 	public void set_enabled(bool value) { }
 
-	// RVA: 0x2322A30 Offset: 0x2321030 VA: 0x182322A30
+	// RVA: 0x2322CF0 Offset: 0x23212F0 VA: 0x182322CF0
 	public void SetEnabledFading(bool enabled, float interpolationTime) { }
 
-	// RVA: 0x2322A90 Offset: 0x2321090 VA: 0x182322A90
+	// RVA: 0x2322D50 Offset: 0x2321350 VA: 0x182322D50
 	private void get_externalAcceleration_Injected(out Vector3 ret) { }
 
-	// RVA: 0x2322B80 Offset: 0x2321180 VA: 0x182322B80
+	// RVA: 0x2322E40 Offset: 0x2321440 VA: 0x182322E40
 	private void set_externalAcceleration_Injected(ref Vector3 value) { }
 
 }

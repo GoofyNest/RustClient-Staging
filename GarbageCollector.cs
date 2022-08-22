@@ -11,27 +11,27 @@ public static class GarbageCollector // TypeDefIndex: 3650
 
 	// Methods
 
-	// RVA: 0x19A9FA0 Offset: 0x19A85A0 VA: 0x1819A9FA0
+	// RVA: 0x19AA260 Offset: 0x19A8860 VA: 0x1819AA260
 	public static GarbageCollector.Mode get_GCMode() { }
 
-	// RVA: 0x19AA070 Offset: 0x19A8670 VA: 0x1819AA070
+	// RVA: 0x19AA330 Offset: 0x19A8930 VA: 0x1819AA330
 	public static void set_GCMode(GarbageCollector.Mode value) { }
 
 	[NativeThrowsAttribute] // RVA: 0x80B40 Offset: 0x7FF40 VA: 0x180080B40
-	// RVA: 0x19A9FD0 Offset: 0x19A85D0 VA: 0x1819A9FD0
+	// RVA: 0x19AA290 Offset: 0x19A8890 VA: 0x1819AA290
 	private static void SetMode(GarbageCollector.Mode mode) { }
 
-	// RVA: 0x19A9FA0 Offset: 0x19A85A0 VA: 0x1819A9FA0
+	// RVA: 0x19AA260 Offset: 0x19A8860 VA: 0x1819AA260
 	private static GarbageCollector.Mode GetMode() { }
 
 	[NativeMethodAttribute] // RVA: 0xE13E0 Offset: 0xE07E0 VA: 0x1800E13E0
-	// RVA: 0x19AA040 Offset: 0x19A8640 VA: 0x1819AA040
+	// RVA: 0x19AA300 Offset: 0x19A8900 VA: 0x1819AA300
 	public static bool get_isIncremental() { }
 
-	// RVA: 0x19AA010 Offset: 0x19A8610 VA: 0x1819AA010
+	// RVA: 0x19AA2D0 Offset: 0x19A88D0 VA: 0x1819AA2D0
 	public static ulong get_incrementalTimeSliceNanoseconds() { }
 
-	// RVA: 0x19AA110 Offset: 0x19A8710 VA: 0x1819AA110
+	// RVA: 0x19AA3D0 Offset: 0x19A89D0 VA: 0x1819AA3D0
 	public static void set_incrementalTimeSliceNanoseconds(ulong value) { }
 
 }

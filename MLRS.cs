@@ -10,82 +10,82 @@ public class MLRS : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6422
 
 	// Methods
 
-	// RVA: 0x1F27D90 Offset: 0x1F26390 VA: 0x181F27D90
+	// RVA: 0x1F28050 Offset: 0x1F26650 VA: 0x181F28050
 	public static void ResetToPool(MLRS instance) { }
 
-	// RVA: 0x1F27CD0 Offset: 0x1F262D0 VA: 0x181F27CD0
+	// RVA: 0x1F27F90 Offset: 0x1F26590 VA: 0x181F27F90
 	public void ResetToPool() { }
 
-	// RVA: 0x1F27920 Offset: 0x1F25F20 VA: 0x181F27920 Slot: 9
+	// RVA: 0x1F27BE0 Offset: 0x1F261E0 VA: 0x181F27BE0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F26610 Offset: 0x1F24C10 VA: 0x181F26610
+	// RVA: 0x1F268D0 Offset: 0x1F24ED0 VA: 0x181F268D0
 	public void CopyTo(MLRS instance) { }
 
-	// RVA: 0x1F26660 Offset: 0x1F24C60 VA: 0x181F26660
+	// RVA: 0x1F26920 Offset: 0x1F24F20 VA: 0x181F26920
 	public MLRS Copy() { }
 
-	// RVA: 0x1F26E10 Offset: 0x1F25410 VA: 0x181F26E10
+	// RVA: 0x1F270D0 Offset: 0x1F256D0 VA: 0x181F270D0
 	public static MLRS Deserialize(Stream stream) { }
 
-	// RVA: 0x1F26700 Offset: 0x1F24D00 VA: 0x181F26700
+	// RVA: 0x1F269C0 Offset: 0x1F24FC0 VA: 0x181F269C0
 	public static MLRS DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F26D80 Offset: 0x1F25380 VA: 0x181F26D80
+	// RVA: 0x1F27040 Offset: 0x1F25640 VA: 0x181F27040
 	public static MLRS DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F272E0 Offset: 0x1F258E0 VA: 0x181F272E0
+	// RVA: 0x1F275A0 Offset: 0x1F25BA0 VA: 0x181F275A0
 	public static MLRS Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F27A60 Offset: 0x1F26060 VA: 0x181F27A60
+	// RVA: 0x1F27D20 Offset: 0x1F26320 VA: 0x181F27D20
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F28770 Offset: 0x1F26D70 VA: 0x181F28770 Slot: 12
+	// RVA: 0x1F28A30 Offset: 0x1F27030 VA: 0x181F28A30 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F28790 Offset: 0x1F26D90 VA: 0x181F28790 Slot: 13
+	// RVA: 0x1F28A50 Offset: 0x1F27050 VA: 0x181F28A50 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, MLRS previous) { }
 
-	// RVA: 0x1F27CB0 Offset: 0x1F262B0 VA: 0x181F27CB0 Slot: 14
+	// RVA: 0x1F27F70 Offset: 0x1F26570 VA: 0x181F27F70 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F27610 Offset: 0x1F25C10 VA: 0x181F27610
+	// RVA: 0x1F278D0 Offset: 0x1F25ED0 VA: 0x181F278D0
 	public static MLRS Deserialize(byte[] buffer, MLRS instance, bool isDelta = False) { }
 
-	// RVA: 0x1F27090 Offset: 0x1F25690 VA: 0x181F27090
+	// RVA: 0x1F27350 Offset: 0x1F25950 VA: 0x181F27350
 	public static MLRS Deserialize(Stream stream, MLRS instance, bool isDelta) { }
 
-	// RVA: 0x1F26780 Offset: 0x1F24D80 VA: 0x181F26780
+	// RVA: 0x1F26A40 Offset: 0x1F25040 VA: 0x181F26A40
 	public static MLRS DeserializeLengthDelimited(Stream stream, MLRS instance, bool isDelta) { }
 
-	// RVA: 0x1F26A90 Offset: 0x1F25090 VA: 0x181F26A90
+	// RVA: 0x1F26D50 Offset: 0x1F25350 VA: 0x181F26D50
 	public static MLRS DeserializeLength(Stream stream, int length, MLRS instance, bool isDelta) { }
 
-	// RVA: 0x1F27E50 Offset: 0x1F26450 VA: 0x181F27E50
+	// RVA: 0x1F28110 Offset: 0x1F26710 VA: 0x181F28110
 	public static void SerializeDelta(Stream stream, MLRS instance, MLRS previous) { }
 
-	// RVA: 0x1F284B0 Offset: 0x1F26AB0 VA: 0x181F284B0
+	// RVA: 0x1F28770 Offset: 0x1F26D70 VA: 0x181F28770
 	public static void Serialize(Stream stream, MLRS instance) { }
 
-	// RVA: 0x1F28760 Offset: 0x1F26D60 VA: 0x181F28760
+	// RVA: 0x1F28A20 Offset: 0x1F27020 VA: 0x181F28A20
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F28770 Offset: 0x1F26D70 VA: 0x181F28770
+	// RVA: 0x1F28A30 Offset: 0x1F27030 VA: 0x181F28A30
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F283A0 Offset: 0x1F269A0 VA: 0x181F283A0
+	// RVA: 0x1F28660 Offset: 0x1F26C60 VA: 0x181F28660
 	public static byte[] SerializeToBytes(MLRS instance) { }
 
-	// RVA: 0x1F282F0 Offset: 0x1F268F0 VA: 0x181F282F0
+	// RVA: 0x1F285B0 Offset: 0x1F26BB0 VA: 0x181F285B0
 	public static void SerializeLengthDelimited(Stream stream, MLRS instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

@@ -37,19 +37,19 @@ public sealed class TemporalAntialiasing // TypeDefIndex: 11811
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11E2B10 Offset: 0x11E1110 VA: 0x1811E2B10
+	// RVA: 0x11E2DD0 Offset: 0x11E13D0 VA: 0x1811E2DD0
 	public Vector2 get_jitter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE72CC0 Offset: 0xE712C0 VA: 0x180E72CC0
+	// RVA: 0xE72F80 Offset: 0xE71580 VA: 0x180E72F80
 	private void set_jitter(Vector2 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC14FF0 Offset: 0xC135F0 VA: 0x180C14FF0
+	// RVA: 0xC152B0 Offset: 0xC138B0 VA: 0x180C152B0
 	public Vector2 get_jitterRaw() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC15030 Offset: 0xC13630 VA: 0x180C15030
+	// RVA: 0xC152F0 Offset: 0xC138F0 VA: 0x180C152F0
 	private void set_jitterRaw(Vector2 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -57,7 +57,7 @@ public sealed class TemporalAntialiasing // TypeDefIndex: 11811
 	public int get_sampleIndex() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C0D00 Offset: 0x8BF300 VA: 0x1808C0D00
+	// RVA: 0x8C0E10 Offset: 0x8BF410 VA: 0x1808C0E10
 	private void set_sampleIndex(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -68,40 +68,40 @@ public sealed class TemporalAntialiasing // TypeDefIndex: 11811
 	// RVA: 0x598430 Offset: 0x596A30 VA: 0x180598430
 	public void set_sampleCount(int value) { }
 
-	// RVA: 0x11E2200 Offset: 0x11E0800 VA: 0x1811E2200
+	// RVA: 0x11E24C0 Offset: 0x11E0AC0 VA: 0x1811E24C0
 	public bool IsSupported() { }
 
-	// RVA: 0x6F3500 Offset: 0x6F1B00 VA: 0x1806F3500
+	// RVA: 0x6F3610 Offset: 0x6F1C10 VA: 0x1806F3610
 	internal DepthTextureMode GetCameraFlags() { }
 
 	// RVA: 0x514CC0 Offset: 0x5132C0 VA: 0x180514CC0
 	internal void ResetHistory() { }
 
-	// RVA: 0x11E1D10 Offset: 0x11E0310 VA: 0x1811E1D10
+	// RVA: 0x11E1FD0 Offset: 0x11E05D0 VA: 0x1811E1FD0
 	private Vector2 GenerateRandomOffset() { }
 
-	// RVA: 0x11E1DA0 Offset: 0x11E03A0 VA: 0x1811E1DA0
+	// RVA: 0x11E2060 Offset: 0x11E0660 VA: 0x1811E2060
 	public Matrix4x4 GetJitteredProjectionMatrix(Camera camera) { }
 
-	// RVA: 0x11E1890 Offset: 0x11DFE90 VA: 0x1811E1890
+	// RVA: 0x11E1B50 Offset: 0x11E0150 VA: 0x1811E1B50
 	public void ConfigureJitteredProjectionMatrix(PostProcessRenderContext context) { }
 
-	// RVA: 0x11E1970 Offset: 0x11DFF70 VA: 0x1811E1970
+	// RVA: 0x11E1C30 Offset: 0x11E0230 VA: 0x1811E1C30
 	public void ConfigureStereoJitteredProjectionMatrices(PostProcessRenderContext context) { }
 
-	// RVA: 0x11E1C30 Offset: 0x11E0230 VA: 0x1811E1C30
+	// RVA: 0x11E1EF0 Offset: 0x11E04F0 VA: 0x1811E1EF0
 	private void GenerateHistoryName(RenderTexture rt, int id, PostProcessRenderContext context) { }
 
-	// RVA: 0x11E1020 Offset: 0x11DF620 VA: 0x1811E1020
+	// RVA: 0x11E12E0 Offset: 0x11DF8E0 VA: 0x1811E12E0
 	private RenderTexture CheckHistory(int id, PostProcessRenderContext context) { }
 
-	// RVA: 0x11E2430 Offset: 0x11E0A30 VA: 0x1811E2430
+	// RVA: 0x11E26F0 Offset: 0x11E0CF0 VA: 0x1811E26F0
 	internal void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x11E2240 Offset: 0x11E0840 VA: 0x1811E2240
+	// RVA: 0x11E2500 Offset: 0x11E0B00 VA: 0x1811E2500
 	internal void Release() { }
 
-	// RVA: 0x11E2A50 Offset: 0x11E1050 VA: 0x1811E2A50
+	// RVA: 0x11E2D10 Offset: 0x11E1310 VA: 0x1811E2D10
 	public void .ctor() { }
 
 }

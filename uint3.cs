@@ -15,7 +15,7 @@ public struct uint3 : IEquatable<uint3>, IFormattable // TypeDefIndex: 7116
 	// RVA: 0x20BE60 Offset: 0x20B260 VA: 0x18020BE60
 	public void .ctor(uint x, uint y, uint z) { }
 
-	// RVA: 0x22B0870 Offset: 0x22AEE70 VA: 0x1822B0870
+	// RVA: 0x22B0B30 Offset: 0x22AF130 VA: 0x1822B0B30
 	public static uint3 op_Multiply(uint3 lhs, uint3 rhs) { }
 
 	// RVA: 0x238AC0 Offset: 0x237EC0 VA: 0x180238AC0 Slot: 4

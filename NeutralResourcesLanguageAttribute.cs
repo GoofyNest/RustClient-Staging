@@ -9,7 +9,7 @@ public sealed class NeutralResourcesLanguageAttribute : Attribute // TypeDefInde
 
 	// Methods
 
-	// RVA: 0xFEB200 Offset: 0xFE9800 VA: 0x180FEB200
+	// RVA: 0xFEB4C0 Offset: 0xFE9AC0 VA: 0x180FEB4C0
 	public void .ctor(string cultureName) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0

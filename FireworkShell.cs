@@ -14,31 +14,31 @@ public class FireworkShell : BaseMonoBehaviour, IClientComponent // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x78A620 Offset: 0x788C20 VA: 0x18078A620 Slot: 6
+	// RVA: 0x78A730 Offset: 0x788D30 VA: 0x18078A730 Slot: 6
 	public virtual void Init(MortarFirework firework) { }
 
-	// RVA: 0x78A940 Offset: 0x788F40 VA: 0x18078A940
+	// RVA: 0x78AA50 Offset: 0x789050 VA: 0x18078AA50
 	public void ToggleExplosionLight(bool wantsOn) { }
 
-	// RVA: 0x78A9E0 Offset: 0x788FE0 VA: 0x18078A9E0 Slot: 7
+	// RVA: 0x78AAF0 Offset: 0x7890F0 VA: 0x18078AAF0 Slot: 7
 	public virtual void Update() { }
 
-	// RVA: 0x78A300 Offset: 0x788900 VA: 0x18078A300 Slot: 8
+	// RVA: 0x78A410 Offset: 0x788A10 VA: 0x18078A410 Slot: 8
 	public virtual void Cleanup() { }
 
-	// RVA: 0x78A7D0 Offset: 0x788DD0 VA: 0x18078A7D0
+	// RVA: 0x78A8E0 Offset: 0x788EE0 VA: 0x18078A8E0
 	public float SoundDelayTime() { }
 
-	// RVA: 0x78A7B0 Offset: 0x788DB0 VA: 0x18078A7B0
+	// RVA: 0x78A8C0 Offset: 0x788EC0 VA: 0x18078A8C0
 	public void PlaySound() { }
 
-	// RVA: 0x78A390 Offset: 0x788990 VA: 0x18078A390 Slot: 9
+	// RVA: 0x78A4A0 Offset: 0x788AA0 VA: 0x18078A4A0 Slot: 9
 	public virtual void Explode() { }
 
-	// RVA: 0x78A2E0 Offset: 0x7888E0 VA: 0x18078A2E0 Slot: 10
+	// RVA: 0x78A3F0 Offset: 0x7889F0 VA: 0x18078A3F0 Slot: 10
 	public virtual float CalculateFuseLength() { }
 
-	// RVA: 0x78AC80 Offset: 0x789280 VA: 0x18078AC80
+	// RVA: 0x78AD90 Offset: 0x789390 VA: 0x18078AD90
 	public void .ctor() { }
 
 }

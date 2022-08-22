@@ -9,7 +9,7 @@ public class PressurePad : BaseDetector // TypeDefIndex: 8704
 	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0x9A80D0 Offset: 0x9A66D0 VA: 0x1809A80D0
+	// RVA: 0x9A8390 Offset: 0x9A6990 VA: 0x1809A8390
 	public void .ctor() { }
 
 }

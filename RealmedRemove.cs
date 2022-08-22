@@ -9,10 +9,10 @@ public class RealmedRemove : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 9
 
 	// Methods
 
-	// RVA: 0x6AB380 Offset: 0x6A9980 VA: 0x1806AB380 Slot: 4
+	// RVA: 0x6AB490 Offset: 0x6A9A90 VA: 0x1806AB490 Slot: 4
 	public void PreProcess(IPrefabProcessor process, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x6AB5B0 Offset: 0x6A9BB0 VA: 0x1806AB5B0
+	// RVA: 0x6AB6C0 Offset: 0x6A9CC0 VA: 0x1806AB6C0
 	public bool ShouldDelete(Component comp, bool client, bool server) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

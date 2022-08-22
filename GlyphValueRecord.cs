@@ -53,7 +53,7 @@ public struct GlyphValueRecord_Legacy // TypeDefIndex: 6767
 	// RVA: 0x1174D0 Offset: 0x1168D0 VA: 0x1801174D0
 	internal void .ctor(GlyphValueRecord valueRecord) { }
 
-	// RVA: 0xC65810 Offset: 0xC63E10 VA: 0x180C65810
+	// RVA: 0xC65AD0 Offset: 0xC640D0 VA: 0x180C65AD0
 	public static GlyphValueRecord_Legacy op_Addition(GlyphValueRecord_Legacy a, GlyphValueRecord_Legacy b) { }
 
 }

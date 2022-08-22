@@ -7,16 +7,16 @@ public class MusicClipLoader // TypeDefIndex: 9002
 
 	// Methods
 
-	// RVA: 0x7BDD20 Offset: 0x7BC320 VA: 0x1807BDD20
+	// RVA: 0x7BDE30 Offset: 0x7BC430 VA: 0x1807BDE30
 	public void Update() { }
 
-	// RVA: 0x7BD990 Offset: 0x7BBF90 VA: 0x1807BD990
+	// RVA: 0x7BDAA0 Offset: 0x7BC0A0 VA: 0x1807BDAA0
 	public void Refresh() { }
 
-	// RVA: 0x7BD910 Offset: 0x7BBF10 VA: 0x1807BD910
+	// RVA: 0x7BDA20 Offset: 0x7BC020 VA: 0x1807BDA20
 	private MusicClipLoader.LoadedAudioClip FindLoadedClip(AudioClip clip) { }
 
-	// RVA: 0x7BDE70 Offset: 0x7BC470 VA: 0x1807BDE70
+	// RVA: 0x7BDF80 Offset: 0x7BC580 VA: 0x1807BDF80
 	public void .ctor() { }
 
 }

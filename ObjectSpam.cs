@@ -6,10 +6,10 @@ public class ObjectSpam : MonoBehaviour // TypeDefIndex: 9287
 
 	// Methods
 
-	// RVA: 0x9D75A0 Offset: 0x9D5BA0 VA: 0x1809D75A0
+	// RVA: 0x9D7860 Offset: 0x9D5E60 VA: 0x1809D7860
 	private void Start() { }
 
-	// RVA: 0x9D7780 Offset: 0x9D5D80 VA: 0x1809D7780
+	// RVA: 0x9D7A40 Offset: 0x9D6040 VA: 0x1809D7A40
 	public void .ctor() { }
 
 }

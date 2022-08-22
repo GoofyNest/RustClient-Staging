@@ -1,13 +1,13 @@
 public class EvaluateException : InvalidExpressionException // TypeDefIndex: 4256
 {	// Methods
 
-	// RVA: 0x13D6F30 Offset: 0x13D5530 VA: 0x1813D6F30
+	// RVA: 0x13D71F0 Offset: 0x13D57F0 VA: 0x1813D71F0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xCCC700 Offset: 0xCCAD00 VA: 0x180CCC700
+	// RVA: 0xCCC9C0 Offset: 0xCCAFC0 VA: 0x180CCC9C0
 	public void .ctor() { }
 
-	// RVA: 0xCCC790 Offset: 0xCCAD90 VA: 0x180CCC790
+	// RVA: 0xCCCA50 Offset: 0xCCB050 VA: 0x180CCCA50
 	public void .ctor(string s) { }
 
 }

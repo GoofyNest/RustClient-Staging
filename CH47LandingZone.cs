@@ -6,28 +6,28 @@ public class CH47LandingZone : MonoBehaviour // TypeDefIndex: 9717
 
 	// Methods
 
-	// RVA: 0x6F58F0 Offset: 0x6F3EF0 VA: 0x1806F58F0
+	// RVA: 0x6F5A00 Offset: 0x6F4000 VA: 0x1806F5A00
 	public void Awake() { }
 
-	// RVA: 0x6F59C0 Offset: 0x6F3FC0 VA: 0x1806F59C0
+	// RVA: 0x6F5AD0 Offset: 0x6F40D0 VA: 0x1806F5AD0
 	public static CH47LandingZone GetClosest(Vector3 pos) { }
 
-	// RVA: 0x6F5BA0 Offset: 0x6F41A0 VA: 0x1806F5BA0
+	// RVA: 0x6F5CB0 Offset: 0x6F42B0 VA: 0x1806F5CB0
 	public void OnDestroy() { }
 
-	// RVA: 0x6F4360 Offset: 0x6F2960 VA: 0x1806F4360
+	// RVA: 0x6F4470 Offset: 0x6F2A70 VA: 0x1806F4470
 	public float TimeSinceLastDrop() { }
 
-	// RVA: 0x6F4380 Offset: 0x6F2980 VA: 0x1806F4380
+	// RVA: 0x6F4490 Offset: 0x6F2A90 VA: 0x1806F4490
 	public void Used() { }
 
-	// RVA: 0x6F5C70 Offset: 0x6F4270 VA: 0x1806F5C70
+	// RVA: 0x6F5D80 Offset: 0x6F4380 VA: 0x1806F5D80
 	public void OnDrawGizmos() { }
 
-	// RVA: 0x6F5DE0 Offset: 0x6F43E0 VA: 0x1806F5DE0
+	// RVA: 0x6F5EF0 Offset: 0x6F44F0 VA: 0x1806F5EF0
 	public void .ctor() { }
 
-	// RVA: 0x6F5D80 Offset: 0x6F4380 VA: 0x1806F5D80
+	// RVA: 0x6F5E90 Offset: 0x6F4490 VA: 0x1806F5E90
 	private static void .cctor() { }
 
 }

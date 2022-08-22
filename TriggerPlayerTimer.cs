@@ -6,7 +6,7 @@ public class TriggerPlayerTimer : TriggerBase // TypeDefIndex: 10042
 
 	// Methods
 
-	// RVA: 0xA222B0 Offset: 0xA208B0 VA: 0x180A222B0
+	// RVA: 0xA22570 Offset: 0xA20B70 VA: 0x180A22570
 	public void .ctor() { }
 
 }

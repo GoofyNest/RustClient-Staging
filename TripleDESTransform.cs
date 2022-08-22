@@ -9,13 +9,13 @@ internal class TripleDESTransform : SymmetricTransform // TypeDefIndex: 1013
 
 	// Methods
 
-	// RVA: 0x17C8190 Offset: 0x17C6790 VA: 0x1817C8190
+	// RVA: 0x17C8450 Offset: 0x17C6A50 VA: 0x1817C8450
 	public void .ctor(TripleDES algo, bool encryption, byte[] key, byte[] iv) { }
 
-	// RVA: 0x17C7B80 Offset: 0x17C6180 VA: 0x1817C7B80 Slot: 15
+	// RVA: 0x17C7E40 Offset: 0x17C6440 VA: 0x1817C7E40 Slot: 15
 	protected override void ECB(byte[] input, byte[] output) { }
 
-	// RVA: 0x17C7D00 Offset: 0x17C6300 VA: 0x1817C7D00
+	// RVA: 0x17C7FC0 Offset: 0x17C65C0 VA: 0x1817C7FC0
 	internal static byte[] GetStrongKey() { }
 
 }

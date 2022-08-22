@@ -6,7 +6,7 @@ public class CraftingNotice : MonoBehaviour // TypeDefIndex: 10987
 
 	// Methods
 
-	// RVA: 0x6C0A50 Offset: 0x6BF050 VA: 0x1806C0A50
+	// RVA: 0x6C0B60 Offset: 0x6BF160 VA: 0x1806C0B60
 	private void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

@@ -7,7 +7,7 @@ public class CCTVOverlay : MonoBehaviour // TypeDefIndex: 9126
 	// RVA: 0x515E30 Offset: 0x514430 VA: 0x180515E30
 	private void Awake() { }
 
-	// RVA: 0x6F3450 Offset: 0x6F1A50 VA: 0x1806F3450
+	// RVA: 0x6F3560 Offset: 0x6F1B60 VA: 0x1806F3560
 	private void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

@@ -19,13 +19,13 @@ public sealed class MusicalTimeSpan : ITimeSpan, IComparable, IComparable<Musica
 
 	// Methods
 
-	// RVA: 0x21FEE80 Offset: 0x21FD480 VA: 0x1821FEE80
+	// RVA: 0x21FF140 Offset: 0x21FD740 VA: 0x1821FF140
 	public void .ctor() { }
 
-	// RVA: 0x21FED80 Offset: 0x21FD380 VA: 0x1821FED80
+	// RVA: 0x21FF040 Offset: 0x21FD640 VA: 0x1821FF040
 	public void .ctor(long fraction) { }
 
-	// RVA: 0x21FEDB0 Offset: 0x21FD3B0 VA: 0x1821FEDB0
+	// RVA: 0x21FF070 Offset: 0x21FD670 VA: 0x1821FF070
 	public void .ctor(long numerator, long denominator, bool simplify = True) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -36,49 +36,49 @@ public sealed class MusicalTimeSpan : ITimeSpan, IComparable, IComparable<Musica
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public long get_Denominator() { }
 
-	// RVA: 0x21FE110 Offset: 0x21FC710 VA: 0x1821FE110
+	// RVA: 0x21FE3D0 Offset: 0x21FC9D0 VA: 0x1821FE3D0
 	public MusicalTimeSpan Dotted(int dotsCount) { }
 
-	// RVA: 0x21FE760 Offset: 0x21FCD60 VA: 0x1821FE760
+	// RVA: 0x21FEA20 Offset: 0x21FD020 VA: 0x1821FEA20
 	public MusicalTimeSpan Tuplet(int tupletNotesCount, int tupletSpaceSize) { }
 
-	// RVA: 0x21FE3E0 Offset: 0x21FC9E0 VA: 0x1821FE3E0
+	// RVA: 0x21FE6A0 Offset: 0x21FCCA0 VA: 0x1821FE6A0
 	private static void ReduceToCommonDenominator(MusicalTimeSpan fraction1, MusicalTimeSpan fraction2, out long numerator1, out long numerator2, out long denominator) { }
 
-	// RVA: 0x21FEF10 Offset: 0x21FD510 VA: 0x1821FEF10
+	// RVA: 0x21FF1D0 Offset: 0x21FD7D0 VA: 0x1821FF1D0
 	public static bool op_Equality(MusicalTimeSpan timeSpan1, MusicalTimeSpan timeSpan2) { }
 
-	// RVA: 0x21FEFE0 Offset: 0x21FD5E0 VA: 0x1821FEFE0
+	// RVA: 0x21FF2A0 Offset: 0x21FD8A0 VA: 0x1821FF2A0
 	public static bool op_Inequality(MusicalTimeSpan timeSpan1, MusicalTimeSpan timeSpan2) { }
 
-	// RVA: 0x21FF0F0 Offset: 0x21FD6F0 VA: 0x1821FF0F0
+	// RVA: 0x21FF3B0 Offset: 0x21FD9B0 VA: 0x1821FF3B0
 	public static MusicalTimeSpan op_Subtraction(MusicalTimeSpan timeSpan1, MusicalTimeSpan timeSpan2) { }
 
-	// RVA: 0x21FE1D0 Offset: 0x21FC7D0 VA: 0x1821FE1D0 Slot: 0
+	// RVA: 0x21FE490 Offset: 0x21FCA90 VA: 0x1821FE490 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x21FE390 Offset: 0x21FC990 VA: 0x1821FE390 Slot: 2
+	// RVA: 0x21FE650 Offset: 0x21FCC50 VA: 0x1821FE650 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x21FE6E0 Offset: 0x21FCCE0 VA: 0x1821FE6E0 Slot: 3
+	// RVA: 0x21FE9A0 Offset: 0x21FCFA0 VA: 0x1821FE9A0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x21FE470 Offset: 0x21FCA70 VA: 0x1821FE470 Slot: 4
+	// RVA: 0x21FE730 Offset: 0x21FCD30 VA: 0x1821FE730 Slot: 4
 	public ITimeSpan Subtract(ITimeSpan timeSpan, TimeSpanMode mode) { }
 
-	// RVA: 0x21FDE80 Offset: 0x21FC480 VA: 0x1821FDE80 Slot: 5
+	// RVA: 0x21FE140 Offset: 0x21FC740 VA: 0x1821FE140 Slot: 5
 	public ITimeSpan Clone() { }
 
-	// RVA: 0x21FDF00 Offset: 0x21FC500 VA: 0x1821FDF00 Slot: 6
+	// RVA: 0x21FE1C0 Offset: 0x21FC7C0 VA: 0x1821FE1C0 Slot: 6
 	public int CompareTo(object other) { }
 
-	// RVA: 0x21FE040 Offset: 0x21FC640 VA: 0x1821FE040 Slot: 7
+	// RVA: 0x21FE300 Offset: 0x21FC900 VA: 0x1821FE300 Slot: 7
 	public int CompareTo(MusicalTimeSpan other) { }
 
-	// RVA: 0x21FE2D0 Offset: 0x21FC8D0 VA: 0x1821FE2D0 Slot: 8
+	// RVA: 0x21FE590 Offset: 0x21FCB90 VA: 0x1821FE590 Slot: 8
 	public bool Equals(MusicalTimeSpan other) { }
 
-	// RVA: 0x21FE830 Offset: 0x21FCE30 VA: 0x1821FE830
+	// RVA: 0x21FEAF0 Offset: 0x21FD0F0 VA: 0x1821FEAF0
 	private static void .cctor() { }
 
 }

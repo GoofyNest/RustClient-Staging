@@ -18,19 +18,19 @@ public class TechTreeLine : TechTreeWidget // TypeDefIndex: 10916
 
 	// Methods
 
-	// RVA: 0x7AEEF0 Offset: 0x7AD4F0 VA: 0x1807AEEF0 Slot: 8
+	// RVA: 0x7AF000 Offset: 0x7AD600 VA: 0x1807AF000 Slot: 8
 	public override void SetLocked(bool wantsLocked) { }
 
-	// RVA: 0x7AEF00 Offset: 0x7AD500 VA: 0x1807AEF00
+	// RVA: 0x7AF010 Offset: 0x7AD610 VA: 0x1807AF010
 	public void SetTargetAbove(bool isTargetAbove) { }
 
-	// RVA: 0x7AEF10 Offset: 0x7AD510 VA: 0x1807AEF10
+	// RVA: 0x7AF020 Offset: 0x7AD620 VA: 0x1807AF020
 	public void SetTargetToLeft(bool isLeft) { }
 
-	// RVA: 0x7AEC90 Offset: 0x7AD290 VA: 0x1807AEC90
+	// RVA: 0x7AEDA0 Offset: 0x7AD3A0 VA: 0x1807AEDA0
 	public void Refresh() { }
 
-	// RVA: 0x7AEC20 Offset: 0x7AD220 VA: 0x1807AEC20
+	// RVA: 0x7AED30 Offset: 0x7AD330 VA: 0x1807AED30
 	public void .ctor() { }
 
 }

@@ -5,55 +5,55 @@ public class TreeManager : BaseEntity // TypeDefIndex: 8658
 
 	// Methods
 
-	// RVA: 0xA1D5C0 Offset: 0xA1BBC0 VA: 0x180A1D5C0 Slot: 35
+	// RVA: 0xA1D880 Offset: 0xA1BE80 VA: 0x180A1D880 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA1E1A0 Offset: 0xA1C7A0 VA: 0x180A1E1A0
+	// RVA: 0xA1E460 Offset: 0xA1CA60 VA: 0x180A1E460
 	public static Vector3 ProtoHalf3ToVec3(Half3 half3) { }
 
-	// RVA: 0xA1E490 Offset: 0xA1CA90 VA: 0x180A1E490
+	// RVA: 0xA1E750 Offset: 0xA1CD50 VA: 0x180A1E750
 	public static Half3 Vec3ToProtoHalf3(Vector3 vec3) { }
 
-	// RVA: 0xA1D220 Offset: 0xA1B820 VA: 0x180A1D220 Slot: 14
+	// RVA: 0xA1D4E0 Offset: 0xA1BAE0 VA: 0x180A1D4E0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xA1D2A0 Offset: 0xA1B8A0 VA: 0x180A1D2A0 Slot: 13
+	// RVA: 0xA1D560 Offset: 0xA1BB60 VA: 0x180A1D560 Slot: 13
 	public override void ClientOnEnable() { }
 
-	// RVA: 0xA1E360 Offset: 0xA1C960 VA: 0x180A1E360
+	// RVA: 0xA1E620 Offset: 0xA1CC20 VA: 0x180A1E620
 	public static void Reset() { }
 
-	// RVA: 0xA1C840 Offset: 0xA1AE40 VA: 0x180A1C840
+	// RVA: 0xA1CB00 Offset: 0xA1B100 VA: 0x180A1CB00
 	public static void AddBillboard(uint id, ImpostorInstanceData data) { }
 
-	// RVA: 0xA1E250 Offset: 0xA1C850 VA: 0x180A1E250
+	// RVA: 0xA1E510 Offset: 0xA1CB10 VA: 0x180A1E510
 	public static void RemoveBillboard(uint id) { }
 
-	// RVA: 0xA1D500 Offset: 0xA1BB00 VA: 0x180A1D500
+	// RVA: 0xA1D7C0 Offset: 0xA1BDC0 VA: 0x180A1D7C0
 	public static void HideBillboard(uint id) { }
 
-	// RVA: 0xA1E3D0 Offset: 0xA1C9D0 VA: 0x180A1E3D0
+	// RVA: 0xA1E690 Offset: 0xA1CC90 VA: 0x180A1E690
 	public static void ShowBillboard(uint id) { }
 
-	// RVA: 0xA1D2F0 Offset: 0xA1B8F0 VA: 0x180A1D2F0
+	// RVA: 0xA1D5B0 Offset: 0xA1BBB0 VA: 0x180A1D5B0
 	private static ImpostorInstanceData CreateImpostorInstanceData(BaseEntity entity, Vector3 position, Vector3 scale) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA1C9A0 Offset: 0xA1AFA0 VA: 0x180A1C9A0
+	// RVA: 0xA1CC60 Offset: 0xA1B260 VA: 0x180A1CC60
 	private void CLIENT_ReceiveTrees(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA1CD70 Offset: 0xA1B370 VA: 0x180A1CD70
+	// RVA: 0xA1D030 Offset: 0xA1B630 VA: 0x180A1D030
 	private void CLIENT_TreeDestroyed(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA1CEF0 Offset: 0xA1B4F0 VA: 0x180A1CEF0
+	// RVA: 0xA1D1B0 Offset: 0xA1B7B0 VA: 0x180A1D1B0
 	private void CLIENT_TreeSpawned(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0xA1E5B0 Offset: 0xA1CBB0 VA: 0x180A1E5B0
+	// RVA: 0xA1E870 Offset: 0xA1CE70 VA: 0x180A1E870
 	public void .ctor() { }
 
-	// RVA: 0xA1E540 Offset: 0xA1CB40 VA: 0x180A1E540
+	// RVA: 0xA1E800 Offset: 0xA1CE00 VA: 0x180A1E800
 	private static void .cctor() { }
 
 }

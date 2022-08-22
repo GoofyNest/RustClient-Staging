@@ -8,16 +8,16 @@ public class MinQueue // TypeDefIndex: 4810
 
 	// Methods
 
-	// RVA: 0x226E990 Offset: 0x226CF90 VA: 0x18226E990
+	// RVA: 0x226EC50 Offset: 0x226D250 VA: 0x18226EC50
 	public void .ctor(int capacity = 8) { }
 
-	// RVA: 0x226E8C0 Offset: 0x226CEC0 VA: 0x18226E8C0
+	// RVA: 0x226EB80 Offset: 0x226D180 VA: 0x18226EB80
 	public void Push(int value) { }
 
-	// RVA: 0x226E820 Offset: 0x226CE20 VA: 0x18226E820
+	// RVA: 0x226EAE0 Offset: 0x226D0E0 VA: 0x18226EAE0
 	public int Pop() { }
 
-	// RVA: 0x226EA40 Offset: 0x226D040 VA: 0x18226EA40
+	// RVA: 0x226ED00 Offset: 0x226D300 VA: 0x18226ED00
 	public int get_Min() { }
 
 }

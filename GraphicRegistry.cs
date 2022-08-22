@@ -9,22 +9,22 @@ public class GraphicRegistry // TypeDefIndex: 4934
 
 	// Methods
 
-	// RVA: 0x15ECCD0 Offset: 0x15EB2D0 VA: 0x1815ECCD0
+	// RVA: 0x15ECF90 Offset: 0x15EB590 VA: 0x1815ECF90
 	protected void .ctor() { }
 
-	// RVA: 0x15ECDD0 Offset: 0x15EB3D0 VA: 0x1815ECDD0
+	// RVA: 0x15ED090 Offset: 0x15EB690 VA: 0x1815ED090
 	public static GraphicRegistry get_instance() { }
 
-	// RVA: 0x15EC990 Offset: 0x15EAF90 VA: 0x1815EC990
+	// RVA: 0x15ECC50 Offset: 0x15EB250 VA: 0x1815ECC50
 	public static void RegisterGraphicForCanvas(Canvas c, Graphic graphic) { }
 
-	// RVA: 0x15ECB20 Offset: 0x15EB120 VA: 0x1815ECB20
+	// RVA: 0x15ECDE0 Offset: 0x15EB3E0 VA: 0x1815ECDE0
 	public static void UnregisterGraphicForCanvas(Canvas c, Graphic graphic) { }
 
-	// RVA: 0x15EC8C0 Offset: 0x15EAEC0 VA: 0x1815EC8C0
+	// RVA: 0x15ECB80 Offset: 0x15EB180 VA: 0x1815ECB80
 	public static IList<Graphic> GetGraphicsForCanvas(Canvas canvas) { }
 
-	// RVA: 0x15ECC60 Offset: 0x15EB260 VA: 0x1815ECC60
+	// RVA: 0x15ECF20 Offset: 0x15EB520 VA: 0x1815ECF20
 	private static void .cctor() { }
 
 }

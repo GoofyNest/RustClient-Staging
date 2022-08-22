@@ -5,22 +5,22 @@ public class ViewmodelEditor : SingletonComponent<ViewmodelEditor> // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x7F8460 Offset: 0x7F6A60 VA: 0x1807F8460
+	// RVA: 0x7F8570 Offset: 0x7F6B70 VA: 0x1807F8570
 	private void OnGUI() { }
 
-	// RVA: 0x7F7ED0 Offset: 0x7F64D0 VA: 0x1807F7ED0 Slot: 6
+	// RVA: 0x7F7FE0 Offset: 0x7F65E0 VA: 0x1807F7FE0 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x7F80E0 Offset: 0x7F66E0 VA: 0x1807F80E0
+	// RVA: 0x7F81F0 Offset: 0x7F67F0 VA: 0x1807F81F0
 	private void DrawWeaponSwitch(Rect rect) { }
 
-	// RVA: 0x7F8CA0 Offset: 0x7F72A0 VA: 0x1807F8CA0
+	// RVA: 0x7F8DB0 Offset: 0x7F73B0 VA: 0x1807F8DB0
 	private void Update() { }
 
-	// RVA: 0x7F7FE0 Offset: 0x7F65E0 VA: 0x1807F7FE0
+	// RVA: 0x7F80F0 Offset: 0x7F66F0 VA: 0x1807F80F0
 	public void DoAnimationEvent(string name) { }
 
-	// RVA: 0x7F9290 Offset: 0x7F7890 VA: 0x1807F9290
+	// RVA: 0x7F93A0 Offset: 0x7F79A0 VA: 0x1807F93A0
 	public void .ctor() { }
 
 }
@@ -33,16 +33,16 @@ private sealed class ViewmodelEditor.<>c // TypeDefIndex: 11460
 
 	// Methods
 
-	// RVA: 0x7F0060 Offset: 0x7EE660 VA: 0x1807F0060
+	// RVA: 0x7F0170 Offset: 0x7EE770 VA: 0x1807F0170
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7EFE80 Offset: 0x7EE480 VA: 0x1807EFE80
+	// RVA: 0x7EFF90 Offset: 0x7EE590 VA: 0x1807EFF90
 	internal string <DrawWeaponSwitch>b__4_0(BaseViewModel x) { }
 
-	// RVA: 0x7EFE80 Offset: 0x7EE480 VA: 0x1807EFE80
+	// RVA: 0x7EFF90 Offset: 0x7EE590 VA: 0x1807EFF90
 	internal string <DrawWeaponSwitch>b__4_1(BaseViewModel x) { }
 
 }

@@ -5,10 +5,10 @@ public abstract class Aes : SymmetricAlgorithm // TypeDefIndex: 937
 
 	// Methods
 
-	// RVA: 0x16F6380 Offset: 0x16F4980 VA: 0x1816F6380
+	// RVA: 0x16F6640 Offset: 0x16F4C40 VA: 0x1816F6640
 	protected void .ctor() { }
 
-	// RVA: 0x16F61E0 Offset: 0x16F47E0 VA: 0x1816F61E0
+	// RVA: 0x16F64A0 Offset: 0x16F4AA0 VA: 0x1816F64A0
 	private static void .cctor() { }
 
 }

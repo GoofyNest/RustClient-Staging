@@ -10,7 +10,7 @@ public class ProgressDoor : IOEntity // TypeDefIndex: 9809
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 159
 	public virtual void UpdateProgress() { }
 
-	// RVA: 0x692F80 Offset: 0x691580 VA: 0x180692F80
+	// RVA: 0x693090 Offset: 0x691690 VA: 0x180693090
 	public void .ctor() { }
 
 }

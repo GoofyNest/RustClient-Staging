@@ -13,7 +13,7 @@ public sealed class SoapMethodAttribute : SoapAttribute // TypeDefIndex: 1212
 
 	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 	// RVA: 0x4BC3E0 Offset: 0x4BA9E0 VA: 0x1804BC3E0 Slot: 7
@@ -22,7 +22,7 @@ public sealed class SoapMethodAttribute : SoapAttribute // TypeDefIndex: 1212
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870 Slot: 8
 	public override string get_XmlNamespace() { }
 
-	// RVA: 0x148D560 Offset: 0x148BB60 VA: 0x18148D560 Slot: 9
+	// RVA: 0x148D820 Offset: 0x148BE20 VA: 0x18148D820 Slot: 9
 	internal override void SetReflectionObject(object reflectionObject) { }
 
 }

@@ -6,16 +6,16 @@ public class ViewmodelItem : MonoBehaviour // TypeDefIndex: 9255
 
 	// Methods
 
-	// RVA: 0x7F9760 Offset: 0x7F7D60 VA: 0x1807F9760
+	// RVA: 0x7F9870 Offset: 0x7F7E70 VA: 0x1807F9870
 	private void OnEnable() { }
 
-	// RVA: 0x7F9850 Offset: 0x7F7E50 VA: 0x1807F9850
+	// RVA: 0x7F9960 Offset: 0x7F7F60 VA: 0x1807F9960
 	private void Update() { }
 
-	// RVA: 0x7F97B0 Offset: 0x7F7DB0 VA: 0x1807F97B0
+	// RVA: 0x7F98C0 Offset: 0x7F7EC0 VA: 0x1807F98C0
 	private void OnOffStateChanged() { }
 
-	// RVA: 0x7F9690 Offset: 0x7F7C90 VA: 0x1807F9690
+	// RVA: 0x7F97A0 Offset: 0x7F7DA0 VA: 0x1807F97A0
 	private Item FindItem() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

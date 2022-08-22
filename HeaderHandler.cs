@@ -4,7 +4,7 @@ public sealed class HeaderHandler : MulticastDelegate // TypeDefIndex: 1238
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1477A60 Offset: 0x1476060 VA: 0x181477A60 Slot: 12
+	// RVA: 0x1477D20 Offset: 0x1476320 VA: 0x181477D20 Slot: 12
 	public virtual object Invoke(Header[] headers) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13

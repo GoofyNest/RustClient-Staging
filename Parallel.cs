@@ -1,6 +1,6 @@
 public static class Parallel // TypeDefIndex: 5599
 {	// Fields
-	public static int MaxThreads; // 0x2B10338
+	public static int MaxThreads; // 0x2B11378
 
 	// Methods
 
@@ -20,20 +20,20 @@ public static class Parallel // TypeDefIndex: 5599
 	|-Parallel.ForEach<object>
 	*/
 
-	// RVA: 0x21BCD00 Offset: 0x21BB300 VA: 0x1821BCD00
+	// RVA: 0x21BCFC0 Offset: 0x21BB5C0 VA: 0x1821BCFC0
 	public static void For(int fromInclusive, int toExclusive, Action<int> action) { }
 
-	// RVA: 0x21BCAB0 Offset: 0x21BB0B0 VA: 0x1821BCAB0
+	// RVA: 0x21BCD70 Offset: 0x21BB370 VA: 0x1821BCD70
 	public static void For(int fromInclusive, int toExclusive, int threads, Action<int> action) { }
 
-	// RVA: 0x21BC9D0 Offset: 0x21BAFD0 VA: 0x1821BC9D0
+	// RVA: 0x21BCC90 Offset: 0x21BB290 VA: 0x1821BCC90
 	public static void Call(Action<int, int> action) { }
 
-	// RVA: 0x21BC7A0 Offset: 0x21BADA0 VA: 0x1821BC7A0
+	// RVA: 0x21BCA60 Offset: 0x21BB060 VA: 0x1821BCA60
 	public static void Call(int threads, Action<int, int> action) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xB68F0 Offset: 0xB5CF0 VA: 0x1800B68F0
-	// RVA: 0x21BCA40 Offset: 0x21BB040 VA: 0x1821BCA40
+	// RVA: 0x21BCD00 Offset: 0x21BB300 VA: 0x1821BCD00
 	public static IEnumerator Coroutine(Action action) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -52,7 +52,7 @@ private sealed class Parallel.<>c__DisplayClass2_0<T> // TypeDefIndex: 5600
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-Parallel.<>c__DisplayClass2_0<object>..ctor
 	*/
 
@@ -60,7 +60,7 @@ private sealed class Parallel.<>c__DisplayClass2_0<T> // TypeDefIndex: 5600
 	internal void <ForEach>b__0(int i) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C7300 Offset: 0x19C5900 VA: 0x1819C7300
+	|-RVA: 0x19C75C0 Offset: 0x19C5BC0 VA: 0x1819C75C0
 	|-Parallel.<>c__DisplayClass2_0<object>.<ForEach>b__0
 	*/
 
@@ -77,7 +77,7 @@ private sealed class Parallel.<>c__DisplayClass4_0 // TypeDefIndex: 5601
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x21BDF30 Offset: 0x21BC530 VA: 0x1821BDF30
+	// RVA: 0x21BE1F0 Offset: 0x21BC7F0 VA: 0x1821BE1F0
 	internal void <For>b__0(int thread_id) { }
 
 }
@@ -92,7 +92,7 @@ private sealed class Parallel.<>c__DisplayClass6_0 // TypeDefIndex: 5602
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x21BDFE0 Offset: 0x21BC5E0 VA: 0x1821BDFE0
+	// RVA: 0x21BE2A0 Offset: 0x21BC8A0 VA: 0x1821BE2A0
 	internal void <Call>b__0(int thread_id) { }
 
 }
@@ -118,7 +118,7 @@ private sealed class Parallel.<Coroutine>d__7 : IEnumerator<object>, IEnumerator
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x21BDD90 Offset: 0x21BC390 VA: 0x1821BDD90 Slot: 6
+	// RVA: 0x21BE050 Offset: 0x21BC650 VA: 0x1821BE050 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -126,7 +126,7 @@ private sealed class Parallel.<Coroutine>d__7 : IEnumerator<object>, IEnumerator
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21BDEE0 Offset: 0x21BC4E0 VA: 0x1821BDEE0 Slot: 8
+	// RVA: 0x21BE1A0 Offset: 0x21BC7A0 VA: 0x1821BE1A0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

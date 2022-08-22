@@ -6,13 +6,13 @@ public class TriggerNoSpray : TriggerBase // TypeDefIndex: 10031
 
 	// Methods
 
-	// RVA: 0xA21C00 Offset: 0xA20200 VA: 0x180A21C00
+	// RVA: 0xA21EC0 Offset: 0xA204C0 VA: 0x180A21EC0
 	private void OnEnable() { }
 
-	// RVA: 0xA21AF0 Offset: 0xA200F0 VA: 0x180A21AF0 Slot: 6
+	// RVA: 0xA21DB0 Offset: 0xA203B0 VA: 0x180A21DB0 Slot: 6
 	internal override GameObject InterestedInObject(GameObject obj) { }
 
-	// RVA: 0xA21BD0 Offset: 0xA201D0 VA: 0x180A21BD0
+	// RVA: 0xA21E90 Offset: 0xA20490 VA: 0x180A21E90
 	public bool IsPositionValid(Vector3 worldPosition) { }
 
 	// RVA: 0x521BF0 Offset: 0x5201F0 VA: 0x180521BF0

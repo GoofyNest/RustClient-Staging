@@ -34,7 +34,7 @@ public struct Query // TypeDefIndex: 5279
 	// RVA: 0x224A70 Offset: 0x223E70 VA: 0x180224A70
 	public void .ctor(UgcType type) { }
 
-	// RVA: 0x19D6DC0 Offset: 0x19D53C0 VA: 0x1819D6DC0
+	// RVA: 0x19D7080 Offset: 0x19D5680 VA: 0x1819D7080
 	public static Query get_All() { }
 
 	// RVA: 0x224740 Offset: 0x223B40 VA: 0x180224740

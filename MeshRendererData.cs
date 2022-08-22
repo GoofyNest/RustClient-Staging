@@ -11,22 +11,22 @@ public class MeshRendererData // TypeDefIndex: 9164
 
 	// Methods
 
-	// RVA: 0x968260 Offset: 0x966860 VA: 0x180968260
+	// RVA: 0x968370 Offset: 0x966970 VA: 0x180968370
 	public void Alloc() { }
 
-	// RVA: 0x969700 Offset: 0x967D00 VA: 0x180969700
+	// RVA: 0x969810 Offset: 0x967E10 VA: 0x180969810
 	public void Free() { }
 
-	// RVA: 0x968820 Offset: 0x966E20 VA: 0x180968820
+	// RVA: 0x968930 Offset: 0x966F30 VA: 0x180968930
 	public void Clear() { }
 
-	// RVA: 0x9684A0 Offset: 0x966AA0 VA: 0x1809684A0
+	// RVA: 0x9685B0 Offset: 0x966BB0 VA: 0x1809685B0
 	public void Apply(Mesh mesh) { }
 
-	// RVA: 0x968900 Offset: 0x966F00 VA: 0x180968900
+	// RVA: 0x968A10 Offset: 0x967010 VA: 0x180968A10
 	public void Combine(MeshRendererGroup meshGroup) { }
 
-	// RVA: 0x968F60 Offset: 0x967560 VA: 0x180968F60
+	// RVA: 0x969070 Offset: 0x967670 VA: 0x180969070
 	public void Combine(MeshRendererGroup meshGroup, MeshRendererLookup rendererLookup) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

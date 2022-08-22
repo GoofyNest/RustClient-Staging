@@ -17,13 +17,13 @@ internal class TypedObject // TypeDefIndex: 2149
 
 	// Methods
 
-	// RVA: 0xA38CE0 Offset: 0xA372E0 VA: 0x180A38CE0
+	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
 	public int get_Dim() { }
 
-	// RVA: 0xBA1A80 Offset: 0xBA0080 VA: 0x180BA1A80
+	// RVA: 0xBA1D40 Offset: 0xBA0340 VA: 0x180BA1D40
 	public bool get_IsList() { }
 
-	// RVA: 0xEF1C50 Offset: 0xEF0250 VA: 0x180EF1C50
+	// RVA: 0xEF1F10 Offset: 0xEF0510 VA: 0x180EF1F10
 	public bool get_IsDecimal() { }
 
 	// RVA: 0x4D2120 Offset: 0x4D0720 VA: 0x1804D2120
@@ -32,22 +32,22 @@ internal class TypedObject // TypeDefIndex: 2149
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public object get_Value() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public XmlSchemaDatatype get_Type() { }
 
-	// RVA: 0xEF1A80 Offset: 0xEF0080 VA: 0x180EF1A80
+	// RVA: 0xEF1D40 Offset: 0xEF0340 VA: 0x180EF1D40
 	public void .ctor(object obj, string svalue, XmlSchemaDatatype xsdtype) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xEF1750 Offset: 0xEEFD50 VA: 0x180EF1750
+	// RVA: 0xEF1A10 Offset: 0xEF0010 VA: 0x180EF1A10
 	public void SetDecimal() { }
 
-	// RVA: 0xEF1610 Offset: 0xEEFC10 VA: 0x180EF1610
+	// RVA: 0xEF18D0 Offset: 0xEEFED0 VA: 0x180EF18D0
 	private bool ListDValueEquals(TypedObject other) { }
 
-	// RVA: 0xEF1280 Offset: 0xEEF880 VA: 0x180EF1280
+	// RVA: 0xEF1540 Offset: 0xEEFB40 VA: 0x180EF1540
 	public bool Equals(TypedObject other) { }
 
 }
@@ -72,10 +72,10 @@ private class TypedObject.DecimalStruct // TypeDefIndex: 2150
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public Decimal[] get_Dvalue() { }
 
-	// RVA: 0xEDA360 Offset: 0xED8960 VA: 0x180EDA360
+	// RVA: 0xEDA620 Offset: 0xED8C20 VA: 0x180EDA620
 	public void .ctor() { }
 
-	// RVA: 0xEDA3C0 Offset: 0xED89C0 VA: 0x180EDA3C0
+	// RVA: 0xEDA680 Offset: 0xED8C80 VA: 0x180EDA680
 	public void .ctor(int dim) { }
 
 }

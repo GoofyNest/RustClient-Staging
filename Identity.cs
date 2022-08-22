@@ -40,25 +40,25 @@ internal abstract class Identity // TypeDefIndex: 1133
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	public void set_ObjectUri(string value) { }
 
-	// RVA: 0x795BE0 Offset: 0x7941E0 VA: 0x180795BE0
+	// RVA: 0x795CF0 Offset: 0x7942F0 VA: 0x180795CF0
 	public bool get_IsConnected() { }
 
-	// RVA: 0x8054F0 Offset: 0x803AF0 VA: 0x1808054F0
+	// RVA: 0x805600 Offset: 0x803C00 VA: 0x180805600
 	public bool get_Disposed() { }
 
-	// RVA: 0x80FEF0 Offset: 0x80E4F0 VA: 0x18080FEF0
+	// RVA: 0x810000 Offset: 0x80E600 VA: 0x180810000
 	public void set_Disposed(bool value) { }
 
-	// RVA: 0x1477FA0 Offset: 0x14765A0 VA: 0x181477FA0
+	// RVA: 0x1478260 Offset: 0x1476860 VA: 0x181478260
 	public DynamicPropertyCollection get_ClientDynamicProperties() { }
 
-	// RVA: 0x1478060 Offset: 0x1476660 VA: 0x181478060
+	// RVA: 0x1478320 Offset: 0x1476920 VA: 0x181478320
 	public bool get_HasServerDynamicSinks() { }
 
-	// RVA: 0x1477E80 Offset: 0x1476480 VA: 0x181477E80
+	// RVA: 0x1478140 Offset: 0x1476740 VA: 0x181478140
 	public void NotifyClientDynamicSinks(bool start, IMessage req_msg, bool client_site, bool async) { }
 
-	// RVA: 0x1477F10 Offset: 0x1476510 VA: 0x181477F10
+	// RVA: 0x14781D0 Offset: 0x14767D0 VA: 0x1814781D0
 	public void NotifyServerDynamicSinks(bool start, IMessage req_msg, bool client_site, bool async) { }
 
 }

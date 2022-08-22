@@ -10,25 +10,25 @@ public class OreHotSpot : BaseCombatEntity, ILOD // TypeDefIndex: 8811
 
 	// Methods
 
-	// RVA: 0x9E7460 Offset: 0x9E5A60 VA: 0x1809E7460 Slot: 14
+	// RVA: 0x9E7720 Offset: 0x9E5D20 VA: 0x1809E7720 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x9E76F0 Offset: 0x9E5CF0 VA: 0x1809E76F0 Slot: 19
+	// RVA: 0x9E79B0 Offset: 0x9E5FB0 VA: 0x1809E79B0 Slot: 19
 	protected override void DoClientDestroy() { }
 
-	// RVA: 0x9E7780 Offset: 0x9E5D80 VA: 0x1809E7780 Slot: 146
+	// RVA: 0x9E7A40 Offset: 0x9E6040 VA: 0x1809E7A40 Slot: 146
 	public void RefreshLOD() { }
 
-	// RVA: 0x9E72B0 Offset: 0x9E58B0 VA: 0x1809E72B0 Slot: 145
+	// RVA: 0x9E7570 Offset: 0x9E5B70 VA: 0x1809E7570 Slot: 145
 	public void ChangeLOD() { }
 
-	// RVA: 0x9E7800 Offset: 0x9E5E00 VA: 0x1809E7800
+	// RVA: 0x9E7AC0 Offset: 0x9E60C0 VA: 0x1809E7AC0
 	private void SpawnVisual() { }
 
-	// RVA: 0x9E74F0 Offset: 0x9E5AF0 VA: 0x1809E74F0
+	// RVA: 0x9E77B0 Offset: 0x9E5DB0 VA: 0x1809E77B0
 	private void DestroyVisual() { }
 
-	// RVA: 0x9E7950 Offset: 0x9E5F50 VA: 0x1809E7950
+	// RVA: 0x9E7C10 Offset: 0x9E6210 VA: 0x1809E7C10
 	public void .ctor() { }
 
 }

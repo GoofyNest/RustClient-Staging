@@ -18,25 +18,25 @@ public abstract class TextWriter : MarshalByRefObject, IDisposable // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1636670 Offset: 0x1634C70 VA: 0x181636670
+	// RVA: 0x1636930 Offset: 0x1634F30 VA: 0x181636930
 	private static string get_InitialNewLine() { }
 
-	// RVA: 0x1636500 Offset: 0x1634B00 VA: 0x181636500
+	// RVA: 0x16367C0 Offset: 0x1634DC0 VA: 0x1816367C0
 	protected void .ctor() { }
 
-	// RVA: 0x1636590 Offset: 0x1634B90 VA: 0x181636590
+	// RVA: 0x1636850 Offset: 0x1634E50 VA: 0x181636850
 	protected void .ctor(IFormatProvider formatProvider) { }
 
-	// RVA: 0x1636630 Offset: 0x1634C30 VA: 0x181636630 Slot: 7
+	// RVA: 0x16368F0 Offset: 0x1634EF0 VA: 0x1816368F0 Slot: 7
 	public virtual IFormatProvider get_FormatProvider() { }
 
-	// RVA: 0x16358B0 Offset: 0x1633EB0 VA: 0x1816358B0 Slot: 8
+	// RVA: 0x1635B70 Offset: 0x1634170 VA: 0x181635B70 Slot: 8
 	public virtual void Close() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 9
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x1635920 Offset: 0x1633F20 VA: 0x181635920 Slot: 6
+	// RVA: 0x1635BE0 Offset: 0x16341E0 VA: 0x181635BE0 Slot: 6
 	public void Dispose() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 10
@@ -45,43 +45,43 @@ public abstract class TextWriter : MarshalByRefObject, IDisposable // TypeDefInd
 	// RVA: -1 Offset: -1 Slot: 11
 	public abstract Encoding get_Encoding();
 
-	// RVA: 0x1635990 Offset: 0x1633F90 VA: 0x181635990
+	// RVA: 0x1635C50 Offset: 0x1634250 VA: 0x181635C50
 	public static TextWriter Synchronized(TextWriter writer) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 12
 	public virtual void Write(char value) { }
 
-	// RVA: 0x1636180 Offset: 0x1634780 VA: 0x181636180 Slot: 13
+	// RVA: 0x1636440 Offset: 0x1634A40 VA: 0x181636440 Slot: 13
 	public virtual void Write(char[] buffer) { }
 
-	// RVA: 0x1635FA0 Offset: 0x16345A0 VA: 0x181635FA0 Slot: 14
+	// RVA: 0x1636260 Offset: 0x1634860 VA: 0x181636260 Slot: 14
 	public virtual void Write(char[] buffer, int index, int count) { }
 
-	// RVA: 0x1635F60 Offset: 0x1634560 VA: 0x181635F60 Slot: 15
+	// RVA: 0x1636220 Offset: 0x1634820 VA: 0x181636220 Slot: 15
 	public virtual void Write(string value) { }
 
-	// RVA: 0x1635F40 Offset: 0x1634540 VA: 0x181635F40 Slot: 16
+	// RVA: 0x1636200 Offset: 0x1634800 VA: 0x181636200 Slot: 16
 	public virtual void WriteLine() { }
 
-	// RVA: 0x1635AA0 Offset: 0x16340A0 VA: 0x181635AA0 Slot: 17
+	// RVA: 0x1635D60 Offset: 0x1634360 VA: 0x181635D60 Slot: 17
 	public virtual void WriteLine(char value) { }
 
-	// RVA: 0x1635F00 Offset: 0x1634500 VA: 0x181635F00 Slot: 18
+	// RVA: 0x16361C0 Offset: 0x16347C0 VA: 0x1816361C0 Slot: 18
 	public virtual void WriteLine(char[] buffer, int index, int count) { }
 
-	// RVA: 0x1635CF0 Offset: 0x16342F0 VA: 0x181635CF0 Slot: 19
+	// RVA: 0x1635FB0 Offset: 0x16345B0 VA: 0x181635FB0 Slot: 19
 	public virtual void WriteLine(string value) { }
 
-	// RVA: 0x1635AE0 Offset: 0x16340E0 VA: 0x181635AE0 Slot: 20
+	// RVA: 0x1635DA0 Offset: 0x16343A0 VA: 0x181635DA0 Slot: 20
 	public virtual void WriteLine(object value) { }
 
-	// RVA: 0x1635C90 Offset: 0x1634290 VA: 0x181635C90 Slot: 21
+	// RVA: 0x1635F50 Offset: 0x1634550 VA: 0x181635F50 Slot: 21
 	public virtual void WriteLine(string format, object arg0) { }
 
-	// RVA: 0x1635C10 Offset: 0x1634210 VA: 0x181635C10 Slot: 22
+	// RVA: 0x1635ED0 Offset: 0x16344D0 VA: 0x181635ED0 Slot: 22
 	public virtual void WriteLine(string format, object arg0, object arg1) { }
 
-	// RVA: 0x16361B0 Offset: 0x16347B0 VA: 0x1816361B0
+	// RVA: 0x1636470 Offset: 0x1634A70 VA: 0x181636470
 	private static void .cctor() { }
 
 }
@@ -92,10 +92,10 @@ private sealed class TextWriter.NullTextWriter : TextWriter // TypeDefIndex: 656
 
 	// Methods
 
-	// RVA: 0x1629560 Offset: 0x1627B60 VA: 0x181629560
+	// RVA: 0x1629820 Offset: 0x1627E20 VA: 0x181629820
 	internal void .ctor() { }
 
-	// RVA: 0x16295F0 Offset: 0x1627BF0 VA: 0x1816295F0 Slot: 11
+	// RVA: 0x16298B0 Offset: 0x1627EB0 VA: 0x1816298B0 Slot: 11
 	public override Encoding get_Encoding() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 14
@@ -125,55 +125,55 @@ internal sealed class TextWriter.SyncTextWriter : TextWriter, IDisposable // Typ
 
 	// Methods
 
-	// RVA: 0x1634EF0 Offset: 0x16334F0 VA: 0x181634EF0
+	// RVA: 0x16351B0 Offset: 0x16337B0 VA: 0x1816351B0
 	internal void .ctor(TextWriter t) { }
 
-	// RVA: 0xBA49A0 Offset: 0xBA2FA0 VA: 0x180BA49A0 Slot: 11
+	// RVA: 0xBA4C60 Offset: 0xBA3260 VA: 0x180BA4C60 Slot: 11
 	public override Encoding get_Encoding() { }
 
-	// RVA: 0xBA48E0 Offset: 0xBA2EE0 VA: 0x180BA48E0 Slot: 7
+	// RVA: 0xBA4BA0 Offset: 0xBA31A0 VA: 0x180BA4BA0 Slot: 7
 	public override IFormatProvider get_FormatProvider() { }
 
-	// RVA: 0xBA4910 Offset: 0xBA2F10 VA: 0x180BA4910 Slot: 8
+	// RVA: 0xBA4BD0 Offset: 0xBA31D0 VA: 0x180BA4BD0 Slot: 8
 	public override void Close() { }
 
-	// RVA: 0x1634CE0 Offset: 0x16332E0 VA: 0x181634CE0 Slot: 9
+	// RVA: 0x1634FA0 Offset: 0x16335A0 VA: 0x181634FA0 Slot: 9
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0xBA4970 Offset: 0xBA2F70 VA: 0x180BA4970 Slot: 10
+	// RVA: 0xBA4C30 Offset: 0xBA3230 VA: 0x180BA4C30 Slot: 10
 	public override void Flush() { }
 
-	// RVA: 0xBA49D0 Offset: 0xBA2FD0 VA: 0x180BA49D0 Slot: 12
+	// RVA: 0xBA4C90 Offset: 0xBA3290 VA: 0x180BA4C90 Slot: 12
 	public override void Write(char value) { }
 
-	// RVA: 0x1634EC0 Offset: 0x16334C0 VA: 0x181634EC0 Slot: 13
+	// RVA: 0x1635180 Offset: 0x1633780 VA: 0x181635180 Slot: 13
 	public override void Write(char[] buffer) { }
 
-	// RVA: 0x1634E90 Offset: 0x1633490 VA: 0x181634E90 Slot: 14
+	// RVA: 0x1635150 Offset: 0x1633750 VA: 0x181635150 Slot: 14
 	public override void Write(char[] buffer, int index, int count) { }
 
-	// RVA: 0x1634E60 Offset: 0x1633460 VA: 0x181634E60 Slot: 15
+	// RVA: 0x1635120 Offset: 0x1633720 VA: 0x181635120 Slot: 15
 	public override void Write(string value) { }
 
-	// RVA: 0x1634E30 Offset: 0x1633430 VA: 0x181634E30 Slot: 16
+	// RVA: 0x16350F0 Offset: 0x16336F0 VA: 0x1816350F0 Slot: 16
 	public override void WriteLine() { }
 
-	// RVA: 0x1634E00 Offset: 0x1633400 VA: 0x181634E00 Slot: 17
+	// RVA: 0x16350C0 Offset: 0x16336C0 VA: 0x1816350C0 Slot: 17
 	public override void WriteLine(char value) { }
 
-	// RVA: 0x1634D40 Offset: 0x1633340 VA: 0x181634D40 Slot: 18
+	// RVA: 0x1635000 Offset: 0x1633600 VA: 0x181635000 Slot: 18
 	public override void WriteLine(char[] buffer, int index, int count) { }
 
-	// RVA: 0x1634DA0 Offset: 0x16333A0 VA: 0x181634DA0 Slot: 19
+	// RVA: 0x1635060 Offset: 0x1633660 VA: 0x181635060 Slot: 19
 	public override void WriteLine(string value) { }
 
-	// RVA: 0xBA45D0 Offset: 0xBA2BD0 VA: 0x180BA45D0 Slot: 20
+	// RVA: 0xBA4890 Offset: 0xBA2E90 VA: 0x180BA4890 Slot: 20
 	public override void WriteLine(object value) { }
 
-	// RVA: 0x1634D70 Offset: 0x1633370 VA: 0x181634D70 Slot: 21
+	// RVA: 0x1635030 Offset: 0x1633630 VA: 0x181635030 Slot: 21
 	public override void WriteLine(string format, object arg0) { }
 
-	// RVA: 0x1634DD0 Offset: 0x16333D0 VA: 0x181634DD0 Slot: 22
+	// RVA: 0x1635090 Offset: 0x1633690 VA: 0x181635090 Slot: 22
 	public override void WriteLine(string format, object arg0, object arg1) { }
 
 }
@@ -184,31 +184,31 @@ private sealed class TextWriter.<>c // TypeDefIndex: 658
 
 	// Methods
 
-	// RVA: 0x16377A0 Offset: 0x1635DA0 VA: 0x1816377A0
+	// RVA: 0x1637A60 Offset: 0x1636060 VA: 0x181637A60
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1637240 Offset: 0x1635840 VA: 0x181637240
+	// RVA: 0x1637500 Offset: 0x1635B00 VA: 0x181637500
 	internal void <.cctor>b__73_0(object state) { }
 
-	// RVA: 0x16372E0 Offset: 0x16358E0 VA: 0x1816372E0
+	// RVA: 0x16375A0 Offset: 0x1635BA0 VA: 0x1816375A0
 	internal void <.cctor>b__73_1(object state) { }
 
-	// RVA: 0x1637380 Offset: 0x1635980 VA: 0x181637380
+	// RVA: 0x1637640 Offset: 0x1635C40 VA: 0x181637640
 	internal void <.cctor>b__73_2(object state) { }
 
-	// RVA: 0x1637430 Offset: 0x1635A30 VA: 0x181637430
+	// RVA: 0x16376F0 Offset: 0x1635CF0 VA: 0x1816376F0
 	internal void <.cctor>b__73_3(object state) { }
 
-	// RVA: 0x16374D0 Offset: 0x1635AD0 VA: 0x1816374D0
+	// RVA: 0x1637790 Offset: 0x1635D90 VA: 0x181637790
 	internal void <.cctor>b__73_4(object state) { }
 
-	// RVA: 0x1637570 Offset: 0x1635B70 VA: 0x181637570
+	// RVA: 0x1637830 Offset: 0x1635E30 VA: 0x181637830
 	internal void <.cctor>b__73_5(object state) { }
 
-	// RVA: 0x1637620 Offset: 0x1635C20 VA: 0x181637620
+	// RVA: 0x16378E0 Offset: 0x1635EE0 VA: 0x1816378E0
 	internal void <.cctor>b__73_6(object state) { }
 
 }

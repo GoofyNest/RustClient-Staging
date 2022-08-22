@@ -21,45 +21,45 @@ internal class RSAManaged : RSA // TypeDefIndex: 75
 
 	// Methods
 
-	// RVA: 0x17566B0 Offset: 0x1754CB0 VA: 0x1817566B0
+	// RVA: 0x1756970 Offset: 0x1754F70 VA: 0x181756970
 	public void .ctor(int keySize) { }
 
-	// RVA: 0x9E4550 Offset: 0x9E2B50 VA: 0x1809E4550 Slot: 1
+	// RVA: 0x9E4810 Offset: 0x9E2E10 VA: 0x1809E4810 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x17553F0 Offset: 0x17539F0 VA: 0x1817553F0
+	// RVA: 0x17556B0 Offset: 0x1753CB0 VA: 0x1817556B0
 	private void GenerateKeyPair() { }
 
-	// RVA: 0x1756870 Offset: 0x1754E70 VA: 0x181756870 Slot: 6
+	// RVA: 0x1756B30 Offset: 0x1755130 VA: 0x181756B30 Slot: 6
 	public override int get_KeySize() { }
 
-	// RVA: 0x1756920 Offset: 0x1754F20 VA: 0x181756920
+	// RVA: 0x1756BE0 Offset: 0x17551E0 VA: 0x181756BE0
 	public bool get_PublicOnly() { }
 
-	// RVA: 0x1754E60 Offset: 0x1753460 VA: 0x181754E60 Slot: 10
+	// RVA: 0x1755120 Offset: 0x1753720 VA: 0x181755120 Slot: 10
 	public override byte[] EncryptValue(byte[] rgb) { }
 
-	// RVA: 0x1754F80 Offset: 0x1753580 VA: 0x181754F80 Slot: 11
+	// RVA: 0x1755240 Offset: 0x1753840 VA: 0x181755240 Slot: 11
 	public override RSAParameters ExportParameters(bool includePrivateParameters) { }
 
-	// RVA: 0x1755820 Offset: 0x1753E20 VA: 0x181755820 Slot: 12
+	// RVA: 0x1755AE0 Offset: 0x17540E0 VA: 0x181755AE0 Slot: 12
 	public override void ImportParameters(RSAParameters parameters) { }
 
-	// RVA: 0x1754B40 Offset: 0x1753140 VA: 0x181754B40 Slot: 5
+	// RVA: 0x1754E00 Offset: 0x1753400 VA: 0x181754E00 Slot: 5
 	protected override void Dispose(bool disposing) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x17567D0 Offset: 0x1754DD0 VA: 0x1817567D0
+	// RVA: 0x1756A90 Offset: 0x1755090 VA: 0x181756A90
 	public void add_KeyGenerated(RSAManaged.KeyGeneratedEventHandler value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x17569D0 Offset: 0x1754FD0 VA: 0x1817569D0
+	// RVA: 0x1756C90 Offset: 0x1755290 VA: 0x181756C90
 	public void remove_KeyGenerated(RSAManaged.KeyGeneratedEventHandler value) { }
 
-	// RVA: 0x1755EF0 Offset: 0x17544F0 VA: 0x181755EF0 Slot: 9
+	// RVA: 0x17561B0 Offset: 0x17547B0 VA: 0x1817561B0 Slot: 9
 	public override string ToXmlString(bool includePrivateParameters) { }
 
-	// RVA: 0x1755770 Offset: 0x1753D70 VA: 0x181755770
+	// RVA: 0x1755A30 Offset: 0x1754030 VA: 0x181755A30
 	private byte[] GetPaddedValue(BigInteger value, int length) { }
 
 }
@@ -70,10 +70,10 @@ public sealed class RSAManaged.KeyGeneratedEventHandler : MulticastDelegate // T
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1111140 Offset: 0x110F740 VA: 0x181111140 Slot: 12
+	// RVA: 0x1111400 Offset: 0x110FA00 VA: 0x181111400 Slot: 12
 	public virtual void Invoke(object sender, EventArgs e) { }
 
-	// RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580 Slot: 13
+	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
 	public virtual IAsyncResult BeginInvoke(object sender, EventArgs e, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -102,19 +102,19 @@ public class RSAManaged : RSA // TypeDefIndex: 1761
 
 	// Methods
 
-	// RVA: 0x1AC3430 Offset: 0x1AC1A30 VA: 0x181AC3430
+	// RVA: 0x1AC36F0 Offset: 0x1AC1CF0 VA: 0x181AC36F0
 	private void GenerateKeyPair() { }
 
-	// RVA: 0x1AC41D0 Offset: 0x1AC27D0 VA: 0x181AC41D0
+	// RVA: 0x1AC4490 Offset: 0x1AC2A90 VA: 0x181AC4490
 	public bool get_PublicOnly() { }
 
-	// RVA: 0x1AC2FC0 Offset: 0x1AC15C0 VA: 0x181AC2FC0 Slot: 11
+	// RVA: 0x1AC3280 Offset: 0x1AC1880 VA: 0x181AC3280 Slot: 11
 	public override RSAParameters ExportParameters(bool includePrivateParameters) { }
 
-	// RVA: 0x1AC3AA0 Offset: 0x1AC20A0 VA: 0x181AC3AA0 Slot: 12
+	// RVA: 0x1AC3D60 Offset: 0x1AC2360 VA: 0x181AC3D60 Slot: 12
 	public override void ImportParameters(RSAParameters parameters) { }
 
-	// RVA: 0x1AC39F0 Offset: 0x1AC1FF0 VA: 0x181AC39F0
+	// RVA: 0x1AC3CB0 Offset: 0x1AC22B0 VA: 0x181AC3CB0
 	private byte[] GetPaddedValue(BigInteger value, int length) { }
 
 }
@@ -125,10 +125,10 @@ public sealed class RSAManaged.KeyGeneratedEventHandler : MulticastDelegate // T
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xAE45C0 Offset: 0xAE2BC0 VA: 0x180AE45C0 Slot: 12
+	// RVA: 0xAE4880 Offset: 0xAE2E80 VA: 0x180AE4880 Slot: 12
 	public virtual void Invoke(object sender, EventArgs e) { }
 
-	// RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580 Slot: 13
+	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
 	public virtual IAsyncResult BeginInvoke(object sender, EventArgs e, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

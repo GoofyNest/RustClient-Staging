@@ -7,7 +7,7 @@ internal class TailoringInfo // TypeDefIndex: 31
 
 	// Methods
 
-	// RVA: 0x16518B0 Offset: 0x164FEB0 VA: 0x1816518B0
+	// RVA: 0x1651B70 Offset: 0x1650170 VA: 0x181651B70
 	public void .ctor(int lcid, int tailoringIndex, int tailoringCount, bool frenchSort) { }
 
 }

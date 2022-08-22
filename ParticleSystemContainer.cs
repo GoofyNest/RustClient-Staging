@@ -6,19 +6,19 @@ public class ParticleSystemContainer : MonoBehaviour, IPrefabPreProcess // TypeD
 
 	// Methods
 
-	// RVA: 0x85E250 Offset: 0x85C850 VA: 0x18085E250
+	// RVA: 0x85E360 Offset: 0x85C960 VA: 0x18085E360
 	public void Play() { }
 
-	// RVA: 0x85E140 Offset: 0x85C740 VA: 0x18085E140
+	// RVA: 0x85E250 Offset: 0x85C850 VA: 0x18085E250
 	public void Pause() { }
 
-	// RVA: 0x85E6C0 Offset: 0x85CCC0 VA: 0x18085E6C0
+	// RVA: 0x85E7D0 Offset: 0x85CDD0 VA: 0x18085E7D0
 	public void Stop() { }
 
-	// RVA: 0x85E030 Offset: 0x85C630 VA: 0x18085E030
+	// RVA: 0x85E140 Offset: 0x85C740 VA: 0x18085E140
 	public void Clear() { }
 
-	// RVA: 0x85E530 Offset: 0x85CB30 VA: 0x18085E530 Slot: 4
+	// RVA: 0x85E640 Offset: 0x85CC40 VA: 0x18085E640 Slot: 4
 	public void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

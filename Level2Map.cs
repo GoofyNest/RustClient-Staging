@@ -5,7 +5,7 @@ internal class Level2Map // TypeDefIndex: 34
 
 	// Methods
 
-	// RVA: 0x1643A50 Offset: 0x1642050 VA: 0x181643A50
+	// RVA: 0x1643D10 Offset: 0x1642310 VA: 0x181643D10
 	public void .ctor(byte source, byte replace) { }
 
 }

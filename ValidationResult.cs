@@ -11,13 +11,13 @@ public class ValidationResult // TypeDefIndex: 1737
 
 	// Methods
 
-	// RVA: 0x1AC66D0 Offset: 0x1AC4CD0 VA: 0x181AC66D0
+	// RVA: 0x1AC6990 Offset: 0x1AC4F90 VA: 0x181AC6990
 	public void .ctor(bool trusted, bool user_denied, int error_code, Nullable<MonoSslPolicyErrors> policy_errors) { }
 
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public bool get_Trusted() { }
 
-	// RVA: 0xF8B3B0 Offset: 0xF899B0 VA: 0x180F8B3B0
+	// RVA: 0xF8B670 Offset: 0xF89C70 VA: 0x180F8B670
 	public bool get_UserDenied() { }
 
 }

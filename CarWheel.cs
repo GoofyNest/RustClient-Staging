@@ -9,7 +9,7 @@ public class CarWheel // TypeDefIndex: 9706
 
 	// Methods
 
-	// RVA: 0x6FE240 Offset: 0x6FC840 VA: 0x1806FE240
+	// RVA: 0x6FE350 Offset: 0x6FC950 VA: 0x1806FE350
 	public void .ctor() { }
 
 }

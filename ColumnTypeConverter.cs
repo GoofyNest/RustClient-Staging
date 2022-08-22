@@ -4,7 +4,7 @@ internal sealed class ColumnTypeConverter : TypeConverter // TypeDefIndex: 4168
 
 	// Methods
 
-	// RVA: 0x1273910 Offset: 0x1271F10 VA: 0x181273910
+	// RVA: 0x1273BD0 Offset: 0x12721D0 VA: 0x181273BD0
 	private static void .cctor() { }
 
 }

@@ -7,10 +7,10 @@ internal class CodePointIndexer // TypeDefIndex: 29
 
 	// Methods
 
-	// RVA: 0x163C620 Offset: 0x163AC20 VA: 0x18163C620
+	// RVA: 0x163C8E0 Offset: 0x163AEE0 VA: 0x18163C8E0
 	public void .ctor(int[] starts, int[] ends, int defaultIndex, int defaultCP) { }
 
-	// RVA: 0x163C5A0 Offset: 0x163ABA0 VA: 0x18163C5A0
+	// RVA: 0x163C860 Offset: 0x163AE60 VA: 0x18163C860
 	public int ToIndex(int cp) { }
 
 }

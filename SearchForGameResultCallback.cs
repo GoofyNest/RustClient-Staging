@@ -20,7 +20,7 @@ internal struct SearchForGameResultCallback_t : ICallbackData // TypeDefIndex: 5
 	// RVA: 0x1D7E20 Offset: 0x1D7220 VA: 0x1801D7E20 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128EDF0 Offset: 0x128D3F0 VA: 0x18128EDF0
+	// RVA: 0x128F0B0 Offset: 0x128D6B0 VA: 0x18128F0B0
 	private static void .cctor() { }
 
 }

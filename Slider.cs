@@ -43,67 +43,67 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 
 	// Methods
 
-	// RVA: 0x872140 Offset: 0x870740 VA: 0x180872140
+	// RVA: 0x872250 Offset: 0x870850 VA: 0x180872250
 	public RectTransform get_fillRect() { }
 
-	// RVA: 0x1726810 Offset: 0x1724E10 VA: 0x181726810
+	// RVA: 0x1726AD0 Offset: 0x17250D0 VA: 0x181726AD0
 	public void set_fillRect(RectTransform value) { }
 
-	// RVA: 0xC73B60 Offset: 0xC72160 VA: 0x180C73B60
+	// RVA: 0xC73E20 Offset: 0xC72420 VA: 0x180C73E20
 	public RectTransform get_handleRect() { }
 
-	// RVA: 0x1726880 Offset: 0x1724E80 VA: 0x181726880
+	// RVA: 0x1726B40 Offset: 0x1725140 VA: 0x181726B40
 	public void set_handleRect(RectTransform value) { }
 
-	// RVA: 0x1079E00 Offset: 0x1078400 VA: 0x181079E00
+	// RVA: 0x107A0C0 Offset: 0x10786C0 VA: 0x18107A0C0
 	public Slider.Direction get_direction() { }
 
-	// RVA: 0x17267B0 Offset: 0x1724DB0 VA: 0x1817267B0
+	// RVA: 0x1726A70 Offset: 0x1725070 VA: 0x181726A70
 	public void set_direction(Slider.Direction value) { }
 
-	// RVA: 0x11D5860 Offset: 0x11D3E60 VA: 0x1811D5860
+	// RVA: 0x11D5B20 Offset: 0x11D4120 VA: 0x1811D5B20
 	public float get_minValue() { }
 
-	// RVA: 0x1726970 Offset: 0x1724F70 VA: 0x181726970
+	// RVA: 0x1726C30 Offset: 0x1725230 VA: 0x181726C30
 	public void set_minValue(float value) { }
 
-	// RVA: 0x7E6DB0 Offset: 0x7E53B0 VA: 0x1807E6DB0
+	// RVA: 0x7E6EC0 Offset: 0x7E54C0 VA: 0x1807E6EC0
 	public float get_maxValue() { }
 
-	// RVA: 0x17268F0 Offset: 0x1724EF0 VA: 0x1817268F0
+	// RVA: 0x1726BB0 Offset: 0x17251B0 VA: 0x181726BB0
 	public void set_maxValue(float value) { }
 
-	// RVA: 0x112EEB0 Offset: 0x112D4B0 VA: 0x18112EEB0
+	// RVA: 0x112F170 Offset: 0x112D770 VA: 0x18112F170
 	public bool get_wholeNumbers() { }
 
-	// RVA: 0x1726AC0 Offset: 0x17250C0 VA: 0x181726AC0
+	// RVA: 0x1726D80 Offset: 0x1725380 VA: 0x181726D80
 	public void set_wholeNumbers(bool value) { }
 
-	// RVA: 0x1726730 Offset: 0x1724D30 VA: 0x181726730 Slot: 46
+	// RVA: 0x17269F0 Offset: 0x1724FF0 VA: 0x1817269F0 Slot: 46
 	public virtual float get_value() { }
 
-	// RVA: 0x1726AA0 Offset: 0x17250A0 VA: 0x181726AA0 Slot: 47
+	// RVA: 0x1726D60 Offset: 0x1725360 VA: 0x181726D60 Slot: 47
 	public virtual void set_value(float value) { }
 
-	// RVA: 0x17259F0 Offset: 0x1723FF0 VA: 0x1817259F0 Slot: 48
+	// RVA: 0x1725CB0 Offset: 0x17242B0 VA: 0x181725CB0 Slot: 48
 	public virtual void SetValueWithoutNotify(float input) { }
 
-	// RVA: 0x17265E0 Offset: 0x1724BE0 VA: 0x1817265E0
+	// RVA: 0x17268A0 Offset: 0x1724EA0 VA: 0x1817268A0
 	public float get_normalizedValue() { }
 
-	// RVA: 0x17269F0 Offset: 0x1724FF0 VA: 0x1817269F0
+	// RVA: 0x1726CB0 Offset: 0x17252B0 VA: 0x181726CB0
 	public void set_normalizedValue(float value) { }
 
-	// RVA: 0x871D30 Offset: 0x870330 VA: 0x180871D30
+	// RVA: 0x871E40 Offset: 0x870440 VA: 0x180871E40
 	public Slider.SliderEvent get_onValueChanged() { }
 
-	// RVA: 0x872180 Offset: 0x870780 VA: 0x180872180
+	// RVA: 0x872290 Offset: 0x870890 VA: 0x180872290
 	public void set_onValueChanged(Slider.SliderEvent value) { }
 
-	// RVA: 0x1726700 Offset: 0x1724D00 VA: 0x181726700
+	// RVA: 0x17269C0 Offset: 0x1724FC0 VA: 0x1817269C0
 	private float get_stepSize() { }
 
-	// RVA: 0x17264F0 Offset: 0x1724AF0 VA: 0x1817264F0
+	// RVA: 0x17267B0 Offset: 0x1724DB0 VA: 0x1817267B0
 	protected void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 49
@@ -115,73 +115,73 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 51
 	public virtual void GraphicUpdateComplete() { }
 
-	// RVA: 0x17252E0 Offset: 0x17238E0 VA: 0x1817252E0 Slot: 5
+	// RVA: 0x17255A0 Offset: 0x1723BA0 VA: 0x1817255A0 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x1725230 Offset: 0x1723830 VA: 0x181725230 Slot: 7
+	// RVA: 0x17254F0 Offset: 0x1723AF0 VA: 0x1817254F0 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x17264D0 Offset: 0x1724AD0 VA: 0x1817264D0 Slot: 52
+	// RVA: 0x1726790 Offset: 0x1724D90 VA: 0x181726790 Slot: 52
 	protected virtual void Update() { }
 
-	// RVA: 0x1724FE0 Offset: 0x17235E0 VA: 0x181724FE0 Slot: 13
+	// RVA: 0x17252A0 Offset: 0x17238A0 VA: 0x1817252A0 Slot: 13
 	protected override void OnDidApplyAnimationProperties() { }
 
-	// RVA: 0x1725AC0 Offset: 0x17240C0 VA: 0x181725AC0
+	// RVA: 0x1725D80 Offset: 0x1724380 VA: 0x181725D80
 	private void UpdateCachedReferences() { }
 
-	// RVA: 0x1724E60 Offset: 0x1723460 VA: 0x181724E60
+	// RVA: 0x1725120 Offset: 0x1723720 VA: 0x181725120
 	private float ClampValue(float input) { }
 
-	// RVA: 0x1725A10 Offset: 0x1724010 VA: 0x181725A10 Slot: 53
+	// RVA: 0x1725CD0 Offset: 0x17242D0 VA: 0x181725CD0 Slot: 53
 	protected virtual void Set(float input, bool sendCallback = True) { }
 
-	// RVA: 0x1725820 Offset: 0x1723E20 VA: 0x181725820 Slot: 10
+	// RVA: 0x1725AE0 Offset: 0x17240E0 VA: 0x181725AE0 Slot: 10
 	protected override void OnRectTransformDimensionsChange() { }
 
-	// RVA: 0x17265D0 Offset: 0x1724BD0 VA: 0x1817265D0
+	// RVA: 0x1726890 Offset: 0x1724E90 VA: 0x181726890
 	private Slider.Axis get_axis() { }
 
-	// RVA: 0x17266E0 Offset: 0x1724CE0 VA: 0x1817266E0
+	// RVA: 0x17269A0 Offset: 0x1724FA0 VA: 0x1817269A0
 	private bool get_reverseValue() { }
 
-	// RVA: 0x17261A0 Offset: 0x17247A0 VA: 0x1817261A0
+	// RVA: 0x1726460 Offset: 0x1724A60 VA: 0x181726460
 	private void UpdateVisuals() { }
 
-	// RVA: 0x1725E50 Offset: 0x1724450 VA: 0x181725E50
+	// RVA: 0x1726110 Offset: 0x1724710 VA: 0x181726110
 	private void UpdateDrag(PointerEventData eventData, Camera cam) { }
 
-	// RVA: 0x1720010 Offset: 0x171E610 VA: 0x181720010
+	// RVA: 0x17202D0 Offset: 0x171E8D0 VA: 0x1817202D0
 	private bool MayDrag(PointerEventData eventData) { }
 
-	// RVA: 0x17255E0 Offset: 0x1723BE0 VA: 0x1817255E0 Slot: 32
+	// RVA: 0x17258A0 Offset: 0x1723EA0 VA: 0x1817258A0 Slot: 32
 	public override void OnPointerDown(PointerEventData eventData) { }
 
-	// RVA: 0x1725260 Offset: 0x1723860 VA: 0x181725260 Slot: 54
+	// RVA: 0x1725520 Offset: 0x1723B20 VA: 0x181725520 Slot: 54
 	public virtual void OnDrag(PointerEventData eventData) { }
 
-	// RVA: 0x1725330 Offset: 0x1723930 VA: 0x181725330 Slot: 31
+	// RVA: 0x17255F0 Offset: 0x1723BF0 VA: 0x1817255F0 Slot: 31
 	public override void OnMove(AxisEventData eventData) { }
 
-	// RVA: 0x1724F50 Offset: 0x1723550 VA: 0x181724F50 Slot: 27
+	// RVA: 0x1725210 Offset: 0x1723810 VA: 0x181725210 Slot: 27
 	public override Selectable FindSelectableOnLeft() { }
 
-	// RVA: 0x1724F80 Offset: 0x1723580 VA: 0x181724F80 Slot: 28
+	// RVA: 0x1725240 Offset: 0x1723840 VA: 0x181725240 Slot: 28
 	public override Selectable FindSelectableOnRight() { }
 
-	// RVA: 0x1724FB0 Offset: 0x17235B0 VA: 0x181724FB0 Slot: 29
+	// RVA: 0x1725270 Offset: 0x1723870 VA: 0x181725270 Slot: 29
 	public override Selectable FindSelectableOnUp() { }
 
-	// RVA: 0x1724F20 Offset: 0x1723520 VA: 0x181724F20 Slot: 30
+	// RVA: 0x17251E0 Offset: 0x17237E0 VA: 0x1817251E0 Slot: 30
 	public override Selectable FindSelectableOnDown() { }
 
-	// RVA: 0xFCEE90 Offset: 0xFCD490 VA: 0x180FCEE90 Slot: 55
+	// RVA: 0xFCF150 Offset: 0xFCD750 VA: 0x180FCF150 Slot: 55
 	public virtual void OnInitializePotentialDrag(PointerEventData eventData) { }
 
-	// RVA: 0x1725860 Offset: 0x1723E60 VA: 0x181725860
+	// RVA: 0x1725B20 Offset: 0x1724120 VA: 0x181725B20
 	public void SetDirection(Slider.Direction direction, bool includeRectLayouts) { }
 
-	// RVA: 0xABD310 Offset: 0xABB910 VA: 0x180ABD310 Slot: 42
+	// RVA: 0xABD5D0 Offset: 0xABBBD0 VA: 0x180ABD5D0 Slot: 42
 	private Transform UnityEngine.UI.ICanvasElement.get_transform() { }
 
 }
@@ -199,7 +199,7 @@ public enum Slider.Direction // TypeDefIndex: 5008
 public class Slider.SliderEvent : UnityEvent<float> // TypeDefIndex: 5009
 {	// Methods
 
-	// RVA: 0x22441E0 Offset: 0x22427E0 VA: 0x1822441E0
+	// RVA: 0x22444A0 Offset: 0x2242AA0 VA: 0x1822444A0
 	public void .ctor() { }
 
 }

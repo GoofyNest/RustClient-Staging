@@ -21,7 +21,7 @@ public struct X509ChainStatus // TypeDefIndex: 2829
 	// RVA: 0xF14A0 Offset: 0xF08A0 VA: 0x1800F14A0
 	public void set_StatusInformation(string value) { }
 
-	// RVA: 0x14D9340 Offset: 0x14D7940 VA: 0x1814D9340
+	// RVA: 0x14D9600 Offset: 0x14D7C00 VA: 0x1814D9600
 	internal static string GetInformation(X509ChainStatusFlags flags) { }
 
 }

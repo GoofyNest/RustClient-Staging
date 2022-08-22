@@ -5,13 +5,13 @@ public class PropertyCollection : Hashtable, ICloneable // TypeDefIndex: 4282
 public class PropertyCollection : Hashtable, ICloneable // TypeDefIndex: 4282
 	// Methods
 
-	// RVA: 0xE94AE0 Offset: 0xE930E0 VA: 0x180E94AE0
+	// RVA: 0xE94DA0 Offset: 0xE933A0 VA: 0x180E94DA0
 	public void .ctor() { }
 
-	// RVA: 0xE94AC0 Offset: 0xE930C0 VA: 0x180E94AC0
+	// RVA: 0xE94D80 Offset: 0xE93380 VA: 0x180E94D80
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xE948B0 Offset: 0xE92EB0 VA: 0x180E948B0 Slot: 23
+	// RVA: 0xE94B70 Offset: 0xE93170 VA: 0x180E94B70 Slot: 23
 	public override object Clone() { }
 
 }

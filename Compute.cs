@@ -14,10 +14,10 @@ public class Compute_DT_EventArgs // TypeDefIndex: 6852
 
 	// Methods
 
-	// RVA: 0xC65100 Offset: 0xC63700 VA: 0x180C65100
+	// RVA: 0xC653C0 Offset: 0xC639C0 VA: 0x180C653C0
 	public void .ctor(Compute_DistanceTransform_EventTypes type, float progress) { }
 
-	// RVA: 0xC650C0 Offset: 0xC636C0 VA: 0x180C650C0
+	// RVA: 0xC65380 Offset: 0xC63980 VA: 0x180C65380
 	public void .ctor(Compute_DistanceTransform_EventTypes type, Color[] colors) { }
 
 }

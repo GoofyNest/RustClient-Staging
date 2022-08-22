@@ -4,7 +4,7 @@ public class ButtonAttribute : BaseEditorExAttribute // TypeDefIndex: 8017
 
 	// Methods
 
-	// RVA: 0x1068630 Offset: 0x1066C30 VA: 0x181068630
+	// RVA: 0x10688F0 Offset: 0x1066EF0 VA: 0x1810688F0
 	public void .ctor(string name) { }
 
 }

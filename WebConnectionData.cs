@@ -16,7 +16,7 @@ internal class WebConnectionData // TypeDefIndex: 3030
 
 	// Methods
 
-	// RVA: 0x117E9C0 Offset: 0x117CFC0 VA: 0x18117E9C0
+	// RVA: 0x117EC80 Offset: 0x117D280 VA: 0x18117EC80
 	public void .ctor() { }
 
 	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
@@ -28,10 +28,10 @@ internal class WebConnectionData // TypeDefIndex: 3030
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	public void set_request(HttpWebRequest value) { }
 
-	// RVA: 0x8D8F00 Offset: 0x8D7500 VA: 0x1808D8F00
+	// RVA: 0x8D9010 Offset: 0x8D7610 VA: 0x1808D9010
 	public ReadState get_ReadState() { }
 
-	// RVA: 0x117E9E0 Offset: 0x117CFE0 VA: 0x18117E9E0
+	// RVA: 0x117ECA0 Offset: 0x117D2A0 VA: 0x18117ECA0
 	public void set_ReadState(ReadState value) { }
 
 }

@@ -7,7 +7,7 @@ public sealed class UnknownChannelEventException : MidiException // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x13AB170 Offset: 0x13A9770 VA: 0x1813AB170
+	// RVA: 0x13AB430 Offset: 0x13A9A30 VA: 0x1813AB430
 	internal void .ctor(FourBitNumber statusByte, FourBitNumber channel) { }
 
 }

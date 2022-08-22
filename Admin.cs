@@ -7,10 +7,10 @@ public class AdminExistingSellOrder : MonoBehaviour // TypeDefIndex: 8728
 
 	// Methods
 
-	// RVA: 0xA9FA00 Offset: 0xA9E000 VA: 0x180A9FA00
+	// RVA: 0xA9FCC0 Offset: 0xA9E2C0 VA: 0x180A9FCC0
 	public void Setup(VendingMachine.SellOrder so, int newIndex, VendingPanelAdmin admin) { }
 
-	// RVA: 0xA9F980 Offset: 0xA9DF80 VA: 0x180A9F980
+	// RVA: 0xA9FC40 Offset: 0xA9E240 VA: 0x180A9FC40
 	public void DeleteClick() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -21,13 +21,13 @@ public class AdminExistingSellOrder : MonoBehaviour // TypeDefIndex: 8728
 public class AdminUI : MonoBehaviour // TypeDefIndex: 10825
 {	// Methods
 
-	// RVA: 0xA9FAE0 Offset: 0xA9E0E0 VA: 0x180A9FAE0
+	// RVA: 0xA9FDA0 Offset: 0xA9E3A0 VA: 0x180A9FDA0
 	public bool IsVisible() { }
 
-	// RVA: 0xA9FC40 Offset: 0xA9E240 VA: 0x180A9FC40
+	// RVA: 0xA9FF00 Offset: 0xA9E500 VA: 0x180A9FF00
 	public void OnPanelOpened() { }
 
-	// RVA: 0xA9FC90 Offset: 0xA9E290 VA: 0x180A9FC90
+	// RVA: 0xA9FF50 Offset: 0xA9E550 VA: 0x180A9FF50
 	public void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -120,7 +120,7 @@ public class Admin : ConsoleSystem // TypeDefIndex: 11875
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void banid(ConsoleSystem.Arg arg) { }
 
-	// RVA: 0x6C9B80 Offset: 0x6C8180 VA: 0x1806C9B80
+	// RVA: 0x6C9C90 Offset: 0x6C8290 VA: 0x1806C9C90
 	private static bool TryGetBanExpiry(ConsoleSystem.Arg arg, int n, out long expiry, out string durationSuffix) { }
 
 	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
@@ -196,57 +196,57 @@ public class Admin : ConsoleSystem // TypeDefIndex: 11875
 	public static void carstats(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x84780 Offset: 0x83B80 VA: 0x180084780
-	// RVA: 0x6C9DC0 Offset: 0x6C83C0 VA: 0x1806C9DC0
+	// RVA: 0x6C9ED0 Offset: 0x6C84D0 VA: 0x1806C9ED0
 	public static string ent(ConsoleSystem.Arg args) { }
 
-	// RVA: 0x6CA040 Offset: 0x6C8640 VA: 0x1806CA040
+	// RVA: 0x6CA150 Offset: 0x6C8750 VA: 0x1806CA150
 	public static float get_adminclouds() { }
 
-	// RVA: 0x6CA900 Offset: 0x6C8F00 VA: 0x1806CA900
+	// RVA: 0x6CAA10 Offset: 0x6C9010 VA: 0x1806CAA10
 	public static void set_adminclouds(float value) { }
 
-	// RVA: 0x6CA130 Offset: 0x6C8730 VA: 0x1806CA130
+	// RVA: 0x6CA240 Offset: 0x6C8840 VA: 0x1806CA240
 	public static float get_adminfog() { }
 
-	// RVA: 0x6CA9F0 Offset: 0x6C8FF0 VA: 0x1806CA9F0
+	// RVA: 0x6CAB00 Offset: 0x6C9100 VA: 0x1806CAB00
 	public static void set_adminfog(float value) { }
 
-	// RVA: 0x6CA310 Offset: 0x6C8910 VA: 0x1806CA310
+	// RVA: 0x6CA420 Offset: 0x6C8A20 VA: 0x1806CA420
 	public static float get_adminwind() { }
 
-	// RVA: 0x6CABD0 Offset: 0x6C91D0 VA: 0x1806CABD0
+	// RVA: 0x6CACE0 Offset: 0x6C92E0 VA: 0x1806CACE0
 	public static void set_adminwind(float value) { }
 
-	// RVA: 0x6CA220 Offset: 0x6C8820 VA: 0x1806CA220
+	// RVA: 0x6CA330 Offset: 0x6C8930 VA: 0x1806CA330
 	public static float get_adminrain() { }
 
-	// RVA: 0x6CAAE0 Offset: 0x6C90E0 VA: 0x1806CAAE0
+	// RVA: 0x6CABF0 Offset: 0x6C91F0 VA: 0x1806CABF0
 	public static void set_adminrain(float value) { }
 
 	[ClientVar] // RVA: 0x84830 Offset: 0x83C30 VA: 0x180084830
-	// RVA: 0x6C9970 Offset: 0x6C7F70 VA: 0x1806C9970
+	// RVA: 0x6C9A80 Offset: 0x6C8080 VA: 0x1806C9A80
 	public static void AdminUI_ReceivePlayerList(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x84830 Offset: 0x83C30 VA: 0x180084830
-	// RVA: 0x6C9A20 Offset: 0x6C8020 VA: 0x1806C9A20
+	// RVA: 0x6C9B30 Offset: 0x6C8130 VA: 0x1806C9B30
 	public static void AdminUI_ReceiveServerInfo(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x84830 Offset: 0x83C30 VA: 0x180084830
-	// RVA: 0x6C98C0 Offset: 0x6C7EC0 VA: 0x1806C98C0
+	// RVA: 0x6C99D0 Offset: 0x6C7FD0 VA: 0x1806C99D0
 	public static void AdminUI_ReceiveCommands(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x84830 Offset: 0x83C30 VA: 0x180084830
-	// RVA: 0x6C9AD0 Offset: 0x6C80D0 VA: 0x1806C9AD0
+	// RVA: 0x6C9BE0 Offset: 0x6C81E0 VA: 0x1806C9BE0
 	public static void AdminUI_ReceiveUGCList(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x84BD0 Offset: 0x83FD0 VA: 0x180084BD0
-	// RVA: 0x6CA400 Offset: 0x6C8A00 VA: 0x1806CA400
+	// RVA: 0x6CA510 Offset: 0x6C8B10 VA: 0x1806CA510
 	public static void hudcomponent(ConsoleSystem.Arg arg) { }
 
-	// RVA: 0x6C9D60 Offset: 0x6C8360 VA: 0x1806C9D60
+	// RVA: 0x6C9E70 Offset: 0x6C8470 VA: 0x1806C9E70
 	public void .ctor() { }
 
-	// RVA: 0x6C9C90 Offset: 0x6C8290 VA: 0x1806C9C90
+	// RVA: 0x6C9DA0 Offset: 0x6C83A0 VA: 0x1806C9DA0
 	private static void .cctor() { }
 
 }

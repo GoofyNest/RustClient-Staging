@@ -1,22 +1,22 @@
 public static class Runtime // TypeDefIndex: 4
 {	// Methods
 
-	// RVA: 0x164A560 Offset: 0x1648B60 VA: 0x18164A560
+	// RVA: 0x164A820 Offset: 0x1648E20 VA: 0x18164A820
 	private static void mono_runtime_install_handlers() { }
 
-	// RVA: 0x164A560 Offset: 0x1648B60 VA: 0x18164A560
+	// RVA: 0x164A820 Offset: 0x1648E20 VA: 0x18164A820
 	public static void InstallSignalHandlers() { }
 
-	// RVA: 0x164A570 Offset: 0x1648B70 VA: 0x18164A570
+	// RVA: 0x164A830 Offset: 0x1648E30 VA: 0x18164A830
 	private static void mono_runtime_cleanup_handlers() { }
 
-	// RVA: 0x164A570 Offset: 0x1648B70 VA: 0x18164A570
+	// RVA: 0x164A830 Offset: 0x1648E30 VA: 0x18164A830
 	public static void RemoveSignalHandlers() { }
 
-	// RVA: 0x164A550 Offset: 0x1648B50 VA: 0x18164A550
+	// RVA: 0x164A810 Offset: 0x1648E10 VA: 0x18164A810
 	public static string GetDisplayName() { }
 
-	// RVA: 0xD72E30 Offset: 0xD71430 VA: 0x180D72E30
+	// RVA: 0xD730F0 Offset: 0xD716F0 VA: 0x180D730F0
 	private static string GetNativeStackTrace(Exception exception) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250
@@ -49,65 +49,65 @@ public static class Runtime // TypeDefIndex: 7162
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22E81C0 Offset: 0x22E67C0 VA: 0x1822E81C0
+	// RVA: 0x22E8480 Offset: 0x22E6A80 VA: 0x1822E8480
 	public static bool get_Initialized() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22E82E0 Offset: 0x22E68E0 VA: 0x1822E82E0
+	// RVA: 0x22E85A0 Offset: 0x22E6BA0 VA: 0x1822E85A0
 	private static void set_Initialized(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22E8340 Offset: 0x22E6940 VA: 0x1822E8340
+	// RVA: 0x22E8600 Offset: 0x22E6C00 VA: 0x1822E8600
 	private static void set_Integrity(IntegrityDescriptor value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22E8280 Offset: 0x22E6880 VA: 0x1822E8280
+	// RVA: 0x22E8540 Offset: 0x22E6B40 VA: 0x1822E8540
 	private static void set_HostValidation(HostValidationResult value) { }
 
-	// RVA: 0x22E6E30 Offset: 0x22E5430 VA: 0x1822E6E30
+	// RVA: 0x22E70F0 Offset: 0x22E56F0 VA: 0x1822E70F0
 	public static void Initialize(EventHandler<StateChangedEventArgs> onStateChanged, EventHandler<LoadCompletedEventArgs> onCompleted, EventHandler<LoadProgressEventArgs> onProgress) { }
 
-	// RVA: 0x22E70C0 Offset: 0x22E56C0 VA: 0x1822E70C0
+	// RVA: 0x22E7380 Offset: 0x22E5980 VA: 0x1822E7380
 	public static bool IsActive() { }
 
-	// RVA: 0x22E7E10 Offset: 0x22E6410 VA: 0x1822E7E10
+	// RVA: 0x22E80D0 Offset: 0x22E66D0 VA: 0x1822E80D0
 	public static void Release() { }
 
-	// RVA: 0x22E7F80 Offset: 0x22E6580 VA: 0x1822E7F80
+	// RVA: 0x22E8240 Offset: 0x22E6840 VA: 0x1822E8240
 	public static void SetPlatformUserAuthTicket(string PlatformName, byte[] AuthTicket, int AuthTicketLength) { }
 
-	// RVA: 0x22E6D70 Offset: 0x22E5370 VA: 0x1822E6D70
+	// RVA: 0x22E7030 Offset: 0x22E5630 VA: 0x1822E7030
 	public static void ConnectionReset() { }
 
-	// RVA: 0x22E7B30 Offset: 0x22E6130 VA: 0x1822E7B30
+	// RVA: 0x22E7DF0 Offset: 0x22E63F0 VA: 0x1822E7DF0
 	public static bool PopNetworkMessage(out byte[] MessageBuffer, out int MessageLength) { }
 
-	// RVA: 0x22E7CB0 Offset: 0x22E62B0 VA: 0x1822E7CB0
+	// RVA: 0x22E7F70 Offset: 0x22E6570 VA: 0x1822E7F70
 	public static void PushNetworkMessage(byte[] MessageBuffer, int MessageLength) { }
 
-	// RVA: 0x22E79C0 Offset: 0x22E5FC0 VA: 0x1822E79C0
+	// RVA: 0x22E7C80 Offset: 0x22E6280 VA: 0x1822E7C80
 	public static void PollStatus() { }
 
-	// RVA: 0x22E8220 Offset: 0x22E6820 VA: 0x1822E8220
+	// RVA: 0x22E84E0 Offset: 0x22E6AE0 VA: 0x1822E84E0
 	public static INetProtect get_NetProtect() { }
 
 	[MonoPInvokeCallbackAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22E78A0 Offset: 0x22E5EA0 VA: 0x1822E78A0
+	// RVA: 0x22E7B60 Offset: 0x22E6160 VA: 0x1822E7B60
 	private static uint OnInternalProgress(uint Progress, IntPtr CallbackParameter) { }
 
 	[MonoPInvokeCallbackAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22E7680 Offset: 0x22E5C80 VA: 0x1822E7680
+	// RVA: 0x22E7940 Offset: 0x22E5F40 VA: 0x1822E7940
 	private static void OnInternalEvent(LoadResult Result, string Message, IntPtr CallbackParameter) { }
 
 	[MonoPInvokeCallbackAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22E73E0 Offset: 0x22E59E0 VA: 0x1822E73E0
+	// RVA: 0x22E76A0 Offset: 0x22E5CA0 VA: 0x1822E76A0
 	private static uint OnIntegrityViolation(ClientIntegrityViolationType ViolationType, string ViolationCause, string DefaultMessage, IntPtr CallbackParameter) { }
 
 	[MonoPInvokeCallbackAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22E7170 Offset: 0x22E5770 VA: 0x1822E7170
+	// RVA: 0x22E7430 Offset: 0x22E5A30 VA: 0x1822E7430
 	private static bool OnHostValidation(HostValidationResult Result, string Message, IntPtr CallbackParameter) { }
 
-	// RVA: 0x22E80E0 Offset: 0x22E66E0 VA: 0x1822E80E0
+	// RVA: 0x22E83A0 Offset: 0x22E69A0 VA: 0x1822E83A0
 	private static void .cctor() { }
 
 }
@@ -121,7 +121,7 @@ private sealed class Runtime.<>c__DisplayClass19_0 // TypeDefIndex: 7163
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x22E8430 Offset: 0x22E6A30 VA: 0x1822E8430
+	// RVA: 0x22E86F0 Offset: 0x22E6CF0 VA: 0x1822E86F0
 	internal void <Initialize>b__0(object s, LoadCompletedEventArgs args) { }
 
 }

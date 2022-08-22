@@ -15,7 +15,7 @@ internal class ErrorMessage : IMethodCallMessage, IMethodMessage, IMessage // Ty
 
 	// Methods
 
-	// RVA: 0x1477940 Offset: 0x1475F40 VA: 0x181477940
+	// RVA: 0x1477C00 Offset: 0x1476200 VA: 0x181477C00
 	public void .ctor() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 4
@@ -27,7 +27,7 @@ internal class ErrorMessage : IMethodCallMessage, IMethodMessage, IMessage // Ty
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 7
 	public MethodBase get_MethodBase() { }
 
-	// RVA: 0x1477990 Offset: 0x1475F90 VA: 0x181477990 Slot: 8
+	// RVA: 0x1477C50 Offset: 0x1476250 VA: 0x181477C50 Slot: 8
 	public string get_MethodName() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 9
@@ -36,7 +36,7 @@ internal class ErrorMessage : IMethodCallMessage, IMethodMessage, IMessage // Ty
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 14
 	public virtual IDictionary get_Properties() { }
 
-	// RVA: 0x14779C0 Offset: 0x1475FC0 VA: 0x1814779C0 Slot: 10
+	// RVA: 0x1477C80 Offset: 0x1476280 VA: 0x181477C80 Slot: 10
 	public string get_TypeName() { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 11

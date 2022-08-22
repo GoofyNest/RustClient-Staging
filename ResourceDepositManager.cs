@@ -6,7 +6,7 @@ public class ResourceDepositManager : BaseEntity // TypeDefIndex: 9571
 
 	// Methods
 
-	// RVA: 0x955CB0 Offset: 0x9542B0 VA: 0x180955CB0
+	// RVA: 0x955DC0 Offset: 0x9543C0 VA: 0x180955DC0
 	public void .ctor() { }
 
 }
@@ -19,10 +19,10 @@ public class ResourceDepositManager.ResourceDeposit // TypeDefIndex: 9572
 
 	// Methods
 
-	// RVA: 0x955DF0 Offset: 0x9543F0 VA: 0x180955DF0
+	// RVA: 0x955F00 Offset: 0x954500 VA: 0x180955F00
 	public void .ctor() { }
 
-	// RVA: 0x955D10 Offset: 0x954310 VA: 0x180955D10
+	// RVA: 0x955E20 Offset: 0x954420 VA: 0x180955E20
 	public void Add(ItemDefinition type, float efficiency, int amount, float workNeeded, ResourceDepositManager.ResourceDeposit.surveySpawnType spawnType, bool liquid = False) { }
 
 }
@@ -49,10 +49,10 @@ public class ResourceDepositManager.ResourceDeposit.ResourceDepositEntry // Type
 
 	// Methods
 
-	// RVA: 0x955C70 Offset: 0x954270 VA: 0x180955C70
+	// RVA: 0x955D80 Offset: 0x954380 VA: 0x180955D80
 	public void Subtract(int subamount) { }
 
-	// RVA: 0x955C90 Offset: 0x954290 VA: 0x180955C90
+	// RVA: 0x955DA0 Offset: 0x9543A0 VA: 0x180955DA0
 	public void .ctor() { }
 
 }

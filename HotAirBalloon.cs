@@ -7,82 +7,82 @@ public class HotAirBalloon : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1BFDD50 Offset: 0x1BFC350 VA: 0x181BFDD50
+	// RVA: 0x1BFE010 Offset: 0x1BFC610 VA: 0x181BFE010
 	public static void ResetToPool(HotAirBalloon instance) { }
 
-	// RVA: 0x1BFDDE0 Offset: 0x1BFC3E0 VA: 0x181BFDDE0
+	// RVA: 0x1BFE0A0 Offset: 0x1BFC6A0 VA: 0x181BFE0A0
 	public void ResetToPool() { }
 
-	// RVA: 0x1BFDC00 Offset: 0x1BFC200 VA: 0x181BFDC00 Slot: 9
+	// RVA: 0x1BFDEC0 Offset: 0x1BFC4C0 VA: 0x181BFDEC0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFD180 Offset: 0x1BFB780 VA: 0x181BFD180
+	// RVA: 0x1BFD440 Offset: 0x1BFBA40 VA: 0x181BFD440
 	public void CopyTo(HotAirBalloon instance) { }
 
-	// RVA: 0x1BFD1B0 Offset: 0x1BFB7B0 VA: 0x181BFD1B0
+	// RVA: 0x1BFD470 Offset: 0x1BFBA70 VA: 0x181BFD470
 	public HotAirBalloon Copy() { }
 
-	// RVA: 0x1BFD7D0 Offset: 0x1BFBDD0 VA: 0x181BFD7D0
+	// RVA: 0x1BFDA90 Offset: 0x1BFC090 VA: 0x181BFDA90
 	public static HotAirBalloon Deserialize(Stream stream) { }
 
-	// RVA: 0x1BFD230 Offset: 0x1BFB830 VA: 0x181BFD230
+	// RVA: 0x1BFD4F0 Offset: 0x1BFBAF0 VA: 0x181BFD4F0
 	public static HotAirBalloon DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1BFD510 Offset: 0x1BFBB10 VA: 0x181BFD510
+	// RVA: 0x1BFD7D0 Offset: 0x1BFBDD0 VA: 0x181BFD7D0
 	public static HotAirBalloon DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1BFD850 Offset: 0x1BFBE50 VA: 0x181BFD850
+	// RVA: 0x1BFDB10 Offset: 0x1BFC110 VA: 0x181BFDB10
 	public static HotAirBalloon Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1BFDD10 Offset: 0x1BFC310 VA: 0x181BFDD10
+	// RVA: 0x1BFDFD0 Offset: 0x1BFC5D0 VA: 0x181BFDFD0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1BFE490 Offset: 0x1BFCA90 VA: 0x181BFE490 Slot: 12
+	// RVA: 0x1BFE750 Offset: 0x1BFCD50 VA: 0x181BFE750 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1BFE4B0 Offset: 0x1BFCAB0 VA: 0x181BFE4B0 Slot: 13
+	// RVA: 0x1BFE770 Offset: 0x1BFCD70 VA: 0x181BFE770 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, HotAirBalloon previous) { }
 
-	// RVA: 0x1BFDD30 Offset: 0x1BFC330 VA: 0x181BFDD30 Slot: 14
+	// RVA: 0x1BFDFF0 Offset: 0x1BFC5F0 VA: 0x181BFDFF0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1BFD970 Offset: 0x1BFBF70 VA: 0x181BFD970
+	// RVA: 0x1BFDC30 Offset: 0x1BFC230 VA: 0x181BFDC30
 	public static HotAirBalloon Deserialize(byte[] buffer, HotAirBalloon instance, bool isDelta = False) { }
 
-	// RVA: 0x1BFDA70 Offset: 0x1BFC070 VA: 0x181BFDA70
+	// RVA: 0x1BFDD30 Offset: 0x1BFC330 VA: 0x181BFDD30
 	public static HotAirBalloon Deserialize(Stream stream, HotAirBalloon instance, bool isDelta) { }
 
-	// RVA: 0x1BFD2B0 Offset: 0x1BFB8B0 VA: 0x181BFD2B0
+	// RVA: 0x1BFD570 Offset: 0x1BFBB70 VA: 0x181BFD570
 	public static HotAirBalloon DeserializeLengthDelimited(Stream stream, HotAirBalloon instance, bool isDelta) { }
 
-	// RVA: 0x1BFD5A0 Offset: 0x1BFBBA0 VA: 0x181BFD5A0
+	// RVA: 0x1BFD860 Offset: 0x1BFBE60 VA: 0x181BFD860
 	public static HotAirBalloon DeserializeLength(Stream stream, int length, HotAirBalloon instance, bool isDelta) { }
 
-	// RVA: 0x1BFDE70 Offset: 0x1BFC470 VA: 0x181BFDE70
+	// RVA: 0x1BFE130 Offset: 0x1BFC730 VA: 0x181BFE130
 	public static void SerializeDelta(Stream stream, HotAirBalloon instance, HotAirBalloon previous) { }
 
-	// RVA: 0x1BFE2E0 Offset: 0x1BFC8E0 VA: 0x181BFE2E0
+	// RVA: 0x1BFE5A0 Offset: 0x1BFCBA0 VA: 0x181BFE5A0
 	public static void Serialize(Stream stream, HotAirBalloon instance) { }
 
-	// RVA: 0x1BFE480 Offset: 0x1BFCA80 VA: 0x181BFE480
+	// RVA: 0x1BFE740 Offset: 0x1BFCD40 VA: 0x181BFE740
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1BFE490 Offset: 0x1BFCA90 VA: 0x181BFE490
+	// RVA: 0x1BFE750 Offset: 0x1BFCD50 VA: 0x181BFE750
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1BFE1D0 Offset: 0x1BFC7D0 VA: 0x181BFE1D0
+	// RVA: 0x1BFE490 Offset: 0x1BFCA90 VA: 0x181BFE490
 	public static byte[] SerializeToBytes(HotAirBalloon instance) { }
 
-	// RVA: 0x1BFE120 Offset: 0x1BFC720 VA: 0x181BFE120
+	// RVA: 0x1BFE3E0 Offset: 0x1BFC9E0 VA: 0x181BFE3E0
 	public static void SerializeLengthDelimited(Stream stream, HotAirBalloon instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -136,79 +136,79 @@ public class HotAirBalloon : BaseCombatEntity // TypeDefIndex: 8398
 
 	// Methods
 
-	// RVA: 0x743690 Offset: 0x741C90 VA: 0x180743690 Slot: 49
+	// RVA: 0x7437A0 Offset: 0x741DA0 VA: 0x1807437A0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x744DD0 Offset: 0x7433D0 VA: 0x180744DD0 Slot: 50
+	// RVA: 0x744EE0 Offset: 0x7434E0 VA: 0x180744EE0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x744470 Offset: 0x742A70 VA: 0x180744470 Slot: 35
+	// RVA: 0x744580 Offset: 0x742B80 VA: 0x180744580 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x744FA0 Offset: 0x7435A0 VA: 0x180744FA0
+	// RVA: 0x7450B0 Offset: 0x7436B0 VA: 0x1807450B0
 	public bool get_IsFullyInflated() { }
 
-	// RVA: 0x743F80 Offset: 0x742580 VA: 0x180743F80 Slot: 28
+	// RVA: 0x744090 Offset: 0x742690 VA: 0x180744090 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0x744030 Offset: 0x742630 VA: 0x180744030 Slot: 34
+	// RVA: 0x744140 Offset: 0x742740 VA: 0x180744140 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x744C60 Offset: 0x743260 VA: 0x180744C60
+	// RVA: 0x744D70 Offset: 0x743370 VA: 0x180744D70
 	public bool WaterLogged() { }
 
 	[BaseEntity.Menu] // RVA: 0xE78A0 Offset: 0xE6CA0 VA: 0x1800E78A0
 	[BaseEntity.Menu.Description] // RVA: 0xE78A0 Offset: 0xE6CA0 VA: 0x1800E78A0
 	[BaseEntity.Menu.Icon] // RVA: 0xE78A0 Offset: 0xE6CA0 VA: 0x1800E78A0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xE78A0 Offset: 0xE6CA0 VA: 0x1800E78A0
-	// RVA: 0x744330 Offset: 0x742930 VA: 0x180744330
+	// RVA: 0x744440 Offset: 0x742A40 VA: 0x180744440
 	public void Menu_BurnOn(BasePlayer player) { }
 
-	// RVA: 0x744200 Offset: 0x742800 VA: 0x180744200
+	// RVA: 0x744310 Offset: 0x742910 VA: 0x180744310
 	public bool Menu_BurnOn_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xE79F0 Offset: 0xE6DF0 VA: 0x1800E79F0
 	[BaseEntity.Menu.Description] // RVA: 0xE79F0 Offset: 0xE6DF0 VA: 0x1800E79F0
 	[BaseEntity.Menu.Icon] // RVA: 0xE79F0 Offset: 0xE6DF0 VA: 0x1800E79F0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xE79F0 Offset: 0xE6DF0 VA: 0x1800E79F0
-	// RVA: 0x7441B0 Offset: 0x7427B0 VA: 0x1807441B0
+	// RVA: 0x7442C0 Offset: 0x7428C0 VA: 0x1807442C0
 	public void Menu_BurnOff(BasePlayer player) { }
 
-	// RVA: 0x7440F0 Offset: 0x7426F0 VA: 0x1807440F0
+	// RVA: 0x744200 Offset: 0x742800 VA: 0x180744200
 	public bool Menu_BurnOff_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xE7B70 Offset: 0xE6F70 VA: 0x1800E7B70
 	[BaseEntity.Menu.Description] // RVA: 0xE7B70 Offset: 0xE6F70 VA: 0x1800E7B70
 	[BaseEntity.Menu.Icon] // RVA: 0xE7B70 Offset: 0xE6F70 VA: 0x1800E7B70
 	[BaseEntity.Menu.ShowIf] // RVA: 0xE7B70 Offset: 0xE6F70 VA: 0x1800E7B70
-	// RVA: 0x744430 Offset: 0x742A30 VA: 0x180744430
+	// RVA: 0x744540 Offset: 0x742B40 VA: 0x180744540
 	public void Menu_FuelStorage(BasePlayer player) { }
 
-	// RVA: 0x744380 Offset: 0x742980 VA: 0x180744380
+	// RVA: 0x744490 Offset: 0x742A90 VA: 0x180744490
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x743570 Offset: 0x741B70 VA: 0x180743570 Slot: 14
+	// RVA: 0x743680 Offset: 0x741C80 VA: 0x180743680 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x7447B0 Offset: 0x742DB0 VA: 0x1807447B0
+	// RVA: 0x7448C0 Offset: 0x742EC0 VA: 0x1807448C0
 	public void Update() { }
 
-	// RVA: 0x744560 Offset: 0x742B60 VA: 0x180744560
+	// RVA: 0x744670 Offset: 0x742C70 VA: 0x180744670
 	public void OptimizedEnable(GameObject obj, bool wantsEnabled) { }
 
-	// RVA: 0x7445B0 Offset: 0x742BB0 VA: 0x1807445B0
+	// RVA: 0x7446C0 Offset: 0x742CC0 VA: 0x1807446C0
 	public void UpdateBalloonMesh(float inf) { }
 
-	// RVA: 0x7435A0 Offset: 0x741BA0 VA: 0x1807435A0 Slot: 131
+	// RVA: 0x7436B0 Offset: 0x741CB0 VA: 0x1807436B0 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0x743E40 Offset: 0x742440 VA: 0x180743E40
+	// RVA: 0x743F50 Offset: 0x742550 VA: 0x180743F50
 	public Vector3 GetWindAtPos(Vector3 pos) { }
 
-	// RVA: 0x744D10 Offset: 0x743310 VA: 0x180744D10
+	// RVA: 0x744E20 Offset: 0x743420 VA: 0x180744E20
 	public void .ctor() { }
 
-	// RVA: 0x744CC0 Offset: 0x7432C0 VA: 0x180744CC0
+	// RVA: 0x744DD0 Offset: 0x7433D0 VA: 0x180744DD0
 	private static void .cctor() { }
 
 }

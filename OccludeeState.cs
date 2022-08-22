@@ -12,19 +12,19 @@ public class OccludeeState : OcclusionCulling.SmartListValue // TypeDefIndex: 11
 
 	// Methods
 
-	// RVA: 0x9D7C70 Offset: 0x9D6270 VA: 0x1809D7C70
+	// RVA: 0x9D7F30 Offset: 0x9D6530 VA: 0x1809D7F30
 	public bool get_isVisible() { }
 
-	// RVA: 0x9D7930 Offset: 0x9D5F30 VA: 0x1809D7930
+	// RVA: 0x9D7BF0 Offset: 0x9D61F0 VA: 0x1809D7BF0
 	public OccludeeState Initialize(OcclusionCulling.SimpleList<OccludeeState.State> states, OcclusionCulling.BufferSet set, int slot, Vector4 sphereBounds, bool isVisible, float minTimeVisible, bool isStatic, int layer, OcclusionCulling.OnVisibilityChanged onVisibilityChanged) { }
 
-	// RVA: 0x9D7A80 Offset: 0x9D6080 VA: 0x1809D7A80
+	// RVA: 0x9D7D40 Offset: 0x9D6340 VA: 0x1809D7D40
 	public void Invalidate() { }
 
-	// RVA: 0x9D7B50 Offset: 0x9D6150 VA: 0x1809D7B50
+	// RVA: 0x9D7E10 Offset: 0x9D6410 VA: 0x1809D7E10
 	public void MakeVisible() { }
 
-	// RVA: 0x9D7C60 Offset: 0x9D6260 VA: 0x1809D7C60
+	// RVA: 0x9D7F20 Offset: 0x9D6520 VA: 0x1809D7F20
 	public void .ctor() { }
 
 }
@@ -43,7 +43,7 @@ public struct OccludeeState.State // TypeDefIndex: 11510
 
 	// Methods
 
-	// RVA: 0x9EB820 Offset: 0x9E9E20 VA: 0x1809EB820
+	// RVA: 0x9EBAE0 Offset: 0x9EA0E0 VA: 0x1809EBAE0
 	private static void .cctor() { }
 
 }

@@ -4,7 +4,7 @@ internal static class InternalInflateConstants // TypeDefIndex: 6948
 
 	// Methods
 
-	// RVA: 0x21D4BA0 Offset: 0x21D31A0 VA: 0x1821D4BA0
+	// RVA: 0x21D4E60 Offset: 0x21D3460 VA: 0x1821D4E60
 	private static void .cctor() { }
 
 }

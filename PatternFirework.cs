@@ -7,82 +7,82 @@ public class PatternFirework : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1F98A20 Offset: 0x1F97020 VA: 0x181F98A20
+	// RVA: 0x1F98CE0 Offset: 0x1F972E0 VA: 0x181F98CE0
 	public static void ResetToPool(PatternFirework instance) { }
 
-	// RVA: 0x1F98AD0 Offset: 0x1F970D0 VA: 0x181F98AD0
+	// RVA: 0x1F98D90 Offset: 0x1F97390 VA: 0x181F98D90
 	public void ResetToPool() { }
 
-	// RVA: 0x1F988B0 Offset: 0x1F96EB0 VA: 0x181F988B0 Slot: 9
+	// RVA: 0x1F98B70 Offset: 0x1F97170 VA: 0x181F98B70 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F97C50 Offset: 0x1F96250 VA: 0x181F97C50
+	// RVA: 0x1F97F10 Offset: 0x1F96510 VA: 0x181F97F10
 	public void CopyTo(PatternFirework instance) { }
 
-	// RVA: 0x1F97CE0 Offset: 0x1F962E0 VA: 0x181F97CE0
+	// RVA: 0x1F97FA0 Offset: 0x1F965A0 VA: 0x181F97FA0
 	public PatternFirework Copy() { }
 
-	// RVA: 0x1F98830 Offset: 0x1F96E30 VA: 0x181F98830
+	// RVA: 0x1F98AF0 Offset: 0x1F970F0 VA: 0x181F98AF0
 	public static PatternFirework Deserialize(Stream stream) { }
 
-	// RVA: 0x1F97DB0 Offset: 0x1F963B0 VA: 0x181F97DB0
+	// RVA: 0x1F98070 Offset: 0x1F96670 VA: 0x181F98070
 	public static PatternFirework DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F98380 Offset: 0x1F96980 VA: 0x181F98380
+	// RVA: 0x1F98640 Offset: 0x1F96C40 VA: 0x181F98640
 	public static PatternFirework DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F98410 Offset: 0x1F96A10 VA: 0x181F98410
+	// RVA: 0x1F986D0 Offset: 0x1F96CD0 VA: 0x181F986D0
 	public static PatternFirework Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F989E0 Offset: 0x1F96FE0 VA: 0x181F989E0
+	// RVA: 0x1F98CA0 Offset: 0x1F972A0 VA: 0x181F98CA0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F99140 Offset: 0x1F97740 VA: 0x181F99140 Slot: 12
+	// RVA: 0x1F99400 Offset: 0x1F97A00 VA: 0x181F99400 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F99160 Offset: 0x1F97760 VA: 0x181F99160 Slot: 13
+	// RVA: 0x1F99420 Offset: 0x1F97A20 VA: 0x181F99420 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, PatternFirework previous) { }
 
-	// RVA: 0x1F98A00 Offset: 0x1F97000 VA: 0x181F98A00 Slot: 14
+	// RVA: 0x1F98CC0 Offset: 0x1F972C0 VA: 0x181F98CC0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F98730 Offset: 0x1F96D30 VA: 0x181F98730
+	// RVA: 0x1F989F0 Offset: 0x1F96FF0 VA: 0x181F989F0
 	public static PatternFirework Deserialize(byte[] buffer, PatternFirework instance, bool isDelta = False) { }
 
-	// RVA: 0x1F98530 Offset: 0x1F96B30 VA: 0x181F98530
+	// RVA: 0x1F987F0 Offset: 0x1F96DF0 VA: 0x181F987F0
 	public static PatternFirework Deserialize(Stream stream, PatternFirework instance, bool isDelta) { }
 
-	// RVA: 0x1F97E30 Offset: 0x1F96430 VA: 0x181F97E30
+	// RVA: 0x1F980F0 Offset: 0x1F966F0 VA: 0x181F980F0
 	public static PatternFirework DeserializeLengthDelimited(Stream stream, PatternFirework instance, bool isDelta) { }
 
-	// RVA: 0x1F980F0 Offset: 0x1F966F0 VA: 0x181F980F0
+	// RVA: 0x1F983B0 Offset: 0x1F969B0 VA: 0x181F983B0
 	public static PatternFirework DeserializeLength(Stream stream, int length, PatternFirework instance, bool isDelta) { }
 
-	// RVA: 0x1F98B80 Offset: 0x1F97180 VA: 0x181F98B80
+	// RVA: 0x1F98E40 Offset: 0x1F97440 VA: 0x181F98E40
 	public static void SerializeDelta(Stream stream, PatternFirework instance, PatternFirework previous) { }
 
-	// RVA: 0x1F98F50 Offset: 0x1F97550 VA: 0x181F98F50
+	// RVA: 0x1F99210 Offset: 0x1F97810 VA: 0x181F99210
 	public static void Serialize(Stream stream, PatternFirework instance) { }
 
-	// RVA: 0x1F99130 Offset: 0x1F97730 VA: 0x181F99130
+	// RVA: 0x1F993F0 Offset: 0x1F979F0 VA: 0x181F993F0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F99140 Offset: 0x1F97740 VA: 0x181F99140
+	// RVA: 0x1F99400 Offset: 0x1F97A00 VA: 0x181F99400
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F98E40 Offset: 0x1F97440 VA: 0x181F98E40
+	// RVA: 0x1F99100 Offset: 0x1F97700 VA: 0x181F99100
 	public static byte[] SerializeToBytes(PatternFirework instance) { }
 
-	// RVA: 0x1F98D90 Offset: 0x1F97390 VA: 0x181F98D90
+	// RVA: 0x1F99050 Offset: 0x1F97650 VA: 0x181F99050
 	public static void SerializeLengthDelimited(Stream stream, PatternFirework instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -96,82 +96,82 @@ public class PatternFirework.Design : IDisposable, Pool.IPooled, IProto // TypeD
 
 	// Methods
 
-	// RVA: 0x1F81F80 Offset: 0x1F80580 VA: 0x181F81F80
+	// RVA: 0x1F82240 Offset: 0x1F80840 VA: 0x181F82240
 	public static void ResetToPool(PatternFirework.Design instance) { }
 
-	// RVA: 0x1F81DA0 Offset: 0x1F803A0 VA: 0x181F81DA0
+	// RVA: 0x1F82060 Offset: 0x1F80660 VA: 0x181F82060
 	public void ResetToPool() { }
 
-	// RVA: 0x1F81CE0 Offset: 0x1F802E0 VA: 0x181F81CE0 Slot: 9
+	// RVA: 0x1F81FA0 Offset: 0x1F805A0 VA: 0x181F81FA0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F80EE0 Offset: 0x1F7F4E0 VA: 0x181F80EE0
+	// RVA: 0x1F811A0 Offset: 0x1F7F7A0 VA: 0x181F811A0
 	public void CopyTo(PatternFirework.Design instance) { }
 
-	// RVA: 0x1F81090 Offset: 0x1F7F690 VA: 0x181F81090
+	// RVA: 0x1F81350 Offset: 0x1F7F950 VA: 0x181F81350
 	public PatternFirework.Design Copy() { }
 
-	// RVA: 0x1F81930 Offset: 0x1F7FF30 VA: 0x181F81930
+	// RVA: 0x1F81BF0 Offset: 0x1F801F0 VA: 0x181F81BF0
 	public static PatternFirework.Design Deserialize(Stream stream) { }
 
-	// RVA: 0x1F81420 Offset: 0x1F7FA20 VA: 0x181F81420
+	// RVA: 0x1F816E0 Offset: 0x1F7FCE0 VA: 0x181F816E0
 	public static PatternFirework.Design DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F81780 Offset: 0x1F7FD80 VA: 0x181F81780
+	// RVA: 0x1F81A40 Offset: 0x1F80040 VA: 0x181F81A40
 	public static PatternFirework.Design DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F81810 Offset: 0x1F7FE10 VA: 0x181F81810
+	// RVA: 0x1F81AD0 Offset: 0x1F800D0 VA: 0x181F81AD0
 	public static PatternFirework.Design Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F81D60 Offset: 0x1F80360 VA: 0x181F81D60
+	// RVA: 0x1F82020 Offset: 0x1F80620 VA: 0x181F82020
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F827B0 Offset: 0x1F80DB0 VA: 0x181F827B0 Slot: 12
+	// RVA: 0x1F82A70 Offset: 0x1F81070 VA: 0x181F82A70 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F827D0 Offset: 0x1F80DD0 VA: 0x181F827D0 Slot: 13
+	// RVA: 0x1F82A90 Offset: 0x1F81090 VA: 0x181F82A90 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, PatternFirework.Design previous) { }
 
-	// RVA: 0x1F81D80 Offset: 0x1F80380 VA: 0x181F81D80 Slot: 14
+	// RVA: 0x1F82040 Offset: 0x1F80640 VA: 0x181F82040 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F81BE0 Offset: 0x1F801E0 VA: 0x181F81BE0
+	// RVA: 0x1F81EA0 Offset: 0x1F804A0 VA: 0x181F81EA0
 	public static PatternFirework.Design Deserialize(byte[] buffer, PatternFirework.Design instance, bool isDelta = False) { }
 
-	// RVA: 0x1F819B0 Offset: 0x1F7FFB0 VA: 0x181F819B0
+	// RVA: 0x1F81C70 Offset: 0x1F80270 VA: 0x181F81C70
 	public static PatternFirework.Design Deserialize(Stream stream, PatternFirework.Design instance, bool isDelta) { }
 
-	// RVA: 0x1F81110 Offset: 0x1F7F710 VA: 0x181F81110
+	// RVA: 0x1F813D0 Offset: 0x1F7F9D0 VA: 0x181F813D0
 	public static PatternFirework.Design DeserializeLengthDelimited(Stream stream, PatternFirework.Design instance, bool isDelta) { }
 
-	// RVA: 0x1F814A0 Offset: 0x1F7FAA0 VA: 0x181F814A0
+	// RVA: 0x1F81760 Offset: 0x1F7FD60 VA: 0x181F81760
 	public static PatternFirework.Design DeserializeLength(Stream stream, int length, PatternFirework.Design instance, bool isDelta) { }
 
-	// RVA: 0x1F82160 Offset: 0x1F80760 VA: 0x181F82160
+	// RVA: 0x1F82420 Offset: 0x1F80A20 VA: 0x181F82420
 	public static void SerializeDelta(Stream stream, PatternFirework.Design instance, PatternFirework.Design previous) { }
 
-	// RVA: 0x1F82570 Offset: 0x1F80B70 VA: 0x181F82570
+	// RVA: 0x1F82830 Offset: 0x1F80E30 VA: 0x181F82830
 	public static void Serialize(Stream stream, PatternFirework.Design instance) { }
 
-	// RVA: 0x1F827A0 Offset: 0x1F80DA0 VA: 0x181F827A0
+	// RVA: 0x1F82A60 Offset: 0x1F81060 VA: 0x181F82A60
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F827B0 Offset: 0x1F80DB0 VA: 0x181F827B0
+	// RVA: 0x1F82A70 Offset: 0x1F81070 VA: 0x181F82A70
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F82460 Offset: 0x1F80A60 VA: 0x181F82460
+	// RVA: 0x1F82720 Offset: 0x1F80D20 VA: 0x181F82720
 	public static byte[] SerializeToBytes(PatternFirework.Design instance) { }
 
-	// RVA: 0x1F823B0 Offset: 0x1F809B0 VA: 0x181F823B0
+	// RVA: 0x1F82670 Offset: 0x1F80C70 VA: 0x181F82670
 	public static void SerializeLengthDelimited(Stream stream, PatternFirework.Design instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -185,82 +185,82 @@ public class PatternFirework.Star : IDisposable, Pool.IPooled, IProto // TypeDef
 
 	// Methods
 
-	// RVA: 0x1F9BF10 Offset: 0x1F9A510 VA: 0x181F9BF10
+	// RVA: 0x1F9C1D0 Offset: 0x1F9A7D0 VA: 0x181F9C1D0
 	public static void ResetToPool(PatternFirework.Star instance) { }
 
-	// RVA: 0x1F9BFA0 Offset: 0x1F9A5A0 VA: 0x181F9BFA0
+	// RVA: 0x1F9C260 Offset: 0x1F9A860 VA: 0x181F9C260
 	public void ResetToPool() { }
 
-	// RVA: 0x1F9BD00 Offset: 0x1F9A300 VA: 0x181F9BD00 Slot: 9
+	// RVA: 0x1F9BFC0 Offset: 0x1F9A5C0 VA: 0x181F9BFC0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F9AF50 Offset: 0x1F99550 VA: 0x181F9AF50
+	// RVA: 0x1F9B210 Offset: 0x1F99810 VA: 0x181F9B210
 	public void CopyTo(PatternFirework.Star instance) { }
 
-	// RVA: 0x1F9AF80 Offset: 0x1F99580 VA: 0x181F9AF80
+	// RVA: 0x1F9B240 Offset: 0x1F99840 VA: 0x181F9B240
 	public PatternFirework.Star Copy() { }
 
-	// RVA: 0x1F9B900 Offset: 0x1F99F00 VA: 0x181F9B900
+	// RVA: 0x1F9BBC0 Offset: 0x1F9A1C0 VA: 0x181F9BBC0
 	public static PatternFirework.Star Deserialize(Stream stream) { }
 
-	// RVA: 0x1F9B240 Offset: 0x1F99840 VA: 0x181F9B240
+	// RVA: 0x1F9B500 Offset: 0x1F99B00 VA: 0x181F9B500
 	public static PatternFirework.Star DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F9B4D0 Offset: 0x1F99AD0 VA: 0x181F9B4D0
+	// RVA: 0x1F9B790 Offset: 0x1F99D90 VA: 0x181F9B790
 	public static PatternFirework.Star DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F9BAB0 Offset: 0x1F9A0B0 VA: 0x181F9BAB0
+	// RVA: 0x1F9BD70 Offset: 0x1F9A370 VA: 0x181F9BD70
 	public static PatternFirework.Star Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F9BD80 Offset: 0x1F9A380 VA: 0x181F9BD80
+	// RVA: 0x1F9C040 Offset: 0x1F9A640 VA: 0x181F9C040
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F9C760 Offset: 0x1F9AD60 VA: 0x181F9C760 Slot: 12
+	// RVA: 0x1F9CA20 Offset: 0x1F9B020 VA: 0x181F9CA20 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F9C780 Offset: 0x1F9AD80 VA: 0x181F9C780 Slot: 13
+	// RVA: 0x1F9CA40 Offset: 0x1F9B040 VA: 0x181F9CA40 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, PatternFirework.Star previous) { }
 
-	// RVA: 0x1F9BEF0 Offset: 0x1F9A4F0 VA: 0x181F9BEF0 Slot: 14
+	// RVA: 0x1F9C1B0 Offset: 0x1F9A7B0 VA: 0x181F9C1B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F9B560 Offset: 0x1F99B60 VA: 0x181F9B560
+	// RVA: 0x1F9B820 Offset: 0x1F99E20 VA: 0x181F9B820
 	public static PatternFirework.Star Deserialize(byte[] buffer, PatternFirework.Star instance, bool isDelta = False) { }
 
-	// RVA: 0x1F9B780 Offset: 0x1F99D80 VA: 0x181F9B780
+	// RVA: 0x1F9BA40 Offset: 0x1F9A040 VA: 0x181F9BA40
 	public static PatternFirework.Star Deserialize(Stream stream, PatternFirework.Star instance, bool isDelta) { }
 
-	// RVA: 0x1F9B000 Offset: 0x1F99600 VA: 0x181F9B000
+	// RVA: 0x1F9B2C0 Offset: 0x1F998C0 VA: 0x181F9B2C0
 	public static PatternFirework.Star DeserializeLengthDelimited(Stream stream, PatternFirework.Star instance, bool isDelta) { }
 
-	// RVA: 0x1F9B2C0 Offset: 0x1F998C0 VA: 0x181F9B2C0
+	// RVA: 0x1F9B580 Offset: 0x1F99B80 VA: 0x181F9B580
 	public static PatternFirework.Star DeserializeLength(Stream stream, int length, PatternFirework.Star instance, bool isDelta) { }
 
-	// RVA: 0x1F9C030 Offset: 0x1F9A630 VA: 0x181F9C030
+	// RVA: 0x1F9C2F0 Offset: 0x1F9A8F0 VA: 0x181F9C2F0
 	public static void SerializeDelta(Stream stream, PatternFirework.Star instance, PatternFirework.Star previous) { }
 
-	// RVA: 0x1F9C520 Offset: 0x1F9AB20 VA: 0x181F9C520
+	// RVA: 0x1F9C7E0 Offset: 0x1F9ADE0 VA: 0x181F9C7E0
 	public static void Serialize(Stream stream, PatternFirework.Star instance) { }
 
-	// RVA: 0x1F9C750 Offset: 0x1F9AD50 VA: 0x181F9C750
+	// RVA: 0x1F9CA10 Offset: 0x1F9B010 VA: 0x181F9CA10
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F9C760 Offset: 0x1F9AD60 VA: 0x181F9C760
+	// RVA: 0x1F9CA20 Offset: 0x1F9B020 VA: 0x181F9CA20
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F9C410 Offset: 0x1F9AA10 VA: 0x181F9C410
+	// RVA: 0x1F9C6D0 Offset: 0x1F9ACD0 VA: 0x181F9C6D0
 	public static byte[] SerializeToBytes(PatternFirework.Star instance) { }
 
-	// RVA: 0x1F9C360 Offset: 0x1F9A960 VA: 0x181F9C360
+	// RVA: 0x1F9C620 Offset: 0x1F9AC20 VA: 0x181F9C620
 	public static void SerializeLengthDelimited(Stream stream, PatternFirework.Star instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -275,82 +275,82 @@ public class PatternFirework.SavedDesign : IDisposable, Pool.IPooled, IProto // 
 
 	// Methods
 
-	// RVA: 0x1F9A610 Offset: 0x1F98C10 VA: 0x181F9A610
+	// RVA: 0x1F9A8D0 Offset: 0x1F98ED0 VA: 0x181F9A8D0
 	public static void ResetToPool(PatternFirework.SavedDesign instance) { }
 
-	// RVA: 0x1F9A6F0 Offset: 0x1F98CF0 VA: 0x181F9A6F0
+	// RVA: 0x1F9A9B0 Offset: 0x1F98FB0 VA: 0x181F9A9B0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F9A2B0 Offset: 0x1F988B0 VA: 0x181F9A2B0 Slot: 9
+	// RVA: 0x1F9A570 Offset: 0x1F98B70 VA: 0x181F9A570 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F99180 Offset: 0x1F97780 VA: 0x181F99180
+	// RVA: 0x1F99440 Offset: 0x1F97A40 VA: 0x181F99440
 	public void CopyTo(PatternFirework.SavedDesign instance) { }
 
-	// RVA: 0x1F99200 Offset: 0x1F97800 VA: 0x181F99200
+	// RVA: 0x1F994C0 Offset: 0x1F97AC0 VA: 0x181F994C0
 	public PatternFirework.SavedDesign Copy() { }
 
-	// RVA: 0x1F99EB0 Offset: 0x1F984B0 VA: 0x181F99EB0
+	// RVA: 0x1F9A170 Offset: 0x1F98770 VA: 0x181F9A170
 	public static PatternFirework.SavedDesign Deserialize(Stream stream) { }
 
-	// RVA: 0x1F992D0 Offset: 0x1F978D0 VA: 0x181F992D0
+	// RVA: 0x1F99590 Offset: 0x1F97B90 VA: 0x181F99590
 	public static PatternFirework.SavedDesign DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F998B0 Offset: 0x1F97EB0 VA: 0x181F998B0
+	// RVA: 0x1F99B70 Offset: 0x1F98170 VA: 0x181F99B70
 	public static PatternFirework.SavedDesign DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F99940 Offset: 0x1F97F40 VA: 0x181F99940
+	// RVA: 0x1F99C00 Offset: 0x1F98200 VA: 0x181F99C00
 	public static PatternFirework.SavedDesign Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F9A410 Offset: 0x1F98A10 VA: 0x181F9A410
+	// RVA: 0x1F9A6D0 Offset: 0x1F98CD0 VA: 0x181F9A6D0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F9AF10 Offset: 0x1F99510 VA: 0x181F9AF10 Slot: 12
+	// RVA: 0x1F9B1D0 Offset: 0x1F997D0 VA: 0x181F9B1D0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F9AF30 Offset: 0x1F99530 VA: 0x181F9AF30 Slot: 13
+	// RVA: 0x1F9B1F0 Offset: 0x1F997F0 VA: 0x181F9B1F0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, PatternFirework.SavedDesign previous) { }
 
-	// RVA: 0x1F9A5F0 Offset: 0x1F98BF0 VA: 0x181F9A5F0 Slot: 14
+	// RVA: 0x1F9A8B0 Offset: 0x1F98EB0 VA: 0x181F9A8B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F99C10 Offset: 0x1F98210 VA: 0x181F99C10
+	// RVA: 0x1F99ED0 Offset: 0x1F984D0 VA: 0x181F99ED0
 	public static PatternFirework.SavedDesign Deserialize(byte[] buffer, PatternFirework.SavedDesign instance, bool isDelta = False) { }
 
-	// RVA: 0x1F9A0D0 Offset: 0x1F986D0 VA: 0x181F9A0D0
+	// RVA: 0x1F9A390 Offset: 0x1F98990 VA: 0x181F9A390
 	public static PatternFirework.SavedDesign Deserialize(Stream stream, PatternFirework.SavedDesign instance, bool isDelta) { }
 
-	// RVA: 0x1F99350 Offset: 0x1F97950 VA: 0x181F99350
+	// RVA: 0x1F99610 Offset: 0x1F97C10 VA: 0x181F99610
 	public static PatternFirework.SavedDesign DeserializeLengthDelimited(Stream stream, PatternFirework.SavedDesign instance, bool isDelta) { }
 
-	// RVA: 0x1F99610 Offset: 0x1F97C10 VA: 0x181F99610
+	// RVA: 0x1F998D0 Offset: 0x1F97ED0 VA: 0x181F998D0
 	public static PatternFirework.SavedDesign DeserializeLength(Stream stream, int length, PatternFirework.SavedDesign instance, bool isDelta) { }
 
-	// RVA: 0x1F9A7D0 Offset: 0x1F98DD0 VA: 0x181F9A7D0
+	// RVA: 0x1F9AA90 Offset: 0x1F99090 VA: 0x181F9AA90
 	public static void SerializeDelta(Stream stream, PatternFirework.SavedDesign instance, PatternFirework.SavedDesign previous) { }
 
-	// RVA: 0x1F9AC70 Offset: 0x1F99270 VA: 0x181F9AC70
+	// RVA: 0x1F9AF30 Offset: 0x1F99530 VA: 0x181F9AF30
 	public static void Serialize(Stream stream, PatternFirework.SavedDesign instance) { }
 
-	// RVA: 0x1F9AF00 Offset: 0x1F99500 VA: 0x181F9AF00
+	// RVA: 0x1F9B1C0 Offset: 0x1F997C0 VA: 0x181F9B1C0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F9AF10 Offset: 0x1F99510 VA: 0x181F9AF10
+	// RVA: 0x1F9B1D0 Offset: 0x1F997D0 VA: 0x181F9B1D0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F9AB60 Offset: 0x1F99160 VA: 0x181F9AB60
+	// RVA: 0x1F9AE20 Offset: 0x1F99420 VA: 0x181F9AE20
 	public static byte[] SerializeToBytes(PatternFirework.SavedDesign instance) { }
 
-	// RVA: 0x1F9AAB0 Offset: 0x1F990B0 VA: 0x181F9AAB0
+	// RVA: 0x1F9AD70 Offset: 0x1F99370 VA: 0x181F9AD70
 	public static void SerializeLengthDelimited(Stream stream, PatternFirework.SavedDesign instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -376,75 +376,75 @@ public class PatternFirework : MortarFirework, IUGCBrowserEntity // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x86BCA0 Offset: 0x86A2A0 VA: 0x18086BCA0 Slot: 31
+	// RVA: 0x86BDB0 Offset: 0x86A3B0 VA: 0x18086BDB0 Slot: 31
 	public override void DestroyShared() { }
 
-	// RVA: 0x86C750 Offset: 0x86AD50 VA: 0x18086C750 Slot: 34
+	// RVA: 0x86C860 Offset: 0x86AE60 VA: 0x18086C860 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x86D0F0 Offset: 0x86B6F0 VA: 0x18086D0F0 Slot: 146
+	// RVA: 0x86D200 Offset: 0x86B800 VA: 0x18086D200 Slot: 146
 	protected override void PreInitShell(FireworkShell shell) { }
 
 	[BaseEntity.Menu] // RVA: 0xA3F20 Offset: 0xA3320 VA: 0x1800A3F20
 	[BaseEntity.Menu.Description] // RVA: 0xA3F20 Offset: 0xA3320 VA: 0x1800A3F20
 	[BaseEntity.Menu.Icon] // RVA: 0xA3F20 Offset: 0xA3320 VA: 0x1800A3F20
 	[BaseEntity.Menu.ShowIf] // RVA: 0xA3F20 Offset: 0xA3320 VA: 0x1800A3F20
-	// RVA: 0x86C9B0 Offset: 0x86AFB0 VA: 0x18086C9B0
+	// RVA: 0x86CAC0 Offset: 0x86B0C0 VA: 0x18086CAC0
 	public void MenuOpenDesigner(BasePlayer player) { }
 
-	// RVA: 0x86C930 Offset: 0x86AF30 VA: 0x18086C930
+	// RVA: 0x86CA40 Offset: 0x86B040 VA: 0x18086CA40
 	public bool MenuOpenDesigner_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x86CFD0 Offset: 0x86B5D0 VA: 0x18086CFD0
+	// RVA: 0x86D0E0 Offset: 0x86B6E0 VA: 0x18086D0E0
 	private void OpenDesigner(BaseEntity.RPCMessage rpc) { }
 
-	// RVA: 0x86D200 Offset: 0x86B800 VA: 0x18086D200
+	// RVA: 0x86D310 Offset: 0x86B910 VA: 0x18086D310
 	public void SetFireworkDesign(PatternFirework.Design design) { }
 
 	[BaseEntity.Menu] // RVA: 0xA4300 Offset: 0xA3700 VA: 0x1800A4300
 	[BaseEntity.Menu.Description] // RVA: 0xA4300 Offset: 0xA3700 VA: 0x1800A4300
 	[BaseEntity.Menu.Icon] // RVA: 0xA4300 Offset: 0xA3700 VA: 0x1800A4300
 	[BaseEntity.Menu.ShowIf] // RVA: 0xA4300 Offset: 0xA3700 VA: 0x1800A4300
-	// RVA: 0x86CA30 Offset: 0x86B030 VA: 0x18086CA30
+	// RVA: 0x86CB40 Offset: 0x86B140 VA: 0x18086CB40
 	public void MenuShortFuse(BasePlayer player) { }
 
-	// RVA: 0x86C9F0 Offset: 0x86AFF0 VA: 0x18086C9F0
+	// RVA: 0x86CB00 Offset: 0x86B100 VA: 0x18086CB00
 	public bool MenuShortFuse_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xA4790 Offset: 0xA3B90 VA: 0x1800A4790
 	[BaseEntity.Menu.Description] // RVA: 0xA4790 Offset: 0xA3B90 VA: 0x1800A4790
 	[BaseEntity.Menu.Icon] // RVA: 0xA4790 Offset: 0xA3B90 VA: 0x1800A4790
 	[BaseEntity.Menu.ShowIf] // RVA: 0xA4790 Offset: 0xA3B90 VA: 0x1800A4790
-	// RVA: 0x86C8E0 Offset: 0x86AEE0 VA: 0x18086C8E0
+	// RVA: 0x86C9F0 Offset: 0x86AFF0 VA: 0x18086C9F0
 	public void MenuMediumFuse(BasePlayer player) { }
 
-	// RVA: 0x86C8A0 Offset: 0x86AEA0 VA: 0x18086C8A0
+	// RVA: 0x86C9B0 Offset: 0x86AFB0 VA: 0x18086C9B0
 	public bool MenuMediumFuse_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xA4A90 Offset: 0xA3E90 VA: 0x1800A4A90
 	[BaseEntity.Menu.Description] // RVA: 0xA4A90 Offset: 0xA3E90 VA: 0x1800A4A90
 	[BaseEntity.Menu.Icon] // RVA: 0xA4A90 Offset: 0xA3E90 VA: 0x1800A4A90
 	[BaseEntity.Menu.ShowIf] // RVA: 0xA4A90 Offset: 0xA3E90 VA: 0x1800A4A90
-	// RVA: 0x86C850 Offset: 0x86AE50 VA: 0x18086C850
+	// RVA: 0x86C960 Offset: 0x86AF60 VA: 0x18086C960
 	public void MenuLongFuse(BasePlayer player) { }
 
-	// RVA: 0x86C810 Offset: 0x86AE10 VA: 0x18086C810
+	// RVA: 0x86C920 Offset: 0x86AF20 VA: 0x18086C920
 	public bool MenuLongFuse_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x86C720 Offset: 0x86AD20 VA: 0x18086C720
+	// RVA: 0x86C830 Offset: 0x86AE30 VA: 0x18086C830
 	private float GetShellFuseLength() { }
 
-	// RVA: 0x86BCF0 Offset: 0x86A2F0 VA: 0x18086BCF0 Slot: 49
+	// RVA: 0x86BE00 Offset: 0x86A400 VA: 0x18086BE00 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x86D2A0 Offset: 0x86B8A0 VA: 0x18086D2A0 Slot: 50
+	// RVA: 0x86D3B0 Offset: 0x86B9B0 VA: 0x18086D3B0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x86CA80 Offset: 0x86B080 VA: 0x18086CA80 Slot: 35
+	// RVA: 0x86CB90 Offset: 0x86B190 VA: 0x18086CB90 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x86D270 Offset: 0x86B870 VA: 0x18086D270
+	// RVA: 0x86D380 Offset: 0x86B980 VA: 0x18086D380
 	public void .ctor() { }
 
 }

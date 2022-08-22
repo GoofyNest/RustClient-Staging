@@ -11,13 +11,13 @@ internal sealed class ValueFixup // TypeDefIndex: 1122
 
 	// Methods
 
-	// RVA: 0x1206C20 Offset: 0x1205220 VA: 0x181206C20
+	// RVA: 0x1206EE0 Offset: 0x12054E0 VA: 0x181206EE0
 	internal void .ctor(Array arrayObj, int[] indexMap) { }
 
-	// RVA: 0x1206C80 Offset: 0x1205280 VA: 0x181206C80
+	// RVA: 0x1206F40 Offset: 0x1205540 VA: 0x181206F40
 	internal void .ctor(object memberObject, string memberName, ReadObjectInfo objectInfo) { }
 
-	// RVA: 0x1206930 Offset: 0x1204F30 VA: 0x181206930
+	// RVA: 0x1206BF0 Offset: 0x12051F0 VA: 0x181206BF0
 	internal void Fixup(ParseRecord record, ParseRecord parent) { }
 
 }

@@ -6,7 +6,7 @@ public static class Extensions // TypeDefIndex: 6047
 	public static U Value<U>(IEnumerable<JToken> value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBDFE80 Offset: 0xBDE480 VA: 0x180BDFE80
+	|-RVA: 0xBE0140 Offset: 0xBDE740 VA: 0x180BE0140
 	|-Extensions.Value<string>
 	|-Extensions.Value<object>
 	|-Extensions.Value<float>
@@ -17,10 +17,10 @@ public static class Extensions // TypeDefIndex: 6047
 	public static U Value<T, U>(IEnumerable<T> value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A38960 Offset: 0x1A36F60 VA: 0x181A38960
+	|-RVA: 0x1A38C20 Offset: 0x1A37220 VA: 0x181A38C20
 	|-Extensions.Value<object, object>
 	|
-	|-RVA: 0x1A38A00 Offset: 0x1A37000 VA: 0x181A38A00
+	|-RVA: 0x1A38CC0 Offset: 0x1A372C0 VA: 0x181A38CC0
 	|-Extensions.Value<object, float>
 	*/
 
@@ -29,10 +29,10 @@ public static class Extensions // TypeDefIndex: 6047
 	internal static U Convert<T, U>(T token) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A381F0 Offset: 0x1A367F0 VA: 0x181A381F0
+	|-RVA: 0x1A384B0 Offset: 0x1A36AB0 VA: 0x181A384B0
 	|-Extensions.Convert<object, object>
 	|
-	|-RVA: 0x1A385A0 Offset: 0x1A36BA0 VA: 0x181A385A0
+	|-RVA: 0x1A38860 Offset: 0x1A36E60 VA: 0x181A38860
 	|-Extensions.Convert<object, float>
 	*/
 
@@ -48,7 +48,7 @@ private sealed class Extensions.<>c__0<T> // TypeDefIndex: 6048
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD65280 Offset: 0xD63880 VA: 0x180D65280
+	|-RVA: 0xD65540 Offset: 0xD63B40 VA: 0x180D65540
 	|-Extensions.<>c__0<object>..cctor
 	*/
 
@@ -56,7 +56,7 @@ private sealed class Extensions.<>c__0<T> // TypeDefIndex: 6048
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-Extensions.<>c__0<object>..ctor
 	*/
 
@@ -72,7 +72,7 @@ private sealed class Extensions.<>c__1<T> // TypeDefIndex: 6049
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD65280 Offset: 0xD63880 VA: 0x180D65280
+	|-RVA: 0xD65540 Offset: 0xD63B40 VA: 0x180D65540
 	|-Extensions.<>c__1<object>..cctor
 	*/
 
@@ -80,7 +80,7 @@ private sealed class Extensions.<>c__1<T> // TypeDefIndex: 6049
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-Extensions.<>c__1<object>..ctor
 	*/
 
@@ -96,7 +96,7 @@ private sealed class Extensions.<>c__2<T> // TypeDefIndex: 6050
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD65280 Offset: 0xD63880 VA: 0x180D65280
+	|-RVA: 0xD65540 Offset: 0xD63B40 VA: 0x180D65540
 	|-Extensions.<>c__2<object>..cctor
 	*/
 
@@ -104,7 +104,7 @@ private sealed class Extensions.<>c__2<T> // TypeDefIndex: 6050
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-Extensions.<>c__2<object>..ctor
 	*/
 
@@ -120,7 +120,7 @@ private sealed class Extensions.<>c__3<T> // TypeDefIndex: 6051
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD65280 Offset: 0xD63880 VA: 0x180D65280
+	|-RVA: 0xD65540 Offset: 0xD63B40 VA: 0x180D65540
 	|-Extensions.<>c__3<object>..cctor
 	*/
 
@@ -128,7 +128,7 @@ private sealed class Extensions.<>c__3<T> // TypeDefIndex: 6051
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-Extensions.<>c__3<object>..ctor
 	*/
 
@@ -140,7 +140,7 @@ private sealed class Extensions.<>c // TypeDefIndex: 6052
 
 	// Methods
 
-	// RVA: 0xE4CDA0 Offset: 0xE4B3A0 VA: 0x180E4CDA0
+	// RVA: 0xE4D060 Offset: 0xE4B660 VA: 0x180E4D060
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -163,7 +163,7 @@ private sealed class Extensions.<>c__13<T, U> // TypeDefIndex: 6054
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD65280 Offset: 0xD63880 VA: 0x180D65280
+	|-RVA: 0xD65540 Offset: 0xD63B40 VA: 0x180D65540
 	|-Extensions.<>c__13<object, object>..cctor
 	*/
 
@@ -171,7 +171,7 @@ private sealed class Extensions.<>c__13<T, U> // TypeDefIndex: 6054
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-Extensions.<>c__13<object, object>..ctor
 	*/
 
@@ -203,7 +203,7 @@ public static class Extensions // TypeDefIndex: 11572
 	public static bool AnyOfType<TSource>(IEnumerable<TSource> source, Type expectedType) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF22E0 Offset: 0xBF08E0 VA: 0x180BF22E0
+	|-RVA: 0xBF25A0 Offset: 0xBF0BA0 VA: 0x180BF25A0
 	|-Extensions.AnyOfType<object>
 	*/
 

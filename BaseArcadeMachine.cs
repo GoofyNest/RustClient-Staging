@@ -23,73 +23,73 @@ public class BaseArcadeMachine : BaseVehicle // TypeDefIndex: 8316
 
 	// Methods
 
-	// RVA: 0x7D3BD0 Offset: 0x7D21D0 VA: 0x1807D3BD0 Slot: 49
+	// RVA: 0x7D3CE0 Offset: 0x7D22E0 VA: 0x1807D3CE0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x7D6120 Offset: 0x7D4720 VA: 0x1807D6120 Slot: 50
+	// RVA: 0x7D6230 Offset: 0x7D4830 VA: 0x1807D6230 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x7D4430 Offset: 0x7D2A30 VA: 0x1807D4430 Slot: 35
+	// RVA: 0x7D4540 Offset: 0x7D2B40 VA: 0x1807D4540 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x7D3FE0 Offset: 0x7D25E0 VA: 0x1807D3FE0 Slot: 34
+	// RVA: 0x7D40F0 Offset: 0x7D26F0 VA: 0x1807D40F0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x7D6050 Offset: 0x7D4650 VA: 0x1807D6050 Slot: 173
+	// RVA: 0x7D6160 Offset: 0x7D4760 VA: 0x1807D6160 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0x7D5DC0 Offset: 0x7D43C0 VA: 0x1807D5DC0
+	// RVA: 0x7D5ED0 Offset: 0x7D44D0 VA: 0x1807D5ED0
 	public void SpawnGame() { }
 
-	// RVA: 0x7D3FC0 Offset: 0x7D25C0 VA: 0x1807D3FC0 Slot: 28
+	// RVA: 0x7D40D0 Offset: 0x7D26D0 VA: 0x1807D40D0 Slot: 28
 	public override void InitShared() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D3000 Offset: 0x7D1600 VA: 0x1807D3000
+	// RVA: 0x7D3110 Offset: 0x7D1710 VA: 0x1807D3110
 	public void BeginHosting(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D35D0 Offset: 0x7D1BD0 VA: 0x1807D35D0
+	// RVA: 0x7D36E0 Offset: 0x7D1CE0 VA: 0x1807D36E0
 	public void EndHosting(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D43A0 Offset: 0x7D29A0 VA: 0x1807D43A0
+	// RVA: 0x7D44B0 Offset: 0x7D2AB0 VA: 0x1807D44B0
 	public void NoHost(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D3A90 Offset: 0x7D2090 VA: 0x1807D3A90
+	// RVA: 0x7D3BA0 Offset: 0x7D21A0 VA: 0x1807D3BA0
 	public void GetEntityMessage(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x7D31B0 Offset: 0x7D17B0 VA: 0x1807D31B0 Slot: 14
+	// RVA: 0x7D32C0 Offset: 0x7D18C0 VA: 0x1807D32C0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x7D36C0 Offset: 0x7D1CC0 VA: 0x1807D36C0
+	// RVA: 0x7D37D0 Offset: 0x7D1DD0 VA: 0x1807D37D0
 	public void FixedUpdate() { }
 
-	// RVA: 0x7D3880 Offset: 0x7D1E80 VA: 0x1807D3880
+	// RVA: 0x7D3990 Offset: 0x7D1F90 VA: 0x1807D3990
 	public void GameVisibilityChanged(bool isVisible) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D31C0 Offset: 0x7D17C0 VA: 0x1807D31C0
+	// RVA: 0x7D32D0 Offset: 0x7D18D0 VA: 0x1807D32D0
 	public void DestroyEntity(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D3EE0 Offset: 0x7D24E0 VA: 0x1807D3EE0
+	// RVA: 0x7D3FF0 Offset: 0x7D25F0 VA: 0x1807D3FF0
 	public void GetSnapshotFromServer(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x7D5D00 Offset: 0x7D4300 VA: 0x1807D5D00
+	// RVA: 0x7D5E10 Offset: 0x7D4410 VA: 0x1807D5E10
 	public void SendSnapshotToServer() { }
 
-	// RVA: 0x7D3500 Offset: 0x7D1B00 VA: 0x1807D3500
+	// RVA: 0x7D3610 Offset: 0x7D1C10 VA: 0x1807D3610
 	public void DoClientInput() { }
 
-	// RVA: 0x7D3440 Offset: 0x7D1A40 VA: 0x1807D3440 Slot: 31
+	// RVA: 0x7D3550 Offset: 0x7D1B50 VA: 0x1807D3550 Slot: 31
 	public override void DestroyShared() { }
 
-	// RVA: 0x7D5B80 Offset: 0x7D4180 VA: 0x1807D5B80 Slot: 194
+	// RVA: 0x7D5C90 Offset: 0x7D4290 VA: 0x1807D5C90 Slot: 194
 	public virtual void PlayerClientInput(InputState inputState) { }
 
-	// RVA: 0x7D5CB0 Offset: 0x7D42B0 VA: 0x1807D5CB0
+	// RVA: 0x7D5DC0 Offset: 0x7D43C0 VA: 0x1807D5DC0
 	public void SendDestroyMessage(uint entityID) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 184
@@ -99,16 +99,16 @@ public class BaseArcadeMachine : BaseVehicle // TypeDefIndex: 8316
 	[BaseEntity.Menu.Description] // RVA: 0xB4830 Offset: 0xB3C30 VA: 0x1800B4830
 	[BaseEntity.Menu.Icon] // RVA: 0xB4830 Offset: 0xB3C30 VA: 0x1800B4830
 	[BaseEntity.Menu.ShowIf] // RVA: 0xB4830 Offset: 0xB3C30 VA: 0x1800B4830
-	// RVA: 0x7D4360 Offset: 0x7D2960 VA: 0x1807D4360
+	// RVA: 0x7D4470 Offset: 0x7D2A70 VA: 0x1807D4470
 	public void Menu_Play(BasePlayer player) { }
 
-	// RVA: 0x7D4260 Offset: 0x7D2860 VA: 0x1807D4260
+	// RVA: 0x7D4370 Offset: 0x7D2970 VA: 0x1807D4370
 	public bool Menu_PlayGame_ShowIf(BasePlayer player) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 192
 	protected override bool CanPushNow(BasePlayer pusher) { }
 
-	// RVA: 0x7D6060 Offset: 0x7D4660 VA: 0x1807D6060
+	// RVA: 0x7D6170 Offset: 0x7D4770 VA: 0x1807D6170
 	public void .ctor() { }
 
 }

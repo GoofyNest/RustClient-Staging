@@ -5,14 +5,14 @@ public class IpList : Internet // TypeDefIndex: 5289
 
 	// Methods
 
-	// RVA: 0xDE2570 Offset: 0xDE0B70 VA: 0x180DE2570
+	// RVA: 0xDE2830 Offset: 0xDE0E30 VA: 0x180DE2830
 	public void .ctor(IEnumerable<string> list) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA27D0 Offset: 0xA1BD0 VA: 0x1800A27D0
-	// RVA: 0xDE2460 Offset: 0xDE0A60 VA: 0x180DE2460 Slot: 5
+	// RVA: 0xDE2720 Offset: 0xDE0D20 VA: 0x180DE2720 Slot: 5
 	public override Task<bool> RunQueryAsync(float timeoutSeconds = 10) { }
 
-	// RVA: 0xDE2450 Offset: 0xDE0A50 VA: 0x180DE2450 Slot: 6
+	// RVA: 0xDE2710 Offset: 0xDE0D10 VA: 0x180DE2710 Slot: 6
 	public override void Cancel() { }
 
 }

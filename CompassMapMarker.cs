@@ -5,7 +5,7 @@ public class CompassMapMarker : MonoBehaviour // TypeDefIndex: 10834
 
 	// Methods
 
-	// RVA: 0x6D1B30 Offset: 0x6D0130 VA: 0x1806D1B30
+	// RVA: 0x6D1C40 Offset: 0x6D0240 VA: 0x1806D1C40
 	public void PopulateMarker(bool isTeamLeaders) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

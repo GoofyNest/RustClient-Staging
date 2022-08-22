@@ -17,7 +17,7 @@ internal struct DownloadItemResult_t : ICallbackData // TypeDefIndex: 5435
 	// RVA: 0x1E5470 Offset: 0x1E4870 VA: 0x1801E5470 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370020 Offset: 0x136E620 VA: 0x181370020
+	// RVA: 0x13702E0 Offset: 0x136E8E0 VA: 0x1813702E0
 	private static void .cctor() { }
 
 }

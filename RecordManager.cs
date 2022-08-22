@@ -15,10 +15,10 @@ internal sealed class RecordManager // TypeDefIndex: 4292
 
 	// Methods
 
-	// RVA: 0xE955C0 Offset: 0xE93BC0 VA: 0x180E955C0
+	// RVA: 0xE95880 Offset: 0xE93E80 VA: 0x180E95880
 	internal void .ctor(DataTable table) { }
 
-	// RVA: 0xE95250 Offset: 0xE93850 VA: 0x180E95250
+	// RVA: 0xE95510 Offset: 0xE93B10 VA: 0x180E95510
 	private void GrowRecordCapacity() { }
 
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
@@ -27,43 +27,43 @@ internal sealed class RecordManager // TypeDefIndex: 4292
 	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
 	internal int get_MinimumCapacity() { }
 
-	// RVA: 0xE95740 Offset: 0xE93D40 VA: 0x180E95740
+	// RVA: 0xE95A00 Offset: 0xE94000 VA: 0x180E95A00
 	internal void set_MinimumCapacity(int value) { }
 
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	internal int get_RecordCapacity() { }
 
-	// RVA: 0xE957A0 Offset: 0xE93DA0 VA: 0x180E957A0
+	// RVA: 0xE95A60 Offset: 0xE94060 VA: 0x180E95A60
 	internal void set_RecordCapacity(int value) { }
 
-	// RVA: 0xE95460 Offset: 0xE93A60 VA: 0x180E95460
+	// RVA: 0xE95720 Offset: 0xE93D20 VA: 0x180E95720
 	internal static int NewCapacity(int capacity) { }
 
-	// RVA: 0xE95540 Offset: 0xE93B40 VA: 0x180E95540
+	// RVA: 0xE95800 Offset: 0xE93E00 VA: 0x180E95800
 	private int NormalizedMinimumCapacity(int capacity) { }
 
-	// RVA: 0xE95480 Offset: 0xE93A80 VA: 0x180E95480
+	// RVA: 0xE95740 Offset: 0xE93D40 VA: 0x180E95740
 	internal int NewRecordBase() { }
 
-	// RVA: 0xE95110 Offset: 0xE93710 VA: 0x180E95110
+	// RVA: 0xE953D0 Offset: 0xE939D0 VA: 0x180E953D0
 	internal void FreeRecord(ref int record) { }
 
-	// RVA: 0xE94C60 Offset: 0xE93260 VA: 0x180E94C60
+	// RVA: 0xE94F20 Offset: 0xE93520 VA: 0x180E94F20
 	internal void Clear(bool clearAll) { }
 
-	// RVA: 0xE95670 Offset: 0xE93C70 VA: 0x180E95670
+	// RVA: 0xE95930 Offset: 0xE93F30 VA: 0x180E95930
 	internal DataRow get_Item(int record) { }
 
-	// RVA: 0xE956B0 Offset: 0xE93CB0 VA: 0x180E956B0
+	// RVA: 0xE95970 Offset: 0xE93F70 VA: 0x180E95970
 	internal void set_Item(int record, DataRow value) { }
 
-	// RVA: 0xE95440 Offset: 0xE93A40 VA: 0x180E95440
+	// RVA: 0xE95700 Offset: 0xE93D00 VA: 0x180E95700
 	internal int ImportRecord(DataTable src, int record) { }
 
-	// RVA: 0xE94E60 Offset: 0xE93460 VA: 0x180E94E60
+	// RVA: 0xE95120 Offset: 0xE93720 VA: 0x180E95120
 	internal int CopyRecord(DataTable src, int record, int copy) { }
 
-	// RVA: 0xE95580 Offset: 0xE93B80 VA: 0x180E95580
+	// RVA: 0xE95840 Offset: 0xE93E40 VA: 0x180E95840
 	internal void SetRowCache(DataRow[] newRows) { }
 
 }

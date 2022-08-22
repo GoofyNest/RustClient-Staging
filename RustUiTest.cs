@@ -18,13 +18,13 @@ public class RustUiTest : MonoBehaviour // TypeDefIndex: 6998
 
 	// Methods
 
-	// RVA: 0xFD0A90 Offset: 0xFCF090 VA: 0x180FD0A90
+	// RVA: 0xFD0D50 Offset: 0xFCF350 VA: 0x180FD0D50
 	private void Awake() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0xFD2F80 Offset: 0xFD1580 VA: 0x180FD2F80
+	// RVA: 0xFD3240 Offset: 0xFD1840 VA: 0x180FD3240
 	private static void .cctor() { }
 
 }
@@ -38,7 +38,7 @@ private sealed class RustUiTest.<>c__DisplayClass3_0 // TypeDefIndex: 6999
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFD8BE0 Offset: 0xFD71E0 VA: 0x180FD8BE0
+	// RVA: 0xFD8EA0 Offset: 0xFD74A0 VA: 0x180FD8EA0
 	internal void <Awake>b__10() { }
 
 }
@@ -62,49 +62,49 @@ private sealed class RustUiTest.<>c // TypeDefIndex: 7000
 
 	// Methods
 
-	// RVA: 0xFD8EF0 Offset: 0xFD74F0 VA: 0x180FD8EF0
+	// RVA: 0xFD91B0 Offset: 0xFD77B0 VA: 0x180FD91B0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFD7DA0 Offset: 0xFD63A0 VA: 0x180FD7DA0
+	// RVA: 0xFD8060 Offset: 0xFD6660 VA: 0x180FD8060
 	internal void <Awake>b__3_0() { }
 
-	// RVA: 0xFD7FA0 Offset: 0xFD65A0 VA: 0x180FD7FA0
+	// RVA: 0xFD8260 Offset: 0xFD6860 VA: 0x180FD8260
 	internal void <Awake>b__3_1() { }
 
-	// RVA: 0xFD7FF0 Offset: 0xFD65F0 VA: 0x180FD7FF0
+	// RVA: 0xFD82B0 Offset: 0xFD68B0 VA: 0x180FD82B0
 	internal void <Awake>b__3_2() { }
 
-	// RVA: 0xFD8040 Offset: 0xFD6640 VA: 0x180FD8040
+	// RVA: 0xFD8300 Offset: 0xFD6900 VA: 0x180FD8300
 	internal void <Awake>b__3_3(Option val) { }
 
-	// RVA: 0xFD80B0 Offset: 0xFD66B0 VA: 0x180FD80B0
+	// RVA: 0xFD8370 Offset: 0xFD6970 VA: 0x180FD8370
 	internal void <Awake>b__3_4(string val) { }
 
-	// RVA: 0xFD8120 Offset: 0xFD6720 VA: 0x180FD8120
+	// RVA: 0xFD83E0 Offset: 0xFD69E0 VA: 0x180FD83E0
 	internal void <Awake>b__3_5(float val) { }
 
-	// RVA: 0xFD81B0 Offset: 0xFD67B0 VA: 0x180FD81B0
+	// RVA: 0xFD8470 Offset: 0xFD6A70 VA: 0x180FD8470
 	internal void <Awake>b__3_6(float val) { }
 
-	// RVA: 0xFD8240 Offset: 0xFD6840 VA: 0x180FD8240
+	// RVA: 0xFD8500 Offset: 0xFD6B00 VA: 0x180FD8500
 	internal void <Awake>b__3_7(bool val) { }
 
-	// RVA: 0xFD82C0 Offset: 0xFD68C0 VA: 0x180FD82C0
+	// RVA: 0xFD8580 Offset: 0xFD6B80 VA: 0x180FD8580
 	internal void <Awake>b__3_8(bool val) { }
 
-	// RVA: 0xFD8340 Offset: 0xFD6940 VA: 0x180FD8340
+	// RVA: 0xFD8600 Offset: 0xFD6C00 VA: 0x180FD8600
 	internal void <Awake>b__3_9(bool val) { }
 
-	// RVA: 0xFD7DF0 Offset: 0xFD63F0 VA: 0x180FD7DF0
+	// RVA: 0xFD80B0 Offset: 0xFD66B0 VA: 0x180FD80B0
 	internal void <Awake>b__3_11(Option val) { }
 
-	// RVA: 0xFD7E80 Offset: 0xFD6480 VA: 0x180FD7E80
+	// RVA: 0xFD8140 Offset: 0xFD6740 VA: 0x180FD8140
 	internal void <Awake>b__3_12(Option val) { }
 
-	// RVA: 0xFD7F10 Offset: 0xFD6510 VA: 0x180FD7F10
+	// RVA: 0xFD81D0 Offset: 0xFD67D0 VA: 0x180FD81D0
 	internal void <Awake>b__3_13(Option val) { }
 
 }

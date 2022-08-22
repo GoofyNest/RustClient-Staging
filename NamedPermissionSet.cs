@@ -8,30 +8,30 @@ public sealed class NamedPermissionSet : PermissionSet // TypeDefIndex: 901
 
 	// Methods
 
-	// RVA: 0x17B4370 Offset: 0x17B2970 VA: 0x1817B4370
+	// RVA: 0x17B4630 Offset: 0x17B2C30 VA: 0x1817B4630
 	internal void .ctor() { }
 
-	// RVA: 0x17B4210 Offset: 0x17B2810 VA: 0x1817B4210
+	// RVA: 0x17B44D0 Offset: 0x17B2AD0 VA: 0x1817B44D0
 	public void .ctor(string name, PermissionState state) { }
 
-	// RVA: 0x17B40C0 Offset: 0x17B26C0 VA: 0x1817B40C0
+	// RVA: 0x17B4380 Offset: 0x17B2980 VA: 0x1817B4380
 	public void .ctor(string name) { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	public string get_Name() { }
 
-	// RVA: 0x17B4410 Offset: 0x17B2A10 VA: 0x1817B4410
+	// RVA: 0x17B46D0 Offset: 0x17B2CD0 VA: 0x1817B46D0
 	public void set_Name(string value) { }
 
-	// RVA: 0x17B4030 Offset: 0x17B2630 VA: 0x1817B4030 Slot: 12
+	// RVA: 0x17B42F0 Offset: 0x17B28F0 VA: 0x1817B42F0 Slot: 12
 	public override SecurityElement ToXml() { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x17B3F40 Offset: 0x17B2540 VA: 0x1817B3F40 Slot: 0
+	// RVA: 0x17B4200 Offset: 0x17B2800 VA: 0x1817B4200 Slot: 0
 	public override bool Equals(object obj) { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x17B3FC0 Offset: 0x17B25C0 VA: 0x1817B3FC0 Slot: 2
+	// RVA: 0x17B4280 Offset: 0x17B2880 VA: 0x1817B4280 Slot: 2
 	public override int GetHashCode() { }
 
 }

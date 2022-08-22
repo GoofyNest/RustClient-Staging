@@ -8,19 +8,19 @@ internal abstract class RC4 : SymmetricAlgorithm // TypeDefIndex: 74
 
 	// Methods
 
-	// RVA: 0x1754A50 Offset: 0x1753050 VA: 0x181754A50
+	// RVA: 0x1754D10 Offset: 0x1753310 VA: 0x181754D10
 	public void .ctor() { }
 
-	// RVA: 0x1754B00 Offset: 0x1753100 VA: 0x181754B00 Slot: 9
+	// RVA: 0x1754DC0 Offset: 0x17533C0 VA: 0x181754DC0 Slot: 9
 	public override byte[] get_IV() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 10
 	public override void set_IV(byte[] value) { }
 
-	// RVA: 0x1754780 Offset: 0x1752D80 VA: 0x181754780
+	// RVA: 0x1754A40 Offset: 0x1753040 VA: 0x181754A40
 	public static RC4 Create() { }
 
-	// RVA: 0x17548B0 Offset: 0x1752EB0 VA: 0x1817548B0
+	// RVA: 0x1754B70 Offset: 0x1753170 VA: 0x181754B70
 	private static void .cctor() { }
 
 }

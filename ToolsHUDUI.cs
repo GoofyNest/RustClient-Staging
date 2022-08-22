@@ -8,19 +8,19 @@ public class ToolsHUDUI : MonoBehaviour // TypeDefIndex: 11240
 
 	// Methods
 
-	// RVA: 0xA08B80 Offset: 0xA07180 VA: 0x180A08B80
+	// RVA: 0xA08E40 Offset: 0xA07440 VA: 0x180A08E40
 	protected void OnEnable() { }
 
-	// RVA: 0xA087F0 Offset: 0xA06DF0 VA: 0x180A087F0
+	// RVA: 0xA08AB0 Offset: 0xA070B0 VA: 0x180A08AB0
 	private void Init() { }
 
-	// RVA: 0xA08670 Offset: 0xA06C70 VA: 0x180A08670
+	// RVA: 0xA08930 Offset: 0xA06F30 VA: 0x180A08930
 	private void AddToggleObj(string trName, string labelText) { }
 
-	// RVA: 0xA08B90 Offset: 0xA07190 VA: 0x180A08B90
+	// RVA: 0xA08E50 Offset: 0xA07450 VA: 0x180A08E50
 	public void SelectAll() { }
 
-	// RVA: 0xA08C30 Offset: 0xA07230 VA: 0x180A08C30
+	// RVA: 0xA08EF0 Offset: 0xA074F0 VA: 0x180A08EF0
 	public void SelectNone() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

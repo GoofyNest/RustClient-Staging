@@ -14,13 +14,13 @@ public class CH47HelicopterAIController : CH47Helicopter // TypeDefIndex: 9716
 
 	// Methods
 
-	// RVA: 0x6F5880 Offset: 0x6F3E80 VA: 0x1806F5880 Slot: 184
+	// RVA: 0x6F5990 Offset: 0x6F3F90 VA: 0x1806F5990 Slot: 184
 	public override bool MountMenuVisible(BasePlayer player) { }
 
-	// RVA: 0x6D31A0 Offset: 0x6D17A0 VA: 0x1806D31A0 Slot: 31
+	// RVA: 0x6D32B0 Offset: 0x6D18B0 VA: 0x1806D32B0 Slot: 31
 	public override void DestroyShared() { }
 
-	// RVA: 0x6F58C0 Offset: 0x6F3EC0 VA: 0x1806F58C0
+	// RVA: 0x6F59D0 Offset: 0x6F3FD0 VA: 0x1806F59D0
 	public void .ctor() { }
 
 }

@@ -45,122 +45,122 @@ public static class ExecuteEvents // TypeDefIndex: 5076
 	public static T ValidateEventData<T>(BaseEventData data) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15A3990 Offset: 0x15A1F90 VA: 0x1815A3990
+	|-RVA: 0x15A3C50 Offset: 0x15A2250 VA: 0x1815A3C50
 	|-ExecuteEvents.ValidateEventData<object>
 	|-ExecuteEvents.ValidateEventData<AxisEventData>
 	|-ExecuteEvents.ValidateEventData<PointerEventData>
 	*/
 
-	// RVA: 0x10C4B30 Offset: 0x10C3130 VA: 0x1810C4B30
+	// RVA: 0x10C4DF0 Offset: 0x10C33F0 VA: 0x1810C4DF0
 	private static void Execute(IPointerEnterHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4C20 Offset: 0x10C3220 VA: 0x1810C4C20
+	// RVA: 0x10C4EE0 Offset: 0x10C34E0 VA: 0x1810C4EE0
 	private static void Execute(IPointerExitHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4E80 Offset: 0x10C3480 VA: 0x1810C4E80
+	// RVA: 0x10C5140 Offset: 0x10C3740 VA: 0x1810C5140
 	private static void Execute(IPointerDownHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4F10 Offset: 0x10C3510 VA: 0x1810C4F10
+	// RVA: 0x10C51D0 Offset: 0x10C37D0 VA: 0x1810C51D0
 	private static void Execute(IPointerUpHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4800 Offset: 0x10C2E00 VA: 0x1810C4800
+	// RVA: 0x10C4AC0 Offset: 0x10C30C0 VA: 0x1810C4AC0
 	private static void Execute(IPointerClickHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4AA0 Offset: 0x10C30A0 VA: 0x1810C4AA0
+	// RVA: 0x10C4D60 Offset: 0x10C3360 VA: 0x1810C4D60
 	private static void Execute(IInitializePotentialDragHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4890 Offset: 0x10C2E90 VA: 0x1810C4890
+	// RVA: 0x10C4B50 Offset: 0x10C3150 VA: 0x1810C4B50
 	private static void Execute(IBeginDragHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4980 Offset: 0x10C2F80 VA: 0x1810C4980
+	// RVA: 0x10C4C40 Offset: 0x10C3240 VA: 0x1810C4C40
 	private static void Execute(IDragHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4D90 Offset: 0x10C3390 VA: 0x1810C4D90
+	// RVA: 0x10C5050 Offset: 0x10C3650 VA: 0x1810C5050
 	private static void Execute(IEndDragHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4A10 Offset: 0x10C3010 VA: 0x1810C4A10
+	// RVA: 0x10C4CD0 Offset: 0x10C32D0 VA: 0x1810C4CD0
 	private static void Execute(IDropHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4FA0 Offset: 0x10C35A0 VA: 0x1810C4FA0
+	// RVA: 0x10C5260 Offset: 0x10C3860 VA: 0x1810C5260
 	private static void Execute(IScrollHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4BC0 Offset: 0x10C31C0 VA: 0x1810C4BC0
+	// RVA: 0x10C4E80 Offset: 0x10C3480 VA: 0x1810C4E80
 	private static void Execute(IUpdateSelectedHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4E20 Offset: 0x10C3420 VA: 0x1810C4E20
+	// RVA: 0x10C50E0 Offset: 0x10C36E0 VA: 0x1810C50E0
 	private static void Execute(ISelectHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4920 Offset: 0x10C2F20 VA: 0x1810C4920
+	// RVA: 0x10C4BE0 Offset: 0x10C31E0 VA: 0x1810C4BE0
 	private static void Execute(IDeselectHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C4CB0 Offset: 0x10C32B0 VA: 0x1810C4CB0
+	// RVA: 0x10C4F70 Offset: 0x10C3570 VA: 0x1810C4F70
 	private static void Execute(IMoveHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C47A0 Offset: 0x10C2DA0 VA: 0x1810C47A0
+	// RVA: 0x10C4A60 Offset: 0x10C3060 VA: 0x1810C4A60
 	private static void Execute(ISubmitHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C5030 Offset: 0x10C3630 VA: 0x1810C5030
+	// RVA: 0x10C52F0 Offset: 0x10C38F0 VA: 0x1810C52F0
 	private static void Execute(ICancelHandler handler, BaseEventData eventData) { }
 
-	// RVA: 0x10C5CE0 Offset: 0x10C42E0 VA: 0x1810C5CE0
+	// RVA: 0x10C5FA0 Offset: 0x10C45A0 VA: 0x1810C5FA0
 	public static ExecuteEvents.EventFunction<IPointerEnterHandler> get_pointerEnterHandler() { }
 
-	// RVA: 0x10C5DA0 Offset: 0x10C43A0 VA: 0x1810C5DA0
+	// RVA: 0x10C6060 Offset: 0x10C4660 VA: 0x1810C6060
 	public static ExecuteEvents.EventFunction<IPointerExitHandler> get_pointerExitHandler() { }
 
-	// RVA: 0x10C5C80 Offset: 0x10C4280 VA: 0x1810C5C80
+	// RVA: 0x10C5F40 Offset: 0x10C4540 VA: 0x1810C5F40
 	public static ExecuteEvents.EventFunction<IPointerDownHandler> get_pointerDownHandler() { }
 
-	// RVA: 0x10C5E60 Offset: 0x10C4460 VA: 0x1810C5E60
+	// RVA: 0x10C6120 Offset: 0x10C4720 VA: 0x1810C6120
 	public static ExecuteEvents.EventFunction<IPointerUpHandler> get_pointerUpHandler() { }
 
-	// RVA: 0x10C5BC0 Offset: 0x10C41C0 VA: 0x1810C5BC0
+	// RVA: 0x10C5E80 Offset: 0x10C4480 VA: 0x1810C5E80
 	public static ExecuteEvents.EventFunction<IPointerClickHandler> get_pointerClickHandler() { }
 
-	// RVA: 0x10C5AA0 Offset: 0x10C40A0 VA: 0x1810C5AA0
+	// RVA: 0x10C5D60 Offset: 0x10C4360 VA: 0x1810C5D60
 	public static ExecuteEvents.EventFunction<IInitializePotentialDragHandler> get_initializePotentialDrag() { }
 
-	// RVA: 0x10C57A0 Offset: 0x10C3DA0 VA: 0x1810C57A0
+	// RVA: 0x10C5A60 Offset: 0x10C4060 VA: 0x1810C5A60
 	public static ExecuteEvents.EventFunction<IBeginDragHandler> get_beginDragHandler() { }
 
-	// RVA: 0x10C58C0 Offset: 0x10C3EC0 VA: 0x1810C58C0
+	// RVA: 0x10C5B80 Offset: 0x10C4180 VA: 0x1810C5B80
 	public static ExecuteEvents.EventFunction<IDragHandler> get_dragHandler() { }
 
-	// RVA: 0x10C59E0 Offset: 0x10C3FE0 VA: 0x1810C59E0
+	// RVA: 0x10C5CA0 Offset: 0x10C42A0 VA: 0x1810C5CA0
 	public static ExecuteEvents.EventFunction<IEndDragHandler> get_endDragHandler() { }
 
-	// RVA: 0x10C5920 Offset: 0x10C3F20 VA: 0x1810C5920
+	// RVA: 0x10C5BE0 Offset: 0x10C41E0 VA: 0x1810C5BE0
 	public static ExecuteEvents.EventFunction<IDropHandler> get_dropHandler() { }
 
-	// RVA: 0x10C5F20 Offset: 0x10C4520 VA: 0x1810C5F20
+	// RVA: 0x10C61E0 Offset: 0x10C47E0 VA: 0x1810C61E0
 	public static ExecuteEvents.EventFunction<IScrollHandler> get_scrollHandler() { }
 
-	// RVA: 0x10C6040 Offset: 0x10C4640 VA: 0x1810C6040
+	// RVA: 0x10C6300 Offset: 0x10C4900 VA: 0x1810C6300
 	public static ExecuteEvents.EventFunction<IUpdateSelectedHandler> get_updateSelectedHandler() { }
 
-	// RVA: 0x10C5F80 Offset: 0x10C4580 VA: 0x1810C5F80
+	// RVA: 0x10C6240 Offset: 0x10C4840 VA: 0x1810C6240
 	public static ExecuteEvents.EventFunction<ISelectHandler> get_selectHandler() { }
 
-	// RVA: 0x10C5860 Offset: 0x10C3E60 VA: 0x1810C5860
+	// RVA: 0x10C5B20 Offset: 0x10C4120 VA: 0x1810C5B20
 	public static ExecuteEvents.EventFunction<IDeselectHandler> get_deselectHandler() { }
 
-	// RVA: 0x10C5B60 Offset: 0x10C4160 VA: 0x1810C5B60
+	// RVA: 0x10C5E20 Offset: 0x10C4420 VA: 0x1810C5E20
 	public static ExecuteEvents.EventFunction<IMoveHandler> get_moveHandler() { }
 
-	// RVA: 0x10C5FE0 Offset: 0x10C45E0 VA: 0x1810C5FE0
+	// RVA: 0x10C62A0 Offset: 0x10C48A0 VA: 0x1810C62A0
 	public static ExecuteEvents.EventFunction<ISubmitHandler> get_submitHandler() { }
 
-	// RVA: 0x10C5800 Offset: 0x10C3E00 VA: 0x1810C5800
+	// RVA: 0x10C5AC0 Offset: 0x10C40C0 VA: 0x1810C5AC0
 	public static ExecuteEvents.EventFunction<ICancelHandler> get_cancelHandler() { }
 
-	// RVA: 0x10C5090 Offset: 0x10C3690 VA: 0x1810C5090
+	// RVA: 0x10C5350 Offset: 0x10C3950 VA: 0x1810C5350
 	private static void GetEventChain(GameObject root, IList<Transform> eventChain) { }
 
 	// RVA: -1 Offset: -1
 	public static bool Execute<T>(GameObject target, BaseEventData eventData, ExecuteEvents.EventFunction<T> functor) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF1EF0 Offset: 0xBF04F0 VA: 0x180BF1EF0
+	|-RVA: 0xBF21B0 Offset: 0xBF07B0 VA: 0x180BF21B0
 	|-ExecuteEvents.Execute<object>
 	|-ExecuteEvents.Execute<IBeginDragHandler>
 	|-ExecuteEvents.Execute<ICancelHandler>
@@ -182,7 +182,7 @@ public static class ExecuteEvents // TypeDefIndex: 5076
 	public static GameObject ExecuteHierarchy<T>(GameObject root, BaseEventData eventData, ExecuteEvents.EventFunction<T> callbackFunction) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A37F40 Offset: 0x1A36540 VA: 0x181A37F40
+	|-RVA: 0x1A38200 Offset: 0x1A36800 VA: 0x181A38200
 	|-ExecuteEvents.ExecuteHierarchy<object>
 	|-ExecuteEvents.ExecuteHierarchy<IDropHandler>
 	|-ExecuteEvents.ExecuteHierarchy<IPointerDownHandler>
@@ -194,7 +194,7 @@ public static class ExecuteEvents // TypeDefIndex: 5076
 	private static bool ShouldSendToComponent<T>(Component component) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF2210 Offset: 0xBF0810 VA: 0x180BF2210
+	|-RVA: 0xBF24D0 Offset: 0xBF0AD0 VA: 0x180BF24D0
 	|-ExecuteEvents.ShouldSendToComponent<object>
 	*/
 
@@ -210,7 +210,7 @@ public static class ExecuteEvents // TypeDefIndex: 5076
 	public static bool CanHandleEvent<T>(GameObject go) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF1E10 Offset: 0xBF0410 VA: 0x180BF1E10
+	|-RVA: 0xBF20D0 Offset: 0xBF06D0 VA: 0x180BF20D0
 	|-ExecuteEvents.CanHandleEvent<object>
 	*/
 
@@ -218,7 +218,7 @@ public static class ExecuteEvents // TypeDefIndex: 5076
 	public static GameObject GetEventHandler<T>(GameObject root) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A380C0 Offset: 0x1A366C0 VA: 0x181A380C0
+	|-RVA: 0x1A38380 Offset: 0x1A36980 VA: 0x181A38380
 	|-ExecuteEvents.GetEventHandler<object>
 	|-ExecuteEvents.GetEventHandler<IDragHandler>
 	|-ExecuteEvents.GetEventHandler<IPointerClickHandler>
@@ -226,7 +226,7 @@ public static class ExecuteEvents // TypeDefIndex: 5076
 	|-ExecuteEvents.GetEventHandler<ISelectHandler>
 	*/
 
-	// RVA: 0x10C5210 Offset: 0x10C3810 VA: 0x1810C5210
+	// RVA: 0x10C54D0 Offset: 0x10C3AD0 VA: 0x1810C54D0
 	private static void .cctor() { }
 
 }
@@ -263,7 +263,7 @@ public sealed class ExecuteEvents.EventFunction<T1> : MulticastDelegate // TypeD
 	public virtual void Invoke(T1 handler, BaseEventData eventData) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xAE45C0 Offset: 0xAE2BC0 VA: 0x180AE45C0
+	|-RVA: 0xAE4880 Offset: 0xAE2E80 VA: 0x180AE4880
 	|-ExecuteEvents.EventFunction<object>.Invoke
 	*/
 
@@ -271,7 +271,7 @@ public sealed class ExecuteEvents.EventFunction<T1> : MulticastDelegate // TypeD
 	public virtual IAsyncResult BeginInvoke(T1 handler, BaseEventData eventData, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580
+	|-RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840
 	|-ExecuteEvents.EventFunction<object>.BeginInvoke
 	*/
 
@@ -287,17 +287,17 @@ public sealed class ExecuteEvents.EventFunction<T1> : MulticastDelegate // TypeD
 
 private sealed class ExecuteEvents.<>c // TypeDefIndex: 5078
 {	// Fields
-	public static readonly ExecuteEvents.<>c <>9; // 0x2B101A0
+	public static readonly ExecuteEvents.<>c <>9; // 0x2B111E0
 
 	// Methods
 
-	// RVA: 0x10CEDB0 Offset: 0x10CD3B0 VA: 0x1810CEDB0
+	// RVA: 0x10CF070 Offset: 0x10CD670 VA: 0x1810CF070
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x10CED60 Offset: 0x10CD360 VA: 0x1810CED60
+	// RVA: 0x10CF020 Offset: 0x10CD620 VA: 0x1810CF020
 	internal void <.cctor>b__79_0(List<IEventSystemHandler> l) { }
 
 }

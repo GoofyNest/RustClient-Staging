@@ -96,7 +96,7 @@ private sealed class LODGrid.<UpdateCoroutine>d__26 : IEnumerator<object>, IEnum
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x691000 Offset: 0x68F600 VA: 0x180691000 Slot: 6
+	// RVA: 0x691110 Offset: 0x68F710 VA: 0x180691110 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -104,7 +104,7 @@ private sealed class LODGrid.<UpdateCoroutine>d__26 : IEnumerator<object>, IEnum
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x691400 Offset: 0x68FA00 VA: 0x180691400 Slot: 8
+	// RVA: 0x691510 Offset: 0x68FB10 VA: 0x180691510 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

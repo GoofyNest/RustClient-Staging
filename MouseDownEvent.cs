@@ -1,16 +1,16 @@
 public class MouseDownEvent : MouseEventBase<MouseDownEvent> // TypeDefIndex: 4671
 {	// Methods
 
-	// RVA: 0xEB3D00 Offset: 0xEB2300 VA: 0x180EB3D00
+	// RVA: 0xEB3FC0 Offset: 0xEB25C0 VA: 0x180EB3FC0
 	private static MouseDownEvent MakeFromPointerEvent(IPointerEvent pointerEvent) { }
 
-	// RVA: 0xEB3CF0 Offset: 0xEB22F0 VA: 0x180EB3CF0
+	// RVA: 0xEB3FB0 Offset: 0xEB25B0 VA: 0x180EB3FB0
 	internal static MouseDownEvent GetPooled(PointerDownEvent pointerEvent) { }
 
-	// RVA: 0xEB3CF0 Offset: 0xEB22F0 VA: 0x180EB3CF0
+	// RVA: 0xEB3FB0 Offset: 0xEB25B0 VA: 0x180EB3FB0
 	internal static MouseDownEvent GetPooled(PointerMoveEvent pointerEvent) { }
 
-	// RVA: 0xEB3DF0 Offset: 0xEB23F0 VA: 0x180EB3DF0
+	// RVA: 0xEB40B0 Offset: 0xEB26B0 VA: 0x180EB40B0
 	public void .ctor() { }
 
 }

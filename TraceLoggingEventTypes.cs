@@ -18,13 +18,13 @@ internal class TraceLoggingEventTypes // TypeDefIndex: 1586
 
 	// Methods
 
-	// RVA: 0x10E88F0 Offset: 0x10E6EF0 VA: 0x1810E88F0
+	// RVA: 0x10E8BB0 Offset: 0x10E71B0 VA: 0x1810E8BB0
 	internal void .ctor(string name, EventTags tags, Type[] types) { }
 
-	// RVA: 0x10E84F0 Offset: 0x10E6AF0 VA: 0x1810E84F0
+	// RVA: 0x10E87B0 Offset: 0x10E6DB0 VA: 0x1810E87B0
 	internal void .ctor(string name, EventTags tags, ParameterInfo[] paramInfos) { }
 
-	// RVA: 0x10E82F0 Offset: 0x10E68F0 VA: 0x1810E82F0
+	// RVA: 0x10E85B0 Offset: 0x10E6BB0 VA: 0x1810E85B0
 	private void .ctor(EventTags tags, string defaultName, TraceLoggingTypeInfo[] typeInfos) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
@@ -33,13 +33,13 @@ internal class TraceLoggingEventTypes // TypeDefIndex: 1586
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	internal EventTags get_Tags() { }
 
-	// RVA: 0x10E7DB0 Offset: 0x10E63B0 VA: 0x1810E7DB0
+	// RVA: 0x10E8070 Offset: 0x10E6670 VA: 0x1810E8070
 	internal NameInfo GetNameInfo(string name, EventTags tags) { }
 
-	// RVA: 0x10E7FD0 Offset: 0x10E65D0 VA: 0x1810E7FD0
+	// RVA: 0x10E8290 Offset: 0x10E6890 VA: 0x1810E8290
 	private TraceLoggingTypeInfo[] MakeArray(ParameterInfo[] paramInfos) { }
 
-	// RVA: 0x10E8170 Offset: 0x10E6770 VA: 0x1810E8170
+	// RVA: 0x10E8430 Offset: 0x10E6A30 VA: 0x1810E8430
 	private static TraceLoggingTypeInfo[] MakeArray(Type[] types) { }
 
 }

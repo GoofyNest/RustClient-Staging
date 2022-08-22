@@ -5,16 +5,16 @@ internal class TargetPool // TypeDefIndex: 11872
 
 	// Methods
 
-	// RVA: 0x11E0EE0 Offset: 0x11DF4E0 VA: 0x1811E0EE0
+	// RVA: 0x11E11A0 Offset: 0x11DF7A0 VA: 0x1811E11A0
 	internal void .ctor() { }
 
-	// RVA: 0x11E0DD0 Offset: 0x11DF3D0 VA: 0x1811E0DD0
+	// RVA: 0x11E1090 Offset: 0x11DF690 VA: 0x1811E1090
 	internal int Get() { }
 
-	// RVA: 0x11E0CD0 Offset: 0x11DF2D0 VA: 0x1811E0CD0
+	// RVA: 0x11E0F90 Offset: 0x11DF590 VA: 0x1811E0F90
 	private int Get(int i) { }
 
-	// RVA: 0x11E0ED0 Offset: 0x11DF4D0 VA: 0x1811E0ED0
+	// RVA: 0x11E1190 Offset: 0x11DF790 VA: 0x1811E1190
 	internal void Reset() { }
 
 }

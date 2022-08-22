@@ -13,13 +13,13 @@ public class Deployable : PrefabAttribute // TypeDefIndex: 9851
 
 	// Methods
 
-	// RVA: 0x978E80 Offset: 0x977480 VA: 0x180978E80 Slot: 6
+	// RVA: 0x978F90 Offset: 0x977590 VA: 0x180978F90 Slot: 6
 	protected override void AttributeSetup(GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x978F40 Offset: 0x977540 VA: 0x180978F40 Slot: 7
+	// RVA: 0x979050 Offset: 0x977650 VA: 0x180979050 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x978FA0 Offset: 0x9775A0 VA: 0x180978FA0
+	// RVA: 0x9790B0 Offset: 0x9776B0 VA: 0x1809790B0
 	public void .ctor() { }
 
 }

@@ -9,28 +9,28 @@ public class EasterBasket : AttackEntity // TypeDefIndex: 8567
 
 	// Methods
 
-	// RVA: 0xAB86C0 Offset: 0xAB6CC0 VA: 0x180AB86C0 Slot: 35
+	// RVA: 0xAB8980 Offset: 0xAB6F80 VA: 0x180AB8980 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x923BB0 Offset: 0x9221B0 VA: 0x180923BB0 Slot: 157
+	// RVA: 0x923CC0 Offset: 0x9222C0 VA: 0x180923CC0 Slot: 157
 	public override Vector3 GetInheritedVelocity(BasePlayer player) { }
 
-	// RVA: 0xAB7B00 Offset: 0xAB6100 VA: 0x180AB7B00
+	// RVA: 0xAB7DC0 Offset: 0xAB63C0 VA: 0x180AB7DC0
 	public Item GetAmmo() { }
 
-	// RVA: 0xAB7BF0 Offset: 0xAB61F0 VA: 0x180AB7BF0
+	// RVA: 0xAB7EB0 Offset: 0xAB64B0 VA: 0x180AB7EB0
 	public bool HasAmmo() { }
 
-	// RVA: 0xAB7C10 Offset: 0xAB6210 VA: 0x180AB7C10
+	// RVA: 0xAB7ED0 Offset: 0xAB64D0 VA: 0x180AB7ED0
 	public void LaunchProjectile() { }
 
-	// RVA: 0xAB87B0 Offset: 0xAB6DB0 VA: 0x180AB87B0 Slot: 144
+	// RVA: 0xAB8A70 Offset: 0xAB7070 VA: 0x180AB8A70 Slot: 144
 	public override void OnViewmodelEvent(string name) { }
 
-	// RVA: 0xAB7ED0 Offset: 0xAB64D0 VA: 0x180AB7ED0 Slot: 138
+	// RVA: 0xAB8190 Offset: 0xAB6790 VA: 0x180AB8190 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0xAB89C0 Offset: 0xAB6FC0 VA: 0x180AB89C0
+	// RVA: 0xAB8C80 Offset: 0xAB7280 VA: 0x180AB8C80
 	public void .ctor() { }
 
 }

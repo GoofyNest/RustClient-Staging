@@ -13,16 +13,16 @@ public sealed class ByteQuadtree // TypeDefIndex: 10279
 
 	// Methods
 
-	// RVA: 0x6F3020 Offset: 0x6F1620 VA: 0x1806F3020
+	// RVA: 0x6F3130 Offset: 0x6F1730 VA: 0x1806F3130
 	public void UpdateValues(byte[] baseValues) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public int get_Size() { }
 
-	// RVA: 0x6F3400 Offset: 0x6F1A00 VA: 0x1806F3400
+	// RVA: 0x6F3510 Offset: 0x6F1B10 VA: 0x1806F3510
 	public ByteQuadtree.Element get_Root() { }
 
-	// RVA: 0x6F2F50 Offset: 0x6F1550 VA: 0x1806F2F50
+	// RVA: 0x6F3060 Offset: 0x6F1660 VA: 0x1806F3060
 	private ByteMap CreateLevel(int level) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

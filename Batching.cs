@@ -17,17 +17,17 @@ public class Batching : ConsoleSystem // TypeDefIndex: 11884
 	// Methods
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CC940 Offset: 0x6CAF40 VA: 0x1806CC940
+	// RVA: 0x6CCA50 Offset: 0x6CB050 VA: 0x1806CCA50
 	public static void refresh_renderers(ConsoleSystem.Arg args) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CC610 Offset: 0x6CAC10 VA: 0x1806CC610
+	// RVA: 0x6CC720 Offset: 0x6CAD20 VA: 0x1806CC720
 	public static void print_renderers(ConsoleSystem.Arg args) { }
 
-	// RVA: 0x6CC5B0 Offset: 0x6CABB0 VA: 0x1806CC5B0
+	// RVA: 0x6CC6C0 Offset: 0x6CACC0 VA: 0x1806CC6C0
 	public void .ctor() { }
 
-	// RVA: 0x6CC510 Offset: 0x6CAB10 VA: 0x1806CC510
+	// RVA: 0x6CC620 Offset: 0x6CAC20 VA: 0x1806CC620
 	private static void .cctor() { }
 
 }

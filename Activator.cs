@@ -1,19 +1,19 @@
 public sealed class Activator // TypeDefIndex: 163
 {	// Methods
 
-	// RVA: 0x15508A0 Offset: 0x154EEA0 VA: 0x1815508A0
+	// RVA: 0x1550B60 Offset: 0x154F160 VA: 0x181550B60
 	public static object CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture) { }
 
-	// RVA: 0x1550530 Offset: 0x154EB30 VA: 0x181550530
+	// RVA: 0x15507F0 Offset: 0x154EDF0 VA: 0x1815507F0
 	public static object CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes) { }
 
-	// RVA: 0x15508E0 Offset: 0x154EEE0 VA: 0x1815508E0
+	// RVA: 0x1550BA0 Offset: 0x154F1A0 VA: 0x181550BA0
 	public static object CreateInstance(Type type, object[] args) { }
 
-	// RVA: 0x15508D0 Offset: 0x154EED0 VA: 0x1815508D0
+	// RVA: 0x1550B90 Offset: 0x154F190 VA: 0x181550B90
 	public static object CreateInstance(Type type) { }
 
-	// RVA: 0x1550730 Offset: 0x154ED30 VA: 0x181550730
+	// RVA: 0x15509F0 Offset: 0x154EFF0 VA: 0x1815509F0
 	public static object CreateInstance(Type type, bool nonPublic) { }
 
 	// RVA: -1 Offset: -1

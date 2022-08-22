@@ -18,101 +18,101 @@ public abstract class Delegate : ICloneable, ISerializable // TypeDefIndex: 356
 
 	// Methods
 
-	// RVA: 0x82BCA0 Offset: 0x82A2A0 VA: 0x18082BCA0
+	// RVA: 0x82BDB0 Offset: 0x82A3B0 VA: 0x18082BDB0
 	public MethodInfo get_Method() { }
 
-	// RVA: 0xD72E30 Offset: 0xD71430 VA: 0x180D72E30
+	// RVA: 0xD730F0 Offset: 0xD716F0 VA: 0x180D730F0
 	private MethodInfo GetVirtualMethod_internal() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public object get_Target() { }
 
-	// RVA: 0xD714A0 Offset: 0xD6FAA0 VA: 0x180D714A0
+	// RVA: 0xD71760 Offset: 0xD6FD60 VA: 0x180D71760
 	internal static Delegate CreateDelegate_internal(Type type, object target, MethodInfo info, bool throwOnBindFailure) { }
 
-	// RVA: 0xD73040 Offset: 0xD71640 VA: 0x180D73040
+	// RVA: 0xD73300 Offset: 0xD71900 VA: 0x180D73300
 	private static bool arg_type_match(Type delArgType, Type argType) { }
 
-	// RVA: 0xD731F0 Offset: 0xD717F0 VA: 0x180D731F0
+	// RVA: 0xD734B0 Offset: 0xD71AB0 VA: 0x180D734B0
 	private static bool arg_type_match_this(Type delArgType, Type argType, bool boxedThis) { }
 
-	// RVA: 0xD733B0 Offset: 0xD719B0 VA: 0x180D733B0
+	// RVA: 0xD73670 Offset: 0xD71C70 VA: 0x180D73670
 	private static bool return_type_match(Type delReturnType, Type returnType) { }
 
-	// RVA: 0xD714B0 Offset: 0xD6FAB0 VA: 0x180D714B0
+	// RVA: 0xD71770 Offset: 0xD6FD70 VA: 0x180D71770
 	public static Delegate CreateDelegate(Type type, object firstArgument, MethodInfo method, bool throwOnBindFailure) { }
 
-	// RVA: 0xD715D0 Offset: 0xD6FBD0 VA: 0x180D715D0
+	// RVA: 0xD71890 Offset: 0xD6FE90 VA: 0x180D71890
 	private static Delegate CreateDelegate(Type type, object firstArgument, MethodInfo method, bool throwOnBindFailure, bool allowClosed) { }
 
-	// RVA: 0xD714D0 Offset: 0xD6FAD0 VA: 0x180D714D0
+	// RVA: 0xD71790 Offset: 0xD6FD90 VA: 0x180D71790
 	public static Delegate CreateDelegate(Type type, object firstArgument, MethodInfo method) { }
 
-	// RVA: 0xD72280 Offset: 0xD70880 VA: 0x180D72280
+	// RVA: 0xD72540 Offset: 0xD70B40 VA: 0x180D72540
 	public static Delegate CreateDelegate(Type type, MethodInfo method, bool throwOnBindFailure) { }
 
-	// RVA: 0xD72250 Offset: 0xD70850 VA: 0x180D72250
+	// RVA: 0xD72510 Offset: 0xD70B10 VA: 0x180D72510
 	public static Delegate CreateDelegate(Type type, MethodInfo method) { }
 
-	// RVA: 0xD714F0 Offset: 0xD6FAF0 VA: 0x180D714F0
+	// RVA: 0xD717B0 Offset: 0xD6FDB0 VA: 0x180D717B0
 	public static Delegate CreateDelegate(Type type, object target, string method) { }
 
-	// RVA: 0xD72590 Offset: 0xD70B90 VA: 0x180D72590
+	// RVA: 0xD72850 Offset: 0xD70E50 VA: 0x180D72850
 	private static MethodInfo GetCandidateMethod(Type type, Type target, string method, BindingFlags bflags, bool ignoreCase, bool throwOnBindFailure) { }
 
-	// RVA: 0xD722B0 Offset: 0xD708B0 VA: 0x180D722B0
+	// RVA: 0xD72570 Offset: 0xD70B70 VA: 0x180D72570
 	public static Delegate CreateDelegate(Type type, Type target, string method, bool ignoreCase, bool throwOnBindFailure) { }
 
-	// RVA: 0xD72150 Offset: 0xD70750 VA: 0x180D72150
+	// RVA: 0xD72410 Offset: 0xD70A10 VA: 0x180D72410
 	public static Delegate CreateDelegate(Type type, Type target, string method) { }
 
-	// RVA: 0xD72050 Offset: 0xD70650 VA: 0x180D72050
+	// RVA: 0xD72310 Offset: 0xD70910 VA: 0x180D72310
 	public static Delegate CreateDelegate(Type type, object target, string method, bool ignoreCase, bool throwOnBindFailure) { }
 
-	// RVA: 0xD71F60 Offset: 0xD70560 VA: 0x180D71F60
+	// RVA: 0xD72220 Offset: 0xD70820 VA: 0x180D72220
 	public static Delegate CreateDelegate(Type type, object target, string method, bool ignoreCase) { }
 
-	// RVA: 0xD71020 Offset: 0xD6F620 VA: 0x180D71020 Slot: 6
+	// RVA: 0xD712E0 Offset: 0xD6F8E0 VA: 0x180D712E0 Slot: 6
 	public virtual object Clone() { }
 
-	// RVA: 0xD723D0 Offset: 0xD709D0 VA: 0x180D723D0 Slot: 0
+	// RVA: 0xD72690 Offset: 0xD70C90 VA: 0x180D72690 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xD729D0 Offset: 0xD70FD0 VA: 0x180D729D0 Slot: 2
+	// RVA: 0xD72C90 Offset: 0xD71290 VA: 0x180D72C90 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0xD72B10 Offset: 0xD71110 VA: 0x180D72B10 Slot: 7
+	// RVA: 0xD72DD0 Offset: 0xD713D0 VA: 0x180D72DD0 Slot: 7
 	protected virtual MethodInfo GetMethodImpl() { }
 
-	// RVA: 0xD72C00 Offset: 0xD71200 VA: 0x180D72C00 Slot: 8
+	// RVA: 0xD72EC0 Offset: 0xD714C0 VA: 0x180D72EC0 Slot: 8
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xD72A60 Offset: 0xD71060 VA: 0x180D72A60 Slot: 9
+	// RVA: 0xD72D20 Offset: 0xD71320 VA: 0x180D72D20 Slot: 9
 	public virtual Delegate[] GetInvocationList() { }
 
-	// RVA: 0xD712C0 Offset: 0xD6F8C0 VA: 0x180D712C0
+	// RVA: 0xD71580 Offset: 0xD6FB80 VA: 0x180D71580
 	public static Delegate Combine(Delegate a, Delegate b) { }
 
 	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
-	// RVA: 0xD710A0 Offset: 0xD6F6A0 VA: 0x180D710A0
+	// RVA: 0xD71360 Offset: 0xD6F960 VA: 0x180D71360
 	public static Delegate Combine(Delegate[] delegates) { }
 
-	// RVA: 0xD71030 Offset: 0xD6F630 VA: 0x180D71030 Slot: 10
+	// RVA: 0xD712F0 Offset: 0xD6F8F0 VA: 0x180D712F0 Slot: 10
 	protected virtual Delegate CombineImpl(Delegate d) { }
 
-	// RVA: 0xD72E70 Offset: 0xD71470 VA: 0x180D72E70
+	// RVA: 0xD73130 Offset: 0xD71730 VA: 0x180D73130
 	public static Delegate Remove(Delegate source, Delegate value) { }
 
-	// RVA: 0xD72E40 Offset: 0xD71440 VA: 0x180D72E40 Slot: 11
+	// RVA: 0xD73100 Offset: 0xD71700 VA: 0x180D73100 Slot: 11
 	protected virtual Delegate RemoveImpl(Delegate d) { }
 
-	// RVA: 0xD73380 Offset: 0xD71980 VA: 0x180D73380
+	// RVA: 0xD73640 Offset: 0xD71C40 VA: 0x180D73640
 	public static bool op_Equality(Delegate d1, Delegate d2) { }
 
-	// RVA: 0xD71490 Offset: 0xD6FA90 VA: 0x180D71490
+	// RVA: 0xD71750 Offset: 0xD6FD50 VA: 0x180D71750
 	internal static Delegate CreateDelegateNoSecurityCheck(RuntimeType type, object firstArgument, MethodInfo method) { }
 
-	// RVA: 0xD71010 Offset: 0xD6F610 VA: 0x180D71010
+	// RVA: 0xD712D0 Offset: 0xD6F8D0 VA: 0x180D712D0
 	internal static MulticastDelegate AllocDelegateLike_internal(Delegate d) { }
 
 }

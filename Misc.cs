@@ -1,10 +1,10 @@
 internal static class Misc // TypeDefIndex: 4989
 {	// Methods
 
-	// RVA: 0x1716CB0 Offset: 0x17152B0 VA: 0x181716CB0
+	// RVA: 0x1716F70 Offset: 0x1715570 VA: 0x181716F70
 	public static void Destroy(Object obj) { }
 
-	// RVA: 0x1716BF0 Offset: 0x17151F0 VA: 0x181716BF0
+	// RVA: 0x1716EB0 Offset: 0x17154B0 VA: 0x181716EB0
 	public static void DestroyImmediate(Object obj) { }
 
 }

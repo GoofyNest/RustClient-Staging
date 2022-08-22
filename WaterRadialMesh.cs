@@ -14,25 +14,25 @@ public class WaterRadialMesh // TypeDefIndex: 10618
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public Mesh[] get_Meshes() { }
 
-	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
+	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
 	public bool get_IsInitialized() { }
 
-	// RVA: 0xC1B940 Offset: 0xC19F40 VA: 0x180C1B940
+	// RVA: 0xC1BC00 Offset: 0xC1A200 VA: 0x180C1BC00
 	public void Initialize(int vertexCount) { }
 
-	// RVA: 0xC1AB50 Offset: 0xC19150 VA: 0x180C1AB50
+	// RVA: 0xC1AE10 Offset: 0xC19410 VA: 0x180C1AE10
 	public void Destroy() { }
 
-	// RVA: 0xC1AA70 Offset: 0xC19070 VA: 0x180C1AA70
+	// RVA: 0xC1AD30 Offset: 0xC19330 VA: 0x180C1AD30
 	private Mesh CreateMesh(string name, Vector3[] vertices, int[] indices) { }
 
-	// RVA: 0xC1AC30 Offset: 0xC19230 VA: 0x180C1AC30
+	// RVA: 0xC1AEF0 Offset: 0xC194F0 VA: 0x180C1AEF0
 	private Mesh[] GenerateMeshes(int vertexCount, bool volume = False) { }
 
-	// RVA: 0xC1B970 Offset: 0xC19F70 VA: 0x180C1B970
+	// RVA: 0xC1BC30 Offset: 0xC1A230 VA: 0x180C1BC30
 	private Vector3 RaycastPlane(Camera camera, float planeHeight, Vector3 pos) { }
 
-	// RVA: 0xC1A280 Offset: 0xC18880 VA: 0x180C1A280
+	// RVA: 0xC1A540 Offset: 0xC18B40 VA: 0x180C1A540
 	public Matrix4x4 ComputeLocalToWorldMatrix(Camera camera, float oceanWaterLevel) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

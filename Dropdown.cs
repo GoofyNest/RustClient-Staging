@@ -42,163 +42,163 @@ public class Dropdown : Selectable, IPointerClickHandler, IEventSystemHandler, I
 
 	// Methods
 
-	// RVA: 0x872140 Offset: 0x870740 VA: 0x180872140
+	// RVA: 0x872250 Offset: 0x870850 VA: 0x180872250
 	public RectTransform get_template() { }
 
-	// RVA: 0x10C2B80 Offset: 0x10C1180 VA: 0x1810C2B80
+	// RVA: 0x10C2E40 Offset: 0x10C1440 VA: 0x1810C2E40
 	public void set_template(RectTransform value) { }
 
-	// RVA: 0xC73B60 Offset: 0xC72160 VA: 0x180C73B60
+	// RVA: 0xC73E20 Offset: 0xC72420 VA: 0x180C73E20
 	public Text get_captionText() { }
 
-	// RVA: 0x10C2AB0 Offset: 0x10C10B0 VA: 0x1810C2AB0
+	// RVA: 0x10C2D70 Offset: 0x10C1370 VA: 0x1810C2D70
 	public void set_captionText(Text value) { }
 
-	// RVA: 0xB0EDC0 Offset: 0xB0D3C0 VA: 0x180B0EDC0
+	// RVA: 0xB0F080 Offset: 0xB0D680 VA: 0x180B0F080
 	public Image get_captionImage() { }
 
-	// RVA: 0x10C2A80 Offset: 0x10C1080 VA: 0x1810C2A80
+	// RVA: 0x10C2D40 Offset: 0x10C1340 VA: 0x1810C2D40
 	public void set_captionImage(Image value) { }
 
-	// RVA: 0xA2A920 Offset: 0xA28F20 VA: 0x180A2A920
+	// RVA: 0xA2ABE0 Offset: 0xA291E0 VA: 0x180A2ABE0
 	public Text get_itemText() { }
 
-	// RVA: 0x10C2B10 Offset: 0x10C1110 VA: 0x1810C2B10
+	// RVA: 0x10C2DD0 Offset: 0x10C13D0 VA: 0x1810C2DD0
 	public void set_itemText(Text value) { }
 
-	// RVA: 0xC831A0 Offset: 0xC817A0 VA: 0x180C831A0
+	// RVA: 0xC83460 Offset: 0xC81A60 VA: 0x180C83460
 	public Image get_itemImage() { }
 
-	// RVA: 0x10C2AE0 Offset: 0x10C10E0 VA: 0x1810C2AE0
+	// RVA: 0x10C2DA0 Offset: 0x10C13A0 VA: 0x1810C2DA0
 	public void set_itemImage(Image value) { }
 
-	// RVA: 0x10C2A50 Offset: 0x10C1050 VA: 0x1810C2A50
+	// RVA: 0x10C2D10 Offset: 0x10C1310 VA: 0x1810C2D10
 	public List<Dropdown.OptionData> get_options() { }
 
-	// RVA: 0x10C2B40 Offset: 0x10C1140 VA: 0x1810C2B40
+	// RVA: 0x10C2E00 Offset: 0x10C1400 VA: 0x1810C2E00
 	public void set_options(List<Dropdown.OptionData> value) { }
 
-	// RVA: 0x7DDC60 Offset: 0x7DC260 VA: 0x1807DDC60
+	// RVA: 0x7DDD70 Offset: 0x7DC370 VA: 0x1807DDD70
 	public Dropdown.DropdownEvent get_onValueChanged() { }
 
-	// RVA: 0xC73C70 Offset: 0xC72270 VA: 0x180C73C70
+	// RVA: 0xC73F30 Offset: 0xC72530 VA: 0x180C73F30
 	public void set_onValueChanged(Dropdown.DropdownEvent value) { }
 
-	// RVA: 0xC83360 Offset: 0xC81960 VA: 0x180C83360
+	// RVA: 0xC83620 Offset: 0xC81C20 VA: 0x180C83620
 	public float get_alphaFadeSpeed() { }
 
-	// RVA: 0x10C2A70 Offset: 0x10C1070 VA: 0x1810C2A70
+	// RVA: 0x10C2D30 Offset: 0x10C1330 VA: 0x1810C2D30
 	public void set_alphaFadeSpeed(float value) { }
 
-	// RVA: 0xEC12D0 Offset: 0xEBF8D0 VA: 0x180EC12D0
+	// RVA: 0xEC1590 Offset: 0xEBFB90 VA: 0x180EC1590
 	public int get_value() { }
 
-	// RVA: 0x10C2BB0 Offset: 0x10C11B0 VA: 0x1810C2BB0
+	// RVA: 0x10C2E70 Offset: 0x10C1470 VA: 0x1810C2E70
 	public void set_value(int value) { }
 
-	// RVA: 0x10C1110 Offset: 0x10BF710 VA: 0x1810C1110
+	// RVA: 0x10C13D0 Offset: 0x10BF9D0 VA: 0x1810C13D0
 	public void SetValueWithoutNotify(int input) { }
 
-	// RVA: 0x10C1120 Offset: 0x10BF720 VA: 0x1810C1120
+	// RVA: 0x10C13E0 Offset: 0x10BF9E0 VA: 0x1810C13E0
 	private void Set(int value, bool sendCallback = True) { }
 
-	// RVA: 0x10C2960 Offset: 0x10C0F60 VA: 0x1810C2960
+	// RVA: 0x10C2C20 Offset: 0x10C1220 VA: 0x1810C2C20
 	protected void .ctor() { }
 
-	// RVA: 0x10BFEF0 Offset: 0x10BE4F0 VA: 0x1810BFEF0 Slot: 4
+	// RVA: 0x10C01B0 Offset: 0x10BE7B0 VA: 0x1810C01B0 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0x10C28F0 Offset: 0x10C0EF0 VA: 0x1810C28F0 Slot: 6
+	// RVA: 0x10C2BB0 Offset: 0x10C11B0 VA: 0x1810C2BB0 Slot: 6
 	protected override void Start() { }
 
-	// RVA: 0x10C0AE0 Offset: 0x10BF0E0 VA: 0x1810C0AE0 Slot: 7
+	// RVA: 0x10C0DA0 Offset: 0x10BF3A0 VA: 0x1810C0DA0 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x10C0E50 Offset: 0x10BF450 VA: 0x1810C0E50
+	// RVA: 0x10C1110 Offset: 0x10BF710 VA: 0x1810C1110
 	public void RefreshShownValue() { }
 
-	// RVA: 0x10BFCB0 Offset: 0x10BE2B0 VA: 0x1810BFCB0
+	// RVA: 0x10BFF70 Offset: 0x10BE570 VA: 0x1810BFF70
 	public void AddOptions(List<Dropdown.OptionData> options) { }
 
-	// RVA: 0x10BFAD0 Offset: 0x10BE0D0 VA: 0x1810BFAD0
+	// RVA: 0x10BFD90 Offset: 0x10BE390 VA: 0x1810BFD90
 	public void AddOptions(List<string> options) { }
 
-	// RVA: 0x10BFBC0 Offset: 0x10BE1C0 VA: 0x1810BFBC0
+	// RVA: 0x10BFE80 Offset: 0x10BE480 VA: 0x1810BFE80
 	public void AddOptions(List<Sprite> options) { }
 
-	// RVA: 0x10C0070 Offset: 0x10BE670 VA: 0x1810C0070
+	// RVA: 0x10C0330 Offset: 0x10BE930 VA: 0x1810C0330
 	public void ClearOptions() { }
 
-	// RVA: 0x10C1250 Offset: 0x10BF850 VA: 0x1810C1250
+	// RVA: 0x10C1510 Offset: 0x10BFB10 VA: 0x1810C1510
 	private void SetupTemplate() { }
 
 	// RVA: -1 Offset: -1
 	private static T GetOrAddComponent<T>(GameObject go) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159EDE0 Offset: 0x159D3E0 VA: 0x18159EDE0
+	|-RVA: 0x159F0A0 Offset: 0x159D6A0 VA: 0x18159F0A0
 	|-Dropdown.GetOrAddComponent<object>
 	|-Dropdown.GetOrAddComponent<Canvas>
 	|-Dropdown.GetOrAddComponent<CanvasGroup>
 	|-Dropdown.GetOrAddComponent<GraphicRaycaster>
 	*/
 
-	// RVA: 0x10C0D10 Offset: 0x10BF310 VA: 0x1810C0D10 Slot: 42
+	// RVA: 0x10C0FD0 Offset: 0x10BF5D0 VA: 0x1810C0FD0 Slot: 42
 	public virtual void OnPointerClick(PointerEventData eventData) { }
 
-	// RVA: 0x10C0D10 Offset: 0x10BF310 VA: 0x1810C0D10 Slot: 43
+	// RVA: 0x10C0FD0 Offset: 0x10BF5D0 VA: 0x1810C0FD0 Slot: 43
 	public virtual void OnSubmit(BaseEventData eventData) { }
 
-	// RVA: 0x10C0AD0 Offset: 0x10BF0D0 VA: 0x1810C0AD0 Slot: 44
+	// RVA: 0x10C0D90 Offset: 0x10BF390 VA: 0x1810C0D90 Slot: 44
 	public virtual void OnCancel(BaseEventData eventData) { }
 
-	// RVA: 0x10C1930 Offset: 0x10BFF30 VA: 0x1810C1930
+	// RVA: 0x10C1BF0 Offset: 0x10C01F0 VA: 0x1810C1BF0
 	public void Show() { }
 
-	// RVA: 0x10C00E0 Offset: 0x10BE6E0 VA: 0x1810C00E0 Slot: 45
+	// RVA: 0x10C03A0 Offset: 0x10BE9A0 VA: 0x1810C03A0 Slot: 45
 	protected virtual GameObject CreateBlocker(Canvas rootCanvas) { }
 
-	// RVA: 0x10C0680 Offset: 0x10BEC80 VA: 0x1810C0680 Slot: 46
+	// RVA: 0x10C0940 Offset: 0x10BEF40 VA: 0x1810C0940 Slot: 46
 	protected virtual void DestroyBlocker(GameObject blocker) { }
 
-	// RVA: 0x10C0540 Offset: 0x10BEB40 VA: 0x1810C0540 Slot: 47
+	// RVA: 0x10C0800 Offset: 0x10BEE00 VA: 0x1810C0800 Slot: 47
 	protected virtual GameObject CreateDropdownList(GameObject template) { }
 
-	// RVA: 0x10C06E0 Offset: 0x10BECE0 VA: 0x1810C06E0 Slot: 48
+	// RVA: 0x10C09A0 Offset: 0x10BEFA0 VA: 0x1810C09A0 Slot: 48
 	protected virtual void DestroyDropdownList(GameObject dropdownList) { }
 
-	// RVA: 0x10C05A0 Offset: 0x10BEBA0 VA: 0x1810C05A0 Slot: 49
+	// RVA: 0x10C0860 Offset: 0x10BEE60 VA: 0x1810C0860 Slot: 49
 	protected virtual Dropdown.DropdownItem CreateItem(Dropdown.DropdownItem itemTemplate) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 50
 	protected virtual void DestroyItem(Dropdown.DropdownItem item) { }
 
-	// RVA: 0x10BF820 Offset: 0x10BDE20 VA: 0x1810BF820
+	// RVA: 0x10BFAE0 Offset: 0x10BE0E0 VA: 0x1810BFAE0
 	private Dropdown.DropdownItem AddItem(Dropdown.OptionData data, bool selected, Dropdown.DropdownItem itemTemplate, List<Dropdown.DropdownItem> items) { }
 
-	// RVA: 0x10BFD20 Offset: 0x10BE320 VA: 0x1810BFD20
+	// RVA: 0x10BFFE0 Offset: 0x10BE5E0 VA: 0x1810BFFE0
 	private void AlphaFadeList(float duration, float alpha) { }
 
-	// RVA: 0x10BFDB0 Offset: 0x10BE3B0 VA: 0x1810BFDB0
+	// RVA: 0x10C0070 Offset: 0x10BE670 VA: 0x1810C0070
 	private void AlphaFadeList(float duration, float start, float end) { }
 
-	// RVA: 0x10C1060 Offset: 0x10BF660 VA: 0x1810C1060
+	// RVA: 0x10C1320 Offset: 0x10BF920 VA: 0x1810C1320
 	private void SetAlpha(float alpha) { }
 
-	// RVA: 0x10C0740 Offset: 0x10BED40 VA: 0x1810C0740
+	// RVA: 0x10C0A00 Offset: 0x10BF000 VA: 0x1810C0A00
 	public void Hide() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xE79A0 Offset: 0xE6DA0 VA: 0x1800E79A0
-	// RVA: 0x10C0600 Offset: 0x10BEC00 VA: 0x1810C0600
+	// RVA: 0x10C08C0 Offset: 0x10BEEC0 VA: 0x1810C08C0
 	private IEnumerator DelayedDestroyDropdownList(float delay) { }
 
-	// RVA: 0x10C0930 Offset: 0x10BEF30 VA: 0x1810C0930
+	// RVA: 0x10C0BF0 Offset: 0x10BF1F0 VA: 0x1810C0BF0
 	private void ImmediateDestroyDropdownList() { }
 
-	// RVA: 0x10C0D20 Offset: 0x10BF320 VA: 0x1810C0D20
+	// RVA: 0x10C0FE0 Offset: 0x10BF5E0 VA: 0x1810C0FE0
 	private void OnSelectItem(Toggle toggle) { }
 
-	// RVA: 0x10C2900 Offset: 0x10C0F00 VA: 0x1810C2900
+	// RVA: 0x10C2BC0 Offset: 0x10C11C0 VA: 0x1810C2BC0
 	private static void .cctor() { }
 
 }
@@ -234,7 +234,7 @@ public class Dropdown.OptionData // TypeDefIndex: 4923
 	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
 	public void .ctor(string text) { }
 
-	// RVA: 0x10B5840 Offset: 0x10B3E40 VA: 0x1810B5840
+	// RVA: 0x10B5B00 Offset: 0x10B4100 VA: 0x1810B5B00
 	public void .ctor(Sprite image) { }
 
 	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
@@ -258,7 +258,7 @@ public class Dropdown.OptionDataList // TypeDefIndex: 4924
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	public void set_options(List<Dropdown.OptionData> value) { }
 
-	// RVA: 0x1604B80 Offset: 0x1603180 VA: 0x181604B80
+	// RVA: 0x1604E40 Offset: 0x1603440 VA: 0x181604E40
 	public void .ctor() { }
 
 }
@@ -266,7 +266,7 @@ public class Dropdown.OptionDataList // TypeDefIndex: 4924
 public class Dropdown.DropdownEvent : UnityEvent<int> // TypeDefIndex: 4925
 {	// Methods
 
-	// RVA: 0x15EA610 Offset: 0x15E8C10 VA: 0x1815EA610
+	// RVA: 0x15EA8D0 Offset: 0x15E8ED0 VA: 0x1815EA8D0
 	public void .ctor() { }
 
 }
@@ -281,7 +281,7 @@ private sealed class Dropdown.<>c__DisplayClass62_0 // TypeDefIndex: 4926
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1604D40 Offset: 0x1603340 VA: 0x181604D40
+	// RVA: 0x1605000 Offset: 0x1603600 VA: 0x181605000
 	internal void <Show>b__0(bool x) { }
 
 }
@@ -307,7 +307,7 @@ private sealed class Dropdown.<DelayedDestroyDropdownList>d__74 : IEnumerator<ob
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x1604BF0 Offset: 0x16031F0 VA: 0x181604BF0 Slot: 6
+	// RVA: 0x1604EB0 Offset: 0x16034B0 VA: 0x181604EB0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -315,7 +315,7 @@ private sealed class Dropdown.<DelayedDestroyDropdownList>d__74 : IEnumerator<ob
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1604CA0 Offset: 0x16032A0 VA: 0x181604CA0 Slot: 8
+	// RVA: 0x1604F60 Offset: 0x1603560 VA: 0x181604F60 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -338,43 +338,43 @@ public class Dropdown : RustControl, IPointerDownHandler, IEventSystemHandler //
 
 	// Methods
 
-	// RVA: 0xFBEE00 Offset: 0xFBD400 VA: 0x180FBEE00
+	// RVA: 0xFBF0C0 Offset: 0xFBD6C0 VA: 0x180FBF0C0
 	public Option get_Value() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0xFBED20 Offset: 0xFBD320 VA: 0x180FBED20
+	// RVA: 0xFBEFE0 Offset: 0xFBD5E0 VA: 0x180FBEFE0
 	public void SetOptions(Option[] options) { }
 
-	// RVA: 0xFBEAA0 Offset: 0xFBD0A0 VA: 0x180FBEAA0
+	// RVA: 0xFBED60 Offset: 0xFBD360 VA: 0x180FBED60
 	protected void SetOptionFromUser(Option option) { }
 
-	// RVA: 0xFBEBA0 Offset: 0xFBD1A0 VA: 0x180FBEBA0
+	// RVA: 0xFBEE60 Offset: 0xFBD460 VA: 0x180FBEE60
 	public void SetOption(int i) { }
 
-	// RVA: 0xFBEC70 Offset: 0xFBD270 VA: 0x180FBEC70
+	// RVA: 0xFBEF30 Offset: 0xFBD530 VA: 0x180FBEF30
 	public void SetOption(Option option) { }
 
-	// RVA: 0xFBEA40 Offset: 0xFBD040 VA: 0x180FBEA40
+	// RVA: 0xFBED00 Offset: 0xFBD300 VA: 0x180FBED00
 	public void SetOptionDefault() { }
 
-	// RVA: 0xFBE610 Offset: 0xFBCC10 VA: 0x180FBE610
+	// RVA: 0xFBE8D0 Offset: 0xFBCED0 VA: 0x180FBE8D0
 	public void OnLeft() { }
 
-	// RVA: 0xFBE6C0 Offset: 0xFBCCC0 VA: 0x180FBE6C0
+	// RVA: 0xFBE980 Offset: 0xFBCF80 VA: 0x180FBE980
 	public void OnRight() { }
 
-	// RVA: 0xFBE430 Offset: 0xFBCA30 VA: 0x180FBE430 Slot: 30
+	// RVA: 0xFBE6F0 Offset: 0xFBCCF0 VA: 0x180FBE6F0 Slot: 30
 	protected override void ApplyStyle(StyleAsset.Group s) { }
 
-	// RVA: 0xFBE6B0 Offset: 0xFBCCB0 VA: 0x180FBE6B0 Slot: 31
+	// RVA: 0xFBE970 Offset: 0xFBCF70 VA: 0x180FBE970 Slot: 31
 	public void OnPointerDown(PointerEventData eventData) { }
 
-	// RVA: 0xFBE760 Offset: 0xFBCD60 VA: 0x180FBE760
+	// RVA: 0xFBEA20 Offset: 0xFBD020 VA: 0x180FBEA20
 	public void OpenMenu() { }
 
-	// RVA: 0xFBEDA0 Offset: 0xFBD3A0 VA: 0x180FBEDA0
+	// RVA: 0xFBF060 Offset: 0xFBD660 VA: 0x180FBF060
 	public void .ctor() { }
 
 }
@@ -382,7 +382,7 @@ public class Dropdown : RustControl, IPointerDownHandler, IEventSystemHandler //
 public class Dropdown.ChangedEvent : UnityEvent<Option> // TypeDefIndex: 7006
 {	// Methods
 
-	// RVA: 0xFBDF00 Offset: 0xFBC500 VA: 0x180FBDF00
+	// RVA: 0xFBE1C0 Offset: 0xFBC7C0 VA: 0x180FBE1C0
 	public void .ctor() { }
 
 }

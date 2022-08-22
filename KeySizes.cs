@@ -20,13 +20,13 @@ public sealed class KeySizes // TypeDefIndex: 943
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
 	public int get_SkipSize() { }
 
-	// RVA: 0xE93480 Offset: 0xE91A80 VA: 0x180E93480
+	// RVA: 0xE93740 Offset: 0xE91D40 VA: 0x180E93740
 	public void .ctor(int minSize, int maxSize, int skipSize) { }
 
-	// RVA: 0x1702990 Offset: 0x1700F90 VA: 0x181702990
+	// RVA: 0x1702C50 Offset: 0x1701250 VA: 0x181702C50
 	internal bool IsLegal(int keySize) { }
 
-	// RVA: 0x17028F0 Offset: 0x1700EF0 VA: 0x1817028F0
+	// RVA: 0x1702BB0 Offset: 0x17011B0 VA: 0x181702BB0
 	internal static bool IsLegalKeySize(KeySizes[] legalKeys, int size) { }
 
 }

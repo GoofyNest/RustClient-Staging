@@ -4,10 +4,10 @@ public class RandomUsernames // TypeDefIndex: 8237
 
 	// Methods
 
-	// RVA: 0x1073CB0 Offset: 0x10722B0 VA: 0x181073CB0
+	// RVA: 0x1073F70 Offset: 0x1072570 VA: 0x181073F70
 	public static string Get(int v) { }
 
-	// RVA: 0x1073AE0 Offset: 0x10720E0 VA: 0x181073AE0
+	// RVA: 0x1073DA0 Offset: 0x10723A0 VA: 0x181073DA0
 	public static string Get(ulong v) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

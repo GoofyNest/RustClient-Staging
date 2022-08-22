@@ -27,118 +27,118 @@ public class ForeignKeyConstraint : Constraint // TypeDefIndex: 4268
 
 	// Methods
 
-	// RVA: 0x13E8A50 Offset: 0x13E7050 VA: 0x1813E8A50
+	// RVA: 0x13E8D10 Offset: 0x13E7310 VA: 0x1813E8D10
 	public void .ctor(DataColumn[] parentColumns, DataColumn[] childColumns) { }
 
-	// RVA: 0x13E8AB0 Offset: 0x13E70B0 VA: 0x1813E8AB0
+	// RVA: 0x13E8D70 Offset: 0x13E7370 VA: 0x1813E8D70
 	public void .ctor(string constraintName, DataColumn[] parentColumns, DataColumn[] childColumns) { }
 
-	// RVA: 0x13E8B40 Offset: 0x13E7140 VA: 0x1813E8B40
+	// RVA: 0x13E8E00 Offset: 0x13E7400 VA: 0x1813E8E00
 	internal DataKey get_ChildKey() { }
 
-	// RVA: 0x13E8B60 Offset: 0x13E7160 VA: 0x1813E8B60 Slot: 19
+	// RVA: 0x13E8E20 Offset: 0x13E7420 VA: 0x1813E8E20 Slot: 19
 	public virtual DataColumn[] get_Columns() { }
 
-	// RVA: 0x13E8C00 Offset: 0x13E7200 VA: 0x1813E8C00 Slot: 8
+	// RVA: 0x13E8EC0 Offset: 0x13E74C0 VA: 0x1813E8EC0 Slot: 8
 	public override DataTable get_Table() { }
 
-	// RVA: 0x13E6A00 Offset: 0x13E5000 VA: 0x1813E6A00 Slot: 13
+	// RVA: 0x13E6CC0 Offset: 0x13E52C0 VA: 0x1813E6CC0 Slot: 13
 	internal override void CheckCanAddToCollection(ConstraintCollection constraints) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 14
 	internal override bool CanBeRemovedFromCollection(ConstraintCollection constraints, bool fThrowException) { }
 
-	// RVA: 0x13E86B0 Offset: 0x13E6CB0 VA: 0x1813E86B0
+	// RVA: 0x13E8970 Offset: 0x13E6F70 VA: 0x1813E8970
 	internal bool IsKeyNull(object[] values) { }
 
-	// RVA: 0x13E8350 Offset: 0x13E6950 VA: 0x1813E8350 Slot: 18
+	// RVA: 0x13E8610 Offset: 0x13E6C10 VA: 0x1813E8610 Slot: 18
 	internal override bool IsConstraintViolated() { }
 
-	// RVA: 0x13E5880 Offset: 0x13E3E80 VA: 0x1813E5880 Slot: 10
+	// RVA: 0x13E5B40 Offset: 0x13E4140 VA: 0x1813E5B40 Slot: 10
 	internal override bool CanEnableConstraint() { }
 
-	// RVA: 0x13E5A80 Offset: 0x13E4080 VA: 0x1813E5A80
+	// RVA: 0x13E5D40 Offset: 0x13E4340 VA: 0x1813E5D40
 	internal void CascadeCommit(DataRow row) { }
 
-	// RVA: 0x13E5C10 Offset: 0x13E4210 VA: 0x1813E5C10
+	// RVA: 0x13E5ED0 Offset: 0x13E44D0 VA: 0x1813E5ED0
 	internal void CascadeDelete(DataRow row) { }
 
-	// RVA: 0x13E6200 Offset: 0x13E4800 VA: 0x1813E6200
+	// RVA: 0x13E64C0 Offset: 0x13E4AC0 VA: 0x1813E64C0
 	internal void CascadeRollback(DataRow row) { }
 
-	// RVA: 0x13E6440 Offset: 0x13E4A40 VA: 0x1813E6440
+	// RVA: 0x13E6700 Offset: 0x13E4D00 VA: 0x1813E6700
 	internal void CascadeUpdate(DataRow row) { }
 
-	// RVA: 0x13E6B70 Offset: 0x13E5170 VA: 0x1813E6B70
+	// RVA: 0x13E6E30 Offset: 0x13E5430 VA: 0x1813E6E30
 	internal void CheckCanClearParentTable(DataTable table) { }
 
-	// RVA: 0x13E6C90 Offset: 0x13E5290 VA: 0x1813E6C90
+	// RVA: 0x13E6F50 Offset: 0x13E5550 VA: 0x1813E6F50
 	internal void CheckCanRemoveParentRow(DataRow row) { }
 
-	// RVA: 0x13E6D60 Offset: 0x13E5360 VA: 0x1813E6D60
+	// RVA: 0x13E7020 Offset: 0x13E5620 VA: 0x1813E7020
 	internal void CheckCascade(DataRow row, DataRowAction action) { }
 
-	// RVA: 0x13E7010 Offset: 0x13E5610 VA: 0x1813E7010 Slot: 15
+	// RVA: 0x13E72D0 Offset: 0x13E58D0 VA: 0x1813E72D0 Slot: 15
 	internal override void CheckConstraint(DataRow childRow, DataRowAction action) { }
 
-	// RVA: 0x13E8770 Offset: 0x13E6D70 VA: 0x1813E8770
+	// RVA: 0x13E8A30 Offset: 0x13E7030 VA: 0x1813E8A30
 	private void NonVirtualCheckState() { }
 
-	// RVA: 0x13E7330 Offset: 0x13E5930 VA: 0x1813E7330 Slot: 16
+	// RVA: 0x13E75F0 Offset: 0x13E5BF0 VA: 0x1813E75F0 Slot: 16
 	internal override void CheckState() { }
 
-	// RVA: 0x13E8B20 Offset: 0x13E7120 VA: 0x1813E8B20 Slot: 20
+	// RVA: 0x13E8DE0 Offset: 0x13E73E0 VA: 0x1813E8DE0 Slot: 20
 	public virtual AcceptRejectRule get_AcceptRejectRule() { }
 
-	// RVA: 0x13E8C40 Offset: 0x13E7240 VA: 0x1813E8C40 Slot: 21
+	// RVA: 0x13E8F00 Offset: 0x13E7500 VA: 0x1813E8F00 Slot: 21
 	public virtual void set_AcceptRejectRule(AcceptRejectRule value) { }
 
-	// RVA: 0x13E7EC0 Offset: 0x13E64C0 VA: 0x1813E7EC0 Slot: 9
+	// RVA: 0x13E8180 Offset: 0x13E6780 VA: 0x1813E8180 Slot: 9
 	internal override bool ContainsColumn(DataColumn column) { }
 
-	// RVA: 0xCCDA40 Offset: 0xCCC040 VA: 0x180CCDA40 Slot: 11
+	// RVA: 0xCCDD00 Offset: 0xCCC300 VA: 0x180CCDD00 Slot: 11
 	internal override Constraint Clone(DataSet destination) { }
 
-	// RVA: 0x13E7340 Offset: 0x13E5940 VA: 0x1813E7340 Slot: 12
+	// RVA: 0x13E7600 Offset: 0x13E5C00 VA: 0x1813E7600 Slot: 12
 	internal override Constraint Clone(DataSet destination, bool ignorNSforTableLookup) { }
 
-	// RVA: 0x13E79B0 Offset: 0x13E5FB0 VA: 0x1813E79B0
+	// RVA: 0x13E7C70 Offset: 0x13E6270 VA: 0x1813E7C70
 	internal ForeignKeyConstraint Clone(DataTable destination) { }
 
-	// RVA: 0x13E7F10 Offset: 0x13E6510 VA: 0x1813E7F10
+	// RVA: 0x13E81D0 Offset: 0x13E67D0 VA: 0x1813E81D0
 	private void Create(string relationName, DataColumn[] parentColumns, DataColumn[] childColumns) { }
 
-	// RVA: 0x13E8B80 Offset: 0x13E7180 VA: 0x1813E8B80 Slot: 22
+	// RVA: 0x13E8E40 Offset: 0x13E7440 VA: 0x1813E8E40 Slot: 22
 	public virtual Rule get_DeleteRule() { }
 
-	// RVA: 0x13E8CC0 Offset: 0x13E72C0 VA: 0x1813E8CC0 Slot: 23
+	// RVA: 0x13E8F80 Offset: 0x13E7580 VA: 0x1813E8F80 Slot: 23
 	public virtual void set_DeleteRule(Rule value) { }
 
-	// RVA: 0x13E8130 Offset: 0x13E6730 VA: 0x1813E8130 Slot: 0
+	// RVA: 0x13E83F0 Offset: 0x13E69F0 VA: 0x1813E83F0 Slot: 0
 	public override bool Equals(object key) { }
 
-	// RVA: 0xCCE560 Offset: 0xCCCB60 VA: 0x180CCE560 Slot: 2
+	// RVA: 0xCCE820 Offset: 0xCCCE20 VA: 0x180CCE820 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13E8BC0 Offset: 0x13E71C0 VA: 0x1813E8BC0 Slot: 24
+	// RVA: 0x13E8E80 Offset: 0x13E7480 VA: 0x1813E8E80 Slot: 24
 	public virtual DataColumn[] get_RelatedColumns() { }
 
-	// RVA: 0x13E8BA0 Offset: 0x13E71A0 VA: 0x1813E8BA0
+	// RVA: 0x13E8E60 Offset: 0x13E7460 VA: 0x1813E8E60
 	internal DataColumn[] get_RelatedColumnsReference() { }
 
-	// RVA: 0x13E8BA0 Offset: 0x13E71A0 VA: 0x1813E8BA0
+	// RVA: 0x13E8E60 Offset: 0x13E7460 VA: 0x1813E8E60
 	internal DataKey get_ParentKey() { }
 
-	// RVA: 0x13E8270 Offset: 0x13E6870 VA: 0x1813E8270
+	// RVA: 0x13E8530 Offset: 0x13E6B30 VA: 0x1813E8530
 	internal DataRelation FindParentRelation() { }
 
-	// RVA: 0x13E8BE0 Offset: 0x13E71E0 VA: 0x1813E8BE0 Slot: 25
+	// RVA: 0x13E8EA0 Offset: 0x13E74A0 VA: 0x1813E8EA0 Slot: 25
 	public virtual DataTable get_RelatedTable() { }
 
-	// RVA: 0x13E8C20 Offset: 0x13E7220 VA: 0x1813E8C20 Slot: 26
+	// RVA: 0x13E8EE0 Offset: 0x13E74E0 VA: 0x1813E8EE0 Slot: 26
 	public virtual Rule get_UpdateRule() { }
 
-	// RVA: 0x13E8D40 Offset: 0x13E7340 VA: 0x1813E8D40 Slot: 27
+	// RVA: 0x13E9000 Offset: 0x13E7600 VA: 0x1813E9000 Slot: 27
 	public virtual void set_UpdateRule(Rule value) { }
 
 }

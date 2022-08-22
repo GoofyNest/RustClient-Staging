@@ -20,58 +20,58 @@ public static class RemotingConfiguration // TypeDefIndex: 1137
 
 	// Methods
 
-	// RVA: 0x1486690 Offset: 0x1484C90 VA: 0x181486690
+	// RVA: 0x1486950 Offset: 0x1484F50 VA: 0x181486950
 	public static string get_ApplicationName() { }
 
-	// RVA: 0x14867E0 Offset: 0x1484DE0 VA: 0x1814867E0
+	// RVA: 0x1486AA0 Offset: 0x14850A0 VA: 0x181486AA0
 	public static void set_ApplicationName(string value) { }
 
-	// RVA: 0x14866F0 Offset: 0x1484CF0 VA: 0x1814866F0
+	// RVA: 0x14869B0 Offset: 0x1484FB0 VA: 0x1814869B0
 	public static string get_ProcessId() { }
 
-	// RVA: 0x14849D0 Offset: 0x1482FD0 VA: 0x1814849D0
+	// RVA: 0x1484C90 Offset: 0x1483290 VA: 0x181484C90
 	internal static void LoadDefaultDelayedChannels() { }
 
-	// RVA: 0x1484690 Offset: 0x1482C90 VA: 0x181484690
+	// RVA: 0x1484950 Offset: 0x1482F50 VA: 0x181484950
 	public static ActivatedClientTypeEntry IsRemotelyActivatedClientType(Type svrType) { }
 
-	// RVA: 0x1484830 Offset: 0x1482E30 VA: 0x181484830
+	// RVA: 0x1484AF0 Offset: 0x14830F0 VA: 0x181484AF0
 	public static WellKnownClientTypeEntry IsWellKnownClientType(Type svrType) { }
 
-	// RVA: 0x1484C80 Offset: 0x1483280 VA: 0x181484C80
+	// RVA: 0x1484F40 Offset: 0x1483540 VA: 0x181484F40
 	public static void RegisterActivatedClientType(ActivatedClientTypeEntry entry) { }
 
-	// RVA: 0x1484F20 Offset: 0x1483520 VA: 0x181484F20
+	// RVA: 0x14851E0 Offset: 0x14837E0 VA: 0x1814851E0
 	public static void RegisterActivatedServiceType(ActivatedServiceTypeEntry entry) { }
 
-	// RVA: 0x1485EF0 Offset: 0x14844F0 VA: 0x181485EF0
+	// RVA: 0x14861B0 Offset: 0x14847B0 VA: 0x1814861B0
 	public static void RegisterWellKnownClientType(WellKnownClientTypeEntry entry) { }
 
-	// RVA: 0x1486190 Offset: 0x1484790 VA: 0x181486190
+	// RVA: 0x1486450 Offset: 0x1484A50 VA: 0x181486450
 	public static void RegisterWellKnownServiceType(WellKnownServiceTypeEntry entry) { }
 
-	// RVA: 0x1485080 Offset: 0x1483680 VA: 0x181485080
+	// RVA: 0x1485340 Offset: 0x1483940 VA: 0x181485340
 	internal static void RegisterChannelTemplate(ChannelData channel) { }
 
-	// RVA: 0x14859A0 Offset: 0x1483FA0 VA: 0x1814859A0
+	// RVA: 0x1485C60 Offset: 0x1484260 VA: 0x181485C60
 	internal static void RegisterClientProviderTemplate(ProviderData prov) { }
 
-	// RVA: 0x1485A30 Offset: 0x1484030 VA: 0x181485A30
+	// RVA: 0x1485CF0 Offset: 0x14842F0 VA: 0x181485CF0
 	internal static void RegisterServerProviderTemplate(ProviderData prov) { }
 
-	// RVA: 0x1485110 Offset: 0x1483710 VA: 0x181485110
+	// RVA: 0x14853D0 Offset: 0x14839D0 VA: 0x1814853D0
 	internal static void RegisterChannels(ArrayList channels, bool onlyDelayed) { }
 
-	// RVA: 0x1485AC0 Offset: 0x14840C0 VA: 0x181485AC0
+	// RVA: 0x1485D80 Offset: 0x1484380 VA: 0x181485D80
 	internal static void RegisterTypes(ArrayList types) { }
 
-	// RVA: 0x14845C0 Offset: 0x1482BC0 VA: 0x1814845C0
+	// RVA: 0x1484880 Offset: 0x1482E80 VA: 0x181484880
 	public static bool CustomErrorsEnabled(bool isLocalRequest) { }
 
-	// RVA: 0x1486330 Offset: 0x1484930 VA: 0x181486330
+	// RVA: 0x14865F0 Offset: 0x1484BF0 VA: 0x1814865F0
 	internal static void SetCustomErrorsMode(string mode) { }
 
-	// RVA: 0x1486470 Offset: 0x1484A70 VA: 0x181486470
+	// RVA: 0x1486730 Offset: 0x1484D30 VA: 0x181486730
 	private static void .cctor() { }
 
 }

@@ -18,28 +18,28 @@ public class GroupCollection : ICollection, IEnumerable // TypeDefIndex: 2617
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 6
 	public object get_SyncRoot() { }
 
-	// RVA: 0x14BFBE0 Offset: 0x14BE1E0 VA: 0x1814BFBE0 Slot: 5
+	// RVA: 0x14BFEA0 Offset: 0x14BE4A0 VA: 0x1814BFEA0 Slot: 5
 	public int get_Count() { }
 
-	// RVA: 0x14BFC10 Offset: 0x14BE210 VA: 0x1814BFC10
+	// RVA: 0x14BFED0 Offset: 0x14BE4D0 VA: 0x1814BFED0
 	public Group get_Item(int groupnum) { }
 
-	// RVA: 0x14BFC20 Offset: 0x14BE220 VA: 0x1814BFC20
+	// RVA: 0x14BFEE0 Offset: 0x14BE4E0 VA: 0x1814BFEE0
 	public Group get_Item(string groupname) { }
 
-	// RVA: 0x14BFA70 Offset: 0x14BE070 VA: 0x1814BFA70
+	// RVA: 0x14BFD30 Offset: 0x14BE330 VA: 0x1814BFD30
 	internal Group GetGroup(int groupnum) { }
 
-	// RVA: 0x14BF620 Offset: 0x14BDC20 VA: 0x1814BF620
+	// RVA: 0x14BF8E0 Offset: 0x14BDEE0 VA: 0x1814BF8E0
 	internal Group GetGroupImpl(int groupnum) { }
 
-	// RVA: 0x14BF4D0 Offset: 0x14BDAD0 VA: 0x1814BF4D0 Slot: 4
+	// RVA: 0x14BF790 Offset: 0x14BDD90 VA: 0x1814BF790 Slot: 4
 	public void CopyTo(Array array, int arrayIndex) { }
 
-	// RVA: 0x14BF5B0 Offset: 0x14BDBB0 VA: 0x1814BF5B0 Slot: 7
+	// RVA: 0x14BF870 Offset: 0x14BDE70 VA: 0x1814BF870 Slot: 7
 	public IEnumerator GetEnumerator() { }
 
-	// RVA: 0x14BFBB0 Offset: 0x14BE1B0 VA: 0x1814BFBB0
+	// RVA: 0x14BFE70 Offset: 0x14BE470 VA: 0x1814BFE70
 	internal void .ctor() { }
 
 }

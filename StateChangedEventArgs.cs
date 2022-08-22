@@ -11,7 +11,7 @@ public sealed class StateChangedEventArgs : EventArgs // TypeDefIndex: 7145
 
 	// Methods
 
-	// RVA: 0x22E83B0 Offset: 0x22E69B0 VA: 0x1822E83B0
+	// RVA: 0x22E8670 Offset: 0x22E6C70 VA: 0x1822E8670
 	internal void .ctor(StateChangeType stateChangeType, string message) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -27,7 +27,7 @@ public sealed class StateChangedEventArgs : EventArgs // TypeDefIndex: 7145
 	public StateChangeType get_Type() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0C80 Offset: 0x7CF280 VA: 0x1807D0C80
+	// RVA: 0x7D0D90 Offset: 0x7CF390 VA: 0x1807D0D90
 	private void set_Type(StateChangeType value) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 3

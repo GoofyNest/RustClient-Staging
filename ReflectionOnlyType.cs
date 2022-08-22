@@ -4,10 +4,10 @@ internal class ReflectionOnlyType : RuntimeType // TypeDefIndex: 295
 
 	// Methods
 
-	// RVA: 0xFEB660 Offset: 0xFE9C60 VA: 0x180FEB660
+	// RVA: 0xFEB920 Offset: 0xFE9F20 VA: 0x180FEB920
 	private void .ctor() { }
 
-	// RVA: 0xFEB6C0 Offset: 0xFE9CC0 VA: 0x180FEB6C0 Slot: 25
+	// RVA: 0xFEB980 Offset: 0xFE9F80 VA: 0x180FEB980 Slot: 25
 	public override RuntimeTypeHandle get_TypeHandle() { }
 
 }

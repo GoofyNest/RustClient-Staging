@@ -49,58 +49,58 @@ public class BurstCloth : MonoBehaviour // TypeDefIndex: 7308
 
 	// Methods
 
-	// RVA: 0x2239CC0 Offset: 0x22382C0 VA: 0x182239CC0
+	// RVA: 0x2239F80 Offset: 0x2238580 VA: 0x182239F80
 	protected void Initialize() { }
 
-	// RVA: 0x6F1830 Offset: 0x6EFE30 VA: 0x1806F1830 Slot: 4
+	// RVA: 0x6F1940 Offset: 0x6EFF40 VA: 0x1806F1940 Slot: 4
 	protected virtual void Awake() { }
 
-	// RVA: 0x223A860 Offset: 0x2238E60 VA: 0x18223A860 Slot: 5
+	// RVA: 0x223AB20 Offset: 0x2239120 VA: 0x18223AB20 Slot: 5
 	protected virtual void OnEnable() { }
 
-	// RVA: 0x223A6F0 Offset: 0x2238CF0 VA: 0x18223A6F0 Slot: 6
+	// RVA: 0x223A9B0 Offset: 0x2238FB0 VA: 0x18223A9B0 Slot: 6
 	protected virtual void OnDisable() { }
 
-	// RVA: 0x2239450 Offset: 0x2237A50 VA: 0x182239450 Slot: 7
+	// RVA: 0x2239710 Offset: 0x2237D10 VA: 0x182239710 Slot: 7
 	protected internal virtual void FrameUpdate() { }
 
-	// RVA: 0x223B6F0 Offset: 0x2239CF0 VA: 0x18223B6F0
+	// RVA: 0x223B9B0 Offset: 0x2239FB0 VA: 0x18223B9B0
 	internal JobHandle SimulateSystem() { }
 
-	// RVA: 0x223A8C0 Offset: 0x2238EC0 VA: 0x18223A8C0
+	// RVA: 0x223AB80 Offset: 0x2239180 VA: 0x18223AB80
 	private void SetupData() { }
 
-	// RVA: 0x223A8E0 Offset: 0x2238EE0 VA: 0x18223A8E0
+	// RVA: 0x223ABA0 Offset: 0x22391A0 VA: 0x18223ABA0
 	private void SetupManagedData() { }
 
-	// RVA: 0x223AB10 Offset: 0x2239110 VA: 0x18223AB10
+	// RVA: 0x223ADD0 Offset: 0x22393D0 VA: 0x18223ADD0
 	private void SetupNativeData() { }
 
-	// RVA: 0x2239A90 Offset: 0x2238090 VA: 0x182239A90 Slot: 8
+	// RVA: 0x2239D50 Offset: 0x2238350 VA: 0x182239D50 Slot: 8
 	protected virtual ValueTuple<Vector3, Quaternion, Vector3> GetOriginTransform() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 9
 	protected virtual void GatherColliders(List<CapsuleParams> colliders) { }
 
-	// RVA: 0x22396A0 Offset: 0x2237CA0 VA: 0x1822396A0
+	// RVA: 0x2239960 Offset: 0x2237F60 VA: 0x182239960
 	private static ValueTuple<Vector3, float> GetBoneLocalPositionAndLength(Transform parent, Transform child) { }
 
-	// RVA: 0x2239BD0 Offset: 0x22381D0 VA: 0x182239BD0
+	// RVA: 0x2239E90 Offset: 0x2238490 VA: 0x182239E90
 	private ValueTuple<Transform, int> GetSiblingAndIndex(int chainIndex, int depth) { }
 
-	// RVA: 0x2239210 Offset: 0x2237810 VA: 0x182239210
+	// RVA: 0x22394D0 Offset: 0x2237AD0 VA: 0x1822394D0
 	private void BuildBoneToIndexMap(Dictionary<Transform, int> boneToIndex) { }
 
-	// RVA: 0x2239830 Offset: 0x2237E30 VA: 0x182239830
+	// RVA: 0x2239AF0 Offset: 0x22380F0 VA: 0x182239AF0
 	protected static CapsuleParams GetCapsuleParams(CapsuleCollider collider) { }
 
-	// RVA: 0x223BB50 Offset: 0x223A150 VA: 0x18223BB50
+	// RVA: 0x223BE10 Offset: 0x223A410 VA: 0x18223BE10
 	protected void UpdateCachedMaterialData() { }
 
-	// RVA: 0x223C090 Offset: 0x223A690 VA: 0x18223C090
+	// RVA: 0x223C350 Offset: 0x223A950 VA: 0x18223C350
 	public void .ctor() { }
 
-	// RVA: 0x223C020 Offset: 0x223A620 VA: 0x18223C020
+	// RVA: 0x223C2E0 Offset: 0x223A8E0 VA: 0x18223C2E0
 	private static void .cctor() { }
 
 }
@@ -119,16 +119,16 @@ private sealed class BurstCloth.<>c // TypeDefIndex: 7310
 
 	// Methods
 
-	// RVA: 0x223EC40 Offset: 0x223D240 VA: 0x18223EC40
+	// RVA: 0x223EF00 Offset: 0x223D500 VA: 0x18223EF00
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x223EBC0 Offset: 0x223D1C0 VA: 0x18223EBC0
+	// RVA: 0x223EE80 Offset: 0x223D480 VA: 0x18223EE80
 	internal int <SetupManagedData>b__42_0(BurstCloth.Chain c) { }
 
-	// RVA: 0x223EC00 Offset: 0x223D200 VA: 0x18223EC00
+	// RVA: 0x223EEC0 Offset: 0x223D4C0 VA: 0x18223EEC0
 	internal int <SetupManagedData>b__42_1(BurstCloth.Chain c) { }
 
 }

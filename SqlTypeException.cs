@@ -1,19 +1,19 @@
 public class SqlTypeException : SystemException // TypeDefIndex: 4355
 {	// Methods
 
-	// RVA: 0xCCAC90 Offset: 0xCC9290 VA: 0x180CCAC90
+	// RVA: 0xCCAF50 Offset: 0xCC9550 VA: 0x180CCAF50
 	public void .ctor() { }
 
-	// RVA: 0xCCAD00 Offset: 0xCC9300 VA: 0x180CCAD00
+	// RVA: 0xCCAFC0 Offset: 0xCC95C0 VA: 0x180CCAFC0
 	public void .ctor(string message) { }
 
-	// RVA: 0xCCACE0 Offset: 0xCC92E0 VA: 0x180CCACE0
+	// RVA: 0xCCAFA0 Offset: 0xCC95A0 VA: 0x180CCAFA0
 	public void .ctor(string message, Exception e) { }
 
-	// RVA: 0xCCAC00 Offset: 0xCC9200 VA: 0x180CCAC00
+	// RVA: 0xCCAEC0 Offset: 0xCC94C0 VA: 0x180CCAEC0
 	protected void .ctor(SerializationInfo si, StreamingContext sc) { }
 
-	// RVA: 0xCCAB40 Offset: 0xCC9140 VA: 0x180CCAB40
+	// RVA: 0xCCAE00 Offset: 0xCC9400 VA: 0x180CCAE00
 	private static SerializationInfo SqlTypeExceptionSerialization(SerializationInfo si, StreamingContext sc) { }
 
 }

@@ -4,10 +4,10 @@ public sealed class WebRequestModulesSection : ConfigurationSection // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x15379B0 Offset: 0x1535FB0 VA: 0x1815379B0
+	// RVA: 0x1537C70 Offset: 0x1536270 VA: 0x181537C70
 	public void .ctor() { }
 
-	// RVA: 0x15379E0 Offset: 0x1535FE0 VA: 0x1815379E0 Slot: 4
+	// RVA: 0x1537CA0 Offset: 0x15362A0 VA: 0x181537CA0 Slot: 4
 	protected override ConfigurationPropertyCollection get_Properties() { }
 
 }

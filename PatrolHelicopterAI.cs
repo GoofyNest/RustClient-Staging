@@ -30,7 +30,7 @@ public class PatrolHelicopterAI : BaseMonoBehaviour // TypeDefIndex: 9602
 
 	// Methods
 
-	// RVA: 0x86A680 Offset: 0x868C80 VA: 0x18086A680
+	// RVA: 0x86A790 Offset: 0x868D90 VA: 0x18086A790
 	public void .ctor() { }
 
 }
@@ -45,13 +45,13 @@ public class PatrolHelicopterAI.targetinfo // TypeDefIndex: 9603
 
 	// Methods
 
-	// RVA: 0x876490 Offset: 0x874A90 VA: 0x180876490
+	// RVA: 0x8765A0 Offset: 0x874BA0 VA: 0x1808765A0
 	public void .ctor(BaseEntity initEnt, BasePlayer initPly) { }
 
-	// RVA: 0x876440 Offset: 0x874A40 VA: 0x180876440
+	// RVA: 0x876550 Offset: 0x874B50 VA: 0x180876550
 	public bool IsVisible() { }
 
-	// RVA: 0x876470 Offset: 0x874A70 VA: 0x180876470
+	// RVA: 0x876580 Offset: 0x874B80 VA: 0x180876580
 	public float TimeSinceSeen() { }
 
 }

@@ -31,49 +31,49 @@ public struct Guid : IFormattable, IComparable, IComparable<Guid>, IEquatable<Gu
 	// RVA: 0x1ECDF0 Offset: 0x1EC1F0 VA: 0x1801ECDF0
 	public void .ctor(string g) { }
 
-	// RVA: 0x137F8F0 Offset: 0x137DEF0 VA: 0x18137F8F0
+	// RVA: 0x137FBB0 Offset: 0x137E1B0 VA: 0x18137FBB0
 	public static Guid Parse(string input) { }
 
-	// RVA: 0x1381AD0 Offset: 0x13800D0 VA: 0x181381AD0
+	// RVA: 0x1381D90 Offset: 0x1380390 VA: 0x181381D90
 	public static bool TryParse(string input, out Guid result) { }
 
-	// RVA: 0x13818D0 Offset: 0x137FED0 VA: 0x1813818D0
+	// RVA: 0x1381B90 Offset: 0x1380190 VA: 0x181381B90
 	private static bool TryParseGuid(string g, Guid.GuidStyles flags, ref Guid.GuidResult result) { }
 
-	// RVA: 0x1380D40 Offset: 0x137F340 VA: 0x181380D40
+	// RVA: 0x1381000 Offset: 0x137F600 VA: 0x181381000
 	private static bool TryParseGuidWithHexPrefix(string guidString, ref Guid.GuidResult result) { }
 
-	// RVA: 0x1381490 Offset: 0x137FA90 VA: 0x181381490
+	// RVA: 0x1381750 Offset: 0x137FD50 VA: 0x181381750
 	private static bool TryParseGuidWithNoStyle(string guidString, ref Guid.GuidResult result) { }
 
-	// RVA: 0x1380890 Offset: 0x137EE90 VA: 0x181380890
+	// RVA: 0x1380B50 Offset: 0x137F150 VA: 0x181380B50
 	private static bool TryParseGuidWithDashes(string guidString, ref Guid.GuidResult result) { }
 
-	// RVA: 0x137FF40 Offset: 0x137E540 VA: 0x18137FF40
+	// RVA: 0x1380200 Offset: 0x137E800 VA: 0x181380200
 	private static bool StringToShort(string str, int requiredLength, int flags, out short result, ref Guid.GuidResult parseResult) { }
 
-	// RVA: 0x137FE80 Offset: 0x137E480 VA: 0x18137FE80
+	// RVA: 0x1380140 Offset: 0x137E740 VA: 0x181380140
 	private static bool StringToShort(string str, int* parsePos, int requiredLength, int flags, out short result, ref Guid.GuidResult parseResult) { }
 
-	// RVA: 0x137FA30 Offset: 0x137E030 VA: 0x18137FA30
+	// RVA: 0x137FCF0 Offset: 0x137E2F0 VA: 0x18137FCF0
 	private static bool StringToInt(string str, int requiredLength, int flags, out int result, ref Guid.GuidResult parseResult) { }
 
-	// RVA: 0x137FC40 Offset: 0x137E240 VA: 0x18137FC40
+	// RVA: 0x137FF00 Offset: 0x137E500 VA: 0x18137FF00
 	private static bool StringToInt(string str, ref int parsePos, int requiredLength, int flags, out int result, ref Guid.GuidResult parseResult) { }
 
-	// RVA: 0x137FAD0 Offset: 0x137E0D0 VA: 0x18137FAD0
+	// RVA: 0x137FD90 Offset: 0x137E390 VA: 0x18137FD90
 	private static bool StringToInt(string str, int* parsePos, int requiredLength, int flags, out int result, ref Guid.GuidResult parseResult) { }
 
-	// RVA: 0x137FCD0 Offset: 0x137E2D0 VA: 0x18137FCD0
+	// RVA: 0x137FF90 Offset: 0x137E590 VA: 0x18137FF90
 	private static bool StringToLong(string str, ref int parsePos, int flags, out long result, ref Guid.GuidResult parseResult) { }
 
-	// RVA: 0x137FD60 Offset: 0x137E360 VA: 0x18137FD60
+	// RVA: 0x1380020 Offset: 0x137E620 VA: 0x181380020
 	private static bool StringToLong(string str, int* parsePos, int flags, out long result, ref Guid.GuidResult parseResult) { }
 
-	// RVA: 0x137F010 Offset: 0x137D610 VA: 0x18137F010
+	// RVA: 0x137F2D0 Offset: 0x137D8D0 VA: 0x18137F2D0
 	private static string EatAllWhitespace(string str) { }
 
-	// RVA: 0x137F5C0 Offset: 0x137DBC0 VA: 0x18137F5C0
+	// RVA: 0x137F880 Offset: 0x137DE80 VA: 0x18137F880
 	private static bool IsHexPrefix(string str, int i) { }
 
 	// RVA: 0x1ECD20 Offset: 0x1EC120 VA: 0x1801ECD20
@@ -100,31 +100,31 @@ public struct Guid : IFormattable, IComparable, IComparable<Guid>, IEquatable<Gu
 	// RVA: 0x1ECA50 Offset: 0x1EBE50 VA: 0x1801ECA50 Slot: 6
 	public int CompareTo(Guid value) { }
 
-	// RVA: 0x13820A0 Offset: 0x13806A0 VA: 0x1813820A0
+	// RVA: 0x1382360 Offset: 0x1380960 VA: 0x181382360
 	public static bool op_Equality(Guid a, Guid b) { }
 
-	// RVA: 0x1382230 Offset: 0x1380830 VA: 0x181382230
+	// RVA: 0x13824F0 Offset: 0x1380AF0 VA: 0x1813824F0
 	public static bool op_Inequality(Guid a, Guid b) { }
 
 	// RVA: 0x1ECD80 Offset: 0x1EC180 VA: 0x1801ECD80
 	public string ToString(string format) { }
 
-	// RVA: 0x137F3B0 Offset: 0x137D9B0 VA: 0x18137F3B0
+	// RVA: 0x137F670 Offset: 0x137DC70 VA: 0x18137F670
 	private static char HexToChar(int a) { }
 
-	// RVA: 0x137F3D0 Offset: 0x137D9D0 VA: 0x18137F3D0
+	// RVA: 0x137F690 Offset: 0x137DC90 VA: 0x18137F690
 	private static int HexsToChars(char* guidChars, int offset, int a, int b) { }
 
-	// RVA: 0x137F460 Offset: 0x137DA60 VA: 0x18137F460
+	// RVA: 0x137F720 Offset: 0x137DD20 VA: 0x18137F720
 	private static int HexsToChars(char* guidChars, int offset, int a, int b, bool hex) { }
 
 	// RVA: 0x1ECD70 Offset: 0x1EC170 VA: 0x1801ECD70 Slot: 4
 	public string ToString(string format, IFormatProvider provider) { }
 
-	// RVA: 0x137F6B0 Offset: 0x137DCB0 VA: 0x18137F6B0
+	// RVA: 0x137F970 Offset: 0x137DF70 VA: 0x18137F970
 	public static Guid NewGuid() { }
 
-	// RVA: 0x1381C00 Offset: 0x1380200 VA: 0x181381C00
+	// RVA: 0x1381EC0 Offset: 0x13804C0 VA: 0x181381EC0
 	private static void .cctor() { }
 
 }

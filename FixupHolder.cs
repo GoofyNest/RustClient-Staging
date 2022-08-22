@@ -6,7 +6,7 @@ internal class FixupHolder // TypeDefIndex: 1039
 
 	// Methods
 
-	// RVA: 0x11F2AD0 Offset: 0x11F10D0 VA: 0x1811F2AD0
+	// RVA: 0x11F2D90 Offset: 0x11F1390 VA: 0x1811F2D90
 	internal void .ctor(long id, object fixupInfo, int fixupType) { }
 
 }

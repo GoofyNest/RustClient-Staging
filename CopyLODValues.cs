@@ -10,13 +10,13 @@ public class CopyLODValues : MonoBehaviour, IEditorComponent // TypeDefIndex: 99
 
 	// Methods
 
-	// RVA: 0x6BBF00 Offset: 0x6BA500 VA: 0x1806BBF00
+	// RVA: 0x6BC010 Offset: 0x6BA610 VA: 0x1806BC010
 	public bool CanCopy() { }
 
-	// RVA: 0x6BBFA0 Offset: 0x6BA5A0 VA: 0x1806BBFA0
+	// RVA: 0x6BC0B0 Offset: 0x6BA6B0 VA: 0x1806BC0B0
 	public void Copy() { }
 
-	// RVA: 0x6BC270 Offset: 0x6BA870 VA: 0x1806BC270
+	// RVA: 0x6BC380 Offset: 0x6BA980 VA: 0x1806BC380
 	public void .ctor() { }
 
 }

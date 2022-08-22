@@ -16,7 +16,7 @@ public class TargetLostAIEvent : BaseAIEvent // TypeDefIndex: 9413
 	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
 	public void set_Range(float value) { }
 
-	// RVA: 0x7A8BF0 Offset: 0x7A71F0 VA: 0x1807A8BF0
+	// RVA: 0x7A8D00 Offset: 0x7A7300 VA: 0x1807A8D00
 	public void .ctor() { }
 
 }

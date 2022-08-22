@@ -52,115 +52,115 @@ public sealed class Cookie // TypeDefIndex: 2934
 
 	// Methods
 
-	// RVA: 0x15283F0 Offset: 0x15269F0 VA: 0x1815283F0
+	// RVA: 0x15286B0 Offset: 0x1526CB0 VA: 0x1815286B0
 	public void .ctor() { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public string get_Comment() { }
 
-	// RVA: 0x15288F0 Offset: 0x1526EF0 VA: 0x1815288F0
+	// RVA: 0x1528BB0 Offset: 0x15271B0 VA: 0x181528BB0
 	public void set_Comment(string value) { }
 
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	public void set_CommentUri(Uri value) { }
 
-	// RVA: 0xE75870 Offset: 0xE73E70 VA: 0x180E75870
+	// RVA: 0xE75B30 Offset: 0xE74130 VA: 0x180E75B30
 	public void set_HttpOnly(bool value) { }
 
-	// RVA: 0x7746D0 Offset: 0x772CD0 VA: 0x1807746D0
+	// RVA: 0x7747E0 Offset: 0x772DE0 VA: 0x1807747E0
 	public void set_Discard(bool value) { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public string get_Domain() { }
 
-	// RVA: 0x1528950 Offset: 0x1526F50 VA: 0x181528950
+	// RVA: 0x1528C10 Offset: 0x1527210 VA: 0x181528C10
 	public void set_Domain(string value) { }
 
-	// RVA: 0x1528640 Offset: 0x1526C40 VA: 0x181528640
+	// RVA: 0x1528900 Offset: 0x1526F00 VA: 0x181528900
 	private string get__Domain() { }
 
-	// RVA: 0x1528570 Offset: 0x1526B70 VA: 0x181528570
+	// RVA: 0x1528830 Offset: 0x1526E30 VA: 0x181528830
 	public bool get_Expired() { }
 
-	// RVA: 0xC15040 Offset: 0xC13640 VA: 0x180C15040
+	// RVA: 0xC15300 Offset: 0xC13900 VA: 0x180C15300
 	public void set_Expires(DateTime value) { }
 
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
 	public string get_Name() { }
 
-	// RVA: 0x1526C30 Offset: 0x1525230 VA: 0x181526C30
+	// RVA: 0x1526EF0 Offset: 0x15254F0 VA: 0x181526EF0
 	internal bool InternalSetName(string value) { }
 
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	public string get_Path() { }
 
-	// RVA: 0x15289E0 Offset: 0x1526FE0 VA: 0x1815289E0
+	// RVA: 0x1528CA0 Offset: 0x15272A0 VA: 0x181528CA0
 	public void set_Path(string value) { }
 
-	// RVA: 0x15286E0 Offset: 0x1526CE0 VA: 0x1815286E0
+	// RVA: 0x15289A0 Offset: 0x1526FA0 VA: 0x1815289A0
 	private string get__Path() { }
 
-	// RVA: 0x11CE8D0 Offset: 0x11CCED0 VA: 0x1811CE8D0
+	// RVA: 0x11CEB90 Offset: 0x11CD190 VA: 0x1811CEB90
 	internal bool get_Plain() { }
 
-	// RVA: 0x1526D40 Offset: 0x1525340 VA: 0x181526D40
+	// RVA: 0x1527000 Offset: 0x1525600 VA: 0x181527000
 	private static bool IsDomainEqualToHost(string domain, string host) { }
 
-	// RVA: 0x15273E0 Offset: 0x15259E0 VA: 0x1815273E0
+	// RVA: 0x15276A0 Offset: 0x1525CA0 VA: 0x1815276A0
 	internal bool VerifySetDefaults(CookieVariant variant, Uri uri, bool isLocalDomain, string localDomain, bool set_default, bool isThrow) { }
 
-	// RVA: 0x1526630 Offset: 0x1524C30 VA: 0x181526630
+	// RVA: 0x15268F0 Offset: 0x1524EF0 VA: 0x1815268F0
 	private static bool DomainCharsTest(string name) { }
 
-	// RVA: 0x1528A50 Offset: 0x1527050 VA: 0x181528A50
+	// RVA: 0x1528D10 Offset: 0x1527310 VA: 0x181528D10
 	public void set_Port(string value) { }
 
 	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
 	internal int[] get_PortList() { }
 
-	// RVA: 0x1528750 Offset: 0x1526D50 VA: 0x181528750
+	// RVA: 0x1528A10 Offset: 0x1527010 VA: 0x181528A10
 	private string get__Port() { }
 
-	// RVA: 0xC312F0 Offset: 0xC2F8F0 VA: 0x180C312F0
+	// RVA: 0xC315B0 Offset: 0xC2FBB0 VA: 0x180C315B0
 	public bool get_Secure() { }
 
-	// RVA: 0xC32410 Offset: 0xC30A10 VA: 0x180C32410
+	// RVA: 0xC326D0 Offset: 0xC30CD0 VA: 0x180C326D0
 	public void set_Secure(bool value) { }
 
 	// RVA: 0x5743E0 Offset: 0x5729E0 VA: 0x1805743E0
 	public string get_Value() { }
 
-	// RVA: 0x1528E60 Offset: 0x1527460 VA: 0x181528E60
+	// RVA: 0x1529120 Offset: 0x1527720 VA: 0x181529120
 	public void set_Value(string value) { }
 
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	internal CookieVariant get_Variant() { }
 
-	// RVA: 0x1528550 Offset: 0x1526B50 VA: 0x181528550
+	// RVA: 0x1528810 Offset: 0x1526E10 VA: 0x181528810
 	internal string get_DomainKey() { }
 
 	// RVA: 0x58AC70 Offset: 0x589270 VA: 0x18058AC70
 	public int get_Version() { }
 
-	// RVA: 0x1528ED0 Offset: 0x15274D0 VA: 0x181528ED0
+	// RVA: 0x1529190 Offset: 0x1527790 VA: 0x181529190
 	public void set_Version(int value) { }
 
-	// RVA: 0x1528800 Offset: 0x1526E00 VA: 0x181528800
+	// RVA: 0x1528AC0 Offset: 0x15270C0 VA: 0x181528AC0
 	private string get__Version() { }
 
-	// RVA: 0x15267D0 Offset: 0x1524DD0 VA: 0x1815267D0
+	// RVA: 0x1526A90 Offset: 0x1525090 VA: 0x181526A90
 	internal static IComparer GetComparer() { }
 
-	// RVA: 0x15266C0 Offset: 0x1524CC0 VA: 0x1815266C0 Slot: 0
+	// RVA: 0x1526980 Offset: 0x1524F80 VA: 0x181526980 Slot: 0
 	public override bool Equals(object comparand) { }
 
-	// RVA: 0x1526830 Offset: 0x1524E30 VA: 0x181526830 Slot: 2
+	// RVA: 0x1526AF0 Offset: 0x15250F0 VA: 0x181526AF0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1526DA0 Offset: 0x15253A0 VA: 0x181526DA0 Slot: 3
+	// RVA: 0x1527060 Offset: 0x1525660 VA: 0x181527060 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1528290 Offset: 0x1526890 VA: 0x181528290
+	// RVA: 0x1528550 Offset: 0x1526B50 VA: 0x181528550
 	private static void .cctor() { }
 
 }

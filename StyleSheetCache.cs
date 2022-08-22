@@ -9,10 +9,10 @@ internal static class StyleSheetCache // TypeDefIndex: 4723
 
 	// Methods
 
-	// RVA: 0xEB9ED0 Offset: 0xEB84D0 VA: 0x180EB9ED0
+	// RVA: 0xEBA190 Offset: 0xEB8790 VA: 0x180EBA190
 	private static void .cctor() { }
 
-	// RVA: 0xEB9DE0 Offset: 0xEB83E0 VA: 0x180EB9DE0
+	// RVA: 0xEBA0A0 Offset: 0xEB86A0 VA: 0x180EBA0A0
 	internal static StyleValue GetInitialValue(StylePropertyID propertyId) { }
 
 }
@@ -27,10 +27,10 @@ private struct StyleSheetCache.SheetHandleKey // TypeDefIndex: 4724
 private class StyleSheetCache.SheetHandleKeyComparer : IEqualityComparer<StyleSheetCache.SheetHandleKey> // TypeDefIndex: 4725
 {	// Methods
 
-	// RVA: 0xEB9A00 Offset: 0xEB8000 VA: 0x180EB9A00 Slot: 4
+	// RVA: 0xEB9CC0 Offset: 0xEB82C0 VA: 0x180EB9CC0 Slot: 4
 	public bool Equals(StyleSheetCache.SheetHandleKey x, StyleSheetCache.SheetHandleKey y) { }
 
-	// RVA: 0xEB9A20 Offset: 0xEB8020 VA: 0x180EB9A20 Slot: 5
+	// RVA: 0xEB9CE0 Offset: 0xEB82E0 VA: 0x180EB9CE0 Slot: 5
 	public int GetHashCode(StyleSheetCache.SheetHandleKey key) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

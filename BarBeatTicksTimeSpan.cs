@@ -14,13 +14,13 @@ public sealed class BarBeatTicksTimeSpan : ITimeSpan, IComparable, IComparable<B
 
 	// Methods
 
-	// RVA: 0x1395A10 Offset: 0x1394010 VA: 0x181395A10
+	// RVA: 0x1395CD0 Offset: 0x13942D0 VA: 0x181395CD0
 	public void .ctor() { }
 
-	// RVA: 0x13959F0 Offset: 0x1393FF0 VA: 0x1813959F0
+	// RVA: 0x1395CB0 Offset: 0x13942B0 VA: 0x181395CB0
 	public void .ctor(long bars, long beats) { }
 
-	// RVA: 0x1395A30 Offset: 0x1394030 VA: 0x181395A30
+	// RVA: 0x1395CF0 Offset: 0x13942F0 VA: 0x181395CF0
 	public void .ctor(long bars, long beats, long ticks) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -35,40 +35,40 @@ public sealed class BarBeatTicksTimeSpan : ITimeSpan, IComparable, IComparable<B
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public long get_Ticks() { }
 
-	// RVA: 0x1395B30 Offset: 0x1394130 VA: 0x181395B30
+	// RVA: 0x1395DF0 Offset: 0x13943F0 VA: 0x181395DF0
 	public static bool op_Equality(BarBeatTicksTimeSpan timeSpan1, BarBeatTicksTimeSpan timeSpan2) { }
 
-	// RVA: 0x1395B70 Offset: 0x1394170 VA: 0x181395B70
+	// RVA: 0x1395E30 Offset: 0x1394430 VA: 0x181395E30
 	public static bool op_Inequality(BarBeatTicksTimeSpan timeSpan1, BarBeatTicksTimeSpan timeSpan2) { }
 
-	// RVA: 0x1395D10 Offset: 0x1394310 VA: 0x181395D10
+	// RVA: 0x1395FD0 Offset: 0x13945D0 VA: 0x181395FD0
 	public static BarBeatTicksTimeSpan op_Subtraction(BarBeatTicksTimeSpan timeSpan1, BarBeatTicksTimeSpan timeSpan2) { }
 
-	// RVA: 0x1395BB0 Offset: 0x13941B0 VA: 0x181395BB0
+	// RVA: 0x1395E70 Offset: 0x1394470 VA: 0x181395E70
 	public static bool op_LessThan(BarBeatTicksTimeSpan timeSpan1, BarBeatTicksTimeSpan timeSpan2) { }
 
-	// RVA: 0x1395570 Offset: 0x1393B70 VA: 0x181395570 Slot: 0
+	// RVA: 0x1395830 Offset: 0x1393E30 VA: 0x181395830 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1395600 Offset: 0x1393C00 VA: 0x181395600 Slot: 2
+	// RVA: 0x13958C0 Offset: 0x1393EC0 VA: 0x1813958C0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1395950 Offset: 0x1393F50 VA: 0x181395950 Slot: 3
+	// RVA: 0x1395C10 Offset: 0x1394210 VA: 0x181395C10 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1395680 Offset: 0x1393C80 VA: 0x181395680 Slot: 4
+	// RVA: 0x1395940 Offset: 0x1393F40 VA: 0x181395940 Slot: 4
 	public ITimeSpan Subtract(ITimeSpan timeSpan, TimeSpanMode mode) { }
 
-	// RVA: 0x1395310 Offset: 0x1393910 VA: 0x181395310 Slot: 5
+	// RVA: 0x13955D0 Offset: 0x1393BD0 VA: 0x1813955D0 Slot: 5
 	public ITimeSpan Clone() { }
 
-	// RVA: 0x1395430 Offset: 0x1393A30 VA: 0x181395430 Slot: 6
+	// RVA: 0x13956F0 Offset: 0x1393CF0 VA: 0x1813956F0 Slot: 6
 	public int CompareTo(object other) { }
 
-	// RVA: 0x1395390 Offset: 0x1393990 VA: 0x181395390 Slot: 7
+	// RVA: 0x1395650 Offset: 0x1393C50 VA: 0x181395650 Slot: 7
 	public int CompareTo(BarBeatTicksTimeSpan other) { }
 
-	// RVA: 0x1395540 Offset: 0x1393B40 VA: 0x181395540 Slot: 8
+	// RVA: 0x1395800 Offset: 0x1393E00 VA: 0x181395800 Slot: 8
 	public bool Equals(BarBeatTicksTimeSpan other) { }
 
 }

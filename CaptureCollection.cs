@@ -11,7 +11,7 @@ public class CaptureCollection : ICollection, IEnumerable // TypeDefIndex: 2606
 
 	// Methods
 
-	// RVA: 0x14BF090 Offset: 0x14BD690 VA: 0x1814BF090
+	// RVA: 0x14BF350 Offset: 0x14BD950 VA: 0x1814BF350
 	internal void .ctor(Group group) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 6
@@ -20,19 +20,19 @@ public class CaptureCollection : ICollection, IEnumerable // TypeDefIndex: 2606
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470 Slot: 5
 	public int get_Count() { }
 
-	// RVA: 0x14BF120 Offset: 0x14BD720 VA: 0x1814BF120
+	// RVA: 0x14BF3E0 Offset: 0x14BD9E0 VA: 0x1814BF3E0
 	public Capture get_Item(int i) { }
 
-	// RVA: 0x14BED10 Offset: 0x14BD310 VA: 0x1814BED10 Slot: 4
+	// RVA: 0x14BEFD0 Offset: 0x14BD5D0 VA: 0x1814BEFD0 Slot: 4
 	public void CopyTo(Array array, int arrayIndex) { }
 
-	// RVA: 0x14BF020 Offset: 0x14BD620 VA: 0x1814BF020 Slot: 7
+	// RVA: 0x14BF2E0 Offset: 0x14BD8E0 VA: 0x1814BF2E0 Slot: 7
 	public IEnumerator GetEnumerator() { }
 
-	// RVA: 0x14BEDD0 Offset: 0x14BD3D0 VA: 0x1814BEDD0
+	// RVA: 0x14BF090 Offset: 0x14BD690 VA: 0x1814BF090
 	internal Capture GetCapture(int i) { }
 
-	// RVA: 0x14BF0F0 Offset: 0x14BD6F0 VA: 0x1814BF0F0
+	// RVA: 0x14BF3B0 Offset: 0x14BD9B0 VA: 0x1814BF3B0
 	internal void .ctor() { }
 
 }

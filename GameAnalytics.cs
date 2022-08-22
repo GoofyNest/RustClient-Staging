@@ -4,49 +4,49 @@ internal static class GameAnalytics // TypeDefIndex: 5620
 
 	// Methods
 
-	// RVA: 0x13C8180 Offset: 0x13C6780 VA: 0x1813C8180
+	// RVA: 0x13C8440 Offset: 0x13C6A40 VA: 0x1813C8440
 	private static void .cctor() { }
 
-	// RVA: 0x13C7200 Offset: 0x13C5800 VA: 0x1813C7200
+	// RVA: 0x13C74C0 Offset: 0x13C5AC0 VA: 0x1813C74C0
 	public static void ConfigureBuild(string build) { }
 
-	// RVA: 0x13C7480 Offset: 0x13C5A80 VA: 0x1813C7480
+	// RVA: 0x13C7740 Offset: 0x13C5D40 VA: 0x1813C7740
 	public static void ConfigureSdkGameEngineVersion(string sdkGameEngineVersion) { }
 
-	// RVA: 0x13C7340 Offset: 0x13C5940 VA: 0x1813C7340
+	// RVA: 0x13C7600 Offset: 0x13C5C00 VA: 0x1813C7600
 	public static void ConfigureGameEngineVersion(string gameEngineVersion) { }
 
-	// RVA: 0x13C75C0 Offset: 0x13C5BC0 VA: 0x1813C75C0
+	// RVA: 0x13C7880 Offset: 0x13C5E80 VA: 0x1813C7880
 	public static void ConfigureUserId(string uId) { }
 
-	// RVA: 0x13C7700 Offset: 0x13C5D00 VA: 0x1813C7700
+	// RVA: 0x13C79C0 Offset: 0x13C5FC0 VA: 0x1813C79C0
 	public static void Initialize(string gameKey, string gameSecret) { }
 
-	// RVA: 0x13C6D40 Offset: 0x13C5340 VA: 0x1813C6D40
+	// RVA: 0x13C7000 Offset: 0x13C5600 VA: 0x1813C7000
 	public static void AddBusinessEvent(string currency, int amount, string itemType, string itemId, string cartType) { }
 
-	// RVA: 0x13C7080 Offset: 0x13C5680 VA: 0x1813C7080
+	// RVA: 0x13C7340 Offset: 0x13C5940 VA: 0x1813C7340
 	public static void AddDesignEvent(string eventId, IDictionary<string, object> fields) { }
 
-	// RVA: 0x13C6F00 Offset: 0x13C5500 VA: 0x1813C6F00
+	// RVA: 0x13C71C0 Offset: 0x13C57C0 VA: 0x1813C71C0
 	public static void AddDesignEvent(string eventId, double value) { }
 
-	// RVA: 0x13C7DC0 Offset: 0x13C63C0 VA: 0x1813C7DC0
+	// RVA: 0x13C8080 Offset: 0x13C6680 VA: 0x1813C8080
 	public static void SetCustomDimension01(string dimension) { }
 
-	// RVA: 0x13C7F00 Offset: 0x13C6500 VA: 0x1813C7F00
+	// RVA: 0x13C81C0 Offset: 0x13C67C0 VA: 0x1813C81C0
 	public static void SetCustomDimension02(string dimension) { }
 
-	// RVA: 0x13C8040 Offset: 0x13C6640 VA: 0x1813C8040
+	// RVA: 0x13C8300 Offset: 0x13C6900 VA: 0x1813C8300
 	public static void SetCustomDimension03(string dimension) { }
 
-	// RVA: 0x13C7A90 Offset: 0x13C6090 VA: 0x1813C7A90
+	// RVA: 0x13C7D50 Offset: 0x13C6350 VA: 0x1813C7D50
 	public static void OnQuit() { }
 
-	// RVA: 0x13C7A20 Offset: 0x13C6020 VA: 0x1813C7A20
+	// RVA: 0x13C7CE0 Offset: 0x13C62E0 VA: 0x1813C7CE0
 	private static bool IsSdkReady(bool needsInitialized, bool warn) { }
 
-	// RVA: 0x13C7880 Offset: 0x13C5E80 VA: 0x1813C7880
+	// RVA: 0x13C7B40 Offset: 0x13C6140 VA: 0x1813C7B40
 	private static bool IsSdkReady(bool needsInitialized, bool warn, string message) { }
 
 }
@@ -60,7 +60,7 @@ private sealed class GameAnalytics.<>c__DisplayClass7_0 // TypeDefIndex: 5621
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13CE900 Offset: 0x13CCF00 VA: 0x1813CE900
+	// RVA: 0x13CEBC0 Offset: 0x13CD1C0 VA: 0x1813CEBC0
 	internal void <ConfigureBuild>b__0() { }
 
 }
@@ -74,7 +74,7 @@ private sealed class GameAnalytics.<>c__DisplayClass8_0 // TypeDefIndex: 5622
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13CEBF0 Offset: 0x13CD1F0 VA: 0x1813CEBF0
+	// RVA: 0x13CEEB0 Offset: 0x13CD4B0 VA: 0x1813CEEB0
 	internal void <ConfigureSdkGameEngineVersion>b__0() { }
 
 }
@@ -88,7 +88,7 @@ private sealed class GameAnalytics.<>c__DisplayClass9_0 // TypeDefIndex: 5623
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13CEE50 Offset: 0x13CD450 VA: 0x1813CEE50
+	// RVA: 0x13CF110 Offset: 0x13CD710 VA: 0x1813CF110
 	internal void <ConfigureGameEngineVersion>b__0() { }
 
 }
@@ -102,7 +102,7 @@ private sealed class GameAnalytics.<>c__DisplayClass10_0 // TypeDefIndex: 5624
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13CDCC0 Offset: 0x13CC2C0 VA: 0x1813CDCC0
+	// RVA: 0x13CDF80 Offset: 0x13CC580 VA: 0x1813CDF80
 	internal void <ConfigureUserId>b__0() { }
 
 }
@@ -117,7 +117,7 @@ private sealed class GameAnalytics.<>c__DisplayClass11_0 // TypeDefIndex: 5625
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13CDFE0 Offset: 0x13CC5E0 VA: 0x1813CDFE0
+	// RVA: 0x13CE2A0 Offset: 0x13CC8A0 VA: 0x1813CE2A0
 	internal void <Initialize>b__0() { }
 
 }
@@ -135,7 +135,7 @@ private sealed class GameAnalytics.<>c__DisplayClass12_0 // TypeDefIndex: 5626
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13CE4A0 Offset: 0x13CCAA0 VA: 0x1813CE4A0
+	// RVA: 0x13CE760 Offset: 0x13CCD60 VA: 0x1813CE760
 	internal void <AddBusinessEvent>b__0() { }
 
 }
@@ -150,7 +150,7 @@ private sealed class GameAnalytics.<>c__DisplayClass20_0 // TypeDefIndex: 5627
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13CE580 Offset: 0x13CCB80 VA: 0x1813CE580
+	// RVA: 0x13CE840 Offset: 0x13CCE40 VA: 0x1813CE840
 	internal void <AddDesignEvent>b__0() { }
 
 }
@@ -165,7 +165,7 @@ private sealed class GameAnalytics.<>c__DisplayClass21_0 // TypeDefIndex: 5628
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13CE630 Offset: 0x13CCC30 VA: 0x1813CE630
+	// RVA: 0x13CE8F0 Offset: 0x13CCEF0 VA: 0x1813CE8F0
 	internal void <AddDesignEvent>b__0() { }
 
 }
@@ -179,7 +179,7 @@ private sealed class GameAnalytics.<>c__DisplayClass25_0 // TypeDefIndex: 5629
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13CE6F0 Offset: 0x13CCCF0 VA: 0x1813CE6F0
+	// RVA: 0x13CE9B0 Offset: 0x13CCFB0 VA: 0x1813CE9B0
 	internal void <SetCustomDimension01>b__0() { }
 
 }
@@ -193,7 +193,7 @@ private sealed class GameAnalytics.<>c__DisplayClass26_0 // TypeDefIndex: 5630
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13CE7A0 Offset: 0x13CCDA0 VA: 0x1813CE7A0
+	// RVA: 0x13CEA60 Offset: 0x13CD060 VA: 0x1813CEA60
 	internal void <SetCustomDimension02>b__0() { }
 
 }
@@ -207,7 +207,7 @@ private sealed class GameAnalytics.<>c__DisplayClass27_0 // TypeDefIndex: 5631
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13CE850 Offset: 0x13CCE50 VA: 0x1813CE850
+	// RVA: 0x13CEB10 Offset: 0x13CD110 VA: 0x1813CEB10
 	internal void <SetCustomDimension03>b__0() { }
 
 }
@@ -219,13 +219,13 @@ private sealed class GameAnalytics.<>c // TypeDefIndex: 5632
 
 	// Methods
 
-	// RVA: 0x13CF0B0 Offset: 0x13CD6B0 VA: 0x1813CF0B0
+	// RVA: 0x13CF370 Offset: 0x13CD970 VA: 0x1813CF370
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13CDC20 Offset: 0x13CC220 VA: 0x1813CDC20
+	// RVA: 0x13CDEE0 Offset: 0x13CC4E0 VA: 0x1813CDEE0
 	internal void <OnQuit>b__35_0() { }
 
 }

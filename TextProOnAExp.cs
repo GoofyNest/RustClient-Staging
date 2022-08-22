@@ -7,13 +7,13 @@ public class TextProOnAExp : TextProOnACurve // TypeDefIndex: 7123
 
 	// Methods
 
-	// RVA: 0x22C8DA0 Offset: 0x22C73A0 VA: 0x1822C8DA0 Slot: 4
+	// RVA: 0x22C9060 Offset: 0x22C7660 VA: 0x1822C9060 Slot: 4
 	protected override bool ParametersHaveChanged() { }
 
-	// RVA: 0x22C8B20 Offset: 0x22C7120 VA: 0x1822C8B20 Slot: 5
+	// RVA: 0x22C8DE0 Offset: 0x22C73E0 VA: 0x1822C8DE0 Slot: 5
 	protected override Matrix4x4 ComputeTransformationMatrix(Vector3 charMidBaselinePos, float zeroToOnePos, TMP_TextInfo textInfo, int charIdx) { }
 
-	// RVA: 0x22C8DC0 Offset: 0x22C73C0 VA: 0x1822C8DC0
+	// RVA: 0x22C9080 Offset: 0x22C7680 VA: 0x1822C9080
 	public void .ctor() { }
 
 }

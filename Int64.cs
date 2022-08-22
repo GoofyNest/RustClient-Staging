@@ -33,19 +33,19 @@ public struct Int64 : IComparable, IFormattable, IConvertible, IComparable<long>
 	// RVA: 0x1FB950 Offset: 0x1FAD50 VA: 0x1801FB950 Slot: 5
 	public string ToString(string format, IFormatProvider provider) { }
 
-	// RVA: 0x1672D80 Offset: 0x1671380 VA: 0x181672D80
+	// RVA: 0x1673040 Offset: 0x1671640 VA: 0x181673040
 	public static long Parse(string s) { }
 
-	// RVA: 0x1672D50 Offset: 0x1671350 VA: 0x181672D50
+	// RVA: 0x1673010 Offset: 0x1671610 VA: 0x181673010
 	public static long Parse(string s, IFormatProvider provider) { }
 
-	// RVA: 0x1672D00 Offset: 0x1671300 VA: 0x181672D00
+	// RVA: 0x1672FC0 Offset: 0x16715C0 VA: 0x181672FC0
 	public static long Parse(string s, NumberStyles style, IFormatProvider provider) { }
 
-	// RVA: 0x1672F60 Offset: 0x1671560 VA: 0x181672F60
+	// RVA: 0x1673220 Offset: 0x1671820 VA: 0x181673220
 	public static bool TryParse(string s, out long result) { }
 
-	// RVA: 0x1672FA0 Offset: 0x16715A0 VA: 0x181672FA0
+	// RVA: 0x1673260 Offset: 0x1671860 VA: 0x181673260
 	public static bool TryParse(string s, NumberStyles style, IFormatProvider provider, out long result) { }
 
 	// RVA: 0x1FB360 Offset: 0x1FA760 VA: 0x1801FB360 Slot: 6

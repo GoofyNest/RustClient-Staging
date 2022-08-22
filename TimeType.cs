@@ -6,10 +6,10 @@ internal class TimeType // TypeDefIndex: 403
 
 	// Methods
 
-	// RVA: 0x160FDD0 Offset: 0x160E3D0 VA: 0x18160FDD0
+	// RVA: 0x1610090 Offset: 0x160E690 VA: 0x181610090
 	public void .ctor(int offset, bool is_dst, string abbrev) { }
 
-	// RVA: 0x160FB00 Offset: 0x160E100 VA: 0x18160FB00 Slot: 3
+	// RVA: 0x160FDC0 Offset: 0x160E3C0 VA: 0x18160FDC0 Slot: 3
 	public override string ToString() { }
 
 }

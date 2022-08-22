@@ -4,19 +4,19 @@ internal sealed class ZeroOpNode : ExpressionNode // TypeDefIndex: 4267
 
 	// Methods
 
-	// RVA: 0x1AE1040 Offset: 0x1ADF640 VA: 0x181AE1040
+	// RVA: 0x1AE1300 Offset: 0x1ADF900 VA: 0x181AE1300
 	internal void .ctor(int op) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	internal override void Bind(DataTable table, List<DataColumn> list) { }
 
-	// RVA: 0x1AE0FA0 Offset: 0x1ADF5A0 VA: 0x181AE0FA0 Slot: 6
+	// RVA: 0x1AE1260 Offset: 0x1ADF860 VA: 0x181AE1260 Slot: 6
 	internal override object Eval() { }
 
-	// RVA: 0x95F920 Offset: 0x95DF20 VA: 0x18095F920 Slot: 7
+	// RVA: 0x95FA30 Offset: 0x95E030 VA: 0x18095FA30 Slot: 7
 	internal override object Eval(DataRow row, DataRowVersion version) { }
 
-	// RVA: 0x95F920 Offset: 0x95DF20 VA: 0x18095F920 Slot: 8
+	// RVA: 0x95FA30 Offset: 0x95E030 VA: 0x18095FA30 Slot: 8
 	internal override object Eval(int[] recordNos) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 9

@@ -11,7 +11,7 @@ public class Capture // TypeDefIndex: 2605
 
 	// Methods
 
-	// RVA: 0xB7B690 Offset: 0xB79C90 VA: 0x180B7B690
+	// RVA: 0xB7B950 Offset: 0xB79F50 VA: 0x180B7B950
 	internal void .ctor(string text, int i, int l) { }
 
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
@@ -20,22 +20,22 @@ public class Capture // TypeDefIndex: 2605
 	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
 	public int get_Length() { }
 
-	// RVA: 0x14BF2C0 Offset: 0x14BD8C0 VA: 0x1814BF2C0
+	// RVA: 0x14BF580 Offset: 0x14BDB80 VA: 0x1814BF580
 	public string get_Value() { }
 
-	// RVA: 0x14BF2C0 Offset: 0x14BD8C0 VA: 0x1814BF2C0 Slot: 3
+	// RVA: 0x14BF580 Offset: 0x14BDB80 VA: 0x1814BF580 Slot: 3
 	public override string ToString() { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	internal string GetOriginalString() { }
 
-	// RVA: 0x14BF250 Offset: 0x14BD850 VA: 0x1814BF250
+	// RVA: 0x14BF510 Offset: 0x14BDB10 VA: 0x1814BF510
 	internal string GetLeftSubstring() { }
 
-	// RVA: 0x14BF280 Offset: 0x14BD880 VA: 0x1814BF280
+	// RVA: 0x14BF540 Offset: 0x14BDB40 VA: 0x1814BF540
 	internal string GetRightSubstring() { }
 
-	// RVA: 0x14BF2F0 Offset: 0x14BD8F0 VA: 0x1814BF2F0
+	// RVA: 0x14BF5B0 Offset: 0x14BDBB0 VA: 0x1814BF5B0
 	internal void .ctor() { }
 
 }

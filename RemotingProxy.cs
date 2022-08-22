@@ -11,31 +11,31 @@ internal class RemotingProxy : RealProxy, IRemotingTypeInfo // TypeDefIndex: 116
 
 	// Methods
 
-	// RVA: 0x1487730 Offset: 0x1485D30 VA: 0x181487730
+	// RVA: 0x14879F0 Offset: 0x1485FF0 VA: 0x1814879F0
 	internal void .ctor(Type type, ClientIdentity identity) { }
 
-	// RVA: 0x14877E0 Offset: 0x1485DE0 VA: 0x1814877E0
+	// RVA: 0x1487AA0 Offset: 0x14860A0 VA: 0x181487AA0
 	internal void .ctor(Type type, string activationUrl, object[] activationAttributes) { }
 
-	// RVA: 0x1487110 Offset: 0x1485710 VA: 0x181487110 Slot: 5
+	// RVA: 0x14873D0 Offset: 0x14859D0 VA: 0x1814873D0 Slot: 5
 	public override IMessage Invoke(IMessage request) { }
 
-	// RVA: 0x14869C0 Offset: 0x1484FC0 VA: 0x1814869C0
+	// RVA: 0x1486C80 Offset: 0x1485280 VA: 0x181486C80
 	internal void AttachIdentity(Identity identity) { }
 
-	// RVA: 0x1486860 Offset: 0x1484E60 VA: 0x181486860
+	// RVA: 0x1486B20 Offset: 0x1485120 VA: 0x181486B20
 	internal IMessage ActivateRemoteObject(IMethodMessage request) { }
 
-	// RVA: 0x1487870 Offset: 0x1485E70 VA: 0x181487870 Slot: 8
+	// RVA: 0x1487B30 Offset: 0x1486130 VA: 0x181487B30 Slot: 8
 	public string get_TypeName() { }
 
-	// RVA: 0x1486D70 Offset: 0x1485370 VA: 0x181486D70 Slot: 9
+	// RVA: 0x1487030 Offset: 0x1485630 VA: 0x181487030 Slot: 9
 	public bool CanCastTo(Type fromType, object o) { }
 
-	// RVA: 0x1487000 Offset: 0x1485600 VA: 0x181487000 Slot: 1
+	// RVA: 0x14872C0 Offset: 0x14858C0 VA: 0x1814872C0 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1487660 Offset: 0x1485C60 VA: 0x181487660
+	// RVA: 0x1487920 Offset: 0x1485F20 VA: 0x181487920
 	private static void .cctor() { }
 
 }

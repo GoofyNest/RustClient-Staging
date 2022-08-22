@@ -1,17 +1,17 @@
 public static class TerrainUtility // TypeDefIndex: 4099
 {	// Methods
 
-	// RVA: 0x22C2A20 Offset: 0x22C1020 VA: 0x1822C2A20
+	// RVA: 0x22C2CE0 Offset: 0x22C12E0 VA: 0x1822C2CE0
 	internal static bool HasValidTerrains() { }
 
-	// RVA: 0x22C2670 Offset: 0x22C0C70 VA: 0x1822C2670
+	// RVA: 0x22C2930 Offset: 0x22C0F30 VA: 0x1822C2930
 	internal static void ClearConnectivity() { }
 
-	// RVA: 0x22C2730 Offset: 0x22C0D30 VA: 0x1822C2730
+	// RVA: 0x22C29F0 Offset: 0x22C0FF0 VA: 0x1822C29F0
 	internal static TerrainUtility.TerrainGroups CollectTerrains(bool onlyAutoConnectedTerrains = True) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22C22A0 Offset: 0x22C08A0 VA: 0x1822C22A0
+	// RVA: 0x22C2560 Offset: 0x22C0B60 VA: 0x1822C2560
 	public static void AutoConnect() { }
 
 }
@@ -24,28 +24,28 @@ public class TerrainUtility.TerrainMap // TypeDefIndex: 4100
 
 	// Methods
 
-	// RVA: 0x22C1740 Offset: 0x22BFD40 VA: 0x1822C1740
+	// RVA: 0x22C1A00 Offset: 0x22C0000 VA: 0x1822C1A00
 	public Terrain GetTerrain(int tileX, int tileZ) { }
 
-	// RVA: 0x22C13D0 Offset: 0x22BF9D0 VA: 0x1822C13D0
+	// RVA: 0x22C1690 Offset: 0x22BFC90 VA: 0x1822C1690
 	public static TerrainUtility.TerrainMap CreateFromPlacement(Terrain originTerrain, TerrainUtility.TerrainMap.TerrainFilter filter, bool fullValidation = True) { }
 
-	// RVA: 0x22C1030 Offset: 0x22BF630 VA: 0x1822C1030
+	// RVA: 0x22C12F0 Offset: 0x22BF8F0 VA: 0x1822C12F0
 	public static TerrainUtility.TerrainMap CreateFromPlacement(Vector2 gridOrigin, Vector2 gridSize, TerrainUtility.TerrainMap.TerrainFilter filter, bool fullValidation = True) { }
 
-	// RVA: 0x22C2230 Offset: 0x22C0830 VA: 0x1822C2230
+	// RVA: 0x22C24F0 Offset: 0x22C0AF0 VA: 0x1822C24F0
 	public void .ctor() { }
 
-	// RVA: 0x22C0E50 Offset: 0x22BF450 VA: 0x1822C0E50
+	// RVA: 0x22C1110 Offset: 0x22BF710 VA: 0x1822C1110
 	private void AddTerrainInternal(int x, int z, Terrain terrain) { }
 
-	// RVA: 0x22C17C0 Offset: 0x22BFDC0 VA: 0x1822C17C0
+	// RVA: 0x22C1A80 Offset: 0x22C0080 VA: 0x1822C1A80
 	private bool TryToAddTerrain(int tileX, int tileZ, Terrain terrain) { }
 
-	// RVA: 0x22C18F0 Offset: 0x22BFEF0 VA: 0x1822C18F0
+	// RVA: 0x22C1BB0 Offset: 0x22C01B0 VA: 0x1822C1BB0
 	private void ValidateTerrain(int tileX, int tileZ) { }
 
-	// RVA: 0x22C20F0 Offset: 0x22C06F0 VA: 0x1822C20F0
+	// RVA: 0x22C23B0 Offset: 0x22C09B0 VA: 0x1822C23B0
 	private TerrainUtility.TerrainMap.ErrorCode Validate() { }
 
 }
@@ -56,13 +56,13 @@ public sealed class TerrainUtility.TerrainMap.TerrainFilter : MulticastDelegate 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1786050 Offset: 0x1784650 VA: 0x181786050 Slot: 12
+	// RVA: 0x1786310 Offset: 0x1784910 VA: 0x181786310 Slot: 12
 	public virtual bool Invoke(Terrain terrain) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13
 	public virtual IAsyncResult BeginInvoke(Terrain terrain, AsyncCallback callback, object object) { }
 
-	// RVA: 0xFF6250 Offset: 0xFF4850 VA: 0x180FF6250 Slot: 14
+	// RVA: 0xFF6510 Offset: 0xFF4B10 VA: 0x180FF6510 Slot: 14
 	public virtual bool EndInvoke(IAsyncResult result) { }
 
 }
@@ -98,7 +98,7 @@ private sealed class TerrainUtility.TerrainMap.<>c__DisplayClass4_0 // TypeDefIn
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x22C37E0 Offset: 0x22C1DE0 VA: 0x1822C37E0
+	// RVA: 0x22C3AA0 Offset: 0x22C20A0 VA: 0x1822C3AA0
 	internal bool <CreateFromPlacement>b__0(Terrain x) { }
 
 }
@@ -106,7 +106,7 @@ private sealed class TerrainUtility.TerrainMap.<>c__DisplayClass4_0 // TypeDefIn
 public class TerrainUtility.TerrainGroups : Dictionary<int, TerrainUtility.TerrainMap> // TypeDefIndex: 4105
 {	// Methods
 
-	// RVA: 0x22C0D10 Offset: 0x22BF310 VA: 0x1822C0D10
+	// RVA: 0x22C0FD0 Offset: 0x22BF5D0 VA: 0x1822C0FD0
 	public void .ctor() { }
 
 }
@@ -132,7 +132,7 @@ private sealed class TerrainUtility.<>c__DisplayClass4_1 // TypeDefIndex: 4107
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x22C3830 Offset: 0x22C1E30 VA: 0x1822C3830
+	// RVA: 0x22C3AF0 Offset: 0x22C20F0 VA: 0x1822C3AF0
 	internal bool <CollectTerrains>b__0(Terrain x) { }
 
 }

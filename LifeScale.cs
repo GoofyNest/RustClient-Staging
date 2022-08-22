@@ -8,22 +8,22 @@ public class LifeScale : BaseMonoBehaviour // TypeDefIndex: 9638
 
 	// Methods
 
-	// RVA: 0x68E3C0 Offset: 0x68C9C0 VA: 0x18068E3C0
+	// RVA: 0x68E4D0 Offset: 0x68CAD0 VA: 0x18068E4D0
 	protected void Awake() { }
 
-	// RVA: 0x68E480 Offset: 0x68CA80 VA: 0x18068E480
+	// RVA: 0x68E590 Offset: 0x68CB90 VA: 0x18068E590
 	public void OnEnable() { }
 
-	// RVA: 0x68E500 Offset: 0x68CB00 VA: 0x18068E500
+	// RVA: 0x68E610 Offset: 0x68CC10 VA: 0x18068E610
 	public void SetProgress(float progress) { }
 
-	// RVA: 0x68E430 Offset: 0x68CA30 VA: 0x18068E430
+	// RVA: 0x68E540 Offset: 0x68CB40 VA: 0x18068E540
 	public void Init() { }
 
-	// RVA: 0x68E650 Offset: 0x68CC50 VA: 0x18068E650
+	// RVA: 0x68E760 Offset: 0x68CD60 VA: 0x18068E760
 	public void UpdateScale() { }
 
-	// RVA: 0x68E850 Offset: 0x68CE50 VA: 0x18068E850
+	// RVA: 0x68E960 Offset: 0x68CF60 VA: 0x18068E960
 	public void .ctor() { }
 
 }

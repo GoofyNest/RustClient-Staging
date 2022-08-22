@@ -51,7 +51,7 @@ public struct RaycastHit // TypeDefIndex: 3919
 	public int get_triangleIndex() { }
 
 	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
-	// RVA: 0x229DD20 Offset: 0x229C320 VA: 0x18229DD20
+	// RVA: 0x229DFE0 Offset: 0x229C5E0 VA: 0x18229DFE0
 	private static Vector2 CalculateRaycastTexCoord(Collider collider, Vector2 uv, Vector3 pos, uint face, int textcoord) { }
 
 	// RVA: 0x239690 Offset: 0x238A90 VA: 0x180239690
@@ -66,7 +66,7 @@ public struct RaycastHit // TypeDefIndex: 3919
 	// RVA: 0x2395E0 Offset: 0x2389E0 VA: 0x1802395E0
 	public Rigidbody get_rigidbody() { }
 
-	// RVA: 0x229DCB0 Offset: 0x229C2B0 VA: 0x18229DCB0
+	// RVA: 0x229DF70 Offset: 0x229C570 VA: 0x18229DF70
 	private static void CalculateRaycastTexCoord_Injected(Collider collider, ref Vector2 uv, ref Vector3 pos, uint face, int textcoord, out Vector2 ret) { }
 
 }

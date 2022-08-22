@@ -9,73 +9,73 @@ internal sealed class ObjectStorage : DataStorage // TypeDefIndex: 4406
 
 	// Methods
 
-	// RVA: 0x17D67E0 Offset: 0x17D4DE0 VA: 0x1817D67E0
+	// RVA: 0x17D6AA0 Offset: 0x17D50A0 VA: 0x1817D6AA0
 	internal void .ctor(DataColumn column, Type type) { }
 
-	// RVA: 0x17D33F0 Offset: 0x17D19F0 VA: 0x1817D33F0 Slot: 4
+	// RVA: 0x17D36B0 Offset: 0x17D1CB0 VA: 0x1817D36B0 Slot: 4
 	public override object Aggregate(int[] records, AggregateType kind) { }
 
-	// RVA: 0x17D3B70 Offset: 0x17D2170 VA: 0x1817D3B70 Slot: 5
+	// RVA: 0x17D3E30 Offset: 0x17D2430 VA: 0x1817D3E30 Slot: 5
 	public override int Compare(int recordNo1, int recordNo2) { }
 
-	// RVA: 0x17D35B0 Offset: 0x17D1BB0 VA: 0x1817D35B0 Slot: 6
+	// RVA: 0x17D3870 Offset: 0x17D1E70 VA: 0x1817D3870 Slot: 6
 	public override int CompareValueTo(int recordNo1, object value) { }
 
-	// RVA: 0x17D3440 Offset: 0x17D1A40 VA: 0x1817D3440
+	// RVA: 0x17D3700 Offset: 0x17D1D00 VA: 0x1817D3700
 	private int CompareTo(object valueNo1, object valueNo2) { }
 
-	// RVA: 0x17D3740 Offset: 0x17D1D40 VA: 0x1817D3740
+	// RVA: 0x17D3A00 Offset: 0x17D2000 VA: 0x1817D3A00
 	private int CompareWithFamilies(object valueNo1, object valueNo2) { }
 
-	// RVA: 0x123F7D0 Offset: 0x123DDD0 VA: 0x18123F7D0 Slot: 8
+	// RVA: 0x123FA90 Offset: 0x123E090 VA: 0x18123FA90 Slot: 8
 	public override void Copy(int recordNo1, int recordNo2) { }
 
-	// RVA: 0x123F900 Offset: 0x123DF00 VA: 0x18123F900 Slot: 9
+	// RVA: 0x123FBC0 Offset: 0x123E1C0 VA: 0x18123FBC0 Slot: 9
 	public override object Get(int recordNo) { }
 
-	// RVA: 0x17D5040 Offset: 0x17D3640 VA: 0x1817D5040
+	// RVA: 0x17D5300 Offset: 0x17D3900 VA: 0x1817D5300
 	private ObjectStorage.Families GetFamily(Type dataType) { }
 
-	// RVA: 0x123F940 Offset: 0x123DF40 VA: 0x18123F940 Slot: 11
+	// RVA: 0x123FC00 Offset: 0x123E200 VA: 0x18123FC00 Slot: 11
 	public override bool IsNull(int record) { }
 
-	// RVA: 0x17D5A60 Offset: 0x17D4060 VA: 0x1817D5A60 Slot: 12
+	// RVA: 0x17D5D20 Offset: 0x17D4320 VA: 0x1817D5D20 Slot: 12
 	public override void Set(int recordNo, object value) { }
 
-	// RVA: 0x17D57A0 Offset: 0x17D3DA0 VA: 0x1817D57A0 Slot: 13
+	// RVA: 0x17D5A60 Offset: 0x17D4060 VA: 0x1817D5A60 Slot: 13
 	public override void SetCapacity(int capacity) { }
 
-	// RVA: 0x17D4370 Offset: 0x17D2970 VA: 0x1817D4370 Slot: 14
+	// RVA: 0x17D4630 Offset: 0x17D2C30 VA: 0x1817D4630 Slot: 14
 	public override object ConvertXmlToObject(string s) { }
 
-	// RVA: 0x17D4760 Offset: 0x17D2D60 VA: 0x1817D4760 Slot: 15
+	// RVA: 0x17D4A20 Offset: 0x17D3020 VA: 0x1817D4A20 Slot: 15
 	public override object ConvertXmlToObject(XmlReader xmlReader, XmlRootAttribute xmlAttrib) { }
 
-	// RVA: 0x17D3E00 Offset: 0x17D2400 VA: 0x1817D3E00 Slot: 16
+	// RVA: 0x17D40C0 Offset: 0x17D26C0 VA: 0x1817D40C0 Slot: 16
 	public override string ConvertObjectToXml(object value) { }
 
-	// RVA: 0x17D3CE0 Offset: 0x17D22E0 VA: 0x1817D3CE0 Slot: 17
+	// RVA: 0x17D3FA0 Offset: 0x17D25A0 VA: 0x1817D3FA0 Slot: 17
 	public override void ConvertObjectToXml(object value, XmlWriter xmlWriter, XmlRootAttribute xmlAttrib) { }
 
-	// RVA: 0x17D5000 Offset: 0x17D3600 VA: 0x1817D5000 Slot: 18
+	// RVA: 0x17D52C0 Offset: 0x17D38C0 VA: 0x1817D52C0 Slot: 18
 	protected override object GetEmptyStorage(int recordCount) { }
 
-	// RVA: 0x17D4D70 Offset: 0x17D3370 VA: 0x1817D4D70 Slot: 19
+	// RVA: 0x17D5030 Offset: 0x17D3630 VA: 0x1817D5030 Slot: 19
 	protected override void CopyValue(int record, object store, BitArray nullbits, int storeIndex) { }
 
-	// RVA: 0x17D5860 Offset: 0x17D3E60 VA: 0x1817D5860 Slot: 20
+	// RVA: 0x17D5B20 Offset: 0x17D4120 VA: 0x1817D5B20 Slot: 20
 	protected override void SetStorage(object store, BitArray nullbits) { }
 
-	// RVA: 0x17D6610 Offset: 0x17D4C10 VA: 0x1817D6610
+	// RVA: 0x17D68D0 Offset: 0x17D4ED0 VA: 0x1817D68D0
 	internal static void VerifyIDynamicMetaObjectProvider(Type type) { }
 
-	// RVA: 0x17D5190 Offset: 0x17D3790 VA: 0x1817D5190
+	// RVA: 0x17D5450 Offset: 0x17D3A50 VA: 0x1817D5450
 	internal static XmlSerializer GetXmlSerializer(Type type) { }
 
-	// RVA: 0x17D5210 Offset: 0x17D3810 VA: 0x1817D5210
+	// RVA: 0x17D54D0 Offset: 0x17D3AD0 VA: 0x1817D54D0
 	internal static XmlSerializer GetXmlSerializer(Type type, XmlRootAttribute attribute) { }
 
-	// RVA: 0x17D6730 Offset: 0x17D4D30 VA: 0x1817D6730
+	// RVA: 0x17D69F0 Offset: 0x17D4FF0 VA: 0x1817D69F0
 	private static void .cctor() { }
 
 }
@@ -93,20 +93,20 @@ private enum ObjectStorage.Families // TypeDefIndex: 4407
 
 private class ObjectStorage.TempAssemblyComparer : IEqualityComparer<KeyValuePair<Type, XmlRootAttribute>> // TypeDefIndex: 4408
 {	// Fields
-	internal static readonly IEqualityComparer<KeyValuePair<Type, XmlRootAttribute>> s_default; // 0x2B10480
+	internal static readonly IEqualityComparer<KeyValuePair<Type, XmlRootAttribute>> s_default; // 0x2B114C0
 
 	// Methods
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	// RVA: 0x17ED440 Offset: 0x17EBA40 VA: 0x1817ED440 Slot: 4
+	// RVA: 0x17ED700 Offset: 0x17EBD00 VA: 0x1817ED700 Slot: 4
 	public bool Equals(KeyValuePair<Type, XmlRootAttribute> x, KeyValuePair<Type, XmlRootAttribute> y) { }
 
-	// RVA: 0x17ED570 Offset: 0x17EBB70 VA: 0x1817ED570 Slot: 5
+	// RVA: 0x17ED830 Offset: 0x17EBE30 VA: 0x1817ED830 Slot: 5
 	public int GetHashCode(KeyValuePair<Type, XmlRootAttribute> obj) { }
 
-	// RVA: 0x17ED5F0 Offset: 0x17EBBF0 VA: 0x1817ED5F0
+	// RVA: 0x17ED8B0 Offset: 0x17EBEB0 VA: 0x1817ED8B0
 	private static void .cctor() { }
 
 }

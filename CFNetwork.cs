@@ -6,52 +6,52 @@ internal static class CFNetwork // TypeDefIndex: 2525
 
 	// Methods
 
-	// RVA: 0x12108A0 Offset: 0x120EEA0 VA: 0x1812108A0
+	// RVA: 0x1210B60 Offset: 0x120F160 VA: 0x181210B60
 	private static extern IntPtr CFNetworkCopyProxiesForAutoConfigurationScriptSequential(IntPtr proxyAutoConfigurationScript, IntPtr targetURL, out IntPtr error) { }
 
-	// RVA: 0x1211160 Offset: 0x120F760 VA: 0x181211160
+	// RVA: 0x1211420 Offset: 0x120FA20 VA: 0x181211420
 	private static extern IntPtr CFNetworkExecuteProxyAutoConfigurationURL(IntPtr proxyAutoConfigURL, IntPtr targetURL, CFNetwork.CFProxyAutoConfigurationResultCallback cb, ref CFStreamClientContext clientContext) { }
 
-	// RVA: 0x1210940 Offset: 0x120EF40 VA: 0x181210940
+	// RVA: 0x1210C00 Offset: 0x120F200 VA: 0x181210C00
 	private static void CFNetworkCopyProxiesForAutoConfigurationScriptThread() { }
 
-	// RVA: 0x1210C80 Offset: 0x120F280 VA: 0x181210C80
+	// RVA: 0x1210F40 Offset: 0x120F540 VA: 0x181210F40
 	private static IntPtr CFNetworkCopyProxiesForAutoConfigurationScript(IntPtr proxyAutoConfigurationScript, IntPtr targetURL, out IntPtr error) { }
 
-	// RVA: 0x1211210 Offset: 0x120F810 VA: 0x181211210
+	// RVA: 0x12114D0 Offset: 0x120FAD0 VA: 0x1812114D0
 	private static CFArray CopyProxiesForAutoConfigurationScript(IntPtr proxyAutoConfigurationScript, CFUrl targetURL) { }
 
-	// RVA: 0x12119F0 Offset: 0x120FFF0 VA: 0x1812119F0
+	// RVA: 0x1211CB0 Offset: 0x12102B0 VA: 0x181211CB0
 	public static CFProxy[] GetProxiesForAutoConfigurationScript(IntPtr proxyAutoConfigurationScript, CFUrl targetURL) { }
 
-	// RVA: 0x12118A0 Offset: 0x120FEA0 VA: 0x1812118A0
+	// RVA: 0x1211B60 Offset: 0x1210160 VA: 0x181211B60
 	public static CFProxy[] GetProxiesForAutoConfigurationScript(IntPtr proxyAutoConfigurationScript, Uri targetUri) { }
 
-	// RVA: 0x1211410 Offset: 0x120FA10 VA: 0x181211410
+	// RVA: 0x12116D0 Offset: 0x120FCD0 VA: 0x1812116D0
 	public static CFProxy[] ExecuteProxyAutoConfigurationURL(IntPtr proxyAutoConfigURL, Uri targetURL) { }
 
-	// RVA: 0x1211060 Offset: 0x120F660 VA: 0x181211060
+	// RVA: 0x1211320 Offset: 0x120F920 VA: 0x181211320
 	private static extern IntPtr CFNetworkCopyProxiesForURL(IntPtr url, IntPtr proxySettings) { }
 
-	// RVA: 0x12112E0 Offset: 0x120F8E0 VA: 0x1812112E0
+	// RVA: 0x12115A0 Offset: 0x120FBA0 VA: 0x1812115A0
 	private static CFArray CopyProxiesForURL(CFUrl url, CFDictionary proxySettings) { }
 
-	// RVA: 0x1211D70 Offset: 0x1210370 VA: 0x181211D70
+	// RVA: 0x1212030 Offset: 0x1210630 VA: 0x181212030
 	public static CFProxy[] GetProxiesForURL(CFUrl url, CFProxySettings proxySettings) { }
 
-	// RVA: 0x1212150 Offset: 0x1210750 VA: 0x181212150
+	// RVA: 0x1212410 Offset: 0x1210A10 VA: 0x181212410
 	public static CFProxy[] GetProxiesForUri(Uri uri, CFProxySettings proxySettings) { }
 
-	// RVA: 0x12110F0 Offset: 0x120F6F0 VA: 0x1812110F0
+	// RVA: 0x12113B0 Offset: 0x120F9B0 VA: 0x1812113B0
 	private static extern IntPtr CFNetworkCopySystemProxySettings() { }
 
-	// RVA: 0x1212270 Offset: 0x1210870 VA: 0x181212270
+	// RVA: 0x1212530 Offset: 0x1210B30 VA: 0x181212530
 	public static CFProxySettings GetSystemProxySettings() { }
 
-	// RVA: 0x1211850 Offset: 0x120FE50 VA: 0x181211850
+	// RVA: 0x1211B10 Offset: 0x1210110 VA: 0x181211B10
 	public static IWebProxy GetDefaultProxy() { }
 
-	// RVA: 0x1212380 Offset: 0x1210980 VA: 0x181212380
+	// RVA: 0x1212640 Offset: 0x1210C40 VA: 0x181212640
 	private static void .cctor() { }
 
 }
@@ -66,10 +66,10 @@ private class CFNetwork.GetProxyData : IDisposable // TypeDefIndex: 2526
 
 	// Methods
 
-	// RVA: 0x1216D30 Offset: 0x1215330 VA: 0x181216D30 Slot: 4
+	// RVA: 0x1216FF0 Offset: 0x12155F0 VA: 0x181216FF0 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x1216D60 Offset: 0x1215360 VA: 0x181216D60
+	// RVA: 0x1217020 Offset: 0x1215620 VA: 0x181217020
 	public void .ctor() { }
 
 }
@@ -80,10 +80,10 @@ private sealed class CFNetwork.CFProxyAutoConfigurationResultCallback : Multicas
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1212C50 Offset: 0x1211250 VA: 0x181212C50 Slot: 12
+	// RVA: 0x1212F10 Offset: 0x1211510 VA: 0x181212F10 Slot: 12
 	public virtual void Invoke(IntPtr client, IntPtr proxyList, IntPtr error) { }
 
-	// RVA: 0x1212BB0 Offset: 0x12111B0 VA: 0x181212BB0 Slot: 13
+	// RVA: 0x1212E70 Offset: 0x1211470 VA: 0x181212E70 Slot: 13
 	public virtual IAsyncResult BeginInvoke(IntPtr client, IntPtr proxyList, IntPtr error, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -107,22 +107,22 @@ private class CFNetwork.CFWebProxy : IWebProxy // TypeDefIndex: 2528
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 6
 	public ICredentials get_Credentials() { }
 
-	// RVA: 0x1214C50 Offset: 0x1213250 VA: 0x181214C50
+	// RVA: 0x1214F10 Offset: 0x1213510 VA: 0x181214F10
 	private static Uri GetProxyUri(CFProxy proxy, out NetworkCredential credentials) { }
 
-	// RVA: 0x1214AA0 Offset: 0x12130A0 VA: 0x181214AA0
+	// RVA: 0x1214D60 Offset: 0x1213360 VA: 0x181214D60
 	private static Uri GetProxyUriFromScript(IntPtr script, Uri targetUri, out NetworkCredential credentials) { }
 
-	// RVA: 0x1214A20 Offset: 0x1213020 VA: 0x181214A20
+	// RVA: 0x1214CE0 Offset: 0x12132E0 VA: 0x181214CE0
 	private static Uri ExecuteProxyAutoConfigurationURL(IntPtr proxyAutoConfigURL, Uri targetUri, out NetworkCredential credentials) { }
 
-	// RVA: 0x1215600 Offset: 0x1213C00 VA: 0x181215600
+	// RVA: 0x12158C0 Offset: 0x1213EC0 VA: 0x1812158C0
 	private static Uri SelectProxy(CFProxy[] proxies, Uri targetUri, out NetworkCredential credentials) { }
 
-	// RVA: 0x1215150 Offset: 0x1213750 VA: 0x181215150 Slot: 4
+	// RVA: 0x1215410 Offset: 0x1213A10 VA: 0x181215410 Slot: 4
 	public Uri GetProxy(Uri targetUri) { }
 
-	// RVA: 0x1215520 Offset: 0x1213B20 VA: 0x181215520 Slot: 5
+	// RVA: 0x12157E0 Offset: 0x1213DE0 VA: 0x1812157E0 Slot: 5
 	public bool IsBypassed(Uri targetUri) { }
 
 }
@@ -137,7 +137,7 @@ private sealed class CFNetwork.<>c__DisplayClass13_0 // TypeDefIndex: 2529
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x121DD50 Offset: 0x121C350 VA: 0x18121DD50
+	// RVA: 0x121E010 Offset: 0x121C610 VA: 0x18121E010
 	internal void <ExecuteProxyAutoConfigurationURL>b__0(IntPtr client, IntPtr proxyList, IntPtr error) { }
 
 }

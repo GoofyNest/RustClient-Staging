@@ -11,10 +11,10 @@ public class PieShape : Graphic // TypeDefIndex: 11201
 
 	// Methods
 
-	// RVA: 0x90D5E0 Offset: 0x90BBE0 VA: 0x18090D5E0 Slot: 44
+	// RVA: 0x90D6F0 Offset: 0x90BCF0 VA: 0x18090D6F0 Slot: 44
 	protected override void OnPopulateMesh(VertexHelper vbo) { }
 
-	// RVA: 0x90DD70 Offset: 0x90C370 VA: 0x18090DD70
+	// RVA: 0x90DE80 Offset: 0x90C480 VA: 0x18090DE80
 	public void .ctor() { }
 
 }

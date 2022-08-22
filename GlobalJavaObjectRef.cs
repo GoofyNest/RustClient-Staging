@@ -5,16 +5,16 @@ internal class GlobalJavaObjectRef // TypeDefIndex: 4465
 
 	// Methods
 
-	// RVA: 0x2278930 Offset: 0x2276F30 VA: 0x182278930
+	// RVA: 0x2278BF0 Offset: 0x22771F0 VA: 0x182278BF0
 	public void .ctor(IntPtr jobject) { }
 
-	// RVA: 0x22788A0 Offset: 0x2276EA0 VA: 0x1822788A0 Slot: 1
+	// RVA: 0x2278B60 Offset: 0x2277160 VA: 0x182278B60 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x14B7D60 Offset: 0x14B6360 VA: 0x1814B7D60
+	// RVA: 0x14B8020 Offset: 0x14B6620 VA: 0x1814B8020
 	public static IntPtr op_Implicit(GlobalJavaObjectRef obj) { }
 
-	// RVA: 0x2278800 Offset: 0x2276E00 VA: 0x182278800
+	// RVA: 0x2278AC0 Offset: 0x22770C0 VA: 0x182278AC0
 	public void Dispose() { }
 
 }

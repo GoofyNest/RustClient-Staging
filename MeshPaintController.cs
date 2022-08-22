@@ -24,52 +24,52 @@ public class MeshPaintController : MonoBehaviour, IClientComponent // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x963740 Offset: 0x961D40 VA: 0x180963740
+	// RVA: 0x963850 Offset: 0x961E50 VA: 0x180963850
 	private void Awake() { }
 
-	// RVA: 0x9642C0 Offset: 0x9628C0 VA: 0x1809642C0
+	// RVA: 0x9643D0 Offset: 0x9629D0 VA: 0x1809643D0
 	private void Update() { }
 
-	// RVA: 0x963C80 Offset: 0x962280 VA: 0x180963C80
+	// RVA: 0x963D90 Offset: 0x962390 VA: 0x180963D90
 	private bool IsCopyPasteModifierHeld() { }
 
-	// RVA: 0x963970 Offset: 0x961F70 VA: 0x180963970
+	// RVA: 0x963A80 Offset: 0x962080 VA: 0x180963A80
 	private void Draw(Vector3 pos) { }
 
-	// RVA: 0x9635F0 Offset: 0x961BF0 VA: 0x1809635F0
+	// RVA: 0x963700 Offset: 0x961D00 VA: 0x180963700
 	private void ApplyPaintables() { }
 
-	// RVA: 0x963FC0 Offset: 0x9625C0 VA: 0x180963FC0
+	// RVA: 0x9640D0 Offset: 0x9626D0 VA: 0x1809640D0
 	public void UpdateBrushSize(float fNewSize) { }
 
-	// RVA: 0x963F20 Offset: 0x962520 VA: 0x180963F20
+	// RVA: 0x964030 Offset: 0x962630 VA: 0x180964030
 	public void UpdateBrushAlpha(float fAlpha) { }
 
-	// RVA: 0x963F60 Offset: 0x962560 VA: 0x180963F60
+	// RVA: 0x964070 Offset: 0x962670 VA: 0x180964070
 	public void UpdateBrushColor(Color color) { }
 
-	// RVA: 0x9640C0 Offset: 0x9626C0 VA: 0x1809640C0
+	// RVA: 0x9641D0 Offset: 0x9627D0 VA: 0x1809641D0
 	public void UpdateBrushTexture(Texture texture) { }
 
 	// RVA: 0x4E8840 Offset: 0x4E6E40 VA: 0x1804E8840
 	public void SetLastBrush(Toggle toggle) { }
 
-	// RVA: 0x963E70 Offset: 0x962470 VA: 0x180963E70
+	// RVA: 0x963F80 Offset: 0x962580 VA: 0x180963F80
 	public void SwitchToLastBrushIfErasing() { }
 
-	// RVA: 0x963D90 Offset: 0x962390 VA: 0x180963D90
+	// RVA: 0x963EA0 Offset: 0x9624A0 VA: 0x180963EA0
 	public void OnClickedUndo() { }
 
-	// RVA: 0x963CB0 Offset: 0x9622B0 VA: 0x180963CB0
+	// RVA: 0x963DC0 Offset: 0x9623C0 VA: 0x180963DC0
 	public void OnClickedRedo() { }
 
-	// RVA: 0x964170 Offset: 0x962770 VA: 0x180964170
+	// RVA: 0x964280 Offset: 0x962880 VA: 0x180964280
 	private void UpdateUndoRedoButtons() { }
 
-	// RVA: 0x964140 Offset: 0x962740 VA: 0x180964140
+	// RVA: 0x964250 Offset: 0x962850 VA: 0x180964250
 	public void UpdateLastPaintedMesh(BaseMeshPaintable paintable) { }
 
-	// RVA: 0x9648E0 Offset: 0x962EE0 VA: 0x1809648E0
+	// RVA: 0x9649F0 Offset: 0x962FF0 VA: 0x1809649F0
 	public void .ctor() { }
 
 }

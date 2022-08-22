@@ -21,13 +21,13 @@ public class TextProOnACircle : TextProOnACurve // TypeDefIndex: 7121
 
 	// Methods
 
-	// RVA: 0x22C8180 Offset: 0x22C6780 VA: 0x1822C8180 Slot: 4
+	// RVA: 0x22C8440 Offset: 0x22C6A40 VA: 0x1822C8440 Slot: 4
 	protected override bool ParametersHaveChanged() { }
 
-	// RVA: 0x22C7ED0 Offset: 0x22C64D0 VA: 0x1822C7ED0 Slot: 5
+	// RVA: 0x22C8190 Offset: 0x22C6790 VA: 0x1822C8190 Slot: 5
 	protected override Matrix4x4 ComputeTransformationMatrix(Vector3 charMidBaselinePos, float zeroToOnePos, TMP_TextInfo textInfo, int charIdx) { }
 
-	// RVA: 0x22C81E0 Offset: 0x22C67E0 VA: 0x1822C81E0
+	// RVA: 0x22C84A0 Offset: 0x22C6AA0 VA: 0x1822C84A0
 	public void .ctor() { }
 
 }

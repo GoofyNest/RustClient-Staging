@@ -8,34 +8,34 @@ public class TechTreeData : ScriptableObject // TypeDefIndex: 10014
 
 	// Methods
 
-	// RVA: 0x7AA540 Offset: 0x7A8B40 VA: 0x1807AA540
+	// RVA: 0x7AA650 Offset: 0x7A8C50 VA: 0x1807AA650
 	public TechTreeData.NodeInstance GetByID(int id) { }
 
-	// RVA: 0x7AA880 Offset: 0x7A8E80 VA: 0x1807AA880
+	// RVA: 0x7AA990 Offset: 0x7A8F90 VA: 0x1807AA990
 	public TechTreeData.NodeInstance GetEntryNode() { }
 
-	// RVA: 0x7AA3F0 Offset: 0x7A89F0 VA: 0x1807AA3F0
+	// RVA: 0x7AA500 Offset: 0x7A8B00 VA: 0x1807AA500
 	public void ClearInputs(TechTreeData.NodeInstance node) { }
 
-	// RVA: 0x7AB170 Offset: 0x7A9770 VA: 0x1807AB170
+	// RVA: 0x7AB280 Offset: 0x7A9880 VA: 0x1807AB280
 	public void SetupInputs(TechTreeData.NodeInstance node) { }
 
-	// RVA: 0x7AB110 Offset: 0x7A9710 VA: 0x1807AB110
+	// RVA: 0x7AB220 Offset: 0x7A9820 VA: 0x1807AB220
 	public bool PlayerHasPathForUnlock(BasePlayer player, TechTreeData.NodeInstance node) { }
 
-	// RVA: 0x7AA090 Offset: 0x7A8690 VA: 0x1807AA090
+	// RVA: 0x7AA1A0 Offset: 0x7A87A0 VA: 0x1807AA1A0
 	public bool CheckChainRecursive(BasePlayer player, TechTreeData.NodeInstance start, TechTreeData.NodeInstance target) { }
 
-	// RVA: 0x7AB090 Offset: 0x7A9690 VA: 0x1807AB090
+	// RVA: 0x7AB1A0 Offset: 0x7A97A0 VA: 0x1807AB1A0
 	public bool PlayerCanUnlock(BasePlayer player, TechTreeData.NodeInstance node) { }
 
-	// RVA: 0x7AAEF0 Offset: 0x7A94F0 VA: 0x1807AAEF0
+	// RVA: 0x7AB000 Offset: 0x7A9600 VA: 0x1807AB000
 	public bool HasPlayerUnlocked(BasePlayer player, TechTreeData.NodeInstance node) { }
 
-	// RVA: 0x7AAA70 Offset: 0x7A9070 VA: 0x1807AAA70
+	// RVA: 0x7AAB80 Offset: 0x7A9180 VA: 0x1807AAB80
 	public void GetNodesRequiredToUnlock(BasePlayer player, TechTreeData.NodeInstance node, List<TechTreeData.NodeInstance> foundNodes) { }
 
-	// RVA: 0x7AB2F0 Offset: 0x7A98F0 VA: 0x1807AB2F0
+	// RVA: 0x7AB400 Offset: 0x7A9A00 VA: 0x1807AB400
 	public void .ctor() { }
 
 }
@@ -52,10 +52,10 @@ public class TechTreeData.NodeInstance // TypeDefIndex: 10015
 
 	// Methods
 
-	// RVA: 0x79BD10 Offset: 0x79A310 VA: 0x18079BD10
+	// RVA: 0x79BE20 Offset: 0x79A420 VA: 0x18079BE20
 	public bool IsGroup() { }
 
-	// RVA: 0x79BDB0 Offset: 0x79A3B0 VA: 0x18079BDB0
+	// RVA: 0x79BEC0 Offset: 0x79A4C0 VA: 0x18079BEC0
 	public void .ctor() { }
 
 }
@@ -68,16 +68,16 @@ private sealed class TechTreeData.<>c // TypeDefIndex: 10016
 
 	// Methods
 
-	// RVA: 0x7B51B0 Offset: 0x7B37B0 VA: 0x1807B51B0
+	// RVA: 0x7B52C0 Offset: 0x7B38C0 VA: 0x1807B52C0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7B4E60 Offset: 0x7B3460 VA: 0x1807B4E60
+	// RVA: 0x7B4F70 Offset: 0x7B3570 VA: 0x1807B4F70
 	internal int <GetByID>b__5_0(TechTreeData.NodeInstance n) { }
 
-	// RVA: 0x7B4E80 Offset: 0x7B3480 VA: 0x1807B4E80
+	// RVA: 0x7B4F90 Offset: 0x7B3590 VA: 0x1807B4F90
 	internal TechTreeData.NodeInstance <GetByID>b__5_1(TechTreeData.NodeInstance n) { }
 
 }

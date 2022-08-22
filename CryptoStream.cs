@@ -23,69 +23,69 @@ public class CryptoStream : Stream, IDisposable // TypeDefIndex: 949
 
 	// Methods
 
-	// RVA: 0x16FC350 Offset: 0x16FA950 VA: 0x1816FC350
+	// RVA: 0x16FC610 Offset: 0x16FAC10 VA: 0x1816FC610
 	public void .ctor(Stream stream, ICryptoTransform transform, CryptoStreamMode mode) { }
 
-	// RVA: 0x15F1E80 Offset: 0x15F0480 VA: 0x1815F1E80 Slot: 7
+	// RVA: 0x15F2140 Offset: 0x15F0740 VA: 0x1815F2140 Slot: 7
 	public override bool get_CanRead() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 8
 	public override bool get_CanSeek() { }
 
-	// RVA: 0x15F1E70 Offset: 0x15F0470 VA: 0x1815F1E70 Slot: 9
+	// RVA: 0x15F2130 Offset: 0x15F0730 VA: 0x1815F2130 Slot: 9
 	public override bool get_CanWrite() { }
 
-	// RVA: 0x16FC600 Offset: 0x16FAC00 VA: 0x1816FC600 Slot: 10
+	// RVA: 0x16FC8C0 Offset: 0x16FAEC0 VA: 0x1816FC8C0 Slot: 10
 	public override long get_Length() { }
 
-	// RVA: 0x16FC670 Offset: 0x16FAC70 VA: 0x1816FC670 Slot: 11
+	// RVA: 0x16FC930 Offset: 0x16FAF30 VA: 0x1816FC930 Slot: 11
 	public override long get_Position() { }
 
-	// RVA: 0x16FC6E0 Offset: 0x16FACE0 VA: 0x1816FC6E0 Slot: 12
+	// RVA: 0x16FC9A0 Offset: 0x16FAFA0 VA: 0x1816FC9A0 Slot: 12
 	public override void set_Position(long value) { }
 
-	// RVA: 0x15F1E60 Offset: 0x15F0460 VA: 0x1815F1E60
+	// RVA: 0x15F2120 Offset: 0x15F0720 VA: 0x1815F2120
 	public bool get_HasFlushedFinalBlock() { }
 
-	// RVA: 0x16FACD0 Offset: 0x16F92D0 VA: 0x1816FACD0
+	// RVA: 0x16FAF90 Offset: 0x16F9590 VA: 0x1816FAF90
 	public void FlushFinalBlock() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 18
 	public override void Flush() { }
 
-	// RVA: 0x16FB9D0 Offset: 0x16F9FD0 VA: 0x1816FB9D0 Slot: 25
+	// RVA: 0x16FBC90 Offset: 0x16FA290 VA: 0x1816FBC90 Slot: 25
 	public override long Seek(long offset, SeekOrigin origin) { }
 
-	// RVA: 0x16FBA40 Offset: 0x16FA040 VA: 0x1816FBA40 Slot: 26
+	// RVA: 0x16FBD00 Offset: 0x16FA300 VA: 0x1816FBD00 Slot: 26
 	public override void SetLength(long value) { }
 
-	// RVA: 0x16FB440 Offset: 0x16F9A40 VA: 0x1816FB440 Slot: 27
+	// RVA: 0x16FB700 Offset: 0x16F9D00 VA: 0x1816FB700 Slot: 27
 	public override int Read([In] [Out] byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x16FB0B0 Offset: 0x16F96B0 VA: 0x1816FB0B0 Slot: 21
+	// RVA: 0x16FB370 Offset: 0x16F9970 VA: 0x1816FB370 Slot: 21
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xC8E30 Offset: 0xC8230 VA: 0x1800C8E30
-	// RVA: 0x16FAF60 Offset: 0x16F9560 VA: 0x1816FAF60
+	// RVA: 0x16FB220 Offset: 0x16F9820 VA: 0x1816FB220
 	private Task<int> ReadAsyncInternal(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
-	// RVA: 0x16FBF60 Offset: 0x16FA560 VA: 0x1816FBF60 Slot: 29
+	// RVA: 0x16FC220 Offset: 0x16FA820 VA: 0x1816FC220 Slot: 29
 	public override void Write(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x16FBBF0 Offset: 0x16FA1F0 VA: 0x1816FBBF0 Slot: 24
+	// RVA: 0x16FBEB0 Offset: 0x16FA4B0 VA: 0x1816FBEB0 Slot: 24
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xC8FC0 Offset: 0xC83C0 VA: 0x1800C8FC0
-	// RVA: 0x16FBAB0 Offset: 0x16FA0B0 VA: 0x1816FBAB0
+	// RVA: 0x16FBD70 Offset: 0x16FA370 VA: 0x1816FBD70
 	private Task WriteAsyncInternal(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
-	// RVA: 0x15D3730 Offset: 0x15D1D30 VA: 0x1815D3730
+	// RVA: 0x15D39F0 Offset: 0x15D1FF0 VA: 0x1815D39F0
 	public void Clear() { }
 
-	// RVA: 0x16FAB50 Offset: 0x16F9150 VA: 0x1816FAB50 Slot: 17
+	// RVA: 0x16FAE10 Offset: 0x16F9410 VA: 0x1816FAE10 Slot: 17
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x16FAEB0 Offset: 0x16F94B0 VA: 0x1816FAEB0
+	// RVA: 0x16FB170 Offset: 0x16F9770 VA: 0x1816FB170
 	private void InitializeBuffer() { }
 
 }

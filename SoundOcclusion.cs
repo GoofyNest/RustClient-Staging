@@ -19,26 +19,26 @@ public class SoundOcclusion : MonoBehaviour // TypeDefIndex: 9038
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0C30 Offset: 0x7CF230 VA: 0x1807D0C30
+	// RVA: 0x7D0D40 Offset: 0x7CF340 VA: 0x1807D0D40
 	public bool get_isOccluded() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0CA0 Offset: 0x7CF2A0 VA: 0x1807D0CA0
+	// RVA: 0x7D0DB0 Offset: 0x7CF3B0 VA: 0x1807D0DB0
 	private void set_isOccluded(bool value) { }
 
-	// RVA: 0xA79EA0 Offset: 0xA784A0 VA: 0x180A79EA0
+	// RVA: 0xA7A160 Offset: 0xA78760 VA: 0x180A7A160
 	public void Awake() { }
 
-	// RVA: 0xA7A540 Offset: 0xA78B40 VA: 0x180A7A540
+	// RVA: 0xA7A800 Offset: 0xA78E00 VA: 0x180A7A800
 	public void Init() { }
 
-	// RVA: 0xA7A660 Offset: 0xA78C60 VA: 0x180A7A660
+	// RVA: 0xA7A920 Offset: 0xA78F20 VA: 0x180A7A920
 	public void UpdateOcclusion(bool lerp = False) { }
 
-	// RVA: 0xA79F10 Offset: 0xA78510 VA: 0x180A79F10
+	// RVA: 0xA7A1D0 Offset: 0xA787D0 VA: 0x180A7A1D0
 	public void DoOcclusionCheck() { }
 
-	// RVA: 0xA7A950 Offset: 0xA78F50 VA: 0x180A7A950
+	// RVA: 0xA7AC10 Offset: 0xA79210 VA: 0x180A7AC10
 	public void .ctor() { }
 
 }

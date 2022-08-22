@@ -5,13 +5,13 @@ public class FleckLog // TypeDefIndex: 6904
 
 	// Methods
 
-	// RVA: 0x2205460 Offset: 0x2203A60 VA: 0x182205460
+	// RVA: 0x2205720 Offset: 0x2203D20 VA: 0x182205720
 	public static void Warn(string message, Exception ex) { }
 
-	// RVA: 0x22053A0 Offset: 0x22039A0 VA: 0x1822053A0
+	// RVA: 0x2205660 Offset: 0x2203C60 VA: 0x182205660
 	public static void Error(string message, Exception ex) { }
 
-	// RVA: 0x2205520 Offset: 0x2203B20 VA: 0x182205520
+	// RVA: 0x22057E0 Offset: 0x2203DE0 VA: 0x1822057E0
 	private static void .cctor() { }
 
 }
@@ -22,7 +22,7 @@ private sealed class FleckLog.<>c // TypeDefIndex: 6905
 
 	// Methods
 
-	// RVA: 0x22097A0 Offset: 0x2207DA0 VA: 0x1822097A0
+	// RVA: 0x2209A60 Offset: 0x2208060 VA: 0x182209A60
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

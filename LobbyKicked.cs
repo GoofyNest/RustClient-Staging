@@ -17,7 +17,7 @@ internal struct LobbyKicked_t : ICallbackData // TypeDefIndex: 5343
 	// RVA: 0x1EB6D0 Offset: 0x1EAAD0 VA: 0x1801EB6D0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1373C30 Offset: 0x1372230 VA: 0x181373C30
+	// RVA: 0x1373EF0 Offset: 0x13724F0 VA: 0x181373EF0
 	private static void .cctor() { }
 
 }

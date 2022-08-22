@@ -9,7 +9,7 @@ internal class FtpStatus // TypeDefIndex: 3001
 
 	// Methods
 
-	// RVA: 0xC650C0 Offset: 0xC636C0 VA: 0x180C650C0
+	// RVA: 0xC65380 Offset: 0xC63980 VA: 0x180C65380
 	public void .ctor(FtpStatusCode statusCode, string statusDescription) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00

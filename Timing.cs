@@ -5,7 +5,7 @@ public struct Timing // TypeDefIndex: 11408
 
 	// Methods
 
-	// RVA: 0x88BB10 Offset: 0x88A110 VA: 0x18088BB10
+	// RVA: 0x88BC20 Offset: 0x88A220 VA: 0x18088BC20
 	public static Timing Start(string name) { }
 
 	// RVA: 0xF9DD0 Offset: 0xF91D0 VA: 0x1800F9DD0

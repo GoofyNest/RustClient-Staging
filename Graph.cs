@@ -19,16 +19,16 @@ public abstract class Graph : MonoBehaviour // TypeDefIndex: 10933
 	// RVA: -1 Offset: -1 Slot: 5
 	protected abstract Color GetColor(float value);
 
-	// RVA: 0xCA4320 Offset: 0xCA2920 VA: 0x180CA4320
+	// RVA: 0xCA45E0 Offset: 0xCA2BE0 VA: 0x180CA45E0
 	protected Vector3 GetVertex(float x, float y) { }
 
-	// RVA: 0xCA47C0 Offset: 0xCA2DC0 VA: 0x180CA47C0
+	// RVA: 0xCA4A80 Offset: 0xCA3080 VA: 0x180CA4A80
 	protected void Update() { }
 
-	// RVA: 0xCA4350 Offset: 0xCA2950 VA: 0x180CA4350
+	// RVA: 0xCA4610 Offset: 0xCA2C10 VA: 0x180CA4610
 	protected void OnGUI() { }
 
-	// RVA: 0xCA49A0 Offset: 0xCA2FA0 VA: 0x180CA49A0
+	// RVA: 0xCA4C60 Offset: 0xCA3260 VA: 0x180CA4C60
 	protected void .ctor() { }
 
 }

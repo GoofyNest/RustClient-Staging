@@ -30,19 +30,19 @@ public class TrainCarAudio : MonoBehaviour // TypeDefIndex: 9768
 
 	// Methods
 
-	// RVA: 0xA0B6E0 Offset: 0xA09CE0 VA: 0x180A0B6E0
+	// RVA: 0xA0B9A0 Offset: 0xA09FA0 VA: 0x180A0B9A0
 	public void UpdateTick() { }
 
-	// RVA: 0xA0B430 Offset: 0xA09A30 VA: 0x180A0B430
+	// RVA: 0xA0B6F0 Offset: 0xA09CF0 VA: 0x180A0B6F0
 	public void StopAll() { }
 
-	// RVA: 0xA0B450 Offset: 0xA09A50 VA: 0x180A0B450
+	// RVA: 0xA0B710 Offset: 0xA09D10 VA: 0x180A0B710
 	private void StopMovementLoops() { }
 
-	// RVA: 0xA0B640 Offset: 0xA09C40 VA: 0x180A0B640
+	// RVA: 0xA0B900 Offset: 0xA09F00 VA: 0x180A0B900
 	private void StopTurnLoops() { }
 
-	// RVA: 0xA0BCB0 Offset: 0xA0A2B0 VA: 0x180A0BCB0
+	// RVA: 0xA0BF70 Offset: 0xA0A570 VA: 0x180A0BF70
 	public void .ctor() { }
 
 }

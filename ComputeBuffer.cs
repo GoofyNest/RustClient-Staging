@@ -7,42 +7,42 @@ public sealed class ComputeBuffer : IDisposable // TypeDefIndex: 3549
 
 	// Methods
 
-	// RVA: 0x1825910 Offset: 0x1823F10 VA: 0x181825910 Slot: 1
+	// RVA: 0x1825BD0 Offset: 0x18241D0 VA: 0x181825BD0 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x18256F0 Offset: 0x1823CF0 VA: 0x1818256F0 Slot: 4
+	// RVA: 0x18259B0 Offset: 0x1823FB0 VA: 0x1818259B0 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x1825790 Offset: 0x1823D90 VA: 0x181825790
+	// RVA: 0x1825A50 Offset: 0x1824050 VA: 0x181825A50
 	private void Dispose(bool disposing) { }
 
 	[FreeFunctionAttribute] // RVA: 0xC9780 Offset: 0xC8B80 VA: 0x1800C9780
-	// RVA: 0x1825BC0 Offset: 0x18241C0 VA: 0x181825BC0
+	// RVA: 0x1825E80 Offset: 0x1824480 VA: 0x181825E80
 	private static IntPtr InitBuffer(int count, int stride, ComputeBufferType type, ComputeBufferMode usage) { }
 
 	[FreeFunctionAttribute] // RVA: 0xC9830 Offset: 0xC8C30 VA: 0x1800C9830
-	// RVA: 0x18256B0 Offset: 0x1823CB0 VA: 0x1818256B0
+	// RVA: 0x1825970 Offset: 0x1823F70 VA: 0x181825970
 	private static void DestroyBuffer(ComputeBuffer buf) { }
 
-	// RVA: 0x1826300 Offset: 0x1824900 VA: 0x181826300
+	// RVA: 0x18265C0 Offset: 0x1824BC0 VA: 0x1818265C0
 	public void .ctor(int count, int stride) { }
 
-	// RVA: 0x1826330 Offset: 0x1824930 VA: 0x181826330
+	// RVA: 0x18265F0 Offset: 0x1824BF0 VA: 0x1818265F0
 	public void .ctor(int count, int stride, ComputeBufferType type) { }
 
-	// RVA: 0x18261F0 Offset: 0x18247F0 VA: 0x1818261F0
+	// RVA: 0x18264B0 Offset: 0x1824AB0 VA: 0x1818264B0
 	internal void .ctor(int count, int stride, ComputeBufferType type, ComputeBufferMode usage, int stackDepth) { }
 
-	// RVA: 0x18256F0 Offset: 0x1823CF0 VA: 0x1818256F0
+	// RVA: 0x18259B0 Offset: 0x1823FB0 VA: 0x1818259B0
 	public void Release() { }
 
-	// RVA: 0x1826360 Offset: 0x1824960 VA: 0x181826360
+	// RVA: 0x1826620 Offset: 0x1824C20 VA: 0x181826620
 	public int get_count() { }
 
-	// RVA: 0x1825D70 Offset: 0x1824370 VA: 0x181825D70
+	// RVA: 0x1826030 Offset: 0x1824630 VA: 0x181826030
 	public void SetData(Array data) { }
 
-	// RVA: 0x1825F50 Offset: 0x1824550 VA: 0x181825F50
+	// RVA: 0x1826210 Offset: 0x1824810 VA: 0x181826210
 	public void SetData(Array data, int managedBufferStartIndex, int computeBufferStartIndex, int count) { }
 
 	// RVA: -1 Offset: -1
@@ -57,24 +57,24 @@ public sealed class ComputeBuffer : IDisposable // TypeDefIndex: 3549
 	*/
 
 	[FreeFunctionAttribute] // RVA: 0xC9930 Offset: 0xC8D30 VA: 0x1800C9930
-	// RVA: 0x1825D00 Offset: 0x1824300 VA: 0x181825D00
+	// RVA: 0x1825FC0 Offset: 0x18245C0 VA: 0x181825FC0
 	private void InternalSetNativeData(IntPtr data, int nativeBufferStartIndex, int computeBufferStartIndex, int count, int elemSize) { }
 
 	[FreeFunctionAttribute] // RVA: 0xC9A10 Offset: 0xC8E10 VA: 0x1800C9A10
-	// RVA: 0x1825C90 Offset: 0x1824290 VA: 0x181825C90
+	// RVA: 0x1825F50 Offset: 0x1824550 VA: 0x181825F50
 	private void InternalSetData(Array data, int managedBufferStartIndex, int computeBufferStartIndex, int count, int elemSize) { }
 
-	// RVA: 0x18259A0 Offset: 0x1823FA0 VA: 0x1818259A0
+	// RVA: 0x1825C60 Offset: 0x1824260 VA: 0x181825C60
 	public void GetData(Array data) { }
 
 	[FreeFunctionAttribute] // RVA: 0xC9AA0 Offset: 0xC8EA0 VA: 0x1800C9AA0
-	// RVA: 0x1825C20 Offset: 0x1824220 VA: 0x181825C20
+	// RVA: 0x1825EE0 Offset: 0x18244E0 VA: 0x181825EE0
 	private void InternalGetData(Array data, int managedBufferStartIndex, int computeBufferStartIndex, int count, int elemSize) { }
 
-	// RVA: 0x1825650 Offset: 0x1823C50 VA: 0x181825650
+	// RVA: 0x1825910 Offset: 0x1823F10 VA: 0x181825910
 	public static void CopyCount(ComputeBuffer src, ComputeBuffer dst, int dstOffsetBytes) { }
 
-	// RVA: 0x1825B80 Offset: 0x1824180 VA: 0x181825B80
+	// RVA: 0x1825E40 Offset: 0x1824440 VA: 0x181825E40
 	public IntPtr GetNativeBufferPtr() { }
 
 }

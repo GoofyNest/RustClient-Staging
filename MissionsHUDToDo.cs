@@ -11,22 +11,22 @@ public class MissionsHUDToDo : BaseMonoBehaviour // TypeDefIndex: 11186
 
 	// Methods
 
-	// RVA: 0x7691F0 Offset: 0x7677F0 VA: 0x1807691F0
+	// RVA: 0x769300 Offset: 0x767900 VA: 0x180769300
 	public void MissionsUpdated() { }
 
-	// RVA: 0x769480 Offset: 0x767A80 VA: 0x180769480
+	// RVA: 0x769590 Offset: 0x767B90 VA: 0x180769590
 	internal void Unlock() { }
 
-	// RVA: 0x768ED0 Offset: 0x7674D0 VA: 0x180768ED0
+	// RVA: 0x768FE0 Offset: 0x7675E0 VA: 0x180768FE0
 	internal void Init(BaseMission.MissionObjectiveEntry missionObjective, int newIndex) { }
 
-	// RVA: 0x769440 Offset: 0x767A40 VA: 0x180769440
+	// RVA: 0x769550 Offset: 0x767B50 VA: 0x180769550
 	internal void Shutdown() { }
 
-	// RVA: 0x769760 Offset: 0x767D60 VA: 0x180769760
+	// RVA: 0x769870 Offset: 0x767E70 VA: 0x180769870
 	private void UpdateState() { }
 
-	// RVA: 0x769890 Offset: 0x767E90 VA: 0x180769890
+	// RVA: 0x7699A0 Offset: 0x767FA0 VA: 0x1807699A0
 	public void .ctor() { }
 
 }

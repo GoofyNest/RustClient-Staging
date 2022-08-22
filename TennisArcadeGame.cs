@@ -24,34 +24,34 @@ public class TennisArcadeGame : BaseArcadeGame // TypeDefIndex: 8775
 
 	// Methods
 
-	// RVA: 0x1135750 Offset: 0x1133D50 VA: 0x181135750 Slot: 6
+	// RVA: 0x1135A10 Offset: 0x1134010 VA: 0x181135A10 Slot: 6
 	public override void OnNoHost() { }
 
-	// RVA: 0x11354C0 Offset: 0x1133AC0 VA: 0x1811354C0
+	// RVA: 0x1135780 Offset: 0x1133D80 VA: 0x181135780
 	public void MainMenu() { }
 
-	// RVA: 0x1134EF0 Offset: 0x11334F0 VA: 0x181134EF0
+	// RVA: 0x11351B0 Offset: 0x11337B0 VA: 0x1811351B0
 	public void FixedUpdate() { }
 
-	// RVA: 0x1135D20 Offset: 0x1134320 VA: 0x181135D20
+	// RVA: 0x1135FE0 Offset: 0x11345E0 VA: 0x181135FE0
 	public void UpdateScoreNodes() { }
 
-	// RVA: 0x11353C0 Offset: 0x11339C0 VA: 0x1811353C0 Slot: 7
+	// RVA: 0x1135680 Offset: 0x1133C80 VA: 0x181135680 Slot: 7
 	public override void Initialize() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void PaddleInput(float amount, int paddleIndex) { }
 
-	// RVA: 0x11351D0 Offset: 0x11337D0 VA: 0x1811351D0
+	// RVA: 0x1135490 Offset: 0x1133A90 VA: 0x181135490
 	public void GameStart() { }
 
-	// RVA: 0x1135BA0 Offset: 0x11341A0 VA: 0x181135BA0
+	// RVA: 0x1135E60 Offset: 0x1134460 VA: 0x181135E60
 	public void RoundStart() { }
 
-	// RVA: 0x11357F0 Offset: 0x1133DF0 VA: 0x1811357F0 Slot: 9
+	// RVA: 0x1135AB0 Offset: 0x11340B0 VA: 0x181135AB0 Slot: 9
 	public override void PlayerInput(InputState inputState, BasePlayer player, int playerIndex = 0, bool clientside = False) { }
 
-	// RVA: 0x1135E40 Offset: 0x1134440 VA: 0x181135E40
+	// RVA: 0x1136100 Offset: 0x1134700 VA: 0x181136100
 	public void .ctor() { }
 
 }

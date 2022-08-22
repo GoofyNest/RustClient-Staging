@@ -7,19 +7,19 @@ public class TerrainBenchmarkScene : BenchmarkScene // TypeDefIndex: 8268
 
 	// Methods
 
-	// RVA: 0x1138A80 Offset: 0x1137080 VA: 0x181138A80
+	// RVA: 0x1138D40 Offset: 0x1137340 VA: 0x181138D40
 	private void Awake() { }
 
-	// RVA: 0x1138E50 Offset: 0x1137450 VA: 0x181138E50 Slot: 7
+	// RVA: 0x1139110 Offset: 0x1137710 VA: 0x181139110 Slot: 7
 	public override void StartBenchmark() { }
 
-	// RVA: 0x1138C50 Offset: 0x1137250 VA: 0x181138C50 Slot: 8
+	// RVA: 0x1138F10 Offset: 0x1137510 VA: 0x181138F10 Slot: 8
 	public override void BenchmarkUpdate() { }
 
-	// RVA: 0x1138DC0 Offset: 0x11373C0 VA: 0x181138DC0
+	// RVA: 0x1139080 Offset: 0x1137680 VA: 0x181139080
 	private void OnDrawGizmos() { }
 
-	// RVA: 0x1138F70 Offset: 0x1137570 VA: 0x181138F70
+	// RVA: 0x1139230 Offset: 0x1137830 VA: 0x181139230
 	public void .ctor() { }
 
 }

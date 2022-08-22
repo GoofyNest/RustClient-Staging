@@ -1,10 +1,10 @@
 public static class UnityButtons // TypeDefIndex: 8233
 {	// Fields
-	private static bool isRegistered; // 0x2B102F4
+	private static bool isRegistered; // 0x2B11334
 
 	// Methods
 
-	// RVA: 0x107A6A0 Offset: 0x1078CA0 VA: 0x18107A6A0
+	// RVA: 0x107A960 Offset: 0x1078F60 VA: 0x18107A960
 	public static void Register() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -23,7 +23,7 @@ private sealed class UnityButtons.<>c__DisplayClass1_0 // TypeDefIndex: 8234
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x107A3E0 Offset: 0x10789E0 VA: 0x18107A3E0
+	// RVA: 0x107A6A0 Offset: 0x1078CA0 VA: 0x18107A6A0
 	internal bool <Register>b__0() { }
 
 }
@@ -38,10 +38,10 @@ private sealed class UnityButtons.<>c__DisplayClass1_1 // TypeDefIndex: 8235
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x107A450 Offset: 0x1078A50 VA: 0x18107A450
+	// RVA: 0x107A710 Offset: 0x1078D10 VA: 0x18107A710
 	internal bool <Register>b__1() { }
 
-	// RVA: 0x107A490 Offset: 0x1078A90 VA: 0x18107A490
+	// RVA: 0x107A750 Offset: 0x1078D50 VA: 0x18107A750
 	internal void <Register>b__2() { }
 
 }
@@ -56,10 +56,10 @@ private sealed class UnityButtons.<>c__DisplayClass1_2 // TypeDefIndex: 8236
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x107A450 Offset: 0x1078A50 VA: 0x18107A450
+	// RVA: 0x107A710 Offset: 0x1078D10 VA: 0x18107A710
 	internal bool <Register>b__3() { }
 
-	// RVA: 0x107A530 Offset: 0x1078B30 VA: 0x18107A530
+	// RVA: 0x107A7F0 Offset: 0x1078DF0 VA: 0x18107A7F0
 	internal void <Register>b__4() { }
 
 }

@@ -45,16 +45,16 @@ public class ERSORoadExt : ScriptableObject // TypeDefIndex: 7229
 
 	// Methods
 
-	// RVA: 0xA5A1A0 Offset: 0xA587A0 VA: 0x180A5A1A0
+	// RVA: 0xA5A460 Offset: 0xA58A60 VA: 0x180A5A460
 	public void Init(SideObject so) { }
 
-	// RVA: 0xA5A0B0 Offset: 0xA586B0 VA: 0x180A5A0B0
+	// RVA: 0xA5A370 Offset: 0xA58970 VA: 0x180A5A370
 	public static ERSORoadExt CreateInstance(SideObject so) { }
 
-	// RVA: 0xA59FD0 Offset: 0xA585D0 VA: 0x180A59FD0
+	// RVA: 0xA5A290 Offset: 0xA58890 VA: 0x180A5A290
 	public static void Copy(ERSORoadExt source, ERSORoadExt target) { }
 
-	// RVA: 0xA5A260 Offset: 0xA58860 VA: 0x180A5A260
+	// RVA: 0xA5A520 Offset: 0xA58B20 VA: 0x180A5A520
 	public void .ctor() { }
 
 }

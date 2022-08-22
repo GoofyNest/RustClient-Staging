@@ -26,10 +26,10 @@ internal class ValidatingReaderNodeData // TypeDefIndex: 1870
 
 	// Methods
 
-	// RVA: 0xE50300 Offset: 0xE4E900 VA: 0x180E50300
+	// RVA: 0xE505C0 Offset: 0xE4EBC0 VA: 0x180E505C0
 	public void .ctor() { }
 
-	// RVA: 0xE502D0 Offset: 0xE4E8D0 VA: 0x180E502D0
+	// RVA: 0xE50590 Offset: 0xE4EB90 VA: 0x180E50590
 	public void .ctor(XmlNodeType nodeType) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
@@ -50,7 +50,7 @@ internal class ValidatingReaderNodeData // TypeDefIndex: 1870
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_Prefix(string value) { }
 
-	// RVA: 0xE50080 Offset: 0xE4E680 VA: 0x180E50080
+	// RVA: 0xE50340 Offset: 0xE4E940 VA: 0x180E50340
 	public string GetAtomizedNameWPrefix(XmlNameTable nameTable) { }
 
 	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
@@ -68,10 +68,10 @@ internal class ValidatingReaderNodeData // TypeDefIndex: 1870
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
 	public string get_OriginalStringValue() { }
 
-	// RVA: 0x8D8F00 Offset: 0x8D7500 VA: 0x1808D8F00
+	// RVA: 0x8D9010 Offset: 0x8D7610 VA: 0x1808D9010
 	public XmlNodeType get_NodeType() { }
 
-	// RVA: 0x8D8F40 Offset: 0x8D7540 VA: 0x1808D8F40
+	// RVA: 0x8D9050 Offset: 0x8D7650 VA: 0x1808D9050
 	public void set_NodeType(XmlNodeType value) { }
 
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
@@ -83,25 +83,25 @@ internal class ValidatingReaderNodeData // TypeDefIndex: 1870
 	// RVA: 0x5DE920 Offset: 0x5DCF20 VA: 0x1805DE920
 	public int get_LineNumber() { }
 
-	// RVA: 0xAE97E0 Offset: 0xAE7DE0 VA: 0x180AE97E0
+	// RVA: 0xAE9AA0 Offset: 0xAE80A0 VA: 0x180AE9AA0
 	public int get_LinePosition() { }
 
-	// RVA: 0xE4FFB0 Offset: 0xE4E5B0 VA: 0x180E4FFB0
+	// RVA: 0xE50270 Offset: 0xE4E870 VA: 0x180E50270
 	internal void Clear(XmlNodeType nodeType) { }
 
-	// RVA: 0xE50250 Offset: 0xE4E850 VA: 0x180E50250
+	// RVA: 0xE50510 Offset: 0xE4EB10 VA: 0x180E50510
 	internal void SetLineInfo(int lineNo, int linePos) { }
 
-	// RVA: 0xE50260 Offset: 0xE4E860 VA: 0x180E50260
+	// RVA: 0xE50520 Offset: 0xE4EB20 VA: 0x180E50520
 	internal void SetLineInfo(IXmlLineInfo lineInfo) { }
 
-	// RVA: 0xE501B0 Offset: 0xE4E7B0 VA: 0x180E501B0
+	// RVA: 0xE50470 Offset: 0xE4EA70 VA: 0x180E50470
 	internal void SetItemData(string localName, string prefix, string ns, int depth) { }
 
-	// RVA: 0xE50130 Offset: 0xE4E730 VA: 0x180E50130
+	// RVA: 0xE503F0 Offset: 0xE4E9F0 VA: 0x180E503F0
 	internal void SetItemData(string value) { }
 
-	// RVA: 0xE50170 Offset: 0xE4E770 VA: 0x180E50170
+	// RVA: 0xE50430 Offset: 0xE4EA30 VA: 0x180E50430
 	internal void SetItemData(string value, string originalStringValue) { }
 
 }

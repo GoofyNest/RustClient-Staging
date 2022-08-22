@@ -4,10 +4,10 @@ internal static class SerializationEventsCache // TypeDefIndex: 1055
 
 	// Methods
 
-	// RVA: 0x12A58C0 Offset: 0x12A3EC0 VA: 0x1812A58C0
+	// RVA: 0x12A5B80 Offset: 0x12A4180 VA: 0x1812A5B80
 	internal static SerializationEvents GetSerializationEventsForType(Type t) { }
 
-	// RVA: 0x12A5CA0 Offset: 0x12A42A0 VA: 0x1812A5CA0
+	// RVA: 0x12A5F60 Offset: 0x12A4560 VA: 0x1812A5F60
 	private static void .cctor() { }
 
 }

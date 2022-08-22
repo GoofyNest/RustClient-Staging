@@ -4,10 +4,10 @@ public class IronsightAimPoint : MonoBehaviour // TypeDefIndex: 11441
 
 	// Methods
 
-	// RVA: 0xA254A0 Offset: 0xA23AA0 VA: 0x180A254A0
+	// RVA: 0xA25760 Offset: 0xA23D60 VA: 0x180A25760
 	private void OnDrawGizmos() { }
 
-	// RVA: 0xA24FE0 Offset: 0xA235E0 VA: 0x180A24FE0
+	// RVA: 0xA252A0 Offset: 0xA238A0 VA: 0x180A252A0
 	private void DrawArrow(Vector3 start, Vector3 end, float arrowLength) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

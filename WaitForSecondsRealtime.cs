@@ -12,17 +12,17 @@ public class WaitForSecondsRealtime : CustomYieldInstruction // TypeDefIndex: 35
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA10E10 Offset: 0xA0F410 VA: 0x180A10E10
+	// RVA: 0xA110D0 Offset: 0xA0F6D0 VA: 0x180A110D0
 	public float get_waitTime() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA10E30 Offset: 0xA0F430 VA: 0x180A10E30
+	// RVA: 0xA110F0 Offset: 0xA0F6F0 VA: 0x180A110F0
 	public void set_waitTime(float value) { }
 
-	// RVA: 0x21868D0 Offset: 0x2184ED0 VA: 0x1821868D0 Slot: 7
+	// RVA: 0x2186B90 Offset: 0x2185190 VA: 0x182186B90 Slot: 7
 	public override bool get_keepWaiting() { }
 
-	// RVA: 0x21868A0 Offset: 0x2184EA0 VA: 0x1821868A0
+	// RVA: 0x2186B60 Offset: 0x2185160 VA: 0x182186B60
 	public void .ctor(float time) { }
 
 }

@@ -7,10 +7,10 @@ public class ToolgunBeam : MonoBehaviour // TypeDefIndex: 8900
 
 	// Methods
 
-	// RVA: 0xA08420 Offset: 0xA06A20 VA: 0x180A08420
+	// RVA: 0xA086E0 Offset: 0xA06CE0 VA: 0x180A086E0
 	public void Update() { }
 
-	// RVA: 0xA08570 Offset: 0xA06B70 VA: 0x180A08570
+	// RVA: 0xA08830 Offset: 0xA06E30 VA: 0x180A08830
 	public void .ctor() { }
 
 }

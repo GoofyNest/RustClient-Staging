@@ -33,13 +33,13 @@ public class ExcavatorArm : BaseEntity // TypeDefIndex: 8390
 
 	// Methods
 
-	// RVA: 0x8CC240 Offset: 0x8CA840 VA: 0x1808CC240 Slot: 49
+	// RVA: 0x8CC350 Offset: 0x8CA950 VA: 0x1808CC350 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x8CDB00 Offset: 0x8CC100 VA: 0x1808CDB00 Slot: 50
+	// RVA: 0x8CDC10 Offset: 0x8CC210 VA: 0x1808CDC10 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x8CD3B0 Offset: 0x8CB9B0 VA: 0x1808CD3B0 Slot: 35
+	// RVA: 0x8CD4C0 Offset: 0x8CBAC0 VA: 0x1808CD4C0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	// RVA: 0x557C60 Offset: 0x556260 VA: 0x180557C60
@@ -51,59 +51,59 @@ public class ExcavatorArm : BaseEntity // TypeDefIndex: 8390
 	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 52
 	public override float GetExtrapolationTime() { }
 
-	// RVA: 0x8CD550 Offset: 0x8CBB50 VA: 0x1808CD550 Slot: 16
+	// RVA: 0x8CD660 Offset: 0x8CBC60 VA: 0x1808CD660 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0x8CD640 Offset: 0x8CBC40 VA: 0x1808CD640
+	// RVA: 0x8CD750 Offset: 0x8CBD50 VA: 0x1808CD750
 	public void SetLightStatus(bool wantsOn) { }
 
-	// RVA: 0x8CD680 Offset: 0x8CBC80 VA: 0x1808CD680
+	// RVA: 0x8CD790 Offset: 0x8CBD90 VA: 0x1808CD790
 	public void Update() { }
 
 	[BaseEntity.Menu] // RVA: 0xDEF90 Offset: 0xDE390 VA: 0x1800DEF90
 	[BaseEntity.Menu.Description] // RVA: 0xDEF90 Offset: 0xDE390 VA: 0x1800DEF90
 	[BaseEntity.Menu.Icon] // RVA: 0xDEF90 Offset: 0xDE390 VA: 0x1800DEF90
 	[BaseEntity.Menu.ShowIf] // RVA: 0xDEF90 Offset: 0xDE390 VA: 0x1800DEF90
-	// RVA: 0x8CCCB0 Offset: 0x8CB2B0 VA: 0x1808CCCB0
+	// RVA: 0x8CCDC0 Offset: 0x8CB3C0 VA: 0x1808CCDC0
 	public void Menu_TargetHQM(BasePlayer player) { }
 
-	// RVA: 0x8CCBF0 Offset: 0x8CB1F0 VA: 0x1808CCBF0
+	// RVA: 0x8CCD00 Offset: 0x8CB300 VA: 0x1808CCD00
 	public bool Menu_TargetHQM_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xDF1B0 Offset: 0xDE5B0 VA: 0x1800DF1B0
 	[BaseEntity.Menu.Description] // RVA: 0xDF1B0 Offset: 0xDE5B0 VA: 0x1800DF1B0
 	[BaseEntity.Menu.Icon] // RVA: 0xDF1B0 Offset: 0xDE5B0 VA: 0x1800DF1B0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xDF1B0 Offset: 0xDE5B0 VA: 0x1800DF1B0
-	// RVA: 0x8CD280 Offset: 0x8CB880 VA: 0x1808CD280
+	// RVA: 0x8CD390 Offset: 0x8CB990 VA: 0x1808CD390
 	public void Menu_TargetSulfur(BasePlayer player) { }
 
-	// RVA: 0x8CD1C0 Offset: 0x8CB7C0 VA: 0x1808CD1C0
+	// RVA: 0x8CD2D0 Offset: 0x8CB8D0 VA: 0x1808CD2D0
 	public bool Menu_TargetSulfur_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
 	[BaseEntity.Menu.Description] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
 	[BaseEntity.Menu.Icon] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
-	// RVA: 0x8CD090 Offset: 0x8CB690 VA: 0x1808CD090
+	// RVA: 0x8CD1A0 Offset: 0x8CB7A0 VA: 0x1808CD1A0
 	public void Menu_TargetStone(BasePlayer player) { }
 
-	// RVA: 0x8CCFD0 Offset: 0x8CB5D0 VA: 0x1808CCFD0
+	// RVA: 0x8CD0E0 Offset: 0x8CB6E0 VA: 0x1808CD0E0
 	public bool Menu_TargetStone_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
 	[BaseEntity.Menu.Description] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
 	[BaseEntity.Menu.Icon] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
-	// RVA: 0x8CCEA0 Offset: 0x8CB4A0 VA: 0x1808CCEA0
+	// RVA: 0x8CCFB0 Offset: 0x8CB5B0 VA: 0x1808CCFB0
 	public void Menu_TargetMetal(BasePlayer player) { }
 
-	// RVA: 0x8CCDE0 Offset: 0x8CB3E0 VA: 0x1808CCDE0
+	// RVA: 0x8CCEF0 Offset: 0x8CB4F0 VA: 0x1808CCEF0
 	public bool Menu_TargetMetal_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x8CD4A0 Offset: 0x8CBAA0 VA: 0x1808CD4A0
+	// RVA: 0x8CD5B0 Offset: 0x8CBBB0 VA: 0x1808CD5B0
 	private void PlayMiningStartButtonSound(Vector3 position) { }
 
-	// RVA: 0x8CDA70 Offset: 0x8CC070 VA: 0x1808CDA70
+	// RVA: 0x8CDB80 Offset: 0x8CC180 VA: 0x1808CDB80
 	public void .ctor() { }
 
 }

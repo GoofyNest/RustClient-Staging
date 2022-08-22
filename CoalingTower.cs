@@ -9,82 +9,82 @@ public class CoalingTower : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 	// Methods
 
-	// RVA: 0x20AD9D0 Offset: 0x20ABFD0 VA: 0x1820AD9D0
+	// RVA: 0x20ADC90 Offset: 0x20AC290 VA: 0x1820ADC90
 	public static void ResetToPool(CoalingTower instance) { }
 
-	// RVA: 0x20AD930 Offset: 0x20ABF30 VA: 0x1820AD930
+	// RVA: 0x20ADBF0 Offset: 0x20AC1F0 VA: 0x1820ADBF0
 	public void ResetToPool() { }
 
-	// RVA: 0x20AD5E0 Offset: 0x20ABBE0 VA: 0x1820AD5E0 Slot: 9
+	// RVA: 0x20AD8A0 Offset: 0x20ABEA0 VA: 0x1820AD8A0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1C07020 Offset: 0x1C05620 VA: 0x181C07020
+	// RVA: 0x1C072E0 Offset: 0x1C058E0 VA: 0x181C072E0
 	public void CopyTo(CoalingTower instance) { }
 
-	// RVA: 0x20AC450 Offset: 0x20AAA50 VA: 0x1820AC450
+	// RVA: 0x20AC710 Offset: 0x20AAD10 VA: 0x1820AC710
 	public CoalingTower Copy() { }
 
-	// RVA: 0x20AD390 Offset: 0x20AB990 VA: 0x1820AD390
+	// RVA: 0x20AD650 Offset: 0x20ABC50 VA: 0x1820AD650
 	public static CoalingTower Deserialize(Stream stream) { }
 
-	// RVA: 0x20AC4D0 Offset: 0x20AAAD0 VA: 0x1820AC4D0
+	// RVA: 0x20AC790 Offset: 0x20AAD90 VA: 0x1820AC790
 	public static CoalingTower DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20ACAF0 Offset: 0x20AB0F0 VA: 0x1820ACAF0
+	// RVA: 0x20ACDB0 Offset: 0x20AB3B0 VA: 0x1820ACDB0
 	public static CoalingTower DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20ACD90 Offset: 0x20AB390 VA: 0x1820ACD90
+	// RVA: 0x20AD050 Offset: 0x20AB650 VA: 0x1820AD050
 	public static CoalingTower Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20AD700 Offset: 0x20ABD00 VA: 0x1820AD700
+	// RVA: 0x20AD9C0 Offset: 0x20ABFC0 VA: 0x1820AD9C0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20ADFA0 Offset: 0x20AC5A0 VA: 0x1820ADFA0 Slot: 12
+	// RVA: 0x20AE260 Offset: 0x20AC860 VA: 0x1820AE260 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20ADFC0 Offset: 0x20AC5C0 VA: 0x1820ADFC0 Slot: 13
+	// RVA: 0x20AE280 Offset: 0x20AC880 VA: 0x1820AE280 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, CoalingTower previous) { }
 
-	// RVA: 0x20AD910 Offset: 0x20ABF10 VA: 0x1820AD910 Slot: 14
+	// RVA: 0x20ADBD0 Offset: 0x20AC1D0 VA: 0x1820ADBD0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20AD0A0 Offset: 0x20AB6A0 VA: 0x1820AD0A0
+	// RVA: 0x20AD360 Offset: 0x20AB960 VA: 0x1820AD360
 	public static CoalingTower Deserialize(byte[] buffer, CoalingTower instance, bool isDelta = False) { }
 
-	// RVA: 0x20ACB80 Offset: 0x20AB180 VA: 0x1820ACB80
+	// RVA: 0x20ACE40 Offset: 0x20AB440 VA: 0x1820ACE40
 	public static CoalingTower Deserialize(Stream stream, CoalingTower instance, bool isDelta) { }
 
-	// RVA: 0x20AC550 Offset: 0x20AAB50 VA: 0x1820AC550
+	// RVA: 0x20AC810 Offset: 0x20AAE10 VA: 0x1820AC810
 	public static CoalingTower DeserializeLengthDelimited(Stream stream, CoalingTower instance, bool isDelta) { }
 
-	// RVA: 0x20AC830 Offset: 0x20AAE30 VA: 0x1820AC830
+	// RVA: 0x20ACAF0 Offset: 0x20AB0F0 VA: 0x1820ACAF0
 	public static CoalingTower DeserializeLength(Stream stream, int length, CoalingTower instance, bool isDelta) { }
 
-	// RVA: 0x20ADA70 Offset: 0x20AC070 VA: 0x1820ADA70
+	// RVA: 0x20ADD30 Offset: 0x20AC330 VA: 0x1820ADD30
 	public static void SerializeDelta(Stream stream, CoalingTower instance, CoalingTower previous) { }
 
-	// RVA: 0x20ADE40 Offset: 0x20AC440 VA: 0x1820ADE40
+	// RVA: 0x20AE100 Offset: 0x20AC700 VA: 0x1820AE100
 	public static void Serialize(Stream stream, CoalingTower instance) { }
 
-	// RVA: 0x20ADF90 Offset: 0x20AC590 VA: 0x1820ADF90
+	// RVA: 0x20AE250 Offset: 0x20AC850 VA: 0x1820AE250
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20ADFA0 Offset: 0x20AC5A0 VA: 0x1820ADFA0
+	// RVA: 0x20AE260 Offset: 0x20AC860 VA: 0x1820AE260
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20ADD30 Offset: 0x20AC330 VA: 0x1820ADD30
+	// RVA: 0x20ADFF0 Offset: 0x20AC5F0 VA: 0x1820ADFF0
 	public static byte[] SerializeToBytes(CoalingTower instance) { }
 
-	// RVA: 0x20ADC80 Offset: 0x20AC280 VA: 0x1820ADC80
+	// RVA: 0x20ADF40 Offset: 0x20AC540 VA: 0x1820ADF40
 	public static void SerializeLengthDelimited(Stream stream, CoalingTower instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

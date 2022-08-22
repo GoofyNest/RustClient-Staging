@@ -9,28 +9,28 @@ public class DeferredDecalRenderer : BaseCommandBuffer // TypeDefIndex: 10650
 
 	// Methods
 
-	// RVA: 0x844C90 Offset: 0x843290 VA: 0x180844C90
+	// RVA: 0x844DA0 Offset: 0x8433A0 VA: 0x180844DA0
 	private void RefreshCommandBuffer(Camera camera) { }
 
-	// RVA: 0x8449D0 Offset: 0x842FD0 VA: 0x1808449D0
+	// RVA: 0x844AE0 Offset: 0x8430E0 VA: 0x180844AE0
 	private void Clear(ListDictionary<InstancingKey, InstancingBuffer> dict) { }
 
-	// RVA: 0x8443C0 Offset: 0x8429C0 VA: 0x1808443C0
+	// RVA: 0x8444D0 Offset: 0x842AD0 VA: 0x1808444D0
 	private void Apply(CommandBuffer buf, RenderTargetIdentifier[] target, int pass, ListDictionary<InstancingKey, ListHashSet<DeferredDecal>> src, ListDictionary<InstancingKey, InstancingBuffer> dst, MaterialPropertyBlock block) { }
 
-	// RVA: 0x8446B0 Offset: 0x842CB0 VA: 0x1808446B0
+	// RVA: 0x8447C0 Offset: 0x842DC0 VA: 0x1808447C0
 	private void Apply(CommandBuffer buf, RenderTargetIdentifier[] target, int pass, ListHashSet<DeferredDecal> src, InstancingBuffer dst, MaterialPropertyBlock block) { }
 
-	// RVA: 0x844A70 Offset: 0x843070 VA: 0x180844A70
+	// RVA: 0x844B80 Offset: 0x843180 VA: 0x180844B80
 	private InstancingBuffer GetBuffer(ListDictionary<InstancingKey, InstancingBuffer> dict, InstancingKey key) { }
 
-	// RVA: 0x844BA0 Offset: 0x8431A0 VA: 0x180844BA0
+	// RVA: 0x844CB0 Offset: 0x8432B0 VA: 0x180844CB0
 	protected void OnPreRender() { }
 
-	// RVA: 0x8459C0 Offset: 0x843FC0 VA: 0x1808459C0
+	// RVA: 0x845AD0 Offset: 0x8440D0 VA: 0x180845AD0
 	public void .ctor() { }
 
-	// RVA: 0x8453E0 Offset: 0x8439E0 VA: 0x1808453E0
+	// RVA: 0x8454F0 Offset: 0x843AF0 VA: 0x1808454F0
 	private static void .cctor() { }
 
 }

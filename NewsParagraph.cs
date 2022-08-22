@@ -5,7 +5,7 @@ public class NewsParagraph : MonoBehaviour, IPointerClickHandler, IEventSystemHa
 
 	// Methods
 
-	// RVA: 0x9D1010 Offset: 0x9CF610 VA: 0x1809D1010 Slot: 4
+	// RVA: 0x9D12D0 Offset: 0x9CF8D0 VA: 0x1809D12D0 Slot: 4
 	public void OnPointerClick(PointerEventData eventData) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

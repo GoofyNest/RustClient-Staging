@@ -18,100 +18,100 @@ public class QDQDOOQQOOQDD : MonoBehaviour // TypeDefIndex: 7280
 
 	// Methods
 
-	// RVA: 0xB67ED0 Offset: 0xB664D0 VA: 0x180B67ED0
+	// RVA: 0xB68190 Offset: 0xB66790 VA: 0x180B68190
 	public static void ODDCCODOOC(ERModularBase scr, Terrain terrain) { }
 
-	// RVA: 0xB663E0 Offset: 0xB649E0 VA: 0x180B663E0
+	// RVA: 0xB666A0 Offset: 0xB64CA0 VA: 0x180B666A0
 	public static void ODCQDDOQCD(ERModularBase scr, ERTerrain terrainScr, Terrain terrain, float m_minx, float m_maxx, float m_minz, float m_maxz) { }
 
-	// RVA: 0xB6CBC0 Offset: 0xB6B1C0 VA: 0x180B6CBC0
+	// RVA: 0xB6CE80 Offset: 0xB6B480 VA: 0x180B6CE80
 	public static void OOCQDQCDOD(int triangleIndex, Collider collider, Vector3 hitPos, ref float perc, ref bool critical, ref float outerHeight, ref Vector3 outerPoint, RaycastHit hit) { }
 
-	// RVA: 0xB63360 Offset: 0xB61960 VA: 0x180B63360
+	// RVA: 0xB63620 Offset: 0xB61C20 VA: 0x180B63620
 	public static void GetHitPointInfoOld(int triangleIndex, Collider collider, Vector3 hitPos, ref float perc, ref bool critical, ref float outerHeight, ref Vector3 outerPoint) { }
 
-	// RVA: 0xB70470 Offset: 0xB6EA70 VA: 0x180B70470
+	// RVA: 0xB70730 Offset: 0xB6ED30 VA: 0x180B70730
 	public static void OQOQCCCODC(ERModularBase scr, ref float minx, ref float minz, ref float maxx, ref float maxz, float splatmapScale) { }
 
-	// RVA: 0xB696E0 Offset: 0xB67CE0 VA: 0x180B696E0
+	// RVA: 0xB699A0 Offset: 0xB67FA0 VA: 0x180B699A0
 	public static void ODQODCQQCQ(ERModularBase scr, ERTerrain terrainScr, Terrain terrain, float minx, float maxx, float minz, float maxz) { }
 
-	// RVA: 0xB6C4A0 Offset: 0xB6AAA0 VA: 0x180B6C4A0
+	// RVA: 0xB6C760 Offset: 0xB6AD60 VA: 0x180B6C760
 	public static void OOCDDQCCDD(ERModularBase scr, ERTerrain terrainScr, Terrain terrain, float minx, float maxx, float minz, float maxz) { }
 
-	// RVA: 0xB6A280 Offset: 0xB68880 VA: 0x180B6A280
+	// RVA: 0xB6A540 Offset: 0xB68B40 VA: 0x180B6A540
 	public static void OOCDDOOCQC(ERModularBase scr, ERTerrain terrainScr, Terrain terrain, float minx, float maxx, float minz, float maxz) { }
 
-	// RVA: 0xB63E40 Offset: 0xB62440 VA: 0x180B63E40
+	// RVA: 0xB64100 Offset: 0xB62700 VA: 0x180B64100
 	public static void OCCDDODDDD(ref bool[,] holes, float[,] heights, float height, ref List<ERCell> terrainScrHoles, Vector3 lp, Vector3 rp, Vector3 terrainPos, float stepx, float stepy, float tHeight, float size) { }
 
-	// RVA: 0xB69FA0 Offset: 0xB685A0 VA: 0x180B69FA0
+	// RVA: 0xB6A260 Offset: 0xB68860 VA: 0x180B6A260
 	public static bool ODQODDQCCD(float[,] heights, float height, int x, int y, float rHeight, float tHeight, float size, float terrainY) { }
 
-	// RVA: 0xB68DE0 Offset: 0xB673E0 VA: 0x180B68DE0
+	// RVA: 0xB690A0 Offset: 0xB676A0 VA: 0x180B690A0
 	public static void ODQCOCOQQD(ERModularBase scr, ERTerrain terrainScr, Terrain terrain, float minx, float maxx, float minz, float maxz) { }
 
-	// RVA: 0xB64960 Offset: 0xB62F60 VA: 0x180B64960
+	// RVA: 0xB64C20 Offset: 0xB63220 VA: 0x180B64C20
 	public static float[,,] OCCODCQOCO(List<ERSplatmap> mapData, float[,,] trmap, int layers) { }
 
-	// RVA: 0xB68330 Offset: 0xB66930 VA: 0x180B68330
+	// RVA: 0xB685F0 Offset: 0xB66BF0 VA: 0x180B685F0
 	public static void ODODDDDCOQ(ERModularBase scr, ERTerrain terrainScr, Terrain terrain) { }
 
-	// RVA: 0xB72EF0 Offset: 0xB714F0 VA: 0x180B72EF0
+	// RVA: 0xB731B0 Offset: 0xB717B0 VA: 0x180B731B0
 	public static void OQQOQOQQQC(ERTerrain terrainScr, Terrain terrain) { }
 
-	// RVA: 0xB65A30 Offset: 0xB64030 VA: 0x180B65A30
+	// RVA: 0xB65CF0 Offset: 0xB642F0 VA: 0x180B65CF0
 	public static void ODCOOQCCCD(ERTerrain terrainScr, Terrain terrain) { }
 
-	// RVA: 0xB6E200 Offset: 0xB6C800 VA: 0x180B6E200
+	// RVA: 0xB6E4C0 Offset: 0xB6CAC0 VA: 0x180B6E4C0
 	public static void OOQDOQDCOO(TerrainData terrainInfo, int layer, List<tPoint> points) { }
 
-	// RVA: 0xB6FD80 Offset: 0xB6E380 VA: 0x180B6FD80
+	// RVA: 0xB70040 Offset: 0xB6E640 VA: 0x180B70040
 	public static List<tPoint> OQODQCQCCQ(ERModularBase scr, Terrain terrain, TerrainData terrainInfo, float minx, float maxx, float minz, float maxz) { }
 
-	// RVA: 0xB6FB50 Offset: 0xB6E150 VA: 0x180B6FB50
+	// RVA: 0xB6FE10 Offset: 0xB6E410 VA: 0x180B6FE10
 	public static void OQCQDDOOCQ(ERTerrain tr, Terrain terrain) { }
 
-	// RVA: 0xB6DCA0 Offset: 0xB6C2A0 VA: 0x180B6DCA0
+	// RVA: 0xB6DF60 Offset: 0xB6C560 VA: 0x180B6DF60
 	public static void OOODOOOQCC(ERTerrain tr, Terrain terrain, float perc) { }
 
-	// RVA: 0xB6D700 Offset: 0xB6BD00 VA: 0x180B6D700
+	// RVA: 0xB6D9C0 Offset: 0xB6BFC0 VA: 0x180B6D9C0
 	public static void OOOCCDQODO(GameObject go, int x, int y, ref List<ERSplatmap> instances, float[,,] trmap, int layers, Vector2 uvy) { }
 
-	// RVA: 0xB6EC20 Offset: 0xB6D220 VA: 0x180B6EC20
+	// RVA: 0xB6EEE0 Offset: 0xB6D4E0 VA: 0x180B6EEE0
 	public static void OOQQQQDCCO(ERModularBase baseScript, ERModularRoad scr) { }
 
-	// RVA: 0xB62EC0 Offset: 0xB614C0 VA: 0x180B62EC0
+	// RVA: 0xB63180 Offset: 0xB61780 VA: 0x180B63180
 	public static GameObject CreateMesh(Transform parent, List<Vector3> vecs, List<int> tris, int layer, ERModularRoad scr, string name) { }
 
-	// RVA: 0xB65710 Offset: 0xB63D10 VA: 0x180B65710
+	// RVA: 0xB659D0 Offset: 0xB63FD0 VA: 0x180B659D0
 	public static void OCCQODOQDD(ERTerrain terrain, string folder) { }
 
-	// RVA: 0xB6F960 Offset: 0xB6DF60 VA: 0x180B6F960
+	// RVA: 0xB6FC20 Offset: 0xB6E220 VA: 0x180B6FC20
 	public static void OQCOQDDCCC(ERTerrain terrain, string folder) { }
 
-	// RVA: 0xB6E980 Offset: 0xB6CF80 VA: 0x180B6E980
+	// RVA: 0xB6EC40 Offset: 0xB6D240 VA: 0x180B6EC40
 	public static void OOQQOOOQOO(ERTerrain terrain, string folder) { }
 
-	// RVA: 0xB65CB0 Offset: 0xB642B0 VA: 0x180B65CB0
+	// RVA: 0xB65F70 Offset: 0xB64570 VA: 0x180B65F70
 	public static void ODCOQQQCCO(ERTerrain terrain, string folder) { }
 
-	// RVA: 0xB65480 Offset: 0xB63A80 VA: 0x180B65480
+	// RVA: 0xB65740 Offset: 0xB63D40 VA: 0x180B65740
 	public static void OCCOODODOQ(ERTerrain terrain, string folder) { }
 
-	// RVA: 0xB64730 Offset: 0xB62D30 VA: 0x180B64730
+	// RVA: 0xB649F0 Offset: 0xB62FF0 VA: 0x180B649F0
 	public static void OCCDQQCODQ(ERTerrain terrain, string folder) { }
 
-	// RVA: 0xB6DF90 Offset: 0xB6C590 VA: 0x180B6DF90
+	// RVA: 0xB6E250 Offset: 0xB6C850 VA: 0x180B6E250
 	public static void OOOOCQCDQQ(ERTerrain terrain, string folder) { }
 
-	// RVA: 0xB6E3B0 Offset: 0xB6C9B0 VA: 0x180B6E3B0
+	// RVA: 0xB6E670 Offset: 0xB6CC70 VA: 0x180B6E670
 	public static void OOQOCCCCDD(ERTerrain terrain, string folder) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0xB730D0 Offset: 0xB716D0 VA: 0x180B730D0
+	// RVA: 0xB73390 Offset: 0xB71990 VA: 0x180B73390
 	private static void .cctor() { }
 
 }

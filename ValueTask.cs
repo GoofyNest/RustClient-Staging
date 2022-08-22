@@ -14,7 +14,7 @@ public struct ValueTask : IEquatable<ValueTask> // TypeDefIndex: 7085
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2313400 Offset: 0x2311A00 VA: 0x182313400
+	// RVA: 0x23136C0 Offset: 0x2311CC0 VA: 0x1823136C0
 	internal static Task get_CompletedTask() { }
 
 	// RVA: 0x240A20 Offset: 0x23FE20 VA: 0x180240A20
@@ -39,7 +39,7 @@ public struct ValueTask : IEquatable<ValueTask> // TypeDefIndex: 7085
 	// RVA: 0x2409F0 Offset: 0x23FDF0 VA: 0x1802409F0
 	public ValueTaskAwaiter GetAwaiter() { }
 
-	// RVA: 0x2313350 Offset: 0x2311950 VA: 0x182313350
+	// RVA: 0x2313610 Offset: 0x2311C10 VA: 0x182313610
 	private static void .cctor() { }
 
 }

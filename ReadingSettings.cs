@@ -56,19 +56,19 @@ public class ReadingSettings // TypeDefIndex: 7601
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public UnexpectedTrackChunksCountPolicy get_UnexpectedTrackChunksCountPolicy() { }
 
-	// RVA: 0xA10E00 Offset: 0xA0F400 VA: 0x180A10E00
+	// RVA: 0xA110C0 Offset: 0xA0F6C0 VA: 0x180A110C0
 	public ExtraTrackChunkPolicy get_ExtraTrackChunkPolicy() { }
 
-	// RVA: 0x13A53D0 Offset: 0x13A39D0 VA: 0x1813A53D0
+	// RVA: 0x13A5690 Offset: 0x13A3C90 VA: 0x1813A5690
 	public UnknownChunkIdPolicy get_UnknownChunkIdPolicy() { }
 
-	// RVA: 0x13A53B0 Offset: 0x13A39B0 VA: 0x1813A53B0
+	// RVA: 0x13A5670 Offset: 0x13A3C70 VA: 0x1813A5670
 	public MissedEndOfTrackPolicy get_MissedEndOfTrackPolicy() { }
 
-	// RVA: 0x13A53C0 Offset: 0x13A39C0 VA: 0x1813A53C0
+	// RVA: 0x13A5680 Offset: 0x13A3C80 VA: 0x1813A5680
 	public SilentNoteOnPolicy get_SilentNoteOnPolicy() { }
 
-	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
+	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
 	public InvalidChunkSizePolicy get_InvalidChunkSizePolicy() { }
 
 	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
@@ -81,7 +81,7 @@ public class ReadingSettings // TypeDefIndex: 7601
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
 	public UnknownChannelEventCallback get_UnknownChannelEventCallback() { }
 
-	// RVA: 0x774690 Offset: 0x772C90 VA: 0x180774690
+	// RVA: 0x7747A0 Offset: 0x772DA0 VA: 0x1807747A0
 	public InvalidChannelEventParameterValuePolicy get_InvalidChannelEventParameterValuePolicy() { }
 
 	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
@@ -90,7 +90,7 @@ public class ReadingSettings // TypeDefIndex: 7601
 	// RVA: 0x5DE3B0 Offset: 0x5DC9B0 VA: 0x1805DE3B0
 	public InvalidSystemCommonEventParameterValuePolicy get_InvalidSystemCommonEventParameterValuePolicy() { }
 
-	// RVA: 0xA38CE0 Offset: 0xA372E0 VA: 0x180A38CE0
+	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
 	public NotEnoughBytesPolicy get_NotEnoughBytesPolicy() { }
 
 	// RVA: 0x5E2F40 Offset: 0x5E1540 VA: 0x1805E2F40
@@ -112,7 +112,7 @@ public class ReadingSettings // TypeDefIndex: 7601
 	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
 	public DecodeTextCallback get_DecodeTextCallback() { }
 
-	// RVA: 0x6BB940 Offset: 0x6B9F40 VA: 0x1806BB940
+	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50
 	public ZeroLengthDataPolicy get_ZeroLengthDataPolicy() { }
 
 	// RVA: 0x5E2F50 Offset: 0x5E1550 VA: 0x1805E2F50
@@ -126,7 +126,7 @@ public class ReadingSettings // TypeDefIndex: 7601
 	// RVA: 0x519E50 Offset: 0x518450 VA: 0x180519E50
 	public void set_ReaderSettings(ReaderSettings value) { }
 
-	// RVA: 0x13A5310 Offset: 0x13A3910 VA: 0x1813A5310
+	// RVA: 0x13A55D0 Offset: 0x13A3BD0 VA: 0x1813A55D0
 	public void .ctor() { }
 
 }

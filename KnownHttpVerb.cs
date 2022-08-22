@@ -15,13 +15,13 @@ internal class KnownHttpVerb // TypeDefIndex: 2892
 
 	// Methods
 
-	// RVA: 0x13454A0 Offset: 0x1343AA0 VA: 0x1813454A0
+	// RVA: 0x1345760 Offset: 0x1343D60 VA: 0x181345760
 	internal void .ctor(string name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse) { }
 
-	// RVA: 0x13450E0 Offset: 0x13436E0 VA: 0x1813450E0
+	// RVA: 0x13453A0 Offset: 0x13439A0 VA: 0x1813453A0
 	private static void .cctor() { }
 
-	// RVA: 0x1344FF0 Offset: 0x13435F0 VA: 0x181344FF0
+	// RVA: 0x13452B0 Offset: 0x13438B0 VA: 0x1813452B0
 	public static KnownHttpVerb Parse(string name) { }
 
 }

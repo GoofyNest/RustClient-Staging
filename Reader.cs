@@ -31,11 +31,11 @@ public class Reader // TypeDefIndex: 6649
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22CB010 Offset: 0x22C9610 VA: 0x1822CB010
+	// RVA: 0x22CB2D0 Offset: 0x22C98D0 VA: 0x1822CB2D0
 	public static Reader get_Active() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22CB0B0 Offset: 0x22C96B0 VA: 0x1822CB0B0
+	// RVA: 0x22CB370 Offset: 0x22C9970 VA: 0x1822CB370
 	internal static void set_Active(Reader value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -47,11 +47,11 @@ public class Reader // TypeDefIndex: 6649
 	private void set_Name(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public long get_CurrentTime() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE72CC0 Offset: 0xE712C0 VA: 0x180E72CC0
+	// RVA: 0xE72F80 Offset: 0xE71580 VA: 0x180E72F80
 	private void set_CurrentTime(long value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -67,7 +67,7 @@ public class Reader // TypeDefIndex: 6649
 	public DemoHeader get_Header() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	private void set_Header(DemoHeader value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -75,54 +75,54 @@ public class Reader // TypeDefIndex: 6649
 	private long get_startPosition() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEE6420 Offset: 0xEE4A20 VA: 0x180EE6420
+	// RVA: 0xEE66E0 Offset: 0xEE4CE0 VA: 0x180EE66E0
 	private void set_startPosition(long value) { }
 
 	// RVA: 0x5DE2D0 Offset: 0x5DC8D0 VA: 0x1805DE2D0
 	public void Play() { }
 
-	// RVA: 0x22CA840 Offset: 0x22C8E40 VA: 0x1822CA840
+	// RVA: 0x22CAB00 Offset: 0x22C9100 VA: 0x1822CAB00
 	public void Pause() { }
 
-	// RVA: 0x22CAD40 Offset: 0x22C9340 VA: 0x1822CAD40
+	// RVA: 0x22CB000 Offset: 0x22C9600 VA: 0x1822CB000
 	public void .ctor(string name, Stream stream) { }
 
-	// RVA: 0x22CAC20 Offset: 0x22C9220 VA: 0x1822CAC20
+	// RVA: 0x22CAEE0 Offset: 0x22C94E0 VA: 0x1822CAEE0
 	public void SetActive() { }
 
-	// RVA: 0x22CA560 Offset: 0x22C8B60 VA: 0x1822CA560
+	// RVA: 0x22CA820 Offset: 0x22C8E20 VA: 0x1822CA820
 	public void JumpTo(long time) { }
 
-	// RVA: 0x22CA460 Offset: 0x22C8A60 VA: 0x1822CA460
+	// RVA: 0x22CA720 Offset: 0x22C8D20 VA: 0x1822CA720
 	public void CreateIndex() { }
 
-	// RVA: 0x22CA860 Offset: 0x22C8E60 VA: 0x1822CA860
+	// RVA: 0x22CAB20 Offset: 0x22C9120 VA: 0x1822CAB20
 	private void ReadHeader() { }
 
-	// RVA: 0x22CB050 Offset: 0x22C9650 VA: 0x1822CB050
+	// RVA: 0x22CB310 Offset: 0x22C9910 VA: 0x1822CB310
 	public bool get_IsFinished() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x77B0E0 Offset: 0x7796E0 VA: 0x18077B0E0
+	// RVA: 0x77B1F0 Offset: 0x7797F0 VA: 0x18077B1F0
 	public bool get_IsPaused() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE68DF0 Offset: 0xE673F0 VA: 0x180E68DF0
+	// RVA: 0xE690B0 Offset: 0xE676B0 VA: 0x180E690B0
 	internal void set_IsPaused(bool value) { }
 
-	// RVA: 0x22CA4C0 Offset: 0x22C8AC0 VA: 0x1822CA4C0
+	// RVA: 0x22CA780 Offset: 0x22C8D80 VA: 0x1822CA780
 	public static Reader FromFile(string filename) { }
 
-	// RVA: 0x22CAC70 Offset: 0x22C9270 VA: 0x1822CAC70
+	// RVA: 0x22CAF30 Offset: 0x22C9530 VA: 0x1822CAF30
 	public void Stop() { }
 
-	// RVA: 0x22CA850 Offset: 0x22C8E50 VA: 0x1822CA850
+	// RVA: 0x22CAB10 Offset: 0x22C9110 VA: 0x1822CAB10
 	public void Progress(long timeAmountMs) { }
 
-	// RVA: 0x22CABE0 Offset: 0x22C91E0 VA: 0x1822CABE0
+	// RVA: 0x22CAEA0 Offset: 0x22C94A0 VA: 0x1822CAEA0
 	public void ResetToStart() { }
 
-	// RVA: 0x22CA980 Offset: 0x22C8F80 VA: 0x1822CA980
+	// RVA: 0x22CAC40 Offset: 0x22C9240 VA: 0x1822CAC40
 	public Packet ReadPacket() { }
 
 }

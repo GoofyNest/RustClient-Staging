@@ -27,34 +27,34 @@ public class Culling : ConsoleSystem // TypeDefIndex: 11897
 
 	// Methods
 
-	// RVA: 0x6D4DA0 Offset: 0x6D33A0 VA: 0x1806D4DA0
+	// RVA: 0x6D4EB0 Offset: 0x6D34B0 VA: 0x1806D4EB0
 	public static bool get_toggle() { }
 
-	// RVA: 0x6D5030 Offset: 0x6D3630 VA: 0x1806D5030
+	// RVA: 0x6D5140 Offset: 0x6D3740 VA: 0x1806D5140
 	public static void set_toggle(bool value) { }
 
-	// RVA: 0x6D4D00 Offset: 0x6D3300 VA: 0x1806D4D00
+	// RVA: 0x6D4E10 Offset: 0x6D3410 VA: 0x1806D4E10
 	public static bool get_safeMode() { }
 
-	// RVA: 0x6D4F80 Offset: 0x6D3580 VA: 0x1806D4F80
+	// RVA: 0x6D5090 Offset: 0x6D3690 VA: 0x1806D5090
 	public static void set_safeMode(bool value) { }
 
-	// RVA: 0x6D4CA0 Offset: 0x6D32A0 VA: 0x1806D4CA0
+	// RVA: 0x6D4DB0 Offset: 0x6D33B0 VA: 0x1806D4DB0
 	public static bool get_env() { }
 
-	// RVA: 0x6D4EF0 Offset: 0x6D34F0 VA: 0x1806D4EF0
+	// RVA: 0x6D5000 Offset: 0x6D3600 VA: 0x1806D5000
 	public static void set_env(bool value) { }
 
-	// RVA: 0x6D4AC0 Offset: 0x6D30C0 VA: 0x1806D4AC0
+	// RVA: 0x6D4BD0 Offset: 0x6D31D0 VA: 0x1806D4BD0
 	public static int get_debug() { }
 
-	// RVA: 0x6D4E40 Offset: 0x6D3440 VA: 0x1806D4E40
+	// RVA: 0x6D4F50 Offset: 0x6D3550 VA: 0x1806D4F50
 	public static void set_debug(int value) { }
 
-	// RVA: 0x6D4A60 Offset: 0x6D3060 VA: 0x1806D4A60
+	// RVA: 0x6D4B70 Offset: 0x6D3170 VA: 0x1806D4B70
 	public void .ctor() { }
 
-	// RVA: 0x6D49B0 Offset: 0x6D2FB0 VA: 0x1806D49B0
+	// RVA: 0x6D4AC0 Offset: 0x6D30C0 VA: 0x1806D4AC0
 	private static void .cctor() { }
 
 }

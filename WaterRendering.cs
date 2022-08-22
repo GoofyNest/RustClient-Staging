@@ -40,7 +40,7 @@ public class WaterRendering // TypeDefIndex: 10619
 
 	// Methods
 
-	// RVA: 0x8C1040 Offset: 0x8BF640 VA: 0x1808C1040
+	// RVA: 0x8C1150 Offset: 0x8BF750 VA: 0x1808C1150
 	public bool get_IsInitialized() { }
 
 	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
@@ -49,94 +49,94 @@ public class WaterRendering // TypeDefIndex: 10619
 	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
 	public Material get_UnderwaterMaterial() { }
 
-	// RVA: 0xC1FE30 Offset: 0xC1E430 VA: 0x180C1FE30
+	// RVA: 0xC200F0 Offset: 0xC1E6F0 VA: 0x180C200F0
 	public MaterialPropertyBlock get_UnderwaterBlock() { }
 
-	// RVA: 0xC1F040 Offset: 0xC1D640 VA: 0x180C1F040
+	// RVA: 0xC1F300 Offset: 0xC1D900 VA: 0x180C1F300
 	public void Initialize(WaterSystem water, WaterRuntime runtime, int maxVertexCount) { }
 
-	// RVA: 0xC1CDE0 Offset: 0xC1B3E0 VA: 0x180C1CDE0
+	// RVA: 0xC1D0A0 Offset: 0xC1B6A0 VA: 0x180C1D0A0
 	public void Destroy() { }
 
-	// RVA: 0xC1CAA0 Offset: 0xC1B0A0 VA: 0x180C1CAA0
+	// RVA: 0xC1CD60 Offset: 0xC1B360 VA: 0x180C1CD60
 	private void CheckScreenSize() { }
 
-	// RVA: 0xC1BDF0 Offset: 0xC1A3F0 VA: 0x180C1BDF0
+	// RVA: 0xC1C0B0 Offset: 0xC1A6B0 VA: 0x180C1C0B0
 	private void CheckCommandBuffer() { }
 
-	// RVA: 0xC1CB50 Offset: 0xC1B150 VA: 0x180C1CB50
+	// RVA: 0xC1CE10 Offset: 0xC1B410 VA: 0x180C1CE10
 	private void CleanupCommandBuffer() { }
 
-	// RVA: 0xC1C3A0 Offset: 0xC1A9A0 VA: 0x180C1C3A0
+	// RVA: 0xC1C660 Offset: 0xC1AC60 VA: 0x180C1C660
 	public bool CheckLostData() { }
 
-	// RVA: 0xC1C1C0 Offset: 0xC1A7C0 VA: 0x180C1C1C0
+	// RVA: 0xC1C480 Offset: 0xC1AA80 VA: 0x180C1C480
 	private static void CheckCreateRenderTexture(ref RenderTexture rt, string name, int width, int height, RenderTextureFormat format, bool linear, FilterMode filter = 0) { }
 
-	// RVA: 0xC1FA50 Offset: 0xC1E050 VA: 0x180C1FA50
+	// RVA: 0xC1FD10 Offset: 0xC1E310 VA: 0x180C1FD10
 	private static void SafeDestroyRenderTexture(ref RenderTexture rt) { }
 
-	// RVA: 0xC1C930 Offset: 0xC1AF30 VA: 0x180C1C930
+	// RVA: 0xC1CBF0 Offset: 0xC1B1F0 VA: 0x180C1CBF0
 	private void CheckRenderTextures() { }
 
-	// RVA: 0xC1CD40 Offset: 0xC1B340 VA: 0x180C1CD40
+	// RVA: 0xC1D000 Offset: 0xC1B600 VA: 0x180C1D000
 	private void CleanupRenderTextures() { }
 
-	// RVA: 0xC1C4E0 Offset: 0xC1AAE0 VA: 0x180C1C4E0
+	// RVA: 0xC1C7A0 Offset: 0xC1ADA0 VA: 0x180C1C7A0
 	private void CheckOverlayMesh() { }
 
-	// RVA: 0xC1CC80 Offset: 0xC1B280 VA: 0x180C1CC80
+	// RVA: 0xC1CF40 Offset: 0xC1B540 VA: 0x180C1CF40
 	private void CleanupOverlayMesh() { }
 
-	// RVA: 0xC1F240 Offset: 0xC1D840 VA: 0x180C1F240
+	// RVA: 0xC1F500 Offset: 0xC1DB00 VA: 0x180C1F500
 	private bool IsVisibleToCamera() { }
 
-	// RVA: 0xC1DF10 Offset: 0xC1C510 VA: 0x180C1DF10
+	// RVA: 0xC1E1D0 Offset: 0xC1C7D0 VA: 0x180C1E1D0
 	private void FillCommandBuffer_SetGlobals(CommandBuffer cb) { }
 
-	// RVA: 0xC1D880 Offset: 0xC1BE80 VA: 0x180C1D880
+	// RVA: 0xC1DB40 Offset: 0xC1C140 VA: 0x180C1DB40
 	private void FillCommandBuffer_Mask(CommandBuffer cb) { }
 
-	// RVA: 0xC1D160 Offset: 0xC1B760 VA: 0x180C1D160
+	// RVA: 0xC1D420 Offset: 0xC1BA20 VA: 0x180C1D420
 	private void FillCommandBuffer_Depth(CommandBuffer cb) { }
 
-	// RVA: 0xC1DE00 Offset: 0xC1C400 VA: 0x180C1DE00
+	// RVA: 0xC1E0C0 Offset: 0xC1C6C0 VA: 0x180C1E0C0
 	private void FillCommandBuffer_PreFog(CommandBuffer cb) { }
 
-	// RVA: 0xC1DBB0 Offset: 0xC1C1B0 VA: 0x180C1DBB0
+	// RVA: 0xC1DE70 Offset: 0xC1C470 VA: 0x180C1DE70
 	private void FillCommandBuffer_PostFog(CommandBuffer cb) { }
 
-	// RVA: 0xC1BD60 Offset: 0xC1A360 VA: 0x180C1BD60
+	// RVA: 0xC1C020 Offset: 0xC1A620 VA: 0x180C1C020
 	private void CheckAndClearUnderwaterBlock() { }
 
-	// RVA: 0xC1CDD0 Offset: 0xC1B3D0 VA: 0x180C1CDD0
+	// RVA: 0xC1D090 Offset: 0xC1B690 VA: 0x180C1D090
 	public void ClearUnderwaterScatterCoefficientOverride() { }
 
-	// RVA: 0xC1FB10 Offset: 0xC1E110 VA: 0x180C1FB10
+	// RVA: 0xC1FDD0 Offset: 0xC1E3D0 VA: 0x180C1FDD0
 	public void SetUnderwaterScatterCoefficientOverride(float scatterCoefficient) { }
 
-	// RVA: 0xC1FCF0 Offset: 0xC1E2F0 VA: 0x180C1FCF0
+	// RVA: 0xC1FFB0 Offset: 0xC1E5B0 VA: 0x180C1FFB0
 	public void UpdateUnderwaterMaterial(Material reference) { }
 
-	// RVA: 0xC1EB90 Offset: 0xC1D190 VA: 0x180C1EB90
+	// RVA: 0xC1EE50 Offset: 0xC1D450 VA: 0x180C1EE50
 	public static List<WaterCullingVolume> FindAndSortVisibleCullingVolumes(Camera camera, List<WaterCullingVolume> list) { }
 
-	// RVA: 0xC1F7C0 Offset: 0xC1DDC0 VA: 0x180C1F7C0
+	// RVA: 0xC1FA80 Offset: 0xC1E080 VA: 0x180C1FA80
 	public void PrepareRender(int visibilityMask) { }
 
-	// RVA: 0xC1F2F0 Offset: 0xC1D8F0 VA: 0x180C1F2F0
+	// RVA: 0xC1F5B0 Offset: 0xC1DBB0 VA: 0x180C1F5B0
 	private bool IssueRender(bool debug, bool depthOnly) { }
 
-	// RVA: 0xC1F2E0 Offset: 0xC1D8E0 VA: 0x180C1F2E0
+	// RVA: 0xC1F5A0 Offset: 0xC1DBA0 VA: 0x180C1F5A0
 	public bool IssueRender(bool debug) { }
 
-	// RVA: 0xC1FB20 Offset: 0xC1E120 VA: 0x180C1FB20
+	// RVA: 0xC1FDE0 Offset: 0xC1E3E0 VA: 0x180C1FDE0
 	public void ShowDebug() { }
 
-	// RVA: 0xC1FD90 Offset: 0xC1E390 VA: 0x180C1FD90
+	// RVA: 0xC20050 Offset: 0xC1E650 VA: 0x180C20050
 	public void .ctor() { }
 
-	// RVA: 0xC1FD10 Offset: 0xC1E310 VA: 0x180C1FD10
+	// RVA: 0xC1FFD0 Offset: 0xC1E5D0 VA: 0x180C1FFD0
 	private static void .cctor() { }
 
 }
@@ -161,13 +161,13 @@ private sealed class WaterRendering.<>c // TypeDefIndex: 10621
 
 	// Methods
 
-	// RVA: 0xC102E0 Offset: 0xC0E8E0 VA: 0x180C102E0
+	// RVA: 0xC105A0 Offset: 0xC0EBA0 VA: 0x180C105A0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xC102A0 Offset: 0xC0E8A0 VA: 0x180C102A0
+	// RVA: 0xC10560 Offset: 0xC0EB60 VA: 0x180C10560
 	internal int <FindAndSortVisibleCullingVolumes>b__62_0(WaterCullingVolume x, WaterCullingVolume y) { }
 
 }

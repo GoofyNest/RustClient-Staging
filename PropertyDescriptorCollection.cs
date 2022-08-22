@@ -27,67 +27,67 @@ public class PropertyDescriptorCollection : ICollection, IEnumerable, IList, IDi
 
 	// Methods
 
-	// RVA: 0x15D23B0 Offset: 0x15D09B0 VA: 0x1815D23B0
+	// RVA: 0x15D2670 Offset: 0x15D0C70 VA: 0x1815D2670
 	public void .ctor(PropertyDescriptor[] properties) { }
 
-	// RVA: 0x15D2450 Offset: 0x15D0A50 VA: 0x1815D2450
+	// RVA: 0x15D2710 Offset: 0x15D0D10 VA: 0x1815D2710
 	public void .ctor(PropertyDescriptor[] properties, bool readOnly) { }
 
-	// RVA: 0x15D22D0 Offset: 0x15D08D0 VA: 0x1815D22D0
+	// RVA: 0x15D2590 Offset: 0x15D0B90 VA: 0x1815D2590
 	private void .ctor(PropertyDescriptor[] properties, int propCount, string[] namedSort, IComparer comparer) { }
 
 	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
 	public int get_Count() { }
 
-	// RVA: 0x15D2520 Offset: 0x15D0B20 VA: 0x1815D2520 Slot: 29
+	// RVA: 0x15D27E0 Offset: 0x15D0DE0 VA: 0x1815D27E0 Slot: 29
 	public virtual PropertyDescriptor get_Item(int index) { }
 
-	// RVA: 0x15D2500 Offset: 0x15D0B00 VA: 0x1815D2500 Slot: 30
+	// RVA: 0x15D27C0 Offset: 0x15D0DC0 VA: 0x1815D27C0 Slot: 30
 	public virtual PropertyDescriptor get_Item(string name) { }
 
-	// RVA: 0x15D0040 Offset: 0x15CE640 VA: 0x1815D0040
+	// RVA: 0x15D0300 Offset: 0x15CE900 VA: 0x1815D0300
 	public int Add(PropertyDescriptor value) { }
 
-	// RVA: 0x15D0140 Offset: 0x15CE740 VA: 0x1815D0140
+	// RVA: 0x15D0400 Offset: 0x15CEA00 VA: 0x1815D0400
 	public void Clear() { }
 
-	// RVA: 0x15D01B0 Offset: 0x15CE7B0 VA: 0x1815D01B0
+	// RVA: 0x15D0470 Offset: 0x15CEA70 VA: 0x1815D0470
 	public bool Contains(PropertyDescriptor value) { }
 
-	// RVA: 0x15D0210 Offset: 0x15CE810 VA: 0x1815D0210 Slot: 4
+	// RVA: 0x15D04D0 Offset: 0x15CEAD0 VA: 0x1815D04D0 Slot: 4
 	public void CopyTo(Array array, int index) { }
 
-	// RVA: 0x15D0260 Offset: 0x15CE860 VA: 0x1815D0260
+	// RVA: 0x15D0520 Offset: 0x15CEB20 VA: 0x1815D0520
 	private void EnsurePropsOwned() { }
 
-	// RVA: 0x15D0310 Offset: 0x15CE910 VA: 0x1815D0310
+	// RVA: 0x15D05D0 Offset: 0x15CEBD0 VA: 0x1815D05D0
 	private void EnsureSize(int sizeNeeded) { }
 
-	// RVA: 0x15D0430 Offset: 0x15CEA30 VA: 0x1815D0430 Slot: 31
+	// RVA: 0x15D06F0 Offset: 0x15CECF0 VA: 0x1815D06F0 Slot: 31
 	public virtual PropertyDescriptor Find(string name, bool ignoreCase) { }
 
-	// RVA: 0x15D0920 Offset: 0x15CEF20 VA: 0x1815D0920
+	// RVA: 0x15D0BE0 Offset: 0x15CF1E0 VA: 0x1815D0BE0
 	public int IndexOf(PropertyDescriptor value) { }
 
-	// RVA: 0x15D0980 Offset: 0x15CEF80 VA: 0x1815D0980
+	// RVA: 0x15D0C40 Offset: 0x15CF240 VA: 0x1815D0C40
 	public void Insert(int index, PropertyDescriptor value) { }
 
-	// RVA: 0x15D1010 Offset: 0x15CF610 VA: 0x1815D1010
+	// RVA: 0x15D12D0 Offset: 0x15CF8D0 VA: 0x1815D12D0
 	public void Remove(PropertyDescriptor value) { }
 
-	// RVA: 0x15D0F30 Offset: 0x15CF530 VA: 0x1815D0F30
+	// RVA: 0x15D11F0 Offset: 0x15CF7F0 VA: 0x1815D11F0
 	public void RemoveAt(int index) { }
 
-	// RVA: 0x15D10D0 Offset: 0x15CF6D0 VA: 0x1815D10D0 Slot: 32
+	// RVA: 0x15D1390 Offset: 0x15CF990 VA: 0x1815D1390 Slot: 32
 	public virtual PropertyDescriptorCollection Sort(string[] names) { }
 
-	// RVA: 0x15D0B20 Offset: 0x15CF120 VA: 0x1815D0B20
+	// RVA: 0x15D0DE0 Offset: 0x15CF3E0 VA: 0x1815D0DE0
 	protected void InternalSort(string[] names) { }
 
-	// RVA: 0x15D0AA0 Offset: 0x15CF0A0 VA: 0x1815D0AA0
+	// RVA: 0x15D0D60 Offset: 0x15CF360 VA: 0x1815D0D60
 	protected void InternalSort(IComparer sorter) { }
 
-	// RVA: 0x15D0870 Offset: 0x15CEE70 VA: 0x1815D0870 Slot: 33
+	// RVA: 0x15D0B30 Offset: 0x15CF130 VA: 0x1815D0B30 Slot: 33
 	public virtual IEnumerator GetEnumerator() { }
 
 	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600 Slot: 5
@@ -96,73 +96,73 @@ public class PropertyDescriptorCollection : ICollection, IEnumerable, IList, IDi
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 6
 	private object System.Collections.ICollection.get_SyncRoot() { }
 
-	// RVA: 0x15D11E0 Offset: 0x15CF7E0 VA: 0x1815D11E0 Slot: 24
+	// RVA: 0x15D14A0 Offset: 0x15CFAA0 VA: 0x1815D14A0 Slot: 24
 	private void System.Collections.IDictionary.Add(object key, object value) { }
 
-	// RVA: 0x15D0140 Offset: 0x15CE740 VA: 0x1815D0140 Slot: 25
+	// RVA: 0x15D0400 Offset: 0x15CEA00 VA: 0x1815D0400 Slot: 25
 	private void System.Collections.IDictionary.Clear() { }
 
-	// RVA: 0x15D1290 Offset: 0x15CF890 VA: 0x1815D1290 Slot: 23
+	// RVA: 0x15D1550 Offset: 0x15CFB50 VA: 0x1815D1550 Slot: 23
 	private bool System.Collections.IDictionary.Contains(object key) { }
 
-	// RVA: 0x15D1330 Offset: 0x15CF930 VA: 0x1815D1330 Slot: 27
+	// RVA: 0x15D15F0 Offset: 0x15CFBF0 VA: 0x1815D15F0 Slot: 27
 	private IDictionaryEnumerator System.Collections.IDictionary.GetEnumerator() { }
 
-	// RVA: 0xEE7010 Offset: 0xEE5610 VA: 0x180EE7010 Slot: 26
+	// RVA: 0xEE72D0 Offset: 0xEE58D0 VA: 0x180EE72D0 Slot: 26
 	private bool System.Collections.IDictionary.get_IsReadOnly() { }
 
-	// RVA: 0x15D1440 Offset: 0x15CFA40 VA: 0x1815D1440 Slot: 19
+	// RVA: 0x15D1700 Offset: 0x15CFD00 VA: 0x1815D1700 Slot: 19
 	private object System.Collections.IDictionary.get_Item(object key) { }
 
-	// RVA: 0x15D16B0 Offset: 0x15CFCB0 VA: 0x1815D16B0 Slot: 20
+	// RVA: 0x15D1970 Offset: 0x15CFF70 VA: 0x1815D1970 Slot: 20
 	private void System.Collections.IDictionary.set_Item(object key, object value) { }
 
-	// RVA: 0x15D14D0 Offset: 0x15CFAD0 VA: 0x1815D14D0 Slot: 21
+	// RVA: 0x15D1790 Offset: 0x15CFD90 VA: 0x1815D1790 Slot: 21
 	private ICollection System.Collections.IDictionary.get_Keys() { }
 
-	// RVA: 0x15D15F0 Offset: 0x15CFBF0 VA: 0x1815D15F0 Slot: 22
+	// RVA: 0x15D18B0 Offset: 0x15CFEB0 VA: 0x1815D18B0 Slot: 22
 	private ICollection System.Collections.IDictionary.get_Values() { }
 
-	// RVA: 0x15D13A0 Offset: 0x15CF9A0 VA: 0x1815D13A0 Slot: 28
+	// RVA: 0x15D1660 Offset: 0x15CFC60 VA: 0x1815D1660 Slot: 28
 	private void System.Collections.IDictionary.Remove(object key) { }
 
-	// RVA: 0x15D1AA0 Offset: 0x15D00A0 VA: 0x1815D1AA0 Slot: 7
+	// RVA: 0x15D1D60 Offset: 0x15D0360 VA: 0x1815D1D60 Slot: 7
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x15D1AC0 Offset: 0x15D00C0 VA: 0x1815D1AC0 Slot: 10
+	// RVA: 0x15D1D80 Offset: 0x15D0380 VA: 0x1815D1D80 Slot: 10
 	private int System.Collections.IList.Add(object value) { }
 
-	// RVA: 0x15D0140 Offset: 0x15CE740 VA: 0x1815D0140 Slot: 12
+	// RVA: 0x15D0400 Offset: 0x15CEA00 VA: 0x1815D0400 Slot: 12
 	private void System.Collections.IList.Clear() { }
 
-	// RVA: 0x15D1B50 Offset: 0x15D0150 VA: 0x1815D1B50 Slot: 11
+	// RVA: 0x15D1E10 Offset: 0x15D0410 VA: 0x1815D1E10 Slot: 11
 	private bool System.Collections.IList.Contains(object value) { }
 
-	// RVA: 0x15D1C20 Offset: 0x15D0220 VA: 0x1815D1C20 Slot: 15
+	// RVA: 0x15D1EE0 Offset: 0x15D04E0 VA: 0x1815D1EE0 Slot: 15
 	private int System.Collections.IList.IndexOf(object value) { }
 
-	// RVA: 0x15D1CF0 Offset: 0x15D02F0 VA: 0x1815D1CF0 Slot: 16
+	// RVA: 0x15D1FB0 Offset: 0x15D05B0 VA: 0x1815D1FB0 Slot: 16
 	private void System.Collections.IList.Insert(int index, object value) { }
 
-	// RVA: 0xEE7010 Offset: 0xEE5610 VA: 0x180EE7010 Slot: 13
+	// RVA: 0xEE72D0 Offset: 0xEE58D0 VA: 0x180EE72D0 Slot: 13
 	private bool System.Collections.IList.get_IsReadOnly() { }
 
-	// RVA: 0xEE7010 Offset: 0xEE5610 VA: 0x180EE7010 Slot: 14
+	// RVA: 0xEE72D0 Offset: 0xEE58D0 VA: 0x180EE72D0 Slot: 14
 	private bool System.Collections.IList.get_IsFixedSize() { }
 
-	// RVA: 0x15D1E90 Offset: 0x15D0490 VA: 0x1815D1E90 Slot: 17
+	// RVA: 0x15D2150 Offset: 0x15D0750 VA: 0x1815D2150 Slot: 17
 	private void System.Collections.IList.Remove(object value) { }
 
-	// RVA: 0x15D1E80 Offset: 0x15D0480 VA: 0x1815D1E80 Slot: 18
+	// RVA: 0x15D2140 Offset: 0x15D0740 VA: 0x1815D2140 Slot: 18
 	private void System.Collections.IList.RemoveAt(int index) { }
 
-	// RVA: 0x15D1FC0 Offset: 0x15D05C0 VA: 0x1815D1FC0 Slot: 8
+	// RVA: 0x15D2280 Offset: 0x15D0880 VA: 0x1815D2280 Slot: 8
 	private object System.Collections.IList.get_Item(int index) { }
 
-	// RVA: 0x15D1FE0 Offset: 0x15D05E0 VA: 0x1815D1FE0 Slot: 9
+	// RVA: 0x15D22A0 Offset: 0x15D08A0 VA: 0x1815D22A0 Slot: 9
 	private void System.Collections.IList.set_Item(int index, object value) { }
 
-	// RVA: 0x15D2210 Offset: 0x15D0810 VA: 0x1815D2210
+	// RVA: 0x15D24D0 Offset: 0x15D0AD0 VA: 0x1815D24D0
 	private static void .cctor() { }
 
 }
@@ -180,25 +180,25 @@ private class PropertyDescriptorCollection.PropertyDescriptorEnumerator : IDicti
 
 	// Methods
 
-	// RVA: 0x11B9A60 Offset: 0x11B8060 VA: 0x1811B9A60
+	// RVA: 0x11B9D20 Offset: 0x11B8320 VA: 0x1811B9D20
 	public void .ctor(PropertyDescriptorCollection owner) { }
 
-	// RVA: 0x15D2600 Offset: 0x15D0C00 VA: 0x1815D2600 Slot: 8
+	// RVA: 0x15D28C0 Offset: 0x15D0EC0 VA: 0x1815D28C0 Slot: 8
 	public object get_Current() { }
 
-	// RVA: 0x15D26A0 Offset: 0x15D0CA0 VA: 0x1815D26A0 Slot: 6
+	// RVA: 0x15D2960 Offset: 0x15D0F60 VA: 0x1815D2960 Slot: 6
 	public DictionaryEntry get_Entry() { }
 
-	// RVA: 0x15D2710 Offset: 0x15D0D10 VA: 0x1815D2710 Slot: 4
+	// RVA: 0x15D29D0 Offset: 0x15D0FD0 VA: 0x1815D29D0 Slot: 4
 	public object get_Key() { }
 
-	// RVA: 0x15D2710 Offset: 0x15D0D10 VA: 0x1815D2710 Slot: 5
+	// RVA: 0x15D29D0 Offset: 0x15D0FD0 VA: 0x1815D29D0 Slot: 5
 	public object get_Value() { }
 
-	// RVA: 0x15D25C0 Offset: 0x15D0BC0 VA: 0x1815D25C0 Slot: 7
+	// RVA: 0x15D2880 Offset: 0x15D0E80 VA: 0x1815D2880 Slot: 7
 	public bool MoveNext() { }
 
-	// RVA: 0x117C410 Offset: 0x117AA10 VA: 0x18117C410 Slot: 9
+	// RVA: 0x117C6D0 Offset: 0x117ACD0 VA: 0x18117C6D0 Slot: 9
 	public void Reset() { }
 
 }

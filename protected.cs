@@ -39,7 +39,7 @@ protected class XmlSerializationReader.CollectionFixup // TypeDefIndex: 2098
 
 	// Methods
 
-	// RVA: 0x1687E30 Offset: 0x1686430 VA: 0x181687E30
+	// RVA: 0x16880F0 Offset: 0x16866F0 VA: 0x1816880F0
 	internal void .ctor(object collection, XmlSerializationCollectionFixupCallback callback, string id) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
@@ -48,7 +48,7 @@ protected class XmlSerializationReader.CollectionFixup // TypeDefIndex: 2098
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public object get_Collection() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	internal object get_Id() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
@@ -72,7 +72,7 @@ protected class XmlSerializationReader.Fixup // TypeDefIndex: 2099
 
 	// Methods
 
-	// RVA: 0x1687EE0 Offset: 0x16864E0 VA: 0x181687EE0
+	// RVA: 0x16881A0 Offset: 0x16867A0 VA: 0x1816881A0
 	public void .ctor(object o, XmlSerializationFixupCallback callback, int count) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
@@ -98,13 +98,13 @@ protected abstract class TypeConverter.SimplePropertyDescriptor : PropertyDescri
 
 	// Methods
 
-	// RVA: 0x1733ED0 Offset: 0x17324D0 VA: 0x181733ED0
+	// RVA: 0x1734190 Offset: 0x1732790 VA: 0x181734190
 	protected void .ctor(Type componentType, string name, Type propertyType, Attribute[] attributes) { }
 
 	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370 Slot: 13
 	public override Type get_ComponentType() { }
 
-	// RVA: 0x1733F30 Offset: 0x1732530 VA: 0x181733F30 Slot: 15
+	// RVA: 0x17341F0 Offset: 0x17327F0 VA: 0x1817341F0 Slot: 15
 	public override bool get_IsReadOnly() { }
 
 	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050 Slot: 16
@@ -146,10 +146,10 @@ protected internal class Dropdown.DropdownItem : MonoBehaviour, IPointerEnterHan
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_image(Image value) { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public RectTransform get_rectTransform() { }
 
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	public void set_rectTransform(RectTransform value) { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
@@ -158,10 +158,10 @@ protected internal class Dropdown.DropdownItem : MonoBehaviour, IPointerEnterHan
 	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
 	public void set_toggle(Toggle value) { }
 
-	// RVA: 0x15EA6E0 Offset: 0x15E8CE0 VA: 0x1815EA6E0 Slot: 6
+	// RVA: 0x15EA9A0 Offset: 0x15E8FA0 VA: 0x1815EA9A0 Slot: 6
 	public virtual void OnPointerEnter(PointerEventData eventData) { }
 
-	// RVA: 0x15EA650 Offset: 0x15E8C50 VA: 0x1815EA650 Slot: 7
+	// RVA: 0x15EA910 Offset: 0x15E8F10 VA: 0x1815EA910 Slot: 7
 	public virtual void OnCancel(BaseEventData eventData) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -222,19 +222,19 @@ protected class PointerInputModule.MouseState // TypeDefIndex: 5083
 
 	// Methods
 
-	// RVA: 0x10C6270 Offset: 0x10C4870 VA: 0x1810C6270
+	// RVA: 0x10C6530 Offset: 0x10C4B30 VA: 0x1810C6530
 	public bool AnyPressesThisFrame() { }
 
-	// RVA: 0x10C6330 Offset: 0x10C4930 VA: 0x1810C6330
+	// RVA: 0x10C65F0 Offset: 0x10C4BF0 VA: 0x1810C65F0
 	public bool AnyReleasesThisFrame() { }
 
-	// RVA: 0x10C63F0 Offset: 0x10C49F0 VA: 0x1810C63F0
+	// RVA: 0x10C66B0 Offset: 0x10C4CB0 VA: 0x1810C66B0
 	public PointerInputModule.ButtonState GetButtonState(PointerEventData.InputButton button) { }
 
-	// RVA: 0x10C6540 Offset: 0x10C4B40 VA: 0x1810C6540
+	// RVA: 0x10C6800 Offset: 0x10C4E00 VA: 0x1810C6800
 	public void SetButtonState(PointerEventData.InputButton button, PointerEventData.FramePressState stateForMouseButton, PointerEventData data) { }
 
-	// RVA: 0x10C65A0 Offset: 0x10C4BA0 VA: 0x1810C65A0
+	// RVA: 0x10C6860 Offset: 0x10C4E60 VA: 0x1810C6860
 	public void .ctor() { }
 
 }
@@ -281,7 +281,7 @@ protected static class AnimalAnimation.Params // TypeDefIndex: 9114
 
 	// Methods
 
-	// RVA: 0x83C800 Offset: 0x83AE00 VA: 0x18083C800
+	// RVA: 0x83C910 Offset: 0x83AF10 VA: 0x18083C910
 	private static void .cctor() { }
 
 }

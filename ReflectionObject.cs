@@ -27,19 +27,19 @@ internal class ReflectionObject // TypeDefIndex: 5932
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_Members(IDictionary<string, ReflectionMember> value) { }
 
-	// RVA: 0x180C1D0 Offset: 0x180A7D0 VA: 0x18180C1D0
+	// RVA: 0x180C490 Offset: 0x180AA90 VA: 0x18180C490
 	public void .ctor() { }
 
-	// RVA: 0x180C150 Offset: 0x180A750 VA: 0x18180C150
+	// RVA: 0x180C410 Offset: 0x180AA10 VA: 0x18180C410
 	public object GetValue(object target, string member) { }
 
-	// RVA: 0x180C0F0 Offset: 0x180A6F0 VA: 0x18180C0F0
+	// RVA: 0x180C3B0 Offset: 0x180A9B0 VA: 0x18180C3B0
 	public Type GetType(string member) { }
 
-	// RVA: 0x180C0E0 Offset: 0x180A6E0 VA: 0x18180C0E0
+	// RVA: 0x180C3A0 Offset: 0x180A9A0 VA: 0x18180C3A0
 	public static ReflectionObject Create(Type t, string[] memberNames) { }
 
-	// RVA: 0x180B880 Offset: 0x1809E80 VA: 0x18180B880
+	// RVA: 0x180BB40 Offset: 0x180A140 VA: 0x18180BB40
 	public static ReflectionObject Create(Type t, MethodBase creator, string[] memberNames) { }
 
 }
@@ -53,7 +53,7 @@ private sealed class ReflectionObject.<>c__DisplayClass13_0 // TypeDefIndex: 593
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1814C40 Offset: 0x1813240 VA: 0x181814C40
+	// RVA: 0x1814F00 Offset: 0x1813500 VA: 0x181814F00
 	internal object <Create>b__0(object[] args) { }
 
 }
@@ -67,7 +67,7 @@ private sealed class ReflectionObject.<>c__DisplayClass13_1 // TypeDefIndex: 593
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1814C90 Offset: 0x1813290 VA: 0x181814C90
+	// RVA: 0x1814F50 Offset: 0x1813550 VA: 0x181814F50
 	internal object <Create>b__1(object target) { }
 
 }
@@ -81,7 +81,7 @@ private sealed class ReflectionObject.<>c__DisplayClass13_2 // TypeDefIndex: 593
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1814D00 Offset: 0x1813300 VA: 0x181814D00
+	// RVA: 0x1814FC0 Offset: 0x18135C0 VA: 0x181814FC0
 	internal void <Create>b__2(object target, object arg) { }
 
 }

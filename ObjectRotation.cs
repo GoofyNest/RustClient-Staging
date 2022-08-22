@@ -5,10 +5,10 @@ public class ObjectRotation : MonoBehaviour // TypeDefIndex: 11187
 
 	// Methods
 
-	// RVA: 0x9D6F90 Offset: 0x9D5590 VA: 0x1809D6F90
+	// RVA: 0x9D7250 Offset: 0x9D5850 VA: 0x1809D7250
 	private void Update() { }
 
-	// RVA: 0x9D7590 Offset: 0x9D5B90 VA: 0x1809D7590
+	// RVA: 0x9D7850 Offset: 0x9D5E50 VA: 0x1809D7850
 	public void .ctor() { }
 
 }

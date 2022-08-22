@@ -5,7 +5,7 @@ public class ConvarControlledSpawnPopulation : SpawnPopulation // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x6BA450 Offset: 0x6B8A50 VA: 0x1806BA450
+	// RVA: 0x6BA560 Offset: 0x6B8B60 VA: 0x1806BA560
 	public void .ctor() { }
 
 }

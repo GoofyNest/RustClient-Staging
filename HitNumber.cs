@@ -4,10 +4,10 @@ public class HitNumber : MonoBehaviour // TypeDefIndex: 8745
 
 	// Methods
 
-	// RVA: 0x73D2E0 Offset: 0x73B8E0 VA: 0x18073D2E0
+	// RVA: 0x73D3F0 Offset: 0x73B9F0 VA: 0x18073D3F0
 	public int ColorToMultiplier(HitNumber.HitType type) { }
 
-	// RVA: 0x73D320 Offset: 0x73B920 VA: 0x18073D320
+	// RVA: 0x73D430 Offset: 0x73BA30 VA: 0x18073D430
 	public void OnDrawGizmos() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

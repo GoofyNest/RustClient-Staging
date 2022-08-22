@@ -6,82 +6,82 @@ public class Landmine : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6326
 
 	// Methods
 
-	// RVA: 0x1F1D4C0 Offset: 0x1F1BAC0 VA: 0x181F1D4C0
+	// RVA: 0x1F1D780 Offset: 0x1F1BD80 VA: 0x181F1D780
 	public static void ResetToPool(Landmine instance) { }
 
-	// RVA: 0x1F1D540 Offset: 0x1F1BB40 VA: 0x181F1D540
+	// RVA: 0x1F1D800 Offset: 0x1F1BE00 VA: 0x181F1D800
 	public void ResetToPool() { }
 
-	// RVA: 0x1F1D390 Offset: 0x1F1B990 VA: 0x181F1D390 Slot: 9
+	// RVA: 0x1F1D650 Offset: 0x1F1BC50 VA: 0x181F1D650 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F1C9F0 Offset: 0x1F1AFF0 VA: 0x181F1C9F0
+	// RVA: 0x1F1CCB0 Offset: 0x1F1B2B0 VA: 0x181F1CCB0
 	public void CopyTo(Landmine instance) { }
 
-	// RVA: 0x1F1CA10 Offset: 0x1F1B010 VA: 0x181F1CA10
+	// RVA: 0x1F1CCD0 Offset: 0x1F1B2D0 VA: 0x181F1CCD0
 	public Landmine Copy() { }
 
-	// RVA: 0x1F1CFB0 Offset: 0x1F1B5B0 VA: 0x181F1CFB0
+	// RVA: 0x1F1D270 Offset: 0x1F1B870 VA: 0x181F1D270
 	public static Landmine Deserialize(Stream stream) { }
 
-	// RVA: 0x1F1CCA0 Offset: 0x1F1B2A0 VA: 0x181F1CCA0
+	// RVA: 0x1F1CF60 Offset: 0x1F1B560 VA: 0x181F1CF60
 	public static Landmine DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F1CD20 Offset: 0x1F1B320 VA: 0x181F1CD20
+	// RVA: 0x1F1CFE0 Offset: 0x1F1B5E0 VA: 0x181F1CFE0
 	public static Landmine DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F1D270 Offset: 0x1F1B870 VA: 0x181F1D270
+	// RVA: 0x1F1D530 Offset: 0x1F1BB30 VA: 0x181F1D530
 	public static Landmine Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F1D480 Offset: 0x1F1BA80 VA: 0x181F1D480
+	// RVA: 0x1F1D740 Offset: 0x1F1BD40 VA: 0x181F1D740
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F1DA10 Offset: 0x1F1C010 VA: 0x181F1DA10 Slot: 12
+	// RVA: 0x1F1DCD0 Offset: 0x1F1C2D0 VA: 0x181F1DCD0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F1DAE0 Offset: 0x1F1C0E0 VA: 0x181F1DAE0 Slot: 13
+	// RVA: 0x1F1DDA0 Offset: 0x1F1C3A0 VA: 0x181F1DDA0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Landmine previous) { }
 
-	// RVA: 0x1F1D4A0 Offset: 0x1F1BAA0 VA: 0x181F1D4A0 Slot: 14
+	// RVA: 0x1F1D760 Offset: 0x1F1BD60 VA: 0x181F1D760 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F1D170 Offset: 0x1F1B770 VA: 0x181F1D170
+	// RVA: 0x1F1D430 Offset: 0x1F1BA30 VA: 0x181F1D430
 	public static Landmine Deserialize(byte[] buffer, Landmine instance, bool isDelta = False) { }
 
-	// RVA: 0x1F1D030 Offset: 0x1F1B630 VA: 0x181F1D030
+	// RVA: 0x1F1D2F0 Offset: 0x1F1B8F0 VA: 0x181F1D2F0
 	public static Landmine Deserialize(Stream stream, Landmine instance, bool isDelta) { }
 
-	// RVA: 0x1F1CA80 Offset: 0x1F1B080 VA: 0x181F1CA80
+	// RVA: 0x1F1CD40 Offset: 0x1F1B340 VA: 0x181F1CD40
 	public static Landmine DeserializeLengthDelimited(Stream stream, Landmine instance, bool isDelta) { }
 
-	// RVA: 0x1F1CDB0 Offset: 0x1F1B3B0 VA: 0x181F1CDB0
+	// RVA: 0x1F1D070 Offset: 0x1F1B670 VA: 0x181F1D070
 	public static Landmine DeserializeLength(Stream stream, int length, Landmine instance, bool isDelta) { }
 
-	// RVA: 0x1F1D5C0 Offset: 0x1F1BBC0 VA: 0x181F1D5C0
+	// RVA: 0x1F1D880 Offset: 0x1F1BE80 VA: 0x181F1D880
 	public static void SerializeDelta(Stream stream, Landmine instance, Landmine previous) { }
 
-	// RVA: 0x1F1D930 Offset: 0x1F1BF30 VA: 0x181F1D930
+	// RVA: 0x1F1DBF0 Offset: 0x1F1C1F0 VA: 0x181F1DBF0
 	public static void Serialize(Stream stream, Landmine instance) { }
 
-	// RVA: 0x1F1DA00 Offset: 0x1F1C000 VA: 0x181F1DA00
+	// RVA: 0x1F1DCC0 Offset: 0x1F1C2C0 VA: 0x181F1DCC0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F1DA10 Offset: 0x1F1C010 VA: 0x181F1DA10
+	// RVA: 0x1F1DCD0 Offset: 0x1F1C2D0 VA: 0x181F1DCD0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F1D780 Offset: 0x1F1BD80 VA: 0x181F1D780
+	// RVA: 0x1F1DA40 Offset: 0x1F1C040 VA: 0x181F1DA40
 	public static byte[] SerializeToBytes(Landmine instance) { }
 
-	// RVA: 0x1F1D6D0 Offset: 0x1F1BCD0 VA: 0x181F1D6D0
+	// RVA: 0x1F1D990 Offset: 0x1F1BF90 VA: 0x181F1D990
 	public static void SerializeLengthDelimited(Stream stream, Landmine instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -200,23 +200,23 @@ public class GunTrap : StorageContainer // TypeDefIndex: 8572
 
 	// Methods
 
-	// RVA: 0x731C20 Offset: 0x730220 VA: 0x180731C20 Slot: 35
+	// RVA: 0x731D30 Offset: 0x730330 VA: 0x180731D30 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x731BB0 Offset: 0x7301B0 VA: 0x180731BB0 Slot: 122
+	// RVA: 0x731CC0 Offset: 0x7302C0 VA: 0x180731CC0 Slot: 122
 	public override string Categorize() { }
 
 	// RVA: 0x49BB60 Offset: 0x49A160 VA: 0x18049BB60
 	public bool IsTriggered() { }
 
-	// RVA: 0x731BE0 Offset: 0x7301E0 VA: 0x180731BE0
+	// RVA: 0x731CF0 Offset: 0x7302F0 VA: 0x180731CF0
 	public Vector3 GetEyePosition() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x731820 Offset: 0x72FE20 VA: 0x180731820
+	// RVA: 0x731930 Offset: 0x72FF30 VA: 0x180731930
 	public void CLIENT_FireGun(BaseEntity.RPCMessage rpc) { }
 
-	// RVA: 0x732070 Offset: 0x730670 VA: 0x180732070
+	// RVA: 0x732180 Offset: 0x730780 VA: 0x180732180
 	public void .ctor() { }
 
 }
@@ -233,7 +233,7 @@ public class BaseTrap : DecayEntity // TypeDefIndex: 9685
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0x931F20 Offset: 0x930520 VA: 0x180931F20
+	// RVA: 0x932030 Offset: 0x930630 VA: 0x180932030
 	public void .ctor() { }
 
 }
@@ -260,10 +260,10 @@ public class BearTrapTrigger : BaseTrapTrigger // TypeDefIndex: 9687
 public class SurvivalFishTrap : WildlifeTrap // TypeDefIndex: 9688
 {	// Methods
 
-	// RVA: 0x7A6430 Offset: 0x7A4A30 VA: 0x1807A6430 Slot: 155
+	// RVA: 0x7A6540 Offset: 0x7A4B40 VA: 0x1807A6540 Slot: 155
 	public override void TrappedEffect() { }
 
-	// RVA: 0x7A6660 Offset: 0x7A4C60 VA: 0x1807A6660
+	// RVA: 0x7A6770 Offset: 0x7A4D70 VA: 0x1807A6770
 	public void .ctor() { }
 
 }
@@ -281,7 +281,7 @@ public class TrappableWildlife : ScriptableObject // TypeDefIndex: 9689
 
 	// Methods
 
-	// RVA: 0xA17A70 Offset: 0xA16070 VA: 0x180A17A70
+	// RVA: 0xA17D30 Offset: 0xA16330 VA: 0x180A17D30
 	public void .ctor() { }
 
 }
@@ -295,7 +295,7 @@ public class TrappableWildlife.BaitType // TypeDefIndex: 9690
 
 	// Methods
 
-	// RVA: 0xA08260 Offset: 0xA06860 VA: 0x180A08260
+	// RVA: 0xA08520 Offset: 0xA06B20 VA: 0x180A08520
 	public void .ctor() { }
 
 }
@@ -318,16 +318,16 @@ public class WildlifeTrap : StorageContainer // TypeDefIndex: 9691
 	// RVA: 0x4F6310 Offset: 0x4F4910 VA: 0x1804F6310
 	public bool IsTrapActive() { }
 
-	// RVA: 0x8F6040 Offset: 0x8F4640 VA: 0x1808F6040 Slot: 27
+	// RVA: 0x8F6150 Offset: 0x8F4750 VA: 0x1808F6150 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0x8F6200 Offset: 0x8F4800 VA: 0x1808F6200
+	// RVA: 0x8F6310 Offset: 0x8F4910 VA: 0x1808F6310
 	public void Update() { }
 
-	// RVA: 0x8F6070 Offset: 0x8F4670 VA: 0x1808F6070 Slot: 155
+	// RVA: 0x8F6180 Offset: 0x8F4780 VA: 0x1808F6180 Slot: 155
 	public virtual void TrappedEffect() { }
 
-	// RVA: 0x8F6240 Offset: 0x8F4840 VA: 0x1808F6240
+	// RVA: 0x8F6350 Offset: 0x8F4950 VA: 0x1808F6350
 	public void .ctor() { }
 
 }

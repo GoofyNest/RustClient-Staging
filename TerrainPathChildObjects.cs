@@ -12,13 +12,13 @@ public class TerrainPathChildObjects : MonoBehaviour // TypeDefIndex: 10363
 
 	// Methods
 
-	// RVA: 0x114D170 Offset: 0x114B770 VA: 0x18114D170
+	// RVA: 0x114D430 Offset: 0x114BA30 VA: 0x18114D430
 	protected void Awake() { }
 
-	// RVA: 0x114D790 Offset: 0x114BD90 VA: 0x18114D790
+	// RVA: 0x114DA50 Offset: 0x114C050 VA: 0x18114DA50
 	protected void OnDrawGizmos() { }
 
-	// RVA: 0x114DAE0 Offset: 0x114C0E0 VA: 0x18114DAE0
+	// RVA: 0x114DDA0 Offset: 0x114C3A0 VA: 0x18114DDA0
 	public void .ctor() { }
 
 }

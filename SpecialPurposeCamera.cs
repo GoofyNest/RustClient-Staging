@@ -20,28 +20,28 @@ public class SpecialPurposeCamera // TypeDefIndex: 10697
 
 	// Methods
 
-	// RVA: 0xA7EDC0 Offset: 0xA7D3C0 VA: 0x180A7EDC0
+	// RVA: 0xA7F080 Offset: 0xA7D680 VA: 0x180A7F080
 	public void .ctor(string name) { }
 
-	// RVA: 0xA7E030 Offset: 0xA7C630 VA: 0x180A7E030
+	// RVA: 0xA7E2F0 Offset: 0xA7C8F0 VA: 0x180A7E2F0
 	public void Create(int width, int height, int depth, RenderTextureFormat format) { }
 
-	// RVA: 0xA7E190 Offset: 0xA7C790 VA: 0x180A7E190
+	// RVA: 0xA7E450 Offset: 0xA7CA50 VA: 0x180A7E450
 	public void Destroy() { }
 
-	// RVA: 0xA7DEE0 Offset: 0xA7C4E0 VA: 0x180A7DEE0
+	// RVA: 0xA7E1A0 Offset: 0xA7C7A0 VA: 0x180A7E1A0
 	public void Add(Transform transform, Mesh mesh, Material material, bool isDynamic, bool isBillboard) { }
 
-	// RVA: 0xA7E890 Offset: 0xA7CE90 VA: 0x180A7E890
+	// RVA: 0xA7EB50 Offset: 0xA7D150 VA: 0x180A7EB50
 	public void Remove(Transform transform, Mesh mesh, Material material, bool isDynamic, bool isBillboard) { }
 
-	// RVA: 0xA7E9E0 Offset: 0xA7CFE0 VA: 0x180A7E9E0
+	// RVA: 0xA7ECA0 Offset: 0xA7D2A0 VA: 0x180A7ECA0
 	private Matrix4x4 ViewMatrix() { }
 
-	// RVA: 0xA7E2C0 Offset: 0xA7C8C0 VA: 0x180A7E2C0
+	// RVA: 0xA7E580 Offset: 0xA7CB80 VA: 0x180A7E580
 	private Matrix4x4 ProjMatrix() { }
 
-	// RVA: 0xA7E3B0 Offset: 0xA7C9B0 VA: 0x180A7E3B0
+	// RVA: 0xA7E670 Offset: 0xA7CC70 VA: 0x180A7E670
 	public void Refresh() { }
 
 }
@@ -73,10 +73,10 @@ private struct SpecialPurposeCamera.RenderEntry : IEquatable<SpecialPurposeCamer
 	// RVA: 0xFC290 Offset: 0xFB690 VA: 0x1800FC290 Slot: 4
 	public bool Equals(SpecialPurposeCamera.RenderEntry other) { }
 
-	// RVA: 0xA748E0 Offset: 0xA72EE0 VA: 0x180A748E0
+	// RVA: 0xA74BA0 Offset: 0xA731A0 VA: 0x180A74BA0
 	public static bool op_Equality(SpecialPurposeCamera.RenderEntry a, SpecialPurposeCamera.RenderEntry b) { }
 
-	// RVA: 0xA74910 Offset: 0xA72F10 VA: 0x180A74910
+	// RVA: 0xA74BD0 Offset: 0xA731D0 VA: 0x180A74BD0
 	public static bool op_Inequality(SpecialPurposeCamera.RenderEntry a, SpecialPurposeCamera.RenderEntry b) { }
 
 }

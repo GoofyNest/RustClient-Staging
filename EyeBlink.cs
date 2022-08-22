@@ -16,16 +16,16 @@ public class EyeBlink : MonoBehaviour // TypeDefIndex: 9345
 
 	// Methods
 
-	// RVA: 0x8D42D0 Offset: 0x8D28D0 VA: 0x1808D42D0
+	// RVA: 0x8D43E0 Offset: 0x8D29E0 VA: 0x1808D43E0
 	private void Start() { }
 
-	// RVA: 0x8D3EB0 Offset: 0x8D24B0 VA: 0x1808D3EB0
+	// RVA: 0x8D3FC0 Offset: 0x8D25C0 VA: 0x1808D3FC0
 	public void LateUpdateBlink() { }
 
-	// RVA: 0x8D3D70 Offset: 0x8D2370 VA: 0x1808D3D70
+	// RVA: 0x8D3E80 Offset: 0x8D2480 VA: 0x1808D3E80
 	public void CloseEyes() { }
 
-	// RVA: 0x8D4300 Offset: 0x8D2900 VA: 0x1808D4300
+	// RVA: 0x8D4410 Offset: 0x8D2A10 VA: 0x1808D4410
 	public void .ctor() { }
 
 }

@@ -13,62 +13,62 @@ public class SemaphoreSlim : IDisposable // TypeDefIndex: 759
 
 	// Methods
 
-	// RVA: 0x149A7B0 Offset: 0x1498DB0 VA: 0x18149A7B0
+	// RVA: 0x149AA70 Offset: 0x1499070 VA: 0x18149AA70
 	public void .ctor(int initialCount, int maxCount) { }
 
-	// RVA: 0x149A6E0 Offset: 0x1498CE0 VA: 0x18149A6E0
+	// RVA: 0x149A9A0 Offset: 0x1498FA0 VA: 0x18149A9A0
 	public void Wait() { }
 
-	// RVA: 0x149A1C0 Offset: 0x14987C0 VA: 0x18149A1C0
+	// RVA: 0x149A480 Offset: 0x1498A80 VA: 0x18149A480
 	public bool Wait(int millisecondsTimeout, CancellationToken cancellationToken) { }
 
-	// RVA: 0x149A110 Offset: 0x1498710 VA: 0x18149A110
+	// RVA: 0x149A3D0 Offset: 0x14989D0 VA: 0x18149A3D0
 	private bool WaitUntilCountOrTimeout(int millisecondsTimeout, uint startTime, CancellationToken cancellationToken) { }
 
-	// RVA: 0x1499FC0 Offset: 0x14985C0 VA: 0x181499FC0
+	// RVA: 0x149A280 Offset: 0x1498880 VA: 0x18149A280
 	public Task WaitAsync() { }
 
-	// RVA: 0x1499FB0 Offset: 0x14985B0 VA: 0x181499FB0
+	// RVA: 0x149A270 Offset: 0x1498870 VA: 0x18149A270
 	public Task<bool> WaitAsync(int millisecondsTimeout) { }
 
-	// RVA: 0x1499A90 Offset: 0x1498090 VA: 0x181499A90
+	// RVA: 0x1499D50 Offset: 0x1498350 VA: 0x181499D50
 	public Task<bool> WaitAsync(int millisecondsTimeout, CancellationToken cancellationToken) { }
 
-	// RVA: 0x14993E0 Offset: 0x14979E0 VA: 0x1814993E0
+	// RVA: 0x14996A0 Offset: 0x1497CA0 VA: 0x1814996A0
 	private SemaphoreSlim.TaskNode CreateAndAddAsyncWaiter() { }
 
-	// RVA: 0x14999A0 Offset: 0x1497FA0 VA: 0x1814999A0
+	// RVA: 0x1499C60 Offset: 0x1498260 VA: 0x181499C60
 	private bool RemoveAsyncWaiter(SemaphoreSlim.TaskNode task) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB2C00 Offset: 0xB2000 VA: 0x1800B2C00
-	// RVA: 0x1499FD0 Offset: 0x14985D0 VA: 0x181499FD0
+	// RVA: 0x149A290 Offset: 0x1498890 VA: 0x18149A290
 	private Task<bool> WaitUntilCountOrTimeoutAsync(SemaphoreSlim.TaskNode asyncWaiter, int millisecondsTimeout, CancellationToken cancellationToken) { }
 
-	// RVA: 0x1499610 Offset: 0x1497C10 VA: 0x181499610
+	// RVA: 0x14998D0 Offset: 0x1497ED0 VA: 0x1814998D0
 	public int Release() { }
 
-	// RVA: 0x1499620 Offset: 0x1497C20 VA: 0x181499620
+	// RVA: 0x14998E0 Offset: 0x1497EE0 VA: 0x1814998E0
 	public int Release(int releaseCount) { }
 
-	// RVA: 0x1499600 Offset: 0x1497C00 VA: 0x181499600
+	// RVA: 0x14998C0 Offset: 0x1497EC0 VA: 0x1814998C0
 	private static void QueueWaiterTask(SemaphoreSlim.TaskNode waiterTask) { }
 
-	// RVA: 0x1499580 Offset: 0x1497B80 VA: 0x181499580 Slot: 4
+	// RVA: 0x1499840 Offset: 0x1497E40 VA: 0x181499840 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x14994D0 Offset: 0x1497AD0 VA: 0x1814994D0 Slot: 5
+	// RVA: 0x1499790 Offset: 0x1497D90 VA: 0x181499790 Slot: 5
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x1499110 Offset: 0x1497710 VA: 0x181499110
+	// RVA: 0x14993D0 Offset: 0x14979D0 VA: 0x1814993D0
 	private static void CancellationTokenCanceledEventHandler(object obj) { }
 
-	// RVA: 0x1499340 Offset: 0x1497940 VA: 0x181499340
+	// RVA: 0x1499600 Offset: 0x1497C00 VA: 0x181499600
 	private void CheckDispose() { }
 
-	// RVA: 0x14995F0 Offset: 0x1497BF0 VA: 0x1814995F0
+	// RVA: 0x14998B0 Offset: 0x1497EB0 VA: 0x1814998B0
 	private static string GetResourceString(string str) { }
 
-	// RVA: 0x149A6F0 Offset: 0x1498CF0 VA: 0x18149A6F0
+	// RVA: 0x149A9B0 Offset: 0x1498FB0 VA: 0x18149A9B0
 	private static void .cctor() { }
 
 }
@@ -80,10 +80,10 @@ private sealed class SemaphoreSlim.TaskNode : Task<bool>, IThreadPoolWorkItem //
 
 	// Methods
 
-	// RVA: 0x149BFE0 Offset: 0x149A5E0 VA: 0x18149BFE0
+	// RVA: 0x149C2A0 Offset: 0x149A8A0 VA: 0x18149C2A0
 	internal void .ctor() { }
 
-	// RVA: 0x149BFA0 Offset: 0x149A5A0 VA: 0x18149BFA0 Slot: 4
+	// RVA: 0x149C260 Offset: 0x149A860 VA: 0x18149C260 Slot: 4
 	private void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5

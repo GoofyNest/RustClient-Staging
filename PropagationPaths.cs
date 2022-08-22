@@ -7,19 +7,19 @@ internal class PropagationPaths // TypeDefIndex: 4700
 
 	// Methods
 
-	// RVA: 0xEB98F0 Offset: 0xEB7EF0 VA: 0x180EB98F0
+	// RVA: 0xEB9BB0 Offset: 0xEB81B0 VA: 0x180EB9BB0
 	public void .ctor() { }
 
-	// RVA: 0xEB96E0 Offset: 0xEB7CE0 VA: 0x180EB96E0
+	// RVA: 0xEB99A0 Offset: 0xEB7FA0 VA: 0x180EB99A0
 	internal static PropagationPaths Copy(PropagationPaths paths) { }
 
-	// RVA: 0xEB9450 Offset: 0xEB7A50 VA: 0x180EB9450
+	// RVA: 0xEB9710 Offset: 0xEB7D10 VA: 0x180EB9710
 	public static PropagationPaths Build(VisualElement elem, PropagationPaths.Type pathTypesRequested) { }
 
-	// RVA: 0xEB97C0 Offset: 0xEB7DC0 VA: 0x180EB97C0
+	// RVA: 0xEB9A80 Offset: 0xEB8080 VA: 0x180EB9A80
 	public void Release() { }
 
-	// RVA: 0xEB9880 Offset: 0xEB7E80 VA: 0x180EB9880
+	// RVA: 0xEB9B40 Offset: 0xEB8140 VA: 0x180EB9B40
 	private static void .cctor() { }
 
 }

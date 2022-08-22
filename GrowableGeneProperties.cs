@@ -5,7 +5,7 @@ public class GrowableGeneProperties : ScriptableObject // TypeDefIndex: 9543
 
 	// Methods
 
-	// RVA: 0x730AF0 Offset: 0x72F0F0 VA: 0x180730AF0
+	// RVA: 0x730C00 Offset: 0x72F200 VA: 0x180730C00
 	public void .ctor() { }
 
 }

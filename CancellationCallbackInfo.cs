@@ -9,13 +9,13 @@ internal class CancellationCallbackInfo // TypeDefIndex: 753
 
 	// Methods
 
-	// RVA: 0x1490110 Offset: 0x148E710 VA: 0x181490110
+	// RVA: 0x14903D0 Offset: 0x148E9D0 VA: 0x1814903D0
 	internal void .ctor(Action<object> callback, object stateForCallback, SynchronizationContext targetSyncContext, ExecutionContext targetExecutionContext, CancellationTokenSource cancellationTokenSource) { }
 
-	// RVA: 0x148FE40 Offset: 0x148E440 VA: 0x18148FE40
+	// RVA: 0x1490100 Offset: 0x148E700 VA: 0x181490100
 	internal void ExecuteCallback() { }
 
-	// RVA: 0x1490080 Offset: 0x148E680 VA: 0x181490080
+	// RVA: 0x1490340 Offset: 0x148E940 VA: 0x181490340
 	private static void ExecutionContextCallback(object obj) { }
 
 }

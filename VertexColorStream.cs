@@ -40,52 +40,52 @@ public class VertexColorStream : MonoBehaviour // TypeDefIndex: 11531
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void OnDidApplyAnimationProperties() { }
 
-	// RVA: 0xADDB90 Offset: 0xADC190 VA: 0x180ADDB90
+	// RVA: 0xADDE50 Offset: 0xADC450 VA: 0x180ADDE50
 	public void init(Mesh origMesh, bool destroyOld) { }
 
-	// RVA: 0xADEAA0 Offset: 0xADD0A0 VA: 0x180ADEAA0
+	// RVA: 0xADED60 Offset: 0xADD360 VA: 0x180ADED60
 	public void setWholeMesh(Mesh tmpMesh) { }
 
-	// RVA: 0xADE900 Offset: 0xADCF00 VA: 0x180ADE900
+	// RVA: 0xADEBC0 Offset: 0xADD1C0 VA: 0x180ADEBC0
 	public Vector3[] setVertices(Vector3[] _deformedVertices) { }
 
-	// RVA: 0xADDB70 Offset: 0xADC170 VA: 0x180ADDB70
+	// RVA: 0xADDE30 Offset: 0xADC430 VA: 0x180ADDE30
 	public Vector3[] getVertices() { }
 
-	// RVA: 0xADDAD0 Offset: 0xADC0D0 VA: 0x180ADDAD0
+	// RVA: 0xADDD90 Offset: 0xADC390 VA: 0x180ADDD90
 	public Vector3[] getNormals() { }
 
-	// RVA: 0xADDB10 Offset: 0xADC110 VA: 0x180ADDB10
+	// RVA: 0xADDDD0 Offset: 0xADC3D0 VA: 0x180ADDDD0
 	public int[] getTriangles() { }
 
-	// RVA: 0xADE860 Offset: 0xADCE60 VA: 0x180ADE860
+	// RVA: 0xADEB20 Offset: 0xADD120 VA: 0x180ADEB20
 	public void setTangents(Vector4[] _meshTangents) { }
 
-	// RVA: 0xADDAF0 Offset: 0xADC0F0 VA: 0x180ADDAF0
+	// RVA: 0xADDDB0 Offset: 0xADC3B0 VA: 0x180ADDDB0
 	public Vector4[] getTangents() { }
 
-	// RVA: 0xADE810 Offset: 0xADCE10 VA: 0x180ADE810
+	// RVA: 0xADEAD0 Offset: 0xADD0D0 VA: 0x180ADEAD0
 	public void setColors(Color[] _vertexColors) { }
 
-	// RVA: 0xADDAB0 Offset: 0xADC0B0 VA: 0x180ADDAB0
+	// RVA: 0xADDD70 Offset: 0xADC370 VA: 0x180ADDD70
 	public Color[] getColors() { }
 
-	// RVA: 0xADDB50 Offset: 0xADC150 VA: 0x180ADDB50
+	// RVA: 0xADDE10 Offset: 0xADC410 VA: 0x180ADDE10
 	public Vector2[] getUVs() { }
 
-	// RVA: 0xADE8B0 Offset: 0xADCEB0 VA: 0x180ADE8B0
+	// RVA: 0xADEB70 Offset: 0xADD170 VA: 0x180ADEB70
 	public void setUV4s(Vector2[] _uv4s) { }
 
-	// RVA: 0xADDB30 Offset: 0xADC130 VA: 0x180ADDB30
+	// RVA: 0xADDDF0 Offset: 0xADC3F0 VA: 0x180ADDDF0
 	public Vector2[] getUV4s() { }
 
-	// RVA: 0xADECE0 Offset: 0xADD2E0 VA: 0x180ADECE0
+	// RVA: 0xADEFA0 Offset: 0xADD5A0 VA: 0x180ADEFA0
 	public void unlink() { }
 
-	// RVA: 0xADE160 Offset: 0xADC760 VA: 0x180ADE160
+	// RVA: 0xADE420 Offset: 0xADCA20 VA: 0x180ADE420
 	public void rebuild() { }
 
-	// RVA: 0xADDA30 Offset: 0xADC030 VA: 0x180ADDA30
+	// RVA: 0xADDCF0 Offset: 0xADC2F0 VA: 0x180ADDCF0
 	private void Start() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

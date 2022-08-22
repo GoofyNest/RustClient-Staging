@@ -13,82 +13,82 @@ public class CreateBuilding : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x20B8640 Offset: 0x20B6C40 VA: 0x1820B8640
+	// RVA: 0x20B8900 Offset: 0x20B6F00 VA: 0x1820B8900
 	public static void ResetToPool(CreateBuilding instance) { }
 
-	// RVA: 0x20B8740 Offset: 0x20B6D40 VA: 0x1820B8740
+	// RVA: 0x20B8A00 Offset: 0x20B7000 VA: 0x1820B8A00
 	public void ResetToPool() { }
 
-	// RVA: 0x20B7E10 Offset: 0x20B6410 VA: 0x1820B7E10 Slot: 9
+	// RVA: 0x20B80D0 Offset: 0x20B66D0 VA: 0x1820B80D0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20B5F50 Offset: 0x20B4550 VA: 0x1820B5F50
+	// RVA: 0x20B6210 Offset: 0x20B4810 VA: 0x1820B6210
 	public void CopyTo(CreateBuilding instance) { }
 
-	// RVA: 0x20B5FC0 Offset: 0x20B45C0 VA: 0x1820B5FC0
+	// RVA: 0x20B6280 Offset: 0x20B4880 VA: 0x1820B6280
 	public CreateBuilding Copy() { }
 
-	// RVA: 0x20B76E0 Offset: 0x20B5CE0 VA: 0x1820B76E0
+	// RVA: 0x20B79A0 Offset: 0x20B5FA0 VA: 0x1820B79A0
 	public static CreateBuilding Deserialize(Stream stream) { }
 
-	// RVA: 0x20B6450 Offset: 0x20B4A50 VA: 0x1820B6450
+	// RVA: 0x20B6710 Offset: 0x20B4D10 VA: 0x1820B6710
 	public static CreateBuilding DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20B6870 Offset: 0x20B4E70 VA: 0x1820B6870
+	// RVA: 0x20B6B30 Offset: 0x20B5130 VA: 0x1820B6B30
 	public static CreateBuilding DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20B7A10 Offset: 0x20B6010 VA: 0x1820B7A10
+	// RVA: 0x20B7CD0 Offset: 0x20B62D0 VA: 0x1820B7CD0
 	public static CreateBuilding Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20B7F90 Offset: 0x20B6590 VA: 0x1820B7F90
+	// RVA: 0x20B8250 Offset: 0x20B6850 VA: 0x1820B8250
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20B9590 Offset: 0x20B7B90 VA: 0x1820B9590 Slot: 12
+	// RVA: 0x20B9850 Offset: 0x20B7E50 VA: 0x1820B9850 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20B95B0 Offset: 0x20B7BB0 VA: 0x1820B95B0 Slot: 13
+	// RVA: 0x20B9870 Offset: 0x20B7E70 VA: 0x1820B9870 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, CreateBuilding previous) { }
 
-	// RVA: 0x20B8290 Offset: 0x20B6890 VA: 0x1820B8290 Slot: 14
+	// RVA: 0x20B8550 Offset: 0x20B6B50 VA: 0x1820B8550 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20B7310 Offset: 0x20B5910 VA: 0x1820B7310
+	// RVA: 0x20B75D0 Offset: 0x20B5BD0 VA: 0x1820B75D0
 	public static CreateBuilding Deserialize(byte[] buffer, CreateBuilding instance, bool isDelta = False) { }
 
-	// RVA: 0x20B7010 Offset: 0x20B5610 VA: 0x1820B7010
+	// RVA: 0x20B72D0 Offset: 0x20B58D0 VA: 0x1820B72D0
 	public static CreateBuilding Deserialize(Stream stream, CreateBuilding instance, bool isDelta) { }
 
-	// RVA: 0x20B6080 Offset: 0x20B4680 VA: 0x1820B6080
+	// RVA: 0x20B6340 Offset: 0x20B4940 VA: 0x1820B6340
 	public static CreateBuilding DeserializeLengthDelimited(Stream stream, CreateBuilding instance, bool isDelta) { }
 
-	// RVA: 0x20B6C60 Offset: 0x20B5260 VA: 0x1820B6C60
+	// RVA: 0x20B6F20 Offset: 0x20B5520 VA: 0x1820B6F20
 	public static CreateBuilding DeserializeLength(Stream stream, int length, CreateBuilding instance, bool isDelta) { }
 
-	// RVA: 0x20B8840 Offset: 0x20B6E40 VA: 0x1820B8840
+	// RVA: 0x20B8B00 Offset: 0x20B7100 VA: 0x1820B8B00
 	public static void SerializeDelta(Stream stream, CreateBuilding instance, CreateBuilding previous) { }
 
-	// RVA: 0x20B9130 Offset: 0x20B7730 VA: 0x1820B9130
+	// RVA: 0x20B93F0 Offset: 0x20B79F0 VA: 0x1820B93F0
 	public static void Serialize(Stream stream, CreateBuilding instance) { }
 
-	// RVA: 0x20B9580 Offset: 0x20B7B80 VA: 0x1820B9580
+	// RVA: 0x20B9840 Offset: 0x20B7E40 VA: 0x1820B9840
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20B9590 Offset: 0x20B7B90 VA: 0x1820B9590
+	// RVA: 0x20B9850 Offset: 0x20B7E50 VA: 0x1820B9850
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20B9020 Offset: 0x20B7620 VA: 0x1820B9020
+	// RVA: 0x20B92E0 Offset: 0x20B78E0 VA: 0x1820B92E0
 	public static byte[] SerializeToBytes(CreateBuilding instance) { }
 
-	// RVA: 0x20B8F70 Offset: 0x20B7570 VA: 0x1820B8F70
+	// RVA: 0x20B9230 Offset: 0x20B7830 VA: 0x1820B9230
 	public static void SerializeLengthDelimited(Stream stream, CreateBuilding instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

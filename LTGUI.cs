@@ -15,58 +15,58 @@ public class LTGUI // TypeDefIndex: 5587
 
 	// Methods
 
-	// RVA: 0x19A0E10 Offset: 0x199F410 VA: 0x1819A0E10
+	// RVA: 0x19A10D0 Offset: 0x199F6D0 VA: 0x1819A10D0
 	public static void init() { }
 
-	// RVA: 0x19A0C30 Offset: 0x199F230 VA: 0x1819A0C30
+	// RVA: 0x19A0EF0 Offset: 0x199F4F0 VA: 0x1819A0EF0
 	public static void initRectCheck() { }
 
-	// RVA: 0x19A12B0 Offset: 0x199F8B0 VA: 0x1819A12B0
+	// RVA: 0x19A1570 Offset: 0x199FB70 VA: 0x1819A1570
 	public static void reset() { }
 
-	// RVA: 0x19A1640 Offset: 0x199FC40 VA: 0x1819A1640
+	// RVA: 0x19A1900 Offset: 0x199FF00 VA: 0x1819A1900
 	public static void update(int updateLevel) { }
 
-	// RVA: 0x199FDE0 Offset: 0x199E3E0 VA: 0x18199FDE0
+	// RVA: 0x19A00A0 Offset: 0x199E6A0 VA: 0x1819A00A0
 	public static bool checkOnScreen(Rect rect) { }
 
-	// RVA: 0x19A00D0 Offset: 0x199E6D0 VA: 0x1819A00D0
+	// RVA: 0x19A0390 Offset: 0x199E990 VA: 0x1819A0390
 	public static void destroy(int id) { }
 
-	// RVA: 0x199FFB0 Offset: 0x199E5B0 VA: 0x18199FFB0
+	// RVA: 0x19A0270 Offset: 0x199E870 VA: 0x1819A0270
 	public static void destroyAll(int depth) { }
 
-	// RVA: 0x19A0F90 Offset: 0x199F590 VA: 0x1819A0F90
+	// RVA: 0x19A1250 Offset: 0x199F850 VA: 0x1819A1250
 	public static LTRect label(Rect rect, string label, int depth) { }
 
-	// RVA: 0x19A0F00 Offset: 0x199F500 VA: 0x1819A0F00
+	// RVA: 0x19A11C0 Offset: 0x199F7C0 VA: 0x1819A11C0
 	public static LTRect label(LTRect rect, string label, int depth) { }
 
-	// RVA: 0x19A1540 Offset: 0x199FB40 VA: 0x1819A1540
+	// RVA: 0x19A1800 Offset: 0x199FE00 VA: 0x1819A1800
 	public static LTRect texture(Rect rect, Texture texture, int depth) { }
 
-	// RVA: 0x19A14A0 Offset: 0x199FAA0 VA: 0x1819A14A0
+	// RVA: 0x19A1760 Offset: 0x199FD60 VA: 0x1819A1760
 	public static LTRect texture(LTRect rect, Texture texture, int depth) { }
 
-	// RVA: 0x19A02B0 Offset: 0x199E8B0 VA: 0x1819A02B0
+	// RVA: 0x19A0570 Offset: 0x199EB70 VA: 0x1819A0570
 	public static LTRect element(LTRect rect, int depth) { }
 
-	// RVA: 0x19A0820 Offset: 0x199EE20 VA: 0x1819A0820
+	// RVA: 0x19A0AE0 Offset: 0x199F0E0 VA: 0x1819A0AE0
 	public static bool hasNoOverlap(Rect rect, int depth) { }
 
-	// RVA: 0x19A1090 Offset: 0x199F690 VA: 0x1819A1090
+	// RVA: 0x19A1350 Offset: 0x199F950 VA: 0x1819A1350
 	public static bool pressedWithinRect(Rect rect) { }
 
-	// RVA: 0x199FEF0 Offset: 0x199E4F0 VA: 0x18199FEF0
+	// RVA: 0x19A01B0 Offset: 0x199E7B0 VA: 0x1819A01B0
 	public static bool checkWithinRect(Vector2 vec2, Rect rect) { }
 
-	// RVA: 0x19A0720 Offset: 0x199ED20 VA: 0x1819A0720
+	// RVA: 0x19A09E0 Offset: 0x199EFE0 VA: 0x1819A09E0
 	public static Vector2 firstTouch() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x199FD30 Offset: 0x199E330 VA: 0x18199FD30
+	// RVA: 0x199FFF0 Offset: 0x199E5F0 VA: 0x18199FFF0
 	private static void .cctor() { }
 
 }

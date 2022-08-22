@@ -16,7 +16,7 @@ public class SpawnGroup : BaseMonoBehaviour, IServerComponent // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0xA7DA90 Offset: 0xA7C090 VA: 0x180A7DA90
+	// RVA: 0xA7DD50 Offset: 0xA7C350 VA: 0x180A7DD50
 	public void .ctor() { }
 
 }
@@ -29,7 +29,7 @@ public class SpawnGroup.SpawnEntry // TypeDefIndex: 10009
 
 	// Methods
 
-	// RVA: 0x83C7F0 Offset: 0x83ADF0 VA: 0x18083C7F0
+	// RVA: 0x83C900 Offset: 0x83AF00 VA: 0x18083C900
 	public void .ctor() { }
 
 }

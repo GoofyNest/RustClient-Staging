@@ -44,7 +44,7 @@ public class BaseMovement : MonoBehaviour // TypeDefIndex: 9668
 	private void set_Owner(BasePlayer value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0440 Offset: 0x7CEA40 VA: 0x1807D0440
+	// RVA: 0x7D0550 Offset: 0x7CEB50 VA: 0x1807D0550
 	public Vector3 get_InheritedVelocity() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -52,7 +52,7 @@ public class BaseMovement : MonoBehaviour // TypeDefIndex: 9668
 	public void set_InheritedVelocity(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D000 Offset: 0xA4B600 VA: 0x180A4D000
+	// RVA: 0xA4D2C0 Offset: 0xA4B8C0 VA: 0x180A4D2C0
 	public Vector3 get_TargetMovement() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -68,19 +68,19 @@ public class BaseMovement : MonoBehaviour // TypeDefIndex: 9668
 	protected void set_Running(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8054E0 Offset: 0x803AE0 VA: 0x1808054E0
+	// RVA: 0x8055F0 Offset: 0x803BF0 VA: 0x1808055F0
 	public float get_Ducking() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x88AA90 Offset: 0x889090 VA: 0x18088AA90
+	// RVA: 0x88ABA0 Offset: 0x8891A0 VA: 0x18088ABA0
 	protected void set_Ducking(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6F0650 Offset: 0x6EEC50 VA: 0x1806F0650
+	// RVA: 0x6F0760 Offset: 0x6EED60 VA: 0x1806F0760
 	public float get_Crawling() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6F0660 Offset: 0x6EEC60 VA: 0x1806F0660
+	// RVA: 0x6F0770 Offset: 0x6EED70 VA: 0x1806F0770
 	protected void set_Crawling(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -91,19 +91,19 @@ public class BaseMovement : MonoBehaviour // TypeDefIndex: 9668
 	// RVA: 0x4BC620 Offset: 0x4BAC20 VA: 0x1804BC620
 	protected void set_Grounded(float value) { }
 
-	// RVA: 0xA4CFC0 Offset: 0xA4B5C0 VA: 0x180A4CFC0
+	// RVA: 0xA4D280 Offset: 0xA4B880 VA: 0x180A4D280
 	public bool get_IsRunning() { }
 
-	// RVA: 0xA4CFA0 Offset: 0xA4B5A0 VA: 0x180A4CFA0
+	// RVA: 0xA4D260 Offset: 0xA4B860 VA: 0x180A4D260
 	public bool get_IsDucked() { }
 
-	// RVA: 0xA4CF90 Offset: 0xA4B590 VA: 0x180A4CF90
+	// RVA: 0xA4D250 Offset: 0xA4B850 VA: 0x180A4D250
 	public bool get_IsCrawling() { }
 
-	// RVA: 0xA4CFB0 Offset: 0xA4B5B0 VA: 0x180A4CFB0
+	// RVA: 0xA4D270 Offset: 0xA4B870 VA: 0x180A4D270
 	public bool get_IsGrounded() { }
 
-	// RVA: 0xA4CD10 Offset: 0xA4B310 VA: 0x180A4CD10 Slot: 4
+	// RVA: 0xA4CFD0 Offset: 0xA4B5D0 VA: 0x180A4CFD0 Slot: 4
 	public virtual Vector3 CurrentVelocity() { }
 
 	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 5
@@ -121,7 +121,7 @@ public class BaseMovement : MonoBehaviour // TypeDefIndex: 9668
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 9
 	public virtual void BlockSprint(float duration) { }
 
-	// RVA: 0xA4CFD0 Offset: 0xA4B5D0 VA: 0x180A4CFD0
+	// RVA: 0xA4D290 Offset: 0xA4B890 VA: 0x180A4D290
 	public bool get_RecentlyTeleported() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 10
@@ -130,10 +130,10 @@ public class BaseMovement : MonoBehaviour // TypeDefIndex: 9668
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 11
 	public virtual void DoFixedUpdate(ModelState modelState) { }
 
-	// RVA: 0xA4CE00 Offset: 0xA4B400 VA: 0x180A4CE00 Slot: 12
+	// RVA: 0xA4D0C0 Offset: 0xA4B6C0 VA: 0x180A4D0C0 Slot: 12
 	public virtual void FrameUpdate(BasePlayer player, ModelState modelState) { }
 
-	// RVA: 0xA4CEF0 Offset: 0xA4B4F0 VA: 0x180A4CEF0 Slot: 13
+	// RVA: 0xA4D1B0 Offset: 0xA4B7B0 VA: 0x180A4D1B0 Slot: 13
 	public virtual void TeleportTo(Vector3 position, BasePlayer player) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 14
@@ -142,7 +142,7 @@ public class BaseMovement : MonoBehaviour // TypeDefIndex: 9668
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 15
 	public virtual void SetParent(Transform parent) { }
 
-	// RVA: 0xA4CD80 Offset: 0xA4B380 VA: 0x180A4CD80
+	// RVA: 0xA4D040 Offset: 0xA4B640 VA: 0x180A4D040
 	public void FixedUpdate() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 16
@@ -151,7 +151,7 @@ public class BaseMovement : MonoBehaviour // TypeDefIndex: 9668
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 17
 	public virtual void PlayerCompletedMount() { }
 
-	// RVA: 0x6F5DE0 Offset: 0x6F43E0 VA: 0x1806F5DE0
+	// RVA: 0x6F5EF0 Offset: 0x6F44F0 VA: 0x1806F5EF0
 	public void .ctor() { }
 
 }

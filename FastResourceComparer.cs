@@ -4,40 +4,40 @@ internal sealed class FastResourceComparer : IComparer, IEqualityComparer, IComp
 
 	// Methods
 
-	// RVA: 0xFE6BC0 Offset: 0xFE51C0 VA: 0x180FE6BC0 Slot: 6
+	// RVA: 0xFE6E80 Offset: 0xFE5480 VA: 0x180FE6E80 Slot: 6
 	public int GetHashCode(object key) { }
 
-	// RVA: 0xFE6B20 Offset: 0xFE5120 VA: 0x180FE6B20 Slot: 9
+	// RVA: 0xFE6DE0 Offset: 0xFE53E0 VA: 0x180FE6DE0 Slot: 9
 	public int GetHashCode(string key) { }
 
-	// RVA: 0xFE6C80 Offset: 0xFE5280 VA: 0x180FE6C80
+	// RVA: 0xFE6F40 Offset: 0xFE5540 VA: 0x180FE6F40
 	internal static int HashFunction(string key) { }
 
-	// RVA: 0xFE69A0 Offset: 0xFE4FA0 VA: 0x180FE69A0 Slot: 4
+	// RVA: 0xFE6C60 Offset: 0xFE5260 VA: 0x180FE6C60 Slot: 4
 	public int Compare(object a, object b) { }
 
-	// RVA: 0xFE6A40 Offset: 0xFE5040 VA: 0x180FE6A40 Slot: 7
+	// RVA: 0xFE6D00 Offset: 0xFE5300 VA: 0x180FE6D00 Slot: 7
 	public int Compare(string a, string b) { }
 
-	// RVA: 0xFE6B00 Offset: 0xFE5100 VA: 0x180FE6B00 Slot: 8
+	// RVA: 0xFE6DC0 Offset: 0xFE53C0 VA: 0x180FE6DC0 Slot: 8
 	public bool Equals(string a, string b) { }
 
-	// RVA: 0xFE6A60 Offset: 0xFE5060 VA: 0x180FE6A60 Slot: 5
+	// RVA: 0xFE6D20 Offset: 0xFE5320 VA: 0x180FE6D20 Slot: 5
 	public bool Equals(object a, object b) { }
 
-	// RVA: 0xFE6700 Offset: 0xFE4D00 VA: 0x180FE6700
+	// RVA: 0xFE69C0 Offset: 0xFE4FC0 VA: 0x180FE69C0
 	public static int CompareOrdinal(string a, byte[] bytes, int bCharLength) { }
 
-	// RVA: 0xFE6890 Offset: 0xFE4E90 VA: 0x180FE6890
+	// RVA: 0xFE6B50 Offset: 0xFE5150 VA: 0x180FE6B50
 	public static int CompareOrdinal(byte[] bytes, int aCharLength, string b) { }
 
-	// RVA: 0xFE67E0 Offset: 0xFE4DE0 VA: 0x180FE67E0
+	// RVA: 0xFE6AA0 Offset: 0xFE50A0 VA: 0x180FE6AA0
 	internal static int CompareOrdinal(byte* a, int byteLen, string b) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFE6CE0 Offset: 0xFE52E0 VA: 0x180FE6CE0
+	// RVA: 0xFE6FA0 Offset: 0xFE55A0 VA: 0x180FE6FA0
 	private static void .cctor() { }
 
 }

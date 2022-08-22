@@ -14,34 +14,34 @@ internal class GAHTTPApi // TypeDefIndex: 5673
 
 	// Methods
 
-	// RVA: 0x13B8050 Offset: 0x13B6650 VA: 0x1813B8050
+	// RVA: 0x13B8310 Offset: 0x13B6910 VA: 0x1813B8310
 	private static string getBaseUrl() { }
 
-	// RVA: 0x13B82D0 Offset: 0x13B68D0 VA: 0x1813B82D0
+	// RVA: 0x13B8590 Offset: 0x13B6B90 VA: 0x1813B8590
 	public static GAHTTPApi get_Instance() { }
 
-	// RVA: 0x13B7FC0 Offset: 0x13B65C0 VA: 0x1813B7FC0
+	// RVA: 0x13B8280 Offset: 0x13B6880 VA: 0x1813B8280
 	private void .ctor() { }
 
-	// RVA: 0x13B5B20 Offset: 0x13B4120 VA: 0x1813B5B20
+	// RVA: 0x13B5DE0 Offset: 0x13B43E0 VA: 0x1813B5DE0
 	private bool MyRemoteCertificateValidationCallback(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { }
 
-	// RVA: 0x13B6120 Offset: 0x13B4720 VA: 0x1813B6120
+	// RVA: 0x13B63E0 Offset: 0x13B49E0 VA: 0x1813B63E0
 	public KeyValuePair<EGAHTTPApiResponse, JSONObject> RequestInitReturningDict() { }
 
-	// RVA: 0x13B6FD0 Offset: 0x13B55D0 VA: 0x1813B6FD0
+	// RVA: 0x13B7290 Offset: 0x13B5890 VA: 0x1813B7290
 	public KeyValuePair<EGAHTTPApiResponse, JSONNode> SendEventsInArray(List<JSONNode> eventArray) { }
 
-	// RVA: 0x13B54F0 Offset: 0x13B3AF0 VA: 0x1813B54F0
+	// RVA: 0x13B57B0 Offset: 0x13B3DB0 VA: 0x1813B57B0
 	private byte[] CreatePayloadData(string payload, bool gzip) { }
 
-	// RVA: 0x13B58A0 Offset: 0x13B3EA0 VA: 0x1813B58A0
+	// RVA: 0x13B5B60 Offset: 0x13B4160 VA: 0x1813B5B60
 	private HttpWebRequest CreateRequest(string url, byte[] payloadData, bool gzip) { }
 
-	// RVA: 0x13B5D20 Offset: 0x13B4320 VA: 0x1813B5D20
+	// RVA: 0x13B5FE0 Offset: 0x13B45E0 VA: 0x1813B5FE0
 	private EGAHTTPApiResponse ProcessRequestResponse(HttpStatusCode responseCode, string responseMessage, string body, string requestId) { }
 
-	// RVA: 0x13B7E20 Offset: 0x13B6420 VA: 0x1813B7E20
+	// RVA: 0x13B80E0 Offset: 0x13B66E0 VA: 0x1813B80E0
 	private static void .cctor() { }
 
 }

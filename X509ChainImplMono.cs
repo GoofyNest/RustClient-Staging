@@ -31,7 +31,7 @@ internal class X509ChainImplMono : X509ChainImpl // TypeDefIndex: 2827
 
 	// Methods
 
-	// RVA: 0x14D8490 Offset: 0x14D6A90 VA: 0x1814D8490
+	// RVA: 0x14D8750 Offset: 0x14D6D50 VA: 0x1814D8750
 	public void .ctor(bool useMachineContext) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 5
@@ -43,104 +43,104 @@ internal class X509ChainImplMono : X509ChainImpl // TypeDefIndex: 2827
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0 Slot: 7
 	public override void set_ChainPolicy(X509ChainPolicy value) { }
 
-	// RVA: 0x14D8840 Offset: 0x14D6E40 VA: 0x1814D8840 Slot: 8
+	// RVA: 0x14D8B00 Offset: 0x14D7100 VA: 0x1814D8B00 Slot: 8
 	public override X509ChainStatus[] get_ChainStatus() { }
 
 	[MonoTODOAttribute] // RVA: 0xB06A0 Offset: 0xAFAA0 VA: 0x1800B06A0
-	// RVA: 0x14D5800 Offset: 0x14D3E00 VA: 0x1814D5800 Slot: 9
+	// RVA: 0x14D5AC0 Offset: 0x14D40C0 VA: 0x1814D5AC0 Slot: 9
 	public override bool Build(X509Certificate2 certificate) { }
 
-	// RVA: 0x14D7C80 Offset: 0x14D6280 VA: 0x1814D7C80 Slot: 10
+	// RVA: 0x14D7F40 Offset: 0x14D6540 VA: 0x1814D7F40 Slot: 10
 	public override void Reset() { }
 
-	// RVA: 0x14D8A30 Offset: 0x14D7030 VA: 0x1814D8A30
+	// RVA: 0x14D8CF0 Offset: 0x14D72F0 VA: 0x1814D8CF0
 	private X509Certificate2Collection get_Roots() { }
 
-	// RVA: 0x14D8590 Offset: 0x14D6B90 VA: 0x1814D8590
+	// RVA: 0x14D8850 Offset: 0x14D6E50 VA: 0x1814D8850
 	private X509Certificate2Collection get_CertificateAuthorities() { }
 
-	// RVA: 0x14D8970 Offset: 0x14D6F70 VA: 0x1814D8970
+	// RVA: 0x14D8C30 Offset: 0x14D7230 VA: 0x1814D8C30
 	private X509Store get_LMRootStore() { }
 
-	// RVA: 0x14D8BE0 Offset: 0x14D71E0 VA: 0x1814D8BE0
+	// RVA: 0x14D8EA0 Offset: 0x14D74A0 VA: 0x1814D8EA0
 	private X509Store get_UserRootStore() { }
 
-	// RVA: 0x14D88B0 Offset: 0x14D6EB0 VA: 0x1814D88B0
+	// RVA: 0x14D8B70 Offset: 0x14D7170 VA: 0x1814D8B70
 	private X509Store get_LMCAStore() { }
 
-	// RVA: 0x14D8B20 Offset: 0x14D7120 VA: 0x1814D8B20
+	// RVA: 0x14D8DE0 Offset: 0x14D73E0 VA: 0x1814D8DE0
 	private X509Store get_UserCAStore() { }
 
-	// RVA: 0x14D8680 Offset: 0x14D6C80 VA: 0x1814D8680
+	// RVA: 0x14D8940 Offset: 0x14D6F40 VA: 0x1814D8940
 	private X509Certificate2Collection get_CertificateCollection() { }
 
-	// RVA: 0x14D5620 Offset: 0x14D3C20 VA: 0x1814D5620
+	// RVA: 0x14D58E0 Offset: 0x14D3EE0 VA: 0x1814D58E0
 	private X509ChainStatusFlags BuildChainFrom(X509Certificate2 certificate) { }
 
-	// RVA: 0x14D7E50 Offset: 0x14D6450 VA: 0x1814D7E50
+	// RVA: 0x14D8110 Offset: 0x14D6710 VA: 0x1814D8110
 	private X509Certificate2 SelectBestFromCollection(X509Certificate2 child, X509Certificate2Collection c) { }
 
-	// RVA: 0x14D6960 Offset: 0x14D4F60 VA: 0x1814D6960
+	// RVA: 0x14D6C20 Offset: 0x14D5220 VA: 0x1814D6C20
 	private X509Certificate2 FindParent(X509Certificate2 certificate) { }
 
-	// RVA: 0x14D6EA0 Offset: 0x14D54A0 VA: 0x1814D6EA0
+	// RVA: 0x14D7160 Offset: 0x14D5760 VA: 0x1814D7160
 	private bool IsChainComplete(X509Certificate2 certificate) { }
 
-	// RVA: 0x14D6FC0 Offset: 0x14D55C0 VA: 0x1814D6FC0
+	// RVA: 0x14D7280 Offset: 0x14D5880 VA: 0x1814D7280
 	private bool IsSelfIssued(X509Certificate2 certificate) { }
 
-	// RVA: 0x14D80B0 Offset: 0x14D66B0 VA: 0x1814D80B0
+	// RVA: 0x14D8370 Offset: 0x14D6970 VA: 0x1814D8370
 	private void ValidateChain(X509ChainStatusFlags flag) { }
 
-	// RVA: 0x14D78D0 Offset: 0x14D5ED0 VA: 0x1814D78D0
+	// RVA: 0x14D7B90 Offset: 0x14D6190 VA: 0x1814D7B90
 	private void Process(int n) { }
 
-	// RVA: 0x14D7060 Offset: 0x14D5660 VA: 0x1814D7060
+	// RVA: 0x14D7320 Offset: 0x14D5920 VA: 0x1814D7320
 	private void PrepareForNextCertificate(int n) { }
 
-	// RVA: 0x14D8350 Offset: 0x14D6950 VA: 0x1814D8350
+	// RVA: 0x14D8610 Offset: 0x14D6C10 VA: 0x1814D8610
 	private void WrapUp() { }
 
-	// RVA: 0x14D72D0 Offset: 0x14D58D0 VA: 0x1814D72D0
+	// RVA: 0x14D7590 Offset: 0x14D5B90 VA: 0x1814D7590
 	private void ProcessCertificateExtensions(X509ChainElement element) { }
 
-	// RVA: 0x14D7010 Offset: 0x14D5610 VA: 0x1814D7010
+	// RVA: 0x14D72D0 Offset: 0x14D58D0 VA: 0x1814D72D0
 	private bool IsSignedWith(X509Certificate2 signed, AsymmetricAlgorithm pubkey) { }
 
-	// RVA: 0x14D6D90 Offset: 0x14D5390 VA: 0x1814D6D90
+	// RVA: 0x14D7050 Offset: 0x14D5650 VA: 0x1814D7050
 	private string GetSubjectKeyIdentifier(X509Certificate2 certificate) { }
 
-	// RVA: 0x14D6B20 Offset: 0x14D5120 VA: 0x1814D6B20
+	// RVA: 0x14D6DE0 Offset: 0x14D53E0 VA: 0x1814D6DE0
 	private static string GetAuthorityKeyIdentifier(X509Certificate2 certificate) { }
 
-	// RVA: 0x14D6BB0 Offset: 0x14D51B0 VA: 0x1814D6BB0
+	// RVA: 0x14D6E70 Offset: 0x14D5470 VA: 0x1814D6E70
 	private static string GetAuthorityKeyIdentifier(X509Crl crl) { }
 
-	// RVA: 0x14D6C30 Offset: 0x14D5230 VA: 0x1814D6C30
+	// RVA: 0x14D6EF0 Offset: 0x14D54F0 VA: 0x1814D6EF0
 	private static string GetAuthorityKeyIdentifier(X509Extension ext) { }
 
-	// RVA: 0x14D6180 Offset: 0x14D4780 VA: 0x1814D6180
+	// RVA: 0x14D6440 Offset: 0x14D4A40 VA: 0x1814D6440
 	private void CheckRevocationOnChain(X509ChainStatusFlags flag) { }
 
-	// RVA: 0x14D6650 Offset: 0x14D4C50 VA: 0x1814D6650
+	// RVA: 0x14D6910 Offset: 0x14D4F10 VA: 0x1814D6910
 	private X509ChainStatusFlags CheckRevocation(X509Certificate2 certificate, int ca, bool online) { }
 
-	// RVA: 0x14D63E0 Offset: 0x14D49E0 VA: 0x1814D63E0
+	// RVA: 0x14D66A0 Offset: 0x14D4CA0 VA: 0x1814D66A0
 	private X509ChainStatusFlags CheckRevocation(X509Certificate2 certificate, X509Certificate2 ca_cert, bool online) { }
 
-	// RVA: 0x14D5EC0 Offset: 0x14D44C0 VA: 0x1814D5EC0
+	// RVA: 0x14D6180 Offset: 0x14D4780 VA: 0x1814D6180
 	private static X509Crl CheckCrls(string subject, string ski, X509Store store) { }
 
-	// RVA: 0x14D6790 Offset: 0x14D4D90 VA: 0x1814D6790
+	// RVA: 0x14D6A50 Offset: 0x14D5050 VA: 0x1814D6A50
 	private X509Crl FindCrl(X509Certificate2 caCertificate) { }
 
-	// RVA: 0x14D76C0 Offset: 0x14D5CC0 VA: 0x1814D76C0
+	// RVA: 0x14D7980 Offset: 0x14D5F80 VA: 0x1814D7980
 	private bool ProcessCrlExtensions(X509Crl crl) { }
 
-	// RVA: 0x14D74D0 Offset: 0x14D5AD0 VA: 0x1814D74D0
+	// RVA: 0x14D7790 Offset: 0x14D5D90 VA: 0x1814D7790
 	private bool ProcessCrlEntryExtensions(X509Crl.X509CrlEntry entry) { }
 
-	// RVA: 0x14D8440 Offset: 0x14D6A40 VA: 0x1814D8440
+	// RVA: 0x14D8700 Offset: 0x14D6D00 VA: 0x1814D8700
 	private static void .cctor() { }
 
 }

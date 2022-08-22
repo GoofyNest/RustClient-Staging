@@ -4,7 +4,7 @@ internal sealed class DeserializationEventHandler : MulticastDelegate // TypeDef
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x11F24B0 Offset: 0x11F0AB0 VA: 0x1811F24B0 Slot: 12
+	// RVA: 0x11F2770 Offset: 0x11F0D70 VA: 0x1811F2770 Slot: 12
 	public virtual void Invoke(object sender) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13

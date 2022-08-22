@@ -26,19 +26,19 @@ internal class NativeTypeAttribute : Attribute // TypeDefIndex: 3279
 	public void set_IntermediateScriptingStructName(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D620 Offset: 0x69BC20 VA: 0x18069D620 Slot: 8
+	// RVA: 0x69D730 Offset: 0x69BD30 VA: 0x18069D730 Slot: 8
 	public void set_CodegenOptions(CodegenOptions value) { }
 
-	// RVA: 0x2311AA0 Offset: 0x23100A0 VA: 0x182311AA0
+	// RVA: 0x2311D60 Offset: 0x2310360 VA: 0x182311D60
 	public void .ctor() { }
 
-	// RVA: 0x2311990 Offset: 0x230FF90 VA: 0x182311990
+	// RVA: 0x2311C50 Offset: 0x2310250 VA: 0x182311C50
 	public void .ctor(CodegenOptions codegenOptions) { }
 
-	// RVA: 0x23119C0 Offset: 0x230FFC0 VA: 0x1823119C0
+	// RVA: 0x2311C80 Offset: 0x2310280 VA: 0x182311C80
 	public void .ctor(string header) { }
 
-	// RVA: 0x2311AC0 Offset: 0x23100C0 VA: 0x182311AC0
+	// RVA: 0x2311D80 Offset: 0x2310380 VA: 0x182311D80
 	public void .ctor(CodegenOptions codegenOptions, string intermediateStructName) { }
 
 }

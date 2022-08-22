@@ -18,40 +18,40 @@ public class DroppedItemContainer : BaseCombatEntity, LootPanel.IHasLootPanel, I
 
 	// Methods
 
-	// RVA: 0xAB2180 Offset: 0xAB0780 VA: 0x180AB2180 Slot: 49
+	// RVA: 0xAB2440 Offset: 0xAB0A40 VA: 0x180AB2440 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xAB24C0 Offset: 0xAB0AC0 VA: 0x180AB24C0 Slot: 35
+	// RVA: 0xAB2780 Offset: 0xAB0D80 VA: 0x180AB2780 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xAB2620 Offset: 0xAB0C20 VA: 0x180AB2620 Slot: 145
+	// RVA: 0xAB28E0 Offset: 0xAB0EE0 VA: 0x180AB28E0 Slot: 145
 	public Translate.Phrase get_LootPanelTitle() { }
 
-	// RVA: 0xAB2660 Offset: 0xAB0C60 VA: 0x180AB2660
+	// RVA: 0xAB2920 Offset: 0xAB0F20 VA: 0x180AB2920
 	public string get_playerName() { }
 
-	// RVA: 0xAB2680 Offset: 0xAB0C80 VA: 0x180AB2680
+	// RVA: 0xAB2940 Offset: 0xAB0F40 VA: 0x180AB2940
 	public void set_playerName(string value) { }
 
-	// RVA: 0xAB2400 Offset: 0xAB0A00 VA: 0x180AB2400 Slot: 34
+	// RVA: 0xAB26C0 Offset: 0xAB0CC0 VA: 0x180AB26C0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
 	[BaseEntity.Menu] // RVA: 0xDA1C0 Offset: 0xD95C0 VA: 0x1800DA1C0
 	[BaseEntity.Menu.Description] // RVA: 0xDA1C0 Offset: 0xD95C0 VA: 0x1800DA1C0
 	[BaseEntity.Menu.Icon] // RVA: 0xDA1C0 Offset: 0xD95C0 VA: 0x1800DA1C0
-	// RVA: 0xAB2480 Offset: 0xAB0A80 VA: 0x180AB2480
+	// RVA: 0xAB2740 Offset: 0xAB0D40 VA: 0x180AB2740
 	public void Menu_Open(BasePlayer player) { }
 
-	// RVA: 0xAB2650 Offset: 0xAB0C50 VA: 0x180AB2650 Slot: 146
+	// RVA: 0xAB2910 Offset: 0xAB0F10 VA: 0x180AB2910 Slot: 146
 	public SoundDefinition get_OpenSound() { }
 
-	// RVA: 0xAB2610 Offset: 0xAB0C10 VA: 0x180AB2610 Slot: 147
+	// RVA: 0xAB28D0 Offset: 0xAB0ED0 VA: 0x180AB28D0 Slot: 147
 	public SoundDefinition get_CloseSound() { }
 
-	// RVA: 0xAB25B0 Offset: 0xAB0BB0 VA: 0x180AB25B0
+	// RVA: 0xAB2870 Offset: 0xAB0E70 VA: 0x180AB2870
 	public void .ctor() { }
 
 }

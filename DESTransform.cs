@@ -16,31 +16,31 @@ internal class DESTransform : SymmetricTransform // TypeDefIndex: 1004
 
 	// Methods
 
-	// RVA: 0x16FE890 Offset: 0x16FCE90 VA: 0x1816FE890
+	// RVA: 0x16FEB50 Offset: 0x16FD150 VA: 0x1816FEB50
 	internal void .ctor(SymmetricAlgorithm symmAlgo, bool encryption, byte[] key, byte[] iv) { }
 
-	// RVA: 0x16FD230 Offset: 0x16FB830 VA: 0x1816FD230
+	// RVA: 0x16FD4F0 Offset: 0x16FBAF0 VA: 0x1816FD4F0
 	private uint CipherFunct(uint r, int n) { }
 
-	// RVA: 0x16FD750 Offset: 0x16FBD50 VA: 0x1816FD750
+	// RVA: 0x16FDA10 Offset: 0x16FC010 VA: 0x1816FDA10
 	internal static void Permutation(byte[] input, byte[] output, uint[] permTab, bool preSwap) { }
 
-	// RVA: 0x16FD180 Offset: 0x16FB780 VA: 0x1816FD180
+	// RVA: 0x16FD440 Offset: 0x16FBA40 VA: 0x1816FD440
 	private static void BSwap(byte[] byteBuff) { }
 
-	// RVA: 0x16FE1E0 Offset: 0x16FC7E0 VA: 0x1816FE1E0
+	// RVA: 0x16FE4A0 Offset: 0x16FCAA0 VA: 0x1816FE4A0
 	internal void SetKey(byte[] key) { }
 
-	// RVA: 0x16FDD30 Offset: 0x16FC330 VA: 0x1816FDD30
+	// RVA: 0x16FDFF0 Offset: 0x16FC5F0 VA: 0x1816FDFF0
 	public void ProcessBlock(byte[] input, byte[] output) { }
 
-	// RVA: 0x16FD5B0 Offset: 0x16FBBB0 VA: 0x1816FD5B0 Slot: 15
+	// RVA: 0x16FD870 Offset: 0x16FBE70 VA: 0x1816FD870 Slot: 15
 	protected override void ECB(byte[] input, byte[] output) { }
 
-	// RVA: 0x16FD680 Offset: 0x16FBC80 VA: 0x1816FD680
+	// RVA: 0x16FD940 Offset: 0x16FBF40 VA: 0x1816FD940
 	internal static byte[] GetStrongKey() { }
 
-	// RVA: 0x16FE670 Offset: 0x16FCC70 VA: 0x1816FE670
+	// RVA: 0x16FE930 Offset: 0x16FCF30 VA: 0x1816FE930
 	private static void .cctor() { }
 
 }

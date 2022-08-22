@@ -19,67 +19,67 @@ public class AtmosphereVolumeRenderer : MonoBehaviour // TypeDefIndex: 10641
 
 	// Methods
 
-	// RVA: 0x833FD0 Offset: 0x8325D0 VA: 0x180833FD0
+	// RVA: 0x8340E0 Offset: 0x8326E0 VA: 0x1808340E0
 	private static bool get_isSupported() { }
 
-	// RVA: 0x833F30 Offset: 0x832530 VA: 0x180833F30
+	// RVA: 0x834040 Offset: 0x832640 VA: 0x180834040
 	public Camera get_TargetCamera() { }
 
-	// RVA: 0x831F00 Offset: 0x830500 VA: 0x180831F00
+	// RVA: 0x832010 Offset: 0x830610 VA: 0x180832010
 	public static void Clear() { }
 
-	// RVA: 0x8328F0 Offset: 0x830EF0 VA: 0x1808328F0
+	// RVA: 0x832A00 Offset: 0x831000 VA: 0x180832A00
 	public static void Register(AtmosphereVolume volume) { }
 
-	// RVA: 0x833B00 Offset: 0x832100 VA: 0x180833B00
+	// RVA: 0x833C10 Offset: 0x832210 VA: 0x180833C10
 	public static void Unregister(AtmosphereVolume volume) { }
 
-	// RVA: 0x832870 Offset: 0x830E70 VA: 0x180832870
+	// RVA: 0x832980 Offset: 0x830F80 VA: 0x180832980
 	private void OnEnable() { }
 
-	// RVA: 0x8326D0 Offset: 0x830CD0 VA: 0x1808326D0
+	// RVA: 0x8327E0 Offset: 0x830DE0 VA: 0x1808327E0
 	private void OnDisable() { }
 
-	// RVA: 0x833D50 Offset: 0x832350 VA: 0x180833D50
+	// RVA: 0x833E60 Offset: 0x832460 VA: 0x180833E60
 	private void Update() { }
 
-	// RVA: 0x831AC0 Offset: 0x8300C0 VA: 0x180831AC0
+	// RVA: 0x831BD0 Offset: 0x8301D0 VA: 0x180831BD0
 	private void CheckCommandBuffer() { }
 
-	// RVA: 0x831D10 Offset: 0x830310 VA: 0x180831D10
+	// RVA: 0x831E20 Offset: 0x830420 VA: 0x180831E20
 	private void CleanupCommandBuffer() { }
 
-	// RVA: 0x831C40 Offset: 0x830240 VA: 0x180831C40
+	// RVA: 0x831D50 Offset: 0x830350 VA: 0x180831D50
 	private void CheckMaterials() { }
 
-	// RVA: 0x831DD0 Offset: 0x8303D0 VA: 0x180831DD0
+	// RVA: 0x831EE0 Offset: 0x8304E0 VA: 0x180831EE0
 	private void CleanupMaterials() { }
 
-	// RVA: 0x833C10 Offset: 0x832210 VA: 0x180833C10
+	// RVA: 0x833D20 Offset: 0x832320 VA: 0x180833D20
 	private void UpdateVolumeMesh() { }
 
-	// RVA: 0x832330 Offset: 0x830930 VA: 0x180832330
+	// RVA: 0x832440 Offset: 0x830A40 VA: 0x180832440
 	public void FindAndSortVolumes(Camera camera) { }
 
-	// RVA: 0x833BC0 Offset: 0x8321C0 VA: 0x180833BC0
+	// RVA: 0x833CD0 Offset: 0x8322D0 VA: 0x180833CD0
 	public void UpdateAtmosphere() { }
 
-	// RVA: 0x8329B0 Offset: 0x830FB0 VA: 0x1808329B0
+	// RVA: 0x832AC0 Offset: 0x8310C0 VA: 0x180832AC0
 	private void SetFrustumGlobalShaderParams(CommandBuffer cb, Camera camera) { }
 
-	// RVA: 0x8331A0 Offset: 0x8317A0 VA: 0x1808331A0
+	// RVA: 0x8332B0 Offset: 0x8318B0 VA: 0x1808332B0
 	private bool SetGlobalShaderParams(CommandBuffer cb) { }
 
-	// RVA: 0x831E80 Offset: 0x830480 VA: 0x180831E80
+	// RVA: 0x831F90 Offset: 0x830590 VA: 0x180831F90
 	private void ClearGlobalShaderParams(CommandBuffer cb) { }
 
-	// RVA: 0x831FB0 Offset: 0x8305B0 VA: 0x180831FB0
+	// RVA: 0x8320C0 Offset: 0x8306C0 VA: 0x1808320C0
 	private void FillCommandBuffer(CommandBuffer cb) { }
 
-	// RVA: 0x833E90 Offset: 0x832490 VA: 0x180833E90
+	// RVA: 0x833FA0 Offset: 0x8325A0 VA: 0x180833FA0
 	public void .ctor() { }
 
-	// RVA: 0x833E10 Offset: 0x832410 VA: 0x180833E10
+	// RVA: 0x833F20 Offset: 0x832520 VA: 0x180833F20
 	private static void .cctor() { }
 
 }
@@ -103,13 +103,13 @@ private sealed class AtmosphereVolumeRenderer.<>c // TypeDefIndex: 10643
 
 	// Methods
 
-	// RVA: 0x83CD20 Offset: 0x83B320 VA: 0x18083CD20
+	// RVA: 0x83CE30 Offset: 0x83B430 VA: 0x18083CE30
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x83CD00 Offset: 0x83B300 VA: 0x18083CD00
+	// RVA: 0x83CE10 Offset: 0x83B410 VA: 0x18083CE10
 	internal int <FindAndSortVolumes>b__28_0(AtmosphereVolumeRenderer.CurrentVolumeEntry x, AtmosphereVolumeRenderer.CurrentVolumeEntry y) { }
 
 }

@@ -18,7 +18,7 @@ internal class GAStore // TypeDefIndex: 5669
 
 	// Methods
 
-	// RVA: 0x13C31E0 Offset: 0x13C17E0 VA: 0x1813C31E0
+	// RVA: 0x13C34A0 Offset: 0x13C1AA0 VA: 0x1813C34A0
 	private static GAStore get_Instance() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -30,43 +30,43 @@ internal class GAStore // TypeDefIndex: 5669
 	private void set_SqlDatabase(SqliteConnection value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7F9AE0 Offset: 0x7F80E0 VA: 0x1807F9AE0
+	// RVA: 0x7F9BF0 Offset: 0x7F81F0 VA: 0x1807F9BF0
 	private void set_DbReady(bool value) { }
 
-	// RVA: 0x13C3300 Offset: 0x13C1900 VA: 0x1813C3300
+	// RVA: 0x13C35C0 Offset: 0x13C1BC0 VA: 0x1813C35C0
 	public static bool get_IsTableReady() { }
 
-	// RVA: 0x13C33B0 Offset: 0x13C19B0 VA: 0x1813C33B0
+	// RVA: 0x13C3670 Offset: 0x13C1C70 VA: 0x1813C3670
 	private static void set_IsTableReady(bool value) { }
 
-	// RVA: 0x13C32A0 Offset: 0x13C18A0 VA: 0x1813C32A0
+	// RVA: 0x13C3560 Offset: 0x13C1B60 VA: 0x1813C3560
 	public static bool get_IsDbTooLargeForEvents() { }
 
-	// RVA: 0x13C30B0 Offset: 0x13C16B0 VA: 0x1813C30B0
+	// RVA: 0x13C3370 Offset: 0x13C1970 VA: 0x1813C3370
 	private void .ctor() { }
 
-	// RVA: 0x13C2300 Offset: 0x13C0900 VA: 0x1813C2300
+	// RVA: 0x13C25C0 Offset: 0x13C0BC0 VA: 0x1813C25C0
 	public static JSONArray ExecuteQuerySync(string sql) { }
 
-	// RVA: 0x13C23C0 Offset: 0x13C09C0 VA: 0x1813C23C0
+	// RVA: 0x13C2680 Offset: 0x13C0C80 VA: 0x1813C2680
 	public static JSONArray ExecuteQuerySync(string sql, Dictionary<string, object> parameters) { }
 
-	// RVA: 0x13C2430 Offset: 0x13C0A30 VA: 0x1813C2430
+	// RVA: 0x13C26F0 Offset: 0x13C0CF0 VA: 0x1813C26F0
 	public static JSONArray ExecuteQuerySync(string sql, Dictionary<string, object> parameters, bool useTransaction) { }
 
-	// RVA: 0x13C14D0 Offset: 0x13BFAD0 VA: 0x1813C14D0
+	// RVA: 0x13C1790 Offset: 0x13BFD90 VA: 0x1813C1790
 	public static bool EnsureDatabase(bool dropDatabase, string key) { }
 
-	// RVA: 0x13C2CA0 Offset: 0x13C12A0 VA: 0x1813C2CA0
+	// RVA: 0x13C2F60 Offset: 0x13C1560 VA: 0x1813C2F60
 	public static void SetState(string key, string value) { }
 
-	// RVA: 0x13C3100 Offset: 0x13C1700 VA: 0x1813C3100
+	// RVA: 0x13C33C0 Offset: 0x13C19C0 VA: 0x1813C33C0
 	public static long get_DbSizeBytes() { }
 
-	// RVA: 0x13C2E10 Offset: 0x13C1410 VA: 0x1813C2E10
+	// RVA: 0x13C30D0 Offset: 0x13C16D0 VA: 0x1813C30D0
 	private static void TrimEventTable() { }
 
-	// RVA: 0x13C3020 Offset: 0x13C1620 VA: 0x1813C3020
+	// RVA: 0x13C32E0 Offset: 0x13C18E0 VA: 0x1813C32E0
 	private static void .cctor() { }
 
 }

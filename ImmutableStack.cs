@@ -16,7 +16,7 @@ private sealed class ImmutableStack.EmptyStack<T> : IImmutableStack<T>, IEnumera
 	public IImmutableStack<T> Push(T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17F2050 Offset: 0x17F0650 VA: 0x1817F2050
+	|-RVA: 0x17F2310 Offset: 0x17F0910 VA: 0x1817F2310
 	|-ImmutableStack.EmptyStack<object>.Push
 	*/
 
@@ -24,7 +24,7 @@ private sealed class ImmutableStack.EmptyStack<T> : IImmutableStack<T>, IEnumera
 	public IImmutableStack<T> Pop() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17F1FF0 Offset: 0x17F05F0 VA: 0x1817F1FF0
+	|-RVA: 0x17F22B0 Offset: 0x17F08B0 VA: 0x1817F22B0
 	|-ImmutableStack.EmptyStack<object>.Pop
 	*/
 
@@ -32,7 +32,7 @@ private sealed class ImmutableStack.EmptyStack<T> : IImmutableStack<T>, IEnumera
 	public T Peek() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17F1F90 Offset: 0x17F0590 VA: 0x1817F1F90
+	|-RVA: 0x17F2250 Offset: 0x17F0850 VA: 0x1817F2250
 	|-ImmutableStack.EmptyStack<object>.Peek
 	*/
 
@@ -41,7 +41,7 @@ private sealed class ImmutableStack.EmptyStack<T> : IImmutableStack<T>, IEnumera
 	public IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17F1F30 Offset: 0x17F0530 VA: 0x1817F1F30
+	|-RVA: 0x17F21F0 Offset: 0x17F07F0 VA: 0x1817F21F0
 	|-ImmutableStack.EmptyStack<object>.GetEnumerator
 	*/
 
@@ -49,7 +49,7 @@ private sealed class ImmutableStack.EmptyStack<T> : IImmutableStack<T>, IEnumera
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17F20D0 Offset: 0x17F06D0 VA: 0x1817F20D0
+	|-RVA: 0x17F2390 Offset: 0x17F0990 VA: 0x1817F2390
 	|-ImmutableStack.EmptyStack<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
@@ -57,7 +57,7 @@ private sealed class ImmutableStack.EmptyStack<T> : IImmutableStack<T>, IEnumera
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-ImmutableStack.EmptyStack<object>..ctor
 	*/
 
@@ -79,7 +79,7 @@ private sealed class ImmutableStack.EmptyStack.<GetEnumerator>d__5<T> : IEnumera
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E8E80 Offset: 0x15E7480 VA: 0x1815E8E80
+	|-RVA: 0x15E9140 Offset: 0x15E7740 VA: 0x1815E9140
 	|-ImmutableStack.EmptyStack.<GetEnumerator>d__5<object>..ctor
 	*/
 
@@ -96,7 +96,7 @@ private sealed class ImmutableStack.EmptyStack.<GetEnumerator>d__5<T> : IEnumera
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x13CF780 Offset: 0x13CDD80 VA: 0x1813CF780
+	|-RVA: 0x13CFA40 Offset: 0x13CE040 VA: 0x1813CFA40
 	|-ImmutableStack.EmptyStack.<GetEnumerator>d__5<object>.MoveNext
 	*/
 
@@ -114,7 +114,7 @@ private sealed class ImmutableStack.EmptyStack.<GetEnumerator>d__5<T> : IEnumera
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17FC490 Offset: 0x17FAA90 VA: 0x1817FC490
+	|-RVA: 0x17FC750 Offset: 0x17FAD50 VA: 0x1817FC750
 	|-ImmutableStack.EmptyStack.<GetEnumerator>d__5<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -147,7 +147,7 @@ private sealed class ImmutableStack.<GetEnumerator>d__13<T> : IEnumerator<T>, IE
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E8E80 Offset: 0x15E7480 VA: 0x1815E8E80
+	|-RVA: 0x15E9140 Offset: 0x15E7740 VA: 0x1815E9140
 	|-ImmutableStack.<GetEnumerator>d__13<object>..ctor
 	*/
 
@@ -164,7 +164,7 @@ private sealed class ImmutableStack.<GetEnumerator>d__13<T> : IEnumerator<T>, IE
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17FBC30 Offset: 0x17FA230 VA: 0x1817FBC30
+	|-RVA: 0x17FBEF0 Offset: 0x17FA4F0 VA: 0x1817FBEF0
 	|-ImmutableStack.<GetEnumerator>d__13<object>.MoveNext
 	*/
 
@@ -182,7 +182,7 @@ private sealed class ImmutableStack.<GetEnumerator>d__13<T> : IEnumerator<T>, IE
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17FBD90 Offset: 0x17FA390 VA: 0x1817FBD90
+	|-RVA: 0x17FC050 Offset: 0x17FA650 VA: 0x1817FC050
 	|-ImmutableStack.<GetEnumerator>d__13<object>.System.Collections.IEnumerator.Reset
 	*/
 

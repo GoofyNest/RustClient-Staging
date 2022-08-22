@@ -66,10 +66,10 @@ public class ERBend : MonoBehaviour // TypeDefIndex: 7173
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void Update() { }
 
-	// RVA: 0xB7A0D0 Offset: 0xB786D0 VA: 0x180B7A0D0
+	// RVA: 0xB7A390 Offset: 0xB78990 VA: 0x180B7A390
 	public void OOCCCDQDCQ() { }
 
-	// RVA: 0xB7B130 Offset: 0xB79730 VA: 0x180B7B130
+	// RVA: 0xB7B3F0 Offset: 0xB799F0 VA: 0x180B7B3F0
 	public void .ctor() { }
 
 }

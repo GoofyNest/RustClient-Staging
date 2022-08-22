@@ -8,32 +8,32 @@ public class OreResourceEntity : StagedResourceEntity // TypeDefIndex: 8610
 
 	// Methods
 
-	// RVA: 0x9E7C80 Offset: 0x9E6280 VA: 0x1809E7C80 Slot: 35
+	// RVA: 0x9E7F40 Offset: 0x9E6540 VA: 0x1809E7F40 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x9E7C70 Offset: 0x9E6270 VA: 0x1809E7C70 Slot: 14
+	// RVA: 0x9E7F30 Offset: 0x9E6530 VA: 0x1809E7F30 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9E8210 Offset: 0x9E6810 VA: 0x1809E8210
+	// RVA: 0x9E84D0 Offset: 0x9E6AD0 VA: 0x1809E84D0
 	public void PlayBonusLevelSound(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x9E8390 Offset: 0x9E6990 VA: 0x1809E8390
+	// RVA: 0x9E8650 Offset: 0x9E6C50 VA: 0x1809E8650
 	public Vector3 RandomCircle(float distance = 1, bool allowInside = False) { }
 
-	// RVA: 0x9E8570 Offset: 0x9E6B70 VA: 0x1809E8570
+	// RVA: 0x9E8830 Offset: 0x9E6E30 VA: 0x1809E8830
 	public Vector3 RandomHemisphereDirection(Vector3 input, float degreesOffset, bool allowInside = True, bool changeHeight = True) { }
 
-	// RVA: 0x9E79E0 Offset: 0x9E5FE0 VA: 0x1809E79E0
+	// RVA: 0x9E7CA0 Offset: 0x9E62A0 VA: 0x1809E7CA0
 	public Vector3 ClampToHemisphere(Vector3 hemiInput, float degreesOffset, Vector3 inputVec) { }
 
-	// RVA: 0x9E8400 Offset: 0x9E6A00 VA: 0x1809E8400
+	// RVA: 0x9E86C0 Offset: 0x9E6CC0 VA: 0x1809E86C0
 	public static Vector3 RandomCylinderPointAroundVector(Vector3 input, float distance, float minHeight = 0, float maxHeight = 0, bool allowInside = False) { }
 
-	// RVA: 0x9E7970 Offset: 0x9E5F70 VA: 0x1809E7970
+	// RVA: 0x9E7C30 Offset: 0x9E6230 VA: 0x1809E7C30
 	public Vector3 ClampToCylinder(Vector3 localPos, Vector3 cylinderAxis, float cylinderDistance, float minHeight = 0, float maxHeight = 0) { }
 
-	// RVA: 0x9E8740 Offset: 0x9E6D40 VA: 0x1809E8740
+	// RVA: 0x9E8A00 Offset: 0x9E7000 VA: 0x1809E8A00
 	public void .ctor() { }
 
 }

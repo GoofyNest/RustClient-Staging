@@ -12,7 +12,7 @@ public class X509ChainElement // TypeDefIndex: 2823
 
 	// Methods
 
-	// RVA: 0x14D55B0 Offset: 0x14D3BB0 VA: 0x1814D55B0
+	// RVA: 0x14D5870 Offset: 0x14D3E70 VA: 0x1814D5870
 	internal void .ctor(X509Certificate2 certificate) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
@@ -24,16 +24,16 @@ public class X509ChainElement // TypeDefIndex: 2823
 	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
 	internal X509ChainStatusFlags get_StatusFlags() { }
 
-	// RVA: 0x7D0C50 Offset: 0x7CF250 VA: 0x1807D0C50
+	// RVA: 0x7D0D60 Offset: 0x7CF360 VA: 0x1807D0D60
 	internal void set_StatusFlags(X509ChainStatusFlags value) { }
 
-	// RVA: 0x14D2F10 Offset: 0x14D1510 VA: 0x1814D2F10
+	// RVA: 0x14D31D0 Offset: 0x14D17D0 VA: 0x1814D31D0
 	private int Count(X509ChainStatusFlags flags) { }
 
-	// RVA: 0x14D2F40 Offset: 0x14D1540 VA: 0x1814D2F40
+	// RVA: 0x14D3200 Offset: 0x14D1800 VA: 0x1814D3200
 	private void Set(X509ChainStatus[] status, ref int position, X509ChainStatusFlags flags, X509ChainStatusFlags mask) { }
 
-	// RVA: 0x14D2FE0 Offset: 0x14D15E0 VA: 0x1814D2FE0
+	// RVA: 0x14D32A0 Offset: 0x14D18A0 VA: 0x1814D32A0
 	internal void UncompressFlags() { }
 
 }

@@ -30,7 +30,7 @@ public struct ShaderTagId : IEquatable<ShaderTagId> // TypeDefIndex: 3853
 	// RVA: 0x222D80 Offset: 0x222180 VA: 0x180222D80 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x19B5020 Offset: 0x19B3620 VA: 0x1819B5020
+	// RVA: 0x19B52E0 Offset: 0x19B38E0 VA: 0x1819B52E0
 	private static void .cctor() { }
 
 }

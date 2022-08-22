@@ -15,34 +15,34 @@ public class Shadow : BaseMeshEffect // TypeDefIndex: 5036
 
 	// Methods
 
-	// RVA: 0x1717280 Offset: 0x1715880 VA: 0x181717280
+	// RVA: 0x1717540 Offset: 0x1715B40 VA: 0x181717540
 	protected void .ctor() { }
 
-	// RVA: 0xD67340 Offset: 0xD65940 VA: 0x180D67340
+	// RVA: 0xD67600 Offset: 0xD65C00 VA: 0x180D67600
 	public Color get_effectColor() { }
 
-	// RVA: 0x1724BB0 Offset: 0x17231B0 VA: 0x181724BB0
+	// RVA: 0x1724E70 Offset: 0x1723470 VA: 0x181724E70
 	public void set_effectColor(Color value) { }
 
-	// RVA: 0xC14FF0 Offset: 0xC135F0 VA: 0x180C14FF0
+	// RVA: 0xC152B0 Offset: 0xC138B0 VA: 0x180C152B0
 	public Vector2 get_effectDistance() { }
 
-	// RVA: 0x1724C60 Offset: 0x1723260 VA: 0x181724C60
+	// RVA: 0x1724F20 Offset: 0x1723520 VA: 0x181724F20
 	public void set_effectDistance(Vector2 value) { }
 
-	// RVA: 0x8C1040 Offset: 0x8BF640 VA: 0x1808C1040
+	// RVA: 0x8C1150 Offset: 0x8BF750 VA: 0x1808C1150
 	public bool get_useGraphicAlpha() { }
 
-	// RVA: 0x1724DC0 Offset: 0x17233C0 VA: 0x181724DC0
+	// RVA: 0x1725080 Offset: 0x1723680 VA: 0x181725080
 	public void set_useGraphicAlpha(bool value) { }
 
-	// RVA: 0x17247F0 Offset: 0x1722DF0 VA: 0x1817247F0
+	// RVA: 0x1724AB0 Offset: 0x17230B0 VA: 0x181724AB0
 	protected void ApplyShadowZeroAlloc(List<UIVertex> verts, Color32 color, int start, int end, float x, float y) { }
 
-	// RVA: 0x1724A80 Offset: 0x1723080 VA: 0x181724A80
+	// RVA: 0x1724D40 Offset: 0x1723340 VA: 0x181724D40
 	protected void ApplyShadow(List<UIVertex> verts, Color32 color, int start, int end, float x, float y) { }
 
-	// RVA: 0x1724A90 Offset: 0x1723090 VA: 0x181724A90 Slot: 20
+	// RVA: 0x1724D50 Offset: 0x1723350 VA: 0x181724D50 Slot: 20
 	public override void ModifyMesh(VertexHelper vh) { }
 
 }

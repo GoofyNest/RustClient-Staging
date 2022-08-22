@@ -16,7 +16,7 @@ public class ThreatDetectedAIEvent : BaseAIEvent // TypeDefIndex: 9414
 	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
 	public void set_Range(float value) { }
 
-	// RVA: 0x889370 Offset: 0x887970 VA: 0x180889370
+	// RVA: 0x889480 Offset: 0x887A80 VA: 0x180889480
 	public void .ctor() { }
 
 }

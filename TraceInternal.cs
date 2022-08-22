@@ -16,22 +16,22 @@ internal static class TraceInternal // TypeDefIndex: 2641
 
 	// Methods
 
-	// RVA: 0x1736730 Offset: 0x1734D30 VA: 0x181736730
+	// RVA: 0x17369F0 Offset: 0x1734FF0 VA: 0x1817369F0
 	public static TraceListenerCollection get_Listeners() { }
 
-	// RVA: 0x1736610 Offset: 0x1734C10 VA: 0x181736610
+	// RVA: 0x17368D0 Offset: 0x1734ED0 VA: 0x1817368D0
 	public static bool get_AutoFlush() { }
 
-	// RVA: 0x1736680 Offset: 0x1734C80 VA: 0x181736680
+	// RVA: 0x1736940 Offset: 0x1734F40 VA: 0x181736940
 	public static int get_IndentLevel() { }
 
-	// RVA: 0x17366D0 Offset: 0x1734CD0 VA: 0x1817366D0
+	// RVA: 0x1736990 Offset: 0x1734F90 VA: 0x181736990
 	public static int get_IndentSize() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private static void InitializeSettings() { }
 
-	// RVA: 0x1736590 Offset: 0x1734B90 VA: 0x181736590
+	// RVA: 0x1736850 Offset: 0x1734E50 VA: 0x181736850
 	private static void .cctor() { }
 
 }

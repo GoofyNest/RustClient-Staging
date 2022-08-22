@@ -11,7 +11,7 @@ public sealed class LocalDataStoreSlot // TypeDefIndex: 147
 
 	// Methods
 
-	// RVA: 0x1674140 Offset: 0x1672740 VA: 0x181674140
+	// RVA: 0x1674400 Offset: 0x1672A00 VA: 0x181674400
 	internal void .ctor(LocalDataStoreMgr mgr, int slot, long cookie) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
@@ -23,7 +23,7 @@ public sealed class LocalDataStoreSlot // TypeDefIndex: 147
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	internal long get_Cookie() { }
 
-	// RVA: 0x16740A0 Offset: 0x16726A0 VA: 0x1816740A0 Slot: 1
+	// RVA: 0x1674360 Offset: 0x1672960 VA: 0x181674360 Slot: 1
 	protected override void Finalize() { }
 
 }

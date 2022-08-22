@@ -4,19 +4,19 @@ public sealed class PitchBendEvent : ChannelEvent // TypeDefIndex: 7528
 
 	// Methods
 
-	// RVA: 0x13A4E20 Offset: 0x13A3420 VA: 0x1813A4E20
+	// RVA: 0x13A50E0 Offset: 0x13A36E0 VA: 0x1813A50E0
 	public void .ctor() { }
 
-	// RVA: 0x13A4E40 Offset: 0x13A3440 VA: 0x1813A4E40
+	// RVA: 0x13A5100 Offset: 0x13A3700 VA: 0x1813A5100
 	public ushort get_PitchValue() { }
 
-	// RVA: 0x1397140 Offset: 0x1395740 VA: 0x181397140 Slot: 4
+	// RVA: 0x1397400 Offset: 0x1395A00 VA: 0x181397400 Slot: 4
 	internal override void Read(MidiReader reader, ReadingSettings settings, int size) { }
 
-	// RVA: 0x13A4D20 Offset: 0x13A3320 VA: 0x1813A4D20 Slot: 5
+	// RVA: 0x13A4FE0 Offset: 0x13A35E0 VA: 0x1813A4FE0 Slot: 5
 	protected override MidiEvent CloneEvent() { }
 
-	// RVA: 0x13A4D90 Offset: 0x13A3390 VA: 0x1813A4D90 Slot: 3
+	// RVA: 0x13A5050 Offset: 0x13A3650 VA: 0x1813A5050 Slot: 3
 	public override string ToString() { }
 
 }

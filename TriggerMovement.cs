@@ -10,13 +10,13 @@ public class TriggerMovement : TriggerBase, IClientComponent // TypeDefIndex: 92
 	// RVA: 0x522390 Offset: 0x520990 VA: 0x180522390
 	public void SetMovementScale(float newScale) { }
 
-	// RVA: 0xA218C0 Offset: 0xA1FEC0 VA: 0x180A218C0
+	// RVA: 0xA21B80 Offset: 0xA20180 VA: 0x180A21B80
 	public float GetMovementScale() { }
 
-	// RVA: 0xA218D0 Offset: 0xA1FED0 VA: 0x180A218D0 Slot: 6
+	// RVA: 0xA21B90 Offset: 0xA20190 VA: 0x180A21B90 Slot: 6
 	internal override GameObject InterestedInObject(GameObject obj) { }
 
-	// RVA: 0xA21AE0 Offset: 0xA200E0 VA: 0x180A21AE0
+	// RVA: 0xA21DA0 Offset: 0xA203A0 VA: 0x180A21DA0
 	public void .ctor() { }
 
 }

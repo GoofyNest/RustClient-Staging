@@ -10,7 +10,7 @@ public static class Protocol // TypeDefIndex: 6626
 
 	// Methods
 
-	// RVA: 0x1BAB250 Offset: 0x1BA9850 VA: 0x181BAB250
+	// RVA: 0x1BAB510 Offset: 0x1BA9B10 VA: 0x181BAB510
 	public static string get_printable() { }
 
 }

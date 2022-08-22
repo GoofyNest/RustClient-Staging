@@ -7,10 +7,10 @@ public class AssertionException : Exception // TypeDefIndex: 3905
 
 	// Methods
 
-	// RVA: 0x181E370 Offset: 0x181C970 VA: 0x18181E370
+	// RVA: 0x181E630 Offset: 0x181CC30 VA: 0x18181E630
 	public void .ctor(string message, string userMessage) { }
 
-	// RVA: 0x181E3F0 Offset: 0x181C9F0 VA: 0x18181E3F0 Slot: 5
+	// RVA: 0x181E6B0 Offset: 0x181CCB0 VA: 0x18181E6B0 Slot: 5
 	public override string get_Message() { }
 
 }

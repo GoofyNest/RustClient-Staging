@@ -8,16 +8,16 @@ internal class DomNameTable // TypeDefIndex: 1946
 
 	// Methods
 
-	// RVA: 0x12E4250 Offset: 0x12E2850 VA: 0x1812E4250
+	// RVA: 0x12E4510 Offset: 0x12E2B10 VA: 0x1812E4510
 	public void .ctor(XmlDocument document) { }
 
-	// RVA: 0x12E3F90 Offset: 0x12E2590 VA: 0x1812E3F90
+	// RVA: 0x12E4250 Offset: 0x12E2850 VA: 0x1812E4250
 	public XmlName GetName(string prefix, string localName, string ns, IXmlSchemaInfo schemaInfo) { }
 
-	// RVA: 0x12E3B60 Offset: 0x12E2160 VA: 0x1812E3B60
+	// RVA: 0x12E3E20 Offset: 0x12E2420 VA: 0x1812E3E20
 	public XmlName AddName(string prefix, string localName, string ns, IXmlSchemaInfo schemaInfo) { }
 
-	// RVA: 0x12E40F0 Offset: 0x12E26F0 VA: 0x1812E40F0
+	// RVA: 0x12E43B0 Offset: 0x12E29B0 VA: 0x1812E43B0
 	private void Grow() { }
 
 }

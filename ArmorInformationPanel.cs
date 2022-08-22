@@ -17,13 +17,13 @@ public class ArmorInformationPanel : ItemInformationPanel // TypeDefIndex: 10981
 
 	// Methods
 
-	// RVA: 0x82E130 Offset: 0x82C730 VA: 0x18082E130 Slot: 4
+	// RVA: 0x82E240 Offset: 0x82C840 VA: 0x18082E240 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0x82E210 Offset: 0x82C810 VA: 0x18082E210
+	// RVA: 0x82E320 Offset: 0x82C920 VA: 0x18082E320
 	public string ProtectionAreaText(ItemModWearable wearable) { }
 
-	// RVA: 0x82E320 Offset: 0x82C920 VA: 0x18082E320 Slot: 5
+	// RVA: 0x82E430 Offset: 0x82CA30 VA: 0x18082E430 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
 	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0

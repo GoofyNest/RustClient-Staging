@@ -6,10 +6,10 @@ public class TriggerComfort : TriggerBase // TypeDefIndex: 10021
 
 	// Methods
 
-	// RVA: 0xA21320 Offset: 0xA1F920 VA: 0x180A21320
+	// RVA: 0xA215E0 Offset: 0xA1FBE0 VA: 0x180A215E0
 	private void OnValidate() { }
 
-	// RVA: 0xA213B0 Offset: 0xA1F9B0 VA: 0x180A213B0
+	// RVA: 0xA21670 Offset: 0xA1FC70 VA: 0x180A21670
 	public void .ctor() { }
 
 }

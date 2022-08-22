@@ -42,173 +42,173 @@ public sealed class ParticleSystem : Component // TypeDefIndex: 4527
 	// Methods
 
 	[ObsoleteAttribute] // RVA: 0xED260 Offset: 0xEC660 VA: 0x1800ED260
-	// RVA: 0x22C6BC0 Offset: 0x22C51C0 VA: 0x1822C6BC0
+	// RVA: 0x22C6E80 Offset: 0x22C5480 VA: 0x1822C6E80
 	public void Emit(Vector3 position, Vector3 velocity, float size, float lifetime, Color32 color) { }
 
 	[ObsoleteAttribute] // RVA: 0xED3A0 Offset: 0xEC7A0 VA: 0x1800ED3A0
-	// RVA: 0x22C6B70 Offset: 0x22C5170 VA: 0x1822C6B70
+	// RVA: 0x22C6E30 Offset: 0x22C5430 VA: 0x1822C6E30
 	public void Emit(ParticleSystem.Particle particle) { }
 
-	// RVA: 0x22C7650 Offset: 0x22C5C50 VA: 0x1822C7650
+	// RVA: 0x22C7910 Offset: 0x22C5F10 VA: 0x1822C7910
 	public bool get_playOnAwake() { }
 
-	// RVA: 0x22C7450 Offset: 0x22C5A50 VA: 0x1822C7450
+	// RVA: 0x22C7710 Offset: 0x22C5D10 VA: 0x1822C7710
 	public float get_duration() { }
 
-	// RVA: 0x22C74F0 Offset: 0x22C5AF0 VA: 0x1822C74F0
+	// RVA: 0x22C77B0 Offset: 0x22C5DB0 VA: 0x1822C77B0
 	public bool get_enableEmission() { }
 
-	// RVA: 0x22C7860 Offset: 0x22C5E60 VA: 0x1822C7860
+	// RVA: 0x22C7B20 Offset: 0x22C6120 VA: 0x1822C7B20
 	public void set_enableEmission(bool value) { }
 
-	// RVA: 0x22C74A0 Offset: 0x22C5AA0 VA: 0x1822C74A0
+	// RVA: 0x22C7760 Offset: 0x22C5D60 VA: 0x1822C7760
 	public float get_emissionRate() { }
 
-	// RVA: 0x22C7790 Offset: 0x22C5D90 VA: 0x1822C7790
+	// RVA: 0x22C7A50 Offset: 0x22C6050 VA: 0x1822C7A50
 	public void set_emissionRate(float value) { }
 
-	// RVA: 0x22C7740 Offset: 0x22C5D40 VA: 0x1822C7740
+	// RVA: 0x22C7A00 Offset: 0x22C6000 VA: 0x1822C7A00
 	public float get_startSpeed() { }
 
-	// RVA: 0x22C79E0 Offset: 0x22C5FE0 VA: 0x1822C79E0
+	// RVA: 0x22C7CA0 Offset: 0x22C62A0 VA: 0x1822C7CA0
 	public void set_startSpeed(float value) { }
 
-	// RVA: 0x22C76F0 Offset: 0x22C5CF0 VA: 0x1822C76F0
+	// RVA: 0x22C79B0 Offset: 0x22C5FB0 VA: 0x1822C79B0
 	public float get_startSize() { }
 
-	// RVA: 0x22C7980 Offset: 0x22C5F80 VA: 0x1822C7980
+	// RVA: 0x22C7C40 Offset: 0x22C6240 VA: 0x1822C7C40
 	public void set_startSize(float value) { }
 
-	// RVA: 0x22C76A0 Offset: 0x22C5CA0 VA: 0x1822C76A0
+	// RVA: 0x22C7960 Offset: 0x22C5F60 VA: 0x1822C7960
 	public float get_startLifetime() { }
 
-	// RVA: 0x22C7920 Offset: 0x22C5F20 VA: 0x1822C7920
+	// RVA: 0x22C7BE0 Offset: 0x22C61E0 VA: 0x1822C7BE0
 	public void set_startLifetime(float value) { }
 
-	// RVA: 0x22C7540 Offset: 0x22C5B40 VA: 0x1822C7540
+	// RVA: 0x22C7800 Offset: 0x22C5E00 VA: 0x1822C7800
 	public float get_gravityModifier() { }
 
-	// RVA: 0x22C78C0 Offset: 0x22C5EC0 VA: 0x1822C78C0
+	// RVA: 0x22C7B80 Offset: 0x22C6180 VA: 0x1822C7B80
 	public void set_gravityModifier(float value) { }
 
 	[NativeNameAttribute] // RVA: 0xED420 Offset: 0xEC820 VA: 0x1800ED420
-	// RVA: 0x22C7590 Offset: 0x22C5B90 VA: 0x1822C7590
+	// RVA: 0x22C7850 Offset: 0x22C5E50 VA: 0x1822C7850
 	public bool get_isPlaying() { }
 
 	[NativeNameAttribute] // RVA: 0xED500 Offset: 0xEC900 VA: 0x1800ED500
-	// RVA: 0x22C75D0 Offset: 0x22C5BD0 VA: 0x1822C75D0
+	// RVA: 0x22C7890 Offset: 0x22C5E90 VA: 0x1822C7890
 	public bool get_isStopped() { }
 
 	[NativeNameAttribute] // RVA: 0xED600 Offset: 0xECA00 VA: 0x1800ED600
-	// RVA: 0x22C7610 Offset: 0x22C5C10 VA: 0x1822C7610
+	// RVA: 0x22C78D0 Offset: 0x22C5ED0 VA: 0x1822C78D0
 	public int get_particleCount() { }
 
 	[NativeNameAttribute] // RVA: 0xED6B0 Offset: 0xECAB0 VA: 0x1800ED6B0
-	// RVA: 0x22C7A40 Offset: 0x22C6040 VA: 0x1822C7A40
+	// RVA: 0x22C7D00 Offset: 0x22C6300 VA: 0x1822C7D00
 	public void set_useAutoRandomSeed(bool value) { }
 
 	[FreeFunctionAttribute] // RVA: 0xED910 Offset: 0xECD10 VA: 0x1800ED910
-	// RVA: 0x22C72F0 Offset: 0x22C58F0 VA: 0x1822C72F0
+	// RVA: 0x22C75B0 Offset: 0x22C5BB0 VA: 0x1822C75B0
 	public void Simulate(float t, bool withChildren, bool restart, bool fixedTimeStep) { }
 
-	// RVA: 0x22C7280 Offset: 0x22C5880 VA: 0x1822C7280
+	// RVA: 0x22C7540 Offset: 0x22C5B40 VA: 0x1822C7540
 	public void Simulate(float t, bool withChildren, bool restart) { }
 
-	// RVA: 0x22C71D0 Offset: 0x22C57D0 VA: 0x1822C71D0
+	// RVA: 0x22C7490 Offset: 0x22C5A90 VA: 0x1822C7490
 	public void Simulate(float t, bool withChildren) { }
 
-	// RVA: 0x22C7230 Offset: 0x22C5830 VA: 0x1822C7230
+	// RVA: 0x22C74F0 Offset: 0x22C5AF0 VA: 0x1822C74F0
 	public void Simulate(float t) { }
 
 	[FreeFunctionAttribute] // RVA: 0xED9E0 Offset: 0xECDE0 VA: 0x1800ED9E0
-	// RVA: 0x22C7020 Offset: 0x22C5620 VA: 0x1822C7020
+	// RVA: 0x22C72E0 Offset: 0x22C58E0 VA: 0x1822C72E0
 	public void Play(bool withChildren) { }
 
-	// RVA: 0x22C6FE0 Offset: 0x22C55E0 VA: 0x1822C6FE0
+	// RVA: 0x22C72A0 Offset: 0x22C58A0 VA: 0x1822C72A0
 	public void Play() { }
 
 	[FreeFunctionAttribute] // RVA: 0xEDB00 Offset: 0xECF00 VA: 0x1800EDB00
-	// RVA: 0x22C6F50 Offset: 0x22C5550 VA: 0x1822C6F50
+	// RVA: 0x22C7210 Offset: 0x22C5810 VA: 0x1822C7210
 	public void Pause(bool withChildren) { }
 
-	// RVA: 0x22C6FA0 Offset: 0x22C55A0 VA: 0x1822C6FA0
+	// RVA: 0x22C7260 Offset: 0x22C5860 VA: 0x1822C7260
 	public void Pause() { }
 
 	[FreeFunctionAttribute] // RVA: 0xEDC10 Offset: 0xED010 VA: 0x1800EDC10
-	// RVA: 0x22C73A0 Offset: 0x22C59A0 VA: 0x1822C73A0
+	// RVA: 0x22C7660 Offset: 0x22C5C60 VA: 0x1822C7660
 	public void Stop(bool withChildren, ParticleSystemStopBehavior stopBehavior) { }
 
-	// RVA: 0x22C7400 Offset: 0x22C5A00 VA: 0x1822C7400
+	// RVA: 0x22C76C0 Offset: 0x22C5CC0 VA: 0x1822C76C0
 	public void Stop(bool withChildren) { }
 
-	// RVA: 0x22C7360 Offset: 0x22C5960 VA: 0x1822C7360
+	// RVA: 0x22C7620 Offset: 0x22C5C20 VA: 0x1822C7620
 	public void Stop() { }
 
 	[FreeFunctionAttribute] // RVA: 0xEDCC0 Offset: 0xED0C0 VA: 0x1800EDCC0
-	// RVA: 0x22C69A0 Offset: 0x22C4FA0 VA: 0x1822C69A0
+	// RVA: 0x22C6C60 Offset: 0x22C5260 VA: 0x1822C6C60
 	public void Clear(bool withChildren) { }
 
-	// RVA: 0x22C69F0 Offset: 0x22C4FF0 VA: 0x1822C69F0
+	// RVA: 0x22C6CB0 Offset: 0x22C52B0 VA: 0x1822C6CB0
 	public void Clear() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22C6B30 Offset: 0x22C5130 VA: 0x1822C6B30
+	// RVA: 0x22C6DF0 Offset: 0x22C53F0 VA: 0x1822C6DF0
 	public void Emit(int count) { }
 
 	[NativeNameAttribute] // RVA: 0xEDE30 Offset: 0xED230 VA: 0x1800EDE30
-	// RVA: 0x22C6B30 Offset: 0x22C5130 VA: 0x1822C6B30
+	// RVA: 0x22C6DF0 Offset: 0x22C53F0 VA: 0x1822C6DF0
 	private void Emit_Internal(int count) { }
 
 	[NativeNameAttribute] // RVA: 0xEE010 Offset: 0xED410 VA: 0x1800EE010
-	// RVA: 0x22C6E10 Offset: 0x22C5410 VA: 0x1822C6E10
+	// RVA: 0x22C70D0 Offset: 0x22C56D0 VA: 0x1822C70D0
 	public void Emit(ParticleSystem.EmitParams emitParams, int count) { }
 
 	[NativeNameAttribute] // RVA: 0xEE110 Offset: 0xED510 VA: 0x1800EE110
-	// RVA: 0x22C6A80 Offset: 0x22C5080 VA: 0x1822C6A80
+	// RVA: 0x22C6D40 Offset: 0x22C5340 VA: 0x1822C6D40
 	private void EmitOld_Internal(ref ParticleSystem.Particle particle) { }
 
-	// RVA: 0x22C6E70 Offset: 0x22C5470 VA: 0x1822C6E70
+	// RVA: 0x22C7130 Offset: 0x22C5730 VA: 0x1822C7130
 	internal void* GetManagedJobData() { }
 
-	// RVA: 0x22C6F00 Offset: 0x22C5500 VA: 0x1822C6F00
+	// RVA: 0x22C71C0 Offset: 0x22C57C0 VA: 0x1822C71C0
 	internal JobHandle GetManagedJobHandle() { }
 
-	// RVA: 0x22C7180 Offset: 0x22C5780 VA: 0x1822C7180
+	// RVA: 0x22C7440 Offset: 0x22C5A40 VA: 0x1822C7440
 	internal void SetManagedJobHandle(JobHandle handle) { }
 
 	[FreeFunctionAttribute] // RVA: 0xEAAE0 Offset: 0xE9EE0 VA: 0x1800EAAE0
-	// RVA: 0x22C70D0 Offset: 0x22C56D0 VA: 0x1822C70D0
+	// RVA: 0x22C7390 Offset: 0x22C5990 VA: 0x1822C7390
 	internal static JobHandle ScheduleManagedJob(ref JobsUtility.JobScheduleParameters parameters, void* additionalData) { }
 
 	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
-	// RVA: 0x22C6A30 Offset: 0x22C5030 VA: 0x1822C6A30
+	// RVA: 0x22C6CF0 Offset: 0x22C52F0 VA: 0x1822C6CF0
 	internal static void CopyManagedJobData(void* systemPtr, out NativeParticleData particleData) { }
 
-	// RVA: 0x14A02C0 Offset: 0x149E8C0 VA: 0x1814A02C0
+	// RVA: 0x14A0580 Offset: 0x149EB80 VA: 0x1814A0580
 	public ParticleSystem.MainModule get_main() { }
 
-	// RVA: 0x14A02C0 Offset: 0x149E8C0 VA: 0x1814A02C0
+	// RVA: 0x14A0580 Offset: 0x149EB80 VA: 0x1814A0580
 	public ParticleSystem.EmissionModule get_emission() { }
 
-	// RVA: 0x14A02C0 Offset: 0x149E8C0 VA: 0x1814A02C0
+	// RVA: 0x14A0580 Offset: 0x149EB80 VA: 0x1814A0580
 	public ParticleSystem.ShapeModule get_shape() { }
 
-	// RVA: 0x14A02C0 Offset: 0x149E8C0 VA: 0x1814A02C0
+	// RVA: 0x14A0580 Offset: 0x149EB80 VA: 0x1814A0580
 	public ParticleSystem.ColorOverLifetimeModule get_colorOverLifetime() { }
 
-	// RVA: 0x14A02C0 Offset: 0x149E8C0 VA: 0x1814A02C0
+	// RVA: 0x14A0580 Offset: 0x149EB80 VA: 0x1814A0580
 	public ParticleSystem.CollisionModule get_collision() { }
 
-	// RVA: 0x22C6AD0 Offset: 0x22C50D0 VA: 0x1822C6AD0
+	// RVA: 0x22C6D90 Offset: 0x22C5390 VA: 0x1822C6D90
 	private void Emit_Injected(ref ParticleSystem.EmitParams emitParams, int count) { }
 
-	// RVA: 0x22C6EB0 Offset: 0x22C54B0 VA: 0x1822C6EB0
+	// RVA: 0x22C7170 Offset: 0x22C5770 VA: 0x1822C7170
 	private void GetManagedJobHandle_Injected(out JobHandle ret) { }
 
-	// RVA: 0x22C7130 Offset: 0x22C5730 VA: 0x1822C7130
+	// RVA: 0x22C73F0 Offset: 0x22C59F0 VA: 0x1822C73F0
 	private void SetManagedJobHandle_Injected(ref JobHandle handle) { }
 
-	// RVA: 0x22C7070 Offset: 0x22C5670 VA: 0x1822C7070
+	// RVA: 0x22C7330 Offset: 0x22C5930 VA: 0x1822C7330
 	private static void ScheduleManagedJob_Injected(ref JobsUtility.JobScheduleParameters parameters, void* additionalData, out JobHandle ret) { }
 
 }
@@ -305,70 +305,70 @@ public struct ParticleSystem.MainModule // TypeDefIndex: 4528
 	// RVA: 0x23BA90 Offset: 0x23AE90 VA: 0x18023BA90
 	public void set_cullingMode(ParticleSystemCullingMode value) { }
 
-	// RVA: 0x22C58F0 Offset: 0x22C3EF0 VA: 0x1822C58F0
+	// RVA: 0x22C5BB0 Offset: 0x22C41B0 VA: 0x1822C5BB0
 	private static float get_duration_Injected(ref ParticleSystem.MainModule _unity_self) { }
 
-	// RVA: 0x22C5AE0 Offset: 0x22C40E0 VA: 0x1822C5AE0
+	// RVA: 0x22C5DA0 Offset: 0x22C43A0 VA: 0x1822C5DA0
 	private static void get_startLifetime_Injected(ref ParticleSystem.MainModule _unity_self, out ParticleSystem.MinMaxCurve ret) { }
 
-	// RVA: 0x22C5F40 Offset: 0x22C4540 VA: 0x1822C5F40
+	// RVA: 0x22C6200 Offset: 0x22C4800 VA: 0x1822C6200
 	private static void set_startLifetime_Injected(ref ParticleSystem.MainModule _unity_self, ref ParticleSystem.MinMaxCurve value) { }
 
-	// RVA: 0x22C5AA0 Offset: 0x22C40A0 VA: 0x1822C5AA0
+	// RVA: 0x22C5D60 Offset: 0x22C4360 VA: 0x1822C5D60
 	private static float get_startLifetimeMultiplier_Injected(ref ParticleSystem.MainModule _unity_self) { }
 
-	// RVA: 0x22C5EF0 Offset: 0x22C44F0 VA: 0x1822C5EF0
+	// RVA: 0x22C61B0 Offset: 0x22C47B0 VA: 0x1822C61B0
 	private static void set_startLifetimeMultiplier_Injected(ref ParticleSystem.MainModule _unity_self, float value) { }
 
-	// RVA: 0x22C5CA0 Offset: 0x22C42A0 VA: 0x1822C5CA0
+	// RVA: 0x22C5F60 Offset: 0x22C4560 VA: 0x1822C5F60
 	private static void get_startSpeed_Injected(ref ParticleSystem.MainModule _unity_self, out ParticleSystem.MinMaxCurve ret) { }
 
-	// RVA: 0x22C6120 Offset: 0x22C4720 VA: 0x1822C6120
+	// RVA: 0x22C63E0 Offset: 0x22C49E0 VA: 0x1822C63E0
 	private static void set_startSpeed_Injected(ref ParticleSystem.MainModule _unity_self, ref ParticleSystem.MinMaxCurve value) { }
 
-	// RVA: 0x22C5C60 Offset: 0x22C4260 VA: 0x1822C5C60
+	// RVA: 0x22C5F20 Offset: 0x22C4520 VA: 0x1822C5F20
 	private static float get_startSpeedMultiplier_Injected(ref ParticleSystem.MainModule _unity_self) { }
 
-	// RVA: 0x22C60D0 Offset: 0x22C46D0 VA: 0x1822C60D0
+	// RVA: 0x22C6390 Offset: 0x22C4990 VA: 0x1822C6390
 	private static void set_startSpeedMultiplier_Injected(ref ParticleSystem.MainModule _unity_self, float value) { }
 
-	// RVA: 0x22C5BC0 Offset: 0x22C41C0 VA: 0x1822C5BC0
+	// RVA: 0x22C5E80 Offset: 0x22C4480 VA: 0x1822C5E80
 	private static void get_startSize_Injected(ref ParticleSystem.MainModule _unity_self, out ParticleSystem.MinMaxCurve ret) { }
 
-	// RVA: 0x22C6030 Offset: 0x22C4630 VA: 0x1822C6030
+	// RVA: 0x22C62F0 Offset: 0x22C48F0 VA: 0x1822C62F0
 	private static void set_startSize_Injected(ref ParticleSystem.MainModule _unity_self, ref ParticleSystem.MinMaxCurve value) { }
 
-	// RVA: 0x22C5B80 Offset: 0x22C4180 VA: 0x1822C5B80
+	// RVA: 0x22C5E40 Offset: 0x22C4440 VA: 0x1822C5E40
 	private static float get_startSizeMultiplier_Injected(ref ParticleSystem.MainModule _unity_self) { }
 
-	// RVA: 0x22C5FE0 Offset: 0x22C45E0 VA: 0x1822C5FE0
+	// RVA: 0x22C62A0 Offset: 0x22C48A0 VA: 0x1822C62A0
 	private static void set_startSizeMultiplier_Injected(ref ParticleSystem.MainModule _unity_self, float value) { }
 
-	// RVA: 0x22C59F0 Offset: 0x22C3FF0 VA: 0x1822C59F0
+	// RVA: 0x22C5CB0 Offset: 0x22C42B0 VA: 0x1822C5CB0
 	private static void get_startColor_Injected(ref ParticleSystem.MainModule _unity_self, out ParticleSystem.MinMaxGradient ret) { }
 
-	// RVA: 0x22C5E50 Offset: 0x22C4450 VA: 0x1822C5E50
+	// RVA: 0x22C6110 Offset: 0x22C4710 VA: 0x1822C6110
 	private static void set_startColor_Injected(ref ParticleSystem.MainModule _unity_self, ref ParticleSystem.MinMaxGradient value) { }
 
-	// RVA: 0x22C5930 Offset: 0x22C3F30 VA: 0x1822C5930
+	// RVA: 0x22C5BF0 Offset: 0x22C41F0 VA: 0x1822C5BF0
 	private static float get_gravityModifierMultiplier_Injected(ref ParticleSystem.MainModule _unity_self) { }
 
-	// RVA: 0x22C5D80 Offset: 0x22C4380 VA: 0x1822C5D80
+	// RVA: 0x22C6040 Offset: 0x22C4640 VA: 0x1822C6040
 	private static void set_gravityModifierMultiplier_Injected(ref ParticleSystem.MainModule _unity_self, float value) { }
 
-	// RVA: 0x22C5E10 Offset: 0x22C4410 VA: 0x1822C5E10
+	// RVA: 0x22C60D0 Offset: 0x22C46D0 VA: 0x1822C60D0
 	private static void set_simulationSpace_Injected(ref ParticleSystem.MainModule _unity_self, ParticleSystemSimulationSpace value) { }
 
-	// RVA: 0x22C59B0 Offset: 0x22C3FB0 VA: 0x1822C59B0
+	// RVA: 0x22C5C70 Offset: 0x22C4270 VA: 0x1822C5C70
 	private static bool get_playOnAwake_Injected(ref ParticleSystem.MainModule _unity_self) { }
 
-	// RVA: 0x22C5970 Offset: 0x22C3F70 VA: 0x1822C5970
+	// RVA: 0x22C5C30 Offset: 0x22C4230 VA: 0x1822C5C30
 	private static int get_maxParticles_Injected(ref ParticleSystem.MainModule _unity_self) { }
 
-	// RVA: 0x22C5DD0 Offset: 0x22C43D0 VA: 0x1822C5DD0
+	// RVA: 0x22C6090 Offset: 0x22C4690 VA: 0x1822C6090
 	private static void set_maxParticles_Injected(ref ParticleSystem.MainModule _unity_self, int value) { }
 
-	// RVA: 0x22C5D40 Offset: 0x22C4340 VA: 0x1822C5D40
+	// RVA: 0x22C6000 Offset: 0x22C4600 VA: 0x1822C6000
 	private static void set_cullingMode_Injected(ref ParticleSystem.MainModule _unity_self, ParticleSystemCullingMode value) { }
 
 }
@@ -416,28 +416,28 @@ public struct ParticleSystem.EmissionModule // TypeDefIndex: 4529
 	// RVA: 0x23B220 Offset: 0x23A620 VA: 0x18023B220
 	public ParticleSystem.Burst GetBurst(int index) { }
 
-	// RVA: 0x22C55C0 Offset: 0x22C3BC0 VA: 0x1822C55C0
+	// RVA: 0x22C5880 Offset: 0x22C3E80 VA: 0x1822C5880
 	private static bool get_enabled_Injected(ref ParticleSystem.EmissionModule _unity_self) { }
 
-	// RVA: 0x22C56E0 Offset: 0x22C3CE0 VA: 0x1822C56E0
+	// RVA: 0x22C59A0 Offset: 0x22C3FA0 VA: 0x1822C59A0
 	private static void set_enabled_Injected(ref ParticleSystem.EmissionModule _unity_self, bool value) { }
 
-	// RVA: 0x22C5640 Offset: 0x22C3C40 VA: 0x1822C5640
+	// RVA: 0x22C5900 Offset: 0x22C3F00 VA: 0x1822C5900
 	private static void get_rateOverTime_Injected(ref ParticleSystem.EmissionModule _unity_self, out ParticleSystem.MinMaxCurve ret) { }
 
-	// RVA: 0x22C5780 Offset: 0x22C3D80 VA: 0x1822C5780
+	// RVA: 0x22C5A40 Offset: 0x22C4040 VA: 0x1822C5A40
 	private static void set_rateOverTime_Injected(ref ParticleSystem.EmissionModule _unity_self, ref ParticleSystem.MinMaxCurve value) { }
 
-	// RVA: 0x22C5600 Offset: 0x22C3C00 VA: 0x1822C5600
+	// RVA: 0x22C58C0 Offset: 0x22C3EC0 VA: 0x1822C58C0
 	private static float get_rateOverTimeMultiplier_Injected(ref ParticleSystem.EmissionModule _unity_self) { }
 
-	// RVA: 0x22C5730 Offset: 0x22C3D30 VA: 0x1822C5730
+	// RVA: 0x22C59F0 Offset: 0x22C3FF0 VA: 0x1822C59F0
 	private static void set_rateOverTimeMultiplier_Injected(ref ParticleSystem.EmissionModule _unity_self, float value) { }
 
-	// RVA: 0x22C5520 Offset: 0x22C3B20 VA: 0x1822C5520
+	// RVA: 0x22C57E0 Offset: 0x22C3DE0 VA: 0x1822C57E0
 	private static void SetBurst_Injected(ref ParticleSystem.EmissionModule _unity_self, int index, ref ParticleSystem.Burst burst) { }
 
-	// RVA: 0x22C5460 Offset: 0x22C3A60 VA: 0x1822C5460
+	// RVA: 0x22C5720 Offset: 0x22C3D20 VA: 0x1822C5720
 	private static void GetBurst_Injected(ref ParticleSystem.EmissionModule _unity_self, int index, out ParticleSystem.Burst ret) { }
 
 }
@@ -496,37 +496,37 @@ public struct ParticleSystem.ShapeModule // TypeDefIndex: 4530
 	// RVA: 0x23C470 Offset: 0x23B870 VA: 0x18023C470
 	public void set_scale(Vector3 value) { }
 
-	// RVA: 0x22C7E90 Offset: 0x22C6490 VA: 0x1822C7E90
+	// RVA: 0x22C8150 Offset: 0x22C6750 VA: 0x1822C8150
 	private static void set_shapeType_Injected(ref ParticleSystem.ShapeModule _unity_self, ParticleSystemShapeType value) { }
 
-	// RVA: 0x22C7DA0 Offset: 0x22C63A0 VA: 0x1822C7DA0
+	// RVA: 0x22C8060 Offset: 0x22C6660 VA: 0x1822C8060
 	private static void set_randomDirectionAmount_Injected(ref ParticleSystem.ShapeModule _unity_self, float value) { }
 
-	// RVA: 0x22C7A90 Offset: 0x22C6090 VA: 0x1822C7A90
+	// RVA: 0x22C7D50 Offset: 0x22C6350 VA: 0x1822C7D50
 	private static float get_radius_Injected(ref ParticleSystem.ShapeModule _unity_self) { }
 
-	// RVA: 0x22C7D50 Offset: 0x22C6350 VA: 0x1822C7D50
+	// RVA: 0x22C8010 Offset: 0x22C6610 VA: 0x1822C8010
 	private static void set_radius_Injected(ref ParticleSystem.ShapeModule _unity_self, float value) { }
 
-	// RVA: 0x22C7B70 Offset: 0x22C6170 VA: 0x1822C7B70
+	// RVA: 0x22C7E30 Offset: 0x22C6430 VA: 0x1822C7E30
 	private static void set_angle_Injected(ref ParticleSystem.ShapeModule _unity_self, float value) { }
 
-	// RVA: 0x22C7C10 Offset: 0x22C6210 VA: 0x1822C7C10
+	// RVA: 0x22C7ED0 Offset: 0x22C64D0 VA: 0x1822C7ED0
 	private static void set_length_Injected(ref ParticleSystem.ShapeModule _unity_self, float value) { }
 
-	// RVA: 0x22C7C60 Offset: 0x22C6260 VA: 0x1822C7C60
+	// RVA: 0x22C7F20 Offset: 0x22C6520 VA: 0x1822C7F20
 	private static void set_meshRenderer_Injected(ref ParticleSystem.ShapeModule _unity_self, MeshRenderer value) { }
 
-	// RVA: 0x22C7BC0 Offset: 0x22C61C0 VA: 0x1822C7BC0
+	// RVA: 0x22C7E80 Offset: 0x22C6480 VA: 0x1822C7E80
 	private static void set_arc_Injected(ref ParticleSystem.ShapeModule _unity_self, float value) { }
 
-	// RVA: 0x22C7CB0 Offset: 0x22C62B0 VA: 0x1822C7CB0
+	// RVA: 0x22C7F70 Offset: 0x22C6570 VA: 0x1822C7F70
 	private static void set_position_Injected(ref ParticleSystem.ShapeModule _unity_self, ref Vector3 value) { }
 
-	// RVA: 0x22C7AD0 Offset: 0x22C60D0 VA: 0x1822C7AD0
+	// RVA: 0x22C7D90 Offset: 0x22C6390 VA: 0x1822C7D90
 	private static void get_rotation_Injected(ref ParticleSystem.ShapeModule _unity_self, out Vector3 ret) { }
 
-	// RVA: 0x22C7DF0 Offset: 0x22C63F0 VA: 0x1822C7DF0
+	// RVA: 0x22C80B0 Offset: 0x22C66B0 VA: 0x1822C80B0
 	private static void set_scale_Injected(ref ParticleSystem.ShapeModule _unity_self, ref Vector3 value) { }
 
 }
@@ -660,7 +660,7 @@ public struct ParticleSystem.MinMaxCurve // TypeDefIndex: 4533
 	// RVA: 0x239830 Offset: 0x238C30 VA: 0x180239830
 	public void set_constant(float value) { }
 
-	// RVA: 0x22C61C0 Offset: 0x22C47C0 VA: 0x1822C61C0
+	// RVA: 0x22C6480 Offset: 0x22C4A80 VA: 0x1822C6480
 	public static ParticleSystem.MinMaxCurve op_Implicit(float constant) { }
 
 }
@@ -703,10 +703,10 @@ public struct ParticleSystem.MinMaxGradient // TypeDefIndex: 4534
 	// RVA: 0xF1470 Offset: 0xF0870 VA: 0x1800F1470
 	public void set_gradient(Gradient value) { }
 
-	// RVA: 0x22C6330 Offset: 0x22C4930 VA: 0x1822C6330
+	// RVA: 0x22C65F0 Offset: 0x22C4BF0 VA: 0x1822C65F0
 	public static ParticleSystem.MinMaxGradient op_Implicit(Color color) { }
 
-	// RVA: 0x22C63F0 Offset: 0x22C49F0 VA: 0x1822C63F0
+	// RVA: 0x22C66B0 Offset: 0x22C4CB0 VA: 0x1822C66B0
 	public static ParticleSystem.MinMaxGradient op_Implicit(Gradient gradient) { }
 
 }
@@ -771,7 +771,7 @@ public struct ParticleSystem.ColorOverLifetimeModule // TypeDefIndex: 4536
 	// RVA: 0x23B1A0 Offset: 0x23A5A0 VA: 0x18023B1A0
 	public void set_color(ParticleSystem.MinMaxGradient value) { }
 
-	// RVA: 0x22C53C0 Offset: 0x22C39C0 VA: 0x1822C53C0
+	// RVA: 0x22C5680 Offset: 0x22C3C80 VA: 0x1822C5680
 	private static void set_color_Injected(ref ParticleSystem.ColorOverLifetimeModule _unity_self, ref ParticleSystem.MinMaxGradient value) { }
 
 }
@@ -798,13 +798,13 @@ public struct ParticleSystem.CollisionModule // TypeDefIndex: 4537
 	// RVA: 0x23B130 Offset: 0x23A530 VA: 0x18023B130
 	public void set_quality(ParticleSystemCollisionQuality value) { }
 
-	// RVA: 0x22C52F0 Offset: 0x22C38F0 VA: 0x1822C52F0
+	// RVA: 0x22C55B0 Offset: 0x22C3BB0 VA: 0x1822C55B0
 	private static bool get_enabled_Injected(ref ParticleSystem.CollisionModule _unity_self) { }
 
-	// RVA: 0x22C5330 Offset: 0x22C3930 VA: 0x1822C5330
+	// RVA: 0x22C55F0 Offset: 0x22C3BF0 VA: 0x1822C55F0
 	private static void set_enabled_Injected(ref ParticleSystem.CollisionModule _unity_self, bool value) { }
 
-	// RVA: 0x22C5380 Offset: 0x22C3980 VA: 0x1822C5380
+	// RVA: 0x22C5640 Offset: 0x22C3C40 VA: 0x1822C5640
 	private static void set_quality_Injected(ref ParticleSystem.CollisionModule _unity_self, ParticleSystemCollisionQuality value) { }
 
 }

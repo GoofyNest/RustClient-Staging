@@ -10,82 +10,82 @@ public class BaseEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 629
 
 	// Methods
 
-	// RVA: 0x1FFE390 Offset: 0x1FFC990 VA: 0x181FFE390
+	// RVA: 0x1FFE650 Offset: 0x1FFCC50 VA: 0x181FFE650
 	public static void ResetToPool(BaseEntity instance) { }
 
-	// RVA: 0x1FFE450 Offset: 0x1FFCA50 VA: 0x181FFE450
+	// RVA: 0x1FFE710 Offset: 0x1FFCD10 VA: 0x181FFE710
 	public void ResetToPool() { }
 
-	// RVA: 0x1FFDFE0 Offset: 0x1FFC5E0 VA: 0x181FFDFE0 Slot: 9
+	// RVA: 0x1FFE2A0 Offset: 0x1FFC8A0 VA: 0x181FFE2A0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1FFCCC0 Offset: 0x1FFB2C0 VA: 0x181FFCCC0
+	// RVA: 0x1FFCF80 Offset: 0x1FFB580 VA: 0x181FFCF80
 	public void CopyTo(BaseEntity instance) { }
 
-	// RVA: 0x1FFCD10 Offset: 0x1FFB310 VA: 0x181FFCD10
+	// RVA: 0x1FFCFD0 Offset: 0x1FFB5D0 VA: 0x181FFCFD0
 	public BaseEntity Copy() { }
 
-	// RVA: 0x1FFDA30 Offset: 0x1FFC030 VA: 0x181FFDA30
+	// RVA: 0x1FFDCF0 Offset: 0x1FFC2F0 VA: 0x181FFDCF0
 	public static BaseEntity Deserialize(Stream stream) { }
 
-	// RVA: 0x1FFCDB0 Offset: 0x1FFB3B0 VA: 0x181FFCDB0
+	// RVA: 0x1FFD070 Offset: 0x1FFB670 VA: 0x181FFD070
 	public static BaseEntity DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1FFD150 Offset: 0x1FFB750 VA: 0x181FFD150
+	// RVA: 0x1FFD410 Offset: 0x1FFBA10 VA: 0x181FFD410
 	public static BaseEntity DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1FFDCB0 Offset: 0x1FFC2B0 VA: 0x181FFDCB0
+	// RVA: 0x1FFDF70 Offset: 0x1FFC570 VA: 0x181FFDF70
 	public static BaseEntity Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1FFE120 Offset: 0x1FFC720 VA: 0x181FFE120
+	// RVA: 0x1FFE3E0 Offset: 0x1FFC9E0 VA: 0x181FFE3E0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1FFEE30 Offset: 0x1FFD430 VA: 0x181FFEE30 Slot: 12
+	// RVA: 0x1FFF0F0 Offset: 0x1FFD6F0 VA: 0x181FFF0F0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1FFEE50 Offset: 0x1FFD450 VA: 0x181FFEE50 Slot: 13
+	// RVA: 0x1FFF110 Offset: 0x1FFD710 VA: 0x181FFF110 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, BaseEntity previous) { }
 
-	// RVA: 0x1FFE370 Offset: 0x1FFC970 VA: 0x181FFE370 Slot: 14
+	// RVA: 0x1FFE630 Offset: 0x1FFCC30 VA: 0x181FFE630 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1FFD720 Offset: 0x1FFBD20 VA: 0x181FFD720
+	// RVA: 0x1FFD9E0 Offset: 0x1FFBFE0 VA: 0x181FFD9E0
 	public static BaseEntity Deserialize(byte[] buffer, BaseEntity instance, bool isDelta = False) { }
 
-	// RVA: 0x1FFD4D0 Offset: 0x1FFBAD0 VA: 0x181FFD4D0
+	// RVA: 0x1FFD790 Offset: 0x1FFBD90 VA: 0x181FFD790
 	public static BaseEntity Deserialize(Stream stream, BaseEntity instance, bool isDelta) { }
 
-	// RVA: 0x1FFCE30 Offset: 0x1FFB430 VA: 0x181FFCE30
+	// RVA: 0x1FFD0F0 Offset: 0x1FFB6F0 VA: 0x181FFD0F0
 	public static BaseEntity DeserializeLengthDelimited(Stream stream, BaseEntity instance, bool isDelta) { }
 
-	// RVA: 0x1FFD1E0 Offset: 0x1FFB7E0 VA: 0x181FFD1E0
+	// RVA: 0x1FFD4A0 Offset: 0x1FFBAA0 VA: 0x181FFD4A0
 	public static BaseEntity DeserializeLength(Stream stream, int length, BaseEntity instance, bool isDelta) { }
 
-	// RVA: 0x1FFE510 Offset: 0x1FFCB10 VA: 0x181FFE510
+	// RVA: 0x1FFE7D0 Offset: 0x1FFCDD0 VA: 0x181FFE7D0
 	public static void SerializeDelta(Stream stream, BaseEntity instance, BaseEntity previous) { }
 
-	// RVA: 0x1FFEB70 Offset: 0x1FFD170 VA: 0x181FFEB70
+	// RVA: 0x1FFEE30 Offset: 0x1FFD430 VA: 0x181FFEE30
 	public static void Serialize(Stream stream, BaseEntity instance) { }
 
-	// RVA: 0x1FFEE20 Offset: 0x1FFD420 VA: 0x181FFEE20
+	// RVA: 0x1FFF0E0 Offset: 0x1FFD6E0 VA: 0x181FFF0E0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1FFEE30 Offset: 0x1FFD430 VA: 0x181FFEE30
+	// RVA: 0x1FFF0F0 Offset: 0x1FFD6F0 VA: 0x181FFF0F0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1FFEA60 Offset: 0x1FFD060 VA: 0x181FFEA60
+	// RVA: 0x1FFED20 Offset: 0x1FFD320 VA: 0x181FFED20
 	public static byte[] SerializeToBytes(BaseEntity instance) { }
 
-	// RVA: 0x1FFE9B0 Offset: 0x1FFCFB0 VA: 0x181FFE9B0
+	// RVA: 0x1FFEC70 Offset: 0x1FFD270 VA: 0x181FFEC70
 	public static void SerializeLengthDelimited(Stream stream, BaseEntity instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -140,10 +140,10 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 
 	// Methods
 
-	// RVA: 0x7E24C0 Offset: 0x7E0AC0 VA: 0x1807E24C0 Slot: 35
+	// RVA: 0x7E25D0 Offset: 0x7E0BD0 VA: 0x1807E25D0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x7DDA00 Offset: 0x7DC000 VA: 0x1807DDA00
+	// RVA: 0x7DDB10 Offset: 0x7DC110 VA: 0x1807DDB10
 	public void GetEntityMenu(BasePlayer player, List<Option> optionList) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 49
@@ -152,88 +152,88 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 50
 	public virtual bool get_HasMenuOptions() { }
 
-	// RVA: 0x7DE0B0 Offset: 0x7DC6B0 VA: 0x1807DE0B0 Slot: 51
+	// RVA: 0x7DE1C0 Offset: 0x7DC7C0 VA: 0x1807DE1C0 Slot: 51
 	public virtual void GetItemOptions(List<Option> options) { }
 
-	// RVA: 0x7DEB00 Offset: 0x7DD100 VA: 0x1807DEB00
+	// RVA: 0x7DEC10 Offset: 0x7DD210 VA: 0x1807DEC10
 	public BaseEntity.MovementModify GetMovementModify() { }
 
-	// RVA: 0x7DDB40 Offset: 0x7DC140 VA: 0x1807DDB40 Slot: 52
+	// RVA: 0x7DDC50 Offset: 0x7DC250 VA: 0x1807DDC50 Slot: 52
 	public virtual float GetExtrapolationTime() { }
 
-	// RVA: 0x7DDF00 Offset: 0x7DC500 VA: 0x1807DDF00 Slot: 53
+	// RVA: 0x7DE010 Offset: 0x7DC610 VA: 0x1807DE010 Slot: 53
 	public virtual float GetInterpolationDelay() { }
 
-	// RVA: 0x7DDF90 Offset: 0x7DC590 VA: 0x1807DDF90 Slot: 54
+	// RVA: 0x7DE0A0 Offset: 0x7DC6A0 VA: 0x1807DE0A0 Slot: 54
 	public virtual float GetInterpolationInertia() { }
 
-	// RVA: 0x7DE020 Offset: 0x7DC620 VA: 0x1807DE020 Slot: 55
+	// RVA: 0x7DE130 Offset: 0x7DC730 VA: 0x1807DE130 Slot: 55
 	public virtual float GetInterpolationSmoothing() { }
 
-	// RVA: 0x7DD4A0 Offset: 0x7DBAA0 VA: 0x1807DD4A0 Slot: 56
+	// RVA: 0x7DD5B0 Offset: 0x7DBBB0 VA: 0x1807DD5B0 Slot: 56
 	public virtual Quaternion GetAngularVelocityClient() { }
 
-	// RVA: 0x7DE300 Offset: 0x7DC900 VA: 0x1807DE300 Slot: 57
+	// RVA: 0x7DE410 Offset: 0x7DCA10 VA: 0x1807DE410 Slot: 57
 	public virtual Vector3 GetLocalVelocityClient() { }
 
-	// RVA: 0x7DB9A0 Offset: 0x7D9FA0 VA: 0x1807DB9A0 Slot: 43
+	// RVA: 0x7DBAB0 Offset: 0x7DA0B0 VA: 0x1807DBAB0 Slot: 43
 	public void DrawInterpolationState(Interpolator.Segment<TransformSnapshot> segment, List<TransformSnapshot> entries) { }
 
-	// RVA: 0x7E0E30 Offset: 0x7DF430 VA: 0x1807E0E30 Slot: 44
+	// RVA: 0x7E0F40 Offset: 0x7DF540 VA: 0x1807E0F40 Slot: 44
 	public void LerpIdleDisable() { }
 
-	// RVA: 0x7DAC20 Offset: 0x7D9220 VA: 0x1807DAC20 Slot: 14
+	// RVA: 0x7DAD30 Offset: 0x7D9330 VA: 0x1807DAD30 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x7DACD0 Offset: 0x7D92D0 VA: 0x1807DACD0 Slot: 13
+	// RVA: 0x7DADE0 Offset: 0x7D93E0 VA: 0x1807DADE0 Slot: 13
 	public override void ClientOnEnable() { }
 
-	// RVA: 0x7E2150 Offset: 0x7E0750 VA: 0x1807E2150
+	// RVA: 0x7E2260 Offset: 0x7E0860 VA: 0x1807E2260
 	public void OnPositionalFromNetwork(Vector3 vPos, Vector3 vAng, float time) { }
 
-	// RVA: 0x7E5510 Offset: 0x7E3B10 VA: 0x1807E5510
+	// RVA: 0x7E5620 Offset: 0x7E3C20 VA: 0x1807E5620
 	public void StartLerping(float time) { }
 
-	// RVA: 0x7E5690 Offset: 0x7E3C90 VA: 0x1807E5690
+	// RVA: 0x7E57A0 Offset: 0x7E3DA0 VA: 0x1807E57A0
 	public void StopLerping() { }
 
-	// RVA: 0x7E5100 Offset: 0x7E3700 VA: 0x1807E5100 Slot: 58
+	// RVA: 0x7E5210 Offset: 0x7E3810 VA: 0x1807E5210 Slot: 58
 	public virtual bool ShouldLerp() { }
 
-	// RVA: 0x7E4BF0 Offset: 0x7E31F0 VA: 0x1807E4BF0 Slot: 59
+	// RVA: 0x7E4D00 Offset: 0x7E3300 VA: 0x1807E4D00 Slot: 59
 	public virtual void SetNetworkPosition(Vector3 vPos) { }
 
-	// RVA: 0x7E4D60 Offset: 0x7E3360 VA: 0x1807E4D60 Slot: 60
+	// RVA: 0x7E4E70 Offset: 0x7E3470 VA: 0x1807E4E70 Slot: 60
 	public virtual void SetNetworkRotation(Quaternion qRot) { }
 
-	// RVA: 0x7DB980 Offset: 0x7D9F80 VA: 0x1807DB980 Slot: 61
+	// RVA: 0x7DBA90 Offset: 0x7DA090 VA: 0x1807DBA90 Slot: 61
 	public virtual void DoDestroyEffects(BaseNetworkable.DestroyMode mode, Message msg) { }
 
-	// RVA: 0x7E5200 Offset: 0x7E3800 VA: 0x1807E5200 Slot: 62
+	// RVA: 0x7E5310 Offset: 0x7E3910 VA: 0x1807E5310 Slot: 62
 	protected virtual void SpawnGibs() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0 Slot: 20
 	internal override void DoNetworkDestroy() { }
 
-	// RVA: 0x7E3880 Offset: 0x7E1E80 VA: 0x1807E3880 Slot: 16
+	// RVA: 0x7E3990 Offset: 0x7E1F90 VA: 0x1807E3990 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0x7E1E90 Offset: 0x7E0490 VA: 0x1807E1E90 Slot: 63
+	// RVA: 0x7E1FA0 Offset: 0x7E05A0 VA: 0x1807E1FA0 Slot: 63
 	public virtual void OnBecameRagdoll(Ragdoll rdoll) { }
 
-	// RVA: 0x7DE480 Offset: 0x7DCA80 VA: 0x1807DE480 Slot: 64
+	// RVA: 0x7DE590 Offset: 0x7DCB90 VA: 0x1807DE590 Slot: 64
 	public virtual Info GetMenuInformation(GameObject primaryObject, BasePlayer player) { }
 
-	// RVA: 0x7DF850 Offset: 0x7DDE50 VA: 0x1807DF850 Slot: 65
+	// RVA: 0x7DF960 Offset: 0x7DDF60 VA: 0x1807DF960 Slot: 65
 	protected virtual bool HideMenuItems(BasePlayer player) { }
 
-	// RVA: 0x7DE770 Offset: 0x7DCD70 VA: 0x1807DE770 Slot: 66
+	// RVA: 0x7DE880 Offset: 0x7DCE80 VA: 0x1807DE880 Slot: 66
 	public virtual List<Option> GetMenuItems(BasePlayer player) { }
 
-	// RVA: 0x7E3670 Offset: 0x7E1C70 VA: 0x1807E3670 Slot: 67
+	// RVA: 0x7E3780 Offset: 0x7E1D80 VA: 0x1807E3780 Slot: 67
 	public virtual void OnUse(BasePlayer player) { }
 
-	// RVA: 0x7E3450 Offset: 0x7E1A50 VA: 0x1807E3450 Slot: 68
+	// RVA: 0x7E3560 Offset: 0x7E1B60 VA: 0x1807E3560 Slot: 68
 	public virtual void OnUseHeld(BasePlayer player) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 69
@@ -242,22 +242,22 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 70
 	public virtual void OnRendered() { }
 
-	// RVA: 0x7DB6D0 Offset: 0x7D9CD0 VA: 0x1807DB6D0 Slot: 19
+	// RVA: 0x7DB7E0 Offset: 0x7D9DE0 VA: 0x1807DB7E0 Slot: 19
 	protected override void DoClientDestroy() { }
 
-	// RVA: 0x7DDBD0 Offset: 0x7DC1D0 VA: 0x1807DDBD0 Slot: 71
+	// RVA: 0x7DDCE0 Offset: 0x7DC2E0 VA: 0x1807DDCE0 Slot: 71
 	internal virtual Transform GetEyeTransform() { }
 
-	// RVA: 0x7E1D80 Offset: 0x7E0380 VA: 0x1807E1D80 Slot: 72
+	// RVA: 0x7E1E90 Offset: 0x7E0490 VA: 0x1807E1E90 Slot: 72
 	public virtual bool NeedsCrosshair() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 73
 	public virtual bool AlwaysShowCrosshair() { }
 
-	// RVA: 0x7E5050 Offset: 0x7E3650 VA: 0x1807E5050 Slot: 17
+	// RVA: 0x7E5160 Offset: 0x7E3760 VA: 0x1807E5160 Slot: 17
 	public override bool ShouldDestroyWithGroup() { }
 
-	// RVA: 0x7DB2C0 Offset: 0x7D98C0 VA: 0x1807DB2C0
+	// RVA: 0x7DB3D0 Offset: 0x7D99D0 VA: 0x1807DB3D0
 	public void DetachEffects() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 74
@@ -266,76 +266,76 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 75
 	public virtual void LookingAtTick() { }
 
-	// RVA: 0x723120 Offset: 0x721720 VA: 0x180723120 Slot: 76
+	// RVA: 0x723230 Offset: 0x721830 VA: 0x180723230 Slot: 76
 	public virtual float get_RealisticMass() { }
 
-	// RVA: 0x7E1F40 Offset: 0x7E0540 VA: 0x1807E1F40 Slot: 77
+	// RVA: 0x7E2050 Offset: 0x7E0650 VA: 0x1807E2050 Slot: 77
 	public virtual void OnCollision(Collision collision, BaseEntity hitEntity) { }
 
-	// RVA: 0x7E3970 Offset: 0x7E1F70 VA: 0x1807E3970
+	// RVA: 0x7E3A80 Offset: 0x7E2080 VA: 0x1807E3A80
 	protected void ReceiveCollisionMessages(bool b) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 78
 	public virtual void DebugClient(int rep, float time) { }
 
-	// RVA: 0x7E1F90 Offset: 0x7E0590 VA: 0x1807E1F90
+	// RVA: 0x7E20A0 Offset: 0x7E06A0 VA: 0x1807E20A0
 	public void OnDebugStart() { }
 
-	// RVA: 0x7DB200 Offset: 0x7D9800 VA: 0x1807DB200
+	// RVA: 0x7DB310 Offset: 0x7D9910 VA: 0x1807DB310
 	protected void DebugText(Vector3 pos, string str, Color color, float time) { }
 
-	// RVA: 0x7DF810 Offset: 0x7DDE10 VA: 0x1807DF810 Slot: 79
+	// RVA: 0x7DF920 Offset: 0x7DDF20 VA: 0x1807DF920 Slot: 79
 	public bool HasFlag(BaseEntity.Flags f) { }
 
-	// RVA: 0x7E37E0 Offset: 0x7E1DE0 VA: 0x1807E37E0
+	// RVA: 0x7E38F0 Offset: 0x7E1EF0 VA: 0x1807E38F0
 	public bool ParentHasFlag(BaseEntity.Flags f) { }
 
-	// RVA: 0x7E4A20 Offset: 0x7E3020 VA: 0x1807E4A20
+	// RVA: 0x7E4B30 Offset: 0x7E3130 VA: 0x1807E4B30
 	public void SetFlag(BaseEntity.Flags f, bool b, bool recursive = False, bool networkupdate = True) { }
 
-	// RVA: 0x7DFE60 Offset: 0x7DE460 VA: 0x1807DFE60
+	// RVA: 0x7DFF70 Offset: 0x7DE570 VA: 0x1807DFF70
 	public bool IsOn() { }
 
-	// RVA: 0x7DFE70 Offset: 0x7DE470 VA: 0x1807DFE70
+	// RVA: 0x7DFF80 Offset: 0x7DE580 VA: 0x1807DFF80
 	public bool IsOpen() { }
 
-	// RVA: 0x7DFE50 Offset: 0x7DE450 VA: 0x1807DFE50
+	// RVA: 0x7DFF60 Offset: 0x7DE560 VA: 0x1807DFF60
 	public bool IsOnFire() { }
 
-	// RVA: 0x7DFBA0 Offset: 0x7DE1A0 VA: 0x1807DFBA0
+	// RVA: 0x7DFCB0 Offset: 0x7DE2B0 VA: 0x1807DFCB0
 	public bool IsLocked() { }
 
-	// RVA: 0x7DF9B0 Offset: 0x7DDFB0 VA: 0x1807DF9B0 Slot: 4
+	// RVA: 0x7DFAC0 Offset: 0x7DE0C0 VA: 0x1807DFAC0 Slot: 4
 	public override bool IsDebugging() { }
 
-	// RVA: 0x7DF9C0 Offset: 0x7DDFC0 VA: 0x1807DF9C0
+	// RVA: 0x7DFAD0 Offset: 0x7DE0D0 VA: 0x1807DFAD0
 	public bool IsDisabled() { }
 
-	// RVA: 0x7DF9A0 Offset: 0x7DDFA0 VA: 0x1807DF9A0
+	// RVA: 0x7DFAB0 Offset: 0x7DE0B0 VA: 0x1807DFAB0
 	public bool IsBroken() { }
 
-	// RVA: 0x7DF850 Offset: 0x7DDE50 VA: 0x1807DF850
+	// RVA: 0x7DF960 Offset: 0x7DDF60 VA: 0x1807DF960
 	public bool IsBusy() { }
 
-	// RVA: 0x7DE430 Offset: 0x7DCA30 VA: 0x1807DE430 Slot: 5
+	// RVA: 0x7DE540 Offset: 0x7DCB40 VA: 0x1807DE540 Slot: 5
 	public override string GetLogColor() { }
 
-	// RVA: 0x7E2050 Offset: 0x7E0650 VA: 0x1807E2050 Slot: 80
+	// RVA: 0x7E2160 Offset: 0x7E0760 VA: 0x1807E2160 Slot: 80
 	public virtual void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x7DFCA0 Offset: 0x7DE2A0 VA: 0x1807DFCA0
+	// RVA: 0x7DFDB0 Offset: 0x7DE3B0 VA: 0x1807DFDB0
 	public bool IsOccupied(Socket_Base socket) { }
 
-	// RVA: 0x7DFBB0 Offset: 0x7DE1B0 VA: 0x1807DFBB0
+	// RVA: 0x7DFCC0 Offset: 0x7DE2C0 VA: 0x1807DFCC0
 	public bool IsOccupied(string socketName) { }
 
-	// RVA: 0x7DC660 Offset: 0x7DAC60 VA: 0x1807DC660
+	// RVA: 0x7DC770 Offset: 0x7DAD70 VA: 0x1807DC770
 	public EntityLink FindLink(Socket_Base socket) { }
 
-	// RVA: 0x7DC760 Offset: 0x7DAD60 VA: 0x1807DC760
+	// RVA: 0x7DC870 Offset: 0x7DAE70 VA: 0x1807DC870
 	public EntityLink FindLink(string socketName) { }
 
-	// RVA: 0x7DC840 Offset: 0x7DAE40 VA: 0x1807DC840
+	// RVA: 0x7DC950 Offset: 0x7DAF50 VA: 0x1807DC950
 	public EntityLink FindLink(string[] socketNames) { }
 
 	// RVA: -1 Offset: -1
@@ -350,7 +350,7 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void EntityLinkMessage<T>(Action<T> action) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156A240 Offset: 0x1568840 VA: 0x18156A240
+	|-RVA: 0x156A500 Offset: 0x1568B00 VA: 0x18156A500
 	|-BaseEntity.EntityLinkMessage<object>
 	*/
 
@@ -358,7 +358,7 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void EntityLinkBroadcast<T, S>(Action<T> action, Func<S, bool> canTraverseSocket) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15698E0 Offset: 0x1567EE0 VA: 0x1815698E0
+	|-RVA: 0x1569BA0 Offset: 0x15681A0 VA: 0x181569BA0
 	|-BaseEntity.EntityLinkBroadcast<object, object>
 	*/
 
@@ -366,101 +366,101 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void EntityLinkBroadcast<T>(Action<T> action) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1569E00 Offset: 0x1568400 VA: 0x181569E00
+	|-RVA: 0x156A0C0 Offset: 0x15686C0 VA: 0x18156A0C0
 	|-BaseEntity.EntityLinkBroadcast<object>
 	*/
 
-	// RVA: 0x7DC140 Offset: 0x7DA740 VA: 0x1807DC140
+	// RVA: 0x7DC250 Offset: 0x7DA850 VA: 0x1807DC250
 	public void EntityLinkBroadcast() { }
 
-	// RVA: 0x7E3A00 Offset: 0x7E2000 VA: 0x1807E3A00
+	// RVA: 0x7E3B10 Offset: 0x7E2110 VA: 0x1807E3B10
 	public bool ReceivedEntityLinkBroadcast() { }
 
-	// RVA: 0x7DD9C0 Offset: 0x7DBFC0 VA: 0x1807DD9C0
+	// RVA: 0x7DDAD0 Offset: 0x7DC0D0 VA: 0x1807DDAD0
 	public List<EntityLink> GetEntityLinks(bool linkToNeighbours = True) { }
 
-	// RVA: 0x7E0E60 Offset: 0x7DF460 VA: 0x1807E0E60
+	// RVA: 0x7E0F70 Offset: 0x7DF570 VA: 0x1807E0F70
 	private void LinkToEntity(BaseEntity other) { }
 
-	// RVA: 0x7E10C0 Offset: 0x7DF6C0 VA: 0x1807E10C0
+	// RVA: 0x7E11D0 Offset: 0x7DF7D0 VA: 0x1807E11D0
 	private void LinkToNeighbours() { }
 
-	// RVA: 0x7DF860 Offset: 0x7DDE60 VA: 0x1807DF860
+	// RVA: 0x7DF970 Offset: 0x7DDF70 VA: 0x1807DF970
 	private void InitEntityLinks() { }
 
-	// RVA: 0x7DD3C0 Offset: 0x7DB9C0 VA: 0x1807DD3C0
+	// RVA: 0x7DD4D0 Offset: 0x7DBAD0 VA: 0x1807DD4D0
 	private void FreeEntityLinks() { }
 
-	// RVA: 0x7E3A70 Offset: 0x7E2070 VA: 0x1807E3A70
+	// RVA: 0x7E3B80 Offset: 0x7E2180 VA: 0x1807E3B80
 	public void RefreshEntityLinks() { }
 
 	[ObsoleteAttribute] // RVA: 0x9F7E0 Offset: 0x9EBE0 VA: 0x18009F7E0
-	// RVA: 0x7E42F0 Offset: 0x7E28F0 VA: 0x1807E42F0
+	// RVA: 0x7E4400 Offset: 0x7E2A00 VA: 0x1807E4400
 	public void RequestFileFromServer(uint crc, FileStorage.Type type, string responseFunction, uint part = 0) { }
 
-	// RVA: 0x7E3FB0 Offset: 0x7E25B0 VA: 0x1807E3FB0
+	// RVA: 0x7E40C0 Offset: 0x7E26C0 VA: 0x1807E40C0
 	public void RequestFileFromServer(IServerFileReceiver receiver, FileStorage.Type type, uint crc, uint part = 0, bool respondIfNotFound = False) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7DA930 Offset: 0x7D8F30 VA: 0x1807DA930
+	// RVA: 0x7DAA40 Offset: 0x7D9040 VA: 0x1807DAA40
 	public void CL_ReceiveFileRequest(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x7DAED0 Offset: 0x7D94D0 VA: 0x1807DAED0
+	// RVA: 0x7DAFE0 Offset: 0x7D95E0 VA: 0x1807DAFE0
 	private void CompletePendingFileRequests(FileStorage.Type type, uint crc, uint part, byte[] data) { }
 
-	// RVA: 0x7E5850 Offset: 0x7E3E50 VA: 0x1807E5850
+	// RVA: 0x7E5960 Offset: 0x7E3F60 VA: 0x1807E5960
 	public void UpdateChildren() { }
 
-	// RVA: 0x7E65C0 Offset: 0x7E4BC0 VA: 0x1807E65C0
+	// RVA: 0x7E66D0 Offset: 0x7E4CD0 VA: 0x1807E66D0
 	public void UpdateParenting() { }
 
-	// RVA: 0x7E5F40 Offset: 0x7E4540 VA: 0x1807E5F40
+	// RVA: 0x7E6050 Offset: 0x7E4650 VA: 0x1807E6050
 	public void UpdateParenting(bool worldPositionStays) { }
 
-	// RVA: 0x7E4E30 Offset: 0x7E3430 VA: 0x1807E4E30
+	// RVA: 0x7E4F40 Offset: 0x7E3540 VA: 0x1807E4F40
 	private void SetParentTransform(Transform parent, bool worldPositionStays = True) { }
 
-	// RVA: 0x7E5BC0 Offset: 0x7E41C0 VA: 0x1807E5BC0
+	// RVA: 0x7E5CD0 Offset: 0x7E42D0 VA: 0x1807E5CD0
 	protected void UpdateDisableState() { }
 
-	// RVA: 0x7DF670 Offset: 0x7DDC70 VA: 0x1807DF670
+	// RVA: 0x7DF780 Offset: 0x7DDD80 VA: 0x1807DF780
 	private bool HasClientTransformOffset() { }
 
-	// RVA: 0x7E3D80 Offset: 0x7E2380 VA: 0x1807E3D80
+	// RVA: 0x7E3E90 Offset: 0x7E2490 VA: 0x1807E3E90
 	private void RemoveClientTransformOffset() { }
 
-	// RVA: 0x7DA2F0 Offset: 0x7D88F0 VA: 0x1807DA2F0
+	// RVA: 0x7DA400 Offset: 0x7D8A00 VA: 0x1807DA400
 	private void AddClientTransformOffset() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 81
 	public virtual void OnParentChangingClient(Transform oldParent, Transform newParent) { }
 
-	// RVA: 0x7DD950 Offset: 0x7DBF50 VA: 0x1807DD950 Slot: 82
+	// RVA: 0x7DDA60 Offset: 0x7DC060 VA: 0x1807DDA60 Slot: 82
 	public virtual BuildingPrivlidge GetBuildingPrivilege() { }
 
-	// RVA: 0x7DD660 Offset: 0x7DBC60 VA: 0x1807DD660
+	// RVA: 0x7DD770 Offset: 0x7DBD70 VA: 0x1807DD770
 	public BuildingPrivlidge GetBuildingPrivilege(OBB obb) { }
 
 	// RVA: -1 Offset: -1
 	public void ServerRPC<T1, T2, T3, T4, T5>(SendMethod sendMethod, string funcName, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156B9A0 Offset: 0x1569FA0 VA: 0x18156B9A0
+	|-RVA: 0x156BC60 Offset: 0x156A260 VA: 0x18156BC60
 	|-BaseEntity.ServerRPC<byte, byte, uint, uint, object>
 	|
-	|-RVA: 0x156BEB0 Offset: 0x156A4B0 VA: 0x18156BEB0
+	|-RVA: 0x156C170 Offset: 0x156A770 VA: 0x18156C170
 	|-BaseEntity.ServerRPC<int, int, int, int, byte>
 	|
-	|-RVA: 0x156BC30 Offset: 0x156A230 VA: 0x18156BC30
+	|-RVA: 0x156BEF0 Offset: 0x156A4F0 VA: 0x18156BEF0
 	|-BaseEntity.ServerRPC<int, Color, Color, Color, Color>
 	|
-	|-RVA: 0x156DC40 Offset: 0x156C240 VA: 0x18156DC40
+	|-RVA: 0x156DF00 Offset: 0x156C500 VA: 0x18156DF00
 	|-BaseEntity.ServerRPC<object, object, object, object, object>
 	|
-	|-RVA: 0x156E860 Offset: 0x156CE60 VA: 0x18156E860
+	|-RVA: 0x156EB20 Offset: 0x156D120 VA: 0x18156EB20
 	|-BaseEntity.ServerRPC<uint, byte, uint, uint, bool>
 	|
-	|-RVA: 0x156F090 Offset: 0x156D690 VA: 0x18156F090
+	|-RVA: 0x156F350 Offset: 0x156D950 VA: 0x18156F350
 	|-BaseEntity.ServerRPC<uint, int, uint, int, int>
 	*/
 
@@ -468,37 +468,37 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void ServerRPC<T1, T2, T3, T4>(SendMethod sendMethod, string funcName, T1 arg1, T2 arg2, T3 arg3, T4 arg4) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156C0F0 Offset: 0x156A6F0 VA: 0x18156C0F0
+	|-RVA: 0x156C3B0 Offset: 0x156A9B0 VA: 0x18156C3B0
 	|-BaseEntity.ServerRPC<int, int, int, int>
 	|
-	|-RVA: 0x156C310 Offset: 0x156A910 VA: 0x18156C310
+	|-RVA: 0x156C5D0 Offset: 0x156ABD0 VA: 0x18156C5D0
 	|-BaseEntity.ServerRPC<int, int, int, float>
 	|
-	|-RVA: 0x156C910 Offset: 0x156AF10 VA: 0x18156C910
+	|-RVA: 0x156CBD0 Offset: 0x156B1D0 VA: 0x18156CBD0
 	|-BaseEntity.ServerRPC<int, int, object, bool>
 	|
-	|-RVA: 0x156D0F0 Offset: 0x156B6F0 VA: 0x18156D0F0
+	|-RVA: 0x156D3B0 Offset: 0x156B9B0 VA: 0x18156D3B0
 	|-BaseEntity.ServerRPC<int, uint, object, bool>
 	|
-	|-RVA: 0x156DA20 Offset: 0x156C020 VA: 0x18156DA20
+	|-RVA: 0x156DCE0 Offset: 0x156C2E0 VA: 0x18156DCE0
 	|-BaseEntity.ServerRPC<object, object, int, object>
 	|
-	|-RVA: 0x156DE90 Offset: 0x156C490 VA: 0x18156DE90
+	|-RVA: 0x156E150 Offset: 0x156C750 VA: 0x18156E150
 	|-BaseEntity.ServerRPC<object, object, object, object>
 	|
-	|-RVA: 0x156EA50 Offset: 0x156D050 VA: 0x18156EA50
+	|-RVA: 0x156ED10 Offset: 0x156D310 VA: 0x18156ED10
 	|-BaseEntity.ServerRPC<uint, byte, uint, uint>
 	|
-	|-RVA: 0x156FB90 Offset: 0x156E190 VA: 0x18156FB90
+	|-RVA: 0x156FE50 Offset: 0x156E450 VA: 0x18156FE50
 	|-BaseEntity.ServerRPC<uint, uint, sbyte, int>
 	|
-	|-RVA: 0x1570260 Offset: 0x156E860 VA: 0x181570260
+	|-RVA: 0x1570520 Offset: 0x156EB20 VA: 0x181570520
 	|-BaseEntity.ServerRPC<ulong, uint, uint, object>
 	|
-	|-RVA: 0x1570900 Offset: 0x156EF00 VA: 0x181570900
+	|-RVA: 0x1570BC0 Offset: 0x156F1C0 VA: 0x181570BC0
 	|-BaseEntity.ServerRPC<Vector3, Vector3, int, int>
 	|
-	|-RVA: 0x1570D70 Offset: 0x156F370 VA: 0x181570D70
+	|-RVA: 0x1571030 Offset: 0x156F630 VA: 0x181571030
 	|-BaseEntity.ServerRPC<Vector3, Vector3, Vector3, int>
 	*/
 
@@ -506,40 +506,40 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void ServerRPC<T1, T2, T3>(SendMethod sendMethod, string funcName, T1 arg1, T2 arg2, T3 arg3) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156B5B0 Offset: 0x1569BB0 VA: 0x18156B5B0
+	|-RVA: 0x156B870 Offset: 0x1569E70 VA: 0x18156B870
 	|-BaseEntity.ServerRPC<bool, Vector3, uint>
 	|
-	|-RVA: 0x156C4E0 Offset: 0x156AAE0 VA: 0x18156C4E0
+	|-RVA: 0x156C7A0 Offset: 0x156ADA0 VA: 0x18156C7A0
 	|-BaseEntity.ServerRPC<int, int, int>
 	|
-	|-RVA: 0x156C740 Offset: 0x156AD40 VA: 0x18156C740
+	|-RVA: 0x156CA00 Offset: 0x156B000 VA: 0x18156CA00
 	|-BaseEntity.ServerRPC<int, int, Ray>
 	|
-	|-RVA: 0x156CD50 Offset: 0x156B350 VA: 0x18156CD50
+	|-RVA: 0x156D010 Offset: 0x156B610 VA: 0x18156D010
 	|-BaseEntity.ServerRPC<int, object, int>
 	|
-	|-RVA: 0x156E0C0 Offset: 0x156C6C0 VA: 0x18156E0C0
+	|-RVA: 0x156E380 Offset: 0x156C980 VA: 0x18156E380
 	|-BaseEntity.ServerRPC<object, object, object>
 	|
-	|-RVA: 0x156EC70 Offset: 0x156D270 VA: 0x18156EC70
+	|-RVA: 0x156EF30 Offset: 0x156D530 VA: 0x18156EF30
 	|-BaseEntity.ServerRPC<uint, int, bool>
 	|
-	|-RVA: 0x156EE70 Offset: 0x156D470 VA: 0x18156EE70
+	|-RVA: 0x156F130 Offset: 0x156D730 VA: 0x18156F130
 	|-BaseEntity.ServerRPC<uint, int, int>
 	|
-	|-RVA: 0x156F420 Offset: 0x156DA20 VA: 0x18156F420
+	|-RVA: 0x156F6E0 Offset: 0x156DCE0 VA: 0x18156F6E0
 	|-BaseEntity.ServerRPC<uint, object, int>
 	|
-	|-RVA: 0x156F620 Offset: 0x156DC20 VA: 0x18156F620
+	|-RVA: 0x156F8E0 Offset: 0x156DEE0 VA: 0x18156F8E0
 	|-BaseEntity.ServerRPC<uint, object, object>
 	|
-	|-RVA: 0x156F7E0 Offset: 0x156DDE0 VA: 0x18156F7E0
+	|-RVA: 0x156FAA0 Offset: 0x156E0A0 VA: 0x18156FAA0
 	|-BaseEntity.ServerRPC<uint, object, ulong>
 	|
-	|-RVA: 0x1570680 Offset: 0x156EC80 VA: 0x181570680
+	|-RVA: 0x1570940 Offset: 0x156EF40 VA: 0x181570940
 	|-BaseEntity.ServerRPC<Vector3, Vector3, bool>
 	|
-	|-RVA: 0x1570B80 Offset: 0x156F180 VA: 0x181570B80
+	|-RVA: 0x1570E40 Offset: 0x156F440 VA: 0x181570E40
 	|-BaseEntity.ServerRPC<Vector3, Vector3, float>
 	*/
 
@@ -547,37 +547,37 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void ServerRPC<T1, T2>(SendMethod sendMethod, string funcName, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156CB70 Offset: 0x156B170 VA: 0x18156CB70
+	|-RVA: 0x156CE30 Offset: 0x156B430 VA: 0x18156CE30
 	|-BaseEntity.ServerRPC<int, int>
 	|
-	|-RVA: 0x156CF50 Offset: 0x156B550 VA: 0x18156CF50
+	|-RVA: 0x156D210 Offset: 0x156B810 VA: 0x18156D210
 	|-BaseEntity.ServerRPC<int, object>
 	|
-	|-RVA: 0x156D840 Offset: 0x156BE40 VA: 0x18156D840
+	|-RVA: 0x156DB00 Offset: 0x156C100 VA: 0x18156DB00
 	|-BaseEntity.ServerRPC<object, bool>
 	|
-	|-RVA: 0x156E2C0 Offset: 0x156C8C0 VA: 0x18156E2C0
+	|-RVA: 0x156E580 Offset: 0x156CB80 VA: 0x18156E580
 	|-BaseEntity.ServerRPC<object, object>
 	|
-	|-RVA: 0x156F280 Offset: 0x156D880 VA: 0x18156F280
+	|-RVA: 0x156F540 Offset: 0x156DB40 VA: 0x18156F540
 	|-BaseEntity.ServerRPC<uint, int>
 	|
-	|-RVA: 0x156F9A0 Offset: 0x156DFA0 VA: 0x18156F9A0
+	|-RVA: 0x156FC60 Offset: 0x156E260 VA: 0x18156FC60
 	|-BaseEntity.ServerRPC<uint, object>
 	|
-	|-RVA: 0x156FEE0 Offset: 0x156E4E0 VA: 0x18156FEE0
+	|-RVA: 0x15701A0 Offset: 0x156E7A0 VA: 0x1815701A0
 	|-BaseEntity.ServerRPC<ulong, int>
 	|
-	|-RVA: 0x15700C0 Offset: 0x156E6C0 VA: 0x1815700C0
+	|-RVA: 0x1570380 Offset: 0x156E980 VA: 0x181570380
 	|-BaseEntity.ServerRPC<ulong, object>
 	|
-	|-RVA: 0x156D4C0 Offset: 0x156BAC0 VA: 0x18156D4C0
+	|-RVA: 0x156D780 Offset: 0x156BD80 VA: 0x18156D780
 	|-BaseEntity.ServerRPC<Ray, int>
 	|
-	|-RVA: 0x156D680 Offset: 0x156BC80 VA: 0x18156D680
+	|-RVA: 0x156D940 Offset: 0x156BF40 VA: 0x18156D940
 	|-BaseEntity.ServerRPC<Ray, uint>
 	|
-	|-RVA: 0x15710A0 Offset: 0x156F6A0 VA: 0x1815710A0
+	|-RVA: 0x1571360 Offset: 0x156F960 VA: 0x181571360
 	|-BaseEntity.ServerRPC<Vector3, Vector3>
 	*/
 
@@ -585,53 +585,53 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void ServerRPC<T1>(SendMethod sendMethod, string funcName, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156B790 Offset: 0x1569D90 VA: 0x18156B790
+	|-RVA: 0x156BA50 Offset: 0x156A050 VA: 0x18156BA50
 	|-BaseEntity.ServerRPC<bool>
 	|
-	|-RVA: 0x156D2C0 Offset: 0x156B8C0 VA: 0x18156D2C0
+	|-RVA: 0x156D580 Offset: 0x156BB80 VA: 0x18156D580
 	|-BaseEntity.ServerRPC<int>
 	|
-	|-RVA: 0x156E4D0 Offset: 0x156CAD0 VA: 0x18156E4D0
+	|-RVA: 0x156E790 Offset: 0x156CD90 VA: 0x18156E790
 	|-BaseEntity.ServerRPC<object>
 	|
-	|-RVA: 0x156E650 Offset: 0x156CC50 VA: 0x18156E650
+	|-RVA: 0x156E910 Offset: 0x156CF10 VA: 0x18156E910
 	|-BaseEntity.ServerRPC<float>
 	|
-	|-RVA: 0x156FD60 Offset: 0x156E360 VA: 0x18156FD60
+	|-RVA: 0x1570020 Offset: 0x156E620 VA: 0x181570020
 	|-BaseEntity.ServerRPC<uint>
 	|
-	|-RVA: 0x1570480 Offset: 0x156EA80 VA: 0x181570480
+	|-RVA: 0x1570740 Offset: 0x156ED40 VA: 0x181570740
 	|-BaseEntity.ServerRPC<ulong>
 	|
-	|-RVA: 0x15712B0 Offset: 0x156F8B0 VA: 0x1815712B0
+	|-RVA: 0x1571570 Offset: 0x156FB70 VA: 0x181571570
 	|-BaseEntity.ServerRPC<Vector3>
 	*/
 
-	// RVA: 0x7E46E0 Offset: 0x7E2CE0 VA: 0x1807E46E0
+	// RVA: 0x7E47F0 Offset: 0x7E2DF0 VA: 0x1807E47F0
 	public void ServerRPC(SendMethod sendMethod, string funcName) { }
 
 	// RVA: -1 Offset: -1
 	public void ServerRPC<T1, T2, T3, T4, T5>(string funcName, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156B940 Offset: 0x1569F40 VA: 0x18156B940
+	|-RVA: 0x156BC00 Offset: 0x156A200 VA: 0x18156BC00
 	|-BaseEntity.ServerRPC<byte, byte, uint, uint, byte[]>
 	|-BaseEntity.ServerRPC<byte, byte, uint, uint, object>
 	|
-	|-RVA: 0x156BE50 Offset: 0x156A450 VA: 0x18156BE50
+	|-RVA: 0x156C110 Offset: 0x156A710 VA: 0x18156C110
 	|-BaseEntity.ServerRPC<int, int, int, int, byte>
 	|
-	|-RVA: 0x156BB90 Offset: 0x156A190 VA: 0x18156BB90
+	|-RVA: 0x156BE50 Offset: 0x156A450 VA: 0x18156BE50
 	|-BaseEntity.ServerRPC<int, Color, Color, Color, Color>
 	|
-	|-RVA: 0x156DE30 Offset: 0x156C430 VA: 0x18156DE30
+	|-RVA: 0x156E0F0 Offset: 0x156C6F0 VA: 0x18156E0F0
 	|-BaseEntity.ServerRPC<object, object, object, object, object>
 	|-BaseEntity.ServerRPC<string, string, string, string, string>
 	|
-	|-RVA: 0x156E800 Offset: 0x156CE00 VA: 0x18156E800
+	|-RVA: 0x156EAC0 Offset: 0x156D0C0 VA: 0x18156EAC0
 	|-BaseEntity.ServerRPC<uint, byte, uint, uint, bool>
 	|
-	|-RVA: 0x156F030 Offset: 0x156D630 VA: 0x18156F030
+	|-RVA: 0x156F2F0 Offset: 0x156D8F0 VA: 0x18156F2F0
 	|-BaseEntity.ServerRPC<uint, int, uint, int, int>
 	*/
 
@@ -639,39 +639,39 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void ServerRPC<T1, T2, T3, T4>(string funcName, T1 arg1, T2 arg2, T3 arg3, T4 arg4) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156CAE0 Offset: 0x156B0E0 VA: 0x18156CAE0
+	|-RVA: 0x156CDA0 Offset: 0x156B3A0 VA: 0x18156CDA0
 	|-BaseEntity.ServerRPC<int, int, byte[], bool>
 	|-BaseEntity.ServerRPC<int, int, object, bool>
 	|-BaseEntity.ServerRPC<int, uint, byte[], bool>
 	|-BaseEntity.ServerRPC<int, uint, object, bool>
 	|
-	|-RVA: 0x156C0A0 Offset: 0x156A6A0 VA: 0x18156C0A0
+	|-RVA: 0x156C360 Offset: 0x156A960 VA: 0x18156C360
 	|-BaseEntity.ServerRPC<int, int, int, int>
 	|
-	|-RVA: 0x156C2C0 Offset: 0x156A8C0 VA: 0x18156C2C0
+	|-RVA: 0x156C580 Offset: 0x156AB80 VA: 0x18156C580
 	|-BaseEntity.ServerRPC<int, int, int, float>
 	|
-	|-RVA: 0x156DBF0 Offset: 0x156C1F0 VA: 0x18156DBF0
+	|-RVA: 0x156DEB0 Offset: 0x156C4B0 VA: 0x18156DEB0
 	|-BaseEntity.ServerRPC<object, object, int, object>
 	|-BaseEntity.ServerRPC<string, string, int, string>
 	|
-	|-RVA: 0x156E070 Offset: 0x156C670 VA: 0x18156E070
+	|-RVA: 0x156E330 Offset: 0x156C930 VA: 0x18156E330
 	|-BaseEntity.ServerRPC<object, object, object, object>
 	|
-	|-RVA: 0x156EC20 Offset: 0x156D220 VA: 0x18156EC20
+	|-RVA: 0x156EEE0 Offset: 0x156D4E0 VA: 0x18156EEE0
 	|-BaseEntity.ServerRPC<uint, byte, uint, uint>
 	|
-	|-RVA: 0x156FB40 Offset: 0x156E140 VA: 0x18156FB40
+	|-RVA: 0x156FE00 Offset: 0x156E400 VA: 0x18156FE00
 	|-BaseEntity.ServerRPC<uint, uint, sbyte, int>
 	|
-	|-RVA: 0x1570430 Offset: 0x156EA30 VA: 0x181570430
+	|-RVA: 0x15706F0 Offset: 0x156ECF0 VA: 0x1815706F0
 	|-BaseEntity.ServerRPC<ulong, uint, uint, byte[]>
 	|-BaseEntity.ServerRPC<ulong, uint, uint, object>
 	|
-	|-RVA: 0x1570870 Offset: 0x156EE70 VA: 0x181570870
+	|-RVA: 0x1570B30 Offset: 0x156F130 VA: 0x181570B30
 	|-BaseEntity.ServerRPC<Vector3, Vector3, int, int>
 	|
-	|-RVA: 0x1570F90 Offset: 0x156F590 VA: 0x181570F90
+	|-RVA: 0x1571250 Offset: 0x156F850 VA: 0x181571250
 	|-BaseEntity.ServerRPC<Vector3, Vector3, Vector3, int>
 	*/
 
@@ -679,36 +679,36 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void ServerRPC<T1, T2, T3>(string funcName, T1 arg1, T2 arg2, T3 arg3) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156B550 Offset: 0x1569B50 VA: 0x18156B550
+	|-RVA: 0x156B810 Offset: 0x1569E10 VA: 0x18156B810
 	|-BaseEntity.ServerRPC<bool, Vector3, uint>
 	|
-	|-RVA: 0x156CD10 Offset: 0x156B310 VA: 0x18156CD10
+	|-RVA: 0x156CFD0 Offset: 0x156B5D0 VA: 0x18156CFD0
 	|-BaseEntity.ServerRPC<int, byte[], int>
 	|-BaseEntity.ServerRPC<int, object, int>
 	|-BaseEntity.ServerRPC<uint, object, int>
 	|
-	|-RVA: 0x156C6A0 Offset: 0x156ACA0 VA: 0x18156C6A0
+	|-RVA: 0x156C960 Offset: 0x156AF60 VA: 0x18156C960
 	|-BaseEntity.ServerRPC<int, int, int>
 	|-BaseEntity.ServerRPC<uint, int, int>
 	|
-	|-RVA: 0x156C6E0 Offset: 0x156ACE0 VA: 0x18156C6E0
+	|-RVA: 0x156C9A0 Offset: 0x156AFA0 VA: 0x18156C9A0
 	|-BaseEntity.ServerRPC<int, int, Ray>
 	|
-	|-RVA: 0x156E280 Offset: 0x156C880 VA: 0x18156E280
+	|-RVA: 0x156E540 Offset: 0x156CB40 VA: 0x18156E540
 	|-BaseEntity.ServerRPC<object, object, object>
 	|
-	|-RVA: 0x156F5E0 Offset: 0x156DBE0 VA: 0x18156F5E0
+	|-RVA: 0x156F8A0 Offset: 0x156DEA0 VA: 0x18156F8A0
 	|-BaseEntity.ServerRPC<uint, byte[], ulong>
 	|-BaseEntity.ServerRPC<uint, object, object>
 	|-BaseEntity.ServerRPC<uint, object, ulong>
 	|
-	|-RVA: 0x156EE30 Offset: 0x156D430 VA: 0x18156EE30
+	|-RVA: 0x156F0F0 Offset: 0x156D6F0 VA: 0x18156F0F0
 	|-BaseEntity.ServerRPC<uint, int, bool>
 	|
-	|-RVA: 0x1570600 Offset: 0x156EC00 VA: 0x181570600
+	|-RVA: 0x15708C0 Offset: 0x156EEC0 VA: 0x1815708C0
 	|-BaseEntity.ServerRPC<Vector3, Vector3, bool>
 	|
-	|-RVA: 0x1570B00 Offset: 0x156F100 VA: 0x181570B00
+	|-RVA: 0x1570DC0 Offset: 0x156F3C0 VA: 0x181570DC0
 	|-BaseEntity.ServerRPC<Vector3, Vector3, float>
 	*/
 
@@ -716,7 +716,7 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void ServerRPC<T1, T2>(string funcName, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156CF10 Offset: 0x156B510 VA: 0x18156CF10
+	|-RVA: 0x156D1D0 Offset: 0x156B7D0 VA: 0x18156D1D0
 	|-BaseEntity.ServerRPC<int, SprayList>
 	|-BaseEntity.ServerRPC<int, byte[]>
 	|-BaseEntity.ServerRPC<int, object>
@@ -725,28 +725,28 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	|-BaseEntity.ServerRPC<uint, object>
 	|-BaseEntity.ServerRPC<uint, string>
 	|
-	|-RVA: 0x156CB30 Offset: 0x156B130 VA: 0x18156CB30
+	|-RVA: 0x156CDF0 Offset: 0x156B3F0 VA: 0x18156CDF0
 	|-BaseEntity.ServerRPC<int, int>
 	|-BaseEntity.ServerRPC<uint, int>
 	|
-	|-RVA: 0x156D9E0 Offset: 0x156BFE0 VA: 0x18156D9E0
+	|-RVA: 0x156DCA0 Offset: 0x156C2A0 VA: 0x18156DCA0
 	|-BaseEntity.ServerRPC<object, bool>
 	|-BaseEntity.ServerRPC<string, bool>
 	|
-	|-RVA: 0x156E460 Offset: 0x156CA60 VA: 0x18156E460
+	|-RVA: 0x156E720 Offset: 0x156CD20 VA: 0x18156E720
 	|-BaseEntity.ServerRPC<object, object>
 	|-BaseEntity.ServerRPC<string, string>
 	|-BaseEntity.ServerRPC<ulong, object>
 	|-BaseEntity.ServerRPC<ulong, string>
 	|
-	|-RVA: 0x1570080 Offset: 0x156E680 VA: 0x181570080
+	|-RVA: 0x1570340 Offset: 0x156E940 VA: 0x181570340
 	|-BaseEntity.ServerRPC<ulong, int>
 	|
-	|-RVA: 0x156D470 Offset: 0x156BA70 VA: 0x18156D470
+	|-RVA: 0x156D730 Offset: 0x156BD30 VA: 0x18156D730
 	|-BaseEntity.ServerRPC<Ray, int>
 	|-BaseEntity.ServerRPC<Ray, uint>
 	|
-	|-RVA: 0x1571030 Offset: 0x156F630 VA: 0x181571030
+	|-RVA: 0x15712F0 Offset: 0x156F8F0 VA: 0x1815712F0
 	|-BaseEntity.ServerRPC<Vector3, Vector3>
 	*/
 
@@ -754,7 +754,7 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void ServerRPC<T1>(string funcName, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156E4A0 Offset: 0x156CAA0 VA: 0x18156E4A0
+	|-RVA: 0x156E760 Offset: 0x156CD60 VA: 0x18156E760
 	|-BaseEntity.ServerRPC<AIDesign>
 	|-BaseEntity.ServerRPC<ArcadeGame>
 	|-BaseEntity.ServerRPC<CreateBuilding>
@@ -769,64 +769,64 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	|-BaseEntity.ServerRPC<string>
 	|-BaseEntity.ServerRPC<ulong>
 	|
-	|-RVA: 0x156B910 Offset: 0x1569F10 VA: 0x18156B910
+	|-RVA: 0x156BBD0 Offset: 0x156A1D0 VA: 0x18156BBD0
 	|-BaseEntity.ServerRPC<bool>
 	|
-	|-RVA: 0x156D440 Offset: 0x156BA40 VA: 0x18156D440
+	|-RVA: 0x156D700 Offset: 0x156BD00 VA: 0x18156D700
 	|-BaseEntity.ServerRPC<int>
 	|-BaseEntity.ServerRPC<uint>
 	|
-	|-RVA: 0x156E7D0 Offset: 0x156CDD0 VA: 0x18156E7D0
+	|-RVA: 0x156EA90 Offset: 0x156D090 VA: 0x18156EA90
 	|-BaseEntity.ServerRPC<float>
 	|
-	|-RVA: 0x1571270 Offset: 0x156F870 VA: 0x181571270
+	|-RVA: 0x1571530 Offset: 0x156FB30 VA: 0x181571530
 	|-BaseEntity.ServerRPC<Vector3>
 	*/
 
-	// RVA: 0x7E4A10 Offset: 0x7E3010 VA: 0x1807E4A10
+	// RVA: 0x7E4B20 Offset: 0x7E3120 VA: 0x1807E4B20
 	public void ServerRPC(string funcName) { }
 
-	// RVA: 0x7E4530 Offset: 0x7E2B30 VA: 0x1807E4530
+	// RVA: 0x7E4640 Offset: 0x7E2C40 VA: 0x1807E4640
 	private bool ServerRPCStart(string funcName) { }
 
 	// RVA: -1 Offset: -1
 	private void ServerRPCWrite<T>(T arg) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156B220 Offset: 0x1569820 VA: 0x18156B220
+	|-RVA: 0x156B4E0 Offset: 0x1569AE0 VA: 0x18156B4E0
 	|-BaseEntity.ServerRPCWrite<bool>
 	|-BaseEntity.ServerRPCWrite<byte>
 	|-BaseEntity.ServerRPCWrite<sbyte>
 	|
-	|-RVA: 0x156B300 Offset: 0x1569900 VA: 0x18156B300
+	|-RVA: 0x156B5C0 Offset: 0x1569BC0 VA: 0x18156B5C0
 	|-BaseEntity.ServerRPCWrite<int>
 	|-BaseEntity.ServerRPCWrite<uint>
 	|
-	|-RVA: 0x156B3F0 Offset: 0x15699F0 VA: 0x18156B3F0
+	|-RVA: 0x156B6B0 Offset: 0x1569CB0 VA: 0x18156B6B0
 	|-BaseEntity.ServerRPCWrite<object>
 	|-BaseEntity.ServerRPCWrite<ulong>
 	|
-	|-RVA: 0x156B460 Offset: 0x1569A60 VA: 0x18156B460
+	|-RVA: 0x156B720 Offset: 0x1569D20 VA: 0x18156B720
 	|-BaseEntity.ServerRPCWrite<float>
 	|
-	|-RVA: 0x156B290 Offset: 0x1569890 VA: 0x18156B290
+	|-RVA: 0x156B550 Offset: 0x1569B50 VA: 0x18156B550
 	|-BaseEntity.ServerRPCWrite<Color>
 	|
-	|-RVA: 0x156B370 Offset: 0x1569970 VA: 0x18156B370
+	|-RVA: 0x156B630 Offset: 0x1569C30 VA: 0x18156B630
 	|-BaseEntity.ServerRPCWrite<Ray>
 	|
-	|-RVA: 0x156B4D0 Offset: 0x1569AD0 VA: 0x18156B4D0
+	|-RVA: 0x156B790 Offset: 0x1569D90 VA: 0x18156B790
 	|-BaseEntity.ServerRPCWrite<Vector3>
 	*/
 
-	// RVA: 0x7E44C0 Offset: 0x7E2AC0 VA: 0x1807E44C0
+	// RVA: 0x7E45D0 Offset: 0x7E2BD0 VA: 0x1807E45D0
 	private void ServerRPCSend(SendInfo sendInfo) { }
 
 	// RVA: -1 Offset: -1
 	public void ServerRPCList<T1>(string funcName, List<T1> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156AB50 Offset: 0x1569150 VA: 0x18156AB50
+	|-RVA: 0x156AE10 Offset: 0x1569410 VA: 0x18156AE10
 	|-BaseEntity.ServerRPCList<object>
 	*/
 
@@ -834,7 +834,7 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void ServerRPCList<T1, T2, T3, T4, T5>(string funcName, List<T1> list, T2 arg2, T3 arg3, T4 arg4, T5 arg5) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156A7C0 Offset: 0x1568DC0 VA: 0x18156A7C0
+	|-RVA: 0x156AA80 Offset: 0x1569080 VA: 0x18156AA80
 	|-BaseEntity.ServerRPCList<object, object, object, object, object>
 	*/
 
@@ -842,52 +842,52 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void ServerRPCList<T1, T2, T3, T4, T5, T6>(string funcName, List<T1> list, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156A420 Offset: 0x1568A20 VA: 0x18156A420
+	|-RVA: 0x156A6E0 Offset: 0x1568CE0 VA: 0x18156A6E0
 	|-BaseEntity.ServerRPCList<object, object, object, object, object, object>
 	|
-	|-RVA: 0x156AE70 Offset: 0x1569470 VA: 0x18156AE70
+	|-RVA: 0x156B130 Offset: 0x1569730 VA: 0x18156B130
 	|-BaseEntity.ServerRPCList<Vector3, uint, int, uint, int, int>
 	*/
 
-	// RVA: 0x7DA640 Offset: 0x7D8C40 VA: 0x1807DA640
+	// RVA: 0x7DA750 Offset: 0x7D8D50 VA: 0x1807DA750
 	public void CL_RPCMessage(uint nameID, ulong sourceConnection, Message message) { }
 
-	// RVA: 0x7E4410 Offset: 0x7E2A10 VA: 0x1807E4410
+	// RVA: 0x7E4520 Offset: 0x7E2B20 VA: 0x1807E4520
 	public void SendSignalBroadcast(BaseEntity.Signal signal, string arg = "") { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7E5120 Offset: 0x7E3720 VA: 0x1807E5120
+	// RVA: 0x7E5230 Offset: 0x7E3830 VA: 0x1807E5230
 	private void SignalFromServerEx(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7E51B0 Offset: 0x7E37B0 VA: 0x1807E51B0
+	// RVA: 0x7E52C0 Offset: 0x7E38C0 VA: 0x1807E52C0
 	private void SignalFromServer(BaseEntity.RPCMessage msg) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 83
 	public virtual void OnSignal(BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0x7E30C0 Offset: 0x7E16C0 VA: 0x1807E30C0
+	// RVA: 0x7E31D0 Offset: 0x7E17D0 VA: 0x1807E31D0
 	private void OnSkinChanged(ulong oldSkinID, ulong newSkinID) { }
 
-	// RVA: 0x7E3430 Offset: 0x7E1A30 VA: 0x1807E3430
+	// RVA: 0x7E3540 Offset: 0x7E1B40 VA: 0x1807E3540
 	private void OnSkinRefreshStart() { }
 
-	// RVA: 0x7E3410 Offset: 0x7E1A10 VA: 0x1807E3410
+	// RVA: 0x7E3520 Offset: 0x7E1B20 VA: 0x1807E3520
 	private void OnSkinRefreshEnd() { }
 
-	// RVA: 0x7E38A0 Offset: 0x7E1EA0 VA: 0x1807E38A0 Slot: 84
+	// RVA: 0x7E39B0 Offset: 0x7E1FB0 VA: 0x1807E39B0 Slot: 84
 	public virtual void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x7DF590 Offset: 0x7DDB90 VA: 0x1807DF590
+	// RVA: 0x7DF6A0 Offset: 0x7DDCA0 VA: 0x1807DF6A0
 	public bool HasAnySlot() { }
 
-	// RVA: 0x7DF110 Offset: 0x7DD710 VA: 0x1807DF110
+	// RVA: 0x7DF220 Offset: 0x7DD820 VA: 0x1807DF220
 	public BaseEntity GetSlot(BaseEntity.Slot slot) { }
 
-	// RVA: 0x7DEFD0 Offset: 0x7DD5D0 VA: 0x1807DEFD0
+	// RVA: 0x7DF0E0 Offset: 0x7DD6E0 VA: 0x1807DF0E0
 	public string GetSlotAnchorName(BaseEntity.Slot slot) { }
 
-	// RVA: 0x7DF060 Offset: 0x7DD660 VA: 0x1807DF060
+	// RVA: 0x7DF170 Offset: 0x7DD770 VA: 0x1807DF170
 	public Transform GetSlotAnchor(BaseEntity.Slot slot) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 85
@@ -896,19 +896,19 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 86
 	public virtual BaseEntity.TraitFlag get_Traits() { }
 
-	// RVA: 0x7DF820 Offset: 0x7DDE20 VA: 0x1807DF820
+	// RVA: 0x7DF930 Offset: 0x7DDF30 VA: 0x1807DF930
 	public bool HasTrait(BaseEntity.TraitFlag f) { }
 
-	// RVA: 0x7DF640 Offset: 0x7DDC40 VA: 0x1807DF640
+	// RVA: 0x7DF750 Offset: 0x7DDD50 VA: 0x1807DF750
 	public bool HasAnyTrait(BaseEntity.TraitFlag f) { }
 
-	// RVA: 0x7DC090 Offset: 0x7DA690 VA: 0x1807DC090 Slot: 87
+	// RVA: 0x7DC1A0 Offset: 0x7DA7A0 VA: 0x1807DC1A0 Slot: 87
 	public virtual bool EnterTrigger(TriggerBase trigger) { }
 
-	// RVA: 0x7E0D90 Offset: 0x7DF390 VA: 0x1807E0D90 Slot: 88
+	// RVA: 0x7E0EA0 Offset: 0x7DF4A0 VA: 0x1807E0EA0 Slot: 88
 	public virtual void LeaveTrigger(TriggerBase trigger) { }
 
-	// RVA: 0x7E3DE0 Offset: 0x7E23E0 VA: 0x1807E3DE0
+	// RVA: 0x7E3EF0 Offset: 0x7E24F0 VA: 0x1807E3EF0
 	public void RemoveFromTriggers() { }
 
 	// RVA: -1 Offset: -1
@@ -925,52 +925,52 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public bool FindTrigger<T>(out T result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125C7F0 Offset: 0x125ADF0 VA: 0x18125C7F0
+	|-RVA: 0x125CAB0 Offset: 0x125B0B0 VA: 0x18125CAB0
 	|-BaseEntity.FindTrigger<object>
 	*/
 
-	// RVA: 0x7DC940 Offset: 0x7DAF40 VA: 0x1807DC940
+	// RVA: 0x7DCA50 Offset: 0x7DB050 VA: 0x1807DCA50
 	private void ForceUpdateTriggersAction() { }
 
-	// RVA: 0x7DC970 Offset: 0x7DAF70 VA: 0x1807DC970
+	// RVA: 0x7DCA80 Offset: 0x7DB080 VA: 0x1807DCA80
 	public void ForceUpdateTriggers(bool enter = True, bool exit = True, bool invoke = True) { }
 
-	// RVA: 0x7E1D60 Offset: 0x7E0360 VA: 0x1807E1D60 Slot: 89
+	// RVA: 0x7E1E70 Offset: 0x7E0470 VA: 0x1807E1E70 Slot: 89
 	public virtual void MakeVisible() { }
 
-	// RVA: 0x7E5A40 Offset: 0x7E4040 VA: 0x1807E5A40 Slot: 90
+	// RVA: 0x7E5B50 Offset: 0x7E4150 VA: 0x1807E5B50 Slot: 90
 	protected virtual void UpdateCullingSpheres() { }
 
-	// RVA: 0x7E3B50 Offset: 0x7E2150 VA: 0x1807E3B50 Slot: 91
+	// RVA: 0x7E3C60 Offset: 0x7E2260 VA: 0x1807E3C60 Slot: 91
 	protected virtual void RegisterForCulling() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 92
 	protected virtual void OnVisibilityChanged(bool visible) { }
 
-	// RVA: 0x7E57D0 Offset: 0x7E3DD0 VA: 0x1807E57D0 Slot: 93
+	// RVA: 0x7E58E0 Offset: 0x7E3EE0 VA: 0x1807E58E0 Slot: 93
 	protected virtual void UnregisterFromCulling() { }
 
-	// RVA: 0x7E5970 Offset: 0x7E3F70 VA: 0x1807E5970 Slot: 94
+	// RVA: 0x7E5A80 Offset: 0x7E4080 VA: 0x1807E5A80 Slot: 94
 	protected virtual void UpdateCullingBounds() { }
 
-	// RVA: 0x7DAC00 Offset: 0x7D9200 VA: 0x1807DAC00 Slot: 95
+	// RVA: 0x7DAD10 Offset: 0x7D9310 VA: 0x1807DAD10 Slot: 95
 	protected virtual bool CheckVisibility() { }
 
-	// RVA: 0x7DAAE0 Offset: 0x7D90E0 VA: 0x1807DAAE0
+	// RVA: 0x7DABF0 Offset: 0x7D91F0 VA: 0x1807DABF0
 	protected float CalcEntityVisUpdateRate() { }
 
-	// RVA: 0x7DB130 Offset: 0x7D9730 VA: 0x1807DB130 Slot: 96
+	// RVA: 0x7DB240 Offset: 0x7D9840 VA: 0x1807DB240 Slot: 96
 	protected virtual void DebugDrawCullingBounds() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7E6DB0 Offset: 0x7E53B0 VA: 0x1807E6DB0
+	// RVA: 0x7E6EC0 Offset: 0x7E54C0 VA: 0x1807E6EC0
 	public float get_Weight() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7E6DD0 Offset: 0x7E53D0 VA: 0x1807E6DD0
+	// RVA: 0x7E6EE0 Offset: 0x7E54E0 VA: 0x1807E6EE0
 	protected void set_Weight(float value) { }
 
-	// RVA: 0x7E6D30 Offset: 0x7E5330 VA: 0x1807E6D30
+	// RVA: 0x7E6E40 Offset: 0x7E5440 VA: 0x1807E6E40
 	public EntityComponentBase[] get_Components() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 97
@@ -979,118 +979,118 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 98
 	public virtual bool get_IsNpc() { }
 
-	// RVA: 0x7D3FC0 Offset: 0x7D25C0 VA: 0x1807D3FC0 Slot: 28
+	// RVA: 0x7D40D0 Offset: 0x7D26D0 VA: 0x1807D40D0 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0x7D6EE0 Offset: 0x7D54E0 VA: 0x1807D6EE0 Slot: 31
+	// RVA: 0x7D6FF0 Offset: 0x7D55F0 VA: 0x1807D6FF0 Slot: 31
 	public override void DestroyShared() { }
 
-	// RVA: 0x7E43A0 Offset: 0x7E29A0 VA: 0x1807E43A0 Slot: 27
+	// RVA: 0x7E44B0 Offset: 0x7E2AB0 VA: 0x1807E44B0 Slot: 27
 	public override void ResetState() { }
 
 	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 99
 	public virtual float InheritedVelocityScale() { }
 
-	// RVA: 0x7DDD50 Offset: 0x7DC350 VA: 0x1807DDD50 Slot: 100
+	// RVA: 0x7DDE60 Offset: 0x7DC460 VA: 0x1807DDE60 Slot: 100
 	public virtual Vector3 GetInheritedProjectileVelocity() { }
 
-	// RVA: 0x7DDED0 Offset: 0x7DC4D0 VA: 0x1807DDED0 Slot: 101
+	// RVA: 0x7DDFE0 Offset: 0x7DC5E0 VA: 0x1807DDFE0 Slot: 101
 	public virtual Vector3 GetInheritedThrowVelocity() { }
 
-	// RVA: 0x7DDC70 Offset: 0x7DC270 VA: 0x1807DDC70 Slot: 102
+	// RVA: 0x7DDD80 Offset: 0x7DC380 VA: 0x1807DDD80 Slot: 102
 	public virtual Vector3 GetInheritedDropVelocity() { }
 
-	// RVA: 0x7DED10 Offset: 0x7DD310 VA: 0x1807DED10
+	// RVA: 0x7DEE20 Offset: 0x7DD420 VA: 0x1807DEE20
 	public Vector3 GetParentVelocity() { }
 
-	// RVA: 0x7DF170 Offset: 0x7DD770 VA: 0x1807DF170
+	// RVA: 0x7DF280 Offset: 0x7DD880 VA: 0x1807DF280
 	public Vector3 GetWorldVelocity() { }
 
-	// RVA: 0x7DE390 Offset: 0x7DC990 VA: 0x1807DE390
+	// RVA: 0x7DE4A0 Offset: 0x7DCAA0 VA: 0x1807DE4A0
 	public Vector3 GetLocalVelocity() { }
 
-	// RVA: 0x7DD530 Offset: 0x7DBB30 VA: 0x1807DD530
+	// RVA: 0x7DD640 Offset: 0x7DBC40 VA: 0x1807DD640
 	public Quaternion GetAngularVelocity() { }
 
-	// RVA: 0x7E6A60 Offset: 0x7E5060 VA: 0x1807E6A60 Slot: 103
+	// RVA: 0x7E6B70 Offset: 0x7E5170 VA: 0x1807E6B70 Slot: 103
 	public virtual OBB WorldSpaceBounds() { }
 
 	// RVA: 0x2FA9E0 Offset: 0x2F8FE0 VA: 0x1802FA9E0
 	public Vector3 PivotPoint() { }
 
-	// RVA: 0x7DABC0 Offset: 0x7D91C0 VA: 0x1807DABC0
+	// RVA: 0x7DACD0 Offset: 0x7D92D0 VA: 0x1807DACD0
 	public Vector3 CenterPoint() { }
 
-	// RVA: 0x7DAE20 Offset: 0x7D9420 VA: 0x1807DAE20
+	// RVA: 0x7DAF30 Offset: 0x7D9530 VA: 0x1807DAF30
 	public Vector3 ClosestPoint(Vector3 position) { }
 
-	// RVA: 0x7DABC0 Offset: 0x7D91C0 VA: 0x1807DABC0 Slot: 104
+	// RVA: 0x7DACD0 Offset: 0x7D92D0 VA: 0x1807DACD0 Slot: 104
 	public virtual Vector3 TriggerPoint() { }
 
-	// RVA: 0x7DB590 Offset: 0x7D9B90 VA: 0x1807DB590 Slot: 105
+	// RVA: 0x7DB6A0 Offset: 0x7D9CA0 VA: 0x1807DB6A0 Slot: 105
 	public float Distance(Vector3 position) { }
 
-	// RVA: 0x7E53D0 Offset: 0x7E39D0 VA: 0x1807E53D0
+	// RVA: 0x7E54E0 Offset: 0x7E3AE0 VA: 0x1807E54E0
 	public float SqrDistance(Vector3 position) { }
 
-	// RVA: 0x7DB530 Offset: 0x7D9B30 VA: 0x1807DB530
+	// RVA: 0x7DB640 Offset: 0x7D9C40 VA: 0x1807DB640
 	public float Distance(BaseEntity other) { }
 
-	// RVA: 0x7E5370 Offset: 0x7E3970 VA: 0x1807E5370
+	// RVA: 0x7E5480 Offset: 0x7E3A80 VA: 0x1807E5480
 	public float SqrDistance(BaseEntity other) { }
 
-	// RVA: 0x7DB3F0 Offset: 0x7D99F0 VA: 0x1807DB3F0
+	// RVA: 0x7DB500 Offset: 0x7D9B00 VA: 0x1807DB500
 	public float Distance2D(Vector3 position) { }
 
-	// RVA: 0x7E5230 Offset: 0x7E3830 VA: 0x1807E5230
+	// RVA: 0x7E5340 Offset: 0x7E3940 VA: 0x1807E5340
 	public float SqrDistance2D(Vector3 position) { }
 
-	// RVA: 0x7DB530 Offset: 0x7D9B30 VA: 0x1807DB530
+	// RVA: 0x7DB640 Offset: 0x7D9C40 VA: 0x1807DB640
 	public float Distance2D(BaseEntity other) { }
 
-	// RVA: 0x7E5370 Offset: 0x7E3970 VA: 0x1807E5370
+	// RVA: 0x7E5480 Offset: 0x7E3A80 VA: 0x1807E5480
 	public float SqrDistance2D(BaseEntity other) { }
 
-	// RVA: 0x7E09D0 Offset: 0x7DEFD0 VA: 0x1807E09D0
+	// RVA: 0x7E0AE0 Offset: 0x7DF0E0 VA: 0x1807E0AE0
 	public bool IsVisible(Ray ray, int layerMask, float maxDistance) { }
 
-	// RVA: 0x7E0380 Offset: 0x7DE980 VA: 0x1807E0380
+	// RVA: 0x7E0490 Offset: 0x7DEA90 VA: 0x1807E0490
 	public bool IsVisibleSpecificLayers(Vector3 position, Vector3 target, int layerMask, float maxDistance = ∞) { }
 
-	// RVA: 0x7E05F0 Offset: 0x7DEBF0 VA: 0x1807E05F0
+	// RVA: 0x7E0700 Offset: 0x7DED00 VA: 0x1807E0700
 	public bool IsVisible(Vector3 position, Vector3 target, float maxDistance = ∞) { }
 
-	// RVA: 0x7E0870 Offset: 0x7DEE70 VA: 0x1807E0870
+	// RVA: 0x7E0980 Offset: 0x7DEF80 VA: 0x1807E0980
 	public bool IsVisible(Vector3 position, float maxDistance = ∞) { }
 
-	// RVA: 0x7E0170 Offset: 0x7DE770 VA: 0x1807E0170
+	// RVA: 0x7E0280 Offset: 0x7DE880 VA: 0x1807E0280
 	public bool IsVisibleAndCanSee(Vector3 position, float maxDistance = ∞) { }
 
-	// RVA: 0x7DFDB0 Offset: 0x7DE3B0 VA: 0x1807DFDB0
+	// RVA: 0x7DFEC0 Offset: 0x7DE4C0 VA: 0x1807DFEC0
 	public bool IsOlderThan(BaseEntity other) { }
 
-	// RVA: 0x7DFE80 Offset: 0x7DE480 VA: 0x1807DFE80 Slot: 106
+	// RVA: 0x7DFF90 Offset: 0x7DE590 VA: 0x1807DFF90 Slot: 106
 	public virtual bool IsOutside() { }
 
-	// RVA: 0x7DFEE0 Offset: 0x7DE4E0 VA: 0x1807DFEE0
+	// RVA: 0x7DFFF0 Offset: 0x7DE5F0 VA: 0x1807DFFF0
 	public bool IsOutside(Vector3 position) { }
 
-	// RVA: 0x7E65D0 Offset: 0x7E4BD0 VA: 0x1807E65D0 Slot: 107
+	// RVA: 0x7E66E0 Offset: 0x7E4CE0 VA: 0x1807E66E0 Slot: 107
 	public virtual float WaterFactor() { }
 
-	// RVA: 0x7DA390 Offset: 0x7D8990 VA: 0x1807DA390 Slot: 108
+	// RVA: 0x7DA4A0 Offset: 0x7D8AA0 VA: 0x1807DA4A0 Slot: 108
 	public virtual float AirFactor() { }
 
-	// RVA: 0x7E67A0 Offset: 0x7E4DA0 VA: 0x1807E67A0
+	// RVA: 0x7E68B0 Offset: 0x7E4EB0 VA: 0x1807E68B0
 	public bool WaterTestFromVolumes(Vector3 pos, out WaterLevel.WaterInfo info) { }
 
-	// RVA: 0x7DFA60 Offset: 0x7DE060 VA: 0x1807DFA60
+	// RVA: 0x7DFB70 Offset: 0x7DE170 VA: 0x1807DFB70
 	public bool IsInWaterVolume(Vector3 pos) { }
 
-	// RVA: 0x7E6670 Offset: 0x7E4C70 VA: 0x1807E6670
+	// RVA: 0x7E6780 Offset: 0x7E4D80 VA: 0x1807E6780
 	public bool WaterTestFromVolumes(Bounds bounds, out WaterLevel.WaterInfo info) { }
 
-	// RVA: 0x7E68D0 Offset: 0x7E4ED0 VA: 0x1807E68D0
+	// RVA: 0x7E69E0 Offset: 0x7E4FE0 VA: 0x1807E69E0
 	public bool WaterTestFromVolumes(Vector3 start, Vector3 end, float radius, out WaterLevel.WaterInfo info) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 109
@@ -1105,13 +1105,13 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 112
 	public virtual float MaxVelocity() { }
 
-	// RVA: 0x7DA3D0 Offset: 0x7D89D0 VA: 0x1807DA3D0 Slot: 113
+	// RVA: 0x7DA4E0 Offset: 0x7D8AE0 VA: 0x1807DA4E0 Slot: 113
 	public virtual float BoundsPadding() { }
 
-	// RVA: 0x723120 Offset: 0x721720 VA: 0x180723120 Slot: 114
+	// RVA: 0x723230 Offset: 0x721830 VA: 0x180723230 Slot: 114
 	public virtual float PenetrationResistance(HitInfo info) { }
 
-	// RVA: 0x7DDC60 Offset: 0x7DC260 VA: 0x1807DDC60 Slot: 115
+	// RVA: 0x7DDD70 Offset: 0x7DC370 VA: 0x1807DDD70 Slot: 115
 	public virtual GameObjectRef GetImpactEffect(HitInfo info) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 116
@@ -1123,7 +1123,7 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 118
 	public virtual Item GetItem(uint itemId) { }
 
-	// RVA: 0x7DF560 Offset: 0x7DDB60 VA: 0x1807DF560 Slot: 119
+	// RVA: 0x7DF670 Offset: 0x7DDC70 VA: 0x1807DF670 Slot: 119
 	public virtual void GiveItem(Item item, BaseEntity.GiveItemReason reason = 0) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 120
@@ -1132,39 +1132,39 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 121
 	public virtual BaseEntity GetEntity() { }
 
-	// RVA: 0x7E56E0 Offset: 0x7E3CE0 VA: 0x1807E56E0 Slot: 3
+	// RVA: 0x7E57F0 Offset: 0x7E3DF0 VA: 0x1807E57F0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x7DAB90 Offset: 0x7D9190 VA: 0x1807DAB90 Slot: 122
+	// RVA: 0x7DACA0 Offset: 0x7D92A0 VA: 0x1807DACA0 Slot: 122
 	public virtual string Categorize() { }
 
-	// RVA: 0x7E18B0 Offset: 0x7DFEB0 VA: 0x1807E18B0
+	// RVA: 0x7E19C0 Offset: 0x7DFFC0 VA: 0x1807E19C0
 	public void Log(string str) { }
 
-	// RVA: 0x7E4B40 Offset: 0x7E3140 VA: 0x1807E4B40
+	// RVA: 0x7E4C50 Offset: 0x7E3250 VA: 0x1807E4C50
 	public void SetModel(Model mdl) { }
 
-	// RVA: 0x701810 Offset: 0x6FFE10 VA: 0x180701810
+	// RVA: 0x701920 Offset: 0x6FFF20 VA: 0x180701920
 	public Model GetModel() { }
 
-	// RVA: 0x7DD5D0 Offset: 0x7DBBD0 VA: 0x1807DD5D0 Slot: 123
+	// RVA: 0x7DD6E0 Offset: 0x7DBCE0 VA: 0x1807DD6E0 Slot: 123
 	public virtual Transform[] GetBones() { }
 
-	// RVA: 0x7DC4F0 Offset: 0x7DAAF0 VA: 0x1807DC4F0 Slot: 124
+	// RVA: 0x7DC600 Offset: 0x7DAC00 VA: 0x1807DC600 Slot: 124
 	public virtual Transform FindBone(string strName) { }
 
-	// RVA: 0x7DC410 Offset: 0x7DAA10 VA: 0x1807DC410 Slot: 125
+	// RVA: 0x7DC520 Offset: 0x7DAB20 VA: 0x1807DC520 Slot: 125
 	public virtual uint FindBoneID(Transform boneTransform) { }
 
-	// RVA: 0x7DC5A0 Offset: 0x7DABA0 VA: 0x1807DC5A0 Slot: 126
+	// RVA: 0x7DC6B0 Offset: 0x7DACB0 VA: 0x1807DC6B0 Slot: 126
 	public virtual Transform FindClosestBone(Vector3 worldPos) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7E6DA0 Offset: 0x7E53A0 VA: 0x1807E6DA0
+	// RVA: 0x7E6EB0 Offset: 0x7E54B0 VA: 0x1807E6EB0
 	public ulong get_OwnerID() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7E6DC0 Offset: 0x7E53C0 VA: 0x1807E6DC0
+	// RVA: 0x7E6ED0 Offset: 0x7E54D0 VA: 0x1807E6ED0
 	public void set_OwnerID(ulong value) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 127
@@ -1176,19 +1176,19 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 129
 	public virtual bool SupportsChildDeployables() { }
 
-	// RVA: 0x7DA3E0 Offset: 0x7D89E0 VA: 0x1807DA3E0
+	// RVA: 0x7DA4F0 Offset: 0x7D8AF0 VA: 0x1807DA4F0
 	public void BroadcastEntityMessage(string msg, float radius = 20, int layerMask = 1218652417) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 130
 	public virtual void OnEntityMessage(BaseEntity from, string msg) { }
 
-	// RVA: 0x7E13B0 Offset: 0x7DF9B0 VA: 0x1807E13B0 Slot: 34
+	// RVA: 0x7E14C0 Offset: 0x7DFAC0 VA: 0x1807E14C0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x7E6C20 Offset: 0x7E5220 VA: 0x1807E6C20
+	// RVA: 0x7E6D30 Offset: 0x7E5330 VA: 0x1807E6D30
 	public void .ctor() { }
 
-	// RVA: 0x7E6BA0 Offset: 0x7E51A0 VA: 0x1807E6BA0
+	// RVA: 0x7E6CB0 Offset: 0x7E52B0 VA: 0x1807E6CB0
 	private static void .cctor() { }
 
 }
@@ -1207,10 +1207,10 @@ public class BaseEntity.Menu : Attribute // TypeDefIndex: 8493
 
 	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
-	// RVA: 0x7ED280 Offset: 0x7EB880 VA: 0x1807ED280
+	// RVA: 0x7ED390 Offset: 0x7EB990 VA: 0x1807ED390
 	public void .ctor(string menuTitleToken, string menuTitleEnglish) { }
 
 }
@@ -1237,7 +1237,7 @@ public class BaseEntity.Menu.Description : Attribute // TypeDefIndex: 8495
 
 	// Methods
 
-	// RVA: 0x7ED280 Offset: 0x7EB880 VA: 0x1807ED280
+	// RVA: 0x7ED390 Offset: 0x7EB990 VA: 0x1807ED390
 	public void .ctor(string t, string e) { }
 
 }
@@ -1248,7 +1248,7 @@ public class BaseEntity.Menu.Icon : Attribute // TypeDefIndex: 8496
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string i) { }
 
 }
@@ -1259,7 +1259,7 @@ public class BaseEntity.Menu.ShowIf : Attribute // TypeDefIndex: 8497
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string testFunc) { }
 
 }
@@ -1267,7 +1267,7 @@ public class BaseEntity.Menu.ShowIf : Attribute // TypeDefIndex: 8497
 public class BaseEntity.Menu.UsableWhileWounded : Attribute // TypeDefIndex: 8498
 {	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 }
@@ -1326,10 +1326,10 @@ private struct BaseEntity.ServerFileRequest : IEquatable<BaseEntity.ServerFileRe
 	// RVA: 0xF87B0 Offset: 0xF7BB0 VA: 0x1800F87B0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x7EDE30 Offset: 0x7EC430 VA: 0x1807EDE30
+	// RVA: 0x7EDF40 Offset: 0x7EC540 VA: 0x1807EDF40
 	public static bool op_Equality(BaseEntity.ServerFileRequest left, BaseEntity.ServerFileRequest right) { }
 
-	// RVA: 0x7EDEE0 Offset: 0x7EC4E0 VA: 0x1807EDEE0
+	// RVA: 0x7EDFF0 Offset: 0x7EC5F0 VA: 0x1807EDFF0
 	public static bool op_Inequality(BaseEntity.ServerFileRequest left, BaseEntity.ServerFileRequest right) { }
 
 }
@@ -1345,43 +1345,43 @@ public class BaseEntity.Query.EntityTree // TypeDefIndex: 8503
 
 	// Methods
 
-	// RVA: 0x7EDBF0 Offset: 0x7EC1F0 VA: 0x1807EDBF0
+	// RVA: 0x7EDD00 Offset: 0x7EC300 VA: 0x1807EDD00
 	public void .ctor(float worldSize) { }
 
-	// RVA: 0x7ED410 Offset: 0x7EBA10 VA: 0x1807ED410
+	// RVA: 0x7ED520 Offset: 0x7EBB20 VA: 0x1807ED520
 	public void Add(BaseEntity ent) { }
 
-	// RVA: 0x7ED370 Offset: 0x7EB970 VA: 0x1807ED370
+	// RVA: 0x7ED480 Offset: 0x7EBA80 VA: 0x1807ED480
 	public void AddPlayer(BasePlayer player) { }
 
-	// RVA: 0x7ED2D0 Offset: 0x7EB8D0 VA: 0x1807ED2D0
+	// RVA: 0x7ED3E0 Offset: 0x7EB9E0 VA: 0x1807ED3E0
 	public void AddBrain(BaseEntity entity) { }
 
-	// RVA: 0x7EDAF0 Offset: 0x7EC0F0 VA: 0x1807EDAF0
+	// RVA: 0x7EDC00 Offset: 0x7EC200 VA: 0x1807EDC00
 	public void Remove(BaseEntity ent, bool isPlayer = False) { }
 
-	// RVA: 0x7EDA90 Offset: 0x7EC090 VA: 0x1807EDA90
+	// RVA: 0x7EDBA0 Offset: 0x7EC1A0 VA: 0x1807EDBA0
 	public void RemovePlayer(BasePlayer player) { }
 
-	// RVA: 0x7EDA00 Offset: 0x7EC000 VA: 0x1807EDA00
+	// RVA: 0x7EDB10 Offset: 0x7EC110 VA: 0x1807EDB10
 	public void RemoveBrain(BaseEntity entity) { }
 
-	// RVA: 0x7ED7D0 Offset: 0x7EBDD0 VA: 0x1807ED7D0
+	// RVA: 0x7ED8E0 Offset: 0x7EBEE0 VA: 0x1807ED8E0
 	public void Move(BaseEntity ent) { }
 
-	// RVA: 0x7ED730 Offset: 0x7EBD30 VA: 0x1807ED730
+	// RVA: 0x7ED840 Offset: 0x7EBE40 VA: 0x1807ED840
 	public void MovePlayer(BasePlayer player) { }
 
-	// RVA: 0x7ED690 Offset: 0x7EBC90 VA: 0x1807ED690
+	// RVA: 0x7ED7A0 Offset: 0x7EBDA0 VA: 0x1807ED7A0
 	public void MoveBrain(BaseEntity entity) { }
 
-	// RVA: 0x7ED550 Offset: 0x7EBB50 VA: 0x1807ED550
+	// RVA: 0x7ED660 Offset: 0x7EBC60 VA: 0x1807ED660
 	public int GetInSphere(Vector3 position, float distance, BaseEntity[] results, Func<BaseEntity, bool> filter) { }
 
-	// RVA: 0x7ED5F0 Offset: 0x7EBBF0 VA: 0x1807ED5F0
+	// RVA: 0x7ED700 Offset: 0x7EBD00 VA: 0x1807ED700
 	public int GetPlayersInSphere(Vector3 position, float distance, BasePlayer[] results, Func<BasePlayer, bool> filter) { }
 
-	// RVA: 0x7ED4B0 Offset: 0x7EBAB0 VA: 0x1807ED4B0
+	// RVA: 0x7ED5C0 Offset: 0x7EBBC0 VA: 0x1807ED5C0
 	public int GetBrainsInSphere(Vector3 position, float distance, BaseEntity[] results, Func<BaseEntity, bool> filter) { }
 
 }
@@ -1389,7 +1389,7 @@ public class BaseEntity.Query.EntityTree // TypeDefIndex: 8503
 public class BaseEntity.RPC_Shared : Attribute // TypeDefIndex: 8504
 {	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 }
@@ -1405,7 +1405,7 @@ public struct BaseEntity.RPCMessage // TypeDefIndex: 8505
 public class BaseEntity.RPC_Client : BaseEntity.RPC_Shared // TypeDefIndex: 8506
 {	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 }
@@ -1483,16 +1483,16 @@ private sealed class BaseEntity.<>c // TypeDefIndex: 8512
 
 	// Methods
 
-	// RVA: 0x7EDFD0 Offset: 0x7EC5D0 VA: 0x1807EDFD0
+	// RVA: 0x7EE0E0 Offset: 0x7EC6E0 VA: 0x1807EE0E0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7EDF30 Offset: 0x7EC530 VA: 0x1807EDF30
+	// RVA: 0x7EE040 Offset: 0x7EC640 VA: 0x1807EE040
 	internal int <GetMenuItems>b__35_0(Option x, Option y) { }
 
-	// RVA: 0x7EDF60 Offset: 0x7EC560 VA: 0x1807EDF60
+	// RVA: 0x7EE070 Offset: 0x7EC670 VA: 0x1807EE070
 	internal bool <RequestFileFromServer>b__93_0(BaseEntity.ServerFileRequest r) { }
 
 }

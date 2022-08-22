@@ -4,10 +4,10 @@ public class UnparentOnDestroy : MonoBehaviour, IOnParentDestroying // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x11332A0 Offset: 0x11318A0 VA: 0x1811332A0 Slot: 4
+	// RVA: 0x1133560 Offset: 0x1131B60 VA: 0x181133560 Slot: 4
 	public void OnParentDestroying() { }
 
-	// RVA: 0x1133350 Offset: 0x1131950 VA: 0x181133350
+	// RVA: 0x1133610 Offset: 0x1131C10 VA: 0x181133610
 	protected void OnValidate() { }
 
 	// RVA: 0x571960 Offset: 0x56FF60 VA: 0x180571960

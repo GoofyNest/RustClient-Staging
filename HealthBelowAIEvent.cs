@@ -17,16 +17,16 @@ public class HealthBelowAIEvent : BaseAIEvent // TypeDefIndex: 9397
 	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
 	public void set_HealthFraction(float value) { }
 
-	// RVA: 0x735F40 Offset: 0x734540 VA: 0x180735F40
+	// RVA: 0x736050 Offset: 0x734650 VA: 0x180736050
 	public void .ctor() { }
 
-	// RVA: 0x735E60 Offset: 0x734460 VA: 0x180735E60 Slot: 4
+	// RVA: 0x735F70 Offset: 0x734570 VA: 0x180735F70 Slot: 4
 	public override void Init(AIEventData data, BaseEntity owner) { }
 
-	// RVA: 0x735EA0 Offset: 0x7344A0 VA: 0x180735EA0 Slot: 6
+	// RVA: 0x735FB0 Offset: 0x7345B0 VA: 0x180735FB0 Slot: 6
 	public override AIEventData ToProto() { }
 
-	// RVA: 0x735D40 Offset: 0x734340 VA: 0x180735D40 Slot: 8
+	// RVA: 0x735E50 Offset: 0x734450 VA: 0x180735E50 Slot: 8
 	public override void Execute(AIMemory memory, AIBrainSenses senses, StateStatus stateStatus) { }
 
 }

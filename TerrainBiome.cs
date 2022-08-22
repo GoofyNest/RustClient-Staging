@@ -18,13 +18,13 @@ public static class TerrainBiome // TypeDefIndex: 7781
 
 	// Methods
 
-	// RVA: 0x23039F0 Offset: 0x2301FF0 VA: 0x1823039F0
+	// RVA: 0x2303CB0 Offset: 0x23022B0 VA: 0x182303CB0
 	public static int TypeToIndex(int id) { }
 
-	// RVA: 0x768230 Offset: 0x766830 VA: 0x180768230
+	// RVA: 0x768340 Offset: 0x766940 VA: 0x180768340
 	public static int IndexToType(int idx) { }
 
-	// RVA: 0x2303A70 Offset: 0x2302070 VA: 0x182303A70
+	// RVA: 0x2303D30 Offset: 0x2302330 VA: 0x182303D30
 	private static void .cctor() { }
 
 }

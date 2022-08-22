@@ -21,37 +21,37 @@ public class RustLayout : UIBehaviour, ILayoutGroup, ILayoutController, IAutoLay
 
 	// Methods
 
-	// RVA: 0xFCD140 Offset: 0xFCB740 VA: 0x180FCD140 Slot: 4
+	// RVA: 0xFCD400 Offset: 0xFCBA00 VA: 0x180FCD400 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0xFCE6D0 Offset: 0xFCCCD0 VA: 0x180FCE6D0 Slot: 20
+	// RVA: 0xFCE990 Offset: 0xFCCF90 VA: 0x180FCE990 Slot: 20
 	public virtual void SetLayoutHorizontal() { }
 
-	// RVA: 0xFCE6D0 Offset: 0xFCCCD0 VA: 0x180FCE6D0 Slot: 21
+	// RVA: 0xFCE990 Offset: 0xFCCF90 VA: 0x180FCE990 Slot: 21
 	public virtual void SetLayoutVertical() { }
 
-	// RVA: 0xFCD9E0 Offset: 0xFCBFE0 VA: 0x180FCD9E0 Slot: 22
+	// RVA: 0xFCDCA0 Offset: 0xFCC2A0 VA: 0x180FCDCA0 Slot: 22
 	public virtual void DoLayout() { }
 
-	// RVA: 0xFCE560 Offset: 0xFCCB60 VA: 0x180FCE560 Slot: 12
+	// RVA: 0xFCE820 Offset: 0xFCCE20 VA: 0x180FCE820 Slot: 12
 	protected override void OnTransformParentChanged() { }
 
-	// RVA: 0xFCD160 Offset: 0xFCB760 VA: 0x180FCD160
+	// RVA: 0xFCD420 Offset: 0xFCBA20 VA: 0x180FCD420
 	private void DoHorizontalLayout(RectTransform.Edge edge) { }
 
-	// RVA: 0xFCDB50 Offset: 0xFCC150 VA: 0x180FCDB50
+	// RVA: 0xFCDE10 Offset: 0xFCC410 VA: 0x180FCDE10
 	private void DoTopLayout(RectTransform.Edge edge) { }
 
-	// RVA: 0xFCE460 Offset: 0xFCCA60 VA: 0x180FCE460
+	// RVA: 0xFCE720 Offset: 0xFCCD20 VA: 0x180FCE720
 	private bool Ignoring(RectTransform child) { }
 
-	// RVA: 0xFCE640 Offset: 0xFCCC40 VA: 0x180FCE640
+	// RVA: 0xFCE900 Offset: 0xFCCF00 VA: 0x180FCE900
 	protected void SetDirty() { }
 
-	// RVA: 0xFCE530 Offset: 0xFCCB30 VA: 0x180FCE530 Slot: 10
+	// RVA: 0xFCE7F0 Offset: 0xFCCDF0 VA: 0x180FCE7F0 Slot: 10
 	protected override void OnRectTransformDimensionsChange() { }
 
-	// RVA: 0xFCE550 Offset: 0xFCCB50 VA: 0x180FCE550 Slot: 23
+	// RVA: 0xFCE810 Offset: 0xFCCE10 VA: 0x180FCE810 Slot: 23
 	protected virtual void OnTransformChildrenChanged() { }
 
 	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0

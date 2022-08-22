@@ -19,34 +19,34 @@ public class LZ4Stream : Stream // TypeDefIndex: 6990
 
 	// Methods
 
-	// RVA: 0x22615D0 Offset: 0x225FBD0 VA: 0x1822615D0
+	// RVA: 0x2261890 Offset: 0x225FE90 VA: 0x182261890
 	public void .ctor(Stream innerStream, LZ4StreamMode compressionMode, LZ4StreamFlags compressionFlags = 0, int blockSize = 1048576) { }
 
-	// RVA: 0x2260D60 Offset: 0x225F360 VA: 0x182260D60
+	// RVA: 0x2261020 Offset: 0x225F620 VA: 0x182261020
 	private static NotSupportedException NotSupported(string operationName) { }
 
-	// RVA: 0x2260A70 Offset: 0x225F070 VA: 0x182260A70
+	// RVA: 0x2260D30 Offset: 0x225F330 VA: 0x182260D30
 	private static EndOfStreamException EndOfStream() { }
 
-	// RVA: 0x22611B0 Offset: 0x225F7B0 VA: 0x1822611B0
+	// RVA: 0x2261470 Offset: 0x225FA70 VA: 0x182261470
 	private bool TryReadVarInt(out ulong result) { }
 
-	// RVA: 0x2260F90 Offset: 0x225F590 VA: 0x182260F90
+	// RVA: 0x2261250 Offset: 0x225F850 VA: 0x182261250
 	private ulong ReadVarInt() { }
 
-	// RVA: 0x2260E40 Offset: 0x225F440 VA: 0x182260E40
+	// RVA: 0x2261100 Offset: 0x225F700 VA: 0x182261100
 	private int ReadBlock(byte[] buffer, int offset, int length) { }
 
-	// RVA: 0x22613B0 Offset: 0x225F9B0 VA: 0x1822613B0
+	// RVA: 0x2261670 Offset: 0x225FC70 VA: 0x182261670
 	private void WriteVarInt(ulong value) { }
 
-	// RVA: 0x2260AC0 Offset: 0x225F0C0 VA: 0x182260AC0
+	// RVA: 0x2260D80 Offset: 0x225F380 VA: 0x182260D80
 	private void FlushCurrentChunk() { }
 
-	// RVA: 0x22606C0 Offset: 0x225ECC0 VA: 0x1822606C0
+	// RVA: 0x2260980 Offset: 0x225EF80 VA: 0x182260980
 	private bool AcquireNextChunk() { }
 
-	// RVA: 0x132CFE0 Offset: 0x132B5E0 VA: 0x18132CFE0 Slot: 7
+	// RVA: 0x132D2A0 Offset: 0x132B8A0 VA: 0x18132D2A0 Slot: 7
 	public override bool get_CanRead() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 8
@@ -55,37 +55,37 @@ public class LZ4Stream : Stream // TypeDefIndex: 6990
 	// RVA: 0x5DE330 Offset: 0x5DC930 VA: 0x1805DE330 Slot: 9
 	public override bool get_CanWrite() { }
 
-	// RVA: 0x2260D20 Offset: 0x225F320 VA: 0x182260D20 Slot: 18
+	// RVA: 0x2260FE0 Offset: 0x225F5E0 VA: 0x182260FE0 Slot: 18
 	public override void Flush() { }
 
-	// RVA: 0xEAC020 Offset: 0xEAA620 VA: 0x180EAC020 Slot: 10
+	// RVA: 0xEAC2E0 Offset: 0xEAA8E0 VA: 0x180EAC2E0 Slot: 10
 	public override long get_Length() { }
 
-	// RVA: 0xEAC020 Offset: 0xEAA620 VA: 0x180EAC020 Slot: 11
+	// RVA: 0xEAC2E0 Offset: 0xEAA8E0 VA: 0x180EAC2E0 Slot: 11
 	public override long get_Position() { }
 
-	// RVA: 0x22616B0 Offset: 0x225FCB0 VA: 0x1822616B0 Slot: 12
+	// RVA: 0x2261970 Offset: 0x225FF70 VA: 0x182261970 Slot: 12
 	public override void set_Position(long value) { }
 
-	// RVA: 0x2260ED0 Offset: 0x225F4D0 VA: 0x182260ED0 Slot: 28
+	// RVA: 0x2261190 Offset: 0x225F790 VA: 0x182261190 Slot: 28
 	public override int ReadByte() { }
 
-	// RVA: 0x2261000 Offset: 0x225F600 VA: 0x182261000 Slot: 27
+	// RVA: 0x22612C0 Offset: 0x225F8C0 VA: 0x1822612C0 Slot: 27
 	public override int Read(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x2261130 Offset: 0x225F730 VA: 0x182261130 Slot: 25
+	// RVA: 0x22613F0 Offset: 0x225F9F0 VA: 0x1822613F0 Slot: 25
 	public override long Seek(long offset, SeekOrigin origin) { }
 
-	// RVA: 0x2261170 Offset: 0x225F770 VA: 0x182261170 Slot: 26
+	// RVA: 0x2261430 Offset: 0x225FA30 VA: 0x182261430 Slot: 26
 	public override void SetLength(long value) { }
 
-	// RVA: 0x22612B0 Offset: 0x225F8B0 VA: 0x1822612B0 Slot: 30
+	// RVA: 0x2261570 Offset: 0x225FB70 VA: 0x182261570 Slot: 30
 	public override void WriteByte(byte value) { }
 
-	// RVA: 0x2261480 Offset: 0x225FA80 VA: 0x182261480 Slot: 29
+	// RVA: 0x2261740 Offset: 0x225FD40 VA: 0x182261740 Slot: 29
 	public override void Write(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x2260A10 Offset: 0x225F010 VA: 0x182260A10 Slot: 17
+	// RVA: 0x2260CD0 Offset: 0x225F2D0 VA: 0x182260CD0 Slot: 17
 	protected override void Dispose(bool disposing) { }
 
 }

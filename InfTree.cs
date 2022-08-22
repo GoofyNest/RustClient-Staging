@@ -15,25 +15,25 @@ internal sealed class InfTree // TypeDefIndex: 6952
 
 	// Methods
 
-	// RVA: 0x21CF410 Offset: 0x21CDA10 VA: 0x1821CF410
+	// RVA: 0x21CF6D0 Offset: 0x21CDCD0 VA: 0x1821CF6D0
 	private int huft_build(int[] b, int bindex, int n, int s, int[] d, int[] e, int[] t, int[] m, int[] hp, int[] hn, int[] v) { }
 
-	// RVA: 0x21CFFC0 Offset: 0x21CE5C0 VA: 0x1821CFFC0
+	// RVA: 0x21D0280 Offset: 0x21CE880 VA: 0x1821D0280
 	internal int inflate_trees_bits(int[] c, int[] bb, int[] tb, int[] hp, ZlibCodec z) { }
 
-	// RVA: 0x21D0120 Offset: 0x21CE720 VA: 0x1821D0120
+	// RVA: 0x21D03E0 Offset: 0x21CE9E0 VA: 0x1821D03E0
 	internal int inflate_trees_dynamic(int nl, int nd, int[] c, int[] bl, int[] bd, int[] tl, int[] td, int[] hp, ZlibCodec z) { }
 
-	// RVA: 0x21D0440 Offset: 0x21CEA40 VA: 0x1821D0440
+	// RVA: 0x21D0700 Offset: 0x21CED00 VA: 0x1821D0700
 	internal static int inflate_trees_fixed(int[] bl, int[] bd, int[][] tl, int[][] td, ZlibCodec z) { }
 
-	// RVA: 0x21D05F0 Offset: 0x21CEBF0 VA: 0x1821D05F0
+	// RVA: 0x21D08B0 Offset: 0x21CEEB0 VA: 0x1821D08B0
 	private void initWorkArea(int vsize) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x21CF250 Offset: 0x21CD850 VA: 0x1821CF250
+	// RVA: 0x21CF510 Offset: 0x21CDB10 VA: 0x1821CF510
 	private static void .cctor() { }
 
 }

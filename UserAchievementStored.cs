@@ -22,7 +22,7 @@ internal struct UserAchievementStored_t : ICallbackData // TypeDefIndex: 5388
 	// RVA: 0x1DBE30 Offset: 0x1DB230 VA: 0x1801DBE30 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1291BF0 Offset: 0x12901F0 VA: 0x181291BF0
+	// RVA: 0x1291EB0 Offset: 0x12904B0 VA: 0x181291EB0
 	private static void .cctor() { }
 
 }

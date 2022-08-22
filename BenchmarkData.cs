@@ -23,35 +23,35 @@ public class BenchmarkData // TypeDefIndex: 6178
 
 	// Methods
 
-	// RVA: 0x14A9EA0 Offset: 0x14A84A0 VA: 0x1814A9EA0
+	// RVA: 0x14AA160 Offset: 0x14A8760 VA: 0x1814AA160
 	public static BenchmarkData New() { }
 
-	// RVA: 0x14AA380 Offset: 0x14A8980 VA: 0x1814AA380
+	// RVA: 0x14AA640 Offset: 0x14A8C40 VA: 0x1814AA640
 	public void WriteTimersToResults() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x9F940 Offset: 0x9ED40 VA: 0x18009F940
-	// RVA: 0x14AA050 Offset: 0x14A8650 VA: 0x1814AA050
+	// RVA: 0x14AA310 Offset: 0x14A8910 VA: 0x1814AA310
 	public Task<string> Upload() { }
 
-	// RVA: 0x14AA150 Offset: 0x14A8750 VA: 0x1814AA150
+	// RVA: 0x14AA410 Offset: 0x14A8A10 VA: 0x1814AA410
 	public string WriteJSON() { }
 
-	// RVA: 0x14AA5B0 Offset: 0x14A8BB0 VA: 0x1814AA5B0
+	// RVA: 0x14AA870 Offset: 0x14A8E70 VA: 0x1814AA870
 	private float get_AvgMilliseconds() { }
 
-	// RVA: 0x14AA5D0 Offset: 0x14A8BD0 VA: 0x1814AA5D0
+	// RVA: 0x14AA890 Offset: 0x14A8E90 VA: 0x1814AA890
 	private float get_avgFrameRate() { }
 
-	// RVA: 0x14AA040 Offset: 0x14A8640 VA: 0x1814AA040
+	// RVA: 0x14AA300 Offset: 0x14A8900 VA: 0x1814AA300
 	public void ResetCounters() { }
 
-	// RVA: 0x14A9E40 Offset: 0x14A8440 VA: 0x1814A9E40
+	// RVA: 0x14AA100 Offset: 0x14A8700 VA: 0x1814AA100
 	public void Frame() { }
 
-	// RVA: 0x14A9BB0 Offset: 0x14A81B0 VA: 0x1814A9BB0
+	// RVA: 0x14A9E70 Offset: 0x14A8470 VA: 0x1814A9E70
 	public void CompleteDemoBenchmark(string benchmarkLabel = "") { }
 
-	// RVA: 0x14AA540 Offset: 0x14A8B40 VA: 0x1814AA540
+	// RVA: 0x14AA800 Offset: 0x14A8E00 VA: 0x1814AA800
 	public void .ctor() { }
 
 }

@@ -10,7 +10,7 @@ internal class ExpandString // TypeDefIndex: 106
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x163CF80 Offset: 0x163B580 VA: 0x18163CF80
+	// RVA: 0x163D240 Offset: 0x163B840 VA: 0x18163D240
 	public string Expand() { }
 
 }

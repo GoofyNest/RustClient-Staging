@@ -9,10 +9,10 @@ public class ERSideObjectSection : MonoBehaviour // TypeDefIndex: 7293
 
 	// Methods
 
-	// RVA: 0xA5CD40 Offset: 0xA5B340 VA: 0x180A5CD40
+	// RVA: 0xA5D000 Offset: 0xA5B600 VA: 0x180A5D000
 	public void Copy(ERSideObjectSection source) { }
 
-	// RVA: 0xA5CDA0 Offset: 0xA5B3A0 VA: 0x180A5CDA0
+	// RVA: 0xA5D060 Offset: 0xA5B660 VA: 0x180A5D060
 	public void .ctor() { }
 
 }

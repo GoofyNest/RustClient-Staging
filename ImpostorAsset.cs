@@ -7,7 +7,7 @@ public class ImpostorAsset : ScriptableObject // TypeDefIndex: 10678
 
 	// Methods
 
-	// RVA: 0x80F6B0 Offset: 0x80DCB0 VA: 0x18080F6B0
+	// RVA: 0x80F7C0 Offset: 0x80DDC0 VA: 0x18080F7C0
 	public Texture2D FindTexture(string name) { }
 
 	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0

@@ -6,19 +6,19 @@ public class DepthOfFieldEffectRenderer : PostProcessEffectRenderer<DepthOfField
 
 	// Methods
 
-	// RVA: 0x97C0E0 Offset: 0x97A6E0 VA: 0x18097C0E0 Slot: 4
+	// RVA: 0x97C1F0 Offset: 0x97A7F0 VA: 0x18097C1F0 Slot: 4
 	public override void Init() { }
 
-	// RVA: 0x97BF40 Offset: 0x97A540 VA: 0x18097BF40
+	// RVA: 0x97C050 Offset: 0x97A650 VA: 0x18097C050
 	private float FocalDistance01(Camera cam, float worldDist) { }
 
-	// RVA: 0x97C830 Offset: 0x97AE30 VA: 0x18097C830
+	// RVA: 0x97C940 Offset: 0x97AF40 VA: 0x18097C940
 	private void WriteCoc(PostProcessRenderContext context, PropertySheet sheet) { }
 
-	// RVA: 0x97C130 Offset: 0x97A730 VA: 0x18097C130 Slot: 8
+	// RVA: 0x97C240 Offset: 0x97A840 VA: 0x18097C240 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x97CD90 Offset: 0x97B390 VA: 0x18097CD90
+	// RVA: 0x97CEA0 Offset: 0x97B4A0 VA: 0x18097CEA0
 	public void .ctor() { }
 
 }

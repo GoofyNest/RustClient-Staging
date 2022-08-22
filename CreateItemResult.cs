@@ -17,7 +17,7 @@ internal struct CreateItemResult_t : ICallbackData // TypeDefIndex: 5432
 	// RVA: 0x1E5240 Offset: 0x1E4640 VA: 0x1801E5240 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x136F500 Offset: 0x136DB00 VA: 0x18136F500
+	// RVA: 0x136F7C0 Offset: 0x136DDC0 VA: 0x18136F7C0
 	private static void .cctor() { }
 
 }

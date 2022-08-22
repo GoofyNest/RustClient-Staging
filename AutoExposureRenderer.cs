@@ -8,16 +8,16 @@ internal sealed class AutoExposureRenderer : PostProcessEffectRenderer<AutoExpos
 
 	// Methods
 
-	// RVA: 0x9EDA10 Offset: 0x9EC010 VA: 0x1809EDA10
+	// RVA: 0x9EDCD0 Offset: 0x9EC2D0 VA: 0x1809EDCD0
 	public void .ctor() { }
 
-	// RVA: 0x9ECD90 Offset: 0x9EB390 VA: 0x1809ECD90
+	// RVA: 0x9ED050 Offset: 0x9EB650 VA: 0x1809ED050
 	private void CheckTexture(int eye, int id) { }
 
-	// RVA: 0x9ED100 Offset: 0x9EB700 VA: 0x1809ED100 Slot: 8
+	// RVA: 0x9ED3C0 Offset: 0x9EB9C0 VA: 0x1809ED3C0 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x9ED010 Offset: 0x9EB610 VA: 0x1809ED010 Slot: 7
+	// RVA: 0x9ED2D0 Offset: 0x9EB8D0 VA: 0x1809ED2D0 Slot: 7
 	public override void Release() { }
 
 }

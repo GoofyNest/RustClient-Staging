@@ -1,27 +1,27 @@
 public static class Assert // TypeDefIndex: 3904
 {	// Fields
 	[ObsoleteAttribute] // RVA: 0x85B90 Offset: 0x84F90 VA: 0x180085B90
-	public static bool raiseExceptions; // 0x2B10398
+	public static bool raiseExceptions; // 0x2B113D8
 
 	// Methods
 
-	// RVA: 0x181DBA0 Offset: 0x181C1A0 VA: 0x18181DBA0
+	// RVA: 0x181DE60 Offset: 0x181C460 VA: 0x18181DE60
 	private static void Fail(string message, string userMessage) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x181E140 Offset: 0x181C740 VA: 0x18181E140
+	// RVA: 0x181E400 Offset: 0x181CA00 VA: 0x18181E400
 	public static void IsTrue(bool condition) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x181E250 Offset: 0x181C850 VA: 0x18181E250
+	// RVA: 0x181E510 Offset: 0x181CB10 VA: 0x18181E510
 	public static void IsTrue(bool condition, string message) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x181DD50 Offset: 0x181C350 VA: 0x18181DD50
+	// RVA: 0x181E010 Offset: 0x181C610 VA: 0x18181E010
 	public static void IsFalse(bool condition) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x181DE50 Offset: 0x181C450 VA: 0x18181DE50
+	// RVA: 0x181E110 Offset: 0x181C710 VA: 0x18181E110
 	public static void IsFalse(bool condition, string message) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
@@ -68,7 +68,7 @@ public static class Assert // TypeDefIndex: 3904
 	*/
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x181DAE0 Offset: 0x181C0E0 VA: 0x18181DAE0
+	// RVA: 0x181DDA0 Offset: 0x181C3A0 VA: 0x18181DDA0
 	public static void AreEqual(Object expected, Object actual, string message) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
@@ -103,18 +103,18 @@ public static class Assert // TypeDefIndex: 3904
 	*/
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x181DF30 Offset: 0x181C530 VA: 0x18181DF30
+	// RVA: 0x181E1F0 Offset: 0x181C7F0 VA: 0x18181E1F0
 	public static void IsNotNull(Object value, string message) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x181DA70 Offset: 0x181C070 VA: 0x18181DA70
+	// RVA: 0x181DD30 Offset: 0x181C330 VA: 0x18181DD30
 	public static void AreEqual(int expected, int actual) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x181DA00 Offset: 0x181C000 VA: 0x18181DA00
+	// RVA: 0x181DCC0 Offset: 0x181C2C0 VA: 0x18181DCC0
 	public static void AreEqual(uint expected, uint actual) { }
 
-	// RVA: 0x181E330 Offset: 0x181C930 VA: 0x18181E330
+	// RVA: 0x181E5F0 Offset: 0x181CBF0 VA: 0x18181E5F0
 	private static void .cctor() { }
 
 }

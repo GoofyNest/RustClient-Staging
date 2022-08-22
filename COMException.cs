@@ -1,13 +1,13 @@
 public class COMException : ExternalException // TypeDefIndex: 1344
 {	// Methods
 
-	// RVA: 0xFDD0E0 Offset: 0xFDB6E0 VA: 0x180FDD0E0
+	// RVA: 0xFDD3A0 Offset: 0xFDB9A0 VA: 0x180FDD3A0
 	public void .ctor() { }
 
-	// RVA: 0xFDD150 Offset: 0xFDB750 VA: 0x180FDD150
+	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xFDCF50 Offset: 0xFDB550 VA: 0x180FDCF50 Slot: 3
+	// RVA: 0xFDD210 Offset: 0xFDB810 VA: 0x180FDD210 Slot: 3
 	public override string ToString() { }
 
 }

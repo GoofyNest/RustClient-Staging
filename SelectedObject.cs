@@ -8,10 +8,10 @@ public class SelectedObject : ScriptableObject // TypeDefIndex: 7235
 
 	// Methods
 
-	// RVA: 0xB73370 Offset: 0xB71970 VA: 0x180B73370
+	// RVA: 0xB73630 Offset: 0xB71C30 VA: 0x180B73630
 	public void Init(ERModularRoad rScr, ERCrossingPrefabs pScr, int marker) { }
 
-	// RVA: 0xB73210 Offset: 0xB71810 VA: 0x180B73210
+	// RVA: 0xB734D0 Offset: 0xB71AD0 VA: 0x180B734D0
 	public static SelectedObject CreateInstance(ERModularRoad rScr, ERCrossingPrefabs pScr, int marker) { }
 
 	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0

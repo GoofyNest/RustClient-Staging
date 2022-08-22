@@ -6,10 +6,10 @@ public class RandomStaticPrefab : MonoBehaviour // TypeDefIndex: 10357
 
 	// Methods
 
-	// RVA: 0x6A7DC0 Offset: 0x6A63C0 VA: 0x1806A7DC0
+	// RVA: 0x6A7ED0 Offset: 0x6A64D0 VA: 0x1806A7ED0
 	protected void Start() { }
 
-	// RVA: 0x6A7F10 Offset: 0x6A6510 VA: 0x1806A7F10
+	// RVA: 0x6A8020 Offset: 0x6A6620 VA: 0x1806A8020
 	public void .ctor() { }
 
 }

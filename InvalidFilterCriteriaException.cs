@@ -1,13 +1,13 @@
 public class InvalidFilterCriteriaException : ApplicationException // TypeDefIndex: 529
 {	// Methods
 
-	// RVA: 0x18CA140 Offset: 0x18C8740 VA: 0x1818CA140
+	// RVA: 0x18CA400 Offset: 0x18C8A00 VA: 0x1818CA400
 	public void .ctor() { }
 
-	// RVA: 0x18CA1A0 Offset: 0x18C87A0 VA: 0x1818CA1A0
+	// RVA: 0x18CA460 Offset: 0x18C8A60 VA: 0x1818CA460
 	public void .ctor(string message) { }
 
-	// RVA: 0x161C020 Offset: 0x161A620 VA: 0x18161C020
+	// RVA: 0x161C2E0 Offset: 0x161A8E0 VA: 0x18161C2E0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

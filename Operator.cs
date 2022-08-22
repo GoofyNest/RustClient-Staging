@@ -11,16 +11,16 @@ internal class Operator : AstNode // TypeDefIndex: 1796
 
 	// Methods
 
-	// RVA: 0x12F4670 Offset: 0x12F2C70 VA: 0x1812F4670
+	// RVA: 0x12F4930 Offset: 0x12F2F30 VA: 0x1812F4930
 	public void .ctor(Operator.Op op, AstNode opnd1, AstNode opnd2) { }
 
 	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 4
 	public override AstNode.AstType get_Type() { }
 
-	// RVA: 0x12F46D0 Offset: 0x12F2CD0 VA: 0x1812F46D0 Slot: 5
+	// RVA: 0x12F4990 Offset: 0x12F2F90 VA: 0x1812F4990 Slot: 5
 	public override XPathResultType get_ReturnType() { }
 
-	// RVA: 0x12F4600 Offset: 0x12F2C00 VA: 0x1812F4600
+	// RVA: 0x12F48C0 Offset: 0x12F2EC0 VA: 0x1812F48C0
 	private static void .cctor() { }
 
 }

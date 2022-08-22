@@ -10,7 +10,7 @@ public class Frost : PostProcessEffectSettings // TypeDefIndex: 10254
 
 	// Methods
 
-	// RVA: 0x755690 Offset: 0x753C90 VA: 0x180755690
+	// RVA: 0x7557A0 Offset: 0x753DA0 VA: 0x1807557A0
 	public void .ctor() { }
 
 }

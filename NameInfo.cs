@@ -23,13 +23,13 @@ internal sealed class NameInfo // TypeDefIndex: 1124
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x11F6130 Offset: 0x11F4730 VA: 0x1811F6130
+	// RVA: 0x11F63F0 Offset: 0x11F49F0 VA: 0x1811F63F0
 	internal void Init() { }
 
-	// RVA: 0x11F6190 Offset: 0x11F4790 VA: 0x1811F6190
+	// RVA: 0x11F6450 Offset: 0x11F4A50 VA: 0x1811F6450
 	public bool get_IsSealed() { }
 
-	// RVA: 0x11F61D0 Offset: 0x11F47D0 VA: 0x1811F61D0
+	// RVA: 0x11F6490 Offset: 0x11F4A90 VA: 0x1811F6490
 	public string get_NIname() { }
 
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
@@ -47,22 +47,22 @@ internal sealed class NameInfo : ConcurrentSetItem<KeyValuePair<string, EventTag
 
 	// Methods
 
-	// RVA: 0x10E4510 Offset: 0x10E2B10 VA: 0x1810E4510
+	// RVA: 0x10E47D0 Offset: 0x10E2DD0 VA: 0x1810E47D0
 	internal static void ReserveEventIDsBelow(int eventId) { }
 
-	// RVA: 0x10E4620 Offset: 0x10E2C20 VA: 0x1810E4620
+	// RVA: 0x10E48E0 Offset: 0x10E2EE0 VA: 0x1810E48E0
 	public void .ctor(string name, EventTags tags, int typeMetadataSize) { }
 
-	// RVA: 0x10E4490 Offset: 0x10E2A90 VA: 0x1810E4490 Slot: 4
+	// RVA: 0x10E4750 Offset: 0x10E2D50 VA: 0x1810E4750 Slot: 4
 	public override int Compare(NameInfo other) { }
 
-	// RVA: 0x10E44C0 Offset: 0x10E2AC0 VA: 0x1810E44C0 Slot: 5
+	// RVA: 0x10E4780 Offset: 0x10E2D80 VA: 0x1810E4780 Slot: 5
 	public override int Compare(KeyValuePair<string, EventTags> key) { }
 
-	// RVA: 0x10E4390 Offset: 0x10E2990 VA: 0x1810E4390
+	// RVA: 0x10E4650 Offset: 0x10E2C50 VA: 0x1810E4650
 	private int Compare(string otherName, EventTags otherTags) { }
 
-	// RVA: 0x10E45E0 Offset: 0x10E2BE0 VA: 0x1810E45E0
+	// RVA: 0x10E48A0 Offset: 0x10E2EA0 VA: 0x1810E48A0
 	private static void .cctor() { }
 
 }

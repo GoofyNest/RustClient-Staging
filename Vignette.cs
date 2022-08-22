@@ -25,10 +25,10 @@ public sealed class Vignette : PostProcessEffectSettings // TypeDefIndex: 11815
 
 	// Methods
 
-	// RVA: 0x11EB240 Offset: 0x11E9840 VA: 0x1811EB240 Slot: 4
+	// RVA: 0x11EB500 Offset: 0x11E9B00 VA: 0x1811EB500 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x11EB310 Offset: 0x11E9910 VA: 0x1811EB310
+	// RVA: 0x11EB5D0 Offset: 0x11E9BD0 VA: 0x1811EB5D0
 	public void .ctor() { }
 
 }

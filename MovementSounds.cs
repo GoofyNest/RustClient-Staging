@@ -20,25 +20,25 @@ public class MovementSounds : MonoBehaviour, IOnParentDestroying, ISoundBudgeted
 
 	// Methods
 
-	// RVA: 0x7BCED0 Offset: 0x7BB4D0 VA: 0x1807BCED0 Slot: 4
+	// RVA: 0x7BCFE0 Offset: 0x7BB5E0 VA: 0x1807BCFE0 Slot: 4
 	public void OnParentDestroying() { }
 
-	// RVA: 0x7BCE90 Offset: 0x7BB490 VA: 0x1807BCE90
+	// RVA: 0x7BCFA0 Offset: 0x7BB5A0 VA: 0x1807BCFA0
 	protected void OnEnable() { }
 
-	// RVA: 0x7BCE20 Offset: 0x7BB420 VA: 0x1807BCE20
+	// RVA: 0x7BCF30 Offset: 0x7BB530 VA: 0x1807BCF30
 	protected void OnDisable() { }
 
-	// RVA: 0x7BC830 Offset: 0x7BAE30 VA: 0x1807BC830 Slot: 5
+	// RVA: 0x7BC940 Offset: 0x7BAF40 VA: 0x1807BC940 Slot: 5
 	public void DoUpdate() { }
 
-	// RVA: 0x7BCF10 Offset: 0x7BB510 VA: 0x1807BCF10
+	// RVA: 0x7BD020 Offset: 0x7BB620 VA: 0x1807BD020
 	public void UpdateVelocity(Vector3 velocity) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 6
 	public bool IsSyncedToParent() { }
 
-	// RVA: 0x692FF0 Offset: 0x6915F0 VA: 0x180692FF0
+	// RVA: 0x693100 Offset: 0x691700 VA: 0x180693100
 	public void .ctor() { }
 
 }

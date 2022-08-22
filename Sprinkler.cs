@@ -7,7 +7,7 @@ public class Sprinkler : IOEntity // TypeDefIndex: 8716
 
 	// Methods
 
-	// RVA: 0xA89F60 Offset: 0xA88560 VA: 0x180A89F60
+	// RVA: 0xA8A220 Offset: 0xA88820 VA: 0x180A8A220
 	public void .ctor() { }
 
 }

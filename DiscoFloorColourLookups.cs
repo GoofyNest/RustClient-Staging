@@ -9,16 +9,16 @@ public class DiscoFloorColourLookups : PrefabAttribute, IClientComponent // Type
 
 	// Methods
 
-	// RVA: 0x987690 Offset: 0x985C90 VA: 0x180987690
+	// RVA: 0x9877A0 Offset: 0x985DA0 VA: 0x1809877A0
 	public float[] GetLookup(DiscoFloorMesh.PatternType pattern) { }
 
-	// RVA: 0x987590 Offset: 0x985B90 VA: 0x180987590
+	// RVA: 0x9876A0 Offset: 0x985CA0 VA: 0x1809876A0
 	public Gradient GetColourGradient(int index) { }
 
-	// RVA: 0x987630 Offset: 0x985C30 VA: 0x180987630 Slot: 7
+	// RVA: 0x987740 Offset: 0x985D40 VA: 0x180987740 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x9876D0 Offset: 0x985CD0 VA: 0x1809876D0
+	// RVA: 0x9877E0 Offset: 0x985DE0 VA: 0x1809877E0
 	public void .ctor() { }
 
 }

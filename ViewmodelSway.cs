@@ -12,16 +12,16 @@ public class ViewmodelSway : MonoBehaviour // TypeDefIndex: 11465
 
 	// Methods
 
-	// RVA: 0x7FBEB0 Offset: 0x7FA4B0 VA: 0x1807FBEB0
+	// RVA: 0x7FBFC0 Offset: 0x7FA5C0 VA: 0x1807FBFC0
 	public void Apply(ref CachedTransform<BaseViewModel> vm, BasePlayer player) { }
 
-	// RVA: 0x7FB200 Offset: 0x7F9800 VA: 0x1807FB200
+	// RVA: 0x7FB310 Offset: 0x7F9910 VA: 0x1807FB310
 	private void ApplyPositionalSway(ref CachedTransform<BaseViewModel> vm, bool aiming, BasePlayer player) { }
 
-	// RVA: 0x7FB6E0 Offset: 0x7F9CE0 VA: 0x1807FB6E0
+	// RVA: 0x7FB7F0 Offset: 0x7F9DF0 VA: 0x1807FB7F0
 	private void ApplyRotationSway(ref CachedTransform<BaseViewModel> vm, bool aiming) { }
 
-	// RVA: 0x7FBF90 Offset: 0x7FA590 VA: 0x1807FBF90
+	// RVA: 0x7FC0A0 Offset: 0x7FA6A0 VA: 0x1807FC0A0
 	public void .ctor() { }
 
 }

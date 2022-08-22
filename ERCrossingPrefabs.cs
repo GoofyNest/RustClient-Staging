@@ -111,79 +111,79 @@ public class ERCrossingPrefabs : MonoBehaviour // TypeDefIndex: 7179
 
 	// Methods
 
-	// RVA: 0xB86110 Offset: 0xB84710 VA: 0x180B86110
+	// RVA: 0xB863D0 Offset: 0xB849D0 VA: 0x180B863D0
 	public void OCOODQQDQO() { }
 
-	// RVA: 0xB867A0 Offset: 0xB84DA0 VA: 0x180B867A0
+	// RVA: 0xB86A60 Offset: 0xB85060 VA: 0x180B86A60
 	public void OOCQCCQDOQ(Vector3 v1, Vector3 v2, int connectionElement, ERModularRoad road) { }
 
-	// RVA: 0xB861E0 Offset: 0xB847E0 VA: 0x180B861E0
+	// RVA: 0xB864A0 Offset: 0xB84AA0 VA: 0x180B864A0
 	public void OCQDDQODCC(int el) { }
 
 	// RVA: 0x48BD30 Offset: 0x48A330 VA: 0x18048BD30
 	public void OCDOCCODOC(int elInt, float distance) { }
 
-	// RVA: 0xB84240 Offset: 0xB82840 VA: 0x180B84240
+	// RVA: 0xB84500 Offset: 0xB82B00 VA: 0x180B84500
 	public void DeformTCossingConnection(int elInt, float distance, float defaultDistance, List<Vector3> controlPoints, float multiplyFactor, float angle, Vector3 cpCenterPoint, float curveStrength) { }
 
-	// RVA: 0xB871C0 Offset: 0xB857C0 VA: 0x180B871C0
+	// RVA: 0xB87480 Offset: 0xB85A80 VA: 0x180B87480
 	public void OOODCOOOCQ(List<int> affectedVecs, List<Vector2> tmpVecs) { }
 
-	// RVA: 0xB87A70 Offset: 0xB86070 VA: 0x180B87A70
+	// RVA: 0xB87D30 Offset: 0xB86330 VA: 0x180B87D30
 	public void OQOQDDOCDC(bool ignorePriority, ERModularRoad road) { }
 
-	// RVA: 0xB89220 Offset: 0xB87820 VA: 0x180B89220
+	// RVA: 0xB894E0 Offset: 0xB87AE0 VA: 0x180B894E0
 	public void OQQODODQCQ() { }
 
-	// RVA: 0xB88E60 Offset: 0xB87460 VA: 0x180B88E60
+	// RVA: 0xB89120 Offset: 0xB87720 VA: 0x180B89120
 	public void OQQCDODDQQ(bool forceFlag) { }
 
-	// RVA: 0xB83F40 Offset: 0xB82540 VA: 0x180B83F40
+	// RVA: 0xB84200 Offset: 0xB82800 VA: 0x180B84200
 	public void CheckPlanarUVs() { }
 
-	// RVA: 0xB866D0 Offset: 0xB84CD0 VA: 0x180B866D0
+	// RVA: 0xB86990 Offset: 0xB84F90 VA: 0x180B86990
 	public static bool OOCCOODCOO(List<ERModularRoad> affectedObjects, ERModularRoad roadScr) { }
 
-	// RVA: 0xB85C00 Offset: 0xB84200 VA: 0x180B85C00
+	// RVA: 0xB85EC0 Offset: 0xB844C0 VA: 0x180B85EC0
 	public void OCCDCDDOOQ(bool flag) { }
 
-	// RVA: 0xB87120 Offset: 0xB85720 VA: 0x180B87120
+	// RVA: 0xB873E0 Offset: 0xB859E0 VA: 0x180B873E0
 	public void OODODQQCOD(int el) { }
 
-	// RVA: 0xB852D0 Offset: 0xB838D0 VA: 0x180B852D0
+	// RVA: 0xB85590 Offset: 0xB83B90 VA: 0x180B85590
 	public bool HasConnections() { }
 
-	// RVA: 0xB85010 Offset: 0xB83610 VA: 0x180B85010
+	// RVA: 0xB852D0 Offset: 0xB838D0 VA: 0x180B852D0
 	public bool HasConnectionsFull() { }
 
-	// RVA: 0xB87340 Offset: 0xB85940 VA: 0x180B87340
+	// RVA: 0xB87600 Offset: 0xB85C00 VA: 0x180B87600
 	public void OOQOQQODCD() { }
 
-	// RVA: 0xB85DD0 Offset: 0xB843D0 VA: 0x180B85DD0
+	// RVA: 0xB86090 Offset: 0xB84690 VA: 0x180B86090
 	public void OCODDQDQCC(int el, int startend) { }
 
-	// RVA: 0xB89970 Offset: 0xB87F70 VA: 0x180B89970
+	// RVA: 0xB89C30 Offset: 0xB88230 VA: 0x180B89C30
 	public void PopulateSiblingsList() { }
 
-	// RVA: 0xB853C0 Offset: 0xB839C0 VA: 0x180B853C0
+	// RVA: 0xB85680 Offset: 0xB83C80 VA: 0x180B85680
 	public void InitFlexConnector() { }
 
-	// RVA: 0xB83C70 Offset: 0xB82270 VA: 0x180B83C70
+	// RVA: 0xB83F30 Offset: 0xB82530 VA: 0x180B83F30
 	public void AttachRoadToFlexConnector(ERModularBase scr, float OCCDOQCODC, Vector3 OCCQOCQOQD) { }
 
-	// RVA: 0xB89270 Offset: 0xB87870 VA: 0x180B89270
+	// RVA: 0xB89530 Offset: 0xB87B30 VA: 0x180B89530
 	public void OQQQQOOCDO(int index) { }
 
-	// RVA: 0xB89D00 Offset: 0xB88300 VA: 0x180B89D00
+	// RVA: 0xB89FC0 Offset: 0xB885C0 VA: 0x180B89FC0
 	public void SetElementInfo(int index, int sourceIndex) { }
 
-	// RVA: 0xB863B0 Offset: 0xB849B0 VA: 0x180B863B0
+	// RVA: 0xB86670 Offset: 0xB84C70 VA: 0x180B86670
 	public static void ODDQDDQOOD() { }
 
-	// RVA: 0xB87910 Offset: 0xB85F10 VA: 0x180B87910
+	// RVA: 0xB87BD0 Offset: 0xB861D0 VA: 0x180B87BD0
 	public static bool OQCDCDOOCD(Vector3 pTarget, Vector3 pSource, Vector3 pCheck) { }
 
-	// RVA: 0xB89F10 Offset: 0xB88510 VA: 0x180B89F10
+	// RVA: 0xB8A1D0 Offset: 0xB887D0 VA: 0x180B8A1D0
 	public void .ctor() { }
 
 }

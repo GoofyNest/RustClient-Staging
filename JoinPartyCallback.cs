@@ -18,7 +18,7 @@ internal struct JoinPartyCallback_t : ICallbackData // TypeDefIndex: 5355
 	// RVA: 0x1EAFC0 Offset: 0x1EA3C0 VA: 0x1801EAFC0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1373390 Offset: 0x1371990 VA: 0x181373390
+	// RVA: 0x1373650 Offset: 0x1371C50 VA: 0x181373650
 	private static void .cctor() { }
 
 }

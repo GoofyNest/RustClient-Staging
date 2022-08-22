@@ -7,20 +7,20 @@ public class StagedResourceEntity : ResourceEntity // TypeDefIndex: 8650
 
 	// Methods
 
-	// RVA: 0xA8A830 Offset: 0xA88E30 VA: 0x180A8A830 Slot: 35
+	// RVA: 0xA8AAF0 Offset: 0xA890F0 VA: 0x180A8AAF0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA8A790 Offset: 0xA88D90 VA: 0x180A8A790 Slot: 34
+	// RVA: 0xA8AA50 Offset: 0xA89050 VA: 0x180A8AA50 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xA8AD00 Offset: 0xA89300 VA: 0x180A8AD00
+	// RVA: 0xA8AFC0 Offset: 0xA895C0 VA: 0x180A8AFC0
 	public void RunChangeEffect() { }
 
-	// RVA: 0xA8A770 Offset: 0xA88D70 VA: 0x180A8A770 Slot: 14
+	// RVA: 0xA8AA30 Offset: 0xA89030 VA: 0x180A8AA30 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA8ACB0 Offset: 0xA892B0 VA: 0x180A8ACB0
+	// RVA: 0xA8AF70 Offset: 0xA89570 VA: 0x180A8AF70
 	private void ResourceUpdate(BaseEntity.RPCMessage packet) { }
 
 	// RVA: -1 Offset: -1
@@ -32,10 +32,10 @@ public class StagedResourceEntity : ResourceEntity // TypeDefIndex: 8650
 	|-StagedResourceEntity.GetStageComponent<MeshRenderer>
 	*/
 
-	// RVA: 0xA8AE30 Offset: 0xA89430 VA: 0x180A8AE30
+	// RVA: 0xA8B0F0 Offset: 0xA896F0 VA: 0x180A8B0F0
 	private void UpdateStage() { }
 
-	// RVA: 0xA8B020 Offset: 0xA89620 VA: 0x180A8B020
+	// RVA: 0xA8B2E0 Offset: 0xA898E0 VA: 0x180A8B2E0
 	public void .ctor() { }
 
 }

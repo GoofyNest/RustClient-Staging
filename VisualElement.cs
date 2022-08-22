@@ -82,137 +82,137 @@ public class VisualElement : Focusable, ITransform, IResolvedStyle // TypeDefInd
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB103F0 Offset: 0xB0E9F0 VA: 0x180B103F0
+	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0
 	internal bool get_isCompositeRoot() { }
 
-	// RVA: 0xEC1170 Offset: 0xEBF770 VA: 0x180EC1170 Slot: 12
+	// RVA: 0xEC1430 Offset: 0xEBFA30 VA: 0x180EC1430 Slot: 12
 	public override FocusController get_focusController() { }
 
-	// RVA: 0xEC13A0 Offset: 0xEBF9A0 VA: 0x180EC13A0
+	// RVA: 0xEC1660 Offset: 0xEBFC60 VA: 0x180EC1660
 	public ITransform get_transform() { }
 
-	// RVA: 0xEC0680 Offset: 0xEBEC80 VA: 0x180EC0680 Slot: 14
+	// RVA: 0xEC0940 Offset: 0xEBEF40 VA: 0x180EC0940 Slot: 14
 	private Matrix4x4 UnityEngine.UIElements.ITransform.get_matrix() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC20A70 Offset: 0xC1F070 VA: 0x180C20A70
+	// RVA: 0xC20D30 Offset: 0xC1F330 VA: 0x180C20D30
 	internal bool get_isLayoutManual() { }
 
-	// RVA: 0xEC11E0 Offset: 0xEBF7E0 VA: 0x180EC11E0
+	// RVA: 0xEC14A0 Offset: 0xEBFAA0 VA: 0x180EC14A0
 	public Rect get_layout() { }
 
-	// RVA: 0xEC02B0 Offset: 0xEBE8B0 VA: 0x180EC02B0
+	// RVA: 0xEC0570 Offset: 0xEBEB70 VA: 0x180EC0570
 	internal static Rect TransformAlignedRect(Matrix4x4 lhc, Rect rect) { }
 
-	// RVA: 0xEC00B0 Offset: 0xEBE6B0 VA: 0x180EC00B0
+	// RVA: 0xEC0370 Offset: 0xEBE970 VA: 0x180EC0370
 	internal static Vector2 MultiplyMatrix44Point2(Matrix4x4 lhs, Vector2 point) { }
 
-	// RVA: 0xEC1120 Offset: 0xEBF720 VA: 0x180EC1120
+	// RVA: 0xEC13E0 Offset: 0xEBF9E0 VA: 0x180EC13E0
 	internal Rect get_boundingBox() { }
 
-	// RVA: 0xEC15A0 Offset: 0xEBFBA0 VA: 0x180EC15A0
+	// RVA: 0xEC1860 Offset: 0xEBFE60 VA: 0x180EC1860
 	internal Rect get_worldBoundingBox() { }
 
-	// RVA: 0xEC0790 Offset: 0xEBED90 VA: 0x180EC0790
+	// RVA: 0xEC0A50 Offset: 0xEBF050 VA: 0x180EC0A50
 	internal void UpdateBoundingBox() { }
 
-	// RVA: 0xEC0B70 Offset: 0xEBF170 VA: 0x180EC0B70
+	// RVA: 0xEC0E30 Offset: 0xEBF430 VA: 0x180EC0E30
 	internal void UpdateWorldBoundingBox() { }
 
-	// RVA: 0xEC1410 Offset: 0xEBFA10 VA: 0x180EC1410
+	// RVA: 0xEC16D0 Offset: 0xEBFCD0 VA: 0x180EC16D0
 	public Rect get_worldBound() { }
 
-	// RVA: 0xEC12F0 Offset: 0xEBF8F0 VA: 0x180EC12F0
+	// RVA: 0xEC15B0 Offset: 0xEBFBB0 VA: 0x180EC15B0
 	internal Rect get_rect() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D600 Offset: 0x69BC00 VA: 0x18069D600
+	// RVA: 0x69D710 Offset: 0x69BD10 VA: 0x18069D710
 	internal bool get_isWorldTransformDirty() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D610 Offset: 0x69BC10 VA: 0x18069D610
+	// RVA: 0x69D720 Offset: 0x69BD20 VA: 0x18069D720
 	internal void set_isWorldTransformDirty(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEC11D0 Offset: 0xEBF7D0 VA: 0x180EC11D0
+	// RVA: 0xEC1490 Offset: 0xEBFA90 VA: 0x180EC1490
 	internal bool get_isWorldTransformInverseDirty() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEC1870 Offset: 0xEBFE70 VA: 0x180EC1870
+	// RVA: 0xEC1B30 Offset: 0xEC0130 VA: 0x180EC1B30
 	internal void set_isWorldTransformInverseDirty(bool value) { }
 
-	// RVA: 0xEC1800 Offset: 0xEBFE00 VA: 0x180EC1800
+	// RVA: 0xEC1AC0 Offset: 0xEC00C0 VA: 0x180EC1AC0
 	public Matrix4x4 get_worldTransform() { }
 
-	// RVA: 0xEC1700 Offset: 0xEBFD00 VA: 0x180EC1700
+	// RVA: 0xEC19C0 Offset: 0xEBFFC0 VA: 0x180EC19C0
 	internal Matrix4x4 get_worldTransformInverse() { }
 
-	// RVA: 0xEC0C80 Offset: 0xEBF280 VA: 0x180EC0C80
+	// RVA: 0xEC0F40 Offset: 0xEBF540 VA: 0x180EC0F40
 	private void UpdateWorldTransform() { }
 
-	// RVA: 0xEC12E0 Offset: 0xEBF8E0 VA: 0x180EC12E0
+	// RVA: 0xEC15A0 Offset: 0xEBFBA0 VA: 0x180EC15A0
 	internal PseudoStates get_pseudoStates() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEC12D0 Offset: 0xEBF8D0 VA: 0x180EC12D0
+	// RVA: 0xEC1590 Offset: 0xEBFB90 VA: 0x180EC1590
 	public PickingMode get_pickingMode() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE66340 Offset: 0xE64940 VA: 0x180E66340
+	// RVA: 0xE66600 Offset: 0xE64C00 VA: 0x180E66600
 	internal YogaNode get_yogaNode() { }
 
-	// RVA: 0xEC13B0 Offset: 0xEBF9B0 VA: 0x180EC13B0
+	// RVA: 0xEC1670 Offset: 0xEBFC70 VA: 0x180EC1670
 	internal VisualElementStylesData get_specifiedStyle() { }
 
-	// RVA: 0xEC11C0 Offset: 0xEBF7C0 VA: 0x180EC11C0
+	// RVA: 0xEC1480 Offset: 0xEBFA80 VA: 0x180EC1480
 	internal InheritedStylesData get_inheritedStyle() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x701810 Offset: 0x6FFE10 VA: 0x180701810
+	// RVA: 0x701920 Offset: 0x6FFF20 VA: 0x180701920
 	internal ComputedStyle get_computedStyle() { }
 
-	// RVA: 0xEC01C0 Offset: 0xEBE7C0 VA: 0x180EC01C0 Slot: 6
+	// RVA: 0xEC0480 Offset: 0xEBEA80 VA: 0x180EC0480 Slot: 6
 	public sealed override void SendEvent(EventBase e) { }
 
-	// RVA: 0xEC0080 Offset: 0xEBE680 VA: 0x180EC0080
+	// RVA: 0xEC0340 Offset: 0xEBE940 VA: 0x180EC0340
 	internal void IncrementVersion(VersionChangeType changeType) { }
 
-	// RVA: 0xEC1160 Offset: 0xEBF760 VA: 0x180EC1160
+	// RVA: 0xEC1420 Offset: 0xEBFA20 VA: 0x180EC1420
 	public bool get_enabledInHierarchy() { }
 
-	// RVA: 0xEC13C0 Offset: 0xEBF9C0 VA: 0x180EC13C0
+	// RVA: 0xEC1680 Offset: 0xEBFC80 VA: 0x180EC1680
 	public bool get_visible() { }
 
-	// RVA: 0xEBFFB0 Offset: 0xEBE5B0 VA: 0x180EBFFB0 Slot: 17
+	// RVA: 0xEC0270 Offset: 0xEBE870 VA: 0x180EC0270 Slot: 17
 	public virtual bool ContainsPoint(Vector2 localPoint) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD618A0 Offset: 0xD5FEA0 VA: 0x180D618A0
+	// RVA: 0xD61B60 Offset: 0xD60160 VA: 0x180D61B60
 	public VisualElement.Hierarchy get_hierarchy() { }
 
-	// RVA: 0xEC01E0 Offset: 0xEBE7E0 VA: 0x180EC01E0
+	// RVA: 0xEC04A0 Offset: 0xEBEAA0 VA: 0x180EC04A0
 	internal bool ShouldClip() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC83160 Offset: 0xC81760 VA: 0x180C83160
+	// RVA: 0xC83420 Offset: 0xC81A20 VA: 0x180C83420
 	internal BaseVisualElementPanel get_elementPanel() { }
 
-	// RVA: 0xEC12C0 Offset: 0xEBF8C0 VA: 0x180EC12C0
+	// RVA: 0xEC1580 Offset: 0xEBFB80 VA: 0x180EC1580
 	public IPanel get_panel() { }
 
-	// RVA: 0xEC0120 Offset: 0xEBE720 VA: 0x180EC0120
+	// RVA: 0xEC03E0 Offset: 0xEBE9E0 VA: 0x180EC03E0
 	internal VisualElement RetargetElement(VisualElement retargetAgainst) { }
 
-	// RVA: 0xEC13A0 Offset: 0xEBF9A0 VA: 0x180EC13A0
+	// RVA: 0xEC1660 Offset: 0xEBFC60 VA: 0x180EC1660
 	public IResolvedStyle get_resolvedStyle() { }
 
-	// RVA: 0xEC0580 Offset: 0xEBEB80 VA: 0x180EC0580 Slot: 15
+	// RVA: 0xEC0840 Offset: 0xEBEE40 VA: 0x180EC0840 Slot: 15
 	private Visibility UnityEngine.UIElements.IResolvedStyle.get_visibility() { }
 
-	// RVA: 0xEC04B0 Offset: 0xEBEAB0 VA: 0x180EC04B0 Slot: 16
+	// RVA: 0xEC0770 Offset: 0xEBED70 VA: 0x180EC0770 Slot: 16
 	private DisplayStyle UnityEngine.UIElements.IResolvedStyle.get_display() { }
 
-	// RVA: 0xEC0FE0 Offset: 0xEBF5E0 VA: 0x180EC0FE0
+	// RVA: 0xEC12A0 Offset: 0xEBF8A0 VA: 0x180EC12A0
 	private static void .cctor() { }
 
 }
@@ -246,7 +246,7 @@ public struct VisualElement.Hierarchy // TypeDefIndex: 4614
 	// RVA: 0x139ED0 Offset: 0x1392D0 VA: 0x180139ED0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x22F5E90 Offset: 0x22F4490 VA: 0x1822F5E90
+	// RVA: 0x22F6150 Offset: 0x22F4750 VA: 0x1822F6150
 	public static bool op_Equality(VisualElement.Hierarchy x, VisualElement.Hierarchy y) { }
 
 }

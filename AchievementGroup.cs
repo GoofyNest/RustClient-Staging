@@ -9,13 +9,13 @@ public class AchievementGroup // TypeDefIndex: 10819
 
 	// Methods
 
-	// RVA: 0xA98C20 Offset: 0xA97220 VA: 0x180A98C20
+	// RVA: 0xA98EE0 Offset: 0xA974E0 VA: 0x180A98EE0
 	public void .ctor(string token = "", string english = "") { }
 
-	// RVA: 0xA98CF0 Offset: 0xA972F0 VA: 0x180A98CF0
+	// RVA: 0xA98FB0 Offset: 0xA975B0 VA: 0x180A98FB0
 	public bool get_Unlocked() { }
 
-	// RVA: 0xA96A70 Offset: 0xA95070 VA: 0x180A96A70
+	// RVA: 0xA96D30 Offset: 0xA95330 VA: 0x180A96D30
 	private static void .cctor() { }
 
 }
@@ -31,13 +31,13 @@ public class AchievementGroup.AchievementItem // TypeDefIndex: 10820
 
 	// Methods
 
-	// RVA: 0xA98EB0 Offset: 0xA974B0 VA: 0x180A98EB0
+	// RVA: 0xA99170 Offset: 0xA97770 VA: 0x180A99170
 	public IAchievement get_Achievement() { }
 
-	// RVA: 0xA98DF0 Offset: 0xA973F0 VA: 0x180A98DF0
+	// RVA: 0xA990B0 Offset: 0xA976B0 VA: 0x180A990B0
 	public void .ctor(string name, string phrase) { }
 
-	// RVA: 0xA98FA0 Offset: 0xA975A0 VA: 0x180A98FA0
+	// RVA: 0xA99260 Offset: 0xA97860 VA: 0x180A99260
 	public bool get_Unlocked() { }
 
 }
@@ -49,13 +49,13 @@ private sealed class AchievementGroup.<>c // TypeDefIndex: 10821
 
 	// Methods
 
-	// RVA: 0xAAB710 Offset: 0xAA9D10 VA: 0x180AAB710
+	// RVA: 0xAAB9D0 Offset: 0xAA9FD0 VA: 0x180AAB9D0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xAAB470 Offset: 0xAA9A70 VA: 0x180AAB470
+	// RVA: 0xAAB730 Offset: 0xAA9D30 VA: 0x180AAB730
 	internal bool <get_Unlocked>b__6_0(AchievementGroup.AchievementItem x) { }
 
 }

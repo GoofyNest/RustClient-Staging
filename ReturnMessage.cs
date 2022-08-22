@@ -32,10 +32,10 @@ public class ReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage, IIn
 
 	// Methods
 
-	// RVA: 0x148C820 Offset: 0x148AE20 VA: 0x18148C820
+	// RVA: 0x148CAE0 Offset: 0x148B0E0 VA: 0x18148CAE0
 	public void .ctor(object ret, object[] outArgs, int outArgsCount, LogicalCallContext callCtx, IMethodCallMessage mcm) { }
 
-	// RVA: 0x148C750 Offset: 0x148AD50 VA: 0x18148C750
+	// RVA: 0x148CA10 Offset: 0x148B010 VA: 0x18148CA10
 	public void .ctor(Exception e, IMethodCallMessage mcm) { }
 
 	// RVA: 0x517840 Offset: 0x515E40 VA: 0x180517840 Slot: 7
@@ -44,22 +44,22 @@ public class ReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage, IIn
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 8
 	public object[] get_Args() { }
 
-	// RVA: 0x148C920 Offset: 0x148AF20 VA: 0x18148C920 Slot: 9
+	// RVA: 0x148CBE0 Offset: 0x148B1E0 VA: 0x18148CBE0 Slot: 9
 	public LogicalCallContext get_LogicalCallContext() { }
 
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0 Slot: 10
 	public MethodBase get_MethodBase() { }
 
-	// RVA: 0x148C990 Offset: 0x148AF90 VA: 0x18148C990 Slot: 11
+	// RVA: 0x148CC50 Offset: 0x148B250 VA: 0x18148CC50 Slot: 11
 	public string get_MethodName() { }
 
-	// RVA: 0x148CA00 Offset: 0x148B000 VA: 0x18148CA00 Slot: 12
+	// RVA: 0x148CCC0 Offset: 0x148B2C0 VA: 0x18148CCC0 Slot: 12
 	public object get_MethodSignature() { }
 
-	// RVA: 0x148CC70 Offset: 0x148B270 VA: 0x18148CC70 Slot: 21
+	// RVA: 0x148CF30 Offset: 0x148B530 VA: 0x18148CF30 Slot: 21
 	public virtual IDictionary get_Properties() { }
 
-	// RVA: 0x148CCF0 Offset: 0x148B2F0 VA: 0x18148CCF0 Slot: 13
+	// RVA: 0x148CFB0 Offset: 0x148B5B0 VA: 0x18148CFB0 Slot: 13
 	public string get_TypeName() { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050 Slot: 14
@@ -74,16 +74,16 @@ public class ReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage, IIn
 	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080 Slot: 20
 	private void System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri(string value) { }
 
-	// RVA: 0x1275410 Offset: 0x1273A10 VA: 0x181275410 Slot: 15
+	// RVA: 0x12756D0 Offset: 0x1273CD0 VA: 0x1812756D0 Slot: 15
 	public object GetArg(int argNum) { }
 
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0 Slot: 4
 	public Exception get_Exception() { }
 
-	// RVA: 0x148CB90 Offset: 0x148B190 VA: 0x18148CB90 Slot: 5
+	// RVA: 0x148CE50 Offset: 0x148B450 VA: 0x18148CE50 Slot: 5
 	public object[] get_OutArgs() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330 Slot: 22
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 22
 	public virtual object get_ReturnValue() { }
 
 	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50 Slot: 17

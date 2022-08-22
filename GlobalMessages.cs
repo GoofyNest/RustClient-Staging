@@ -17,31 +17,31 @@ public class GlobalMessages // TypeDefIndex: 11377
 
 	// Methods
 
-	// RVA: 0xCA11E0 Offset: 0xC9F7E0 VA: 0x180CA11E0
+	// RVA: 0xCA14A0 Offset: 0xC9FAA0 VA: 0x180CA14A0
 	public static void OnInventoryChanged() { }
 
-	// RVA: 0xCA18A0 Offset: 0xC9FEA0 VA: 0x180CA18A0
+	// RVA: 0xCA1B60 Offset: 0xCA0160 VA: 0x180CA1B60
 	public static void OnViewModeChanged() { }
 
-	// RVA: 0xCA0FA0 Offset: 0xC9F5A0 VA: 0x180CA0FA0
+	// RVA: 0xCA1260 Offset: 0xC9F860 VA: 0x180CA1260
 	public static void OnClothingChanged() { }
 
-	// RVA: 0xCA1AE0 Offset: 0xCA00E0 VA: 0x180CA1AE0
+	// RVA: 0xCA1DA0 Offset: 0xCA03A0 VA: 0x180CA1DA0
 	public static void OnViewModelUpdated() { }
 
-	// RVA: 0xCA0D60 Offset: 0xC9F360 VA: 0x180CA0D60
+	// RVA: 0xCA1020 Offset: 0xC9F620 VA: 0x180CA1020
 	public static void OnBlueprintsChanged() { }
 
-	// RVA: 0xCA1420 Offset: 0xC9FA20 VA: 0x180CA1420
+	// RVA: 0xCA16E0 Offset: 0xC9FCE0 VA: 0x180CA16E0
 	public static void OnItemAmountChanged() { }
 
-	// RVA: 0xCA1660 Offset: 0xC9FC60 VA: 0x180CA1660
+	// RVA: 0xCA1920 Offset: 0xC9FF20 VA: 0x180CA1920
 	public static void OnItemIconChanged() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xCA1D20 Offset: 0xCA0320 VA: 0x180CA1D20
+	// RVA: 0xCA1FE0 Offset: 0xCA05E0 VA: 0x180CA1FE0
 	private static void .cctor() { }
 
 }

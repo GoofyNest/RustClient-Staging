@@ -4,7 +4,7 @@ public class LabelAttribute : Attribute // TypeDefIndex: 7054
 
 	// Methods
 
-	// RVA: 0xFC2700 Offset: 0xFC0D00 VA: 0x180FC2700
+	// RVA: 0xFC29C0 Offset: 0xFC0FC0 VA: 0x180FC29C0
 	public void .ctor(string token, string english) { }
 
 }

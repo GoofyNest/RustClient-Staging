@@ -12,49 +12,49 @@ public class AddSellOrderManager : MonoBehaviour // TypeDefIndex: 8726
 
 	// Methods
 
-	// RVA: 0xA9E000 Offset: 0xA9C600 VA: 0x180A9E000
+	// RVA: 0xA9E2C0 Offset: 0xA9C8C0 VA: 0x180A9E2C0
 	public void ItemSelectionMade(ItemDefinition info, bool asBP) { }
 
-	// RVA: 0xA9E590 Offset: 0xA9CB90 VA: 0x180A9E590
+	// RVA: 0xA9E850 Offset: 0xA9CE50 VA: 0x180A9E850
 	public void Search(string search) { }
 
-	// RVA: 0xA9DE60 Offset: 0xA9C460 VA: 0x180A9DE60
+	// RVA: 0xA9E120 Offset: 0xA9C720 VA: 0x180A9E120
 	private bool IsValidSearchResult(string search, ItemDefinition target) { }
 
-	// RVA: 0xA9E300 Offset: 0xA9C900 VA: 0x180A9E300
+	// RVA: 0xA9E5C0 Offset: 0xA9CBC0 VA: 0x180A9E5C0
 	private float ScoreSearchResult(string search, ItemDefinition target) { }
 
-	// RVA: 0xA9E1F0 Offset: 0xA9C7F0 VA: 0x180A9E1F0
+	// RVA: 0xA9E4B0 Offset: 0xA9CAB0 VA: 0x180A9E4B0
 	public void OnSellSearchChanged() { }
 
-	// RVA: 0xA9E160 Offset: 0xA9C760 VA: 0x180A9E160
+	// RVA: 0xA9E420 Offset: 0xA9CA20 VA: 0x180A9E420
 	public void OnCurrencySearchChanged() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void OnSellSearchComplete() { }
 
-	// RVA: 0xA9D8A0 Offset: 0xA9BEA0 VA: 0x180A9D8A0
+	// RVA: 0xA9DB60 Offset: 0xA9C160 VA: 0x180A9DB60
 	public void AddSellOrder() { }
 
-	// RVA: 0xA9E280 Offset: 0xA9C880 VA: 0x180A9E280
+	// RVA: 0xA9E540 Offset: 0xA9CB40 VA: 0x180A9E540
 	public void ResetSellOrderObjects() { }
 
-	// RVA: 0xA9E150 Offset: 0xA9C750 VA: 0x180A9E150
+	// RVA: 0xA9E410 Offset: 0xA9CA10 VA: 0x180A9E410
 	public void OnAmountTextChanged() { }
 
-	// RVA: 0xA9DB30 Offset: 0xA9C130 VA: 0x180A9DB30
+	// RVA: 0xA9DDF0 Offset: 0xA9C3F0 VA: 0x180A9DDF0
 	public void ClampAmountValues() { }
 
-	// RVA: 0xA9DCD0 Offset: 0xA9C2D0 VA: 0x180A9DCD0
+	// RVA: 0xA9DF90 Offset: 0xA9C590 VA: 0x180A9DF90
 	public int ClampedAmountValue(string amount, ItemDefinition itemDef, bool limitToStackable = True) { }
 
-	// RVA: 0xA9DE30 Offset: 0xA9C430 VA: 0x180A9DE30
+	// RVA: 0xA9E0F0 Offset: 0xA9C6F0 VA: 0x180A9E0F0
 	public int GetIntAmount(string text) { }
 
-	// RVA: 0xA9DDB0 Offset: 0xA9C3B0 VA: 0x180A9DDB0
+	// RVA: 0xA9E070 Offset: 0xA9C670 VA: 0x180A9E070
 	public void CurrencyPlusMinus(int delta) { }
 
-	// RVA: 0xA9E920 Offset: 0xA9CF20 VA: 0x180A9E920
+	// RVA: 0xA9EBE0 Offset: 0xA9D1E0 VA: 0x180A9EBE0
 	public void SellItemPlusMinus(int delta) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -72,10 +72,10 @@ private sealed class AddSellOrderManager.<>c__DisplayClass10_0 // TypeDefIndex: 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xAAB4D0 Offset: 0xAA9AD0 VA: 0x180AAB4D0
+	// RVA: 0xAAB790 Offset: 0xAA9D90 VA: 0x180AAB790
 	internal bool <Search>b__0(ItemDefinition x) { }
 
-	// RVA: 0xAAB680 Offset: 0xAA9C80 VA: 0x180AAB680
+	// RVA: 0xAAB940 Offset: 0xAA9F40 VA: 0x180AAB940
 	internal float <Search>b__1(ItemDefinition y) { }
 
 }

@@ -6,95 +6,95 @@ public sealed class UTF32Encoding : Encoding // TypeDefIndex: 467
 
 	// Methods
 
-	// RVA: 0x1927220 Offset: 0x1925820 VA: 0x181927220
+	// RVA: 0x19274E0 Offset: 0x1925AE0 VA: 0x1819274E0
 	public void .ctor() { }
 
-	// RVA: 0x1927150 Offset: 0x1925750 VA: 0x181927150
+	// RVA: 0x1927410 Offset: 0x1925A10 VA: 0x181927410
 	public void .ctor(bool bigEndian, bool byteOrderMark) { }
 
-	// RVA: 0x19271A0 Offset: 0x19257A0 VA: 0x1819271A0
+	// RVA: 0x1927460 Offset: 0x1925A60 VA: 0x181927460
 	public void .ctor(bool bigEndian, bool byteOrderMark, bool throwOnInvalidCharacters) { }
 
-	// RVA: 0x1927080 Offset: 0x1925680 VA: 0x181927080 Slot: 5
+	// RVA: 0x1927340 Offset: 0x1925940 VA: 0x181927340 Slot: 5
 	internal override void SetDefaultFallbacks() { }
 
-	// RVA: 0x19247F0 Offset: 0x1922DF0 VA: 0x1819247F0 Slot: 19
+	// RVA: 0x1924AB0 Offset: 0x19230B0 VA: 0x181924AB0 Slot: 19
 	public override int GetByteCount(char[] chars, int index, int count) { }
 
-	// RVA: 0x1924E20 Offset: 0x1923420 VA: 0x181924E20 Slot: 18
+	// RVA: 0x19250E0 Offset: 0x19236E0 VA: 0x1819250E0 Slot: 18
 	public override int GetByteCount(string s) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1924980 Offset: 0x1922F80 VA: 0x181924980 Slot: 20
+	// RVA: 0x1924C40 Offset: 0x1923240 VA: 0x181924C40 Slot: 20
 	public override int GetByteCount(char* chars, int count) { }
 
-	// RVA: 0x19257A0 Offset: 0x1923DA0 VA: 0x1819257A0 Slot: 26
+	// RVA: 0x1925A60 Offset: 0x1924060 VA: 0x181925A60 Slot: 26
 	public override int GetBytes(string s, int charIndex, int charCount, byte[] bytes, int byteIndex) { }
 
-	// RVA: 0x1925540 Offset: 0x1923B40 VA: 0x181925540 Slot: 24
+	// RVA: 0x1925800 Offset: 0x1923E00 VA: 0x181925800 Slot: 24
 	public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1924EC0 Offset: 0x19234C0 VA: 0x181924EC0 Slot: 28
+	// RVA: 0x1925180 Offset: 0x1923780 VA: 0x181925180 Slot: 28
 	public override int GetBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
-	// RVA: 0x1925B00 Offset: 0x1924100 VA: 0x181925B00 Slot: 29
+	// RVA: 0x1925DC0 Offset: 0x19243C0 VA: 0x181925DC0 Slot: 29
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1925A00 Offset: 0x1924000 VA: 0x181925A00 Slot: 30
+	// RVA: 0x1925CC0 Offset: 0x19242C0 VA: 0x181925CC0 Slot: 30
 	public override int GetCharCount(byte* bytes, int count) { }
 
-	// RVA: 0x1926640 Offset: 0x1924C40 VA: 0x181926640 Slot: 33
+	// RVA: 0x1926900 Offset: 0x1924F00 VA: 0x181926900 Slot: 33
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x19268A0 Offset: 0x1924EA0 VA: 0x1819268A0 Slot: 34
+	// RVA: 0x1926B60 Offset: 0x1925160 VA: 0x181926B60 Slot: 34
 	public override int GetChars(byte* bytes, int byteCount, char* chars, int charCount) { }
 
-	// RVA: 0x1926ED0 Offset: 0x19254D0 VA: 0x181926ED0 Slot: 43
+	// RVA: 0x1927190 Offset: 0x1925790 VA: 0x181927190 Slot: 43
 	public override string GetString(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x1924A80 Offset: 0x1923080 VA: 0x181924A80 Slot: 21
+	// RVA: 0x1924D40 Offset: 0x1923340 VA: 0x181924D40 Slot: 21
 	internal override int GetByteCount(char* chars, int count, EncoderNLS encoder) { }
 
-	// RVA: 0x1925000 Offset: 0x1923600 VA: 0x181925000 Slot: 27
+	// RVA: 0x19252C0 Offset: 0x19238C0 VA: 0x1819252C0 Slot: 27
 	internal override int GetBytes(char* chars, int charCount, byte* bytes, int byteCount, EncoderNLS encoder) { }
 
-	// RVA: 0x1925C90 Offset: 0x1924290 VA: 0x181925C90 Slot: 31
+	// RVA: 0x1925F50 Offset: 0x1924550 VA: 0x181925F50 Slot: 31
 	internal override int GetCharCount(byte* bytes, int count, DecoderNLS baseDecoder) { }
 
-	// RVA: 0x1926080 Offset: 0x1924680 VA: 0x181926080 Slot: 35
+	// RVA: 0x1926340 Offset: 0x1924940 VA: 0x181926340 Slot: 35
 	internal override int GetChars(byte* bytes, int byteCount, char* chars, int charCount, DecoderNLS baseDecoder) { }
 
-	// RVA: 0x1927060 Offset: 0x1925660 VA: 0x181927060
+	// RVA: 0x1927320 Offset: 0x1925920 VA: 0x181927320
 	private uint GetSurrogate(char cHigh, char cLow) { }
 
-	// RVA: 0x1926B80 Offset: 0x1925180 VA: 0x181926B80
+	// RVA: 0x1926E40 Offset: 0x1925440 VA: 0x181926E40
 	private char GetHighSurrogate(uint iChar) { }
 
-	// RVA: 0x1926BA0 Offset: 0x19251A0 VA: 0x181926BA0
+	// RVA: 0x1926E60 Offset: 0x1925460 VA: 0x181926E60
 	private char GetLowSurrogate(uint iChar) { }
 
-	// RVA: 0x19269E0 Offset: 0x1924FE0 VA: 0x1819269E0 Slot: 38
+	// RVA: 0x1926CA0 Offset: 0x19252A0 VA: 0x181926CA0 Slot: 38
 	public override Decoder GetDecoder() { }
 
-	// RVA: 0x1926A40 Offset: 0x1925040 VA: 0x181926A40 Slot: 39
+	// RVA: 0x1926D00 Offset: 0x1925300 VA: 0x181926D00 Slot: 39
 	public override Encoder GetEncoder() { }
 
-	// RVA: 0x1926BC0 Offset: 0x19251C0 VA: 0x181926BC0 Slot: 40
+	// RVA: 0x1926E80 Offset: 0x1925480 VA: 0x181926E80 Slot: 40
 	public override int GetMaxByteCount(int charCount) { }
 
-	// RVA: 0x1926CF0 Offset: 0x19252F0 VA: 0x181926CF0 Slot: 41
+	// RVA: 0x1926FB0 Offset: 0x19255B0 VA: 0x181926FB0 Slot: 41
 	public override int GetMaxCharCount(int byteCount) { }
 
-	// RVA: 0x1926DC0 Offset: 0x19253C0 VA: 0x181926DC0 Slot: 6
+	// RVA: 0x1927080 Offset: 0x1925680 VA: 0x181927080 Slot: 6
 	public override byte[] GetPreamble() { }
 
-	// RVA: 0x1924720 Offset: 0x1922D20 VA: 0x181924720 Slot: 0
+	// RVA: 0x19249E0 Offset: 0x1922FE0 VA: 0x1819249E0 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x1926AE0 Offset: 0x19250E0 VA: 0x181926AE0 Slot: 2
+	// RVA: 0x1926DA0 Offset: 0x19253A0 VA: 0x181926DA0 Slot: 2
 	public override int GetHashCode() { }
 
 }
@@ -109,13 +109,13 @@ internal class UTF32Encoding.UTF32Decoder : DecoderNLS // TypeDefIndex: 468
 
 	// Methods
 
-	// RVA: 0x14A4BE0 Offset: 0x14A31E0 VA: 0x1814A4BE0
+	// RVA: 0x14A4EA0 Offset: 0x14A34A0 VA: 0x1814A4EA0
 	public void .ctor(UTF32Encoding encoding) { }
 
-	// RVA: 0x19246F0 Offset: 0x1922CF0 VA: 0x1819246F0 Slot: 4
+	// RVA: 0x19249B0 Offset: 0x1922FB0 VA: 0x1819249B0 Slot: 4
 	public override void Reset() { }
 
-	// RVA: 0x178C6A0 Offset: 0x178ACA0 VA: 0x18178C6A0 Slot: 14
+	// RVA: 0x178C960 Offset: 0x178AF60 VA: 0x18178C960 Slot: 14
 	internal override bool get_HasState() { }
 
 }

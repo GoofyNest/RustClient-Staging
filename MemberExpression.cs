@@ -13,7 +13,7 @@ public class MemberExpression : Expression // TypeDefIndex: 3247
 
 	// Methods
 
-	// RVA: 0x95F830 Offset: 0x95DE30 VA: 0x18095F830
+	// RVA: 0x95F940 Offset: 0x95DF40 VA: 0x18095F940
 	public MemberInfo get_Member() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -21,7 +21,7 @@ public class MemberExpression : Expression // TypeDefIndex: 3247
 	public Expression get_Expression() { }
 
 	[ExcludeFromCodeCoverageAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x222A870 Offset: 0x2228E70 VA: 0x18222A870 Slot: 5
+	// RVA: 0x222AB30 Offset: 0x2229130 VA: 0x18222AB30 Slot: 5
 	internal virtual MemberInfo GetMember() { }
 
 }

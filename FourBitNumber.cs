@@ -10,10 +10,10 @@ public struct FourBitNumber : IComparable<FourBitNumber>, IConvertible // TypeDe
 	// RVA: 0x1EE500 Offset: 0x1ED900 VA: 0x1801EE500
 	public void .ctor(byte value) { }
 
-	// RVA: 0x125C5B0 Offset: 0x125ABB0 VA: 0x18125C5B0
+	// RVA: 0x125C870 Offset: 0x125AE70 VA: 0x18125C870
 	public static byte op_Implicit(FourBitNumber number) { }
 
-	// RVA: 0x1398C60 Offset: 0x1397260 VA: 0x181398C60
+	// RVA: 0x1398F20 Offset: 0x1397520 VA: 0x181398F20
 	public static FourBitNumber op_Explicit(byte number) { }
 
 	// RVA: 0x1EDB30 Offset: 0x1ECF30 VA: 0x1801EDB30 Slot: 4
@@ -79,7 +79,7 @@ public struct FourBitNumber : IComparable<FourBitNumber>, IConvertible // TypeDe
 	// RVA: 0x1EDBE0 Offset: 0x1ECFE0 VA: 0x1801EDBE0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1398AC0 Offset: 0x13970C0 VA: 0x181398AC0
+	// RVA: 0x1398D80 Offset: 0x1397380 VA: 0x181398D80
 	private static void .cctor() { }
 
 }
@@ -90,13 +90,13 @@ private sealed class FourBitNumber.<>c // TypeDefIndex: 7624
 
 	// Methods
 
-	// RVA: 0x13AAB30 Offset: 0x13A9130 VA: 0x1813AAB30
+	// RVA: 0x13AADF0 Offset: 0x13A93F0 VA: 0x1813AADF0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13AA530 Offset: 0x13A8B30 VA: 0x1813AA530
+	// RVA: 0x13AA7F0 Offset: 0x13A8DF0 VA: 0x1813AA7F0
 	internal FourBitNumber <.cctor>b__33_0(int value) { }
 
 }

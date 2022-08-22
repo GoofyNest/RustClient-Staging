@@ -8,22 +8,22 @@ public static class RaycastCommandBufferSystem // TypeDefIndex: 8880
 
 	// Methods
 
-	// RVA: 0x6A9440 Offset: 0x6A7A40 VA: 0x1806A9440
+	// RVA: 0x6A9550 Offset: 0x6A7B50 VA: 0x1806A9550
 	private static void SetupCommandBuffer() { }
 
-	// RVA: 0x6A8B90 Offset: 0x6A7190 VA: 0x1806A8B90
+	// RVA: 0x6A8CA0 Offset: 0x6A72A0 VA: 0x1806A8CA0
 	public static bool RunRaycast(Renderer renderer, Ray r, out Vector3 hitPos) { }
 
-	// RVA: 0x6A95A0 Offset: 0x6A7BA0 VA: 0x1806A95A0
+	// RVA: 0x6A96B0 Offset: 0x6A7CB0 VA: 0x1806A96B0
 	private static Matrix4x4 ViewMatrix(Vector3 position, Quaternion rotation) { }
 
-	// RVA: 0x6A8AB0 Offset: 0x6A70B0 VA: 0x1806A8AB0
+	// RVA: 0x6A8BC0 Offset: 0x6A71C0 VA: 0x1806A8BC0
 	private static Matrix4x4 ProjMatrix(float orthographicSize, float nearClipPlane, float farClipPlane) { }
 
-	// RVA: 0x6A89B0 Offset: 0x6A6FB0 VA: 0x1806A89B0
+	// RVA: 0x6A8AC0 Offset: 0x6A70C0 VA: 0x1806A8AC0
 	public static void Cleanup() { }
 
-	// RVA: 0x6A9980 Offset: 0x6A7F80 VA: 0x1806A9980
+	// RVA: 0x6A9A90 Offset: 0x6A8090 VA: 0x1806A9A90
 	private static void .cctor() { }
 
 }

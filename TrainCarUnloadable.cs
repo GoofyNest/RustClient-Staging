@@ -37,85 +37,85 @@ public class TrainCarUnloadable : TrainCar // TypeDefIndex: 8470
 
 	// Methods
 
-	// RVA: 0xA0CBC0 Offset: 0xA0B1C0 VA: 0x180A0CBC0 Slot: 49
+	// RVA: 0xA0CE80 Offset: 0xA0B480 VA: 0x180A0CE80 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xA0E560 Offset: 0xA0CB60 VA: 0x180A0E560 Slot: 50
+	// RVA: 0xA0E820 Offset: 0xA0CE20 VA: 0x180A0E820 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xA0D350 Offset: 0xA0B950 VA: 0x180A0D350 Slot: 35
+	// RVA: 0xA0D610 Offset: 0xA0BC10 VA: 0x180A0D610 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA0D1D0 Offset: 0xA0B7D0 VA: 0x180A0D1D0 Slot: 80
+	// RVA: 0xA0D490 Offset: 0xA0BA90 VA: 0x180A0D490 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0xA0D0E0 Offset: 0xA0B6E0 VA: 0x180A0D0E0 Slot: 22
+	// RVA: 0xA0D3A0 Offset: 0xA0B9A0 VA: 0x180A0D3A0 Slot: 22
 	protected override void OnChildAdded(BaseEntity child) { }
 
-	// RVA: 0xA0CF40 Offset: 0xA0B540 VA: 0x180A0CF40 Slot: 34
+	// RVA: 0xA0D200 Offset: 0xA0B800 VA: 0x180A0D200 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xA0CF00 Offset: 0xA0B500 VA: 0x180A0CF00
+	// RVA: 0xA0D1C0 Offset: 0xA0B7C0 VA: 0x180A0D1C0
 	public bool IsEmpty() { }
 
-	// RVA: 0xA0E320 Offset: 0xA0C920 VA: 0x180A0E320
+	// RVA: 0xA0E5E0 Offset: 0xA0CBE0 VA: 0x180A0E5E0
 	public bool TryGetLootType(out TrainWagonLootData.LootOption lootOption) { }
 
-	// RVA: 0xA0C840 Offset: 0xA0AE40 VA: 0x180A0C840 Slot: 120
+	// RVA: 0xA0CB00 Offset: 0xA0B100 VA: 0x180A0CB00 Slot: 120
 	public override bool CanBeLooted(BasePlayer player) { }
 
-	// RVA: 0xA0CAC0 Offset: 0xA0B0C0 VA: 0x180A0CAC0
+	// RVA: 0xA0CD80 Offset: 0xA0B380 VA: 0x180A0CD80
 	public int GetFilledLootAmount() { }
 
-	// RVA: 0xA0E180 Offset: 0xA0C780 VA: 0x180A0E180
+	// RVA: 0xA0E440 Offset: 0xA0CA40 VA: 0x180A0E440
 	public void SetVisualOreLevel(float percent) { }
 
-	// RVA: 0xA0C740 Offset: 0xA0AD40 VA: 0x180A0C740
+	// RVA: 0xA0CA00 Offset: 0xA0B000 VA: 0x180A0CA00
 	private void AnimateUnload(float startPercent) { }
 
-	// RVA: 0xA0E390 Offset: 0xA0C990 VA: 0x180A0E390
+	// RVA: 0xA0E650 Offset: 0xA0CC50 VA: 0x180A0E650
 	private void UnloadAnimTick() { }
 
-	// RVA: 0xA0C9F0 Offset: 0xA0AFF0 VA: 0x180A0C9F0
+	// RVA: 0xA0CCB0 Offset: 0xA0B2B0 VA: 0x180A0CCB0
 	private void EndUnloadAnim() { }
 
-	// RVA: 0xA0CED0 Offset: 0xA0B4D0 VA: 0x180A0CED0
+	// RVA: 0xA0D190 Offset: 0xA0B790 VA: 0x180A0D190
 	public float GetOrePercent() { }
 
-	// RVA: 0xA0C890 Offset: 0xA0AE90 VA: 0x180A0C890 Slot: 14
+	// RVA: 0xA0CB50 Offset: 0xA0B150 VA: 0x180A0CB50 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xA0C960 Offset: 0xA0AF60 VA: 0x180A0C960 Slot: 13
+	// RVA: 0xA0CC20 Offset: 0xA0B220 VA: 0x180A0CC20 Slot: 13
 	public override void ClientOnEnable() { }
 
-	// RVA: 0xA0DF30 Offset: 0xA0C530 VA: 0x180A0DF30
+	// RVA: 0xA0E1F0 Offset: 0xA0C7F0 VA: 0x180A0E1F0
 	private void SetOreMat() { }
 
-	// RVA: 0xA0DD50 Offset: 0xA0C350 VA: 0x180A0DD50
+	// RVA: 0xA0E010 Offset: 0xA0C610 VA: 0x180A0E010
 	private void SetClientOrePercent(float percent) { }
 
 	[BaseEntity.Menu] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
 	[BaseEntity.Menu.Description] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
 	[BaseEntity.Menu.Icon] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
-	// RVA: 0xA0D0A0 Offset: 0xA0B6A0 VA: 0x180A0D0A0
+	// RVA: 0xA0D360 Offset: 0xA0B960 VA: 0x180A0D360
 	public void Menu_Open(BasePlayer player) { }
 
-	// RVA: 0xA0CFD0 Offset: 0xA0B5D0 VA: 0x180A0CFD0
+	// RVA: 0xA0D290 Offset: 0xA0B890 VA: 0x180A0D290
 	public bool Menu_Open_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA0DBC0 Offset: 0xA0C1C0 VA: 0x180A0DBC0
+	// RVA: 0xA0DE80 Offset: 0xA0C480 VA: 0x180A0DE80
 	private void RPC_AnimateUnload(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA0DCF0 Offset: 0xA0C2F0 VA: 0x180A0DCF0
+	// RVA: 0xA0DFB0 Offset: 0xA0C5B0 VA: 0x180A0DFB0
 	private void RPC_StopAnimateUnload(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0xA0E450 Offset: 0xA0CA50 VA: 0x180A0E450
+	// RVA: 0xA0E710 Offset: 0xA0CD10 VA: 0x180A0E710
 	public void .ctor() { }
 
-	// RVA: 0xA0E410 Offset: 0xA0CA10 VA: 0x180A0E410
+	// RVA: 0xA0E6D0 Offset: 0xA0CCD0 VA: 0x180A0E6D0
 	private static void .cctor() { }
 
 }

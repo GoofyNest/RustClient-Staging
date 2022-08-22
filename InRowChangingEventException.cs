@@ -1,13 +1,13 @@
 public class InRowChangingEventException : DataException // TypeDefIndex: 4195
 {	// Methods
 
-	// RVA: 0xE884A0 Offset: 0xE86AA0 VA: 0x180E884A0
+	// RVA: 0xE88760 Offset: 0xE86D60 VA: 0x180E88760
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xE88430 Offset: 0xE86A30 VA: 0x180E88430
+	// RVA: 0xE886F0 Offset: 0xE86CF0 VA: 0x180E886F0
 	public void .ctor() { }
 
-	// RVA: 0xE88480 Offset: 0xE86A80 VA: 0x180E88480
+	// RVA: 0xE88740 Offset: 0xE86D40 VA: 0x180E88740
 	public void .ctor(string s) { }
 
 }

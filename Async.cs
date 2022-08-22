@@ -28,7 +28,7 @@ public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
 	public void .ctor(Action<AsyncLocalValueChangedArgs<T>> valueChangedHandler) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1359F10 Offset: 0x1358510 VA: 0x181359F10
+	|-RVA: 0x135A1D0 Offset: 0x13587D0 VA: 0x18135A1D0
 	|-AsyncLocal<ActivityTracker.ActivityInfo>..ctor
 	|-AsyncLocal<CultureInfo>..ctor
 	|-AsyncLocal<object>..ctor
@@ -38,7 +38,7 @@ public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
 	public T get_Value() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1359F50 Offset: 0x1358550 VA: 0x181359F50
+	|-RVA: 0x135A210 Offset: 0x1358810 VA: 0x18135A210
 	|-AsyncLocal<ActivityTracker.ActivityInfo>.get_Value
 	|-AsyncLocal<object>.get_Value
 	*/
@@ -47,7 +47,7 @@ public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
 	public void set_Value(T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x135A000 Offset: 0x1358600 VA: 0x18135A000
+	|-RVA: 0x135A2C0 Offset: 0x13588C0 VA: 0x18135A2C0
 	|-AsyncLocal<ActivityTracker.ActivityInfo>.set_Value
 	|-AsyncLocal<CultureInfo>.set_Value
 	|-AsyncLocal<object>.set_Value
@@ -57,7 +57,7 @@ public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
 	private void System.Threading.IAsyncLocal.OnValueChanged(object previousValueObj, object currentValueObj, bool contextChanged) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1359D70 Offset: 0x1358370 VA: 0x181359D70
+	|-RVA: 0x135A030 Offset: 0x1358630 VA: 0x18135A030
 	|-AsyncLocal<object>.System.Threading.IAsyncLocal.OnValueChanged
 	*/
 
@@ -184,7 +184,7 @@ internal class AsyncRequest // TypeDefIndex: 1193
 
 	// Methods
 
-	// RVA: 0xFDC360 Offset: 0xFDA960 VA: 0x180FDC360
+	// RVA: 0xFDC620 Offset: 0xFDAC20 VA: 0x180FDC620
 	public void .ctor(IMessage msgRequest, IMessageSink replySink) { }
 
 }
@@ -224,28 +224,28 @@ public class AsyncResult : IAsyncResult, IMessageSink, IThreadPoolWorkItem // Ty
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x146EC20 Offset: 0x146D220 VA: 0x18146EC20
+	// RVA: 0x146EEE0 Offset: 0x146D4E0 VA: 0x18146EEE0
 	internal void .ctor(WaitCallback cb, object state, bool capture_context) { }
 
-	// RVA: 0x146EB20 Offset: 0x146D120 VA: 0x18146EB20
+	// RVA: 0x146EDE0 Offset: 0x146D3E0 VA: 0x18146EDE0
 	private static void WaitCallback_Context(object state) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 12
 	public virtual object get_AsyncState() { }
 
-	// RVA: 0x146ED20 Offset: 0x146D320 VA: 0x18146ED20 Slot: 13
+	// RVA: 0x146EFE0 Offset: 0x146D5E0 VA: 0x18146EFE0 Slot: 13
 	public virtual WaitHandle get_AsyncWaitHandle() { }
 
-	// RVA: 0x8C1040 Offset: 0x8BF640 VA: 0x1808C1040 Slot: 14
+	// RVA: 0x8C1150 Offset: 0x8BF750 VA: 0x1808C1150 Slot: 14
 	public virtual bool get_CompletedSynchronously() { }
 
-	// RVA: 0x8C1050 Offset: 0x8BF650 VA: 0x1808C1050 Slot: 15
+	// RVA: 0x8C1160 Offset: 0x8BF760 VA: 0x1808C1160 Slot: 15
 	public virtual bool get_IsCompleted() { }
 
-	// RVA: 0x1160330 Offset: 0x115E930 VA: 0x181160330
+	// RVA: 0x11605F0 Offset: 0x115EBF0 VA: 0x1811605F0
 	public bool get_EndInvokeCalled() { }
 
-	// RVA: 0x1160740 Offset: 0x115ED40 VA: 0x181160740
+	// RVA: 0x1160A00 Offset: 0x115F000 VA: 0x181160A00
 	public void set_EndInvokeCalled(bool value) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 16
@@ -254,7 +254,7 @@ public class AsyncResult : IAsyncResult, IMessageSink, IThreadPoolWorkItem // Ty
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 17
 	public IMessageSink get_NextSink() { }
 
-	// RVA: 0x146E790 Offset: 0x146CD90 VA: 0x18146E790 Slot: 18
+	// RVA: 0x146EA50 Offset: 0x146D050 VA: 0x18146EA50 Slot: 18
 	public virtual IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink) { }
 
 	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0 Slot: 19
@@ -263,13 +263,13 @@ public class AsyncResult : IAsyncResult, IMessageSink, IThreadPoolWorkItem // Ty
 	// RVA: 0x519E50 Offset: 0x518450 VA: 0x180519E50 Slot: 20
 	public virtual void SetMessageCtrl(IMessageCtrl mc) { }
 
-	// RVA: 0x78E170 Offset: 0x78C770 VA: 0x18078E170
+	// RVA: 0x78E280 Offset: 0x78C880 VA: 0x18078E280
 	internal void SetCompletedSynchronously(bool completed) { }
 
-	// RVA: 0x146E7E0 Offset: 0x146CDE0 VA: 0x18146E7E0
+	// RVA: 0x146EAA0 Offset: 0x146D0A0 VA: 0x18146EAA0
 	internal IMessage EndInvoke() { }
 
-	// RVA: 0x146E910 Offset: 0x146CF10 VA: 0x18146E910 Slot: 21
+	// RVA: 0x146EBD0 Offset: 0x146D1D0 VA: 0x18146EBD0 Slot: 21
 	public virtual IMessage SyncProcessMessage(IMessage msg) { }
 
 	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
@@ -278,20 +278,20 @@ public class AsyncResult : IAsyncResult, IMessageSink, IThreadPoolWorkItem // Ty
 	// RVA: 0x536330 Offset: 0x534930 VA: 0x180536330
 	internal void set_CallMessage(MonoMethodMessage value) { }
 
-	// RVA: 0x146E900 Offset: 0x146CF00 VA: 0x18146E900 Slot: 10
+	// RVA: 0x146EBC0 Offset: 0x146D1C0 VA: 0x18146EBC0 Slot: 10
 	private void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 11
 	private void System.Threading.IThreadPoolWorkItem.MarkAborted(ThreadAbortException tae) { }
 
-	// RVA: 0x146E900 Offset: 0x146CF00 VA: 0x18146E900
+	// RVA: 0x146EBC0 Offset: 0x146D1C0 VA: 0x18146EBC0
 	internal object Invoke() { }
 
-	// RVA: 0x146EBB0 Offset: 0x146D1B0 VA: 0x18146EBB0
+	// RVA: 0x146EE70 Offset: 0x146D470 VA: 0x18146EE70
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x146EA70 Offset: 0x146D070 VA: 0x18146EA70
+	// RVA: 0x146ED30 Offset: 0x146D330 VA: 0x18146ED30
 	private void <.ctor>b__17_0(object <p0>) { }
 
 }
@@ -307,7 +307,7 @@ public struct AsyncVoidMethodBuilder // TypeDefIndex: 1273
 
 	// Methods
 
-	// RVA: 0xFDC7B0 Offset: 0xFDADB0 VA: 0x180FDC7B0
+	// RVA: 0xFDCA70 Offset: 0xFDB070 VA: 0x180FDCA70
 	public static AsyncVoidMethodBuilder Create() { }
 
 	[DebuggerStepThroughAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -485,7 +485,7 @@ public struct AsyncTaskMethodBuilder // TypeDefIndex: 1274
 
 	// Methods
 
-	// RVA: 0xDA8390 Offset: 0xDA6990 VA: 0x180DA8390
+	// RVA: 0xDA8650 Offset: 0xDA6C50 VA: 0x180DA8650
 	public static AsyncTaskMethodBuilder Create() { }
 
 	[DebuggerStepThroughAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -875,7 +875,7 @@ public struct AsyncTaskMethodBuilder // TypeDefIndex: 1274
 	// RVA: 0x14BD00 Offset: 0x14B100 VA: 0x18014BD00
 	public void SetException(Exception exception) { }
 
-	// RVA: 0xFDC700 Offset: 0xFDAD00 VA: 0x180FDC700
+	// RVA: 0xFDC9C0 Offset: 0xFDAFC0 VA: 0x180FDC9C0
 	private static void .cctor() { }
 
 }
@@ -895,7 +895,7 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	public static AsyncTaskMethodBuilder<TResult> Create() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDA8390 Offset: 0xDA6990 VA: 0x180DA8390
+	|-RVA: 0xDA8650 Offset: 0xDA6C50 VA: 0x180DA8650
 	|-AsyncTaskMethodBuilder<CompanionSubscription.Status>.Create
 	|-AsyncTaskMethodBuilder<IAuthTicket>.Create
 	|-AsyncTaskMethodBuilder<IPlayerInfo>.Create
@@ -1926,43 +1926,43 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x189F230 Offset: 0x189D830 VA: 0x18189F230
+	|-RVA: 0x189F4F0 Offset: 0x189DAF0 VA: 0x18189F4F0
 	|-AsyncTaskMethodBuilder<PublishResult>..cctor
 	|
-	|-RVA: 0x189F440 Offset: 0x189DA40 VA: 0x18189F440
+	|-RVA: 0x189F700 Offset: 0x189DD00 VA: 0x18189F700
 	|-AsyncTaskMethodBuilder<bool>..cctor
 	|
-	|-RVA: 0x189F640 Offset: 0x189DC40 VA: 0x18189F640
+	|-RVA: 0x189F900 Offset: 0x189DF00 VA: 0x18189F900
 	|-AsyncTaskMethodBuilder<int>..cctor
 	|
-	|-RVA: 0x189F730 Offset: 0x189DD30 VA: 0x18189F730
+	|-RVA: 0x189F9F0 Offset: 0x189DFF0 VA: 0x18189F9F0
 	|-AsyncTaskMethodBuilder<Nullable<ServerInfo>>..cctor
 	|
-	|-RVA: 0x189F530 Offset: 0x189DB30 VA: 0x18189F530
+	|-RVA: 0x189F7F0 Offset: 0x189DDF0 VA: 0x18189F7F0
 	|-AsyncTaskMethodBuilder<Nullable<Image>>..cctor
 	|
-	|-RVA: 0x189F340 Offset: 0x189D940 VA: 0x18189F340
+	|-RVA: 0x189F600 Offset: 0x189DC00 VA: 0x18189F600
 	|-AsyncTaskMethodBuilder<Nullable<InventoryPurchaseResult>>..cctor
 	|
-	|-RVA: 0x1362DF0 Offset: 0x13613F0 VA: 0x181362DF0
+	|-RVA: 0x13630B0 Offset: 0x13616B0 VA: 0x1813630B0
 	|-AsyncTaskMethodBuilder<Nullable<InventoryResult>>..cctor
 	|
-	|-RVA: 0x1362A80 Offset: 0x1361080 VA: 0x181362A80
+	|-RVA: 0x1362D40 Offset: 0x1361340 VA: 0x181362D40
 	|-AsyncTaskMethodBuilder<Nullable<Item>>..cctor
 	|
-	|-RVA: 0x13627A0 Offset: 0x1360DA0 VA: 0x1813627A0
+	|-RVA: 0x1362A60 Offset: 0x1361060 VA: 0x181362A60
 	|-AsyncTaskMethodBuilder<Nullable<ResultPage>>..cctor
 	|
-	|-RVA: 0x13628A0 Offset: 0x1360EA0 VA: 0x1813628A0
+	|-RVA: 0x1362B60 Offset: 0x1361160 VA: 0x181362B60
 	|-AsyncTaskMethodBuilder<Nullable<int>>..cctor
 	|
-	|-RVA: 0x1362D00 Offset: 0x1361300 VA: 0x181362D00
+	|-RVA: 0x1362FC0 Offset: 0x13615C0 VA: 0x181362FC0
 	|-AsyncTaskMethodBuilder<Nullable<Int32Enum>>..cctor
 	|
-	|-RVA: 0x1362990 Offset: 0x1360F90 VA: 0x181362990
+	|-RVA: 0x1362C50 Offset: 0x1361250 VA: 0x181362C50
 	|-AsyncTaskMethodBuilder<object>..cctor
 	|
-	|-RVA: 0x1362C10 Offset: 0x1361210 VA: 0x181362C10
+	|-RVA: 0x1362ED0 Offset: 0x13614D0 VA: 0x181362ED0
 	|-AsyncTaskMethodBuilder<VoidTaskResult>..cctor
 	*/
 
@@ -1976,48 +1976,48 @@ internal static class AsyncTaskCache // TypeDefIndex: 1276
 
 	// Methods
 
-	// RVA: 0xFDC3B0 Offset: 0xFDA9B0 VA: 0x180FDC3B0
+	// RVA: 0xFDC670 Offset: 0xFDAC70 VA: 0x180FDC670
 	private static Task<int>[] CreateInt32Tasks() { }
 
 	// RVA: -1 Offset: -1
 	internal static Task<TResult> CreateCacheableTask<TResult>(TResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED1270 Offset: 0xECF870 VA: 0x180ED1270
+	|-RVA: 0xED1530 Offset: 0xECFB30 VA: 0x180ED1530
 	|-AsyncTaskCache.CreateCacheableTask<PublishResult>
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<Image>>
 	|
-	|-RVA: 0xED0ED0 Offset: 0xECF4D0 VA: 0x180ED0ED0
+	|-RVA: 0xED1190 Offset: 0xECF790 VA: 0x180ED1190
 	|-AsyncTaskCache.CreateCacheableTask<bool>
 	|
-	|-RVA: 0xED0F50 Offset: 0xECF550 VA: 0x180ED0F50
+	|-RVA: 0xED1210 Offset: 0xECF810 VA: 0x180ED1210
 	|-AsyncTaskCache.CreateCacheableTask<int>
 	|
-	|-RVA: 0xED1300 Offset: 0xECF900 VA: 0x180ED1300
+	|-RVA: 0xED15C0 Offset: 0xECFBC0 VA: 0x180ED15C0
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<ServerInfo>>
 	|
-	|-RVA: 0xED10E0 Offset: 0xECF6E0 VA: 0x180ED10E0
+	|-RVA: 0xED13A0 Offset: 0xECF9A0 VA: 0x180ED13A0
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<InventoryPurchaseResult>>
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<ResultPage>>
 	|
-	|-RVA: 0xED1050 Offset: 0xECF650 VA: 0x180ED1050
+	|-RVA: 0xED1310 Offset: 0xECF910 VA: 0x180ED1310
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<InventoryResult>>
 	|
-	|-RVA: 0xED1170 Offset: 0xECF770 VA: 0x180ED1170
+	|-RVA: 0xED1430 Offset: 0xECFA30 VA: 0x180ED1430
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<Item>>
 	|
-	|-RVA: 0xED0FD0 Offset: 0xECF5D0 VA: 0x180ED0FD0
+	|-RVA: 0xED1290 Offset: 0xECF890 VA: 0x180ED1290
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<int>>
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<Int32Enum>>
 	|
-	|-RVA: 0xED13D0 Offset: 0xECF9D0 VA: 0x180ED13D0
+	|-RVA: 0xED1690 Offset: 0xECFC90 VA: 0x180ED1690
 	|-AsyncTaskCache.CreateCacheableTask<object>
 	|
-	|-RVA: 0xED1450 Offset: 0xECFA50 VA: 0x180ED1450
+	|-RVA: 0xED1710 Offset: 0xECFD10 VA: 0x180ED1710
 	|-AsyncTaskCache.CreateCacheableTask<VoidTaskResult>
 	*/
 
-	// RVA: 0xFDC490 Offset: 0xFDAA90 VA: 0x180FDC490
+	// RVA: 0xFDC750 Offset: 0xFDAD50 VA: 0x180FDC750
 	private static void .cctor() { }
 
 }
@@ -2041,13 +2041,13 @@ internal struct AsyncMethodBuilderCore // TypeDefIndex: 1277
 	// RVA: 0x14BAB0 Offset: 0x14AEB0 VA: 0x18014BAB0
 	internal void PostBoxInitialization(IAsyncStateMachine stateMachine, AsyncMethodBuilderCore.MoveNextRunner runner, Task builtTask) { }
 
-	// RVA: 0xFDC000 Offset: 0xFDA600 VA: 0x180FDC000
+	// RVA: 0xFDC2C0 Offset: 0xFDA8C0 VA: 0x180FDC2C0
 	internal static void ThrowAsync(Exception exception, SynchronizationContext targetContext) { }
 
-	// RVA: 0xFDB8D0 Offset: 0xFD9ED0 VA: 0x180FDB8D0
+	// RVA: 0xFDBB90 Offset: 0xFDA190 VA: 0x180FDBB90
 	internal static Action CreateContinuationWrapper(Action continuation, Action invokeAction, Task innerTask) { }
 
-	// RVA: 0xFDC2E0 Offset: 0xFDA8E0 VA: 0x180FDC2E0
+	// RVA: 0xFDC5A0 Offset: 0xFDABA0 VA: 0x180FDC5A0
 	internal static Task TryGetContinuationTask(Action action) { }
 
 }
@@ -2063,10 +2063,10 @@ internal sealed class AsyncMethodBuilderCore.MoveNextRunner // TypeDefIndex: 127
 	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
 	internal void .ctor(ExecutionContext context, IAsyncStateMachine stateMachine) { }
 
-	// RVA: 0xFEB090 Offset: 0xFE9690 VA: 0x180FEB090
+	// RVA: 0xFEB350 Offset: 0xFE9950 VA: 0x180FEB350
 	internal void Run() { }
 
-	// RVA: 0xFEAFF0 Offset: 0xFE95F0 VA: 0x180FEAFF0
+	// RVA: 0xFEB2B0 Offset: 0xFE98B0 VA: 0x180FEB2B0
 	private static void InvokeMoveNext(object stateMachine) { }
 
 }
@@ -2079,10 +2079,10 @@ private class AsyncMethodBuilderCore.ContinuationWrapper // TypeDefIndex: 1279
 
 	// Methods
 
-	// RVA: 0xFE49F0 Offset: 0xFE2FF0 VA: 0x180FE49F0
+	// RVA: 0xFE4CB0 Offset: 0xFE32B0 VA: 0x180FE4CB0
 	internal void .ctor(Action continuation, Action invokeAction, Task innerTask) { }
 
-	// RVA: 0xFE49D0 Offset: 0xFE2FD0 VA: 0x180FE49D0
+	// RVA: 0xFE4C90 Offset: 0xFE3290 VA: 0x180FE4C90
 	internal void Invoke() { }
 
 }
@@ -2097,7 +2097,7 @@ private sealed class AsyncMethodBuilderCore.<>c__DisplayClass4_0 // TypeDefIndex
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFF6B60 Offset: 0xFF5160 VA: 0x180FF6B60
+	// RVA: 0xFF6E20 Offset: 0xFF5420 VA: 0x180FF6E20
 	internal void <OutputAsyncCausalityEvents>b__0() { }
 
 }
@@ -2110,16 +2110,16 @@ private sealed class AsyncMethodBuilderCore.<>c // TypeDefIndex: 1281
 
 	// Methods
 
-	// RVA: 0xFF6BC0 Offset: 0xFF51C0 VA: 0x180FF6BC0
+	// RVA: 0xFF6E80 Offset: 0xFF5480 VA: 0x180FF6E80
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFF6AA0 Offset: 0xFF50A0 VA: 0x180FF6AA0
+	// RVA: 0xFF6D60 Offset: 0xFF5360 VA: 0x180FF6D60
 	internal void <ThrowAsync>b__6_0(object state) { }
 
-	// RVA: 0xFF6B00 Offset: 0xFF5100 VA: 0x180FF6B00
+	// RVA: 0xFF6DC0 Offset: 0xFF53C0 VA: 0x180FF6DC0
 	internal void <ThrowAsync>b__6_1(object state) { }
 
 }
@@ -2127,7 +2127,7 @@ private sealed class AsyncMethodBuilderCore.<>c // TypeDefIndex: 1281
 public sealed class AsyncStateMachineAttribute : StateMachineAttribute // TypeDefIndex: 1282
 {	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(Type stateMachineType) { }
 
 }
@@ -2141,7 +2141,7 @@ internal static class AsyncHelper // TypeDefIndex: 1812
 
 	// Methods
 
-	// RVA: 0x12DD3E0 Offset: 0x12DB9E0 VA: 0x1812DD3E0
+	// RVA: 0x12DD6A0 Offset: 0x12DBCA0 VA: 0x1812DD6A0
 	private static void .cctor() { }
 
 }
@@ -2180,7 +2180,7 @@ internal class AsyncProtocolResult // TypeDefIndex: 2533
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int result) { }
 
-	// RVA: 0x10B5840 Offset: 0x10B3E40 VA: 0x1810B5840
+	// RVA: 0x10B5B00 Offset: 0x10B4100 VA: 0x1810B5B00
 	public void .ctor(ExceptionDispatchInfo error) { }
 
 }
@@ -2211,10 +2211,10 @@ internal abstract class AsyncProtocolRequest // TypeDefIndex: 2534
 	public MobileAuthenticatedStream get_Parent() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
+	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
 	public bool get_RunSynchronously() { }
 
-	// RVA: 0x7493E0 Offset: 0x7479E0 VA: 0x1807493E0
+	// RVA: 0x7494F0 Offset: 0x747AF0 VA: 0x1807494F0
 	public string get_Name() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -2222,34 +2222,34 @@ internal abstract class AsyncProtocolRequest // TypeDefIndex: 2534
 	public int get_UserResult() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95F9F0 Offset: 0x95DFF0 VA: 0x18095F9F0
+	// RVA: 0x95FB00 Offset: 0x95E100 VA: 0x18095FB00
 	protected void set_UserResult(int value) { }
 
-	// RVA: 0x120FA80 Offset: 0x120E080 VA: 0x18120FA80
+	// RVA: 0x120FD40 Offset: 0x120E340 VA: 0x18120FD40
 	public void .ctor(MobileAuthenticatedStream parent, bool sync) { }
 
-	// RVA: 0x120F820 Offset: 0x120DE20 VA: 0x18120F820
+	// RVA: 0x120FAE0 Offset: 0x120E0E0 VA: 0x18120FAE0
 	internal void RequestRead(int size) { }
 
-	// RVA: 0x120F8E0 Offset: 0x120DEE0 VA: 0x18120F8E0
+	// RVA: 0x120FBA0 Offset: 0x120E1A0 VA: 0x18120FBA0
 	internal void RequestWrite() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA2AB0 Offset: 0xA1EB0 VA: 0x1800A2AB0
-	// RVA: 0x120F8F0 Offset: 0x120DEF0 VA: 0x18120F8F0
+	// RVA: 0x120FBB0 Offset: 0x120E1B0 VA: 0x18120FBB0
 	internal Task<AsyncProtocolResult> StartOperation(CancellationToken cancellationToken) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA2BE0 Offset: 0xA1FE0 VA: 0x1800A2BE0
-	// RVA: 0x120F700 Offset: 0x120DD00 VA: 0x18120F700
+	// RVA: 0x120F9C0 Offset: 0x120DFC0 VA: 0x18120F9C0
 	private Task ProcessOperation(CancellationToken cancellationToken) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA2D70 Offset: 0xA2170 VA: 0x1800A2D70
-	// RVA: 0x120F5E0 Offset: 0x120DBE0 VA: 0x18120F5E0
+	// RVA: 0x120F8A0 Offset: 0x120DEA0 VA: 0x18120F8A0
 	private Task<Nullable<int>> InnerRead(CancellationToken cancellationToken) { }
 
 	// RVA: -1 Offset: -1 Slot: 4
 	protected abstract AsyncOperationStatus Run(AsyncOperationStatus status);
 
-	// RVA: 0x120FA10 Offset: 0x120E010 VA: 0x18120FA10 Slot: 3
+	// RVA: 0x120FCD0 Offset: 0x120E2D0 VA: 0x18120FCD0 Slot: 3
 	public override string ToString() { }
 
 }
@@ -2319,10 +2319,10 @@ private struct AsyncProtocolRequest.<InnerRead>d__25 : IAsyncStateMachine // Typ
 internal class AsyncHandshakeRequest : AsyncProtocolRequest // TypeDefIndex: 2538
 {	// Methods
 
-	// RVA: 0x120F5D0 Offset: 0x120DBD0 VA: 0x18120F5D0
+	// RVA: 0x120F890 Offset: 0x120DE90 VA: 0x18120F890
 	public void .ctor(MobileAuthenticatedStream parent, bool sync) { }
 
-	// RVA: 0x120F5B0 Offset: 0x120DBB0 VA: 0x18120F5B0 Slot: 4
+	// RVA: 0x120F870 Offset: 0x120DE70 VA: 0x18120F870 Slot: 4
 	protected override AsyncOperationStatus Run(AsyncOperationStatus status) { }
 
 }
@@ -2352,10 +2352,10 @@ internal abstract class AsyncReadOrWriteRequest : AsyncProtocolRequest // TypeDe
 	// RVA: 0x684160 Offset: 0x682760 VA: 0x180684160
 	protected void set_CurrentSize(int value) { }
 
-	// RVA: 0x120FB90 Offset: 0x120E190 VA: 0x18120FB90
+	// RVA: 0x120FE50 Offset: 0x120E450 VA: 0x18120FE50
 	public void .ctor(MobileAuthenticatedStream parent, bool sync, byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x120FB20 Offset: 0x120E120 VA: 0x18120FB20 Slot: 3
+	// RVA: 0x120FDE0 Offset: 0x120E3E0 VA: 0x18120FDE0 Slot: 3
 	public override string ToString() { }
 
 }
@@ -2363,10 +2363,10 @@ internal abstract class AsyncReadOrWriteRequest : AsyncProtocolRequest // TypeDe
 internal class AsyncReadRequest : AsyncReadOrWriteRequest // TypeDefIndex: 2540
 {	// Methods
 
-	// RVA: 0x120FCB0 Offset: 0x120E2B0 VA: 0x18120FCB0
+	// RVA: 0x120FF70 Offset: 0x120E570 VA: 0x18120FF70
 	public void .ctor(MobileAuthenticatedStream parent, bool sync, byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x120FC30 Offset: 0x120E230 VA: 0x18120FC30 Slot: 4
+	// RVA: 0x120FEF0 Offset: 0x120E4F0 VA: 0x18120FEF0 Slot: 4
 	protected override AsyncOperationStatus Run(AsyncOperationStatus status) { }
 
 }
@@ -2374,10 +2374,10 @@ internal class AsyncReadRequest : AsyncReadOrWriteRequest // TypeDefIndex: 2540
 internal class AsyncWriteRequest : AsyncReadOrWriteRequest // TypeDefIndex: 2541
 {	// Methods
 
-	// RVA: 0x120FCB0 Offset: 0x120E2B0 VA: 0x18120FCB0
+	// RVA: 0x120FF70 Offset: 0x120E570 VA: 0x18120FF70
 	public void .ctor(MobileAuthenticatedStream parent, bool sync, byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x120FCC0 Offset: 0x120E2C0 VA: 0x18120FCC0 Slot: 4
+	// RVA: 0x120FF80 Offset: 0x120E580 VA: 0x18120FF80 Slot: 4
 	protected override AsyncOperationStatus Run(AsyncOperationStatus status) { }
 
 }
@@ -2395,13 +2395,13 @@ internal class AsyncStreamReader // TypeDefIndex: 2647
 
 	// Methods
 
-	// RVA: 0x100F0B0 Offset: 0x100D6B0 VA: 0x18100F0B0 Slot: 4
+	// RVA: 0x100F370 Offset: 0x100D970 VA: 0x18100F370 Slot: 4
 	public virtual void Close() { }
 
-	// RVA: 0x1727A20 Offset: 0x1726020 VA: 0x181727A20 Slot: 5
+	// RVA: 0x1727CE0 Offset: 0x17262E0 VA: 0x181727CE0 Slot: 5
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x1727A10 Offset: 0x1726010 VA: 0x181727A10
+	// RVA: 0x1727CD0 Offset: 0x17262D0 VA: 0x181727CD0
 	internal void CancelOperation() { }
 
 }
@@ -2420,16 +2420,16 @@ public class AsyncCompletedEventArgs : EventArgs // TypeDefIndex: 2662
 
 	// Methods
 
-	// RVA: 0x15BC7A0 Offset: 0x15BADA0 VA: 0x1815BC7A0
+	// RVA: 0x15BCA60 Offset: 0x15BB060 VA: 0x1815BCA60
 	public void .ctor(Exception error, bool cancelled, object userState) { }
 
-	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
+	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
 	public bool get_Cancelled() { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public Exception get_Error() { }
 
-	// RVA: 0x15BC6C0 Offset: 0x15BACC0 VA: 0x1815BC6C0
+	// RVA: 0x15BC980 Offset: 0x15BAF80 VA: 0x1815BC980
 	protected void RaiseExceptionIfNecessary() { }
 
 }
@@ -2440,10 +2440,10 @@ public sealed class AsyncCompletedEventHandler : MulticastDelegate // TypeDefInd
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xAE45C0 Offset: 0xAE2BC0 VA: 0x180AE45C0 Slot: 12
+	// RVA: 0xAE4880 Offset: 0xAE2E80 VA: 0x180AE4880 Slot: 12
 	public virtual void Invoke(object sender, AsyncCompletedEventArgs e) { }
 
-	// RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580 Slot: 13
+	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
 	public virtual IAsyncResult BeginInvoke(object sender, AsyncCompletedEventArgs e, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -2462,31 +2462,31 @@ public sealed class AsyncOperation // TypeDefIndex: 2664
 
 	// Methods
 
-	// RVA: 0x15BCF20 Offset: 0x15BB520 VA: 0x1815BCF20
+	// RVA: 0x15BD1E0 Offset: 0x15BB7E0 VA: 0x1815BD1E0
 	private void .ctor(object userSuppliedState, SynchronizationContext syncContext) { }
 
-	// RVA: 0x15BCA50 Offset: 0x15BB050 VA: 0x1815BCA50 Slot: 1
+	// RVA: 0x15BCD10 Offset: 0x15BB310 VA: 0x1815BCD10 Slot: 1
 	protected override void Finalize() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public object get_UserSuppliedState() { }
 
-	// RVA: 0x15BCD00 Offset: 0x15BB300 VA: 0x1815BCD00
+	// RVA: 0x15BCFC0 Offset: 0x15BB5C0 VA: 0x1815BCFC0
 	public void Post(SendOrPostCallback d, object arg) { }
 
-	// RVA: 0x15BCBE0 Offset: 0x15BB1E0 VA: 0x1815BCBE0
+	// RVA: 0x15BCEA0 Offset: 0x15BB4A0 VA: 0x1815BCEA0
 	public void PostOperationCompleted(SendOrPostCallback d, object arg) { }
 
-	// RVA: 0x15BCB00 Offset: 0x15BB100 VA: 0x1815BCB00
+	// RVA: 0x15BCDC0 Offset: 0x15BB3C0 VA: 0x1815BCDC0
 	private void OperationCompletedCore() { }
 
-	// RVA: 0x15BCEA0 Offset: 0x15BB4A0 VA: 0x1815BCEA0
+	// RVA: 0x15BD160 Offset: 0x15BB760 VA: 0x1815BD160
 	private void VerifyNotCompleted() { }
 
-	// RVA: 0x15BCE20 Offset: 0x15BB420 VA: 0x1815BCE20
+	// RVA: 0x15BD0E0 Offset: 0x15BB6E0 VA: 0x1815BD0E0
 	private void VerifyDelegateNotNull(SendOrPostCallback d) { }
 
-	// RVA: 0x15BC9B0 Offset: 0x15BAFB0 VA: 0x1815BC9B0
+	// RVA: 0x15BCC70 Offset: 0x15BB270 VA: 0x1815BCC70
 	internal static AsyncOperation CreateOperation(object userSuppliedState, SynchronizationContext syncContext) { }
 
 }
@@ -2498,10 +2498,10 @@ public static class AsyncOperationManager // TypeDefIndex: 2665
 
 	// Methods
 
-	// RVA: 0x15BC840 Offset: 0x15BAE40 VA: 0x1815BC840
+	// RVA: 0x15BCB00 Offset: 0x15BB100 VA: 0x1815BCB00
 	public static AsyncOperation CreateOperation(object userSuppliedState) { }
 
-	// RVA: 0x15BC940 Offset: 0x15BAF40 VA: 0x1815BC940
+	// RVA: 0x15BCC00 Offset: 0x15BB200 VA: 0x1815BCC00
 	public static SynchronizationContext get_SynchronizationContext() { }
 
 }
@@ -2519,25 +2519,25 @@ public class AsyncOperation : YieldInstruction // TypeDefIndex: 3491
 
 	[StaticAccessorAttribute] // RVA: 0xB69C0 Offset: 0xB5DC0 VA: 0x1800B69C0
 	[NativeMethodAttribute] // RVA: 0xB69C0 Offset: 0xB5DC0 VA: 0x1800B69C0
-	// RVA: 0x181ED80 Offset: 0x181D380 VA: 0x18181ED80
+	// RVA: 0x181F040 Offset: 0x181D640 VA: 0x18181F040
 	private static void InternalDestroy(IntPtr ptr) { }
 
 	[NativeMethodAttribute] // RVA: 0x90BC0 Offset: 0x8FFC0 VA: 0x180090BC0
-	// RVA: 0x181EE20 Offset: 0x181D420 VA: 0x18181EE20
+	// RVA: 0x181F0E0 Offset: 0x181D6E0 VA: 0x18181F0E0
 	public bool get_isDone() { }
 
 	[NativeMethodAttribute] // RVA: 0xB6C90 Offset: 0xB6090 VA: 0x1800B6C90
-	// RVA: 0x181EE60 Offset: 0x181D460 VA: 0x18181EE60
+	// RVA: 0x181F120 Offset: 0x181D720 VA: 0x18181F120
 	public void set_priority(int value) { }
 
-	// RVA: 0x181ECD0 Offset: 0x181D2D0 VA: 0x18181ECD0 Slot: 1
+	// RVA: 0x181EF90 Offset: 0x181D590 VA: 0x18181EF90 Slot: 1
 	protected override void Finalize() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x181EDC0 Offset: 0x181D3C0 VA: 0x18181EDC0
+	// RVA: 0x181F080 Offset: 0x181D680 VA: 0x18181F080
 	internal void InvokeCompletionEvent() { }
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 }
@@ -2593,22 +2593,22 @@ public struct AsyncGPUReadbackRequest // TypeDefIndex: 3802
 	// RVA: 0x2216C0 Offset: 0x220AC0 VA: 0x1802216C0
 	private IntPtr GetDataRaw(int layer) { }
 
-	// RVA: 0x19A4CA0 Offset: 0x19A32A0 VA: 0x1819A4CA0
+	// RVA: 0x19A4F60 Offset: 0x19A3560 VA: 0x1819A4F60
 	private static bool IsDone_Injected(ref AsyncGPUReadbackRequest _unity_self) { }
 
-	// RVA: 0x19A4C60 Offset: 0x19A3260 VA: 0x1819A4C60
+	// RVA: 0x19A4F20 Offset: 0x19A3520 VA: 0x1819A4F20
 	private static bool HasError_Injected(ref AsyncGPUReadbackRequest _unity_self) { }
 
-	// RVA: 0x19A4BE0 Offset: 0x19A31E0 VA: 0x1819A4BE0
+	// RVA: 0x19A4EA0 Offset: 0x19A34A0 VA: 0x1819A4EA0
 	private static int GetLayerCount_Injected(ref AsyncGPUReadbackRequest _unity_self) { }
 
-	// RVA: 0x19A4C20 Offset: 0x19A3220 VA: 0x1819A4C20
+	// RVA: 0x19A4EE0 Offset: 0x19A34E0 VA: 0x1819A4EE0
 	private static int GetLayerDataSize_Injected(ref AsyncGPUReadbackRequest _unity_self) { }
 
-	// RVA: 0x19A4CE0 Offset: 0x19A32E0 VA: 0x1819A4CE0
+	// RVA: 0x19A4FA0 Offset: 0x19A35A0 VA: 0x1819A4FA0
 	private static void SetScriptingCallback_Injected(ref AsyncGPUReadbackRequest _unity_self, Action<AsyncGPUReadbackRequest> callback) { }
 
-	// RVA: 0x19A4BA0 Offset: 0x19A31A0 VA: 0x1819A4BA0
+	// RVA: 0x19A4E60 Offset: 0x19A3460 VA: 0x1819A4E60
 	private static IntPtr GetDataRaw_Injected(ref AsyncGPUReadbackRequest _unity_self, int layer) { }
 
 }
@@ -2616,27 +2616,27 @@ public struct AsyncGPUReadbackRequest // TypeDefIndex: 3802
 public static class AsyncGPUReadback // TypeDefIndex: 3803
 {	// Methods
 
-	// RVA: 0x19A4FD0 Offset: 0x19A35D0 VA: 0x1819A4FD0
+	// RVA: 0x19A5290 Offset: 0x19A3890 VA: 0x1819A5290
 	private static void SetUpScriptingRequest(AsyncGPUReadbackRequest request, Action<AsyncGPUReadbackRequest> callback) { }
 
-	// RVA: 0x19A4F30 Offset: 0x19A3530 VA: 0x1819A4F30
+	// RVA: 0x19A51F0 Offset: 0x19A37F0 VA: 0x1819A51F0
 	public static AsyncGPUReadbackRequest Request(ComputeBuffer src, Action<AsyncGPUReadbackRequest> callback) { }
 
-	// RVA: 0x19A4E80 Offset: 0x19A3480 VA: 0x1819A4E80
+	// RVA: 0x19A5140 Offset: 0x19A3740 VA: 0x1819A5140
 	public static AsyncGPUReadbackRequest Request(Texture src, int mipIndex = 0, Action<AsyncGPUReadbackRequest> callback) { }
 
 	[NativeMethodAttribute] // RVA: 0x6FF20 Offset: 0x6F320 VA: 0x18006FF20
-	// RVA: 0x19A4D80 Offset: 0x19A3380 VA: 0x1819A4D80
+	// RVA: 0x19A5040 Offset: 0x19A3640 VA: 0x1819A5040
 	private static AsyncGPUReadbackRequest Request_Internal_ComputeBuffer_1(ComputeBuffer buffer) { }
 
 	[NativeMethodAttribute] // RVA: 0x6FF20 Offset: 0x6F320 VA: 0x18006FF20
-	// RVA: 0x19A4E20 Offset: 0x19A3420 VA: 0x1819A4E20
+	// RVA: 0x19A50E0 Offset: 0x19A36E0 VA: 0x1819A50E0
 	private static AsyncGPUReadbackRequest Request_Internal_Texture_1(Texture src, int mipIndex) { }
 
-	// RVA: 0x19A4D30 Offset: 0x19A3330 VA: 0x1819A4D30
+	// RVA: 0x19A4FF0 Offset: 0x19A35F0 VA: 0x1819A4FF0
 	private static void Request_Internal_ComputeBuffer_1_Injected(ComputeBuffer buffer, out AsyncGPUReadbackRequest ret) { }
 
-	// RVA: 0x19A4DD0 Offset: 0x19A33D0 VA: 0x1819A4DD0
+	// RVA: 0x19A5090 Offset: 0x19A3690 VA: 0x1819A5090
 	private static void Request_Internal_Texture_1_Injected(Texture src, int mipIndex, out AsyncGPUReadbackRequest ret) { }
 
 }
@@ -2663,46 +2663,46 @@ public class AsyncTextureLoad : CustomYieldInstruction // TypeDefIndex: 6627
 
 	// Methods
 
-	// RVA: 0x74DC50 Offset: 0x74C250 VA: 0x18074DC50 Slot: 7
+	// RVA: 0x74DD60 Offset: 0x74C360 VA: 0x18074DD60 Slot: 7
 	public override bool get_keepWaiting() { }
 
-	// RVA: 0x13192C0 Offset: 0x13178C0 VA: 0x1813192C0
+	// RVA: 0x1319580 Offset: 0x1317B80 VA: 0x181319580
 	public bool get_isDone() { }
 
-	// RVA: 0x1B9E1C0 Offset: 0x1B9C7C0 VA: 0x181B9E1C0
+	// RVA: 0x1B9E480 Offset: 0x1B9CA80 VA: 0x181B9E480
 	public bool get_isValid() { }
 
-	// RVA: 0x1B9E2B0 Offset: 0x1B9C8B0 VA: 0x181B9E2B0
+	// RVA: 0x1B9E570 Offset: 0x1B9CB70 VA: 0x181B9E570
 	public Texture2D get_texture() { }
 
-	// RVA: 0x1B9DC60 Offset: 0x1B9C260 VA: 0x181B9DC60
+	// RVA: 0x1B9DF20 Offset: 0x1B9C520 VA: 0x181B9DF20
 	public void LoadIntoTexture(Texture2D tex) { }
 
-	// RVA: 0x1B9DFC0 Offset: 0x1B9C5C0 VA: 0x181B9DFC0
+	// RVA: 0x1B9E280 Offset: 0x1B9C880 VA: 0x181B9E280
 	public void WriteToCache(string cachename) { }
 
-	// RVA: 0x1B9DB20 Offset: 0x1B9C120 VA: 0x181B9DB20
+	// RVA: 0x1B9DDE0 Offset: 0x1B9C3E0 VA: 0x181B9DDE0
 	private static extern void FreeTexture(ref IntPtr buffer) { }
 
-	// RVA: 0x1B9DDF0 Offset: 0x1B9C3F0 VA: 0x181B9DDF0
+	// RVA: 0x1B9E0B0 Offset: 0x1B9C6B0 VA: 0x181B9E0B0
 	private static extern void LoadTextureFromFile(string filename, ref IntPtr buffer, ref int size, ref int width, ref int height, ref int channels, bool normal, bool dither, bool hqmode) { }
 
-	// RVA: 0x1B9DD10 Offset: 0x1B9C310 VA: 0x181B9DD10
+	// RVA: 0x1B9DFD0 Offset: 0x1B9C5D0 VA: 0x181B9DFD0
 	private static extern void LoadTextureFromCache(string filename, ref IntPtr buffer, ref int size, ref int width, ref int height, ref int format) { }
 
-	// RVA: 0x1B9DEF0 Offset: 0x1B9C4F0 VA: 0x181B9DEF0
+	// RVA: 0x1B9E1B0 Offset: 0x1B9C7B0 VA: 0x181B9E1B0
 	private static extern void SaveTextureToCache(string filename, IntPtr buffer, int size, int width, int height, int format) { }
 
-	// RVA: 0x1B9E0A0 Offset: 0x1B9C6A0 VA: 0x181B9E0A0
+	// RVA: 0x1B9E360 Offset: 0x1B9C960 VA: 0x181B9E360
 	public void .ctor(string filename, bool normal, bool dither, bool hqmode, bool cache) { }
 
-	// RVA: 0x1B9D950 Offset: 0x1B9BF50 VA: 0x181B9D950
+	// RVA: 0x1B9DC10 Offset: 0x1B9C210 VA: 0x181B9DC10
 	private void DoWork() { }
 
-	// RVA: 0x1B9DBA0 Offset: 0x1B9C1A0 VA: 0x181B9DBA0
+	// RVA: 0x1B9DE60 Offset: 0x1B9C460 VA: 0x181B9DE60
 	private void Invoke() { }
 
-	// RVA: 0x1B9D910 Offset: 0x1B9BF10 VA: 0x181B9D910
+	// RVA: 0x1B9DBD0 Offset: 0x1B9C1D0 VA: 0x181B9DBD0
 	private void Callback(IAsyncResult result) { }
 
 }
@@ -2714,7 +2714,7 @@ public sealed class AsyncMethodBuilderAttribute : Attribute // TypeDefIndex: 709
 
 	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(Type builderType) { }
 
 }
@@ -2831,7 +2831,7 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7093
 	|-RVA: 0x4CF8A0 Offset: 0x4CDEA0 VA: 0x1804CF8A0
 	|-AsyncValueTaskMethodBuilder<bool>.Create
 	|
-	|-RVA: 0x1362FE0 Offset: 0x13615E0 VA: 0x181362FE0
+	|-RVA: 0x13632A0 Offset: 0x13618A0 VA: 0x1813632A0
 	|-AsyncValueTaskMethodBuilder<object>.Create
 	*/
 
@@ -2924,31 +2924,31 @@ public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0x831930 Offset: 0x82FF30 VA: 0x180831930 Slot: 7
+	// RVA: 0x831A40 Offset: 0x830040 VA: 0x180831A40 Slot: 7
 	public override bool get_keepWaiting() { }
 
-	// RVA: 0x831920 Offset: 0x82FF20 VA: 0x180831920
+	// RVA: 0x831A30 Offset: 0x830030 VA: 0x180831A30
 	public bool get_isDone() { }
 
-	// RVA: 0x830CA0 Offset: 0x82F2A0 VA: 0x180830CA0
+	// RVA: 0x830DB0 Offset: 0x82F3B0 VA: 0x180830DB0
 	public NavMeshBuildSource CreateNavMeshBuildSource() { }
 
-	// RVA: 0x830FB0 Offset: 0x82F5B0 VA: 0x180830FB0
+	// RVA: 0x8310C0 Offset: 0x82F6C0 VA: 0x1808310C0
 	public NavMeshBuildSource CreateNavMeshBuildSource(int area) { }
 
-	// RVA: 0x831940 Offset: 0x82FF40 VA: 0x180831940
+	// RVA: 0x831A50 Offset: 0x830050 VA: 0x180831A50
 	public Mesh get_mesh() { }
 
-	// RVA: 0x831740 Offset: 0x82FD40 VA: 0x180831740
+	// RVA: 0x831850 Offset: 0x82FE50 VA: 0x180831850
 	public void .ctor(Vector3 pivot, int width, int height, bool normal, bool alpha) { }
 
-	// RVA: 0x831050 Offset: 0x82F650 VA: 0x180831050
+	// RVA: 0x831160 Offset: 0x82F760 VA: 0x180831160
 	private void DoWork() { }
 
-	// RVA: 0x831680 Offset: 0x82FC80 VA: 0x180831680
+	// RVA: 0x831790 Offset: 0x82FD90 VA: 0x180831790
 	private void Invoke() { }
 
-	// RVA: 0x830C60 Offset: 0x82F260 VA: 0x180830C60
+	// RVA: 0x830D70 Offset: 0x82F370 VA: 0x180830D70
 	private void Callback(IAsyncResult result) { }
 
 }

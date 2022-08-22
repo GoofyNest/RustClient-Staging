@@ -7,32 +7,32 @@ public static class PokerLib // TypeDefIndex: 8226
 
 	// Methods
 
-	// RVA: 0x1073720 Offset: 0x1071D20 VA: 0x181073720
+	// RVA: 0x10739E0 Offset: 0x1071FE0 VA: 0x1810739E0
 	public static int FindIt(int key) { }
 
-	// RVA: 0x10739C0 Offset: 0x1071FC0 VA: 0x1810739C0
+	// RVA: 0x1073C80 Offset: 0x1072280 VA: 0x181073C80
 	public static void InitDeck(int[] deck) { }
 
-	// RVA: 0x10736C0 Offset: 0x1071CC0 VA: 0x1810736C0
+	// RVA: 0x1073980 Offset: 0x1071F80 VA: 0x181073980
 	public static int FindCard(int rank, int suit, int[] deck) { }
 
-	// RVA: 0x1073130 Offset: 0x1071730 VA: 0x181073130
+	// RVA: 0x10733F0 Offset: 0x10719F0 VA: 0x1810733F0
 	public static ushort Eval5Cards(int c1, int c2, int c3, int c4, int c5) { }
 
-	// RVA: 0x1073440 Offset: 0x1071A40 VA: 0x181073440
+	// RVA: 0x1073700 Offset: 0x1071D00 VA: 0x181073700
 	public static ushort Eval5Hand(int[] hand) { }
 
-	// RVA: 0x10734F0 Offset: 0x1071AF0 VA: 0x1810734F0
+	// RVA: 0x10737B0 Offset: 0x1071DB0 VA: 0x1810737B0
 	public static ushort Eval7Hand(int[] hand) { }
 
-	// RVA: 0x1073630 Offset: 0x1071C30 VA: 0x181073630
+	// RVA: 0x10738F0 Offset: 0x1071EF0 VA: 0x1810738F0
 	public static PokerLib.PokerResult EvalToResultName(ushort eval) { }
 
-	// RVA: 0x1073890 Offset: 0x1071E90 VA: 0x181073890
+	// RVA: 0x1073B50 Offset: 0x1072150 VA: 0x181073B50
 	public static string HandToString(int[] hand) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1073AD0 Offset: 0x10720D0 VA: 0x181073AD0
+	// RVA: 0x1073D90 Offset: 0x1072390 VA: 0x181073D90
 	internal static int <FindCard>g__Rank|6_0(int card) { }
 
 }

@@ -10,51 +10,51 @@ public static class EAC // TypeDefIndex: 9186
 
 	// Methods
 
-	// RVA: 0xAB73C0 Offset: 0xAB59C0 VA: 0x180AB73C0
+	// RVA: 0xAB7680 Offset: 0xAB5C80 VA: 0x180AB7680
 	private static bool get_IsEacEnabled() { }
 
-	// RVA: 0xAB73E0 Offset: 0xAB59E0 VA: 0x180AB73E0
+	// RVA: 0xAB76A0 Offset: 0xAB5CA0 VA: 0x180AB76A0
 	public static bool get_IsEncryptionSupported() { }
 
-	// RVA: 0xAB6820 Offset: 0xAB4E20 VA: 0x180AB6820
+	// RVA: 0xAB6AE0 Offset: 0xAB50E0 VA: 0x180AB6AE0
 	public static void Encrypt(Connection connection, MemoryStream src, int srcOffset, MemoryStream dst, int dstOffset) { }
 
-	// RVA: 0xAB6430 Offset: 0xAB4A30 VA: 0x180AB6430
+	// RVA: 0xAB66F0 Offset: 0xAB4CF0 VA: 0x180AB66F0
 	public static void Decrypt(Connection connection, MemoryStream src, int srcOffset, MemoryStream dst, int dstOffset) { }
 
-	// RVA: 0xAB6BC0 Offset: 0xAB51C0 VA: 0x180AB6BC0
+	// RVA: 0xAB6E80 Offset: 0xAB5480 VA: 0x180AB6E80
 	private static void OnLaunchProgress(object sender, LoadProgressEventArgs eventArgs) { }
 
-	// RVA: 0xAB6A20 Offset: 0xAB5020 VA: 0x180AB6A20
+	// RVA: 0xAB6CE0 Offset: 0xAB52E0 VA: 0x180AB6CE0
 	private static void OnLaunchCompleted(object sender, LoadCompletedEventArgs eventArgs) { }
 
-	// RVA: 0xAB6DC0 Offset: 0xAB53C0 VA: 0x180AB6DC0
+	// RVA: 0xAB7080 Offset: 0xAB5680 VA: 0x180AB7080
 	private static void OnStateChanged(object sender, StateChangedEventArgs eventArgs) { }
 
-	// RVA: 0xAB7130 Offset: 0xAB5730 VA: 0x180AB7130
+	// RVA: 0xAB73F0 Offset: 0xAB59F0 VA: 0x180AB73F0
 	private static void SendToServer(byte[] message, int messageLength) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xD7360 Offset: 0xD6760 VA: 0x1800D7360
-	// RVA: 0xAB6640 Offset: 0xAB4C40 VA: 0x180AB6640
+	// RVA: 0xAB6900 Offset: 0xAB4F00 VA: 0x180AB6900
 	public static IEnumerator DoStartup() { }
 
-	// RVA: 0xAB6580 Offset: 0xAB4B80 VA: 0x180AB6580
+	// RVA: 0xAB6840 Offset: 0xAB4E40 VA: 0x180AB6840
 	public static void DoShutdown() { }
 
-	// RVA: 0xAB6690 Offset: 0xAB4C90 VA: 0x180AB6690
+	// RVA: 0xAB6950 Offset: 0xAB4F50 VA: 0x180AB6950
 	public static void DoUpdate() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD7480 Offset: 0xD6880 VA: 0x1800D7480
-	// RVA: 0xAB6960 Offset: 0xAB4F60 VA: 0x180AB6960
+	// RVA: 0xAB6C20 Offset: 0xAB5220 VA: 0x180AB6C20
 	public static Task OnJoinServer() { }
 
-	// RVA: 0xAB6C70 Offset: 0xAB5270 VA: 0x180AB6C70
+	// RVA: 0xAB6F30 Offset: 0xAB5530 VA: 0x180AB6F30
 	public static void OnLeaveServer() { }
 
-	// RVA: 0xAB6CF0 Offset: 0xAB52F0 VA: 0x180AB6CF0
+	// RVA: 0xAB6FB0 Offset: 0xAB55B0 VA: 0x180AB6FB0
 	public static void OnMessageReceived(Message message) { }
 
-	// RVA: 0xAB7360 Offset: 0xAB5960 VA: 0x180AB7360
+	// RVA: 0xAB7620 Offset: 0xAB5C20 VA: 0x180AB7620
 	private static void .cctor() { }
 
 }
@@ -78,7 +78,7 @@ private sealed class EAC.<DoStartup>d__12 : IEnumerator<object>, IEnumerator, ID
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xAC59E0 Offset: 0xAC3FE0 VA: 0x180AC59E0 Slot: 6
+	// RVA: 0xAC5CA0 Offset: 0xAC42A0 VA: 0x180AC5CA0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -86,7 +86,7 @@ private sealed class EAC.<DoStartup>d__12 : IEnumerator<object>, IEnumerator, ID
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAC5D20 Offset: 0xAC4320 VA: 0x180AC5D20 Slot: 8
+	// RVA: 0xAC5FE0 Offset: 0xAC45E0 VA: 0x180AC5FE0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

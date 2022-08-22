@@ -27,61 +27,61 @@ public class IPAddress // TypeDefIndex: 2882
 
 	// Methods
 
-	// RVA: 0x1343FE0 Offset: 0x13425E0 VA: 0x181343FE0
+	// RVA: 0x13442A0 Offset: 0x13428A0 VA: 0x1813442A0
 	public void .ctor(long newAddress) { }
 
-	// RVA: 0x1343CC0 Offset: 0x13422C0 VA: 0x181343CC0
+	// RVA: 0x1343F80 Offset: 0x1342580 VA: 0x181343F80
 	public void .ctor(byte[] address, long scopeid) { }
 
-	// RVA: 0x1343ED0 Offset: 0x13424D0 VA: 0x181343ED0
+	// RVA: 0x1344190 Offset: 0x1342790 VA: 0x181344190
 	private void .ctor(ushort[] address, uint scopeid) { }
 
-	// RVA: 0x1343F70 Offset: 0x1342570 VA: 0x181343F70
+	// RVA: 0x1344230 Offset: 0x1342830 VA: 0x181344230
 	internal void .ctor(int newAddress) { }
 
-	// RVA: 0x1343990 Offset: 0x1341F90 VA: 0x181343990
+	// RVA: 0x1343C50 Offset: 0x1342250 VA: 0x181343C50
 	public static bool TryParse(string ipString, out IPAddress address) { }
 
-	// RVA: 0x13436A0 Offset: 0x1341CA0 VA: 0x1813436A0
+	// RVA: 0x1343960 Offset: 0x1341F60 VA: 0x181343960
 	public static IPAddress Parse(string ipString) { }
 
-	// RVA: 0x1343130 Offset: 0x1341730 VA: 0x181343130
+	// RVA: 0x13433F0 Offset: 0x13419F0 VA: 0x1813433F0
 	private static IPAddress InternalParse(string ipString, bool tryParse) { }
 
-	// RVA: 0x1344090 Offset: 0x1342690 VA: 0x181344090
+	// RVA: 0x1344350 Offset: 0x1342950 VA: 0x181344350
 	public long get_Address() { }
 
-	// RVA: 0x1342E80 Offset: 0x1341480 VA: 0x181342E80
+	// RVA: 0x1343140 Offset: 0x1341740 VA: 0x181343140
 	public byte[] GetAddressBytes() { }
 
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	public AddressFamily get_AddressFamily() { }
 
-	// RVA: 0x1344190 Offset: 0x1342790 VA: 0x181344190
+	// RVA: 0x1344450 Offset: 0x1342A50 VA: 0x181344450
 	public long get_ScopeId() { }
 
-	// RVA: 0x1343700 Offset: 0x1341D00 VA: 0x181343700 Slot: 3
+	// RVA: 0x13439C0 Offset: 0x1341FC0 VA: 0x1813439C0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1343470 Offset: 0x1341A70 VA: 0x181343470
+	// RVA: 0x1343730 Offset: 0x1341D30 VA: 0x181343730
 	public static bool IsLoopback(IPAddress address) { }
 
-	// RVA: 0x1344100 Offset: 0x1342700 VA: 0x181344100
+	// RVA: 0x13443C0 Offset: 0x13429C0 VA: 0x1813443C0
 	internal bool get_IsBroadcast() { }
 
-	// RVA: 0x1342D40 Offset: 0x1341340 VA: 0x181342D40
+	// RVA: 0x1343000 Offset: 0x1341600 VA: 0x181343000
 	internal bool Equals(object comparandObj, bool compareScopeId) { }
 
-	// RVA: 0x1342E70 Offset: 0x1341470 VA: 0x181342E70 Slot: 0
+	// RVA: 0x1343130 Offset: 0x1341730 VA: 0x181343130 Slot: 0
 	public override bool Equals(object comparand) { }
 
-	// RVA: 0x1343030 Offset: 0x1341630 VA: 0x181343030 Slot: 2
+	// RVA: 0x13432F0 Offset: 0x13418F0 VA: 0x1813432F0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1343570 Offset: 0x1341B70 VA: 0x181343570
+	// RVA: 0x1343830 Offset: 0x1341E30 VA: 0x181343830
 	public IPAddress MapToIPv6() { }
 
-	// RVA: 0x1343A10 Offset: 0x1342010 VA: 0x181343A10
+	// RVA: 0x1343CD0 Offset: 0x13422D0 VA: 0x181343CD0
 	private static void .cctor() { }
 
 }

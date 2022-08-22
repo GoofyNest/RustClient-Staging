@@ -6,25 +6,25 @@ public class IceFence : GraveyardFence // TypeDefIndex: 8822
 
 	// Methods
 
-	// RVA: 0x808DB0 Offset: 0x8073B0 VA: 0x180808DB0
+	// RVA: 0x808EC0 Offset: 0x8074C0 VA: 0x180808EC0
 	public int GetStyleFromID() { }
 
-	// RVA: 0x808B80 Offset: 0x807180 VA: 0x180808B80 Slot: 14
+	// RVA: 0x808C90 Offset: 0x807290 VA: 0x180808C90 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x809000 Offset: 0x807600 VA: 0x180809000 Slot: 62
+	// RVA: 0x809110 Offset: 0x807710 VA: 0x180809110 Slot: 62
 	protected override void SpawnGibs() { }
 
-	// RVA: 0x808DF0 Offset: 0x8073F0 VA: 0x180808DF0
+	// RVA: 0x808F00 Offset: 0x807500 VA: 0x180808F00
 	public void InitStyle() { }
 
-	// RVA: 0x808F20 Offset: 0x807520 VA: 0x180808F20
+	// RVA: 0x809030 Offset: 0x807630 VA: 0x180809030
 	public void SetStyle(int style) { }
 
-	// RVA: 0x809040 Offset: 0x807640 VA: 0x180809040 Slot: 145
+	// RVA: 0x809150 Offset: 0x807750 VA: 0x180809150 Slot: 145
 	public override void UpdatePillars() { }
 
-	// RVA: 0x809050 Offset: 0x807650 VA: 0x180809050
+	// RVA: 0x809160 Offset: 0x807760 VA: 0x180809160
 	public void .ctor() { }
 
 }

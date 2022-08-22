@@ -16,7 +16,7 @@ internal struct PersonaStateChange_t : ICallbackData // TypeDefIndex: 5307
 	// RVA: 0x1EC570 Offset: 0x1EB970 VA: 0x1801EC570 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1375620 Offset: 0x1373C20 VA: 0x181375620
+	// RVA: 0x13758E0 Offset: 0x1373EE0 VA: 0x1813758E0
 	private static void .cctor() { }
 
 }

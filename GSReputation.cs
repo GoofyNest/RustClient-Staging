@@ -21,7 +21,7 @@ internal struct GSReputation_t : ICallbackData // TypeDefIndex: 5497
 	// RVA: 0x1E7730 Offset: 0x1E6B30 VA: 0x1801E7730 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370C50 Offset: 0x136F250 VA: 0x181370C50
+	// RVA: 0x1370F10 Offset: 0x136F510 VA: 0x181370F10
 	private static void .cctor() { }
 
 }

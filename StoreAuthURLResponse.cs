@@ -15,7 +15,7 @@ internal struct StoreAuthURLResponse_t : ICallbackData // TypeDefIndex: 5304
 	// RVA: 0x1DAEB0 Offset: 0x1DA2B0 VA: 0x1801DAEB0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1290FD0 Offset: 0x128F5D0 VA: 0x181290FD0
+	// RVA: 0x1291290 Offset: 0x128F890 VA: 0x181291290
 	private static void .cctor() { }
 
 }

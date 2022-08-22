@@ -37,25 +37,25 @@ public class BloomAndFlares : PostEffectsBase // TypeDefIndex: 8161
 
 	// Methods
 
-	// RVA: 0x12C3C70 Offset: 0x12C2270 VA: 0x1812C3C70 Slot: 4
+	// RVA: 0x12C3F30 Offset: 0x12C2530 VA: 0x1812C3F30 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x12C3E00 Offset: 0x12C2400 VA: 0x1812C3E00
+	// RVA: 0x12C40C0 Offset: 0x12C26C0 VA: 0x1812C40C0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x12C37A0 Offset: 0x12C1DA0 VA: 0x1812C37A0
+	// RVA: 0x12C3A60 Offset: 0x12C2060 VA: 0x1812C3A60
 	private void AddTo(float intensity_, RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x12C3850 Offset: 0x12C1E50 VA: 0x1812C3850
+	// RVA: 0x12C3B10 Offset: 0x12C2110 VA: 0x1812C3B10
 	private void BlendFlares(RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x12C3B20 Offset: 0x12C2120 VA: 0x1812C3B20
+	// RVA: 0x12C3DE0 Offset: 0x12C23E0 VA: 0x1812C3DE0
 	private void BrightFilter(float thresh, float useAlphaAsMask, RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x12C4AD0 Offset: 0x12C30D0 VA: 0x1812C4AD0
+	// RVA: 0x12C4D90 Offset: 0x12C3390 VA: 0x1812C4D90
 	private void Vignette(float amount, RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x12C4C30 Offset: 0x12C3230 VA: 0x1812C4C30
+	// RVA: 0x12C4EF0 Offset: 0x12C34F0 VA: 0x1812C4EF0
 	public void .ctor() { }
 
 }

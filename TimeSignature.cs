@@ -12,7 +12,7 @@ public sealed class TimeSignature // TypeDefIndex: 7457
 
 	// Methods
 
-	// RVA: 0x22022B0 Offset: 0x22008B0 VA: 0x1822022B0
+	// RVA: 0x2202570 Offset: 0x2200B70 VA: 0x182202570
 	public void .ctor(int numerator, int denominator) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -23,19 +23,19 @@ public sealed class TimeSignature // TypeDefIndex: 7457
 	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0
 	public int get_Denominator() { }
 
-	// RVA: 0x2202390 Offset: 0x2200990 VA: 0x182202390
+	// RVA: 0x2202650 Offset: 0x2200C50 VA: 0x182202650
 	public static bool op_Equality(TimeSignature timeSignature1, TimeSignature timeSignature2) { }
 
-	// RVA: 0x22021C0 Offset: 0x22007C0 VA: 0x1822021C0 Slot: 3
+	// RVA: 0x2202480 Offset: 0x2200A80 VA: 0x182202480 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x22020C0 Offset: 0x22006C0 VA: 0x1822020C0 Slot: 0
+	// RVA: 0x2202380 Offset: 0x2200980 VA: 0x182202380 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x2202170 Offset: 0x2200770 VA: 0x182202170 Slot: 2
+	// RVA: 0x2202430 Offset: 0x2200A30 VA: 0x182202430 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x2202240 Offset: 0x2200840 VA: 0x182202240
+	// RVA: 0x2202500 Offset: 0x2200B00 VA: 0x182202500
 	private static void .cctor() { }
 
 }

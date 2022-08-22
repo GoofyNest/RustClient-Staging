@@ -8,64 +8,64 @@ public static class FormatterServices // TypeDefIndex: 1026
 
 	// Methods
 
-	// RVA: 0x11F5480 Offset: 0x11F3A80 VA: 0x1811F5480
+	// RVA: 0x11F5740 Offset: 0x11F3D40 VA: 0x1811F5740
 	private static void .cctor() { }
 
-	// RVA: 0x11F3D20 Offset: 0x11F2320 VA: 0x1811F3D20
+	// RVA: 0x11F3FE0 Offset: 0x11F25E0 VA: 0x1811F3FE0
 	private static MemberInfo[] GetSerializableMembers(RuntimeType type) { }
 
-	// RVA: 0x11F2FC0 Offset: 0x11F15C0 VA: 0x1811F2FC0
+	// RVA: 0x11F3280 Offset: 0x11F1880 VA: 0x1811F3280
 	private static bool CheckSerializable(RuntimeType type) { }
 
-	// RVA: 0x11F4380 Offset: 0x11F2980 VA: 0x1811F4380
+	// RVA: 0x11F4640 Offset: 0x11F2C40 VA: 0x1811F4640
 	private static MemberInfo[] InternalGetSerializableMembers(RuntimeType type) { }
 
-	// RVA: 0x11F3990 Offset: 0x11F1F90 VA: 0x1811F3990
+	// RVA: 0x11F3C50 Offset: 0x11F2250 VA: 0x1811F3C50
 	private static bool GetParentTypes(RuntimeType parentType, out RuntimeType[] parentTypes, out int parentTypeCount) { }
 
-	// RVA: 0x11F3ED0 Offset: 0x11F24D0 VA: 0x1811F3ED0
+	// RVA: 0x11F4190 Offset: 0x11F2790 VA: 0x1811F4190
 	public static MemberInfo[] GetSerializableMembers(Type type, StreamingContext context) { }
 
-	// RVA: 0x11F41D0 Offset: 0x11F27D0 VA: 0x1811F41D0
+	// RVA: 0x11F4490 Offset: 0x11F2A90 VA: 0x1811F4490
 	public static object GetUninitializedObject(Type type) { }
 
-	// RVA: 0x11F55F0 Offset: 0x11F3BF0 VA: 0x1811F55F0
+	// RVA: 0x11F58B0 Offset: 0x11F3EB0 VA: 0x1811F58B0
 	private static object nativeGetUninitializedObject(RuntimeType type) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	private static bool GetEnableUnsafeTypeForwarders() { }
 
-	// RVA: 0x11F53A0 Offset: 0x11F39A0 VA: 0x1811F53A0
+	// RVA: 0x11F5660 Offset: 0x11F3C60 VA: 0x1811F5660
 	internal static bool UnsafeTypeForwardersIsEnabled() { }
 
-	// RVA: 0x11F51B0 Offset: 0x11F37B0 VA: 0x1811F51B0
+	// RVA: 0x11F5470 Offset: 0x11F3A70 VA: 0x1811F5470
 	internal static void SerializationSetValue(MemberInfo fi, object target, object value) { }
 
-	// RVA: 0x11F4EA0 Offset: 0x11F34A0 VA: 0x1811F4EA0
+	// RVA: 0x11F5160 Offset: 0x11F3760 VA: 0x1811F5160
 	public static object PopulateObjectMembers(object obj, MemberInfo[] members, object[] data) { }
 
-	// RVA: 0x11F3620 Offset: 0x11F1C20 VA: 0x1811F3620
+	// RVA: 0x11F38E0 Offset: 0x11F1EE0 VA: 0x1811F38E0
 	public static object[] GetObjectData(object obj, MemberInfo[] members) { }
 
-	// RVA: 0x11F4120 Offset: 0x11F2720 VA: 0x1811F4120
+	// RVA: 0x11F43E0 Offset: 0x11F29E0 VA: 0x1811F43E0
 	public static Type GetTypeFromAssembly(Assembly assem, string name) { }
 
-	// RVA: 0x11F4E90 Offset: 0x11F3490 VA: 0x1811F4E90
+	// RVA: 0x11F5150 Offset: 0x11F3750 VA: 0x1811F5150
 	internal static Assembly LoadAssemblyFromString(string assemblyName) { }
 
-	// RVA: 0x11F4E10 Offset: 0x11F3410 VA: 0x1811F4E10
+	// RVA: 0x11F50D0 Offset: 0x11F36D0 VA: 0x1811F50D0
 	internal static Assembly LoadAssemblyFromStringNoThrow(string assemblyName) { }
 
-	// RVA: 0x11F2FF0 Offset: 0x11F15F0 VA: 0x1811F2FF0
+	// RVA: 0x11F32B0 Offset: 0x11F18B0 VA: 0x1811F32B0
 	internal static string GetClrAssemblyName(Type type, out bool hasTypeForwardedFrom) { }
 
-	// RVA: 0x11F3590 Offset: 0x11F1B90 VA: 0x1811F3590
+	// RVA: 0x11F3850 Offset: 0x11F1E50 VA: 0x1811F3850
 	internal static string GetClrTypeFullName(Type type) { }
 
-	// RVA: 0x11F3150 Offset: 0x11F1750 VA: 0x1811F3150
+	// RVA: 0x11F3410 Offset: 0x11F1A10 VA: 0x1811F3410
 	private static string GetClrTypeFullNameForArray(Type type) { }
 
-	// RVA: 0x11F3330 Offset: 0x11F1930 VA: 0x1811F3330
+	// RVA: 0x11F35F0 Offset: 0x11F1BF0 VA: 0x1811F35F0
 	private static string GetClrTypeFullNameForNonArrayTypes(Type type) { }
 
 }
@@ -79,7 +79,7 @@ private sealed class FormatterServices.<>c__DisplayClass9_0 // TypeDefIndex: 102
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1206880 Offset: 0x1204E80 VA: 0x181206880
+	// RVA: 0x1206B40 Offset: 0x1205140 VA: 0x181206B40
 	internal MemberInfo[] <GetSerializableMembers>b__0(MemberHolder _) { }
 
 }

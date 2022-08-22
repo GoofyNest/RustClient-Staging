@@ -19,28 +19,28 @@ public class ZiplineAudio : MonoBehaviour // TypeDefIndex: 8670
 
 	// Methods
 
-	// RVA: 0x1A8C720 Offset: 0x1A8AD20 VA: 0x181A8C720
+	// RVA: 0x1A8C9E0 Offset: 0x1A8AFE0 VA: 0x181A8C9E0
 	private void Update() { }
 
-	// RVA: 0x1A8C230 Offset: 0x1A8A830 VA: 0x181A8C230
+	// RVA: 0x1A8C4F0 Offset: 0x1A8AAF0 VA: 0x181A8C4F0
 	private void StartMovementLoop() { }
 
-	// RVA: 0x1A8C5A0 Offset: 0x1A8ABA0 VA: 0x181A8C5A0
+	// RVA: 0x1A8C860 Offset: 0x1A8AE60 VA: 0x181A8C860
 	private void StopMovementLoop() { }
 
-	// RVA: 0x1A8C0F0 Offset: 0x1A8A6F0 VA: 0x181A8C0F0
+	// RVA: 0x1A8C3B0 Offset: 0x1A8A9B0 VA: 0x181A8C3B0
 	private void StartFrictionLoop() { }
 
-	// RVA: 0x1A8C4F0 Offset: 0x1A8AAF0 VA: 0x181A8C4F0
+	// RVA: 0x1A8C7B0 Offset: 0x1A8ADB0 VA: 0x181A8C7B0
 	private void StopFrictionLoop() { }
 
-	// RVA: 0x1A8C3A0 Offset: 0x1A8A9A0 VA: 0x181A8C3A0
+	// RVA: 0x1A8C660 Offset: 0x1A8AC60 VA: 0x181A8C660
 	private void StartSparksLoop() { }
 
-	// RVA: 0x1A8C660 Offset: 0x1A8AC60 VA: 0x181A8C660
+	// RVA: 0x1A8C920 Offset: 0x1A8AF20 VA: 0x181A8C920
 	private void StopSparksLoop() { }
 
-	// RVA: 0x1188640 Offset: 0x1186C40 VA: 0x181188640
+	// RVA: 0x1188900 Offset: 0x1186F00 VA: 0x181188900
 	public void EnableSparksAudio(bool sparksEnabled) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

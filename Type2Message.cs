@@ -11,25 +11,25 @@ public class Type2Message : MessageBase // TypeDefIndex: 1732
 
 	// Methods
 
-	// RVA: 0x1AC5280 Offset: 0x1AC3880 VA: 0x181AC5280
+	// RVA: 0x1AC5540 Offset: 0x1AC3B40 VA: 0x181AC5540
 	public void .ctor(byte[] message) { }
 
-	// RVA: 0x1AC50B0 Offset: 0x1AC36B0 VA: 0x181AC50B0 Slot: 1
+	// RVA: 0x1AC5370 Offset: 0x1AC3970 VA: 0x181AC5370 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1AC5320 Offset: 0x1AC3920 VA: 0x181AC5320
+	// RVA: 0x1AC55E0 Offset: 0x1AC3BE0 VA: 0x181AC55E0
 	public byte[] get_Nonce() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public string get_TargetName() { }
 
-	// RVA: 0x1AC53A0 Offset: 0x1AC39A0 VA: 0x181AC53A0
+	// RVA: 0x1AC5660 Offset: 0x1AC3C60 VA: 0x181AC5660
 	public byte[] get_TargetInfo() { }
 
-	// RVA: 0x1AC4F20 Offset: 0x1AC3520 VA: 0x181AC4F20 Slot: 4
+	// RVA: 0x1AC51E0 Offset: 0x1AC37E0 VA: 0x181AC51E0 Slot: 4
 	protected override void Decode(byte[] message) { }
 
-	// RVA: 0x1AC5150 Offset: 0x1AC3750 VA: 0x181AC5150 Slot: 5
+	// RVA: 0x1AC5410 Offset: 0x1AC3A10 VA: 0x181AC5410 Slot: 5
 	public override byte[] GetBytes() { }
 
 }

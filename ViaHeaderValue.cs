@@ -45,29 +45,29 @@ public class ViaHeaderValue : ICloneable // TypeDefIndex: 5810
 	private void set_ProtocolVersion(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public string get_ReceivedBy() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	private void set_ReceivedBy(string value) { }
 
-	// RVA: 0xD71020 Offset: 0xD6F620 VA: 0x180D71020 Slot: 4
+	// RVA: 0xD712E0 Offset: 0xD6F8E0 VA: 0x180D712E0 Slot: 4
 	private object System.ICloneable.Clone() { }
 
-	// RVA: 0x109B070 Offset: 0x1099670 VA: 0x18109B070 Slot: 0
+	// RVA: 0x109B330 Offset: 0x1099930 VA: 0x18109B330 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x109B160 Offset: 0x1099760 VA: 0x18109B160 Slot: 2
+	// RVA: 0x109B420 Offset: 0x1099A20 VA: 0x18109B420 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x109B890 Offset: 0x1099E90 VA: 0x18109B890
+	// RVA: 0x109BB50 Offset: 0x109A150 VA: 0x18109BB50
 	internal static bool TryParse(string input, int minimalCount, out List<ViaHeaderValue> result) { }
 
-	// RVA: 0x109B4E0 Offset: 0x1099AE0 VA: 0x18109B4E0
+	// RVA: 0x109B7A0 Offset: 0x1099DA0 VA: 0x18109B7A0
 	private static bool TryParseElement(Lexer lexer, out ViaHeaderValue parsedValue, out Token t) { }
 
-	// RVA: 0x109B260 Offset: 0x1099860 VA: 0x18109B260 Slot: 3
+	// RVA: 0x109B520 Offset: 0x1099B20 VA: 0x18109B520 Slot: 3
 	public override string ToString() { }
 
 }

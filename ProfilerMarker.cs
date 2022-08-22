@@ -13,17 +13,17 @@ public struct ProfilerMarker // TypeDefIndex: 3296
 
 	[NativeConditionalAttribute] // RVA: 0xE9560 Offset: 0xE8960 VA: 0x1800E9560
 	[ThreadSafeAttribute] // RVA: 0xE9560 Offset: 0xE8960 VA: 0x1800E9560
-	// RVA: 0x1832970 Offset: 0x1830F70 VA: 0x181832970
+	// RVA: 0x1832C30 Offset: 0x1831230 VA: 0x181832C30
 	internal static IntPtr Internal_Create(string name, ushort flags) { }
 
 	[NativeConditionalAttribute] // RVA: 0xE9560 Offset: 0xE8960 VA: 0x1800E9560
 	[ThreadSafeAttribute] // RVA: 0xE9560 Offset: 0xE8960 VA: 0x1800E9560
-	// RVA: 0x1832930 Offset: 0x1830F30 VA: 0x181832930
+	// RVA: 0x1832BF0 Offset: 0x18311F0 VA: 0x181832BF0
 	internal static void Internal_Begin(IntPtr markerPtr) { }
 
 	[NativeConditionalAttribute] // RVA: 0xE9560 Offset: 0xE8960 VA: 0x1800E9560
 	[ThreadSafeAttribute] // RVA: 0xE9560 Offset: 0xE8960 VA: 0x1800E9560
-	// RVA: 0x18329C0 Offset: 0x1830FC0 VA: 0x1818329C0
+	// RVA: 0x1832C80 Offset: 0x1831280 VA: 0x181832C80
 	internal static void Internal_End(IntPtr markerPtr) { }
 
 }

@@ -22,29 +22,29 @@ public class HttpClientHandler : HttpMessageHandler // TypeDefIndex: 5740
 
 	// Methods
 
-	// RVA: 0x1089710 Offset: 0x1087D10 VA: 0x181089710
+	// RVA: 0x10899D0 Offset: 0x1087FD0 VA: 0x1810899D0
 	public void .ctor() { }
 
-	// RVA: 0x10897B0 Offset: 0x1087DB0 VA: 0x1810897B0
+	// RVA: 0x1089A70 Offset: 0x1088070 VA: 0x181089A70
 	public CookieContainer get_CookieContainer() { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	public long get_MaxRequestContentBufferSize() { }
 
-	// RVA: 0x10894A0 Offset: 0x1087AA0 VA: 0x1810894A0 Slot: 5
+	// RVA: 0x1089760 Offset: 0x1087D60 VA: 0x181089760 Slot: 5
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x1088A30 Offset: 0x1087030 VA: 0x181088A30 Slot: 7
+	// RVA: 0x1088CF0 Offset: 0x10872F0 VA: 0x181088CF0 Slot: 7
 	internal virtual HttpWebRequest CreateWebRequest(HttpRequestMessage request) { }
 
-	// RVA: 0x10887C0 Offset: 0x1086DC0 VA: 0x1810887C0
+	// RVA: 0x1088A80 Offset: 0x1087080 VA: 0x181088A80
 	private HttpResponseMessage CreateResponseMessage(HttpWebResponse wr, HttpRequestMessage requestMessage, CancellationToken cancellationToken) { }
 
-	// RVA: 0x1089520 Offset: 0x1087B20 VA: 0x181089520
+	// RVA: 0x10897E0 Offset: 0x1087DE0 VA: 0x1810897E0
 	private static bool MethodHasBody(HttpMethod method) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD17D0 Offset: 0xD0BD0 VA: 0x1800D17D0
-	// RVA: 0x10895E0 Offset: 0x1087BE0 VA: 0x1810895E0 Slot: 6
+	// RVA: 0x10898A0 Offset: 0x1087EA0 VA: 0x1810898A0 Slot: 6
 	protected internal override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken) { }
 
 }
@@ -57,16 +57,16 @@ private sealed class HttpClientHandler.<>c // TypeDefIndex: 5741
 
 	// Methods
 
-	// RVA: 0x109AEE0 Offset: 0x10994E0 VA: 0x18109AEE0
+	// RVA: 0x109B1A0 Offset: 0x10997A0 VA: 0x18109B1A0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x109AA70 Offset: 0x1099070 VA: 0x18109AA70
+	// RVA: 0x109AD30 Offset: 0x1099330 VA: 0x18109AD30
 	internal bool <CreateWebRequest>b__61_0(string l) { }
 
-	// RVA: 0x109AAB0 Offset: 0x10990B0 VA: 0x18109AAB0
+	// RVA: 0x109AD70 Offset: 0x1099370 VA: 0x18109AD70
 	internal void <SendAsync>b__64_0(object l) { }
 
 }

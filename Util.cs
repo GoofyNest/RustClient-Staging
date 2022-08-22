@@ -23,7 +23,7 @@ public static class Util // TypeDefIndex: 11649
 public static class Util // TypeDefIndex: 11676
 {	// Methods
 
-	// RVA: 0x764B80 Offset: 0x763180 VA: 0x180764B80
+	// RVA: 0x764C90 Offset: 0x763290 VA: 0x180764C90
 	public static Info GetInfo(GameObject obj, BasePlayer player) { }
 
 }

@@ -8,20 +8,20 @@ public static class Output // TypeDefIndex: 11988
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x794E70 Offset: 0x793470 VA: 0x180794E70
+	// RVA: 0x794F80 Offset: 0x793580 VA: 0x180794F80
 	public static void add_OnMessage(Action<string, string, LogType> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x794F60 Offset: 0x793560 VA: 0x180794F60
+	// RVA: 0x795070 Offset: 0x793670 VA: 0x180795070
 	public static void remove_OnMessage(Action<string, string, LogType> value) { }
 
-	// RVA: 0x794750 Offset: 0x792D50 VA: 0x180794750
+	// RVA: 0x794860 Offset: 0x792E60 VA: 0x180794860
 	public static void Install() { }
 
-	// RVA: 0x794820 Offset: 0x792E20 VA: 0x180794820
+	// RVA: 0x794930 Offset: 0x792F30 VA: 0x180794930
 	internal static void LogHandler(string log, string stacktrace, LogType type) { }
 
-	// RVA: 0x794DF0 Offset: 0x7933F0 VA: 0x180794DF0
+	// RVA: 0x794F00 Offset: 0x793500 VA: 0x180794F00
 	private static void .cctor() { }
 
 }

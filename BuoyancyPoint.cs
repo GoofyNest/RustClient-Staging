@@ -12,16 +12,16 @@ public class BuoyancyPoint : MonoBehaviour // TypeDefIndex: 9702
 
 	// Methods
 
-	// RVA: 0x6F0500 Offset: 0x6EEB00 VA: 0x1806F0500
+	// RVA: 0x6F0610 Offset: 0x6EEC10 VA: 0x1806F0610
 	public void Start() { }
 
-	// RVA: 0x6F0430 Offset: 0x6EEA30 VA: 0x1806F0430
+	// RVA: 0x6F0540 Offset: 0x6EEB40 VA: 0x1806F0540
 	public void OnDrawGizmos() { }
 
-	// RVA: 0x6F05B0 Offset: 0x6EEBB0 VA: 0x1806F05B0
+	// RVA: 0x6F06C0 Offset: 0x6EECC0 VA: 0x1806F06C0
 	public void .ctor() { }
 
-	// RVA: 0x6F0530 Offset: 0x6EEB30 VA: 0x1806F0530
+	// RVA: 0x6F0640 Offset: 0x6EEC40 VA: 0x1806F0640
 	private static void .cctor() { }
 
 }

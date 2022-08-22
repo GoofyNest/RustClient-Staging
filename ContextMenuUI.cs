@@ -1,34 +1,34 @@
 public static class ContextMenuUI // TypeDefIndex: 10840
 {	// Fields
-	public static ContextMenuUI.MenuType type; // 0x2B101B4
+	public static ContextMenuUI.MenuType type; // 0x2B111F4
 
 	// Methods
 
-	// RVA: 0x6BA020 Offset: 0x6B8620 VA: 0x1806BA020
+	// RVA: 0x6BA130 Offset: 0x6B8730 VA: 0x1806BA130
 	public static void Start(ContextMenuUI.MenuType menuType) { }
 
-	// RVA: 0x6B9200 Offset: 0x6B7800 VA: 0x1806B9200
+	// RVA: 0x6B9310 Offset: 0x6B7910 VA: 0x1806B9310
 	public static void AddOption(string name, string desc, Sprite icon, Action<BasePlayer> action, int order = 0, bool disabled = False, bool selected = False, string requirements = "", bool allowMerge = False, Nullable<PieMenu.MenuOption.ColorMode> colorMode) { }
 
-	// RVA: 0x6B95F0 Offset: 0x6B7BF0 VA: 0x1806B95F0
+	// RVA: 0x6B9700 Offset: 0x6B7D00 VA: 0x1806B9700
 	public static void End() { }
 
-	// RVA: 0x6B9C50 Offset: 0x6B8250 VA: 0x1806B9C50
+	// RVA: 0x6B9D60 Offset: 0x6B8360 VA: 0x1806B9D60
 	public static bool IsOpen() { }
 
-	// RVA: 0x6B9400 Offset: 0x6B7A00 VA: 0x1806B9400
+	// RVA: 0x6B9510 Offset: 0x6B7B10 VA: 0x1806B9510
 	public static void Cancel(bool playSound = True) { }
 
-	// RVA: 0x6B9530 Offset: 0x6B7B30 VA: 0x1806B9530
+	// RVA: 0x6B9640 Offset: 0x6B7C40 VA: 0x1806B9640
 	public static void DoSelect() { }
 
-	// RVA: 0x6B9CC0 Offset: 0x6B82C0 VA: 0x1806B9CC0
+	// RVA: 0x6B9DD0 Offset: 0x6B83D0 VA: 0x1806B9DD0
 	public static void Open(List<Option> options, ContextMenuUI.MenuType menuType) { }
 
-	// RVA: 0x6B9660 Offset: 0x6B7C60 VA: 0x1806B9660
+	// RVA: 0x6B9770 Offset: 0x6B7D70 VA: 0x1806B9770
 	public static void FrameUpdate(BasePlayer player) { }
 
-	// RVA: 0x6B9A70 Offset: 0x6B8070 VA: 0x1806B9A70
+	// RVA: 0x6B9B80 Offset: 0x6B8180 VA: 0x1806B9B80
 	public static bool IsButtonDownRaw(string bind) { }
 
 }

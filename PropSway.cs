@@ -8,10 +8,10 @@ public class PropSway : MonoBehaviour // TypeDefIndex: 9672
 
 	// Methods
 
-	// RVA: 0x699570 Offset: 0x697B70 VA: 0x180699570
+	// RVA: 0x699680 Offset: 0x697C80 VA: 0x180699680
 	public void Update() { }
 
-	// RVA: 0x699930 Offset: 0x697F30 VA: 0x180699930
+	// RVA: 0x699A40 Offset: 0x698040 VA: 0x180699A40
 	public void .ctor() { }
 
 }

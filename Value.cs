@@ -29,22 +29,22 @@ public class Value // TypeDefIndex: 8139
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(ValueType type) { }
 
-	// RVA: 0x107AE60 Offset: 0x1079460 VA: 0x18107AE60
+	// RVA: 0x107B120 Offset: 0x1079720 VA: 0x18107B120
 	public void .ctor(string str) { }
 
-	// RVA: 0x107AEA0 Offset: 0x10794A0 VA: 0x18107AEA0
+	// RVA: 0x107B160 Offset: 0x1079760 VA: 0x18107B160
 	public void .ctor(double number) { }
 
-	// RVA: 0x107ADD0 Offset: 0x10793D0 VA: 0x18107ADD0
+	// RVA: 0x107B090 Offset: 0x1079690 VA: 0x18107B090
 	public void .ctor(Object obj) { }
 
-	// RVA: 0x107AE20 Offset: 0x1079420 VA: 0x18107AE20
+	// RVA: 0x107B0E0 Offset: 0x10796E0 VA: 0x18107B0E0
 	public void .ctor(Array array) { }
 
-	// RVA: 0x107AED0 Offset: 0x10794D0 VA: 0x18107AED0
+	// RVA: 0x107B190 Offset: 0x1079790 VA: 0x18107B190
 	public void .ctor(bool boolean) { }
 
-	// RVA: 0x107ACA0 Offset: 0x10792A0 VA: 0x18107ACA0
+	// RVA: 0x107AF60 Offset: 0x1079560 VA: 0x18107AF60
 	public void .ctor(Value value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -64,19 +64,19 @@ public class Value // TypeDefIndex: 8139
 	public void set_Str(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107AF00 Offset: 0x1079500 VA: 0x18107AF00
+	// RVA: 0x107B1C0 Offset: 0x10797C0 VA: 0x18107B1C0
 	public double get_Number() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107B130 Offset: 0x1079730 VA: 0x18107B130
+	// RVA: 0x107B3F0 Offset: 0x10799F0 VA: 0x18107B3F0
 	public void set_Number(double value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public Object get_Obj() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	public void set_Obj(Object value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -88,11 +88,11 @@ public class Value // TypeDefIndex: 8139
 	public void set_Array(Array value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1040 Offset: 0x8BF640 VA: 0x1808C1040
+	// RVA: 0x8C1150 Offset: 0x8BF750 VA: 0x1808C1150
 	public bool get_Boolean() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x78E170 Offset: 0x78C770 VA: 0x18078E170
+	// RVA: 0x78E280 Offset: 0x78C880 VA: 0x18078E280
 	public void set_Boolean(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -103,22 +103,22 @@ public class Value // TypeDefIndex: 8139
 	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
 	public void set_Parent(Value value) { }
 
-	// RVA: 0x107B050 Offset: 0x1079650 VA: 0x18107B050
+	// RVA: 0x107B310 Offset: 0x1079910 VA: 0x18107B310
 	public static Value op_Implicit(string str) { }
 
-	// RVA: 0x107AF90 Offset: 0x1079590 VA: 0x18107AF90
+	// RVA: 0x107B250 Offset: 0x1079850 VA: 0x18107B250
 	public static Value op_Implicit(double number) { }
 
-	// RVA: 0x107AF10 Offset: 0x1079510 VA: 0x18107AF10
+	// RVA: 0x107B1D0 Offset: 0x10797D0 VA: 0x18107B1D0
 	public static Value op_Implicit(Object obj) { }
 
-	// RVA: 0x107B0C0 Offset: 0x10796C0 VA: 0x18107B0C0
+	// RVA: 0x107B380 Offset: 0x1079980 VA: 0x18107B380
 	public static Value op_Implicit(Array array) { }
 
-	// RVA: 0x107AFF0 Offset: 0x10795F0 VA: 0x18107AFF0
+	// RVA: 0x107B2B0 Offset: 0x10798B0 VA: 0x18107B2B0
 	public static Value op_Implicit(bool boolean) { }
 
-	// RVA: 0x107ABB0 Offset: 0x10791B0 VA: 0x18107ABB0 Slot: 3
+	// RVA: 0x107AE70 Offset: 0x1079470 VA: 0x18107AE70 Slot: 3
 	public override string ToString() { }
 
 }

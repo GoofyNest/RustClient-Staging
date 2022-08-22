@@ -19,13 +19,13 @@ public class PlaceMonuments : ProceduralComponent // TypeDefIndex: 10537
 
 	// Methods
 
-	// RVA: 0x917700 Offset: 0x915D00 VA: 0x180917700 Slot: 5
+	// RVA: 0x917810 Offset: 0x915E10 VA: 0x180917810 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x916AF0 Offset: 0x9150F0 VA: 0x180916AF0
+	// RVA: 0x916C00 Offset: 0x915200 VA: 0x180916C00
 	private PlaceMonuments.DistanceInfo GetDistanceInfo(List<PlaceMonuments.SpawnInfo> spawns, Prefab<MonumentInfo> prefab, Vector3 monumentPos, Quaternion monumentRot, Vector3 monumentScale, Vector3 dungeonPos) { }
 
-	// RVA: 0x918E70 Offset: 0x917470 VA: 0x180918E70
+	// RVA: 0x918F80 Offset: 0x917580 VA: 0x180918F80
 	public void .ctor() { }
 
 }
@@ -68,13 +68,13 @@ private sealed class PlaceMonuments.<>c // TypeDefIndex: 10541
 
 	// Methods
 
-	// RVA: 0x920AF0 Offset: 0x91F0F0 VA: 0x180920AF0
+	// RVA: 0x920C00 Offset: 0x91F200 VA: 0x180920C00
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x920700 Offset: 0x91ED00 VA: 0x180920700
+	// RVA: 0x920810 Offset: 0x91EE10 VA: 0x180920810
 	internal string <Process>b__15_0(string folder) { }
 
 }

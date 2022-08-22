@@ -42,14 +42,14 @@ internal sealed class InternalThread : CriticalFinalizerObject // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1494C10 Offset: 0x1493210 VA: 0x181494C10
+	// RVA: 0x1494ED0 Offset: 0x14934D0 VA: 0x181494ED0
 	private void Thread_free_internal() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x1494B80 Offset: 0x1493180 VA: 0x181494B80 Slot: 1
+	// RVA: 0x1494E40 Offset: 0x1493440 VA: 0x181494E40 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1494C20 Offset: 0x1493220 VA: 0x181494C20
+	// RVA: 0x1494EE0 Offset: 0x14934E0 VA: 0x181494EE0
 	public void .ctor() { }
 
 }

@@ -60,106 +60,106 @@ public class Debugging : ConsoleSystem // TypeDefIndex: 11900
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6D8960 Offset: 0x6D6F60 VA: 0x1806D8960
+	// RVA: 0x6D8A70 Offset: 0x6D7070 VA: 0x1806D8A70
 	public static void renderinfo(ConsoleSystem.Arg arg) { }
 
-	// RVA: 0x6D8970 Offset: 0x6D6F70 VA: 0x1806D8970
+	// RVA: 0x6D8A80 Offset: 0x6D7080 VA: 0x1806D8A80
 	public static void set_log(bool value) { }
 
-	// RVA: 0x6D8060 Offset: 0x6D6660 VA: 0x1806D8060
+	// RVA: 0x6D8170 Offset: 0x6D6770 VA: 0x1806D8170
 	public static bool get_log() { }
 
 	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
-	// RVA: 0x6D8BC0 Offset: 0x6D71C0 VA: 0x1806D8BC0
+	// RVA: 0x6D8CD0 Offset: 0x6D72D0 VA: 0x1806D8CD0
 	public static void stall(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x94630 Offset: 0x93A30 VA: 0x180094630
-	// RVA: 0x6D8410 Offset: 0x6D6A10 VA: 0x1806D8410
+	// RVA: 0x6D8520 Offset: 0x6D6B20 VA: 0x1806D8520
 	public static void lookingat(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x947A0 Offset: 0x93BA0 VA: 0x1800947A0
-	// RVA: 0x6D8180 Offset: 0x6D6780 VA: 0x1806D8180
+	// RVA: 0x6D8290 Offset: 0x6D6890 VA: 0x1806D8290
 	public static void lookingat_debug(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x94830 Offset: 0x93C30 VA: 0x180094830
-	// RVA: 0x6D6EA0 Offset: 0x6D54A0 VA: 0x1806D6EA0
+	// RVA: 0x6D6FB0 Offset: 0x6D55B0 VA: 0x1806D6FB0
 	public static void debugcamera(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x948C0 Offset: 0x93CC0 VA: 0x1800948C0
-	// RVA: 0x6D65E0 Offset: 0x6D4BE0 VA: 0x1806D65E0
+	// RVA: 0x6D66F0 Offset: 0x6D4CF0 VA: 0x1806D66F0
 	public static string debugcamera_fov(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x949A0 Offset: 0x93DA0 VA: 0x1800949A0
-	// RVA: 0x6D76D0 Offset: 0x6D5CD0 VA: 0x1806D76D0
+	// RVA: 0x6D77E0 Offset: 0x6D5DE0 VA: 0x1806D77E0
 	public static void debugcamera_target(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x94A10 Offset: 0x93E10 VA: 0x180094A10
-	// RVA: 0x6D6B00 Offset: 0x6D5100 VA: 0x1806D6B00
+	// RVA: 0x6D6C10 Offset: 0x6D5210 VA: 0x1806D6C10
 	public static string debugcamera_guide(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x94B10 Offset: 0x93F10 VA: 0x180094B10
-	// RVA: 0x6D68E0 Offset: 0x6D4EE0 VA: 0x1806D68E0
+	// RVA: 0x6D69F0 Offset: 0x6D4FF0 VA: 0x1806D69F0
 	public static string debugcamera_guide_color(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x94B50 Offset: 0x93F50 VA: 0x180094B50
-	// RVA: 0x6D74F0 Offset: 0x6D5AF0 VA: 0x1806D74F0
+	// RVA: 0x6D7600 Offset: 0x6D5C00 VA: 0x1806D7600
 	public static void debugcamera_shake(float amplitude, float frequency, float duration) { }
 
 	[ClientVar] // RVA: 0x94C30 Offset: 0x94030 VA: 0x180094C30
-	// RVA: 0x6D7600 Offset: 0x6D5C00 VA: 0x1806D7600
+	// RVA: 0x6D7710 Offset: 0x6D5D10 VA: 0x1806D7710
 	public static void debugcamera_stopshake() { }
 
 	[ClientVar] // RVA: 0x94D70 Offset: 0x94170 VA: 0x180094D70
-	// RVA: 0x6D6740 Offset: 0x6D4D40 VA: 0x1806D6740
+	// RVA: 0x6D6850 Offset: 0x6D4E50 VA: 0x1806D6850
 	public static string debugcamera_guide_aspectratio(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6D7270 Offset: 0x6D5870 VA: 0x1806D7270
+	// RVA: 0x6D7380 Offset: 0x6D5980 VA: 0x1806D7380
 	public static void debugcamera_save(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6D6D50 Offset: 0x6D5350 VA: 0x1806D6D50
+	// RVA: 0x6D6E60 Offset: 0x6D5460 VA: 0x1806D6E60
 	public static void debugcamera_load(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6D73A0 Offset: 0x6D59A0 VA: 0x1806D73A0
+	// RVA: 0x6D74B0 Offset: 0x6D5AB0 VA: 0x1806D74B0
 	public static void debugcamera_savetofile(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6D6510 Offset: 0x6D4B10 VA: 0x1806D6510
+	// RVA: 0x6D6620 Offset: 0x6D4C20 VA: 0x1806D6620
 	public static void debugcamera_clear(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6D6C60 Offset: 0x6D5260 VA: 0x1806D6C60
+	// RVA: 0x6D6D70 Offset: 0x6D5370 VA: 0x1806D6D70
 	public static void debugcamera_list(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6D7910 Offset: 0x6D5F10 VA: 0x1806D7910
+	// RVA: 0x6D7A20 Offset: 0x6D6020 VA: 0x1806D7A20
 	public static void debugcamera_targetprint(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x952B0 Offset: 0x946B0 VA: 0x1800952B0
-	// RVA: 0x6D7BF0 Offset: 0x6D61F0 VA: 0x1806D7BF0
+	// RVA: 0x6D7D00 Offset: 0x6D6300 VA: 0x1806D7D00
 	public static Debugging.EntityInfo[] ent_find_radius(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x95370 Offset: 0x94770 VA: 0x180095370
-	// RVA: 0x6D8770 Offset: 0x6D6D70 VA: 0x1806D8770
+	// RVA: 0x6D8880 Offset: 0x6D6E80 VA: 0x1806D8880
 	public static void noclip(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x95460 Offset: 0x94860 VA: 0x180095460
-	// RVA: 0x6D7AB0 Offset: 0x6D60B0 VA: 0x1806D7AB0
+	// RVA: 0x6D7BC0 Offset: 0x6D61C0 VA: 0x1806D7BC0
 	public static void debugcamera_unfreeze(ConsoleSystem.Arg arg) { }
 
-	// RVA: 0x6D80D0 Offset: 0x6D66D0 VA: 0x1806D80D0
+	// RVA: 0x6D81E0 Offset: 0x6D67E0 VA: 0x1806D81E0
 	public static bool get_skyreflection() { }
 
-	// RVA: 0x6D8A50 Offset: 0x6D7050 VA: 0x1806D8A50
+	// RVA: 0x6D8B60 Offset: 0x6D7160 VA: 0x1806D8B60
 	public static void set_skyreflection(bool value) { }
 
-	// RVA: 0x6D64B0 Offset: 0x6D4AB0 VA: 0x1806D64B0
+	// RVA: 0x6D65C0 Offset: 0x6D4BC0 VA: 0x1806D65C0
 	public void .ctor() { }
 
-	// RVA: 0x6D6170 Offset: 0x6D4770 VA: 0x1806D6170
+	// RVA: 0x6D6280 Offset: 0x6D4880 VA: 0x1806D6280
 	private static void .cctor() { }
 
 }
@@ -181,7 +181,7 @@ private sealed class Debugging.<>c__DisplayClass40_0 // TypeDefIndex: 11902
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x6E83D0 Offset: 0x6E69D0 VA: 0x1806E83D0
+	// RVA: 0x6E84E0 Offset: 0x6E6AE0 VA: 0x1806E84E0
 	internal bool <ent_find_radius>b__0(BaseNetworkable x) { }
 
 }
@@ -195,19 +195,19 @@ private sealed class Debugging.<>c // TypeDefIndex: 11903
 
 	// Methods
 
-	// RVA: 0x6E86B0 Offset: 0x6E6CB0 VA: 0x1806E86B0
+	// RVA: 0x6E87C0 Offset: 0x6E6DC0 VA: 0x1806E87C0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x6E8270 Offset: 0x6E6870 VA: 0x1806E8270
+	// RVA: 0x6E8380 Offset: 0x6E6980 VA: 0x1806E8380
 	internal uint <ent_find_radius>b__40_1(BaseNetworkable x) { }
 
-	// RVA: 0x6E8290 Offset: 0x6E6890 VA: 0x1806E8290
+	// RVA: 0x6E83A0 Offset: 0x6E69A0 VA: 0x1806E83A0
 	internal BaseNetworkable <ent_find_radius>b__40_2(IGrouping<uint, BaseNetworkable> x) { }
 
-	// RVA: 0x6E82D0 Offset: 0x6E68D0 VA: 0x1806E82D0
+	// RVA: 0x6E83E0 Offset: 0x6E69E0 VA: 0x1806E83E0
 	internal Debugging.EntityInfo <ent_find_radius>b__40_3(BaseNetworkable x) { }
 
 }

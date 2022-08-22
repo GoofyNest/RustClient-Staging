@@ -6,26 +6,26 @@ public class DroppedItem : WorldItem // TypeDefIndex: 9791
 
 	// Methods
 
-	// RVA: 0xAB28C0 Offset: 0xAB0EC0 VA: 0x180AB28C0 Slot: 30
+	// RVA: 0xAB2B80 Offset: 0xAB1180 VA: 0x180AB2B80 Slot: 30
 	public override void PostInitShared() { }
 
-	// RVA: 0xAB27E0 Offset: 0xAB0DE0 VA: 0x180AB27E0 Slot: 83
+	// RVA: 0xAB2AA0 Offset: 0xAB10A0 VA: 0x180AB2AA0 Slot: 83
 	public override void OnSignal(BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0xAB2690 Offset: 0xAB0C90 VA: 0x180AB2690
+	// RVA: 0xAB2950 Offset: 0xAB0F50 VA: 0x180AB2950
 	private void EnableCollider() { }
 
-	// RVA: 0xAB2720 Offset: 0xAB0D20 VA: 0x180AB2720 Slot: 81
+	// RVA: 0xAB29E0 Offset: 0xAB0FE0 VA: 0x180AB29E0 Slot: 81
 	public override void OnParentChangingClient(Transform oldParent, Transform newParent) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 128
 	public override bool ShouldInheritNetworkGroup() { }
 
-	// RVA: 0xAB2E40 Offset: 0xAB1440 VA: 0x180AB2E40
+	// RVA: 0xAB3100 Offset: 0xAB1700 VA: 0x180AB3100
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAB2E10 Offset: 0xAB1410 VA: 0x180AB2E10
+	// RVA: 0xAB30D0 Offset: 0xAB16D0 VA: 0x180AB30D0
 	private bool <PostInitShared>b__2_0(ItemSkinDirectory.Skin x) { }
 
 }

@@ -6,7 +6,7 @@ public static class IJobParallelForExtensions // TypeDefIndex: 3303
 	public static JobHandle Schedule<T>(T jobData, int arrayLength, int innerloopBatchCount, JobHandle dependsOn) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A39150 Offset: 0x1A37750 VA: 0x181A39150
+	|-RVA: 0x1A39410 Offset: 0x1A37A10 VA: 0x181A39410
 	|-IJobParallelForExtensions.Schedule<MeshPaintable3D.DrawTextureJob>
 	*/
 
@@ -22,7 +22,7 @@ internal struct IJobParallelForExtensions.ParallelForJobStruct<T> // TypeDefInde
 	public static IntPtr Initialize() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AD8B0 Offset: 0x17ABEB0 VA: 0x1817AD8B0
+	|-RVA: 0x17ADB70 Offset: 0x17AC170 VA: 0x1817ADB70
 	|-IJobParallelForExtensions.ParallelForJobStruct<MeshPaintable3D.DrawTextureJob>.Initialize
 	*/
 
@@ -30,7 +30,7 @@ internal struct IJobParallelForExtensions.ParallelForJobStruct<T> // TypeDefInde
 	public static void Execute(ref T jobData, IntPtr additionalPtr, IntPtr bufferRangePatchData, ref JobRanges ranges, int jobIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AD800 Offset: 0x17ABE00 VA: 0x1817AD800
+	|-RVA: 0x17ADAC0 Offset: 0x17AC0C0 VA: 0x1817ADAC0
 	|-IJobParallelForExtensions.ParallelForJobStruct<MeshPaintable3D.DrawTextureJob>.Execute
 	*/
 
@@ -51,7 +51,7 @@ public sealed class IJobParallelForExtensions.ParallelForJobStruct.ExecuteJobFun
 	public virtual void Invoke(ref T data, IntPtr additionalPtr, IntPtr bufferRangePatchData, ref JobRanges ranges, int jobIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AB340 Offset: 0x17A9940 VA: 0x1817AB340
+	|-RVA: 0x17AB600 Offset: 0x17A9C00 VA: 0x1817AB600
 	|-IJobParallelForExtensions.ParallelForJobStruct.ExecuteJobFunction<MeshPaintable3D.DrawTextureJob>.Invoke
 	*/
 
@@ -59,7 +59,7 @@ public sealed class IJobParallelForExtensions.ParallelForJobStruct.ExecuteJobFun
 	public virtual IAsyncResult BeginInvoke(ref T data, IntPtr additionalPtr, IntPtr bufferRangePatchData, ref JobRanges ranges, int jobIndex, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AB160 Offset: 0x17A9760 VA: 0x1817AB160
+	|-RVA: 0x17AB420 Offset: 0x17A9A20 VA: 0x1817AB420
 	|-IJobParallelForExtensions.ParallelForJobStruct.ExecuteJobFunction<MeshPaintable3D.DrawTextureJob>.BeginInvoke
 	*/
 
@@ -67,7 +67,7 @@ public sealed class IJobParallelForExtensions.ParallelForJobStruct.ExecuteJobFun
 	public virtual void EndInvoke(ref T data, ref JobRanges ranges, IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AB320 Offset: 0x17A9920 VA: 0x1817AB320
+	|-RVA: 0x17AB5E0 Offset: 0x17A9BE0 VA: 0x1817AB5E0
 	|-IJobParallelForExtensions.ParallelForJobStruct.ExecuteJobFunction<MeshPaintable3D.DrawTextureJob>.EndInvoke
 	*/
 

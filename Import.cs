@@ -11,17 +11,17 @@ public static class Import // TypeDefIndex: 7791
 	public static T[] FromUrl<T>(string sheetId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A39520 Offset: 0x1A37B20 VA: 0x181A39520
+	|-RVA: 0x1A397E0 Offset: 0x1A37DE0 VA: 0x181A397E0
 	|-Import.FromUrl<object>
 	*/
 
-	// RVA: 0x231FE20 Offset: 0x231E420 VA: 0x18231FE20
+	// RVA: 0x23200E0 Offset: 0x231E6E0 VA: 0x1823200E0
 	private static string[] GetCSVColumns(string line) { }
 
-	// RVA: 0x2320000 Offset: 0x231E600 VA: 0x182320000
+	// RVA: 0x23202C0 Offset: 0x231E8C0 VA: 0x1823202C0
 	private static void MonoSecurityBullshitHack() { }
 
-	// RVA: 0x2320100 Offset: 0x231E700 VA: 0x182320100
+	// RVA: 0x23203C0 Offset: 0x231E9C0 VA: 0x1823203C0
 	private static void .cctor() { }
 
 }
@@ -36,7 +36,7 @@ private sealed class Import.<>c__DisplayClass0_0<T> // TypeDefIndex: 7792
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-Import.<>c__DisplayClass0_0<object>..ctor
 	*/
 
@@ -54,7 +54,7 @@ private sealed class Import.<>c__DisplayClass0_1<T> // TypeDefIndex: 7793
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-Import.<>c__DisplayClass0_1<object>..ctor
 	*/
 
@@ -62,7 +62,7 @@ private sealed class Import.<>c__DisplayClass0_1<T> // TypeDefIndex: 7793
 	internal bool <FromUrl>b__0(PropertyInfo x) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E9070 Offset: 0x15E7670 VA: 0x1815E9070
+	|-RVA: 0x15E9330 Offset: 0x15E7930 VA: 0x1815E9330
 	|-Import.<>c__DisplayClass0_1<object>.<FromUrl>b__0
 	*/
 
@@ -76,13 +76,13 @@ private sealed class Import.<>c // TypeDefIndex: 7794
 
 	// Methods
 
-	// RVA: 0x2320210 Offset: 0x231E810 VA: 0x182320210
+	// RVA: 0x23204D0 Offset: 0x231EAD0 VA: 0x1823204D0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2320160 Offset: 0x231E760 VA: 0x182320160
+	// RVA: 0x2320420 Offset: 0x231EA20 VA: 0x182320420
 	internal string <GetCSVColumns>b__2_0(Match x) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250

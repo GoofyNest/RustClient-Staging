@@ -5,16 +5,16 @@ internal static class Helpers // TypeDefIndex: 5254
 
 	// Methods
 
-	// RVA: 0x12856D0 Offset: 0x1283CD0 VA: 0x1812856D0
+	// RVA: 0x1285990 Offset: 0x1283F90 VA: 0x181285990
 	public static Helpers.Memory TakeMemory() { }
 
-	// RVA: 0x1285290 Offset: 0x1283890 VA: 0x181285290
+	// RVA: 0x1285550 Offset: 0x1283B50 VA: 0x181285550
 	public static byte[] TakeBuffer(int minSize) { }
 
-	// RVA: 0x12851D0 Offset: 0x12837D0 VA: 0x1812851D0
+	// RVA: 0x1285490 Offset: 0x1283A90 VA: 0x181285490
 	internal static string MemoryToString(IntPtr ptr) { }
 
-	// RVA: 0x1285720 Offset: 0x1283D20 VA: 0x181285720
+	// RVA: 0x12859E0 Offset: 0x1283FE0 VA: 0x1812859E0
 	private static void .cctor() { }
 
 }
@@ -39,16 +39,16 @@ internal struct Helpers.Memory : IDisposable // TypeDefIndex: 5255
 	// RVA: 0x1D2EB0 Offset: 0x1D22B0 VA: 0x1801D2EB0
 	private void set_Ptr(IntPtr value) { }
 
-	// RVA: 0x128D7C0 Offset: 0x128BDC0 VA: 0x18128D7C0
+	// RVA: 0x128DA80 Offset: 0x128C080 VA: 0x18128DA80
 	public static IntPtr op_Implicit(in Helpers.Memory m) { }
 
-	// RVA: 0x128D590 Offset: 0x128BB90 VA: 0x18128D590
+	// RVA: 0x128D850 Offset: 0x128BE50 VA: 0x18128D850
 	internal static Helpers.Memory Take() { }
 
 	// RVA: 0x1D30C0 Offset: 0x1D24C0 VA: 0x1801D30C0 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x128D760 Offset: 0x128BD60 VA: 0x18128D760
+	// RVA: 0x128DA20 Offset: 0x128C020 VA: 0x18128DA20
 	private static void .cctor() { }
 
 }

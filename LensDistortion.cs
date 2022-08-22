@@ -25,10 +25,10 @@ public sealed class LensDistortion : PostProcessEffectSettings // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1017FA0 Offset: 0x10165A0 VA: 0x181017FA0 Slot: 4
+	// RVA: 0x1018260 Offset: 0x1016860 VA: 0x181018260 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x10180A0 Offset: 0x10166A0 VA: 0x1810180A0
+	// RVA: 0x1018360 Offset: 0x1016960 VA: 0x181018360
 	public void .ctor() { }
 
 }

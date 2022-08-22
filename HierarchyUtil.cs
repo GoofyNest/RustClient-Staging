@@ -4,10 +4,10 @@ public static class HierarchyUtil // TypeDefIndex: 11385
 
 	// Methods
 
-	// RVA: 0x73B020 Offset: 0x739620 VA: 0x18073B020
+	// RVA: 0x73B130 Offset: 0x739730 VA: 0x18073B130
 	public static GameObject GetRoot(string strName, bool groupActive = True, bool persistant = False) { }
 
-	// RVA: 0x73B220 Offset: 0x739820 VA: 0x18073B220
+	// RVA: 0x73B330 Offset: 0x739930 VA: 0x18073B330
 	private static void .cctor() { }
 
 }

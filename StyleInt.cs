@@ -26,10 +26,10 @@ public struct StyleInt : IStyleValue<int>, IEquatable<StyleInt> // TypeDefIndex:
 	// RVA: 0x13AC10 Offset: 0x13A010 VA: 0x18013AC10
 	internal void .ctor(int v, StyleKeyword keyword) { }
 
-	// RVA: 0xEB9CA0 Offset: 0xEB82A0 VA: 0x180EB9CA0
+	// RVA: 0xEB9F60 Offset: 0xEB8560 VA: 0x180EB9F60
 	public static bool op_Equality(StyleInt lhs, StyleInt rhs) { }
 
-	// RVA: 0xEB9CF0 Offset: 0xEB82F0 VA: 0x180EB9CF0
+	// RVA: 0xEB9FB0 Offset: 0xEB85B0 VA: 0x180EB9FB0
 	public static StyleInt op_Implicit(int v) { }
 
 	// RVA: 0x13A9F0 Offset: 0x139DF0 VA: 0x18013A9F0 Slot: 6

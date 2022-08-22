@@ -18,7 +18,7 @@ internal struct OverlayBrowserProtocolNavigation_t : ICallbackData // TypeDefInd
 	// RVA: 0x1EC210 Offset: 0x1EB610 VA: 0x1801EC210 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1375370 Offset: 0x1373970 VA: 0x181375370
+	// RVA: 0x1375630 Offset: 0x1373C30 VA: 0x181375630
 	private static void .cctor() { }
 
 }

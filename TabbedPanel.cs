@@ -8,19 +8,19 @@ internal class TabbedPanel // TypeDefIndex: 12022
 
 	// Methods
 
-	// RVA: 0x7995F0 Offset: 0x797BF0 VA: 0x1807995F0
+	// RVA: 0x799700 Offset: 0x797D00 VA: 0x180799700
 	public TabbedPanel.Tab get_selectedTab() { }
 
-	// RVA: 0x798FF0 Offset: 0x7975F0 VA: 0x180798FF0
+	// RVA: 0x799100 Offset: 0x797700 VA: 0x180799100
 	public void Add(TabbedPanel.Tab tab) { }
 
-	// RVA: 0x799240 Offset: 0x797840 VA: 0x180799240
+	// RVA: 0x799350 Offset: 0x797950 VA: 0x180799350
 	internal void DrawVertical(float width) { }
 
-	// RVA: 0x799050 Offset: 0x797650 VA: 0x180799050
+	// RVA: 0x799160 Offset: 0x797760 VA: 0x180799160
 	internal void DrawContents() { }
 
-	// RVA: 0x799580 Offset: 0x797B80 VA: 0x180799580
+	// RVA: 0x799690 Offset: 0x797C90 VA: 0x180799690
 	public void .ctor() { }
 
 }

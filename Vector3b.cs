@@ -11,10 +11,10 @@ public struct Vector3b : IEquatable<Vector3b> // TypeDefIndex: 4822
 	// RVA: 0x2389C0 Offset: 0x237DC0 VA: 0x1802389C0
 	public void .ctor(bool x, bool y, bool z) { }
 
-	// RVA: 0x2271B00 Offset: 0x2270100 VA: 0x182271B00
+	// RVA: 0x2271DC0 Offset: 0x22703C0 VA: 0x182271DC0
 	public static bool op_Equality(Vector3b a, Vector3b b) { }
 
-	// RVA: 0x2271B30 Offset: 0x2270130 VA: 0x182271B30
+	// RVA: 0x2271DF0 Offset: 0x22703F0 VA: 0x182271DF0
 	public static bool op_Inequality(Vector3b a, Vector3b b) { }
 
 	// RVA: 0x238800 Offset: 0x237C00 VA: 0x180238800 Slot: 4
@@ -29,7 +29,7 @@ public struct Vector3b : IEquatable<Vector3b> // TypeDefIndex: 4822
 	// RVA: 0x238920 Offset: 0x237D20 VA: 0x180238920 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x2271A90 Offset: 0x2270090 VA: 0x182271A90
+	// RVA: 0x2271D50 Offset: 0x2270350 VA: 0x182271D50
 	private static void .cctor() { }
 
 }

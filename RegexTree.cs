@@ -10,7 +10,7 @@ internal sealed class RegexTree // TypeDefIndex: 2631
 
 	// Methods
 
-	// RVA: 0x16B8F90 Offset: 0x16B7590 VA: 0x1816B8F90
+	// RVA: 0x16B9250 Offset: 0x16B7850 VA: 0x1816B9250
 	internal void .ctor(RegexNode root, Hashtable caps, int[] capnumlist, int captop, Hashtable capnames, string[] capslist, RegexOptions opts) { }
 
 }

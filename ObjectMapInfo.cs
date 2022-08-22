@@ -7,10 +7,10 @@ internal sealed class ObjectMapInfo // TypeDefIndex: 1106
 
 	// Methods
 
-	// RVA: 0x11F6220 Offset: 0x11F4820 VA: 0x1811F6220
+	// RVA: 0x11F64E0 Offset: 0x11F4AE0 VA: 0x1811F64E0
 	internal void .ctor(int objectId, int numMembers, string[] memberNames, Type[] memberTypes) { }
 
-	// RVA: 0x11F6280 Offset: 0x11F4880 VA: 0x1811F6280
+	// RVA: 0x11F6540 Offset: 0x11F4B40 VA: 0x1811F6540
 	internal bool isCompatible(int numMembers, string[] memberNames, Type[] memberTypes) { }
 
 }

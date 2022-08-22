@@ -16,16 +16,16 @@ public class ViewmodelBob : MonoBehaviour // TypeDefIndex: 11457
 
 	// Methods
 
-	// RVA: 0x7F7760 Offset: 0x7F5D60 VA: 0x1807F7760
+	// RVA: 0x7F7870 Offset: 0x7F5E70 VA: 0x1807F7870
 	private ViewmodelBob.BobSettings WorkoutBobSettings(Vector3 newVelocity, float fov, bool isRunning, bool OnGround, bool isAiming, bool isDucked, bool isMounted) { }
 
-	// RVA: 0x7F7340 Offset: 0x7F5940 VA: 0x1807F7340
+	// RVA: 0x7F7450 Offset: 0x7F5A50 VA: 0x1807F7450
 	public void Apply(ref CachedTransform<BaseViewModel> vm, float fov, BasePlayer player) { }
 
-	// RVA: 0x7F6C10 Offset: 0x7F5210 VA: 0x1807F6C10
+	// RVA: 0x7F6D20 Offset: 0x7F5320 VA: 0x1807F6D20
 	private void ApplySettings(ref CachedTransform<BaseViewModel> vm, ViewmodelBob.BobSettings settings) { }
 
-	// RVA: 0x7F79E0 Offset: 0x7F5FE0 VA: 0x1807F79E0
+	// RVA: 0x7F7AF0 Offset: 0x7F60F0 VA: 0x1807F7AF0
 	public void .ctor() { }
 
 }

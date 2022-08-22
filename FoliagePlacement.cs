@@ -36,16 +36,16 @@ public class FoliagePlacement : ScriptableObject // TypeDefIndex: 9877
 
 	// Methods
 
-	// RVA: 0x74FC00 Offset: 0x74E200 VA: 0x18074FC00
+	// RVA: 0x74FD10 Offset: 0x74E310 VA: 0x18074FD10
 	public void Init() { }
 
-	// RVA: 0x74FA90 Offset: 0x74E090 VA: 0x18074FA90
+	// RVA: 0x74FBA0 Offset: 0x74E1A0 VA: 0x18074FBA0
 	public bool CheckBatch(Vector3 pivot, float size) { }
 
-	// RVA: 0x74F3B0 Offset: 0x74D9B0 VA: 0x18074F3B0
+	// RVA: 0x74F4C0 Offset: 0x74DAC0 VA: 0x18074F4C0
 	public void AddBatch(FoliageGroup batchGroup, float lod, uint seed) { }
 
-	// RVA: 0x74FC80 Offset: 0x74E280 VA: 0x18074FC80
+	// RVA: 0x74FD90 Offset: 0x74E390 VA: 0x18074FD90
 	public void .ctor() { }
 
 }

@@ -25,7 +25,7 @@ public struct IntPtr : ISerializable // TypeDefIndex: 369
 	private void .ctor(SerializationInfo info, StreamingContext context) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x8C0CF0 Offset: 0x8BF2F0 VA: 0x1808C0CF0
+	// RVA: 0x8C0E00 Offset: 0x8BF400 VA: 0x1808C0E00
 	public static int get_Size() { }
 
 	// RVA: 0x1FBA20 Offset: 0x1FAE20 VA: 0x1801FBA20 Slot: 4
@@ -53,15 +53,15 @@ public struct IntPtr : ISerializable // TypeDefIndex: 369
 	public string ToString(string format) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0xAE59E0 Offset: 0xAE3FE0 VA: 0x180AE59E0
+	// RVA: 0xAE5CA0 Offset: 0xAE42A0 VA: 0x180AE5CA0
 	public static bool op_Equality(IntPtr value1, IntPtr value2) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x12A4190 Offset: 0x12A2790 VA: 0x1812A4190
+	// RVA: 0x12A4450 Offset: 0x12A2A50 VA: 0x1812A4450
 	public static bool op_Inequality(IntPtr value1, IntPtr value2) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x8D680 Offset: 0x8CA80 VA: 0x18008D680
-	// RVA: 0x145B4F0 Offset: 0x1459AF0 VA: 0x18145B4F0
+	// RVA: 0x145B7B0 Offset: 0x1459DB0 VA: 0x18145B7B0
 	public static IntPtr op_Explicit(int value) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x8D680 Offset: 0x8CA80 VA: 0x18008D680
@@ -76,7 +76,7 @@ public struct IntPtr : ISerializable // TypeDefIndex: 369
 	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
 	public static int op_Explicit(IntPtr value) { }
 
-	// RVA: 0xEC13A0 Offset: 0xEBF9A0 VA: 0x180EC13A0
+	// RVA: 0xEC1660 Offset: 0xEBFC60 VA: 0x180EC1660
 	public static long op_Explicit(IntPtr value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430

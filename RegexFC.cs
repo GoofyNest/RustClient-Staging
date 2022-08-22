@@ -6,22 +6,22 @@ internal sealed class RegexFC // TypeDefIndex: 2614
 
 	// Methods
 
-	// RVA: 0x14CB8A0 Offset: 0x14C9EA0 VA: 0x1814CB8A0
+	// RVA: 0x14CBB60 Offset: 0x14CA160 VA: 0x1814CBB60
 	internal void .ctor(bool nullable) { }
 
-	// RVA: 0x14CB7A0 Offset: 0x14C9DA0 VA: 0x1814CB7A0
+	// RVA: 0x14CBA60 Offset: 0x14CA060 VA: 0x1814CBA60
 	internal void .ctor(char ch, bool not, bool nullable, bool caseInsensitive) { }
 
-	// RVA: 0x14CB920 Offset: 0x14C9F20 VA: 0x1814CB920
+	// RVA: 0x14CBBE0 Offset: 0x14CA1E0 VA: 0x1814CBBE0
 	internal void .ctor(string charClass, bool nullable, bool caseInsensitive) { }
 
-	// RVA: 0x14CB5C0 Offset: 0x14C9BC0 VA: 0x1814CB5C0
+	// RVA: 0x14CB880 Offset: 0x14C9E80 VA: 0x1814CB880
 	internal bool AddFC(RegexFC fc, bool concatenate) { }
 
-	// RVA: 0x14CB650 Offset: 0x14C9C50 VA: 0x1814CB650
+	// RVA: 0x14CB910 Offset: 0x14C9F10 VA: 0x1814CB910
 	internal string GetFirstChars(CultureInfo culture) { }
 
-	// RVA: 0xFA71A0 Offset: 0xFA57A0 VA: 0x180FA71A0
+	// RVA: 0xFA7460 Offset: 0xFA5A60 VA: 0x180FA7460
 	internal bool IsCaseInsensitive() { }
 
 }

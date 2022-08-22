@@ -21,7 +21,7 @@ public struct Length : IEquatable<Length> // TypeDefIndex: 4709
 	// RVA: 0x13A2F0 Offset: 0x1396F0 VA: 0x18013A2F0
 	public void .ctor(float value, LengthUnit unit) { }
 
-	// RVA: 0xEB2D10 Offset: 0xEB1310 VA: 0x180EB2D10
+	// RVA: 0xEB2FD0 Offset: 0xEB15D0 VA: 0x180EB2FD0
 	public static bool op_Equality(Length lhs, Length rhs) { }
 
 	// RVA: 0x13A0A0 Offset: 0x1394A0 VA: 0x18013A0A0 Slot: 4

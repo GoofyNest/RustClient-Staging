@@ -12,7 +12,7 @@ internal sealed class CachedCodeEntry // TypeDefIndex: 2601
 
 	// Methods
 
-	// RVA: 0x14BEC50 Offset: 0x14BD250 VA: 0x1814BEC50
+	// RVA: 0x14BEF10 Offset: 0x14BD510 VA: 0x1814BEF10
 	internal void .ctor(string key, Hashtable capnames, string[] capslist, RegexCode code, Hashtable caps, int capsize, ExclusiveReference runner, SharedReference repl) { }
 
 }

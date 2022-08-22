@@ -8,7 +8,7 @@ public class RemoteConfigSettings // TypeDefIndex: 4743
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2320E80 Offset: 0x231F480 VA: 0x182320E80
+	// RVA: 0x2321140 Offset: 0x231F740 VA: 0x182321140
 	internal static void RemoteConfigSettingsUpdated(RemoteConfigSettings rcs, bool wasLastUpdatedFromServer) { }
 
 }

@@ -44,10 +44,10 @@ internal abstract class BaseVisualElementPanel : IPanel // TypeDefIndex: 4600
 	// RVA: -1 Offset: -1 Slot: 13
 	public abstract FocusController get_focusController();
 
-	// RVA: 0xEA8FB0 Offset: 0xEA75B0 VA: 0x180EA8FB0 Slot: 8
+	// RVA: 0xEA9270 Offset: 0xEA7870 VA: 0x180EA9270 Slot: 8
 	public void Dispose() { }
 
-	// RVA: 0xEA8E60 Offset: 0xEA7460 VA: 0x180EA8E60 Slot: 14
+	// RVA: 0xEA9120 Offset: 0xEA7720 VA: 0x180EA9120 Slot: 14
 	protected virtual void Dispose(bool disposing) { }
 
 	// RVA: -1 Offset: -1 Slot: 15
@@ -56,11 +56,11 @@ internal abstract class BaseVisualElementPanel : IPanel // TypeDefIndex: 4600
 	// RVA: -1 Offset: -1 Slot: 16
 	public abstract void ValidateLayout();
 
-	// RVA: 0xEA9150 Offset: 0xEA7750 VA: 0x180EA9150
+	// RVA: 0xEA9410 Offset: 0xEA7A10 VA: 0x180EA9410
 	internal void set_pixelsPerPoint(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA10E00 Offset: 0xA0F400 VA: 0x180A10E00
+	// RVA: 0xA110C0 Offset: 0xA0F6C0 VA: 0x180A110C0
 	internal bool get_duringLayoutPhase() { }
 
 	// RVA: -1 Offset: -1 Slot: 17
@@ -79,7 +79,7 @@ internal abstract class BaseVisualElementPanel : IPanel // TypeDefIndex: 4600
 	// RVA: -1 Offset: -1 Slot: 21
 	public abstract EventDispatcher get_dispatcher();
 
-	// RVA: 0xEA9060 Offset: 0xEA7660 VA: 0x180EA9060
+	// RVA: 0xEA9320 Offset: 0xEA7920 VA: 0x180EA9320
 	internal void SendEvent(EventBase e, DispatchMode dispatchMode = 1) { }
 
 	// RVA: -1 Offset: -1 Slot: 22
@@ -89,23 +89,23 @@ internal abstract class BaseVisualElementPanel : IPanel // TypeDefIndex: 4600
 	public abstract VisualElement Pick(Vector2 point);
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB103F0 Offset: 0xB0E9F0 VA: 0x180B103F0
+	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0
 	internal bool get_disposed() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7F9AE0 Offset: 0x7F80E0 VA: 0x1807F9AE0
+	// RVA: 0x7F9BF0 Offset: 0x7F81F0 VA: 0x1807F9BF0
 	private void set_disposed(bool value) { }
 
-	// RVA: 0xEA9020 Offset: 0xEA7620 VA: 0x180EA9020
+	// RVA: 0xEA92E0 Offset: 0xEA78E0 VA: 0x180EA92E0
 	internal VisualElement GetTopElementUnderPointer(int pointerId) { }
 
-	// RVA: 0xEA9120 Offset: 0xEA7720 VA: 0x180EA9120
+	// RVA: 0xEA93E0 Offset: 0xEA79E0 VA: 0x180EA93E0
 	internal void SetElementUnderPointer(VisualElement newElementUnderPointer, EventBase triggerEvent) { }
 
-	// RVA: 0xEA8DF0 Offset: 0xEA73F0 VA: 0x180EA8DF0
+	// RVA: 0xEA90B0 Offset: 0xEA76B0 VA: 0x180EA90B0
 	internal void ClearCachedElementUnderPointer(EventBase triggerEvent) { }
 
-	// RVA: 0xEA8E20 Offset: 0xEA7420 VA: 0x180EA8E20
+	// RVA: 0xEA90E0 Offset: 0xEA76E0 VA: 0x180EA90E0
 	internal void CommitElementUnderPointers() { }
 
 }

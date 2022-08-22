@@ -14,16 +14,16 @@ public class MemoryTraceWriter : ITraceWriter // TypeDefIndex: 5978
 	public TraceLevel get_LevelFilter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0C80 Offset: 0x7CF280 VA: 0x1807D0C80
+	// RVA: 0x7D0D90 Offset: 0x7CF390 VA: 0x1807D0D90
 	public void set_LevelFilter(TraceLevel value) { }
 
-	// RVA: 0x180A6F0 Offset: 0x1808CF0 VA: 0x18180A6F0
+	// RVA: 0x180A9B0 Offset: 0x1808FB0 VA: 0x18180A9B0
 	public void .ctor() { }
 
-	// RVA: 0x180A540 Offset: 0x1808B40 VA: 0x18180A540 Slot: 5
+	// RVA: 0x180A800 Offset: 0x1808E00 VA: 0x18180A800 Slot: 5
 	public void Trace(TraceLevel level, string message, Exception ex) { }
 
-	// RVA: 0x180A3C0 Offset: 0x18089C0 VA: 0x18180A3C0 Slot: 3
+	// RVA: 0x180A680 Offset: 0x1808C80 VA: 0x18180A680 Slot: 3
 	public override string ToString() { }
 
 }

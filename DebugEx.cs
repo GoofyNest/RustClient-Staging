@@ -4,31 +4,31 @@ public static class DebugEx // TypeDefIndex: 5598
 
 	// Methods
 
-	// RVA: 0x21A8F70 Offset: 0x21A7570 VA: 0x1821A8F70
+	// RVA: 0x21A9230 Offset: 0x21A7830 VA: 0x1821A9230
 	public static void Log(object message, StackTraceLogType stacktrace = 0) { }
 
-	// RVA: 0x21A8ED0 Offset: 0x21A74D0 VA: 0x1821A8ED0
+	// RVA: 0x21A9190 Offset: 0x21A7790 VA: 0x1821A9190
 	public static void Log(object message, Object context, StackTraceLogType stacktrace = 0) { }
 
-	// RVA: 0x21A8E40 Offset: 0x21A7440 VA: 0x1821A8E40
+	// RVA: 0x21A9100 Offset: 0x21A7700 VA: 0x1821A9100
 	public static void LogWarning(object message, StackTraceLogType stacktrace = 0) { }
 
-	// RVA: 0x21A8DA0 Offset: 0x21A73A0 VA: 0x1821A8DA0
+	// RVA: 0x21A9060 Offset: 0x21A7660 VA: 0x1821A9060
 	public static void LogWarning(object message, Object context, StackTraceLogType stacktrace = 0) { }
 
-	// RVA: 0x21A8C90 Offset: 0x21A7290 VA: 0x1821A8C90
+	// RVA: 0x21A8F50 Offset: 0x21A7550 VA: 0x1821A8F50
 	public static void DrawWireCube(Vector3 centre, Vector3 size, Color colour, float duration) { }
 
-	// RVA: 0x21A8000 Offset: 0x21A6600 VA: 0x1821A8000
+	// RVA: 0x21A82C0 Offset: 0x21A68C0 VA: 0x1821A82C0
 	public static void DrawWireCube(Vector3 centre, Vector3 size, Quaternion rotation, Color colour, float duration) { }
 
-	// RVA: 0x21A8650 Offset: 0x21A6C50 VA: 0x1821A8650
+	// RVA: 0x21A8910 Offset: 0x21A6F10 VA: 0x1821A8910
 	public static void DrawWireCube(Vector3[] points, Color colour, float duration) { }
 
-	// RVA: 0x21A9000 Offset: 0x21A7600 VA: 0x1821A9000
+	// RVA: 0x21A92C0 Offset: 0x21A78C0 VA: 0x1821A92C0
 	public static void StartTiming() { }
 
-	// RVA: 0x21A9080 Offset: 0x21A7680 VA: 0x1821A9080
+	// RVA: 0x21A9340 Offset: 0x21A7940 VA: 0x1821A9340
 	public static void StopTiming() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

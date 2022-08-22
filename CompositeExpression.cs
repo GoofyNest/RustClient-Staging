@@ -12,7 +12,7 @@ internal class CompositeExpression : QueryExpression // TypeDefIndex: 6093
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	public void set_Expressions(List<QueryExpression> value) { }
 
-	// RVA: 0xE29C60 Offset: 0xE28260 VA: 0x180E29C60
+	// RVA: 0xE29F20 Offset: 0xE28520 VA: 0x180E29F20
 	public void .ctor() { }
 
 }

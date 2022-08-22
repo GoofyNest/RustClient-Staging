@@ -21,79 +21,79 @@ internal sealed class ExpressionParser // TypeDefIndex: 4251
 
 	// Methods
 
-	// RVA: 0x13E56C0 Offset: 0x13E3CC0 VA: 0x1813E56C0
+	// RVA: 0x13E5980 Offset: 0x13E3F80 VA: 0x1813E5980
 	internal void .ctor(DataTable table) { }
 
-	// RVA: 0x13E2590 Offset: 0x13E0B90 VA: 0x1813E2590
+	// RVA: 0x13E2850 Offset: 0x13E0E50 VA: 0x1813E2850
 	internal void LoadExpression(string data) { }
 
-	// RVA: 0x13E5180 Offset: 0x13E3780 VA: 0x1813E5180
+	// RVA: 0x13E5440 Offset: 0x13E3A40 VA: 0x1813E5440
 	internal void StartScan() { }
 
-	// RVA: 0x13E2CB0 Offset: 0x13E12B0 VA: 0x1813E2CB0
+	// RVA: 0x13E2F70 Offset: 0x13E1570 VA: 0x1813E2F70
 	internal ExpressionNode Parse() { }
 
-	// RVA: 0x13E2800 Offset: 0x13E0E00 VA: 0x1813E2800
+	// RVA: 0x13E2AC0 Offset: 0x13E10C0 VA: 0x1813E2AC0
 	private ExpressionNode ParseAggregateArgument(FunctionId aggregate) { }
 
-	// RVA: 0x13E26E0 Offset: 0x13E0CE0 VA: 0x1813E26E0
+	// RVA: 0x13E29A0 Offset: 0x13E0FA0 VA: 0x1813E29A0
 	private ExpressionNode NodePop() { }
 
-	// RVA: 0x13E2690 Offset: 0x13E0C90 VA: 0x1813E2690
+	// RVA: 0x13E2950 Offset: 0x13E0F50 VA: 0x1813E2950
 	private ExpressionNode NodePeek() { }
 
-	// RVA: 0x13E2730 Offset: 0x13E0D30 VA: 0x1813E2730
+	// RVA: 0x13E29F0 Offset: 0x13E0FF0 VA: 0x1813E29F0
 	private void NodePush(ExpressionNode node) { }
 
-	// RVA: 0x13E2070 Offset: 0x13E0670 VA: 0x1813E2070
+	// RVA: 0x13E2330 Offset: 0x13E0930 VA: 0x1813E2330
 	private void BuildExpression(int pri) { }
 
-	// RVA: 0x13E2390 Offset: 0x13E0990 VA: 0x1813E2390
+	// RVA: 0x13E2650 Offset: 0x13E0C50 VA: 0x1813E2650
 	internal void CheckToken(Tokens token) { }
 
-	// RVA: 0x13E4AD0 Offset: 0x13E30D0 VA: 0x1813E4AD0
+	// RVA: 0x13E4D90 Offset: 0x13E3390 VA: 0x1813E4D90
 	internal Tokens Scan() { }
 
-	// RVA: 0x13E43B0 Offset: 0x13E29B0 VA: 0x1813E43B0
+	// RVA: 0x13E4670 Offset: 0x13E2C70 VA: 0x1813E4670
 	private void ScanNumeric() { }
 
-	// RVA: 0x13E4150 Offset: 0x13E2750 VA: 0x1813E4150
+	// RVA: 0x13E4410 Offset: 0x13E2A10 VA: 0x1813E4410
 	private void ScanName() { }
 
-	// RVA: 0x13E4230 Offset: 0x13E2830 VA: 0x1813E4230
+	// RVA: 0x13E44F0 Offset: 0x13E2AF0 VA: 0x1813E44F0
 	private void ScanName(char chEnd, char esc, string charsToEscape) { }
 
-	// RVA: 0x13E3FC0 Offset: 0x13E25C0 VA: 0x1813E3FC0
+	// RVA: 0x13E4280 Offset: 0x13E2880 VA: 0x1813E4280
 	private void ScanDate() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void ScanBinaryConstant() { }
 
-	// RVA: 0x13E4620 Offset: 0x13E2C20 VA: 0x1813E4620
+	// RVA: 0x13E48E0 Offset: 0x13E2EE0 VA: 0x1813E48E0
 	private void ScanReserved() { }
 
-	// RVA: 0x13E4910 Offset: 0x13E2F10 VA: 0x1813E4910
+	// RVA: 0x13E4BD0 Offset: 0x13E31D0 VA: 0x1813E4BD0
 	private void ScanString(char escape) { }
 
-	// RVA: 0x13E4A40 Offset: 0x13E3040 VA: 0x1813E4A40
+	// RVA: 0x13E4D00 Offset: 0x13E3300 VA: 0x1813E4D00
 	internal void ScanToken(Tokens token) { }
 
-	// RVA: 0x13E4A70 Offset: 0x13E3070 VA: 0x1813E4A70
+	// RVA: 0x13E4D30 Offset: 0x13E3330 VA: 0x1813E4D30
 	private void ScanWhite() { }
 
-	// RVA: 0x13E2580 Offset: 0x13E0B80 VA: 0x1813E2580
+	// RVA: 0x13E2840 Offset: 0x13E0E40 VA: 0x1813E2840
 	private bool IsWhiteSpace(char ch) { }
 
-	// RVA: 0x13E2410 Offset: 0x13E0A10 VA: 0x1813E2410
+	// RVA: 0x13E26D0 Offset: 0x13E0CD0 VA: 0x1813E26D0
 	private bool IsAlphaNumeric(char ch) { }
 
-	// RVA: 0x13E2530 Offset: 0x13E0B30 VA: 0x1813E2530
+	// RVA: 0x13E27F0 Offset: 0x13E0DF0 VA: 0x1813E27F0
 	private bool IsDigit(char ch) { }
 
-	// RVA: 0x13E24B0 Offset: 0x13E0AB0 VA: 0x1813E24B0
+	// RVA: 0x13E2770 Offset: 0x13E0D70 VA: 0x1813E2770
 	private bool IsAlpha(char ch) { }
 
-	// RVA: 0x13E5250 Offset: 0x13E3850 VA: 0x1813E5250
+	// RVA: 0x13E5510 Offset: 0x13E3B10 VA: 0x1813E5510
 	private static void .cctor() { }
 
 }

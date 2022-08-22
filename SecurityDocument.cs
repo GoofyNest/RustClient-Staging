@@ -4,34 +4,34 @@ internal sealed class SecurityDocument // TypeDefIndex: 897
 
 	// Methods
 
-	// RVA: 0x17C37A0 Offset: 0x17C1DA0 VA: 0x1817C37A0
+	// RVA: 0x17C3A60 Offset: 0x17C2060 VA: 0x1817C3A60
 	public void .ctor(int numData) { }
 
-	// RVA: 0x17C3460 Offset: 0x17C1A60 VA: 0x1817C3460
+	// RVA: 0x17C3720 Offset: 0x17C1D20 VA: 0x1817C3720
 	public void GuaranteeSize(int size) { }
 
-	// RVA: 0x17C2C40 Offset: 0x17C1240 VA: 0x1817C2C40
+	// RVA: 0x17C2F00 Offset: 0x17C1500 VA: 0x1817C2F00
 	public void AddString(string str, ref int position) { }
 
-	// RVA: 0x17C2F20 Offset: 0x17C1520 VA: 0x1817C2F20
+	// RVA: 0x17C31E0 Offset: 0x17C17E0 VA: 0x1817C31E0
 	public void AppendString(string str, ref int position) { }
 
-	// RVA: 0x17C3010 Offset: 0x17C1610 VA: 0x1817C3010
+	// RVA: 0x17C32D0 Offset: 0x17C18D0 VA: 0x1817C32D0
 	public static int EncodedStringSize(string str) { }
 
-	// RVA: 0x17C3080 Offset: 0x17C1680 VA: 0x1817C3080
+	// RVA: 0x17C3340 Offset: 0x17C1940 VA: 0x1817C3340
 	public string GetString(ref int position, bool bCreate) { }
 
-	// RVA: 0x17C2E30 Offset: 0x17C1430 VA: 0x1817C2E30
+	// RVA: 0x17C30F0 Offset: 0x17C16F0 VA: 0x1817C30F0
 	public void AddToken(byte b, ref int position) { }
 
-	// RVA: 0x17C3050 Offset: 0x17C1650 VA: 0x1817C3050
+	// RVA: 0x17C3310 Offset: 0x17C1910 VA: 0x1817C3310
 	public SecurityElement GetRootElement() { }
 
-	// RVA: 0x17C3030 Offset: 0x17C1630 VA: 0x1817C3030
+	// RVA: 0x17C32F0 Offset: 0x17C18F0 VA: 0x1817C32F0
 	public SecurityElement GetElement(int position, bool bCreate) { }
 
-	// RVA: 0x17C3500 Offset: 0x17C1B00 VA: 0x1817C3500
+	// RVA: 0x17C37C0 Offset: 0x17C1DC0 VA: 0x1817C37C0
 	internal SecurityElement InternalGetElement(ref int position, bool bCreate) { }
 
 }

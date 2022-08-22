@@ -8,25 +8,25 @@ public sealed class RC2CryptoServiceProvider : RC2 // TypeDefIndex: 974
 
 	// Methods
 
-	// RVA: 0x17050D0 Offset: 0x17036D0 VA: 0x1817050D0
+	// RVA: 0x1705390 Offset: 0x1703990 VA: 0x181705390
 	public void .ctor() { }
 
-	// RVA: 0x6BB940 Offset: 0x6B9F40 VA: 0x1806BB940 Slot: 26
+	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50 Slot: 26
 	public override int get_EffectiveKeySize() { }
 
-	// RVA: 0x1704E30 Offset: 0x1703430 VA: 0x181704E30 Slot: 21
+	// RVA: 0x17050F0 Offset: 0x17036F0 VA: 0x1817050F0 Slot: 21
 	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgbIV) { }
 
-	// RVA: 0x1704D70 Offset: 0x1703370 VA: 0x181704D70 Slot: 23
+	// RVA: 0x1705030 Offset: 0x1703630 VA: 0x181705030 Slot: 23
 	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgbIV) { }
 
-	// RVA: 0x1704F70 Offset: 0x1703570 VA: 0x181704F70 Slot: 24
+	// RVA: 0x1705230 Offset: 0x1703830 VA: 0x181705230 Slot: 24
 	public override void GenerateKey() { }
 
-	// RVA: 0x1704EF0 Offset: 0x17034F0 VA: 0x181704EF0 Slot: 25
+	// RVA: 0x17051B0 Offset: 0x17037B0 VA: 0x1817051B0 Slot: 25
 	public override void GenerateIV() { }
 
-	// RVA: 0x1704FF0 Offset: 0x17035F0 VA: 0x181704FF0
+	// RVA: 0x17052B0 Offset: 0x17038B0 VA: 0x1817052B0
 	private static void .cctor() { }
 
 }

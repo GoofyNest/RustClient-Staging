@@ -30,22 +30,22 @@ public class ProductHeaderValue : ICloneable // TypeDefIndex: 5801
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	internal void set_Version(string value) { }
 
-	// RVA: 0xD71020 Offset: 0xD6F620 VA: 0x180D71020 Slot: 4
+	// RVA: 0xD712E0 Offset: 0xD6F8E0 VA: 0x180D712E0 Slot: 4
 	private object System.ICloneable.Clone() { }
 
-	// RVA: 0x10940D0 Offset: 0x10926D0 VA: 0x1810940D0 Slot: 0
+	// RVA: 0x1094390 Offset: 0x1092990 VA: 0x181094390 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1094190 Offset: 0x1092790 VA: 0x181094190 Slot: 2
+	// RVA: 0x1094450 Offset: 0x1092A50 VA: 0x181094450 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x10944A0 Offset: 0x1092AA0 VA: 0x1810944A0
+	// RVA: 0x1094760 Offset: 0x1092D60 VA: 0x181094760
 	internal static bool TryParse(string input, int minimalCount, out List<ProductHeaderValue> result) { }
 
-	// RVA: 0x1094260 Offset: 0x1092860 VA: 0x181094260
+	// RVA: 0x1094520 Offset: 0x1092B20 VA: 0x181094520
 	private static bool TryParseElement(Lexer lexer, out ProductHeaderValue parsedValue, out Token t) { }
 
-	// RVA: 0x1094210 Offset: 0x1092810 VA: 0x181094210 Slot: 3
+	// RVA: 0x10944D0 Offset: 0x1092AD0 VA: 0x1810944D0 Slot: 3
 	public override string ToString() { }
 
 }

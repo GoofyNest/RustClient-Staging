@@ -1,10 +1,10 @@
 internal abstract class MD4 : HashAlgorithm // TypeDefIndex: 68
 {	// Methods
 
-	// RVA: 0x174B030 Offset: 0x1749630 VA: 0x18174B030
+	// RVA: 0x174B2F0 Offset: 0x17498F0 VA: 0x18174B2F0
 	protected void .ctor() { }
 
-	// RVA: 0x174C490 Offset: 0x174AA90 VA: 0x18174C490
+	// RVA: 0x174C750 Offset: 0x174AD50 VA: 0x18174C750
 	public static MD4 Create() { }
 
 }
@@ -12,10 +12,10 @@ internal abstract class MD4 : HashAlgorithm // TypeDefIndex: 68
 public abstract class MD4 : HashAlgorithm // TypeDefIndex: 1755
 {	// Methods
 
-	// RVA: 0x174B030 Offset: 0x1749630 VA: 0x18174B030
+	// RVA: 0x174B2F0 Offset: 0x17498F0 VA: 0x18174B2F0
 	protected void .ctor() { }
 
-	// RVA: 0x1AB7E20 Offset: 0x1AB6420 VA: 0x181AB7E20
+	// RVA: 0x1AB80E0 Offset: 0x1AB66E0 VA: 0x181AB80E0
 	public static MD4 Create() { }
 
 }

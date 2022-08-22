@@ -10,7 +10,7 @@ public struct Half4 // TypeDefIndex: 11421
 	// RVA: 0xF4D20 Offset: 0xF4120 VA: 0x1800F4D20
 	public void .ctor(Vector4 vec) { }
 
-	// RVA: 0x7353E0 Offset: 0x7339E0 VA: 0x1807353E0
+	// RVA: 0x7354F0 Offset: 0x733AF0 VA: 0x1807354F0
 	public static Vector4 op_Explicit(Half4 vec) { }
 
 }

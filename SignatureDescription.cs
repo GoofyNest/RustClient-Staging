@@ -25,7 +25,7 @@ public class SignatureDescription // TypeDefIndex: 992
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_FormatterAlgorithm(string value) { }
 
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	public void set_DeformatterAlgorithm(string value) { }
 
 }

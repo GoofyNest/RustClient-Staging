@@ -58,7 +58,7 @@ internal struct FloatTween : ITweenValue // TypeDefIndex: 5042
 public class FloatTween.FloatTweenCallback : UnityEvent<float> // TypeDefIndex: 5043
 {	// Methods
 
-	// RVA: 0x10C60A0 Offset: 0x10C46A0 VA: 0x1810C60A0
+	// RVA: 0x10C6360 Offset: 0x10C4960 VA: 0x1810C6360
 	public void .ctor() { }
 
 }
@@ -123,7 +123,7 @@ internal struct FloatTween : ITweenValue // TypeDefIndex: 6753
 public class FloatTween.FloatTweenCallback : UnityEvent<float> // TypeDefIndex: 6754
 {	// Methods
 
-	// RVA: 0xC657B0 Offset: 0xC63DB0 VA: 0x180C657B0
+	// RVA: 0xC65A70 Offset: 0xC64070 VA: 0x180C65A70
 	public void .ctor() { }
 
 }

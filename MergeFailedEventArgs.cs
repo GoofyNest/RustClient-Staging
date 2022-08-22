@@ -10,7 +10,7 @@ public class MergeFailedEventArgs : EventArgs // TypeDefIndex: 4275
 
 	// Methods
 
-	// RVA: 0xE8D690 Offset: 0xE8BC90 VA: 0x180E8D690
+	// RVA: 0xE8D950 Offset: 0xE8BF50 VA: 0x180E8D950
 	public void .ctor(DataTable table, string conflict) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

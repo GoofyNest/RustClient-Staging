@@ -9,28 +9,28 @@ public class MeshCull : LODComponent, IBatchingHandler // TypeDefIndex: 9940
 
 	// Methods
 
-	// RVA: 0x960DE0 Offset: 0x95F3E0 VA: 0x180960DE0 Slot: 8
+	// RVA: 0x960EF0 Offset: 0x95F4F0 VA: 0x180960EF0 Slot: 8
 	protected override void InitLOD() { }
 
-	// RVA: 0x7B60D0 Offset: 0x7B46D0 VA: 0x1807B60D0 Slot: 9
+	// RVA: 0x7B61E0 Offset: 0x7B47E0 VA: 0x1807B61E0 Slot: 9
 	protected override void EnableLOD() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 10
 	protected override void DisableLOD() { }
 
-	// RVA: 0x960E70 Offset: 0x95F470 VA: 0x180960E70 Slot: 13
+	// RVA: 0x960F80 Offset: 0x95F580 VA: 0x180960F80 Slot: 13
 	protected override void Show() { }
 
-	// RVA: 0x960D10 Offset: 0x95F310 VA: 0x180960D10 Slot: 14
+	// RVA: 0x960E20 Offset: 0x95F420 VA: 0x180960E20 Slot: 14
 	protected override void Hide() { }
 
-	// RVA: 0x7B6580 Offset: 0x7B4B80 VA: 0x1807B6580 Slot: 12
+	// RVA: 0x7B6690 Offset: 0x7B4C90 VA: 0x1807B6690 Slot: 12
 	protected override void SetLOD(int newlod) { }
 
-	// RVA: 0x960C80 Offset: 0x95F280 VA: 0x180960C80 Slot: 11
+	// RVA: 0x960D90 Offset: 0x95F390 VA: 0x180960D90 Slot: 11
 	protected override int GetLOD(float distance) { }
 
-	// RVA: 0x961000 Offset: 0x95F600 VA: 0x180961000
+	// RVA: 0x961110 Offset: 0x95F710 VA: 0x180961110
 	public void .ctor() { }
 
 }

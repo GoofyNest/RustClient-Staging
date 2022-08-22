@@ -6,16 +6,16 @@ public sealed class SerializationObjectManager // TypeDefIndex: 1061
 
 	// Methods
 
-	// RVA: 0x12AA0B0 Offset: 0x12A86B0 VA: 0x1812AA0B0
+	// RVA: 0x12AA370 Offset: 0x12A8970 VA: 0x1812AA370
 	public void .ctor(StreamingContext context) { }
 
-	// RVA: 0x12A9F00 Offset: 0x12A8500 VA: 0x1812A9F00
+	// RVA: 0x12AA1C0 Offset: 0x12A87C0 VA: 0x1812AA1C0
 	public void RegisterObject(object obj) { }
 
-	// RVA: 0x12A9ED0 Offset: 0x12A84D0 VA: 0x1812A9ED0
+	// RVA: 0x12AA190 Offset: 0x12A8790 VA: 0x1812AA190
 	public void RaiseOnSerializedEvent() { }
 
-	// RVA: 0x12A9E20 Offset: 0x12A8420 VA: 0x1812A9E20
+	// RVA: 0x12AA0E0 Offset: 0x12A86E0 VA: 0x1812AA0E0
 	private void AddOnSerialized(object obj) { }
 
 }

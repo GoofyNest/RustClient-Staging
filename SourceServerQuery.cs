@@ -5,33 +5,33 @@ internal static class SourceServerQuery // TypeDefIndex: 5258
 
 	// Methods
 
-	// RVA: 0xDE3D50 Offset: 0xDE2350 VA: 0x180DE3D50
+	// RVA: 0xDE4010 Offset: 0xDE2610 VA: 0x180DE4010
 	internal static Task<Dictionary<string, string>> GetRules(ServerInfo server) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x99800 Offset: 0x98C00 VA: 0x180099800
-	// RVA: 0xDE3C80 Offset: 0xDE2280 VA: 0x180DE3C80
+	// RVA: 0xDE3F40 Offset: 0xDE2540 VA: 0x180DE3F40
 	private static Task<Dictionary<string, string>> GetRulesImpl(IPEndPoint endpoint) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x99C70 Offset: 0x99070 VA: 0x180099C70
-	// RVA: 0xDE40D0 Offset: 0xDE26D0 VA: 0x180DE40D0
+	// RVA: 0xDE4390 Offset: 0xDE2990 VA: 0x180DE4390
 	private static Task<Dictionary<string, string>> GetRules(UdpClient client) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x99E60 Offset: 0x99260 VA: 0x180099E60
-	// RVA: 0xDE41A0 Offset: 0xDE27A0 VA: 0x180DE41A0
+	// RVA: 0xDE4460 Offset: 0xDE2A60 VA: 0x180DE4460
 	private static Task<byte[]> Receive(UdpClient client) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x99F80 Offset: 0x99380 VA: 0x180099F80
-	// RVA: 0xDE3BB0 Offset: 0xDE21B0 VA: 0x180DE3BB0
+	// RVA: 0xDE3E70 Offset: 0xDE2470 VA: 0x180DE3E70
 	private static Task<byte[]> GetChallengeData(UdpClient client) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x9A250 Offset: 0x99650 VA: 0x18009A250
-	// RVA: 0xDE4270 Offset: 0xDE2870 VA: 0x180DE4270
+	// RVA: 0xDE4530 Offset: 0xDE2B30 VA: 0x180DE4530
 	private static Task Send(UdpClient client, byte[] message) { }
 
-	// RVA: 0xDE3A30 Offset: 0xDE2030 VA: 0x180DE3A30
+	// RVA: 0xDE3CF0 Offset: 0xDE22F0 VA: 0x180DE3CF0
 	private static byte[] Combine(byte[][] arrays) { }
 
-	// RVA: 0xDE4360 Offset: 0xDE2960 VA: 0x180DE4360
+	// RVA: 0xDE4620 Offset: 0xDE2C20 VA: 0x180DE4620
 	private static void .cctor() { }
 
 }
@@ -45,7 +45,7 @@ private sealed class SourceServerQuery.<>c__DisplayClass3_0 // TypeDefIndex: 525
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xDF0110 Offset: 0xDEE710 VA: 0x180DF0110
+	// RVA: 0xDF03D0 Offset: 0xDEE9D0 VA: 0x180DF03D0
 	internal Task<Dictionary<string, string>> <GetRules>b__0(Task<Dictionary<string, string>> t) { }
 
 }
@@ -96,16 +96,16 @@ private sealed class SourceServerQuery.<>c // TypeDefIndex: 5262
 
 	// Methods
 
-	// RVA: 0xDF0340 Offset: 0xDEE940 VA: 0x180DF0340
+	// RVA: 0xDF0600 Offset: 0xDEEC00 VA: 0x180DF0600
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xDF0010 Offset: 0xDEE610 VA: 0x180DF0010
+	// RVA: 0xDF02D0 Offset: 0xDEE8D0 VA: 0x180DF02D0
 	internal bool <Receive>b__6_0(byte[] p) { }
 
-	// RVA: 0xDEF250 Offset: 0xDED850 VA: 0x180DEF250
+	// RVA: 0xDEF510 Offset: 0xDEDB10 VA: 0x180DEF510
 	internal int <Combine>b__9_0(byte[] a) { }
 
 }

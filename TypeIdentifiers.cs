@@ -1,7 +1,7 @@
 internal class TypeIdentifiers // TypeDefIndex: 409
 {	// Methods
 
-	// RVA: 0x213D350 Offset: 0x213B950 VA: 0x18213D350
+	// RVA: 0x213D610 Offset: 0x213BC10 VA: 0x18213D610
 	internal static TypeIdentifier FromDisplay(string displayName) { }
 
 }
@@ -17,16 +17,16 @@ private class TypeIdentifiers.Display : TypeNames.ATypeName, TypeIdentifier, Typ
 
 	// Methods
 
-	// RVA: 0x13C8C00 Offset: 0x13C7200 VA: 0x1813C8C00
+	// RVA: 0x13C8EC0 Offset: 0x13C74C0 VA: 0x1813C8EC0
 	internal void .ctor(string displayName) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 6
 	public override string get_DisplayName() { }
 
-	// RVA: 0x213CFE0 Offset: 0x213B5E0 VA: 0x18213CFE0 Slot: 7
+	// RVA: 0x213D2A0 Offset: 0x213B8A0 VA: 0x18213D2A0 Slot: 7
 	public string get_InternalName() { }
 
-	// RVA: 0x213CF00 Offset: 0x213B500 VA: 0x18213CF00
+	// RVA: 0x213D1C0 Offset: 0x213B7C0 VA: 0x18213D1C0
 	private string GetInternalName() { }
 
 }

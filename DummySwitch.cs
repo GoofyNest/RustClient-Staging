@@ -9,7 +9,7 @@ public class DummySwitch : IOEntity // TypeDefIndex: 9798
 	// RVA: 0x5B0430 Offset: 0x5AEA30 VA: 0x1805B0430 Slot: 148
 	public override bool WantsPower() { }
 
-	// RVA: 0xAB36C0 Offset: 0xAB1CC0 VA: 0x180AB36C0
+	// RVA: 0xAB3980 Offset: 0xAB1F80 VA: 0x180AB3980
 	public void .ctor() { }
 
 }

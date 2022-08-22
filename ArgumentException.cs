@@ -7,28 +7,28 @@ public class ArgumentException : SystemException, ISerializable // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1553CB0 Offset: 0x15522B0 VA: 0x181553CB0
+	// RVA: 0x1553F70 Offset: 0x1552570 VA: 0x181553F70
 	public void .ctor() { }
 
-	// RVA: 0x1553D60 Offset: 0x1552360 VA: 0x181553D60
+	// RVA: 0x1554020 Offset: 0x1552620 VA: 0x181554020
 	public void .ctor(string message) { }
 
-	// RVA: 0x1553BA0 Offset: 0x15521A0 VA: 0x181553BA0
+	// RVA: 0x1553E60 Offset: 0x1552460 VA: 0x181553E60
 	public void .ctor(string message, Exception innerException) { }
 
-	// RVA: 0x1553D10 Offset: 0x1552310 VA: 0x181553D10
+	// RVA: 0x1553FD0 Offset: 0x15525D0 VA: 0x181553FD0
 	public void .ctor(string message, string paramName, Exception innerException) { }
 
-	// RVA: 0x1553BD0 Offset: 0x15521D0 VA: 0x181553BD0
+	// RVA: 0x1553E90 Offset: 0x1552490 VA: 0x181553E90
 	public void .ctor(string message, string paramName) { }
 
-	// RVA: 0x1553C20 Offset: 0x1552220 VA: 0x181553C20
+	// RVA: 0x1553EE0 Offset: 0x15524E0 VA: 0x181553EE0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1553D90 Offset: 0x1552390 VA: 0x181553D90 Slot: 5
+	// RVA: 0x1554050 Offset: 0x1552650 VA: 0x181554050 Slot: 5
 	public override string get_Message() { }
 
-	// RVA: 0x1553AB0 Offset: 0x15520B0 VA: 0x181553AB0 Slot: 10
+	// RVA: 0x1553D70 Offset: 0x1552370 VA: 0x181553D70 Slot: 10
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 }
@@ -36,16 +36,16 @@ public class ArgumentException : SystemException, ISerializable // TypeDefIndex:
 public class ArgumentNullException : ArgumentException // TypeDefIndex: 167
 {	// Methods
 
-	// RVA: 0x1553EA0 Offset: 0x15524A0 VA: 0x181553EA0
+	// RVA: 0x1554160 Offset: 0x1552760 VA: 0x181554160
 	public void .ctor() { }
 
-	// RVA: 0x1553F70 Offset: 0x1552570 VA: 0x181553F70
+	// RVA: 0x1554230 Offset: 0x1552830 VA: 0x181554230
 	public void .ctor(string paramName) { }
 
-	// RVA: 0x1553F10 Offset: 0x1552510 VA: 0x181553F10
+	// RVA: 0x15541D0 Offset: 0x15527D0 VA: 0x1815541D0
 	public void .ctor(string paramName, string message) { }
 
-	// RVA: 0x1553C20 Offset: 0x1552220 VA: 0x181553C20
+	// RVA: 0x1553EE0 Offset: 0x15524E0 VA: 0x181553EE0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }
@@ -61,28 +61,28 @@ public class ArgumentOutOfRangeException : ArgumentException, ISerializable // T
 
 	// Methods
 
-	// RVA: 0x1554630 Offset: 0x1552C30 VA: 0x181554630
+	// RVA: 0x15548F0 Offset: 0x1552EF0 VA: 0x1815548F0
 	private static string get_RangeMessage() { }
 
-	// RVA: 0x1554170 Offset: 0x1552770 VA: 0x181554170
+	// RVA: 0x1554430 Offset: 0x1552A30 VA: 0x181554430
 	public void .ctor() { }
 
-	// RVA: 0x1554220 Offset: 0x1552820 VA: 0x181554220
+	// RVA: 0x15544E0 Offset: 0x1552AE0 VA: 0x1815544E0
 	public void .ctor(string paramName) { }
 
-	// RVA: 0x15541C0 Offset: 0x15527C0 VA: 0x1815541C0
+	// RVA: 0x1554480 Offset: 0x1552A80 VA: 0x181554480
 	public void .ctor(string paramName, string message) { }
 
-	// RVA: 0x15543A0 Offset: 0x15529A0 VA: 0x1815543A0
+	// RVA: 0x1554660 Offset: 0x1552C60 VA: 0x181554660
 	public void .ctor(string paramName, object actualValue, string message) { }
 
-	// RVA: 0x1554420 Offset: 0x1552A20 VA: 0x181554420 Slot: 5
+	// RVA: 0x15546E0 Offset: 0x1552CE0 VA: 0x1815546E0 Slot: 5
 	public override string get_Message() { }
 
-	// RVA: 0x1554000 Offset: 0x1552600 VA: 0x181554000 Slot: 10
+	// RVA: 0x15542C0 Offset: 0x15528C0 VA: 0x1815542C0 Slot: 10
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1554290 Offset: 0x1552890 VA: 0x181554290
+	// RVA: 0x1554550 Offset: 0x1552B50 VA: 0x181554550
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }
@@ -120,10 +120,10 @@ internal class ArgInfo // TypeDefIndex: 1222
 
 	// Methods
 
-	// RVA: 0x146E560 Offset: 0x146CB60 VA: 0x18146E560
+	// RVA: 0x146E820 Offset: 0x146CE20 VA: 0x18146E820
 	public void .ctor(MethodBase method, ArgInfoType type) { }
 
-	// RVA: 0x146E440 Offset: 0x146CA40 VA: 0x18146E440
+	// RVA: 0x146E700 Offset: 0x146CD00 VA: 0x18146E700
 	public object[] GetInOutArgs(object[] args) { }
 
 }
@@ -158,31 +158,31 @@ internal class ArgumentCache : ISerializationCallbackReceiver // TypeDefIndex: 3
 
 	// Methods
 
-	// RVA: 0x181D9F0 Offset: 0x181BFF0 VA: 0x18181D9F0
+	// RVA: 0x181DCB0 Offset: 0x181C2B0 VA: 0x18181DCB0
 	public Object get_unityObjectArgument() { }
 
-	// RVA: 0x181D9E0 Offset: 0x181BFE0 VA: 0x18181D9E0
+	// RVA: 0x181DCA0 Offset: 0x181C2A0 VA: 0x18181DCA0
 	public string get_unityObjectArgumentAssemblyTypeName() { }
 
-	// RVA: 0x181D9C0 Offset: 0x181BFC0 VA: 0x18181D9C0
+	// RVA: 0x181DC80 Offset: 0x181C280 VA: 0x18181DC80
 	public int get_intArgument() { }
 
-	// RVA: 0x181D9B0 Offset: 0x181BFB0 VA: 0x18181D9B0
+	// RVA: 0x181DC70 Offset: 0x181C270 VA: 0x18181DC70
 	public float get_floatArgument() { }
 
-	// RVA: 0x181D9D0 Offset: 0x181BFD0 VA: 0x18181D9D0
+	// RVA: 0x181DC90 Offset: 0x181C290 VA: 0x18181DC90
 	public string get_stringArgument() { }
 
-	// RVA: 0x181D9A0 Offset: 0x181BFA0 VA: 0x18181D9A0
+	// RVA: 0x181DC60 Offset: 0x181C260 VA: 0x18181DC60
 	public bool get_boolArgument() { }
 
-	// RVA: 0x181D7B0 Offset: 0x181BDB0 VA: 0x18181D7B0
+	// RVA: 0x181DA70 Offset: 0x181C070 VA: 0x18181DA70
 	private void TidyAssemblyTypeName() { }
 
-	// RVA: 0x181D7A0 Offset: 0x181BDA0 VA: 0x18181D7A0 Slot: 4
+	// RVA: 0x181DA60 Offset: 0x181C060 VA: 0x18181DA60 Slot: 4
 	public void OnBeforeSerialize() { }
 
-	// RVA: 0x181D7A0 Offset: 0x181BDA0 VA: 0x18181D7A0 Slot: 5
+	// RVA: 0x181DA60 Offset: 0x181C060 VA: 0x18181DA60 Slot: 5
 	public void OnAfterDeserialize() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -194,7 +194,7 @@ public static class ArgEx // TypeDefIndex: 11695
 {	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9ECB20 Offset: 0x9EB120 VA: 0x1809ECB20
+	// RVA: 0x9ECDE0 Offset: 0x9EB3E0 VA: 0x1809ECDE0
 	public static BasePlayer GetPlayer_Clientside(ConsoleSystem.Arg arg, int iArgNum) { }
 
 }

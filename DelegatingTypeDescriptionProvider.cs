@@ -7,28 +7,28 @@ internal sealed class DelegatingTypeDescriptionProvider : TypeDescriptionProvide
 
 	// Methods
 
-	// RVA: 0x15C0D00 Offset: 0x15BF300 VA: 0x1815C0D00
+	// RVA: 0x15C0FC0 Offset: 0x15BF5C0 VA: 0x1815C0FC0
 	internal void .ctor(Type type) { }
 
-	// RVA: 0x15C0D30 Offset: 0x15BF330 VA: 0x1815C0D30
+	// RVA: 0x15C0FF0 Offset: 0x15BF5F0 VA: 0x1815C0FF0
 	internal TypeDescriptionProvider get_Provider() { }
 
-	// RVA: 0x15C0960 Offset: 0x15BEF60 VA: 0x1815C0960 Slot: 4
+	// RVA: 0x15C0C20 Offset: 0x15BF220 VA: 0x1815C0C20 Slot: 4
 	public override object CreateInstance(IServiceProvider provider, Type objectType, Type[] argTypes, object[] args) { }
 
-	// RVA: 0x15C0A10 Offset: 0x15BF010 VA: 0x1815C0A10 Slot: 5
+	// RVA: 0x15C0CD0 Offset: 0x15BF2D0 VA: 0x1815C0CD0 Slot: 5
 	public override IDictionary GetCache(object instance) { }
 
-	// RVA: 0x15C0AA0 Offset: 0x15BF0A0 VA: 0x1815C0AA0 Slot: 6
+	// RVA: 0x15C0D60 Offset: 0x15BF360 VA: 0x1815C0D60 Slot: 6
 	public override ICustomTypeDescriptor GetExtendedTypeDescriptor(object instance) { }
 
-	// RVA: 0x15C0B30 Offset: 0x15BF130 VA: 0x1815C0B30 Slot: 7
+	// RVA: 0x15C0DF0 Offset: 0x15BF3F0 VA: 0x1815C0DF0 Slot: 7
 	protected internal override IExtenderProvider[] GetExtenderProviders(object instance) { }
 
-	// RVA: 0x15C0BC0 Offset: 0x15BF1C0 VA: 0x1815C0BC0 Slot: 8
+	// RVA: 0x15C0E80 Offset: 0x15BF480 VA: 0x1815C0E80 Slot: 8
 	public override Type GetReflectionType(Type objectType, object instance) { }
 
-	// RVA: 0x15C0C60 Offset: 0x15BF260 VA: 0x1815C0C60 Slot: 9
+	// RVA: 0x15C0F20 Offset: 0x15BF520 VA: 0x1815C0F20 Slot: 9
 	public override ICustomTypeDescriptor GetTypeDescriptor(Type objectType, object instance) { }
 
 }

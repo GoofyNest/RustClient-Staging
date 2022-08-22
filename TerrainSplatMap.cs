@@ -6,88 +6,88 @@ public class TerrainSplatMap : TerrainMap<byte> // TypeDefIndex: 10413
 
 	// Methods
 
-	// RVA: 0x1154770 Offset: 0x1152D70 VA: 0x181154770 Slot: 4
+	// RVA: 0x1154A30 Offset: 0x1153030 VA: 0x181154A30 Slot: 4
 	public override void Setup() { }
 
-	// RVA: 0x1152160 Offset: 0x1150760 VA: 0x181152160
+	// RVA: 0x1152420 Offset: 0x1150A20 VA: 0x181152420
 	public void GenerateTextures() { }
 
-	// RVA: 0x1152110 Offset: 0x1150710 VA: 0x181152110
+	// RVA: 0x11523D0 Offset: 0x11509D0 VA: 0x1811523D0
 	public void ApplyTextures() { }
 
-	// RVA: 0x1152A20 Offset: 0x1151020 VA: 0x181152A20
+	// RVA: 0x1152CE0 Offset: 0x11512E0 VA: 0x181152CE0
 	public float GetSplatMax(Vector3 worldPos, int mask = -1) { }
 
-	// RVA: 0x1152900 Offset: 0x1150F00 VA: 0x181152900
+	// RVA: 0x1152BC0 Offset: 0x11511C0 VA: 0x181152BC0
 	public float GetSplatMax(float normX, float normZ, int mask = -1) { }
 
-	// RVA: 0x1152C60 Offset: 0x1151260 VA: 0x181152C60
+	// RVA: 0x1152F20 Offset: 0x1151520 VA: 0x181152F20
 	public float GetSplatMax(int x, int z, int mask = -1) { }
 
-	// RVA: 0x1152580 Offset: 0x1150B80 VA: 0x181152580
+	// RVA: 0x1152840 Offset: 0x1150E40 VA: 0x181152840
 	public int GetSplatMaxIndex(Vector3 worldPos, int mask = -1) { }
 
-	// RVA: 0x1152520 Offset: 0x1150B20 VA: 0x181152520
+	// RVA: 0x11527E0 Offset: 0x1150DE0 VA: 0x1811527E0
 	public int GetSplatMaxIndex(float normX, float normZ, int mask = -1) { }
 
-	// RVA: 0x1152420 Offset: 0x1150A20 VA: 0x181152420
+	// RVA: 0x11526E0 Offset: 0x1150CE0 VA: 0x1811526E0
 	public int GetSplatMaxIndex(int x, int z, int mask = -1) { }
 
-	// RVA: 0x11527E0 Offset: 0x1150DE0 VA: 0x1811527E0
+	// RVA: 0x1152AA0 Offset: 0x11510A0 VA: 0x181152AA0
 	public int GetSplatMaxType(Vector3 worldPos, int mask = -1) { }
 
-	// RVA: 0x1152710 Offset: 0x1150D10 VA: 0x181152710
+	// RVA: 0x11529D0 Offset: 0x1150FD0 VA: 0x1811529D0
 	public int GetSplatMaxType(float normX, float normZ, int mask = -1) { }
 
-	// RVA: 0x1152870 Offset: 0x1150E70 VA: 0x181152870
+	// RVA: 0x1152B30 Offset: 0x1151130 VA: 0x181152B30
 	public int GetSplatMaxType(int x, int z, int mask = -1) { }
 
-	// RVA: 0x1152D50 Offset: 0x1151350 VA: 0x181152D50
+	// RVA: 0x1153010 Offset: 0x1151610 VA: 0x181153010
 	public float GetSplat(Vector3 worldPos, int mask) { }
 
-	// RVA: 0x1152EB0 Offset: 0x11514B0 VA: 0x181152EB0
+	// RVA: 0x1153170 Offset: 0x1151770 VA: 0x181153170
 	public float GetSplat(float normX, float normZ, int mask) { }
 
-	// RVA: 0x1153070 Offset: 0x1151670 VA: 0x181153070
+	// RVA: 0x1153330 Offset: 0x1151930 VA: 0x181153330
 	public float GetSplat(int x, int z, int mask) { }
 
-	// RVA: 0x1154520 Offset: 0x1152B20 VA: 0x181154520
+	// RVA: 0x11547E0 Offset: 0x1152DE0 VA: 0x1811547E0
 	public void SetSplat(Vector3 worldPos, int id) { }
 
-	// RVA: 0x1153E00 Offset: 0x1152400 VA: 0x181153E00
+	// RVA: 0x11540C0 Offset: 0x11526C0 VA: 0x1811540C0
 	public void SetSplat(float normX, float normZ, int id) { }
 
-	// RVA: 0x1153CF0 Offset: 0x11522F0 VA: 0x181153CF0
+	// RVA: 0x1153FB0 Offset: 0x11525B0 VA: 0x181153FB0
 	public void SetSplat(int x, int z, int id) { }
 
-	// RVA: 0x1153B20 Offset: 0x1152120 VA: 0x181153B20
+	// RVA: 0x1153DE0 Offset: 0x11523E0 VA: 0x181153DE0
 	public void SetSplat(Vector3 worldPos, int id, float v) { }
 
-	// RVA: 0x1154190 Offset: 0x1152790 VA: 0x181154190
+	// RVA: 0x1154450 Offset: 0x1152A50 VA: 0x181154450
 	public void SetSplat(float normX, float normZ, int id, float v) { }
 
-	// RVA: 0x1153AB0 Offset: 0x11520B0 VA: 0x181153AB0
+	// RVA: 0x1153D70 Offset: 0x1152370 VA: 0x181153D70
 	public void SetSplat(int x, int z, int id, float v) { }
 
-	// RVA: 0x1153230 Offset: 0x1151830 VA: 0x181153230
+	// RVA: 0x11534F0 Offset: 0x1151AF0 VA: 0x1811534F0
 	public void SetSplatRaw(int x, int z, Vector4 v1, Vector4 v2, float opacity) { }
 
-	// RVA: 0x1153F40 Offset: 0x1152540 VA: 0x181153F40
+	// RVA: 0x1154200 Offset: 0x1152800 VA: 0x181154200
 	public void SetSplat(Vector3 worldPos, int id, float opacity, float radius, float fade = 0) { }
 
-	// RVA: 0x1154240 Offset: 0x1152840 VA: 0x181154240
+	// RVA: 0x1154500 Offset: 0x1152B00 VA: 0x181154500
 	public void SetSplat(float normX, float normZ, int id, float opacity, float radius, float fade = 0) { }
 
-	// RVA: 0x1151D90 Offset: 0x1150390 VA: 0x181151D90
+	// RVA: 0x1152050 Offset: 0x1150650 VA: 0x181152050
 	public void AddSplat(Vector3 worldPos, int id, float delta, float radius, float fade = 0) { }
 
-	// RVA: 0x1151FE0 Offset: 0x11505E0 VA: 0x181151FE0
+	// RVA: 0x11522A0 Offset: 0x11508A0 VA: 0x1811522A0
 	public void AddSplat(float normX, float normZ, int id, float delta, float radius, float fade = 0) { }
 
-	// RVA: 0x1154370 Offset: 0x1152970 VA: 0x181154370
+	// RVA: 0x1154630 Offset: 0x1152C30 VA: 0x181154630
 	private void SetSplat(int x, int z, int id, float old_val, float new_val) { }
 
-	// RVA: 0x1154DA0 Offset: 0x11533A0 VA: 0x181154DA0
+	// RVA: 0x1155060 Offset: 0x1153660 VA: 0x181155060
 	public void .ctor() { }
 
 }
@@ -102,7 +102,7 @@ private sealed class TerrainSplatMap.<>c__DisplayClass4_0 // TypeDefIndex: 10414
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x890030 Offset: 0x88E630 VA: 0x180890030
+	// RVA: 0x890140 Offset: 0x88E740 VA: 0x180890140
 	internal void <GenerateTextures>b__0(int z) { }
 
 }
@@ -117,7 +117,7 @@ private sealed class TerrainSplatMap.<>c__DisplayClass4_1 // TypeDefIndex: 10415
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x890240 Offset: 0x88E840 VA: 0x180890240
+	// RVA: 0x890350 Offset: 0x88E950 VA: 0x180890350
 	internal void <GenerateTextures>b__1(int z) { }
 
 }
@@ -134,7 +134,7 @@ private sealed class TerrainSplatMap.<>c__DisplayClass26_0 // TypeDefIndex: 1041
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x88F430 Offset: 0x88DA30 VA: 0x18088F430
+	// RVA: 0x88F540 Offset: 0x88DB40 VA: 0x18088F540
 	internal void <SetSplat>b__0(int x, int z, float lerp) { }
 
 }
@@ -151,7 +151,7 @@ private sealed class TerrainSplatMap.<>c__DisplayClass28_0 // TypeDefIndex: 1041
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x88FD50 Offset: 0x88E350 VA: 0x18088FD50
+	// RVA: 0x88FE60 Offset: 0x88E460 VA: 0x18088FE60
 	internal void <AddSplat>b__0(int x, int z, float lerp) { }
 
 }

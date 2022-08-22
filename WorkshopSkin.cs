@@ -22,77 +22,77 @@ public class WorkshopSkin : MonoBehaviour // TypeDefIndex: 7723
 
 	// Methods
 
-	// RVA: 0xE86260 Offset: 0xE84860 VA: 0x180E86260
+	// RVA: 0xE86520 Offset: 0xE84B20 VA: 0x180E86520
 	public static string GetStatus() { }
 
-	// RVA: 0xE878A0 Offset: 0xE85EA0 VA: 0x180E878A0
+	// RVA: 0xE87B60 Offset: 0xE86160 VA: 0x180E87B60
 	public static int get_QueuedCount() { }
 
-	// RVA: 0xE87800 Offset: 0xE85E00 VA: 0x180E87800
+	// RVA: 0xE87AC0 Offset: 0xE860C0 VA: 0x180E87AC0
 	public static int get_LoadedCount() { }
 
-	// RVA: 0xE861E0 Offset: 0xE847E0 VA: 0x180E861E0
+	// RVA: 0xE864A0 Offset: 0xE84AA0 VA: 0x180E864A0
 	public static Skin GetSkin(ulong workshopId) { }
 
-	// RVA: 0xE86160 Offset: 0xE84760 VA: 0x180E86160
+	// RVA: 0xE86420 Offset: 0xE84A20 VA: 0x180E86420
 	public static IWorkshopContent GetItem(ulong workshopId) { }
 
-	// RVA: 0xE85A30 Offset: 0xE84030 VA: 0x180E85A30
+	// RVA: 0xE85CF0 Offset: 0xE842F0 VA: 0x180E85CF0
 	public static void Apply(GameObject gameobj, ulong workshopId, Action callback) { }
 
-	// RVA: 0xE87340 Offset: 0xE85940 VA: 0x180E87340
+	// RVA: 0xE87600 Offset: 0xE85C00 VA: 0x180E87600
 	public static void Reset(GameObject gameobj) { }
 
-	// RVA: 0xE872A0 Offset: 0xE858A0 VA: 0x180E872A0
+	// RVA: 0xE87560 Offset: 0xE85B60 VA: 0x180E87560
 	public static void Prepare(GameObject gameobj) { }
 
-	// RVA: 0xE87220 Offset: 0xE85820 VA: 0x180E87220
+	// RVA: 0xE874E0 Offset: 0xE85AE0 VA: 0x180E874E0
 	protected void OnDestroy() { }
 
-	// RVA: 0xE85B50 Offset: 0xE84150 VA: 0x180E85B50
+	// RVA: 0xE85E10 Offset: 0xE84410 VA: 0x180E85E10
 	private void Apply(ulong workshopId, Action callback) { }
 
-	// RVA: 0xE85FB0 Offset: 0xE845B0 VA: 0x180E85FB0
+	// RVA: 0xE86270 Offset: 0xE84870 VA: 0x180E86270
 	private void EnqueueSkinRefresh(ulong workshopId) { }
 
-	// RVA: 0xE86D10 Offset: 0xE85310 VA: 0x180E86D10
+	// RVA: 0xE86FD0 Offset: 0xE855D0 VA: 0x180E86FD0
 	private static void LoadFromWorkshop(ulong workshopId) { }
 
-	// RVA: 0xE85E90 Offset: 0xE84490 VA: 0x180E85E90
+	// RVA: 0xE86150 Offset: 0xE84750 VA: 0x180E86150
 	private void DequeueSkinRefresh(ulong workshopId) { }
 
-	// RVA: 0xE87090 Offset: 0xE85690 VA: 0x180E87090
+	// RVA: 0xE87350 Offset: 0xE85950 VA: 0x180E87350
 	private static void LoadOrUnloadSkinAssets(ulong workshopId) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xC8F70 Offset: 0xC8370 VA: 0x1800C8F70
-	// RVA: 0xE86CC0 Offset: 0xE852C0 VA: 0x180E86CC0
+	// RVA: 0xE86F80 Offset: 0xE85580 VA: 0x180E86F80
 	private static IEnumerator ItemQueueCoroutine() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xC9140 Offset: 0xC8540 VA: 0x1800C9140
-	// RVA: 0xE873E0 Offset: 0xE859E0 VA: 0x180E873E0
+	// RVA: 0xE876A0 Offset: 0xE85CA0 VA: 0x180E876A0
 	private static IEnumerator SkinQueueCoroutine() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xC91E0 Offset: 0xC85E0 VA: 0x1800C91E0
-	// RVA: 0xE87030 Offset: 0xE85630 VA: 0x180E87030
+	// RVA: 0xE872F0 Offset: 0xE858F0 VA: 0x180E872F0
 	private static IEnumerator LoadItem(ulong workshopId) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xC9610 Offset: 0xC8A10 VA: 0x1800C9610
-	// RVA: 0xE871C0 Offset: 0xE857C0 VA: 0x180E871C0
+	// RVA: 0xE87480 Offset: 0xE85A80 VA: 0x180E87480
 	private static IEnumerator LoadSkin(ulong workshopId) { }
 
-	// RVA: 0xE86120 Offset: 0xE84720 VA: 0x180E86120
+	// RVA: 0xE863E0 Offset: 0xE849E0 VA: 0x180E863E0
 	private static int GetBundleIndex(ulong workshopId) { }
 
-	// RVA: 0xE858F0 Offset: 0xE83EF0 VA: 0x180E858F0
+	// RVA: 0xE85BB0 Offset: 0xE841B0 VA: 0x180E85BB0
 	private void ApplySkin(Skin skin, ulong workshopId) { }
 
-	// RVA: 0xE87430 Offset: 0xE85A30 VA: 0x180E87430
+	// RVA: 0xE876F0 Offset: 0xE85CF0 VA: 0x180E876F0
 	private void UpdateSkinReference(Skin skin, ulong workshopId) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0xE875E0 Offset: 0xE85BE0 VA: 0x180E875E0
+	// RVA: 0xE878A0 Offset: 0xE85EA0 VA: 0x180E878A0
 	private static void .cctor() { }
 
 }
@@ -116,7 +116,7 @@ private sealed class WorkshopSkin.<ItemQueueCoroutine>d__31 : IEnumerator<object
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xE7AB20 Offset: 0xE79120 VA: 0x180E7AB20 Slot: 6
+	// RVA: 0xE7ADE0 Offset: 0xE793E0 VA: 0x180E7ADE0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -124,7 +124,7 @@ private sealed class WorkshopSkin.<ItemQueueCoroutine>d__31 : IEnumerator<object
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE7ACA0 Offset: 0xE792A0 VA: 0x180E7ACA0 Slot: 8
+	// RVA: 0xE7AF60 Offset: 0xE79560 VA: 0x180E7AF60 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -152,7 +152,7 @@ private sealed class WorkshopSkin.<SkinQueueCoroutine>d__32 : IEnumerator<object
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xE801B0 Offset: 0xE7E7B0 VA: 0x180E801B0 Slot: 6
+	// RVA: 0xE80470 Offset: 0xE7EA70 VA: 0x180E80470 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -160,7 +160,7 @@ private sealed class WorkshopSkin.<SkinQueueCoroutine>d__32 : IEnumerator<object
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE80330 Offset: 0xE7E930 VA: 0x180E80330 Slot: 8
+	// RVA: 0xE805F0 Offset: 0xE7EBF0 VA: 0x180E805F0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -193,7 +193,7 @@ private sealed class WorkshopSkin.<LoadItem>d__33 : IEnumerator<object>, IEnumer
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xE7CB30 Offset: 0xE7B130 VA: 0x180E7CB30 Slot: 6
+	// RVA: 0xE7CDF0 Offset: 0xE7B3F0 VA: 0x180E7CDF0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -201,7 +201,7 @@ private sealed class WorkshopSkin.<LoadItem>d__33 : IEnumerator<object>, IEnumer
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE7D2E0 Offset: 0xE7B8E0 VA: 0x180E7D2E0 Slot: 8
+	// RVA: 0xE7D5A0 Offset: 0xE7BBA0 VA: 0x180E7D5A0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -234,7 +234,7 @@ private sealed class WorkshopSkin.<LoadSkin>d__34 : IEnumerator<object>, IEnumer
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xE7D920 Offset: 0xE7BF20 VA: 0x180E7D920 Slot: 6
+	// RVA: 0xE7DBE0 Offset: 0xE7C1E0 VA: 0x180E7DBE0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -242,7 +242,7 @@ private sealed class WorkshopSkin.<LoadSkin>d__34 : IEnumerator<object>, IEnumer
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE7DE10 Offset: 0xE7C410 VA: 0x180E7DE10 Slot: 8
+	// RVA: 0xE7E0D0 Offset: 0xE7C6D0 VA: 0x180E7E0D0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -254,7 +254,7 @@ private sealed class WorkshopSkin.<LoadSkin>d__34 : IEnumerator<object>, IEnumer
 public class WorkshopSkin : WorkshopSkinBase // TypeDefIndex: 10779
 {	// Methods
 
-	// RVA: 0x8FEB60 Offset: 0x8FD160 VA: 0x1808FEB60
+	// RVA: 0x8FEC70 Offset: 0x8FD270 VA: 0x1808FEC70
 	public void .ctor() { }
 
 }

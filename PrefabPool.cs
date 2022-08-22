@@ -7,22 +7,22 @@ public class PrefabPool // TypeDefIndex: 11424
 
 	// Methods
 
-	// RVA: 0x9A2340 Offset: 0x9A0940 VA: 0x1809A2340
+	// RVA: 0x9A2600 Offset: 0x9A0C00 VA: 0x1809A2600
 	public int get_Count() { }
 
-	// RVA: 0x9A21C0 Offset: 0x9A07C0 VA: 0x1809A21C0
+	// RVA: 0x9A2480 Offset: 0x9A0A80 VA: 0x1809A2480
 	public void Push(Poolable info) { }
 
-	// RVA: 0x9A2230 Offset: 0x9A0830 VA: 0x1809A2230
+	// RVA: 0x9A24F0 Offset: 0x9A0AF0 VA: 0x1809A24F0
 	public void Push(GameObject instance) { }
 
-	// RVA: 0x9A2090 Offset: 0x9A0690 VA: 0x1809A2090
+	// RVA: 0x9A2350 Offset: 0x9A0950 VA: 0x1809A2350
 	public GameObject Pop(Vector3 pos, Quaternion rot) { }
 
-	// RVA: 0x9A1EF0 Offset: 0x9A04F0 VA: 0x1809A1EF0
+	// RVA: 0x9A21B0 Offset: 0x9A07B0 VA: 0x1809A21B0
 	public void Clear() { }
 
-	// RVA: 0x9A22D0 Offset: 0x9A08D0 VA: 0x1809A22D0
+	// RVA: 0x9A2590 Offset: 0x9A0B90 VA: 0x1809A2590
 	public void .ctor() { }
 
 }

@@ -30,66 +30,66 @@ public class Exception : ISerializable, _Exception // TypeDefIndex: 218
 
 	// Methods
 
-	// RVA: 0x10DC6B0 Offset: 0x10DACB0 VA: 0x1810DC6B0
+	// RVA: 0x10DC970 Offset: 0x10DAF70 VA: 0x1810DC970
 	private void Init() { }
 
-	// RVA: 0x10DCCF0 Offset: 0x10DB2F0 VA: 0x1810DCCF0
+	// RVA: 0x10DCFB0 Offset: 0x10DB5B0 VA: 0x1810DCFB0
 	public void .ctor() { }
 
-	// RVA: 0x10DCD70 Offset: 0x10DB370 VA: 0x1810DCD70
+	// RVA: 0x10DD030 Offset: 0x10DB630 VA: 0x1810DD030
 	public void .ctor(string message) { }
 
-	// RVA: 0x10DCD10 Offset: 0x10DB310 VA: 0x1810DCD10
+	// RVA: 0x10DCFD0 Offset: 0x10DB5D0 VA: 0x1810DCFD0
 	public void .ctor(string message, Exception innerException) { }
 
-	// RVA: 0x10DCDB0 Offset: 0x10DB3B0 VA: 0x1810DCDB0
+	// RVA: 0x10DD070 Offset: 0x10DB670 VA: 0x1810DD070
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x10DD1C0 Offset: 0x10DB7C0 VA: 0x1810DD1C0 Slot: 5
+	// RVA: 0x10DD480 Offset: 0x10DBA80 VA: 0x1810DD480 Slot: 5
 	public virtual string get_Message() { }
 
-	// RVA: 0x10DD130 Offset: 0x10DB730 VA: 0x1810DD130 Slot: 6
+	// RVA: 0x10DD3F0 Offset: 0x10DB9F0 VA: 0x1810DD3F0 Slot: 6
 	public virtual IDictionary get_Data() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	private static bool IsImmutableAgileException(Exception e) { }
 
-	// RVA: 0x10DC110 Offset: 0x10DA710 VA: 0x1810DC110
+	// RVA: 0x10DC3D0 Offset: 0x10DA9D0 VA: 0x1810DC3D0
 	private string GetClassName() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330 Slot: 7
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 7
 	public Exception get_InnerException() { }
 
-	// RVA: 0x10DD410 Offset: 0x10DBA10 VA: 0x1810DD410 Slot: 8
+	// RVA: 0x10DD6D0 Offset: 0x10DBCD0 VA: 0x1810DD6D0 Slot: 8
 	public virtual string get_StackTrace() { }
 
-	// RVA: 0x10DC5C0 Offset: 0x10DABC0 VA: 0x1810DC5C0
+	// RVA: 0x10DC880 Offset: 0x10DAE80 VA: 0x1810DC880
 	private string GetStackTrace(bool needFileInfo) { }
 
 	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574440 Offset: 0x572A40 VA: 0x180574440
 	internal void SetErrorCode(int hr) { }
 
-	// RVA: 0x10DD2D0 Offset: 0x10DB8D0 VA: 0x1810DD2D0 Slot: 9
+	// RVA: 0x10DD590 Offset: 0x10DBB90 VA: 0x1810DD590 Slot: 9
 	public virtual string get_Source() { }
 
-	// RVA: 0x10DCC80 Offset: 0x10DB280 VA: 0x1810DCC80 Slot: 3
+	// RVA: 0x10DCF40 Offset: 0x10DB540 VA: 0x1810DCF40 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x10DC890 Offset: 0x10DAE90 VA: 0x1810DC890
+	// RVA: 0x10DCB50 Offset: 0x10DB150 VA: 0x1810DCB50
 	private string ToString(bool needFileLineInfo, bool needMessage) { }
 
-	// RVA: 0x10DC1B0 Offset: 0x10DA7B0 VA: 0x1810DC1B0 Slot: 10
+	// RVA: 0x10DC470 Offset: 0x10DAA70 VA: 0x1810DC470 Slot: 10
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10DC740 Offset: 0x10DAD40 VA: 0x1810DC740
+	// RVA: 0x10DCA00 Offset: 0x10DB000 VA: 0x1810DCA00
 	private void OnDeserialized(StreamingContext context) { }
 
-	// RVA: 0x7B4E80 Offset: 0x7B3480 VA: 0x1807B4E80
+	// RVA: 0x7B4F90 Offset: 0x7B3590 VA: 0x1807B4F90
 	private string StripFileInfo(string stackTrace, bool isRemoteStackTrace) { }
 
-	// RVA: 0x10DC7E0 Offset: 0x10DADE0 VA: 0x1810DC7E0
+	// RVA: 0x10DCAA0 Offset: 0x10DB0A0 VA: 0x1810DCAA0
 	internal void RestoreExceptionDispatchInfo(ExceptionDispatchInfo exceptionDispatchInfo) { }
 
 	// RVA: 0x5743B0 Offset: 0x5729B0 VA: 0x1805743B0
@@ -98,19 +98,19 @@ public class Exception : ISerializable, _Exception // TypeDefIndex: 218
 	// RVA: 0x574440 Offset: 0x572A40 VA: 0x180574440
 	protected void set_HResult(int value) { }
 
-	// RVA: 0x10DC6A0 Offset: 0x10DACA0 VA: 0x1810DC6A0 Slot: 11
+	// RVA: 0x10DC960 Offset: 0x10DAF60 VA: 0x1810DC960 Slot: 11
 	public Type GetType() { }
 
-	// RVA: 0x10DC160 Offset: 0x10DA760 VA: 0x1810DC160
+	// RVA: 0x10DC420 Offset: 0x10DAA20 VA: 0x1810DC420
 	internal static string GetMessageFromNativeResources(Exception.ExceptionMessageKind kind) { }
 
-	// RVA: 0x10DC030 Offset: 0x10DA630 VA: 0x1810DC030
+	// RVA: 0x10DC2F0 Offset: 0x10DA8F0 VA: 0x1810DC2F0
 	internal Exception FixRemotingException() { }
 
-	// RVA: 0x10DC7D0 Offset: 0x10DADD0 VA: 0x1810DC7D0
+	// RVA: 0x10DCA90 Offset: 0x10DB090 VA: 0x1810DCA90
 	internal static void ReportUnhandledException(Exception exception) { }
 
-	// RVA: 0x10DCC90 Offset: 0x10DB290 VA: 0x1810DCC90
+	// RVA: 0x10DCF50 Offset: 0x10DB550 VA: 0x1810DCF50
 	private static void .cctor() { }
 
 }

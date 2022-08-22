@@ -75,7 +75,7 @@ public enum ColorTween.ColorTweenMode // TypeDefIndex: 5040
 public class ColorTween.ColorTweenCallback : UnityEvent<Color> // TypeDefIndex: 5041
 {	// Methods
 
-	// RVA: 0x10BA000 Offset: 0x10B8600 VA: 0x1810BA000
+	// RVA: 0x10BA2C0 Offset: 0x10B88C0 VA: 0x1810BA2C0
 	public void .ctor() { }
 
 }
@@ -157,7 +157,7 @@ public enum ColorTween.ColorTweenMode // TypeDefIndex: 6751
 public class ColorTween.ColorTweenCallback : UnityEvent<Color> // TypeDefIndex: 6752
 {	// Methods
 
-	// RVA: 0xC65080 Offset: 0xC63680 VA: 0x180C65080
+	// RVA: 0xC65340 Offset: 0xC63940 VA: 0x180C65340
 	public void .ctor() { }
 
 }

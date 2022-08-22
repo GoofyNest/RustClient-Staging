@@ -1,19 +1,19 @@
 internal static class UnityTlsConversions // TypeDefIndex: 2510
 {	// Methods
 
-	// RVA: 0x15D7870 Offset: 0x15D5E70 VA: 0x1815D7870
+	// RVA: 0x15D7B30 Offset: 0x15D6130 VA: 0x1815D7B30
 	public static UnityTls.unitytls_protocol GetMinProtocol(SslProtocols protocols) { }
 
-	// RVA: 0x15D7720 Offset: 0x15D5D20 VA: 0x1815D7720
+	// RVA: 0x15D79E0 Offset: 0x15D5FE0 VA: 0x1815D79E0
 	public static UnityTls.unitytls_protocol GetMaxProtocol(SslProtocols protocols) { }
 
-	// RVA: 0x15D76F0 Offset: 0x15D5CF0 VA: 0x1815D76F0
+	// RVA: 0x15D79B0 Offset: 0x15D5FB0 VA: 0x1815D79B0
 	public static TlsProtocols ConvertProtocolVersion(UnityTls.unitytls_protocol protocol) { }
 
-	// RVA: 0x15D79C0 Offset: 0x15D5FC0 VA: 0x1815D79C0
+	// RVA: 0x15D7C80 Offset: 0x15D6280 VA: 0x1815D7C80
 	public static AlertDescription VerifyResultToAlertDescription(UnityTls.unitytls_x509verify_result verifyResult, AlertDescription defaultAlert = 80) { }
 
-	// RVA: 0x15D7E80 Offset: 0x15D6480 VA: 0x1815D7E80
+	// RVA: 0x15D8140 Offset: 0x15D6740 VA: 0x1815D8140
 	public static MonoSslPolicyErrors VerifyResultToPolicyErrror(UnityTls.unitytls_x509verify_result verifyResult) { }
 
 }

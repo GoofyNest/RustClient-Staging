@@ -8,7 +8,7 @@ public class ImageStorageEntity : BaseEntity // TypeDefIndex: 8580
 
 	// Methods
 
-	// RVA: 0x80EDB0 Offset: 0x80D3B0 VA: 0x18080EDB0 Slot: 35
+	// RVA: 0x80EEC0 Offset: 0x80D4C0 VA: 0x18080EEC0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 131
@@ -17,21 +17,21 @@ public class ImageStorageEntity : BaseEntity // TypeDefIndex: 8580
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 132
 	protected virtual uint get_CrcToLoad() { }
 
-	// RVA: 0x80F260 Offset: 0x80D860 VA: 0x18080F260
+	// RVA: 0x80F370 Offset: 0x80D970 VA: 0x18080F370
 	private void RequestImage(IImageReceiver receiver) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x80F210 Offset: 0x80D810 VA: 0x18080F210
+	// RVA: 0x80F320 Offset: 0x80D920 VA: 0x18080F320
 	private void ReceiveImage(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x80EA00 Offset: 0x80D000 VA: 0x18080EA00
+	// RVA: 0x80EB10 Offset: 0x80D110 VA: 0x18080EB10
 	private void LoadFromBytes(byte[] imageData) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xAC080 Offset: 0xAB480 VA: 0x1800AC080
-	// RVA: 0x80ED30 Offset: 0x80D330 VA: 0x18080ED30
+	// RVA: 0x80EE40 Offset: 0x80D440 VA: 0x18080EE40
 	public static IEnumerator LoadImage(uint imageStorageEntityId, IImageReceiver receiver) { }
 
-	// RVA: 0x80F650 Offset: 0x80DC50 VA: 0x18080F650
+	// RVA: 0x80F760 Offset: 0x80DD60 VA: 0x18080F760
 	public void .ctor() { }
 
 }
@@ -51,16 +51,16 @@ private sealed class ImageStorageEntity.<>c // TypeDefIndex: 8582
 
 	// Methods
 
-	// RVA: 0x821C40 Offset: 0x820240 VA: 0x180821C40
+	// RVA: 0x821D50 Offset: 0x820350 VA: 0x180821D50
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8207E0 Offset: 0x81EDE0 VA: 0x1808207E0
+	// RVA: 0x8208F0 Offset: 0x81EEF0 VA: 0x1808208F0
 	internal bool <RequestImage>b__7_0(ImageStorageEntity.ImageRequest r) { }
 
-	// RVA: 0x820850 Offset: 0x81EE50 VA: 0x180820850
+	// RVA: 0x820960 Offset: 0x81EF60 VA: 0x180820960
 	internal IImageReceiver <RequestImage>b__7_1(ImageStorageEntity.ImageRequest r) { }
 
 }
@@ -87,7 +87,7 @@ private sealed class ImageStorageEntity.<LoadImage>d__10 : IEnumerator<object>, 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x820360 Offset: 0x81E960 VA: 0x180820360 Slot: 6
+	// RVA: 0x820470 Offset: 0x81EA70 VA: 0x180820470 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -95,7 +95,7 @@ private sealed class ImageStorageEntity.<LoadImage>d__10 : IEnumerator<object>, 
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x820510 Offset: 0x81EB10 VA: 0x180820510 Slot: 8
+	// RVA: 0x820620 Offset: 0x81EC20 VA: 0x180820620 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

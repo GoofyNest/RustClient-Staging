@@ -29,22 +29,22 @@ internal sealed class Index // TypeDefIndex: 4300
 
 	// Methods
 
-	// RVA: 0xE8BBE0 Offset: 0xE8A1E0 VA: 0x180E8BBE0
+	// RVA: 0xE8BEA0 Offset: 0xE8A4A0 VA: 0x180E8BEA0
 	public void .ctor(DataTable table, IndexField[] indexFields, DataViewRowState recordStates, IFilter rowFilter) { }
 
-	// RVA: 0xE8BC10 Offset: 0xE8A210 VA: 0x180E8BC10
+	// RVA: 0xE8BED0 Offset: 0xE8A4D0 VA: 0x180E8BED0
 	public void .ctor(DataTable table, Comparison<DataRow> comparison, DataViewRowState recordStates, IFilter rowFilter) { }
 
-	// RVA: 0xE89A70 Offset: 0xE88070 VA: 0x180E89A70
+	// RVA: 0xE89D30 Offset: 0xE88330 VA: 0x180E89D30
 	private static IndexField[] GetAllFields(DataColumnCollection columns) { }
 
-	// RVA: 0xE8BD60 Offset: 0xE8A360 VA: 0x180E8BD60
+	// RVA: 0xE8C020 Offset: 0xE8A620 VA: 0x180E8C020
 	private void .ctor(DataTable table, IndexField[] indexFields, Comparison<DataRow> comparison, DataViewRowState recordStates, IFilter rowFilter) { }
 
-	// RVA: 0xE89230 Offset: 0xE87830 VA: 0x180E89230
+	// RVA: 0xE894F0 Offset: 0xE87AF0 VA: 0x180E894F0
 	public bool Equal(IndexField[] indexDesc, DataViewRowState recordStates, IFilter rowFilter) { }
 
-	// RVA: 0xE8C0E0 Offset: 0xE8A6E0 VA: 0x180E8C0E0
+	// RVA: 0xE8C3A0 Offset: 0xE8A9A0 VA: 0x180E8C3A0
 	internal bool get_HasRemoteAggregate() { }
 
 	// RVA: 0x5DE920 Offset: 0x5DCF20 VA: 0x1805DE920
@@ -53,176 +53,176 @@ internal sealed class Index // TypeDefIndex: 4300
 	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
 	public DataViewRowState get_RecordStates() { }
 
-	// RVA: 0xE8C100 Offset: 0xE8A700 VA: 0x180E8C100
+	// RVA: 0xE8C3C0 Offset: 0xE8A9C0 VA: 0x180E8C3C0
 	public IFilter get_RowFilter() { }
 
-	// RVA: 0xE89F70 Offset: 0xE88570 VA: 0x180E89F70
+	// RVA: 0xE8A230 Offset: 0xE88830 VA: 0x180E8A230
 	public int GetRecord(int recordIndex) { }
 
-	// RVA: 0xE8C090 Offset: 0xE8A690 VA: 0x180E8C090
+	// RVA: 0xE8C350 Offset: 0xE8A950 VA: 0x180E8C350
 	public bool get_HasDuplicates() { }
 
 	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
 	public int get_RecordCount() { }
 
-	// RVA: 0xE8C0F0 Offset: 0xE8A6F0 VA: 0x180E8C0F0
+	// RVA: 0xE8C3B0 Offset: 0xE8A9B0 VA: 0x180E8C3B0
 	public bool get_IsSharable() { }
 
-	// RVA: 0xE886C0 Offset: 0xE86CC0 VA: 0x180E886C0
+	// RVA: 0xE88980 Offset: 0xE86F80 VA: 0x180E88980
 	private bool AcceptRecord(int record) { }
 
-	// RVA: 0xE886F0 Offset: 0xE86CF0 VA: 0x180E886F0
+	// RVA: 0xE889B0 Offset: 0xE86FB0 VA: 0x180E889B0
 	private bool AcceptRecord(int record, IFilter filter) { }
 
-	// RVA: 0xE8AC30 Offset: 0xE89230 VA: 0x180E8AC30
+	// RVA: 0xE8AEF0 Offset: 0xE894F0 VA: 0x180E8AEF0
 	internal void ListChangedAdd(DataViewListener listener) { }
 
-	// RVA: 0xE8AC90 Offset: 0xE89290 VA: 0x180E8AC90
+	// RVA: 0xE8AF50 Offset: 0xE89550 VA: 0x180E8AF50
 	internal void ListChangedRemove(DataViewListener listener) { }
 
 	// RVA: 0x5DE450 Offset: 0x5DCA50 VA: 0x1805DE450
 	public int get_RefCount() { }
 
-	// RVA: 0xE88830 Offset: 0xE86E30 VA: 0x180E88830
+	// RVA: 0xE88AF0 Offset: 0xE870F0 VA: 0x180E88AF0
 	public void AddRef() { }
 
-	// RVA: 0xE8B7F0 Offset: 0xE89DF0 VA: 0x180E8B7F0
+	// RVA: 0xE8BAB0 Offset: 0xE8A0B0 VA: 0x180E8BAB0
 	public int RemoveRef() { }
 
-	// RVA: 0xE889B0 Offset: 0xE86FB0 VA: 0x180E889B0
+	// RVA: 0xE88C70 Offset: 0xE87270 VA: 0x180E88C70
 	private void ApplyChangeAction(int record, int action, int changeRecord) { }
 
-	// RVA: 0xE88A80 Offset: 0xE87080 VA: 0x180E88A80
+	// RVA: 0xE88D40 Offset: 0xE87340 VA: 0x180E88D40
 	public bool CheckUnique() { }
 
-	// RVA: 0xE88EB0 Offset: 0xE874B0 VA: 0x180E88EB0
+	// RVA: 0xE89170 Offset: 0xE87770 VA: 0x180E89170
 	private int CompareRecords(int record1, int record2) { }
 
-	// RVA: 0xE88AD0 Offset: 0xE870D0 VA: 0x180E88AD0
+	// RVA: 0xE88D90 Offset: 0xE87390 VA: 0x180E88D90
 	private int CompareDataRows(int record1, int record2) { }
 
-	// RVA: 0xE88B90 Offset: 0xE87190 VA: 0x180E88B90
+	// RVA: 0xE88E50 Offset: 0xE87450 VA: 0x180E88E50
 	private int CompareDuplicateRecords(int record1, int record2) { }
 
-	// RVA: 0xE88D90 Offset: 0xE87390 VA: 0x180E88D90
+	// RVA: 0xE89050 Offset: 0xE87650 VA: 0x180E89050
 	private int CompareRecordToKey(int record1, object[] vals) { }
 
-	// RVA: 0xE89110 Offset: 0xE87710 VA: 0x180E89110
+	// RVA: 0xE893D0 Offset: 0xE879D0 VA: 0x180E893D0
 	public void DeleteRecordFromIndex(int recordIndex) { }
 
-	// RVA: 0xE89220 Offset: 0xE87820 VA: 0x180E89220
+	// RVA: 0xE894E0 Offset: 0xE87AE0 VA: 0x180E894E0
 	private void DeleteRecord(int recordIndex) { }
 
-	// RVA: 0xE89120 Offset: 0xE87720 VA: 0x180E89120
+	// RVA: 0xE893E0 Offset: 0xE879E0 VA: 0x180E893E0
 	private void DeleteRecord(int recordIndex, bool fireEvent) { }
 
-	// RVA: 0xE89B90 Offset: 0xE88190 VA: 0x180E89B90
+	// RVA: 0xE89E50 Offset: 0xE88450 VA: 0x180E89E50
 	public RBTree.RBTreeEnumerator<int> GetEnumerator(int startIndex) { }
 
-	// RVA: 0xE89D80 Offset: 0xE88380 VA: 0x180E89D80
+	// RVA: 0xE8A040 Offset: 0xE88640 VA: 0x180E8A040
 	public int GetIndex(int record) { }
 
-	// RVA: 0xE89C00 Offset: 0xE88200 VA: 0x180E89C00
+	// RVA: 0xE89EC0 Offset: 0xE884C0 VA: 0x180E89EC0
 	private int GetIndex(int record, int changeRecord) { }
 
-	// RVA: 0xE8A480 Offset: 0xE88A80 VA: 0x180E8A480
+	// RVA: 0xE8A740 Offset: 0xE88D40 VA: 0x180E8A740
 	public object[] GetUniqueKeyValues() { }
 
-	// RVA: 0xE893A0 Offset: 0xE879A0 VA: 0x180E893A0
+	// RVA: 0xE89660 Offset: 0xE87C60 VA: 0x180E89660
 	private int FindNodeByKey(object originalKey) { }
 
-	// RVA: 0xE89590 Offset: 0xE87B90 VA: 0x180E89590
+	// RVA: 0xE89850 Offset: 0xE87E50 VA: 0x180E89850
 	private int FindNodeByKeys(object[] originalKey) { }
 
-	// RVA: 0xE892E0 Offset: 0xE878E0 VA: 0x180E892E0
+	// RVA: 0xE895A0 Offset: 0xE87BA0 VA: 0x180E895A0
 	private int FindNodeByKeyRecord(int record) { }
 
-	// RVA: 0xE89DE0 Offset: 0xE883E0 VA: 0x180E89DE0
+	// RVA: 0xE8A0A0 Offset: 0xE886A0 VA: 0x180E8A0A0
 	private Range GetRangeFromNode(int nodeId) { }
 
-	// RVA: 0xE89900 Offset: 0xE87F00 VA: 0x180E89900
+	// RVA: 0xE89BC0 Offset: 0xE881C0 VA: 0x180E89BC0
 	public Range FindRecords(object key) { }
 
-	// RVA: 0xE898B0 Offset: 0xE87EB0 VA: 0x180E898B0
+	// RVA: 0xE89B70 Offset: 0xE88170 VA: 0x180E89B70
 	public Range FindRecords(object[] key) { }
 
-	// RVA: 0xE89950 Offset: 0xE87F50 VA: 0x180E89950
+	// RVA: 0xE89C10 Offset: 0xE88210 VA: 0x180E89C10
 	internal void FireResetEvent() { }
 
-	// RVA: 0xE89B70 Offset: 0xE88170 VA: 0x180E89B70
+	// RVA: 0xE89E30 Offset: 0xE88430 VA: 0x180E89E30
 	private int GetChangeAction(DataViewRowState oldState, DataViewRowState newState) { }
 
-	// RVA: 0xE89FD0 Offset: 0xE885D0 VA: 0x180E89FD0
+	// RVA: 0xE8A290 Offset: 0xE88890 VA: 0x180E8A290
 	private static int GetReplaceAction(DataViewRowState oldState) { }
 
-	// RVA: 0xE89FF0 Offset: 0xE885F0 VA: 0x180E89FF0
+	// RVA: 0xE8A2B0 Offset: 0xE888B0 VA: 0x180E8A2B0
 	public DataRow GetRow(int i) { }
 
-	// RVA: 0xE8A090 Offset: 0xE88690 VA: 0x180E8A090
+	// RVA: 0xE8A350 Offset: 0xE88950 VA: 0x180E8A350
 	public DataRow[] GetRows(object[] values) { }
 
-	// RVA: 0xE8A0E0 Offset: 0xE886E0 VA: 0x180E8A0E0
+	// RVA: 0xE8A3A0 Offset: 0xE889A0 VA: 0x180E8A3A0
 	public DataRow[] GetRows(Range range) { }
 
-	// RVA: 0xE8A5C0 Offset: 0xE88BC0 VA: 0x180E8A5C0
+	// RVA: 0xE8A880 Offset: 0xE88E80 VA: 0x180E8A880
 	private void InitRecords(IFilter filter) { }
 
-	// RVA: 0xE8A8D0 Offset: 0xE88ED0 VA: 0x180E8A8D0
+	// RVA: 0xE8AB90 Offset: 0xE89190 VA: 0x180E8AB90
 	public int InsertRecordToIndex(int record) { }
 
-	// RVA: 0xE8A930 Offset: 0xE88F30 VA: 0x180E8A930
+	// RVA: 0xE8ABF0 Offset: 0xE891F0 VA: 0x180E8ABF0
 	private int InsertRecord(int record, bool fireEvent) { }
 
-	// RVA: 0xE8AB50 Offset: 0xE89150 VA: 0x180E8AB50
+	// RVA: 0xE8AE10 Offset: 0xE89410 VA: 0x180E8AE10
 	public bool IsKeyInIndex(object key) { }
 
-	// RVA: 0xE8AB30 Offset: 0xE89130 VA: 0x180E8AB30
+	// RVA: 0xE8ADF0 Offset: 0xE893F0 VA: 0x180E8ADF0
 	public bool IsKeyInIndex(object[] key) { }
 
-	// RVA: 0xE8AB70 Offset: 0xE89170 VA: 0x180E8AB70
+	// RVA: 0xE8AE30 Offset: 0xE89430 VA: 0x180E8AE30
 	public bool IsKeyRecordInIndex(int record) { }
 
-	// RVA: 0xE8C020 Offset: 0xE8A620 VA: 0x180E8C020
+	// RVA: 0xE8C2E0 Offset: 0xE8A8E0 VA: 0x180E8C2E0
 	private bool get_DoListChanged() { }
 
-	// RVA: 0xE8AE10 Offset: 0xE89410 VA: 0x180E8AE10
+	// RVA: 0xE8B0D0 Offset: 0xE896D0 VA: 0x180E8B0D0
 	private void OnListChanged(ListChangedType changedType, int newIndex, int oldIndex) { }
 
-	// RVA: 0xE8AF00 Offset: 0xE89500 VA: 0x180E8AF00
+	// RVA: 0xE8B1C0 Offset: 0xE897C0 VA: 0x180E8B1C0
 	private void OnListChanged(ListChangedType changedType, int index) { }
 
-	// RVA: 0xE8AFD0 Offset: 0xE895D0 VA: 0x180E8AFD0
+	// RVA: 0xE8B290 Offset: 0xE89890 VA: 0x180E8B290
 	private void OnListChanged(ListChangedEventArgs e) { }
 
-	// RVA: 0xE8ACF0 Offset: 0xE892F0 VA: 0x180E8ACF0
+	// RVA: 0xE8AFB0 Offset: 0xE895B0 VA: 0x180E8AFB0
 	private void MaintainDataView(ListChangedType changedType, int record, bool trackAddRemove) { }
 
-	// RVA: 0xE8B990 Offset: 0xE89F90 VA: 0x180E8B990
+	// RVA: 0xE8BC50 Offset: 0xE8A250 VA: 0x180E8BC50
 	public void Reset() { }
 
-	// RVA: 0xE8B270 Offset: 0xE89870 VA: 0x180E8B270
+	// RVA: 0xE8B530 Offset: 0xE89B30 VA: 0x180E8B530
 	public void RecordChanged(int record) { }
 
-	// RVA: 0xE8B140 Offset: 0xE89740 VA: 0x180E8B140
+	// RVA: 0xE8B400 Offset: 0xE89A00 VA: 0x180E8B400
 	public void RecordChanged(int oldIndex, int newIndex) { }
 
-	// RVA: 0xE8B3A0 Offset: 0xE899A0 VA: 0x180E8B3A0
+	// RVA: 0xE8B660 Offset: 0xE89C60 VA: 0x180E8B660
 	public void RecordStateChanged(int record, DataViewRowState oldState, DataViewRowState newState) { }
 
-	// RVA: 0xE8B4A0 Offset: 0xE89AA0 VA: 0x180E8B4A0
+	// RVA: 0xE8B760 Offset: 0xE89D60 VA: 0x180E8B760
 	public void RecordStateChanged(int oldRecord, DataViewRowState oldOldState, DataViewRowState oldNewState, int newRecord, DataViewRowState newOldState, DataViewRowState newNewState) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	internal DataTable get_Table() { }
 
-	// RVA: 0xE8A2C0 Offset: 0xE888C0 VA: 0x180E8A2C0
+	// RVA: 0xE8A580 Offset: 0xE88B80 VA: 0x180E8A580
 	private void GetUniqueKeyValues(List<object[]> list, int curNodeId) { }
 
 	// RVA: -1 Offset: -1
 	internal static int IndexOfReference<T>(List<T> list, T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED4900 Offset: 0xED2F00 VA: 0x180ED4900
+	|-RVA: 0xED4BC0 Offset: 0xED31C0 VA: 0x180ED4BC0
 	|-Index.IndexOfReference<object>
 	*/
 
@@ -234,13 +234,13 @@ private sealed class Index.IndexTree : RBTree<int> // TypeDefIndex: 4301
 
 	// Methods
 
-	// RVA: 0xE88660 Offset: 0xE86C60 VA: 0x180E88660
+	// RVA: 0xE88920 Offset: 0xE86F20 VA: 0x180E88920
 	internal void .ctor(Index index) { }
 
-	// RVA: 0xE88620 Offset: 0xE86C20 VA: 0x180E88620 Slot: 5
+	// RVA: 0xE888E0 Offset: 0xE86EE0 VA: 0x180E888E0 Slot: 5
 	protected override int CompareNode(int record1, int record2) { }
 
-	// RVA: 0xE88640 Offset: 0xE86C40 VA: 0x180E88640 Slot: 6
+	// RVA: 0xE88900 Offset: 0xE86F00 VA: 0x180E88900 Slot: 6
 	protected override int CompareSateliteTreeNode(int record1, int record2) { }
 
 }
@@ -253,16 +253,16 @@ private sealed class Index.<>c // TypeDefIndex: 4302
 
 	// Methods
 
-	// RVA: 0xEA8D90 Offset: 0xEA7390 VA: 0x180EA8D90
+	// RVA: 0xEA9050 Offset: 0xEA7650 VA: 0x180EA9050
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xDEF510 Offset: 0xDEDB10 VA: 0x180DEF510
+	// RVA: 0xDEF7D0 Offset: 0xDEDDD0 VA: 0x180DEF7D0
 	internal bool <.ctor>b__22_0(DataViewListener listener) { }
 
-	// RVA: 0xEA8D20 Offset: 0xEA7320 VA: 0x180EA8D20
+	// RVA: 0xEA8FE0 Offset: 0xEA75E0 VA: 0x180EA8FE0
 	internal void <OnListChanged>b__85_0(DataViewListener listener, ListChangedEventArgs args, bool arg2, bool arg3) { }
 
 }
@@ -276,7 +276,7 @@ private sealed class Index.<>c__DisplayClass86_0 // TypeDefIndex: 4303
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xEA8D50 Offset: 0xEA7350 VA: 0x180EA8D50
+	// RVA: 0xEA9010 Offset: 0xEA7610 VA: 0x180EA9010
 	internal void <MaintainDataView>b__0(DataViewListener listener, ListChangedType type, DataRow row, bool track) { }
 
 }

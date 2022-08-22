@@ -10,13 +10,13 @@ public class ExcavatorEffects : MonoBehaviour // TypeDefIndex: 9629
 
 	// Methods
 
-	// RVA: 0x8CDD60 Offset: 0x8CC360 VA: 0x1808CDD60
+	// RVA: 0x8CDE70 Offset: 0x8CC470 VA: 0x1808CDE70
 	public void Awake() { }
 
-	// RVA: 0x8CDDC0 Offset: 0x8CC3C0 VA: 0x1808CDDC0
+	// RVA: 0x8CDED0 Offset: 0x8CC4D0 VA: 0x1808CDED0
 	public void OnDestroy() { }
 
-	// RVA: 0x8CDE00 Offset: 0x8CC400 VA: 0x1808CDE00
+	// RVA: 0x8CDF10 Offset: 0x8CC510 VA: 0x1808CDF10
 	public void SetMining(bool isMining, bool force = False) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

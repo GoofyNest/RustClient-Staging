@@ -4,10 +4,10 @@ public class MoveForward : MonoBehaviour // TypeDefIndex: 11321
 
 	// Methods
 
-	// RVA: 0x7BB940 Offset: 0x7B9F40 VA: 0x1807BB940
+	// RVA: 0x7BBA50 Offset: 0x7BA050 VA: 0x1807BBA50
 	protected void Update() { }
 
-	// RVA: 0x7BBA40 Offset: 0x7BA040 VA: 0x1807BBA40
+	// RVA: 0x7BBB50 Offset: 0x7BA150 VA: 0x1807BBB50
 	public void .ctor() { }
 
 }

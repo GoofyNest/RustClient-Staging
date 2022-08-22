@@ -14,53 +14,53 @@ public class HttpClient : HttpMessageInvoker // TypeDefIndex: 5737
 
 	// Methods
 
-	// RVA: 0x108A380 Offset: 0x1088980 VA: 0x18108A380
+	// RVA: 0x108A640 Offset: 0x1088C40 VA: 0x18108A640
 	public void .ctor() { }
 
-	// RVA: 0x108A510 Offset: 0x1088B10 VA: 0x18108A510
+	// RVA: 0x108A7D0 Offset: 0x1088DD0 VA: 0x18108A7D0
 	public void .ctor(HttpMessageHandler handler, bool disposeHandler) { }
 
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
 	public long get_MaxResponseContentBufferSize() { }
 
-	// RVA: 0x108A630 Offset: 0x1088C30 VA: 0x18108A630
+	// RVA: 0x108A8F0 Offset: 0x1088EF0 VA: 0x18108A8F0
 	public void set_Timeout(TimeSpan value) { }
 
-	// RVA: 0x1089820 Offset: 0x1087E20 VA: 0x181089820 Slot: 5
+	// RVA: 0x1089AE0 Offset: 0x10880E0 VA: 0x181089AE0 Slot: 5
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x1089890 Offset: 0x1087E90 VA: 0x181089890
+	// RVA: 0x1089B50 Offset: 0x1088150 VA: 0x181089B50
 	public Task<HttpResponseMessage> GetAsync(string requestUri, HttpCompletionOption completionOption) { }
 
-	// RVA: 0x1089B00 Offset: 0x1088100 VA: 0x181089B00
+	// RVA: 0x1089DC0 Offset: 0x10883C0 VA: 0x181089DC0
 	public Task<HttpResponseMessage> PostAsync(string requestUri, HttpContent content) { }
 
-	// RVA: 0x108A260 Offset: 0x1088860 VA: 0x18108A260
+	// RVA: 0x108A520 Offset: 0x1088B20 VA: 0x18108A520
 	public Task<HttpResponseMessage> SendAsync(HttpRequestMessage request) { }
 
-	// RVA: 0x1089DB0 Offset: 0x10883B0 VA: 0x181089DB0
+	// RVA: 0x108A070 Offset: 0x1088670 VA: 0x18108A070
 	public Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption) { }
 
-	// RVA: 0x108A240 Offset: 0x1088840 VA: 0x18108A240 Slot: 6
+	// RVA: 0x108A500 Offset: 0x1088B00 VA: 0x18108A500 Slot: 6
 	public override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken) { }
 
-	// RVA: 0x1089E40 Offset: 0x1088440 VA: 0x181089E40
+	// RVA: 0x108A100 Offset: 0x1088700 VA: 0x18108A100
 	public Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD1240 Offset: 0xD0640 VA: 0x1800D1240
-	// RVA: 0x1089C70 Offset: 0x1088270 VA: 0x181089C70
+	// RVA: 0x1089F30 Offset: 0x1088530 VA: 0x181089F30
 	private Task<HttpResponseMessage> SendAsyncWorker(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD1380 Offset: 0xD0780 VA: 0x1800D1380
-	// RVA: 0x10899E0 Offset: 0x1087FE0 VA: 0x1810899E0
+	// RVA: 0x1089CA0 Offset: 0x10882A0 VA: 0x181089CA0
 	public Task<string> GetStringAsync(string requestUri) { }
 
-	// RVA: 0x108A310 Offset: 0x1088910 VA: 0x18108A310
+	// RVA: 0x108A5D0 Offset: 0x1088BD0 VA: 0x18108A5D0
 	private static void .cctor() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	// RVA: 0x108A2E0 Offset: 0x10888E0 VA: 0x18108A2E0
+	// RVA: 0x108A5A0 Offset: 0x1088BA0 VA: 0x18108A5A0
 	private Task<HttpResponseMessage> <>n__0(HttpRequestMessage request, CancellationToken cancellationToken) { }
 
 }

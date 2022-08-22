@@ -20,10 +20,10 @@ public abstract class PrefabAttribute : MonoBehaviour, IPrefabPreProcess // Type
 
 	// Methods
 
-	// RVA: 0x9A1110 Offset: 0x99F710 VA: 0x1809A1110
+	// RVA: 0x9A1220 Offset: 0x99F820 VA: 0x1809A1220
 	public bool get_isClient() { }
 
-	// RVA: 0x9A0C10 Offset: 0x99F210 VA: 0x1809A0C10 Slot: 5
+	// RVA: 0x9A0D20 Offset: 0x99F320 VA: 0x1809A0D20 Slot: 5
 	public virtual void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 6
@@ -32,31 +32,31 @@ public abstract class PrefabAttribute : MonoBehaviour, IPrefabPreProcess // Type
 	// RVA: -1 Offset: -1 Slot: 7
 	protected abstract Type GetIndexedType();
 
-	// RVA: 0x9A1120 Offset: 0x99F720 VA: 0x1809A1120
+	// RVA: 0x9A1230 Offset: 0x99F830 VA: 0x1809A1230
 	public static bool op_Equality(PrefabAttribute x, PrefabAttribute y) { }
 
-	// RVA: 0x9A11C0 Offset: 0x99F7C0 VA: 0x1809A11C0
+	// RVA: 0x9A12D0 Offset: 0x99F8D0 VA: 0x1809A12D0
 	public static bool op_Inequality(PrefabAttribute x, PrefabAttribute y) { }
 
-	// RVA: 0x9A0B20 Offset: 0x99F120 VA: 0x1809A0B20 Slot: 0
+	// RVA: 0x9A0C30 Offset: 0x99F230 VA: 0x1809A0C30 Slot: 0
 	public override bool Equals(object o) { }
 
-	// RVA: 0x9A0BE0 Offset: 0x99F1E0 VA: 0x1809A0BE0 Slot: 2
+	// RVA: 0x9A0CF0 Offset: 0x99F2F0 VA: 0x1809A0CF0 Slot: 2
 	public override int GetHashCode() { }
 
 	// RVA: 0x682A00 Offset: 0x681000 VA: 0x180682A00
 	public static bool op_Implicit(PrefabAttribute exists) { }
 
-	// RVA: 0x9A0AD0 Offset: 0x99F0D0 VA: 0x1809A0AD0
+	// RVA: 0x9A0BE0 Offset: 0x99F1E0 VA: 0x1809A0BE0
 	internal static bool ComparePrefabAttribute(PrefabAttribute x, PrefabAttribute y) { }
 
-	// RVA: 0x9A1020 Offset: 0x99F620 VA: 0x1809A1020 Slot: 3
+	// RVA: 0x9A1130 Offset: 0x99F730 VA: 0x1809A1130 Slot: 3
 	public override string ToString() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	protected void .ctor() { }
 
-	// RVA: 0x9A1060 Offset: 0x99F660 VA: 0x1809A1060
+	// RVA: 0x9A1170 Offset: 0x99F770 VA: 0x1809A1170
 	private static void .cctor() { }
 
 }
@@ -68,21 +68,21 @@ public class PrefabAttribute.AttributeCollection // TypeDefIndex: 11331
 
 	// Methods
 
-	// RVA: 0x98C6B0 Offset: 0x98ACB0 VA: 0x18098C6B0
+	// RVA: 0x98C7C0 Offset: 0x98ADC0 VA: 0x18098C7C0
 	internal List<PrefabAttribute> Find(Type t) { }
 
 	// RVA: -1 Offset: -1
 	public T[] Find<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A36F20 Offset: 0x1A35520 VA: 0x181A36F20
+	|-RVA: 0x1A371E0 Offset: 0x1A357E0 VA: 0x181A371E0
 	|-PrefabAttribute.AttributeCollection.Find<object>
 	*/
 
-	// RVA: 0x98C530 Offset: 0x98AB30 VA: 0x18098C530
+	// RVA: 0x98C640 Offset: 0x98AC40 VA: 0x18098C640
 	public void Add(PrefabAttribute attribute) { }
 
-	// RVA: 0x98C770 Offset: 0x98AD70 VA: 0x18098C770
+	// RVA: 0x98C880 Offset: 0x98AE80 VA: 0x18098C880
 	public void .ctor() { }
 
 }
@@ -95,10 +95,10 @@ public class PrefabAttribute.Library // TypeDefIndex: 11332
 
 	// Methods
 
-	// RVA: 0x98CC90 Offset: 0x98B290 VA: 0x18098CC90
+	// RVA: 0x98CDA0 Offset: 0x98B3A0 VA: 0x18098CDA0
 	public void .ctor(bool clientside, bool serverside) { }
 
-	// RVA: 0x98CAA0 Offset: 0x98B0A0 VA: 0x18098CAA0
+	// RVA: 0x98CBB0 Offset: 0x98B1B0 VA: 0x18098CBB0
 	public PrefabAttribute.AttributeCollection Find(uint prefabID, bool warmup = True) { }
 
 	// RVA: -1 Offset: -1
@@ -126,7 +126,7 @@ public class PrefabAttribute.Library // TypeDefIndex: 11332
 	public T[] FindAll<T>(uint prefabID) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B3C0 Offset: 0x1A399C0 VA: 0x181A3B3C0
+	|-RVA: 0x1A3B680 Offset: 0x1A39C80 VA: 0x181A3B680
 	|-PrefabAttribute.Library.FindAll<AttractionPoint>
 	|-PrefabAttribute.Library.FindAll<ConditionalModel>
 	|-PrefabAttribute.Library.FindAll<DecalComponent>
@@ -143,10 +143,10 @@ public class PrefabAttribute.Library // TypeDefIndex: 11332
 	|-PrefabAttribute.Library.FindAll<WaterCheck>
 	*/
 
-	// RVA: 0x98C810 Offset: 0x98AE10 VA: 0x18098C810
+	// RVA: 0x98C920 Offset: 0x98AF20 VA: 0x18098C920
 	public void Add(uint prefabID, PrefabAttribute attribute) { }
 
-	// RVA: 0x98CC30 Offset: 0x98B230 VA: 0x18098CC30
+	// RVA: 0x98CD40 Offset: 0x98B340 VA: 0x18098CD40
 	public void Invalidate(uint prefabID) { }
 
 }

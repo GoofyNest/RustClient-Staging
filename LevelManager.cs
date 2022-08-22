@@ -1,6 +1,6 @@
 public static class LevelManager // TypeDefIndex: 9963
 {	// Fields
-	public static string CurrentLevelName; // 0x2B10180
+	public static string CurrentLevelName; // 0x2B111C0
 
 	// Properties
 	public static bool isLoaded { get; }
@@ -46,7 +46,7 @@ private sealed class LevelManager.<LoadLevelAsync>d__5 : IEnumerator<object>, IE
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x690340 Offset: 0x68E940 VA: 0x180690340 Slot: 6
+	// RVA: 0x690450 Offset: 0x68EA50 VA: 0x180690450 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -54,7 +54,7 @@ private sealed class LevelManager.<LoadLevelAsync>d__5 : IEnumerator<object>, IE
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6904B0 Offset: 0x68EAB0 VA: 0x1806904B0 Slot: 8
+	// RVA: 0x6905C0 Offset: 0x68EBC0 VA: 0x1806905C0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

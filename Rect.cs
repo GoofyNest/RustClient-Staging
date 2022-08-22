@@ -36,10 +36,10 @@ public struct Rect : IEquatable<Rect> // TypeDefIndex: 3376
 	// RVA: 0x1178E0 Offset: 0x116CE0 VA: 0x1801178E0
 	public void .ctor(Rect source) { }
 
-	// RVA: 0x1824730 Offset: 0x1822D30 VA: 0x181824730
+	// RVA: 0x18249F0 Offset: 0x1822FF0 VA: 0x1818249F0
 	public static Rect get_zero() { }
 
-	// RVA: 0x1900660 Offset: 0x18FEC60 VA: 0x181900660
+	// RVA: 0x1900920 Offset: 0x18FEF20 VA: 0x181900920
 	public static Rect MinMaxRect(float xmin, float ymin, float xmax, float ymax) { }
 
 	// RVA: 0x13A310 Offset: 0x139710 VA: 0x18013A310
@@ -126,7 +126,7 @@ public struct Rect : IEquatable<Rect> // TypeDefIndex: 3376
 	// RVA: 0x217E40 Offset: 0x217240 VA: 0x180217E40
 	public bool Contains(Vector3 point) { }
 
-	// RVA: 0x1900690 Offset: 0x18FEC90 VA: 0x181900690
+	// RVA: 0x1900950 Offset: 0x18FEF50 VA: 0x181900950
 	private static Rect OrderMinMax(Rect rect) { }
 
 	// RVA: 0x218120 Offset: 0x217520 VA: 0x180218120
@@ -135,10 +135,10 @@ public struct Rect : IEquatable<Rect> // TypeDefIndex: 3376
 	// RVA: 0x218180 Offset: 0x217580 VA: 0x180218180
 	public bool Overlaps(Rect other, bool allowInverse) { }
 
-	// RVA: 0x1900C50 Offset: 0x18FF250 VA: 0x181900C50
+	// RVA: 0x1900F10 Offset: 0x18FF510 VA: 0x181900F10
 	public static bool op_Inequality(Rect lhs, Rect rhs) { }
 
-	// RVA: 0x1900C10 Offset: 0x18FF210 VA: 0x181900C10
+	// RVA: 0x1900ED0 Offset: 0x18FF4D0 VA: 0x181900ED0
 	public static bool op_Equality(Rect lhs, Rect rhs) { }
 
 	// RVA: 0x218080 Offset: 0x217480 VA: 0x180218080 Slot: 2

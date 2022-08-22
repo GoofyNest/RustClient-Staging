@@ -7,7 +7,7 @@ public class ERConnectionData // TypeDefIndex: 7182
 
 	// Methods
 
-	// RVA: 0xB7B690 Offset: 0xB79C90 VA: 0x180B7B690
+	// RVA: 0xB7B950 Offset: 0xB79F50 VA: 0x180B7B950
 	public void .ctor(ERRoad rd, int rm, int index) { }
 
 }

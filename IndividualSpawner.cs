@@ -11,7 +11,7 @@ public class IndividualSpawner : BaseMonoBehaviour, IServerComponent // TypeDefI
 
 	// Methods
 
-	// RVA: 0x813840 Offset: 0x811E40 VA: 0x180813840
+	// RVA: 0x813950 Offset: 0x811F50 VA: 0x180813950
 	public void .ctor() { }
 
 }

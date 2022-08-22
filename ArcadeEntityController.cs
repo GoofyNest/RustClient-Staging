@@ -12,52 +12,52 @@ public class ArcadeEntityController : BaseMonoBehaviour // TypeDefIndex: 8760
 
 	// Methods
 
-	// RVA: 0x82C3B0 Offset: 0x82A9B0 VA: 0x18082C3B0
+	// RVA: 0x82C4C0 Offset: 0x82AAC0 VA: 0x18082C4C0
 	public Vector3 get_heading() { }
 
-	// RVA: 0x82C480 Offset: 0x82AA80 VA: 0x18082C480
+	// RVA: 0x82C590 Offset: 0x82AB90 VA: 0x18082C590
 	public void set_heading(Vector3 value) { }
 
-	// RVA: 0x82C3E0 Offset: 0x82A9E0 VA: 0x18082C3E0
+	// RVA: 0x82C4F0 Offset: 0x82AAF0 VA: 0x18082C4F0
 	public Vector3 get_positionLocal() { }
 
-	// RVA: 0x82C4B0 Offset: 0x82AAB0 VA: 0x18082C4B0
+	// RVA: 0x82C5C0 Offset: 0x82ABC0 VA: 0x18082C5C0
 	public void set_positionLocal(Vector3 value) { }
 
-	// RVA: 0x82C430 Offset: 0x82AA30 VA: 0x18082C430
+	// RVA: 0x82C540 Offset: 0x82AB40 VA: 0x18082C540
 	public Vector3 get_positionWorld() { }
 
-	// RVA: 0x82C500 Offset: 0x82AB00 VA: 0x18082C500
+	// RVA: 0x82C610 Offset: 0x82AC10 VA: 0x18082C610
 	public void set_positionWorld(Vector3 value) { }
 
-	// RVA: 0x82BE30 Offset: 0x82A430 VA: 0x18082BE30
+	// RVA: 0x82BF40 Offset: 0x82A540 VA: 0x18082BF40
 	public void SetOwnerGame(BaseArcadeGame ownerGame) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 6
 	public virtual void Initialize() { }
 
-	// RVA: 0x82BC90 Offset: 0x82A290 VA: 0x18082BC90
+	// RVA: 0x82BDA0 Offset: 0x82A3A0 VA: 0x18082BDA0
 	public bool IsAuthorative() { }
 
-	// RVA: 0x82BCC0 Offset: 0x82A2C0 VA: 0x18082BCC0
+	// RVA: 0x82BDD0 Offset: 0x82A3D0 VA: 0x18082BDD0
 	public void SetAuthorative(bool wants) { }
 
-	// RVA: 0x82C2E0 Offset: 0x82A8E0 VA: 0x18082C2E0
+	// RVA: 0x82C3F0 Offset: 0x82A9F0 VA: 0x18082C3F0
 	public void SetSprite(Sprite newSprite) { }
 
-	// RVA: 0x82C330 Offset: 0x82A930 VA: 0x18082C330 Slot: 7
+	// RVA: 0x82C440 Offset: 0x82AA40 VA: 0x18082C440 Slot: 7
 	public virtual void Shutdown() { }
 
-	// RVA: 0x82C230 Offset: 0x82A830 VA: 0x18082C230
+	// RVA: 0x82C340 Offset: 0x82A940 VA: 0x18082C340
 	public void SetPositionWorld(Vector3 newPos) { }
 
-	// RVA: 0x82BCD0 Offset: 0x82A2D0 VA: 0x18082BCD0
+	// RVA: 0x82BDE0 Offset: 0x82A3E0 VA: 0x18082BDE0
 	public void SetHeading(Vector3 heading) { }
 
-	// RVA: 0x82C1C0 Offset: 0x82A7C0 VA: 0x18082C1C0
+	// RVA: 0x82C2D0 Offset: 0x82A8D0 VA: 0x18082C2D0
 	public void SetPositionLocal(Vector3 newPos) { }
 
-	// RVA: 0x82BCA0 Offset: 0x82A2A0 VA: 0x18082BCA0
+	// RVA: 0x82BDB0 Offset: 0x82A3B0 VA: 0x18082BDB0
 	public void OnDisable() { }
 
 	// RVA: 0x521BF0 Offset: 0x5201F0 VA: 0x180521BF0

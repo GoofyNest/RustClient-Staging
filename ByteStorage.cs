@@ -4,46 +4,46 @@ internal sealed class ByteStorage : DataStorage // TypeDefIndex: 4367
 
 	// Methods
 
-	// RVA: 0x12729A0 Offset: 0x1270FA0 VA: 0x1812729A0
+	// RVA: 0x1272C60 Offset: 0x1271260 VA: 0x181272C60
 	internal void .ctor(DataColumn column) { }
 
-	// RVA: 0x1271970 Offset: 0x126FF70 VA: 0x181271970 Slot: 4
+	// RVA: 0x1271C30 Offset: 0x1270230 VA: 0x181271C30 Slot: 4
 	public override object Aggregate(int[] records, AggregateType kind) { }
 
-	// RVA: 0x12721C0 Offset: 0x12707C0 VA: 0x1812721C0 Slot: 5
+	// RVA: 0x1272480 Offset: 0x1270A80 VA: 0x181272480 Slot: 5
 	public override int Compare(int recordNo1, int recordNo2) { }
 
-	// RVA: 0x12720A0 Offset: 0x12706A0 VA: 0x1812720A0 Slot: 6
+	// RVA: 0x1272360 Offset: 0x1270960 VA: 0x181272360 Slot: 6
 	public override int CompareValueTo(int recordNo, object value) { }
 
-	// RVA: 0x12722D0 Offset: 0x12708D0 VA: 0x1812722D0 Slot: 7
+	// RVA: 0x1272590 Offset: 0x1270B90 VA: 0x181272590 Slot: 7
 	public override object ConvertValue(object value) { }
 
-	// RVA: 0x1272540 Offset: 0x1270B40 VA: 0x181272540 Slot: 8
+	// RVA: 0x1272800 Offset: 0x1270E00 VA: 0x181272800 Slot: 8
 	public override void Copy(int recordNo1, int recordNo2) { }
 
-	// RVA: 0x1272620 Offset: 0x1270C20 VA: 0x181272620 Slot: 9
+	// RVA: 0x12728E0 Offset: 0x1270EE0 VA: 0x1812728E0 Slot: 9
 	public override object Get(int record) { }
 
-	// RVA: 0x1272850 Offset: 0x1270E50 VA: 0x181272850 Slot: 12
+	// RVA: 0x1272B10 Offset: 0x1271110 VA: 0x181272B10 Slot: 12
 	public override void Set(int record, object value) { }
 
-	// RVA: 0x12726D0 Offset: 0x1270CD0 VA: 0x1812726D0 Slot: 13
+	// RVA: 0x1272990 Offset: 0x1270F90 VA: 0x181272990 Slot: 13
 	public override void SetCapacity(int capacity) { }
 
-	// RVA: 0x12723B0 Offset: 0x12709B0 VA: 0x1812723B0 Slot: 14
+	// RVA: 0x1272670 Offset: 0x1270C70 VA: 0x181272670 Slot: 14
 	public override object ConvertXmlToObject(string s) { }
 
-	// RVA: 0x1272250 Offset: 0x1270850 VA: 0x181272250 Slot: 16
+	// RVA: 0x1272510 Offset: 0x1270B10 VA: 0x181272510 Slot: 16
 	public override string ConvertObjectToXml(object value) { }
 
-	// RVA: 0x12725E0 Offset: 0x1270BE0 VA: 0x1812725E0 Slot: 18
+	// RVA: 0x12728A0 Offset: 0x1270EA0 VA: 0x1812728A0 Slot: 18
 	protected override object GetEmptyStorage(int recordCount) { }
 
-	// RVA: 0x1272420 Offset: 0x1270A20 VA: 0x181272420 Slot: 19
+	// RVA: 0x12726E0 Offset: 0x1270CE0 VA: 0x1812726E0 Slot: 19
 	protected override void CopyValue(int record, object store, BitArray nullbits, int storeIndex) { }
 
-	// RVA: 0x12727B0 Offset: 0x1270DB0 VA: 0x1812727B0 Slot: 20
+	// RVA: 0x1272A70 Offset: 0x1271070 VA: 0x181272A70 Slot: 20
 	protected override void SetStorage(object store, BitArray nullbits) { }
 
 }

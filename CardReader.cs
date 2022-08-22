@@ -12,16 +12,16 @@ public class CardReader : IOEntity // TypeDefIndex: 8543
 
 	// Methods
 
-	// RVA: 0x6FE760 Offset: 0x6FCD60 VA: 0x1806FE760 Slot: 35
+	// RVA: 0x6FE870 Offset: 0x6FCE70 VA: 0x1806FE870 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x6FE6F0 Offset: 0x6FCCF0 VA: 0x1806FE6F0 Slot: 34
+	// RVA: 0x6FE800 Offset: 0x6FCE00 VA: 0x1806FE800 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x6FE5A0 Offset: 0x6FCBA0 VA: 0x1806FE5A0
+	// RVA: 0x6FE6B0 Offset: 0x6FCCB0 VA: 0x1806FE6B0
 	public void ClientCardSwiped(Keycard card) { }
 
-	// RVA: 0x6FE850 Offset: 0x6FCE50 VA: 0x1806FE850
+	// RVA: 0x6FE960 Offset: 0x6FCF60 VA: 0x1806FE960
 	public void .ctor() { }
 
 }

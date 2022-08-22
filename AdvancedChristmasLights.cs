@@ -26,105 +26,105 @@ public class AdvancedChristmasLights : IOEntity // TypeDefIndex: 8301
 
 	// Methods
 
-	// RVA: 0xA9FE30 Offset: 0xA9E430 VA: 0x180A9FE30 Slot: 49
+	// RVA: 0xAA00F0 Offset: 0xA9E6F0 VA: 0x180AA00F0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xAA1D30 Offset: 0xAA0330 VA: 0x180AA1D30 Slot: 50
+	// RVA: 0xAA1FF0 Offset: 0xAA05F0 VA: 0x180AA1FF0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xAA0E10 Offset: 0xA9F410 VA: 0x180AA0E10 Slot: 35
+	// RVA: 0xAA10D0 Offset: 0xA9F6D0 VA: 0x180AA10D0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA9FDD0 Offset: 0xA9E3D0 VA: 0x180A9FDD0
+	// RVA: 0xAA0090 Offset: 0xA9E690 VA: 0x180AA0090
 	public void ClearPoints() { }
 
-	// RVA: 0xA9FE20 Offset: 0xA9E420 VA: 0x180A9FE20
+	// RVA: 0xAA00E0 Offset: 0xA9E6E0 VA: 0x180AA00E0
 	public void FinishEditing() { }
 
-	// RVA: 0xAA0940 Offset: 0xA9EF40 VA: 0x180AA0940
+	// RVA: 0xAA0C00 Offset: 0xA9F200 VA: 0x180AA0C00
 	public bool IsFinalized() { }
 
-	// RVA: 0xA9FCE0 Offset: 0xA9E2E0 VA: 0x180A9FCE0
+	// RVA: 0xA9FFA0 Offset: 0xA9E5A0 VA: 0x180A9FFA0
 	public void AddPoint(Vector3 newPoint, Vector3 newNormal) { }
 
-	// RVA: 0x6F3500 Offset: 0x6F1B00 VA: 0x1806F3500 Slot: 150
+	// RVA: 0x6F3610 Offset: 0x6F1C10 VA: 0x1806F3610 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0xAA0960 Offset: 0xA9EF60 VA: 0x180AA0960 Slot: 34
+	// RVA: 0xAA0C20 Offset: 0xA9F220 VA: 0x180AA0C20 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xAA0F00 Offset: 0xA9F500 VA: 0x180AA0F00 Slot: 16
+	// RVA: 0xAA11C0 Offset: 0xA9F7C0 VA: 0x180AA11C0 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0xAA1AF0 Offset: 0xAA00F0 VA: 0x180AA1AF0
+	// RVA: 0xAA1DB0 Offset: 0xAA03B0 VA: 0x180AA1DB0
 	public void UpdateBulbs() { }
 
-	// RVA: 0xAA19C0 Offset: 0xA9FFC0 VA: 0x180AA19C0 Slot: 159
+	// RVA: 0xAA1C80 Offset: 0xAA0280 VA: 0x180AA1C80 Slot: 159
 	public virtual void SetBulbsOn(bool wantsOn) { }
 
-	// RVA: 0xAA1C10 Offset: 0xAA0210 VA: 0x180AA1C10
+	// RVA: 0xAA1ED0 Offset: 0xAA04D0 VA: 0x180AA1ED0
 	public void UpdateCulling() { }
 
-	// RVA: 0xAA0FC0 Offset: 0xA9F5C0 VA: 0x180AA0FC0
+	// RVA: 0xAA1280 Offset: 0xA9F880 VA: 0x180AA1280
 	public void RegenerateLights() { }
 
 	[BaseEntity.Menu] // RVA: 0xACD30 Offset: 0xAC130 VA: 0x1800ACD30
 	[BaseEntity.Menu.Description] // RVA: 0xACD30 Offset: 0xAC130 VA: 0x1800ACD30
 	[BaseEntity.Menu.Icon] // RVA: 0xACD30 Offset: 0xAC130 VA: 0x1800ACD30
 	[BaseEntity.Menu.ShowIf] // RVA: 0xACD30 Offset: 0xAC130 VA: 0x1800ACD30
-	// RVA: 0xAA0DB0 Offset: 0xA9F3B0 VA: 0x180AA0DB0
+	// RVA: 0xAA1070 Offset: 0xA9F670 VA: 0x180AA1070
 	public void Menu_Lightmode_SteadyOn(BasePlayer player) { }
 
-	// RVA: 0xAA0DA0 Offset: 0xA9F3A0 VA: 0x180AA0DA0
+	// RVA: 0xAA1060 Offset: 0xA9F660 VA: 0x180AA1060
 	public bool Menu_Lightmode_SteadyOn_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xAD030 Offset: 0xAC430 VA: 0x1800AD030
 	[BaseEntity.Menu.Description] // RVA: 0xAD030 Offset: 0xAC430 VA: 0x1800AD030
 	[BaseEntity.Menu.Icon] // RVA: 0xAD030 Offset: 0xAC430 VA: 0x1800AD030
 	[BaseEntity.Menu.ShowIf] // RVA: 0xAD030 Offset: 0xAC430 VA: 0x1800AD030
-	// RVA: 0xAA0D00 Offset: 0xA9F300 VA: 0x180AA0D00
+	// RVA: 0xAA0FC0 Offset: 0xA9F5C0 VA: 0x180AA0FC0
 	public void Menu_Lightmode_Flashing(BasePlayer player) { }
 
-	// RVA: 0xAA0CF0 Offset: 0xA9F2F0 VA: 0x180AA0CF0
+	// RVA: 0xAA0FB0 Offset: 0xA9F5B0 VA: 0x180AA0FB0
 	public bool Menu_Lightmode_Flashing_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xAE850 Offset: 0xADC50 VA: 0x1800AE850
 	[BaseEntity.Menu.Description] // RVA: 0xAE850 Offset: 0xADC50 VA: 0x1800AE850
 	[BaseEntity.Menu.Icon] // RVA: 0xAE850 Offset: 0xADC50 VA: 0x1800AE850
 	[BaseEntity.Menu.ShowIf] // RVA: 0xAE850 Offset: 0xADC50 VA: 0x1800AE850
-	// RVA: 0xAA0C40 Offset: 0xA9F240 VA: 0x180AA0C40
+	// RVA: 0xAA0F00 Offset: 0xA9F500 VA: 0x180AA0F00
 	public void Menu_Lightmode_Chasing(BasePlayer player) { }
 
-	// RVA: 0xAA0C30 Offset: 0xA9F230 VA: 0x180AA0C30
+	// RVA: 0xAA0EF0 Offset: 0xA9F4F0 VA: 0x180AA0EF0
 	public bool Menu_Lightmode_Chasing_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xAFE70 Offset: 0xAF270 VA: 0x1800AFE70
 	[BaseEntity.Menu.Description] // RVA: 0xAFE70 Offset: 0xAF270 VA: 0x1800AFE70
 	[BaseEntity.Menu.Icon] // RVA: 0xAFE70 Offset: 0xAF270 VA: 0x1800AFE70
 	[BaseEntity.Menu.ShowIf] // RVA: 0xAFE70 Offset: 0xAF270 VA: 0x1800AFE70
-	// RVA: 0xAA0CA0 Offset: 0xA9F2A0 VA: 0x180AA0CA0
+	// RVA: 0xAA0F60 Offset: 0xA9F560 VA: 0x180AA0F60
 	public void Menu_Lightmode_Fade(BasePlayer player) { }
 
-	// RVA: 0xAA0C90 Offset: 0xA9F290 VA: 0x180AA0C90
+	// RVA: 0xAA0F50 Offset: 0xA9F550 VA: 0x180AA0F50
 	public bool Menu_Lightmode_Fade_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xB0070 Offset: 0xAF470 VA: 0x1800B0070
 	[BaseEntity.Menu.Description] // RVA: 0xB0070 Offset: 0xAF470 VA: 0x1800B0070
 	[BaseEntity.Menu.Icon] // RVA: 0xB0070 Offset: 0xAF470 VA: 0x1800B0070
 	[BaseEntity.Menu.ShowIf] // RVA: 0xB0070 Offset: 0xAF470 VA: 0x1800B0070
-	// RVA: 0xAA0D50 Offset: 0xA9F350 VA: 0x180AA0D50
+	// RVA: 0xAA1010 Offset: 0xA9F610 VA: 0x180AA1010
 	public void Menu_Lightmode_SlowGlow(BasePlayer player) { }
 
-	// RVA: 0xAA0E00 Offset: 0xA9F400 VA: 0x180AA0E00
+	// RVA: 0xAA10C0 Offset: 0xA9F6C0 VA: 0x180AA10C0
 	public bool Menu_Lightmode_slowglow_ShowIf(BasePlayer player) { }
 
-	// RVA: 0xAA0950 Offset: 0xA9EF50 VA: 0x180AA0950
+	// RVA: 0xAA0C10 Offset: 0xA9F210 VA: 0x180AA0C10
 	public bool IsStyle(AdvancedChristmasLights.AnimationType testType) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250
 	public bool CanPlayerManipulate(BasePlayer player) { }
 
-	// RVA: 0xAA1C40 Offset: 0xAA0240 VA: 0x180AA1C40
+	// RVA: 0xAA1F00 Offset: 0xAA0500 VA: 0x180AA1F00
 	public void .ctor() { }
 
 }

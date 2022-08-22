@@ -10,22 +10,22 @@ internal class ISO2022JPEncoder : MonoEncoder // TypeDefIndex: 7805
 
 	// Methods
 
-	// RVA: 0x22524C0 Offset: 0x2250AC0 VA: 0x1822524C0
+	// RVA: 0x2252780 Offset: 0x2250D80 VA: 0x182252780
 	public void .ctor(MonoEncoding owner, bool allow1ByteKana, bool allowShiftIO) { }
 
-	// RVA: 0x2252410 Offset: 0x2250A10 VA: 0x182252410
+	// RVA: 0x22526D0 Offset: 0x2250CD0 VA: 0x1822526D0
 	private static void .cctor() { }
 
-	// RVA: 0x2251890 Offset: 0x224FE90 VA: 0x182251890 Slot: 11
+	// RVA: 0x2251B50 Offset: 0x2250150 VA: 0x182251B50 Slot: 11
 	public override int GetByteCountImpl(char* chars, int charCount, bool flush) { }
 
-	// RVA: 0x2252330 Offset: 0x2250930 VA: 0x182252330
+	// RVA: 0x22525F0 Offset: 0x2250BF0 VA: 0x1822525F0
 	private void SwitchMode(byte* bytes, ref int byteIndex, ref int byteCount, ref ISO2022JPMode cur, ISO2022JPMode next) { }
 
-	// RVA: 0x2251C20 Offset: 0x2250220 VA: 0x182251C20 Slot: 12
+	// RVA: 0x2251EE0 Offset: 0x22504E0 VA: 0x182251EE0 Slot: 12
 	public override int GetBytesImpl(char* chars, int charCount, byte* bytes, int byteCount, bool flush) { }
 
-	// RVA: 0x2252320 Offset: 0x2250920 VA: 0x182252320 Slot: 4
+	// RVA: 0x22525E0 Offset: 0x2250BE0 VA: 0x1822525E0 Slot: 4
 	public override void Reset() { }
 
 }

@@ -5,7 +5,7 @@ public class StaticRespawnArea : SleepingBag // TypeDefIndex: 9610
 
 	// Methods
 
-	// RVA: 0xA8D350 Offset: 0xA8B950 VA: 0x180A8D350
+	// RVA: 0xA8D610 Offset: 0xA8BC10 VA: 0x180A8D610
 	public void .ctor() { }
 
 }

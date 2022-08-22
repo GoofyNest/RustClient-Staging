@@ -16,7 +16,7 @@ internal struct JoinClanChatRoomCompletionResult_t : ICallbackData // TypeDefInd
 	// RVA: 0x1EAF50 Offset: 0x1EA350 VA: 0x1801EAF50 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13732F0 Offset: 0x13718F0 VA: 0x1813732F0
+	// RVA: 0x13735B0 Offset: 0x1371BB0 VA: 0x1813735B0
 	private static void .cctor() { }
 
 }

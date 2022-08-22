@@ -4,7 +4,7 @@ internal struct FriendsGroupID_t : IEquatable<FriendsGroupID_t>, IComparable<Fri
 
 	// Methods
 
-	// RVA: 0x1370740 Offset: 0x136ED40 VA: 0x181370740
+	// RVA: 0x1370A00 Offset: 0x136F000 VA: 0x181370A00
 	public static FriendsGroupID_t op_Implicit(short value) { }
 
 	// RVA: 0x1E63A0 Offset: 0x1E57A0 VA: 0x1801E63A0 Slot: 3

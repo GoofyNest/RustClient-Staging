@@ -5,7 +5,7 @@ public class BaseAIBrain.BasicAIState<T> // TypeDefIndex: 8491
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-BaseAIBrain.BasicAIState<object>..ctor
 	*/
 

@@ -8,10 +8,10 @@ internal static class BarBeatTicksTimeSpanParser // TypeDefIndex: 7485
 
 	// Methods
 
-	// RVA: 0x1394980 Offset: 0x1392F80 VA: 0x181394980
+	// RVA: 0x1394C40 Offset: 0x1393240 VA: 0x181394C40
 	internal static ParsingResult TryParse(string input, out BarBeatTicksTimeSpan timeSpan) { }
 
-	// RVA: 0x1394D30 Offset: 0x1393330 VA: 0x181394D30
+	// RVA: 0x1394FF0 Offset: 0x13935F0 VA: 0x181394FF0
 	private static void .cctor() { }
 
 }

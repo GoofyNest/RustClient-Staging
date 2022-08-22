@@ -129,7 +129,7 @@ public struct DateTime : IComparable, IFormattable, IConvertible, ISerializable,
 	// RVA: 0x20BFB0 Offset: 0x20B3B0 VA: 0x18020BFB0
 	public DateTime AddYears(int value) { }
 
-	// RVA: 0x17A3DE0 Offset: 0x17A23E0 VA: 0x1817A3DE0
+	// RVA: 0x17A40A0 Offset: 0x17A26A0 VA: 0x1817A40A0
 	public static int Compare(DateTime t1, DateTime t2) { }
 
 	// RVA: 0x20C0A0 Offset: 0x20B4A0 VA: 0x18020C0A0 Slot: 4
@@ -138,16 +138,16 @@ public struct DateTime : IComparable, IFormattable, IConvertible, ISerializable,
 	// RVA: 0x20C070 Offset: 0x20B470 VA: 0x18020C070 Slot: 24
 	public int CompareTo(DateTime value) { }
 
-	// RVA: 0x17A3E00 Offset: 0x17A2400 VA: 0x1817A3E00
+	// RVA: 0x17A40C0 Offset: 0x17A26C0 VA: 0x1817A40C0
 	private static long DateToTicks(int year, int month, int day) { }
 
-	// RVA: 0x17A5DB0 Offset: 0x17A43B0 VA: 0x1817A5DB0
+	// RVA: 0x17A6070 Offset: 0x17A4670 VA: 0x1817A6070
 	private static long TimeToTicks(int hour, int minute, int second) { }
 
-	// RVA: 0x17A3FF0 Offset: 0x17A25F0 VA: 0x1817A3FF0
+	// RVA: 0x17A42B0 Offset: 0x17A28B0 VA: 0x1817A42B0
 	public static int DaysInMonth(int year, int month) { }
 
-	// RVA: 0x17A4150 Offset: 0x17A2750 VA: 0x1817A4150
+	// RVA: 0x17A4410 Offset: 0x17A2A10 VA: 0x1817A4410
 	internal static long DoubleDateToTicks(double value) { }
 
 	// RVA: 0x20C1A0 Offset: 0x20B5A0 VA: 0x18020C1A0 Slot: 0
@@ -156,25 +156,25 @@ public struct DateTime : IComparable, IFormattable, IConvertible, ISerializable,
 	// RVA: 0x20C180 Offset: 0x20B580 VA: 0x18020C180 Slot: 25
 	public bool Equals(DateTime value) { }
 
-	// RVA: 0x17A4420 Offset: 0x17A2A20 VA: 0x1817A4420
+	// RVA: 0x17A46E0 Offset: 0x17A2CE0 VA: 0x1817A46E0
 	public static DateTime FromBinary(long dateData) { }
 
-	// RVA: 0x17A4380 Offset: 0x17A2980 VA: 0x1817A4380
+	// RVA: 0x17A4640 Offset: 0x17A2C40 VA: 0x1817A4640
 	internal static DateTime FromBinaryRaw(long dateData) { }
 
-	// RVA: 0x17A4750 Offset: 0x17A2D50 VA: 0x1817A4750
+	// RVA: 0x17A4A10 Offset: 0x17A3010 VA: 0x1817A4A10
 	public static DateTime FromFileTime(long fileTime) { }
 
-	// RVA: 0x17A4690 Offset: 0x17A2C90 VA: 0x1817A4690
+	// RVA: 0x17A4950 Offset: 0x17A2F50 VA: 0x1817A4950
 	public static DateTime FromFileTimeUtc(long fileTime) { }
 
-	// RVA: 0x17A4850 Offset: 0x17A2E50 VA: 0x1817A4850
+	// RVA: 0x17A4B10 Offset: 0x17A3110 VA: 0x1817A4B10
 	public static DateTime FromOADate(double d) { }
 
 	// RVA: 0x20C400 Offset: 0x20B800 VA: 0x18020C400 Slot: 23
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x17A5190 Offset: 0x17A3790 VA: 0x1817A5190
+	// RVA: 0x17A5450 Offset: 0x17A3A50 VA: 0x1817A5450
 	public static DateTime SpecifyKind(DateTime value, DateTimeKind kind) { }
 
 	// RVA: 0x20C4B0 Offset: 0x20B8B0 VA: 0x18020C4B0
@@ -213,13 +213,13 @@ public struct DateTime : IComparable, IFormattable, IConvertible, ISerializable,
 	// RVA: 0x20D270 Offset: 0x20C670 VA: 0x18020D270
 	public int get_Month() { }
 
-	// RVA: 0x17A7AA0 Offset: 0x17A60A0 VA: 0x1817A7AA0
+	// RVA: 0x17A7D60 Offset: 0x17A6360 VA: 0x1817A7D60
 	public static DateTime get_Now() { }
 
-	// RVA: 0x17A7D20 Offset: 0x17A6320 VA: 0x1817A7D20
+	// RVA: 0x17A7FE0 Offset: 0x17A65E0 VA: 0x1817A7FE0
 	public static DateTime get_UtcNow() { }
 
-	// RVA: 0x17A4C30 Offset: 0x17A3230 VA: 0x1817A4C30
+	// RVA: 0x17A4EF0 Offset: 0x17A34F0 VA: 0x1817A4EF0
 	internal static long GetSystemTimeAsFileTime() { }
 
 	// RVA: 0x20D280 Offset: 0x20C680 VA: 0x18020D280
@@ -234,28 +234,28 @@ public struct DateTime : IComparable, IFormattable, IConvertible, ISerializable,
 	// RVA: 0x20D300 Offset: 0x20C700 VA: 0x18020D300
 	public int get_Year() { }
 
-	// RVA: 0x17A4C40 Offset: 0x17A3240 VA: 0x1817A4C40
+	// RVA: 0x17A4F00 Offset: 0x17A3500 VA: 0x1817A4F00
 	public static bool IsLeapYear(int year) { }
 
-	// RVA: 0x17A5100 Offset: 0x17A3700 VA: 0x1817A5100
+	// RVA: 0x17A53C0 Offset: 0x17A39C0 VA: 0x1817A53C0
 	public static DateTime Parse(string s, IFormatProvider provider) { }
 
-	// RVA: 0x17A5050 Offset: 0x17A3650 VA: 0x1817A5050
+	// RVA: 0x17A5310 Offset: 0x17A3910 VA: 0x1817A5310
 	public static DateTime Parse(string s, IFormatProvider provider, DateTimeStyles styles) { }
 
-	// RVA: 0x17A4D20 Offset: 0x17A3320 VA: 0x1817A4D20
+	// RVA: 0x17A4FE0 Offset: 0x17A35E0 VA: 0x1817A4FE0
 	public static DateTime ParseExact(string s, string format, IFormatProvider provider) { }
 
-	// RVA: 0x17A4F80 Offset: 0x17A3580 VA: 0x1817A4F80
+	// RVA: 0x17A5240 Offset: 0x17A3840 VA: 0x1817A5240
 	public static DateTime ParseExact(string s, string format, IFormatProvider provider, DateTimeStyles style) { }
 
-	// RVA: 0x17A4DD0 Offset: 0x17A33D0 VA: 0x1817A4DD0
+	// RVA: 0x17A5090 Offset: 0x17A3690 VA: 0x1817A5090
 	public static DateTime ParseExact(string s, string[] formats, IFormatProvider provider, DateTimeStyles style) { }
 
 	// RVA: 0x20C270 Offset: 0x20B670 VA: 0x18020C270
 	public TimeSpan Subtract(DateTime value) { }
 
-	// RVA: 0x17A5C80 Offset: 0x17A4280 VA: 0x1817A5C80
+	// RVA: 0x17A5F40 Offset: 0x17A4540 VA: 0x1817A5F40
 	private static double TicksToOADate(long value) { }
 
 	// RVA: 0x20C6D0 Offset: 0x20BAD0 VA: 0x18020C6D0
@@ -297,37 +297,37 @@ public struct DateTime : IComparable, IFormattable, IConvertible, ISerializable,
 	// RVA: 0x20CC00 Offset: 0x20C000 VA: 0x18020CC00
 	public DateTime ToUniversalTime() { }
 
-	// RVA: 0x17A6AE0 Offset: 0x17A50E0 VA: 0x1817A6AE0
+	// RVA: 0x17A6DA0 Offset: 0x17A53A0 VA: 0x1817A6DA0
 	public static bool TryParse(string s, IFormatProvider provider, DateTimeStyles styles, out DateTime result) { }
 
-	// RVA: 0x17A6A10 Offset: 0x17A5010 VA: 0x1817A6A10
+	// RVA: 0x17A6CD0 Offset: 0x17A52D0 VA: 0x1817A6CD0
 	public static bool TryParseExact(string s, string format, IFormatProvider provider, DateTimeStyles style, out DateTime result) { }
 
-	// RVA: 0x17A7DA0 Offset: 0x17A63A0 VA: 0x1817A7DA0
+	// RVA: 0x17A8060 Offset: 0x17A6660 VA: 0x1817A8060
 	public static DateTime op_Addition(DateTime d, TimeSpan t) { }
 
-	// RVA: 0x17A7F20 Offset: 0x17A6520 VA: 0x1817A7F20
+	// RVA: 0x17A81E0 Offset: 0x17A67E0 VA: 0x1817A81E0
 	public static DateTime op_Subtraction(DateTime d, TimeSpan t) { }
 
-	// RVA: 0x17A7FE0 Offset: 0x17A65E0 VA: 0x1817A7FE0
+	// RVA: 0x17A82A0 Offset: 0x17A68A0 VA: 0x1817A82A0
 	public static TimeSpan op_Subtraction(DateTime d1, DateTime d2) { }
 
-	// RVA: 0x17A7E60 Offset: 0x17A6460 VA: 0x1817A7E60
+	// RVA: 0x17A8120 Offset: 0x17A6720 VA: 0x1817A8120
 	public static bool op_Equality(DateTime d1, DateTime d2) { }
 
-	// RVA: 0x17A7EC0 Offset: 0x17A64C0 VA: 0x1817A7EC0
+	// RVA: 0x17A8180 Offset: 0x17A6780 VA: 0x1817A8180
 	public static bool op_Inequality(DateTime d1, DateTime d2) { }
 
-	// RVA: 0x17A7F00 Offset: 0x17A6500 VA: 0x1817A7F00
+	// RVA: 0x17A81C0 Offset: 0x17A67C0 VA: 0x1817A81C0
 	public static bool op_LessThan(DateTime t1, DateTime t2) { }
 
-	// RVA: 0x17A7EE0 Offset: 0x17A64E0 VA: 0x1817A7EE0
+	// RVA: 0x17A81A0 Offset: 0x17A67A0 VA: 0x1817A81A0
 	public static bool op_LessThanOrEqual(DateTime t1, DateTime t2) { }
 
-	// RVA: 0x17A7EA0 Offset: 0x17A64A0 VA: 0x1817A7EA0
+	// RVA: 0x17A8160 Offset: 0x17A6760 VA: 0x1817A8160
 	public static bool op_GreaterThan(DateTime t1, DateTime t2) { }
 
-	// RVA: 0x17A7E80 Offset: 0x17A6480 VA: 0x1817A7E80
+	// RVA: 0x17A8140 Offset: 0x17A6740 VA: 0x1817A8140
 	public static bool op_GreaterThanOrEqual(DateTime t1, DateTime t2) { }
 
 	// RVA: 0x20C260 Offset: 0x20B660 VA: 0x18020C260 Slot: 6
@@ -378,10 +378,10 @@ public struct DateTime : IComparable, IFormattable, IConvertible, ISerializable,
 	// RVA: 0x20C340 Offset: 0x20B740 VA: 0x18020C340 Slot: 22
 	private object System.IConvertible.ToType(Type type, IFormatProvider provider) { }
 
-	// RVA: 0x17A67C0 Offset: 0x17A4DC0 VA: 0x1817A67C0
+	// RVA: 0x17A6A80 Offset: 0x17A5080 VA: 0x1817A6A80
 	internal static bool TryCreate(int year, int month, int day, int hour, int minute, int second, int millisecond, out DateTime result) { }
 
-	// RVA: 0x17A6C80 Offset: 0x17A5280 VA: 0x1817A6C80
+	// RVA: 0x17A6F40 Offset: 0x17A5540 VA: 0x1817A6F40
 	private static void .cctor() { }
 
 }
@@ -429,10 +429,10 @@ public struct DateTimeOffset : IComparable, IFormattable, ISerializable, IDeseri
 	// RVA: 0x20BAA0 Offset: 0x20AEA0 VA: 0x18020BAA0
 	public void .ctor(DateTime dateTime, TimeSpan offset) { }
 
-	// RVA: 0x17977B0 Offset: 0x1795DB0 VA: 0x1817977B0
+	// RVA: 0x1797A70 Offset: 0x1796070 VA: 0x181797A70
 	public static DateTimeOffset get_Now() { }
 
-	// RVA: 0x1797950 Offset: 0x1795F50 VA: 0x181797950
+	// RVA: 0x1797C10 Offset: 0x1796210 VA: 0x181797C10
 	public static DateTimeOffset get_UtcNow() { }
 
 	// RVA: 0x20BAD0 Offset: 0x20AED0 VA: 0x18020BAD0
@@ -471,7 +471,7 @@ public struct DateTimeOffset : IComparable, IFormattable, ISerializable, IDeseri
 	// RVA: 0x20BD00 Offset: 0x20B100 VA: 0x18020BD00
 	public int get_Year() { }
 
-	// RVA: 0x1795AC0 Offset: 0x17940C0 VA: 0x181795AC0
+	// RVA: 0x1795D80 Offset: 0x1794380 VA: 0x181795D80
 	public static int Compare(DateTimeOffset first, DateTimeOffset second) { }
 
 	// RVA: 0x20B330 Offset: 0x20A730 VA: 0x18020B330 Slot: 4
@@ -498,13 +498,13 @@ public struct DateTimeOffset : IComparable, IFormattable, ISerializable, IDeseri
 	// RVA: 0x20B300 Offset: 0x20A700 VA: 0x18020B300 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1795E10 Offset: 0x1794410 VA: 0x181795E10
+	// RVA: 0x17960D0 Offset: 0x17946D0 VA: 0x1817960D0
 	public static DateTimeOffset Parse(string input, IFormatProvider formatProvider) { }
 
-	// RVA: 0x1796050 Offset: 0x1794650 VA: 0x181796050
+	// RVA: 0x1796310 Offset: 0x1794910 VA: 0x181796310
 	public static DateTimeOffset Parse(string input, IFormatProvider formatProvider, DateTimeStyles styles) { }
 
-	// RVA: 0x1795CF0 Offset: 0x17942F0 VA: 0x181795CF0
+	// RVA: 0x1795FB0 Offset: 0x17945B0 VA: 0x181795FB0
 	public static DateTimeOffset ParseExact(string input, string format, IFormatProvider formatProvider, DateTimeStyles styles) { }
 
 	// RVA: 0x20B8E0 Offset: 0x20ACE0 VA: 0x18020B8E0
@@ -525,37 +525,37 @@ public struct DateTimeOffset : IComparable, IFormattable, ISerializable, IDeseri
 	// RVA: 0x20B850 Offset: 0x20AC50 VA: 0x18020B850
 	public DateTimeOffset ToUniversalTime() { }
 
-	// RVA: 0x1796AB0 Offset: 0x17950B0 VA: 0x181796AB0
+	// RVA: 0x1796D70 Offset: 0x1795370 VA: 0x181796D70
 	public static bool TryParse(string input, IFormatProvider formatProvider, DateTimeStyles styles, out DateTimeOffset result) { }
 
-	// RVA: 0x1796700 Offset: 0x1794D00 VA: 0x181796700
+	// RVA: 0x17969C0 Offset: 0x1794FC0 VA: 0x1817969C0
 	public static bool TryParseExact(string input, string format, IFormatProvider formatProvider, DateTimeStyles styles, out DateTimeOffset result) { }
 
-	// RVA: 0x1796850 Offset: 0x1794E50 VA: 0x181796850
+	// RVA: 0x1796B10 Offset: 0x1795110 VA: 0x181796B10
 	public static bool TryParseExact(string input, string[] formats, IFormatProvider formatProvider, DateTimeStyles styles, out DateTimeOffset result) { }
 
-	// RVA: 0x1796DC0 Offset: 0x17953C0 VA: 0x181796DC0
+	// RVA: 0x1797080 Offset: 0x1795680 VA: 0x181797080
 	private static short ValidateOffset(TimeSpan offset) { }
 
-	// RVA: 0x1796D00 Offset: 0x1795300 VA: 0x181796D00
+	// RVA: 0x1796FC0 Offset: 0x17955C0 VA: 0x181796FC0
 	private static DateTime ValidateDate(DateTime dateTime, TimeSpan offset) { }
 
-	// RVA: 0x1796ED0 Offset: 0x17954D0 VA: 0x181796ED0
+	// RVA: 0x1797190 Offset: 0x1795790 VA: 0x181797190
 	private static DateTimeStyles ValidateStyles(DateTimeStyles style, string parameterName) { }
 
-	// RVA: 0x1797AD0 Offset: 0x17960D0 VA: 0x181797AD0
+	// RVA: 0x1797D90 Offset: 0x1796390 VA: 0x181797D90
 	public static DateTimeOffset op_Implicit(DateTime dateTime) { }
 
-	// RVA: 0x1797B80 Offset: 0x1796180 VA: 0x181797B80
+	// RVA: 0x1797E40 Offset: 0x1796440 VA: 0x181797E40
 	public static TimeSpan op_Subtraction(DateTimeOffset left, DateTimeOffset right) { }
 
-	// RVA: 0x1797A40 Offset: 0x1796040 VA: 0x181797A40
+	// RVA: 0x1797D00 Offset: 0x1796300 VA: 0x181797D00
 	public static bool op_Equality(DateTimeOffset left, DateTimeOffset right) { }
 
-	// RVA: 0x1797AF0 Offset: 0x17960F0 VA: 0x181797AF0
+	// RVA: 0x1797DB0 Offset: 0x17963B0 VA: 0x181797DB0
 	public static bool op_Inequality(DateTimeOffset left, DateTimeOffset right) { }
 
-	// RVA: 0x1797000 Offset: 0x1795600 VA: 0x181797000
+	// RVA: 0x17972C0 Offset: 0x17958C0 VA: 0x1817972C0
 	private static void .cctor() { }
 
 }
@@ -568,55 +568,55 @@ internal static class DateTimeFormat // TypeDefIndex: 225
 
 	// Methods
 
-	// RVA: 0x17949D0 Offset: 0x1792FD0 VA: 0x1817949D0
+	// RVA: 0x1794C90 Offset: 0x1793290 VA: 0x181794C90
 	internal static void FormatDigits(StringBuilder outputBuffer, int value, int len) { }
 
-	// RVA: 0x1794A50 Offset: 0x1793050 VA: 0x181794A50
+	// RVA: 0x1794D10 Offset: 0x1793310 VA: 0x181794D10
 	internal static void FormatDigits(StringBuilder outputBuffer, int value, int len, bool overrideLengthLimit) { }
 
-	// RVA: 0x1795260 Offset: 0x1793860 VA: 0x181795260
+	// RVA: 0x1795520 Offset: 0x1793B20 VA: 0x181795520
 	private static void HebrewFormatDigits(StringBuilder outputBuffer, int digits) { }
 
-	// RVA: 0x17955D0 Offset: 0x1793BD0 VA: 0x1817955D0
+	// RVA: 0x1795890 Offset: 0x1793E90 VA: 0x181795890
 	internal static int ParseRepeatPattern(string format, int pos, char patternChar) { }
 
-	// RVA: 0x1794990 Offset: 0x1792F90 VA: 0x181794990
+	// RVA: 0x1794C50 Offset: 0x1793250 VA: 0x181794C50
 	private static string FormatDayOfWeek(int dayOfWeek, int repeat, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x1794C10 Offset: 0x1793210 VA: 0x181794C10
+	// RVA: 0x1794ED0 Offset: 0x17934D0 VA: 0x181794ED0
 	private static string FormatMonth(int month, int repeatCount, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x1794B50 Offset: 0x1793150 VA: 0x181794B50
+	// RVA: 0x1794E10 Offset: 0x1793410 VA: 0x181794E10
 	private static string FormatHebrewMonthName(DateTime time, int month, int repeatCount, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x1795430 Offset: 0x1793A30 VA: 0x181795430
+	// RVA: 0x17956F0 Offset: 0x1793CF0 VA: 0x1817956F0
 	internal static int ParseQuoteString(string format, int pos, StringBuilder result) { }
 
-	// RVA: 0x17953F0 Offset: 0x17939F0 VA: 0x1817953F0
+	// RVA: 0x17956B0 Offset: 0x1793CB0 VA: 0x1817956B0
 	internal static int ParseNextChar(string format, int pos) { }
 
-	// RVA: 0x17952E0 Offset: 0x17938E0 VA: 0x1817952E0
+	// RVA: 0x17955A0 Offset: 0x1793BA0 VA: 0x1817955A0
 	private static bool IsUseGenitiveForm(string format, int index, int tokenLen, char patternToMatch) { }
 
-	// RVA: 0x17936F0 Offset: 0x1791CF0 VA: 0x1817936F0
+	// RVA: 0x17939B0 Offset: 0x1791FB0 VA: 0x1817939B0
 	private static string FormatCustomized(DateTime dateTime, string format, DateTimeFormatInfo dtfi, TimeSpan offset) { }
 
-	// RVA: 0x1793360 Offset: 0x1791960 VA: 0x181793360
+	// RVA: 0x1793620 Offset: 0x1791C20 VA: 0x181793620
 	private static void FormatCustomizedTimeZone(DateTime dateTime, TimeSpan offset, string format, int tokenLen, bool timeOnly, StringBuilder result) { }
 
-	// RVA: 0x1793130 Offset: 0x1791730 VA: 0x181793130
+	// RVA: 0x17933F0 Offset: 0x17919F0 VA: 0x1817933F0
 	private static void FormatCustomizedRoundripTimeZone(DateTime dateTime, TimeSpan offset, StringBuilder result) { }
 
-	// RVA: 0x1794F40 Offset: 0x1793540 VA: 0x181794F40
+	// RVA: 0x1795200 Offset: 0x1793800 VA: 0x181795200
 	internal static string GetRealFormat(string format, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x1792AB0 Offset: 0x17910B0 VA: 0x181792AB0
+	// RVA: 0x1792D70 Offset: 0x1791370 VA: 0x181792D70
 	private static string ExpandPredefinedFormat(string format, ref DateTime dateTime, ref DateTimeFormatInfo dtfi, ref TimeSpan offset) { }
 
-	// RVA: 0x1794C50 Offset: 0x1793250 VA: 0x181794C50
+	// RVA: 0x1794F10 Offset: 0x1793510 VA: 0x181794F10
 	internal static string Format(DateTime dateTime, string format, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x1794CE0 Offset: 0x17932E0 VA: 0x181794CE0
+	// RVA: 0x1794FA0 Offset: 0x17935A0 VA: 0x181794FA0
 	internal static string Format(DateTime dateTime, string format, DateTimeFormatInfo dtfi, TimeSpan offset) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -625,7 +625,7 @@ internal static class DateTimeFormat // TypeDefIndex: 225
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal static void InvalidFormatForUtc(string format, DateTime dateTime) { }
 
-	// RVA: 0x1795650 Offset: 0x1793C50 VA: 0x181795650
+	// RVA: 0x1795910 Offset: 0x1793F10 VA: 0x181795910
 	private static void .cctor() { }
 
 }
@@ -637,241 +637,241 @@ internal static class DateTimeParse // TypeDefIndex: 226
 
 	// Methods
 
-	// RVA: 0x179F260 Offset: 0x179D860 VA: 0x18179F260
+	// RVA: 0x179F520 Offset: 0x179DB20 VA: 0x18179F520
 	internal static DateTime ParseExact(string s, string format, DateTimeFormatInfo dtfi, DateTimeStyles style) { }
 
-	// RVA: 0x179F000 Offset: 0x179D600 VA: 0x18179F000
+	// RVA: 0x179F2C0 Offset: 0x179D8C0 VA: 0x18179F2C0
 	internal static DateTime ParseExact(string s, string format, DateTimeFormatInfo dtfi, DateTimeStyles style, out TimeSpan offset) { }
 
-	// RVA: 0x17A1CB0 Offset: 0x17A02B0 VA: 0x1817A1CB0
+	// RVA: 0x17A1F70 Offset: 0x17A0570 VA: 0x1817A1F70
 	internal static bool TryParseExact(string s, string format, DateTimeFormatInfo dtfi, DateTimeStyles style, out DateTime result) { }
 
-	// RVA: 0x17A1900 Offset: 0x179FF00 VA: 0x1817A1900
+	// RVA: 0x17A1BC0 Offset: 0x17A01C0 VA: 0x1817A1BC0
 	internal static bool TryParseExact(string s, string format, DateTimeFormatInfo dtfi, DateTimeStyles style, out DateTime result, out TimeSpan offset) { }
 
-	// RVA: 0x17A1B70 Offset: 0x17A0170 VA: 0x1817A1B70
+	// RVA: 0x17A1E30 Offset: 0x17A0430 VA: 0x1817A1E30
 	internal static bool TryParseExact(string s, string format, DateTimeFormatInfo dtfi, DateTimeStyles style, ref DateTimeResult result) { }
 
-	// RVA: 0x179EED0 Offset: 0x179D4D0 VA: 0x18179EED0
+	// RVA: 0x179F190 Offset: 0x179D790 VA: 0x18179F190
 	internal static DateTime ParseExactMultiple(string s, string[] formats, DateTimeFormatInfo dtfi, DateTimeStyles style) { }
 
-	// RVA: 0x17A1770 Offset: 0x179FD70 VA: 0x1817A1770
+	// RVA: 0x17A1A30 Offset: 0x17A0030 VA: 0x1817A1A30
 	internal static bool TryParseExactMultiple(string s, string[] formats, DateTimeFormatInfo dtfi, DateTimeStyles style, out DateTime result, out TimeSpan offset) { }
 
-	// RVA: 0x17A1450 Offset: 0x179FA50 VA: 0x1817A1450
+	// RVA: 0x17A1710 Offset: 0x179FD10 VA: 0x1817A1710
 	internal static bool TryParseExactMultiple(string s, string[] formats, DateTimeFormatInfo dtfi, DateTimeStyles style, ref DateTimeResult result) { }
 
-	// RVA: 0x179D4B0 Offset: 0x179BAB0 VA: 0x18179D4B0
+	// RVA: 0x179D770 Offset: 0x179BD70 VA: 0x18179D770
 	private static bool MatchWord(ref __DTString str, string target) { }
 
-	// RVA: 0x179B6E0 Offset: 0x1799CE0 VA: 0x18179B6E0
+	// RVA: 0x179B9A0 Offset: 0x1799FA0 VA: 0x18179B9A0
 	private static bool GetTimeZoneName(ref __DTString str) { }
 
-	// RVA: 0x179BC60 Offset: 0x179A260 VA: 0x18179BC60
+	// RVA: 0x179BF20 Offset: 0x179A520 VA: 0x18179BF20
 	internal static bool IsDigit(char ch) { }
 
-	// RVA: 0x179F5B0 Offset: 0x179DBB0 VA: 0x18179F5B0
+	// RVA: 0x179F870 Offset: 0x179DE70 VA: 0x18179F870
 	private static bool ParseFraction(ref __DTString str, out double result) { }
 
-	// RVA: 0x17A0090 Offset: 0x179E690 VA: 0x1817A0090
+	// RVA: 0x17A0350 Offset: 0x179E950 VA: 0x1817A0350
 	private static bool ParseTimeZone(ref __DTString str, ref TimeSpan result) { }
 
-	// RVA: 0x179BB00 Offset: 0x179A100 VA: 0x18179BB00
+	// RVA: 0x179BDC0 Offset: 0x179A3C0 VA: 0x18179BDC0
 	private static bool HandleTimeZone(ref __DTString str, ref DateTimeResult result) { }
 
-	// RVA: 0x179BC80 Offset: 0x179A280 VA: 0x18179BC80
+	// RVA: 0x179BF40 Offset: 0x179A540 VA: 0x18179BF40
 	private static bool Lex(DateTimeParse.DS dps, ref __DTString str, ref DateTimeToken dtok, ref DateTimeRawInfo raw, ref DateTimeResult result, ref DateTimeFormatInfo dtfi, DateTimeStyles styles) { }
 
-	// RVA: 0x17A2B40 Offset: 0x17A1140 VA: 0x1817A2B40
+	// RVA: 0x17A2E00 Offset: 0x17A1400 VA: 0x1817A2E00
 	private static bool VerifyValidPunctuation(ref __DTString str) { }
 
-	// RVA: 0x179B780 Offset: 0x1799D80 VA: 0x18179B780
+	// RVA: 0x179BA40 Offset: 0x179A040 VA: 0x18179BA40
 	private static bool GetYearMonthDayOrder(string datePattern, DateTimeFormatInfo dtfi, out int order) { }
 
-	// RVA: 0x179B9B0 Offset: 0x1799FB0 VA: 0x18179B9B0
+	// RVA: 0x179BC70 Offset: 0x179A270 VA: 0x18179BC70
 	private static bool GetYearMonthOrder(string pattern, DateTimeFormatInfo dtfi, out int order) { }
 
-	// RVA: 0x179B390 Offset: 0x1799990 VA: 0x18179B390
+	// RVA: 0x179B650 Offset: 0x1799C50 VA: 0x18179B650
 	private static bool GetMonthDayOrder(string pattern, DateTimeFormatInfo dtfi, out int order) { }
 
-	// RVA: 0x17A13A0 Offset: 0x179F9A0 VA: 0x1817A13A0
+	// RVA: 0x17A1660 Offset: 0x179FC60 VA: 0x1817A1660
 	private static bool TryAdjustYear(ref DateTimeResult result, int year, out int adjustedYear) { }
 
-	// RVA: 0x17A1320 Offset: 0x179F920 VA: 0x1817A1320
+	// RVA: 0x17A15E0 Offset: 0x179FBE0 VA: 0x1817A15E0
 	private static bool SetDateYMD(ref DateTimeResult result, int year, int month, int day) { }
 
-	// RVA: 0x17A11A0 Offset: 0x179F7A0 VA: 0x1817A11A0
+	// RVA: 0x17A1460 Offset: 0x179FA60 VA: 0x1817A1460
 	private static bool SetDateMDY(ref DateTimeResult result, int month, int day, int year) { }
 
-	// RVA: 0x17A10E0 Offset: 0x179F6E0 VA: 0x1817A10E0
+	// RVA: 0x17A13A0 Offset: 0x179F9A0 VA: 0x1817A13A0
 	private static bool SetDateDMY(ref DateTimeResult result, int day, int month, int year) { }
 
-	// RVA: 0x17A1260 Offset: 0x179F860 VA: 0x1817A1260
+	// RVA: 0x17A1520 Offset: 0x179FB20 VA: 0x1817A1520
 	private static bool SetDateYDM(ref DateTimeResult result, int year, int day, int month) { }
 
-	// RVA: 0x179B170 Offset: 0x1799770 VA: 0x18179B170
+	// RVA: 0x179B430 Offset: 0x1799A30 VA: 0x18179B430
 	private static void GetDefaultYear(ref DateTimeResult result, ref DateTimeStyles styles) { }
 
-	// RVA: 0x179AA70 Offset: 0x1799070 VA: 0x18179AA70
+	// RVA: 0x179AD30 Offset: 0x1799330 VA: 0x18179AD30
 	private static bool GetDayOfNN(ref DateTimeResult result, ref DateTimeStyles styles, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x179A3D0 Offset: 0x17989D0 VA: 0x18179A3D0
+	// RVA: 0x179A690 Offset: 0x1798C90 VA: 0x18179A690
 	private static bool GetDayOfNNN(ref DateTimeResult result, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x1799EB0 Offset: 0x17984B0 VA: 0x181799EB0
+	// RVA: 0x179A170 Offset: 0x1798770 VA: 0x18179A170
 	private static bool GetDayOfMN(ref DateTimeResult result, ref DateTimeStyles styles, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x179B210 Offset: 0x1799810 VA: 0x18179B210
+	// RVA: 0x179B4D0 Offset: 0x1799AD0 VA: 0x18179B4D0
 	private static bool GetHebrewDayOfNM(ref DateTimeResult result, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x179A140 Offset: 0x1798740 VA: 0x18179A140
+	// RVA: 0x179A400 Offset: 0x1798A00 VA: 0x18179A400
 	private static bool GetDayOfNM(ref DateTimeResult result, ref DateTimeStyles styles, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x1799AA0 Offset: 0x17980A0 VA: 0x181799AA0
+	// RVA: 0x1799D60 Offset: 0x1798360 VA: 0x181799D60
 	private static bool GetDayOfMNN(ref DateTimeResult result, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x179AE90 Offset: 0x1799490 VA: 0x18179AE90
+	// RVA: 0x179B150 Offset: 0x1799750 VA: 0x18179B150
 	private static bool GetDayOfYNN(ref DateTimeResult result, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x179A890 Offset: 0x1798E90 VA: 0x18179A890
+	// RVA: 0x179AB50 Offset: 0x1799150 VA: 0x18179AB50
 	private static bool GetDayOfNNY(ref DateTimeResult result, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x179AC50 Offset: 0x1799250 VA: 0x18179AC50
+	// RVA: 0x179AF10 Offset: 0x1799510 VA: 0x18179AF10
 	private static bool GetDayOfYMN(ref DateTimeResult result, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x179B030 Offset: 0x1799630 VA: 0x18179B030
+	// RVA: 0x179B2F0 Offset: 0x17998F0 VA: 0x18179B2F0
 	private static bool GetDayOfYN(ref DateTimeResult result, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x179AD50 Offset: 0x1799350 VA: 0x18179AD50
+	// RVA: 0x179B010 Offset: 0x1799610 VA: 0x18179B010
 	private static bool GetDayOfYM(ref DateTimeResult result, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x1797C50 Offset: 0x1796250 VA: 0x181797C50
+	// RVA: 0x1797F10 Offset: 0x1796510 VA: 0x181797F10
 	private static void AdjustTimeMark(DateTimeFormatInfo dtfi, ref DateTimeRawInfo raw) { }
 
-	// RVA: 0x1797C10 Offset: 0x1796210 VA: 0x181797C10
+	// RVA: 0x1797ED0 Offset: 0x17964D0 VA: 0x181797ED0
 	private static bool AdjustHour(ref int hour, DateTimeParse.TM timeMark) { }
 
-	// RVA: 0x179B650 Offset: 0x1799C50 VA: 0x18179B650
+	// RVA: 0x179B910 Offset: 0x1799F10 VA: 0x18179B910
 	private static bool GetTimeOfN(DateTimeFormatInfo dtfi, ref DateTimeResult result, ref DateTimeRawInfo raw) { }
 
-	// RVA: 0x179B5C0 Offset: 0x1799BC0 VA: 0x18179B5C0
+	// RVA: 0x179B880 Offset: 0x1799E80 VA: 0x18179B880
 	private static bool GetTimeOfNN(DateTimeFormatInfo dtfi, ref DateTimeResult result, ref DateTimeRawInfo raw) { }
 
-	// RVA: 0x179B520 Offset: 0x1799B20 VA: 0x18179B520
+	// RVA: 0x179B7E0 Offset: 0x1799DE0 VA: 0x18179B7E0
 	private static bool GetTimeOfNNN(DateTimeFormatInfo dtfi, ref DateTimeResult result, ref DateTimeRawInfo raw) { }
 
-	// RVA: 0x1799350 Offset: 0x1797950 VA: 0x181799350
+	// RVA: 0x1799610 Offset: 0x1797C10 VA: 0x181799610
 	private static bool GetDateOfDSN(ref DateTimeResult result, ref DateTimeRawInfo raw) { }
 
-	// RVA: 0x17993E0 Offset: 0x17979E0 VA: 0x1817993E0
+	// RVA: 0x17996A0 Offset: 0x1797CA0 VA: 0x1817996A0
 	private static bool GetDateOfNDS(ref DateTimeResult result, ref DateTimeRawInfo raw) { }
 
-	// RVA: 0x17994A0 Offset: 0x1797AA0 VA: 0x1817994A0
+	// RVA: 0x1799760 Offset: 0x1797D60 VA: 0x181799760
 	private static bool GetDateOfNNDS(ref DateTimeResult result, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x17A05F0 Offset: 0x179EBF0 VA: 0x1817A05F0
+	// RVA: 0x17A08B0 Offset: 0x179EEB0 VA: 0x1817A08B0
 	private static bool ProcessDateTimeSuffix(ref DateTimeResult result, ref DateTimeRawInfo raw, ref DateTimeToken dtok) { }
 
-	// RVA: 0x17A06D0 Offset: 0x179ECD0 VA: 0x1817A06D0
+	// RVA: 0x17A0990 Offset: 0x179EF90 VA: 0x1817A0990
 	internal static bool ProcessHebrewTerminalState(DateTimeParse.DS dps, ref DateTimeResult result, ref DateTimeStyles styles, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x17A0B50 Offset: 0x179F150 VA: 0x1817A0B50
+	// RVA: 0x17A0E10 Offset: 0x179F410 VA: 0x1817A0E10
 	internal static bool ProcessTerminaltState(DateTimeParse.DS dps, ref DateTimeResult result, ref DateTimeStyles styles, ref DateTimeRawInfo raw, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x17A03A0 Offset: 0x179E9A0 VA: 0x1817A03A0
+	// RVA: 0x17A0660 Offset: 0x179EC60 VA: 0x1817A0660
 	internal static DateTime Parse(string s, DateTimeFormatInfo dtfi, DateTimeStyles styles) { }
 
-	// RVA: 0x17A04C0 Offset: 0x179EAC0 VA: 0x1817A04C0
+	// RVA: 0x17A0780 Offset: 0x179ED80 VA: 0x1817A0780
 	internal static DateTime Parse(string s, DateTimeFormatInfo dtfi, DateTimeStyles styles, out TimeSpan offset) { }
 
-	// RVA: 0x17A2890 Offset: 0x17A0E90 VA: 0x1817A2890
+	// RVA: 0x17A2B50 Offset: 0x17A1150 VA: 0x1817A2B50
 	internal static bool TryParse(string s, DateTimeFormatInfo dtfi, DateTimeStyles styles, out DateTime result) { }
 
-	// RVA: 0x17A29C0 Offset: 0x17A0FC0 VA: 0x1817A29C0
+	// RVA: 0x17A2C80 Offset: 0x17A1280 VA: 0x1817A2C80
 	internal static bool TryParse(string s, DateTimeFormatInfo dtfi, DateTimeStyles styles, out DateTime result, out TimeSpan offset) { }
 
-	// RVA: 0x17A1FA0 Offset: 0x17A05A0 VA: 0x1817A1FA0
+	// RVA: 0x17A2260 Offset: 0x17A0860 VA: 0x1817A2260
 	internal static bool TryParse(string s, DateTimeFormatInfo dtfi, DateTimeStyles styles, ref DateTimeResult result) { }
 
-	// RVA: 0x1798480 Offset: 0x1796A80 VA: 0x181798480
+	// RVA: 0x1798740 Offset: 0x1796D40 VA: 0x181798740
 	private static bool DetermineTimeZoneAdjustments(ref DateTimeResult result, DateTimeStyles styles, bool bTimeOnly) { }
 
-	// RVA: 0x1798280 Offset: 0x1796880 VA: 0x181798280
+	// RVA: 0x1798540 Offset: 0x1796B40 VA: 0x181798540
 	private static bool DateTimeOffsetTimeZonePostProcessing(ref DateTimeResult result, DateTimeStyles styles) { }
 
-	// RVA: 0x1797EE0 Offset: 0x17964E0 VA: 0x181797EE0
+	// RVA: 0x17981A0 Offset: 0x17967A0 VA: 0x1817981A0
 	private static bool AdjustTimeZoneToUniversal(ref DateTimeResult result) { }
 
-	// RVA: 0x1797CC0 Offset: 0x17962C0 VA: 0x181797CC0
+	// RVA: 0x1797F80 Offset: 0x1796580 VA: 0x181797F80
 	private static bool AdjustTimeZoneToLocal(ref DateTimeResult result, bool bTimeOnly) { }
 
-	// RVA: 0x179F690 Offset: 0x179DC90 VA: 0x18179F690
+	// RVA: 0x179F950 Offset: 0x179DF50 VA: 0x18179F950
 	private static bool ParseISO8601(ref DateTimeRawInfo raw, ref __DTString str, DateTimeStyles styles, ref DateTimeResult result) { }
 
-	// RVA: 0x179D130 Offset: 0x179B730 VA: 0x18179D130
+	// RVA: 0x179D3F0 Offset: 0x179B9F0 VA: 0x18179D3F0
 	internal static bool MatchHebrewDigits(ref __DTString str, int digitLen, out int number) { }
 
-	// RVA: 0x179ECF0 Offset: 0x179D2F0 VA: 0x18179ECF0
+	// RVA: 0x179EFB0 Offset: 0x179D5B0 VA: 0x18179EFB0
 	internal static bool ParseDigits(ref __DTString str, int digitLen, out int result) { }
 
-	// RVA: 0x179EE20 Offset: 0x179D420 VA: 0x18179EE20
+	// RVA: 0x179F0E0 Offset: 0x179D6E0 VA: 0x18179F0E0
 	internal static bool ParseDigits(ref __DTString str, int minDigitLen, int maxDigitLen, out int result) { }
 
-	// RVA: 0x179F470 Offset: 0x179DA70 VA: 0x18179F470
+	// RVA: 0x179F730 Offset: 0x179DD30 VA: 0x18179F730
 	private static bool ParseFractionExact(ref __DTString str, int maxDigitLen, ref double result) { }
 
-	// RVA: 0x179FCB0 Offset: 0x179E2B0 VA: 0x18179FCB0
+	// RVA: 0x179FF70 Offset: 0x179E570 VA: 0x18179FF70
 	private static bool ParseSign(ref __DTString str, ref bool result) { }
 
-	// RVA: 0x179FD10 Offset: 0x179E310 VA: 0x18179FD10
+	// RVA: 0x179FFD0 Offset: 0x179E5D0 VA: 0x18179FFD0
 	private static bool ParseTimeZoneOffset(ref __DTString str, int len, ref TimeSpan result) { }
 
-	// RVA: 0x179CCC0 Offset: 0x179B2C0 VA: 0x18179CCC0
+	// RVA: 0x179CF80 Offset: 0x179B580 VA: 0x18179CF80
 	private static bool MatchAbbreviatedMonthName(ref __DTString str, DateTimeFormatInfo dtfi, ref int result) { }
 
-	// RVA: 0x179D210 Offset: 0x179B810 VA: 0x18179D210
+	// RVA: 0x179D4D0 Offset: 0x179BAD0 VA: 0x18179D4D0
 	private static bool MatchMonthName(ref __DTString str, DateTimeFormatInfo dtfi, ref int result) { }
 
-	// RVA: 0x179CBE0 Offset: 0x179B1E0 VA: 0x18179CBE0
+	// RVA: 0x179CEA0 Offset: 0x179B4A0 VA: 0x18179CEA0
 	private static bool MatchAbbreviatedDayName(ref __DTString str, DateTimeFormatInfo dtfi, ref int result) { }
 
-	// RVA: 0x179CED0 Offset: 0x179B4D0 VA: 0x18179CED0
+	// RVA: 0x179D190 Offset: 0x179B790 VA: 0x18179D190
 	private static bool MatchDayName(ref __DTString str, DateTimeFormatInfo dtfi, ref int result) { }
 
-	// RVA: 0x179CFB0 Offset: 0x179B5B0 VA: 0x18179CFB0
+	// RVA: 0x179D270 Offset: 0x179B870 VA: 0x18179D270
 	private static bool MatchEraName(ref __DTString str, DateTimeFormatInfo dtfi, ref int result) { }
 
-	// RVA: 0x179D3A0 Offset: 0x179B9A0 VA: 0x18179D3A0
+	// RVA: 0x179D660 Offset: 0x179BC60 VA: 0x18179D660
 	private static bool MatchTimeMark(ref __DTString str, DateTimeFormatInfo dtfi, ref DateTimeParse.TM result) { }
 
-	// RVA: 0x179CE20 Offset: 0x179B420 VA: 0x18179CE20
+	// RVA: 0x179D0E0 Offset: 0x179B6E0 VA: 0x18179D0E0
 	private static bool MatchAbbreviatedTimeMark(ref __DTString str, DateTimeFormatInfo dtfi, ref DateTimeParse.TM result) { }
 
-	// RVA: 0x17981D0 Offset: 0x17967D0 VA: 0x1817981D0
+	// RVA: 0x1798490 Offset: 0x1796A90 VA: 0x181798490
 	private static bool CheckNewValue(ref int currentValue, int newValue, char patternChar, ref DateTimeResult result) { }
 
-	// RVA: 0x1799740 Offset: 0x1797D40 VA: 0x181799740
+	// RVA: 0x1799A00 Offset: 0x1798000 VA: 0x181799A00
 	private static DateTime GetDateTimeNow(ref DateTimeResult result, ref DateTimeStyles styles) { }
 
-	// RVA: 0x1797FA0 Offset: 0x17965A0 VA: 0x181797FA0
+	// RVA: 0x1798260 Offset: 0x1796860 VA: 0x181798260
 	private static bool CheckDefaultDateTime(ref DateTimeResult result, ref Calendar cal, DateTimeStyles styles) { }
 
-	// RVA: 0x1798CB0 Offset: 0x17972B0 VA: 0x181798CB0
+	// RVA: 0x1798F70 Offset: 0x1797570 VA: 0x181798F70
 	private static string ExpandPredefinedFormat(string format, ref DateTimeFormatInfo dtfi, ref ParsingInfo parseInfo, ref DateTimeResult result) { }
 
-	// RVA: 0x179D5F0 Offset: 0x179BBF0 VA: 0x18179D5F0
+	// RVA: 0x179D8B0 Offset: 0x179BEB0 VA: 0x18179D8B0
 	private static bool ParseByFormat(ref __DTString str, ref __DTString format, ref ParsingInfo parseInfo, DateTimeFormatInfo dtfi, ref DateTimeResult result) { }
 
-	// RVA: 0x17A1ED0 Offset: 0x17A04D0 VA: 0x1817A1ED0
+	// RVA: 0x17A2190 Offset: 0x17A0790 VA: 0x1817A2190
 	internal static bool TryParseQuoteString(string format, int pos, StringBuilder result, out int returnValue) { }
 
-	// RVA: 0x1798680 Offset: 0x1796C80 VA: 0x181798680
+	// RVA: 0x1798940 Offset: 0x1796F40 VA: 0x181798940
 	private static bool DoStrictParse(string s, string formatParam, DateTimeStyles styles, DateTimeFormatInfo dtfi, ref DateTimeResult result) { }
 
-	// RVA: 0x17998B0 Offset: 0x1797EB0 VA: 0x1817998B0
+	// RVA: 0x1799B70 Offset: 0x1798170 VA: 0x181799B70
 	private static Exception GetDateTimeParseException(ref DateTimeResult result) { }
 
-	// RVA: 0x17A2CB0 Offset: 0x17A12B0 VA: 0x1817A2CB0
+	// RVA: 0x17A2F70 Offset: 0x17A1570 VA: 0x1817A2F70
 	private static void .cctor() { }
 
 }
@@ -882,13 +882,13 @@ internal sealed class DateTimeParse.MatchNumberDelegate : MulticastDelegate // T
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x17AAAE0 Offset: 0x17A90E0 VA: 0x1817AAAE0 Slot: 12
+	// RVA: 0x17AADA0 Offset: 0x17A93A0 VA: 0x1817AADA0 Slot: 12
 	public virtual bool Invoke(ref __DTString str, int digitLen, out int result) { }
 
-	// RVA: 0x17AAA30 Offset: 0x17A9030 VA: 0x1817AAA30 Slot: 13
+	// RVA: 0x17AACF0 Offset: 0x17A92F0 VA: 0x1817AACF0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(ref __DTString str, int digitLen, out int result, AsyncCallback callback, object object) { }
 
-	// RVA: 0x175F010 Offset: 0x175D610 VA: 0x18175F010 Slot: 14
+	// RVA: 0x175F2D0 Offset: 0x175D8D0 VA: 0x18175F2D0 Slot: 14
 	public virtual bool EndInvoke(ref __DTString str, out int result, IAsyncResult __result) { }
 
 }
@@ -1223,57 +1223,57 @@ public sealed class DateTimeFormatInfo : ICloneable, IFormatProvider // TypeDefI
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	private static bool InitPreferExistingTokens() { }
 
-	// RVA: 0x16E51B0 Offset: 0x16E37B0 VA: 0x1816E51B0
+	// RVA: 0x16E5470 Offset: 0x16E3A70 VA: 0x1816E5470
 	private string get_CultureName() { }
 
-	// RVA: 0x16E51F0 Offset: 0x16E37F0 VA: 0x1816E51F0
+	// RVA: 0x16E54B0 Offset: 0x16E3AB0 VA: 0x1816E54B0
 	private CultureInfo get_Culture() { }
 
-	// RVA: 0x16E63B0 Offset: 0x16E49B0 VA: 0x1816E63B0
+	// RVA: 0x16E6670 Offset: 0x16E4C70 VA: 0x1816E6670
 	private string get_LanguageName() { }
 
-	// RVA: 0x16E6AF0 Offset: 0x16E50F0 VA: 0x1816E6AF0
+	// RVA: 0x16E6DB0 Offset: 0x16E53B0 VA: 0x1816E6DB0
 	private string[] internalGetAbbreviatedDayOfWeekNames() { }
 
-	// RVA: 0x16E6BD0 Offset: 0x16E51D0 VA: 0x1816E6BD0
+	// RVA: 0x16E6E90 Offset: 0x16E5490 VA: 0x1816E6E90
 	private string[] internalGetDayOfWeekNames() { }
 
-	// RVA: 0x16E6B60 Offset: 0x16E5160 VA: 0x1816E6B60
+	// RVA: 0x16E6E20 Offset: 0x16E5420 VA: 0x1816E6E20
 	private string[] internalGetAbbreviatedMonthNames() { }
 
-	// RVA: 0x16E6FD0 Offset: 0x16E55D0 VA: 0x1816E6FD0
+	// RVA: 0x16E7290 Offset: 0x16E5890 VA: 0x1816E7290
 	private string[] internalGetMonthNames() { }
 
-	// RVA: 0x16E4920 Offset: 0x16E2F20 VA: 0x1816E4920
+	// RVA: 0x16E4BE0 Offset: 0x16E31E0 VA: 0x1816E4BE0
 	public void .ctor() { }
 
-	// RVA: 0x16E4A50 Offset: 0x16E3050 VA: 0x1816E4A50
+	// RVA: 0x16E4D10 Offset: 0x16E3310 VA: 0x1816E4D10
 	internal void .ctor(CultureData cultureData, Calendar cal) { }
 
-	// RVA: 0x16E2D70 Offset: 0x16E1370 VA: 0x1816E2D70
+	// RVA: 0x16E3030 Offset: 0x16E1630 VA: 0x1816E3030
 	private void InitializeOverridableProperties(CultureData cultureData, int calendarID) { }
 
 	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x16E3600 Offset: 0x16E1C00 VA: 0x1816E3600
+	// RVA: 0x16E38C0 Offset: 0x16E1EC0 VA: 0x1816E38C0
 	private void OnDeserialized(StreamingContext ctx) { }
 
 	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x16E3DE0 Offset: 0x16E23E0 VA: 0x1816E3DE0
+	// RVA: 0x16E40A0 Offset: 0x16E26A0 VA: 0x1816E40A0
 	private void OnSerializing(StreamingContext ctx) { }
 
-	// RVA: 0x16E6170 Offset: 0x16E4770 VA: 0x1816E6170
+	// RVA: 0x16E6430 Offset: 0x16E4A30 VA: 0x1816E6430
 	public static DateTimeFormatInfo get_InvariantInfo() { }
 
-	// RVA: 0x16E52B0 Offset: 0x16E38B0 VA: 0x1816E52B0
+	// RVA: 0x16E5570 Offset: 0x16E3B70 VA: 0x1816E5570
 	public static DateTimeFormatInfo get_CurrentInfo() { }
 
-	// RVA: 0x16E2490 Offset: 0x16E0A90 VA: 0x1816E2490
+	// RVA: 0x16E2750 Offset: 0x16E0D50 VA: 0x1816E2750
 	public static DateTimeFormatInfo GetInstance(IFormatProvider provider) { }
 
-	// RVA: 0x16E2400 Offset: 0x16E0A00 VA: 0x1816E2400 Slot: 5
+	// RVA: 0x16E26C0 Offset: 0x16E0CC0 VA: 0x1816E26C0 Slot: 5
 	public object GetFormat(Type formatType) { }
 
-	// RVA: 0x16E0220 Offset: 0x16DE820 VA: 0x1816E0220 Slot: 4
+	// RVA: 0x16E04E0 Offset: 0x16DEAE0 VA: 0x1816E04E0 Slot: 4
 	public object Clone() { }
 
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
@@ -1282,229 +1282,229 @@ public sealed class DateTimeFormatInfo : ICloneable, IFormatProvider // TypeDefI
 	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
 	public Calendar get_Calendar() { }
 
-	// RVA: 0x16E7040 Offset: 0x16E5640 VA: 0x1816E7040
+	// RVA: 0x16E7300 Offset: 0x16E5900 VA: 0x1816E7300
 	public void set_Calendar(Calendar value) { }
 
-	// RVA: 0x16E66C0 Offset: 0x16E4CC0 VA: 0x1816E66C0
+	// RVA: 0x16E6980 Offset: 0x16E4F80 VA: 0x1816E6980
 	private int[] get_OptionalCalendars() { }
 
-	// RVA: 0x16E56C0 Offset: 0x16E3CC0 VA: 0x1816E56C0
+	// RVA: 0x16E5980 Offset: 0x16E3F80 VA: 0x1816E5980
 	internal string[] get_EraNames() { }
 
-	// RVA: 0x16E22A0 Offset: 0x16E08A0 VA: 0x1816E22A0
+	// RVA: 0x16E2560 Offset: 0x16E0B60 VA: 0x1816E2560
 	public string GetEraName(int era) { }
 
-	// RVA: 0x16E4BA0 Offset: 0x16E31A0 VA: 0x1816E4BA0
+	// RVA: 0x16E4E60 Offset: 0x16E3460 VA: 0x1816E4E60
 	internal string[] get_AbbreviatedEraNames() { }
 
-	// RVA: 0x16E17E0 Offset: 0x16DFDE0 VA: 0x1816E17E0
+	// RVA: 0x16E1AA0 Offset: 0x16E00A0 VA: 0x1816E1AA0
 	public string GetAbbreviatedEraName(int era) { }
 
-	// RVA: 0x16E4B30 Offset: 0x16E3130 VA: 0x1816E4B30
+	// RVA: 0x16E4DF0 Offset: 0x16E33F0 VA: 0x1816E4DF0
 	internal string[] get_AbbreviatedEnglishEraNames() { }
 
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	public string get_DateSeparator() { }
 
-	// RVA: 0x16E5C40 Offset: 0x16E4240 VA: 0x1816E5C40
+	// RVA: 0x16E5F00 Offset: 0x16E4500 VA: 0x1816E5F00
 	public string get_FullDateTimePattern() { }
 
-	// RVA: 0x16E63F0 Offset: 0x16E49F0 VA: 0x1816E63F0
+	// RVA: 0x16E66B0 Offset: 0x16E4CB0 VA: 0x1816E66B0
 	public string get_LongDatePattern() { }
 
-	// RVA: 0x16E7440 Offset: 0x16E5A40 VA: 0x1816E7440
+	// RVA: 0x16E7700 Offset: 0x16E5D00 VA: 0x1816E7700
 	public void set_LongDatePattern(string value) { }
 
-	// RVA: 0x16E6450 Offset: 0x16E4A50 VA: 0x1816E6450
+	// RVA: 0x16E6710 Offset: 0x16E4D10 VA: 0x1816E6710
 	public string get_LongTimePattern() { }
 
-	// RVA: 0x16E7550 Offset: 0x16E5B50 VA: 0x1816E7550
+	// RVA: 0x16E7810 Offset: 0x16E5E10 VA: 0x1816E7810
 	public void set_LongTimePattern(string value) { }
 
-	// RVA: 0x16E64F0 Offset: 0x16E4AF0 VA: 0x1816E64F0
+	// RVA: 0x16E67B0 Offset: 0x16E4DB0 VA: 0x1816E67B0
 	public string get_MonthDayPattern() { }
 
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
 	public string get_PMDesignator() { }
 
-	// RVA: 0x16E6710 Offset: 0x16E4D10 VA: 0x1816E6710
+	// RVA: 0x16E69D0 Offset: 0x16E4FD0 VA: 0x1816E69D0
 	public string get_RFC1123Pattern() { }
 
-	// RVA: 0x16E6740 Offset: 0x16E4D40 VA: 0x1816E6740
+	// RVA: 0x16E6A00 Offset: 0x16E5000 VA: 0x1816E6A00
 	public string get_ShortDatePattern() { }
 
-	// RVA: 0x16E7680 Offset: 0x16E5C80 VA: 0x1816E7680
+	// RVA: 0x16E7940 Offset: 0x16E5F40 VA: 0x1816E7940
 	public void set_ShortDatePattern(string value) { }
 
-	// RVA: 0x16E67A0 Offset: 0x16E4DA0 VA: 0x1816E67A0
+	// RVA: 0x16E6A60 Offset: 0x16E5060 VA: 0x1816E6A60
 	public string get_ShortTimePattern() { }
 
-	// RVA: 0x16E77B0 Offset: 0x16E5DB0 VA: 0x1816E77B0
+	// RVA: 0x16E7A70 Offset: 0x16E6070 VA: 0x1816E7A70
 	public void set_ShortTimePattern(string value) { }
 
-	// RVA: 0x16E6840 Offset: 0x16E4E40 VA: 0x1816E6840
+	// RVA: 0x16E6B00 Offset: 0x16E5100 VA: 0x1816E6B00
 	public string get_SortableDateTimePattern() { }
 
-	// RVA: 0x16E5FF0 Offset: 0x16E45F0 VA: 0x1816E5FF0
+	// RVA: 0x16E62B0 Offset: 0x16E48B0 VA: 0x1816E62B0
 	internal string get_GeneralShortTimePattern() { }
 
-	// RVA: 0x16E5F10 Offset: 0x16E4510 VA: 0x1816E5F10
+	// RVA: 0x16E61D0 Offset: 0x16E47D0 VA: 0x1816E61D0
 	internal string get_GeneralLongTimePattern() { }
 
-	// RVA: 0x16E53B0 Offset: 0x16E39B0 VA: 0x1816E53B0
+	// RVA: 0x16E5670 Offset: 0x16E3C70 VA: 0x1816E5670
 	internal string get_DateTimeOffsetPattern() { }
 
 	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
 	public string get_TimeSeparator() { }
 
-	// RVA: 0x16E6A60 Offset: 0x16E5060 VA: 0x1816E6A60
+	// RVA: 0x16E6D20 Offset: 0x16E5320 VA: 0x1816E6D20
 	public string get_UniversalSortableDateTimePattern() { }
 
-	// RVA: 0x16E6A90 Offset: 0x16E5090 VA: 0x1816E6A90
+	// RVA: 0x16E6D50 Offset: 0x16E5350 VA: 0x1816E6D50
 	public string get_YearMonthPattern() { }
 
-	// RVA: 0x16E78C0 Offset: 0x16E5EC0 VA: 0x1816E78C0
+	// RVA: 0x16E7B80 Offset: 0x16E6180 VA: 0x1816E7B80
 	public void set_YearMonthPattern(string value) { }
 
-	// RVA: 0x16E4AB0 Offset: 0x16E30B0 VA: 0x1816E4AB0
+	// RVA: 0x16E4D70 Offset: 0x16E3370 VA: 0x1816E4D70
 	public string[] get_AbbreviatedDayNames() { }
 
-	// RVA: 0x16E5640 Offset: 0x16E3C40 VA: 0x1816E5640
+	// RVA: 0x16E5900 Offset: 0x16E3F00 VA: 0x1816E5900
 	public string[] get_DayNames() { }
 
-	// RVA: 0x16E4C10 Offset: 0x16E3210 VA: 0x1816E4C10
+	// RVA: 0x16E4ED0 Offset: 0x16E34D0 VA: 0x1816E4ED0
 	public string[] get_AbbreviatedMonthNames() { }
 
-	// RVA: 0x16E6640 Offset: 0x16E4C40 VA: 0x1816E6640
+	// RVA: 0x16E6900 Offset: 0x16E4F00 VA: 0x1816E6900
 	public string[] get_MonthNames() { }
 
-	// RVA: 0x16E6130 Offset: 0x16E4730 VA: 0x1816E6130
+	// RVA: 0x16E63F0 Offset: 0x16E49F0 VA: 0x1816E63F0
 	internal bool get_HasSpacesInMonthNames() { }
 
-	// RVA: 0x16E6110 Offset: 0x16E4710 VA: 0x1816E6110
+	// RVA: 0x16E63D0 Offset: 0x16E49D0 VA: 0x1816E63D0
 	internal bool get_HasSpacesInDayNames() { }
 
-	// RVA: 0x16E6DB0 Offset: 0x16E53B0 VA: 0x1816E6DB0
+	// RVA: 0x16E7070 Offset: 0x16E5670 VA: 0x1816E7070
 	internal string internalGetMonthName(int month, MonthNameStyles style, bool abbreviated) { }
 
-	// RVA: 0x16E6C40 Offset: 0x16E5240 VA: 0x1816E6C40
+	// RVA: 0x16E6F00 Offset: 0x16E5500 VA: 0x1816E6F00
 	private string[] internalGetGenitiveMonthNames(bool abbreviated) { }
 
-	// RVA: 0x16E6D30 Offset: 0x16E5330 VA: 0x1816E6D30
+	// RVA: 0x16E6FF0 Offset: 0x16E55F0 VA: 0x1816E6FF0
 	internal string[] internalGetLeapYearMonthNames() { }
 
-	// RVA: 0x16E1690 Offset: 0x16DFC90 VA: 0x1816E1690
+	// RVA: 0x16E1950 Offset: 0x16DFF50 VA: 0x1816E1950
 	public string GetAbbreviatedDayName(DayOfWeek dayofweek) { }
 
-	// RVA: 0x16E1FE0 Offset: 0x16E05E0 VA: 0x1816E1FE0
+	// RVA: 0x16E22A0 Offset: 0x16E08A0 VA: 0x1816E22A0
 	private static string[] GetCombinedPatterns(string[] patterns1, string[] patterns2, string connectString) { }
 
-	// RVA: 0x16E1AC0 Offset: 0x16E00C0 VA: 0x1816E1AC0
+	// RVA: 0x16E1D80 Offset: 0x16E0380 VA: 0x1816E1D80
 	public string[] GetAllDateTimePatterns(char format) { }
 
-	// RVA: 0x16E2150 Offset: 0x16E0750 VA: 0x1816E2150
+	// RVA: 0x16E2410 Offset: 0x16E0A10 VA: 0x1816E2410
 	public string GetDayName(DayOfWeek dayofweek) { }
 
-	// RVA: 0x16E1960 Offset: 0x16DFF60 VA: 0x1816E1960
+	// RVA: 0x16E1C20 Offset: 0x16E0220 VA: 0x1816E1C20
 	public string GetAbbreviatedMonthName(int month) { }
 
-	// RVA: 0x16E2AD0 Offset: 0x16E10D0 VA: 0x1816E2AD0
+	// RVA: 0x16E2D90 Offset: 0x16E1390 VA: 0x1816E2D90
 	public string GetMonthName(int month) { }
 
-	// RVA: 0x16E2850 Offset: 0x16E0E50 VA: 0x1816E2850
+	// RVA: 0x16E2B10 Offset: 0x16E1110 VA: 0x1816E2B10
 	private static string[] GetMergedPatterns(string[] patterns, string defaultPattern) { }
 
-	// RVA: 0x16E4FD0 Offset: 0x16E35D0 VA: 0x1816E4FD0
+	// RVA: 0x16E5290 Offset: 0x16E3890 VA: 0x1816E5290
 	private string[] get_AllYearMonthPatterns() { }
 
-	// RVA: 0x16E4E30 Offset: 0x16E3430 VA: 0x1816E4E30
+	// RVA: 0x16E50F0 Offset: 0x16E36F0 VA: 0x1816E50F0
 	private string[] get_AllShortDatePatterns() { }
 
-	// RVA: 0x16E4F10 Offset: 0x16E3510 VA: 0x1816E4F10
+	// RVA: 0x16E51D0 Offset: 0x16E37D0 VA: 0x1816E51D0
 	private string[] get_AllShortTimePatterns() { }
 
-	// RVA: 0x16E4C90 Offset: 0x16E3290 VA: 0x1816E4C90
+	// RVA: 0x16E4F50 Offset: 0x16E3550 VA: 0x1816E4F50
 	private string[] get_AllLongDatePatterns() { }
 
-	// RVA: 0x16E4D70 Offset: 0x16E3370 VA: 0x1816E4D70
+	// RVA: 0x16E5030 Offset: 0x16E3630 VA: 0x1816E5030
 	private string[] get_AllLongTimePatterns() { }
 
-	// RVA: 0x16E69F0 Offset: 0x16E4FF0 VA: 0x1816E69F0
+	// RVA: 0x16E6CB0 Offset: 0x16E52B0 VA: 0x1816E6CB0
 	private string[] get_UnclonedYearMonthPatterns() { }
 
-	// RVA: 0x16E6930 Offset: 0x16E4F30 VA: 0x1816E6930
+	// RVA: 0x16E6BF0 Offset: 0x16E51F0 VA: 0x1816E6BF0
 	private string[] get_UnclonedShortDatePatterns() { }
 
-	// RVA: 0x16E6870 Offset: 0x16E4E70 VA: 0x1816E6870
+	// RVA: 0x16E6B30 Offset: 0x16E5130 VA: 0x1816E6B30
 	private string[] get_UnclonedLongDatePatterns() { }
 
-	// RVA: 0x16E69A0 Offset: 0x16E4FA0 VA: 0x1816E69A0
+	// RVA: 0x16E6C60 Offset: 0x16E5260 VA: 0x1816E6C60
 	private string[] get_UnclonedShortTimePatterns() { }
 
-	// RVA: 0x16E68E0 Offset: 0x16E4EE0 VA: 0x1816E68E0
+	// RVA: 0x16E6BA0 Offset: 0x16E51A0 VA: 0x1816E6BA0
 	private string[] get_UnclonedLongTimePatterns() { }
 
-	// RVA: 0x16E63A0 Offset: 0x16E49A0 VA: 0x1816E63A0
+	// RVA: 0x16E6660 Offset: 0x16E4C60 VA: 0x1816E6660
 	public bool get_IsReadOnly() { }
 
-	// RVA: 0x16E6560 Offset: 0x16E4B60 VA: 0x1816E6560
+	// RVA: 0x16E6820 Offset: 0x16E4E20 VA: 0x1816E6820
 	public string[] get_MonthGenitiveNames() { }
 
-	// RVA: 0x16E5E50 Offset: 0x16E4450 VA: 0x1816E5E50
+	// RVA: 0x16E6110 Offset: 0x16E4710 VA: 0x1816E6110
 	internal string get_FullTimeSpanPositivePattern() { }
 
-	// RVA: 0x16E5D30 Offset: 0x16E4330 VA: 0x1816E5D30
+	// RVA: 0x16E5FF0 Offset: 0x16E45F0 VA: 0x1816E5FF0
 	internal string get_FullTimeSpanNegativePattern() { }
 
-	// RVA: 0x16E50B0 Offset: 0x16E36B0 VA: 0x1816E50B0
+	// RVA: 0x16E5370 Offset: 0x16E3970 VA: 0x1816E5370
 	internal CompareInfo get_CompareInfo() { }
 
-	// RVA: 0x16E46A0 Offset: 0x16E2CA0 VA: 0x1816E46A0
+	// RVA: 0x16E4960 Offset: 0x16E2F60 VA: 0x1816E4960
 	internal static void ValidateStyles(DateTimeStyles style, string parameterName) { }
 
-	// RVA: 0x16E5730 Offset: 0x16E3D30 VA: 0x1816E5730
+	// RVA: 0x16E59F0 Offset: 0x16E3FF0 VA: 0x1816E59F0
 	internal DateTimeFormatFlags get_FormatFlags() { }
 
-	// RVA: 0x16E60D0 Offset: 0x16E46D0 VA: 0x1816E60D0
+	// RVA: 0x16E6390 Offset: 0x16E4990 VA: 0x1816E6390
 	internal bool get_HasForceTwoDigitYears() { }
 
-	// RVA: 0x16E6150 Offset: 0x16E4750 VA: 0x1816E6150
+	// RVA: 0x16E6410 Offset: 0x16E4A10 VA: 0x1816E6410
 	internal bool get_HasYearMonthAdjustment() { }
 
-	// RVA: 0x16E47C0 Offset: 0x16E2DC0 VA: 0x1816E47C0
+	// RVA: 0x16E4A80 Offset: 0x16E3080 VA: 0x1816E4A80
 	internal bool YearMonthAdjustment(ref int year, ref int month, bool parsedMonthName) { }
 
-	// RVA: 0x16E2710 Offset: 0x16E0D10 VA: 0x1816E2710
+	// RVA: 0x16E29D0 Offset: 0x16E0FD0 VA: 0x1816E29D0
 	internal static DateTimeFormatInfo GetJapaneseCalendarDTFI() { }
 
-	// RVA: 0x16E2C30 Offset: 0x16E1230 VA: 0x1816E2C30
+	// RVA: 0x16E2EF0 Offset: 0x16E14F0 VA: 0x1816E2EF0
 	internal static DateTimeFormatInfo GetTaiwanCalendarDTFI() { }
 
-	// RVA: 0x16E01F0 Offset: 0x16DE7F0 VA: 0x1816E01F0
+	// RVA: 0x16E04B0 Offset: 0x16DEAB0 VA: 0x1816E04B0
 	private void ClearTokenHashTable() { }
 
-	// RVA: 0x16E0320 Offset: 0x16DE920 VA: 0x1816E0320
+	// RVA: 0x16E05E0 Offset: 0x16DEBE0 VA: 0x1816E05E0
 	internal TokenHashValue[] CreateTokenHashTable() { }
 
-	// RVA: 0x16E0120 Offset: 0x16DE720 VA: 0x1816E0120
+	// RVA: 0x16E03E0 Offset: 0x16DE9E0 VA: 0x1816E03E0
 	private void AddMonthNames(TokenHashValue[] temp, string monthPostfix) { }
 
-	// RVA: 0x16E4480 Offset: 0x16E2A80 VA: 0x1816E4480
+	// RVA: 0x16E4740 Offset: 0x16E2D40 VA: 0x1816E4740
 	private static bool TryParseHebrewNumber(ref __DTString str, out bool badFormat, out int number) { }
 
-	// RVA: 0x16E35E0 Offset: 0x16E1BE0 VA: 0x1816E35E0
+	// RVA: 0x16E38A0 Offset: 0x16E1EA0 VA: 0x1816E38A0
 	private static bool IsHebrewChar(char ch) { }
 
-	// RVA: 0x16E4030 Offset: 0x16E2630 VA: 0x1816E4030
+	// RVA: 0x16E42F0 Offset: 0x16E28F0 VA: 0x1816E42F0
 	internal bool Tokenize(TokenType TokenMask, out TokenType tokenType, out int tokenValue, ref __DTString str) { }
 
-	// RVA: 0x16E2FA0 Offset: 0x16E15A0 VA: 0x1816E2FA0
+	// RVA: 0x16E3260 Offset: 0x16E1860 VA: 0x1816E3260
 	private void InsertAtCurrentHashNode(TokenHashValue[] hashTable, string str, char ch, TokenType tokenType, int tokenValue, int pos, int hashcode, int hashProbe) { }
 
-	// RVA: 0x16E31F0 Offset: 0x16E17F0 VA: 0x1816E31F0
+	// RVA: 0x16E34B0 Offset: 0x16E1AB0 VA: 0x1816E34B0
 	private void InsertHash(TokenHashValue[] hashTable, string str, TokenType tokenType, int tokenValue) { }
 
-	// RVA: 0x16E48E0 Offset: 0x16E2EE0 VA: 0x1816E48E0
+	// RVA: 0x16E4BA0 Offset: 0x16E31A0 VA: 0x1816E4BA0
 	private static void .cctor() { }
 
 }
@@ -1520,52 +1520,52 @@ internal class DateTimeFormatInfoScanner // TypeDefIndex: 699
 
 	// Methods
 
-	// RVA: 0x16DFE00 Offset: 0x16DE400 VA: 0x1816DFE00
+	// RVA: 0x16E00C0 Offset: 0x16DE6C0 VA: 0x1816E00C0
 	private static Dictionary<string, string> get_KnownWords() { }
 
-	// RVA: 0x16DFCC0 Offset: 0x16DE2C0 VA: 0x1816DFCC0
+	// RVA: 0x16DFF80 Offset: 0x16DE580 VA: 0x1816DFF80
 	internal static int SkipWhiteSpacesAndNonLetter(string pattern, int currentIndex) { }
 
-	// RVA: 0x16DEB20 Offset: 0x16DD120 VA: 0x1816DEB20
+	// RVA: 0x16DEDE0 Offset: 0x16DD3E0 VA: 0x1816DEDE0
 	internal void AddDateWordOrPostfix(string formatPostfix, string str) { }
 
-	// RVA: 0x16DECF0 Offset: 0x16DD2F0 VA: 0x1816DECF0
+	// RVA: 0x16DEFB0 Offset: 0x16DD5B0 VA: 0x1816DEFB0
 	internal int AddDateWords(string pattern, int index, string formatPostfix) { }
 
-	// RVA: 0x16DFC50 Offset: 0x16DE250 VA: 0x1816DFC50
+	// RVA: 0x16DFF10 Offset: 0x16DE510 VA: 0x1816DFF10
 	internal static int ScanRepeatChar(string pattern, char ch, int index, out int count) { }
 
-	// RVA: 0x16DEF20 Offset: 0x16DD520 VA: 0x1816DEF20
+	// RVA: 0x16DF1E0 Offset: 0x16DD7E0 VA: 0x1816DF1E0
 	internal void AddIgnorableSymbols(string text) { }
 
-	// RVA: 0x16DFA10 Offset: 0x16DE010 VA: 0x1816DFA10
+	// RVA: 0x16DFCD0 Offset: 0x16DE2D0 VA: 0x1816DFCD0
 	internal void ScanDateWord(string pattern) { }
 
-	// RVA: 0x16DF430 Offset: 0x16DDA30 VA: 0x1816DF430
+	// RVA: 0x16DF6F0 Offset: 0x16DDCF0 VA: 0x1816DF6F0
 	internal string[] GetDateWordsOfDTFI(DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x16DF7B0 Offset: 0x16DDDB0 VA: 0x1816DF7B0
+	// RVA: 0x16DFA70 Offset: 0x16DE070 VA: 0x1816DFA70
 	internal static FORMATFLAGS GetFormatFlagGenitiveMonth(string[] monthNames, string[] genitveMonthNames, string[] abbrevMonthNames, string[] genetiveAbbrevMonthNames) { }
 
-	// RVA: 0x16DF950 Offset: 0x16DDF50 VA: 0x1816DF950
+	// RVA: 0x16DFC10 Offset: 0x16DE210 VA: 0x1816DFC10
 	internal static FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(string[] monthNames, string[] genitveMonthNames, string[] abbrevMonthNames, string[] genetiveAbbrevMonthNames) { }
 
-	// RVA: 0x16DF910 Offset: 0x16DDF10 VA: 0x1816DF910
+	// RVA: 0x16DFBD0 Offset: 0x16DE1D0 VA: 0x1816DFBD0
 	internal static FORMATFLAGS GetFormatFlagUseSpaceInDayNames(string[] dayNames, string[] abbrevDayNames) { }
 
-	// RVA: 0x16DF900 Offset: 0x16DDF00 VA: 0x1816DF900
+	// RVA: 0x16DFBC0 Offset: 0x16DE1C0 VA: 0x1816DFBC0
 	internal static FORMATFLAGS GetFormatFlagUseHebrewCalendar(int calID) { }
 
-	// RVA: 0x16DF370 Offset: 0x16DD970 VA: 0x1816DF370
+	// RVA: 0x16DF630 Offset: 0x16DDC30 VA: 0x1816DF630
 	private static bool EqualStringArrays(string[] array1, string[] array2) { }
 
-	// RVA: 0x16DF290 Offset: 0x16DD890 VA: 0x1816DF290
+	// RVA: 0x16DF550 Offset: 0x16DDB50 VA: 0x1816DF550
 	private static bool ArrayElementsHaveSpace(string[] array) { }
 
-	// RVA: 0x16DEFF0 Offset: 0x16DD5F0 VA: 0x1816DEFF0
+	// RVA: 0x16DF2B0 Offset: 0x16DD8B0 VA: 0x1816DF2B0
 	private static bool ArrayElementsBeginWithDigit(string[] array) { }
 
-	// RVA: 0x16DFD90 Offset: 0x16DE390 VA: 0x1816DFD90
+	// RVA: 0x16E0050 Offset: 0x16DE650 VA: 0x1816E0050
 	public void .ctor() { }
 
 }
@@ -1606,7 +1606,7 @@ public sealed class DateTimeConstantAttribute : CustomConstantAttribute // TypeD
 
 	// Methods
 
-	// RVA: 0xFE5CA0 Offset: 0xFE42A0 VA: 0x180FE5CA0 Slot: 7
+	// RVA: 0xFE5F60 Offset: 0xFE4560 VA: 0x180FE5F60 Slot: 7
 	public override object get_Value() { }
 
 }
@@ -1614,13 +1614,13 @@ public sealed class DateTimeConstantAttribute : CustomConstantAttribute // TypeD
 internal sealed class DateTimeTypeInfo : TraceLoggingTypeInfo<DateTime> // TypeDefIndex: 1571
 {	// Methods
 
-	// RVA: 0xD69450 Offset: 0xD67A50 VA: 0x180D69450 Slot: 4
+	// RVA: 0xD69710 Offset: 0xD67D10 VA: 0x180D69710 Slot: 4
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 
-	// RVA: 0xD69400 Offset: 0xD67A00 VA: 0x180D69400 Slot: 7
+	// RVA: 0xD696C0 Offset: 0xD67CC0 VA: 0x180D696C0 Slot: 7
 	public override void WriteData(TraceLoggingDataCollector collector, ref DateTime value) { }
 
-	// RVA: 0xD694E0 Offset: 0xD67AE0 VA: 0x180D694E0
+	// RVA: 0xD697A0 Offset: 0xD67DA0 VA: 0x180D697A0
 	public void .ctor() { }
 
 }
@@ -1628,13 +1628,13 @@ internal sealed class DateTimeTypeInfo : TraceLoggingTypeInfo<DateTime> // TypeD
 internal sealed class DateTimeOffsetTypeInfo : TraceLoggingTypeInfo<DateTimeOffset> // TypeDefIndex: 1572
 {	// Methods
 
-	// RVA: 0xD69300 Offset: 0xD67900 VA: 0x180D69300 Slot: 4
+	// RVA: 0xD695C0 Offset: 0xD67BC0 VA: 0x180D695C0 Slot: 4
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 
-	// RVA: 0xD69280 Offset: 0xD67880 VA: 0x180D69280 Slot: 7
+	// RVA: 0xD69540 Offset: 0xD67B40 VA: 0x180D69540 Slot: 7
 	public override void WriteData(TraceLoggingDataCollector collector, ref DateTimeOffset value) { }
 
-	// RVA: 0xD693C0 Offset: 0xD679C0 VA: 0x180D693C0
+	// RVA: 0xD69680 Offset: 0xD67C80 VA: 0x180D69680
 	public void .ctor() { }
 
 }
@@ -1642,16 +1642,16 @@ internal sealed class DateTimeOffsetTypeInfo : TraceLoggingTypeInfo<DateTimeOffs
 internal class DateTimeFacetsChecker : FacetsChecker // TypeDefIndex: 2251
 {	// Methods
 
-	// RVA: 0x1516440 Offset: 0x1514A40 VA: 0x181516440 Slot: 5
+	// RVA: 0x1516700 Offset: 0x1514D00 VA: 0x181516700 Slot: 5
 	internal override Exception CheckValueFacets(object value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x1516010 Offset: 0x1514610 VA: 0x181516010 Slot: 10
+	// RVA: 0x15162D0 Offset: 0x15148D0 VA: 0x1815162D0 Slot: 10
 	internal override Exception CheckValueFacets(DateTime value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x1516600 Offset: 0x1514C00 VA: 0x181516600 Slot: 17
+	// RVA: 0x15168C0 Offset: 0x1514EC0 VA: 0x1815168C0 Slot: 17
 	internal override bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x15164C0 Offset: 0x1514AC0 VA: 0x1815164C0
+	// RVA: 0x1516780 Offset: 0x1514D80 VA: 0x181516780
 	private bool MatchEnumeration(DateTime value, ArrayList enumeration, XmlSchemaDatatype datatype) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -1669,49 +1669,49 @@ internal sealed class DateTimeOffsetStorage : DataStorage // TypeDefIndex: 4384
 
 	// Methods
 
-	// RVA: 0x1279600 Offset: 0x1277C00 VA: 0x181279600
+	// RVA: 0x12798C0 Offset: 0x1277EC0 VA: 0x1812798C0
 	internal void .ctor(DataColumn column) { }
 
-	// RVA: 0x1278500 Offset: 0x1276B00 VA: 0x181278500 Slot: 4
+	// RVA: 0x12787C0 Offset: 0x1276DC0 VA: 0x1812787C0 Slot: 4
 	public override object Aggregate(int[] records, AggregateType kind) { }
 
-	// RVA: 0x1278B90 Offset: 0x1277190 VA: 0x181278B90 Slot: 5
+	// RVA: 0x1278E50 Offset: 0x1277450 VA: 0x181278E50 Slot: 5
 	public override int Compare(int recordNo1, int recordNo2) { }
 
-	// RVA: 0x12789D0 Offset: 0x1276FD0 VA: 0x1812789D0 Slot: 6
+	// RVA: 0x1278C90 Offset: 0x1277290 VA: 0x181278C90 Slot: 6
 	public override int CompareValueTo(int recordNo, object value) { }
 
-	// RVA: 0x1278E30 Offset: 0x1277430 VA: 0x181278E30 Slot: 7
+	// RVA: 0x12790F0 Offset: 0x12776F0 VA: 0x1812790F0 Slot: 7
 	public override object ConvertValue(object value) { }
 
-	// RVA: 0x1279090 Offset: 0x1277690 VA: 0x181279090 Slot: 8
+	// RVA: 0x1279350 Offset: 0x1277950 VA: 0x181279350 Slot: 8
 	public override void Copy(int recordNo1, int recordNo2) { }
 
-	// RVA: 0x1279180 Offset: 0x1277780 VA: 0x181279180 Slot: 9
+	// RVA: 0x1279440 Offset: 0x1277A40 VA: 0x181279440 Slot: 9
 	public override object Get(int record) { }
 
-	// RVA: 0x1279450 Offset: 0x1277A50 VA: 0x181279450 Slot: 12
+	// RVA: 0x1279710 Offset: 0x1277D10 VA: 0x181279710 Slot: 12
 	public override void Set(int record, object value) { }
 
-	// RVA: 0x12792D0 Offset: 0x12778D0 VA: 0x1812792D0 Slot: 13
+	// RVA: 0x1279590 Offset: 0x1277B90 VA: 0x181279590 Slot: 13
 	public override void SetCapacity(int capacity) { }
 
-	// RVA: 0x1278EC0 Offset: 0x12774C0 VA: 0x181278EC0 Slot: 14
+	// RVA: 0x1279180 Offset: 0x1277780 VA: 0x181279180 Slot: 14
 	public override object ConvertXmlToObject(string s) { }
 
-	// RVA: 0x1278DA0 Offset: 0x12773A0 VA: 0x181278DA0 Slot: 16
+	// RVA: 0x1279060 Offset: 0x1277660 VA: 0x181279060 Slot: 16
 	public override string ConvertObjectToXml(object value) { }
 
-	// RVA: 0x1279140 Offset: 0x1277740 VA: 0x181279140 Slot: 18
+	// RVA: 0x1279400 Offset: 0x1277A00 VA: 0x181279400 Slot: 18
 	protected override object GetEmptyStorage(int recordCount) { }
 
-	// RVA: 0x1278F40 Offset: 0x1277540 VA: 0x181278F40 Slot: 19
+	// RVA: 0x1279200 Offset: 0x1277800 VA: 0x181279200 Slot: 19
 	protected override void CopyValue(int record, object store, BitArray nullbits, int storeIndex) { }
 
-	// RVA: 0x12793B0 Offset: 0x12779B0 VA: 0x1812793B0 Slot: 20
+	// RVA: 0x1279670 Offset: 0x1277C70 VA: 0x181279670 Slot: 20
 	protected override void SetStorage(object store, BitArray nullbits) { }
 
-	// RVA: 0x1279590 Offset: 0x1277B90 VA: 0x181279590
+	// RVA: 0x1279850 Offset: 0x1277E50 VA: 0x181279850
 	private static void .cctor() { }
 
 }
@@ -1723,49 +1723,49 @@ internal sealed class DateTimeStorage : DataStorage // TypeDefIndex: 4385
 
 	// Methods
 
-	// RVA: 0x127AB80 Offset: 0x1279180 VA: 0x18127AB80
+	// RVA: 0x127AE40 Offset: 0x1279440 VA: 0x18127AE40
 	internal void .ctor(DataColumn column) { }
 
-	// RVA: 0x1279710 Offset: 0x1277D10 VA: 0x181279710 Slot: 4
+	// RVA: 0x12799D0 Offset: 0x1277FD0 VA: 0x1812799D0 Slot: 4
 	public override object Aggregate(int[] records, AggregateType kind) { }
 
-	// RVA: 0x1279D40 Offset: 0x1278340 VA: 0x181279D40 Slot: 5
+	// RVA: 0x127A000 Offset: 0x1278600 VA: 0x18127A000 Slot: 5
 	public override int Compare(int recordNo1, int recordNo2) { }
 
-	// RVA: 0x1279BB0 Offset: 0x12781B0 VA: 0x181279BB0 Slot: 6
+	// RVA: 0x1279E70 Offset: 0x1278470 VA: 0x181279E70 Slot: 6
 	public override int CompareValueTo(int recordNo, object value) { }
 
-	// RVA: 0x1279FE0 Offset: 0x12785E0 VA: 0x181279FE0 Slot: 7
+	// RVA: 0x127A2A0 Offset: 0x12788A0 VA: 0x18127A2A0 Slot: 7
 	public override object ConvertValue(object value) { }
 
-	// RVA: 0x127A300 Offset: 0x1278900 VA: 0x18127A300 Slot: 8
+	// RVA: 0x127A5C0 Offset: 0x1278BC0 VA: 0x18127A5C0 Slot: 8
 	public override void Copy(int recordNo1, int recordNo2) { }
 
-	// RVA: 0x127A3E0 Offset: 0x12789E0 VA: 0x18127A3E0 Slot: 9
+	// RVA: 0x127A6A0 Offset: 0x1278CA0 VA: 0x18127A6A0 Slot: 9
 	public override object Get(int record) { }
 
-	// RVA: 0x127A830 Offset: 0x1278E30 VA: 0x18127A830 Slot: 12
+	// RVA: 0x127AAF0 Offset: 0x12790F0 VA: 0x18127AAF0 Slot: 12
 	public override void Set(int record, object value) { }
 
-	// RVA: 0x127A500 Offset: 0x1278B00 VA: 0x18127A500 Slot: 13
+	// RVA: 0x127A7C0 Offset: 0x1278DC0 VA: 0x18127A7C0 Slot: 13
 	public override void SetCapacity(int capacity) { }
 
-	// RVA: 0x127A0C0 Offset: 0x12786C0 VA: 0x18127A0C0 Slot: 14
+	// RVA: 0x127A380 Offset: 0x1278980 VA: 0x18127A380 Slot: 14
 	public override object ConvertXmlToObject(string s) { }
 
-	// RVA: 0x1279EF0 Offset: 0x12784F0 VA: 0x181279EF0 Slot: 16
+	// RVA: 0x127A1B0 Offset: 0x12787B0 VA: 0x18127A1B0 Slot: 16
 	public override string ConvertObjectToXml(object value) { }
 
-	// RVA: 0x127A3A0 Offset: 0x12789A0 VA: 0x18127A3A0 Slot: 18
+	// RVA: 0x127A660 Offset: 0x1278C60 VA: 0x18127A660 Slot: 18
 	protected override object GetEmptyStorage(int recordCount) { }
 
-	// RVA: 0x127A170 Offset: 0x1278770 VA: 0x18127A170 Slot: 19
+	// RVA: 0x127A430 Offset: 0x1278A30 VA: 0x18127A430 Slot: 19
 	protected override void CopyValue(int record, object store, BitArray nullbits, int storeIndex) { }
 
-	// RVA: 0x127A5E0 Offset: 0x1278BE0 VA: 0x18127A5E0 Slot: 20
+	// RVA: 0x127A8A0 Offset: 0x1278EA0 VA: 0x18127A8A0 Slot: 20
 	protected override void SetStorage(object store, BitArray nullbits) { }
 
-	// RVA: 0x127AB10 Offset: 0x1279110 VA: 0x18127AB10
+	// RVA: 0x127ADD0 Offset: 0x12793D0 VA: 0x18127ADD0
 	private static void .cctor() { }
 
 }
@@ -1811,7 +1811,7 @@ internal struct DateTimeParser // TypeDefIndex: 5916
 
 	// Methods
 
-	// RVA: 0x1802C80 Offset: 0x1801280 VA: 0x181802C80
+	// RVA: 0x1802F40 Offset: 0x1801540 VA: 0x181802F40
 	private static void .cctor() { }
 
 	// RVA: 0x211360 Offset: 0x210760 VA: 0x180211360
@@ -1848,104 +1848,104 @@ internal static class DateTimeUtils // TypeDefIndex: 5949
 
 	// Methods
 
-	// RVA: 0x1806470 Offset: 0x1804A70 VA: 0x181806470
+	// RVA: 0x1806730 Offset: 0x1804D30 VA: 0x181806730
 	private static void .cctor() { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1803750 Offset: 0x1801D50 VA: 0x181803750
+	// RVA: 0x1803A10 Offset: 0x1802010 VA: 0x181803A10
 	public static TimeSpan GetUtcOffset(DateTime d) { }
 
-	// RVA: 0x18037C0 Offset: 0x1801DC0 VA: 0x1818037C0
+	// RVA: 0x1803A80 Offset: 0x1802080 VA: 0x181803A80
 	public static XmlDateTimeSerializationMode ToSerializationMode(DateTimeKind kind) { }
 
-	// RVA: 0x1803390 Offset: 0x1801990 VA: 0x181803390
+	// RVA: 0x1803650 Offset: 0x1801C50 VA: 0x181803650
 	internal static DateTime EnsureDateTime(DateTime value, DateTimeZoneHandling timeZone) { }
 
-	// RVA: 0xE5C940 Offset: 0xE5AF40 VA: 0x180E5C940
+	// RVA: 0xE5CC00 Offset: 0xE5B200 VA: 0x180E5CC00
 	private static DateTime SwitchToLocalTime(DateTime value) { }
 
-	// RVA: 0xE5C9B0 Offset: 0xE5AFB0 VA: 0x180E5C9B0
+	// RVA: 0xE5CC70 Offset: 0xE5B270 VA: 0x180E5CC70
 	private static DateTime SwitchToUtcTime(DateTime value) { }
 
-	// RVA: 0x1803970 Offset: 0x1801F70 VA: 0x181803970
+	// RVA: 0x1803C30 Offset: 0x1802230 VA: 0x181803C30
 	private static long ToUniversalTicks(DateTime dateTime) { }
 
-	// RVA: 0x1803850 Offset: 0x1801E50 VA: 0x181803850
+	// RVA: 0x1803B10 Offset: 0x1802110 VA: 0x181803B10
 	private static long ToUniversalTicks(DateTime dateTime, TimeSpan offset) { }
 
-	// RVA: 0x1802EB0 Offset: 0x18014B0 VA: 0x181802EB0
+	// RVA: 0x1803170 Offset: 0x1801770 VA: 0x181803170
 	internal static long ConvertDateTimeToJavaScriptTicks(DateTime dateTime, TimeSpan offset) { }
 
-	// RVA: 0x1802F20 Offset: 0x1801520 VA: 0x181802F20
+	// RVA: 0x18031E0 Offset: 0x18017E0 VA: 0x1818031E0
 	internal static long ConvertDateTimeToJavaScriptTicks(DateTime dateTime) { }
 
-	// RVA: 0x1803060 Offset: 0x1801660 VA: 0x181803060
+	// RVA: 0x1803320 Offset: 0x1801920 VA: 0x181803320
 	internal static long ConvertDateTimeToJavaScriptTicks(DateTime dateTime, bool convertToUtc) { }
 
-	// RVA: 0x18055A0 Offset: 0x1803BA0 VA: 0x1818055A0
+	// RVA: 0x1805860 Offset: 0x1803E60 VA: 0x181805860
 	private static long UniversialTicksToJavaScriptTicks(long universialTicks) { }
 
-	// RVA: 0x1803180 Offset: 0x1801780 VA: 0x181803180
+	// RVA: 0x1803440 Offset: 0x1801A40 VA: 0x181803440
 	internal static DateTime ConvertJavaScriptTicksToDateTime(long javaScriptTicks) { }
 
-	// RVA: 0x1803AF0 Offset: 0x18020F0 VA: 0x181803AF0
+	// RVA: 0x1803DB0 Offset: 0x18023B0 VA: 0x181803DB0
 	internal static bool TryParseDateTimeIso(StringReference text, DateTimeZoneHandling dateTimeZoneHandling, out DateTime dt) { }
 
-	// RVA: 0x1804170 Offset: 0x1802770 VA: 0x181804170
+	// RVA: 0x1804430 Offset: 0x1802A30 VA: 0x181804430
 	internal static bool TryParseDateTimeOffsetIso(StringReference text, out DateTimeOffset dt) { }
 
-	// RVA: 0x1803290 Offset: 0x1801890 VA: 0x181803290
+	// RVA: 0x1803550 Offset: 0x1801B50 VA: 0x181803550
 	private static DateTime CreateDateTime(DateTimeParser dateTimeParser) { }
 
-	// RVA: 0x1804D60 Offset: 0x1803360 VA: 0x181804D60
+	// RVA: 0x1805020 Offset: 0x1803620 VA: 0x181805020
 	internal static bool TryParseDateTime(StringReference s, DateTimeZoneHandling dateTimeZoneHandling, string dateFormatString, CultureInfo culture, out DateTime dt) { }
 
-	// RVA: 0x1804AA0 Offset: 0x18030A0 VA: 0x181804AA0
+	// RVA: 0x1804D60 Offset: 0x1803360 VA: 0x181804D60
 	internal static bool TryParseDateTime(string s, DateTimeZoneHandling dateTimeZoneHandling, string dateFormatString, CultureInfo culture, out DateTime dt) { }
 
-	// RVA: 0x1804480 Offset: 0x1802A80 VA: 0x181804480
+	// RVA: 0x1804740 Offset: 0x1802D40 VA: 0x181804740
 	internal static bool TryParseDateTimeOffset(StringReference s, string dateFormatString, CultureInfo culture, out DateTimeOffset dt) { }
 
-	// RVA: 0x18047C0 Offset: 0x1802DC0 VA: 0x1818047C0
+	// RVA: 0x1804A80 Offset: 0x1803080 VA: 0x181804A80
 	internal static bool TryParseDateTimeOffset(string s, string dateFormatString, CultureInfo culture, out DateTimeOffset dt) { }
 
-	// RVA: 0x18050C0 Offset: 0x18036C0 VA: 0x1818050C0
+	// RVA: 0x1805380 Offset: 0x1803980 VA: 0x181805380
 	private static bool TryParseMicrosoftDate(StringReference text, out long ticks, out TimeSpan offset, out DateTimeKind kind) { }
 
-	// RVA: 0x1803F40 Offset: 0x1802540 VA: 0x181803F40
+	// RVA: 0x1804200 Offset: 0x1802800 VA: 0x181804200
 	private static bool TryParseDateTimeMicrosoft(StringReference text, DateTimeZoneHandling dateTimeZoneHandling, out DateTime dt) { }
 
-	// RVA: 0x1803A00 Offset: 0x1802000 VA: 0x181803A00
+	// RVA: 0x1803CC0 Offset: 0x18022C0 VA: 0x181803CC0
 	private static bool TryParseDateTimeExact(string text, DateTimeZoneHandling dateTimeZoneHandling, string dateFormatString, CultureInfo culture, out DateTime dt) { }
 
-	// RVA: 0x1804320 Offset: 0x1802920 VA: 0x181804320
+	// RVA: 0x18045E0 Offset: 0x1802BE0 VA: 0x1818045E0
 	private static bool TryParseDateTimeOffsetMicrosoft(StringReference text, out DateTimeOffset dt) { }
 
-	// RVA: 0x18040B0 Offset: 0x18026B0 VA: 0x1818040B0
+	// RVA: 0x1804370 Offset: 0x1802970 VA: 0x181804370
 	private static bool TryParseDateTimeOffsetExact(string text, string dateFormatString, CultureInfo culture, out DateTimeOffset dt) { }
 
-	// RVA: 0x1805410 Offset: 0x1803A10 VA: 0x181805410
+	// RVA: 0x18056D0 Offset: 0x1803CD0 VA: 0x1818056D0
 	private static bool TryReadOffset(StringReference offsetText, int startIndex, out TimeSpan offset) { }
 
-	// RVA: 0x18059D0 Offset: 0x1803FD0 VA: 0x1818059D0
+	// RVA: 0x1805C90 Offset: 0x1804290 VA: 0x181805C90
 	internal static void WriteDateTimeString(TextWriter writer, DateTime value, DateFormatHandling format, string formatString, CultureInfo culture) { }
 
-	// RVA: 0x1805B40 Offset: 0x1804140 VA: 0x181805B40
+	// RVA: 0x1805E00 Offset: 0x1804400 VA: 0x181805E00
 	internal static int WriteDateTimeString(char[] chars, int start, DateTime value, Nullable<TimeSpan> offset, DateTimeKind kind, DateFormatHandling format) { }
 
-	// RVA: 0x1805F10 Offset: 0x1804510 VA: 0x181805F10
+	// RVA: 0x18061D0 Offset: 0x18047D0 VA: 0x1818061D0
 	internal static int WriteDefaultIsoDate(char[] chars, int start, DateTime dt) { }
 
-	// RVA: 0x1803210 Offset: 0x1801810 VA: 0x181803210
+	// RVA: 0x18034D0 Offset: 0x1801AD0 VA: 0x1818034D0
 	private static void CopyIntToCharArray(char[] chars, int start, int value, int digits) { }
 
-	// RVA: 0x18057A0 Offset: 0x1803DA0 VA: 0x1818057A0
+	// RVA: 0x1805A60 Offset: 0x1804060 VA: 0x181805A60
 	internal static int WriteDateTimeOffset(char[] chars, int start, TimeSpan offset, DateFormatHandling format) { }
 
-	// RVA: 0x1805620 Offset: 0x1803C20 VA: 0x181805620
+	// RVA: 0x18058E0 Offset: 0x1803EE0 VA: 0x1818058E0
 	internal static void WriteDateTimeOffsetString(TextWriter writer, DateTimeOffset value, DateFormatHandling format, string formatString, CultureInfo culture) { }
 
-	// RVA: 0x1803560 Offset: 0x1801B60 VA: 0x181803560
+	// RVA: 0x1803820 Offset: 0x1801E20 VA: 0x181803820
 	private static void GetDateValues(DateTime td, out int year, out int month, out int day) { }
 
 }
@@ -1953,7 +1953,7 @@ internal static class DateTimeUtils // TypeDefIndex: 5949
 public abstract class DateTimeConverterBase : JsonConverter // TypeDefIndex: 6101
 {	// Methods
 
-	// RVA: 0xF88730 Offset: 0xF86D30 VA: 0x180F88730 Slot: 6
+	// RVA: 0xF889F0 Offset: 0xF86FF0 VA: 0x180F889F0 Slot: 6
 	public override bool CanConvert(Type objectType) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

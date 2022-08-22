@@ -22,7 +22,7 @@ public abstract class TaskScheduler // TypeDefIndex: 886
 	// RVA: -1 Offset: -1 Slot: 5
 	protected abstract bool TryExecuteTaskInline(Task task, bool taskWasPreviouslyQueued);
 
-	// RVA: 0x1609840 Offset: 0x1607E40 VA: 0x181609840
+	// RVA: 0x1609B00 Offset: 0x1608100 VA: 0x181609B00
 	internal bool TryRunInline(Task task, bool taskWasPreviouslyQueued) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 6
@@ -34,31 +34,31 @@ public abstract class TaskScheduler // TypeDefIndex: 886
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 8
 	internal virtual bool get_RequiresAtomicStartTransition() { }
 
-	// RVA: 0x16096C0 Offset: 0x1607CC0 VA: 0x1816096C0
+	// RVA: 0x1609980 Offset: 0x1607F80 VA: 0x181609980
 	internal void InternalQueueTask(Task task) { }
 
-	// RVA: 0x1609AF0 Offset: 0x16080F0 VA: 0x181609AF0
+	// RVA: 0x1609DB0 Offset: 0x16083B0 VA: 0x181609DB0
 	protected void .ctor() { }
 
-	// RVA: 0x16095D0 Offset: 0x1607BD0 VA: 0x1816095D0
+	// RVA: 0x1609890 Offset: 0x1607E90 VA: 0x181609890
 	private void AddToActiveTaskSchedulers() { }
 
-	// RVA: 0x1609D00 Offset: 0x1608300 VA: 0x181609D00
+	// RVA: 0x1609FC0 Offset: 0x16085C0 VA: 0x181609FC0
 	public static TaskScheduler get_Default() { }
 
-	// RVA: 0x1609C30 Offset: 0x1608230 VA: 0x181609C30
+	// RVA: 0x1609EF0 Offset: 0x16084F0 VA: 0x181609EF0
 	public static TaskScheduler get_Current() { }
 
-	// RVA: 0x1609E10 Offset: 0x1608410 VA: 0x181609E10
+	// RVA: 0x160A0D0 Offset: 0x16086D0 VA: 0x18160A0D0
 	internal static TaskScheduler get_InternalCurrent() { }
 
-	// RVA: 0x1609D60 Offset: 0x1608360 VA: 0x181609D60
+	// RVA: 0x160A020 Offset: 0x1608620 VA: 0x18160A020
 	public int get_Id() { }
 
-	// RVA: 0x16096F0 Offset: 0x1607CF0 VA: 0x1816096F0
+	// RVA: 0x16099B0 Offset: 0x1607FB0 VA: 0x1816099B0
 	internal static void PublishUnobservedTaskException(object sender, UnobservedTaskExceptionEventArgs ueea) { }
 
-	// RVA: 0x1609A50 Offset: 0x1608050 VA: 0x181609A50
+	// RVA: 0x1609D10 Offset: 0x1608310 VA: 0x181609D10
 	private static void .cctor() { }
 
 }

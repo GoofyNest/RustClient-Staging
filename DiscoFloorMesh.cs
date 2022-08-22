@@ -20,40 +20,40 @@ public class DiscoFloorMesh : MonoBehaviour, IClientComponent // TypeDefIndex: 9
 
 	// Methods
 
-	// RVA: 0x987A00 Offset: 0x986000 VA: 0x180987A00
+	// RVA: 0x987B10 Offset: 0x986110 VA: 0x180987B10
 	public void BuildMesh() { }
 
-	// RVA: 0x988280 Offset: 0x986880 VA: 0x180988280
+	// RVA: 0x988390 Offset: 0x986990 VA: 0x180988390
 	public int get_NumTiles() { }
 
-	// RVA: 0x987A00 Offset: 0x986000 VA: 0x180987A00
+	// RVA: 0x987B10 Offset: 0x986110 VA: 0x180987B10
 	private void SetupRuntimeMesh() { }
 
-	// RVA: 0x987940 Offset: 0x985F40 VA: 0x180987940
+	// RVA: 0x987A50 Offset: 0x986050 VA: 0x180987A50
 	public void ApplyColourGradient(Gradient gradient, float offset, DiscoFloorMesh.PatternType pattern, DiscoFloorColourLookups lookups) { }
 
-	// RVA: 0x987730 Offset: 0x985D30 VA: 0x180987730
+	// RVA: 0x987840 Offset: 0x985E40 VA: 0x180987840
 	private void ApplyColourGradient(Gradient gradient, float offset, float[] colourLookup) { }
 
-	// RVA: 0x987FB0 Offset: 0x9865B0 VA: 0x180987FB0
+	// RVA: 0x9880C0 Offset: 0x9866C0 VA: 0x1809880C0
 	public void SetColour(Color c) { }
 
-	// RVA: 0x987D30 Offset: 0x986330 VA: 0x180987D30
+	// RVA: 0x987E40 Offset: 0x986440 VA: 0x180987E40
 	public Color SampleColor(DiscoFloorMesh.Corner corner) { }
 
-	// RVA: 0x987BF0 Offset: 0x9861F0 VA: 0x180987BF0
+	// RVA: 0x987D00 Offset: 0x986300 VA: 0x180987D00
 	private Color SampleColor(int index1, int index2, int index3) { }
 
-	// RVA: 0x987AD0 Offset: 0x9860D0 VA: 0x180987AD0
+	// RVA: 0x987BE0 Offset: 0x9861E0 VA: 0x180987BE0
 	private void GetCornerTileIndexes(DiscoFloorMesh.Corner corner, out int index1, out int index2, out int index3) { }
 
-	// RVA: 0x9880A0 Offset: 0x9866A0 VA: 0x1809880A0
+	// RVA: 0x9881B0 Offset: 0x9867B0 VA: 0x1809881B0
 	public void ToggleEmission(bool state) { }
 
-	// RVA: 0x9881D0 Offset: 0x9867D0 VA: 0x1809881D0
+	// RVA: 0x9882E0 Offset: 0x9868E0 VA: 0x1809882E0
 	public void .ctor() { }
 
-	// RVA: 0x988180 Offset: 0x986780 VA: 0x180988180
+	// RVA: 0x988290 Offset: 0x986890 VA: 0x180988290
 	private static void .cctor() { }
 
 }

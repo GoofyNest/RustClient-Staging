@@ -12,51 +12,51 @@ public class ParticleSpawn : SingletonComponent<ParticleSpawn>, IClientComponent
 
 	// Methods
 
-	// RVA: 0x85D7A0 Offset: 0x85BDA0 VA: 0x18085D7A0
+	// RVA: 0x85D8B0 Offset: 0x85BEB0 VA: 0x18085D8B0
 	public static float Distance(Vector3 pos) { }
 
-	// RVA: 0x85DC80 Offset: 0x85C280 VA: 0x18085DC80
+	// RVA: 0x85DD90 Offset: 0x85C390 VA: 0x18085DD90
 	public static void RefreshAll(bool force = False) { }
 
-	// RVA: 0x85DED0 Offset: 0x85C4D0 VA: 0x18085DED0
+	// RVA: 0x85DFE0 Offset: 0x85C5E0 VA: 0x18085DFE0
 	public static void RemoveAll(bool force = False) { }
 
-	// RVA: 0x85D8E0 Offset: 0x85BEE0 VA: 0x18085D8E0
+	// RVA: 0x85D9F0 Offset: 0x85BFF0 VA: 0x18085D9F0
 	public void Remove(bool force = False) { }
 
-	// RVA: 0x85DD30 Offset: 0x85C330 VA: 0x18085DD30
+	// RVA: 0x85DE40 Offset: 0x85C440 VA: 0x18085DE40
 	public void Refresh(bool force = False) { }
 
 	[ContextMenu] // RVA: 0xCB540 Offset: 0xCA940 VA: 0x1800CB540
-	// RVA: 0x85DBB0 Offset: 0x85C1B0 VA: 0x18085DBB0
+	// RVA: 0x85DCC0 Offset: 0x85C2C0 VA: 0x18085DCC0
 	private void RefreshAll_ContextMenu() { }
 
 	[ContextMenu] // RVA: 0xCB700 Offset: 0xCAB00 VA: 0x1800CB700
-	// RVA: 0x85DD00 Offset: 0x85C300 VA: 0x18085DD00
+	// RVA: 0x85DE10 Offset: 0x85C410 VA: 0x18085DE10
 	private void Refresh_ContextMenu() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0440 Offset: 0x7CEA40 VA: 0x1807D0440
+	// RVA: 0x7D0550 Offset: 0x7CEB50 VA: 0x1807D0550
 	public Vector3 get_Origin() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC600 Offset: 0x4BAC00 VA: 0x1804BC600
 	private void set_Origin(Vector3 value) { }
 
-	// RVA: 0x85D720 Offset: 0x85BD20 VA: 0x18085D720 Slot: 6
+	// RVA: 0x85D830 Offset: 0x85BE30 VA: 0x18085D830 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x85DA70 Offset: 0x85C070 VA: 0x18085DA70
+	// RVA: 0x85DB80 Offset: 0x85C180 VA: 0x18085DB80
 	private void InitPatches() { }
 
-	// RVA: 0x85D8E0 Offset: 0x85BEE0 VA: 0x18085D8E0
+	// RVA: 0x85D9F0 Offset: 0x85BFF0 VA: 0x18085D9F0
 	private void FreePatches() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xCCD80 Offset: 0xCC180 VA: 0x1800CCD80
-	// RVA: 0x85DF50 Offset: 0x85C550 VA: 0x18085DF50
+	// RVA: 0x85E060 Offset: 0x85C660 VA: 0x18085E060
 	private IEnumerator UpdateCoroutine() { }
 
-	// RVA: 0x85DFC0 Offset: 0x85C5C0 VA: 0x18085DFC0
+	// RVA: 0x85E0D0 Offset: 0x85C6D0 VA: 0x18085E0D0
 	public void .ctor() { }
 
 }
@@ -81,7 +81,7 @@ private sealed class ParticleSpawn.<UpdateCoroutine>d__18 : IEnumerator<object>,
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x875FD0 Offset: 0x8745D0 VA: 0x180875FD0 Slot: 6
+	// RVA: 0x8760E0 Offset: 0x8746E0 VA: 0x1808760E0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -89,7 +89,7 @@ private sealed class ParticleSpawn.<UpdateCoroutine>d__18 : IEnumerator<object>,
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8763F0 Offset: 0x8749F0 VA: 0x1808763F0 Slot: 8
+	// RVA: 0x876500 Offset: 0x874B00 VA: 0x180876500 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

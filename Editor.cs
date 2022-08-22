@@ -27,7 +27,7 @@ public struct Editor // TypeDefIndex: 5274
 	// RVA: 0x223F30 Offset: 0x223330 VA: 0x180223F30
 	public void .ctor(PublishedFileId fileId) { }
 
-	// RVA: 0x19D57F0 Offset: 0x19D3DF0 VA: 0x1819D57F0
+	// RVA: 0x19D5AB0 Offset: 0x19D40B0 VA: 0x1819D5AB0
 	public static Editor get_NewMicrotransactionFile() { }
 
 	// RVA: 0x223E90 Offset: 0x223290 VA: 0x180223E90
@@ -84,7 +84,7 @@ private struct Editor.<SubmitAsync>d__40 : IAsyncStateMachine // TypeDefIndex: 5
 public class Editor : ConsoleSystem // TypeDefIndex: 11909
 {	// Methods
 
-	// RVA: 0x6DBD10 Offset: 0x6DA310 VA: 0x1806DBD10
+	// RVA: 0x6DBE20 Offset: 0x6DA420 VA: 0x1806DBE20
 	public void .ctor() { }
 
 }

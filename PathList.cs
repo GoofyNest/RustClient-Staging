@@ -10,45 +10,45 @@ internal class PathList // TypeDefIndex: 2945
 
 	// Methods
 
-	// RVA: 0x1348BB0 Offset: 0x13471B0 VA: 0x181348BB0
+	// RVA: 0x1348E70 Offset: 0x1347470 VA: 0x181348E70
 	public void .ctor() { }
 
-	// RVA: 0x1348C80 Offset: 0x1347280 VA: 0x181348C80
+	// RVA: 0x1348F40 Offset: 0x1347540 VA: 0x181348F40
 	public int get_Count() { }
 
-	// RVA: 0x13488F0 Offset: 0x1346EF0 VA: 0x1813488F0
+	// RVA: 0x1348BB0 Offset: 0x13471B0 VA: 0x181348BB0
 	public int GetCookiesCount() { }
 
-	// RVA: 0x1348D10 Offset: 0x1347310 VA: 0x181348D10
+	// RVA: 0x1348FD0 Offset: 0x13475D0 VA: 0x181348FD0
 	public ICollection get_Values() { }
 
-	// RVA: 0x1348CB0 Offset: 0x13472B0 VA: 0x181348CB0
+	// RVA: 0x1348F70 Offset: 0x1347570 VA: 0x181348F70
 	public object get_Item(string s) { }
 
-	// RVA: 0x1348D40 Offset: 0x1347340 VA: 0x181348D40
+	// RVA: 0x1349000 Offset: 0x1347600 VA: 0x181349000
 	public void set_Item(string s, object value) { }
 
-	// RVA: 0xB9EEB0 Offset: 0xB9D4B0 VA: 0x180B9EEB0
+	// RVA: 0xB9F170 Offset: 0xB9D770 VA: 0x180B9F170
 	public IEnumerator GetEnumerator() { }
 
-	// RVA: 0x1348CE0 Offset: 0x13472E0 VA: 0x181348CE0
+	// RVA: 0x1348FA0 Offset: 0x13475A0 VA: 0x181348FA0
 	public object get_SyncRoot() { }
 
 }
 
 private class PathList.PathListComparer : IComparer // TypeDefIndex: 2946
 {	// Fields
-	internal static readonly PathList.PathListComparer StaticInstance; // 0x2B10330
+	internal static readonly PathList.PathListComparer StaticInstance; // 0x2B11370
 
 	// Methods
 
-	// RVA: 0x1348720 Offset: 0x1346D20 VA: 0x181348720 Slot: 4
+	// RVA: 0x13489E0 Offset: 0x1346FE0 VA: 0x1813489E0 Slot: 4
 	private int System.Collections.IComparer.Compare(object ol, object or) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1348890 Offset: 0x1346E90 VA: 0x181348890
+	// RVA: 0x1348B50 Offset: 0x1347150 VA: 0x181348B50
 	private static void .cctor() { }
 
 }
@@ -81,70 +81,70 @@ public class PathList // TypeDefIndex: 10292
 
 	// Methods
 
-	// RVA: 0x869CA0 Offset: 0x8682A0 VA: 0x180869CA0
+	// RVA: 0x869DB0 Offset: 0x8683B0 VA: 0x180869DB0
 	public void .ctor(string name, Vector3[] points) { }
 
-	// RVA: 0x868580 Offset: 0x866B80 VA: 0x180868580
+	// RVA: 0x868690 Offset: 0x866C90 VA: 0x180868690
 	private void SpawnObjectsNeighborAligned(ref uint seed, Prefab[] prefabs, List<Vector3> positions, SpawnFilter filter) { }
 
-	// RVA: 0x867CF0 Offset: 0x8662F0 VA: 0x180867CF0
+	// RVA: 0x867E00 Offset: 0x866400 VA: 0x180867E00
 	private bool SpawnObject(ref uint seed, Prefab[] prefabs, Vector3 position, Quaternion rotation, SpawnFilter filter) { }
 
-	// RVA: 0x868380 Offset: 0x866980 VA: 0x180868380
+	// RVA: 0x868490 Offset: 0x866A90 VA: 0x180868490
 	private bool SpawnObject(ref uint seed, Prefab[] prefabs, Vector3 position, Quaternion rotation, List<Prefab> previousSpawns, out Prefab spawned, int pathLength, int index, SpawnFilter filter) { }
 
-	// RVA: 0x865A50 Offset: 0x864050 VA: 0x180865A50
+	// RVA: 0x865B60 Offset: 0x864160 VA: 0x180865B60
 	private bool CheckObjects(Prefab[] prefabs, Vector3 position, Quaternion rotation, SpawnFilter filter) { }
 
-	// RVA: 0x867E80 Offset: 0x866480 VA: 0x180867E80
+	// RVA: 0x867F90 Offset: 0x866590 VA: 0x180867F90
 	private void SpawnObject(ref uint seed, Prefab[] prefabs, Vector3 pos, Vector3 dir, PathList.BasicObject obj) { }
 
-	// RVA: 0x865550 Offset: 0x863B50 VA: 0x180865550
+	// RVA: 0x865660 Offset: 0x863C60 VA: 0x180865660
 	private bool CheckObjects(Prefab[] prefabs, Vector3 pos, Vector3 dir, PathList.BasicObject obj) { }
 
-	// RVA: 0x8688D0 Offset: 0x866ED0 VA: 0x1808688D0
+	// RVA: 0x8689E0 Offset: 0x866FE0 VA: 0x1808689E0
 	public void SpawnSide(ref uint seed, PathList.SideObject obj) { }
 
-	// RVA: 0x866DA0 Offset: 0x8653A0 VA: 0x180866DA0
+	// RVA: 0x866EB0 Offset: 0x8654B0 VA: 0x180866EB0
 	public void SpawnAlong(ref uint seed, PathList.PathObject obj) { }
 
-	// RVA: 0x867560 Offset: 0x865B60 VA: 0x180867560
+	// RVA: 0x867670 Offset: 0x865C70 VA: 0x180867670
 	public void SpawnBridge(ref uint seed, PathList.BridgeObject obj) { }
 
-	// RVA: 0x8692B0 Offset: 0x8678B0 VA: 0x1808692B0
+	// RVA: 0x8693C0 Offset: 0x8679C0 VA: 0x1808693C0
 	public void SpawnStart(ref uint seed, PathList.BasicObject obj) { }
 
-	// RVA: 0x867AD0 Offset: 0x8660D0 VA: 0x180867AD0
+	// RVA: 0x867BE0 Offset: 0x8661E0 VA: 0x180867BE0
 	public void SpawnEnd(ref uint seed, PathList.BasicObject obj) { }
 
-	// RVA: 0x869720 Offset: 0x867D20 VA: 0x180869720
+	// RVA: 0x869830 Offset: 0x867E30 VA: 0x180869830
 	public void TrimStart(PathList.BasicObject obj) { }
 
-	// RVA: 0x869470 Offset: 0x867A70 VA: 0x180869470
+	// RVA: 0x869580 Offset: 0x867B80 VA: 0x180869580
 	public void TrimEnd(PathList.BasicObject obj) { }
 
-	// RVA: 0x869940 Offset: 0x867F40 VA: 0x180869940
+	// RVA: 0x869A50 Offset: 0x868050 VA: 0x180869A50
 	public void TrimTopology(int topology) { }
 
-	// RVA: 0x866D60 Offset: 0x865360 VA: 0x180866D60
+	// RVA: 0x866E70 Offset: 0x865470 VA: 0x180866E70
 	public void ResetTrims() { }
 
-	// RVA: 0x8632D0 Offset: 0x8618D0 VA: 0x1808632D0
+	// RVA: 0x8633E0 Offset: 0x8619E0 VA: 0x1808633E0
 	public void AdjustTerrainHeight(float intensity = 1, float fade = 1) { }
 
-	// RVA: 0x864070 Offset: 0x862670 VA: 0x180864070
+	// RVA: 0x864180 Offset: 0x862780 VA: 0x180864180
 	public void AdjustTerrainTexture() { }
 
-	// RVA: 0x864AE0 Offset: 0x8630E0 VA: 0x180864AE0
+	// RVA: 0x864BF0 Offset: 0x8631F0 VA: 0x180864BF0
 	public void AdjustTerrainTopology() { }
 
-	// RVA: 0x862AB0 Offset: 0x8610B0 VA: 0x180862AB0
+	// RVA: 0x862BC0 Offset: 0x8611C0 VA: 0x180862BC0
 	public void AdjustPlacementMap(float width) { }
 
-	// RVA: 0x865B90 Offset: 0x864190 VA: 0x180865B90
+	// RVA: 0x865CA0 Offset: 0x8642A0 VA: 0x180865CA0
 	public List<PathList.MeshObject> CreateMesh(Mesh[] meshes, float normalSmoothing, bool snapToTerrain, bool snapStartToTerrain, bool snapEndToTerrain) { }
 
-	// RVA: 0x869B40 Offset: 0x868140 VA: 0x180869B40
+	// RVA: 0x869C50 Offset: 0x868250 VA: 0x180869C50
 	private static void .cctor() { }
 
 }
@@ -188,7 +188,7 @@ public class PathList.BasicObject // TypeDefIndex: 10296
 
 	// Methods
 
-	// RVA: 0x8592F0 Offset: 0x8578F0 VA: 0x1808592F0
+	// RVA: 0x859400 Offset: 0x857A00 VA: 0x180859400
 	public void .ctor() { }
 
 }
@@ -205,7 +205,7 @@ public class PathList.SideObject // TypeDefIndex: 10297
 
 	// Methods
 
-	// RVA: 0x875390 Offset: 0x873990 VA: 0x180875390
+	// RVA: 0x8754A0 Offset: 0x873AA0 VA: 0x1808754A0
 	public void .ctor() { }
 
 }
@@ -221,7 +221,7 @@ public class PathList.PathObject // TypeDefIndex: 10298
 
 	// Methods
 
-	// RVA: 0x869D30 Offset: 0x868330 VA: 0x180869D30
+	// RVA: 0x869E40 Offset: 0x868440 VA: 0x180869E40
 	public void .ctor() { }
 
 }
@@ -233,7 +233,7 @@ public class PathList.BridgeObject // TypeDefIndex: 10299
 
 	// Methods
 
-	// RVA: 0x859300 Offset: 0x857900 VA: 0x180859300
+	// RVA: 0x859410 Offset: 0x857A10 VA: 0x180859410
 	public void .ctor() { }
 
 }
@@ -245,7 +245,7 @@ public class PathList.MeshObject // TypeDefIndex: 10300
 
 	// Methods
 
-	// RVA: 0x859310 Offset: 0x857910 VA: 0x180859310
+	// RVA: 0x859420 Offset: 0x857A20 VA: 0x180859420
 	public void .ctor(Vector3 meshPivot, MeshData[] meshData) { }
 
 }
@@ -282,7 +282,7 @@ private sealed class PathList.<>c__DisplayClass47_1 // TypeDefIndex: 10302
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x875460 Offset: 0x873A60 VA: 0x180875460
+	// RVA: 0x875570 Offset: 0x873B70 VA: 0x180875570
 	internal void <AdjustTerrainHeight>b__0(int x, int z) { }
 
 }
@@ -314,7 +314,7 @@ private sealed class PathList.<>c__DisplayClass48_1 // TypeDefIndex: 10304
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x875880 Offset: 0x873E80 VA: 0x180875880
+	// RVA: 0x875990 Offset: 0x873F90 VA: 0x180875990
 	internal void <AdjustTerrainTexture>b__0(int x, int z) { }
 
 }
@@ -346,7 +346,7 @@ private sealed class PathList.<>c__DisplayClass49_1 // TypeDefIndex: 10306
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x875B00 Offset: 0x874100 VA: 0x180875B00
+	// RVA: 0x875C10 Offset: 0x874210 VA: 0x180875C10
 	internal void <AdjustTerrainTopology>b__0(int x, int z) { }
 
 }
@@ -374,7 +374,7 @@ private sealed class PathList.<>c__DisplayClass50_1 // TypeDefIndex: 10308
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x875D80 Offset: 0x874380 VA: 0x180875D80
+	// RVA: 0x875E90 Offset: 0x874490 VA: 0x180875E90
 	internal void <AdjustPlacementMap>b__0(int x, int z) { }
 
 }

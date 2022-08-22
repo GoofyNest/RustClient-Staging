@@ -17,7 +17,7 @@ internal struct FriendsIsFollowing_t : ICallbackData // TypeDefIndex: 5322
 	// RVA: 0x1E63B0 Offset: 0x1E57B0 VA: 0x1801E63B0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370750 Offset: 0x136ED50 VA: 0x181370750
+	// RVA: 0x1370A10 Offset: 0x136F010 VA: 0x181370A10
 	private static void .cctor() { }
 
 }

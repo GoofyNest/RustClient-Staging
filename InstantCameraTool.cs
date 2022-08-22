@@ -21,44 +21,44 @@ public class InstantCameraTool : HeldEntity // TypeDefIndex: 8584
 
 	// Methods
 
-	// RVA: 0x8159D0 Offset: 0x813FD0 VA: 0x1808159D0 Slot: 35
+	// RVA: 0x815AE0 Offset: 0x8140E0 VA: 0x180815AE0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x814E20 Offset: 0x813420 VA: 0x180814E20 Slot: 135
+	// RVA: 0x814F30 Offset: 0x813530 VA: 0x180814F30 Slot: 135
 	public override void EditViewAngles() { }
 
-	// RVA: 0x8154B0 Offset: 0x813AB0 VA: 0x1808154B0 Slot: 137
+	// RVA: 0x8155C0 Offset: 0x813BC0 VA: 0x1808155C0 Slot: 137
 	public override void OnFrame() { }
 
-	// RVA: 0x8151D0 Offset: 0x8137D0 VA: 0x1808151D0
+	// RVA: 0x8152E0 Offset: 0x8138E0 VA: 0x1808152E0
 	private float GetAutofocusDistance() { }
 
-	// RVA: 0x8156F0 Offset: 0x813CF0 VA: 0x1808156F0 Slot: 138
+	// RVA: 0x815800 Offset: 0x813E00 VA: 0x180815800 Slot: 138
 	public override void OnInput() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xACB80 Offset: 0xABF80 VA: 0x1800ACB80
-	// RVA: 0x815C10 Offset: 0x814210 VA: 0x180815C10
+	// RVA: 0x815D20 Offset: 0x814320 VA: 0x180815D20
 	private IEnumerator TakePhoto() { }
 
-	// RVA: 0x815AC0 Offset: 0x8140C0 VA: 0x180815AC0
+	// RVA: 0x815BD0 Offset: 0x8141D0 VA: 0x180815BD0
 	private void RenderCallback() { }
 
-	// RVA: 0x815270 Offset: 0x813870 VA: 0x180815270
+	// RVA: 0x815380 Offset: 0x813980 VA: 0x180815380
 	private void GetScreenCallback(Texture2D texture) { }
 
-	// RVA: 0x8152F0 Offset: 0x8138F0 VA: 0x1808152F0 Slot: 146
+	// RVA: 0x815400 Offset: 0x813A00 VA: 0x180815400 Slot: 146
 	public override void ModifyCamera() { }
 
-	// RVA: 0x815060 Offset: 0x813660 VA: 0x180815060
+	// RVA: 0x815170 Offset: 0x813770 VA: 0x180815170
 	private void FadeOut() { }
 
-	// RVA: 0x815410 Offset: 0x813A10 VA: 0x180815410 Slot: 141
+	// RVA: 0x815520 Offset: 0x813B20 VA: 0x180815520 Slot: 141
 	public override void OnDeployed() { }
 
-	// RVA: 0x815650 Offset: 0x813C50 VA: 0x180815650 Slot: 143
+	// RVA: 0x815760 Offset: 0x813D60 VA: 0x180815760 Slot: 143
 	public override void OnHolstered() { }
 
-	// RVA: 0x815C80 Offset: 0x814280 VA: 0x180815C80
+	// RVA: 0x815D90 Offset: 0x814390 VA: 0x180815D90
 	public void .ctor() { }
 
 }
@@ -84,7 +84,7 @@ private sealed class InstantCameraTool.<TakePhoto>d__19 : IEnumerator<object>, I
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x820560 Offset: 0x81EB60 VA: 0x180820560 Slot: 6
+	// RVA: 0x820670 Offset: 0x81EC70 VA: 0x180820670 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -92,7 +92,7 @@ private sealed class InstantCameraTool.<TakePhoto>d__19 : IEnumerator<object>, I
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x820790 Offset: 0x81ED90 VA: 0x180820790 Slot: 8
+	// RVA: 0x8208A0 Offset: 0x81EEA0 VA: 0x1808208A0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

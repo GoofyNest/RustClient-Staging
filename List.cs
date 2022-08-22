@@ -2411,7 +2411,7 @@ public static class List // TypeDefIndex: 4843
 	public static void Compare<T, TListA, TListB>(TListA a, TListB b, List<T> added, List<T> removed, List<T> remained) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1573E20 Offset: 0x1572420 VA: 0x181573E20
+	|-RVA: 0x15740E0 Offset: 0x15726E0 VA: 0x1815740E0
 	|-List.Compare<Connection, List<Connection>, List<Connection>>
 	|-List.Compare<Group, ListHashSet<Group>, List<Group>>
 	|-List.Compare<object, object, object>
@@ -2422,11 +2422,11 @@ public static class List // TypeDefIndex: 4843
 	public static void Compare<TListA, TListB, TItemA, TItemB, TKey>(TListA a, TListB b, HashSet<TKey> added, HashSet<TKey> removed, HashSet<TKey> remained, Func<TItemA, TKey> selectorA, Func<TItemB, TKey> selectorB) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1574180 Offset: 0x1572780 VA: 0x181574180
+	|-RVA: 0x1574440 Offset: 0x1572A40 VA: 0x181574440
 	|-List.Compare<Dictionary.KeyCollection<ulong, RelationshipManager.PlayerRelationshipInfo>, List<RelationshipManager.PlayerRelationshipInfo>, ulong, RelationshipManager.PlayerRelationshipInfo, ulong>
 	|-List.Compare<object, object, ulong, object, ulong>
 	|
-	|-RVA: 0x1573820 Offset: 0x1571E20 VA: 0x181573820
+	|-RVA: 0x1573AE0 Offset: 0x15720E0 VA: 0x181573AE0
 	|-List.Compare<object, object, object, object, object>
 	*/
 
@@ -2435,15 +2435,15 @@ public static class List // TypeDefIndex: 4843
 	public static TItem FindWith<TItem, TKey>(IReadOnlyCollection<TItem> items, Func<TItem, TKey> selector, TKey search, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B92F0 Offset: 0x15B78F0 VA: 0x1815B92F0
+	|-RVA: 0x15B95B0 Offset: 0x15B7BB0 VA: 0x1815B95B0
 	|-List.FindWith<Manifest.NewsInfo.BlogInfo, string>
 	|-List.FindWith<object, object>
 	|
-	|-RVA: 0x15B9570 Offset: 0x15B7B70 VA: 0x1815B9570
+	|-RVA: 0x15B9830 Offset: 0x15B7E30 VA: 0x1815B9830
 	|-List.FindWith<MarketTerminal.PendingOrder, uint>
 	|-List.FindWith<object, uint>
 	|
-	|-RVA: 0x15B97F0 Offset: 0x15B7DF0 VA: 0x1815B97F0
+	|-RVA: 0x15B9AB0 Offset: 0x15B80B0 VA: 0x1815B9AB0
 	|-List.FindWith<PlayerTeam.TeamMember, ulong>
 	|-List.FindWith<object, ulong>
 	*/
@@ -2453,7 +2453,7 @@ public static class List // TypeDefIndex: 4843
 	public static Nullable<TItem> TryFindWith<TItem, TKey>(IReadOnlyCollection<TItem> items, Func<TItem, TKey> selector, TKey search, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED4990 Offset: 0xED2F90 VA: 0x180ED4990
+	|-RVA: 0xED4C50 Offset: 0xED3250 VA: 0x180ED4C50
 	|-List.TryFindWith<ImageStorageEntity.ImageRequest, IImageReceiver>
 	|-List.TryFindWith<ImageStorageEntity.ImageRequest, object>
 	*/
@@ -2463,7 +2463,7 @@ public static class List // TypeDefIndex: 4843
 	public static int FindIndexWith<TItem, TKey>(IReadOnlyList<TItem> items, Func<TItem, TKey> selector, TKey search) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x11791B0 Offset: 0x11777B0 VA: 0x1811791B0
+	|-RVA: 0x1179470 Offset: 0x1177A70 VA: 0x181179470
 	|-List.FindIndexWith<object, object>
 	*/
 
@@ -2472,10 +2472,10 @@ public static class List // TypeDefIndex: 4843
 	internal static void <Compare>g__InitializeWith|1_0<TListA, TListB, TItemA, TItemB, TKey>(HashSet<TKey> set, HashSet<TKey> values) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15747E0 Offset: 0x1572DE0 VA: 0x1815747E0
+	|-RVA: 0x1574AA0 Offset: 0x15730A0 VA: 0x181574AA0
 	|-List.<Compare>g__InitializeWith|1_0<object, object, object, object, object>
 	|
-	|-RVA: 0x15749D0 Offset: 0x1572FD0 VA: 0x1815749D0
+	|-RVA: 0x1574C90 Offset: 0x1573290 VA: 0x181574C90
 	|-List.<Compare>g__InitializeWith|1_0<object, object, ulong, object, ulong>
 	*/
 

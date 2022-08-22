@@ -7,13 +7,13 @@ public class RendererInfo : ComponentInfo<Renderer> // TypeDefIndex: 9170
 
 	// Methods
 
-	// RVA: 0x950AE0 Offset: 0x94F0E0 VA: 0x180950AE0 Slot: 5
+	// RVA: 0x950BF0 Offset: 0x94F1F0 VA: 0x180950BF0 Slot: 5
 	public override void Reset() { }
 
-	// RVA: 0x950C30 Offset: 0x94F230 VA: 0x180950C30 Slot: 4
+	// RVA: 0x950D40 Offset: 0x94F340 VA: 0x180950D40 Slot: 4
 	public override void Setup() { }
 
-	// RVA: 0x950D80 Offset: 0x94F380 VA: 0x180950D80
+	// RVA: 0x950E90 Offset: 0x94F490 VA: 0x180950E90
 	public void .ctor() { }
 
 }

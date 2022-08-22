@@ -11,7 +11,7 @@ internal class ValueTypeFixupInfo // TypeDefIndex: 1064
 
 	// Methods
 
-	// RVA: 0x12AA2E0 Offset: 0x12A88E0 VA: 0x1812AA2E0
+	// RVA: 0x12AA5A0 Offset: 0x12A8BA0 VA: 0x1812AA5A0
 	public void .ctor(long containerID, FieldInfo member, int[] parentIndex) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0

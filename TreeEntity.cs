@@ -35,39 +35,39 @@ public class TreeEntity : ResourceEntity, IPrefabPreProcess // TypeDefIndex: 865
 
 	// Methods
 
-	// RVA: 0xA19F80 Offset: 0xA18580 VA: 0x180A19F80 Slot: 35
+	// RVA: 0xA1A240 Offset: 0xA18840 VA: 0x180A1A240 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA1B3D0 Offset: 0xA199D0 VA: 0x180A1B3D0
+	// RVA: 0xA1B690 Offset: 0xA19C90 VA: 0x180A1B690
 	public void TreeFall(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0xA1ABC0 Offset: 0xA191C0 VA: 0x180A1ABC0
+	// RVA: 0xA1AE80 Offset: 0xA19480 VA: 0x180A1AE80
 	public void TreeFallTick() { }
 
-	// RVA: 0xA1A960 Offset: 0xA18F60 VA: 0x180A1A960 Slot: 27
+	// RVA: 0xA1AC20 Offset: 0xA19220 VA: 0x180A1AC20 Slot: 27
 	public override void ResetState() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 58
 	public override bool ShouldLerp() { }
 
-	// RVA: 0xA19B40 Offset: 0xA18140 VA: 0x180A19B40 Slot: 14
+	// RVA: 0xA19E00 Offset: 0xA18400 VA: 0x180A19E00 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xA19E50 Offset: 0xA18450 VA: 0x180A19E50 Slot: 20
+	// RVA: 0xA1A110 Offset: 0xA18710 VA: 0x180A1A110 Slot: 20
 	internal override void DoNetworkDestroy() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA19D00 Offset: 0xA18300 VA: 0x180A19D00
+	// RVA: 0xA19FC0 Offset: 0xA185C0 VA: 0x180A19FC0
 	public void CrackSound(BaseEntity.RPCMessage msg) { }
 
 	// RVA: 0x4C3900 Offset: 0x4C1F00 VA: 0x1804C3900 Slot: 113
 	public override float BoundsPadding() { }
 
-	// RVA: 0xA1A820 Offset: 0xA18E20 VA: 0x180A1A820 Slot: 84
+	// RVA: 0xA1AAE0 Offset: 0xA190E0 VA: 0x180A1AAE0 Slot: 84
 	public override void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0xA1BAE0 Offset: 0xA1A0E0 VA: 0x180A1BAE0
+	// RVA: 0xA1BDA0 Offset: 0xA1A3A0 VA: 0x180A1BDA0
 	public void .ctor() { }
 
 }

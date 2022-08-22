@@ -25,61 +25,61 @@ public struct SqlDouble : INullable, IComparable, IXmlSerializable // TypeDefInd
 	// RVA: 0x118160 Offset: 0x117560 VA: 0x180118160
 	public double get_Value() { }
 
-	// RVA: 0xCC1090 Offset: 0xCBF690 VA: 0x180CC1090
+	// RVA: 0xCC1350 Offset: 0xCBF950 VA: 0x180CC1350
 	public static SqlDouble op_Implicit(double x) { }
 
 	// RVA: 0x118110 Offset: 0x117510 VA: 0x180118110 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xCC13C0 Offset: 0xCBF9C0 VA: 0x180CC13C0
+	// RVA: 0xCC1680 Offset: 0xCBFC80 VA: 0x180CC1680
 	public static SqlDouble op_UnaryNegation(SqlDouble x) { }
 
-	// RVA: 0xCC0760 Offset: 0xCBED60 VA: 0x180CC0760
+	// RVA: 0xCC0A20 Offset: 0xCBF020 VA: 0x180CC0A20
 	public static SqlDouble op_Addition(SqlDouble x, SqlDouble y) { }
 
-	// RVA: 0xCC1290 Offset: 0xCBF890 VA: 0x180CC1290
+	// RVA: 0xCC1550 Offset: 0xCBFB50 VA: 0x180CC1550
 	public static SqlDouble op_Subtraction(SqlDouble x, SqlDouble y) { }
 
-	// RVA: 0xCC1160 Offset: 0xCBF760 VA: 0x180CC1160
+	// RVA: 0xCC1420 Offset: 0xCBFA20 VA: 0x180CC1420
 	public static SqlDouble op_Multiply(SqlDouble x, SqlDouble y) { }
 
-	// RVA: 0xCC0890 Offset: 0xCBEE90 VA: 0x180CC0890
+	// RVA: 0xCC0B50 Offset: 0xCBF150 VA: 0x180CC0B50
 	public static SqlDouble op_Division(SqlDouble x, SqlDouble y) { }
 
-	// RVA: 0xCC0C50 Offset: 0xCBF250 VA: 0x180CC0C50
+	// RVA: 0xCC0F10 Offset: 0xCBF510 VA: 0x180CC0F10
 	public static SqlDouble op_Implicit(SqlByte x) { }
 
-	// RVA: 0xCC0D00 Offset: 0xCBF300 VA: 0x180CC0D00
+	// RVA: 0xCC0FC0 Offset: 0xCBF5C0 VA: 0x180CC0FC0
 	public static SqlDouble op_Implicit(SqlInt16 x) { }
 
-	// RVA: 0xCC0B90 Offset: 0xCBF190 VA: 0x180CC0B90
+	// RVA: 0xCC0E50 Offset: 0xCBF450 VA: 0x180CC0E50
 	public static SqlDouble op_Implicit(SqlInt32 x) { }
 
-	// RVA: 0xCC0F10 Offset: 0xCBF510 VA: 0x180CC0F10
+	// RVA: 0xCC11D0 Offset: 0xCBF7D0 VA: 0x180CC11D0
 	public static SqlDouble op_Implicit(SqlInt64 x) { }
 
-	// RVA: 0xCC0FD0 Offset: 0xCBF5D0 VA: 0x180CC0FD0
+	// RVA: 0xCC1290 Offset: 0xCBF890 VA: 0x180CC1290
 	public static SqlDouble op_Implicit(SqlSingle x) { }
 
-	// RVA: 0xCC0DC0 Offset: 0xCBF3C0 VA: 0x180CC0DC0
+	// RVA: 0xCC1080 Offset: 0xCBF680 VA: 0x180CC1080
 	public static SqlDouble op_Implicit(SqlMoney x) { }
 
-	// RVA: 0xCC0E60 Offset: 0xCBF460 VA: 0x180CC0E60
+	// RVA: 0xCC1120 Offset: 0xCBF720 VA: 0x180CC1120
 	public static SqlDouble op_Implicit(SqlDecimal x) { }
 
-	// RVA: 0xCC0A10 Offset: 0xCBF010 VA: 0x180CC0A10
+	// RVA: 0xCC0CD0 Offset: 0xCBF2D0 VA: 0x180CC0CD0
 	public static SqlBoolean op_Equality(SqlDouble x, SqlDouble y) { }
 
-	// RVA: 0xCC10B0 Offset: 0xCBF6B0 VA: 0x180CC10B0
+	// RVA: 0xCC1370 Offset: 0xCBF970 VA: 0x180CC1370
 	public static SqlBoolean op_LessThan(SqlDouble x, SqlDouble y) { }
 
-	// RVA: 0xCC0AE0 Offset: 0xCBF0E0 VA: 0x180CC0AE0
+	// RVA: 0xCC0DA0 Offset: 0xCBF3A0 VA: 0x180CC0DA0
 	public static SqlBoolean op_GreaterThan(SqlDouble x, SqlDouble y) { }
 
-	// RVA: 0xCC02A0 Offset: 0xCBE8A0 VA: 0x180CC02A0
+	// RVA: 0xCC0560 Offset: 0xCBEB60 VA: 0x180CC0560
 	public static SqlBoolean LessThan(SqlDouble x, SqlDouble y) { }
 
-	// RVA: 0xCC01B0 Offset: 0xCBE7B0 VA: 0x180CC01B0
+	// RVA: 0xCC0470 Offset: 0xCBEA70 VA: 0x180CC0470
 	public static SqlBoolean GreaterThan(SqlDouble x, SqlDouble y) { }
 
 	// RVA: 0x117F90 Offset: 0x117390 VA: 0x180117F90
@@ -106,10 +106,10 @@ public struct SqlDouble : INullable, IComparable, IXmlSerializable // TypeDefInd
 	// RVA: 0x117EB0 Offset: 0x1172B0 VA: 0x180117EB0 Slot: 8
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
-	// RVA: 0xCC0150 Offset: 0xCBE750 VA: 0x180CC0150
+	// RVA: 0xCC0410 Offset: 0xCBEA10 VA: 0x180CC0410
 	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet) { }
 
-	// RVA: 0xCC0510 Offset: 0xCBEB10 VA: 0x180CC0510
+	// RVA: 0xCC07D0 Offset: 0xCBEDD0 VA: 0x180CC07D0
 	private static void .cctor() { }
 
 }

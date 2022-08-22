@@ -26,10 +26,10 @@ public class ERSOMarker // TypeDefIndex: 7236
 
 	// Methods
 
-	// RVA: 0xA59D90 Offset: 0xA58390 VA: 0x180A59D90
+	// RVA: 0xA5A050 Offset: 0xA58650 VA: 0x180A5A050
 	public void .ctor(SideObject so, bool flag) { }
 
-	// RVA: 0xA59D50 Offset: 0xA58350 VA: 0x180A59D50
+	// RVA: 0xA5A010 Offset: 0xA58610 VA: 0x180A5A010
 	public void OODOOOQQCO(ERSOMarkerExt source) { }
 
 }

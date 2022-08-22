@@ -16,7 +16,7 @@ public class TimeSinceThreatAIEvent : BaseAIEvent // TypeDefIndex: 9415
 	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
 	private void set_Value(float value) { }
 
-	// RVA: 0x88A1D0 Offset: 0x8887D0 VA: 0x18088A1D0
+	// RVA: 0x88A2E0 Offset: 0x8888E0 VA: 0x18088A2E0
 	public void .ctor() { }
 
 }

@@ -12,82 +12,82 @@ public class Snowmobile : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 642
 
 	// Methods
 
-	// RVA: 0x1DB5620 Offset: 0x1DB3C20 VA: 0x181DB5620
+	// RVA: 0x1DB58E0 Offset: 0x1DB3EE0 VA: 0x181DB58E0
 	public static void ResetToPool(Snowmobile instance) { }
 
-	// RVA: 0x1DB5550 Offset: 0x1DB3B50 VA: 0x181DB5550
+	// RVA: 0x1DB5810 Offset: 0x1DB3E10 VA: 0x181DB5810
 	public void ResetToPool() { }
 
-	// RVA: 0x1DB4D90 Offset: 0x1DB3390 VA: 0x181DB4D90 Slot: 9
+	// RVA: 0x1DB5050 Offset: 0x1DB3650 VA: 0x181DB5050 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DB3340 Offset: 0x1DB1940 VA: 0x181DB3340
+	// RVA: 0x1DB3600 Offset: 0x1DB1C00 VA: 0x181DB3600
 	public void CopyTo(Snowmobile instance) { }
 
-	// RVA: 0x1DB3380 Offset: 0x1DB1980 VA: 0x181DB3380
+	// RVA: 0x1DB3640 Offset: 0x1DB1C40 VA: 0x181DB3640
 	public Snowmobile Copy() { }
 
-	// RVA: 0x1DB4A70 Offset: 0x1DB3070 VA: 0x181DB4A70
+	// RVA: 0x1DB4D30 Offset: 0x1DB3330 VA: 0x181DB4D30
 	public static Snowmobile Deserialize(Stream stream) { }
 
-	// RVA: 0x1DB3410 Offset: 0x1DB1A10 VA: 0x181DB3410
+	// RVA: 0x1DB36D0 Offset: 0x1DB1CD0 VA: 0x181DB36D0
 	public static Snowmobile DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DB3850 Offset: 0x1DB1E50 VA: 0x181DB3850
+	// RVA: 0x1DB3B10 Offset: 0x1DB2110 VA: 0x181DB3B10
 	public static Snowmobile DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DB4680 Offset: 0x1DB2C80 VA: 0x181DB4680
+	// RVA: 0x1DB4940 Offset: 0x1DB2F40 VA: 0x181DB4940
 	public static Snowmobile Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DB4EE0 Offset: 0x1DB34E0 VA: 0x181DB4EE0
+	// RVA: 0x1DB51A0 Offset: 0x1DB37A0 VA: 0x181DB51A0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DB5DC0 Offset: 0x1DB43C0 VA: 0x181DB5DC0 Slot: 12
+	// RVA: 0x1DB6080 Offset: 0x1DB4680 VA: 0x181DB6080 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DB5DE0 Offset: 0x1DB43E0 VA: 0x181DB5DE0 Slot: 13
+	// RVA: 0x1DB60A0 Offset: 0x1DB46A0 VA: 0x181DB60A0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Snowmobile previous) { }
 
-	// RVA: 0x1DB51C0 Offset: 0x1DB37C0 VA: 0x181DB51C0 Slot: 14
+	// RVA: 0x1DB5480 Offset: 0x1DB3A80 VA: 0x181DB5480 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DB42B0 Offset: 0x1DB28B0 VA: 0x181DB42B0
+	// RVA: 0x1DB4570 Offset: 0x1DB2B70 VA: 0x181DB4570
 	public static Snowmobile Deserialize(byte[] buffer, Snowmobile instance, bool isDelta = False) { }
 
-	// RVA: 0x1DB3FD0 Offset: 0x1DB25D0 VA: 0x181DB3FD0
+	// RVA: 0x1DB4290 Offset: 0x1DB2890 VA: 0x181DB4290
 	public static Snowmobile Deserialize(Stream stream, Snowmobile instance, bool isDelta) { }
 
-	// RVA: 0x1DB3490 Offset: 0x1DB1A90 VA: 0x181DB3490
+	// RVA: 0x1DB3750 Offset: 0x1DB1D50 VA: 0x181DB3750
 	public static Snowmobile DeserializeLengthDelimited(Stream stream, Snowmobile instance, bool isDelta) { }
 
-	// RVA: 0x1DB3C30 Offset: 0x1DB2230 VA: 0x181DB3C30
+	// RVA: 0x1DB3EF0 Offset: 0x1DB24F0 VA: 0x181DB3EF0
 	public static Snowmobile DeserializeLength(Stream stream, int length, Snowmobile instance, bool isDelta) { }
 
-	// RVA: 0x1DB56F0 Offset: 0x1DB3CF0 VA: 0x181DB56F0
+	// RVA: 0x1DB59B0 Offset: 0x1DB3FB0 VA: 0x181DB59B0
 	public static void SerializeDelta(Stream stream, Snowmobile instance, Snowmobile previous) { }
 
-	// RVA: 0x1DB5BF0 Offset: 0x1DB41F0 VA: 0x181DB5BF0
+	// RVA: 0x1DB5EB0 Offset: 0x1DB44B0 VA: 0x181DB5EB0
 	public static void Serialize(Stream stream, Snowmobile instance) { }
 
-	// RVA: 0x1DB5DB0 Offset: 0x1DB43B0 VA: 0x181DB5DB0
+	// RVA: 0x1DB6070 Offset: 0x1DB4670 VA: 0x181DB6070
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DB5DC0 Offset: 0x1DB43C0 VA: 0x181DB5DC0
+	// RVA: 0x1DB6080 Offset: 0x1DB4680 VA: 0x181DB6080
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DB5AE0 Offset: 0x1DB40E0 VA: 0x181DB5AE0
+	// RVA: 0x1DB5DA0 Offset: 0x1DB43A0 VA: 0x181DB5DA0
 	public static byte[] SerializeToBytes(Snowmobile instance) { }
 
-	// RVA: 0x1DB5A30 Offset: 0x1DB4030 VA: 0x181DB5A30
+	// RVA: 0x1DB5CF0 Offset: 0x1DB42F0 VA: 0x181DB5CF0
 	public static void SerializeLengthDelimited(Stream stream, Snowmobile instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

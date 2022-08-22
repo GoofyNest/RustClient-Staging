@@ -6,19 +6,19 @@ public class DevEnableDisable : DevControlsTab // TypeDefIndex: 9299
 
 	// Methods
 
-	// RVA: 0x97E9D0 Offset: 0x97CFD0 VA: 0x18097E9D0
+	// RVA: 0x97EAE0 Offset: 0x97D0E0 VA: 0x18097EAE0
 	private void Start() { }
 
-	// RVA: 0x97E710 Offset: 0x97CD10 VA: 0x18097E710
+	// RVA: 0x97E820 Offset: 0x97CE20 VA: 0x18097E820
 	private void ApplyLastSettings() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330 Slot: 6
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 6
 	public override string GetTabName() { }
 
-	// RVA: 0x97E840 Offset: 0x97CE40 VA: 0x18097E840 Slot: 7
+	// RVA: 0x97E950 Offset: 0x97CF50 VA: 0x18097E950 Slot: 7
 	public override void OnTabContents() { }
 
-	// RVA: 0x97EA40 Offset: 0x97D040 VA: 0x18097EA40
+	// RVA: 0x97EB50 Offset: 0x97D150 VA: 0x18097EB50
 	public void .ctor() { }
 
 }

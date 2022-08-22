@@ -8,13 +8,13 @@ internal class NormalizationTableUtil // TypeDefIndex: 38
 
 	// Methods
 
-	// RVA: 0x16473C0 Offset: 0x16459C0 VA: 0x1816473C0
+	// RVA: 0x1647680 Offset: 0x1645C80 VA: 0x181647680
 	private static void .cctor() { }
 
-	// RVA: 0x1647350 Offset: 0x1645950 VA: 0x181647350
+	// RVA: 0x1647610 Offset: 0x1645C10 VA: 0x181647610
 	public static int PropIdx(int cp) { }
 
-	// RVA: 0x16472E0 Offset: 0x16458E0 VA: 0x1816472E0
+	// RVA: 0x16475A0 Offset: 0x1645BA0 VA: 0x1816475A0
 	public static int MapIdx(int cp) { }
 
 }

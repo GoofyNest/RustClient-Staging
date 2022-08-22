@@ -13,7 +13,7 @@ internal class CFProxySettings // TypeDefIndex: 2524
 
 	// Methods
 
-	// RVA: 0x1212FB0 Offset: 0x12115B0 VA: 0x181212FB0
+	// RVA: 0x1213270 Offset: 0x1211870 VA: 0x181213270
 	private static void .cctor() { }
 
 	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910

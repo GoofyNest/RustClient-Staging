@@ -23,10 +23,10 @@ public static class InputTracking // TypeDefIndex: 4137
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22FB360 Offset: 0x22F9960 VA: 0x1822FB360
+	// RVA: 0x22FB620 Offset: 0x22F9C20 VA: 0x1822FB620
 	private static void InvokeTrackingEvent(InputTracking.TrackingStateEventType eventType, XRNode nodeType, long uniqueID, bool tracked) { }
 
-	// RVA: 0x22FB5A0 Offset: 0x22F9BA0 VA: 0x1822FB5A0
+	// RVA: 0x22FB860 Offset: 0x22F9E60 VA: 0x1822FB860
 	private static void .cctor() { }
 
 }

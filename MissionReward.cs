@@ -7,82 +7,82 @@ public class MissionReward : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1F4FC40 Offset: 0x1F4E240 VA: 0x181F4FC40
+	// RVA: 0x1F4FF00 Offset: 0x1F4E500 VA: 0x181F4FF00
 	public static void ResetToPool(MissionReward instance) { }
 
-	// RVA: 0x1F4FBC0 Offset: 0x1F4E1C0 VA: 0x181F4FBC0
+	// RVA: 0x1F4FE80 Offset: 0x1F4E480 VA: 0x181F4FE80
 	public void ResetToPool() { }
 
-	// RVA: 0x1F4F9A0 Offset: 0x1F4DFA0 VA: 0x181F4F9A0 Slot: 9
+	// RVA: 0x1F4FC60 Offset: 0x1F4E260 VA: 0x181F4FC60 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DBE8E0 Offset: 0x1DBCEE0 VA: 0x181DBE8E0
+	// RVA: 0x1DBEBA0 Offset: 0x1DBD1A0 VA: 0x181DBEBA0
 	public void CopyTo(MissionReward instance) { }
 
-	// RVA: 0x1F4EBA0 Offset: 0x1F4D1A0 VA: 0x181F4EBA0
+	// RVA: 0x1F4EE60 Offset: 0x1F4D460 VA: 0x181F4EE60
 	public MissionReward Copy() { }
 
-	// RVA: 0x1F4F1A0 Offset: 0x1F4D7A0 VA: 0x181F4F1A0
+	// RVA: 0x1F4F460 Offset: 0x1F4DA60 VA: 0x181F4F460
 	public static MissionReward Deserialize(Stream stream) { }
 
-	// RVA: 0x1F4EC10 Offset: 0x1F4D210 VA: 0x181F4EC10
+	// RVA: 0x1F4EED0 Offset: 0x1F4D4D0 VA: 0x181F4EED0
 	public static MissionReward DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F4EEE0 Offset: 0x1F4D4E0 VA: 0x181F4EEE0
+	// RVA: 0x1F4F1A0 Offset: 0x1F4D7A0 VA: 0x181F4F1A0
 	public static MissionReward DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F4F360 Offset: 0x1F4D960 VA: 0x181F4F360
+	// RVA: 0x1F4F620 Offset: 0x1F4DC20 VA: 0x181F4F620
 	public static MissionReward Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F4FA20 Offset: 0x1F4E020 VA: 0x181F4FA20
+	// RVA: 0x1F4FCE0 Offset: 0x1F4E2E0 VA: 0x181F4FCE0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F50100 Offset: 0x1F4E700 VA: 0x181F50100 Slot: 12
+	// RVA: 0x1F503C0 Offset: 0x1F4E9C0 VA: 0x181F503C0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F50120 Offset: 0x1F4E720 VA: 0x181F50120 Slot: 13
+	// RVA: 0x1F503E0 Offset: 0x1F4E9E0 VA: 0x181F503E0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, MissionReward previous) { }
 
-	// RVA: 0x1F4FBA0 Offset: 0x1F4E1A0 VA: 0x181F4FBA0 Slot: 14
+	// RVA: 0x1F4FE60 Offset: 0x1F4E460 VA: 0x181F4FE60 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F4F5D0 Offset: 0x1F4DBD0 VA: 0x181F4F5D0
+	// RVA: 0x1F4F890 Offset: 0x1F4DE90 VA: 0x181F4F890
 	public static MissionReward Deserialize(byte[] buffer, MissionReward instance, bool isDelta = False) { }
 
-	// RVA: 0x1F4F820 Offset: 0x1F4DE20 VA: 0x181F4F820
+	// RVA: 0x1F4FAE0 Offset: 0x1F4E0E0 VA: 0x181F4FAE0
 	public static MissionReward Deserialize(Stream stream, MissionReward instance, bool isDelta) { }
 
-	// RVA: 0x1F4EC90 Offset: 0x1F4D290 VA: 0x181F4EC90
+	// RVA: 0x1F4EF50 Offset: 0x1F4D550 VA: 0x181F4EF50
 	public static MissionReward DeserializeLengthDelimited(Stream stream, MissionReward instance, bool isDelta) { }
 
-	// RVA: 0x1F4EF70 Offset: 0x1F4D570 VA: 0x181F4EF70
+	// RVA: 0x1F4F230 Offset: 0x1F4D830 VA: 0x181F4F230
 	public static MissionReward DeserializeLength(Stream stream, int length, MissionReward instance, bool isDelta) { }
 
-	// RVA: 0x1F4FCC0 Offset: 0x1F4E2C0 VA: 0x181F4FCC0
+	// RVA: 0x1F4FF80 Offset: 0x1F4E580 VA: 0x181F4FF80
 	public static void SerializeDelta(Stream stream, MissionReward instance, MissionReward previous) { }
 
-	// RVA: 0x1F4FFF0 Offset: 0x1F4E5F0 VA: 0x181F4FFF0
+	// RVA: 0x1F502B0 Offset: 0x1F4E8B0 VA: 0x181F502B0
 	public static void Serialize(Stream stream, MissionReward instance) { }
 
-	// RVA: 0x1F500F0 Offset: 0x1F4E6F0 VA: 0x181F500F0
+	// RVA: 0x1F503B0 Offset: 0x1F4E9B0 VA: 0x181F503B0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F50100 Offset: 0x1F4E700 VA: 0x181F50100
+	// RVA: 0x1F503C0 Offset: 0x1F4E9C0 VA: 0x181F503C0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F4FEE0 Offset: 0x1F4E4E0 VA: 0x181F4FEE0
+	// RVA: 0x1F501A0 Offset: 0x1F4E7A0 VA: 0x181F501A0
 	public static byte[] SerializeToBytes(MissionReward instance) { }
 
-	// RVA: 0x1F4FE30 Offset: 0x1F4E430 VA: 0x181F4FE30
+	// RVA: 0x1F500F0 Offset: 0x1F4E6F0 VA: 0x181F500F0
 	public static void SerializeLengthDelimited(Stream stream, MissionReward instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

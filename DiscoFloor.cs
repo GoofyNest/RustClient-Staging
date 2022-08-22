@@ -17,19 +17,19 @@ public class DiscoFloor : AudioVisualisationEntity // TypeDefIndex: 9439
 
 	// Methods
 
-	// RVA: 0x988D20 Offset: 0x987320 VA: 0x180988D20
+	// RVA: 0x988E30 Offset: 0x987430 VA: 0x180988E30
 	private Gradient get_ColourGradient() { }
 
-	// RVA: 0x988290 Offset: 0x986890 VA: 0x180988290 Slot: 14
+	// RVA: 0x9883A0 Offset: 0x9869A0 VA: 0x1809883A0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x988380 Offset: 0x986980 VA: 0x180988380 Slot: 13
+	// RVA: 0x988490 Offset: 0x986A90 VA: 0x180988490 Slot: 13
 	public override void ClientOnEnable() { }
 
-	// RVA: 0x988760 Offset: 0x986D60 VA: 0x180988760 Slot: 159
+	// RVA: 0x988870 Offset: 0x986E70 VA: 0x180988870 Slot: 159
 	protected override void UpdateVisualisation(float volume, bool force = False) { }
 
-	// RVA: 0x988460 Offset: 0x986A60 VA: 0x180988460 Slot: 80
+	// RVA: 0x988570 Offset: 0x986B70 VA: 0x180988570 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 163
@@ -44,16 +44,16 @@ public class DiscoFloor : AudioVisualisationEntity // TypeDefIndex: 9439
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 164
 	public override bool get_ShowGradientOption() { }
 
-	// RVA: 0x988700 Offset: 0x986D00 VA: 0x180988700 Slot: 165
+	// RVA: 0x988810 Offset: 0x986E10 VA: 0x180988810 Slot: 165
 	protected override void UpdateVisualSettings() { }
 
-	// RVA: 0x988420 Offset: 0x986A20 VA: 0x180988420
+	// RVA: 0x988530 Offset: 0x986B30 VA: 0x180988530
 	private float GetCurrentVolumeSensitivity() { }
 
-	// RVA: 0x9883F0 Offset: 0x9869F0 VA: 0x1809883F0
+	// RVA: 0x988500 Offset: 0x986B00 VA: 0x180988500
 	private float GetCurrentSpeed() { }
 
-	// RVA: 0x988CB0 Offset: 0x9872B0 VA: 0x180988CB0
+	// RVA: 0x988DC0 Offset: 0x9873C0 VA: 0x180988DC0
 	public void .ctor() { }
 
 }

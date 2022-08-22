@@ -18,7 +18,7 @@ public struct MeshId : IEquatable<MeshId> // TypeDefIndex: 4156
 	// RVA: 0x23EAC0 Offset: 0x23DEC0 VA: 0x18023EAC0 Slot: 4
 	public bool Equals(MeshId other) { }
 
-	// RVA: 0x22FB7F0 Offset: 0x22F9DF0 VA: 0x1822FB7F0
+	// RVA: 0x22FBAB0 Offset: 0x22FA0B0 VA: 0x1822FBAB0
 	private static void .cctor() { }
 
 }

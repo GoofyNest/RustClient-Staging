@@ -13,13 +13,13 @@ internal class MatchEnumerator : IEnumerator // TypeDefIndex: 2623
 	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
 	internal void .ctor(MatchCollection matchcoll) { }
 
-	// RVA: 0x14C0780 Offset: 0x14BED80 VA: 0x1814C0780 Slot: 4
+	// RVA: 0x14C0A40 Offset: 0x14BF040 VA: 0x1814C0A40 Slot: 4
 	public bool MoveNext() { }
 
-	// RVA: 0x14C0810 Offset: 0x14BEE10 VA: 0x1814C0810 Slot: 5
+	// RVA: 0x14C0AD0 Offset: 0x14BF0D0 VA: 0x1814C0AD0 Slot: 5
 	public object get_Current() { }
 
-	// RVA: 0x14C07F0 Offset: 0x14BEDF0 VA: 0x1814C07F0 Slot: 6
+	// RVA: 0x14C0AB0 Offset: 0x14BF0B0 VA: 0x1814C0AB0 Slot: 6
 	public void Reset() { }
 
 }

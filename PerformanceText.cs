@@ -6,10 +6,10 @@ public class PerformanceText : MonoBehaviour // TypeDefIndex: 11193
 
 	// Methods
 
-	// RVA: 0x86D6C0 Offset: 0x86BCC0 VA: 0x18086D6C0
+	// RVA: 0x86D7D0 Offset: 0x86BDD0 VA: 0x18086D7D0
 	protected void LateUpdate() { }
 
-	// RVA: 0x86DC80 Offset: 0x86C280 VA: 0x18086DC80
+	// RVA: 0x86DD90 Offset: 0x86C390 VA: 0x18086DD90
 	public void .ctor() { }
 
 }

@@ -58,38 +58,38 @@ public class ImpostorBatch // TypeDefIndex: 10681
 	public ComputeBuffer get_ArgsBuffer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8054F0 Offset: 0x803AF0 VA: 0x1808054F0
+	// RVA: 0x805600 Offset: 0x803C00 VA: 0x180805600
 	public bool get_IsDirty() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x80FEF0 Offset: 0x80E4F0 VA: 0x18080FEF0
+	// RVA: 0x810000 Offset: 0x80E600 VA: 0x180810000
 	public void set_IsDirty(bool value) { }
 
-	// RVA: 0x80FE60 Offset: 0x80E460 VA: 0x18080FE60
+	// RVA: 0x80FF70 Offset: 0x80E570 VA: 0x18080FF70
 	public int get_Count() { }
 
-	// RVA: 0x80FEA0 Offset: 0x80E4A0 VA: 0x18080FEA0
+	// RVA: 0x80FFB0 Offset: 0x80E5B0 VA: 0x18080FFB0
 	public bool get_Visible() { }
 
-	// RVA: 0x7EE710 Offset: 0x7ECD10 VA: 0x1807EE710
+	// RVA: 0x7EE820 Offset: 0x7ECE20 VA: 0x1807EE820
 	private ComputeBuffer SafeRelease(ComputeBuffer buffer) { }
 
-	// RVA: 0x80F860 Offset: 0x80DE60 VA: 0x18080F860
+	// RVA: 0x80F970 Offset: 0x80DF70 VA: 0x18080F970
 	public void Initialize(Mesh mesh, Material material) { }
 
-	// RVA: 0x80FA70 Offset: 0x80E070 VA: 0x18080FA70
+	// RVA: 0x80FB80 Offset: 0x80E180 VA: 0x18080FB80
 	public void Release() { }
 
-	// RVA: 0x80F740 Offset: 0x80DD40 VA: 0x18080F740
+	// RVA: 0x80F850 Offset: 0x80DE50 VA: 0x18080F850
 	public void AddInstance(ImpostorInstanceData data) { }
 
-	// RVA: 0x80FB50 Offset: 0x80E150 VA: 0x18080FB50
+	// RVA: 0x80FC60 Offset: 0x80E260 VA: 0x18080FC60
 	public void RemoveInstance(ImpostorInstanceData data) { }
 
-	// RVA: 0x80FC40 Offset: 0x80E240 VA: 0x18080FC40
+	// RVA: 0x80FD50 Offset: 0x80E350 VA: 0x18080FD50
 	public void UpdateBuffers() { }
 
-	// RVA: 0x80FDF0 Offset: 0x80E3F0 VA: 0x18080FDF0
+	// RVA: 0x80FF00 Offset: 0x80E500 VA: 0x18080FF00
 	public void .ctor() { }
 
 }

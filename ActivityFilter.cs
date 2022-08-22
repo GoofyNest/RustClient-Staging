@@ -12,44 +12,44 @@ internal sealed class ActivityFilter : IDisposable // TypeDefIndex: 1614
 
 	// Methods
 
-	// RVA: 0xD65620 Offset: 0xD63C20 VA: 0x180D65620
+	// RVA: 0xD658E0 Offset: 0xD63EE0 VA: 0x180D658E0
 	public static void DisableFilter(ref ActivityFilter filterList, EventSource source) { }
 
-	// RVA: 0xD66530 Offset: 0xD64B30 VA: 0x180D66530
+	// RVA: 0xD667F0 Offset: 0xD64DF0 VA: 0x180D667F0
 	public static void UpdateFilter(ref ActivityFilter filterList, EventSource source, int perEventSourceSessionId, string startEvents) { }
 
-	// RVA: 0xD65FF0 Offset: 0xD645F0 VA: 0x180D65FF0
+	// RVA: 0xD662B0 Offset: 0xD648B0 VA: 0x180D662B0
 	public static bool PassesActivityFilter(ActivityFilter filterList, Guid* childActivityID, bool triggeringEvent, EventSource source, int eventId) { }
 
-	// RVA: 0xD65C30 Offset: 0xD64230 VA: 0x180D65C30
+	// RVA: 0xD65EF0 Offset: 0xD644F0 VA: 0x180D65EF0
 	public static void FlowActivityIfNeeded(ActivityFilter filterList, Guid* currentActivityId, Guid* childActivityID) { }
 
-	// RVA: 0xD66860 Offset: 0xD64E60 VA: 0x180D66860
+	// RVA: 0xD66B20 Offset: 0xD65120 VA: 0x180D66B20
 	public static void UpdateKwdTriggers(ActivityFilter activityFilter, Guid sourceGuid, EventSource source, EventKeywords sessKeywords) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x76F60 Offset: 0x76360 VA: 0x180076F60
-	// RVA: 0xD65F60 Offset: 0xD64560 VA: 0x180D65F60
+	// RVA: 0xD66220 Offset: 0xD64820 VA: 0x180D66220
 	public IEnumerable<Tuple<int, int>> GetFilterAsTuple(Guid sourceGuid) { }
 
-	// RVA: 0xD65970 Offset: 0xD63F70 VA: 0x180D65970 Slot: 4
+	// RVA: 0xD65C30 Offset: 0xD64230 VA: 0x180D65C30 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0xD669F0 Offset: 0xD64FF0 VA: 0x180D669F0
+	// RVA: 0xD66CB0 Offset: 0xD652B0 VA: 0x180D66CB0
 	private void .ctor(EventSource source, int perEventSourceSessionId, int eventId, int samplingFreq, ActivityFilter existingFilter) { }
 
-	// RVA: 0xD65B40 Offset: 0xD64140 VA: 0x180D65B40
+	// RVA: 0xD65E00 Offset: 0xD64400 VA: 0x180D65E00
 	private static void EnsureActivityCleanupDelegate(ActivityFilter filterList) { }
 
-	// RVA: 0xD65EC0 Offset: 0xD644C0 VA: 0x180D65EC0
+	// RVA: 0xD66180 Offset: 0xD64780 VA: 0x180D66180
 	private static Action<Guid> GetActivityDyingDelegate(ActivityFilter filterList) { }
 
-	// RVA: 0xD65A40 Offset: 0xD64040 VA: 0x180D65A40
+	// RVA: 0xD65D00 Offset: 0xD64300 VA: 0x180D65D00
 	private static bool EnableFilter(ref ActivityFilter filterList, EventSource source, int perEventSourceSessionId, int eventId, int samplingFreq) { }
 
-	// RVA: 0xD663E0 Offset: 0xD649E0 VA: 0x180D663E0
+	// RVA: 0xD666A0 Offset: 0xD64CA0 VA: 0x180D666A0
 	private static void TrimActiveActivityStore(ConcurrentDictionary<Guid, int> activities) { }
 
-	// RVA: 0xD65EA0 Offset: 0xD644A0 VA: 0x180D65EA0
+	// RVA: 0xD66160 Offset: 0xD64760 VA: 0x180D66160
 	private static ConcurrentDictionary<Guid, int> GetActiveActivities(ActivityFilter filterList) { }
 
 }
@@ -71,14 +71,14 @@ private sealed class ActivityFilter.<GetFilterAsTuple>d__7 : IEnumerable<Tuple<i
 	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD87490 Offset: 0xD85A90 VA: 0x180D87490
+	// RVA: 0xD87750 Offset: 0xD85D50 VA: 0x180D87750
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xD87250 Offset: 0xD85850 VA: 0x180D87250 Slot: 8
+	// RVA: 0xD87510 Offset: 0xD85B10 VA: 0x180D87510 Slot: 8
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -86,7 +86,7 @@ private sealed class ActivityFilter.<GetFilterAsTuple>d__7 : IEnumerable<Tuple<i
 	private Tuple<int, int> System.Collections.Generic.IEnumerator<System.Tuple<System.Int32,System.Int32>>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD87440 Offset: 0xD85A40 VA: 0x180D87440 Slot: 10
+	// RVA: 0xD87700 Offset: 0xD85D00 VA: 0x180D87700 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -94,11 +94,11 @@ private sealed class ActivityFilter.<GetFilterAsTuple>d__7 : IEnumerable<Tuple<i
 	private object System.Collections.IEnumerator.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD87390 Offset: 0xD85990 VA: 0x180D87390 Slot: 4
+	// RVA: 0xD87650 Offset: 0xD85C50 VA: 0x180D87650 Slot: 4
 	private IEnumerator<Tuple<int, int>> System.Collections.Generic.IEnumerable<System.Tuple<System.Int32,System.Int32>>.GetEnumerator() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD87390 Offset: 0xD85990 VA: 0x180D87390 Slot: 5
+	// RVA: 0xD87650 Offset: 0xD85C50 VA: 0x180D87650 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
@@ -112,7 +112,7 @@ private sealed class ActivityFilter.<>c__DisplayClass11_0 // TypeDefIndex: 1616
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xD87580 Offset: 0xD85B80 VA: 0x180D87580
+	// RVA: 0xD87840 Offset: 0xD85E40 VA: 0x180D87840
 	internal void <GetActivityDyingDelegate>b__0(Guid oldActivity) { }
 
 }
@@ -126,7 +126,7 @@ private sealed class ActivityFilter.<>c__DisplayClass13_0 // TypeDefIndex: 1617
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xD87630 Offset: 0xD85C30 VA: 0x180D87630
+	// RVA: 0xD878F0 Offset: 0xD85EF0 VA: 0x180D878F0
 	internal int <TrimActiveActivityStore>b__0(KeyValuePair<Guid, int> x, KeyValuePair<Guid, int> y) { }
 
 }

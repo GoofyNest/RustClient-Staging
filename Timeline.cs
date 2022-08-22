@@ -25,46 +25,46 @@ public class Timeline : RustControl, IPointerDownHandler, IEventSystemHandler, I
 	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
 	public void set_SelectedMarker(TimelineMarker value) { }
 
-	// RVA: 0xFD6200 Offset: 0xFD4800 VA: 0x180FD6200
+	// RVA: 0xFD64C0 Offset: 0xFD4AC0 VA: 0x180FD64C0
 	internal void SelectMarker(TimelineMarker marker) { }
 
-	// RVA: 0xFD5860 Offset: 0xFD3E60 VA: 0x180FD5860
+	// RVA: 0xFD5B20 Offset: 0xFD4120 VA: 0x180FD5B20
 	internal void DragMarker(TimelineMarker marker, PointerEventData eventData) { }
 
-	// RVA: 0xFD57D0 Offset: 0xFD3DD0 VA: 0x180FD57D0
+	// RVA: 0xFD5A90 Offset: 0xFD4090 VA: 0x180FD5A90
 	internal void DeleteMarker(TimelineMarker timelineMarker) { }
 
-	// RVA: 0xFD5740 Offset: 0xFD3D40 VA: 0x180FD5740 Slot: 4
+	// RVA: 0xFD5A00 Offset: 0xFD4000 VA: 0x180FD5A00 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0xFD6010 Offset: 0xFD4610 VA: 0x180FD6010
+	// RVA: 0xFD62D0 Offset: 0xFD48D0 VA: 0x180FD62D0
 	public void Rebuild() { }
 
-	// RVA: 0xFD5630 Offset: 0xFD3C30 VA: 0x180FD5630
+	// RVA: 0xFD58F0 Offset: 0xFD3EF0 VA: 0x180FD58F0
 	public void AddMarker(TimelineMarker marker) { }
 
-	// RVA: 0xFD63B0 Offset: 0xFD49B0 VA: 0x180FD63B0
+	// RVA: 0xFD6670 Offset: 0xFD4C70 VA: 0x180FD6670
 	public void SetCurrentPosition(int pos) { }
 
-	// RVA: 0xFD5C60 Offset: 0xFD4260 VA: 0x180FD5C60
+	// RVA: 0xFD5F20 Offset: 0xFD4520 VA: 0x180FD5F20
 	public float GetX(int time) { }
 
-	// RVA: 0xFD5B50 Offset: 0xFD4150 VA: 0x180FD5B50
+	// RVA: 0xFD5E10 Offset: 0xFD4410 VA: 0x180FD5E10
 	public int GetTime(float x) { }
 
-	// RVA: 0xFD5FB0 Offset: 0xFD45B0 VA: 0x180FD5FB0 Slot: 31
+	// RVA: 0xFD6270 Offset: 0xFD4870 VA: 0x180FD6270 Slot: 31
 	public void OnPointerDown(PointerEventData eventData) { }
 
-	// RVA: 0xFD5FE0 Offset: 0xFD45E0 VA: 0x180FD5FE0 Slot: 32
+	// RVA: 0xFD62A0 Offset: 0xFD48A0 VA: 0x180FD62A0 Slot: 32
 	public void OnPointerUp(PointerEventData eventData) { }
 
-	// RVA: 0xFD6160 Offset: 0xFD4760 VA: 0x180FD6160
+	// RVA: 0xFD6420 Offset: 0xFD4A20 VA: 0x180FD6420
 	public void Scrubbed(int time) { }
 
-	// RVA: 0xFD5D10 Offset: 0xFD4310 VA: 0x180FD5D10 Slot: 33
+	// RVA: 0xFD5FD0 Offset: 0xFD45D0 VA: 0x180FD5FD0 Slot: 33
 	public void OnDrag(PointerEventData eventData) { }
 
-	// RVA: 0xFD6450 Offset: 0xFD4A50 VA: 0x180FD6450
+	// RVA: 0xFD6710 Offset: 0xFD4D10 VA: 0x180FD6710
 	public void .ctor() { }
 
 }
@@ -72,7 +72,7 @@ public class Timeline : RustControl, IPointerDownHandler, IEventSystemHandler, I
 public class Timeline.ScrubEvent : UnityEvent<float> // TypeDefIndex: 7041
 {	// Methods
 
-	// RVA: 0xFD3C20 Offset: 0xFD2220 VA: 0x180FD3C20
+	// RVA: 0xFD3EE0 Offset: 0xFD24E0 VA: 0x180FD3EE0
 	public void .ctor() { }
 
 }

@@ -20,35 +20,35 @@ public class DamageRenderer : MonoBehaviour, IClientComponent, IPrefabPreProcess
 
 	// Methods
 
-	// RVA: 0x83D8A0 Offset: 0x83BEA0 VA: 0x18083D8A0 Slot: 4
+	// RVA: 0x83D9B0 Offset: 0x83BFB0 VA: 0x18083D9B0 Slot: 4
 	public void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x83E820 Offset: 0x83CE20 VA: 0x18083E820
+	// RVA: 0x83E930 Offset: 0x83CF30 VA: 0x18083E930
 	public void UpdateDamage(BaseCombatEntity bce) { }
 
-	// RVA: 0x83E760 Offset: 0x83CD60 VA: 0x18083E760
+	// RVA: 0x83E870 Offset: 0x83CE70 VA: 0x18083E870
 	public void UpdateDamage(float curHealth, bool isDead, float healthFraction) { }
 
-	// RVA: 0x83E0A0 Offset: 0x83C6A0 VA: 0x18083E0A0
+	// RVA: 0x83E1B0 Offset: 0x83C7B0 VA: 0x18083E1B0
 	private void RefreshDamageTex(float healthPercent, bool isDead) { }
 
-	// RVA: 0x83E4A0 Offset: 0x83CAA0 VA: 0x18083E4A0
+	// RVA: 0x83E5B0 Offset: 0x83CBB0 VA: 0x18083E5B0
 	private void SetDamageTex(DamageRenderer.DamageShowingRenderer dsr) { }
 
-	// RVA: 0x83D0A0 Offset: 0x83B6A0 VA: 0x18083D0A0
+	// RVA: 0x83D1B0 Offset: 0x83B7B0 VA: 0x18083D1B0
 	public void DrawHighlight() { }
 
-	// RVA: 0x83D2C0 Offset: 0x83B8C0 VA: 0x18083D2C0
+	// RVA: 0x83D3D0 Offset: 0x83B9D0 VA: 0x18083D3D0
 	private void Highlight(Renderer renderer) { }
 
-	// RVA: 0x83E960 Offset: 0x83CF60 VA: 0x18083E960
+	// RVA: 0x83EA70 Offset: 0x83D070 VA: 0x18083EA70
 	public void .ctor() { }
 
-	// RVA: 0x83E910 Offset: 0x83CF10 VA: 0x18083E910
+	// RVA: 0x83EA20 Offset: 0x83D020 VA: 0x18083EA20
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x83E620 Offset: 0x83CC20 VA: 0x18083E620
+	// RVA: 0x83E730 Offset: 0x83CD30 VA: 0x18083E730
 	private int[] <PreProcess>g__GetValidMatIndices|12_0(Renderer renderer, ref DamageRenderer.<>c__DisplayClass12_0 ) { }
 
 }

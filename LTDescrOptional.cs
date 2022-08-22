@@ -79,23 +79,23 @@ public class LTDescrOptional // TypeDefIndex: 5573
 	public void set_toTrans(Transform value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12CD3C0 Offset: 0x12CB9C0 VA: 0x1812CD3C0
+	// RVA: 0x12CD680 Offset: 0x12CBC80 VA: 0x1812CD680
 	public Vector3 get_point() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12CD3E0 Offset: 0x12CB9E0 VA: 0x1812CD3E0
+	// RVA: 0x12CD6A0 Offset: 0x12CBCA0 VA: 0x1812CD6A0
 	public void set_point(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10745E0 Offset: 0x1072BE0 VA: 0x1810745E0
+	// RVA: 0x10748A0 Offset: 0x1072EA0 VA: 0x1810748A0
 	public Vector3 get_axis() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10747C0 Offset: 0x1072DC0 VA: 0x1810747C0
+	// RVA: 0x1074A80 Offset: 0x1073080 VA: 0x181074A80
 	public void set_axis(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6BB930 Offset: 0x6B9F30 VA: 0x1806BB930
+	// RVA: 0x6BBA40 Offset: 0x6BA040 VA: 0x1806BBA40
 	public float get_lastVal() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -103,11 +103,11 @@ public class LTDescrOptional // TypeDefIndex: 5573
 	public void set_lastVal(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198DE00 Offset: 0x198C400 VA: 0x18198DE00
+	// RVA: 0x198E0C0 Offset: 0x198C6C0 VA: 0x18198E0C0
 	public Quaternion get_origRotation() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198DF50 Offset: 0x198C550 VA: 0x18198DF50
+	// RVA: 0x198E210 Offset: 0x198C810 VA: 0x18198E210
 	public void set_origRotation(Quaternion value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -191,57 +191,57 @@ public class LTDescrOptional // TypeDefIndex: 5573
 	public void set_onUpdateColor(Action<Color> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x952B90 Offset: 0x951190 VA: 0x180952B90
+	// RVA: 0x952CA0 Offset: 0x9512A0 VA: 0x180952CA0
 	public Action<Color, object> get_onUpdateColorObject() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73C90 Offset: 0xC72290 VA: 0x180C73C90
+	// RVA: 0xC73F50 Offset: 0xC72550 VA: 0x180C73F50
 	public void set_onUpdateColorObject(Action<Color, object> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9921A0 Offset: 0x9907A0 VA: 0x1809921A0
+	// RVA: 0x9922B0 Offset: 0x9908B0 VA: 0x1809922B0
 	public Action get_onComplete() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D220 Offset: 0xA4B820 VA: 0x180A4D220
+	// RVA: 0xA4D4E0 Offset: 0xA4BAE0 VA: 0x180A4D4E0
 	public void set_onComplete(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7ACF70 Offset: 0x7AB570 VA: 0x1807ACF70
+	// RVA: 0x7AD080 Offset: 0x7AB680 VA: 0x1807AD080
 	public Action<object> get_onCompleteObject() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D230 Offset: 0xA4B830 VA: 0x180A4D230
+	// RVA: 0xA4D4F0 Offset: 0xA4BAF0 VA: 0x180A4D4F0
 	public void set_onCompleteObject(Action<object> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x104F1B0 Offset: 0x104D7B0 VA: 0x18104F1B0
+	// RVA: 0x104F470 Offset: 0x104DA70 VA: 0x18104F470
 	public object get_onCompleteParam() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEFAF20 Offset: 0xEF9520 VA: 0x180EFAF20
+	// RVA: 0xEFB1E0 Offset: 0xEF97E0 VA: 0x180EFB1E0
 	public void set_onCompleteParam(object value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDA00E0 Offset: 0xD9E6E0 VA: 0x180DA00E0
+	// RVA: 0xDA03A0 Offset: 0xD9E9A0 VA: 0x180DA03A0
 	public object get_onUpdateParam() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDA04C0 Offset: 0xD9EAC0 VA: 0x180DA04C0
+	// RVA: 0xDA0780 Offset: 0xD9ED80 VA: 0x180DA0780
 	public void set_onUpdateParam(object value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73A80 Offset: 0xC72080 VA: 0x180C73A80
+	// RVA: 0xC73D40 Offset: 0xC72340 VA: 0x180C73D40
 	public Action get_onStart() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73BD0 Offset: 0xC721D0 VA: 0x180C73BD0
+	// RVA: 0xC73E90 Offset: 0xC72490 VA: 0x180C73E90
 	public void set_onStart(Action value) { }
 
-	// RVA: 0x198DE10 Offset: 0x198C410 VA: 0x18198DE10
+	// RVA: 0x198E0D0 Offset: 0x198C6D0 VA: 0x18198E0D0
 	public void reset() { }
 
-	// RVA: 0x198DC40 Offset: 0x198C240 VA: 0x18198DC40
+	// RVA: 0x198DF00 Offset: 0x198C500 VA: 0x18198DF00
 	public void callOnUpdate(float val, float ratioPassed) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

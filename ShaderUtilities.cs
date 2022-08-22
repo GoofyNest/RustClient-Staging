@@ -70,31 +70,31 @@ public static class ShaderUtilities // TypeDefIndex: 6822
 
 	// Methods
 
-	// RVA: 0xC6A290 Offset: 0xC68890 VA: 0x180C6A290
+	// RVA: 0xC6A550 Offset: 0xC68B50 VA: 0x180C6A550
 	internal static Shader get_ShaderRef_MobileSDF() { }
 
-	// RVA: 0xC6A170 Offset: 0xC68770 VA: 0x180C6A170
+	// RVA: 0xC6A430 Offset: 0xC68A30 VA: 0x180C6A430
 	internal static Shader get_ShaderRef_MobileBitmap() { }
 
-	// RVA: 0xC69FB0 Offset: 0xC685B0 VA: 0x180C69FB0
+	// RVA: 0xC6A270 Offset: 0xC68870 VA: 0x180C6A270
 	private static void .cctor() { }
 
-	// RVA: 0xC68F50 Offset: 0xC67550 VA: 0x180C68F50
+	// RVA: 0xC69210 Offset: 0xC67810 VA: 0x180C69210
 	public static void GetShaderPropertyIDs() { }
 
-	// RVA: 0xC69930 Offset: 0xC67F30 VA: 0x180C69930
+	// RVA: 0xC69BF0 Offset: 0xC681F0 VA: 0x180C69BF0
 	public static void UpdateShaderRatios(Material mat) { }
 
-	// RVA: 0xC67450 Offset: 0xC65A50 VA: 0x180C67450
+	// RVA: 0xC67710 Offset: 0xC65D10 VA: 0x180C67710
 	public static Vector4 GetFontExtent(Material material) { }
 
-	// RVA: 0xC69760 Offset: 0xC67D60 VA: 0x180C69760
+	// RVA: 0xC69A20 Offset: 0xC68020 VA: 0x180C69A20
 	public static bool IsMaskingEnabled(Material material) { }
 
-	// RVA: 0xC674B0 Offset: 0xC65AB0 VA: 0x180C674B0
+	// RVA: 0xC67770 Offset: 0xC65D70 VA: 0x180C67770
 	public static float GetPadding(Material material, bool enableExtraPadding, bool isBold) { }
 
-	// RVA: 0xC67F90 Offset: 0xC66590 VA: 0x180C67F90
+	// RVA: 0xC68250 Offset: 0xC66850 VA: 0x180C68250
 	public static float GetPadding(Material[] materials, bool enableExtraPadding, bool isBold) { }
 
 }

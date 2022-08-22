@@ -9,7 +9,7 @@ public sealed class InvalidMetaEventParameterValueException : MidiException // T
 
 	// Methods
 
-	// RVA: 0x1399400 Offset: 0x1397A00 VA: 0x181399400
+	// RVA: 0x13996C0 Offset: 0x1397CC0 VA: 0x1813996C0
 	internal void .ctor(MidiEventType eventType, string propertyName, int value) { }
 
 }

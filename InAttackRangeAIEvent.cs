@@ -1,7 +1,7 @@
 public class InAttackRangeAIEvent : BaseAIEvent // TypeDefIndex: 9401
 {	// Methods
 
-	// RVA: 0x812D40 Offset: 0x811340 VA: 0x180812D40
+	// RVA: 0x812E50 Offset: 0x811450 VA: 0x180812E50
 	public void .ctor() { }
 
 }

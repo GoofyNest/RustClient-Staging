@@ -6,26 +6,26 @@ public class MenuBackgroundVideo : SingletonComponent<MenuBackgroundVideo> // Ty
 
 	// Methods
 
-	// RVA: 0x95DC30 Offset: 0x95C230 VA: 0x18095DC30 Slot: 6
+	// RVA: 0x95DD40 Offset: 0x95C340 VA: 0x18095DD40 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x95E140 Offset: 0x95C740 VA: 0x18095E140
+	// RVA: 0x95E250 Offset: 0x95C850 VA: 0x18095E250
 	private void OnVideoError(VideoPlayer source, string message) { }
 
-	// RVA: 0x95DCE0 Offset: 0x95C2E0 VA: 0x18095DCE0
+	// RVA: 0x95DDF0 Offset: 0x95C3F0 VA: 0x18095DDF0
 	public void LoadVideoList() { }
 
-	// RVA: 0x95E1C0 Offset: 0x95C7C0 VA: 0x18095E1C0
+	// RVA: 0x95E2D0 Offset: 0x95C8D0 VA: 0x18095E2D0
 	public void Update() { }
 
-	// RVA: 0x95DEF0 Offset: 0x95C4F0 VA: 0x18095DEF0
+	// RVA: 0x95E000 Offset: 0x95C600 VA: 0x18095E000
 	private void NextVideo() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x98540 Offset: 0x97940 VA: 0x180098540
-	// RVA: 0x95E150 Offset: 0x95C750 VA: 0x18095E150
+	// RVA: 0x95E260 Offset: 0x95C860 VA: 0x18095E260
 	internal IEnumerator ReadyVideo() { }
 
-	// RVA: 0x95E210 Offset: 0x95C810 VA: 0x18095E210
+	// RVA: 0x95E320 Offset: 0x95C920 VA: 0x18095E320
 	public void .ctor() { }
 
 }
@@ -39,19 +39,19 @@ private sealed class MenuBackgroundVideo.<>c // TypeDefIndex: 11123
 
 	// Methods
 
-	// RVA: 0x970B00 Offset: 0x96F100 VA: 0x180970B00
+	// RVA: 0x970C10 Offset: 0x96F210 VA: 0x180970C10
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x970980 Offset: 0x96EF80 VA: 0x180970980
+	// RVA: 0x970A90 Offset: 0x96F090 VA: 0x180970A90
 	internal bool <LoadVideoList>b__5_0(string x) { }
 
-	// RVA: 0x9709F0 Offset: 0x96EFF0 VA: 0x1809709F0
+	// RVA: 0x970B00 Offset: 0x96F100 VA: 0x180970B00
 	internal Guid <LoadVideoList>b__5_1(string x) { }
 
-	// RVA: 0x970A50 Offset: 0x96F050 VA: 0x180970A50
+	// RVA: 0x970B60 Offset: 0x96F160 VA: 0x180970B60
 	internal bool <NextVideo>b__7_0(string x) { }
 
 }
@@ -77,7 +77,7 @@ private sealed class MenuBackgroundVideo.<ReadyVideo>d__8 : IEnumerator<object>,
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x970840 Offset: 0x96EE40 VA: 0x180970840 Slot: 6
+	// RVA: 0x970950 Offset: 0x96EF50 VA: 0x180970950 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -85,7 +85,7 @@ private sealed class MenuBackgroundVideo.<ReadyVideo>d__8 : IEnumerator<object>,
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x970910 Offset: 0x96EF10 VA: 0x180970910 Slot: 8
+	// RVA: 0x970A20 Offset: 0x96F020 VA: 0x180970A20 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

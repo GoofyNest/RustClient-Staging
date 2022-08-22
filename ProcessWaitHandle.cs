@@ -12,7 +12,7 @@ public class ProcessThreadCollection : ReadOnlyCollectionBase // TypeDefIndex: 2
 internal class ProcessWaitHandle : WaitHandle // TypeDefIndex: 2654
 	// Methods
 
-	// RVA: 0x172C460 Offset: 0x172AA60 VA: 0x18172C460
+	// RVA: 0x172C720 Offset: 0x172AD20 VA: 0x18172C720
 	internal void .ctor(SafeProcessHandle processHandle) { }
 
 }

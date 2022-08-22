@@ -12,10 +12,10 @@ internal sealed class ConstraintStruct // TypeDefIndex: 2145
 
 	// Methods
 
-	// RVA: 0x6BB940 Offset: 0x6B9F40 VA: 0x1806BB940
+	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50
 	internal int get_TableDim() { }
 
-	// RVA: 0x1501F60 Offset: 0x1500560 VA: 0x181501F60
+	// RVA: 0x1502220 Offset: 0x1500820 VA: 0x181502220
 	internal void .ctor(CompiledIdentityConstraint constraint) { }
 
 }

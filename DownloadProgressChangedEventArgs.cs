@@ -5,7 +5,7 @@ public class DownloadProgressChangedEventArgs : ProgressChangedEventArgs // Type
 
 	// Methods
 
-	// RVA: 0x152F7D0 Offset: 0x152DDD0 VA: 0x18152F7D0
+	// RVA: 0x152FA90 Offset: 0x152E090 VA: 0x18152FA90
 	internal void .ctor(int progressPercentage, object userToken, long bytesReceived, long totalBytesToReceive) { }
 
 }

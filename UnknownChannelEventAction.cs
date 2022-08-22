@@ -23,7 +23,7 @@ public sealed class UnknownChannelEventAction // TypeDefIndex: 7604
 	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0
 	public int get_DataBytesToSkipCount() { }
 
-	// RVA: 0x13AAD50 Offset: 0x13A9350 VA: 0x1813AAD50
+	// RVA: 0x13AB010 Offset: 0x13A9610 VA: 0x1813AB010
 	private static void .cctor() { }
 
 }

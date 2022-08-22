@@ -14,10 +14,10 @@ internal class EraInfo // TypeDefIndex: 703
 
 	// Methods
 
-	// RVA: 0x16F1E50 Offset: 0x16F0450 VA: 0x1816F1E50
+	// RVA: 0x16F2110 Offset: 0x16F0710 VA: 0x1816F2110
 	internal void .ctor(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear) { }
 
-	// RVA: 0x16F1D80 Offset: 0x16F0380 VA: 0x1816F1D80
+	// RVA: 0x16F2040 Offset: 0x16F0640 VA: 0x1816F2040
 	internal void .ctor(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear, string eraName, string abbrevEraName, string englishEraName) { }
 
 }

@@ -17,7 +17,7 @@ private sealed class ThreadLocal.LinkedSlot<T> // TypeDefIndex: 769
 	internal void .ctor(ThreadLocal.LinkedSlotVolatile<T>[] slotArray) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A538E0 Offset: 0x1A51EE0 VA: 0x181A538E0
+	|-RVA: 0x1A53BA0 Offset: 0x1A521A0 VA: 0x181A53BA0
 	|-ThreadLocal.LinkedSlot<object>..ctor
 	*/
 
@@ -34,7 +34,7 @@ private class ThreadLocal.IdManager<T> // TypeDefIndex: 770
 	internal int GetId() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A53620 Offset: 0x1A51C20 VA: 0x181A53620
+	|-RVA: 0x1A538E0 Offset: 0x1A51EE0 VA: 0x181A538E0
 	|-ThreadLocal.IdManager<object>.GetId
 	*/
 
@@ -42,7 +42,7 @@ private class ThreadLocal.IdManager<T> // TypeDefIndex: 770
 	internal void ReturnId(int id) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A53770 Offset: 0x1A51D70 VA: 0x181A53770
+	|-RVA: 0x1A53A30 Offset: 0x1A52030 VA: 0x181A53A30
 	|-ThreadLocal.IdManager<object>.ReturnId
 	*/
 
@@ -50,7 +50,7 @@ private class ThreadLocal.IdManager<T> // TypeDefIndex: 770
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A53870 Offset: 0x1A51E70 VA: 0x181A53870
+	|-RVA: 0x1A53B30 Offset: 0x1A52130 VA: 0x181A53B30
 	|-ThreadLocal.IdManager<object>..ctor
 	*/
 
@@ -67,7 +67,7 @@ private class ThreadLocal.FinalizationHelper<T> // TypeDefIndex: 771
 	internal void .ctor(ThreadLocal.LinkedSlotVolatile<T>[] slotArray, bool trackAllValues) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A535D0 Offset: 0x1A51BD0 VA: 0x181A535D0
+	|-RVA: 0x1A53890 Offset: 0x1A51E90 VA: 0x181A53890
 	|-ThreadLocal.FinalizationHelper<object>..ctor
 	*/
 
@@ -75,7 +75,7 @@ private class ThreadLocal.FinalizationHelper<T> // TypeDefIndex: 771
 	protected override void Finalize() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A532B0 Offset: 0x1A518B0 VA: 0x181A532B0
+	|-RVA: 0x1A53570 Offset: 0x1A51B70 VA: 0x181A53570
 	|-ThreadLocal.FinalizationHelper<object>.Finalize
 	*/
 

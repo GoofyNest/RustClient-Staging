@@ -10,10 +10,10 @@ public class NameValueHeaderValue : ICloneable // TypeDefIndex: 5787
 
 	// Methods
 
-	// RVA: 0x1093500 Offset: 0x1091B00 VA: 0x181093500
+	// RVA: 0x10937C0 Offset: 0x1091DC0 VA: 0x1810937C0
 	public void .ctor(string name, string value) { }
 
-	// RVA: 0x1093560 Offset: 0x1091B60 VA: 0x181093560
+	// RVA: 0x1093820 Offset: 0x1091E20 VA: 0x181093820
 	protected internal void .ctor(NameValueHeaderValue source) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -30,31 +30,31 @@ public class NameValueHeaderValue : ICloneable // TypeDefIndex: 5787
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public string get_Value() { }
 
-	// RVA: 0x10935B0 Offset: 0x1091BB0 VA: 0x1810935B0
+	// RVA: 0x1093870 Offset: 0x1091E70 VA: 0x181093870
 	public void set_Value(string value) { }
 
-	// RVA: 0x1092C50 Offset: 0x1091250 VA: 0x181092C50
+	// RVA: 0x1092F10 Offset: 0x1091510 VA: 0x181092F10
 	internal static NameValueHeaderValue Create(string name, string value) { }
 
-	// RVA: 0x1092DD0 Offset: 0x10913D0 VA: 0x181092DD0 Slot: 4
+	// RVA: 0x1093090 Offset: 0x1091690 VA: 0x181093090 Slot: 4
 	private object System.ICloneable.Clone() { }
 
-	// RVA: 0x10843B0 Offset: 0x10829B0 VA: 0x1810843B0 Slot: 2
+	// RVA: 0x1084670 Offset: 0x1082C70 VA: 0x181084670 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1092CE0 Offset: 0x10912E0 VA: 0x181092CE0 Slot: 0
+	// RVA: 0x1092FA0 Offset: 0x10915A0 VA: 0x181092FA0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1093470 Offset: 0x1091A70 VA: 0x181093470
+	// RVA: 0x1093730 Offset: 0x1091D30 VA: 0x181093730
 	internal static bool TryParsePragma(string input, int minimalCount, out List<NameValueHeaderValue> result) { }
 
-	// RVA: 0x1093120 Offset: 0x1091720 VA: 0x181093120
+	// RVA: 0x10933E0 Offset: 0x10919E0 VA: 0x1810933E0
 	internal static bool TryParseParameters(Lexer lexer, out List<NameValueHeaderValue> result, out Token t) { }
 
-	// RVA: 0x1092E50 Offset: 0x1091450 VA: 0x181092E50 Slot: 3
+	// RVA: 0x1093110 Offset: 0x1091710 VA: 0x181093110 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1092EB0 Offset: 0x10914B0 VA: 0x181092EB0
+	// RVA: 0x1093170 Offset: 0x1091770 VA: 0x181093170
 	private static bool TryParseElement(Lexer lexer, out NameValueHeaderValue parsedValue, out Token t) { }
 
 }

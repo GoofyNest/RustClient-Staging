@@ -5,13 +5,13 @@ internal sealed class LikeNode : BinaryNode // TypeDefIndex: 4245
 
 	// Methods
 
-	// RVA: 0xE8D1F0 Offset: 0xE8B7F0 VA: 0x180E8D1F0
+	// RVA: 0xE8D4B0 Offset: 0xE8BAB0 VA: 0x180E8D4B0
 	internal void .ctor(DataTable table, int op, ExpressionNode left, ExpressionNode right) { }
 
-	// RVA: 0xE8C8C0 Offset: 0xE8AEC0 VA: 0x180E8C8C0 Slot: 7
+	// RVA: 0xE8CB80 Offset: 0xE8B180 VA: 0x180E8CB80 Slot: 7
 	internal override object Eval(DataRow row, DataRowVersion version) { }
 
-	// RVA: 0xE8C540 Offset: 0xE8AB40 VA: 0x180E8C540
+	// RVA: 0xE8C800 Offset: 0xE8AE00 VA: 0x180E8C800
 	internal string AnalyzePattern(string pat) { }
 
 }

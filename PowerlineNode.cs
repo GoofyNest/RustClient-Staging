@@ -5,10 +5,10 @@ public class PowerlineNode : MonoBehaviour // TypeDefIndex: 10361
 
 	// Methods
 
-	// RVA: 0x9A09E0 Offset: 0x99EFE0 VA: 0x1809A09E0
+	// RVA: 0x9A0AF0 Offset: 0x99F0F0 VA: 0x1809A0AF0
 	protected void Awake() { }
 
-	// RVA: 0x9A0AC0 Offset: 0x99F0C0 VA: 0x1809A0AC0
+	// RVA: 0x9A0BD0 Offset: 0x99F1D0 VA: 0x1809A0BD0
 	public void .ctor() { }
 
 }

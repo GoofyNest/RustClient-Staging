@@ -55,10 +55,10 @@ public struct Bounds : IEquatable<Bounds> // TypeDefIndex: 3372
 	// RVA: 0x212CD0 Offset: 0x2120D0 VA: 0x180212CD0
 	public void set_max(Vector3 value) { }
 
-	// RVA: 0x18208D0 Offset: 0x181EED0 VA: 0x1818208D0
+	// RVA: 0x1820B90 Offset: 0x181F190 VA: 0x181820B90
 	public static bool op_Equality(Bounds lhs, Bounds rhs) { }
 
-	// RVA: 0x18209C0 Offset: 0x181EFC0 VA: 0x1818209C0
+	// RVA: 0x1820C80 Offset: 0x181F280 VA: 0x181820C80
 	public static bool op_Inequality(Bounds lhs, Bounds rhs) { }
 
 	// RVA: 0x2128E0 Offset: 0x211CE0 VA: 0x1802128E0
@@ -88,23 +88,23 @@ public struct Bounds : IEquatable<Bounds> // TypeDefIndex: 3372
 	public float SqrDistance(Vector3 point) { }
 
 	[FreeFunctionAttribute] // RVA: 0x7DBE0 Offset: 0x7CFE0 VA: 0x18007DBE0
-	// RVA: 0x1820300 Offset: 0x181E900 VA: 0x181820300
+	// RVA: 0x18205C0 Offset: 0x181EBC0 VA: 0x1818205C0
 	private static bool IntersectRayAABB(Ray ray, Bounds bounds, out float dist) { }
 
 	[FreeFunctionAttribute] // RVA: 0x7DD30 Offset: 0x7D130 VA: 0x18007DD30
 	// RVA: 0x212360 Offset: 0x211760 VA: 0x180212360
 	public Vector3 ClosestPoint(Vector3 point) { }
 
-	// RVA: 0x181FEC0 Offset: 0x181E4C0 VA: 0x18181FEC0
+	// RVA: 0x1820180 Offset: 0x181E780 VA: 0x181820180
 	private static bool Contains_Injected(ref Bounds _unity_self, ref Vector3 point) { }
 
-	// RVA: 0x18204F0 Offset: 0x181EAF0 VA: 0x1818204F0
+	// RVA: 0x18207B0 Offset: 0x181EDB0 VA: 0x1818207B0
 	private static float SqrDistance_Injected(ref Bounds _unity_self, ref Vector3 point) { }
 
-	// RVA: 0x18202A0 Offset: 0x181E8A0 VA: 0x1818202A0
+	// RVA: 0x1820560 Offset: 0x181EB60 VA: 0x181820560
 	private static bool IntersectRayAABB_Injected(ref Ray ray, ref Bounds bounds, out float dist) { }
 
-	// RVA: 0x181FE00 Offset: 0x181E400 VA: 0x18181FE00
+	// RVA: 0x18200C0 Offset: 0x181E6C0 VA: 0x1818200C0
 	private static void ClosestPoint_Injected(ref Bounds _unity_self, ref Vector3 point, out Vector3 ret) { }
 
 }

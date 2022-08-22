@@ -16,10 +16,10 @@ public class SynchronizationContext // TypeDefIndex: 793
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x149BE00 Offset: 0x149A400 VA: 0x18149BE00 Slot: 4
+	// RVA: 0x149C0C0 Offset: 0x149A6C0 VA: 0x18149C0C0 Slot: 4
 	public virtual void Send(SendOrPostCallback d, object state) { }
 
-	// RVA: 0x149BD80 Offset: 0x149A380 VA: 0x18149BD80 Slot: 5
+	// RVA: 0x149C040 Offset: 0x149A640 VA: 0x18149C040 Slot: 5
 	public virtual void Post(SendOrPostCallback d, object state) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 6
@@ -28,20 +28,20 @@ public class SynchronizationContext // TypeDefIndex: 793
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	public virtual void OperationCompleted() { }
 
-	// RVA: 0x149BE30 Offset: 0x149A430 VA: 0x18149BE30
+	// RVA: 0x149C0F0 Offset: 0x149A6F0 VA: 0x18149C0F0
 	public static void SetSynchronizationContext(SynchronizationContext syncContext) { }
 
-	// RVA: 0x149BED0 Offset: 0x149A4D0 VA: 0x18149BED0
+	// RVA: 0x149C190 Offset: 0x149A790 VA: 0x18149C190
 	public static SynchronizationContext get_Current() { }
 
 	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x149BE90 Offset: 0x149A490 VA: 0x18149BE90
+	// RVA: 0x149C150 Offset: 0x149A750 VA: 0x18149C150
 	internal static SynchronizationContext get_CurrentNoFlow() { }
 
-	// RVA: 0x149BBC0 Offset: 0x149A1C0 VA: 0x18149BBC0
+	// RVA: 0x149BE80 Offset: 0x149A480 VA: 0x18149BE80
 	private static SynchronizationContext GetThreadLocalContext() { }
 
-	// RVA: 0x149BB70 Offset: 0x149A170 VA: 0x18149BB70 Slot: 8
+	// RVA: 0x149BE30 Offset: 0x149A430 VA: 0x18149BE30 Slot: 8
 	public virtual SynchronizationContext CreateCopy() { }
 
 }

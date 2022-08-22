@@ -10,7 +10,7 @@ public class IntegratedSubsystem : ISubsystem // TypeDefIndex: 3946
 
 	// Methods
 
-	// RVA: 0x2318750 Offset: 0x2316D50 VA: 0x182318750
+	// RVA: 0x2318A10 Offset: 0x2317010 VA: 0x182318A10
 	internal void SetHandle(IntegratedSubsystem inst) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

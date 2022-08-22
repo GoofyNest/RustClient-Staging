@@ -9,10 +9,10 @@ public class ConversationData : ScriptableObject // TypeDefIndex: 8840
 
 	// Methods
 
-	// RVA: 0x6BAFE0 Offset: 0x6B95E0 VA: 0x1806BAFE0
+	// RVA: 0x6BB0F0 Offset: 0x6B96F0 VA: 0x1806BB0F0
 	public string get_providerName() { }
 
-	// RVA: 0x6BAF30 Offset: 0x6B9530 VA: 0x1806BAF30
+	// RVA: 0x6BB040 Offset: 0x6B9640 VA: 0x1806BB040
 	public int GetSpeechNodeIndex(string speechShortName) { }
 
 	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
@@ -29,7 +29,7 @@ public class ConversationData.ConversationCondition // TypeDefIndex: 8841
 
 	// Methods
 
-	// RVA: 0x6BADD0 Offset: 0x6B93D0 VA: 0x1806BADD0
+	// RVA: 0x6BAEE0 Offset: 0x6B94E0 VA: 0x1806BAEE0
 	public bool Passes(BasePlayer player, IConversationProvider provider) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -62,13 +62,13 @@ public class ConversationData.ResponseNode // TypeDefIndex: 8843
 
 	// Methods
 
-	// RVA: 0x6C8910 Offset: 0x6C6F10 VA: 0x1806C8910
+	// RVA: 0x6C8A20 Offset: 0x6C7020 VA: 0x1806C8A20
 	public string get_responseText() { }
 
-	// RVA: 0x6C8730 Offset: 0x6C6D30 VA: 0x1806C8730
+	// RVA: 0x6C8840 Offset: 0x6C6E40 VA: 0x1806C8840
 	public bool PassesConditions(BasePlayer player, IConversationProvider provider) { }
 
-	// RVA: 0x6C8530 Offset: 0x6C6B30 VA: 0x1806C8530
+	// RVA: 0x6C8640 Offset: 0x6C6C40 VA: 0x1806C8640
 	public string GetFailedSpeechNode(BasePlayer player, IConversationProvider provider) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -88,7 +88,7 @@ public class ConversationData.SpeechNode // TypeDefIndex: 8844
 
 	// Methods
 
-	// RVA: 0x6C8940 Offset: 0x6C6F40 VA: 0x1806C8940
+	// RVA: 0x6C8A50 Offset: 0x6C7050 VA: 0x1806C8A50
 	public string get_statement() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

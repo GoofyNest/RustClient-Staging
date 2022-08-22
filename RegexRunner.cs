@@ -25,16 +25,16 @@ public abstract class RegexRunner // TypeDefIndex: 2629
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	protected internal void .ctor() { }
 
-	// RVA: 0x16B89D0 Offset: 0x16B6FD0 VA: 0x1816B89D0
+	// RVA: 0x16B8C90 Offset: 0x16B7290 VA: 0x1816B8C90
 	protected internal Match Scan(Regex regex, string text, int textbeg, int textend, int textstart, int prevlen, bool quick, TimeSpan timeout) { }
 
-	// RVA: 0x16B8D80 Offset: 0x16B7380 VA: 0x1816B8D80
+	// RVA: 0x16B9040 Offset: 0x16B7640 VA: 0x1816B9040
 	private void StartTimeoutWatch() { }
 
-	// RVA: 0x16B7E30 Offset: 0x16B6430 VA: 0x1816B7E30
+	// RVA: 0x16B80F0 Offset: 0x16B66F0 VA: 0x1816B80F0
 	protected void CheckTimeout() { }
 
-	// RVA: 0x16B8050 Offset: 0x16B6650 VA: 0x1816B8050
+	// RVA: 0x16B8310 Offset: 0x16B6910 VA: 0x1816B8310
 	private void DoCheckTimeout() { }
 
 	// RVA: -1 Offset: -1 Slot: 4
@@ -46,55 +46,55 @@ public abstract class RegexRunner // TypeDefIndex: 2629
 	// RVA: -1 Offset: -1 Slot: 6
 	protected abstract void InitTrackCount();
 
-	// RVA: 0x16B84B0 Offset: 0x16B6AB0 VA: 0x1816B84B0
+	// RVA: 0x16B8770 Offset: 0x16B6D70 VA: 0x1816B8770
 	private void InitMatch() { }
 
-	// RVA: 0x16B8DB0 Offset: 0x16B73B0 VA: 0x1816B8DB0
+	// RVA: 0x16B9070 Offset: 0x16B7670 VA: 0x1816B9070
 	private Match TidyMatch(bool quick) { }
 
-	// RVA: 0x16B8360 Offset: 0x16B6960 VA: 0x1816B8360
+	// RVA: 0x16B8620 Offset: 0x16B6C20 VA: 0x1816B8620
 	protected void EnsureStorage() { }
 
-	// RVA: 0x16B8720 Offset: 0x16B6D20 VA: 0x1816B8720
+	// RVA: 0x16B89E0 Offset: 0x16B6FE0 VA: 0x1816B89E0
 	protected bool IsBoundary(int index, int startpos, int endpos) { }
 
-	// RVA: 0x16B8810 Offset: 0x16B6E10 VA: 0x1816B8810
+	// RVA: 0x16B8AD0 Offset: 0x16B70D0 VA: 0x1816B8AD0
 	protected bool IsECMABoundary(int index, int startpos, int endpos) { }
 
-	// RVA: 0x16B82B0 Offset: 0x16B68B0 VA: 0x1816B82B0
+	// RVA: 0x16B8570 Offset: 0x16B6B70 VA: 0x1816B8570
 	protected void DoubleTrack() { }
 
-	// RVA: 0x16B8200 Offset: 0x16B6800 VA: 0x1816B8200
+	// RVA: 0x16B84C0 Offset: 0x16B6AC0 VA: 0x1816B84C0
 	protected void DoubleStack() { }
 
-	// RVA: 0x16B8150 Offset: 0x16B6750 VA: 0x1816B8150
+	// RVA: 0x16B8410 Offset: 0x16B6A10 VA: 0x1816B8410
 	protected void DoubleCrawl() { }
 
-	// RVA: 0x16B7F40 Offset: 0x16B6540 VA: 0x1816B7F40
+	// RVA: 0x16B8200 Offset: 0x16B6800 VA: 0x1816B8200
 	protected void Crawl(int i) { }
 
-	// RVA: 0x16B8990 Offset: 0x16B6F90 VA: 0x1816B8990
+	// RVA: 0x16B8C50 Offset: 0x16B7250 VA: 0x1816B8C50
 	protected int Popcrawl() { }
 
-	// RVA: 0x16B8030 Offset: 0x16B6630 VA: 0x1816B8030
+	// RVA: 0x16B82F0 Offset: 0x16B68F0 VA: 0x1816B82F0
 	protected int Crawlpos() { }
 
-	// RVA: 0x16B7DA0 Offset: 0x16B63A0 VA: 0x1816B7DA0
+	// RVA: 0x16B8060 Offset: 0x16B6660 VA: 0x1816B8060
 	protected void Capture(int capnum, int start, int end) { }
 
-	// RVA: 0x16B8E10 Offset: 0x16B7410 VA: 0x1816B8E10
+	// RVA: 0x16B90D0 Offset: 0x16B76D0 VA: 0x1816B90D0
 	protected void TransferCapture(int capnum, int uncapnum, int start, int end) { }
 
-	// RVA: 0x16B8F30 Offset: 0x16B7530 VA: 0x1816B8F30
+	// RVA: 0x16B91F0 Offset: 0x16B77F0 VA: 0x1816B91F0
 	protected void Uncapture() { }
 
-	// RVA: 0x16B8900 Offset: 0x16B6F00 VA: 0x1816B8900
+	// RVA: 0x16B8BC0 Offset: 0x16B71C0 VA: 0x1816B8BC0
 	protected bool IsMatched(int cap) { }
 
-	// RVA: 0x16B8930 Offset: 0x16B6F30 VA: 0x1816B8930
+	// RVA: 0x16B8BF0 Offset: 0x16B71F0 VA: 0x1816B8BF0
 	protected int MatchIndex(int cap) { }
 
-	// RVA: 0x16B8960 Offset: 0x16B6F60 VA: 0x1816B8960
+	// RVA: 0x16B8C20 Offset: 0x16B7220 VA: 0x1816B8C20
 	protected int MatchLength(int cap) { }
 
 }

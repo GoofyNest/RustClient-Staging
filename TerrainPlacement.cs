@@ -34,25 +34,25 @@ public abstract class TerrainPlacement : PrefabAttribute // TypeDefIndex: 10595
 
 	// Methods
 
-	// RVA: 0x1151150 Offset: 0x114F750 VA: 0x181151150
+	// RVA: 0x1151410 Offset: 0x114FA10 VA: 0x181151410
 	public void Apply(Matrix4x4 localToWorld, Matrix4x4 worldToLocal) { }
 
-	// RVA: 0x11516A0 Offset: 0x114FCA0 VA: 0x1811516A0
+	// RVA: 0x1151960 Offset: 0x114FF60 VA: 0x181151960
 	protected bool ShouldHeight() { }
 
-	// RVA: 0x1151700 Offset: 0x114FD00 VA: 0x181151700
+	// RVA: 0x11519C0 Offset: 0x114FFC0 VA: 0x1811519C0
 	protected bool ShouldSplat(int id = -1) { }
 
-	// RVA: 0x11515D0 Offset: 0x114FBD0 VA: 0x1811515D0
+	// RVA: 0x1151890 Offset: 0x114FE90 VA: 0x181151890
 	protected bool ShouldAlpha() { }
 
-	// RVA: 0x1151630 Offset: 0x114FC30 VA: 0x181151630
+	// RVA: 0x11518F0 Offset: 0x114FEF0 VA: 0x1811518F0
 	protected bool ShouldBiome(int id = -1) { }
 
-	// RVA: 0x1151790 Offset: 0x114FD90 VA: 0x181151790
+	// RVA: 0x1151A50 Offset: 0x1150050 VA: 0x181151A50
 	protected bool ShouldTopology(int id = -1) { }
 
-	// RVA: 0x1151800 Offset: 0x114FE00 VA: 0x181151800
+	// RVA: 0x1151AC0 Offset: 0x11500C0 VA: 0x181151AC0
 	protected bool ShouldWater() { }
 
 	// RVA: -1 Offset: -1 Slot: 8
@@ -73,10 +73,10 @@ public abstract class TerrainPlacement : PrefabAttribute // TypeDefIndex: 10595
 	// RVA: -1 Offset: -1 Slot: 13
 	protected abstract void ApplyWater(Matrix4x4 localToWorld, Matrix4x4 worldToLocal);
 
-	// RVA: 0x1151570 Offset: 0x114FB70 VA: 0x181151570 Slot: 7
+	// RVA: 0x1151830 Offset: 0x114FE30 VA: 0x181151830 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x1151860 Offset: 0x114FE60 VA: 0x181151860
+	// RVA: 0x1151B20 Offset: 0x1150120 VA: 0x181151B20
 	protected void .ctor() { }
 
 }

@@ -8,7 +8,7 @@ internal static class ContractUtils // TypeDefIndex: 3252
 
 	// Methods
 
-	// RVA: 0x2229310 Offset: 0x2227910 VA: 0x182229310
+	// RVA: 0x22295D0 Offset: 0x2227BD0 VA: 0x1822295D0
 	public static Exception get_Unreachable() { }
 
 }

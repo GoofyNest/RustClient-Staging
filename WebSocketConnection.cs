@@ -68,11 +68,11 @@ public class WebSocketConnection : IWebSocketConnection // TypeDefIndex: 6925
 	public void set_OnOpen(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330 Slot: 5
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 5
 	public Action get_OnClose() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340 Slot: 6
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450 Slot: 6
 	public void set_OnClose(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -88,7 +88,7 @@ public class WebSocketConnection : IWebSocketConnection // TypeDefIndex: 6925
 	public BinaryDataHandler get_OnBinary() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0 Slot: 18
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0 Slot: 18
 	public void set_OnBinary(BinaryDataHandler value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -123,46 +123,46 @@ public class WebSocketConnection : IWebSocketConnection // TypeDefIndex: 6925
 	// RVA: 0x4CF880 Offset: 0x4CDE80 VA: 0x1804CF880
 	private void set_ConnectionInfo(IWebSocketConnectionInfo value) { }
 
-	// RVA: 0x220B360 Offset: 0x2209960 VA: 0x18220B360 Slot: 16
+	// RVA: 0x220B620 Offset: 0x2209C20 VA: 0x18220B620 Slot: 16
 	public bool get_IsAvailable() { }
 
-	// RVA: 0x220ADD0 Offset: 0x22093D0 VA: 0x18220ADD0
+	// RVA: 0x220B090 Offset: 0x2209690 VA: 0x18220B090
 	public void .ctor(ISocket socket, Action<IWebSocketConnection> initialize, Func<ArraySegment<byte>, WebSocketHttpRequest> parseRequest, Func<IWebSocketConnection, WebSocketHttpRequest, IHandler> handlerFactory) { }
 
-	// RVA: 0x220AB20 Offset: 0x2209120 VA: 0x18220AB20 Slot: 13
+	// RVA: 0x220ADE0 Offset: 0x22093E0 VA: 0x18220ADE0 Slot: 13
 	public void Send(string message) { }
 
-	// RVA: 0x220AA00 Offset: 0x2209000 VA: 0x18220AA00
+	// RVA: 0x220ACC0 Offset: 0x22092C0 VA: 0x18220ACC0
 	private void SendImpl(MemoryBuffer buffer) { }
 
-	// RVA: 0x2209BE0 Offset: 0x22081E0 VA: 0x182209BE0 Slot: 14
+	// RVA: 0x2209EA0 Offset: 0x22084A0 VA: 0x182209EA0 Slot: 14
 	public void Close() { }
 
-	// RVA: 0x2209BF0 Offset: 0x22081F0 VA: 0x182209BF0
+	// RVA: 0x2209EB0 Offset: 0x22084B0 VA: 0x182209EB0
 	public void Close(ushort code) { }
 
-	// RVA: 0x2209E10 Offset: 0x2208410 VA: 0x182209E10
+	// RVA: 0x220A0D0 Offset: 0x22086D0 VA: 0x18220A0D0
 	public bool CreateHandler(ArraySegment<byte> data) { }
 
-	// RVA: 0x220ACF0 Offset: 0x22092F0 VA: 0x18220ACF0
+	// RVA: 0x220AFB0 Offset: 0x22095B0 VA: 0x18220AFB0
 	public void StartReceiving() { }
 
-	// RVA: 0x220A550 Offset: 0x2208B50 VA: 0x18220A550
+	// RVA: 0x220A810 Offset: 0x2208E10 VA: 0x18220A810
 	private void HandleReadSuccess(int bytesRead) { }
 
-	// RVA: 0x220A290 Offset: 0x2208890 VA: 0x18220A290
+	// RVA: 0x220A550 Offset: 0x2208B50 VA: 0x18220A550
 	private void HandleReadError(Exception e) { }
 
-	// RVA: 0x220A720 Offset: 0x2208D20 VA: 0x18220A720
+	// RVA: 0x220A9E0 Offset: 0x2208FE0 VA: 0x18220A9E0
 	private void Receive(byte[] buffer, int offset) { }
 
-	// RVA: 0x220A6C0 Offset: 0x2208CC0 VA: 0x18220A6C0
+	// RVA: 0x220A980 Offset: 0x2208F80 VA: 0x18220A980
 	private void HandleWriteError(Exception e) { }
 
-	// RVA: 0x220A8B0 Offset: 0x2208EB0 VA: 0x18220A8B0
+	// RVA: 0x220AB70 Offset: 0x2209170 VA: 0x18220AB70
 	private void SendBytes(MemoryBuffer bytes, Action<WebSocketConnection, bool> callback) { }
 
-	// RVA: 0x2209B00 Offset: 0x2208100 VA: 0x182209B00
+	// RVA: 0x2209DC0 Offset: 0x22083C0 VA: 0x182209DC0
 	private void CloseSocket() { }
 
 }
@@ -183,7 +183,7 @@ private sealed class WebSocketConnection.<>c // TypeDefIndex: 6926
 
 	// Methods
 
-	// RVA: 0x22098C0 Offset: 0x2207EC0 VA: 0x1822098C0
+	// RVA: 0x2209B80 Offset: 0x2208180 VA: 0x182209B80
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -210,13 +210,13 @@ private sealed class WebSocketConnection.<>c // TypeDefIndex: 6926
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal void <.ctor>b__50_6(Exception x) { }
 
-	// RVA: 0x2208BA0 Offset: 0x22071A0 VA: 0x182208BA0
+	// RVA: 0x2208E60 Offset: 0x2207460 VA: 0x182208E60
 	internal void <Close>b__58_0(WebSocketConnection i, bool s) { }
 
-	// RVA: 0x2208BC0 Offset: 0x22071C0 VA: 0x182208BC0
+	// RVA: 0x2208E80 Offset: 0x2207480 VA: 0x182208E80
 	internal void <CreateHandler>b__59_0(WebSocketConnection instance, bool success) { }
 
-	// RVA: 0x2208C60 Offset: 0x2207260 VA: 0x182208C60
+	// RVA: 0x2208F20 Offset: 0x2207520 VA: 0x182208F20
 	internal void <Receive>b__63_0(IAsyncResult result) { }
 
 }
@@ -231,7 +231,7 @@ private sealed class WebSocketConnection.<>c__DisplayClass65_0 // TypeDefIndex: 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2209560 Offset: 0x2207B60 VA: 0x182209560
+	// RVA: 0x2209820 Offset: 0x2207E20 VA: 0x182209820
 	internal void <SendBytes>b__0(IAsyncResult result) { }
 
 }

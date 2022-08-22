@@ -6,7 +6,7 @@ internal class KSStruct // TypeDefIndex: 2148
 
 	// Methods
 
-	// RVA: 0xB106C0 Offset: 0xB0ECC0 VA: 0x180B106C0
+	// RVA: 0xB10980 Offset: 0xB0EF80 VA: 0x180B10980
 	public void .ctor(KeySequence ks, int dim) { }
 
 }

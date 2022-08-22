@@ -7,22 +7,22 @@ public class TerrainGenerator : SingletonComponent<TerrainGenerator> // TypeDefI
 
 	// Methods
 
-	// RVA: 0x1140960 Offset: 0x113EF60 VA: 0x181140960
+	// RVA: 0x1140C20 Offset: 0x113F220 VA: 0x181140C20
 	public static int GetHeightMapRes() { }
 
-	// RVA: 0x1140A00 Offset: 0x113F000 VA: 0x181140A00
+	// RVA: 0x1140CC0 Offset: 0x113F2C0 VA: 0x181140CC0
 	public static int GetSplatMapRes() { }
 
-	// RVA: 0x11408C0 Offset: 0x113EEC0 VA: 0x1811408C0
+	// RVA: 0x1140B80 Offset: 0x113F180 VA: 0x181140B80
 	public static int GetBaseMapRes() { }
 
-	// RVA: 0x1140760 Offset: 0x113ED60 VA: 0x181140760
+	// RVA: 0x1140A20 Offset: 0x113F020 VA: 0x181140A20
 	public GameObject CreateTerrain() { }
 
-	// RVA: 0x1140080 Offset: 0x113E680 VA: 0x181140080
+	// RVA: 0x1140340 Offset: 0x113E940 VA: 0x181140340
 	public GameObject CreateTerrain(int heightmapResolution, int alphamapResolution) { }
 
-	// RVA: 0x1140AA0 Offset: 0x113F0A0 VA: 0x181140AA0
+	// RVA: 0x1140D60 Offset: 0x113F360 VA: 0x181140D60
 	public void .ctor() { }
 
 }

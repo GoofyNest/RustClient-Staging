@@ -4,13 +4,13 @@ internal class DelegateSerializationHolder : ISerializable, IObjectReference // 
 
 	// Methods
 
-	// RVA: 0xD70E10 Offset: 0xD6F410 VA: 0x180D70E10
+	// RVA: 0xD710D0 Offset: 0xD6F6D0 VA: 0x180D710D0
 	private void .ctor(SerializationInfo info, StreamingContext ctx) { }
 
-	// RVA: 0xD70BA0 Offset: 0xD6F1A0 VA: 0x180D70BA0
+	// RVA: 0xD70E60 Offset: 0xD6F460 VA: 0x180D70E60
 	public static void GetDelegateData(Delegate instance, SerializationInfo info, StreamingContext ctx) { }
 
-	// RVA: 0xD70DC0 Offset: 0xD6F3C0 VA: 0x180D70DC0 Slot: 4
+	// RVA: 0xD71080 Offset: 0xD6F680 VA: 0x180D71080 Slot: 4
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 5
@@ -30,10 +30,10 @@ private class DelegateSerializationHolder.DelegateEntry // TypeDefIndex: 358
 
 	// Methods
 
-	// RVA: 0xD709B0 Offset: 0xD6EFB0 VA: 0x180D709B0
+	// RVA: 0xD70C70 Offset: 0xD6F270 VA: 0x180D70C70
 	public void .ctor(Delegate del, string targetLabel) { }
 
-	// RVA: 0xD70610 Offset: 0xD6EC10 VA: 0x180D70610
+	// RVA: 0xD708D0 Offset: 0xD6EED0 VA: 0x180D708D0
 	public Delegate DeserializeDelegate(SerializationInfo info, int index) { }
 
 }

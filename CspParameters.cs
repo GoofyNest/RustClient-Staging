@@ -14,19 +14,19 @@ public sealed class CspParameters // TypeDefIndex: 947
 	// RVA: 0x5DE3B0 Offset: 0x5DC9B0 VA: 0x1805DE3B0
 	public CspProviderFlags get_Flags() { }
 
-	// RVA: 0x16FCB10 Offset: 0x16FB110 VA: 0x1816FCB10
+	// RVA: 0x16FCDD0 Offset: 0x16FB3D0 VA: 0x1816FCDD0
 	public void set_Flags(CspProviderFlags value) { }
 
-	// RVA: 0x16FC9E0 Offset: 0x16FAFE0 VA: 0x1816FC9E0
+	// RVA: 0x16FCCA0 Offset: 0x16FB2A0 VA: 0x1816FCCA0
 	public void .ctor() { }
 
-	// RVA: 0x16FCA40 Offset: 0x16FB040 VA: 0x1816FCA40
+	// RVA: 0x16FCD00 Offset: 0x16FB300 VA: 0x1816FCD00
 	public void .ctor(int dwTypeIn) { }
 
-	// RVA: 0x16FCAA0 Offset: 0x16FB0A0 VA: 0x1816FCAA0
+	// RVA: 0x16FCD60 Offset: 0x16FB360 VA: 0x1816FCD60
 	public void .ctor(int dwTypeIn, string strProviderNameIn, string strContainerNameIn) { }
 
-	// RVA: 0x16FC960 Offset: 0x16FAF60 VA: 0x1816FC960
+	// RVA: 0x16FCC20 Offset: 0x16FB220 VA: 0x1816FCC20
 	internal void .ctor(int providerType, string providerName, string keyContainerName, CspProviderFlags flags) { }
 
 }

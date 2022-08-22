@@ -2,7 +2,7 @@ internal static class IntExtensions // TypeDefIndex: 6914
 {	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2207420 Offset: 0x2205A20 VA: 0x182207420
+	// RVA: 0x22076E0 Offset: 0x2205CE0 VA: 0x1822076E0
 	public static int ToLittleEndianInt(Span<byte> source) { }
 
 	// RVA: -1 Offset: -1

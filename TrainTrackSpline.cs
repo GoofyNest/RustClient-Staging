@@ -8,7 +8,7 @@ public class TrainTrackSpline : WorldSpline // TypeDefIndex: 9774
 
 	// Methods
 
-	// RVA: 0xA168A0 Offset: 0xA14EA0 VA: 0x180A168A0
+	// RVA: 0xA16B60 Offset: 0xA15160 VA: 0x180A16B60
 	public void .ctor() { }
 
 }

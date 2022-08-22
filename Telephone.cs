@@ -11,82 +11,82 @@ public class Telephone : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6390
 
 	// Methods
 
-	// RVA: 0x1DC9900 Offset: 0x1DC7F00 VA: 0x181DC9900
+	// RVA: 0x1DC9BC0 Offset: 0x1DC81C0 VA: 0x181DC9BC0
 	public static void ResetToPool(Telephone instance) { }
 
-	// RVA: 0x1DC9B50 Offset: 0x1DC8150 VA: 0x181DC9B50
+	// RVA: 0x1DC9E10 Offset: 0x1DC8410 VA: 0x181DC9E10
 	public void ResetToPool() { }
 
-	// RVA: 0x1DC9570 Offset: 0x1DC7B70 VA: 0x181DC9570 Slot: 9
+	// RVA: 0x1DC9830 Offset: 0x1DC7E30 VA: 0x181DC9830 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DC7D60 Offset: 0x1DC6360 VA: 0x181DC7D60
+	// RVA: 0x1DC8020 Offset: 0x1DC6620 VA: 0x181DC8020
 	public void CopyTo(Telephone instance) { }
 
-	// RVA: 0x1DC7EE0 Offset: 0x1DC64E0 VA: 0x181DC7EE0
+	// RVA: 0x1DC81A0 Offset: 0x1DC67A0 VA: 0x181DC81A0
 	public Telephone Copy() { }
 
-	// RVA: 0x1DC8BA0 Offset: 0x1DC71A0 VA: 0x181DC8BA0
+	// RVA: 0x1DC8E60 Offset: 0x1DC7460 VA: 0x181DC8E60
 	public static Telephone Deserialize(Stream stream) { }
 
-	// RVA: 0x1DC7F60 Offset: 0x1DC6560 VA: 0x181DC7F60
+	// RVA: 0x1DC8220 Offset: 0x1DC6820 VA: 0x181DC8220
 	public static Telephone DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DC83C0 Offset: 0x1DC69C0 VA: 0x181DC83C0
+	// RVA: 0x1DC8680 Offset: 0x1DC6C80 VA: 0x181DC8680
 	public static Telephone DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DC8800 Offset: 0x1DC6E00 VA: 0x181DC8800
+	// RVA: 0x1DC8AC0 Offset: 0x1DC70C0 VA: 0x181DC8AC0
 	public static Telephone Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DC95F0 Offset: 0x1DC7BF0 VA: 0x181DC95F0
+	// RVA: 0x1DC98B0 Offset: 0x1DC7EB0 VA: 0x181DC98B0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DCA740 Offset: 0x1DC8D40 VA: 0x181DCA740 Slot: 12
+	// RVA: 0x1DCAA00 Offset: 0x1DC9000 VA: 0x181DCAA00 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DCA760 Offset: 0x1DC8D60 VA: 0x181DCA760 Slot: 13
+	// RVA: 0x1DCAA20 Offset: 0x1DC9020 VA: 0x181DCAA20 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Telephone previous) { }
 
-	// RVA: 0x1DC98E0 Offset: 0x1DC7EE0 VA: 0x181DC98E0 Slot: 14
+	// RVA: 0x1DC9BA0 Offset: 0x1DC81A0 VA: 0x181DC9BA0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DC91A0 Offset: 0x1DC77A0 VA: 0x181DC91A0
+	// RVA: 0x1DC9460 Offset: 0x1DC7A60 VA: 0x181DC9460
 	public static Telephone Deserialize(byte[] buffer, Telephone instance, bool isDelta = False) { }
 
-	// RVA: 0x1DC8EA0 Offset: 0x1DC74A0 VA: 0x181DC8EA0
+	// RVA: 0x1DC9160 Offset: 0x1DC7760 VA: 0x181DC9160
 	public static Telephone Deserialize(Stream stream, Telephone instance, bool isDelta) { }
 
-	// RVA: 0x1DC7FE0 Offset: 0x1DC65E0 VA: 0x181DC7FE0
+	// RVA: 0x1DC82A0 Offset: 0x1DC68A0 VA: 0x181DC82A0
 	public static Telephone DeserializeLengthDelimited(Stream stream, Telephone instance, bool isDelta) { }
 
-	// RVA: 0x1DC8450 Offset: 0x1DC6A50 VA: 0x181DC8450
+	// RVA: 0x1DC8710 Offset: 0x1DC6D10 VA: 0x181DC8710
 	public static Telephone DeserializeLength(Stream stream, int length, Telephone instance, bool isDelta) { }
 
-	// RVA: 0x1DC9DA0 Offset: 0x1DC83A0 VA: 0x181DC9DA0
+	// RVA: 0x1DCA060 Offset: 0x1DC8660 VA: 0x181DCA060
 	public static void SerializeDelta(Stream stream, Telephone instance, Telephone previous) { }
 
-	// RVA: 0x1DCA3A0 Offset: 0x1DC89A0 VA: 0x181DCA3A0
+	// RVA: 0x1DCA660 Offset: 0x1DC8C60 VA: 0x181DCA660
 	public static void Serialize(Stream stream, Telephone instance) { }
 
-	// RVA: 0x1DCA730 Offset: 0x1DC8D30 VA: 0x181DCA730
+	// RVA: 0x1DCA9F0 Offset: 0x1DC8FF0 VA: 0x181DCA9F0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DCA740 Offset: 0x1DC8D40 VA: 0x181DCA740
+	// RVA: 0x1DCAA00 Offset: 0x1DC9000 VA: 0x181DCAA00
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DCA290 Offset: 0x1DC8890 VA: 0x181DCA290
+	// RVA: 0x1DCA550 Offset: 0x1DC8B50 VA: 0x181DCA550
 	public static byte[] SerializeToBytes(Telephone instance) { }
 
-	// RVA: 0x1DCA1E0 Offset: 0x1DC87E0 VA: 0x181DCA1E0
+	// RVA: 0x1DCA4A0 Offset: 0x1DC8AA0 VA: 0x181DCA4A0
 	public static void SerializeLengthDelimited(Stream stream, Telephone instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -121,137 +121,137 @@ public class Telephone : ContainerIOEntity, ICassettePlayer // TypeDefIndex: 846
 
 	// Methods
 
-	// RVA: 0x7B0560 Offset: 0x7AEB60 VA: 0x1807B0560 Slot: 49
+	// RVA: 0x7B0670 Offset: 0x7AEC70 VA: 0x1807B0670 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x7B4730 Offset: 0x7B2D30 VA: 0x1807B4730 Slot: 50
+	// RVA: 0x7B4840 Offset: 0x7B2E40 VA: 0x1807B4840 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x7B2240 Offset: 0x7B0840 VA: 0x1807B2240 Slot: 35
+	// RVA: 0x7B2350 Offset: 0x7B0950 VA: 0x1807B2350 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B48F0 Offset: 0x7B2EF0 VA: 0x1807B48F0
+	// RVA: 0x7B4A00 Offset: 0x7B3000 VA: 0x1807B4A00
 	public Cassette get_cachedCassette() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B21F0 Offset: 0x7B07F0 VA: 0x1807B21F0
+	// RVA: 0x7B2300 Offset: 0x7B0900 VA: 0x1807B2300
 	private void set_cachedCassette(Cassette value) { }
 
 	[BaseEntity.Menu] // RVA: 0x8FBC0 Offset: 0x8EFC0 VA: 0x18008FBC0
 	[BaseEntity.Menu.Description] // RVA: 0x8FBC0 Offset: 0x8EFC0 VA: 0x18008FBC0
 	[BaseEntity.Menu.Icon] // RVA: 0x8FBC0 Offset: 0x8EFC0 VA: 0x18008FBC0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8FBC0 Offset: 0x8EFC0 VA: 0x18008FBC0
-	// RVA: 0x7B1F70 Offset: 0x7B0570 VA: 0x1807B1F70
+	// RVA: 0x7B2080 Offset: 0x7B0680 VA: 0x1807B2080
 	public void Menu_MakeCall(BasePlayer player) { }
 
-	// RVA: 0x7B0420 Offset: 0x7AEA20 VA: 0x1807B0420
+	// RVA: 0x7B0530 Offset: 0x7AEB30 VA: 0x1807B0530
 	private void DelayedViewModelDeploy() { }
 
-	// RVA: 0x7B0B30 Offset: 0x7AF130 VA: 0x1807B0B30
+	// RVA: 0x7B0C40 Offset: 0x7AF240 VA: 0x1807B0C40
 	public void HolsterViewmodel() { }
 
 	[BaseEntity.Menu] // RVA: 0x8FF40 Offset: 0x8F340 VA: 0x18008FF40
 	[BaseEntity.Menu.Description] // RVA: 0x8FF40 Offset: 0x8F340 VA: 0x18008FF40
 	[BaseEntity.Menu.Icon] // RVA: 0x8FF40 Offset: 0x8F340 VA: 0x18008FF40
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8FF40 Offset: 0x8F340 VA: 0x18008FF40
-	// RVA: 0x7B1EA0 Offset: 0x7B04A0 VA: 0x1807B1EA0
+	// RVA: 0x7B1FB0 Offset: 0x7B05B0 VA: 0x1807B1FB0
 	public void Menu_Answer(BasePlayer player) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B41A0 Offset: 0x7B27A0 VA: 0x1807B41A0
+	// RVA: 0x7B42B0 Offset: 0x7B28B0 VA: 0x1807B42B0
 	public void SetClientState(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x7B0FF0 Offset: 0x7AF5F0 VA: 0x1807B0FF0
+	// RVA: 0x7B1100 Offset: 0x7AF700 VA: 0x1807B1100
 	private void LateUpdate() { }
 
-	// RVA: 0x7AFE50 Offset: 0x7AE450 VA: 0x1807AFE50
+	// RVA: 0x7AFF60 Offset: 0x7AE560 VA: 0x1807AFF60
 	private void ApplyDroopCurve(Vector3[] points, Vector3 startPos, Vector3 endPos) { }
 
-	// RVA: 0x7B0D20 Offset: 0x7AF320 VA: 0x1807B0D20
+	// RVA: 0x7B0E30 Offset: 0x7AF430 VA: 0x1807B0E30
 	private bool IsPhoneUsable(BasePlayer player) { }
 
-	// RVA: 0x7B0C90 Offset: 0x7AF290 VA: 0x1807B0C90
+	// RVA: 0x7B0DA0 Offset: 0x7AF3A0 VA: 0x1807B0DA0
 	private bool IsPhoneRinging(BasePlayer player) { }
 
-	// RVA: 0x7B0EE0 Offset: 0x7AF4E0 VA: 0x1807B0EE0
+	// RVA: 0x7B0FF0 Offset: 0x7AF5F0 VA: 0x1807B0FF0
 	private bool IsPlayerLookingAtPhone(BasePlayer player) { }
 
-	// RVA: 0x7B0DD0 Offset: 0x7AF3D0 VA: 0x1807B0DD0
+	// RVA: 0x7B0EE0 Offset: 0x7AF4E0 VA: 0x1807B0EE0
 	private bool IsPlayerLookingAtAnsweringMachine(BasePlayer player) { }
 
-	// RVA: 0x7B41E0 Offset: 0x7B27E0 VA: 0x1807B41E0 Slot: 164
+	// RVA: 0x7B42F0 Offset: 0x7B28F0 VA: 0x1807B42F0 Slot: 164
 	public override bool ShouldShowLootMenus() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B0310 Offset: 0x7AE910 VA: 0x1807B0310
+	// RVA: 0x7B0420 Offset: 0x7AEA20 VA: 0x1807B0420
 	public void ClientOnDialFailed(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B0390 Offset: 0x7AE990 VA: 0x1807B0390
+	// RVA: 0x7B04A0 Offset: 0x7AEAA0 VA: 0x1807B04A0
 	private void ClientReceiveAnsweringData(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B0350 Offset: 0x7AE950 VA: 0x1807B0350
+	// RVA: 0x7B0460 Offset: 0x7AEA60 VA: 0x1807B0460
 	private void ClientPlayAnsweringMessage(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B21C0 Offset: 0x7B07C0 VA: 0x1807B21C0
+	// RVA: 0x7B22D0 Offset: 0x7B08D0 VA: 0x1807B22D0
 	public void OnIncomingCallDuringCall() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B2200 Offset: 0x7B0800 VA: 0x1807B2200
+	// RVA: 0x7B2310 Offset: 0x7B0910 VA: 0x1807B2310
 	public void OnReceivedVoice(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x7B21F0 Offset: 0x7B07F0 VA: 0x1807B21F0 Slot: 168
+	// RVA: 0x7B2300 Offset: 0x7B0900 VA: 0x1807B2300 Slot: 168
 	public void OnLoadedWithCassette(Cassette c) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B0180 Offset: 0x7AE780 VA: 0x1807B0180
+	// RVA: 0x7B0290 Offset: 0x7AE890 VA: 0x1807B0290
 	public void ClientOnCassetteChanged(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B4080 Offset: 0x7B2680 VA: 0x1807B4080
+	// RVA: 0x7B4190 Offset: 0x7B2790 VA: 0x1807B4190
 	private void ReceivePhoneDirectory(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B03E0 Offset: 0x7AE9E0 VA: 0x1807B03E0
+	// RVA: 0x7B04F0 Offset: 0x7AEAF0 VA: 0x1807B04F0
 	private void ClientToggleVoicemail(BaseEntity.RPCMessage msg) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 169
 	public void OnCensorRecordingsChanged() { }
 
-	// RVA: 0x7B0C10 Offset: 0x7AF210 VA: 0x1807B0C10
+	// RVA: 0x7B0D20 Offset: 0x7AF320 VA: 0x1807B0D20
 	public static bool IsNumberCensored(int number) { }
 
-	// RVA: 0x7B46B0 Offset: 0x7B2CB0 VA: 0x1807B46B0
+	// RVA: 0x7B47C0 Offset: 0x7B2DC0 VA: 0x1807B47C0
 	private static string get_CensoredNumbersPath() { }
 
-	// RVA: 0x7B4720 Offset: 0x7B2D20 VA: 0x1807B4720
+	// RVA: 0x7B4830 Offset: 0x7B2E30 VA: 0x1807B4830
 	private static int get_CensoredNumbersVersion() { }
 
-	// RVA: 0x7B1740 Offset: 0x7AFD40 VA: 0x1807B1740
+	// RVA: 0x7B1850 Offset: 0x7AFE50 VA: 0x1807B1850
 	private static void LoadCensoredNumbers() { }
 
-	// RVA: 0x7B40C0 Offset: 0x7B26C0 VA: 0x1807B40C0
+	// RVA: 0x7B41D0 Offset: 0x7B27D0 VA: 0x1807B41D0
 	private static void SaveCensoredNumbers() { }
 
-	// RVA: 0x7B43A0 Offset: 0x7B29A0 VA: 0x1807B43A0
+	// RVA: 0x7B44B0 Offset: 0x7B2AB0 VA: 0x1807B44B0
 	public static void ToggleNumberCensorship(int number, bool state) { }
 
-	// RVA: 0x7B19D0 Offset: 0x7AFFD0 VA: 0x1807B19D0 Slot: 34
+	// RVA: 0x7B1AE0 Offset: 0x7B00E0 VA: 0x1807B1AE0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x7B00E0 Offset: 0x7AE6E0 VA: 0x1807B00E0 Slot: 134
+	// RVA: 0x7B01F0 Offset: 0x7AE7F0 VA: 0x1807B01F0 Slot: 134
 	public override bool CanPickup(BasePlayer player) { }
 
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 167
 	public BaseEntity get_ToBaseEntity() { }
 
-	// RVA: 0x7B2040 Offset: 0x7B0640 VA: 0x1807B2040 Slot: 80
+	// RVA: 0x7B2150 Offset: 0x7B0750 VA: 0x1807B2150 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x7B4650 Offset: 0x7B2C50 VA: 0x1807B4650
+	// RVA: 0x7B4760 Offset: 0x7B2D60 VA: 0x1807B4760
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -290,7 +290,7 @@ private class Telephone.CensoredNumbers // TypeDefIndex: 8465
 
 	// Methods
 
-	// RVA: 0x1134AF0 Offset: 0x11330F0 VA: 0x181134AF0
+	// RVA: 0x1134DB0 Offset: 0x11333B0 VA: 0x181134DB0
 	public void .ctor() { }
 
 }

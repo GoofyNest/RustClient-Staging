@@ -7,31 +7,31 @@ internal class GALogger // TypeDefIndex: 5671
 
 	// Methods
 
-	// RVA: 0x13B8EA0 Offset: 0x13B74A0 VA: 0x1813B8EA0
+	// RVA: 0x13B9160 Offset: 0x13B7760 VA: 0x1813B9160
 	private static GALogger get_Instance() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	// RVA: 0x13B88E0 Offset: 0x13B6EE0 VA: 0x1813B88E0
+	// RVA: 0x13B8BA0 Offset: 0x13B71A0 VA: 0x1813B8BA0
 	public static void I(string format) { }
 
-	// RVA: 0x13B8C40 Offset: 0x13B7240 VA: 0x1813B8C40
+	// RVA: 0x13B8F00 Offset: 0x13B7500 VA: 0x1813B8F00
 	public static void W(string format) { }
 
-	// RVA: 0x13B8590 Offset: 0x13B6B90 VA: 0x1813B8590
+	// RVA: 0x13B8850 Offset: 0x13B6E50 VA: 0x1813B8850
 	public static void E(string format) { }
 
-	// RVA: 0x13B86E0 Offset: 0x13B6CE0 VA: 0x1813B86E0
+	// RVA: 0x13B89A0 Offset: 0x13B6FA0 VA: 0x1813B89A0
 	public static void II(string format) { }
 
-	// RVA: 0x13B8390 Offset: 0x13B6990 VA: 0x1813B8390
+	// RVA: 0x13B8650 Offset: 0x13B6C50 VA: 0x1813B8650
 	public static void D(string format) { }
 
-	// RVA: 0x13B8AE0 Offset: 0x13B70E0 VA: 0x1813B8AE0
+	// RVA: 0x13B8DA0 Offset: 0x13B73A0 VA: 0x1813B8DA0
 	private void SendNotificationMessage(string message, EGALoggerMessageType type) { }
 
-	// RVA: 0x13B8E40 Offset: 0x13B7440 VA: 0x1813B8E40
+	// RVA: 0x13B9100 Offset: 0x13B7700 VA: 0x1813B9100
 	private static void .cctor() { }
 
 }

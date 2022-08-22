@@ -1,10 +1,10 @@
 public class BlurEvent : FocusEventBase<BlurEvent> // TypeDefIndex: 4653
 {	// Methods
 
-	// RVA: 0xEA9210 Offset: 0xEA7810 VA: 0x180EA9210 Slot: 7
+	// RVA: 0xEA94D0 Offset: 0xEA7AD0 VA: 0x180EA94D0 Slot: 7
 	protected internal override void PreDispatch(IPanel panel) { }
 
-	// RVA: 0xEA92C0 Offset: 0xEA78C0 VA: 0x180EA92C0
+	// RVA: 0xEA9580 Offset: 0xEA7B80 VA: 0x180EA9580
 	public void .ctor() { }
 
 }

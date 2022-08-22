@@ -37,35 +37,35 @@ public class RendererBatch : MonoBehaviour, IClientComponent // TypeDefIndex: 99
 	public void set_BatchRenderer(MeshRenderer value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public MeshFilter get_BatchFilter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	public void set_BatchFilter(MeshFilter value) { }
 
-	// RVA: 0x94D860 Offset: 0x94BE60 VA: 0x18094D860
+	// RVA: 0x94D970 Offset: 0x94BF70 VA: 0x18094D970
 	protected void OnEnable() { }
 
-	// RVA: 0x94D7F0 Offset: 0x94BDF0 VA: 0x18094D7F0
+	// RVA: 0x94D900 Offset: 0x94BF00 VA: 0x18094D900
 	protected void OnDisable() { }
 
-	// RVA: 0x94D230 Offset: 0x94B830 VA: 0x18094D230
+	// RVA: 0x94D340 Offset: 0x94B940 VA: 0x18094D340
 	public void Add() { }
 
-	// RVA: 0x94D930 Offset: 0x94BF30 VA: 0x18094D930
+	// RVA: 0x94DA40 Offset: 0x94C040 VA: 0x18094DA40
 	public void Remove() { }
 
-	// RVA: 0x94D910 Offset: 0x94BF10 VA: 0x18094D910
+	// RVA: 0x94DA20 Offset: 0x94C020 VA: 0x18094DA20
 	public void Refresh() { }
 
-	// RVA: 0x94D0C0 Offset: 0x94B6C0 VA: 0x18094D0C0
+	// RVA: 0x94D1D0 Offset: 0x94B7D0 VA: 0x18094D1D0
 	public void AddBatch(RendererGroup batchGroup) { }
 
-	// RVA: 0x94DA80 Offset: 0x94C080 VA: 0x18094DA80
+	// RVA: 0x94DB90 Offset: 0x94C190 VA: 0x18094DB90
 	public void WorkshopMode() { }
 
-	// RVA: 0x94DA60 Offset: 0x94C060 VA: 0x18094DA60
+	// RVA: 0x94DB70 Offset: 0x94C170 VA: 0x18094DB70
 	public void Toggle(bool state) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

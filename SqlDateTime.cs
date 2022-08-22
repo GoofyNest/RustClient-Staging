@@ -50,16 +50,16 @@ public struct SqlDateTime : INullable, IComparable, IXmlSerializable // TypeDefI
 	// RVA: 0x118150 Offset: 0x117550 VA: 0x180118150 Slot: 4
 	public bool get_IsNull() { }
 
-	// RVA: 0xE9F900 Offset: 0xE9DF00 VA: 0x180E9F900
+	// RVA: 0xE9FBC0 Offset: 0xE9E1C0 VA: 0x180E9FBC0
 	private static TimeSpan ToTimeSpan(SqlDateTime value) { }
 
-	// RVA: 0xE9F7F0 Offset: 0xE9DDF0 VA: 0x180E9F7F0
+	// RVA: 0xE9FAB0 Offset: 0xE9E0B0 VA: 0x180E9FAB0
 	private static DateTime ToDateTime(SqlDateTime value) { }
 
-	// RVA: 0xE9F250 Offset: 0xE9D850 VA: 0x180E9F250
+	// RVA: 0xE9F510 Offset: 0xE9DB10 VA: 0x180E9F510
 	private static SqlDateTime FromTimeSpan(TimeSpan value) { }
 
-	// RVA: 0xE9F120 Offset: 0xE9D720 VA: 0x180E9F120
+	// RVA: 0xE9F3E0 Offset: 0xE9D9E0 VA: 0x180E9F3E0
 	private static SqlDateTime FromDateTime(DateTime value) { }
 
 	// RVA: 0x1390C0 Offset: 0x1384C0 VA: 0x1801390C0
@@ -71,25 +71,25 @@ public struct SqlDateTime : INullable, IComparable, IXmlSerializable // TypeDefI
 	// RVA: 0x139060 Offset: 0x138460 VA: 0x180139060
 	public int get_TimeTicks() { }
 
-	// RVA: 0xEA0540 Offset: 0xE9EB40 VA: 0x180EA0540
+	// RVA: 0xEA0800 Offset: 0xE9EE00 VA: 0x180EA0800
 	public static SqlDateTime op_Implicit(DateTime value) { }
 
 	// RVA: 0x138F10 Offset: 0x138310 VA: 0x180138F10 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xEA0360 Offset: 0xE9E960 VA: 0x180EA0360
+	// RVA: 0xEA0620 Offset: 0xE9EC20 VA: 0x180EA0620
 	public static SqlBoolean op_Equality(SqlDateTime x, SqlDateTime y) { }
 
-	// RVA: 0xEA0570 Offset: 0xE9EB70 VA: 0x180EA0570
+	// RVA: 0xEA0830 Offset: 0xE9EE30 VA: 0x180EA0830
 	public static SqlBoolean op_LessThan(SqlDateTime x, SqlDateTime y) { }
 
-	// RVA: 0xEA0430 Offset: 0xE9EA30 VA: 0x180EA0430
+	// RVA: 0xEA06F0 Offset: 0xE9ECF0 VA: 0x180EA06F0
 	public static SqlBoolean op_GreaterThan(SqlDateTime x, SqlDateTime y) { }
 
-	// RVA: 0xE9F550 Offset: 0xE9DB50 VA: 0x180E9F550
+	// RVA: 0xE9F810 Offset: 0xE9DE10 VA: 0x180E9F810
 	public static SqlBoolean LessThan(SqlDateTime x, SqlDateTime y) { }
 
-	// RVA: 0xE9F4C0 Offset: 0xE9DAC0 VA: 0x180E9F4C0
+	// RVA: 0xE9F780 Offset: 0xE9DD80 VA: 0x180E9F780
 	public static SqlBoolean GreaterThan(SqlDateTime x, SqlDateTime y) { }
 
 	// RVA: 0x138BB0 Offset: 0x137FB0 VA: 0x180138BB0 Slot: 5
@@ -113,10 +113,10 @@ public struct SqlDateTime : INullable, IComparable, IXmlSerializable // TypeDefI
 	// RVA: 0x138DF0 Offset: 0x1381F0 VA: 0x180138DF0 Slot: 8
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
-	// RVA: 0xE9F460 Offset: 0xE9DA60 VA: 0x180E9F460
+	// RVA: 0xE9F720 Offset: 0xE9DD20 VA: 0x180E9F720
 	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet) { }
 
-	// RVA: 0xE9F9A0 Offset: 0xE9DFA0 VA: 0x180E9F9A0
+	// RVA: 0xE9FC60 Offset: 0xE9E260 VA: 0x180E9FC60
 	private static void .cctor() { }
 
 }

@@ -10,31 +10,31 @@ public class HideIfOwnerFirstPerson : EntityComponent<BaseEntity>, IClientCompon
 
 	// Methods
 
-	// RVA: 0x73ABF0 Offset: 0x7391F0 VA: 0x18073ABF0
+	// RVA: 0x73AD00 Offset: 0x739300 VA: 0x18073AD00
 	public bool get_IsHidden() { }
 
-	// RVA: 0x73A0A0 Offset: 0x7386A0 VA: 0x18073A0A0
+	// RVA: 0x73A1B0 Offset: 0x7387B0 VA: 0x18073A1B0
 	public void OnEnable() { }
 
-	// RVA: 0x739FF0 Offset: 0x7385F0 VA: 0x180739FF0
+	// RVA: 0x73A100 Offset: 0x738700 VA: 0x18073A100
 	public void OnDisable() { }
 
-	// RVA: 0x73A1E0 Offset: 0x7387E0 VA: 0x18073A1E0 Slot: 10
+	// RVA: 0x73A2F0 Offset: 0x7388F0 VA: 0x18073A2F0 Slot: 10
 	public void OnViewModeChanged() { }
 
-	// RVA: 0x73A430 Offset: 0x738A30 VA: 0x18073A430
+	// RVA: 0x73A540 Offset: 0x738B40 VA: 0x18073A540
 	public void SetHidden(bool shouldHide) { }
 
-	// RVA: 0x73A870 Offset: 0x738E70 VA: 0x18073A870
+	// RVA: 0x73A980 Offset: 0x738F80 VA: 0x18073A980
 	public bool ShouldHide() { }
 
-	// RVA: 0x73A5A0 Offset: 0x738BA0 VA: 0x18073A5A0
+	// RVA: 0x73A6B0 Offset: 0x738CB0 VA: 0x18073A6B0
 	private void SetShadowsOnly(GameObject root) { }
 
-	// RVA: 0x73A270 Offset: 0x738870 VA: 0x18073A270
+	// RVA: 0x73A380 Offset: 0x738980 VA: 0x18073A380
 	private void RevertShadowsOnly(GameObject root) { }
 
-	// RVA: 0x73AB80 Offset: 0x739180 VA: 0x18073AB80
+	// RVA: 0x73AC90 Offset: 0x739290 VA: 0x18073AC90
 	public void .ctor() { }
 
 }

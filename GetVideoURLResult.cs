@@ -17,7 +17,7 @@ internal struct GetVideoURLResult_t : ICallbackData // TypeDefIndex: 5480
 	// RVA: 0x1E9250 Offset: 0x1E8650 VA: 0x1801E9250 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371980 Offset: 0x136FF80 VA: 0x181371980
+	// RVA: 0x1371C40 Offset: 0x1370240 VA: 0x181371C40
 	private static void .cctor() { }
 
 }

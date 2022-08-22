@@ -1,10 +1,10 @@
 public class GenerateRiverTopology : ProceduralComponent // TypeDefIndex: 10504
 {	// Methods
 
-	// RVA: 0xC92C00 Offset: 0xC91200 VA: 0x180C92C00 Slot: 5
+	// RVA: 0xC92EC0 Offset: 0xC914C0 VA: 0x180C92EC0 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0xC92A70 Offset: 0xC91070 VA: 0x180C92A70
+	// RVA: 0xC92D30 Offset: 0xC91330 VA: 0x180C92D30
 	public void MarkRiverside() { }
 
 	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40
@@ -24,7 +24,7 @@ private sealed class GenerateRiverTopology.<>c__DisplayClass1_0 // TypeDefIndex:
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xCA7AD0 Offset: 0xCA60D0 VA: 0x180CA7AD0
+	// RVA: 0xCA7D90 Offset: 0xCA6390 VA: 0x180CA7D90
 	internal void <MarkRiverside>b__0(int x, int y) { }
 
 }

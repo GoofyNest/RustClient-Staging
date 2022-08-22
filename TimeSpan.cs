@@ -83,7 +83,7 @@ public struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable<TimeSpan
 	// RVA: 0x1F5A40 Offset: 0x1F4E40 VA: 0x1801F5A40
 	public TimeSpan Add(TimeSpan ts) { }
 
-	// RVA: 0x160ED30 Offset: 0x160D330 VA: 0x18160ED30
+	// RVA: 0x160EFF0 Offset: 0x160D5F0 VA: 0x18160EFF0
 	public static int Compare(TimeSpan t1, TimeSpan t2) { }
 
 	// RVA: 0x1F5A70 Offset: 0x1F4E70 VA: 0x1801F5A70 Slot: 4
@@ -92,7 +92,7 @@ public struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable<TimeSpan
 	// RVA: 0x1F5A50 Offset: 0x1F4E50 VA: 0x1801F5A50 Slot: 5
 	public int CompareTo(TimeSpan value) { }
 
-	// RVA: 0x160EDF0 Offset: 0x160D3F0 VA: 0x18160EDF0
+	// RVA: 0x160F0B0 Offset: 0x160D6B0 VA: 0x18160F0B0
 	public static TimeSpan FromDays(double value) { }
 
 	// RVA: 0x1F5B60 Offset: 0x1F4F60 VA: 0x1801F5B60 Slot: 0
@@ -104,22 +104,22 @@ public struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable<TimeSpan
 	// RVA: 0x1F5BF0 Offset: 0x1F4FF0 VA: 0x1801F5BF0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x160EE50 Offset: 0x160D450 VA: 0x18160EE50
+	// RVA: 0x160F110 Offset: 0x160D710 VA: 0x18160F110
 	public static TimeSpan FromHours(double value) { }
 
-	// RVA: 0x160F020 Offset: 0x160D620 VA: 0x18160F020
+	// RVA: 0x160F2E0 Offset: 0x160D8E0 VA: 0x18160F2E0
 	private static TimeSpan Interval(double value, int scale) { }
 
-	// RVA: 0x160EEB0 Offset: 0x160D4B0 VA: 0x18160EEB0
+	// RVA: 0x160F170 Offset: 0x160D770 VA: 0x18160F170
 	public static TimeSpan FromMilliseconds(double value) { }
 
-	// RVA: 0x160EF10 Offset: 0x160D510 VA: 0x18160EF10
+	// RVA: 0x160F1D0 Offset: 0x160D7D0 VA: 0x18160F1D0
 	public static TimeSpan FromMinutes(double value) { }
 
 	// RVA: 0x1F5C00 Offset: 0x1F5000 VA: 0x1801F5C00
 	public TimeSpan Negate() { }
 
-	// RVA: 0x160EF70 Offset: 0x160D570 VA: 0x18160EF70
+	// RVA: 0x160F230 Offset: 0x160D830 VA: 0x18160F230
 	public static TimeSpan FromSeconds(double value) { }
 
 	// RVA: 0x1F5CC0 Offset: 0x1F50C0 VA: 0x1801F5CC0
@@ -128,13 +128,13 @@ public struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable<TimeSpan
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
 	public static TimeSpan FromTicks(long value) { }
 
-	// RVA: 0x160F380 Offset: 0x160D980 VA: 0x18160F380
+	// RVA: 0x160F640 Offset: 0x160DC40 VA: 0x18160F640
 	internal static long TimeToTicks(int hour, int minute, int second) { }
 
-	// RVA: 0x160F280 Offset: 0x160D880 VA: 0x18160F280
+	// RVA: 0x160F540 Offset: 0x160DB40 VA: 0x18160F540
 	public static TimeSpan Parse(string s) { }
 
-	// RVA: 0x160F210 Offset: 0x160D810 VA: 0x18160F210
+	// RVA: 0x160F4D0 Offset: 0x160DAD0 VA: 0x18160F4D0
 	public static TimeSpan Parse(string input, IFormatProvider formatProvider) { }
 
 	// RVA: 0x1F5CD0 Offset: 0x1F50D0 VA: 0x1801F5CD0 Slot: 3
@@ -146,37 +146,37 @@ public struct TimeSpan : IComparable, IComparable<TimeSpan>, IEquatable<TimeSpan
 	// RVA: 0x1F5DA0 Offset: 0x1F51A0 VA: 0x1801F5DA0 Slot: 7
 	public string ToString(string format, IFormatProvider formatProvider) { }
 
-	// RVA: 0x160FAE0 Offset: 0x160E0E0 VA: 0x18160FAE0
+	// RVA: 0x160FDA0 Offset: 0x160E3A0 VA: 0x18160FDA0
 	public static TimeSpan op_Subtraction(TimeSpan t1, TimeSpan t2) { }
 
-	// RVA: 0x160FA80 Offset: 0x160E080 VA: 0x18160FA80
+	// RVA: 0x160FD40 Offset: 0x160E340 VA: 0x18160FD40
 	public static TimeSpan op_Addition(TimeSpan t1, TimeSpan t2) { }
 
-	// RVA: 0xAE59E0 Offset: 0xAE3FE0 VA: 0x180AE59E0
+	// RVA: 0xAE5CA0 Offset: 0xAE42A0 VA: 0x180AE5CA0
 	public static bool op_Equality(TimeSpan t1, TimeSpan t2) { }
 
-	// RVA: 0x12A4190 Offset: 0x12A2790 VA: 0x1812A4190
+	// RVA: 0x12A4450 Offset: 0x12A2A50 VA: 0x1812A4450
 	public static bool op_Inequality(TimeSpan t1, TimeSpan t2) { }
 
-	// RVA: 0x160FAD0 Offset: 0x160E0D0 VA: 0x18160FAD0
+	// RVA: 0x160FD90 Offset: 0x160E390 VA: 0x18160FD90
 	public static bool op_LessThan(TimeSpan t1, TimeSpan t2) { }
 
-	// RVA: 0x160FAC0 Offset: 0x160E0C0 VA: 0x18160FAC0
+	// RVA: 0x160FD80 Offset: 0x160E380 VA: 0x18160FD80
 	public static bool op_LessThanOrEqual(TimeSpan t1, TimeSpan t2) { }
 
-	// RVA: 0x160FAB0 Offset: 0x160E0B0 VA: 0x18160FAB0
+	// RVA: 0x160FD70 Offset: 0x160E370 VA: 0x18160FD70
 	public static bool op_GreaterThan(TimeSpan t1, TimeSpan t2) { }
 
-	// RVA: 0x160FAA0 Offset: 0x160E0A0 VA: 0x18160FAA0
+	// RVA: 0x160FD60 Offset: 0x160E360 VA: 0x18160FD60
 	public static bool op_GreaterThanOrEqual(TimeSpan t1, TimeSpan t2) { }
 
-	// RVA: 0x160EFE0 Offset: 0x160D5E0 VA: 0x18160EFE0
+	// RVA: 0x160F2A0 Offset: 0x160D8A0 VA: 0x18160F2A0
 	private static bool GetLegacyFormatMode() { }
 
-	// RVA: 0x160F7E0 Offset: 0x160DDE0 VA: 0x18160F7E0
+	// RVA: 0x160FAA0 Offset: 0x160E0A0 VA: 0x18160FAA0
 	private static bool get_LegacyMode() { }
 
-	// RVA: 0x160F510 Offset: 0x160DB10 VA: 0x18160F510
+	// RVA: 0x160F7D0 Offset: 0x160DDD0 VA: 0x18160F7D0
 	private static void .cctor() { }
 
 }

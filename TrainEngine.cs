@@ -10,82 +10,82 @@ public class TrainEngine : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 	// Methods
 
-	// RVA: 0x1EF1D30 Offset: 0x1EF0330 VA: 0x181EF1D30
+	// RVA: 0x1EF1FF0 Offset: 0x1EF05F0 VA: 0x181EF1FF0
 	public static void ResetToPool(TrainEngine instance) { }
 
-	// RVA: 0x1EF1DE0 Offset: 0x1EF03E0 VA: 0x181EF1DE0
+	// RVA: 0x1EF20A0 Offset: 0x1EF06A0 VA: 0x181EF20A0
 	public void ResetToPool() { }
 
-	// RVA: 0x1EF1990 Offset: 0x1EEFF90 VA: 0x181EF1990 Slot: 9
+	// RVA: 0x1EF1C50 Offset: 0x1EF0250 VA: 0x181EF1C50 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E219A0 Offset: 0x1E1FFA0 VA: 0x181E219A0
+	// RVA: 0x1E21C60 Offset: 0x1E20260 VA: 0x181E21C60
 	public void CopyTo(TrainEngine instance) { }
 
-	// RVA: 0x1EF0680 Offset: 0x1EEEC80 VA: 0x181EF0680
+	// RVA: 0x1EF0940 Offset: 0x1EEEF40 VA: 0x181EF0940
 	public TrainEngine Copy() { }
 
-	// RVA: 0x1EF0E30 Offset: 0x1EEF430 VA: 0x181EF0E30
+	// RVA: 0x1EF10F0 Offset: 0x1EEF6F0 VA: 0x181EF10F0
 	public static TrainEngine Deserialize(Stream stream) { }
 
-	// RVA: 0x1EF0700 Offset: 0x1EEED00 VA: 0x181EF0700
+	// RVA: 0x1EF09C0 Offset: 0x1EEEFC0 VA: 0x181EF09C0
 	public static TrainEngine DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1EF0AA0 Offset: 0x1EEF0A0 VA: 0x181EF0AA0
+	// RVA: 0x1EF0D60 Offset: 0x1EEF360 VA: 0x181EF0D60
 	public static TrainEngine DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1EF13F0 Offset: 0x1EEF9F0 VA: 0x181EF13F0
+	// RVA: 0x1EF16B0 Offset: 0x1EEFCB0 VA: 0x181EF16B0
 	public static TrainEngine Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1EF1AC0 Offset: 0x1EF00C0 VA: 0x181EF1AC0
+	// RVA: 0x1EF1D80 Offset: 0x1EF0380 VA: 0x181EF1D80
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1EF2440 Offset: 0x1EF0A40 VA: 0x181EF2440 Slot: 12
+	// RVA: 0x1EF2700 Offset: 0x1EF0D00 VA: 0x181EF2700 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1EF2460 Offset: 0x1EF0A60 VA: 0x181EF2460 Slot: 13
+	// RVA: 0x1EF2720 Offset: 0x1EF0D20 VA: 0x181EF2720 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, TrainEngine previous) { }
 
-	// RVA: 0x1EF1D10 Offset: 0x1EF0310 VA: 0x181EF1D10 Slot: 14
+	// RVA: 0x1EF1FD0 Offset: 0x1EF05D0 VA: 0x181EF1FD0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1EF10C0 Offset: 0x1EEF6C0 VA: 0x181EF10C0
+	// RVA: 0x1EF1380 Offset: 0x1EEF980 VA: 0x181EF1380
 	public static TrainEngine Deserialize(byte[] buffer, TrainEngine instance, bool isDelta = False) { }
 
-	// RVA: 0x1EF1740 Offset: 0x1EEFD40 VA: 0x181EF1740
+	// RVA: 0x1EF1A00 Offset: 0x1EF0000 VA: 0x181EF1A00
 	public static TrainEngine Deserialize(Stream stream, TrainEngine instance, bool isDelta) { }
 
-	// RVA: 0x1EF0780 Offset: 0x1EEED80 VA: 0x181EF0780
+	// RVA: 0x1EF0A40 Offset: 0x1EEF040 VA: 0x181EF0A40
 	public static TrainEngine DeserializeLengthDelimited(Stream stream, TrainEngine instance, bool isDelta) { }
 
-	// RVA: 0x1EF0B30 Offset: 0x1EEF130 VA: 0x181EF0B30
+	// RVA: 0x1EF0DF0 Offset: 0x1EEF3F0 VA: 0x181EF0DF0
 	public static TrainEngine DeserializeLength(Stream stream, int length, TrainEngine instance, bool isDelta) { }
 
-	// RVA: 0x1EF1E90 Offset: 0x1EF0490 VA: 0x181EF1E90
+	// RVA: 0x1EF2150 Offset: 0x1EF0750 VA: 0x181EF2150
 	public static void SerializeDelta(Stream stream, TrainEngine instance, TrainEngine previous) { }
 
-	// RVA: 0x1EF22C0 Offset: 0x1EF08C0 VA: 0x181EF22C0
+	// RVA: 0x1EF2580 Offset: 0x1EF0B80 VA: 0x181EF2580
 	public static void Serialize(Stream stream, TrainEngine instance) { }
 
-	// RVA: 0x1EF2430 Offset: 0x1EF0A30 VA: 0x181EF2430
+	// RVA: 0x1EF26F0 Offset: 0x1EF0CF0 VA: 0x181EF26F0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1EF2440 Offset: 0x1EF0A40 VA: 0x181EF2440
+	// RVA: 0x1EF2700 Offset: 0x1EF0D00 VA: 0x181EF2700
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1EF21B0 Offset: 0x1EF07B0 VA: 0x181EF21B0
+	// RVA: 0x1EF2470 Offset: 0x1EF0A70 VA: 0x181EF2470
 	public static byte[] SerializeToBytes(TrainEngine instance) { }
 
-	// RVA: 0x1EF2100 Offset: 0x1EF0700 VA: 0x181EF2100
+	// RVA: 0x1EF23C0 Offset: 0x1EF09C0 VA: 0x181EF23C0
 	public static void SerializeLengthDelimited(Stream stream, TrainEngine instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -193,147 +193,147 @@ public class TrainEngine : TrainCar, IEngineControllerUser, IEntity // TypeDefIn
 
 	// Methods
 
-	// RVA: 0xA13B90 Offset: 0xA12190 VA: 0x180A13B90 Slot: 49
+	// RVA: 0xA13E50 Offset: 0xA12450 VA: 0x180A13E50 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xA167D0 Offset: 0xA14DD0 VA: 0x180A167D0 Slot: 50
+	// RVA: 0xA16A90 Offset: 0xA15090 VA: 0x180A16A90 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xA14740 Offset: 0xA12D40 VA: 0x180A14740 Slot: 35
+	// RVA: 0xA14A00 Offset: 0xA13000 VA: 0x180A14A00 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA13A10 Offset: 0xA12010 VA: 0x180A13A10 Slot: 131
+	// RVA: 0xA13CD0 Offset: 0xA122D0 VA: 0x180A13CD0 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0xA13860 Offset: 0xA11E60 VA: 0x180A13860 Slot: 14
+	// RVA: 0xA13B20 Offset: 0xA12120 VA: 0x180A13B20 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xA139E0 Offset: 0xA11FE0 VA: 0x180A139E0 Slot: 13
+	// RVA: 0xA13CA0 Offset: 0xA122A0 VA: 0x180A13CA0 Slot: 13
 	public override void ClientOnEnable() { }
 
-	// RVA: 0xA155F0 Offset: 0xA13BF0 VA: 0x180A155F0 Slot: 201
+	// RVA: 0xA158B0 Offset: 0xA13EB0 VA: 0x180A158B0 Slot: 201
 	protected override void TrainClientTick() { }
 
-	// RVA: 0xA15400 Offset: 0xA13A00 VA: 0x180A15400 Slot: 200
+	// RVA: 0xA156C0 Offset: 0xA13CC0 VA: 0x180A156C0 Slot: 200
 	protected override void StopClientTick() { }
 
-	// RVA: 0xA14ED0 Offset: 0xA134D0 VA: 0x180A14ED0 Slot: 16
+	// RVA: 0xA15190 Offset: 0xA13790 VA: 0x180A15190 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0xA164C0 Offset: 0xA14AC0 VA: 0x180A164C0 Slot: 173
+	// RVA: 0xA16780 Offset: 0xA14D80 VA: 0x180A16780 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0xA145E0 Offset: 0xA12BE0 VA: 0x180A145E0 Slot: 184
+	// RVA: 0xA148A0 Offset: 0xA12EA0 VA: 0x180A148A0 Slot: 184
 	public override bool MountMenuVisible(BasePlayer player) { }
 
-	// RVA: 0xA13490 Offset: 0xA11A90 VA: 0x180A13490 Slot: 199
+	// RVA: 0xA13750 Offset: 0xA11D50 VA: 0x180A13750 Slot: 199
 	protected override void ClientFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0xA14710 Offset: 0xA12D10 VA: 0x180A14710 Slot: 132
+	// RVA: 0xA149D0 Offset: 0xA12FD0 VA: 0x180A149D0 Slot: 132
 	protected override void OnLifeStateChanged() { }
 
-	// RVA: 0xA14F10 Offset: 0xA13510 VA: 0x180A14F10
+	// RVA: 0xA151D0 Offset: 0xA137D0 VA: 0x180A151D0
 	private void RefreshMovementLightVisuals() { }
 
-	// RVA: 0xA16110 Offset: 0xA14710 VA: 0x180A16110
+	// RVA: 0xA163D0 Offset: 0xA149D0 VA: 0x180A163D0
 	private void UpdateMonitorVisuals(bool couplingChanged = False) { }
 
-	// RVA: 0xA15150 Offset: 0xA13750 VA: 0x180A15150
+	// RVA: 0xA15410 Offset: 0xA13A10 VA: 0x180A15410
 	private void ResetMonitorCouplingHighlight() { }
 
-	// RVA: 0xA15930 Offset: 0xA13F30 VA: 0x180A15930
+	// RVA: 0xA15BF0 Offset: 0xA141F0 VA: 0x180A15BF0
 	private void UpdateControlLeverVisuals() { }
 
-	// RVA: 0xA157D0 Offset: 0xA13DD0 VA: 0x180A157D0 Slot: 202
+	// RVA: 0xA15A90 Offset: 0xA14090 VA: 0x180A15A90 Slot: 202
 	protected override bool UpdateBraking(float forwardSpeed) { }
 
-	// RVA: 0xA14EC0 Offset: 0xA134C0 VA: 0x180A14EC0
+	// RVA: 0xA15180 Offset: 0xA13780 VA: 0x180A15180
 	protected void PlaySparks() { }
 
-	// RVA: 0xA155E0 Offset: 0xA13BE0 VA: 0x180A155E0
+	// RVA: 0xA158A0 Offset: 0xA13EA0 VA: 0x180A158A0
 	protected void StopSparks() { }
 
-	// RVA: 0xA151C0 Offset: 0xA137C0 VA: 0x180A151C0
+	// RVA: 0xA15480 Offset: 0xA13A80 VA: 0x180A15480
 	protected void SetSparks(bool play) { }
 
-	// RVA: 0xA15C60 Offset: 0xA14260 VA: 0x180A15C60
+	// RVA: 0xA15F20 Offset: 0xA14520 VA: 0x180A15F20
 	private void UpdateDamageFX() { }
 
-	// RVA: 0xA15FE0 Offset: 0xA145E0 VA: 0x180A15FE0
+	// RVA: 0xA162A0 Offset: 0xA148A0 VA: 0x180A162A0
 	private void UpdateEngineFX() { }
 
 	[BaseEntity.Menu] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	[BaseEntity.Menu.Description] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	[BaseEntity.Menu.Icon] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
-	// RVA: 0xA145A0 Offset: 0xA12BA0 VA: 0x180A145A0
+	// RVA: 0xA14860 Offset: 0xA12E60 VA: 0x180A14860
 	public void Menu_FuelStorage(BasePlayer player) { }
 
-	// RVA: 0xA144D0 Offset: 0xA12AD0 VA: 0x180A144D0
+	// RVA: 0xA14790 Offset: 0xA12D90 VA: 0x180A14790
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA15380 Offset: 0xA13980 VA: 0x180A15380
+	// RVA: 0xA15640 Offset: 0xA13C40 VA: 0x180A15640
 	private void SetThrottle(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA15170 Offset: 0xA13770 VA: 0x180A15170
+	// RVA: 0xA15430 Offset: 0xA13A30 VA: 0x180A15430
 	private void SetFuelAmount(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x738190 Offset: 0x736790 VA: 0x180738190
+	// RVA: 0x7382A0 Offset: 0x7368A0 VA: 0x1807382A0
 	public bool get_LightsAreOn() { }
 
 	// RVA: 0x557F50 Offset: 0x556550 VA: 0x180557F50
 	public bool get_CloseToHazard() { }
 
-	// RVA: 0xA167C0 Offset: 0xA14DC0 VA: 0x180A167C0
+	// RVA: 0xA16A80 Offset: 0xA15080 VA: 0x180A16A80
 	public bool get_EngineIsSlowed() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA167B0 Offset: 0xA14DB0 VA: 0x180A167B0
+	// RVA: 0xA16A70 Offset: 0xA15070 VA: 0x180A16A70
 	public TrainEngine.EngineSpeeds get_CurThrottleSetting() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA16890 Offset: 0xA14E90 VA: 0x180A16890
+	// RVA: 0xA16B50 Offset: 0xA15150 VA: 0x180A16B50
 	protected void set_CurThrottleSetting(TrainEngine.EngineSpeeds value) { }
 
 	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 204
 	public override TrainCar.TrainCarType get_CarType() { }
 
-	// RVA: 0xA13F20 Offset: 0xA12520 VA: 0x180A13F20 Slot: 28
+	// RVA: 0xA141E0 Offset: 0xA127E0 VA: 0x180A141E0 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0xA142B0 Offset: 0xA128B0 VA: 0x180A142B0 Slot: 34
+	// RVA: 0xA14570 Offset: 0xA12B70 VA: 0x180A14570 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xA132F0 Offset: 0xA118F0 VA: 0x180A132F0 Slot: 120
+	// RVA: 0xA135B0 Offset: 0xA11BB0 VA: 0x180A135B0 Slot: 120
 	public override bool CanBeLooted(BasePlayer player) { }
 
-	// RVA: 0xA13AC0 Offset: 0xA120C0 VA: 0x180A13AC0
+	// RVA: 0xA13D80 Offset: 0xA12380 VA: 0x180A13D80
 	private float GetEnginePowerMultiplier(float minPercent) { }
 
-	// RVA: 0xA13EA0 Offset: 0xA124A0 VA: 0x180A13EA0
+	// RVA: 0xA14160 Offset: 0xA12760 VA: 0x180A14160
 	public float GetThrottleFraction() { }
 
-	// RVA: 0xA14170 Offset: 0xA12770 VA: 0x180A14170
+	// RVA: 0xA14430 Offset: 0xA12A30 VA: 0x180A14430
 	public bool IsNearDesiredSpeed(float leeway) { }
 
-	// RVA: 0xA153C0 Offset: 0xA139C0 VA: 0x180A153C0 Slot: 205
+	// RVA: 0xA15680 Offset: 0xA13C80 VA: 0x180A15680 Slot: 205
 	protected override void SetTrackSelection(TrainTrackSpline.TrackSelection trackSelection) { }
 
-	// RVA: 0xA152F0 Offset: 0xA138F0 VA: 0x180A152F0
+	// RVA: 0xA155B0 Offset: 0xA13BB0 VA: 0x180A155B0
 	private void SetThrottle(TrainEngine.EngineSpeeds throttle) { }
 
-	// RVA: 0xA13B80 Offset: 0xA12180 VA: 0x180A13B80
+	// RVA: 0xA13E40 Offset: 0xA12440 VA: 0x180A13E40
 	private int GetFuelAmount() { }
 
-	// RVA: 0xA13410 Offset: 0xA11A10 VA: 0x180A13410
+	// RVA: 0xA136D0 Offset: 0xA11CD0 VA: 0x180A136D0
 	private bool CanMount(BasePlayer player) { }
 
-	// RVA: 0xA13410 Offset: 0xA11A10 VA: 0x180A13410
+	// RVA: 0xA136D0 Offset: 0xA11CD0 VA: 0x180A136D0
 	private bool PlayerIsOnPlatform(BasePlayer player) { }
 
-	// RVA: 0xA16670 Offset: 0xA14C70 VA: 0x180A16670
+	// RVA: 0xA16930 Offset: 0xA14F30 VA: 0x180A16930
 	public void .ctor() { }
 
 }

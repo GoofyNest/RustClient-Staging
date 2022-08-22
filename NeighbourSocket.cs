@@ -7,7 +7,7 @@ public class NeighbourSocket : Socket_Base // TypeDefIndex: 9087
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 8
 	public override bool TestTarget(Construction.Target target) { }
 
-	// RVA: 0x7CBA20 Offset: 0x7CA020 VA: 0x1807CBA20 Slot: 10
+	// RVA: 0x7CBB30 Offset: 0x7CA130 VA: 0x1807CBB30 Slot: 10
 	public override bool CanConnect(Vector3 position, Quaternion rotation, Socket_Base socket, Vector3 socketPosition, Quaternion socketRotation) { }
 
 	// RVA: 0x5BEE80 Offset: 0x5BD480 VA: 0x1805BEE80

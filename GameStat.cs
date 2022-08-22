@@ -15,26 +15,26 @@ public class GameStat : MonoBehaviour // TypeDefIndex: 10930
 
 	// Methods
 
-	// RVA: 0x75CAD0 Offset: 0x75B0D0 VA: 0x18075CAD0
+	// RVA: 0x75CBE0 Offset: 0x75B1E0 VA: 0x18075CBE0
 	private void Awake() { }
 
-	// RVA: 0x75CB10 Offset: 0x75B110 VA: 0x18075CB10
+	// RVA: 0x75CC20 Offset: 0x75B220 VA: 0x18075CC20
 	public void Refresh() { }
 
-	// RVA: 0x75CAE0 Offset: 0x75B0E0 VA: 0x18075CAE0
+	// RVA: 0x75CBF0 Offset: 0x75B1F0 VA: 0x18075CBF0
 	public void ForceUpdate() { }
 
-	// RVA: 0x75CE70 Offset: 0x75B470 VA: 0x18075CE70
+	// RVA: 0x75CF80 Offset: 0x75B580 VA: 0x18075CF80
 	public void UpdateText() { }
 
-	// RVA: 0x75CF50 Offset: 0x75B550 VA: 0x18075CF50
+	// RVA: 0x75D060 Offset: 0x75B660 VA: 0x18075D060
 	private void Update() { }
 
-	// RVA: 0x75CFD0 Offset: 0x75B5D0 VA: 0x18075CFD0
+	// RVA: 0x75D0E0 Offset: 0x75B6E0 VA: 0x18075D0E0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x75CE50 Offset: 0x75B450 VA: 0x18075CE50
+	// RVA: 0x75CF60 Offset: 0x75B560 VA: 0x18075CF60
 	private bool <Refresh>b__14_0(GameStat.Stat x) { }
 
 }

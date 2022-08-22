@@ -14,47 +14,47 @@ public class ProceduralLift : BaseEntity // TypeDefIndex: 8432
 
 	// Methods
 
-	// RVA: 0x9A81B0 Offset: 0x9A67B0 VA: 0x1809A81B0 Slot: 49
+	// RVA: 0x9A8470 Offset: 0x9A6A70 VA: 0x1809A8470 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x9A8CE0 Offset: 0x9A72E0 VA: 0x1809A8CE0 Slot: 50
+	// RVA: 0x9A8FA0 Offset: 0x9A75A0 VA: 0x1809A8FA0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x9A8710 Offset: 0x9A6D10 VA: 0x1809A8710 Slot: 35
+	// RVA: 0x9A89D0 Offset: 0x9A6FD0 VA: 0x1809A89D0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x9A84A0 Offset: 0x9A6AA0 VA: 0x1809A84A0 Slot: 34
+	// RVA: 0x9A8760 Offset: 0x9A6D60 VA: 0x1809A8760 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
 	[BaseEntity.Menu] // RVA: 0x7DC20 Offset: 0x7D020 VA: 0x18007DC20
 	[BaseEntity.Menu.Description] // RVA: 0x7DC20 Offset: 0x7D020 VA: 0x18007DC20
 	[BaseEntity.Menu.Icon] // RVA: 0x7DC20 Offset: 0x7D020 VA: 0x18007DC20
 	[BaseEntity.Menu.ShowIf] // RVA: 0x7DC20 Offset: 0x7D020 VA: 0x18007DC20
-	// RVA: 0x9A8640 Offset: 0x9A6C40 VA: 0x1809A8640
+	// RVA: 0x9A8900 Offset: 0x9A6F00 VA: 0x1809A8900
 	public void Menu_UseLift(BasePlayer player) { }
 
-	// RVA: 0x9A8620 Offset: 0x9A6C20 VA: 0x1809A8620
+	// RVA: 0x9A88E0 Offset: 0x9A6EE0 VA: 0x1809A88E0
 	public bool Menu_UseLift_ShowIf(BasePlayer player) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 72
 	public override bool NeedsCrosshair() { }
 
-	// RVA: 0x9A8800 Offset: 0x9A6E00 VA: 0x1809A8800
+	// RVA: 0x9A8AC0 Offset: 0x9A70C0 VA: 0x1809A8AC0
 	private void ResetLift() { }
 
-	// RVA: 0x9A8680 Offset: 0x9A6C80 VA: 0x1809A8680
+	// RVA: 0x9A8940 Offset: 0x9A6F40 VA: 0x1809A8940
 	private void MoveToFloor(int floor) { }
 
-	// RVA: 0x9A8810 Offset: 0x9A6E10 VA: 0x1809A8810
+	// RVA: 0x9A8AD0 Offset: 0x9A70D0 VA: 0x1809A8AD0
 	private void SnapToFloor(int floor) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void OnFinishedMoving() { }
 
-	// RVA: 0x9A8930 Offset: 0x9A6F30 VA: 0x1809A8930
+	// RVA: 0x9A8BF0 Offset: 0x9A71F0 VA: 0x1809A8BF0
 	protected void Update() { }
 
-	// RVA: 0x9A8C70 Offset: 0x9A7270 VA: 0x1809A8C70
+	// RVA: 0x9A8F30 Offset: 0x9A7530 VA: 0x1809A8F30
 	public void .ctor() { }
 
 }

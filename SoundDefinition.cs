@@ -44,22 +44,22 @@ public class SoundDefinition : ScriptableObject // TypeDefIndex: 9026
 
 	// Methods
 
-	// RVA: 0xA750C0 Offset: 0xA736C0 VA: 0x180A750C0
+	// RVA: 0xA75380 Offset: 0xA73980 VA: 0x180A75380
 	public float get_maxDistance() { }
 
-	// RVA: 0xA74CD0 Offset: 0xA732D0 VA: 0x180A74CD0
+	// RVA: 0xA74F90 Offset: 0xA73590 VA: 0x180A74F90
 	public float GetLength() { }
 
-	// RVA: 0xA74F80 Offset: 0xA73580 VA: 0x180A74F80
+	// RVA: 0xA75240 Offset: 0xA73840 VA: 0x180A75240
 	public Sound Play() { }
 
-	// RVA: 0xA74F40 Offset: 0xA73540 VA: 0x180A74F40
+	// RVA: 0xA75200 Offset: 0xA73800 VA: 0x180A75200
 	public Sound Play(GameObject forGameObject) { }
 
-	// RVA: 0xA74B90 Offset: 0xA73190 VA: 0x180A74B90
+	// RVA: 0xA74E50 Offset: 0xA73450 VA: 0x180A74E50
 	public AudioClip GetClip() { }
 
-	// RVA: 0xA74FC0 Offset: 0xA735C0 VA: 0x180A74FC0
+	// RVA: 0xA75280 Offset: 0xA73880 VA: 0x180A75280
 	public void .ctor() { }
 
 }

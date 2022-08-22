@@ -37,70 +37,70 @@ internal sealed class ReflectPropertyDescriptor : PropertyDescriptor // TypeDefI
 
 	// Methods
 
-	// RVA: 0x15D59A0 Offset: 0x15D3FA0 VA: 0x1815D59A0
+	// RVA: 0x15D5C60 Offset: 0x15D4260 VA: 0x1815D5C60
 	public void .ctor(Type componentClass, string name, Type type, Attribute[] attributes) { }
 
-	// RVA: 0x15D5840 Offset: 0x15D3E40 VA: 0x1815D5840
+	// RVA: 0x15D5B00 Offset: 0x15D4100 VA: 0x1815D5B00
 	public void .ctor(Type componentClass, string name, Type type, PropertyInfo propInfo, MethodInfo getMethod, MethodInfo setMethod, Attribute[] attrs) { }
 
-	// RVA: 0x15D5BA0 Offset: 0x15D41A0 VA: 0x1815D5BA0
+	// RVA: 0x15D5E60 Offset: 0x15D4460 VA: 0x1815D5E60
 	public void .ctor(Type componentClass, string name, Type type, Type receiverType, MethodInfo getMethod, MethodInfo setMethod, Attribute[] attrs) { }
 
 	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050 Slot: 13
 	public override Type get_ComponentType() { }
 
-	// RVA: 0x15D5C90 Offset: 0x15D4290 VA: 0x1815D5C90
+	// RVA: 0x15D5F50 Offset: 0x15D4550 VA: 0x1815D5F50
 	private object get_DefaultValue() { }
 
-	// RVA: 0x15D5FE0 Offset: 0x15D45E0 VA: 0x1815D5FE0
+	// RVA: 0x15D62A0 Offset: 0x15D48A0 VA: 0x1815D62A0
 	private MethodInfo get_GetMethodValue() { }
 
-	// RVA: 0x15D64C0 Offset: 0x15D4AC0 VA: 0x1815D64C0
+	// RVA: 0x15D6780 Offset: 0x15D4D80 VA: 0x1815D6780
 	private bool get_IsExtender() { }
 
-	// RVA: 0x15D6520 Offset: 0x15D4B20 VA: 0x1815D6520 Slot: 15
+	// RVA: 0x15D67E0 Offset: 0x15D4DE0 VA: 0x1815D67E0 Slot: 15
 	public override bool get_IsReadOnly() { }
 
 	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380 Slot: 16
 	public override Type get_PropertyType() { }
 
-	// RVA: 0x15D6610 Offset: 0x15D4C10 VA: 0x1815D6610
+	// RVA: 0x15D68D0 Offset: 0x15D4ED0 VA: 0x1815D68D0
 	private MethodInfo get_SetMethodValue() { }
 
-	// RVA: 0x15D6CA0 Offset: 0x15D52A0 VA: 0x1815D6CA0
+	// RVA: 0x15D6F60 Offset: 0x15D5560 VA: 0x1815D6F60
 	private MethodInfo get_ShouldSerializeMethodValue() { }
 
-	// RVA: 0xC73A80 Offset: 0xC72080 VA: 0x180C73A80
+	// RVA: 0xC73D40 Offset: 0xC72340 VA: 0x180C73D40
 	internal Type ExtenderGetReceiverType() { }
 
-	// RVA: 0x15D3730 Offset: 0x15D1D30 VA: 0x1815D3730
+	// RVA: 0x15D39F0 Offset: 0x15D1FF0 VA: 0x1815D39F0
 	internal Type ExtenderGetType(IExtenderProvider provider) { }
 
-	// RVA: 0x15D3750 Offset: 0x15D1D50 VA: 0x1815D3750
+	// RVA: 0x15D3A10 Offset: 0x15D2010 VA: 0x1815D3A10
 	internal object ExtenderGetValue(IExtenderProvider provider, object component) { }
 
-	// RVA: 0x15D38B0 Offset: 0x15D1EB0 VA: 0x1815D38B0
+	// RVA: 0x15D3B70 Offset: 0x15D2170 VA: 0x1815D3B70
 	internal void ExtenderSetValue(IExtenderProvider provider, object component, object value, PropertyDescriptor notifyDesc) { }
 
-	// RVA: 0x15D3BF0 Offset: 0x15D21F0 VA: 0x1815D3BF0
+	// RVA: 0x15D3EB0 Offset: 0x15D24B0 VA: 0x1815D3EB0
 	internal bool ExtenderShouldSerializeValue(IExtenderProvider provider, object component) { }
 
-	// RVA: 0x15D3FE0 Offset: 0x15D25E0 VA: 0x1815D3FE0 Slot: 11
+	// RVA: 0x15D42A0 Offset: 0x15D28A0 VA: 0x1815D42A0 Slot: 11
 	protected override void FillAttributes(IList attributes) { }
 
-	// RVA: 0x15D4AD0 Offset: 0x15D30D0 VA: 0x1815D4AD0 Slot: 17
+	// RVA: 0x15D4D90 Offset: 0x15D3390 VA: 0x1815D4D90 Slot: 17
 	public override object GetValue(object component) { }
 
-	// RVA: 0x15D4DC0 Offset: 0x15D33C0 VA: 0x1815D4DC0 Slot: 18
+	// RVA: 0x15D5080 Offset: 0x15D3680 VA: 0x1815D5080 Slot: 18
 	protected override void OnValueChanged(object component, EventArgs e) { }
 
-	// RVA: 0x15D4EC0 Offset: 0x15D34C0 VA: 0x1815D4EC0 Slot: 19
+	// RVA: 0x15D5180 Offset: 0x15D3780 VA: 0x1815D5180 Slot: 19
 	public override void SetValue(object component, object value) { }
 
-	// RVA: 0x15D52B0 Offset: 0x15D38B0 VA: 0x1815D52B0 Slot: 20
+	// RVA: 0x15D5570 Offset: 0x15D3B70 VA: 0x1815D5570 Slot: 20
 	public override bool ShouldSerializeValue(object component) { }
 
-	// RVA: 0x15D5590 Offset: 0x15D3B90 VA: 0x1815D5590
+	// RVA: 0x15D5850 Offset: 0x15D3E50 VA: 0x1815D5850
 	private static void .cctor() { }
 
 }

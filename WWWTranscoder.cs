@@ -12,43 +12,43 @@ internal class WWWTranscoder // TypeDefIndex: 4126
 
 	// Methods
 
-	// RVA: 0x22A3BB0 Offset: 0x22A21B0 VA: 0x1822A3BB0
+	// RVA: 0x22A3E70 Offset: 0x22A2470 VA: 0x1822A3E70
 	private static byte Hex2Byte(byte[] b, int offset) { }
 
-	// RVA: 0x22A32F0 Offset: 0x22A18F0 VA: 0x1822A32F0
+	// RVA: 0x22A35B0 Offset: 0x22A1BB0 VA: 0x1822A35B0
 	private static byte[] Byte2Hex(byte b, byte[] hexChars) { }
 
-	// RVA: 0x22A3ED0 Offset: 0x22A24D0 VA: 0x1822A3ED0
+	// RVA: 0x22A4190 Offset: 0x22A2790 VA: 0x1822A4190
 	public static byte[] URLEncode(byte[] toEncode) { }
 
-	// RVA: 0x22A34B0 Offset: 0x22A1AB0 VA: 0x1822A34B0
+	// RVA: 0x22A3770 Offset: 0x22A1D70 VA: 0x1822A3770
 	public static byte[] DataEncode(byte[] toEncode) { }
 
-	// RVA: 0x22A3C40 Offset: 0x22A2240 VA: 0x1822A3C40
+	// RVA: 0x22A3F00 Offset: 0x22A2500 VA: 0x1822A3F00
 	public static string QPEncode(string toEncode, Encoding e) { }
 
-	// RVA: 0x22A3830 Offset: 0x22A1E30 VA: 0x1822A3830
+	// RVA: 0x22A3AF0 Offset: 0x22A20F0 VA: 0x1822A3AF0
 	public static byte[] Encode(byte[] input, byte escapeChar, byte[] space, byte[] forbidden, bool uppercase) { }
 
-	// RVA: 0x22A33C0 Offset: 0x22A19C0 VA: 0x1822A33C0
+	// RVA: 0x22A3680 Offset: 0x22A1C80 VA: 0x1822A3680
 	private static bool ByteArrayContains(byte[] array, byte b) { }
 
-	// RVA: 0x22A3E60 Offset: 0x22A2460 VA: 0x1822A3E60
+	// RVA: 0x22A4120 Offset: 0x22A2720 VA: 0x1822A4120
 	public static byte[] URLDecode(byte[] toEncode) { }
 
-	// RVA: 0x22A3410 Offset: 0x22A1A10 VA: 0x1822A3410
+	// RVA: 0x22A36D0 Offset: 0x22A1CD0 VA: 0x1822A36D0
 	private static bool ByteSubArrayEquals(byte[] array, int index, byte[] comperand) { }
 
-	// RVA: 0x22A3530 Offset: 0x22A1B30 VA: 0x1822A3530
+	// RVA: 0x22A37F0 Offset: 0x22A1DF0 VA: 0x1822A37F0
 	public static byte[] Decode(byte[] input, byte escapeChar, byte[] space) { }
 
-	// RVA: 0x22A3D30 Offset: 0x22A2330 VA: 0x1822A3D30
+	// RVA: 0x22A3FF0 Offset: 0x22A25F0 VA: 0x1822A3FF0
 	public static bool SevenBitClean(string s, Encoding e) { }
 
-	// RVA: 0x22A3E00 Offset: 0x22A2400 VA: 0x1822A3E00
+	// RVA: 0x22A40C0 Offset: 0x22A26C0 VA: 0x1822A40C0
 	public static bool SevenBitClean(byte[] input) { }
 
-	// RVA: 0x22A3F50 Offset: 0x22A2550 VA: 0x1822A3F50
+	// RVA: 0x22A4210 Offset: 0x22A2810 VA: 0x1822A4210
 	private static void .cctor() { }
 
 }

@@ -8,16 +8,16 @@ public sealed class OidEnumerator : IEnumerator // TypeDefIndex: 2794
 
 	// Methods
 
-	// RVA: 0x117C450 Offset: 0x117AA50 VA: 0x18117C450
+	// RVA: 0x117C710 Offset: 0x117AD10 VA: 0x18117C710
 	internal void .ctor(OidCollection oids) { }
 
-	// RVA: 0x117C420 Offset: 0x117AA20 VA: 0x18117C420 Slot: 5
+	// RVA: 0x117C6E0 Offset: 0x117ACE0 VA: 0x18117C6E0 Slot: 5
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	// RVA: 0x117C3B0 Offset: 0x117A9B0 VA: 0x18117C3B0 Slot: 4
+	// RVA: 0x117C670 Offset: 0x117AC70 VA: 0x18117C670 Slot: 4
 	public bool MoveNext() { }
 
-	// RVA: 0x117C410 Offset: 0x117AA10 VA: 0x18117C410 Slot: 6
+	// RVA: 0x117C6D0 Offset: 0x117ACD0 VA: 0x18117C6D0 Slot: 6
 	public void Reset() { }
 
 }

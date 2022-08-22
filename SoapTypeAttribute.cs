@@ -19,10 +19,10 @@ public sealed class SoapTypeAttribute : SoapAttribute // TypeDefIndex: 1214
 
 	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
-	// RVA: 0x9974E0 Offset: 0x995AE0 VA: 0x1809974E0 Slot: 7
+	// RVA: 0x9975F0 Offset: 0x995BF0 VA: 0x1809975F0 Slot: 7
 	public override bool get_UseAttribute() { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
@@ -37,13 +37,13 @@ public sealed class SoapTypeAttribute : SoapAttribute // TypeDefIndex: 1214
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	public string get_XmlTypeNamespace() { }
 
-	// RVA: 0xE8C0F0 Offset: 0xE8A6F0 VA: 0x180E8C0F0
+	// RVA: 0xE8C3B0 Offset: 0xE8A9B0 VA: 0x180E8C3B0
 	internal bool get_IsInteropXmlElement() { }
 
-	// RVA: 0x77B0E0 Offset: 0x7796E0 VA: 0x18077B0E0
+	// RVA: 0x77B1F0 Offset: 0x7797F0 VA: 0x18077B1F0
 	internal bool get_IsInteropXmlType() { }
 
-	// RVA: 0x148D760 Offset: 0x148BD60 VA: 0x18148D760 Slot: 9
+	// RVA: 0x148DA20 Offset: 0x148C020 VA: 0x18148DA20 Slot: 9
 	internal override void SetReflectionObject(object reflectionObject) { }
 
 }

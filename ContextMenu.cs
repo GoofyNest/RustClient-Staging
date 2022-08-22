@@ -6,13 +6,13 @@ public sealed class ContextMenu : Attribute // TypeDefIndex: 3497
 
 	// Methods
 
-	// RVA: 0x1826910 Offset: 0x1824F10 VA: 0x181826910
+	// RVA: 0x1826BD0 Offset: 0x18251D0 VA: 0x181826BD0
 	public void .ctor(string itemName) { }
 
-	// RVA: 0x1826950 Offset: 0x1824F50 VA: 0x181826950
+	// RVA: 0x1826C10 Offset: 0x1825210 VA: 0x181826C10
 	public void .ctor(string itemName, bool isValidateFunction) { }
 
-	// RVA: 0x18269A0 Offset: 0x1824FA0 VA: 0x1818269A0
+	// RVA: 0x1826C60 Offset: 0x1825260 VA: 0x181826C60
 	public void .ctor(string itemName, bool isValidateFunction, int priority) { }
 
 }

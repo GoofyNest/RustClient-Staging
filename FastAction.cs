@@ -8,16 +8,16 @@ public class FastAction // TypeDefIndex: 6737
 
 	// Methods
 
-	// RVA: 0xC65560 Offset: 0xC63B60 VA: 0x180C65560
+	// RVA: 0xC65820 Offset: 0xC63E20 VA: 0x180C65820
 	public void Add(Action rhs) { }
 
-	// RVA: 0xC65670 Offset: 0xC63C70 VA: 0x180C65670
+	// RVA: 0xC65930 Offset: 0xC63F30 VA: 0x180C65930
 	public void Remove(Action rhs) { }
 
-	// RVA: 0xC65600 Offset: 0xC63C00 VA: 0x180C65600
+	// RVA: 0xC658C0 Offset: 0xC63EC0 VA: 0x180C658C0
 	public void Call() { }
 
-	// RVA: 0xC65710 Offset: 0xC63D10 VA: 0x180C65710
+	// RVA: 0xC659D0 Offset: 0xC63FD0 VA: 0x180C659D0
 	public void .ctor() { }
 
 }

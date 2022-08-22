@@ -21,22 +21,22 @@ public struct Byte : IComparable, IFormattable, IConvertible, IComparable<byte>,
 	// RVA: 0x14CC10 Offset: 0x14C010 VA: 0x18014CC10 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x15616A0 Offset: 0x155FCA0 VA: 0x1815616A0
+	// RVA: 0x1561960 Offset: 0x155FF60 VA: 0x181561960
 	public static byte Parse(string s, IFormatProvider provider) { }
 
-	// RVA: 0x15616D0 Offset: 0x155FCD0 VA: 0x1815616D0
+	// RVA: 0x1561990 Offset: 0x155FF90 VA: 0x181561990
 	public static byte Parse(string s, NumberStyles style, IFormatProvider provider) { }
 
-	// RVA: 0x15615B0 Offset: 0x155FBB0 VA: 0x1815615B0
+	// RVA: 0x1561870 Offset: 0x155FE70 VA: 0x181561870
 	private static byte Parse(string s, NumberStyles style, NumberFormatInfo info) { }
 
-	// RVA: 0x1561ED0 Offset: 0x15604D0 VA: 0x181561ED0
+	// RVA: 0x1562190 Offset: 0x1560790 VA: 0x181562190
 	public static bool TryParse(string s, out byte result) { }
 
-	// RVA: 0x1561DF0 Offset: 0x15603F0 VA: 0x181561DF0
+	// RVA: 0x15620B0 Offset: 0x15606B0 VA: 0x1815620B0
 	public static bool TryParse(string s, NumberStyles style, IFormatProvider provider, out byte result) { }
 
-	// RVA: 0x1561E80 Offset: 0x1560480 VA: 0x181561E80
+	// RVA: 0x1562140 Offset: 0x1560740 VA: 0x181562140
 	private static bool TryParse(string s, NumberStyles style, NumberFormatInfo info, out byte result) { }
 
 	// RVA: 0x1F2D50 Offset: 0x1F2150 VA: 0x1801F2D50 Slot: 3

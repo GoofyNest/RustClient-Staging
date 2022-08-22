@@ -21,7 +21,7 @@ public class TriggerHurtEx : TriggerBase, IServerComponent, IHurtTrigger // Type
 
 	// Methods
 
-	// RVA: 0xA21570 Offset: 0xA1FB70 VA: 0x180A21570
+	// RVA: 0xA21830 Offset: 0xA1FE30 VA: 0x180A21830
 	public void .ctor() { }
 
 }

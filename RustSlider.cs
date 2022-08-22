@@ -16,46 +16,46 @@ public class RustSlider : RustControl, IPointerDownHandler, IEventSystemHandler,
 
 	// Methods
 
-	// RVA: 0xFCED00 Offset: 0xFCD300 VA: 0x180FCED00 Slot: 4
+	// RVA: 0xFCEFC0 Offset: 0xFCD5C0 VA: 0x180FCEFC0 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0xFCF350 Offset: 0xFCD950 VA: 0x180FCF350
+	// RVA: 0xFCF610 Offset: 0xFCDC10 VA: 0x180FCF610
 	public float get_Value() { }
 
-	// RVA: 0xFCF380 Offset: 0xFCD980 VA: 0x180FCF380
+	// RVA: 0xFCF640 Offset: 0xFCDC40 VA: 0x180FCF640
 	public void set_Value(float value) { }
 
-	// RVA: 0xFCF2C0 Offset: 0xFCD8C0 VA: 0x180FCF2C0
+	// RVA: 0xFCF580 Offset: 0xFCDB80 VA: 0x180FCF580
 	public float get_ValueNormalized() { }
 
-	// RVA: 0xFCF360 Offset: 0xFCD960 VA: 0x180FCF360
+	// RVA: 0xFCF620 Offset: 0xFCDC20 VA: 0x180FCF620
 	public void set_ValueNormalized(float value) { }
 
-	// RVA: 0xFCF020 Offset: 0xFCD620 VA: 0x180FCF020
+	// RVA: 0xFCF2E0 Offset: 0xFCD8E0 VA: 0x180FCF2E0
 	public void TextChanged(string text) { }
 
-	// RVA: 0xFCF010 Offset: 0xFCD610 VA: 0x180FCF010
+	// RVA: 0xFCF2D0 Offset: 0xFCD8D0 VA: 0x180FCF2D0
 	public void SliderChanged(float slider) { }
 
-	// RVA: 0xFCEC60 Offset: 0xFCD260 VA: 0x180FCEC60 Slot: 30
+	// RVA: 0xFCEF20 Offset: 0xFCD520 VA: 0x180FCEF20 Slot: 30
 	protected override void ApplyStyle(StyleAsset.Group s) { }
 
-	// RVA: 0xFCEEB0 Offset: 0xFCD4B0 VA: 0x180FCEEB0 Slot: 31
+	// RVA: 0xFCF170 Offset: 0xFCD770 VA: 0x180FCF170 Slot: 31
 	public void OnPointerDown(PointerEventData eventData) { }
 
-	// RVA: 0xFCEF90 Offset: 0xFCD590 VA: 0x180FCEF90 Slot: 32
+	// RVA: 0xFCF250 Offset: 0xFCD850 VA: 0x180FCF250 Slot: 32
 	public void OnPointerUp(PointerEventData eventData) { }
 
-	// RVA: 0xFCEE90 Offset: 0xFCD490 VA: 0x180FCEE90 Slot: 34
+	// RVA: 0xFCF150 Offset: 0xFCD750 VA: 0x180FCF150 Slot: 34
 	public void OnInitializePotentialDrag(PointerEventData eventData) { }
 
-	// RVA: 0xFCEE20 Offset: 0xFCD420 VA: 0x180FCEE20 Slot: 33
+	// RVA: 0xFCF0E0 Offset: 0xFCD6E0 VA: 0x180FCF0E0 Slot: 33
 	public void OnDrag(PointerEventData eventData) { }
 
-	// RVA: 0xFCF060 Offset: 0xFCD660 VA: 0x180FCF060
+	// RVA: 0xFCF320 Offset: 0xFCD920 VA: 0x180FCF320
 	private void UpdateDrag(Vector2 pos, Camera cam) { }
 
-	// RVA: 0xFCF250 Offset: 0xFCD850 VA: 0x180FCF250
+	// RVA: 0xFCF510 Offset: 0xFCDB10 VA: 0x180FCF510
 	public void .ctor() { }
 
 }
@@ -63,7 +63,7 @@ public class RustSlider : RustControl, IPointerDownHandler, IEventSystemHandler,
 public class RustSlider.ChangedEvent : UnityEvent<float> // TypeDefIndex: 7030
 {	// Methods
 
-	// RVA: 0xFBE040 Offset: 0xFBC640 VA: 0x180FBE040
+	// RVA: 0xFBE300 Offset: 0xFBC900 VA: 0x180FBE300
 	public void .ctor() { }
 
 }

@@ -17,41 +17,41 @@ public class WheelSwitch : IOEntity // TypeDefIndex: 8487
 
 	// Methods
 
-	// RVA: 0x8F5490 Offset: 0x8F3A90 VA: 0x1808F5490 Slot: 49
+	// RVA: 0x8F55A0 Offset: 0x8F3BA0 VA: 0x1808F55A0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x8F5B30 Offset: 0x8F4130 VA: 0x1808F5B30 Slot: 50
+	// RVA: 0x8F5C40 Offset: 0x8F4240 VA: 0x1808F5C40 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x8F5860 Offset: 0x8F3E60 VA: 0x1808F5860 Slot: 35
+	// RVA: 0x8F5970 Offset: 0x8F3F70 VA: 0x1808F5970 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x8F5950 Offset: 0x8F3F50 VA: 0x1808F5950 Slot: 69
+	// RVA: 0x8F5A60 Offset: 0x8F4060 VA: 0x1808F5A60 Slot: 69
 	public override void OnUseStopped(BasePlayer player) { }
 
 	// RVA: 0x5B12D0 Offset: 0x5AF8D0 VA: 0x1805B12D0 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0x8F59B0 Offset: 0x8F3FB0 VA: 0x1808F59B0
+	// RVA: 0x8F5AC0 Offset: 0x8F40C0 VA: 0x1808F5AC0
 	public void Update() { }
 
 	[BaseEntity.Menu] // RVA: 0x9CF10 Offset: 0x9C310 VA: 0x18009CF10
 	[BaseEntity.Menu.Description] // RVA: 0x9CF10 Offset: 0x9C310 VA: 0x18009CF10
 	[BaseEntity.Menu.Icon] // RVA: 0x9CF10 Offset: 0x9C310 VA: 0x18009CF10
 	[BaseEntity.Menu.ShowIf] // RVA: 0x9CF10 Offset: 0x9C310 VA: 0x18009CF10
-	// RVA: 0x8F5820 Offset: 0x8F3E20 VA: 0x1808F5820
+	// RVA: 0x8F5930 Offset: 0x8F3F30 VA: 0x1808F5930
 	public void Menu_Turn(BasePlayer player) { }
 
-	// RVA: 0x8F5800 Offset: 0x8F3E00 VA: 0x1808F5800
+	// RVA: 0x8F5910 Offset: 0x8F3F10 VA: 0x1808F5910
 	public bool Menu_Turn_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x8F5790 Offset: 0x8F3D90 VA: 0x1808F5790
+	// RVA: 0x8F58A0 Offset: 0x8F3EA0 VA: 0x1808F58A0
 	public bool IsBeingRotated() { }
 
-	// RVA: 0x8F57A0 Offset: 0x8F3DA0 VA: 0x1808F57A0 Slot: 34
+	// RVA: 0x8F58B0 Offset: 0x8F3EB0 VA: 0x1808F58B0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x8F5AA0 Offset: 0x8F40A0 VA: 0x1808F5AA0
+	// RVA: 0x8F5BB0 Offset: 0x8F41B0 VA: 0x1808F5BB0
 	public void .ctor() { }
 
 }

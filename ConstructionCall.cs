@@ -20,22 +20,22 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 
 	// Methods
 
-	// RVA: 0x1473600 Offset: 0x1471C00 VA: 0x181473600
+	// RVA: 0x14738C0 Offset: 0x1471EC0 VA: 0x1814738C0
 	internal void .ctor(Type type) { }
 
-	// RVA: 0x1473670 Offset: 0x1471C70 VA: 0x181473670
+	// RVA: 0x1473930 Offset: 0x1471F30 VA: 0x181473930
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1473230 Offset: 0x1471830 VA: 0x181473230 Slot: 22
+	// RVA: 0x14734F0 Offset: 0x1471AF0 VA: 0x1814734F0 Slot: 22
 	internal override void InitDictionary() { }
 
-	// RVA: 0x1188620 Offset: 0x1186C20 VA: 0x181188620
+	// RVA: 0x11888E0 Offset: 0x1186EE0 VA: 0x1811888E0
 	internal bool get_IsContextOk() { }
 
-	// RVA: 0x1188640 Offset: 0x1186C40 VA: 0x181188640
+	// RVA: 0x1188900 Offset: 0x1186F00 VA: 0x181188900
 	internal void set_IsContextOk(bool value) { }
 
-	// RVA: 0x1473720 Offset: 0x1471D20 VA: 0x181473720 Slot: 24
+	// RVA: 0x14739E0 Offset: 0x1471FE0 VA: 0x1814739E0 Slot: 24
 	public Type get_ActivationType() { }
 
 	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370 Slot: 25
@@ -53,16 +53,16 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
 	internal void SetActivationAttributes(object[] attributes) { }
 
-	// RVA: 0x14737F0 Offset: 0x1471DF0 VA: 0x1814737F0 Slot: 29
+	// RVA: 0x1473AB0 Offset: 0x14720B0 VA: 0x181473AB0 Slot: 29
 	public IList get_ContextProperties() { }
 
-	// RVA: 0x1473340 Offset: 0x1471940 VA: 0x181473340 Slot: 19
+	// RVA: 0x1473600 Offset: 0x1471C00 VA: 0x181473600 Slot: 19
 	internal override void InitMethodProperty(string key, object value) { }
 
-	// RVA: 0x1473130 Offset: 0x1471730 VA: 0x181473130 Slot: 20
+	// RVA: 0x14733F0 Offset: 0x14719F0 VA: 0x1814733F0 Slot: 20
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1473860 Offset: 0x1471E60 VA: 0x181473860 Slot: 21
+	// RVA: 0x1473B20 Offset: 0x1472120 VA: 0x181473B20 Slot: 21
 	public override IDictionary get_Properties() { }
 
 	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380

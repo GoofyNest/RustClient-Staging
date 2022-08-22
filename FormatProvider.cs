@@ -1,10 +1,10 @@
 internal class FormatProvider // TypeDefIndex: 3970
 {	// Methods
 
-	// RVA: 0x2233600 Offset: 0x2231C00 VA: 0x182233600
+	// RVA: 0x22338C0 Offset: 0x2231EC0 VA: 0x1822338C0
 	internal static string FormatBigInteger(int precision, int scale, bool sign, string format, NumberFormatInfo numberFormatInfo, char[] digits, int startIndex) { }
 
-	// RVA: 0x2233850 Offset: 0x2231E50 VA: 0x182233850
+	// RVA: 0x2233B10 Offset: 0x2232110 VA: 0x182233B10
 	internal static bool TryStringToBigInteger(ReadOnlySpan<char> s, NumberStyles styles, NumberFormatInfo numberFormatInfo, StringBuilder receiver, out int precision, out int scale, out bool sign) { }
 
 }
@@ -20,67 +20,67 @@ private class FormatProvider.Number // TypeDefIndex: 3971
 
 	// Methods
 
-	// RVA: 0x1680370 Offset: 0x167E970 VA: 0x181680370
+	// RVA: 0x1680630 Offset: 0x167EC30 VA: 0x181680630
 	private static bool IsWhite(char ch) { }
 
-	// RVA: 0x2234AF0 Offset: 0x22330F0 VA: 0x182234AF0
+	// RVA: 0x2234DB0 Offset: 0x22333B0 VA: 0x182234DB0
 	private static char* MatchChars(char* p, string str) { }
 
-	// RVA: 0x2234BA0 Offset: 0x22331A0 VA: 0x182234BA0
+	// RVA: 0x2234E60 Offset: 0x2233460 VA: 0x182234E60
 	private static char* MatchChars(char* p, char* str) { }
 
-	// RVA: 0x22362E0 Offset: 0x22348E0 VA: 0x1822362E0
+	// RVA: 0x22365A0 Offset: 0x2234BA0 VA: 0x1822365A0
 	private static bool ParseNumber(ref char* str, NumberStyles options, ref FormatProvider.Number.NumberBuffer number, StringBuilder sb, NumberFormatInfo numfmt, bool parseDecimal) { }
 
-	// RVA: 0x2236F00 Offset: 0x2235500 VA: 0x182236F00
+	// RVA: 0x22371C0 Offset: 0x22357C0 VA: 0x1822371C0
 	private static bool TrailingZeros(ReadOnlySpan<char> s, int index) { }
 
-	// RVA: 0x2236F80 Offset: 0x2235580 VA: 0x182236F80
+	// RVA: 0x2237240 Offset: 0x2235840 VA: 0x182237240
 	internal static bool TryStringToNumber(ReadOnlySpan<char> str, NumberStyles options, ref FormatProvider.Number.NumberBuffer number, StringBuilder sb, NumberFormatInfo numfmt, bool parseDecimal) { }
 
-	// RVA: 0x2234A90 Offset: 0x2233090 VA: 0x182234A90
+	// RVA: 0x2234D50 Offset: 0x2233350 VA: 0x182234D50
 	internal static void Int32ToDecChars(char* buffer, ref int index, uint value, int digits) { }
 
-	// RVA: 0x22361F0 Offset: 0x22347F0 VA: 0x1822361F0
+	// RVA: 0x22364B0 Offset: 0x2234AB0 VA: 0x1822364B0
 	internal static char ParseFormatSpecifier(string format, out int digits) { }
 
-	// RVA: 0x2235850 Offset: 0x2233E50 VA: 0x182235850
+	// RVA: 0x2235B10 Offset: 0x2234110 VA: 0x182235B10
 	internal static string NumberToString(FormatProvider.Number.NumberBuffer number, char format, int nMaxDigits, NumberFormatInfo info, bool isDecimal) { }
 
-	// RVA: 0x2233A40 Offset: 0x2232040 VA: 0x182233A40
+	// RVA: 0x2233D00 Offset: 0x2232300 VA: 0x182233D00
 	private static void FormatCurrency(StringBuilder sb, FormatProvider.Number.NumberBuffer number, int nMinDigits, int nMaxDigits, NumberFormatInfo info) { }
 
-	// RVA: 0x2238330 Offset: 0x2236930 VA: 0x182238330
+	// RVA: 0x22385F0 Offset: 0x2236BF0 VA: 0x1822385F0
 	private static int wcslen(char* s) { }
 
-	// RVA: 0x2233E50 Offset: 0x2232450 VA: 0x182233E50
+	// RVA: 0x2234110 Offset: 0x2232710 VA: 0x182234110
 	private static void FormatFixed(StringBuilder sb, FormatProvider.Number.NumberBuffer number, int nMinDigits, int nMaxDigits, NumberFormatInfo info, int[] groupDigits, string sDecimal, string sGroup) { }
 
-	// RVA: 0x2234430 Offset: 0x2232A30 VA: 0x182234430
+	// RVA: 0x22346F0 Offset: 0x2232CF0 VA: 0x1822346F0
 	private static void FormatNumber(StringBuilder sb, FormatProvider.Number.NumberBuffer number, int nMinDigits, int nMaxDigits, NumberFormatInfo info) { }
 
-	// RVA: 0x2234930 Offset: 0x2232F30 VA: 0x182234930
+	// RVA: 0x2234BF0 Offset: 0x22331F0 VA: 0x182234BF0
 	private static void FormatScientific(StringBuilder sb, FormatProvider.Number.NumberBuffer number, int nMinDigits, int nMaxDigits, NumberFormatInfo info, char expChar) { }
 
-	// RVA: 0x2233CE0 Offset: 0x22322E0 VA: 0x182233CE0
+	// RVA: 0x2233FA0 Offset: 0x22325A0 VA: 0x182233FA0
 	private static void FormatExponent(StringBuilder sb, NumberFormatInfo info, int value, char expChar, int minDigits, bool positiveSign) { }
 
-	// RVA: 0x2234280 Offset: 0x2232880 VA: 0x182234280
+	// RVA: 0x2234540 Offset: 0x2232B40 VA: 0x182234540
 	private static void FormatGeneral(StringBuilder sb, FormatProvider.Number.NumberBuffer number, int nMinDigits, int nMaxDigits, NumberFormatInfo info, char expChar, bool bSuppressScientific) { }
 
-	// RVA: 0x2234680 Offset: 0x2232C80 VA: 0x182234680
+	// RVA: 0x2234940 Offset: 0x2232F40 VA: 0x182234940
 	private static void FormatPercent(StringBuilder sb, FormatProvider.Number.NumberBuffer number, int nMinDigits, int nMaxDigits, NumberFormatInfo info) { }
 
-	// RVA: 0x2236E20 Offset: 0x2235420 VA: 0x182236E20
+	// RVA: 0x22370E0 Offset: 0x22356E0 VA: 0x1822370E0
 	private static void RoundNumber(ref FormatProvider.Number.NumberBuffer number, int pos) { }
 
-	// RVA: 0x2233970 Offset: 0x2231F70 VA: 0x182233970
+	// RVA: 0x2233C30 Offset: 0x2232230 VA: 0x182233C30
 	private static int FindSection(string format, int section) { }
 
-	// RVA: 0x2234BF0 Offset: 0x22331F0 VA: 0x182234BF0
+	// RVA: 0x2234EB0 Offset: 0x22334B0 VA: 0x182234EB0
 	internal static string NumberToStringFormat(FormatProvider.Number.NumberBuffer number, string format, NumberFormatInfo info) { }
 
-	// RVA: 0x22371B0 Offset: 0x22357B0 VA: 0x1822371B0
+	// RVA: 0x2237470 Offset: 0x2235A70 VA: 0x182237470
 	private static void .cctor() { }
 
 }

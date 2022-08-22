@@ -7,10 +7,10 @@ internal class SRDescriptionAttribute : DescriptionAttribute // TypeDefIndex: 25
 
 	// Methods
 
-	// RVA: 0x117D9F0 Offset: 0x117BFF0 VA: 0x18117D9F0
+	// RVA: 0x117DCB0 Offset: 0x117C2B0 VA: 0x18117DCB0
 	public void .ctor(string description) { }
 
-	// RVA: 0x117DA60 Offset: 0x117C060 VA: 0x18117DA60 Slot: 7
+	// RVA: 0x117DD20 Offset: 0x117C320 VA: 0x18117DD20 Slot: 7
 	public override string get_Description() { }
 
 }

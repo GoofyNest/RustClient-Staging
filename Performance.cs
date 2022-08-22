@@ -27,66 +27,66 @@ public static class Performance // TypeDefIndex: 6208
 
 	// Methods
 
-	// RVA: 0x14B7480 Offset: 0x14B5A80 VA: 0x1814B7480
+	// RVA: 0x14B7740 Offset: 0x14B5D40 VA: 0x1814B7740
 	public static FrameRateCategory get_FrameRateCategory() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B73C0 Offset: 0x14B59C0 VA: 0x1814B73C0
+	// RVA: 0x14B7680 Offset: 0x14B5C80 VA: 0x1814B7680
 	public static int get_FrameCountLastSecond() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B77B0 Offset: 0x14B5DB0 VA: 0x1814B77B0
+	// RVA: 0x14B7A70 Offset: 0x14B6070 VA: 0x1814B7A70
 	private static void set_FrameCountLastSecond(int value) { }
 
-	// RVA: 0x14B7240 Offset: 0x14B5840 VA: 0x1814B7240
+	// RVA: 0x14B7500 Offset: 0x14B5B00 VA: 0x1814B7500
 	public static double get_AvgFrameTimeLastSecond() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B76F0 Offset: 0x14B5CF0 VA: 0x1814B76F0
+	// RVA: 0x14B79B0 Offset: 0x14B5FB0 VA: 0x1814B79B0
 	public static int get_MemoryUsage() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B7870 Offset: 0x14B5E70 VA: 0x1814B7870
+	// RVA: 0x14B7B30 Offset: 0x14B6130 VA: 0x1814B7B30
 	private static void set_MemoryUsage(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B7690 Offset: 0x14B5C90 VA: 0x1814B7690
+	// RVA: 0x14B7950 Offset: 0x14B5F50 VA: 0x1814B7950
 	public static int get_GarbageCollections() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B7810 Offset: 0x14B5E10 VA: 0x1814B7810
+	// RVA: 0x14B7AD0 Offset: 0x14B60D0 VA: 0x1814B7AD0
 	private static void set_GarbageCollections(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B7750 Offset: 0x14B5D50 VA: 0x1814B7750
+	// RVA: 0x14B7A10 Offset: 0x14B6010 VA: 0x1814B7A10
 	public static float get_SecondsSinceLastConnection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B78D0 Offset: 0x14B5ED0 VA: 0x1814B78D0
+	// RVA: 0x14B7B90 Offset: 0x14B6190 VA: 0x1814B7B90
 	private static void set_SecondsSinceLastConnection(float value) { }
 
-	// RVA: 0x14B7360 Offset: 0x14B5960 VA: 0x1814B7360
+	// RVA: 0x14B7620 Offset: 0x14B5C20 VA: 0x1814B7620
 	public static int[] get_CategorizedFrameCount() { }
 
-	// RVA: 0x14B69F0 Offset: 0x14B4FF0 VA: 0x1814B69F0
+	// RVA: 0x14B6CB0 Offset: 0x14B52B0 VA: 0x1814B6CB0
 	internal static void Frame() { }
 
-	// RVA: 0x14B6C40 Offset: 0x14B5240 VA: 0x1814B6C40
+	// RVA: 0x14B6F00 Offset: 0x14B5500 VA: 0x1814B6F00
 	private static void OneSecond(double timelapse) { }
 
-	// RVA: 0x14B6870 Offset: 0x14B4E70 VA: 0x1814B6870
+	// RVA: 0x14B6B30 Offset: 0x14B5130 VA: 0x1814B6B30
 	private static FrameRateCategory CategorizeFrameRate(int i) { }
 
-	// RVA: 0x14B6F10 Offset: 0x14B5510 VA: 0x1814B6F10
+	// RVA: 0x14B71D0 Offset: 0x14B57D0 VA: 0x1814B71D0
 	private static void UpdateFrameBuckets() { }
 
-	// RVA: 0x14B6B20 Offset: 0x14B5120 VA: 0x1814B6B20
+	// RVA: 0x14B6DE0 Offset: 0x14B53E0 VA: 0x1814B6DE0
 	public static int GetFrameCount(FrameRateCategory category) { }
 
-	// RVA: 0x14B6BB0 Offset: 0x14B51B0 VA: 0x1814B6BB0
+	// RVA: 0x14B6E70 Offset: 0x14B5470 VA: 0x1814B6E70
 	public static float GetFrameFraction(FrameRateCategory category) { }
 
-	// RVA: 0x14B7120 Offset: 0x14B5720 VA: 0x1814B7120
+	// RVA: 0x14B73E0 Offset: 0x14B59E0 VA: 0x1814B73E0
 	private static void .cctor() { }
 
 }
@@ -106,25 +106,25 @@ public class Performance : SingletonComponent<Performance> // TypeDefIndex: 9318
 
 	// Methods
 
-	// RVA: 0x86E820 Offset: 0x86CE20 VA: 0x18086E820
+	// RVA: 0x86E930 Offset: 0x86CF30 VA: 0x18086E930
 	private void Update() { }
 
-	// RVA: 0x86E680 Offset: 0x86CC80 VA: 0x18086E680
+	// RVA: 0x86E790 Offset: 0x86CD90 VA: 0x18086E790
 	public List<int> GetFrameTimes(int requestedStart, int maxCount, out int startIndex) { }
 
-	// RVA: 0x86DF80 Offset: 0x86C580 VA: 0x18086DF80
+	// RVA: 0x86E090 Offset: 0x86C690 VA: 0x18086E090
 	private void FPSTimer() { }
 
-	// RVA: 0x86DCF0 Offset: 0x86C2F0 VA: 0x18086DCF0
+	// RVA: 0x86DE00 Offset: 0x86C400 VA: 0x18086DE00
 	private float AverageFrameRate() { }
 
-	// RVA: 0x86DE20 Offset: 0x86C420 VA: 0x18086DE20
+	// RVA: 0x86DF30 Offset: 0x86C530 VA: 0x18086DF30
 	private float AverageFrameTime() { }
 
-	// RVA: 0x86EA60 Offset: 0x86D060 VA: 0x18086EA60
+	// RVA: 0x86EB70 Offset: 0x86D170 VA: 0x18086EB70
 	public void .ctor() { }
 
-	// RVA: 0x86E990 Offset: 0x86CF90 VA: 0x18086E990
+	// RVA: 0x86EAA0 Offset: 0x86D0A0 VA: 0x18086EAA0
 	private static void .cctor() { }
 
 }

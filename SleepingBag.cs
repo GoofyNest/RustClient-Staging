@@ -7,82 +7,82 @@ public class SleepingBag : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 	// Methods
 
-	// RVA: 0x1DAE380 Offset: 0x1DAC980 VA: 0x181DAE380
+	// RVA: 0x1DAE640 Offset: 0x1DACC40 VA: 0x181DAE640
 	public static void ResetToPool(SleepingBag instance) { }
 
-	// RVA: 0x1DAE2D0 Offset: 0x1DAC8D0 VA: 0x181DAE2D0
+	// RVA: 0x1DAE590 Offset: 0x1DACB90 VA: 0x181DAE590
 	public void ResetToPool() { }
 
-	// RVA: 0x1DAE170 Offset: 0x1DAC770 VA: 0x181DAE170 Slot: 9
+	// RVA: 0x1DAE430 Offset: 0x1DACA30 VA: 0x181DAE430 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DAD430 Offset: 0x1DABA30 VA: 0x181DAD430
+	// RVA: 0x1DAD6F0 Offset: 0x1DABCF0 VA: 0x181DAD6F0
 	public void CopyTo(SleepingBag instance) { }
 
-	// RVA: 0x1DAD470 Offset: 0x1DABA70 VA: 0x181DAD470
+	// RVA: 0x1DAD730 Offset: 0x1DABD30 VA: 0x181DAD730
 	public SleepingBag Copy() { }
 
-	// RVA: 0x1DADAB0 Offset: 0x1DAC0B0 VA: 0x181DADAB0
+	// RVA: 0x1DADD70 Offset: 0x1DAC370 VA: 0x181DADD70
 	public static SleepingBag Deserialize(Stream stream) { }
 
-	// RVA: 0x1DAD500 Offset: 0x1DABB00 VA: 0x181DAD500
+	// RVA: 0x1DAD7C0 Offset: 0x1DABDC0 VA: 0x181DAD7C0
 	public static SleepingBag DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DADA20 Offset: 0x1DAC020 VA: 0x181DADA20
+	// RVA: 0x1DADCE0 Offset: 0x1DAC2E0 VA: 0x181DADCE0
 	public static SleepingBag DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DADEF0 Offset: 0x1DAC4F0 VA: 0x181DADEF0
+	// RVA: 0x1DAE1B0 Offset: 0x1DAC7B0 VA: 0x181DAE1B0
 	public static SleepingBag Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DAE290 Offset: 0x1DAC890 VA: 0x181DAE290
+	// RVA: 0x1DAE550 Offset: 0x1DACB50 VA: 0x181DAE550
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DAE8E0 Offset: 0x1DACEE0 VA: 0x181DAE8E0 Slot: 12
+	// RVA: 0x1DAEBA0 Offset: 0x1DAD1A0 VA: 0x181DAEBA0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DAE900 Offset: 0x1DACF00 VA: 0x181DAE900 Slot: 13
+	// RVA: 0x1DAEBC0 Offset: 0x1DAD1C0 VA: 0x181DAEBC0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, SleepingBag previous) { }
 
-	// RVA: 0x1DAE2B0 Offset: 0x1DAC8B0 VA: 0x181DAE2B0 Slot: 14
+	// RVA: 0x1DAE570 Offset: 0x1DACB70 VA: 0x181DAE570 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DADDF0 Offset: 0x1DAC3F0 VA: 0x181DADDF0
+	// RVA: 0x1DAE0B0 Offset: 0x1DAC6B0 VA: 0x181DAE0B0
 	public static SleepingBag Deserialize(byte[] buffer, SleepingBag instance, bool isDelta = False) { }
 
-	// RVA: 0x1DADC70 Offset: 0x1DAC270 VA: 0x181DADC70
+	// RVA: 0x1DADF30 Offset: 0x1DAC530 VA: 0x181DADF30
 	public static SleepingBag Deserialize(Stream stream, SleepingBag instance, bool isDelta) { }
 
-	// RVA: 0x1DAD580 Offset: 0x1DABB80 VA: 0x181DAD580
+	// RVA: 0x1DAD840 Offset: 0x1DABE40 VA: 0x181DAD840
 	public static SleepingBag DeserializeLengthDelimited(Stream stream, SleepingBag instance, bool isDelta) { }
 
-	// RVA: 0x1DAD7E0 Offset: 0x1DABDE0 VA: 0x181DAD7E0
+	// RVA: 0x1DADAA0 Offset: 0x1DAC0A0 VA: 0x181DADAA0
 	public static SleepingBag DeserializeLength(Stream stream, int length, SleepingBag instance, bool isDelta) { }
 
-	// RVA: 0x1DAE430 Offset: 0x1DACA30 VA: 0x181DAE430
+	// RVA: 0x1DAE6F0 Offset: 0x1DACCF0 VA: 0x181DAE6F0
 	public static void SerializeDelta(Stream stream, SleepingBag instance, SleepingBag previous) { }
 
-	// RVA: 0x1DAE780 Offset: 0x1DACD80 VA: 0x181DAE780
+	// RVA: 0x1DAEA40 Offset: 0x1DAD040 VA: 0x181DAEA40
 	public static void Serialize(Stream stream, SleepingBag instance) { }
 
-	// RVA: 0x1DAE8D0 Offset: 0x1DACED0 VA: 0x181DAE8D0
+	// RVA: 0x1DAEB90 Offset: 0x1DAD190 VA: 0x181DAEB90
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DAE8E0 Offset: 0x1DACEE0 VA: 0x181DAE8E0
+	// RVA: 0x1DAEBA0 Offset: 0x1DAD1A0 VA: 0x181DAEBA0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DAE670 Offset: 0x1DACC70 VA: 0x181DAE670
+	// RVA: 0x1DAE930 Offset: 0x1DACF30 VA: 0x181DAE930
 	public static byte[] SerializeToBytes(SleepingBag instance) { }
 
-	// RVA: 0x1DAE5C0 Offset: 0x1DACBC0 VA: 0x181DAE5C0
+	// RVA: 0x1DAE880 Offset: 0x1DACE80 VA: 0x181DAE880
 	public static void SerializeLengthDelimited(Stream stream, SleepingBag instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

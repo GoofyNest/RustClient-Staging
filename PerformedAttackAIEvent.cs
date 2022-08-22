@@ -5,7 +5,7 @@ public class PerformedAttackAIEvent : BaseAIEvent // TypeDefIndex: 9407
 
 	// Methods
 
-	// RVA: 0x86EAC0 Offset: 0x86D0C0 VA: 0x18086EAC0
+	// RVA: 0x86EBD0 Offset: 0x86D1D0 VA: 0x18086EBD0
 	public void .ctor() { }
 
 }

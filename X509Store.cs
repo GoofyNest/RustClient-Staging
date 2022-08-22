@@ -12,31 +12,31 @@ public class X509Store // TypeDefIndex: 1721
 
 	// Methods
 
-	// RVA: 0x22829C0 Offset: 0x2280FC0 VA: 0x1822829C0
+	// RVA: 0x2282C80 Offset: 0x2281280 VA: 0x182282C80
 	internal void .ctor(string path, bool crl, bool newFormat) { }
 
-	// RVA: 0x2282A20 Offset: 0x2281020 VA: 0x182282A20
+	// RVA: 0x2282CE0 Offset: 0x22812E0 VA: 0x182282CE0
 	public X509CertificateCollection get_Certificates() { }
 
-	// RVA: 0x2282A60 Offset: 0x2281060 VA: 0x182282A60
+	// RVA: 0x2282D20 Offset: 0x2281320 VA: 0x182282D20
 	public ArrayList get_Crls() { }
 
-	// RVA: 0x2282870 Offset: 0x2280E70 VA: 0x182282870
+	// RVA: 0x2282B30 Offset: 0x2281130 VA: 0x182282B30
 	private byte[] Load(string filename) { }
 
-	// RVA: 0x22826E0 Offset: 0x2280CE0 VA: 0x1822826E0
+	// RVA: 0x22829A0 Offset: 0x2280FA0 VA: 0x1822829A0
 	private X509Certificate LoadCertificate(string filename) { }
 
-	// RVA: 0x2282750 Offset: 0x2280D50 VA: 0x182282750
+	// RVA: 0x2282A10 Offset: 0x2281010 VA: 0x182282A10
 	private X509Crl LoadCrl(string filename) { }
 
-	// RVA: 0x2282650 Offset: 0x2280C50 VA: 0x182282650
+	// RVA: 0x2282910 Offset: 0x2280F10 VA: 0x182282910
 	private bool CheckStore(string path, bool throwException) { }
 
-	// RVA: 0x22823C0 Offset: 0x22809C0 VA: 0x1822823C0
+	// RVA: 0x2282680 Offset: 0x2280C80 VA: 0x182282680
 	private X509CertificateCollection BuildCertificatesCollection(string storeName) { }
 
-	// RVA: 0x2282510 Offset: 0x2280B10 VA: 0x182282510
+	// RVA: 0x22827D0 Offset: 0x2280DD0 VA: 0x1822827D0
 	private ArrayList BuildCrlsCollection(string storeName) { }
 
 }
@@ -56,25 +56,25 @@ public sealed class X509Store : IDisposable // TypeDefIndex: 2837
 
 	// Methods
 
-	// RVA: 0x14DC530 Offset: 0x14DAB30 VA: 0x1814DC530
+	// RVA: 0x14DC7F0 Offset: 0x14DADF0 VA: 0x1814DC7F0
 	public void .ctor(StoreName storeName, StoreLocation storeLocation) { }
 
-	// RVA: 0x14DC670 Offset: 0x14DAC70 VA: 0x1814DC670
+	// RVA: 0x14DC930 Offset: 0x14DAF30 VA: 0x1814DC930
 	public X509Certificate2Collection get_Certificates() { }
 
-	// RVA: 0x14DC710 Offset: 0x14DAD10 VA: 0x1814DC710
+	// RVA: 0x14DC9D0 Offset: 0x14DAFD0 VA: 0x1814DC9D0
 	private X509Stores get_Factory() { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	internal X509Store get_Store() { }
 
-	// RVA: 0x14DC1D0 Offset: 0x14DA7D0 VA: 0x1814DC1D0
+	// RVA: 0x14DC490 Offset: 0x14DAA90 VA: 0x1814DC490
 	public void Close() { }
 
-	// RVA: 0x14DC1D0 Offset: 0x14DA7D0 VA: 0x1814DC1D0 Slot: 4
+	// RVA: 0x14DC490 Offset: 0x14DAA90 VA: 0x1814DC490 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x14DC210 Offset: 0x14DA810 VA: 0x1814DC210
+	// RVA: 0x14DC4D0 Offset: 0x14DAAD0 VA: 0x1814DC4D0
 	public void Open(OpenFlags flags) { }
 
 }

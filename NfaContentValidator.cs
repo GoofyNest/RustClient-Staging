@@ -8,22 +8,22 @@ internal sealed class NfaContentValidator : ContentValidator // TypeDefIndex: 21
 
 	// Methods
 
-	// RVA: 0xB136D0 Offset: 0xB11CD0 VA: 0x180B136D0
+	// RVA: 0xB13990 Offset: 0xB11F90 VA: 0x180B13990
 	internal void .ctor(BitSet firstpos, BitSet[] followpos, SymbolsDictionary symbols, Positions positions, int endMarkerPos, XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) { }
 
-	// RVA: 0xB13300 Offset: 0xB11900 VA: 0x180B13300 Slot: 5
+	// RVA: 0xB135C0 Offset: 0xB11BC0 VA: 0x180B135C0 Slot: 5
 	public override void InitValidation(ValidationState context) { }
 
-	// RVA: 0xB13470 Offset: 0xB11A70 VA: 0x180B13470 Slot: 6
+	// RVA: 0xB13730 Offset: 0xB11D30 VA: 0x180B13730 Slot: 6
 	public override object ValidateElement(XmlQualifiedName name, ValidationState context, out int errorCode) { }
 
-	// RVA: 0xB12EB0 Offset: 0xB114B0 VA: 0x180B12EB0 Slot: 7
+	// RVA: 0xB13170 Offset: 0xB11770 VA: 0x180B13170 Slot: 7
 	public override bool CompleteValidation(ValidationState context) { }
 
-	// RVA: 0xB12F10 Offset: 0xB11510 VA: 0x180B12F10 Slot: 8
+	// RVA: 0xB131D0 Offset: 0xB117D0 VA: 0x180B131D0 Slot: 8
 	public override ArrayList ExpectedElements(ValidationState context, bool isRequiredOnly) { }
 
-	// RVA: 0xB13110 Offset: 0xB11710 VA: 0x180B13110 Slot: 9
+	// RVA: 0xB133D0 Offset: 0xB119D0 VA: 0x180B133D0 Slot: 9
 	public override ArrayList ExpectedParticles(ValidationState context, bool isRequiredOnly, XmlSchemaSet schemaSet) { }
 
 }

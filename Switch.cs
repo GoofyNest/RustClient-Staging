@@ -9,16 +9,16 @@ public abstract class Switch // TypeDefIndex: 2635
 
 	// Methods
 
-	// RVA: 0x1734F50 Offset: 0x1733550 VA: 0x181734F50
+	// RVA: 0x1735210 Offset: 0x1733810 VA: 0x181735210
 	protected void .ctor(string displayName, string description) { }
 
-	// RVA: 0x1734D40 Offset: 0x1733340 VA: 0x181734D40
+	// RVA: 0x1735000 Offset: 0x1733600 VA: 0x181735000
 	protected void .ctor(string displayName, string description, string defaultSwitchValue) { }
 
-	// RVA: 0x1734FC0 Offset: 0x17335C0 VA: 0x181734FC0
+	// RVA: 0x1735280 Offset: 0x1733880 VA: 0x181735280
 	private static void _pruneCachedSwitches() { }
 
-	// RVA: 0x1734CE0 Offset: 0x17332E0 VA: 0x181734CE0
+	// RVA: 0x1734FA0 Offset: 0x17335A0 VA: 0x181734FA0
 	private static void .cctor() { }
 
 }

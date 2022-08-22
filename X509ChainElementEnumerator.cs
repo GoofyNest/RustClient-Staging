@@ -8,19 +8,19 @@ public sealed class X509ChainElementEnumerator : IEnumerator // TypeDefIndex: 28
 
 	// Methods
 
-	// RVA: 0x14D2E00 Offset: 0x14D1400 VA: 0x1814D2E00
+	// RVA: 0x14D30C0 Offset: 0x14D16C0 VA: 0x1814D30C0
 	internal void .ctor(IEnumerable enumerable) { }
 
-	// RVA: 0x14D2E70 Offset: 0x14D1470 VA: 0x1814D2E70
+	// RVA: 0x14D3130 Offset: 0x14D1730 VA: 0x1814D3130
 	public X509ChainElement get_Current() { }
 
-	// RVA: 0x14D2DB0 Offset: 0x14D13B0 VA: 0x1814D2DB0 Slot: 5
+	// RVA: 0x14D3070 Offset: 0x14D1670 VA: 0x1814D3070 Slot: 5
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	// RVA: 0x14D2D10 Offset: 0x14D1310 VA: 0x1814D2D10 Slot: 4
+	// RVA: 0x14D2FD0 Offset: 0x14D15D0 VA: 0x1814D2FD0 Slot: 4
 	public bool MoveNext() { }
 
-	// RVA: 0x14D2D60 Offset: 0x14D1360 VA: 0x1814D2D60 Slot: 6
+	// RVA: 0x14D3020 Offset: 0x14D1620 VA: 0x1814D3020 Slot: 6
 	public void Reset() { }
 
 }

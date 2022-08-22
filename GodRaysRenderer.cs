@@ -8,19 +8,19 @@ public class GodRaysRenderer : PostProcessEffectRenderer<GodRays> // TypeDefInde
 
 	// Methods
 
-	// RVA: 0xCA2E90 Offset: 0xCA1490 VA: 0x180CA2E90 Slot: 4
+	// RVA: 0xCA3150 Offset: 0xCA1750 VA: 0x180CA3150 Slot: 4
 	public override void Init() { }
 
-	// RVA: 0xCA20D0 Offset: 0xCA06D0 VA: 0x180CA20D0
+	// RVA: 0xCA2390 Offset: 0xCA0990 VA: 0x180CA2390
 	private void DrawBorder(PostProcessRenderContext context, RenderTargetIdentifier buffer1) { }
 
-	// RVA: 0xCA2560 Offset: 0xCA0B60 VA: 0x180CA2560
+	// RVA: 0xCA2820 Offset: 0xCA0E20 VA: 0x180CA2820
 	private int GetSkyMask(PostProcessRenderContext context, ResolutionType resolution, Vector3 lightPos, int blurIterations, float blurRadius, float maxRadius) { }
 
-	// RVA: 0xCA2FC0 Offset: 0xCA15C0 VA: 0x180CA2FC0 Slot: 8
+	// RVA: 0xCA3280 Offset: 0xCA1880 VA: 0x180CA3280 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0xCA3490 Offset: 0xCA1A90 VA: 0x180CA3490
+	// RVA: 0xCA3750 Offset: 0xCA1D50 VA: 0x180CA3750
 	public void .ctor() { }
 
 }

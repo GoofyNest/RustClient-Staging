@@ -7,7 +7,7 @@ public class TriggerPlayerForce : TriggerBase, IServerComponent // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0xA222A0 Offset: 0xA208A0 VA: 0x180A222A0
+	// RVA: 0xA22560 Offset: 0xA20B60 VA: 0x180A22560
 	public void .ctor() { }
 
 }

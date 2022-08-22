@@ -9,7 +9,7 @@ internal class UpaException : Exception // TypeDefIndex: 2152
 
 	// Methods
 
-	// RVA: 0xEF1D60 Offset: 0xEF0360 VA: 0x180EF1D60
+	// RVA: 0xEF2020 Offset: 0xEF0620 VA: 0x180EF2020
 	public void .ctor(object particle1, object particle2) { }
 
 	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370

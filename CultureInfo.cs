@@ -65,19 +65,19 @@ public class CultureInfo : ICloneable, IFormatProvider // TypeDefIndex: 741
 
 	// Methods
 
-	// RVA: 0x16DDB50 Offset: 0x16DC150 VA: 0x1816DDB50
+	// RVA: 0x16DDE10 Offset: 0x16DC410 VA: 0x1816DDE10
 	public static CultureInfo get_InvariantCulture() { }
 
-	// RVA: 0x16DD7A0 Offset: 0x16DBDA0 VA: 0x1816DD7A0
+	// RVA: 0x16DDA60 Offset: 0x16DC060 VA: 0x1816DDA60
 	public static CultureInfo get_CurrentCulture() { }
 
-	// RVA: 0x16DD7D0 Offset: 0x16DBDD0 VA: 0x1816DD7D0
+	// RVA: 0x16DDA90 Offset: 0x16DC090 VA: 0x1816DDA90
 	public static CultureInfo get_CurrentUICulture() { }
 
-	// RVA: 0x16D9980 Offset: 0x16D7F80 VA: 0x1816D9980
+	// RVA: 0x16D9C40 Offset: 0x16D8240 VA: 0x1816D9C40
 	internal static CultureInfo ConstructCurrentCulture() { }
 
-	// RVA: 0x16D9B10 Offset: 0x16D8110 VA: 0x1816D9B10
+	// RVA: 0x16D9DD0 Offset: 0x16D83D0 VA: 0x1816D9DD0
 	internal static CultureInfo ConstructCurrentUICulture() { }
 
 	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
@@ -89,160 +89,160 @@ public class CultureInfo : ICloneable, IFormatProvider // TypeDefIndex: 741
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450 Slot: 7
 	public virtual string get_Name() { }
 
-	// RVA: 0x16DD590 Offset: 0x16DBB90 VA: 0x1816DD590 Slot: 8
+	// RVA: 0x16DD850 Offset: 0x16DBE50 VA: 0x1816DD850 Slot: 8
 	public virtual Calendar get_Calendar() { }
 
-	// RVA: 0x16DDCB0 Offset: 0x16DC2B0 VA: 0x1816DDCB0 Slot: 9
+	// RVA: 0x16DDF70 Offset: 0x16DC570 VA: 0x1816DDF70 Slot: 9
 	public virtual CultureInfo get_Parent() { }
 
-	// RVA: 0x16DDEF0 Offset: 0x16DC4F0 VA: 0x1816DDEF0 Slot: 10
+	// RVA: 0x16DE1B0 Offset: 0x16DC7B0 VA: 0x1816DE1B0 Slot: 10
 	public virtual TextInfo get_TextInfo() { }
 
-	// RVA: 0x16D96F0 Offset: 0x16D7CF0 VA: 0x1816D96F0 Slot: 11
+	// RVA: 0x16D99B0 Offset: 0x16D7FB0 VA: 0x1816D99B0 Slot: 11
 	public virtual object Clone() { }
 
-	// RVA: 0x16DBE80 Offset: 0x16DA480 VA: 0x1816DBE80 Slot: 0
+	// RVA: 0x16DC140 Offset: 0x16DA740 VA: 0x1816DC140 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x16DC390 Offset: 0x16DA990 VA: 0x1816DC390
+	// RVA: 0x16DC650 Offset: 0x16DAC50 VA: 0x1816DC650
 	public static CultureInfo[] GetCultures(CultureTypes types) { }
 
-	// RVA: 0x16DC870 Offset: 0x16DAE70 VA: 0x1816DC870
+	// RVA: 0x16DCB30 Offset: 0x16DB130 VA: 0x1816DCB30
 	private CultureInfo.Data GetTextInfoData() { }
 
-	// RVA: 0x16DC860 Offset: 0x16DAE60 VA: 0x1816DC860 Slot: 2
+	// RVA: 0x16DCB20 Offset: 0x16DB120 VA: 0x1816DCB20 Slot: 2
 	public override int GetHashCode() { }
 
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x16DD630 Offset: 0x16DBC30 VA: 0x1816DD630 Slot: 12
+	// RVA: 0x16DD8F0 Offset: 0x16DBEF0 VA: 0x1816DD8F0 Slot: 12
 	public virtual CompareInfo get_CompareInfo() { }
 
-	// RVA: 0x16DDBC0 Offset: 0x16DC1C0 VA: 0x1816DDBC0 Slot: 13
+	// RVA: 0x16DDE80 Offset: 0x16DC480 VA: 0x1816DDE80 Slot: 13
 	public virtual bool get_IsNeutralCulture() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void CheckNeutral() { }
 
-	// RVA: 0x16DDC00 Offset: 0x16DC200 VA: 0x1816DDC00 Slot: 14
+	// RVA: 0x16DDEC0 Offset: 0x16DC4C0 VA: 0x1816DDEC0 Slot: 14
 	public virtual NumberFormatInfo get_NumberFormat() { }
 
-	// RVA: 0x16DE3C0 Offset: 0x16DC9C0 VA: 0x1816DE3C0 Slot: 15
+	// RVA: 0x16DE680 Offset: 0x16DCC80 VA: 0x1816DE680 Slot: 15
 	public virtual void set_NumberFormat(NumberFormatInfo value) { }
 
-	// RVA: 0x16DD800 Offset: 0x16DBE00 VA: 0x1816DD800 Slot: 16
+	// RVA: 0x16DDAC0 Offset: 0x16DC0C0 VA: 0x1816DDAC0 Slot: 16
 	public virtual DateTimeFormatInfo get_DateTimeFormat() { }
 
-	// RVA: 0x16DE2E0 Offset: 0x16DC8E0 VA: 0x1816DE2E0 Slot: 17
+	// RVA: 0x16DE5A0 Offset: 0x16DCBA0 VA: 0x1816DE5A0 Slot: 17
 	public virtual void set_DateTimeFormat(DateTimeFormatInfo value) { }
 
-	// RVA: 0x16DDA20 Offset: 0x16DC020 VA: 0x1816DDA20 Slot: 18
+	// RVA: 0x16DDCE0 Offset: 0x16DC2E0 VA: 0x1816DDCE0 Slot: 18
 	public virtual string get_EnglishName() { }
 
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public bool get_IsReadOnly() { }
 
-	// RVA: 0x16DC750 Offset: 0x16DAD50 VA: 0x1816DC750 Slot: 19
+	// RVA: 0x16DCA10 Offset: 0x16DB010 VA: 0x1816DCA10 Slot: 19
 	public virtual object GetFormat(Type formatType) { }
 
-	// RVA: 0x16D9CE0 Offset: 0x16D82E0 VA: 0x1816D9CE0
+	// RVA: 0x16D9FA0 Offset: 0x16D85A0 VA: 0x1816D9FA0
 	private void Construct() { }
 
-	// RVA: 0x16DD4D0 Offset: 0x16DBAD0 VA: 0x1816DD4D0
+	// RVA: 0x16DD790 Offset: 0x16DBD90 VA: 0x1816DD790
 	private bool construct_internal_locale_from_lcid(int lcid) { }
 
-	// RVA: 0x16DD4E0 Offset: 0x16DBAE0 VA: 0x1816DD4E0
+	// RVA: 0x16DD7A0 Offset: 0x16DBDA0 VA: 0x1816DD7A0
 	private bool construct_internal_locale_from_name(string name) { }
 
-	// RVA: 0x16DE140 Offset: 0x16DC740 VA: 0x1816DE140
+	// RVA: 0x16DE400 Offset: 0x16DCA00 VA: 0x1816DE400
 	private static string get_current_locale_name() { }
 
-	// RVA: 0x16DE2D0 Offset: 0x16DC8D0 VA: 0x1816DE2D0
+	// RVA: 0x16DE590 Offset: 0x16DCB90 VA: 0x1816DE590
 	private static CultureInfo[] internal_get_cultures(bool neutral, bool specific, bool installed) { }
 
-	// RVA: 0x16D9B60 Offset: 0x16D8160 VA: 0x1816D9B60
+	// RVA: 0x16D9E20 Offset: 0x16D8420 VA: 0x1816D9E20
 	private void ConstructInvariant(bool read_only) { }
 
-	// RVA: 0x16DBE00 Offset: 0x16DA400 VA: 0x1816DBE00
+	// RVA: 0x16DC0C0 Offset: 0x16DA6C0 VA: 0x1816DC0C0
 	private TextInfo CreateTextInfo(bool readOnly) { }
 
-	// RVA: 0x16DCEF0 Offset: 0x16DB4F0 VA: 0x1816DCEF0
+	// RVA: 0x16DD1B0 Offset: 0x16DB7B0 VA: 0x1816DD1B0
 	public void .ctor(int culture) { }
 
-	// RVA: 0x16DCED0 Offset: 0x16DB4D0 VA: 0x1816DCED0
+	// RVA: 0x16DD190 Offset: 0x16DB790 VA: 0x1816DD190
 	public void .ctor(int culture, bool useUserOverride) { }
 
-	// RVA: 0x16DCF10 Offset: 0x16DB510 VA: 0x1816DCF10
+	// RVA: 0x16DD1D0 Offset: 0x16DB7D0 VA: 0x1816DD1D0
 	private void .ctor(int culture, bool useUserOverride, bool read_only) { }
 
-	// RVA: 0x16DD220 Offset: 0x16DB820 VA: 0x1816DD220
+	// RVA: 0x16DD4E0 Offset: 0x16DBAE0 VA: 0x1816DD4E0
 	public void .ctor(string name) { }
 
-	// RVA: 0x16DD1E0 Offset: 0x16DB7E0 VA: 0x1816DD1E0
+	// RVA: 0x16DD4A0 Offset: 0x16DBAA0 VA: 0x1816DD4A0
 	public void .ctor(string name, bool useUserOverride) { }
 
-	// RVA: 0x16DD240 Offset: 0x16DB840 VA: 0x1816DD240
+	// RVA: 0x16DD500 Offset: 0x16DBB00 VA: 0x1816DD500
 	private void .ctor(string name, bool useUserOverride, bool read_only) { }
 
-	// RVA: 0x16DD200 Offset: 0x16DB800 VA: 0x1816DD200
+	// RVA: 0x16DD4C0 Offset: 0x16DBAC0 VA: 0x1816DD4C0
 	private void .ctor() { }
 
-	// RVA: 0x16DE150 Offset: 0x16DC750 VA: 0x1816DE150
+	// RVA: 0x16DE410 Offset: 0x16DCA10 VA: 0x1816DE410
 	private static void insert_into_shared_tables(CultureInfo c) { }
 
-	// RVA: 0x16DBF20 Offset: 0x16DA520 VA: 0x1816DBF20
+	// RVA: 0x16DC1E0 Offset: 0x16DA7E0 VA: 0x1816DC1E0
 	public static CultureInfo GetCultureInfo(int culture) { }
 
-	// RVA: 0x16DC160 Offset: 0x16DA760 VA: 0x1816DC160
+	// RVA: 0x16DC420 Offset: 0x16DAA20 VA: 0x1816DC420
 	public static CultureInfo GetCultureInfo(string name) { }
 
-	// RVA: 0x16D9EC0 Offset: 0x16D84C0 VA: 0x1816D9EC0
+	// RVA: 0x16DA180 Offset: 0x16D8780 VA: 0x1816DA180
 	internal static CultureInfo CreateCulture(string name, bool reference) { }
 
-	// RVA: 0x16DBAD0 Offset: 0x16DA0D0 VA: 0x1816DBAD0
+	// RVA: 0x16DBD90 Offset: 0x16DA390 VA: 0x1816DBD90
 	public static CultureInfo CreateSpecificCulture(string name) { }
 
-	// RVA: 0x16D9FD0 Offset: 0x16D85D0 VA: 0x1816D9FD0
+	// RVA: 0x16DA290 Offset: 0x16D8890 VA: 0x1816DA290
 	private static CultureInfo CreateSpecificCultureFromNeutral(string name) { }
 
-	// RVA: 0x16DD4F0 Offset: 0x16DBAF0 VA: 0x1816DD4F0
+	// RVA: 0x16DD7B0 Offset: 0x16DBDB0 VA: 0x1816DD7B0
 	internal int get_CalendarType() { }
 
-	// RVA: 0x16D9D00 Offset: 0x16D8300 VA: 0x1816D9D00
+	// RVA: 0x16D9FC0 Offset: 0x16D85C0 VA: 0x1816D9FC0
 	private static Calendar CreateCalendar(int calendarType) { }
 
-	// RVA: 0x16D9F50 Offset: 0x16D8550 VA: 0x1816D9F50
+	// RVA: 0x16DA210 Offset: 0x16D8810 VA: 0x1816DA210
 	private static Exception CreateNotFoundException(string name) { }
 
-	// RVA: 0x16DD940 Offset: 0x16DBF40 VA: 0x1816DD940
+	// RVA: 0x16DDC00 Offset: 0x16DC200 VA: 0x1816DDC00
 	public static CultureInfo get_DefaultThreadCurrentCulture() { }
 
-	// RVA: 0x16DD9B0 Offset: 0x16DBFB0 VA: 0x1816DD9B0
+	// RVA: 0x16DDC70 Offset: 0x16DC270 VA: 0x1816DDC70
 	public static CultureInfo get_DefaultThreadCurrentUICulture() { }
 
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	internal string get_SortName() { }
 
-	// RVA: 0x16DE0B0 Offset: 0x16DC6B0 VA: 0x1816DE0B0
+	// RVA: 0x16DE370 Offset: 0x16DC970 VA: 0x1816DE370
 	internal static CultureInfo get_UserDefaultUICulture() { }
 
-	// RVA: 0x16DE060 Offset: 0x16DC660 VA: 0x1816DE060
+	// RVA: 0x16DE320 Offset: 0x16DC920 VA: 0x1816DE320
 	internal static CultureInfo get_UserDefaultCulture() { }
 
-	// RVA: 0x16D9550 Offset: 0x16D7B50 VA: 0x1816D9550
+	// RVA: 0x16D9810 Offset: 0x16D7E10 VA: 0x1816D9810
 	internal static void CheckDomainSafetyObject(object obj, object container) { }
 
-	// RVA: 0x16DDA60 Offset: 0x16DC060 VA: 0x1816DDA60
+	// RVA: 0x16DDD20 Offset: 0x16DC320 VA: 0x1816DDD20
 	internal bool get_HasInvariantCultureName() { }
 
-	// RVA: 0x16DC890 Offset: 0x16DAE90 VA: 0x1816DC890
+	// RVA: 0x16DCB50 Offset: 0x16DB150 VA: 0x1816DCB50
 	internal static bool VerifyCultureName(string cultureName, bool throwException) { }
 
-	// RVA: 0x16DC9C0 Offset: 0x16DAFC0 VA: 0x1816DC9C0
+	// RVA: 0x16DCC80 Offset: 0x16DB280 VA: 0x1816DCC80
 	internal static bool VerifyCultureName(CultureInfo culture, bool throwException) { }
 
-	// RVA: 0x16DCB70 Offset: 0x16DB170 VA: 0x1816DCB70
+	// RVA: 0x16DCE30 Offset: 0x16DB430 VA: 0x1816DCE30
 	private static void .cctor() { }
 
 }

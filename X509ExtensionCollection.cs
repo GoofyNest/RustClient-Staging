@@ -4,13 +4,13 @@ internal sealed class X509ExtensionCollection : CollectionBase, IEnumerable // T
 
 	// Methods
 
-	// RVA: 0x105CC80 Offset: 0x105B280 VA: 0x18105CC80
+	// RVA: 0x105CF40 Offset: 0x105B540 VA: 0x18105CF40
 	public void .ctor() { }
 
-	// RVA: 0x1568C30 Offset: 0x1567230 VA: 0x181568C30
+	// RVA: 0x1568EF0 Offset: 0x15674F0 VA: 0x181568EF0
 	public void .ctor(ASN1 asn1) { }
 
-	// RVA: 0x1568C00 Offset: 0x1567200 VA: 0x181568C00 Slot: 18
+	// RVA: 0x1568EC0 Offset: 0x15674C0 VA: 0x181568EC0 Slot: 18
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
@@ -24,19 +24,19 @@ public sealed class X509ExtensionCollection : CollectionBase, IEnumerable // Typ
 
 	// Methods
 
-	// RVA: 0x105CC80 Offset: 0x105B280 VA: 0x18105CC80
+	// RVA: 0x105CF40 Offset: 0x105B540 VA: 0x18105CF40
 	public void .ctor() { }
 
-	// RVA: 0x2281420 Offset: 0x227FA20 VA: 0x182281420
+	// RVA: 0x22816E0 Offset: 0x227FCE0 VA: 0x1822816E0
 	public void .ctor(ASN1 asn1) { }
 
-	// RVA: 0x2281260 Offset: 0x227F860 VA: 0x182281260
+	// RVA: 0x2281520 Offset: 0x227FB20 VA: 0x182281520
 	public int IndexOf(string oid) { }
 
-	// RVA: 0x1568C00 Offset: 0x1567200 VA: 0x181568C00 Slot: 18
+	// RVA: 0x1568EC0 Offset: 0x15674C0 VA: 0x181568EC0 Slot: 18
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x2281540 Offset: 0x227FB40 VA: 0x182281540
+	// RVA: 0x2281800 Offset: 0x227FE00 VA: 0x182281800
 	public X509Extension get_Item(string oid) { }
 
 }
@@ -53,28 +53,28 @@ public sealed class X509ExtensionCollection : ICollection, IEnumerable // TypeDe
 
 	// Methods
 
-	// RVA: 0x14DA5E0 Offset: 0x14D8BE0 VA: 0x1814DA5E0
+	// RVA: 0x14DA8A0 Offset: 0x14D8EA0 VA: 0x1814DA8A0
 	internal void .ctor(X509Certificate cert) { }
 
-	// RVA: 0xB19040 Offset: 0xB17640 VA: 0x180B19040 Slot: 5
+	// RVA: 0xB19300 Offset: 0xB17900 VA: 0x180B19300 Slot: 5
 	public int get_Count() { }
 
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 6
 	public object get_SyncRoot() { }
 
-	// RVA: 0x14DAA50 Offset: 0x14D9050 VA: 0x1814DAA50
+	// RVA: 0x14DAD10 Offset: 0x14D9310 VA: 0x1814DAD10
 	public X509Extension get_Item(string oid) { }
 
-	// RVA: 0x14DA3E0 Offset: 0x14D89E0 VA: 0x1814DA3E0 Slot: 4
+	// RVA: 0x14DA6A0 Offset: 0x14D8CA0 VA: 0x1814DA6A0 Slot: 4
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 
-	// RVA: 0x14DA350 Offset: 0x14D8950 VA: 0x1814DA350
+	// RVA: 0x14DA610 Offset: 0x14D8C10 VA: 0x1814DA610
 	public X509ExtensionEnumerator GetEnumerator() { }
 
-	// RVA: 0x14DA500 Offset: 0x14D8B00 VA: 0x1814DA500 Slot: 7
+	// RVA: 0x14DA7C0 Offset: 0x14D8DC0 VA: 0x1814DA7C0 Slot: 7
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x14DA590 Offset: 0x14D8B90 VA: 0x1814DA590
+	// RVA: 0x14DA850 Offset: 0x14D8E50 VA: 0x1814DA850
 	private static void .cctor() { }
 
 }

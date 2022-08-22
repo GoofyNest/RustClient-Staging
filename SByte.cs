@@ -34,21 +34,21 @@ public struct SByte : IComparable, IFormattable, IConvertible, IComparable<sbyte
 	private string ToString(string format, NumberFormatInfo info) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x12A4380 Offset: 0x12A2980 VA: 0x1812A4380
+	// RVA: 0x12A4640 Offset: 0x12A2C40 VA: 0x1812A4640
 	public static sbyte Parse(string s, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x12A4330 Offset: 0x12A2930 VA: 0x1812A4330
+	// RVA: 0x12A45F0 Offset: 0x12A2BF0 VA: 0x1812A45F0
 	public static sbyte Parse(string s, NumberStyles style, IFormatProvider provider) { }
 
-	// RVA: 0x12A43B0 Offset: 0x12A29B0 VA: 0x1812A43B0
+	// RVA: 0x12A4670 Offset: 0x12A2C70 VA: 0x1812A4670
 	private static sbyte Parse(string s, NumberStyles style, NumberFormatInfo info) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x12A4750 Offset: 0x12A2D50 VA: 0x1812A4750
+	// RVA: 0x12A4A10 Offset: 0x12A3010 VA: 0x1812A4A10
 	public static bool TryParse(string s, NumberStyles style, IFormatProvider provider, out sbyte result) { }
 
-	// RVA: 0x12A46D0 Offset: 0x12A2CD0 VA: 0x1812A46D0
+	// RVA: 0x12A4990 Offset: 0x12A2F90 VA: 0x1812A4990
 	private static bool TryParse(string s, NumberStyles style, NumberFormatInfo info, out sbyte result) { }
 
 	// RVA: 0x1DF4D0 Offset: 0x1DE8D0 VA: 0x1801DF4D0 Slot: 6

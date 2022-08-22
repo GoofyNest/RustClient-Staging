@@ -18,34 +18,34 @@ public class PhysicsRaycaster : BaseRaycaster // TypeDefIndex: 5093
 
 	// Methods
 
-	// RVA: 0x10C6CC0 Offset: 0x10C52C0 VA: 0x1810C6CC0
+	// RVA: 0x10C6F80 Offset: 0x10C5580 VA: 0x1810C6F80
 	protected void .ctor() { }
 
-	// RVA: 0x10C7690 Offset: 0x10C5C90 VA: 0x1810C7690 Slot: 18
+	// RVA: 0x10C7950 Offset: 0x10C5F50 VA: 0x1810C7950 Slot: 18
 	public override Camera get_eventCamera() { }
 
-	// RVA: 0x10C75D0 Offset: 0x10C5BD0 VA: 0x1810C75D0 Slot: 22
+	// RVA: 0x10C7890 Offset: 0x10C5E90 VA: 0x1810C7890 Slot: 22
 	public virtual int get_depth() { }
 
-	// RVA: 0x10C7730 Offset: 0x10C5D30 VA: 0x1810C7730
+	// RVA: 0x10C79F0 Offset: 0x10C5FF0 VA: 0x1810C79F0
 	public int get_finalEventMask() { }
 
 	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
 	public LayerMask get_eventMask() { }
 
-	// RVA: 0x7D0C50 Offset: 0x7CF250 VA: 0x1807D0C50
+	// RVA: 0x7D0D60 Offset: 0x7CF360 VA: 0x1807D0D60
 	public void set_eventMask(LayerMask value) { }
 
 	// RVA: 0x5DE3B0 Offset: 0x5DC9B0 VA: 0x1805DE3B0
 	public int get_maxRayIntersections() { }
 
-	// RVA: 0x10B8020 Offset: 0x10B6620 VA: 0x1810B8020
+	// RVA: 0x10B82E0 Offset: 0x10B68E0 VA: 0x1810B82E0
 	public void set_maxRayIntersections(int value) { }
 
-	// RVA: 0x10C6CF0 Offset: 0x10C52F0 VA: 0x1810C6CF0
+	// RVA: 0x10C6FB0 Offset: 0x10C55B0 VA: 0x1810C6FB0
 	protected bool ComputeRayAndDistance(PointerEventData eventData, ref Ray ray, ref float distanceToClipPlane) { }
 
-	// RVA: 0x10C70D0 Offset: 0x10C56D0 VA: 0x1810C70D0 Slot: 17
+	// RVA: 0x10C7390 Offset: 0x10C5990 VA: 0x1810C7390 Slot: 17
 	public override void Raycast(PointerEventData eventData, List<RaycastResult> resultAppendList) { }
 
 }
@@ -56,13 +56,13 @@ private class PhysicsRaycaster.RaycastHitComparer : IComparer<RaycastHit> // Typ
 
 	// Methods
 
-	// RVA: 0x763D80 Offset: 0x762380 VA: 0x180763D80 Slot: 4
+	// RVA: 0x763E90 Offset: 0x762490 VA: 0x180763E90 Slot: 4
 	public int Compare(RaycastHit x, RaycastHit y) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x10C99E0 Offset: 0x10C7FE0 VA: 0x1810C99E0
+	// RVA: 0x10C9CA0 Offset: 0x10C82A0 VA: 0x1810C9CA0
 	private static void .cctor() { }
 
 }

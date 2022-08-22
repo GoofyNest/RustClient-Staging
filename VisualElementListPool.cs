@@ -4,13 +4,13 @@ internal static class VisualElementListPool // TypeDefIndex: 4612
 
 	// Methods
 
-	// RVA: 0x22F7530 Offset: 0x22F5B30 VA: 0x1822F7530
+	// RVA: 0x22F77F0 Offset: 0x22F5DF0 VA: 0x1822F77F0
 	public static List<VisualElement> Get(int initialCapacity = 0) { }
 
-	// RVA: 0x22F75E0 Offset: 0x22F5BE0 VA: 0x1822F75E0
+	// RVA: 0x22F78A0 Offset: 0x22F5EA0 VA: 0x1822F78A0
 	public static void Release(List<VisualElement> elements) { }
 
-	// RVA: 0x22F7670 Offset: 0x22F5C70 VA: 0x1822F7670
+	// RVA: 0x22F7930 Offset: 0x22F5F30 VA: 0x1822F7930
 	private static void .cctor() { }
 
 }

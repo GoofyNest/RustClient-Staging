@@ -28,34 +28,34 @@ internal class SortKeyBuffer // TypeDefIndex: 44
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor(int lcid) { }
 
-	// RVA: 0x1651890 Offset: 0x164FE90 VA: 0x181651890
+	// RVA: 0x1651B50 Offset: 0x1650150 VA: 0x181651B50
 	public void Reset() { }
 
-	// RVA: 0x1651690 Offset: 0x164FC90 VA: 0x181651690
+	// RVA: 0x1651950 Offset: 0x164FF50 VA: 0x181651950
 	internal void Initialize(CompareOptions options, int lcid, string s, bool frenchSort) { }
 
-	// RVA: 0x1650A10 Offset: 0x164F010 VA: 0x181650A10
+	// RVA: 0x1650CD0 Offset: 0x164F2D0 VA: 0x181650CD0
 	internal void AppendCJKExtension(byte lv1msb, byte lv1lsb) { }
 
-	// RVA: 0x1650AF0 Offset: 0x164F0F0 VA: 0x181650AF0
+	// RVA: 0x1650DB0 Offset: 0x164F3B0 VA: 0x181650DB0
 	internal void AppendKana(byte category, byte lv1, byte lv2, byte lv3, bool isSmallKana, byte markType, bool isKatakana, bool isHalfWidth) { }
 
-	// RVA: 0x1650CA0 Offset: 0x164F2A0 VA: 0x181650CA0
+	// RVA: 0x1650F60 Offset: 0x164F560 VA: 0x181650F60
 	internal void AppendNormal(byte category, byte lv1, byte lv2, byte lv3) { }
 
-	// RVA: 0x1650BC0 Offset: 0x164F1C0 VA: 0x181650BC0
+	// RVA: 0x1650E80 Offset: 0x164F480 VA: 0x181650E80
 	private void AppendLevel5(byte category, byte lv1) { }
 
-	// RVA: 0x1650950 Offset: 0x164EF50 VA: 0x181650950
+	// RVA: 0x1650C10 Offset: 0x164F210 VA: 0x181650C10
 	private void AppendBufferPrimitive(byte value, ref byte[] buf, ref int bidx) { }
 
-	// RVA: 0x1650F20 Offset: 0x164F520 VA: 0x181650F20
+	// RVA: 0x16511E0 Offset: 0x164F7E0 VA: 0x1816511E0
 	public SortKey GetResultAndReset() { }
 
-	// RVA: 0x1650EC0 Offset: 0x164F4C0 VA: 0x181650EC0
+	// RVA: 0x1651180 Offset: 0x164F780 VA: 0x181651180
 	private int GetOptimizedLength(byte[] data, int len, byte defaultValue) { }
 
-	// RVA: 0x1650F50 Offset: 0x164F550 VA: 0x181650F50
+	// RVA: 0x1651210 Offset: 0x164F810 VA: 0x181651210
 	public SortKey GetResult() { }
 
 }

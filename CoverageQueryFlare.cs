@@ -38,67 +38,67 @@ public class CoverageQueryFlare : BaseMonoBehaviour, IClientComponent, IOnParent
 
 	// Methods
 
-	// RVA: 0x6C0A40 Offset: 0x6BF040 VA: 0x1806C0A40
+	// RVA: 0x6C0B50 Offset: 0x6BF150 VA: 0x1806C0B50
 	public float get_CurrentDistance() { }
 
-	// RVA: 0x6BF890 Offset: 0x6BDE90 VA: 0x1806BF890
+	// RVA: 0x6BF9A0 Offset: 0x6BDFA0 VA: 0x1806BF9A0
 	private float GetDistance() { }
 
-	// RVA: 0x6BF5A0 Offset: 0x6BDBA0 VA: 0x1806BF5A0
+	// RVA: 0x6BF6B0 Offset: 0x6BDCB0 VA: 0x1806BF6B0
 	private void Awake() { }
 
-	// RVA: 0x6BFC60 Offset: 0x6BE260 VA: 0x1806BFC60
+	// RVA: 0x6BFD70 Offset: 0x6BE370 VA: 0x1806BFD70
 	private void OnEnable() { }
 
-	// RVA: 0x6BF6F0 Offset: 0x6BDCF0 VA: 0x1806BF6F0 Slot: 7
+	// RVA: 0x6BF800 Offset: 0x6BDE00 VA: 0x1806BF800 Slot: 7
 	public void ChangeLOD() { }
 
-	// RVA: 0x6BFE40 Offset: 0x6BE440 VA: 0x1806BFE40 Slot: 8
+	// RVA: 0x6BFF50 Offset: 0x6BE550 VA: 0x1806BFF50 Slot: 8
 	public void RefreshLOD() { }
 
-	// RVA: 0x6BF960 Offset: 0x6BDF60 VA: 0x1806BF960
+	// RVA: 0x6BFA70 Offset: 0x6BE070 VA: 0x1806BFA70
 	private int GetLOD(float distance) { }
 
-	// RVA: 0x6C02E0 Offset: 0x6BE8E0 VA: 0x1806C02E0
+	// RVA: 0x6C03F0 Offset: 0x6BE9F0 VA: 0x1806C03F0
 	private void SetLOD(int newlod) { }
 
-	// RVA: 0x6C0430 Offset: 0x6BEA30 VA: 0x1806C0430
+	// RVA: 0x6C0540 Offset: 0x6BEB40 VA: 0x1806C0540
 	private void Show() { }
 
-	// RVA: 0x6BFAB0 Offset: 0x6BE0B0 VA: 0x1806BFAB0
+	// RVA: 0x6BFBC0 Offset: 0x6BE1C0 VA: 0x1806BFBC0
 	private void Hide() { }
 
-	// RVA: 0x6C0360 Offset: 0x6BE960 VA: 0x1806C0360
+	// RVA: 0x6C0470 Offset: 0x6BEA70 VA: 0x1806C0470
 	private void ShowRenderers() { }
 
-	// RVA: 0x6BF9E0 Offset: 0x6BDFE0 VA: 0x1806BF9E0
+	// RVA: 0x6BFAF0 Offset: 0x6BE0F0 VA: 0x1806BFAF0
 	private void HideRenderers() { }
 
-	// RVA: 0x6BFE10 Offset: 0x6BE410 VA: 0x1806BFE10 Slot: 6
+	// RVA: 0x6BFF20 Offset: 0x6BE520 VA: 0x1806BFF20 Slot: 6
 	public void OnParentDestroying() { }
 
-	// RVA: 0x6C0510 Offset: 0x6BEB10 VA: 0x1806C0510
+	// RVA: 0x6C0620 Offset: 0x6BEC20 VA: 0x1806C0620
 	public void Tick() { }
 
-	// RVA: 0x6C06C0 Offset: 0x6BECC0 VA: 0x1806C06C0
+	// RVA: 0x6C07D0 Offset: 0x6BEDD0 VA: 0x1806C07D0
 	private void UpdateMaterialProperties() { }
 
-	// RVA: 0x6BFF40 Offset: 0x6BE540 VA: 0x1806BFF40
+	// RVA: 0x6C0050 Offset: 0x6BE650 VA: 0x1806C0050
 	public float SampleVisibility() { }
 
 	// RVA: 0x5C3610 Offset: 0x5C1C10 VA: 0x1805C3610
 	public void SetFlareIntensity(float intensity) { }
 
-	// RVA: 0x6BFED0 Offset: 0x6BE4D0 VA: 0x1806BFED0
+	// RVA: 0x6BFFE0 Offset: 0x6BE5E0 VA: 0x1806BFFE0
 	private void RegisterCoverageQuery() { }
 
-	// RVA: 0x6C05A0 Offset: 0x6BEBA0 VA: 0x1806C05A0
+	// RVA: 0x6C06B0 Offset: 0x6BECB0 VA: 0x1806C06B0
 	private void UnRegisterCoverageQuery() { }
 
-	// RVA: 0x6BFB30 Offset: 0x6BE130 VA: 0x1806BFB30
+	// RVA: 0x6BFC40 Offset: 0x6BE240 VA: 0x1806BFC40
 	private void OnDisable() { }
 
-	// RVA: 0x6C09A0 Offset: 0x6BEFA0 VA: 0x1806C09A0
+	// RVA: 0x6C0AB0 Offset: 0x6BF0B0 VA: 0x1806C0AB0
 	public void .ctor() { }
 
 }

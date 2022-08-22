@@ -11,25 +11,25 @@ public class RadioDialog : UIDialog // TypeDefIndex: 10906
 
 	// Methods
 
-	// RVA: 0x6A2CF0 Offset: 0x6A12F0 VA: 0x1806A2CF0
+	// RVA: 0x6A2E00 Offset: 0x6A1400 VA: 0x1806A2E00
 	public void SetBoomBox(BoomBox box) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void OnURLChanged(string newUrl) { }
 
-	// RVA: 0x6A29A0 Offset: 0x6A0FA0 VA: 0x1806A29A0
+	// RVA: 0x6A2AB0 Offset: 0x6A10B0 VA: 0x1806A2AB0
 	public void OnClickedConfirm() { }
 
-	// RVA: 0x6A2E60 Offset: 0x6A1460 VA: 0x1806A2E60
+	// RVA: 0x6A2F70 Offset: 0x6A1570 VA: 0x1806A2F70
 	public void UpdateFavourites(Dictionary<string, string> globalUrls, Dictionary<string, string> serverUrls) { }
 
-	// RVA: 0x6A2A10 Offset: 0x6A1010 VA: 0x1806A2A10
+	// RVA: 0x6A2B20 Offset: 0x6A1120 VA: 0x1806A2B20
 	private void PopulateFavouritesFromList(Dictionary<string, string> urls) { }
 
-	// RVA: 0x6A2800 Offset: 0x6A0E00 VA: 0x1806A2800
+	// RVA: 0x6A2910 Offset: 0x6A0F10 VA: 0x1806A2910
 	private void ClearFavourites() { }
 
-	// RVA: 0x6A2EB0 Offset: 0x6A14B0 VA: 0x1806A2EB0
+	// RVA: 0x6A2FC0 Offset: 0x6A15C0 VA: 0x1806A2FC0
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -47,7 +47,7 @@ private sealed class RadioDialog.<>c__DisplayClass12_0 // TypeDefIndex: 10907
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x6AD290 Offset: 0x6AB890 VA: 0x1806AD290
+	// RVA: 0x6AD3A0 Offset: 0x6AB9A0 VA: 0x1806AD3A0
 	internal void <PopulateFavouritesFromList>b__0(string s) { }
 
 }

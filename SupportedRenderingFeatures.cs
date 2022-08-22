@@ -66,10 +66,10 @@ public class SupportedRenderingFeatures // TypeDefIndex: 3854
 
 	// Methods
 
-	// RVA: 0x19B9B30 Offset: 0x19B8130 VA: 0x1819B9B30
+	// RVA: 0x19B9DF0 Offset: 0x19B83F0 VA: 0x1819B9DF0
 	public static SupportedRenderingFeatures get_active() { }
 
-	// RVA: 0x19B9C50 Offset: 0x19B8250 VA: 0x1819B9C50
+	// RVA: 0x19B9F10 Offset: 0x19B8510 VA: 0x1819B9F10
 	public static void set_active(SupportedRenderingFeatures value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -89,43 +89,43 @@ public class SupportedRenderingFeatures // TypeDefIndex: 3854
 	public LightmapsMode get_lightmapsModes() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x774690 Offset: 0x772C90 VA: 0x180774690
+	// RVA: 0x7747A0 Offset: 0x772DA0 VA: 0x1807747A0
 	public bool get_enlighten() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B9180 Offset: 0x19B7780 VA: 0x1819B9180
+	// RVA: 0x19B9440 Offset: 0x19B7A40 VA: 0x1819B9440
 	internal static void FallbackMixedLightingModeByRef(IntPtr fallbackModePtr) { }
 
-	// RVA: 0x19B98E0 Offset: 0x19B7EE0 VA: 0x1819B98E0
+	// RVA: 0x19B9BA0 Offset: 0x19B81A0 VA: 0x1819B9BA0
 	internal static bool IsMixedLightingModeSupported(MixedLightingMode mixedMode) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B9760 Offset: 0x19B7D60 VA: 0x1819B9760
+	// RVA: 0x19B9A20 Offset: 0x19B8020 VA: 0x1819B9A20
 	internal static void IsMixedLightingModeSupportedByRef(MixedLightingMode mixedMode, IntPtr isSupportedPtr) { }
 
-	// RVA: 0x19B9490 Offset: 0x19B7A90 VA: 0x1819B9490
+	// RVA: 0x19B9750 Offset: 0x19B7D50 VA: 0x1819B9750
 	internal static bool IsLightmapBakeTypeSupported(LightmapBakeType bakeType) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B9340 Offset: 0x19B7940 VA: 0x1819B9340
+	// RVA: 0x19B9600 Offset: 0x19B7C00 VA: 0x1819B9600
 	internal static void IsLightmapBakeTypeSupportedByRef(LightmapBakeType bakeType, IntPtr isSupportedPtr) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B96E0 Offset: 0x19B7CE0 VA: 0x1819B96E0
+	// RVA: 0x19B99A0 Offset: 0x19B7FA0 VA: 0x1819B99A0
 	internal static void IsLightmapsModeSupportedByRef(LightmapsMode mode, IntPtr isSupportedPtr) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B9620 Offset: 0x19B7C20 VA: 0x1819B9620
+	// RVA: 0x19B98E0 Offset: 0x19B7EE0 VA: 0x1819B98E0
 	internal static void IsLightmapperSupportedByRef(int lightmapper, IntPtr isSupportedPtr) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B9160 Offset: 0x19B7760 VA: 0x1819B9160
+	// RVA: 0x19B9420 Offset: 0x19B7A20 VA: 0x1819B9420
 	internal static void FallbackLightmapperByRef(IntPtr lightmapperPtr) { }
 
-	// RVA: 0x19B9AF0 Offset: 0x19B80F0 VA: 0x1819B9AF0
+	// RVA: 0x19B9DB0 Offset: 0x19B83B0 VA: 0x1819B9DB0
 	public void .ctor() { }
 
-	// RVA: 0x19B9A60 Offset: 0x19B8060 VA: 0x1819B9A60
+	// RVA: 0x19B9D20 Offset: 0x19B8320 VA: 0x1819B9D20
 	private static void .cctor() { }
 
 }

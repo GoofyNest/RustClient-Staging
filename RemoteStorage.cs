@@ -27,7 +27,7 @@ internal struct RemoteStorageFileShareResult_t : ICallbackData // TypeDefIndex: 
 	// RVA: 0x1D6950 Offset: 0x1D5D50 VA: 0x1801D6950 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DD70 Offset: 0x128C370 VA: 0x18128DD70
+	// RVA: 0x128E030 Offset: 0x128C630 VA: 0x18128E030
 	private static void .cctor() { }
 
 }
@@ -51,7 +51,7 @@ internal struct RemoteStoragePublishFileResult_t : ICallbackData // TypeDefIndex
 	// RVA: 0x1D7460 Offset: 0x1D6860 VA: 0x1801D7460 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E130 Offset: 0x128C730 VA: 0x18128E130
+	// RVA: 0x128E3F0 Offset: 0x128C9F0 VA: 0x18128E3F0
 	private static void .cctor() { }
 
 }
@@ -74,7 +74,7 @@ internal struct RemoteStorageDeletePublishedFileResult_t : ICallbackData // Type
 	// RVA: 0x1D3160 Offset: 0x1D2560 VA: 0x1801D3160 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128D870 Offset: 0x128BE70 VA: 0x18128D870
+	// RVA: 0x128DB30 Offset: 0x128C130 VA: 0x18128DB30
 	private static void .cctor() { }
 
 }
@@ -99,7 +99,7 @@ internal struct RemoteStorageEnumerateUserPublishedFilesResult_t : ICallbackData
 	// RVA: 0x1D41B0 Offset: 0x1D35B0 VA: 0x1801D41B0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DA50 Offset: 0x128C050 VA: 0x18128DA50
+	// RVA: 0x128DD10 Offset: 0x128C310 VA: 0x18128DD10
 	private static void .cctor() { }
 
 }
@@ -122,7 +122,7 @@ internal struct RemoteStorageSubscribePublishedFileResult_t : ICallbackData // T
 	// RVA: 0x1D7700 Offset: 0x1D6B00 VA: 0x1801D7700 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E510 Offset: 0x128CB10 VA: 0x18128E510
+	// RVA: 0x128E7D0 Offset: 0x128CDD0 VA: 0x18128E7D0
 	private static void .cctor() { }
 
 }
@@ -148,7 +148,7 @@ internal struct RemoteStorageEnumerateUserSubscribedFilesResult_t : ICallbackDat
 	// RVA: 0x1D4D60 Offset: 0x1D4160 VA: 0x1801D4D60 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DB90 Offset: 0x128C190 VA: 0x18128DB90
+	// RVA: 0x128DE50 Offset: 0x128C450 VA: 0x18128DE50
 	private static void .cctor() { }
 
 }
@@ -171,7 +171,7 @@ internal struct RemoteStorageUnsubscribePublishedFileResult_t : ICallbackData //
 	// RVA: 0x1D7770 Offset: 0x1D6B70 VA: 0x1801D7770 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E5B0 Offset: 0x128CBB0 VA: 0x18128E5B0
+	// RVA: 0x128E870 Offset: 0x128CE70 VA: 0x18128E870
 	private static void .cctor() { }
 
 }
@@ -195,7 +195,7 @@ internal struct RemoteStorageUpdatePublishedFileResult_t : ICallbackData // Type
 	// RVA: 0x1D77E0 Offset: 0x1D6BE0 VA: 0x1801D77E0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E650 Offset: 0x128CC50 VA: 0x18128E650
+	// RVA: 0x128E910 Offset: 0x128CF10 VA: 0x18128E910
 	private static void .cctor() { }
 
 }
@@ -222,7 +222,7 @@ internal struct RemoteStorageDownloadUGCResult_t : ICallbackData // TypeDefIndex
 	// RVA: 0x1D31D0 Offset: 0x1D25D0 VA: 0x1801D31D0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128D910 Offset: 0x128BF10 VA: 0x18128D910
+	// RVA: 0x128DBD0 Offset: 0x128C1D0 VA: 0x18128DBD0
 	private static void .cctor() { }
 
 }
@@ -264,7 +264,7 @@ internal struct RemoteStorageGetPublishedFileDetailsResult_t : ICallbackData // 
 	// RVA: 0x1D6BA0 Offset: 0x1D5FA0 VA: 0x1801D6BA0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DEB0 Offset: 0x128C4B0 VA: 0x18128DEB0
+	// RVA: 0x128E170 Offset: 0x128C770 VA: 0x18128E170
 	private static void .cctor() { }
 
 }
@@ -292,7 +292,7 @@ internal struct RemoteStorageEnumerateWorkshopFilesResult_t : ICallbackData // T
 	// RVA: 0x1D5B00 Offset: 0x1D4F00 VA: 0x1801D5B00 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DC30 Offset: 0x128C230 VA: 0x18128DC30
+	// RVA: 0x128DEF0 Offset: 0x128C4F0 VA: 0x18128DEF0
 	private static void .cctor() { }
 
 }
@@ -319,7 +319,7 @@ internal struct RemoteStorageGetPublishedItemVoteDetailsResult_t : ICallbackData
 	// RVA: 0x1D7310 Offset: 0x1D6710 VA: 0x1801D7310 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DF50 Offset: 0x128C550 VA: 0x18128DF50
+	// RVA: 0x128E210 Offset: 0x128C810 VA: 0x18128E210
 	private static void .cctor() { }
 
 }
@@ -342,7 +342,7 @@ internal struct RemoteStoragePublishedFileSubscribed_t : ICallbackData // TypeDe
 	// RVA: 0x1D7540 Offset: 0x1D6940 VA: 0x1801D7540 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E270 Offset: 0x128C870 VA: 0x18128E270
+	// RVA: 0x128E530 Offset: 0x128CB30 VA: 0x18128E530
 	private static void .cctor() { }
 
 }
@@ -365,7 +365,7 @@ internal struct RemoteStoragePublishedFileUnsubscribed_t : ICallbackData // Type
 	// RVA: 0x1D75B0 Offset: 0x1D69B0 VA: 0x1801D75B0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E320 Offset: 0x128C920 VA: 0x18128E320
+	// RVA: 0x128E5E0 Offset: 0x128CBE0 VA: 0x18128E5E0
 	private static void .cctor() { }
 
 }
@@ -388,7 +388,7 @@ internal struct RemoteStoragePublishedFileDeleted_t : ICallbackData // TypeDefIn
 	// RVA: 0x1D74D0 Offset: 0x1D68D0 VA: 0x1801D74D0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E1D0 Offset: 0x128C7D0 VA: 0x18128E1D0
+	// RVA: 0x128E490 Offset: 0x128CA90 VA: 0x18128E490
 	private static void .cctor() { }
 
 }
@@ -411,7 +411,7 @@ internal struct RemoteStorageUpdateUserPublishedItemVoteResult_t : ICallbackData
 	// RVA: 0x1D7850 Offset: 0x1D6C50 VA: 0x1801D7850 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E6F0 Offset: 0x128CCF0 VA: 0x18128E6F0
+	// RVA: 0x128E9B0 Offset: 0x128CFB0 VA: 0x18128E9B0
 	private static void .cctor() { }
 
 }
@@ -435,7 +435,7 @@ internal struct RemoteStorageUserVoteDetails_t : ICallbackData // TypeDefIndex: 
 	// RVA: 0x1D78C0 Offset: 0x1D6CC0 VA: 0x1801D78C0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E790 Offset: 0x128CD90 VA: 0x18128E790
+	// RVA: 0x128EA50 Offset: 0x128D050 VA: 0x18128EA50
 	private static void .cctor() { }
 
 }
@@ -460,7 +460,7 @@ internal struct RemoteStorageEnumerateUserSharedWorkshopFilesResult_t : ICallbac
 	// RVA: 0x1D4950 Offset: 0x1D3D50 VA: 0x1801D4950 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DAF0 Offset: 0x128C0F0 VA: 0x18128DAF0
+	// RVA: 0x128DDB0 Offset: 0x128C3B0 VA: 0x18128DDB0
 	private static void .cctor() { }
 
 }
@@ -484,7 +484,7 @@ internal struct RemoteStorageSetUserPublishedFileActionResult_t : ICallbackData 
 	// RVA: 0x1D7690 Offset: 0x1D6A90 VA: 0x1801D7690 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E470 Offset: 0x128CA70 VA: 0x18128E470
+	// RVA: 0x128E730 Offset: 0x128CD30 VA: 0x18128E730
 	private static void .cctor() { }
 
 }
@@ -511,7 +511,7 @@ internal struct RemoteStorageEnumeratePublishedFilesByUserActionResult_t : ICall
 	// RVA: 0x1D33F0 Offset: 0x1D27F0 VA: 0x1801D33F0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128D9B0 Offset: 0x128BFB0 VA: 0x18128D9B0
+	// RVA: 0x128DC70 Offset: 0x128C270 VA: 0x18128DC70
 	private static void .cctor() { }
 
 }
@@ -534,7 +534,7 @@ internal struct RemoteStoragePublishFileProgress_t : ICallbackData // TypeDefInd
 	// RVA: 0x1D73F0 Offset: 0x1D67F0 VA: 0x1801D73F0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E090 Offset: 0x128C690 VA: 0x18128E090
+	// RVA: 0x128E350 Offset: 0x128C950 VA: 0x18128E350
 	private static void .cctor() { }
 
 }
@@ -558,7 +558,7 @@ internal struct RemoteStoragePublishedFileUpdated_t : ICallbackData // TypeDefIn
 	// RVA: 0x1D7620 Offset: 0x1D6A20 VA: 0x1801D7620 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E3D0 Offset: 0x128C9D0 VA: 0x18128E3D0
+	// RVA: 0x128E690 Offset: 0x128CC90 VA: 0x18128E690
 	private static void .cctor() { }
 
 }
@@ -580,7 +580,7 @@ internal struct RemoteStorageFileWriteAsyncComplete_t : ICallbackData // TypeDef
 	// RVA: 0x1D6B30 Offset: 0x1D5F30 VA: 0x1801D6B30 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DE10 Offset: 0x128C410 VA: 0x18128DE10
+	// RVA: 0x128E0D0 Offset: 0x128C6D0 VA: 0x18128E0D0
 	private static void .cctor() { }
 
 }
@@ -605,7 +605,7 @@ internal struct RemoteStorageFileReadAsyncComplete_t : ICallbackData // TypeDefI
 	// RVA: 0x1D68E0 Offset: 0x1D5CE0 VA: 0x1801D68E0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DCD0 Offset: 0x128C2D0 VA: 0x18128DCD0
+	// RVA: 0x128DF90 Offset: 0x128C590 VA: 0x18128DF90
 	private static void .cctor() { }
 
 }
@@ -626,7 +626,7 @@ internal struct RemoteStorageLocalFileChange_t : ICallbackData // TypeDefIndex: 
 	// RVA: 0x1D7380 Offset: 0x1D6780 VA: 0x1801D7380 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DFF0 Offset: 0x128C5F0 VA: 0x18128DFF0
+	// RVA: 0x128E2B0 Offset: 0x128C8B0 VA: 0x18128E2B0
 	private static void .cctor() { }
 
 }

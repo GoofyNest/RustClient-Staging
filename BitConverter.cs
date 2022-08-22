@@ -4,79 +4,79 @@ public static class BitConverter // TypeDefIndex: 178
 
 	// Methods
 
-	// RVA: 0x155EAD0 Offset: 0x155D0D0 VA: 0x18155EAD0
+	// RVA: 0x155ED90 Offset: 0x155D390 VA: 0x18155ED90
 	private static bool AmILittleEndian() { }
 
-	// RVA: 0x155EED0 Offset: 0x155D4D0 VA: 0x18155EED0
+	// RVA: 0x155F190 Offset: 0x155D790 VA: 0x18155F190
 	public static byte[] GetBytes(bool value) { }
 
-	// RVA: 0x155ED20 Offset: 0x155D320 VA: 0x18155ED20
+	// RVA: 0x155EFE0 Offset: 0x155D5E0 VA: 0x18155EFE0
 	public static byte[] GetBytes(char value) { }
 
-	// RVA: 0x155EF30 Offset: 0x155D530 VA: 0x18155EF30
+	// RVA: 0x155F1F0 Offset: 0x155D7F0 VA: 0x18155F1F0
 	public static byte[] GetBytes(short value) { }
 
-	// RVA: 0x155EE70 Offset: 0x155D470 VA: 0x18155EE70
+	// RVA: 0x155F130 Offset: 0x155D730 VA: 0x18155F130
 	public static byte[] GetBytes(int value) { }
 
-	// RVA: 0x155EAF0 Offset: 0x155D0F0 VA: 0x18155EAF0
+	// RVA: 0x155EDB0 Offset: 0x155D3B0 VA: 0x18155EDB0
 	public static byte[] GetBytes(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x155EC80 Offset: 0x155D280 VA: 0x18155EC80
+	// RVA: 0x155EF40 Offset: 0x155D540 VA: 0x18155EF40
 	public static byte[] GetBytes(ushort value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x155EB50 Offset: 0x155D150 VA: 0x18155EB50
+	// RVA: 0x155EE10 Offset: 0x155D410 VA: 0x18155EE10
 	public static byte[] GetBytes(uint value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x155EF90 Offset: 0x155D590 VA: 0x18155EF90
+	// RVA: 0x155F250 Offset: 0x155D850 VA: 0x18155F250
 	public static byte[] GetBytes(ulong value) { }
 
-	// RVA: 0x155EBE0 Offset: 0x155D1E0 VA: 0x18155EBE0
+	// RVA: 0x155EEA0 Offset: 0x155D4A0 VA: 0x18155EEA0
 	public static byte[] GetBytes(float value) { }
 
-	// RVA: 0x155EDC0 Offset: 0x155D3C0 VA: 0x18155EDC0
+	// RVA: 0x155F080 Offset: 0x155D680 VA: 0x18155F080
 	public static byte[] GetBytes(double value) { }
 
-	// RVA: 0x155F050 Offset: 0x155D650 VA: 0x18155F050
+	// RVA: 0x155F310 Offset: 0x155D910 VA: 0x18155F310
 	public static short ToInt16(byte[] value, int startIndex) { }
 
-	// RVA: 0x155F160 Offset: 0x155D760 VA: 0x18155F160
+	// RVA: 0x155F420 Offset: 0x155DA20 VA: 0x18155F420
 	public static int ToInt32(byte[] value, int startIndex) { }
 
-	// RVA: 0x155F2A0 Offset: 0x155D8A0 VA: 0x18155F2A0
+	// RVA: 0x155F560 Offset: 0x155DB60 VA: 0x18155F560
 	public static long ToInt64(byte[] value, int startIndex) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x155F880 Offset: 0x155DE80 VA: 0x18155F880
+	// RVA: 0x155FB40 Offset: 0x155E140 VA: 0x18155FB40
 	public static ushort ToUInt16(byte[] value, int startIndex) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x155FA20 Offset: 0x155E020 VA: 0x18155FA20
+	// RVA: 0x155FCE0 Offset: 0x155E2E0 VA: 0x18155FCE0
 	public static uint ToUInt32(byte[] value, int startIndex) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x155FBF0 Offset: 0x155E1F0 VA: 0x18155FBF0
+	// RVA: 0x155FEB0 Offset: 0x155E4B0 VA: 0x18155FEB0
 	public static ulong ToUInt64(byte[] value, int startIndex) { }
 
-	// RVA: 0x155F030 Offset: 0x155D630 VA: 0x18155F030
+	// RVA: 0x155F2F0 Offset: 0x155D8F0 VA: 0x18155F2F0
 	private static char GetHexValue(int i) { }
 
-	// RVA: 0x155F4D0 Offset: 0x155DAD0 VA: 0x18155F4D0
+	// RVA: 0x155F790 Offset: 0x155DD90 VA: 0x18155F790
 	public static string ToString(byte[] value, int startIndex, int length) { }
 
-	// RVA: 0x155F440 Offset: 0x155DA40 VA: 0x18155F440
+	// RVA: 0x155F700 Offset: 0x155DD00 VA: 0x18155F700
 	public static string ToString(byte[] value) { }
 
-	// RVA: 0xE5BC50 Offset: 0xE5A250 VA: 0x180E5BC50
+	// RVA: 0xE5BF10 Offset: 0xE5A510 VA: 0x180E5BF10
 	public static long DoubleToInt64Bits(double value) { }
 
-	// RVA: 0x155F040 Offset: 0x155D640 VA: 0x18155F040
+	// RVA: 0x155F300 Offset: 0x155D900 VA: 0x18155F300
 	public static double Int64BitsToDouble(long value) { }
 
-	// RVA: 0x155FC90 Offset: 0x155E290 VA: 0x18155FC90
+	// RVA: 0x155FF50 Offset: 0x155E550 VA: 0x18155FF50
 	private static void .cctor() { }
 
 }

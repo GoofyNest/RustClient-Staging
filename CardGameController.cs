@@ -44,10 +44,10 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
 	private void set_State(CardGameController.CardGameState value) { }
 
-	// RVA: 0x8C0BC0 Offset: 0x8BF1C0 VA: 0x1808C0BC0
+	// RVA: 0x8C0CD0 Offset: 0x8BF2D0 VA: 0x1808C0CD0
 	public bool get_HasGameInProgress() { }
 
-	// RVA: 0x8C0BD0 Offset: 0x8BF1D0 VA: 0x1808C0BD0
+	// RVA: 0x8C0CE0 Offset: 0x8BF2E0 VA: 0x1808C0CE0
 	public bool get_HasRoundInProgress() { }
 
 	// RVA: -1 Offset: -1 Slot: 5
@@ -59,10 +59,10 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 	// RVA: -1 Offset: -1 Slot: 7
 	public abstract int get_MaxBuyIn();
 
-	// RVA: 0x8C0BE0 Offset: 0x8BF1E0 VA: 0x1808C0BE0 Slot: 8
+	// RVA: 0x8C0CF0 Offset: 0x8BF2F0 VA: 0x1808C0CF0 Slot: 8
 	public virtual float get_MaxTurnTime() { }
 
-	// RVA: 0x8C0CF0 Offset: 0x8BF2F0 VA: 0x1808C0CF0 Slot: 9
+	// RVA: 0x8C0E00 Offset: 0x8BF400 VA: 0x1808C0E00 Slot: 9
 	public virtual int get_TimeBetweenRounds() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -73,84 +73,84 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_Owner(CardTable value) { }
 
-	// RVA: 0x8C0BF0 Offset: 0x8BF1F0 VA: 0x1808C0BF0
+	// RVA: 0x8C0D00 Offset: 0x8BF300 VA: 0x1808C0D00
 	protected int get_ScrapItemID() { }
 
-	// RVA: 0x7A8A80 Offset: 0x7A7080 VA: 0x1807A8A80
+	// RVA: 0x7A8B90 Offset: 0x7A7190 VA: 0x1807A8B90
 	protected bool get_IsServer() { }
 
-	// RVA: 0x7A8A60 Offset: 0x7A7060 VA: 0x1807A8A60
+	// RVA: 0x7A8B70 Offset: 0x7A7170 VA: 0x1807A8B70
 	protected bool get_IsClient() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public CardTable.WinnerBreakdown get_winnerInfo() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	private void set_winnerInfo(CardTable.WinnerBreakdown value) { }
 
-	// RVA: 0x8C08C0 Offset: 0x8BEEC0 VA: 0x1808C08C0
+	// RVA: 0x8C09D0 Offset: 0x8BEFD0 VA: 0x1808C09D0
 	public void .ctor(CardTable owner) { }
 
-	// RVA: 0x8BF5B0 Offset: 0x8BDBB0 VA: 0x1808BF5B0 Slot: 4
+	// RVA: 0x8BF6C0 Offset: 0x8BDCC0 VA: 0x1808BF6C0 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x8BFE40 Offset: 0x8BE440 VA: 0x1808BFE40
+	// RVA: 0x8BFF50 Offset: 0x8BE550 VA: 0x1808BFF50
 	public int NumPlayersAllowedToPlay(CardPlayerData ignore) { }
 
-	// RVA: 0x8C0360 Offset: 0x8BE960 VA: 0x1808C0360
+	// RVA: 0x8C0470 Offset: 0x8BEA70 VA: 0x1808C0470
 	public int RelToAbsIndex(int relIndex, bool includeFolded) { }
 
-	// RVA: 0x8BF6D0 Offset: 0x8BDCD0 VA: 0x1808BF6D0
+	// RVA: 0x8BF7E0 Offset: 0x8BDDE0 VA: 0x1808BF7E0
 	public int GameToRoundIndex(int gameRelIndex) { }
 
-	// RVA: 0x8BFF50 Offset: 0x8BE550 VA: 0x1808BFF50
+	// RVA: 0x8C0060 Offset: 0x8BE660 VA: 0x1808C0060
 	public int NumPlayersInGame() { }
 
-	// RVA: 0x8BFEE0 Offset: 0x8BE4E0 VA: 0x1808BFEE0
+	// RVA: 0x8BFFF0 Offset: 0x8BE5F0 VA: 0x1808BFFF0
 	public int NumPlayersInCurrentRound() { }
 
-	// RVA: 0x8BFDF0 Offset: 0x8BE3F0 VA: 0x1808BFDF0
+	// RVA: 0x8BFF00 Offset: 0x8BE500 VA: 0x1808BFF00
 	public int MaxPlayersAtTable() { }
 
-	// RVA: 0x8C0220 Offset: 0x8BE820 VA: 0x1808C0220
+	// RVA: 0x8C0330 Offset: 0x8BE930 VA: 0x1808C0330
 	public bool PlayerIsInGame(BasePlayer player) { }
 
-	// RVA: 0x8BF900 Offset: 0x8BDF00 VA: 0x1808BF900
+	// RVA: 0x8BFA10 Offset: 0x8BE010 VA: 0x1808BFA10
 	public bool IsAtTable(BasePlayer player) { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 10
 	public virtual List<PlayingCard> GetTableCards() { }
 
-	// RVA: 0x8C0540 Offset: 0x8BEB40 VA: 0x1808C0540
+	// RVA: 0x8C0650 Offset: 0x8BEC50 VA: 0x1808C0650
 	public void StartTurnTimer(float turnTime) { }
 
-	// RVA: 0x8BF9C0 Offset: 0x8BDFC0 VA: 0x1808BF9C0
+	// RVA: 0x8BFAD0 Offset: 0x8BE0D0 VA: 0x1808BFAD0
 	private bool IsAtTable(ulong userID) { }
 
-	// RVA: 0x8BF8C0 Offset: 0x8BDEC0 VA: 0x1808BF8C0
+	// RVA: 0x8BF9D0 Offset: 0x8BDFD0 VA: 0x1808BF9D0
 	public int GetScrapInPot() { }
 
-	// RVA: 0x8C0610 Offset: 0x8BEC10 VA: 0x1808C0610
+	// RVA: 0x8C0720 Offset: 0x8BED20 VA: 0x1808C0720
 	public bool TryGetCardPlayerData(int index, out CardPlayerData cardPlayer) { }
 
-	// RVA: 0x8C0590 Offset: 0x8BEB90 VA: 0x1808C0590
+	// RVA: 0x8C06A0 Offset: 0x8BECA0 VA: 0x1808C06A0
 	public bool TryGetCardPlayerData(ulong forPlayer, out CardPlayerData cardPlayer) { }
 
-	// RVA: 0x8C0670 Offset: 0x8BEC70 VA: 0x1808C0670
+	// RVA: 0x8C0780 Offset: 0x8BED80 VA: 0x1808C0780
 	public bool TryGetCardPlayerData(BasePlayer forPlayer, out CardPlayerData cardPlayer) { }
 
 	// RVA: -1 Offset: -1 Slot: 11
 	public abstract bool IsAllowedToPlay(CardPlayerData cpd);
 
-	// RVA: 0x8BF110 Offset: 0x8BD710 VA: 0x1808BF110
+	// RVA: 0x8BF220 Offset: 0x8BD820 VA: 0x1808BF220
 	protected void ClearWinnerInfo() { }
 
-	// RVA: 0x8C0C10 Offset: 0x8BF210 VA: 0x1808C0C10
+	// RVA: 0x8C0D20 Offset: 0x8BF320 VA: 0x1808C0D20
 	private CardGameSounds get_Sounds() { }
 
-	// RVA: 0x8C0B70 Offset: 0x8BF170 VA: 0x1808C0B70
+	// RVA: 0x8C0C80 Offset: 0x8BF280 VA: 0x1808C0C80
 	public bool get_GameWon() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -166,34 +166,34 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 	public int get_ClientScrapInPot() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C0D00 Offset: 0x8BF300 VA: 0x1808C0D00
+	// RVA: 0x8C0E10 Offset: 0x8BF410 VA: 0x1808C0E10
 	private void set_ClientScrapInPot(int value) { }
 
-	// RVA: 0x8BFBC0 Offset: 0x8BE1C0 VA: 0x1808BFBC0 Slot: 12
+	// RVA: 0x8BFCD0 Offset: 0x8BE2D0 VA: 0x1808BFCD0 Slot: 12
 	public virtual void Load(CardTable syncData) { }
 
-	// RVA: 0x8C02D0 Offset: 0x8BE8D0 VA: 0x1808C02D0
+	// RVA: 0x8C03E0 Offset: 0x8BE9E0 VA: 0x1808C03E0
 	public void ReceiveCardsForLocalPlayer(CardTable.CardList cardList) { }
 
-	// RVA: 0x8BF380 Offset: 0x8BD980 VA: 0x1808BF380
+	// RVA: 0x8BF490 Offset: 0x8BDA90 VA: 0x1808BF490
 	private void CopyLocalPlayerCardData(bool clearIfNotInGame) { }
 
-	// RVA: 0x8C0700 Offset: 0x8BED00 VA: 0x1808C0700
+	// RVA: 0x8C0810 Offset: 0x8BEE10 VA: 0x1808C0810
 	public bool TryGetLocalCardPlayerData(out CardPlayerData cardPlayer) { }
 
-	// RVA: 0x8BFA70 Offset: 0x8BE070 VA: 0x1808BFA70
+	// RVA: 0x8BFB80 Offset: 0x8BE180 VA: 0x1808BFB80
 	public bool IsLocalPlayer(CardPlayerData cardPlayer) { }
 
-	// RVA: 0x8BF890 Offset: 0x8BDE90 VA: 0x1808BF890
+	// RVA: 0x8BF9A0 Offset: 0x8BDFA0 VA: 0x1808BF9A0
 	public void GetAvailableInputs(CardPlayerData localPlayerData, List<CardTableUI.KeycodeWithAction> targetList) { }
 
 	// RVA: -1 Offset: -1 Slot: 13
 	protected abstract void SubGetAvailableInputs(ref List<CardTableUI.KeycodeWithAction> curAvailableInputs);
 
-	// RVA: 0x8BFFC0 Offset: 0x8BE5C0 VA: 0x1808BFFC0
+	// RVA: 0x8C00D0 Offset: 0x8BE6D0 VA: 0x1808C00D0
 	public void OnWinnersDeclared(CardTable.WinnerBreakdown wi) { }
 
-	// RVA: 0x8BF270 Offset: 0x8BD870 VA: 0x1808BF270
+	// RVA: 0x8BF380 Offset: 0x8BD980 VA: 0x1808BF380
 	public void ClientPlaySound(CardGameSounds.SoundType type) { }
 
 }
@@ -216,7 +216,7 @@ private sealed class CardGameController.<>c__DisplayClass44_0 // TypeDefIndex: 1
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8D98B0 Offset: 0x8D7EB0 VA: 0x1808D98B0
+	// RVA: 0x8D99C0 Offset: 0x8D7FC0 VA: 0x1808D99C0
 	internal bool <PlayerIsInGame>b__0(CardPlayerData data) { }
 
 }
@@ -230,7 +230,7 @@ private sealed class CardGameController.<>c__DisplayClass48_0 // TypeDefIndex: 1
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8D98F0 Offset: 0x8D7EF0 VA: 0x1808D98F0
+	// RVA: 0x8D9A00 Offset: 0x8D8000 VA: 0x1808D9A00
 	internal bool <IsAtTable>b__0(CardPlayerData data) { }
 
 }

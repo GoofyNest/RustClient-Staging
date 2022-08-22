@@ -157,7 +157,7 @@ private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=21252 //
 public sealed class UnmanagedMarshal // TypeDefIndex: 1687
 	// Methods
 
-	// RVA: 0x18D7D70 Offset: 0x18D6370 VA: 0x1818D7D70
+	// RVA: 0x18D8030 Offset: 0x18D6630 VA: 0x1818D8030
 	internal void .ctor() { }
 
 }

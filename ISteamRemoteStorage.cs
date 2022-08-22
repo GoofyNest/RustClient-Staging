@@ -1,13 +1,13 @@
 internal class ISteamRemoteStorage : SteamInterface // TypeDefIndex: 5128
 {	// Methods
 
-	// RVA: 0xDD8440 Offset: 0xDD6A40 VA: 0x180DD8440
+	// RVA: 0xDD8700 Offset: 0xDD6D00 VA: 0x180DD8700
 	internal void .ctor(bool IsGameServer) { }
 
-	// RVA: 0xDD85C0 Offset: 0xDD6BC0 VA: 0x180DD85C0
+	// RVA: 0xDD8880 Offset: 0xDD6E80 VA: 0x180DD8880
 	internal static extern IntPtr SteamAPI_SteamRemoteStorage_v016() { }
 
-	// RVA: 0xDD85C0 Offset: 0xDD6BC0 VA: 0x180DD85C0 Slot: 4
+	// RVA: 0xDD8880 Offset: 0xDD6E80 VA: 0x180DD8880 Slot: 4
 	public override IntPtr GetUserInterfacePointer() { }
 
 }

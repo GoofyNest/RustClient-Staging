@@ -6,13 +6,13 @@ public class DirectionProperties : PrefabAttribute // TypeDefIndex: 9065
 
 	// Methods
 
-	// RVA: 0x986350 Offset: 0x984950 VA: 0x180986350 Slot: 7
+	// RVA: 0x986460 Offset: 0x984A60 VA: 0x180986460 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x9863B0 Offset: 0x9849B0 VA: 0x1809863B0
+	// RVA: 0x9864C0 Offset: 0x984AC0 VA: 0x1809864C0
 	public bool IsWeakspot(Transform tx, HitInfo info) { }
 
-	// RVA: 0x986A00 Offset: 0x985000 VA: 0x180986A00
+	// RVA: 0x986B10 Offset: 0x985110 VA: 0x180986B10
 	public void .ctor() { }
 
 }

@@ -34,7 +34,7 @@ public struct MemoryBuffer // TypeDefIndex: 6915
 	// RVA: 0x2372A0 Offset: 0x2366A0 VA: 0x1802372A0
 	public void Dispose() { }
 
-	// RVA: 0x2207560 Offset: 0x2205B60 VA: 0x182207560
+	// RVA: 0x2207820 Offset: 0x2205E20 VA: 0x182207820
 	public static Span<byte> op_Implicit(MemoryBuffer buffer) { }
 
 }

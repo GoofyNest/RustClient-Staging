@@ -20,10 +20,10 @@ public struct InvokeAction : IEquatable<InvokeAction> // TypeDefIndex: 5568
 	// RVA: 0xF2C90 Offset: 0xF2090 VA: 0x1800F2C90 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x198B740 Offset: 0x1989D40 VA: 0x18198B740
+	// RVA: 0x198BA00 Offset: 0x198A000 VA: 0x18198BA00
 	public static bool op_Equality(InvokeAction x, InvokeAction y) { }
 
-	// RVA: 0x198B7E0 Offset: 0x1989DE0 VA: 0x18198B7E0
+	// RVA: 0x198BAA0 Offset: 0x198A0A0 VA: 0x18198BAA0
 	public static bool op_Inequality(InvokeAction x, InvokeAction y) { }
 
 }

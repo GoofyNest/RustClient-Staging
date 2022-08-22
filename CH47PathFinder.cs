@@ -4,13 +4,13 @@ public class CH47PathFinder : BasePathFinder // TypeDefIndex: 9718
 
 	// Methods
 
-	// RVA: 0x6F5DF0 Offset: 0x6F43F0 VA: 0x1806F5DF0 Slot: 4
+	// RVA: 0x6F5F00 Offset: 0x6F4500 VA: 0x1806F5F00 Slot: 4
 	public override Vector3 GetRandomPatrolPoint() { }
 
-	// RVA: 0x6F67D0 Offset: 0x6F4DD0 VA: 0x1806F67D0
+	// RVA: 0x6F68E0 Offset: 0x6F4EE0 VA: 0x1806F68E0
 	private MonumentInfo GetRandomValidMonumentInfo() { }
 
-	// RVA: 0x6F68C0 Offset: 0x6F4EC0 VA: 0x1806F68C0
+	// RVA: 0x6F69D0 Offset: 0x6F4FD0 VA: 0x1806F69D0
 	public void .ctor() { }
 
 }

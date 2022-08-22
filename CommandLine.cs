@@ -9,28 +9,28 @@ public static class CommandLine // TypeDefIndex: 4834
 
 	// Methods
 
-	// RVA: 0x226E340 Offset: 0x226C940 VA: 0x18226E340
+	// RVA: 0x226E600 Offset: 0x226CC00 VA: 0x18226E600
 	public static string get_Full() { }
 
-	// RVA: 0x226D8B0 Offset: 0x226BEB0 VA: 0x18226D8B0
+	// RVA: 0x226DB70 Offset: 0x226C170 VA: 0x18226DB70
 	public static void Force(string val) { }
 
-	// RVA: 0x226DB90 Offset: 0x226C190 VA: 0x18226DB90
+	// RVA: 0x226DE50 Offset: 0x226C450 VA: 0x18226DE50
 	private static void Initalize() { }
 
-	// RVA: 0x226DB10 Offset: 0x226C110 VA: 0x18226DB10
+	// RVA: 0x226DDD0 Offset: 0x226C3D0 VA: 0x18226DDD0
 	public static bool HasSwitch(string strName) { }
 
-	// RVA: 0x226DA00 Offset: 0x226C000 VA: 0x18226DA00
+	// RVA: 0x226DCC0 Offset: 0x226C2C0 VA: 0x18226DCC0
 	public static string GetSwitch(string strName, string strDefault) { }
 
-	// RVA: 0x226D930 Offset: 0x226BF30 VA: 0x18226D930
+	// RVA: 0x226DBF0 Offset: 0x226C1F0 VA: 0x18226DBF0
 	public static int GetSwitchInt(string strName, int iDefault) { }
 
-	// RVA: 0x226DAB0 Offset: 0x226C0B0 VA: 0x18226DAB0
+	// RVA: 0x226DD70 Offset: 0x226C370 VA: 0x18226DD70
 	public static Dictionary<string, string> GetSwitches() { }
 
-	// RVA: 0x226E220 Offset: 0x226C820 VA: 0x18226E220
+	// RVA: 0x226E4E0 Offset: 0x226CAE0 VA: 0x18226E4E0
 	private static void .cctor() { }
 
 }
@@ -46,28 +46,28 @@ public static class CommandLine // TypeDefIndex: 6238
 
 	// Methods
 
-	// RVA: 0x14AB540 Offset: 0x14A9B40 VA: 0x1814AB540
+	// RVA: 0x14AB800 Offset: 0x14A9E00 VA: 0x1814AB800
 	public static string get_Full() { }
 
-	// RVA: 0x14AACC0 Offset: 0x14A92C0 VA: 0x1814AACC0
+	// RVA: 0x14AAF80 Offset: 0x14A9580 VA: 0x1814AAF80
 	public static void Force(string val) { }
 
-	// RVA: 0x14AAFA0 Offset: 0x14A95A0 VA: 0x1814AAFA0
+	// RVA: 0x14AB260 Offset: 0x14A9860 VA: 0x1814AB260
 	private static void Initalize() { }
 
-	// RVA: 0x14AAF20 Offset: 0x14A9520 VA: 0x1814AAF20
+	// RVA: 0x14AB1E0 Offset: 0x14A97E0 VA: 0x1814AB1E0
 	public static bool HasSwitch(string strName) { }
 
-	// RVA: 0x14AAE10 Offset: 0x14A9410 VA: 0x1814AAE10
+	// RVA: 0x14AB0D0 Offset: 0x14A96D0 VA: 0x1814AB0D0
 	public static string GetSwitch(string strName, string strDefault) { }
 
-	// RVA: 0x14AAD40 Offset: 0x14A9340 VA: 0x1814AAD40
+	// RVA: 0x14AB000 Offset: 0x14A9600 VA: 0x1814AB000
 	public static int GetSwitchInt(string strName, int iDefault) { }
 
-	// RVA: 0x14AAEC0 Offset: 0x14A94C0 VA: 0x1814AAEC0
+	// RVA: 0x14AB180 Offset: 0x14A9780 VA: 0x1814AB180
 	public static Dictionary<string, string> GetSwitches() { }
 
-	// RVA: 0x14AB4A0 Offset: 0x14A9AA0 VA: 0x1814AB4A0
+	// RVA: 0x14AB760 Offset: 0x14A9D60 VA: 0x1814AB760
 	private static void .cctor() { }
 
 }

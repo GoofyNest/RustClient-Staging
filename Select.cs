@@ -16,73 +16,73 @@ internal sealed class Select // TypeDefIndex: 4297
 
 	// Methods
 
-	// RVA: 0xE99C70 Offset: 0xE98270 VA: 0x180E99C70
+	// RVA: 0xE99F30 Offset: 0xE98530 VA: 0x180E99F30
 	public void .ctor(DataTable table, string filterExpression, string sort, DataViewRowState recordStates) { }
 
-	// RVA: 0xE99460 Offset: 0xE97A60 VA: 0x180E99460
+	// RVA: 0xE99720 Offset: 0xE97D20 VA: 0x180E99720
 	private bool IsSupportedOperator(int op) { }
 
-	// RVA: 0xE963A0 Offset: 0xE949A0 VA: 0x180E963A0
+	// RVA: 0xE96660 Offset: 0xE94C60 VA: 0x180E96660
 	private void AnalyzeExpression(BinaryNode expr) { }
 
-	// RVA: 0xE96F70 Offset: 0xE95570 VA: 0x180E96F70
+	// RVA: 0xE97230 Offset: 0xE95830 VA: 0x180E97230
 	private bool CompareSortIndexDesc(IndexField[] fields) { }
 
-	// RVA: 0xE987A0 Offset: 0xE96DA0 VA: 0x180E987A0
+	// RVA: 0xE98A60 Offset: 0xE97060 VA: 0x180E98A60
 	private bool FindSortIndex() { }
 
-	// RVA: 0xE96C60 Offset: 0xE95260 VA: 0x180E96C60
+	// RVA: 0xE96F20 Offset: 0xE95520 VA: 0x180E96F20
 	private int CompareClosestCandidateIndexDesc(IndexField[] fields) { }
 
-	// RVA: 0xE98380 Offset: 0xE96980 VA: 0x180E98380
+	// RVA: 0xE98640 Offset: 0xE96C40 VA: 0x180E98640
 	private bool FindClosestCandidateIndex() { }
 
-	// RVA: 0xE99230 Offset: 0xE97830 VA: 0x180E99230
+	// RVA: 0xE994F0 Offset: 0xE97AF0 VA: 0x180E994F0
 	private void InitCandidateColumns() { }
 
-	// RVA: 0xE970C0 Offset: 0xE956C0 VA: 0x180E970C0
+	// RVA: 0xE97380 Offset: 0xE95980 VA: 0x180E97380
 	private void CreateIndex() { }
 
-	// RVA: 0xE993A0 Offset: 0xE979A0 VA: 0x180E993A0
+	// RVA: 0xE99660 Offset: 0xE97C60 VA: 0x180E99660
 	private bool IsOperatorIn(ExpressionNode enode) { }
 
-	// RVA: 0xE96A90 Offset: 0xE95090 VA: 0x180E96A90
+	// RVA: 0xE96D50 Offset: 0xE95350 VA: 0x180E96D50
 	private void BuildLinearExpression() { }
 
-	// RVA: 0xE99480 Offset: 0xE97A80 VA: 0x180E99480
+	// RVA: 0xE99740 Offset: 0xE97D40 VA: 0x180E99740
 	public DataRow[] SelectRows() { }
 
-	// RVA: 0xE990F0 Offset: 0xE976F0 VA: 0x180E990F0
+	// RVA: 0xE993B0 Offset: 0xE979B0 VA: 0x180E993B0
 	public DataRow[] GetRows() { }
 
-	// RVA: 0xE961D0 Offset: 0xE947D0 VA: 0x180E961D0
+	// RVA: 0xE96490 Offset: 0xE94A90 VA: 0x180E96490
 	private bool AcceptRecord(int record) { }
 
-	// RVA: 0xE97980 Offset: 0xE95F80 VA: 0x180E97980
+	// RVA: 0xE97C40 Offset: 0xE96240 VA: 0x180E97C40
 	private int Eval(BinaryNode expr, DataRow row, DataRowVersion version) { }
 
-	// RVA: 0xE981F0 Offset: 0xE967F0 VA: 0x180E981F0
+	// RVA: 0xE984B0 Offset: 0xE96AB0 VA: 0x180E984B0
 	private int Evaluate(int record) { }
 
-	// RVA: 0xE98600 Offset: 0xE96C00 VA: 0x180E98600
+	// RVA: 0xE988C0 Offset: 0xE96EC0 VA: 0x180E988C0
 	private int FindFirstMatchingRecord() { }
 
-	// RVA: 0xE986D0 Offset: 0xE96CD0 VA: 0x180E986D0
+	// RVA: 0xE98990 Offset: 0xE96F90 VA: 0x180E98990
 	private int FindLastMatchingRecord(int lo) { }
 
-	// RVA: 0xE989B0 Offset: 0xE96FB0 VA: 0x180E989B0
+	// RVA: 0xE98C70 Offset: 0xE97270 VA: 0x180E98C70
 	private Range GetBinaryFilteredRecords() { }
 
-	// RVA: 0xE98C10 Offset: 0xE97210 VA: 0x180E98C10
+	// RVA: 0xE98ED0 Offset: 0xE974D0 VA: 0x180E98ED0
 	private int[] GetLinearFilteredRecords(Range range) { }
 
-	// RVA: 0xE98ED0 Offset: 0xE974D0 VA: 0x180E98ED0
+	// RVA: 0xE99190 Offset: 0xE97790 VA: 0x180E99190
 	private DataRow[] GetLinearFilteredRows(Range range) { }
 
-	// RVA: 0xE96D10 Offset: 0xE95310 VA: 0x180E96D10
+	// RVA: 0xE96FD0 Offset: 0xE955D0 VA: 0x180E96FD0
 	private int CompareRecords(int record1, int record2) { }
 
-	// RVA: 0xE99AB0 Offset: 0xE980B0 VA: 0x180E99AB0
+	// RVA: 0xE99D70 Offset: 0xE98370 VA: 0x180E99D70
 	private void Sort(int left, int right) { }
 
 }

@@ -11,20 +11,20 @@ public struct Double : IComparable, IFormattable, IConvertible, IComparable<doub
 
 	// Methods
 
-	// RVA: 0x10D44A0 Offset: 0x10D2AA0 VA: 0x1810D44A0
+	// RVA: 0x10D4760 Offset: 0x10D2D60 VA: 0x1810D4760
 	public static bool IsInfinity(double d) { }
 
-	// RVA: 0x10D4520 Offset: 0x10D2B20 VA: 0x1810D4520
+	// RVA: 0x10D47E0 Offset: 0x10D2DE0 VA: 0x1810D47E0
 	public static bool IsPositiveInfinity(double d) { }
 
-	// RVA: 0x10D4500 Offset: 0x10D2B00 VA: 0x1810D4500
+	// RVA: 0x10D47C0 Offset: 0x10D2DC0 VA: 0x1810D47C0
 	public static bool IsNegativeInfinity(double d) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x10D44D0 Offset: 0x10D2AD0 VA: 0x1810D44D0
+	// RVA: 0x10D4790 Offset: 0x10D2D90 VA: 0x1810D4790
 	public static bool IsNaN(double d) { }
 
-	// RVA: 0x10D4420 Offset: 0x10D2A20 VA: 0x1810D4420
+	// RVA: 0x10D46E0 Offset: 0x10D2CE0 VA: 0x1810D46E0
 	public static bool IsFinite(double d) { }
 
 	// RVA: 0x19EA00 Offset: 0x19DE00 VA: 0x18019EA00 Slot: 4
@@ -54,25 +54,25 @@ public struct Double : IComparable, IFormattable, IConvertible, IComparable<doub
 	// RVA: 0x19F2D0 Offset: 0x19E6D0 VA: 0x18019F2D0 Slot: 5
 	public string ToString(string format, IFormatProvider provider) { }
 
-	// RVA: 0x10D4540 Offset: 0x10D2B40 VA: 0x1810D4540
+	// RVA: 0x10D4800 Offset: 0x10D2E00 VA: 0x1810D4800
 	public static double Parse(string s) { }
 
-	// RVA: 0x10D4640 Offset: 0x10D2C40 VA: 0x1810D4640
+	// RVA: 0x10D4900 Offset: 0x10D2F00 VA: 0x1810D4900
 	public static double Parse(string s, IFormatProvider provider) { }
 
-	// RVA: 0x10D45B0 Offset: 0x10D2BB0 VA: 0x1810D45B0
+	// RVA: 0x10D4870 Offset: 0x10D2E70 VA: 0x1810D4870
 	public static double Parse(string s, NumberStyles style, IFormatProvider provider) { }
 
-	// RVA: 0x10D46C0 Offset: 0x10D2CC0 VA: 0x1810D46C0
+	// RVA: 0x10D4980 Offset: 0x10D2F80 VA: 0x1810D4980
 	private static double Parse(string s, NumberStyles style, NumberFormatInfo info) { }
 
-	// RVA: 0x10D4AB0 Offset: 0x10D30B0 VA: 0x1810D4AB0
+	// RVA: 0x10D4D70 Offset: 0x10D3370 VA: 0x1810D4D70
 	public static bool TryParse(string s, out double result) { }
 
-	// RVA: 0x10D4960 Offset: 0x10D2F60 VA: 0x1810D4960
+	// RVA: 0x10D4C20 Offset: 0x10D3220 VA: 0x1810D4C20
 	public static bool TryParse(string s, NumberStyles style, IFormatProvider provider, out double result) { }
 
-	// RVA: 0x10D4BE0 Offset: 0x10D31E0 VA: 0x1810D4BE0
+	// RVA: 0x10D4EA0 Offset: 0x10D34A0 VA: 0x1810D4EA0
 	private static bool TryParse(string s, NumberStyles style, NumberFormatInfo info, out double result) { }
 
 	// RVA: 0x19EDB0 Offset: 0x19E1B0 VA: 0x18019EDB0 Slot: 6
@@ -123,7 +123,7 @@ public struct Double : IComparable, IFormattable, IConvertible, IComparable<doub
 	// RVA: 0x19F110 Offset: 0x19E510 VA: 0x18019F110 Slot: 22
 	private object System.IConvertible.ToType(Type type, IFormatProvider provider) { }
 
-	// RVA: 0x10D4CD0 Offset: 0x10D32D0 VA: 0x1810D4CD0
+	// RVA: 0x10D4F90 Offset: 0x10D3590 VA: 0x1810D4F90
 	private static void .cctor() { }
 
 }

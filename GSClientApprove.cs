@@ -16,7 +16,7 @@ internal struct GSClientApprove_t : ICallbackData // TypeDefIndex: 5490
 	// RVA: 0x1E6C90 Offset: 0x1E6090 VA: 0x1801E6C90 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370890 Offset: 0x136EE90 VA: 0x181370890
+	// RVA: 0x1370B50 Offset: 0x136F150 VA: 0x181370B50
 	private static void .cctor() { }
 
 }

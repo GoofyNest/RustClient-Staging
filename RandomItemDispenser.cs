@@ -5,10 +5,10 @@ public class RandomItemDispenser : PrefabAttribute, IServerComponent // TypeDefI
 
 	// Methods
 
-	// RVA: 0x6A7840 Offset: 0x6A5E40 VA: 0x1806A7840 Slot: 7
+	// RVA: 0x6A7950 Offset: 0x6A5F50 VA: 0x1806A7950 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x6A78A0 Offset: 0x6A5EA0 VA: 0x1806A78A0
+	// RVA: 0x6A79B0 Offset: 0x6A5FB0 VA: 0x1806A79B0
 	public void .ctor() { }
 
 }

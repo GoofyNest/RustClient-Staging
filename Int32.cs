@@ -33,22 +33,22 @@ public struct Int32 : IComparable, IFormattable, IConvertible, IComparable<int>,
 	// RVA: 0x1FB170 Offset: 0x1FA570 VA: 0x1801FB170 Slot: 5
 	public string ToString(string format, IFormatProvider provider) { }
 
-	// RVA: 0x1672890 Offset: 0x1670E90 VA: 0x181672890
+	// RVA: 0x1672B50 Offset: 0x1671150 VA: 0x181672B50
 	public static int Parse(string s) { }
 
-	// RVA: 0x16728F0 Offset: 0x1670EF0 VA: 0x1816728F0
+	// RVA: 0x1672BB0 Offset: 0x16711B0 VA: 0x181672BB0
 	public static int Parse(string s, NumberStyles style) { }
 
-	// RVA: 0x16728C0 Offset: 0x1670EC0 VA: 0x1816728C0
+	// RVA: 0x1672B80 Offset: 0x1671180 VA: 0x181672B80
 	public static int Parse(string s, IFormatProvider provider) { }
 
-	// RVA: 0x1672840 Offset: 0x1670E40 VA: 0x181672840
+	// RVA: 0x1672B00 Offset: 0x1671100 VA: 0x181672B00
 	public static int Parse(string s, NumberStyles style, IFormatProvider provider) { }
 
-	// RVA: 0x1672AD0 Offset: 0x16710D0 VA: 0x181672AD0
+	// RVA: 0x1672D90 Offset: 0x1671390 VA: 0x181672D90
 	public static bool TryParse(string s, out int result) { }
 
-	// RVA: 0x1672B10 Offset: 0x1671110 VA: 0x181672B10
+	// RVA: 0x1672DD0 Offset: 0x16713D0 VA: 0x181672DD0
 	public static bool TryParse(string s, NumberStyles style, IFormatProvider provider, out int result) { }
 
 	// RVA: 0x1FAB90 Offset: 0x1F9F90 VA: 0x1801FAB90 Slot: 6

@@ -1,40 +1,40 @@
 public static class WaterLevel // TypeDefIndex: 10055
 {	// Methods
 
-	// RVA: 0xC15300 Offset: 0xC13900 VA: 0x180C15300
+	// RVA: 0xC155C0 Offset: 0xC13BC0 VA: 0x180C155C0
 	public static float Factor(Vector3 start, Vector3 end, float radius, BaseEntity forEntity) { }
 
-	// RVA: 0xC15080 Offset: 0xC13680 VA: 0x180C15080
+	// RVA: 0xC15340 Offset: 0xC13940 VA: 0x180C15340
 	public static float Factor(Bounds bounds, BaseEntity forEntity) { }
 
-	// RVA: 0xC174B0 Offset: 0xC15AB0 VA: 0x180C174B0
+	// RVA: 0xC17770 Offset: 0xC15D70 VA: 0x180C17770
 	public static bool Test(Vector3 pos, bool waves = True, BaseEntity forEntity) { }
 
-	// RVA: 0xC15BD0 Offset: 0xC141D0 VA: 0x180C15BD0
+	// RVA: 0xC15E90 Offset: 0xC14490 VA: 0x180C15E90
 	public static float GetWaterDepth(Vector3 pos, bool waves = True, BaseEntity forEntity) { }
 
-	// RVA: 0xC15A80 Offset: 0xC14080 VA: 0x180C15A80
+	// RVA: 0xC15D40 Offset: 0xC14340 VA: 0x180C15D40
 	public static float GetOverallWaterDepth(Vector3 pos, bool waves = True, BaseEntity forEntity, bool noEarlyExit = False) { }
 
-	// RVA: 0xC154E0 Offset: 0xC13AE0 VA: 0x180C154E0
+	// RVA: 0xC157A0 Offset: 0xC13DA0 VA: 0x180C157A0
 	public static WaterLevel.WaterInfo GetBuoyancyWaterInfo(Vector3 pos, Vector2 posUV, float terrainHeight, float waterHeight, bool doDeepwaterChecks, BaseEntity forEntity) { }
 
-	// RVA: 0xC15F60 Offset: 0xC14560 VA: 0x180C15F60
+	// RVA: 0xC16220 Offset: 0xC14820 VA: 0x180C16220
 	public static WaterLevel.WaterInfo GetWaterInfo(Vector3 pos, bool waves = True, BaseEntity forEntity, bool noEarlyExit = False) { }
 
-	// RVA: 0xC16600 Offset: 0xC14C00 VA: 0x180C16600
+	// RVA: 0xC168C0 Offset: 0xC14EC0 VA: 0x180C168C0
 	public static WaterLevel.WaterInfo GetWaterInfo(Bounds bounds, BaseEntity forEntity, bool waves = True) { }
 
-	// RVA: 0xC16C70 Offset: 0xC15270 VA: 0x180C16C70
+	// RVA: 0xC16F30 Offset: 0xC15530 VA: 0x180C16F30
 	public static WaterLevel.WaterInfo GetWaterInfo(Vector3 start, Vector3 end, float radius, BaseEntity forEntity, bool waves = True) { }
 
-	// RVA: 0xC15D10 Offset: 0xC14310 VA: 0x180C15D10
+	// RVA: 0xC15FD0 Offset: 0xC145D0 VA: 0x180C15FD0
 	private static WaterLevel.WaterInfo GetWaterInfoFromVolumes(Bounds bounds, BaseEntity forEntity) { }
 
-	// RVA: 0xC15DC0 Offset: 0xC143C0 VA: 0x180C15DC0
+	// RVA: 0xC16080 Offset: 0xC14680 VA: 0x180C16080
 	private static WaterLevel.WaterInfo GetWaterInfoFromVolumes(Vector3 pos, BaseEntity forEntity) { }
 
-	// RVA: 0xC15E70 Offset: 0xC14470 VA: 0x180C15E70
+	// RVA: 0xC16130 Offset: 0xC14730 VA: 0x180C16130
 	private static WaterLevel.WaterInfo GetWaterInfoFromVolumes(Vector3 start, Vector3 end, float radius, BaseEntity forEntity) { }
 
 }

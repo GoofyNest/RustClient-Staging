@@ -15,7 +15,7 @@ internal struct LobbyMatchList_t : ICallbackData // TypeDefIndex: 5342
 	// RVA: 0x1EB740 Offset: 0x1EAB40 VA: 0x1801EB740 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1373CD0 Offset: 0x13722D0 VA: 0x181373CD0
+	// RVA: 0x1373F90 Offset: 0x1372590 VA: 0x181373F90
 	private static void .cctor() { }
 
 }

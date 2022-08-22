@@ -16,55 +16,55 @@ public class DeferredMeshDecalRenderer : MonoBehaviour // TypeDefIndex: 10670
 
 	// Methods
 
-	// RVA: 0x84B550 Offset: 0x849B50 VA: 0x18084B550
+	// RVA: 0x84B660 Offset: 0x849C60 VA: 0x18084B660
 	public Camera get_TargetCamera() { }
 
-	// RVA: 0x84AEF0 Offset: 0x8494F0 VA: 0x18084AEF0
+	// RVA: 0x84B000 Offset: 0x849600 VA: 0x18084B000
 	public static void Register(DeferredMeshDecal decal) { }
 
-	// RVA: 0x84AF70 Offset: 0x849570 VA: 0x18084AF70
+	// RVA: 0x84B080 Offset: 0x849680 VA: 0x18084B080
 	public static void Unregister(DeferredMeshDecal decal) { }
 
-	// RVA: 0x84AD30 Offset: 0x849330 VA: 0x18084AD30
+	// RVA: 0x84AE40 Offset: 0x849440 VA: 0x18084AE40
 	private void OnEnable() { }
 
-	// RVA: 0x84ACA0 Offset: 0x8492A0 VA: 0x18084ACA0
+	// RVA: 0x84ADB0 Offset: 0x8493B0 VA: 0x18084ADB0
 	private void OnDisable() { }
 
-	// RVA: 0x84A3F0 Offset: 0x8489F0 VA: 0x18084A3F0
+	// RVA: 0x84A500 Offset: 0x848B00 VA: 0x18084A500
 	private void CreateCommandBuffer() { }
 
-	// RVA: 0x84A230 Offset: 0x848830 VA: 0x18084A230
+	// RVA: 0x84A340 Offset: 0x848940 VA: 0x18084A340
 	private void CleanupCommandBuffer() { }
 
-	// RVA: 0x84A4A0 Offset: 0x848AA0 VA: 0x18084A4A0
+	// RVA: 0x84A5B0 Offset: 0x848BB0 VA: 0x18084A5B0
 	private void CreateMaterials() { }
 
-	// RVA: 0x84A340 Offset: 0x848940 VA: 0x18084A340
+	// RVA: 0x84A450 Offset: 0x848A50 VA: 0x18084A450
 	private void CleanupMaterials() { }
 
-	// RVA: 0x849FF0 Offset: 0x8485F0 VA: 0x180849FF0
+	// RVA: 0x84A100 Offset: 0x848700 VA: 0x18084A100
 	public static void BecameVisible(DeferredMeshDecal decal) { }
 
-	// RVA: 0x849F70 Offset: 0x848570 VA: 0x180849F70
+	// RVA: 0x84A080 Offset: 0x848680 VA: 0x18084A080
 	public static void BecameInvisible(DeferredMeshDecal decal) { }
 
-	// RVA: 0x84A070 Offset: 0x848670 VA: 0x18084A070
+	// RVA: 0x84A180 Offset: 0x848780 VA: 0x18084A180
 	private void CleanupBatches() { }
 
-	// RVA: 0x84AFF0 Offset: 0x8495F0 VA: 0x18084AFF0
+	// RVA: 0x84B100 Offset: 0x849700 VA: 0x18084B100
 	private void UpdateBatches() { }
 
-	// RVA: 0x84A540 Offset: 0x848B40 VA: 0x18084A540
+	// RVA: 0x84A650 Offset: 0x848C50 VA: 0x18084A650
 	public void FillCommandBuffer(CommandBuffer cb) { }
 
-	// RVA: 0x84AE60 Offset: 0x849460 VA: 0x18084AE60
+	// RVA: 0x84AF70 Offset: 0x849570 VA: 0x18084AF70
 	private void OnPreRender() { }
 
-	// RVA: 0x84B4F0 Offset: 0x849AF0 VA: 0x18084B4F0
+	// RVA: 0x84B600 Offset: 0x849C00 VA: 0x18084B600
 	public void .ctor() { }
 
-	// RVA: 0x84B410 Offset: 0x849A10 VA: 0x18084B410
+	// RVA: 0x84B520 Offset: 0x849B20 VA: 0x18084B520
 	private static void .cctor() { }
 
 }

@@ -48,11 +48,11 @@ public class Report // TypeDefIndex: 6189
 	public void set_platform(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public string get_event_id() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	public void set_event_id(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -68,7 +68,7 @@ public class Report // TypeDefIndex: 6189
 	public Report.StackTrace get_stacktrace() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	public void set_stacktrace(Report.StackTrace value) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -94,10 +94,10 @@ public class Report.StackTrace // TypeDefIndex: 6190
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	public void set_frames(Report.StackTrace.StackFrame[] value) { }
 
-	// RVA: 0x14B9510 Offset: 0x14B7B10 VA: 0x1814B9510
+	// RVA: 0x14B97D0 Offset: 0x14B7DD0 VA: 0x1814B97D0
 	public void .ctor() { }
 
-	// RVA: 0x14B9340 Offset: 0x14B7940 VA: 0x1814B9340
+	// RVA: 0x14B9600 Offset: 0x14B7C00 VA: 0x1814B9600
 	public void .ctor(string unityStack) { }
 
 }
@@ -159,7 +159,7 @@ public class Report.StackTrace.StackFrame // TypeDefIndex: 6191
 	public int get_lineno() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0C50 Offset: 0x7CF250 VA: 0x1807D0C50
+	// RVA: 0x7D0D60 Offset: 0x7CF360 VA: 0x1807D0D60
 	private void set_lineno(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -175,24 +175,24 @@ public class Report.StackTrace.StackFrame // TypeDefIndex: 6191
 	public string get_context_line() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	private void set_context_line(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8054F0 Offset: 0x803AF0 VA: 0x1808054F0
+	// RVA: 0x805600 Offset: 0x803C00 VA: 0x180805600
 	public bool get_in_app() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x80FEF0 Offset: 0x80E4F0 VA: 0x18080FEF0
+	// RVA: 0x810000 Offset: 0x80E600 VA: 0x180810000
 	private void set_in_app(bool value) { }
 
-	// RVA: 0x14B9090 Offset: 0x14B7690 VA: 0x1814B9090
+	// RVA: 0x14B9350 Offset: 0x14B7950 VA: 0x1814B9350
 	public void .ctor(StackFrame x) { }
 
-	// RVA: 0x14B9310 Offset: 0x14B7910 VA: 0x1814B9310
+	// RVA: 0x14B95D0 Offset: 0x14B7BD0 VA: 0x1814B95D0
 	public void .ctor(string x) { }
 
-	// RVA: 0x14B9000 Offset: 0x14B7600 VA: 0x1814B9000
+	// RVA: 0x14B92C0 Offset: 0x14B78C0 VA: 0x1814B92C0
 	private static bool IsSystemModuleName(string moduleName) { }
 
 }
@@ -205,16 +205,16 @@ private sealed class Report.StackTrace.<>c // TypeDefIndex: 6192
 
 	// Methods
 
-	// RVA: 0x14BD0A0 Offset: 0x14BB6A0 VA: 0x1814BD0A0
+	// RVA: 0x14BD360 Offset: 0x14BB960 VA: 0x1814BD360
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x14BC9D0 Offset: 0x14BAFD0 VA: 0x1814BC9D0
+	// RVA: 0x14BCC90 Offset: 0x14BB290 VA: 0x1814BCC90
 	internal Report.StackTrace.StackFrame <.ctor>b__4_0(StackFrame x) { }
 
-	// RVA: 0x14BCA30 Offset: 0x14BB030 VA: 0x1814BCA30
+	// RVA: 0x14BCCF0 Offset: 0x14BB2F0 VA: 0x1814BCCF0
 	internal Report.StackTrace.StackFrame <.ctor>b__5_0(string x) { }
 
 }

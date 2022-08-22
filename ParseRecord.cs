@@ -47,10 +47,10 @@ internal sealed class ParseRecord // TypeDefIndex: 1117
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x11FFE20 Offset: 0x11FE420 VA: 0x1811FFE20
+	// RVA: 0x12000E0 Offset: 0x11FE6E0 VA: 0x1812000E0
 	internal void Init() { }
 
-	// RVA: 0x11FFFB0 Offset: 0x11FE5B0 VA: 0x1811FFFB0
+	// RVA: 0x1200270 Offset: 0x11FE870 VA: 0x181200270
 	private static void .cctor() { }
 
 }

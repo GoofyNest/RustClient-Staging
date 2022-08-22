@@ -9,22 +9,22 @@ internal class CADMethodReturnMessage : CADMessageBase // TypeDefIndex: 1229
 
 	// Methods
 
-	// RVA: 0x14716F0 Offset: 0x146FCF0 VA: 0x1814716F0
+	// RVA: 0x14719B0 Offset: 0x146FFB0 VA: 0x1814719B0
 	internal static CADMethodReturnMessage Create(IMessage callMsg) { }
 
-	// RVA: 0x1471910 Offset: 0x146FF10 VA: 0x181471910
+	// RVA: 0x1471BD0 Offset: 0x14701D0 VA: 0x181471BD0
 	internal void .ctor(IMethodReturnMessage retMsg) { }
 
-	// RVA: 0x1471770 Offset: 0x146FD70 VA: 0x181471770
+	// RVA: 0x1471A30 Offset: 0x1470030 VA: 0x181471A30
 	internal ArrayList GetArguments() { }
 
-	// RVA: 0x1470B60 Offset: 0x146F160 VA: 0x181470B60
+	// RVA: 0x1470E20 Offset: 0x146F420 VA: 0x181470E20
 	internal object[] GetArgs(ArrayList args) { }
 
-	// RVA: 0x1471900 Offset: 0x146FF00 VA: 0x181471900
+	// RVA: 0x1471BC0 Offset: 0x14701C0 VA: 0x181471BC0
 	internal object GetReturnValue(ArrayList args) { }
 
-	// RVA: 0x1471850 Offset: 0x146FE50 VA: 0x181471850
+	// RVA: 0x1471B10 Offset: 0x1470110 VA: 0x181471B10
 	internal Exception GetException(ArrayList args) { }
 
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0

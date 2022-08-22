@@ -13,7 +13,7 @@ internal class NativeHeaderAttribute : Attribute // TypeDefIndex: 3271
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630 Slot: 7
 	public void set_Header(string value) { }
 
-	// RVA: 0x2311550 Offset: 0x230FB50 VA: 0x182311550
+	// RVA: 0x2311810 Offset: 0x230FE10 VA: 0x182311810
 	public void .ctor(string header) { }
 
 }

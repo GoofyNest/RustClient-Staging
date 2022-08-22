@@ -36,7 +36,7 @@ public class ServicePoint // TypeDefIndex: 3018
 
 	// Methods
 
-	// RVA: 0xFFF010 Offset: 0xFFD610 VA: 0x180FFF010
+	// RVA: 0xFFF2D0 Offset: 0xFFD8D0 VA: 0x180FFF2D0
 	internal void .ctor(Uri uri, int connectionLimit, int maxIdleTime) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
@@ -51,25 +51,25 @@ public class ServicePoint // TypeDefIndex: 3018
 	// RVA: 0x592640 Offset: 0x590C40 VA: 0x180592640
 	public void set_Expect100Continue(bool value) { }
 
-	// RVA: 0x82CA00 Offset: 0x82B000 VA: 0x18082CA00
+	// RVA: 0x82CB10 Offset: 0x82B110 VA: 0x18082CB10
 	public bool get_UseNagleAlgorithm() { }
 
-	// RVA: 0xE69910 Offset: 0xE67F10 VA: 0x180E69910
+	// RVA: 0xE69BD0 Offset: 0xE681D0 VA: 0x180E69BD0
 	public void set_UseNagleAlgorithm(bool value) { }
 
-	// RVA: 0xFFF6F0 Offset: 0xFFDCF0 VA: 0x180FFF6F0
+	// RVA: 0xFFF9B0 Offset: 0xFFDFB0 VA: 0x180FFF9B0
 	internal bool get_SendContinue() { }
 
 	// RVA: 0x592640 Offset: 0x590C40 VA: 0x180592640
 	internal void set_SendContinue(bool value) { }
 
-	// RVA: 0xFFEEA0 Offset: 0xFFD4A0 VA: 0x180FFEEA0
+	// RVA: 0xFFF160 Offset: 0xFFD760 VA: 0x180FFF160
 	public void SetTcpKeepAlive(bool enabled, int keepAliveTime, int keepAliveInterval) { }
 
-	// RVA: 0xFFE8A0 Offset: 0xFFCEA0 VA: 0x180FFE8A0
+	// RVA: 0xFFEB60 Offset: 0xFFD160 VA: 0x180FFEB60
 	internal void KeepAliveSetup(Socket socket) { }
 
-	// RVA: 0xFFEA80 Offset: 0xFFD080 VA: 0x180FFEA80
+	// RVA: 0xFFED40 Offset: 0xFFD340 VA: 0x180FFED40
 	private static void PutBytes(byte[] bytes, uint v, int offset) { }
 
 	// RVA: 0x4BC3E0 Offset: 0x4BA9E0 VA: 0x1804BC3E0
@@ -78,50 +78,50 @@ public class ServicePoint // TypeDefIndex: 3018
 	// RVA: 0x4BC5E0 Offset: 0x4BABE0 VA: 0x1804BC5E0
 	internal void set_UsesProxy(bool value) { }
 
-	// RVA: 0xAF5CE0 Offset: 0xAF42E0 VA: 0x180AF5CE0
+	// RVA: 0xAF5FA0 Offset: 0xAF45A0 VA: 0x180AF5FA0
 	internal bool get_UseConnect() { }
 
-	// RVA: 0xFFF7E0 Offset: 0xFFDDE0 VA: 0x180FFF7E0
+	// RVA: 0xFFFAA0 Offset: 0xFFE0A0 VA: 0x180FFFAA0
 	internal void set_UseConnect(bool value) { }
 
-	// RVA: 0xFFE730 Offset: 0xFFCD30 VA: 0x180FFE730
+	// RVA: 0xFFE9F0 Offset: 0xFFCFF0 VA: 0x180FFE9F0
 	private WebConnectionGroup GetConnectionGroup(string name) { }
 
-	// RVA: 0xFFEC40 Offset: 0xFFD240 VA: 0x180FFEC40
+	// RVA: 0xFFEF00 Offset: 0xFFD500 VA: 0x180FFEF00
 	private void RemoveConnectionGroup(WebConnectionGroup group) { }
 
-	// RVA: 0xFFE080 Offset: 0xFFC680 VA: 0x180FFE080
+	// RVA: 0xFFE340 Offset: 0xFFC940 VA: 0x180FFE340
 	private bool CheckAvailableForRecycling(out DateTime outIdleSince) { }
 
-	// RVA: 0xFFE880 Offset: 0xFFCE80 VA: 0x180FFE880
+	// RVA: 0xFFEB40 Offset: 0xFFD140 VA: 0x180FFEB40
 	private void IdleTimerCallback(object obj) { }
 
-	// RVA: 0xFFF0F0 Offset: 0xFFD6F0 VA: 0x180FFF0F0
+	// RVA: 0xFFF3B0 Offset: 0xFFD9B0 VA: 0x180FFF3B0
 	private bool get_HasTimedOut() { }
 
-	// RVA: 0xFFF230 Offset: 0xFFD830 VA: 0x180FFF230
+	// RVA: 0xFFF4F0 Offset: 0xFFDAF0 VA: 0x180FFF4F0
 	internal IPHostEntry get_HostEntry() { }
 
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	internal void SetVersion(Version version) { }
 
-	// RVA: 0xFFECE0 Offset: 0xFFD2E0 VA: 0x180FFECE0
+	// RVA: 0xFFEFA0 Offset: 0xFFD5A0 VA: 0x180FFEFA0
 	internal EventHandler SendRequest(HttpWebRequest request, string groupName) { }
 
-	// RVA: 0xFFE630 Offset: 0xFFCC30 VA: 0x180FFE630
+	// RVA: 0xFFE8F0 Offset: 0xFFCEF0 VA: 0x180FFE8F0
 	public bool CloseConnectionGroup(string connectionGroupName) { }
 
-	// RVA: 0xFFEFD0 Offset: 0xFFD5D0 VA: 0x180FFEFD0
+	// RVA: 0xFFF290 Offset: 0xFFD890 VA: 0x180FFF290
 	internal void UpdateServerCertificate(X509Certificate certificate) { }
 
-	// RVA: 0xFFEF90 Offset: 0xFFD590 VA: 0x180FFEF90
+	// RVA: 0xFFF250 Offset: 0xFFD850 VA: 0x180FFF250
 	internal void UpdateClientCertificate(X509Certificate certificate) { }
 
-	// RVA: 0xFFDF70 Offset: 0xFFC570 VA: 0x180FFDF70
+	// RVA: 0xFFE230 Offset: 0xFFC830 VA: 0x180FFE230
 	internal bool CallEndPointDelegate(Socket sock, IPEndPoint remote) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xFFEF80 Offset: 0xFFD580 VA: 0x180FFEF80
+	// RVA: 0xFFF240 Offset: 0xFFD840 VA: 0x180FFF240
 	private void <GetConnectionGroup>b__66_0(object s, EventArgs e) { }
 
 }

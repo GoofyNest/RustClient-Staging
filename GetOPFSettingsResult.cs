@@ -16,7 +16,7 @@ internal struct GetOPFSettingsResult_t : ICallbackData // TypeDefIndex: 5481
 	// RVA: 0x1E9170 Offset: 0x1E8570 VA: 0x1801E9170 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371840 Offset: 0x136FE40 VA: 0x181371840
+	// RVA: 0x1371B00 Offset: 0x1370100 VA: 0x181371B00
 	private static void .cctor() { }
 
 }

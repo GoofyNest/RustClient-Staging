@@ -8,22 +8,22 @@ public class ObjectIDGenerator // TypeDefIndex: 1036
 
 	// Methods
 
-	// RVA: 0x1294BB0 Offset: 0x12931B0 VA: 0x181294BB0
+	// RVA: 0x1294E70 Offset: 0x1293470 VA: 0x181294E70
 	public void .ctor() { }
 
-	// RVA: 0x1294450 Offset: 0x1292A50 VA: 0x181294450
+	// RVA: 0x1294710 Offset: 0x1292D10 VA: 0x181294710
 	private int FindElement(object obj, out bool found) { }
 
-	// RVA: 0x1294510 Offset: 0x1292B10 VA: 0x181294510 Slot: 4
+	// RVA: 0x12947D0 Offset: 0x1292DD0 VA: 0x1812947D0 Slot: 4
 	public virtual long GetId(object obj, out bool firstTime) { }
 
-	// RVA: 0x12946F0 Offset: 0x1292CF0 VA: 0x1812946F0 Slot: 5
+	// RVA: 0x12949B0 Offset: 0x1292FB0 VA: 0x1812949B0 Slot: 5
 	public virtual long HasId(object obj, out bool firstTime) { }
 
-	// RVA: 0x12947E0 Offset: 0x1292DE0 VA: 0x1812947E0
+	// RVA: 0x1294AA0 Offset: 0x12930A0 VA: 0x181294AA0
 	private void Rehash() { }
 
-	// RVA: 0x1294B40 Offset: 0x1293140 VA: 0x181294B40
+	// RVA: 0x1294E00 Offset: 0x1293400 VA: 0x181294E00
 	private static void .cctor() { }
 
 }

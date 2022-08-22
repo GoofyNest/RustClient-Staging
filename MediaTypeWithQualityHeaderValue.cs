@@ -4,10 +4,10 @@ public sealed class MediaTypeWithQualityHeaderValue : MediaTypeHeaderValue // Ty
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	// RVA: 0x1092A00 Offset: 0x1091000 VA: 0x181092A00
+	// RVA: 0x1092CC0 Offset: 0x10912C0 VA: 0x181092CC0
 	private static bool TryParseElement(Lexer lexer, out MediaTypeWithQualityHeaderValue parsedValue, out Token t) { }
 
-	// RVA: 0x1092BC0 Offset: 0x10911C0 VA: 0x181092BC0
+	// RVA: 0x1092E80 Offset: 0x1091480 VA: 0x181092E80
 	internal static bool TryParse(string input, int minimalCount, out List<MediaTypeWithQualityHeaderValue> result) { }
 
 }

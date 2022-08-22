@@ -8,16 +8,16 @@ public class MobileInventoryEntity : BaseEntity // TypeDefIndex: 9450
 
 	// Methods
 
-	// RVA: 0x76C960 Offset: 0x76AF60 VA: 0x18076C960 Slot: 80
+	// RVA: 0x76CA70 Offset: 0x76B070 VA: 0x18076CA70 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x76C8E0 Offset: 0x76AEE0 VA: 0x18076C8E0
+	// RVA: 0x76C9F0 Offset: 0x76AFF0 VA: 0x18076C9F0
 	private SoundDefinition GetRingSound() { }
 
-	// RVA: 0x76CD10 Offset: 0x76B310 VA: 0x18076CD10
+	// RVA: 0x76CE20 Offset: 0x76B420 VA: 0x18076CE20
 	public void .ctor() { }
 
-	// RVA: 0x76CCD0 Offset: 0x76B2D0 VA: 0x18076CCD0
+	// RVA: 0x76CDE0 Offset: 0x76B3E0 VA: 0x18076CDE0
 	private static void .cctor() { }
 
 }

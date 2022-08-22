@@ -55,64 +55,64 @@ public class BeamGeometry : MonoBehaviour // TypeDefIndex: 11537
 	// RVA: 0x574470 Offset: 0x572A70 VA: 0x180574470
 	private void set_coneMesh(Mesh value) { }
 
-	// RVA: 0x111CE40 Offset: 0x111B440 VA: 0x18111CE40
+	// RVA: 0x111D100 Offset: 0x111B700 VA: 0x18111D100
 	public bool get_visible() { }
 
-	// RVA: 0x111CEA0 Offset: 0x111B4A0 VA: 0x18111CEA0
+	// RVA: 0x111D160 Offset: 0x111B760 VA: 0x18111D160
 	public void set_visible(bool value) { }
 
-	// RVA: 0x111CE00 Offset: 0x111B400 VA: 0x18111CE00
+	// RVA: 0x111D0C0 Offset: 0x111B6C0 VA: 0x18111D0C0
 	public int get_sortingLayerID() { }
 
-	// RVA: 0x111CE60 Offset: 0x111B460 VA: 0x18111CE60
+	// RVA: 0x111D120 Offset: 0x111B720 VA: 0x18111D120
 	public void set_sortingLayerID(int value) { }
 
-	// RVA: 0x111CE20 Offset: 0x111B420 VA: 0x18111CE20
+	// RVA: 0x111D0E0 Offset: 0x111B6E0 VA: 0x18111D0E0
 	public int get_sortingOrder() { }
 
-	// RVA: 0x111CE80 Offset: 0x111B480 VA: 0x18111CE80
+	// RVA: 0x111D140 Offset: 0x111B740 VA: 0x18111D140
 	public void set_sortingOrder(int value) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void Start() { }
 
-	// RVA: 0x111B8D0 Offset: 0x1119ED0 VA: 0x18111B8D0
+	// RVA: 0x111BB90 Offset: 0x111A190 VA: 0x18111BB90
 	private void OnDestroy() { }
 
-	// RVA: 0x111B7D0 Offset: 0x1119DD0 VA: 0x18111B7D0
+	// RVA: 0x111BA90 Offset: 0x111A090 VA: 0x18111BA90
 	private static bool IsUsingCustomRenderPipeline() { }
 
-	// RVA: 0x111BA10 Offset: 0x111A010 VA: 0x18111BA10
+	// RVA: 0x111BCD0 Offset: 0x111A2D0 VA: 0x18111BCD0
 	private void OnEnable() { }
 
-	// RVA: 0x111B980 Offset: 0x1119F80 VA: 0x18111B980
+	// RVA: 0x111BC40 Offset: 0x111A240 VA: 0x18111BC40
 	private void OnDisable() { }
 
-	// RVA: 0x111B410 Offset: 0x1119A10 VA: 0x18111B410
+	// RVA: 0x111B6D0 Offset: 0x1119CD0 VA: 0x18111B6D0
 	public void Initialize(VolumetricLightBeam master, Shader shader) { }
 
-	// RVA: 0x111BB30 Offset: 0x111A130 VA: 0x18111BB30
+	// RVA: 0x111BDF0 Offset: 0x111A3F0 VA: 0x18111BDF0
 	public void RegenerateMesh() { }
 
-	// RVA: 0x111B300 Offset: 0x1119900 VA: 0x18111B300
+	// RVA: 0x111B5C0 Offset: 0x1119BC0 VA: 0x18111B5C0
 	private void ComputeLocalMatrix() { }
 
-	// RVA: 0x111C2D0 Offset: 0x111A8D0 VA: 0x18111C2D0
+	// RVA: 0x111C590 Offset: 0x111AB90 VA: 0x18111C590
 	public void UpdateMaterialAndBounds() { }
 
-	// RVA: 0x111BE20 Offset: 0x111A420 VA: 0x18111BE20
+	// RVA: 0x111C0E0 Offset: 0x111A6E0 VA: 0x18111C0E0
 	public void SetClippingPlane(Plane planeWS) { }
 
-	// RVA: 0x111BDD0 Offset: 0x111A3D0 VA: 0x18111BDD0
+	// RVA: 0x111C090 Offset: 0x111A690 VA: 0x18111C090
 	public void SetClippingPlaneOff() { }
 
-	// RVA: 0x111B8C0 Offset: 0x1119EC0 VA: 0x18111B8C0
+	// RVA: 0x111BB80 Offset: 0x111A180 VA: 0x18111BB80
 	private void OnBeginCameraRendering(ScriptableRenderContext context, Camera cam) { }
 
-	// RVA: 0x111BAA0 Offset: 0x111A0A0 VA: 0x18111BAA0
+	// RVA: 0x111BD60 Offset: 0x111A360 VA: 0x18111BD60
 	private void OnWillRenderObject() { }
 
-	// RVA: 0x111BF10 Offset: 0x111A510 VA: 0x18111BF10
+	// RVA: 0x111C1D0 Offset: 0x111A7D0 VA: 0x18111C1D0
 	private void UpdateCameraRelatedProperties(Camera cam) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

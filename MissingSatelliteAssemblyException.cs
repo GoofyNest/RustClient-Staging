@@ -4,13 +4,13 @@ public class MissingSatelliteAssemblyException : SystemException // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0xFEAF40 Offset: 0xFE9540 VA: 0x180FEAF40
+	// RVA: 0xFEB200 Offset: 0xFE9800 VA: 0x180FEB200
 	public void .ctor() { }
 
-	// RVA: 0xFEAFA0 Offset: 0xFE95A0 VA: 0x180FEAFA0
+	// RVA: 0xFEB260 Offset: 0xFE9860 VA: 0x180FEB260
 	public void .ctor(string message, string cultureName) { }
 
-	// RVA: 0xFDD150 Offset: 0xFDB750 VA: 0x180FDD150
+	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

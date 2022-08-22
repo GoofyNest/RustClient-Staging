@@ -9,22 +9,22 @@ public class MissingMemberException : MemberAccessException, ISerializable // Ty
 
 	// Methods
 
-	// RVA: 0x1676090 Offset: 0x1674690 VA: 0x181676090
+	// RVA: 0x1676350 Offset: 0x1674950 VA: 0x181676350
 	public void .ctor() { }
 
-	// RVA: 0x1676100 Offset: 0x1674700 VA: 0x181676100
+	// RVA: 0x16763C0 Offset: 0x16749C0 VA: 0x1816763C0
 	public void .ctor(string message) { }
 
-	// RVA: 0x1676140 Offset: 0x1674740 VA: 0x181676140
+	// RVA: 0x1676400 Offset: 0x1674A00 VA: 0x181676400
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1676280 Offset: 0x1674880 VA: 0x181676280 Slot: 5
+	// RVA: 0x1676540 Offset: 0x1674B40 VA: 0x181676540 Slot: 5
 	public override string get_Message() { }
 
-	// RVA: 0xD72E30 Offset: 0xD71430 VA: 0x180D72E30
+	// RVA: 0xD730F0 Offset: 0xD716F0 VA: 0x180D730F0
 	internal static string FormatSignature(byte[] signature) { }
 
-	// RVA: 0x1675F30 Offset: 0x1674530 VA: 0x181675F30 Slot: 10
+	// RVA: 0x16761F0 Offset: 0x16747F0 VA: 0x1816761F0 Slot: 10
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 }

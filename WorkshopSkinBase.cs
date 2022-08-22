@@ -14,7 +14,7 @@ public class WorkshopSkinBase : WorkshopBase // TypeDefIndex: 7720
 	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
 	public void .ctor() { }
 
-	// RVA: 0xE84DD0 Offset: 0xE833D0 VA: 0x180E84DD0
+	// RVA: 0xE85090 Offset: 0xE83690 VA: 0x180E85090
 	private static void .cctor() { }
 
 }

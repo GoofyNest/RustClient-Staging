@@ -37,7 +37,7 @@ public class CardPlayerData : IDisposable // TypeDefIndex: 12012
 	public ulong get_UserID() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1080 Offset: 0x8BF680 VA: 0x1808C1080
+	// RVA: 0x8C1190 Offset: 0x8BF790 VA: 0x1808C1190
 	private void set_UserID(ulong value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -45,47 +45,47 @@ public class CardPlayerData : IDisposable // TypeDefIndex: 12012
 	public CardPlayerData.CardPlayerState get_State() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D620 Offset: 0x69BC20 VA: 0x18069D620
+	// RVA: 0x69D730 Offset: 0x69BD30 VA: 0x18069D730
 	private void set_State(CardPlayerData.CardPlayerState value) { }
 
-	// RVA: 0x8C1020 Offset: 0x8BF620 VA: 0x1808C1020
+	// RVA: 0x8C1130 Offset: 0x8BF730 VA: 0x1808C1130
 	public bool get_HasUser() { }
 
-	// RVA: 0x8C1010 Offset: 0x8BF610 VA: 0x1808C1010
+	// RVA: 0x8C1120 Offset: 0x8BF720 VA: 0x1808C1120
 	public bool get_HasUserInGame() { }
 
-	// RVA: 0x8C1000 Offset: 0x8BF600 VA: 0x1808C1000
+	// RVA: 0x8C1110 Offset: 0x8BF710 VA: 0x1808C1110
 	public bool get_HasUserInCurrentRound() { }
 
-	// RVA: 0x8C0FF0 Offset: 0x8BF5F0 VA: 0x1808C0FF0
+	// RVA: 0x8C1100 Offset: 0x8BF700 VA: 0x1808C1100
 	public bool get_HasAvailableInputs() { }
 
-	// RVA: 0x8C1030 Offset: 0x8BF630 VA: 0x1808C1030
+	// RVA: 0x8C1140 Offset: 0x8BF740 VA: 0x1808C1140
 	private bool get_IsClient() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1040 Offset: 0x8BF640 VA: 0x1808C1040
+	// RVA: 0x8C1150 Offset: 0x8BF750 VA: 0x1808C1150
 	public bool get_LeftRoundEarly() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x78E170 Offset: 0x78C770 VA: 0x18078E170
+	// RVA: 0x78E280 Offset: 0x78C880 VA: 0x18078E280
 	private void set_LeftRoundEarly(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1050 Offset: 0x8BF650 VA: 0x1808C1050
+	// RVA: 0x8C1160 Offset: 0x8BF760 VA: 0x1808C1160
 	public bool get_SendCardDetails() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1060 Offset: 0x8BF660 VA: 0x1808C1060
+	// RVA: 0x8C1170 Offset: 0x8BF770 VA: 0x1808C1170
 	private void set_SendCardDetails(bool value) { }
 
-	// RVA: 0x8C0F60 Offset: 0x8BF560 VA: 0x1808C0F60
+	// RVA: 0x8C1070 Offset: 0x8BF670 VA: 0x1808C1070
 	public void .ctor(int mountIndex, bool isServer) { }
 
-	// RVA: 0x8C0D10 Offset: 0x8BF310 VA: 0x1808C0D10 Slot: 4
+	// RVA: 0x8C0E20 Offset: 0x8BF420 VA: 0x1808C0E20 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x8C0D70 Offset: 0x8BF370 VA: 0x1808C0D70
+	// RVA: 0x8C0E80 Offset: 0x8BF480 VA: 0x1808C0E80
 	public int GetScrapAmount() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -93,10 +93,10 @@ public class CardPlayerData : IDisposable // TypeDefIndex: 12012
 	public int get_TrueCardCount() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1070 Offset: 0x8BF670 VA: 0x1808C1070
+	// RVA: 0x8C1180 Offset: 0x8BF780 VA: 0x1808C1180
 	private void set_TrueCardCount(int value) { }
 
-	// RVA: 0x8C0D90 Offset: 0x8BF390 VA: 0x1808C0D90
+	// RVA: 0x8C0EA0 Offset: 0x8BF4A0 VA: 0x1808C0EA0
 	public void Load(CardTable.CardPlayer msg) { }
 
 }

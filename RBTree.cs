@@ -55,10 +55,10 @@ private sealed class RBTree.TreePage<K> // TypeDefIndex: 4290
 	internal void .ctor(int size) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178C940 Offset: 0x178AF40 VA: 0x18178C940
+	|-RVA: 0x178CC00 Offset: 0x178B200 VA: 0x18178CC00
 	|-RBTree.TreePage<int>..ctor
 	|
-	|-RVA: 0x178C860 Offset: 0x178AE60 VA: 0x18178C860
+	|-RVA: 0x178CB20 Offset: 0x178B120 VA: 0x18178CB20
 	|-RBTree.TreePage<object>..ctor
 	*/
 
@@ -66,7 +66,7 @@ private sealed class RBTree.TreePage<K> // TypeDefIndex: 4290
 	internal int AllocSlot(RBTree<K> tree) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178C710 Offset: 0x178AD10 VA: 0x18178C710
+	|-RVA: 0x178C9D0 Offset: 0x178AFD0 VA: 0x18178C9D0
 	|-RBTree.TreePage<int>.AllocSlot
 	|-RBTree.TreePage<object>.AllocSlot
 	*/
@@ -84,7 +84,7 @@ private sealed class RBTree.TreePage<K> // TypeDefIndex: 4290
 	internal void set_InUseCount(int value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x69D620 Offset: 0x69BC20 VA: 0x18069D620
+	|-RVA: 0x69D730 Offset: 0x69BD30 VA: 0x18069D730
 	|-RBTree.TreePage<int>.set_InUseCount
 	|-RBTree.TreePage<object>.set_InUseCount
 	*/
@@ -93,7 +93,7 @@ private sealed class RBTree.TreePage<K> // TypeDefIndex: 4290
 	internal int get_PageId() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x7D0C00 Offset: 0x7CF200 VA: 0x1807D0C00
+	|-RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10
 	|-RBTree.TreePage<int>.get_PageId
 	|-RBTree.TreePage<object>.get_PageId
 	*/
@@ -102,7 +102,7 @@ private sealed class RBTree.TreePage<K> // TypeDefIndex: 4290
 	internal void set_PageId(int value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x7D0C60 Offset: 0x7CF260 VA: 0x1807D0C60
+	|-RVA: 0x7D0D70 Offset: 0x7CF370 VA: 0x1807D0D70
 	|-RBTree.TreePage<int>.set_PageId
 	|-RBTree.TreePage<object>.set_PageId
 	*/

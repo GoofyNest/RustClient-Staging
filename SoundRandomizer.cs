@@ -4,28 +4,28 @@ public class SoundRandomizer // TypeDefIndex: 9041
 
 	// Methods
 
-	// RVA: 0xA7C0C0 Offset: 0xA7A6C0 VA: 0x180A7C0C0
+	// RVA: 0xA7C380 Offset: 0xA7A980 VA: 0x180A7C380
 	public static void Randomize(Sound sound, bool randomizeClip = True) { }
 
-	// RVA: 0xA7C030 Offset: 0xA7A630 VA: 0x180A7C030
+	// RVA: 0xA7C2F0 Offset: 0xA7A8F0 VA: 0x180A7C2F0
 	public static void RandomizeVolume(Sound sound) { }
 
-	// RVA: 0xA7BEA0 Offset: 0xA7A4A0 VA: 0x180A7BEA0
+	// RVA: 0xA7C160 Offset: 0xA7A760 VA: 0x180A7C160
 	private static void RandomizePitch(Sound sound) { }
 
-	// RVA: 0xA7BC80 Offset: 0xA7A280 VA: 0x180A7BC80
+	// RVA: 0xA7BF40 Offset: 0xA7A540 VA: 0x180A7BF40
 	public static void RandomizeClipIndex(Sound sound) { }
 
-	// RVA: 0xA7BF30 Offset: 0xA7A530 VA: 0x180A7BF30
+	// RVA: 0xA7C1F0 Offset: 0xA7A7F0 VA: 0x180A7C1F0
 	private static void RandomizeStartPosition(Sound sound) { }
 
-	// RVA: 0xA7BB30 Offset: 0xA7A130 VA: 0x180A7BB30
+	// RVA: 0xA7BDF0 Offset: 0xA7A3F0 VA: 0x180A7BDF0
 	private static int GetRandomClipIndex(Sound sound) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xA7C360 Offset: 0xA7A960 VA: 0x180A7C360
+	// RVA: 0xA7C620 Offset: 0xA7AC20 VA: 0x180A7C620
 	private static void .cctor() { }
 
 }

@@ -28,7 +28,7 @@ public struct PhysicsScene2D : IEquatable<PhysicsScene2D> // TypeDefIndex: 4079
 
 	[NativeMethodAttribute] // RVA: 0xEEC30 Offset: 0xEE030 VA: 0x1800EEC30
 	[StaticAccessorAttribute] // RVA: 0xEEC30 Offset: 0xEE030 VA: 0x1800EEC30
-	// RVA: 0x2310F40 Offset: 0x230F540 VA: 0x182310F40
+	// RVA: 0x2311200 Offset: 0x230F800 VA: 0x182311200
 	private static RaycastHit2D Raycast_Internal(PhysicsScene2D physicsScene, Vector2 origin, Vector2 direction, float distance, ContactFilter2D contactFilter) { }
 
 	// RVA: 0x2402F0 Offset: 0x23F6F0 VA: 0x1802402F0
@@ -36,7 +36,7 @@ public struct PhysicsScene2D : IEquatable<PhysicsScene2D> // TypeDefIndex: 4079
 
 	[NativeMethodAttribute] // RVA: 0xEEF30 Offset: 0xEE330 VA: 0x1800EEF30
 	[StaticAccessorAttribute] // RVA: 0xEEF30 Offset: 0xEE330 VA: 0x1800EEF30
-	// RVA: 0x2310D60 Offset: 0x230F360 VA: 0x182310D60
+	// RVA: 0x2311020 Offset: 0x230F620 VA: 0x182311020
 	private static int RaycastArray_Internal(PhysicsScene2D physicsScene, Vector2 origin, Vector2 direction, float distance, ContactFilter2D contactFilter, RaycastHit2D[] results) { }
 
 	// RVA: 0x240250 Offset: 0x23F650 VA: 0x180240250
@@ -44,7 +44,7 @@ public struct PhysicsScene2D : IEquatable<PhysicsScene2D> // TypeDefIndex: 4079
 
 	[StaticAccessorAttribute] // RVA: 0xEF290 Offset: 0xEE690 VA: 0x1800EF290
 	[NativeMethodAttribute] // RVA: 0xEF290 Offset: 0xEE690 VA: 0x1800EF290
-	// RVA: 0x2310E50 Offset: 0x230F450 VA: 0x182310E50
+	// RVA: 0x2311110 Offset: 0x230F710 VA: 0x182311110
 	private static int RaycastList_Internal(PhysicsScene2D physicsScene, Vector2 origin, Vector2 direction, float distance, ContactFilter2D contactFilter, List<RaycastHit2D> results) { }
 
 	// RVA: 0x2401C0 Offset: 0x23F5C0 VA: 0x1802401C0
@@ -52,19 +52,19 @@ public struct PhysicsScene2D : IEquatable<PhysicsScene2D> // TypeDefIndex: 4079
 
 	[NativeMethodAttribute] // RVA: 0xEF8C0 Offset: 0xEECC0 VA: 0x1800EF8C0
 	[StaticAccessorAttribute] // RVA: 0xEF8C0 Offset: 0xEECC0 VA: 0x1800EF8C0
-	// RVA: 0x2310BA0 Offset: 0x230F1A0 VA: 0x182310BA0
+	// RVA: 0x2310E60 Offset: 0x230F460 VA: 0x182310E60
 	private static int GetRayIntersectionArray_Internal(PhysicsScene2D physicsScene, Vector3 origin, Vector3 direction, float distance, int layerMask, RaycastHit2D[] results) { }
 
-	// RVA: 0x2310ED0 Offset: 0x230F4D0 VA: 0x182310ED0
+	// RVA: 0x2311190 Offset: 0x230F790 VA: 0x182311190
 	private static void Raycast_Internal_Injected(ref PhysicsScene2D physicsScene, ref Vector2 origin, ref Vector2 direction, float distance, ref ContactFilter2D contactFilter, out RaycastHit2D ret) { }
 
-	// RVA: 0x2310CF0 Offset: 0x230F2F0 VA: 0x182310CF0
+	// RVA: 0x2310FB0 Offset: 0x230F5B0 VA: 0x182310FB0
 	private static int RaycastArray_Internal_Injected(ref PhysicsScene2D physicsScene, ref Vector2 origin, ref Vector2 direction, float distance, ref ContactFilter2D contactFilter, RaycastHit2D[] results) { }
 
-	// RVA: 0x2310DE0 Offset: 0x230F3E0 VA: 0x182310DE0
+	// RVA: 0x23110A0 Offset: 0x230F6A0 VA: 0x1823110A0
 	private static int RaycastList_Internal_Injected(ref PhysicsScene2D physicsScene, ref Vector2 origin, ref Vector2 direction, float distance, ref ContactFilter2D contactFilter, List<RaycastHit2D> results) { }
 
-	// RVA: 0x2310B30 Offset: 0x230F130 VA: 0x182310B30
+	// RVA: 0x2310DF0 Offset: 0x230F3F0 VA: 0x182310DF0
 	private static int GetRayIntersectionArray_Internal_Injected(ref PhysicsScene2D physicsScene, ref Vector3 origin, ref Vector3 direction, float distance, int layerMask, RaycastHit2D[] results) { }
 
 }

@@ -22,7 +22,7 @@ public class MonumentNavMesh : FacepunchBehaviour, IServerComponent // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x7B5BA0 Offset: 0x7B41A0 VA: 0x1807B5BA0
+	// RVA: 0x7B5CB0 Offset: 0x7B42B0 VA: 0x1807B5CB0
 	public void .ctor() { }
 
 }

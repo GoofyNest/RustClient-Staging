@@ -4,13 +4,13 @@ public class PetCommandList : PrefabAttribute // TypeDefIndex: 9433
 
 	// Methods
 
-	// RVA: 0x86F130 Offset: 0x86D730 VA: 0x18086F130 Slot: 7
+	// RVA: 0x86F240 Offset: 0x86D840 VA: 0x18086F240 Slot: 7
 	protected override Type GetIndexedType() { }
 
 	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
 	public List<PetCommandList.PetCommandDesc> GetCommandDescriptions() { }
 
-	// RVA: 0x86F190 Offset: 0x86D790 VA: 0x18086F190
+	// RVA: 0x86F2A0 Offset: 0x86D8A0 VA: 0x18086F2A0
 	public void .ctor() { }
 
 }

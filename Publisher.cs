@@ -15,45 +15,45 @@ public class Publisher : MonoBehaviour // TypeDefIndex: 7762
 
 	// Methods
 
-	// RVA: 0xE74990 Offset: 0xE72F90 VA: 0x180E74990
+	// RVA: 0xE74C50 Offset: 0xE73250 VA: 0x180E74C50
 	protected WorkshopInterface get_Interface() { }
 
-	// RVA: 0xE74930 Offset: 0xE72F30 VA: 0x180E74930
+	// RVA: 0xE74BF0 Offset: 0xE731F0 VA: 0x180E74BF0
 	protected WorkshopItemEditor get_Editor() { }
 
-	// RVA: 0xE74820 Offset: 0xE72E20 VA: 0x180E74820
+	// RVA: 0xE74AE0 Offset: 0xE730E0 VA: 0x180E74AE0
 	public void StartExport() { }
 
-	// RVA: 0xE74840 Offset: 0xE72E40 VA: 0x180E74840
+	// RVA: 0xE74B00 Offset: 0xE73100 VA: 0x180E74B00
 	public void Update() { }
 
-	// RVA: 0xE74020 Offset: 0xE72620 VA: 0x180E74020
+	// RVA: 0xE742E0 Offset: 0xE728E0 VA: 0x180E742E0
 	public bool CanPublish() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD6E50 Offset: 0xD6250 VA: 0x1800D6E50
-	// RVA: 0xE74250 Offset: 0xE72850 VA: 0x180E74250
+	// RVA: 0xE74510 Offset: 0xE72B10 VA: 0x180E74510
 	private Task DoExport(bool publishToSteam, bool OpenFolder, string forceFolderName) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD6F40 Offset: 0xD6340 VA: 0x1800D6F40
-	// RVA: 0xE745E0 Offset: 0xE72BE0 VA: 0x180E745E0
+	// RVA: 0xE748A0 Offset: 0xE72EA0 VA: 0x180E748A0
 	private Task ExportToFolder(string folder, bool OpenFolder) { }
 
-	// RVA: 0xE740F0 Offset: 0xE726F0 VA: 0x180E740F0
+	// RVA: 0xE743B0 Offset: 0xE729B0 VA: 0x180E743B0
 	private void CreateWorkshopIcon(string folder) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD7240 Offset: 0xD6640 VA: 0x1800D7240
-	// RVA: 0xE74700 Offset: 0xE72D00 VA: 0x180E74700
+	// RVA: 0xE749C0 Offset: 0xE72FC0 VA: 0x180E749C0
 	private Task PublishToSteam(string folder) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD7290 Offset: 0xD6690 VA: 0x1800D7290
-	// RVA: 0xE74470 Offset: 0xE72A70 VA: 0x180E74470
+	// RVA: 0xE74730 Offset: 0xE72D30 VA: 0x180E74730
 	private Task ExportTexture(Dictionary<string, string> data, string folder, int group, string paramname, Material mat, Material defaultMat, bool isNormalMap = False) { }
 
-	// RVA: 0xE74380 Offset: 0xE72980 VA: 0x180E74380
+	// RVA: 0xE74640 Offset: 0xE72C40 VA: 0x180E74640
 	public void Export() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD73B0 Offset: 0xD67B0 VA: 0x1800D73B0
-	// RVA: 0xE74380 Offset: 0xE72980 VA: 0x180E74380
+	// RVA: 0xE74640 Offset: 0xE72C40 VA: 0x180E74640
 	public Task DoExport() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

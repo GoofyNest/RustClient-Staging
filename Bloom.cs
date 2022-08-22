@@ -33,28 +33,28 @@ public class Bloom : PostEffectsBase // TypeDefIndex: 8151
 
 	// Methods
 
-	// RVA: 0x12C5870 Offset: 0x12C3E70 VA: 0x1812C5870 Slot: 4
+	// RVA: 0x12C5B30 Offset: 0x12C4130 VA: 0x1812C5B30 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x12C5970 Offset: 0x12C3F70 VA: 0x1812C5970
+	// RVA: 0x12C5C30 Offset: 0x12C4230 VA: 0x1812C5C30
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x12C52C0 Offset: 0x12C38C0 VA: 0x1812C52C0
+	// RVA: 0x12C5580 Offset: 0x12C3B80 VA: 0x1812C5580
 	private void AddTo(float intensity_, RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x12C5390 Offset: 0x12C3990 VA: 0x1812C5390
+	// RVA: 0x12C5650 Offset: 0x12C3C50 VA: 0x1812C5650
 	private void BlendFlares(RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x12C5770 Offset: 0x12C3D70 VA: 0x1812C5770
+	// RVA: 0x12C5A30 Offset: 0x12C4030 VA: 0x1812C5A30
 	private void BrightFilter(float thresh, RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x12C5680 Offset: 0x12C3C80 VA: 0x1812C5680
+	// RVA: 0x12C5940 Offset: 0x12C3F40 VA: 0x1812C5940
 	private void BrightFilter(Color threshColor, RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x12C6B60 Offset: 0x12C5160 VA: 0x1812C6B60
+	// RVA: 0x12C6E20 Offset: 0x12C5420 VA: 0x1812C6E20
 	private void Vignette(float amount, RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x12C6D70 Offset: 0x12C5370 VA: 0x1812C6D70
+	// RVA: 0x12C7030 Offset: 0x12C5630 VA: 0x1812C7030
 	public void .ctor() { }
 
 }
@@ -136,10 +136,10 @@ public sealed class Bloom : PostProcessEffectSettings // TypeDefIndex: 11767
 
 	// Methods
 
-	// RVA: 0x9F0410 Offset: 0x9EEA10 VA: 0x1809F0410 Slot: 4
+	// RVA: 0x9F06D0 Offset: 0x9EECD0 VA: 0x1809F06D0 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x9F0450 Offset: 0x9EEA50 VA: 0x1809F0450
+	// RVA: 0x9F0710 Offset: 0x9EED10 VA: 0x1809F0710
 	public void .ctor() { }
 
 }

@@ -9,7 +9,7 @@ internal class WebRequestPrefixElement // TypeDefIndex: 2890
 
 	// Methods
 
-	// RVA: 0x118D640 Offset: 0x118BC40 VA: 0x18118D640
+	// RVA: 0x118D900 Offset: 0x118BF00 VA: 0x18118D900
 	public IWebRequestCreate get_Creator() { }
 
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0

@@ -11,53 +11,53 @@ public abstract class HttpContent : IDisposable // TypeDefIndex: 5744
 
 	// Methods
 
-	// RVA: 0x108B3E0 Offset: 0x10899E0 VA: 0x18108B3E0
+	// RVA: 0x108B6A0 Offset: 0x1089CA0 VA: 0x18108B6A0
 	public HttpContentHeaders get_Headers() { }
 
-	// RVA: 0x108B4B0 Offset: 0x1089AB0 VA: 0x18108B4B0
+	// RVA: 0x108B770 Offset: 0x1089D70 VA: 0x18108B770
 	internal Nullable<long> get_LoadedBufferLength() { }
 
-	// RVA: 0x108AB90 Offset: 0x1089190 VA: 0x18108AB90
+	// RVA: 0x108AE50 Offset: 0x1089450 VA: 0x18108AE50
 	internal void CopyTo(Stream stream) { }
 
-	// RVA: 0x108AA30 Offset: 0x1089030 VA: 0x18108AA30
+	// RVA: 0x108ACF0 Offset: 0x10892F0 VA: 0x18108ACF0
 	public Task CopyToAsync(Stream stream) { }
 
-	// RVA: 0x108AAD0 Offset: 0x10890D0 VA: 0x18108AAD0
+	// RVA: 0x108AD90 Offset: 0x1089390 VA: 0x18108AD90
 	public Task CopyToAsync(Stream stream, TransportContext context) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD1BA0 Offset: 0xD0FA0 VA: 0x1800D1BA0
-	// RVA: 0x108AC40 Offset: 0x1089240 VA: 0x18108AC40 Slot: 5
+	// RVA: 0x108AF00 Offset: 0x1089500 VA: 0x18108AF00 Slot: 5
 	protected virtual Task<Stream> CreateContentReadStreamAsync() { }
 
-	// RVA: 0x108AD40 Offset: 0x1089340 VA: 0x18108AD40
+	// RVA: 0x108B000 Offset: 0x1089600 VA: 0x18108B000
 	private static HttpContent.FixedMemoryStream CreateFixedMemoryStream(long maxBufferSize) { }
 
-	// RVA: 0xFE4C10 Offset: 0xFE3210 VA: 0x180FE4C10 Slot: 4
+	// RVA: 0xFE4ED0 Offset: 0xFE34D0 VA: 0x180FE4ED0 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x108ADA0 Offset: 0x10893A0 VA: 0x18108ADA0 Slot: 6
+	// RVA: 0x108B060 Offset: 0x1089660 VA: 0x18108B060 Slot: 6
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x108B040 Offset: 0x1089640 VA: 0x18108B040
+	// RVA: 0x108B300 Offset: 0x1089900 VA: 0x18108B300
 	public Task LoadIntoBufferAsync() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD1DC0 Offset: 0xD11C0 VA: 0x1800D1DC0
-	// RVA: 0x108B050 Offset: 0x1089650 VA: 0x18108B050
+	// RVA: 0x108B310 Offset: 0x1089910 VA: 0x18108B310
 	public Task LoadIntoBufferAsync(long maxBufferSize) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD1F90 Offset: 0xD1390 VA: 0x1800D1F90
-	// RVA: 0x108B160 Offset: 0x1089760 VA: 0x18108B160
+	// RVA: 0x108B420 Offset: 0x1089A20 VA: 0x18108B420
 	public Task<Stream> ReadAsStreamAsync() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD2180 Offset: 0xD1580 VA: 0x1800D2180
-	// RVA: 0x108B260 Offset: 0x1089860 VA: 0x18108B260
+	// RVA: 0x108B520 Offset: 0x1089B20 VA: 0x18108B520
 	public Task<string> ReadAsStringAsync() { }
 
-	// RVA: 0x108ADC0 Offset: 0x10893C0 VA: 0x18108ADC0
+	// RVA: 0x108B080 Offset: 0x1089680 VA: 0x18108B080
 	private static Encoding GetEncodingFromBuffer(byte[] buffer, int length, ref int preambleLength) { }
 
-	// RVA: 0x108B360 Offset: 0x1089960 VA: 0x18108B360
+	// RVA: 0x108B620 Offset: 0x1089C20 VA: 0x18108B620
 	private static int StartsWith(byte[] array, int length, byte[] value) { }
 
 	// RVA: -1 Offset: -1 Slot: 7
@@ -77,16 +77,16 @@ private sealed class HttpContent.FixedMemoryStream : MemoryStream // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x10884C0 Offset: 0x1086AC0 VA: 0x1810884C0
+	// RVA: 0x1088780 Offset: 0x1086D80 VA: 0x181088780
 	public void .ctor(long maxSize) { }
 
-	// RVA: 0x1088360 Offset: 0x1086960 VA: 0x181088360
+	// RVA: 0x1088620 Offset: 0x1086C20 VA: 0x181088620
 	private void CheckOverflow(int count) { }
 
-	// RVA: 0x1088420 Offset: 0x1086A20 VA: 0x181088420 Slot: 30
+	// RVA: 0x10886E0 Offset: 0x1086CE0 VA: 0x1810886E0 Slot: 30
 	public override void WriteByte(byte value) { }
 
-	// RVA: 0x1088460 Offset: 0x1086A60 VA: 0x181088460 Slot: 29
+	// RVA: 0x1088720 Offset: 0x1086D20 VA: 0x181088720 Slot: 29
 	public override void Write(byte[] buffer, int offset, int count) { }
 
 }

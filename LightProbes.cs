@@ -7,10 +7,10 @@ public sealed class LightProbes : Object // TypeDefIndex: 3392
 	// Methods
 
 	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
-	// RVA: 0x18E9F60 Offset: 0x18E8560 VA: 0x1818E9F60
+	// RVA: 0x18EA220 Offset: 0x18E8820 VA: 0x1818EA220
 	public static void GetInterpolatedProbe(Vector3 position, Renderer renderer, out SphericalHarmonicsL2 probe) { }
 
-	// RVA: 0x18E9F00 Offset: 0x18E8500 VA: 0x1818E9F00
+	// RVA: 0x18EA1C0 Offset: 0x18E87C0 VA: 0x1818EA1C0
 	private static void GetInterpolatedProbe_Injected(ref Vector3 position, Renderer renderer, out SphericalHarmonicsL2 probe) { }
 
 }

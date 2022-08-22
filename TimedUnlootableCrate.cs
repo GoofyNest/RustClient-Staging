@@ -5,7 +5,7 @@ public class TimedUnlootableCrate : LootContainer // TypeDefIndex: 9606
 
 	// Methods
 
-	// RVA: 0x88A8E0 Offset: 0x888EE0 VA: 0x18088A8E0
+	// RVA: 0x88A9F0 Offset: 0x888FF0 VA: 0x18088A9F0
 	public void .ctor() { }
 
 }

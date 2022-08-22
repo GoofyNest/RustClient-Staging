@@ -8,13 +8,13 @@ public class RustIcon : TextMeshProUGUI // TypeDefIndex: 7019
 
 	// Methods
 
-	// RVA: 0xFCBBF0 Offset: 0xFCA1F0 VA: 0x180FCBBF0
+	// RVA: 0xFCBEB0 Offset: 0xFCA4B0 VA: 0x180FCBEB0
 	public Icons get_Icon() { }
 
-	// RVA: 0xFCBC00 Offset: 0xFCA200 VA: 0x180FCBC00
+	// RVA: 0xFCBEC0 Offset: 0xFCA4C0 VA: 0x180FCBEC0
 	public void set_Icon(Icons value) { }
 
-	// RVA: 0xFCBBE0 Offset: 0xFCA1E0 VA: 0x180FCBBE0
+	// RVA: 0xFCBEA0 Offset: 0xFCA4A0 VA: 0x180FCBEA0
 	public void .ctor() { }
 
 }

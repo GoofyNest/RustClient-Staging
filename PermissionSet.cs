@@ -13,40 +13,40 @@ public class PermissionSet : ISecurityEncodable, ICollection, IEnumerable, IDese
 
 	// Methods
 
-	// RVA: 0x17B6390 Offset: 0x17B4990 VA: 0x1817B6390
+	// RVA: 0x17B6650 Offset: 0x17B4C50 VA: 0x1817B6650
 	internal void .ctor() { }
 
-	// RVA: 0x17B6310 Offset: 0x17B4910 VA: 0x1817B6310
+	// RVA: 0x17B65D0 Offset: 0x17B4BD0 VA: 0x1817B65D0
 	public void .ctor(PermissionState state) { }
 
-	// RVA: 0x17B6400 Offset: 0x17B4A00 VA: 0x1817B6400
+	// RVA: 0x17B66C0 Offset: 0x17B4CC0 VA: 0x1817B66C0
 	internal void .ctor(IPermission perm) { }
 
-	// RVA: 0x17B5570 Offset: 0x17B3B70 VA: 0x1817B5570 Slot: 10
+	// RVA: 0x17B5830 Offset: 0x17B3E30 VA: 0x1817B5830 Slot: 10
 	public virtual void CopyTo(Array array, int index) { }
 
-	// RVA: 0x17B56D0 Offset: 0x17B3CD0 VA: 0x1817B56D0 Slot: 11
+	// RVA: 0x17B5990 Offset: 0x17B3F90 VA: 0x1817B5990 Slot: 11
 	public void Demand() { }
 
-	// RVA: 0x17B54F0 Offset: 0x17B3AF0 VA: 0x1817B54F0
+	// RVA: 0x17B57B0 Offset: 0x17B3DB0 VA: 0x1817B57B0
 	internal void CasOnlyDemand(int skip) { }
 
-	// RVA: 0x17B5A90 Offset: 0x17B4090 VA: 0x1817B5A90 Slot: 8
+	// RVA: 0x17B5D50 Offset: 0x17B4350 VA: 0x1817B5D50 Slot: 8
 	public IEnumerator GetEnumerator() { }
 
-	// RVA: 0x17B5B10 Offset: 0x17B4110 VA: 0x1817B5B10
+	// RVA: 0x17B5DD0 Offset: 0x17B43D0 VA: 0x1817B5DD0
 	public bool IsEmpty() { }
 
-	// RVA: 0x17B5D80 Offset: 0x17B4380 VA: 0x1817B5D80
+	// RVA: 0x17B6040 Offset: 0x17B4640 VA: 0x1817B6040
 	public bool IsUnrestricted() { }
 
-	// RVA: 0x17B5D90 Offset: 0x17B4390 VA: 0x1817B5D90 Slot: 3
+	// RVA: 0x17B6050 Offset: 0x17B4650 VA: 0x1817B6050 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x17B5DD0 Offset: 0x17B43D0 VA: 0x1817B5DD0 Slot: 12
+	// RVA: 0x17B6090 Offset: 0x17B4690 VA: 0x1817B6090 Slot: 12
 	public virtual SecurityElement ToXml() { }
 
-	// RVA: 0x15216D0 Offset: 0x151FCD0 VA: 0x1815216D0 Slot: 13
+	// RVA: 0x1521990 Offset: 0x151FF90 VA: 0x181521990 Slot: 13
 	public virtual int get_Count() { }
 
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 14
@@ -57,14 +57,14 @@ public class PermissionSet : ISecurityEncodable, ICollection, IEnumerable, IDese
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x17B58D0 Offset: 0x17B3ED0 VA: 0x1817B58D0 Slot: 0
+	// RVA: 0x17B5B90 Offset: 0x17B4190 VA: 0x1817B5B90 Slot: 0
 	public override bool Equals(object obj) { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x17B5AC0 Offset: 0x17B40C0 VA: 0x1817B5AC0 Slot: 2
+	// RVA: 0x17B5D80 Offset: 0x17B4380 VA: 0x1817B5D80 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x17B6190 Offset: 0x17B4790 VA: 0x1817B6190
+	// RVA: 0x17B6450 Offset: 0x17B4A50 VA: 0x1817B6450
 	private static void .cctor() { }
 
 }

@@ -16,7 +16,7 @@ internal struct NumberOfCurrentPlayers_t : ICallbackData // TypeDefIndex: 5392
 	// RVA: 0x1EC120 Offset: 0x1EB520 VA: 0x1801EC120 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1375250 Offset: 0x1373850 VA: 0x181375250
+	// RVA: 0x1375510 Offset: 0x1373B10 VA: 0x181375510
 	private static void .cctor() { }
 
 }

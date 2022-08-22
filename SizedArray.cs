@@ -8,25 +8,25 @@ internal sealed class SizedArray : ICloneable // TypeDefIndex: 1119
 
 	// Methods
 
-	// RVA: 0x1203FA0 Offset: 0x12025A0 VA: 0x181203FA0
+	// RVA: 0x1204260 Offset: 0x1202860 VA: 0x181204260
 	internal void .ctor() { }
 
-	// RVA: 0x1203F20 Offset: 0x1202520 VA: 0x181203F20
+	// RVA: 0x12041E0 Offset: 0x12027E0 VA: 0x1812041E0
 	internal void .ctor(int length) { }
 
-	// RVA: 0x1204020 Offset: 0x1202620 VA: 0x181204020
+	// RVA: 0x12042E0 Offset: 0x12028E0 VA: 0x1812042E0
 	private void .ctor(SizedArray sizedArray) { }
 
-	// RVA: 0x1203C40 Offset: 0x1202240 VA: 0x181203C40 Slot: 4
+	// RVA: 0x1203F00 Offset: 0x1202500 VA: 0x181203F00 Slot: 4
 	public object Clone() { }
 
-	// RVA: 0x1204100 Offset: 0x1202700 VA: 0x181204100
+	// RVA: 0x12043C0 Offset: 0x12029C0 VA: 0x1812043C0
 	internal object get_Item(int index) { }
 
-	// RVA: 0x1204180 Offset: 0x1202780 VA: 0x181204180
+	// RVA: 0x1204440 Offset: 0x1202A40 VA: 0x181204440
 	internal void set_Item(int index, object value) { }
 
-	// RVA: 0x1203D50 Offset: 0x1202350 VA: 0x181203D50
+	// RVA: 0x1204010 Offset: 0x1202610 VA: 0x181204010
 	internal void IncreaseCapacity(int index) { }
 
 }

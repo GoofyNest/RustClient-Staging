@@ -1,6 +1,6 @@
 public abstract class BaseMeshPaintable : MonoBehaviour, IClientComponent // TypeDefIndex: 9202
 {	// Fields
-	private static MaterialPropertyBlock _block; // 0x2B10188
+	private static MaterialPropertyBlock _block; // 0x2B111C8
 
 	// Properties
 	protected static MaterialPropertyBlock Block { get; }
@@ -9,7 +9,7 @@ public abstract class BaseMeshPaintable : MonoBehaviour, IClientComponent // Typ
 
 	// Methods
 
-	// RVA: 0xA46AD0 Offset: 0xA450D0 VA: 0x180A46AD0
+	// RVA: 0xA46D90 Offset: 0xA45390 VA: 0x180A46D90
 	protected static MaterialPropertyBlock get_Block() { }
 
 	// RVA: -1 Offset: -1 Slot: 4
@@ -39,7 +39,7 @@ public abstract class BaseMeshPaintable : MonoBehaviour, IClientComponent // Typ
 	// RVA: -1 Offset: -1 Slot: 12
 	public abstract bool ShouldHit(RaycastHit info);
 
-	// RVA: 0x9572C0 Offset: 0x9558C0 VA: 0x1809572C0
+	// RVA: 0x9573D0 Offset: 0x9559D0 VA: 0x1809573D0
 	protected static Color Blend(bool isPaintBrush, Color color, Color textureColor, Color targetPixel) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

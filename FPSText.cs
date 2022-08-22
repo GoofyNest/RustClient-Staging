@@ -5,10 +5,10 @@ public class FPSText : MonoBehaviour // TypeDefIndex: 10929
 
 	// Methods
 
-	// RVA: 0x8D4E60 Offset: 0x8D3460 VA: 0x1808D4E60
+	// RVA: 0x8D4F70 Offset: 0x8D3570 VA: 0x1808D4F70
 	protected void Update() { }
 
-	// RVA: 0x8D4F90 Offset: 0x8D3590 VA: 0x1808D4F90
+	// RVA: 0x8D50A0 Offset: 0x8D36A0 VA: 0x1808D50A0
 	public void .ctor() { }
 
 }

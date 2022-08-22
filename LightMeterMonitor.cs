@@ -6,13 +6,13 @@ public sealed class LightMeterMonitor : Monitor // TypeDefIndex: 11819
 
 	// Methods
 
-	// RVA: 0x10188B0 Offset: 0x1016EB0 VA: 0x1810188B0 Slot: 4
+	// RVA: 0x1018B70 Offset: 0x1017170 VA: 0x181018B70 Slot: 4
 	internal override bool ShaderResourcesAvailable(PostProcessRenderContext context) { }
 
-	// RVA: 0x10182F0 Offset: 0x10168F0 VA: 0x1810182F0 Slot: 8
+	// RVA: 0x10185B0 Offset: 0x1016BB0 VA: 0x1810185B0 Slot: 8
 	internal override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x1018970 Offset: 0x1016F70 VA: 0x181018970
+	// RVA: 0x1018C30 Offset: 0x1017230 VA: 0x181018C30
 	public void .ctor() { }
 
 }

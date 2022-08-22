@@ -5,10 +5,10 @@ public static class Vis // TypeDefIndex: 10054
 
 	// Methods
 
-	// RVA: 0x7FD760 Offset: 0x7FBD60 VA: 0x1807FD760
+	// RVA: 0x7FD870 Offset: 0x7FBE70 VA: 0x1807FD870
 	private static void Buffer(Vector3 position, float radius, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 
-	// RVA: 0x7FD1C0 Offset: 0x7FB7C0 VA: 0x1807FD1C0
+	// RVA: 0x7FD2D0 Offset: 0x7FB8D0 VA: 0x1807FD2D0
 	public static bool AnyColliders(Vector3 position, float radius, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 1) { }
 
 	// RVA: -1 Offset: -1
@@ -55,7 +55,7 @@ public static class Vis // TypeDefIndex: 10054
 	|-Vis.EntityComponents<object>
 	*/
 
-	// RVA: 0x7FD4C0 Offset: 0x7FBAC0 VA: 0x1807FD4C0
+	// RVA: 0x7FD5D0 Offset: 0x7FBBD0 VA: 0x1807FD5D0
 	private static void Buffer(OBB bounds, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 
 	// RVA: -1 Offset: -1
@@ -90,7 +90,7 @@ public static class Vis // TypeDefIndex: 10054
 	|-Vis.EntityComponents<object>
 	*/
 
-	// RVA: 0x7FD270 Offset: 0x7FB870 VA: 0x1807FD270
+	// RVA: 0x7FD380 Offset: 0x7FB980 VA: 0x1807FD380
 	private static void Buffer(Vector3 startPosition, Vector3 endPosition, float radius, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 
 	// RVA: -1 Offset: -1
@@ -101,7 +101,7 @@ public static class Vis // TypeDefIndex: 10054
 	|-Vis.Entities<object>
 	*/
 
-	// RVA: 0x7FD9B0 Offset: 0x7FBFB0 VA: 0x1807FD9B0
+	// RVA: 0x7FDAC0 Offset: 0x7FC0C0 VA: 0x1807FDAC0
 	private static void .cctor() { }
 
 }

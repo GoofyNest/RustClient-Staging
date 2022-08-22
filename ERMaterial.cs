@@ -32,22 +32,22 @@ public class ERMaterial : ScriptableObject // TypeDefIndex: 7223
 
 	// Methods
 
-	// RVA: 0x9BC760 Offset: 0x9BAD60 VA: 0x1809BC760
+	// RVA: 0x9BCA20 Offset: 0x9BB020 VA: 0x1809BCA20
 	public void Init(ERModularBase scr) { }
 
-	// RVA: 0x9BC680 Offset: 0x9BAC80 VA: 0x1809BC680
+	// RVA: 0x9BC940 Offset: 0x9BAF40 VA: 0x1809BC940
 	public static ERMaterial CreateInstance(ERModularBase scr) { }
 
-	// RVA: 0x9BC800 Offset: 0x9BAE00 VA: 0x1809BC800
+	// RVA: 0x9BCAC0 Offset: 0x9BB0C0 VA: 0x1809BCAC0
 	public static string[] OCQOOCOQQC(ERModularBase scr) { }
 
-	// RVA: 0x9BCF00 Offset: 0x9BB500 VA: 0x1809BCF00
+	// RVA: 0x9BD1C0 Offset: 0x9BB7C0 VA: 0x1809BD1C0
 	public static ERMaterial OQDQOCCODO(ERModularBase scr, ERIConnector prefab, ref int targetRoad, ref int index) { }
 
-	// RVA: 0x9BC930 Offset: 0x9BAF30 VA: 0x1809BC930
+	// RVA: 0x9BCBF0 Offset: 0x9BB1F0 VA: 0x1809BCBF0
 	public static Material OOQCDDQODC(ERModularBase scr, ERIConnector prefab) { }
 
-	// RVA: 0x9BD100 Offset: 0x9BB700 VA: 0x1809BD100
+	// RVA: 0x9BD3C0 Offset: 0x9BB9C0 VA: 0x1809BD3C0
 	public void .ctor() { }
 
 }

@@ -17,7 +17,7 @@ internal struct GSClientDeny_t : ICallbackData // TypeDefIndex: 5491
 	// RVA: 0x1E6D00 Offset: 0x1E6100 VA: 0x1801E6D00 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370930 Offset: 0x136EF30 VA: 0x181370930
+	// RVA: 0x1370BF0 Offset: 0x136F1F0 VA: 0x181370BF0
 	private static void .cctor() { }
 
 }

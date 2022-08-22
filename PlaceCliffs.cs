@@ -20,29 +20,29 @@ public class PlaceCliffs : ProceduralComponent // TypeDefIndex: 10529
 
 	// Methods
 
-	// RVA: 0x90E3B0 Offset: 0x90C9B0 VA: 0x18090E3B0 Slot: 5
+	// RVA: 0x90E4C0 Offset: 0x90CAC0 VA: 0x18090E4C0 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x90E2C0 Offset: 0x90C8C0 VA: 0x18090E2C0
+	// RVA: 0x90E3D0 Offset: 0x90C9D0 VA: 0x18090E3D0
 	private PlaceCliffs.CliffPlacement PlaceMale(Prefab[] prefabs, ref uint seed, Prefab parentPrefab, Vector3 parentPos, Quaternion parentRot, Vector3 parentScale) { }
 
-	// RVA: 0x90E1D0 Offset: 0x90C7D0 VA: 0x18090E1D0
+	// RVA: 0x90E2E0 Offset: 0x90C8E0 VA: 0x18090E2E0
 	private PlaceCliffs.CliffPlacement PlaceFemale(Prefab[] prefabs, ref uint seed, Prefab parentPrefab, Vector3 parentPos, Quaternion parentRot, Vector3 parentScale) { }
 
 	// RVA: -1 Offset: -1
 	private PlaceCliffs.CliffPlacement Place<ParentSocketType, ChildSocketType>(Prefab[] prefabs, ref uint seed, Prefab parentPrefab, Vector3 parentPos, Quaternion parentRot, Vector3 parentScale, int parentAngle = 0, int parentCount = 0, int parentScore = 0) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125D6A0 Offset: 0x125BCA0 VA: 0x18125D6A0
+	|-RVA: 0x125D960 Offset: 0x125BF60 VA: 0x18125D960
 	|-PlaceCliffs.Place<DecorSocketFemale, DecorSocketMale>
 	|-PlaceCliffs.Place<DecorSocketMale, DecorSocketFemale>
 	|-PlaceCliffs.Place<object, object>
 	*/
 
-	// RVA: 0x90F3D0 Offset: 0x90D9D0 VA: 0x18090F3D0
+	// RVA: 0x90F4E0 Offset: 0x90DAE0 VA: 0x18090F4E0
 	public void .ctor() { }
 
-	// RVA: 0x90F0B0 Offset: 0x90D6B0 VA: 0x18090F0B0
+	// RVA: 0x90F1C0 Offset: 0x90D7C0 VA: 0x18090F1C0
 	private static void .cctor() { }
 
 }
@@ -59,7 +59,7 @@ private class PlaceCliffs.CliffPlacement // TypeDefIndex: 10530
 
 	// Methods
 
-	// RVA: 0x905820 Offset: 0x903E20 VA: 0x180905820
+	// RVA: 0x905930 Offset: 0x903F30 VA: 0x180905930
 	public void .ctor() { }
 
 }
@@ -73,19 +73,19 @@ private sealed class PlaceCliffs.<>c // TypeDefIndex: 10531
 
 	// Methods
 
-	// RVA: 0x920C70 Offset: 0x91F270 VA: 0x180920C70
+	// RVA: 0x920D80 Offset: 0x91F380 VA: 0x180920D80
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x9207A0 Offset: 0x91EDA0 VA: 0x1809207A0
+	// RVA: 0x9208B0 Offset: 0x91EEB0 VA: 0x1809208B0
 	internal bool <Process>b__17_0(Prefab prefab) { }
 
-	// RVA: 0x9208D0 Offset: 0x91EED0 VA: 0x1809208D0
+	// RVA: 0x9209E0 Offset: 0x91EFE0 VA: 0x1809209E0
 	internal bool <Process>b__17_1(Prefab prefab) { }
 
-	// RVA: 0x920950 Offset: 0x91EF50 VA: 0x180920950
+	// RVA: 0x920A60 Offset: 0x91F060 VA: 0x180920A60
 	internal bool <Process>b__17_2(Prefab prefab) { }
 
 }

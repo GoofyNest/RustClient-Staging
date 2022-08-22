@@ -17,7 +17,7 @@ internal struct UserStatsReceived_t : ICallbackData // TypeDefIndex: 5386
 	// RVA: 0x1DC740 Offset: 0x1DBB40 VA: 0x1801DC740 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1291D40 Offset: 0x1290340 VA: 0x181291D40
+	// RVA: 0x1292000 Offset: 0x1290600 VA: 0x181292000
 	private static void .cctor() { }
 
 }

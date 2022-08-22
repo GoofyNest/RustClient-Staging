@@ -13,16 +13,16 @@ public class LoadingBar : MonoBehaviour // TypeDefIndex: 7048
 
 	// Methods
 
-	// RVA: 0xFC2AF0 Offset: 0xFC10F0 VA: 0x180FC2AF0
+	// RVA: 0xFC2DB0 Offset: 0xFC13B0 VA: 0x180FC2DB0
 	public void set_Active(bool value) { }
 
-	// RVA: 0xFC2B90 Offset: 0xFC1190 VA: 0x180FC2B90
+	// RVA: 0xFC2E50 Offset: 0xFC1450 VA: 0x180FC2E50
 	public void set_Progress(float value) { }
 
-	// RVA: 0xFC2CC0 Offset: 0xFC12C0 VA: 0x180FC2CC0
+	// RVA: 0xFC2F80 Offset: 0xFC1580 VA: 0x180FC2F80
 	public void set_Text(string value) { }
 
-	// RVA: 0xFC2C20 Offset: 0xFC1220 VA: 0x180FC2C20
+	// RVA: 0xFC2EE0 Offset: 0xFC14E0 VA: 0x180FC2EE0
 	public void set_SubText(string value) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

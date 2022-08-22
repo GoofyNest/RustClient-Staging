@@ -13,16 +13,16 @@ internal class AxisElement // TypeDefIndex: 2132
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	internal DoubleLinkAxis get_CurNode() { }
 
-	// RVA: 0xF43150 Offset: 0xF41750 VA: 0x180F43150
+	// RVA: 0xF43410 Offset: 0xF41A10 VA: 0x180F43410
 	internal void .ctor(DoubleLinkAxis node, int depth) { }
 
-	// RVA: 0xF43140 Offset: 0xF41740 VA: 0x180F43140
+	// RVA: 0xF43400 Offset: 0xF41A00 VA: 0x180F43400
 	internal void SetDepth(int depth) { }
 
-	// RVA: 0xF43020 Offset: 0xF41620 VA: 0x180F43020
+	// RVA: 0xF432E0 Offset: 0xF418E0 VA: 0x180F432E0
 	internal void MoveToParent(int depth, ForwardAxis parent) { }
 
-	// RVA: 0xF42E90 Offset: 0xF41490 VA: 0x180F42E90
+	// RVA: 0xF43150 Offset: 0xF41750 VA: 0x180F43150
 	internal bool MoveToChild(string name, string URN, int depth, ForwardAxis parent) { }
 
 }

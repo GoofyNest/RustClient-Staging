@@ -20,13 +20,13 @@ public abstract class HashAlgorithm : IDisposable, ICryptoTransform // TypeDefIn
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00 Slot: 10
 	public virtual int get_HashSize() { }
 
-	// RVA: 0x17027A0 Offset: 0x1700DA0 VA: 0x1817027A0 Slot: 11
+	// RVA: 0x1702A60 Offset: 0x1701060 VA: 0x181702A60 Slot: 11
 	public virtual byte[] get_Hash() { }
 
-	// RVA: 0x1701EC0 Offset: 0x17004C0 VA: 0x181701EC0
+	// RVA: 0x1702180 Offset: 0x1700780 VA: 0x181702180
 	public byte[] ComputeHash(byte[] buffer) { }
 
-	// RVA: 0x1702010 Offset: 0x1700610 VA: 0x181702010
+	// RVA: 0x17022D0 Offset: 0x17008D0 VA: 0x1817022D0
 	public byte[] ComputeHash(byte[] buffer, int offset, int count) { }
 
 	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 12
@@ -38,19 +38,19 @@ public abstract class HashAlgorithm : IDisposable, ICryptoTransform // TypeDefIn
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 14
 	public virtual bool get_CanTransformMultipleBlocks() { }
 
-	// RVA: 0x1702320 Offset: 0x1700920 VA: 0x181702320 Slot: 8
+	// RVA: 0x17025E0 Offset: 0x1700BE0 VA: 0x1817025E0 Slot: 8
 	public int TransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset) { }
 
-	// RVA: 0x1702530 Offset: 0x1700B30 VA: 0x181702530 Slot: 9
+	// RVA: 0x17027F0 Offset: 0x1700DF0 VA: 0x1817027F0 Slot: 9
 	public byte[] TransformFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
-	// RVA: 0x17022B0 Offset: 0x17008B0 VA: 0x1817022B0 Slot: 4
+	// RVA: 0x1702570 Offset: 0x1700B70 VA: 0x181702570 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x1701E80 Offset: 0x1700480 VA: 0x181701E80
+	// RVA: 0x1702140 Offset: 0x1700740 VA: 0x181702140
 	public void Clear() { }
 
-	// RVA: 0x1702260 Offset: 0x1700860 VA: 0x181702260 Slot: 15
+	// RVA: 0x1702520 Offset: 0x1700B20 VA: 0x181702520 Slot: 15
 	protected virtual void Dispose(bool disposing) { }
 
 	// RVA: -1 Offset: -1 Slot: 16

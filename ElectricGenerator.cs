@@ -7,16 +7,16 @@ public class ElectricGenerator : IOEntity // TypeDefIndex: 9799
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 145
 	public override bool IsRootEntity() { }
 
-	// RVA: 0xABFFE0 Offset: 0xABE5E0 VA: 0x180ABFFE0 Slot: 151
+	// RVA: 0xAC02A0 Offset: 0xABE8A0 VA: 0x180AC02A0 Slot: 151
 	public override int MaximalPowerOutput() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0x6B8B70 Offset: 0x6B7170 VA: 0x1806B8B70 Slot: 34
+	// RVA: 0x6B8C80 Offset: 0x6B7280 VA: 0x1806B8C80 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xAC0050 Offset: 0xABE650 VA: 0x180AC0050
+	// RVA: 0xAC0310 Offset: 0xABE910 VA: 0x180AC0310
 	public void .ctor() { }
 
 }

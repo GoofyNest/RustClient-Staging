@@ -1,10 +1,10 @@
 internal static class TimeoutHelper // TypeDefIndex: 766
 {	// Methods
 
-	// RVA: 0x161A5E0 Offset: 0x1618BE0 VA: 0x18161A5E0
+	// RVA: 0x161A8A0 Offset: 0x1618EA0 VA: 0x18161A8A0
 	public static uint GetTime() { }
 
-	// RVA: 0x161A5F0 Offset: 0x1618BF0 VA: 0x18161A5F0
+	// RVA: 0x161A8B0 Offset: 0x1618EB0 VA: 0x18161A8B0
 	public static int UpdateTimeOut(uint startTime, int originalWaitMillisecondsTimeout) { }
 
 }

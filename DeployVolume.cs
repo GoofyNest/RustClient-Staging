@@ -9,7 +9,7 @@ public abstract class DeployVolume : PrefabAttribute // TypeDefIndex: 9844
 
 	// Methods
 
-	// RVA: 0x9763C0 Offset: 0x9749C0 VA: 0x1809763C0 Slot: 7
+	// RVA: 0x9764D0 Offset: 0x974AD0 VA: 0x1809764D0 Slot: 7
 	protected override Type GetIndexedType() { }
 
 	// RVA: -1 Offset: -1 Slot: 8
@@ -18,28 +18,28 @@ public abstract class DeployVolume : PrefabAttribute // TypeDefIndex: 9844
 	// RVA: -1 Offset: -1 Slot: 9
 	protected abstract bool Check(Vector3 position, Quaternion rotation, OBB test, int mask = -1);
 
-	// RVA: 0x9762F0 Offset: 0x9748F0 VA: 0x1809762F0
+	// RVA: 0x976400 Offset: 0x974A00 VA: 0x180976400
 	public static bool Check(Vector3 position, Quaternion rotation, DeployVolume[] volumes, int mask = -1) { }
 
-	// RVA: 0x9761C0 Offset: 0x9747C0 VA: 0x1809761C0
+	// RVA: 0x9762D0 Offset: 0x9748D0 VA: 0x1809762D0
 	public static bool Check(Vector3 position, Quaternion rotation, DeployVolume[] volumes, OBB test, int mask = -1) { }
 
-	// RVA: 0x9760B0 Offset: 0x9746B0 VA: 0x1809760B0
+	// RVA: 0x9761C0 Offset: 0x9747C0 VA: 0x1809761C0
 	public static bool CheckSphere(Vector3 pos, float radius, int layerMask, DeployVolume volume) { }
 
-	// RVA: 0x975C40 Offset: 0x974240 VA: 0x180975C40
+	// RVA: 0x975D50 Offset: 0x974350 VA: 0x180975D50
 	public static bool CheckCapsule(Vector3 start, Vector3 end, float radius, int layerMask, DeployVolume volume) { }
 
-	// RVA: 0x975F90 Offset: 0x974590 VA: 0x180975F90
+	// RVA: 0x9760A0 Offset: 0x9746A0 VA: 0x1809760A0
 	public static bool CheckOBB(OBB obb, int layerMask, DeployVolume volume) { }
 
-	// RVA: 0x975B40 Offset: 0x974140 VA: 0x180975B40
+	// RVA: 0x975C50 Offset: 0x974250 VA: 0x180975C50
 	public static bool CheckBounds(Bounds bounds, int layerMask, DeployVolume volume) { }
 
-	// RVA: 0x975D70 Offset: 0x974370 VA: 0x180975D70
+	// RVA: 0x975E80 Offset: 0x974480 VA: 0x180975E80
 	private static bool CheckFlags(List<Collider> list, DeployVolume volume) { }
 
-	// RVA: 0x976420 Offset: 0x974A20 VA: 0x180976420
+	// RVA: 0x976530 Offset: 0x974B30 VA: 0x180976530
 	protected void .ctor() { }
 
 }

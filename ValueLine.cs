@@ -8,7 +8,7 @@ private sealed class ValueLine.<>c__DisplayClass16_0<TValue> // TypeDefIndex: 75
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-ValueLine.<>c__DisplayClass16_0<object>..ctor
 	*/
 
@@ -16,7 +16,7 @@ private sealed class ValueLine.<>c__DisplayClass16_0<TValue> // TypeDefIndex: 75
 	internal bool <Reverse>b__0(ValueChange<TValue> c) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17FC930 Offset: 0x17FAF30 VA: 0x1817FC930
+	|-RVA: 0x17FCBF0 Offset: 0x17FB1F0 VA: 0x1817FCBF0
 	|-ValueLine.<>c__DisplayClass16_0<object>.<Reverse>b__0
 	*/
 
@@ -24,7 +24,7 @@ private sealed class ValueLine.<>c__DisplayClass16_0<TValue> // TypeDefIndex: 75
 	internal long <Reverse>b__2(ValueChange<TValue> c) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17FC970 Offset: 0x17FAF70 VA: 0x1817FC970
+	|-RVA: 0x17FCC30 Offset: 0x17FB230 VA: 0x1817FCC30
 	|-ValueLine.<>c__DisplayClass16_0<object>.<Reverse>b__2
 	*/
 
@@ -42,7 +42,7 @@ private sealed class ValueLine.<>c<TValue> // TypeDefIndex: 7507
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD65280 Offset: 0xD63880 VA: 0x180D65280
+	|-RVA: 0xD65540 Offset: 0xD63B40 VA: 0x180D65540
 	|-ValueLine.<>c<object>..cctor
 	*/
 
@@ -50,7 +50,7 @@ private sealed class ValueLine.<>c<TValue> // TypeDefIndex: 7507
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5AD60 Offset: 0xD59360 VA: 0x180D5AD60
+	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
 	|-ValueLine.<>c<object>..ctor
 	*/
 
@@ -58,7 +58,7 @@ private sealed class ValueLine.<>c<TValue> // TypeDefIndex: 7507
 	internal TValue <Reverse>b__16_1(ValueChange<TValue> c) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E8EB0 Offset: 0x15E74B0 VA: 0x1815E8EB0
+	|-RVA: 0x15E9170 Offset: 0x15E7770 VA: 0x1815E9170
 	|-ValueLine.<>c<object>.<Reverse>b__16_1
 	*/
 
@@ -66,7 +66,7 @@ private sealed class ValueLine.<>c<TValue> // TypeDefIndex: 7507
 	internal ValueChange<TValue> <Reverse>b__16_3(TValue v, long t) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17FC850 Offset: 0x17FAE50 VA: 0x1817FC850
+	|-RVA: 0x17FCB10 Offset: 0x17FB110 VA: 0x1817FCB10
 	|-ValueLine.<>c<object>.<Reverse>b__16_3
 	*/
 

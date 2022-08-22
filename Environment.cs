@@ -26,133 +26,133 @@ public static class Environment // TypeDefIndex: 340
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
 	internal static string GetResourceString(string key) { }
 
-	// RVA: 0x10DAB30 Offset: 0x10D9130 VA: 0x1810DAB30
+	// RVA: 0x10DADF0 Offset: 0x10D93F0 VA: 0x1810DADF0
 	internal static string GetResourceString(string key, object[] values) { }
 
-	// RVA: 0x10DAA30 Offset: 0x10D9030 VA: 0x1810DAA30
+	// RVA: 0x10DACF0 Offset: 0x10D92F0 VA: 0x1810DACF0
 	internal static string GetResourceStringEncodingName(int codePage) { }
 
-	// RVA: 0x10DB5C0 Offset: 0x10D9BC0 VA: 0x1810DB5C0
+	// RVA: 0x10DB880 Offset: 0x10D9E80 VA: 0x1810DB880
 	public static string get_CurrentDirectory() { }
 
-	// RVA: 0x10DB5D0 Offset: 0x10D9BD0 VA: 0x1810DB5D0
+	// RVA: 0x10DB890 Offset: 0x10D9E90 VA: 0x1810DB890
 	public static int get_CurrentManagedThreadId() { }
 
-	// RVA: 0x10DB600 Offset: 0x10D9C00 VA: 0x1810DB600
+	// RVA: 0x10DB8C0 Offset: 0x10D9EC0 VA: 0x1810DB8C0
 	public static bool get_HasShutdownStarted() { }
 
-	// RVA: 0x10DB680 Offset: 0x10D9C80 VA: 0x1810DB680
+	// RVA: 0x10DB940 Offset: 0x10D9F40 VA: 0x1810DB940
 	public static string get_MachineName() { }
 
-	// RVA: 0x10DAA00 Offset: 0x10D9000 VA: 0x1810DAA00
+	// RVA: 0x10DACC0 Offset: 0x10D92C0 VA: 0x1810DACC0
 	private static string GetNewLine() { }
 
-	// RVA: 0x10DB690 Offset: 0x10D9C90 VA: 0x1810DB690
+	// RVA: 0x10DB950 Offset: 0x10D9F50 VA: 0x1810DB950
 	public static string get_NewLine() { }
 
-	// RVA: 0x10DB980 Offset: 0x10D9F80 VA: 0x1810DB980
+	// RVA: 0x10DBC40 Offset: 0x10DA240 VA: 0x1810DBC40
 	private static PlatformID get_Platform() { }
 
-	// RVA: 0x10DAA10 Offset: 0x10D9010 VA: 0x1810DAA10
+	// RVA: 0x10DACD0 Offset: 0x10D92D0 VA: 0x1810DACD0
 	internal static string GetOSVersionString() { }
 
-	// RVA: 0x10DB700 Offset: 0x10D9D00 VA: 0x1810DB700
+	// RVA: 0x10DB9C0 Offset: 0x10D9FC0 VA: 0x1810DB9C0
 	public static OperatingSystem get_OSVersion() { }
 
-	// RVA: 0x10DA210 Offset: 0x10D8810 VA: 0x1810DA210
+	// RVA: 0x10DA4D0 Offset: 0x10D8AD0 VA: 0x1810DA4D0
 	internal static Version CreateVersionFromString(string info) { }
 
-	// RVA: 0x10DB9A0 Offset: 0x10D9FA0 VA: 0x1810DB9A0
+	// RVA: 0x10DBC60 Offset: 0x10DA260 VA: 0x1810DBC60
 	public static string get_StackTrace() { }
 
-	// RVA: 0x10DBA10 Offset: 0x10DA010 VA: 0x1810DBA10
+	// RVA: 0x10DBCD0 Offset: 0x10DA2D0 VA: 0x1810DBCD0
 	public static int get_TickCount() { }
 
-	// RVA: 0x10DB680 Offset: 0x10D9C80 VA: 0x1810DB680
+	// RVA: 0x10DB940 Offset: 0x10D9F40 VA: 0x1810DB940
 	public static string get_UserDomainName() { }
 
-	// RVA: 0x10DBA20 Offset: 0x10DA020 VA: 0x1810DBA20
+	// RVA: 0x10DBCE0 Offset: 0x10DA2E0 VA: 0x1810DBCE0
 	public static string get_UserName() { }
 
-	// RVA: 0x10DA3C0 Offset: 0x10D89C0 VA: 0x1810DA3C0
+	// RVA: 0x10DA680 Offset: 0x10D8C80 VA: 0x1810DA680
 	public static void Exit(int exitCode) { }
 
-	// RVA: 0x10DA3D0 Offset: 0x10D89D0 VA: 0x1810DA3D0
+	// RVA: 0x10DA690 Offset: 0x10D8C90 VA: 0x1810DA690
 	public static string ExpandEnvironmentVariables(string name) { }
 
-	// RVA: 0x10DA830 Offset: 0x10D8E30 VA: 0x1810DA830
+	// RVA: 0x10DAAF0 Offset: 0x10D90F0 VA: 0x1810DAAF0
 	public static string[] GetCommandLineArgs() { }
 
-	// RVA: 0x10DBB00 Offset: 0x10DA100 VA: 0x1810DBB00
+	// RVA: 0x10DBDC0 Offset: 0x10DA3C0 VA: 0x1810DBDC0
 	internal static string internalGetEnvironmentVariable_native(IntPtr variable) { }
 
-	// RVA: 0x10DBA30 Offset: 0x10DA030 VA: 0x1810DBA30
+	// RVA: 0x10DBCF0 Offset: 0x10DA2F0 VA: 0x1810DBCF0
 	internal static string internalGetEnvironmentVariable(string variable) { }
 
-	// RVA: 0x10DA850 Offset: 0x10D8E50 VA: 0x1810DA850
+	// RVA: 0x10DAB10 Offset: 0x10D9110 VA: 0x1810DAB10
 	public static string GetEnvironmentVariable(string variable) { }
 
-	// RVA: 0x10DA860 Offset: 0x10D8E60 VA: 0x1810DA860
+	// RVA: 0x10DAB20 Offset: 0x10D9120 VA: 0x1810DAB20
 	private static Hashtable GetEnvironmentVariablesNoCase() { }
 
-	// RVA: 0x10DA950 Offset: 0x10D8F50 VA: 0x1810DA950
+	// RVA: 0x10DAC10 Offset: 0x10D9210 VA: 0x1810DAC10
 	public static string GetFolderPath(Environment.SpecialFolder folder) { }
 
-	// RVA: 0x10DAC30 Offset: 0x10D9230 VA: 0x1810DAC30
+	// RVA: 0x10DAEF0 Offset: 0x10D94F0 VA: 0x1810DAEF0
 	private static string GetWindowsFolderPath(int folder) { }
 
-	// RVA: 0x10DA990 Offset: 0x10D8F90 VA: 0x1810DA990
+	// RVA: 0x10DAC50 Offset: 0x10D9250 VA: 0x1810DAC50
 	public static string GetFolderPath(Environment.SpecialFolder folder, Environment.SpecialFolderOption option) { }
 
-	// RVA: 0x10DAC50 Offset: 0x10D9250 VA: 0x1810DAC50
+	// RVA: 0x10DAF10 Offset: 0x10D9510 VA: 0x1810DAF10
 	private static string ReadXdgUserDir(string config_dir, string home_dir, string key, string fallback) { }
 
-	// RVA: 0x10DB140 Offset: 0x10D9740 VA: 0x1810DB140
+	// RVA: 0x10DB400 Offset: 0x10D9A00 VA: 0x1810DB400
 	internal static string UnixGetFolderPath(Environment.SpecialFolder folder, Environment.SpecialFolderOption option) { }
 
-	// RVA: 0x10DA9E0 Offset: 0x10D8FE0 VA: 0x1810DA9E0
+	// RVA: 0x10DACA0 Offset: 0x10D92A0 VA: 0x1810DACA0
 	public static string[] GetLogicalDrives() { }
 
-	// RVA: 0x10DAFD0 Offset: 0x10D95D0 VA: 0x1810DAFD0
+	// RVA: 0x10DB290 Offset: 0x10D9890 VA: 0x1810DB290
 	public static void SetEnvironmentVariable(string variable, string value) { }
 
-	// RVA: 0x10DAC40 Offset: 0x10D9240 VA: 0x1810DAC40
+	// RVA: 0x10DAF00 Offset: 0x10D9500 VA: 0x1810DAF00
 	internal static void InternalSetEnvironmentVariable(string variable, string value) { }
 
-	// RVA: 0x10DA780 Offset: 0x10D8D80 VA: 0x1810DA780
+	// RVA: 0x10DAA40 Offset: 0x10D9040 VA: 0x1810DAA40
 	public static void FailFast(string message) { }
 
-	// RVA: 0x10DA7D0 Offset: 0x10D8DD0 VA: 0x1810DA7D0
+	// RVA: 0x10DAA90 Offset: 0x10D9090 VA: 0x1810DAA90
 	public static void FailFast(string message, Exception exception) { }
 
-	// RVA: 0x10DB610 Offset: 0x10D9C10 VA: 0x1810DB610
+	// RVA: 0x10DB8D0 Offset: 0x10D9ED0 VA: 0x1810DB8D0
 	public static bool get_Is64BitProcess() { }
 
-	// RVA: 0x10DB990 Offset: 0x10D9F90 VA: 0x1810DB990
+	// RVA: 0x10DBC50 Offset: 0x10DA250 VA: 0x1810DBC50
 	public static int get_ProcessorCount() { }
 
-	// RVA: 0x10DB630 Offset: 0x10D9C30 VA: 0x1810DB630
+	// RVA: 0x10DB8F0 Offset: 0x10D9EF0 VA: 0x1810DB8F0
 	internal static bool get_IsRunningOnWindows() { }
 
-	// RVA: 0x10DA9E0 Offset: 0x10D8FE0 VA: 0x1810DA9E0
+	// RVA: 0x10DACA0 Offset: 0x10D92A0 VA: 0x1810DACA0
 	private static string[] GetLogicalDrivesInternal() { }
 
-	// RVA: 0x10DA840 Offset: 0x10D8E40 VA: 0x1810DA840
+	// RVA: 0x10DAB00 Offset: 0x10D9100 VA: 0x1810DAB00
 	private static string[] GetEnvironmentVariableNames() { }
 
-	// RVA: 0x10DA9F0 Offset: 0x10D8FF0 VA: 0x1810DA9F0
+	// RVA: 0x10DACB0 Offset: 0x10D92B0 VA: 0x1810DACB0
 	internal static string GetMachineConfigPath() { }
 
-	// RVA: 0x10DBB10 Offset: 0x10DA110 VA: 0x1810DBB10
+	// RVA: 0x10DBDD0 Offset: 0x10DA3D0 VA: 0x1810DBDD0
 	internal static string internalGetHome() { }
 
-	// RVA: 0x10DAA20 Offset: 0x10D9020 VA: 0x1810DAA20
+	// RVA: 0x10DACE0 Offset: 0x10D92E0 VA: 0x1810DACE0
 	internal static int GetPageSize() { }
 
-	// RVA: 0x10DB650 Offset: 0x10D9C50 VA: 0x1810DB650
+	// RVA: 0x10DB910 Offset: 0x10D9F10 VA: 0x1810DB910
 	internal static bool get_IsUnix() { }
 
-	// RVA: 0x10DABA0 Offset: 0x10D91A0 VA: 0x1810DABA0
+	// RVA: 0x10DAE60 Offset: 0x10D9460 VA: 0x1810DAE60
 	internal static string GetStackTrace(Exception e, bool needFileInfo) { }
 
 }
@@ -232,82 +232,82 @@ public class Environment : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 62
 
 	// Methods
 
-	// RVA: 0x1D57BD0 Offset: 0x1D561D0 VA: 0x181D57BD0
+	// RVA: 0x1D57E90 Offset: 0x1D56490 VA: 0x181D57E90
 	public static void ResetToPool(Environment instance) { }
 
-	// RVA: 0x1D57B10 Offset: 0x1D56110 VA: 0x181D57B10
+	// RVA: 0x1D57DD0 Offset: 0x1D563D0 VA: 0x181D57DD0
 	public void ResetToPool() { }
 
-	// RVA: 0x1D57710 Offset: 0x1D55D10 VA: 0x181D57710 Slot: 9
+	// RVA: 0x1D579D0 Offset: 0x1D55FD0 VA: 0x181D579D0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D561D0 Offset: 0x1D547D0 VA: 0x181D561D0
+	// RVA: 0x1D56490 Offset: 0x1D54A90 VA: 0x181D56490
 	public void CopyTo(Environment instance) { }
 
-	// RVA: 0x1D56210 Offset: 0x1D54810 VA: 0x181D56210
+	// RVA: 0x1D564D0 Offset: 0x1D54AD0 VA: 0x181D564D0
 	public Environment Copy() { }
 
-	// RVA: 0x1D56A70 Offset: 0x1D55070 VA: 0x181D56A70
+	// RVA: 0x1D56D30 Offset: 0x1D55330 VA: 0x181D56D30
 	public static Environment Deserialize(Stream stream) { }
 
-	// RVA: 0x1D562A0 Offset: 0x1D548A0 VA: 0x181D562A0
+	// RVA: 0x1D56560 Offset: 0x1D54B60 VA: 0x181D56560
 	public static Environment DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1D569E0 Offset: 0x1D54FE0 VA: 0x181D569E0
+	// RVA: 0x1D56CA0 Offset: 0x1D552A0 VA: 0x181D56CA0
 	public static Environment DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1D57370 Offset: 0x1D55970 VA: 0x181D57370
+	// RVA: 0x1D57630 Offset: 0x1D55C30 VA: 0x181D57630
 	public static Environment Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1D57850 Offset: 0x1D55E50 VA: 0x181D57850
+	// RVA: 0x1D57B10 Offset: 0x1D56110 VA: 0x181D57B10
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1D582C0 Offset: 0x1D568C0 VA: 0x181D582C0 Slot: 12
+	// RVA: 0x1D58580 Offset: 0x1D56B80 VA: 0x181D58580 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1D582E0 Offset: 0x1D568E0 VA: 0x181D582E0 Slot: 13
+	// RVA: 0x1D585A0 Offset: 0x1D56BA0 VA: 0x181D585A0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Environment previous) { }
 
-	// RVA: 0x1D57AF0 Offset: 0x1D560F0 VA: 0x181D57AF0 Slot: 14
+	// RVA: 0x1D57DB0 Offset: 0x1D563B0 VA: 0x181D57DB0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1D56FF0 Offset: 0x1D555F0 VA: 0x181D56FF0
+	// RVA: 0x1D572B0 Offset: 0x1D558B0 VA: 0x181D572B0
 	public static Environment Deserialize(byte[] buffer, Environment instance, bool isDelta = False) { }
 
-	// RVA: 0x1D56D50 Offset: 0x1D55350 VA: 0x181D56D50
+	// RVA: 0x1D57010 Offset: 0x1D55610 VA: 0x181D57010
 	public static Environment Deserialize(Stream stream, Environment instance, bool isDelta) { }
 
-	// RVA: 0x1D56320 Offset: 0x1D54920 VA: 0x181D56320
+	// RVA: 0x1D565E0 Offset: 0x1D54BE0 VA: 0x181D565E0
 	public static Environment DeserializeLengthDelimited(Stream stream, Environment instance, bool isDelta) { }
 
-	// RVA: 0x1D56690 Offset: 0x1D54C90 VA: 0x181D56690
+	// RVA: 0x1D56950 Offset: 0x1D54F50 VA: 0x181D56950
 	public static Environment DeserializeLength(Stream stream, int length, Environment instance, bool isDelta) { }
 
-	// RVA: 0x1D57C90 Offset: 0x1D56290 VA: 0x181D57C90
+	// RVA: 0x1D57F50 Offset: 0x1D56550 VA: 0x181D57F50
 	public static void SerializeDelta(Stream stream, Environment instance, Environment previous) { }
 
-	// RVA: 0x1D58110 Offset: 0x1D56710 VA: 0x181D58110
+	// RVA: 0x1D583D0 Offset: 0x1D569D0 VA: 0x181D583D0
 	public static void Serialize(Stream stream, Environment instance) { }
 
-	// RVA: 0x1D582B0 Offset: 0x1D568B0 VA: 0x181D582B0
+	// RVA: 0x1D58570 Offset: 0x1D56B70 VA: 0x181D58570
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1D582C0 Offset: 0x1D568C0 VA: 0x181D582C0
+	// RVA: 0x1D58580 Offset: 0x1D56B80 VA: 0x181D58580
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1D58000 Offset: 0x1D56600 VA: 0x181D58000
+	// RVA: 0x1D582C0 Offset: 0x1D568C0 VA: 0x181D582C0
 	public static byte[] SerializeToBytes(Environment instance) { }
 
-	// RVA: 0x1D57F50 Offset: 0x1D56550 VA: 0x181D57F50
+	// RVA: 0x1D58210 Offset: 0x1D56810 VA: 0x181D58210
 	public static void SerializeLengthDelimited(Stream stream, Environment instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

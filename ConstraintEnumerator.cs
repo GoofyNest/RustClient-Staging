@@ -12,10 +12,10 @@ internal class ConstraintEnumerator // TypeDefIndex: 4177
 
 	// Methods
 
-	// RVA: 0x12291E0 Offset: 0x12277E0 VA: 0x1812291E0
+	// RVA: 0x12294A0 Offset: 0x1227AA0 VA: 0x1812294A0
 	public void .ctor(DataSet dataSet) { }
 
-	// RVA: 0x1228F50 Offset: 0x1227550 VA: 0x181228F50
+	// RVA: 0x1229210 Offset: 0x1227810 VA: 0x181229210
 	public bool GetNext() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70

@@ -1,6 +1,6 @@
 internal struct AvailableBeaconLocationsUpdated_t : ICallbackData // TypeDefIndex: 5359
 {	// Fields
-	public static int _datasize; // 0x2B103B4
+	public static int _datasize; // 0x2B113F4
 
 	// Properties
 	public int DataSize { get; }
@@ -14,7 +14,7 @@ internal struct AvailableBeaconLocationsUpdated_t : ICallbackData // TypeDefInde
 	// RVA: 0x1E44C0 Offset: 0x1E38C0 VA: 0x1801E44C0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x136AF90 Offset: 0x1369590 VA: 0x18136AF90
+	// RVA: 0x136B250 Offset: 0x1369850 VA: 0x18136B250
 	private static void .cctor() { }
 
 }

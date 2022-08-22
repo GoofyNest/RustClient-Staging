@@ -7,28 +7,28 @@ internal class TypeTranslator // TypeDefIndex: 2064
 
 	// Methods
 
-	// RVA: 0x1108DB0 Offset: 0x11073B0 VA: 0x181108DB0
+	// RVA: 0x1109070 Offset: 0x1107670 VA: 0x181109070
 	private static void .cctor() { }
 
-	// RVA: 0x1108040 Offset: 0x1106640 VA: 0x181108040
+	// RVA: 0x1108300 Offset: 0x1106900 VA: 0x181108300
 	public static TypeData GetTypeData(Type type) { }
 
-	// RVA: 0x11080A0 Offset: 0x11066A0 VA: 0x1811080A0
+	// RVA: 0x1108360 Offset: 0x1106960 VA: 0x181108360
 	public static TypeData GetTypeData(Type runtimeType, string xmlDataType, bool underlyingEnumType = False) { }
 
-	// RVA: 0x1107FE0 Offset: 0x11065E0 VA: 0x181107FE0
+	// RVA: 0x11082A0 Offset: 0x11068A0 VA: 0x1811082A0
 	public static TypeData GetPrimitiveTypeData(string typeName) { }
 
-	// RVA: 0x1107D90 Offset: 0x1106390 VA: 0x181107D90
+	// RVA: 0x1108050 Offset: 0x1106650 VA: 0x181108050
 	public static TypeData GetPrimitiveTypeData(string typeName, bool nullable) { }
 
-	// RVA: 0x1107BD0 Offset: 0x11061D0 VA: 0x181107BD0
+	// RVA: 0x1107E90 Offset: 0x1106490 VA: 0x181107E90
 	public static TypeData FindPrimitiveTypeData(string typeName) { }
 
-	// RVA: 0x1107CA0 Offset: 0x11062A0 VA: 0x181107CA0
+	// RVA: 0x1107F60 Offset: 0x1106560 VA: 0x181107F60
 	public static string GetArrayName(string elemName) { }
 
-	// RVA: 0x1108C60 Offset: 0x1107260 VA: 0x181108C60
+	// RVA: 0x1108F20 Offset: 0x1107520 VA: 0x181108F20
 	public static void ParseArrayType(string arrayType, out string type, out string ns, out string dimensions) { }
 
 }

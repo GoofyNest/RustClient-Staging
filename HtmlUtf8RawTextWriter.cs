@@ -12,7 +12,7 @@ internal class HtmlUtf8RawTextWriter : XmlUtf8RawTextWriter // TypeDefIndex: 184
 
 	// Methods
 
-	// RVA: 0x12F4360 Offset: 0x12F2960 VA: 0x1812F4360
+	// RVA: 0x12F4620 Offset: 0x12F2C20 VA: 0x1812F4620
 	public void .ctor(Stream stream, XmlWriterSettings settings) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 36
@@ -21,64 +21,64 @@ internal class HtmlUtf8RawTextWriter : XmlUtf8RawTextWriter // TypeDefIndex: 184
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 37
 	internal override void WriteXmlDeclaration(string xmldecl) { }
 
-	// RVA: 0x12F3110 Offset: 0x12F1710 VA: 0x1812F3110 Slot: 8
+	// RVA: 0x12F33D0 Offset: 0x12F19D0 VA: 0x1812F33D0 Slot: 8
 	public override void WriteDocType(string name, string pubid, string sysid, string subset) { }
 
-	// RVA: 0x12F3DA0 Offset: 0x12F23A0 VA: 0x1812F3DA0 Slot: 9
+	// RVA: 0x12F4060 Offset: 0x12F2660 VA: 0x1812F4060 Slot: 9
 	public override void WriteStartElement(string prefix, string localName, string ns) { }
 
-	// RVA: 0x12F2F10 Offset: 0x12F1510 VA: 0x1812F2F10 Slot: 38
+	// RVA: 0x12F31D0 Offset: 0x12F17D0 VA: 0x1812F31D0 Slot: 38
 	internal override void StartElementContent() { }
 
-	// RVA: 0x12F33E0 Offset: 0x12F19E0 VA: 0x1812F33E0 Slot: 40
+	// RVA: 0x12F36A0 Offset: 0x12F1CA0 VA: 0x1812F36A0 Slot: 40
 	internal override void WriteEndElement(string prefix, string localName, string ns) { }
 
-	// RVA: 0x12F35A0 Offset: 0x12F1BA0 VA: 0x1812F35A0 Slot: 41
+	// RVA: 0x12F3860 Offset: 0x12F1E60 VA: 0x1812F3860 Slot: 41
 	internal override void WriteFullEndElement(string prefix, string localName, string ns) { }
 
-	// RVA: 0x12F3C10 Offset: 0x12F2210 VA: 0x1812F3C10 Slot: 12
+	// RVA: 0x12F3ED0 Offset: 0x12F24D0 VA: 0x1812F3ED0 Slot: 12
 	public override void WriteStartAttribute(string prefix, string localName, string ns) { }
 
-	// RVA: 0x12F3360 Offset: 0x12F1960 VA: 0x1812F3360 Slot: 13
+	// RVA: 0x12F3620 Offset: 0x12F1C20 VA: 0x1812F3620 Slot: 13
 	public override void WriteEndAttribute() { }
 
-	// RVA: 0x12F3AE0 Offset: 0x12F20E0 VA: 0x1812F3AE0 Slot: 16
+	// RVA: 0x12F3DA0 Offset: 0x12F23A0 VA: 0x1812F3DA0 Slot: 16
 	public override void WriteProcessingInstruction(string target, string text) { }
 
-	// RVA: 0x12F3EC0 Offset: 0x12F24C0 VA: 0x1812F3EC0 Slot: 20
+	// RVA: 0x12F4180 Offset: 0x12F2780 VA: 0x1812F4180 Slot: 20
 	public override void WriteString(string text) { }
 
-	// RVA: 0x12F3530 Offset: 0x12F1B30 VA: 0x1812F3530 Slot: 17
+	// RVA: 0x12F37F0 Offset: 0x12F1DF0 VA: 0x1812F37F0 Slot: 17
 	public override void WriteEntityRef(string name) { }
 
-	// RVA: 0x12F3040 Offset: 0x12F1640 VA: 0x1812F3040 Slot: 18
+	// RVA: 0x12F3300 Offset: 0x12F1900 VA: 0x1812F3300 Slot: 18
 	public override void WriteCharEntity(char ch) { }
 
-	// RVA: 0x12F3F90 Offset: 0x12F2590 VA: 0x1812F3F90 Slot: 21
+	// RVA: 0x12F4250 Offset: 0x12F2850 VA: 0x1812F4250 Slot: 21
 	public override void WriteSurrogateCharEntity(char lowChar, char highChar) { }
 
-	// RVA: 0x12F30B0 Offset: 0x12F16B0 VA: 0x1812F30B0 Slot: 22
+	// RVA: 0x12F3370 Offset: 0x12F1970 VA: 0x1812F3370 Slot: 22
 	public override void WriteChars(char[] buffer, int index, int count) { }
 
-	// RVA: 0x12F2C60 Offset: 0x12F1260 VA: 0x1812F2C60
+	// RVA: 0x12F2F20 Offset: 0x12F1520 VA: 0x1812F2F20
 	private void Init(XmlWriterSettings settings) { }
 
-	// RVA: 0x12F3A00 Offset: 0x12F2000 VA: 0x1812F3A00
+	// RVA: 0x12F3CC0 Offset: 0x12F22C0 VA: 0x1812F3CC0
 	protected void WriteMetaElement() { }
 
-	// RVA: 0x12F39E0 Offset: 0x12F1FE0 VA: 0x1812F39E0
+	// RVA: 0x12F3CA0 Offset: 0x12F22A0 VA: 0x1812F3CA0
 	protected void WriteHtmlElementTextBlock(char* pSrc, char* pSrcEnd) { }
 
-	// RVA: 0x12F36F0 Offset: 0x12F1CF0 VA: 0x1812F36F0
+	// RVA: 0x12F39B0 Offset: 0x12F1FB0 VA: 0x1812F39B0
 	protected void WriteHtmlAttributeTextBlock(char* pSrc, char* pSrcEnd) { }
 
-	// RVA: 0x12F3730 Offset: 0x12F1D30 VA: 0x1812F3730
+	// RVA: 0x12F39F0 Offset: 0x12F1FF0 VA: 0x1812F39F0
 	private void WriteHtmlAttributeText(char* pSrc, char* pSrcEnd) { }
 
-	// RVA: 0x12F4000 Offset: 0x12F2600 VA: 0x1812F4000
+	// RVA: 0x12F42C0 Offset: 0x12F28C0 VA: 0x1812F42C0
 	private void WriteUriAttributeText(char* pSrc, char* pSrcEnd) { }
 
-	// RVA: 0x12F2E40 Offset: 0x12F1440 VA: 0x1812F2E40
+	// RVA: 0x12F3100 Offset: 0x12F1700 VA: 0x1812F3100
 	private void OutputRestAmps() { }
 
 }

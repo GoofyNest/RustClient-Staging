@@ -24,19 +24,19 @@ public class BaseMission : BaseScriptableObject // TypeDefIndex: 10201
 
 	// Methods
 
-	// RVA: 0xA46D30 Offset: 0xA45330 VA: 0x180A46D30
+	// RVA: 0xA46FF0 Offset: 0xA455F0 VA: 0x180A46FF0
 	public uint get_id() { }
 
-	// RVA: 0xA46D90 Offset: 0xA45390 VA: 0x180A46D90
+	// RVA: 0xA47050 Offset: 0xA45650 VA: 0x180A47050
 	public bool get_isRepeatable() { }
 
 	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50 Slot: 4
 	public virtual Sprite GetIcon(BaseMission.MissionInstance instance) { }
 
-	// RVA: 0xA46BC0 Offset: 0xA451C0 VA: 0x180A46BC0
+	// RVA: 0xA46E80 Offset: 0xA45480 VA: 0x180A46E80
 	public bool IsEligableForMission(BasePlayer player, IMissionProvider provider) { }
 
-	// RVA: 0xA46D20 Offset: 0xA45320 VA: 0x180A46D20
+	// RVA: 0xA46FE0 Offset: 0xA455E0 VA: 0x180A46FE0
 	public void .ctor() { }
 
 }
@@ -52,7 +52,7 @@ public class BaseMission.MissionDependancy // TypeDefIndex: 10202
 
 	// Methods
 
-	// RVA: 0xA54300 Offset: 0xA52900 VA: 0x180A54300
+	// RVA: 0xA545C0 Offset: 0xA52BC0 VA: 0x180A545C0
 	public uint get_targetMissionID() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -96,7 +96,7 @@ public class BaseMission.MissionObjectiveEntry // TypeDefIndex: 10205
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	public MissionObjective Get() { }
 
-	// RVA: 0xA54630 Offset: 0xA52C30 VA: 0x180A54630
+	// RVA: 0xA548F0 Offset: 0xA52EF0 VA: 0x180A548F0
 	public void .ctor() { }
 
 }
@@ -120,22 +120,22 @@ public class BaseMission.MissionInstance : Pool.IPooled // TypeDefIndex: 10206
 
 	// Methods
 
-	// RVA: 0xA54450 Offset: 0xA52A50 VA: 0x180A54450
+	// RVA: 0xA54710 Offset: 0xA52D10 VA: 0x180A54710
 	public BaseMission GetMission() { }
 
-	// RVA: 0xA54510 Offset: 0xA52B10 VA: 0x180A54510
+	// RVA: 0xA547D0 Offset: 0xA52DD0 VA: 0x180A547D0
 	public bool ShouldShowOnMap() { }
 
-	// RVA: 0xA54510 Offset: 0xA52B10 VA: 0x180A54510
+	// RVA: 0xA547D0 Offset: 0xA52DD0 VA: 0x180A547D0
 	public bool ShouldShowOnCompass() { }
 
-	// RVA: 0xA54360 Offset: 0xA52960 VA: 0x180A54360 Slot: 4
+	// RVA: 0xA54620 Offset: 0xA52C20 VA: 0x180A54620 Slot: 4
 	public void EnterPool() { }
 
-	// RVA: 0xA544A0 Offset: 0xA52AA0 VA: 0x180A544A0 Slot: 5
+	// RVA: 0xA54760 Offset: 0xA52D60 VA: 0x180A54760 Slot: 5
 	public void LeavePool() { }
 
-	// RVA: 0xA545C0 Offset: 0xA52BC0 VA: 0x180A545C0
+	// RVA: 0xA54880 Offset: 0xA52E80 VA: 0x180A54880
 	public void .ctor() { }
 
 }
@@ -184,7 +184,7 @@ public class BaseMission.PositionGenerator // TypeDefIndex: 10209
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public string GetIdentifier() { }
 
-	// RVA: 0xA54640 Offset: 0xA52C40 VA: 0x180A54640
+	// RVA: 0xA54900 Offset: 0xA52F00 VA: 0x180A54900
 	public void .ctor() { }
 
 }

@@ -1,10 +1,10 @@
 internal class CrossContextChannel : IMessageSink // TypeDefIndex: 1175
 {	// Methods
 
-	// RVA: 0x1476520 Offset: 0x1474B20 VA: 0x181476520 Slot: 4
+	// RVA: 0x14767E0 Offset: 0x1474DE0 VA: 0x1814767E0 Slot: 4
 	public IMessage SyncProcessMessage(IMessage msg) { }
 
-	// RVA: 0x14760E0 Offset: 0x14746E0 VA: 0x1814760E0 Slot: 5
+	// RVA: 0x14763A0 Offset: 0x14749A0 VA: 0x1814763A0 Slot: 5
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -20,13 +20,13 @@ private class CrossContextChannel.ContextRestoreSink : IMessageSink // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x1473D10 Offset: 0x1472310 VA: 0x181473D10
+	// RVA: 0x1473FD0 Offset: 0x14725D0 VA: 0x181473FD0
 	public void .ctor(IMessageSink next, Context context, IMessage call) { }
 
-	// RVA: 0x1473AE0 Offset: 0x14720E0 VA: 0x181473AE0 Slot: 4
+	// RVA: 0x1473DA0 Offset: 0x14723A0 VA: 0x181473DA0 Slot: 4
 	public IMessage SyncProcessMessage(IMessage msg) { }
 
-	// RVA: 0x1473A90 Offset: 0x1472090 VA: 0x181473A90 Slot: 5
+	// RVA: 0x1473D50 Offset: 0x1472350 VA: 0x181473D50 Slot: 5
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink) { }
 
 }

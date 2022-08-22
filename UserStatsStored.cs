@@ -16,7 +16,7 @@ internal struct UserStatsStored_t : ICallbackData // TypeDefIndex: 5387
 	// RVA: 0x1DC7B0 Offset: 0x1DBBB0 VA: 0x1801DC7B0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1291DF0 Offset: 0x12903F0 VA: 0x181291DF0
+	// RVA: 0x12920B0 Offset: 0x12906B0 VA: 0x1812920B0
 	private static void .cctor() { }
 
 }

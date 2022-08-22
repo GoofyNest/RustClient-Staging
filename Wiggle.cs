@@ -5,7 +5,7 @@ public class Wiggle : PostProcessEffectSettings // TypeDefIndex: 10275
 
 	// Methods
 
-	// RVA: 0x8F5F90 Offset: 0x8F4590 VA: 0x1808F5F90
+	// RVA: 0x8F60A0 Offset: 0x8F46A0 VA: 0x1808F60A0
 	public void .ctor() { }
 
 }

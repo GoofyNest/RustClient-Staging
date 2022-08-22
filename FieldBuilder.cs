@@ -12,37 +12,37 @@ public abstract class FieldBuilder : FieldInfo // TypeDefIndex: 604
 
 	// Methods
 
-	// RVA: 0x18C9090 Offset: 0x18C7690 VA: 0x1818C9090 Slot: 17
+	// RVA: 0x18C9350 Offset: 0x18C7950 VA: 0x1818C9350 Slot: 17
 	public override FieldAttributes get_Attributes() { }
 
-	// RVA: 0x18C90E0 Offset: 0x18C76E0 VA: 0x1818C90E0 Slot: 9
+	// RVA: 0x18C93A0 Offset: 0x18C79A0 VA: 0x1818C93A0 Slot: 9
 	public override Type get_DeclaringType() { }
 
-	// RVA: 0x18C9160 Offset: 0x18C7760 VA: 0x1818C9160 Slot: 19
+	// RVA: 0x18C9420 Offset: 0x18C7A20 VA: 0x1818C9420 Slot: 19
 	public override Type get_FieldType() { }
 
-	// RVA: 0x18C91B0 Offset: 0x18C77B0 VA: 0x1818C91B0 Slot: 8
+	// RVA: 0x18C9470 Offset: 0x18C7A70 VA: 0x1818C9470 Slot: 8
 	public override string get_Name() { }
 
-	// RVA: 0x18C8FE0 Offset: 0x18C75E0 VA: 0x1818C8FE0 Slot: 20
+	// RVA: 0x18C92A0 Offset: 0x18C78A0 VA: 0x1818C92A0 Slot: 20
 	public override object GetValue(object obj) { }
 
-	// RVA: 0x18C9130 Offset: 0x18C7730 VA: 0x1818C9130 Slot: 18
+	// RVA: 0x18C93F0 Offset: 0x18C79F0 VA: 0x1818C93F0 Slot: 18
 	public override RuntimeFieldHandle get_FieldHandle() { }
 
-	// RVA: 0x18C9200 Offset: 0x18C7800 VA: 0x1818C9200 Slot: 10
+	// RVA: 0x18C94C0 Offset: 0x18C7AC0 VA: 0x1818C94C0 Slot: 10
 	public override Type get_ReflectedType() { }
 
-	// RVA: 0x18C8F80 Offset: 0x18C7580 VA: 0x1818C8F80 Slot: 11
+	// RVA: 0x18C9240 Offset: 0x18C7840 VA: 0x1818C9240 Slot: 11
 	public override object[] GetCustomAttributes(bool inherit) { }
 
-	// RVA: 0x18C8FB0 Offset: 0x18C75B0 VA: 0x1818C8FB0 Slot: 12
+	// RVA: 0x18C9270 Offset: 0x18C7870 VA: 0x1818C9270 Slot: 12
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18C9030 Offset: 0x18C7630 VA: 0x1818C9030 Slot: 13
+	// RVA: 0x18C92F0 Offset: 0x18C78F0 VA: 0x1818C92F0 Slot: 13
 	public override bool IsDefined(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18C9060 Offset: 0x18C7660 VA: 0x1818C9060 Slot: 27
+	// RVA: 0x18C9320 Offset: 0x18C7920 VA: 0x1818C9320 Slot: 27
 	public override void SetValue(object obj, object val, BindingFlags invokeAttr, Binder binder, CultureInfo culture) { }
 
 }

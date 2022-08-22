@@ -10,10 +10,10 @@ internal sealed class MemberReference // TypeDefIndex: 1085
 	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
 	internal void Set(int idRef) { }
 
-	// RVA: 0x11F5F10 Offset: 0x11F4510 VA: 0x1811F5F10 Slot: 4
+	// RVA: 0x11F61D0 Offset: 0x11F47D0 VA: 0x1811F61D0 Slot: 4
 	public void Write(__BinaryWriter sout) { }
 
-	// RVA: 0x11ED890 Offset: 0x11EBE90 VA: 0x1811ED890 Slot: 5
+	// RVA: 0x11EDB50 Offset: 0x11EC150 VA: 0x1811EDB50 Slot: 5
 	public void Read(__BinaryParser input) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

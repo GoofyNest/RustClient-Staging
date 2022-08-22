@@ -6,13 +6,13 @@ public static class NumberExtensions // TypeDefIndex: 4844
 	public static string FormatBytes<T>(T input, bool shortFormat = False) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED6840 Offset: 0xED4E40 VA: 0x180ED6840
+	|-RVA: 0xED6B00 Offset: 0xED5100 VA: 0x180ED6B00
 	|-NumberExtensions.FormatBytes<int>
 	|
-	|-RVA: 0xED6A80 Offset: 0xED5080 VA: 0x180ED6A80
+	|-RVA: 0xED6D40 Offset: 0xED5340 VA: 0x180ED6D40
 	|-NumberExtensions.FormatBytes<long>
 	|
-	|-RVA: 0xED6CC0 Offset: 0xED52C0 VA: 0x180ED6CC0
+	|-RVA: 0xED6F80 Offset: 0xED5580 VA: 0x180ED6F80
 	|-NumberExtensions.FormatBytes<ulong>
 	*/
 
@@ -26,31 +26,31 @@ public static class NumberExtensions // TypeDefIndex: 4844
 	*/
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x226F720 Offset: 0x226DD20 VA: 0x18226F720
+	// RVA: 0x226F9E0 Offset: 0x226DFE0 VA: 0x18226F9E0
 	public static string FormatSeconds(ulong i) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x226F730 Offset: 0x226DD30 VA: 0x18226F730
+	// RVA: 0x226F9F0 Offset: 0x226DFF0 VA: 0x18226F9F0
 	public static string FormatSeconds(long s) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x226F710 Offset: 0x226DD10 VA: 0x18226F710
+	// RVA: 0x226F9D0 Offset: 0x226DFD0 VA: 0x18226F9D0
 	public static string FormatSecondsLong(ulong i) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x226EBC0 Offset: 0x226D1C0 VA: 0x18226EBC0
+	// RVA: 0x226EE80 Offset: 0x226D480 VA: 0x18226EE80
 	public static string FormatSecondsLong(long s) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x226EAF0 Offset: 0x226D0F0 VA: 0x18226EAF0
+	// RVA: 0x226EDB0 Offset: 0x226D3B0 VA: 0x18226EDB0
 	public static string FormatNumberShort(ulong i) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x226EB00 Offset: 0x226D100 VA: 0x18226EB00
+	// RVA: 0x226EDC0 Offset: 0x226D3C0 VA: 0x18226EDC0
 	public static string FormatNumberShort(long num) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x226EA90 Offset: 0x226D090 VA: 0x18226EA90
+	// RVA: 0x226ED50 Offset: 0x226D350 VA: 0x18226ED50
 	public static string FormatDistance(float num) { }
 
 }

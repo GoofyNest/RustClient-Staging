@@ -12,10 +12,10 @@ internal class LocatedActiveAxis : ActiveAxis // TypeDefIndex: 2146
 	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
 	internal int get_Column() { }
 
-	// RVA: 0xB11550 Offset: 0xB0FB50 VA: 0x180B11550
+	// RVA: 0xB11810 Offset: 0xB0FE10 VA: 0x180B11810
 	internal void .ctor(Asttree astfield, KeySequence ks, int column) { }
 
-	// RVA: 0xB11520 Offset: 0xB0FB20 VA: 0x180B11520
+	// RVA: 0xB117E0 Offset: 0xB0FDE0 VA: 0x180B117E0
 	internal void Reactivate(KeySequence ks) { }
 
 }

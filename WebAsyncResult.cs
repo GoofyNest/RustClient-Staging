@@ -22,34 +22,34 @@ internal class WebAsyncResult : SimpleAsyncResult // TypeDefIndex: 3025
 
 	// Methods
 
-	// RVA: 0x100FF20 Offset: 0x100E520 VA: 0x18100FF20
+	// RVA: 0x10101E0 Offset: 0x100E7E0 VA: 0x1810101E0
 	public void .ctor(AsyncCallback cb, object state) { }
 
-	// RVA: 0x100FEE0 Offset: 0x100E4E0 VA: 0x18100FEE0
+	// RVA: 0x10101A0 Offset: 0x100E7A0 VA: 0x1810101A0
 	public void .ctor(HttpWebRequest request, AsyncCallback cb, object state) { }
 
-	// RVA: 0x100FEA0 Offset: 0x100E4A0 VA: 0x18100FEA0
+	// RVA: 0x1010160 Offset: 0x100E760 VA: 0x181010160
 	public void .ctor(AsyncCallback cb, object state, byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x100FDC0 Offset: 0x100E3C0 VA: 0x18100FDC0
+	// RVA: 0x1010080 Offset: 0x100E680 VA: 0x181010080
 	internal void Reset() { }
 
-	// RVA: 0x100FE10 Offset: 0x100E410 VA: 0x18100FE10
+	// RVA: 0x10100D0 Offset: 0x100E6D0 VA: 0x1810100D0
 	internal void SetCompleted(bool synch, int nbytes) { }
 
-	// RVA: 0x100FE20 Offset: 0x100E420 VA: 0x18100FE20
+	// RVA: 0x10100E0 Offset: 0x100E6E0 VA: 0x1810100E0
 	internal void SetCompleted(bool synch, Stream writeStream) { }
 
-	// RVA: 0x100FE60 Offset: 0x100E460 VA: 0x18100FE60
+	// RVA: 0x1010120 Offset: 0x100E720 VA: 0x181010120
 	internal void SetCompleted(bool synch, HttpWebResponse response) { }
 
-	// RVA: 0xFFF7F0 Offset: 0xFFDDF0 VA: 0x180FFF7F0
+	// RVA: 0xFFFAB0 Offset: 0xFFE0B0 VA: 0x180FFFAB0
 	internal void DoCallback() { }
 
-	// RVA: 0x8D8F00 Offset: 0x8D7500 VA: 0x1808D8F00
+	// RVA: 0x8D9010 Offset: 0x8D7610 VA: 0x1808D9010
 	internal int get_NBytes() { }
 
-	// RVA: 0x8D8F40 Offset: 0x8D7540 VA: 0x1808D8F40
+	// RVA: 0x8D9050 Offset: 0x8D7650 VA: 0x1808D9050
 	internal void set_NBytes(int value) { }
 
 	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
@@ -67,10 +67,10 @@ internal class WebAsyncResult : SimpleAsyncResult // TypeDefIndex: 3025
 	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
 	internal byte[] get_Buffer() { }
 
-	// RVA: 0xAF5D60 Offset: 0xAF4360 VA: 0x180AF5D60
+	// RVA: 0xAF6020 Offset: 0xAF4620 VA: 0x180AF6020
 	internal int get_Offset() { }
 
-	// RVA: 0x100FF30 Offset: 0x100E530 VA: 0x18100FF30
+	// RVA: 0x10101F0 Offset: 0x100E7F0 VA: 0x1810101F0
 	internal int get_Size() { }
 
 }

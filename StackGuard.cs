@@ -5,10 +5,10 @@ internal class StackGuard // TypeDefIndex: 865
 
 	// Methods
 
-	// RVA: 0x149B4C0 Offset: 0x1499AC0 VA: 0x18149B4C0
+	// RVA: 0x149B780 Offset: 0x1499D80 VA: 0x18149B780
 	internal bool TryBeginInliningScope() { }
 
-	// RVA: 0x149B4A0 Offset: 0x1499AA0 VA: 0x18149B4A0
+	// RVA: 0x149B760 Offset: 0x1499D60 VA: 0x18149B760
 	internal void EndInliningScope() { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250

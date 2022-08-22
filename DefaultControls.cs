@@ -16,78 +16,78 @@ public static class DefaultControls // TypeDefIndex: 4917
 
 	// Methods
 
-	// RVA: 0x10BF6F0 Offset: 0x10BDCF0 VA: 0x1810BF6F0
+	// RVA: 0x10BF9B0 Offset: 0x10BDFB0 VA: 0x1810BF9B0
 	public static DefaultControls.IFactoryControls get_factory() { }
 
-	// RVA: 0x10BF070 Offset: 0x10BD670 VA: 0x1810BF070
+	// RVA: 0x10BF330 Offset: 0x10BD930 VA: 0x1810BF330
 	private static GameObject CreateUIElementRoot(string name, Vector2 size, Type[] components) { }
 
-	// RVA: 0x10BF180 Offset: 0x10BD780 VA: 0x1810BF180
+	// RVA: 0x10BF440 Offset: 0x10BDA40 VA: 0x1810BF440
 	private static GameObject CreateUIObject(string name, GameObject parent, Type[] components) { }
 
-	// RVA: 0x10BF270 Offset: 0x10BD870 VA: 0x1810BF270
+	// RVA: 0x10BF530 Offset: 0x10BDB30 VA: 0x1810BF530
 	private static void SetDefaultTextValues(Text lbl) { }
 
-	// RVA: 0xC6B760 Offset: 0xC69D60 VA: 0x180C6B760
+	// RVA: 0xC6BA20 Offset: 0xC6A020 VA: 0x180C6BA20
 	private static void SetDefaultColorTransitionValues(Selectable slider) { }
 
-	// RVA: 0x10BF3E0 Offset: 0x10BD9E0 VA: 0x1810BF3E0
+	// RVA: 0x10BF6A0 Offset: 0x10BDCA0 VA: 0x1810BF6A0
 	private static void SetParentAndAlign(GameObject child, GameObject parent) { }
 
-	// RVA: 0x10BF300 Offset: 0x10BD900 VA: 0x1810BF300
+	// RVA: 0x10BF5C0 Offset: 0x10BDBC0 VA: 0x1810BF5C0
 	private static void SetLayerRecursively(GameObject go, int layer) { }
 
-	// RVA: 0x10BCB50 Offset: 0x10BB150 VA: 0x1810BCB50
+	// RVA: 0x10BCE10 Offset: 0x10BB410 VA: 0x1810BCE10
 	public static GameObject CreatePanel(DefaultControls.Resources resources) { }
 
-	// RVA: 0x10BA6E0 Offset: 0x10B8CE0 VA: 0x1810BA6E0
+	// RVA: 0x10BA9A0 Offset: 0x10B8FA0 VA: 0x1810BA9A0
 	public static GameObject CreateButton(DefaultControls.Resources resources) { }
 
-	// RVA: 0x10BE640 Offset: 0x10BCC40 VA: 0x1810BE640
+	// RVA: 0x10BE900 Offset: 0x10BCF00 VA: 0x1810BE900
 	public static GameObject CreateText(DefaultControls.Resources resources) { }
 
-	// RVA: 0x10BC2E0 Offset: 0x10BA8E0 VA: 0x1810BC2E0
+	// RVA: 0x10BC5A0 Offset: 0x10BABA0 VA: 0x1810BC5A0
 	public static GameObject CreateImage(DefaultControls.Resources resources) { }
 
-	// RVA: 0x10BCDB0 Offset: 0x10BB3B0 VA: 0x1810BCDB0
+	// RVA: 0x10BD070 Offset: 0x10BB670 VA: 0x1810BD070
 	public static GameObject CreateRawImage(DefaultControls.Resources resources) { }
 
-	// RVA: 0x10BDCA0 Offset: 0x10BC2A0 VA: 0x1810BDCA0
+	// RVA: 0x10BDF60 Offset: 0x10BC560 VA: 0x1810BDF60
 	public static GameObject CreateSlider(DefaultControls.Resources resources) { }
 
-	// RVA: 0x10BD720 Offset: 0x10BBD20 VA: 0x1810BD720
+	// RVA: 0x10BD9E0 Offset: 0x10BBFE0 VA: 0x1810BD9E0
 	public static GameObject CreateScrollbar(DefaultControls.Resources resources) { }
 
-	// RVA: 0x10BE840 Offset: 0x10BCE40 VA: 0x1810BE840
+	// RVA: 0x10BEB00 Offset: 0x10BD100 VA: 0x1810BEB00
 	public static GameObject CreateToggle(DefaultControls.Resources resources) { }
 
-	// RVA: 0x10BC410 Offset: 0x10BAA10 VA: 0x1810BC410
+	// RVA: 0x10BC6D0 Offset: 0x10BACD0 VA: 0x1810BC6D0
 	public static GameObject CreateInputField(DefaultControls.Resources resources) { }
 
-	// RVA: 0x10BAB90 Offset: 0x10B9190 VA: 0x1810BAB90
+	// RVA: 0x10BAE50 Offset: 0x10B9450 VA: 0x1810BAE50
 	public static GameObject CreateDropdown(DefaultControls.Resources resources) { }
 
-	// RVA: 0x10BCEE0 Offset: 0x10BB4E0 VA: 0x1810BCEE0
+	// RVA: 0x10BD1A0 Offset: 0x10BB7A0 VA: 0x1810BD1A0
 	public static GameObject CreateScrollView(DefaultControls.Resources resources) { }
 
-	// RVA: 0x10BF4D0 Offset: 0x10BDAD0 VA: 0x1810BF4D0
+	// RVA: 0x10BF790 Offset: 0x10BDD90 VA: 0x1810BF790
 	private static void .cctor() { }
 
 }
 
 private class DefaultControls.DefaultRuntimeFactory : DefaultControls.IFactoryControls // TypeDefIndex: 4919
 {	// Fields
-	public static DefaultControls.IFactoryControls Default; // 0x2B1057C
+	public static DefaultControls.IFactoryControls Default; // 0x2B115BC
 
 	// Methods
 
-	// RVA: 0x10BF750 Offset: 0x10BDD50 VA: 0x1810BF750 Slot: 4
+	// RVA: 0x10BFA10 Offset: 0x10BE010 VA: 0x1810BFA10 Slot: 4
 	public GameObject CreateGameObject(string name, Type[] components) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x10BF7C0 Offset: 0x10BDDC0 VA: 0x1810BF7C0
+	// RVA: 0x10BFA80 Offset: 0x10BE080 VA: 0x1810BFA80
 	private static void .cctor() { }
 
 }

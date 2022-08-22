@@ -25,52 +25,52 @@ public class FtpWebResponse : WebResponse // TypeDefIndex: 3004
 
 	// Methods
 
-	// RVA: 0x1338840 Offset: 0x1336E40 VA: 0x181338840
+	// RVA: 0x1338B00 Offset: 0x1337100 VA: 0x181338B00
 	internal void .ctor(FtpWebRequest request, Uri uri, string method, bool keepAlive) { }
 
-	// RVA: 0x1338960 Offset: 0x1336F60 VA: 0x181338960
+	// RVA: 0x1338C20 Offset: 0x1337220 VA: 0x181338C20
 	internal void .ctor(FtpWebRequest request, Uri uri, string method, FtpStatusCode statusCode, string statusDescription) { }
 
-	// RVA: 0x1338800 Offset: 0x1336E00 VA: 0x181338800
+	// RVA: 0x1338AC0 Offset: 0x13370C0 VA: 0x181338AC0
 	internal void .ctor(FtpWebRequest request, Uri uri, string method, FtpStatus status) { }
 
 	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0 Slot: 11
 	public override long get_ContentLength() { }
 
-	// RVA: 0x1338AA0 Offset: 0x13370A0 VA: 0x181338AA0 Slot: 14
+	// RVA: 0x1338D60 Offset: 0x1337360 VA: 0x181338D60 Slot: 14
 	public override WebHeaderCollection get_Headers() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 13
 	public override Uri get_ResponseUri() { }
 
-	// RVA: 0xC15030 Offset: 0xC13630 VA: 0x180C15030
+	// RVA: 0xC152F0 Offset: 0xC138F0 VA: 0x180C152F0
 	internal void set_LastModified(DateTime value) { }
 
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	internal void set_BannerMessage(string value) { }
 
 	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
 	internal void set_WelcomeMessage(string value) { }
 
-	// RVA: 0x7D0C50 Offset: 0x7CF250 VA: 0x1807D0C50
+	// RVA: 0x7D0D60 Offset: 0x7CF360 VA: 0x1807D0D60
 	internal void set_StatusCode(FtpStatusCode value) { }
 
-	// RVA: 0x13385D0 Offset: 0x1336BD0 VA: 0x1813385D0 Slot: 9
+	// RVA: 0x1338890 Offset: 0x1336E90 VA: 0x181338890 Slot: 9
 	public override void Close() { }
 
-	// RVA: 0x13386A0 Offset: 0x1336CA0 VA: 0x1813386A0 Slot: 12
+	// RVA: 0x1338960 Offset: 0x1336F60 VA: 0x181338960 Slot: 12
 	public override Stream GetResponseStream() { }
 
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	internal void set_Stream(Stream value) { }
 
-	// RVA: 0x13387D0 Offset: 0x1336DD0 VA: 0x1813387D0
+	// RVA: 0x1338A90 Offset: 0x1337090 VA: 0x181338A90
 	internal void UpdateStatus(FtpStatus status) { }
 
-	// RVA: 0x1338540 Offset: 0x1336B40 VA: 0x181338540
+	// RVA: 0x1338800 Offset: 0x1336E00 VA: 0x181338800
 	private void CheckDisposed() { }
 
-	// RVA: 0x13387C0 Offset: 0x1336DC0 VA: 0x1813387C0
+	// RVA: 0x1338A80 Offset: 0x1337080 VA: 0x181338A80
 	internal bool IsFinal() { }
 
 }

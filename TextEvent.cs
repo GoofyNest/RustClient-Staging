@@ -1,16 +1,16 @@
 public sealed class TextEvent : BaseTextEvent // TypeDefIndex: 7549
 {	// Methods
 
-	// RVA: 0x13A8BF0 Offset: 0x13A71F0 VA: 0x1813A8BF0
+	// RVA: 0x13A8EB0 Offset: 0x13A74B0 VA: 0x1813A8EB0
 	public void .ctor() { }
 
-	// RVA: 0x13A8BB0 Offset: 0x13A71B0 VA: 0x1813A8BB0
+	// RVA: 0x13A8E70 Offset: 0x13A7470 VA: 0x1813A8E70
 	public void .ctor(string text) { }
 
-	// RVA: 0x13A8AF0 Offset: 0x13A70F0 VA: 0x1813A8AF0 Slot: 5
+	// RVA: 0x13A8DB0 Offset: 0x13A73B0 VA: 0x1813A8DB0 Slot: 5
 	protected override MidiEvent CloneEvent() { }
 
-	// RVA: 0x13A8B60 Offset: 0x13A7160 VA: 0x1813A8B60 Slot: 3
+	// RVA: 0x13A8E20 Offset: 0x13A7420 VA: 0x1813A8E20 Slot: 3
 	public override string ToString() { }
 
 }

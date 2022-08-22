@@ -7,19 +7,19 @@ internal sealed class SafeSocketHandle : SafeHandleZeroOrMinusOneIsInvalid // Ty
 
 	// Methods
 
-	// RVA: 0xFFC760 Offset: 0xFFAD60 VA: 0x180FFC760
+	// RVA: 0xFFCA20 Offset: 0xFFB020 VA: 0x180FFCA20
 	public void .ctor(IntPtr preexistingHandle, bool ownsHandle) { }
 
-	// RVA: 0xFFC080 Offset: 0xFFA680 VA: 0x180FFC080 Slot: 7
+	// RVA: 0xFFC340 Offset: 0xFFA940 VA: 0x180FFC340 Slot: 7
 	protected override bool ReleaseHandle() { }
 
-	// RVA: 0xFFBE10 Offset: 0xFFA410 VA: 0x180FFBE10
+	// RVA: 0xFFC0D0 Offset: 0xFFA6D0 VA: 0x180FFC0D0
 	public void RegisterForBlockingSyscall() { }
 
-	// RVA: 0xFFC570 Offset: 0xFFAB70 VA: 0x180FFC570
+	// RVA: 0xFFC830 Offset: 0xFFAE30 VA: 0x180FFC830
 	public void UnRegisterForBlockingSyscall() { }
 
-	// RVA: 0xFFC700 Offset: 0xFFAD00 VA: 0x180FFC700
+	// RVA: 0xFFC9C0 Offset: 0xFFAFC0 VA: 0x180FFC9C0
 	private static void .cctor() { }
 
 }

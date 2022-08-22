@@ -6,19 +6,19 @@ public class ErrorText : MonoBehaviour // TypeDefIndex: 10923
 
 	// Methods
 
-	// RVA: 0x8CC040 Offset: 0x8CA640 VA: 0x1808CC040
+	// RVA: 0x8CC150 Offset: 0x8CA750 VA: 0x1808CC150
 	public void OnEnable() { }
 
-	// RVA: 0x8CBF80 Offset: 0x8CA580 VA: 0x1808CBF80
+	// RVA: 0x8CC090 Offset: 0x8CA690 VA: 0x1808CC090
 	public void OnDisable() { }
 
-	// RVA: 0x8CBC50 Offset: 0x8CA250 VA: 0x1808CBC50
+	// RVA: 0x8CBD60 Offset: 0x8CA360 VA: 0x1808CBD60
 	internal void CaptureLog(string error, string stacktrace, LogType type) { }
 
-	// RVA: 0x8CC0D0 Offset: 0x8CA6D0 VA: 0x1808CC0D0
+	// RVA: 0x8CC1E0 Offset: 0x8CA7E0 VA: 0x1808CC1E0
 	protected void Update() { }
 
-	// RVA: 0x8CC210 Offset: 0x8CA810 VA: 0x1808CC210
+	// RVA: 0x8CC320 Offset: 0x8CA920 VA: 0x1808CC320
 	public void .ctor() { }
 
 }

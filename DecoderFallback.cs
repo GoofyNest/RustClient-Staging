@@ -13,13 +13,13 @@ public abstract class DecoderFallback // TypeDefIndex: 439
 
 	// Methods
 
-	// RVA: 0x18ABE90 Offset: 0x18AA490 VA: 0x1818ABE90
+	// RVA: 0x18AC150 Offset: 0x18AA750 VA: 0x1818AC150
 	private static object get_InternalSyncObject() { }
 
-	// RVA: 0x18ABF20 Offset: 0x18AA520 VA: 0x1818ABF20
+	// RVA: 0x18AC1E0 Offset: 0x18AA7E0 VA: 0x1818AC1E0
 	public static DecoderFallback get_ReplacementFallback() { }
 
-	// RVA: 0x18ABCD0 Offset: 0x18AA2D0 VA: 0x1818ABCD0
+	// RVA: 0x18ABF90 Offset: 0x18AA590 VA: 0x1818ABF90
 	public static DecoderFallback get_ExceptionFallback() { }
 
 	// RVA: -1 Offset: -1 Slot: 4

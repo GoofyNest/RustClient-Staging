@@ -15,10 +15,10 @@ public sealed class Grain : PostProcessEffectSettings // TypeDefIndex: 11788
 
 	// Methods
 
-	// RVA: 0x9F19D0 Offset: 0x9EFFD0 VA: 0x1809F19D0 Slot: 4
+	// RVA: 0x9F1C90 Offset: 0x9F0290 VA: 0x1809F1C90 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x10166E0 Offset: 0x1014CE0 VA: 0x1810166E0
+	// RVA: 0x10169A0 Offset: 0x1014FA0 VA: 0x1810169A0
 	public void .ctor() { }
 
 }

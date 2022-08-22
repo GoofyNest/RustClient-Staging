@@ -8,7 +8,7 @@ public class PropertyChangingEventArgs : EventArgs // TypeDefIndex: 5862
 
 	// Methods
 
-	// RVA: 0x180AF00 Offset: 0x1809500 VA: 0x18180AF00
+	// RVA: 0x180B1C0 Offset: 0x18097C0 VA: 0x18180B1C0
 	public void .ctor(string propertyName) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

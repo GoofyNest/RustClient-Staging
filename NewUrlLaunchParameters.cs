@@ -1,6 +1,6 @@
 internal struct NewUrlLaunchParameters_t : ICallbackData // TypeDefIndex: 5400
 {	// Fields
-	public static int _datasize; // 0x2B101B4
+	public static int _datasize; // 0x2B111F4
 
 	// Properties
 	public int DataSize { get; }
@@ -14,7 +14,7 @@ internal struct NewUrlLaunchParameters_t : ICallbackData // TypeDefIndex: 5400
 	// RVA: 0x1EC0B0 Offset: 0x1EB4B0 VA: 0x1801EC0B0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13751B0 Offset: 0x13737B0 VA: 0x1813751B0
+	// RVA: 0x1375470 Offset: 0x1373A70 VA: 0x181375470
 	private static void .cctor() { }
 
 }

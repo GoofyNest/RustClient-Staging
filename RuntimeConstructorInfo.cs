@@ -6,28 +6,28 @@ internal abstract class RuntimeConstructorInfo : ConstructorInfo, ISerializable 
 
 	// Methods
 
-	// RVA: 0x18D5B40 Offset: 0x18D4140 VA: 0x1818D5B40 Slot: 16
+	// RVA: 0x18D5E00 Offset: 0x18D4400 VA: 0x1818D5E00 Slot: 16
 	public override Module get_Module() { }
 
-	// RVA: 0x18D5B40 Offset: 0x18D4140 VA: 0x1818D5B40
+	// RVA: 0x18D5E00 Offset: 0x18D4400 VA: 0x1818D5E00
 	internal RuntimeModule GetRuntimeModule() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
 	internal BindingFlags get_BindingFlags() { }
 
-	// RVA: 0x18D5D80 Offset: 0x18D4380 VA: 0x1818D5D80
+	// RVA: 0x18D6040 Offset: 0x18D4640 VA: 0x1818D6040
 	private RuntimeType get_ReflectedTypeInternal() { }
 
-	// RVA: 0x18D59B0 Offset: 0x18D3FB0 VA: 0x1818D59B0 Slot: 41
+	// RVA: 0x18D5C70 Offset: 0x18D4270 VA: 0x1818D5C70 Slot: 41
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x18D5D60 Offset: 0x18D4360 VA: 0x1818D5D60
+	// RVA: 0x18D6020 Offset: 0x18D4620 VA: 0x1818D6020
 	internal string SerializationToString() { }
 
-	// RVA: 0x18D5BE0 Offset: 0x18D41E0 VA: 0x1818D5BE0
+	// RVA: 0x18D5EA0 Offset: 0x18D44A0 VA: 0x1818D5EA0
 	internal void SerializationInvoke(object target, SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x18CE290 Offset: 0x18CC890 VA: 0x1818CE290
+	// RVA: 0x18CE550 Offset: 0x18CCB50 VA: 0x1818CE550
 	protected void .ctor() { }
 
 }

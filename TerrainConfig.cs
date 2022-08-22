@@ -27,55 +27,55 @@ public class TerrainConfig : ScriptableObject // TypeDefIndex: 10310
 
 	// Methods
 
-	// RVA: 0x113EE70 Offset: 0x113D470 VA: 0x18113EE70
+	// RVA: 0x113F130 Offset: 0x113D730 VA: 0x18113F130
 	public Texture get_AlbedoArray() { }
 
-	// RVA: 0x113EF10 Offset: 0x113D510 VA: 0x18113EF10
+	// RVA: 0x113F1D0 Offset: 0x113D7D0 VA: 0x18113F1D0
 	public Texture get_NormalArray() { }
 
-	// RVA: 0x113E5E0 Offset: 0x113CBE0 VA: 0x18113E5E0
+	// RVA: 0x113E8A0 Offset: 0x113CEA0 VA: 0x18113E8A0
 	public PhysicMaterial[] GetPhysicMaterials() { }
 
-	// RVA: 0x113DBA0 Offset: 0x113C1A0 VA: 0x18113DBA0
+	// RVA: 0x113DE60 Offset: 0x113C460 VA: 0x18113DE60
 	public Color[] GetAridColors() { }
 
-	// RVA: 0x113DC70 Offset: 0x113C270 VA: 0x18113DC70
+	// RVA: 0x113DF30 Offset: 0x113C530 VA: 0x18113DF30
 	public void GetAridOverlayConstants(out Color[] color, out Vector4[] param) { }
 
-	// RVA: 0x113E7F0 Offset: 0x113CDF0 VA: 0x18113E7F0
+	// RVA: 0x113EAB0 Offset: 0x113D0B0 VA: 0x18113EAB0
 	public Color[] GetTemperateColors() { }
 
-	// RVA: 0x113E8C0 Offset: 0x113CEC0 VA: 0x18113E8C0
+	// RVA: 0x113EB80 Offset: 0x113D180 VA: 0x18113EB80
 	public void GetTemperateOverlayConstants(out Color[] color, out Vector4[] param) { }
 
-	// RVA: 0x113EAC0 Offset: 0x113D0C0 VA: 0x18113EAC0
+	// RVA: 0x113ED80 Offset: 0x113D380 VA: 0x18113ED80
 	public Color[] GetTundraColors() { }
 
-	// RVA: 0x113EB90 Offset: 0x113D190 VA: 0x18113EB90
+	// RVA: 0x113EE50 Offset: 0x113D450 VA: 0x18113EE50
 	public void GetTundraOverlayConstants(out Color[] color, out Vector4[] param) { }
 
-	// RVA: 0x113D8D0 Offset: 0x113BED0 VA: 0x18113D8D0
+	// RVA: 0x113DB90 Offset: 0x113C190 VA: 0x18113DB90
 	public Color[] GetArcticColors() { }
 
-	// RVA: 0x113D9A0 Offset: 0x113BFA0 VA: 0x18113D9A0
+	// RVA: 0x113DC60 Offset: 0x113C260 VA: 0x18113DC60
 	public void GetArcticOverlayConstants(out Color[] color, out Vector4[] param) { }
 
-	// RVA: 0x113E720 Offset: 0x113CD20 VA: 0x18113E720
+	// RVA: 0x113E9E0 Offset: 0x113CFE0 VA: 0x18113E9E0
 	public float[] GetSplatTiling() { }
 
-	// RVA: 0x113E3B0 Offset: 0x113C9B0 VA: 0x18113E3B0
+	// RVA: 0x113E670 Offset: 0x113CC70 VA: 0x18113E670
 	public float GetMaxSplatTiling() { }
 
-	// RVA: 0x113E420 Offset: 0x113CA20 VA: 0x18113E420
+	// RVA: 0x113E6E0 Offset: 0x113CCE0 VA: 0x18113E6E0
 	public float GetMinSplatTiling() { }
 
-	// RVA: 0x113E490 Offset: 0x113CA90 VA: 0x18113E490
+	// RVA: 0x113E750 Offset: 0x113CD50 VA: 0x18113E750
 	public Vector3[] GetPackedUVMIX() { }
 
-	// RVA: 0x113DE70 Offset: 0x113C470 VA: 0x18113DE70
+	// RVA: 0x113E130 Offset: 0x113C730 VA: 0x18113E130
 	public TerrainConfig.GroundType GetCurrentGroundType(bool isGrounded, RaycastHit hit) { }
 
-	// RVA: 0x113ED90 Offset: 0x113D390 VA: 0x18113ED90
+	// RVA: 0x113F050 Offset: 0x113D650 VA: 0x18113F050
 	public void .ctor() { }
 
 }
@@ -94,7 +94,7 @@ public class TerrainConfig.SplatOverlay // TypeDefIndex: 10311
 
 	// Methods
 
-	// RVA: 0x1134BE0 Offset: 0x11331E0 VA: 0x181134BE0
+	// RVA: 0x1134EA0 Offset: 0x11334A0 VA: 0x181134EA0
 	public void .ctor() { }
 
 }
@@ -123,7 +123,7 @@ public class TerrainConfig.SplatType // TypeDefIndex: 10312
 
 	// Methods
 
-	// RVA: 0x1134C50 Offset: 0x1133250 VA: 0x181134C50
+	// RVA: 0x1134F10 Offset: 0x1133510 VA: 0x181134F10
 	public void .ctor() { }
 
 }

@@ -6,82 +6,82 @@ public class DudExplosive : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 	// Methods
 
-	// RVA: 0x1E6F050 Offset: 0x1E6D650 VA: 0x181E6F050
+	// RVA: 0x1E6F310 Offset: 0x1E6D910 VA: 0x181E6F310
 	public static void ResetToPool(DudExplosive instance) { }
 
-	// RVA: 0x1E6F0D0 Offset: 0x1E6D6D0 VA: 0x181E6F0D0
+	// RVA: 0x1E6F390 Offset: 0x1E6D990 VA: 0x181E6F390
 	public void ResetToPool() { }
 
-	// RVA: 0x1E6EF20 Offset: 0x1E6D520 VA: 0x181E6EF20 Slot: 9
+	// RVA: 0x1E6F1E0 Offset: 0x1E6D7E0 VA: 0x181E6F1E0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE4D0 Offset: 0x1BFCAD0 VA: 0x181BFE4D0
+	// RVA: 0x1BFE790 Offset: 0x1BFCD90 VA: 0x181BFE790
 	public void CopyTo(DudExplosive instance) { }
 
-	// RVA: 0x1E6E590 Offset: 0x1E6CB90 VA: 0x181E6E590
+	// RVA: 0x1E6E850 Offset: 0x1E6CE50 VA: 0x181E6E850
 	public DudExplosive Copy() { }
 
-	// RVA: 0x1E6EC30 Offset: 0x1E6D230 VA: 0x181E6EC30
+	// RVA: 0x1E6EEF0 Offset: 0x1E6D4F0 VA: 0x181E6EEF0
 	public static DudExplosive Deserialize(Stream stream) { }
 
-	// RVA: 0x1E6E820 Offset: 0x1E6CE20 VA: 0x181E6E820
+	// RVA: 0x1E6EAE0 Offset: 0x1E6D0E0 VA: 0x181E6EAE0
 	public static DudExplosive DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E6E8A0 Offset: 0x1E6CEA0 VA: 0x181E6E8A0
+	// RVA: 0x1E6EB60 Offset: 0x1E6D160 VA: 0x181E6EB60
 	public static DudExplosive DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E6ECB0 Offset: 0x1E6D2B0 VA: 0x181E6ECB0
+	// RVA: 0x1E6EF70 Offset: 0x1E6D570 VA: 0x181E6EF70
 	public static DudExplosive Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E6F010 Offset: 0x1E6D610 VA: 0x181E6F010
+	// RVA: 0x1E6F2D0 Offset: 0x1E6D8D0 VA: 0x181E6F2D0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E6F520 Offset: 0x1E6DB20 VA: 0x181E6F520 Slot: 12
+	// RVA: 0x1E6F7E0 Offset: 0x1E6DDE0 VA: 0x181E6F7E0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E6F540 Offset: 0x1E6DB40 VA: 0x181E6F540 Slot: 13
+	// RVA: 0x1E6F800 Offset: 0x1E6DE00 VA: 0x181E6F800 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, DudExplosive previous) { }
 
-	// RVA: 0x1E6F030 Offset: 0x1E6D630 VA: 0x181E6F030 Slot: 14
+	// RVA: 0x1E6F2F0 Offset: 0x1E6D8F0 VA: 0x181E6F2F0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E6EB30 Offset: 0x1E6D130 VA: 0x181E6EB30
+	// RVA: 0x1E6EDF0 Offset: 0x1E6D3F0 VA: 0x181E6EDF0
 	public static DudExplosive Deserialize(byte[] buffer, DudExplosive instance, bool isDelta = False) { }
 
-	// RVA: 0x1E6EDD0 Offset: 0x1E6D3D0 VA: 0x181E6EDD0
+	// RVA: 0x1E6F090 Offset: 0x1E6D690 VA: 0x181E6F090
 	public static DudExplosive Deserialize(Stream stream, DudExplosive instance, bool isDelta) { }
 
-	// RVA: 0x1E6E600 Offset: 0x1E6CC00 VA: 0x181E6E600
+	// RVA: 0x1E6E8C0 Offset: 0x1E6CEC0 VA: 0x181E6E8C0
 	public static DudExplosive DeserializeLengthDelimited(Stream stream, DudExplosive instance, bool isDelta) { }
 
-	// RVA: 0x1E6E930 Offset: 0x1E6CF30 VA: 0x181E6E930
+	// RVA: 0x1E6EBF0 Offset: 0x1E6D1F0 VA: 0x181E6EBF0
 	public static DudExplosive DeserializeLength(Stream stream, int length, DudExplosive instance, bool isDelta) { }
 
-	// RVA: 0x1E6F150 Offset: 0x1E6D750 VA: 0x181E6F150
+	// RVA: 0x1E6F410 Offset: 0x1E6DA10 VA: 0x181E6F410
 	public static void SerializeDelta(Stream stream, DudExplosive instance, DudExplosive previous) { }
 
-	// RVA: 0x1E6F430 Offset: 0x1E6DA30 VA: 0x181E6F430
+	// RVA: 0x1E6F6F0 Offset: 0x1E6DCF0 VA: 0x181E6F6F0
 	public static void Serialize(Stream stream, DudExplosive instance) { }
 
-	// RVA: 0x1E6F510 Offset: 0x1E6DB10 VA: 0x181E6F510
+	// RVA: 0x1E6F7D0 Offset: 0x1E6DDD0 VA: 0x181E6F7D0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E6F520 Offset: 0x1E6DB20 VA: 0x181E6F520
+	// RVA: 0x1E6F7E0 Offset: 0x1E6DDE0 VA: 0x181E6F7E0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E6F320 Offset: 0x1E6D920 VA: 0x181E6F320
+	// RVA: 0x1E6F5E0 Offset: 0x1E6DBE0 VA: 0x181E6F5E0
 	public static byte[] SerializeToBytes(DudExplosive instance) { }
 
-	// RVA: 0x1E6F270 Offset: 0x1E6D870 VA: 0x181E6F270
+	// RVA: 0x1E6F530 Offset: 0x1E6DB30 VA: 0x181E6F530
 	public static void SerializeLengthDelimited(Stream stream, DudExplosive instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

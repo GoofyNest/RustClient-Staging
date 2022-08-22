@@ -31,16 +31,16 @@ internal class TypeData // TypeDefIndex: 2062
 
 	// Methods
 
-	// RVA: 0x1106CE0 Offset: 0x11052E0 VA: 0x181106CE0
+	// RVA: 0x1106FA0 Offset: 0x11055A0 VA: 0x181106FA0
 	public void .ctor(Type type, string elementName, bool isPrimitive) { }
 
-	// RVA: 0x11067F0 Offset: 0x1104DF0 VA: 0x1811067F0
+	// RVA: 0x1106AB0 Offset: 0x11050B0 VA: 0x181106AB0
 	public void .ctor(Type type, string elementName, bool isPrimitive, TypeData mappedType, XmlSchemaPatternFacet facet) { }
 
-	// RVA: 0x11046D0 Offset: 0x1102CD0 VA: 0x1811046D0
+	// RVA: 0x1104990 Offset: 0x1102F90 VA: 0x181104990
 	private void LookupTypeConvertor() { }
 
-	// RVA: 0x1104170 Offset: 0x1102770 VA: 0x181104170
+	// RVA: 0x1104430 Offset: 0x1102A30 VA: 0x181104430
 	internal void ConvertForAssignment(ref object value) { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
@@ -58,43 +58,43 @@ internal class TypeData // TypeDefIndex: 2062
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	public SchemaTypes get_SchemaType() { }
 
-	// RVA: 0x8C1000 Offset: 0x8BF600 VA: 0x1808C1000
+	// RVA: 0x8C1110 Offset: 0x8BF710 VA: 0x1808C1110
 	public bool get_IsListType() { }
 
-	// RVA: 0x1106D00 Offset: 0x1105300 VA: 0x181106D00
+	// RVA: 0x1106FC0 Offset: 0x11055C0 VA: 0x181106FC0
 	public bool get_IsComplexType() { }
 
-	// RVA: 0x1106EB0 Offset: 0x11054B0 VA: 0x181106EB0
+	// RVA: 0x1107170 Offset: 0x1105770 VA: 0x181107170
 	public bool get_IsValueType() { }
 
-	// RVA: 0x1106D20 Offset: 0x1105320 VA: 0x181106D20
+	// RVA: 0x1106FE0 Offset: 0x11055E0 VA: 0x181106FE0
 	public bool get_IsNullable() { }
 
-	// RVA: 0x10865F0 Offset: 0x1084BF0 VA: 0x1810865F0
+	// RVA: 0x10868B0 Offset: 0x1084EB0 VA: 0x1810868B0
 	public void set_IsNullable(bool value) { }
 
-	// RVA: 0x1106F50 Offset: 0x1105550 VA: 0x181106F50
+	// RVA: 0x1107210 Offset: 0x1105810 VA: 0x181107210
 	public TypeData get_ListItemTypeData() { }
 
-	// RVA: 0x1107020 Offset: 0x1105620 VA: 0x181107020
+	// RVA: 0x11072E0 Offset: 0x11058E0 VA: 0x1811072E0
 	public Type get_ListItemType() { }
 
-	// RVA: 0x831920 Offset: 0x82FF20 VA: 0x180831920
+	// RVA: 0x831A30 Offset: 0x830030 VA: 0x180831A30
 	public bool get_IsXsdType() { }
 
-	// RVA: 0xA4EFF0 Offset: 0xA4D5F0 VA: 0x180A4EFF0
+	// RVA: 0xA4F2B0 Offset: 0xA4D8B0 VA: 0x180A4F2B0
 	public bool get_HasPublicConstructor() { }
 
-	// RVA: 0x1104580 Offset: 0x1102B80 VA: 0x181104580
+	// RVA: 0x1104840 Offset: 0x1102E40 VA: 0x181104840
 	public static PropertyInfo GetIndexerProperty(Type collectionType) { }
 
-	// RVA: 0x1104270 Offset: 0x1102870 VA: 0x181104270
+	// RVA: 0x1104530 Offset: 0x1102B30 VA: 0x181104530
 	private static InvalidOperationException CreateMissingAddMethodException(Type type, string inheritFrom, Type argumentType) { }
 
-	// RVA: 0x1104370 Offset: 0x1102970 VA: 0x181104370
+	// RVA: 0x1104630 Offset: 0x1102C30 VA: 0x181104630
 	internal static Type GetGenericListItemType(Type type) { }
 
-	// RVA: 0x1104780 Offset: 0x1102D80 VA: 0x181104780
+	// RVA: 0x1104A40 Offset: 0x1103040 VA: 0x181104A40
 	private static void .cctor() { }
 
 }

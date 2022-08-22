@@ -6,10 +6,10 @@ public class ViewmodelAspectOffset : MonoBehaviour // TypeDefIndex: 11455
 
 	// Methods
 
-	// RVA: 0x7F6050 Offset: 0x7F4650 VA: 0x1807F6050
+	// RVA: 0x7F6160 Offset: 0x7F4760 VA: 0x1807F6160
 	public void Apply(ref CachedTransform<BaseViewModel> vm) { }
 
-	// RVA: 0x7F6150 Offset: 0x7F4750 VA: 0x1807F6150
+	// RVA: 0x7F6260 Offset: 0x7F4860 VA: 0x1807F6260
 	public void .ctor() { }
 
 }

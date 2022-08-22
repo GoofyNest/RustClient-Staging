@@ -34,133 +34,133 @@ public class ReaderWriterLockSlim : IDisposable // TypeDefIndex: 3191
 
 	// Methods
 
-	// RVA: 0x222B580 Offset: 0x2229B80 VA: 0x18222B580
+	// RVA: 0x222B840 Offset: 0x2229E40 VA: 0x18222B840
 	private void InitializeThreadCounts() { }
 
-	// RVA: 0x222C6A0 Offset: 0x222ACA0 VA: 0x18222C6A0
+	// RVA: 0x222C960 Offset: 0x222AF60 VA: 0x18222C960
 	public void .ctor() { }
 
-	// RVA: 0x222C700 Offset: 0x222AD00 VA: 0x18222C700
+	// RVA: 0x222C9C0 Offset: 0x222AFC0 VA: 0x18222C9C0
 	public void .ctor(LockRecursionPolicy recursionPolicy) { }
 
-	// RVA: 0x222B590 Offset: 0x2229B90 VA: 0x18222B590
+	// RVA: 0x222B850 Offset: 0x2229E50 VA: 0x18222B850
 	private static bool IsRWEntryEmpty(ReaderWriterCount rwc) { }
 
-	// RVA: 0x222B5D0 Offset: 0x2229BD0 VA: 0x18222B5D0
+	// RVA: 0x222B890 Offset: 0x2229E90 VA: 0x18222B890
 	private bool IsRwHashEntryChanged(ReaderWriterCount lrwc) { }
 
-	// RVA: 0x222B340 Offset: 0x2229940 VA: 0x18222B340
+	// RVA: 0x222B600 Offset: 0x2229C00 VA: 0x18222B600
 	private ReaderWriterCount GetThreadRWCount(bool dontAllocate) { }
 
-	// RVA: 0x222AD70 Offset: 0x2229370 VA: 0x18222AD70
+	// RVA: 0x222B030 Offset: 0x2229630 VA: 0x18222B030
 	public void EnterWriteLock() { }
 
-	// RVA: 0x222C440 Offset: 0x222AA40 VA: 0x18222C440
+	// RVA: 0x222C700 Offset: 0x222AD00 VA: 0x18222C700
 	public bool TryEnterWriteLock(int millisecondsTimeout) { }
 
-	// RVA: 0x222C4E0 Offset: 0x222AAE0 VA: 0x18222C4E0
+	// RVA: 0x222C7A0 Offset: 0x222ADA0 VA: 0x18222C7A0
 	private bool TryEnterWriteLock(ReaderWriterLockSlim.TimeoutTracker timeout) { }
 
-	// RVA: 0x222BD50 Offset: 0x222A350 VA: 0x18222BD50
+	// RVA: 0x222C010 Offset: 0x222A610 VA: 0x18222C010
 	private bool TryEnterWriteLockCore(ReaderWriterLockSlim.TimeoutTracker timeout) { }
 
-	// RVA: 0x222AD20 Offset: 0x2229320 VA: 0x18222AD20
+	// RVA: 0x222AFE0 Offset: 0x22295E0 VA: 0x18222AFE0
 	public void EnterUpgradeableReadLock() { }
 
-	// RVA: 0x222BCA0 Offset: 0x222A2A0 VA: 0x18222BCA0
+	// RVA: 0x222BF60 Offset: 0x222A560 VA: 0x18222BF60
 	public bool TryEnterUpgradeableReadLock(int millisecondsTimeout) { }
 
-	// RVA: 0x222BD40 Offset: 0x222A340 VA: 0x18222BD40
+	// RVA: 0x222C000 Offset: 0x222A600 VA: 0x18222C000
 	private bool TryEnterUpgradeableReadLock(ReaderWriterLockSlim.TimeoutTracker timeout) { }
 
-	// RVA: 0x222B760 Offset: 0x2229D60 VA: 0x18222B760
+	// RVA: 0x222BA20 Offset: 0x222A020 VA: 0x18222BA20
 	private bool TryEnterUpgradeableReadLockCore(ReaderWriterLockSlim.TimeoutTracker timeout) { }
 
-	// RVA: 0x222B190 Offset: 0x2229790 VA: 0x18222B190
+	// RVA: 0x222B450 Offset: 0x2229A50 VA: 0x18222B450
 	public void ExitWriteLock() { }
 
-	// RVA: 0x222AFB0 Offset: 0x22295B0 VA: 0x18222AFB0
+	// RVA: 0x222B270 Offset: 0x2229870 VA: 0x18222B270
 	public void ExitUpgradeableReadLock() { }
 
-	// RVA: 0x222B600 Offset: 0x2229C00 VA: 0x18222B600
+	// RVA: 0x222B8C0 Offset: 0x2229EC0 VA: 0x18222B8C0
 	private void LazyCreateEvent(ref EventWaitHandle waitEvent, bool makeAutoResetEvent) { }
 
-	// RVA: 0x222C4F0 Offset: 0x222AAF0 VA: 0x18222C4F0
+	// RVA: 0x222C7B0 Offset: 0x222ADB0 VA: 0x18222C7B0
 	private bool WaitOnEvent(EventWaitHandle waitEvent, ref uint numWaiters, ReaderWriterLockSlim.TimeoutTracker timeout, bool isWriteWaiter) { }
 
-	// RVA: 0x222AEF0 Offset: 0x22294F0 VA: 0x18222AEF0
+	// RVA: 0x222B1B0 Offset: 0x22297B0 VA: 0x18222B1B0
 	private void ExitAndWakeUpAppropriateWaiters() { }
 
-	// RVA: 0x222AE60 Offset: 0x2229460 VA: 0x18222AE60
+	// RVA: 0x222B120 Offset: 0x2229720 VA: 0x18222B120
 	private void ExitAndWakeUpAppropriateWaitersPreferringWriters() { }
 
-	// RVA: 0x222ADC0 Offset: 0x22293C0 VA: 0x18222ADC0
+	// RVA: 0x222B080 Offset: 0x2229680 VA: 0x18222B080
 	private void ExitAndWakeUpAppropriateReadWaiters() { }
 
-	// RVA: 0x222B5F0 Offset: 0x2229BF0 VA: 0x18222B5F0
+	// RVA: 0x222B8B0 Offset: 0x2229EB0 VA: 0x18222B8B0
 	private bool IsWriterAcquired() { }
 
-	// RVA: 0x222B6F0 Offset: 0x2229CF0 VA: 0x18222B6F0
+	// RVA: 0x222B9B0 Offset: 0x2229FB0 VA: 0x18222B9B0
 	private void SetWriterAcquired() { }
 
-	// RVA: 0x222A8C0 Offset: 0x2228EC0 VA: 0x18222A8C0
+	// RVA: 0x222AB80 Offset: 0x2229180 VA: 0x18222AB80
 	private void ClearWriterAcquired() { }
 
-	// RVA: 0x222B700 Offset: 0x2229D00 VA: 0x18222B700
+	// RVA: 0x222B9C0 Offset: 0x2229FC0 VA: 0x18222B9C0
 	private void SetWritersWaiting() { }
 
-	// RVA: 0x222A8D0 Offset: 0x2228ED0 VA: 0x18222A8D0
+	// RVA: 0x222AB90 Offset: 0x2229190 VA: 0x18222AB90
 	private void ClearWritersWaiting() { }
 
-	// RVA: 0x222B6E0 Offset: 0x2229CE0 VA: 0x18222B6E0
+	// RVA: 0x222B9A0 Offset: 0x2229FA0 VA: 0x18222B9A0
 	private void SetUpgraderWaiting() { }
 
-	// RVA: 0x222A8B0 Offset: 0x2228EB0 VA: 0x18222A8B0
+	// RVA: 0x222AB70 Offset: 0x2229170 VA: 0x18222AB70
 	private void ClearUpgraderWaiting() { }
 
-	// RVA: 0x222B330 Offset: 0x2229930 VA: 0x18222B330
+	// RVA: 0x222B5F0 Offset: 0x2229BF0 VA: 0x18222B5F0
 	private uint GetNumReaders() { }
 
-	// RVA: 0x222AC80 Offset: 0x2229280 VA: 0x18222AC80
+	// RVA: 0x222AF40 Offset: 0x2229540 VA: 0x18222AF40
 	private void EnterMyLock() { }
 
-	// RVA: 0x222ABF0 Offset: 0x22291F0 VA: 0x18222ABF0
+	// RVA: 0x222AEB0 Offset: 0x22294B0 VA: 0x18222AEB0
 	private void EnterMyLockSpin() { }
 
-	// RVA: 0x222AF90 Offset: 0x2229590 VA: 0x18222AF90
+	// RVA: 0x222B250 Offset: 0x2229850 VA: 0x18222B250
 	private void ExitMyLock() { }
 
-	// RVA: 0x222B710 Offset: 0x2229D10 VA: 0x18222B710
+	// RVA: 0x222B9D0 Offset: 0x2229FD0 VA: 0x18222B9D0
 	private static void SpinWait(int SpinCount) { }
 
-	// RVA: 0x222A8E0 Offset: 0x2228EE0 VA: 0x18222A8E0 Slot: 4
+	// RVA: 0x222ABA0 Offset: 0x22291A0 VA: 0x18222ABA0 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x222A8F0 Offset: 0x2228EF0 VA: 0x18222A8F0
+	// RVA: 0x222ABB0 Offset: 0x22291B0 VA: 0x18222ABB0
 	private void Dispose(bool disposing) { }
 
-	// RVA: 0x222C770 Offset: 0x222AD70 VA: 0x18222C770
+	// RVA: 0x222CA30 Offset: 0x222B030 VA: 0x18222CA30
 	public bool get_IsReadLockHeld() { }
 
-	// RVA: 0x222C7E0 Offset: 0x222ADE0 VA: 0x18222C7E0
+	// RVA: 0x222CAA0 Offset: 0x222B0A0 VA: 0x18222CAA0
 	public bool get_IsUpgradeableReadLockHeld() { }
 
-	// RVA: 0x222C870 Offset: 0x222AE70 VA: 0x18222C870
+	// RVA: 0x222CB30 Offset: 0x222B130 VA: 0x18222CB30
 	public bool get_IsWriteLockHeld() { }
 
-	// RVA: 0x222C900 Offset: 0x222AF00 VA: 0x18222C900
+	// RVA: 0x222CBC0 Offset: 0x222B1C0 VA: 0x18222CBC0
 	public int get_RecursiveReadCount() { }
 
-	// RVA: 0x222C970 Offset: 0x222AF70 VA: 0x18222C970
+	// RVA: 0x222CC30 Offset: 0x222B230 VA: 0x18222CC30
 	public int get_RecursiveUpgradeCount() { }
 
-	// RVA: 0x222CA20 Offset: 0x222B020 VA: 0x18222CA20
+	// RVA: 0x222CCE0 Offset: 0x222B2E0 VA: 0x18222CCE0
 	public int get_RecursiveWriteCount() { }
 
 	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
 	public int get_WaitingReadCount() { }
 
-	// RVA: 0x7D0C00 Offset: 0x7CF200 VA: 0x1807D0C00
+	// RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10
 	public int get_WaitingUpgradeCount() { }
 
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470

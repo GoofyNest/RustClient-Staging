@@ -8,7 +8,7 @@ public sealed class TargetFrameworkAttribute : Attribute // TypeDefIndex: 1021
 
 	// Methods
 
-	// RVA: 0x12AA250 Offset: 0x12A8850 VA: 0x1812AA250
+	// RVA: 0x12AA510 Offset: 0x12A8B10 VA: 0x1812AA510
 	public void .ctor(string frameworkName) { }
 
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0

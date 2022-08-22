@@ -10,7 +10,7 @@ internal abstract class X509CertificateImpl : IDisposable // TypeDefIndex: 1018
 	// RVA: -1 Offset: -1 Slot: 5
 	public abstract bool get_IsValid();
 
-	// RVA: 0x17CB580 Offset: 0x17C9B80 VA: 0x1817CB580
+	// RVA: 0x17CB840 Offset: 0x17C9E40 VA: 0x1817CB840
 	protected void ThrowIfContextInvalid() { }
 
 	// RVA: -1 Offset: -1 Slot: 6
@@ -31,13 +31,13 @@ internal abstract class X509CertificateImpl : IDisposable // TypeDefIndex: 1018
 	// RVA: -1 Offset: -1 Slot: 11
 	public abstract DateTime GetValidUntil();
 
-	// RVA: 0x17CB3F0 Offset: 0x17C99F0 VA: 0x1817CB3F0
+	// RVA: 0x17CB6B0 Offset: 0x17C9CB0 VA: 0x1817CB6B0
 	public byte[] GetCertHash() { }
 
 	// RVA: -1 Offset: -1 Slot: 12
 	protected abstract byte[] GetCertHash(bool lazy);
 
-	// RVA: 0x17CB490 Offset: 0x17C9A90 VA: 0x1817CB490 Slot: 2
+	// RVA: 0x17CB750 Offset: 0x17C9D50 VA: 0x1817CB750 Slot: 2
 	public override int GetHashCode() { }
 
 	// RVA: -1 Offset: -1 Slot: 13
@@ -49,16 +49,16 @@ internal abstract class X509CertificateImpl : IDisposable // TypeDefIndex: 1018
 	// RVA: -1 Offset: -1 Slot: 15
 	public abstract string ToString(bool full);
 
-	// RVA: 0x17CB1C0 Offset: 0x17C97C0 VA: 0x1817CB1C0 Slot: 0
+	// RVA: 0x17CB480 Offset: 0x17C9A80 VA: 0x1817CB480 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x17CB150 Offset: 0x17C9750 VA: 0x1817CB150 Slot: 4
+	// RVA: 0x17CB410 Offset: 0x17C9A10 VA: 0x1817CB410 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0xE36CA0 Offset: 0xE352A0 VA: 0x180E36CA0 Slot: 16
+	// RVA: 0xE36F60 Offset: 0xE35560 VA: 0x180E36F60 Slot: 16
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x17CB350 Offset: 0x17C9950 VA: 0x1817CB350 Slot: 1
+	// RVA: 0x17CB610 Offset: 0x17C9C10 VA: 0x1817CB610 Slot: 1
 	protected override void Finalize() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

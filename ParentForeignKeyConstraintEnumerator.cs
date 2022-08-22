@@ -4,10 +4,10 @@ internal sealed class ParentForeignKeyConstraintEnumerator : ForeignKeyConstrain
 
 	// Methods
 
-	// RVA: 0xE94870 Offset: 0xE92E70 VA: 0x180E94870
+	// RVA: 0xE94B30 Offset: 0xE93130 VA: 0x180E94B30
 	public void .ctor(DataSet dataSet, DataTable inTable) { }
 
-	// RVA: 0xE94740 Offset: 0xE92D40 VA: 0x180E94740 Slot: 4
+	// RVA: 0xE94A00 Offset: 0xE93000 VA: 0x180E94A00 Slot: 4
 	protected override bool IsValidCandidate(Constraint constraint) { }
 
 }

@@ -32,47 +32,47 @@ public class AlignedLineDrawer : MonoBehaviour, IClientComponent // TypeDefIndex
 	// RVA: 0x5DD810 Offset: 0x5DBE10 VA: 0x1805DD810
 	private void set_CreatedMesh(Mesh value) { }
 
-	// RVA: 0xAA5B30 Offset: 0xAA4130 VA: 0x180AA5B30
+	// RVA: 0xAA5DF0 Offset: 0xAA43F0 VA: 0x180AA5DF0
 	private List<AlignedLineDrawer.LinePoint> get_Points() { }
 
-	// RVA: 0xAA4360 Offset: 0xAA2960 VA: 0x180AA4360
+	// RVA: 0xAA4620 Offset: 0xAA2C20 VA: 0x180AA4620
 	public void QueueMeshUpdate(bool isFinal, Action onComplete) { }
 
-	// RVA: 0xAA3080 Offset: 0xAA1680 VA: 0x180AA3080
+	// RVA: 0xAA3340 Offset: 0xAA1940 VA: 0x180AA3340
 	public void ClearMesh() { }
 
-	// RVA: 0xAA5230 Offset: 0xAA3830 VA: 0x180AA5230 Slot: 4
+	// RVA: 0xAA54F0 Offset: 0xAA3AF0 VA: 0x180AA54F0 Slot: 4
 	public virtual void UpdateMesh(bool isFinal = False) { }
 
-	// RVA: 0xAA3D20 Offset: 0xAA2320 VA: 0x180AA3D20
+	// RVA: 0xAA3FE0 Offset: 0xAA25E0 VA: 0x180AA3FE0
 	private void MakeEndCap(AlignedLineDrawer.LinePoint startPoint, AlignedLineDrawer.LinePoint oppositePoint, List<Vector3> verts, List<int> tris, List<Vector2> uvs, Matrix4x4 localToWorld, int startTriangle, int endTriangle) { }
 
-	// RVA: 0xAA34B0 Offset: 0xAA1AB0 VA: 0x180AA34B0
+	// RVA: 0xAA3770 Offset: 0xAA1D70 VA: 0x180AA3770
 	private void ExtrudePoints(List<AlignedLineDrawer.LinePoint> points, List<Vector3> verts, List<int> tris, List<Vector2> uvs, float extrudeDistance) { }
 
-	// RVA: 0xAA2FF0 Offset: 0xAA15F0 VA: 0x180AA2FF0 Slot: 5
+	// RVA: 0xAA32B0 Offset: 0xAA18B0 VA: 0x180AA32B0 Slot: 5
 	protected virtual void AssignMesh() { }
 
-	// RVA: 0xAA4410 Offset: 0xAA2A10 VA: 0x180AA4410 Slot: 6
+	// RVA: 0xAA46D0 Offset: 0xAA2CD0 VA: 0x180AA46D0 Slot: 6
 	public virtual void SetColour(Color c) { }
 
-	// RVA: 0x862A90 Offset: 0x861090 VA: 0x180862A90 Slot: 7
+	// RVA: 0x862BA0 Offset: 0x8611A0 VA: 0x180862BA0 Slot: 7
 	public virtual void SetWidth(float width) { }
 
-	// RVA: 0xAA3990 Offset: 0xAA1F90 VA: 0x180AA3990
+	// RVA: 0xAA3C50 Offset: 0xAA2250 VA: 0x180AA3C50
 	public static int GetCompressedPathLength(List<AlignedLineDrawer.LinePoint> toCompress, float tolerance) { }
 
-	// RVA: 0xAA3110 Offset: 0xAA1710 VA: 0x180AA3110
+	// RVA: 0xAA33D0 Offset: 0xAA19D0 VA: 0x180AA33D0
 	public static void CompressPath(List<AlignedLineDrawer.LinePoint> toCompress, float tolerance) { }
 
-	// RVA: 0xAA5B00 Offset: 0xAA4100 VA: 0x180AA5B00
+	// RVA: 0xAA5DC0 Offset: 0xAA43C0 VA: 0x180AA5DC0
 	public void .ctor() { }
 
-	// RVA: 0xAA5A80 Offset: 0xAA4080 VA: 0x180AA5A80
+	// RVA: 0xAA5D40 Offset: 0xAA4340 VA: 0x180AA5D40
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAA4580 Offset: 0xAA2B80 VA: 0x180AA4580
+	// RVA: 0xAA4840 Offset: 0xAA2E40 VA: 0x180AA4840
 	private void <UpdateMesh>g__GenerateLineSegment|24_0(int startPoint, int endPoint, ref AlignedLineDrawer.<>c__DisplayClass24_0 ) { }
 
 }
@@ -87,13 +87,13 @@ public struct AlignedLineDrawer.LinePoint // TypeDefIndex: 8876
 public class AlignedLineDrawer.LineDrawerQueue : ObjectWorkQueue<AlignedLineDrawer> // TypeDefIndex: 8877
 {	// Methods
 
-	// RVA: 0xAAB120 Offset: 0xAA9720 VA: 0x180AAB120 Slot: 6
+	// RVA: 0xAAB3E0 Offset: 0xAA99E0 VA: 0x180AAB3E0 Slot: 6
 	protected override void RunJob(AlignedLineDrawer entity) { }
 
-	// RVA: 0xAAB170 Offset: 0xAA9770 VA: 0x180AAB170 Slot: 5
+	// RVA: 0xAAB430 Offset: 0xAA9A30 VA: 0x180AAB430 Slot: 5
 	protected override bool ShouldAdd(AlignedLineDrawer entity) { }
 
-	// RVA: 0xAAB200 Offset: 0xAA9800 VA: 0x180AAB200
+	// RVA: 0xAAB4C0 Offset: 0xAA9AC0 VA: 0x180AAB4C0
 	public void .ctor() { }
 
 }

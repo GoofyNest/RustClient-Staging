@@ -13,61 +13,61 @@ public class PathFinder // TypeDefIndex: 11395
 
 	// Methods
 
-	// RVA: 0x860B00 Offset: 0x85F100 VA: 0x180860B00
+	// RVA: 0x860C10 Offset: 0x85F210 VA: 0x180860C10
 	public void .ctor(int[,] costmap, bool diagonals = True, bool directional = True) { }
 
-	// RVA: 0x8604A0 Offset: 0x85EAA0 VA: 0x1808604A0
+	// RVA: 0x8605B0 Offset: 0x85EBB0 VA: 0x1808605B0
 	public int GetResolution(int index) { }
 
-	// RVA: 0x860480 Offset: 0x85EA80 VA: 0x180860480
+	// RVA: 0x860590 Offset: 0x85EB90 VA: 0x180860590
 	public PathFinder.Node FindPath(PathFinder.Point start, PathFinder.Point end, int depth = 2147483647) { }
 
-	// RVA: 0x85FFA0 Offset: 0x85E5A0 VA: 0x18085FFA0
+	// RVA: 0x8600B0 Offset: 0x85E6B0 VA: 0x1808600B0
 	private PathFinder.Node FindPathReversed(PathFinder.Point start, PathFinder.Point end, int depth = 2147483647) { }
 
-	// RVA: 0x85FA00 Offset: 0x85E000 VA: 0x18085FA00
+	// RVA: 0x85FB10 Offset: 0x85E110 VA: 0x18085FB10
 	public PathFinder.Node FindPathDirected(List<PathFinder.Point> startList, List<PathFinder.Point> endList, int depth = 2147483647) { }
 
-	// RVA: 0x8603E0 Offset: 0x85E9E0 VA: 0x1808603E0
+	// RVA: 0x8604F0 Offset: 0x85EAF0 VA: 0x1808604F0
 	public PathFinder.Node FindPathUndirected(List<PathFinder.Point> startList, List<PathFinder.Point> endList, int depth = 2147483647) { }
 
-	// RVA: 0x85FA90 Offset: 0x85E090 VA: 0x18085FA90
+	// RVA: 0x85FBA0 Offset: 0x85E1A0 VA: 0x18085FBA0
 	private PathFinder.Node FindPathReversed(List<PathFinder.Point> startList, List<PathFinder.Point> endList, int depth = 2147483647) { }
 
-	// RVA: 0x85F650 Offset: 0x85DC50 VA: 0x18085F650
+	// RVA: 0x85F760 Offset: 0x85DD60 VA: 0x18085F760
 	public PathFinder.Node FindClosestWalkable(PathFinder.Point start, int depth = 2147483647) { }
 
-	// RVA: 0x860780 Offset: 0x85ED80 VA: 0x180860780
+	// RVA: 0x860890 Offset: 0x85EE90 VA: 0x180860890
 	public bool IsWalkable(PathFinder.Point point) { }
 
-	// RVA: 0x860630 Offset: 0x85EC30 VA: 0x180860630
+	// RVA: 0x860740 Offset: 0x85ED40 VA: 0x180860740
 	public bool IsWalkableWithNeighbours(PathFinder.Point point) { }
 
-	// RVA: 0x8607F0 Offset: 0x85EDF0 VA: 0x1808607F0
+	// RVA: 0x860900 Offset: 0x85EF00 VA: 0x180860900
 	public PathFinder.Node Reverse(PathFinder.Node start) { }
 
-	// RVA: 0x85F9E0 Offset: 0x85DFE0 VA: 0x18085F9E0
+	// RVA: 0x85FAF0 Offset: 0x85E0F0 VA: 0x18085FAF0
 	public PathFinder.Node FindEnd(PathFinder.Node start) { }
 
-	// RVA: 0x85F400 Offset: 0x85DA00 VA: 0x18085F400
+	// RVA: 0x85F510 Offset: 0x85DB10 VA: 0x18085F510
 	public int Cost(PathFinder.Point a) { }
 
-	// RVA: 0x85F530 Offset: 0x85DB30 VA: 0x18085F530
+	// RVA: 0x85F640 Offset: 0x85DC40 VA: 0x18085F640
 	public int Cost(PathFinder.Point a, PathFinder.Node neighbour) { }
 
-	// RVA: 0x8604E0 Offset: 0x85EAE0 VA: 0x1808604E0
+	// RVA: 0x8605F0 Offset: 0x85EBF0 VA: 0x1808605F0
 	public int Heuristic(PathFinder.Point a) { }
 
-	// RVA: 0x8604C0 Offset: 0x85EAC0 VA: 0x1808604C0
+	// RVA: 0x8605D0 Offset: 0x85EBD0 VA: 0x1808605D0
 	public int Heuristic(PathFinder.Point a, PathFinder.Point b) { }
 
-	// RVA: 0x860550 Offset: 0x85EB50 VA: 0x180860550
+	// RVA: 0x860660 Offset: 0x85EC60 VA: 0x180860660
 	public int Heuristic(PathFinder.Point a, List<PathFinder.Point> b) { }
 
-	// RVA: 0x85F5C0 Offset: 0x85DBC0 VA: 0x18085F5C0
+	// RVA: 0x85F6D0 Offset: 0x85DCD0 VA: 0x18085F6D0
 	public float Distance(PathFinder.Point a, PathFinder.Point b) { }
 
-	// RVA: 0x860850 Offset: 0x85EE50 VA: 0x180860850
+	// RVA: 0x860960 Offset: 0x85EF60 VA: 0x180860960
 	private static void .cctor() { }
 
 }
@@ -82,22 +82,22 @@ public struct PathFinder.Point : IEquatable<PathFinder.Point> // TypeDefIndex: 1
 	// RVA: 0xF88D0 Offset: 0xF7CD0 VA: 0x1800F88D0
 	public void .ctor(int x, int y) { }
 
-	// RVA: 0x8752C0 Offset: 0x8738C0 VA: 0x1808752C0
+	// RVA: 0x8753D0 Offset: 0x8739D0 VA: 0x1808753D0
 	public static PathFinder.Point op_Addition(PathFinder.Point a, PathFinder.Point b) { }
 
-	// RVA: 0x875360 Offset: 0x873960 VA: 0x180875360
+	// RVA: 0x875470 Offset: 0x873A70 VA: 0x180875470
 	public static PathFinder.Point op_Subtraction(PathFinder.Point a, PathFinder.Point b) { }
 
-	// RVA: 0x875340 Offset: 0x873940 VA: 0x180875340
+	// RVA: 0x875450 Offset: 0x873A50 VA: 0x180875450
 	public static PathFinder.Point op_Multiply(PathFinder.Point p, int i) { }
 
-	// RVA: 0x8752E0 Offset: 0x8738E0 VA: 0x1808752E0
+	// RVA: 0x8753F0 Offset: 0x8739F0 VA: 0x1808753F0
 	public static PathFinder.Point op_Division(PathFinder.Point p, int i) { }
 
-	// RVA: 0x875300 Offset: 0x873900 VA: 0x180875300
+	// RVA: 0x875410 Offset: 0x873A10 VA: 0x180875410
 	public static bool op_Equality(PathFinder.Point a, PathFinder.Point b) { }
 
-	// RVA: 0x875320 Offset: 0x873920 VA: 0x180875320
+	// RVA: 0x875430 Offset: 0x873A30 VA: 0x180875430
 	public static bool op_Inequality(PathFinder.Point a, PathFinder.Point b) { }
 
 	// RVA: 0xF94C0 Offset: 0xF88C0 VA: 0x1800F94C0 Slot: 2
@@ -137,17 +137,17 @@ public class PathFinder.Node : IMinHeapNode<PathFinder.Node>, ILinkedListNode<Pa
 	public void set_next(PathFinder.Node value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330 Slot: 4
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 4
 	public PathFinder.Node get_child() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340 Slot: 5
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450 Slot: 5
 	public void set_child(PathFinder.Node value) { }
 
-	// RVA: 0x79B540 Offset: 0x799B40 VA: 0x18079B540 Slot: 6
+	// RVA: 0x79B650 Offset: 0x799C50 VA: 0x18079B650 Slot: 6
 	public int get_order() { }
 
-	// RVA: 0x8594A0 Offset: 0x857AA0 VA: 0x1808594A0
+	// RVA: 0x8595B0 Offset: 0x857BB0 VA: 0x1808595B0
 	public void .ctor(PathFinder.Point point, int cost, int heuristic, PathFinder.Node next) { }
 
 }

@@ -34,7 +34,7 @@ public class ERSORoad // TypeDefIndex: 7228
 
 	// Methods
 
-	// RVA: 0xA5A440 Offset: 0xA58A40 VA: 0x180A5A440
+	// RVA: 0xA5A700 Offset: 0xA58D00 VA: 0x180A5A700
 	public void .ctor(SideObject so) { }
 
 }

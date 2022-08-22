@@ -4,10 +4,10 @@ internal sealed class VisualTreeUpdater // TypeDefIndex: 4618
 
 	// Methods
 
-	// RVA: 0x22F7810 Offset: 0x22F5E10 VA: 0x1822F7810
+	// RVA: 0x22F7AD0 Offset: 0x22F60D0 VA: 0x1822F7AD0
 	public void UpdateVisualTreePhase(VisualTreeUpdatePhase phase) { }
 
-	// RVA: 0x22F76E0 Offset: 0x22F5CE0 VA: 0x1822F76E0
+	// RVA: 0x22F79A0 Offset: 0x22F5FA0 VA: 0x1822F79A0
 	public void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType) { }
 
 }
@@ -22,10 +22,10 @@ private class VisualTreeUpdater.UpdaterArray // TypeDefIndex: 4619
 
 	// Methods
 
-	// RVA: 0x9EB5E0 Offset: 0x9E9BE0 VA: 0x1809EB5E0
+	// RVA: 0x9EB8A0 Offset: 0x9E9EA0 VA: 0x1809EB8A0
 	public IVisualTreeUpdater get_Item(VisualTreeUpdatePhase phase) { }
 
-	// RVA: 0x9EB5E0 Offset: 0x9E9BE0 VA: 0x1809EB5E0
+	// RVA: 0x9EB8A0 Offset: 0x9E9EA0 VA: 0x1809EB8A0
 	public IVisualTreeUpdater get_Item(int index) { }
 
 }

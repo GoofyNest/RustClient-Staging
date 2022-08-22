@@ -12,7 +12,7 @@ public class VisualEffectAsset : VisualEffectObject // TypeDefIndex: 4765
 
 	// Methods
 
-	// RVA: 0x23218F0 Offset: 0x231FEF0 VA: 0x1823218F0
+	// RVA: 0x2321BB0 Offset: 0x23201B0 VA: 0x182321BB0
 	private static void .cctor() { }
 
 }

@@ -8,10 +8,10 @@ public sealed class SequencerSpecificEvent : MetaEvent // TypeDefIndex: 7544
 
 	// Methods
 
-	// RVA: 0x13A58D0 Offset: 0x13A3ED0 VA: 0x1813A58D0
+	// RVA: 0x13A5B90 Offset: 0x13A4190 VA: 0x1813A5B90
 	public void .ctor() { }
 
-	// RVA: 0x13A5890 Offset: 0x13A3E90 VA: 0x1813A5890
+	// RVA: 0x13A5B50 Offset: 0x13A4150 VA: 0x1813A5B50
 	public void .ctor(byte[] data) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -22,13 +22,13 @@ public sealed class SequencerSpecificEvent : MetaEvent // TypeDefIndex: 7544
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_Data(byte[] value) { }
 
-	// RVA: 0x13A5780 Offset: 0x13A3D80 VA: 0x1813A5780 Slot: 6
+	// RVA: 0x13A5A40 Offset: 0x13A4040 VA: 0x1813A5A40 Slot: 6
 	protected override void ReadContent(MidiReader reader, ReadingSettings settings, int size) { }
 
-	// RVA: 0x13A56F0 Offset: 0x13A3CF0 VA: 0x1813A56F0 Slot: 5
+	// RVA: 0x13A59B0 Offset: 0x13A3FB0 VA: 0x1813A59B0 Slot: 5
 	protected override MidiEvent CloneEvent() { }
 
-	// RVA: 0x13A5860 Offset: 0x13A3E60 VA: 0x1813A5860 Slot: 3
+	// RVA: 0x13A5B20 Offset: 0x13A4120 VA: 0x1813A5B20 Slot: 3
 	public override string ToString() { }
 
 }

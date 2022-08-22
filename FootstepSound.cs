@@ -7,10 +7,10 @@ public class FootstepSound : MonoBehaviour, IClientComponent // TypeDefIndex: 89
 
 	// Methods
 
-	// RVA: 0x7519B0 Offset: 0x74FFB0 VA: 0x1807519B0
+	// RVA: 0x751AC0 Offset: 0x7500C0 VA: 0x180751AC0
 	public void PlayFootstep(FootstepSound.Hardness hardness, bool localPlayer = False, GameObject sourceObject, bool left = False) { }
 
-	// RVA: 0x751990 Offset: 0x74FF90 VA: 0x180751990
+	// RVA: 0x751AA0 Offset: 0x7500A0 VA: 0x180751AA0
 	private SoundDefinition GetSound(FootstepSound.Hardness hardness) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

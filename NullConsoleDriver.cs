@@ -39,13 +39,13 @@ internal class NullConsoleDriver : IConsoleDriver // TypeDefIndex: 378
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 12
 	public bool get_KeyAvailable() { }
 
-	// RVA: 0x1679A10 Offset: 0x1678010 VA: 0x181679A10 Slot: 13
+	// RVA: 0x1679CD0 Offset: 0x16782D0 VA: 0x181679CD0 Slot: 13
 	public ConsoleKeyInfo ReadKey(bool intercept) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void .ctor() { }
 
-	// RVA: 0x1679A80 Offset: 0x1678080 VA: 0x181679A80
+	// RVA: 0x1679D40 Offset: 0x1678340 VA: 0x181679D40
 	private static void .cctor() { }
 
 }

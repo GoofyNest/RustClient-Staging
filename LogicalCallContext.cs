@@ -20,34 +20,34 @@ public sealed class LogicalCallContext : ISerializable, ICloneable // TypeDefInd
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x147B630 Offset: 0x1479C30 VA: 0x18147B630
+	// RVA: 0x147B8F0 Offset: 0x1479EF0 VA: 0x18147B8F0
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x147AEC0 Offset: 0x14794C0 VA: 0x18147AEC0 Slot: 4
+	// RVA: 0x147B180 Offset: 0x1479780 VA: 0x18147B180 Slot: 4
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x147A780 Offset: 0x1478D80 VA: 0x18147A780 Slot: 5
+	// RVA: 0x147AA40 Offset: 0x1479040 VA: 0x18147AA40 Slot: 5
 	public object Clone() { }
 
-	// RVA: 0x147B200 Offset: 0x1479800 VA: 0x18147B200
+	// RVA: 0x147B4C0 Offset: 0x1479AC0 VA: 0x18147B4C0
 	internal void Merge(LogicalCallContext lc) { }
 
-	// RVA: 0x147B9B0 Offset: 0x1479FB0 VA: 0x18147B9B0
+	// RVA: 0x147BC70 Offset: 0x147A270 VA: 0x18147BC70
 	public bool get_HasInfo() { }
 
-	// RVA: 0x14784A0 Offset: 0x1476AA0 VA: 0x1814784A0
+	// RVA: 0x1478760 Offset: 0x1476D60 VA: 0x181478760
 	private bool get_HasUserData() { }
 
-	// RVA: 0x147B940 Offset: 0x1479F40 VA: 0x18147B940
+	// RVA: 0x147BC00 Offset: 0x147A200 VA: 0x18147BC00
 	private Hashtable get_Datastore() { }
 
-	// RVA: 0x147AE20 Offset: 0x1479420 VA: 0x18147AE20
+	// RVA: 0x147B0E0 Offset: 0x14796E0 VA: 0x18147B0E0
 	public object GetData(string name) { }
 
-	// RVA: 0x147B4D0 Offset: 0x1479AD0 VA: 0x18147B4D0
+	// RVA: 0x147B790 Offset: 0x1479D90 VA: 0x18147B790
 	public void SetData(string name, object data) { }
 
-	// RVA: 0x147B5C0 Offset: 0x1479BC0 VA: 0x18147B5C0
+	// RVA: 0x147B880 Offset: 0x1479E80 VA: 0x18147B880
 	private static void .cctor() { }
 
 }

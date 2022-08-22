@@ -11,13 +11,13 @@ public class SortKey // TypeDefIndex: 733
 
 	// Methods
 
-	// RVA: 0x1386060 Offset: 0x1384660 VA: 0x181386060
+	// RVA: 0x1386320 Offset: 0x1384920 VA: 0x181386320
 	public static int Compare(SortKey sortkey1, SortKey sortkey2) { }
 
-	// RVA: 0x1386750 Offset: 0x1384D50 VA: 0x181386750
+	// RVA: 0x1386A10 Offset: 0x1385010 VA: 0x181386A10
 	internal void .ctor(int lcid, string source, CompareOptions opt) { }
 
-	// RVA: 0x13867D0 Offset: 0x1384DD0 VA: 0x1813867D0
+	// RVA: 0x1386A90 Offset: 0x1385090 VA: 0x181386A90
 	internal void .ctor(int lcid, string source, byte[] buffer, CompareOptions opt, int lv1Length, int lv2Length, int lv3Length, int kanaSmallLength, int markTypeLength, int katakanaLength, int kanaWidthLength, int identLength) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 4
@@ -26,16 +26,16 @@ public class SortKey // TypeDefIndex: 733
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 5
 	public virtual byte[] get_KeyData() { }
 
-	// RVA: 0x1386230 Offset: 0x1384830 VA: 0x181386230 Slot: 0
+	// RVA: 0x13864F0 Offset: 0x1384AF0 VA: 0x1813864F0 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x13863E0 Offset: 0x13849E0 VA: 0x1813863E0 Slot: 2
+	// RVA: 0x13866A0 Offset: 0x1384CA0 VA: 0x1813866A0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1386470 Offset: 0x1384A70 VA: 0x181386470 Slot: 3
+	// RVA: 0x1386730 Offset: 0x1384D30 VA: 0x181386730 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x13867A0 Offset: 0x1384DA0 VA: 0x1813867A0
+	// RVA: 0x1386A60 Offset: 0x1385060 VA: 0x181386A60
 	internal void .ctor() { }
 
 }

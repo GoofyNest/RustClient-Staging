@@ -57,221 +57,221 @@ public class WebClient : Component // TypeDefIndex: 2953
 
 	// Methods
 
-	// RVA: 0x1015160 Offset: 0x1013760 VA: 0x181015160
+	// RVA: 0x1015420 Offset: 0x1013A20 VA: 0x181015420
 	public void .ctor() { }
 
-	// RVA: 0x1012A00 Offset: 0x1011000 VA: 0x181012A00
+	// RVA: 0x1012CC0 Offset: 0x10112C0 VA: 0x181012CC0
 	private void InitWebClientAsync() { }
 
-	// RVA: 0x10100B0 Offset: 0x100E6B0 VA: 0x1810100B0
+	// RVA: 0x1010370 Offset: 0x100E970 VA: 0x181010370
 	private void ClearWebClientState() { }
 
-	// RVA: 0x1010190 Offset: 0x100E790 VA: 0x181010190
+	// RVA: 0x1010450 Offset: 0x100EA50 VA: 0x181010450
 	private void CompleteWebClientState() { }
 
 	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
 	public Encoding get_Encoding() { }
 
-	// RVA: 0x10154E0 Offset: 0x1013AE0 VA: 0x1810154E0
+	// RVA: 0x10157A0 Offset: 0x1013DA0 VA: 0x1810157A0
 	public void set_Encoding(Encoding value) { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	public ICredentials get_Credentials() { }
 
-	// RVA: 0x1012810 Offset: 0x1010E10 VA: 0x181012810 Slot: 12
+	// RVA: 0x1012AD0 Offset: 0x10110D0 VA: 0x181012AD0 Slot: 12
 	protected virtual WebRequest GetWebRequest(Uri address) { }
 
-	// RVA: 0x10129B0 Offset: 0x1010FB0 VA: 0x1810129B0 Slot: 13
+	// RVA: 0x1012C70 Offset: 0x1011270 VA: 0x181012C70 Slot: 13
 	protected virtual WebResponse GetWebResponse(WebRequest request) { }
 
-	// RVA: 0x1012950 Offset: 0x1010F50 VA: 0x181012950 Slot: 14
+	// RVA: 0x1012C10 Offset: 0x1011210 VA: 0x181012C10 Slot: 14
 	protected virtual WebResponse GetWebResponse(WebRequest request, IAsyncResult result) { }
 
-	// RVA: 0x1011160 Offset: 0x100F760 VA: 0x181011160
+	// RVA: 0x1011420 Offset: 0x100FA20 VA: 0x181011420
 	private byte[] DownloadDataInternal(Uri address, out WebRequest request) { }
 
-	// RVA: 0x10148D0 Offset: 0x1012ED0 VA: 0x1810148D0
+	// RVA: 0x1014B90 Offset: 0x1013190 VA: 0x181014B90
 	private byte[] UploadValuesInternal(NameValueCollection data) { }
 
-	// RVA: 0x1011B10 Offset: 0x1010110 VA: 0x181011B10
+	// RVA: 0x1011DD0 Offset: 0x10103D0 VA: 0x181011DD0
 	public string DownloadString(string address) { }
 
-	// RVA: 0x10119B0 Offset: 0x100FFB0 VA: 0x1810119B0
+	// RVA: 0x1011C70 Offset: 0x1010270 VA: 0x181011C70
 	public string DownloadString(Uri address) { }
 
-	// RVA: 0x100FF40 Offset: 0x100E540 VA: 0x18100FF40
+	// RVA: 0x1010200 Offset: 0x100E800 VA: 0x181010200
 	private static void AbortRequest(WebRequest request) { }
 
-	// RVA: 0x10101A0 Offset: 0x100E7A0 VA: 0x1810101A0
+	// RVA: 0x1010460 Offset: 0x100EA60 VA: 0x181010460
 	private void CopyHeadersTo(WebRequest request) { }
 
-	// RVA: 0x10120A0 Offset: 0x10106A0 VA: 0x1810120A0
+	// RVA: 0x1012360 Offset: 0x1010960 VA: 0x181012360
 	private Uri GetUri(string path) { }
 
-	// RVA: 0x10124E0 Offset: 0x1010AE0 VA: 0x1810124E0
+	// RVA: 0x10127A0 Offset: 0x1010DA0 VA: 0x1810127A0
 	private Uri GetUri(Uri address) { }
 
-	// RVA: 0x1010CA0 Offset: 0x100F2A0 VA: 0x181010CA0
+	// RVA: 0x1010F60 Offset: 0x100F560 VA: 0x181010F60
 	private static void DownloadBitsResponseCallback(IAsyncResult result) { }
 
-	// RVA: 0x1010BF0 Offset: 0x100F1F0 VA: 0x181010BF0
+	// RVA: 0x1010EB0 Offset: 0x100F4B0 VA: 0x181010EB0
 	private static void DownloadBitsReadCallback(IAsyncResult result) { }
 
-	// RVA: 0x10108C0 Offset: 0x100EEC0 VA: 0x1810108C0
+	// RVA: 0x1010B80 Offset: 0x100F180 VA: 0x181010B80
 	private static void DownloadBitsReadCallbackState(WebClient.DownloadBitsState state, IAsyncResult result) { }
 
-	// RVA: 0x1010FF0 Offset: 0x100F5F0 VA: 0x181010FF0
+	// RVA: 0x10112B0 Offset: 0x100F8B0 VA: 0x1810112B0
 	private byte[] DownloadBits(WebRequest request, Stream writeStream, CompletionDelegate completionDelegate, AsyncOperation asyncOp) { }
 
-	// RVA: 0x1013680 Offset: 0x1011C80 VA: 0x181013680
+	// RVA: 0x1013940 Offset: 0x1011F40 VA: 0x181013940
 	private static void UploadBitsRequestCallback(IAsyncResult result) { }
 
-	// RVA: 0x10139A0 Offset: 0x1011FA0 VA: 0x1810139A0
+	// RVA: 0x1013C60 Offset: 0x1012260 VA: 0x181013C60
 	private static void UploadBitsWriteCallback(IAsyncResult result) { }
 
-	// RVA: 0x1013CE0 Offset: 0x10122E0 VA: 0x181013CE0
+	// RVA: 0x1013FA0 Offset: 0x10125A0 VA: 0x181013FA0
 	private void UploadBits(WebRequest request, Stream readStream, byte[] buffer, int chunkSize, byte[] header, byte[] footer, CompletionDelegate uploadCompletionDelegate, CompletionDelegate downloadCompletionDelegate, AsyncOperation asyncOp) { }
 
-	// RVA: 0x1010030 Offset: 0x100E630 VA: 0x181010030
+	// RVA: 0x10102F0 Offset: 0x100E8F0 VA: 0x1810102F0
 	private bool ByteArrayHasPrefix(byte[] prefix, byte[] byteArray) { }
 
-	// RVA: 0x1011BA0 Offset: 0x10101A0 VA: 0x181011BA0
+	// RVA: 0x1011E60 Offset: 0x1010460 VA: 0x181011E60
 	private string GetStringUsingEncoding(WebRequest request, byte[] data) { }
 
-	// RVA: 0x1012DC0 Offset: 0x10113C0 VA: 0x181012DC0
+	// RVA: 0x1013080 Offset: 0x1011680 VA: 0x181013080
 	private string MapToDefaultMethod(Uri address) { }
 
-	// RVA: 0x10150B0 Offset: 0x10136B0 VA: 0x1810150B0
+	// RVA: 0x1015370 Offset: 0x1013970 VA: 0x181015370
 	private static string UrlEncode(string str) { }
 
-	// RVA: 0x1015010 Offset: 0x1013610 VA: 0x181015010
+	// RVA: 0x10152D0 Offset: 0x10138D0 VA: 0x1810152D0
 	private static string UrlEncode(string str, Encoding e) { }
 
-	// RVA: 0x1014FB0 Offset: 0x10135B0 VA: 0x181014FB0
+	// RVA: 0x1015270 Offset: 0x1013870 VA: 0x181015270
 	private static byte[] UrlEncodeToBytes(string str, Encoding e) { }
 
-	// RVA: 0x1014D00 Offset: 0x1013300 VA: 0x181014D00
+	// RVA: 0x1014FC0 Offset: 0x10135C0 VA: 0x181014FC0
 	private static byte[] UrlEncodeBytesToBytesInternal(byte[] bytes, int offset, int count, bool alwaysCreateReturnValue) { }
 
-	// RVA: 0x1012CC0 Offset: 0x10112C0 VA: 0x181012CC0
+	// RVA: 0x1012F80 Offset: 0x1011580 VA: 0x181012F80
 	private static char IntToHex(int n) { }
 
-	// RVA: 0x1012D50 Offset: 0x1011350 VA: 0x181012D50
+	// RVA: 0x1013010 Offset: 0x1011610 VA: 0x181013010
 	private static bool IsSafe(char ch) { }
 
-	// RVA: 0x1012CD0 Offset: 0x10112D0 VA: 0x181012CD0
+	// RVA: 0x1012F90 Offset: 0x1011590 VA: 0x181012F90
 	private void InvokeOperationCompleted(AsyncOperation asyncOp, SendOrPostCallback callback, AsyncCompletedEventArgs eventArgs) { }
 
-	// RVA: 0x1010020 Offset: 0x100E620 VA: 0x181010020
+	// RVA: 0x10102E0 Offset: 0x100E8E0 VA: 0x1810102E0
 	private bool AnotherCallInProgress(int callNesting) { }
 
-	// RVA: 0xAEEB80 Offset: 0xAED180 VA: 0x180AEEB80 Slot: 15
+	// RVA: 0xAEEE40 Offset: 0xAED440 VA: 0x180AEEE40 Slot: 15
 	protected virtual void OnOpenReadCompleted(OpenReadCompletedEventArgs e) { }
 
-	// RVA: 0x1013030 Offset: 0x1011630 VA: 0x181013030
+	// RVA: 0x10132F0 Offset: 0x10118F0 VA: 0x1810132F0
 	private void OpenReadOperationCompleted(object arg) { }
 
-	// RVA: 0x1012F70 Offset: 0x1011570 VA: 0x181012F70 Slot: 16
+	// RVA: 0x1013230 Offset: 0x1011830 VA: 0x181013230 Slot: 16
 	protected virtual void OnOpenWriteCompleted(OpenWriteCompletedEventArgs e) { }
 
-	// RVA: 0x10130D0 Offset: 0x10116D0 VA: 0x1810130D0
+	// RVA: 0x1013390 Offset: 0x1011990 VA: 0x181013390
 	private void OpenWriteOperationCompleted(object arg) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1015260 Offset: 0x1013860 VA: 0x181015260
+	// RVA: 0x1015520 Offset: 0x1013B20 VA: 0x181015520
 	public void add_DownloadStringCompleted(DownloadStringCompletedEventHandler value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10153A0 Offset: 0x10139A0 VA: 0x1810153A0
+	// RVA: 0x1015660 Offset: 0x1013C60 VA: 0x181015660
 	public void remove_DownloadStringCompleted(DownloadStringCompletedEventHandler value) { }
 
-	// RVA: 0x1012F50 Offset: 0x1011550 VA: 0x181012F50 Slot: 17
+	// RVA: 0x1013210 Offset: 0x1011810 VA: 0x181013210 Slot: 17
 	protected virtual void OnDownloadStringCompleted(DownloadStringCompletedEventArgs e) { }
 
-	// RVA: 0x1011910 Offset: 0x100FF10 VA: 0x181011910
+	// RVA: 0x1011BD0 Offset: 0x10101D0 VA: 0x181011BD0
 	private void DownloadStringOperationCompleted(object arg) { }
 
-	// RVA: 0x1011470 Offset: 0x100FA70 VA: 0x181011470
+	// RVA: 0x1011730 Offset: 0x100FD30 VA: 0x181011730
 	private void DownloadStringAsyncCallback(byte[] returnBytes, Exception exception, object state) { }
 
-	// RVA: 0x1011640 Offset: 0x100FC40 VA: 0x181011640
+	// RVA: 0x1011900 Offset: 0x100FF00 VA: 0x181011900
 	public void DownloadStringAsync(Uri address) { }
 
-	// RVA: 0x1011650 Offset: 0x100FC50 VA: 0x181011650
+	// RVA: 0x1011910 Offset: 0x100FF10 VA: 0x181011910
 	public void DownloadStringAsync(Uri address, object userToken) { }
 
-	// RVA: 0x1012EF0 Offset: 0x10114F0 VA: 0x181012EF0 Slot: 18
+	// RVA: 0x10131B0 Offset: 0x10117B0 VA: 0x1810131B0 Slot: 18
 	protected virtual void OnDownloadDataCompleted(DownloadDataCompletedEventArgs e) { }
 
-	// RVA: 0x1011330 Offset: 0x100F930 VA: 0x181011330
+	// RVA: 0x10115F0 Offset: 0x100FBF0 VA: 0x1810115F0
 	private void DownloadDataOperationCompleted(object arg) { }
 
-	// RVA: 0x1012F10 Offset: 0x1011510 VA: 0x181012F10 Slot: 19
+	// RVA: 0x10131D0 Offset: 0x10117D0 VA: 0x1810131D0 Slot: 19
 	protected virtual void OnDownloadFileCompleted(AsyncCompletedEventArgs e) { }
 
-	// RVA: 0x10113D0 Offset: 0x100F9D0 VA: 0x1810113D0
+	// RVA: 0x1011690 Offset: 0x100FC90 VA: 0x181011690
 	private void DownloadFileOperationCompleted(object arg) { }
 
-	// RVA: 0x1012FF0 Offset: 0x10115F0 VA: 0x181012FF0 Slot: 20
+	// RVA: 0x10132B0 Offset: 0x10118B0 VA: 0x1810132B0 Slot: 20
 	protected virtual void OnUploadStringCompleted(UploadStringCompletedEventArgs e) { }
 
-	// RVA: 0x1014030 Offset: 0x1012630 VA: 0x181014030
+	// RVA: 0x10142F0 Offset: 0x10128F0 VA: 0x1810142F0
 	private void UploadStringOperationCompleted(object arg) { }
 
-	// RVA: 0x1013490 Offset: 0x1011A90 VA: 0x181013490
+	// RVA: 0x1013750 Offset: 0x1011D50 VA: 0x181013750
 	private void StartDownloadAsync(WebClient.UploadBitsState state) { }
 
-	// RVA: 0x1012F90 Offset: 0x1011590 VA: 0x181012F90 Slot: 21
+	// RVA: 0x1013250 Offset: 0x1011850 VA: 0x181013250 Slot: 21
 	protected virtual void OnUploadDataCompleted(UploadDataCompletedEventArgs e) { }
 
-	// RVA: 0x1013EF0 Offset: 0x10124F0 VA: 0x181013EF0
+	// RVA: 0x10141B0 Offset: 0x10127B0 VA: 0x1810141B0
 	private void UploadDataOperationCompleted(object arg) { }
 
-	// RVA: 0x1012FB0 Offset: 0x10115B0 VA: 0x181012FB0 Slot: 22
+	// RVA: 0x1013270 Offset: 0x1011870 VA: 0x181013270 Slot: 22
 	protected virtual void OnUploadFileCompleted(UploadFileCompletedEventArgs e) { }
 
-	// RVA: 0x1013F90 Offset: 0x1012590 VA: 0x181013F90
+	// RVA: 0x1014250 Offset: 0x1012850 VA: 0x181014250
 	private void UploadFileOperationCompleted(object arg) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1015300 Offset: 0x1013900 VA: 0x181015300
+	// RVA: 0x10155C0 Offset: 0x1013BC0 VA: 0x1810155C0
 	public void add_UploadValuesCompleted(UploadValuesCompletedEventHandler value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1015440 Offset: 0x1013A40 VA: 0x181015440
+	// RVA: 0x1015700 Offset: 0x1013D00 VA: 0x181015700
 	public void remove_UploadValuesCompleted(UploadValuesCompletedEventHandler value) { }
 
-	// RVA: 0x1013010 Offset: 0x1011610 VA: 0x181013010 Slot: 23
+	// RVA: 0x10132D0 Offset: 0x10118D0 VA: 0x1810132D0 Slot: 23
 	protected virtual void OnUploadValuesCompleted(UploadValuesCompletedEventArgs e) { }
 
-	// RVA: 0x1014C60 Offset: 0x1013260 VA: 0x181014C60
+	// RVA: 0x1014F20 Offset: 0x1013520 VA: 0x181014F20
 	private void UploadValuesOperationCompleted(object arg) { }
 
-	// RVA: 0x10141F0 Offset: 0x10127F0 VA: 0x1810141F0
+	// RVA: 0x10144B0 Offset: 0x1012AB0 VA: 0x1810144B0
 	private void UploadValuesAsyncWriteCallback(byte[] returnBytes, Exception exception, object state) { }
 
-	// RVA: 0x10140D0 Offset: 0x10126D0 VA: 0x1810140D0
+	// RVA: 0x1014390 Offset: 0x1012990 VA: 0x181014390
 	private void UploadValuesAsyncReadCallback(byte[] returnBytes, Exception exception, object state) { }
 
-	// RVA: 0x1014360 Offset: 0x1012960 VA: 0x181014360
+	// RVA: 0x1014620 Offset: 0x1012C20 VA: 0x181014620
 	public void UploadValuesAsync(Uri address, string method, NameValueCollection data) { }
 
-	// RVA: 0x1014380 Offset: 0x1012980 VA: 0x181014380
+	// RVA: 0x1014640 Offset: 0x1012C40 VA: 0x181014640
 	public void UploadValuesAsync(Uri address, string method, NameValueCollection data, object userToken) { }
 
-	// RVA: 0x1012F30 Offset: 0x1011530 VA: 0x181012F30 Slot: 24
+	// RVA: 0x10131F0 Offset: 0x10117F0 VA: 0x1810131F0 Slot: 24
 	protected virtual void OnDownloadProgressChanged(DownloadProgressChangedEventArgs e) { }
 
-	// RVA: 0x1012FD0 Offset: 0x10115D0 VA: 0x181012FD0 Slot: 25
+	// RVA: 0x1013290 Offset: 0x1011890 VA: 0x181013290 Slot: 25
 	protected virtual void OnUploadProgressChanged(UploadProgressChangedEventArgs e) { }
 
-	// RVA: 0x1013350 Offset: 0x1011950 VA: 0x181013350
+	// RVA: 0x1013610 Offset: 0x1011C10 VA: 0x181013610
 	private void ReportDownloadProgressChanged(object arg) { }
 
-	// RVA: 0x10133F0 Offset: 0x10119F0 VA: 0x1810133F0
+	// RVA: 0x10136B0 Offset: 0x1011CB0 VA: 0x1810136B0
 	private void ReportUploadProgressChanged(object arg) { }
 
-	// RVA: 0x1013170 Offset: 0x1011770 VA: 0x181013170
+	// RVA: 0x1013430 Offset: 0x1011A30 VA: 0x181013430
 	private void PostProgressChanged(AsyncOperation asyncOp, WebClient.ProgressData progress) { }
 
 }
@@ -286,10 +286,10 @@ private class WebClient.ProgressData // TypeDefIndex: 2954
 
 	// Methods
 
-	// RVA: 0x117C980 Offset: 0x117AF80 VA: 0x18117C980
+	// RVA: 0x117CC40 Offset: 0x117B240 VA: 0x18117CC40
 	internal void Reset() { }
 
-	// RVA: 0x117C9A0 Offset: 0x117AFA0 VA: 0x18117C9A0
+	// RVA: 0x117CC60 Offset: 0x117B260 VA: 0x18117CC60
 	public void .ctor() { }
 
 }
@@ -313,19 +313,19 @@ private class WebClient.DownloadBitsState // TypeDefIndex: 2955
 
 	// Methods
 
-	// RVA: 0x117BF10 Offset: 0x117A510 VA: 0x18117BF10
+	// RVA: 0x117C1D0 Offset: 0x117A7D0 VA: 0x18117C1D0
 	internal void .ctor(WebRequest request, Stream writeStream, CompletionDelegate completionDelegate, AsyncOperation asyncOp, WebClient.ProgressData progress, WebClient webClient) { }
 
-	// RVA: 0x117BFB0 Offset: 0x117A5B0 VA: 0x18117BFB0
+	// RVA: 0x117C270 Offset: 0x117A870 VA: 0x18117C270
 	internal bool get_Async() { }
 
-	// RVA: 0x117BC30 Offset: 0x117A230 VA: 0x18117BC30
+	// RVA: 0x117BEF0 Offset: 0x117A4F0 VA: 0x18117BEF0
 	internal int SetResponse(WebResponse response) { }
 
-	// RVA: 0x117B960 Offset: 0x1179F60 VA: 0x18117B960
+	// RVA: 0x117BC20 Offset: 0x117A220 VA: 0x18117BC20
 	internal bool RetrieveBytes(ref int bytesRetrieved) { }
 
-	// RVA: 0x117B910 Offset: 0x1179F10 VA: 0x18117B910
+	// RVA: 0x117BBD0 Offset: 0x117A1D0 VA: 0x18117BBD0
 	internal void Close() { }
 
 }
@@ -352,22 +352,22 @@ private class WebClient.UploadBitsState // TypeDefIndex: 2956
 
 	// Methods
 
-	// RVA: 0x117E840 Offset: 0x117CE40 VA: 0x18117E840
+	// RVA: 0x117EB00 Offset: 0x117D100 VA: 0x18117EB00
 	internal void .ctor(WebRequest request, Stream readStream, byte[] buffer, int chunkSize, byte[] header, byte[] footer, CompletionDelegate uploadCompletionDelegate, CompletionDelegate downloadCompletionDelegate, AsyncOperation asyncOp, WebClient.ProgressData progress, WebClient webClient) { }
 
-	// RVA: 0x117E9B0 Offset: 0x117CFB0 VA: 0x18117E9B0
+	// RVA: 0x117EC70 Offset: 0x117D270 VA: 0x18117EC70
 	internal bool get_FileUpload() { }
 
-	// RVA: 0x117E9A0 Offset: 0x117CFA0 VA: 0x18117E9A0
+	// RVA: 0x117EC60 Offset: 0x117D260 VA: 0x18117EC60
 	internal bool get_Async() { }
 
-	// RVA: 0x117E500 Offset: 0x117CB00 VA: 0x18117E500
+	// RVA: 0x117E7C0 Offset: 0x117CDC0 VA: 0x18117E7C0
 	internal void SetRequestStream(Stream writeStream) { }
 
-	// RVA: 0x117E640 Offset: 0x117CC40 VA: 0x18117E640
+	// RVA: 0x117E900 Offset: 0x117CF00 VA: 0x18117E900
 	internal bool WriteBytes() { }
 
-	// RVA: 0x117E4B0 Offset: 0x117CAB0 VA: 0x18117E4B0
+	// RVA: 0x117E770 Offset: 0x117CD70 VA: 0x18117E770
 	internal void Close() { }
 
 }

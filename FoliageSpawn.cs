@@ -4,7 +4,7 @@ public class FoliageSpawn : MonoBehaviour, IClientComponent // TypeDefIndex: 987
 
 	// Methods
 
-	// RVA: 0x750210 Offset: 0x74E810 VA: 0x180750210
+	// RVA: 0x750320 Offset: 0x74E920 VA: 0x180750320
 	protected void Awake() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

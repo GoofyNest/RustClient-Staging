@@ -1,19 +1,19 @@
 internal class QNameFacetsChecker : FacetsChecker // TypeDefIndex: 2253
 {	// Methods
 
-	// RVA: 0xB272B0 Offset: 0xB258B0 VA: 0x180B272B0 Slot: 5
+	// RVA: 0xB27570 Offset: 0xB25B70 VA: 0x180B27570 Slot: 5
 	internal override Exception CheckValueFacets(object value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB270F0 Offset: 0xB256F0 VA: 0x180B270F0 Slot: 16
+	// RVA: 0xB273B0 Offset: 0xB259B0 VA: 0x180B273B0 Slot: 16
 	internal override Exception CheckValueFacets(XmlQualifiedName value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB27510 Offset: 0xB25B10 VA: 0x180B27510 Slot: 17
+	// RVA: 0xB277D0 Offset: 0xB25DD0 VA: 0x180B277D0 Slot: 17
 	internal override bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB273F0 Offset: 0xB259F0 VA: 0x180B273F0
+	// RVA: 0xB276B0 Offset: 0xB25CB0 VA: 0x180B276B0
 	private bool MatchEnumeration(XmlQualifiedName value, ArrayList enumeration) { }
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 }

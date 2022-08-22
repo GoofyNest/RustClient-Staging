@@ -5,7 +5,7 @@ public sealed class ReliabilityContractAttribute : Attribute // TypeDefIndex: 12
 
 	// Methods
 
-	// RVA: 0xFEB730 Offset: 0xFE9D30 VA: 0x180FEB730
+	// RVA: 0xFEB9F0 Offset: 0xFE9FF0 VA: 0x180FEB9F0
 	public void .ctor(Consistency consistencyGuarantee, Cer cer) { }
 
 }

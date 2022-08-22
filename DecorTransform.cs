@@ -6,10 +6,10 @@ public class DecorTransform : DecorComponent // TypeDefIndex: 10332
 
 	// Methods
 
-	// RVA: 0x843DC0 Offset: 0x8423C0 VA: 0x180843DC0 Slot: 8
+	// RVA: 0x843ED0 Offset: 0x8424D0 VA: 0x180843ED0 Slot: 8
 	public override void Apply(ref Vector3 pos, ref Quaternion rot, ref Vector3 scale) { }
 
-	// RVA: 0x843FE0 Offset: 0x8425E0 VA: 0x180843FE0
+	// RVA: 0x8440F0 Offset: 0x8426F0 VA: 0x1808440F0
 	public void .ctor() { }
 
 }

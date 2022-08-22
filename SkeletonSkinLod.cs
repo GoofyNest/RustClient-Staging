@@ -14,22 +14,22 @@ public class SkeletonSkinLod : MonoBehaviour // TypeDefIndex: 7354
 
 	// Methods
 
-	// RVA: 0x22FDA00 Offset: 0x22FC000 VA: 0x1822FDA00
+	// RVA: 0x22FDCC0 Offset: 0x22FC2C0 VA: 0x1822FDCC0
 	private void Awake() { }
 
-	// RVA: 0x22FD800 Offset: 0x22FBE00 VA: 0x1822FD800
+	// RVA: 0x22FDAC0 Offset: 0x22FC0C0 VA: 0x1822FDAC0
 	public void AddRenderer(int lod, Renderer r) { }
 
-	// RVA: 0x22FDC20 Offset: 0x22FC220 VA: 0x1822FDC20
+	// RVA: 0x22FDEE0 Offset: 0x22FC4E0 VA: 0x1822FDEE0
 	public void Clear() { }
 
-	// RVA: 0x22FDD90 Offset: 0x22FC390 VA: 0x1822FDD90
+	// RVA: 0x22FE050 Offset: 0x22FC650 VA: 0x1822FE050
 	public void Rebuild() { }
 
-	// RVA: 0x22FDE70 Offset: 0x22FC470 VA: 0x1822FDE70
+	// RVA: 0x22FE130 Offset: 0x22FC730 VA: 0x1822FE130
 	public void .ctor() { }
 
-	// RVA: 0x22FDE20 Offset: 0x22FC420 VA: 0x1822FDE20
+	// RVA: 0x22FE0E0 Offset: 0x22FC6E0 VA: 0x1822FE0E0
 	private static void .cctor() { }
 
 }

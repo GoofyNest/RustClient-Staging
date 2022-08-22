@@ -11,19 +11,19 @@ public class AchievementTodo : BaseMonoBehaviour // TypeDefIndex: 10822
 
 	// Methods
 
-	// RVA: 0xA99000 Offset: 0xA97600 VA: 0x180A99000
+	// RVA: 0xA992C0 Offset: 0xA978C0 VA: 0x180A992C0
 	private void Awake() { }
 
-	// RVA: 0xA99260 Offset: 0xA97860 VA: 0x180A99260
+	// RVA: 0xA99520 Offset: 0xA97B20 VA: 0x180A99520
 	private void OnAchievementStateChanged(Achievement ach, int currentProgress, int progress) { }
 
-	// RVA: 0xA99320 Offset: 0xA97920 VA: 0x180A99320
+	// RVA: 0xA995E0 Offset: 0xA97BE0 VA: 0x180A995E0
 	internal void Unlock() { }
 
-	// RVA: 0xA99070 Offset: 0xA97670 VA: 0x180A99070
+	// RVA: 0xA99330 Offset: 0xA97930 VA: 0x180A99330
 	internal void Init(AchievementGroup.AchievementItem item) { }
 
-	// RVA: 0xA99600 Offset: 0xA97C00 VA: 0x180A99600
+	// RVA: 0xA998C0 Offset: 0xA97EC0 VA: 0x180A998C0
 	private void UpdateState() { }
 
 	// RVA: 0x521BF0 Offset: 0x5201F0 VA: 0x180521BF0

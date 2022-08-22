@@ -23,85 +23,85 @@ internal sealed class ReflectTypeDescriptionProvider : TypeDescriptionProvider /
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x1732180 Offset: 0x1730780 VA: 0x181732180
+	// RVA: 0x1732440 Offset: 0x1730A40 VA: 0x181732440
 	private static Hashtable get_IntrinsicTypeConverters() { }
 
-	// RVA: 0x172DE40 Offset: 0x172C440 VA: 0x18172DE40 Slot: 4
+	// RVA: 0x172E100 Offset: 0x172C700 VA: 0x18172E100 Slot: 4
 	public override object CreateInstance(IServiceProvider provider, Type objectType, Type[] argTypes, object[] args) { }
 
-	// RVA: 0x172DD20 Offset: 0x172C320 VA: 0x18172DD20
+	// RVA: 0x172DFE0 Offset: 0x172C5E0 VA: 0x18172DFE0
 	private static object CreateInstance(Type objectType, Type callingType) { }
 
-	// RVA: 0x172E010 Offset: 0x172C610 VA: 0x18172E010
+	// RVA: 0x172E2D0 Offset: 0x172C8D0 VA: 0x18172E2D0
 	internal AttributeCollection GetAttributes(Type type) { }
 
-	// RVA: 0x172E040 Offset: 0x172C640 VA: 0x18172E040 Slot: 5
+	// RVA: 0x172E300 Offset: 0x172C900 VA: 0x18172E300 Slot: 5
 	public override IDictionary GetCache(object instance) { }
 
-	// RVA: 0x172E200 Offset: 0x172C800 VA: 0x18172E200
+	// RVA: 0x172E4C0 Offset: 0x172CAC0 VA: 0x18172E4C0
 	internal TypeConverter GetConverter(Type type, object instance) { }
 
-	// RVA: 0x172E240 Offset: 0x172C840 VA: 0x18172E240
+	// RVA: 0x172E500 Offset: 0x172CB00 VA: 0x18172E500
 	internal AttributeCollection GetExtendedAttributes(object instance) { }
 
-	// RVA: 0x172E2A0 Offset: 0x172C8A0 VA: 0x18172E2A0
+	// RVA: 0x172E560 Offset: 0x172CB60 VA: 0x18172E560
 	internal TypeConverter GetExtendedConverter(object instance) { }
 
-	// RVA: 0x172E300 Offset: 0x172C900 VA: 0x18172E300
+	// RVA: 0x172E5C0 Offset: 0x172CBC0 VA: 0x18172E5C0
 	internal PropertyDescriptorCollection GetExtendedProperties(object instance) { }
 
-	// RVA: 0x172E850 Offset: 0x172CE50 VA: 0x18172E850 Slot: 7
+	// RVA: 0x172EB10 Offset: 0x172D110 VA: 0x18172EB10 Slot: 7
 	protected internal override IExtenderProvider[] GetExtenderProviders(object instance) { }
 
-	// RVA: 0x172EAE0 Offset: 0x172D0E0 VA: 0x18172EAE0
+	// RVA: 0x172EDA0 Offset: 0x172D3A0 VA: 0x18172EDA0
 	private static IExtenderProvider[] GetExtenders(ICollection components, object instance, IDictionary cache) { }
 
-	// RVA: 0x172E7D0 Offset: 0x172CDD0 VA: 0x18172E7D0
+	// RVA: 0x172EA90 Offset: 0x172D090 VA: 0x18172EA90
 	internal object GetExtendedPropertyOwner(object instance, PropertyDescriptor pd) { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 6
 	public override ICustomTypeDescriptor GetExtendedTypeDescriptor(object instance) { }
 
-	// RVA: 0x172F310 Offset: 0x172D910 VA: 0x18172F310
+	// RVA: 0x172F5D0 Offset: 0x172DBD0 VA: 0x18172F5D0
 	internal PropertyDescriptorCollection GetProperties(Type type) { }
 
-	// RVA: 0x172F340 Offset: 0x172D940 VA: 0x18172F340
+	// RVA: 0x172F600 Offset: 0x172DC00 VA: 0x18172F600
 	internal object GetPropertyOwner(Type type, object instance, PropertyDescriptor pd) { }
 
-	// RVA: 0x7B4E80 Offset: 0x7B3480 VA: 0x1807B4E80 Slot: 8
+	// RVA: 0x7B4F90 Offset: 0x7B3590 VA: 0x1807B4F90 Slot: 8
 	public override Type GetReflectionType(Type objectType, object instance) { }
 
-	// RVA: 0x172F3B0 Offset: 0x172D9B0 VA: 0x18172F3B0
+	// RVA: 0x172F670 Offset: 0x172DC70 VA: 0x18172F670
 	private ReflectTypeDescriptionProvider.ReflectedTypeData GetTypeData(Type type, bool createIfNeeded) { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 9
 	public override ICustomTypeDescriptor GetTypeDescriptor(Type objectType, object instance) { }
 
-	// RVA: 0x172F670 Offset: 0x172DC70 VA: 0x18172F670
+	// RVA: 0x172F930 Offset: 0x172DF30 VA: 0x18172F930
 	private static Type GetTypeFromName(string typeName) { }
 
-	// RVA: 0x172F780 Offset: 0x172DD80 VA: 0x18172F780
+	// RVA: 0x172FA40 Offset: 0x172E040 VA: 0x18172FA40
 	internal bool IsPopulated(Type type) { }
 
-	// RVA: 0x172F7D0 Offset: 0x172DDD0 VA: 0x18172F7D0
+	// RVA: 0x172FA90 Offset: 0x172E090 VA: 0x18172FA90
 	private static Attribute[] ReflectGetAttributes(Type type) { }
 
-	// RVA: 0x172FCC0 Offset: 0x172E2C0 VA: 0x18172FCC0
+	// RVA: 0x172FF80 Offset: 0x172E580 VA: 0x18172FF80
 	internal static Attribute[] ReflectGetAttributes(MemberInfo member) { }
 
-	// RVA: 0x17301B0 Offset: 0x172E7B0 VA: 0x1817301B0
+	// RVA: 0x1730470 Offset: 0x172EA70 VA: 0x181730470
 	private static PropertyDescriptor[] ReflectGetExtendedProperties(IExtenderProvider provider) { }
 
-	// RVA: 0x1730E90 Offset: 0x172F490 VA: 0x181730E90
+	// RVA: 0x1731150 Offset: 0x172F750 VA: 0x181731150
 	private static PropertyDescriptor[] ReflectGetProperties(Type type) { }
 
-	// RVA: 0x1731520 Offset: 0x172FB20 VA: 0x181731520
+	// RVA: 0x17317E0 Offset: 0x172FDE0 VA: 0x1817317E0
 	internal void Refresh(Type type) { }
 
-	// RVA: 0x17315B0 Offset: 0x172FBB0 VA: 0x1817315B0
+	// RVA: 0x1731870 Offset: 0x172FE70 VA: 0x181731870
 	private static object SearchIntrinsicTable(Hashtable table, Type callingType) { }
 
-	// RVA: 0x1731DC0 Offset: 0x17303C0 VA: 0x181731DC0
+	// RVA: 0x1732080 Offset: 0x1730680 VA: 0x181732080
 	private static void .cctor() { }
 
 }
@@ -125,22 +125,22 @@ private class ReflectTypeDescriptionProvider.ReflectedTypeData // TypeDefIndex: 
 	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
 	internal void .ctor(Type type) { }
 
-	// RVA: 0x17338B0 Offset: 0x1731EB0 VA: 0x1817338B0
+	// RVA: 0x1733B70 Offset: 0x1732170 VA: 0x181733B70
 	internal bool get_IsPopulated() { }
 
-	// RVA: 0x1732890 Offset: 0x1730E90 VA: 0x181732890
+	// RVA: 0x1732B50 Offset: 0x1731150 VA: 0x181732B50
 	internal AttributeCollection GetAttributes() { }
 
-	// RVA: 0x1732E30 Offset: 0x1731430 VA: 0x181732E30
+	// RVA: 0x17330F0 Offset: 0x17316F0 VA: 0x1817330F0
 	internal TypeConverter GetConverter(object instance) { }
 
-	// RVA: 0x17333A0 Offset: 0x17319A0 VA: 0x1817333A0
+	// RVA: 0x1733660 Offset: 0x1731C60 VA: 0x181733660
 	internal PropertyDescriptorCollection GetProperties() { }
 
-	// RVA: 0x1733650 Offset: 0x1731C50 VA: 0x181733650
+	// RVA: 0x1733910 Offset: 0x1731F10 VA: 0x181733910
 	private Type GetTypeFromName(string typeName) { }
 
-	// RVA: 0x1733830 Offset: 0x1731E30 VA: 0x181733830
+	// RVA: 0x1733AF0 Offset: 0x17320F0 VA: 0x181733AF0
 	internal void Refresh() { }
 
 }

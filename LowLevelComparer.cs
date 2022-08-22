@@ -7,10 +7,10 @@ internal sealed class LowLevelComparer : IComparer // TypeDefIndex: 1374
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	// RVA: 0x1465EE0 Offset: 0x14644E0 VA: 0x181465EE0 Slot: 4
+	// RVA: 0x14661A0 Offset: 0x14647A0 VA: 0x1814661A0 Slot: 4
 	public int Compare(object a, object b) { }
 
-	// RVA: 0x1465FE0 Offset: 0x14645E0 VA: 0x181465FE0
+	// RVA: 0x14662A0 Offset: 0x14648A0 VA: 0x1814662A0
 	private static void .cctor() { }
 
 }

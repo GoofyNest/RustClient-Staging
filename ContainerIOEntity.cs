@@ -24,29 +24,29 @@ public class ContainerIOEntity : IOEntity, IItemContainerEntity, LootPanel.IHasL
 
 	// Methods
 
-	// RVA: 0x6B8630 Offset: 0x6B6C30 VA: 0x1806B8630 Slot: 49
+	// RVA: 0x6B8740 Offset: 0x6B6D40 VA: 0x1806B8740 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x6B8FC0 Offset: 0x6B75C0 VA: 0x1806B8FC0 Slot: 50
+	// RVA: 0x6B90D0 Offset: 0x6B76D0 VA: 0x1806B90D0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x6B8CF0 Offset: 0x6B72F0 VA: 0x1806B8CF0 Slot: 35
+	// RVA: 0x6B8E00 Offset: 0x6B7400 VA: 0x1806B8E00 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x6B9100 Offset: 0x6B7700 VA: 0x1806B9100 Slot: 161
+	// RVA: 0x6B9210 Offset: 0x6B7810 VA: 0x1806B9210 Slot: 161
 	public Translate.Phrase get_LootPanelTitle() { }
 
-	// RVA: 0x6B8C10 Offset: 0x6B7210 VA: 0x1806B8C10
+	// RVA: 0x6B8D20 Offset: 0x6B7320 VA: 0x1806B8D20
 	public bool OccupiedCheck(BasePlayer player) { }
 
-	// RVA: 0x6B8B70 Offset: 0x6B7170 VA: 0x1806B8B70 Slot: 34
+	// RVA: 0x6B8C80 Offset: 0x6B7280 VA: 0x1806B8C80 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
 	[BaseEntity.Menu] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
 	[BaseEntity.Menu.Description] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
 	[BaseEntity.Menu.Icon] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
-	// RVA: 0x6B8BD0 Offset: 0x6B71D0 VA: 0x1806B8BD0
+	// RVA: 0x6B8CE0 Offset: 0x6B72E0 VA: 0x1806B8CE0
 	public void Menu_Open(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x8E360 Offset: 0x8D760 VA: 0x18008E360
@@ -56,13 +56,13 @@ public class ContainerIOEntity : IOEntity, IItemContainerEntity, LootPanel.IHasL
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void Menu_Occupied(BasePlayer player) { }
 
-	// RVA: 0x6B8B90 Offset: 0x6B7190 VA: 0x1806B8B90
+	// RVA: 0x6B8CA0 Offset: 0x6B72A0 VA: 0x1806B8CA0
 	public bool Menu_Occupied_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x6B8BB0 Offset: 0x6B71B0 VA: 0x1806B8BB0
+	// RVA: 0x6B8CC0 Offset: 0x6B72C0 VA: 0x1806B8CC0
 	public bool Menu_Open_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x6B8DE0 Offset: 0x6B73E0 VA: 0x1806B8DE0 Slot: 164
+	// RVA: 0x6B8EF0 Offset: 0x6B74F0 VA: 0x1806B8EF0 Slot: 164
 	public virtual bool ShouldShowLootMenus() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 165
@@ -71,13 +71,13 @@ public class ContainerIOEntity : IOEntity, IItemContainerEntity, LootPanel.IHasL
 	// RVA: 0x686A10 Offset: 0x685010 VA: 0x180686A10 Slot: 166
 	public virtual int GetMoveToSlotIndex(BasePlayer player, Item item) { }
 
-	// RVA: 0x6B9110 Offset: 0x6B7710 VA: 0x1806B9110 Slot: 162
+	// RVA: 0x6B9220 Offset: 0x6B7820 VA: 0x1806B9220 Slot: 162
 	public SoundDefinition get_OpenSound() { }
 
-	// RVA: 0x6B8FB0 Offset: 0x6B75B0 VA: 0x1806B8FB0 Slot: 163
+	// RVA: 0x6B90C0 Offset: 0x6B76C0 VA: 0x1806B90C0 Slot: 163
 	public SoundDefinition get_CloseSound() { }
 
-	// RVA: 0x6B8EE0 Offset: 0x6B74E0 VA: 0x1806B8EE0
+	// RVA: 0x6B8FF0 Offset: 0x6B75F0 VA: 0x1806B8FF0
 	public void .ctor() { }
 
 }

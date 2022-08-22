@@ -77,216 +77,216 @@ public class OcclusionCulling : MonoBehaviour // TypeDefIndex: 11513
 	// RVA: 0x4BCCB0 Offset: 0x4BB2B0 VA: 0x1804BCCB0
 	public static bool DebugFilterIsDynamic(int filter) { }
 
-	// RVA: 0x9DCA70 Offset: 0x9DB070 VA: 0x1809DCA70
+	// RVA: 0x9DCD30 Offset: 0x9DB330 VA: 0x1809DCD30
 	public static bool DebugFilterIsStatic(int filter) { }
 
-	// RVA: 0x9DCA60 Offset: 0x9DB060 VA: 0x1809DCA60
+	// RVA: 0x9DCD20 Offset: 0x9DB320 VA: 0x1809DCD20
 	public static bool DebugFilterIsGrid(int filter) { }
 
-	// RVA: 0x9DCA80 Offset: 0x9DB080 VA: 0x1809DCA80
+	// RVA: 0x9DCD40 Offset: 0x9DB340 VA: 0x1809DCD40
 	private void DebugInitialize() { }
 
-	// RVA: 0x9DCB20 Offset: 0x9DB120 VA: 0x1809DCB20
+	// RVA: 0x9DCDE0 Offset: 0x9DB3E0 VA: 0x1809DCDE0
 	private void DebugShutdown() { }
 
-	// RVA: 0x9DCBD0 Offset: 0x9DB1D0 VA: 0x1809DCBD0
+	// RVA: 0x9DCE90 Offset: 0x9DB490 VA: 0x1809DCE90
 	private void DebugUpdate() { }
 
-	// RVA: 0x9DBB10 Offset: 0x9DA110 VA: 0x1809DBB10
+	// RVA: 0x9DBDD0 Offset: 0x9DA3D0 VA: 0x1809DBDD0
 	private void DebugDraw() { }
 
-	// RVA: 0x9DE980 Offset: 0x9DCF80 VA: 0x1809DE980
+	// RVA: 0x9DEC40 Offset: 0x9DD240 VA: 0x1809DEC40
 	public static void NormalizePlane(ref Vector4 plane) { }
 
-	// RVA: 0x9DCE30 Offset: 0x9DB430 VA: 0x1809DCE30
+	// RVA: 0x9DD0F0 Offset: 0x9DB6F0 VA: 0x1809DD0F0
 	public static void ExtractFrustum(Matrix4x4 viewProjMatrix, ref Vector4[] planes) { }
 
-	// RVA: 0x9E40A0 Offset: 0x9E26A0 VA: 0x1809E40A0
+	// RVA: 0x9E4360 Offset: 0x9E2960 VA: 0x1809E4360
 	public bool get_HiZReady() { }
 
-	// RVA: 0x9DB110 Offset: 0x9D9710 VA: 0x1809DB110
+	// RVA: 0x9DB3D0 Offset: 0x9D99D0 VA: 0x1809DB3D0
 	public void CheckResizeHiZMap() { }
 
-	// RVA: 0x9DE3E0 Offset: 0x9DC9E0 VA: 0x1809DE3E0
+	// RVA: 0x9DE6A0 Offset: 0x9DCCA0 VA: 0x1809DE6A0
 	private void InitializeHiZMap() { }
 
-	// RVA: 0x9DD6F0 Offset: 0x9DBCF0 VA: 0x1809DD6F0
+	// RVA: 0x9DD9B0 Offset: 0x9DBFB0 VA: 0x1809DD9B0
 	private void FinalizeHiZMap() { }
 
-	// RVA: 0x9DE120 Offset: 0x9DC720 VA: 0x1809DE120
+	// RVA: 0x9DE3E0 Offset: 0x9DC9E0 VA: 0x1809DE3E0
 	private void InitializeHiZMap(int width, int height) { }
 
-	// RVA: 0x9DCC70 Offset: 0x9DB270 VA: 0x1809DCC70
+	// RVA: 0x9DCF30 Offset: 0x9DB530 VA: 0x1809DCF30
 	private void DestroyHiZMap() { }
 
-	// RVA: 0x9DB4D0 Offset: 0x9D9AD0 VA: 0x1809DB4D0
+	// RVA: 0x9DB790 Offset: 0x9D9D90 VA: 0x1809DB790
 	private RenderTexture CreateDepthTexture(string name, int width, int height, bool mips = False) { }
 
-	// RVA: 0x9DB3F0 Offset: 0x9D99F0 VA: 0x1809DB3F0
+	// RVA: 0x9DB6B0 Offset: 0x9D9CB0 VA: 0x1809DB6B0
 	private RenderTexture CreateDepthTextureMip(string name, int width, int height, int mip) { }
 
-	// RVA: 0x9DDFB0 Offset: 0x9DC5B0 VA: 0x1809DDFB0
+	// RVA: 0x9DE270 Offset: 0x9DC870 VA: 0x1809DE270
 	public void GrabDepthTexture() { }
 
-	// RVA: 0x9DDA40 Offset: 0x9DC040 VA: 0x1809DDA40
+	// RVA: 0x9DDD00 Offset: 0x9DC300 VA: 0x1809DDD00
 	public void GenerateHiZMipChain() { }
 
-	// RVA: 0x9DB5C0 Offset: 0x9D9BC0 VA: 0x1809DB5C0
+	// RVA: 0x9DB880 Offset: 0x9D9E80 VA: 0x1809DB880
 	private void DebugDrawGizmos() { }
 
-	// RVA: 0x9E3FC0 Offset: 0x9E25C0 VA: 0x1809E3FC0
+	// RVA: 0x9E4280 Offset: 0x9E2880 VA: 0x1809E4280
 	private static int floor(float x) { }
 
-	// RVA: 0x9E1700 Offset: 0x9DFD00 VA: 0x1809E1700
+	// RVA: 0x9E19C0 Offset: 0x9DFFC0 VA: 0x1809E19C0
 	public static OcclusionCulling.Cell RegisterToGrid(OccludeeState occludee) { }
 
-	// RVA: 0x9E3710 Offset: 0x9E1D10 VA: 0x1809E3710
+	// RVA: 0x9E39D0 Offset: 0x9E1FD0 VA: 0x1809E39D0
 	public static void UpdateInGrid(OccludeeState occludee) { }
 
-	// RVA: 0x9E2650 Offset: 0x9E0C50 VA: 0x1809E2650
+	// RVA: 0x9E2910 Offset: 0x9E0F10 VA: 0x1809E2910
 	public static void UnregisterFromGrid(OccludeeState occludee) { }
 
-	// RVA: 0x9E3310 Offset: 0x9E1910 VA: 0x1809E3310
+	// RVA: 0x9E35D0 Offset: 0x9E1BD0 VA: 0x1809E35D0
 	public void UpdateGridBuffers() { }
 
-	// RVA: 0x9E4120 Offset: 0x9E2720 VA: 0x1809E4120
+	// RVA: 0x9E43E0 Offset: 0x9E29E0 VA: 0x1809E43E0
 	public static OcclusionCulling get_Instance() { }
 
-	// RVA: 0x9E41E0 Offset: 0x9E27E0 VA: 0x1809E41E0
+	// RVA: 0x9E44A0 Offset: 0x9E2AA0 VA: 0x1809E44A0
 	public static bool get_Supported() { }
 
-	// RVA: 0x9E4040 Offset: 0x9E2640 VA: 0x1809E4040
+	// RVA: 0x9E4300 Offset: 0x9E2900 VA: 0x1809E4300
 	public static bool get_Enabled() { }
 
-	// RVA: 0x9E42C0 Offset: 0x9E28C0 VA: 0x1809E42C0
+	// RVA: 0x9E4580 Offset: 0x9E2B80 VA: 0x1809E4580
 	public static void set_Enabled(bool value) { }
 
-	// RVA: 0x9E4180 Offset: 0x9E2780 VA: 0x1809E4180
+	// RVA: 0x9E4440 Offset: 0x9E2A40 VA: 0x1809E4440
 	public static bool get_SafeMode() { }
 
-	// RVA: 0x9E43C0 Offset: 0x9E29C0 VA: 0x1809E43C0
+	// RVA: 0x9E4680 Offset: 0x9E2C80 VA: 0x1809E4680
 	public static void set_SafeMode(bool value) { }
 
-	// RVA: 0x9E3FE0 Offset: 0x9E25E0 VA: 0x1809E3FE0
+	// RVA: 0x9E42A0 Offset: 0x9E28A0 VA: 0x1809E42A0
 	public static OcclusionCulling.DebugFilter get_DebugShow() { }
 
-	// RVA: 0x9E4260 Offset: 0x9E2860 VA: 0x1809E4260
+	// RVA: 0x9E4520 Offset: 0x9E2B20 VA: 0x1809E4520
 	public static void set_DebugShow(OcclusionCulling.DebugFilter value) { }
 
-	// RVA: 0x9DE060 Offset: 0x9DC660 VA: 0x1809DE060
+	// RVA: 0x9DE320 Offset: 0x9DC920 VA: 0x1809DE320
 	private static void GrowStatePool() { }
 
-	// RVA: 0x9D9CE0 Offset: 0x9D82E0 VA: 0x1809D9CE0
+	// RVA: 0x9D9FA0 Offset: 0x9D85A0 VA: 0x1809D9FA0
 	private static OccludeeState Allocate() { }
 
-	// RVA: 0x9E1D30 Offset: 0x9E0330 VA: 0x1809E1D30
+	// RVA: 0x9E1FF0 Offset: 0x9E05F0 VA: 0x1809E1FF0
 	private static void Release(OccludeeState state) { }
 
-	// RVA: 0x9DAFD0 Offset: 0x9D95D0 VA: 0x1809DAFD0
+	// RVA: 0x9DB290 Offset: 0x9D9890 VA: 0x1809DB290
 	private void Awake() { }
 
-	// RVA: 0x9DED30 Offset: 0x9DD330 VA: 0x1809DED30
+	// RVA: 0x9DEFF0 Offset: 0x9DD5F0 VA: 0x1809DEFF0
 	private void OnEnable() { }
 
-	// RVA: 0x9E2490 Offset: 0x9E0A90 VA: 0x1809E2490
+	// RVA: 0x9E2750 Offset: 0x9E0D50 VA: 0x1809E2750
 	private bool SupportsNativePath() { }
 
-	// RVA: 0x9DEA60 Offset: 0x9DD060 VA: 0x1809DEA60
+	// RVA: 0x9DED20 Offset: 0x9DD320 VA: 0x1809DED20
 	private void OnDisable() { }
 
-	// RVA: 0x9DE6A0 Offset: 0x9DCCA0 VA: 0x1809DE6A0
+	// RVA: 0x9DE960 Offset: 0x9DCF60 VA: 0x1809DE960
 	public static void MakeAllVisible() { }
 
-	// RVA: 0x9E38C0 Offset: 0x9E1EC0 VA: 0x1809E38C0
+	// RVA: 0x9E3B80 Offset: 0x9E2180 VA: 0x1809E3B80
 	private void Update() { }
 
 	// RVA: -1 Offset: -1
 	public static void RecursiveAddOccludees<T>(Transform transform, float minTimeVisible = 0,1, bool isStatic = True, bool stickyGizmos = False) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xCFE4D0 Offset: 0xCFCAD0 VA: 0x180CFE4D0
+	|-RVA: 0xCFE790 Offset: 0xCFCD90 VA: 0x180CFE790
 	|-OcclusionCulling.RecursiveAddOccludees<object>
 	*/
 
-	// RVA: 0x9DD820 Offset: 0x9DBE20 VA: 0x1809DD820
+	// RVA: 0x9DDAE0 Offset: 0x9DC0E0 VA: 0x1809DDAE0
 	private static int FindFreeSlot(OcclusionCulling.SimpleList<OccludeeState> occludees, OcclusionCulling.SimpleList<OccludeeState.State> states, Queue<int> recycled) { }
 
-	// RVA: 0x9DDEE0 Offset: 0x9DC4E0 VA: 0x1809DDEE0
+	// RVA: 0x9DE1A0 Offset: 0x9DC7A0 VA: 0x1809DE1A0
 	public static OccludeeState GetStateById(int id) { }
 
-	// RVA: 0x9E0F90 Offset: 0x9DF590 VA: 0x1809E0F90
+	// RVA: 0x9E1250 Offset: 0x9DF850 VA: 0x1809E1250
 	public static int RegisterOccludee(Vector3 center, float radius, bool isVisible, float minTimeVisible, bool isStatic, int layer, OcclusionCulling.OnVisibilityChanged onVisibilityChanged) { }
 
-	// RVA: 0x9E1160 Offset: 0x9DF760 VA: 0x1809E1160
+	// RVA: 0x9E1420 Offset: 0x9DFA20 VA: 0x1809E1420
 	private static int RegisterOccludee(Vector3 center, float radius, bool isVisible, float minTimeVisible, bool isStatic, int layer, OcclusionCulling.OnVisibilityChanged onVisibilityChanged, OcclusionCulling.SimpleList<OccludeeState> occludees, OcclusionCulling.SimpleList<OccludeeState.State> states, Queue<int> recycled, List<int> changed, OcclusionCulling.BufferSet set, OcclusionCulling.SimpleList<int> visibilityChanged) { }
 
-	// RVA: 0x9E2940 Offset: 0x9E0F40 VA: 0x1809E2940
+	// RVA: 0x9E2C00 Offset: 0x9E1200 VA: 0x1809E2C00
 	public static void UnregisterOccludee(int id) { }
 
-	// RVA: 0x9E2A20 Offset: 0x9E1020 VA: 0x1809E2A20
+	// RVA: 0x9E2CE0 Offset: 0x9E12E0 VA: 0x1809E2CE0
 	private static void UnregisterOccludee(int slot, OcclusionCulling.SimpleList<OccludeeState> occludees, Queue<int> recycled, List<int> changed) { }
 
-	// RVA: 0x9E31C0 Offset: 0x9E17C0 VA: 0x1809E31C0
+	// RVA: 0x9E3480 Offset: 0x9E1A80 VA: 0x1809E3480
 	public static void UpdateDynamicOccludee(int id, Vector3 center, float radius) { }
 
-	// RVA: 0x9E2C20 Offset: 0x9E1220 VA: 0x1809E2C20
+	// RVA: 0x9E2EE0 Offset: 0x9E14E0 VA: 0x1809E2EE0
 	private void UpdateBuffers(OcclusionCulling.SimpleList<OccludeeState> occludees, OcclusionCulling.SimpleList<OccludeeState.State> states, OcclusionCulling.BufferSet set, List<int> changed, bool isStatic) { }
 
-	// RVA: 0x9E2E70 Offset: 0x9E1470 VA: 0x1809E2E70
+	// RVA: 0x9E3130 Offset: 0x9E1730 VA: 0x1809E3130
 	private void UpdateCameraMatrices(bool starting = False) { }
 
-	// RVA: 0x9DF530 Offset: 0x9DDB30 VA: 0x1809DF530
+	// RVA: 0x9DF7F0 Offset: 0x9DDDF0 VA: 0x1809DF7F0
 	private void OnPreCull() { }
 
-	// RVA: 0x9DF3D0 Offset: 0x9DD9D0 VA: 0x1809DF3D0
+	// RVA: 0x9DF690 Offset: 0x9DDC90 VA: 0x1809DF690
 	private void OnPostRender() { }
 
-	// RVA: 0x9DE8C0 Offset: 0x9DCEC0 VA: 0x1809DE8C0
+	// RVA: 0x9DEB80 Offset: 0x9DD180 VA: 0x1809DEB80
 	private float[] MatrixToFloatArray(Matrix4x4 m) { }
 
-	// RVA: 0x9DF890 Offset: 0x9DDE90 VA: 0x1809DF890
+	// RVA: 0x9DFB50 Offset: 0x9DE150 VA: 0x1809DFB50
 	private void PrepareAndDispatch() { }
 
-	// RVA: 0x9DE4E0 Offset: 0x9DCAE0 VA: 0x1809DE4E0
+	// RVA: 0x9DE7A0 Offset: 0x9DCDA0 VA: 0x1809DE7A0
 	private void IssueRead() { }
 
-	// RVA: 0x9E1DB0 Offset: 0x9E03B0 VA: 0x1809E1DB0
+	// RVA: 0x9E2070 Offset: 0x9E0670 VA: 0x1809E2070
 	public void ResetTiming(OcclusionCulling.SmartList bucket) { }
 
-	// RVA: 0x9E1E40 Offset: 0x9E0440 VA: 0x1809E1E40
+	// RVA: 0x9E2100 Offset: 0x9E0700 VA: 0x1809E2100
 	public void ResetTiming() { }
 
-	// RVA: 0x9DD9A0 Offset: 0x9DBFA0 VA: 0x1809DD9A0
+	// RVA: 0x9DDC60 Offset: 0x9DC260 VA: 0x1809DDC60
 	private static bool FrustumCull(Vector4[] planes, Vector4 testSphere) { }
 
-	// RVA: 0x9E0C50 Offset: 0x9DF250 VA: 0x1809E0C50
+	// RVA: 0x9E0F10 Offset: 0x9DF510 VA: 0x1809E0F10
 	private static int ProcessOccludees_Safe(OcclusionCulling.SimpleList<OccludeeState.State> states, OcclusionCulling.SmartList bucket, Color32[] results, OcclusionCulling.SimpleList<int> changed, Vector4[] frustumPlanes, float time, uint frame) { }
 
-	// RVA: 0x9E07D0 Offset: 0x9DEDD0 VA: 0x1809E07D0
+	// RVA: 0x9E0A90 Offset: 0x9DF090 VA: 0x1809E0A90
 	private static int ProcessOccludees_Fast(OccludeeState.State[] states, int[] bucket, int bucketCount, Color32[] results, int resultCount, int[] changed, ref int changedCount, Vector4[] frustumPlanes, float time, uint frame) { }
 
-	// RVA: 0x9E0B50 Offset: 0x9DF150 VA: 0x1809E0B50
+	// RVA: 0x9E0E10 Offset: 0x9DF410 VA: 0x1809E0E10
 	private static extern int ProcessOccludees_Native(ref OccludeeState.State states, ref int bucket, int bucketCount, ref Color32 results, int resultCount, ref int changed, ref int changedCount, ref Vector4 frustumPlanes, float time, uint frame) { }
 
-	// RVA: 0x9DAB00 Offset: 0x9D9100 VA: 0x1809DAB00
+	// RVA: 0x9DADC0 Offset: 0x9D93C0 VA: 0x1809DADC0
 	private void ApplyVisibility_Safe(float time, uint frame) { }
 
-	// RVA: 0x9D9E70 Offset: 0x9D8470 VA: 0x1809D9E70
+	// RVA: 0x9DA130 Offset: 0x9D8730 VA: 0x1809DA130
 	private void ApplyVisibility_Fast(float time, uint frame) { }
 
-	// RVA: 0x9DA400 Offset: 0x9D8A00 VA: 0x1809DA400
+	// RVA: 0x9DA6C0 Offset: 0x9D8CC0 VA: 0x1809DA6C0
 	private void ApplyVisibility_Native(float time, uint frame) { }
 
-	// RVA: 0x9E05D0 Offset: 0x9DEBD0 VA: 0x1809E05D0
+	// RVA: 0x9E0890 Offset: 0x9DEE90 VA: 0x1809E0890
 	private void ProcessCallbacks(OcclusionCulling.SimpleList<OccludeeState> occludees, OcclusionCulling.SimpleList<OccludeeState.State> states, OcclusionCulling.SimpleList<int> changed) { }
 
-	// RVA: 0x9E1F50 Offset: 0x9E0550 VA: 0x1809E1F50
+	// RVA: 0x9E2210 Offset: 0x9E0810 VA: 0x1809E2210
 	public void RetrieveAndApplyVisibility() { }
 
-	// RVA: 0x9E3ED0 Offset: 0x9E24D0 VA: 0x1809E3ED0
+	// RVA: 0x9E4190 Offset: 0x9E2790 VA: 0x1809E4190
 	public void .ctor() { }
 
-	// RVA: 0x9E3A30 Offset: 0x9E2030 VA: 0x1809E3A30
+	// RVA: 0x9E3CF0 Offset: 0x9E22F0 VA: 0x1809E3CF0
 	private static void .cctor() { }
 
 }
@@ -314,34 +314,34 @@ public class OcclusionCulling.BufferSet // TypeDefIndex: 11514
 
 	// Methods
 
-	// RVA: 0x9D0370 Offset: 0x9CE970 VA: 0x1809D0370
+	// RVA: 0x9D0630 Offset: 0x9CEC30 VA: 0x1809D0630
 	public bool get_Ready() { }
 
 	// RVA: 0x4CF880 Offset: 0x4CDE80 VA: 0x1804CF880
 	public void Attach(OcclusionCulling culling) { }
 
-	// RVA: 0x9CFBA0 Offset: 0x9CE1A0 VA: 0x1809CFBA0
+	// RVA: 0x9CFE60 Offset: 0x9CE460 VA: 0x1809CFE60
 	public void Dispose(bool data = True) { }
 
-	// RVA: 0x9CF4D0 Offset: 0x9CDAD0 VA: 0x1809CF4D0
+	// RVA: 0x9CF790 Offset: 0x9CDD90 VA: 0x1809CF790
 	public bool CheckResize(int count, int granularity) { }
 
-	// RVA: 0x9D0250 Offset: 0x9CE850 VA: 0x1809D0250
+	// RVA: 0x9D0510 Offset: 0x9CEB10 VA: 0x1809D0510
 	public void UploadData() { }
 
-	// RVA: 0x9CF4C0 Offset: 0x9CDAC0 VA: 0x1809CF4C0
+	// RVA: 0x9CF780 Offset: 0x9CDD80 VA: 0x1809CF780
 	private int AlignDispatchSize(int dispatchSize) { }
 
-	// RVA: 0x9CF9D0 Offset: 0x9CDFD0 VA: 0x1809CF9D0
+	// RVA: 0x9CFC90 Offset: 0x9CE290 VA: 0x1809CFC90
 	public void Dispatch(int count) { }
 
-	// RVA: 0x9D0100 Offset: 0x9CE700 VA: 0x1809D0100
+	// RVA: 0x9D03C0 Offset: 0x9CE9C0 VA: 0x1809D03C0
 	public void IssueRead() { }
 
-	// RVA: 0x9CFE10 Offset: 0x9CE410 VA: 0x1809CFE10
+	// RVA: 0x9D00D0 Offset: 0x9CE6D0 VA: 0x1809D00D0
 	public void GetResults() { }
 
-	// RVA: 0x9D02C0 Offset: 0x9CE8C0 VA: 0x1809D02C0
+	// RVA: 0x9D0580 Offset: 0x9CEB80 VA: 0x1809D0580
 	public void .ctor() { }
 
 }
@@ -383,7 +383,7 @@ public class OcclusionCulling.DebugSettings // TypeDefIndex: 11517
 
 	// Methods
 
-	// RVA: 0x9D05F0 Offset: 0x9CEBF0 VA: 0x1809D05F0
+	// RVA: 0x9D08B0 Offset: 0x9CEEB0 VA: 0x1809D08B0
 	public void .ctor() { }
 
 }
@@ -395,7 +395,7 @@ public class OcclusionCulling.HashedPoolValue // TypeDefIndex: 11518
 
 	// Methods
 
-	// RVA: 0x9D05D0 Offset: 0x9CEBD0 VA: 0x1809D05D0
+	// RVA: 0x9D0890 Offset: 0x9CEE90 VA: 0x1809D0890
 	public void .ctor() { }
 
 }
@@ -419,7 +419,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public int get_Size() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD55F00 Offset: 0xD54500 VA: 0x180D55F00
+	|-RVA: 0xD561C0 Offset: 0xD547C0 VA: 0x180D561C0
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>.get_Size
 	|-OcclusionCulling.HashedPool<object>.get_Size
 	*/
@@ -428,7 +428,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD55EA0 Offset: 0xD544A0 VA: 0x180D55EA0
+	|-RVA: 0xD56160 Offset: 0xD54760 VA: 0x180D56160
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>.get_Count
 	|-OcclusionCulling.HashedPool<object>.get_Count
 	*/
@@ -437,7 +437,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public ValueType get_Item(int i) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD55ED0 Offset: 0xD544D0 VA: 0x180D55ED0
+	|-RVA: 0xD56190 Offset: 0xD54790 VA: 0x180D56190
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>.get_Item
 	|-OcclusionCulling.HashedPool<object>.get_Item
 	*/
@@ -446,7 +446,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public void set_Item(int i, ValueType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD55F30 Offset: 0xD54530 VA: 0x180D55F30
+	|-RVA: 0xD561F0 Offset: 0xD547F0 VA: 0x180D561F0
 	|-OcclusionCulling.HashedPool<object>.set_Item
 	*/
 
@@ -454,7 +454,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public void .ctor(int capacity, int granularity) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD55D00 Offset: 0xD54300 VA: 0x180D55D00
+	|-RVA: 0xD55FC0 Offset: 0xD545C0 VA: 0x180D55FC0
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>..ctor
 	|-OcclusionCulling.HashedPool<object>..ctor
 	*/
@@ -463,7 +463,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD55B50 Offset: 0xD54150 VA: 0x180D55B50
+	|-RVA: 0xD55E10 Offset: 0xD54410 VA: 0x180D55E10
 	|-OcclusionCulling.HashedPool<object>.Clear
 	*/
 
@@ -471,7 +471,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public ValueType Add(ulong key, int capacityGranularity = 16) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD55960 Offset: 0xD53F60 VA: 0x180D55960
+	|-RVA: 0xD55C20 Offset: 0xD54220 VA: 0x180D55C20
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>.Add
 	|-OcclusionCulling.HashedPool<object>.Add
 	*/
@@ -480,7 +480,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public void Remove(ValueType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD55C20 Offset: 0xD54220 VA: 0x180D55C20
+	|-RVA: 0xD55EE0 Offset: 0xD544E0 VA: 0x180D55EE0
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>.Remove
 	|-OcclusionCulling.HashedPool<object>.Remove
 	*/
@@ -489,7 +489,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public bool TryGetValue(ulong key, out ValueType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD55CD0 Offset: 0xD542D0 VA: 0x180D55CD0
+	|-RVA: 0xD55F90 Offset: 0xD54590 VA: 0x180D55F90
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>.TryGetValue
 	|-OcclusionCulling.HashedPool<object>.TryGetValue
 	*/
@@ -498,7 +498,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public bool ContainsKey(ulong key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD55BF0 Offset: 0xD541F0 VA: 0x180D55BF0
+	|-RVA: 0xD55EB0 Offset: 0xD544B0 VA: 0x180D55EB0
 	|-OcclusionCulling.HashedPool<object>.ContainsKey
 	*/
 
@@ -533,7 +533,7 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public int get_Capacity() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x9EB580 Offset: 0x9E9B80 VA: 0x1809EB580
+	|-RVA: 0x9EB840 Offset: 0x9E9E40 VA: 0x1809EB840
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.get_Capacity
 	|-OcclusionCulling.SimpleList<OccludeeState>.get_Capacity
 	|-OcclusionCulling.SimpleList<int>.get_Capacity
@@ -544,7 +544,7 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public void set_Capacity(int value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD62500 Offset: 0xD60B00 VA: 0x180D62500
+	|-RVA: 0xD627C0 Offset: 0xD60DC0 VA: 0x180D627C0
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.set_Capacity
 	|-OcclusionCulling.SimpleList<OccludeeState>.set_Capacity
 	|-OcclusionCulling.SimpleList<int>.set_Capacity
@@ -555,14 +555,14 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD623D0 Offset: 0xD609D0 VA: 0x180D623D0
+	|-RVA: 0xD62690 Offset: 0xD60C90 VA: 0x180D62690
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.get_Item
 	|
-	|-RVA: 0x9EB5E0 Offset: 0x9E9BE0 VA: 0x1809EB5E0
+	|-RVA: 0x9EB8A0 Offset: 0x9E9EA0 VA: 0x1809EB8A0
 	|-OcclusionCulling.SimpleList<OccludeeState>.get_Item
 	|-OcclusionCulling.SimpleList<object>.get_Item
 	|
-	|-RVA: 0xD624C0 Offset: 0xD60AC0 VA: 0x180D624C0
+	|-RVA: 0xD62780 Offset: 0xD60D80 VA: 0x180D62780
 	|-OcclusionCulling.SimpleList<int>.get_Item
 	*/
 
@@ -570,14 +570,14 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public void set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD62700 Offset: 0xD60D00 VA: 0x180D62700
+	|-RVA: 0xD629C0 Offset: 0xD60FC0 VA: 0x180D629C0
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.set_Item
 	|
-	|-RVA: 0xD62670 Offset: 0xD60C70 VA: 0x180D62670
+	|-RVA: 0xD62930 Offset: 0xD60F30 VA: 0x180D62930
 	|-OcclusionCulling.SimpleList<OccludeeState>.set_Item
 	|-OcclusionCulling.SimpleList<object>.set_Item
 	|
-	|-RVA: 0xD626C0 Offset: 0xD60CC0 VA: 0x180D626C0
+	|-RVA: 0xD62980 Offset: 0xD60F80 VA: 0x180D62980
 	|-OcclusionCulling.SimpleList<int>.set_Item
 	*/
 
@@ -585,7 +585,7 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD621B0 Offset: 0xD607B0 VA: 0x180D621B0
+	|-RVA: 0xD62470 Offset: 0xD60A70 VA: 0x180D62470
 	|-OcclusionCulling.SimpleList<OccludeeState.State>..ctor
 	|-OcclusionCulling.SimpleList<int>..ctor
 	|-OcclusionCulling.SimpleList<object>..ctor
@@ -595,7 +595,7 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public void .ctor(int capacity) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD622A0 Offset: 0xD608A0 VA: 0x180D622A0
+	|-RVA: 0xD62560 Offset: 0xD60B60 VA: 0x180D62560
 	|-OcclusionCulling.SimpleList<OccludeeState.State>..ctor
 	|-OcclusionCulling.SimpleList<OccludeeState>..ctor
 	|-OcclusionCulling.SimpleList<int>..ctor
@@ -606,14 +606,14 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD61B10 Offset: 0xD60110 VA: 0x180D61B10
+	|-RVA: 0xD61DD0 Offset: 0xD603D0 VA: 0x180D61DD0
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.Add
 	|
-	|-RVA: 0xD618C0 Offset: 0xD5FEC0 VA: 0x180D618C0
+	|-RVA: 0xD61B80 Offset: 0xD60180 VA: 0x180D61B80
 	|-OcclusionCulling.SimpleList<OccludeeState>.Add
 	|-OcclusionCulling.SimpleList<object>.Add
 	|
-	|-RVA: 0xD61950 Offset: 0xD5FF50 VA: 0x180D61950
+	|-RVA: 0xD61C10 Offset: 0xD60210 VA: 0x180D61C10
 	|-OcclusionCulling.SimpleList<int>.Add
 	*/
 
@@ -621,7 +621,7 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD61BB0 Offset: 0xD601B0 VA: 0x180D61BB0
+	|-RVA: 0xD61E70 Offset: 0xD60470 VA: 0x180D61E70
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.Clear
 	|-OcclusionCulling.SimpleList<int>.Clear
 	|-OcclusionCulling.SimpleList<object>.Clear
@@ -631,13 +631,13 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public bool Contains(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD61D40 Offset: 0xD60340 VA: 0x180D61D40
+	|-RVA: 0xD62000 Offset: 0xD60600 VA: 0x180D62000
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.Contains
 	|
-	|-RVA: 0xD61FA0 Offset: 0xD605A0 VA: 0x180D61FA0
+	|-RVA: 0xD62260 Offset: 0xD60860 VA: 0x180D62260
 	|-OcclusionCulling.SimpleList<int>.Contains
 	|
-	|-RVA: 0xD61BE0 Offset: 0xD601E0 VA: 0x180D61BE0
+	|-RVA: 0xD61EA0 Offset: 0xD604A0 VA: 0x180D61EA0
 	|-OcclusionCulling.SimpleList<object>.Contains
 	*/
 
@@ -645,7 +645,7 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public void CopyTo(T[] array) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD62070 Offset: 0xD60670 VA: 0x180D62070
+	|-RVA: 0xD62330 Offset: 0xD60930 VA: 0x180D62330
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.CopyTo
 	|-OcclusionCulling.SimpleList<int>.CopyTo
 	|-OcclusionCulling.SimpleList<object>.CopyTo
@@ -655,7 +655,7 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public void EnsureCapacity(int min) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD620A0 Offset: 0xD606A0 VA: 0x180D620A0
+	|-RVA: 0xD62360 Offset: 0xD60960 VA: 0x180D62360
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.EnsureCapacity
 	|-OcclusionCulling.SimpleList<int>.EnsureCapacity
 	|-OcclusionCulling.SimpleList<object>.EnsureCapacity
@@ -665,7 +665,7 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD62100 Offset: 0xD60700 VA: 0x180D62100
+	|-RVA: 0xD623C0 Offset: 0xD609C0 VA: 0x180D623C0
 	|-OcclusionCulling.SimpleList<OccludeeState.State>..cctor
 	|-OcclusionCulling.SimpleList<int>..cctor
 	|-OcclusionCulling.SimpleList<object>..cctor
@@ -679,7 +679,7 @@ public class OcclusionCulling.SmartListValue // TypeDefIndex: 11521
 
 	// Methods
 
-	// RVA: 0x9D7C60 Offset: 0x9D6260 VA: 0x1809D7C60
+	// RVA: 0x9D7F20 Offset: 0x9D6520 VA: 0x1809D7F20
 	public void .ctor() { }
 
 }
@@ -713,37 +713,37 @@ public class OcclusionCulling.SmartList // TypeDefIndex: 11522
 	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
 	public int get_Size() { }
 
-	// RVA: 0x9EB5A0 Offset: 0x9E9BA0 VA: 0x1809EB5A0
+	// RVA: 0x9EB860 Offset: 0x9E9E60 VA: 0x1809EB860
 	public int get_Count() { }
 
-	// RVA: 0x9EB5E0 Offset: 0x9E9BE0 VA: 0x1809EB5E0
+	// RVA: 0x9EB8A0 Offset: 0x9E9EA0 VA: 0x1809EB8A0
 	public OccludeeState get_Item(int i) { }
 
-	// RVA: 0x9EB760 Offset: 0x9E9D60 VA: 0x1809EB760
+	// RVA: 0x9EBA20 Offset: 0x9EA020 VA: 0x1809EBA20
 	public void set_Item(int i, OccludeeState value) { }
 
-	// RVA: 0x9EB580 Offset: 0x9E9B80 VA: 0x1809EB580
+	// RVA: 0x9EB840 Offset: 0x9E9E40 VA: 0x1809EB840
 	public int get_Capacity() { }
 
-	// RVA: 0x9EB620 Offset: 0x9E9C20 VA: 0x1809EB620
+	// RVA: 0x9EB8E0 Offset: 0x9E9EE0 VA: 0x1809EB8E0
 	public void set_Capacity(int value) { }
 
-	// RVA: 0x9EB4D0 Offset: 0x9E9AD0 VA: 0x1809EB4D0
+	// RVA: 0x9EB790 Offset: 0x9E9D90 VA: 0x1809EB790
 	public void .ctor(int capacity) { }
 
-	// RVA: 0x9EAEB0 Offset: 0x9E94B0 VA: 0x1809EAEB0
+	// RVA: 0x9EB170 Offset: 0x9E9770 VA: 0x1809EB170
 	public void Add(OccludeeState value, int capacityGranularity = 16) { }
 
-	// RVA: 0x9EB370 Offset: 0x9E9970 VA: 0x1809EB370
+	// RVA: 0x9EB630 Offset: 0x9E9C30 VA: 0x1809EB630
 	public void Remove(OccludeeState value) { }
 
-	// RVA: 0x9EB1B0 Offset: 0x9E97B0 VA: 0x1809EB1B0
+	// RVA: 0x9EB470 Offset: 0x9E9A70 VA: 0x1809EB470
 	public bool Contains(OccludeeState value) { }
 
-	// RVA: 0x9EB200 Offset: 0x9E9800 VA: 0x1809EB200
+	// RVA: 0x9EB4C0 Offset: 0x9E9AC0 VA: 0x1809EB4C0
 	public void EnsureCapacity(int min) { }
 
-	// RVA: 0x9EB450 Offset: 0x9E9A50 VA: 0x1809EB450
+	// RVA: 0x9EB710 Offset: 0x9E9D10 VA: 0x1809EB710
 	private static void .cctor() { }
 
 }
@@ -761,13 +761,13 @@ public class OcclusionCulling.Cell : OcclusionCulling.HashedPoolValue // TypeDef
 
 	// Methods
 
-	// RVA: 0x9D0530 Offset: 0x9CEB30 VA: 0x1809D0530
+	// RVA: 0x9D07F0 Offset: 0x9CEDF0 VA: 0x1809D07F0
 	public void Reset() { }
 
-	// RVA: 0x9D0390 Offset: 0x9CE990 VA: 0x1809D0390
+	// RVA: 0x9D0650 Offset: 0x9CEC50 VA: 0x1809D0650
 	public OcclusionCulling.Cell Initialize(int x, int y, int z, Bounds bounds) { }
 
-	// RVA: 0x9D05D0 Offset: 0x9CEBD0 VA: 0x1809D05D0
+	// RVA: 0x9D0890 Offset: 0x9CEE90 VA: 0x1809D0890
 	public void .ctor() { }
 
 }
@@ -793,10 +793,10 @@ public sealed class OcclusionCulling.OnVisibilityChanged : MulticastDelegate // 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x9E6190 Offset: 0x9E4790 VA: 0x1809E6190 Slot: 12
+	// RVA: 0x9E6450 Offset: 0x9E4A50 VA: 0x1809E6450 Slot: 12
 	public virtual void Invoke(bool visible) { }
 
-	// RVA: 0x9E6110 Offset: 0x9E4710 VA: 0x1809E6110 Slot: 13
+	// RVA: 0x9E63D0 Offset: 0x9E49D0 VA: 0x1809E63D0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(bool visible, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

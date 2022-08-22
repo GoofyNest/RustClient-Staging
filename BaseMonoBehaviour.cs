@@ -4,16 +4,16 @@ public abstract class BaseMonoBehaviour : FacepunchBehaviour // TypeDefIndex: 11
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 4
 	public virtual bool IsDebugging() { }
 
-	// RVA: 0xA49650 Offset: 0xA47C50 VA: 0x180A49650 Slot: 5
+	// RVA: 0xA49910 Offset: 0xA47F10 VA: 0x180A49910 Slot: 5
 	public virtual string GetLogColor() { }
 
-	// RVA: 0xA49C70 Offset: 0xA48270 VA: 0x180A49C70
+	// RVA: 0xA49F30 Offset: 0xA48530 VA: 0x180A49F30
 	public void LogEntry(BaseMonoBehaviour.LogEntryType log, int level, string str, object arg1) { }
 
-	// RVA: 0xA49970 Offset: 0xA47F70 VA: 0x180A49970
+	// RVA: 0xA49C30 Offset: 0xA48230 VA: 0x180A49C30
 	public void LogEntry(BaseMonoBehaviour.LogEntryType log, int level, string str, object arg1, object arg2) { }
 
-	// RVA: 0xA49680 Offset: 0xA47C80 VA: 0x180A49680
+	// RVA: 0xA49940 Offset: 0xA47F40 VA: 0x180A49940
 	public void LogEntry(BaseMonoBehaviour.LogEntryType log, int level, string str) { }
 
 	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0

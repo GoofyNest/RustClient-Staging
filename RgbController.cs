@@ -15,48 +15,48 @@ public class RgbController : IDisposable // TypeDefIndex: 7687
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public IRgbService get_SteelSeries() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	public IRgbService get_Razer() { }
 
-	// RVA: 0x21C17B0 Offset: 0x21BFDB0 VA: 0x1821C17B0
+	// RVA: 0x21C1A70 Offset: 0x21C0070 VA: 0x1821C1A70
 	public void .ctor() { }
 
-	// RVA: 0x21C0C90 Offset: 0x21BF290 VA: 0x1821C0C90 Slot: 4
+	// RVA: 0x21C0F50 Offset: 0x21BF550 VA: 0x1821C0F50 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x21C1310 Offset: 0x21BF910 VA: 0x1821C1310
+	// RVA: 0x21C15D0 Offset: 0x21BFBD0 VA: 0x1821C15D0
 	public void StaticColor(Color color) { }
 
-	// RVA: 0x21C1010 Offset: 0x21BF610 VA: 0x1821C1010
+	// RVA: 0x21C12D0 Offset: 0x21BF8D0 VA: 0x1821C12D0
 	public void PulseColor(Color color, float duration = 1) { }
 
-	// RVA: 0x21C0D70 Offset: 0x21BF370 VA: 0x1821C0D70
+	// RVA: 0x21C1030 Offset: 0x21BF630 VA: 0x1821C1030
 	public void Event(RgbEventType type) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB9640 Offset: 0xB8A40 VA: 0x1800B9640
-	// RVA: 0x21C16E0 Offset: 0x21BFCE0 VA: 0x1821C16E0
+	// RVA: 0x21C19A0 Offset: 0x21BFFA0 VA: 0x1821C19A0
 	private void Worker() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB9870 Offset: 0xB8C70 VA: 0x1800B9870
-	// RVA: 0x21C1210 Offset: 0x21BF810 VA: 0x1821C1210
+	// RVA: 0x21C14D0 Offset: 0x21BFAD0 VA: 0x1821C14D0
 	private ValueTask StartServices() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB99E0 Offset: 0xB8DE0 VA: 0x1800B99E0
-	// RVA: 0x21C14E0 Offset: 0x21BFAE0 VA: 0x1821C14E0
+	// RVA: 0x21C17A0 Offset: 0x21BFDA0 VA: 0x1821C17A0
 	private ValueTask StopServices() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB9B10 Offset: 0xB8F10 VA: 0x1800B9B10
-	// RVA: 0x21C15E0 Offset: 0x21BFBE0 VA: 0x1821C15E0
+	// RVA: 0x21C18A0 Offset: 0x21BFEA0 VA: 0x1821C18A0
 	private ValueTask UpdateServices() { }
 
-	// RVA: 0x21C0F20 Offset: 0x21BF520 VA: 0x1821C0F20
+	// RVA: 0x21C11E0 Offset: 0x21BF7E0 VA: 0x1821C11E0
 	public static void LogError(string message) { }
 
-	// RVA: 0x21C0F80 Offset: 0x21BF580 VA: 0x1821C0F80
+	// RVA: 0x21C1240 Offset: 0x21BF840 VA: 0x1821C1240
 	public static void LogError(Exception exception, string message) { }
 
 }

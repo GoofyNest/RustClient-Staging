@@ -36,94 +36,94 @@ internal class Uri // TypeDefIndex: 52
 
 	// Methods
 
-	// RVA: 0x175C230 Offset: 0x175A830 VA: 0x18175C230
+	// RVA: 0x175C4F0 Offset: 0x175AAF0 VA: 0x18175C4F0
 	public void .ctor(string uriString) { }
 
-	// RVA: 0x175C100 Offset: 0x175A700 VA: 0x18175C100
+	// RVA: 0x175C3C0 Offset: 0x175A9C0 VA: 0x18175C3C0
 	public void .ctor(string uriString, bool dontEscape) { }
 
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
 	public string get_AbsolutePath() { }
 
-	// RVA: 0x175C350 Offset: 0x175A950 VA: 0x18175C350
+	// RVA: 0x175C610 Offset: 0x175AC10 VA: 0x18175C610
 	public bool get_IsFile() { }
 
 	// RVA: 0x592630 Offset: 0x590C30 VA: 0x180592630
 	public bool get_IsUnc() { }
 
-	// RVA: 0x175C3C0 Offset: 0x175A9C0 VA: 0x18175C3C0
+	// RVA: 0x175C680 Offset: 0x175AC80 VA: 0x18175C680
 	public string get_LocalPath() { }
 
-	// RVA: 0x1758480 Offset: 0x1756A80 VA: 0x181758480 Slot: 0
+	// RVA: 0x1758740 Offset: 0x1756D40 VA: 0x181758740 Slot: 0
 	public override bool Equals(object comparant) { }
 
-	// RVA: 0x1758F60 Offset: 0x1757560 VA: 0x181758F60 Slot: 2
+	// RVA: 0x1759220 Offset: 0x1757820 VA: 0x181759220 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1759050 Offset: 0x1757650 VA: 0x181759050
+	// RVA: 0x1759310 Offset: 0x1757910 VA: 0x181759310
 	public string GetLeftPart(UriPartial part) { }
 
-	// RVA: 0x1758D60 Offset: 0x1757360 VA: 0x181758D60
+	// RVA: 0x1759020 Offset: 0x1757620 VA: 0x181759020
 	public static int FromHex(char digit) { }
 
-	// RVA: 0x1759840 Offset: 0x1757E40 VA: 0x181759840
+	// RVA: 0x1759B00 Offset: 0x1758100 VA: 0x181759B00
 	public static string HexEscape(char character) { }
 
-	// RVA: 0x1759970 Offset: 0x1757F70 VA: 0x181759970
+	// RVA: 0x1759C30 Offset: 0x1758230 VA: 0x181759C30
 	public static char HexUnescape(string pattern, ref int index) { }
 
-	// RVA: 0x1759C60 Offset: 0x1758260 VA: 0x181759C60
+	// RVA: 0x1759F20 Offset: 0x1758520 VA: 0x181759F20
 	public static bool IsHexDigit(char digit) { }
 
-	// RVA: 0x1759C90 Offset: 0x1758290 VA: 0x181759C90
+	// RVA: 0x1759F50 Offset: 0x1758550 VA: 0x181759F50
 	public static bool IsHexEncoding(string pattern, int index) { }
 
-	// RVA: 0x175B8D0 Offset: 0x1759ED0 VA: 0x18175B8D0 Slot: 3
+	// RVA: 0x175BB90 Offset: 0x175A190 VA: 0x18175BB90 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1758A80 Offset: 0x1757080 VA: 0x181758A80
+	// RVA: 0x1758D40 Offset: 0x1757340 VA: 0x181758D40
 	protected static string EscapeString(string str) { }
 
-	// RVA: 0x17587A0 Offset: 0x1756DA0 VA: 0x1817587A0
+	// RVA: 0x1758A60 Offset: 0x1757060 VA: 0x181758A60
 	internal static string EscapeString(string str, bool escapeReserved, bool escapeHex, bool escapeBrackets) { }
 
-	// RVA: 0x175A390 Offset: 0x1758990 VA: 0x18175A390
+	// RVA: 0x175A650 Offset: 0x1758C50 VA: 0x18175A650
 	protected void Parse() { }
 
-	// RVA: 0x175B9E0 Offset: 0x1759FE0 VA: 0x18175B9E0
+	// RVA: 0x175BCA0 Offset: 0x175A2A0 VA: 0x18175BCA0
 	protected string Unescape(string str) { }
 
-	// RVA: 0x175B9F0 Offset: 0x1759FF0 VA: 0x18175B9F0
+	// RVA: 0x175BCB0 Offset: 0x175A2B0 VA: 0x18175BCB0
 	internal string Unescape(string str, bool excludeSharp) { }
 
-	// RVA: 0x175A1B0 Offset: 0x17587B0 VA: 0x18175A1B0
+	// RVA: 0x175A470 Offset: 0x1758A70 VA: 0x18175A470
 	private void ParseAsWindowsUNC(string uriString) { }
 
-	// RVA: 0x175A040 Offset: 0x1758640 VA: 0x18175A040
+	// RVA: 0x175A300 Offset: 0x1758900 VA: 0x18175A300
 	private void ParseAsWindowsAbsoluteFilePath(string uriString) { }
 
-	// RVA: 0x1759EB0 Offset: 0x17584B0 VA: 0x181759EB0
+	// RVA: 0x175A170 Offset: 0x1758770 VA: 0x18175A170
 	private void ParseAsUnixAbsoluteFilePath(string uriString) { }
 
-	// RVA: 0x175A6B0 Offset: 0x1758CB0 VA: 0x18175A6B0
+	// RVA: 0x175A970 Offset: 0x1758F70 VA: 0x18175A970
 	private void Parse(string uriString) { }
 
-	// RVA: 0x175B660 Offset: 0x1759C60 VA: 0x18175B660
+	// RVA: 0x175B920 Offset: 0x1759F20 VA: 0x18175B920
 	private static string Reduce(string path) { }
 
-	// RVA: 0x17596B0 Offset: 0x1757CB0 VA: 0x1817596B0
+	// RVA: 0x1759970 Offset: 0x1757F70 VA: 0x181759970
 	internal static string GetSchemeDelimiter(string scheme) { }
 
-	// RVA: 0x1758DF0 Offset: 0x17573F0 VA: 0x181758DF0
+	// RVA: 0x17590B0 Offset: 0x17576B0 VA: 0x1817590B0
 	internal static int GetDefaultPort(string scheme) { }
 
-	// RVA: 0x17594B0 Offset: 0x1757AB0 VA: 0x1817594B0
+	// RVA: 0x1759770 Offset: 0x1757D70 VA: 0x181759770
 	private string GetOpaqueWiseSchemeDelimiter() { }
 
-	// RVA: 0x1759DC0 Offset: 0x17583C0 VA: 0x181759DC0
+	// RVA: 0x175A080 Offset: 0x1758680 VA: 0x18175A080
 	private static bool IsPredefinedScheme(string scheme) { }
 
-	// RVA: 0x175BB60 Offset: 0x175A160 VA: 0x18175BB60
+	// RVA: 0x175BE20 Offset: 0x175A420 VA: 0x18175BE20
 	private static void .cctor() { }
 
 }
@@ -218,373 +218,373 @@ public class Uri : ISerializable // TypeDefIndex: 2568
 
 	// Methods
 
-	// RVA: 0x16CA230 Offset: 0x16C8830 VA: 0x1816CA230
+	// RVA: 0x16CA4F0 Offset: 0x16C8AF0 VA: 0x1816CA4F0
 	private bool get_IsImplicitFile() { }
 
-	// RVA: 0x16CA310 Offset: 0x16C8910 VA: 0x1816CA310
+	// RVA: 0x16CA5D0 Offset: 0x16C8BD0 VA: 0x1816CA5D0
 	private bool get_IsUncOrDosPath() { }
 
-	// RVA: 0x16CA160 Offset: 0x16C8760 VA: 0x1816CA160
+	// RVA: 0x16CA420 Offset: 0x16C8A20 VA: 0x1816CA420
 	private bool get_IsDosPath() { }
 
-	// RVA: 0x16CA320 Offset: 0x16C8920 VA: 0x1816CA320
+	// RVA: 0x16CA5E0 Offset: 0x16C8BE0 VA: 0x1816CA5E0
 	private bool get_IsUncPath() { }
 
-	// RVA: 0x16C9ED0 Offset: 0x16C84D0 VA: 0x1816C9ED0
+	// RVA: 0x16CA190 Offset: 0x16C8790 VA: 0x1816CA190
 	private Uri.Flags get_HostType() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	private UriParser get_Syntax() { }
 
-	// RVA: 0x16CA300 Offset: 0x16C8900 VA: 0x1816CA300
+	// RVA: 0x16CA5C0 Offset: 0x16C8BC0 VA: 0x1816CA5C0
 	private bool get_IsNotAbsoluteUri() { }
 
-	// RVA: 0x16C4430 Offset: 0x16C2A30 VA: 0x1816C4430
+	// RVA: 0x16C46F0 Offset: 0x16C2CF0 VA: 0x1816C46F0
 	internal static bool IriParsingStatic(UriParser syntax) { }
 
-	// RVA: 0x16C97D0 Offset: 0x16C7DD0 VA: 0x1816C97D0
+	// RVA: 0x16C9A90 Offset: 0x16C8090 VA: 0x1816C9A90
 	private bool get_AllowIdn() { }
 
-	// RVA: 0x16BAA50 Offset: 0x16B9050 VA: 0x1816BAA50
+	// RVA: 0x16BAD10 Offset: 0x16B9310 VA: 0x1816BAD10
 	private bool AllowIdnStatic(UriParser syntax, Uri.Flags flags) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	private bool IsIntranet(string schemeHost) { }
 
-	// RVA: 0x16CA9D0 Offset: 0x16C8FD0 VA: 0x1816CA9D0
+	// RVA: 0x16CAC90 Offset: 0x16C9290 VA: 0x1816CAC90
 	internal bool get_UserDrivenParsing() { }
 
-	// RVA: 0x16C7C80 Offset: 0x16C6280 VA: 0x1816C7C80
+	// RVA: 0x16C7F40 Offset: 0x16C6540 VA: 0x1816C7F40
 	private void SetUserDrivenParsing() { }
 
-	// RVA: 0x16CA970 Offset: 0x16C8F70 VA: 0x1816CA970
+	// RVA: 0x16CAC30 Offset: 0x16C9230 VA: 0x1816CAC30
 	private ushort get_SecuredPathIndex() { }
 
-	// RVA: 0x16C4830 Offset: 0x16C2E30 VA: 0x1816C4830
+	// RVA: 0x16C4AF0 Offset: 0x16C30F0 VA: 0x1816C4AF0
 	private bool NotAny(Uri.Flags flags) { }
 
-	// RVA: 0x16C3350 Offset: 0x16C1950 VA: 0x1816C3350
+	// RVA: 0x16C3610 Offset: 0x16C1C10 VA: 0x1816C3610
 	private bool InFact(Uri.Flags flags) { }
 
-	// RVA: 0x16C7CD0 Offset: 0x16C62D0 VA: 0x1816C7CD0
+	// RVA: 0x16C7F90 Offset: 0x16C6590 VA: 0x1816C7F90
 	private static bool StaticNotAny(Uri.Flags allFlags, Uri.Flags checkFlags) { }
 
-	// RVA: 0x16C7CA0 Offset: 0x16C62A0 VA: 0x1816C7CA0
+	// RVA: 0x16C7F60 Offset: 0x16C6560 VA: 0x1816C7F60
 	private static bool StaticInFact(Uri.Flags allFlags, Uri.Flags checkFlags) { }
 
-	// RVA: 0x16BFC40 Offset: 0x16BE240 VA: 0x1816BFC40
+	// RVA: 0x16BFF00 Offset: 0x16BE500 VA: 0x1816BFF00
 	private Uri.UriInfo EnsureUriInfo() { }
 
-	// RVA: 0x16BFC20 Offset: 0x16BE220 VA: 0x1816BFC20
+	// RVA: 0x16BFEE0 Offset: 0x16BE4E0 VA: 0x1816BFEE0
 	private void EnsureParseRemaining() { }
 
-	// RVA: 0x16BFBC0 Offset: 0x16BE1C0 VA: 0x1816BFBC0
+	// RVA: 0x16BFE80 Offset: 0x16BE480 VA: 0x1816BFE80
 	private void EnsureHostString(bool allowDnsOptimization) { }
 
-	// RVA: 0x16C93E0 Offset: 0x16C79E0 VA: 0x1816C93E0
+	// RVA: 0x16C96A0 Offset: 0x16C7CA0 VA: 0x1816C96A0
 	public void .ctor(string uriString) { }
 
-	// RVA: 0x16C9340 Offset: 0x16C7940 VA: 0x1816C9340
+	// RVA: 0x16C9600 Offset: 0x16C7C00 VA: 0x1816C9600
 	public void .ctor(string uriString, UriKind uriKind) { }
 
-	// RVA: 0x16C8FC0 Offset: 0x16C75C0 VA: 0x1816C8FC0
+	// RVA: 0x16C9280 Offset: 0x16C7880 VA: 0x1816C9280
 	public void .ctor(Uri baseUri, string relativeUri) { }
 
-	// RVA: 0x16BF880 Offset: 0x16BDE80 VA: 0x1816BF880
+	// RVA: 0x16BFB40 Offset: 0x16BE140 VA: 0x1816BFB40
 	private void CreateUri(Uri baseUri, string relativeUri, bool dontEscape) { }
 
-	// RVA: 0x16C90A0 Offset: 0x16C76A0 VA: 0x1816C90A0
+	// RVA: 0x16C9360 Offset: 0x16C7960 VA: 0x1816C9360
 	public void .ctor(Uri baseUri, Uri relativeUri) { }
 
-	// RVA: 0x16C0E50 Offset: 0x16BF450 VA: 0x1816C0E50
+	// RVA: 0x16C1110 Offset: 0x16BF710 VA: 0x1816C1110
 	private static ParsingError GetCombinedString(Uri baseUri, string relativeStr, bool dontEscape, ref string result) { }
 
-	// RVA: 0x16C1670 Offset: 0x16BFC70 VA: 0x1816C1670
+	// RVA: 0x16C1930 Offset: 0x16BFF30 VA: 0x1816C1930
 	private static UriFormatException GetException(ParsingError err) { }
 
-	// RVA: 0x16C8D80 Offset: 0x16C7380 VA: 0x1816C8D80
+	// RVA: 0x16C9040 Offset: 0x16C7640 VA: 0x1816C9040
 	protected void .ctor(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
-	// RVA: 0x16C2640 Offset: 0x16C0C40 VA: 0x1816C2640 Slot: 4
+	// RVA: 0x16C2900 Offset: 0x16C0F00 VA: 0x1816C2900 Slot: 4
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
-	// RVA: 0x16C2640 Offset: 0x16C0C40 VA: 0x1816C2640
+	// RVA: 0x16C2900 Offset: 0x16C0F00 VA: 0x1816C2900
 	protected void GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
-	// RVA: 0x16C9520 Offset: 0x16C7B20 VA: 0x1816C9520
+	// RVA: 0x16C97E0 Offset: 0x16C7DE0 VA: 0x1816C97E0
 	public string get_AbsolutePath() { }
 
-	// RVA: 0x16CA6E0 Offset: 0x16C8CE0 VA: 0x1816CA6E0
+	// RVA: 0x16CA9A0 Offset: 0x16C8FA0 VA: 0x1816CA9A0
 	private string get_PrivateAbsolutePath() { }
 
-	// RVA: 0x16C96A0 Offset: 0x16C7CA0 VA: 0x1816C96A0
+	// RVA: 0x16C9960 Offset: 0x16C7F60 VA: 0x1816C9960
 	public string get_AbsoluteUri() { }
 
-	// RVA: 0x16CA3C0 Offset: 0x16C89C0 VA: 0x1816CA3C0
+	// RVA: 0x16CA680 Offset: 0x16C8C80 VA: 0x1816CA680
 	public string get_LocalPath() { }
 
-	// RVA: 0x16C98D0 Offset: 0x16C7ED0 VA: 0x1816C98D0
+	// RVA: 0x16C9B90 Offset: 0x16C8190 VA: 0x1816C9B90
 	public string get_Authority() { }
 
-	// RVA: 0x16C9D90 Offset: 0x16C8390 VA: 0x1816C9D90
+	// RVA: 0x16CA050 Offset: 0x16C8650 VA: 0x1816CA050
 	public UriHostNameType get_HostNameType() { }
 
-	// RVA: 0x16CA070 Offset: 0x16C8670 VA: 0x1816CA070
+	// RVA: 0x16CA330 Offset: 0x16C8930 VA: 0x1816CA330
 	public bool get_IsDefaultPort() { }
 
-	// RVA: 0x16CA170 Offset: 0x16C8770 VA: 0x1816CA170
+	// RVA: 0x16CA430 Offset: 0x16C8A30 VA: 0x1816CA430
 	public bool get_IsFile() { }
 
-	// RVA: 0x16CA240 Offset: 0x16C8840 VA: 0x1816CA240
+	// RVA: 0x16CA500 Offset: 0x16C8B00 VA: 0x1816CA500
 	public bool get_IsLoopback() { }
 
-	// RVA: 0x16CA510 Offset: 0x16C8B10 VA: 0x1816CA510
+	// RVA: 0x16CA7D0 Offset: 0x16C8DD0 VA: 0x1816CA7D0
 	public string get_PathAndQuery() { }
 
-	// RVA: 0x16CA330 Offset: 0x16C8930 VA: 0x1816CA330
+	// RVA: 0x16CA5F0 Offset: 0x16C8BF0 VA: 0x1816CA5F0
 	public bool get_IsUnc() { }
 
-	// RVA: 0x16C9EE0 Offset: 0x16C84E0 VA: 0x1816C9EE0
+	// RVA: 0x16CA1A0 Offset: 0x16C87A0 VA: 0x1816CA1A0
 	public string get_Host() { }
 
-	// RVA: 0x16C7CB0 Offset: 0x16C62B0 VA: 0x1816C7CB0
+	// RVA: 0x16C7F70 Offset: 0x16C6570 VA: 0x1816C7F70
 	private static bool StaticIsFile(UriParser syntax) { }
 
-	// RVA: 0x16C9F70 Offset: 0x16C8570 VA: 0x1816C9F70
+	// RVA: 0x16CA230 Offset: 0x16C8830 VA: 0x1816CA230
 	private static object get_InitializeLock() { }
 
-	// RVA: 0x16C3360 Offset: 0x16C1960 VA: 0x1816C3360
+	// RVA: 0x16C3620 Offset: 0x16C1C20 VA: 0x1816C3620
 	private static void InitializeUriConfig() { }
 
-	// RVA: 0x16C1DE0 Offset: 0x16C03E0 VA: 0x1816C1DE0
+	// RVA: 0x16C20A0 Offset: 0x16C06A0 VA: 0x1816C20A0
 	private string GetLocalPath() { }
 
-	// RVA: 0x16CA5E0 Offset: 0x16C8BE0 VA: 0x1816CA5E0
+	// RVA: 0x16CA8A0 Offset: 0x16C8EA0 VA: 0x1816CA8A0
 	public int get_Port() { }
 
-	// RVA: 0x16CA7C0 Offset: 0x16C8DC0 VA: 0x1816CA7C0
+	// RVA: 0x16CAA80 Offset: 0x16C9080 VA: 0x1816CAA80
 	public string get_Query() { }
 
-	// RVA: 0x16C9C50 Offset: 0x16C8250 VA: 0x1816C9C50
+	// RVA: 0x16C9F10 Offset: 0x16C8510 VA: 0x1816C9F10
 	public string get_Fragment() { }
 
-	// RVA: 0x16CA8F0 Offset: 0x16C8EF0 VA: 0x1816CA8F0
+	// RVA: 0x16CABB0 Offset: 0x16C91B0 VA: 0x1816CABB0
 	public string get_Scheme() { }
 
-	// RVA: 0x16CA440 Offset: 0x16C8A40 VA: 0x1816CA440
+	// RVA: 0x16CA700 Offset: 0x16C8D00 VA: 0x1816CA700
 	private bool get_OriginalStringSwitched() { }
 
-	// RVA: 0x16CA4B0 Offset: 0x16C8AB0 VA: 0x1816CA4B0
+	// RVA: 0x16CA770 Offset: 0x16C8D70 VA: 0x1816CA770
 	public string get_OriginalString() { }
 
-	// RVA: 0x16C9960 Offset: 0x16C7F60 VA: 0x1816C9960
+	// RVA: 0x16C9C20 Offset: 0x16C8220 VA: 0x1816C9C20
 	public string get_DnsSafeHost() { }
 
-	// RVA: 0x12355E0 Offset: 0x1233BE0 VA: 0x1812355E0
+	// RVA: 0x12358A0 Offset: 0x1233EA0 VA: 0x1812358A0
 	public bool get_IsAbsoluteUri() { }
 
-	// RVA: 0x16CA9E0 Offset: 0x16C8FE0 VA: 0x1816CA9E0
+	// RVA: 0x16CACA0 Offset: 0x16C92A0 VA: 0x1816CACA0
 	public bool get_UserEscaped() { }
 
-	// RVA: 0x16CA9F0 Offset: 0x16C8FF0 VA: 0x1816CA9F0
+	// RVA: 0x16CACB0 Offset: 0x16C92B0 VA: 0x1816CACB0
 	public string get_UserInfo() { }
 
-	// RVA: 0x16C45C0 Offset: 0x16C2BC0 VA: 0x1816C45C0
+	// RVA: 0x16C4880 Offset: 0x16C2E80 VA: 0x1816C4880
 	internal static bool IsGenDelim(char ch) { }
 
-	// RVA: 0x16BD270 Offset: 0x16BB870 VA: 0x1816BD270
+	// RVA: 0x16BD530 Offset: 0x16BBB30 VA: 0x1816BD530
 	public static bool CheckSchemeName(string schemeName) { }
 
-	// RVA: 0x16C45F0 Offset: 0x16C2BF0 VA: 0x1816C45F0
+	// RVA: 0x16C48B0 Offset: 0x16C2EB0 VA: 0x1816C48B0
 	public static bool IsHexDigit(char character) { }
 
-	// RVA: 0x16C05D0 Offset: 0x16BEBD0 VA: 0x1816C05D0
+	// RVA: 0x16C0890 Offset: 0x16BEE90 VA: 0x1816C0890
 	public static int FromHex(char digit) { }
 
-	// RVA: 0x16C1790 Offset: 0x16BFD90 VA: 0x1816C1790 Slot: 2
+	// RVA: 0x16C1A50 Offset: 0x16C0050 VA: 0x1816C1A50 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x16C7E50 Offset: 0x16C6450 VA: 0x1816C7E50 Slot: 3
+	// RVA: 0x16C8110 Offset: 0x16C6710 VA: 0x1816C8110 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x16CAA80 Offset: 0x16C9080 VA: 0x1816CAA80
+	// RVA: 0x16CAD40 Offset: 0x16C9340 VA: 0x1816CAD40
 	public static bool op_Equality(Uri uri1, Uri uri2) { }
 
-	// RVA: 0x16CAAB0 Offset: 0x16C90B0 VA: 0x1816CAAB0
+	// RVA: 0x16CAD70 Offset: 0x16C9370 VA: 0x1816CAD70
 	public static bool op_Inequality(Uri uri1, Uri uri2) { }
 
-	// RVA: 0x16BFC70 Offset: 0x16BE270 VA: 0x1816BFC70 Slot: 0
+	// RVA: 0x16BFF30 Offset: 0x16BE530 VA: 0x1816BFF30 Slot: 0
 	public override bool Equals(object comparand) { }
 
-	// RVA: 0x16BC870 Offset: 0x16BAE70 VA: 0x1816BC870
+	// RVA: 0x16BCB30 Offset: 0x16BB130 VA: 0x1816BCB30
 	private static bool CheckForColonInFirstPathSegment(string uriString) { }
 
-	// RVA: 0x16C3DF0 Offset: 0x16C23F0 VA: 0x1816C3DF0
+	// RVA: 0x16C40B0 Offset: 0x16C26B0 VA: 0x1816C40B0
 	internal static string InternalEscapeString(string rawString) { }
 
-	// RVA: 0x16C5B60 Offset: 0x16C4160 VA: 0x1816C5B60
+	// RVA: 0x16C5E20 Offset: 0x16C4420 VA: 0x1816C5E20
 	private static ParsingError ParseScheme(string uriString, ref Uri.Flags flags, ref UriParser syntax) { }
 
-	// RVA: 0x16C4840 Offset: 0x16C2E40 VA: 0x1816C4840
+	// RVA: 0x16C4B00 Offset: 0x16C3100 VA: 0x1816C4B00
 	internal UriFormatException ParseMinimal() { }
 
-	// RVA: 0x16C5D70 Offset: 0x16C4370 VA: 0x1816C5D70
+	// RVA: 0x16C6030 Offset: 0x16C4630 VA: 0x1816C6030
 	private ParsingError PrivateParseMinimal() { }
 
-	// RVA: 0x16C5C50 Offset: 0x16C4250 VA: 0x1816C5C50
+	// RVA: 0x16C5F10 Offset: 0x16C4510 VA: 0x1816C5F10
 	private void PrivateParseMinimalIri(string newHost, ushort idx) { }
 
-	// RVA: 0x16BF290 Offset: 0x16BD890 VA: 0x1816BF290
+	// RVA: 0x16BF550 Offset: 0x16BDB50 VA: 0x1816BF550
 	private void CreateUriInfo(Uri.Flags cF) { }
 
-	// RVA: 0x16BEA80 Offset: 0x16BD080 VA: 0x1816BEA80
+	// RVA: 0x16BED40 Offset: 0x16BD340 VA: 0x1816BED40
 	private void CreateHostString() { }
 
-	// RVA: 0x16BE8B0 Offset: 0x16BCEB0 VA: 0x1816BE8B0
+	// RVA: 0x16BEB70 Offset: 0x16BD170 VA: 0x1816BEB70
 	private static string CreateHostStringHelper(string str, ushort idx, ushort end, ref Uri.Flags flags, ref string scopeId) { }
 
-	// RVA: 0x16C1940 Offset: 0x16BFF40 VA: 0x1816C1940
+	// RVA: 0x16C1C00 Offset: 0x16C0200 VA: 0x1816C1C00
 	private void GetHostViaCustomSyntax() { }
 
-	// RVA: 0x16C1390 Offset: 0x16BF990 VA: 0x1816C1390
+	// RVA: 0x16C1650 Offset: 0x16BFC50 VA: 0x1816C1650
 	internal string GetParts(UriComponents uriParts, UriFormat formatAs) { }
 
-	// RVA: 0x16C1550 Offset: 0x16BFB50 VA: 0x1816C1550
+	// RVA: 0x16C1810 Offset: 0x16BFE10 VA: 0x1816C1810
 	private string GetEscapedParts(UriComponents uriParts) { }
 
-	// RVA: 0x16C2A90 Offset: 0x16C1090 VA: 0x1816C2A90
+	// RVA: 0x16C2D50 Offset: 0x16C1350 VA: 0x1816C2D50
 	private string GetUnescapedParts(UriComponents uriParts, UriFormat formatAs) { }
 
-	// RVA: 0x16C65A0 Offset: 0x16C4BA0 VA: 0x1816C65A0
+	// RVA: 0x16C6860 Offset: 0x16C4E60 VA: 0x1816C6860
 	private string ReCreateParts(UriComponents parts, ushort nonCanonical, UriFormat formatAs) { }
 
-	// RVA: 0x16C2B80 Offset: 0x16C1180 VA: 0x1816C2B80
+	// RVA: 0x16C2E40 Offset: 0x16C1440 VA: 0x1816C2E40
 	private string GetUriPartsFromUserString(UriComponents uriParts) { }
 
-	// RVA: 0x16C48C0 Offset: 0x16C2EC0 VA: 0x1816C48C0
+	// RVA: 0x16C4B80 Offset: 0x16C3180 VA: 0x1816C4B80
 	private void ParseRemaining() { }
 
-	// RVA: 0x16C5660 Offset: 0x16C3C60 VA: 0x1816C5660
+	// RVA: 0x16C5920 Offset: 0x16C3F20 VA: 0x1816C5920
 	private static ushort ParseSchemeCheckImplicitFile(char* uriString, ushort length, ref ParsingError err, ref Uri.Flags flags, ref UriParser syntax) { }
 
-	// RVA: 0x16BCCC0 Offset: 0x16BB2C0 VA: 0x1816BCCC0
+	// RVA: 0x16BCF80 Offset: 0x16BB580 VA: 0x1816BCF80
 	private static bool CheckKnownSchemes(long* lptr, ushort nChars, ref UriParser syntax) { }
 
-	// RVA: 0x16BD3B0 Offset: 0x16BB9B0 VA: 0x1816BD3B0
+	// RVA: 0x16BD670 Offset: 0x16BBC70 VA: 0x1816BD670
 	private static ParsingError CheckSchemeSyntax(char* ptr, ushort length, ref UriParser syntax) { }
 
-	// RVA: 0x16BB460 Offset: 0x16B9A60 VA: 0x1816BB460
+	// RVA: 0x16BB720 Offset: 0x16B9D20 VA: 0x1816BB720
 	private ushort CheckAuthorityHelper(char* pString, ushort idx, ushort length, ref ParsingError err, ref Uri.Flags flags, UriParser syntax, ref string newHost) { }
 
-	// RVA: 0x16BAF00 Offset: 0x16B9500 VA: 0x1816BAF00
+	// RVA: 0x16BB1C0 Offset: 0x16B97C0 VA: 0x1816BB1C0
 	private void CheckAuthorityHelperHandleDnsIri(char* pString, ushort start, int end, int startInput, bool iriParsing, bool hasUnicode, UriParser syntax, string userInfoString, ref Uri.Flags flags, ref bool justNormalized, ref string newHost, ref ParsingError err) { }
 
-	// RVA: 0x16BAC20 Offset: 0x16B9220 VA: 0x1816BAC20
+	// RVA: 0x16BAEE0 Offset: 0x16B94E0 VA: 0x1816BAEE0
 	private void CheckAuthorityHelperHandleAnyHostIri(char* pString, int startInput, int end, bool iriParsing, bool hasUnicode, UriParser syntax, ref Uri.Flags flags, ref string newHost, ref ParsingError err) { }
 
-	// RVA: 0x16C0520 Offset: 0x16BEB20 VA: 0x1816C0520
+	// RVA: 0x16C07E0 Offset: 0x16BEDE0 VA: 0x1816C07E0
 	private void FindEndOfComponent(string input, ref ushort idx, ushort end, char delim) { }
 
-	// RVA: 0x16C0480 Offset: 0x16BEA80 VA: 0x1816C0480
+	// RVA: 0x16C0740 Offset: 0x16BED40 VA: 0x1816C0740
 	private void FindEndOfComponent(char* str, ref ushort idx, ushort end, char delim) { }
 
-	// RVA: 0x16BC4B0 Offset: 0x16BAAB0 VA: 0x1816BC4B0
+	// RVA: 0x16BC770 Offset: 0x16BAD70 VA: 0x1816BC770
 	private Uri.Check CheckCanonical(char* str, ref ushort idx, ushort end, char delim) { }
 
-	// RVA: 0x16C0670 Offset: 0x16BEC70 VA: 0x1816C0670
+	// RVA: 0x16C0930 Offset: 0x16BEF30 VA: 0x1816C0930
 	private char[] GetCanonicalPath(char[] dest, ref int pos, UriFormat formatAs) { }
 
-	// RVA: 0x16C86E0 Offset: 0x16C6CE0 VA: 0x1816C86E0
+	// RVA: 0x16C89A0 Offset: 0x16C6FA0 VA: 0x1816C89A0
 	private static void UnescapeOnly(char* pch, int start, ref int end, char ch1, char ch2, char ch3) { }
 
-	// RVA: 0x16BE110 Offset: 0x16BC710 VA: 0x1816BE110
+	// RVA: 0x16BE3D0 Offset: 0x16BC9D0 VA: 0x1816BE3D0
 	private static char[] Compress(char[] dest, ushort start, ref int destLength, UriParser syntax) { }
 
-	// RVA: 0x16BAB60 Offset: 0x16B9160 VA: 0x1816BAB60
+	// RVA: 0x16BAE20 Offset: 0x16B9420 VA: 0x1816BAE20
 	internal static int CalculateCaseInsensitiveHashCode(string text) { }
 
-	// RVA: 0x16BD4E0 Offset: 0x16BBAE0 VA: 0x1816BD4E0
+	// RVA: 0x16BD7A0 Offset: 0x16BBDA0 VA: 0x1816BD7A0
 	private static string CombineUri(Uri basePart, string relativePart, UriFormat uriFormat) { }
 
-	// RVA: 0x16C9D80 Offset: 0x16C8380 VA: 0x1816C9D80
+	// RVA: 0x16CA040 Offset: 0x16C8640 VA: 0x1816CA040
 	internal bool get_HasAuthority() { }
 
-	// RVA: 0x16C4620 Offset: 0x16C2C20 VA: 0x1816C4620
+	// RVA: 0x16C48E0 Offset: 0x16C2EE0 VA: 0x1816C48E0
 	private static bool IsLWS(char ch) { }
 
-	// RVA: 0x16C4560 Offset: 0x16C2B60 VA: 0x1816C4560
+	// RVA: 0x16C4820 Offset: 0x16C2E20 VA: 0x1816C4820
 	private static bool IsAsciiLetter(char character) { }
 
-	// RVA: 0x16C44E0 Offset: 0x16C2AE0 VA: 0x1816C44E0
+	// RVA: 0x16C47A0 Offset: 0x16C2DA0 VA: 0x1816C47A0
 	internal static bool IsAsciiLetterOrDigit(char character) { }
 
-	// RVA: 0x16C4580 Offset: 0x16C2B80 VA: 0x1816C4580
+	// RVA: 0x16C4840 Offset: 0x16C2E40 VA: 0x1816C4840
 	internal static bool IsBidiControlCharacter(char ch) { }
 
-	// RVA: 0x16C7CE0 Offset: 0x16C62E0 VA: 0x1816C7CE0
+	// RVA: 0x16C7FA0 Offset: 0x16C65A0 VA: 0x1816C7FA0
 	internal static string StripBidiControlCharacter(char* strToClean, int start, int length) { }
 
-	// RVA: 0x16BF0E0 Offset: 0x16BD6E0 VA: 0x1816BF0E0
+	// RVA: 0x16BF3A0 Offset: 0x16BD9A0 VA: 0x1816BF3A0
 	private void CreateThis(string uri, bool dontEscape, UriKind uriKind) { }
 
-	// RVA: 0x16C3620 Offset: 0x16C1C20 VA: 0x1816C3620
+	// RVA: 0x16C38E0 Offset: 0x16C1EE0 VA: 0x1816C38E0
 	private void InitializeUri(ParsingError err, UriKind uriKind, out UriFormatException e) { }
 
-	// RVA: 0x16BC910 Offset: 0x16BAF10 VA: 0x1816BC910
+	// RVA: 0x16BCBD0 Offset: 0x16BB1D0 VA: 0x1816BCBD0
 	private bool CheckForConfigLoad(string data) { }
 
-	// RVA: 0x16BCB80 Offset: 0x16BB180 VA: 0x1816BCB80
+	// RVA: 0x16BCE40 Offset: 0x16BB440 VA: 0x1816BCE40
 	private bool CheckForUnicode(string data) { }
 
-	// RVA: 0x16BC9C0 Offset: 0x16BAFC0 VA: 0x1816BC9C0
+	// RVA: 0x16BCC80 Offset: 0x16BB280 VA: 0x1816BCC80
 	private bool CheckForEscapedUnreserved(string data) { }
 
-	// RVA: 0x16C8460 Offset: 0x16C6A60 VA: 0x1816C8460
+	// RVA: 0x16C8720 Offset: 0x16C6D20 VA: 0x1816C8720
 	public static bool TryCreate(string uriString, UriKind uriKind, out Uri result) { }
 
-	// RVA: 0x16C7F70 Offset: 0x16C6570 VA: 0x1816C7F70
+	// RVA: 0x16C8230 Offset: 0x16C6830 VA: 0x1816C8230
 	public static bool TryCreate(Uri baseUri, string relativeUri, out Uri result) { }
 
-	// RVA: 0x16C8290 Offset: 0x16C6890 VA: 0x1816C8290
+	// RVA: 0x16C8550 Offset: 0x16C6B50 VA: 0x1816C8550
 	public static bool TryCreate(Uri baseUri, Uri relativeUri, out Uri result) { }
 
-	// RVA: 0x16C1390 Offset: 0x16BF990 VA: 0x1816C1390
+	// RVA: 0x16C1650 Offset: 0x16BFC50 VA: 0x1816C1650
 	public string GetComponents(UriComponents components, UriFormat format) { }
 
-	// RVA: 0x16C4650 Offset: 0x16C2C50 VA: 0x1816C4650
+	// RVA: 0x16C4910 Offset: 0x16C2F10 VA: 0x1816C4910
 	public bool IsWellFormedOriginalString() { }
 
-	// RVA: 0x16C46A0 Offset: 0x16C2CA0 VA: 0x1816C46A0
+	// RVA: 0x16C4960 Offset: 0x16C2F60 VA: 0x1816C4960
 	public static bool IsWellFormedUriString(string uriString, UriKind uriKind) { }
 
-	// RVA: 0x16C3EE0 Offset: 0x16C24E0 VA: 0x1816C3EE0
+	// RVA: 0x16C41A0 Offset: 0x16C27A0 VA: 0x1816C41A0
 	internal bool InternalIsWellFormedOriginalString() { }
 
-	// RVA: 0x16C8550 Offset: 0x16C6B50 VA: 0x1816C8550
+	// RVA: 0x16C8810 Offset: 0x16C6E10 VA: 0x1816C8810
 	public static string UnescapeDataString(string stringToUnescape) { }
 
-	// RVA: 0x16C0420 Offset: 0x16BEA20 VA: 0x1816C0420
+	// RVA: 0x16C06E0 Offset: 0x16BECE0 VA: 0x1816C06E0
 	internal string EscapeUnescapeIri(string input, int start, int end, UriComponents component) { }
 
-	// RVA: 0x16C92E0 Offset: 0x16C78E0 VA: 0x1816C92E0
+	// RVA: 0x16C95A0 Offset: 0x16C7BA0 VA: 0x1816C95A0
 	private void .ctor(Uri.Flags flags, UriParser uriParser, string uri) { }
 
-	// RVA: 0x16BE600 Offset: 0x16BCC00 VA: 0x1816BE600
+	// RVA: 0x16BE8C0 Offset: 0x16BCEC0 VA: 0x1816BE8C0
 	internal static Uri CreateHelper(string uriString, bool dontEscape, UriKind uriKind, ref UriFormatException e) { }
 
-	// RVA: 0x16C7720 Offset: 0x16C5D20 VA: 0x1816C7720
+	// RVA: 0x16C79E0 Offset: 0x16C5FE0 VA: 0x1816C79E0
 	internal static Uri ResolveHelper(Uri baseUri, Uri relativeUri, ref string newUriString, ref bool userEscaped, out UriFormatException e) { }
 
-	// RVA: 0x16C2710 Offset: 0x16C0D10 VA: 0x1816C2710
+	// RVA: 0x16C29D0 Offset: 0x16C0FD0 VA: 0x1816C29D0
 	private string GetRelativeSerializationString(UriFormat format) { }
 
-	// RVA: 0x16C1070 Offset: 0x16BF670 VA: 0x1816C1070
+	// RVA: 0x16C1330 Offset: 0x16BF930 VA: 0x1816C1330
 	internal string GetComponentsHelper(UriComponents uriComponents, UriFormat uriFormat) { }
 
-	// RVA: 0x16BEF30 Offset: 0x16BD530 VA: 0x1816BEF30
+	// RVA: 0x16BF1F0 Offset: 0x16BD7F0 VA: 0x1816BF1F0
 	private void CreateThisFromUri(Uri otherUri) { }
 
-	// RVA: 0x16C8900 Offset: 0x16C6F00 VA: 0x1816C8900
+	// RVA: 0x16C8BC0 Offset: 0x16C71C0 VA: 0x1816C8BC0
 	private static void .cctor() { }
 
 }

@@ -21,7 +21,7 @@ public struct RigidTransform // TypeDefIndex: 7113
 	// RVA: 0x239A60 Offset: 0x238E60 VA: 0x180239A60 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x22ADA40 Offset: 0x22AC040 VA: 0x1822ADA40
+	// RVA: 0x22ADD00 Offset: 0x22AC300 VA: 0x1822ADD00
 	private static void .cctor() { }
 
 }

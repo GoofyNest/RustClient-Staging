@@ -76,11 +76,11 @@ public sealed class NumberFormatInfo : ICloneable, IFormatProvider // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x13852A0 Offset: 0x13838A0 VA: 0x1813852A0
+	// RVA: 0x1385560 Offset: 0x1383B60 VA: 0x181385560
 	public void .ctor() { }
 
 	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1384900 Offset: 0x1382F00 VA: 0x181384900
+	// RVA: 0x1384BC0 Offset: 0x13831C0 VA: 0x181384BC0
 	private void OnSerializing(StreamingContext ctx) { }
 
 	[OnDeserializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -91,16 +91,16 @@ public sealed class NumberFormatInfo : ICloneable, IFormatProvider // TypeDefInd
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void OnDeserialized(StreamingContext ctx) { }
 
-	// RVA: 0x1384BE0 Offset: 0x13831E0 VA: 0x181384BE0
+	// RVA: 0x1384EA0 Offset: 0x13834A0 VA: 0x181384EA0
 	internal void .ctor(CultureData cultureData) { }
 
-	// RVA: 0x1385430 Offset: 0x1383A30 VA: 0x181385430
+	// RVA: 0x13856F0 Offset: 0x1383CF0 VA: 0x1813856F0
 	public static NumberFormatInfo get_InvariantInfo() { }
 
-	// RVA: 0x1384680 Offset: 0x1382C80 VA: 0x181384680
+	// RVA: 0x1384940 Offset: 0x1382F40 VA: 0x181384940
 	public static NumberFormatInfo GetInstance(IFormatProvider formatProvider) { }
 
-	// RVA: 0x1384580 Offset: 0x1382B80 VA: 0x181384580 Slot: 4
+	// RVA: 0x1384840 Offset: 0x1382E40 VA: 0x181384840 Slot: 4
 	public object Clone() { }
 
 	// RVA: 0x2FA5B0 Offset: 0x2F8BB0 VA: 0x1802FA5B0
@@ -109,16 +109,16 @@ public sealed class NumberFormatInfo : ICloneable, IFormatProvider // TypeDefInd
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
 	public string get_CurrencyDecimalSeparator() { }
 
-	// RVA: 0xDB3C70 Offset: 0xDB2270 VA: 0x180DB3C70
+	// RVA: 0xDB3F30 Offset: 0xDB2530 VA: 0x180DB3F30
 	public bool get_IsReadOnly() { }
 
-	// RVA: 0x13852B0 Offset: 0x13838B0 VA: 0x1813852B0
+	// RVA: 0x1385570 Offset: 0x1383B70 VA: 0x181385570
 	public int[] get_CurrencyGroupSizes() { }
 
-	// RVA: 0x1385540 Offset: 0x1383B40 VA: 0x181385540
+	// RVA: 0x1385800 Offset: 0x1383E00 VA: 0x181385800
 	public int[] get_NumberGroupSizes() { }
 
-	// RVA: 0x13855C0 Offset: 0x1383BC0 VA: 0x1813855C0
+	// RVA: 0x1385880 Offset: 0x1383E80 VA: 0x181385880
 	public int[] get_PercentGroupSizes() { }
 
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
@@ -127,22 +127,22 @@ public sealed class NumberFormatInfo : ICloneable, IFormatProvider // TypeDefInd
 	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
 	public string get_CurrencySymbol() { }
 
-	// RVA: 0x1385330 Offset: 0x1383930 VA: 0x181385330
+	// RVA: 0x13855F0 Offset: 0x1383BF0 VA: 0x1813855F0
 	public static NumberFormatInfo get_CurrentInfo() { }
 
 	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
 	public string get_NaNSymbol() { }
 
-	// RVA: 0x1079E60 Offset: 0x1078460 VA: 0x181079E60
+	// RVA: 0x107A120 Offset: 0x1078720 VA: 0x18107A120
 	public int get_CurrencyNegativePattern() { }
 
-	// RVA: 0x1079E50 Offset: 0x1078450 VA: 0x181079E50
+	// RVA: 0x107A110 Offset: 0x1078710 VA: 0x18107A110
 	public int get_NumberNegativePattern() { }
 
-	// RVA: 0x1079E40 Offset: 0x1078440 VA: 0x181079E40
+	// RVA: 0x107A100 Offset: 0x1078700 VA: 0x18107A100
 	public int get_PercentPositivePattern() { }
 
-	// RVA: 0xAE2A20 Offset: 0xAE1020 VA: 0x180AE2A20
+	// RVA: 0xAE2CE0 Offset: 0xAE12E0 VA: 0x180AE2CE0
 	public int get_PercentNegativePattern() { }
 
 	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
@@ -151,7 +151,7 @@ public sealed class NumberFormatInfo : ICloneable, IFormatProvider // TypeDefInd
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	public string get_NegativeSign() { }
 
-	// RVA: 0xA4D020 Offset: 0xA4B620 VA: 0x180A4D020
+	// RVA: 0xA4D2E0 Offset: 0xA4B8E0 VA: 0x180A4D2E0
 	public int get_NumberDecimalDigits() { }
 
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
@@ -160,16 +160,16 @@ public sealed class NumberFormatInfo : ICloneable, IFormatProvider // TypeDefInd
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
 	public string get_NumberGroupSeparator() { }
 
-	// RVA: 0x1079E30 Offset: 0x1078430 VA: 0x181079E30
+	// RVA: 0x107A0F0 Offset: 0x10786F0 VA: 0x18107A0F0
 	public int get_CurrencyPositivePattern() { }
 
 	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
 	public string get_PositiveInfinitySymbol() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public string get_PositiveSign() { }
 
-	// RVA: 0xAE2A40 Offset: 0xAE1040 VA: 0x180AE2A40
+	// RVA: 0xAE2D00 Offset: 0xAE1300 VA: 0x180AE2D00
 	public int get_PercentDecimalDigits() { }
 
 	// RVA: 0x5743E0 Offset: 0x5729E0 VA: 0x1805743E0
@@ -184,16 +184,16 @@ public sealed class NumberFormatInfo : ICloneable, IFormatProvider // TypeDefInd
 	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
 	public string get_PerMilleSymbol() { }
 
-	// RVA: 0x13845F0 Offset: 0x1382BF0 VA: 0x1813845F0 Slot: 5
+	// RVA: 0x13848B0 Offset: 0x1382EB0 VA: 0x1813848B0 Slot: 5
 	public object GetFormat(Type formatType) { }
 
-	// RVA: 0x1384990 Offset: 0x1382F90 VA: 0x181384990
+	// RVA: 0x1384C50 Offset: 0x1383250 VA: 0x181384C50
 	public static NumberFormatInfo ReadOnly(NumberFormatInfo nfi) { }
 
-	// RVA: 0x1384B10 Offset: 0x1383110 VA: 0x181384B10
+	// RVA: 0x1384DD0 Offset: 0x13833D0 VA: 0x181384DD0
 	internal static void ValidateParseStyleInteger(NumberStyles style) { }
 
-	// RVA: 0x1384A40 Offset: 0x1383040 VA: 0x181384A40
+	// RVA: 0x1384D00 Offset: 0x1383300 VA: 0x181384D00
 	internal static void ValidateParseStyleFloatingPoint(NumberStyles style) { }
 
 }

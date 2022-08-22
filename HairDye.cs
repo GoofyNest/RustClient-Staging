@@ -13,16 +13,16 @@ public class HairDye // TypeDefIndex: 10729
 
 	// Methods
 
-	// RVA: 0x734450 Offset: 0x732A50 VA: 0x180734450
+	// RVA: 0x734560 Offset: 0x732B60 VA: 0x180734560
 	public void Apply(HairDyeCollection collection, MaterialPropertyBlock block) { }
 
-	// RVA: 0x734280 Offset: 0x732880 VA: 0x180734280
+	// RVA: 0x734390 Offset: 0x732990 VA: 0x180734390
 	public void ApplyCap(HairDyeCollection collection, HairType type, MaterialPropertyBlock block) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x734670 Offset: 0x732C70 VA: 0x180734670
+	// RVA: 0x734780 Offset: 0x732D80 VA: 0x180734780
 	private static void .cctor() { }
 
 }

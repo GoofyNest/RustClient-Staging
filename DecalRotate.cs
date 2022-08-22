@@ -5,10 +5,10 @@ public class DecalRotate : DecalComponent // TypeDefIndex: 9177
 
 	// Methods
 
-	// RVA: 0x83FD40 Offset: 0x83E340 VA: 0x18083FD40 Slot: 8
+	// RVA: 0x83FE50 Offset: 0x83E450 VA: 0x18083FE50 Slot: 8
 	public override void Apply(ref Vector3 pos, ref Quaternion rot, ref Vector3 scale) { }
 
-	// RVA: 0x83FE20 Offset: 0x83E420 VA: 0x18083FE20
+	// RVA: 0x83FF30 Offset: 0x83E530 VA: 0x18083FF30
 	public void .ctor() { }
 
 }

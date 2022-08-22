@@ -76,7 +76,7 @@ public struct ColorBlock : IEquatable<ColorBlock> // TypeDefIndex: 4911
 	// RVA: 0x19E3F0 Offset: 0x19D7F0 VA: 0x18019E3F0
 	public void set_fadeDuration(float value) { }
 
-	// RVA: 0x10B9DE0 Offset: 0x10B83E0 VA: 0x1810B9DE0
+	// RVA: 0x10BA0A0 Offset: 0x10B86A0 VA: 0x1810BA0A0
 	public static ColorBlock get_defaultColorBlock() { }
 
 	// RVA: 0x19E1C0 Offset: 0x19D5C0 VA: 0x18019E1C0 Slot: 0
@@ -85,10 +85,10 @@ public struct ColorBlock : IEquatable<ColorBlock> // TypeDefIndex: 4911
 	// RVA: 0x19E2A0 Offset: 0x19D6A0 VA: 0x18019E2A0 Slot: 4
 	public bool Equals(ColorBlock other) { }
 
-	// RVA: 0x10B9F50 Offset: 0x10B8550 VA: 0x1810B9F50
+	// RVA: 0x10BA210 Offset: 0x10B8810 VA: 0x1810BA210
 	public static bool op_Equality(ColorBlock point1, ColorBlock point2) { }
 
-	// RVA: 0x10B9FA0 Offset: 0x10B85A0 VA: 0x1810B9FA0
+	// RVA: 0x10BA260 Offset: 0x10B8860 VA: 0x1810BA260
 	public static bool op_Inequality(ColorBlock point1, ColorBlock point2) { }
 
 	// RVA: 0x19E2F0 Offset: 0x19D6F0 VA: 0x18019E2F0 Slot: 2

@@ -19,48 +19,48 @@ public class TerrainPath : TerrainExtension // TypeDefIndex: 10428
 
 	// Methods
 
-	// RVA: 0x114F560 Offset: 0x114DB60 VA: 0x18114F560 Slot: 5
+	// RVA: 0x114F820 Offset: 0x114DE20 VA: 0x18114F820 Slot: 5
 	public override void PostSetup() { }
 
-	// RVA: 0x114E020 Offset: 0x114C620 VA: 0x18114E020
+	// RVA: 0x114E2E0 Offset: 0x114C8E0 VA: 0x18114E2E0
 	public void Clear() { }
 
 	// RVA: -1 Offset: -1
 	public T FindClosest<T>(List<T> list, Vector3 pos) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBE0460 Offset: 0xBDEA60 VA: 0x180BE0460
+	|-RVA: 0xBE0720 Offset: 0xBDED20 VA: 0x180BE0720
 	|-TerrainPath.FindClosest<DungeonBaseInfo>
 	|-TerrainPath.FindClosest<DungeonGridInfo>
 	|-TerrainPath.FindClosest<MonumentInfo>
 	|-TerrainPath.FindClosest<object>
 	*/
 
-	// RVA: 0x114E2F0 Offset: 0x114C8F0 VA: 0x18114E2F0
+	// RVA: 0x114E5B0 Offset: 0x114CBB0 VA: 0x18114E5B0
 	public static int[,] CreatePowerlineCostmap(ref uint seed) { }
 
-	// RVA: 0x114E940 Offset: 0x114CF40 VA: 0x18114E940
+	// RVA: 0x114EC00 Offset: 0x114D200 VA: 0x18114EC00
 	public static int[,] CreateRoadCostmap(ref uint seed) { }
 
-	// RVA: 0x114E610 Offset: 0x114CC10 VA: 0x18114E610
+	// RVA: 0x114E8D0 Offset: 0x114CED0 VA: 0x18114E8D0
 	public static int[,] CreateRailCostmap(ref uint seed) { }
 
-	// RVA: 0x114E0B0 Offset: 0x114C6B0 VA: 0x18114E0B0
+	// RVA: 0x114E370 Offset: 0x114C970 VA: 0x18114E370
 	public static int[,] CreateBoatCostmap(float depth) { }
 
-	// RVA: 0x114DEF0 Offset: 0x114C4F0 VA: 0x18114DEF0
+	// RVA: 0x114E1B0 Offset: 0x114C7B0 VA: 0x18114E1B0
 	public void AddWire(PowerlineNode node) { }
 
-	// RVA: 0x114EDC0 Offset: 0x114D3C0 VA: 0x18114EDC0
+	// RVA: 0x114F080 Offset: 0x114D680 VA: 0x18114F080
 	public void CreateWires() { }
 
-	// RVA: 0x114EC90 Offset: 0x114D290 VA: 0x18114EC90
+	// RVA: 0x114EF50 Offset: 0x114D550 VA: 0x18114EF50
 	private void CreateWire(string name, List<GameObject> objects, GameObjectRef wirePrefab) { }
 
-	// RVA: 0x114F320 Offset: 0x114D920 VA: 0x18114F320
+	// RVA: 0x114F5E0 Offset: 0x114DBE0 VA: 0x18114F5E0
 	public MonumentInfo FindMonumentWithBoundsOverlap(Vector3 position) { }
 
-	// RVA: 0x114F9A0 Offset: 0x114DFA0 VA: 0x18114F9A0
+	// RVA: 0x114FC60 Offset: 0x114E260 VA: 0x18114FC60
 	public void .ctor() { }
 
 }

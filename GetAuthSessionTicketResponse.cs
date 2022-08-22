@@ -16,7 +16,7 @@ internal struct GetAuthSessionTicketResponse_t : ICallbackData // TypeDefIndex: 
 	// RVA: 0x1E9100 Offset: 0x1E8500 VA: 0x1801E9100 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371790 Offset: 0x136FD90 VA: 0x181371790
+	// RVA: 0x1371A50 Offset: 0x1370050 VA: 0x181371A50
 	private static void .cctor() { }
 
 }

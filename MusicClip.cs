@@ -7,10 +7,10 @@ public class MusicClip : ScriptableObject // TypeDefIndex: 9001
 
 	// Methods
 
-	// RVA: 0x7BDF60 Offset: 0x7BC560 VA: 0x1807BDF60
+	// RVA: 0x7BE070 Offset: 0x7BC670 VA: 0x1807BE070
 	public float GetNextFadeInPoint(float currentClipTimeBars) { }
 
-	// RVA: 0x7BE0B0 Offset: 0x7BC6B0 VA: 0x1807BE0B0
+	// RVA: 0x7BE1C0 Offset: 0x7BC7C0 VA: 0x1807BE1C0
 	public void .ctor() { }
 
 }

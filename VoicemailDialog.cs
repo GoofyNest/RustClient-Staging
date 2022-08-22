@@ -17,28 +17,28 @@ public class VoicemailDialog : MonoBehaviour // TypeDefIndex: 10901
 
 	// Methods
 
-	// RVA: 0x802D90 Offset: 0x801390 VA: 0x180802D90
+	// RVA: 0x802EA0 Offset: 0x8014A0 VA: 0x180802EA0
 	public static bool get_IsRecordingVoicemail() { }
 
-	// RVA: 0x802960 Offset: 0x800F60 VA: 0x180802960
+	// RVA: 0x802A70 Offset: 0x801070 VA: 0x180802A70
 	public void ShowRecordingDialog(float recordingTime) { }
 
-	// RVA: 0x802590 Offset: 0x800B90 VA: 0x180802590
+	// RVA: 0x8026A0 Offset: 0x800CA0 VA: 0x1808026A0
 	public void ShowBrowsingDialog(List<VoicemailEntry> ids, int maxVoicemail) { }
 
-	// RVA: 0x802B90 Offset: 0x801190 VA: 0x180802B90
+	// RVA: 0x802CA0 Offset: 0x8012A0 VA: 0x180802CA0
 	private void Update() { }
 
-	// RVA: 0x802410 Offset: 0x800A10 VA: 0x180802410
+	// RVA: 0x802520 Offset: 0x800B20 VA: 0x180802520
 	public void CloseDialog() { }
 
-	// RVA: 0x802A40 Offset: 0x801040 VA: 0x180802A40
+	// RVA: 0x802B50 Offset: 0x801150 VA: 0x180802B50
 	public void StopPlayingAllVoicemails(VoicemailEntry exceptFor) { }
 
-	// RVA: 0x8024B0 Offset: 0x800AB0 VA: 0x1808024B0
+	// RVA: 0x8025C0 Offset: 0x800BC0 VA: 0x1808025C0
 	public void OnDeletedVoicemail(VoicemailEntry entry) { }
 
-	// RVA: 0x802D20 Offset: 0x801320 VA: 0x180802D20
+	// RVA: 0x802E30 Offset: 0x801430 VA: 0x180802E30
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

@@ -13,10 +13,10 @@ internal static class MetricTimeSpanParser // TypeDefIndex: 7486
 
 	// Methods
 
-	// RVA: 0x139CAE0 Offset: 0x139B0E0 VA: 0x18139CAE0
+	// RVA: 0x139CDA0 Offset: 0x139B3A0 VA: 0x18139CDA0
 	internal static ParsingResult TryParse(string input, out MetricTimeSpan timeSpan) { }
 
-	// RVA: 0x139D1C0 Offset: 0x139B7C0 VA: 0x18139D1C0
+	// RVA: 0x139D480 Offset: 0x139BA80 VA: 0x18139D480
 	private static void .cctor() { }
 
 }

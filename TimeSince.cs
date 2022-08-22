@@ -4,10 +4,10 @@ public struct TimeSince // TypeDefIndex: 6164
 
 	// Methods
 
-	// RVA: 0x14B9C00 Offset: 0x14B8200 VA: 0x1814B9C00
+	// RVA: 0x14B9EC0 Offset: 0x14B84C0 VA: 0x1814B9EC0
 	public static float op_Implicit(TimeSince ts) { }
 
-	// RVA: 0x14B9C30 Offset: 0x14B8230 VA: 0x1814B9C30
+	// RVA: 0x14B9EF0 Offset: 0x14B84F0 VA: 0x1814B9EF0
 	public static TimeSince op_Implicit(float ts) { }
 
 }

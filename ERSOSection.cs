@@ -40,10 +40,10 @@ public struct ERSOSection // TypeDefIndex: 7188
 	// RVA: 0xFBD20 Offset: 0xFB120 VA: 0x1800FBD20
 	public void .ctor(Vector3 _startPos, Vector3 _endPos, int _startIndex, int _endIndex, float _startFraction, float _endFraction, float _hsStart, float _hsEnd) { }
 
-	// RVA: 0xA5A7A0 Offset: 0xA58DA0 VA: 0x180A5A7A0
+	// RVA: 0xA5AA60 Offset: 0xA59060 VA: 0x180A5AA60
 	public static ERSOSection GetERSOSection(ERModularRoad road, int listIndex, ref int index, int leftright, ref string soType, ref List<ERSOSection> sections) { }
 
-	// RVA: 0xA5A550 Offset: 0xA58B50 VA: 0x180A5A550
+	// RVA: 0xA5A810 Offset: 0xA58E10 VA: 0x180A5A810
 	public static ERSOSection AdjustEndOffset(ERSOSection target, ERSOSection source) { }
 
 }

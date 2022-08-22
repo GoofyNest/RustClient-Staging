@@ -18,35 +18,35 @@ internal class UVTextureAnimator : MonoBehaviour // TypeDefIndex: 11477
 
 	// Methods
 
-	// RVA: 0xA060D0 Offset: 0xA046D0 VA: 0x180A060D0
+	// RVA: 0xA06390 Offset: 0xA04990 VA: 0x180A06390
 	private void Start() { }
 
-	// RVA: 0xA05C30 Offset: 0xA04230 VA: 0x180A05C30
+	// RVA: 0xA05EF0 Offset: 0xA044F0 VA: 0x180A05EF0
 	private void InitDefaultVariables() { }
 
-	// RVA: 0xA06050 Offset: 0xA04650 VA: 0x180A06050
+	// RVA: 0xA06310 Offset: 0xA04910 VA: 0x180A06310
 	private void Play() { }
 
-	// RVA: 0xA05FE0 Offset: 0xA045E0 VA: 0x180A05FE0
+	// RVA: 0xA062A0 Offset: 0xA048A0 VA: 0x180A062A0
 	private void PlayDelay() { }
 
-	// RVA: 0xA05FB0 Offset: 0xA045B0 VA: 0x180A05FB0
+	// RVA: 0xA06270 Offset: 0xA04870 VA: 0x180A06270
 	private void OnEnable() { }
 
-	// RVA: 0xA05F60 Offset: 0xA04560 VA: 0x180A05F60
+	// RVA: 0xA06220 Offset: 0xA04820 VA: 0x180A06220
 	private void OnDisable() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xB47E0 Offset: 0xB3BE0 VA: 0x1800B47E0
-	// RVA: 0xA06240 Offset: 0xA04840 VA: 0x180A06240
+	// RVA: 0xA06500 Offset: 0xA04B00 VA: 0x180A06500
 	private IEnumerator UpdateCorutine() { }
 
-	// RVA: 0xA06140 Offset: 0xA04740 VA: 0x180A06140
+	// RVA: 0xA06400 Offset: 0xA04A00 VA: 0x180A06400
 	private void UpdateCorutineFrame() { }
 
-	// RVA: 0xA05EB0 Offset: 0xA044B0 VA: 0x180A05EB0
+	// RVA: 0xA06170 Offset: 0xA04770 VA: 0x180A06170
 	private void OnDestroy() { }
 
-	// RVA: 0xA062B0 Offset: 0xA048B0 VA: 0x180A062B0
+	// RVA: 0xA06570 Offset: 0xA04B70 VA: 0x180A06570
 	public void .ctor() { }
 
 }
@@ -71,7 +71,7 @@ private sealed class UVTextureAnimator.<UpdateCorutine>d__21 : IEnumerator<objec
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xA00020 Offset: 0x9FE620 VA: 0x180A00020 Slot: 6
+	// RVA: 0xA002E0 Offset: 0x9FE8E0 VA: 0x180A002E0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -79,7 +79,7 @@ private sealed class UVTextureAnimator.<UpdateCorutine>d__21 : IEnumerator<objec
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA00200 Offset: 0x9FE800 VA: 0x180A00200 Slot: 8
+	// RVA: 0xA004C0 Offset: 0x9FEAC0 VA: 0x180A004C0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

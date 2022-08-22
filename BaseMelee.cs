@@ -30,25 +30,25 @@ public class BaseMelee : AttackEntity // TypeDefIndex: 8523
 
 	// Methods
 
-	// RVA: 0xA46300 Offset: 0xA44900 VA: 0x180A46300 Slot: 35
+	// RVA: 0xA465C0 Offset: 0xA44BC0 VA: 0x180A465C0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x8894C0 Offset: 0x887AC0 VA: 0x1808894C0 Slot: 157
+	// RVA: 0x8895D0 Offset: 0x887BD0 VA: 0x1808895D0 Slot: 157
 	public override Vector3 GetInheritedVelocity(BasePlayer player) { }
 
-	// RVA: 0xA45620 Offset: 0xA43C20 VA: 0x180A45620
+	// RVA: 0xA458E0 Offset: 0xA43EE0 VA: 0x180A458E0
 	internal void DoThrow() { }
 
-	// RVA: 0xA44FE0 Offset: 0xA435E0 VA: 0x180A44FE0
+	// RVA: 0xA452A0 Offset: 0xA438A0 VA: 0x180A452A0
 	private Projectile CreateProjectile(string prefabPath, Vector3 pos, Vector3 forward, Vector3 velocity) { }
 
-	// RVA: 0xA45D10 Offset: 0xA44310 VA: 0x180A45D10 Slot: 158
+	// RVA: 0xA45FD0 Offset: 0xA445D0 VA: 0x180A45FD0 Slot: 158
 	public override void GetAttackStats(HitInfo info) { }
 
-	// RVA: 0xA45190 Offset: 0xA43790 VA: 0x180A45190 Slot: 160
+	// RVA: 0xA45450 Offset: 0xA43A50 VA: 0x180A45450 Slot: 160
 	public virtual void DoAttackShared(HitInfo info) { }
 
-	// RVA: 0xA45F20 Offset: 0xA44520 VA: 0x180A45F20 Slot: 138
+	// RVA: 0xA461E0 Offset: 0xA447E0 VA: 0x180A461E0 Slot: 138
 	public override void OnInput() { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 161
@@ -60,43 +60,43 @@ public class BaseMelee : AttackEntity // TypeDefIndex: 8523
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 163
 	public virtual void ClientAttack() { }
 
-	// RVA: 0xA45F00 Offset: 0xA44500 VA: 0x180A45F00 Slot: 143
+	// RVA: 0xA461C0 Offset: 0xA447C0 VA: 0x180A461C0 Slot: 143
 	public override void OnHolstered() { }
 
-	// RVA: 0xA464B0 Offset: 0xA44AB0 VA: 0x180A464B0 Slot: 164
+	// RVA: 0xA46770 Offset: 0xA44D70 VA: 0x180A46770 Slot: 164
 	protected virtual void ProcessAttack(HitTest hit) { }
 
-	// RVA: 0xA453E0 Offset: 0xA439E0 VA: 0x180A453E0 Slot: 165
+	// RVA: 0xA456A0 Offset: 0xA43CA0 VA: 0x180A456A0 Slot: 165
 	protected virtual void DoAttack() { }
 
-	// RVA: 0xA45C80 Offset: 0xA44280 VA: 0x180A45C80 Slot: 166
+	// RVA: 0xA45F40 Offset: 0xA44540 VA: 0x180A45F40 Slot: 166
 	public virtual void DoViewmodelImpact(HitTest test) { }
 
-	// RVA: 0xA463F0 Offset: 0xA449F0 VA: 0x180A463F0 Slot: 144
+	// RVA: 0xA466B0 Offset: 0xA44CB0 VA: 0x180A466B0 Slot: 144
 	public override void OnViewmodelEvent(string name) { }
 
-	// RVA: 0xA467F0 Offset: 0xA44DF0 VA: 0x180A467F0 Slot: 152
+	// RVA: 0xA46AB0 Offset: 0xA450B0 VA: 0x180A46AB0 Slot: 152
 	public override void ProcessSpectatorViewmodel(ViewModel vm) { }
 
-	// RVA: 0xA46740 Offset: 0xA44D40 VA: 0x180A46740 Slot: 153
+	// RVA: 0xA46A00 Offset: 0xA45000 VA: 0x180A46A00 Slot: 153
 	public override void ProcessSpectatorViewmodelEvent(ViewModel vm, BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0xA45D70 Offset: 0xA44370 VA: 0x180A45D70
+	// RVA: 0xA46030 Offset: 0xA44630 VA: 0x180A46030
 	public ResourceDispenser.GatherPropertyEntry GetGatherInfoFromIndex(ResourceDispenser.GatherType index) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 167
 	public virtual bool CanHit(HitTest info) { }
 
-	// RVA: 0xA468A0 Offset: 0xA44EA0 VA: 0x180A468A0
+	// RVA: 0xA46B60 Offset: 0xA45160 VA: 0x180A46B60
 	public float TotalDamage() { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 154
 	public override bool CanBeUsedInWater() { }
 
-	// RVA: 0xA45DA0 Offset: 0xA443A0 VA: 0x180A45DA0
+	// RVA: 0xA46060 Offset: 0xA44660 VA: 0x180A46060
 	public string GetStrikeEffectPath(string materialName) { }
 
-	// RVA: 0xA46A00 Offset: 0xA45000 VA: 0x180A46A00
+	// RVA: 0xA46CC0 Offset: 0xA452C0 VA: 0x180A46CC0
 	public void .ctor() { }
 
 }

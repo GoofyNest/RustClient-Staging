@@ -23,22 +23,22 @@ public class ESPCanvas : MonoBehaviour // TypeDefIndex: 12005
 
 	// Methods
 
-	// RVA: 0x7831A0 Offset: 0x7817A0 VA: 0x1807831A0
+	// RVA: 0x7832B0 Offset: 0x7818B0 VA: 0x1807832B0
 	public void Awake() { }
 
-	// RVA: 0x783AA0 Offset: 0x7820A0 VA: 0x180783AA0
+	// RVA: 0x783BB0 Offset: 0x7821B0 VA: 0x180783BB0
 	public void Update() { }
 
-	// RVA: 0x7838F0 Offset: 0x781EF0 VA: 0x1807838F0
+	// RVA: 0x783A00 Offset: 0x782000 VA: 0x180783A00
 	private bool StartWatching(BasePlayer entity) { }
 
-	// RVA: 0x783540 Offset: 0x781B40 VA: 0x180783540
+	// RVA: 0x783650 Offset: 0x781C50 VA: 0x180783650
 	public bool ShouldShow(BasePlayer ent) { }
 
-	// RVA: 0x783260 Offset: 0x781860 VA: 0x180783260
+	// RVA: 0x783370 Offset: 0x781970 VA: 0x180783370
 	public static bool IsUsingZoomItem() { }
 
-	// RVA: 0x783C70 Offset: 0x782270 VA: 0x180783C70
+	// RVA: 0x783D80 Offset: 0x782380 VA: 0x180783D80
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

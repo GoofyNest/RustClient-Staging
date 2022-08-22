@@ -51,7 +51,7 @@ public struct Navigation : IEquatable<Navigation> // TypeDefIndex: 4990
 	// RVA: 0xF14E0 Offset: 0xF08E0 VA: 0x1800F14E0
 	public void set_selectOnRight(Selectable value) { }
 
-	// RVA: 0x1716EE0 Offset: 0x17154E0 VA: 0x181716EE0
+	// RVA: 0x17171A0 Offset: 0x17157A0 VA: 0x1817171A0
 	public static Navigation get_defaultNavigation() { }
 
 	// RVA: 0x207860 Offset: 0x206C60 VA: 0x180207860 Slot: 4

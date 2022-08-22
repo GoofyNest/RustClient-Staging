@@ -1,10 +1,10 @@
 public abstract class SHA1 : HashAlgorithm // TypeDefIndex: 984
 {	// Methods
 
-	// RVA: 0x17BE9B0 Offset: 0x17BCFB0 VA: 0x1817BE9B0
+	// RVA: 0x17BEC70 Offset: 0x17BD270 VA: 0x1817BEC70
 	protected void .ctor() { }
 
-	// RVA: 0x17BE890 Offset: 0x17BCE90 VA: 0x1817BE890
+	// RVA: 0x17BEB50 Offset: 0x17BD150 VA: 0x1817BEB50
 	public static SHA1 Create() { }
 
 }
@@ -18,31 +18,31 @@ public class SHA1Managed : SHA1 // TypeDefIndex: 985
 
 	// Methods
 
-	// RVA: 0x17BE790 Offset: 0x17BCD90 VA: 0x1817BE790
+	// RVA: 0x17BEA50 Offset: 0x17BD050 VA: 0x1817BEA50
 	public void .ctor() { }
 
-	// RVA: 0x17BDC80 Offset: 0x17BC280 VA: 0x1817BDC80 Slot: 16
+	// RVA: 0x17BDF40 Offset: 0x17BC540 VA: 0x1817BDF40 Slot: 16
 	public override void Initialize() { }
 
-	// RVA: 0x17BDC60 Offset: 0x17BC260 VA: 0x1817BDC60 Slot: 17
+	// RVA: 0x17BDF20 Offset: 0x17BC520 VA: 0x1817BDF20 Slot: 17
 	protected override void HashCore(byte[] rgb, int ibStart, int cbSize) { }
 
-	// RVA: 0x17BDC70 Offset: 0x17BC270 VA: 0x1817BDC70 Slot: 18
+	// RVA: 0x17BDF30 Offset: 0x17BC530 VA: 0x1817BDF30 Slot: 18
 	protected override byte[] HashFinal() { }
 
-	// RVA: 0x1706B00 Offset: 0x1705100 VA: 0x181706B00
+	// RVA: 0x1706DC0 Offset: 0x17053C0 VA: 0x181706DC0
 	private void InitializeState() { }
 
-	// RVA: 0x17BE620 Offset: 0x17BCC20 VA: 0x1817BE620
+	// RVA: 0x17BE8E0 Offset: 0x17BCEE0 VA: 0x1817BE8E0
 	private void _HashData(byte[] partIn, int ibStart, int cbSize) { }
 
-	// RVA: 0x17BE2C0 Offset: 0x17BC8C0 VA: 0x1817BE2C0
+	// RVA: 0x17BE580 Offset: 0x17BCB80 VA: 0x1817BE580
 	private byte[] _EndHash() { }
 
-	// RVA: 0x17BDD10 Offset: 0x17BC310 VA: 0x1817BDD10
+	// RVA: 0x17BDFD0 Offset: 0x17BC5D0 VA: 0x1817BDFD0
 	private static void SHATransform(uint* expandedBuffer, uint* state, byte* block) { }
 
-	// RVA: 0x17BDCD0 Offset: 0x17BC2D0 VA: 0x1817BDCD0
+	// RVA: 0x17BDF90 Offset: 0x17BC590 VA: 0x1817BDF90
 	private static void SHAExpand(uint* x) { }
 
 }
@@ -50,10 +50,10 @@ public class SHA1Managed : SHA1 // TypeDefIndex: 985
 public abstract class SHA256 : HashAlgorithm // TypeDefIndex: 986
 {	// Methods
 
-	// RVA: 0x17BFD50 Offset: 0x17BE350 VA: 0x1817BFD50
+	// RVA: 0x17C0010 Offset: 0x17BE610 VA: 0x1817C0010
 	protected void .ctor() { }
 
-	// RVA: 0x17BFC20 Offset: 0x17BE220 VA: 0x1817BFC20
+	// RVA: 0x17BFEE0 Offset: 0x17BE4E0 VA: 0x1817BFEE0
 	public static SHA256 Create() { }
 
 }
@@ -68,55 +68,55 @@ public class SHA256Managed : SHA256 // TypeDefIndex: 987
 
 	// Methods
 
-	// RVA: 0x17BFA40 Offset: 0x17BE040 VA: 0x1817BFA40
+	// RVA: 0x17BFD00 Offset: 0x17BE300 VA: 0x1817BFD00
 	public void .ctor() { }
 
-	// RVA: 0x17BEB80 Offset: 0x17BD180 VA: 0x1817BEB80 Slot: 16
+	// RVA: 0x17BEE40 Offset: 0x17BD440 VA: 0x1817BEE40 Slot: 16
 	public override void Initialize() { }
 
-	// RVA: 0x17BE9E0 Offset: 0x17BCFE0 VA: 0x1817BE9E0 Slot: 17
+	// RVA: 0x17BECA0 Offset: 0x17BD2A0 VA: 0x1817BECA0 Slot: 17
 	protected override void HashCore(byte[] rgb, int ibStart, int cbSize) { }
 
-	// RVA: 0x17BE9F0 Offset: 0x17BCFF0 VA: 0x1817BE9F0 Slot: 18
+	// RVA: 0x17BECB0 Offset: 0x17BD2B0 VA: 0x1817BECB0 Slot: 18
 	protected override byte[] HashFinal() { }
 
-	// RVA: 0x17BEA00 Offset: 0x17BD000 VA: 0x1817BEA00
+	// RVA: 0x17BECC0 Offset: 0x17BD2C0 VA: 0x1817BECC0
 	private void InitializeState() { }
 
-	// RVA: 0x17BF800 Offset: 0x17BDE00 VA: 0x1817BF800
+	// RVA: 0x17BFAC0 Offset: 0x17BE0C0 VA: 0x1817BFAC0
 	private void _HashData(byte[] partIn, int ibStart, int cbSize) { }
 
-	// RVA: 0x17BF4A0 Offset: 0x17BDAA0 VA: 0x1817BF4A0
+	// RVA: 0x17BF760 Offset: 0x17BDD60 VA: 0x1817BF760
 	private byte[] _EndHash() { }
 
-	// RVA: 0x17BECB0 Offset: 0x17BD2B0 VA: 0x1817BECB0
+	// RVA: 0x17BEF70 Offset: 0x17BD570 VA: 0x1817BEF70
 	private static void SHATransform(uint* expandedBuffer, uint* state, byte* block) { }
 
-	// RVA: 0x17BEBE0 Offset: 0x17BD1E0 VA: 0x1817BEBE0
+	// RVA: 0x17BEEA0 Offset: 0x17BD4A0 VA: 0x1817BEEA0
 	private static uint RotateRight(uint x, int n) { }
 
-	// RVA: 0x17BE9D0 Offset: 0x17BCFD0 VA: 0x1817BE9D0
+	// RVA: 0x17BEC90 Offset: 0x17BD290 VA: 0x1817BEC90
 	private static uint Ch(uint x, uint y, uint z) { }
 
-	// RVA: 0x17BEBD0 Offset: 0x17BD1D0 VA: 0x1817BEBD0
+	// RVA: 0x17BEE90 Offset: 0x17BD490 VA: 0x1817BEE90
 	private static uint Maj(uint x, uint y, uint z) { }
 
-	// RVA: 0x17BFB40 Offset: 0x17BE140 VA: 0x1817BFB40
+	// RVA: 0x17BFE00 Offset: 0x17BE400 VA: 0x1817BFE00
 	private static uint sigma_0(uint x) { }
 
-	// RVA: 0x17BFBB0 Offset: 0x17BE1B0 VA: 0x1817BFBB0
+	// RVA: 0x17BFE70 Offset: 0x17BE470 VA: 0x1817BFE70
 	private static uint sigma_1(uint x) { }
 
-	// RVA: 0x17BF3C0 Offset: 0x17BD9C0 VA: 0x1817BF3C0
+	// RVA: 0x17BF680 Offset: 0x17BDC80 VA: 0x1817BF680
 	private static uint Sigma_0(uint x) { }
 
-	// RVA: 0x17BF430 Offset: 0x17BDA30 VA: 0x1817BF430
+	// RVA: 0x17BF6F0 Offset: 0x17BDCF0 VA: 0x1817BF6F0
 	private static uint Sigma_1(uint x) { }
 
-	// RVA: 0x17BEC00 Offset: 0x17BD200 VA: 0x1817BEC00
+	// RVA: 0x17BEEC0 Offset: 0x17BD4C0 VA: 0x1817BEEC0
 	private static void SHA256Expand(uint* x) { }
 
-	// RVA: 0x17BF9D0 Offset: 0x17BDFD0 VA: 0x1817BF9D0
+	// RVA: 0x17BFC90 Offset: 0x17BE290 VA: 0x1817BFC90
 	private static void .cctor() { }
 
 }
@@ -124,10 +124,10 @@ public class SHA256Managed : SHA256 // TypeDefIndex: 987
 public abstract class SHA384 : HashAlgorithm // TypeDefIndex: 988
 {	// Methods
 
-	// RVA: 0x17C1120 Offset: 0x17BF720 VA: 0x1817C1120
+	// RVA: 0x17C13E0 Offset: 0x17BF9E0 VA: 0x1817C13E0
 	protected void .ctor() { }
 
-	// RVA: 0x17C0FF0 Offset: 0x17BF5F0 VA: 0x1817C0FF0
+	// RVA: 0x17C12B0 Offset: 0x17BF8B0 VA: 0x1817C12B0
 	public static SHA384 Create() { }
 
 }
@@ -142,55 +142,55 @@ public class SHA384Managed : SHA384 // TypeDefIndex: 989
 
 	// Methods
 
-	// RVA: 0x17C0DF0 Offset: 0x17BF3F0 VA: 0x1817C0DF0
+	// RVA: 0x17C10B0 Offset: 0x17BF6B0 VA: 0x1817C10B0
 	public void .ctor() { }
 
-	// RVA: 0x17BFF60 Offset: 0x17BE560 VA: 0x1817BFF60 Slot: 16
+	// RVA: 0x17C0220 Offset: 0x17BE820 VA: 0x1817C0220 Slot: 16
 	public override void Initialize() { }
 
-	// RVA: 0x17BFD80 Offset: 0x17BE380 VA: 0x1817BFD80 Slot: 17
+	// RVA: 0x17C0040 Offset: 0x17BE640 VA: 0x1817C0040 Slot: 17
 	protected override void HashCore(byte[] rgb, int ibStart, int cbSize) { }
 
-	// RVA: 0x17BFD90 Offset: 0x17BE390 VA: 0x1817BFD90 Slot: 18
+	// RVA: 0x17C0050 Offset: 0x17BE650 VA: 0x1817C0050 Slot: 18
 	protected override byte[] HashFinal() { }
 
-	// RVA: 0x17BFDA0 Offset: 0x17BE3A0 VA: 0x1817BFDA0
+	// RVA: 0x17C0060 Offset: 0x17BE660 VA: 0x1817C0060
 	private void InitializeState() { }
 
-	// RVA: 0x17C0BB0 Offset: 0x17BF1B0 VA: 0x1817C0BB0
+	// RVA: 0x17C0E70 Offset: 0x17BF470 VA: 0x1817C0E70
 	private void _HashData(byte[] partIn, int ibStart, int cbSize) { }
 
-	// RVA: 0x17C0970 Offset: 0x17BEF70 VA: 0x1817C0970
+	// RVA: 0x17C0C30 Offset: 0x17BF230 VA: 0x1817C0C30
 	private byte[] _EndHash() { }
 
-	// RVA: 0x17C0090 Offset: 0x17BE690 VA: 0x1817C0090
+	// RVA: 0x17C0350 Offset: 0x17BE950 VA: 0x1817C0350
 	private static void SHATransform(ulong* expandedBuffer, ulong* state, byte* block) { }
 
-	// RVA: 0x17BFFC0 Offset: 0x17BE5C0 VA: 0x1817BFFC0
+	// RVA: 0x17C0280 Offset: 0x17BE880 VA: 0x1817C0280
 	private static ulong RotateRight(ulong x, int n) { }
 
-	// RVA: 0x17BFD70 Offset: 0x17BE370 VA: 0x1817BFD70
+	// RVA: 0x17C0030 Offset: 0x17BE630 VA: 0x1817C0030
 	private static ulong Ch(ulong x, ulong y, ulong z) { }
 
-	// RVA: 0x17BFFB0 Offset: 0x17BE5B0 VA: 0x1817BFFB0
+	// RVA: 0x17C0270 Offset: 0x17BE870 VA: 0x1817C0270
 	private static ulong Maj(ulong x, ulong y, ulong z) { }
 
-	// RVA: 0x17C0870 Offset: 0x17BEE70 VA: 0x1817C0870
+	// RVA: 0x17C0B30 Offset: 0x17BF130 VA: 0x1817C0B30
 	private static ulong Sigma_0(ulong x) { }
 
-	// RVA: 0x17C08F0 Offset: 0x17BEEF0 VA: 0x1817C08F0
+	// RVA: 0x17C0BB0 Offset: 0x17BF1B0 VA: 0x1817C0BB0
 	private static ulong Sigma_1(ulong x) { }
 
-	// RVA: 0x17C0EF0 Offset: 0x17BF4F0 VA: 0x1817C0EF0
+	// RVA: 0x17C11B0 Offset: 0x17BF7B0 VA: 0x1817C11B0
 	private static ulong sigma_0(ulong x) { }
 
-	// RVA: 0x17C0F70 Offset: 0x17BF570 VA: 0x1817C0F70
+	// RVA: 0x17C1230 Offset: 0x17BF830 VA: 0x1817C1230
 	private static ulong sigma_1(ulong x) { }
 
-	// RVA: 0x17BFFE0 Offset: 0x17BE5E0 VA: 0x1817BFFE0
+	// RVA: 0x17C02A0 Offset: 0x17BE8A0 VA: 0x1817C02A0
 	private static void SHA384Expand(ulong* x) { }
 
-	// RVA: 0x17C0D80 Offset: 0x17BF380 VA: 0x1817C0D80
+	// RVA: 0x17C1040 Offset: 0x17BF640 VA: 0x1817C1040
 	private static void .cctor() { }
 
 }
@@ -198,10 +198,10 @@ public class SHA384Managed : SHA384 // TypeDefIndex: 989
 public abstract class SHA512 : HashAlgorithm // TypeDefIndex: 990
 {	// Methods
 
-	// RVA: 0x17C24B0 Offset: 0x17C0AB0 VA: 0x1817C24B0
+	// RVA: 0x17C2770 Offset: 0x17C0D70 VA: 0x1817C2770
 	protected void .ctor() { }
 
-	// RVA: 0x17C2380 Offset: 0x17C0980 VA: 0x1817C2380
+	// RVA: 0x17C2640 Offset: 0x17C0C40 VA: 0x1817C2640
 	public static SHA512 Create() { }
 
 }
@@ -216,55 +216,55 @@ public class SHA512Managed : SHA512 // TypeDefIndex: 991
 
 	// Methods
 
-	// RVA: 0x17C2180 Offset: 0x17C0780 VA: 0x1817C2180
+	// RVA: 0x17C2440 Offset: 0x17C0A40 VA: 0x1817C2440
 	public void .ctor() { }
 
-	// RVA: 0x17C1320 Offset: 0x17BF920 VA: 0x1817C1320 Slot: 16
+	// RVA: 0x17C15E0 Offset: 0x17BFBE0 VA: 0x1817C15E0 Slot: 16
 	public override void Initialize() { }
 
-	// RVA: 0x17C1140 Offset: 0x17BF740 VA: 0x1817C1140 Slot: 17
+	// RVA: 0x17C1400 Offset: 0x17BFA00 VA: 0x1817C1400 Slot: 17
 	protected override void HashCore(byte[] rgb, int ibStart, int cbSize) { }
 
-	// RVA: 0x17C1150 Offset: 0x17BF750 VA: 0x1817C1150 Slot: 18
+	// RVA: 0x17C1410 Offset: 0x17BFA10 VA: 0x1817C1410 Slot: 18
 	protected override byte[] HashFinal() { }
 
-	// RVA: 0x17C1160 Offset: 0x17BF760 VA: 0x1817C1160
+	// RVA: 0x17C1420 Offset: 0x17BFA20 VA: 0x1817C1420
 	private void InitializeState() { }
 
-	// RVA: 0x17C1F40 Offset: 0x17C0540 VA: 0x1817C1F40
+	// RVA: 0x17C2200 Offset: 0x17C0800 VA: 0x1817C2200
 	private void _HashData(byte[] partIn, int ibStart, int cbSize) { }
 
-	// RVA: 0x17C1D00 Offset: 0x17C0300 VA: 0x1817C1D00
+	// RVA: 0x17C1FC0 Offset: 0x17C05C0 VA: 0x1817C1FC0
 	private byte[] _EndHash() { }
 
-	// RVA: 0x17C1420 Offset: 0x17BFA20 VA: 0x1817C1420
+	// RVA: 0x17C16E0 Offset: 0x17BFCE0 VA: 0x1817C16E0
 	private static void SHATransform(ulong* expandedBuffer, ulong* state, byte* block) { }
 
-	// RVA: 0x17BFFC0 Offset: 0x17BE5C0 VA: 0x1817BFFC0
+	// RVA: 0x17C0280 Offset: 0x17BE880 VA: 0x1817C0280
 	private static ulong RotateRight(ulong x, int n) { }
 
-	// RVA: 0x17BFD70 Offset: 0x17BE370 VA: 0x1817BFD70
+	// RVA: 0x17C0030 Offset: 0x17BE630 VA: 0x1817C0030
 	private static ulong Ch(ulong x, ulong y, ulong z) { }
 
-	// RVA: 0x17BFFB0 Offset: 0x17BE5B0 VA: 0x1817BFFB0
+	// RVA: 0x17C0270 Offset: 0x17BE870 VA: 0x1817C0270
 	private static ulong Maj(ulong x, ulong y, ulong z) { }
 
-	// RVA: 0x17C1C00 Offset: 0x17C0200 VA: 0x1817C1C00
+	// RVA: 0x17C1EC0 Offset: 0x17C04C0 VA: 0x1817C1EC0
 	private static ulong Sigma_0(ulong x) { }
 
-	// RVA: 0x17C1C80 Offset: 0x17C0280 VA: 0x1817C1C80
+	// RVA: 0x17C1F40 Offset: 0x17C0540 VA: 0x1817C1F40
 	private static ulong Sigma_1(ulong x) { }
 
-	// RVA: 0x17C2280 Offset: 0x17C0880 VA: 0x1817C2280
+	// RVA: 0x17C2540 Offset: 0x17C0B40 VA: 0x1817C2540
 	private static ulong sigma_0(ulong x) { }
 
-	// RVA: 0x17C2300 Offset: 0x17C0900 VA: 0x1817C2300
+	// RVA: 0x17C25C0 Offset: 0x17C0BC0 VA: 0x1817C25C0
 	private static ulong sigma_1(ulong x) { }
 
-	// RVA: 0x17C1370 Offset: 0x17BF970 VA: 0x1817C1370
+	// RVA: 0x17C1630 Offset: 0x17BFC30 VA: 0x1817C1630
 	private static void SHA512Expand(ulong* x) { }
 
-	// RVA: 0x17C2110 Offset: 0x17C0710 VA: 0x1817C2110
+	// RVA: 0x17C23D0 Offset: 0x17C09D0 VA: 0x1817C23D0
 	private static void .cctor() { }
 
 }
@@ -279,31 +279,31 @@ internal class SHA1Internal // TypeDefIndex: 1011
 
 	// Methods
 
-	// RVA: 0x17BDBC0 Offset: 0x17BC1C0 VA: 0x1817BDBC0
+	// RVA: 0x17BDE80 Offset: 0x17BC480 VA: 0x1817BDE80
 	public void .ctor() { }
 
-	// RVA: 0x17BC2F0 Offset: 0x17BA8F0 VA: 0x1817BC2F0
+	// RVA: 0x17BC5B0 Offset: 0x17BABB0 VA: 0x1817BC5B0
 	public void HashCore(byte[] rgb, int ibStart, int cbSize) { }
 
-	// RVA: 0x17BC410 Offset: 0x17BAA10 VA: 0x1817BC410
+	// RVA: 0x17BC6D0 Offset: 0x17BACD0 VA: 0x1817BC6D0
 	public byte[] HashFinal() { }
 
-	// RVA: 0x17BD0F0 Offset: 0x17BB6F0 VA: 0x1817BD0F0
+	// RVA: 0x17BD3B0 Offset: 0x17BB9B0 VA: 0x1817BD3B0
 	public void Initialize() { }
 
-	// RVA: 0x17BD1D0 Offset: 0x17BB7D0 VA: 0x1817BD1D0
+	// RVA: 0x17BD490 Offset: 0x17BBA90 VA: 0x1817BD490
 	private void ProcessBlock(byte[] inputBuffer, uint inputOffset) { }
 
-	// RVA: 0x17BC520 Offset: 0x17BAB20 VA: 0x1817BC520
+	// RVA: 0x17BC7E0 Offset: 0x17BADE0 VA: 0x1817BC7E0
 	private static void InitialiseBuff(uint[] buff, byte[] input, uint inputOffset) { }
 
-	// RVA: 0x17BBD10 Offset: 0x17BA310 VA: 0x1817BBD10
+	// RVA: 0x17BBFD0 Offset: 0x17BA5D0 VA: 0x1817BBFD0
 	private static void FillBuff(uint[] buff) { }
 
-	// RVA: 0x17BDA00 Offset: 0x17BC000 VA: 0x1817BDA00
+	// RVA: 0x17BDCC0 Offset: 0x17BC2C0 VA: 0x1817BDCC0
 	private void ProcessFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
-	// RVA: 0x17BBBA0 Offset: 0x17BA1A0 VA: 0x1817BBBA0
+	// RVA: 0x17BBE60 Offset: 0x17BA460 VA: 0x1817BBE60
 	internal void AddLength(ulong length, byte[] buffer, int position) { }
 
 }
@@ -314,22 +314,22 @@ public sealed class SHA1CryptoServiceProvider : SHA1 // TypeDefIndex: 1012
 
 	// Methods
 
-	// RVA: 0x17BBAB0 Offset: 0x17BA0B0 VA: 0x1817BBAB0
+	// RVA: 0x17BBD70 Offset: 0x17BA370 VA: 0x1817BBD70
 	public void .ctor() { }
 
-	// RVA: 0x17032F0 Offset: 0x17018F0 VA: 0x1817032F0 Slot: 1
+	// RVA: 0x17035B0 Offset: 0x1701BB0 VA: 0x1817035B0 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x17BB830 Offset: 0x17B9E30 VA: 0x1817BB830 Slot: 15
+	// RVA: 0x17BBAF0 Offset: 0x17BA0F0 VA: 0x1817BBAF0 Slot: 15
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x17BB840 Offset: 0x17B9E40 VA: 0x1817BB840 Slot: 17
+	// RVA: 0x17BBB00 Offset: 0x17BA100 VA: 0x1817BBB00 Slot: 17
 	protected override void HashCore(byte[] rgb, int ibStart, int cbSize) { }
 
-	// RVA: 0x17BB970 Offset: 0x17B9F70 VA: 0x1817BB970 Slot: 18
+	// RVA: 0x17BBC30 Offset: 0x17BA230 VA: 0x1817BBC30 Slot: 18
 	protected override byte[] HashFinal() { }
 
-	// RVA: 0x17BBA90 Offset: 0x17BA090 VA: 0x1817BBA90 Slot: 16
+	// RVA: 0x17BBD50 Offset: 0x17BA350 VA: 0x1817BBD50 Slot: 16
 	public override void Initialize() { }
 
 }

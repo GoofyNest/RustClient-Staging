@@ -15,28 +15,28 @@ public class TeamMemberElement : MonoBehaviour, IPointerEnterHandler, IEventSyst
 
 	// Methods
 
-	// RVA: 0x7A93B0 Offset: 0x7A79B0 VA: 0x1807A93B0
+	// RVA: 0x7A94C0 Offset: 0x7A7AC0 VA: 0x1807A94C0
 	public void UpdateState(string name, bool isOnline, bool isAlive = True, bool isLeader = False, bool isWounded = False) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void OnEnable() { }
 
-	// RVA: 0x7A8DF0 Offset: 0x7A73F0 VA: 0x1807A8DF0
+	// RVA: 0x7A8F00 Offset: 0x7A7500 VA: 0x1807A8F00
 	public void OnDisable() { }
 
-	// RVA: 0x7A8E50 Offset: 0x7A7450 VA: 0x1807A8E50 Slot: 4
+	// RVA: 0x7A8F60 Offset: 0x7A7560 VA: 0x1807A8F60 Slot: 4
 	public void OnPointerEnter(PointerEventData eventData) { }
 
-	// RVA: 0x7A8EA0 Offset: 0x7A74A0 VA: 0x1807A8EA0 Slot: 5
+	// RVA: 0x7A8FB0 Offset: 0x7A75B0 VA: 0x1807A8FB0 Slot: 5
 	public void OnPointerExit(PointerEventData eventData) { }
 
-	// RVA: 0x7A8E00 Offset: 0x7A7400 VA: 0x1807A8E00 Slot: 6
+	// RVA: 0x7A8F10 Offset: 0x7A7510 VA: 0x1807A8F10 Slot: 6
 	public void OnPointerClick(PointerEventData eventData) { }
 
-	// RVA: 0x7A8EF0 Offset: 0x7A74F0 VA: 0x1807A8EF0
+	// RVA: 0x7A9000 Offset: 0x7A7600 VA: 0x1807A9000
 	public void OverlayClick() { }
 
-	// RVA: 0x7A90E0 Offset: 0x7A76E0 VA: 0x1807A90E0
+	// RVA: 0x7A91F0 Offset: 0x7A77F0 VA: 0x1807A91F0
 	public void SetOverlayVisible(bool wantsVisible) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

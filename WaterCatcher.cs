@@ -10,7 +10,7 @@ public class WaterCatcher : LiquidContainer // TypeDefIndex: 9521
 
 	// Methods
 
-	// RVA: 0x803CE0 Offset: 0x8022E0 VA: 0x180803CE0
+	// RVA: 0x803DF0 Offset: 0x8023F0 VA: 0x180803DF0
 	public void .ctor() { }
 
 }

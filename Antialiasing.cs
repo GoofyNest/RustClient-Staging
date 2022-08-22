@@ -25,16 +25,16 @@ public class Antialiasing : PostEffectsBase // TypeDefIndex: 8150
 
 	// Methods
 
-	// RVA: 0x12C3200 Offset: 0x12C1800 VA: 0x1812C3200
+	// RVA: 0x12C34C0 Offset: 0x12C1AC0 VA: 0x1812C34C0
 	public Material CurrentAAMaterial() { }
 
-	// RVA: 0x12C3080 Offset: 0x12C1680 VA: 0x1812C3080 Slot: 4
+	// RVA: 0x12C3340 Offset: 0x12C1940 VA: 0x1812C3340 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x12C3270 Offset: 0x12C1870 VA: 0x1812C3270
+	// RVA: 0x12C3530 Offset: 0x12C1B30 VA: 0x1812C3530
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x12C3760 Offset: 0x12C1D60 VA: 0x1812C3760
+	// RVA: 0x12C3A20 Offset: 0x12C2020 VA: 0x1812C3A20
 	public void .ctor() { }
 
 }

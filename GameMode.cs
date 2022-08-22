@@ -8,82 +8,82 @@ public class GameMode : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6399
 
 	// Methods
 
-	// RVA: 0x1D5D170 Offset: 0x1D5B770 VA: 0x181D5D170
+	// RVA: 0x1D5D430 Offset: 0x1D5BA30 VA: 0x181D5D430
 	public static void ResetToPool(GameMode instance) { }
 
-	// RVA: 0x1D5CD50 Offset: 0x1D5B350 VA: 0x181D5CD50
+	// RVA: 0x1D5D010 Offset: 0x1D5B610 VA: 0x181D5D010
 	public void ResetToPool() { }
 
-	// RVA: 0x1D5CC90 Offset: 0x1D5B290 VA: 0x181D5CC90 Slot: 9
+	// RVA: 0x1D5CF50 Offset: 0x1D5B550 VA: 0x181D5CF50 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D5B700 Offset: 0x1D59D00 VA: 0x181D5B700
+	// RVA: 0x1D5B9C0 Offset: 0x1D59FC0 VA: 0x181D5B9C0
 	public void CopyTo(GameMode instance) { }
 
-	// RVA: 0x1D5BC00 Offset: 0x1D5A200 VA: 0x181D5BC00
+	// RVA: 0x1D5BEC0 Offset: 0x1D5A4C0 VA: 0x181D5BEC0
 	public GameMode Copy() { }
 
-	// RVA: 0x1D5C770 Offset: 0x1D5AD70 VA: 0x181D5C770
+	// RVA: 0x1D5CA30 Offset: 0x1D5B030 VA: 0x181D5CA30
 	public static GameMode Deserialize(Stream stream) { }
 
-	// RVA: 0x1D5C0F0 Offset: 0x1D5A6F0 VA: 0x181D5C0F0
+	// RVA: 0x1D5C3B0 Offset: 0x1D5A9B0 VA: 0x181D5C3B0
 	public static GameMode DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1D5C170 Offset: 0x1D5A770 VA: 0x181D5C170
+	// RVA: 0x1D5C430 Offset: 0x1D5AA30 VA: 0x181D5C430
 	public static GameMode DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1D5C650 Offset: 0x1D5AC50 VA: 0x181D5C650
+	// RVA: 0x1D5C910 Offset: 0x1D5AF10 VA: 0x181D5C910
 	public static GameMode Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1D5CD10 Offset: 0x1D5B310 VA: 0x181D5CD10
+	// RVA: 0x1D5CFD0 Offset: 0x1D5B5D0 VA: 0x181D5CFD0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1D5E120 Offset: 0x1D5C720 VA: 0x181D5E120 Slot: 12
+	// RVA: 0x1D5E3E0 Offset: 0x1D5C9E0 VA: 0x181D5E3E0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1D5E140 Offset: 0x1D5C740 VA: 0x181D5E140 Slot: 13
+	// RVA: 0x1D5E400 Offset: 0x1D5CA00 VA: 0x181D5E400 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, GameMode previous) { }
 
-	// RVA: 0x1D5CD30 Offset: 0x1D5B330 VA: 0x181D5CD30 Slot: 14
+	// RVA: 0x1D5CFF0 Offset: 0x1D5B5F0 VA: 0x181D5CFF0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1D5C7F0 Offset: 0x1D5ADF0 VA: 0x181D5C7F0
+	// RVA: 0x1D5CAB0 Offset: 0x1D5B0B0 VA: 0x181D5CAB0
 	public static GameMode Deserialize(byte[] buffer, GameMode instance, bool isDelta = False) { }
 
-	// RVA: 0x1D5C8F0 Offset: 0x1D5AEF0 VA: 0x181D5C8F0
+	// RVA: 0x1D5CBB0 Offset: 0x1D5B1B0 VA: 0x181D5CBB0
 	public static GameMode Deserialize(Stream stream, GameMode instance, bool isDelta) { }
 
-	// RVA: 0x1D5BC80 Offset: 0x1D5A280 VA: 0x181D5BC80
+	// RVA: 0x1D5BF40 Offset: 0x1D5A540 VA: 0x181D5BF40
 	public static GameMode DeserializeLengthDelimited(Stream stream, GameMode instance, bool isDelta) { }
 
-	// RVA: 0x1D5C200 Offset: 0x1D5A800 VA: 0x181D5C200
+	// RVA: 0x1D5C4C0 Offset: 0x1D5AAC0 VA: 0x181D5C4C0
 	public static GameMode DeserializeLength(Stream stream, int length, GameMode instance, bool isDelta) { }
 
-	// RVA: 0x1D5D590 Offset: 0x1D5BB90 VA: 0x181D5D590
+	// RVA: 0x1D5D850 Offset: 0x1D5BE50 VA: 0x181D5D850
 	public static void SerializeDelta(Stream stream, GameMode instance, GameMode previous) { }
 
-	// RVA: 0x1D5DC10 Offset: 0x1D5C210 VA: 0x181D5DC10
+	// RVA: 0x1D5DED0 Offset: 0x1D5C4D0 VA: 0x181D5DED0
 	public static void Serialize(Stream stream, GameMode instance) { }
 
-	// RVA: 0x1D5E110 Offset: 0x1D5C710 VA: 0x181D5E110
+	// RVA: 0x1D5E3D0 Offset: 0x1D5C9D0 VA: 0x181D5E3D0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1D5E120 Offset: 0x1D5C720 VA: 0x181D5E120
+	// RVA: 0x1D5E3E0 Offset: 0x1D5C9E0 VA: 0x181D5E3E0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1D5DB00 Offset: 0x1D5C100 VA: 0x181D5DB00
+	// RVA: 0x1D5DDC0 Offset: 0x1D5C3C0 VA: 0x181D5DDC0
 	public static byte[] SerializeToBytes(GameMode instance) { }
 
-	// RVA: 0x1D5DA50 Offset: 0x1D5C050 VA: 0x181D5DA50
+	// RVA: 0x1D5DD10 Offset: 0x1D5C310 VA: 0x181D5DD10
 	public static void SerializeLengthDelimited(Stream stream, GameMode instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -96,82 +96,82 @@ public class GameMode.TeamInfo : IDisposable, Pool.IPooled, IProto // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1D6AE60 Offset: 0x1D69460 VA: 0x181D6AE60
+	// RVA: 0x1D6B120 Offset: 0x1D69720 VA: 0x181D6B120
 	public static void ResetToPool(GameMode.TeamInfo instance) { }
 
-	// RVA: 0x1D6ADE0 Offset: 0x1D693E0 VA: 0x181D6ADE0
+	// RVA: 0x1D6B0A0 Offset: 0x1D696A0 VA: 0x181D6B0A0
 	public void ResetToPool() { }
 
-	// RVA: 0x1D6AD20 Offset: 0x1D69320 VA: 0x181D6AD20 Slot: 9
+	// RVA: 0x1D6AFE0 Offset: 0x1D695E0 VA: 0x181D6AFE0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE4D0 Offset: 0x1BFCAD0 VA: 0x181BFE4D0
+	// RVA: 0x1BFE790 Offset: 0x1BFCD90 VA: 0x181BFE790
 	public void CopyTo(GameMode.TeamInfo instance) { }
 
-	// RVA: 0x1D6A3A0 Offset: 0x1D689A0 VA: 0x181D6A3A0
+	// RVA: 0x1D6A660 Offset: 0x1D68C60 VA: 0x181D6A660
 	public GameMode.TeamInfo Copy() { }
 
-	// RVA: 0x1D6AB80 Offset: 0x1D69180 VA: 0x181D6AB80
+	// RVA: 0x1D6AE40 Offset: 0x1D69440 VA: 0x181D6AE40
 	public static GameMode.TeamInfo Deserialize(Stream stream) { }
 
-	// RVA: 0x1D6A410 Offset: 0x1D68A10 VA: 0x181D6A410
+	// RVA: 0x1D6A6D0 Offset: 0x1D68CD0 VA: 0x181D6A6D0
 	public static GameMode.TeamInfo DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1D6A8B0 Offset: 0x1D68EB0 VA: 0x181D6A8B0
+	// RVA: 0x1D6AB70 Offset: 0x1D69170 VA: 0x181D6AB70
 	public static GameMode.TeamInfo DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1D6AC00 Offset: 0x1D69200 VA: 0x181D6AC00
+	// RVA: 0x1D6AEC0 Offset: 0x1D694C0 VA: 0x181D6AEC0
 	public static GameMode.TeamInfo Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1D6ADA0 Offset: 0x1D693A0 VA: 0x181D6ADA0
+	// RVA: 0x1D6B060 Offset: 0x1D69660 VA: 0x181D6B060
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1D6B330 Offset: 0x1D69930 VA: 0x181D6B330 Slot: 12
+	// RVA: 0x1D6B5F0 Offset: 0x1D69BF0 VA: 0x181D6B5F0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1D6B400 Offset: 0x1D69A00 VA: 0x181D6B400 Slot: 13
+	// RVA: 0x1D6B6C0 Offset: 0x1D69CC0 VA: 0x181D6B6C0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, GameMode.TeamInfo previous) { }
 
-	// RVA: 0x1D6ADC0 Offset: 0x1D693C0 VA: 0x181D6ADC0 Slot: 14
+	// RVA: 0x1D6B080 Offset: 0x1D69680 VA: 0x181D6B080 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1D6AA80 Offset: 0x1D69080 VA: 0x181D6AA80
+	// RVA: 0x1D6AD40 Offset: 0x1D69340 VA: 0x181D6AD40
 	public static GameMode.TeamInfo Deserialize(byte[] buffer, GameMode.TeamInfo instance, bool isDelta = False) { }
 
-	// RVA: 0x1D6A940 Offset: 0x1D68F40 VA: 0x181D6A940
+	// RVA: 0x1D6AC00 Offset: 0x1D69200 VA: 0x181D6AC00
 	public static GameMode.TeamInfo Deserialize(Stream stream, GameMode.TeamInfo instance, bool isDelta) { }
 
-	// RVA: 0x1D6A490 Offset: 0x1D68A90 VA: 0x181D6A490
+	// RVA: 0x1D6A750 Offset: 0x1D68D50 VA: 0x181D6A750
 	public static GameMode.TeamInfo DeserializeLengthDelimited(Stream stream, GameMode.TeamInfo instance, bool isDelta) { }
 
-	// RVA: 0x1D6A6B0 Offset: 0x1D68CB0 VA: 0x181D6A6B0
+	// RVA: 0x1D6A970 Offset: 0x1D68F70 VA: 0x181D6A970
 	public static GameMode.TeamInfo DeserializeLength(Stream stream, int length, GameMode.TeamInfo instance, bool isDelta) { }
 
-	// RVA: 0x1D6AEE0 Offset: 0x1D694E0 VA: 0x181D6AEE0
+	// RVA: 0x1D6B1A0 Offset: 0x1D697A0 VA: 0x181D6B1A0
 	public static void SerializeDelta(Stream stream, GameMode.TeamInfo instance, GameMode.TeamInfo previous) { }
 
-	// RVA: 0x1D6B250 Offset: 0x1D69850 VA: 0x181D6B250
+	// RVA: 0x1D6B510 Offset: 0x1D69B10 VA: 0x181D6B510
 	public static void Serialize(Stream stream, GameMode.TeamInfo instance) { }
 
-	// RVA: 0x1D6B320 Offset: 0x1D69920 VA: 0x181D6B320
+	// RVA: 0x1D6B5E0 Offset: 0x1D69BE0 VA: 0x181D6B5E0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1D6B330 Offset: 0x1D69930 VA: 0x181D6B330
+	// RVA: 0x1D6B5F0 Offset: 0x1D69BF0 VA: 0x181D6B5F0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1D6B0A0 Offset: 0x1D696A0 VA: 0x181D6B0A0
+	// RVA: 0x1D6B360 Offset: 0x1D69960 VA: 0x181D6B360
 	public static byte[] SerializeToBytes(GameMode.TeamInfo instance) { }
 
-	// RVA: 0x1D6AFF0 Offset: 0x1D695F0 VA: 0x181D6AFF0
+	// RVA: 0x1D6B2B0 Offset: 0x1D698B0 VA: 0x181D6B2B0
 	public static void SerializeLengthDelimited(Stream stream, GameMode.TeamInfo instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -184,82 +184,82 @@ public class GameMode.ScoreColumn : IDisposable, Pool.IPooled, IProto // TypeDef
 
 	// Methods
 
-	// RVA: 0x1D686B0 Offset: 0x1D66CB0 VA: 0x181D686B0
+	// RVA: 0x1D68970 Offset: 0x1D66F70 VA: 0x181D68970
 	public static void ResetToPool(GameMode.ScoreColumn instance) { }
 
-	// RVA: 0x1D68620 Offset: 0x1D66C20 VA: 0x181D68620
+	// RVA: 0x1D688E0 Offset: 0x1D66EE0 VA: 0x181D688E0
 	public void ResetToPool() { }
 
-	// RVA: 0x1D68560 Offset: 0x1D66B60 VA: 0x181D68560 Slot: 9
+	// RVA: 0x1D68820 Offset: 0x1D66E20 VA: 0x181D68820 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D67B90 Offset: 0x1D66190 VA: 0x181D67B90
+	// RVA: 0x1D67E50 Offset: 0x1D66450 VA: 0x181D67E50
 	public void CopyTo(GameMode.ScoreColumn instance) { }
 
-	// RVA: 0x1D67BC0 Offset: 0x1D661C0 VA: 0x181D67BC0
+	// RVA: 0x1D67E80 Offset: 0x1D66480 VA: 0x181D67E80
 	public GameMode.ScoreColumn Copy() { }
 
-	// RVA: 0x1D68270 Offset: 0x1D66870 VA: 0x181D68270
+	// RVA: 0x1D68530 Offset: 0x1D66B30 VA: 0x181D68530
 	public static GameMode.ScoreColumn Deserialize(Stream stream) { }
 
-	// RVA: 0x1D67C40 Offset: 0x1D66240 VA: 0x181D67C40
+	// RVA: 0x1D67F00 Offset: 0x1D66500 VA: 0x181D67F00
 	public static GameMode.ScoreColumn DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1D680E0 Offset: 0x1D666E0 VA: 0x181D680E0
+	// RVA: 0x1D683A0 Offset: 0x1D669A0 VA: 0x181D683A0
 	public static GameMode.ScoreColumn DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1D68440 Offset: 0x1D66A40 VA: 0x181D68440
+	// RVA: 0x1D68700 Offset: 0x1D66D00 VA: 0x181D68700
 	public static GameMode.ScoreColumn Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1D685E0 Offset: 0x1D66BE0 VA: 0x181D685E0
+	// RVA: 0x1D688A0 Offset: 0x1D66EA0 VA: 0x181D688A0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1D68BA0 Offset: 0x1D671A0 VA: 0x181D68BA0 Slot: 12
+	// RVA: 0x1D68E60 Offset: 0x1D67460 VA: 0x181D68E60 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1D68BC0 Offset: 0x1D671C0 VA: 0x181D68BC0 Slot: 13
+	// RVA: 0x1D68E80 Offset: 0x1D67480 VA: 0x181D68E80 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, GameMode.ScoreColumn previous) { }
 
-	// RVA: 0x1D68600 Offset: 0x1D66C00 VA: 0x181D68600 Slot: 14
+	// RVA: 0x1D688C0 Offset: 0x1D66EC0 VA: 0x181D688C0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1D68170 Offset: 0x1D66770 VA: 0x181D68170
+	// RVA: 0x1D68430 Offset: 0x1D66A30 VA: 0x181D68430
 	public static GameMode.ScoreColumn Deserialize(byte[] buffer, GameMode.ScoreColumn instance, bool isDelta = False) { }
 
-	// RVA: 0x1D682F0 Offset: 0x1D668F0 VA: 0x181D682F0
+	// RVA: 0x1D685B0 Offset: 0x1D66BB0 VA: 0x181D685B0
 	public static GameMode.ScoreColumn Deserialize(Stream stream, GameMode.ScoreColumn instance, bool isDelta) { }
 
-	// RVA: 0x1D67CC0 Offset: 0x1D662C0 VA: 0x181D67CC0
+	// RVA: 0x1D67F80 Offset: 0x1D66580 VA: 0x181D67F80
 	public static GameMode.ScoreColumn DeserializeLengthDelimited(Stream stream, GameMode.ScoreColumn instance, bool isDelta) { }
 
-	// RVA: 0x1D67EE0 Offset: 0x1D664E0 VA: 0x181D67EE0
+	// RVA: 0x1D681A0 Offset: 0x1D667A0 VA: 0x181D681A0
 	public static GameMode.ScoreColumn DeserializeLength(Stream stream, int length, GameMode.ScoreColumn instance, bool isDelta) { }
 
-	// RVA: 0x1D68740 Offset: 0x1D66D40 VA: 0x181D68740
+	// RVA: 0x1D68A00 Offset: 0x1D67000 VA: 0x181D68A00
 	public static void SerializeDelta(Stream stream, GameMode.ScoreColumn instance, GameMode.ScoreColumn previous) { }
 
-	// RVA: 0x1D68A60 Offset: 0x1D67060 VA: 0x181D68A60
+	// RVA: 0x1D68D20 Offset: 0x1D67320 VA: 0x181D68D20
 	public static void Serialize(Stream stream, GameMode.ScoreColumn instance) { }
 
-	// RVA: 0x1D68B90 Offset: 0x1D67190 VA: 0x181D68B90
+	// RVA: 0x1D68E50 Offset: 0x1D67450 VA: 0x181D68E50
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1D68BA0 Offset: 0x1D671A0 VA: 0x181D68BA0
+	// RVA: 0x1D68E60 Offset: 0x1D67460 VA: 0x181D68E60
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1D68950 Offset: 0x1D66F50 VA: 0x181D68950
+	// RVA: 0x1D68C10 Offset: 0x1D67210 VA: 0x181D68C10
 	public static byte[] SerializeToBytes(GameMode.ScoreColumn instance) { }
 
-	// RVA: 0x1D688A0 Offset: 0x1D66EA0 VA: 0x181D688A0
+	// RVA: 0x1D68B60 Offset: 0x1D67160 VA: 0x181D68B60
 	public static void SerializeLengthDelimited(Stream stream, GameMode.ScoreColumn instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -275,82 +275,82 @@ public class GameMode.PlayerScore : IDisposable, Pool.IPooled, IProto // TypeDef
 
 	// Methods
 
-	// RVA: 0x1D67350 Offset: 0x1D65950 VA: 0x181D67350
+	// RVA: 0x1D67610 Offset: 0x1D65C10 VA: 0x181D67610
 	public static void ResetToPool(GameMode.PlayerScore instance) { }
 
-	// RVA: 0x1D67220 Offset: 0x1D65820 VA: 0x181D67220
+	// RVA: 0x1D674E0 Offset: 0x1D65AE0 VA: 0x181D674E0
 	public void ResetToPool() { }
 
-	// RVA: 0x1D66EF0 Offset: 0x1D654F0 VA: 0x181D66EF0 Slot: 9
+	// RVA: 0x1D671B0 Offset: 0x1D657B0 VA: 0x181D671B0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D65890 Offset: 0x1D63E90 VA: 0x181D65890
+	// RVA: 0x1D65B50 Offset: 0x1D64150 VA: 0x181D65B50
 	public void CopyTo(GameMode.PlayerScore instance) { }
 
-	// RVA: 0x1D659C0 Offset: 0x1D63FC0 VA: 0x181D659C0
+	// RVA: 0x1D65C80 Offset: 0x1D64280 VA: 0x181D65C80
 	public GameMode.PlayerScore Copy() { }
 
-	// RVA: 0x1D662F0 Offset: 0x1D648F0 VA: 0x181D662F0
+	// RVA: 0x1D665B0 Offset: 0x1D64BB0 VA: 0x181D665B0
 	public static GameMode.PlayerScore Deserialize(Stream stream) { }
 
-	// RVA: 0x1D65EA0 Offset: 0x1D644A0 VA: 0x181D65EA0
+	// RVA: 0x1D66160 Offset: 0x1D64760 VA: 0x181D66160
 	public static GameMode.PlayerScore DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1D65F20 Offset: 0x1D64520 VA: 0x181D65F20
+	// RVA: 0x1D661E0 Offset: 0x1D647E0 VA: 0x181D661E0
 	public static GameMode.PlayerScore DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1D665A0 Offset: 0x1D64BA0 VA: 0x181D665A0
+	// RVA: 0x1D66860 Offset: 0x1D64E60 VA: 0x181D66860
 	public static GameMode.PlayerScore Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1D66F70 Offset: 0x1D65570 VA: 0x181D66F70
+	// RVA: 0x1D67230 Offset: 0x1D65830 VA: 0x181D67230
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1D67B50 Offset: 0x1D66150 VA: 0x181D67B50 Slot: 12
+	// RVA: 0x1D67E10 Offset: 0x1D66410 VA: 0x181D67E10 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1D67B70 Offset: 0x1D66170 VA: 0x181D67B70 Slot: 13
+	// RVA: 0x1D67E30 Offset: 0x1D66430 VA: 0x181D67E30 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, GameMode.PlayerScore previous) { }
 
-	// RVA: 0x1D67200 Offset: 0x1D65800 VA: 0x181D67200 Slot: 14
+	// RVA: 0x1D674C0 Offset: 0x1D65AC0 VA: 0x181D674C0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1D66B80 Offset: 0x1D65180 VA: 0x181D66B80
+	// RVA: 0x1D66E40 Offset: 0x1D65440 VA: 0x181D66E40
 	public static GameMode.PlayerScore Deserialize(byte[] buffer, GameMode.PlayerScore instance, bool isDelta = False) { }
 
-	// RVA: 0x1D668F0 Offset: 0x1D64EF0 VA: 0x181D668F0
+	// RVA: 0x1D66BB0 Offset: 0x1D651B0 VA: 0x181D66BB0
 	public static GameMode.PlayerScore Deserialize(Stream stream, GameMode.PlayerScore instance, bool isDelta) { }
 
-	// RVA: 0x1D65B40 Offset: 0x1D64140 VA: 0x181D65B40
+	// RVA: 0x1D65E00 Offset: 0x1D64400 VA: 0x181D65E00
 	public static GameMode.PlayerScore DeserializeLengthDelimited(Stream stream, GameMode.PlayerScore instance, bool isDelta) { }
 
-	// RVA: 0x1D65FB0 Offset: 0x1D645B0 VA: 0x181D65FB0
+	// RVA: 0x1D66270 Offset: 0x1D64870 VA: 0x181D66270
 	public static GameMode.PlayerScore DeserializeLength(Stream stream, int length, GameMode.PlayerScore instance, bool isDelta) { }
 
-	// RVA: 0x1D67480 Offset: 0x1D65A80 VA: 0x181D67480
+	// RVA: 0x1D67740 Offset: 0x1D65D40 VA: 0x181D67740
 	public static void SerializeDelta(Stream stream, GameMode.PlayerScore instance, GameMode.PlayerScore previous) { }
 
-	// RVA: 0x1D67900 Offset: 0x1D65F00 VA: 0x181D67900
+	// RVA: 0x1D67BC0 Offset: 0x1D661C0 VA: 0x181D67BC0
 	public static void Serialize(Stream stream, GameMode.PlayerScore instance) { }
 
-	// RVA: 0x1D67B40 Offset: 0x1D66140 VA: 0x181D67B40
+	// RVA: 0x1D67E00 Offset: 0x1D66400 VA: 0x181D67E00
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1D67B50 Offset: 0x1D66150 VA: 0x181D67B50
+	// RVA: 0x1D67E10 Offset: 0x1D66410 VA: 0x181D67E10
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1D677F0 Offset: 0x1D65DF0 VA: 0x181D677F0
+	// RVA: 0x1D67AB0 Offset: 0x1D660B0 VA: 0x181D67AB0
 	public static byte[] SerializeToBytes(GameMode.PlayerScore instance) { }
 
-	// RVA: 0x1D67740 Offset: 0x1D65D40 VA: 0x181D67740
+	// RVA: 0x1D67A00 Offset: 0x1D66000 VA: 0x181D67A00
 	public static void SerializeLengthDelimited(Stream stream, GameMode.PlayerScore instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

@@ -21,58 +21,58 @@ public class CoverageQueries : MonoBehaviour // TypeDefIndex: 11479
 
 	// Methods
 
-	// RVA: 0x6BF4D0 Offset: 0x6BDAD0 VA: 0x1806BF4D0
+	// RVA: 0x6BF5E0 Offset: 0x6BDBE0 VA: 0x1806BF5E0
 	public static CoverageQueries get_Instance() { }
 
-	// RVA: 0x6BF530 Offset: 0x6BDB30 VA: 0x1806BF530
+	// RVA: 0x6BF640 Offset: 0x6BDC40 VA: 0x1806BF640
 	public static bool get_Supported() { }
 
-	// RVA: 0x6BF470 Offset: 0x6BDA70 VA: 0x1806BF470
+	// RVA: 0x6BF580 Offset: 0x6BDB80 VA: 0x1806BF580
 	public static bool get_DebugShow() { }
 
-	// RVA: 0x6BF540 Offset: 0x6BDB40 VA: 0x1806BF540
+	// RVA: 0x6BF650 Offset: 0x6BDC50 VA: 0x1806BF650
 	public static void set_DebugShow(bool value) { }
 
-	// RVA: 0x6BD1F0 Offset: 0x6BB7F0 VA: 0x1806BD1F0
+	// RVA: 0x6BD300 Offset: 0x6BB900 VA: 0x1806BD300
 	private void Awake() { }
 
-	// RVA: 0x6BDAD0 Offset: 0x6BC0D0 VA: 0x1806BDAD0
+	// RVA: 0x6BDBE0 Offset: 0x6BC1E0 VA: 0x1806BDBE0
 	private void OnEnable() { }
 
-	// RVA: 0x6BD9E0 Offset: 0x6BBFE0 VA: 0x1806BD9E0
+	// RVA: 0x6BDAF0 Offset: 0x6BC0F0 VA: 0x1806BDAF0
 	private void OnDisable() { }
 
-	// RVA: 0x6BF1C0 Offset: 0x6BD7C0 VA: 0x1806BF1C0
+	// RVA: 0x6BF2D0 Offset: 0x6BD8D0 VA: 0x1806BF2D0
 	private void Update() { }
 
-	// RVA: 0x6BDC60 Offset: 0x6BC260 VA: 0x1806BDC60
+	// RVA: 0x6BDD70 Offset: 0x6BC370 VA: 0x1806BDD70
 	private void OnPostRender() { }
 
-	// RVA: 0x6BE860 Offset: 0x6BCE60 VA: 0x1806BE860
+	// RVA: 0x6BE970 Offset: 0x6BCF70 VA: 0x1806BE970
 	private void UpdateCollection() { }
 
-	// RVA: 0x6BDD80 Offset: 0x6BC380 VA: 0x1806BDD80
+	// RVA: 0x6BDE90 Offset: 0x6BC490 VA: 0x1806BDE90
 	private void PrepareAndDispatch() { }
 
-	// RVA: 0x6BD8C0 Offset: 0x6BBEC0 VA: 0x1806BD8C0
+	// RVA: 0x6BD9D0 Offset: 0x6BBFD0 VA: 0x1806BD9D0
 	private void IssueRead() { }
 
-	// RVA: 0x6BD280 Offset: 0x6BB880 VA: 0x1806BD280
+	// RVA: 0x6BD390 Offset: 0x6BB990 VA: 0x1806BD390
 	private void FetchAndAnalyseResults() { }
 
-	// RVA: 0x6BE600 Offset: 0x6BCC00 VA: 0x1806BE600
+	// RVA: 0x6BE710 Offset: 0x6BCD10 VA: 0x1806BE710
 	public static void RegisterQuery(CoverageQueries.Query query) { }
 
-	// RVA: 0x6BE7A0 Offset: 0x6BCDA0 VA: 0x1806BE7A0
+	// RVA: 0x6BE8B0 Offset: 0x6BCEB0 VA: 0x1806BE8B0
 	public static void UnregisterQuery(CoverageQueries.Query query) { }
 
-	// RVA: 0x6BF100 Offset: 0x6BD700 VA: 0x1806BF100
+	// RVA: 0x6BF210 Offset: 0x6BD810 VA: 0x1806BF210
 	public static void UpdateQuery(CoverageQueries.Query query) { }
 
-	// RVA: 0x6BF460 Offset: 0x6BDA60 VA: 0x1806BF460
+	// RVA: 0x6BF570 Offset: 0x6BDB70 VA: 0x1806BF570
 	public void .ctor() { }
 
-	// RVA: 0x6BF1E0 Offset: 0x6BD7E0 VA: 0x1806BF1E0
+	// RVA: 0x6BF2F0 Offset: 0x6BD8F0 VA: 0x1806BF2F0
 	private static void .cctor() { }
 
 }
@@ -91,28 +91,28 @@ public class CoverageQueries.BufferSet // TypeDefIndex: 11480
 
 	// Methods
 
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	public void Attach(Material coverageMat) { }
 
-	// RVA: 0x6AD9C0 Offset: 0x6ABFC0 VA: 0x1806AD9C0
+	// RVA: 0x6ADAD0 Offset: 0x6AC0D0 VA: 0x1806ADAD0
 	public void Dispose(bool data = True) { }
 
-	// RVA: 0x6AD5C0 Offset: 0x6ABBC0 VA: 0x1806AD5C0
+	// RVA: 0x6AD6D0 Offset: 0x6ABCD0 VA: 0x1806AD6D0
 	public bool CheckResize(int count) { }
 
-	// RVA: 0x6ADD30 Offset: 0x6AC330 VA: 0x1806ADD30
+	// RVA: 0x6ADE40 Offset: 0x6AC440 VA: 0x1806ADE40
 	public void UploadData() { }
 
-	// RVA: 0x6AD8D0 Offset: 0x6ABED0 VA: 0x1806AD8D0
+	// RVA: 0x6AD9E0 Offset: 0x6ABFE0 VA: 0x1806AD9E0
 	public void Dispatch(int count) { }
 
-	// RVA: 0x6ADCA0 Offset: 0x6AC2A0 VA: 0x1806ADCA0
+	// RVA: 0x6ADDB0 Offset: 0x6AC3B0 VA: 0x1806ADDB0
 	public void IssueRead() { }
 
-	// RVA: 0x6ADB50 Offset: 0x6AC150 VA: 0x1806ADB50
+	// RVA: 0x6ADC60 Offset: 0x6AC260 VA: 0x1806ADC60
 	public void GetResults() { }
 
-	// RVA: 0x6ADD80 Offset: 0x6AC380 VA: 0x1806ADD80
+	// RVA: 0x6ADE90 Offset: 0x6AC490 VA: 0x1806ADE90
 	public void .ctor() { }
 
 }
@@ -136,31 +136,31 @@ public class CoverageQueries.Query // TypeDefIndex: 11482
 
 	// Methods
 
-	// RVA: 0x6C84C0 Offset: 0x6C6AC0 VA: 0x1806C84C0
+	// RVA: 0x6C85D0 Offset: 0x6C6BD0 VA: 0x1806C85D0
 	public bool get_IsRegistered() { }
 
-	// RVA: 0x6C8150 Offset: 0x6C6750 VA: 0x1806C8150
+	// RVA: 0x6C8260 Offset: 0x6C6860 VA: 0x1806C8260
 	private void Reset() { }
 
-	// RVA: 0x6C83F0 Offset: 0x6C69F0 VA: 0x1806C83F0
+	// RVA: 0x6C8500 Offset: 0x6C6B00 VA: 0x1806C8500
 	public void .ctor() { }
 
-	// RVA: 0x6C8430 Offset: 0x6C6A30 VA: 0x1806C8430
+	// RVA: 0x6C8540 Offset: 0x6C6B40 VA: 0x1806C8540
 	public void .ctor(Vector3 position, CoverageQueries.RadiusSpace radiusSpace, float radius, int sampleCount, float smoothingSpeed = 15) { }
 
-	// RVA: 0x6C80F0 Offset: 0x6C66F0 VA: 0x1806C80F0
+	// RVA: 0x6C8200 Offset: 0x6C6800 VA: 0x1806C8200
 	public void Register() { }
 
-	// RVA: 0x6C8360 Offset: 0x6C6960 VA: 0x1806C8360
+	// RVA: 0x6C8470 Offset: 0x6C6A70 VA: 0x1806C8470
 	public void Update(Vector3 position, float radius) { }
 
-	// RVA: 0x6C8280 Offset: 0x6C6880 VA: 0x1806C8280
+	// RVA: 0x6C8390 Offset: 0x6C6990 VA: 0x1806C8390
 	public void UpdatePosition(Vector3 position) { }
 
-	// RVA: 0x6C82F0 Offset: 0x6C68F0 VA: 0x1806C82F0
+	// RVA: 0x6C8400 Offset: 0x6C6A00 VA: 0x1806C8400
 	public void UpdateRadius(float radius) { }
 
-	// RVA: 0x6C8180 Offset: 0x6C6780 VA: 0x1806C8180
+	// RVA: 0x6C8290 Offset: 0x6C6890 VA: 0x1806C8290
 	public void Unregister() { }
 
 }

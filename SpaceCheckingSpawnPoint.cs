@@ -6,7 +6,7 @@ public class SpaceCheckingSpawnPoint : GenericSpawnPoint // TypeDefIndex: 10007
 
 	// Methods
 
-	// RVA: 0xA7D5F0 Offset: 0xA7BBF0 VA: 0x180A7D5F0
+	// RVA: 0xA7D8B0 Offset: 0xA7BEB0 VA: 0x180A7D8B0
 	public void .ctor() { }
 
 }

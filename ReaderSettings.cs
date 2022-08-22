@@ -34,10 +34,10 @@ public sealed class ReaderSettings // TypeDefIndex: 7600
 	public int get_BufferSize() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public byte[] get_Buffer() { }
 
-	// RVA: 0x13A52E0 Offset: 0x13A38E0 VA: 0x1813A52E0
+	// RVA: 0x13A55A0 Offset: 0x13A3BA0 VA: 0x1813A55A0
 	public void .ctor() { }
 
 }

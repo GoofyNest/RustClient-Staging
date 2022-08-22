@@ -16,7 +16,7 @@ internal struct LeaderboardUGCSet_t : ICallbackData // TypeDefIndex: 5396
 	// RVA: 0x1EB2E0 Offset: 0x1EA6E0 VA: 0x1801EB2E0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1373610 Offset: 0x1371C10 VA: 0x181373610
+	// RVA: 0x13738D0 Offset: 0x1371ED0 VA: 0x1813738D0
 	private static void .cctor() { }
 
 }

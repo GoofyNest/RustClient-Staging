@@ -5,19 +5,19 @@ public class RSAPKCS1SignatureDeformatter : AsymmetricSignatureDeformatter // Ty
 
 	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
-	// RVA: 0x17B71B0 Offset: 0x17B57B0 VA: 0x1817B71B0
+	// RVA: 0x17B7470 Offset: 0x17B5A70 VA: 0x1817B7470
 	public void .ctor(AsymmetricAlgorithm key) { }
 
-	// RVA: 0x17B6EE0 Offset: 0x17B54E0 VA: 0x1817B6EE0 Slot: 5
+	// RVA: 0x17B71A0 Offset: 0x17B57A0 VA: 0x1817B71A0 Slot: 5
 	public override void SetHashAlgorithm(string strName) { }
 
-	// RVA: 0x17B6F60 Offset: 0x17B5560 VA: 0x1817B6F60 Slot: 4
+	// RVA: 0x17B7220 Offset: 0x17B5820 VA: 0x1817B7220 Slot: 4
 	public override void SetKey(AsymmetricAlgorithm key) { }
 
-	// RVA: 0x17B7020 Offset: 0x17B5620 VA: 0x1817B7020 Slot: 6
+	// RVA: 0x17B72E0 Offset: 0x17B58E0 VA: 0x1817B72E0 Slot: 6
 	public override bool VerifySignature(byte[] rgbHash, byte[] rgbSignature) { }
 
 }

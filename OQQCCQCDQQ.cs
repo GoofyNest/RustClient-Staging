@@ -153,79 +153,79 @@ public class OQQCCQCDQQ : MonoBehaviour // TypeDefIndex: 7271
 
 	// Methods
 
-	// RVA: 0x8B9120 Offset: 0x8B7720 VA: 0x1808B9120
+	// RVA: 0x8B9230 Offset: 0x8B7830 VA: 0x1808B9230
 	public static void OOOCDQDQDC(List<ERMarkerExt> markers, List<OQQCCQCDQQ> exitRoads, ref List<Vector3> splinePoints, ref List<float> tValues) { }
 
-	// RVA: 0x8B3AE0 Offset: 0x8B20E0 VA: 0x1808B3AE0
+	// RVA: 0x8B3BF0 Offset: 0x8B21F0 VA: 0x1808B3BF0
 	public static void ODOCDDDDDO(List<ERMarkerExt> markers, OQQCCQCDQQ exitRoad, ref List<Vector3> splinePoints, ref List<float> tValues, int currentInt) { }
 
-	// RVA: 0x8BA760 Offset: 0x8B8D60 VA: 0x1808BA760
+	// RVA: 0x8BA870 Offset: 0x8B8E70 VA: 0x1808BA870
 	public static void OQCCQOQDDO(ERModularBase baseScript, ERModularRoad road, List<OQQCCQCDQQ> exitRoads, List<ERMarkerExt> markers, ref List<Vector3> soSplinePointsLeft, ref List<Vector3> soSplinePointsRight, ref bool hasExits, List<float> leftIndentFloats, List<float> rightIndentFloats, List<float> leftSurroundingFloats, List<float> rightSurroundingFloats, ref List<Vector3> surfaceVecs) { }
 
-	// RVA: 0x8A22B0 Offset: 0x8A08B0 VA: 0x1808A22B0
+	// RVA: 0x8A23C0 Offset: 0x8A09C0 VA: 0x1808A23C0
 	public static void OCCCOOCCQC(ERModularBase baseScript, ERModularRoad road, OQQCCQCDQQ exitRoad, ref List<Vector3> soSplinePointsLeft, ref List<Vector3> soSplinePointsRight, List<float> leftIndentFloats, List<float> rightIndentFloats, List<float> leftSurroundingFloats, List<float> rightSurroundingFloats, ref List<Vector3> roadSurfaceVecs) { }
 
-	// RVA: 0x8A21B0 Offset: 0x8A07B0 VA: 0x1808A21B0
+	// RVA: 0x8A22C0 Offset: 0x8A08C0 VA: 0x1808A22C0
 	public void BuildMeshInit(OQQCCQCDQQ exitRoad, List<Vector3> vecs, List<Vector2> uvs, List<int> tris, List<Color> colors, Material mat, ERModularRoad road) { }
 
-	// RVA: 0x8BACC0 Offset: 0x8B92C0 VA: 0x1808BACC0
+	// RVA: 0x8BADD0 Offset: 0x8B93D0 VA: 0x1808BADD0
 	public void OQDDCODQCD() { }
 
-	// RVA: 0x8BCCE0 Offset: 0x8BB2E0 VA: 0x1808BCCE0
+	// RVA: 0x8BCDF0 Offset: 0x8BB3F0 VA: 0x1808BCDF0
 	public void SpawnSplitObjects() { }
 
-	// RVA: 0x8BAA10 Offset: 0x8B9010 VA: 0x1808BAA10
+	// RVA: 0x8BAB20 Offset: 0x8B9120 VA: 0x1808BAB20
 	public void OQDDCCQOOO(ref int curGo, Vector3 v) { }
 
-	// RVA: 0x8B9370 Offset: 0x8B7970 VA: 0x1808B9370
+	// RVA: 0x8B9480 Offset: 0x8B7A80 VA: 0x1808B9480
 	public static void OOOOOCODQO(OQQCCQCDQQ exitRoad, int vecCount, List<Vector3> vecs, List<Vector2> uvsArray, List<int> tris) { }
 
-	// RVA: 0x8B5500 Offset: 0x8B3B00 VA: 0x1808B5500
+	// RVA: 0x8B5610 Offset: 0x8B3C10 VA: 0x1808B5610
 	public static void ODQCODOCDO(OQQCCQCDQQ exitRoad, int vecCount, List<Vector3> vecs, List<Vector2> uvsArray, List<int> tris, int decalIndex) { }
 
-	// RVA: 0x8BA090 Offset: 0x8B8690 VA: 0x1808BA090
+	// RVA: 0x8BA1A0 Offset: 0x8B87A0 VA: 0x1808BA1A0
 	public static void OQCCDDDOQQ(int i, int j, Vector3 prevPos, List<Vector3> edgeVecs, List<Vector3> soSplinePointsRight, float angleThreshold, ref List<Vector3> tmpvecs) { }
 
-	// RVA: 0x8B9C70 Offset: 0x8B8270 VA: 0x1808B9C70
+	// RVA: 0x8B9D80 Offset: 0x8B8380 VA: 0x1808B9D80
 	private static void OOOQCQDCDD(int curLeft, int endLeft, int curRight, int endRight, List<int> rightInts, List<Vector3> vecs, ref List<int> tris) { }
 
-	// RVA: 0x8B1BA0 Offset: 0x8B01A0 VA: 0x1808B1BA0
+	// RVA: 0x8B1CB0 Offset: 0x8B02B0 VA: 0x1808B1CB0
 	public static void ODCDCQCOCQ(List<Vector3> vecs, ref List<int> tris) { }
 
-	// RVA: 0x8B75F0 Offset: 0x8B5BF0 VA: 0x1808B75F0
+	// RVA: 0x8B7700 Offset: 0x8B5D00 VA: 0x1808B7700
 	public static void ODQDQDCOQD(ERModularBase baseScript, ERModularRoad road, OQQCCQCDQQ exitRoad, ref List<Vector3> soSplinePointsLeft, ref List<Vector3> soSplinePointsRight) { }
 
-	// RVA: 0x8B1E70 Offset: 0x8B0470 VA: 0x1808B1E70
+	// RVA: 0x8B1F80 Offset: 0x8B0580 VA: 0x1808B1F80
 	public static void ODDDDDDQQD(ERModularBase baseScript, ERModularRoad road, ERMarkerExt marker, ref List<Vector3> soSplinePointsLeft, ref List<Vector3> soSplinePointsRight) { }
 
-	// RVA: 0x8BB120 Offset: 0x8B9720 VA: 0x1808BB120
+	// RVA: 0x8BB230 Offset: 0x8B9830 VA: 0x1808BB230
 	public static void OQDOQDDCDD(ERModularBase baseScript, ERModularRoad road, OQQCCQCDQQ exitRoad, List<ERMarkerExt> markers, List<List<Vector3>> exitOuterVerticesExtrusion, List<List<Vector3>> exitOuterVerticesFixed, List<List<Vector3>> exitOuterVerticesCurve, List<Vector3> exitInnerVertices) { }
 
-	// RVA: 0x8AE5D0 Offset: 0x8ACBD0 VA: 0x1808AE5D0
+	// RVA: 0x8AE6E0 Offset: 0x8ACCE0 VA: 0x1808AE6E0
 	public static void OCDQCQDDOQ(ERModularBase baseScript, ERModularRoad road, List<ERMarkerExt> markers) { }
 
-	// RVA: 0x8ABB70 Offset: 0x8AA170 VA: 0x1808ABB70
+	// RVA: 0x8ABC80 Offset: 0x8AA280 VA: 0x1808ABC80
 	public static void OCDDDOQCCO(ERModularBase baseScript, List<ERMarkerExt> markers, ref List<Vector3> vecs, ref List<Vector2> uvsArray, ref List<Vector2> uvsArray2, ref List<Color> customColors, ref List<Color> colors, ref List<List<int>> tris, ref Material[] materialsList) { }
 
-	// RVA: 0x8AB9E0 Offset: 0x8A9FE0 VA: 0x1808AB9E0
+	// RVA: 0x8ABAF0 Offset: 0x8AA0F0 VA: 0x1808ABAF0
 	public static void OCDDCCQCCD(ref int triIndex, ref List<List<int>> tris, ref Material[] materialsList, Material m) { }
 
-	// RVA: 0x8BCAB0 Offset: 0x8BB0B0 VA: 0x1808BCAB0
+	// RVA: 0x8BCBC0 Offset: 0x8BB1C0 VA: 0x1808BCBC0
 	public static float OQQDDDDDOC(Vector3 v, List<Vector3> soSplinePointsLeft, List<Vector3> soSplinePointsRight, ref int cInt, bool flag, ref int match) { }
 
-	// RVA: 0x8B35D0 Offset: 0x8B1BD0 VA: 0x1808B35D0
+	// RVA: 0x8B36E0 Offset: 0x8B1CE0 VA: 0x1808B36E0
 	private static void ODDDOCDCQO(List<Vector3> vecs, List<Vector2> uvs, List<int> tris, List<Color> colors, Material mat, GameObject go, ERModularRoad road) { }
 
-	// RVA: 0x8AA870 Offset: 0x8A8E70 VA: 0x1808AA870
+	// RVA: 0x8AA980 Offset: 0x8A8F80 VA: 0x1808AA980
 	private void OCCDCQQDOQ(List<Vector3> vecs, List<int> connectionInts, List<Vector3> surfaceVecs, Vector3 prefDirVec) { }
 
-	// RVA: 0x8B16E0 Offset: 0x8AFCE0 VA: 0x1808B16E0
+	// RVA: 0x8B17F0 Offset: 0x8AFDF0 VA: 0x1808B17F0
 	public Vector3 ODCCQQDQQQ() { }
 
-	// RVA: 0x8B0A30 Offset: 0x8AF030 VA: 0x1808B0A30
+	// RVA: 0x8B0B40 Offset: 0x8AF140 VA: 0x1808B0B40
 	public void OCQOQQCDOD(List<Vector3> surfaceVecs, List<Vector2> uvs, int firstSection, int secondSection) { }
 
-	// RVA: 0x8BEC90 Offset: 0x8BD290 VA: 0x1808BEC90
+	// RVA: 0x8BEDA0 Offset: 0x8BD3A0 VA: 0x1808BEDA0
 	public void .ctor() { }
 
 }

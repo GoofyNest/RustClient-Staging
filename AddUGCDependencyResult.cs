@@ -17,7 +17,7 @@ internal struct AddUGCDependencyResult_t : ICallbackData // TypeDefIndex: 5441
 	// RVA: 0x1E4170 Offset: 0x1E3570 VA: 0x1801E4170 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x136AC90 Offset: 0x1369290 VA: 0x18136AC90
+	// RVA: 0x136AF50 Offset: 0x1369550 VA: 0x18136AF50
 	private static void .cctor() { }
 
 }

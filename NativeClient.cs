@@ -11,34 +11,34 @@ internal static class NativeClient // TypeDefIndex: 7155
 
 	// Methods
 
-	// RVA: 0x22E60A0 Offset: 0x22E46A0 VA: 0x1822E60A0
+	// RVA: 0x22E6360 Offset: 0x22E4960 VA: 0x1822E6360
 	private static void .cctor() { }
 
-	// RVA: 0x22E5AC0 Offset: 0x22E40C0 VA: 0x1822E5AC0
+	// RVA: 0x22E5D80 Offset: 0x22E4380 VA: 0x1822E5D80
 	public static bool IsStartedWithEasyAntiCheat() { }
 
-	// RVA: 0x22E5810 Offset: 0x22E3E10 VA: 0x1822E5810
+	// RVA: 0x22E5AD0 Offset: 0x22E40D0 VA: 0x1822E5AD0
 	public static void Dispose() { }
 
-	// RVA: 0x22E58E0 Offset: 0x22E3EE0 VA: 0x1822E58E0
+	// RVA: 0x22E5BA0 Offset: 0x22E41A0 VA: 0x1822E5BA0
 	public static void Initialize(NativeClient.CallbackProgress OnProgress, NativeClient.CallbackFinished OnFinished, NativeClient.CallbackIntegrity OnIntegrityViolation, NativeClient.CallbackHostValidation OnHostValidation) { }
 
-	// RVA: 0x22E5790 Offset: 0x22E3D90 VA: 0x1822E5790
+	// RVA: 0x22E5A50 Offset: 0x22E4050 VA: 0x1822E5A50
 	public static void ConnectionReset() { }
 
-	// RVA: 0x22E5D20 Offset: 0x22E4320 VA: 0x1822E5D20
+	// RVA: 0x22E5FE0 Offset: 0x22E45E0 VA: 0x1822E5FE0
 	public static bool PopNetworkMessage(out byte[] MessageBuffer, out int MessageLength) { }
 
-	// RVA: 0x22E5F80 Offset: 0x22E4580 VA: 0x1822E5F80
+	// RVA: 0x22E6240 Offset: 0x22E4840 VA: 0x1822E6240
 	public static void SetPlatformUserAuthTicket(string PlatformName, byte[] AuthTicket, int AuthTicketLength) { }
 
-	// RVA: 0x22E5E60 Offset: 0x22E4460 VA: 0x1822E5E60
+	// RVA: 0x22E6120 Offset: 0x22E4720 VA: 0x1822E6120
 	public static void PushNetworkMessage(byte[] MessageBuffer, int MessageLength) { }
 
-	// RVA: 0x22E5C00 Offset: 0x22E4200 VA: 0x1822E5C00
+	// RVA: 0x22E5EC0 Offset: 0x22E44C0 VA: 0x1822E5EC0
 	public static void PollStatus() { }
 
-	// RVA: 0x22E5B20 Offset: 0x22E4120 VA: 0x1822E5B20
+	// RVA: 0x22E5DE0 Offset: 0x22E43E0 VA: 0x1822E5DE0
 	public static IntPtr NetProtect() { }
 
 }
@@ -49,13 +49,13 @@ public sealed class NativeClient.CallbackProgress : MulticastDelegate // TypeDef
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x22E4D50 Offset: 0x22E3350 VA: 0x1822E4D50 Slot: 12
+	// RVA: 0x22E5010 Offset: 0x22E3610 VA: 0x1822E5010 Slot: 12
 	public virtual uint Invoke(uint Progress, IntPtr CallbackParameter) { }
 
-	// RVA: 0x22E4CC0 Offset: 0x22E32C0 VA: 0x1822E4CC0 Slot: 13
+	// RVA: 0x22E4F80 Offset: 0x22E3580 VA: 0x1822E4F80 Slot: 13
 	public virtual IAsyncResult BeginInvoke(uint Progress, IntPtr CallbackParameter, AsyncCallback callback, object object) { }
 
-	// RVA: 0xB9A710 Offset: 0xB98D10 VA: 0x180B9A710 Slot: 14
+	// RVA: 0xB9A9D0 Offset: 0xB98FD0 VA: 0x180B9A9D0 Slot: 14
 	public virtual uint EndInvoke(IAsyncResult result) { }
 
 }
@@ -66,10 +66,10 @@ public sealed class NativeClient.CallbackFinished : MulticastDelegate // TypeDef
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1310150 Offset: 0x130E750 VA: 0x181310150 Slot: 12
+	// RVA: 0x1310410 Offset: 0x130EA10 VA: 0x181310410 Slot: 12
 	public virtual void Invoke(LoadResult Result, string Message, IntPtr CallbackParameter) { }
 
-	// RVA: 0x22E43F0 Offset: 0x22E29F0 VA: 0x1822E43F0 Slot: 13
+	// RVA: 0x22E46B0 Offset: 0x22E2CB0 VA: 0x1822E46B0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(LoadResult Result, string Message, IntPtr CallbackParameter, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -83,13 +83,13 @@ public sealed class NativeClient.CallbackIntegrity : MulticastDelegate // TypeDe
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x22E4930 Offset: 0x22E2F30 VA: 0x1822E4930 Slot: 12
+	// RVA: 0x22E4BF0 Offset: 0x22E31F0 VA: 0x1822E4BF0 Slot: 12
 	public virtual uint Invoke(ClientIntegrityViolationType ViolationType, string ViolationCause, string DefaultMessage, IntPtr CallbackParameter) { }
 
-	// RVA: 0x22E4880 Offset: 0x22E2E80 VA: 0x1822E4880 Slot: 13
+	// RVA: 0x22E4B40 Offset: 0x22E3140 VA: 0x1822E4B40 Slot: 13
 	public virtual IAsyncResult BeginInvoke(ClientIntegrityViolationType ViolationType, string ViolationCause, string DefaultMessage, IntPtr CallbackParameter, AsyncCallback callback, object object) { }
 
-	// RVA: 0xB9A710 Offset: 0xB98D10 VA: 0x180B9A710 Slot: 14
+	// RVA: 0xB9A9D0 Offset: 0xB98FD0 VA: 0x180B9A9D0 Slot: 14
 	public virtual uint EndInvoke(IAsyncResult result) { }
 
 }
@@ -100,13 +100,13 @@ public sealed class NativeClient.CallbackHostValidation : MulticastDelegate // T
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x22E4510 Offset: 0x22E2B10 VA: 0x1822E4510 Slot: 12
+	// RVA: 0x22E47D0 Offset: 0x22E2DD0 VA: 0x1822E47D0 Slot: 12
 	public virtual bool Invoke(HostValidationResult Result, string Message, IntPtr CallbackParameter) { }
 
-	// RVA: 0x22E4480 Offset: 0x22E2A80 VA: 0x1822E4480 Slot: 13
+	// RVA: 0x22E4740 Offset: 0x22E2D40 VA: 0x1822E4740 Slot: 13
 	public virtual IAsyncResult BeginInvoke(HostValidationResult Result, string Message, IntPtr CallbackParameter, AsyncCallback callback, object object) { }
 
-	// RVA: 0xFF6250 Offset: 0xFF4850 VA: 0x180FF6250 Slot: 14
+	// RVA: 0xFF6510 Offset: 0xFF4B10 VA: 0x180FF6510 Slot: 14
 	public virtual bool EndInvoke(IAsyncResult result) { }
 
 }
@@ -114,58 +114,58 @@ public sealed class NativeClient.CallbackHostValidation : MulticastDelegate // T
 private sealed class NativeClient.UnityModule : NativeClient.INativeModule // TypeDefIndex: 7161
 {	// Methods
 
-	// RVA: 0x22E8790 Offset: 0x22E6D90 VA: 0x1822E8790
+	// RVA: 0x22E8A50 Offset: 0x22E7050 VA: 0x1822E8A50
 	private static extern IntPtr CreateGameClient(string InterfaceVersion) { }
 
-	// RVA: 0x22E8A50 Offset: 0x22E7050 VA: 0x1822E8A50
+	// RVA: 0x22E8D10 Offset: 0x22E7310 VA: 0x1822E8D10
 	private static extern void GameClient_Destroy(IntPtr Instance) { }
 
-	// RVA: 0x22E8AD0 Offset: 0x22E70D0 VA: 0x1822E8AD0
+	// RVA: 0x22E8D90 Offset: 0x22E7390 VA: 0x1822E8D90
 	private static extern void GameClient_Initialize(IntPtr Instance, NativeClient.CallbackProgress OnProgress, NativeClient.CallbackFinished OnFinished, IntPtr CallbackParameter) { }
 
-	// RVA: 0x22E89D0 Offset: 0x22E6FD0 VA: 0x1822E89D0
+	// RVA: 0x22E8C90 Offset: 0x22E7290 VA: 0x1822E8C90
 	private static extern void GameClient_ConnectionReset(IntPtr Instance) { }
 
-	// RVA: 0x22E8CD0 Offset: 0x22E72D0 VA: 0x1822E8CD0
+	// RVA: 0x22E8F90 Offset: 0x22E7590 VA: 0x1822E8F90
 	private static extern bool GameClient_PopNetworkMessage(IntPtr Instance, ref IntPtr MessageBuffer, out uint MessageLength) { }
 
-	// RVA: 0x22E8D70 Offset: 0x22E7370 VA: 0x1822E8D70
+	// RVA: 0x22E9030 Offset: 0x22E7630 VA: 0x1822E9030
 	private static extern void GameClient_PushNetworkMessage(IntPtr Instance, byte[] MessageBuffer, uint MessageLength) { }
 
-	// RVA: 0x22E8E10 Offset: 0x22E7410 VA: 0x1822E8E10
+	// RVA: 0x22E90D0 Offset: 0x22E76D0 VA: 0x1822E90D0
 	private static extern void GameClient_SetPlatformUserAuthTicket(IntPtr Instance, string PlatformName, byte[] AuthTicket, uint AuthTicketLength) { }
 
-	// RVA: 0x22E8C10 Offset: 0x22E7210 VA: 0x1822E8C10
+	// RVA: 0x22E8ED0 Offset: 0x22E74D0 VA: 0x1822E8ED0
 	private static extern void GameClient_PollStatus(IntPtr Instance, NativeClient.CallbackIntegrity OnIntegrityViolation, NativeClient.CallbackHostValidation OnHostValidation, IntPtr CallbackParameter) { }
 
-	// RVA: 0x22E8B90 Offset: 0x22E7190 VA: 0x1822E8B90
+	// RVA: 0x22E8E50 Offset: 0x22E7450 VA: 0x1822E8E50
 	private static extern IntPtr GameClient_NetProtect(IntPtr Instance) { }
 
-	// RVA: 0x22E8830 Offset: 0x22E6E30 VA: 0x1822E8830 Slot: 4
+	// RVA: 0x22E8AF0 Offset: 0x22E70F0 VA: 0x1822E8AF0 Slot: 4
 	public IntPtr Create() { }
 
-	// RVA: 0x22E8920 Offset: 0x22E6F20 VA: 0x1822E8920 Slot: 5
+	// RVA: 0x22E8BE0 Offset: 0x22E71E0 VA: 0x1822E8BE0 Slot: 5
 	public void Destroy(IntPtr Instance) { }
 
-	// RVA: 0x22E8EE0 Offset: 0x22E74E0 VA: 0x1822E8EE0 Slot: 6
+	// RVA: 0x22E91A0 Offset: 0x22E77A0 VA: 0x1822E91A0 Slot: 6
 	public void Initialize(IntPtr Instance, NativeClient.CallbackProgress OnProgress, NativeClient.CallbackFinished OnFinished, IntPtr CallbackParameter) { }
 
-	// RVA: 0x22E86E0 Offset: 0x22E6CE0 VA: 0x1822E86E0 Slot: 7
+	// RVA: 0x22E89A0 Offset: 0x22E6FA0 VA: 0x1822E89A0 Slot: 7
 	public void ConnectionReset(IntPtr Instance) { }
 
-	// RVA: 0x22E9170 Offset: 0x22E7770 VA: 0x1822E9170 Slot: 8
+	// RVA: 0x22E9430 Offset: 0x22E7A30 VA: 0x1822E9430 Slot: 8
 	public bool PopNetworkMessage(IntPtr Instance, ref byte[] MessageBuffer, out int MessageLength) { }
 
-	// RVA: 0x22E93A0 Offset: 0x22E79A0 VA: 0x1822E93A0 Slot: 9
+	// RVA: 0x22E9660 Offset: 0x22E7C60 VA: 0x1822E9660 Slot: 9
 	public void PushNetworkMessage(IntPtr Instance, byte[] Message, int MessageLength) { }
 
-	// RVA: 0x22E9470 Offset: 0x22E7A70 VA: 0x1822E9470 Slot: 11
+	// RVA: 0x22E9730 Offset: 0x22E7D30 VA: 0x1822E9730 Slot: 11
 	public void SetPlatformUserAuthTicket(IntPtr Instance, string PlatformName, byte[] AuthTicket, int AuthTicketLength) { }
 
-	// RVA: 0x22E9080 Offset: 0x22E7680 VA: 0x1822E9080 Slot: 10
+	// RVA: 0x22E9340 Offset: 0x22E7940 VA: 0x1822E9340 Slot: 10
 	public void PollStatus(IntPtr Instance, NativeClient.CallbackIntegrity OnIntegrityViolation, NativeClient.CallbackHostValidation OnHostValidation, IntPtr CallbackParameter) { }
 
-	// RVA: 0x22E8FD0 Offset: 0x22E75D0 VA: 0x1822E8FD0 Slot: 12
+	// RVA: 0x22E9290 Offset: 0x22E7890 VA: 0x1822E9290 Slot: 12
 	public IntPtr NetProtect(IntPtr Instance) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

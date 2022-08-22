@@ -14,22 +14,22 @@ public class ParticlePatch // TypeDefIndex: 10358
 
 	// Methods
 
-	// RVA: 0x85CC50 Offset: 0x85B250 VA: 0x18085CC50
+	// RVA: 0x85CD60 Offset: 0x85B360 VA: 0x18085CD60
 	public void DestroyInstances() { }
 
-	// RVA: 0x85CA20 Offset: 0x85B020 VA: 0x18085CA20
+	// RVA: 0x85CB30 Offset: 0x85B130 VA: 0x18085CB30
 	public void CreateInstances() { }
 
-	// RVA: 0x85D390 Offset: 0x85B990 VA: 0x18085D390
+	// RVA: 0x85D4A0 Offset: 0x85BAA0 VA: 0x18085D4A0
 	public void UpdateInstances() { }
 
-	// RVA: 0x85D4D0 Offset: 0x85BAD0 VA: 0x18085D4D0
+	// RVA: 0x85D5E0 Offset: 0x85BBE0 VA: 0x18085D5E0
 	public void .ctor(ParticleSpawn particleSpawn, int i, int j) { }
 
-	// RVA: 0x85CD80 Offset: 0x85B380 VA: 0x18085CD80
+	// RVA: 0x85CE90 Offset: 0x85B490 VA: 0x18085CE90
 	public bool Shift() { }
 
-	// RVA: 0x85D330 Offset: 0x85B930 VA: 0x18085D330
+	// RVA: 0x85D440 Offset: 0x85BA40 VA: 0x18085D440
 	public void Spawn() { }
 
 }

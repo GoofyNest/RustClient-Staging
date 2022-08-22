@@ -18,46 +18,46 @@ internal class DigestSession // TypeDefIndex: 2993
 
 	// Methods
 
-	// RVA: 0x152EB40 Offset: 0x152D140 VA: 0x18152EB40
+	// RVA: 0x152EE00 Offset: 0x152D400 VA: 0x18152EE00
 	private static void .cctor() { }
 
-	// RVA: 0x152EB90 Offset: 0x152D190 VA: 0x18152EB90
+	// RVA: 0x152EE50 Offset: 0x152D450 VA: 0x18152EE50
 	public void .ctor() { }
 
-	// RVA: 0x152EC00 Offset: 0x152D200 VA: 0x18152EC00
+	// RVA: 0x152EEC0 Offset: 0x152D4C0 VA: 0x18152EEC0
 	public string get_Algorithm() { }
 
-	// RVA: 0x152EE00 Offset: 0x152D400 VA: 0x18152EE00
+	// RVA: 0x152F0C0 Offset: 0x152D6C0 VA: 0x18152F0C0
 	public string get_Realm() { }
 
-	// RVA: 0x152ED40 Offset: 0x152D340 VA: 0x18152ED40
+	// RVA: 0x152F000 Offset: 0x152D600 VA: 0x18152F000
 	public string get_Nonce() { }
 
-	// RVA: 0x152ED80 Offset: 0x152D380 VA: 0x18152ED80
+	// RVA: 0x152F040 Offset: 0x152D640 VA: 0x18152F040
 	public string get_Opaque() { }
 
-	// RVA: 0x152EDC0 Offset: 0x152D3C0 VA: 0x18152EDC0
+	// RVA: 0x152F080 Offset: 0x152D680 VA: 0x18152F080
 	public string get_QOP() { }
 
-	// RVA: 0x152EC40 Offset: 0x152D240 VA: 0x18152EC40
+	// RVA: 0x152EF00 Offset: 0x152D500 VA: 0x18152EF00
 	public string get_CNonce() { }
 
-	// RVA: 0x152E600 Offset: 0x152CC00 VA: 0x18152E600
+	// RVA: 0x152E8C0 Offset: 0x152CEC0 VA: 0x18152E8C0
 	public bool Parse(string challenge) { }
 
-	// RVA: 0x152E4B0 Offset: 0x152CAB0 VA: 0x18152E4B0
+	// RVA: 0x152E770 Offset: 0x152CD70 VA: 0x18152E770
 	private string HashToHexString(string toBeHashed) { }
 
-	// RVA: 0x152E250 Offset: 0x152C850 VA: 0x18152E250
+	// RVA: 0x152E510 Offset: 0x152CB10 VA: 0x18152E510
 	private string HA1(string username, string password) { }
 
-	// RVA: 0x152E3C0 Offset: 0x152C9C0 VA: 0x18152E3C0
+	// RVA: 0x152E680 Offset: 0x152CC80 VA: 0x18152E680
 	private string HA2(HttpWebRequest webRequest) { }
 
-	// RVA: 0x152E7A0 Offset: 0x152CDA0 VA: 0x18152E7A0
+	// RVA: 0x152EA60 Offset: 0x152D060 VA: 0x18152EA60
 	private string Response(string username, string password, HttpWebRequest webRequest) { }
 
-	// RVA: 0x152DE20 Offset: 0x152C420 VA: 0x18152DE20
+	// RVA: 0x152E0E0 Offset: 0x152C6E0 VA: 0x18152E0E0
 	public Authorization Authenticate(WebRequest webRequest, ICredentials credentials) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0

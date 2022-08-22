@@ -63,1020 +63,1020 @@ public class LTDescr // TypeDefIndex: 5569
 
 	// Methods
 
-	// RVA: 0x1998D00 Offset: 0x1997300 VA: 0x181998D00
+	// RVA: 0x1998FC0 Offset: 0x19975C0 VA: 0x181998FC0
 	public Vector3 get_from() { }
 
-	// RVA: 0x199ED80 Offset: 0x199D380 VA: 0x18199ED80
+	// RVA: 0x199F040 Offset: 0x199D640 VA: 0x18199F040
 	public void set_from(Vector3 value) { }
 
-	// RVA: 0x1998D30 Offset: 0x1997330 VA: 0x181998D30
+	// RVA: 0x1998FF0 Offset: 0x19975F0 VA: 0x181998FF0
 	public Vector3 get_to() { }
 
-	// RVA: 0x199EDA0 Offset: 0x199D3A0 VA: 0x18199EDA0
+	// RVA: 0x199F060 Offset: 0x199D660 VA: 0x18199F060
 	public void set_to(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9921A0 Offset: 0x9907A0 VA: 0x1809921A0
+	// RVA: 0x9922B0 Offset: 0x9908B0 VA: 0x1809922B0
 	public LTDescr.ActionMethodDelegate get_easeInternal() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D220 Offset: 0xA4B820 VA: 0x180A4D220
+	// RVA: 0xA4D4E0 Offset: 0xA4BAE0 VA: 0x180A4D4E0
 	public void set_easeInternal(LTDescr.ActionMethodDelegate value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7ACF70 Offset: 0x7AB570 VA: 0x1807ACF70
+	// RVA: 0x7AD080 Offset: 0x7AB680 VA: 0x1807AD080
 	public LTDescr.ActionMethodDelegate get_initInternal() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D230 Offset: 0xA4B830 VA: 0x180A4D230
+	// RVA: 0xA4D4F0 Offset: 0xA4BAF0 VA: 0x180A4D4F0
 	public void set_initInternal(LTDescr.ActionMethodDelegate value) { }
 
-	// RVA: 0x198DF60 Offset: 0x198C560 VA: 0x18198DF60 Slot: 3
+	// RVA: 0x198E220 Offset: 0x198C820 VA: 0x18198E220 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1994830 Offset: 0x1992E30 VA: 0x181994830
+	// RVA: 0x1994AF0 Offset: 0x19930F0 VA: 0x181994AF0
 	public void .ctor() { }
 
 	[ObsoleteAttribute] // RVA: 0xA8020 Offset: 0xA7420 VA: 0x1800A8020
-	// RVA: 0x1995410 Offset: 0x1993A10 VA: 0x181995410
+	// RVA: 0x19956D0 Offset: 0x1993CD0 VA: 0x1819956D0
 	public LTDescr cancel(GameObject gameObject) { }
 
-	// RVA: 0x1998D20 Offset: 0x1997320 VA: 0x181998D20
+	// RVA: 0x1998FE0 Offset: 0x19975E0 VA: 0x181998FE0
 	public int get_uniqueId() { }
 
-	// RVA: 0x1998D20 Offset: 0x1997320 VA: 0x181998D20
+	// RVA: 0x1998FE0 Offset: 0x19975E0 VA: 0x181998FE0
 	public int get_id() { }
 
-	// RVA: 0xC73B60 Offset: 0xC72160 VA: 0x180C73B60
+	// RVA: 0xC73E20 Offset: 0xC72420 VA: 0x180C73E20
 	public LTDescrOptional get_optional() { }
 
-	// RVA: 0x199ED90 Offset: 0x199D390 VA: 0x18199ED90
+	// RVA: 0x199F050 Offset: 0x199D650 VA: 0x18199F050
 	public void set_optional(LTDescrOptional value) { }
 
-	// RVA: 0x1999140 Offset: 0x1997740 VA: 0x181999140
+	// RVA: 0x1999400 Offset: 0x1997A00 VA: 0x181999400
 	public void reset() { }
 
-	// RVA: 0x199D350 Offset: 0x199B950 VA: 0x18199D350
+	// RVA: 0x199D610 Offset: 0x199BC10 VA: 0x18199D610
 	public LTDescr setMoveX() { }
 
-	// RVA: 0x199D420 Offset: 0x199BA20 VA: 0x18199D420
+	// RVA: 0x199D6E0 Offset: 0x199BCE0 VA: 0x18199D6E0
 	public LTDescr setMoveY() { }
 
-	// RVA: 0x199D4F0 Offset: 0x199BAF0 VA: 0x18199D4F0
+	// RVA: 0x199D7B0 Offset: 0x199BDB0 VA: 0x18199D7B0
 	public LTDescr setMoveZ() { }
 
-	// RVA: 0x199CDA0 Offset: 0x199B3A0 VA: 0x18199CDA0
+	// RVA: 0x199D060 Offset: 0x199B660 VA: 0x18199D060
 	public LTDescr setMoveLocalX() { }
 
-	// RVA: 0x199CE70 Offset: 0x199B470 VA: 0x18199CE70
+	// RVA: 0x199D130 Offset: 0x199B730 VA: 0x18199D130
 	public LTDescr setMoveLocalY() { }
 
-	// RVA: 0x199CF40 Offset: 0x199B540 VA: 0x18199CF40
+	// RVA: 0x199D200 Offset: 0x199B800 VA: 0x18199D200
 	public LTDescr setMoveLocalZ() { }
 
-	// RVA: 0x1998DA0 Offset: 0x19973A0 VA: 0x181998DA0
+	// RVA: 0x1999060 Offset: 0x1997660 VA: 0x181999060
 	private void initFromInternal() { }
 
-	// RVA: 0x199CCD0 Offset: 0x199B2D0 VA: 0x18199CCD0
+	// RVA: 0x199CF90 Offset: 0x199B590 VA: 0x18199CF90
 	public LTDescr setMoveCurved() { }
 
-	// RVA: 0x199CC00 Offset: 0x199B200 VA: 0x18199CC00
+	// RVA: 0x199CEC0 Offset: 0x199B4C0 VA: 0x18199CEC0
 	public LTDescr setMoveCurvedLocal() { }
 
-	// RVA: 0x199D1B0 Offset: 0x199B7B0 VA: 0x18199D1B0
+	// RVA: 0x199D470 Offset: 0x199BA70 VA: 0x18199D470
 	public LTDescr setMoveSpline() { }
 
-	// RVA: 0x199D0E0 Offset: 0x199B6E0 VA: 0x18199D0E0
+	// RVA: 0x199D3A0 Offset: 0x199B9A0 VA: 0x18199D3A0
 	public LTDescr setMoveSplineLocal() { }
 
-	// RVA: 0x199E590 Offset: 0x199CB90 VA: 0x18199E590
+	// RVA: 0x199E850 Offset: 0x199CE50 VA: 0x18199E850
 	public LTDescr setScaleX() { }
 
-	// RVA: 0x199E660 Offset: 0x199CC60 VA: 0x18199E660
+	// RVA: 0x199E920 Offset: 0x199CF20 VA: 0x18199E920
 	public LTDescr setScaleY() { }
 
-	// RVA: 0x199E730 Offset: 0x199CD30 VA: 0x18199E730
+	// RVA: 0x199E9F0 Offset: 0x199CFF0 VA: 0x18199E9F0
 	public LTDescr setScaleZ() { }
 
-	// RVA: 0x199E250 Offset: 0x199C850 VA: 0x18199E250
+	// RVA: 0x199E510 Offset: 0x199CB10 VA: 0x18199E510
 	public LTDescr setRotateX() { }
 
-	// RVA: 0x199E320 Offset: 0x199C920 VA: 0x18199E320
+	// RVA: 0x199E5E0 Offset: 0x199CBE0 VA: 0x18199E5E0
 	public LTDescr setRotateY() { }
 
-	// RVA: 0x199E3F0 Offset: 0x199C9F0 VA: 0x18199E3F0
+	// RVA: 0x199E6B0 Offset: 0x199CCB0 VA: 0x18199E6B0
 	public LTDescr setRotateZ() { }
 
-	// RVA: 0x199E0B0 Offset: 0x199C6B0 VA: 0x18199E0B0
+	// RVA: 0x199E370 Offset: 0x199C970 VA: 0x18199E370
 	public LTDescr setRotateAround() { }
 
-	// RVA: 0x199DFE0 Offset: 0x199C5E0 VA: 0x18199DFE0
+	// RVA: 0x199E2A0 Offset: 0x199C8A0 VA: 0x18199E2A0
 	public LTDescr setRotateAroundLocal() { }
 
-	// RVA: 0x19994B0 Offset: 0x1997AB0 VA: 0x1819994B0
+	// RVA: 0x1999770 Offset: 0x1997D70 VA: 0x181999770
 	public LTDescr setAlpha() { }
 
-	// RVA: 0x199E940 Offset: 0x199CF40 VA: 0x18199E940
+	// RVA: 0x199EC00 Offset: 0x199D200 VA: 0x18199EC00
 	public LTDescr setTextAlpha() { }
 
-	// RVA: 0x19993E0 Offset: 0x19979E0 VA: 0x1819993E0
+	// RVA: 0x19996A0 Offset: 0x1997CA0 VA: 0x1819996A0
 	public LTDescr setAlphaVertex() { }
 
-	// RVA: 0x199A1D0 Offset: 0x19987D0 VA: 0x18199A1D0
+	// RVA: 0x199A490 Offset: 0x1998A90 VA: 0x18199A490
 	public LTDescr setColor() { }
 
-	// RVA: 0x19995F0 Offset: 0x1997BF0 VA: 0x1819995F0
+	// RVA: 0x19998B0 Offset: 0x1997EB0 VA: 0x1819998B0
 	public LTDescr setCallbackColor() { }
 
-	// RVA: 0x199EA10 Offset: 0x199D010 VA: 0x18199EA10
+	// RVA: 0x199ECD0 Offset: 0x199D2D0 VA: 0x18199ECD0
 	public LTDescr setTextColor() { }
 
-	// RVA: 0x1999810 Offset: 0x1997E10 VA: 0x181999810
+	// RVA: 0x1999AD0 Offset: 0x19980D0 VA: 0x181999AD0
 	public LTDescr setCanvasAlpha() { }
 
-	// RVA: 0x19999B0 Offset: 0x1997FB0 VA: 0x1819999B0
+	// RVA: 0x1999C70 Offset: 0x1998270 VA: 0x181999C70
 	public LTDescr setCanvasGroupAlpha() { }
 
-	// RVA: 0x19998E0 Offset: 0x1997EE0 VA: 0x1819998E0
+	// RVA: 0x1999BA0 Offset: 0x19981A0 VA: 0x181999BA0
 	public LTDescr setCanvasColor() { }
 
-	// RVA: 0x1999A80 Offset: 0x1998080 VA: 0x181999A80
+	// RVA: 0x1999D40 Offset: 0x1998340 VA: 0x181999D40
 	public LTDescr setCanvasMoveX() { }
 
-	// RVA: 0x1999B50 Offset: 0x1998150 VA: 0x181999B50
+	// RVA: 0x1999E10 Offset: 0x1998410 VA: 0x181999E10
 	public LTDescr setCanvasMoveY() { }
 
-	// RVA: 0x1999C20 Offset: 0x1998220 VA: 0x181999C20
+	// RVA: 0x1999EE0 Offset: 0x19984E0 VA: 0x181999EE0
 	public LTDescr setCanvasMoveZ() { }
 
-	// RVA: 0x1998D50 Offset: 0x1997350 VA: 0x181998D50
+	// RVA: 0x1999010 Offset: 0x1997610 VA: 0x181999010
 	private void initCanvasRotateAround() { }
 
-	// RVA: 0x1999F60 Offset: 0x1998560 VA: 0x181999F60
+	// RVA: 0x199A220 Offset: 0x1998820 VA: 0x18199A220
 	public LTDescr setCanvasRotateAround() { }
 
-	// RVA: 0x1999E90 Offset: 0x1998490 VA: 0x181999E90
+	// RVA: 0x199A150 Offset: 0x1998750 VA: 0x18199A150
 	public LTDescr setCanvasRotateAroundLocal() { }
 
-	// RVA: 0x1999DC0 Offset: 0x19983C0 VA: 0x181999DC0
+	// RVA: 0x199A080 Offset: 0x1998680 VA: 0x18199A080
 	public LTDescr setCanvasPlaySprite() { }
 
-	// RVA: 0x1999CF0 Offset: 0x19982F0 VA: 0x181999CF0
+	// RVA: 0x1999FB0 Offset: 0x19985B0 VA: 0x181999FB0
 	public LTDescr setCanvasMove() { }
 
-	// RVA: 0x199A030 Offset: 0x1998630 VA: 0x18199A030
+	// RVA: 0x199A2F0 Offset: 0x19988F0 VA: 0x18199A2F0
 	public LTDescr setCanvasScale() { }
 
-	// RVA: 0x199A100 Offset: 0x1998700 VA: 0x18199A100
+	// RVA: 0x199A3C0 Offset: 0x19989C0 VA: 0x18199A3C0
 	public LTDescr setCanvasSizeDelta() { }
 
-	// RVA: 0x1995390 Offset: 0x1993990 VA: 0x181995390
+	// RVA: 0x1995650 Offset: 0x1993C50 VA: 0x181995650
 	private void callback() { }
 
-	// RVA: 0x19996C0 Offset: 0x1997CC0 VA: 0x1819996C0
+	// RVA: 0x1999980 Offset: 0x1997F80 VA: 0x181999980
 	public LTDescr setCallback() { }
 
-	// RVA: 0x199EC30 Offset: 0x199D230 VA: 0x18199EC30
+	// RVA: 0x199EEF0 Offset: 0x199D4F0 VA: 0x18199EEF0
 	public LTDescr setValue3() { }
 
-	// RVA: 0x199D5C0 Offset: 0x199BBC0 VA: 0x18199D5C0
+	// RVA: 0x199D880 Offset: 0x199BE80 VA: 0x18199D880
 	public LTDescr setMove() { }
 
-	// RVA: 0x199D010 Offset: 0x199B610 VA: 0x18199D010
+	// RVA: 0x199D2D0 Offset: 0x199B8D0 VA: 0x18199D2D0
 	public LTDescr setMoveLocal() { }
 
-	// RVA: 0x199D280 Offset: 0x199B880 VA: 0x18199D280
+	// RVA: 0x199D540 Offset: 0x199BB40 VA: 0x18199D540
 	public LTDescr setMoveToTransform() { }
 
-	// RVA: 0x199E4C0 Offset: 0x199CAC0 VA: 0x18199E4C0
+	// RVA: 0x199E780 Offset: 0x199CD80 VA: 0x18199E780
 	public LTDescr setRotate() { }
 
-	// RVA: 0x199E180 Offset: 0x199C780 VA: 0x18199E180
+	// RVA: 0x199E440 Offset: 0x199CA40 VA: 0x18199E440
 	public LTDescr setRotateLocal() { }
 
-	// RVA: 0x199E810 Offset: 0x199CE10 VA: 0x18199E810
+	// RVA: 0x199EAD0 Offset: 0x199D0D0 VA: 0x18199EAD0
 	public LTDescr setScale() { }
 
-	// RVA: 0x199C8C0 Offset: 0x199AEC0 VA: 0x18199C8C0
+	// RVA: 0x199CB80 Offset: 0x199B180 VA: 0x18199CB80
 	public LTDescr setGUIMove() { }
 
-	// RVA: 0x199C7F0 Offset: 0x199ADF0 VA: 0x18199C7F0
+	// RVA: 0x199CAB0 Offset: 0x199B0B0 VA: 0x18199CAB0
 	public LTDescr setGUIMoveMargin() { }
 
-	// RVA: 0x199CA60 Offset: 0x199B060 VA: 0x18199CA60
+	// RVA: 0x199CD20 Offset: 0x199B320 VA: 0x18199CD20
 	public LTDescr setGUIScale() { }
 
-	// RVA: 0x199C720 Offset: 0x199AD20 VA: 0x18199C720
+	// RVA: 0x199C9E0 Offset: 0x199AFE0 VA: 0x18199C9E0
 	public LTDescr setGUIAlpha() { }
 
-	// RVA: 0x199C990 Offset: 0x199AF90 VA: 0x18199C990
+	// RVA: 0x199CC50 Offset: 0x199B250 VA: 0x18199CC50
 	public LTDescr setGUIRotate() { }
 
-	// RVA: 0x199A2B0 Offset: 0x19988B0 VA: 0x18199A2B0
+	// RVA: 0x199A570 Offset: 0x1998B70 VA: 0x18199A570
 	public LTDescr setDelayedSound() { }
 
-	// RVA: 0x1998F20 Offset: 0x1997520 VA: 0x181998F20
+	// RVA: 0x19991E0 Offset: 0x19977E0 VA: 0x1819991E0
 	private void init() { }
 
-	// RVA: 0x1998DB0 Offset: 0x19973B0 VA: 0x181998DB0
+	// RVA: 0x1999070 Offset: 0x1997670 VA: 0x181999070
 	private void initSpeed() { }
 
-	// RVA: 0x199FD10 Offset: 0x199E310 VA: 0x18199FD10
+	// RVA: 0x199FFD0 Offset: 0x199E5D0 VA: 0x18199FFD0
 	public LTDescr updateNow() { }
 
-	// RVA: 0x199F820 Offset: 0x199DE20 VA: 0x18199F820
+	// RVA: 0x199FAE0 Offset: 0x199E0E0 VA: 0x18199FAE0
 	public bool updateInternal() { }
 
-	// RVA: 0x1995270 Offset: 0x1993870 VA: 0x181995270
+	// RVA: 0x1995530 Offset: 0x1993B30 VA: 0x181995530
 	public void callOnCompletes() { }
 
-	// RVA: 0x199C370 Offset: 0x199A970 VA: 0x18199C370
+	// RVA: 0x199C630 Offset: 0x199AC30 VA: 0x18199C630
 	public LTDescr setFromColor(Color col) { }
 
-	// RVA: 0x1994E20 Offset: 0x1993420 VA: 0x181994E20
+	// RVA: 0x19950E0 Offset: 0x19936E0 VA: 0x1819950E0
 	private static void alphaRecursive(Transform transform, float val, bool useRecursion = True) { }
 
-	// RVA: 0x1995780 Offset: 0x1993D80 VA: 0x181995780
+	// RVA: 0x1995A40 Offset: 0x1994040 VA: 0x181995A40
 	private static void colorRecursive(Transform transform, Color toColor, bool useRecursion = True) { }
 
-	// RVA: 0x1994B40 Offset: 0x1993140 VA: 0x181994B40
+	// RVA: 0x1994E00 Offset: 0x1993400 VA: 0x181994E00
 	private static void alphaRecursive(RectTransform rectTransform, float val, int recursiveLevel = 0) { }
 
-	// RVA: 0x19948A0 Offset: 0x1992EA0 VA: 0x1819948A0
+	// RVA: 0x1994B60 Offset: 0x1993160 VA: 0x181994B60
 	private static void alphaRecursiveSprite(Transform transform, float val) { }
 
-	// RVA: 0x19954E0 Offset: 0x1993AE0 VA: 0x1819954E0
+	// RVA: 0x19957A0 Offset: 0x1993DA0 VA: 0x1819957A0
 	private static void colorRecursiveSprite(Transform transform, Color toColor) { }
 
-	// RVA: 0x1995A70 Offset: 0x1994070 VA: 0x181995A70
+	// RVA: 0x1995D30 Offset: 0x1994330 VA: 0x181995D30
 	private static void colorRecursive(RectTransform rectTransform, Color toColor) { }
 
-	// RVA: 0x199EDB0 Offset: 0x199D3B0 VA: 0x18199EDB0
+	// RVA: 0x199F070 Offset: 0x199D670 VA: 0x18199F070
 	private static void textAlphaChildrenRecursive(Transform trans, float val, bool useRecursion = True) { }
 
-	// RVA: 0x199F020 Offset: 0x199D620 VA: 0x18199F020
+	// RVA: 0x199F2E0 Offset: 0x199D8E0 VA: 0x18199F2E0
 	private static void textAlphaRecursive(Transform trans, float val, bool useRecursion = True) { }
 
-	// RVA: 0x199F2D0 Offset: 0x199D8D0 VA: 0x18199F2D0
+	// RVA: 0x199F590 Offset: 0x199DB90 VA: 0x18199F590
 	private static void textColorRecursive(Transform trans, Color toColor) { }
 
-	// RVA: 0x199F500 Offset: 0x199DB00 VA: 0x18199F500
+	// RVA: 0x199F7C0 Offset: 0x199DDC0 VA: 0x18199F7C0
 	private static Color tweenColor(LTDescr tween, float val) { }
 
-	// RVA: 0x1999120 Offset: 0x1997720 VA: 0x181999120
+	// RVA: 0x19993E0 Offset: 0x19979E0 VA: 0x1819993E0
 	public LTDescr pause() { }
 
-	// RVA: 0x19993D0 Offset: 0x19979D0 VA: 0x1819993D0
+	// RVA: 0x1999690 Offset: 0x1997C90 VA: 0x181999690
 	public LTDescr resume() { }
 
-	// RVA: 0x19995C0 Offset: 0x1997BC0 VA: 0x1819995C0
+	// RVA: 0x1999880 Offset: 0x1997E80 VA: 0x181999880
 	public LTDescr setAxis(Vector3 axis) { }
 
-	// RVA: 0x199A2A0 Offset: 0x19988A0 VA: 0x18199A2A0
+	// RVA: 0x199A560 Offset: 0x1998B60 VA: 0x18199A560
 	public LTDescr setDelay(float delay) { }
 
-	// RVA: 0x199B9E0 Offset: 0x1999FE0 VA: 0x18199B9E0
+	// RVA: 0x199BCA0 Offset: 0x199A2A0 VA: 0x18199BCA0
 	public LTDescr setEase(LeanTweenType easeType) { }
 
-	// RVA: 0x199B0B0 Offset: 0x19996B0 VA: 0x18199B0B0
+	// RVA: 0x199B370 Offset: 0x1999970 VA: 0x18199B370
 	public LTDescr setEaseLinear() { }
 
-	// RVA: 0x199B8A0 Offset: 0x1999EA0 VA: 0x18199B8A0
+	// RVA: 0x199BB60 Offset: 0x199A160 VA: 0x18199BB60
 	public LTDescr setEaseSpring() { }
 
-	// RVA: 0x199AE70 Offset: 0x1999470 VA: 0x18199AE70
+	// RVA: 0x199B130 Offset: 0x1999730 VA: 0x18199B130
 	public LTDescr setEaseInQuad() { }
 
-	// RVA: 0x199B4A0 Offset: 0x1999AA0 VA: 0x18199B4A0
+	// RVA: 0x199B760 Offset: 0x1999D60 VA: 0x18199B760
 	public LTDescr setEaseOutQuad() { }
 
-	// RVA: 0x199AC30 Offset: 0x1999230 VA: 0x18199AC30
+	// RVA: 0x199AEF0 Offset: 0x19994F0 VA: 0x18199AEF0
 	public LTDescr setEaseInOutQuad() { }
 
-	// RVA: 0x199A720 Offset: 0x1998D20 VA: 0x18199A720
+	// RVA: 0x199A9E0 Offset: 0x1998FE0 VA: 0x18199A9E0
 	public LTDescr setEaseInCubic() { }
 
-	// RVA: 0x199B2F0 Offset: 0x19998F0 VA: 0x18199B2F0
+	// RVA: 0x199B5B0 Offset: 0x1999BB0 VA: 0x18199B5B0
 	public LTDescr setEaseOutCubic() { }
 
-	// RVA: 0x199AA80 Offset: 0x1999080 VA: 0x18199AA80
+	// RVA: 0x199AD40 Offset: 0x1999340 VA: 0x18199AD40
 	public LTDescr setEaseInOutCubic() { }
 
-	// RVA: 0x199AF00 Offset: 0x1999500 VA: 0x18199AF00
+	// RVA: 0x199B1C0 Offset: 0x19997C0 VA: 0x18199B1C0
 	public LTDescr setEaseInQuart() { }
 
-	// RVA: 0x199B530 Offset: 0x1999B30 VA: 0x18199B530
+	// RVA: 0x199B7F0 Offset: 0x1999DF0 VA: 0x18199B7F0
 	public LTDescr setEaseOutQuart() { }
 
-	// RVA: 0x199ACC0 Offset: 0x19992C0 VA: 0x18199ACC0
+	// RVA: 0x199AF80 Offset: 0x1999580 VA: 0x18199AF80
 	public LTDescr setEaseInOutQuart() { }
 
-	// RVA: 0x199AF90 Offset: 0x1999590 VA: 0x18199AF90
+	// RVA: 0x199B250 Offset: 0x1999850 VA: 0x18199B250
 	public LTDescr setEaseInQuint() { }
 
-	// RVA: 0x199B5C0 Offset: 0x1999BC0 VA: 0x18199B5C0
+	// RVA: 0x199B880 Offset: 0x1999E80 VA: 0x18199B880
 	public LTDescr setEaseOutQuint() { }
 
-	// RVA: 0x199AD50 Offset: 0x1999350 VA: 0x18199AD50
+	// RVA: 0x199B010 Offset: 0x1999610 VA: 0x18199B010
 	public LTDescr setEaseInOutQuint() { }
 
-	// RVA: 0x199B020 Offset: 0x1999620 VA: 0x18199B020
+	// RVA: 0x199B2E0 Offset: 0x19998E0 VA: 0x18199B2E0
 	public LTDescr setEaseInSine() { }
 
-	// RVA: 0x199B650 Offset: 0x1999C50 VA: 0x18199B650
+	// RVA: 0x199B910 Offset: 0x1999F10 VA: 0x18199B910
 	public LTDescr setEaseOutSine() { }
 
-	// RVA: 0x199ADE0 Offset: 0x19993E0 VA: 0x18199ADE0
+	// RVA: 0x199B0A0 Offset: 0x19996A0 VA: 0x18199B0A0
 	public LTDescr setEaseInOutSine() { }
 
-	// RVA: 0x199A840 Offset: 0x1998E40 VA: 0x18199A840
+	// RVA: 0x199AB00 Offset: 0x1999100 VA: 0x18199AB00
 	public LTDescr setEaseInExpo() { }
 
-	// RVA: 0x199B410 Offset: 0x1999A10 VA: 0x18199B410
+	// RVA: 0x199B6D0 Offset: 0x1999CD0 VA: 0x18199B6D0
 	public LTDescr setEaseOutExpo() { }
 
-	// RVA: 0x199ABA0 Offset: 0x19991A0 VA: 0x18199ABA0
+	// RVA: 0x199AE60 Offset: 0x1999460 VA: 0x18199AE60
 	public LTDescr setEaseInOutExpo() { }
 
-	// RVA: 0x199A690 Offset: 0x1998C90 VA: 0x18199A690
+	// RVA: 0x199A950 Offset: 0x1998F50 VA: 0x18199A950
 	public LTDescr setEaseInCirc() { }
 
-	// RVA: 0x199B260 Offset: 0x1999860 VA: 0x18199B260
+	// RVA: 0x199B520 Offset: 0x1999B20 VA: 0x18199B520
 	public LTDescr setEaseOutCirc() { }
 
-	// RVA: 0x199A9F0 Offset: 0x1998FF0 VA: 0x18199A9F0
+	// RVA: 0x199ACB0 Offset: 0x19992B0 VA: 0x18199ACB0
 	public LTDescr setEaseInOutCirc() { }
 
-	// RVA: 0x199A600 Offset: 0x1998C00 VA: 0x18199A600
+	// RVA: 0x199A8C0 Offset: 0x1998EC0 VA: 0x18199A8C0
 	public LTDescr setEaseInBounce() { }
 
-	// RVA: 0x199B1D0 Offset: 0x19997D0 VA: 0x18199B1D0
+	// RVA: 0x199B490 Offset: 0x1999A90 VA: 0x18199B490
 	public LTDescr setEaseOutBounce() { }
 
-	// RVA: 0x199A960 Offset: 0x1998F60 VA: 0x18199A960
+	// RVA: 0x199AC20 Offset: 0x1999220 VA: 0x18199AC20
 	public LTDescr setEaseInOutBounce() { }
 
-	// RVA: 0x199A570 Offset: 0x1998B70 VA: 0x18199A570
+	// RVA: 0x199A830 Offset: 0x1998E30 VA: 0x18199A830
 	public LTDescr setEaseInBack() { }
 
-	// RVA: 0x199B140 Offset: 0x1999740 VA: 0x18199B140
+	// RVA: 0x199B400 Offset: 0x1999A00 VA: 0x18199B400
 	public LTDescr setEaseOutBack() { }
 
-	// RVA: 0x199A8D0 Offset: 0x1998ED0 VA: 0x18199A8D0
+	// RVA: 0x199AB90 Offset: 0x1999190 VA: 0x18199AB90
 	public LTDescr setEaseInOutBack() { }
 
-	// RVA: 0x199A7B0 Offset: 0x1998DB0 VA: 0x18199A7B0
+	// RVA: 0x199AA70 Offset: 0x1999070 VA: 0x18199AA70
 	public LTDescr setEaseInElastic() { }
 
-	// RVA: 0x199B380 Offset: 0x1999980 VA: 0x18199B380
+	// RVA: 0x199B640 Offset: 0x1999C40 VA: 0x18199B640
 	public LTDescr setEaseOutElastic() { }
 
-	// RVA: 0x199AB10 Offset: 0x1999110 VA: 0x18199AB10
+	// RVA: 0x199ADD0 Offset: 0x19993D0 VA: 0x18199ADD0
 	public LTDescr setEaseInOutElastic() { }
 
-	// RVA: 0x199B6E0 Offset: 0x1999CE0 VA: 0x18199B6E0
+	// RVA: 0x199B9A0 Offset: 0x1999FA0 VA: 0x18199B9A0
 	public LTDescr setEasePunch() { }
 
-	// RVA: 0x199B7C0 Offset: 0x1999DC0 VA: 0x18199B7C0
+	// RVA: 0x199BA80 Offset: 0x199A080 VA: 0x18199BA80
 	public LTDescr setEaseShake() { }
 
-	// RVA: 0x199F6C0 Offset: 0x199DCC0 VA: 0x18199F6C0
+	// RVA: 0x199F980 Offset: 0x199DF80 VA: 0x18199F980
 	private Vector3 tweenOnCurve() { }
 
-	// RVA: 0x1997190 Offset: 0x1995790 VA: 0x181997190
+	// RVA: 0x1997450 Offset: 0x1995A50 VA: 0x181997450
 	private Vector3 easeInOutQuad() { }
 
-	// RVA: 0x1997790 Offset: 0x1995D90 VA: 0x181997790
+	// RVA: 0x1997A50 Offset: 0x1996050 VA: 0x181997A50
 	private Vector3 easeInQuad() { }
 
-	// RVA: 0x1998630 Offset: 0x1996C30 VA: 0x181998630
+	// RVA: 0x19988F0 Offset: 0x1996EF0 VA: 0x1819988F0
 	private Vector3 easeOutQuad() { }
 
-	// RVA: 0x1997C30 Offset: 0x1996230 VA: 0x181997C30
+	// RVA: 0x1997EF0 Offset: 0x19964F0 VA: 0x181997EF0
 	private Vector3 easeLinear() { }
 
-	// RVA: 0x1998B20 Offset: 0x1997120 VA: 0x181998B20
+	// RVA: 0x1998DE0 Offset: 0x19973E0 VA: 0x181998DE0
 	private Vector3 easeSpring() { }
 
-	// RVA: 0x1996190 Offset: 0x1994790 VA: 0x181996190
+	// RVA: 0x1996450 Offset: 0x1994A50 VA: 0x181996450
 	private Vector3 easeInCubic() { }
 
-	// RVA: 0x1998250 Offset: 0x1996850 VA: 0x181998250
+	// RVA: 0x1998510 Offset: 0x1996B10 VA: 0x181998510
 	private Vector3 easeOutCubic() { }
 
-	// RVA: 0x1996C60 Offset: 0x1995260 VA: 0x181996C60
+	// RVA: 0x1996F20 Offset: 0x1995520 VA: 0x181996F20
 	private Vector3 easeInOutCubic() { }
 
-	// RVA: 0x1997890 Offset: 0x1995E90 VA: 0x181997890
+	// RVA: 0x1997B50 Offset: 0x1996150 VA: 0x181997B50
 	private Vector3 easeInQuart() { }
 
-	// RVA: 0x1998760 Offset: 0x1996D60 VA: 0x181998760
+	// RVA: 0x1998A20 Offset: 0x1997020 VA: 0x181998A20
 	private Vector3 easeOutQuart() { }
 
-	// RVA: 0x19972C0 Offset: 0x19958C0 VA: 0x1819972C0
+	// RVA: 0x1997580 Offset: 0x1995B80 VA: 0x181997580
 	private Vector3 easeInOutQuart() { }
 
-	// RVA: 0x19979B0 Offset: 0x1995FB0 VA: 0x1819979B0
+	// RVA: 0x1997C70 Offset: 0x1996270 VA: 0x181997C70
 	private Vector3 easeInQuint() { }
 
-	// RVA: 0x1998890 Offset: 0x1996E90 VA: 0x181998890
+	// RVA: 0x1998B50 Offset: 0x1997150 VA: 0x181998B50
 	private Vector3 easeOutQuint() { }
 
-	// RVA: 0x19974F0 Offset: 0x1995AF0 VA: 0x1819974F0
+	// RVA: 0x19977B0 Offset: 0x1995DB0 VA: 0x1819977B0
 	private Vector3 easeInOutQuint() { }
 
-	// RVA: 0x1997AC0 Offset: 0x19960C0 VA: 0x181997AC0
+	// RVA: 0x1997D80 Offset: 0x1996380 VA: 0x181997D80
 	private Vector3 easeInSine() { }
 
-	// RVA: 0x19989C0 Offset: 0x1996FC0 VA: 0x1819989C0
+	// RVA: 0x1998C80 Offset: 0x1997280 VA: 0x181998C80
 	private Vector3 easeOutSine() { }
 
-	// RVA: 0x1997650 Offset: 0x1995C50 VA: 0x181997650
+	// RVA: 0x1997910 Offset: 0x1995F10 VA: 0x181997910
 	private Vector3 easeInOutSine() { }
 
-	// RVA: 0x1996410 Offset: 0x1994A10 VA: 0x181996410
+	// RVA: 0x19966D0 Offset: 0x1994CD0 VA: 0x1819966D0
 	private Vector3 easeInExpo() { }
 
-	// RVA: 0x19984F0 Offset: 0x1996AF0 VA: 0x1819984F0
+	// RVA: 0x19987B0 Offset: 0x1996DB0 VA: 0x1819987B0
 	private Vector3 easeOutExpo() { }
 
-	// RVA: 0x1996F30 Offset: 0x1995530 VA: 0x181996F30
+	// RVA: 0x19971F0 Offset: 0x19957F0 VA: 0x1819971F0
 	private Vector3 easeInOutExpo() { }
 
-	// RVA: 0x1996050 Offset: 0x1994650 VA: 0x181996050
+	// RVA: 0x1996310 Offset: 0x1994910 VA: 0x181996310
 	private Vector3 easeInCirc() { }
 
-	// RVA: 0x1998100 Offset: 0x1996700 VA: 0x181998100
+	// RVA: 0x19983C0 Offset: 0x19969C0 VA: 0x1819983C0
 	private Vector3 easeOutCirc() { }
 
-	// RVA: 0x1996AA0 Offset: 0x19950A0 VA: 0x181996AA0
+	// RVA: 0x1996D60 Offset: 0x1995360 VA: 0x181996D60
 	private Vector3 easeInOutCirc() { }
 
-	// RVA: 0x1995E90 Offset: 0x1994490 VA: 0x181995E90
+	// RVA: 0x1996150 Offset: 0x1994750 VA: 0x181996150
 	private Vector3 easeInBounce() { }
 
-	// RVA: 0x1997E70 Offset: 0x1996470 VA: 0x181997E70
+	// RVA: 0x1998130 Offset: 0x1996730 VA: 0x181998130
 	private Vector3 easeOutBounce() { }
 
-	// RVA: 0x19967B0 Offset: 0x1994DB0 VA: 0x1819967B0
+	// RVA: 0x1996A70 Offset: 0x1995070 VA: 0x181996A70
 	private Vector3 easeInOutBounce() { }
 
-	// RVA: 0x1995CE0 Offset: 0x19942E0 VA: 0x181995CE0
+	// RVA: 0x1995FA0 Offset: 0x19945A0 VA: 0x181995FA0
 	private Vector3 easeInBack() { }
 
-	// RVA: 0x1997D10 Offset: 0x1996310 VA: 0x181997D10
+	// RVA: 0x1997FD0 Offset: 0x19965D0 VA: 0x181997FD0
 	private Vector3 easeOutBack() { }
 
-	// RVA: 0x1996550 Offset: 0x1994B50 VA: 0x181996550
+	// RVA: 0x1996810 Offset: 0x1994E10 VA: 0x181996810
 	private Vector3 easeInOutBack() { }
 
-	// RVA: 0x1996290 Offset: 0x1994890 VA: 0x181996290
+	// RVA: 0x1996550 Offset: 0x1994B50 VA: 0x181996550
 	private Vector3 easeInElastic() { }
 
-	// RVA: 0x1998370 Offset: 0x1996970 VA: 0x181998370
+	// RVA: 0x1998630 Offset: 0x1996C30 VA: 0x181998630
 	private Vector3 easeOutElastic() { }
 
-	// RVA: 0x1996DB0 Offset: 0x19953B0 VA: 0x181996DB0
+	// RVA: 0x1997070 Offset: 0x1995670 VA: 0x181997070
 	private Vector3 easeInOutElastic() { }
 
-	// RVA: 0x199DE00 Offset: 0x199C400 VA: 0x18199DE00
+	// RVA: 0x199E0C0 Offset: 0x199C6C0 VA: 0x18199E0C0
 	public LTDescr setOvershoot(float overshoot) { }
 
-	// RVA: 0x199DE50 Offset: 0x199C450 VA: 0x18199DE50
+	// RVA: 0x199E110 Offset: 0x199C710 VA: 0x18199E110
 	public LTDescr setPeriod(float period) { }
 
-	// RVA: 0x199E800 Offset: 0x199CE00 VA: 0x18199E800
+	// RVA: 0x199EAC0 Offset: 0x199D0C0 VA: 0x18199EAC0
 	public LTDescr setScale(float scale) { }
 
-	// RVA: 0x199B930 Offset: 0x1999F30 VA: 0x18199B930
+	// RVA: 0x199BBF0 Offset: 0x199A1F0 VA: 0x18199BBF0
 	public LTDescr setEase(AnimationCurve easeCurve) { }
 
-	// RVA: 0x199EB00 Offset: 0x199D100 VA: 0x18199EB00
+	// RVA: 0x199EDC0 Offset: 0x199D3C0 VA: 0x18199EDC0
 	public LTDescr setTo(Vector3 to) { }
 
-	// RVA: 0x199EBE0 Offset: 0x199D1E0 VA: 0x18199EBE0
+	// RVA: 0x199EEA0 Offset: 0x199D4A0 VA: 0x18199EEA0
 	public LTDescr setTo(Transform to) { }
 
-	// RVA: 0x199C460 Offset: 0x199AA60 VA: 0x18199C460
+	// RVA: 0x199C720 Offset: 0x199AD20 VA: 0x18199C720
 	public LTDescr setFrom(Vector3 from) { }
 
-	// RVA: 0x199C5B0 Offset: 0x199ABB0 VA: 0x18199C5B0
+	// RVA: 0x199C870 Offset: 0x199AE70 VA: 0x18199C870
 	public LTDescr setFrom(float from) { }
 
-	// RVA: 0x199A390 Offset: 0x1998990 VA: 0x18199A390
+	// RVA: 0x199A650 Offset: 0x1998C50 VA: 0x18199A650
 	public LTDescr setDiff(Vector3 diff) { }
 
-	// RVA: 0x199CB30 Offset: 0x199B130 VA: 0x18199CB30
+	// RVA: 0x199CDF0 Offset: 0x199B3F0 VA: 0x18199CDF0
 	public LTDescr setHasInitialized(bool has) { }
 
-	// RVA: 0x199CB40 Offset: 0x199B140 VA: 0x18199CB40
+	// RVA: 0x199CE00 Offset: 0x199B400 VA: 0x18199CE00
 	public LTDescr setId(uint id, uint global_counter) { }
 
-	// RVA: 0x199DE10 Offset: 0x199C410 VA: 0x18199DE10
+	// RVA: 0x199E0D0 Offset: 0x199C6D0 VA: 0x18199E0D0
 	public LTDescr setPassed(float passed) { }
 
-	// RVA: 0x199EAE0 Offset: 0x199D0E0 VA: 0x18199EAE0
+	// RVA: 0x199EDA0 Offset: 0x199D3A0 VA: 0x18199EDA0
 	public LTDescr setTime(float time) { }
 
-	// RVA: 0x199E8E0 Offset: 0x199CEE0 VA: 0x18199E8E0
+	// RVA: 0x199EBA0 Offset: 0x199D1A0 VA: 0x18199EBA0
 	public LTDescr setSpeed(float speed) { }
 
-	// RVA: 0x199DFA0 Offset: 0x199C5A0 VA: 0x18199DFA0
+	// RVA: 0x199E260 Offset: 0x199C860 VA: 0x18199E260
 	public LTDescr setRepeat(int repeat) { }
 
-	// RVA: 0x199CBF0 Offset: 0x199B1F0 VA: 0x18199CBF0
+	// RVA: 0x199CEB0 Offset: 0x199B4B0 VA: 0x18199CEB0
 	public LTDescr setLoopType(LeanTweenType loopType) { }
 
-	// RVA: 0x199CB50 Offset: 0x199B150 VA: 0x18199CB50
+	// RVA: 0x199CE10 Offset: 0x199B410 VA: 0x18199CE10
 	public LTDescr setUseEstimatedTime(bool useEstimatedTime) { }
 
-	// RVA: 0x199CB50 Offset: 0x199B150 VA: 0x18199CB50
+	// RVA: 0x199CE10 Offset: 0x199B410 VA: 0x18199CE10
 	public LTDescr setIgnoreTimeScale(bool useUnScaledTime) { }
 
-	// RVA: 0x199EC10 Offset: 0x199D210 VA: 0x18199EC10
+	// RVA: 0x199EED0 Offset: 0x199D4D0 VA: 0x18199EED0
 	public LTDescr setUseFrames(bool useFrames) { }
 
-	// RVA: 0x199EC20 Offset: 0x199D220 VA: 0x18199EC20
+	// RVA: 0x199EEE0 Offset: 0x199D4E0 VA: 0x18199EEE0
 	public LTDescr setUseManualTime(bool useManualTime) { }
 
-	// RVA: 0x199CB80 Offset: 0x199B180 VA: 0x18199CB80
+	// RVA: 0x199CE40 Offset: 0x199B440 VA: 0x18199CE40
 	public LTDescr setLoopCount(int loopCount) { }
 
-	// RVA: 0x199CBA0 Offset: 0x199B1A0 VA: 0x18199CBA0
+	// RVA: 0x199CE60 Offset: 0x199B460 VA: 0x18199CE60
 	public LTDescr setLoopOnce() { }
 
-	// RVA: 0x199CB60 Offset: 0x199B160 VA: 0x18199CB60
+	// RVA: 0x199CE20 Offset: 0x199B420 VA: 0x18199CE20
 	public LTDescr setLoopClamp() { }
 
-	// RVA: 0xE721E0 Offset: 0xE707E0 VA: 0x180E721E0
+	// RVA: 0xE724A0 Offset: 0xE70AA0 VA: 0x180E724A0
 	public LTDescr setLoopClamp(int loops) { }
 
-	// RVA: 0x199CBB0 Offset: 0x199B1B0 VA: 0x18199CBB0
+	// RVA: 0x199CE70 Offset: 0x199B470 VA: 0x18199CE70
 	public LTDescr setLoopPingPong() { }
 
-	// RVA: 0x199CBD0 Offset: 0x199B1D0 VA: 0x18199CBD0
+	// RVA: 0x199CE90 Offset: 0x199B490 VA: 0x18199CE90
 	public LTDescr setLoopPingPong(int loops) { }
 
-	// RVA: 0x199D760 Offset: 0x199BD60 VA: 0x18199D760
+	// RVA: 0x199DA20 Offset: 0x199C020 VA: 0x18199DA20
 	public LTDescr setOnComplete(Action onComplete) { }
 
-	// RVA: 0x199D7A0 Offset: 0x199BDA0 VA: 0x18199D7A0
+	// RVA: 0x199DA60 Offset: 0x199C060 VA: 0x18199DA60
 	public LTDescr setOnComplete(Action<object> onComplete) { }
 
-	// RVA: 0x199D6F0 Offset: 0x199BCF0 VA: 0x18199D6F0
+	// RVA: 0x199D9B0 Offset: 0x199BFB0 VA: 0x18199D9B0
 	public LTDescr setOnComplete(Action<object> onComplete, object onCompleteParam) { }
 
-	// RVA: 0x199D6B0 Offset: 0x199BCB0 VA: 0x18199D6B0
+	// RVA: 0x199D970 Offset: 0x199BF70 VA: 0x18199D970
 	public LTDescr setOnCompleteParam(object onCompleteParam) { }
 
-	// RVA: 0x199DA50 Offset: 0x199C050 VA: 0x18199DA50
+	// RVA: 0x199DD10 Offset: 0x199C310 VA: 0x18199DD10
 	public LTDescr setOnUpdate(Action<float> onUpdate) { }
 
-	// RVA: 0x199D920 Offset: 0x199BF20 VA: 0x18199D920
+	// RVA: 0x199DBE0 Offset: 0x199C1E0 VA: 0x18199DBE0
 	public LTDescr setOnUpdateRatio(Action<float, float> onUpdate) { }
 
-	// RVA: 0x199D8A0 Offset: 0x199BEA0 VA: 0x18199D8A0
+	// RVA: 0x199DB60 Offset: 0x199C160 VA: 0x18199DB60
 	public LTDescr setOnUpdateObject(Action<float, object> onUpdate) { }
 
-	// RVA: 0x199D960 Offset: 0x199BF60 VA: 0x18199D960
+	// RVA: 0x199DC20 Offset: 0x199C220 VA: 0x18199DC20
 	public LTDescr setOnUpdateVector2(Action<Vector2> onUpdate) { }
 
-	// RVA: 0x199D9A0 Offset: 0x199BFA0 VA: 0x18199D9A0
+	// RVA: 0x199DC60 Offset: 0x199C260 VA: 0x18199DC60
 	public LTDescr setOnUpdateVector3(Action<Vector3> onUpdate) { }
 
-	// RVA: 0x199D820 Offset: 0x199BE20 VA: 0x18199D820
+	// RVA: 0x199DAE0 Offset: 0x199C0E0 VA: 0x18199DAE0
 	public LTDescr setOnUpdateColor(Action<Color> onUpdate) { }
 
-	// RVA: 0x199D860 Offset: 0x199BE60 VA: 0x18199D860
+	// RVA: 0x199DB20 Offset: 0x199C120 VA: 0x18199DB20
 	public LTDescr setOnUpdateColor(Action<Color, object> onUpdate) { }
 
-	// RVA: 0x199D820 Offset: 0x199BE20 VA: 0x18199D820
+	// RVA: 0x199DAE0 Offset: 0x199C0E0 VA: 0x18199DAE0
 	public LTDescr setOnUpdate(Action<Color> onUpdate) { }
 
-	// RVA: 0x199D860 Offset: 0x199BE60 VA: 0x18199D860
+	// RVA: 0x199DB20 Offset: 0x199C120 VA: 0x18199DB20
 	public LTDescr setOnUpdate(Action<Color, object> onUpdate) { }
 
-	// RVA: 0x199DA90 Offset: 0x199C090 VA: 0x18199DA90
+	// RVA: 0x199DD50 Offset: 0x199C350 VA: 0x18199DD50
 	public LTDescr setOnUpdate(Action<float, object> onUpdate, object onUpdateParam) { }
 
-	// RVA: 0x199D9E0 Offset: 0x199BFE0 VA: 0x18199D9E0
+	// RVA: 0x199DCA0 Offset: 0x199C2A0 VA: 0x18199DCA0
 	public LTDescr setOnUpdate(Action<Vector3, object> onUpdate, object onUpdateParam) { }
 
-	// RVA: 0x199DB00 Offset: 0x199C100 VA: 0x18199DB00
+	// RVA: 0x199DDC0 Offset: 0x199C3C0 VA: 0x18199DDC0
 	public LTDescr setOnUpdate(Action<Vector2> onUpdate, object onUpdateParam) { }
 
-	// RVA: 0x199DB70 Offset: 0x199C170 VA: 0x18199DB70
+	// RVA: 0x199DE30 Offset: 0x199C430 VA: 0x18199DE30
 	public LTDescr setOnUpdate(Action<Vector3> onUpdate, object onUpdateParam) { }
 
-	// RVA: 0x199D8E0 Offset: 0x199BEE0 VA: 0x18199D8E0
+	// RVA: 0x199DBA0 Offset: 0x199C1A0 VA: 0x18199DBA0
 	public LTDescr setOnUpdateParam(object onUpdateParam) { }
 
-	// RVA: 0x199DD10 Offset: 0x199C310 VA: 0x18199DD10
+	// RVA: 0x199DFD0 Offset: 0x199C5D0 VA: 0x18199DFD0
 	public LTDescr setOrientToPath(bool doesOrient) { }
 
-	// RVA: 0x199DBE0 Offset: 0x199C1E0 VA: 0x18199DBE0
+	// RVA: 0x199DEA0 Offset: 0x199C4A0 VA: 0x18199DEA0
 	public LTDescr setOrientToPath2d(bool doesOrient2d) { }
 
-	// RVA: 0x199DE90 Offset: 0x199C490 VA: 0x18199DE90
+	// RVA: 0x199E150 Offset: 0x199C750 VA: 0x18199E150
 	public LTDescr setRect(LTRect rect) { }
 
-	// RVA: 0x199DEF0 Offset: 0x199C4F0 VA: 0x18199DEF0
+	// RVA: 0x199E1B0 Offset: 0x199C7B0 VA: 0x18199E1B0
 	public LTDescr setRect(Rect rect) { }
 
-	// RVA: 0x199DE20 Offset: 0x199C420 VA: 0x18199DE20
+	// RVA: 0x199E0E0 Offset: 0x199C6E0 VA: 0x18199E0E0
 	public LTDescr setPath(LTBezierPath path) { }
 
-	// RVA: 0x199DE60 Offset: 0x199C460 VA: 0x18199DE60
+	// RVA: 0x199E120 Offset: 0x199C720 VA: 0x18199E120
 	public LTDescr setPoint(Vector3 point) { }
 
-	// RVA: 0x199A380 Offset: 0x1998980 VA: 0x18199A380
+	// RVA: 0x199A640 Offset: 0x1998C40 VA: 0x18199A640
 	public LTDescr setDestroyOnComplete(bool doesDestroy) { }
 
-	// RVA: 0x1999580 Offset: 0x1997B80 VA: 0x181999580
+	// RVA: 0x1999840 Offset: 0x1997E40 VA: 0x181999840
 	public LTDescr setAudio(object audio) { }
 
-	// RVA: 0x199D690 Offset: 0x199BC90 VA: 0x18199D690
+	// RVA: 0x199D950 Offset: 0x199BF50 VA: 0x18199D950
 	public LTDescr setOnCompleteOnRepeat(bool isOn) { }
 
-	// RVA: 0x199D6A0 Offset: 0x199BCA0 VA: 0x18199D6A0
+	// RVA: 0x199D960 Offset: 0x199BF60 VA: 0x18199D960
 	public LTDescr setOnCompleteOnStart(bool isOn) { }
 
-	// RVA: 0x199DEC0 Offset: 0x199C4C0 VA: 0x18199DEC0
+	// RVA: 0x199E180 Offset: 0x199C780 VA: 0x18199E180
 	public LTDescr setRect(RectTransform rect) { }
 
-	// RVA: 0x199E910 Offset: 0x199CF10 VA: 0x18199E910
+	// RVA: 0x199EBD0 Offset: 0x199D1D0 VA: 0x18199EBD0
 	public LTDescr setSprites(Sprite[] sprites) { }
 
-	// RVA: 0x199C340 Offset: 0x199A940 VA: 0x18199C340
+	// RVA: 0x199C600 Offset: 0x199AC00 VA: 0x18199C600
 	public LTDescr setFrameRate(float frameRate) { }
 
-	// RVA: 0x199D7E0 Offset: 0x199BDE0 VA: 0x18199D7E0
+	// RVA: 0x199DAA0 Offset: 0x199C0A0 VA: 0x18199DAA0
 	public LTDescr setOnStart(Action onStart) { }
 
-	// RVA: 0x199A3B0 Offset: 0x19989B0 VA: 0x18199A3B0
+	// RVA: 0x199A670 Offset: 0x1998C70 VA: 0x18199A670
 	public LTDescr setDirection(float direction) { }
 
-	// RVA: 0x199DF90 Offset: 0x199C590 VA: 0x18199DF90
+	// RVA: 0x199E250 Offset: 0x199C850 VA: 0x18199E250
 	public LTDescr setRecursive(bool useRecursion) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992CF0 Offset: 0x19912F0 VA: 0x181992CF0
+	// RVA: 0x1992FB0 Offset: 0x19915B0 VA: 0x181992FB0
 	private void <setMoveX>b__71_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992D20 Offset: 0x1991320 VA: 0x181992D20
+	// RVA: 0x1992FE0 Offset: 0x19915E0 VA: 0x181992FE0
 	private void <setMoveX>b__71_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992E10 Offset: 0x1991410 VA: 0x181992E10
+	// RVA: 0x19930D0 Offset: 0x19916D0 VA: 0x1819930D0
 	private void <setMoveY>b__72_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992E50 Offset: 0x1991450 VA: 0x181992E50
+	// RVA: 0x1993110 Offset: 0x1991710 VA: 0x181993110
 	private void <setMoveY>b__72_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992F50 Offset: 0x1991550 VA: 0x181992F50
+	// RVA: 0x1993210 Offset: 0x1991810 VA: 0x181993210
 	private void <setMoveZ>b__73_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992F90 Offset: 0x1991590 VA: 0x181992F90
+	// RVA: 0x1993250 Offset: 0x1991850 VA: 0x181993250
 	private void <setMoveZ>b__73_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19924D0 Offset: 0x1990AD0 VA: 0x1819924D0
+	// RVA: 0x1992790 Offset: 0x1990D90 VA: 0x181992790
 	private void <setMoveLocalX>b__74_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992500 Offset: 0x1990B00 VA: 0x181992500
+	// RVA: 0x19927C0 Offset: 0x1990DC0 VA: 0x1819927C0
 	private void <setMoveLocalX>b__74_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19925F0 Offset: 0x1990BF0 VA: 0x1819925F0
+	// RVA: 0x19928B0 Offset: 0x1990EB0 VA: 0x1819928B0
 	private void <setMoveLocalY>b__75_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992630 Offset: 0x1990C30 VA: 0x181992630
+	// RVA: 0x19928F0 Offset: 0x1990EF0 VA: 0x1819928F0
 	private void <setMoveLocalY>b__75_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992730 Offset: 0x1990D30 VA: 0x181992730
+	// RVA: 0x19929F0 Offset: 0x1990FF0 VA: 0x1819929F0
 	private void <setMoveLocalZ>b__76_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992770 Offset: 0x1990D70 VA: 0x181992770
+	// RVA: 0x1992A30 Offset: 0x1991030 VA: 0x181992A30
 	private void <setMoveLocalZ>b__76_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992060 Offset: 0x1990660 VA: 0x181992060
+	// RVA: 0x1992320 Offset: 0x1990920 VA: 0x181992320
 	private void <setMoveCurved>b__78_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1991C30 Offset: 0x1990230 VA: 0x181991C30
+	// RVA: 0x1991EF0 Offset: 0x19904F0 VA: 0x181991EF0
 	private void <setMoveCurvedLocal>b__79_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992950 Offset: 0x1990F50 VA: 0x181992950
+	// RVA: 0x1992C10 Offset: 0x1991210 VA: 0x181992C10
 	private void <setMoveSpline>b__80_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992850 Offset: 0x1990E50 VA: 0x181992850
+	// RVA: 0x1992B10 Offset: 0x1991110 VA: 0x181992B10
 	private void <setMoveSplineLocal>b__81_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1994120 Offset: 0x1992720 VA: 0x181994120
+	// RVA: 0x19943E0 Offset: 0x19929E0 VA: 0x1819943E0
 	private void <setScaleX>b__82_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1994150 Offset: 0x1992750 VA: 0x181994150
+	// RVA: 0x1994410 Offset: 0x1992A10 VA: 0x181994410
 	private void <setScaleX>b__82_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1994240 Offset: 0x1992840 VA: 0x181994240
+	// RVA: 0x1994500 Offset: 0x1992B00 VA: 0x181994500
 	private void <setScaleY>b__83_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1994280 Offset: 0x1992880 VA: 0x181994280
+	// RVA: 0x1994540 Offset: 0x1992B40 VA: 0x181994540
 	private void <setScaleY>b__83_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1994380 Offset: 0x1992980 VA: 0x181994380
+	// RVA: 0x1994640 Offset: 0x1992C40 VA: 0x181994640
 	private void <setScaleZ>b__84_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19943C0 Offset: 0x19929C0 VA: 0x1819943C0
+	// RVA: 0x1994680 Offset: 0x1992C80 VA: 0x181994680
 	private void <setScaleZ>b__84_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1993B80 Offset: 0x1992180 VA: 0x181993B80
+	// RVA: 0x1993E40 Offset: 0x1992440 VA: 0x181993E40
 	private void <setRotateX>b__85_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1993C20 Offset: 0x1992220 VA: 0x181993C20
+	// RVA: 0x1993EE0 Offset: 0x19924E0 VA: 0x181993EE0
 	private void <setRotateX>b__85_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1993D10 Offset: 0x1992310 VA: 0x181993D10
+	// RVA: 0x1993FD0 Offset: 0x19925D0 VA: 0x181993FD0
 	private void <setRotateY>b__86_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1993DB0 Offset: 0x19923B0 VA: 0x181993DB0
+	// RVA: 0x1994070 Offset: 0x1992670 VA: 0x181994070
 	private void <setRotateY>b__86_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1993EB0 Offset: 0x19924B0 VA: 0x181993EB0
+	// RVA: 0x1994170 Offset: 0x1992770 VA: 0x181994170
 	private void <setRotateZ>b__87_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1993F60 Offset: 0x1992560 VA: 0x181993F60
+	// RVA: 0x1994220 Offset: 0x1992820 VA: 0x181994220
 	private void <setRotateZ>b__87_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1993460 Offset: 0x1991A60 VA: 0x181993460
+	// RVA: 0x1993720 Offset: 0x1991D20 VA: 0x181993720
 	private void <setRotateAround>b__88_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19934B0 Offset: 0x1991AB0 VA: 0x1819934B0
+	// RVA: 0x1993770 Offset: 0x1991D70 VA: 0x181993770
 	private void <setRotateAround>b__88_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1993070 Offset: 0x1991670 VA: 0x181993070
+	// RVA: 0x1993330 Offset: 0x1991930 VA: 0x181993330
 	private void <setRotateAroundLocal>b__89_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19930C0 Offset: 0x19916C0 VA: 0x1819930C0
+	// RVA: 0x1993380 Offset: 0x1991980 VA: 0x181993380
 	private void <setRotateAroundLocal>b__89_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198EBC0 Offset: 0x198D1C0 VA: 0x18198EBC0
+	// RVA: 0x198EE80 Offset: 0x198D480 VA: 0x18198EE80
 	private void <setAlpha>b__90_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198F2C0 Offset: 0x198D8C0 VA: 0x18198F2C0
+	// RVA: 0x198F580 Offset: 0x198DB80 VA: 0x18198F580
 	private void <setAlpha>b__90_2() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198F0D0 Offset: 0x198D6D0 VA: 0x18198F0D0
+	// RVA: 0x198F390 Offset: 0x198D990 VA: 0x18198F390
 	private void <setAlpha>b__90_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19944A0 Offset: 0x1992AA0 VA: 0x1819944A0
+	// RVA: 0x1994760 Offset: 0x1992D60 VA: 0x181994760
 	private void <setTextAlpha>b__91_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1994590 Offset: 0x1992B90 VA: 0x181994590
+	// RVA: 0x1994850 Offset: 0x1992E50 VA: 0x181994850
 	private void <setTextAlpha>b__91_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198F490 Offset: 0x198DA90 VA: 0x18198F490
+	// RVA: 0x198F750 Offset: 0x198DD50 VA: 0x18198F750
 	private void <setAlphaVertex>b__92_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198F520 Offset: 0x198DB20 VA: 0x18198F520
+	// RVA: 0x198F7E0 Offset: 0x198DDE0 VA: 0x18198F7E0
 	private void <setAlphaVertex>b__92_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990F20 Offset: 0x198F520 VA: 0x181990F20
+	// RVA: 0x19911E0 Offset: 0x198F7E0 VA: 0x1819911E0
 	private void <setColor>b__93_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1991400 Offset: 0x198FA00 VA: 0x181991400
+	// RVA: 0x19916C0 Offset: 0x198FCC0 VA: 0x1819916C0
 	private void <setColor>b__93_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198F7A0 Offset: 0x198DDA0 VA: 0x18198F7A0
+	// RVA: 0x198FA60 Offset: 0x198E060 VA: 0x18198FA60
 	private void <setCallbackColor>b__94_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198F7F0 Offset: 0x198DDF0 VA: 0x18198F7F0
+	// RVA: 0x198FAB0 Offset: 0x198E0B0 VA: 0x18198FAB0
 	private void <setCallbackColor>b__94_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19945E0 Offset: 0x1992BE0 VA: 0x1819945E0
+	// RVA: 0x19948A0 Offset: 0x1992EA0 VA: 0x1819948A0
 	private void <setTextColor>b__95_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19946E0 Offset: 0x1992CE0 VA: 0x1819946E0
+	// RVA: 0x19949A0 Offset: 0x1992FA0 VA: 0x1819949A0
 	private void <setTextColor>b__95_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198F9C0 Offset: 0x198DFC0 VA: 0x18198F9C0
+	// RVA: 0x198FC80 Offset: 0x198E280 VA: 0x18198FC80
 	private void <setCanvasAlpha>b__96_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198FB20 Offset: 0x198E120 VA: 0x18198FB20
+	// RVA: 0x198FDE0 Offset: 0x198E3E0 VA: 0x18198FDE0
 	private void <setCanvasAlpha>b__96_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990090 Offset: 0x198E690 VA: 0x181990090
+	// RVA: 0x1990350 Offset: 0x198E950 VA: 0x181990350
 	private void <setCanvasGroupAlpha>b__97_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19900F0 Offset: 0x198E6F0 VA: 0x1819900F0
+	// RVA: 0x19903B0 Offset: 0x198E9B0 VA: 0x1819903B0
 	private void <setCanvasGroupAlpha>b__97_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198FD30 Offset: 0x198E330 VA: 0x18198FD30
+	// RVA: 0x198FFF0 Offset: 0x198E5F0 VA: 0x18198FFF0
 	private void <setCanvasColor>b__98_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198FED0 Offset: 0x198E4D0 VA: 0x18198FED0
+	// RVA: 0x1990190 Offset: 0x198E790 VA: 0x181990190
 	private void <setCanvasColor>b__98_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990210 Offset: 0x198E810 VA: 0x181990210
+	// RVA: 0x19904D0 Offset: 0x198EAD0 VA: 0x1819904D0
 	private void <setCanvasMoveX>b__99_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990250 Offset: 0x198E850 VA: 0x181990250
+	// RVA: 0x1990510 Offset: 0x198EB10 VA: 0x181990510
 	private void <setCanvasMoveX>b__99_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990310 Offset: 0x198E910 VA: 0x181990310
+	// RVA: 0x19905D0 Offset: 0x198EBD0 VA: 0x1819905D0
 	private void <setCanvasMoveY>b__100_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990350 Offset: 0x198E950 VA: 0x181990350
+	// RVA: 0x1990610 Offset: 0x198EC10 VA: 0x181990610
 	private void <setCanvasMoveY>b__100_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990410 Offset: 0x198EA10 VA: 0x181990410
+	// RVA: 0x19906D0 Offset: 0x198ECD0 VA: 0x1819906D0
 	private void <setCanvasMoveZ>b__101_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990450 Offset: 0x198EA50 VA: 0x181990450
+	// RVA: 0x1990710 Offset: 0x198ED10 VA: 0x181990710
 	private void <setCanvasMoveZ>b__101_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990A40 Offset: 0x198F040 VA: 0x181990A40
+	// RVA: 0x1990D00 Offset: 0x198F300 VA: 0x181990D00
 	private void <setCanvasRotateAround>b__103_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990710 Offset: 0x198ED10 VA: 0x181990710
+	// RVA: 0x19909D0 Offset: 0x198EFD0 VA: 0x1819909D0
 	private void <setCanvasRotateAroundLocal>b__104_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990520 Offset: 0x198EB20 VA: 0x181990520
+	// RVA: 0x19907E0 Offset: 0x198EDE0 VA: 0x1819907E0
 	private void <setCanvasPlaySprite>b__105_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990580 Offset: 0x198EB80 VA: 0x181990580
+	// RVA: 0x1990840 Offset: 0x198EE40 VA: 0x181990840
 	private void <setCanvasPlaySprite>b__105_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990170 Offset: 0x198E770 VA: 0x181990170
+	// RVA: 0x1990430 Offset: 0x198EA30 VA: 0x181990430
 	private void <setCanvasMove>b__106_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19901B0 Offset: 0x198E7B0 VA: 0x1819901B0
+	// RVA: 0x1990470 Offset: 0x198EA70 VA: 0x181990470
 	private void <setCanvasMove>b__106_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990D30 Offset: 0x198F330 VA: 0x181990D30
+	// RVA: 0x1990FF0 Offset: 0x198F5F0 VA: 0x181990FF0
 	private void <setCanvasScale>b__107_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990D70 Offset: 0x198F370 VA: 0x181990D70
+	// RVA: 0x1991030 Offset: 0x198F630 VA: 0x181991030
 	private void <setCanvasScale>b__107_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990DD0 Offset: 0x198F3D0 VA: 0x181990DD0
+	// RVA: 0x1991090 Offset: 0x198F690 VA: 0x181991090
 	private void <setCanvasSizeDelta>b__108_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1990E70 Offset: 0x198F470 VA: 0x181990E70
+	// RVA: 0x1991130 Offset: 0x198F730 VA: 0x181991130
 	private void <setCanvasSizeDelta>b__108_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992A50 Offset: 0x1991050 VA: 0x181992A50
+	// RVA: 0x1992D10 Offset: 0x1991310 VA: 0x181992D10
 	private void <setMove>b__112_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992C50 Offset: 0x1991250 VA: 0x181992C50
+	// RVA: 0x1992F10 Offset: 0x1991510 VA: 0x181992F10
 	private void <setMove>b__112_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19923F0 Offset: 0x19909F0 VA: 0x1819923F0
+	// RVA: 0x19926B0 Offset: 0x1990CB0 VA: 0x1819926B0
 	private void <setMoveLocal>b__113_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992430 Offset: 0x1990A30 VA: 0x181992430
+	// RVA: 0x19926F0 Offset: 0x1990CF0 VA: 0x1819926F0
 	private void <setMoveLocal>b__113_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992A50 Offset: 0x1991050 VA: 0x181992A50
+	// RVA: 0x1992D10 Offset: 0x1991310 VA: 0x181992D10
 	private void <setMoveToTransform>b__114_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1992A90 Offset: 0x1991090 VA: 0x181992A90
+	// RVA: 0x1992D50 Offset: 0x1991350 VA: 0x181992D50
 	private void <setMoveToTransform>b__114_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19939B0 Offset: 0x1991FB0 VA: 0x1819939B0
+	// RVA: 0x1993C70 Offset: 0x1992270 VA: 0x181993C70
 	private void <setRotate>b__115_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1993AE0 Offset: 0x19920E0 VA: 0x181993AE0
+	// RVA: 0x1993DA0 Offset: 0x19923A0 VA: 0x181993DA0
 	private void <setRotate>b__115_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19937E0 Offset: 0x1991DE0 VA: 0x1819937E0
+	// RVA: 0x1993AA0 Offset: 0x19920A0 VA: 0x181993AA0
 	private void <setRotateLocal>b__116_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1993910 Offset: 0x1991F10 VA: 0x181993910
+	// RVA: 0x1993BD0 Offset: 0x19921D0 VA: 0x181993BD0
 	private void <setRotateLocal>b__116_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1994040 Offset: 0x1992640 VA: 0x181994040
+	// RVA: 0x1994300 Offset: 0x1992900 VA: 0x181994300
 	private void <setScale>b__117_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1994080 Offset: 0x1992680 VA: 0x181994080
+	// RVA: 0x1994340 Offset: 0x1992940 VA: 0x181994340
 	private void <setScale>b__117_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19917A0 Offset: 0x198FDA0 VA: 0x1819917A0
+	// RVA: 0x1991A60 Offset: 0x1990060 VA: 0x181991A60
 	private void <setGUIMove>b__118_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1991870 Offset: 0x198FE70 VA: 0x181991870
+	// RVA: 0x1991B30 Offset: 0x1990130 VA: 0x181991B30
 	private void <setGUIMove>b__118_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1991660 Offset: 0x198FC60 VA: 0x181991660
+	// RVA: 0x1991920 Offset: 0x198FF20 VA: 0x181991920
 	private void <setGUIMoveMargin>b__119_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1991710 Offset: 0x198FD10 VA: 0x181991710
+	// RVA: 0x19919D0 Offset: 0x198FFD0 VA: 0x1819919D0
 	private void <setGUIMoveMargin>b__119_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1991A50 Offset: 0x1990050 VA: 0x181991A50
+	// RVA: 0x1991D10 Offset: 0x1990310 VA: 0x181991D10
 	private void <setGUIScale>b__120_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1991B20 Offset: 0x1990120 VA: 0x181991B20
+	// RVA: 0x1991DE0 Offset: 0x19903E0 VA: 0x181991DE0
 	private void <setGUIScale>b__120_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19915E0 Offset: 0x198FBE0 VA: 0x1819915E0
+	// RVA: 0x19918A0 Offset: 0x198FEA0 VA: 0x1819918A0
 	private void <setGUIAlpha>b__121_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1991610 Offset: 0x198FC10 VA: 0x181991610
+	// RVA: 0x19918D0 Offset: 0x198FED0 VA: 0x1819918D0
 	private void <setGUIAlpha>b__121_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1991990 Offset: 0x198FF90 VA: 0x181991990
+	// RVA: 0x1991C50 Offset: 0x1990250 VA: 0x181991C50
 	private void <setGUIRotate>b__122_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1991A00 Offset: 0x1990000 VA: 0x181991A00
+	// RVA: 0x1991CC0 Offset: 0x19902C0 VA: 0x181991CC0
 	private void <setGUIRotate>b__122_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19915D0 Offset: 0x198FBD0 VA: 0x1819915D0
+	// RVA: 0x1991890 Offset: 0x198FE90 VA: 0x181991890
 	private void <setDelayedSound>b__123_0() { }
 
 }
@@ -1087,13 +1087,13 @@ public sealed class LTDescr.EaseTypeDelegate : MulticastDelegate // TypeDefIndex
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x198A750 Offset: 0x1988D50 VA: 0x18198A750 Slot: 12
+	// RVA: 0x198AA10 Offset: 0x1989010 VA: 0x18198AA10 Slot: 12
 	public virtual Vector3 Invoke() { }
 
 	// RVA: 0x49A190 Offset: 0x498790 VA: 0x18049A190 Slot: 13
 	public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object object) { }
 
-	// RVA: 0x198A710 Offset: 0x1988D10 VA: 0x18198A710 Slot: 14
+	// RVA: 0x198A9D0 Offset: 0x1988FD0 VA: 0x18198A9D0 Slot: 14
 	public virtual Vector3 EndInvoke(IAsyncResult result) { }
 
 }
@@ -1104,7 +1104,7 @@ public sealed class LTDescr.ActionMethodDelegate : MulticastDelegate // TypeDefI
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1464520 Offset: 0x1462B20 VA: 0x181464520 Slot: 12
+	// RVA: 0x14647E0 Offset: 0x1462DE0 VA: 0x1814647E0 Slot: 12
 	public virtual void Invoke() { }
 
 	// RVA: 0x49A190 Offset: 0x498790 VA: 0x18049A190 Slot: 13
@@ -1123,7 +1123,7 @@ private sealed class LTDescr.<>c // TypeDefIndex: 5572
 
 	// Methods
 
-	// RVA: 0x19A4B40 Offset: 0x19A3140 VA: 0x1819A4B40
+	// RVA: 0x19A4E00 Offset: 0x19A3400 VA: 0x1819A4E00
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

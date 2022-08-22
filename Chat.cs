@@ -66,63 +66,63 @@ public class Chat : ConsoleSystem // TypeDefIndex: 11886
 
 	// Methods
 
-	// RVA: 0x6CDAD0 Offset: 0x6CC0D0 VA: 0x1806CDAD0
+	// RVA: 0x6CDBE0 Offset: 0x6CC1E0 VA: 0x1806CDBE0
 	public static bool get_muteglobal() { }
 
-	// RVA: 0x6CE100 Offset: 0x6CC700 VA: 0x1806CE100
+	// RVA: 0x6CE210 Offset: 0x6CC810 VA: 0x1806CE210
 	public static void set_muteglobal(bool value) { }
 
-	// RVA: 0x6CCCD0 Offset: 0x6CB2D0 VA: 0x1806CCCD0
+	// RVA: 0x6CCDE0 Offset: 0x6CB3E0 VA: 0x1806CCDE0
 	public static void LoadMuteList() { }
 
 	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
-	// RVA: 0x6CD6F0 Offset: 0x6CBCF0 VA: 0x1806CD6F0
+	// RVA: 0x6CD800 Offset: 0x6CBE00 VA: 0x1806CD800
 	public static void add(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
-	// RVA: 0x6CD460 Offset: 0x6CBA60 VA: 0x1806CD460
+	// RVA: 0x6CD570 Offset: 0x6CBB70 VA: 0x1806CD570
 	public static void add2(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CDB70 Offset: 0x6CC170 VA: 0x1806CDB70
+	// RVA: 0x6CDC80 Offset: 0x6CC280 VA: 0x1806CDC80
 	public static void mute(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CE1A0 Offset: 0x6CC7A0 VA: 0x1806CE1A0
+	// RVA: 0x6CE2B0 Offset: 0x6CC8B0 VA: 0x1806CE2B0
 	public static void unmute(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CDBF0 Offset: 0x6CC1F0 VA: 0x1806CDBF0
+	// RVA: 0x6CDD00 Offset: 0x6CC300 VA: 0x1806CDD00
 	public static void mutelist(ConsoleSystem.Arg arg) { }
 
-	// RVA: 0x6CCE00 Offset: 0x6CB400 VA: 0x1806CCE00
+	// RVA: 0x6CCF10 Offset: 0x6CB510 VA: 0x1806CCF10
 	public static void MuteSteamID(ulong id) { }
 
-	// RVA: 0x6CD220 Offset: 0x6CB820 VA: 0x1806CD220
+	// RVA: 0x6CD330 Offset: 0x6CB930 VA: 0x1806CD330
 	public static void UnmuteSteamID(ulong id) { }
 
-	// RVA: 0x6CD100 Offset: 0x6CB700 VA: 0x1806CD100
+	// RVA: 0x6CD210 Offset: 0x6CB810 VA: 0x1806CD210
 	public static void UnMuteAll() { }
 
-	// RVA: 0x6CCC20 Offset: 0x6CB220 VA: 0x1806CCC20
+	// RVA: 0x6CCD30 Offset: 0x6CB330 VA: 0x1806CCD30
 	public static bool IsSteamIDMuted(ulong id) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CE320 Offset: 0x6CC920 VA: 0x1806CE320
+	// RVA: 0x6CE430 Offset: 0x6CCA30 VA: 0x1806CE430
 	public static void unmuteall(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CE040 Offset: 0x6CC640 VA: 0x1806CE040
+	// RVA: 0x6CE150 Offset: 0x6CC750 VA: 0x1806CE150
 	public static void open() { }
 
 	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
-	// RVA: 0x6CD910 Offset: 0x6CBF10 VA: 0x1806CD910
+	// RVA: 0x6CDA20 Offset: 0x6CC020 VA: 0x1806CDA20
 	public static void clear() { }
 
-	// RVA: 0x6CD400 Offset: 0x6CBA00 VA: 0x1806CD400
+	// RVA: 0x6CD510 Offset: 0x6CBB10 VA: 0x1806CD510
 	public void .ctor() { }
 
-	// RVA: 0x6CD340 Offset: 0x6CB940 VA: 0x1806CD340
+	// RVA: 0x6CD450 Offset: 0x6CBA50 VA: 0x1806CD450
 	private static void .cctor() { }
 
 }
@@ -235,34 +235,34 @@ public class Chat.MuteList // TypeDefIndex: 11890
 
 	// Methods
 
-	// RVA: 0x6E73C0 Offset: 0x6E59C0 VA: 0x1806E73C0
+	// RVA: 0x6E74D0 Offset: 0x6E5AD0 VA: 0x1806E74D0
 	public List<Chat.MuteEntry> get_All() { }
 
-	// RVA: 0x6E7290 Offset: 0x6E5890 VA: 0x1806E7290
+	// RVA: 0x6E73A0 Offset: 0x6E59A0 VA: 0x1806E73A0
 	public void SetGlobalMuted(bool flag) { }
 
-	// RVA: 0x6E7420 Offset: 0x6E5A20 VA: 0x1806E7420
+	// RVA: 0x6E7530 Offset: 0x6E5B30 VA: 0x1806E7530
 	public bool get_IsGlobalMuted() { }
 
-	// RVA: 0x6E6FA0 Offset: 0x6E55A0 VA: 0x1806E6FA0
+	// RVA: 0x6E70B0 Offset: 0x6E56B0 VA: 0x1806E70B0
 	public bool IsMuted(ulong steamId) { }
 
-	// RVA: 0x6E70D0 Offset: 0x6E56D0 VA: 0x1806E70D0
+	// RVA: 0x6E71E0 Offset: 0x6E57E0 VA: 0x1806E71E0
 	public void Mute(ulong steamID, string steamName) { }
 
-	// RVA: 0x6E72D0 Offset: 0x6E58D0 VA: 0x1806E72D0
+	// RVA: 0x6E73E0 Offset: 0x6E59E0 VA: 0x1806E73E0
 	public void UnMute(ulong steamID) { }
 
-	// RVA: 0x6E6EE0 Offset: 0x6E54E0 VA: 0x1806E6EE0
+	// RVA: 0x6E6FF0 Offset: 0x6E55F0 VA: 0x1806E6FF0
 	public void Clear() { }
 
-	// RVA: 0x6E7000 Offset: 0x6E5600 VA: 0x1806E7000
+	// RVA: 0x6E7110 Offset: 0x6E5710 VA: 0x1806E7110
 	public void Load() { }
 
-	// RVA: 0x6E7220 Offset: 0x6E5820 VA: 0x1806E7220
+	// RVA: 0x6E7330 Offset: 0x6E5930 VA: 0x1806E7330
 	private void Save() { }
 
-	// RVA: 0x6E7350 Offset: 0x6E5950 VA: 0x1806E7350
+	// RVA: 0x6E7460 Offset: 0x6E5A60 VA: 0x1806E7460
 	public void .ctor() { }
 
 }
@@ -274,13 +274,13 @@ private sealed class Chat.<>c // TypeDefIndex: 11891
 
 	// Methods
 
-	// RVA: 0x6E8710 Offset: 0x6E6D10 VA: 0x1806E8710
+	// RVA: 0x6E8820 Offset: 0x6E6E20 VA: 0x1806E8820
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x6E8200 Offset: 0x6E6800 VA: 0x1806E8200
+	// RVA: 0x6E8310 Offset: 0x6E6910 VA: 0x1806E8310
 	internal void <clear>b__23_0(UIChat chat) { }
 
 }

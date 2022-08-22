@@ -17,7 +17,7 @@ public static class SchemaTableOptionalColumn // TypeDefIndex: 4428
 
 	// Methods
 
-	// RVA: 0x17D7D70 Offset: 0x17D6370 VA: 0x1817D7D70
+	// RVA: 0x17D8030 Offset: 0x17D6630 VA: 0x1817D8030
 	private static void .cctor() { }
 
 }

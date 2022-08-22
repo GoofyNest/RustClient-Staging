@@ -9,31 +9,31 @@ public sealed class KeySignatureEvent : MetaEvent // TypeDefIndex: 7538
 
 	// Methods
 
-	// RVA: 0x1399AD0 Offset: 0x13980D0 VA: 0x181399AD0
+	// RVA: 0x1399D90 Offset: 0x1398390 VA: 0x181399D90
 	public void .ctor() { }
 
-	// RVA: 0xB103F0 Offset: 0xB0E9F0 VA: 0x180B103F0
+	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0
 	public sbyte get_Key() { }
 
-	// RVA: 0x1399AF0 Offset: 0x13980F0 VA: 0x181399AF0
+	// RVA: 0x1399DB0 Offset: 0x13983B0 VA: 0x181399DB0
 	public void set_Key(sbyte value) { }
 
-	// RVA: 0xB10400 Offset: 0xB0EA00 VA: 0x180B10400
+	// RVA: 0xB106C0 Offset: 0xB0ECC0 VA: 0x180B106C0
 	public byte get_Scale() { }
 
-	// RVA: 0x1399BA0 Offset: 0x13981A0 VA: 0x181399BA0
+	// RVA: 0x1399E60 Offset: 0x1398460 VA: 0x181399E60
 	public void set_Scale(byte value) { }
 
-	// RVA: 0x1399750 Offset: 0x1397D50 VA: 0x181399750
+	// RVA: 0x1399A10 Offset: 0x1398010 VA: 0x181399A10
 	private int ProcessValue(int value, string property, int min, int max, InvalidMetaEventParameterValuePolicy policy) { }
 
-	// RVA: 0x1399850 Offset: 0x1397E50 VA: 0x181399850 Slot: 6
+	// RVA: 0x1399B10 Offset: 0x1398110 VA: 0x181399B10 Slot: 6
 	protected override void ReadContent(MidiReader reader, ReadingSettings settings, int size) { }
 
-	// RVA: 0x13996E0 Offset: 0x1397CE0 VA: 0x1813996E0 Slot: 5
+	// RVA: 0x13999A0 Offset: 0x1397FA0 VA: 0x1813999A0 Slot: 5
 	protected override MidiEvent CloneEvent() { }
 
-	// RVA: 0x1399A50 Offset: 0x1398050 VA: 0x181399A50 Slot: 3
+	// RVA: 0x1399D10 Offset: 0x1398310 VA: 0x181399D10 Slot: 3
 	public override string ToString() { }
 
 }

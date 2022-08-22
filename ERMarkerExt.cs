@@ -82,22 +82,22 @@ public class ERMarkerExt : ScriptableObject // TypeDefIndex: 7262
 
 	// Methods
 
-	// RVA: 0x9BABC0 Offset: 0x9B91C0 VA: 0x1809BABC0
+	// RVA: 0x9BAE80 Offset: 0x9B9480 VA: 0x1809BAE80
 	public void Init(Vector3 pos, ERModularRoad scr, int element) { }
 
-	// RVA: 0x9BAB20 Offset: 0x9B9120 VA: 0x1809BAB20
+	// RVA: 0x9BADE0 Offset: 0x9B93E0 VA: 0x1809BADE0
 	public static ERMarkerExt CreateInstance(Vector3 pos, ERModularRoad scr, int element) { }
 
-	// RVA: 0x9BBA70 Offset: 0x9BA070 VA: 0x1809BBA70
+	// RVA: 0x9BBD30 Offset: 0x9BA330 VA: 0x1809BBD30
 	public void SetControlType(ERMarkerControlType type) { }
 
-	// RVA: 0x9BBAC0 Offset: 0x9BA0C0 VA: 0x1809BBAC0
+	// RVA: 0x9BBD80 Offset: 0x9BA380 VA: 0x1809BBD80
 	public string[] SoNames() { }
 
-	// RVA: 0x9BB840 Offset: 0x9B9E40 VA: 0x1809BB840
+	// RVA: 0x9BBB00 Offset: 0x9BA100 VA: 0x1809BBB00
 	public static void OOQQCOQDQC(ERMarkerExt source, ERMarkerExt target, string name) { }
 
-	// RVA: 0x9BBCA0 Offset: 0x9BA2A0 VA: 0x1809BBCA0
+	// RVA: 0x9BBF60 Offset: 0x9BA560 VA: 0x1809BBF60
 	public void .ctor() { }
 
 }

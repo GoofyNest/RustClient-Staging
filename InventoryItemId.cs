@@ -19,7 +19,7 @@ public struct InventoryItemId : IEquatable<InventoryItemId>, IComparable<Invento
 	// RVA: 0x1D8B30 Offset: 0x1D7F30 VA: 0x1801D8B30 Slot: 4
 	public bool Equals(InventoryItemId p) { }
 
-	// RVA: 0x1291940 Offset: 0x128FF40 VA: 0x181291940
+	// RVA: 0x1291C00 Offset: 0x1290200 VA: 0x181291C00
 	public static bool op_Equality(InventoryItemId a, InventoryItemId b) { }
 
 	// RVA: 0x1D8B20 Offset: 0x1D7F20 VA: 0x1801D8B20 Slot: 5

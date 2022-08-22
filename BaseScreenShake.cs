@@ -10,16 +10,16 @@ public abstract class BaseScreenShake : MonoBehaviour // TypeDefIndex: 9365
 
 	// Methods
 
-	// RVA: 0x92B210 Offset: 0x929810 VA: 0x18092B210
+	// RVA: 0x92B320 Offset: 0x929920 VA: 0x18092B320
 	public static void Apply(Camera cam, BaseViewModel vm) { }
 
-	// RVA: 0x92BEA0 Offset: 0x92A4A0 VA: 0x18092BEA0
+	// RVA: 0x92BFB0 Offset: 0x92A5B0 VA: 0x18092BFB0
 	protected void OnEnable() { }
 
-	// RVA: 0x92BDF0 Offset: 0x92A3F0 VA: 0x18092BDF0
+	// RVA: 0x92BF00 Offset: 0x92A500 VA: 0x18092BF00
 	protected void OnDisable() { }
 
-	// RVA: 0x92BF30 Offset: 0x92A530 VA: 0x18092BF30
+	// RVA: 0x92C040 Offset: 0x92A640 VA: 0x18092C040
 	public void Run(ref CachedTransform<Camera> cam, ref CachedTransform<BaseViewModel> vm) { }
 
 	// RVA: -1 Offset: -1 Slot: 4
@@ -28,10 +28,10 @@ public abstract class BaseScreenShake : MonoBehaviour // TypeDefIndex: 9365
 	// RVA: -1 Offset: -1 Slot: 5
 	public abstract void Run(float delta, ref CachedTransform<Camera> cam, ref CachedTransform<BaseViewModel> vm);
 
-	// RVA: 0x92C0C0 Offset: 0x92A6C0 VA: 0x18092C0C0
+	// RVA: 0x92C1D0 Offset: 0x92A7D0 VA: 0x18092C1D0
 	protected void .ctor() { }
 
-	// RVA: 0x92C020 Offset: 0x92A620 VA: 0x18092C020
+	// RVA: 0x92C130 Offset: 0x92A730 VA: 0x18092C130
 	private static void .cctor() { }
 
 }

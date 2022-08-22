@@ -7,16 +7,16 @@ public class SprayCanSkinSelect : UIDialog // TypeDefIndex: 10911
 
 	// Methods
 
-	// RVA: 0xA81890 Offset: 0xA7FE90 VA: 0x180A81890
+	// RVA: 0xA81B50 Offset: 0xA80150 VA: 0x180A81B50
 	private void Update() { }
 
-	// RVA: 0xA81710 Offset: 0xA7FD10 VA: 0x180A81710
+	// RVA: 0xA819D0 Offset: 0xA7FFD0 VA: 0x180A819D0
 	public void Setup(ItemBlueprint blueprint, SprayCan spray, BaseEntity ent, Action<bool, int> callback) { }
 
-	// RVA: 0xA817F0 Offset: 0xA7FDF0 VA: 0x180A817F0
+	// RVA: 0xA81AB0 Offset: 0xA800B0 VA: 0x180A81AB0
 	private void SkinChangedEvent() { }
 
-	// RVA: 0xA816E0 Offset: 0xA7FCE0 VA: 0x180A816E0 Slot: 9
+	// RVA: 0xA819A0 Offset: 0xA7FFA0 VA: 0x180A819A0 Slot: 9
 	public override void CloseDialog() { }
 
 	// RVA: 0x4C1AB0 Offset: 0x4C00B0 VA: 0x1804C1AB0

@@ -20,16 +20,16 @@ internal class CompiledIdentityConstraint // TypeDefIndex: 2143
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public Asttree get_Selector() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public Asttree[] get_Fields() { }
 
-	// RVA: 0xF47B30 Offset: 0xF46130 VA: 0x180F47B30
+	// RVA: 0xF47DF0 Offset: 0xF463F0 VA: 0x180F47DF0
 	private void .ctor() { }
 
-	// RVA: 0xF47BC0 Offset: 0xF461C0 VA: 0x180F47BC0
+	// RVA: 0xF47E80 Offset: 0xF46480 VA: 0x180F47E80
 	public void .ctor(XmlSchemaIdentityConstraint constraint, XmlNamespaceManager nsmgr) { }
 
-	// RVA: 0xF47A60 Offset: 0xF46060 VA: 0x180F47A60
+	// RVA: 0xF47D20 Offset: 0xF46320 VA: 0x180F47D20
 	private static void .cctor() { }
 
 }

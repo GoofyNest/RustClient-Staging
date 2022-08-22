@@ -8,31 +8,31 @@ public abstract class DES : SymmetricAlgorithm // TypeDefIndex: 953
 
 	// Methods
 
-	// RVA: 0x16FF1F0 Offset: 0x16FD7F0 VA: 0x1816FF1F0
+	// RVA: 0x16FF4B0 Offset: 0x16FDAB0 VA: 0x1816FF4B0
 	protected void .ctor() { }
 
-	// RVA: 0x16FF2A0 Offset: 0x16FD8A0 VA: 0x1816FF2A0 Slot: 11
+	// RVA: 0x16FF560 Offset: 0x16FDB60 VA: 0x1816FF560 Slot: 11
 	public override byte[] get_Key() { }
 
-	// RVA: 0x16FF3A0 Offset: 0x16FD9A0 VA: 0x1816FF3A0 Slot: 12
+	// RVA: 0x16FF660 Offset: 0x16FDC60 VA: 0x1816FF660 Slot: 12
 	public override void set_Key(byte[] value) { }
 
-	// RVA: 0x16FEBE0 Offset: 0x16FD1E0 VA: 0x1816FEBE0
+	// RVA: 0x16FEEA0 Offset: 0x16FD4A0 VA: 0x1816FEEA0
 	public static DES Create() { }
 
-	// RVA: 0x16FEE00 Offset: 0x16FD400 VA: 0x1816FEE00
+	// RVA: 0x16FF0C0 Offset: 0x16FD6C0 VA: 0x1816FF0C0
 	public static bool IsWeakKey(byte[] rgbKey) { }
 
-	// RVA: 0x16FEC50 Offset: 0x16FD250 VA: 0x1816FEC50
+	// RVA: 0x16FEF10 Offset: 0x16FD510 VA: 0x1816FEF10
 	public static bool IsSemiWeakKey(byte[] rgbKey) { }
 
-	// RVA: 0x16FEC30 Offset: 0x16FD230 VA: 0x1816FEC30
+	// RVA: 0x16FEEF0 Offset: 0x16FD4F0 VA: 0x1816FEEF0
 	private static bool IsLegalKeySize(byte[] rgbKey) { }
 
-	// RVA: 0x16FEF20 Offset: 0x16FD520 VA: 0x1816FEF20
+	// RVA: 0x16FF1E0 Offset: 0x16FD7E0 VA: 0x1816FF1E0
 	private static ulong QuadWordFromBigEndian(byte[] block) { }
 
-	// RVA: 0x16FF060 Offset: 0x16FD660 VA: 0x1816FF060
+	// RVA: 0x16FF320 Offset: 0x16FD920 VA: 0x1816FF320
 	private static void .cctor() { }
 
 }

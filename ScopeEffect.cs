@@ -7,13 +7,13 @@ public class ScopeEffect : PostEffectsBase, IImageEffect // TypeDefIndex: 11672
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x1073E80 Offset: 0x1072480 VA: 0x181073E80 Slot: 5
+	// RVA: 0x1074140 Offset: 0x1072740 VA: 0x181074140 Slot: 5
 	public bool IsActive() { }
 
-	// RVA: 0x111FAE0 Offset: 0x111E0E0 VA: 0x18111FAE0 Slot: 6
+	// RVA: 0x111FDA0 Offset: 0x111E3A0 VA: 0x18111FDA0 Slot: 6
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x111FBF0 Offset: 0x111E1F0 VA: 0x18111FBF0
+	// RVA: 0x111FEB0 Offset: 0x111E4B0 VA: 0x18111FEB0
 	public void .ctor() { }
 
 }

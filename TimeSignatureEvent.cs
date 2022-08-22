@@ -16,46 +16,46 @@ public sealed class TimeSignatureEvent : MetaEvent // TypeDefIndex: 7550
 
 	// Methods
 
-	// RVA: 0x13A9AE0 Offset: 0x13A80E0 VA: 0x1813A9AE0
+	// RVA: 0x13A9DA0 Offset: 0x13A83A0 VA: 0x1813A9DA0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB10400 Offset: 0xB0EA00 VA: 0x180B10400
+	// RVA: 0xB106C0 Offset: 0xB0ECC0 VA: 0x180B106C0
 	public byte get_Numerator() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13A3780 Offset: 0x13A1D80 VA: 0x1813A3780
+	// RVA: 0x13A3A40 Offset: 0x13A2040 VA: 0x1813A3A40
 	public void set_Numerator(byte value) { }
 
-	// RVA: 0xB103F0 Offset: 0xB0E9F0 VA: 0x180B103F0
+	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0
 	public byte get_Denominator() { }
 
-	// RVA: 0x13A9B20 Offset: 0x13A8120 VA: 0x1813A9B20
+	// RVA: 0x13A9DE0 Offset: 0x13A83E0 VA: 0x1813A9DE0
 	public void set_Denominator(byte value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB10410 Offset: 0xB0EA10 VA: 0x180B10410
+	// RVA: 0xB106D0 Offset: 0xB0ECD0 VA: 0x180B106D0
 	public byte get_ClocksPerClick() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE30020 Offset: 0xE2E620 VA: 0x180E30020
+	// RVA: 0xE302E0 Offset: 0xE2E8E0 VA: 0x180E302E0
 	public void set_ClocksPerClick(byte value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13A9B10 Offset: 0x13A8110 VA: 0x1813A9B10
+	// RVA: 0x13A9DD0 Offset: 0x13A83D0 VA: 0x1813A9DD0
 	public byte get_ThirtySecondNotesPerBeat() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13A9C40 Offset: 0x13A8240 VA: 0x1813A9C40
+	// RVA: 0x13A9F00 Offset: 0x13A8500 VA: 0x1813A9F00
 	public void set_ThirtySecondNotesPerBeat(byte value) { }
 
-	// RVA: 0x13A96E0 Offset: 0x13A7CE0 VA: 0x1813A96E0 Slot: 6
+	// RVA: 0x13A99A0 Offset: 0x13A7FA0 VA: 0x1813A99A0 Slot: 6
 	protected override void ReadContent(MidiReader reader, ReadingSettings settings, int size) { }
 
-	// RVA: 0x13A9660 Offset: 0x13A7C60 VA: 0x1813A9660 Slot: 5
+	// RVA: 0x13A9920 Offset: 0x13A7F20 VA: 0x1813A9920 Slot: 5
 	protected override MidiEvent CloneEvent() { }
 
-	// RVA: 0x13A98B0 Offset: 0x13A7EB0 VA: 0x1813A98B0 Slot: 3
+	// RVA: 0x13A9B70 Offset: 0x13A8170 VA: 0x1813A9B70 Slot: 3
 	public override string ToString() { }
 
 }

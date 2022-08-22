@@ -17,19 +17,19 @@ public class ERLocalGrid : ScriptableObject // TypeDefIndex: 7212
 
 	// Methods
 
-	// RVA: 0x9BA9B0 Offset: 0x9B8FB0 VA: 0x1809BA9B0
+	// RVA: 0x9BAC70 Offset: 0x9B9270 VA: 0x1809BAC70
 	public void Init(ERModularBase scr) { }
 
-	// RVA: 0x9BA6C0 Offset: 0x9B8CC0 VA: 0x1809BA6C0
+	// RVA: 0x9BA980 Offset: 0x9B8F80 VA: 0x1809BA980
 	public static ERLocalGrid CreateInstance(ERModularBase scr) { }
 
-	// RVA: 0x9BA7A0 Offset: 0x9B8DA0 VA: 0x1809BA7A0
+	// RVA: 0x9BAA60 Offset: 0x9B9060 VA: 0x1809BAA60
 	public static string[] GridNames(ERModularBase scr) { }
 
-	// RVA: 0x9BAA50 Offset: 0x9B9050 VA: 0x1809BAA50
+	// RVA: 0x9BAD10 Offset: 0x9B9310 VA: 0x1809BAD10
 	public void SetOffsets(ERModularBase scr, Vector3 pos, Vector3 v) { }
 
-	// RVA: 0x9BAAA0 Offset: 0x9B90A0 VA: 0x1809BAAA0
+	// RVA: 0x9BAD60 Offset: 0x9B9360 VA: 0x1809BAD60
 	public void .ctor() { }
 
 }

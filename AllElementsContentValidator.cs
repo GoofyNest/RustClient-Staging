@@ -10,28 +10,28 @@ internal sealed class AllElementsContentValidator : ContentValidator // TypeDefI
 
 	// Methods
 
-	// RVA: 0xF41D00 Offset: 0xF40300 VA: 0x180F41D00
+	// RVA: 0xF41FC0 Offset: 0xF405C0 VA: 0x180F41FC0
 	public void .ctor(XmlSchemaContentType contentType, int size, bool isEmptiable) { }
 
-	// RVA: 0xF411A0 Offset: 0xF3F7A0 VA: 0x180F411A0
+	// RVA: 0xF41460 Offset: 0xF3FA60 VA: 0x180F41460
 	public bool AddElement(XmlQualifiedName name, object particle, bool isEmptiable) { }
 
-	// RVA: 0xF41E40 Offset: 0xF40440 VA: 0x180F41E40 Slot: 4
+	// RVA: 0xF42100 Offset: 0xF40700 VA: 0x180F42100 Slot: 4
 	public override bool get_IsEmptiable() { }
 
-	// RVA: 0xF41A50 Offset: 0xF40050 VA: 0x180F41A50 Slot: 5
+	// RVA: 0xF41D10 Offset: 0xF40310 VA: 0x180F41D10 Slot: 5
 	public override void InitValidation(ValidationState context) { }
 
-	// RVA: 0xF41B30 Offset: 0xF40130 VA: 0x180F41B30 Slot: 6
+	// RVA: 0xF41DF0 Offset: 0xF403F0 VA: 0x180F41DF0 Slot: 6
 	public override object ValidateElement(XmlQualifiedName name, ValidationState context, out int errorCode) { }
 
-	// RVA: 0xF41310 Offset: 0xF3F910 VA: 0x180F41310 Slot: 7
+	// RVA: 0xF415D0 Offset: 0xF3FBD0 VA: 0x180F415D0 Slot: 7
 	public override bool CompleteValidation(ValidationState context) { }
 
-	// RVA: 0xF41360 Offset: 0xF3F960 VA: 0x180F41360 Slot: 8
+	// RVA: 0xF41620 Offset: 0xF3FC20 VA: 0x180F41620 Slot: 8
 	public override ArrayList ExpectedElements(ValidationState context, bool isRequiredOnly) { }
 
-	// RVA: 0xF416C0 Offset: 0xF3FCC0 VA: 0x180F416C0 Slot: 9
+	// RVA: 0xF41980 Offset: 0xF3FF80 VA: 0x180F41980 Slot: 9
 	public override ArrayList ExpectedParticles(ValidationState context, bool isRequiredOnly, XmlSchemaSet schemaSet) { }
 
 }

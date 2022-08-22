@@ -15,7 +15,7 @@ internal class Filter : AstNode // TypeDefIndex: 1791
 	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 4
 	public override AstNode.AstType get_Type() { }
 
-	// RVA: 0xAC1DA0 Offset: 0xAC03A0 VA: 0x180AC1DA0 Slot: 5
+	// RVA: 0xAC2060 Offset: 0xAC0660 VA: 0x180AC2060 Slot: 5
 	public override XPathResultType get_ReturnType() { }
 
 }

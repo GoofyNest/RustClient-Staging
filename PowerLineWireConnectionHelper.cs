@@ -5,7 +5,7 @@ public class PowerLineWireConnectionHelper : MonoBehaviour // TypeDefIndex: 1037
 
 	// Methods
 
-	// RVA: 0x99DEF0 Offset: 0x99C4F0 VA: 0x18099DEF0
+	// RVA: 0x99E000 Offset: 0x99C600 VA: 0x18099E000
 	public void .ctor() { }
 
 }

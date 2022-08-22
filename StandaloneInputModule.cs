@@ -38,34 +38,34 @@ public class StandaloneInputModule : PointerInputModule // TypeDefIndex: 5085
 
 	// Methods
 
-	// RVA: 0x10CD3A0 Offset: 0x10CB9A0 VA: 0x1810CD3A0
+	// RVA: 0x10CD660 Offset: 0x10CBC60 VA: 0x1810CD660
 	protected void .ctor() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
 	public StandaloneInputModule.InputMode get_inputMode() { }
 
-	// RVA: 0x10CD440 Offset: 0x10CBA40 VA: 0x1810CD440
+	// RVA: 0x10CD700 Offset: 0x10CBD00 VA: 0x1810CD700
 	public bool get_allowActivationOnMobileDevice() { }
 
-	// RVA: 0x10CD470 Offset: 0x10CBA70 VA: 0x1810CD470
+	// RVA: 0x10CD730 Offset: 0x10CBD30 VA: 0x1810CD730
 	public void set_allowActivationOnMobileDevice(bool value) { }
 
-	// RVA: 0x10CD440 Offset: 0x10CBA40 VA: 0x1810CD440
+	// RVA: 0x10CD700 Offset: 0x10CBD00 VA: 0x1810CD700
 	public bool get_forceModuleActive() { }
 
-	// RVA: 0x10CD470 Offset: 0x10CBA70 VA: 0x1810CD470
+	// RVA: 0x10CD730 Offset: 0x10CBD30 VA: 0x1810CD730
 	public void set_forceModuleActive(bool value) { }
 
-	// RVA: 0x10CD450 Offset: 0x10CBA50 VA: 0x1810CD450
+	// RVA: 0x10CD710 Offset: 0x10CBD10 VA: 0x1810CD710
 	public float get_inputActionsPerSecond() { }
 
-	// RVA: 0xC1FB10 Offset: 0xC1E110 VA: 0x180C1FB10
+	// RVA: 0xC1FDD0 Offset: 0xC1E3D0 VA: 0x180C1FDD0
 	public void set_inputActionsPerSecond(float value) { }
 
-	// RVA: 0x10CD460 Offset: 0x10CBA60 VA: 0x1810CD460
+	// RVA: 0x10CD720 Offset: 0x10CBD20 VA: 0x1810CD720
 	public float get_repeatDelay() { }
 
-	// RVA: 0x10CD480 Offset: 0x10CBA80 VA: 0x1810CD480
+	// RVA: 0x10CD740 Offset: 0x10CBD40 VA: 0x1810CD740
 	public void set_repeatDelay(float value) { }
 
 	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
@@ -92,59 +92,59 @@ public class StandaloneInputModule : PointerInputModule // TypeDefIndex: 5085
 	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
 	public void set_cancelButton(string value) { }
 
-	// RVA: 0x10CD210 Offset: 0x10CB810 VA: 0x1810CD210
+	// RVA: 0x10CD4D0 Offset: 0x10CBAD0 VA: 0x1810CD4D0
 	private bool ShouldIgnoreEventsOnNoFocus() { }
 
-	// RVA: 0x10CD230 Offset: 0x10CB830 VA: 0x1810CD230 Slot: 24
+	// RVA: 0x10CD4F0 Offset: 0x10CBAF0 VA: 0x1810CD4F0 Slot: 24
 	public override void UpdateModule() { }
 
-	// RVA: 0x10CC440 Offset: 0x10CAA40 VA: 0x1810CC440
+	// RVA: 0x10CC700 Offset: 0x10CAD00 VA: 0x1810CC700
 	private void ReleaseMouse(PointerEventData pointerEvent, GameObject currentOverGo) { }
 
-	// RVA: 0x10CAB30 Offset: 0x10C9130 VA: 0x1810CAB30 Slot: 25
+	// RVA: 0x10CADF0 Offset: 0x10C93F0 VA: 0x1810CADF0 Slot: 25
 	public override bool IsModuleSupported() { }
 
-	// RVA: 0x10CCF60 Offset: 0x10CB560 VA: 0x1810CCF60 Slot: 21
+	// RVA: 0x10CD220 Offset: 0x10CB820 VA: 0x1810CD220 Slot: 21
 	public override bool ShouldActivateModule() { }
 
-	// RVA: 0x10CA820 Offset: 0x10C8E20 VA: 0x1810CA820 Slot: 23
+	// RVA: 0x10CAAE0 Offset: 0x10C90E0 VA: 0x1810CAAE0 Slot: 23
 	public override void ActivateModule() { }
 
-	// RVA: 0x10CA990 Offset: 0x10C8F90 VA: 0x1810CA990 Slot: 22
+	// RVA: 0x10CAC50 Offset: 0x10C9250 VA: 0x1810CAC50 Slot: 22
 	public override void DeactivateModule() { }
 
-	// RVA: 0x10CC240 Offset: 0x10CA840 VA: 0x1810CC240 Slot: 17
+	// RVA: 0x10CC500 Offset: 0x10CAB00 VA: 0x1810CC500 Slot: 17
 	public override void Process() { }
 
-	// RVA: 0x10CB270 Offset: 0x10C9870 VA: 0x1810CB270
+	// RVA: 0x10CB530 Offset: 0x10C9B30 VA: 0x1810CB530
 	private bool ProcessTouchEvents() { }
 
-	// RVA: 0x10CBB30 Offset: 0x10CA130 VA: 0x1810CBB30
+	// RVA: 0x10CBDF0 Offset: 0x10CA3F0 VA: 0x1810CBDF0
 	protected void ProcessTouchPress(PointerEventData pointerEvent, bool pressed, bool released) { }
 
-	// RVA: 0x10CCB90 Offset: 0x10CB190 VA: 0x1810CCB90
+	// RVA: 0x10CCE50 Offset: 0x10CB450 VA: 0x1810CCE50
 	protected bool SendSubmitEventToSelectedObject() { }
 
-	// RVA: 0x10CA9A0 Offset: 0x10C8FA0 VA: 0x1810CA9A0
+	// RVA: 0x10CAC60 Offset: 0x10C9260 VA: 0x1810CAC60
 	private Vector2 GetRawMoveVector() { }
 
-	// RVA: 0x10CC760 Offset: 0x10CAD60 VA: 0x1810CC760
+	// RVA: 0x10CCA20 Offset: 0x10CB020 VA: 0x1810CCA20
 	protected bool SendMoveEventToSelectedObject() { }
 
-	// RVA: 0x10CABA0 Offset: 0x10C91A0 VA: 0x1810CABA0
+	// RVA: 0x10CAE60 Offset: 0x10C9460 VA: 0x1810CAE60
 	protected void ProcessMouseEvent() { }
 
 	[ObsoleteAttribute] // RVA: 0x88880 Offset: 0x87C80 VA: 0x180088880
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 30
 	protected virtual bool ForceAutoSelect() { }
 
-	// RVA: 0x10CABB0 Offset: 0x10C91B0 VA: 0x1810CABB0
+	// RVA: 0x10CAE70 Offset: 0x10C9470 VA: 0x1810CAE70
 	protected void ProcessMouseEvent(int id) { }
 
-	// RVA: 0x10CCE00 Offset: 0x10CB400 VA: 0x1810CCE00
+	// RVA: 0x10CD0C0 Offset: 0x10CB6C0 VA: 0x1810CD0C0
 	protected bool SendUpdateEventToSelectedObject() { }
 
-	// RVA: 0x10CAE80 Offset: 0x10C9480 VA: 0x1810CAE80
+	// RVA: 0x10CB140 Offset: 0x10C9740 VA: 0x1810CB140
 	protected void ProcessMousePress(PointerInputModule.MouseButtonEventData data) { }
 
 	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520

@@ -30,7 +30,7 @@ public struct InventoryResult : IDisposable // TypeDefIndex: 5250
 	public void Dispose() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x98C80 Offset: 0x98080 VA: 0x180098C80
-	// RVA: 0xDE2050 Offset: 0xDE0650 VA: 0x180DE2050
+	// RVA: 0xDE2310 Offset: 0xDE0910 VA: 0x180DE2310
 	internal static Task<Nullable<InventoryResult>> GetAsync(SteamInventoryResult_t sresult) { }
 
 	// RVA: 0x123060 Offset: 0x122460 VA: 0x180123060

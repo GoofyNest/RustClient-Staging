@@ -43,16 +43,16 @@ public struct InventoryItem : IEquatable<InventoryItem> // TypeDefIndex: 5241
 	// RVA: 0x1229F0 Offset: 0x121DF0 VA: 0x1801229F0
 	public Task<Nullable<InventoryResult>> AddAsync(InventoryItem add, int quantity = 1) { }
 
-	// RVA: 0xDE1500 Offset: 0xDDFB00 VA: 0x180DE1500
+	// RVA: 0xDE17C0 Offset: 0xDDFDC0 VA: 0x180DE17C0
 	internal static InventoryItem From(SteamItemDetails_t details) { }
 
-	// RVA: 0xDE1570 Offset: 0xDDFB70 VA: 0x180DE1570
+	// RVA: 0xDE1830 Offset: 0xDDFE30 VA: 0x180DE1830
 	internal static Dictionary<string, string> GetProperties(SteamInventoryResult_t result, int index) { }
 
 	// RVA: 0x122E00 Offset: 0x122200 VA: 0x180122E00
 	public DateTime get_Acquired() { }
 
-	// RVA: 0xDE1B20 Offset: 0xDE0120 VA: 0x180DE1B20
+	// RVA: 0xDE1DE0 Offset: 0xDE03E0 VA: 0x180DE1DE0
 	public static bool op_Equality(InventoryItem a, InventoryItem b) { }
 
 	// RVA: 0x122C30 Offset: 0x122030 VA: 0x180122C30 Slot: 0

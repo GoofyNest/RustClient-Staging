@@ -19,7 +19,7 @@ internal struct HTTPRequestCompleted_t : ICallbackData // TypeDefIndex: 5424
 	// RVA: 0x1EA730 Offset: 0x1E9B30 VA: 0x1801EA730 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13729E0 Offset: 0x1370FE0 VA: 0x1813729E0
+	// RVA: 0x1372CA0 Offset: 0x13712A0 VA: 0x181372CA0
 	private static void .cctor() { }
 
 }

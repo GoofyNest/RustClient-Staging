@@ -22,11 +22,11 @@ public class HttpWebResponse : WebResponse, ISerializable, IDisposable // TypeDe
 
 	// Methods
 
-	// RVA: 0x1342AB0 Offset: 0x13410B0 VA: 0x181342AB0
+	// RVA: 0x1342D70 Offset: 0x1341370 VA: 0x181342D70
 	internal void .ctor(Uri uri, string method, WebConnectionData data, CookieContainer container) { }
 
 	[ObsoleteAttribute] // RVA: 0xB6F50 Offset: 0xB6350 VA: 0x1800B6F50
-	// RVA: 0x1342800 Offset: 0x1340E00 VA: 0x181342800
+	// RVA: 0x1342AC0 Offset: 0x13410C0 VA: 0x181342AC0
 	protected void .ctor(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870 Slot: 11
@@ -35,45 +35,45 @@ public class HttpWebResponse : WebResponse, ISerializable, IDisposable // TypeDe
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 14
 	public override WebHeaderCollection get_Headers() { }
 
-	// RVA: 0x1342D00 Offset: 0x1341300 VA: 0x181342D00 Slot: 13
+	// RVA: 0x1342FC0 Offset: 0x13415C0 VA: 0x181342FC0 Slot: 13
 	public override Uri get_ResponseUri() { }
 
 	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440 Slot: 15
 	public virtual HttpStatusCode get_StatusCode() { }
 
-	// RVA: 0x1342D20 Offset: 0x1341320 VA: 0x181342D20 Slot: 16
+	// RVA: 0x1342FE0 Offset: 0x13415E0 VA: 0x181342FE0 Slot: 16
 	public virtual string get_StatusDescription() { }
 
-	// RVA: 0x1342720 Offset: 0x1340D20 VA: 0x181342720
+	// RVA: 0x13429E0 Offset: 0x1340FE0 VA: 0x1813429E0
 	internal void ReadAll() { }
 
-	// RVA: 0x1342680 Offset: 0x1340C80 VA: 0x181342680 Slot: 12
+	// RVA: 0x1342940 Offset: 0x1340F40 VA: 0x181342940 Slot: 12
 	public override Stream GetResponseStream() { }
 
-	// RVA: 0x118CF60 Offset: 0x118B560 VA: 0x18118CF60 Slot: 6
+	// RVA: 0x118D220 Offset: 0x118B820 VA: 0x18118D220 Slot: 6
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
-	// RVA: 0x1342570 Offset: 0x1340B70 VA: 0x181342570 Slot: 8
+	// RVA: 0x1342830 Offset: 0x1340E30 VA: 0x181342830 Slot: 8
 	protected override void GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
-	// RVA: 0x13423A0 Offset: 0x13409A0 VA: 0x1813423A0 Slot: 9
+	// RVA: 0x1342660 Offset: 0x1340C60 VA: 0x181342660 Slot: 9
 	public override void Close() { }
 
-	// RVA: 0x13427B0 Offset: 0x1340DB0 VA: 0x1813427B0 Slot: 7
+	// RVA: 0x1342A70 Offset: 0x1341070 VA: 0x181342A70 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x13423E0 Offset: 0x13409E0 VA: 0x1813423E0 Slot: 10
+	// RVA: 0x13426A0 Offset: 0x1340CA0 VA: 0x1813426A0 Slot: 10
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x1342310 Offset: 0x1340910 VA: 0x181342310
+	// RVA: 0x13425D0 Offset: 0x1340BD0 VA: 0x1813425D0
 	private void CheckDisposed() { }
 
-	// RVA: 0x13423F0 Offset: 0x13409F0 VA: 0x1813423F0
+	// RVA: 0x13426B0 Offset: 0x1340CB0 VA: 0x1813426B0
 	private void FillCookies() { }
 
 	[ObsoleteAttribute] // RVA: 0xB8A40 Offset: 0xB7E40 VA: 0x1800B8A40
 	[EditorBrowsableAttribute] // RVA: 0xB8A40 Offset: 0xB7E40 VA: 0x1800B8A40
-	// RVA: 0x13427D0 Offset: 0x1340DD0 VA: 0x1813427D0
+	// RVA: 0x1342A90 Offset: 0x1341090 VA: 0x181342A90
 	public void .ctor() { }
 
 }

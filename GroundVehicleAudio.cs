@@ -57,11 +57,11 @@ public abstract class GroundVehicleAudio : MonoBehaviour, IClientComponent // Ty
 	private void set_CameraDistance(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xCA6AA0 Offset: 0xCA50A0 VA: 0x180CA6AA0
+	// RVA: 0xCA6D60 Offset: 0xCA5360 VA: 0x180CA6D60
 	protected bool get_inWater() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xCA6AC0 Offset: 0xCA50C0 VA: 0x180CA6AC0
+	// RVA: 0xCA6D80 Offset: 0xCA5380 VA: 0x180CA6D80
 	private void set_inWater(bool value) { }
 
 	// RVA: -1 Offset: -1 Slot: 4
@@ -71,68 +71,68 @@ public abstract class GroundVehicleAudio : MonoBehaviour, IClientComponent // Ty
 	protected abstract void set_EngineAudioSet(EngineAudioSet value);
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xCA6A90 Offset: 0xCA5090 VA: 0x180CA6A90
+	// RVA: 0xCA6D50 Offset: 0xCA5350 VA: 0x180CA6D50
 	public float get_engineRpm() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xCA6AB0 Offset: 0xCA50B0 VA: 0x180CA6AB0
+	// RVA: 0xCA6D70 Offset: 0xCA5370 VA: 0x180CA6D70
 	private void set_engineRpm(float value) { }
 
-	// RVA: 0xCA5BF0 Offset: 0xCA41F0 VA: 0x180CA5BF0 Slot: 6
+	// RVA: 0xCA5EB0 Offset: 0xCA44B0 VA: 0x180CA5EB0 Slot: 6
 	protected virtual void Awake() { }
 
-	// RVA: 0xCA5C20 Offset: 0xCA4220 VA: 0x180CA5C20 Slot: 7
+	// RVA: 0xCA5EE0 Offset: 0xCA44E0 VA: 0x180CA5EE0 Slot: 7
 	public virtual void ClientTick() { }
 
-	// RVA: 0xCA6180 Offset: 0xCA4780 VA: 0x180CA6180 Slot: 8
+	// RVA: 0xCA6440 Offset: 0xCA4A40 VA: 0x180CA6440 Slot: 8
 	public virtual void OnClientTickStopped() { }
 
 	// RVA: -1 Offset: -1
 	public void OnEngineStateChanged<T>(VehicleEngineController.EngineState<T> newState) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1573100 Offset: 0x1571700 VA: 0x181573100
+	|-RVA: 0x15733C0 Offset: 0x15719C0 VA: 0x1815733C0
 	|-GroundVehicleAudio.OnEngineStateChanged<GroundVehicle>
 	|-GroundVehicleAudio.OnEngineStateChanged<object>
 	*/
 
-	// RVA: 0xCA6230 Offset: 0xCA4830 VA: 0x180CA6230
+	// RVA: 0xCA64F0 Offset: 0xCA4AF0 VA: 0x180CA64F0
 	public void PlayLightsToggleSound() { }
 
-	// RVA: 0xCA61E0 Offset: 0xCA47E0 VA: 0x180CA61E0
+	// RVA: 0xCA64A0 Offset: 0xCA4AA0 VA: 0x180CA64A0
 	public void PlayEngineStartFailSound() { }
 
 	// RVA: -1 Offset: -1 Slot: 9
 	protected abstract int GetNumEngines();
 
-	// RVA: 0xCA6280 Offset: 0xCA4880 VA: 0x180CA6280
+	// RVA: 0xCA6540 Offset: 0xCA4B40 VA: 0x180CA6540
 	private void StartEngineSounds() { }
 
-	// RVA: 0xCA6410 Offset: 0xCA4A10 VA: 0x180CA6410
+	// RVA: 0xCA66D0 Offset: 0xCA4CD0 VA: 0x180CA66D0
 	private void StopEngineSounds() { }
 
-	// RVA: 0xCA6890 Offset: 0xCA4E90 VA: 0x180CA6890
+	// RVA: 0xCA6B50 Offset: 0xCA5150 VA: 0x180CA6B50
 	private void UpdateWaterSounds() { }
 
-	// RVA: 0xCA6630 Offset: 0xCA4C30 VA: 0x180CA6630
+	// RVA: 0xCA68F0 Offset: 0xCA4EF0 VA: 0x180CA68F0
 	private void UpdateEngineSounds() { }
 
-	// RVA: 0xCA6150 Offset: 0xCA4750 VA: 0x180CA6150
+	// RVA: 0xCA6410 Offset: 0xCA4A10 VA: 0x180CA6410
 	private float GetWheelRPM() { }
 
-	// RVA: 0xCA5D50 Offset: 0xCA4350 VA: 0x180CA5D50
+	// RVA: 0xCA6010 Offset: 0xCA4610 VA: 0x180CA6010
 	private float GetEngineRPM() { }
 
-	// RVA: 0xCA6440 Offset: 0xCA4A40 VA: 0x180CA6440
+	// RVA: 0xCA6700 Offset: 0xCA4D00 VA: 0x180CA6700
 	private void UpdateBrakeSounds() { }
 
-	// RVA: 0xCA6370 Offset: 0xCA4970 VA: 0x180CA6370
+	// RVA: 0xCA6630 Offset: 0xCA4C30 VA: 0x180CA6630
 	private void StopBrakeSound() { }
 
-	// RVA: 0xCA5BF0 Offset: 0xCA41F0 VA: 0x180CA5BF0
+	// RVA: 0xCA5EB0 Offset: 0xCA44B0 VA: 0x180CA5EB0
 	private void StopWaterSounds() { }
 
-	// RVA: 0xCA6A70 Offset: 0xCA5070 VA: 0x180CA6A70
+	// RVA: 0xCA6D30 Offset: 0xCA5330 VA: 0x180CA6D30
 	protected void .ctor() { }
 
 }

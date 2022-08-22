@@ -26,10 +26,10 @@ public class WebSocketConnectionInfo : IWebSocketConnectionInfo // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x2209920 Offset: 0x2207F20 VA: 0x182209920
+	// RVA: 0x2209BE0 Offset: 0x22081E0 VA: 0x182209BE0
 	public static WebSocketConnectionInfo Create(WebSocketHttpRequest request, IPAddress clientIp, int clientPort) { }
 
-	// RVA: 0x2209A80 Offset: 0x2208080 VA: 0x182209A80
+	// RVA: 0x2209D40 Offset: 0x2208340 VA: 0x182209D40
 	private void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -45,11 +45,11 @@ public class WebSocketConnectionInfo : IWebSocketConnectionInfo // TypeDefIndex:
 	private void set_Host(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330 Slot: 4
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 4
 	public string get_Path() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
+	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
 	private void set_Path(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -61,11 +61,11 @@ public class WebSocketConnectionInfo : IWebSocketConnectionInfo // TypeDefIndex:
 	public void set_ClientIpAddress(IPAddress value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC74910 Offset: 0xC72F10 VA: 0x180C74910
+	// RVA: 0xC74BD0 Offset: 0xC731D0 VA: 0x180C74BD0
 	public void set_ClientPort(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2209AF0 Offset: 0x22080F0 VA: 0x182209AF0
+	// RVA: 0x2209DB0 Offset: 0x22083B0 VA: 0x182209DB0
 	public void set_Id(Guid value) { }
 
 }

@@ -22,7 +22,7 @@ internal struct RuntimeClassHandle // TypeDefIndex: 5
 	// RVA: 0x1F67E0 Offset: 0x1F5BE0 VA: 0x1801F67E0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1649FC0 Offset: 0x16485C0 VA: 0x181649FC0
+	// RVA: 0x164A280 Offset: 0x1648880 VA: 0x18164A280
 	internal static IntPtr GetTypeFromClass(RuntimeStructs.MonoClass* klass) { }
 
 	// RVA: 0x1F6810 Offset: 0x1F5C10 VA: 0x1801F6810

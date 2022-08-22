@@ -4,16 +4,16 @@ public class ValidBounds : SingletonComponent<ValidBounds> // TypeDefIndex: 1005
 
 	// Methods
 
-	// RVA: 0xACD570 Offset: 0xACBB70 VA: 0x180ACD570
+	// RVA: 0xACD830 Offset: 0xACBE30 VA: 0x180ACD830
 	public static bool Test(Vector3 vPos) { }
 
-	// RVA: 0xACD4D0 Offset: 0xACBAD0 VA: 0x180ACD4D0
+	// RVA: 0xACD790 Offset: 0xACBD90 VA: 0x180ACD790
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0xACD340 Offset: 0xACB940 VA: 0x180ACD340
+	// RVA: 0xACD600 Offset: 0xACBC00 VA: 0x180ACD600
 	internal bool IsInside(Vector3 vPos) { }
 
-	// RVA: 0xACD7C0 Offset: 0xACBDC0 VA: 0x180ACD7C0
+	// RVA: 0xACDA80 Offset: 0xACC080 VA: 0x180ACDA80
 	public void .ctor() { }
 
 }

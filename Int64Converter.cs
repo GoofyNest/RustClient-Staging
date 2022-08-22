@@ -4,19 +4,19 @@ public class Int64Converter : BaseNumberConverter // TypeDefIndex: 2722
 
 	// Methods
 
-	// RVA: 0x15C8210 Offset: 0x15C6810 VA: 0x1815C8210 Slot: 17
+	// RVA: 0x15C84D0 Offset: 0x15C6AD0 VA: 0x1815C84D0 Slot: 17
 	internal override Type get_TargetType() { }
 
-	// RVA: 0x15C80A0 Offset: 0x15C66A0 VA: 0x1815C80A0 Slot: 18
+	// RVA: 0x15C8360 Offset: 0x15C6960 VA: 0x1815C8360 Slot: 18
 	internal override object FromString(string value, int radix) { }
 
-	// RVA: 0x15C8120 Offset: 0x15C6720 VA: 0x1815C8120 Slot: 19
+	// RVA: 0x15C83E0 Offset: 0x15C69E0 VA: 0x1815C83E0 Slot: 19
 	internal override object FromString(string value, NumberFormatInfo formatInfo) { }
 
-	// RVA: 0x15C8180 Offset: 0x15C6780 VA: 0x1815C8180 Slot: 21
+	// RVA: 0x15C8440 Offset: 0x15C6A40 VA: 0x1815C8440 Slot: 21
 	internal override string ToString(object value, NumberFormatInfo formatInfo) { }
 
-	// RVA: 0x15BE590 Offset: 0x15BCB90 VA: 0x1815BE590
+	// RVA: 0x15BE850 Offset: 0x15BCE50 VA: 0x1815BE850
 	public void .ctor() { }
 
 }

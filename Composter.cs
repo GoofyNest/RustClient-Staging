@@ -6,82 +6,82 @@ public class Composter : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6377
 
 	// Methods
 
-	// RVA: 0x20B01C0 Offset: 0x20AE7C0 VA: 0x1820B01C0
+	// RVA: 0x20B0480 Offset: 0x20AEA80 VA: 0x1820B0480
 	public static void ResetToPool(Composter instance) { }
 
-	// RVA: 0x20B0240 Offset: 0x20AE840 VA: 0x1820B0240
+	// RVA: 0x20B0500 Offset: 0x20AEB00 VA: 0x1820B0500
 	public void ResetToPool() { }
 
-	// RVA: 0x20B0090 Offset: 0x20AE690 VA: 0x1820B0090 Slot: 9
+	// RVA: 0x20B0350 Offset: 0x20AE950 VA: 0x1820B0350 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE4D0 Offset: 0x1BFCAD0 VA: 0x181BFE4D0
+	// RVA: 0x1BFE790 Offset: 0x1BFCD90 VA: 0x181BFE790
 	public void CopyTo(Composter instance) { }
 
-	// RVA: 0x20AF700 Offset: 0x20ADD00 VA: 0x1820AF700
+	// RVA: 0x20AF9C0 Offset: 0x20ADFC0 VA: 0x1820AF9C0
 	public Composter Copy() { }
 
-	// RVA: 0x20AFDA0 Offset: 0x20AE3A0 VA: 0x1820AFDA0
+	// RVA: 0x20B0060 Offset: 0x20AE660 VA: 0x1820B0060
 	public static Composter Deserialize(Stream stream) { }
 
-	// RVA: 0x20AF990 Offset: 0x20ADF90 VA: 0x1820AF990
+	// RVA: 0x20AFC50 Offset: 0x20AE250 VA: 0x1820AFC50
 	public static Composter DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20AFA10 Offset: 0x20AE010 VA: 0x1820AFA10
+	// RVA: 0x20AFCD0 Offset: 0x20AE2D0 VA: 0x1820AFCD0
 	public static Composter DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20AFF70 Offset: 0x20AE570 VA: 0x1820AFF70
+	// RVA: 0x20B0230 Offset: 0x20AE830 VA: 0x1820B0230
 	public static Composter Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20B0180 Offset: 0x20AE780 VA: 0x1820B0180
+	// RVA: 0x20B0440 Offset: 0x20AEA40 VA: 0x1820B0440
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20B0690 Offset: 0x20AEC90 VA: 0x1820B0690 Slot: 12
+	// RVA: 0x20B0950 Offset: 0x20AEF50 VA: 0x1820B0950 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20B06B0 Offset: 0x20AECB0 VA: 0x1820B06B0 Slot: 13
+	// RVA: 0x20B0970 Offset: 0x20AEF70 VA: 0x1820B0970 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Composter previous) { }
 
-	// RVA: 0x20B01A0 Offset: 0x20AE7A0 VA: 0x1820B01A0 Slot: 14
+	// RVA: 0x20B0460 Offset: 0x20AEA60 VA: 0x1820B0460 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20AFCA0 Offset: 0x20AE2A0 VA: 0x1820AFCA0
+	// RVA: 0x20AFF60 Offset: 0x20AE560 VA: 0x1820AFF60
 	public static Composter Deserialize(byte[] buffer, Composter instance, bool isDelta = False) { }
 
-	// RVA: 0x20AFE20 Offset: 0x20AE420 VA: 0x1820AFE20
+	// RVA: 0x20B00E0 Offset: 0x20AE6E0 VA: 0x1820B00E0
 	public static Composter Deserialize(Stream stream, Composter instance, bool isDelta) { }
 
-	// RVA: 0x20AF770 Offset: 0x20ADD70 VA: 0x1820AF770
+	// RVA: 0x20AFA30 Offset: 0x20AE030 VA: 0x1820AFA30
 	public static Composter DeserializeLengthDelimited(Stream stream, Composter instance, bool isDelta) { }
 
-	// RVA: 0x20AFAA0 Offset: 0x20AE0A0 VA: 0x1820AFAA0
+	// RVA: 0x20AFD60 Offset: 0x20AE360 VA: 0x1820AFD60
 	public static Composter DeserializeLength(Stream stream, int length, Composter instance, bool isDelta) { }
 
-	// RVA: 0x20B02C0 Offset: 0x20AE8C0 VA: 0x1820B02C0
+	// RVA: 0x20B0580 Offset: 0x20AEB80 VA: 0x1820B0580
 	public static void SerializeDelta(Stream stream, Composter instance, Composter previous) { }
 
-	// RVA: 0x20B05A0 Offset: 0x20AEBA0 VA: 0x1820B05A0
+	// RVA: 0x20B0860 Offset: 0x20AEE60 VA: 0x1820B0860
 	public static void Serialize(Stream stream, Composter instance) { }
 
-	// RVA: 0x20B0680 Offset: 0x20AEC80 VA: 0x1820B0680
+	// RVA: 0x20B0940 Offset: 0x20AEF40 VA: 0x1820B0940
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20B0690 Offset: 0x20AEC90 VA: 0x1820B0690
+	// RVA: 0x20B0950 Offset: 0x20AEF50 VA: 0x1820B0950
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20B0490 Offset: 0x20AEA90 VA: 0x1820B0490
+	// RVA: 0x20B0750 Offset: 0x20AED50 VA: 0x1820B0750
 	public static byte[] SerializeToBytes(Composter instance) { }
 
-	// RVA: 0x20B03E0 Offset: 0x20AE9E0 VA: 0x1820B03E0
+	// RVA: 0x20B06A0 Offset: 0x20AECA0 VA: 0x1820B06A0
 	public static void SerializeLengthDelimited(Stream stream, Composter instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -89,7 +89,7 @@ public class Composter : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6377
 public class Composter : StorageContainer // TypeDefIndex: 8684
 {	// Methods
 
-	// RVA: 0x6D1CB0 Offset: 0x6D02B0 VA: 0x1806D1CB0
+	// RVA: 0x6D1DC0 Offset: 0x6D03C0 VA: 0x1806D1DC0
 	public void .ctor() { }
 
 }

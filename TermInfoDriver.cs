@@ -59,139 +59,139 @@ internal class TermInfoDriver : IConsoleDriver // TypeDefIndex: 393
 
 	// Methods
 
-	// RVA: 0x18C0D90 Offset: 0x18BF390 VA: 0x1818C0D90
+	// RVA: 0x18C1050 Offset: 0x18BF650 VA: 0x1818C1050
 	private static string TryTermInfoDir(string dir, string term) { }
 
-	// RVA: 0x18C09E0 Offset: 0x18BEFE0 VA: 0x1818C09E0
+	// RVA: 0x18C0CA0 Offset: 0x18BF2A0 VA: 0x1818C0CA0
 	private static string SearchTerminfo(string term) { }
 
-	// RVA: 0x18C10A0 Offset: 0x18BF6A0 VA: 0x1818C10A0
+	// RVA: 0x18C1360 Offset: 0x18BF960 VA: 0x1818C1360
 	private void WriteConsole(string str) { }
 
-	// RVA: 0x18C1540 Offset: 0x18BFB40 VA: 0x1818C1540
+	// RVA: 0x18C1800 Offset: 0x18BFE00 VA: 0x1818C1800
 	public void .ctor(string term) { }
 
-	// RVA: 0xC2B7E0 Offset: 0xC29DE0 VA: 0x180C2B7E0 Slot: 14
+	// RVA: 0xC2BAA0 Offset: 0xC2A0A0 VA: 0x180C2BAA0 Slot: 14
 	public bool get_Initialized() { }
 
-	// RVA: 0x18BF620 Offset: 0x18BDC20 VA: 0x1818BF620 Slot: 15
+	// RVA: 0x18BF8E0 Offset: 0x18BDEE0 VA: 0x1818BF8E0 Slot: 15
 	public void Init() { }
 
-	// RVA: 0x18BF3C0 Offset: 0x18BD9C0 VA: 0x1818BF3C0
+	// RVA: 0x18BF680 Offset: 0x18BDC80 VA: 0x1818BF680
 	private void IncrementX() { }
 
-	// RVA: 0x18C10D0 Offset: 0x18BF6D0 VA: 0x1818C10D0
+	// RVA: 0x18C1390 Offset: 0x18BF990 VA: 0x1818C1390
 	public void WriteSpecialKey(ConsoleKeyInfo key) { }
 
-	// RVA: 0x18C12B0 Offset: 0x18BF8B0 VA: 0x1818C12B0
+	// RVA: 0x18C1570 Offset: 0x18BFB70 VA: 0x1818C1570
 	public void WriteSpecialKey(char c) { }
 
-	// RVA: 0x18BFF80 Offset: 0x18BE580 VA: 0x1818BFF80
+	// RVA: 0x18C0240 Offset: 0x18BE840 VA: 0x1818C0240
 	public bool IsSpecialKey(ConsoleKeyInfo key) { }
 
-	// RVA: 0x18BFF30 Offset: 0x18BE530 VA: 0x1818BFF30
+	// RVA: 0x18C01F0 Offset: 0x18BE7F0 VA: 0x1818C01F0
 	public bool IsSpecialKey(char c) { }
 
-	// RVA: 0x18BC130 Offset: 0x18BA730 VA: 0x1818BC130
+	// RVA: 0x18BC3F0 Offset: 0x18BA9F0 VA: 0x1818BC3F0
 	private void ChangeColor(string format, ConsoleColor color) { }
 
-	// RVA: 0x18C1AD0 Offset: 0x18C00D0 VA: 0x1818C1AD0 Slot: 4
+	// RVA: 0x18C1D90 Offset: 0x18C0390 VA: 0x1818C1D90 Slot: 4
 	public ConsoleColor get_BackgroundColor() { }
 
-	// RVA: 0x18C1CC0 Offset: 0x18C02C0 VA: 0x1818C1CC0 Slot: 5
+	// RVA: 0x18C1F80 Offset: 0x18C0580 VA: 0x1818C1F80 Slot: 5
 	public void set_BackgroundColor(ConsoleColor value) { }
 
-	// RVA: 0x18C1BA0 Offset: 0x18C01A0 VA: 0x1818C1BA0 Slot: 10
+	// RVA: 0x18C1E60 Offset: 0x18C0460 VA: 0x1818C1E60 Slot: 10
 	public ConsoleColor get_ForegroundColor() { }
 
-	// RVA: 0x18C1DD0 Offset: 0x18C03D0 VA: 0x1818C1DD0 Slot: 11
+	// RVA: 0x18C2090 Offset: 0x18C0690 VA: 0x1818C2090 Slot: 11
 	public void set_ForegroundColor(ConsoleColor value) { }
 
-	// RVA: 0x18BED40 Offset: 0x18BD340 VA: 0x1818BED40
+	// RVA: 0x18BF000 Offset: 0x18BD600 VA: 0x1818BF000
 	private void GetCursorPosition() { }
 
-	// RVA: 0x18C1B10 Offset: 0x18C0110 VA: 0x1818C1B10 Slot: 6
+	// RVA: 0x18C1DD0 Offset: 0x18C03D0 VA: 0x1818C1DD0 Slot: 6
 	public int get_BufferWidth() { }
 
-	// RVA: 0x18C1B40 Offset: 0x18C0140 VA: 0x1818C1B40 Slot: 16
+	// RVA: 0x18C1E00 Offset: 0x18C0400 VA: 0x1818C1E00 Slot: 16
 	public int get_CursorLeft() { }
 
-	// RVA: 0x18C1D10 Offset: 0x18C0310 VA: 0x1818C1D10 Slot: 7
+	// RVA: 0x18C1FD0 Offset: 0x18C05D0 VA: 0x1818C1FD0 Slot: 7
 	public void set_CursorLeft(int value) { }
 
-	// RVA: 0x18C1B70 Offset: 0x18C0170 VA: 0x1818C1B70 Slot: 8
+	// RVA: 0x18C1E30 Offset: 0x18C0430 VA: 0x1818C1E30 Slot: 8
 	public int get_CursorTop() { }
 
-	// RVA: 0x18C1D70 Offset: 0x18C0370 VA: 0x1818C1D70 Slot: 9
+	// RVA: 0x18C2030 Offset: 0x18C0630 VA: 0x1818C2030 Slot: 9
 	public void set_CursorTop(int value) { }
 
-	// RVA: 0x18C1BE0 Offset: 0x18C01E0 VA: 0x1818C1BE0 Slot: 12
+	// RVA: 0x18C1EA0 Offset: 0x18C04A0 VA: 0x1818C1EA0 Slot: 12
 	public bool get_KeyAvailable() { }
 
-	// RVA: 0x18BC2B0 Offset: 0x18BA8B0 VA: 0x1818BC2B0
+	// RVA: 0x18BC570 Offset: 0x18BAB70 VA: 0x1818BC570
 	private void CheckWindowDimensions() { }
 
-	// RVA: 0x18C1C60 Offset: 0x18C0260 VA: 0x1818C1C60 Slot: 17
+	// RVA: 0x18C1F20 Offset: 0x18C0520 VA: 0x1818C1F20 Slot: 17
 	public int get_WindowHeight() { }
 
-	// RVA: 0x18C1C90 Offset: 0x18C0290 VA: 0x1818C1C90 Slot: 18
+	// RVA: 0x18C1F50 Offset: 0x18C0550 VA: 0x1818C1F50 Slot: 18
 	public int get_WindowWidth() { }
 
-	// RVA: 0x18BC010 Offset: 0x18BA610 VA: 0x1818BC010
+	// RVA: 0x18BC2D0 Offset: 0x18BA8D0 VA: 0x1818BC2D0
 	private void AddToBuffer(int b) { }
 
-	// RVA: 0x18BC110 Offset: 0x18BA710 VA: 0x1818BC110
+	// RVA: 0x18BC3D0 Offset: 0x18BA9D0 VA: 0x1818BC3D0
 	private void AdjustBuffer() { }
 
-	// RVA: 0x18BC430 Offset: 0x18BAA30 VA: 0x1818BC430
+	// RVA: 0x18BC6F0 Offset: 0x18BACF0 VA: 0x1818BC6F0
 	private ConsoleKeyInfo CreateKeyInfoFromInt(int n, bool alt) { }
 
-	// RVA: 0x18BF020 Offset: 0x18BD620 VA: 0x1818BF020
+	// RVA: 0x18BF2E0 Offset: 0x18BD8E0 VA: 0x1818BF2E0
 	private object GetKeyFromBuffer(bool cooked) { }
 
-	// RVA: 0x18C0180 Offset: 0x18BE780 VA: 0x1818C0180
+	// RVA: 0x18C0440 Offset: 0x18BEA40 VA: 0x1818C0440
 	private ConsoleKeyInfo ReadKeyInternal(out bool fresh) { }
 
-	// RVA: 0x18BFEF0 Offset: 0x18BE4F0 VA: 0x1818BFEF0
+	// RVA: 0x18C01B0 Offset: 0x18BE7B0 VA: 0x1818C01B0
 	private bool InputPending() { }
 
-	// RVA: 0x18C0080 Offset: 0x18BE680 VA: 0x1818C0080
+	// RVA: 0x18C0340 Offset: 0x18BE940 VA: 0x1818C0340
 	private void QueueEcho(char c) { }
 
-	// RVA: 0x18BEBB0 Offset: 0x18BD1B0 VA: 0x1818BEBB0
+	// RVA: 0x18BEE70 Offset: 0x18BD470 VA: 0x1818BEE70
 	private void Echo(ConsoleKeyInfo key) { }
 
-	// RVA: 0x18BEB60 Offset: 0x18BD160 VA: 0x1818BEB60
+	// RVA: 0x18BEE20 Offset: 0x18BD420 VA: 0x1818BEE20
 	private void EchoFlush() { }
 
-	// RVA: 0x18C06A0 Offset: 0x18BECA0 VA: 0x1818C06A0
+	// RVA: 0x18C0960 Offset: 0x18BEF60 VA: 0x1818C0960
 	public int Read([In] [Out] char[] dest, int index, int count) { }
 
-	// RVA: 0x18C0390 Offset: 0x18BE990 VA: 0x1818C0390 Slot: 13
+	// RVA: 0x18C0650 Offset: 0x18BEC50 VA: 0x1818C0650 Slot: 13
 	public ConsoleKeyInfo ReadKey(bool intercept) { }
 
-	// RVA: 0x18C0440 Offset: 0x18BEA40 VA: 0x1818C0440 Slot: 19
+	// RVA: 0x18C0700 Offset: 0x18BED00 VA: 0x1818C0700 Slot: 19
 	public string ReadLine() { }
 
-	// RVA: 0x18C0450 Offset: 0x18BEA50 VA: 0x1818C0450
+	// RVA: 0x18C0710 Offset: 0x18BED10 VA: 0x1818C0710
 	public string ReadToEnd() { }
 
-	// RVA: 0x18C0460 Offset: 0x18BEA60 VA: 0x1818C0460
+	// RVA: 0x18C0720 Offset: 0x18BED20 VA: 0x1818C0720
 	private string ReadUntilConditionInternal(bool haltOnNewLine) { }
 
-	// RVA: 0x18C0B80 Offset: 0x18BF180 VA: 0x1818C0B80 Slot: 20
+	// RVA: 0x18C0E40 Offset: 0x18BF440 VA: 0x1818C0E40 Slot: 20
 	public void SetCursorPosition(int left, int top) { }
 
-	// RVA: 0x18BC570 Offset: 0x18BAB70 VA: 0x1818BC570
+	// RVA: 0x18BC830 Offset: 0x18BAE30 VA: 0x1818BC830
 	private void CreateKeyMap() { }
 
-	// RVA: 0x18BF450 Offset: 0x18BDA50 VA: 0x1818BF450
+	// RVA: 0x18BF710 Offset: 0x18BDD10 VA: 0x1818BF710
 	private void InitKeys() { }
 
-	// RVA: 0x18BBFC0 Offset: 0x18BA5C0 VA: 0x1818BBFC0
+	// RVA: 0x18BC280 Offset: 0x18BA880 VA: 0x1818BC280
 	private void AddStringMapping(TermInfoStrings s) { }
 
-	// RVA: 0x18C1300 Offset: 0x18BF900 VA: 0x1818C1300
+	// RVA: 0x18C15C0 Offset: 0x18BFBC0 VA: 0x1818C15C0
 	private static void .cctor() { }
 
 }

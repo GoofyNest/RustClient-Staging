@@ -10,16 +10,16 @@ public class LTBezier // TypeDefIndex: 5582
 
 	// Methods
 
-	// RVA: 0x198D490 Offset: 0x198BA90 VA: 0x18198D490
+	// RVA: 0x198D750 Offset: 0x198BD50 VA: 0x18198D750
 	public void .ctor(Vector3 a, Vector3 b, Vector3 c, Vector3 d, float precision) { }
 
-	// RVA: 0x198DAA0 Offset: 0x198C0A0 VA: 0x18198DAA0
+	// RVA: 0x198DD60 Offset: 0x198C360 VA: 0x18198DD60
 	private float map(float u) { }
 
-	// RVA: 0x198D900 Offset: 0x198BF00 VA: 0x18198D900
+	// RVA: 0x198DBC0 Offset: 0x198C1C0 VA: 0x18198DBC0
 	private Vector3 bezierPoint(float t) { }
 
-	// RVA: 0x198DBF0 Offset: 0x198C1F0 VA: 0x18198DBF0
+	// RVA: 0x198DEB0 Offset: 0x198C4B0 VA: 0x18198DEB0
 	public Vector3 point(float t) { }
 
 }

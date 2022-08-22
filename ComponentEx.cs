@@ -6,7 +6,7 @@ public static class ComponentEx // TypeDefIndex: 11698
 	public static T Instantiate<T>(T component) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159E7E0 Offset: 0x159CDE0 VA: 0x18159E7E0
+	|-RVA: 0x159EAA0 Offset: 0x159D0A0 VA: 0x18159EAA0
 	|-ComponentEx.Instantiate<object>
 	*/
 
@@ -15,7 +15,7 @@ public static class ComponentEx // TypeDefIndex: 11698
 	public static bool HasComponent<T>(Component component) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBEE810 Offset: 0xBECE10 VA: 0x180BEE810
+	|-RVA: 0xBEEAD0 Offset: 0xBED0D0 VA: 0x180BEEAD0
 	|-ComponentEx.HasComponent<IndependentScale>
 	|-ComponentEx.HasComponent<object>
 	*/

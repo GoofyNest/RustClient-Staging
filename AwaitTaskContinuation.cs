@@ -9,46 +9,46 @@ internal class AwaitTaskContinuation : TaskContinuation, IThreadPoolWorkItem // 
 
 	// Methods
 
-	// RVA: 0x148FC10 Offset: 0x148E210 VA: 0x18148FC10
+	// RVA: 0x148FED0 Offset: 0x148E4D0 VA: 0x18148FED0
 	internal void .ctor(Action action, bool flowExecutionContext, ref StackCrawlMark stackMark) { }
 
-	// RVA: 0x148FB70 Offset: 0x148E170 VA: 0x18148FB70
+	// RVA: 0x148FE30 Offset: 0x148E430 VA: 0x18148FE30
 	internal void .ctor(Action action, bool flowExecutionContext) { }
 
-	// RVA: 0x148F1B0 Offset: 0x148D7B0 VA: 0x18148F1B0
+	// RVA: 0x148F470 Offset: 0x148DA70 VA: 0x18148F470
 	protected Task CreateTask(Action<object> action, object state, TaskScheduler scheduler) { }
 
-	// RVA: 0x148F890 Offset: 0x148DE90 VA: 0x18148F890 Slot: 4
+	// RVA: 0x148FB50 Offset: 0x148E150 VA: 0x18148FB50 Slot: 4
 	internal override void Run(Task task, bool canInlineContinuationTask) { }
 
-	// RVA: 0x148FCC0 Offset: 0x148E2C0 VA: 0x18148FCC0
+	// RVA: 0x148FF80 Offset: 0x148E580 VA: 0x18148FF80
 	internal static bool get_IsValidLocationForInlining() { }
 
-	// RVA: 0x148F2F0 Offset: 0x148D8F0 VA: 0x18148F2F0
+	// RVA: 0x148F5B0 Offset: 0x148DBB0 VA: 0x18148F5B0
 	private void ExecuteWorkItemHelper() { }
 
-	// RVA: 0x148F950 Offset: 0x148DF50 VA: 0x18148F950 Slot: 5
+	// RVA: 0x148FC10 Offset: 0x148E210 VA: 0x18148FC10 Slot: 5
 	private void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 6
 	private void System.Threading.IThreadPoolWorkItem.MarkAborted(ThreadAbortException tae) { }
 
-	// RVA: 0x148F540 Offset: 0x148DB40 VA: 0x18148F540
+	// RVA: 0x148F800 Offset: 0x148DE00 VA: 0x18148F800
 	private static void InvokeAction(object state) { }
 
-	// RVA: 0x148F400 Offset: 0x148DA00 VA: 0x18148F400
+	// RVA: 0x148F6C0 Offset: 0x148DCC0 VA: 0x18148F6C0
 	protected static ContextCallback GetInvokeActionCallback() { }
 
-	// RVA: 0x148F5A0 Offset: 0x148DBA0 VA: 0x18148F5A0
+	// RVA: 0x148F860 Offset: 0x148DE60 VA: 0x18148F860
 	protected void RunCallback(ContextCallback callback, object state, ref Task currentTask) { }
 
-	// RVA: 0x148F730 Offset: 0x148DD30 VA: 0x18148F730
+	// RVA: 0x148F9F0 Offset: 0x148DFF0 VA: 0x18148F9F0
 	internal static void RunOrScheduleAction(Action action, bool allowInlining, ref Task currentTask) { }
 
-	// RVA: 0x148FAE0 Offset: 0x148E0E0 VA: 0x18148FAE0
+	// RVA: 0x148FDA0 Offset: 0x148E3A0 VA: 0x18148FDA0
 	internal static void UnsafeScheduleAction(Action action, Task task) { }
 
-	// RVA: 0x148F980 Offset: 0x148DF80 VA: 0x18148F980
+	// RVA: 0x148FC40 Offset: 0x148E240 VA: 0x18148FC40
 	protected static void ThrowAsyncIfNecessary(Exception exc) { }
 
 }
@@ -60,13 +60,13 @@ private sealed class AwaitTaskContinuation.<>c // TypeDefIndex: 882
 
 	// Methods
 
-	// RVA: 0x14A4350 Offset: 0x14A2950 VA: 0x1814A4350
+	// RVA: 0x14A4610 Offset: 0x14A2C10 VA: 0x1814A4610
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x14A41D0 Offset: 0x14A27D0 VA: 0x1814A41D0
+	// RVA: 0x14A4490 Offset: 0x14A2A90 VA: 0x1814A4490
 	internal void <ThrowAsyncIfNecessary>b__17_0(object s) { }
 
 }

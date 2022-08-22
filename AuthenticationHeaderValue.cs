@@ -30,25 +30,25 @@ public class AuthenticationHeaderValue : ICloneable // TypeDefIndex: 5758
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_Scheme(string value) { }
 
-	// RVA: 0xD71020 Offset: 0xD6F620 VA: 0x180D71020 Slot: 4
+	// RVA: 0xD712E0 Offset: 0xD6F8E0 VA: 0x180D712E0 Slot: 4
 	private object System.ICloneable.Clone() { }
 
-	// RVA: 0x10842F0 Offset: 0x10828F0 VA: 0x1810842F0 Slot: 0
+	// RVA: 0x10845B0 Offset: 0x1082BB0 VA: 0x1810845B0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x10843B0 Offset: 0x10829B0 VA: 0x1810843B0 Slot: 2
+	// RVA: 0x1084670 Offset: 0x1082C70 VA: 0x181084670 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x10846E0 Offset: 0x1082CE0 VA: 0x1810846E0
+	// RVA: 0x10849A0 Offset: 0x1082FA0 VA: 0x1810849A0
 	public static bool TryParse(string input, out AuthenticationHeaderValue parsedValue) { }
 
-	// RVA: 0x1084650 Offset: 0x1082C50 VA: 0x181084650
+	// RVA: 0x1084910 Offset: 0x1082F10 VA: 0x181084910
 	internal static bool TryParse(string input, int minimalCount, out List<AuthenticationHeaderValue> result) { }
 
-	// RVA: 0x1084490 Offset: 0x1082A90 VA: 0x181084490
+	// RVA: 0x1084750 Offset: 0x1082D50 VA: 0x181084750
 	private static bool TryParseElement(Lexer lexer, out AuthenticationHeaderValue parsedValue, out Token t) { }
 
-	// RVA: 0x1084440 Offset: 0x1082A40 VA: 0x181084440 Slot: 3
+	// RVA: 0x1084700 Offset: 0x1082D00 VA: 0x181084700 Slot: 3
 	public override string ToString() { }
 
 }

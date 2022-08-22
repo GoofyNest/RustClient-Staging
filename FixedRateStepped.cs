@@ -6,10 +6,10 @@ public class FixedRateStepped // TypeDefIndex: 11368
 
 	// Methods
 
-	// RVA: 0x78DBB0 Offset: 0x78C1B0 VA: 0x18078DBB0
+	// RVA: 0x78DCC0 Offset: 0x78C2C0 VA: 0x18078DCC0
 	public bool ShouldStep() { }
 
-	// RVA: 0x78DC70 Offset: 0x78C270 VA: 0x18078DC70
+	// RVA: 0x78DD80 Offset: 0x78C380 VA: 0x18078DD80
 	public void .ctor() { }
 
 }

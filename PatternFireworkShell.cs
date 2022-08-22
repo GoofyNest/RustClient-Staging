@@ -18,22 +18,22 @@ public class PatternFireworkShell : FireworkShell // TypeDefIndex: 8277
 
 	// Methods
 
-	// RVA: 0x86ACD0 Offset: 0x8692D0 VA: 0x18086ACD0 Slot: 6
+	// RVA: 0x86ADE0 Offset: 0x8693E0 VA: 0x18086ADE0 Slot: 6
 	public override void Init(MortarFirework firework) { }
 
-	// RVA: 0x86A7C0 Offset: 0x868DC0 VA: 0x18086A7C0 Slot: 8
+	// RVA: 0x86A8D0 Offset: 0x868ED0 VA: 0x18086A8D0 Slot: 8
 	public override void Cleanup() { }
 
-	// RVA: 0x86A730 Offset: 0x868D30 VA: 0x18086A730 Slot: 10
+	// RVA: 0x86A840 Offset: 0x868E40 VA: 0x18086A840 Slot: 10
 	public override float CalculateFuseLength() { }
 
-	// RVA: 0x86B3D0 Offset: 0x8699D0 VA: 0x18086B3D0 Slot: 7
+	// RVA: 0x86B4E0 Offset: 0x869AE0 VA: 0x18086B4E0 Slot: 7
 	public override void Update() { }
 
-	// RVA: 0x86A820 Offset: 0x868E20 VA: 0x18086A820 Slot: 9
+	// RVA: 0x86A930 Offset: 0x868F30 VA: 0x18086A930 Slot: 9
 	public override void Explode() { }
 
-	// RVA: 0x86B8D0 Offset: 0x869ED0 VA: 0x18086B8D0
+	// RVA: 0x86B9E0 Offset: 0x869FE0 VA: 0x18086B9E0
 	public void .ctor() { }
 
 }

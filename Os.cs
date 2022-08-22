@@ -1,13 +1,13 @@
 public static class Os // TypeDefIndex: 5607
 {	// Methods
 
-	// RVA: 0x19A3100 Offset: 0x19A1700 VA: 0x1819A3100
+	// RVA: 0x19A33C0 Offset: 0x19A19C0 VA: 0x1819A33C0
 	public static void OpenFolder(string folder) { }
 
-	// RVA: 0x19A3380 Offset: 0x19A1980 VA: 0x1819A3380
+	// RVA: 0x19A3640 Offset: 0x19A1C40 VA: 0x1819A3640
 	public static bool StartProcess(string executable, string arguments) { }
 
-	// RVA: 0x19A2FD0 Offset: 0x19A15D0 VA: 0x1819A2FD0
+	// RVA: 0x19A3290 Offset: 0x19A1890 VA: 0x1819A3290
 	private static extern bool CreateProcess(string lpApplicationName, string lpCommandLine, ref Os.SECURITY_ATTRIBUTES lpProcessAttributes, ref Os.SECURITY_ATTRIBUTES lpThreadAttributes, bool bInheritHandles, uint dwCreationFlags, IntPtr lpEnvironment, string lpCurrentDirectory, in Os.STARTUPINFO lpStartupInfo, out Os.PROCESS_INFORMATION lpProcessInformation) { }
 
 }

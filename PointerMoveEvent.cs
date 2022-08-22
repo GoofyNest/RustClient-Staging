@@ -1,16 +1,16 @@
 public sealed class PointerMoveEvent : PointerEventBase<PointerMoveEvent> // TypeDefIndex: 4693
 {	// Methods
 
-	// RVA: 0xEB88D0 Offset: 0xEB6ED0 VA: 0x180EB88D0 Slot: 12
+	// RVA: 0xEB8B90 Offset: 0xEB7190 VA: 0x180EB8B90 Slot: 12
 	protected override void Init() { }
 
-	// RVA: 0xEB8940 Offset: 0xEB6F40 VA: 0x180EB8940
+	// RVA: 0xEB8C00 Offset: 0xEB7200 VA: 0x180EB8C00
 	private void LocalInit() { }
 
-	// RVA: 0xEB8D10 Offset: 0xEB7310 VA: 0x180EB8D10
+	// RVA: 0xEB8FD0 Offset: 0xEB75D0 VA: 0x180EB8FD0
 	public void .ctor() { }
 
-	// RVA: 0xEB8980 Offset: 0xEB6F80 VA: 0x180EB8980 Slot: 9
+	// RVA: 0xEB8C40 Offset: 0xEB7240 VA: 0x180EB8C40 Slot: 9
 	protected internal override void PostDispatch(IPanel panel) { }
 
 }

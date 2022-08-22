@@ -15,7 +15,7 @@ internal struct ChangeNumOpenSlotsCallback_t : ICallbackData // TypeDefIndex: 53
 	// RVA: 0x1E45A0 Offset: 0x1E39A0 VA: 0x1801E45A0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x136E110 Offset: 0x136C710 VA: 0x18136E110
+	// RVA: 0x136E3D0 Offset: 0x136C9D0 VA: 0x18136E3D0
 	private static void .cctor() { }
 
 }

@@ -12,61 +12,61 @@ public class CanvasUpdateRegistry // TypeDefIndex: 4910
 
 	// Methods
 
-	// RVA: 0x10B9350 Offset: 0x10B7950 VA: 0x1810B9350
+	// RVA: 0x10B9610 Offset: 0x10B7C10 VA: 0x1810B9610
 	protected void .ctor() { }
 
-	// RVA: 0x10B9420 Offset: 0x10B7A20 VA: 0x1810B9420
+	// RVA: 0x10B96E0 Offset: 0x10B7CE0 VA: 0x1810B96E0
 	public static CanvasUpdateRegistry get_instance() { }
 
-	// RVA: 0x10B85B0 Offset: 0x10B6BB0 VA: 0x1810B85B0
+	// RVA: 0x10B8870 Offset: 0x10B6E70 VA: 0x1810B8870
 	private bool ObjectValidForUpdate(ICanvasElement element) { }
 
-	// RVA: 0x10B8030 Offset: 0x10B6630 VA: 0x1810B8030
+	// RVA: 0x10B82F0 Offset: 0x10B68F0 VA: 0x1810B82F0
 	private void CleanInvalidItems() { }
 
-	// RVA: 0x10B8780 Offset: 0x10B6D80 VA: 0x1810B8780
+	// RVA: 0x10B8A40 Offset: 0x10B7040 VA: 0x1810B8A40
 	private void PerformUpdate() { }
 
-	// RVA: 0x10B86B0 Offset: 0x10B6CB0 VA: 0x1810B86B0
+	// RVA: 0x10B8970 Offset: 0x10B6F70 VA: 0x1810B8970
 	private static int ParentCount(Transform child) { }
 
-	// RVA: 0x10B8F40 Offset: 0x10B7540 VA: 0x1810B8F40
+	// RVA: 0x10B9200 Offset: 0x10B7800 VA: 0x1810B9200
 	private static int SortLayoutList(ICanvasElement x, ICanvasElement y) { }
 
-	// RVA: 0x10B8ED0 Offset: 0x10B74D0 VA: 0x1810B8ED0
+	// RVA: 0x10B9190 Offset: 0x10B7790 VA: 0x1810B9190
 	public static void RegisterCanvasElementForLayoutRebuild(ICanvasElement element) { }
 
-	// RVA: 0x10B9060 Offset: 0x10B7660 VA: 0x1810B9060
+	// RVA: 0x10B9320 Offset: 0x10B7920 VA: 0x1810B9320
 	public static bool TryRegisterCanvasElementForLayoutRebuild(ICanvasElement element) { }
 
-	// RVA: 0x10B8290 Offset: 0x10B6890 VA: 0x1810B8290
+	// RVA: 0x10B8550 Offset: 0x10B6B50 VA: 0x1810B8550
 	private bool InternalRegisterCanvasElementForLayoutRebuild(ICanvasElement element) { }
 
-	// RVA: 0x10B8E60 Offset: 0x10B7460 VA: 0x1810B8E60
+	// RVA: 0x10B9120 Offset: 0x10B7720 VA: 0x1810B9120
 	public static void RegisterCanvasElementForGraphicRebuild(ICanvasElement element) { }
 
-	// RVA: 0x10B8FF0 Offset: 0x10B75F0 VA: 0x1810B8FF0
+	// RVA: 0x10B92B0 Offset: 0x10B78B0 VA: 0x1810B92B0
 	public static bool TryRegisterCanvasElementForGraphicRebuild(ICanvasElement element) { }
 
-	// RVA: 0x10B81E0 Offset: 0x10B67E0 VA: 0x1810B81E0
+	// RVA: 0x10B84A0 Offset: 0x10B6AA0 VA: 0x1810B84A0
 	private bool InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement element) { }
 
-	// RVA: 0x10B90D0 Offset: 0x10B76D0 VA: 0x1810B90D0
+	// RVA: 0x10B9390 Offset: 0x10B7990 VA: 0x1810B9390
 	public static void UnRegisterCanvasElementForRebuild(ICanvasElement element) { }
 
-	// RVA: 0x10B8400 Offset: 0x10B6A00 VA: 0x1810B8400
+	// RVA: 0x10B86C0 Offset: 0x10B6CC0 VA: 0x1810B86C0
 	private void InternalUnRegisterCanvasElementForLayoutRebuild(ICanvasElement element) { }
 
-	// RVA: 0x10B8310 Offset: 0x10B6910 VA: 0x1810B8310
+	// RVA: 0x10B85D0 Offset: 0x10B6BD0 VA: 0x1810B85D0
 	private void InternalUnRegisterCanvasElementForGraphicRebuild(ICanvasElement element) { }
 
-	// RVA: 0x10B8550 Offset: 0x10B6B50 VA: 0x1810B8550
+	// RVA: 0x10B8810 Offset: 0x10B6E10 VA: 0x1810B8810
 	public static bool IsRebuildingLayout() { }
 
-	// RVA: 0x10B84F0 Offset: 0x10B6AF0 VA: 0x1810B84F0
+	// RVA: 0x10B87B0 Offset: 0x10B6DB0 VA: 0x1810B87B0
 	public static bool IsRebuildingGraphics() { }
 
-	// RVA: 0x10B92E0 Offset: 0x10B78E0 VA: 0x1810B92E0
+	// RVA: 0x10B95A0 Offset: 0x10B7BA0 VA: 0x1810B95A0
 	private static void .cctor() { }
 
 }

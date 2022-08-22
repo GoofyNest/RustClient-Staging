@@ -19,40 +19,40 @@ public class WindZoneExManager : MonoBehaviour // TypeDefIndex: 10701
 
 	// Methods
 
-	// RVA: 0x8F7920 Offset: 0x8F5F20 VA: 0x1808F7920
+	// RVA: 0x8F7A30 Offset: 0x8F6030 VA: 0x1808F7A30
 	public static WindZoneExManager get_Instance() { }
 
-	// RVA: 0x8F6390 Offset: 0x8F4990 VA: 0x1808F6390
+	// RVA: 0x8F64A0 Offset: 0x8F4AA0 VA: 0x1808F64A0
 	public static void Clear() { }
 
-	// RVA: 0x8F72F0 Offset: 0x8F58F0 VA: 0x1808F72F0
+	// RVA: 0x8F7400 Offset: 0x8F5A00 VA: 0x1808F7400
 	public static void Register(WindZoneEx zone) { }
 
-	// RVA: 0x8F7680 Offset: 0x8F5C80 VA: 0x1808F7680
+	// RVA: 0x8F7790 Offset: 0x8F5D90 VA: 0x1808F7790
 	public static void Unregister(WindZoneEx zone) { }
 
-	// RVA: 0x8F62B0 Offset: 0x8F48B0 VA: 0x1808F62B0
+	// RVA: 0x8F63C0 Offset: 0x8F49C0 VA: 0x1808F63C0
 	private void Awake() { }
 
-	// RVA: 0x8F7700 Offset: 0x8F5D00 VA: 0x1808F7700
+	// RVA: 0x8F7810 Offset: 0x8F5E10 VA: 0x1808F7810
 	private void Update() { }
 
-	// RVA: 0x8F6D00 Offset: 0x8F5300 VA: 0x1808F6D00
+	// RVA: 0x8F6E10 Offset: 0x8F5410 VA: 0x1808F6E10
 	public void FindAndSortZones(Camera camera) { }
 
-	// RVA: 0x8F7370 Offset: 0x8F5970 VA: 0x1808F7370
+	// RVA: 0x8F7480 Offset: 0x8F5A80 VA: 0x1808F7480
 	public void SetShaderGlobals() { }
 
-	// RVA: 0x8F68D0 Offset: 0x8F4ED0 VA: 0x1808F68D0
+	// RVA: 0x8F69E0 Offset: 0x8F4FE0 VA: 0x1808F69E0
 	private static Vector4 ComputeWindForce(float time, Vector4 zoneInfo, Vector4 zoneParam, Vector3 center) { }
 
-	// RVA: 0x8F6420 Offset: 0x8F4A20 VA: 0x1808F6420
+	// RVA: 0x8F6530 Offset: 0x8F4B30 VA: 0x1808F6530
 	public static Vector4 ComputeWindForceAtLocation(Vector3 location) { }
 
-	// RVA: 0x8F78F0 Offset: 0x8F5EF0 VA: 0x1808F78F0
+	// RVA: 0x8F7A00 Offset: 0x8F6000 VA: 0x1808F7A00
 	public void .ctor() { }
 
-	// RVA: 0x8F77F0 Offset: 0x8F5DF0 VA: 0x1808F77F0
+	// RVA: 0x8F7900 Offset: 0x8F5F00 VA: 0x1808F7900
 	private static void .cctor() { }
 
 }
@@ -84,13 +84,13 @@ private sealed class WindZoneExManager.<>c // TypeDefIndex: 10704
 
 	// Methods
 
-	// RVA: 0x8EE240 Offset: 0x8EC840 VA: 0x1808EE240
+	// RVA: 0x8EE350 Offset: 0x8EC950 VA: 0x1808EE350
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x83CD00 Offset: 0x83B300 VA: 0x18083CD00
+	// RVA: 0x83CE10 Offset: 0x83B410 VA: 0x18083CE10
 	internal int <FindAndSortZones>b__22_0(WindZoneExManager.CurrentZoneEntry x, WindZoneExManager.CurrentZoneEntry y) { }
 
 }

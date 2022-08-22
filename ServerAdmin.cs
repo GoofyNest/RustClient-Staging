@@ -353,15 +353,15 @@ public class ServerAdminUI : SingletonComponent<ServerAdminUI> // TypeDefIndex: 
 	private void PopulateInfo<T, U>(List<T> contentArray, Func<T, GameObjectRef> getContent, RectTransform contentParent, Action<T, U> populateCallback) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xCFEB10 Offset: 0xCFD110 VA: 0x180CFEB10
+	|-RVA: 0xCFEDD0 Offset: 0xCFD3D0 VA: 0x180CFEDD0
 	|-ServerAdminUI.PopulateInfo<Admin.PlayerInfo, ServerAdminPlayerEntry>
 	|-ServerAdminUI.PopulateInfo<Admin.PlayerInfo, object>
 	|
-	|-RVA: 0xCFF240 Offset: 0xCFD840 VA: 0x180CFF240
+	|-RVA: 0xCFF500 Offset: 0xCFDB00 VA: 0x180CFF500
 	|-ServerAdminUI.PopulateInfo<Admin.ServerConvarInfo, ServerAdminConvarInfo>
 	|-ServerAdminUI.PopulateInfo<Admin.ServerConvarInfo, object>
 	|
-	|-RVA: 0xCFEF10 Offset: 0xCFD510 VA: 0x180CFEF10
+	|-RVA: 0xCFF1D0 Offset: 0xCFD7D0 VA: 0x180CFF1D0
 	|-ServerAdminUI.PopulateInfo<object, object>
 	*/
 

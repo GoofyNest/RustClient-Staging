@@ -7,82 +7,82 @@ public class PhoneDirectory : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1EA7C00 Offset: 0x1EA6200 VA: 0x181EA7C00
+	// RVA: 0x1EA7EC0 Offset: 0x1EA64C0 VA: 0x181EA7EC0
 	public static void ResetToPool(PhoneDirectory instance) { }
 
-	// RVA: 0x1EA7A40 Offset: 0x1EA6040 VA: 0x181EA7A40
+	// RVA: 0x1EA7D00 Offset: 0x1EA6300 VA: 0x181EA7D00
 	public void ResetToPool() { }
 
-	// RVA: 0x1EA7980 Offset: 0x1EA5F80 VA: 0x181EA7980 Slot: 9
+	// RVA: 0x1EA7C40 Offset: 0x1EA6240 VA: 0x181EA7C40 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1EA6B80 Offset: 0x1EA5180 VA: 0x181EA6B80
+	// RVA: 0x1EA6E40 Offset: 0x1EA5440 VA: 0x181EA6E40
 	public void CopyTo(PhoneDirectory instance) { }
 
-	// RVA: 0x1EA6D30 Offset: 0x1EA5330 VA: 0x181EA6D30
+	// RVA: 0x1EA6FF0 Offset: 0x1EA55F0 VA: 0x181EA6FF0
 	public PhoneDirectory Copy() { }
 
-	// RVA: 0x1EA7900 Offset: 0x1EA5F00 VA: 0x181EA7900
+	// RVA: 0x1EA7BC0 Offset: 0x1EA61C0 VA: 0x181EA7BC0
 	public static PhoneDirectory Deserialize(Stream stream) { }
 
-	// RVA: 0x1EA70C0 Offset: 0x1EA56C0 VA: 0x181EA70C0
+	// RVA: 0x1EA7380 Offset: 0x1EA5980 VA: 0x181EA7380
 	public static PhoneDirectory DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1EA7420 Offset: 0x1EA5A20 VA: 0x181EA7420
+	// RVA: 0x1EA76E0 Offset: 0x1EA5CE0 VA: 0x181EA76E0
 	public static PhoneDirectory DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1EA74B0 Offset: 0x1EA5AB0 VA: 0x181EA74B0
+	// RVA: 0x1EA7770 Offset: 0x1EA5D70 VA: 0x181EA7770
 	public static PhoneDirectory Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1EA7A00 Offset: 0x1EA6000 VA: 0x181EA7A00
+	// RVA: 0x1EA7CC0 Offset: 0x1EA62C0 VA: 0x181EA7CC0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1EA83F0 Offset: 0x1EA69F0 VA: 0x181EA83F0 Slot: 12
+	// RVA: 0x1EA86B0 Offset: 0x1EA6CB0 VA: 0x181EA86B0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1EA8410 Offset: 0x1EA6A10 VA: 0x181EA8410 Slot: 13
+	// RVA: 0x1EA86D0 Offset: 0x1EA6CD0 VA: 0x181EA86D0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, PhoneDirectory previous) { }
 
-	// RVA: 0x1EA7A20 Offset: 0x1EA6020 VA: 0x181EA7A20 Slot: 14
+	// RVA: 0x1EA7CE0 Offset: 0x1EA62E0 VA: 0x181EA7CE0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1EA7800 Offset: 0x1EA5E00 VA: 0x181EA7800
+	// RVA: 0x1EA7AC0 Offset: 0x1EA60C0 VA: 0x181EA7AC0
 	public static PhoneDirectory Deserialize(byte[] buffer, PhoneDirectory instance, bool isDelta = False) { }
 
-	// RVA: 0x1EA75D0 Offset: 0x1EA5BD0 VA: 0x181EA75D0
+	// RVA: 0x1EA7890 Offset: 0x1EA5E90 VA: 0x181EA7890
 	public static PhoneDirectory Deserialize(Stream stream, PhoneDirectory instance, bool isDelta) { }
 
-	// RVA: 0x1EA6DB0 Offset: 0x1EA53B0 VA: 0x181EA6DB0
+	// RVA: 0x1EA7070 Offset: 0x1EA5670 VA: 0x181EA7070
 	public static PhoneDirectory DeserializeLengthDelimited(Stream stream, PhoneDirectory instance, bool isDelta) { }
 
-	// RVA: 0x1EA7140 Offset: 0x1EA5740 VA: 0x181EA7140
+	// RVA: 0x1EA7400 Offset: 0x1EA5A00 VA: 0x181EA7400
 	public static PhoneDirectory DeserializeLength(Stream stream, int length, PhoneDirectory instance, bool isDelta) { }
 
-	// RVA: 0x1EA7DC0 Offset: 0x1EA63C0 VA: 0x181EA7DC0
+	// RVA: 0x1EA8080 Offset: 0x1EA6680 VA: 0x181EA8080
 	public static void SerializeDelta(Stream stream, PhoneDirectory instance, PhoneDirectory previous) { }
 
-	// RVA: 0x1EA81B0 Offset: 0x1EA67B0 VA: 0x181EA81B0
+	// RVA: 0x1EA8470 Offset: 0x1EA6A70 VA: 0x181EA8470
 	public static void Serialize(Stream stream, PhoneDirectory instance) { }
 
-	// RVA: 0x1EA83E0 Offset: 0x1EA69E0 VA: 0x181EA83E0
+	// RVA: 0x1EA86A0 Offset: 0x1EA6CA0 VA: 0x181EA86A0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1EA83F0 Offset: 0x1EA69F0 VA: 0x181EA83F0
+	// RVA: 0x1EA86B0 Offset: 0x1EA6CB0 VA: 0x181EA86B0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1EA80A0 Offset: 0x1EA66A0 VA: 0x181EA80A0
+	// RVA: 0x1EA8360 Offset: 0x1EA6960 VA: 0x181EA8360
 	public static byte[] SerializeToBytes(PhoneDirectory instance) { }
 
-	// RVA: 0x1EA7FF0 Offset: 0x1EA65F0 VA: 0x181EA7FF0
+	// RVA: 0x1EA82B0 Offset: 0x1EA68B0 VA: 0x181EA82B0
 	public static void SerializeLengthDelimited(Stream stream, PhoneDirectory instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -96,82 +96,82 @@ public class PhoneDirectory.DirectoryEntry : IDisposable, Pool.IPooled, IProto /
 
 	// Methods
 
-	// RVA: 0x1EA39A0 Offset: 0x1EA1FA0 VA: 0x181EA39A0
+	// RVA: 0x1EA3C60 Offset: 0x1EA2260 VA: 0x181EA3C60
 	public static void ResetToPool(PhoneDirectory.DirectoryEntry instance) { }
 
-	// RVA: 0x1EA3A40 Offset: 0x1EA2040 VA: 0x181EA3A40
+	// RVA: 0x1EA3D00 Offset: 0x1EA2300 VA: 0x181EA3D00
 	public void ResetToPool() { }
 
-	// RVA: 0x1EA38E0 Offset: 0x1EA1EE0 VA: 0x181EA38E0 Slot: 9
+	// RVA: 0x1EA3BA0 Offset: 0x1EA21A0 VA: 0x181EA3BA0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1EA2BA0 Offset: 0x1EA11A0 VA: 0x181EA2BA0
+	// RVA: 0x1EA2E60 Offset: 0x1EA1460 VA: 0x181EA2E60
 	public void CopyTo(PhoneDirectory.DirectoryEntry instance) { }
 
-	// RVA: 0x1EA2BD0 Offset: 0x1EA11D0 VA: 0x181EA2BD0
+	// RVA: 0x1EA2E90 Offset: 0x1EA1490 VA: 0x181EA2E90
 	public PhoneDirectory.DirectoryEntry Copy() { }
 
-	// RVA: 0x1EA3310 Offset: 0x1EA1910 VA: 0x181EA3310
+	// RVA: 0x1EA35D0 Offset: 0x1EA1BD0 VA: 0x181EA35D0
 	public static PhoneDirectory.DirectoryEntry Deserialize(Stream stream) { }
 
-	// RVA: 0x1EA2C60 Offset: 0x1EA1260 VA: 0x181EA2C60
+	// RVA: 0x1EA2F20 Offset: 0x1EA1520 VA: 0x181EA2F20
 	public static PhoneDirectory.DirectoryEntry DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1EA3180 Offset: 0x1EA1780 VA: 0x181EA3180
+	// RVA: 0x1EA3440 Offset: 0x1EA1A40 VA: 0x181EA3440
 	public static PhoneDirectory.DirectoryEntry DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1EA34E0 Offset: 0x1EA1AE0 VA: 0x181EA34E0
+	// RVA: 0x1EA37A0 Offset: 0x1EA1DA0 VA: 0x181EA37A0
 	public static PhoneDirectory.DirectoryEntry Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1EA3960 Offset: 0x1EA1F60 VA: 0x181EA3960
+	// RVA: 0x1EA3C20 Offset: 0x1EA2220 VA: 0x181EA3C20
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1EA3FF0 Offset: 0x1EA25F0 VA: 0x181EA3FF0 Slot: 12
+	// RVA: 0x1EA42B0 Offset: 0x1EA28B0 VA: 0x181EA42B0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1EA4010 Offset: 0x1EA2610 VA: 0x181EA4010 Slot: 13
+	// RVA: 0x1EA42D0 Offset: 0x1EA28D0 VA: 0x181EA42D0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, PhoneDirectory.DirectoryEntry previous) { }
 
-	// RVA: 0x1EA3980 Offset: 0x1EA1F80 VA: 0x181EA3980 Slot: 14
+	// RVA: 0x1EA3C40 Offset: 0x1EA2240 VA: 0x181EA3C40 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1EA3210 Offset: 0x1EA1810 VA: 0x181EA3210
+	// RVA: 0x1EA34D0 Offset: 0x1EA1AD0 VA: 0x181EA34D0
 	public static PhoneDirectory.DirectoryEntry Deserialize(byte[] buffer, PhoneDirectory.DirectoryEntry instance, bool isDelta = False) { }
 
-	// RVA: 0x1EA3750 Offset: 0x1EA1D50 VA: 0x181EA3750
+	// RVA: 0x1EA3A10 Offset: 0x1EA2010 VA: 0x181EA3A10
 	public static PhoneDirectory.DirectoryEntry Deserialize(Stream stream, PhoneDirectory.DirectoryEntry instance, bool isDelta) { }
 
-	// RVA: 0x1EA2CE0 Offset: 0x1EA12E0 VA: 0x181EA2CE0
+	// RVA: 0x1EA2FA0 Offset: 0x1EA15A0 VA: 0x181EA2FA0
 	public static PhoneDirectory.DirectoryEntry DeserializeLengthDelimited(Stream stream, PhoneDirectory.DirectoryEntry instance, bool isDelta) { }
 
-	// RVA: 0x1EA2F40 Offset: 0x1EA1540 VA: 0x181EA2F40
+	// RVA: 0x1EA3200 Offset: 0x1EA1800 VA: 0x181EA3200
 	public static PhoneDirectory.DirectoryEntry DeserializeLength(Stream stream, int length, PhoneDirectory.DirectoryEntry instance, bool isDelta) { }
 
-	// RVA: 0x1EA3AE0 Offset: 0x1EA20E0 VA: 0x181EA3AE0
+	// RVA: 0x1EA3DA0 Offset: 0x1EA23A0 VA: 0x181EA3DA0
 	public static void SerializeDelta(Stream stream, PhoneDirectory.DirectoryEntry instance, PhoneDirectory.DirectoryEntry previous) { }
 
-	// RVA: 0x1EA3E60 Offset: 0x1EA2460 VA: 0x181EA3E60
+	// RVA: 0x1EA4120 Offset: 0x1EA2720 VA: 0x181EA4120
 	public static void Serialize(Stream stream, PhoneDirectory.DirectoryEntry instance) { }
 
-	// RVA: 0x1EA3FE0 Offset: 0x1EA25E0 VA: 0x181EA3FE0
+	// RVA: 0x1EA42A0 Offset: 0x1EA28A0 VA: 0x181EA42A0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1EA3FF0 Offset: 0x1EA25F0 VA: 0x181EA3FF0
+	// RVA: 0x1EA42B0 Offset: 0x1EA28B0 VA: 0x181EA42B0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1EA3D50 Offset: 0x1EA2350 VA: 0x181EA3D50
+	// RVA: 0x1EA4010 Offset: 0x1EA2610 VA: 0x181EA4010
 	public static byte[] SerializeToBytes(PhoneDirectory.DirectoryEntry instance) { }
 
-	// RVA: 0x1EA3CA0 Offset: 0x1EA22A0 VA: 0x181EA3CA0
+	// RVA: 0x1EA3F60 Offset: 0x1EA2560 VA: 0x181EA3F60
 	public static void SerializeLengthDelimited(Stream stream, PhoneDirectory.DirectoryEntry instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }

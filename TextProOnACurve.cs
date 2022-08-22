@@ -4,13 +4,13 @@ public abstract class TextProOnACurve : MonoBehaviour // TypeDefIndex: 7122
 
 	// Methods
 
-	// RVA: 0x22C8220 Offset: 0x22C6820 VA: 0x1822C8220
+	// RVA: 0x22C84E0 Offset: 0x22C6AE0 VA: 0x1822C84E0
 	private void Awake() { }
 
-	// RVA: 0x22C8B10 Offset: 0x22C7110 VA: 0x1822C8B10
+	// RVA: 0x22C8DD0 Offset: 0x22C73D0 VA: 0x1822C8DD0
 	private void OnEnable() { }
 
-	// RVA: 0x22C8280 Offset: 0x22C6880 VA: 0x1822C8280
+	// RVA: 0x22C8540 Offset: 0x22C6B40 VA: 0x1822C8540
 	public void ForceUpdate() { }
 
 	// RVA: -1 Offset: -1 Slot: 4

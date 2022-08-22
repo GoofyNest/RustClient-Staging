@@ -12,13 +12,13 @@ public class GenerateRailMeshes : ProceduralComponent // TypeDefIndex: 10490
 
 	// Methods
 
-	// RVA: 0xC8CCC0 Offset: 0xC8B2C0 VA: 0x180C8CCC0 Slot: 5
+	// RVA: 0xC8CF80 Offset: 0xC8B580 VA: 0x180C8CF80 Slot: 5
 	public override void Process(uint seed) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 4
 	public override bool get_RunOnCache() { }
 
-	// RVA: 0xC8CA60 Offset: 0xC8B060 VA: 0x180C8CA60
+	// RVA: 0xC8CD20 Offset: 0xC8B320 VA: 0x180C8CD20
 	private void AddTrackSpline(PathList rail) { }
 
 	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40

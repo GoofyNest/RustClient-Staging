@@ -12,40 +12,40 @@ internal sealed class NewDiffgramGen // TypeDefIndex: 4331
 
 	// Methods
 
-	// RVA: 0xE93120 Offset: 0xE91720 VA: 0x180E93120
+	// RVA: 0xE933E0 Offset: 0xE919E0 VA: 0x180E933E0
 	internal void .ctor(DataSet ds) { }
 
-	// RVA: 0xE93270 Offset: 0xE91870 VA: 0x180E93270
+	// RVA: 0xE93530 Offset: 0xE91B30 VA: 0x180E93530
 	internal void .ctor(DataTable dt, bool writeHierarchy) { }
 
-	// RVA: 0xE90F50 Offset: 0xE8F550 VA: 0x180E90F50
+	// RVA: 0xE91210 Offset: 0xE8F810 VA: 0x180E91210
 	private void CreateTableHierarchy(DataTable dt) { }
 
-	// RVA: 0xE91210 Offset: 0xE8F810 VA: 0x180E91210
+	// RVA: 0xE914D0 Offset: 0xE8FAD0 VA: 0x180E914D0
 	private void DoAssignments(ArrayList tables) { }
 
-	// RVA: 0xE91510 Offset: 0xE8FB10 VA: 0x180E91510
+	// RVA: 0xE917D0 Offset: 0xE8FDD0 VA: 0x180E917D0
 	private bool EmptyData() { }
 
-	// RVA: 0xE93110 Offset: 0xE91710 VA: 0x180E93110
+	// RVA: 0xE933D0 Offset: 0xE919D0 VA: 0x180E933D0
 	internal void Save(XmlWriter xmlw) { }
 
-	// RVA: 0xE92BE0 Offset: 0xE911E0 VA: 0x180E92BE0
+	// RVA: 0xE92EA0 Offset: 0xE914A0 VA: 0x180E92EA0
 	internal void Save(XmlWriter xmlw, DataTable table) { }
 
-	// RVA: 0xE92AF0 Offset: 0xE910F0 VA: 0x180E92AF0
+	// RVA: 0xE92DB0 Offset: 0xE913B0 VA: 0x180E92DB0
 	private void GenerateTable(DataTable table) { }
 
-	// RVA: 0xE92520 Offset: 0xE90B20 VA: 0x180E92520
+	// RVA: 0xE927E0 Offset: 0xE90DE0 VA: 0x180E927E0
 	private void GenerateTableErrors(DataTable table) { }
 
-	// RVA: 0xE91F40 Offset: 0xE90540 VA: 0x180E91F40
+	// RVA: 0xE92200 Offset: 0xE90800 VA: 0x180E92200
 	private void GenerateRow(DataRow row) { }
 
-	// RVA: 0xE91680 Offset: 0xE8FC80 VA: 0x180E91680
+	// RVA: 0xE91940 Offset: 0xE8FF40 VA: 0x180E91940
 	private void GenerateColumn(DataRow row, DataColumn col, DataRowVersion version) { }
 
-	// RVA: 0xE92B80 Offset: 0xE91180 VA: 0x180E92B80
+	// RVA: 0xE92E40 Offset: 0xE91440 VA: 0x180E92E40
 	internal static string QualifiedName(string prefix, string name) { }
 
 }

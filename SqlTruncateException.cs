@@ -1,10 +1,10 @@
 public sealed class SqlTruncateException : SqlTypeException // TypeDefIndex: 4357
 {	// Methods
 
-	// RVA: 0xCCAAF0 Offset: 0xCC90F0 VA: 0x180CCAAF0
+	// RVA: 0xCCADB0 Offset: 0xCC93B0 VA: 0x180CCADB0
 	public void .ctor() { }
 
-	// RVA: 0xCCAB20 Offset: 0xCC9120 VA: 0x180CCAB20
+	// RVA: 0xCCADE0 Offset: 0xCC93E0 VA: 0x180CCADE0
 	public void .ctor(string message, Exception e) { }
 
 }

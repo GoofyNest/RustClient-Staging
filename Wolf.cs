@@ -9,19 +9,19 @@ public class Wolf : BaseAnimalNPC // TypeDefIndex: 8943
 
 	// Methods
 
-	// RVA: 0x8FD4B0 Offset: 0x8FBAB0 VA: 0x1808FD4B0 Slot: 76
+	// RVA: 0x8FD5C0 Offset: 0x8FBBC0 VA: 0x1808FD5C0 Slot: 76
 	public override float get_RealisticMass() { }
 
 	// RVA: 0x50E1B0 Offset: 0x50C7B0 VA: 0x18050E1B0 Slot: 86
 	public override BaseEntity.TraitFlag get_Traits() { }
 
-	// RVA: 0x8FD440 Offset: 0x8FBA40 VA: 0x1808FD440 Slot: 122
+	// RVA: 0x8FD550 Offset: 0x8FBB50 VA: 0x1808FD550 Slot: 122
 	public override string Categorize() { }
 
 	// RVA: 0x50E190 Offset: 0x50C790 VA: 0x18050E190
 	public void .ctor() { }
 
-	// RVA: 0x8FD470 Offset: 0x8FBA70 VA: 0x1808FD470
+	// RVA: 0x8FD580 Offset: 0x8FBB80 VA: 0x1808FD580
 	private static void .cctor() { }
 
 }

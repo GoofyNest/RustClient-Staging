@@ -10,13 +10,13 @@ public class EmissionScaledByLight : MonoBehaviour, IClientComponent // TypeDefI
 
 	// Methods
 
-	// RVA: 0x8C10A0 Offset: 0x8BF6A0 VA: 0x1808C10A0
+	// RVA: 0x8C11B0 Offset: 0x8BF7B0 VA: 0x1808C11B0
 	public void OnEnable() { }
 
-	// RVA: 0x8C1270 Offset: 0x8BF870 VA: 0x1808C1270
+	// RVA: 0x8C1380 Offset: 0x8BF980 VA: 0x1808C1380
 	public void Update() { }
 
-	// RVA: 0x8C14D0 Offset: 0x8BFAD0 VA: 0x1808C14D0
+	// RVA: 0x8C15E0 Offset: 0x8BFBE0 VA: 0x1808C15E0
 	public void .ctor() { }
 
 }

@@ -53,19 +53,19 @@ public sealed class FtpWebRequest : WebRequest // TypeDefIndex: 3002
 
 	// Methods
 
-	// RVA: 0x1337AA0 Offset: 0x13360A0 VA: 0x181337AA0
+	// RVA: 0x1337D60 Offset: 0x1336360 VA: 0x181337D60
 	internal void .ctor(Uri uri) { }
 
-	// RVA: 0x13340B0 Offset: 0x13326B0 VA: 0x1813340B0
+	// RVA: 0x1334370 Offset: 0x1332970 VA: 0x181334370
 	private static Exception GetMustImplement() { }
 
-	// RVA: 0x1337E80 Offset: 0x1336480 VA: 0x181337E80 Slot: 12
+	// RVA: 0x1338140 Offset: 0x1336740 VA: 0x181338140 Slot: 12
 	public override void set_ConnectionGroupName(string value) { }
 
-	// RVA: 0x1337C60 Offset: 0x1336260 VA: 0x181337C60 Slot: 17
+	// RVA: 0x1337F20 Offset: 0x1336520 VA: 0x181337F20 Slot: 17
 	public override string get_ContentType() { }
 
-	// RVA: 0x1337EE0 Offset: 0x13364E0 VA: 0x181337EE0 Slot: 18
+	// RVA: 0x13381A0 Offset: 0x13367A0 VA: 0x1813381A0 Slot: 18
 	public override void set_ContentType(string value) { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 15
@@ -77,196 +77,196 @@ public sealed class FtpWebRequest : WebRequest // TypeDefIndex: 3002
 	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0 Slot: 19
 	public override ICredentials get_Credentials() { }
 
-	// RVA: 0x1337F30 Offset: 0x1336530 VA: 0x181337F30 Slot: 20
+	// RVA: 0x13381F0 Offset: 0x13367F0 VA: 0x1813381F0 Slot: 20
 	public override void set_Credentials(ICredentials value) { }
 
-	// RVA: 0xC23B00 Offset: 0xC22100 VA: 0x180C23B00
+	// RVA: 0xC23DC0 Offset: 0xC223C0 VA: 0x180C23DC0
 	public bool get_EnableSsl() { }
 
-	// RVA: 0x1337CF0 Offset: 0x13362F0 VA: 0x181337CF0 Slot: 13
+	// RVA: 0x1337FB0 Offset: 0x13365B0 VA: 0x181337FB0 Slot: 13
 	public override WebHeaderCollection get_Headers() { }
 
-	// RVA: 0x13380A0 Offset: 0x13366A0 VA: 0x1813380A0 Slot: 14
+	// RVA: 0x1338360 Offset: 0x1336960 VA: 0x181338360 Slot: 14
 	public override void set_Headers(WebHeaderCollection value) { }
 
-	// RVA: 0x9921A0 Offset: 0x9907A0 VA: 0x1809921A0 Slot: 9
+	// RVA: 0x9922B0 Offset: 0x9908B0 VA: 0x1809922B0 Slot: 9
 	public override string get_Method() { }
 
-	// RVA: 0x1338100 Offset: 0x1336700 VA: 0x181338100 Slot: 10
+	// RVA: 0x13383C0 Offset: 0x13369C0 VA: 0x1813383C0 Slot: 10
 	public override void set_Method(string value) { }
 
-	// RVA: 0x1338270 Offset: 0x1336870 VA: 0x181338270 Slot: 25
+	// RVA: 0x1338530 Offset: 0x1336B30 VA: 0x181338530 Slot: 25
 	public override void set_PreAuthenticate(bool value) { }
 
 	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050 Slot: 23
 	public override IWebProxy get_Proxy() { }
 
-	// RVA: 0x13382C0 Offset: 0x13368C0 VA: 0x1813382C0 Slot: 24
+	// RVA: 0x1338580 Offset: 0x1336B80 VA: 0x181338580 Slot: 24
 	public override void set_Proxy(IWebProxy value) { }
 
-	// RVA: 0xB9B280 Offset: 0xB99880 VA: 0x180B9B280
+	// RVA: 0xB9B540 Offset: 0xB99B40 VA: 0x180B9B540
 	public int get_ReadWriteTimeout() { }
 
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0 Slot: 11
 	public override Uri get_RequestUri() { }
 
-	// RVA: 0x1337D50 Offset: 0x1336350 VA: 0x181337D50
+	// RVA: 0x1338010 Offset: 0x1336610 VA: 0x181338010
 	public ServicePoint get_ServicePoint() { }
 
-	// RVA: 0x1337E20 Offset: 0x1336420 VA: 0x181337E20 Slot: 21
+	// RVA: 0x13380E0 Offset: 0x13366E0 VA: 0x1813380E0 Slot: 21
 	public override bool get_UseDefaultCredentials() { }
 
-	// RVA: 0x13384E0 Offset: 0x1336AE0 VA: 0x1813384E0 Slot: 22
+	// RVA: 0x13387A0 Offset: 0x1336DA0 VA: 0x1813387A0 Slot: 22
 	public override void set_UseDefaultCredentials(bool value) { }
 
-	// RVA: 0xB9B270 Offset: 0xB99870 VA: 0x180B9B270 Slot: 26
+	// RVA: 0xB9B530 Offset: 0xB99B30 VA: 0x180B9B530 Slot: 26
 	public override int get_Timeout() { }
 
-	// RVA: 0x1337CB0 Offset: 0x13362B0 VA: 0x181337CB0
+	// RVA: 0x1337F70 Offset: 0x1336570 VA: 0x181337F70
 	private string get_DataType() { }
 
-	// RVA: 0x1337D60 Offset: 0x1336360 VA: 0x181337D60
+	// RVA: 0x1338020 Offset: 0x1336620 VA: 0x181338020
 	private FtpWebRequest.RequestState get_State() { }
 
-	// RVA: 0x1338350 Offset: 0x1336950 VA: 0x181338350
+	// RVA: 0x1338610 Offset: 0x1336C10 VA: 0x181338610
 	private void set_State(FtpWebRequest.RequestState value) { }
 
-	// RVA: 0x13322A0 Offset: 0x13308A0 VA: 0x1813322A0 Slot: 35
+	// RVA: 0x1332560 Offset: 0x1330B60 VA: 0x181332560 Slot: 35
 	public override void Abort() { }
 
-	// RVA: 0x1332D30 Offset: 0x1331330 VA: 0x181332D30 Slot: 29
+	// RVA: 0x1332FF0 Offset: 0x13315F0 VA: 0x181332FF0 Slot: 29
 	public override IAsyncResult BeginGetResponse(AsyncCallback callback, object state) { }
 
-	// RVA: 0x1333AE0 Offset: 0x13320E0 VA: 0x181333AE0 Slot: 30
+	// RVA: 0x1333DA0 Offset: 0x13323A0 VA: 0x181333DA0 Slot: 30
 	public override WebResponse EndGetResponse(IAsyncResult asyncResult) { }
 
-	// RVA: 0x1334950 Offset: 0x1332F50 VA: 0x181334950 Slot: 28
+	// RVA: 0x1334C10 Offset: 0x1333210 VA: 0x181334C10 Slot: 28
 	public override WebResponse GetResponse() { }
 
-	// RVA: 0x1332A60 Offset: 0x1331060 VA: 0x181332A60 Slot: 31
+	// RVA: 0x1332D20 Offset: 0x1331320 VA: 0x181332D20 Slot: 31
 	public override IAsyncResult BeginGetRequestStream(AsyncCallback callback, object state) { }
 
-	// RVA: 0x13338A0 Offset: 0x1331EA0 VA: 0x1813338A0 Slot: 32
+	// RVA: 0x1333B60 Offset: 0x1332160 VA: 0x181333B60 Slot: 32
 	public override Stream EndGetRequestStream(IAsyncResult asyncResult) { }
 
-	// RVA: 0x1334710 Offset: 0x1332D10 VA: 0x181334710 Slot: 27
+	// RVA: 0x13349D0 Offset: 0x1332FD0 VA: 0x1813349D0 Slot: 27
 	public override Stream GetRequestStream() { }
 
-	// RVA: 0x1334990 Offset: 0x1332F90 VA: 0x181334990
+	// RVA: 0x1334C50 Offset: 0x1333250 VA: 0x181334C50
 	private ServicePoint GetServicePoint() { }
 
-	// RVA: 0x1336C30 Offset: 0x1335230 VA: 0x181336C30
+	// RVA: 0x1336EF0 Offset: 0x13354F0 VA: 0x181336EF0
 	private void ResolveHost() { }
 
-	// RVA: 0x1336300 Offset: 0x1334900 VA: 0x181336300
+	// RVA: 0x13365C0 Offset: 0x1334BC0 VA: 0x1813365C0
 	private void ProcessRequest() { }
 
-	// RVA: 0x13370E0 Offset: 0x13356E0 VA: 0x1813370E0
+	// RVA: 0x13373A0 Offset: 0x13359A0 VA: 0x1813373A0
 	private void SetType() { }
 
-	// RVA: 0x1334560 Offset: 0x1332B60 VA: 0x181334560
+	// RVA: 0x1334820 Offset: 0x1332E20 VA: 0x181334820
 	private string GetRemoteFolderPath(Uri uri) { }
 
-	// RVA: 0x1332FB0 Offset: 0x13315B0 VA: 0x181332FB0
+	// RVA: 0x1333270 Offset: 0x1331870 VA: 0x181333270
 	private void CWDAndSetFileName(Uri uri) { }
 
-	// RVA: 0x13359E0 Offset: 0x1333FE0 VA: 0x1813359E0
+	// RVA: 0x1335CA0 Offset: 0x13342A0 VA: 0x181335CA0
 	private void ProcessMethod() { }
 
-	// RVA: 0x13335B0 Offset: 0x1331BB0 VA: 0x1813335B0
+	// RVA: 0x1333870 Offset: 0x1331E70 VA: 0x181333870
 	private void CloseControlConnection() { }
 
-	// RVA: 0x1333650 Offset: 0x1331C50 VA: 0x181333650
+	// RVA: 0x1333910 Offset: 0x1331F10 VA: 0x181333910
 	internal void CloseDataConnection() { }
 
-	// RVA: 0x13334E0 Offset: 0x1331AE0 VA: 0x1813334E0
+	// RVA: 0x13337A0 Offset: 0x1331DA0 VA: 0x1813337A0
 	private void CloseConnection() { }
 
-	// RVA: 0x13365E0 Offset: 0x1334BE0 VA: 0x1813365E0
+	// RVA: 0x13368A0 Offset: 0x1334EA0 VA: 0x1813368A0
 	private void ProcessSimpleMethod() { }
 
-	// RVA: 0x1337400 Offset: 0x1335A00 VA: 0x181337400
+	// RVA: 0x13376C0 Offset: 0x1335CC0 VA: 0x1813376C0
 	private void UploadData() { }
 
-	// RVA: 0x1333790 Offset: 0x1331D90 VA: 0x181333790
+	// RVA: 0x1333A50 Offset: 0x1332050 VA: 0x181333A50
 	private void DownloadData() { }
 
-	// RVA: 0x1333470 Offset: 0x1331A70 VA: 0x181333470
+	// RVA: 0x1333730 Offset: 0x1331D30 VA: 0x181333730
 	private void CheckRequestStarted() { }
 
-	// RVA: 0x1335140 Offset: 0x1333740 VA: 0x181335140
+	// RVA: 0x1335400 Offset: 0x1333A00 VA: 0x181335400
 	private void OpenControlConnection() { }
 
-	// RVA: 0x1333EF0 Offset: 0x13324F0 VA: 0x181333EF0
+	// RVA: 0x13341B0 Offset: 0x13327B0 VA: 0x1813341B0
 	private static string GetInitialPath(FtpStatus status) { }
 
-	// RVA: 0x1337220 Offset: 0x1335820 VA: 0x181337220
+	// RVA: 0x13374E0 Offset: 0x1335AE0 VA: 0x1813374E0
 	private Socket SetupPassiveConnection(string statusDescription, bool ipv6) { }
 
-	// RVA: 0x1334100 Offset: 0x1332700 VA: 0x181334100
+	// RVA: 0x13343C0 Offset: 0x13329C0 VA: 0x1813343C0
 	private int GetPortV4(string responseString) { }
 
-	// RVA: 0x1334340 Offset: 0x1332940 VA: 0x181334340
+	// RVA: 0x1334600 Offset: 0x1332C00 VA: 0x181334600
 	private int GetPortV6(string responseString) { }
 
-	// RVA: 0x1333DB0 Offset: 0x13323B0 VA: 0x181333DB0
+	// RVA: 0x1334070 Offset: 0x1332670 VA: 0x181334070
 	private string FormatAddress(IPAddress address, int Port) { }
 
-	// RVA: 0x1333CB0 Offset: 0x13322B0 VA: 0x181333CB0
+	// RVA: 0x1333F70 Offset: 0x1332570 VA: 0x181333F70
 	private string FormatAddressV6(IPAddress address, int port) { }
 
-	// RVA: 0x1333690 Offset: 0x1331C90 VA: 0x181333690
+	// RVA: 0x1333950 Offset: 0x1331F50 VA: 0x181333950
 	private Exception CreateExceptionFromResponse(FtpStatus status) { }
 
-	// RVA: 0x1337040 Offset: 0x1335640 VA: 0x181337040
+	// RVA: 0x1337300 Offset: 0x1335900 VA: 0x181337300
 	internal void SetTransferCompleted() { }
 
-	// RVA: 0x13359C0 Offset: 0x1333FC0 VA: 0x1813359C0
+	// RVA: 0x1335C80 Offset: 0x1334280 VA: 0x181335C80
 	internal void OperationCompleted() { }
 
-	// RVA: 0x1337010 Offset: 0x1335610 VA: 0x181337010
+	// RVA: 0x13372D0 Offset: 0x13358D0 VA: 0x1813372D0
 	private void SetCompleteWithError(Exception exc) { }
 
-	// RVA: 0x1334AC0 Offset: 0x13330C0 VA: 0x181334AC0
+	// RVA: 0x1334D80 Offset: 0x1333380 VA: 0x181334D80
 	private Socket InitDataConnection() { }
 
-	// RVA: 0x1335610 Offset: 0x1333C10 VA: 0x181335610
+	// RVA: 0x13358D0 Offset: 0x1333ED0 VA: 0x1813358D0
 	private void OpenDataConnection() { }
 
-	// RVA: 0x1332440 Offset: 0x1330A40 VA: 0x181332440
+	// RVA: 0x1332700 Offset: 0x1330D00 VA: 0x181332700
 	private void Authenticate() { }
 
-	// RVA: 0x1336F70 Offset: 0x1335570 VA: 0x181336F70
+	// RVA: 0x1337230 Offset: 0x1335830 VA: 0x181337230
 	private FtpStatus SendCommand(string command, string[] parameters) { }
 
-	// RVA: 0x1336DD0 Offset: 0x13353D0 VA: 0x181336DD0
+	// RVA: 0x1337090 Offset: 0x1335690 VA: 0x181337090
 	private FtpStatus SendCommand(bool waitResponse, string command, string[] parameters) { }
 
-	// RVA: 0x1336F90 Offset: 0x1335590 VA: 0x181336F90
+	// RVA: 0x1337250 Offset: 0x1335850 VA: 0x181337250
 	internal static FtpStatus ServiceNotAvailable() { }
 
-	// RVA: 0x1334750 Offset: 0x1332D50 VA: 0x181334750
+	// RVA: 0x1334A10 Offset: 0x1333010 VA: 0x181334A10
 	internal FtpStatus GetResponseStatus() { }
 
-	// RVA: 0x1335030 Offset: 0x1333630 VA: 0x181335030
+	// RVA: 0x13352F0 Offset: 0x13338F0 VA: 0x1813352F0
 	private void InitiateSecureConnection(ref Stream stream) { }
 
-	// RVA: 0x1333170 Offset: 0x1331770 VA: 0x181333170
+	// RVA: 0x1333430 Offset: 0x1331A30 VA: 0x181333430
 	internal bool ChangeToSSLSocket(ref Stream stream) { }
 
-	// RVA: 0x1334A20 Offset: 0x1333020 VA: 0x181334A20
+	// RVA: 0x1334CE0 Offset: 0x13332E0 VA: 0x181334CE0
 	private bool InFinalState() { }
 
-	// RVA: 0x1334A70 Offset: 0x1333070 VA: 0x181334A70
+	// RVA: 0x1334D30 Offset: 0x1333330 VA: 0x181334D30
 	private bool InProgress() { }
 
-	// RVA: 0x1333400 Offset: 0x1331A00 VA: 0x181333400
+	// RVA: 0x13336C0 Offset: 0x1331CC0 VA: 0x1813336C0
 	internal void CheckIfAborted() { }
 
-	// RVA: 0x1333370 Offset: 0x1331970 VA: 0x181333370
+	// RVA: 0x1333630 Offset: 0x1331C30 VA: 0x181333630
 	private void CheckFinalState() { }
 
-	// RVA: 0x1337520 Offset: 0x1335B20 VA: 0x181337520
+	// RVA: 0x13377E0 Offset: 0x1335DE0 VA: 0x1813377E0
 	private static void .cctor() { }
 
 }

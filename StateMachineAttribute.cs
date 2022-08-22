@@ -12,7 +12,7 @@ public class StateMachineAttribute : Attribute // TypeDefIndex: 1289
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	private void set_StateMachineType(Type value) { }
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(Type stateMachineType) { }
 
 }

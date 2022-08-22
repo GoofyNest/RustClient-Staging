@@ -16,7 +16,7 @@ public class AggressionTimerAIEvent : BaseAIEvent // TypeDefIndex: 9423
 	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
 	private void set_Value(float value) { }
 
-	// RVA: 0xAA2640 Offset: 0xAA0C40 VA: 0x180AA2640
+	// RVA: 0xAA2900 Offset: 0xAA0F00 VA: 0x180AA2900
 	public void .ctor() { }
 
 }

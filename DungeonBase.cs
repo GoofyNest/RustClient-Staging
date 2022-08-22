@@ -14,10 +14,10 @@ public class DungeonNavmesh : FacepunchBehaviour, IServerComponent // TypeDefInd
 
 	// Methods
 
-	// RVA: 0xAB52F0 Offset: 0xAB38F0 VA: 0x180AB52F0
+	// RVA: 0xAB55B0 Offset: 0xAB3BB0 VA: 0x180AB55B0
 	public void .ctor() { }
 
-	// RVA: 0xAB5290 Offset: 0xAB3890 VA: 0x180AB5290
+	// RVA: 0xAB5550 Offset: 0xAB3B50 VA: 0x180AB5550
 	private static void .cctor() { }
 
 }
@@ -29,26 +29,26 @@ public class DungeonBaseInfo : LandmarkInfo // TypeDefIndex: 10336
 
 	// Methods
 
-	// RVA: 0xAB3D50 Offset: 0xAB2350 VA: 0x180AB3D50
+	// RVA: 0xAB4010 Offset: 0xAB2610 VA: 0x180AB4010
 	public float Distance(Vector3 position) { }
 
-	// RVA: 0xAB3E30 Offset: 0xAB2430 VA: 0x180AB3E30
+	// RVA: 0xAB40F0 Offset: 0xAB26F0 VA: 0x180AB40F0
 	public float SqrDistance(Vector3 position) { }
 
-	// RVA: 0xAB3920 Offset: 0xAB1F20 VA: 0x180AB3920
+	// RVA: 0xAB3BE0 Offset: 0xAB21E0 VA: 0x180AB3BE0
 	public void Add(DungeonBaseLink link) { }
 
-	// RVA: 0xAB3C60 Offset: 0xAB2260 VA: 0x180AB3C60 Slot: 5
+	// RVA: 0xAB3F20 Offset: 0xAB2520 VA: 0x180AB3F20 Slot: 5
 	protected override void Awake() { }
 
-	// RVA: 0xAB3F10 Offset: 0xAB2510 VA: 0x180AB3F10
+	// RVA: 0xAB41D0 Offset: 0xAB27D0 VA: 0x180AB41D0
 	protected void Start() { }
 
-	// RVA: 0xAB4110 Offset: 0xAB2710 VA: 0x180AB4110
+	// RVA: 0xAB43D0 Offset: 0xAB29D0 VA: 0x180AB43D0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAB3F70 Offset: 0xAB2570 VA: 0x180AB3F70
+	// RVA: 0xAB4230 Offset: 0xAB2830 VA: 0x180AB4230
 	private int <Add>b__4_0(DungeonBaseFloor l, DungeonBaseFloor r) { }
 
 }
@@ -59,13 +59,13 @@ public class DungeonBaseFloor // TypeDefIndex: 10337
 
 	// Methods
 
-	// RVA: 0xAB3750 Offset: 0xAB1D50 VA: 0x180AB3750
+	// RVA: 0xAB3A10 Offset: 0xAB2010 VA: 0x180AB3A10
 	public float Distance(Vector3 position) { }
 
-	// RVA: 0xAB3820 Offset: 0xAB1E20 VA: 0x180AB3820
+	// RVA: 0xAB3AE0 Offset: 0xAB20E0 VA: 0x180AB3AE0
 	public float SignedDistance(Vector3 position) { }
 
-	// RVA: 0xAB38B0 Offset: 0xAB1EB0 VA: 0x180AB38B0
+	// RVA: 0xAB3B70 Offset: 0xAB2170 VA: 0x180AB3B70
 	public void .ctor() { }
 
 }
@@ -80,10 +80,10 @@ public class DungeonBaseLandmarkInfo : LandmarkInfo // TypeDefIndex: 10338
 
 	// Methods
 
-	// RVA: 0xAB41B0 Offset: 0xAB27B0 VA: 0x180AB41B0 Slot: 5
+	// RVA: 0xAB4470 Offset: 0xAB2A70 VA: 0x180AB4470 Slot: 5
 	protected override void Awake() { }
 
-	// RVA: 0xAB4210 Offset: 0xAB2810 VA: 0x180AB4210 Slot: 4
+	// RVA: 0xAB44D0 Offset: 0xAB2AD0 VA: 0x180AB44D0 Slot: 4
 	public override MapLayer get_MapLayer() { }
 
 	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
@@ -111,16 +111,16 @@ public class DungeonBaseLink : MonoBehaviour // TypeDefIndex: 10339
 
 	// Methods
 
-	// RVA: 0xAB46C0 Offset: 0xAB2CC0 VA: 0x180AB46C0
+	// RVA: 0xAB4980 Offset: 0xAB2F80 VA: 0x180AB4980
 	internal List<DungeonBaseSocket> get_Sockets() { }
 
-	// RVA: 0xAB4750 Offset: 0xAB2D50 VA: 0x180AB4750
+	// RVA: 0xAB4A10 Offset: 0xAB3010 VA: 0x180AB4A10
 	internal List<DungeonVolume> get_Volumes() { }
 
-	// RVA: 0xAB44E0 Offset: 0xAB2AE0 VA: 0x180AB44E0
+	// RVA: 0xAB47A0 Offset: 0xAB2DA0 VA: 0x180AB47A0
 	protected void Start() { }
 
-	// RVA: 0xAB46A0 Offset: 0xAB2CA0 VA: 0x180AB46A0
+	// RVA: 0xAB4960 Offset: 0xAB2F60 VA: 0x180AB4960
 	public void .ctor() { }
 
 }
@@ -142,7 +142,7 @@ public class DungeonBaseSocket : MonoBehaviour // TypeDefIndex: 10341
 
 	// Methods
 
-	// RVA: 0xAB47E0 Offset: 0xAB2DE0 VA: 0x180AB47E0
+	// RVA: 0xAB4AA0 Offset: 0xAB30A0 VA: 0x180AB4AA0
 	public void .ctor() { }
 
 }
@@ -184,10 +184,10 @@ public class DungeonGridCell : MonoBehaviour // TypeDefIndex: 10344
 
 	// Methods
 
-	// RVA: 0xAB48E0 Offset: 0xAB2EE0 VA: 0x180AB48E0
+	// RVA: 0xAB4BA0 Offset: 0xAB31A0 VA: 0x180AB4BA0
 	public bool ShouldAvoid(uint id) { }
 
-	// RVA: 0xAB47F0 Offset: 0xAB2DF0 VA: 0x180AB47F0
+	// RVA: 0xAB4AB0 Offset: 0xAB30B0 VA: 0x180AB4AB0
 	protected void Awake() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -238,25 +238,25 @@ public class DungeonGridInfo : LandmarkInfo // TypeDefIndex: 10348
 
 	// Methods
 
-	// RVA: 0xAB4AC0 Offset: 0xAB30C0 VA: 0x180AB4AC0
+	// RVA: 0xAB4D80 Offset: 0xAB3380 VA: 0x180AB4D80
 	public float Distance(Vector3 position) { }
 
-	// RVA: 0xAB4F00 Offset: 0xAB3500 VA: 0x180AB4F00
+	// RVA: 0xAB51C0 Offset: 0xAB37C0 VA: 0x180AB51C0
 	public float SqrDistance(Vector3 position) { }
 
-	// RVA: 0xAB4BA0 Offset: 0xAB31A0 VA: 0x180AB4BA0
+	// RVA: 0xAB4E60 Offset: 0xAB3460 VA: 0x180AB4E60
 	public bool IsValidSpawnPosition(Vector3 position) { }
 
-	// RVA: 0xAB4DE0 Offset: 0xAB33E0 VA: 0x180AB4DE0
+	// RVA: 0xAB50A0 Offset: 0xAB36A0 VA: 0x180AB50A0
 	public Vector3 SnapPosition(Vector3 pos) { }
 
-	// RVA: 0xAB49D0 Offset: 0xAB2FD0 VA: 0x180AB49D0 Slot: 5
+	// RVA: 0xAB4C90 Offset: 0xAB3290 VA: 0x180AB4C90 Slot: 5
 	protected override void Awake() { }
 
-	// RVA: 0xAB4FE0 Offset: 0xAB35E0 VA: 0x180AB4FE0
+	// RVA: 0xAB52A0 Offset: 0xAB38A0 VA: 0x180AB52A0
 	protected void Start() { }
 
-	// RVA: 0xAB5040 Offset: 0xAB3640 VA: 0x180AB5040
+	// RVA: 0xAB5300 Offset: 0xAB3900 VA: 0x180AB5300
 	public void .ctor() { }
 
 }
@@ -272,7 +272,7 @@ public class DungeonGridLink : MonoBehaviour // TypeDefIndex: 10349
 
 	// Methods
 
-	// RVA: 0xAB50C0 Offset: 0xAB36C0 VA: 0x180AB50C0
+	// RVA: 0xAB5380 Offset: 0xAB3980 VA: 0x180AB5380
 	protected void Start() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -295,13 +295,13 @@ public class DungeonVolume : MonoBehaviour // TypeDefIndex: 10351
 
 	// Methods
 
-	// RVA: 0xAB5340 Offset: 0xAB3940 VA: 0x180AB5340
+	// RVA: 0xAB5600 Offset: 0xAB3C00 VA: 0x180AB5600
 	public OBB GetBounds(Vector3 position, Quaternion rotation) { }
 
-	// RVA: 0xAB55E0 Offset: 0xAB3BE0 VA: 0x180AB55E0
+	// RVA: 0xAB58A0 Offset: 0xAB3EA0 VA: 0x180AB58A0
 	public OBB GetBounds(Vector3 position, Quaternion rotation, Vector3 extrude) { }
 
-	// RVA: 0xAB58B0 Offset: 0xAB3EB0 VA: 0x180AB58B0
+	// RVA: 0xAB5B70 Offset: 0xAB4170 VA: 0x180AB5B70
 	public void .ctor() { }
 
 }

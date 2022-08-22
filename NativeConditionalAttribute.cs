@@ -18,10 +18,10 @@ internal class NativeConditionalAttribute : Attribute // TypeDefIndex: 3270
 	public void set_Condition(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FA00 Offset: 0x95E000 VA: 0x18095FA00
+	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10
 	public void set_Enabled(bool value) { }
 
-	// RVA: 0x2311510 Offset: 0x230FB10 VA: 0x182311510
+	// RVA: 0x23117D0 Offset: 0x230FDD0 VA: 0x1823117D0
 	public void .ctor(string condition) { }
 
 }

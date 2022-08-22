@@ -5,7 +5,7 @@ public class LTEvent // TypeDefIndex: 5586
 
 	// Methods
 
-	// RVA: 0xC650C0 Offset: 0xC636C0 VA: 0x180C650C0
+	// RVA: 0xC65380 Offset: 0xC63980 VA: 0x180C65380
 	public void .ctor(int id, object data) { }
 
 }

@@ -39,103 +39,103 @@ public class MusicManager : SingletonComponent<MusicManager>, IClientComponent /
 
 	// Methods
 
-	// RVA: 0x7C1D10 Offset: 0x7C0310 VA: 0x1807C1D10
+	// RVA: 0x7C1E20 Offset: 0x7C0420 VA: 0x1807C1E20
 	public double get_currentThemeTime() { }
 
-	// RVA: 0x7C1D30 Offset: 0x7C0330 VA: 0x1807C1D30
+	// RVA: 0x7C1E40 Offset: 0x7C0440 VA: 0x1807C1E40
 	public int get_themeBar() { }
 
-	// RVA: 0x7BE2A0 Offset: 0x7BC8A0 VA: 0x1807BE2A0 Slot: 6
+	// RVA: 0x7BE3B0 Offset: 0x7BC9B0 VA: 0x1807BE3B0 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x7C0880 Offset: 0x7BEE80 VA: 0x1807C0880
+	// RVA: 0x7C0990 Offset: 0x7BEF90 VA: 0x1807C0990
 	public void StartMusic() { }
 
-	// RVA: 0x7BF6E0 Offset: 0x7BDCE0 VA: 0x1807BF6E0
+	// RVA: 0x7BF7F0 Offset: 0x7BDDF0 VA: 0x1807BF7F0
 	public MusicTheme GetThemeToPlay(MusicZone currentMusicZone) { }
 
-	// RVA: 0x7C16E0 Offset: 0x7BFCE0 VA: 0x1807C16E0
+	// RVA: 0x7C17F0 Offset: 0x7BFDF0 VA: 0x1807C17F0
 	private void Update() { }
 
-	// RVA: 0x7C1310 Offset: 0x7BF910 VA: 0x1807C1310
+	// RVA: 0x7C1420 Offset: 0x7BFA20 VA: 0x1807C1420
 	private void UpdateCurrentBar() { }
 
-	// RVA: 0x7BE730 Offset: 0x7BCD30 VA: 0x1807BE730
+	// RVA: 0x7BE840 Offset: 0x7BCE40 VA: 0x1807BE840
 	private void DoBarJump(int offset) { }
 
-	// RVA: 0x7BFC00 Offset: 0x7BE200 VA: 0x1807BFC00
+	// RVA: 0x7BFD10 Offset: 0x7BE310 VA: 0x1807BFD10
 	private void HandleMusicPlayback() { }
 
-	// RVA: 0x7BE890 Offset: 0x7BCE90 VA: 0x1807BE890
+	// RVA: 0x7BE9A0 Offset: 0x7BCFA0 VA: 0x1807BE9A0
 	private void DoClipFades() { }
 
-	// RVA: 0x7BF2C0 Offset: 0x7BD8C0 VA: 0x1807BF2C0
+	// RVA: 0x7BF3D0 Offset: 0x7BD9D0 VA: 0x1807BF3D0
 	private AudioSource GetFreeAudioSource() { }
 
-	// RVA: 0x7BF230 Offset: 0x7BD830 VA: 0x1807BF230
+	// RVA: 0x7BF340 Offset: 0x7BD940 VA: 0x1807BF340
 	public void ForceThemeChange(MusicTheme theme) { }
 
-	// RVA: 0x7BEC50 Offset: 0x7BD250 VA: 0x1807BEC50
+	// RVA: 0x7BED60 Offset: 0x7BD360 VA: 0x1807BED60
 	private void DoForcedThemeChange() { }
 
-	// RVA: 0x7C1060 Offset: 0x7BF660 VA: 0x1807C1060
+	// RVA: 0x7C1170 Offset: 0x7BF770 VA: 0x1807C1170
 	private void UpdateClips() { }
 
-	// RVA: 0x7C0DB0 Offset: 0x7BF3B0 VA: 0x1807C0DB0
+	// RVA: 0x7C0EC0 Offset: 0x7BF4C0 VA: 0x1807C0EC0
 	private void UpdateActiveClips() { }
 
-	// RVA: 0x7BE120 Offset: 0x7BC720 VA: 0x1807BE120
+	// RVA: 0x7BE230 Offset: 0x7BC830 VA: 0x1807BE230
 	private void AddActiveClipsForBar(int bar) { }
 
-	// RVA: 0x7C11D0 Offset: 0x7BF7D0 VA: 0x1807C11D0
+	// RVA: 0x7C12E0 Offset: 0x7BF8E0 VA: 0x1807C12E0
 	private void UpdateControlClips() { }
 
-	// RVA: 0x7C0F40 Offset: 0x7BF540 VA: 0x1807C0F40
+	// RVA: 0x7C1050 Offset: 0x7BF650 VA: 0x1807C1050
 	private void UpdateBarJumpClips() { }
 
-	// RVA: 0x7C1410 Offset: 0x7BFA10 VA: 0x1807C1410
+	// RVA: 0x7C1520 Offset: 0x7BFB20 VA: 0x1807C1520
 	private void UpdateMusicClips() { }
 
-	// RVA: 0x7C05E0 Offset: 0x7BEBE0 VA: 0x1807C05E0
+	// RVA: 0x7C06F0 Offset: 0x7BECF0 VA: 0x1807C06F0
 	private void ScheduleClip(MusicTheme.PositionedClip clip) { }
 
-	// RVA: 0x7BECF0 Offset: 0x7BD2F0 VA: 0x1807BECF0
+	// RVA: 0x7BEE00 Offset: 0x7BD400 VA: 0x1807BEE00
 	private void FadeInClip(MusicTheme.PositionedClip clip) { }
 
-	// RVA: 0x7BF0C0 Offset: 0x7BD6C0 VA: 0x1807BF0C0
+	// RVA: 0x7BF1D0 Offset: 0x7BD7D0 VA: 0x1807BF1D0
 	private void FadeOutClip(MusicTheme.PositionedClip clip) { }
 
-	// RVA: 0x7BF410 Offset: 0x7BDA10 VA: 0x1807BF410
+	// RVA: 0x7BF520 Offset: 0x7BDB20 VA: 0x1807BF520
 	private MusicManager.ClipPlaybackData GetPlaybackData(MusicTheme.PositionedClip clip) { }
 
-	// RVA: 0x7BF530 Offset: 0x7BDB30 VA: 0x1807BF530
+	// RVA: 0x7BF640 Offset: 0x7BDC40 VA: 0x1807BF640
 	private MusicManager.ClipPlaybackData GetPlaybackData(AudioSource source) { }
 
-	// RVA: 0x7C01B0 Offset: 0x7BE7B0 VA: 0x1807C01B0
+	// RVA: 0x7C02C0 Offset: 0x7BE8C0 VA: 0x1807C02C0
 	private void ResyncClips() { }
 
-	// RVA: 0x7BE3D0 Offset: 0x7BC9D0 VA: 0x1807BE3D0
+	// RVA: 0x7BE4E0 Offset: 0x7BCAE0 VA: 0x1807BE4E0
 	private void CheckSyncSource() { }
 
-	// RVA: 0x7C0760 Offset: 0x7BED60 VA: 0x1807C0760
+	// RVA: 0x7C0870 Offset: 0x7BEE70 VA: 0x1807C0870
 	public void ShuffleThemes() { }
 
-	// RVA: 0x7BFDA0 Offset: 0x7BE3A0 VA: 0x1807BFDA0
+	// RVA: 0x7BFEB0 Offset: 0x7BE4B0 VA: 0x1807BFEB0
 	public void MusicZoneEntered(MusicZone zone) { }
 
-	// RVA: 0x7BFE00 Offset: 0x7BE400 VA: 0x1807BFE00
+	// RVA: 0x7BFF10 Offset: 0x7BE510 VA: 0x1807BFF10
 	public void MusicZoneExited(MusicZone zone) { }
 
-	// RVA: 0x7BE5B0 Offset: 0x7BCBB0 VA: 0x1807BE5B0
+	// RVA: 0x7BE6C0 Offset: 0x7BCCC0 VA: 0x1807BE6C0
 	public MusicZone CurrentMusicZone() { }
 
-	// RVA: 0x7BFE60 Offset: 0x7BE460 VA: 0x1807BFE60
+	// RVA: 0x7BFF70 Offset: 0x7BE570 VA: 0x1807BFF70
 	public static void RaiseIntensityTo(float amount, int holdLengthBars = 0) { }
 
-	// RVA: 0x7C0C50 Offset: 0x7BF250 VA: 0x1807C0C50
+	// RVA: 0x7C0D60 Offset: 0x7BF360 VA: 0x1807C0D60
 	public void StopMusic() { }
 
-	// RVA: 0x7C1A30 Offset: 0x7C0030 VA: 0x1807C1A30
+	// RVA: 0x7C1B40 Offset: 0x7C0140 VA: 0x1807C1B40
 	public void .ctor() { }
 
 }
@@ -164,13 +164,13 @@ private sealed class MusicManager.<>c // TypeDefIndex: 9006
 
 	// Methods
 
-	// RVA: 0x7D00F0 Offset: 0x7CE6F0 VA: 0x1807D00F0
+	// RVA: 0x7D0200 Offset: 0x7CE800 VA: 0x1807D0200
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7CF0B0 Offset: 0x7CD6B0 VA: 0x1807CF0B0
+	// RVA: 0x7CF1C0 Offset: 0x7CD7C0 VA: 0x1807CF1C0
 	internal float <ShuffleThemes>b__60_0(MusicTheme x) { }
 
 }

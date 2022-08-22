@@ -28,91 +28,91 @@ public class DeferredExtension : MonoBehaviour // TypeDefIndex: 10657
 
 	// Methods
 
-	// RVA: 0x849ED0 Offset: 0x8484D0 VA: 0x180849ED0
+	// RVA: 0x849FE0 Offset: 0x8485E0 VA: 0x180849FE0
 	private Camera get_targetCamera() { }
 
-	// RVA: 0x849E20 Offset: 0x848420 VA: 0x180849E20
+	// RVA: 0x849F30 Offset: 0x848530 VA: 0x180849F30
 	private int get_TargetWidth() { }
 
-	// RVA: 0x849D70 Offset: 0x848370 VA: 0x180849D70
+	// RVA: 0x849E80 Offset: 0x848480 VA: 0x180849E80
 	private int get_TargetHeight() { }
 
-	// RVA: 0x849530 Offset: 0x847B30 VA: 0x180849530
+	// RVA: 0x849640 Offset: 0x847C40 VA: 0x180849640
 	public static void Register(DeferredExtensionMesh mesh) { }
 
-	// RVA: 0x849A70 Offset: 0x848070 VA: 0x180849A70
+	// RVA: 0x849B80 Offset: 0x848180 VA: 0x180849B80
 	public static void Unregister(DeferredExtensionMesh mesh) { }
 
-	// RVA: 0x849400 Offset: 0x847A00 VA: 0x180849400
+	// RVA: 0x849510 Offset: 0x847B10 VA: 0x180849510
 	private void OnEnable() { }
 
-	// RVA: 0x849270 Offset: 0x847870 VA: 0x180849270
+	// RVA: 0x849380 Offset: 0x847980 VA: 0x180849380
 	private void OnDisable() { }
 
-	// RVA: 0x847F50 Offset: 0x846550 VA: 0x180847F50
+	// RVA: 0x848060 Offset: 0x846660 VA: 0x180848060
 	private void CheckCommandBuffers() { }
 
-	// RVA: 0x8484F0 Offset: 0x846AF0 VA: 0x1808484F0
+	// RVA: 0x848600 Offset: 0x846C00 VA: 0x180848600
 	private void CleanupCommandBuffers() { }
 
-	// RVA: 0x8486D0 Offset: 0x846CD0 VA: 0x1808486D0
+	// RVA: 0x8487E0 Offset: 0x846DE0 VA: 0x1808487E0
 	private void CreateMaterials() { }
 
-	// RVA: 0x8485C0 Offset: 0x846BC0 VA: 0x1808485C0
+	// RVA: 0x8486D0 Offset: 0x846CD0 VA: 0x1808486D0
 	private void CleanupMaterials() { }
 
-	// RVA: 0x847E60 Offset: 0x846460 VA: 0x180847E60
+	// RVA: 0x847F70 Offset: 0x846570 VA: 0x180847F70
 	private void BindSystemTextures() { }
 
 	// RVA: -1 Offset: -1
 	private void SafeCleanupTexture<T>(ref T tex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15728F0 Offset: 0x1570EF0 VA: 0x1815728F0
+	|-RVA: 0x1572BB0 Offset: 0x15711B0 VA: 0x181572BB0
 	|-DeferredExtension.SafeCleanupTexture<object>
 	|-DeferredExtension.SafeCleanupTexture<RenderTexture>
 	*/
 
-	// RVA: 0x848670 Offset: 0x846C70 VA: 0x180848670
+	// RVA: 0x848780 Offset: 0x846D80 VA: 0x180848780
 	private void CleanupSystemTextures() { }
 
-	// RVA: 0x848260 Offset: 0x846860 VA: 0x180848260
+	// RVA: 0x848370 Offset: 0x846970 VA: 0x180848370
 	private void CheckSystemTextures() { }
 
-	// RVA: 0x847DE0 Offset: 0x8463E0 VA: 0x180847DE0
+	// RVA: 0x847EF0 Offset: 0x8464F0 VA: 0x180847EF0
 	public static void BecameVisible(DeferredExtensionMesh mesh) { }
 
-	// RVA: 0x847D60 Offset: 0x846360 VA: 0x180847D60
+	// RVA: 0x847E70 Offset: 0x846470 VA: 0x180847E70
 	public static void BecameInvisible(DeferredExtensionMesh mesh) { }
 
-	// RVA: 0x848770 Offset: 0x846D70 VA: 0x180848770
+	// RVA: 0x848880 Offset: 0x846E80 VA: 0x180848880
 	public void FillCommandBuffer_ExtendGBuffer(CommandBuffer cb) { }
 
-	// RVA: 0x848A30 Offset: 0x847030 VA: 0x180848A30
+	// RVA: 0x848B40 Offset: 0x847140 VA: 0x180848B40
 	public void FillCommandBuffer_PostSubsurface(CommandBuffer cb) { }
 
-	// RVA: 0x848140 Offset: 0x846740 VA: 0x180848140
+	// RVA: 0x848250 Offset: 0x846850 VA: 0x180848250
 	private void CheckConsoleVars() { }
 
-	// RVA: 0x8481E0 Offset: 0x8467E0 VA: 0x1808481E0
+	// RVA: 0x8482F0 Offset: 0x8468F0 VA: 0x1808482F0
 	private void CheckShaderKeywords() { }
 
-	// RVA: 0x8495B0 Offset: 0x847BB0 VA: 0x1808495B0
+	// RVA: 0x8496C0 Offset: 0x847CC0 VA: 0x1808496C0
 	private void SetShaderGlobals() { }
 
-	// RVA: 0x849AF0 Offset: 0x8480F0 VA: 0x180849AF0
+	// RVA: 0x849C00 Offset: 0x848200 VA: 0x180849C00
 	private void Update() { }
 
-	// RVA: 0x849520 Offset: 0x847B20 VA: 0x180849520
+	// RVA: 0x849630 Offset: 0x847C30 VA: 0x180849630
 	private void OnPreRender() { }
 
-	// RVA: 0x849200 Offset: 0x847800 VA: 0x180849200
+	// RVA: 0x849310 Offset: 0x847910 VA: 0x180849310
 	public static float LightIntensityScale(float intensity) { }
 
-	// RVA: 0x849CA0 Offset: 0x8482A0 VA: 0x180849CA0
+	// RVA: 0x849DB0 Offset: 0x8483B0 VA: 0x180849DB0
 	public void .ctor() { }
 
-	// RVA: 0x849C00 Offset: 0x848200 VA: 0x180849C00
+	// RVA: 0x849D10 Offset: 0x848310 VA: 0x180849D10
 	private static void .cctor() { }
 
 }

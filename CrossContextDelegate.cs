@@ -4,7 +4,7 @@ public sealed class CrossContextDelegate : MulticastDelegate // TypeDefIndex: 11
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1464520 Offset: 0x1462B20 VA: 0x181464520 Slot: 12
+	// RVA: 0x14647E0 Offset: 0x1462DE0 VA: 0x1814647E0 Slot: 12
 	public virtual void Invoke() { }
 
 	// RVA: 0x49A190 Offset: 0x498790 VA: 0x18049A190 Slot: 13

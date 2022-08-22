@@ -19,15 +19,15 @@ public class PlayableDirector : Behaviour // TypeDefIndex: 4518
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2322990 Offset: 0x2320F90 VA: 0x182322990
+	// RVA: 0x2322C50 Offset: 0x2321250 VA: 0x182322C50
 	private void SendOnPlayableDirectorPlay() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2322940 Offset: 0x2320F40 VA: 0x182322940
+	// RVA: 0x2322C00 Offset: 0x2321200 VA: 0x182322C00
 	private void SendOnPlayableDirectorPause() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x23229E0 Offset: 0x2320FE0 VA: 0x1823229E0
+	// RVA: 0x2322CA0 Offset: 0x23212A0 VA: 0x182322CA0
 	private void SendOnPlayableDirectorStop() { }
 
 }

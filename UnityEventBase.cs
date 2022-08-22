@@ -8,13 +8,13 @@ public abstract class UnityEventBase : ISerializationCallbackReceiver // TypeDef
 
 	// Methods
 
-	// RVA: 0x1834090 Offset: 0x1832690 VA: 0x181834090
+	// RVA: 0x1834350 Offset: 0x1832950 VA: 0x181834350
 	protected void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4
 	private void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize() { }
 
-	// RVA: 0x1833580 Offset: 0x1831B80 VA: 0x181833580 Slot: 5
+	// RVA: 0x1833840 Offset: 0x1831E40 VA: 0x181833840 Slot: 5
 	private void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize() { }
 
 	// RVA: -1 Offset: -1 Slot: 6
@@ -23,34 +23,34 @@ public abstract class UnityEventBase : ISerializationCallbackReceiver // TypeDef
 	// RVA: -1 Offset: -1 Slot: 7
 	internal abstract BaseInvokableCall GetDelegate(object target, MethodInfo theFunction);
 
-	// RVA: 0x18335E0 Offset: 0x1831BE0 VA: 0x1818335E0
+	// RVA: 0x18338A0 Offset: 0x1831EA0 VA: 0x1818338A0
 	internal MethodInfo FindMethod(PersistentCall call) { }
 
-	// RVA: 0x1833750 Offset: 0x1831D50 VA: 0x181833750
+	// RVA: 0x1833A10 Offset: 0x1832010 VA: 0x181833A10
 	internal MethodInfo FindMethod(string name, object listener, PersistentListenerMode mode, Type argumentType) { }
 
-	// RVA: 0x1833580 Offset: 0x1831B80 VA: 0x181833580
+	// RVA: 0x1833840 Offset: 0x1831E40 VA: 0x181833840
 	private void DirtyPersistentCalls() { }
 
-	// RVA: 0x1833DF0 Offset: 0x18323F0 VA: 0x181833DF0
+	// RVA: 0x18340B0 Offset: 0x18326B0 VA: 0x1818340B0
 	private void RebuildPersistentCallsIfNeeded() { }
 
-	// RVA: 0x1833520 Offset: 0x1831B20 VA: 0x181833520
+	// RVA: 0x18337E0 Offset: 0x1831DE0 VA: 0x1818337E0
 	internal void AddCall(BaseInvokableCall call) { }
 
-	// RVA: 0x1833E80 Offset: 0x1832480 VA: 0x181833E80
+	// RVA: 0x1834140 Offset: 0x1832740 VA: 0x181834140
 	protected void RemoveListener(object targetObj, MethodInfo method) { }
 
-	// RVA: 0x1833E30 Offset: 0x1832430 VA: 0x181833E30
+	// RVA: 0x18340F0 Offset: 0x18326F0 VA: 0x1818340F0
 	public void RemoveAllListeners() { }
 
-	// RVA: 0x1833D30 Offset: 0x1832330 VA: 0x181833D30
+	// RVA: 0x1833FF0 Offset: 0x18325F0 VA: 0x181833FF0
 	internal List<BaseInvokableCall> PrepareInvoke() { }
 
-	// RVA: 0x1834010 Offset: 0x1832610 VA: 0x181834010 Slot: 3
+	// RVA: 0x18342D0 Offset: 0x18328D0 VA: 0x1818342D0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1833B50 Offset: 0x1832150 VA: 0x181833B50
+	// RVA: 0x1833E10 Offset: 0x1832410 VA: 0x181833E10
 	public static MethodInfo GetValidMethodInfo(object obj, string functionName, Type[] argumentTypes) { }
 
 }

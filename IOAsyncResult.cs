@@ -24,19 +24,19 @@ internal abstract class IOAsyncResult : IAsyncResult // TypeDefIndex: 2594
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 6
 	public object get_AsyncState() { }
 
-	// RVA: 0x15336C0 Offset: 0x1531CC0 VA: 0x1815336C0 Slot: 5
+	// RVA: 0x1533980 Offset: 0x1531F80 VA: 0x181533980 Slot: 5
 	public WaitHandle get_AsyncWaitHandle() { }
 
-	// RVA: 0x9974E0 Offset: 0x995AE0 VA: 0x1809974E0 Slot: 7
+	// RVA: 0x9975F0 Offset: 0x995BF0 VA: 0x1809975F0 Slot: 7
 	public bool get_CompletedSynchronously() { }
 
-	// RVA: 0x9974F0 Offset: 0x995AF0 VA: 0x1809974F0
+	// RVA: 0x997600 Offset: 0x995C00 VA: 0x180997600
 	protected void set_CompletedSynchronously(bool value) { }
 
-	// RVA: 0x73ABF0 Offset: 0x7391F0 VA: 0x18073ABF0 Slot: 4
+	// RVA: 0x73AD00 Offset: 0x739300 VA: 0x18073AD00 Slot: 4
 	public bool get_IsCompleted() { }
 
-	// RVA: 0x15337D0 Offset: 0x1531DD0 VA: 0x1815337D0
+	// RVA: 0x1533A90 Offset: 0x1532090 VA: 0x181533A90
 	protected void set_IsCompleted(bool value) { }
 
 	// RVA: -1 Offset: -1 Slot: 8

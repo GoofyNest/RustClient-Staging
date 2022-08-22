@@ -25,28 +25,28 @@ internal class PersistentCall // TypeDefIndex: 3635
 
 	// Methods
 
-	// RVA: 0x181D9F0 Offset: 0x181BFF0 VA: 0x18181D9F0
+	// RVA: 0x181DCB0 Offset: 0x181C2B0 VA: 0x18181DCB0
 	public Object get_target() { }
 
-	// RVA: 0x181D9E0 Offset: 0x181BFE0 VA: 0x18181D9E0
+	// RVA: 0x181DCA0 Offset: 0x181C2A0 VA: 0x18181DCA0
 	public string get_methodName() { }
 
-	// RVA: 0x181D9C0 Offset: 0x181BFC0 VA: 0x18181D9C0
+	// RVA: 0x181DC80 Offset: 0x181C280 VA: 0x18181DC80
 	public PersistentListenerMode get_mode() { }
 
-	// RVA: 0x181D9D0 Offset: 0x181BFD0 VA: 0x18181D9D0
+	// RVA: 0x181DC90 Offset: 0x181C290 VA: 0x18181DC90
 	public ArgumentCache get_arguments() { }
 
-	// RVA: 0x1832820 Offset: 0x1830E20 VA: 0x181832820
+	// RVA: 0x1832AE0 Offset: 0x18310E0 VA: 0x181832AE0
 	public bool IsValid() { }
 
-	// RVA: 0x18324C0 Offset: 0x1830AC0 VA: 0x1818324C0
+	// RVA: 0x1832780 Offset: 0x1830D80 VA: 0x181832780
 	public BaseInvokableCall GetRuntimeCall(UnityEventBase theEvent) { }
 
-	// RVA: 0x1831F70 Offset: 0x1830570 VA: 0x181831F70
+	// RVA: 0x1832230 Offset: 0x1830830 VA: 0x181832230
 	private static BaseInvokableCall GetObjectCall(Object target, MethodInfo method, ArgumentCache arguments) { }
 
-	// RVA: 0x18328B0 Offset: 0x1830EB0 VA: 0x1818328B0
+	// RVA: 0x1832B70 Offset: 0x1831170 VA: 0x181832B70
 	public void .ctor() { }
 
 }

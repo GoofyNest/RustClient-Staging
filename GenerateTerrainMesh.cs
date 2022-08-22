@@ -4,7 +4,7 @@ public class GenerateTerrainMesh : ProceduralComponent // TypeDefIndex: 10525
 
 	// Methods
 
-	// RVA: 0xC97C70 Offset: 0xC96270 VA: 0x180C97C70 Slot: 5
+	// RVA: 0xC97F30 Offset: 0xC96530 VA: 0x180C97F30 Slot: 5
 	public override void Process(uint seed) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 4

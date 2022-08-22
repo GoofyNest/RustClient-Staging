@@ -1,10 +1,10 @@
 public static class NoteUtilities // TypeDefIndex: 7435
 {	// Methods
 
-	// RVA: 0x21FF310 Offset: 0x21FD910 VA: 0x1821FF310
+	// RVA: 0x21FF5D0 Offset: 0x21FDBD0 VA: 0x1821FF5D0
 	public static NoteName GetNoteName(SevenBitNumber noteNumber) { }
 
-	// RVA: 0x21FF380 Offset: 0x21FD980 VA: 0x1821FF380
+	// RVA: 0x21FF640 Offset: 0x21FDC40 VA: 0x1821FF640
 	public static int GetNoteOctave(SevenBitNumber noteNumber) { }
 
 }

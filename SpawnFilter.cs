@@ -13,19 +13,19 @@ public class SpawnFilter // TypeDefIndex: 10309
 
 	// Methods
 
-	// RVA: 0xA7D9E0 Offset: 0xA7BFE0 VA: 0x180A7D9E0
+	// RVA: 0xA7DCA0 Offset: 0xA7C2A0 VA: 0x180A7DCA0
 	public bool Test(Vector3 worldPos) { }
 
-	// RVA: 0xA7DA60 Offset: 0xA7C060 VA: 0x180A7DA60
+	// RVA: 0xA7DD20 Offset: 0xA7C320 VA: 0x180A7DD20
 	public bool Test(float normX, float normZ) { }
 
-	// RVA: 0xA7D970 Offset: 0xA7BF70 VA: 0x180A7D970
+	// RVA: 0xA7DC30 Offset: 0xA7C230 VA: 0x180A7DC30
 	public float GetFactor(Vector3 worldPos, bool checkPlacementMap = True) { }
 
-	// RVA: 0xA7D600 Offset: 0xA7BC00 VA: 0x180A7D600
+	// RVA: 0xA7D8C0 Offset: 0xA7BEC0 VA: 0x180A7D8C0
 	public float GetFactor(float normX, float normZ, bool checkPlacementMap = True) { }
 
-	// RVA: 0x9D05D0 Offset: 0x9CEBD0 VA: 0x1809D05D0
+	// RVA: 0x9D0890 Offset: 0x9CEE90 VA: 0x1809D0890
 	public void .ctor() { }
 
 }

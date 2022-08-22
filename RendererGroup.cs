@@ -22,82 +22,82 @@ public class RendererGroup : Pool.IPooled // TypeDefIndex: 9921
 
 	// Methods
 
-	// RVA: 0x950AC0 Offset: 0x94F0C0 VA: 0x180950AC0
+	// RVA: 0x950BD0 Offset: 0x94F1D0 VA: 0x180950BD0
 	public float get_Size() { }
 
-	// RVA: 0x950A90 Offset: 0x94F090 VA: 0x180950A90
+	// RVA: 0x950BA0 Offset: 0x94F1A0 VA: 0x180950BA0
 	public Vector3 get_Position() { }
 
-	// RVA: 0x950A40 Offset: 0x94F040 VA: 0x180950A40
+	// RVA: 0x950B50 Offset: 0x94F150 VA: 0x180950B50
 	public int get_Count() { }
 
-	// RVA: 0x950140 Offset: 0x94E740 VA: 0x180950140
+	// RVA: 0x950250 Offset: 0x94E850 VA: 0x180950250
 	public void Initialize(RendererGrid grid, RendererCell cell, RendererKey key) { }
 
-	// RVA: 0x950070 Offset: 0x94E670 VA: 0x180950070 Slot: 4
+	// RVA: 0x950180 Offset: 0x94E780 VA: 0x180950180 Slot: 4
 	public void EnterPool() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	public void LeavePool() { }
 
-	// RVA: 0x94F490 Offset: 0x94DA90 VA: 0x18094F490
+	// RVA: 0x94F5A0 Offset: 0x94DBA0 VA: 0x18094F5A0
 	public void Add(RendererBatch renderer) { }
 
-	// RVA: 0x950470 Offset: 0x94EA70 VA: 0x180950470
+	// RVA: 0x950580 Offset: 0x94EB80 VA: 0x180950580
 	public void Remove(RendererBatch renderer) { }
 
-	// RVA: 0x9501A0 Offset: 0x94E7A0 VA: 0x1809501A0
+	// RVA: 0x9502B0 Offset: 0x94E8B0 VA: 0x1809502B0
 	public void Invalidate() { }
 
-	// RVA: 0x94F4F0 Offset: 0x94DAF0 VA: 0x18094F4F0
+	// RVA: 0x94F600 Offset: 0x94DC00 VA: 0x18094F600
 	public void Add(MeshRendererInstance instance) { }
 
-	// RVA: 0x950600 Offset: 0x94EC00 VA: 0x180950600
+	// RVA: 0x950710 Offset: 0x94ED10 VA: 0x180950710
 	public void UpdateData() { }
 
-	// RVA: 0x94FB10 Offset: 0x94E110 VA: 0x18094FB10
+	// RVA: 0x94FC20 Offset: 0x94E220 VA: 0x18094FC20
 	public void CreateBatches() { }
 
-	// RVA: 0x9503C0 Offset: 0x94E9C0 VA: 0x1809503C0
+	// RVA: 0x9504D0 Offset: 0x94EAD0 VA: 0x1809504D0
 	public void RefreshBatches() { }
 
-	// RVA: 0x94F5C0 Offset: 0x94DBC0 VA: 0x18094F5C0
+	// RVA: 0x94F6D0 Offset: 0x94DCD0 VA: 0x18094F6D0
 	public void ApplyBatches() { }
 
-	// RVA: 0x94FD70 Offset: 0x94E370 VA: 0x18094FD70
+	// RVA: 0x94FE80 Offset: 0x94E480 VA: 0x18094FE80
 	public void DisplayBatches() { }
 
-	// RVA: 0x950550 Offset: 0x94EB50 VA: 0x180950550
+	// RVA: 0x950660 Offset: 0x94EC60 VA: 0x180950660
 	public IEnumerator UpdateDataAsync() { }
 
-	// RVA: 0x950310 Offset: 0x94E910 VA: 0x180950310
+	// RVA: 0x950420 Offset: 0x94EA20 VA: 0x180950420
 	public IEnumerator RefreshBatchesAsync() { }
 
-	// RVA: 0x9504D0 Offset: 0x94EAD0 VA: 0x1809504D0
+	// RVA: 0x9505E0 Offset: 0x94EBE0 VA: 0x1809505E0
 	public void Start() { }
 
-	// RVA: 0x94FE20 Offset: 0x94E420 VA: 0x18094FE20
+	// RVA: 0x94FF30 Offset: 0x94E530 VA: 0x18094FF30
 	public void End() { }
 
-	// RVA: 0x94F860 Offset: 0x94DE60 VA: 0x18094F860
+	// RVA: 0x94F970 Offset: 0x94DF70 VA: 0x18094F970
 	public void Clear() { }
 
-	// RVA: 0x94F720 Offset: 0x94DD20 VA: 0x18094F720
+	// RVA: 0x94F830 Offset: 0x94DE30 VA: 0x18094F830
 	public void Cancel() { }
 
-	// RVA: 0x950260 Offset: 0x94E860 VA: 0x180950260
+	// RVA: 0x950370 Offset: 0x94E970 VA: 0x180950370
 	public int MeshCount() { }
 
-	// RVA: 0x94F670 Offset: 0x94DC70 VA: 0x18094F670
+	// RVA: 0x94F780 Offset: 0x94DD80 VA: 0x18094F780
 	public int BatchedMeshCount() { }
 
-	// RVA: 0x950860 Offset: 0x94EE60 VA: 0x180950860
+	// RVA: 0x950970 Offset: 0x94EF70 VA: 0x180950970
 	public int VertexCount() { }
 
-	// RVA: 0x94F9A0 Offset: 0x94DFA0 VA: 0x18094F9A0
+	// RVA: 0x94FAB0 Offset: 0x94E0B0 VA: 0x18094FAB0
 	public MeshRendererBatch CreateBatch() { }
 
-	// RVA: 0x950910 Offset: 0x94EF10 VA: 0x180950910
+	// RVA: 0x950A20 Offset: 0x94F020 VA: 0x180950A20
 	public void .ctor() { }
 
 }

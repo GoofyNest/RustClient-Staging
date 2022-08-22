@@ -20,22 +20,22 @@ public class ElectricBattery : IOEntity, IInstanceDataReceiver // TypeDefIndex: 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0xABFF00 Offset: 0xABE500 VA: 0x180ABFF00 Slot: 151
+	// RVA: 0xAC01C0 Offset: 0xABE7C0 VA: 0x180AC01C0 Slot: 151
 	public override int MaximalPowerOutput() { }
 
-	// RVA: 0xABFE70 Offset: 0xABE470 VA: 0x180ABFE70
+	// RVA: 0xAC0130 Offset: 0xABE730 VA: 0x180AC0130
 	public int GetActiveDrain() { }
 
-	// RVA: 0xABFF10 Offset: 0xABE510 VA: 0x180ABFF10 Slot: 155
+	// RVA: 0xAC01D0 Offset: 0xABE7D0 VA: 0x180AC01D0 Slot: 155
 	public override void ProcessAdditionalData(int first, int second, float third, float fourth) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 159
 	public void ReceiveInstanceData(Item.InstanceData data) { }
 
-	// RVA: 0xABFEA0 Offset: 0xABE4A0 VA: 0x180ABFEA0 Slot: 34
+	// RVA: 0xAC0160 Offset: 0xABE760 VA: 0x180AC0160 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xABFF70 Offset: 0xABE570 VA: 0x180ABFF70
+	// RVA: 0xAC0230 Offset: 0xABE830 VA: 0x180AC0230
 	public void .ctor() { }
 
 }

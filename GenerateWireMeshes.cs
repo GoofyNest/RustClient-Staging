@@ -4,7 +4,7 @@ public class GenerateWireMeshes : ProceduralComponent // TypeDefIndex: 10528
 
 	// Methods
 
-	// RVA: 0xC98800 Offset: 0xC96E00 VA: 0x180C98800 Slot: 5
+	// RVA: 0xC98AC0 Offset: 0xC970C0 VA: 0x180C98AC0 Slot: 5
 	public override void Process(uint seed) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 4

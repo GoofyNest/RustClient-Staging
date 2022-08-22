@@ -6,10 +6,10 @@ public class Construct : ConsoleSystem // TypeDefIndex: 11895
 
 	// Methods
 
-	// RVA: 0x6D48F0 Offset: 0x6D2EF0 VA: 0x1806D48F0
+	// RVA: 0x6D4A00 Offset: 0x6D3000 VA: 0x1806D4A00
 	public void .ctor() { }
 
-	// RVA: 0x6D48B0 Offset: 0x6D2EB0 VA: 0x1806D48B0
+	// RVA: 0x6D49C0 Offset: 0x6D2FC0 VA: 0x1806D49C0
 	private static void .cctor() { }
 
 }

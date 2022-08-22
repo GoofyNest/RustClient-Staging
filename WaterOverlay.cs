@@ -14,28 +14,28 @@ public class WaterOverlay : MonoBehaviour, IClientComponent // TypeDefIndex: 913
 
 	// Methods
 
-	// RVA: 0xC194C0 Offset: 0xC17AC0 VA: 0x180C194C0
+	// RVA: 0xC19780 Offset: 0xC17D80 VA: 0x180C19780
 	protected void Awake() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	protected void OnDestroy() { }
 
-	// RVA: 0xC19730 Offset: 0xC17D30 VA: 0x180C19730
+	// RVA: 0xC199F0 Offset: 0xC17FF0 VA: 0x180C199F0
 	private WaterOverlay.EffectParams GetEffectParams() { }
 
-	// RVA: 0xC19820 Offset: 0xC17E20 VA: 0x180C19820
+	// RVA: 0xC19AE0 Offset: 0xC180E0 VA: 0x180C19AE0
 	private void SetEffectParams(WaterOverlay.EffectParams param) { }
 
-	// RVA: 0xC19970 Offset: 0xC17F70 VA: 0x180C19970
+	// RVA: 0xC19C30 Offset: 0xC18230 VA: 0x180C19C30
 	private void SetUnderwaterFogMaterials(bool fog) { }
 
-	// RVA: 0xC19A10 Offset: 0xC18010 VA: 0x180C19A10
+	// RVA: 0xC19CD0 Offset: 0xC182D0 VA: 0x180C19CD0
 	private void UpdateEffectState() { }
 
-	// RVA: 0xC19EF0 Offset: 0xC184F0 VA: 0x180C19EF0
+	// RVA: 0xC1A1B0 Offset: 0xC187B0 VA: 0x180C1A1B0
 	protected void Update() { }
 
-	// RVA: 0xC1A140 Offset: 0xC18740 VA: 0x180C1A140
+	// RVA: 0xC1A400 Offset: 0xC18A00 VA: 0x180C1A400
 	public void .ctor() { }
 
 }
@@ -58,7 +58,7 @@ public struct WaterOverlay.EffectParams // TypeDefIndex: 9139
 
 	// Methods
 
-	// RVA: 0xC0F9F0 Offset: 0xC0DFF0 VA: 0x180C0F9F0
+	// RVA: 0xC0FCB0 Offset: 0xC0E2B0 VA: 0x180C0FCB0
 	private static void .cctor() { }
 
 }

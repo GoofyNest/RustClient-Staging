@@ -10,10 +10,10 @@ public class GenericSpawnPoint : BaseSpawnPoint // TypeDefIndex: 9999
 
 	// Methods
 
-	// RVA: 0xC98850 Offset: 0xC96E50 VA: 0x180C98850
+	// RVA: 0xC98B10 Offset: 0xC97110 VA: 0x180C98B10
 	public Quaternion GetRandomRotation() { }
 
-	// RVA: 0xC98970 Offset: 0xC96F70 VA: 0x180C98970
+	// RVA: 0xC98C30 Offset: 0xC97230 VA: 0x180C98C30
 	public void .ctor() { }
 
 }

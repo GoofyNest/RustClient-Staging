@@ -4,10 +4,10 @@ public class OpenURL : MonoBehaviour // TypeDefIndex: 11188
 
 	// Methods
 
-	// RVA: 0x9E6B70 Offset: 0x9E5170 VA: 0x1809E6B70
+	// RVA: 0x9E6E30 Offset: 0x9E5430 VA: 0x1809E6E30
 	public void OpenwebURL(string url) { }
 
-	// RVA: 0x7683B0 Offset: 0x7669B0 VA: 0x1807683B0
+	// RVA: 0x7684C0 Offset: 0x766AC0 VA: 0x1807684C0
 	public void .ctor() { }
 
 }

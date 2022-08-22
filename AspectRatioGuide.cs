@@ -7,13 +7,13 @@ public class AspectRatioGuide : MonoBehaviour // TypeDefIndex: 10826
 
 	// Methods
 
-	// RVA: 0x830380 Offset: 0x82E980 VA: 0x180830380
+	// RVA: 0x830490 Offset: 0x82EA90 VA: 0x180830490
 	private void Populate() { }
 
-	// RVA: 0x830370 Offset: 0x82E970 VA: 0x180830370
+	// RVA: 0x830480 Offset: 0x82EA80 VA: 0x180830480
 	public void Awake() { }
 
-	// RVA: 0x830370 Offset: 0x82E970 VA: 0x180830370
+	// RVA: 0x830480 Offset: 0x82EA80 VA: 0x180830480
 	public void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

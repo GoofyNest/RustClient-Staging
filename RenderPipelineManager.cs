@@ -19,44 +19,44 @@ public static class RenderPipelineManager // TypeDefIndex: 3851
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19AF3E0 Offset: 0x19AD9E0 VA: 0x1819AF3E0
+	// RVA: 0x19AF6A0 Offset: 0x19ADCA0 VA: 0x1819AF6A0
 	public static RenderPipeline get_currentPipeline() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19AF640 Offset: 0x19ADC40 VA: 0x1819AF640
+	// RVA: 0x19AF900 Offset: 0x19ADF00 VA: 0x1819AF900
 	private static void set_currentPipeline(RenderPipeline value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19AF2E0 Offset: 0x19AD8E0 VA: 0x1819AF2E0
+	// RVA: 0x19AF5A0 Offset: 0x19ADBA0 VA: 0x1819AF5A0
 	public static void add_beginFrameRendering(Action<ScriptableRenderContext, Camera[]> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19AF540 Offset: 0x19ADB40 VA: 0x1819AF540
+	// RVA: 0x19AF800 Offset: 0x19ADE00 VA: 0x1819AF800
 	public static void remove_beginFrameRendering(Action<ScriptableRenderContext, Camera[]> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19AF1E0 Offset: 0x19AD7E0 VA: 0x1819AF1E0
+	// RVA: 0x19AF4A0 Offset: 0x19ADAA0 VA: 0x1819AF4A0
 	public static void add_beginCameraRendering(Action<ScriptableRenderContext, Camera> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19AF440 Offset: 0x19ADA40 VA: 0x1819AF440
+	// RVA: 0x19AF700 Offset: 0x19ADD00 VA: 0x1819AF700
 	public static void remove_beginCameraRendering(Action<ScriptableRenderContext, Camera> value) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19AE650 Offset: 0x19ACC50 VA: 0x1819AE650
+	// RVA: 0x19AE910 Offset: 0x19ACF10 VA: 0x1819AE910
 	internal static void CleanupRenderPipeline() { }
 
-	// RVA: 0x19AED30 Offset: 0x19AD330 VA: 0x1819AED30
+	// RVA: 0x19AEFF0 Offset: 0x19AD5F0 VA: 0x1819AEFF0
 	private static void GetCameras(ScriptableRenderContext context) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19AE990 Offset: 0x19ACF90 VA: 0x1819AE990
+	// RVA: 0x19AEC50 Offset: 0x19AD250 VA: 0x1819AEC50
 	private static void DoRenderLoop_Internal(RenderPipelineAsset pipe, IntPtr loopPtr) { }
 
-	// RVA: 0x19AEEE0 Offset: 0x19AD4E0 VA: 0x1819AEEE0
+	// RVA: 0x19AF1A0 Offset: 0x19AD7A0 VA: 0x1819AF1A0
 	private static void PrepareRenderPipeline(RenderPipelineAsset pipelineAsset) { }
 
-	// RVA: 0x19AF170 Offset: 0x19AD770 VA: 0x1819AF170
+	// RVA: 0x19AF430 Offset: 0x19ADA30 VA: 0x1819AF430
 	private static void .cctor() { }
 
 }

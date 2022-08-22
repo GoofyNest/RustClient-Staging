@@ -6,13 +6,13 @@ public class TriangleER // TypeDefIndex: 6876
 
 	// Methods
 
-	// RVA: 0x1473D10 Offset: 0x1472310 VA: 0x181473D10
+	// RVA: 0x1473FD0 Offset: 0x14725D0 VA: 0x181473FD0
 	public void .ctor(PointER vertex1, PointER vertex2, PointER vertex3) { }
 
-	// RVA: 0x2317D00 Offset: 0x2316300 VA: 0x182317D00
+	// RVA: 0x2317FC0 Offset: 0x23165C0 VA: 0x182317FC0
 	public double ContainsInCircumcircle(PointER point) { }
 
-	// RVA: 0x2317E50 Offset: 0x2316450 VA: 0x182317E50
+	// RVA: 0x2318110 Offset: 0x2316710 VA: 0x182318110
 	public bool SharesVertexWith(TriangleER triangle) { }
 
 }

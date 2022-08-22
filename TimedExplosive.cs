@@ -19,16 +19,16 @@ public class TimedExplosive : BaseEntity // TypeDefIndex: 9684
 
 	// Methods
 
-	// RVA: 0x88A6C0 Offset: 0x888CC0 VA: 0x18088A6C0 Slot: 61
+	// RVA: 0x88A7D0 Offset: 0x888DD0 VA: 0x18088A7D0 Slot: 61
 	public override void DoDestroyEffects(BaseNetworkable.DestroyMode mode, Message msg) { }
 
 	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 52
 	public override float GetExtrapolationTime() { }
 
-	// RVA: 0x88A710 Offset: 0x888D10 VA: 0x18088A710 Slot: 131
+	// RVA: 0x88A820 Offset: 0x888E20 VA: 0x18088A820 Slot: 131
 	public virtual void SetCollisionEnabled(bool wantsCollision) { }
 
-	// RVA: 0x88A7B0 Offset: 0x888DB0 VA: 0x18088A7B0
+	// RVA: 0x88A8C0 Offset: 0x888EC0 VA: 0x18088A8C0
 	public void .ctor() { }
 
 }

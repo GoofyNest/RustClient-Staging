@@ -8,16 +8,16 @@ public static class Threading // TypeDefIndex: 6229
 
 	// Methods
 
-	// RVA: 0x14B9B80 Offset: 0x14B8180 VA: 0x1814B9B80
+	// RVA: 0x14B9E40 Offset: 0x14B8440 VA: 0x1814B9E40
 	public static bool get_IsMainThread() { }
 
-	// RVA: 0x14B9690 Offset: 0x14B7C90 VA: 0x1814B9690
+	// RVA: 0x14B9950 Offset: 0x14B7F50 VA: 0x1814B9950
 	public static void QueueOnMainThread(Action action) { }
 
-	// RVA: 0x14B9870 Offset: 0x14B7E70 VA: 0x1814B9870
+	// RVA: 0x14B9B30 Offset: 0x14B8130 VA: 0x1814B9B30
 	internal static void RunQueuedFunctionsOnMainThread() { }
 
-	// RVA: 0x14B9B10 Offset: 0x14B8110 VA: 0x1814B9B10
+	// RVA: 0x14B9DD0 Offset: 0x14B83D0 VA: 0x1814B9DD0
 	private static void .cctor() { }
 
 }

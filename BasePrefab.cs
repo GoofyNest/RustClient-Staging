@@ -10,10 +10,10 @@ public class BasePrefab : BaseMonoBehaviour, IPrefabPreProcess // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x920DA0 Offset: 0x91F3A0 VA: 0x180920DA0
+	// RVA: 0x920EB0 Offset: 0x91F4B0 VA: 0x180920EB0
 	public bool get_isServer() { }
 
-	// RVA: 0x920D30 Offset: 0x91F330 VA: 0x180920D30 Slot: 7
+	// RVA: 0x920E40 Offset: 0x91F440 VA: 0x180920E40 Slot: 7
 	public virtual void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
 	// RVA: 0x521BF0 Offset: 0x5201F0 VA: 0x180521BF0

@@ -10,16 +10,16 @@ internal sealed class SettingsSectionInternal // TypeDefIndex: 3088
 
 	// Methods
 
-	// RVA: 0x15373F0 Offset: 0x15359F0 VA: 0x1815373F0
+	// RVA: 0x15376B0 Offset: 0x1535CB0 VA: 0x1815376B0
 	internal static SettingsSectionInternal get_Section() { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250
 	internal bool get_Ipv6Enabled() { }
 
-	// RVA: 0x15373D0 Offset: 0x15359D0 VA: 0x1815373D0
+	// RVA: 0x1537690 Offset: 0x1535C90 VA: 0x181537690
 	public void .ctor() { }
 
-	// RVA: 0x1537360 Offset: 0x1535960 VA: 0x181537360
+	// RVA: 0x1537620 Offset: 0x1535C20 VA: 0x181537620
 	private static void .cctor() { }
 
 }

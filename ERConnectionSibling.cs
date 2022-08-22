@@ -109,40 +109,40 @@ public class ERConnectionSibling // TypeDefIndex: 7191
 
 	// Methods
 
-	// RVA: 0xB7C3C0 Offset: 0xB7A9C0 VA: 0x180B7C3C0
+	// RVA: 0xB7C680 Offset: 0xB7AC80 VA: 0x180B7C680
 	public void Clear() { }
 
-	// RVA: 0xB7D020 Offset: 0xB7B620 VA: 0x180B7D020
+	// RVA: 0xB7D2E0 Offset: 0xB7B8E0 VA: 0x180B7D2E0
 	private void Init(ERModularRoad scr, float angle, Vector3 controlPoint, Transform transform) { }
 
-	// RVA: 0xB7C6F0 Offset: 0xB7ACF0 VA: 0x180B7C6F0
+	// RVA: 0xB7C9B0 Offset: 0xB7AFB0 VA: 0x180B7C9B0
 	public static ERConnectionSibling CreateInstance(ERModularRoad scr, float angle, Vector3 controlPoint, Transform transform, List<ERConnectionSibling> siblings) { }
 
-	// RVA: 0xB7CE50 Offset: 0xB7B450 VA: 0x180B7CE50
+	// RVA: 0xB7D110 Offset: 0xB7B710 VA: 0x180B7D110
 	private void GetRoadTypeIndex(double id, List<QDQDOOQQDQODD> types) { }
 
-	// RVA: 0xB7DB70 Offset: 0xB7C170 VA: 0x180B7DB70
+	// RVA: 0xB7DE30 Offset: 0xB7C430 VA: 0x180B7DE30
 	public void ODDQDOCDCC(int index, List<QDQDOOQQDQODD> types) { }
 
-	// RVA: 0xB7D270 Offset: 0xB7B870 VA: 0x180B7D270
+	// RVA: 0xB7D530 Offset: 0xB7BB30 VA: 0x180B7D530
 	public void OCQQDCCOQO(List<QDQDOOQQDQODD> types) { }
 
-	// RVA: 0xB7B6F0 Offset: 0xB79CF0 VA: 0x180B7B6F0
+	// RVA: 0xB7B9B0 Offset: 0xB79FB0 VA: 0x180B7B9B0
 	private void BuildRoadShape() { }
 
-	// RVA: 0xB7DBF0 Offset: 0xB7C1F0 VA: 0x180B7DBF0
+	// RVA: 0xB7DEB0 Offset: 0xB7C4B0 VA: 0x180B7DEB0
 	public static void SetPriorityConnection(List<ERConnectionSibling> siblings, int index) { }
 
-	// RVA: 0xB7CF50 Offset: 0xB7B550 VA: 0x180B7CF50
+	// RVA: 0xB7D210 Offset: 0xB7B810 VA: 0x180B7D210
 	public Vector2 GetVector2(Vector2 v1, Vector2 v2, Vector2 v3) { }
 
-	// RVA: 0xB7D1C0 Offset: 0xB7B7C0 VA: 0x180B7D1C0
+	// RVA: 0xB7D480 Offset: 0xB7BA80 VA: 0x180B7D480
 	public void OCQODDOQQC(double type, List<QDQDOOQQDQODD> roadTypes) { }
 
-	// RVA: 0xB7CBA0 Offset: 0xB7B1A0 VA: 0x180B7CBA0
+	// RVA: 0xB7CE60 Offset: 0xB7B460 VA: 0x180B7CE60
 	public static Vector3 GetAngleControlPoint(Vector3 cp, Vector3 p0, Vector3 p1, Vector3 p2) { }
 
-	// RVA: 0xB7DC80 Offset: 0xB7C280 VA: 0x180B7DC80
+	// RVA: 0xB7DF40 Offset: 0xB7C540 VA: 0x180B7DF40
 	public void .ctor() { }
 
 }
@@ -150,7 +150,7 @@ public class ERConnectionSibling // TypeDefIndex: 7191
 private class ERConnectionSibling.ᙃ : IComparer // TypeDefIndex: 7192
 {	// Methods
 
-	// RVA: 0xB9A410 Offset: 0xB98A10 VA: 0x180B9A410 Slot: 4
+	// RVA: 0xB9A6D0 Offset: 0xB98CD0 VA: 0x180B9A6D0 Slot: 4
 	private int System.Collections.IComparer.Compare(object a, object b) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -165,13 +165,13 @@ private sealed class ERConnectionSibling.ᙄ // TypeDefIndex: 7193
 
 	// Methods
 
-	// RVA: 0xB9A550 Offset: 0xB98B50 VA: 0x180B9A550
+	// RVA: 0xB9A810 Offset: 0xB98E10 VA: 0x180B9A810
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x9CF430 Offset: 0x9CDA30 VA: 0x1809CF430
+	// RVA: 0x9CF6F0 Offset: 0x9CDCF0 VA: 0x1809CF6F0
 	internal int <CreateInstance>b__109_0(ERConnectionSibling x, ERConnectionSibling y) { }
 
 }

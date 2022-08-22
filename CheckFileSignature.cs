@@ -26,7 +26,7 @@ internal struct CheckFileSignature_t : ICallbackData // TypeDefIndex: 5331
 	// RVA: 0x1E4610 Offset: 0x1E3A10 VA: 0x1801E4610 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x136E1B0 Offset: 0x136C7B0 VA: 0x18136E1B0
+	// RVA: 0x136E470 Offset: 0x136CA70 VA: 0x18136E470
 	private static void .cctor() { }
 
 }

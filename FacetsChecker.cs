@@ -1,7 +1,7 @@
 internal abstract class FacetsChecker // TypeDefIndex: 2245
 {	// Methods
 
-	// RVA: 0x151A1C0 Offset: 0x15187C0 VA: 0x18151A1C0 Slot: 4
+	// RVA: 0x151A480 Offset: 0x1518A80 VA: 0x18151A480 Slot: 4
 	internal virtual Exception CheckLexicalFacets(ref string parseString, XmlSchemaDatatype datatype) { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
@@ -40,19 +40,19 @@ internal abstract class FacetsChecker // TypeDefIndex: 2245
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 16
 	internal virtual Exception CheckValueFacets(XmlQualifiedName value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x151A3C0 Offset: 0x15189C0 VA: 0x18151A3C0
+	// RVA: 0x151A680 Offset: 0x1518C80 VA: 0x18151A680
 	internal void CheckWhitespaceFacets(ref string s, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x151A220 Offset: 0x1518820 VA: 0x18151A220
+	// RVA: 0x151A4E0 Offset: 0x1518AE0 VA: 0x18151A4E0
 	internal Exception CheckPatternFacets(RestrictionFacets restriction, string value) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 17
 	internal virtual bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x151A4B0 Offset: 0x1518AB0 VA: 0x18151A4B0 Slot: 18
+	// RVA: 0x151A770 Offset: 0x1518D70 VA: 0x18151A770 Slot: 18
 	internal virtual RestrictionFacets ConstructRestriction(DatatypeImplementation datatype, XmlSchemaObjectCollection facets, XmlNameTable nameTable) { }
 
-	// RVA: 0x151AC40 Offset: 0x1519240 VA: 0x18151AC40
+	// RVA: 0x151AF00 Offset: 0x1519500 VA: 0x18151AF00
 	internal static Decimal Power(int x, int y) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -131,7 +131,7 @@ private struct FacetsChecker.FacetsCompiler // TypeDefIndex: 2246
 	// RVA: 0x1F1BF0 Offset: 0x1F0FF0 VA: 0x1801F1BF0
 	private object ParseFacetValue(XmlSchemaDatatype datatype, XmlSchemaFacet facet, string code, IXmlNamespaceResolver nsmgr, XmlNameTable nameTable) { }
 
-	// RVA: 0x151DEB0 Offset: 0x151C4B0 VA: 0x18151DEB0
+	// RVA: 0x151E170 Offset: 0x151C770 VA: 0x18151E170
 	private static string Preprocess(string pattern) { }
 
 	// RVA: 0x1F1AE0 Offset: 0x1F0EE0 VA: 0x1801F1AE0
@@ -146,7 +146,7 @@ private struct FacetsChecker.FacetsCompiler // TypeDefIndex: 2246
 	// RVA: 0x1F1C60 Offset: 0x1F1060 VA: 0x1801F1C60
 	private void SetFlag(RestrictionFlags flag) { }
 
-	// RVA: 0x151E180 Offset: 0x151C780 VA: 0x18151E180
+	// RVA: 0x151E440 Offset: 0x151CA40 VA: 0x18151E440
 	private static void .cctor() { }
 
 }

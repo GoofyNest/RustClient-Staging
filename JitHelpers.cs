@@ -5,7 +5,7 @@ internal static class JitHelpers // TypeDefIndex: 1313
 	internal static T UnsafeCast<T>(object o) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBDFE80 Offset: 0xBDE480 VA: 0x180BDFE80
+	|-RVA: 0xBE0140 Offset: 0xBDE740 VA: 0x180BE0140
 	|-JitHelpers.UnsafeCast<object>
 	*/
 
@@ -13,7 +13,7 @@ internal static class JitHelpers // TypeDefIndex: 1313
 	internal static int UnsafeEnumCast<T>(T val) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBDFE80 Offset: 0xBDE480 VA: 0x180BDFE80
+	|-RVA: 0xBE0140 Offset: 0xBDE740 VA: 0x180BE0140
 	|-JitHelpers.UnsafeEnumCast<ByteEnum>
 	|-JitHelpers.UnsafeEnumCast<Int32Enum>
 	*/

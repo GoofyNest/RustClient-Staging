@@ -17,7 +17,7 @@ public struct AnimatorControllerPlayable : IEquatable<AnimatorControllerPlayable
 	// RVA: 0x23D070 Offset: 0x23C470 VA: 0x18023D070 Slot: 4
 	public bool Equals(AnimatorControllerPlayable other) { }
 
-	// RVA: 0x22DB620 Offset: 0x22D9C20 VA: 0x1822DB620
+	// RVA: 0x22DB8E0 Offset: 0x22D9EE0 VA: 0x1822DB8E0
 	private static void .cctor() { }
 
 }

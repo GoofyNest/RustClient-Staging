@@ -30,43 +30,43 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public RectOffset get_padding() { }
 
-	// RVA: 0x1711DE0 Offset: 0x17103E0 VA: 0x181711DE0
+	// RVA: 0x17120A0 Offset: 0x17106A0 VA: 0x1817120A0
 	public void set_padding(RectOffset value) { }
 
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	public TextAnchor get_childAlignment() { }
 
-	// RVA: 0x1711D90 Offset: 0x1710390 VA: 0x181711D90
+	// RVA: 0x1712050 Offset: 0x1710650 VA: 0x181712050
 	public void set_childAlignment(TextAnchor value) { }
 
-	// RVA: 0x1711CF0 Offset: 0x17102F0 VA: 0x181711CF0
+	// RVA: 0x1711FB0 Offset: 0x17105B0 VA: 0x181711FB0
 	protected RectTransform get_rectTransform() { }
 
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
 	protected List<RectTransform> get_rectChildren() { }
 
-	// RVA: 0x1710C10 Offset: 0x170F210 VA: 0x181710C10 Slot: 28
+	// RVA: 0x1710ED0 Offset: 0x170F4D0 VA: 0x181710ED0 Slot: 28
 	public virtual void CalculateLayoutInputHorizontal() { }
 
 	// RVA: -1 Offset: -1 Slot: 29
 	public abstract void CalculateLayoutInputVertical();
 
-	// RVA: 0x1711CC0 Offset: 0x17102C0 VA: 0x181711CC0 Slot: 30
+	// RVA: 0x1711F80 Offset: 0x1710580 VA: 0x181711F80 Slot: 30
 	public virtual float get_minWidth() { }
 
-	// RVA: 0x1711CE0 Offset: 0x17102E0 VA: 0x181711CE0 Slot: 31
+	// RVA: 0x1711FA0 Offset: 0x17105A0 VA: 0x181711FA0 Slot: 31
 	public virtual float get_preferredWidth() { }
 
-	// RVA: 0x1711B70 Offset: 0x1710170 VA: 0x181711B70 Slot: 32
+	// RVA: 0x1711E30 Offset: 0x1710430 VA: 0x181711E30 Slot: 32
 	public virtual float get_flexibleWidth() { }
 
-	// RVA: 0x1711CB0 Offset: 0x17102B0 VA: 0x181711CB0 Slot: 33
+	// RVA: 0x1711F70 Offset: 0x1710570 VA: 0x181711F70 Slot: 33
 	public virtual float get_minHeight() { }
 
-	// RVA: 0x1711CD0 Offset: 0x17102D0 VA: 0x181711CD0 Slot: 34
+	// RVA: 0x1711F90 Offset: 0x1710590 VA: 0x181711F90 Slot: 34
 	public virtual float get_preferredHeight() { }
 
-	// RVA: 0x1711B60 Offset: 0x1710160 VA: 0x181711B60 Slot: 35
+	// RVA: 0x1711E20 Offset: 0x1710420 VA: 0x181711E20 Slot: 35
 	public virtual float get_flexibleHeight() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 36
@@ -78,55 +78,55 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	// RVA: -1 Offset: -1 Slot: 38
 	public abstract void SetLayoutVertical();
 
-	// RVA: 0x1711A00 Offset: 0x1710000 VA: 0x181711A00
+	// RVA: 0x1711CC0 Offset: 0x17102C0 VA: 0x181711CC0
 	protected void .ctor() { }
 
-	// RVA: 0x1711190 Offset: 0x170F790 VA: 0x181711190 Slot: 5
+	// RVA: 0x1711450 Offset: 0x170FA50 VA: 0x181711450 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x1711110 Offset: 0x170F710 VA: 0x181711110 Slot: 7
+	// RVA: 0x17113D0 Offset: 0x170F9D0 VA: 0x1817113D0 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x1711100 Offset: 0x170F700 VA: 0x181711100 Slot: 13
+	// RVA: 0x17113C0 Offset: 0x170F9C0 VA: 0x1817113C0 Slot: 13
 	protected override void OnDidApplyAnimationProperties() { }
 
-	// RVA: 0x17110E0 Offset: 0x170F6E0 VA: 0x1817110E0
+	// RVA: 0x17113A0 Offset: 0x170F9A0 VA: 0x1817113A0
 	protected float GetTotalMinSize(int axis) { }
 
-	// RVA: 0x17110F0 Offset: 0x170F6F0 VA: 0x1817110F0
+	// RVA: 0x17113B0 Offset: 0x170F9B0 VA: 0x1817113B0
 	protected float GetTotalPreferredSize(int axis) { }
 
-	// RVA: 0x17110D0 Offset: 0x170F6D0 VA: 0x1817110D0
+	// RVA: 0x1711390 Offset: 0x170F990 VA: 0x181711390
 	protected float GetTotalFlexibleSize(int axis) { }
 
-	// RVA: 0x1710FA0 Offset: 0x170F5A0 VA: 0x181710FA0
+	// RVA: 0x1711260 Offset: 0x170F860 VA: 0x181711260
 	protected float GetStartOffset(int axis, float requiredSpaceWithoutPadding) { }
 
-	// RVA: 0x1710F50 Offset: 0x170F550 VA: 0x181710F50
+	// RVA: 0x1711210 Offset: 0x170F810 VA: 0x181711210
 	protected float GetAlignmentOnAxis(int axis) { }
 
-	// RVA: 0x1711990 Offset: 0x170FF90 VA: 0x181711990
+	// RVA: 0x1711C50 Offset: 0x1710250 VA: 0x181711C50
 	protected void SetLayoutInputForAxis(float totalMin, float totalPreferred, float totalFlexible, int axis) { }
 
-	// RVA: 0x17117B0 Offset: 0x170FDB0 VA: 0x1817117B0
+	// RVA: 0x1711A70 Offset: 0x1710070 VA: 0x181711A70
 	protected void SetChildAlongAxis(RectTransform rect, int axis, float pos) { }
 
-	// RVA: 0x17114E0 Offset: 0x170FAE0 VA: 0x1817114E0
+	// RVA: 0x17117A0 Offset: 0x170FDA0 VA: 0x1817117A0
 	protected void SetChildAlongAxisWithScale(RectTransform rect, int axis, float pos, float scaleFactor) { }
 
-	// RVA: 0x17116F0 Offset: 0x170FCF0 VA: 0x1817116F0
+	// RVA: 0x17119B0 Offset: 0x170FFB0 VA: 0x1817119B0
 	protected void SetChildAlongAxis(RectTransform rect, int axis, float pos, float size) { }
 
-	// RVA: 0x17112F0 Offset: 0x170F8F0 VA: 0x1817112F0
+	// RVA: 0x17115B0 Offset: 0x170FBB0 VA: 0x1817115B0
 	protected void SetChildAlongAxisWithScale(RectTransform rect, int axis, float pos, float size, float scaleFactor) { }
 
-	// RVA: 0x1711B80 Offset: 0x1710180 VA: 0x181711B80
+	// RVA: 0x1711E40 Offset: 0x1710440 VA: 0x181711E40
 	private bool get_isRootLayoutGroup() { }
 
-	// RVA: 0x17111B0 Offset: 0x170F7B0 VA: 0x1817111B0 Slot: 10
+	// RVA: 0x1711470 Offset: 0x170FA70 VA: 0x181711470 Slot: 10
 	protected override void OnRectTransformDimensionsChange() { }
 
-	// RVA: 0x1711100 Offset: 0x170F700 VA: 0x181711100 Slot: 39
+	// RVA: 0x17113C0 Offset: 0x170F9C0 VA: 0x1817113C0 Slot: 39
 	protected virtual void OnTransformChildrenChanged() { }
 
 	// RVA: -1 Offset: -1
@@ -157,11 +157,11 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	|-LayoutGroup.SetProperty<Vector2>
 	*/
 
-	// RVA: 0x1711860 Offset: 0x170FE60 VA: 0x181711860
+	// RVA: 0x1711B20 Offset: 0x1710120 VA: 0x181711B20
 	protected void SetDirty() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x725B0 Offset: 0x719B0 VA: 0x1800725B0
-	// RVA: 0x1710EE0 Offset: 0x170F4E0 VA: 0x181710EE0
+	// RVA: 0x17111A0 Offset: 0x170F7A0 VA: 0x1817111A0
 	private IEnumerator DelayedSetDirty(RectTransform rectTransform) { }
 
 }
@@ -186,7 +186,7 @@ private sealed class LayoutGroup.<DelayedSetDirty>d__56 : IEnumerator<object>, I
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x1726FB0 Offset: 0x17255B0 VA: 0x181726FB0 Slot: 6
+	// RVA: 0x1727270 Offset: 0x1725870 VA: 0x181727270 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -194,7 +194,7 @@ private sealed class LayoutGroup.<DelayedSetDirty>d__56 : IEnumerator<object>, I
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1727050 Offset: 0x1725650 VA: 0x181727050 Slot: 8
+	// RVA: 0x1727310 Offset: 0x1725910 VA: 0x181727310 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

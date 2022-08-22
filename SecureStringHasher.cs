@@ -5,19 +5,19 @@ internal class SecureStringHasher : IEqualityComparer<string> // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0x1103FD0 Offset: 0x11025D0 VA: 0x181103FD0
+	// RVA: 0x1104290 Offset: 0x1102890 VA: 0x181104290
 	public void .ctor() { }
 
-	// RVA: 0x1103C20 Offset: 0x1102220 VA: 0x181103C20 Slot: 4
+	// RVA: 0x1103EE0 Offset: 0x11024E0 VA: 0x181103EE0 Slot: 4
 	public bool Equals(string x, string y) { }
 
-	// RVA: 0x1103E00 Offset: 0x1102400 VA: 0x181103E00 Slot: 5
+	// RVA: 0x11040C0 Offset: 0x11026C0 VA: 0x1811040C0 Slot: 5
 	public int GetHashCode(string key) { }
 
-	// RVA: 0x1103D80 Offset: 0x1102380 VA: 0x181103D80
+	// RVA: 0x1104040 Offset: 0x1102640 VA: 0x181104040
 	private static int GetHashCodeOfString(string key, int sLen, long additionalEntropy) { }
 
-	// RVA: 0x1103C40 Offset: 0x1102240 VA: 0x181103C40
+	// RVA: 0x1103F00 Offset: 0x1102500 VA: 0x181103F00
 	private static SecureStringHasher.HashCodeOfStringDelegate GetHashCodeDelegate() { }
 
 }
@@ -28,13 +28,13 @@ private sealed class SecureStringHasher.HashCodeOfStringDelegate : MulticastDele
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xB9A740 Offset: 0xB98D40 VA: 0x180B9A740 Slot: 12
+	// RVA: 0xB9AA00 Offset: 0xB99000 VA: 0x180B9AA00 Slot: 12
 	public virtual int Invoke(string s, int sLen, long additionalEntropy) { }
 
-	// RVA: 0x1100890 Offset: 0x10FEE90 VA: 0x181100890 Slot: 13
+	// RVA: 0x1100B50 Offset: 0x10FF150 VA: 0x181100B50 Slot: 13
 	public virtual IAsyncResult BeginInvoke(string s, int sLen, long additionalEntropy, AsyncCallback callback, object object) { }
 
-	// RVA: 0xB9A710 Offset: 0xB98D10 VA: 0x180B9A710 Slot: 14
+	// RVA: 0xB9A9D0 Offset: 0xB98FD0 VA: 0x180B9A9D0 Slot: 14
 	public virtual int EndInvoke(IAsyncResult result) { }
 
 }

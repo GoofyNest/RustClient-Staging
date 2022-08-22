@@ -16,25 +16,25 @@ public abstract class MethodBase : MemberInfo, _MethodBase // TypeDefIndex: 539
 
 	// Methods
 
-	// RVA: 0x18CC2A0 Offset: 0x18CA8A0 VA: 0x1818CC2A0
+	// RVA: 0x18CC560 Offset: 0x18CAB60 VA: 0x1818CC560
 	public static MethodBase GetMethodFromHandle(RuntimeMethodHandle handle) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	protected void .ctor() { }
 
-	// RVA: 0x18CC7F0 Offset: 0x18CADF0 VA: 0x1818CC7F0
+	// RVA: 0x18CCAB0 Offset: 0x18CB0B0 VA: 0x1818CCAB0
 	public static bool op_Equality(MethodBase left, MethodBase right) { }
 
-	// RVA: 0x18CCA40 Offset: 0x18CB040 VA: 0x1818CCA40
+	// RVA: 0x18CCD00 Offset: 0x18CB300 VA: 0x1818CCD00
 	public static bool op_Inequality(MethodBase left, MethodBase right) { }
 
-	// RVA: 0x18CB900 Offset: 0x18C9F00 VA: 0x1818CB900 Slot: 0
+	// RVA: 0x18CBBC0 Offset: 0x18CA1C0 VA: 0x1818CBBC0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xCCE560 Offset: 0xCCCB60 VA: 0x180CCE560 Slot: 2
+	// RVA: 0xCCE820 Offset: 0xCCCE20 VA: 0x180CCE820 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x10B7D70 Offset: 0x10B6370 VA: 0x1810B7D70 Slot: 17
+	// RVA: 0x10B8030 Offset: 0x10B6630 VA: 0x1810B8030 Slot: 17
 	internal virtual ParameterInfo[] GetParametersNoCopy() { }
 
 	// RVA: -1 Offset: -1 Slot: 18
@@ -56,7 +56,7 @@ public abstract class MethodBase : MemberInfo, _MethodBase // TypeDefIndex: 539
 	public virtual CallingConventions get_CallingConvention() { }
 
 	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
-	// RVA: 0x18CC160 Offset: 0x18CA760 VA: 0x1818CC160 Slot: 24
+	// RVA: 0x18CC420 Offset: 0x18CAA20 VA: 0x1818CC420 Slot: 24
 	public virtual Type[] GetGenericArguments() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 25
@@ -68,63 +68,63 @@ public abstract class MethodBase : MemberInfo, _MethodBase // TypeDefIndex: 539
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 27
 	public virtual bool get_IsGenericMethod() { }
 
-	// RVA: 0x18CC760 Offset: 0x18CAD60 VA: 0x1818CC760 Slot: 28
+	// RVA: 0x18CCA20 Offset: 0x18CB020 VA: 0x1818CCA20 Slot: 28
 	public virtual bool get_IsSecurityCritical() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	// RVA: 0x18CC610 Offset: 0x18CAC10 VA: 0x1818CC610 Slot: 29
+	// RVA: 0x18CC8D0 Offset: 0x18CAED0 VA: 0x1818CC8D0 Slot: 29
 	public object Invoke(object obj, object[] parameters) { }
 
-	// RVA: 0x18CC730 Offset: 0x18CAD30 VA: 0x1818CC730 Slot: 30
+	// RVA: 0x18CC9F0 Offset: 0x18CAFF0 VA: 0x1818CC9F0 Slot: 30
 	public bool get_IsPublic() { }
 
-	// RVA: 0x18CC7B0 Offset: 0x18CADB0 VA: 0x1818CC7B0 Slot: 31
+	// RVA: 0x18CCA70 Offset: 0x18CB070 VA: 0x1818CCA70 Slot: 31
 	public bool get_IsStatic() { }
 
-	// RVA: 0x18CC7D0 Offset: 0x18CADD0 VA: 0x1818CC7D0 Slot: 32
+	// RVA: 0x18CCA90 Offset: 0x18CB090 VA: 0x1818CCA90 Slot: 32
 	public bool get_IsVirtual() { }
 
-	// RVA: 0x18CC650 Offset: 0x18CAC50 VA: 0x1818CC650 Slot: 33
+	// RVA: 0x18CC910 Offset: 0x18CAF10 VA: 0x1818CC910 Slot: 33
 	public bool get_IsAbstract() { }
 
-	// RVA: 0x18CC680 Offset: 0x18CAC80 VA: 0x1818CC680 Slot: 34
+	// RVA: 0x18CC940 Offset: 0x18CAF40 VA: 0x1818CC940 Slot: 34
 	public bool get_IsConstructor() { }
 
-	// RVA: 0x18CC1E0 Offset: 0x18CA7E0 VA: 0x1818CC1E0 Slot: 35
+	// RVA: 0x18CC4A0 Offset: 0x18CAAA0 VA: 0x1818CC4A0 Slot: 35
 	public virtual MethodBody GetMethodBody() { }
 
-	// RVA: 0x18CBE80 Offset: 0x18CA480 VA: 0x1818CBE80
+	// RVA: 0x18CC140 Offset: 0x18CA740 VA: 0x1818CC140
 	internal static string ConstructParameters(Type[] parameterTypes, CallingConventions callingConvention, bool serialization) { }
 
-	// RVA: 0x18CC050 Offset: 0x18CA650 VA: 0x1818CC050 Slot: 36
+	// RVA: 0x18CC310 Offset: 0x18CA910 VA: 0x1818CC310 Slot: 36
 	internal virtual string FormatNameAndSig(bool serialization) { }
 
-	// RVA: 0x18CC4B0 Offset: 0x18CAAB0 VA: 0x1818CC4B0 Slot: 37
+	// RVA: 0x18CC770 Offset: 0x18CAD70 VA: 0x1818CC770 Slot: 37
 	internal virtual Type[] GetParameterTypes() { }
 
-	// RVA: 0x10B7D70 Offset: 0x10B6370 VA: 0x1810B7D70 Slot: 38
+	// RVA: 0x10B8030 Offset: 0x10B6630 VA: 0x1810B8030 Slot: 38
 	internal virtual ParameterInfo[] GetParametersInternal() { }
 
-	// RVA: 0x18CC5E0 Offset: 0x18CABE0 VA: 0x1818CC5E0 Slot: 39
+	// RVA: 0x18CC8A0 Offset: 0x18CAEA0 VA: 0x1818CC8A0 Slot: 39
 	internal virtual int GetParametersCount() { }
 
-	// RVA: 0x18CC260 Offset: 0x18CA860 VA: 0x1818CC260
+	// RVA: 0x18CC520 Offset: 0x18CAB20 VA: 0x1818CC520
 	internal static MethodBase GetMethodFromHandleNoGenericCheck(RuntimeMethodHandle handle) { }
 
-	// RVA: 0x18CC250 Offset: 0x18CA850 VA: 0x1818CC250
+	// RVA: 0x18CC510 Offset: 0x18CAB10 VA: 0x1818CC510
 	internal static MethodBase GetMethodFromHandleNoGenericCheck(RuntimeMethodHandle handle, RuntimeTypeHandle reflectedType) { }
 
-	// RVA: 0x18CC1D0 Offset: 0x18CA7D0 VA: 0x1818CC1D0
+	// RVA: 0x18CC490 Offset: 0x18CAA90 VA: 0x1818CC490
 	internal static MethodBody GetMethodBodyInternal(IntPtr handle) { }
 
-	// RVA: 0x18CC1D0 Offset: 0x18CA7D0 VA: 0x1818CC1D0
+	// RVA: 0x18CC490 Offset: 0x18CAA90 VA: 0x1818CC490
 	internal static MethodBody GetMethodBody(IntPtr handle) { }
 
-	// RVA: 0x18CC230 Offset: 0x18CA830 VA: 0x1818CC230
+	// RVA: 0x18CC4F0 Offset: 0x18CAAF0 VA: 0x1818CC4F0
 	private static MethodBase GetMethodFromHandleInternalType(IntPtr method_handle, IntPtr type_handle) { }
 
-	// RVA: 0x18CC240 Offset: 0x18CA840 VA: 0x1818CC240
+	// RVA: 0x18CC500 Offset: 0x18CAB00 VA: 0x1818CC500
 	internal static MethodBase GetMethodFromHandleInternalType_native(IntPtr method_handle, IntPtr type_handle, bool genericCheck) { }
 
 }

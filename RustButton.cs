@@ -27,73 +27,73 @@ public class RustButton : RustControl, IPointerDownHandler, IEventSystemHandler,
 
 	// Methods
 
-	// RVA: 0xFCB320 Offset: 0xFC9920 VA: 0x180FCB320
+	// RVA: 0xFCB5E0 Offset: 0xFC9BE0 VA: 0x180FCB5E0
 	public bool get_Value() { }
 
-	// RVA: 0xFCB7B0 Offset: 0xFC9DB0 VA: 0x180FCB7B0
+	// RVA: 0xFCBA70 Offset: 0xFCA070 VA: 0x180FCBA70
 	public void set_Value(bool value) { }
 
-	// RVA: 0xFCB300 Offset: 0xFC9900 VA: 0x180FCB300
+	// RVA: 0xFCB5C0 Offset: 0xFC9BC0 VA: 0x180FCB5C0
 	public bool get_AutoSize() { }
 
-	// RVA: 0xFCB790 Offset: 0xFC9D90 VA: 0x180FCB790
+	// RVA: 0xFCBA50 Offset: 0xFCA050 VA: 0x180FCBA50
 	public void set_AutoSize(bool value) { }
 
-	// RVA: 0xFCAF10 Offset: 0xFC9510 VA: 0x180FCAF10
+	// RVA: 0xFCB1D0 Offset: 0xFC97D0 VA: 0x180FCB1D0
 	public void Press() { }
 
-	// RVA: 0xFCAE80 Offset: 0xFC9480 VA: 0x180FCAE80
+	// RVA: 0xFCB140 Offset: 0xFC9740 VA: 0x180FCB140
 	public void Unpress() { }
 
-	// RVA: 0xFCAE50 Offset: 0xFC9450 VA: 0x180FCAE50 Slot: 42
+	// RVA: 0xFCB110 Offset: 0xFC9710 VA: 0x180FCB110 Slot: 42
 	public virtual void OnPointerDown(PointerEventData eventData) { }
 
-	// RVA: 0xFCB160 Offset: 0xFC9760 VA: 0x180FCB160
+	// RVA: 0xFCB420 Offset: 0xFC9A20 VA: 0x180FCB420
 	public void Toggle(bool v, bool forced = False) { }
 
-	// RVA: 0xFCB050 Offset: 0xFC9650 VA: 0x180FCB050
+	// RVA: 0xFCB310 Offset: 0xFC9910 VA: 0x180FCB310
 	private void ToggleTabPanel(bool onOff) { }
 
-	// RVA: 0xFCAB00 Offset: 0xFC9100 VA: 0x180FCAB00
+	// RVA: 0xFCADC0 Offset: 0xFC93C0 VA: 0x180FCADC0
 	private void DoUnpressSiblings() { }
 
-	// RVA: 0xFCAE80 Offset: 0xFC9480 VA: 0x180FCAE80 Slot: 43
+	// RVA: 0xFCB140 Offset: 0xFC9740 VA: 0x180FCB140 Slot: 43
 	public virtual void OnPointerUp(PointerEventData eventData) { }
 
-	// RVA: 0xFCAD60 Offset: 0xFC9360 VA: 0x180FCAD60 Slot: 7
+	// RVA: 0xFCB020 Offset: 0xFC9620 VA: 0x180FCB020 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0xFCA610 Offset: 0xFC8C10 VA: 0x180FCA610 Slot: 30
+	// RVA: 0xFCA8D0 Offset: 0xFC8ED0 VA: 0x180FCA8D0 Slot: 30
 	protected override void ApplyStyle(StyleAsset.Group s) { }
 
-	// RVA: 0xFCB5A0 Offset: 0xFC9BA0 VA: 0x180FCB5A0 Slot: 35
+	// RVA: 0xFCB860 Offset: 0xFC9E60 VA: 0x180FCB860 Slot: 35
 	public float get_minWidth() { }
 
-	// RVA: 0xFCB6E0 Offset: 0xFC9CE0 VA: 0x180FCB6E0 Slot: 36
+	// RVA: 0xFCB9A0 Offset: 0xFC9FA0 VA: 0x180FCB9A0 Slot: 36
 	public float get_preferredWidth() { }
 
-	// RVA: 0xFCB3D0 Offset: 0xFC99D0 VA: 0x180FCB3D0 Slot: 37
+	// RVA: 0xFCB690 Offset: 0xFC9C90 VA: 0x180FCB690 Slot: 37
 	public float get_flexibleWidth() { }
 
-	// RVA: 0xFCB510 Offset: 0xFC9B10 VA: 0x180FCB510 Slot: 38
+	// RVA: 0xFCB7D0 Offset: 0xFC9DD0 VA: 0x180FCB7D0 Slot: 38
 	public float get_minHeight() { }
 
-	// RVA: 0xFCB650 Offset: 0xFC9C50 VA: 0x180FCB650 Slot: 39
+	// RVA: 0xFCB910 Offset: 0xFC9F10 VA: 0x180FCB910 Slot: 39
 	public float get_preferredHeight() { }
 
-	// RVA: 0xFCB340 Offset: 0xFC9940 VA: 0x180FCB340 Slot: 40
+	// RVA: 0xFCB600 Offset: 0xFC9C00 VA: 0x180FCB600 Slot: 40
 	public float get_flexibleHeight() { }
 
-	// RVA: 0xFCB480 Offset: 0xFC9A80 VA: 0x180FCB480 Slot: 41
+	// RVA: 0xFCB740 Offset: 0xFC9D40 VA: 0x180FCB740 Slot: 41
 	public int get_layoutPriority() { }
 
-	// RVA: 0xFCAAC0 Offset: 0xFC90C0 VA: 0x180FCAAC0 Slot: 33
+	// RVA: 0xFCAD80 Offset: 0xFC9380 VA: 0x180FCAD80 Slot: 33
 	public void CalculateLayoutInputHorizontal() { }
 
-	// RVA: 0xFCAAE0 Offset: 0xFC90E0 VA: 0x180FCAAE0 Slot: 34
+	// RVA: 0xFCADA0 Offset: 0xFC93A0 VA: 0x180FCADA0 Slot: 34
 	public void CalculateLayoutInputVertical() { }
 
-	// RVA: 0xFCB220 Offset: 0xFC9820 VA: 0x180FCB220
+	// RVA: 0xFCB4E0 Offset: 0xFC9AE0 VA: 0x180FCB4E0
 	public void .ctor() { }
 
 }

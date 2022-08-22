@@ -18,7 +18,7 @@ internal struct LobbyGameCreated_t : ICallbackData // TypeDefIndex: 5341
 	// RVA: 0x1EB5F0 Offset: 0x1EA9F0 VA: 0x1801EB5F0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1373AD0 Offset: 0x13720D0 VA: 0x181373AD0
+	// RVA: 0x1373D90 Offset: 0x1372390 VA: 0x181373D90
 	private static void .cctor() { }
 
 }

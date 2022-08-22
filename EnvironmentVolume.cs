@@ -17,16 +17,16 @@ public class EnvironmentVolume : MonoBehaviour // TypeDefIndex: 9863
 	public Collider get_trigger() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	private void set_trigger(Collider value) { }
 
-	// RVA: 0x8CB4F0 Offset: 0x8C9AF0 VA: 0x1808CB4F0 Slot: 4
+	// RVA: 0x8CB600 Offset: 0x8C9C00 VA: 0x1808CB600 Slot: 4
 	protected virtual void Awake() { }
 
-	// RVA: 0x8CB500 Offset: 0x8C9B00 VA: 0x1808CB500
+	// RVA: 0x8CB610 Offset: 0x8C9C10 VA: 0x1808CB610
 	public void UpdateTrigger() { }
 
-	// RVA: 0x8CB6E0 Offset: 0x8C9CE0 VA: 0x1808CB6E0
+	// RVA: 0x8CB7F0 Offset: 0x8C9DF0 VA: 0x1808CB7F0
 	public void .ctor() { }
 
 }

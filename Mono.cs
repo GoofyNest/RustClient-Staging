@@ -29,10 +29,10 @@ internal class MonoTODOAttribute : Attribute // TypeDefIndex: 139
 
 	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string comment) { }
 
 }
@@ -40,7 +40,7 @@ internal class MonoTODOAttribute : Attribute // TypeDefIndex: 139
 internal class MonoLimitationAttribute : MonoTODOAttribute // TypeDefIndex: 140
 {	// Methods
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string comment) { }
 
 }
@@ -82,55 +82,55 @@ internal static class MonoCustomAttrs // TypeDefIndex: 373
 
 	// Methods
 
-	// RVA: 0x1678650 Offset: 0x1676C50 VA: 0x181678650
+	// RVA: 0x1678910 Offset: 0x1676F10 VA: 0x181678910
 	private static bool IsUserCattrProvider(object obj) { }
 
-	// RVA: 0x16770D0 Offset: 0x16756D0 VA: 0x1816770D0
+	// RVA: 0x1677390 Offset: 0x1675990 VA: 0x181677390
 	internal static object[] GetCustomAttributesInternal(ICustomAttributeProvider obj, Type attributeType, bool pseudoAttrs) { }
 
-	// RVA: 0x1677D00 Offset: 0x1676300 VA: 0x181677D00
+	// RVA: 0x1677FC0 Offset: 0x16765C0 VA: 0x181677FC0
 	internal static object[] GetPseudoCustomAttributes(ICustomAttributeProvider obj, Type attributeType) { }
 
-	// RVA: 0x16781D0 Offset: 0x16767D0 VA: 0x1816781D0
+	// RVA: 0x1678490 Offset: 0x1676A90 VA: 0x181678490
 	private static object[] GetPseudoCustomAttributes(Type type) { }
 
-	// RVA: 0x1676E40 Offset: 0x1675440 VA: 0x181676E40
+	// RVA: 0x1677100 Offset: 0x1675700 VA: 0x181677100
 	internal static object[] GetCustomAttributesBase(ICustomAttributeProvider obj, Type attributeType, bool inheritedOnly) { }
 
-	// RVA: 0x16770E0 Offset: 0x16756E0 VA: 0x1816770E0
+	// RVA: 0x16773A0 Offset: 0x16759A0 VA: 0x1816773A0
 	internal static object[] GetCustomAttributes(ICustomAttributeProvider obj, Type attributeType, bool inherit) { }
 
-	// RVA: 0x1677B90 Offset: 0x1676190 VA: 0x181677B90
+	// RVA: 0x1677E50 Offset: 0x1676450 VA: 0x181677E50
 	internal static object[] GetCustomAttributes(ICustomAttributeProvider obj, bool inherit) { }
 
-	// RVA: 0x1677020 Offset: 0x1675620 VA: 0x181677020
+	// RVA: 0x16772E0 Offset: 0x16758E0 VA: 0x1816772E0
 	private static CustomAttributeData[] GetCustomAttributesDataInternal(ICustomAttributeProvider obj) { }
 
-	// RVA: 0x1677030 Offset: 0x1675630 VA: 0x181677030
+	// RVA: 0x16772F0 Offset: 0x16758F0 VA: 0x1816772F0
 	internal static IList<CustomAttributeData> GetCustomAttributesData(ICustomAttributeProvider obj) { }
 
-	// RVA: 0x1678380 Offset: 0x1676980 VA: 0x181678380
+	// RVA: 0x1678640 Offset: 0x1676C40 VA: 0x181678640
 	internal static bool IsDefined(ICustomAttributeProvider obj, Type attributeType, bool inherit) { }
 
-	// RVA: 0x1678370 Offset: 0x1676970 VA: 0x181678370
+	// RVA: 0x1678630 Offset: 0x1676C30 VA: 0x181678630
 	internal static bool IsDefinedInternal(ICustomAttributeProvider obj, Type AttributeType) { }
 
-	// RVA: 0x1676810 Offset: 0x1674E10 VA: 0x181676810
+	// RVA: 0x1676AD0 Offset: 0x16750D0 VA: 0x181676AD0
 	private static PropertyInfo GetBasePropertyDefinition(MonoProperty property) { }
 
-	// RVA: 0x1676640 Offset: 0x1674C40 VA: 0x181676640
+	// RVA: 0x1676900 Offset: 0x1674F00 VA: 0x181676900
 	private static EventInfo GetBaseEventDefinition(MonoEvent evt) { }
 
-	// RVA: 0x1676B20 Offset: 0x1675120 VA: 0x181676B20
+	// RVA: 0x1676DE0 Offset: 0x16753E0 VA: 0x181676DE0
 	private static ICustomAttributeProvider GetBase(ICustomAttributeProvider obj) { }
 
-	// RVA: 0x1678890 Offset: 0x1676E90 VA: 0x181678890
+	// RVA: 0x1678B50 Offset: 0x1677150 VA: 0x181678B50
 	private static AttributeUsageAttribute RetrieveAttributeUsageNoCache(Type attributeType) { }
 
-	// RVA: 0x1678B00 Offset: 0x1677100 VA: 0x181678B00
+	// RVA: 0x1678DC0 Offset: 0x16773C0 VA: 0x181678DC0
 	private static AttributeUsageAttribute RetrieveAttributeUsage(Type attributeType) { }
 
-	// RVA: 0x1678C70 Offset: 0x1677270 VA: 0x181678C70
+	// RVA: 0x1678F30 Offset: 0x1677530 VA: 0x181678F30
 	private static void .cctor() { }
 
 }
@@ -146,7 +146,7 @@ private class MonoCustomAttrs.AttributeInfo // TypeDefIndex: 374
 
 	// Methods
 
-	// RVA: 0x1670E70 Offset: 0x166F470 VA: 0x181670E70
+	// RVA: 0x1671130 Offset: 0x166F730 VA: 0x181671130
 	public void .ctor(AttributeUsageAttribute usage, int inheritanceLevel) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
@@ -172,19 +172,19 @@ internal sealed class MonoListItem // TypeDefIndex: 375
 internal class MonoAssembly : RuntimeAssembly // TypeDefIndex: 573
 {	// Methods
 
-	// RVA: 0x18CD9F0 Offset: 0x18CBFF0 VA: 0x1818CD9F0 Slot: 27
+	// RVA: 0x18CDCB0 Offset: 0x18CC2B0 VA: 0x1818CDCB0 Slot: 27
 	public override Type GetType(string name, bool throwOnError, bool ignoreCase) { }
 
-	// RVA: 0x18CD780 Offset: 0x18CBD80 VA: 0x1818CD780 Slot: 28
+	// RVA: 0x18CDA40 Offset: 0x18CC040 VA: 0x1818CDA40 Slot: 28
 	public override Module GetModule(string name) { }
 
-	// RVA: 0x18CD9E0 Offset: 0x18CBFE0 VA: 0x1818CD9E0 Slot: 29
+	// RVA: 0x18CDCA0 Offset: 0x18CC2A0 VA: 0x1818CDCA0 Slot: 29
 	public override AssemblyName[] GetReferencedAssemblies() { }
 
-	// RVA: 0x18CD8D0 Offset: 0x18CBED0 VA: 0x1818CD8D0 Slot: 30
+	// RVA: 0x18CDB90 Offset: 0x18CC190 VA: 0x1818CDB90 Slot: 30
 	public override Module[] GetModules(bool getResourceModules) { }
 
-	// RVA: 0x18C6250 Offset: 0x18C4850 VA: 0x1818C6250
+	// RVA: 0x18C6510 Offset: 0x18C4B10 VA: 0x1818C6510
 	public void .ctor() { }
 
 }
@@ -202,10 +202,10 @@ internal struct MonoEventInfo // TypeDefIndex: 574
 
 	// Methods
 
-	// RVA: 0x18CE3F0 Offset: 0x18CC9F0 VA: 0x1818CE3F0
+	// RVA: 0x18CE6B0 Offset: 0x18CCCB0 VA: 0x1818CE6B0
 	private static void get_event_info(MonoEvent ev, out MonoEventInfo info) { }
 
-	// RVA: 0x18CE3B0 Offset: 0x18CC9B0 VA: 0x1818CE3B0
+	// RVA: 0x18CE670 Offset: 0x18CCC70 VA: 0x1818CE670
 	internal static MonoEventInfo GetEventInfo(MonoEvent ev) { }
 
 }
@@ -222,37 +222,37 @@ internal sealed class MonoEvent : RuntimeEventInfo // TypeDefIndex: 576
 
 	// Methods
 
-	// RVA: 0x18CE400 Offset: 0x18CCA00 VA: 0x1818CE400 Slot: 18
+	// RVA: 0x18CE6C0 Offset: 0x18CCCC0 VA: 0x1818CE6C0 Slot: 18
 	public override MethodInfo GetAddMethod(bool nonPublic) { }
 
-	// RVA: 0x18CE580 Offset: 0x18CCB80 VA: 0x1818CE580 Slot: 19
+	// RVA: 0x18CE840 Offset: 0x18CCE40 VA: 0x1818CE840 Slot: 19
 	public override MethodInfo GetRaiseMethod(bool nonPublic) { }
 
-	// RVA: 0x18CE610 Offset: 0x18CCC10 VA: 0x1818CE610 Slot: 20
+	// RVA: 0x18CE8D0 Offset: 0x18CCED0 VA: 0x1818CE8D0 Slot: 20
 	public override MethodInfo GetRemoveMethod(bool nonPublic) { }
 
-	// RVA: 0x18CE7A0 Offset: 0x18CCDA0 VA: 0x1818CE7A0 Slot: 9
+	// RVA: 0x18CEA60 Offset: 0x18CD060 VA: 0x1818CEA60 Slot: 9
 	public override Type get_DeclaringType() { }
 
-	// RVA: 0x18CE800 Offset: 0x18CCE00 VA: 0x1818CE800 Slot: 10
+	// RVA: 0x18CEAC0 Offset: 0x18CD0C0 VA: 0x1818CEAC0 Slot: 10
 	public override Type get_ReflectedType() { }
 
-	// RVA: 0x18CE7D0 Offset: 0x18CCDD0 VA: 0x1818CE7D0 Slot: 8
+	// RVA: 0x18CEA90 Offset: 0x18CD090 VA: 0x1818CEA90 Slot: 8
 	public override string get_Name() { }
 
-	// RVA: 0x18CE720 Offset: 0x18CCD20 VA: 0x1818CE720 Slot: 3
+	// RVA: 0x18CE9E0 Offset: 0x18CCFE0 VA: 0x1818CE9E0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x18CE6A0 Offset: 0x18CCCA0 VA: 0x1818CE6A0 Slot: 13
+	// RVA: 0x18CE960 Offset: 0x18CCF60 VA: 0x1818CE960 Slot: 13
 	public override bool IsDefined(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18CE510 Offset: 0x18CCB10 VA: 0x1818CE510 Slot: 11
+	// RVA: 0x18CE7D0 Offset: 0x18CCDD0 VA: 0x1818CE7D0 Slot: 11
 	public override object[] GetCustomAttributes(bool inherit) { }
 
-	// RVA: 0x18CE490 Offset: 0x18CCA90 VA: 0x1818CE490 Slot: 12
+	// RVA: 0x18CE750 Offset: 0x18CCD50 VA: 0x1818CE750 Slot: 12
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18C6DD0 Offset: 0x18C53D0 VA: 0x1818C6DD0 Slot: 14
+	// RVA: 0x18C7090 Offset: 0x18C5690 VA: 0x1818C7090 Slot: 14
 	public override IList<CustomAttributeData> GetCustomAttributesData() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -278,64 +278,64 @@ internal class MonoField : RtFieldInfo // TypeDefIndex: 579
 
 	// Methods
 
-	// RVA: 0xA38CE0 Offset: 0xA372E0 VA: 0x180A38CE0 Slot: 17
+	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0 Slot: 17
 	public override FieldAttributes get_Attributes() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 18
 	public override RuntimeFieldHandle get_FieldHandle() { }
 
-	// RVA: 0xD72E30 Offset: 0xD71430 VA: 0x180D72E30
+	// RVA: 0xD730F0 Offset: 0xD716F0 VA: 0x180D730F0
 	private Type ResolveType() { }
 
-	// RVA: 0x18CEF70 Offset: 0x18CD570 VA: 0x1818CEF70 Slot: 19
+	// RVA: 0x18CF230 Offset: 0x18CD830 VA: 0x1818CF230 Slot: 19
 	public override Type get_FieldType() { }
 
-	// RVA: 0x18CE9D0 Offset: 0x18CCFD0 VA: 0x1818CE9D0
+	// RVA: 0x18CEC90 Offset: 0x18CD290 VA: 0x1818CEC90
 	private Type GetParentType(bool declaring) { }
 
-	// RVA: 0x18CF000 Offset: 0x18CD600 VA: 0x1818CF000 Slot: 10
+	// RVA: 0x18CF2C0 Offset: 0x18CD8C0 VA: 0x1818CF2C0 Slot: 10
 	public override Type get_ReflectedType() { }
 
-	// RVA: 0x18CEF60 Offset: 0x18CD560 VA: 0x1818CEF60 Slot: 9
+	// RVA: 0x18CF220 Offset: 0x18CD820 VA: 0x1818CF220 Slot: 9
 	public override Type get_DeclaringType() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 8
 	public override string get_Name() { }
 
-	// RVA: 0x18CEB90 Offset: 0x18CD190 VA: 0x1818CEB90 Slot: 13
+	// RVA: 0x18CEE50 Offset: 0x18CD450 VA: 0x1818CEE50 Slot: 13
 	public override bool IsDefined(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18CE950 Offset: 0x18CCF50 VA: 0x1818CE950 Slot: 11
+	// RVA: 0x18CEC10 Offset: 0x18CD210 VA: 0x1818CEC10 Slot: 11
 	public override object[] GetCustomAttributes(bool inherit) { }
 
-	// RVA: 0x18CE8D0 Offset: 0x18CCED0 VA: 0x1818CE8D0 Slot: 12
+	// RVA: 0x18CEB90 Offset: 0x18CD190 VA: 0x1818CEB90 Slot: 12
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18CE9C0 Offset: 0x18CCFC0 VA: 0x1818CE9C0 Slot: 29
+	// RVA: 0x18CEC80 Offset: 0x18CD280 VA: 0x1818CEC80 Slot: 29
 	internal override int GetFieldOffset() { }
 
-	// RVA: 0x18CE9F0 Offset: 0x18CCFF0 VA: 0x1818CE9F0
+	// RVA: 0x18CECB0 Offset: 0x18CD2B0 VA: 0x1818CECB0
 	private object GetValueInternal(object obj) { }
 
-	// RVA: 0x18CEA00 Offset: 0x18CD000 VA: 0x1818CEA00 Slot: 20
+	// RVA: 0x18CECC0 Offset: 0x18CD2C0 VA: 0x1818CECC0 Slot: 20
 	public override object GetValue(object obj) { }
 
-	// RVA: 0x18CEF00 Offset: 0x18CD500 VA: 0x1818CEF00 Slot: 3
+	// RVA: 0x18CF1C0 Offset: 0x18CD7C0 VA: 0x1818CF1C0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1298DC0 Offset: 0x12973C0 VA: 0x181298DC0
+	// RVA: 0x1299080 Offset: 0x1297680 VA: 0x181299080
 	private static void SetValueInternal(FieldInfo fi, object obj, object value) { }
 
-	// RVA: 0x18CEC10 Offset: 0x18CD210 VA: 0x1818CEC10 Slot: 27
+	// RVA: 0x18CEED0 Offset: 0x18CD4D0 VA: 0x1818CEED0 Slot: 27
 	public override void SetValue(object obj, object val, BindingFlags invokeAttr, Binder binder, CultureInfo culture) { }
 
-	// RVA: 0x18CE9E0 Offset: 0x18CCFE0 VA: 0x1818CE9E0 Slot: 31
+	// RVA: 0x18CECA0 Offset: 0x18CD2A0 VA: 0x1818CECA0 Slot: 31
 	public override object GetRawConstantValue() { }
 
-	// RVA: 0x18C6DD0 Offset: 0x18C53D0 VA: 0x1818C6DD0 Slot: 14
+	// RVA: 0x18C7090 Offset: 0x18C5690 VA: 0x1818C7090 Slot: 14
 	public override IList<CustomAttributeData> GetCustomAttributesData() { }
 
-	// RVA: 0x18CE830 Offset: 0x18CCE30 VA: 0x1818CE830
+	// RVA: 0x18CEAF0 Offset: 0x18CD0F0 VA: 0x1818CEAF0
 	private void CheckGeneric() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -353,34 +353,34 @@ internal struct MonoMethodInfo // TypeDefIndex: 580
 
 	// Methods
 
-	// RVA: 0x18CF120 Offset: 0x18CD720 VA: 0x1818CF120
+	// RVA: 0x18CF3E0 Offset: 0x18CD9E0 VA: 0x1818CF3E0
 	private static void get_method_info(IntPtr handle, out MonoMethodInfo info) { }
 
-	// RVA: 0x18CF010 Offset: 0x18CD610 VA: 0x1818CF010
+	// RVA: 0x18CF2D0 Offset: 0x18CD8D0 VA: 0x1818CF2D0
 	private static int get_method_attributes(IntPtr handle) { }
 
-	// RVA: 0x18CF0B0 Offset: 0x18CD6B0 VA: 0x1818CF0B0
+	// RVA: 0x18CF370 Offset: 0x18CD970 VA: 0x1818CF370
 	internal static MonoMethodInfo GetMethodInfo(IntPtr handle) { }
 
-	// RVA: 0x18CF050 Offset: 0x18CD650 VA: 0x1818CF050
+	// RVA: 0x18CF310 Offset: 0x18CD910 VA: 0x1818CF310
 	internal static Type GetDeclaringType(IntPtr handle) { }
 
-	// RVA: 0x18CF0F0 Offset: 0x18CD6F0 VA: 0x1818CF0F0
+	// RVA: 0x18CF3B0 Offset: 0x18CD9B0 VA: 0x1818CF3B0
 	internal static Type GetReturnType(IntPtr handle) { }
 
-	// RVA: 0x18CF010 Offset: 0x18CD610 VA: 0x1818CF010
+	// RVA: 0x18CF2D0 Offset: 0x18CD8D0 VA: 0x1818CF2D0
 	internal static MethodAttributes GetAttributes(IntPtr handle) { }
 
-	// RVA: 0x18CF020 Offset: 0x18CD620 VA: 0x1818CF020
+	// RVA: 0x18CF2E0 Offset: 0x18CD8E0 VA: 0x1818CF2E0
 	internal static CallingConventions GetCallingConvention(IntPtr handle) { }
 
-	// RVA: 0x18CF080 Offset: 0x18CD680 VA: 0x1818CF080
+	// RVA: 0x18CF340 Offset: 0x18CD940 VA: 0x1818CF340
 	internal static MethodImplAttributes GetMethodImplementationFlags(IntPtr handle) { }
 
-	// RVA: 0x18CF0E0 Offset: 0x18CD6E0 VA: 0x1818CF0E0
+	// RVA: 0x18CF3A0 Offset: 0x18CD9A0 VA: 0x1818CF3A0
 	private static ParameterInfo[] get_parameter_info(IntPtr handle, MemberInfo member) { }
 
-	// RVA: 0x18CF0E0 Offset: 0x18CD6E0 VA: 0x1818CF0E0
+	// RVA: 0x18CF3A0 Offset: 0x18CD9A0 VA: 0x1818CF3A0
 	internal static ParameterInfo[] GetParametersInfo(IntPtr handle, MemberInfo member) { }
 
 }
@@ -409,105 +409,105 @@ internal class MonoMethod : RuntimeMethodInfo // TypeDefIndex: 582
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x18CFF40 Offset: 0x18CE540 VA: 0x1818CFF40
+	// RVA: 0x18D0200 Offset: 0x18CE800 VA: 0x1818D0200
 	internal static string get_name(MethodBase method) { }
 
-	// RVA: 0x18CFF30 Offset: 0x18CE530 VA: 0x1818CFF30
+	// RVA: 0x18D01F0 Offset: 0x18CE7F0 VA: 0x1818D01F0
 	internal static MonoMethod get_base_method(MonoMethod method, bool definition) { }
 
-	// RVA: 0x18CF460 Offset: 0x18CDA60 VA: 0x1818CF460 Slot: 41
+	// RVA: 0x18CF720 Offset: 0x18CDD20 VA: 0x1818CF720 Slot: 41
 	public override MethodInfo GetBaseDefinition() { }
 
-	// RVA: 0x18CF470 Offset: 0x18CDA70 VA: 0x1818CF470 Slot: 45
+	// RVA: 0x18CF730 Offset: 0x18CDD30 VA: 0x1818CF730 Slot: 45
 	internal override MethodInfo GetBaseMethod() { }
 
-	// RVA: 0x18CFF00 Offset: 0x18CE500 VA: 0x1818CFF00 Slot: 40
+	// RVA: 0x18D01C0 Offset: 0x18CE7C0 VA: 0x1818D01C0 Slot: 40
 	public override Type get_ReturnType() { }
 
-	// RVA: 0x18CDDA0 Offset: 0x18CC3A0 VA: 0x1818CDDA0 Slot: 19
+	// RVA: 0x18CE060 Offset: 0x18CC660 VA: 0x1818CE060 Slot: 19
 	public override MethodImplAttributes GetMethodImplementationFlags() { }
 
-	// RVA: 0x18CF660 Offset: 0x18CDC60 VA: 0x1818CF660 Slot: 18
+	// RVA: 0x18CF920 Offset: 0x18CDF20 VA: 0x1818CF920 Slot: 18
 	public override ParameterInfo[] GetParameters() { }
 
-	// RVA: 0x18CDE00 Offset: 0x18CC400 VA: 0x1818CDE00 Slot: 38
+	// RVA: 0x18CE0C0 Offset: 0x18CC6C0 VA: 0x1818CE0C0 Slot: 38
 	internal override ParameterInfo[] GetParametersInternal() { }
 
-	// RVA: 0x18CF630 Offset: 0x18CDC30 VA: 0x1818CF630 Slot: 39
+	// RVA: 0x18CF8F0 Offset: 0x18CDEF0 VA: 0x1818CF8F0 Slot: 39
 	internal override int GetParametersCount() { }
 
-	// RVA: 0x18CF8B0 Offset: 0x18CDEB0 VA: 0x1818CF8B0
+	// RVA: 0x18CFB70 Offset: 0x18CE170 VA: 0x1818CFB70
 	internal object InternalInvoke(object obj, object[] parameters, out Exception exc) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	// RVA: 0x18CF8C0 Offset: 0x18CDEC0 VA: 0x1818CF8C0 Slot: 22
+	// RVA: 0x18CFB80 Offset: 0x18CE180 VA: 0x1818CFB80 Slot: 22
 	public override object Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
-	// RVA: 0x18CF130 Offset: 0x18CD730 VA: 0x1818CF130
+	// RVA: 0x18CF3F0 Offset: 0x18CD9F0 VA: 0x1818CF3F0
 	internal static void ConvertValues(Binder binder, object[] args, ParameterInfo[] pinfo, CultureInfo culture, BindingFlags invokeAttr) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 20
 	public override RuntimeMethodHandle get_MethodHandle() { }
 
-	// RVA: 0x18CE2F0 Offset: 0x18CC8F0 VA: 0x1818CE2F0 Slot: 21
+	// RVA: 0x18CE5B0 Offset: 0x18CCBB0 VA: 0x1818CE5B0 Slot: 21
 	public override MethodAttributes get_Attributes() { }
 
-	// RVA: 0x18CE300 Offset: 0x18CC900 VA: 0x1818CE300 Slot: 23
+	// RVA: 0x18CE5C0 Offset: 0x18CCBC0 VA: 0x1818CE5C0 Slot: 23
 	public override CallingConventions get_CallingConvention() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 10
 	public override Type get_ReflectedType() { }
 
-	// RVA: 0x18CE370 Offset: 0x18CC970 VA: 0x1818CE370 Slot: 9
+	// RVA: 0x18CE630 Offset: 0x18CCC30 VA: 0x1818CE630 Slot: 9
 	public override Type get_DeclaringType() { }
 
-	// RVA: 0x18CE3A0 Offset: 0x18CC9A0 VA: 0x1818CE3A0 Slot: 8
+	// RVA: 0x18CE660 Offset: 0x18CCC60 VA: 0x1818CE660 Slot: 8
 	public override string get_Name() { }
 
-	// RVA: 0x18CFA50 Offset: 0x18CE050 VA: 0x1818CFA50 Slot: 13
+	// RVA: 0x18CFD10 Offset: 0x18CE310 VA: 0x1818CFD10 Slot: 13
 	public override bool IsDefined(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18CF480 Offset: 0x18CDA80 VA: 0x1818CF480 Slot: 11
+	// RVA: 0x18CF740 Offset: 0x18CDD40 VA: 0x1818CF740 Slot: 11
 	public override object[] GetCustomAttributes(bool inherit) { }
 
-	// RVA: 0x18CF4F0 Offset: 0x18CDAF0 VA: 0x1818CF4F0 Slot: 12
+	// RVA: 0x18CF7B0 Offset: 0x18CDDB0 VA: 0x1818CF7B0 Slot: 12
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18CF620 Offset: 0x18CDC20 VA: 0x1818CF620
+	// RVA: 0x18CF8E0 Offset: 0x18CDEE0 VA: 0x1818CF8E0
 	internal void GetPInvoke(out PInvokeAttributes flags, out string entryPoint, out string dllName) { }
 
-	// RVA: 0x18CF700 Offset: 0x18CDD00 VA: 0x1818CF700
+	// RVA: 0x18CF9C0 Offset: 0x18CDFC0 VA: 0x1818CF9C0
 	internal object[] GetPseudoCustomAttributes() { }
 
-	// RVA: 0x18CFAE0 Offset: 0x18CE0E0 VA: 0x1818CFAE0 Slot: 43
+	// RVA: 0x18CFDA0 Offset: 0x18CE3A0 VA: 0x1818CFDA0 Slot: 43
 	public override MethodInfo MakeGenericMethod(Type[] methodInstantiation) { }
 
-	// RVA: 0x18CFAD0 Offset: 0x18CE0D0 VA: 0x1818CFAD0
+	// RVA: 0x18CFD90 Offset: 0x18CE390 VA: 0x1818CFD90
 	private MethodInfo MakeGenericMethod_impl(Type[] types) { }
 
-	// RVA: 0x18CF570 Offset: 0x18CDB70 VA: 0x1818CF570 Slot: 24
+	// RVA: 0x18CF830 Offset: 0x18CDE30 VA: 0x1818CF830 Slot: 24
 	public override Type[] GetGenericArguments() { }
 
-	// RVA: 0x18CF580 Offset: 0x18CDB80 VA: 0x1818CF580
+	// RVA: 0x18CF840 Offset: 0x18CDE40 VA: 0x1818CF840
 	private MethodInfo GetGenericMethodDefinition_impl() { }
 
-	// RVA: 0x18CF590 Offset: 0x18CDB90 VA: 0x1818CF590 Slot: 42
+	// RVA: 0x18CF850 Offset: 0x18CDE50 VA: 0x1818CF850 Slot: 42
 	public override MethodInfo GetGenericMethodDefinition() { }
 
-	// RVA: 0x18CFEE0 Offset: 0x18CE4E0 VA: 0x1818CFEE0 Slot: 25
+	// RVA: 0x18D01A0 Offset: 0x18CE7A0 VA: 0x1818D01A0 Slot: 25
 	public override bool get_IsGenericMethodDefinition() { }
 
-	// RVA: 0x18CFEF0 Offset: 0x18CE4F0 VA: 0x1818CFEF0 Slot: 27
+	// RVA: 0x18D01B0 Offset: 0x18CE7B0 VA: 0x1818D01B0 Slot: 27
 	public override bool get_IsGenericMethod() { }
 
-	// RVA: 0x18CFE00 Offset: 0x18CE400 VA: 0x1818CFE00 Slot: 26
+	// RVA: 0x18D00C0 Offset: 0x18CE6C0 VA: 0x1818D00C0 Slot: 26
 	public override bool get_ContainsGenericParameters() { }
 
-	// RVA: 0x18CDD90 Offset: 0x18CC390 VA: 0x1818CDD90 Slot: 35
+	// RVA: 0x18CE050 Offset: 0x18CC650 VA: 0x1818CE050 Slot: 35
 	public override MethodBody GetMethodBody() { }
 
-	// RVA: 0x18C6DD0 Offset: 0x18C53D0 VA: 0x1818C6DD0 Slot: 14
+	// RVA: 0x18C7090 Offset: 0x18C5690 VA: 0x1818C7090 Slot: 14
 	public override IList<CustomAttributeData> GetCustomAttributesData() { }
 
 	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0
@@ -536,74 +536,74 @@ internal class MonoCMethod : RuntimeConstructorInfo // TypeDefIndex: 584
 
 	// Methods
 
-	// RVA: 0x18CDDA0 Offset: 0x18CC3A0 VA: 0x1818CDDA0 Slot: 19
+	// RVA: 0x18CE060 Offset: 0x18CC660 VA: 0x1818CE060 Slot: 19
 	public override MethodImplAttributes GetMethodImplementationFlags() { }
 
-	// RVA: 0x18CDE00 Offset: 0x18CC400 VA: 0x1818CDE00 Slot: 18
+	// RVA: 0x18CE0C0 Offset: 0x18CC6C0 VA: 0x1818CE0C0 Slot: 18
 	public override ParameterInfo[] GetParameters() { }
 
-	// RVA: 0x18CDE00 Offset: 0x18CC400 VA: 0x1818CDE00 Slot: 38
+	// RVA: 0x18CE0C0 Offset: 0x18CC6C0 VA: 0x1818CE0C0 Slot: 38
 	internal override ParameterInfo[] GetParametersInternal() { }
 
-	// RVA: 0x18CDDD0 Offset: 0x18CC3D0 VA: 0x1818CDDD0 Slot: 39
+	// RVA: 0x18CE090 Offset: 0x18CC690 VA: 0x1818CE090 Slot: 39
 	internal override int GetParametersCount() { }
 
-	// RVA: 0x18CDE10 Offset: 0x18CC410 VA: 0x1818CDE10
+	// RVA: 0x18CE0D0 Offset: 0x18CC6D0 VA: 0x1818CE0D0
 	internal object InternalInvoke(object obj, object[] parameters, out Exception exc) { }
 
 	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	// RVA: 0x18CDF20 Offset: 0x18CC520 VA: 0x1818CDF20 Slot: 22
+	// RVA: 0x18CE1E0 Offset: 0x18CC7E0 VA: 0x1818CE1E0 Slot: 22
 	public override object Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
-	// RVA: 0x18CDAD0 Offset: 0x18CC0D0 VA: 0x1818CDAD0
+	// RVA: 0x18CDD90 Offset: 0x18CC390 VA: 0x1818CDD90
 	private object DoInvoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
-	// RVA: 0x18CDE20 Offset: 0x18CC420 VA: 0x1818CDE20
+	// RVA: 0x18CE0E0 Offset: 0x18CC6E0 VA: 0x1818CE0E0
 	public object InternalInvoke(object obj, object[] parameters) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	// RVA: 0x18CDEF0 Offset: 0x18CC4F0 VA: 0x1818CDEF0 Slot: 40
+	// RVA: 0x18CE1B0 Offset: 0x18CC7B0 VA: 0x1818CE1B0 Slot: 40
 	public override object Invoke(BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 20
 	public override RuntimeMethodHandle get_MethodHandle() { }
 
-	// RVA: 0x18CE2F0 Offset: 0x18CC8F0 VA: 0x1818CE2F0 Slot: 21
+	// RVA: 0x18CE5B0 Offset: 0x18CCBB0 VA: 0x1818CE5B0 Slot: 21
 	public override MethodAttributes get_Attributes() { }
 
-	// RVA: 0x18CE300 Offset: 0x18CC900 VA: 0x1818CE300 Slot: 23
+	// RVA: 0x18CE5C0 Offset: 0x18CCBC0 VA: 0x1818CE5C0 Slot: 23
 	public override CallingConventions get_CallingConvention() { }
 
-	// RVA: 0x18CE330 Offset: 0x18CC930 VA: 0x1818CE330 Slot: 26
+	// RVA: 0x18CE5F0 Offset: 0x18CCBF0 VA: 0x1818CE5F0 Slot: 26
 	public override bool get_ContainsGenericParameters() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 10
 	public override Type get_ReflectedType() { }
 
-	// RVA: 0x18CE370 Offset: 0x18CC970 VA: 0x1818CE370 Slot: 9
+	// RVA: 0x18CE630 Offset: 0x18CCC30 VA: 0x1818CE630 Slot: 9
 	public override Type get_DeclaringType() { }
 
-	// RVA: 0x18CE3A0 Offset: 0x18CC9A0 VA: 0x1818CE3A0 Slot: 8
+	// RVA: 0x18CE660 Offset: 0x18CCC60 VA: 0x1818CE660 Slot: 8
 	public override string get_Name() { }
 
-	// RVA: 0x18CE050 Offset: 0x18CC650 VA: 0x1818CE050 Slot: 13
+	// RVA: 0x18CE310 Offset: 0x18CC910 VA: 0x1818CE310 Slot: 13
 	public override bool IsDefined(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18CDD20 Offset: 0x18CC320 VA: 0x1818CDD20 Slot: 11
+	// RVA: 0x18CDFE0 Offset: 0x18CC5E0 VA: 0x1818CDFE0 Slot: 11
 	public override object[] GetCustomAttributes(bool inherit) { }
 
-	// RVA: 0x18CDCA0 Offset: 0x18CC2A0 VA: 0x1818CDCA0 Slot: 12
+	// RVA: 0x18CDF60 Offset: 0x18CC560 VA: 0x1818CDF60 Slot: 12
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18CDD90 Offset: 0x18CC390 VA: 0x1818CDD90 Slot: 35
+	// RVA: 0x18CE050 Offset: 0x18CC650 VA: 0x1818CE050 Slot: 35
 	public override MethodBody GetMethodBody() { }
 
-	// RVA: 0x18CE0D0 Offset: 0x18CC6D0 VA: 0x1818CE0D0 Slot: 3
+	// RVA: 0x18CE390 Offset: 0x18CC990 VA: 0x1818CE390 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x18C6DD0 Offset: 0x18C53D0 VA: 0x1818C6DD0 Slot: 14
+	// RVA: 0x18C7090 Offset: 0x18C5690 VA: 0x1818C7090 Slot: 14
 	public override IList<CustomAttributeData> GetCustomAttributesData() { }
 
 	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0
@@ -612,7 +612,7 @@ internal class MonoCMethod : RuntimeConstructorInfo // TypeDefIndex: 584
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 28
 	public override bool get_IsSecurityCritical() { }
 
-	// RVA: 0x18CE290 Offset: 0x18CC890 VA: 0x1818CE290
+	// RVA: 0x18CE550 Offset: 0x18CCB50 VA: 0x1818CE550
 	public void .ctor() { }
 
 }
@@ -631,28 +631,28 @@ internal class MonoModule : RuntimeModule // TypeDefIndex: 586
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050 Slot: 11
 	public override string get_ScopeName() { }
 
-	// RVA: 0x18D02C0 Offset: 0x18CE8C0 VA: 0x1818D02C0 Slot: 12
+	// RVA: 0x18D0580 Offset: 0x18CEB80 VA: 0x1818D0580 Slot: 12
 	public override Guid get_ModuleVersionId() { }
 
-	// RVA: 0x8C1040 Offset: 0x8BF640 VA: 0x1808C1040 Slot: 13
+	// RVA: 0x8C1150 Offset: 0x8BF750 VA: 0x1808C1150 Slot: 13
 	public override bool IsResource() { }
 
-	// RVA: 0x18CFFD0 Offset: 0x18CE5D0 VA: 0x1818CFFD0 Slot: 14
+	// RVA: 0x18D0290 Offset: 0x18CE890 VA: 0x1818D0290 Slot: 14
 	public override object[] GetCustomAttributes(bool inherit) { }
 
-	// RVA: 0x18CFF50 Offset: 0x18CE550 VA: 0x1818CFF50 Slot: 15
+	// RVA: 0x18D0210 Offset: 0x18CE810 VA: 0x1818D0210 Slot: 15
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18D01E0 Offset: 0x18CE7E0 VA: 0x1818D01E0 Slot: 16
+	// RVA: 0x18D04A0 Offset: 0x18CEAA0 VA: 0x1818D04A0 Slot: 16
 	public override bool IsDefined(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18D0040 Offset: 0x18CE640 VA: 0x1818D0040 Slot: 8
+	// RVA: 0x18D0300 Offset: 0x18CE900 VA: 0x1818D0300 Slot: 8
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x18D0160 Offset: 0x18CE760 VA: 0x1818D0160
+	// RVA: 0x18D0420 Offset: 0x18CEA20 VA: 0x1818D0420
 	internal RuntimeAssembly GetRuntimeAssembly() { }
 
-	// RVA: 0x18D0260 Offset: 0x18CE860 VA: 0x1818D0260
+	// RVA: 0x18D0520 Offset: 0x18CEB20 VA: 0x1818D0520
 	public void .ctor() { }
 
 }
@@ -663,19 +663,19 @@ internal class MonoParameterInfo : RuntimeParameterInfo // TypeDefIndex: 588
 
 	// Methods
 
-	// RVA: 0x18D0460 Offset: 0x18CEA60 VA: 0x1818D0460
+	// RVA: 0x18D0720 Offset: 0x18CED20 VA: 0x1818D0720
 	internal void .ctor(ParameterInfo pinfo, MemberInfo member) { }
 
-	// RVA: 0x18D0530 Offset: 0x18CEB30 VA: 0x1818D0530 Slot: 13
+	// RVA: 0x18D07F0 Offset: 0x18CEDF0 VA: 0x1818D07F0 Slot: 13
 	public override object get_DefaultValue() { }
 
-	// RVA: 0x18D02F0 Offset: 0x18CE8F0 VA: 0x1818D02F0 Slot: 14
+	// RVA: 0x18D05B0 Offset: 0x18CEBB0 VA: 0x1818D05B0 Slot: 14
 	public override object[] GetCustomAttributes(bool inherit) { }
 
-	// RVA: 0x18D0360 Offset: 0x18CE960 VA: 0x1818D0360 Slot: 15
+	// RVA: 0x18D0620 Offset: 0x18CEC20 VA: 0x1818D0620 Slot: 15
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18D03E0 Offset: 0x18CE9E0 VA: 0x1818D03E0 Slot: 16
+	// RVA: 0x18D06A0 Offset: 0x18CECA0 VA: 0x1818D06A0 Slot: 16
 	public override bool IsDefined(Type attributeType, bool inherit) { }
 
 }
@@ -691,13 +691,13 @@ internal struct MonoPropertyInfo // TypeDefIndex: 589
 
 	// Methods
 
-	// RVA: 0x18D07B0 Offset: 0x18CEDB0 VA: 0x1818D07B0
+	// RVA: 0x18D0A70 Offset: 0x18CF070 VA: 0x1818D0A70
 	internal static void get_property_info(MonoProperty prop, ref MonoPropertyInfo info, PInfo req_info) { }
 
-	// RVA: 0x18D07A0 Offset: 0x18CEDA0 VA: 0x1818D07A0
+	// RVA: 0x18D0A60 Offset: 0x18CF060 VA: 0x1818D0A60
 	internal static Type[] GetTypeModifiers(MonoProperty prop, bool optional) { }
 
-	// RVA: 0xD72E30 Offset: 0xD71430 VA: 0x180D72E30
+	// RVA: 0xD730F0 Offset: 0xD716F0 VA: 0x180D730F0
 	internal static object get_default_value(MonoProperty prop) { }
 
 }
@@ -721,62 +721,62 @@ internal class MonoProperty : RuntimePropertyInfo // TypeDefIndex: 592
 
 	// Methods
 
-	// RVA: 0x18D07C0 Offset: 0x18CEDC0 VA: 0x1818D07C0
+	// RVA: 0x18D0A80 Offset: 0x18CF080 VA: 0x1818D0A80
 	private void CachePropertyInfo(PInfo flags) { }
 
-	// RVA: 0x18D1800 Offset: 0x18CFE00 VA: 0x1818D1800 Slot: 17
+	// RVA: 0x18D1AC0 Offset: 0x18D00C0 VA: 0x1818D1AC0 Slot: 17
 	public override PropertyAttributes get_Attributes() { }
 
-	// RVA: 0x18D1840 Offset: 0x18CFE40 VA: 0x1818D1840 Slot: 18
+	// RVA: 0x18D1B00 Offset: 0x18D0100 VA: 0x1818D1B00 Slot: 18
 	public override bool get_CanRead() { }
 
-	// RVA: 0x18D1890 Offset: 0x18CFE90 VA: 0x1818D1890 Slot: 19
+	// RVA: 0x18D1B50 Offset: 0x18D0150 VA: 0x1818D1B50 Slot: 19
 	public override bool get_CanWrite() { }
 
-	// RVA: 0x18D1960 Offset: 0x18CFF60 VA: 0x1818D1960 Slot: 20
+	// RVA: 0x18D1C20 Offset: 0x18D0220 VA: 0x1818D1C20 Slot: 20
 	public override Type get_PropertyType() { }
 
-	// RVA: 0x18D1A40 Offset: 0x18D0040 VA: 0x1818D1A40 Slot: 10
+	// RVA: 0x18D1D00 Offset: 0x18D0300 VA: 0x1818D1D00 Slot: 10
 	public override Type get_ReflectedType() { }
 
-	// RVA: 0x18D18E0 Offset: 0x18CFEE0 VA: 0x1818D18E0 Slot: 9
+	// RVA: 0x18D1BA0 Offset: 0x18D01A0 VA: 0x1818D1BA0 Slot: 9
 	public override Type get_DeclaringType() { }
 
-	// RVA: 0x18D1920 Offset: 0x18CFF20 VA: 0x1818D1920 Slot: 8
+	// RVA: 0x18D1BE0 Offset: 0x18D01E0 VA: 0x1818D1BE0 Slot: 8
 	public override string get_Name() { }
 
-	// RVA: 0x18D0B80 Offset: 0x18CF180 VA: 0x1818D0B80 Slot: 21
+	// RVA: 0x18D0E40 Offset: 0x18CF440 VA: 0x1818D0E40 Slot: 21
 	public override MethodInfo[] GetAccessors(bool nonPublic) { }
 
-	// RVA: 0x18D0E50 Offset: 0x18CF450 VA: 0x1818D0E50 Slot: 23
+	// RVA: 0x18D1110 Offset: 0x18CF710 VA: 0x1818D1110 Slot: 23
 	public override MethodInfo GetGetMethod(bool nonPublic) { }
 
-	// RVA: 0x18D0F00 Offset: 0x18CF500 VA: 0x1818D0F00 Slot: 24
+	// RVA: 0x18D11C0 Offset: 0x18CF7C0 VA: 0x1818D11C0 Slot: 24
 	public override ParameterInfo[] GetIndexParameters() { }
 
-	// RVA: 0x18D12C0 Offset: 0x18CF8C0 VA: 0x1818D12C0 Slot: 26
+	// RVA: 0x18D1580 Offset: 0x18CFB80 VA: 0x1818D1580 Slot: 26
 	public override MethodInfo GetSetMethod(bool nonPublic) { }
 
-	// RVA: 0xD72E30 Offset: 0xD71430 VA: 0x180D72E30 Slot: 33
+	// RVA: 0xD730F0 Offset: 0xD716F0 VA: 0x180D730F0 Slot: 33
 	public override object GetConstantValue() { }
 
-	// RVA: 0xD72E30 Offset: 0xD71430 VA: 0x180D72E30 Slot: 34
+	// RVA: 0xD730F0 Offset: 0xD716F0 VA: 0x180D730F0 Slot: 34
 	public override object GetRawConstantValue() { }
 
-	// RVA: 0x18D1550 Offset: 0x18CFB50 VA: 0x1818D1550 Slot: 13
+	// RVA: 0x18D1810 Offset: 0x18CFE10 VA: 0x1818D1810 Slot: 13
 	public override bool IsDefined(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18D0DF0 Offset: 0x18CF3F0 VA: 0x1818D0DF0 Slot: 11
+	// RVA: 0x18D10B0 Offset: 0x18CF6B0 VA: 0x1818D10B0 Slot: 11
 	public override object[] GetCustomAttributes(bool inherit) { }
 
-	// RVA: 0x18D0D80 Offset: 0x18CF380 VA: 0x1818D0D80 Slot: 12
+	// RVA: 0x18D1040 Offset: 0x18CF640 VA: 0x1818D1040 Slot: 12
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit) { }
 
 	// RVA: -1 Offset: -1
 	private static object GetterAdapterFrame<T, R>(MonoProperty.Getter<T, R> getter, object obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED6760 Offset: 0xED4D60 VA: 0x180ED6760
+	|-RVA: 0xED6A20 Offset: 0xED5020 VA: 0x180ED6A20
 	|-MonoProperty.GetterAdapterFrame<object, object>
 	*/
 
@@ -784,29 +784,29 @@ internal class MonoProperty : RuntimePropertyInfo // TypeDefIndex: 592
 	private static object StaticGetterAdapterFrame<R>(MonoProperty.StaticGetter<R> getter, object obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED67F0 Offset: 0xED4DF0 VA: 0x180ED67F0
+	|-RVA: 0xED6AB0 Offset: 0xED50B0 VA: 0x180ED6AB0
 	|-MonoProperty.StaticGetterAdapterFrame<object>
 	*/
 
-	// RVA: 0x18D0800 Offset: 0x18CEE00 VA: 0x1818D0800
+	// RVA: 0x18D0AC0 Offset: 0x18CF0C0 VA: 0x1818D0AC0
 	private static MonoProperty.GetterAdapter CreateGetterDelegate(MethodInfo method) { }
 
-	// RVA: 0x18D1370 Offset: 0x18CF970 VA: 0x1818D1370 Slot: 27
+	// RVA: 0x18D1630 Offset: 0x18CFC30 VA: 0x1818D1630 Slot: 27
 	public override object GetValue(object obj, object[] index) { }
 
-	// RVA: 0x18D13B0 Offset: 0x18CF9B0 VA: 0x1818D13B0 Slot: 28
+	// RVA: 0x18D1670 Offset: 0x18CFC70 VA: 0x1818D1670 Slot: 28
 	public override object GetValue(object obj, BindingFlags invokeAttr, Binder binder, object[] index, CultureInfo culture) { }
 
-	// RVA: 0x18D15C0 Offset: 0x18CFBC0 VA: 0x1818D15C0 Slot: 30
+	// RVA: 0x18D1880 Offset: 0x18CFE80 VA: 0x1818D1880 Slot: 30
 	public override void SetValue(object obj, object value, BindingFlags invokeAttr, Binder binder, object[] index, CultureInfo culture) { }
 
-	// RVA: 0x18D11E0 Offset: 0x18CF7E0 VA: 0x1818D11E0 Slot: 31
+	// RVA: 0x18D14A0 Offset: 0x18CFAA0 VA: 0x1818D14A0 Slot: 31
 	public override Type[] GetOptionalCustomModifiers() { }
 
-	// RVA: 0x18D1250 Offset: 0x18CF850 VA: 0x1818D1250 Slot: 32
+	// RVA: 0x18D1510 Offset: 0x18CFB10 VA: 0x1818D1510 Slot: 32
 	public override Type[] GetRequiredCustomModifiers() { }
 
-	// RVA: 0x18C6DD0 Offset: 0x18C53D0 VA: 0x1818C6DD0 Slot: 14
+	// RVA: 0x18C7090 Offset: 0x18C5690 VA: 0x1818C7090 Slot: 14
 	public override IList<CustomAttributeData> GetCustomAttributesData() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -820,7 +820,7 @@ private sealed class MonoProperty.GetterAdapter : MulticastDelegate // TypeDefIn
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x133B5E0 Offset: 0x1339BE0 VA: 0x18133B5E0 Slot: 12
+	// RVA: 0x133B8A0 Offset: 0x1339EA0 VA: 0x18133B8A0 Slot: 12
 	public virtual object Invoke(object _this) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13
@@ -846,7 +846,7 @@ private sealed class MonoProperty.Getter<T, R> : MulticastDelegate // TypeDefInd
 	public virtual R Invoke(T _this) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x189F860 Offset: 0x189DE60 VA: 0x18189F860
+	|-RVA: 0x189FB20 Offset: 0x189E120 VA: 0x18189FB20
 	|-MonoProperty.Getter<object, object>.Invoke
 	*/
 
@@ -883,7 +883,7 @@ private sealed class MonoProperty.StaticGetter<R> : MulticastDelegate // TypeDef
 	public virtual R Invoke() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD50960 Offset: 0xD4EF60 VA: 0x180D50960
+	|-RVA: 0xD50C20 Offset: 0xD4F220 VA: 0x180D50C20
 	|-MonoProperty.StaticGetter<object>.Invoke
 	*/
 
@@ -932,175 +932,175 @@ internal static class MonoIO // TypeDefIndex: 675
 
 	// Methods
 
-	// RVA: 0x1627D50 Offset: 0x1626350 VA: 0x181627D50
+	// RVA: 0x1628010 Offset: 0x1626610 VA: 0x181628010
 	public static Exception GetException(MonoIOError error) { }
 
-	// RVA: 0x1627690 Offset: 0x1625C90 VA: 0x181627690
+	// RVA: 0x1627950 Offset: 0x1625F50 VA: 0x181627950
 	public static Exception GetException(string path, MonoIOError error) { }
 
-	// RVA: 0x1627160 Offset: 0x1625760 VA: 0x181627160
+	// RVA: 0x1627420 Offset: 0x1625A20 VA: 0x181627420
 	private static bool CreateDirectory(char* path, out MonoIOError error) { }
 
-	// RVA: 0x1627170 Offset: 0x1625770 VA: 0x181627170
+	// RVA: 0x1627430 Offset: 0x1625A30 VA: 0x181627430
 	public static bool CreateDirectory(string path, out MonoIOError error) { }
 
-	// RVA: 0x16284D0 Offset: 0x1626AD0 VA: 0x1816284D0
+	// RVA: 0x1628790 Offset: 0x1626D90 VA: 0x181628790
 	private static bool RemoveDirectory(char* path, out MonoIOError error) { }
 
-	// RVA: 0x1628460 Offset: 0x1626A60 VA: 0x181628460
+	// RVA: 0x1628720 Offset: 0x1626D20 VA: 0x181628720
 	public static bool RemoveDirectory(string path, out MonoIOError error) { }
 
-	// RVA: 0x1627680 Offset: 0x1625C80 VA: 0x181627680
+	// RVA: 0x1627940 Offset: 0x1625F40 VA: 0x181627940
 	public static string GetCurrentDirectory(out MonoIOError error) { }
 
-	// RVA: 0x16281A0 Offset: 0x16267A0 VA: 0x1816281A0
+	// RVA: 0x1628460 Offset: 0x1626A60 VA: 0x181628460
 	private static bool MoveFile(char* path, char* dest, out MonoIOError error) { }
 
-	// RVA: 0x16281B0 Offset: 0x16267B0 VA: 0x1816281B0
+	// RVA: 0x1628470 Offset: 0x1626A70 VA: 0x181628470
 	public static bool MoveFile(string path, string dest, out MonoIOError error) { }
 
-	// RVA: 0x16270A0 Offset: 0x16256A0 VA: 0x1816270A0
+	// RVA: 0x1627360 Offset: 0x1625960 VA: 0x181627360
 	private static bool CopyFile(char* path, char* dest, bool overwrite, out MonoIOError error) { }
 
-	// RVA: 0x16270B0 Offset: 0x16256B0 VA: 0x1816270B0
+	// RVA: 0x1627370 Offset: 0x1625970 VA: 0x181627370
 	public static bool CopyFile(string path, string dest, bool overwrite, out MonoIOError error) { }
 
-	// RVA: 0x16271E0 Offset: 0x16257E0 VA: 0x1816271E0
+	// RVA: 0x16274A0 Offset: 0x1625AA0 VA: 0x1816274A0
 	private static bool DeleteFile(char* path, out MonoIOError error) { }
 
-	// RVA: 0x16271F0 Offset: 0x16257F0 VA: 0x1816271F0
+	// RVA: 0x16274B0 Offset: 0x1625AB0 VA: 0x1816274B0
 	public static bool DeleteFile(string path, out MonoIOError error) { }
 
-	// RVA: 0x1627E30 Offset: 0x1626430 VA: 0x181627E30
+	// RVA: 0x16280F0 Offset: 0x16266F0 VA: 0x1816280F0
 	private static FileAttributes GetFileAttributes(char* path, out MonoIOError error) { }
 
-	// RVA: 0x1627E40 Offset: 0x1626440 VA: 0x181627E40
+	// RVA: 0x1628100 Offset: 0x1626700 VA: 0x181628100
 	public static FileAttributes GetFileAttributes(string path, out MonoIOError error) { }
 
-	// RVA: 0x1628060 Offset: 0x1626660 VA: 0x181628060
+	// RVA: 0x1628320 Offset: 0x1626920 VA: 0x181628320
 	private static MonoFileType GetFileType(IntPtr handle, out MonoIOError error) { }
 
-	// RVA: 0x1627F40 Offset: 0x1626540 VA: 0x181627F40
+	// RVA: 0x1628200 Offset: 0x1626800 VA: 0x181628200
 	public static MonoFileType GetFileType(SafeHandle safeHandle, out MonoIOError error) { }
 
-	// RVA: 0x1627660 Offset: 0x1625C60 VA: 0x181627660
+	// RVA: 0x1627920 Offset: 0x1625F20 VA: 0x181627920
 	private static IntPtr FindFirstFile(char* pathWithPattern, out string fileName, out int fileAttr, out int error) { }
 
-	// RVA: 0x16275D0 Offset: 0x1625BD0 VA: 0x1816275D0
+	// RVA: 0x1627890 Offset: 0x1625E90 VA: 0x181627890
 	public static IntPtr FindFirstFile(string pathWithPattern, out string fileName, out int fileAttr, out int error) { }
 
-	// RVA: 0x1627670 Offset: 0x1625C70 VA: 0x181627670
+	// RVA: 0x1627930 Offset: 0x1625F30 VA: 0x181627930
 	public static bool FindNextFile(IntPtr hnd, out string fileName, out int fileAttr, out int error) { }
 
-	// RVA: 0x16275C0 Offset: 0x1625BC0 VA: 0x1816275C0
+	// RVA: 0x1627880 Offset: 0x1625E80 VA: 0x181627880
 	public static bool FindCloseFile(IntPtr hnd) { }
 
-	// RVA: 0x1627500 Offset: 0x1625B00 VA: 0x181627500
+	// RVA: 0x16277C0 Offset: 0x1625DC0 VA: 0x1816277C0
 	public static bool Exists(string path, out MonoIOError error) { }
 
-	// RVA: 0x1627350 Offset: 0x1625950 VA: 0x181627350
+	// RVA: 0x1627610 Offset: 0x1625C10 VA: 0x181627610
 	public static bool ExistsFile(string path, out MonoIOError error) { }
 
-	// RVA: 0x1627270 Offset: 0x1625870 VA: 0x181627270
+	// RVA: 0x1627530 Offset: 0x1625B30 VA: 0x181627530
 	public static bool ExistsDirectory(string path, out MonoIOError error) { }
 
-	// RVA: 0x1627420 Offset: 0x1625A20 VA: 0x181627420
+	// RVA: 0x16276E0 Offset: 0x1625CE0 VA: 0x1816276E0
 	public static bool ExistsSymlink(string path, out MonoIOError error) { }
 
-	// RVA: 0x1627EB0 Offset: 0x16264B0 VA: 0x181627EB0
+	// RVA: 0x1628170 Offset: 0x1626770 VA: 0x181628170
 	private static bool GetFileStat(char* path, out MonoIOStat stat, out MonoIOError error) { }
 
-	// RVA: 0x1627EC0 Offset: 0x16264C0 VA: 0x181627EC0
+	// RVA: 0x1628180 Offset: 0x1626780 VA: 0x181628180
 	public static bool GetFileStat(string path, out MonoIOStat stat, out MonoIOError error) { }
 
-	// RVA: 0x1628250 Offset: 0x1626850 VA: 0x181628250
+	// RVA: 0x1628510 Offset: 0x1626B10 VA: 0x181628510
 	private static IntPtr Open(char* filename, FileMode mode, FileAccess access, FileShare share, FileOptions options, out MonoIOError error) { }
 
-	// RVA: 0x1628260 Offset: 0x1626860 VA: 0x181628260
+	// RVA: 0x1628520 Offset: 0x1626B20 VA: 0x181628520
 	public static IntPtr Open(string filename, FileMode mode, FileAccess access, FileShare share, FileOptions options, out MonoIOError error) { }
 
-	// RVA: 0x1627090 Offset: 0x1625690 VA: 0x181627090
+	// RVA: 0x1627350 Offset: 0x1625950 VA: 0x181627350
 	public static bool Close(IntPtr handle, out MonoIOError error) { }
 
-	// RVA: 0x1628440 Offset: 0x1626A40 VA: 0x181628440
+	// RVA: 0x1628700 Offset: 0x1626D00 VA: 0x181628700
 	private static int Read(IntPtr handle, byte[] dest, int dest_offset, int count, out MonoIOError error) { }
 
-	// RVA: 0x16282F0 Offset: 0x16268F0 VA: 0x1816282F0
+	// RVA: 0x16285B0 Offset: 0x1626BB0 VA: 0x1816285B0
 	public static int Read(SafeHandle safeHandle, byte[] dest, int dest_offset, int count, out MonoIOError error) { }
 
-	// RVA: 0x1628CA0 Offset: 0x16272A0 VA: 0x181628CA0
+	// RVA: 0x1628F60 Offset: 0x1627560 VA: 0x181628F60
 	private static int Write(IntPtr handle, [In] byte[] src, int src_offset, int count, out MonoIOError error) { }
 
-	// RVA: 0x1628CB0 Offset: 0x16272B0 VA: 0x181628CB0
+	// RVA: 0x1628F70 Offset: 0x1627570 VA: 0x181628F70
 	public static int Write(SafeHandle safeHandle, byte[] src, int src_offset, int count, out MonoIOError error) { }
 
-	// RVA: 0x16284E0 Offset: 0x1626AE0 VA: 0x1816284E0
+	// RVA: 0x16287A0 Offset: 0x1626DA0 VA: 0x1816287A0
 	private static long Seek(IntPtr handle, long offset, SeekOrigin origin, out MonoIOError error) { }
 
-	// RVA: 0x16284F0 Offset: 0x1626AF0 VA: 0x1816284F0
+	// RVA: 0x16287B0 Offset: 0x1626DB0 VA: 0x1816287B0
 	public static long Seek(SafeHandle safeHandle, long offset, SeekOrigin origin, out MonoIOError error) { }
 
-	// RVA: 0x1628070 Offset: 0x1626670 VA: 0x181628070
+	// RVA: 0x1628330 Offset: 0x1626930 VA: 0x181628330
 	private static long GetLength(IntPtr handle, out MonoIOError error) { }
 
-	// RVA: 0x1628080 Offset: 0x1626680 VA: 0x181628080
+	// RVA: 0x1628340 Offset: 0x1626940 VA: 0x181628340
 	public static long GetLength(SafeHandle safeHandle, out MonoIOError error) { }
 
-	// RVA: 0x1628C90 Offset: 0x1627290 VA: 0x181628C90
+	// RVA: 0x1628F50 Offset: 0x1627550 VA: 0x181628F50
 	private static bool SetLength(IntPtr handle, long length, out MonoIOError error) { }
 
-	// RVA: 0x1628B60 Offset: 0x1627160 VA: 0x181628B60
+	// RVA: 0x1628E20 Offset: 0x1627420 VA: 0x181628E20
 	public static bool SetLength(SafeHandle safeHandle, long length, out MonoIOError error) { }
 
-	// RVA: 0x16288C0 Offset: 0x1626EC0 VA: 0x1816288C0
+	// RVA: 0x1628B80 Offset: 0x1627180 VA: 0x181628B80
 	private static bool SetFileTime(IntPtr handle, long creation_time, long last_access_time, long last_write_time, out MonoIOError error) { }
 
-	// RVA: 0x16288D0 Offset: 0x1626ED0 VA: 0x1816288D0
+	// RVA: 0x1628B90 Offset: 0x1627190 VA: 0x181628B90
 	public static bool SetFileTime(SafeHandle safeHandle, long creation_time, long last_access_time, long last_write_time, out MonoIOError error) { }
 
-	// RVA: 0x1628630 Offset: 0x1626C30 VA: 0x181628630
+	// RVA: 0x16288F0 Offset: 0x1626EF0 VA: 0x1816288F0
 	public static bool SetCreationTime(string path, DateTime dateTime, out MonoIOError error) { }
 
-	// RVA: 0x1628A20 Offset: 0x1627020 VA: 0x181628A20
+	// RVA: 0x1628CE0 Offset: 0x16272E0 VA: 0x181628CE0
 	public static bool SetLastAccessTime(string path, DateTime dateTime, out MonoIOError error) { }
 
-	// RVA: 0x1628AC0 Offset: 0x16270C0 VA: 0x181628AC0
+	// RVA: 0x1628D80 Offset: 0x1627380 VA: 0x181628D80
 	public static bool SetLastWriteTime(string path, DateTime dateTime, out MonoIOError error) { }
 
-	// RVA: 0x16286D0 Offset: 0x1626CD0 VA: 0x1816286D0
+	// RVA: 0x1628990 Offset: 0x1626F90 VA: 0x181628990
 	public static bool SetFileTime(string path, int type, long creation_time, long last_access_time, long last_write_time, DateTime dateTime, out MonoIOError error) { }
 
-	// RVA: 0x1628EA0 Offset: 0x16274A0 VA: 0x181628EA0
+	// RVA: 0x1629160 Offset: 0x1627760 VA: 0x181629160
 	public static IntPtr get_ConsoleOutput() { }
 
-	// RVA: 0x1628E90 Offset: 0x1627490 VA: 0x181628E90
+	// RVA: 0x1629150 Offset: 0x1627750 VA: 0x181629150
 	public static IntPtr get_ConsoleInput() { }
 
-	// RVA: 0x1628E80 Offset: 0x1627480 VA: 0x181628E80
+	// RVA: 0x1629140 Offset: 0x1627740 VA: 0x181629140
 	public static IntPtr get_ConsoleError() { }
 
-	// RVA: 0x1627260 Offset: 0x1625860 VA: 0x181627260
+	// RVA: 0x1627520 Offset: 0x1625B20 VA: 0x181627520
 	public static bool DuplicateHandle(IntPtr source_process_handle, IntPtr source_handle, IntPtr target_process_handle, out IntPtr target_handle, int access, int inherit, int options, out MonoIOError error) { }
 
-	// RVA: 0x1628ED0 Offset: 0x16274D0 VA: 0x181628ED0
+	// RVA: 0x1629190 Offset: 0x1627790 VA: 0x181629190
 	public static char get_VolumeSeparatorChar() { }
 
-	// RVA: 0x1628EB0 Offset: 0x16274B0 VA: 0x181628EB0
+	// RVA: 0x1629170 Offset: 0x1627770 VA: 0x181629170
 	public static char get_DirectorySeparatorChar() { }
 
-	// RVA: 0x1628E70 Offset: 0x1627470 VA: 0x181628E70
+	// RVA: 0x1629130 Offset: 0x1627730 VA: 0x181629130
 	public static char get_AltDirectorySeparatorChar() { }
 
-	// RVA: 0x1628EC0 Offset: 0x16274C0 VA: 0x181628EC0
+	// RVA: 0x1629180 Offset: 0x1627780 VA: 0x181629180
 	public static char get_PathSeparator() { }
 
-	// RVA: 0xD72E30 Offset: 0xD71430 VA: 0x180D72E30
+	// RVA: 0xD730F0 Offset: 0xD716F0 VA: 0x180D730F0
 	private static void DumpHandles() { }
 
-	// RVA: 0x1628450 Offset: 0x1626A50 VA: 0x181628450
+	// RVA: 0x1628710 Offset: 0x1626D10 VA: 0x181628710
 	public static bool RemapPath(string path, out string newPath) { }
 
-	// RVA: 0x1628E00 Offset: 0x1627400 VA: 0x181628E00
+	// RVA: 0x16290C0 Offset: 0x16276C0 VA: 0x1816290C0
 	private static void .cctor() { }
 
 }
@@ -1185,25 +1185,25 @@ internal class MonoMethodMessage : IMethodCallMessage, IMethodMessage, IMessage,
 
 	// Methods
 
-	// RVA: 0x1480880 Offset: 0x147EE80 VA: 0x181480880
+	// RVA: 0x1480B40 Offset: 0x147F140 VA: 0x181480B40
 	internal void InitMessage(MonoMethod method, object[] out_args) { }
 
-	// RVA: 0x1480CC0 Offset: 0x147F2C0 VA: 0x181480CC0
+	// RVA: 0x1480F80 Offset: 0x147F580 VA: 0x181480F80
 	public void .ctor(MethodBase method, object[] out_args) { }
 
-	// RVA: 0x1480DC0 Offset: 0x147F3C0 VA: 0x181480DC0
+	// RVA: 0x1481080 Offset: 0x147F680 VA: 0x181481080
 	internal void .ctor(MethodInfo minfo, object[] in_args, object[] out_args) { }
 
-	// RVA: 0x14807C0 Offset: 0x147EDC0 VA: 0x1814807C0
+	// RVA: 0x1480A80 Offset: 0x147F080 VA: 0x181480A80
 	private static MethodInfo GetMethodInfo(Type type, string methodName) { }
 
-	// RVA: 0x1480F40 Offset: 0x147F540 VA: 0x181480F40
+	// RVA: 0x1481200 Offset: 0x147F800 VA: 0x181481200
 	public void .ctor(Type type, string methodName, object[] in_args) { }
 
-	// RVA: 0x1481580 Offset: 0x147FB80 VA: 0x181481580 Slot: 13
+	// RVA: 0x1481840 Offset: 0x147FE40 VA: 0x181481840 Slot: 13
 	public IDictionary get_Properties() { }
 
-	// RVA: 0x1481060 Offset: 0x147F660 VA: 0x181481060 Slot: 4
+	// RVA: 0x1481320 Offset: 0x147F920 VA: 0x181481320 Slot: 4
 	public int get_ArgCount() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 5
@@ -1218,13 +1218,13 @@ internal class MonoMethodMessage : IMethodCallMessage, IMethodMessage, IMessage,
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 7
 	public MethodBase get_MethodBase() { }
 
-	// RVA: 0x1481190 Offset: 0x147F790 VA: 0x181481190 Slot: 8
+	// RVA: 0x1481450 Offset: 0x147FA50 VA: 0x181481450 Slot: 8
 	public string get_MethodName() { }
 
-	// RVA: 0x1481210 Offset: 0x147F810 VA: 0x181481210 Slot: 9
+	// RVA: 0x14814D0 Offset: 0x147FAD0 VA: 0x1814814D0 Slot: 9
 	public object get_MethodSignature() { }
 
-	// RVA: 0x1481600 Offset: 0x147FC00 VA: 0x181481600 Slot: 10
+	// RVA: 0x14818C0 Offset: 0x147FEC0 VA: 0x1814818C0 Slot: 10
 	public string get_TypeName() { }
 
 	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860 Slot: 19
@@ -1233,16 +1233,16 @@ internal class MonoMethodMessage : IMethodCallMessage, IMethodMessage, IMessage,
 	// RVA: 0x4CF880 Offset: 0x4CDE80 VA: 0x1804CF880 Slot: 20
 	public void set_Uri(string value) { }
 
-	// RVA: 0x1480780 Offset: 0x147ED80 VA: 0x181480780 Slot: 12
+	// RVA: 0x1480A40 Offset: 0x147F040 VA: 0x181480A40 Slot: 12
 	public object GetArg(int arg_num) { }
 
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0 Slot: 14
 	public Exception get_Exception() { }
 
-	// RVA: 0x1481370 Offset: 0x147F970 VA: 0x181481370 Slot: 21
+	// RVA: 0x1481630 Offset: 0x147FC30 VA: 0x181481630 Slot: 21
 	public int get_OutArgCount() { }
 
-	// RVA: 0x14813E0 Offset: 0x147F9E0 VA: 0x1814813E0 Slot: 15
+	// RVA: 0x14816A0 Offset: 0x147FCA0 VA: 0x1814816A0 Slot: 15
 	public object[] get_OutArgs() { }
 
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0 Slot: 16
@@ -1257,13 +1257,13 @@ internal class MonoMethodMessage : IMethodCallMessage, IMethodMessage, IMessage,
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	public AsyncResult get_AsyncResult() { }
 
-	// RVA: 0x14810A0 Offset: 0x147F6A0 VA: 0x1814810A0
+	// RVA: 0x1481360 Offset: 0x147F960 VA: 0x181481360
 	internal CallType get_CallType() { }
 
-	// RVA: 0x1480BD0 Offset: 0x147F1D0 VA: 0x181480BD0
+	// RVA: 0x1480E90 Offset: 0x147F490 VA: 0x181480E90
 	public bool NeedsOutProcessing(out int outCount) { }
 
-	// RVA: 0x1480C50 Offset: 0x147F250 VA: 0x181480C50
+	// RVA: 0x1480F10 Offset: 0x147F510 VA: 0x181480F10
 	private static void .cctor() { }
 
 }
@@ -1286,11 +1286,11 @@ public class MonoTlsConnectionInfo // TypeDefIndex: 1743
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13A9500 Offset: 0x13A7B00 VA: 0x1813A9500
+	// RVA: 0x13A97C0 Offset: 0x13A7DC0 VA: 0x1813A97C0
 	public CipherSuiteCode get_CipherSuiteCode() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1AB9410 Offset: 0x1AB7A10 VA: 0x181AB9410
+	// RVA: 0x1AB96D0 Offset: 0x1AB7CD0 VA: 0x181AB96D0
 	public void set_CipherSuiteCode(CipherSuiteCode value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -1305,7 +1305,7 @@ public class MonoTlsConnectionInfo // TypeDefIndex: 1743
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	public void set_PeerDomainName(string value) { }
 
-	// RVA: 0x1AB9390 Offset: 0x1AB7990 VA: 0x181AB9390 Slot: 3
+	// RVA: 0x1AB9650 Offset: 0x1AB7C50 VA: 0x181AB9650 Slot: 3
 	public override string ToString() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -1329,13 +1329,13 @@ public sealed class MonoRemoteCertificateValidationCallback : MulticastDelegate 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xFFB630 Offset: 0xFF9C30 VA: 0x180FFB630 Slot: 12
+	// RVA: 0xFFB8F0 Offset: 0xFF9EF0 VA: 0x180FFB8F0 Slot: 12
 	public virtual bool Invoke(string targetHost, X509Certificate certificate, X509Chain chain, MonoSslPolicyErrors sslPolicyErrors) { }
 
-	// RVA: 0x1AB92F0 Offset: 0x1AB78F0 VA: 0x181AB92F0 Slot: 13
+	// RVA: 0x1AB95B0 Offset: 0x1AB7BB0 VA: 0x181AB95B0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(string targetHost, X509Certificate certificate, X509Chain chain, MonoSslPolicyErrors sslPolicyErrors, AsyncCallback callback, object object) { }
 
-	// RVA: 0xFF6250 Offset: 0xFF4850 VA: 0x180FF6250 Slot: 14
+	// RVA: 0xFF6510 Offset: 0xFF4B10 VA: 0x180FF6510 Slot: 14
 	public virtual bool EndInvoke(IAsyncResult result) { }
 
 }
@@ -1346,10 +1346,10 @@ public sealed class MonoLocalCertificateSelectionCallback : MulticastDelegate //
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xFF9390 Offset: 0xFF7990 VA: 0x180FF9390 Slot: 12
+	// RVA: 0xFF9650 Offset: 0xFF7C50 VA: 0x180FF9650 Slot: 12
 	public virtual X509Certificate Invoke(string targetHost, X509CertificateCollection localCertificates, X509Certificate remoteCertificate, string[] acceptableIssuers) { }
 
-	// RVA: 0xFF9340 Offset: 0xFF7940 VA: 0x180FF9340 Slot: 13
+	// RVA: 0xFF9600 Offset: 0xFF7C00 VA: 0x180FF9600 Slot: 13
 	public virtual IAsyncResult BeginInvoke(string targetHost, X509CertificateCollection localCertificates, X509Certificate remoteCertificate, string[] acceptableIssuers, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -1407,7 +1407,7 @@ public abstract class MonoTlsProvider // TypeDefIndex: 1747
 public static class MonoTlsProviderFactory // TypeDefIndex: 1748
 {	// Methods
 
-	// RVA: 0x1AB9420 Offset: 0x1AB7A20 VA: 0x181AB9420
+	// RVA: 0x1AB96E0 Offset: 0x1AB7CE0 VA: 0x181AB96E0
 	public static MonoTlsProvider GetProvider() { }
 
 }
@@ -1476,21 +1476,21 @@ public sealed class MonoTlsSettings // TypeDefIndex: 1749
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	public void set_ClientCertificateSelectionCallback(MonoLocalCertificateSelectionCallback value) { }
 
-	// RVA: 0x1AB9870 Offset: 0x1AB7E70 VA: 0x181AB9870
+	// RVA: 0x1AB9B30 Offset: 0x1AB8130 VA: 0x181AB9B30
 	public Nullable<bool> get_UseServicePointManagerCallback() { }
 
-	// RVA: 0x1AB9890 Offset: 0x1AB7E90 VA: 0x181AB9890
+	// RVA: 0x1AB9B50 Offset: 0x1AB8150 VA: 0x181AB9B50
 	public void set_UseServicePointManagerCallback(Nullable<bool> value) { }
 
-	// RVA: 0x1086590 Offset: 0x1084B90 VA: 0x181086590
+	// RVA: 0x1086850 Offset: 0x1084E50 VA: 0x181086850
 	public bool get_CallbackNeedsCertificateChain() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD67340 Offset: 0xD65940 VA: 0x180D67340
+	// RVA: 0xD67600 Offset: 0xD65C00 VA: 0x180D67600
 	public Nullable<DateTime> get_CertificateValidationTime() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10965B0 Offset: 0x1094BB0 VA: 0x1810965B0
+	// RVA: 0x1096870 Offset: 0x1094E70 VA: 0x181096870
 	public void set_CertificateValidationTime(Nullable<DateTime> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -1506,7 +1506,7 @@ public sealed class MonoTlsSettings // TypeDefIndex: 1749
 	public object get_UserSettings() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	public void set_UserSettings(object value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -1526,11 +1526,11 @@ public sealed class MonoTlsSettings // TypeDefIndex: 1749
 	internal void set_SendCloseNotify(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF8FE70 Offset: 0xF8E470 VA: 0x180F8FE70
+	// RVA: 0xF90130 Offset: 0xF8E730 VA: 0x180F90130
 	public Nullable<TlsProtocols> get_EnabledProtocols() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1AB9880 Offset: 0x1AB7E80 VA: 0x181AB9880
+	// RVA: 0x1AB9B40 Offset: 0x1AB8140 VA: 0x181AB9B40
 	public void set_EnabledProtocols(Nullable<TlsProtocols> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -1541,26 +1541,26 @@ public sealed class MonoTlsSettings // TypeDefIndex: 1749
 	// RVA: 0x4CF880 Offset: 0x4CDE80 VA: 0x1804CF880
 	public void set_EnabledCiphers(CipherSuiteCode[] value) { }
 
-	// RVA: 0x1AB9670 Offset: 0x1AB7C70 VA: 0x181AB9670
+	// RVA: 0x1AB9930 Offset: 0x1AB7F30 VA: 0x181AB9930
 	public void .ctor() { }
 
-	// RVA: 0x1AB97E0 Offset: 0x1AB7DE0 VA: 0x181AB97E0
+	// RVA: 0x1AB9AA0 Offset: 0x1AB80A0 VA: 0x181AB9AA0
 	public static MonoTlsSettings get_DefaultSettings() { }
 
-	// RVA: 0x1AB95A0 Offset: 0x1AB7BA0 VA: 0x181AB95A0
+	// RVA: 0x1AB9860 Offset: 0x1AB7E60 VA: 0x181AB9860
 	public static MonoTlsSettings CopyDefaultSettings() { }
 
 	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
 	public ICertificateValidator get_CertificateValidator() { }
 
 	[ObsoleteAttribute] // RVA: 0x7F2D0 Offset: 0x7E6D0 VA: 0x18007F2D0
-	// RVA: 0x1AB94A0 Offset: 0x1AB7AA0 VA: 0x181AB94A0
+	// RVA: 0x1AB9760 Offset: 0x1AB7D60 VA: 0x181AB9760
 	public MonoTlsSettings CloneWithValidator(ICertificateValidator validator) { }
 
-	// RVA: 0x1AB9540 Offset: 0x1AB7B40 VA: 0x181AB9540
+	// RVA: 0x1AB9800 Offset: 0x1AB7E00 VA: 0x181AB9800
 	public MonoTlsSettings Clone() { }
 
-	// RVA: 0x1AB9680 Offset: 0x1AB7C80 VA: 0x181AB9680
+	// RVA: 0x1AB9940 Offset: 0x1AB7F40 VA: 0x181AB9940
 	private void .ctor(MonoTlsSettings other) { }
 
 }
@@ -1568,7 +1568,7 @@ public sealed class MonoTlsSettings // TypeDefIndex: 1749
 internal class MonoTODOAttribute : Attribute // TypeDefIndex: 1810
 {	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 }
@@ -1576,7 +1576,7 @@ internal class MonoTODOAttribute : Attribute // TypeDefIndex: 1810
 internal sealed class MonoPInvokeCallbackAttribute : Attribute // TypeDefIndex: 2454
 {	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor(Type t) { }
 
 }
@@ -1595,25 +1595,25 @@ internal static class MonoTlsProviderFactory // TypeDefIndex: 2552
 
 	// Methods
 
-	// RVA: 0x1219570 Offset: 0x1217B70 VA: 0x181219570
+	// RVA: 0x1219830 Offset: 0x1217E30 VA: 0x181219830
 	internal static MonoTlsProvider GetProviderInternal() { }
 
-	// RVA: 0x1219740 Offset: 0x1217D40 VA: 0x181219740
+	// RVA: 0x1219A00 Offset: 0x1218000 VA: 0x181219A00
 	internal static void InitializeInternal() { }
 
-	// RVA: 0x1219F40 Offset: 0x1218540 VA: 0x181219F40
+	// RVA: 0x121A200 Offset: 0x1218800 VA: 0x18121A200
 	private static MonoTlsProvider LookupProvider(string name, bool throwOnError) { }
 
-	// RVA: 0x1219AF0 Offset: 0x12180F0 VA: 0x181219AF0
+	// RVA: 0x1219DB0 Offset: 0x12183B0 VA: 0x181219DB0
 	private static void InitializeProviderRegistration() { }
 
-	// RVA: 0x12194F0 Offset: 0x1217AF0 VA: 0x1812194F0
+	// RVA: 0x12197B0 Offset: 0x1217DB0 VA: 0x1812197B0
 	private static MonoTlsProvider CreateDefaultProviderImpl() { }
 
-	// RVA: 0x12196B0 Offset: 0x1217CB0 VA: 0x1812196B0
+	// RVA: 0x1219970 Offset: 0x1217F70 VA: 0x181219970
 	internal static MonoTlsProvider GetProvider() { }
 
-	// RVA: 0x121A440 Offset: 0x1218A40 VA: 0x18121A440
+	// RVA: 0x121A700 Offset: 0x1218D00 VA: 0x18121A700
 	private static void .cctor() { }
 
 }
@@ -1639,21 +1639,21 @@ internal class MonoTlsStream // TypeDefIndex: 2553
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	internal HttpWebRequest get_Request() { }
 
-	// RVA: 0x6BB940 Offset: 0x6B9F40 VA: 0x1806BB940
+	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50
 	internal WebExceptionStatus get_ExceptionStatus() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC659E0 Offset: 0xC63FE0 VA: 0x180C659E0
+	// RVA: 0xC65CA0 Offset: 0xC642A0 VA: 0x180C65CA0
 	internal bool get_CertificateValidationFailed() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE72CA0 Offset: 0xE712A0 VA: 0x180E72CA0
+	// RVA: 0xE72F60 Offset: 0xE71560 VA: 0x180E72F60
 	internal void set_CertificateValidationFailed(bool value) { }
 
-	// RVA: 0x121AAE0 Offset: 0x12190E0 VA: 0x18121AAE0
+	// RVA: 0x121ADA0 Offset: 0x12193A0 VA: 0x18121ADA0
 	public void .ctor(HttpWebRequest request, NetworkStream networkStream) { }
 
-	// RVA: 0x121A570 Offset: 0x1218B70 VA: 0x18121A570
+	// RVA: 0x121A830 Offset: 0x1218E30 VA: 0x18121A830
 	internal Stream CreateStream(byte[] buffer) { }
 
 }
@@ -1678,55 +1678,55 @@ internal class MonoChunkStream // TypeDefIndex: 3014
 
 	// Methods
 
-	// RVA: 0x1347910 Offset: 0x1345F10 VA: 0x181347910
+	// RVA: 0x1347BD0 Offset: 0x13461D0 VA: 0x181347BD0
 	public void .ctor(byte[] buffer, int offset, int size, WebHeaderCollection headers) { }
 
-	// RVA: 0x1347860 Offset: 0x1345E60 VA: 0x181347860
+	// RVA: 0x1347B20 Offset: 0x1346120 VA: 0x181347B20
 	public void .ctor(WebHeaderCollection headers) { }
 
-	// RVA: 0x1347700 Offset: 0x1345D00 VA: 0x181347700
+	// RVA: 0x13479C0 Offset: 0x1345FC0 VA: 0x1813479C0
 	public void ResetBuffer() { }
 
-	// RVA: 0x13477B0 Offset: 0x1345DB0 VA: 0x1813477B0
+	// RVA: 0x1347A70 Offset: 0x1346070 VA: 0x181347A70
 	public void WriteAndReadBack(byte[] buffer, int offset, int size, ref int read) { }
 
-	// RVA: 0x13476A0 Offset: 0x1345CA0 VA: 0x1813476A0
+	// RVA: 0x1347960 Offset: 0x1345F60 VA: 0x181347960
 	public int Read(byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x1347130 Offset: 0x1345730 VA: 0x181347130
+	// RVA: 0x13473F0 Offset: 0x13459F0 VA: 0x1813473F0
 	private int ReadFromChunks(byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x1347830 Offset: 0x1345E30 VA: 0x181347830
+	// RVA: 0x1347AF0 Offset: 0x13460F0 VA: 0x181347AF0
 	public void Write(byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x1346C50 Offset: 0x1345250 VA: 0x181346C50
+	// RVA: 0x1346F10 Offset: 0x1345510 VA: 0x181346F10
 	private void InternalWrite(byte[] buffer, ref int offset, int size) { }
 
-	// RVA: 0x1347B20 Offset: 0x1346120 VA: 0x181347B20
+	// RVA: 0x1347DE0 Offset: 0x13463E0 VA: 0x181347DE0
 	public bool get_WantMore() { }
 
-	// RVA: 0x1347A10 Offset: 0x1346010 VA: 0x181347A10
+	// RVA: 0x1347CD0 Offset: 0x13462D0 VA: 0x181347CD0
 	public bool get_DataAvailable() { }
 
-	// RVA: 0x1347A00 Offset: 0x1346000 VA: 0x181347A00
+	// RVA: 0x1347CC0 Offset: 0x13462C0 VA: 0x181347CC0
 	public int get_ChunkLeft() { }
 
-	// RVA: 0x1346F20 Offset: 0x1345520 VA: 0x181346F20
+	// RVA: 0x13471E0 Offset: 0x13457E0 VA: 0x1813471E0
 	private MonoChunkStream.State ReadBody(byte[] buffer, ref int offset, int size) { }
 
-	// RVA: 0x1346990 Offset: 0x1344F90 VA: 0x181346990
+	// RVA: 0x1346C50 Offset: 0x1345250 VA: 0x181346C50
 	private MonoChunkStream.State GetChunkSize(byte[] buffer, ref int offset, int size) { }
 
-	// RVA: 0x13476B0 Offset: 0x1345CB0 VA: 0x1813476B0
+	// RVA: 0x1347970 Offset: 0x1345F70 VA: 0x181347970
 	private static string RemoveChunkExtension(string input) { }
 
-	// RVA: 0x1347050 Offset: 0x1345650 VA: 0x181347050
+	// RVA: 0x1347310 Offset: 0x1345910 VA: 0x181347310
 	private MonoChunkStream.State ReadCRLF(byte[] buffer, ref int offset, int size) { }
 
-	// RVA: 0x13473E0 Offset: 0x13459E0 VA: 0x1813473E0
+	// RVA: 0x13476A0 Offset: 0x1345CA0 VA: 0x1813476A0
 	private MonoChunkStream.State ReadTrailer(byte[] buffer, ref int offset, int size) { }
 
-	// RVA: 0x1347740 Offset: 0x1345D40 VA: 0x181347740
+	// RVA: 0x1347A00 Offset: 0x1346000 VA: 0x181347A00
 	private static void ThrowProtocolViolation(string message) { }
 
 }
@@ -1752,7 +1752,7 @@ private class MonoChunkStream.Chunk // TypeDefIndex: 3016
 	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
 	public void .ctor(byte[] chunk) { }
 
-	// RVA: 0x132FA30 Offset: 0x132E030 VA: 0x18132FA30
+	// RVA: 0x132FCF0 Offset: 0x132E2F0 VA: 0x18132FCF0
 	public int Read(byte[] buffer, int offset, int size) { }
 
 }
@@ -1763,99 +1763,99 @@ public class MonoBehaviour : Behaviour // TypeDefIndex: 3518
 
 	// Methods
 
-	// RVA: 0x18F7010 Offset: 0x18F5610 VA: 0x1818F7010
+	// RVA: 0x18F72D0 Offset: 0x18F58D0 VA: 0x1818F72D0
 	public bool IsInvoking() { }
 
-	// RVA: 0x18F6F90 Offset: 0x18F5590 VA: 0x1818F6F90
+	// RVA: 0x18F7250 Offset: 0x18F5850 VA: 0x1818F7250
 	public void CancelInvoke() { }
 
-	// RVA: 0x18F71A0 Offset: 0x18F57A0 VA: 0x1818F71A0
+	// RVA: 0x18F7460 Offset: 0x18F5A60 VA: 0x1818F7460
 	public void Invoke(string methodName, float time) { }
 
-	// RVA: 0x18F70C0 Offset: 0x18F56C0 VA: 0x1818F70C0
+	// RVA: 0x18F7380 Offset: 0x18F5980 VA: 0x1818F7380
 	public void InvokeRepeating(string methodName, float time, float repeatRate) { }
 
-	// RVA: 0x18F6F40 Offset: 0x18F5540 VA: 0x1818F6F40
+	// RVA: 0x18F7200 Offset: 0x18F5800 VA: 0x1818F7200
 	public void CancelInvoke(string methodName) { }
 
-	// RVA: 0x18F7200 Offset: 0x18F5800 VA: 0x1818F7200
+	// RVA: 0x18F74C0 Offset: 0x18F5AC0 VA: 0x1818F74C0
 	public bool IsInvoking(string methodName) { }
 
 	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x18F7430 Offset: 0x18F5A30 VA: 0x1818F7430
+	// RVA: 0x18F76F0 Offset: 0x18F5CF0 VA: 0x1818F76F0
 	public Coroutine StartCoroutine(string methodName) { }
 
-	// RVA: 0x18F7530 Offset: 0x18F5B30 VA: 0x1818F7530
+	// RVA: 0x18F77F0 Offset: 0x18F5DF0 VA: 0x1818F77F0
 	public Coroutine StartCoroutine(string methodName, object value) { }
 
-	// RVA: 0x18F7340 Offset: 0x18F5940 VA: 0x1818F7340
+	// RVA: 0x18F7600 Offset: 0x18F5C00 VA: 0x1818F7600
 	public Coroutine StartCoroutine(IEnumerator routine) { }
 
 	[ObsoleteAttribute] // RVA: 0xC1AF0 Offset: 0xC0EF0 VA: 0x1800C1AF0
-	// RVA: 0x18F7340 Offset: 0x18F5940 VA: 0x1818F7340
+	// RVA: 0x18F7600 Offset: 0x18F5C00 VA: 0x1818F7600
 	public Coroutine StartCoroutine_Auto(IEnumerator routine) { }
 
-	// RVA: 0x18F7720 Offset: 0x18F5D20 VA: 0x1818F7720
+	// RVA: 0x18F79E0 Offset: 0x18F5FE0 VA: 0x1818F79E0
 	public void StopCoroutine(IEnumerator routine) { }
 
-	// RVA: 0x18F7860 Offset: 0x18F5E60 VA: 0x1818F7860
+	// RVA: 0x18F7B20 Offset: 0x18F6120 VA: 0x1818F7B20
 	public void StopCoroutine(Coroutine routine) { }
 
-	// RVA: 0x18F7810 Offset: 0x18F5E10 VA: 0x1818F7810
+	// RVA: 0x18F7AD0 Offset: 0x18F60D0 VA: 0x1818F7AD0
 	public void StopCoroutine(string methodName) { }
 
-	// RVA: 0x18F7640 Offset: 0x18F5C40 VA: 0x1818F7640
+	// RVA: 0x18F7900 Offset: 0x18F5F00 VA: 0x1818F7900
 	public void StopAllCoroutines() { }
 
-	// RVA: 0x18F7960 Offset: 0x18F5F60 VA: 0x1818F7960
+	// RVA: 0x18F7C20 Offset: 0x18F6220 VA: 0x1818F7C20
 	public bool get_useGUILayout() { }
 
-	// RVA: 0x18F7A00 Offset: 0x18F6000 VA: 0x1818F7A00
+	// RVA: 0x18F7CC0 Offset: 0x18F62C0 VA: 0x1818F7CC0
 	public void set_useGUILayout(bool value) { }
 
-	// RVA: 0x18F79A0 Offset: 0x18F5FA0 VA: 0x1818F79A0
+	// RVA: 0x18F7C60 Offset: 0x18F6260 VA: 0x1818F7C60
 	public static void print(object message) { }
 
 	[FreeFunctionAttribute] // RVA: 0xC1B80 Offset: 0xC0F80 VA: 0x1800C1B80
-	// RVA: 0x18F6F90 Offset: 0x18F5590 VA: 0x1818F6F90
+	// RVA: 0x18F7250 Offset: 0x18F5850 VA: 0x1818F7250
 	private static void Internal_CancelInvokeAll(MonoBehaviour self) { }
 
 	[FreeFunctionAttribute] // RVA: 0xC1C90 Offset: 0xC1090 VA: 0x1800C1C90
-	// RVA: 0x18F7010 Offset: 0x18F5610 VA: 0x1818F7010
+	// RVA: 0x18F72D0 Offset: 0x18F58D0 VA: 0x1818F72D0
 	private static bool Internal_IsInvokingAll(MonoBehaviour self) { }
 
 	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
-	// RVA: 0x18F7050 Offset: 0x18F5650 VA: 0x1818F7050
+	// RVA: 0x18F7310 Offset: 0x18F5910 VA: 0x1818F7310
 	private static void InvokeDelayed(MonoBehaviour self, string methodName, float time, float repeatRate) { }
 
 	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
-	// RVA: 0x18F6F40 Offset: 0x18F5540 VA: 0x1818F6F40
+	// RVA: 0x18F7200 Offset: 0x18F5800 VA: 0x1818F7200
 	private static void CancelInvoke(MonoBehaviour self, string methodName) { }
 
 	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
-	// RVA: 0x18F7200 Offset: 0x18F5800 VA: 0x1818F7200
+	// RVA: 0x18F74C0 Offset: 0x18F5AC0 VA: 0x1818F74C0
 	private static bool IsInvoking(MonoBehaviour self, string methodName) { }
 
 	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
-	// RVA: 0x18F7250 Offset: 0x18F5850 VA: 0x1818F7250
+	// RVA: 0x18F7510 Offset: 0x18F5B10 VA: 0x1818F7510
 	private static bool IsObjectMonoBehaviour(Object obj) { }
 
-	// RVA: 0x18F72E0 Offset: 0x18F58E0 VA: 0x1818F72E0
+	// RVA: 0x18F75A0 Offset: 0x18F5BA0 VA: 0x1818F75A0
 	private Coroutine StartCoroutineManaged(string methodName, object value) { }
 
-	// RVA: 0x18F7290 Offset: 0x18F5890 VA: 0x1818F7290
+	// RVA: 0x18F7550 Offset: 0x18F5B50 VA: 0x1818F7550
 	private Coroutine StartCoroutineManaged2(IEnumerator enumerator) { }
 
-	// RVA: 0x18F76D0 Offset: 0x18F5CD0 VA: 0x1818F76D0
+	// RVA: 0x18F7990 Offset: 0x18F5F90 VA: 0x1818F7990
 	private void StopCoroutineManaged(Coroutine routine) { }
 
-	// RVA: 0x18F7680 Offset: 0x18F5C80 VA: 0x1818F7680
+	// RVA: 0x18F7940 Offset: 0x18F5F40 VA: 0x1818F7940
 	private void StopCoroutineFromEnumeratorManaged(IEnumerator routine) { }
 
-	// RVA: 0x18F6FD0 Offset: 0x18F55D0 VA: 0x1818F6FD0
+	// RVA: 0x18F7290 Offset: 0x18F5890 VA: 0x1818F7290
 	internal string GetScriptClassName() { }
 
-	// RVA: 0x18F7950 Offset: 0x18F5F50 VA: 0x1818F7950
+	// RVA: 0x18F7C10 Offset: 0x18F6210 VA: 0x1818F7C10
 	public void .ctor() { }
 
 }
@@ -1870,10 +1870,10 @@ internal class MonoTODOAttribute : Attribute // TypeDefIndex: 3974
 
 	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
-	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0
+	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
 	public void .ctor(string comment) { }
 
 }
@@ -1881,7 +1881,7 @@ internal class MonoTODOAttribute : Attribute // TypeDefIndex: 3974
 internal class MonoPInvokeCallbackAttribute : Attribute // TypeDefIndex: 5256
 {	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 }
@@ -1889,7 +1889,7 @@ internal class MonoPInvokeCallbackAttribute : Attribute // TypeDefIndex: 5256
 internal static class Mono // TypeDefIndex: 6227
 {	// Methods
 
-	// RVA: 0x14B5A90 Offset: 0x14B4090 VA: 0x1814B5A90
+	// RVA: 0x14B5D50 Offset: 0x14B4350 VA: 0x1814B5D50
 	internal static void FixHttpsValidation() { }
 
 }
@@ -1901,7 +1901,7 @@ private sealed class Mono.<>c // TypeDefIndex: 6228
 
 	// Methods
 
-	// RVA: 0x14BD040 Offset: 0x14BB640 VA: 0x1814BD040
+	// RVA: 0x14BD300 Offset: 0x14BB900 VA: 0x1814BD300
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -1918,7 +1918,7 @@ internal class MonoPInvokeCallbackAttribute : Attribute // TypeDefIndex: 7139
 internal class MonoPInvokeCallbackAttribute : Attribute // TypeDefIndex: 7139
 	// Methods
 
-	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
+	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
 	public void .ctor() { }
 
 }
@@ -1932,31 +1932,31 @@ public abstract class MonoEncoding : Encoding // TypeDefIndex: 7373
 
 	// Methods
 
-	// RVA: 0x22AD410 Offset: 0x22ABA10 VA: 0x1822AD410
+	// RVA: 0x22AD6D0 Offset: 0x22ABCD0 VA: 0x1822AD6D0
 	public void .ctor(int codePage) { }
 
-	// RVA: 0x22AD3E0 Offset: 0x22AB9E0 VA: 0x1822AD3E0
+	// RVA: 0x22AD6A0 Offset: 0x22ABCA0 VA: 0x1822AD6A0
 	public void .ctor(int codePage, int windowsCodePage) { }
 
-	// RVA: 0x22AD430 Offset: 0x22ABA30 VA: 0x1822AD430 Slot: 11
+	// RVA: 0x22AD6F0 Offset: 0x22ABCF0 VA: 0x1822AD6F0 Slot: 11
 	public override int get_WindowsCodePage() { }
 
-	// RVA: 0x22AD150 Offset: 0x22AB750 VA: 0x1822AD150
+	// RVA: 0x22AD410 Offset: 0x22ABA10 VA: 0x1822AD410
 	public void HandleFallback(ref EncoderFallbackBuffer buffer, char* chars, ref int charIndex, ref int charCount, byte* bytes, ref int byteIndex, ref int byteCount) { }
 
-	// RVA: 0x22ACA90 Offset: 0x22AB090 VA: 0x1822ACA90 Slot: 19
+	// RVA: 0x22ACD50 Offset: 0x22AB350 VA: 0x1822ACD50 Slot: 19
 	public override int GetByteCount(char[] chars, int index, int count) { }
 
-	// RVA: 0x22ACEB0 Offset: 0x22AB4B0 VA: 0x1822ACEB0 Slot: 24
+	// RVA: 0x22AD170 Offset: 0x22AB770 VA: 0x1822AD170 Slot: 24
 	public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex) { }
 
-	// RVA: 0x22ACC20 Offset: 0x22AB220 VA: 0x1822ACC20 Slot: 26
+	// RVA: 0x22ACEE0 Offset: 0x22AB4E0 VA: 0x1822ACEE0 Slot: 26
 	public override int GetBytes(string s, int charIndex, int charCount, byte[] bytes, int byteIndex) { }
 
-	// RVA: 0x22ACC00 Offset: 0x22AB200 VA: 0x1822ACC00 Slot: 20
+	// RVA: 0x22ACEC0 Offset: 0x22AB4C0 VA: 0x1822ACEC0 Slot: 20
 	public override int GetByteCount(char* chars, int count) { }
 
-	// RVA: 0x22AD130 Offset: 0x22AB730 VA: 0x1822AD130 Slot: 28
+	// RVA: 0x22AD3F0 Offset: 0x22AB9F0 VA: 0x1822AD3F0 Slot: 28
 	public override int GetBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 	// RVA: -1 Offset: -1 Slot: 46
@@ -1973,13 +1973,13 @@ public abstract class MonoEncoder : Encoder // TypeDefIndex: 7374
 
 	// Methods
 
-	// RVA: 0x15C0D00 Offset: 0x15BF300 VA: 0x1815C0D00
+	// RVA: 0x15C0FC0 Offset: 0x15BF5C0 VA: 0x1815C0FC0
 	public void .ctor(MonoEncoding encoding) { }
 
-	// RVA: 0x22AC5D0 Offset: 0x22AABD0 VA: 0x1822AC5D0 Slot: 5
+	// RVA: 0x22AC890 Offset: 0x22AAE90 VA: 0x1822AC890 Slot: 5
 	public override int GetByteCount(char[] chars, int index, int count, bool refresh) { }
 
-	// RVA: 0x22AC750 Offset: 0x22AAD50 VA: 0x1822AC750 Slot: 7
+	// RVA: 0x22ACA10 Offset: 0x22AB010 VA: 0x1822ACA10 Slot: 7
 	public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, bool flush) { }
 
 	// RVA: -1 Offset: -1 Slot: 11
@@ -1988,10 +1988,10 @@ public abstract class MonoEncoder : Encoder // TypeDefIndex: 7374
 	// RVA: -1 Offset: -1 Slot: 12
 	public abstract int GetBytesImpl(char* chars, int charCount, byte* bytes, int byteCount, bool refresh);
 
-	// RVA: 0x22AC9D0 Offset: 0x22AAFD0 VA: 0x1822AC9D0 Slot: 8
+	// RVA: 0x22ACC90 Offset: 0x22AB290 VA: 0x1822ACC90 Slot: 8
 	public override int GetBytes(char* chars, int charCount, byte* bytes, int byteCount, bool flush) { }
 
-	// RVA: 0x22AC9F0 Offset: 0x22AAFF0 VA: 0x1822AC9F0
+	// RVA: 0x22ACCB0 Offset: 0x22AB2B0 VA: 0x1822ACCB0
 	public void HandleFallback(char* chars, ref int charIndex, ref int charCount, byte* bytes, ref int byteIndex, ref int byteCount) { }
 
 }

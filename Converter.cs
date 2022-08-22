@@ -50,55 +50,55 @@ internal sealed class Converter // TypeDefIndex: 1090
 
 	// Methods
 
-	// RVA: 0x11F1630 Offset: 0x11EFC30 VA: 0x1811F1630
+	// RVA: 0x11F18F0 Offset: 0x11EFEF0 VA: 0x1811F18F0
 	internal static InternalPrimitiveTypeE ToCode(Type type) { }
 
-	// RVA: 0x11F14C0 Offset: 0x11EFAC0 VA: 0x1811F14C0
+	// RVA: 0x11F1780 Offset: 0x11EFD80 VA: 0x1811F1780
 	internal static bool IsWriteAsByteArray(InternalPrimitiveTypeE code) { }
 
-	// RVA: 0x11F1C60 Offset: 0x11F0260 VA: 0x1811F1C60
+	// RVA: 0x11F1F20 Offset: 0x11F0520 VA: 0x1811F1F20
 	internal static int TypeLength(InternalPrimitiveTypeE code) { }
 
-	// RVA: 0x11F1530 Offset: 0x11EFB30 VA: 0x1811F1530
+	// RVA: 0x11F17F0 Offset: 0x11EFDF0 VA: 0x1811F17F0
 	internal static Type ToArrayType(InternalPrimitiveTypeE code) { }
 
-	// RVA: 0x11F0110 Offset: 0x11EE710 VA: 0x1811F0110
+	// RVA: 0x11F03D0 Offset: 0x11EE9D0 VA: 0x1811F03D0
 	private static void InitTypeA() { }
 
-	// RVA: 0x11EF700 Offset: 0x11EDD00 VA: 0x1811EF700
+	// RVA: 0x11EF9C0 Offset: 0x11EDFC0 VA: 0x1811EF9C0
 	private static void InitArrayTypeA() { }
 
-	// RVA: 0x11F1B60 Offset: 0x11F0160 VA: 0x1811F1B60
+	// RVA: 0x11F1E20 Offset: 0x11F0420 VA: 0x1811F1E20
 	internal static Type ToType(InternalPrimitiveTypeE code) { }
 
-	// RVA: 0x11EF420 Offset: 0x11EDA20 VA: 0x1811EF420
+	// RVA: 0x11EF6E0 Offset: 0x11EDCE0 VA: 0x1811EF6E0
 	internal static Array CreatePrimitiveArray(InternalPrimitiveTypeE code, int length) { }
 
-	// RVA: 0x11F1170 Offset: 0x11EF770 VA: 0x1811F1170
+	// RVA: 0x11F1430 Offset: 0x11EFA30 VA: 0x1811F1430
 	internal static bool IsPrimitiveArray(Type type, out object typeInformation) { }
 
-	// RVA: 0x11F0AC0 Offset: 0x11EF0C0 VA: 0x1811F0AC0
+	// RVA: 0x11F0D80 Offset: 0x11EF380 VA: 0x1811F0D80
 	private static void InitValueA() { }
 
-	// RVA: 0x11F1880 Offset: 0x11EFE80 VA: 0x1811F1880
+	// RVA: 0x11F1B40 Offset: 0x11F0140 VA: 0x1811F1B40
 	internal static string ToComType(InternalPrimitiveTypeE code) { }
 
-	// RVA: 0x11F0820 Offset: 0x11EEE20 VA: 0x1811F0820
+	// RVA: 0x11F0AE0 Offset: 0x11EF0E0 VA: 0x1811F0AE0
 	private static void InitTypeCodeA() { }
 
-	// RVA: 0x11F1A70 Offset: 0x11F0070 VA: 0x1811F1A70
+	// RVA: 0x11F1D30 Offset: 0x11F0330 VA: 0x1811F1D30
 	internal static TypeCode ToTypeCode(InternalPrimitiveTypeE code) { }
 
-	// RVA: 0x11EFE30 Offset: 0x11EE430 VA: 0x1811EFE30
+	// RVA: 0x11F00F0 Offset: 0x11EE6F0 VA: 0x1811F00F0
 	private static void InitCodeA() { }
 
-	// RVA: 0x11F1980 Offset: 0x11EFF80 VA: 0x1811F1980
+	// RVA: 0x11F1C40 Offset: 0x11F0240 VA: 0x1811F1C40
 	internal static InternalPrimitiveTypeE ToPrimitiveTypeEnum(TypeCode typeCode) { }
 
-	// RVA: 0x11EF550 Offset: 0x11EDB50 VA: 0x1811EF550
+	// RVA: 0x11EF810 Offset: 0x11EDE10 VA: 0x1811EF810
 	internal static object FromString(string value, InternalPrimitiveTypeE code) { }
 
-	// RVA: 0x11F1CE0 Offset: 0x11F02E0 VA: 0x1811F1CE0
+	// RVA: 0x11F1FA0 Offset: 0x11F05A0 VA: 0x1811F1FA0
 	private static void .cctor() { }
 
 }

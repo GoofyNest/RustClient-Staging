@@ -31,34 +31,34 @@ public sealed class NavMeshPath // TypeDefIndex: 4444
 public static class NavMeshBuilder // TypeDefIndex: 4445
 {	// Methods
 
-	// RVA: 0x22FC220 Offset: 0x22FA820 VA: 0x1822FC220
+	// RVA: 0x22FC4E0 Offset: 0x22FAAE0 VA: 0x1822FC4E0
 	public static void CollectSources(Bounds includedWorldBounds, int includedLayerMask, NavMeshCollectGeometry geometry, int defaultArea, List<NavMeshBuildMarkup> markups, List<NavMeshBuildSource> results) { }
 
-	// RVA: 0x22FC470 Offset: 0x22FAA70 VA: 0x1822FC470
+	// RVA: 0x22FC730 Offset: 0x22FAD30 VA: 0x1822FC730
 	public static void CollectSources(Transform root, int includedLayerMask, NavMeshCollectGeometry geometry, int defaultArea, List<NavMeshBuildMarkup> markups, List<NavMeshBuildSource> results) { }
 
-	// RVA: 0x22FC1A0 Offset: 0x22FA7A0 VA: 0x1822FC1A0
+	// RVA: 0x22FC460 Offset: 0x22FAA60 VA: 0x1822FC460
 	private static NavMeshBuildSource[] CollectSourcesInternal(int includedLayerMask, Bounds includedWorldBounds, Transform root, bool useBounds, NavMeshCollectGeometry geometry, int defaultArea, NavMeshBuildMarkup[] markups) { }
 
-	// RVA: 0x22FBF20 Offset: 0x22FA520 VA: 0x1822FBF20
+	// RVA: 0x22FC1E0 Offset: 0x22FA7E0 VA: 0x1822FC1E0
 	public static NavMeshData BuildNavMeshData(NavMeshBuildSettings buildSettings, List<NavMeshBuildSource> sources, Bounds localBounds, Vector3 position, Quaternion rotation) { }
 
-	// RVA: 0x22FC8A0 Offset: 0x22FAEA0 VA: 0x1822FC8A0
+	// RVA: 0x22FCB60 Offset: 0x22FB160 VA: 0x1822FCB60
 	private static bool UpdateNavMeshDataListInternal(NavMeshData data, NavMeshBuildSettings buildSettings, object sources, Bounds localBounds) { }
 
-	// RVA: 0x22FC6D0 Offset: 0x22FACD0 VA: 0x1822FC6D0
+	// RVA: 0x22FC990 Offset: 0x22FAF90 VA: 0x1822FC990
 	public static AsyncOperation UpdateNavMeshDataAsync(NavMeshData data, NavMeshBuildSettings buildSettings, List<NavMeshBuildSource> sources, Bounds localBounds) { }
 
-	// RVA: 0x22FC660 Offset: 0x22FAC60 VA: 0x1822FC660
+	// RVA: 0x22FC920 Offset: 0x22FAF20 VA: 0x1822FC920
 	private static AsyncOperation UpdateNavMeshDataAsyncListInternal(NavMeshData data, NavMeshBuildSettings buildSettings, object sources, Bounds localBounds) { }
 
-	// RVA: 0x22FC130 Offset: 0x22FA730 VA: 0x1822FC130
+	// RVA: 0x22FC3F0 Offset: 0x22FA9F0 VA: 0x1822FC3F0
 	private static NavMeshBuildSource[] CollectSourcesInternal_Injected(int includedLayerMask, ref Bounds includedWorldBounds, Transform root, bool useBounds, NavMeshCollectGeometry geometry, int defaultArea, NavMeshBuildMarkup[] markups) { }
 
-	// RVA: 0x22FC830 Offset: 0x22FAE30 VA: 0x1822FC830
+	// RVA: 0x22FCAF0 Offset: 0x22FB0F0 VA: 0x1822FCAF0
 	private static bool UpdateNavMeshDataListInternal_Injected(NavMeshData data, ref NavMeshBuildSettings buildSettings, object sources, ref Bounds localBounds) { }
 
-	// RVA: 0x22FC5F0 Offset: 0x22FABF0 VA: 0x1822FC5F0
+	// RVA: 0x22FC8B0 Offset: 0x22FAEB0 VA: 0x1822FC8B0
 	private static AsyncOperation UpdateNavMeshDataAsyncListInternal_Injected(NavMeshData data, ref NavMeshBuildSettings buildSettings, object sources, ref Bounds localBounds) { }
 
 }
@@ -70,7 +70,7 @@ public sealed class NavMeshAgent : Behaviour // TypeDefIndex: 4446
 	// Methods
 
 	[NativeNameAttribute] // RVA: 0xB3DA0 Offset: 0xB31A0 VA: 0x1800B3DA0
-	// RVA: 0x22FBBE0 Offset: 0x22FA1E0 VA: 0x1822FBBE0
+	// RVA: 0x22FBEA0 Offset: 0x22FA4A0 VA: 0x1822FBEA0
 	public bool get_isOnOffMeshLink() { }
 
 }
@@ -108,23 +108,23 @@ public sealed class NavMeshData : Object // TypeDefIndex: 4449
 
 	// Methods
 
-	// RVA: 0x22FCAC0 Offset: 0x22FB0C0 VA: 0x1822FCAC0
+	// RVA: 0x22FCD80 Offset: 0x22FB380 VA: 0x1822FCD80
 	public void .ctor(int agentTypeID) { }
 
 	[StaticAccessorAttribute] // RVA: 0xB4070 Offset: 0xB3470 VA: 0x1800B4070
-	// RVA: 0x22FCA80 Offset: 0x22FB080 VA: 0x1822FCA80
+	// RVA: 0x22FCD40 Offset: 0x22FB340 VA: 0x1822FCD40
 	private static void Internal_Create(NavMeshData mono, int agentTypeID) { }
 
-	// RVA: 0x22FCBA0 Offset: 0x22FB1A0 VA: 0x1822FCBA0
+	// RVA: 0x22FCE60 Offset: 0x22FB460 VA: 0x1822FCE60
 	public void set_position(Vector3 value) { }
 
-	// RVA: 0x22FCC40 Offset: 0x22FB240 VA: 0x1822FCC40
+	// RVA: 0x22FCF00 Offset: 0x22FB500 VA: 0x1822FCF00
 	public void set_rotation(Quaternion value) { }
 
-	// RVA: 0x22FCB50 Offset: 0x22FB150 VA: 0x1822FCB50
+	// RVA: 0x22FCE10 Offset: 0x22FB410 VA: 0x1822FCE10
 	private void set_position_Injected(ref Vector3 value) { }
 
-	// RVA: 0x22FCBF0 Offset: 0x22FB1F0 VA: 0x1822FCBF0
+	// RVA: 0x22FCEB0 Offset: 0x22FB4B0 VA: 0x1822FCEB0
 	private void set_rotation_Injected(ref Quaternion value) { }
 
 }
@@ -259,72 +259,72 @@ public static class NavMesh // TypeDefIndex: 4454
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22FD310 Offset: 0x22FB910 VA: 0x1822FD310
+	// RVA: 0x22FD5D0 Offset: 0x22FBBD0 VA: 0x1822FD5D0
 	private static void Internal_CallOnNavMeshPreUpdate() { }
 
-	// RVA: 0x22FD140 Offset: 0x22FB740 VA: 0x1822FD140
+	// RVA: 0x22FD400 Offset: 0x22FBA00 VA: 0x1822FD400
 	public static NavMeshDataInstance AddNavMeshData(NavMeshData navMeshData) { }
 
-	// RVA: 0x22FD050 Offset: 0x22FB650 VA: 0x1822FD050
+	// RVA: 0x22FD310 Offset: 0x22FB910 VA: 0x1822FD310
 	public static NavMeshDataInstance AddNavMeshData(NavMeshData navMeshData, Vector3 position, Quaternion rotation) { }
 
 	[StaticAccessorAttribute] // RVA: 0xB4C40 Offset: 0xB4040 VA: 0x1800B4C40
 	[NativeNameAttribute] // RVA: 0xB4C40 Offset: 0xB4040 VA: 0x1800B4C40
-	// RVA: 0x22FD3A0 Offset: 0x22FB9A0 VA: 0x1822FD3A0
+	// RVA: 0x22FD660 Offset: 0x22FBC60 VA: 0x1822FD660
 	internal static bool IsValidNavMeshDataHandle(int handle) { }
 
 	[StaticAccessorAttribute] // RVA: 0xB4EC0 Offset: 0xB42C0 VA: 0x1800B4EC0
-	// RVA: 0x22FD360 Offset: 0x22FB960 VA: 0x1822FD360
+	// RVA: 0x22FD620 Offset: 0x22FBC20 VA: 0x1822FD620
 	internal static bool IsValidLinkHandle(int handle) { }
 
 	[StaticAccessorAttribute] // RVA: 0xB6320 Offset: 0xB5720 VA: 0x1800B6320
 	[NativeNameAttribute] // RVA: 0xB6320 Offset: 0xB5720 VA: 0x1800B6320
-	// RVA: 0x22FD2D0 Offset: 0x22FB8D0 VA: 0x1822FD2D0
+	// RVA: 0x22FD590 Offset: 0x22FBB90 VA: 0x1822FD590
 	internal static bool InternalSetOwner(int dataID, int ownerID) { }
 
 	[StaticAccessorAttribute] // RVA: 0xB6560 Offset: 0xB5960 VA: 0x1800B6560
 	[NativeNameAttribute] // RVA: 0xB6560 Offset: 0xB5960 VA: 0x1800B6560
-	// RVA: 0x22FD290 Offset: 0x22FB890 VA: 0x1822FD290
+	// RVA: 0x22FD550 Offset: 0x22FBB50 VA: 0x1822FD550
 	internal static bool InternalSetLinkOwner(int linkID, int ownerID) { }
 
 	[StaticAccessorAttribute] // RVA: 0xB67D0 Offset: 0xB5BD0 VA: 0x1800B67D0
 	[NativeNameAttribute] // RVA: 0xB67D0 Offset: 0xB5BD0 VA: 0x1800B67D0
-	// RVA: 0x22FCF50 Offset: 0x22FB550 VA: 0x1822FCF50
+	// RVA: 0x22FD210 Offset: 0x22FB810 VA: 0x1822FD210
 	internal static int AddNavMeshDataInternal(NavMeshData navMeshData) { }
 
 	[StaticAccessorAttribute] // RVA: 0xB67D0 Offset: 0xB5BD0 VA: 0x1800B67D0
 	[NativeNameAttribute] // RVA: 0xB67D0 Offset: 0xB5BD0 VA: 0x1800B67D0
-	// RVA: 0x22FCFF0 Offset: 0x22FB5F0 VA: 0x1822FCFF0
+	// RVA: 0x22FD2B0 Offset: 0x22FB8B0 VA: 0x1822FD2B0
 	internal static int AddNavMeshDataTransformedInternal(NavMeshData navMeshData, Vector3 position, Quaternion rotation) { }
 
 	[NativeNameAttribute] // RVA: 0xB6A50 Offset: 0xB5E50 VA: 0x1800B6A50
 	[StaticAccessorAttribute] // RVA: 0xB6A50 Offset: 0xB5E50 VA: 0x1800B6A50
-	// RVA: 0x22FD420 Offset: 0x22FBA20 VA: 0x1822FD420
+	// RVA: 0x22FD6E0 Offset: 0x22FBCE0 VA: 0x1822FD6E0
 	internal static void RemoveNavMeshDataInternal(int handle) { }
 
-	// RVA: 0x22FCED0 Offset: 0x22FB4D0 VA: 0x1822FCED0
+	// RVA: 0x22FD190 Offset: 0x22FB790 VA: 0x1822FD190
 	public static NavMeshLinkInstance AddLink(NavMeshLinkData link, Vector3 position, Quaternion rotation) { }
 
 	[NativeNameAttribute] // RVA: 0xB6B40 Offset: 0xB5F40 VA: 0x1800B6B40
 	[StaticAccessorAttribute] // RVA: 0xB6B40 Offset: 0xB5F40 VA: 0x1800B6B40
-	// RVA: 0x22FCE70 Offset: 0x22FB470 VA: 0x1822FCE70
+	// RVA: 0x22FD130 Offset: 0x22FB730 VA: 0x1822FD130
 	internal static int AddLinkInternal(NavMeshLinkData link, Vector3 position, Quaternion rotation) { }
 
 	[StaticAccessorAttribute] // RVA: 0xB6CC0 Offset: 0xB60C0 VA: 0x1800B6CC0
 	[NativeNameAttribute] // RVA: 0xB6CC0 Offset: 0xB60C0 VA: 0x1800B6CC0
-	// RVA: 0x22FD3E0 Offset: 0x22FB9E0 VA: 0x1822FD3E0
+	// RVA: 0x22FD6A0 Offset: 0x22FBCA0 VA: 0x1822FD6A0
 	internal static void RemoveLinkInternal(int handle) { }
 
-	// RVA: 0x22FD230 Offset: 0x22FB830 VA: 0x1822FD230
+	// RVA: 0x22FD4F0 Offset: 0x22FBAF0 VA: 0x1822FD4F0
 	public static NavMeshBuildSettings GetSettingsByID(int agentTypeID) { }
 
-	// RVA: 0x22FCF90 Offset: 0x22FB590 VA: 0x1822FCF90
+	// RVA: 0x22FD250 Offset: 0x22FB850 VA: 0x1822FD250
 	private static int AddNavMeshDataTransformedInternal_Injected(NavMeshData navMeshData, ref Vector3 position, ref Quaternion rotation) { }
 
-	// RVA: 0x22FCE10 Offset: 0x22FB410 VA: 0x1822FCE10
+	// RVA: 0x22FD0D0 Offset: 0x22FB6D0 VA: 0x1822FD0D0
 	private static int AddLinkInternal_Injected(ref NavMeshLinkData link, ref Vector3 position, ref Quaternion rotation) { }
 
-	// RVA: 0x22FD1F0 Offset: 0x22FB7F0 VA: 0x1822FD1F0
+	// RVA: 0x22FD4B0 Offset: 0x22FBAB0 VA: 0x1822FD4B0
 	private static void GetSettingsByID_Injected(int agentTypeID, out NavMeshBuildSettings ret) { }
 
 }
@@ -335,7 +335,7 @@ public sealed class NavMesh.OnNavMeshPreUpdate : MulticastDelegate // TypeDefInd
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1A85AC0 Offset: 0x1A840C0 VA: 0x181A85AC0 Slot: 12
+	// RVA: 0x1A85D80 Offset: 0x1A84380 VA: 0x181A85D80 Slot: 12
 	public virtual void Invoke() { }
 
 	// RVA: 0x49A190 Offset: 0x498790 VA: 0x18049A190 Slot: 13
@@ -416,11 +416,11 @@ public struct NavMeshBuildSource // TypeDefIndex: 4458
 	public Component get_component() { }
 
 	[StaticAccessorAttribute] // RVA: 0xB7030 Offset: 0xB6430 VA: 0x1800B7030
-	// RVA: 0x22FBD00 Offset: 0x22FA300 VA: 0x1822FBD00
+	// RVA: 0x22FBFC0 Offset: 0x22FA5C0 VA: 0x1822FBFC0
 	private static Component InternalGetComponent(int instanceID) { }
 
 	[StaticAccessorAttribute] // RVA: 0xB7030 Offset: 0xB6430 VA: 0x1800B7030
-	// RVA: 0x22FBD40 Offset: 0x22FA340 VA: 0x1822FBD40
+	// RVA: 0x22FC000 Offset: 0x22FA600 VA: 0x1822FC000
 	private static Object InternalGetObject(int instanceID) { }
 
 }
@@ -545,95 +545,95 @@ public class NavMeshLink : MonoBehaviour // TypeDefIndex: 8143
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
+	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
 	public bool get_UpdateOnTransformChanged() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FA00 Offset: 0x95E000 VA: 0x18095FA00
+	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10
 	public void set_UpdateOnTransformChanged(bool value) { }
 
 	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
 	public int get_agentTypeID() { }
 
-	// RVA: 0x12CCDF0 Offset: 0x12CB3F0 VA: 0x1812CCDF0
+	// RVA: 0x12CD0B0 Offset: 0x12CB6B0 VA: 0x1812CD0B0
 	public void set_agentTypeID(int value) { }
 
-	// RVA: 0x12CCDD0 Offset: 0x12CB3D0 VA: 0x1812CCDD0
+	// RVA: 0x12CD090 Offset: 0x12CB690 VA: 0x1812CD090
 	public Vector3 get_startPoint() { }
 
-	// RVA: 0x12CCEF0 Offset: 0x12CB4F0 VA: 0x1812CCEF0
+	// RVA: 0x12CD1B0 Offset: 0x12CB7B0 VA: 0x1812CD1B0
 	public void set_startPoint(Vector3 value) { }
 
-	// RVA: 0x12CCDB0 Offset: 0x12CB3B0 VA: 0x1812CCDB0
+	// RVA: 0x12CD070 Offset: 0x12CB670 VA: 0x1812CD070
 	public Vector3 get_endPoint() { }
 
-	// RVA: 0x12CCEB0 Offset: 0x12CB4B0 VA: 0x1812CCEB0
+	// RVA: 0x12CD170 Offset: 0x12CB770 VA: 0x1812CD170
 	public void set_endPoint(Vector3 value) { }
 
-	// RVA: 0x10B7E20 Offset: 0x10B6420 VA: 0x1810B7E20
+	// RVA: 0x10B80E0 Offset: 0x10B66E0 VA: 0x1810B80E0
 	public float get_width() { }
 
-	// RVA: 0x12CCF30 Offset: 0x12CB530 VA: 0x1812CCF30
+	// RVA: 0x12CD1F0 Offset: 0x12CB7F0 VA: 0x1812CD1F0
 	public void set_width(float value) { }
 
 	// RVA: 0x5E2F50 Offset: 0x5E1550 VA: 0x1805E2F50
 	public int get_costModifier() { }
 
-	// RVA: 0x12CCE80 Offset: 0x12CB480 VA: 0x1812CCE80
+	// RVA: 0x12CD140 Offset: 0x12CB740 VA: 0x1812CD140
 	public void set_costModifier(int value) { }
 
-	// RVA: 0x8054F0 Offset: 0x803AF0 VA: 0x1808054F0
+	// RVA: 0x805600 Offset: 0x803C00 VA: 0x180805600
 	public bool get_bidirectional() { }
 
-	// RVA: 0x12CCE50 Offset: 0x12CB450 VA: 0x1812CCE50
+	// RVA: 0x12CD110 Offset: 0x12CB710 VA: 0x1812CD110
 	public void set_bidirectional(bool value) { }
 
-	// RVA: 0xEE6E90 Offset: 0xEE5490 VA: 0x180EE6E90
+	// RVA: 0xEE7150 Offset: 0xEE5750 VA: 0x180EE7150
 	public bool get_autoUpdate() { }
 
-	// RVA: 0x12CCA30 Offset: 0x12CB030 VA: 0x1812CCA30
+	// RVA: 0x12CCCF0 Offset: 0x12CB2F0 VA: 0x1812CCCF0
 	public void set_autoUpdate(bool value) { }
 
 	// RVA: 0x5DE450 Offset: 0x5DCA50 VA: 0x1805DE450
 	public int get_area() { }
 
-	// RVA: 0x12CCE20 Offset: 0x12CB420 VA: 0x1812CCE20
+	// RVA: 0x12CD0E0 Offset: 0x12CB6E0 VA: 0x1812CD0E0
 	public void set_area(int value) { }
 
-	// RVA: 0x12CC880 Offset: 0x12CAE80 VA: 0x1812CC880
+	// RVA: 0x12CCB40 Offset: 0x12CB140 VA: 0x1812CCB40
 	private void OnEnable() { }
 
-	// RVA: 0x12CC820 Offset: 0x12CAE20 VA: 0x1812CC820
+	// RVA: 0x12CCAE0 Offset: 0x12CB0E0 VA: 0x1812CCAE0
 	private void OnDisable() { }
 
-	// RVA: 0x12CC7F0 Offset: 0x12CADF0 VA: 0x1812CC7F0
+	// RVA: 0x12CCAB0 Offset: 0x12CB0B0 VA: 0x1812CCAB0
 	public void UpdateLink() { }
 
-	// RVA: 0x12CC560 Offset: 0x12CAB60 VA: 0x1812CC560
+	// RVA: 0x12CC820 Offset: 0x12CAE20 VA: 0x1812CC820
 	private static void AddTracking(NavMeshLink link) { }
 
-	// RVA: 0x12CC900 Offset: 0x12CAF00 VA: 0x1812CC900
+	// RVA: 0x12CCBC0 Offset: 0x12CB1C0 VA: 0x1812CCBC0
 	private static void RemoveTracking(NavMeshLink link) { }
 
-	// RVA: 0x12CCA30 Offset: 0x12CB030 VA: 0x1812CCA30
+	// RVA: 0x12CCCF0 Offset: 0x12CB2F0 VA: 0x1812CCCF0
 	private void SetAutoUpdate(bool value) { }
 
-	// RVA: 0x12CC350 Offset: 0x12CA950 VA: 0x1812CC350
+	// RVA: 0x12CC610 Offset: 0x12CAC10 VA: 0x1812CC610
 	private void AddLink() { }
 
-	// RVA: 0x12CC6B0 Offset: 0x12CACB0 VA: 0x1812CC6B0
+	// RVA: 0x12CC970 Offset: 0x12CAF70 VA: 0x1812CC970
 	private bool HasTransformChanged() { }
 
-	// RVA: 0x12CC7F0 Offset: 0x12CADF0 VA: 0x1812CC7F0
+	// RVA: 0x12CCAB0 Offset: 0x12CB0B0 VA: 0x1812CCAB0
 	private void OnDidApplyAnimationProperties() { }
 
-	// RVA: 0x12CCAD0 Offset: 0x12CB0D0 VA: 0x1812CCAD0
+	// RVA: 0x12CCD90 Offset: 0x12CB390 VA: 0x1812CCD90
 	private static void UpdateTrackedInstances() { }
 
-	// RVA: 0x12CCC90 Offset: 0x12CB290 VA: 0x1812CCC90
+	// RVA: 0x12CCF50 Offset: 0x12CB550 VA: 0x1812CCF50
 	public void .ctor() { }
 
-	// RVA: 0x12CCC30 Offset: 0x12CB230 VA: 0x1812CCC30
+	// RVA: 0x12CCEF0 Offset: 0x12CB4F0 VA: 0x1812CCEF0
 	private static void .cctor() { }
 
 }
@@ -658,40 +658,40 @@ public class NavMeshModifier : MonoBehaviour // TypeDefIndex: 8144
 
 	// Methods
 
-	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
+	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
 	public bool get_overrideArea() { }
 
-	// RVA: 0x95FA00 Offset: 0x95E000 VA: 0x18095FA00
+	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10
 	public void set_overrideArea(bool value) { }
 
 	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
 	public int get_area() { }
 
-	// RVA: 0x95F9F0 Offset: 0x95DFF0 VA: 0x18095F9F0
+	// RVA: 0x95FB00 Offset: 0x95E100 VA: 0x18095FB00
 	public void set_area(int value) { }
 
-	// RVA: 0xB103F0 Offset: 0xB0E9F0 VA: 0x180B103F0
+	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0
 	public bool get_ignoreFromBuild() { }
 
-	// RVA: 0x7F9AE0 Offset: 0x7F80E0 VA: 0x1807F9AE0
+	// RVA: 0x7F9BF0 Offset: 0x7F81F0 VA: 0x1807F9BF0
 	public void set_ignoreFromBuild(bool value) { }
 
-	// RVA: 0x12CD700 Offset: 0x12CBD00 VA: 0x1812CD700
+	// RVA: 0x12CD9C0 Offset: 0x12CBFC0 VA: 0x1812CD9C0
 	public static List<NavMeshModifier> get_activeModifiers() { }
 
-	// RVA: 0x12CD510 Offset: 0x12CBB10 VA: 0x1812CD510
+	// RVA: 0x12CD7D0 Offset: 0x12CBDD0 VA: 0x1812CD7D0
 	private void OnEnable() { }
 
-	// RVA: 0x12CD490 Offset: 0x12CBA90 VA: 0x1812CD490
+	// RVA: 0x12CD750 Offset: 0x12CBD50 VA: 0x1812CD750
 	private void OnDisable() { }
 
-	// RVA: 0x12CD3F0 Offset: 0x12CB9F0 VA: 0x1812CD3F0
+	// RVA: 0x12CD6B0 Offset: 0x12CBCB0 VA: 0x1812CD6B0
 	public bool AffectsAgentType(int agentTypeID) { }
 
-	// RVA: 0x12CD640 Offset: 0x12CBC40 VA: 0x1812CD640
+	// RVA: 0x12CD900 Offset: 0x12CBF00 VA: 0x1812CD900
 	public void .ctor() { }
 
-	// RVA: 0x12CD5E0 Offset: 0x12CBBE0 VA: 0x1812CD5E0
+	// RVA: 0x12CD8A0 Offset: 0x12CBEA0 VA: 0x1812CD8A0
 	private static void .cctor() { }
 
 }
@@ -716,46 +716,46 @@ public class NavMeshModifierVolume : MonoBehaviour // TypeDefIndex: 8145
 
 	// Methods
 
-	// RVA: 0x12CD3C0 Offset: 0x12CB9C0 VA: 0x1812CD3C0
+	// RVA: 0x12CD680 Offset: 0x12CBC80 VA: 0x1812CD680
 	public Vector3 get_size() { }
 
-	// RVA: 0x12CD3E0 Offset: 0x12CB9E0 VA: 0x1812CD3E0
+	// RVA: 0x12CD6A0 Offset: 0x12CBCA0 VA: 0x1812CD6A0
 	public void set_size(Vector3 value) { }
 
-	// RVA: 0x10745E0 Offset: 0x1072BE0 VA: 0x1810745E0
+	// RVA: 0x10748A0 Offset: 0x1072EA0 VA: 0x1810748A0
 	public Vector3 get_center() { }
 
-	// RVA: 0x10747C0 Offset: 0x1072DC0 VA: 0x1810747C0
+	// RVA: 0x1074A80 Offset: 0x1073080 VA: 0x181074A80
 	public void set_center(Vector3 value) { }
 
-	// RVA: 0xA38CE0 Offset: 0xA372E0 VA: 0x180A38CE0
+	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
 	public int get_area() { }
 
-	// RVA: 0xA392A0 Offset: 0xA378A0 VA: 0x180A392A0
+	// RVA: 0xA39560 Offset: 0xA37B60 VA: 0x180A39560
 	public void set_area(int value) { }
 
-	// RVA: 0x12CD360 Offset: 0x12CB960 VA: 0x1812CD360
+	// RVA: 0x12CD620 Offset: 0x12CBC20 VA: 0x1812CD620
 	public static List<NavMeshModifierVolume> get_activeModifiers() { }
 
-	// RVA: 0x12CD140 Offset: 0x12CB740 VA: 0x1812CD140
+	// RVA: 0x12CD400 Offset: 0x12CBA00 VA: 0x1812CD400
 	private void OnEnable() { }
 
-	// RVA: 0x12CD0C0 Offset: 0x12CB6C0 VA: 0x1812CD0C0
+	// RVA: 0x12CD380 Offset: 0x12CB980 VA: 0x1812CD380
 	private void OnDisable() { }
 
-	// RVA: 0x12CCFD0 Offset: 0x12CB5D0 VA: 0x1812CCFD0
+	// RVA: 0x12CD290 Offset: 0x12CB890 VA: 0x1812CD290
 	public bool AffectsAgentType(int agentTypeID) { }
 
-	// RVA: 0x12CCF60 Offset: 0x12CB560 VA: 0x1812CCF60
+	// RVA: 0x12CD220 Offset: 0x12CB820 VA: 0x1812CD220
 	public void AddAgentType(int agentTypeID) { }
 
-	// RVA: 0x12CD070 Offset: 0x12CB670 VA: 0x1812CD070
+	// RVA: 0x12CD330 Offset: 0x12CB930 VA: 0x1812CD330
 	public void ClearAgentTypes() { }
 
-	// RVA: 0x12CD270 Offset: 0x12CB870 VA: 0x1812CD270
+	// RVA: 0x12CD530 Offset: 0x12CBB30 VA: 0x1812CD530
 	public void .ctor() { }
 
-	// RVA: 0x12CD210 Offset: 0x12CB810 VA: 0x1812CD210
+	// RVA: 0x12CD4D0 Offset: 0x12CBAD0 VA: 0x1812CD4D0
 	private static void .cctor() { }
 
 }
@@ -822,41 +822,41 @@ public class NavMeshSurface : MonoBehaviour // TypeDefIndex: 8147
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
+	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
 	public bool get_UpdateOnTransformChanged() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FA00 Offset: 0x95E000 VA: 0x18095FA00
+	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10
 	public void set_UpdateOnTransformChanged(bool value) { }
 
 	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
 	public int get_agentTypeID() { }
 
-	// RVA: 0x95F9F0 Offset: 0x95DFF0 VA: 0x18095F9F0
+	// RVA: 0x95FB00 Offset: 0x95E100 VA: 0x18095FB00
 	public void set_agentTypeID(int value) { }
 
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	public CollectObjects get_collectObjects() { }
 
-	// RVA: 0x69D620 Offset: 0x69BC20 VA: 0x18069D620
+	// RVA: 0x69D730 Offset: 0x69BD30 VA: 0x18069D730
 	public void set_collectObjects(CollectObjects value) { }
 
-	// RVA: 0x10745E0 Offset: 0x1072BE0 VA: 0x1810745E0
+	// RVA: 0x10748A0 Offset: 0x1072EA0 VA: 0x1810748A0
 	public Vector3 get_size() { }
 
-	// RVA: 0x10747C0 Offset: 0x1072DC0 VA: 0x1810747C0
+	// RVA: 0x1074A80 Offset: 0x1073080 VA: 0x181074A80
 	public void set_size(Vector3 value) { }
 
-	// RVA: 0x12D0CC0 Offset: 0x12CF2C0 VA: 0x1812D0CC0
+	// RVA: 0x12D0F80 Offset: 0x12CF580 VA: 0x1812D0F80
 	public Vector3 get_center() { }
 
-	// RVA: 0x12D0CE0 Offset: 0x12CF2E0 VA: 0x1812D0CE0
+	// RVA: 0x12D0FA0 Offset: 0x12CF5A0 VA: 0x1812D0FA0
 	public void set_center(Vector3 value) { }
 
 	// RVA: 0x5E2F50 Offset: 0x5E1550 VA: 0x1805E2F50
 	public LayerMask get_layerMask() { }
 
-	// RVA: 0x8C1070 Offset: 0x8BF670 VA: 0x1808C1070
+	// RVA: 0x8C1180 Offset: 0x8BF780 VA: 0x1808C1180
 	public void set_layerMask(LayerMask value) { }
 
 	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
@@ -868,7 +868,7 @@ public class NavMeshSurface : MonoBehaviour // TypeDefIndex: 8147
 	// RVA: 0x5DE450 Offset: 0x5DCA50 VA: 0x1805DE450
 	public int get_defaultArea() { }
 
-	// RVA: 0x8C0D00 Offset: 0x8BF300 VA: 0x1808C0D00
+	// RVA: 0x8C0E10 Offset: 0x8BF410 VA: 0x1808C0E10
 	public void set_defaultArea(int value) { }
 
 	// RVA: 0x4BC3E0 Offset: 0x4BA9E0 VA: 0x1804BC3E0
@@ -877,16 +877,16 @@ public class NavMeshSurface : MonoBehaviour // TypeDefIndex: 8147
 	// RVA: 0x4BC5E0 Offset: 0x4BABE0 VA: 0x1804BC5E0
 	public void set_ignoreNavMeshAgent(bool value) { }
 
-	// RVA: 0xBA1AA0 Offset: 0xBA00A0 VA: 0x180BA1AA0
+	// RVA: 0xBA1D60 Offset: 0xBA0360 VA: 0x180BA1D60
 	public bool get_ignoreNavMeshObstacle() { }
 
-	// RVA: 0x82D7F0 Offset: 0x82BDF0 VA: 0x18082D7F0
+	// RVA: 0x82D900 Offset: 0x82BF00 VA: 0x18082D900
 	public void set_ignoreNavMeshObstacle(bool value) { }
 
-	// RVA: 0xBA1A90 Offset: 0xBA0090 VA: 0x180BA1A90
+	// RVA: 0xBA1D50 Offset: 0xBA0350 VA: 0x180BA1D50
 	public bool get_overrideTileSize() { }
 
-	// RVA: 0x12387E0 Offset: 0x1236DE0 VA: 0x1812387E0
+	// RVA: 0x1238AA0 Offset: 0x12370A0 VA: 0x181238AA0
 	public void set_overrideTileSize(bool value) { }
 
 	// RVA: 0x599D40 Offset: 0x598340 VA: 0x180599D40
@@ -895,16 +895,16 @@ public class NavMeshSurface : MonoBehaviour // TypeDefIndex: 8147
 	// RVA: 0x59A0F0 Offset: 0x5986F0 VA: 0x18059A0F0
 	public void set_tileSize(int value) { }
 
-	// RVA: 0x77B0E0 Offset: 0x7796E0 VA: 0x18077B0E0
+	// RVA: 0x77B1F0 Offset: 0x7797F0 VA: 0x18077B1F0
 	public bool get_overrideVoxelSize() { }
 
-	// RVA: 0xE68DF0 Offset: 0xE673F0 VA: 0x180E68DF0
+	// RVA: 0xE690B0 Offset: 0xE676B0 VA: 0x180E690B0
 	public void set_overrideVoxelSize(bool value) { }
 
-	// RVA: 0xFCF350 Offset: 0xFCD950 VA: 0x180FCF350
+	// RVA: 0xFCF610 Offset: 0xFCDC10 VA: 0x180FCF610
 	public float get_voxelSize() { }
 
-	// RVA: 0x12D0CF0 Offset: 0x12CF2F0 VA: 0x1812D0CF0
+	// RVA: 0x12D0FB0 Offset: 0x12CF5B0 VA: 0x1812D0FB0
 	public void set_voxelSize(float value) { }
 
 	// RVA: 0x592630 Offset: 0x590C30 VA: 0x180592630
@@ -919,73 +919,73 @@ public class NavMeshSurface : MonoBehaviour // TypeDefIndex: 8147
 	// RVA: 0x536330 Offset: 0x534930 VA: 0x180536330
 	public void set_navMeshData(NavMeshData value) { }
 
-	// RVA: 0x12D0C60 Offset: 0x12CF260 VA: 0x1812D0C60
+	// RVA: 0x12D0F20 Offset: 0x12CF520 VA: 0x1812D0F20
 	public static List<NavMeshSurface> get_activeSurfaces() { }
 
-	// RVA: 0x12CFE40 Offset: 0x12CE440 VA: 0x1812CFE40
+	// RVA: 0x12D0100 Offset: 0x12CE700 VA: 0x1812D0100
 	private void OnEnable() { }
 
-	// RVA: 0x12CFCC0 Offset: 0x12CE2C0 VA: 0x1812CFCC0
+	// RVA: 0x12CFF80 Offset: 0x12CE580 VA: 0x1812CFF80
 	private void OnDisable() { }
 
-	// RVA: 0x12CD810 Offset: 0x12CBE10 VA: 0x1812CD810
+	// RVA: 0x12CDAD0 Offset: 0x12CC0D0 VA: 0x1812CDAD0
 	public void AddData() { }
 
-	// RVA: 0x12D01C0 Offset: 0x12CE7C0 VA: 0x1812D01C0
+	// RVA: 0x12D0480 Offset: 0x12CEA80 VA: 0x1812D0480
 	public void RemoveData() { }
 
-	// RVA: 0x12CF600 Offset: 0x12CDC00 VA: 0x1812CF600
+	// RVA: 0x12CF8C0 Offset: 0x12CDEC0 VA: 0x1812CF8C0
 	public NavMeshBuildSettings GetBuildSettings() { }
 
-	// RVA: 0x12CE020 Offset: 0x12CC620 VA: 0x1812CE020
+	// RVA: 0x12CE2E0 Offset: 0x12CC8E0 VA: 0x1812CE2E0
 	public void BuildNavMesh() { }
 
-	// RVA: 0x12CE0A0 Offset: 0x12CC6A0 VA: 0x1812CE0A0
+	// RVA: 0x12CE360 Offset: 0x12CC960 VA: 0x1812CE360
 	public void BuildNavMesh(List<NavMeshBuildSource> sources, bool calculateWorldBounds, NavMeshBuildSettings buildSettings) { }
 
-	// RVA: 0x12D0540 Offset: 0x12CEB40 VA: 0x1812D0540
+	// RVA: 0x12D0800 Offset: 0x12CEE00 VA: 0x1812D0800
 	public AsyncOperation UpdateNavMesh() { }
 
-	// RVA: 0x12D0770 Offset: 0x12CED70 VA: 0x1812D0770
+	// RVA: 0x12D0A30 Offset: 0x12CF030 VA: 0x1812D0A30
 	public AsyncOperation UpdateNavMesh(List<NavMeshBuildSource> sources, bool calculateWorldBounds) { }
 
-	// RVA: 0x12D0570 Offset: 0x12CEB70 VA: 0x1812D0570
+	// RVA: 0x12D0830 Offset: 0x12CEE30 VA: 0x1812D0830
 	public AsyncOperation UpdateNavMesh(NavMeshData data) { }
 
-	// RVA: 0x12D0020 Offset: 0x12CE620 VA: 0x1812D0020
+	// RVA: 0x12D02E0 Offset: 0x12CE8E0 VA: 0x1812D02E0
 	private static void Register(NavMeshSurface surface) { }
 
-	// RVA: 0x12D01E0 Offset: 0x12CE7E0 VA: 0x1812D01E0
+	// RVA: 0x12D04A0 Offset: 0x12CEAA0 VA: 0x1812D04A0
 	private static void Unregister(NavMeshSurface surface) { }
 
-	// RVA: 0x12D0310 Offset: 0x12CE910 VA: 0x1812D0310
+	// RVA: 0x12D05D0 Offset: 0x12CEBD0 VA: 0x1812D05D0
 	private static void UpdateActive() { }
 
-	// RVA: 0x12CD9A0 Offset: 0x12CBFA0 VA: 0x1812CD9A0
+	// RVA: 0x12CDC60 Offset: 0x12CC260 VA: 0x1812CDC60
 	private void AppendModifierVolumes(ref List<NavMeshBuildSource> sources) { }
 
-	// RVA: 0x12CEE00 Offset: 0x12CD400 VA: 0x1812CEE00
+	// RVA: 0x12CF0C0 Offset: 0x12CD6C0 VA: 0x1812CF0C0
 	private List<NavMeshBuildSource> CollectSources() { }
 
-	// RVA: 0x12CD760 Offset: 0x12CBD60 VA: 0x1812CD760
+	// RVA: 0x12CDA20 Offset: 0x12CC020 VA: 0x1812CDA20
 	private static Vector3 Abs(Vector3 v) { }
 
-	// RVA: 0x12CF750 Offset: 0x12CDD50 VA: 0x1812CF750
+	// RVA: 0x12CFA10 Offset: 0x12CE010 VA: 0x1812CFA10
 	private static Bounds GetWorldBounds(Matrix4x4 mat, Bounds bounds) { }
 
-	// RVA: 0x12CE3B0 Offset: 0x12CC9B0 VA: 0x1812CE3B0
+	// RVA: 0x12CE670 Offset: 0x12CCC70 VA: 0x1812CE670
 	private Bounds CalculateWorldBounds(List<NavMeshBuildSource> sources) { }
 
-	// RVA: 0x12CFB80 Offset: 0x12CE180 VA: 0x1812CFB80
+	// RVA: 0x12CFE40 Offset: 0x12CE440 VA: 0x1812CFE40
 	private bool HasTransformChanged() { }
 
-	// RVA: 0x12D03E0 Offset: 0x12CE9E0 VA: 0x1812D03E0
+	// RVA: 0x12D06A0 Offset: 0x12CECA0 VA: 0x1812D06A0
 	private void UpdateDataIfTransformChanged() { }
 
-	// RVA: 0x12D0B30 Offset: 0x12CF130 VA: 0x1812D0B30
+	// RVA: 0x12D0DF0 Offset: 0x12CF3F0 VA: 0x1812D0DF0
 	public void .ctor() { }
 
-	// RVA: 0x12D0AD0 Offset: 0x12CF0D0 VA: 0x1812D0AD0
+	// RVA: 0x12D0D90 Offset: 0x12CF390 VA: 0x1812D0D90
 	private static void .cctor() { }
 
 }
@@ -1000,22 +1000,22 @@ private sealed class NavMeshSurface.<>c // TypeDefIndex: 8148
 
 	// Methods
 
-	// RVA: 0x12DD380 Offset: 0x12DB980 VA: 0x1812DD380
+	// RVA: 0x12DD640 Offset: 0x12DBC40 VA: 0x1812DD640
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x12DD190 Offset: 0x12DB790 VA: 0x1812DD190
+	// RVA: 0x12DD450 Offset: 0x12DBA50 VA: 0x1812DD450
 	internal bool <AppendModifierVolumes>b__83_0(NavMeshModifierVolume x) { }
 
-	// RVA: 0x12DD190 Offset: 0x12DB790 VA: 0x1812DD190
+	// RVA: 0x12DD450 Offset: 0x12DBA50 VA: 0x1812DD450
 	internal bool <CollectSources>b__84_0(NavMeshModifier x) { }
 
-	// RVA: 0x12DD1C0 Offset: 0x12DB7C0 VA: 0x1812DD1C0
+	// RVA: 0x12DD480 Offset: 0x12DBA80 VA: 0x1812DD480
 	internal bool <CollectSources>b__84_1(NavMeshBuildSource x) { }
 
-	// RVA: 0x12DD2A0 Offset: 0x12DB8A0 VA: 0x1812DD2A0
+	// RVA: 0x12DD560 Offset: 0x12DBB60 VA: 0x1812DD560
 	internal bool <CollectSources>b__84_2(NavMeshBuildSource x) { }
 
 }

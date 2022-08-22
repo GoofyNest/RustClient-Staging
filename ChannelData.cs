@@ -15,19 +15,19 @@ internal class ChannelData // TypeDefIndex: 1139
 
 	// Methods
 
-	// RVA: 0xFDDB30 Offset: 0xFDC130 VA: 0x180FDDB30
+	// RVA: 0xFDDDF0 Offset: 0xFDC3F0 VA: 0x180FDDDF0
 	internal ArrayList get_ServerProviders() { }
 
-	// RVA: 0xFDDA50 Offset: 0xFDC050 VA: 0x180FDDA50
+	// RVA: 0xFDDD10 Offset: 0xFDC310 VA: 0x180FDDD10
 	public ArrayList get_ClientProviders() { }
 
-	// RVA: 0xFDDAC0 Offset: 0xFDC0C0 VA: 0x180FDDAC0
+	// RVA: 0xFDDD80 Offset: 0xFDC380 VA: 0x180FDDD80
 	public Hashtable get_CustomProperties() { }
 
-	// RVA: 0xFDD170 Offset: 0xFDB770 VA: 0x180FDD170
+	// RVA: 0xFDD430 Offset: 0xFDBA30 VA: 0x180FDD430
 	public void CopyFrom(ChannelData other) { }
 
-	// RVA: 0xFDD990 Offset: 0xFDBF90 VA: 0x180FDD990
+	// RVA: 0xFDDC50 Offset: 0xFDC250 VA: 0x180FDDC50
 	public void .ctor() { }
 
 }

@@ -20,23 +20,23 @@ public class TOD_Animation : MonoBehaviour // TypeDefIndex: 8068
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10745E0 Offset: 0x1072BE0 VA: 0x1810745E0
+	// RVA: 0x10748A0 Offset: 0x1072EA0 VA: 0x1810748A0
 	public Vector3 get_CloudUV() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10747C0 Offset: 0x1072DC0 VA: 0x1810747C0
+	// RVA: 0x1074A80 Offset: 0x1073080 VA: 0x181074A80
 	public void set_CloudUV(Vector3 value) { }
 
-	// RVA: 0x1074600 Offset: 0x1072C00 VA: 0x181074600
+	// RVA: 0x10748C0 Offset: 0x1072EC0 VA: 0x1810748C0
 	public Vector3 get_OffsetUV() { }
 
-	// RVA: 0x10742F0 Offset: 0x10728F0 VA: 0x1810742F0
+	// RVA: 0x10745B0 Offset: 0x1072BB0 VA: 0x1810745B0
 	protected void Start() { }
 
-	// RVA: 0x10743A0 Offset: 0x10729A0 VA: 0x1810743A0
+	// RVA: 0x1074660 Offset: 0x1072C60 VA: 0x181074660
 	public void Update() { }
 
-	// RVA: 0x10745C0 Offset: 0x1072BC0 VA: 0x1810745C0
+	// RVA: 0x1074880 Offset: 0x1072E80 VA: 0x181074880
 	public void .ctor() { }
 
 }
@@ -70,7 +70,7 @@ public class TOD_RangeAttribute : PropertyAttribute // TypeDefIndex: 8071
 
 	// Methods
 
-	// RVA: 0x764DE0 Offset: 0x7633E0 VA: 0x180764DE0
+	// RVA: 0x764EF0 Offset: 0x7634F0 VA: 0x180764EF0
 	public void .ctor(float min, float max) { }
 
 }
@@ -88,11 +88,11 @@ public class TOD_Billboard : MonoBehaviour // TypeDefIndex: 8072
 	private T GetComponentInParents<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBE0340 Offset: 0xBDE940 VA: 0x180BE0340
+	|-RVA: 0xBE0600 Offset: 0xBDEC00 VA: 0x180BE0600
 	|-TOD_Billboard.GetComponentInParents<object>
 	*/
 
-	// RVA: 0x692FF0 Offset: 0x6915F0 VA: 0x180692FF0
+	// RVA: 0x693100 Offset: 0x691700 VA: 0x180693100
 	public void .ctor() { }
 
 }
@@ -115,40 +115,40 @@ public class TOD_Camera : MonoBehaviour // TypeDefIndex: 8073
 
 	// Methods
 
-	// RVA: 0x1075B40 Offset: 0x1074140 VA: 0x181075B40
+	// RVA: 0x1075E00 Offset: 0x1074400 VA: 0x181075E00
 	public bool get_HDR() { }
 
-	// RVA: 0x1075BD0 Offset: 0x10741D0 VA: 0x181075BD0
+	// RVA: 0x1075E90 Offset: 0x1074490 VA: 0x181075E90
 	public float get_NearClipPlane() { }
 
-	// RVA: 0x1075AB0 Offset: 0x10740B0 VA: 0x181075AB0
+	// RVA: 0x1075D70 Offset: 0x1074370 VA: 0x181075D70
 	public float get_FarClipPlane() { }
 
-	// RVA: 0x1075A00 Offset: 0x1074000 VA: 0x181075A00
+	// RVA: 0x1075CC0 Offset: 0x10742C0 VA: 0x181075CC0
 	public Color get_BackgroundColor() { }
 
-	// RVA: 0x10756C0 Offset: 0x1073CC0 VA: 0x1810756C0
+	// RVA: 0x1075980 Offset: 0x1073F80 VA: 0x181075980
 	protected void OnValidate() { }
 
-	// RVA: 0x1075310 Offset: 0x1073910 VA: 0x181075310
+	// RVA: 0x10755D0 Offset: 0x1073BD0 VA: 0x1810755D0
 	protected void OnEnable() { }
 
-	// RVA: 0x1075740 Offset: 0x1073D40 VA: 0x181075740
+	// RVA: 0x1075A00 Offset: 0x1074000 VA: 0x181075A00
 	protected void Update() { }
 
-	// RVA: 0x10753E0 Offset: 0x10739E0 VA: 0x1810753E0
+	// RVA: 0x10756A0 Offset: 0x1073CA0 VA: 0x1810756A0
 	protected void OnPreCull() { }
 
-	// RVA: 0x1075190 Offset: 0x1073790 VA: 0x181075190
+	// RVA: 0x1075450 Offset: 0x1073A50 VA: 0x181075450
 	private TOD_Sky FindSky(bool fallback = False) { }
 
-	// RVA: 0x10750F0 Offset: 0x10736F0 VA: 0x1810750F0
+	// RVA: 0x10753B0 Offset: 0x10739B0 VA: 0x1810753B0
 	public void DoDomeScaleToFarClip() { }
 
-	// RVA: 0x1074F60 Offset: 0x1073560 VA: 0x181074F60
+	// RVA: 0x1075220 Offset: 0x1073820 VA: 0x181075220
 	public void DoDomePosToCamera() { }
 
-	// RVA: 0x1075980 Offset: 0x1073F80 VA: 0x181075980
+	// RVA: 0x1075C40 Offset: 0x1074240 VA: 0x181075C40
 	public void .ctor() { }
 
 }
@@ -368,59 +368,59 @@ public class TOD_Components : MonoBehaviour // TypeDefIndex: 8074
 	public void set_BillboardTransform(Transform value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x952B90 Offset: 0x951190 VA: 0x180952B90
+	// RVA: 0x952CA0 Offset: 0x9512A0 VA: 0x180952CA0
 	public Transform get_LightTransform() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73C90 Offset: 0xC72290 VA: 0x180C73C90
+	// RVA: 0xC73F50 Offset: 0xC72550 VA: 0x180C73F50
 	public void set_LightTransform(Transform value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9921A0 Offset: 0x9907A0 VA: 0x1809921A0
+	// RVA: 0x9922B0 Offset: 0x9908B0 VA: 0x1809922B0
 	public Renderer get_SpaceRenderer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D220 Offset: 0xA4B820 VA: 0x180A4D220
+	// RVA: 0xA4D4E0 Offset: 0xA4BAE0 VA: 0x180A4D4E0
 	public void set_SpaceRenderer(Renderer value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7ACF70 Offset: 0x7AB570 VA: 0x1807ACF70
+	// RVA: 0x7AD080 Offset: 0x7AB680 VA: 0x1807AD080
 	public Renderer get_StarRenderer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D230 Offset: 0xA4B830 VA: 0x180A4D230
+	// RVA: 0xA4D4F0 Offset: 0xA4BAF0 VA: 0x180A4D4F0
 	public void set_StarRenderer(Renderer value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x104F1B0 Offset: 0x104D7B0 VA: 0x18104F1B0
+	// RVA: 0x104F470 Offset: 0x104DA70 VA: 0x18104F470
 	public Renderer get_SunRenderer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEFAF20 Offset: 0xEF9520 VA: 0x180EFAF20
+	// RVA: 0xEFB1E0 Offset: 0xEF97E0 VA: 0x180EFB1E0
 	public void set_SunRenderer(Renderer value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDA00E0 Offset: 0xD9E6E0 VA: 0x180DA00E0
+	// RVA: 0xDA03A0 Offset: 0xD9E9A0 VA: 0x180DA03A0
 	public Renderer get_MoonRenderer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDA04C0 Offset: 0xD9EAC0 VA: 0x180DA04C0
+	// RVA: 0xDA0780 Offset: 0xD9ED80 VA: 0x180DA0780
 	public void set_MoonRenderer(Renderer value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73A80 Offset: 0xC72080 VA: 0x180C73A80
+	// RVA: 0xC73D40 Offset: 0xC72340 VA: 0x180C73D40
 	public Renderer get_AtmosphereRenderer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73BD0 Offset: 0xC721D0 VA: 0x180C73BD0
+	// RVA: 0xC73E90 Offset: 0xC72490 VA: 0x180C73E90
 	public void set_AtmosphereRenderer(Renderer value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD9F470 Offset: 0xD9DA70 VA: 0x180D9F470
+	// RVA: 0xD9F730 Offset: 0xD9DD30 VA: 0x180D9F730
 	public Renderer get_ClearRenderer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD35070 Offset: 0xD33670 VA: 0x180D35070
+	// RVA: 0xD35330 Offset: 0xD33930 VA: 0x180D35330
 	public void set_ClearRenderer(Renderer value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -432,67 +432,67 @@ public class TOD_Components : MonoBehaviour // TypeDefIndex: 8074
 	public void set_CloudRenderer(Renderer value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x872140 Offset: 0x870740 VA: 0x180872140
+	// RVA: 0x872250 Offset: 0x870850 VA: 0x180872250
 	public Renderer[] get_BillboardRenderers() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8721C0 Offset: 0x8707C0 VA: 0x1808721C0
+	// RVA: 0x8722D0 Offset: 0x8708D0 VA: 0x1808722D0
 	public void set_BillboardRenderers(Renderer[] value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73B60 Offset: 0xC72160 VA: 0x180C73B60
+	// RVA: 0xC73E20 Offset: 0xC72420 VA: 0x180C73E20
 	public MeshFilter get_SpaceMeshFilter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1076700 Offset: 0x1074D00 VA: 0x181076700
+	// RVA: 0x10769C0 Offset: 0x1074FC0 VA: 0x1810769C0
 	public void set_SpaceMeshFilter(MeshFilter value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB0EDC0 Offset: 0xB0D3C0 VA: 0x180B0EDC0
+	// RVA: 0xB0F080 Offset: 0xB0D680 VA: 0x180B0F080
 	public MeshFilter get_StarMeshFilter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1076720 Offset: 0x1074D20 VA: 0x181076720
+	// RVA: 0x10769E0 Offset: 0x1074FE0 VA: 0x1810769E0
 	public void set_StarMeshFilter(MeshFilter value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA2A920 Offset: 0xA28F20 VA: 0x180A2A920
+	// RVA: 0xA2ABE0 Offset: 0xA291E0 VA: 0x180A2ABE0
 	public MeshFilter get_SunMeshFilter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA2AC20 Offset: 0xA29220 VA: 0x180A2AC20
+	// RVA: 0xA2AEE0 Offset: 0xA294E0 VA: 0x180A2AEE0
 	public void set_SunMeshFilter(MeshFilter value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC831A0 Offset: 0xC817A0 VA: 0x180C831A0
+	// RVA: 0xC83460 Offset: 0xC81A60 VA: 0x180C83460
 	public MeshFilter get_MoonMeshFilter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10766C0 Offset: 0x1074CC0 VA: 0x1810766C0
+	// RVA: 0x1076980 Offset: 0x1074F80 VA: 0x181076980
 	public void set_MoonMeshFilter(MeshFilter value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x871D30 Offset: 0x870330 VA: 0x180871D30
+	// RVA: 0x871E40 Offset: 0x870440 VA: 0x180871E40
 	public MeshFilter get_AtmosphereMeshFilter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x872180 Offset: 0x870780 VA: 0x180872180
+	// RVA: 0x872290 Offset: 0x870890 VA: 0x180872290
 	public void set_AtmosphereMeshFilter(MeshFilter value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE66340 Offset: 0xE64940 VA: 0x180E66340
+	// RVA: 0xE66600 Offset: 0xE64C00 VA: 0x180E66600
 	public MeshFilter get_ClearMeshFilter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE65A00 Offset: 0xE64000 VA: 0x180E65A00
+	// RVA: 0xE65CC0 Offset: 0xE642C0 VA: 0x180E65CC0
 	public void set_ClearMeshFilter(MeshFilter value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7DDC60 Offset: 0x7DC260 VA: 0x1807DDC60
+	// RVA: 0x7DDD70 Offset: 0x7DC370 VA: 0x1807DDD70
 	public MeshFilter get_CloudMeshFilter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73C70 Offset: 0xC72270 VA: 0x180C73C70
+	// RVA: 0xC73F30 Offset: 0xC72530 VA: 0x180C73F30
 	public void set_CloudMeshFilter(MeshFilter value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -504,134 +504,134 @@ public class TOD_Components : MonoBehaviour // TypeDefIndex: 8074
 	public void set_BillboardMeshFilters(MeshFilter[] value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x701810 Offset: 0x6FFE10 VA: 0x180701810
+	// RVA: 0x701920 Offset: 0x6FFF20 VA: 0x180701920
 	public Material get_SpaceMaterial() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7018A0 Offset: 0x6FFEA0 VA: 0x1807018A0
+	// RVA: 0x7019B0 Offset: 0x6FFFB0 VA: 0x1807019B0
 	public void set_SpaceMaterial(Material value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xBC72B0 Offset: 0xBC58B0 VA: 0x180BC72B0
+	// RVA: 0xBC7570 Offset: 0xBC5B70 VA: 0x180BC7570
 	public Material get_StarMaterial() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1076710 Offset: 0x1074D10 VA: 0x181076710
+	// RVA: 0x10769D0 Offset: 0x1074FD0 VA: 0x1810769D0
 	public void set_StarMaterial(Material value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD618A0 Offset: 0xD5FEA0 VA: 0x180D618A0
+	// RVA: 0xD61B60 Offset: 0xD60160 VA: 0x180D61B60
 	public Material get_SunMaterial() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD618B0 Offset: 0xD5FEB0 VA: 0x180D618B0
+	// RVA: 0xD61B70 Offset: 0xD60170 VA: 0x180D61B70
 	public void set_SunMaterial(Material value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1076620 Offset: 0x1074C20 VA: 0x181076620
+	// RVA: 0x10768E0 Offset: 0x1074EE0 VA: 0x1810768E0
 	public Material get_MoonMaterial() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10766B0 Offset: 0x1074CB0 VA: 0x1810766B0
+	// RVA: 0x1076970 Offset: 0x1074F70 VA: 0x181076970
 	public void set_MoonMaterial(Material value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1076610 Offset: 0x1074C10 VA: 0x181076610
+	// RVA: 0x10768D0 Offset: 0x1074ED0 VA: 0x1810768D0
 	public Material get_AtmosphereMaterial() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1076660 Offset: 0x1074C60 VA: 0x181076660
+	// RVA: 0x1076920 Offset: 0x1074F20 VA: 0x181076920
 	public void set_AtmosphereMaterial(Material value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC83160 Offset: 0xC81760 VA: 0x180C83160
+	// RVA: 0xC83420 Offset: 0xC81A20 VA: 0x180C83420
 	public Material get_ClearMaterial() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1076680 Offset: 0x1074C80 VA: 0x181076680
+	// RVA: 0x1076940 Offset: 0x1074F40 VA: 0x181076940
 	public void set_ClearMaterial(Material value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7E6DA0 Offset: 0x7E53A0 VA: 0x1807E6DA0
+	// RVA: 0x7E6EB0 Offset: 0x7E54B0 VA: 0x1807E6EB0
 	public Material get_CloudMaterial() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1076690 Offset: 0x1074C90 VA: 0x181076690
+	// RVA: 0x1076950 Offset: 0x1074F50 VA: 0x181076950
 	public void set_CloudMaterial(Material value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA3C6F0 Offset: 0xA3ACF0 VA: 0x180A3C6F0
+	// RVA: 0xA3C9B0 Offset: 0xA3AFB0 VA: 0x180A3C9B0
 	public Material[] get_BillboardMaterials() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1076670 Offset: 0x1074C70 VA: 0x181076670
+	// RVA: 0x1076930 Offset: 0x1074F30 VA: 0x181076930
 	public void set_BillboardMaterials(Material[] value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x900010 Offset: 0x8FE610 VA: 0x180900010
+	// RVA: 0x900120 Offset: 0x8FE720 VA: 0x180900120
 	public Light get_LightSource() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10766A0 Offset: 0x1074CA0 VA: 0x1810766A0
+	// RVA: 0x1076960 Offset: 0x1074F60 VA: 0x181076960
 	public void set_LightSource(Light value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC83190 Offset: 0xC81790 VA: 0x180C83190
+	// RVA: 0xC83450 Offset: 0xC81A50 VA: 0x180C83450
 	public TOD_Sky get_Sky() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD43690 Offset: 0xD41C90 VA: 0x180D43690
+	// RVA: 0xD43950 Offset: 0xD41F50 VA: 0x180D43950
 	public void set_Sky(TOD_Sky value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC83170 Offset: 0xC81770 VA: 0x180C83170
+	// RVA: 0xC83430 Offset: 0xC81A30 VA: 0x180C83430
 	public TOD_Animation get_Animation() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1076650 Offset: 0x1074C50 VA: 0x181076650
+	// RVA: 0x1076910 Offset: 0x1074F10 VA: 0x181076910
 	public void set_Animation(TOD_Animation value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB0E690 Offset: 0xB0CC90 VA: 0x180B0E690
+	// RVA: 0xB0E950 Offset: 0xB0CF50 VA: 0x180B0E950
 	public TOD_Time get_Time() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1076730 Offset: 0x1074D30 VA: 0x181076730
+	// RVA: 0x10769F0 Offset: 0x1074FF0 VA: 0x1810769F0
 	public void set_Time(TOD_Time value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73B70 Offset: 0xC72170 VA: 0x180C73B70
+	// RVA: 0xC73E30 Offset: 0xC72430 VA: 0x180C73E30
 	public TOD_Camera get_Camera() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73C80 Offset: 0xC72280 VA: 0x180C73C80
+	// RVA: 0xC73F40 Offset: 0xC72540 VA: 0x180C73F40
 	public void set_Camera(TOD_Camera value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD8B30 Offset: 0xAD7130 VA: 0x180AD8B30
+	// RVA: 0xAD8DF0 Offset: 0xAD73F0 VA: 0x180AD8DF0
 	public TOD_Rays get_Rays() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10766D0 Offset: 0x1074CD0 VA: 0x1810766D0
+	// RVA: 0x1076990 Offset: 0x1074F90 VA: 0x181076990
 	public void set_Rays(TOD_Rays value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1076630 Offset: 0x1074C30 VA: 0x181076630
+	// RVA: 0x10768F0 Offset: 0x1074EF0 VA: 0x1810768F0
 	public TOD_Scattering get_Scattering() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10766E0 Offset: 0x1074CE0 VA: 0x1810766E0
+	// RVA: 0x10769A0 Offset: 0x1074FA0 VA: 0x1810769A0
 	public void set_Scattering(TOD_Scattering value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1076640 Offset: 0x1074C40 VA: 0x181076640
+	// RVA: 0x1076900 Offset: 0x1074F00 VA: 0x181076900
 	public TOD_Shadows get_Shadows() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10766F0 Offset: 0x1074CF0 VA: 0x1810766F0
+	// RVA: 0x10769B0 Offset: 0x1074FB0 VA: 0x1810769B0
 	public void set_Shadows(TOD_Shadows value) { }
 
-	// RVA: 0x1075CB0 Offset: 0x10742B0 VA: 0x181075CB0
+	// RVA: 0x1075F70 Offset: 0x1074570 VA: 0x181075F70
 	public void Initialize() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -754,31 +754,31 @@ public abstract class TOD_ImageEffect : MonoBehaviour // TypeDefIndex: 8087
 
 	// Methods
 
-	// RVA: 0x1076E70 Offset: 0x1075470 VA: 0x181076E70
+	// RVA: 0x1077130 Offset: 0x1075730 VA: 0x181077130
 	protected Material CreateMaterial(Shader shader) { }
 
-	// RVA: 0x1077200 Offset: 0x1075800 VA: 0x181077200
+	// RVA: 0x10774C0 Offset: 0x1075AC0 VA: 0x1810774C0
 	private TOD_Sky FindSky(bool fallback = False) { }
 
-	// RVA: 0x1076AF0 Offset: 0x10750F0 VA: 0x181076AF0
+	// RVA: 0x1076DB0 Offset: 0x10753B0 VA: 0x181076DB0
 	protected void Awake() { }
 
-	// RVA: 0x1076BF0 Offset: 0x10751F0 VA: 0x181076BF0
+	// RVA: 0x1076EB0 Offset: 0x10754B0 VA: 0x181076EB0
 	protected bool CheckSupport(bool needDepth = False, bool needHdr = False) { }
 
-	// RVA: 0x8D5B70 Offset: 0x8D4170 VA: 0x1808D5B70
+	// RVA: 0x8D5C80 Offset: 0x8D4280 VA: 0x1808D5C80
 	protected void DrawBorder(RenderTexture dest, Material material) { }
 
-	// RVA: 0x1077380 Offset: 0x1075980 VA: 0x181077380
+	// RVA: 0x1077640 Offset: 0x1075C40 VA: 0x181077640
 	protected Matrix4x4 FrustumCorners() { }
 
-	// RVA: 0x1077830 Offset: 0x1075E30 VA: 0x181077830
+	// RVA: 0x1077AF0 Offset: 0x10760F0 VA: 0x181077AF0
 	protected RenderTexture GetSkyMask(RenderTexture source, Material skyMaskMaterial, Material screenClearMaterial, TOD_ImageEffect.ResolutionType resolution, Vector3 lightPos, int blurIterations, float blurRadius, float maxRadius) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	protected void .ctor() { }
 
-	// RVA: 0x1077DE0 Offset: 0x10763E0 VA: 0x181077DE0
+	// RVA: 0x10780A0 Offset: 0x10766A0 VA: 0x1810780A0
 	private static void .cctor() { }
 
 }
@@ -813,10 +813,10 @@ public class TOD_Parameters // TypeDefIndex: 8089
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1078810 Offset: 0x1076E10 VA: 0x181078810
+	// RVA: 0x1078AD0 Offset: 0x10770D0 VA: 0x181078AD0
 	public void .ctor(TOD_Sky sky) { }
 
-	// RVA: 0x1078700 Offset: 0x1076D00 VA: 0x181078700
+	// RVA: 0x10789C0 Offset: 0x1076FC0 VA: 0x1810789C0
 	public void ToSky(TOD_Sky sky) { }
 
 }
@@ -839,19 +839,19 @@ public class TOD_CycleParameters // TypeDefIndex: 8090
 
 	// Methods
 
-	// RVA: 0x1076770 Offset: 0x1074D70 VA: 0x181076770
+	// RVA: 0x1076A30 Offset: 0x1075030 VA: 0x181076A30
 	public DateTime get_DateTime() { }
 
-	// RVA: 0x10768E0 Offset: 0x1074EE0 VA: 0x1810768E0
+	// RVA: 0x1076BA0 Offset: 0x10751A0 VA: 0x181076BA0
 	public void set_DateTime(DateTime value) { }
 
-	// RVA: 0x1076820 Offset: 0x1074E20 VA: 0x181076820
+	// RVA: 0x1076AE0 Offset: 0x10750E0 VA: 0x181076AE0
 	public long get_Ticks() { }
 
-	// RVA: 0x10769C0 Offset: 0x1074FC0 VA: 0x1810769C0
+	// RVA: 0x1076C80 Offset: 0x1075280 VA: 0x181076C80
 	public void set_Ticks(long value) { }
 
-	// RVA: 0x1076740 Offset: 0x1074D40 VA: 0x181076740
+	// RVA: 0x1076A00 Offset: 0x1075000 VA: 0x181076A00
 	public void .ctor() { }
 
 }
@@ -898,7 +898,7 @@ public class TOD_AtmosphereParameters // TypeDefIndex: 8092
 
 	// Methods
 
-	// RVA: 0x10747D0 Offset: 0x1072DD0 VA: 0x1810747D0
+	// RVA: 0x1074A90 Offset: 0x1073090 VA: 0x181074A90
 	public void .ctor() { }
 
 }
@@ -934,7 +934,7 @@ public class TOD_DayParameters // TypeDefIndex: 8093
 
 	// Methods
 
-	// RVA: 0x1076AB0 Offset: 0x10750B0 VA: 0x181076AB0
+	// RVA: 0x1076D70 Offset: 0x1075370 VA: 0x181076D70
 	public void .ctor() { }
 
 }
@@ -970,7 +970,7 @@ public class TOD_NightParameters // TypeDefIndex: 8094
 
 	// Methods
 
-	// RVA: 0x10786D0 Offset: 0x1076CD0 VA: 0x1810786D0
+	// RVA: 0x1078990 Offset: 0x1076F90 VA: 0x181078990
 	public void .ctor() { }
 
 }
@@ -989,7 +989,7 @@ public class TOD_SunParameters // TypeDefIndex: 8095
 
 	// Methods
 
-	// RVA: 0x12DAD60 Offset: 0x12D9360 VA: 0x1812DAD60
+	// RVA: 0x12DB020 Offset: 0x12D9620 VA: 0x1812DB020
 	public void .ctor() { }
 
 }
@@ -1016,7 +1016,7 @@ public class TOD_MoonParameters // TypeDefIndex: 8096
 
 	// Methods
 
-	// RVA: 0x1078690 Offset: 0x1076C90 VA: 0x181078690
+	// RVA: 0x1078950 Offset: 0x1076F50 VA: 0x181078950
 	public void .ctor() { }
 
 }
@@ -1034,7 +1034,7 @@ public class TOD_StarParameters // TypeDefIndex: 8097
 
 	// Methods
 
-	// RVA: 0x12DAD40 Offset: 0x12D9340 VA: 0x1812DAD40
+	// RVA: 0x12DB000 Offset: 0x12D9600 VA: 0x1812DB000
 	public void .ctor() { }
 
 }
@@ -1071,7 +1071,7 @@ public class TOD_CloudParameters // TypeDefIndex: 8098
 
 	// Methods
 
-	// RVA: 0x1075C60 Offset: 0x1074260 VA: 0x181075C60
+	// RVA: 0x1075F20 Offset: 0x1074520 VA: 0x181075F20
 	public void .ctor() { }
 
 }
@@ -1102,7 +1102,7 @@ public class TOD_FogParameters // TypeDefIndex: 8100
 
 	// Methods
 
-	// RVA: 0x1076AE0 Offset: 0x10750E0 VA: 0x181076AE0
+	// RVA: 0x1076DA0 Offset: 0x10753A0 VA: 0x181076DA0
 	public void .ctor() { }
 
 }
@@ -1120,7 +1120,7 @@ public class TOD_AmbientParameters // TypeDefIndex: 8101
 
 	// Methods
 
-	// RVA: 0x10742D0 Offset: 0x10728D0 VA: 0x1810742D0
+	// RVA: 0x1074590 Offset: 0x1072B90 VA: 0x181074590
 	public void .ctor() { }
 
 }
@@ -1138,7 +1138,7 @@ public class TOD_ReflectionParameters // TypeDefIndex: 8102
 
 	// Methods
 
-	// RVA: 0x10796E0 Offset: 0x1077CE0 VA: 0x1810796E0
+	// RVA: 0x10799A0 Offset: 0x1077FA0 VA: 0x1810799A0
 	public void .ctor() { }
 
 }
@@ -1176,16 +1176,16 @@ public class TOD_Rays : TOD_ImageEffect // TypeDefIndex: 8103
 
 	// Methods
 
-	// RVA: 0x10791D0 Offset: 0x10777D0 VA: 0x1810791D0
+	// RVA: 0x1079490 Offset: 0x1077A90 VA: 0x181079490
 	protected void OnEnable() { }
 
-	// RVA: 0x1079080 Offset: 0x1077680 VA: 0x181079080
+	// RVA: 0x1079340 Offset: 0x1077940 VA: 0x181079340
 	protected void OnDisable() { }
 
-	// RVA: 0x1079370 Offset: 0x1077970 VA: 0x181079370
+	// RVA: 0x1079630 Offset: 0x1077C30 VA: 0x181079630
 	protected void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x1079660 Offset: 0x1077C60 VA: 0x181079660
+	// RVA: 0x1079920 Offset: 0x1077F20 VA: 0x181079920
 	public void .ctor() { }
 
 }
@@ -1377,11 +1377,11 @@ public class TOD_Resources : MonoBehaviour // TypeDefIndex: 8105
 	private void set_ID_SunLightColor(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1050510 Offset: 0x104EB10 VA: 0x181050510
+	// RVA: 0x10507D0 Offset: 0x104EDD0 VA: 0x1810507D0
 	public int get_ID_MoonLightColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10505B0 Offset: 0x104EBB0 VA: 0x1810505B0
+	// RVA: 0x1050870 Offset: 0x104EE70 VA: 0x181050870
 	private void set_ID_MoonLightColor(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -1389,43 +1389,43 @@ public class TOD_Resources : MonoBehaviour // TypeDefIndex: 8105
 	public int get_ID_SunSkyColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF8C000 Offset: 0xF8A600 VA: 0x180F8C000
+	// RVA: 0xF8C2C0 Offset: 0xF8A8C0 VA: 0x180F8C2C0
 	private void set_ID_SunSkyColor(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079E90 Offset: 0x1078490 VA: 0x181079E90
+	// RVA: 0x107A150 Offset: 0x1078750 VA: 0x18107A150
 	public int get_ID_MoonSkyColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF8C010 Offset: 0xF8A610 VA: 0x180F8C010
+	// RVA: 0xF8C2D0 Offset: 0xF8A8D0 VA: 0x180F8C2D0
 	private void set_ID_MoonSkyColor(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD277E0 Offset: 0xD25DE0 VA: 0x180D277E0
+	// RVA: 0xD27AA0 Offset: 0xD260A0 VA: 0x180D27AA0
 	public int get_ID_SunMeshColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD27750 Offset: 0xD25D50 VA: 0x180D27750
+	// RVA: 0xD27A10 Offset: 0xD26010 VA: 0x180D27A10
 	private void set_ID_SunMeshColor(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xBB0340 Offset: 0xBAE940 VA: 0x180BB0340
+	// RVA: 0xBB0600 Offset: 0xBAEC00 VA: 0x180BB0600
 	public int get_ID_MoonMeshColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079FF0 Offset: 0x10785F0 VA: 0x181079FF0
+	// RVA: 0x107A2B0 Offset: 0x10788B0 VA: 0x18107A2B0
 	private void set_ID_MoonMeshColor(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB9B270 Offset: 0xB99870 VA: 0x180B9B270
+	// RVA: 0xB9B530 Offset: 0xB99B30 VA: 0x180B9B530
 	public int get_ID_SunCloudColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x104F2C0 Offset: 0x104D8C0 VA: 0x18104F2C0
+	// RVA: 0x104F580 Offset: 0x104DB80 VA: 0x18104F580
 	private void set_ID_SunCloudColor(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB9B280 Offset: 0xB99880 VA: 0x180B9B280
+	// RVA: 0xB9B540 Offset: 0xB99B40 VA: 0x180B9B540
 	public int get_ID_MoonCloudColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -1433,35 +1433,35 @@ public class TOD_Resources : MonoBehaviour // TypeDefIndex: 8105
 	private void set_ID_MoonCloudColor(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1051760 Offset: 0x104FD60 VA: 0x181051760
+	// RVA: 0x1051A20 Offset: 0x1050020 VA: 0x181051A20
 	public int get_ID_FogColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079F80 Offset: 0x1078580 VA: 0x181079F80
+	// RVA: 0x107A240 Offset: 0x1078840 VA: 0x18107A240
 	private void set_ID_FogColor(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1051770 Offset: 0x104FD70 VA: 0x181051770
+	// RVA: 0x1051A30 Offset: 0x1050030 VA: 0x181051A30
 	public int get_ID_GroundColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079F90 Offset: 0x1078590 VA: 0x181079F90
+	// RVA: 0x107A250 Offset: 0x1078850 VA: 0x18107A250
 	private void set_ID_GroundColor(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079DB0 Offset: 0x10783B0 VA: 0x181079DB0
+	// RVA: 0x107A070 Offset: 0x1078670 VA: 0x18107A070
 	public int get_ID_AmbientColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079EF0 Offset: 0x10784F0 VA: 0x181079EF0
+	// RVA: 0x107A1B0 Offset: 0x10787B0 VA: 0x18107A1B0
 	private void set_ID_AmbientColor(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D020 Offset: 0xA4B620 VA: 0x180A4D020
+	// RVA: 0xA4D2E0 Offset: 0xA4B8E0 VA: 0x180A4D2E0
 	public int get_ID_SunDirection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A040 Offset: 0x1078640 VA: 0x18107A040
+	// RVA: 0x107A300 Offset: 0x1078900 VA: 0x18107A300
 	private void set_ID_SunDirection(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -1473,302 +1473,302 @@ public class TOD_Resources : MonoBehaviour // TypeDefIndex: 8105
 	private void set_ID_MoonDirection(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079E30 Offset: 0x1078430 VA: 0x181079E30
+	// RVA: 0x107A0F0 Offset: 0x10786F0 VA: 0x18107A0F0
 	public int get_ID_LightDirection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079FA0 Offset: 0x10785A0 VA: 0x181079FA0
+	// RVA: 0x107A260 Offset: 0x1078860 VA: 0x18107A260
 	private void set_ID_LightDirection(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079E60 Offset: 0x1078460 VA: 0x181079E60
+	// RVA: 0x107A120 Offset: 0x1078720 VA: 0x18107A120
 	public int get_ID_LocalSunDirection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079FD0 Offset: 0x10785D0 VA: 0x181079FD0
+	// RVA: 0x107A290 Offset: 0x1078890 VA: 0x18107A290
 	private void set_ID_LocalSunDirection(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079E50 Offset: 0x1078450 VA: 0x181079E50
+	// RVA: 0x107A110 Offset: 0x1078710 VA: 0x18107A110
 	public int get_ID_LocalMoonDirection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079FC0 Offset: 0x10785C0 VA: 0x181079FC0
+	// RVA: 0x107A280 Offset: 0x1078880 VA: 0x18107A280
 	private void set_ID_LocalMoonDirection(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079E40 Offset: 0x1078440 VA: 0x181079E40
+	// RVA: 0x107A100 Offset: 0x1078700 VA: 0x18107A100
 	public int get_ID_LocalLightDirection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079FB0 Offset: 0x10785B0 VA: 0x181079FB0
+	// RVA: 0x107A270 Offset: 0x1078870 VA: 0x18107A270
 	private void set_ID_LocalLightDirection(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAE2A20 Offset: 0xAE1020 VA: 0x180AE2A20
+	// RVA: 0xAE2CE0 Offset: 0xAE12E0 VA: 0x180AE2CE0
 	public int get_ID_Contrast() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079F70 Offset: 0x1078570 VA: 0x181079F70
+	// RVA: 0x107A230 Offset: 0x1078830 VA: 0x18107A230
 	private void set_ID_Contrast(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAE2A40 Offset: 0xAE1040 VA: 0x180AE2A40
+	// RVA: 0xAE2D00 Offset: 0xAE1300 VA: 0x180AE2D00
 	public int get_ID_Brightness() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x104EC70 Offset: 0x104D270 VA: 0x18104EC70
+	// RVA: 0x104EF30 Offset: 0x104D530 VA: 0x18104EF30
 	private void set_ID_Brightness(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D190 Offset: 0xA4B790 VA: 0x180A4D190
+	// RVA: 0xA4D450 Offset: 0xA4BA50 VA: 0x180A4D450
 	public int get_ID_Fogginess() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D240 Offset: 0xA4B840 VA: 0x180A4D240
+	// RVA: 0xA4D500 Offset: 0xA4BB00 VA: 0x180A4D500
 	private void set_ID_Fogginess(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x887950 Offset: 0x885F50 VA: 0x180887950
+	// RVA: 0x887A60 Offset: 0x886060 VA: 0x180887A60
 	public int get_ID_Directionality() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7425E0 Offset: 0x740BE0 VA: 0x1807425E0
+	// RVA: 0x7426F0 Offset: 0x740CF0 VA: 0x1807426F0
 	private void set_ID_Directionality(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079E70 Offset: 0x1078470 VA: 0x181079E70
+	// RVA: 0x107A130 Offset: 0x1078730 VA: 0x18107A130
 	public int get_ID_MoonHaloPower() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079FE0 Offset: 0x10785E0 VA: 0x181079FE0
+	// RVA: 0x107A2A0 Offset: 0x10788A0 VA: 0x18107A2A0
 	private void set_ID_MoonHaloPower(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1050470 Offset: 0x104EA70 VA: 0x181050470
+	// RVA: 0x1050730 Offset: 0x104ED30 VA: 0x181050730
 	public int get_ID_MoonHaloColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1050340 Offset: 0x104E940 VA: 0x181050340
+	// RVA: 0x1050600 Offset: 0x104EC00 VA: 0x181050600
 	private void set_ID_MoonHaloColor(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1050500 Offset: 0x104EB00 VA: 0x181050500
+	// RVA: 0x10507C0 Offset: 0x104EDC0 VA: 0x1810507C0
 	public int get_ID_CloudSize() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1050350 Offset: 0x104E950 VA: 0x181050350
+	// RVA: 0x1050610 Offset: 0x104EC10 VA: 0x181050610
 	private void set_ID_CloudSize(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x872130 Offset: 0x870730 VA: 0x180872130
+	// RVA: 0x872240 Offset: 0x870840 VA: 0x180872240
 	public int get_ID_CloudOpacity() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8721B0 Offset: 0x8707B0 VA: 0x1808721B0
+	// RVA: 0x8722C0 Offset: 0x8708C0 VA: 0x1808722C0
 	private void set_ID_CloudOpacity(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079DE0 Offset: 0x10783E0 VA: 0x181079DE0
+	// RVA: 0x107A0A0 Offset: 0x10786A0 VA: 0x18107A0A0
 	public int get_ID_CloudCoverage() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079F20 Offset: 0x1078520 VA: 0x181079F20
+	// RVA: 0x107A1E0 Offset: 0x10787E0 VA: 0x18107A1E0
 	private void set_ID_CloudCoverage(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079E20 Offset: 0x1078420 VA: 0x181079E20
+	// RVA: 0x107A0E0 Offset: 0x10786E0 VA: 0x18107A0E0
 	public int get_ID_CloudSharpness() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079F60 Offset: 0x1078560 VA: 0x181079F60
+	// RVA: 0x107A220 Offset: 0x1078820 VA: 0x18107A220
 	private void set_ID_CloudSharpness(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079DF0 Offset: 0x10783F0 VA: 0x181079DF0
+	// RVA: 0x107A0B0 Offset: 0x10786B0 VA: 0x18107A0B0
 	public int get_ID_CloudDensity() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079F30 Offset: 0x1078530 VA: 0x181079F30
+	// RVA: 0x107A1F0 Offset: 0x10787F0 VA: 0x18107A1F0
 	private void set_ID_CloudDensity(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079DD0 Offset: 0x10783D0 VA: 0x181079DD0
+	// RVA: 0x107A090 Offset: 0x1078690 VA: 0x18107A090
 	public int get_ID_CloudColoring() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079F10 Offset: 0x1078510 VA: 0x181079F10
+	// RVA: 0x107A1D0 Offset: 0x10787D0 VA: 0x18107A1D0
 	private void set_ID_CloudColoring(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079DC0 Offset: 0x10783C0 VA: 0x181079DC0
+	// RVA: 0x107A080 Offset: 0x1078680 VA: 0x18107A080
 	public int get_ID_CloudAttenuation() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079F00 Offset: 0x1078500 VA: 0x181079F00
+	// RVA: 0x107A1C0 Offset: 0x10787C0 VA: 0x18107A1C0
 	private void set_ID_CloudAttenuation(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079E00 Offset: 0x1078400 VA: 0x181079E00
+	// RVA: 0x107A0C0 Offset: 0x10786C0 VA: 0x18107A0C0
 	public int get_ID_CloudSaturation() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079F40 Offset: 0x1078540 VA: 0x181079F40
+	// RVA: 0x107A200 Offset: 0x1078800 VA: 0x18107A200
 	private void set_ID_CloudSaturation(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079E10 Offset: 0x1078410 VA: 0x181079E10
+	// RVA: 0x107A0D0 Offset: 0x10786D0 VA: 0x18107A0D0
 	public int get_ID_CloudScattering() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079F50 Offset: 0x1078550 VA: 0x181079F50
+	// RVA: 0x107A210 Offset: 0x1078810 VA: 0x18107A210
 	private void set_ID_CloudScattering(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73A90 Offset: 0xC72090 VA: 0x180C73A90
+	// RVA: 0xC73D50 Offset: 0xC72350 VA: 0x180C73D50
 	public int get_ID_CloudBrightness() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73BE0 Offset: 0xC721E0 VA: 0x180C73BE0
+	// RVA: 0xC73EA0 Offset: 0xC724A0 VA: 0x180C73EA0
 	private void set_ID_CloudBrightness(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC739A0 Offset: 0xC71FA0 VA: 0x180C739A0
+	// RVA: 0xC73C60 Offset: 0xC72260 VA: 0x180C73C60
 	public int get_ID_CloudMultiplier() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73BB0 Offset: 0xC721B0 VA: 0x180C73BB0
+	// RVA: 0xC73E70 Offset: 0xC72470 VA: 0x180C73E70
 	private void set_ID_CloudMultiplier(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x871FF0 Offset: 0x8705F0 VA: 0x180871FF0
+	// RVA: 0x872100 Offset: 0x870700 VA: 0x180872100
 	public int get_ID_CloudOffset() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x872190 Offset: 0x870790 VA: 0x180872190
+	// RVA: 0x8722A0 Offset: 0x8708A0 VA: 0x1808722A0
 	private void set_ID_CloudOffset(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC739B0 Offset: 0xC71FB0 VA: 0x180C739B0
+	// RVA: 0xC73C70 Offset: 0xC72270 VA: 0x180C73C70
 	public int get_ID_CloudWind() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73BC0 Offset: 0xC721C0 VA: 0x180C73BC0
+	// RVA: 0xC73E80 Offset: 0xC72480 VA: 0x180C73E80
 	private void set_ID_CloudWind(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEC12D0 Offset: 0xEBF8D0 VA: 0x180EC12D0
+	// RVA: 0xEC1590 Offset: 0xEBFB90 VA: 0x180EC1590
 	public int get_ID_StarSize() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A030 Offset: 0x1078630 VA: 0x18107A030
+	// RVA: 0x107A2F0 Offset: 0x10788F0 VA: 0x18107A2F0
 	private void set_ID_StarSize(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079EA0 Offset: 0x10784A0 VA: 0x181079EA0
+	// RVA: 0x107A160 Offset: 0x1078760 VA: 0x18107A160
 	public int get_ID_StarBrightness() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A020 Offset: 0x1078620 VA: 0x18107A020
+	// RVA: 0x107A2E0 Offset: 0x10788E0 VA: 0x18107A2E0
 	private void set_ID_StarBrightness(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x92D940 Offset: 0x92BF40 VA: 0x18092D940
+	// RVA: 0x92DA50 Offset: 0x92C050 VA: 0x18092DA50
 	public int get_ID_StarVisibility() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x92D950 Offset: 0x92BF50 VA: 0x18092D950
+	// RVA: 0x92DA60 Offset: 0x92C060 VA: 0x18092DA60
 	private void set_ID_StarVisibility(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079EC0 Offset: 0x10784C0 VA: 0x181079EC0
+	// RVA: 0x107A180 Offset: 0x1078780 VA: 0x18107A180
 	public int get_ID_SunMeshContrast() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A060 Offset: 0x1078660 VA: 0x18107A060
+	// RVA: 0x107A320 Offset: 0x1078920 VA: 0x18107A320
 	private void set_ID_SunMeshContrast(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079EB0 Offset: 0x10784B0 VA: 0x181079EB0
+	// RVA: 0x107A170 Offset: 0x1078770 VA: 0x18107A170
 	public int get_ID_SunMeshBrightness() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A050 Offset: 0x1078650 VA: 0x18107A050
+	// RVA: 0x107A310 Offset: 0x1078910 VA: 0x18107A310
 	private void set_ID_SunMeshBrightness(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079E80 Offset: 0x1078480 VA: 0x181079E80
+	// RVA: 0x107A140 Offset: 0x1078740 VA: 0x18107A140
 	public int get_ID_MoonMeshContrast() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A000 Offset: 0x1078600 VA: 0x18107A000
+	// RVA: 0x107A2C0 Offset: 0x10788C0 VA: 0x18107A2C0
 	private void set_ID_MoonMeshContrast(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x81CCE0 Offset: 0x81B2E0 VA: 0x18081CCE0
+	// RVA: 0x81CDF0 Offset: 0x81B3F0 VA: 0x18081CDF0
 	public int get_ID_MoonMeshBrightness() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x81D0A0 Offset: 0x81B6A0 VA: 0x18081D0A0
+	// RVA: 0x81D1B0 Offset: 0x81B7B0 VA: 0x18081D1B0
 	private void set_ID_MoonMeshBrightness(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC82E70 Offset: 0xC81470 VA: 0x180C82E70
+	// RVA: 0xC83130 Offset: 0xC81730 VA: 0x180C83130
 	public int get_ID_kBetaMie() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A090 Offset: 0x1078690 VA: 0x18107A090
+	// RVA: 0x107A350 Offset: 0x1078950 VA: 0x18107A350
 	private void set_ID_kBetaMie(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC83040 Offset: 0xC81640 VA: 0x180C83040
+	// RVA: 0xC83300 Offset: 0xC81900 VA: 0x180C83300
 	public int get_ID_kSun() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A0B0 Offset: 0x10786B0 VA: 0x18107A0B0
+	// RVA: 0x107A370 Offset: 0x1078970 VA: 0x18107A370
 	private void set_ID_kSun(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079EE0 Offset: 0x10784E0 VA: 0x181079EE0
+	// RVA: 0x107A1A0 Offset: 0x10787A0 VA: 0x18107A1A0
 	public int get_ID_k4PI() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A080 Offset: 0x1078680 VA: 0x18107A080
+	// RVA: 0x107A340 Offset: 0x1078940 VA: 0x18107A340
 	private void set_ID_k4PI(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC83080 Offset: 0xC81680 VA: 0x180C83080
+	// RVA: 0xC83340 Offset: 0xC81940 VA: 0x180C83340
 	public int get_ID_kRadius() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A0A0 Offset: 0x10786A0 VA: 0x18107A0A0
+	// RVA: 0x107A360 Offset: 0x1078960 VA: 0x18107A360
 	private void set_ID_kRadius(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x871D20 Offset: 0x870320 VA: 0x180871D20
+	// RVA: 0x871E30 Offset: 0x870430 VA: 0x180871E30
 	public int get_ID_kScale() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x872170 Offset: 0x870770 VA: 0x180872170
+	// RVA: 0x872280 Offset: 0x870880 VA: 0x180872280
 	private void set_ID_kScale(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1079ED0 Offset: 0x10784D0 VA: 0x181079ED0
+	// RVA: 0x107A190 Offset: 0x1078790 VA: 0x18107A190
 	public int get_ID_World2Sky() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A070 Offset: 0x1078670 VA: 0x18107A070
+	// RVA: 0x107A330 Offset: 0x1078930 VA: 0x18107A330
 	private void set_ID_World2Sky(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC82DA0 Offset: 0xC813A0 VA: 0x180C82DA0
+	// RVA: 0xC83060 Offset: 0xC81660 VA: 0x180C83060
 	public int get_ID_Sky2World() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A010 Offset: 0x1078610 VA: 0x18107A010
+	// RVA: 0x107A2D0 Offset: 0x10788D0 VA: 0x18107A2D0
 	private void set_ID_Sky2World(int value) { }
 
-	// RVA: 0x10799B0 Offset: 0x1077FB0 VA: 0x1810799B0
+	// RVA: 0x1079C70 Offset: 0x1078270 VA: 0x181079C70
 	public void Initialize() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -1813,23 +1813,23 @@ public class TOD_Scattering : TOD_ImageEffect // TypeDefIndex: 8106
 
 	// Methods
 
-	// RVA: 0x12D13D0 Offset: 0x12CF9D0 VA: 0x1812D13D0
+	// RVA: 0x12D1690 Offset: 0x12CFC90 VA: 0x1812D1690
 	protected void OnEnable() { }
 
-	// RVA: 0x12D1270 Offset: 0x12CF870 VA: 0x1812D1270
+	// RVA: 0x12D1530 Offset: 0x12CFB30 VA: 0x1812D1530
 	protected void OnDisable() { }
 
-	// RVA: 0x12D1620 Offset: 0x12CFC20 VA: 0x1812D1620
+	// RVA: 0x12D18E0 Offset: 0x12CFEE0 VA: 0x1812D18E0
 	protected void OnPreCull() { }
 
-	// RVA: 0x12D1570 Offset: 0x12CFB70 VA: 0x1812D1570
+	// RVA: 0x12D1830 Offset: 0x12CFE30 VA: 0x1812D1830
 	protected void OnPostRender() { }
 
 	[ImageEffectOpaque] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12D16D0 Offset: 0x12CFCD0 VA: 0x1812D16D0
+	// RVA: 0x12D1990 Offset: 0x12CFF90 VA: 0x1812D1990
 	protected void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x12D19F0 Offset: 0x12CFFF0 VA: 0x1812D19F0
+	// RVA: 0x12D1CB0 Offset: 0x12D02B0 VA: 0x1812D1CB0
 	public void .ctor() { }
 
 }
@@ -1849,17 +1849,17 @@ public class TOD_Shadows : TOD_ImageEffect // TypeDefIndex: 8107
 
 	// Methods
 
-	// RVA: 0x12D1B00 Offset: 0x12D0100 VA: 0x1812D1B00
+	// RVA: 0x12D1DC0 Offset: 0x12D03C0 VA: 0x1812D1DC0
 	protected void OnEnable() { }
 
-	// RVA: 0x12D1A70 Offset: 0x12D0070 VA: 0x1812D1A70
+	// RVA: 0x12D1D30 Offset: 0x12D0330 VA: 0x1812D1D30
 	protected void OnDisable() { }
 
 	[ImageEffectOpaque] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12D1BB0 Offset: 0x12D01B0 VA: 0x1812D1BB0
+	// RVA: 0x12D1E70 Offset: 0x12D0470 VA: 0x1812D1E70
 	protected void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x12D1DE0 Offset: 0x12D03E0 VA: 0x1812D1DE0
+	// RVA: 0x12D20A0 Offset: 0x12D06A0 VA: 0x1812D20A0
 	public void .ctor() { }
 
 }
@@ -2039,59 +2039,59 @@ public class TOD_Sky : MonoBehaviour // TypeDefIndex: 8108
 
 	// Methods
 
-	// RVA: 0x12DA6E0 Offset: 0x12D8CE0 VA: 0x1812DA6E0
+	// RVA: 0x12DA9A0 Offset: 0x12D8FA0 VA: 0x1812DA9A0
 	public static List<TOD_Sky> get_Instances() { }
 
-	// RVA: 0x12DA610 Offset: 0x12D8C10 VA: 0x1812DA610
+	// RVA: 0x12DA8D0 Offset: 0x12D8ED0 VA: 0x1812DA8D0
 	public static TOD_Sky get_Instance() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC2B7E0 Offset: 0xC29DE0 VA: 0x180C2B7E0
+	// RVA: 0xC2BAA0 Offset: 0xC2A0A0 VA: 0x180C2BAA0
 	public bool get_Initialized() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC2BCC0 Offset: 0xC2A2C0 VA: 0x180C2BCC0
+	// RVA: 0xC2BF80 Offset: 0xC2A580 VA: 0x180C2BF80
 	private void set_Initialized(bool value) { }
 
-	// RVA: 0x12DA5F0 Offset: 0x12D8BF0 VA: 0x1812DA5F0
+	// RVA: 0x12DA8B0 Offset: 0x12D8EB0 VA: 0x1812DA8B0
 	public bool get_Headless() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x952B90 Offset: 0x951190 VA: 0x180952B90
+	// RVA: 0x952CA0 Offset: 0x9512A0 VA: 0x180952CA0
 	public TOD_Components get_Components() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73C90 Offset: 0xC72290 VA: 0x180C73C90
+	// RVA: 0xC73F50 Offset: 0xC72550 VA: 0x180C73F50
 	private void set_Components(TOD_Components value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9921A0 Offset: 0x9907A0 VA: 0x1809921A0
+	// RVA: 0x9922B0 Offset: 0x9908B0 VA: 0x1809922B0
 	public TOD_Resources get_Resources() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D220 Offset: 0xA4B820 VA: 0x180A4D220
+	// RVA: 0xA4D4E0 Offset: 0xA4BAE0 VA: 0x180A4D4E0
 	private void set_Resources(TOD_Resources value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA740 Offset: 0x12D8D40 VA: 0x1812DA740
+	// RVA: 0x12DAA00 Offset: 0x12D9000 VA: 0x1812DAA00
 	public bool get_IsDay() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAB10 Offset: 0x12D9110 VA: 0x1812DAB10
+	// RVA: 0x12DADD0 Offset: 0x12D93D0 VA: 0x1812DADD0
 	private void set_IsDay(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA750 Offset: 0x12D8D50 VA: 0x1812DA750
+	// RVA: 0x12DAA10 Offset: 0x12D9010 VA: 0x1812DAA10
 	public bool get_IsNight() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAB20 Offset: 0x12D9120 VA: 0x1812DAB20
+	// RVA: 0x12DADE0 Offset: 0x12D93E0 VA: 0x1812DADE0
 	private void set_IsNight(bool value) { }
 
-	// RVA: 0x12DA9F0 Offset: 0x12D8FF0 VA: 0x1812DA9F0
+	// RVA: 0x12DACB0 Offset: 0x12D92B0 VA: 0x1812DACB0
 	public float get_Radius() { }
 
-	// RVA: 0x12DA590 Offset: 0x12D8B90 VA: 0x1812DA590
+	// RVA: 0x12DA850 Offset: 0x12D8E50 VA: 0x1812DA850
 	public float get_Diameter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -2103,395 +2103,395 @@ public class TOD_Sky : MonoBehaviour // TypeDefIndex: 8108
 	private void set_LerpValue(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAAB0 Offset: 0x12D90B0 VA: 0x1812DAAB0
+	// RVA: 0x12DAD70 Offset: 0x12D9370 VA: 0x1812DAD70
 	public float get_SunZenith() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAD10 Offset: 0x12D9310 VA: 0x1812DAD10
+	// RVA: 0x12DAFD0 Offset: 0x12D95D0 VA: 0x1812DAFD0
 	private void set_SunZenith(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAA30 Offset: 0x12D9030 VA: 0x1812DAA30
+	// RVA: 0x12DACF0 Offset: 0x12D92F0 VA: 0x1812DACF0
 	public float get_SunAltitude() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAC70 Offset: 0x12D9270 VA: 0x1812DAC70
+	// RVA: 0x12DAF30 Offset: 0x12D9530 VA: 0x1812DAF30
 	private void set_SunAltitude(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAA40 Offset: 0x12D9040 VA: 0x1812DAA40
+	// RVA: 0x12DAD00 Offset: 0x12D9300 VA: 0x1812DAD00
 	public float get_SunAzimuth() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAC80 Offset: 0x12D9280 VA: 0x1812DAC80
+	// RVA: 0x12DAF40 Offset: 0x12D9540 VA: 0x1812DAF40
 	private void set_SunAzimuth(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA980 Offset: 0x12D8F80 VA: 0x1812DA980
+	// RVA: 0x12DAC40 Offset: 0x12D9240 VA: 0x1812DAC40
 	public float get_MoonZenith() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAC60 Offset: 0x12D9260 VA: 0x1812DAC60
+	// RVA: 0x12DAF20 Offset: 0x12D9520 VA: 0x1812DAF20
 	private void set_MoonZenith(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA8E0 Offset: 0x12D8EE0 VA: 0x1812DA8E0
+	// RVA: 0x12DABA0 Offset: 0x12D91A0 VA: 0x1812DABA0
 	public float get_MoonAltitude() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DABB0 Offset: 0x12D91B0 VA: 0x1812DABB0
+	// RVA: 0x12DAE70 Offset: 0x12D9470 VA: 0x1812DAE70
 	private void set_MoonAltitude(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA8F0 Offset: 0x12D8EF0 VA: 0x1812DA8F0
+	// RVA: 0x12DABB0 Offset: 0x12D91B0 VA: 0x1812DABB0
 	public float get_MoonAzimuth() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DABC0 Offset: 0x12D91C0 VA: 0x1812DABC0
+	// RVA: 0x12DAE80 Offset: 0x12D9480 VA: 0x1812DAE80
 	private void set_MoonAzimuth(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAAD0 Offset: 0x12D90D0 VA: 0x1812DAAD0
+	// RVA: 0x12DAD90 Offset: 0x12D9390 VA: 0x1812DAD90
 	public float get_SunsetTime() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAD30 Offset: 0x12D9330 VA: 0x1812DAD30
+	// RVA: 0x12DAFF0 Offset: 0x12D95F0 VA: 0x1812DAFF0
 	private void set_SunsetTime(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAAC0 Offset: 0x12D90C0 VA: 0x1812DAAC0
+	// RVA: 0x12DAD80 Offset: 0x12D9380 VA: 0x1812DAD80
 	public float get_SunriseTime() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAD20 Offset: 0x12D9320 VA: 0x1812DAD20
+	// RVA: 0x12DAFE0 Offset: 0x12D95E0 VA: 0x1812DAFE0
 	private void set_SunriseTime(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1132140 Offset: 0x1130740 VA: 0x181132140
+	// RVA: 0x1132400 Offset: 0x1130A00 VA: 0x181132400
 	public float get_LocalSiderealTime() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1132940 Offset: 0x1130F40 VA: 0x181132940
+	// RVA: 0x1132C00 Offset: 0x1131200 VA: 0x181132C00
 	private void set_LocalSiderealTime(float value) { }
 
-	// RVA: 0x12DA800 Offset: 0x12D8E00 VA: 0x1812DA800
+	// RVA: 0x12DAAC0 Offset: 0x12D90C0 VA: 0x1812DAAC0
 	public float get_LightZenith() { }
 
-	// RVA: 0x12DA7D0 Offset: 0x12D8DD0 VA: 0x1812DA7D0
+	// RVA: 0x12DAA90 Offset: 0x12D9090 VA: 0x1812DAA90
 	public float get_LightIntensity() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAAA0 Offset: 0x12D90A0 VA: 0x1812DAAA0
+	// RVA: 0x12DAD60 Offset: 0x12D9360 VA: 0x1812DAD60
 	public float get_SunVisibility() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAD00 Offset: 0x12D9300 VA: 0x1812DAD00
+	// RVA: 0x12DAFC0 Offset: 0x12D95C0 VA: 0x1812DAFC0
 	private void set_SunVisibility(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1131F90 Offset: 0x1130590 VA: 0x181131F90
+	// RVA: 0x1132250 Offset: 0x1130850 VA: 0x181132250
 	public float get_MoonVisibility() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAC50 Offset: 0x12D9250 VA: 0x1812DAC50
+	// RVA: 0x12DAF10 Offset: 0x12D9510 VA: 0x1812DAF10
 	private void set_MoonVisibility(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAA50 Offset: 0x12D9050 VA: 0x1812DAA50
+	// RVA: 0x12DAD10 Offset: 0x12D9310 VA: 0x1812DAD10
 	public Vector3 get_SunDirection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DACA0 Offset: 0x12D92A0 VA: 0x1812DACA0
+	// RVA: 0x12DAF60 Offset: 0x12D9560 VA: 0x1812DAF60
 	private void set_SunDirection(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA910 Offset: 0x12D8F10 VA: 0x1812DA910
+	// RVA: 0x12DABD0 Offset: 0x12D91D0 VA: 0x1812DABD0
 	public Vector3 get_MoonDirection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DABE0 Offset: 0x12D91E0 VA: 0x1812DABE0
+	// RVA: 0x12DAEA0 Offset: 0x12D94A0 VA: 0x1812DAEA0
 	private void set_MoonDirection(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA7B0 Offset: 0x12D8DB0 VA: 0x1812DA7B0
+	// RVA: 0x12DAA70 Offset: 0x12D9070 VA: 0x1812DAA70
 	public Vector3 get_LightDirection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAB30 Offset: 0x12D9130 VA: 0x1812DAB30
+	// RVA: 0x12DADF0 Offset: 0x12D93F0 VA: 0x1812DADF0
 	private void set_LightDirection(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA8C0 Offset: 0x12D8EC0 VA: 0x1812DA8C0
+	// RVA: 0x12DAB80 Offset: 0x12D9180 VA: 0x1812DAB80
 	public Vector3 get_LocalSunDirection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAB90 Offset: 0x12D9190 VA: 0x1812DAB90
+	// RVA: 0x12DAE50 Offset: 0x12D9450 VA: 0x1812DAE50
 	private void set_LocalSunDirection(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA8A0 Offset: 0x12D8EA0 VA: 0x1812DA8A0
+	// RVA: 0x12DAB60 Offset: 0x12D9160 VA: 0x1812DAB60
 	public Vector3 get_LocalMoonDirection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAB70 Offset: 0x12D9170 VA: 0x1812DAB70
+	// RVA: 0x12DAE30 Offset: 0x12D9430 VA: 0x1812DAE30
 	private void set_LocalMoonDirection(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA880 Offset: 0x12D8E80 VA: 0x1812DA880
+	// RVA: 0x12DAB40 Offset: 0x12D9140 VA: 0x1812DAB40
 	public Vector3 get_LocalLightDirection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAB50 Offset: 0x12D9150 VA: 0x1812DAB50
+	// RVA: 0x12DAE10 Offset: 0x12D9410 VA: 0x1812DAE10
 	private void set_LocalLightDirection(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAA70 Offset: 0x12D9070 VA: 0x1812DAA70
+	// RVA: 0x12DAD30 Offset: 0x12D9330 VA: 0x1812DAD30
 	public Color get_SunLightColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DACC0 Offset: 0x12D92C0 VA: 0x1812DACC0
+	// RVA: 0x12DAF80 Offset: 0x12D9580 VA: 0x1812DAF80
 	private void set_SunLightColor(Color value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA940 Offset: 0x12D8F40 VA: 0x1812DA940
+	// RVA: 0x12DAC00 Offset: 0x12D9200 VA: 0x1812DAC00
 	public Color get_MoonLightColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAC10 Offset: 0x12D9210 VA: 0x1812DAC10
+	// RVA: 0x12DAED0 Offset: 0x12D94D0 VA: 0x1812DAED0
 	private void set_MoonLightColor(Color value) { }
 
-	// RVA: 0x12DA760 Offset: 0x12D8D60 VA: 0x1812DA760
+	// RVA: 0x12DAA20 Offset: 0x12D9020 VA: 0x1812DAA20
 	public Color get_LightColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAA90 Offset: 0x12D9090 VA: 0x1812DAA90
+	// RVA: 0x12DAD50 Offset: 0x12D9350 VA: 0x1812DAD50
 	public Color get_SunRayColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DACE0 Offset: 0x12D92E0 VA: 0x1812DACE0
+	// RVA: 0x12DAFA0 Offset: 0x12D95A0 VA: 0x1812DAFA0
 	public void set_SunRayColor(Color value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA960 Offset: 0x12D8F60 VA: 0x1812DA960
+	// RVA: 0x12DAC20 Offset: 0x12D9220 VA: 0x1812DAC20
 	public Color get_MoonRayColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAC30 Offset: 0x12D9230 VA: 0x1812DAC30
+	// RVA: 0x12DAEF0 Offset: 0x12D94F0 VA: 0x1812DAEF0
 	public void set_MoonRayColor(Color value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEB1AF0 Offset: 0xEB00F0 VA: 0x180EB1AF0
+	// RVA: 0xEB1DB0 Offset: 0xEB03B0 VA: 0x180EB1DB0
 	public Color get_SunSkyColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DACF0 Offset: 0x12D92F0 VA: 0x1812DACF0
+	// RVA: 0x12DAFB0 Offset: 0x12D95B0 VA: 0x1812DAFB0
 	private void set_SunSkyColor(Color value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA970 Offset: 0x12D8F70 VA: 0x1812DA970
+	// RVA: 0x12DAC30 Offset: 0x12D9230 VA: 0x1812DAC30
 	public Color get_MoonSkyColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAC40 Offset: 0x12D9240 VA: 0x1812DAC40
+	// RVA: 0x12DAF00 Offset: 0x12D9500 VA: 0x1812DAF00
 	private void set_MoonSkyColor(Color value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAA80 Offset: 0x12D9080 VA: 0x1812DAA80
+	// RVA: 0x12DAD40 Offset: 0x12D9340 VA: 0x1812DAD40
 	public Color get_SunMeshColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DACD0 Offset: 0x12D92D0 VA: 0x1812DACD0
+	// RVA: 0x12DAF90 Offset: 0x12D9590 VA: 0x1812DAF90
 	private void set_SunMeshColor(Color value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA950 Offset: 0x12D8F50 VA: 0x1812DA950
+	// RVA: 0x12DAC10 Offset: 0x12D9210 VA: 0x1812DAC10
 	public Color get_MoonMeshColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAC20 Offset: 0x12D9220 VA: 0x1812DAC20
+	// RVA: 0x12DAEE0 Offset: 0x12D94E0 VA: 0x1812DAEE0
 	private void set_MoonMeshColor(Color value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC83370 Offset: 0xC81970 VA: 0x180C83370
+	// RVA: 0xC83630 Offset: 0xC81C30 VA: 0x180C83630
 	public Color get_SunCloudColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAC90 Offset: 0x12D9290 VA: 0x1812DAC90
+	// RVA: 0x12DAF50 Offset: 0x12D9550 VA: 0x1812DAF50
 	private void set_SunCloudColor(Color value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA900 Offset: 0x12D8F00 VA: 0x1812DA900
+	// RVA: 0x12DABC0 Offset: 0x12D91C0 VA: 0x1812DABC0
 	public Color get_MoonCloudColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DABD0 Offset: 0x12D91D0 VA: 0x1812DABD0
+	// RVA: 0x12DAE90 Offset: 0x12D9490 VA: 0x1812DAE90
 	private void set_MoonCloudColor(Color value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA5D0 Offset: 0x12D8BD0 VA: 0x1812DA5D0
+	// RVA: 0x12DA890 Offset: 0x12D8E90 VA: 0x1812DA890
 	public Color get_FogColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAAF0 Offset: 0x12D90F0 VA: 0x1812DAAF0
+	// RVA: 0x12DADB0 Offset: 0x12D93B0 VA: 0x1812DADB0
 	private void set_FogColor(Color value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA5E0 Offset: 0x12D8BE0 VA: 0x1812DA5E0
+	// RVA: 0x12DA8A0 Offset: 0x12D8EA0 VA: 0x1812DA8A0
 	public Color get_GroundColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAB00 Offset: 0x12D9100 VA: 0x1812DAB00
+	// RVA: 0x12DADC0 Offset: 0x12D93C0 VA: 0x1812DADC0
 	private void set_GroundColor(Color value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA580 Offset: 0x12D8B80 VA: 0x1812DA580
+	// RVA: 0x12DA840 Offset: 0x12D8E40 VA: 0x1812DA840
 	public Color get_AmbientColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAAE0 Offset: 0x12D90E0 VA: 0x1812DAAE0
+	// RVA: 0x12DADA0 Offset: 0x12D93A0 VA: 0x1812DADA0
 	private void set_AmbientColor(Color value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DA930 Offset: 0x12D8F30 VA: 0x1812DA930
+	// RVA: 0x12DABF0 Offset: 0x12D91F0 VA: 0x1812DABF0
 	public Color get_MoonHaloColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DAC00 Offset: 0x12D9200 VA: 0x1812DAC00
+	// RVA: 0x12DAEC0 Offset: 0x12D94C0 VA: 0x1812DAEC0
 	private void set_MoonHaloColor(Color value) { }
 
-	// RVA: 0x12DA9D0 Offset: 0x12D8FD0 VA: 0x1812DA9D0
+	// RVA: 0x12DAC90 Offset: 0x12D9290 VA: 0x1812DAC90
 	public ReflectionProbe get_Probe() { }
 
-	// RVA: 0x12DA9B0 Offset: 0x12D8FB0 VA: 0x1812DA9B0
+	// RVA: 0x12DAC70 Offset: 0x12D9270 VA: 0x1812DAC70
 	public GameObject get_ProbeInstance() { }
 
-	// RVA: 0x12DA990 Offset: 0x12D8F90 VA: 0x1812DA990
+	// RVA: 0x12DAC50 Offset: 0x12D9250 VA: 0x1812DAC50
 	public MonoBehaviour get_ProbeEx() { }
 
-	// RVA: 0x12D2750 Offset: 0x12D0D50 VA: 0x1812D2750
+	// RVA: 0x12D2A10 Offset: 0x12D1010 VA: 0x1812D2A10
 	public Vector3 OrbitalToUnity(float radius, float theta, float phi) { }
 
-	// RVA: 0x12D2690 Offset: 0x12D0C90 VA: 0x1812D2690
+	// RVA: 0x12D2950 Offset: 0x12D0F50 VA: 0x1812D2950
 	public Vector3 OrbitalToLocal(float theta, float phi) { }
 
-	// RVA: 0x12D3E70 Offset: 0x12D2470 VA: 0x1812D3E70
+	// RVA: 0x12D4130 Offset: 0x12D2730 VA: 0x1812D4130
 	public Color SampleAtmosphere(Vector3 direction, bool directLight = True) { }
 
-	// RVA: 0x12D3D10 Offset: 0x12D2310 VA: 0x1812D3D10
+	// RVA: 0x12D3FD0 Offset: 0x12D25D0 VA: 0x1812D3FD0
 	public SphericalHarmonicsL2 RenderToSphericalHarmonics() { }
 
-	// RVA: 0x12D2CF0 Offset: 0x12D12F0 VA: 0x1812D2CF0
+	// RVA: 0x12D2FB0 Offset: 0x12D15B0 VA: 0x1812D2FB0
 	public SphericalHarmonicsL2 RenderToSphericalHarmonics(float intensity, float saturation) { }
 
-	// RVA: 0x12D2860 Offset: 0x12D0E60 VA: 0x1812D2860
+	// RVA: 0x12D2B20 Offset: 0x12D1120 VA: 0x1812D2B20
 	public void RenderToCubemap(RenderTexture targetTexture) { }
 
-	// RVA: 0x12D29A0 Offset: 0x12D0FA0 VA: 0x1812D29A0
+	// RVA: 0x12D2C60 Offset: 0x12D1260 VA: 0x1812D2C60
 	public void RenderToProbe() { }
 
-	// RVA: 0x12D2820 Offset: 0x12D0E20 VA: 0x1812D2820
+	// RVA: 0x12D2AE0 Offset: 0x12D10E0 VA: 0x1812D2AE0
 	public bool ReflectionIsUpdating() { }
 
-	// RVA: 0x12D8370 Offset: 0x12D6970 VA: 0x1812D8370
+	// RVA: 0x12D8630 Offset: 0x12D6C30 VA: 0x1812D8630
 	private void UpdateProbeBlending(float lerp) { }
 
-	// RVA: 0x12D8460 Offset: 0x12D6A60 VA: 0x1812D8460
+	// RVA: 0x12D8720 Offset: 0x12D6D20 VA: 0x1812D8720
 	private void UpdateProbeProperties(ReflectionProbe probe) { }
 
-	// RVA: 0x12D41F0 Offset: 0x12D27F0 VA: 0x1812D41F0
+	// RVA: 0x12D44B0 Offset: 0x12D2AB0 VA: 0x1812D44B0
 	public Color SampleFogColor(bool directLight = True) { }
 
-	// RVA: 0x12D44A0 Offset: 0x12D2AA0 VA: 0x1812D44A0
+	// RVA: 0x12D4760 Offset: 0x12D2D60 VA: 0x1812D4760
 	public Color SampleSkyColor() { }
 
-	// RVA: 0x12D4130 Offset: 0x12D2730 VA: 0x1812D4130
+	// RVA: 0x12D43F0 Offset: 0x12D29F0 VA: 0x1812D43F0
 	public Color SampleEquatorColor() { }
 
-	// RVA: 0x12D82F0 Offset: 0x12D68F0 VA: 0x1812D82F0
+	// RVA: 0x12D85B0 Offset: 0x12D6BB0 VA: 0x1812D85B0
 	public void UpdateFog() { }
 
-	// RVA: 0x12D59C0 Offset: 0x12D3FC0 VA: 0x1812D59C0
+	// RVA: 0x12D5C80 Offset: 0x12D4280 VA: 0x1812D5C80
 	public void UpdateAmbient() { }
 
-	// RVA: 0x12D8D50 Offset: 0x12D7350 VA: 0x1812D8D50
+	// RVA: 0x12D9010 Offset: 0x12D7610 VA: 0x1812D9010
 	public void UpdateReflection() { }
 
-	// RVA: 0x12D1FF0 Offset: 0x12D05F0 VA: 0x1812D1FF0
+	// RVA: 0x12D22B0 Offset: 0x12D08B0 VA: 0x1812D22B0
 	public void DelayReflectionUpdate() { }
 
-	// RVA: 0x12D23E0 Offset: 0x12D09E0 VA: 0x1812D23E0
+	// RVA: 0x12D26A0 Offset: 0x12D0CA0 VA: 0x1812D26A0
 	public void LoadParameters(string xml) { }
 
-	// RVA: 0x12D45B0 Offset: 0x12D2BB0 VA: 0x1812D45B0
+	// RVA: 0x12D4870 Offset: 0x12D2E70 VA: 0x1812D4870
 	public string SaveParameters() { }
 
-	// RVA: 0x12D8740 Offset: 0x12D6D40 VA: 0x1812D8740
+	// RVA: 0x12D8A00 Offset: 0x12D7000 VA: 0x1812D8A00
 	private void UpdateQualitySettings() { }
 
-	// RVA: 0x12D8E50 Offset: 0x12D7450 VA: 0x1812D8E50
+	// RVA: 0x12D9110 Offset: 0x12D7710 VA: 0x1812D9110
 	private void UpdateRenderSettings() { }
 
-	// RVA: 0x12D9430 Offset: 0x12D7A30 VA: 0x1812D9430
+	// RVA: 0x12D96F0 Offset: 0x12D7CF0 VA: 0x1812D96F0
 	private void UpdateShaderKeywords() { }
 
-	// RVA: 0x12D9630 Offset: 0x12D7C30 VA: 0x1812D9630
+	// RVA: 0x12D98F0 Offset: 0x12D7EF0 VA: 0x1812D98F0
 	private void UpdateShaderProperties() { }
 
-	// RVA: 0x12D4B20 Offset: 0x12D3120 VA: 0x1812D4B20
+	// RVA: 0x12D4DE0 Offset: 0x12D33E0 VA: 0x1812D4DE0
 	private float ShaderScale(float inCos) { }
 
-	// RVA: 0x12D4800 Offset: 0x12D2E00 VA: 0x1812D4800
+	// RVA: 0x12D4AC0 Offset: 0x12D30C0 VA: 0x1812D4AC0
 	private float ShaderMiePhase(float eyeCos, float eyeCos2) { }
 
-	// RVA: 0x12D4B00 Offset: 0x12D3100 VA: 0x1812D4B00
+	// RVA: 0x12D4DC0 Offset: 0x12D33C0 VA: 0x1812D4DC0
 	private float ShaderRayleighPhase(float eyeCos2) { }
 
-	// RVA: 0x12D4A10 Offset: 0x12D3010 VA: 0x1812D4A10
+	// RVA: 0x12D4CD0 Offset: 0x12D32D0 VA: 0x1812D4CD0
 	private Color ShaderNightSkyColor(Vector3 dir) { }
 
-	// RVA: 0x12D48D0 Offset: 0x12D2ED0 VA: 0x1812D48D0
+	// RVA: 0x12D4B90 Offset: 0x12D3190 VA: 0x1812D4B90
 	private Color ShaderMoonHaloColor(Vector3 dir) { }
 
-	// RVA: 0x12D5770 Offset: 0x12D3D70 VA: 0x1812D5770
+	// RVA: 0x12D5A30 Offset: 0x12D4030 VA: 0x1812D5A30
 	private Color TOD_HDR2LDR(Color color) { }
 
-	// RVA: 0x12D5710 Offset: 0x12D3D10 VA: 0x1812D5710
+	// RVA: 0x12D59D0 Offset: 0x12D3FD0 VA: 0x1812D59D0
 	private Color TOD_GAMMA2LINEAR(Color color) { }
 
-	// RVA: 0x12D58F0 Offset: 0x12D3EF0 VA: 0x1812D58F0
+	// RVA: 0x12D5BB0 Offset: 0x12D41B0 VA: 0x1812D5BB0
 	private Color TOD_LINEAR2GAMMA(Color color) { }
 
-	// RVA: 0x12D4BD0 Offset: 0x12D31D0 VA: 0x1812D4BD0
+	// RVA: 0x12D4E90 Offset: 0x12D3490 VA: 0x1812D4E90
 	private Color ShaderScatteringColor(Vector3 dir, bool directLight = True) { }
 
-	// RVA: 0x12D2000 Offset: 0x12D0600 VA: 0x1812D2000
+	// RVA: 0x12D22C0 Offset: 0x12D08C0 VA: 0x1812D22C0
 	private void Initialize() { }
 
-	// RVA: 0x12D1E40 Offset: 0x12D0440 VA: 0x1812D1E40
+	// RVA: 0x12D2100 Offset: 0x12D0700 VA: 0x1812D2100
 	private void Cleanup() { }
 
-	// RVA: 0x12D2640 Offset: 0x12D0C40 VA: 0x1812D2640
+	// RVA: 0x12D2900 Offset: 0x12D0F00 VA: 0x1812D2900
 	protected void OnEnable() { }
 
-	// RVA: 0x12D2630 Offset: 0x12D0C30 VA: 0x1812D2630
+	// RVA: 0x12D28F0 Offset: 0x12D0EF0 VA: 0x1812D28F0
 	protected void OnDisable() { }
 
-	// RVA: 0x12D2100 Offset: 0x12D0700 VA: 0x1812D2100
+	// RVA: 0x12D23C0 Offset: 0x12D09C0 VA: 0x1812D23C0
 	protected void LateUpdate() { }
 
-	// RVA: 0x12D2650 Offset: 0x12D0C50 VA: 0x1812D2650
+	// RVA: 0x12D2910 Offset: 0x12D0F10 VA: 0x1812D2910
 	protected void OnValidate() { }
 
-	// RVA: 0x12D9280 Offset: 0x12D7880 VA: 0x1812D9280
+	// RVA: 0x12D9540 Offset: 0x12D7B40 VA: 0x1812D9540
 	private void UpdateScattering() { }
 
-	// RVA: 0x12D6130 Offset: 0x12D4730 VA: 0x1812D6130
+	// RVA: 0x12D63F0 Offset: 0x12D49F0 VA: 0x1812D63F0
 	private void UpdateCelestials() { }
 
-	// RVA: 0x12DA470 Offset: 0x12D8A70 VA: 0x1812DA470
+	// RVA: 0x12DA730 Offset: 0x12D8D30 VA: 0x1812DA730
 	public void .ctor() { }
 
-	// RVA: 0x12DA3B0 Offset: 0x12D89B0 VA: 0x1812DA3B0
+	// RVA: 0x12DA670 Offset: 0x12D8C70 VA: 0x1812DA670
 	private static void .cctor() { }
 
 }
@@ -2505,13 +2505,13 @@ public class TOD_Sky.ReflectionProbeState // TypeDefIndex: 8109
 
 	// Methods
 
-	// RVA: 0x12D0D00 Offset: 0x12CF300 VA: 0x1812D0D00
+	// RVA: 0x12D0FC0 Offset: 0x12CF5C0 VA: 0x1812D0FC0
 	public void InitializePrimary(Vector3 position, GameObject prefab) { }
 
-	// RVA: 0x12D10C0 Offset: 0x12CF6C0 VA: 0x1812D10C0
+	// RVA: 0x12D1380 Offset: 0x12CF980 VA: 0x1812D1380
 	public void InitializeSecondary(Vector3 position) { }
 
-	// RVA: 0x12D1260 Offset: 0x12CF860 VA: 0x1812D1260
+	// RVA: 0x12D1520 Offset: 0x12CFB20 VA: 0x1812D1520
 	public void .ctor() { }
 
 }
@@ -2555,94 +2555,94 @@ public class TOD_Time : MonoBehaviour // TypeDefIndex: 8110
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DBE30 Offset: 0x12DA430 VA: 0x1812DBE30
+	// RVA: 0x12DC0F0 Offset: 0x12DA6F0 VA: 0x1812DC0F0
 	public void add_OnSecond(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DC330 Offset: 0x12DA930 VA: 0x1812DC330
+	// RVA: 0x12DC5F0 Offset: 0x12DABF0 VA: 0x1812DC5F0
 	public void remove_OnSecond(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DBCF0 Offset: 0x12DA2F0 VA: 0x1812DBCF0
+	// RVA: 0x12DBFB0 Offset: 0x12DA5B0 VA: 0x1812DBFB0
 	public void add_OnMinute(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DC1F0 Offset: 0x12DA7F0 VA: 0x1812DC1F0
+	// RVA: 0x12DC4B0 Offset: 0x12DAAB0 VA: 0x1812DC4B0
 	public void remove_OnMinute(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DBC50 Offset: 0x12DA250 VA: 0x1812DBC50
+	// RVA: 0x12DBF10 Offset: 0x12DA510 VA: 0x1812DBF10
 	public void add_OnHour(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DC150 Offset: 0x12DA750 VA: 0x1812DC150
+	// RVA: 0x12DC410 Offset: 0x12DAA10 VA: 0x1812DC410
 	public void remove_OnHour(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DBBB0 Offset: 0x12DA1B0 VA: 0x1812DBBB0
+	// RVA: 0x12DBE70 Offset: 0x12DA470 VA: 0x1812DBE70
 	public void add_OnDay(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DC0B0 Offset: 0x12DA6B0 VA: 0x1812DC0B0
+	// RVA: 0x12DC370 Offset: 0x12DA970 VA: 0x1812DC370
 	public void remove_OnDay(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DBD90 Offset: 0x12DA390 VA: 0x1812DBD90
+	// RVA: 0x12DC050 Offset: 0x12DA650 VA: 0x1812DC050
 	public void add_OnMonth(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DC290 Offset: 0x12DA890 VA: 0x1812DC290
+	// RVA: 0x12DC550 Offset: 0x12DAB50 VA: 0x1812DC550
 	public void remove_OnMonth(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DC010 Offset: 0x12DA610 VA: 0x1812DC010
+	// RVA: 0x12DC2D0 Offset: 0x12DA8D0 VA: 0x1812DC2D0
 	public void add_OnYear(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DC510 Offset: 0x12DAB10 VA: 0x1812DC510
+	// RVA: 0x12DC7D0 Offset: 0x12DADD0 VA: 0x1812DC7D0
 	public void remove_OnYear(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DBED0 Offset: 0x12DA4D0 VA: 0x1812DBED0
+	// RVA: 0x12DC190 Offset: 0x12DA790 VA: 0x1812DC190
 	public void add_OnSunrise(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DC3D0 Offset: 0x12DA9D0 VA: 0x1812DC3D0
+	// RVA: 0x12DC690 Offset: 0x12DAC90 VA: 0x1812DC690
 	public void remove_OnSunrise(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DBF70 Offset: 0x12DA570 VA: 0x1812DBF70
+	// RVA: 0x12DC230 Offset: 0x12DA830 VA: 0x1812DC230
 	public void add_OnSunset(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12DC470 Offset: 0x12DAA70 VA: 0x1812DC470
+	// RVA: 0x12DC730 Offset: 0x12DAD30 VA: 0x1812DC730
 	public void remove_OnSunset(Action value) { }
 
-	// RVA: 0x12DB930 Offset: 0x12D9F30 VA: 0x1812DB930
+	// RVA: 0x12DBBF0 Offset: 0x12DA1F0 VA: 0x1812DBBF0
 	public void RefreshTimeCurve() { }
 
-	// RVA: 0x12DB0D0 Offset: 0x12D96D0 VA: 0x1812DB0D0
+	// RVA: 0x12DB390 Offset: 0x12D9990 VA: 0x1812DB390
 	public float ApplyTimeCurve(float deltaTime) { }
 
-	// RVA: 0x12DAD80 Offset: 0x12D9380 VA: 0x1812DAD80
+	// RVA: 0x12DB040 Offset: 0x12D9640 VA: 0x1812DB040
 	public void AddHours(float hours, bool adjust = True) { }
 
-	// RVA: 0x12DB0B0 Offset: 0x12D96B0 VA: 0x1812DB0B0
+	// RVA: 0x12DB370 Offset: 0x12D9970 VA: 0x1812DB370
 	public void AddSeconds(float seconds, bool adjust = True) { }
 
-	// RVA: 0x12DB6D0 Offset: 0x12D9CD0 VA: 0x1812DB6D0
+	// RVA: 0x12DB990 Offset: 0x12D9F90 VA: 0x1812DB990
 	private void CalculateLinearTangents(Keyframe[] keys) { }
 
-	// RVA: 0x12DB1F0 Offset: 0x12D97F0 VA: 0x1812DB1F0
+	// RVA: 0x12DB4B0 Offset: 0x12D9AB0 VA: 0x1812DB4B0
 	private void ApproximateCurve(AnimationCurve source, out AnimationCurve approxCurve, out AnimationCurve approxInverse) { }
 
-	// RVA: 0x12DB480 Offset: 0x12D9A80 VA: 0x1812DB480
+	// RVA: 0x12DB740 Offset: 0x12D9D40 VA: 0x1812DB740
 	protected void Awake() { }
 
-	// RVA: 0x12DBA00 Offset: 0x12DA000 VA: 0x1812DBA00
+	// RVA: 0x12DBCC0 Offset: 0x12DA2C0 VA: 0x1812DBCC0
 	protected void Update() { }
 
-	// RVA: 0x12DBB50 Offset: 0x12DA150 VA: 0x1812DBB50
+	// RVA: 0x12DBE10 Offset: 0x12DA410 VA: 0x1812DBE10
 	public void .ctor() { }
 
 }
@@ -2650,31 +2650,31 @@ public class TOD_Time : MonoBehaviour // TypeDefIndex: 8110
 public static class TOD_Util // TypeDefIndex: 8111
 {	// Methods
 
-	// RVA: 0x12DC850 Offset: 0x12DAE50 VA: 0x1812DC850
+	// RVA: 0x12DCB10 Offset: 0x12DB110 VA: 0x1812DCB10
 	public static Color MulRGB(Color color, float multiplier) { }
 
-	// RVA: 0x12DC7E0 Offset: 0x12DADE0 VA: 0x1812DC7E0
+	// RVA: 0x12DCAA0 Offset: 0x12DB0A0 VA: 0x1812DCAA0
 	public static Color MulRGBA(Color color, float multiplier) { }
 
-	// RVA: 0x12DC9E0 Offset: 0x12DAFE0 VA: 0x1812DC9E0
+	// RVA: 0x12DCCA0 Offset: 0x12DB2A0 VA: 0x1812DCCA0
 	public static Color PowRGB(Color color, float power) { }
 
-	// RVA: 0x12DC8C0 Offset: 0x12DAEC0 VA: 0x1812DC8C0
+	// RVA: 0x12DCB80 Offset: 0x12DB180 VA: 0x1812DCB80
 	public static Color PowRGBA(Color color, float power) { }
 
-	// RVA: 0x12DCB90 Offset: 0x12DB190 VA: 0x1812DCB90
+	// RVA: 0x12DCE50 Offset: 0x12DB450 VA: 0x1812DCE50
 	public static Color SatRGB(Color color, float saturation) { }
 
-	// RVA: 0x12DCAE0 Offset: 0x12DB0E0 VA: 0x1812DCAE0
+	// RVA: 0x12DCDA0 Offset: 0x12DB3A0 VA: 0x1812DCDA0
 	public static Color SatRGBA(Color color, float saturation) { }
 
-	// RVA: 0x12DC6A0 Offset: 0x12DACA0 VA: 0x1812DC6A0
+	// RVA: 0x12DC960 Offset: 0x12DAF60 VA: 0x1812DC960
 	public static Color AdjustRGB(Color color, float intensity, float saturation) { }
 
-	// RVA: 0x12DC5B0 Offset: 0x12DABB0 VA: 0x1812DC5B0
+	// RVA: 0x12DC870 Offset: 0x12DAE70 VA: 0x1812DC870
 	public static Color AdjustRGBA(Color color, float intensity, float saturation) { }
 
-	// RVA: 0x12DC780 Offset: 0x12DAD80 VA: 0x1812DC780
+	// RVA: 0x12DCA40 Offset: 0x12DB040 VA: 0x1812DCA40
 	public static Color ApplyAlpha(Color color) { }
 
 	// RVA: -1 Offset: -1
@@ -2694,13 +2694,13 @@ public abstract class TOD_Audio : MonoBehaviour // TypeDefIndex: 8112
 
 	// Methods
 
-	// RVA: 0x1074E20 Offset: 0x1073420 VA: 0x181074E20
+	// RVA: 0x10750E0 Offset: 0x10736E0 VA: 0x1810750E0
 	protected float GetVolume() { }
 
-	// RVA: 0x1074EB0 Offset: 0x10734B0 VA: 0x181074EB0
+	// RVA: 0x1075170 Offset: 0x1073770 VA: 0x181075170
 	protected void SetVolume(float value) { }
 
-	// RVA: 0x1074DD0 Offset: 0x10733D0 VA: 0x181074DD0
+	// RVA: 0x1075090 Offset: 0x1073690 VA: 0x181075090
 	protected void Awake() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -2716,10 +2716,10 @@ public class TOD_AudioAtDay : TOD_Audio // TypeDefIndex: 8113
 
 	// Methods
 
-	// RVA: 0x1074800 Offset: 0x1072E00 VA: 0x181074800
+	// RVA: 0x1074AC0 Offset: 0x10730C0 VA: 0x181074AC0
 	protected void Start() { }
 
-	// RVA: 0x10748A0 Offset: 0x1072EA0 VA: 0x1810748A0
+	// RVA: 0x1074B60 Offset: 0x1073160 VA: 0x181074B60
 	protected void Update() { }
 
 	// RVA: 0x57BC30 Offset: 0x57A230 VA: 0x18057BC30
@@ -2735,10 +2735,10 @@ public class TOD_AudioAtNight : TOD_Audio // TypeDefIndex: 8114
 
 	// Methods
 
-	// RVA: 0x10749B0 Offset: 0x1072FB0 VA: 0x1810749B0
+	// RVA: 0x1074C70 Offset: 0x1073270 VA: 0x181074C70
 	protected void Start() { }
 
-	// RVA: 0x1074A50 Offset: 0x1073050 VA: 0x181074A50
+	// RVA: 0x1074D10 Offset: 0x1073310 VA: 0x181074D10
 	protected void Update() { }
 
 	// RVA: 0x57BC30 Offset: 0x57A230 VA: 0x18057BC30
@@ -2752,10 +2752,10 @@ public class TOD_AudioAtTime : TOD_Audio // TypeDefIndex: 8115
 
 	// Methods
 
-	// RVA: 0x1074B60 Offset: 0x1073160 VA: 0x181074B60
+	// RVA: 0x1074E20 Offset: 0x1073420 VA: 0x181074E20
 	protected void Update() { }
 
-	// RVA: 0x1074C00 Offset: 0x1073200 VA: 0x181074C00
+	// RVA: 0x1074EC0 Offset: 0x10734C0 VA: 0x181074EC0
 	public void .ctor() { }
 
 }
@@ -2766,13 +2766,13 @@ public abstract class TOD_Light : MonoBehaviour // TypeDefIndex: 8116
 
 	// Methods
 
-	// RVA: 0x1078450 Offset: 0x1076A50 VA: 0x181078450
+	// RVA: 0x1078710 Offset: 0x1076D10 VA: 0x181078710
 	protected float GetIntensity() { }
 
-	// RVA: 0x10784E0 Offset: 0x1076AE0 VA: 0x1810784E0
+	// RVA: 0x10787A0 Offset: 0x1076DA0 VA: 0x1810787A0
 	protected void SetIntensity(float value) { }
 
-	// RVA: 0x1078400 Offset: 0x1076A00 VA: 0x181078400
+	// RVA: 0x10786C0 Offset: 0x1076CC0 VA: 0x1810786C0
 	protected void Awake() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -2788,10 +2788,10 @@ public class TOD_LightAtDay : TOD_Light // TypeDefIndex: 8117
 
 	// Methods
 
-	// RVA: 0x1077E30 Offset: 0x1076430 VA: 0x181077E30
+	// RVA: 0x10780F0 Offset: 0x10766F0 VA: 0x1810780F0
 	protected void Start() { }
 
-	// RVA: 0x1077ED0 Offset: 0x10764D0 VA: 0x181077ED0
+	// RVA: 0x1078190 Offset: 0x1076790 VA: 0x181078190
 	protected void Update() { }
 
 	// RVA: 0x57BC30 Offset: 0x57A230 VA: 0x18057BC30
@@ -2807,10 +2807,10 @@ public class TOD_LightAtNight : TOD_Light // TypeDefIndex: 8118
 
 	// Methods
 
-	// RVA: 0x1077FE0 Offset: 0x10765E0 VA: 0x181077FE0
+	// RVA: 0x10782A0 Offset: 0x10768A0 VA: 0x1810782A0
 	protected void Start() { }
 
-	// RVA: 0x1078080 Offset: 0x1076680 VA: 0x181078080
+	// RVA: 0x1078340 Offset: 0x1076940 VA: 0x181078340
 	protected void Update() { }
 
 	// RVA: 0x57BC30 Offset: 0x57A230 VA: 0x18057BC30
@@ -2824,10 +2824,10 @@ public class TOD_LightAtTime : TOD_Light // TypeDefIndex: 8119
 
 	// Methods
 
-	// RVA: 0x1078190 Offset: 0x1076790 VA: 0x181078190
+	// RVA: 0x1078450 Offset: 0x1076A50 VA: 0x181078450
 	protected void Update() { }
 
-	// RVA: 0x1078230 Offset: 0x1076830 VA: 0x181078230
+	// RVA: 0x10784F0 Offset: 0x1076AF0 VA: 0x1810784F0
 	public void .ctor() { }
 
 }
@@ -2839,7 +2839,7 @@ public class TOD_LoadSkyFromFile : MonoBehaviour // TypeDefIndex: 8120
 
 	// Methods
 
-	// RVA: 0x1078590 Offset: 0x1076B90 VA: 0x181078590
+	// RVA: 0x1078850 Offset: 0x1076E50 VA: 0x181078850
 	protected void Start() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -2853,13 +2853,13 @@ public abstract class TOD_Particle : MonoBehaviour // TypeDefIndex: 8121
 
 	// Methods
 
-	// RVA: 0x1078F40 Offset: 0x1077540 VA: 0x181078F40
+	// RVA: 0x1079200 Offset: 0x1077800 VA: 0x181079200
 	protected float GetEmission() { }
 
-	// RVA: 0x1078FE0 Offset: 0x10775E0 VA: 0x181078FE0
+	// RVA: 0x10792A0 Offset: 0x10778A0 VA: 0x1810792A0
 	protected void SetEmission(float value) { }
 
-	// RVA: 0x1078EF0 Offset: 0x10774F0 VA: 0x181078EF0
+	// RVA: 0x10791B0 Offset: 0x10777B0 VA: 0x1810791B0
 	protected void Awake() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -2875,10 +2875,10 @@ public class TOD_ParticleAtDay : TOD_Particle // TypeDefIndex: 8122
 
 	// Methods
 
-	// RVA: 0x1078920 Offset: 0x1076F20 VA: 0x181078920
+	// RVA: 0x1078BE0 Offset: 0x10771E0 VA: 0x181078BE0
 	protected void Start() { }
 
-	// RVA: 0x10789C0 Offset: 0x1076FC0 VA: 0x1810789C0
+	// RVA: 0x1078C80 Offset: 0x1077280 VA: 0x181078C80
 	protected void Update() { }
 
 	// RVA: 0x57BC30 Offset: 0x57A230 VA: 0x18057BC30
@@ -2894,10 +2894,10 @@ public class TOD_ParticleAtNight : TOD_Particle // TypeDefIndex: 8123
 
 	// Methods
 
-	// RVA: 0x1078AD0 Offset: 0x10770D0 VA: 0x181078AD0
+	// RVA: 0x1078D90 Offset: 0x1077390 VA: 0x181078D90
 	protected void Start() { }
 
-	// RVA: 0x1078B70 Offset: 0x1077170 VA: 0x181078B70
+	// RVA: 0x1078E30 Offset: 0x1077430 VA: 0x181078E30
 	protected void Update() { }
 
 	// RVA: 0x57BC30 Offset: 0x57A230 VA: 0x18057BC30
@@ -2911,10 +2911,10 @@ public class TOD_ParticleAtTime : TOD_Particle // TypeDefIndex: 8124
 
 	// Methods
 
-	// RVA: 0x1078C80 Offset: 0x1077280 VA: 0x181078C80
+	// RVA: 0x1078F40 Offset: 0x1077540 VA: 0x181078F40
 	protected void Update() { }
 
-	// RVA: 0x1078D20 Offset: 0x1077320 VA: 0x181078D20
+	// RVA: 0x1078FE0 Offset: 0x10775E0 VA: 0x181078FE0
 	public void .ctor() { }
 
 }
@@ -2925,10 +2925,10 @@ public abstract class TOD_Render : MonoBehaviour // TypeDefIndex: 8125
 
 	// Methods
 
-	// RVA: 0x1079920 Offset: 0x1077F20 VA: 0x181079920
+	// RVA: 0x1079BE0 Offset: 0x10781E0 VA: 0x181079BE0
 	protected void SetState(bool value) { }
 
-	// RVA: 0x10798D0 Offset: 0x1077ED0 VA: 0x1810798D0
+	// RVA: 0x1079B90 Offset: 0x1078190 VA: 0x181079B90
 	protected void Awake() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -2939,10 +2939,10 @@ public abstract class TOD_Render : MonoBehaviour // TypeDefIndex: 8125
 public class TOD_RenderAtDay : TOD_Render // TypeDefIndex: 8126
 {	// Methods
 
-	// RVA: 0x1079710 Offset: 0x1077D10 VA: 0x181079710
+	// RVA: 0x10799D0 Offset: 0x1077FD0 VA: 0x1810799D0
 	protected void Start() { }
 
-	// RVA: 0x1079780 Offset: 0x1077D80 VA: 0x181079780
+	// RVA: 0x1079A40 Offset: 0x1078040 VA: 0x181079A40
 	protected void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -2953,10 +2953,10 @@ public class TOD_RenderAtDay : TOD_Render // TypeDefIndex: 8126
 public class TOD_RenderAtNight : TOD_Render // TypeDefIndex: 8127
 {	// Methods
 
-	// RVA: 0x10797F0 Offset: 0x1077DF0 VA: 0x1810797F0
+	// RVA: 0x1079AB0 Offset: 0x10780B0 VA: 0x181079AB0
 	protected void Start() { }
 
-	// RVA: 0x1079860 Offset: 0x1077E60 VA: 0x181079860
+	// RVA: 0x1079B20 Offset: 0x1078120 VA: 0x181079B20
 	protected void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -2984,16 +2984,16 @@ public class TOD_WeatherManager : MonoBehaviour // TypeDefIndex: 8128
 
 	// Methods
 
-	// RVA: 0x12DCC20 Offset: 0x12DB220 VA: 0x1812DCC20
+	// RVA: 0x12DCEE0 Offset: 0x12DB4E0 VA: 0x1812DCEE0
 	private float GetRainEmission() { }
 
-	// RVA: 0x12DCCC0 Offset: 0x12DB2C0 VA: 0x1812DCCC0
+	// RVA: 0x12DCF80 Offset: 0x12DB580 VA: 0x1812DCF80
 	private void SetRainEmission(float value) { }
 
-	// RVA: 0x12DCD60 Offset: 0x12DB360 VA: 0x1812DCD60
+	// RVA: 0x12DD020 Offset: 0x12DB620 VA: 0x1812DD020
 	protected void Start() { }
 
-	// RVA: 0x12DCE30 Offset: 0x12DB430 VA: 0x1812DCE30
+	// RVA: 0x12DD0F0 Offset: 0x12DB6F0 VA: 0x1812DD0F0
 	protected void Update() { }
 
 	// RVA: 0x4C7F30 Offset: 0x4C6530 VA: 0x1804C7F30

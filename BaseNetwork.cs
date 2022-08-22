@@ -8,82 +8,82 @@ public class BaseNetworkable : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x2001300 Offset: 0x1FFF900 VA: 0x182001300
+	// RVA: 0x20015C0 Offset: 0x1FFFBC0 VA: 0x1820015C0
 	public static void ResetToPool(BaseNetworkable instance) { }
 
-	// RVA: 0x2001390 Offset: 0x1FFF990 VA: 0x182001390
+	// RVA: 0x2001650 Offset: 0x1FFFC50 VA: 0x182001650
 	public void ResetToPool() { }
 
-	// RVA: 0x2001020 Offset: 0x1FFF620 VA: 0x182001020 Slot: 9
+	// RVA: 0x20012E0 Offset: 0x1FFF8E0 VA: 0x1820012E0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
+	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
+	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E28460 Offset: 0x1E26A60 VA: 0x181E28460
+	// RVA: 0x1E28720 Offset: 0x1E26D20 VA: 0x181E28720
 	public void CopyTo(BaseNetworkable instance) { }
 
-	// RVA: 0x20000F0 Offset: 0x1FFE6F0 VA: 0x1820000F0
+	// RVA: 0x20003B0 Offset: 0x1FFE9B0 VA: 0x1820003B0
 	public BaseNetworkable Copy() { }
 
-	// RVA: 0x2000A00 Offset: 0x1FFF000 VA: 0x182000A00
+	// RVA: 0x2000CC0 Offset: 0x1FFF2C0 VA: 0x182000CC0
 	public static BaseNetworkable Deserialize(Stream stream) { }
 
-	// RVA: 0x2000170 Offset: 0x1FFE770 VA: 0x182000170
+	// RVA: 0x2000430 Offset: 0x1FFEA30 VA: 0x182000430
 	public static BaseNetworkable DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20006D0 Offset: 0x1FFECD0 VA: 0x1820006D0
+	// RVA: 0x2000990 Offset: 0x1FFEF90 VA: 0x182000990
 	public static BaseNetworkable DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2000760 Offset: 0x1FFED60 VA: 0x182000760
+	// RVA: 0x2000A20 Offset: 0x1FFF020 VA: 0x182000A20
 	public static BaseNetworkable Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2001130 Offset: 0x1FFF730 VA: 0x182001130
+	// RVA: 0x20013F0 Offset: 0x1FFF9F0 VA: 0x1820013F0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20018D0 Offset: 0x1FFFED0 VA: 0x1820018D0 Slot: 12
+	// RVA: 0x2001B90 Offset: 0x2000190 VA: 0x182001B90 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20018F0 Offset: 0x1FFFEF0 VA: 0x1820018F0 Slot: 13
+	// RVA: 0x2001BB0 Offset: 0x20001B0 VA: 0x182001BB0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, BaseNetworkable previous) { }
 
-	// RVA: 0x20012E0 Offset: 0x1FFF8E0 VA: 0x1820012E0 Slot: 14
+	// RVA: 0x20015A0 Offset: 0x1FFFBA0 VA: 0x1820015A0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2000DA0 Offset: 0x1FFF3A0 VA: 0x182000DA0
+	// RVA: 0x2001060 Offset: 0x1FFF660 VA: 0x182001060
 	public static BaseNetworkable Deserialize(byte[] buffer, BaseNetworkable instance, bool isDelta = False) { }
 
-	// RVA: 0x2000BF0 Offset: 0x1FFF1F0 VA: 0x182000BF0
+	// RVA: 0x2000EB0 Offset: 0x1FFF4B0 VA: 0x182000EB0
 	public static BaseNetworkable Deserialize(Stream stream, BaseNetworkable instance, bool isDelta) { }
 
-	// RVA: 0x20001F0 Offset: 0x1FFE7F0 VA: 0x1820001F0
+	// RVA: 0x20004B0 Offset: 0x1FFEAB0 VA: 0x1820004B0
 	public static BaseNetworkable DeserializeLengthDelimited(Stream stream, BaseNetworkable instance, bool isDelta) { }
 
-	// RVA: 0x2000470 Offset: 0x1FFEA70 VA: 0x182000470
+	// RVA: 0x2000730 Offset: 0x1FFED30 VA: 0x182000730
 	public static BaseNetworkable DeserializeLength(Stream stream, int length, BaseNetworkable instance, bool isDelta) { }
 
-	// RVA: 0x2001420 Offset: 0x1FFFA20 VA: 0x182001420
+	// RVA: 0x20016E0 Offset: 0x1FFFCE0 VA: 0x1820016E0
 	public static void SerializeDelta(Stream stream, BaseNetworkable instance, BaseNetworkable previous) { }
 
-	// RVA: 0x20017A0 Offset: 0x1FFFDA0 VA: 0x1820017A0
+	// RVA: 0x2001A60 Offset: 0x2000060 VA: 0x182001A60
 	public static void Serialize(Stream stream, BaseNetworkable instance) { }
 
-	// RVA: 0x20018C0 Offset: 0x1FFFEC0 VA: 0x1820018C0
+	// RVA: 0x2001B80 Offset: 0x2000180 VA: 0x182001B80
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20018D0 Offset: 0x1FFFED0 VA: 0x1820018D0
+	// RVA: 0x2001B90 Offset: 0x2000190 VA: 0x182001B90
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2001690 Offset: 0x1FFFC90 VA: 0x182001690
+	// RVA: 0x2001950 Offset: 0x1FFFF50 VA: 0x182001950
 	public static byte[] SerializeToBytes(BaseNetworkable instance) { }
 
-	// RVA: 0x20015E0 Offset: 0x1FFFBE0 VA: 0x1820015E0
+	// RVA: 0x20018A0 Offset: 0x1FFFEA0 VA: 0x1820018A0
 	public static void SerializeLengthDelimited(Stream stream, BaseNetworkable instance) { }
 
-	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
+	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
 	public void .ctor() { }
 
 }
@@ -118,22 +118,22 @@ public abstract class BaseNetwork // TypeDefIndex: 6679
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_write(NetWrite value) { }
 
-	// RVA: 0x220C9B0 Offset: 0x220AFB0 VA: 0x18220C9B0
+	// RVA: 0x220CC70 Offset: 0x220B270 VA: 0x18220CC70
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4
 	public virtual void Send(SendInfo sendinfo, MemoryStream data) { }
 
-	// RVA: 0x220C900 Offset: 0x220AF00 VA: 0x18220C900
+	// RVA: 0x220CBC0 Offset: 0x220B1C0 VA: 0x18220CBC0
 	protected Message StartMessage(Message.Type type, Connection connection) { }
 
-	// RVA: 0x220C570 Offset: 0x220AB70 VA: 0x18220C570
+	// RVA: 0x220C830 Offset: 0x220AE30 VA: 0x18220C830
 	public void Decrypt(Connection connection, NetRead read) { }
 
-	// RVA: 0x220C790 Offset: 0x220AD90 VA: 0x18220C790
+	// RVA: 0x220CA50 Offset: 0x220B050 VA: 0x18220CA50
 	public void Encrypt(Connection connection, ref MemoryStream stream) { }
 
-	// RVA: 0x220C8E0 Offset: 0x220AEE0 VA: 0x18220C8E0
+	// RVA: 0x220CBA0 Offset: 0x220B1A0 VA: 0x18220CBA0
 	public void Record(Connection connection, Stream stream) { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
@@ -196,23 +196,23 @@ public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, I
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
+	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
 	protected bool get_JustCreated() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FA00 Offset: 0x95E000 VA: 0x18095FA00
+	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10
 	protected void set_JustCreated(bool value) { }
 
-	// RVA: 0xA4D820 Offset: 0xA4BE20 VA: 0x180A4D820
+	// RVA: 0xA4DAE0 Offset: 0xA4C0E0 VA: 0x180A4DAE0
 	public void ClientSpawn(Entity info) { }
 
-	// RVA: 0xA4D7A0 Offset: 0xA4BDA0 VA: 0x180A4D7A0 Slot: 13
+	// RVA: 0xA4DA60 Offset: 0xA4C060 VA: 0x180A4DA60 Slot: 13
 	public virtual void ClientOnEnable() { }
 
-	// RVA: 0xA4D5B0 Offset: 0xA4BBB0 VA: 0x180A4D5B0 Slot: 14
+	// RVA: 0xA4D870 Offset: 0xA4BE70 VA: 0x180A4D870 Slot: 14
 	protected virtual void ClientInit(Entity info) { }
 
-	// RVA: 0xA4EAD0 Offset: 0xA4D0D0 VA: 0x180A4EAD0
+	// RVA: 0xA4ED90 Offset: 0xA4D390 VA: 0x180A4ED90
 	public void OnNetworkUpdate(Entity entity) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 15
@@ -227,78 +227,78 @@ public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, I
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 18
 	public virtual bool ShouldDestroyImmediately() { }
 
-	// RVA: 0xA4E660 Offset: 0xA4CC60 VA: 0x180A4E660
+	// RVA: 0xA4E920 Offset: 0xA4CF20 VA: 0x180A4E920
 	public void NetworkDestroy(bool immediately) { }
 
-	// RVA: 0xA4DBF0 Offset: 0xA4C1F0 VA: 0x180A4DBF0 Slot: 19
+	// RVA: 0xA4DEB0 Offset: 0xA4C4B0 VA: 0x180A4DEB0 Slot: 19
 	protected virtual void DoClientDestroy() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 20
 	internal virtual void DoNetworkDestroy() { }
 
-	// RVA: 0xA4D390 Offset: 0xA4B990 VA: 0x180A4D390
+	// RVA: 0xA4D650 Offset: 0xA4BC50 VA: 0x180A4D650
 	public void BroadcastOnPostNetworkUpdate(BaseEntity entity) { }
 
-	// RVA: 0xA4EC50 Offset: 0xA4D250 VA: 0x180A4EC50 Slot: 21
+	// RVA: 0xA4EF10 Offset: 0xA4D510 VA: 0x180A4EF10 Slot: 21
 	public virtual void PostProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0xA4DF90 Offset: 0xA4C590 VA: 0x180A4DF90
+	// RVA: 0xA4E250 Offset: 0xA4C850 VA: 0x180A4E250
 	public BaseEntity GetParentEntity() { }
 
-	// RVA: 0xA4DFA0 Offset: 0xA4C5A0 VA: 0x180A4DFA0
+	// RVA: 0xA4E260 Offset: 0xA4C860 VA: 0x180A4E260
 	public bool HasParent() { }
 
-	// RVA: 0xA4D300 Offset: 0xA4B900 VA: 0x180A4D300
+	// RVA: 0xA4D5C0 Offset: 0xA4BBC0 VA: 0x180A4D5C0
 	public void AddChild(BaseEntity child) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 22
 	protected virtual void OnChildAdded(BaseEntity child) { }
 
-	// RVA: 0xA4ECD0 Offset: 0xA4D2D0 VA: 0x180A4ECD0
+	// RVA: 0xA4EF90 Offset: 0xA4D590 VA: 0x180A4EF90
 	public void RemoveChild(BaseEntity child) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 23
 	protected virtual void OnChildRemoved(BaseEntity child) { }
 
-	// RVA: 0xA4F110 Offset: 0xA4D710 VA: 0x180A4F110
+	// RVA: 0xA4F3D0 Offset: 0xA4D9D0 VA: 0x180A4F3D0
 	public GameManager get_gameManager() { }
 
-	// RVA: 0xA4F170 Offset: 0xA4D770 VA: 0x180A4F170
+	// RVA: 0xA4F430 Offset: 0xA4DA30 VA: 0x180A4F430
 	public PrefabAttribute.Library get_prefabAttribute() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4EFF0 Offset: 0xA4D5F0 VA: 0x180A4EFF0 Slot: 7
+	// RVA: 0xA4F2B0 Offset: 0xA4D8B0 VA: 0x180A4F2B0 Slot: 7
 	public bool get_IsDestroyed() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6F1820 Offset: 0x6EFE20 VA: 0x1806F1820
+	// RVA: 0x6F1930 Offset: 0x6EFF30 VA: 0x1806F1930
 	private void set_IsDestroyed(bool value) { }
 
-	// RVA: 0xA4F000 Offset: 0xA4D600 VA: 0x180A4F000
+	// RVA: 0xA4F2C0 Offset: 0xA4D8C0 VA: 0x180A4F2C0
 	public string get_PrefabName() { }
 
-	// RVA: 0xA4F080 Offset: 0xA4D680 VA: 0x180A4F080
+	// RVA: 0xA4F340 Offset: 0xA4D940 VA: 0x180A4F340
 	public string get_ShortPrefabName() { }
 
-	// RVA: 0x82DEA0 Offset: 0x82C4A0 VA: 0x18082DEA0 Slot: 24
+	// RVA: 0x82DFB0 Offset: 0x82C5B0 VA: 0x18082DFB0 Slot: 24
 	public virtual Vector3 GetNetworkPosition() { }
 
-	// RVA: 0xA4DF50 Offset: 0xA4C550 VA: 0x180A4DF50 Slot: 25
+	// RVA: 0xA4E210 Offset: 0xA4C810 VA: 0x180A4E210 Slot: 25
 	public virtual Quaternion GetNetworkRotation() { }
 
-	// RVA: 0xA4DFB0 Offset: 0xA4C5B0 VA: 0x180A4DFB0
+	// RVA: 0xA4E270 Offset: 0xA4C870 VA: 0x180A4E270
 	public string InvokeString() { }
 
-	// RVA: 0xA4E5C0 Offset: 0xA4CBC0 VA: 0x180A4E5C0
+	// RVA: 0xA4E880 Offset: 0xA4CE80 VA: 0x180A4E880
 	public BaseEntity LookupPrefab() { }
 
-	// RVA: 0xA4DF00 Offset: 0xA4C500 VA: 0x180A4DF00 Slot: 26
+	// RVA: 0xA4E1C0 Offset: 0xA4C7C0 VA: 0x180A4E1C0 Slot: 26
 	public bool EqualNetID(BaseNetworkable other) { }
 
-	// RVA: 0xA4DF30 Offset: 0xA4C530 VA: 0x180A4DF30
+	// RVA: 0xA4E1F0 Offset: 0xA4C7F0 VA: 0x180A4E1F0
 	public bool EqualNetID(uint otherID) { }
 
-	// RVA: 0xA4ED40 Offset: 0xA4D340 VA: 0x180A4ED40 Slot: 27
+	// RVA: 0xA4F000 Offset: 0xA4D600 VA: 0x180A4F000 Slot: 27
 	public virtual void ResetState() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 28
@@ -319,7 +319,7 @@ public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, I
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 33
 	public virtual void OnNetworkGroupLeave(Group group) { }
 
-	// RVA: 0xA4E990 Offset: 0xA4CF90 VA: 0x180A4E990 Slot: 10
+	// RVA: 0xA4EC50 Offset: 0xA4D250 VA: 0x180A4EC50 Slot: 10
 	public void OnNetworkGroupChange() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 8
@@ -328,16 +328,16 @@ public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, I
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 9
 	public void OnNetworkSubscribersLeave(List<Connection> connections) { }
 
-	// RVA: 0xA4DE10 Offset: 0xA4C410 VA: 0x180A4DE10
+	// RVA: 0xA4E0D0 Offset: 0xA4C6D0 VA: 0x180A4E0D0
 	private void EntityDestroy() { }
 
-	// RVA: 0xA4DCB0 Offset: 0xA4C2B0 VA: 0x180A4DCB0
+	// RVA: 0xA4DF70 Offset: 0xA4C570 VA: 0x180A4DF70
 	private void DoEntityDestroy() { }
 
-	// RVA: 0xA4ED90 Offset: 0xA4D390 VA: 0x180A4ED90
+	// RVA: 0xA4F050 Offset: 0xA4D650 VA: 0x180A4F050
 	private void SpawnShared() { }
 
-	// RVA: 0xA4E200 Offset: 0xA4C800 VA: 0x180A4E200 Slot: 34
+	// RVA: 0xA4E4C0 Offset: 0xA4CAC0 VA: 0x180A4E4C0 Slot: 34
 	public virtual void Load(BaseNetworkable.LoadInfo info) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
@@ -358,10 +358,10 @@ public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, I
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 35
 	public virtual bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA4EF50 Offset: 0xA4D550 VA: 0x180A4EF50
+	// RVA: 0xA4F210 Offset: 0xA4D810 VA: 0x180A4F210
 	protected void .ctor() { }
 
-	// RVA: 0xA4EEA0 Offset: 0xA4D4A0 VA: 0x180A4EEA0
+	// RVA: 0xA4F160 Offset: 0xA4D760 VA: 0x180A4F160
 	private static void .cctor() { }
 
 }
@@ -392,10 +392,10 @@ public class BaseNetworkable.EntityRealmClient : BaseNetworkable.EntityRealm // 
 
 	// Methods
 
-	// RVA: 0xA53A00 Offset: 0xA52000 VA: 0x180A53A00 Slot: 6
+	// RVA: 0xA53CC0 Offset: 0xA522C0 VA: 0x180A53CC0 Slot: 6
 	protected override Manager get_visibilityManager() { }
 
-	// RVA: 0xA53990 Offset: 0xA51F90 VA: 0x180A53990
+	// RVA: 0xA53C50 Offset: 0xA52250 VA: 0x180A53C50
 	public void .ctor() { }
 
 }
@@ -410,43 +410,43 @@ public abstract class BaseNetworkable.EntityRealm : IEnumerable<BaseNetworkable>
 
 	// Methods
 
-	// RVA: 0xA54000 Offset: 0xA52600 VA: 0x180A54000
+	// RVA: 0xA542C0 Offset: 0xA528C0 VA: 0x180A542C0
 	public int get_Count() { }
 
 	// RVA: -1 Offset: -1 Slot: 6
 	protected abstract Manager get_visibilityManager();
 
-	// RVA: 0xA53AD0 Offset: 0xA520D0 VA: 0x180A53AD0
+	// RVA: 0xA53D90 Offset: 0xA52390 VA: 0x180A53D90
 	public bool Contains(uint uid) { }
 
-	// RVA: 0xA53DA0 Offset: 0xA523A0 VA: 0x180A53DA0
+	// RVA: 0xA54060 Offset: 0xA52660 VA: 0x180A54060
 	public BaseNetworkable Find(uint uid) { }
 
-	// RVA: 0xA53E90 Offset: 0xA52490 VA: 0x180A53E90
+	// RVA: 0xA54150 Offset: 0xA52750 VA: 0x180A54150
 	public void RegisterID(BaseNetworkable ent) { }
 
-	// RVA: 0xA53F90 Offset: 0xA52590 VA: 0x180A53F90
+	// RVA: 0xA54250 Offset: 0xA52850 VA: 0x180A54250
 	public void UnregisterID(BaseNetworkable ent) { }
 
-	// RVA: 0xA53B30 Offset: 0xA52130 VA: 0x180A53B30
+	// RVA: 0xA53DF0 Offset: 0xA523F0 VA: 0x180A53DF0
 	public Group FindGroup(uint uid) { }
 
-	// RVA: 0xA53F50 Offset: 0xA52550 VA: 0x180A53F50
+	// RVA: 0xA54210 Offset: 0xA52810 VA: 0x180A54210
 	public Group TryFindGroup(uint uid) { }
 
-	// RVA: 0xA53B70 Offset: 0xA52170 VA: 0x180A53B70
+	// RVA: 0xA53E30 Offset: 0xA52430 VA: 0x180A53E30
 	public void FindInGroup(uint uid, List<BaseNetworkable> list) { }
 
-	// RVA: 0xA53E20 Offset: 0xA52420 VA: 0x180A53E20 Slot: 4
+	// RVA: 0xA540E0 Offset: 0xA526E0 VA: 0x180A540E0 Slot: 4
 	public IEnumerator<BaseNetworkable> GetEnumerator() { }
 
-	// RVA: 0xA53E20 Offset: 0xA52420 VA: 0x180A53E20 Slot: 5
+	// RVA: 0xA540E0 Offset: 0xA526E0 VA: 0x180A540E0 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0xA53A80 Offset: 0xA52080 VA: 0x180A53A80
+	// RVA: 0xA53D40 Offset: 0xA52340 VA: 0x180A53D40
 	public void Clear() { }
 
-	// RVA: 0xA53990 Offset: 0xA51F90 VA: 0x180A53990
+	// RVA: 0xA53C50 Offset: 0xA52250 VA: 0x180A53C50
 	protected void .ctor() { }
 
 }
@@ -463,11 +463,11 @@ public static class BaseNetworkableEx // TypeDefIndex: 9481
 {	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D280 Offset: 0xA4B880 VA: 0x180A4D280
+	// RVA: 0xA4D540 Offset: 0xA4BB40 VA: 0x180A4D540
 	public static bool IsValid(BaseNetworkable ent) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D270 Offset: 0xA4B870 VA: 0x180A4D270
+	// RVA: 0xA4D530 Offset: 0xA4BB30 VA: 0x180A4D530
 	public static bool IsRealNull(BaseNetworkable ent) { }
 
 }

@@ -11,7 +11,7 @@ public class WellKnownClientTypeEntry : TypeEntry // TypeDefIndex: 1154
 
 	// Methods
 
-	// RVA: 0x1206D30 Offset: 0x1205330 VA: 0x181206D30
+	// RVA: 0x1206FF0 Offset: 0x12055F0 VA: 0x181206FF0
 	public void .ctor(string typeName, string assemblyName, string objectUrl) { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
@@ -20,10 +20,10 @@ public class WellKnownClientTypeEntry : TypeEntry // TypeDefIndex: 1154
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public Type get_ObjectType() { }
 
-	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
+	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
 	public string get_ObjectUrl() { }
 
-	// RVA: 0x1206CF0 Offset: 0x12052F0 VA: 0x181206CF0 Slot: 3
+	// RVA: 0x1206FB0 Offset: 0x12055B0 VA: 0x181206FB0 Slot: 3
 	public override string ToString() { }
 
 }

@@ -12,16 +12,16 @@ public class ERSideObjectLog : MonoBehaviour // TypeDefIndex: 7226
 
 	// Methods
 
-	// RVA: 0xA5AF20 Offset: 0xA59520 VA: 0x180A5AF20
+	// RVA: 0xA5B1E0 Offset: 0xA597E0 VA: 0x180A5B1E0
 	public void AddRoadPreset(List<SideObject> sceneSideObjects, List<SideObjectLog> projectSideObjects, QDQDOOQQDQODD sourcePreset) { }
 
-	// RVA: 0xA5AFF0 Offset: 0xA595F0 VA: 0x180A5AFF0
+	// RVA: 0xA5B2B0 Offset: 0xA598B0 VA: 0x180A5B2B0
 	public void UpdateRoadPreset(QDQDOOQQDQODD sourcePreset, int element, List<SideObject> sceneSideObjects, List<SideObjectLog> projectSideObjects, bool copyShapeData) { }
 
-	// RVA: 0xA5CA10 Offset: 0xA5B010 VA: 0x180A5CA10
+	// RVA: 0xA5CCD0 Offset: 0xA5B2D0 VA: 0x180A5CCD0
 	public void UpdateTextureList(int element, Texture2D _texture, float _roadWidth, float _leftOffset, float _rightOffset, float _leftInnerOffset, float _rightInnerOffset) { }
 
-	// RVA: 0xA5CBB0 Offset: 0xA5B1B0 VA: 0x180A5CBB0
+	// RVA: 0xA5CE70 Offset: 0xA5B470 VA: 0x180A5CE70
 	public void .ctor() { }
 
 }

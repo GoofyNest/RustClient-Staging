@@ -115,7 +115,7 @@ public struct SqlDecimal : INullable, IComparable, IXmlSerializable // TypeDefIn
 	// RVA: 0x139A70 Offset: 0x138E70 VA: 0x180139A70 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xEA3B20 Offset: 0xEA2120 VA: 0x180EA3B20
+	// RVA: 0xEA3DE0 Offset: 0xEA23E0 VA: 0x180EA3DE0
 	public static SqlDecimal Parse(string s) { }
 
 	// RVA: 0x1398B0 Offset: 0x138CB0 VA: 0x1801398B0
@@ -124,43 +124,43 @@ public struct SqlDecimal : INullable, IComparable, IXmlSerializable // TypeDefIn
 	// RVA: 0x139890 Offset: 0x138C90 VA: 0x180139890
 	private Decimal ToDecimal() { }
 
-	// RVA: 0xEA7610 Offset: 0xEA5C10 VA: 0x180EA7610
+	// RVA: 0xEA78D0 Offset: 0xEA5ED0 VA: 0x180EA78D0
 	public static SqlDecimal op_Implicit(Decimal x) { }
 
-	// RVA: 0xEA77F0 Offset: 0xEA5DF0 VA: 0x180EA77F0
+	// RVA: 0xEA7AB0 Offset: 0xEA60B0 VA: 0x180EA7AB0
 	public static SqlDecimal op_Implicit(long x) { }
 
-	// RVA: 0xEA8AF0 Offset: 0xEA70F0 VA: 0x180EA8AF0
+	// RVA: 0xEA8DB0 Offset: 0xEA73B0 VA: 0x180EA8DB0
 	public static SqlDecimal op_UnaryNegation(SqlDecimal x) { }
 
-	// RVA: 0xEA62B0 Offset: 0xEA48B0 VA: 0x180EA62B0
+	// RVA: 0xEA6570 Offset: 0xEA4B70 VA: 0x180EA6570
 	public static SqlDecimal op_Addition(SqlDecimal x, SqlDecimal y) { }
 
-	// RVA: 0xEA8820 Offset: 0xEA6E20 VA: 0x180EA8820
+	// RVA: 0xEA8AE0 Offset: 0xEA70E0 VA: 0x180EA8AE0
 	public static SqlDecimal op_Subtraction(SqlDecimal x, SqlDecimal y) { }
 
-	// RVA: 0xEA7A60 Offset: 0xEA6060 VA: 0x180EA7A60
+	// RVA: 0xEA7D20 Offset: 0xEA6320 VA: 0x180EA7D20
 	public static SqlDecimal op_Multiply(SqlDecimal x, SqlDecimal y) { }
 
-	// RVA: 0xEA6B10 Offset: 0xEA5110 VA: 0x180EA6B10
+	// RVA: 0xEA6DD0 Offset: 0xEA53D0 VA: 0x180EA6DD0
 	public static SqlDecimal op_Division(SqlDecimal x, SqlDecimal y) { }
 
-	// RVA: 0xEA7720 Offset: 0xEA5D20 VA: 0x180EA7720
+	// RVA: 0xEA79E0 Offset: 0xEA5FE0 VA: 0x180EA79E0
 	public static SqlDecimal op_Implicit(SqlByte x) { }
 
-	// RVA: 0xEA74B0 Offset: 0xEA5AB0 VA: 0x180EA74B0
+	// RVA: 0xEA7770 Offset: 0xEA5D70 VA: 0x180EA7770
 	public static SqlDecimal op_Implicit(SqlInt16 x) { }
 
-	// RVA: 0xEA7560 Offset: 0xEA5B60 VA: 0x180EA7560
+	// RVA: 0xEA7820 Offset: 0xEA5E20 VA: 0x180EA7820
 	public static SqlDecimal op_Implicit(SqlInt32 x) { }
 
-	// RVA: 0xEA7840 Offset: 0xEA5E40 VA: 0x180EA7840
+	// RVA: 0xEA7B00 Offset: 0xEA6100 VA: 0x180EA7B00
 	public static SqlDecimal op_Implicit(SqlInt64 x) { }
 
-	// RVA: 0xEA7650 Offset: 0xEA5C50 VA: 0x180EA7650
+	// RVA: 0xEA7910 Offset: 0xEA5F10 VA: 0x180EA7910
 	public static SqlDecimal op_Implicit(SqlMoney x) { }
 
-	// RVA: 0xEA5130 Offset: 0xEA3730 VA: 0x180EA5130
+	// RVA: 0xEA53F0 Offset: 0xEA39F0 VA: 0x180EA53F0
 	private static void ZeroToMaxLen(uint[] rgulData, int cUI4sCur) { }
 
 	// RVA: 0x139340 Offset: 0x138740 VA: 0x180139340
@@ -172,10 +172,10 @@ public struct SqlDecimal : INullable, IComparable, IXmlSerializable // TypeDefIn
 	// RVA: 0x1392E0 Offset: 0x1386E0 VA: 0x1801392E0
 	private bool FGt10_38(uint[] rglData) { }
 
-	// RVA: 0xEA0CF0 Offset: 0xE9F2F0 VA: 0x180EA0CF0
+	// RVA: 0xEA0FB0 Offset: 0xE9F5B0 VA: 0x180EA0FB0
 	private static byte BGetPrecUI4(uint value) { }
 
-	// RVA: 0xEA0EE0 Offset: 0xE9F4E0 VA: 0x180EA0EE0
+	// RVA: 0xEA11A0 Offset: 0xE9F7A0 VA: 0x180EA11A0
 	private static byte BGetPrecUI8(ulong dwlVal) { }
 
 	// RVA: 0x1390D0 Offset: 0x1384D0 VA: 0x1801390D0
@@ -193,52 +193,52 @@ public struct SqlDecimal : INullable, IComparable, IXmlSerializable // TypeDefIn
 	// RVA: 0x1394E0 Offset: 0x1388E0 VA: 0x1801394E0
 	private int LAbsCmp(SqlDecimal snumOp) { }
 
-	// RVA: 0xEA35E0 Offset: 0xEA1BE0 VA: 0x180EA35E0
+	// RVA: 0xEA38A0 Offset: 0xEA1EA0 VA: 0x180EA38A0
 	private static void MpMove(uint[] rgulS, int ciulS, uint[] rgulD, out int ciulD) { }
 
-	// RVA: 0xEA37C0 Offset: 0xEA1DC0 VA: 0x180EA37C0
+	// RVA: 0xEA3A80 Offset: 0xEA2080 VA: 0x180EA3A80
 	private static void MpSet(uint[] rgulD, out int ciulD, uint iulN) { }
 
-	// RVA: 0xEA3770 Offset: 0xEA1D70 VA: 0x180EA3770
+	// RVA: 0xEA3A30 Offset: 0xEA2030 VA: 0x180EA3A30
 	private static void MpNormalize(uint[] rgulU, ref int ciulU) { }
 
-	// RVA: 0xEA3650 Offset: 0xEA1C50 VA: 0x180EA3650
+	// RVA: 0xEA3910 Offset: 0xEA1F10 VA: 0x180EA3910
 	private static void MpMul1(uint[] piulD, ref int ciulD, uint iulX) { }
 
-	// RVA: 0xEA2490 Offset: 0xEA0A90 VA: 0x180EA2490
+	// RVA: 0xEA2750 Offset: 0xEA0D50 VA: 0x180EA2750
 	private static void MpDiv1(uint[] rgulU, ref int ciulU, uint iulD, out uint iulR) { }
 
-	// RVA: 0xEA1AB0 Offset: 0xEA00B0 VA: 0x180EA1AB0
+	// RVA: 0xEA1D70 Offset: 0xEA0370 VA: 0x180EA1D70
 	internal static ulong DWL(uint lo, uint hi) { }
 
-	// RVA: 0xEA21C0 Offset: 0xEA07C0 VA: 0x180EA21C0
+	// RVA: 0xEA2480 Offset: 0xEA0A80 VA: 0x180EA2480
 	private static uint HI(ulong x) { }
 
 	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
 	private static uint LO(ulong x) { }
 
-	// RVA: 0xEA25C0 Offset: 0xEA0BC0 VA: 0x180EA25C0
+	// RVA: 0xEA2880 Offset: 0xEA0E80 VA: 0x180EA2880
 	private static void MpDiv(uint[] rgulU, int ciulU, uint[] rgulD, int ciulD, uint[] rgulQ, out int ciulQ, uint[] rgulR, out int ciulR) { }
 
 	// RVA: 0x139100 Offset: 0x138500 VA: 0x180139100
 	private EComparison CompareNm(SqlDecimal snumOp) { }
 
-	// RVA: 0xEA15D0 Offset: 0xE9FBD0 VA: 0x180EA15D0
+	// RVA: 0xEA1890 Offset: 0xE9FE90 VA: 0x180EA1890
 	private static void CheckValidPrecScale(byte bPrec, byte bScale) { }
 
-	// RVA: 0xEA71F0 Offset: 0xEA57F0 VA: 0x180EA71F0
+	// RVA: 0xEA74B0 Offset: 0xEA5AB0 VA: 0x180EA74B0
 	public static SqlBoolean op_Equality(SqlDecimal x, SqlDecimal y) { }
 
-	// RVA: 0xEA7900 Offset: 0xEA5F00 VA: 0x180EA7900
+	// RVA: 0xEA7BC0 Offset: 0xEA61C0 VA: 0x180EA7BC0
 	public static SqlBoolean op_LessThan(SqlDecimal x, SqlDecimal y) { }
 
-	// RVA: 0xEA7350 Offset: 0xEA5950 VA: 0x180EA7350
+	// RVA: 0xEA7610 Offset: 0xEA5C10 VA: 0x180EA7610
 	public static SqlBoolean op_GreaterThan(SqlDecimal x, SqlDecimal y) { }
 
-	// RVA: 0xEA2400 Offset: 0xEA0A00 VA: 0x180EA2400
+	// RVA: 0xEA26C0 Offset: 0xEA0CC0 VA: 0x180EA26C0
 	public static SqlBoolean LessThan(SqlDecimal x, SqlDecimal y) { }
 
-	// RVA: 0xEA2130 Offset: 0xEA0730 VA: 0x180EA2130
+	// RVA: 0xEA23F0 Offset: 0xEA09F0 VA: 0x180EA23F0
 	public static SqlBoolean GreaterThan(SqlDecimal x, SqlDecimal y) { }
 
 	// RVA: 0x1398C0 Offset: 0x138CC0 VA: 0x1801398C0
@@ -250,7 +250,7 @@ public struct SqlDecimal : INullable, IComparable, IXmlSerializable // TypeDefIn
 	// RVA: 0x1399E0 Offset: 0x138DE0 VA: 0x1801399E0
 	public SqlMoney ToSqlMoney() { }
 
-	// RVA: 0xEA15C0 Offset: 0xE9FBC0 VA: 0x180EA15C0
+	// RVA: 0xEA1880 Offset: 0xE9FE80 VA: 0x180EA1880
 	private static char ChFromDigit(uint uiDigit) { }
 
 	// RVA: 0x139550 Offset: 0x138950 VA: 0x180139550
@@ -280,10 +280,10 @@ public struct SqlDecimal : INullable, IComparable, IXmlSerializable // TypeDefIn
 	// RVA: 0x139780 Offset: 0x138B80 VA: 0x180139780 Slot: 8
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
-	// RVA: 0xEA20D0 Offset: 0xEA06D0 VA: 0x180EA20D0
+	// RVA: 0xEA2390 Offset: 0xEA0990 VA: 0x180EA2390
 	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet) { }
 
-	// RVA: 0xEA51C0 Offset: 0xEA37C0 VA: 0x180EA51C0
+	// RVA: 0xEA5480 Offset: 0xEA3A80 VA: 0x180EA5480
 	private static void .cctor() { }
 
 }

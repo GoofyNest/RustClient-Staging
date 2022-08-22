@@ -10,10 +10,10 @@ public struct SevenBitNumber : IComparable<SevenBitNumber>, IConvertible // Type
 	// RVA: 0x1EEEA0 Offset: 0x1EE2A0 VA: 0x1801EEEA0
 	public void .ctor(byte value) { }
 
-	// RVA: 0x125C5B0 Offset: 0x125ABB0 VA: 0x18125C5B0
+	// RVA: 0x125C870 Offset: 0x125AE70 VA: 0x18125C870
 	public static byte op_Implicit(SevenBitNumber number) { }
 
-	// RVA: 0x13A5EE0 Offset: 0x13A44E0 VA: 0x1813A5EE0
+	// RVA: 0x13A61A0 Offset: 0x13A47A0 VA: 0x1813A61A0
 	public static SevenBitNumber op_Explicit(byte number) { }
 
 	// RVA: 0x1EDB30 Offset: 0x1ECF30 VA: 0x1801EDB30 Slot: 4
@@ -79,7 +79,7 @@ public struct SevenBitNumber : IComparable<SevenBitNumber>, IConvertible // Type
 	// RVA: 0x1EDBE0 Offset: 0x1ECFE0 VA: 0x1801EDBE0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13A5D40 Offset: 0x13A4340 VA: 0x1813A5D40
+	// RVA: 0x13A6000 Offset: 0x13A4600 VA: 0x1813A6000
 	private static void .cctor() { }
 
 }
@@ -90,13 +90,13 @@ private sealed class SevenBitNumber.<>c // TypeDefIndex: 7626
 
 	// Methods
 
-	// RVA: 0x13AAAD0 Offset: 0x13A90D0 VA: 0x1813AAAD0
+	// RVA: 0x13AAD90 Offset: 0x13A9390 VA: 0x1813AAD90
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13AA490 Offset: 0x13A8A90 VA: 0x1813AA490
+	// RVA: 0x13AA750 Offset: 0x13A8D50 VA: 0x1813AA750
 	internal SevenBitNumber <.cctor>b__33_0(int value) { }
 
 }

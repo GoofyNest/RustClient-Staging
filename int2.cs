@@ -20,16 +20,16 @@ public struct int2 : IEquatable<int2>, IFormattable // TypeDefIndex: 7110
 	// RVA: 0x23A750 Offset: 0x239B50 VA: 0x18023A750
 	public void .ctor(float2 v) { }
 
-	// RVA: 0x22AE550 Offset: 0x22ACB50 VA: 0x1822AE550
+	// RVA: 0x22AE810 Offset: 0x22ACE10 VA: 0x1822AE810
 	public static int2 op_Implicit(int v) { }
 
-	// RVA: 0x22718A0 Offset: 0x226FEA0 VA: 0x1822718A0
+	// RVA: 0x2271B60 Offset: 0x2270160 VA: 0x182271B60
 	public static int2 op_Explicit(float2 v) { }
 
-	// RVA: 0x22AE530 Offset: 0x22ACB30 VA: 0x1822AE530
+	// RVA: 0x22AE7F0 Offset: 0x22ACDF0 VA: 0x1822AE7F0
 	public static int2 op_Addition(int2 lhs, int rhs) { }
 
-	// RVA: 0x22AE560 Offset: 0x22ACB60 VA: 0x1822AE560
+	// RVA: 0x22AE820 Offset: 0x22ACE20 VA: 0x1822AE820
 	public static int2 op_Subtraction(int2 lhs, int rhs) { }
 
 	// RVA: 0xF94A0 Offset: 0xF88A0 VA: 0x1800F94A0 Slot: 4

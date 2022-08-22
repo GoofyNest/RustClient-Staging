@@ -14,55 +14,55 @@ public abstract class RealProxy // TypeDefIndex: 1161
 
 	// Methods
 
-	// RVA: 0x12D1260 Offset: 0x12CF860 VA: 0x1812D1260
+	// RVA: 0x12D1520 Offset: 0x12CFB20 VA: 0x1812D1520
 	protected void .ctor() { }
 
-	// RVA: 0x1484570 Offset: 0x1482B70 VA: 0x181484570
+	// RVA: 0x1484830 Offset: 0x1482E30 VA: 0x181484830
 	protected void .ctor(Type classToProxy) { }
 
-	// RVA: 0x1484500 Offset: 0x1482B00 VA: 0x181484500
+	// RVA: 0x14847C0 Offset: 0x1482DC0 VA: 0x1814847C0
 	internal void .ctor(Type classToProxy, ClientIdentity identity) { }
 
-	// RVA: 0x14843F0 Offset: 0x14829F0 VA: 0x1814843F0
+	// RVA: 0x14846B0 Offset: 0x1482CB0 VA: 0x1814846B0
 	protected void .ctor(Type classToProxy, IntPtr stub, object stubData) { }
 
-	// RVA: 0x1483030 Offset: 0x1481630 VA: 0x181483030
+	// RVA: 0x14832F0 Offset: 0x14818F0 VA: 0x1814832F0
 	private static Type InternalGetProxyType(object transparentProxy) { }
 
-	// RVA: 0x1482E70 Offset: 0x1481470 VA: 0x181482E70
+	// RVA: 0x1483130 Offset: 0x1481730 VA: 0x181483130
 	public Type GetProxiedType() { }
 
-	// RVA: 0x1482DF0 Offset: 0x14813F0 VA: 0x181482DF0 Slot: 4
+	// RVA: 0x14830B0 Offset: 0x14816B0 VA: 0x1814830B0 Slot: 4
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
 	internal Identity get_ObjectIdentity() { }
 
-	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
+	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
 	internal void set_ObjectIdentity(Identity value) { }
 
 	// RVA: -1 Offset: -1 Slot: 5
 	public abstract IMessage Invoke(IMessage msg);
 
-	// RVA: 0x1483050 Offset: 0x1481650 VA: 0x181483050
+	// RVA: 0x1483310 Offset: 0x1481910 VA: 0x181483310
 	internal static object PrivateInvoke(RealProxy rp, IMessage msg, out Exception exc, out object[] out_args) { }
 
-	// RVA: 0x1483040 Offset: 0x1481640 VA: 0x181483040 Slot: 6
+	// RVA: 0x1483300 Offset: 0x1481900 VA: 0x181483300 Slot: 6
 	internal virtual object InternalGetTransparentProxy(string className) { }
 
-	// RVA: 0x1482F00 Offset: 0x1481500 VA: 0x181482F00 Slot: 7
+	// RVA: 0x14831C0 Offset: 0x14817C0 VA: 0x1814831C0 Slot: 7
 	public virtual object GetTransparentProxy() { }
 
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	protected void AttachServer(MarshalByRefObject s) { }
 
-	// RVA: 0x7D0C50 Offset: 0x7CF250 VA: 0x1807D0C50
+	// RVA: 0x7D0D60 Offset: 0x7CF360 VA: 0x1807D0D60
 	internal void SetTargetDomain(int domainId) { }
 
-	// RVA: 0x1482CD0 Offset: 0x14812D0 VA: 0x181482CD0
+	// RVA: 0x1482F90 Offset: 0x1481590 VA: 0x181482F90
 	internal object GetAppDomainTarget() { }
 
-	// RVA: 0x1483E70 Offset: 0x1482470 VA: 0x181483E70
+	// RVA: 0x1484130 Offset: 0x1482730 VA: 0x181484130
 	private static object[] ProcessResponse(IMethodReturnMessage mrm, MonoMethodMessage call) { }
 
 }

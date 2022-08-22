@@ -10,20 +10,20 @@ public struct Single : IComparable, IFormattable, IConvertible, IComparable<floa
 
 	// Methods
 
-	// RVA: 0x18AF510 Offset: 0x18ADB10 VA: 0x1818AF510
+	// RVA: 0x18AF7D0 Offset: 0x18ADDD0 VA: 0x1818AF7D0
 	public static bool IsInfinity(float f) { }
 
-	// RVA: 0x18AF570 Offset: 0x18ADB70 VA: 0x1818AF570
+	// RVA: 0x18AF830 Offset: 0x18ADE30 VA: 0x1818AF830
 	public static bool IsPositiveInfinity(float f) { }
 
-	// RVA: 0x18AF550 Offset: 0x18ADB50 VA: 0x1818AF550
+	// RVA: 0x18AF810 Offset: 0x18ADE10 VA: 0x1818AF810
 	public static bool IsNegativeInfinity(float f) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x18AF530 Offset: 0x18ADB30 VA: 0x1818AF530
+	// RVA: 0x18AF7F0 Offset: 0x18ADDF0 VA: 0x1818AF7F0
 	public static bool IsNaN(float f) { }
 
-	// RVA: 0x18AF4F0 Offset: 0x18ADAF0 VA: 0x1818AF4F0
+	// RVA: 0x18AF7B0 Offset: 0x18ADDB0 VA: 0x1818AF7B0
 	public static bool IsFinite(float f) { }
 
 	// RVA: 0x2146B0 Offset: 0x213AB0 VA: 0x1802146B0 Slot: 4
@@ -53,25 +53,25 @@ public struct Single : IComparable, IFormattable, IConvertible, IComparable<floa
 	// RVA: 0x214F30 Offset: 0x214330 VA: 0x180214F30 Slot: 5
 	public string ToString(string format, IFormatProvider provider) { }
 
-	// RVA: 0x18AF5C0 Offset: 0x18ADBC0 VA: 0x1818AF5C0
+	// RVA: 0x18AF880 Offset: 0x18ADE80 VA: 0x1818AF880
 	public static float Parse(string s) { }
 
-	// RVA: 0x18AF590 Offset: 0x18ADB90 VA: 0x1818AF590
+	// RVA: 0x18AF850 Offset: 0x18ADE50 VA: 0x1818AF850
 	public static float Parse(string s, IFormatProvider provider) { }
 
-	// RVA: 0x18AF5F0 Offset: 0x18ADBF0 VA: 0x1818AF5F0
+	// RVA: 0x18AF8B0 Offset: 0x18ADEB0 VA: 0x1818AF8B0
 	public static float Parse(string s, NumberStyles style, IFormatProvider provider) { }
 
-	// RVA: 0x18AF640 Offset: 0x18ADC40 VA: 0x1818AF640
+	// RVA: 0x18AF900 Offset: 0x18ADF00 VA: 0x1818AF900
 	private static float Parse(string s, NumberStyles style, NumberFormatInfo info) { }
 
-	// RVA: 0x18AFAD0 Offset: 0x18AE0D0 VA: 0x1818AFAD0
+	// RVA: 0x18AFD90 Offset: 0x18AE390 VA: 0x1818AFD90
 	public static bool TryParse(string s, out float result) { }
 
-	// RVA: 0x18AFA70 Offset: 0x18AE070 VA: 0x1818AFA70
+	// RVA: 0x18AFD30 Offset: 0x18AE330 VA: 0x1818AFD30
 	public static bool TryParse(string s, NumberStyles style, IFormatProvider provider, out float result) { }
 
-	// RVA: 0x18AF8E0 Offset: 0x18ADEE0 VA: 0x1818AF8E0
+	// RVA: 0x18AFBA0 Offset: 0x18AE1A0 VA: 0x1818AFBA0
 	private static bool TryParse(string s, NumberStyles style, NumberFormatInfo info, out float result) { }
 
 	// RVA: 0x214970 Offset: 0x213D70 VA: 0x180214970 Slot: 6

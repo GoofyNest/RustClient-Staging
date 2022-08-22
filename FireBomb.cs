@@ -11,13 +11,13 @@ public class FireBomb : MonoBehaviour, IClientComponent // TypeDefIndex: 9347
 
 	// Methods
 
-	// RVA: 0x788F50 Offset: 0x787550 VA: 0x180788F50
+	// RVA: 0x789060 Offset: 0x787660 VA: 0x180789060
 	private void Start() { }
 
-	// RVA: 0x788FA0 Offset: 0x7875A0 VA: 0x180788FA0
+	// RVA: 0x7890B0 Offset: 0x7876B0 VA: 0x1807890B0
 	private void Update() { }
 
-	// RVA: 0x788CB0 Offset: 0x7872B0 VA: 0x180788CB0
+	// RVA: 0x788DC0 Offset: 0x7873C0 VA: 0x180788DC0
 	private void CreateParticleEffect() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

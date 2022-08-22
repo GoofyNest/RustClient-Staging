@@ -13,19 +13,19 @@ public class ByteMap // TypeDefIndex: 10278
 
 	// Methods
 
-	// RVA: 0x6F2A90 Offset: 0x6F1090 VA: 0x1806F2A90
+	// RVA: 0x6F2BA0 Offset: 0x6F11A0 VA: 0x1806F2BA0
 	public void .ctor(int size, int bytes = 1) { }
 
-	// RVA: 0x6F2A40 Offset: 0x6F1040 VA: 0x1806F2A40
+	// RVA: 0x6F2B50 Offset: 0x6F1150 VA: 0x1806F2B50
 	public void .ctor(int size, byte[] values, int bytes = 1) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public int get_Size() { }
 
-	// RVA: 0x6F2B10 Offset: 0x6F1110 VA: 0x1806F2B10
+	// RVA: 0x6F2C20 Offset: 0x6F1220 VA: 0x1806F2C20
 	public uint get_Item(int x, int y) { }
 
-	// RVA: 0x6F2D20 Offset: 0x6F1320 VA: 0x1806F2D20
+	// RVA: 0x6F2E30 Offset: 0x6F1430 VA: 0x1806F2E30
 	public void set_Item(int x, int y, uint value) { }
 
 }

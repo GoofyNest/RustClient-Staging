@@ -7,7 +7,7 @@ public class InfoBar : MonoBehaviour // TypeDefIndex: 10937
 
 	// Methods
 
-	// RVA: 0x813860 Offset: 0x811E60 VA: 0x180813860
+	// RVA: 0x813970 Offset: 0x811F70 VA: 0x180813970
 	public void Set(string valueText, float progress = 0, float redProgress = -1) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

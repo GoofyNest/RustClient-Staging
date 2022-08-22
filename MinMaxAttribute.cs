@@ -5,7 +5,7 @@ public class MinMaxAttribute : PropertyAttribute // TypeDefIndex: 11296
 
 	// Methods
 
-	// RVA: 0x764DE0 Offset: 0x7633E0 VA: 0x180764DE0
+	// RVA: 0x764EF0 Offset: 0x7634F0 VA: 0x180764EF0
 	public void .ctor(float min, float max) { }
 
 }
@@ -17,7 +17,7 @@ public sealed class MinMaxAttribute : Attribute // TypeDefIndex: 11752
 
 	// Methods
 
-	// RVA: 0x1019490 Offset: 0x1017A90 VA: 0x181019490
+	// RVA: 0x1019750 Offset: 0x1017D50 VA: 0x181019750
 	public void .ctor(float min, float max) { }
 
 }

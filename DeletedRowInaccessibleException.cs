@@ -1,13 +1,13 @@
 public class DeletedRowInaccessibleException : DataException // TypeDefIndex: 4193
 {	// Methods
 
-	// RVA: 0x13D6DA0 Offset: 0x13D53A0 VA: 0x1813D6DA0
+	// RVA: 0x13D7060 Offset: 0x13D5660 VA: 0x1813D7060
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x13D6D50 Offset: 0x13D5350 VA: 0x1813D6D50
+	// RVA: 0x13D7010 Offset: 0x13D5610 VA: 0x1813D7010
 	public void .ctor() { }
 
-	// RVA: 0x13D6E20 Offset: 0x13D5420 VA: 0x1813D6E20
+	// RVA: 0x13D70E0 Offset: 0x13D56E0 VA: 0x1813D70E0
 	public void .ctor(string s) { }
 
 }

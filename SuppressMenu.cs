@@ -4,10 +4,10 @@ public class SuppressMenu : ListComponent<SuppressMenu> // TypeDefIndex: 7065
 
 	// Methods
 
-	// RVA: 0xFD3CC0 Offset: 0xFD22C0 VA: 0x180FD3CC0
+	// RVA: 0xFD3F80 Offset: 0xFD2580 VA: 0x180FD3F80
 	public static bool get_Any() { }
 
-	// RVA: 0xFD3C60 Offset: 0xFD2260 VA: 0x180FD3C60
+	// RVA: 0xFD3F20 Offset: 0xFD2520 VA: 0x180FD3F20
 	public void .ctor() { }
 
 }

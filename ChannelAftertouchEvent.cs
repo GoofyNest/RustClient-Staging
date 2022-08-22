@@ -4,19 +4,19 @@ public sealed class ChannelAftertouchEvent : ChannelEvent // TypeDefIndex: 7522
 
 	// Methods
 
-	// RVA: 0x13962D0 Offset: 0x13948D0 VA: 0x1813962D0
+	// RVA: 0x1396590 Offset: 0x1394B90 VA: 0x181396590
 	public void .ctor() { }
 
-	// RVA: 0x13962F0 Offset: 0x13948F0 VA: 0x1813962F0
+	// RVA: 0x13965B0 Offset: 0x1394BB0 VA: 0x1813965B0
 	public SevenBitNumber get_AftertouchValue() { }
 
-	// RVA: 0x13961B0 Offset: 0x13947B0 VA: 0x1813961B0 Slot: 4
+	// RVA: 0x1396470 Offset: 0x1394A70 VA: 0x181396470 Slot: 4
 	internal override void Read(MidiReader reader, ReadingSettings settings, int size) { }
 
-	// RVA: 0x1396140 Offset: 0x1394740 VA: 0x181396140 Slot: 5
+	// RVA: 0x1396400 Offset: 0x1394A00 VA: 0x181396400 Slot: 5
 	protected override MidiEvent CloneEvent() { }
 
-	// RVA: 0x13961D0 Offset: 0x13947D0 VA: 0x1813961D0 Slot: 3
+	// RVA: 0x1396490 Offset: 0x1394A90 VA: 0x181396490 Slot: 3
 	public override string ToString() { }
 
 }

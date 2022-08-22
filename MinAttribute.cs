@@ -26,7 +26,7 @@ public sealed class MinAttribute : Attribute // TypeDefIndex: 11751
 
 	// Methods
 
-	// RVA: 0x1018DE0 Offset: 0x10173E0 VA: 0x181018DE0
+	// RVA: 0x10190A0 Offset: 0x10176A0 VA: 0x1810190A0
 	public void .ctor(float min) { }
 
 }

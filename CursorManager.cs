@@ -7,25 +7,25 @@ public class CursorManager : SingletonComponent<CursorManager> // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x6C65A0 Offset: 0x6C4BA0 VA: 0x1806C65A0
+	// RVA: 0x6C66B0 Offset: 0x6C4CB0 VA: 0x1806C66B0
 	private void Update() { }
 
-	// RVA: 0x6C6440 Offset: 0x6C4A40 VA: 0x1806C6440
+	// RVA: 0x6C6550 Offset: 0x6C4B50 VA: 0x1806C6550
 	public void SwitchToGame() { }
 
-	// RVA: 0x6C64F0 Offset: 0x6C4AF0 VA: 0x1806C64F0
+	// RVA: 0x6C6600 Offset: 0x6C4C00 VA: 0x1806C6600
 	private void SwitchToUI() { }
 
-	// RVA: 0x6C63D0 Offset: 0x6C49D0 VA: 0x1806C63D0
+	// RVA: 0x6C64E0 Offset: 0x6C4AE0 VA: 0x1806C64E0
 	public static void HoldOpen(bool cursorVisible = False) { }
 
-	// RVA: 0x6C6880 Offset: 0x6C4E80 VA: 0x1806C6880
+	// RVA: 0x6C6990 Offset: 0x6C4F90 VA: 0x1806C6990
 	public static bool WasVisible(float deltaTime) { }
 
-	// RVA: 0x6C6800 Offset: 0x6C4E00 VA: 0x1806C6800
+	// RVA: 0x6C6910 Offset: 0x6C4F10 VA: 0x1806C6910
 	public static bool WasInvisible(float deltaTime) { }
 
-	// RVA: 0x6C6900 Offset: 0x6C4F00 VA: 0x1806C6900
+	// RVA: 0x6C6A10 Offset: 0x6C5010 VA: 0x1806C6A10
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

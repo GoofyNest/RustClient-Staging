@@ -1,6 +1,6 @@
 internal static class UnityTls // TypeDefIndex: 2457
 {	// Fields
-	private static UnityTls.unitytls_interface_struct marshalledInterface; // 0x2B10180
+	private static UnityTls.unitytls_interface_struct marshalledInterface; // 0x2B111C0
 
 	// Properties
 	public static bool IsSupported { get; }
@@ -8,13 +8,13 @@ internal static class UnityTls // TypeDefIndex: 2457
 
 	// Methods
 
-	// RVA: 0x1220990 Offset: 0x121EF90 VA: 0x181220990
+	// RVA: 0x1220C50 Offset: 0x121F250 VA: 0x181220C50
 	private static IntPtr GetUnityTlsInterface() { }
 
-	// RVA: 0x12209A0 Offset: 0x121EFA0 VA: 0x1812209A0
+	// RVA: 0x1220C60 Offset: 0x121F260 VA: 0x181220C60
 	public static bool get_IsSupported() { }
 
-	// RVA: 0x12209C0 Offset: 0x121EFC0 VA: 0x1812209C0
+	// RVA: 0x1220C80 Offset: 0x121F280 VA: 0x181220C80
 	public static UnityTls.unitytls_interface_struct get_NativeInterface() { }
 
 }
@@ -102,13 +102,13 @@ public sealed class UnityTls.unitytls_x509verify_callback : MulticastDelegate //
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1224DE0 Offset: 0x12233E0 VA: 0x181224DE0 Slot: 12
+	// RVA: 0x12250A0 Offset: 0x12236A0 VA: 0x1812250A0 Slot: 12
 	public virtual UnityTls.unitytls_x509verify_result Invoke(void* userData, UnityTls.unitytls_x509_ref cert, UnityTls.unitytls_x509verify_result result, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1224D30 Offset: 0x1223330 VA: 0x181224D30 Slot: 13
+	// RVA: 0x1224FF0 Offset: 0x12235F0 VA: 0x181224FF0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(void* userData, UnityTls.unitytls_x509_ref cert, UnityTls.unitytls_x509verify_result result, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0xB9A710 Offset: 0xB98D10 VA: 0x180B9A710 Slot: 14
+	// RVA: 0xB9A9D0 Offset: 0xB98FD0 VA: 0x180B9A9D0 Slot: 14
 	public virtual UnityTls.unitytls_x509verify_result EndInvoke(IAsyncResult result) { }
 
 }
@@ -149,13 +149,13 @@ public sealed class UnityTls.unitytls_tlsctx_write_callback : MulticastDelegate 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x12230C0 Offset: 0x12216C0 VA: 0x1812230C0 Slot: 12
+	// RVA: 0x1223380 Offset: 0x1221980 VA: 0x181223380 Slot: 12
 	public virtual IntPtr Invoke(void* userData, byte* data, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1223BF0 Offset: 0x12221F0 VA: 0x181223BF0 Slot: 13
+	// RVA: 0x1223EB0 Offset: 0x12224B0 VA: 0x181223EB0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(void* userData, byte* data, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0x12213D0 Offset: 0x121F9D0 VA: 0x1812213D0 Slot: 14
+	// RVA: 0x1221690 Offset: 0x121FC90 VA: 0x181221690 Slot: 14
 	public virtual IntPtr EndInvoke(IAsyncResult result) { }
 
 }
@@ -166,13 +166,13 @@ public sealed class UnityTls.unitytls_tlsctx_read_callback : MulticastDelegate /
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x12230C0 Offset: 0x12216C0 VA: 0x1812230C0 Slot: 12
+	// RVA: 0x1223380 Offset: 0x1221980 VA: 0x181223380 Slot: 12
 	public virtual IntPtr Invoke(void* userData, byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1223020 Offset: 0x1221620 VA: 0x181223020 Slot: 13
+	// RVA: 0x12232E0 Offset: 0x12218E0 VA: 0x1812232E0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(void* userData, byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0x12213D0 Offset: 0x121F9D0 VA: 0x1812213D0 Slot: 14
+	// RVA: 0x1221690 Offset: 0x121FC90 VA: 0x181221690 Slot: 14
 	public virtual IntPtr EndInvoke(IAsyncResult result) { }
 
 }
@@ -183,10 +183,10 @@ public sealed class UnityTls.unitytls_tlsctx_trace_callback : MulticastDelegate 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1223780 Offset: 0x1221D80 VA: 0x181223780 Slot: 12
+	// RVA: 0x1223A40 Offset: 0x1222040 VA: 0x181223A40 Slot: 12
 	public virtual void Invoke(void* userData, UnityTls.unitytls_tlsctx* ctx, byte* traceMessage, IntPtr traceMessageLen) { }
 
-	// RVA: 0x1223B50 Offset: 0x1222150 VA: 0x181223B50 Slot: 13
+	// RVA: 0x1223E10 Offset: 0x1222410 VA: 0x181223E10 Slot: 13
 	public virtual IAsyncResult BeginInvoke(void* userData, UnityTls.unitytls_tlsctx* ctx, byte* traceMessage, IntPtr traceMessageLen, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -200,10 +200,10 @@ public sealed class UnityTls.unitytls_tlsctx_certificate_callback : MulticastDel
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1221FE0 Offset: 0x12205E0 VA: 0x181221FE0 Slot: 12
+	// RVA: 0x12222A0 Offset: 0x12208A0 VA: 0x1812222A0 Slot: 12
 	public virtual void Invoke(void* userData, UnityTls.unitytls_tlsctx* ctx, byte* cn, IntPtr cnLen, UnityTls.unitytls_x509name* caList, IntPtr caListLen, UnityTls.unitytls_x509list_ref* chain, UnityTls.unitytls_key_ref* key, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1221EF0 Offset: 0x12204F0 VA: 0x181221EF0 Slot: 13
+	// RVA: 0x12221B0 Offset: 0x12207B0 VA: 0x1812221B0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(void* userData, UnityTls.unitytls_tlsctx* ctx, byte* cn, IntPtr cnLen, UnityTls.unitytls_x509name* caList, IntPtr caListLen, UnityTls.unitytls_x509list_ref* chain, UnityTls.unitytls_key_ref* key, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -217,13 +217,13 @@ public sealed class UnityTls.unitytls_tlsctx_x509verify_callback : MulticastDele
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1223DC0 Offset: 0x12223C0 VA: 0x181223DC0 Slot: 12
+	// RVA: 0x1224080 Offset: 0x1222680 VA: 0x181224080 Slot: 12
 	public virtual UnityTls.unitytls_x509verify_result Invoke(void* userData, UnityTls.unitytls_x509list_ref chain, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1223D30 Offset: 0x1222330 VA: 0x181223D30 Slot: 13
+	// RVA: 0x1223FF0 Offset: 0x12225F0 VA: 0x181223FF0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(void* userData, UnityTls.unitytls_x509list_ref chain, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0xB9A710 Offset: 0xB98D10 VA: 0x180B9A710 Slot: 14
+	// RVA: 0xB9A9D0 Offset: 0xB98FD0 VA: 0x180B9A9D0 Slot: 14
 	public virtual UnityTls.unitytls_x509verify_result EndInvoke(IAsyncResult result) { }
 
 }
@@ -285,13 +285,13 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_errorstate_creat
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1220AC0 Offset: 0x121F0C0 VA: 0x181220AC0 Slot: 12
+	// RVA: 0x1220D80 Offset: 0x121F380 VA: 0x181220D80 Slot: 12
 	public virtual UnityTls.unitytls_errorstate Invoke() { }
 
 	// RVA: 0x49A190 Offset: 0x498790 VA: 0x18049A190 Slot: 13
 	public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object object) { }
 
-	// RVA: 0x1220A80 Offset: 0x121F080 VA: 0x181220A80 Slot: 14
+	// RVA: 0x1220D40 Offset: 0x121F340 VA: 0x181220D40 Slot: 14
 	public virtual UnityTls.unitytls_errorstate EndInvoke(IAsyncResult result) { }
 
 }
@@ -302,10 +302,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_errorstate_raise
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1220E20 Offset: 0x121F420 VA: 0x181220E20 Slot: 12
+	// RVA: 0x12210E0 Offset: 0x121F6E0 VA: 0x1812210E0 Slot: 12
 	public virtual void Invoke(UnityTls.unitytls_errorstate* errorState, UnityTls.unitytls_error_code errorCode) { }
 
-	// RVA: 0x1220D90 Offset: 0x121F390 VA: 0x181220D90 Slot: 13
+	// RVA: 0x1221050 Offset: 0x121F650 VA: 0x181221050 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_errorstate* errorState, UnityTls.unitytls_error_code errorCode, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -319,13 +319,13 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_key_get_ref_t : 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1221400 Offset: 0x121FA00 VA: 0x181221400 Slot: 12
+	// RVA: 0x12216C0 Offset: 0x121FCC0 VA: 0x1812216C0 Slot: 12
 	public virtual UnityTls.unitytls_key_ref Invoke(UnityTls.unitytls_key* key, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580 Slot: 13
+	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_key* key, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0x12213D0 Offset: 0x121F9D0 VA: 0x1812213D0 Slot: 14
+	// RVA: 0x1221690 Offset: 0x121FC90 VA: 0x181221690 Slot: 14
 	public virtual UnityTls.unitytls_key_ref EndInvoke(IAsyncResult result) { }
 
 }
@@ -336,10 +336,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_key_parse_der_t 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x12217D0 Offset: 0x121FDD0 VA: 0x1812217D0 Slot: 12
+	// RVA: 0x1221A90 Offset: 0x1220090 VA: 0x181221A90 Slot: 12
 	public virtual UnityTls.unitytls_key* Invoke(byte* buffer, IntPtr bufferLen, byte* password, IntPtr passwordLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1221710 Offset: 0x121FD10 VA: 0x181221710 Slot: 13
+	// RVA: 0x12219D0 Offset: 0x121FFD0 VA: 0x1812219D0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(byte* buffer, IntPtr bufferLen, byte* password, IntPtr passwordLen, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -353,10 +353,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_key_parse_pem_t 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x12217D0 Offset: 0x121FDD0 VA: 0x1812217D0 Slot: 12
+	// RVA: 0x1221A90 Offset: 0x1220090 VA: 0x181221A90 Slot: 12
 	public virtual UnityTls.unitytls_key* Invoke(byte* buffer, IntPtr bufferLen, byte* password, IntPtr passwordLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1221AA0 Offset: 0x12200A0 VA: 0x181221AA0 Slot: 13
+	// RVA: 0x1221D60 Offset: 0x1220360 VA: 0x181221D60 Slot: 13
 	public virtual IAsyncResult BeginInvoke(byte* buffer, IntPtr bufferLen, byte* password, IntPtr passwordLen, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -370,7 +370,7 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_key_free_t : Mul
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1221110 Offset: 0x121F710 VA: 0x181221110 Slot: 12
+	// RVA: 0x12213D0 Offset: 0x121F9D0 VA: 0x1812213D0 Slot: 12
 	public virtual void Invoke(UnityTls.unitytls_key* key) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13
@@ -387,13 +387,13 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_x509_export_der_
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1224180 Offset: 0x1222780 VA: 0x181224180 Slot: 12
+	// RVA: 0x1224440 Offset: 0x1222A40 VA: 0x181224440 Slot: 12
 	public virtual IntPtr Invoke(UnityTls.unitytls_x509_ref cert, byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x12240D0 Offset: 0x12226D0 VA: 0x1812240D0 Slot: 13
+	// RVA: 0x1224390 Offset: 0x1222990 VA: 0x181224390 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_x509_ref cert, byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0x12213D0 Offset: 0x121F9D0 VA: 0x1812213D0 Slot: 14
+	// RVA: 0x1221690 Offset: 0x121FC90 VA: 0x181221690 Slot: 14
 	public virtual IntPtr EndInvoke(IAsyncResult result) { }
 
 }
@@ -404,13 +404,13 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_x509list_get_ref
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1221400 Offset: 0x121FA00 VA: 0x181221400 Slot: 12
+	// RVA: 0x12216C0 Offset: 0x121FCC0 VA: 0x1812216C0 Slot: 12
 	public virtual UnityTls.unitytls_x509list_ref Invoke(UnityTls.unitytls_x509list* list, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580 Slot: 13
+	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_x509list* list, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0x12213D0 Offset: 0x121F9D0 VA: 0x1812213D0 Slot: 14
+	// RVA: 0x1221690 Offset: 0x121FC90 VA: 0x181221690 Slot: 14
 	public virtual UnityTls.unitytls_x509list_ref EndInvoke(IAsyncResult result) { }
 
 }
@@ -421,13 +421,13 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_x509list_get_x50
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x12249D0 Offset: 0x1222FD0 VA: 0x1812249D0 Slot: 12
+	// RVA: 0x1224C90 Offset: 0x1223290 VA: 0x181224C90 Slot: 12
 	public virtual UnityTls.unitytls_x509_ref Invoke(UnityTls.unitytls_x509list_ref list, IntPtr index, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1224930 Offset: 0x1222F30 VA: 0x181224930 Slot: 13
+	// RVA: 0x1224BF0 Offset: 0x12231F0 VA: 0x181224BF0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_x509list_ref list, IntPtr index, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0x12213D0 Offset: 0x121F9D0 VA: 0x1812213D0 Slot: 14
+	// RVA: 0x1221690 Offset: 0x121FC90 VA: 0x181221690 Slot: 14
 	public virtual UnityTls.unitytls_x509_ref EndInvoke(IAsyncResult result) { }
 
 }
@@ -438,7 +438,7 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_x509list_create_
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1224650 Offset: 0x1222C50 VA: 0x181224650 Slot: 12
+	// RVA: 0x1224910 Offset: 0x1222F10 VA: 0x181224910 Slot: 12
 	public virtual UnityTls.unitytls_x509list* Invoke(UnityTls.unitytls_errorstate* errorState) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13
@@ -455,10 +455,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_x509list_append_
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1223480 Offset: 0x1221A80 VA: 0x181223480 Slot: 12
+	// RVA: 0x1223740 Offset: 0x1221D40 VA: 0x181223740 Slot: 12
 	public virtual void Invoke(UnityTls.unitytls_x509list* list, UnityTls.unitytls_x509_ref cert, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x12245C0 Offset: 0x1222BC0 VA: 0x1812245C0 Slot: 13
+	// RVA: 0x1224880 Offset: 0x1222E80 VA: 0x181224880 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_x509list* list, UnityTls.unitytls_x509_ref cert, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -472,10 +472,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_x509list_append_
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1223780 Offset: 0x1221D80 VA: 0x181223780 Slot: 12
+	// RVA: 0x1223A40 Offset: 0x1222040 VA: 0x181223A40 Slot: 12
 	public virtual void Invoke(UnityTls.unitytls_x509list* list, byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1224520 Offset: 0x1222B20 VA: 0x181224520 Slot: 13
+	// RVA: 0x12247E0 Offset: 0x1222DE0 VA: 0x1812247E0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_x509list* list, byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -489,7 +489,7 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_x509list_free_t 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1221110 Offset: 0x121F710 VA: 0x181221110 Slot: 12
+	// RVA: 0x12213D0 Offset: 0x121F9D0 VA: 0x1812213D0 Slot: 12
 	public virtual void Invoke(UnityTls.unitytls_x509list* list) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13
@@ -506,13 +506,13 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_x509verify_defau
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x12251F0 Offset: 0x12237F0 VA: 0x1812251F0 Slot: 12
+	// RVA: 0x12254B0 Offset: 0x1223AB0 VA: 0x1812254B0 Slot: 12
 	public virtual UnityTls.unitytls_x509verify_result Invoke(UnityTls.unitytls_x509list_ref chain, byte* cn, IntPtr cnLen, UnityTls.unitytls_x509verify_callback cb, void* userData, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1225120 Offset: 0x1223720 VA: 0x181225120 Slot: 13
+	// RVA: 0x12253E0 Offset: 0x12239E0 VA: 0x1812253E0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_x509list_ref chain, byte* cn, IntPtr cnLen, UnityTls.unitytls_x509verify_callback cb, void* userData, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0xB9A710 Offset: 0xB98D10 VA: 0x180B9A710 Slot: 14
+	// RVA: 0xB9A9D0 Offset: 0xB98FD0 VA: 0x180B9A9D0 Slot: 14
 	public virtual UnityTls.unitytls_x509verify_result EndInvoke(IAsyncResult result) { }
 
 }
@@ -523,13 +523,13 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_x509verify_expli
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x12256E0 Offset: 0x1223CE0 VA: 0x1812256E0 Slot: 12
+	// RVA: 0x12259A0 Offset: 0x1223FA0 VA: 0x1812259A0 Slot: 12
 	public virtual UnityTls.unitytls_x509verify_result Invoke(UnityTls.unitytls_x509list_ref chain, UnityTls.unitytls_x509list_ref trustCA, byte* cn, IntPtr cnLen, UnityTls.unitytls_x509verify_callback cb, void* userData, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1225600 Offset: 0x1223C00 VA: 0x181225600 Slot: 13
+	// RVA: 0x12258C0 Offset: 0x1223EC0 VA: 0x1812258C0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_x509list_ref chain, UnityTls.unitytls_x509list_ref trustCA, byte* cn, IntPtr cnLen, UnityTls.unitytls_x509verify_callback cb, void* userData, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0xB9A710 Offset: 0xB98D10 VA: 0x180B9A710 Slot: 14
+	// RVA: 0xB9A9D0 Offset: 0xB98FD0 VA: 0x180B9A9D0 Slot: 14
 	public virtual UnityTls.unitytls_x509verify_result EndInvoke(IAsyncResult result) { }
 
 }
@@ -540,10 +540,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_create_se
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1222570 Offset: 0x1220B70 VA: 0x181222570 Slot: 12
+	// RVA: 0x1222830 Offset: 0x1220E30 VA: 0x181222830 Slot: 12
 	public virtual UnityTls.unitytls_tlsctx* Invoke(UnityTls.unitytls_tlsctx_protocolrange supportedProtocols, UnityTls.unitytls_tlsctx_callbacks callbacks, ulong certChain, ulong leafCertificateKey, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1222A30 Offset: 0x1221030 VA: 0x181222A30 Slot: 13
+	// RVA: 0x1222CF0 Offset: 0x12212F0 VA: 0x181222CF0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_tlsctx_protocolrange supportedProtocols, UnityTls.unitytls_tlsctx_callbacks callbacks, ulong certChain, ulong leafCertificateKey, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -557,10 +557,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_create_cl
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1222570 Offset: 0x1220B70 VA: 0x181222570 Slot: 12
+	// RVA: 0x1222830 Offset: 0x1220E30 VA: 0x181222830 Slot: 12
 	public virtual UnityTls.unitytls_tlsctx* Invoke(UnityTls.unitytls_tlsctx_protocolrange supportedProtocols, UnityTls.unitytls_tlsctx_callbacks callbacks, byte* cn, IntPtr cnLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x12224A0 Offset: 0x1220AA0 VA: 0x1812224A0 Slot: 13
+	// RVA: 0x1222760 Offset: 0x1220D60 VA: 0x181222760 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_tlsctx_protocolrange supportedProtocols, UnityTls.unitytls_tlsctx_callbacks callbacks, byte* cn, IntPtr cnLen, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -574,10 +574,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_server_re
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1223480 Offset: 0x1221A80 VA: 0x181223480 Slot: 12
+	// RVA: 0x1223740 Offset: 0x1221D40 VA: 0x181223740 Slot: 12
 	public virtual void Invoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_x509list_ref clientAuthCAList, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x12233F0 Offset: 0x12219F0 VA: 0x1812233F0 Slot: 13
+	// RVA: 0x12236B0 Offset: 0x1221CB0 VA: 0x1812236B0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_x509list_ref clientAuthCAList, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -591,10 +591,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_set_certi
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1223780 Offset: 0x1221D80 VA: 0x181223780 Slot: 12
+	// RVA: 0x1223A40 Offset: 0x1222040 VA: 0x181223A40 Slot: 12
 	public virtual void Invoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_tlsctx_certificate_callback cb, void* userData, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0xFF9340 Offset: 0xFF7940 VA: 0x180FF9340 Slot: 13
+	// RVA: 0xFF9600 Offset: 0xFF7C00 VA: 0x180FF9600 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_tlsctx_certificate_callback cb, void* userData, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -608,10 +608,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_set_trace
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1223780 Offset: 0x1221D80 VA: 0x181223780 Slot: 12
+	// RVA: 0x1223A40 Offset: 0x1222040 VA: 0x181223A40 Slot: 12
 	public virtual void Invoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_tlsctx_trace_callback cb, void* userData, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0xFF9340 Offset: 0xFF7940 VA: 0x180FF9340 Slot: 13
+	// RVA: 0xFF9600 Offset: 0xFF7C00 VA: 0x180FF9600 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_tlsctx_trace_callback cb, void* userData, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -625,10 +625,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_set_x509v
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1223780 Offset: 0x1221D80 VA: 0x181223780 Slot: 12
+	// RVA: 0x1223A40 Offset: 0x1222040 VA: 0x181223A40 Slot: 12
 	public virtual void Invoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_tlsctx_x509verify_callback cb, void* userData, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0xFF9340 Offset: 0xFF7940 VA: 0x180FF9340 Slot: 13
+	// RVA: 0xFF9600 Offset: 0xFF7C00 VA: 0x180FF9600 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_tlsctx_x509verify_callback cb, void* userData, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -642,10 +642,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_set_suppo
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1223780 Offset: 0x1221D80 VA: 0x181223780 Slot: 12
+	// RVA: 0x1223A40 Offset: 0x1222040 VA: 0x181223A40 Slot: 12
 	public virtual void Invoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_ciphersuite* supportedCiphersuites, IntPtr supportedCiphersuitesLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1223AB0 Offset: 0x12220B0 VA: 0x181223AB0 Slot: 13
+	// RVA: 0x1223D70 Offset: 0x1222370 VA: 0x181223D70 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_ciphersuite* supportedCiphersuites, IntPtr supportedCiphersuitesLen, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -659,13 +659,13 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_get_ciphe
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1222B00 Offset: 0x1221100 VA: 0x181222B00 Slot: 12
+	// RVA: 0x1222DC0 Offset: 0x12213C0 VA: 0x181222DC0 Slot: 12
 	public virtual UnityTls.unitytls_ciphersuite Invoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580 Slot: 13
+	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0xB9A710 Offset: 0xB98D10 VA: 0x180B9A710 Slot: 14
+	// RVA: 0xB9A9D0 Offset: 0xB98FD0 VA: 0x180B9A9D0 Slot: 14
 	public virtual UnityTls.unitytls_ciphersuite EndInvoke(IAsyncResult result) { }
 
 }
@@ -676,13 +676,13 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_get_proto
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1222B00 Offset: 0x1221100 VA: 0x181222B00 Slot: 12
+	// RVA: 0x1222DC0 Offset: 0x12213C0 VA: 0x181222DC0 Slot: 12
 	public virtual UnityTls.unitytls_protocol Invoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580 Slot: 13
+	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0xB9A710 Offset: 0xB98D10 VA: 0x180B9A710 Slot: 14
+	// RVA: 0xB9A9D0 Offset: 0xB98FD0 VA: 0x180B9A9D0 Slot: 14
 	public virtual UnityTls.unitytls_protocol EndInvoke(IAsyncResult result) { }
 
 }
@@ -693,13 +693,13 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_process_h
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1222B00 Offset: 0x1221100 VA: 0x181222B00 Slot: 12
+	// RVA: 0x1222DC0 Offset: 0x12213C0 VA: 0x181222DC0 Slot: 12
 	public virtual UnityTls.unitytls_x509verify_result Invoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580 Slot: 13
+	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0xB9A710 Offset: 0xB98D10 VA: 0x180B9A710 Slot: 14
+	// RVA: 0xB9A9D0 Offset: 0xB98FD0 VA: 0x180B9A9D0 Slot: 14
 	public virtual UnityTls.unitytls_x509verify_result EndInvoke(IAsyncResult result) { }
 
 }
@@ -710,13 +710,13 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_read_t : 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x12230C0 Offset: 0x12216C0 VA: 0x1812230C0 Slot: 12
+	// RVA: 0x1223380 Offset: 0x1221980 VA: 0x181223380 Slot: 12
 	public virtual IntPtr Invoke(UnityTls.unitytls_tlsctx* ctx, byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1223350 Offset: 0x1221950 VA: 0x181223350 Slot: 13
+	// RVA: 0x1223610 Offset: 0x1221C10 VA: 0x181223610 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_tlsctx* ctx, byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0x12213D0 Offset: 0x121F9D0 VA: 0x1812213D0 Slot: 14
+	// RVA: 0x1221690 Offset: 0x121FC90 VA: 0x181221690 Slot: 14
 	public virtual IntPtr EndInvoke(IAsyncResult result) { }
 
 }
@@ -727,13 +727,13 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_write_t :
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x12230C0 Offset: 0x12216C0 VA: 0x1812230C0 Slot: 12
+	// RVA: 0x1223380 Offset: 0x1221980 VA: 0x181223380 Slot: 12
 	public virtual IntPtr Invoke(UnityTls.unitytls_tlsctx* ctx, byte* data, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1223C90 Offset: 0x1222290 VA: 0x181223C90 Slot: 13
+	// RVA: 0x1223F50 Offset: 0x1222550 VA: 0x181223F50 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_tlsctx* ctx, byte* data, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
-	// RVA: 0x12213D0 Offset: 0x121F9D0 VA: 0x1812213D0 Slot: 14
+	// RVA: 0x1221690 Offset: 0x121FC90 VA: 0x181221690 Slot: 14
 	public virtual IntPtr EndInvoke(IAsyncResult result) { }
 
 }
@@ -744,10 +744,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_notify_cl
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1222D30 Offset: 0x1221330 VA: 0x181222D30 Slot: 12
+	// RVA: 0x1222FF0 Offset: 0x12215F0 VA: 0x181222FF0 Slot: 12
 	public virtual void Invoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580 Slot: 13
+	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
 	public virtual IAsyncResult BeginInvoke(UnityTls.unitytls_tlsctx* ctx, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -761,7 +761,7 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_tlsctx_free_t : 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1221110 Offset: 0x121F710 VA: 0x181221110 Slot: 12
+	// RVA: 0x12213D0 Offset: 0x121F9D0 VA: 0x1812213D0 Slot: 12
 	public virtual void Invoke(UnityTls.unitytls_tlsctx* ctx) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13
@@ -778,10 +778,10 @@ public sealed class UnityTls.unitytls_interface_struct.unitytls_random_generate_
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1221BF0 Offset: 0x12201F0 VA: 0x181221BF0 Slot: 12
+	// RVA: 0x1221EB0 Offset: 0x12204B0 VA: 0x181221EB0 Slot: 12
 	public virtual void Invoke(byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	// RVA: 0x1221B60 Offset: 0x1220160 VA: 0x181221B60 Slot: 13
+	// RVA: 0x1221E20 Offset: 0x1220420 VA: 0x181221E20 Slot: 13
 	public virtual IAsyncResult BeginInvoke(byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

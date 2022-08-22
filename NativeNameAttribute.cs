@@ -13,7 +13,7 @@ internal class NativeNameAttribute : Attribute // TypeDefIndex: 3272
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630 Slot: 7
 	public void set_Name(string value) { }
 
-	// RVA: 0x2311860 Offset: 0x230FE60 VA: 0x182311860
+	// RVA: 0x2311B20 Offset: 0x2310120 VA: 0x182311B20
 	public void .ctor(string name) { }
 
 }

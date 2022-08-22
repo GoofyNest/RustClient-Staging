@@ -27,61 +27,61 @@ internal sealed class ReadObjectInfo // TypeDefIndex: 1108
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal void ObjectEnd() { }
 
-	// RVA: 0x12024A0 Offset: 0x1200AA0 VA: 0x1812024A0
+	// RVA: 0x1202760 Offset: 0x1200D60 VA: 0x181202760
 	internal void PrepareForReuse() { }
 
-	// RVA: 0x1200B40 Offset: 0x11FF140 VA: 0x181200B40
+	// RVA: 0x1200E00 Offset: 0x11FF400 VA: 0x181200E00
 	internal static ReadObjectInfo Create(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context, ObjectManager objectManager, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, bool bSimpleAssembly) { }
 
-	// RVA: 0x1202080 Offset: 0x1200680 VA: 0x181202080
+	// RVA: 0x1202340 Offset: 0x1200940 VA: 0x181202340
 	internal void Init(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context, ObjectManager objectManager, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, bool bSimpleAssembly) { }
 
-	// RVA: 0x12009D0 Offset: 0x11FEFD0 VA: 0x1812009D0
+	// RVA: 0x1200C90 Offset: 0x11FF290 VA: 0x181200C90
 	internal static ReadObjectInfo Create(Type objectType, string[] memberNames, Type[] memberTypes, ISurrogateSelector surrogateSelector, StreamingContext context, ObjectManager objectManager, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, bool bSimpleAssembly) { }
 
-	// RVA: 0x1202140 Offset: 0x1200740 VA: 0x181202140
+	// RVA: 0x1202400 Offset: 0x1200A00 VA: 0x181202400
 	internal void Init(Type objectType, string[] memberNames, Type[] memberTypes, ISurrogateSelector surrogateSelector, StreamingContext context, ObjectManager objectManager, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, bool bSimpleAssembly) { }
 
-	// RVA: 0x1201DC0 Offset: 0x12003C0 VA: 0x181201DC0
+	// RVA: 0x1202080 Offset: 0x1200680 VA: 0x181202080
 	private void InitReadConstructor(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context) { }
 
-	// RVA: 0x1202010 Offset: 0x1200610 VA: 0x181202010
+	// RVA: 0x12022D0 Offset: 0x12008D0 VA: 0x1812022D0
 	private void InitSiRead() { }
 
-	// RVA: 0x1201D50 Offset: 0x1200350 VA: 0x181201D50
+	// RVA: 0x1202010 Offset: 0x1200610 VA: 0x181202010
 	private void InitNoMembers() { }
 
-	// RVA: 0x1201A80 Offset: 0x1200080 VA: 0x181201A80
+	// RVA: 0x1201D40 Offset: 0x1200340 VA: 0x181201D40
 	private void InitMemberInfo() { }
 
-	// RVA: 0x1200C70 Offset: 0x11FF270 VA: 0x181200C70
+	// RVA: 0x1200F30 Offset: 0x11FF530 VA: 0x181200F30
 	internal MemberInfo GetMemberInfo(string name) { }
 
-	// RVA: 0x1201810 Offset: 0x11FFE10 VA: 0x181201810
+	// RVA: 0x1201AD0 Offset: 0x12000D0 VA: 0x181201AD0
 	internal Type GetType(string name) { }
 
-	// RVA: 0x1200910 Offset: 0x11FEF10 VA: 0x181200910
+	// RVA: 0x1200BD0 Offset: 0x11FF1D0 VA: 0x181200BD0
 	internal void AddValue(string name, object value, ref SerializationInfo si, ref object[] memberData) { }
 
-	// RVA: 0x1201990 Offset: 0x11FFF90 VA: 0x181201990
+	// RVA: 0x1201C50 Offset: 0x1200250 VA: 0x181201C50
 	internal void InitDataStore(ref SerializationInfo si, ref object[] memberData) { }
 
-	// RVA: 0x12024B0 Offset: 0x1200AB0 VA: 0x1812024B0
+	// RVA: 0x1202770 Offset: 0x1200D70 VA: 0x181202770
 	internal void RecordFixup(long objectId, string name, long idRef) { }
 
-	// RVA: 0x1202250 Offset: 0x1200850 VA: 0x181202250
+	// RVA: 0x1202510 Offset: 0x1200B10 VA: 0x181202510
 	internal void PopulateObjectMembers(object obj, object[] memberData) { }
 
-	// RVA: 0x12022E0 Offset: 0x12008E0 VA: 0x1812022E0
+	// RVA: 0x12025A0 Offset: 0x1200BA0 VA: 0x1812025A0
 	private int Position(string name) { }
 
-	// RVA: 0x12010E0 Offset: 0x11FF6E0 VA: 0x1812010E0
+	// RVA: 0x12013A0 Offset: 0x11FF9A0 VA: 0x1812013A0
 	internal Type[] GetMemberTypes(string[] inMemberNames, Type objectType) { }
 
-	// RVA: 0x1200E70 Offset: 0x11FF470 VA: 0x181200E70
+	// RVA: 0x1201130 Offset: 0x11FF730 VA: 0x181201130
 	internal Type GetMemberType(MemberInfo objMember) { }
 
-	// RVA: 0x12017A0 Offset: 0x11FFDA0 VA: 0x1812017A0
+	// RVA: 0x1201A60 Offset: 0x1200060 VA: 0x181201A60
 	private static ReadObjectInfo GetObjectInfo(SerObjectInfoInit serObjectInfoInit) { }
 
 }

@@ -22,42 +22,42 @@ public class BasePet : NPCPlayer // TypeDefIndex: 8335
 
 	// Methods
 
-	// RVA: 0xA53450 Offset: 0xA51A50 VA: 0x180A53450 Slot: 49
+	// RVA: 0xA53710 Offset: 0xA51D10 VA: 0x180A53710 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xA538C0 Offset: 0xA51EC0 VA: 0x180A538C0 Slot: 50
+	// RVA: 0xA53B80 Offset: 0xA52180 VA: 0x180A53B80 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA538B0 Offset: 0xA51EB0 VA: 0x180A538B0
+	// RVA: 0xA53B70 Offset: 0xA52170 VA: 0x180A53B70
 	public BaseAIBrain<BasePet> get_Brain() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA53980 Offset: 0xA51F80 VA: 0x180A53980
+	// RVA: 0xA53C40 Offset: 0xA52240 VA: 0x180A53C40
 	protected void set_Brain(BaseAIBrain<BasePet> value) { }
 
-	// RVA: 0x745B70 Offset: 0x744170 VA: 0x180745B70 Slot: 143
+	// RVA: 0x745C80 Offset: 0x744280 VA: 0x180745C80 Slot: 143
 	public override float StartHealth() { }
 
-	// RVA: 0x745B70 Offset: 0x744170 VA: 0x180745B70 Slot: 144
+	// RVA: 0x745C80 Offset: 0x744280 VA: 0x180745C80 Slot: 144
 	public override float StartMaxHealth() { }
 
-	// RVA: 0x7D79B0 Offset: 0x7D5FB0 VA: 0x1807D79B0 Slot: 111
+	// RVA: 0x7D7AC0 Offset: 0x7D60C0 VA: 0x1807D7AC0 Slot: 111
 	public override float MaxHealth() { }
 
 	[BaseEntity.Menu] // RVA: 0x831D0 Offset: 0x825D0 VA: 0x1800831D0
 	[BaseEntity.Menu.Description] // RVA: 0x831D0 Offset: 0x825D0 VA: 0x1800831D0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x831D0 Offset: 0x825D0 VA: 0x1800831D0
-	// RVA: 0xA53750 Offset: 0xA51D50 VA: 0x180A53750
+	// RVA: 0xA53A10 Offset: 0xA52010 VA: 0x180A53A10
 	public void MenuDesignAI(BasePlayer ply) { }
 
-	// RVA: 0xA53350 Offset: 0xA51950 VA: 0x180A53350
+	// RVA: 0xA53610 Offset: 0xA51C10 VA: 0x180A53610
 	public bool CanDesignAI(BasePlayer player) { }
 
-	// RVA: 0xA53880 Offset: 0xA51E80 VA: 0x180A53880
+	// RVA: 0xA53B40 Offset: 0xA52140 VA: 0x180A53B40
 	public void .ctor() { }
 
-	// RVA: 0xA53820 Offset: 0xA51E20 VA: 0x180A53820
+	// RVA: 0xA53AE0 Offset: 0xA520E0 VA: 0x180A53AE0
 	private static void .cctor() { }
 
 }

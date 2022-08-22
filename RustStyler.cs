@@ -17,19 +17,19 @@ public class RustStyler : MonoBehaviour // TypeDefIndex: 7032
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public StyleAsset get_Styles() { }
 
-	// RVA: 0xFCFA80 Offset: 0xFCE080 VA: 0x180FCFA80
+	// RVA: 0xFCFD40 Offset: 0xFCE340 VA: 0x180FCFD40
 	public void set_Styles(StyleAsset value) { }
 
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	public StyleGroup get_Group() { }
 
-	// RVA: 0xFCFA70 Offset: 0xFCE070 VA: 0x180FCFA70
+	// RVA: 0xFCFD30 Offset: 0xFCE330 VA: 0x180FCFD30
 	public void set_Group(StyleGroup value) { }
 
-	// RVA: 0xFCF6B0 Offset: 0xFCDCB0 VA: 0x180FCF6B0
+	// RVA: 0xFCF970 Offset: 0xFCDF70 VA: 0x180FCF970
 	private void ApplyStyles() { }
 
-	// RVA: 0xFCF990 Offset: 0xFCDF90 VA: 0x180FCF990
+	// RVA: 0xFCFC50 Offset: 0xFCE250 VA: 0x180FCFC50
 	private StyleAsset.Group GetStyleGroup() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

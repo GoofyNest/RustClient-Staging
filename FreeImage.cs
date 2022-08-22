@@ -7,49 +7,49 @@ public static class FreeImage // TypeDefIndex: 8020
 
 	// Methods
 
-	// RVA: 0x106C230 Offset: 0x106A830 VA: 0x18106C230
+	// RVA: 0x106C4F0 Offset: 0x106AAF0 VA: 0x18106C4F0
 	public static extern FreeImage.Format GetFIFFromFilename(string filename) { }
 
-	// RVA: 0x106C570 Offset: 0x106AB70 VA: 0x18106C570
+	// RVA: 0x106C830 Offset: 0x106AE30 VA: 0x18106C830
 	public static extern FreeImage.Bitmap Load(FreeImage.Format fif, string filename, FreeImage.LoadFlags flags = 0) { }
 
-	// RVA: 0x106C6C0 Offset: 0x106ACC0 VA: 0x18106C6C0
+	// RVA: 0x106C980 Offset: 0x106AF80 VA: 0x18106C980
 	public static extern bool Save(FreeImage.Format fif, FreeImage.Bitmap bitmap, string filename, FreeImage.SaveFlags flags = 0) { }
 
-	// RVA: 0x106BF70 Offset: 0x106A570 VA: 0x18106BF70
+	// RVA: 0x106C230 Offset: 0x106A830 VA: 0x18106C230
 	public static extern FreeImage.Bitmap Allocate(int width, int height, int bpp, uint red_mask = 16711680, uint green_mask = 65280, uint blue_mask = 255) { }
 
-	// RVA: 0x106C780 Offset: 0x106AD80 VA: 0x18106C780
+	// RVA: 0x106CA40 Offset: 0x106B040 VA: 0x18106CA40
 	public static extern void Unload(FreeImage.Bitmap bitmap) { }
 
-	// RVA: 0x106C1B0 Offset: 0x106A7B0 VA: 0x18106C1B0
+	// RVA: 0x106C470 Offset: 0x106AA70 VA: 0x18106C470
 	public static extern IntPtr GetBits(FreeImage.Bitmap bitmap) { }
 
-	// RVA: 0x106C130 Offset: 0x106A730 VA: 0x18106C130
+	// RVA: 0x106C3F0 Offset: 0x106A9F0 VA: 0x18106C3F0
 	public static extern uint GetBPP(FreeImage.Bitmap bitmap) { }
 
-	// RVA: 0x106C4F0 Offset: 0x106AAF0 VA: 0x18106C4F0
+	// RVA: 0x106C7B0 Offset: 0x106ADB0 VA: 0x18106C7B0
 	public static extern uint GetWidth(FreeImage.Bitmap bitmap) { }
 
-	// RVA: 0x106C2C0 Offset: 0x106A8C0 VA: 0x18106C2C0
+	// RVA: 0x106C580 Offset: 0x106AB80 VA: 0x18106C580
 	public static extern uint GetHeight(FreeImage.Bitmap bitmap) { }
 
-	// RVA: 0x106C340 Offset: 0x106A940 VA: 0x18106C340
+	// RVA: 0x106C600 Offset: 0x106AC00 VA: 0x18106C600
 	public static extern uint GetLine(FreeImage.Bitmap bitmap) { }
 
-	// RVA: 0x106C3C0 Offset: 0x106A9C0 VA: 0x18106C3C0
+	// RVA: 0x106C680 Offset: 0x106AC80 VA: 0x18106C680
 	public static extern uint GetPitch(FreeImage.Bitmap bitmap) { }
 
-	// RVA: 0x106C440 Offset: 0x106AA40 VA: 0x18106C440
+	// RVA: 0x106C700 Offset: 0x106AD00 VA: 0x18106C700
 	public static extern bool GetPixelColor(FreeImage.Bitmap bitmap, uint x, uint y, out FreeImage.RGBQuad value) { }
 
-	// RVA: 0x106C620 Offset: 0x106AC20 VA: 0x18106C620
+	// RVA: 0x106C8E0 Offset: 0x106AEE0 VA: 0x18106C8E0
 	public static extern FreeImage.Bitmap Rescale(FreeImage.Bitmap bitmap, int dst_width, int dst_height, FreeImage.Filter filter) { }
 
-	// RVA: 0x106C030 Offset: 0x106A630 VA: 0x18106C030
+	// RVA: 0x106C2F0 Offset: 0x106A8F0 VA: 0x18106C2F0
 	public static extern FreeImage.Bitmap ConvertTo24Bits(FreeImage.Bitmap bitmap) { }
 
-	// RVA: 0x106C0B0 Offset: 0x106A6B0 VA: 0x18106C0B0
+	// RVA: 0x106C370 Offset: 0x106A970 VA: 0x18106C370
 	public static extern FreeImage.Bitmap ConvertTo32Bits(FreeImage.Bitmap bitmap) { }
 
 }
@@ -170,7 +170,7 @@ public struct FreeImage.Bitmap // TypeDefIndex: 8025
 	// RVA: 0x184DE0 Offset: 0x1841E0 VA: 0x180184DE0
 	public void Unload() { }
 
-	// RVA: 0x1068110 Offset: 0x1066710 VA: 0x181068110
+	// RVA: 0x10683D0 Offset: 0x10669D0 VA: 0x1810683D0
 	private static void .cctor() { }
 
 }

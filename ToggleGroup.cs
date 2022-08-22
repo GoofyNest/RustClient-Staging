@@ -9,40 +9,40 @@ public class ToggleGroup : UIBehaviour // TypeDefIndex: 5018
 
 	// Methods
 
-	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
+	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
 	public bool get_allowSwitchOff() { }
 
-	// RVA: 0x95FA00 Offset: 0x95E000 VA: 0x18095FA00
+	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10
 	public void set_allowSwitchOff(bool value) { }
 
-	// RVA: 0x2247710 Offset: 0x2245D10 VA: 0x182247710
+	// RVA: 0x22479D0 Offset: 0x2245FD0 VA: 0x1822479D0
 	protected void .ctor() { }
 
-	// RVA: 0x2247550 Offset: 0x2245B50 VA: 0x182247550 Slot: 6
+	// RVA: 0x2247810 Offset: 0x2245E10 VA: 0x182247810 Slot: 6
 	protected override void Start() { }
 
-	// RVA: 0x22475E0 Offset: 0x2245BE0 VA: 0x1822475E0
+	// RVA: 0x22478A0 Offset: 0x2245EA0 VA: 0x1822478A0
 	private void ValidateToggleIsInGroup(Toggle toggle) { }
 
-	// RVA: 0x2247170 Offset: 0x2245770 VA: 0x182247170
+	// RVA: 0x2247430 Offset: 0x2245A30 VA: 0x182247430
 	public void NotifyToggleOn(Toggle toggle, bool sendCallback = True) { }
 
-	// RVA: 0x2247570 Offset: 0x2245B70 VA: 0x182247570
+	// RVA: 0x2247830 Offset: 0x2245E30 VA: 0x182247830
 	public void UnregisterToggle(Toggle toggle) { }
 
-	// RVA: 0x22473B0 Offset: 0x22459B0 VA: 0x1822473B0
+	// RVA: 0x2247670 Offset: 0x2245C70 VA: 0x182247670
 	public void RegisterToggle(Toggle toggle) { }
 
-	// RVA: 0x22470C0 Offset: 0x22456C0 VA: 0x1822470C0
+	// RVA: 0x2247380 Offset: 0x2245980 VA: 0x182247380
 	public void EnsureValidState() { }
 
-	// RVA: 0x2246F90 Offset: 0x2245590 VA: 0x182246F90
+	// RVA: 0x2247250 Offset: 0x2245850 VA: 0x182247250
 	public bool AnyTogglesOn() { }
 
-	// RVA: 0x2246E90 Offset: 0x2245490 VA: 0x182246E90
+	// RVA: 0x2247150 Offset: 0x2245750 VA: 0x182247150
 	public IEnumerable<Toggle> ActiveToggles() { }
 
-	// RVA: 0x2247420 Offset: 0x2245A20 VA: 0x182247420
+	// RVA: 0x22476E0 Offset: 0x2245CE0 VA: 0x1822476E0
 	public void SetAllTogglesOff(bool sendCallback = True) { }
 
 }
@@ -55,7 +55,7 @@ private sealed class ToggleGroup.<>c // TypeDefIndex: 5019
 
 	// Methods
 
-	// RVA: 0x2247FF0 Offset: 0x22465F0 VA: 0x182247FF0
+	// RVA: 0x22482B0 Offset: 0x22468B0 VA: 0x1822482B0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

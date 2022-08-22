@@ -5,19 +5,19 @@ public class DSASignatureDeformatter : AsymmetricSignatureDeformatter // TypeDef
 
 	// Methods
 
-	// RVA: 0x16FFE80 Offset: 0x16FE480 VA: 0x1816FFE80
+	// RVA: 0x1700140 Offset: 0x16FE740 VA: 0x181700140
 	public void .ctor() { }
 
-	// RVA: 0x16FFD60 Offset: 0x16FE360 VA: 0x1816FFD60
+	// RVA: 0x1700020 Offset: 0x16FE620 VA: 0x181700020
 	public void .ctor(AsymmetricAlgorithm key) { }
 
-	// RVA: 0x16FFB90 Offset: 0x16FE190 VA: 0x1816FFB90 Slot: 4
+	// RVA: 0x16FFE50 Offset: 0x16FE450 VA: 0x1816FFE50 Slot: 4
 	public override void SetKey(AsymmetricAlgorithm key) { }
 
-	// RVA: 0x16FFAE0 Offset: 0x16FE0E0 VA: 0x1816FFAE0 Slot: 5
+	// RVA: 0x16FFDA0 Offset: 0x16FE3A0 VA: 0x1816FFDA0 Slot: 5
 	public override void SetHashAlgorithm(string strName) { }
 
-	// RVA: 0x16FFC50 Offset: 0x16FE250 VA: 0x1816FFC50 Slot: 6
+	// RVA: 0x16FFF10 Offset: 0x16FE510 VA: 0x1816FFF10 Slot: 6
 	public override bool VerifySignature(byte[] rgbHash, byte[] rgbSignature) { }
 
 }

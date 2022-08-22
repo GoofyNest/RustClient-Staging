@@ -7,7 +7,7 @@ public class MaterialRow : MonoBehaviour // TypeDefIndex: 7758
 
 	// Methods
 
-	// RVA: 0xE73FE0 Offset: 0xE725E0 VA: 0x180E73FE0
+	// RVA: 0xE742A0 Offset: 0xE728A0 VA: 0x180E742A0
 	protected WorkshopItemEditor get_Editor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4

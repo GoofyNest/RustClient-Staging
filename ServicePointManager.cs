@@ -25,31 +25,31 @@ public class ServicePointManager // TypeDefIndex: 3019
 
 	// Methods
 
-	// RVA: 0xFFDBD0 Offset: 0xFFC1D0 VA: 0x180FFDBD0
+	// RVA: 0xFFDE90 Offset: 0xFFC490 VA: 0x180FFDE90
 	private static void .cctor() { }
 
-	// RVA: 0xFFDB70 Offset: 0xFFC170 VA: 0x180FFDB70
+	// RVA: 0xFFDE30 Offset: 0xFFC430 VA: 0x180FFDE30
 	internal static ICertificatePolicy GetLegacyCertificatePolicy() { }
 
-	// RVA: 0xFFDCC0 Offset: 0xFFC2C0 VA: 0x180FFDCC0
+	// RVA: 0xFFDF80 Offset: 0xFFC580 VA: 0x180FFDF80
 	public static bool get_CheckCertificateRevocationList() { }
 
-	// RVA: 0xFFDD20 Offset: 0xFFC320 VA: 0x180FFDD20
+	// RVA: 0xFFDFE0 Offset: 0xFFC5E0 VA: 0x180FFDFE0
 	public static int get_DnsRefreshTimeout() { }
 
-	// RVA: 0xFFDD80 Offset: 0xFFC380 VA: 0x180FFDD80
+	// RVA: 0xFFE040 Offset: 0xFFC640 VA: 0x180FFE040
 	public static SecurityProtocolType get_SecurityProtocol() { }
 
-	// RVA: 0xFFDDE0 Offset: 0xFFC3E0 VA: 0x180FFDDE0
+	// RVA: 0xFFE0A0 Offset: 0xFFC6A0 VA: 0x180FFE0A0
 	internal static ServerCertValidationCallback get_ServerCertValidationCallback() { }
 
-	// RVA: 0xFFDE40 Offset: 0xFFC440 VA: 0x180FFDE40
+	// RVA: 0xFFE100 Offset: 0xFFC700 VA: 0x180FFE100
 	public static void set_ServerCertificateValidationCallback(RemoteCertificateValidationCallback value) { }
 
-	// RVA: 0xFFD390 Offset: 0xFFB990 VA: 0x180FFD390
+	// RVA: 0xFFD650 Offset: 0xFFBC50 VA: 0x180FFD650
 	public static ServicePoint FindServicePoint(Uri address, IWebProxy proxy) { }
 
-	// RVA: 0xFFD080 Offset: 0xFFB680 VA: 0x180FFD080
+	// RVA: 0xFFD340 Offset: 0xFFB940 VA: 0x180FFD340
 	internal static void CloseConnectionGroup(string connectionGroupName) { }
 
 }
@@ -65,16 +65,16 @@ private class ServicePointManager.SPKey // TypeDefIndex: 3020
 
 	// Methods
 
-	// RVA: 0xFFBD50 Offset: 0xFFA350 VA: 0x180FFBD50
+	// RVA: 0xFFC010 Offset: 0xFFA610 VA: 0x180FFC010
 	public void .ctor(Uri uri, Uri proxy, bool use_connect) { }
 
-	// RVA: 0xFFBDB0 Offset: 0xFFA3B0 VA: 0x180FFBDB0
+	// RVA: 0xFFC070 Offset: 0xFFA670 VA: 0x180FFC070
 	public bool get_UsesProxy() { }
 
-	// RVA: 0xFFBC70 Offset: 0xFFA270 VA: 0x180FFBC70 Slot: 2
+	// RVA: 0xFFBF30 Offset: 0xFFA530 VA: 0x180FFBF30 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0xFFBB50 Offset: 0xFFA150 VA: 0x180FFBB50 Slot: 0
+	// RVA: 0xFFBE10 Offset: 0xFFA410 VA: 0x180FFBE10 Slot: 0
 	public override bool Equals(object obj) { }
 
 }

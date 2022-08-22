@@ -6,13 +6,13 @@ internal static class KnownTerminals // TypeDefIndex: 370
 
 	// Methods
 
-	// RVA: 0x16734C0 Offset: 0x1671AC0 VA: 0x1816734C0
+	// RVA: 0x1673780 Offset: 0x1671D80 VA: 0x181673780
 	public static byte[] get_linux() { }
 
-	// RVA: 0x1673510 Offset: 0x1671B10 VA: 0x181673510
+	// RVA: 0x16737D0 Offset: 0x1671DD0 VA: 0x1816737D0
 	public static byte[] get_xterm() { }
 
-	// RVA: 0x1673470 Offset: 0x1671A70 VA: 0x181673470
+	// RVA: 0x1673730 Offset: 0x1671D30 VA: 0x181673730
 	public static byte[] get_ansi() { }
 
 }

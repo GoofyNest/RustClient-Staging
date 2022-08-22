@@ -7,43 +7,43 @@ internal sealed class UnitySynchronizationContext : SynchronizationContext // Ty
 
 	// Methods
 
-	// RVA: 0x2181560 Offset: 0x217FB60 VA: 0x182181560
+	// RVA: 0x2181820 Offset: 0x217FE20 VA: 0x182181820
 	private void .ctor(int mainThreadID) { }
 
-	// RVA: 0x21814B0 Offset: 0x217FAB0 VA: 0x1821814B0
+	// RVA: 0x2181770 Offset: 0x217FD70 VA: 0x182181770
 	private void .ctor(List<UnitySynchronizationContext.WorkRequest> queue, int mainThreadID) { }
 
-	// RVA: 0x2181250 Offset: 0x217F850 VA: 0x182181250 Slot: 4
+	// RVA: 0x2181510 Offset: 0x217FB10 VA: 0x182181510 Slot: 4
 	public override void Send(SendOrPostCallback callback, object state) { }
 
-	// RVA: 0x2181100 Offset: 0x217F700 VA: 0x182181100 Slot: 6
+	// RVA: 0x21813C0 Offset: 0x217F9C0 VA: 0x1821813C0 Slot: 6
 	public override void OperationStarted() { }
 
-	// RVA: 0x21810F0 Offset: 0x217F6F0 VA: 0x1821810F0 Slot: 7
+	// RVA: 0x21813B0 Offset: 0x217F9B0 VA: 0x1821813B0 Slot: 7
 	public override void OperationCompleted() { }
 
-	// RVA: 0x2181110 Offset: 0x217F710 VA: 0x182181110 Slot: 5
+	// RVA: 0x21813D0 Offset: 0x217F9D0 VA: 0x1821813D0 Slot: 5
 	public override void Post(SendOrPostCallback callback, object state) { }
 
-	// RVA: 0x2180B70 Offset: 0x217F170 VA: 0x182180B70 Slot: 8
+	// RVA: 0x2180E30 Offset: 0x217F430 VA: 0x182180E30 Slot: 8
 	public override SynchronizationContext CreateCopy() { }
 
-	// RVA: 0x2180C40 Offset: 0x217F240 VA: 0x182180C40
+	// RVA: 0x2180F00 Offset: 0x217F500 VA: 0x182180F00
 	private void Exec() { }
 
-	// RVA: 0x2180F80 Offset: 0x217F580 VA: 0x182180F80
+	// RVA: 0x2181240 Offset: 0x217F840 VA: 0x182181240
 	private bool HasPendingTasks() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2180FE0 Offset: 0x217F5E0 VA: 0x182180FE0
+	// RVA: 0x21812A0 Offset: 0x217F8A0 VA: 0x1821812A0
 	private static void InitializeSynchronizationContext() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2180F30 Offset: 0x217F530 VA: 0x182180F30
+	// RVA: 0x21811F0 Offset: 0x217F7F0 VA: 0x1821811F0
 	private static void ExecuteTasks() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2180DF0 Offset: 0x217F3F0 VA: 0x182180DF0
+	// RVA: 0x21810B0 Offset: 0x217F6B0 VA: 0x1821810B0
 	private static bool ExecutePendingTasks(long millisecondsTimeout) { }
 
 }

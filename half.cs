@@ -8,10 +8,10 @@ public struct half : IEquatable<half>, IFormattable // TypeDefIndex: 7107
 
 	// Methods
 
-	// RVA: 0x22AE4C0 Offset: 0x22ACAC0 VA: 0x1822AE4C0
+	// RVA: 0x22AE780 Offset: 0x22ACD80 VA: 0x1822AE780
 	public static float op_Implicit(half d) { }
 
-	// RVA: 0x22AE4B0 Offset: 0x22ACAB0 VA: 0x1822AE4B0
+	// RVA: 0x22AE770 Offset: 0x22ACD70 VA: 0x1822AE770
 	public static bool op_Equality(half lhs, half rhs) { }
 
 	// RVA: 0x1F2F70 Offset: 0x1F2370 VA: 0x1801F2F70 Slot: 4

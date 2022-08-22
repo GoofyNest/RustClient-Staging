@@ -22,10 +22,10 @@ public struct StyleColor : IStyleValue<Color>, IEquatable<StyleColor> // TypeDef
 	// RVA: 0x13A580 Offset: 0x139980 VA: 0x18013A580
 	internal void .ctor(Color v, StyleKeyword keyword) { }
 
-	// RVA: 0xEB9A60 Offset: 0xEB8060 VA: 0x180EB9A60
+	// RVA: 0xEB9D20 Offset: 0xEB8320 VA: 0x180EB9D20
 	public static bool op_Equality(StyleColor lhs, StyleColor rhs) { }
 
-	// RVA: 0xEB9AE0 Offset: 0xEB80E0 VA: 0x180EB9AE0
+	// RVA: 0xEB9DA0 Offset: 0xEB83A0 VA: 0x180EB9DA0
 	public static StyleColor op_Implicit(Color v) { }
 
 	// RVA: 0x13A420 Offset: 0x139820 VA: 0x18013A420 Slot: 6

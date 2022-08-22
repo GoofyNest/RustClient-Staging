@@ -17,28 +17,28 @@ internal class CodePageDataItem // TypeDefIndex: 735
 
 	// Methods
 
-	// RVA: 0x10D3AD0 Offset: 0x10D20D0 VA: 0x1810D3AD0
+	// RVA: 0x10D3D90 Offset: 0x10D2390 VA: 0x1810D3D90
 	internal void .ctor(int dataIndex) { }
 
-	// RVA: 0x10D3980 Offset: 0x10D1F80 VA: 0x1810D3980
+	// RVA: 0x10D3C40 Offset: 0x10D2240 VA: 0x1810D3C40
 	internal static string CreateString(string pStrings, uint index) { }
 
-	// RVA: 0x10D3D90 Offset: 0x10D2390 VA: 0x1810D3D90
+	// RVA: 0x10D4050 Offset: 0x10D2650 VA: 0x1810D4050
 	public string get_WebName() { }
 
 	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0 Slot: 4
 	public virtual int get_UIFamilyCodePage() { }
 
-	// RVA: 0x10D3CA0 Offset: 0x10D22A0 VA: 0x1810D3CA0
+	// RVA: 0x10D3F60 Offset: 0x10D2560 VA: 0x1810D3F60
 	public string get_HeaderName() { }
 
-	// RVA: 0x10D3BB0 Offset: 0x10D21B0 VA: 0x1810D3BB0
+	// RVA: 0x10D3E70 Offset: 0x10D2470 VA: 0x1810D3E70
 	public string get_BodyName() { }
 
-	// RVA: 0xA38CE0 Offset: 0xA372E0 VA: 0x180A38CE0
+	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
 	public uint get_Flags() { }
 
-	// RVA: 0x10D3A50 Offset: 0x10D2050 VA: 0x1810D3A50
+	// RVA: 0x10D3D10 Offset: 0x10D2310 VA: 0x1810D3D10
 	private static void .cctor() { }
 
 }

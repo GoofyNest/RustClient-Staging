@@ -8,13 +8,13 @@ internal class CADMethodRef // TypeDefIndex: 1226
 
 	// Methods
 
-	// RVA: 0x1470D90 Offset: 0x146F390 VA: 0x181470D90
+	// RVA: 0x1471050 Offset: 0x146F650 VA: 0x181471050
 	private Type[] GetTypes(string[] typeArray) { }
 
-	// RVA: 0x1470EE0 Offset: 0x146F4E0 VA: 0x181470EE0
+	// RVA: 0x14711A0 Offset: 0x146F7A0 VA: 0x1814711A0
 	public MethodBase Resolve() { }
 
-	// RVA: 0x14713A0 Offset: 0x146F9A0 VA: 0x1814713A0
+	// RVA: 0x1471660 Offset: 0x146FC60 VA: 0x181471660
 	public void .ctor(IMethodMessage msg) { }
 
 }

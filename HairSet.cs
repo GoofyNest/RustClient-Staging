@@ -4,10 +4,10 @@ public class HairSet : ScriptableObject // TypeDefIndex: 10733
 
 	// Methods
 
-	// RVA: 0x734EA0 Offset: 0x7334A0 VA: 0x180734EA0
+	// RVA: 0x734FB0 Offset: 0x7335B0 VA: 0x180734FB0
 	public void Process(PlayerModelHair playerModelHair, HairDyeCollection dyeCollection, HairDye dye, MaterialPropertyBlock block) { }
 
-	// RVA: 0x734CF0 Offset: 0x7332F0 VA: 0x180734CF0
+	// RVA: 0x734E00 Offset: 0x733400 VA: 0x180734E00
 	public void ProcessMorphs(GameObject obj, int blendShapeIndex = -1) { }
 
 	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
@@ -24,7 +24,7 @@ public class HairSet.MeshReplace // TypeDefIndex: 10734
 
 	// Methods
 
-	// RVA: 0x7491E0 Offset: 0x7477E0 VA: 0x1807491E0
+	// RVA: 0x7492F0 Offset: 0x7478F0 VA: 0x1807492F0
 	public bool Test(string materialName) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

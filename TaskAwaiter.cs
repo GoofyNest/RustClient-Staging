@@ -22,16 +22,16 @@ public struct TaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion // Type
 	// RVA: 0x14C050 Offset: 0x14B450 VA: 0x18014C050
 	public void GetResult() { }
 
-	// RVA: 0xFF5FB0 Offset: 0xFF45B0 VA: 0x180FF5FB0
+	// RVA: 0xFF6270 Offset: 0xFF4870 VA: 0x180FF6270
 	internal static void ValidateEnd(Task task) { }
 
-	// RVA: 0xFF5C00 Offset: 0xFF4200 VA: 0x180FF5C00
+	// RVA: 0xFF5EC0 Offset: 0xFF44C0 VA: 0x180FF5EC0
 	private static void HandleNonSuccessAndDebuggerNotification(Task task) { }
 
-	// RVA: 0xFF5E60 Offset: 0xFF4460 VA: 0x180FF5E60
+	// RVA: 0xFF6120 Offset: 0xFF4720 VA: 0x180FF6120
 	private static void ThrowForNonSuccess(Task task) { }
 
-	// RVA: 0xFF5D60 Offset: 0xFF4360 VA: 0x180FF5D60
+	// RVA: 0xFF6020 Offset: 0xFF4620 VA: 0x180FF6020
 	internal static void OnCompletedInternal(Task task, Action continuation, bool continueOnCapturedContext, bool flowExecutionContext) { }
 
 }

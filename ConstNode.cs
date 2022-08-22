@@ -4,10 +4,10 @@ internal sealed class ConstNode : ExpressionNode // TypeDefIndex: 4246
 
 	// Methods
 
-	// RVA: 0x12263B0 Offset: 0x12249B0 VA: 0x1812263B0
+	// RVA: 0x1226670 Offset: 0x1224C70 VA: 0x181226670
 	internal void .ctor(DataTable table, ValueType type, object constant) { }
 
-	// RVA: 0x12260B0 Offset: 0x12246B0 VA: 0x1812260B0
+	// RVA: 0x1226370 Offset: 0x1224970 VA: 0x181226370
 	internal void .ctor(DataTable table, ValueType type, object constant, bool fParseQuotes) { }
 
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630 Slot: 5
@@ -16,10 +16,10 @@ internal sealed class ConstNode : ExpressionNode // TypeDefIndex: 4246
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 6
 	internal override object Eval() { }
 
-	// RVA: 0x95F920 Offset: 0x95DF20 VA: 0x18095F920 Slot: 7
+	// RVA: 0x95FA30 Offset: 0x95E030 VA: 0x18095FA30 Slot: 7
 	internal override object Eval(DataRow row, DataRowVersion version) { }
 
-	// RVA: 0x95F920 Offset: 0x95DF20 VA: 0x18095F920 Slot: 8
+	// RVA: 0x95FA30 Offset: 0x95E030 VA: 0x18095FA30 Slot: 8
 	internal override object Eval(int[] recordNos) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 9
@@ -37,10 +37,10 @@ internal sealed class ConstNode : ExpressionNode // TypeDefIndex: 4246
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 13
 	internal override ExpressionNode Optimize() { }
 
-	// RVA: 0x1225B90 Offset: 0x1224190 VA: 0x181225B90
+	// RVA: 0x1225E50 Offset: 0x1224450 VA: 0x181225E50
 	private object SmallestDecimal(object constant) { }
 
-	// RVA: 0x1225E30 Offset: 0x1224430 VA: 0x181225E30
+	// RVA: 0x12260F0 Offset: 0x12246F0 VA: 0x1812260F0
 	private object SmallestNumeric(object constant) { }
 
 }

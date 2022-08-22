@@ -7,13 +7,13 @@ public class Profile // TypeDefIndex: 9376
 
 	// Methods
 
-	// RVA: 0x6921D0 Offset: 0x6907D0 VA: 0x1806921D0
+	// RVA: 0x6922E0 Offset: 0x6908E0 VA: 0x1806922E0
 	public void .ctor(string cat, string nam, float WarnTime = 1) { }
 
-	// RVA: 0x691E30 Offset: 0x690430 VA: 0x180691E30
+	// RVA: 0x691F40 Offset: 0x690540 VA: 0x180691F40
 	public void Start() { }
 
-	// RVA: 0x691E70 Offset: 0x690470 VA: 0x180691E70
+	// RVA: 0x691F80 Offset: 0x690580 VA: 0x180691F80
 	public void Stop() { }
 
 }
