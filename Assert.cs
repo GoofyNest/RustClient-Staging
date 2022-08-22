@@ -1,31 +1,23 @@
 public static class Assert // TypeDefIndex: 3904
-{	// Fields
-	[ObsoleteAttribute] // RVA: 0x85B90 Offset: 0x84F90 VA: 0x180085B90
+{	[ObsoleteAttribute] // RVA: 0x85B90 Offset: 0x84F90 VA: 0x180085B90
 	public static bool raiseExceptions; // 0x13282
 
-	// Methods
 
-	// RVA: 0x180B2A0 Offset: 0x18098A0 VA: 0x18180B2A0
 	private static void Fail(string message, string userMessage) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x180B840 Offset: 0x1809E40 VA: 0x18180B840
 	public static void IsTrue(bool condition) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x180B950 Offset: 0x1809F50 VA: 0x18180B950
 	public static void IsTrue(bool condition, string message) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x180B450 Offset: 0x1809A50 VA: 0x18180B450
 	public static void IsFalse(bool condition) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x180B550 Offset: 0x1809B50 VA: 0x18180B550
 	public static void IsFalse(bool condition, string message) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: -1 Offset: -1
 	public static void AreEqual<T>(T expected, T actual) { }
 	/* GenericInstMethod :
 	|
@@ -38,7 +30,6 @@ public static class Assert // TypeDefIndex: 3904
 	*/
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: -1 Offset: -1
 	public static void AreEqual<T>(T expected, T actual, string message) { }
 	/* GenericInstMethod :
 	|
@@ -53,7 +44,6 @@ public static class Assert // TypeDefIndex: 3904
 	*/
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: -1 Offset: -1
 	public static void AreEqual<T>(T expected, T actual, string message, IEqualityComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -68,11 +58,9 @@ public static class Assert // TypeDefIndex: 3904
 	*/
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x180B1E0 Offset: 0x18097E0 VA: 0x18180B1E0
 	public static void AreEqual(Object expected, Object actual, string message) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: -1 Offset: -1
 	public static void IsNotNull<T>(T value) { }
 	/* GenericInstMethod :
 	|
@@ -88,7 +76,6 @@ public static class Assert // TypeDefIndex: 3904
 	*/
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: -1 Offset: -1
 	public static void IsNotNull<T>(T value, string message) { }
 	/* GenericInstMethod :
 	|
@@ -103,18 +90,14 @@ public static class Assert // TypeDefIndex: 3904
 	*/
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x180B630 Offset: 0x1809C30 VA: 0x18180B630
 	public static void IsNotNull(Object value, string message) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x180B170 Offset: 0x1809770 VA: 0x18180B170
 	public static void AreEqual(int expected, int actual) { }
 
 	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
-	// RVA: 0x180B100 Offset: 0x1809700 VA: 0x18180B100
 	public static void AreEqual(uint expected, uint actual) { }
 
-	// RVA: 0x180BA30 Offset: 0x180A030 VA: 0x18180BA30
 	private static void .cctor() { }
 
 }

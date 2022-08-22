@@ -1,6 +1,5 @@
 internal sealed class InternalThread : CriticalFinalizerObject // TypeDefIndex: 831
-{	// Fields
-	private int lock_thread_id; // 0x10
+{	private int lock_thread_id; // 0x10
 	private IntPtr handle; // 0x18
 	private IntPtr native_handle; // 0x20
 	private IntPtr unused3; // 0x28
@@ -40,16 +39,12 @@ internal sealed class InternalThread : CriticalFinalizerObject // TypeDefIndex: 
 	private IntPtr unused2; // 0x110
 	private IntPtr last; // 0x118
 
-	// Methods
 
-	// RVA: 0x1493FA0 Offset: 0x14925A0 VA: 0x181493FA0
 	private void Thread_free_internal() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x1493F10 Offset: 0x1492510 VA: 0x181493F10 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1493FB0 Offset: 0x14925B0 VA: 0x181493FB0
 	public void .ctor() { }
 
 }

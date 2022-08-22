@@ -1,6 +1,5 @@
 public class BloomAndFlares : PostEffectsBase // TypeDefIndex: 8161
-{	// Fields
-	public TweakMode34 tweakMode; // 0x28
+{	public TweakMode34 tweakMode; // 0x28
 	public BloomScreenBlendMode screenBlendMode; // 0x2C
 	public HDRBloomMode hdr; // 0x30
 	private bool doHdr; // 0x34
@@ -35,27 +34,19 @@ public class BloomAndFlares : PostEffectsBase // TypeDefIndex: 8161
 	public Shader brightPassFilterShader; // 0x110
 	private Material brightPassFilterMaterial; // 0x118
 
-	// Methods
 
-	// RVA: 0x12CA3E0 Offset: 0x12C89E0 VA: 0x1812CA3E0 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x12CA570 Offset: 0x12C8B70 VA: 0x1812CA570
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x12C9F10 Offset: 0x12C8510 VA: 0x1812C9F10
 	private void AddTo(float intensity_, RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x12C9FC0 Offset: 0x12C85C0 VA: 0x1812C9FC0
 	private void BlendFlares(RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x12CA290 Offset: 0x12C8890 VA: 0x1812CA290
 	private void BrightFilter(float thresh, float useAlphaAsMask, RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x12CB240 Offset: 0x12C9840 VA: 0x1812CB240
 	private void Vignette(float amount, RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x12CB3A0 Offset: 0x12C99A0 VA: 0x1812CB3A0
 	public void .ctor() { }
 
 }

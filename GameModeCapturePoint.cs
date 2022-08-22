@@ -1,6 +1,5 @@
 public class GameModeCapturePoint : BaseEntity // TypeDefIndex: 9882
-{	// Fields
-	public CapturePointTrigger captureTrigger; // 0x168
+{	public CapturePointTrigger captureTrigger; // 0x168
 	public float timeToCapture; // 0x170
 	public int scorePerSecond; // 0x174
 	public string scoreName; // 0x178
@@ -17,18 +16,13 @@ public class GameModeCapturePoint : BaseEntity // TypeDefIndex: 9882
 	public GameObjectRef progressCompleteEffect; // 0x1D0
 	public Transform computerPoint; // 0x1D8
 
-	// Methods
 
-	// RVA: 0x532980 Offset: 0x530F80 VA: 0x180532980
 	public bool IsContested() { }
 
-	// RVA: 0x758A10 Offset: 0x757010 VA: 0x180758A10 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x758AF0 Offset: 0x7570F0 VA: 0x180758AF0 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0x758CF0 Offset: 0x7572F0 VA: 0x180758CF0
 	public void .ctor() { }
 
 }

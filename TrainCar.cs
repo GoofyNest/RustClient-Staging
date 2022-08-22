@@ -1,6 +1,5 @@
 public class TrainCar : BaseVehicle, IGenericLerpTarget<TrainCar.TrainCarSnapshot>, ILerpInfo, ITrainCollidable, IPrefabPreProcess // TypeDefIndex: 8467
-{	// Fields
-	private Option __menuOption_Menu_Uncouple; // 0x3B8
+{	private Option __menuOption_Menu_Uncouple; // 0x3B8
 	private GenericLerp<TrainCar.TrainCarSnapshot> animInterp; // 0x410
 	protected bool runningClientTick; // 0x418
 	private Vector3 bogieRotation; // 0x41C
@@ -81,160 +80,115 @@ public class TrainCar : BaseVehicle, IGenericLerpTarget<TrainCar.TrainCarSnapsho
 	public TrainTrackSpline.TrackSelection localTrackSelection; // 0x530
 	public const BaseEntity.Flags Flag_LinedUpToUnload = 1024;
 
-	// Properties
 	public override bool HasMenuOptions { get; }
 	public TriggerTrainCollisions FrontCollisionTrigger { get; }
 	public TriggerTrainCollisions RearCollisionTrigger { get; }
 	public virtual TrainCar.TrainCarType CarType { get; }
 	public bool LinedUpToUnload { get; }
 
-	// Methods
 
-	// RVA: 0xA0F650 Offset: 0xA0DC50 VA: 0x180A0F650 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xA112B0 Offset: 0xA0F8B0 VA: 0x180A112B0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xA10000 Offset: 0xA0E600 VA: 0x180A10000 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA0F590 Offset: 0xA0DB90 VA: 0x180A0F590 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xA0F020 Offset: 0xA0D620 VA: 0x180A0F020 Slot: 199
 	protected virtual void ClientFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0xA10C20 Offset: 0xA0F220 VA: 0x180A10C20
 	private void StartClientTick() { }
 
-	// RVA: 0xA10D30 Offset: 0xA0F330 VA: 0x180A10D30 Slot: 200
 	protected virtual void StopClientTick() { }
 
-	// RVA: 0xA10DD0 Offset: 0xA0F3D0 VA: 0x180A10DD0 Slot: 201
 	protected virtual void TrainClientTick() { }
 
-	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 202
 	protected virtual bool UpdateBraking(float forwardSpeed) { }
 
-	// RVA: 0xA0F960 Offset: 0xA0DF60 VA: 0x180A0F960
 	private void InitAnimInterpolator() { }
 
-	// RVA: 0xA0EDD0 Offset: 0xA0D3D0 VA: 0x180A0EDD0
 	private void AddSnapshot(float time, float frontBogieYRot, float rearBogieYRot) { }
 
-	// RVA: 0xA10F30 Offset: 0xA0F530 VA: 0x180A10F30
 	private void UpdateWheelVisuals(Vector3 localVelocity, float frontBogieYRot, float rearBogieYRot) { }
 
-	// RVA: 0xA10B50 Offset: 0xA0F150 VA: 0x180A10B50 Slot: 194
 	public void SetFrom(TrainCar.TrainCarSnapshot snapshot) { }
 
-	// RVA: 0xA0F5D0 Offset: 0xA0DBD0 VA: 0x180A0F5D0 Slot: 195
 	public TrainCar.TrainCarSnapshot GetCurrentState() { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 196
 	public void DebugInterpolationState(Interpolator.Segment<TrainCar.TrainCarSnapshot> segment, List<TrainCar.TrainCarSnapshot> entries) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA10BC0 Offset: 0xA0F1C0 VA: 0x180A10BC0
 	private void SetTrackSelection(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA0EF70 Offset: 0xA0D570 VA: 0x180A0EF70
 	private void BaseTrainUpdate(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.Menu] // RVA: 0x93B10 Offset: 0x92F10 VA: 0x180093B10
 	[BaseEntity.Menu.Description] // RVA: 0x93B10 Offset: 0x92F10 VA: 0x180093B10
 	[BaseEntity.Menu.Icon] // RVA: 0x93B10 Offset: 0x92F10 VA: 0x180093B10
 	[BaseEntity.Menu.ShowIf] // RVA: 0x93B10 Offset: 0x92F10 VA: 0x180093B10
-	// RVA: 0xA0FE70 Offset: 0xA0E470 VA: 0x180A0FE70
 	public void Menu_Uncouple(BasePlayer player) { }
 
-	// RVA: 0xA0FCE0 Offset: 0xA0E2E0 VA: 0x180A0FCE0 Slot: 203
 	public virtual bool Menu_Uncouple_ShowIf(BasePlayer player) { }
 
-	// RVA: 0xA112A0 Offset: 0xA0F8A0 VA: 0x180A112A0
 	public TriggerTrainCollisions get_FrontCollisionTrigger() { }
 
-	// RVA: 0xA11380 Offset: 0xA0F980 VA: 0x180A11380
 	public TriggerTrainCollisions get_RearCollisionTrigger() { }
 
-	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 204
 	public virtual TrainCar.TrainCarType get_CarType() { }
 
-	// RVA: 0x7381E0 Offset: 0x7367E0 VA: 0x1807381E0
 	public bool get_LinedUpToUnload() { }
 
-	// RVA: 0xA107E0 Offset: 0xA0EDE0 VA: 0x180A107E0 Slot: 84
 	public override void PreProcess(IPrefabProcessor process, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0xA0F9F0 Offset: 0xA0DFF0 VA: 0x180A0F9F0 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0xA0FB60 Offset: 0xA0E160 VA: 0x180A0FB60 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xA0FFA0 Offset: 0xA0E5A0 VA: 0x180A0FFA0 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 197
 	public bool CustomCollision(TrainCar train, TriggerTrainCollisions trainTrigger) { }
 
-	// RVA: 0x7141E0 Offset: 0x7127E0 VA: 0x1807141E0 Slot: 99
 	public override float InheritedVelocityScale() { }
 
-	// RVA: 0xA10C10 Offset: 0xA0F210 VA: 0x180A10C10 Slot: 205
 	protected virtual void SetTrackSelection(TrainTrackSpline.TrackSelection trackSelection) { }
 
-	// RVA: 0xA111C0 Offset: 0xA0F7C0 VA: 0x180A111C0
 	public void .ctor() { }
 
-	// RVA: 0xA11160 Offset: 0xA0F760 VA: 0x180A11160
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA10E70 Offset: 0xA0F470 VA: 0x180A10E70
 	private void <UpdateWheelVisuals>g__SetBogieRotation|18_0(Transform pivot, float yAngle, bool canRotate) { }
 
 }
 
 public struct TrainCar.TrainCarSnapshot : ISnapshot<TrainCar.TrainCarSnapshot> // TypeDefIndex: 8468
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <Time>k__BackingField; // 0x0
 	public float frontBogieY; // 0x4
 	public float rearBogieY; // 0x8
 
-	// Properties
 	public float Time { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF2380 Offset: 0xF1780 VA: 0x1800F2380 Slot: 4
 	public float get_Time() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF2390 Offset: 0xF1790 VA: 0x1800F2390 Slot: 5
 	public void set_Time(float value) { }
 
-	// RVA: 0xFB500 Offset: 0xFA900 VA: 0x1800FB500
 	public void .ctor(float time, float frontBogieY, float rearBogieY) { }
 
-	// RVA: 0xFB4D0 Offset: 0xFA8D0 VA: 0x1800FB4D0 Slot: 6
 	public void MatchValuesTo(TrainCar.TrainCarSnapshot entry) { }
 
-	// RVA: 0xFB3F0 Offset: 0xFA7F0 VA: 0x1800FB3F0 Slot: 7
 	public void Lerp(TrainCar.TrainCarSnapshot prev, TrainCar.TrainCarSnapshot next, float delta) { }
 
-	// RVA: 0xFB3E0 Offset: 0xFA7E0 VA: 0x1800FB3E0 Slot: 8
 	public TrainCar.TrainCarSnapshot GetNew() { }
 
 }
 
 public enum TrainCar.TrainCarType // TypeDefIndex: 8469
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const TrainCar.TrainCarType Wagon = 0;
 	public const TrainCar.TrainCarType Engine = 1;
 	public const TrainCar.TrainCarType Other = 2;

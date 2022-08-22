@@ -1,6 +1,5 @@
 public class LocalPositionAnimation : MonoBehaviour, IClientComponent // TypeDefIndex: 9199
-{	// Fields
-	public Vector3 centerPosition; // 0x18
+{	public Vector3 centerPosition; // 0x18
 	public bool worldSpace; // 0x24
 	public float scaleX; // 0x28
 	public float timeScaleX; // 0x2C
@@ -13,12 +12,9 @@ public class LocalPositionAnimation : MonoBehaviour, IClientComponent // TypeDef
 	public AnimationCurve movementZ; // 0x50
 	private const float maxDistSq = 10000;
 
-	// Methods
 
-	// RVA: 0x4FE270 Offset: 0x4FC870 VA: 0x1804FE270
 	protected void Update() { }
 
-	// RVA: 0x4FE660 Offset: 0x4FCC60 VA: 0x1804FE660
 	public void .ctor() { }
 
 }

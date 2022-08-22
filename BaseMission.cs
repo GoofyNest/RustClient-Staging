@@ -1,6 +1,5 @@
 public class BaseMission : BaseScriptableObject // TypeDefIndex: 10201
-{	// Fields
-	public string shortname; // 0x20
+{	public string shortname; // 0x20
 	public Translate.Phrase missionName; // 0x28
 	public Translate.Phrase missionDesc; // 0x30
 	public BaseMission.MissionObjectiveEntry[] objectives; // 0x38
@@ -18,51 +17,38 @@ public class BaseMission : BaseScriptableObject // TypeDefIndex: 10201
 	public BaseMission.PositionGenerator[] positionGenerators; // 0x90
 	public ItemAmount[] baseRewards; // 0x98
 
-	// Properties
 	public uint id { get; }
 	public bool isRepeatable { get; }
 
-	// Methods
 
-	// RVA: 0xA474E0 Offset: 0xA45AE0 VA: 0x180A474E0
 	public uint get_id() { }
 
-	// RVA: 0xA47540 Offset: 0xA45B40 VA: 0x180A47540
 	public bool get_isRepeatable() { }
 
-	// RVA: 0x519BE0 Offset: 0x5181E0 VA: 0x180519BE0 Slot: 4
 	public virtual Sprite GetIcon(BaseMission.MissionInstance instance) { }
 
-	// RVA: 0xA47370 Offset: 0xA45970 VA: 0x180A47370
 	public bool IsEligableForMission(BasePlayer player, IMissionProvider provider) { }
 
-	// RVA: 0xA474D0 Offset: 0xA45AD0 VA: 0x180A474D0
 	public void .ctor() { }
 
 }
 
 public class BaseMission.MissionDependancy // TypeDefIndex: 10202
-{	// Fields
-	public string targetMissionShortname; // 0x10
+{	public string targetMissionShortname; // 0x10
 	public BaseMission.MissionStatus targetMissionDesiredStatus; // 0x18
 	public bool everAttempted; // 0x1C
 
-	// Properties
 	public uint targetMissionID { get; }
 
-	// Methods
 
-	// RVA: 0xA54A90 Offset: 0xA53090 VA: 0x180A54A90
 	public uint get_targetMissionID() { }
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
 }
 
 public enum BaseMission.MissionStatus // TypeDefIndex: 10203
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const BaseMission.MissionStatus Default = 0;
 	public const BaseMission.MissionStatus Active = 1;
 	public const BaseMission.MissionStatus Accomplished = 2;
@@ -72,8 +58,7 @@ public enum BaseMission.MissionStatus // TypeDefIndex: 10203
 }
 
 public enum BaseMission.MissionEventType // TypeDefIndex: 10204
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const BaseMission.MissionEventType CUSTOM = 0;
 	public const BaseMission.MissionEventType HARVEST = 1;
 	public const BaseMission.MissionEventType CONVERSATION = 2;
@@ -84,26 +69,21 @@ public enum BaseMission.MissionEventType // TypeDefIndex: 10204
 }
 
 public class BaseMission.MissionObjectiveEntry // TypeDefIndex: 10205
-{	// Fields
-	public Translate.Phrase description; // 0x10
+{	public Translate.Phrase description; // 0x10
 	public int[] startAfterCompletedObjectives; // 0x18
 	public int[] autoCompleteOtherObjectives; // 0x20
 	public bool onlyProgressIfStarted; // 0x28
 	public MissionObjective objective; // 0x30
 
-	// Methods
 
-	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public MissionObjective Get() { }
 
-	// RVA: 0xA54DC0 Offset: 0xA533C0 VA: 0x180A54DC0
 	public void .ctor() { }
 
 }
 
 public class BaseMission.MissionInstance : Pool.IPooled // TypeDefIndex: 10206
-{	// Fields
-	private BaseEntity _cachedProviderEntity; // 0x10
+{	private BaseEntity _cachedProviderEntity; // 0x10
 	private BaseMission _cachedMission; // 0x18
 	public uint providerID; // 0x20
 	public uint missionID; // 0x24
@@ -118,54 +98,42 @@ public class BaseMission.MissionInstance : Pool.IPooled // TypeDefIndex: 10206
 	public List<MissionEntity> createdEntities; // 0x58
 	public ItemAmount[] rewards; // 0x60
 
-	// Methods
 
-	// RVA: 0xA54BE0 Offset: 0xA531E0 VA: 0x180A54BE0
 	public BaseMission GetMission() { }
 
-	// RVA: 0xA54CA0 Offset: 0xA532A0 VA: 0x180A54CA0
 	public bool ShouldShowOnMap() { }
 
-	// RVA: 0xA54CA0 Offset: 0xA532A0 VA: 0x180A54CA0
 	public bool ShouldShowOnCompass() { }
 
-	// RVA: 0xA54AF0 Offset: 0xA530F0 VA: 0x180A54AF0 Slot: 4
 	public void EnterPool() { }
 
-	// RVA: 0xA54C30 Offset: 0xA53230 VA: 0x180A54C30 Slot: 5
 	public void LeavePool() { }
 
-	// RVA: 0xA54D50 Offset: 0xA53350 VA: 0x180A54D50
 	public void .ctor() { }
 
 }
 
 public class BaseMission.MissionInstance.ObjectiveStatus // TypeDefIndex: 10207
-{	// Fields
-	public bool started; // 0x10
+{	public bool started; // 0x10
 	public bool completed; // 0x11
 	public bool failed; // 0x12
 	public int genericInt1; // 0x14
 	public float genericFloat1; // 0x18
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
 }
 
 public enum BaseMission.MissionInstance.ObjectiveType // TypeDefIndex: 10208
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const BaseMission.MissionInstance.ObjectiveType MOVE = 0;
 	public const BaseMission.MissionInstance.ObjectiveType KILL = 1;
 
 }
 
 public class BaseMission.PositionGenerator // TypeDefIndex: 10209
-{	// Fields
-	public string identifier; // 0x10
+{	public string identifier; // 0x10
 	public float minDistForMovePoint; // 0x18
 	public float maxDistForMovePoint; // 0x1C
 	public bool centerOnProvider; // 0x20
@@ -179,34 +147,27 @@ public class BaseMission.PositionGenerator // TypeDefIndex: 10209
 	[HeaderAttribute] // RVA: 0xBE450 Offset: 0xBD850 VA: 0x1800BE450
 	public WorldPositionGenerator worldPositionGenerator; // 0x30
 
-	// Methods
 
-	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string GetIdentifier() { }
 
-	// RVA: 0xA54DD0 Offset: 0xA533D0 VA: 0x180A54DD0
 	public void .ctor() { }
 
 }
 
 public enum BaseMission.PositionGenerator.PositionType // TypeDefIndex: 10210
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const BaseMission.PositionGenerator.PositionType MissionPoint = 0;
 	public const BaseMission.PositionGenerator.PositionType WorldPositionGenerator = 1;
 
 }
 
 public class BaseMission.MissionEntityEntry // TypeDefIndex: 10211
-{	// Fields
-	public GameObjectRef entityRef; // 0x10
+{	public GameObjectRef entityRef; // 0x10
 	public string spawnPositionToUse; // 0x18
 	public bool cleanupOnMissionFailed; // 0x20
 	public bool cleanupOnMissionSuccess; // 0x21
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
 }

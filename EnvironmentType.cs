@@ -1,6 +1,5 @@
 public enum EnvironmentType // TypeDefIndex: 9862
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const EnvironmentType Underground = 1;
 	public const EnvironmentType Building = 2;
 	public const EnvironmentType Outdoor = 4;

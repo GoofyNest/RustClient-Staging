@@ -1,6 +1,5 @@
 public class TerrainConfig : ScriptableObject // TypeDefIndex: 10310
-{	// Fields
-	public bool CastShadows; // 0x18
+{	public bool CastShadows; // 0x18
 	public LayerMask GroundMask; // 0x1C
 	public LayerMask WaterMask; // 0x20
 	public PhysicMaterial GenericMaterial; // 0x28
@@ -21,68 +20,48 @@ public class TerrainConfig : ScriptableObject // TypeDefIndex: 10310
 	private List<string> dirtMatNames; // 0x88
 	private List<string> stoneyMatNames; // 0x90
 
-	// Properties
 	public Texture AlbedoArray { get; }
 	public Texture NormalArray { get; }
 
-	// Methods
 
-	// RVA: 0x113FBA0 Offset: 0x113E1A0 VA: 0x18113FBA0
 	public Texture get_AlbedoArray() { }
 
-	// RVA: 0x113FC40 Offset: 0x113E240 VA: 0x18113FC40
 	public Texture get_NormalArray() { }
 
-	// RVA: 0x113F310 Offset: 0x113D910 VA: 0x18113F310
 	public PhysicMaterial[] GetPhysicMaterials() { }
 
-	// RVA: 0x113E8D0 Offset: 0x113CED0 VA: 0x18113E8D0
 	public Color[] GetAridColors() { }
 
-	// RVA: 0x113E9A0 Offset: 0x113CFA0 VA: 0x18113E9A0
 	public void GetAridOverlayConstants(out Color[] color, out Vector4[] param) { }
 
-	// RVA: 0x113F520 Offset: 0x113DB20 VA: 0x18113F520
 	public Color[] GetTemperateColors() { }
 
-	// RVA: 0x113F5F0 Offset: 0x113DBF0 VA: 0x18113F5F0
 	public void GetTemperateOverlayConstants(out Color[] color, out Vector4[] param) { }
 
-	// RVA: 0x113F7F0 Offset: 0x113DDF0 VA: 0x18113F7F0
 	public Color[] GetTundraColors() { }
 
-	// RVA: 0x113F8C0 Offset: 0x113DEC0 VA: 0x18113F8C0
 	public void GetTundraOverlayConstants(out Color[] color, out Vector4[] param) { }
 
-	// RVA: 0x113E600 Offset: 0x113CC00 VA: 0x18113E600
 	public Color[] GetArcticColors() { }
 
-	// RVA: 0x113E6D0 Offset: 0x113CCD0 VA: 0x18113E6D0
 	public void GetArcticOverlayConstants(out Color[] color, out Vector4[] param) { }
 
-	// RVA: 0x113F450 Offset: 0x113DA50 VA: 0x18113F450
 	public float[] GetSplatTiling() { }
 
-	// RVA: 0x113F0E0 Offset: 0x113D6E0 VA: 0x18113F0E0
 	public float GetMaxSplatTiling() { }
 
-	// RVA: 0x113F150 Offset: 0x113D750 VA: 0x18113F150
 	public float GetMinSplatTiling() { }
 
-	// RVA: 0x113F1C0 Offset: 0x113D7C0 VA: 0x18113F1C0
 	public Vector3[] GetPackedUVMIX() { }
 
-	// RVA: 0x113EBA0 Offset: 0x113D1A0 VA: 0x18113EBA0
 	public TerrainConfig.GroundType GetCurrentGroundType(bool isGrounded, RaycastHit hit) { }
 
-	// RVA: 0x113FAC0 Offset: 0x113E0C0 VA: 0x18113FAC0
 	public void .ctor() { }
 
 }
 
 public class TerrainConfig.SplatOverlay // TypeDefIndex: 10311
-{	// Fields
-	public Color Color; // 0x10
+{	public Color Color; // 0x10
 	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float Smoothness; // 0x20
 	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
@@ -92,16 +71,13 @@ public class TerrainConfig.SplatOverlay // TypeDefIndex: 10311
 	[RangeAttribute] // RVA: 0xC6B20 Offset: 0xC5F20 VA: 0x1800C6B20
 	public float BlendFalloff; // 0x2C
 
-	// Methods
 
-	// RVA: 0x1135910 Offset: 0x1133F10 VA: 0x181135910
 	public void .ctor() { }
 
 }
 
 public class TerrainConfig.SplatType // TypeDefIndex: 10312
-{	// Fields
-	public string Name; // 0x10
+{	public string Name; // 0x10
 	[FormerlySerializedAsAttribute] // RVA: 0xC6B80 Offset: 0xC5F80 VA: 0x1800C6B80
 	public Color AridColor; // 0x18
 	public TerrainConfig.SplatOverlay AridOverlay; // 0x28
@@ -121,16 +97,13 @@ public class TerrainConfig.SplatType // TypeDefIndex: 10312
 	public float UVMIXStart; // 0x88
 	public float UVMIXDist; // 0x8C
 
-	// Methods
 
-	// RVA: 0x1135980 Offset: 0x1133F80 VA: 0x181135980
 	public void .ctor() { }
 
 }
 
 public enum TerrainConfig.GroundType // TypeDefIndex: 10313
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const TerrainConfig.GroundType None = 0;
 	public const TerrainConfig.GroundType HardSurface = 1;
 	public const TerrainConfig.GroundType Grass = 2;

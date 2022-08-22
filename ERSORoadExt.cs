@@ -1,6 +1,5 @@
 public class ERSORoadExt : ScriptableObject // TypeDefIndex: 7229
-{	// Fields
-	public SideObject sideObject; // 0x18
+{	public SideObject sideObject; // 0x18
 	public double id; // 0x20
 	public bool active; // 0x28
 	public List<Vector3> vecPositions; // 0x30
@@ -43,18 +42,13 @@ public class ERSORoadExt : ScriptableObject // TypeDefIndex: 7229
 	public List<GameObject> objects; // 0xC0
 	public bool clampToMarkers; // 0xC8
 
-	// Methods
 
-	// RVA: 0xA5A930 Offset: 0xA58F30 VA: 0x180A5A930
 	public void Init(SideObject so) { }
 
-	// RVA: 0xA5A840 Offset: 0xA58E40 VA: 0x180A5A840
 	public static ERSORoadExt CreateInstance(SideObject so) { }
 
-	// RVA: 0xA5A760 Offset: 0xA58D60 VA: 0x180A5A760
 	public static void Copy(ERSORoadExt source, ERSORoadExt target) { }
 
-	// RVA: 0xA5A9F0 Offset: 0xA58FF0 VA: 0x180A5A9F0
 	public void .ctor() { }
 
 }

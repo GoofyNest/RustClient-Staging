@@ -1,6 +1,5 @@
 public class TrainEngineAudio : MonoBehaviour // TypeDefIndex: 9772
-{	// Fields
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TrainEngine trainEngine; // 0x18
 	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform cockpitSoundPosition; // 0x20
@@ -85,64 +84,45 @@ public class TrainEngineAudio : MonoBehaviour // TypeDefIndex: 9772
 	private float lastMovementChangeOneshot; // 0x170
 	private Sound activeHorn; // 0x178
 
-	// Methods
 
-	// RVA: 0xA12980 Offset: 0xA10F80 VA: 0x180A12980
 	public void UpdateTick() { }
 
-	// RVA: 0xA12370 Offset: 0xA10970 VA: 0x180A12370
 	public void StopAll() { }
 
-	// RVA: 0xA11AB0 Offset: 0xA100B0 VA: 0x180A11AB0
 	public void PlayDamageSounds() { }
 
-	// RVA: 0xA12470 Offset: 0xA10A70 VA: 0x180A12470
 	public void StopDamageSounds() { }
 
-	// RVA: 0xA11CA0 Offset: 0xA102A0 VA: 0x180A11CA0
 	public void PlayThrottleSwitchSound() { }
 
-	// RVA: 0xA11A50 Offset: 0xA10050 VA: 0x180A11A50
 	public void PlayCouplingChangedBeep() { }
 
-	// RVA: 0xA11C40 Offset: 0xA10240 VA: 0x180A11C40
 	public void PlayLinedUpToUnloadBeep() { }
 
-	// RVA: 0xA11D00 Offset: 0xA10300 VA: 0x180A11D00
 	public void PlayUnLinedUpToUnloadBeep() { }
 
-	// RVA: 0xA11DD0 Offset: 0xA103D0 VA: 0x180A11DD0
 	public void SetForEngineState(VehicleEngineController.EngineState<TrainEngine> newState) { }
 
-	// RVA: 0xA11BE0 Offset: 0xA101E0 VA: 0x180A11BE0
 	public void PlayLightsToggleSound() { }
 
-	// RVA: 0xA11D60 Offset: 0xA10360 VA: 0x180A11D60
 	public void SetBrakeSound(bool braking) { }
 
-	// RVA: 0xA11F70 Offset: 0xA10570 VA: 0x180A11F70
 	public void SetHornState(bool on) { }
 
-	// RVA: 0xA126C0 Offset: 0xA10CC0 VA: 0x180A126C0
 	private void StopMovementLoops() { }
 
-	// RVA: 0xA128D0 Offset: 0xA10ED0 VA: 0x180A128D0
 	private void StopTurnLoops() { }
 
-	// RVA: 0xA12520 Offset: 0xA10B20 VA: 0x180A12520
 	private void StopEngineSounds(bool withinEngineSoundDist) { }
 
-	// RVA: 0xA121C0 Offset: 0xA107C0 VA: 0x180A121C0
 	private void StartEngineSounds(bool withinEngineSoundDist) { }
 
-	// RVA: 0xA13A60 Offset: 0xA12060 VA: 0x180A13A60
 	public void .ctor() { }
 
 }
 
 public class TrainEngineAudio.EngineReflection // TypeDefIndex: 9773
-{	// Fields
-	public Vector3 direction; // 0x10
+{	public Vector3 direction; // 0x10
 	public Vector3 offset; // 0x1C
 	public SoundDefinition soundDef; // 0x28
 	public Sound sound; // 0x30
@@ -150,9 +130,7 @@ public class TrainEngineAudio.EngineReflection // TypeDefIndex: 9773
 	public SoundModulation.Modulator gainMod; // 0x40
 	public float distance; // 0x48
 
-	// Methods
 
-	// RVA: 0xA08A30 Offset: 0xA07030 VA: 0x180A08A30
 	public void .ctor() { }
 
 }

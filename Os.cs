@@ -1,20 +1,15 @@
 public static class Os // TypeDefIndex: 5607
-{	// Methods
-
-	// RVA: 0x19907C0 Offset: 0x198EDC0 VA: 0x1819907C0
+{
 	public static void OpenFolder(string folder) { }
 
-	// RVA: 0x1990A40 Offset: 0x198F040 VA: 0x181990A40
 	public static bool StartProcess(string executable, string arguments) { }
 
-	// RVA: 0x1990690 Offset: 0x198EC90 VA: 0x181990690
 	private static extern bool CreateProcess(string lpApplicationName, string lpCommandLine, ref Os.SECURITY_ATTRIBUTES lpProcessAttributes, ref Os.SECURITY_ATTRIBUTES lpThreadAttributes, bool bInheritHandles, uint dwCreationFlags, IntPtr lpEnvironment, string lpCurrentDirectory, in Os.STARTUPINFO lpStartupInfo, out Os.PROCESS_INFORMATION lpProcessInformation) { }
 
 }
 
 internal struct Os.PROCESS_INFORMATION // TypeDefIndex: 5608
-{	// Fields
-	public IntPtr hProcess; // 0x0
+{	public IntPtr hProcess; // 0x0
 	public IntPtr hThread; // 0x8
 	public int dwProcessId; // 0x10
 	public int dwThreadId; // 0x14
@@ -22,8 +17,7 @@ internal struct Os.PROCESS_INFORMATION // TypeDefIndex: 5608
 }
 
 private struct Os.STARTUPINFO // TypeDefIndex: 5609
-{	// Fields
-	public int cb; // 0x0
+{	public int cb; // 0x0
 	public IntPtr lpReserved; // 0x8
 	public IntPtr lpDesktop; // 0x10
 	public IntPtr lpTitle; // 0x18
@@ -45,8 +39,7 @@ private struct Os.STARTUPINFO // TypeDefIndex: 5609
 }
 
 public struct Os.SECURITY_ATTRIBUTES // TypeDefIndex: 5610
-{	// Fields
-	public int nLength; // 0x0
+{	public int nLength; // 0x0
 	public IntPtr lpSecurityDescriptor; // 0x8
 	public int bInheritHandle; // 0x10
 

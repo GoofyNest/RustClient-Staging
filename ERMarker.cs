@@ -1,6 +1,5 @@
 public class ERMarker // TypeDefIndex: 7286
-{	// Fields
-	public bool activeSplineNode; // 0x10
+{	public bool activeSplineNode; // 0x10
 	public float leftIndent; // 0x14
 	public int leftIndentAlignment; // 0x18
 	public float rightIndent; // 0x1C
@@ -55,12 +54,9 @@ public class ERMarker // TypeDefIndex: 7286
 	public Vector3 perpDir; // 0x12C
 	public Vector3 perpDirRotated; // 0x138
 
-	// Methods
 
-	// RVA: 0x9BC8B0 Offset: 0x9BAEB0 VA: 0x1809BC8B0
 	public void .ctor(Vector3 pos, ERModularRoad scr, int element) { }
 
-	// RVA: 0x9BC860 Offset: 0x9BAE60 VA: 0x1809BC860
 	public void SetControlType(ERMarkerControlType type) { }
 
 }

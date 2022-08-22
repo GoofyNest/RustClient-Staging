@@ -1,16 +1,11 @@
 internal abstract class BaseInvokableCall // TypeDefIndex: 3627
-{	// Methods
-
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
+{
 	protected void .ctor() { }
 
-	// RVA: 0x180CDD0 Offset: 0x180B3D0 VA: 0x18180CDD0
 	protected void .ctor(object target, MethodInfo function) { }
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public abstract void Invoke(object[] args);
 
-	// RVA: -1 Offset: -1
 	protected static void ThrowOnInvalidArg<T>(object arg) { }
 	/* GenericInstMethod :
 	|
@@ -42,10 +37,8 @@ internal abstract class BaseInvokableCall // TypeDefIndex: 3627
 	|-BaseInvokableCall.ThrowOnInvalidArg<Vector2>
 	*/
 
-	// RVA: 0x180CD20 Offset: 0x180B320 VA: 0x18180CD20
 	protected static bool AllowInvoke(Delegate delegate) { }
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public abstract bool Find(object targetObj, MethodInfo method);
 
 }

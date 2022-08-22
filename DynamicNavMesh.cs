@@ -1,6 +1,5 @@
 public class DynamicNavMesh : SingletonComponent<DynamicNavMesh>, IServerComponent // TypeDefIndex: 8957
-{	// Fields
-	public int NavMeshAgentTypeIndex; // 0x18
+{	public int NavMeshAgentTypeIndex; // 0x18
 	[TooltipAttribute] // RVA: 0xC6F30 Offset: 0xC6330 VA: 0x1800C6F30
 	public string DefaultAreaName; // 0x20
 	public int AsyncTerrainNavMeshBakeCellSize; // 0x28
@@ -11,9 +10,7 @@ public class DynamicNavMesh : SingletonComponent<DynamicNavMesh>, IServerCompone
 	public LayerMask LayerMask; // 0x54
 	public NavMeshCollectGeometry NavMeshCollectGeometry; // 0x58
 
-	// Methods
 
-	// RVA: 0xAB6640 Offset: 0xAB4C40 VA: 0x180AB6640
 	public void .ctor() { }
 
 }

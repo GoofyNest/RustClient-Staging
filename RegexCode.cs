@@ -1,6 +1,5 @@
 internal sealed class RegexCode // TypeDefIndex: 2612
-{	// Fields
-	internal const int Onerep = 0;
+{	internal const int Onerep = 0;
 	internal const int Notonerep = 1;
 	internal const int Setrep = 2;
 	internal const int Oneloop = 3;
@@ -58,12 +57,9 @@ internal sealed class RegexCode // TypeDefIndex: 2612
 	internal int _anchors; // 0x48
 	internal bool _rightToLeft; // 0x4C
 
-	// Methods
 
-	// RVA: 0x14C9460 Offset: 0x14C7A60 VA: 0x1814C9460
 	internal void .ctor(int[] codes, List<string> stringlist, int trackcount, Hashtable caps, int capsize, RegexBoyerMoore bmPrefix, RegexPrefix fcPrefix, int anchors, bool rightToLeft) { }
 
-	// RVA: 0x14C9400 Offset: 0x14C7A00 VA: 0x1814C9400
 	internal static bool OpcodeBacktracks(int Op) { }
 
 }

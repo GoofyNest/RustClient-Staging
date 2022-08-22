@@ -1,6 +1,5 @@
 public class Preset // TypeDefIndex: 11562
-{	// Fields
-	public bool DiagDetection; // 0x10
+{	public bool DiagDetection; // 0x10
 	public bool CornerDetection; // 0x11
 	[RangeAttribute] // RVA: 0xC6750 Offset: 0xC5B50 VA: 0x1800C6750
 	public float Threshold; // 0x14
@@ -15,9 +14,7 @@ public class Preset // TypeDefIndex: 11562
 	[MinAttribute] // RVA: 0xC6BE0 Offset: 0xC5FE0 VA: 0x1800C6BE0
 	public float LocalContrastAdaptationFactor; // 0x28
 
-	// Methods
 
-	// RVA: 0x5A4EC0 Offset: 0x5A34C0 VA: 0x1805A4EC0
 	public void .ctor() { }
 
 }

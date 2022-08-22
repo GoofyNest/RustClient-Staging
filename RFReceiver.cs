@@ -1,43 +1,31 @@
 public class RFReceiver : IOEntity, IRFObject // TypeDefIndex: 8438
-{	// Fields
-	private Option __menuOption_Menu_SetFreqency; // 0x288
+{	private Option __menuOption_Menu_SetFreqency; // 0x288
 	public int frequency; // 0x2E0
 	public GameObjectRef frequencyPanelPrefab; // 0x2E8
 
-	// Properties
 	public override bool HasMenuOptions { get; }
 
-	// Methods
 
-	// RVA: 0x69FC60 Offset: 0x69E260 VA: 0x18069FC60 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x6A0380 Offset: 0x69E980 VA: 0x1806A0380 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x6A0230 Offset: 0x69E830 VA: 0x1806A0230 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x69F230 Offset: 0x69D830 VA: 0x18069F230 Slot: 160
 	public int GetFrequency() { }
 
-	// RVA: 0x69F550 Offset: 0x69DB50 VA: 0x18069F550 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
 	[BaseEntity.Menu] // RVA: 0x806F0 Offset: 0x7FAF0 VA: 0x1800806F0
 	[BaseEntity.Menu.Description] // RVA: 0x806F0 Offset: 0x7FAF0 VA: 0x1800806F0
 	[BaseEntity.Menu.Icon] // RVA: 0x806F0 Offset: 0x7FAF0 VA: 0x1800806F0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x806F0 Offset: 0x7FAF0 VA: 0x1800806F0
-	// RVA: 0x69FF70 Offset: 0x69E570 VA: 0x18069FF70
 	public void Menu_SetFreqency(BasePlayer player) { }
 
-	// RVA: 0x6A0180 Offset: 0x69E780 VA: 0x1806A0180
 	public bool Menu_SetFrequency_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x69FC10 Offset: 0x69E210 VA: 0x18069FC10 Slot: 159
 	public void ClientSetFrequency(int newFreq) { }
 
-	// RVA: 0x6A0320 Offset: 0x69E920 VA: 0x1806A0320
 	public void .ctor() { }
 
 }

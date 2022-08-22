@@ -1,6 +1,5 @@
 public class HelicopterTurret : MonoBehaviour // TypeDefIndex: 9600
-{	// Fields
-	public PatrolHelicopterAI _heliAI; // 0x18
+{	public PatrolHelicopterAI _heliAI; // 0x18
 	public float fireRate; // 0x20
 	public float burstLength; // 0x24
 	public float timeBetweenBursts; // 0x28
@@ -12,9 +11,7 @@ public class HelicopterTurret : MonoBehaviour // TypeDefIndex: 9600
 	public bool left; // 0x50
 	public BaseCombatEntity _target; // 0x58
 
-	// Methods
 
-	// RVA: 0x739D60 Offset: 0x738360 VA: 0x180739D60
 	public void .ctor() { }
 
 }

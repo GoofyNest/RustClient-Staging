@@ -1,13 +1,9 @@
 public class OQCDCDQCCD : MonoBehaviour // TypeDefIndex: 7264
-{	// Methods
-
-	// RVA: 0x896D60 Offset: 0x895360 VA: 0x180896D60
+{
 	public static void OQQODODQCQ(ERCrossingPrefabs scr, Vector3[] meshVecs, ref Vector3[] surfaceMeshVecs) { }
 
-	// RVA: 0x8985F0 Offset: 0x896BF0 VA: 0x1808985F0
 	public static void UpdateYCrossingSurfaces(ERCrossingPrefabs scr, Vector3[] meshVecs, List<ERConnectionSibling> siblings, ref Vector3[] surfaceMeshVecs) { }
 
-	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
 }

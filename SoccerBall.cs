@@ -1,6 +1,5 @@
 public class SoccerBall : BaseCombatEntity // TypeDefIndex: 9760
-{	// Fields
-	[HeaderAttribute] // RVA: 0x91790 Offset: 0x90B90 VA: 0x180091790
+{	[HeaderAttribute] // RVA: 0x91790 Offset: 0x90B90 VA: 0x180091790
 	[SerializeField] // RVA: 0x91790 Offset: 0x90B90 VA: 0x180091790
 	private Rigidbody rigidBody; // 0x240
 	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -14,9 +13,7 @@ public class SoccerBall : BaseCombatEntity // TypeDefIndex: 9760
 	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float otherForceMultiplier; // 0x25C
 
-	// Methods
 
-	// RVA: 0x5B7260 Offset: 0x5B5860 VA: 0x1805B7260
 	public void .ctor() { }
 
 }

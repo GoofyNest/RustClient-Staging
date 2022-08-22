@@ -1,14 +1,11 @@
 public static class RenderInfo // TypeDefIndex: 12024
-{	// Methods
-
-	// RVA: 0x798800 Offset: 0x796E00 VA: 0x180798800
+{
 	public static void GenerateReport() { }
 
 }
 
 public struct RenderInfo.RendererInstance // TypeDefIndex: 12025
-{	// Fields
-	public bool IsVisible; // 0x0
+{	public bool IsVisible; // 0x0
 	public bool CastShadows; // 0x1
 	public bool Enabled; // 0x2
 	public bool RecieveShadows; // 0x3
@@ -28,12 +25,9 @@ public struct RenderInfo.RendererInstance // TypeDefIndex: 12025
 	public bool UpdateWhenOffscreen; // 0x4C
 	public int ParticleCount; // 0x50
 
-	// Methods
 
-	// RVA: 0x798A80 Offset: 0x797080 VA: 0x180798A80
 	public static RenderInfo.RendererInstance From(Renderer renderer) { }
 
-	// RVA: 0xF5520 Offset: 0xF4920 VA: 0x1800F5520
 	public void ReadMesh(Mesh mesh) { }
 
 }

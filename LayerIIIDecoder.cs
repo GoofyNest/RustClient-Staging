@@ -1,6 +1,5 @@
 internal sealed class LayerIIIDecoder : IFrameDecoder // TypeDefIndex: 7402
-{	// Fields
-	private const int SSLIMIT = 18;
+{	private const int SSLIMIT = 18;
 	private const int SBLIMIT = 32;
 	private static readonly int[][] Slen; // 0x0
 	internal static readonly int[] Pretab; // 0x8
@@ -52,66 +51,45 @@ internal sealed class LayerIIIDecoder : IFrameDecoder // TypeDefIndex: 7402
 	internal int[] X; // 0x128
 	internal int[] Y; // 0x130
 
-	// Methods
 
-	// RVA: 0x670650 Offset: 0x66EC50 VA: 0x180670650
 	private static void .cctor() { }
 
-	// RVA: 0x671960 Offset: 0x66FF60 VA: 0x180671960
 	internal void .ctor(Bitstream stream, Header header, SynthesisFilter filtera, SynthesisFilter filterb, ABuffer buffer, int whichCh) { }
 
-	// RVA: 0x661D80 Offset: 0x660380 VA: 0x180661D80 Slot: 4
 	public void DecodeFrame() { }
 
-	// RVA: 0x666B80 Offset: 0x665180 VA: 0x180666B80
 	private void InitBlock() { }
 
-	// RVA: 0x661D90 Offset: 0x660390 VA: 0x180661D90
 	internal void Decode() { }
 
-	// RVA: 0x66B580 Offset: 0x669B80 VA: 0x18066B580
 	private bool ReadSideInfo() { }
 
-	// RVA: 0x668A00 Offset: 0x667000 VA: 0x180668A00
 	private void ReadScaleFactors(int ch, int gr) { }
 
-	// RVA: 0x663F30 Offset: 0x662530 VA: 0x180663F30
 	private void GetLSFScaleData(int ch, int gr) { }
 
-	// RVA: 0x6635B0 Offset: 0x661BB0 VA: 0x1806635B0
 	private void GLSFScaleFactors(int ch, int gr) { }
 
-	// RVA: 0x664B50 Offset: 0x663150 VA: 0x180664B50
 	private void HuffmanDecode(int ch, int gr) { }
 
-	// RVA: 0x663BC0 Offset: 0x6621C0 VA: 0x180663BC0
 	private void GetKStereoValues(int isPos, int ioType, int i) { }
 
-	// RVA: 0x6622E0 Offset: 0x6608E0 VA: 0x1806622E0
 	private void DequantizeSample(float[][] xr, int ch, int gr) { }
 
-	// RVA: 0x66D710 Offset: 0x66BD10 VA: 0x18066D710
 	private void Reorder(float[][] xr, int ch, int gr) { }
 
-	// RVA: 0x66DF70 Offset: 0x66C570 VA: 0x18066DF70
 	private void Stereo(int gr) { }
 
-	// RVA: 0x6619B0 Offset: 0x65FFB0 VA: 0x1806619B0
 	private void Antialias(int ch, int gr) { }
 
-	// RVA: 0x665880 Offset: 0x663E80 VA: 0x180665880
 	private void Hybrid(int ch, int gr) { }
 
-	// RVA: 0x663280 Offset: 0x661880 VA: 0x180663280
 	private void DoDownMix() { }
 
-	// RVA: 0x666CA0 Offset: 0x6652A0 VA: 0x180666CA0
 	internal void InverseMdct(float[] inValues, float[] outValues, int blockType) { }
 
-	// RVA: 0x661CB0 Offset: 0x6602B0 VA: 0x180661CB0
 	private static float[] CreatePowerTable() { }
 
-	// RVA: 0x66DE60 Offset: 0x66C460 VA: 0x18066DE60
 	internal static int[] Reorder(int[] scalefacBand) { }
 
 }

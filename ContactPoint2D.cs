@@ -1,6 +1,5 @@
 public struct ContactPoint2D // TypeDefIndex: 4083
-{	// Fields
-	[NativeNameAttribute] // RVA: 0x71040 Offset: 0x70440 VA: 0x180071040
+{	[NativeNameAttribute] // RVA: 0x71040 Offset: 0x70440 VA: 0x180071040
 	private Vector2 m_Point; // 0x0
 	[NativeNameAttribute] // RVA: 0x71150 Offset: 0x70550 VA: 0x180071150
 	private Vector2 m_Normal; // 0x8

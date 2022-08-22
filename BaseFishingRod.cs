@@ -1,6 +1,5 @@
 public class BaseFishingRod : HeldEntity // TypeDefIndex: 8513
-{	// Fields
-	public GameObjectRef FishingBobberRef; // 0x1F8
+{	public GameObjectRef FishingBobberRef; // 0x1F8
 	public float FishCatchDistance; // 0x200
 	public LineRenderer ReelLineRenderer; // 0x208
 	public Transform LineRendererWorldStartPos; // 0x210
@@ -45,114 +44,81 @@ public class BaseFishingRod : HeldEntity // TypeDefIndex: 8513
 	private TimeUntil consumingBackMovement; // 0x2C0
 	private TimeSince reelInAnimTimer; // 0x2C4
 
-	// Properties
 	public BaseFishingRod.CatchState CurrentState { get; set; }
 	public static bool ShowLureFailError { get; }
 
-	// Methods
 
-	// RVA: 0x7B68D0 Offset: 0x7B4ED0 VA: 0x1807B68D0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B8C20 Offset: 0x7B7220 VA: 0x1807B8C20
 	public BaseFishingRod.CatchState get_CurrentState() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B8CA0 Offset: 0x7B72A0 VA: 0x1807B8CA0
 	private void set_CurrentState(BaseFishingRod.CatchState value) { }
 
-	// RVA: 0x7B8C30 Offset: 0x7B7230 VA: 0x1807B8C30
 	public static bool get_ShowLureFailError() { }
 
-	// RVA: 0x7B5B70 Offset: 0x7B4170 VA: 0x1807B5B70 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x7B57E0 Offset: 0x7B3DE0 VA: 0x1807B57E0 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x7B8250 Offset: 0x7B6850 VA: 0x1807B8250
 	private void UpdateLineRenderer() { }
 
-	// RVA: 0x7B8650 Offset: 0x7B6C50 VA: 0x1807B8650
 	private void UpdateSounds(bool onLine, float strainAmount) { }
 
-	// RVA: 0x7B4E30 Offset: 0x7B3430 VA: 0x1807B4E30
 	private Vector3 GetCurrentCastArcTarget(BasePlayer ply) { }
 
-	// RVA: 0x7B5340 Offset: 0x7B3940 VA: 0x1807B5340
 	private Vector3 GetWorldSpaceLineRendererStartPoint(BasePlayer ply, FishingRodViewmodel fishViewmodel) { }
 
-	// RVA: 0x7B5050 Offset: 0x7B3650 VA: 0x1807B5050
 	private Vector3 GetRodCatchPoint(BasePlayer ply, FishingRodViewmodel fishViewmodel) { }
 
-	// RVA: 0x7B5680 Offset: 0x7B3C80 VA: 0x1807B5680 Slot: 151
 	public override bool HeldEntityBlocksMovement(InputState state) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B3D90 Offset: 0x7B2390 VA: 0x1807B3D90
 	private void Client_ReceiveCastPoint(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B3970 Offset: 0x7B1F70 VA: 0x1807B3970
 	private void Client_HookedSomething(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B4090 Offset: 0x7B2690 VA: 0x1807B4090
 	private void Client_UpdateFishState(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B3A10 Offset: 0x7B2010 VA: 0x1807B3A10
 	private void Client_OnCaughtFish(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7B3EB0 Offset: 0x7B24B0 VA: 0x1807B3EB0
 	private void Client_ResetLine(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x7B7CE0 Offset: 0x7B62E0 VA: 0x1807B7CE0 Slot: 144
 	public override void OnViewmodelEvent(string name) { }
 
-	// RVA: 0x7B7DC0 Offset: 0x7B63C0 VA: 0x1807B7DC0 Slot: 147
 	protected override void ProcessPlayerModel(PlayerModel playerModel) { }
 
-	// RVA: 0x7B5AA0 Offset: 0x7B40A0 VA: 0x1807B5AA0 Slot: 142
 	public override void OnHolster() { }
 
-	// RVA: 0x7B7EE0 Offset: 0x7B64E0 VA: 0x1807B7EE0 Slot: 152
 	public override void ProcessSpectatorViewmodel(ViewModel vm) { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 153
 	public override void ProcessSpectatorViewmodelEvent(ViewModel vm, BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0x7B5740 Offset: 0x7B3D40 VA: 0x1807B5740 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x7B3960 Offset: 0x7B1F60 VA: 0x1807B3960 Slot: 155
 	public override bool BlocksGestures() { }
 
-	// RVA: 0x7B37F0 Offset: 0x7B1DF0 VA: 0x1807B37F0
 	private bool AllowPullInDirection(Vector3 worldDirection, Vector3 bobberPosition) { }
 
-	// RVA: 0x7B4100 Offset: 0x7B2700 VA: 0x1807B4100
 	private bool EvaluateFishingPosition(ref Vector3 pos, BasePlayer ply, out BaseFishingRod.FailReason reason, out WaterBody waterBody) { }
 
-	// RVA: 0x7B4FD0 Offset: 0x7B35D0 VA: 0x1807B4FD0
 	private Item GetCurrentLure() { }
 
-	// RVA: 0x7B5630 Offset: 0x7B3C30 VA: 0x1807B5630
 	private bool HasReelInInput(InputState state) { }
 
-	// RVA: 0x7B8B30 Offset: 0x7B7130 VA: 0x1807B8B30
 	public void .ctor() { }
 
-	// RVA: 0x7B8A40 Offset: 0x7B7040 VA: 0x1807B8A40
 	private static void .cctor() { }
 
 }
 
 public enum BaseFishingRod.CatchState // TypeDefIndex: 8514
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const BaseFishingRod.CatchState None = 0;
 	public const BaseFishingRod.CatchState Aiming = 1;
 	public const BaseFishingRod.CatchState Waiting = 2;
@@ -162,8 +128,7 @@ public enum BaseFishingRod.CatchState // TypeDefIndex: 8514
 }
 
 public enum BaseFishingRod.FishState // TypeDefIndex: 8515
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const BaseFishingRod.FishState PullingLeft = 1;
 	public const BaseFishingRod.FishState PullingRight = 2;
 	public const BaseFishingRod.FishState PullingBack = 4;
@@ -171,8 +136,7 @@ public enum BaseFishingRod.FishState // TypeDefIndex: 8515
 }
 
 public enum BaseFishingRod.FailReason // TypeDefIndex: 8516
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const BaseFishingRod.FailReason UserRequested = 0;
 	public const BaseFishingRod.FailReason BadAngle = 1;
 	public const BaseFishingRod.FailReason TensionBreak = 2;

@@ -1,6 +1,5 @@
 internal struct SimulatePositionsJob : IJob // TypeDefIndex: 7320
-{	// Fields
-	[ReadOnlyAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[ReadOnlyAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public NativeArray<ColliderData> ColliderData; // 0x0
 	[ReadOnlyAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public NativeArray<ColliderState> ColliderState; // 0x10
@@ -21,42 +20,29 @@ internal struct SimulatePositionsJob : IJob // TypeDefIndex: 7320
 	public float3 Up; // 0x8C
 	public float Radius; // 0x98
 
-	// Methods
 
-	// RVA: 0x237F00 Offset: 0x237300 VA: 0x180237F00 Slot: 4
 	public void Execute() { }
 
-	// RVA: 0x237EC0 Offset: 0x2372C0 VA: 0x180237EC0
 	private void AdjustSimulationSpace() { }
 
-	// RVA: 0x237F10 Offset: 0x237310 VA: 0x180237F10
 	private void MovePositions() { }
 
-	// RVA: 0x237ED0 Offset: 0x2372D0 VA: 0x180237ED0
 	private void ApplyPositionConstraints(NativeArray<float3> newPositions) { }
 
-	// RVA: 0x237F60 Offset: 0x237360 VA: 0x180237F60
 	private void ResolveCollisions() { }
 
-	// RVA: 0x237EF0 Offset: 0x2372F0 VA: 0x180237EF0
 	private void ApplyRotationConstraints() { }
 
-	// RVA: 0x237F20 Offset: 0x237320 VA: 0x180237F20
 	private float3 RayMarch(in float3 origin, in float3 direction, float radius, float maxDistance) { }
 
-	// RVA: 0x237F70 Offset: 0x237370 VA: 0x180237F70
 	private float Scene(in float3 position) { }
 
-	// RVA: 0x223F650 Offset: 0x223DC50 VA: 0x18223F650
 	private static float Union(float d1, float d2) { }
 
-	// RVA: 0x223E220 Offset: 0x223C820 VA: 0x18223E220
 	private static float Capsule(in float3 p, in float3 a, in float3 b, float r) { }
 
-	// RVA: 0x223F500 Offset: 0x223DB00 VA: 0x18223F500
 	private static float3 Slerp(float3 a, float3 b, float t) { }
 
-	// RVA: 0x223E4E0 Offset: 0x223CAE0 VA: 0x18223E4E0
 	private static quaternion FromToRotation(float3 from, float3 to) { }
 
 }

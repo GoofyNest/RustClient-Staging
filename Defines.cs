@@ -1,6 +1,5 @@
 internal static class Defines // TypeDefIndex: 5503
-{	// Fields
-	internal static readonly AppId k_uAppIdInvalid; // 0x0
+{	internal static readonly AppId k_uAppIdInvalid; // 0x0
 	internal static readonly DepotId_t k_uDepotIdInvalid; // 0x4
 	internal static readonly SteamAPICall_t k_uAPICallInvalid; // 0x8
 	internal static readonly PartyBeaconID_t k_ulPartyBeaconIdInvalid; // 0x10
@@ -91,64 +90,49 @@ internal static class Defines // TypeDefIndex: 5503
 	internal static readonly int k_cbSteamNetworkingSocketsFakeUDPPortRecommendedMTU; // 0x194
 	internal static readonly int k_cbSteamNetworkingSocketsFakeUDPPortMaxMessageSize; // 0x198
 
-	// Methods
 
-	// RVA: 0x136E970 Offset: 0x136CF70 VA: 0x18136E970
 	private static void .cctor() { }
 
 }
 
 public static class Defines // TypeDefIndex: 6640
 {
-// Namespace: 
 private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 // TypeDefIndex: 6637
 
-// Namespace: 
 internal class <Module> // TypeDefIndex: 6638
 
-// Namespace: 
 internal class <Module> // TypeDefIndex: 6639
 
-// Namespace: Rust.Demo
 public static class Defines // TypeDefIndex: 6640
-	// Fields
 	public const string Ident = "RUST DEMO FORMAT";
 
 }
 
 public class Defines // TypeDefIndex: 6677
-{	// Fields
-	public const byte lowestUserPacket = 140;
+{	public const byte lowestUserPacket = 140;
 	public const int packetHeaderSize = 1;
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
 }
 
 public static class Defines // TypeDefIndex: 12035
-{	// Fields
-	public static uint appID; // 0x1E6A0
+{	public static uint appID; // 0x1E6A0
 	public const string resourceFolder = "assets/bundled";
 
-	// Methods
 
-	// RVA: 0x4BCBF0 Offset: 0x4BB1F0 VA: 0x1804BCBF0
 	private static void .cctor() { }
 
 }
 
 public static class Defines.Connection // TypeDefIndex: 12036
-{	// Fields
-	public const byte mode_steam = 228;
+{	public const byte mode_steam = 228;
 
 }
 
 public static class Defines.Tags // TypeDefIndex: 12037
-{	// Fields
-	public const string NotPlayerUsable = "Not Player Usable";
+{	public const string NotPlayerUsable = "Not Player Usable";
 
 }
 

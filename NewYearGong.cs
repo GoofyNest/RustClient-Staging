@@ -1,6 +1,5 @@
 public class NewYearGong : BaseCombatEntity // TypeDefIndex: 8609
-{	// Fields
-	public SoundDefinition gongSound; // 0x240
+{	public SoundDefinition gongSound; // 0x240
 	public float minTimeBetweenSounds; // 0x248
 	public GameObject soundRoot; // 0x250
 	public Transform gongCentre; // 0x258
@@ -10,19 +9,14 @@ public class NewYearGong : BaseCombatEntity // TypeDefIndex: 8609
 	private static int gongHit_trigger; // 0x0
 	private Sound playingSound; // 0x278
 
-	// Methods
 
-	// RVA: 0x9D10B0 Offset: 0x9CF6B0 VA: 0x1809D10B0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9D1500 Offset: 0x9CFB00 VA: 0x1809D1500
 	public void PlaySound(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x9D1760 Offset: 0x9CFD60 VA: 0x1809D1760
 	public void .ctor() { }
 
-	// RVA: 0x9D1710 Offset: 0x9CFD10 VA: 0x1809D1710
 	private static void .cctor() { }
 
 }

@@ -1,6 +1,5 @@
 public class LargeShredder : BaseEntity // TypeDefIndex: 9634
-{	// Fields
-	public Transform shredRail; // 0x168
+{	public Transform shredRail; // 0x168
 	public Transform shredRailStartPos; // 0x170
 	public Transform shredRailEndPos; // 0x178
 	public Vector3 shredRailStartRotation; // 0x180
@@ -18,18 +17,13 @@ public class LargeShredder : BaseEntity // TypeDefIndex: 9634
 	private Quaternion entryRotation; // 0x1D8
 	public const string SHRED_STAT = "cars_shredded";
 
-	// Methods
 
-	// RVA: 0x5B1260 Offset: 0x5AF860 VA: 0x1805B1260 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0x687690 Offset: 0x685C90 VA: 0x180687690
 	public void ClientUpdate() { }
 
-	// RVA: 0x687690 Offset: 0x685C90 VA: 0x180687690
 	private void Update() { }
 
-	// RVA: 0x687820 Offset: 0x685E20 VA: 0x180687820
 	public void .ctor() { }
 
 }

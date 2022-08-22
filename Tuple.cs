@@ -1,7 +1,5 @@
 public static class Tuple // TypeDefIndex: 135
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public static Tuple<T1, T2> Create<T1, T2>(T1 item1, T2 item2) { }
 	/* GenericInstMethod :
 	|
@@ -25,13 +23,10 @@ public static class Tuple // TypeDefIndex: 135
 	|-Tuple.Create<int, int>
 	*/
 
-	// RVA: 0x15564E0 Offset: 0x1554AE0 VA: 0x1815564E0
 	internal static int CombineHashCodes(int h1, int h2) { }
 
-	// RVA: 0x213DE00 Offset: 0x213C400 VA: 0x18213DE00
 	internal static int CombineHashCodes(int h1, int h2, int h3) { }
 
-	// RVA: 0x213DE10 Offset: 0x213C410 VA: 0x18213DE10
 	internal static int CombineHashCodes(int h1, int h2, int h3, int h4) { }
 
 }

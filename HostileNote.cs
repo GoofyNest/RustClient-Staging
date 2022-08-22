@@ -1,6 +1,5 @@
 public class HostileNote : MonoBehaviour, IClientComponent // TypeDefIndex: 10934
-{	// Fields
-	public CanvasGroup warnGroup; // 0x18
+{	public CanvasGroup warnGroup; // 0x18
 	public CanvasGroup group; // 0x20
 	public CanvasGroup timerGroup; // 0x28
 	public CanvasGroup smallWarning; // 0x30
@@ -17,15 +16,11 @@ public class HostileNote : MonoBehaviour, IClientComponent // TypeDefIndex: 1093
 	private double lastWeaponDrawnStringUpdate; // 0x80
 	private string hostileTimeLeftString; // 0x88
 
-	// Methods
 
-	// RVA: 0x7428E0 Offset: 0x740EE0 VA: 0x1807428E0
 	public void Update() { }
 
-	// RVA: 0x743570 Offset: 0x741B70 VA: 0x180743570
 	public void .ctor() { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private static void .cctor() { }
 
 }

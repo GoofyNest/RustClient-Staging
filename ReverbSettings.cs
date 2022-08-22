@@ -1,6 +1,5 @@
 public class ReverbSettings : ScriptableObject // TypeDefIndex: 9017
-{	// Fields
-	[RangeAttribute] // RVA: 0xCAEF0 Offset: 0xCA2F0 VA: 0x1800CAEF0
+{	[RangeAttribute] // RVA: 0xCAEF0 Offset: 0xCA2F0 VA: 0x1800CAEF0
 	public int room; // 0x18
 	[RangeAttribute] // RVA: 0xCAEF0 Offset: 0xCA2F0 VA: 0x1800CAEF0
 	public int roomHF; // 0x1C
@@ -27,9 +26,7 @@ public class ReverbSettings : ScriptableObject // TypeDefIndex: 9017
 	[RangeAttribute] // RVA: 0x77EF0 Offset: 0x772F0 VA: 0x180077EF0
 	public float density; // 0x48
 
-	// Methods
 
-	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }

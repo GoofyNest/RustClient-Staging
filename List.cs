@@ -1,17 +1,13 @@
 public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // TypeDefIndex: 1490
-{	// Fields
-	private List<T> list; // 0x0
+{	private List<T> list; // 0x0
 	private int index; // 0x0
 	private int version; // 0x0
 	private T current; // 0x0
 
-	// Properties
 	public T Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(List<T> list) { }
 	/* GenericInstMethod :
 	|
@@ -232,7 +228,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<UIVertex>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -680,7 +675,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WorldSplineData.LUTEntry.LUTPoint>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
@@ -1226,7 +1220,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<UIVertex>.MoveNext
 	*/
 
-	// RVA: -1 Offset: -1
 	private bool MoveNextRare() { }
 	/* GenericInstMethod :
 	|
@@ -1447,7 +1440,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<UIVertex>.MoveNextRare
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public T get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -1953,7 +1945,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<UIVertex>.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -2180,7 +2171,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<UIVertex>.System.Collections.IEnumerator.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
@@ -2404,10 +2394,8 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 }
 
 public static class List // TypeDefIndex: 4843
-{	// Methods
-
+{
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public static void Compare<T, TListA, TListB>(TListA a, TListB b, List<T> added, List<T> removed, List<T> remained) { }
 	/* GenericInstMethod :
 	|
@@ -2418,7 +2406,6 @@ public static class List // TypeDefIndex: 4843
 	*/
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public static void Compare<TListA, TListB, TItemA, TItemB, TKey>(TListA a, TListB b, HashSet<TKey> added, HashSet<TKey> removed, HashSet<TKey> remained, Func<TItemA, TKey> selectorA, Func<TItemB, TKey> selectorB) { }
 	/* GenericInstMethod :
 	|
@@ -2431,7 +2418,6 @@ public static class List // TypeDefIndex: 4843
 	*/
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public static TItem FindWith<TItem, TKey>(IReadOnlyCollection<TItem> items, Func<TItem, TKey> selector, TKey search, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -2449,7 +2435,6 @@ public static class List // TypeDefIndex: 4843
 	*/
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public static Nullable<TItem> TryFindWith<TItem, TKey>(IReadOnlyCollection<TItem> items, Func<TItem, TKey> selector, TKey search, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -2459,7 +2444,6 @@ public static class List // TypeDefIndex: 4843
 	*/
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public static int FindIndexWith<TItem, TKey>(IReadOnlyList<TItem> items, Func<TItem, TKey> selector, TKey search) { }
 	/* GenericInstMethod :
 	|
@@ -2468,7 +2452,6 @@ public static class List // TypeDefIndex: 4843
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	internal static void <Compare>g__InitializeWith|1_0<TListA, TListB, TItemA, TItemB, TKey>(HashSet<TKey> set, HashSet<TKey> values) { }
 	/* GenericInstMethod :
 	|

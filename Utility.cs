@@ -1,6 +1,5 @@
 internal class Utility // TypeDefIndex: 4719
-{	// Fields
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+{	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private static Action<bool> GraphicsResourcesRecreate; // 0x0
 	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
@@ -11,39 +10,30 @@ internal class Utility // TypeDefIndex: 4719
 	private static Action FlushPendingResources; // 0x10
 	private static ProfilerMarker s_MarkerRaiseEngineUpdate; // 0x18
 
-	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEBF7A0 Offset: 0xEBDDA0 VA: 0x180EBF7A0
 	internal static void RaiseGraphicsResourcesRecreate(bool recreate) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEBF690 Offset: 0xEBDC90 VA: 0x180EBF690
 	internal static void RaiseEngineUpdate() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEBF730 Offset: 0xEBDD30 VA: 0x180EBF730
 	internal static void RaiseFlushPendingResources() { }
 
-	// RVA: 0xEBF820 Offset: 0xEBDE20 VA: 0x180EBF820
 	private static void .cctor() { }
 
 }
 
 public class Utility.GPUBuffer<T> // TypeDefIndex: 4720
-{	// Fields
-	private IntPtr buffer; // 0x0
+{	private IntPtr buffer; // 0x0
 
 }
 
 public static class Utility // TypeDefIndex: 5272
-{	// Fields
-	private static readonly byte[] readBuffer; // 0x2B1047C
+{	private static readonly byte[] readBuffer; // 0x2B1047C
 
-	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	internal static T ToType<T>(IntPtr ptr) { }
 	/* GenericInstMethod :
 	|
@@ -223,27 +213,20 @@ public static class Utility // TypeDefIndex: 5272
 	*/
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19CF7A0 Offset: 0x19CDDA0 VA: 0x1819CF7A0
 	internal static object ToType(IntPtr ptr, Type t) { }
 
-	// RVA: 0x19CF770 Offset: 0x19CDD70 VA: 0x1819CF770
 	internal static uint Swap(uint x) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19CF490 Offset: 0x19CDA90 VA: 0x1819CF490
 	public static uint IpToInt32(IPAddress ipAddress) { }
 
-	// RVA: 0x19CF3F0 Offset: 0x19CD9F0 VA: 0x1819CF3F0
 	public static IPAddress Int32ToIp(uint ipAddress) { }
 
-	// RVA: 0x19CE8E0 Offset: 0x19CCEE0 VA: 0x1819CE8E0
 	public static string FormatPrice(string currency, double price) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19CF520 Offset: 0x19CDB20 VA: 0x1819CF520
 	public static string ReadNullTerminatedUTF8String(BinaryReader br) { }
 
-	// RVA: 0x19CF820 Offset: 0x19CDE20 VA: 0x1819CF820
 	private static void .cctor() { }
 
 }

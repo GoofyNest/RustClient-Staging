@@ -1,7 +1,5 @@
 public static class UnsafeUtility // TypeDefIndex: 3340
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public static bool IsBlittable<T>() { }
 	/* GenericInstMethod :
 	|
@@ -10,42 +8,31 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	*/
 
 	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
-	// RVA: 0x18227B0 Offset: 0x1820DB0 VA: 0x1818227B0
 	public static void* Malloc(long size, int alignment, Allocator allocator) { }
 
 	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
-	// RVA: 0x1822400 Offset: 0x1820A00 VA: 0x181822400
 	public static void Free(void* memory, Allocator allocator) { }
 
 	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
-	// RVA: 0x1822850 Offset: 0x1820E50 VA: 0x181822850
 	public static void MemCpy(void* destination, void* source, long size) { }
 
 	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
-	// RVA: 0x18228B0 Offset: 0x1820EB0 VA: 0x1818228B0
 	public static void MemSet(void* destination, byte value, long size) { }
 
-	// RVA: 0x1822800 Offset: 0x1820E00 VA: 0x181822800
 	public static void MemClear(void* destination, long size) { }
 
 	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
-	// RVA: 0x1822910 Offset: 0x1820F10 VA: 0x181822910
 	public static int SizeOf(Type type) { }
 
 	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
-	// RVA: 0x1822770 Offset: 0x1820D70 VA: 0x181822770
 	public static bool IsBlittable(Type type) { }
 
-	// RVA: 0x1822710 Offset: 0x1820D10 VA: 0x181822710
 	private static bool IsBlittableValueType(Type t) { }
 
-	// RVA: 0x18224A0 Offset: 0x1820AA0 VA: 0x1818224A0
 	private static string GetReasonForTypeNonBlittableImpl(Type t, string name) { }
 
-	// RVA: 0x1822680 Offset: 0x1820C80 VA: 0x181822680
 	internal static bool IsArrayBlittable(Array arr) { }
 
-	// RVA: -1 Offset: -1
 	internal static bool IsGenericListBlittable<T>() { }
 	/* GenericInstMethod :
 	|
@@ -53,10 +40,8 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.IsGenericListBlittable<FoliageGridMeshData.FoliageVertex>
 	*/
 
-	// RVA: 0x1822440 Offset: 0x1820A40 VA: 0x181822440
 	internal static string GetReasonForArrayNonBlittable(Array arr) { }
 
-	// RVA: -1 Offset: -1
 	internal static string GetReasonForGenericListNonBlittable<T>() { }
 	/* GenericInstMethod :
 	|
@@ -64,7 +49,6 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.GetReasonForGenericListNonBlittable<FoliageGridMeshData.FoliageVertex>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static int AlignOf<T>() { }
 	/* GenericInstMethod :
 	|
@@ -89,7 +73,6 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.AlignOf<Vector4>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void CopyPtrToStructure<T>(void* ptr, out T output) { }
 	/* GenericInstMethod :
 	|
@@ -97,7 +80,6 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.CopyPtrToStructure<IntPtr>
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void InternalCopyPtrToStructure<T>(void* ptr, out T output) { }
 	/* GenericInstMethod :
 	|
@@ -105,7 +87,6 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.InternalCopyPtrToStructure<IntPtr>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static T ReadArrayElement<T>(void* source, int index) { }
 	/* GenericInstMethod :
 	|
@@ -155,7 +136,6 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.ReadArrayElement<RaycastHit>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void WriteArrayElement<T>(void* destination, int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -205,7 +185,6 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.WriteArrayElement<RaycastHit>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void* AddressOf<T>(ref T output) { }
 	/* GenericInstMethod :
 	|
@@ -219,7 +198,6 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.AddressOf<BatchQueryJob<RaycastCommand, RaycastHit>>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static int SizeOf<T>() { }
 	/* GenericInstMethod :
 	|
@@ -301,7 +279,6 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.SizeOf<RaycastCommand>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static int EnumToInt<T>(T enumValue) { }
 	/* GenericInstMethod :
 	|
@@ -309,7 +286,6 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.EnumToInt<Int32Enum>
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void InternalEnumToInt<T>(ref T enumValue, ref int intValue) { }
 	/* GenericInstMethod :
 	|
@@ -321,8 +297,7 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 }
 
 private struct UnsafeUtility.AlignOfHelper<T> // TypeDefIndex: 3341
-{	// Fields
-	public byte dummy; // 0x0
+{	public byte dummy; // 0x0
 	public T data; // 0x0
 
 }

@@ -1,6 +1,5 @@
 public class m2bradleyAnimator : MonoBehaviour // TypeDefIndex: 9594
-{	// Fields
-	public Animator m2Animator; // 0x18
+{	public Animator m2Animator; // 0x18
 	public Material treadLeftMaterial; // 0x20
 	public Material treadRightMaterial; // 0x28
 	private Rigidbody mainRigidbody; // 0x30
@@ -53,36 +52,25 @@ public class m2bradleyAnimator : MonoBehaviour // TypeDefIndex: 9594
 	public float machineGunSpeed; // 0x16C
 	private float wheelAngle; // 0x170
 
-	// Methods
 
-	// RVA: 0x1A7E360 Offset: 0x1A7C960 VA: 0x181A7E360
 	private void Start() { }
 
-	// RVA: 0x1A7F590 Offset: 0x1A7DB90 VA: 0x181A7F590
 	private void Update() { }
 
-	// RVA: 0x1A7DD30 Offset: 0x1A7C330 VA: 0x181A7DD30
 	private void AnimateWheelsTreads() { }
 
-	// RVA: 0x1A7D7A0 Offset: 0x1A7BDA0 VA: 0x181A7D7A0
 	private void AdjustShocksHeight() { }
 
-	// RVA: 0x1A7EF30 Offset: 0x1A7D530 VA: 0x181A7EF30
 	private void TrackTurret() { }
 
-	// RVA: 0x1A7EB10 Offset: 0x1A7D110 VA: 0x181A7EB10
 	private void TrackSpotLight() { }
 
-	// RVA: 0x1A7E460 Offset: 0x1A7CA60 VA: 0x181A7E460
 	private void TrackSideGuns() { }
 
-	// RVA: 0x1A7E090 Offset: 0x1A7C690 VA: 0x181A7E090
 	public void CalculateYawPitchOffset(Transform objectTransform, Vector3 vecStart, Vector3 vecEnd, out float yaw, out float pitch) { }
 
-	// RVA: 0x1A7E330 Offset: 0x1A7C930 VA: 0x181A7E330
 	public float NormalizeYaw(float flYaw) { }
 
-	// RVA: 0x1A7F620 Offset: 0x1A7DC20 VA: 0x181A7F620
 	public void .ctor() { }
 
 }

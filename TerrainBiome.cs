@@ -1,8 +1,6 @@
 public static class TerrainBiome // TypeDefIndex: 7781
 {
-// Namespace: 
 public static class TerrainBiome // TypeDefIndex: 7781
-	// Fields
 	public const int COUNT = 4;
 	public const int EVERYTHING = -1;
 	public const int NOTHING = 0;
@@ -16,22 +14,17 @@ public static class TerrainBiome // TypeDefIndex: 7781
 	public const int ARCTIC_IDX = 3;
 	private static Dictionary<int, int> type2index; // 0x1E00
 
-	// Methods
 
-	// RVA: 0x23044D0 Offset: 0x2302AD0 VA: 0x1823044D0
 	public static int TypeToIndex(int id) { }
 
-	// RVA: 0x768290 Offset: 0x766890 VA: 0x180768290
 	public static int IndexToType(int idx) { }
 
-	// RVA: 0x2304550 Offset: 0x2302B50 VA: 0x182304550
 	private static void .cctor() { }
 
 }
 
 public enum TerrainBiome.Enum // TypeDefIndex: 7782
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const TerrainBiome.Enum Arid = 1;
 	public const TerrainBiome.Enum Temperate = 2;
 	public const TerrainBiome.Enum Tundra = 4;

@@ -1,6 +1,5 @@
 public class ERSideObjectInstance : MonoBehaviour // TypeDefIndex: 7281
-{	// Fields
-	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public SideObject so; // 0x18
 	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public double id; // 0x20
@@ -25,9 +24,7 @@ public class ERSideObjectInstance : MonoBehaviour // TypeDefIndex: 7281
 	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public List<Vector3> startEndPositions; // 0x58
 
-	// Methods
 
-	// RVA: 0xA5B580 Offset: 0xA59B80 VA: 0x180A5B580
 	public void .ctor() { }
 
 }

@@ -1,6 +1,5 @@
 public class BaseHelicopter : BaseCombatEntity // TypeDefIndex: 8519
-{	// Fields
-	public BaseHelicopter.weakspot[] weakspots; // 0x240
+{	public BaseHelicopter.weakspot[] weakspots; // 0x240
 	public GameObject rotorPivot; // 0x248
 	public GameObject mainRotor; // 0x250
 	public GameObject mainRotor_blades; // 0x258
@@ -54,62 +53,44 @@ public class BaseHelicopter : BaseCombatEntity // TypeDefIndex: 8519
 	private Quaternion client_rotorPivotIdeal; // 0x3B0
 	private bool nightLightsOn; // 0x3C0
 
-	// Methods
 
-	// RVA: 0xA41080 Offset: 0xA3F680 VA: 0x180A41080 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA40AE0 Offset: 0xA3F0E0 VA: 0x180A40AE0
 	public void InitalizeWeakspots() { }
 
-	// RVA: 0x723180 Offset: 0x721780 VA: 0x180723180 Slot: 112
 	public override float MaxVelocity() { }
 
-	// RVA: 0xA40A50 Offset: 0xA3F050 VA: 0x180A40A50 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0xA40DC0 Offset: 0xA3F3C0 VA: 0x180A40DC0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xA40470 Offset: 0xA3EA70 VA: 0x180A40470 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xA40B60 Offset: 0xA3F160 VA: 0x180A40B60
 	public void InitializeClientsideEffects() { }
 
-	// RVA: 0xA40490 Offset: 0xA3EA90 VA: 0x180A40490 Slot: 19
 	protected override void DoClientDestroy() { }
 
-	// RVA: 0xA414D0 Offset: 0xA3FAD0 VA: 0x180A414D0
 	public void SetLights(bool areOn) { }
 
-	// RVA: 0xA41F40 Offset: 0xA40540 VA: 0x180A41F40
 	public void Update() { }
 
-	// RVA: 0xA415F0 Offset: 0xA3FBF0 VA: 0x180A415F0
 	public void UpdateEffects() { }
 
-	// RVA: 0xA41E00 Offset: 0xA40400 VA: 0x180A41E00
 	public void UpdateRotorWashPosition(Vector3 pos, Vector3 normal) { }
 
-	// RVA: 0xA41570 Offset: 0xA3FB70 VA: 0x180A41570
 	public void ToggleRotorWash(bool enabled) { }
 
-	// RVA: 0xA41D70 Offset: 0xA40370 VA: 0x180A41D70
 	public void UpdateRotorVisibility() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA40570 Offset: 0xA3EB70 VA: 0x180A40570
 	public void FireGun(BaseEntity.RPCMessage rpc) { }
 
-	// RVA: 0xA426A0 Offset: 0xA40CA0 VA: 0x180A426A0
 	public void .ctor() { }
 
 }
 
 public class BaseHelicopter.weakspot // TypeDefIndex: 8520
-{	// Fields
-	public BaseHelicopter body; // 0x10
+{	public BaseHelicopter body; // 0x10
 	public string[] bonenames; // 0x18
 	public float maxHealth; // 0x20
 	public float health; // 0x24
@@ -120,15 +101,11 @@ public class BaseHelicopter.weakspot // TypeDefIndex: 8520
 	public GameObject destroyedEffect; // 0x48
 	public List<BasePlayer> attackers; // 0x50
 
-	// Methods
 
-	// RVA: 0xA54F40 Offset: 0xA53540 VA: 0x180A54F40
 	public float HealthFraction() { }
 
-	// RVA: 0xA54E20 Offset: 0xA53420 VA: 0x180A54E20
 	public void ClientHealthUpdate(float newHealth) { }
 
-	// RVA: 0xA54F50 Offset: 0xA53550 VA: 0x180A54F50
 	public void .ctor() { }
 
 }

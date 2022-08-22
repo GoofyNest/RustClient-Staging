@@ -1,101 +1,74 @@
 public class Stack : ICollection, IEnumerable, ICloneable // TypeDefIndex: 1423
 {
-// Namespace: System.Collections
 [DebuggerDisplayAttribute] // RVA: 0xEA140 Offset: 0xE9540 VA: 0x1800EA140
 [DebuggerTypeProxyAttribute] // RVA: 0xEA140 Offset: 0xE9540 VA: 0x1800EA140
 [ComVisibleAttribute] // RVA: 0xEA140 Offset: 0xE9540 VA: 0x1800EA140
 [Serializable]
 public class Stack : ICollection, IEnumerable, ICloneable // TypeDefIndex: 1423
-	// Fields
 	private object[] _array; // 0x10
 	private int _size; // 0x18
 	private int _version; // 0x1C
 	private object _syncRoot; // 0x20
 
-	// Properties
 	public virtual int Count { get; }
 	public virtual object SyncRoot { get; }
 
-	// Methods
 
-	// RVA: 0x146A780 Offset: 0x1468D80 VA: 0x18146A780
 	public void .ctor() { }
 
-	// RVA: 0x146A7E0 Offset: 0x1468DE0 VA: 0x18146A7E0
 	public void .ctor(int initialCapacity) { }
 
-	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400 Slot: 9
 	public virtual int get_Count() { }
 
-	// RVA: 0x146A8A0 Offset: 0x1468EA0 VA: 0x18146A8A0 Slot: 10
 	public virtual object get_SyncRoot() { }
 
-	// RVA: 0x146A030 Offset: 0x1468630 VA: 0x18146A030 Slot: 11
 	public virtual void Clear() { }
 
-	// RVA: 0x146A060 Offset: 0x1468660 VA: 0x18146A060 Slot: 12
 	public virtual object Clone() { }
 
-	// RVA: 0x146A180 Offset: 0x1468780 VA: 0x18146A180 Slot: 13
 	public virtual void CopyTo(Array array, int index) { }
 
-	// RVA: 0x146A440 Offset: 0x1468A40 VA: 0x18146A440 Slot: 14
 	public virtual IEnumerator GetEnumerator() { }
 
-	// RVA: 0x146A4E0 Offset: 0x1468AE0 VA: 0x18146A4E0 Slot: 15
 	public virtual object Peek() { }
 
-	// RVA: 0x146A590 Offset: 0x1468B90 VA: 0x18146A590 Slot: 16
 	public virtual object Pop() { }
 
-	// RVA: 0x146A660 Offset: 0x1468C60 VA: 0x18146A660 Slot: 17
 	public virtual void Push(object obj) { }
 
 }
 
 private class Stack.StackEnumerator : IEnumerator, ICloneable // TypeDefIndex: 1424
-{	// Fields
-	private Stack _stack; // 0x10
+{	private Stack _stack; // 0x10
 	private int _index; // 0x18
 	private int _version; // 0x1C
 	private object currentElement; // 0x20
 
-	// Properties
 	public virtual object Current { get; }
 
-	// Methods
 
-	// RVA: 0x1469EF0 Offset: 0x14684F0 VA: 0x181469EF0
 	internal void .ctor(Stack stack) { }
 
-	// RVA: 0xD71D90 Offset: 0xD70390 VA: 0x180D71D90 Slot: 7
 	public object Clone() { }
 
-	// RVA: 0x1469D00 Offset: 0x1468300 VA: 0x181469D00 Slot: 8
 	public virtual bool MoveNext() { }
 
-	// RVA: 0x1469F60 Offset: 0x1468560 VA: 0x181469F60 Slot: 9
 	public virtual object get_Current() { }
 
-	// RVA: 0x1469E50 Offset: 0x1468450 VA: 0x181469E50 Slot: 10
 	public virtual void Reset() { }
 
 }
 
 public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // TypeDefIndex: 3153
-{	// Fields
-	private readonly Stack<T> _stack; // 0x0
+{	private readonly Stack<T> _stack; // 0x0
 	private readonly int _version; // 0x0
 	private int _index; // 0x0
 	private T _currentElement; // 0x0
 
-	// Properties
 	public T Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(Stack<T> stack) { }
 	/* GenericInstMethod :
 	|
@@ -115,7 +88,6 @@ public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 	|-Stack.Enumerator<EventDispatcher.DispatchContext>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -131,7 +103,6 @@ public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 	|-Stack.Enumerator<Vector2>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
@@ -159,7 +130,6 @@ public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 	|-Stack.Enumerator<Vector2>.MoveNext
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public T get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -187,7 +157,6 @@ public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 	|-Stack.Enumerator<Vector2>.get_Current
 	*/
 
-	// RVA: -1 Offset: -1
 	private void ThrowEnumerationNotStartedOrEnded() { }
 	/* GenericInstMethod :
 	|
@@ -213,7 +182,6 @@ public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 	|-Stack.Enumerator<Vector2>.ThrowEnumerationNotStartedOrEnded
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -239,7 +207,6 @@ public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 	|-Stack.Enumerator<Vector2>.System.Collections.IEnumerator.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|

@@ -1,6 +1,5 @@
 public class LiquidWeaponEffects : MonoBehaviour // TypeDefIndex: 9470
-{	// Fields
-	public ParticleSystem RootPS; // 0x18
+{	public ParticleSystem RootPS; // 0x18
 	public ParticleSystem EmissionPS; // 0x20
 	public ParticleSystem InnerEmissionPS; // 0x28
 	public LiquidWobble Liquid; // 0x30
@@ -44,60 +43,41 @@ public class LiquidWeaponEffects : MonoBehaviour // TypeDefIndex: 9470
 	private Vector3 lastImpactPosition; // 0x104
 	private bool emitting; // 0x110
 
-	// Methods
 
-	// RVA: 0x4F4EA0 Offset: 0x4F34A0 VA: 0x1804F4EA0
 	public void Init(BasePlayer player, float currentRange, float maxRange) { }
 
-	// RVA: 0x4F5260 Offset: 0x4F3860 VA: 0x1804F5260
 	public void SetWaterLevel(float fraction, bool instant) { }
 
-	// RVA: 0x4F5250 Offset: 0x4F3850 VA: 0x1804F5250
 	public void SetPressureFraction(float pressure) { }
 
-	// RVA: 0x4F5CE0 Offset: 0x4F42E0 VA: 0x1804F5CE0
 	private void Update() { }
 
-	// RVA: 0x4F4EF0 Offset: 0x4F34F0 VA: 0x1804F4EF0
 	public void OnDisable() { }
 
-	// RVA: 0x4F5310 Offset: 0x4F3910 VA: 0x1804F5310
 	public void StartEmission() { }
 
-	// RVA: 0x4F59F0 Offset: 0x4F3FF0 VA: 0x1804F59F0
 	public void StopEmission(float delay) { }
 
-	// RVA: 0x4F5960 Offset: 0x4F3F60 VA: 0x1804F5960
 	private void StopEmissionCo() { }
 
-	// RVA: 0x4F48D0 Offset: 0x4F2ED0 VA: 0x1804F48D0
 	private void FixedUpdate() { }
 
-	// RVA: 0x4F47F0 Offset: 0x4F2DF0 VA: 0x1804F47F0
 	private void DoSplash(Vector3 point, Vector3 direction) { }
 
-	// RVA: 0x4F4F90 Offset: 0x4F3590 VA: 0x1804F4F90
 	private void OnDrawGizmos() { }
 
-	// RVA: 0x4F55A0 Offset: 0x4F3BA0 VA: 0x1804F55A0
 	public void StartShootSounds() { }
 
-	// RVA: 0x4F5B40 Offset: 0x4F4140 VA: 0x1804F5B40
 	public void StopShootSounds() { }
 
-	// RVA: 0x4F5C90 Offset: 0x4F4290 VA: 0x1804F5C90
 	private void UpdateShootSounds() { }
 
-	// RVA: 0x4F53C0 Offset: 0x4F39C0 VA: 0x1804F53C0
 	private void StartImpactSounds(Vector3 position) { }
 
-	// RVA: 0x4F5A80 Offset: 0x4F4080 VA: 0x1804F5A80
 	private void StopImpactSounds() { }
 
-	// RVA: 0x4F5190 Offset: 0x4F3790 VA: 0x1804F5190
 	private void RepositionImpactSounds(Vector3 position) { }
 
-	// RVA: 0x4F5F30 Offset: 0x4F4530 VA: 0x1804F5F30
 	public void .ctor() { }
 
 }

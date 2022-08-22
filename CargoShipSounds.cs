@@ -1,6 +1,5 @@
 public class CargoShipSounds : MonoBehaviour, IClientComponent // TypeDefIndex: 8289
-{	// Fields
-	public SoundDefinition waveSoundDef; // 0x18
+{	public SoundDefinition waveSoundDef; // 0x18
 	public AnimationCurve waveSoundYGainCurve; // 0x20
 	public AnimationCurve waveSoundEdgeDistanceGainCurve; // 0x28
 	private Sound waveSoundL; // 0x30
@@ -27,21 +26,15 @@ public class CargoShipSounds : MonoBehaviour, IClientComponent // TypeDefIndex: 
 	public Collider sternSoundFollowCollider; // 0xE8
 	private HashSet<CargoShipInteriorSoundTrigger> interiorSoundTriggers; // 0xF0
 
-	// Methods
 
-	// RVA: 0x52A750 Offset: 0x528D50 VA: 0x18052A750
 	public void UpdateSounds() { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void InitSounds() { }
 
-	// RVA: 0x52A690 Offset: 0x528C90 VA: 0x18052A690
 	public void InteriorTriggerEntered(CargoShipInteriorSoundTrigger trigger) { }
 
-	// RVA: 0x52A6F0 Offset: 0x528CF0 VA: 0x18052A6F0
 	public void InteriorTriggerExited(CargoShipInteriorSoundTrigger trigger) { }
 
-	// RVA: 0x52BC60 Offset: 0x52A260 VA: 0x18052BC60
 	public void .ctor() { }
 
 }

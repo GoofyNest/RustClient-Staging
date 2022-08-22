@@ -1,6 +1,5 @@
 public static class Dispatch // TypeDefIndex: 5104
-{	// Fields
-	public static Action<CallbackType, string, bool> OnDebugCallback; // 0x0
+{	public static Action<CallbackType, string, bool> OnDebugCallback; // 0x0
 	public static Action<Exception> OnException; // 0x8
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static HSteamPipe <ClientPipe>k__BackingField; // 0x10
@@ -11,56 +10,40 @@ public static class Dispatch // TypeDefIndex: 5104
 	private static Dictionary<ulong, Dispatch.ResultCallback> ResultCallbacks; // 0x28
 	private static Dictionary<CallbackType, List<Dispatch.Callback>> Callbacks; // 0x30
 
-	// Properties
 	internal static HSteamPipe ClientPipe { get; set; }
 	internal static HSteamPipe ServerPipe { get; }
 
-	// Methods
 
-	// RVA: 0x1284EF0 Offset: 0x12834F0 VA: 0x181284EF0
 	internal static extern void SteamAPI_ManualDispatch_Init() { }
 
-	// RVA: 0x1284F60 Offset: 0x1283560 VA: 0x181284F60
 	internal static extern void SteamAPI_ManualDispatch_RunFrame(HSteamPipe pipe) { }
 
-	// RVA: 0x1284E60 Offset: 0x1283460 VA: 0x181284E60
 	internal static extern bool SteamAPI_ManualDispatch_GetNextCallback(HSteamPipe pipe, ref Dispatch.CallbackMsg_t msg) { }
 
-	// RVA: 0x1284DE0 Offset: 0x12833E0 VA: 0x181284DE0
 	internal static extern bool SteamAPI_ManualDispatch_FreeLastCallback(HSteamPipe pipe) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12850D0 Offset: 0x12836D0 VA: 0x1812850D0
 	internal static HSteamPipe get_ClientPipe() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12851F0 Offset: 0x12837F0 VA: 0x1812851F0
 	internal static void set_ClientPipe(HSteamPipe value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1285130 Offset: 0x1283730 VA: 0x181285130
 	internal static HSteamPipe get_ServerPipe() { }
 
-	// RVA: 0x1283FC0 Offset: 0x12825C0 VA: 0x181283FC0
 	internal static void Init() { }
 
-	// RVA: 0x1283BB0 Offset: 0x12821B0 VA: 0x181283BB0
 	internal static void Frame(HSteamPipe pipe) { }
 
-	// RVA: 0x12840F0 Offset: 0x12826F0 VA: 0x1812840F0
 	private static void ProcessCallback(Dispatch.CallbackMsg_t msg, bool isServer) { }
 
-	// RVA: 0x1283820 Offset: 0x1281E20 VA: 0x181283820
 	internal static string CallbackToString(CallbackType type, IntPtr data, int expectedsize) { }
 
-	// RVA: 0x12846F0 Offset: 0x1282CF0 VA: 0x1812846F0
 	private static void ProcessResult(Dispatch.CallbackMsg_t msg) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x8B3B0 Offset: 0x8A7B0 VA: 0x18008B3B0
-	// RVA: 0x1284070 Offset: 0x1282670 VA: 0x181284070
 	internal static void LoopClientAsync() { }
 
-	// RVA: -1 Offset: -1
 	internal static void OnCallComplete<T>(SteamAPICall_t call, Action continuation, bool server) { }
 	/* GenericInstMethod :
 	|
@@ -86,7 +69,6 @@ public static class Dispatch // TypeDefIndex: 5104
 	|-Dispatch.OnCallComplete<SubmitItemUpdateResult_t>
 	*/
 
-	// RVA: -1 Offset: -1
 	internal static void Install<T>(Action<T> p, bool server = False) { }
 	/* GenericInstMethod :
 	|
@@ -259,17 +241,14 @@ public static class Dispatch // TypeDefIndex: 5104
 	|-Dispatch.Install<object>
 	*/
 
-	// RVA: 0x1284880 Offset: 0x1282E80 VA: 0x181284880
 	internal static void ShutdownClient() { }
 
-	// RVA: 0x1284FE0 Offset: 0x12835E0 VA: 0x181284FE0
 	private static void .cctor() { }
 
 }
 
 internal struct Dispatch.CallbackMsg_t // TypeDefIndex: 5105
-{	// Fields
-	public HSteamUser m_hSteamUser; // 0x0
+{	public HSteamUser m_hSteamUser; // 0x0
 	public CallbackType Type; // 0x4
 	public IntPtr Data; // 0x8
 	public int DataSize; // 0x10
@@ -277,77 +256,59 @@ internal struct Dispatch.CallbackMsg_t // TypeDefIndex: 5105
 }
 
 private struct Dispatch.ResultCallback // TypeDefIndex: 5106
-{	// Fields
-	public Action continuation; // 0x0
+{	public Action continuation; // 0x0
 	public bool server; // 0x8
 
 }
 
 private struct Dispatch.Callback // TypeDefIndex: 5107
-{	// Fields
-	public Action<IntPtr> action; // 0x0
+{	public Action<IntPtr> action; // 0x0
 	public bool server; // 0x8
 
 }
 
 private sealed class Dispatch.<>c // TypeDefIndex: 5108
-{	// Fields
-	public static readonly Dispatch.<>c <>9; // 0x0
+{	public static readonly Dispatch.<>c <>9; // 0x0
 	public static Func<FieldInfo, int> <>9__20_0; // 0x8
 	public static Predicate<Dispatch.Callback> <>9__31_3; // 0x10
 	public static Func<KeyValuePair<ulong, Dispatch.ResultCallback>, bool> <>9__31_0; // 0x18
 	public static Func<KeyValuePair<ulong, Dispatch.ResultCallback>, ulong> <>9__31_1; // 0x20
 	public static Func<KeyValuePair<ulong, Dispatch.ResultCallback>, Dispatch.ResultCallback> <>9__31_2; // 0x28
 
-	// Methods
 
-	// RVA: 0x1292240 Offset: 0x1290840 VA: 0x181292240
 	private static void .cctor() { }
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1292120 Offset: 0x1290720 VA: 0x181292120
 	internal int <CallbackToString>b__20_0(FieldInfo x) { }
 
-	// RVA: 0x1292220 Offset: 0x1290820 VA: 0x181292220
 	internal bool <ShutdownClient>b__31_3(Dispatch.Callback x) { }
 
-	// RVA: 0x1292160 Offset: 0x1290760 VA: 0x181292160
 	internal bool <ShutdownClient>b__31_0(KeyValuePair<ulong, Dispatch.ResultCallback> x) { }
 
-	// RVA: 0x12921A0 Offset: 0x12907A0 VA: 0x1812921A0
 	internal ulong <ShutdownClient>b__31_1(KeyValuePair<ulong, Dispatch.ResultCallback> x) { }
 
-	// RVA: 0x12921E0 Offset: 0x12907E0 VA: 0x1812921E0
 	internal Dispatch.ResultCallback <ShutdownClient>b__31_2(KeyValuePair<ulong, Dispatch.ResultCallback> x) { }
 
 }
 
 private struct Dispatch.<LoopClientAsync>d__22 : IAsyncStateMachine // TypeDefIndex: 5109
-{	// Fields
-	public int <>1__state; // 0x0
+{	public int <>1__state; // 0x0
 	public AsyncVoidMethodBuilder <>t__builder; // 0x8
 	private TaskAwaiter <>u__1; // 0x28
 
-	// Methods
 
-	// RVA: 0x1DB810 Offset: 0x1DAC10 VA: 0x1801DB810 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF1530 Offset: 0xF0930 VA: 0x1800F1530 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 private sealed class Dispatch.<>c__DisplayClass29_0<T> // TypeDefIndex: 5110
-{	// Fields
-	public Action<T> p; // 0x0
+{	public Action<T> p; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -410,7 +371,6 @@ private sealed class Dispatch.<>c__DisplayClass29_0<T> // TypeDefIndex: 5110
 	|-Dispatch.<>c__DisplayClass29_0<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void <Install>b__0(IntPtr x) { }
 	/* GenericInstMethod :
 	|

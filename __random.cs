@@ -1,22 +1,17 @@
 internal sealed class Pinnable<T> // TypeDefIndex: 118
-{	// Fields
-	public T Data; // 0x0
+{	public T Data; // 0x0
 
 }
 
 public struct ReadOnlySpan<T> // TypeDefIndex: 119
-{	// Fields
-	private readonly Pinnable<T> _pinnable; // 0x0
+{	private readonly Pinnable<T> _pinnable; // 0x0
 	private readonly IntPtr _byteOffset; // 0x0
 	private readonly int _length; // 0x0
 
-	// Properties
 	public int Length { get; }
 	public T Item { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(T[] array) { }
 	/* GenericInstMethod :
 	|
@@ -26,7 +21,6 @@ public struct ReadOnlySpan<T> // TypeDefIndex: 119
 	|-ReadOnlySpan<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(void* pointer, int length) { }
 	/* GenericInstMethod :
 	|
@@ -40,7 +34,6 @@ public struct ReadOnlySpan<T> // TypeDefIndex: 119
 	|-ReadOnlySpan<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Length() { }
 	/* GenericInstMethod :
 	|
@@ -50,7 +43,6 @@ public struct ReadOnlySpan<T> // TypeDefIndex: 119
 	|-ReadOnlySpan<object>.get_Length
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -65,7 +57,6 @@ public struct ReadOnlySpan<T> // TypeDefIndex: 119
 	*/
 
 	[ObsoleteAttribute] // RVA: 0xE9630 Offset: 0xE8A30 VA: 0x1800E9630
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -80,7 +71,6 @@ public struct ReadOnlySpan<T> // TypeDefIndex: 119
 	*/
 
 	[ObsoleteAttribute] // RVA: 0xE96C0 Offset: 0xE8AC0 VA: 0x1800E96C0
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -94,7 +84,6 @@ public struct ReadOnlySpan<T> // TypeDefIndex: 119
 	|-ReadOnlySpan<object>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1
 	public ref T DangerousGetPinnableReference() { }
 	/* GenericInstMethod :
 	|
@@ -107,13 +96,10 @@ public struct ReadOnlySpan<T> // TypeDefIndex: 119
 }
 
 public struct ValueTuple<T1, T2> : IEquatable<ValueTuple<T1, T2>>, IStructuralEquatable, IStructuralComparable, IComparable, IComparable<ValueTuple<T1, T2>> // TypeDefIndex: 126
-{	// Fields
-	public T1 Item1; // 0x0
+{	public T1 Item1; // 0x0
 	public T2 Item2; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(T1 item1, T2 item2) { }
 	/* GenericInstMethod :
 	|
@@ -148,7 +134,6 @@ public struct ValueTuple<T1, T2> : IEquatable<ValueTuple<T1, T2>>, IStructuralEq
 	|-ValueTuple<Vector3, float>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -177,7 +162,6 @@ public struct ValueTuple<T1, T2> : IEquatable<ValueTuple<T1, T2>>, IStructuralEq
 	|-ValueTuple<Vector3, float>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public bool Equals(ValueTuple<T1, T2> other) { }
 	/* GenericInstMethod :
 	|
@@ -206,7 +190,6 @@ public struct ValueTuple<T1, T2> : IEquatable<ValueTuple<T1, T2>>, IStructuralEq
 	|-ValueTuple<Vector3, float>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private bool System.Collections.IStructuralEquatable.Equals(object other, IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -235,7 +218,6 @@ public struct ValueTuple<T1, T2> : IEquatable<ValueTuple<T1, T2>>, IStructuralEq
 	|-ValueTuple<Vector3, float>.System.Collections.IStructuralEquatable.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private int System.IComparable.CompareTo(object other) { }
 	/* GenericInstMethod :
 	|
@@ -264,7 +246,6 @@ public struct ValueTuple<T1, T2> : IEquatable<ValueTuple<T1, T2>>, IStructuralEq
 	|-ValueTuple<Vector3, float>.System.IComparable.CompareTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public int CompareTo(ValueTuple<T1, T2> other) { }
 	/* GenericInstMethod :
 	|
@@ -293,7 +274,6 @@ public struct ValueTuple<T1, T2> : IEquatable<ValueTuple<T1, T2>>, IStructuralEq
 	|-ValueTuple<Vector3, float>.CompareTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private int System.Collections.IStructuralComparable.CompareTo(object other, IComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -322,7 +302,6 @@ public struct ValueTuple<T1, T2> : IEquatable<ValueTuple<T1, T2>>, IStructuralEq
 	|-ValueTuple<Vector3, float>.System.Collections.IStructuralComparable.CompareTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -351,7 +330,6 @@ public struct ValueTuple<T1, T2> : IEquatable<ValueTuple<T1, T2>>, IStructuralEq
 	|-ValueTuple<Vector3, float>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private int System.Collections.IStructuralEquatable.GetHashCode(IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -380,7 +358,6 @@ public struct ValueTuple<T1, T2> : IEquatable<ValueTuple<T1, T2>>, IStructuralEq
 	|-ValueTuple<Vector3, float>.System.Collections.IStructuralEquatable.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1
 	private int GetHashCodeCore(IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -409,7 +386,6 @@ public struct ValueTuple<T1, T2> : IEquatable<ValueTuple<T1, T2>>, IStructuralEq
 	|-ValueTuple<Vector3, float>.GetHashCodeCore
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -441,14 +417,11 @@ public struct ValueTuple<T1, T2> : IEquatable<ValueTuple<T1, T2>>, IStructuralEq
 }
 
 public struct ValueTuple<T1, T2, T3> : IEquatable<ValueTuple<T1, T2, T3>>, IStructuralEquatable, IStructuralComparable, IComparable, IComparable<ValueTuple<T1, T2, T3>> // TypeDefIndex: 127
-{	// Fields
-	public T1 Item1; // 0x0
+{	public T1 Item1; // 0x0
 	public T2 Item2; // 0x0
 	public T3 Item3; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(T1 item1, T2 item2, T3 item3) { }
 	/* GenericInstMethod :
 	|
@@ -459,7 +432,6 @@ public struct ValueTuple<T1, T2, T3> : IEquatable<ValueTuple<T1, T2, T3>>, IStru
 	|-ValueTuple<Vector3, Quaternion, Vector3>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -470,7 +442,6 @@ public struct ValueTuple<T1, T2, T3> : IEquatable<ValueTuple<T1, T2, T3>>, IStru
 	|-ValueTuple<Vector3, Quaternion, Vector3>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public bool Equals(ValueTuple<T1, T2, T3> other) { }
 	/* GenericInstMethod :
 	|
@@ -481,7 +452,6 @@ public struct ValueTuple<T1, T2, T3> : IEquatable<ValueTuple<T1, T2, T3>>, IStru
 	|-ValueTuple<Vector3, Quaternion, Vector3>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private bool System.Collections.IStructuralEquatable.Equals(object other, IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -492,7 +462,6 @@ public struct ValueTuple<T1, T2, T3> : IEquatable<ValueTuple<T1, T2, T3>>, IStru
 	|-ValueTuple<Vector3, Quaternion, Vector3>.System.Collections.IStructuralEquatable.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private int System.IComparable.CompareTo(object other) { }
 	/* GenericInstMethod :
 	|
@@ -503,7 +472,6 @@ public struct ValueTuple<T1, T2, T3> : IEquatable<ValueTuple<T1, T2, T3>>, IStru
 	|-ValueTuple<Vector3, Quaternion, Vector3>.System.IComparable.CompareTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public int CompareTo(ValueTuple<T1, T2, T3> other) { }
 	/* GenericInstMethod :
 	|
@@ -514,7 +482,6 @@ public struct ValueTuple<T1, T2, T3> : IEquatable<ValueTuple<T1, T2, T3>>, IStru
 	|-ValueTuple<Vector3, Quaternion, Vector3>.CompareTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private int System.Collections.IStructuralComparable.CompareTo(object other, IComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -525,7 +492,6 @@ public struct ValueTuple<T1, T2, T3> : IEquatable<ValueTuple<T1, T2, T3>>, IStru
 	|-ValueTuple<Vector3, Quaternion, Vector3>.System.Collections.IStructuralComparable.CompareTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -536,7 +502,6 @@ public struct ValueTuple<T1, T2, T3> : IEquatable<ValueTuple<T1, T2, T3>>, IStru
 	|-ValueTuple<Vector3, Quaternion, Vector3>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private int System.Collections.IStructuralEquatable.GetHashCode(IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -547,7 +512,6 @@ public struct ValueTuple<T1, T2, T3> : IEquatable<ValueTuple<T1, T2, T3>>, IStru
 	|-ValueTuple<Vector3, Quaternion, Vector3>.System.Collections.IStructuralEquatable.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1
 	private int GetHashCodeCore(IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -558,7 +522,6 @@ public struct ValueTuple<T1, T2, T3> : IEquatable<ValueTuple<T1, T2, T3>>, IStru
 	|-ValueTuple<Vector3, Quaternion, Vector3>.GetHashCodeCore
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -572,17 +535,13 @@ public struct ValueTuple<T1, T2, T3> : IEquatable<ValueTuple<T1, T2, T3>>, IStru
 }
 
 public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, IComparable, ITupleInternal // TypeDefIndex: 136
-{	// Fields
-	private readonly T1 m_Item1; // 0x0
+{	private readonly T1 m_Item1; // 0x0
 	private readonly T2 m_Item2; // 0x0
 
-	// Properties
 	public T1 Item1 { get; }
 	public T2 Item2 { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public T1 get_Item1() { }
 	/* GenericInstMethod :
 	|
@@ -607,7 +566,6 @@ public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, ICompa
 	|-Tuple<int, int>.get_Item1
 	*/
 
-	// RVA: -1 Offset: -1
 	public T2 get_Item2() { }
 	/* GenericInstMethod :
 	|
@@ -640,7 +598,6 @@ public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, ICompa
 	|-Tuple<int, int>.get_Item2
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(T1 item1, T2 item2) { }
 	/* GenericInstMethod :
 	|
@@ -670,7 +627,6 @@ public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, ICompa
 	|-Tuple<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -699,7 +655,6 @@ public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, ICompa
 	|-Tuple<object, object>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	private bool System.Collections.IStructuralEquatable.Equals(object other, IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -728,7 +683,6 @@ public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, ICompa
 	|-Tuple<object, object>.System.Collections.IStructuralEquatable.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private int System.IComparable.CompareTo(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -757,7 +711,6 @@ public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, ICompa
 	|-Tuple<object, object>.System.IComparable.CompareTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private int System.Collections.IStructuralComparable.CompareTo(object other, IComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -786,7 +739,6 @@ public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, ICompa
 	|-Tuple<object, object>.System.Collections.IStructuralComparable.CompareTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -815,7 +767,6 @@ public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, ICompa
 	|-Tuple<object, object>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private int System.Collections.IStructuralEquatable.GetHashCode(IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -844,7 +795,6 @@ public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, ICompa
 	|-Tuple<object, object>.System.Collections.IStructuralEquatable.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -873,7 +823,6 @@ public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, ICompa
 	|-Tuple<object, object>.ToString
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private string System.ITupleInternal.ToString(StringBuilder sb) { }
 	/* GenericInstMethod :
 	|
@@ -905,19 +854,15 @@ public class Tuple<T1, T2> : IStructuralEquatable, IStructuralComparable, ICompa
 }
 
 public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IComparable, ITupleInternal // TypeDefIndex: 137
-{	// Fields
-	private readonly T1 m_Item1; // 0x0
+{	private readonly T1 m_Item1; // 0x0
 	private readonly T2 m_Item2; // 0x0
 	private readonly T3 m_Item3; // 0x0
 
-	// Properties
 	public T1 Item1 { get; }
 	public T2 Item2 { get; }
 	public T3 Item3 { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public T1 get_Item1() { }
 	/* GenericInstMethod :
 	|
@@ -926,7 +871,6 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	|-Tuple<Task, Task, TaskContinuation>.get_Item1
 	*/
 
-	// RVA: -1 Offset: -1
 	public T2 get_Item2() { }
 	/* GenericInstMethod :
 	|
@@ -935,7 +879,6 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	|-Tuple<Task, Task, TaskContinuation>.get_Item2
 	*/
 
-	// RVA: -1 Offset: -1
 	public T3 get_Item3() { }
 	/* GenericInstMethod :
 	|
@@ -944,7 +887,6 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	|-Tuple<Task, Task, TaskContinuation>.get_Item3
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(T1 item1, T2 item2, T3 item3) { }
 	/* GenericInstMethod :
 	|
@@ -953,7 +895,6 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	|-Tuple<Task, Task, TaskContinuation>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -961,7 +902,6 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	|-Tuple<object, object, object>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	private bool System.Collections.IStructuralEquatable.Equals(object other, IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -969,7 +909,6 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	|-Tuple<object, object, object>.System.Collections.IStructuralEquatable.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private int System.IComparable.CompareTo(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -977,7 +916,6 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	|-Tuple<object, object, object>.System.IComparable.CompareTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private int System.Collections.IStructuralComparable.CompareTo(object other, IComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -985,7 +923,6 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	|-Tuple<object, object, object>.System.Collections.IStructuralComparable.CompareTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -993,7 +930,6 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	|-Tuple<object, object, object>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private int System.Collections.IStructuralEquatable.GetHashCode(IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -1001,7 +937,6 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	|-Tuple<object, object, object>.System.Collections.IStructuralEquatable.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -1009,7 +944,6 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 	|-Tuple<object, object, object>.ToString
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private string System.ITupleInternal.ToString(StringBuilder sb) { }
 	/* GenericInstMethod :
 	|
@@ -1020,21 +954,17 @@ public class Tuple<T1, T2, T3> : IStructuralEquatable, IStructuralComparable, IC
 }
 
 public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable, IComparable, ITupleInternal // TypeDefIndex: 138
-{	// Fields
-	private readonly T1 m_Item1; // 0x0
+{	private readonly T1 m_Item1; // 0x0
 	private readonly T2 m_Item2; // 0x0
 	private readonly T3 m_Item3; // 0x0
 	private readonly T4 m_Item4; // 0x0
 
-	// Properties
 	public T1 Item1 { get; }
 	public T2 Item2 { get; }
 	public T3 Item3 { get; }
 	public T4 Item4 { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public T1 get_Item1() { }
 	/* GenericInstMethod :
 	|
@@ -1051,7 +981,6 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	|-Tuple<int, int, int, bool>.get_Item1
 	*/
 
-	// RVA: -1 Offset: -1
 	public T2 get_Item2() { }
 	/* GenericInstMethod :
 	|
@@ -1068,7 +997,6 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	|-Tuple<int, int, int, bool>.get_Item2
 	*/
 
-	// RVA: -1 Offset: -1
 	public T3 get_Item3() { }
 	/* GenericInstMethod :
 	|
@@ -1087,7 +1015,6 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	|-Tuple<object, object, object, object>.get_Item3
 	*/
 
-	// RVA: -1 Offset: -1
 	public T4 get_Item4() { }
 	/* GenericInstMethod :
 	|
@@ -1106,7 +1033,6 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	|-Tuple<object, object, object, object>.get_Item4
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(T1 item1, T2 item2, T3 item3, T4 item4) { }
 	/* GenericInstMethod :
 	|
@@ -1123,7 +1049,6 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	|-Tuple<object, object, object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -1140,7 +1065,6 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	|-Tuple<object, object, object, object>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	private bool System.Collections.IStructuralEquatable.Equals(object other, IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -1157,7 +1081,6 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	|-Tuple<object, object, object, object>.System.Collections.IStructuralEquatable.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private int System.IComparable.CompareTo(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -1174,7 +1097,6 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	|-Tuple<object, object, object, object>.System.IComparable.CompareTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private int System.Collections.IStructuralComparable.CompareTo(object other, IComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -1191,7 +1113,6 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	|-Tuple<object, object, object, object>.System.Collections.IStructuralComparable.CompareTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -1208,7 +1129,6 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	|-Tuple<object, object, object, object>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private int System.Collections.IStructuralEquatable.GetHashCode(IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
@@ -1225,7 +1145,6 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	|-Tuple<object, object, object, object>.System.Collections.IStructuralEquatable.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -1242,7 +1161,6 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 	|-Tuple<object, object, object, object>.ToString
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private string System.ITupleInternal.ToString(StringBuilder sb) { }
 	/* GenericInstMethod :
 	|
@@ -1262,9 +1180,7 @@ public class Tuple<T1, T2, T3, T4> : IStructuralEquatable, IStructuralComparable
 }
 
 public sealed class Action<T> : MulticastDelegate // TypeDefIndex: 150
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -1379,7 +1295,6 @@ public sealed class Action<T> : MulticastDelegate // TypeDefIndex: 150
 	|-Action<XRNodeState>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual void Invoke(T obj) { }
 	/* GenericInstMethod :
 	|
@@ -1542,7 +1457,6 @@ public sealed class Action<T> : MulticastDelegate // TypeDefIndex: 150
 	|-Action<XRNodeState>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T obj, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -1793,7 +1707,6 @@ public sealed class Action<T> : MulticastDelegate // TypeDefIndex: 150
 	|-Action<XRNodeState>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual void EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -1885,9 +1798,7 @@ public sealed class Action<T> : MulticastDelegate // TypeDefIndex: 150
 }
 
 public sealed class Action<T1, T2> : MulticastDelegate // TypeDefIndex: 152
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -1938,7 +1849,6 @@ public sealed class Action<T1, T2> : MulticastDelegate // TypeDefIndex: 152
 	|-Action<Vector3, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual void Invoke(T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
@@ -2036,7 +1946,6 @@ public sealed class Action<T1, T2> : MulticastDelegate // TypeDefIndex: 152
 	|-Action<Vector3, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -2125,7 +2034,6 @@ public sealed class Action<T1, T2> : MulticastDelegate // TypeDefIndex: 152
 	|-Action<Vector3, object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual void EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -2163,9 +2071,7 @@ public sealed class Action<T1, T2> : MulticastDelegate // TypeDefIndex: 152
 }
 
 public sealed class Action<T1, T2, T3> : MulticastDelegate // TypeDefIndex: 153
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -2189,7 +2095,6 @@ public sealed class Action<T1, T2, T3> : MulticastDelegate // TypeDefIndex: 153
 	|-Action<string, string, LogType>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3) { }
 	/* GenericInstMethod :
 	|
@@ -2244,7 +2149,6 @@ public sealed class Action<T1, T2, T3> : MulticastDelegate // TypeDefIndex: 153
 	|-Action<object, object, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -2291,7 +2195,6 @@ public sealed class Action<T1, T2, T3> : MulticastDelegate // TypeDefIndex: 153
 	|-Action<object, object, object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual void EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -2315,9 +2218,7 @@ public sealed class Action<T1, T2, T3> : MulticastDelegate // TypeDefIndex: 153
 }
 
 public sealed class Action<T1, T2, T3, T4> : MulticastDelegate // TypeDefIndex: 154
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -2326,7 +2227,6 @@ public sealed class Action<T1, T2, T3, T4> : MulticastDelegate // TypeDefIndex: 
 	|-Action<object, object, object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4) { }
 	/* GenericInstMethod :
 	|
@@ -2337,7 +2237,6 @@ public sealed class Action<T1, T2, T3, T4> : MulticastDelegate // TypeDefIndex: 
 	|-Action<object, object, object, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -2348,7 +2247,6 @@ public sealed class Action<T1, T2, T3, T4> : MulticastDelegate // TypeDefIndex: 
 	|-Action<object, object, object, object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual void EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -2360,9 +2258,7 @@ public sealed class Action<T1, T2, T3, T4> : MulticastDelegate // TypeDefIndex: 
 }
 
 public sealed class Func<T1, T2, TResult> : MulticastDelegate // TypeDefIndex: 157
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -2379,7 +2275,6 @@ public sealed class Func<T1, T2, TResult> : MulticastDelegate // TypeDefIndex: 1
 	|-Func<object, Vector2, Matrix4x4>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual TResult Invoke(T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
@@ -2405,7 +2300,6 @@ public sealed class Func<T1, T2, TResult> : MulticastDelegate // TypeDefIndex: 1
 	|-Func<object, object, VoidTaskResult>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -2424,7 +2318,6 @@ public sealed class Func<T1, T2, TResult> : MulticastDelegate // TypeDefIndex: 1
 	|-Func<object, Vector2, Matrix4x4>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual TResult EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -2446,9 +2339,7 @@ public sealed class Func<T1, T2, TResult> : MulticastDelegate // TypeDefIndex: 1
 }
 
 public sealed class Func<T1, T2, T3, TResult> : MulticastDelegate // TypeDefIndex: 158
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -2462,7 +2353,6 @@ public sealed class Func<T1, T2, T3, TResult> : MulticastDelegate // TypeDefInde
 	|-Func<Assembly, string, bool, Type>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual TResult Invoke(T1 arg1, T2 arg2, T3 arg3) { }
 	/* GenericInstMethod :
 	|
@@ -2483,7 +2373,6 @@ public sealed class Func<T1, T2, T3, TResult> : MulticastDelegate // TypeDefInde
 	|-Func<Assembly, string, bool, Type>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -2500,7 +2389,6 @@ public sealed class Func<T1, T2, T3, TResult> : MulticastDelegate // TypeDefInde
 	|-Func<object, object, object, object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual TResult EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -2518,9 +2406,7 @@ public sealed class Func<T1, T2, T3, TResult> : MulticastDelegate // TypeDefInde
 }
 
 public sealed class Func<T1, T2, T3, T4, TResult> : MulticastDelegate // TypeDefIndex: 159
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -2532,7 +2418,6 @@ public sealed class Func<T1, T2, T3, T4, TResult> : MulticastDelegate // TypeDef
 	|-Func<object, object, object, object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual TResult Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4) { }
 	/* GenericInstMethod :
 	|
@@ -2546,7 +2431,6 @@ public sealed class Func<T1, T2, T3, T4, TResult> : MulticastDelegate // TypeDef
 	|-Func<object, object, object, object, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -2560,7 +2444,6 @@ public sealed class Func<T1, T2, T3, T4, TResult> : MulticastDelegate // TypeDef
 	|-Func<object, object, object, object, object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual TResult EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -2573,9 +2456,7 @@ public sealed class Func<T1, T2, T3, T4, TResult> : MulticastDelegate // TypeDef
 }
 
 public sealed class Comparison<T> : MulticastDelegate // TypeDefIndex: 160
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -2763,7 +2644,6 @@ public sealed class Comparison<T> : MulticastDelegate // TypeDefIndex: 160
 	|-Comparison<WorldSplineData.LUTEntry.LUTPoint>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual int Invoke(T x, T y) { }
 	/* GenericInstMethod :
 	|
@@ -3008,7 +2888,6 @@ public sealed class Comparison<T> : MulticastDelegate // TypeDefIndex: 160
 	|-Comparison<UIVertex>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T x, T y, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -3514,7 +3393,6 @@ public sealed class Comparison<T> : MulticastDelegate // TypeDefIndex: 160
 	|-Comparison<WorldSplineData.LUTEntry.LUTPoint>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual int EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -3691,9 +3569,7 @@ public sealed class Comparison<T> : MulticastDelegate // TypeDefIndex: 160
 }
 
 public sealed class Predicate<T> : MulticastDelegate // TypeDefIndex: 162
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -3897,7 +3773,6 @@ public sealed class Predicate<T> : MulticastDelegate // TypeDefIndex: 162
 	|-Predicate<WorldSplineData.LUTEntry.LUTPoint>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual bool Invoke(T obj) { }
 	/* GenericInstMethod :
 	|
@@ -4135,7 +4010,6 @@ public sealed class Predicate<T> : MulticastDelegate // TypeDefIndex: 162
 	|-Predicate<UIVertex>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T obj, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -4629,7 +4503,6 @@ public sealed class Predicate<T> : MulticastDelegate // TypeDefIndex: 162
 	|-Predicate<WorldSplineData.LUTEntry.LUTPoint>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual bool EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -4802,20 +4675,15 @@ public sealed class Predicate<T> : MulticastDelegate // TypeDefIndex: 162
 }
 
 public sealed class SerializableAttribute : Attribute // TypeDefIndex: 297
-{	// Methods
-
-	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
+{
 	public void .ctor() { }
 
 }
 
 internal static class EmptyArray<T> // TypeDefIndex: 359
-{	// Fields
-	public static readonly T[] Value; // 0x0
+{	public static readonly T[] Value; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -4850,17 +4718,13 @@ internal static class EmptyArray<T> // TypeDefIndex: 359
 }
 
 public struct Nullable<T> // TypeDefIndex: 380
-{	// Fields
-	internal T value; // 0x0
+{	internal T value; // 0x0
 	internal bool has_value; // 0x0
 
-	// Properties
 	public bool HasValue { get; }
 	public T Value { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(T value) { }
 	/* GenericInstMethod :
 	|
@@ -4978,7 +4842,6 @@ public struct Nullable<T> // TypeDefIndex: 380
 	|-Nullable<Vector2>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_HasValue() { }
 	/* GenericInstMethod :
 	|
@@ -5098,7 +4961,6 @@ public struct Nullable<T> // TypeDefIndex: 380
 	|-Nullable<RenderTargetIdentifier>.get_HasValue
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Value() { }
 	/* GenericInstMethod :
 	|
@@ -5254,7 +5116,6 @@ public struct Nullable<T> // TypeDefIndex: 380
 	|-Nullable<Ray>.get_Value
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object other) { }
 	/* GenericInstMethod :
 	|
@@ -5403,7 +5264,6 @@ public struct Nullable<T> // TypeDefIndex: 380
 	|-Nullable<Vector3>.Equals
 	*/
 
-	// RVA: -1 Offset: -1
 	private bool Equals(Nullable<T> other) { }
 	/* GenericInstMethod :
 	|
@@ -5542,7 +5402,6 @@ public struct Nullable<T> // TypeDefIndex: 380
 	|-Nullable<Vector3>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -5673,7 +5532,6 @@ public struct Nullable<T> // TypeDefIndex: 380
 	|-Nullable<Vector3>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1
 	public T GetValueOrDefault() { }
 	/* GenericInstMethod :
 	|
@@ -5794,7 +5652,6 @@ public struct Nullable<T> // TypeDefIndex: 380
 	|-Nullable<Vector2>.GetValueOrDefault
 	*/
 
-	// RVA: -1 Offset: -1
 	public T GetValueOrDefault(T defaultValue) { }
 	/* GenericInstMethod :
 	|
@@ -5894,7 +5751,6 @@ public struct Nullable<T> // TypeDefIndex: 380
 	|-Nullable<Vector2>.GetValueOrDefault
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -6043,7 +5899,6 @@ public struct Nullable<T> // TypeDefIndex: 380
 	|-Nullable<Vector3>.ToString
 	*/
 
-	// RVA: -1 Offset: -1
 	private static object Box(Nullable<T> o) { }
 	/* GenericInstMethod :
 	|
@@ -6134,7 +5989,6 @@ public struct Nullable<T> // TypeDefIndex: 380
 	|-Nullable<Vector2>.Box
 	*/
 
-	// RVA: -1 Offset: -1
 	private static Nullable<T> Unbox(object o) { }
 	/* GenericInstMethod :
 	|
@@ -6244,13 +6098,10 @@ public struct Nullable<T> // TypeDefIndex: 380
 }
 
 public sealed class WeakReference<T> : ISerializable // TypeDefIndex: 422
-{	// Fields
-	private GCHandle handle; // 0x0
+{	private GCHandle handle; // 0x0
 	private bool trackResurrection; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(T target) { }
 	/* GenericInstMethod :
 	|
@@ -6259,7 +6110,6 @@ public sealed class WeakReference<T> : ISerializable // TypeDefIndex: 422
 	|-WeakReference<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(T target, bool trackResurrection) { }
 	/* GenericInstMethod :
 	|
@@ -6267,7 +6117,6 @@ public sealed class WeakReference<T> : ISerializable // TypeDefIndex: 422
 	|-WeakReference<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	private void .ctor(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -6275,7 +6124,6 @@ public sealed class WeakReference<T> : ISerializable // TypeDefIndex: 422
 	|-WeakReference<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -6283,7 +6131,6 @@ public sealed class WeakReference<T> : ISerializable // TypeDefIndex: 422
 	|-WeakReference<object>.GetObjectData
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TryGetTarget(out T target) { }
 	/* GenericInstMethod :
 	|
@@ -6292,7 +6139,6 @@ public sealed class WeakReference<T> : ISerializable // TypeDefIndex: 422
 	|-WeakReference<object>.TryGetTarget
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 1
 	protected override void Finalize() { }
 	/* GenericInstMethod :
 	|
@@ -6303,15 +6149,11 @@ public sealed class WeakReference<T> : ISerializable // TypeDefIndex: 422
 }
 
 internal class SparselyPopulatedArray<T> // TypeDefIndex: 754
-{	// Fields
-	private SparselyPopulatedArrayFragment<T> m_tail; // 0x0
+{	private SparselyPopulatedArrayFragment<T> m_tail; // 0x0
 
-	// Properties
 	internal SparselyPopulatedArrayFragment<T> Tail { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(int initialSize) { }
 	/* GenericInstMethod :
 	|
@@ -6320,7 +6162,6 @@ internal class SparselyPopulatedArray<T> // TypeDefIndex: 754
 	|-SparselyPopulatedArray<CancellationCallbackInfo>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal SparselyPopulatedArrayFragment<T> get_Tail() { }
 	/* GenericInstMethod :
 	|
@@ -6329,7 +6170,6 @@ internal class SparselyPopulatedArray<T> // TypeDefIndex: 754
 	|-SparselyPopulatedArray<CancellationCallbackInfo>.get_Tail
 	*/
 
-	// RVA: -1 Offset: -1
 	internal SparselyPopulatedArrayAddInfo<T> Add(T element) { }
 	/* GenericInstMethod :
 	|
@@ -6341,17 +6181,13 @@ internal class SparselyPopulatedArray<T> // TypeDefIndex: 754
 }
 
 internal struct SparselyPopulatedArrayAddInfo<T> // TypeDefIndex: 755
-{	// Fields
-	private SparselyPopulatedArrayFragment<T> m_source; // 0x0
+{	private SparselyPopulatedArrayFragment<T> m_source; // 0x0
 	private int m_index; // 0x0
 
-	// Properties
 	internal SparselyPopulatedArrayFragment<T> Source { get; }
 	internal int Index { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(SparselyPopulatedArrayFragment<T> source, int index) { }
 	/* GenericInstMethod :
 	|
@@ -6359,7 +6195,6 @@ internal struct SparselyPopulatedArrayAddInfo<T> // TypeDefIndex: 755
 	|-SparselyPopulatedArrayAddInfo<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal SparselyPopulatedArrayFragment<T> get_Source() { }
 	/* GenericInstMethod :
 	|
@@ -6368,7 +6203,6 @@ internal struct SparselyPopulatedArrayAddInfo<T> // TypeDefIndex: 755
 	|-SparselyPopulatedArrayAddInfo<CancellationCallbackInfo>.get_Source
 	*/
 
-	// RVA: -1 Offset: -1
 	internal int get_Index() { }
 	/* GenericInstMethod :
 	|
@@ -6380,20 +6214,16 @@ internal struct SparselyPopulatedArrayAddInfo<T> // TypeDefIndex: 755
 }
 
 internal class SparselyPopulatedArrayFragment<T> // TypeDefIndex: 756
-{	// Fields
-	internal readonly T[] m_elements; // 0x0
+{	internal readonly T[] m_elements; // 0x0
 	internal int m_freeCount; // 0x0
 	internal SparselyPopulatedArrayFragment<T> m_next; // 0x0
 	internal SparselyPopulatedArrayFragment<T> m_prev; // 0x0
 
-	// Properties
 	internal T Item { get; }
 	internal int Length { get; }
 	internal SparselyPopulatedArrayFragment<T> Prev { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(int size) { }
 	/* GenericInstMethod :
 	|
@@ -6401,7 +6231,6 @@ internal class SparselyPopulatedArrayFragment<T> // TypeDefIndex: 756
 	|-SparselyPopulatedArrayFragment<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(int size, SparselyPopulatedArrayFragment<T> prev) { }
 	/* GenericInstMethod :
 	|
@@ -6409,7 +6238,6 @@ internal class SparselyPopulatedArrayFragment<T> // TypeDefIndex: 756
 	|-SparselyPopulatedArrayFragment<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -6418,7 +6246,6 @@ internal class SparselyPopulatedArrayFragment<T> // TypeDefIndex: 756
 	|-SparselyPopulatedArrayFragment<CancellationCallbackInfo>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	internal int get_Length() { }
 	/* GenericInstMethod :
 	|
@@ -6427,7 +6254,6 @@ internal class SparselyPopulatedArrayFragment<T> // TypeDefIndex: 756
 	|-SparselyPopulatedArrayFragment<CancellationCallbackInfo>.get_Length
 	*/
 
-	// RVA: -1 Offset: -1
 	internal SparselyPopulatedArrayFragment<T> get_Prev() { }
 	/* GenericInstMethod :
 	|
@@ -6436,7 +6262,6 @@ internal class SparselyPopulatedArrayFragment<T> // TypeDefIndex: 756
 	|-SparselyPopulatedArrayFragment<CancellationCallbackInfo>.get_Prev
 	*/
 
-	// RVA: -1 Offset: -1
 	internal T SafeAtomicRemove(int index, T expectedElement) { }
 	/* GenericInstMethod :
 	|
@@ -6448,8 +6273,7 @@ internal class SparselyPopulatedArrayFragment<T> // TypeDefIndex: 756
 }
 
 public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
-{	// Fields
-	private Func<T> m_valueFactory; // 0x0
+{	private Func<T> m_valueFactory; // 0x0
 	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static ThreadLocal.LinkedSlotVolatile<T>[] ts_slotArray; // 0xFFFFFFFF
 	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -6460,14 +6284,11 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	private ThreadLocal.LinkedSlot<T> m_linkedSlot; // 0x0
 	private bool m_trackAllValues; // 0x0
 
-	// Properties
 	[DebuggerBrowsableAttribute] // RVA: 0x9E9D0 Offset: 0x9DDD0 VA: 0x18009E9D0
 	public T Value { get; set; }
 	public bool IsValueCreated { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(Func<T> valueFactory) { }
 	/* GenericInstMethod :
 	|
@@ -6476,7 +6297,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<StringBuilder>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Initialize(Func<T> valueFactory, bool trackAllValues) { }
 	/* GenericInstMethod :
 	|
@@ -6484,7 +6304,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<object>.Initialize
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 1
 	protected override void Finalize() { }
 	/* GenericInstMethod :
 	|
@@ -6492,7 +6311,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<object>.Finalize
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -6500,7 +6318,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<object>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	protected virtual void Dispose(bool disposing) { }
 	/* GenericInstMethod :
 	|
@@ -6508,7 +6325,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<object>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -6516,7 +6332,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<object>.ToString
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Value() { }
 	/* GenericInstMethod :
 	|
@@ -6525,7 +6340,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<object>.get_Value
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Value(T value) { }
 	/* GenericInstMethod :
 	|
@@ -6533,7 +6347,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<object>.set_Value
 	*/
 
-	// RVA: -1 Offset: -1
 	private T GetValueSlow() { }
 	/* GenericInstMethod :
 	|
@@ -6541,7 +6354,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<object>.GetValueSlow
 	*/
 
-	// RVA: -1 Offset: -1
 	private void SetValueSlow(T value, ThreadLocal.LinkedSlotVolatile<T>[] slotArray) { }
 	/* GenericInstMethod :
 	|
@@ -6549,7 +6361,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<object>.SetValueSlow
 	*/
 
-	// RVA: -1 Offset: -1
 	private void CreateLinkedSlot(ThreadLocal.LinkedSlotVolatile<T>[] slotArray, int id, T value) { }
 	/* GenericInstMethod :
 	|
@@ -6557,7 +6368,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<object>.CreateLinkedSlot
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsValueCreated() { }
 	/* GenericInstMethod :
 	|
@@ -6565,7 +6375,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<object>.get_IsValueCreated
 	*/
 
-	// RVA: -1 Offset: -1
 	private void GrowTable(ref ThreadLocal.LinkedSlotVolatile<T>[] table, int minLength) { }
 	/* GenericInstMethod :
 	|
@@ -6573,7 +6382,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<object>.GrowTable
 	*/
 
-	// RVA: -1 Offset: -1
 	private static int GetNewTableSize(int minSize) { }
 	/* GenericInstMethod :
 	|
@@ -6581,7 +6389,6 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	|-ThreadLocal<object>.GetNewTableSize
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -6592,12 +6399,9 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 }
 
 internal class Shared<T> // TypeDefIndex: 851
-{	// Fields
-	internal T Value; // 0x0
+{	internal T Value; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(T value) { }
 	/* GenericInstMethod :
 	|
@@ -6611,47 +6415,35 @@ internal class Shared<T> // TypeDefIndex: 851
 }
 
 internal class ConstructionCallDictionary : MessageDictionary // TypeDefIndex: 1233
-{	// Fields
-	public static string[] InternalKeys; // 0x13DC0
+{	public static string[] InternalKeys; // 0x13DC0
 
-	// Methods
 
-	// RVA: 0x1472430 Offset: 0x1470A30 VA: 0x181472430
 	public void .ctor(IConstructionCallMessage message) { }
 
-	// RVA: 0x1471A50 Offset: 0x1470050 VA: 0x181471A50 Slot: 19
 	protected override object GetMethodProperty(string key) { }
 
-	// RVA: 0x1471DC0 Offset: 0x14703C0 VA: 0x181471DC0 Slot: 20
 	protected override void SetMethodProperty(string key, object value) { }
 
-	// RVA: 0x1471F80 Offset: 0x1470580 VA: 0x181471F80
 	private static void .cctor() { }
 
 }
 
 internal class MCMDictionary : MessageDictionary // TypeDefIndex: 1247
-{	// Fields
-	public static string[] InternalKeys; // 0x2B10368
+{	public static string[] InternalKeys; // 0x2B10368
 
-	// Methods
 
-	// RVA: 0x147B060 Offset: 0x1479660 VA: 0x18147B060
 	public void .ctor(IMethodMessage message) { }
 
-	// RVA: 0x147ADA0 Offset: 0x14793A0 VA: 0x18147ADA0
 	private static void .cctor() { }
 
 }
 
 internal class MessageDictionary : IDictionary, ICollection, IEnumerable // TypeDefIndex: 1248
-{	// Fields
-	private IDictionary _internalProperties; // 0x10
+{	private IDictionary _internalProperties; // 0x10
 	protected IMethodMessage _message; // 0x18
 	private string[] _methodKeys; // 0x20
 	private bool _ownProperties; // 0x28
 
-	// Properties
 	internal IDictionary InternalDictionary { get; }
 	public string[] MethodKeys { set; }
 	public bool IsReadOnly { get; }
@@ -6661,134 +6453,95 @@ internal class MessageDictionary : IDictionary, ICollection, IEnumerable // Type
 	public int Count { get; }
 	public object SyncRoot { get; }
 
-	// Methods
 
-	// RVA: 0x10B6570 Offset: 0x10B4B70 VA: 0x1810B6570
 	public void .ctor(IMethodMessage message) { }
 
-	// RVA: 0x147B930 Offset: 0x1479F30 VA: 0x18147B930
 	internal bool HasUserData() { }
 
-	// RVA: 0x147BEA0 Offset: 0x147A4A0 VA: 0x18147BEA0
 	internal IDictionary get_InternalDictionary() { }
 
-	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_MethodKeys(string[] value) { }
 
-	// RVA: 0x147B250 Offset: 0x1479850 VA: 0x18147B250 Slot: 18
 	protected virtual IDictionary AllocInternalProperties() { }
 
-	// RVA: 0x147B5A0 Offset: 0x1479BA0 VA: 0x18147B5A0
 	public IDictionary GetInternalProperties() { }
 
-	// RVA: 0x147BA50 Offset: 0x147A050 VA: 0x18147BA50
 	private bool IsOverridenKey(string key) { }
 
-	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 11
 	public bool get_IsReadOnly() { }
 
-	// RVA: 0x147BFA0 Offset: 0x147A5A0 VA: 0x18147BFA0 Slot: 4
 	public object get_Item(object key) { }
 
-	// RVA: 0x147B0F0 Offset: 0x14796F0 VA: 0x18147B0F0 Slot: 5
 	public void set_Item(object key, object value) { }
 
-	// RVA: 0x147B5E0 Offset: 0x1479BE0 VA: 0x18147B5E0 Slot: 19
 	protected virtual object GetMethodProperty(string key) { }
 
-	// RVA: 0x147BC00 Offset: 0x147A200 VA: 0x18147BC00 Slot: 20
 	protected virtual void SetMethodProperty(string key, object value) { }
 
-	// RVA: 0x147C0C0 Offset: 0x147A6C0 VA: 0x18147C0C0 Slot: 6
 	public ICollection get_Keys() { }
 
-	// RVA: 0x147C420 Offset: 0x147AA20 VA: 0x18147C420 Slot: 7
 	public ICollection get_Values() { }
 
-	// RVA: 0x147B0F0 Offset: 0x14796F0 VA: 0x18147B0F0 Slot: 9
 	public void Add(object key, object value) { }
 
-	// RVA: 0x147B2A0 Offset: 0x14798A0 VA: 0x18147B2A0 Slot: 10
 	public void Clear() { }
 
-	// RVA: 0x147B2F0 Offset: 0x14798F0 VA: 0x18147B2F0 Slot: 8
 	public bool Contains(object key) { }
 
-	// RVA: 0x147BAE0 Offset: 0x147A0E0 VA: 0x18147BAE0 Slot: 13
 	public void Remove(object key) { }
 
-	// RVA: 0x147BE30 Offset: 0x147A430 VA: 0x18147BE30 Slot: 15
 	public int get_Count() { }
 
-	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80 Slot: 16
 	public object get_SyncRoot() { }
 
-	// RVA: 0x147B470 Offset: 0x1479A70 VA: 0x18147B470 Slot: 14
 	public void CopyTo(Array array, int index) { }
 
-	// RVA: 0x147BDD0 Offset: 0x147A3D0 VA: 0x18147BDD0 Slot: 17
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x147B540 Offset: 0x1479B40 VA: 0x18147B540 Slot: 12
 	public IDictionaryEnumerator GetEnumerator() { }
 
 }
 
 private class MessageDictionary.DictionaryEnumerator : IDictionaryEnumerator, IEnumerator // TypeDefIndex: 1249
-{	// Fields
-	private MessageDictionary _methodDictionary; // 0x10
+{	private MessageDictionary _methodDictionary; // 0x10
 	private IDictionaryEnumerator _hashtableEnum; // 0x18
 	private int _posMethod; // 0x20
 
-	// Properties
 	public object Current { get; }
 	public DictionaryEntry Entry { get; }
 	public object Key { get; }
 	public object Value { get; }
 
-	// Methods
 
-	// RVA: 0x1475DD0 Offset: 0x14743D0 VA: 0x181475DD0
 	public void .ctor(MessageDictionary methodDictionary) { }
 
-	// RVA: 0x1475E70 Offset: 0x1474470 VA: 0x181475E70 Slot: 8
 	public object get_Current() { }
 
-	// RVA: 0x1475C70 Offset: 0x1474270 VA: 0x181475C70 Slot: 7
 	public bool MoveNext() { }
 
-	// RVA: 0x1475D80 Offset: 0x1474380 VA: 0x181475D80 Slot: 9
 	public void Reset() { }
 
-	// RVA: 0x1475ED0 Offset: 0x14744D0 VA: 0x181475ED0 Slot: 6
 	public DictionaryEntry get_Entry() { }
 
-	// RVA: 0x1476040 Offset: 0x1474640 VA: 0x181476040 Slot: 4
 	public object get_Key() { }
 
-	// RVA: 0x1476060 Offset: 0x1474660 VA: 0x181476060 Slot: 5
 	public object get_Value() { }
 
 }
 
 internal class MethodReturnDictionary : MessageDictionary // TypeDefIndex: 1251
-{	// Fields
-	public static string[] InternalReturnKeys; // 0x0
+{	public static string[] InternalReturnKeys; // 0x0
 	public static string[] InternalExceptionKeys; // 0x8
 
-	// Methods
 
-	// RVA: 0x147FA30 Offset: 0x147E030 VA: 0x18147FA30
 	public void .ctor(IMethodReturnMessage message) { }
 
-	// RVA: 0x147F670 Offset: 0x147DC70 VA: 0x18147F670
 	private static void .cctor() { }
 
 }
 
 public sealed class ConditionalWeakTable<TKey, TValue> // TypeDefIndex: 1315
-{	// Fields
-	private const int INITIAL_SIZE = 13;
+{	private const int INITIAL_SIZE = 13;
 	private const float LOAD_FACTOR = 0,7;
 	private const float COMPACT_FACTOR = 0,5;
 	private const float EXPAND_FACTOR = 1,1;
@@ -6796,9 +6549,7 @@ public sealed class ConditionalWeakTable<TKey, TValue> // TypeDefIndex: 1315
 	private object _lock; // 0x0
 	private int size; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -6810,7 +6561,6 @@ public sealed class ConditionalWeakTable<TKey, TValue> // TypeDefIndex: 1315
 	|-ConditionalWeakTable<TaskScheduler, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 1
 	protected override void Finalize() { }
 	/* GenericInstMethod :
 	|
@@ -6818,7 +6568,6 @@ public sealed class ConditionalWeakTable<TKey, TValue> // TypeDefIndex: 1315
 	|-ConditionalWeakTable<object, object>.Finalize
 	*/
 
-	// RVA: -1 Offset: -1
 	private void RehashWithoutResize() { }
 	/* GenericInstMethod :
 	|
@@ -6826,7 +6575,6 @@ public sealed class ConditionalWeakTable<TKey, TValue> // TypeDefIndex: 1315
 	|-ConditionalWeakTable<object, object>.RehashWithoutResize
 	*/
 
-	// RVA: -1 Offset: -1
 	private void RecomputeSize() { }
 	/* GenericInstMethod :
 	|
@@ -6834,7 +6582,6 @@ public sealed class ConditionalWeakTable<TKey, TValue> // TypeDefIndex: 1315
 	|-ConditionalWeakTable<object, object>.RecomputeSize
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Rehash() { }
 	/* GenericInstMethod :
 	|
@@ -6842,7 +6589,6 @@ public sealed class ConditionalWeakTable<TKey, TValue> // TypeDefIndex: 1315
 	|-ConditionalWeakTable<object, object>.Rehash
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -6852,7 +6598,6 @@ public sealed class ConditionalWeakTable<TKey, TValue> // TypeDefIndex: 1315
 	|-ConditionalWeakTable<TaskScheduler, object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool Remove(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -6861,7 +6606,6 @@ public sealed class ConditionalWeakTable<TKey, TValue> // TypeDefIndex: 1315
 	|-ConditionalWeakTable<object, SerializationInfo>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TryGetValue(TKey key, out TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -6871,7 +6615,6 @@ public sealed class ConditionalWeakTable<TKey, TValue> // TypeDefIndex: 1315
 	|-ConditionalWeakTable<object, SerializationInfo>.TryGetValue
 	*/
 
-	// RVA: -1 Offset: -1
 	public TValue GetValue(TKey key, ConditionalWeakTable.CreateValueCallback<TKey, TValue> createValueCallback) { }
 	/* GenericInstMethod :
 	|
@@ -6885,226 +6628,177 @@ public sealed class ConditionalWeakTable<TKey, TValue> // TypeDefIndex: 1315
 
 public struct DictionaryEntry // TypeDefIndex: 1373
 {
-// Namespace: System.Runtime.InteropServices
 [ComVisibleAttribute] // RVA: 0xE14A0 Offset: 0xE08A0 VA: 0x1800E14A0
 [CLSCompliantAttribute] // RVA: 0xE14A0 Offset: 0xE08A0 VA: 0x1800E14A0
 [GuidAttribute] // RVA: 0xE14A0 Offset: 0xE08A0 VA: 0x1800E14A0
 [InterfaceTypeAttribute] // RVA: 0xE14A0 Offset: 0xE08A0 VA: 0x1800E14A0
 public interface _Assembly // TypeDefIndex: 1359
 
-// Namespace: System.Runtime.InteropServices
 [InterfaceTypeAttribute] // RVA: 0xE16A0 Offset: 0xE0AA0 VA: 0x1800E16A0
 [CLSCompliantAttribute] // RVA: 0xE16A0 Offset: 0xE0AA0 VA: 0x1800E16A0
 [GuidAttribute] // RVA: 0xE16A0 Offset: 0xE0AA0 VA: 0x1800E16A0
 [ComVisibleAttribute] // RVA: 0xE16A0 Offset: 0xE0AA0 VA: 0x1800E16A0
 public interface _AssemblyName // TypeDefIndex: 1360
 
-// Namespace: System.Runtime.InteropServices
 [CLSCompliantAttribute] // RVA: 0xE1890 Offset: 0xE0C90 VA: 0x1800E1890
 [InterfaceTypeAttribute] // RVA: 0xE1890 Offset: 0xE0C90 VA: 0x1800E1890
 [ComVisibleAttribute] // RVA: 0xE1890 Offset: 0xE0C90 VA: 0x1800E1890
 [GuidAttribute] // RVA: 0xE1890 Offset: 0xE0C90 VA: 0x1800E1890
 public interface _ConstructorInfo // TypeDefIndex: 1361
 
-// Namespace: System.Runtime.InteropServices
 [ComVisibleAttribute] // RVA: 0xE1AC0 Offset: 0xE0EC0 VA: 0x1800E1AC0
 [InterfaceTypeAttribute] // RVA: 0xE1AC0 Offset: 0xE0EC0 VA: 0x1800E1AC0
 [GuidAttribute] // RVA: 0xE1AC0 Offset: 0xE0EC0 VA: 0x1800E1AC0
 [CLSCompliantAttribute] // RVA: 0xE1AC0 Offset: 0xE0EC0 VA: 0x1800E1AC0
 public interface _EventInfo // TypeDefIndex: 1362
 
-// Namespace: System.Runtime.InteropServices
 [GuidAttribute] // RVA: 0xE4260 Offset: 0xE3660 VA: 0x1800E4260
 [ComVisibleAttribute] // RVA: 0xE4260 Offset: 0xE3660 VA: 0x1800E4260
 [CLSCompliantAttribute] // RVA: 0xE4260 Offset: 0xE3660 VA: 0x1800E4260
 [InterfaceTypeAttribute] // RVA: 0xE4260 Offset: 0xE3660 VA: 0x1800E4260
 public interface _Exception // TypeDefIndex: 1363
 
-// Namespace: System.Runtime.InteropServices
 [ComVisibleAttribute] // RVA: 0xE47F0 Offset: 0xE3BF0 VA: 0x1800E47F0
 [GuidAttribute] // RVA: 0xE47F0 Offset: 0xE3BF0 VA: 0x1800E47F0
 [CLSCompliantAttribute] // RVA: 0xE47F0 Offset: 0xE3BF0 VA: 0x1800E47F0
 [InterfaceTypeAttribute] // RVA: 0xE47F0 Offset: 0xE3BF0 VA: 0x1800E47F0
 public interface _FieldInfo // TypeDefIndex: 1364
 
-// Namespace: System.Runtime.InteropServices
 [ComVisibleAttribute] // RVA: 0xE4930 Offset: 0xE3D30 VA: 0x1800E4930
 [GuidAttribute] // RVA: 0xE4930 Offset: 0xE3D30 VA: 0x1800E4930
 [InterfaceTypeAttribute] // RVA: 0xE4930 Offset: 0xE3D30 VA: 0x1800E4930
 [CLSCompliantAttribute] // RVA: 0xE4930 Offset: 0xE3D30 VA: 0x1800E4930
 public interface _MemberInfo // TypeDefIndex: 1365
 
-// Namespace: System.Runtime.InteropServices
 [CLSCompliantAttribute] // RVA: 0xE5DA0 Offset: 0xE51A0 VA: 0x1800E5DA0
 [GuidAttribute] // RVA: 0xE5DA0 Offset: 0xE51A0 VA: 0x1800E5DA0
 [InterfaceTypeAttribute] // RVA: 0xE5DA0 Offset: 0xE51A0 VA: 0x1800E5DA0
 [ComVisibleAttribute] // RVA: 0xE5DA0 Offset: 0xE51A0 VA: 0x1800E5DA0
 public interface _MethodBase // TypeDefIndex: 1366
 
-// Namespace: System.Runtime.InteropServices
 [CLSCompliantAttribute] // RVA: 0xE5FA0 Offset: 0xE53A0 VA: 0x1800E5FA0
 [ComVisibleAttribute] // RVA: 0xE5FA0 Offset: 0xE53A0 VA: 0x1800E5FA0
 [GuidAttribute] // RVA: 0xE5FA0 Offset: 0xE53A0 VA: 0x1800E5FA0
 [InterfaceTypeAttribute] // RVA: 0xE5FA0 Offset: 0xE53A0 VA: 0x1800E5FA0
 public interface _MethodInfo // TypeDefIndex: 1367
 
-// Namespace: System.Runtime.InteropServices
 [ComVisibleAttribute] // RVA: 0xE62F0 Offset: 0xE56F0 VA: 0x1800E62F0
 [CLSCompliantAttribute] // RVA: 0xE62F0 Offset: 0xE56F0 VA: 0x1800E62F0
 [GuidAttribute] // RVA: 0xE62F0 Offset: 0xE56F0 VA: 0x1800E62F0
 [InterfaceTypeAttribute] // RVA: 0xE62F0 Offset: 0xE56F0 VA: 0x1800E62F0
 public interface _Module // TypeDefIndex: 1368
 
-// Namespace: System.Runtime.InteropServices
 [GuidAttribute] // RVA: 0xE63A0 Offset: 0xE57A0 VA: 0x1800E63A0
 [InterfaceTypeAttribute] // RVA: 0xE63A0 Offset: 0xE57A0 VA: 0x1800E63A0
 [ComVisibleAttribute] // RVA: 0xE63A0 Offset: 0xE57A0 VA: 0x1800E63A0
 [CLSCompliantAttribute] // RVA: 0xE63A0 Offset: 0xE57A0 VA: 0x1800E63A0
 public interface _ParameterInfo // TypeDefIndex: 1369
 
-// Namespace: System.Runtime.InteropServices
 [CLSCompliantAttribute] // RVA: 0xE6560 Offset: 0xE5960 VA: 0x1800E6560
 [ComVisibleAttribute] // RVA: 0xE6560 Offset: 0xE5960 VA: 0x1800E6560
 [InterfaceTypeAttribute] // RVA: 0xE6560 Offset: 0xE5960 VA: 0x1800E6560
 [GuidAttribute] // RVA: 0xE6560 Offset: 0xE5960 VA: 0x1800E6560
 public interface _PropertyInfo // TypeDefIndex: 1370
 
-// Namespace: System.Runtime.InteropServices
 [CLSCompliantAttribute] // RVA: 0xE67C0 Offset: 0xE5BC0 VA: 0x1800E67C0
 [InterfaceTypeAttribute] // RVA: 0xE67C0 Offset: 0xE5BC0 VA: 0x1800E67C0
 [GuidAttribute] // RVA: 0xE67C0 Offset: 0xE5BC0 VA: 0x1800E67C0
 [ComVisibleAttribute] // RVA: 0xE67C0 Offset: 0xE5BC0 VA: 0x1800E67C0
 public interface _Thread // TypeDefIndex: 1371
 
-// Namespace: System.Runtime.InteropServices
 [ComVisibleAttribute] // RVA: 0xE6AE0 Offset: 0xE5EE0 VA: 0x1800E6AE0
 [CLSCompliantAttribute] // RVA: 0xE6AE0 Offset: 0xE5EE0 VA: 0x1800E6AE0
 [GuidAttribute] // RVA: 0xE6AE0 Offset: 0xE5EE0 VA: 0x1800E6AE0
 [InterfaceTypeAttribute] // RVA: 0xE6AE0 Offset: 0xE5EE0 VA: 0x1800E6AE0
 public interface _Type // TypeDefIndex: 1372
 
-// Namespace: System.Collections
 [Serializable]
 public struct DictionaryEntry // TypeDefIndex: 1373
-	// Fields
 	private object _key; // 0x0
 	private object _value; // 0x8
 
-	// Properties
 	public object Key { get; }
 	public object Value { get; }
 
-	// Methods
 
-	// RVA: 0xF5DB0 Offset: 0xF51B0 VA: 0x1800F5DB0
 	public void .ctor(object key, object value) { }
 
-	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	public object get_Key() { }
 
-	// RVA: 0xF3EC0 Offset: 0xF32C0 VA: 0x1800F3EC0
 	public object get_Value() { }
 
 }
 
 internal sealed class EmptyReadOnlyDictionaryInternal : IDictionary, ICollection, IEnumerable // TypeDefIndex: 1387
-{	// Properties
-	public int Count { get; }
+{	public int Count { get; }
 	public object SyncRoot { get; }
 	public object Item { get; set; }
 	public ICollection Keys { get; }
 	public ICollection Values { get; }
 	public bool IsReadOnly { get; }
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x145E780 Offset: 0x145CD80 VA: 0x18145E780 Slot: 17
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x145E560 Offset: 0x145CB60 VA: 0x18145E560 Slot: 14
 	public void CopyTo(Array array, int index) { }
 
-	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 15
 	public int get_Count() { }
 
-	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80 Slot: 16
 	public object get_SyncRoot() { }
 
-	// RVA: 0x145E7D0 Offset: 0x145CDD0 VA: 0x18145E7D0 Slot: 4
 	public object get_Item(object key) { }
 
-	// RVA: 0x145E910 Offset: 0x145CF10 VA: 0x18145E910 Slot: 5
 	public void set_Item(object key, object value) { }
 
-	// RVA: 0x145E850 Offset: 0x145CE50 VA: 0x18145E850 Slot: 6
 	public ICollection get_Keys() { }
 
-	// RVA: 0x145E8B0 Offset: 0x145CEB0 VA: 0x18145E8B0 Slot: 7
 	public ICollection get_Values() { }
 
-	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 8
 	public bool Contains(object key) { }
 
-	// RVA: 0x145E340 Offset: 0x145C940 VA: 0x18145E340 Slot: 9
 	public void Add(object key, object value) { }
 
-	// RVA: 0x145E4F0 Offset: 0x145CAF0 VA: 0x18145E4F0 Slot: 10
 	public void Clear() { }
 
-	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 11
 	public bool get_IsReadOnly() { }
 
-	// RVA: 0x145E6C0 Offset: 0x145CCC0 VA: 0x18145E6C0 Slot: 12
 	public IDictionaryEnumerator GetEnumerator() { }
 
-	// RVA: 0x145E710 Offset: 0x145CD10 VA: 0x18145E710 Slot: 13
 	public void Remove(object key) { }
 
 }
 
 private sealed class EmptyReadOnlyDictionaryInternal.NodeEnumerator : IDictionaryEnumerator, IEnumerator // TypeDefIndex: 1388
-{	// Properties
-	public object Current { get; }
+{	public object Current { get; }
 	public object Key { get; }
 	public object Value { get; }
 	public DictionaryEntry Entry { get; }
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 7
 	public bool MoveNext() { }
 
-	// RVA: 0x1465690 Offset: 0x1463C90 VA: 0x181465690 Slot: 8
 	public object get_Current() { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 9
 	public void Reset() { }
 
-	// RVA: 0x14658A0 Offset: 0x1463EA0 VA: 0x1814658A0 Slot: 4
 	public object get_Key() { }
 
-	// RVA: 0x1465990 Offset: 0x1463F90 VA: 0x181465990 Slot: 5
 	public object get_Value() { }
 
-	// RVA: 0x14657B0 Offset: 0x1463DB0 VA: 0x1814657B0 Slot: 6
 	public DictionaryEntry get_Entry() { }
 
 }
 
 internal class ListDictionaryInternal : IDictionary, ICollection, IEnumerable // TypeDefIndex: 1408
-{	// Fields
-	private ListDictionaryInternal.DictionaryNode head; // 0x10
+{	private ListDictionaryInternal.DictionaryNode head; // 0x10
 	private int version; // 0x18
 	private int count; // 0x1C
 	private object _syncRoot; // 0x20
 
-	// Properties
 	public object Item { get; set; }
 	public int Count { get; }
 	public ICollection Keys { get; }
@@ -7112,175 +6806,128 @@ internal class ListDictionaryInternal : IDictionary, ICollection, IEnumerable //
 	public object SyncRoot { get; }
 	public ICollection Values { get; }
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1464DF0 Offset: 0x14633F0 VA: 0x181464DF0 Slot: 4
 	public object get_Item(object key) { }
 
-	// RVA: 0x1465020 Offset: 0x1463620 VA: 0x181465020 Slot: 5
 	public void set_Item(object key, object value) { }
 
-	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0 Slot: 15
 	public int get_Count() { }
 
-	// RVA: 0x1464ED0 Offset: 0x14634D0 VA: 0x181464ED0 Slot: 6
 	public ICollection get_Keys() { }
 
-	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 11
 	public bool get_IsReadOnly() { }
 
-	// RVA: 0x1464F40 Offset: 0x1463540 VA: 0x181464F40 Slot: 16
 	public object get_SyncRoot() { }
 
-	// RVA: 0x1464FB0 Offset: 0x14635B0 VA: 0x181464FB0 Slot: 7
 	public ICollection get_Values() { }
 
-	// RVA: 0x14645C0 Offset: 0x1462BC0 VA: 0x1814645C0 Slot: 9
 	public void Add(object key, object value) { }
 
-	// RVA: 0x14648B0 Offset: 0x1462EB0 VA: 0x1814648B0 Slot: 10
 	public void Clear() { }
 
-	// RVA: 0x14648E0 Offset: 0x1462EE0 VA: 0x1814648E0 Slot: 8
 	public bool Contains(object key) { }
 
-	// RVA: 0x14649B0 Offset: 0x1462FB0 VA: 0x1814649B0 Slot: 14
 	public void CopyTo(Array array, int index) { }
 
-	// RVA: 0x1464BB0 Offset: 0x14631B0 VA: 0x181464BB0 Slot: 12
 	public IDictionaryEnumerator GetEnumerator() { }
 
-	// RVA: 0x1464D60 Offset: 0x1463360 VA: 0x181464D60 Slot: 17
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x1464C40 Offset: 0x1463240 VA: 0x181464C40 Slot: 13
 	public void Remove(object key) { }
 
 }
 
 private class ListDictionaryInternal.NodeEnumerator : IDictionaryEnumerator, IEnumerator // TypeDefIndex: 1409
-{	// Fields
-	private ListDictionaryInternal list; // 0x10
+{	private ListDictionaryInternal list; // 0x10
 	private ListDictionaryInternal.DictionaryNode current; // 0x18
 	private int version; // 0x20
 	private bool start; // 0x24
 
-	// Properties
 	public object Current { get; }
 	public DictionaryEntry Entry { get; }
 	public object Key { get; }
 	public object Value { get; }
 
-	// Methods
 
-	// RVA: 0x1465540 Offset: 0x1463B40 VA: 0x181465540
 	public void .ctor(ListDictionaryInternal list) { }
 
-	// RVA: 0x14655A0 Offset: 0x1463BA0 VA: 0x1814655A0 Slot: 8
 	public object get_Current() { }
 
-	// RVA: 0x1465700 Offset: 0x1463D00 VA: 0x181465700 Slot: 6
 	public DictionaryEntry get_Entry() { }
 
-	// RVA: 0x1465820 Offset: 0x1463E20 VA: 0x181465820 Slot: 4
 	public object get_Key() { }
 
-	// RVA: 0x1465910 Offset: 0x1463F10 VA: 0x181465910 Slot: 5
 	public object get_Value() { }
 
-	// RVA: 0x14653D0 Offset: 0x14639D0 VA: 0x1814653D0 Slot: 7
 	public bool MoveNext() { }
 
-	// RVA: 0x14654A0 Offset: 0x1463AA0 VA: 0x1814654A0 Slot: 9
 	public void Reset() { }
 
 }
 
 private class ListDictionaryInternal.NodeKeyValueCollection : ICollection, IEnumerable // TypeDefIndex: 1410
-{	// Fields
-	private ListDictionaryInternal list; // 0x10
+{	private ListDictionaryInternal list; // 0x10
 	private bool isKeys; // 0x18
 
-	// Properties
 	private int System.Collections.ICollection.Count { get; }
 	private object System.Collections.ICollection.SyncRoot { get; }
 
-	// Methods
 
-	// RVA: 0x1465D40 Offset: 0x1464340 VA: 0x181465D40
 	public void .ctor(ListDictionaryInternal list, bool isKeys) { }
 
-	// RVA: 0x1465A00 Offset: 0x1464000 VA: 0x181465A00 Slot: 4
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 
-	// RVA: 0x1465BE0 Offset: 0x14641E0 VA: 0x181465BE0 Slot: 5
 	private int System.Collections.ICollection.get_Count() { }
 
-	// RVA: 0x1465C20 Offset: 0x1464220 VA: 0x181465C20 Slot: 6
 	private object System.Collections.ICollection.get_SyncRoot() { }
 
-	// RVA: 0x1465CA0 Offset: 0x14642A0 VA: 0x181465CA0 Slot: 7
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
 
 private class ListDictionaryInternal.NodeKeyValueCollection.NodeKeyValueEnumerator : IEnumerator // TypeDefIndex: 1411
-{	// Fields
-	private ListDictionaryInternal list; // 0x10
+{	private ListDictionaryInternal list; // 0x10
 	private ListDictionaryInternal.DictionaryNode current; // 0x18
 	private int version; // 0x20
 	private bool isKeys; // 0x24
 	private bool start; // 0x25
 
-	// Properties
 	public object Current { get; }
 
-	// Methods
 
-	// RVA: 0x1465F00 Offset: 0x1464500 VA: 0x181465F00
 	public void .ctor(ListDictionaryInternal list, bool isKeys) { }
 
-	// RVA: 0x1465F70 Offset: 0x1464570 VA: 0x181465F70 Slot: 5
 	public object get_Current() { }
 
-	// RVA: 0x1465D90 Offset: 0x1464390 VA: 0x181465D90 Slot: 4
 	public bool MoveNext() { }
 
-	// RVA: 0x1465E60 Offset: 0x1464460 VA: 0x181465E60 Slot: 6
 	public void Reset() { }
 
 }
 
 private class ListDictionaryInternal.DictionaryNode // TypeDefIndex: 1412
-{	// Fields
-	public object key; // 0x10
+{	public object key; // 0x10
 	public object value; // 0x18
 	public ListDictionaryInternal.DictionaryNode next; // 0x20
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
 }
 
 public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IList, ICollection, IReadOnlyList<T>, IReadOnlyCollection<T> // TypeDefIndex: 1426
 {
-// Namespace: System.Collections.ObjectModel
 [DefaultMemberAttribute] // RVA: 0xEA330 Offset: 0xE9730 VA: 0x1800EA330
 [DebuggerTypeProxyAttribute] // RVA: 0xEA330 Offset: 0xE9730 VA: 0x1800EA330
 [ComVisibleAttribute] // RVA: 0xEA330 Offset: 0xE9730 VA: 0x1800EA330
 [DebuggerDisplayAttribute] // RVA: 0xEA330 Offset: 0xE9730 VA: 0x1800EA330
 [Serializable]
 public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IList, ICollection, IReadOnlyList<T>, IReadOnlyCollection<T> // TypeDefIndex: 1426
-	// Fields
 	private IList<T> items; // 0x0
 	private object _syncRoot; // 0x0
 
-	// Properties
 	public int Count { get; }
 	protected IList<T> Items { get; }
 	public T Item { get; set; }
@@ -7290,9 +6937,7 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	private bool System.Collections.IList.IsReadOnly { get; }
 	private bool System.Collections.IList.IsFixedSize { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -7302,7 +6947,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IList<T> list) { }
 	/* GenericInstMethod :
 	|
@@ -7311,7 +6955,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 33
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -7323,7 +6966,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1
 	protected IList<T> get_Items() { }
 	/* GenericInstMethod :
 	|
@@ -7333,7 +6975,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.get_Items
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 32
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -7345,7 +6986,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -7356,7 +6996,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
@@ -7367,7 +7006,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 22
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -7378,7 +7016,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public void CopyTo(T[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -7389,7 +7026,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public bool Contains(T item) { }
 	/* GenericInstMethod :
 	|
@@ -7400,7 +7036,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	public IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -7411,7 +7046,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public int IndexOf(T item) { }
 	/* GenericInstMethod :
 	|
@@ -7422,7 +7056,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public void Insert(int index, T item) { }
 	/* GenericInstMethod :
 	|
@@ -7433,7 +7066,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.Insert
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 15
 	public bool Remove(T item) { }
 	/* GenericInstMethod :
 	|
@@ -7444,7 +7076,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 28
 	public void RemoveAt(int index) { }
 	/* GenericInstMethod :
 	|
@@ -7455,7 +7086,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.RemoveAt
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 34
 	protected virtual void ClearItems() { }
 	/* GenericInstMethod :
 	|
@@ -7465,7 +7095,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.ClearItems
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 35
 	protected virtual void InsertItem(int index, T item) { }
 	/* GenericInstMethod :
 	|
@@ -7475,7 +7104,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.InsertItem
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 36
 	protected virtual void RemoveItem(int index) { }
 	/* GenericInstMethod :
 	|
@@ -7485,7 +7113,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.RemoveItem
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 37
 	protected virtual void SetItem(int index, T item) { }
 	/* GenericInstMethod :
 	|
@@ -7495,7 +7122,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.SetItem
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	private bool System.Collections.Generic.ICollection<T>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -7506,7 +7132,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 17
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -7517,7 +7142,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 31
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -7528,7 +7152,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.System.Collections.ICollection.get_SyncRoot
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 29
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -7539,7 +7162,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 18
 	private object System.Collections.IList.get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -7550,7 +7172,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.System.Collections.IList.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 19
 	private void System.Collections.IList.set_Item(int index, object value) { }
 	/* GenericInstMethod :
 	|
@@ -7561,7 +7182,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.System.Collections.IList.set_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 23
 	private bool System.Collections.IList.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -7572,7 +7192,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.System.Collections.IList.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 24
 	private bool System.Collections.IList.get_IsFixedSize() { }
 	/* GenericInstMethod :
 	|
@@ -7583,7 +7202,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.System.Collections.IList.get_IsFixedSize
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 20
 	private int System.Collections.IList.Add(object value) { }
 	/* GenericInstMethod :
 	|
@@ -7594,7 +7212,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.System.Collections.IList.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 21
 	private bool System.Collections.IList.Contains(object value) { }
 	/* GenericInstMethod :
 	|
@@ -7605,7 +7222,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.System.Collections.IList.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 25
 	private int System.Collections.IList.IndexOf(object value) { }
 	/* GenericInstMethod :
 	|
@@ -7616,7 +7232,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.System.Collections.IList.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 26
 	private void System.Collections.IList.Insert(int index, object value) { }
 	/* GenericInstMethod :
 	|
@@ -7627,7 +7242,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.System.Collections.IList.Insert
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 27
 	private void System.Collections.IList.Remove(object value) { }
 	/* GenericInstMethod :
 	|
@@ -7638,7 +7252,6 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 	|-Collection<object>.System.Collections.IList.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	private static bool IsCompatibleObject(object value) { }
 	/* GenericInstMethod :
 	|
@@ -7649,19 +7262,15 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 }
 
 public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDefIndex: 1427
-{	// Fields
-	private IEqualityComparer<TKey> comparer; // 0x0
+{	private IEqualityComparer<TKey> comparer; // 0x0
 	private Dictionary<TKey, TItem> dict; // 0x0
 	private int keyCount; // 0x0
 	private int threshold; // 0x0
 
-	// Properties
 	public TItem Item { get; }
 	protected IDictionary<TKey, TItem> Dictionary { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -7669,7 +7278,6 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 	|-KeyedCollection<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor(IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -7678,7 +7286,6 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 	|-KeyedCollection<string, JsonProperty>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor(IEqualityComparer<TKey> comparer, int dictionaryCreationThreshold) { }
 	/* GenericInstMethod :
 	|
@@ -7686,7 +7293,6 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 	|-KeyedCollection<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public TItem get_Item(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -7695,7 +7301,6 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 	|-KeyedCollection<object, object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool Contains(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -7704,7 +7309,6 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 	|-KeyedCollection<string, JsonProperty>.Contains
 	*/
 
-	// RVA: -1 Offset: -1
 	protected IDictionary<TKey, TItem> get_Dictionary() { }
 	/* GenericInstMethod :
 	|
@@ -7713,7 +7317,6 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 	|-KeyedCollection<object, object>.get_Dictionary
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 34
 	protected override void ClearItems() { }
 	/* GenericInstMethod :
 	|
@@ -7722,7 +7325,6 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 	|-KeyedCollection<string, JsonProperty>.ClearItems
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 38
 	protected abstract TKey GetKeyForItem(TItem item);
 	/* GenericInstMethod :
 	|
@@ -7730,7 +7332,6 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 	|-KeyedCollection<object, object>.GetKeyForItem
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 35
 	protected override void InsertItem(int index, TItem item) { }
 	/* GenericInstMethod :
 	|
@@ -7739,7 +7340,6 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 	|-KeyedCollection<string, JsonProperty>.InsertItem
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 36
 	protected override void RemoveItem(int index) { }
 	/* GenericInstMethod :
 	|
@@ -7748,7 +7348,6 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 	|-KeyedCollection<string, JsonProperty>.RemoveItem
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 37
 	protected override void SetItem(int index, TItem item) { }
 	/* GenericInstMethod :
 	|
@@ -7757,7 +7356,6 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 	|-KeyedCollection<string, JsonProperty>.SetItem
 	*/
 
-	// RVA: -1 Offset: -1
 	private void AddKey(TKey key, TItem item) { }
 	/* GenericInstMethod :
 	|
@@ -7765,7 +7363,6 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 	|-KeyedCollection<object, object>.AddKey
 	*/
 
-	// RVA: -1 Offset: -1
 	private void CreateDictionary() { }
 	/* GenericInstMethod :
 	|
@@ -7773,7 +7370,6 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 	|-KeyedCollection<object, object>.CreateDictionary
 	*/
 
-	// RVA: -1 Offset: -1
 	private void RemoveKey(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -7784,11 +7380,9 @@ public abstract class KeyedCollection<TKey, TItem> : Collection<TItem> // TypeDe
 }
 
 public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IList, ICollection, IReadOnlyList<T>, IReadOnlyCollection<T> // TypeDefIndex: 1428
-{	// Fields
-	private IList<T> list; // 0x0
+{	private IList<T> list; // 0x0
 	private object _syncRoot; // 0x0
 
-	// Properties
 	public int Count { get; }
 	public T Item { get; }
 	private bool System.Collections.Generic.ICollection<T>.IsReadOnly { get; }
@@ -7798,9 +7392,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	private bool System.Collections.IList.IsReadOnly { get; }
 	private object System.Collections.IList.Item { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IList<T> list) { }
 	/* GenericInstMethod :
 	|
@@ -7975,7 +7567,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 33
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -8149,7 +7740,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 32
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -8371,7 +7961,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<UIVertex>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public bool Contains(T value) { }
 	/* GenericInstMethod :
 	|
@@ -8606,7 +8195,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<UIVertex>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public void CopyTo(T[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -8778,7 +8366,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	public IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -8952,7 +8539,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public int IndexOf(T value) { }
 	/* GenericInstMethod :
 	|
@@ -9187,7 +8773,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<UIVertex>.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	private bool System.Collections.Generic.ICollection<T>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -9358,7 +8943,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	private T System.Collections.Generic.IList<T>.get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -9577,7 +9161,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<UIVertex>.System.Collections.Generic.IList<T>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private void System.Collections.Generic.IList<T>.set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -9748,7 +9331,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.Generic.IList<T>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	private void System.Collections.Generic.ICollection<T>.Add(T value) { }
 	/* GenericInstMethod :
 	|
@@ -9919,7 +9501,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.Generic.ICollection<T>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	private void System.Collections.Generic.ICollection<T>.Clear() { }
 	/* GenericInstMethod :
 	|
@@ -10090,7 +9671,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.Generic.ICollection<T>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private void System.Collections.Generic.IList<T>.Insert(int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -10261,7 +9841,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.Generic.IList<T>.Insert
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 15
 	private bool System.Collections.Generic.ICollection<T>.Remove(T value) { }
 	/* GenericInstMethod :
 	|
@@ -10432,7 +10011,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.Generic.ICollection<T>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private void System.Collections.Generic.IList<T>.RemoveAt(int index) { }
 	/* GenericInstMethod :
 	|
@@ -10603,7 +10181,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.Generic.IList<T>.RemoveAt
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 17
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -11100,7 +10677,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 31
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -11597,7 +11173,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.ICollection.get_SyncRoot
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 29
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -12094,7 +11669,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 24
 	private bool System.Collections.IList.get_IsFixedSize() { }
 	/* GenericInstMethod :
 	|
@@ -12265,7 +11839,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IList.get_IsFixedSize
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 23
 	private bool System.Collections.IList.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -12436,7 +12009,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IList.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 18
 	private object System.Collections.IList.get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -12665,7 +12237,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<UIVertex>.System.Collections.IList.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 19
 	private void System.Collections.IList.set_Item(int index, object value) { }
 	/* GenericInstMethod :
 	|
@@ -12836,7 +12407,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IList.set_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 20
 	private int System.Collections.IList.Add(object value) { }
 	/* GenericInstMethod :
 	|
@@ -13007,7 +12577,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IList.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 22
 	private void System.Collections.IList.Clear() { }
 	/* GenericInstMethod :
 	|
@@ -13178,7 +12747,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IList.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	private static bool IsCompatibleObject(object value) { }
 	/* GenericInstMethod :
 	|
@@ -13409,7 +12977,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<UIVertex>.IsCompatibleObject
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 21
 	private bool System.Collections.IList.Contains(object value) { }
 	/* GenericInstMethod :
 	|
@@ -13640,7 +13207,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<UIVertex>.System.Collections.IList.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 25
 	private int System.Collections.IList.IndexOf(object value) { }
 	/* GenericInstMethod :
 	|
@@ -13871,7 +13437,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<UIVertex>.System.Collections.IList.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 26
 	private void System.Collections.IList.Insert(int index, object value) { }
 	/* GenericInstMethod :
 	|
@@ -14042,7 +13607,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IList.Insert
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 27
 	private void System.Collections.IList.Remove(object value) { }
 	/* GenericInstMethod :
 	|
@@ -14213,7 +13777,6 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IList.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 28
 	private void System.Collections.IList.RemoveAt(int index) { }
 	/* GenericInstMethod :
 	|
@@ -14387,14 +13950,12 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 }
 
 public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IDictionary, ICollection, IReadOnlyDictionary<TKey, TValue>, IReadOnlyCollection<KeyValuePair<TKey, TValue>> // TypeDefIndex: 1430
-{	// Fields
-	private ConcurrentDictionary.Tables<TKey, TValue> _tables; // 0x0
+{	private ConcurrentDictionary.Tables<TKey, TValue> _tables; // 0x0
 	private IEqualityComparer<TKey> _comparer; // 0x0
 	private readonly bool _growLockArray; // 0x0
 	private int _budget; // 0x0
 	private static readonly bool s_isValueWriteAtomic; // 0x0
 
-	// Properties
 	public TValue Item { get; set; }
 	public int Count { get; }
 	public bool IsEmpty { get; }
@@ -14408,9 +13969,7 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	private object System.Collections.ICollection.SyncRoot { get; }
 	private static int DefaultConcurrencyLevel { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	private static bool IsValueWriteAtomic() { }
 	/* GenericInstMethod :
 	|
@@ -14427,7 +13986,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.IsValueWriteAtomic
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -14443,7 +14001,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<Type, Tuple<bool, bool, bool, bool>>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(int concurrencyLevel, int capacity, bool growLockArray, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -14460,7 +14017,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TryAdd(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -14478,7 +14034,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.TryAdd
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public bool ContainsKey(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -14495,7 +14050,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.ContainsKey
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TryRemove(TKey key, out TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -14513,7 +14067,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.TryRemove
 	*/
 
-	// RVA: -1 Offset: -1
 	private bool TryRemoveInternal(TKey key, out TValue value, bool matchValue, TValue oldValue) { }
 	/* GenericInstMethod :
 	|
@@ -14530,7 +14083,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.TryRemoveInternal
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 34
 	public bool TryGetValue(TKey key, out TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -14548,7 +14100,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<string, object>.TryGetValue
 	*/
 
-	// RVA: -1 Offset: -1
 	private bool TryGetValueInternal(TKey key, int hashcode, out TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -14565,7 +14116,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.TryGetValueInternal
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 27
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -14582,7 +14132,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 17
 	private void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(KeyValuePair<TKey, TValue>[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -14599,7 +14148,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public KeyValuePair<TKey, TValue>[] ToArray() { }
 	/* GenericInstMethod :
 	|
@@ -14616,7 +14164,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.ToArray
 	*/
 
-	// RVA: -1 Offset: -1
 	private void CopyToPairs(KeyValuePair<TKey, TValue>[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -14633,7 +14180,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.CopyToPairs
 	*/
 
-	// RVA: -1 Offset: -1
 	private void CopyToEntries(DictionaryEntry[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -14650,7 +14196,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.CopyToEntries
 	*/
 
-	// RVA: -1 Offset: -1
 	private void CopyToObjects(object[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -14668,7 +14213,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	*/
 
 	[IteratorStateMachineAttribute] // RVA: 0xEC120 Offset: 0xEB520 VA: 0x1800EC120
-	// RVA: -1 Offset: -1 Slot: 19
 	public IEnumerator<KeyValuePair<TKey, TValue>> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -14681,7 +14225,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<Guid, object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1
 	private bool TryAddInternal(TKey key, int hashcode, TValue value, bool updateIfExists, bool acquireLock, out TValue resultingValue) { }
 	/* GenericInstMethod :
 	|
@@ -14698,7 +14241,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.TryAddInternal
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public TValue get_Item(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -14713,7 +14255,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<Guid, object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void set_Item(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -14732,7 +14273,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<string, object>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void ThrowKeyNotFoundException() { }
 	/* GenericInstMethod :
 	|
@@ -14749,7 +14289,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.ThrowKeyNotFoundException
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void ThrowKeyNullException() { }
 	/* GenericInstMethod :
 	|
@@ -14766,7 +14305,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.ThrowKeyNullException
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 35
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -14777,7 +14315,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1
 	private int GetCountInternal() { }
 	/* GenericInstMethod :
 	|
@@ -14788,7 +14325,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.GetCountInternal
 	*/
 
-	// RVA: -1 Offset: -1
 	public TValue GetOrAdd(TKey key, Func<TKey, TValue> valueFactory) { }
 	/* GenericInstMethod :
 	|
@@ -14807,7 +14343,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<Guid, object>.GetOrAdd
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsEmpty() { }
 	/* GenericInstMethod :
 	|
@@ -14818,7 +14353,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.get_IsEmpty
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	private void System.Collections.Generic.IDictionary<TKey,TValue>.Add(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -14835,7 +14369,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.Generic.IDictionary<TKey,TValue>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	private bool System.Collections.Generic.IDictionary<TKey,TValue>.Remove(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -14850,7 +14383,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<Guid, object>.System.Collections.Generic.IDictionary<TKey,TValue>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public ICollection<TKey> get_Keys() { }
 	/* GenericInstMethod :
 	|
@@ -14861,7 +14393,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.get_Keys
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public ICollection<TValue> get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -14872,7 +14403,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.get_Values
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	private void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(KeyValuePair<TKey, TValue> keyValuePair) { }
 	/* GenericInstMethod :
 	|
@@ -14889,7 +14419,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(KeyValuePair<TKey, TValue> keyValuePair) { }
 	/* GenericInstMethod :
 	|
@@ -14906,7 +14435,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -14917,7 +14445,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 18
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(KeyValuePair<TKey, TValue> keyValuePair) { }
 	/* GenericInstMethod :
 	|
@@ -14934,7 +14461,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 20
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -14945,7 +14471,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 26
 	private void System.Collections.IDictionary.Add(object key, object value) { }
 	/* GenericInstMethod :
 	|
@@ -14962,7 +14487,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.IDictionary.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 25
 	private bool System.Collections.IDictionary.Contains(object key) { }
 	/* GenericInstMethod :
 	|
@@ -14977,7 +14501,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.IDictionary.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 29
 	private IDictionaryEnumerator System.Collections.IDictionary.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -14988,7 +14511,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.IDictionary.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 28
 	private bool System.Collections.IDictionary.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -14999,7 +14521,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.IDictionary.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 23
 	private ICollection System.Collections.IDictionary.get_Keys() { }
 	/* GenericInstMethod :
 	|
@@ -15010,7 +14531,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.IDictionary.get_Keys
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 30
 	private void System.Collections.IDictionary.Remove(object key) { }
 	/* GenericInstMethod :
 	|
@@ -15027,7 +14547,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.IDictionary.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 24
 	private ICollection System.Collections.IDictionary.get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -15038,7 +14557,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.IDictionary.get_Values
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 21
 	private object System.Collections.IDictionary.get_Item(object key) { }
 	/* GenericInstMethod :
 	|
@@ -15055,7 +14573,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.IDictionary.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 22
 	private void System.Collections.IDictionary.set_Item(object key, object value) { }
 	/* GenericInstMethod :
 	|
@@ -15072,7 +14589,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.IDictionary.set_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 31
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -15089,7 +14605,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 33
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -15106,7 +14621,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.System.Collections.ICollection.get_SyncRoot
 	*/
 
-	// RVA: -1 Offset: -1
 	private void GrowTable(ConcurrentDictionary.Tables<TKey, TValue> tables) { }
 	/* GenericInstMethod :
 	|
@@ -15123,7 +14637,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.GrowTable
 	*/
 
-	// RVA: -1 Offset: -1
 	private static int GetBucket(int hashcode, int bucketCount) { }
 	/* GenericInstMethod :
 	|
@@ -15134,7 +14647,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.GetBucket
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void GetBucketAndLockNo(int hashcode, out int bucketNo, out int lockNo, int bucketCount, int lockCount) { }
 	/* GenericInstMethod :
 	|
@@ -15145,7 +14657,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.GetBucketAndLockNo
 	*/
 
-	// RVA: -1 Offset: -1
 	private static int get_DefaultConcurrencyLevel() { }
 	/* GenericInstMethod :
 	|
@@ -15156,7 +14667,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.get_DefaultConcurrencyLevel
 	*/
 
-	// RVA: -1 Offset: -1
 	private void AcquireAllLocks(ref int locksAcquired) { }
 	/* GenericInstMethod :
 	|
@@ -15173,7 +14683,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.AcquireAllLocks
 	*/
 
-	// RVA: -1 Offset: -1
 	private void AcquireLocks(int fromInclusive, int toExclusive, ref int locksAcquired) { }
 	/* GenericInstMethod :
 	|
@@ -15184,7 +14693,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.AcquireLocks
 	*/
 
-	// RVA: -1 Offset: -1
 	private void ReleaseLocks(int fromInclusive, int toExclusive) { }
 	/* GenericInstMethod :
 	|
@@ -15195,7 +14703,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.ReleaseLocks
 	*/
 
-	// RVA: -1 Offset: -1
 	private ReadOnlyCollection<TKey> GetKeys() { }
 	/* GenericInstMethod :
 	|
@@ -15212,7 +14719,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.GetKeys
 	*/
 
-	// RVA: -1 Offset: -1
 	private ReadOnlyCollection<TValue> GetValues() { }
 	/* GenericInstMethod :
 	|
@@ -15229,7 +14735,6 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.GetValues
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -15243,14 +14748,11 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 }
 
 private sealed class ConcurrentDictionary.Tables<TKey, TValue> // TypeDefIndex: 1431
-{	// Fields
-	internal readonly ConcurrentDictionary.Node<TKey, TValue>[] _buckets; // 0x0
+{	internal readonly ConcurrentDictionary.Node<TKey, TValue>[] _buckets; // 0x0
 	internal readonly object[] _locks; // 0x0
 	internal int[] _countPerLock; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(ConcurrentDictionary.Node<TKey, TValue>[] buckets, object[] locks, int[] countPerLock) { }
 	/* GenericInstMethod :
 	|
@@ -15264,15 +14766,12 @@ private sealed class ConcurrentDictionary.Tables<TKey, TValue> // TypeDefIndex: 
 }
 
 private sealed class ConcurrentDictionary.Node<TKey, TValue> // TypeDefIndex: 1432
-{	// Fields
-	internal readonly TKey _key; // 0x0
+{	internal readonly TKey _key; // 0x0
 	internal TValue _value; // 0x0
 	internal ConcurrentDictionary.Node<TKey, TValue> _next; // 0x0
 	internal readonly int _hashcode; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(TKey key, TValue value, int hashcode, ConcurrentDictionary.Node<TKey, TValue> next) { }
 	/* GenericInstMethod :
 	|
@@ -15292,18 +14791,14 @@ private sealed class ConcurrentDictionary.Node<TKey, TValue> // TypeDefIndex: 14
 }
 
 private sealed class ConcurrentDictionary.DictionaryEnumerator<TKey, TValue> : IDictionaryEnumerator, IEnumerator // TypeDefIndex: 1433
-{	// Fields
-	private IEnumerator<KeyValuePair<TKey, TValue>> _enumerator; // 0x0
+{	private IEnumerator<KeyValuePair<TKey, TValue>> _enumerator; // 0x0
 
-	// Properties
 	public DictionaryEntry Entry { get; }
 	public object Key { get; }
 	public object Value { get; }
 	public object Current { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(ConcurrentDictionary<TKey, TValue> dictionary) { }
 	/* GenericInstMethod :
 	|
@@ -15314,7 +14809,6 @@ private sealed class ConcurrentDictionary.DictionaryEnumerator<TKey, TValue> : I
 	|-ConcurrentDictionary.DictionaryEnumerator<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public DictionaryEntry get_Entry() { }
 	/* GenericInstMethod :
 	|
@@ -15331,7 +14825,6 @@ private sealed class ConcurrentDictionary.DictionaryEnumerator<TKey, TValue> : I
 	|-ConcurrentDictionary.DictionaryEnumerator<object, object>.get_Entry
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public object get_Key() { }
 	/* GenericInstMethod :
 	|
@@ -15348,7 +14841,6 @@ private sealed class ConcurrentDictionary.DictionaryEnumerator<TKey, TValue> : I
 	|-ConcurrentDictionary.DictionaryEnumerator<object, object>.get_Key
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public object get_Value() { }
 	/* GenericInstMethod :
 	|
@@ -15363,7 +14855,6 @@ private sealed class ConcurrentDictionary.DictionaryEnumerator<TKey, TValue> : I
 	|-ConcurrentDictionary.DictionaryEnumerator<Guid, object>.get_Value
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public object get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -15380,7 +14871,6 @@ private sealed class ConcurrentDictionary.DictionaryEnumerator<TKey, TValue> : I
 	|-ConcurrentDictionary.DictionaryEnumerator<object, object>.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
@@ -15397,7 +14887,6 @@ private sealed class ConcurrentDictionary.DictionaryEnumerator<TKey, TValue> : I
 	|-ConcurrentDictionary.DictionaryEnumerator<object, object>.MoveNext
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void Reset() { }
 	/* GenericInstMethod :
 	|
@@ -15417,22 +14906,18 @@ private sealed class ConcurrentDictionary.DictionaryEnumerator<TKey, TValue> : I
 }
 
 private sealed class ConcurrentDictionary.<GetEnumerator>d__32<TKey, TValue> : IEnumerator<KeyValuePair<TKey, TValue>>, IDisposable, IEnumerator // TypeDefIndex: 1434
-{	// Fields
-	private int <>1__state; // 0x0
+{	private int <>1__state; // 0x0
 	private KeyValuePair<TKey, TValue> <>2__current; // 0x0
 	public ConcurrentDictionary<TKey, TValue> <>4__this; // 0x0
 	private ConcurrentDictionary.Node<TKey, TValue>[] <buckets>5__1; // 0x0
 	private ConcurrentDictionary.Node<TKey, TValue> <current>5__2; // 0x0
 	private int <i>5__3; // 0x0
 
-	// Properties
 	private KeyValuePair<TKey, TValue> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
-	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
@@ -15444,7 +14929,6 @@ private sealed class ConcurrentDictionary.<GetEnumerator>d__32<TKey, TValue> : I
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 5
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -15455,7 +14939,6 @@ private sealed class ConcurrentDictionary.<GetEnumerator>d__32<TKey, TValue> : I
 	|-ConcurrentDictionary.<GetEnumerator>d__32<object, object>.System.IDisposable.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
@@ -15473,7 +14956,6 @@ private sealed class ConcurrentDictionary.<GetEnumerator>d__32<TKey, TValue> : I
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 4
 	private KeyValuePair<TKey, TValue> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -15489,7 +14971,6 @@ private sealed class ConcurrentDictionary.<GetEnumerator>d__32<TKey, TValue> : I
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
@@ -15507,7 +14988,6 @@ private sealed class ConcurrentDictionary.<GetEnumerator>d__32<TKey, TValue> : I
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -15526,24 +15006,19 @@ private sealed class ConcurrentDictionary.<GetEnumerator>d__32<TKey, TValue> : I
 
 public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T> // TypeDefIndex: 1436
 {
-// Namespace: System.Collections.Concurrent
 [DebuggerTypeProxyAttribute] // RVA: 0xEC480 Offset: 0xEB880 VA: 0x1800EC480
 [DebuggerDisplayAttribute] // RVA: 0xEC480 Offset: 0xEB880 VA: 0x1800EC480
 [Serializable]
 public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T> // TypeDefIndex: 1436
-	// Fields
 	private object _crossSegmentLock; // 0x0
 	private ConcurrentQueue.Segment<T> _tail; // 0x0
 	private ConcurrentQueue.Segment<T> _head; // 0x0
 
-	// Properties
 	private object System.Collections.ICollection.SyncRoot { get; }
 	public bool IsEmpty { get; }
 	public int Count { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -15554,7 +15029,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -15565,7 +15039,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -15576,7 +15049,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.System.Collections.ICollection.get_SyncRoot
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -15585,7 +15057,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsEmpty() { }
 	/* GenericInstMethod :
 	|
@@ -15596,7 +15067,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.get_IsEmpty
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public T[] ToArray() { }
 	/* GenericInstMethod :
 	|
@@ -15607,7 +15077,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.ToArray
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -15616,7 +15085,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1
 	private static int GetCount(ConcurrentQueue.Segment<T> s, int head, int tail) { }
 	/* GenericInstMethod :
 	|
@@ -15625,7 +15093,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.GetCount
 	*/
 
-	// RVA: -1 Offset: -1
 	private static long GetCount(ConcurrentQueue.Segment<T> head, int headHead, ConcurrentQueue.Segment<T> tail, int tailTail) { }
 	/* GenericInstMethod :
 	|
@@ -15634,7 +15101,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.GetCount
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	public void CopyTo(T[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -15645,7 +15111,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -15654,7 +15119,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1
 	private void SnapForObservation(out ConcurrentQueue.Segment<T> head, out int headHead, out ConcurrentQueue.Segment<T> tail, out int tailTail) { }
 	/* GenericInstMethod :
 	|
@@ -15663,7 +15127,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.SnapForObservation
 	*/
 
-	// RVA: -1 Offset: -1
 	private T GetItemWhenAvailable(ConcurrentQueue.Segment<T> segment, int i) { }
 	/* GenericInstMethod :
 	|
@@ -15675,7 +15138,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	*/
 
 	[IteratorStateMachineAttribute] // RVA: 0xEC5D0 Offset: 0xEB9D0 VA: 0x1800EC5D0
-	// RVA: -1 Offset: -1
 	private IEnumerator<T> Enumerate(ConcurrentQueue.Segment<T> head, int headHead, ConcurrentQueue.Segment<T> tail, int tailTail) { }
 	/* GenericInstMethod :
 	|
@@ -15686,7 +15148,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.Enumerate
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Enqueue(T item) { }
 	/* GenericInstMethod :
 	|
@@ -15697,7 +15158,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.Enqueue
 	*/
 
-	// RVA: -1 Offset: -1
 	private void EnqueueSlow(T item) { }
 	/* GenericInstMethod :
 	|
@@ -15708,7 +15168,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.EnqueueSlow
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TryDequeue(out T result) { }
 	/* GenericInstMethod :
 	|
@@ -15717,7 +15176,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.TryDequeue
 	*/
 
-	// RVA: -1 Offset: -1
 	private bool TryDequeueSlow(out T item) { }
 	/* GenericInstMethod :
 	|
@@ -15728,7 +15186,6 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.TryDequeueSlow
 	*/
 
-	// RVA: -1 Offset: -1
 	private bool TryPeek(out T result, bool resultUsed) { }
 	/* GenericInstMethod :
 	|
@@ -15742,25 +15199,19 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 }
 
 public static class KeyValuePair // TypeDefIndex: 1443
-{	// Methods
-
-	// RVA: 0x1464500 Offset: 0x1462B00 VA: 0x181464500
+{
 	internal static string PairToString(object key, object value) { }
 
 }
 
 public struct KeyValuePair<TKey, TValue> // TypeDefIndex: 1444
-{	// Fields
-	private TKey key; // 0x0
+{	private TKey key; // 0x0
 	private TValue value; // 0x0
 
-	// Properties
 	public TKey Key { get; }
 	public TValue Value { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -16135,7 +15586,6 @@ public struct KeyValuePair<TKey, TValue> // TypeDefIndex: 1444
 	|-KeyValuePair<ViewModelDrawEvent, int>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public TKey get_Key() { }
 	/* GenericInstMethod :
 	|
@@ -16402,7 +15852,6 @@ public struct KeyValuePair<TKey, TValue> // TypeDefIndex: 1444
 	|-KeyValuePair<float, ulong>.get_Key
 	*/
 
-	// RVA: -1 Offset: -1
 	public TValue get_Value() { }
 	/* GenericInstMethod :
 	|
@@ -16723,7 +16172,6 @@ public struct KeyValuePair<TKey, TValue> // TypeDefIndex: 1444
 	|-KeyValuePair<ViewModelDrawEvent, int>.get_Value
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -17066,8 +16514,7 @@ public struct KeyValuePair<TKey, TValue> // TypeDefIndex: 1444
 }
 
 public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IDictionary, ICollection, IReadOnlyDictionary<TKey, TValue>, IReadOnlyCollection<KeyValuePair<TKey, TValue>>, ISerializable, IDeserializationCallback // TypeDefIndex: 1449
-{	// Fields
-	private int[] buckets; // 0x0
+{	private int[] buckets; // 0x0
 	private Dictionary.Entry<TKey, TValue>[] entries; // 0x0
 	private int count; // 0x0
 	private int version; // 0x0
@@ -17082,7 +16529,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	private const string KeyValuePairsName = "KeyValuePairs";
 	private const string ComparerName = "Comparer";
 
-	// Properties
 	public IEqualityComparer<TKey> Comparer { get; }
 	public int Count { get; }
 	public Dictionary.KeyCollection<TKey, TValue> Keys { get; }
@@ -17097,9 +16543,7 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	private ICollection System.Collections.IDictionary.Values { get; }
 	private object System.Collections.IDictionary.Item { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -17474,7 +16918,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<WeatherPresetType, WeatherPreset[]>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int capacity) { }
 	/* GenericInstMethod :
 	|
@@ -17661,7 +17104,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -17860,7 +17302,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int capacity, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -18383,7 +17824,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IDictionary<TKey, TValue> dictionary) { }
 	/* GenericInstMethod :
 	|
@@ -18564,7 +18004,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IDictionary<TKey, TValue> dictionary, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -19085,7 +18524,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -19606,7 +19044,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public IEqualityComparer<TKey> get_Comparer() { }
 	/* GenericInstMethod :
 	|
@@ -19785,7 +19222,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.get_Comparer
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 35
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -19989,7 +19425,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1
 	public Dictionary.KeyCollection<TKey, TValue> get_Keys() { }
 	/* GenericInstMethod :
 	|
@@ -20182,7 +19617,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.get_Keys
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private ICollection<TKey> System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys() { }
 	/* GenericInstMethod :
 	|
@@ -20362,7 +19796,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys
 	*/
 
-	// RVA: -1 Offset: -1
 	public Dictionary.ValueCollection<TKey, TValue> get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -20560,7 +19993,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.get_Values
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private ICollection<TValue> System.Collections.Generic.IDictionary<TKey,TValue>.get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -20740,7 +20172,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.Generic.IDictionary<TKey,TValue>.get_Values
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public TValue get_Item(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -21333,7 +20764,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void set_Item(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -21615,7 +21045,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ulong, TimeSince>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void Add(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -21982,7 +21411,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ulong, TimeSince>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	private void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(KeyValuePair<TKey, TValue> keyValuePair) { }
 	/* GenericInstMethod :
 	|
@@ -22264,7 +21692,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(KeyValuePair<TKey, TValue> keyValuePair) { }
 	/* GenericInstMethod :
 	|
@@ -22562,7 +21989,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 18
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(KeyValuePair<TKey, TValue> keyValuePair) { }
 	/* GenericInstMethod :
 	|
@@ -22874,7 +22300,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 27
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -23097,7 +22522,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<WaterCamera, WaterRuntime>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public bool ContainsKey(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -23363,7 +22787,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<float, ulong>.ContainsKey
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool ContainsValue(TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -23616,7 +23039,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.ContainsValue
 	*/
 
-	// RVA: -1 Offset: -1
 	private void CopyTo(KeyValuePair<TKey, TValue>[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -24137,7 +23559,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public Dictionary.Enumerator<TKey, TValue> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -24390,7 +23811,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<StyleSheetCache.SheetHandleKey, int>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 19
 	private IEnumerator<KeyValuePair<TKey, TValue>> System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -24588,7 +24008,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<StyleSheetCache.SheetHandleKey, int>.System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 38
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -25110,7 +24529,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.GetObjectData
 	*/
 
-	// RVA: -1 Offset: -1
 	private int FindEntry(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -25631,7 +25049,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.FindEntry
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Initialize(int capacity) { }
 	/* GenericInstMethod :
 	|
@@ -26152,7 +25569,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.Initialize
 	*/
 
-	// RVA: -1 Offset: -1
 	private bool TryInsert(TKey key, TValue value, InsertionBehavior behavior) { }
 	/* GenericInstMethod :
 	|
@@ -26673,7 +26089,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.TryInsert
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 39
 	public virtual void OnDeserialization(object sender) { }
 	/* GenericInstMethod :
 	|
@@ -27195,7 +26610,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.OnDeserialization
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Resize() { }
 	/* GenericInstMethod :
 	|
@@ -27716,7 +27130,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.Resize
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Resize(int newSize, bool forceNewHashCodes) { }
 	/* GenericInstMethod :
 	|
@@ -28237,7 +27650,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.Resize
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public bool Remove(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -28813,7 +28225,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 34
 	public bool TryGetValue(TKey key, out TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -29224,7 +28635,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.TryGetValue
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TryAdd(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -29432,7 +28842,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ulong, TimeSince>.TryAdd
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -29612,7 +29021,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 17
 	private void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(KeyValuePair<TKey, TValue>[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -29792,7 +29200,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 31
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -30314,7 +29721,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 20
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -30512,7 +29918,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<StyleSheetCache.SheetHandleKey, int>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 33
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -31034,7 +30439,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.ICollection.get_SyncRoot
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 28
 	private bool System.Collections.IDictionary.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -31214,7 +30618,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.IDictionary.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 23
 	private ICollection System.Collections.IDictionary.get_Keys() { }
 	/* GenericInstMethod :
 	|
@@ -31394,7 +30797,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.IDictionary.get_Keys
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 24
 	private ICollection System.Collections.IDictionary.get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -31574,7 +30976,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.IDictionary.get_Values
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 21
 	private object System.Collections.IDictionary.get_Item(object key) { }
 	/* GenericInstMethod :
 	|
@@ -31908,7 +31309,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.IDictionary.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 22
 	private void System.Collections.IDictionary.set_Item(object key, object value) { }
 	/* GenericInstMethod :
 	|
@@ -32430,7 +31830,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.IDictionary.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	private static bool IsCompatibleKey(object key) { }
 	/* GenericInstMethod :
 	|
@@ -32951,7 +32350,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.IsCompatibleKey
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 26
 	private void System.Collections.IDictionary.Add(object key, object value) { }
 	/* GenericInstMethod :
 	|
@@ -33473,7 +32871,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<ViewModelDrawEvent, int>.System.Collections.IDictionary.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 25
 	private bool System.Collections.IDictionary.Contains(object key) { }
 	/* GenericInstMethod :
 	|
@@ -33673,7 +33070,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<float, ulong>.System.Collections.IDictionary.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 29
 	private IDictionaryEnumerator System.Collections.IDictionary.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -33871,7 +33267,6 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<StyleSheetCache.SheetHandleKey, int>.System.Collections.IDictionary.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 30
 	private void System.Collections.IDictionary.Remove(object key) { }
 	/* GenericInstMethod :
 	|
@@ -34074,8 +33469,7 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 }
 
 private struct Dictionary.Entry<TKey, TValue> // TypeDefIndex: 1450
-{	// Fields
-	public int hashCode; // 0x0
+{	public int hashCode; // 0x0
 	public int next; // 0x0
 	public TKey key; // 0x0
 	public TValue value; // 0x0
@@ -34083,23 +33477,19 @@ private struct Dictionary.Entry<TKey, TValue> // TypeDefIndex: 1450
 }
 
 public struct Dictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePair<TKey, TValue>>, IDisposable, IEnumerator, IDictionaryEnumerator // TypeDefIndex: 1451
-{	// Fields
-	private Dictionary<TKey, TValue> dictionary; // 0x0
+{	private Dictionary<TKey, TValue> dictionary; // 0x0
 	private int version; // 0x0
 	private int index; // 0x0
 	private KeyValuePair<TKey, TValue> current; // 0x0
 	private int getEnumeratorRetType; // 0x0
 
-	// Properties
 	public KeyValuePair<TKey, TValue> Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 	private DictionaryEntry System.Collections.IDictionaryEnumerator.Entry { get; }
 	private object System.Collections.IDictionaryEnumerator.Key { get; }
 	private object System.Collections.IDictionaryEnumerator.Value { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(Dictionary<TKey, TValue> dictionary, int getEnumeratorRetType) { }
 	/* GenericInstMethod :
 	|
@@ -34296,7 +33686,6 @@ public struct Dictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePair<TKe
 	|-Dictionary.Enumerator<StyleSheetCache.SheetHandleKey, int>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
@@ -34871,7 +34260,6 @@ public struct Dictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePair<TKe
 	|-Dictionary.Enumerator<ViewModelDrawEvent, int>.MoveNext
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public KeyValuePair<TKey, TValue> get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -35124,7 +34512,6 @@ public struct Dictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePair<TKe
 	|-Dictionary.Enumerator<StyleSheetCache.SheetHandleKey, int>.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -35356,7 +34743,6 @@ public struct Dictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePair<TKe
 	|-Dictionary.Enumerator<WaterCamera, WaterRuntime>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -35877,7 +35263,6 @@ public struct Dictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePair<TKe
 	|-Dictionary.Enumerator<ViewModelDrawEvent, int>.System.Collections.IEnumerator.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
@@ -36398,7 +35783,6 @@ public struct Dictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePair<TKe
 	|-Dictionary.Enumerator<ViewModelDrawEvent, int>.System.Collections.IEnumerator.Reset
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	private DictionaryEntry System.Collections.IDictionaryEnumerator.get_Entry() { }
 	/* GenericInstMethod :
 	|
@@ -36919,7 +36303,6 @@ public struct Dictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePair<TKe
 	|-Dictionary.Enumerator<ViewModelDrawEvent, int>.System.Collections.IDictionaryEnumerator.get_Entry
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IDictionaryEnumerator.get_Key() { }
 	/* GenericInstMethod :
 	|
@@ -37440,7 +36823,6 @@ public struct Dictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePair<TKe
 	|-Dictionary.Enumerator<ViewModelDrawEvent, int>.System.Collections.IDictionaryEnumerator.get_Key
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	private object System.Collections.IDictionaryEnumerator.get_Value() { }
 	/* GenericInstMethod :
 	|
@@ -37964,17 +37346,13 @@ public struct Dictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePair<TKe
 }
 
 public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, IEnumerable<TKey>, IEnumerable, ICollection, IReadOnlyCollection<TKey> // TypeDefIndex: 1452
-{	// Fields
-	private Dictionary<TKey, TValue> dictionary; // 0x0
+{	private Dictionary<TKey, TValue> dictionary; // 0x0
 
-	// Properties
 	public int Count { get; }
 	private bool System.Collections.Generic.ICollection<TKey>.IsReadOnly { get; }
 	private object System.Collections.ICollection.SyncRoot { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(Dictionary<TKey, TValue> dictionary) { }
 	/* GenericInstMethod :
 	|
@@ -38495,7 +37873,6 @@ public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, 
 	|-Dictionary.KeyCollection<ViewModelDrawEvent, int>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public Dictionary.KeyCollection.Enumerator<TKey, TValue> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -38694,7 +38071,6 @@ public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, 
 	|-Dictionary.KeyCollection<ushort, ulong>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void CopyTo(TKey[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -39216,7 +38592,6 @@ public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, 
 	|-Dictionary.KeyCollection<ViewModelDrawEvent, int>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -39396,7 +38771,6 @@ public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, 
 	|-Dictionary.KeyCollection<ViewModelDrawEvent, int>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private bool System.Collections.Generic.ICollection<TKey>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -39575,7 +38949,6 @@ public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, 
 	|-Dictionary.KeyCollection<ViewModelDrawEvent, int>.System.Collections.Generic.ICollection<TKey>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private void System.Collections.Generic.ICollection<TKey>.Add(TKey item) { }
 	/* GenericInstMethod :
 	|
@@ -40096,7 +39469,6 @@ public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, 
 	|-Dictionary.KeyCollection<ViewModelDrawEvent, int>.System.Collections.Generic.ICollection<TKey>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private void System.Collections.Generic.ICollection<TKey>.Clear() { }
 	/* GenericInstMethod :
 	|
@@ -40617,7 +39989,6 @@ public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, 
 	|-Dictionary.KeyCollection<ViewModelDrawEvent, int>.System.Collections.Generic.ICollection<TKey>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private bool System.Collections.Generic.ICollection<TKey>.Contains(TKey item) { }
 	/* GenericInstMethod :
 	|
@@ -40806,7 +40177,6 @@ public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, 
 	|-Dictionary.KeyCollection<float, ulong>.System.Collections.Generic.ICollection<TKey>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	private bool System.Collections.Generic.ICollection<TKey>.Remove(TKey item) { }
 	/* GenericInstMethod :
 	|
@@ -41327,7 +40697,6 @@ public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, 
 	|-Dictionary.KeyCollection<ViewModelDrawEvent, int>.System.Collections.Generic.ICollection<TKey>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	private IEnumerator<TKey> System.Collections.Generic.IEnumerable<TKey>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -41520,7 +40889,6 @@ public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, 
 	|-Dictionary.KeyCollection<ushort, ulong>.System.Collections.Generic.IEnumerable<TKey>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -41713,7 +41081,6 @@ public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, 
 	|-Dictionary.KeyCollection<ushort, ulong>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -42234,7 +41601,6 @@ public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, 
 	|-Dictionary.KeyCollection<ViewModelDrawEvent, int>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 15
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -42758,19 +42124,15 @@ public sealed class Dictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, 
 }
 
 public struct Dictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumerator<TKey>, IDisposable, IEnumerator // TypeDefIndex: 1453
-{	// Fields
-	private Dictionary<TKey, TValue> dictionary; // 0x0
+{	private Dictionary<TKey, TValue> dictionary; // 0x0
 	private int index; // 0x0
 	private int version; // 0x0
 	private TKey currentKey; // 0x0
 
-	// Properties
 	public TKey Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(Dictionary<TKey, TValue> dictionary) { }
 	/* GenericInstMethod :
 	|
@@ -42963,7 +42325,6 @@ public struct Dictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumerator<TK
 	|-Dictionary.KeyCollection.Enumerator<ushort, ulong>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -43148,7 +42509,6 @@ public struct Dictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumerator<TK
 	|-Dictionary.KeyCollection.Enumerator<ViewModelDrawEvent, int>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
@@ -43675,7 +43035,6 @@ public struct Dictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumerator<TK
 	|-Dictionary.KeyCollection.Enumerator<ViewModelDrawEvent, int>.MoveNext
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public TKey get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -43878,7 +43237,6 @@ public struct Dictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumerator<TK
 	|-Dictionary.KeyCollection.Enumerator<float, ulong>.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -44399,7 +43757,6 @@ public struct Dictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumerator<TK
 	|-Dictionary.KeyCollection.Enumerator<ViewModelDrawEvent, int>.System.Collections.IEnumerator.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
@@ -44923,17 +44280,13 @@ public struct Dictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumerator<TK
 }
 
 public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValue>, IEnumerable<TValue>, IEnumerable, ICollection, IReadOnlyCollection<TValue> // TypeDefIndex: 1454
-{	// Fields
-	private Dictionary<TKey, TValue> dictionary; // 0x0
+{	private Dictionary<TKey, TValue> dictionary; // 0x0
 
-	// Properties
 	public int Count { get; }
 	private bool System.Collections.Generic.ICollection<TValue>.IsReadOnly { get; }
 	private object System.Collections.ICollection.SyncRoot { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(Dictionary<TKey, TValue> dictionary) { }
 	/* GenericInstMethod :
 	|
@@ -45454,7 +44807,6 @@ public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValu
 	|-Dictionary.ValueCollection<ViewModelDrawEvent, int>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public Dictionary.ValueCollection.Enumerator<TKey, TValue> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -45665,7 +45017,6 @@ public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValu
 	|-Dictionary.ValueCollection<object, Vector3>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void CopyTo(TValue[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -46187,7 +45538,6 @@ public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValu
 	|-Dictionary.ValueCollection<ViewModelDrawEvent, int>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -46366,7 +45716,6 @@ public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValu
 	|-Dictionary.ValueCollection<ViewModelDrawEvent, int>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private bool System.Collections.Generic.ICollection<TValue>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -46545,7 +45894,6 @@ public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValu
 	|-Dictionary.ValueCollection<ViewModelDrawEvent, int>.System.Collections.Generic.ICollection<TValue>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private void System.Collections.Generic.ICollection<TValue>.Add(TValue item) { }
 	/* GenericInstMethod :
 	|
@@ -47066,7 +46414,6 @@ public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValu
 	|-Dictionary.ValueCollection<ViewModelDrawEvent, int>.System.Collections.Generic.ICollection<TValue>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	private bool System.Collections.Generic.ICollection<TValue>.Remove(TValue item) { }
 	/* GenericInstMethod :
 	|
@@ -47587,7 +46934,6 @@ public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValu
 	|-Dictionary.ValueCollection<ViewModelDrawEvent, int>.System.Collections.Generic.ICollection<TValue>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private void System.Collections.Generic.ICollection<TValue>.Clear() { }
 	/* GenericInstMethod :
 	|
@@ -48108,7 +47454,6 @@ public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValu
 	|-Dictionary.ValueCollection<ViewModelDrawEvent, int>.System.Collections.Generic.ICollection<TValue>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private bool System.Collections.Generic.ICollection<TValue>.Contains(TValue item) { }
 	/* GenericInstMethod :
 	|
@@ -48301,7 +47646,6 @@ public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValu
 	|-Dictionary.ValueCollection<ulong, TimeSince>.System.Collections.Generic.ICollection<TValue>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	private IEnumerator<TValue> System.Collections.Generic.IEnumerable<TValue>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -48496,7 +47840,6 @@ public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValu
 	|-Dictionary.ValueCollection<object, Vector3>.System.Collections.Generic.IEnumerable<TValue>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -48691,7 +48034,6 @@ public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValu
 	|-Dictionary.ValueCollection<object, Vector3>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -49212,7 +48554,6 @@ public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValu
 	|-Dictionary.ValueCollection<ViewModelDrawEvent, int>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 15
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -49736,19 +49077,15 @@ public sealed class Dictionary.ValueCollection<TKey, TValue> : ICollection<TValu
 }
 
 public struct Dictionary.ValueCollection.Enumerator<TKey, TValue> : IEnumerator<TValue>, IDisposable, IEnumerator // TypeDefIndex: 1455
-{	// Fields
-	private Dictionary<TKey, TValue> dictionary; // 0x0
+{	private Dictionary<TKey, TValue> dictionary; // 0x0
 	private int index; // 0x0
 	private int version; // 0x0
 	private TValue currentValue; // 0x0
 
-	// Properties
 	public TValue Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(Dictionary<TKey, TValue> dictionary) { }
 	/* GenericInstMethod :
 	|
@@ -49943,7 +49280,6 @@ public struct Dictionary.ValueCollection.Enumerator<TKey, TValue> : IEnumerator<
 	|-Dictionary.ValueCollection.Enumerator<object, Vector3>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -50137,7 +49473,6 @@ public struct Dictionary.ValueCollection.Enumerator<TKey, TValue> : IEnumerator<
 	|-Dictionary.ValueCollection.Enumerator<ViewModelDrawEvent, int>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
@@ -50673,7 +50008,6 @@ public struct Dictionary.ValueCollection.Enumerator<TKey, TValue> : IEnumerator<
 	|-Dictionary.ValueCollection.Enumerator<ViewModelDrawEvent, int>.MoveNext
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public TValue get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -50887,7 +50221,6 @@ public struct Dictionary.ValueCollection.Enumerator<TKey, TValue> : IEnumerator<
 	|-Dictionary.ValueCollection.Enumerator<object, Vector3>.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -51408,7 +50741,6 @@ public struct Dictionary.ValueCollection.Enumerator<TKey, TValue> : IEnumerator<
 	|-Dictionary.ValueCollection.Enumerator<ViewModelDrawEvent, int>.System.Collections.IEnumerator.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
@@ -51932,34 +51264,25 @@ public struct Dictionary.ValueCollection.Enumerator<TKey, TValue> : IEnumerator<
 }
 
 internal class DictionaryHashHelpers // TypeDefIndex: 1456
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static readonly ConditionalWeakTable<object, SerializationInfo> <SerializationInfoTable>k__BackingField; // 0x2B10510
 
-	// Properties
 	internal static ConditionalWeakTable<object, SerializationInfo> SerializationInfoTable { get; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x145E2E0 Offset: 0x145C8E0 VA: 0x18145E2E0
 	internal static ConditionalWeakTable<object, SerializationInfo> get_SerializationInfoTable() { }
 
-	// RVA: 0x145E280 Offset: 0x145C880 VA: 0x18145E280
 	private static void .cctor() { }
 
 }
 
 public abstract class Comparer<T> : IComparer, IComparer<T> // TypeDefIndex: 1462
-{	// Fields
-	private static Comparer<T> defaultComparer; // 0x0
+{	private static Comparer<T> defaultComparer; // 0x0
 
-	// Properties
 	public static Comparer<T> Default { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public static Comparer<T> get_Default() { }
 	/* GenericInstMethod :
 	|
@@ -52136,7 +51459,6 @@ public abstract class Comparer<T> : IComparer, IComparer<T> // TypeDefIndex: 146
 	|-Comparer<WorldSplineData.LUTEntry.LUTPoint>.get_Default
 	*/
 
-	// RVA: -1 Offset: -1
 	private static Comparer<T> CreateComparer() { }
 	/* GenericInstMethod :
 	|
@@ -52648,7 +51970,6 @@ public abstract class Comparer<T> : IComparer, IComparer<T> // TypeDefIndex: 146
 	|-Comparer<WorldSplineData.LUTEntry.LUTPoint>.CreateComparer
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public abstract int Compare(T x, T y);
 	/* GenericInstMethod :
 	|
@@ -52656,7 +51977,6 @@ public abstract class Comparer<T> : IComparer, IComparer<T> // TypeDefIndex: 146
 	|-Comparer<object>.Compare
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	private int System.Collections.IComparer.Compare(object x, object y) { }
 	/* GenericInstMethod :
 	|
@@ -52898,7 +52218,6 @@ public abstract class Comparer<T> : IComparer, IComparer<T> // TypeDefIndex: 146
 	|-Comparer<UIVertex>.System.Collections.IComparer.Compare
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -53077,9 +52396,7 @@ public abstract class Comparer<T> : IComparer, IComparer<T> // TypeDefIndex: 146
 }
 
 internal class GenericComparer<T> : Comparer<T> // TypeDefIndex: 1463
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 6
+{
 	public override int Compare(T x, T y) { }
 	/* GenericInstMethod :
 	|
@@ -53148,7 +52465,6 @@ internal class GenericComparer<T> : Comparer<T> // TypeDefIndex: 1463
 	|-GenericComparer<ValueTuple<object, object>>.Compare
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -53177,7 +52493,6 @@ internal class GenericComparer<T> : Comparer<T> // TypeDefIndex: 1463
 	|-GenericComparer<ValueTuple<object, object>>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -53206,7 +52521,6 @@ internal class GenericComparer<T> : Comparer<T> // TypeDefIndex: 1463
 	|-GenericComparer<ValueTuple<object, object>>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -53238,26 +52552,19 @@ internal class GenericComparer<T> : Comparer<T> // TypeDefIndex: 1463
 }
 
 internal class NullableComparer<T> : Comparer<Nullable<T>> // TypeDefIndex: 1464
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 6
+{
 	public override int Compare(Nullable<T> x, Nullable<T> y) { }
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 
 }
 
 internal class ObjectComparer<T> : Comparer<T> // TypeDefIndex: 1465
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 6
+{
 	public override int Compare(T x, T y) { }
 	/* GenericInstMethod :
 	|
@@ -53769,7 +53076,6 @@ internal class ObjectComparer<T> : Comparer<T> // TypeDefIndex: 1465
 	|-ObjectComparer<WorldSplineData.LUTEntry.LUTPoint>.Compare
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -53945,7 +53251,6 @@ internal class ObjectComparer<T> : Comparer<T> // TypeDefIndex: 1465
 	|-ObjectComparer<WorldSplineData.LUTEntry.LUTPoint>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -54121,7 +53426,6 @@ internal class ObjectComparer<T> : Comparer<T> // TypeDefIndex: 1465
 	|-ObjectComparer<WorldSplineData.LUTEntry.LUTPoint>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -54301,22 +53605,16 @@ internal class ObjectComparer<T> : Comparer<T> // TypeDefIndex: 1465
 
 public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer<T> // TypeDefIndex: 1468
 {
-// Namespace: System.Collections.Generic
 internal sealed class Mscorlib_KeyedCollectionDebugView<K, T> // TypeDefIndex: 1467
 
-// Namespace: System.Collections.Generic
 [TypeDependencyAttribute] // RVA: 0xED630 Offset: 0xECA30 VA: 0x1800ED630
 [Serializable]
 public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer<T> // TypeDefIndex: 1468
-	// Fields
 	private static EqualityComparer<T> defaultComparer; // 0x0
 
-	// Properties
 	public static EqualityComparer<T> Default { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public static EqualityComparer<T> get_Default() { }
 	/* GenericInstMethod :
 	|
@@ -54520,7 +53818,6 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<WorldSplineData.LUTEntry.LUTPoint>.get_Default
 	*/
 
-	// RVA: -1 Offset: -1
 	private static EqualityComparer<T> CreateComparer() { }
 	/* GenericInstMethod :
 	|
@@ -55110,7 +54407,6 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<WorldSplineData.LUTEntry.LUTPoint>.CreateComparer
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public abstract bool Equals(T x, T y);
 	/* GenericInstMethod :
 	|
@@ -55118,7 +54414,6 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<object>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public abstract int GetHashCode(T obj);
 	/* GenericInstMethod :
 	|
@@ -55126,7 +54421,6 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<object>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	internal virtual int IndexOf(T[] array, T value, int startIndex, int count) { }
 	/* GenericInstMethod :
 	|
@@ -55395,7 +54689,6 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<UIVertex>.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	internal virtual int LastIndexOf(T[] array, T value, int startIndex, int count) { }
 	/* GenericInstMethod :
 	|
@@ -55664,7 +54957,6 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<UIVertex>.LastIndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private int System.Collections.IEqualityComparer.GetHashCode(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -55927,7 +55219,6 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<UIVertex>.System.Collections.IEqualityComparer.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	private bool System.Collections.IEqualityComparer.Equals(object x, object y) { }
 	/* GenericInstMethod :
 	|
@@ -56198,7 +55489,6 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<UIVertex>.System.Collections.IEqualityComparer.Equals
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -56404,9 +55694,7 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 }
 
 internal class GenericEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 1469
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 8
+{
 	public override bool Equals(T x, T y) { }
 	/* GenericInstMethod :
 	|
@@ -56556,7 +55844,6 @@ internal class GenericEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex:
 	|-GenericEqualityComparer<ViewModelDrawEvent>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public override int GetHashCode(T obj) { }
 	/* GenericInstMethod :
 	|
@@ -56714,7 +56001,6 @@ internal class GenericEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex:
 	|-GenericEqualityComparer<ViewModelDrawEvent>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	internal override int IndexOf(T[] array, T value, int startIndex, int count) { }
 	/* GenericInstMethod :
 	|
@@ -56868,7 +56154,6 @@ internal class GenericEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex:
 	|-GenericEqualityComparer<ViewModelDrawEvent>.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	internal override int LastIndexOf(T[] array, T value, int startIndex, int count) { }
 	/* GenericInstMethod :
 	|
@@ -57022,7 +56307,6 @@ internal class GenericEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex:
 	|-GenericEqualityComparer<ViewModelDrawEvent>.LastIndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -57086,7 +56370,6 @@ internal class GenericEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex:
 	|-GenericEqualityComparer<ViewModelDrawEvent>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -57150,7 +56433,6 @@ internal class GenericEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex:
 	|-GenericEqualityComparer<ViewModelDrawEvent>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -57217,35 +56499,25 @@ internal class GenericEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex:
 }
 
 internal class NullableEqualityComparer<T> : EqualityComparer<Nullable<T>> // TypeDefIndex: 1470
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 8
+{
 	public override bool Equals(Nullable<T> x, Nullable<T> y) { }
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public override int GetHashCode(Nullable<T> obj) { }
 
-	// RVA: -1 Offset: -1 Slot: 10
 	internal override int IndexOf(Nullable<T>[] array, Nullable<T> value, int startIndex, int count) { }
 
-	// RVA: -1 Offset: -1 Slot: 11
 	internal override int LastIndexOf(Nullable<T>[] array, Nullable<T> value, int startIndex, int count) { }
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 
 }
 
 internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 1471
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 8
+{
 	public override bool Equals(T x, T y) { }
 	/* GenericInstMethod :
 	|
@@ -57619,7 +56891,6 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 	|-ObjectEqualityComparer<ViewModelDrawEvent>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public override int GetHashCode(T obj) { }
 	/* GenericInstMethod :
 	|
@@ -57939,7 +57210,6 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 	|-ObjectEqualityComparer<ViewModelDrawEvent>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	internal override int IndexOf(T[] array, T value, int startIndex, int count) { }
 	/* GenericInstMethod :
 	|
@@ -58313,7 +57583,6 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 	|-ObjectEqualityComparer<ViewModelDrawEvent>.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	internal override int LastIndexOf(T[] array, T value, int startIndex, int count) { }
 	/* GenericInstMethod :
 	|
@@ -58687,7 +57956,6 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 	|-ObjectEqualityComparer<ViewModelDrawEvent>.LastIndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -58889,7 +58157,6 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 	|-ObjectEqualityComparer<WorldSplineData.LUTEntry.LUTPoint>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -59091,7 +58358,6 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 	|-ObjectEqualityComparer<WorldSplineData.LUTEntry.LUTPoint>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -59296,9 +58562,7 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 }
 
 internal class EnumEqualityComparer<T> : EqualityComparer<T>, ISerializable // TypeDefIndex: 1473
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 8
+{
 	public override bool Equals(T x, T y) { }
 	/* GenericInstMethod :
 	|
@@ -59309,7 +58573,6 @@ internal class EnumEqualityComparer<T> : EqualityComparer<T>, ISerializable // T
 	|-EnumEqualityComparer<Int32Enum>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public override int GetHashCode(T obj) { }
 	/* GenericInstMethod :
 	|
@@ -59320,7 +58583,6 @@ internal class EnumEqualityComparer<T> : EqualityComparer<T>, ISerializable // T
 	|-EnumEqualityComparer<Int32Enum>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -59329,7 +58591,6 @@ internal class EnumEqualityComparer<T> : EqualityComparer<T>, ISerializable // T
 	|-EnumEqualityComparer<Int32Enum>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor(SerializationInfo information, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -59338,7 +58599,6 @@ internal class EnumEqualityComparer<T> : EqualityComparer<T>, ISerializable // T
 	|-EnumEqualityComparer<Int32Enum>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -59349,7 +58609,6 @@ internal class EnumEqualityComparer<T> : EqualityComparer<T>, ISerializable // T
 	|-EnumEqualityComparer<Int32Enum>.GetObjectData
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -59358,7 +58617,6 @@ internal class EnumEqualityComparer<T> : EqualityComparer<T>, ISerializable // T
 	|-EnumEqualityComparer<Int32Enum>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -59370,69 +58628,51 @@ internal class EnumEqualityComparer<T> : EqualityComparer<T>, ISerializable // T
 }
 
 internal sealed class SByteEnumEqualityComparer<T> : EnumEqualityComparer<T>, ISerializable // TypeDefIndex: 1474
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor() { }
 
-	// RVA: -1 Offset: -1
 	public void .ctor(SerializationInfo information, StreamingContext context) { }
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public override int GetHashCode(T obj) { }
 
 }
 
 internal sealed class ShortEnumEqualityComparer<T> : EnumEqualityComparer<T>, ISerializable // TypeDefIndex: 1475
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor() { }
 
-	// RVA: -1 Offset: -1
 	public void .ctor(SerializationInfo information, StreamingContext context) { }
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public override int GetHashCode(T obj) { }
 
 }
 
 internal sealed class LongEnumEqualityComparer<T> : EqualityComparer<T>, ISerializable // TypeDefIndex: 1476
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 8
+{
 	public override bool Equals(T x, T y) { }
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public override int GetHashCode(T obj) { }
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 
-	// RVA: -1 Offset: -1
 	public void .ctor(SerializationInfo information, StreamingContext context) { }
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 }
 
 public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IList, ICollection, IReadOnlyList<T>, IReadOnlyCollection<T> // TypeDefIndex: 1489
-{	// Fields
-	private const int _defaultCapacity = 4;
+{	private const int _defaultCapacity = 4;
 	private T[] _items; // 0x0
 	private int _size; // 0x0
 	private int _version; // 0x0
 	private object _syncRoot; // 0x0
 	private static readonly T[] _emptyArray; // 0x0
 
-	// Properties
 	public int Capacity { get; set; }
 	public int Count { get; }
 	private bool System.Collections.IList.IsFixedSize { get; }
@@ -59442,9 +58682,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	public T Item { get; set; }
 	private object System.Collections.IList.Item { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -60032,7 +59270,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int capacity) { }
 	/* GenericInstMethod :
 	|
@@ -60240,7 +59477,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IEnumerable<T> collection) { }
 	/* GenericInstMethod :
 	|
@@ -60749,7 +59985,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Capacity() { }
 	/* GenericInstMethod :
 	|
@@ -60921,7 +60156,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.get_Capacity
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Capacity(int value) { }
 	/* GenericInstMethod :
 	|
@@ -61093,7 +60327,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.set_Capacity
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 33
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -61631,7 +60864,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 24
 	private bool System.Collections.IList.get_IsFixedSize() { }
 	/* GenericInstMethod :
 	|
@@ -61801,7 +61033,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IList.get_IsFixedSize
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	private bool System.Collections.Generic.ICollection<T>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -61971,7 +61202,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 23
 	private bool System.Collections.IList.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -62141,7 +61371,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IList.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 31
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -62633,7 +61862,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.ICollection.get_SyncRoot
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 32
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -63207,7 +62435,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<RaycastHit2D>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -63558,7 +62785,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	private static bool IsCompatibleObject(object value) { }
 	/* GenericInstMethod :
 	|
@@ -63787,7 +63013,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.IsCompatibleObject
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 18
 	private object System.Collections.IList.get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -64015,7 +63240,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.System.Collections.IList.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 19
 	private void System.Collections.IList.set_Item(int index, object value) { }
 	/* GenericInstMethod :
 	|
@@ -64507,7 +63731,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IList.set_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
@@ -65226,7 +64449,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 20
 	private int System.Collections.IList.Add(object item) { }
 	/* GenericInstMethod :
 	|
@@ -65718,7 +64940,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IList.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public void AddRange(IEnumerable<T> collection) { }
 	/* GenericInstMethod :
 	|
@@ -65924,7 +65145,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.AddRange
 	*/
 
-	// RVA: -1 Offset: -1
 	public ReadOnlyCollection<T> AsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -66094,7 +65314,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.AsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 22
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -66438,7 +65657,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public bool Contains(T item) { }
 	/* GenericInstMethod :
 	|
@@ -66729,7 +65947,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 21
 	private bool System.Collections.IList.Contains(object item) { }
 	/* GenericInstMethod :
 	|
@@ -66959,7 +66176,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.System.Collections.IList.Contains
 	*/
 
-	// RVA: -1 Offset: -1
 	public void CopyTo(T[] array) { }
 	/* GenericInstMethod :
 	|
@@ -67132,7 +66348,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 29
 	private void System.Collections.ICollection.CopyTo(Array array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
@@ -67624,7 +66839,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public void CopyTo(int index, T[] array, int arrayIndex, int count) { }
 	/* GenericInstMethod :
 	|
@@ -67794,7 +67008,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public void CopyTo(T[] array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
@@ -67969,7 +67182,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	private void EnsureCapacity(int min) { }
 	/* GenericInstMethod :
 	|
@@ -68138,7 +67350,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.EnsureCapacity
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool Exists(Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
@@ -68310,7 +67521,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.Exists
 	*/
 
-	// RVA: -1 Offset: -1
 	public T Find(Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
@@ -68547,7 +67757,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.Find
 	*/
 
-	// RVA: -1 Offset: -1
 	public List<T> FindAll(Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
@@ -68775,7 +67984,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.FindAll
 	*/
 
-	// RVA: -1 Offset: -1
 	public int FindIndex(Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
@@ -68947,7 +68155,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.FindIndex
 	*/
 
-	// RVA: -1 Offset: -1
 	public int FindIndex(int startIndex, int count, Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
@@ -69180,7 +68387,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.FindIndex
 	*/
 
-	// RVA: -1 Offset: -1
 	public List.Enumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -69685,7 +68891,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -69907,7 +69112,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 17
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -70129,7 +69333,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public int IndexOf(T item) { }
 	/* GenericInstMethod :
 	|
@@ -70353,7 +69556,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 25
 	private int System.Collections.IList.IndexOf(object item) { }
 	/* GenericInstMethod :
 	|
@@ -70583,7 +69785,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.System.Collections.IList.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public void Insert(int index, T item) { }
 	/* GenericInstMethod :
 	|
@@ -70871,7 +70072,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.Insert
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 26
 	private void System.Collections.IList.Insert(int index, object item) { }
 	/* GenericInstMethod :
 	|
@@ -71363,7 +70563,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IList.Insert
 	*/
 
-	// RVA: -1 Offset: -1
 	public void InsertRange(int index, IEnumerable<T> collection) { }
 	/* GenericInstMethod :
 	|
@@ -71857,7 +71056,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.InsertRange
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 15
 	public bool Remove(T item) { }
 	/* GenericInstMethod :
 	|
@@ -72149,7 +71347,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 27
 	private void System.Collections.IList.Remove(object item) { }
 	/* GenericInstMethod :
 	|
@@ -72385,7 +71582,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.System.Collections.IList.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	public int RemoveAll(Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
@@ -72679,7 +71875,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.RemoveAll
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 28
 	public void RemoveAt(int index) { }
 	/* GenericInstMethod :
 	|
@@ -72996,7 +72191,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<UIVertex>.RemoveAt
 	*/
 
-	// RVA: -1 Offset: -1
 	public void RemoveRange(int index, int count) { }
 	/* GenericInstMethod :
 	|
@@ -73172,7 +72366,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.RemoveRange
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Reverse() { }
 	/* GenericInstMethod :
 	|
@@ -73347,7 +72540,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.Reverse
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Reverse(int index, int count) { }
 	/* GenericInstMethod :
 	|
@@ -73517,7 +72709,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.Reverse
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Sort() { }
 	/* GenericInstMethod :
 	|
@@ -73687,7 +72878,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.Sort
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Sort(IComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -73860,7 +73050,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.Sort
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Sort(int index, int count, IComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -74030,7 +73219,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.Sort
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Sort(Comparison<T> comparison) { }
 	/* GenericInstMethod :
 	|
@@ -74212,7 +73400,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.Sort
 	*/
 
-	// RVA: -1 Offset: -1
 	public T[] ToArray() { }
 	/* GenericInstMethod :
 	|
@@ -74418,7 +73605,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.ToArray
 	*/
 
-	// RVA: -1 Offset: -1
 	public void TrimExcess() { }
 	/* GenericInstMethod :
 	|
@@ -74588,7 +73774,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WorldSplineData.LUTEntry.LUTPoint>.TrimExcess
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -74760,13 +73945,10 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 }
 
 internal sealed class KeyValuePairTypeInfo<K, V> : TraceLoggingTypeInfo<KeyValuePair<K, V>> // TypeDefIndex: 1575
-{	// Fields
-	private readonly TraceLoggingTypeInfo<K> keyInfo; // 0x0
+{	private readonly TraceLoggingTypeInfo<K> keyInfo; // 0x0
 	private readonly TraceLoggingTypeInfo<V> valueInfo; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
@@ -74774,7 +73956,6 @@ internal sealed class KeyValuePairTypeInfo<K, V> : TraceLoggingTypeInfo<KeyValue
 	|-KeyValuePairTypeInfo<object, object>.WriteMetadata
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public override void WriteData(TraceLoggingDataCollector collector, ref KeyValuePair<K, V> value) { }
 	/* GenericInstMethod :
 	|
@@ -74785,120 +73966,88 @@ internal sealed class KeyValuePairTypeInfo<K, V> : TraceLoggingTypeInfo<KeyValue
 }
 
 internal sealed class NullableTypeInfo<T> : TraceLoggingTypeInfo<Nullable<T>> // TypeDefIndex: 1576
-{	// Fields
-	private readonly TraceLoggingTypeInfo<T> valueInfo; // 0x0
+{	private readonly TraceLoggingTypeInfo<T> valueInfo; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public override void WriteData(TraceLoggingDataCollector collector, ref Nullable<T> value) { }
 
 }
 
 internal class XmlSerializableMapping : XmlTypeMapping // TypeDefIndex: 2127
-{	// Fields
-	private XmlSchema _schema; // 0x78
+{	private XmlSchema _schema; // 0x78
 	private XmlSchemaComplexType _schemaType; // 0x80
 	private XmlQualifiedName _schemaTypeName; // 0x88
 
-	// Methods
 
-	// RVA: 0x168D410 Offset: 0x168BA10 VA: 0x18168D410
 	internal void .ctor(XmlRootAttribute root, string elementName, string ns, TypeData typeData, string xmlType, string xmlTypeNamespace) { }
 
 }
 
 internal class SymbolsDictionary // TypeDefIndex: 2153
-{	// Fields
-	private int last; // 0x10
+{	private int last; // 0x10
 	private Hashtable names; // 0x18
 	private Hashtable wildcards; // 0x20
 	private ArrayList particles; // 0x28
 	private object particleLast; // 0x30
 	private bool isUpaEnforced; // 0x38
 
-	// Properties
 	public int Count { get; }
 	public bool IsUpaEnforced { get; set; }
 	public int Item { get; }
 
-	// Methods
 
-	// RVA: 0xEF1E70 Offset: 0xEF0470 VA: 0x180EF1E70
 	public void .ctor() { }
 
-	// RVA: 0xEF1F00 Offset: 0xEF0500 VA: 0x180EF1F00
 	public int get_Count() { }
 
-	// RVA: 0x8C1660 Offset: 0x8BFC60 VA: 0x1808C1660
 	public bool get_IsUpaEnforced() { }
 
-	// RVA: 0x78E190 Offset: 0x78C790 VA: 0x18078E190
 	public void set_IsUpaEnforced(bool value) { }
 
-	// RVA: 0xEF0FA0 Offset: 0xEEF5A0 VA: 0x180EF0FA0
 	public int AddName(XmlQualifiedName name, object particle) { }
 
-	// RVA: 0xEF10E0 Offset: 0xEEF6E0 VA: 0x180EF10E0
 	public void AddNamespaceList(NamespaceList list, object particle, bool allowLocal) { }
 
-	// RVA: 0xEF1340 Offset: 0xEEF940 VA: 0x180EF1340
 	private void AddWildcard(string wildcard, object particle) { }
 
-	// RVA: 0xEF14D0 Offset: 0xEEFAD0 VA: 0x180EF14D0
 	public ICollection GetNamespaceListSymbols(NamespaceList list) { }
 
-	// RVA: 0xEF1F10 Offset: 0xEF0510 VA: 0x180EF1F10
 	public int get_Item(XmlQualifiedName name) { }
 
-	// RVA: 0xEF14A0 Offset: 0xEEFAA0 VA: 0x180EF14A0
 	public bool Exists(XmlQualifiedName name) { }
 
-	// RVA: 0xEF19A0 Offset: 0xEEFFA0 VA: 0x180EF19A0
 	public object GetParticle(int symbol) { }
 
-	// RVA: 0xEF19E0 Offset: 0xEEFFE0 VA: 0x180EF19E0
 	public string NameOf(int symbol) { }
 
 }
 
 internal class CFDictionary : CFObject // TypeDefIndex: 2519
-{	// Fields
-	private static readonly IntPtr KeyCallbacks; // 0x0
+{	private static readonly IntPtr KeyCallbacks; // 0x0
 	private static readonly IntPtr ValueCallbacks; // 0x8
 
-	// Properties
 	public IntPtr Item { get; }
 
-	// Methods
 
-	// RVA: 0x12110F0 Offset: 0x120F6F0 VA: 0x1812110F0
 	private static void .cctor() { }
 
-	// RVA: 0x1210DF0 Offset: 0x120F3F0 VA: 0x181210DF0
 	public void .ctor(IntPtr handle, bool own) { }
 
-	// RVA: 0x1210F90 Offset: 0x120F590 VA: 0x181210F90
 	private static extern IntPtr CFDictionaryGetValue(IntPtr handle, IntPtr key) { }
 
-	// RVA: 0x1211020 Offset: 0x120F620 VA: 0x181211020
 	public IntPtr GetValue(IntPtr key) { }
 
-	// RVA: 0x1211020 Offset: 0x120F620 VA: 0x181211020
 	public IntPtr get_Item(IntPtr key) { }
 
 }
 
 public class HybridDictionary : IDictionary, ICollection, IEnumerable // TypeDefIndex: 3096
-{	// Fields
-	private ListDictionary list; // 0x10
+{	private ListDictionary list; // 0x10
 	private Hashtable hashtable; // 0x18
 	private bool caseInsensitive; // 0x20
 
-	// Properties
 	public object Item { get; set; }
 	private ListDictionary List { get; }
 	public int Count { get; }
@@ -74907,73 +74056,52 @@ public class HybridDictionary : IDictionary, ICollection, IEnumerable // TypeDef
 	public object SyncRoot { get; }
 	public ICollection Values { get; }
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x15C5FB0 Offset: 0x15C45B0 VA: 0x1815C5FB0
 	public void .ctor(bool caseInsensitive) { }
 
-	// RVA: 0x15C6010 Offset: 0x15C4610 VA: 0x1815C6010 Slot: 4
 	public object get_Item(object key) { }
 
-	// RVA: 0x15C63E0 Offset: 0x15C49E0 VA: 0x1815C63E0 Slot: 5
 	public void set_Item(object key, object value) { }
 
-	// RVA: 0x15C6280 Offset: 0x15C4880 VA: 0x1815C6280
 	private ListDictionary get_List() { }
 
-	// RVA: 0x15C5400 Offset: 0x15C3A00 VA: 0x1815C5400
 	private void ChangeOver() { }
 
-	// RVA: 0x15C5FE0 Offset: 0x15C45E0 VA: 0x1815C5FE0 Slot: 15
 	public int get_Count() { }
 
-	// RVA: 0x15C61E0 Offset: 0x15C47E0 VA: 0x1815C61E0 Slot: 6
 	public ICollection get_Keys() { }
 
-	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 11
 	public bool get_IsReadOnly() { }
 
-	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80 Slot: 16
 	public object get_SyncRoot() { }
 
-	// RVA: 0x15C6340 Offset: 0x15C4940 VA: 0x1815C6340 Slot: 7
 	public ICollection get_Values() { }
 
-	// RVA: 0x15C52A0 Offset: 0x15C38A0 VA: 0x1815C52A0 Slot: 9
 	public void Add(object key, object value) { }
 
-	// RVA: 0x15C5720 Offset: 0x15C3D20 VA: 0x1815C5720 Slot: 10
 	public void Clear() { }
 
-	// RVA: 0x15C57A0 Offset: 0x15C3DA0 VA: 0x1815C57A0 Slot: 8
 	public bool Contains(object key) { }
 
-	// RVA: 0x15C5950 Offset: 0x15C3F50 VA: 0x1815C5950 Slot: 14
 	public void CopyTo(Array array, int index) { }
 
-	// RVA: 0x15C5B20 Offset: 0x15C4120 VA: 0x1815C5B20 Slot: 12
 	public IDictionaryEnumerator GetEnumerator() { }
 
-	// RVA: 0x15C5E60 Offset: 0x15C4460 VA: 0x1815C5E60 Slot: 17
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x15C5C70 Offset: 0x15C4270 VA: 0x1815C5C70 Slot: 13
 	public void Remove(object key) { }
 
 }
 
 public class ListDictionary : IDictionary, ICollection, IEnumerable // TypeDefIndex: 3097
-{	// Fields
-	private ListDictionary.DictionaryNode head; // 0x10
+{	private ListDictionary.DictionaryNode head; // 0x10
 	private int version; // 0x18
 	private int count; // 0x1C
 	private IComparer comparer; // 0x20
 	private object _syncRoot; // 0x28
 
-	// Properties
 	public object Item { get; set; }
 	public int Count { get; }
 	public ICollection Keys { get; }
@@ -74981,167 +74109,121 @@ public class ListDictionary : IDictionary, ICollection, IEnumerable // TypeDefIn
 	public object SyncRoot { get; }
 	public ICollection Values { get; }
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x14B86A0 Offset: 0x14B6CA0 VA: 0x1814B86A0
 	public void .ctor(IComparer comparer) { }
 
-	// RVA: 0x15C8330 Offset: 0x15C6930 VA: 0x1815C8330 Slot: 4
 	public object get_Item(object key) { }
 
-	// RVA: 0x15C85C0 Offset: 0x15C6BC0 VA: 0x1815C85C0 Slot: 5
 	public void set_Item(object key, object value) { }
 
-	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0 Slot: 15
 	public int get_Count() { }
 
-	// RVA: 0x15C8470 Offset: 0x15C6A70 VA: 0x1815C8470 Slot: 6
 	public ICollection get_Keys() { }
 
-	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 11
 	public bool get_IsReadOnly() { }
 
-	// RVA: 0x15C84E0 Offset: 0x15C6AE0 VA: 0x1815C84E0 Slot: 16
 	public object get_SyncRoot() { }
 
-	// RVA: 0x15C8550 Offset: 0x15C6B50 VA: 0x1815C8550 Slot: 7
 	public ICollection get_Values() { }
 
-	// RVA: 0x15C7C60 Offset: 0x15C6260 VA: 0x1815C7C60 Slot: 9
 	public void Add(object key, object value) { }
 
-	// RVA: 0x14648B0 Offset: 0x1462EB0 VA: 0x1814648B0 Slot: 10
 	public void Clear() { }
 
-	// RVA: 0x15C7E20 Offset: 0x15C6420 VA: 0x1815C7E20 Slot: 8
 	public bool Contains(object key) { }
 
-	// RVA: 0x15C7F30 Offset: 0x15C6530 VA: 0x1815C7F30 Slot: 14
 	public void CopyTo(Array array, int index) { }
 
-	// RVA: 0x15C80C0 Offset: 0x15C66C0 VA: 0x1815C80C0 Slot: 12
 	public IDictionaryEnumerator GetEnumerator() { }
 
-	// RVA: 0x15C82A0 Offset: 0x15C68A0 VA: 0x1815C82A0 Slot: 17
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x15C8150 Offset: 0x15C6750 VA: 0x1815C8150 Slot: 13
 	public void Remove(object key) { }
 
 }
 
 private class ListDictionary.NodeEnumerator : IDictionaryEnumerator, IEnumerator // TypeDefIndex: 3098
-{	// Fields
-	private ListDictionary list; // 0x10
+{	private ListDictionary list; // 0x10
 	private ListDictionary.DictionaryNode current; // 0x18
 	private int version; // 0x20
 	private bool start; // 0x24
 
-	// Properties
 	public object Current { get; }
 	public DictionaryEntry Entry { get; }
 	public object Key { get; }
 	public object Value { get; }
 
-	// Methods
 
-	// RVA: 0x1465540 Offset: 0x1463B40 VA: 0x181465540
 	public void .ctor(ListDictionary list) { }
 
-	// RVA: 0x15CD2B0 Offset: 0x15CB8B0 VA: 0x1815CD2B0 Slot: 8
 	public object get_Current() { }
 
-	// RVA: 0x15CD380 Offset: 0x15CB980 VA: 0x1815CD380 Slot: 6
 	public DictionaryEntry get_Entry() { }
 
-	// RVA: 0x15CD420 Offset: 0x15CBA20 VA: 0x1815CD420 Slot: 4
 	public object get_Key() { }
 
-	// RVA: 0x15CD4A0 Offset: 0x15CBAA0 VA: 0x1815CD4A0 Slot: 5
 	public object get_Value() { }
 
-	// RVA: 0x15CD140 Offset: 0x15CB740 VA: 0x1815CD140 Slot: 7
 	public bool MoveNext() { }
 
-	// RVA: 0x15CD210 Offset: 0x15CB810 VA: 0x1815CD210 Slot: 9
 	public void Reset() { }
 
 }
 
 private class ListDictionary.NodeKeyValueCollection : ICollection, IEnumerable // TypeDefIndex: 3099
-{	// Fields
-	private ListDictionary list; // 0x10
+{	private ListDictionary list; // 0x10
 	private bool isKeys; // 0x18
 
-	// Properties
 	private int System.Collections.ICollection.Count { get; }
 	private object System.Collections.ICollection.SyncRoot { get; }
 
-	// Methods
 
-	// RVA: 0x1465D40 Offset: 0x1464340 VA: 0x181465D40
 	public void .ctor(ListDictionary list, bool isKeys) { }
 
-	// RVA: 0x15CD520 Offset: 0x15CBB20 VA: 0x1815CD520 Slot: 4
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 
-	// RVA: 0x1465BE0 Offset: 0x14641E0 VA: 0x181465BE0 Slot: 5
 	private int System.Collections.ICollection.get_Count() { }
 
-	// RVA: 0x15CD650 Offset: 0x15CBC50 VA: 0x1815CD650 Slot: 6
 	private object System.Collections.ICollection.get_SyncRoot() { }
 
-	// RVA: 0x15CD6E0 Offset: 0x15CBCE0 VA: 0x1815CD6E0 Slot: 7
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
 
 private class ListDictionary.NodeKeyValueCollection.NodeKeyValueEnumerator : IEnumerator // TypeDefIndex: 3100
-{	// Fields
-	private ListDictionary list; // 0x10
+{	private ListDictionary list; // 0x10
 	private ListDictionary.DictionaryNode current; // 0x18
 	private int version; // 0x20
 	private bool isKeys; // 0x24
 	private bool start; // 0x25
 
-	// Properties
 	public object Current { get; }
 
-	// Methods
 
-	// RVA: 0x1465F00 Offset: 0x1464500 VA: 0x181465F00
 	public void .ctor(ListDictionary list, bool isKeys) { }
 
-	// RVA: 0x15CD8F0 Offset: 0x15CBEF0 VA: 0x1815CD8F0 Slot: 5
 	public object get_Current() { }
 
-	// RVA: 0x15CD780 Offset: 0x15CBD80 VA: 0x1815CD780 Slot: 4
 	public bool MoveNext() { }
 
-	// RVA: 0x15CD850 Offset: 0x15CBE50 VA: 0x1815CD850 Slot: 6
 	public void Reset() { }
 
 }
 
 private class ListDictionary.DictionaryNode // TypeDefIndex: 3101
-{	// Fields
-	public object key; // 0x10
+{	public object key; // 0x10
 	public object value; // 0x18
 	public ListDictionary.DictionaryNode next; // 0x20
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
 }
 
 public class OrderedDictionary : IDictionary, ICollection, IEnumerable, ISerializable, IDeserializationCallback // TypeDefIndex: 3107
-{	// Fields
-	private ArrayList _objectsArray; // 0x10
+{	private ArrayList _objectsArray; // 0x10
 	private Hashtable _objectsTable; // 0x18
 	private int _initialCapacity; // 0x20
 	private IEqualityComparer _comparer; // 0x28
@@ -75149,7 +74231,6 @@ public class OrderedDictionary : IDictionary, ICollection, IEnumerable, ISeriali
 	private object _syncRoot; // 0x38
 	private SerializationInfo _siInfo; // 0x40
 
-	// Properties
 	public int Count { get; }
 	public bool IsReadOnly { get; }
 	public ICollection Keys { get; }
@@ -75159,163 +74240,115 @@ public class OrderedDictionary : IDictionary, ICollection, IEnumerable, ISeriali
 	public object Item { get; set; }
 	public ICollection Values { get; }
 
-	// Methods
 
-	// RVA: 0x15CED60 Offset: 0x15CD360 VA: 0x1815CED60
 	public void .ctor() { }
 
-	// RVA: 0x15CED20 Offset: 0x15CD320 VA: 0x1815CED20
 	public void .ctor(int capacity) { }
 
-	// RVA: 0x15CEDC0 Offset: 0x15CD3C0 VA: 0x1815CEDC0
 	public void .ctor(int capacity, IEqualityComparer comparer) { }
 
-	// RVA: 0x15CED90 Offset: 0x15CD390 VA: 0x1815CED90
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x15CEE00 Offset: 0x15CD400 VA: 0x1815CEE00 Slot: 15
 	public int get_Count() { }
 
-	// RVA: 0x82C2F0 Offset: 0x82A8F0 VA: 0x18082C2F0 Slot: 11
 	public bool get_IsReadOnly() { }
 
-	// RVA: 0x15CEE70 Offset: 0x15CD470 VA: 0x1815CEE70 Slot: 6
 	public ICollection get_Keys() { }
 
-	// RVA: 0x15CEF50 Offset: 0x15CD550 VA: 0x1815CEF50
 	private ArrayList get_objectsArray() { }
 
-	// RVA: 0x15CEFD0 Offset: 0x15CD5D0 VA: 0x1815CEFD0
 	private Hashtable get_objectsTable() { }
 
-	// RVA: 0x15CEC10 Offset: 0x15CD210 VA: 0x1815CEC10 Slot: 16
 	private object System.Collections.ICollection.get_SyncRoot() { }
 
-	// RVA: 0x15CEE30 Offset: 0x15CD430 VA: 0x1815CEE30 Slot: 4
 	public object get_Item(object key) { }
 
-	// RVA: 0x15CF060 Offset: 0x15CD660 VA: 0x1815CF060 Slot: 5
 	public void set_Item(object key, object value) { }
 
-	// RVA: 0x15CEEE0 Offset: 0x15CD4E0 VA: 0x1815CEEE0 Slot: 7
 	public ICollection get_Values() { }
 
-	// RVA: 0x15CE1F0 Offset: 0x15CC7F0 VA: 0x1815CE1F0 Slot: 9
 	public void Add(object key, object value) { }
 
-	// RVA: 0x15CE310 Offset: 0x15CC910 VA: 0x1815CE310 Slot: 10
 	public void Clear() { }
 
-	// RVA: 0x15CE3E0 Offset: 0x15CC9E0 VA: 0x1815CE3E0 Slot: 8
 	public bool Contains(object key) { }
 
-	// RVA: 0x15CE420 Offset: 0x15CCA20 VA: 0x1815CE420 Slot: 14
 	public void CopyTo(Array array, int index) { }
 
-	// RVA: 0x15CE690 Offset: 0x15CCC90 VA: 0x1815CE690
 	private int IndexOfKey(object key) { }
 
-	// RVA: 0x15CE7E0 Offset: 0x15CCDE0 VA: 0x1815CE7E0 Slot: 20
 	protected virtual void OnDeserialization(object sender) { }
 
-	// RVA: 0x15CEAE0 Offset: 0x15CD0E0 VA: 0x1815CEAE0 Slot: 13
 	public void Remove(object key) { }
 
-	// RVA: 0x15CE470 Offset: 0x15CCA70 VA: 0x1815CE470 Slot: 21
 	public virtual IDictionaryEnumerator GetEnumerator() { }
 
-	// RVA: 0x15CEC80 Offset: 0x15CD280 VA: 0x1815CEC80 Slot: 17
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x15CE510 Offset: 0x15CCB10 VA: 0x1815CE510 Slot: 22
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xAEF3F0 Offset: 0xAED9F0 VA: 0x180AEF3F0 Slot: 19
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
 
 }
 
 private class OrderedDictionary.OrderedDictionaryEnumerator : IDictionaryEnumerator, IEnumerator // TypeDefIndex: 3108
-{	// Fields
-	private int _objectReturnType; // 0x10
+{	private int _objectReturnType; // 0x10
 	private IEnumerator arrayEnumerator; // 0x18
 
-	// Properties
 	public object Current { get; }
 	public DictionaryEntry Entry { get; }
 	public object Key { get; }
 	public object Value { get; }
 
-	// Methods
 
-	// RVA: 0x15CDA20 Offset: 0x15CC020 VA: 0x1815CDA20
 	internal void .ctor(ArrayList array, int objectReturnType) { }
 
-	// RVA: 0x15CDA80 Offset: 0x15CC080 VA: 0x1815CDA80 Slot: 8
 	public object get_Current() { }
 
-	// RVA: 0x15CDC80 Offset: 0x15CC280 VA: 0x1815CDC80 Slot: 6
 	public DictionaryEntry get_Entry() { }
 
-	// RVA: 0x15CDD90 Offset: 0x15CC390 VA: 0x1815CDD90 Slot: 4
 	public object get_Key() { }
 
-	// RVA: 0x15CDE10 Offset: 0x15CC410 VA: 0x1815CDE10 Slot: 5
 	public object get_Value() { }
 
-	// RVA: 0x15CD980 Offset: 0x15CBF80 VA: 0x1815CD980 Slot: 7
 	public bool MoveNext() { }
 
-	// RVA: 0x15CD9D0 Offset: 0x15CBFD0 VA: 0x1815CD9D0 Slot: 9
 	public void Reset() { }
 
 }
 
 private class OrderedDictionary.OrderedDictionaryKeyValueCollection : ICollection, IEnumerable // TypeDefIndex: 3109
-{	// Fields
-	private ArrayList _objects; // 0x10
+{	private ArrayList _objects; // 0x10
 	private bool isKeys; // 0x18
 
-	// Properties
 	private int System.Collections.ICollection.Count { get; }
 	private object System.Collections.ICollection.SyncRoot { get; }
 
-	// Methods
 
-	// RVA: 0x1465D40 Offset: 0x1464340 VA: 0x181465D40
 	public void .ctor(ArrayList array, bool isKeys) { }
 
-	// RVA: 0x15CDEA0 Offset: 0x15CC4A0 VA: 0x1815CDEA0 Slot: 4
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 
-	// RVA: 0xB197D0 Offset: 0xB17DD0 VA: 0x180B197D0 Slot: 5
 	private int System.Collections.ICollection.get_Count() { }
 
-	// RVA: 0x13480D0 Offset: 0x13466D0 VA: 0x1813480D0 Slot: 6
 	private object System.Collections.ICollection.get_SyncRoot() { }
 
-	// RVA: 0x15CE150 Offset: 0x15CC750 VA: 0x1815CE150 Slot: 7
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
 
 public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T>, ISerializable, IDeserializationCallback // TypeDefIndex: 3115
 {
-// Namespace: System.Collections.Generic
 internal sealed class IDictionaryDebugView<K, V> // TypeDefIndex: 3112
 
-// Namespace: System.Collections.Generic
 internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefIndex: 3113
 
-// Namespace: System.Collections.Generic
 internal sealed class DictionaryValueCollectionDebugView<TKey, TValue> // TypeDefIndex: 3114
 
-// Namespace: System.Collections.Generic
 [DebuggerTypeProxyAttribute] // RVA: 0xBBFE0 Offset: 0xBB3E0 VA: 0x1800BBFE0
 [DebuggerDisplayAttribute] // RVA: 0xBBFE0 Offset: 0xBB3E0 VA: 0x1800BBFE0
 [Serializable]
 public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T>, ISerializable, IDeserializationCallback // TypeDefIndex: 3115
-	// Fields
 	internal LinkedListNode<T> head; // 0x0
 	internal int count; // 0x0
 	internal int version; // 0x0
@@ -75325,16 +74358,13 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	private const string CountName = "Count";
 	private const string ValuesName = "Data";
 
-	// Properties
 	public int Count { get; }
 	public LinkedListNode<T> First { get; }
 	public LinkedListNode<T> Last { get; }
 	private bool System.Collections.Generic.ICollection<T>.IsReadOnly { get; }
 	private object System.Collections.ICollection.SyncRoot { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -75350,7 +74380,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<WeakReference>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -75360,7 +74389,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -75372,7 +74400,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<CachedCodeEntry>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1
 	public LinkedListNode<T> get_First() { }
 	/* GenericInstMethod :
 	|
@@ -75385,7 +74412,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<CachedCodeEntry>.get_First
 	*/
 
-	// RVA: -1 Offset: -1
 	public LinkedListNode<T> get_Last() { }
 	/* GenericInstMethod :
 	|
@@ -75396,7 +74422,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.get_Last
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private bool System.Collections.Generic.ICollection<T>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -75406,7 +74431,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private void System.Collections.Generic.ICollection<T>.Add(T value) { }
 	/* GenericInstMethod :
 	|
@@ -75418,7 +74442,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.System.Collections.Generic.ICollection<T>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public LinkedListNode<T> AddFirst(T value) { }
 	/* GenericInstMethod :
 	|
@@ -75432,7 +74455,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<CachedCodeEntry>.AddFirst
 	*/
 
-	// RVA: -1 Offset: -1
 	public void AddFirst(LinkedListNode<T> node) { }
 	/* GenericInstMethod :
 	|
@@ -75443,7 +74465,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<CachedCodeEntry>.AddFirst
 	*/
 
-	// RVA: -1 Offset: -1
 	public LinkedListNode<T> AddLast(T value) { }
 	/* GenericInstMethod :
 	|
@@ -75458,7 +74479,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<KeyValuePair<uint, object>>.AddLast
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -75468,7 +74488,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public bool Contains(T value) { }
 	/* GenericInstMethod :
 	|
@@ -75480,7 +74499,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void CopyTo(T[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -75494,7 +74512,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public LinkedListNode<T> Find(T value) { }
 	/* GenericInstMethod :
 	|
@@ -75506,7 +74523,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.Find
 	*/
 
-	// RVA: -1 Offset: -1
 	public LinkedList.Enumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -75521,7 +74537,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<KeyValuePair<uint, object>>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -75533,7 +74548,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public bool Remove(T value) { }
 	/* GenericInstMethod :
 	|
@@ -75546,7 +74560,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Remove(LinkedListNode<T> node) { }
 	/* GenericInstMethod :
 	|
@@ -75560,7 +74573,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<CachedCodeEntry>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	public void RemoveLast() { }
 	/* GenericInstMethod :
 	|
@@ -75575,7 +74587,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<CachedCodeEntry>.RemoveLast
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 19
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -75589,7 +74600,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.GetObjectData
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 20
 	public virtual void OnDeserialization(object sender) { }
 	/* GenericInstMethod :
 	|
@@ -75603,7 +74613,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.OnDeserialization
 	*/
 
-	// RVA: -1 Offset: -1
 	private void InternalInsertNodeBefore(LinkedListNode<T> node, LinkedListNode<T> newNode) { }
 	/* GenericInstMethod :
 	|
@@ -75613,7 +74622,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.InternalInsertNodeBefore
 	*/
 
-	// RVA: -1 Offset: -1
 	private void InternalInsertNodeToEmptyList(LinkedListNode<T> newNode) { }
 	/* GenericInstMethod :
 	|
@@ -75623,7 +74631,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.InternalInsertNodeToEmptyList
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void InternalRemoveNode(LinkedListNode<T> node) { }
 	/* GenericInstMethod :
 	|
@@ -75633,7 +74640,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.InternalRemoveNode
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void ValidateNewNode(LinkedListNode<T> node) { }
 	/* GenericInstMethod :
 	|
@@ -75647,7 +74653,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.ValidateNewNode
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void ValidateNode(LinkedListNode<T> node) { }
 	/* GenericInstMethod :
 	|
@@ -75661,7 +74666,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.ValidateNode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 15
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -75675,7 +74679,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.System.Collections.ICollection.get_SyncRoot
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -75689,7 +74692,6 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 	|-LinkedList<object>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -75704,21 +74706,17 @@ public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IColle
 }
 
 public sealed class LinkedListNode<T> // TypeDefIndex: 3117
-{	// Fields
-	internal LinkedList<T> list; // 0x0
+{	internal LinkedList<T> list; // 0x0
 	internal LinkedListNode<T> next; // 0x0
 	internal LinkedListNode<T> prev; // 0x0
 	internal T item; // 0x0
 
-	// Properties
 	public LinkedList<T> List { get; }
 	public LinkedListNode<T> Next { get; }
 	public LinkedListNode<T> Previous { get; }
 	public T Value { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(T value) { }
 	/* GenericInstMethod :
 	|
@@ -75732,7 +74730,6 @@ public sealed class LinkedListNode<T> // TypeDefIndex: 3117
 	|-LinkedListNode<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(LinkedList<T> list, T value) { }
 	/* GenericInstMethod :
 	|
@@ -75746,7 +74743,6 @@ public sealed class LinkedListNode<T> // TypeDefIndex: 3117
 	|-LinkedListNode<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public LinkedList<T> get_List() { }
 	/* GenericInstMethod :
 	|
@@ -75757,7 +74753,6 @@ public sealed class LinkedListNode<T> // TypeDefIndex: 3117
 	|-LinkedListNode<object>.get_List
 	*/
 
-	// RVA: -1 Offset: -1
 	public LinkedListNode<T> get_Next() { }
 	/* GenericInstMethod :
 	|
@@ -75771,7 +74766,6 @@ public sealed class LinkedListNode<T> // TypeDefIndex: 3117
 	|-LinkedListNode<CachedCodeEntry>.get_Next
 	*/
 
-	// RVA: -1 Offset: -1
 	public LinkedListNode<T> get_Previous() { }
 	/* GenericInstMethod :
 	|
@@ -75782,7 +74776,6 @@ public sealed class LinkedListNode<T> // TypeDefIndex: 3117
 	|-LinkedListNode<object>.get_Previous
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Value() { }
 	/* GenericInstMethod :
 	|
@@ -75798,7 +74791,6 @@ public sealed class LinkedListNode<T> // TypeDefIndex: 3117
 	|-LinkedListNode<KeyValuePair<uint, object>>.get_Value
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Value(T value) { }
 	/* GenericInstMethod :
 	|
@@ -75812,7 +74804,6 @@ public sealed class LinkedListNode<T> // TypeDefIndex: 3117
 	|-LinkedListNode<object>.set_Value
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void Invalidate() { }
 	/* GenericInstMethod :
 	|
@@ -75826,18 +74817,15 @@ public sealed class LinkedListNode<T> // TypeDefIndex: 3117
 
 public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IDictionary, ICollection, IReadOnlyDictionary<TKey, TValue>, IReadOnlyCollection<KeyValuePair<TKey, TValue>> // TypeDefIndex: 3121
 {
-// Namespace: System.Collections.Generic
 [DebuggerDisplayAttribute] // RVA: 0xBC4C0 Offset: 0xBB8C0 VA: 0x1800BC4C0
 [DefaultMemberAttribute] // RVA: 0xBC4C0 Offset: 0xBB8C0 VA: 0x1800BC4C0
 [DebuggerTypeProxyAttribute] // RVA: 0xBC4C0 Offset: 0xBB8C0 VA: 0x1800BC4C0
 [Serializable]
 public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IDictionary, ICollection, IReadOnlyDictionary<TKey, TValue>, IReadOnlyCollection<KeyValuePair<TKey, TValue>> // TypeDefIndex: 3121
-	// Fields
 	private SortedDictionary.KeyCollection<TKey, TValue> _keys; // 0x0
 	private SortedDictionary.ValueCollection<TKey, TValue> _values; // 0x0
 	private TreeSet<KeyValuePair<TKey, TValue>> _set; // 0x0
 
-	// Properties
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly { get; }
 	public TValue Item { get; set; }
 	public int Count { get; }
@@ -75851,9 +74839,7 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	private object System.Collections.IDictionary.Item { get; set; }
 	private object System.Collections.ICollection.SyncRoot { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -75862,7 +74848,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -75871,7 +74856,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	private void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(KeyValuePair<TKey, TValue> keyValuePair) { }
 	/* GenericInstMethod :
 	|
@@ -75880,7 +74864,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(KeyValuePair<TKey, TValue> keyValuePair) { }
 	/* GenericInstMethod :
 	|
@@ -75889,7 +74872,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 18
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(KeyValuePair<TKey, TValue> keyValuePair) { }
 	/* GenericInstMethod :
 	|
@@ -75898,7 +74880,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -75907,7 +74888,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public TValue get_Item(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -75918,7 +74898,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void set_Item(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -75929,7 +74908,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 35
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -75938,7 +74916,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1
 	public SortedDictionary.KeyCollection<TKey, TValue> get_Keys() { }
 	/* GenericInstMethod :
 	|
@@ -75947,7 +74924,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.get_Keys
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private ICollection<TKey> System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys() { }
 	/* GenericInstMethod :
 	|
@@ -75956,7 +74932,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys
 	*/
 
-	// RVA: -1 Offset: -1
 	public SortedDictionary.ValueCollection<TKey, TValue> get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -75965,7 +74940,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.get_Values
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private ICollection<TValue> System.Collections.Generic.IDictionary<TKey,TValue>.get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -75974,7 +74948,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.Generic.IDictionary<TKey,TValue>.get_Values
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void Add(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -75985,7 +74958,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 27
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -75994,7 +74966,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public bool ContainsKey(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -76005,7 +74976,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.ContainsKey
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool ContainsValue(TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -76014,7 +74984,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.ContainsValue
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 17
 	public void CopyTo(KeyValuePair<TKey, TValue>[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -76023,7 +74992,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public SortedDictionary.Enumerator<TKey, TValue> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -76032,7 +75000,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 19
 	private IEnumerator<KeyValuePair<TKey, TValue>> System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -76041,7 +75008,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public bool Remove(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -76052,7 +75018,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 34
 	public bool TryGetValue(TKey key, out TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -76063,7 +75028,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.TryGetValue
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 31
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -76074,7 +75038,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 28
 	private bool System.Collections.IDictionary.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -76083,7 +75046,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.IDictionary.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 23
 	private ICollection System.Collections.IDictionary.get_Keys() { }
 	/* GenericInstMethod :
 	|
@@ -76092,7 +75054,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.IDictionary.get_Keys
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 24
 	private ICollection System.Collections.IDictionary.get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -76101,7 +75062,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.IDictionary.get_Values
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 21
 	private object System.Collections.IDictionary.get_Item(object key) { }
 	/* GenericInstMethod :
 	|
@@ -76112,7 +75072,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.IDictionary.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 22
 	private void System.Collections.IDictionary.set_Item(object key, object value) { }
 	/* GenericInstMethod :
 	|
@@ -76123,7 +75082,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.IDictionary.set_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 26
 	private void System.Collections.IDictionary.Add(object key, object value) { }
 	/* GenericInstMethod :
 	|
@@ -76134,7 +75092,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.IDictionary.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 25
 	private bool System.Collections.IDictionary.Contains(object key) { }
 	/* GenericInstMethod :
 	|
@@ -76145,7 +75102,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.IDictionary.Contains
 	*/
 
-	// RVA: -1 Offset: -1
 	private static bool IsCompatibleKey(object key) { }
 	/* GenericInstMethod :
 	|
@@ -76156,7 +75112,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.IsCompatibleKey
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 29
 	private IDictionaryEnumerator System.Collections.IDictionary.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -76165,7 +75120,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.IDictionary.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 30
 	private void System.Collections.IDictionary.Remove(object key) { }
 	/* GenericInstMethod :
 	|
@@ -76176,7 +75130,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.IDictionary.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 33
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -76187,7 +75140,6 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 	|-SortedDictionary<object, object>.System.Collections.ICollection.get_SyncRoot
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 20
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -76199,11 +75151,9 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 }
 
 public struct SortedDictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePair<TKey, TValue>>, IDisposable, IEnumerator, IDictionaryEnumerator // TypeDefIndex: 3122
-{	// Fields
-	private SortedSet.Enumerator<KeyValuePair<TKey, TValue>> _treeEnum; // 0x0
+{	private SortedSet.Enumerator<KeyValuePair<TKey, TValue>> _treeEnum; // 0x0
 	private int _getEnumeratorRetType; // 0x0
 
-	// Properties
 	public KeyValuePair<TKey, TValue> Current { get; }
 	internal bool NotStartedOrEnded { get; }
 	private object System.Collections.IEnumerator.Current { get; }
@@ -76211,9 +75161,7 @@ public struct SortedDictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePa
 	private object System.Collections.IDictionaryEnumerator.Value { get; }
 	private DictionaryEntry System.Collections.IDictionaryEnumerator.Entry { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(SortedDictionary<TKey, TValue> dictionary, int getEnumeratorRetType) { }
 	/* GenericInstMethod :
 	|
@@ -76222,7 +75170,6 @@ public struct SortedDictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePa
 	|-SortedDictionary.Enumerator<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
@@ -76233,7 +75180,6 @@ public struct SortedDictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePa
 	|-SortedDictionary.Enumerator<object, object>.MoveNext
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -76242,7 +75188,6 @@ public struct SortedDictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePa
 	|-SortedDictionary.Enumerator<object, object>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public KeyValuePair<TKey, TValue> get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -76251,7 +75196,6 @@ public struct SortedDictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePa
 	|-SortedDictionary.Enumerator<object, object>.get_Current
 	*/
 
-	// RVA: -1 Offset: -1
 	internal bool get_NotStartedOrEnded() { }
 	/* GenericInstMethod :
 	|
@@ -76260,7 +75204,6 @@ public struct SortedDictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePa
 	|-SortedDictionary.Enumerator<object, object>.get_NotStartedOrEnded
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void Reset() { }
 	/* GenericInstMethod :
 	|
@@ -76271,7 +75214,6 @@ public struct SortedDictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePa
 	|-SortedDictionary.Enumerator<object, object>.Reset
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
@@ -76282,7 +75224,6 @@ public struct SortedDictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePa
 	|-SortedDictionary.Enumerator<object, object>.System.Collections.IEnumerator.Reset
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -76293,7 +75234,6 @@ public struct SortedDictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePa
 	|-SortedDictionary.Enumerator<object, object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IDictionaryEnumerator.get_Key() { }
 	/* GenericInstMethod :
 	|
@@ -76304,7 +75244,6 @@ public struct SortedDictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePa
 	|-SortedDictionary.Enumerator<object, object>.System.Collections.IDictionaryEnumerator.get_Key
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	private object System.Collections.IDictionaryEnumerator.get_Value() { }
 	/* GenericInstMethod :
 	|
@@ -76315,7 +75254,6 @@ public struct SortedDictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePa
 	|-SortedDictionary.Enumerator<object, object>.System.Collections.IDictionaryEnumerator.get_Value
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	private DictionaryEntry System.Collections.IDictionaryEnumerator.get_Entry() { }
 	/* GenericInstMethod :
 	|
@@ -76329,17 +75267,13 @@ public struct SortedDictionary.Enumerator<TKey, TValue> : IEnumerator<KeyValuePa
 }
 
 public sealed class SortedDictionary.KeyCollection<TKey, TValue> : ICollection<TKey>, IEnumerable<TKey>, IEnumerable, ICollection, IReadOnlyCollection<TKey> // TypeDefIndex: 3123
-{	// Fields
-	private SortedDictionary<TKey, TValue> _dictionary; // 0x0
+{	private SortedDictionary<TKey, TValue> _dictionary; // 0x0
 
-	// Properties
 	public int Count { get; }
 	private bool System.Collections.Generic.ICollection<TKey>.IsReadOnly { get; }
 	private object System.Collections.ICollection.SyncRoot { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(SortedDictionary<TKey, TValue> dictionary) { }
 	/* GenericInstMethod :
 	|
@@ -76350,7 +75284,6 @@ public sealed class SortedDictionary.KeyCollection<TKey, TValue> : ICollection<T
 	|-SortedDictionary.KeyCollection<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	private IEnumerator<TKey> System.Collections.Generic.IEnumerable<TKey>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -76361,7 +75294,6 @@ public sealed class SortedDictionary.KeyCollection<TKey, TValue> : ICollection<T
 	|-SortedDictionary.KeyCollection<object, object>.System.Collections.Generic.IEnumerable<TKey>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -76372,7 +75304,6 @@ public sealed class SortedDictionary.KeyCollection<TKey, TValue> : ICollection<T
 	|-SortedDictionary.KeyCollection<object, object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void CopyTo(TKey[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -76383,7 +75314,6 @@ public sealed class SortedDictionary.KeyCollection<TKey, TValue> : ICollection<T
 	|-SortedDictionary.KeyCollection<object, object>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -76394,7 +75324,6 @@ public sealed class SortedDictionary.KeyCollection<TKey, TValue> : ICollection<T
 	|-SortedDictionary.KeyCollection<object, object>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -76403,7 +75332,6 @@ public sealed class SortedDictionary.KeyCollection<TKey, TValue> : ICollection<T
 	|-SortedDictionary.KeyCollection<object, object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private bool System.Collections.Generic.ICollection<TKey>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -76412,7 +75340,6 @@ public sealed class SortedDictionary.KeyCollection<TKey, TValue> : ICollection<T
 	|-SortedDictionary.KeyCollection<object, object>.System.Collections.Generic.ICollection<TKey>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private void System.Collections.Generic.ICollection<TKey>.Add(TKey item) { }
 	/* GenericInstMethod :
 	|
@@ -76423,7 +75350,6 @@ public sealed class SortedDictionary.KeyCollection<TKey, TValue> : ICollection<T
 	|-SortedDictionary.KeyCollection<object, object>.System.Collections.Generic.ICollection<TKey>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private void System.Collections.Generic.ICollection<TKey>.Clear() { }
 	/* GenericInstMethod :
 	|
@@ -76434,7 +75360,6 @@ public sealed class SortedDictionary.KeyCollection<TKey, TValue> : ICollection<T
 	|-SortedDictionary.KeyCollection<object, object>.System.Collections.Generic.ICollection<TKey>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private bool System.Collections.Generic.ICollection<TKey>.Contains(TKey item) { }
 	/* GenericInstMethod :
 	|
@@ -76443,7 +75368,6 @@ public sealed class SortedDictionary.KeyCollection<TKey, TValue> : ICollection<T
 	|-SortedDictionary.KeyCollection<object, object>.System.Collections.Generic.ICollection<TKey>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	private bool System.Collections.Generic.ICollection<TKey>.Remove(TKey item) { }
 	/* GenericInstMethod :
 	|
@@ -76454,7 +75378,6 @@ public sealed class SortedDictionary.KeyCollection<TKey, TValue> : ICollection<T
 	|-SortedDictionary.KeyCollection<object, object>.System.Collections.Generic.ICollection<TKey>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 15
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -76468,16 +75391,12 @@ public sealed class SortedDictionary.KeyCollection<TKey, TValue> : ICollection<T
 }
 
 public struct SortedDictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumerator<TKey>, IDisposable, IEnumerator // TypeDefIndex: 3124
-{	// Fields
-	private SortedDictionary.Enumerator<TKey, TValue> _dictEnum; // 0x0
+{	private SortedDictionary.Enumerator<TKey, TValue> _dictEnum; // 0x0
 
-	// Properties
 	public TKey Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(SortedDictionary<TKey, TValue> dictionary) { }
 	/* GenericInstMethod :
 	|
@@ -76488,7 +75407,6 @@ public struct SortedDictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumera
 	|-SortedDictionary.KeyCollection.Enumerator<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -76497,7 +75415,6 @@ public struct SortedDictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumera
 	|-SortedDictionary.KeyCollection.Enumerator<object, object>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
@@ -76508,7 +75425,6 @@ public struct SortedDictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumera
 	|-SortedDictionary.KeyCollection.Enumerator<object, object>.MoveNext
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public TKey get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -76517,7 +75433,6 @@ public struct SortedDictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumera
 	|-SortedDictionary.KeyCollection.Enumerator<object, object>.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -76528,7 +75443,6 @@ public struct SortedDictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumera
 	|-SortedDictionary.KeyCollection.Enumerator<object, object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
@@ -76542,13 +75456,10 @@ public struct SortedDictionary.KeyCollection.Enumerator<TKey, TValue> : IEnumera
 }
 
 private sealed class SortedDictionary.KeyCollection.<>c__DisplayClass5_0<TKey, TValue> // TypeDefIndex: 3125
-{	// Fields
-	public TKey[] array; // 0x0
+{	public TKey[] array; // 0x0
 	public int index; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -76557,7 +75468,6 @@ private sealed class SortedDictionary.KeyCollection.<>c__DisplayClass5_0<TKey, T
 	|-SortedDictionary.KeyCollection.<>c__DisplayClass5_0<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal bool <CopyTo>b__0(SortedSet.Node<KeyValuePair<TKey, TValue>> node) { }
 	/* GenericInstMethod :
 	|
@@ -76571,12 +75481,9 @@ private sealed class SortedDictionary.KeyCollection.<>c__DisplayClass5_0<TKey, T
 }
 
 private sealed class SortedDictionary.KeyCollection.<>c__DisplayClass6_0<TKey, TValue> // TypeDefIndex: 3126
-{	// Fields
-	public int index; // 0x0
+{	public int index; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -76588,13 +75495,10 @@ private sealed class SortedDictionary.KeyCollection.<>c__DisplayClass6_0<TKey, T
 }
 
 private sealed class SortedDictionary.KeyCollection.<>c__DisplayClass6_1<TKey, TValue> // TypeDefIndex: 3127
-{	// Fields
-	public object[] objects; // 0x0
+{	public object[] objects; // 0x0
 	public SortedDictionary.KeyCollection.<>c__DisplayClass6_0<TKey, TValue> CS$<>8__locals1; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -76603,7 +75507,6 @@ private sealed class SortedDictionary.KeyCollection.<>c__DisplayClass6_1<TKey, T
 	|-SortedDictionary.KeyCollection.<>c__DisplayClass6_1<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal bool <System.Collections.ICollection.CopyTo>b__0(SortedSet.Node<KeyValuePair<TKey, TValue>> node) { }
 	/* GenericInstMethod :
 	|
@@ -76617,17 +75520,13 @@ private sealed class SortedDictionary.KeyCollection.<>c__DisplayClass6_1<TKey, T
 }
 
 public sealed class SortedDictionary.ValueCollection<TKey, TValue> : ICollection<TValue>, IEnumerable<TValue>, IEnumerable, ICollection, IReadOnlyCollection<TValue> // TypeDefIndex: 3128
-{	// Fields
-	private SortedDictionary<TKey, TValue> _dictionary; // 0x0
+{	private SortedDictionary<TKey, TValue> _dictionary; // 0x0
 
-	// Properties
 	public int Count { get; }
 	private bool System.Collections.Generic.ICollection<TValue>.IsReadOnly { get; }
 	private object System.Collections.ICollection.SyncRoot { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(SortedDictionary<TKey, TValue> dictionary) { }
 	/* GenericInstMethod :
 	|
@@ -76638,7 +75537,6 @@ public sealed class SortedDictionary.ValueCollection<TKey, TValue> : ICollection
 	|-SortedDictionary.ValueCollection<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	private IEnumerator<TValue> System.Collections.Generic.IEnumerable<TValue>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -76647,7 +75545,6 @@ public sealed class SortedDictionary.ValueCollection<TKey, TValue> : ICollection
 	|-SortedDictionary.ValueCollection<object, object>.System.Collections.Generic.IEnumerable<TValue>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -76656,7 +75553,6 @@ public sealed class SortedDictionary.ValueCollection<TKey, TValue> : ICollection
 	|-SortedDictionary.ValueCollection<object, object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void CopyTo(TValue[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -76667,7 +75563,6 @@ public sealed class SortedDictionary.ValueCollection<TKey, TValue> : ICollection
 	|-SortedDictionary.ValueCollection<object, object>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -76678,7 +75573,6 @@ public sealed class SortedDictionary.ValueCollection<TKey, TValue> : ICollection
 	|-SortedDictionary.ValueCollection<object, object>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -76687,7 +75581,6 @@ public sealed class SortedDictionary.ValueCollection<TKey, TValue> : ICollection
 	|-SortedDictionary.ValueCollection<object, object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private bool System.Collections.Generic.ICollection<TValue>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -76696,7 +75589,6 @@ public sealed class SortedDictionary.ValueCollection<TKey, TValue> : ICollection
 	|-SortedDictionary.ValueCollection<object, object>.System.Collections.Generic.ICollection<TValue>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private void System.Collections.Generic.ICollection<TValue>.Add(TValue item) { }
 	/* GenericInstMethod :
 	|
@@ -76707,7 +75599,6 @@ public sealed class SortedDictionary.ValueCollection<TKey, TValue> : ICollection
 	|-SortedDictionary.ValueCollection<object, object>.System.Collections.Generic.ICollection<TValue>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private void System.Collections.Generic.ICollection<TValue>.Clear() { }
 	/* GenericInstMethod :
 	|
@@ -76718,7 +75609,6 @@ public sealed class SortedDictionary.ValueCollection<TKey, TValue> : ICollection
 	|-SortedDictionary.ValueCollection<object, object>.System.Collections.Generic.ICollection<TValue>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private bool System.Collections.Generic.ICollection<TValue>.Contains(TValue item) { }
 	/* GenericInstMethod :
 	|
@@ -76727,7 +75617,6 @@ public sealed class SortedDictionary.ValueCollection<TKey, TValue> : ICollection
 	|-SortedDictionary.ValueCollection<object, object>.System.Collections.Generic.ICollection<TValue>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	private bool System.Collections.Generic.ICollection<TValue>.Remove(TValue item) { }
 	/* GenericInstMethod :
 	|
@@ -76738,7 +75627,6 @@ public sealed class SortedDictionary.ValueCollection<TKey, TValue> : ICollection
 	|-SortedDictionary.ValueCollection<object, object>.System.Collections.Generic.ICollection<TValue>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 15
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -76752,16 +75640,12 @@ public sealed class SortedDictionary.ValueCollection<TKey, TValue> : ICollection
 }
 
 public struct SortedDictionary.ValueCollection.Enumerator<TKey, TValue> : IEnumerator<TValue>, IDisposable, IEnumerator // TypeDefIndex: 3129
-{	// Fields
-	private SortedDictionary.Enumerator<TKey, TValue> _dictEnum; // 0x0
+{	private SortedDictionary.Enumerator<TKey, TValue> _dictEnum; // 0x0
 
-	// Properties
 	public TValue Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(SortedDictionary<TKey, TValue> dictionary) { }
 	/* GenericInstMethod :
 	|
@@ -76770,7 +75654,6 @@ public struct SortedDictionary.ValueCollection.Enumerator<TKey, TValue> : IEnume
 	|-SortedDictionary.ValueCollection.Enumerator<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -76779,7 +75662,6 @@ public struct SortedDictionary.ValueCollection.Enumerator<TKey, TValue> : IEnume
 	|-SortedDictionary.ValueCollection.Enumerator<object, object>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
@@ -76790,7 +75672,6 @@ public struct SortedDictionary.ValueCollection.Enumerator<TKey, TValue> : IEnume
 	|-SortedDictionary.ValueCollection.Enumerator<object, object>.MoveNext
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public TValue get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -76799,7 +75680,6 @@ public struct SortedDictionary.ValueCollection.Enumerator<TKey, TValue> : IEnume
 	|-SortedDictionary.ValueCollection.Enumerator<object, object>.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -76810,7 +75690,6 @@ public struct SortedDictionary.ValueCollection.Enumerator<TKey, TValue> : IEnume
 	|-SortedDictionary.ValueCollection.Enumerator<object, object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
@@ -76824,13 +75703,10 @@ public struct SortedDictionary.ValueCollection.Enumerator<TKey, TValue> : IEnume
 }
 
 private sealed class SortedDictionary.ValueCollection.<>c__DisplayClass5_0<TKey, TValue> // TypeDefIndex: 3130
-{	// Fields
-	public TValue[] array; // 0x0
+{	public TValue[] array; // 0x0
 	public int index; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -76839,7 +75715,6 @@ private sealed class SortedDictionary.ValueCollection.<>c__DisplayClass5_0<TKey,
 	|-SortedDictionary.ValueCollection.<>c__DisplayClass5_0<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal bool <CopyTo>b__0(SortedSet.Node<KeyValuePair<TKey, TValue>> node) { }
 	/* GenericInstMethod :
 	|
@@ -76851,12 +75726,9 @@ private sealed class SortedDictionary.ValueCollection.<>c__DisplayClass5_0<TKey,
 }
 
 private sealed class SortedDictionary.ValueCollection.<>c__DisplayClass6_0<TKey, TValue> // TypeDefIndex: 3131
-{	// Fields
-	public int index; // 0x0
+{	public int index; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -76868,13 +75740,10 @@ private sealed class SortedDictionary.ValueCollection.<>c__DisplayClass6_0<TKey,
 }
 
 private sealed class SortedDictionary.ValueCollection.<>c__DisplayClass6_1<TKey, TValue> // TypeDefIndex: 3132
-{	// Fields
-	public object[] objects; // 0x0
+{	public object[] objects; // 0x0
 	public SortedDictionary.ValueCollection.<>c__DisplayClass6_0<TKey, TValue> CS$<>8__locals1; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -76883,7 +75752,6 @@ private sealed class SortedDictionary.ValueCollection.<>c__DisplayClass6_1<TKey,
 	|-SortedDictionary.ValueCollection.<>c__DisplayClass6_1<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal bool <System.Collections.ICollection.CopyTo>b__0(SortedSet.Node<KeyValuePair<TKey, TValue>> node) { }
 	/* GenericInstMethod :
 	|
@@ -76895,12 +75763,9 @@ private sealed class SortedDictionary.ValueCollection.<>c__DisplayClass6_1<TKey,
 }
 
 internal sealed class SortedDictionary.KeyValuePairComparer<TKey, TValue> : Comparer<KeyValuePair<TKey, TValue>> // TypeDefIndex: 3133
-{	// Fields
-	internal IComparer<TKey> keyComparer; // 0x0
+{	internal IComparer<TKey> keyComparer; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IComparer<TKey> keyComparer) { }
 	/* GenericInstMethod :
 	|
@@ -76909,7 +75774,6 @@ internal sealed class SortedDictionary.KeyValuePairComparer<TKey, TValue> : Comp
 	|-SortedDictionary.KeyValuePairComparer<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public override int Compare(KeyValuePair<TKey, TValue> x, KeyValuePair<TKey, TValue> y) { }
 	/* GenericInstMethod :
 	|
@@ -76921,13 +75785,10 @@ internal sealed class SortedDictionary.KeyValuePairComparer<TKey, TValue> : Comp
 }
 
 private sealed class SortedDictionary.<>c__DisplayClass34_0<TKey, TValue> // TypeDefIndex: 3134
-{	// Fields
-	public bool found; // 0x0
+{	public bool found; // 0x0
 	public TValue value; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -76936,7 +75797,6 @@ private sealed class SortedDictionary.<>c__DisplayClass34_0<TKey, TValue> // Typ
 	|-SortedDictionary.<>c__DisplayClass34_0<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal bool <ContainsValue>b__0(SortedSet.Node<KeyValuePair<TKey, TValue>> node) { }
 	/* GenericInstMethod :
 	|
@@ -76948,13 +75808,10 @@ private sealed class SortedDictionary.<>c__DisplayClass34_0<TKey, TValue> // Typ
 }
 
 private sealed class SortedDictionary.<>c__DisplayClass34_1<TKey, TValue> // TypeDefIndex: 3135
-{	// Fields
-	public EqualityComparer<TValue> valueComparer; // 0x0
+{	public EqualityComparer<TValue> valueComparer; // 0x0
 	public SortedDictionary.<>c__DisplayClass34_0<TKey, TValue> CS$<>8__locals1; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -76963,7 +75820,6 @@ private sealed class SortedDictionary.<>c__DisplayClass34_1<TKey, TValue> // Typ
 	|-SortedDictionary.<>c__DisplayClass34_1<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal bool <ContainsValue>b__1(SortedSet.Node<KeyValuePair<TKey, TValue>> node) { }
 	/* GenericInstMethod :
 	|
@@ -76975,9 +75831,7 @@ private sealed class SortedDictionary.<>c__DisplayClass34_1<TKey, TValue> // Typ
 }
 
 internal sealed class TreeSet<T> : SortedSet<T> // TypeDefIndex: 3136
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -76987,7 +75841,6 @@ internal sealed class TreeSet<T> : SortedSet<T> // TypeDefIndex: 3136
 	|-TreeSet<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -76997,7 +75850,6 @@ internal sealed class TreeSet<T> : SortedSet<T> // TypeDefIndex: 3136
 	|-TreeSet<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(SerializationInfo siInfo, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -77007,7 +75859,6 @@ internal sealed class TreeSet<T> : SortedSet<T> // TypeDefIndex: 3136
 	|-TreeSet<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 23
 	internal override bool AddIfNotPresent(T item) { }
 	/* GenericInstMethod :
 	|
@@ -77024,8 +75875,7 @@ internal sealed class TreeSet<T> : SortedSet<T> // TypeDefIndex: 3136
 }
 
 public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IDictionary, ICollection, IReadOnlyDictionary<TKey, TValue>, IReadOnlyCollection<KeyValuePair<TKey, TValue>> // TypeDefIndex: 3137
-{	// Fields
-	private TKey[] keys; // 0x0
+{	private TKey[] keys; // 0x0
 	private TValue[] values; // 0x0
 	private int _size; // 0x0
 	private int version; // 0x0
@@ -77036,7 +75886,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	private const int DefaultCapacity = 4;
 	private const int MaxArrayLength = 2146435071;
 
-	// Properties
 	public int Capacity { set; }
 	public int Count { get; }
 	private ICollection<TKey> System.Collections.Generic.IDictionary<TKey,TValue>.Keys { get; }
@@ -77050,9 +75899,7 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	public TValue Item { get; set; }
 	private object System.Collections.IDictionary.Item { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -77062,7 +75909,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -77073,7 +75919,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<string, string>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void Add(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -77087,7 +75932,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<string, string>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	private void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(KeyValuePair<TKey, TValue> keyValuePair) { }
 	/* GenericInstMethod :
 	|
@@ -77096,7 +75940,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(KeyValuePair<TKey, TValue> keyValuePair) { }
 	/* GenericInstMethod :
 	|
@@ -77105,7 +75948,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 18
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(KeyValuePair<TKey, TValue> keyValuePair) { }
 	/* GenericInstMethod :
 	|
@@ -77114,7 +75956,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Capacity(int value) { }
 	/* GenericInstMethod :
 	|
@@ -77125,7 +75966,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.set_Capacity
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 26
 	private void System.Collections.IDictionary.Add(object key, object value) { }
 	/* GenericInstMethod :
 	|
@@ -77136,7 +75976,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.IDictionary.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 35
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -77146,7 +75985,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private ICollection<TKey> System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys() { }
 	/* GenericInstMethod :
 	|
@@ -77155,7 +75993,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 23
 	private ICollection System.Collections.IDictionary.get_Keys() { }
 	/* GenericInstMethod :
 	|
@@ -77164,7 +76001,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.IDictionary.get_Keys
 	*/
 
-	// RVA: -1 Offset: -1
 	public IList<TValue> get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -77174,7 +76010,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.get_Values
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	private ICollection<TValue> System.Collections.Generic.IDictionary<TKey,TValue>.get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -77183,7 +76018,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.Generic.IDictionary<TKey,TValue>.get_Values
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 24
 	private ICollection System.Collections.IDictionary.get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -77192,7 +76026,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.IDictionary.get_Values
 	*/
 
-	// RVA: -1 Offset: -1
 	private SortedList.KeyList<TKey, TValue> GetKeyListHelper() { }
 	/* GenericInstMethod :
 	|
@@ -77201,7 +76034,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.GetKeyListHelper
 	*/
 
-	// RVA: -1 Offset: -1
 	private SortedList.ValueList<TKey, TValue> GetValueListHelper() { }
 	/* GenericInstMethod :
 	|
@@ -77210,7 +76042,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.GetValueListHelper
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -77219,7 +76050,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 28
 	private bool System.Collections.IDictionary.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -77228,7 +76058,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.IDictionary.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 33
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -77239,7 +76068,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.ICollection.get_SyncRoot
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 27
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -77251,7 +76079,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 25
 	private bool System.Collections.IDictionary.Contains(object key) { }
 	/* GenericInstMethod :
 	|
@@ -77262,7 +76089,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.IDictionary.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public bool ContainsKey(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -77271,7 +76097,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.ContainsKey
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool ContainsValue(TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -77281,7 +76106,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.ContainsValue
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 17
 	private void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
@@ -77292,7 +76116,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 31
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -77303,7 +76126,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	private void EnsureCapacity(int min) { }
 	/* GenericInstMethod :
 	|
@@ -77312,7 +76134,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.EnsureCapacity
 	*/
 
-	// RVA: -1 Offset: -1
 	private TValue GetByIndex(int index) { }
 	/* GenericInstMethod :
 	|
@@ -77323,7 +76144,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.GetByIndex
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 19
 	private IEnumerator<KeyValuePair<TKey, TValue>> System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -77332,7 +76152,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 29
 	private IDictionaryEnumerator System.Collections.IDictionary.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -77341,7 +76160,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.IDictionary.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 20
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -77350,7 +76168,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1
 	private TKey GetKey(int index) { }
 	/* GenericInstMethod :
 	|
@@ -77361,7 +76178,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.GetKey
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public TValue get_Item(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -77372,7 +76188,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void set_Item(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -77383,7 +76198,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 21
 	private object System.Collections.IDictionary.get_Item(object key) { }
 	/* GenericInstMethod :
 	|
@@ -77394,7 +76208,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.IDictionary.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 22
 	private void System.Collections.IDictionary.set_Item(object key, object value) { }
 	/* GenericInstMethod :
 	|
@@ -77405,7 +76218,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.IDictionary.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public int IndexOfKey(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -77416,7 +76228,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.IndexOfKey
 	*/
 
-	// RVA: -1 Offset: -1
 	public int IndexOfValue(TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -77425,7 +76236,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.IndexOfValue
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Insert(int index, TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -77436,7 +76246,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.Insert
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 34
 	public bool TryGetValue(TKey key, out TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -77447,7 +76256,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<string, string>.TryGetValue
 	*/
 
-	// RVA: -1 Offset: -1
 	public void RemoveAt(int index) { }
 	/* GenericInstMethod :
 	|
@@ -77458,7 +76266,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.RemoveAt
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public bool Remove(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -77468,7 +76275,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 30
 	private void System.Collections.IDictionary.Remove(object key) { }
 	/* GenericInstMethod :
 	|
@@ -77479,7 +76285,6 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-SortedList<object, object>.System.Collections.IDictionary.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	private static bool IsCompatibleKey(object key) { }
 	/* GenericInstMethod :
 	|
@@ -77493,22 +76298,18 @@ public class SortedList<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 }
 
 public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T>, ISerializable, IDeserializationCallback // TypeDefIndex: 3143
-{	// Fields
-	private SortedSet.Node<T> root; // 0x0
+{	private SortedSet.Node<T> root; // 0x0
 	private IComparer<T> comparer; // 0x0
 	private int count; // 0x0
 	private int version; // 0x0
 	private object _syncRoot; // 0x0
 	private SerializationInfo siInfo; // 0x0
 
-	// Properties
 	public int Count { get; }
 	private bool System.Collections.Generic.ICollection<T>.IsReadOnly { get; }
 	private object System.Collections.ICollection.SyncRoot { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -77518,7 +76319,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -77528,7 +76328,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -77538,7 +76337,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 19
 	internal virtual bool InOrderTreeWalk(TreeWalkPredicate<T> action) { }
 	/* GenericInstMethod :
 	|
@@ -77548,7 +76346,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.InOrderTreeWalk
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -77558,7 +76355,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private bool System.Collections.Generic.ICollection<T>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -77568,7 +76364,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 15
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -77582,7 +76377,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.System.Collections.ICollection.get_SyncRoot
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 20
 	internal virtual void VersionCheck() { }
 	/* GenericInstMethod :
 	|
@@ -77592,7 +76386,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.VersionCheck
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 21
 	internal virtual bool IsWithinRange(T item) { }
 	/* GenericInstMethod :
 	|
@@ -77602,7 +76395,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.IsWithinRange
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 22
 	public bool Add(T item) { }
 	/* GenericInstMethod :
 	|
@@ -77614,7 +76406,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private void System.Collections.Generic.ICollection<T>.Add(T item) { }
 	/* GenericInstMethod :
 	|
@@ -77626,7 +76417,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.System.Collections.Generic.ICollection<T>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 23
 	internal virtual bool AddIfNotPresent(T item) { }
 	/* GenericInstMethod :
 	|
@@ -77638,7 +76428,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.AddIfNotPresent
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public bool Remove(T item) { }
 	/* GenericInstMethod :
 	|
@@ -77650,7 +76439,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 24
 	internal virtual bool DoRemove(T item) { }
 	/* GenericInstMethod :
 	|
@@ -77662,7 +76450,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.DoRemove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 25
 	public virtual void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -77672,7 +76459,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 26
 	public virtual bool Contains(T item) { }
 	/* GenericInstMethod :
 	|
@@ -77684,7 +76470,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void CopyTo(T[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -77694,7 +76479,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public void CopyTo(T[] array, int index, int count) { }
 	/* GenericInstMethod :
 	|
@@ -77708,7 +76492,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -77722,7 +76505,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public SortedSet.Enumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -77736,7 +76518,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -77746,7 +76527,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -77756,7 +76536,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1
 	private void InsertionBalance(SortedSet.Node<T> current, ref SortedSet.Node<T> parent, SortedSet.Node<T> grandParent, SortedSet.Node<T> greatGrandParent) { }
 	/* GenericInstMethod :
 	|
@@ -77766,7 +76545,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.InsertionBalance
 	*/
 
-	// RVA: -1 Offset: -1
 	private void ReplaceChildOrRoot(SortedSet.Node<T> parent, SortedSet.Node<T> child, SortedSet.Node<T> newChild) { }
 	/* GenericInstMethod :
 	|
@@ -77776,7 +76554,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.ReplaceChildOrRoot
 	*/
 
-	// RVA: -1 Offset: -1
 	private void ReplaceNode(SortedSet.Node<T> match, SortedSet.Node<T> parentOfMatch, SortedSet.Node<T> successor, SortedSet.Node<T> parentOfSuccessor) { }
 	/* GenericInstMethod :
 	|
@@ -77786,7 +76563,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.ReplaceNode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 27
 	internal virtual SortedSet.Node<T> FindNode(T item) { }
 	/* GenericInstMethod :
 	|
@@ -77798,7 +76574,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.FindNode
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void UpdateVersion() { }
 	/* GenericInstMethod :
 	|
@@ -77808,7 +76583,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.UpdateVersion
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 17
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -77818,7 +76592,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.System.Runtime.Serialization.ISerializable.GetObjectData
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 28
 	protected virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -77832,7 +76605,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.GetObjectData
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 18
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
 	/* GenericInstMethod :
 	|
@@ -77842,7 +76614,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 29
 	protected virtual void OnDeserialization(object sender) { }
 	/* GenericInstMethod :
 	|
@@ -77856,7 +76627,6 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 	|-SortedSet<object>.OnDeserialization
 	*/
 
-	// RVA: -1 Offset: -1
 	private static int Log2(int value) { }
 	/* GenericInstMethod :
 	|
@@ -77869,9 +76639,7 @@ public class SortedSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollec
 }
 
 internal sealed class TreeWalkPredicate<T> : MulticastDelegate // TypeDefIndex: 3150
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -77881,7 +76649,6 @@ internal sealed class TreeWalkPredicate<T> : MulticastDelegate // TypeDefIndex: 
 	|-TreeWalkPredicate<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual bool Invoke(SortedSet.Node<T> node) { }
 	/* GenericInstMethod :
 	|
@@ -77891,7 +76658,6 @@ internal sealed class TreeWalkPredicate<T> : MulticastDelegate // TypeDefIndex: 
 	|-TreeWalkPredicate<object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(SortedSet.Node<T> node, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -77901,7 +76667,6 @@ internal sealed class TreeWalkPredicate<T> : MulticastDelegate // TypeDefIndex: 
 	|-TreeWalkPredicate<object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual bool EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -77914,20 +76679,16 @@ internal sealed class TreeWalkPredicate<T> : MulticastDelegate // TypeDefIndex: 
 }
 
 public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T> // TypeDefIndex: 3152
-{	// Fields
-	private T[] _array; // 0x0
+{	private T[] _array; // 0x0
 	private int _size; // 0x0
 	private int _version; // 0x0
 	private object _syncRoot; // 0x0
 	private const int DefaultCapacity = 4;
 
-	// Properties
 	public int Count { get; }
 	private object System.Collections.ICollection.SyncRoot { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -77952,7 +76713,6 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<Vector2>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int capacity) { }
 	/* GenericInstMethod :
 	|
@@ -77979,7 +76739,6 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<Vector2>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -78004,7 +76763,6 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<Vector2>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -78030,7 +76788,6 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<Vector2>.System.Collections.ICollection.get_SyncRoot
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -78048,7 +76805,6 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<Vector2>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private void System.Collections.ICollection.CopyTo(Array array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
@@ -78074,7 +76830,6 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<Vector2>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public Stack.Enumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -78096,7 +76851,6 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<EventDispatcher.DispatchContext>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -78116,7 +76870,6 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<EventDispatcher.DispatchContext>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -78136,7 +76889,6 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<EventDispatcher.DispatchContext>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1
 	public T Peek() { }
 	/* GenericInstMethod :
 	|
@@ -78164,7 +76916,6 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<EventDispatcher.DispatchContext>.Peek
 	*/
 
-	// RVA: -1 Offset: -1
 	public T Pop() { }
 	/* GenericInstMethod :
 	|
@@ -78199,7 +76950,6 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<EventDispatcher.DispatchContext>.Pop
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Push(T item) { }
 	/* GenericInstMethod :
 	|
@@ -78237,7 +76987,6 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<Vector2>.Push
 	*/
 
-	// RVA: -1 Offset: -1
 	public T[] ToArray() { }
 	/* GenericInstMethod :
 	|
@@ -78261,7 +77010,6 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<Vector2>.ToArray
 	*/
 
-	// RVA: -1 Offset: -1
 	private void ThrowForEmptyStack() { }
 	/* GenericInstMethod :
 	|
@@ -78290,15 +77038,12 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 }
 
 public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IEnumerable // TypeDefIndex: 3226
-{	// Fields
-	private IEqualityComparer<TKey> comparer; // 0x0
+{	private IEqualityComparer<TKey> comparer; // 0x0
 	private Lookup.Grouping<TKey, TElement>[] groupings; // 0x0
 	private Lookup.Grouping<TKey, TElement> lastGrouping; // 0x0
 	private int count; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal static Lookup<TKey, TElement> Create<TSource>(IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -78321,7 +77066,6 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 	|-Lookup<Vector2Int, Resolution>.Create<Resolution>
 	*/
 
-	// RVA: -1 Offset: -1
 	private void .ctor(IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -78335,7 +77079,6 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 	*/
 
 	[IteratorStateMachineAttribute] // RVA: 0xD0F20 Offset: 0xD0320 VA: 0x1800D0F20
-	// RVA: -1 Offset: -1 Slot: 4
 	public IEnumerator<IGrouping<TKey, TElement>> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -78348,7 +77091,6 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 	|-Lookup<Vector2Int, Resolution>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -78361,7 +77103,6 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 	|-Lookup<Vector2Int, Resolution>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1
 	internal int InternalGetHashCode(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -78380,7 +77121,6 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 	|-Lookup<Vector2Int, Resolution>.InternalGetHashCode
 	*/
 
-	// RVA: -1 Offset: -1
 	internal Lookup.Grouping<TKey, TElement> GetGrouping(TKey key, bool create) { }
 	/* GenericInstMethod :
 	|
@@ -78399,7 +77139,6 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 	|-Lookup<Vector2Int, Resolution>.GetGrouping
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Resize() { }
 	/* GenericInstMethod :
 	|
@@ -78426,16 +77165,12 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 
 internal sealed class CacheDict<TKey, TValue> // TypeDefIndex: 3250
 {
-// Namespace: System.Dynamic.Utils
 [DefaultMemberAttribute] // RVA: 0x70CB0 Offset: 0x700B0 VA: 0x180070CB0
 internal sealed class CacheDict<TKey, TValue> // TypeDefIndex: 3250
-	// Fields
 	private readonly int _mask; // 0x0
 	private readonly CacheDict.Entry<TKey, TValue>[] _entries; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(int size) { }
 	/* GenericInstMethod :
 	|
@@ -78444,7 +77179,6 @@ internal sealed class CacheDict<TKey, TValue> // TypeDefIndex: 3250
 	|-CacheDict<Type, MethodInfo>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	private static int AlignSize(int size) { }
 	/* GenericInstMethod :
 	|
@@ -78455,8 +77189,7 @@ internal sealed class CacheDict<TKey, TValue> // TypeDefIndex: 3250
 }
 
 public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnlyCollection<T>, ISerializable, IDeserializationCallback // TypeDefIndex: 3254
-{	// Fields
-	private const int Lower31BitMask = 2147483647;
+{	private const int Lower31BitMask = 2147483647;
 	private const int StackAllocThreshold = 100;
 	private const int ShrinkThreshold = 3;
 	private const string CapacityName = "Capacity";
@@ -78472,14 +77205,11 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	private int _version; // 0x0
 	private SerializationInfo _siInfo; // 0x0
 
-	// Properties
 	public int Count { get; }
 	private bool System.Collections.Generic.ICollection<T>.IsReadOnly { get; }
 	public IEqualityComparer<T> Comparer { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -78519,7 +77249,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<WindZoneEx>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IEqualityComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -78532,7 +77261,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IEnumerable<T> collection) { }
 	/* GenericInstMethod :
 	|
@@ -78547,7 +77275,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IEnumerable<T> collection, IEqualityComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -78570,7 +77297,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -78583,7 +77309,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	private void CopyFrom(HashSet<T> source) { }
 	/* GenericInstMethod :
 	|
@@ -78606,7 +77331,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.CopyFrom
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private void System.Collections.Generic.ICollection<T>.Add(T item) { }
 	/* GenericInstMethod :
 	|
@@ -78621,7 +77345,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.System.Collections.Generic.ICollection<T>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -78644,7 +77367,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<WindZoneEx>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public bool Contains(T item) { }
 	/* GenericInstMethod :
 	|
@@ -78672,7 +77394,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void CopyTo(T[] array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
@@ -78685,7 +77406,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public bool Remove(T item) { }
 	/* GenericInstMethod :
 	|
@@ -78726,7 +77446,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -78748,7 +77467,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private bool System.Collections.Generic.ICollection<T>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -78761,7 +77479,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1
 	public HashSet.Enumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -78804,7 +77521,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -78825,7 +77541,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -78846,7 +77561,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
@@ -78869,7 +77583,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.GetObjectData
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 17
 	public virtual void OnDeserialization(object sender) { }
 	/* GenericInstMethod :
 	|
@@ -78892,7 +77605,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.OnDeserialization
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 18
 	public bool Add(T item) { }
 	/* GenericInstMethod :
 	|
@@ -78931,7 +77643,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 19
 	public void UnionWith(IEnumerable<T> other) { }
 	/* GenericInstMethod :
 	|
@@ -78954,7 +77665,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.UnionWith
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 20
 	public void IntersectWith(IEnumerable<T> other) { }
 	/* GenericInstMethod :
 	|
@@ -78977,7 +77687,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.IntersectWith
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 21
 	public void ExceptWith(IEnumerable<T> other) { }
 	/* GenericInstMethod :
 	|
@@ -79000,7 +77709,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.ExceptWith
 	*/
 
-	// RVA: -1 Offset: -1
 	public void CopyTo(T[] array) { }
 	/* GenericInstMethod :
 	|
@@ -79013,7 +77721,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public void CopyTo(T[] array, int arrayIndex, int count) { }
 	/* GenericInstMethod :
 	|
@@ -79036,7 +77743,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public int RemoveWhere(Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
@@ -79060,7 +77766,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.RemoveWhere
 	*/
 
-	// RVA: -1 Offset: -1
 	public IEqualityComparer<T> get_Comparer() { }
 	/* GenericInstMethod :
 	|
@@ -79073,7 +77778,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.get_Comparer
 	*/
 
-	// RVA: -1 Offset: -1
 	public void TrimExcess() { }
 	/* GenericInstMethod :
 	|
@@ -79096,7 +77800,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.TrimExcess
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Initialize(int capacity) { }
 	/* GenericInstMethod :
 	|
@@ -79119,7 +77822,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.Initialize
 	*/
 
-	// RVA: -1 Offset: -1
 	private void IncreaseCapacity() { }
 	/* GenericInstMethod :
 	|
@@ -79142,7 +77844,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.IncreaseCapacity
 	*/
 
-	// RVA: -1 Offset: -1
 	private void SetCapacity(int newSize) { }
 	/* GenericInstMethod :
 	|
@@ -79165,7 +77866,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.SetCapacity
 	*/
 
-	// RVA: -1 Offset: -1
 	private bool AddIfNotPresent(T value) { }
 	/* GenericInstMethod :
 	|
@@ -79186,7 +77886,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.AddIfNotPresent
 	*/
 
-	// RVA: -1 Offset: -1
 	private void AddValue(int index, int hashCode, T value) { }
 	/* GenericInstMethod :
 	|
@@ -79207,7 +77906,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.AddValue
 	*/
 
-	// RVA: -1 Offset: -1
 	private void IntersectWithHashSetWithSameEC(HashSet<T> other) { }
 	/* GenericInstMethod :
 	|
@@ -79226,7 +77924,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.IntersectWithHashSetWithSameEC
 	*/
 
-	// RVA: -1 Offset: -1
 	private void IntersectWithEnumerable(IEnumerable<T> other) { }
 	/* GenericInstMethod :
 	|
@@ -79249,7 +77946,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.IntersectWithEnumerable
 	*/
 
-	// RVA: -1 Offset: -1
 	private int InternalIndexOf(T item) { }
 	/* GenericInstMethod :
 	|
@@ -79268,7 +77964,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.InternalIndexOf
 	*/
 
-	// RVA: -1 Offset: -1
 	private static bool AreEqualityComparersEqual(HashSet<T> set1, HashSet<T> set2) { }
 	/* GenericInstMethod :
 	|
@@ -79281,7 +77976,6 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Vector3>.AreEqualityComparersEqual
 	*/
 
-	// RVA: -1 Offset: -1
 	private int InternalGetHashCode(T item) { }
 	/* GenericInstMethod :
 	|
@@ -79305,12 +77999,9 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 }
 
 public struct BatchQueryJobStruct<T> // TypeDefIndex: 3308
-{	// Fields
-	internal static IntPtr jobReflectionData; // 0x0
+{	internal static IntPtr jobReflectionData; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public static IntPtr Initialize() { }
 	/* GenericInstMethod :
 	|
@@ -79321,20 +78012,16 @@ public struct BatchQueryJobStruct<T> // TypeDefIndex: 3308
 }
 
 public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquatable<NativeArray<T>> // TypeDefIndex: 3324
-{	// Fields
-	[NativeDisableUnsafePtrRestrictionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[NativeDisableUnsafePtrRestrictionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	internal void* m_Buffer; // 0x0
 	internal int m_Length; // 0x0
 	internal Allocator m_AllocatorLabel; // 0x0
 
-	// Properties
 	public int Length { get; }
 	public T Item { get; set; }
 	public bool IsCreated { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int length, Allocator allocator, NativeArrayOptions options = 1) { }
 	/* GenericInstMethod :
 	|
@@ -79359,7 +78046,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(NativeArray<T> array, Allocator allocator) { }
 	/* GenericInstMethod :
 	|
@@ -79384,7 +78070,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void Allocate(int length, Allocator allocator, out NativeArray<T> array) { }
 	/* GenericInstMethod :
 	|
@@ -79409,7 +78094,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>.Allocate
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Length() { }
 	/* GenericInstMethod :
 	|
@@ -79434,7 +78118,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>.get_Length
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -79482,7 +78165,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	*/
 
 	[WriteAccessRequiredAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -79529,7 +78211,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<RaycastHit>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsCreated() { }
 	/* GenericInstMethod :
 	|
@@ -79554,7 +78235,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>.get_IsCreated
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Deallocate() { }
 	/* GenericInstMethod :
 	|
@@ -79580,7 +78260,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	*/
 
 	[WriteAccessRequiredAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 4
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -79605,7 +78284,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1
 	public void CopyTo(NativeArray<T> array) { }
 	/* GenericInstMethod :
 	|
@@ -79630,7 +78308,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public NativeArray.Enumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -79655,7 +78332,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -79680,7 +78356,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -79705,7 +78380,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public bool Equals(NativeArray<T> other) { }
 	/* GenericInstMethod :
 	|
@@ -79730,7 +78404,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -79755,7 +78428,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -79780,7 +78452,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void Copy(NativeArray<T> src, NativeArray<T> dst) { }
 	/* GenericInstMethod :
 	|
@@ -79805,7 +78476,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>.Copy
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void Copy(NativeArray<T> src, int srcIndex, NativeArray<T> dst, int dstIndex, int length) { }
 	/* GenericInstMethod :
 	|
@@ -79830,7 +78500,6 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<Vector4>.Copy
 	*/
 
-	// RVA: -1 Offset: -1
 	public NativeArray<T> GetSubArray(int start, int length) { }
 	/* GenericInstMethod :
 	|
@@ -79858,21 +78527,17 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 }
 
 internal struct CastHelper<T> // TypeDefIndex: 3506
-{	// Fields
-	public T t; // 0x0
+{	public T t; // 0x0
 	public IntPtr onePointerFurtherThanT; // 0x0
 
 }
 
 internal class InvokableCall<T1, T2> : BaseInvokableCall // TypeDefIndex: 3630
-{	// Fields
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+{	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private UnityAction<T1, T2> Delegate; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
@@ -79886,7 +78551,6 @@ internal class InvokableCall<T1, T2> : BaseInvokableCall // TypeDefIndex: 3630
 	|-InvokableCall<Vector2, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void Invoke(object[] args) { }
 	/* GenericInstMethod :
 	|
@@ -79900,7 +78564,6 @@ internal class InvokableCall<T1, T2> : BaseInvokableCall // TypeDefIndex: 3630
 	|-InvokableCall<Vector2, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Invoke(T1 args0, T2 args1) { }
 	/* GenericInstMethod :
 	|
@@ -79912,7 +78575,6 @@ internal class InvokableCall<T1, T2> : BaseInvokableCall // TypeDefIndex: 3630
 	|-InvokableCall<Vector2, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override bool Find(object targetObj, MethodInfo method) { }
 	/* GenericInstMethod :
 	|
@@ -79925,14 +78587,11 @@ internal class InvokableCall<T1, T2> : BaseInvokableCall // TypeDefIndex: 3630
 }
 
 internal class InvokableCall<T1, T2, T3> : BaseInvokableCall // TypeDefIndex: 3631
-{	// Fields
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+{	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private UnityAction<T1, T2, T3> Delegate; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
@@ -79943,7 +78602,6 @@ internal class InvokableCall<T1, T2, T3> : BaseInvokableCall // TypeDefIndex: 36
 	|-InvokableCall<object, object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void Invoke(object[] args) { }
 	/* GenericInstMethod :
 	|
@@ -79954,7 +78612,6 @@ internal class InvokableCall<T1, T2, T3> : BaseInvokableCall // TypeDefIndex: 36
 	|-InvokableCall<object, object, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Invoke(T1 args0, T2 args1, T3 args2) { }
 	/* GenericInstMethod :
 	|
@@ -79965,7 +78622,6 @@ internal class InvokableCall<T1, T2, T3> : BaseInvokableCall // TypeDefIndex: 36
 	|-InvokableCall<object, object, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override bool Find(object targetObj, MethodInfo method) { }
 	/* GenericInstMethod :
 	|
@@ -79977,14 +78633,11 @@ internal class InvokableCall<T1, T2, T3> : BaseInvokableCall // TypeDefIndex: 36
 }
 
 internal class InvokableCall<T1, T2, T3, T4> : BaseInvokableCall // TypeDefIndex: 3632
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+{	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private UnityAction<T1, T2, T3, T4> Delegate; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
@@ -79992,7 +78645,6 @@ internal class InvokableCall<T1, T2, T3, T4> : BaseInvokableCall // TypeDefIndex
 	|-InvokableCall<object, object, object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void Invoke(object[] args) { }
 	/* GenericInstMethod :
 	|
@@ -80000,7 +78652,6 @@ internal class InvokableCall<T1, T2, T3, T4> : BaseInvokableCall // TypeDefIndex
 	|-InvokableCall<object, object, object, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override bool Find(object targetObj, MethodInfo method) { }
 	/* GenericInstMethod :
 	|
@@ -80011,12 +78662,9 @@ internal class InvokableCall<T1, T2, T3, T4> : BaseInvokableCall // TypeDefIndex
 }
 
 internal class CachedInvokableCall<T> : InvokableCall<T> // TypeDefIndex: 3633
-{	// Fields
-	private readonly T m_Arg1; // 0x0
+{	private readonly T m_Arg1; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(Object target, MethodInfo theFunction, T argument) { }
 	/* GenericInstMethod :
 	|
@@ -80034,7 +78682,6 @@ internal class CachedInvokableCall<T> : InvokableCall<T> // TypeDefIndex: 3633
 	|-CachedInvokableCall<float>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void Invoke(object[] args) { }
 	/* GenericInstMethod :
 	|
@@ -80051,7 +78698,6 @@ internal class CachedInvokableCall<T> : InvokableCall<T> // TypeDefIndex: 3633
 	|-CachedInvokableCall<float>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public override void Invoke(T arg0) { }
 	/* GenericInstMethod :
 	|
@@ -80071,12 +78717,9 @@ internal class CachedInvokableCall<T> : InvokableCall<T> // TypeDefIndex: 3633
 }
 
 internal struct ParticleSystemJobStruct<T> // TypeDefIndex: 4555
-{	// Fields
-	public static IntPtr jobReflectionData; // 0x0
+{	public static IntPtr jobReflectionData; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public static IntPtr Initialize() { }
 	/* GenericInstMethod :
 	|
@@ -80084,7 +78727,6 @@ internal struct ParticleSystemJobStruct<T> // TypeDefIndex: 4555
 	|-ParticleSystemJobStruct<ParticleSystemIK.ParticleSystemIKJob>.Initialize
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void Execute(ref T data, IntPtr listDataPtr, IntPtr unusedPtr, ref JobRanges ranges, int jobIndex) { }
 	/* GenericInstMethod :
 	|
@@ -80095,16 +78737,12 @@ internal struct ParticleSystemJobStruct<T> // TypeDefIndex: 4555
 }
 
 internal class ObjectPool<T> // TypeDefIndex: 4595
-{	// Fields
-	private readonly Stack<T> m_Stack; // 0x0
+{	private readonly Stack<T> m_Stack; // 0x0
 	private int m_MaxSize; // 0x0
 
-	// Properties
 	public int maxSize { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public int get_maxSize() { }
 	/* GenericInstMethod :
 	|
@@ -80112,7 +78750,6 @@ internal class ObjectPool<T> // TypeDefIndex: 4595
 	|-ObjectPool<object>.get_maxSize
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_maxSize(int value) { }
 	/* GenericInstMethod :
 	|
@@ -80120,7 +78757,6 @@ internal class ObjectPool<T> // TypeDefIndex: 4595
 	|-ObjectPool<object>.set_maxSize
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int maxSize = 100) { }
 	/* GenericInstMethod :
 	|
@@ -80131,7 +78767,6 @@ internal class ObjectPool<T> // TypeDefIndex: 4595
 	|-ObjectPool<PropagationPaths>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public int Size() { }
 	/* GenericInstMethod :
 	|
@@ -80139,7 +78774,6 @@ internal class ObjectPool<T> // TypeDefIndex: 4595
 	|-ObjectPool<object>.Size
 	*/
 
-	// RVA: -1 Offset: -1
 	public T Get() { }
 	/* GenericInstMethod :
 	|
@@ -80150,7 +78784,6 @@ internal class ObjectPool<T> // TypeDefIndex: 4595
 	|-ObjectPool<PropagationPaths>.Get
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Release(T element) { }
 	/* GenericInstMethod :
 	|
@@ -80164,22 +78797,18 @@ internal class ObjectPool<T> // TypeDefIndex: 4595
 }
 
 public abstract class PointerCaptureEventBase<T> : EventBase<T> // TypeDefIndex: 4621
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+{	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private IEventHandler <relatedTarget>k__BackingField; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private int <pointerId>k__BackingField; // 0x0
 
-	// Properties
 	private IEventHandler relatedTarget { set; }
 	private int pointerId { set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_relatedTarget(IEventHandler value) { }
 	/* GenericInstMethod :
 	|
@@ -80188,7 +78817,6 @@ public abstract class PointerCaptureEventBase<T> : EventBase<T> // TypeDefIndex:
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_pointerId(int value) { }
 	/* GenericInstMethod :
 	|
@@ -80196,7 +78824,6 @@ public abstract class PointerCaptureEventBase<T> : EventBase<T> // TypeDefIndex:
 	|-PointerCaptureEventBase<object>.set_pointerId
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	protected override void Init() { }
 	/* GenericInstMethod :
 	|
@@ -80206,7 +78833,6 @@ public abstract class PointerCaptureEventBase<T> : EventBase<T> // TypeDefIndex:
 	|-PointerCaptureEventBase<PointerCaptureOutEvent>.Init
 	*/
 
-	// RVA: -1 Offset: -1
 	private void LocalInit() { }
 	/* GenericInstMethod :
 	|
@@ -80214,7 +78840,6 @@ public abstract class PointerCaptureEventBase<T> : EventBase<T> // TypeDefIndex:
 	|-PointerCaptureEventBase<object>.LocalInit
 	*/
 
-	// RVA: -1 Offset: -1
 	public static T GetPooled(IEventHandler target, IEventHandler relatedTarget, int pointerId) { }
 	/* GenericInstMethod :
 	|
@@ -80226,7 +78851,6 @@ public abstract class PointerCaptureEventBase<T> : EventBase<T> // TypeDefIndex:
 	|-PointerCaptureEventBase<PointerCaptureOutEvent>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -80239,9 +78863,7 @@ public abstract class PointerCaptureEventBase<T> : EventBase<T> // TypeDefIndex:
 }
 
 public abstract class MouseCaptureEventBase<T> : PointerCaptureEventBase<T> // TypeDefIndex: 4624
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 12
+{
 	protected override void Init() { }
 	/* GenericInstMethod :
 	|
@@ -80251,7 +78873,6 @@ public abstract class MouseCaptureEventBase<T> : PointerCaptureEventBase<T> // T
 	|-MouseCaptureEventBase<MouseCaptureOutEvent>.Init
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -80265,17 +78886,12 @@ public abstract class MouseCaptureEventBase<T> : PointerCaptureEventBase<T> // T
 
 public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent // TypeDefIndex: 4629
 {
-// Namespace: UnityEngine.UIElements
 public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent // TypeDefIndex: 4629
-	// Fields
 	private string m_CommandName; // 0x0
 
-	// Properties
 	protected string commandName { set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	protected void set_commandName(string value) { }
 	/* GenericInstMethod :
 	|
@@ -80283,7 +78899,6 @@ public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent // TypeD
 	|-CommandEventBase<object>.set_commandName
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	protected override void Init() { }
 	/* GenericInstMethod :
 	|
@@ -80293,7 +78908,6 @@ public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent // TypeD
 	|-CommandEventBase<ValidateCommandEvent>.Init
 	*/
 
-	// RVA: -1 Offset: -1
 	private void LocalInit() { }
 	/* GenericInstMethod :
 	|
@@ -80301,7 +78915,6 @@ public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent // TypeD
 	|-CommandEventBase<object>.LocalInit
 	*/
 
-	// RVA: -1 Offset: -1
 	public static T GetPooled(Event systemEvent) { }
 	/* GenericInstMethod :
 	|
@@ -80311,7 +78924,6 @@ public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent // TypeD
 	|-CommandEventBase<ValidateCommandEvent>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -80324,9 +78936,7 @@ public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent // TypeD
 }
 
 public abstract class DragAndDropEventBase<T> : MouseEventBase<T> // TypeDefIndex: 4633
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -80342,17 +78952,13 @@ public abstract class DragAndDropEventBase<T> : MouseEventBase<T> // TypeDefInde
 }
 
 public abstract class EventBase<T> : EventBase // TypeDefIndex: 4643
-{	// Fields
-	private static readonly long s_TypeId; // 0x0
+{	private static readonly long s_TypeId; // 0x0
 	private static readonly ObjectPool<T> s_Pool; // 0x0
 	private int m_RefCount; // 0x0
 
-	// Properties
 	public override long eventTypeId { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -80361,7 +78967,6 @@ public abstract class EventBase<T> : EventBase // TypeDefIndex: 4643
 	|-EventBase<IMGUIEvent>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public static long TypeId() { }
 	/* GenericInstMethod :
 	|
@@ -80385,7 +78990,6 @@ public abstract class EventBase<T> : EventBase // TypeDefIndex: 4643
 	|-EventBase<WheelEvent>.TypeId
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	protected override void Init() { }
 	/* GenericInstMethod :
 	|
@@ -80394,7 +78998,6 @@ public abstract class EventBase<T> : EventBase // TypeDefIndex: 4643
 	|-EventBase<IMGUIEvent>.Init
 	*/
 
-	// RVA: -1 Offset: -1
 	public static T GetPooled() { }
 	/* GenericInstMethod :
 	|
@@ -80403,7 +79006,6 @@ public abstract class EventBase<T> : EventBase // TypeDefIndex: 4643
 	|-EventBase<IMGUIEvent>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1
 	internal static T GetPooled(EventBase e) { }
 	/* GenericInstMethod :
 	|
@@ -80411,7 +79013,6 @@ public abstract class EventBase<T> : EventBase // TypeDefIndex: 4643
 	|-EventBase<object>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void ReleasePooled(T evt) { }
 	/* GenericInstMethod :
 	|
@@ -80419,7 +79020,6 @@ public abstract class EventBase<T> : EventBase // TypeDefIndex: 4643
 	|-EventBase<object>.ReleasePooled
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	internal override void Acquire() { }
 	/* GenericInstMethod :
 	|
@@ -80464,7 +79064,6 @@ public abstract class EventBase<T> : EventBase // TypeDefIndex: 4643
 	|-EventBase<WheelEvent>.Acquire
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public sealed override void Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -80509,7 +79108,6 @@ public abstract class EventBase<T> : EventBase // TypeDefIndex: 4643
 	|-EventBase<WheelEvent>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override long get_eventTypeId() { }
 	/* GenericInstMethod :
 	|
@@ -80554,7 +79152,6 @@ public abstract class EventBase<T> : EventBase // TypeDefIndex: 4643
 	|-EventBase<WheelEvent>.get_eventTypeId
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -80565,8 +79162,7 @@ public abstract class EventBase<T> : EventBase // TypeDefIndex: 4643
 }
 
 public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
-{	// Fields
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+{	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private Focusable <relatedTarget>k__BackingField; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
@@ -80576,15 +79172,12 @@ public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
 	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private FocusController <focusController>k__BackingField; // 0x0
 
-	// Properties
 	public Focusable relatedTarget { get; set; }
 	private FocusChangeDirection direction { set; }
 	protected FocusController focusController { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 15
 	public Focusable get_relatedTarget() { }
 	/* GenericInstMethod :
 	|
@@ -80597,7 +79190,6 @@ public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_relatedTarget(Focusable value) { }
 	/* GenericInstMethod :
 	|
@@ -80606,7 +79198,6 @@ public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_direction(FocusChangeDirection value) { }
 	/* GenericInstMethod :
 	|
@@ -80615,7 +79206,6 @@ public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected FocusController get_focusController() { }
 	/* GenericInstMethod :
 	|
@@ -80626,7 +79216,6 @@ public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_focusController(FocusController value) { }
 	/* GenericInstMethod :
 	|
@@ -80634,7 +79223,6 @@ public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
 	|-FocusEventBase<object>.set_focusController
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	protected override void Init() { }
 	/* GenericInstMethod :
 	|
@@ -80646,7 +79234,6 @@ public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
 	|-FocusEventBase<FocusOutEvent>.Init
 	*/
 
-	// RVA: -1 Offset: -1
 	private void LocalInit() { }
 	/* GenericInstMethod :
 	|
@@ -80654,7 +79241,6 @@ public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
 	|-FocusEventBase<object>.LocalInit
 	*/
 
-	// RVA: -1 Offset: -1
 	public static T GetPooled(IEventHandler target, Focusable relatedTarget, FocusChangeDirection direction, FocusController focusController) { }
 	/* GenericInstMethod :
 	|
@@ -80666,7 +79252,6 @@ public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
 	|-FocusEventBase<FocusOutEvent>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -80682,9 +79267,7 @@ public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
 
 public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // TypeDefIndex: 4662
 {
-// Namespace: UnityEngine.UIElements
 public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // TypeDefIndex: 4662
-	// Fields
 	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private EventModifiers <modifiers>k__BackingField; // 0x0
@@ -80695,15 +79278,12 @@ public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // Typ
 	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private KeyCode <keyCode>k__BackingField; // 0x0
 
-	// Properties
 	protected EventModifiers modifiers { set; }
 	protected char character { set; }
 	protected KeyCode keyCode { set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_modifiers(EventModifiers value) { }
 	/* GenericInstMethod :
 	|
@@ -80712,7 +79292,6 @@ public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // Typ
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_character(char value) { }
 	/* GenericInstMethod :
 	|
@@ -80721,7 +79300,6 @@ public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // Typ
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_keyCode(KeyCode value) { }
 	/* GenericInstMethod :
 	|
@@ -80729,7 +79307,6 @@ public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // Typ
 	|-KeyboardEventBase<object>.set_keyCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	protected override void Init() { }
 	/* GenericInstMethod :
 	|
@@ -80739,7 +79316,6 @@ public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // Typ
 	|-KeyboardEventBase<KeyUpEvent>.Init
 	*/
 
-	// RVA: -1 Offset: -1
 	private void LocalInit() { }
 	/* GenericInstMethod :
 	|
@@ -80747,7 +79323,6 @@ public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // Typ
 	|-KeyboardEventBase<object>.LocalInit
 	*/
 
-	// RVA: -1 Offset: -1
 	public static T GetPooled(char c, KeyCode keyCode, EventModifiers modifiers) { }
 	/* GenericInstMethod :
 	|
@@ -80756,7 +79331,6 @@ public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // Typ
 	|-KeyboardEventBase<KeyDownEvent>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1
 	public static T GetPooled(Event systemEvent) { }
 	/* GenericInstMethod :
 	|
@@ -80766,7 +79340,6 @@ public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // Typ
 	|-KeyboardEventBase<KeyUpEvent>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -80779,8 +79352,7 @@ public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // Typ
 }
 
 public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEventInternal // TypeDefIndex: 4670
-{	// Fields
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+{	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private EventModifiers <modifiers>k__BackingField; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
@@ -80811,7 +79383,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0x0
 
-	// Properties
 	public EventModifiers modifiers { get; set; }
 	public Vector2 mousePosition { get; set; }
 	internal Vector2 localMousePosition { set; }
@@ -80824,10 +79395,8 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	private IPointerEvent UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent { get; set; }
 	public override IEventHandler currentTarget { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 15
 	public EventModifiers get_modifiers() { }
 	/* GenericInstMethod :
 	|
@@ -80852,7 +79421,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_modifiers(EventModifiers value) { }
 	/* GenericInstMethod :
 	|
@@ -80861,7 +79429,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 16
 	public Vector2 get_mousePosition() { }
 	/* GenericInstMethod :
 	|
@@ -80886,7 +79453,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_mousePosition(Vector2 value) { }
 	/* GenericInstMethod :
 	|
@@ -80895,7 +79461,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	internal void set_localMousePosition(Vector2 value) { }
 	/* GenericInstMethod :
 	|
@@ -80904,7 +79469,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 17
 	public Vector2 get_mouseDelta() { }
 	/* GenericInstMethod :
 	|
@@ -80929,7 +79493,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_mouseDelta(Vector2 value) { }
 	/* GenericInstMethod :
 	|
@@ -80938,7 +79501,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 18
 	public int get_clickCount() { }
 	/* GenericInstMethod :
 	|
@@ -80963,7 +79525,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_clickCount(int value) { }
 	/* GenericInstMethod :
 	|
@@ -80972,7 +79533,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 19
 	public int get_button() { }
 	/* GenericInstMethod :
 	|
@@ -80997,7 +79557,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_button(int value) { }
 	/* GenericInstMethod :
 	|
@@ -81007,7 +79566,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 20
 	public int get_pressedButtons() { }
 	/* GenericInstMethod :
 	|
@@ -81032,7 +79590,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_pressedButtons(int value) { }
 	/* GenericInstMethod :
 	|
@@ -81041,7 +79598,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 21
 	private bool UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS() { }
 	/* GenericInstMethod :
 	|
@@ -81066,7 +79622,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 22
 	private void UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS(bool value) { }
 	/* GenericInstMethod :
 	|
@@ -81091,7 +79646,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 23
 	private bool UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse() { }
 	/* GenericInstMethod :
 	|
@@ -81116,7 +79670,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 24
 	private void UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse(bool value) { }
 	/* GenericInstMethod :
 	|
@@ -81141,7 +79694,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 25
 	private IPointerEvent UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent() { }
 	/* GenericInstMethod :
 	|
@@ -81166,7 +79718,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 26
 	private void UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent(IPointerEvent value) { }
 	/* GenericInstMethod :
 	|
@@ -81190,7 +79741,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	|-MouseEventBase<WheelEvent>.UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	protected override void Init() { }
 	/* GenericInstMethod :
 	|
@@ -81214,7 +79764,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	|-MouseEventBase<WheelEvent>.Init
 	*/
 
-	// RVA: -1 Offset: -1
 	private void LocalInit() { }
 	/* GenericInstMethod :
 	|
@@ -81222,7 +79771,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	|-MouseEventBase<object>.LocalInit
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public override IEventHandler get_currentTarget() { }
 	/* GenericInstMethod :
 	|
@@ -81246,7 +79794,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	|-MouseEventBase<WheelEvent>.get_currentTarget
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	internal override void set_currentTarget(IEventHandler value) { }
 	/* GenericInstMethod :
 	|
@@ -81270,7 +79817,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	|-MouseEventBase<WheelEvent>.set_currentTarget
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	protected internal override void PreDispatch(IPanel panel) { }
 	/* GenericInstMethod :
 	|
@@ -81294,7 +79840,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	|-MouseEventBase<WheelEvent>.PreDispatch
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	protected internal override void PostDispatch(IPanel panel) { }
 	/* GenericInstMethod :
 	|
@@ -81318,7 +79863,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	|-MouseEventBase<WheelEvent>.PostDispatch
 	*/
 
-	// RVA: -1 Offset: -1
 	public static T GetPooled(Event systemEvent) { }
 	/* GenericInstMethod :
 	|
@@ -81333,7 +79877,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	|-MouseEventBase<WheelEvent>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1
 	internal static T GetPooled(IMouseEvent triggerEvent, Vector2 mousePosition, bool recomputeTopElementUnderMouse) { }
 	/* GenericInstMethod :
 	|
@@ -81343,7 +79886,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	|-MouseEventBase<MouseOverEvent>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1
 	public static T GetPooled(IMouseEvent triggerEvent) { }
 	/* GenericInstMethod :
 	|
@@ -81351,7 +79893,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	|-MouseEventBase<object>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1
 	protected static T GetPooled(IPointerEvent pointerEvent) { }
 	/* GenericInstMethod :
 	|
@@ -81362,7 +79903,6 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 	|-MouseEventBase<MouseUpEvent>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -81384,8 +79924,7 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 }
 
 public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointerEventInternal // TypeDefIndex: 4691
-{	// Fields
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+{	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private int <pointerId>k__BackingField; // 0x0
 	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
@@ -81446,7 +79985,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x0
 
-	// Properties
 	public int pointerId { get; set; }
 	public string pointerType { get; set; }
 	public bool isPrimary { get; set; }
@@ -81469,10 +80007,8 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	private bool UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer { get; set; }
 	public override IEventHandler currentTarget { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 15
 	public int get_pointerId() { }
 	/* GenericInstMethod :
 	|
@@ -81489,7 +80025,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_pointerId(int value) { }
 	/* GenericInstMethod :
 	|
@@ -81498,7 +80033,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 16
 	public string get_pointerType() { }
 	/* GenericInstMethod :
 	|
@@ -81515,7 +80049,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_pointerType(string value) { }
 	/* GenericInstMethod :
 	|
@@ -81524,7 +80057,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 17
 	public bool get_isPrimary() { }
 	/* GenericInstMethod :
 	|
@@ -81541,7 +80073,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_isPrimary(bool value) { }
 	/* GenericInstMethod :
 	|
@@ -81550,7 +80081,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 18
 	public int get_button() { }
 	/* GenericInstMethod :
 	|
@@ -81567,7 +80097,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_button(int value) { }
 	/* GenericInstMethod :
 	|
@@ -81576,7 +80105,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 19
 	public int get_pressedButtons() { }
 	/* GenericInstMethod :
 	|
@@ -81593,7 +80121,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_pressedButtons(int value) { }
 	/* GenericInstMethod :
 	|
@@ -81602,7 +80129,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 20
 	public Vector3 get_position() { }
 	/* GenericInstMethod :
 	|
@@ -81619,7 +80145,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_position(Vector3 value) { }
 	/* GenericInstMethod :
 	|
@@ -81628,7 +80153,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 21
 	public Vector3 get_localPosition() { }
 	/* GenericInstMethod :
 	|
@@ -81645,7 +80169,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_localPosition(Vector3 value) { }
 	/* GenericInstMethod :
 	|
@@ -81654,7 +80177,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 22
 	public Vector3 get_deltaPosition() { }
 	/* GenericInstMethod :
 	|
@@ -81671,7 +80193,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_deltaPosition(Vector3 value) { }
 	/* GenericInstMethod :
 	|
@@ -81680,7 +80201,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 23
 	public float get_deltaTime() { }
 	/* GenericInstMethod :
 	|
@@ -81697,7 +80217,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_deltaTime(float value) { }
 	/* GenericInstMethod :
 	|
@@ -81706,7 +80225,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 24
 	public int get_clickCount() { }
 	/* GenericInstMethod :
 	|
@@ -81723,7 +80241,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_clickCount(int value) { }
 	/* GenericInstMethod :
 	|
@@ -81732,7 +80249,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 25
 	public float get_pressure() { }
 	/* GenericInstMethod :
 	|
@@ -81749,7 +80265,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_pressure(float value) { }
 	/* GenericInstMethod :
 	|
@@ -81758,7 +80273,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 26
 	public float get_tangentialPressure() { }
 	/* GenericInstMethod :
 	|
@@ -81775,7 +80289,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_tangentialPressure(float value) { }
 	/* GenericInstMethod :
 	|
@@ -81784,7 +80297,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 27
 	public float get_altitudeAngle() { }
 	/* GenericInstMethod :
 	|
@@ -81801,7 +80313,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_altitudeAngle(float value) { }
 	/* GenericInstMethod :
 	|
@@ -81810,7 +80321,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 28
 	public float get_azimuthAngle() { }
 	/* GenericInstMethod :
 	|
@@ -81827,7 +80337,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_azimuthAngle(float value) { }
 	/* GenericInstMethod :
 	|
@@ -81836,7 +80345,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 29
 	public float get_twist() { }
 	/* GenericInstMethod :
 	|
@@ -81853,7 +80361,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_twist(float value) { }
 	/* GenericInstMethod :
 	|
@@ -81862,7 +80369,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 30
 	public Vector2 get_radius() { }
 	/* GenericInstMethod :
 	|
@@ -81879,7 +80385,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_radius(Vector2 value) { }
 	/* GenericInstMethod :
 	|
@@ -81888,7 +80393,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 31
 	public Vector2 get_radiusVariance() { }
 	/* GenericInstMethod :
 	|
@@ -81905,7 +80409,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_radiusVariance(Vector2 value) { }
 	/* GenericInstMethod :
 	|
@@ -81914,7 +80417,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 32
 	public EventModifiers get_modifiers() { }
 	/* GenericInstMethod :
 	|
@@ -81931,7 +80433,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void set_modifiers(EventModifiers value) { }
 	/* GenericInstMethod :
 	|
@@ -81940,7 +80441,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 33
 	private bool UnityEngine.UIElements.IPointerEventInternal.get_triggeredByOS() { }
 	/* GenericInstMethod :
 	|
@@ -81957,7 +80457,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 34
 	private void UnityEngine.UIElements.IPointerEventInternal.set_triggeredByOS(bool value) { }
 	/* GenericInstMethod :
 	|
@@ -81974,7 +80473,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 35
 	private bool UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer() { }
 	/* GenericInstMethod :
 	|
@@ -81991,7 +80489,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 36
 	private void UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer(bool value) { }
 	/* GenericInstMethod :
 	|
@@ -82007,7 +80504,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	|-PointerEventBase<PointerUpEvent>.UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	protected override void Init() { }
 	/* GenericInstMethod :
 	|
@@ -82023,7 +80519,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	|-PointerEventBase<PointerUpEvent>.Init
 	*/
 
-	// RVA: -1 Offset: -1
 	private void LocalInit() { }
 	/* GenericInstMethod :
 	|
@@ -82031,7 +80526,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	|-PointerEventBase<object>.LocalInit
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public override IEventHandler get_currentTarget() { }
 	/* GenericInstMethod :
 	|
@@ -82047,7 +80541,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	|-PointerEventBase<PointerUpEvent>.get_currentTarget
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	internal override void set_currentTarget(IEventHandler value) { }
 	/* GenericInstMethod :
 	|
@@ -82063,7 +80556,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	|-PointerEventBase<PointerUpEvent>.set_currentTarget
 	*/
 
-	// RVA: -1 Offset: -1
 	private static bool IsMouse(Event systemEvent) { }
 	/* GenericInstMethod :
 	|
@@ -82071,7 +80563,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	|-PointerEventBase<object>.IsMouse
 	*/
 
-	// RVA: -1 Offset: -1
 	public static T GetPooled(Event systemEvent) { }
 	/* GenericInstMethod :
 	|
@@ -82082,7 +80573,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	|-PointerEventBase<PointerUpEvent>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1
 	internal static T GetPooled(IPointerEvent triggerEvent, Vector2 position, int pointerId) { }
 	/* GenericInstMethod :
 	|
@@ -82092,7 +80582,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	|-PointerEventBase<PointerOverEvent>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1
 	public static T GetPooled(IPointerEvent triggerEvent) { }
 	/* GenericInstMethod :
 	|
@@ -82100,7 +80589,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	|-PointerEventBase<object>.GetPooled
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	protected internal override void PreDispatch(IPanel panel) { }
 	/* GenericInstMethod :
 	|
@@ -82116,7 +80604,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	|-PointerEventBase<PointerUpEvent>.PreDispatch
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	protected internal override void PostDispatch(IPanel panel) { }
 	/* GenericInstMethod :
 	|
@@ -82132,7 +80619,6 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 	|-PointerEventBase<PointerUpEvent>.PostDispatch
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -82151,19 +80637,15 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 }
 
 public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> // TypeDefIndex: 4711
-{	// Fields
-	private StyleKeyword m_Keyword; // 0x0
+{	private StyleKeyword m_Keyword; // 0x0
 	private T m_Value; // 0x0
 	private int m_Specificity; // 0x0
 
-	// Properties
 	public T value { get; }
 	internal int specificity { set; }
 	public StyleKeyword keyword { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public T get_value() { }
 	/* GenericInstMethod :
 	|
@@ -82174,7 +80656,6 @@ public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> // TypeDef
 	|-StyleEnum<Visibility>.get_value
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void set_specificity(int value) { }
 	/* GenericInstMethod :
 	|
@@ -82182,7 +80663,6 @@ public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> // TypeDef
 	|-StyleEnum<Int32Enum>.set_specificity
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public StyleKeyword get_keyword() { }
 	/* GenericInstMethod :
 	|
@@ -82190,7 +80670,6 @@ public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> // TypeDef
 	|-StyleEnum<Int32Enum>.get_keyword
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(T v, StyleKeyword keyword) { }
 	/* GenericInstMethod :
 	|
@@ -82198,7 +80677,6 @@ public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> // TypeDef
 	|-StyleEnum<Int32Enum>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public static bool op_Equality(StyleEnum<T> lhs, StyleEnum<T> rhs) { }
 	/* GenericInstMethod :
 	|
@@ -82206,7 +80684,6 @@ public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> // TypeDef
 	|-StyleEnum<Int32Enum>.op_Equality
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public bool Equals(StyleEnum<T> other) { }
 	/* GenericInstMethod :
 	|
@@ -82214,7 +80691,6 @@ public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> // TypeDef
 	|-StyleEnum<Int32Enum>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -82222,7 +80698,6 @@ public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> // TypeDef
 	|-StyleEnum<Int32Enum>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -82230,7 +80705,6 @@ public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> // TypeDef
 	|-StyleEnum<Int32Enum>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -82241,19 +80715,15 @@ public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> // TypeDef
 }
 
 public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
-{	// Fields
-	private int count; // 0x0
+{	private int count; // 0x0
 	private T[] buffer; // 0x0
 
-	// Properties
 	public int Count { get; }
 	public int Capacity { get; }
 	public T[] Buffer { get; }
 	public T Item { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -82279,7 +80749,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Capacity() { }
 	/* GenericInstMethod :
 	|
@@ -82297,7 +80766,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.get_Capacity
 	*/
 
-	// RVA: -1 Offset: -1
 	public T[] get_Buffer() { }
 	/* GenericInstMethod :
 	|
@@ -82330,7 +80798,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.get_Buffer
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -82364,7 +80831,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -82398,7 +80864,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int capacity = 8) { }
 	/* GenericInstMethod :
 	|
@@ -82416,7 +80881,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(T element) { }
 	/* GenericInstMethod :
 	|
@@ -82450,7 +80914,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool Remove(T element) { }
 	/* GenericInstMethod :
 	|
@@ -82478,7 +80941,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	public void RemoveAt(int index) { }
 	/* GenericInstMethod :
 	|
@@ -82510,7 +80972,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.RemoveAt
 	*/
 
-	// RVA: -1 Offset: -1
 	public void RemoveUnordered(int index) { }
 	/* GenericInstMethod :
 	|
@@ -82544,7 +81005,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.RemoveUnordered
 	*/
 
-	// RVA: -1 Offset: -1
 	public int IndexOf(T element) { }
 	/* GenericInstMethod :
 	|
@@ -82572,7 +81032,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1
 	public int LastIndexOf(T element) { }
 	/* GenericInstMethod :
 	|
@@ -82600,7 +81059,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.LastIndexOf
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool Contains(T element) { }
 	/* GenericInstMethod :
 	|
@@ -82628,7 +81086,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.Contains
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -82646,7 +81103,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Sort() { }
 	/* GenericInstMethod :
 	|
@@ -82664,7 +81120,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.Sort
 	*/
 
-	// RVA: -1 Offset: -1
 	public BufferList.Enumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -82685,7 +81140,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -82703,7 +81157,6 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 	|-BufferList<ViewModelDrawEvent>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -82724,12 +81177,10 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4794
 }
 
 public class Deque<T> // TypeDefIndex: 4796
-{	// Fields
-	private T[] buffer; // 0x0
+{	private T[] buffer; // 0x0
 	private int offset; // 0x0
 	private int count; // 0x0
 
-	// Properties
 	public T Item { get; set; }
 	public int Count { get; }
 	public bool IsEmpty { get; }
@@ -82739,9 +81190,7 @@ public class Deque<T> // TypeDefIndex: 4796
 	public T Front { get; }
 	public T Back { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int capacity = 8) { }
 	/* GenericInstMethod :
 	|
@@ -82750,7 +81199,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -82761,7 +81209,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -82772,7 +81219,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -82781,7 +81227,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsEmpty() { }
 	/* GenericInstMethod :
 	|
@@ -82790,7 +81235,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.get_IsEmpty
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsFull() { }
 	/* GenericInstMethod :
 	|
@@ -82799,7 +81243,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.get_IsFull
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsSplit() { }
 	/* GenericInstMethod :
 	|
@@ -82808,7 +81251,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.get_IsSplit
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Capacity() { }
 	/* GenericInstMethod :
 	|
@@ -82817,7 +81259,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.get_Capacity
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Front() { }
 	/* GenericInstMethod :
 	|
@@ -82828,7 +81269,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.get_Front
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Back() { }
 	/* GenericInstMethod :
 	|
@@ -82839,7 +81279,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.get_Back
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -82848,7 +81287,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Resize(int capacity) { }
 	/* GenericInstMethod :
 	|
@@ -82857,7 +81295,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.Resize
 	*/
 
-	// RVA: -1 Offset: -1
 	public T PeekBack() { }
 	/* GenericInstMethod :
 	|
@@ -82868,7 +81305,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.PeekBack
 	*/
 
-	// RVA: -1 Offset: -1
 	public T PeekFront() { }
 	/* GenericInstMethod :
 	|
@@ -82879,7 +81315,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.PeekFront
 	*/
 
-	// RVA: -1 Offset: -1
 	public void PushBack(T value) { }
 	/* GenericInstMethod :
 	|
@@ -82890,7 +81325,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.PushBack
 	*/
 
-	// RVA: -1 Offset: -1
 	public void PushFront(T value) { }
 	/* GenericInstMethod :
 	|
@@ -82901,7 +81335,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.PushFront
 	*/
 
-	// RVA: -1 Offset: -1
 	public T PopBack() { }
 	/* GenericInstMethod :
 	|
@@ -82912,7 +81345,6 @@ public class Deque<T> // TypeDefIndex: 4796
 	|-Deque<object>.PopBack
 	*/
 
-	// RVA: -1 Offset: -1
 	public T PopFront() { }
 	/* GenericInstMethod :
 	|
@@ -82926,22 +81358,18 @@ public class Deque<T> // TypeDefIndex: 4796
 }
 
 public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 4798
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static readonly IImmutableStack<T> <Empty>k__BackingField; // 0x0
 	private readonly T _head; // 0x0
 	private readonly IImmutableStack<T> _tail; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly int <Count>k__BackingField; // 0x0
 
-	// Properties
 	public static IImmutableStack<T> Empty { get; }
 	public int Count { get; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public static IImmutableStack<T> get_Empty() { }
 	/* GenericInstMethod :
 	|
@@ -82949,7 +81377,6 @@ public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable
 	|-ImmutableStack<object>.get_Empty
 	*/
 
-	// RVA: -1 Offset: -1
 	private void .ctor(T head, IImmutableStack<T> tail) { }
 	/* GenericInstMethod :
 	|
@@ -82958,7 +81385,6 @@ public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 4
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -82966,7 +81392,6 @@ public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable
 	|-ImmutableStack<object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public T Peek() { }
 	/* GenericInstMethod :
 	|
@@ -82974,7 +81399,6 @@ public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable
 	|-ImmutableStack<object>.Peek
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public IImmutableStack<T> Pop() { }
 	/* GenericInstMethod :
 	|
@@ -82982,7 +81406,6 @@ public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable
 	|-ImmutableStack<object>.Pop
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public IImmutableStack<T> Push(T value) { }
 	/* GenericInstMethod :
 	|
@@ -82991,7 +81414,6 @@ public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable
 	*/
 
 	[IteratorStateMachineAttribute] // RVA: 0xD53A0 Offset: 0xD47A0 VA: 0x1800D53A0
-	// RVA: -1 Offset: -1 Slot: 8
 	public IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -82999,7 +81421,6 @@ public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable
 	|-ImmutableStack<object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -83007,7 +81428,6 @@ public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable
 	|-ImmutableStack<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -83018,15 +81438,11 @@ public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable
 }
 
 public struct IntrusiveLinkedList<T> // TypeDefIndex: 4802
-{	// Fields
-	private T head; // 0x0
+{	private T head; // 0x0
 
-	// Properties
 	public bool Empty { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public bool get_Empty() { }
 	/* GenericInstMethod :
 	|
@@ -83034,7 +81450,6 @@ public struct IntrusiveLinkedList<T> // TypeDefIndex: 4802
 	|-IntrusiveLinkedList<object>.get_Empty
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
@@ -83042,7 +81457,6 @@ public struct IntrusiveLinkedList<T> // TypeDefIndex: 4802
 	|-IntrusiveLinkedList<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public T Pop() { }
 	/* GenericInstMethod :
 	|
@@ -83053,15 +81467,11 @@ public struct IntrusiveLinkedList<T> // TypeDefIndex: 4802
 }
 
 public struct IntrusiveMinHeap<T> // TypeDefIndex: 4804
-{	// Fields
-	private T head; // 0x0
+{	private T head; // 0x0
 
-	// Properties
 	public bool Empty { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public bool get_Empty() { }
 	/* GenericInstMethod :
 	|
@@ -83070,7 +81480,6 @@ public struct IntrusiveMinHeap<T> // TypeDefIndex: 4804
 	|-IntrusiveMinHeap<object>.get_Empty
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
@@ -83079,7 +81488,6 @@ public struct IntrusiveMinHeap<T> // TypeDefIndex: 4804
 	|-IntrusiveMinHeap<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public T Pop() { }
 	/* GenericInstMethod :
 	|
@@ -83091,21 +81499,17 @@ public struct IntrusiveMinHeap<T> // TypeDefIndex: 4804
 }
 
 public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>, IEnumerable // TypeDefIndex: 4806
-{	// Fields
-	private Dictionary<TKey, int> key2idx; // 0x0
+{	private Dictionary<TKey, int> key2idx; // 0x0
 	private Dictionary<int, TKey> idx2key; // 0x0
 	private BufferList<TKey> keys; // 0x0
 	private BufferList<TVal> vals; // 0x0
 
-	// Properties
 	public TVal Item { get; set; }
 	public BufferList<TKey> Keys { get; }
 	public BufferList<TVal> Values { get; }
 	public int Count { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -83132,7 +81536,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<Collider, List<Collider>>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int capacity = 8) { }
 	/* GenericInstMethod :
 	|
@@ -83147,7 +81550,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<ulong, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(TKey key, TVal val) { }
 	/* GenericInstMethod :
 	|
@@ -83185,7 +81587,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<uint, object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool Contains(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -83209,7 +81610,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<RendererKey, object>.Contains
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool Remove(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -83237,7 +81637,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<uint, object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool RemoveAt(int idx) { }
 	/* GenericInstMethod :
 	|
@@ -83261,7 +81660,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<uint, object>.RemoveAt
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Remove(int idx_remove, TKey key_remove) { }
 	/* GenericInstMethod :
 	|
@@ -83284,7 +81682,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<uint, object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TryGetValue(TKey key, out TVal val) { }
 	/* GenericInstMethod :
 	|
@@ -83318,7 +81715,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<uint, object>.TryGetValue
 	*/
 
-	// RVA: -1 Offset: -1
 	public KeyValuePair<TKey, TVal> GetByIndex(int idx) { }
 	/* GenericInstMethod :
 	|
@@ -83349,7 +81745,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<ulong, object>.GetByIndex
 	*/
 
-	// RVA: -1 Offset: -1
 	public TVal get_Item(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -83372,7 +81767,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<RendererKey, object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Item(TKey key, TVal value) { }
 	/* GenericInstMethod :
 	|
@@ -83396,7 +81790,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<object, float>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -83419,7 +81812,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<Collider, List<Collider>>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public BufferList<TKey> get_Keys() { }
 	/* GenericInstMethod :
 	|
@@ -83436,7 +81828,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<ulong, object>.get_Keys
 	*/
 
-	// RVA: -1 Offset: -1
 	public BufferList<TVal> get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -83457,7 +81848,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<ulong, object>.get_Values
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -83480,7 +81870,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	*/
 
 	[IteratorStateMachineAttribute] // RVA: 0xD5ED0 Offset: 0xD52D0 VA: 0x1800D5ED0
-	// RVA: -1 Offset: -1 Slot: 4
 	public IEnumerator<KeyValuePair<TKey, TVal>> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -83500,7 +81889,6 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<RendererKey, object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -83518,20 +81906,16 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 }
 
 private sealed class ListDictionary.<GetEnumerator>d__23<TKey, TVal> : IEnumerator<KeyValuePair<TKey, TVal>>, IEnumerator, IDisposable // TypeDefIndex: 4807
-{	// Fields
-	private int <>1__state; // 0x0
+{	private int <>1__state; // 0x0
 	private KeyValuePair<TKey, TVal> <>2__current; // 0x0
 	public ListDictionary<TKey, TVal> <>4__this; // 0x0
 	private int <i>5__2; // 0x0
 
-	// Properties
 	private KeyValuePair<TKey, TVal> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey,TVal>>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
-	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
@@ -83547,7 +81931,6 @@ private sealed class ListDictionary.<GetEnumerator>d__23<TKey, TVal> : IEnumerat
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 5
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -83562,7 +81945,6 @@ private sealed class ListDictionary.<GetEnumerator>d__23<TKey, TVal> : IEnumerat
 	|-ListDictionary.<GetEnumerator>d__23<ulong, object>.System.IDisposable.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
@@ -83584,7 +81966,6 @@ private sealed class ListDictionary.<GetEnumerator>d__23<TKey, TVal> : IEnumerat
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 4
 	private KeyValuePair<TKey, TVal> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey,TVal>>.get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -83604,7 +81985,6 @@ private sealed class ListDictionary.<GetEnumerator>d__23<TKey, TVal> : IEnumerat
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
@@ -83634,7 +82014,6 @@ private sealed class ListDictionary.<GetEnumerator>d__23<TKey, TVal> : IEnumerat
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -83656,20 +82035,16 @@ private sealed class ListDictionary.<GetEnumerator>d__23<TKey, TVal> : IEnumerat
 }
 
 public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection<T> // TypeDefIndex: 4808
-{	// Fields
-	private Dictionary<T, int> val2idx; // 0x0
+{	private Dictionary<T, int> val2idx; // 0x0
 	private Dictionary<int, T> idx2val; // 0x0
 	private BufferList<T> vals; // 0x0
 
-	// Properties
 	public BufferList<T> Values { get; }
 	public int Count { get; }
 	public bool IsReadOnly { get; }
 	public T Item { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int capacity = 8) { }
 	/* GenericInstMethod :
 	|
@@ -83704,7 +82079,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public void Add(T val) { }
 	/* GenericInstMethod :
 	|
@@ -83742,7 +82116,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public void AddRange(List<T> list) { }
 	/* GenericInstMethod :
 	|
@@ -83757,7 +82130,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.AddRange
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 15
 	public bool Contains(T val) { }
 	/* GenericInstMethod :
 	|
@@ -83779,7 +82151,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 17
 	public bool Remove(T val) { }
 	/* GenericInstMethod :
 	|
@@ -83817,7 +82188,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public void RemoveAt(int idx) { }
 	/* GenericInstMethod :
 	|
@@ -83834,7 +82204,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.RemoveAt
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public int IndexOf(T item) { }
 	/* GenericInstMethod :
 	|
@@ -83849,7 +82218,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void Insert(int index, T item) { }
 	/* GenericInstMethod :
 	|
@@ -83864,7 +82232,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.Insert
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -83883,7 +82250,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Remove(int idx_remove, T val_remove) { }
 	/* GenericInstMethod :
 	|
@@ -83898,7 +82264,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	public void CopyTo(T[] array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
@@ -83913,7 +82278,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public BufferList<T> get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -83940,7 +82304,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.get_Values
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -83981,7 +82344,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public bool get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -83992,7 +82354,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -84018,7 +82379,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public void set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -84033,7 +82393,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public ListHashSet.Enumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -84055,7 +82414,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -84066,7 +82424,6 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 	|-ListHashSet<ViewModelDrawEvent>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -84080,20 +82437,16 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 }
 
 public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, IEnumerable // TypeDefIndex: 4812
-{	// Fields
-	private int capacity; // 0x0
+{	private int capacity; // 0x0
 	private Queue<LinkedListNode<KeyValuePair<Key, Value>>> recycled; // 0x0
 	private LinkedList<KeyValuePair<Key, Value>> list; // 0x0
 	private Dictionary<Key, LinkedListNode<KeyValuePair<Key, Value>>> dict; // 0x0
 	private Action<Key, Value> valueRecycler; // 0x0
 
-	// Properties
 	public int Capacity { get; }
 	public int Count { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public int get_Capacity() { }
 	/* GenericInstMethod :
 	|
@@ -84102,7 +82455,6 @@ public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, 
 	|-MruDictionary<uint, object>.get_Capacity
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -84111,7 +82463,6 @@ public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, 
 	|-MruDictionary<uint, object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int capacity, Action<Key, Value> valueRecycler) { }
 	/* GenericInstMethod :
 	|
@@ -84121,7 +82472,6 @@ public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, 
 	|-MruDictionary<uint, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(Key key, Value value) { }
 	/* GenericInstMethod :
 	|
@@ -84133,7 +82483,6 @@ public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, 
 	|-MruDictionary<uint, object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Remove(Key key) { }
 	/* GenericInstMethod :
 	|
@@ -84145,7 +82494,6 @@ public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, 
 	|-MruDictionary<uint, object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	private void RemoveLast() { }
 	/* GenericInstMethod :
 	|
@@ -84156,7 +82504,6 @@ public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, 
 	|-MruDictionary<uint, object>.RemoveLast
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TryGetValue(Key key, out Value value) { }
 	/* GenericInstMethod :
 	|
@@ -84168,7 +82515,6 @@ public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, 
 	|-MruDictionary<uint, object>.TryGetValue
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -84178,7 +82524,6 @@ public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, 
 	|-MruDictionary<uint, object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public LinkedList.Enumerator<KeyValuePair<Key, Value>> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -84188,7 +82533,6 @@ public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, 
 	|-MruDictionary<uint, object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<KeyValuePair<Key, Value>> System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<Key,Value>>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -84197,7 +82541,6 @@ public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, 
 	|-MruDictionary<uint, object>.System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<Key,Value>>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -84209,8 +82552,7 @@ public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, 
 }
 
 public class Grid<T> // TypeDefIndex: 4829
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <CellCount>k__BackingField; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <CellSize>k__BackingField; // 0x0
@@ -84219,14 +82561,11 @@ public class Grid<T> // TypeDefIndex: 4829
 	private Grid.Node<T>[,] Nodes; // 0x0
 	private Dictionary<T, Grid.Node<T>> Lookup; // 0x0
 
-	// Properties
 	public int CellCount { get; set; }
 	public int CellSize { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public int get_CellCount() { }
 	/* GenericInstMethod :
 	|
@@ -84235,7 +82574,6 @@ public class Grid<T> // TypeDefIndex: 4829
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_CellCount(int value) { }
 	/* GenericInstMethod :
 	|
@@ -84244,7 +82582,6 @@ public class Grid<T> // TypeDefIndex: 4829
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public int get_CellSize() { }
 	/* GenericInstMethod :
 	|
@@ -84253,7 +82590,6 @@ public class Grid<T> // TypeDefIndex: 4829
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_CellSize(int value) { }
 	/* GenericInstMethod :
 	|
@@ -84261,7 +82597,6 @@ public class Grid<T> // TypeDefIndex: 4829
 	|-Grid<object>.set_CellSize
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int CellSize, float WorldSize) { }
 	/* GenericInstMethod :
 	|
@@ -84271,7 +82606,6 @@ public class Grid<T> // TypeDefIndex: 4829
 	|-Grid<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public int Query(float x, float y, float radius, T[] result, Func<T, bool> filter) { }
 	/* GenericInstMethod :
 	|
@@ -84281,7 +82615,6 @@ public class Grid<T> // TypeDefIndex: 4829
 	|-Grid<object>.Query
 	*/
 
-	// RVA: -1 Offset: -1
 	private int Clamp(float input) { }
 	/* GenericInstMethod :
 	|
@@ -84289,7 +82622,6 @@ public class Grid<T> // TypeDefIndex: 4829
 	|-Grid<object>.Clamp
 	*/
 
-	// RVA: -1 Offset: -1
 	private Grid.Node<T> GetNode(float x, float y, bool create = True) { }
 	/* GenericInstMethod :
 	|
@@ -84297,7 +82629,6 @@ public class Grid<T> // TypeDefIndex: 4829
 	|-Grid<object>.GetNode
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(T obj, float x, float y) { }
 	/* GenericInstMethod :
 	|
@@ -84307,7 +82638,6 @@ public class Grid<T> // TypeDefIndex: 4829
 	|-Grid<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Move(T obj, float x, float y) { }
 	/* GenericInstMethod :
 	|
@@ -84317,7 +82647,6 @@ public class Grid<T> // TypeDefIndex: 4829
 	|-Grid<object>.Move
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool Remove(T obj) { }
 	/* GenericInstMethod :
 	|
@@ -84330,22 +82659,18 @@ public class Grid<T> // TypeDefIndex: 4829
 }
 
 public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4831
-{	// Fields
-	private readonly T[] _buffer; // 0x0
+{	private readonly T[] _buffer; // 0x0
 	private int _start; // 0x0
 	private int _end; // 0x0
 	private int _size; // 0x0
 
-	// Properties
 	public int Capacity { get; }
 	public bool IsFull { get; }
 	public bool IsEmpty { get; }
 	public int Size { get; }
 	public T Item { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int capacity) { }
 	/* GenericInstMethod :
 	|
@@ -84353,7 +82678,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int capacity, T[] items) { }
 	/* GenericInstMethod :
 	|
@@ -84361,7 +82685,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Capacity() { }
 	/* GenericInstMethod :
 	|
@@ -84369,7 +82692,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.get_Capacity
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsFull() { }
 	/* GenericInstMethod :
 	|
@@ -84377,7 +82699,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.get_IsFull
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsEmpty() { }
 	/* GenericInstMethod :
 	|
@@ -84385,7 +82706,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.get_IsEmpty
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Size() { }
 	/* GenericInstMethod :
 	|
@@ -84393,7 +82713,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.get_Size
 	*/
 
-	// RVA: -1 Offset: -1
 	public T Front() { }
 	/* GenericInstMethod :
 	|
@@ -84401,7 +82720,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.Front
 	*/
 
-	// RVA: -1 Offset: -1
 	public T Back() { }
 	/* GenericInstMethod :
 	|
@@ -84409,7 +82727,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.Back
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -84417,7 +82734,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -84425,7 +82741,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void PushBack(T item) { }
 	/* GenericInstMethod :
 	|
@@ -84433,7 +82748,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.PushBack
 	*/
 
-	// RVA: -1 Offset: -1
 	public void PushFront(T item) { }
 	/* GenericInstMethod :
 	|
@@ -84441,7 +82755,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.PushFront
 	*/
 
-	// RVA: -1 Offset: -1
 	public void PopBack() { }
 	/* GenericInstMethod :
 	|
@@ -84449,7 +82762,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.PopBack
 	*/
 
-	// RVA: -1 Offset: -1
 	public void PopFront() { }
 	/* GenericInstMethod :
 	|
@@ -84457,7 +82769,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.PopFront
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -84465,7 +82776,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public T[] ToArray() { }
 	/* GenericInstMethod :
 	|
@@ -84473,7 +82783,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.ToArray
 	*/
 
-	// RVA: -1 Offset: -1
 	public IList<ArraySegment<T>> ToArraySegments() { }
 	/* GenericInstMethod :
 	|
@@ -84482,7 +82791,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	*/
 
 	[IteratorStateMachineAttribute] // RVA: 0xD6C40 Offset: 0xD6040 VA: 0x1800D6C40
-	// RVA: -1 Offset: -1 Slot: 4
 	public IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -84490,7 +82798,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -84498,7 +82805,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1
 	private void ThrowIfEmpty(string message = "Cannot access an empty buffer.") { }
 	/* GenericInstMethod :
 	|
@@ -84506,7 +82812,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.ThrowIfEmpty
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Increment(ref int index) { }
 	/* GenericInstMethod :
 	|
@@ -84514,7 +82819,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.Increment
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Decrement(ref int index) { }
 	/* GenericInstMethod :
 	|
@@ -84522,7 +82826,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.Decrement
 	*/
 
-	// RVA: -1 Offset: -1
 	private int InternalIndex(int index) { }
 	/* GenericInstMethod :
 	|
@@ -84530,7 +82833,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.InternalIndex
 	*/
 
-	// RVA: -1 Offset: -1
 	private ArraySegment<T> ArrayOne() { }
 	/* GenericInstMethod :
 	|
@@ -84538,7 +82840,6 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.ArrayOne
 	*/
 
-	// RVA: -1 Offset: -1
 	private ArraySegment<T> ArrayTwo() { }
 	/* GenericInstMethod :
 	|
@@ -84549,16 +82850,13 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 }
 
 internal static class Pool<T> // TypeDefIndex: 4839
-{	// Fields
-	public static Pool.PoolCollection<T> Collection; // 0x0
+{	public static Pool.PoolCollection<T> Collection; // 0x0
 
 }
 
 public static class DictionaryExtensions // TypeDefIndex: 4842
-{	// Methods
-
+{
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public static TValue GetOrCreate<TKey, TValue>(Dictionary<TKey, TValue> dict, TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -84567,7 +82865,6 @@ public static class DictionaryExtensions // TypeDefIndex: 4842
 	*/
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public static TValue GetOrCreatePooled<TKey, TValue>(Dictionary<TKey, TValue> dict, TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -84577,7 +82874,6 @@ public static class DictionaryExtensions // TypeDefIndex: 4842
 	*/
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public static Dictionary<TKey, TValue> Clone<TKey, TValue>(Dictionary<TKey, TValue> dict) { }
 	/* GenericInstMethod :
 	|
@@ -84588,12 +82884,9 @@ public static class DictionaryExtensions // TypeDefIndex: 4842
 }
 
 internal static class ListPool<T> // TypeDefIndex: 5020
-{	// Fields
-	private static readonly ObjectPool<List<T>> s_ListPool; // 0x0
+{	private static readonly ObjectPool<List<T>> s_ListPool; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	private static void Clear(List<T> l) { }
 	/* GenericInstMethod :
 	|
@@ -84607,7 +82900,6 @@ internal static class ListPool<T> // TypeDefIndex: 5020
 	|-ListPool<Vector4>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public static List<T> Get() { }
 	/* GenericInstMethod :
 	|
@@ -84625,7 +82917,6 @@ internal static class ListPool<T> // TypeDefIndex: 5020
 	|-ListPool<Vector4>.Get
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void Release(List<T> toRelease) { }
 	/* GenericInstMethod :
 	|
@@ -84643,7 +82934,6 @@ internal static class ListPool<T> // TypeDefIndex: 5020
 	|-ListPool<Vector4>.Release
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -84660,22 +82950,18 @@ internal static class ListPool<T> // TypeDefIndex: 5020
 }
 
 internal class ObjectPool<T> // TypeDefIndex: 5021
-{	// Fields
-	private readonly Stack<T> m_Stack; // 0x0
+{	private readonly Stack<T> m_Stack; // 0x0
 	private readonly UnityAction<T> m_ActionOnGet; // 0x0
 	private readonly UnityAction<T> m_ActionOnRelease; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <countAll>k__BackingField; // 0x0
 
-	// Properties
 	public int countAll { get; set; }
 	public int countActive { get; }
 	public int countInactive { get; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public int get_countAll() { }
 	/* GenericInstMethod :
 	|
@@ -84684,7 +82970,6 @@ internal class ObjectPool<T> // TypeDefIndex: 5021
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_countAll(int value) { }
 	/* GenericInstMethod :
 	|
@@ -84692,7 +82977,6 @@ internal class ObjectPool<T> // TypeDefIndex: 5021
 	|-ObjectPool<object>.set_countAll
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_countActive() { }
 	/* GenericInstMethod :
 	|
@@ -84700,7 +82984,6 @@ internal class ObjectPool<T> // TypeDefIndex: 5021
 	|-ObjectPool<object>.get_countActive
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_countInactive() { }
 	/* GenericInstMethod :
 	|
@@ -84708,7 +82991,6 @@ internal class ObjectPool<T> // TypeDefIndex: 5021
 	|-ObjectPool<object>.get_countInactive
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(UnityAction<T> actionOnGet, UnityAction<T> actionOnRelease) { }
 	/* GenericInstMethod :
 	|
@@ -84718,7 +83000,6 @@ internal class ObjectPool<T> // TypeDefIndex: 5021
 	|-ObjectPool<LayoutRebuilder>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public T Get() { }
 	/* GenericInstMethod :
 	|
@@ -84728,7 +83009,6 @@ internal class ObjectPool<T> // TypeDefIndex: 5021
 	|-ObjectPool<LayoutRebuilder>.Get
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Release(T element) { }
 	/* GenericInstMethod :
 	|
@@ -84741,18 +83021,14 @@ internal class ObjectPool<T> // TypeDefIndex: 5021
 }
 
 internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 5037
-{	// Fields
-	private readonly List<T> m_List; // 0x0
+{	private readonly List<T> m_List; // 0x0
 	private Dictionary<T, int> m_Dictionary; // 0x0
 
-	// Properties
 	public int Count { get; }
 	public bool IsReadOnly { get; }
 	public T Item { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1 Slot: 11
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
@@ -84761,7 +83037,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<Graphic>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool AddUnique(T item) { }
 	/* GenericInstMethod :
 	|
@@ -84772,7 +83047,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<IClipper>.AddUnique
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 15
 	public bool Remove(T item) { }
 	/* GenericInstMethod :
 	|
@@ -84783,7 +83057,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<IClipper>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	public IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -84791,7 +83064,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 17
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -84799,7 +83071,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -84808,7 +83079,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<ICanvasElement>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public bool Contains(T item) { }
 	/* GenericInstMethod :
 	|
@@ -84817,7 +83087,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<ICanvasElement>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public void CopyTo(T[] array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
@@ -84825,7 +83094,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<object>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -84836,7 +83104,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<IClipper>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public bool get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -84844,7 +83111,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<object>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public int IndexOf(T item) { }
 	/* GenericInstMethod :
 	|
@@ -84852,7 +83118,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<object>.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public void Insert(int index, T item) { }
 	/* GenericInstMethod :
 	|
@@ -84860,7 +83125,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<object>.Insert
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public void RemoveAt(int index) { }
 	/* GenericInstMethod :
 	|
@@ -84869,7 +83133,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<ICanvasElement>.RemoveAt
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -84879,7 +83142,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<IClipper>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -84887,7 +83149,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<object>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void RemoveAll(Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
@@ -84895,7 +83156,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<object>.RemoveAll
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Sort(Comparison<T> sortLayoutFunction) { }
 	/* GenericInstMethod :
 	|
@@ -84904,7 +83164,6 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 	|-IndexedSet<ICanvasElement>.Sort
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -84918,14 +83177,11 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 }
 
 internal class TweenRunner<T> // TypeDefIndex: 5044
-{	// Fields
-	protected MonoBehaviour m_CoroutineContainer; // 0x0
+{	protected MonoBehaviour m_CoroutineContainer; // 0x0
 	protected IEnumerator m_Tween; // 0x0
 
-	// Methods
 
 	[IteratorStateMachineAttribute] // RVA: 0x80880 Offset: 0x7FC80 VA: 0x180080880
-	// RVA: -1 Offset: -1
 	private static IEnumerator Start(T tweenInfo) { }
 	/* GenericInstMethod :
 	|
@@ -84936,7 +83192,6 @@ internal class TweenRunner<T> // TypeDefIndex: 5044
 	|-TweenRunner<FloatTween>.Start
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Init(MonoBehaviour coroutineContainer) { }
 	/* GenericInstMethod :
 	|
@@ -84945,7 +83200,6 @@ internal class TweenRunner<T> // TypeDefIndex: 5044
 	|-TweenRunner<FloatTween>.Init
 	*/
 
-	// RVA: -1 Offset: -1
 	public void StartTween(T info) { }
 	/* GenericInstMethod :
 	|
@@ -84956,7 +83210,6 @@ internal class TweenRunner<T> // TypeDefIndex: 5044
 	|-TweenRunner<FloatTween>.StartTween
 	*/
 
-	// RVA: -1 Offset: -1
 	public void StopTween() { }
 	/* GenericInstMethod :
 	|
@@ -84965,7 +83218,6 @@ internal class TweenRunner<T> // TypeDefIndex: 5044
 	|-TweenRunner<FloatTween>.StopTween
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -84977,17 +83229,13 @@ internal class TweenRunner<T> // TypeDefIndex: 5044
 }
 
 internal struct CallResult<T> : INotifyCompletion // TypeDefIndex: 5101
-{	// Fields
-	private SteamAPICall_t call; // 0x0
+{	private SteamAPICall_t call; // 0x0
 	private ISteamUtils utils; // 0x0
 	private bool server; // 0x0
 
-	// Properties
 	public bool IsCompleted { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(SteamAPICall_t call, bool server) { }
 	/* GenericInstMethod :
 	|
@@ -85013,7 +83261,6 @@ internal struct CallResult<T> : INotifyCompletion // TypeDefIndex: 5101
 	|-CallResult<SubmitItemUpdateResult_t>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public void OnCompleted(Action continuation) { }
 	/* GenericInstMethod :
 	|
@@ -85039,7 +83286,6 @@ internal struct CallResult<T> : INotifyCompletion // TypeDefIndex: 5101
 	|-CallResult<SubmitItemUpdateResult_t>.OnCompleted
 	*/
 
-	// RVA: -1 Offset: -1
 	public Nullable<T> GetResult() { }
 	/* GenericInstMethod :
 	|
@@ -85065,7 +83311,6 @@ internal struct CallResult<T> : INotifyCompletion // TypeDefIndex: 5101
 	|-CallResult<SubmitItemUpdateResult_t>.GetResult
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsCompleted() { }
 	/* GenericInstMethod :
 	|
@@ -85079,7 +83324,6 @@ internal struct CallResult<T> : INotifyCompletion // TypeDefIndex: 5101
 	|-CallResult<SubmitItemUpdateResult_t>.get_IsCompleted
 	*/
 
-	// RVA: -1 Offset: -1
 	internal CallResult<T> GetAwaiter() { }
 	/* GenericInstMethod :
 	|
@@ -85096,23 +83340,19 @@ internal struct CallResult<T> : INotifyCompletion // TypeDefIndex: 5101
 }
 
 internal struct MatchMakingKeyValuePair // TypeDefIndex: 5505
-{	// Fields
-	internal string Key; // 0x0
+{	internal string Key; // 0x0
 	internal string Value; // 0x8
 
 }
 
 public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefIndex: 5565
-{	// Fields
-	protected ListDictionary<InvokeAction, float> curList; // 0x0
+{	protected ListDictionary<InvokeAction, float> curList; // 0x0
 	protected ListHashSet<InvokeAction> addList; // 0x0
 	protected ListHashSet<InvokeAction> delList; // 0x0
 	protected int nullIndex; // 0x0
 	protected const int nullChecks = 50;
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	protected void LateUpdate() { }
 	/* GenericInstMethod :
 	|
@@ -85120,7 +83360,6 @@ public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefInd
 	|-InvokeHandlerBase<object>.LateUpdate
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	protected abstract float GetTime();
 	/* GenericInstMethod :
 	|
@@ -85128,7 +83367,6 @@ public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefInd
 	|-InvokeHandlerBase<object>.GetTime
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void DoTick() { }
 	/* GenericInstMethod :
 	|
@@ -85136,7 +83374,6 @@ public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefInd
 	|-InvokeHandlerBase<object>.DoTick
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void RemoveExpired() { }
 	/* GenericInstMethod :
 	|
@@ -85144,7 +83381,6 @@ public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefInd
 	|-InvokeHandlerBase<object>.RemoveExpired
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void QueueAdd(InvokeAction invoke) { }
 	/* GenericInstMethod :
 	|
@@ -85154,7 +83390,6 @@ public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefInd
 	|-InvokeHandlerBase<object>.QueueAdd
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void QueueRemove(InvokeAction invoke) { }
 	/* GenericInstMethod :
 	|
@@ -85164,7 +83399,6 @@ public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefInd
 	|-InvokeHandlerBase<object>.QueueRemove
 	*/
 
-	// RVA: -1 Offset: -1
 	protected bool Contains(InvokeAction invoke) { }
 	/* GenericInstMethod :
 	|
@@ -85174,7 +83408,6 @@ public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefInd
 	|-InvokeHandlerBase<object>.Contains
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void ApplyAdds() { }
 	/* GenericInstMethod :
 	|
@@ -85182,7 +83415,6 @@ public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefInd
 	|-InvokeHandlerBase<object>.ApplyAdds
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void ApplyRemoves() { }
 	/* GenericInstMethod :
 	|
@@ -85190,7 +83422,6 @@ public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefInd
 	|-InvokeHandlerBase<object>.ApplyRemoves
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -85203,12 +83434,9 @@ public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefInd
 }
 
 public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 5590
-{	// Fields
-	public static ListHashSet<T> InstanceList; // 0x0
+{	public static ListHashSet<T> InstanceList; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void Setup() { }
 	/* GenericInstMethod :
 	|
@@ -85233,7 +83461,6 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 5590
 	|-ListComponent<UI_LocalVoice>.Setup
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -85258,7 +83485,6 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 5590
 	|-ListComponent<UI_LocalVoice>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void RunOnAll(Action<T> toRun) { }
 	/* GenericInstMethod :
 	|
@@ -85267,7 +83493,6 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 5590
 	|-ListComponent<UIChat>.RunOnAll
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -85290,7 +83515,6 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 5590
 	|-ListComponent<UIEscapeCapture>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -85301,12 +83525,9 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 5590
 }
 
 public class PriorityListComponent<T> : ListComponent<T> // TypeDefIndex: 5592
-{	// Properties
-	public static T Instance { get; }
+{	public static T Instance { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public static T get_Instance() { }
 	/* GenericInstMethod :
 	|
@@ -85315,7 +83536,6 @@ public class PriorityListComponent<T> : ListComponent<T> // TypeDefIndex: 5592
 	|-PriorityListComponent<object>.get_Instance
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -85328,12 +83548,9 @@ public class PriorityListComponent<T> : ListComponent<T> // TypeDefIndex: 5592
 }
 
 public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex: 5593
-{	// Fields
-	public static T Instance; // 0x0
+{	public static T Instance; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void SingletonSetup() { }
 	/* GenericInstMethod :
 	|
@@ -85446,7 +83663,6 @@ public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex
 	|-SingletonComponent<uiPlayerPreview>.SingletonSetup
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override void SingletonClear() { }
 	/* GenericInstMethod :
 	|
@@ -85559,7 +83775,6 @@ public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex
 	|-SingletonComponent<uiPlayerPreview>.SingletonClear
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -85668,7 +83883,6 @@ public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex
 	|-SingletonComponent<uiPlayerPreview>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -85679,9 +83893,7 @@ public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex
 }
 
 internal sealed class ElementTryParser<T> : MulticastDelegate // TypeDefIndex: 5761
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -85701,7 +83913,6 @@ internal sealed class ElementTryParser<T> : MulticastDelegate // TypeDefIndex: 5
 	|-ElementTryParser<string>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual bool Invoke(Lexer lexer, out T parsedValue, out Token token) { }
 	/* GenericInstMethod :
 	|
@@ -85709,7 +83920,6 @@ internal sealed class ElementTryParser<T> : MulticastDelegate // TypeDefIndex: 5
 	|-ElementTryParser<object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(Lexer lexer, out T parsedValue, out Token token, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -85717,7 +83927,6 @@ internal sealed class ElementTryParser<T> : MulticastDelegate // TypeDefIndex: 5
 	|-ElementTryParser<object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual bool EndInvoke(out T parsedValue, out Token token, IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -85728,9 +83937,7 @@ internal sealed class ElementTryParser<T> : MulticastDelegate // TypeDefIndex: 5
 }
 
 internal sealed class TryParseDelegate<T> : MulticastDelegate // TypeDefIndex: 5767
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -85754,7 +83961,6 @@ internal sealed class TryParseDelegate<T> : MulticastDelegate // TypeDefIndex: 5
 	|-TryParseDelegate<Uri>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual bool Invoke(string value, out T result) { }
 	/* GenericInstMethod :
 	|
@@ -85766,7 +83972,6 @@ internal sealed class TryParseDelegate<T> : MulticastDelegate // TypeDefIndex: 5
 	|-TryParseDelegate<TimeSpan>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(string value, out T result, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -85786,7 +83991,6 @@ internal sealed class TryParseDelegate<T> : MulticastDelegate // TypeDefIndex: 5
 	|-TryParseDelegate<TimeSpan>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual bool EndInvoke(out T result, IAsyncResult __result) { }
 	/* GenericInstMethod :
 	|
@@ -85801,9 +84005,7 @@ internal sealed class TryParseDelegate<T> : MulticastDelegate // TypeDefIndex: 5
 }
 
 internal sealed class TryParseListDelegate<T> : MulticastDelegate // TypeDefIndex: 5768
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -85824,7 +84026,6 @@ internal sealed class TryParseListDelegate<T> : MulticastDelegate // TypeDefInde
 	|-TryParseListDelegate<string>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual bool Invoke(string value, int minimalCount, out List<T> result) { }
 	/* GenericInstMethod :
 	|
@@ -85832,7 +84033,6 @@ internal sealed class TryParseListDelegate<T> : MulticastDelegate // TypeDefInde
 	|-TryParseListDelegate<object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(string value, int minimalCount, out List<T> result, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -85840,7 +84040,6 @@ internal sealed class TryParseListDelegate<T> : MulticastDelegate // TypeDefInde
 	|-TryParseListDelegate<object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual bool EndInvoke(out List<T> result, IAsyncResult __result) { }
 	/* GenericInstMethod :
 	|
@@ -85851,20 +84050,16 @@ internal sealed class TryParseListDelegate<T> : MulticastDelegate // TypeDefInde
 }
 
 public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 5774
-{	// Fields
-	private readonly List<T> list; // 0x0
+{	private readonly List<T> list; // 0x0
 	private readonly HttpHeaders headers; // 0x0
 	private readonly HeaderInfo headerInfo; // 0x0
 	private List<string> invalidValues; // 0x0
 
-	// Properties
 	public int Count { get; }
 	internal List<string> InvalidValues { get; }
 	public bool IsReadOnly { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(HttpHeaders headers, HeaderInfo headerInfo) { }
 	/* GenericInstMethod :
 	|
@@ -85872,7 +84067,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -85880,7 +84074,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1
 	internal List<string> get_InvalidValues() { }
 	/* GenericInstMethod :
 	|
@@ -85888,7 +84081,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>.get_InvalidValues
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public bool get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -85896,7 +84088,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
@@ -85904,7 +84095,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void AddRange(List<T> values) { }
 	/* GenericInstMethod :
 	|
@@ -85912,7 +84102,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>.AddRange
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void AddInvalidValue(string invalidValue) { }
 	/* GenericInstMethod :
 	|
@@ -85920,7 +84109,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>.AddInvalidValue
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -85928,7 +84116,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public bool Contains(T item) { }
 	/* GenericInstMethod :
 	|
@@ -85936,7 +84123,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void CopyTo(T[] array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
@@ -85944,7 +84130,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public bool Remove(T item) { }
 	/* GenericInstMethod :
 	|
@@ -85952,7 +84137,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -85960,7 +84144,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>.ToString
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	public IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -85968,7 +84151,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -85976,7 +84158,6 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 	|-HttpHeaderValueCollection<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1
 	internal T Find(Predicate<T> predicate) { }
 	/* GenericInstMethod :
 	|
@@ -85989,23 +84170,18 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 }
 
 public sealed class JsonDictionaryAttribute : JsonContainerAttribute // TypeDefIndex: 5873
-{	// Methods
-
-	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
+{
 	public void .ctor() { }
 
 }
 
 internal class ThreadSafeStore<TKey, TValue> // TypeDefIndex: 5938
-{	// Fields
-	private readonly object _lock; // 0x0
+{	private readonly object _lock; // 0x0
 	private Dictionary<TKey, TValue> _store; // 0x0
 	private readonly Func<TKey, TValue> _creator; // 0x0
 
-	// Methods
 
 	[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void .ctor(Func<TKey, TValue> creator) { }
 	/* GenericInstMethod :
 	|
@@ -86026,7 +84202,6 @@ internal class ThreadSafeStore<TKey, TValue> // TypeDefIndex: 5938
 	*/
 
 	[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public TValue Get(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -86045,7 +84220,6 @@ internal class ThreadSafeStore<TKey, TValue> // TypeDefIndex: 5938
 	*/
 
 	[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private TValue AddValue(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -86060,15 +84234,12 @@ internal class ThreadSafeStore<TKey, TValue> // TypeDefIndex: 5938
 }
 
 internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 5939
-{	// Fields
-	private readonly IDictionary<TFirst, TSecond> _firstToSecond; // 0x0
+{	private readonly IDictionary<TFirst, TSecond> _firstToSecond; // 0x0
 	private readonly IDictionary<TSecond, TFirst> _secondToFirst; // 0x0
 	private readonly string _duplicateFirstErrorMessage; // 0x0
 	private readonly string _duplicateSecondErrorMessage; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -86076,7 +84247,6 @@ internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 5939
 	|-BidirectionalDictionary<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IEqualityComparer<TFirst> firstEqualityComparer, IEqualityComparer<TSecond> secondEqualityComparer) { }
 	/* GenericInstMethod :
 	|
@@ -86085,7 +84255,6 @@ internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 5939
 	|-BidirectionalDictionary<string, string>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IEqualityComparer<TFirst> firstEqualityComparer, IEqualityComparer<TSecond> secondEqualityComparer, string duplicateFirstErrorMessage, string duplicateSecondErrorMessage) { }
 	/* GenericInstMethod :
 	|
@@ -86094,7 +84263,6 @@ internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 5939
 	|-BidirectionalDictionary<string, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Set(TFirst first, TSecond second) { }
 	/* GenericInstMethod :
 	|
@@ -86104,7 +84272,6 @@ internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 5939
 	|-BidirectionalDictionary<string, string>.Set
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TryGetByFirst(TFirst first, out TSecond second) { }
 	/* GenericInstMethod :
 	|
@@ -86114,7 +84281,6 @@ internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 5939
 	|-BidirectionalDictionary<string, string>.TryGetByFirst
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TryGetBySecond(TSecond second, out TFirst first) { }
 	/* GenericInstMethod :
 	|
@@ -86127,12 +84293,10 @@ internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 5939
 }
 
 internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IWrappedCollection, IList, ICollection // TypeDefIndex: 5948
-{	// Fields
-	private readonly IList _list; // 0x0
+{	private readonly IList _list; // 0x0
 	private readonly ICollection<T> _genericCollection; // 0x0
 	private object _syncRoot; // 0x0
 
-	// Properties
 	public virtual int Count { get; }
 	public virtual bool IsReadOnly { get; }
 	private bool System.Collections.IList.IsFixedSize { get; }
@@ -86140,9 +84304,7 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	private object System.Collections.ICollection.SyncRoot { get; }
 	public object UnderlyingCollection { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IList list) { }
 	/* GenericInstMethod :
 	|
@@ -86150,7 +84312,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(ICollection<T> list) { }
 	/* GenericInstMethod :
 	|
@@ -86158,7 +84319,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 28
 	public virtual void Add(T item) { }
 	/* GenericInstMethod :
 	|
@@ -86166,7 +84326,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 29
 	public virtual void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -86174,7 +84333,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 30
 	public virtual bool Contains(T item) { }
 	/* GenericInstMethod :
 	|
@@ -86182,7 +84340,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 31
 	public virtual void CopyTo(T[] array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
@@ -86190,7 +84347,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 32
 	public virtual int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -86198,7 +84354,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 33
 	public virtual bool get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -86206,7 +84361,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 34
 	public virtual bool Remove(T item) { }
 	/* GenericInstMethod :
 	|
@@ -86214,7 +84368,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 35
 	public virtual IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -86222,7 +84375,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -86230,7 +84382,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	private int System.Collections.IList.Add(object value) { }
 	/* GenericInstMethod :
 	|
@@ -86238,7 +84389,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.System.Collections.IList.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 17
 	private bool System.Collections.IList.Contains(object value) { }
 	/* GenericInstMethod :
 	|
@@ -86246,7 +84396,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.System.Collections.IList.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 21
 	private int System.Collections.IList.IndexOf(object value) { }
 	/* GenericInstMethod :
 	|
@@ -86254,7 +84403,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.System.Collections.IList.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 24
 	private void System.Collections.IList.RemoveAt(int index) { }
 	/* GenericInstMethod :
 	|
@@ -86262,7 +84410,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.System.Collections.IList.RemoveAt
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 22
 	private void System.Collections.IList.Insert(int index, object value) { }
 	/* GenericInstMethod :
 	|
@@ -86270,7 +84417,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.System.Collections.IList.Insert
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 20
 	private bool System.Collections.IList.get_IsFixedSize() { }
 	/* GenericInstMethod :
 	|
@@ -86278,7 +84424,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.System.Collections.IList.get_IsFixedSize
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 23
 	private void System.Collections.IList.Remove(object value) { }
 	/* GenericInstMethod :
 	|
@@ -86286,7 +84431,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.System.Collections.IList.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	private object System.Collections.IList.get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -86294,7 +84438,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.System.Collections.IList.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 15
 	private void System.Collections.IList.set_Item(int index, object value) { }
 	/* GenericInstMethod :
 	|
@@ -86302,7 +84445,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.System.Collections.IList.set_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 25
 	private void System.Collections.ICollection.CopyTo(Array array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
@@ -86310,7 +84452,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 27
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -86318,7 +84459,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.System.Collections.ICollection.get_SyncRoot
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void VerifyValueType(object value) { }
 	/* GenericInstMethod :
 	|
@@ -86326,7 +84466,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.VerifyValueType
 	*/
 
-	// RVA: -1 Offset: -1
 	private static bool IsCompatibleObject(object value) { }
 	/* GenericInstMethod :
 	|
@@ -86334,7 +84473,6 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 	|-CollectionWrapper<object>.IsCompatibleObject
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public object get_UnderlyingCollection() { }
 	/* GenericInstMethod :
 	|
@@ -86345,12 +84483,10 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 }
 
 internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IWrappedDictionary, IDictionary, ICollection // TypeDefIndex: 5951
-{	// Fields
-	private readonly IDictionary _dictionary; // 0x0
+{	private readonly IDictionary _dictionary; // 0x0
 	private readonly IDictionary<TKey, TValue> _genericDictionary; // 0x0
 	private object _syncRoot; // 0x0
 
-	// Properties
 	public ICollection<TKey> Keys { get; }
 	public ICollection<TValue> Values { get; }
 	public TValue Item { get; set; }
@@ -86362,9 +84498,7 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	private object System.Collections.ICollection.SyncRoot { get; }
 	public object UnderlyingDictionary { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IDictionary dictionary) { }
 	/* GenericInstMethod :
 	|
@@ -86372,7 +84506,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IDictionary<TKey, TValue> dictionary) { }
 	/* GenericInstMethod :
 	|
@@ -86380,7 +84513,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void Add(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -86388,7 +84520,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public bool ContainsKey(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -86396,7 +84527,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.ContainsKey
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public ICollection<TKey> get_Keys() { }
 	/* GenericInstMethod :
 	|
@@ -86404,7 +84534,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.get_Keys
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public bool Remove(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -86412,7 +84541,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	public bool TryGetValue(TKey key, out TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -86420,7 +84548,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.TryGetValue
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public ICollection<TValue> get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -86428,7 +84555,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.get_Values
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public TValue get_Item(TKey key) { }
 	/* GenericInstMethod :
 	|
@@ -86436,7 +84562,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void set_Item(TKey key, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -86444,7 +84569,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public void Add(KeyValuePair<TKey, TValue> item) { }
 	/* GenericInstMethod :
 	|
@@ -86452,7 +84576,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 28
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -86460,7 +84583,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 16
 	public bool Contains(KeyValuePair<TKey, TValue> item) { }
 	/* GenericInstMethod :
 	|
@@ -86468,7 +84590,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 17
 	public void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
@@ -86476,7 +84597,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 33
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -86484,7 +84604,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 29
 	public bool get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
@@ -86492,7 +84611,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.get_IsReadOnly
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 18
 	public bool Remove(KeyValuePair<TKey, TValue> item) { }
 	/* GenericInstMethod :
 	|
@@ -86500,7 +84618,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 19
 	public IEnumerator<KeyValuePair<TKey, TValue>> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -86508,7 +84625,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 20
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -86516,7 +84632,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 27
 	private void System.Collections.IDictionary.Add(object key, object value) { }
 	/* GenericInstMethod :
 	|
@@ -86524,7 +84639,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.System.Collections.IDictionary.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 22
 	private object System.Collections.IDictionary.get_Item(object key) { }
 	/* GenericInstMethod :
 	|
@@ -86532,7 +84646,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.System.Collections.IDictionary.get_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 23
 	private void System.Collections.IDictionary.set_Item(object key, object value) { }
 	/* GenericInstMethod :
 	|
@@ -86540,7 +84653,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.System.Collections.IDictionary.set_Item
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 30
 	private IDictionaryEnumerator System.Collections.IDictionary.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -86548,7 +84660,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.System.Collections.IDictionary.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 26
 	private bool System.Collections.IDictionary.Contains(object key) { }
 	/* GenericInstMethod :
 	|
@@ -86556,7 +84667,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.System.Collections.IDictionary.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 24
 	private ICollection System.Collections.IDictionary.get_Keys() { }
 	/* GenericInstMethod :
 	|
@@ -86564,7 +84674,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.System.Collections.IDictionary.get_Keys
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 31
 	public void Remove(object key) { }
 	/* GenericInstMethod :
 	|
@@ -86572,7 +84681,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 25
 	private ICollection System.Collections.IDictionary.get_Values() { }
 	/* GenericInstMethod :
 	|
@@ -86580,7 +84688,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.System.Collections.IDictionary.get_Values
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 32
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -86588,7 +84695,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.System.Collections.ICollection.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 34
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
@@ -86596,7 +84702,6 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 	|-DictionaryWrapper<object, object>.System.Collections.ICollection.get_SyncRoot
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 21
 	public object get_UnderlyingDictionary() { }
 	/* GenericInstMethod :
 	|
@@ -86607,18 +84712,14 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 }
 
 private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorKey, TEnumeratorValue> : IDictionaryEnumerator, IEnumerator // TypeDefIndex: 5952
-{	// Fields
-	private readonly IEnumerator<KeyValuePair<TEnumeratorKey, TEnumeratorValue>> _e; // 0x0
+{	private readonly IEnumerator<KeyValuePair<TEnumeratorKey, TEnumeratorValue>> _e; // 0x0
 
-	// Properties
 	public DictionaryEntry Entry { get; }
 	public object Key { get; }
 	public object Value { get; }
 	public object Current { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IEnumerator<KeyValuePair<TEnumeratorKey, TEnumeratorValue>> e) { }
 	/* GenericInstMethod :
 	|
@@ -86626,7 +84727,6 @@ private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorK
 	|-DictionaryWrapper.DictionaryEnumerator<object, object, object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public DictionaryEntry get_Entry() { }
 	/* GenericInstMethod :
 	|
@@ -86634,7 +84734,6 @@ private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorK
 	|-DictionaryWrapper.DictionaryEnumerator<object, object, object, object>.get_Entry
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public object get_Key() { }
 	/* GenericInstMethod :
 	|
@@ -86642,7 +84741,6 @@ private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorK
 	|-DictionaryWrapper.DictionaryEnumerator<object, object, object, object>.get_Key
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public object get_Value() { }
 	/* GenericInstMethod :
 	|
@@ -86650,7 +84748,6 @@ private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorK
 	|-DictionaryWrapper.DictionaryEnumerator<object, object, object, object>.get_Value
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public object get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -86658,7 +84755,6 @@ private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorK
 	|-DictionaryWrapper.DictionaryEnumerator<object, object, object, object>.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
@@ -86666,7 +84762,6 @@ private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorK
 	|-DictionaryWrapper.DictionaryEnumerator<object, object, object, object>.MoveNext
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void Reset() { }
 	/* GenericInstMethod :
 	|
@@ -86677,13 +84772,10 @@ private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorK
 }
 
 private sealed class DictionaryWrapper.<>c<TKey, TValue> // TypeDefIndex: 5953
-{	// Fields
-	public static readonly DictionaryWrapper.<>c<TKey, TValue> <>9; // 0x0
+{	public static readonly DictionaryWrapper.<>c<TKey, TValue> <>9; // 0x0
 	public static Func<DictionaryEntry, KeyValuePair<TKey, TValue>> <>9__25_0; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -86691,7 +84783,6 @@ private sealed class DictionaryWrapper.<>c<TKey, TValue> // TypeDefIndex: 5953
 	|-DictionaryWrapper.<>c<object, object>..cctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -86699,7 +84790,6 @@ private sealed class DictionaryWrapper.<>c<TKey, TValue> // TypeDefIndex: 5953
 	|-DictionaryWrapper.<>c<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal KeyValuePair<TKey, TValue> <GetEnumerator>b__25_0(DictionaryEntry de) { }
 	/* GenericInstMethod :
 	|
@@ -86710,9 +84800,7 @@ private sealed class DictionaryWrapper.<>c<TKey, TValue> // TypeDefIndex: 5953
 }
 
 internal sealed class Creator<T> : MulticastDelegate // TypeDefIndex: 5963
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -86720,7 +84808,6 @@ internal sealed class Creator<T> : MulticastDelegate // TypeDefIndex: 5963
 	|-Creator<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual T Invoke() { }
 	/* GenericInstMethod :
 	|
@@ -86728,7 +84815,6 @@ internal sealed class Creator<T> : MulticastDelegate // TypeDefIndex: 5963
 	|-Creator<object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -86736,7 +84822,6 @@ internal sealed class Creator<T> : MulticastDelegate // TypeDefIndex: 5963
 	|-Creator<object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual T EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -86747,31 +84832,24 @@ internal sealed class Creator<T> : MulticastDelegate // TypeDefIndex: 5963
 }
 
 public class JsonISerializableContract : JsonContainerContract // TypeDefIndex: 5983
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ObjectConstructor<object> <ISerializableCreator>k__BackingField; // 0xC0
 
-	// Properties
 	public ObjectConstructor<object> ISerializableCreator { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x79BE20 Offset: 0x79A420 VA: 0x18079BE20
 	public ObjectConstructor<object> get_ISerializableCreator() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x79BEA0 Offset: 0x79A4A0 VA: 0x18079BEA0
 	public void set_ISerializableCreator(ObjectConstructor<object> value) { }
 
-	// RVA: 0x13F3060 Offset: 0x13F1660 VA: 0x1813F3060
 	public void .ctor(Type underlyingType) { }
 
 }
 
 public class JsonDictionaryContract : JsonContainerContract // TypeDefIndex: 6014
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Func<string, string> <DictionaryKeyResolver>k__BackingField; // 0xC0
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Type <DictionaryKeyType>k__BackingField; // 0xC8
@@ -86791,7 +84869,6 @@ public class JsonDictionaryContract : JsonContainerContract // TypeDefIndex: 601
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <HasParameterizedCreator>k__BackingField; // 0x120
 
-	// Properties
 	public Func<string, string> DictionaryKeyResolver { get; set; }
 	public Type DictionaryKeyType { get; set; }
 	public Type DictionaryValueType { get; set; }
@@ -86802,86 +84879,63 @@ public class JsonDictionaryContract : JsonContainerContract // TypeDefIndex: 601
 	public bool HasParameterizedCreator { get; set; }
 	internal bool HasParameterizedCreatorInternal { get; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x79BE20 Offset: 0x79A420 VA: 0x18079BE20
 	public Func<string, string> get_DictionaryKeyResolver() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x79BEA0 Offset: 0x79A4A0 VA: 0x18079BEA0
 	public void set_DictionaryKeyResolver(Func<string, string> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDA0E50 Offset: 0xD9F450 VA: 0x180DA0E50
 	public Type get_DictionaryKeyType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDA1230 Offset: 0xD9F830 VA: 0x180DA1230
 	private void set_DictionaryKeyType(Type value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x79BDF0 Offset: 0x79A3F0 VA: 0x18079BDF0
 	public Type get_DictionaryValueType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x79BE70 Offset: 0x79A470 VA: 0x18079BE70
 	private void set_DictionaryValueType(Type value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDA01E0 Offset: 0xD9E7E0 VA: 0x180DA01E0
 	internal JsonContract get_KeyContract() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD357D0 Offset: 0xD33DD0 VA: 0x180D357D0
 	internal void set_KeyContract(JsonContract value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xBC7A60 Offset: 0xBC6060 VA: 0x180BC7A60
 	internal bool get_ShouldCreateWrapper() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F2BB0 Offset: 0x13F11B0 VA: 0x1813F2BB0
 	private void set_ShouldCreateWrapper(bool value) { }
 
-	// RVA: 0x13F2B00 Offset: 0x13F1100 VA: 0x1813F2B00
 	internal ObjectConstructor<object> get_ParameterizedCreator() { }
 
-	// RVA: 0x88D560 Offset: 0x88BB60 VA: 0x18088D560
 	public ObjectConstructor<object> get_OverrideCreator() { }
 
-	// RVA: 0x88D9B0 Offset: 0x88BFB0 VA: 0x18088D9B0
 	public void set_OverrideCreator(ObjectConstructor<object> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x102B220 Offset: 0x1029820 VA: 0x18102B220
 	public bool get_HasParameterizedCreator() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x102B240 Offset: 0x1029840 VA: 0x18102B240
 	public void set_HasParameterizedCreator(bool value) { }
 
-	// RVA: 0x13F2AD0 Offset: 0x13F10D0 VA: 0x1813F2AD0
 	internal bool get_HasParameterizedCreatorInternal() { }
 
-	// RVA: 0x13F2370 Offset: 0x13F0970 VA: 0x1813F2370
 	public void .ctor(Type underlyingType) { }
 
-	// RVA: 0x13F2010 Offset: 0x13F0610 VA: 0x1813F2010
 	internal IWrappedDictionary CreateWrapper(object dictionary) { }
 
-	// RVA: 0x13F1D50 Offset: 0x13F0350 VA: 0x1813F1D50
 	internal IDictionary CreateTemporaryDictionary() { }
 
 }
 
 internal static class CachedAttributeGetter<T> // TypeDefIndex: 6032
-{	// Fields
-	private static readonly ThreadSafeStore<object, T> TypeAttributeCache; // 0x0
+{	private static readonly ThreadSafeStore<object, T> TypeAttributeCache; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public static T GetAttribute(object type) { }
 	/* GenericInstMethod :
 	|
@@ -86891,7 +84945,6 @@ internal static class CachedAttributeGetter<T> // TypeDefIndex: 6032
 	|-CachedAttributeGetter<DataMemberAttribute>.GetAttribute
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -86902,9 +84955,7 @@ internal static class CachedAttributeGetter<T> // TypeDefIndex: 6032
 }
 
 public sealed class ObjectConstructor<T> : MulticastDelegate // TypeDefIndex: 6035
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -86912,7 +84963,6 @@ public sealed class ObjectConstructor<T> : MulticastDelegate // TypeDefIndex: 60
 	|-ObjectConstructor<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual object Invoke(object[] args) { }
 	/* GenericInstMethod :
 	|
@@ -86920,7 +84970,6 @@ public sealed class ObjectConstructor<T> : MulticastDelegate // TypeDefIndex: 60
 	|-ObjectConstructor<object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(object[] args, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -86928,7 +84977,6 @@ public sealed class ObjectConstructor<T> : MulticastDelegate // TypeDefIndex: 60
 	|-ObjectConstructor<object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual object EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -86940,17 +84988,13 @@ public sealed class ObjectConstructor<T> : MulticastDelegate // TypeDefIndex: 60
 
 public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 6059
 {
-// Namespace: Newtonsoft.Json.Linq
 [PreserveAttribute] // RVA: 0x71550 Offset: 0x70950 VA: 0x180071550
 [DefaultMemberAttribute] // RVA: 0x71550 Offset: 0x70950 VA: 0x180071550
 public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 6059
-	// Fields
 	public static readonly JEnumerable<T> Empty; // 0x0
 	private readonly IEnumerable<T> _enumerable; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IEnumerable<T> enumerable) { }
 	/* GenericInstMethod :
 	|
@@ -86959,7 +85003,6 @@ public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // T
 	|-JEnumerable<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -86968,7 +85011,6 @@ public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // T
 	|-JEnumerable<object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -86976,7 +85018,6 @@ public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // T
 	|-JEnumerable<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool Equals(JEnumerable<T> other) { }
 	/* GenericInstMethod :
 	|
@@ -86984,7 +85025,6 @@ public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // T
 	|-JEnumerable<object>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -86992,7 +85032,6 @@ public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // T
 	|-JEnumerable<object>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -87000,7 +85039,6 @@ public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // T
 	|-JEnumerable<object>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -87011,12 +85049,9 @@ public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // T
 }
 
 public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex: 6100
-{	// Properties
-	public override bool CanWrite { get; }
+{	public override bool CanWrite { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer) { }
 	/* GenericInstMethod :
 	|
@@ -87024,7 +85059,6 @@ public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex
 	|-CustomCreationConverter<object>.WriteJson
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer) { }
 	/* GenericInstMethod :
 	|
@@ -87032,7 +85066,6 @@ public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex
 	|-CustomCreationConverter<object>.ReadJson
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public abstract T Create(Type objectType);
 	/* GenericInstMethod :
 	|
@@ -87040,7 +85073,6 @@ public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex
 	|-CustomCreationConverter<object>.Create
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public override bool CanConvert(Type objectType) { }
 	/* GenericInstMethod :
 	|
@@ -87048,7 +85080,6 @@ public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex
 	|-CustomCreationConverter<object>.CanConvert
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	public override bool get_CanWrite() { }
 	/* GenericInstMethod :
 	|
@@ -87056,7 +85087,6 @@ public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex
 	|-CustomCreationConverter<object>.get_CanWrite
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -87067,41 +85097,29 @@ public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex
 }
 
 public class KeyValuePairConverter : JsonConverter // TypeDefIndex: 6103
-{	// Fields
-	private static readonly ThreadSafeStore<Type, ReflectionObject> ReflectionObjectPerType; // 0x2B10360
+{	private static readonly ThreadSafeStore<Type, ReflectionObject> ReflectionObjectPerType; // 0x2B10360
 
-	// Methods
 
-	// RVA: 0xF9C360 Offset: 0xF9A960 VA: 0x180F9C360
 	private static ReflectionObject InitializeReflectionObject(Type t) { }
 
-	// RVA: 0xF9C9F0 Offset: 0xF9AFF0 VA: 0x180F9C9F0 Slot: 4
 	public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer) { }
 
-	// RVA: 0xF9C5E0 Offset: 0xF9ABE0 VA: 0x180F9C5E0 Slot: 5
 	public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer) { }
 
-	// RVA: 0xF9C270 Offset: 0xF9A870 VA: 0x180F9C270 Slot: 6
 	public override bool CanConvert(Type objectType) { }
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xF9CC40 Offset: 0xF9B240 VA: 0x180F9CC40
 	private static void .cctor() { }
 
 }
 
 public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 6219
-{	// Fields
-	private static ListHashSet<T> instanceList; // 0x0
+{	private static ListHashSet<T> instanceList; // 0x0
 
-	// Properties
 	public static ListHashSet<T> InstanceList { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public static ListHashSet<T> get_InstanceList() { }
 	/* GenericInstMethod :
 	|
@@ -87109,7 +85127,6 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 6219
 	|-ListComponent<object>.get_InstanceList
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void Setup() { }
 	/* GenericInstMethod :
 	|
@@ -87117,7 +85134,6 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 6219
 	|-ListComponent<object>.Setup
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -87125,7 +85141,6 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 6219
 	|-ListComponent<object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -87133,7 +85148,6 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 6219
 	|-ListComponent<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -87144,14 +85158,11 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 6219
 }
 
 public class Result<T> // TypeDefIndex: 6260
-{	// Fields
-	public bool Running; // 0x0
+{	public bool Running; // 0x0
 	public bool Success; // 0x0
 	public Result.Entry<T>[] Entries; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -87162,16 +85173,12 @@ public class Result<T> // TypeDefIndex: 6260
 }
 
 internal sealed class DefaultArrayPool<T> : ArrayPool<T> // TypeDefIndex: 6270
-{	// Fields
-	private static T[] s_emptyArray; // 0x0
+{	private static T[] s_emptyArray; // 0x0
 	private readonly DefaultArrayPool.Bucket<T>[] _buckets; // 0x0
 
-	// Properties
 	private int Id { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -87180,7 +85187,6 @@ internal sealed class DefaultArrayPool<T> : ArrayPool<T> // TypeDefIndex: 6270
 	|-DefaultArrayPool<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(int maxArrayLength, int maxArraysPerBucket) { }
 	/* GenericInstMethod :
 	|
@@ -87191,7 +85197,6 @@ internal sealed class DefaultArrayPool<T> : ArrayPool<T> // TypeDefIndex: 6270
 	|-DefaultArrayPool<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	private int get_Id() { }
 	/* GenericInstMethod :
 	|
@@ -87200,7 +85205,6 @@ internal sealed class DefaultArrayPool<T> : ArrayPool<T> // TypeDefIndex: 6270
 	|-DefaultArrayPool<object>.get_Id
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override T[] Rent(int minimumLength) { }
 	/* GenericInstMethod :
 	|
@@ -87211,7 +85215,6 @@ internal sealed class DefaultArrayPool<T> : ArrayPool<T> // TypeDefIndex: 6270
 	|-DefaultArrayPool<object>.Rent
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override void Return(T[] array, bool clearArray = False) { }
 	/* GenericInstMethod :
 	|
@@ -87225,8 +85228,7 @@ internal sealed class DefaultArrayPool<T> : ArrayPool<T> // TypeDefIndex: 6270
 }
 
 public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6565
-{	// Fields
-	protected Queue<T> queue; // 0x0
+{	protected Queue<T> queue; // 0x0
 	protected HashSet<T> containerTest; // 0x0
 	public string queueName; // 0x0
 	public long warnTime; // 0x0
@@ -87237,12 +85239,9 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6565
 	public int hashsetMaxLength; // 0x0
 	private Stopwatch stopwatch; // 0x0
 
-	// Properties
 	public int queueLength { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public int get_queueLength() { }
 	/* GenericInstMethod :
 	|
@@ -87250,7 +85249,6 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6565
 	|-ObjectWorkQueue<object>.get_queueLength
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -87262,7 +85260,6 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6565
 	|-ObjectWorkQueue<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -87270,7 +85267,6 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6565
 	|-ObjectWorkQueue<object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public void RunQueue(double maximumMilliseconds) { }
 	/* GenericInstMethod :
 	|
@@ -87282,7 +85278,6 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6565
 	|-ObjectWorkQueue<object>.RunQueue
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(T entity) { }
 	/* GenericInstMethod :
 	|
@@ -87293,7 +85288,6 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6565
 	|-ObjectWorkQueue<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool Contains(T entity) { }
 	/* GenericInstMethod :
 	|
@@ -87301,7 +85295,6 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6565
 	|-ObjectWorkQueue<object>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	protected virtual void SortQueue() { }
 	/* GenericInstMethod :
 	|
@@ -87313,7 +85306,6 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6565
 	|-ObjectWorkQueue<object>.SortQueue
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	protected virtual bool ShouldAdd(T entity) { }
 	/* GenericInstMethod :
 	|
@@ -87322,7 +85314,6 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6565
 	|-ObjectWorkQueue<object>.ShouldAdd
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	protected abstract void RunJob(T entity);
 	/* GenericInstMethod :
 	|
@@ -87330,7 +85321,6 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6565
 	|-ObjectWorkQueue<object>.RunJob
 	*/
 
-	// RVA: -1 Offset: -1
 	public string Info() { }
 	/* GenericInstMethod :
 	|
@@ -87341,8 +85331,7 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6565
 }
 
 public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6566
-{	// Fields
-	protected List<T> workList; // 0x0
+{	protected List<T> workList; // 0x0
 	public string listName; // 0x0
 	public long warnTime; // 0x0
 	public double totalTime; // 0x0
@@ -87350,12 +85339,9 @@ public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6566
 	private int currentIndex; // 0x0
 	private Stopwatch stopwatch; // 0x0
 
-	// Properties
 	public int listLength { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public int get_listLength() { }
 	/* GenericInstMethod :
 	|
@@ -87363,7 +85349,6 @@ public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6566
 	|-PersistentObjectWorkQueue<object>.get_listLength
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -87374,7 +85359,6 @@ public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6566
 	|-PersistentObjectWorkQueue<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -87382,7 +85366,6 @@ public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6566
 	|-PersistentObjectWorkQueue<object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public void RunList(double maximumMilliseconds) { }
 	/* GenericInstMethod :
 	|
@@ -87393,7 +85376,6 @@ public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6566
 	|-PersistentObjectWorkQueue<object>.RunList
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(T entity) { }
 	/* GenericInstMethod :
 	|
@@ -87404,7 +85386,6 @@ public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6566
 	|-PersistentObjectWorkQueue<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Remove(T entity) { }
 	/* GenericInstMethod :
 	|
@@ -87415,7 +85396,6 @@ public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6566
 	|-PersistentObjectWorkQueue<object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool Contains(T entity) { }
 	/* GenericInstMethod :
 	|
@@ -87423,7 +85403,6 @@ public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6566
 	|-PersistentObjectWorkQueue<object>.Contains
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	protected virtual bool ShouldAdd(T entity) { }
 	/* GenericInstMethod :
 	|
@@ -87432,7 +85411,6 @@ public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6566
 	|-PersistentObjectWorkQueue<object>.ShouldAdd
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	protected abstract void RunJob(T entity);
 	/* GenericInstMethod :
 	|
@@ -87440,7 +85418,6 @@ public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6566
 	|-PersistentObjectWorkQueue<object>.RunJob
 	*/
 
-	// RVA: -1 Offset: -1
 	public string Info() { }
 	/* GenericInstMethod :
 	|
@@ -87452,8 +85429,7 @@ public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6566
 }
 
 public class WorldSpaceGrid<T> // TypeDefIndex: 6567
-{	// Fields
-	public T[] Cells; // 0x0
+{	public T[] Cells; // 0x0
 	public float CellSize; // 0x0
 	public float CellSizeHalf; // 0x0
 	public float CellSizeInverse; // 0x0
@@ -87461,15 +85437,12 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	public int CellCount; // 0x0
 	public int CellCountHalf; // 0x0
 
-	// Properties
 	public T Item { get; set; }
 	public T Item { get; set; }
 	public T Item { get; set; }
 	public T Item { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(float gridSize, float cellSize) { }
 	/* GenericInstMethod :
 	|
@@ -87483,7 +85456,6 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	|-WorldSpaceGrid<WorldCell>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Item(Vector3 worldPos) { }
 	/* GenericInstMethod :
 	|
@@ -87492,7 +85464,6 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	|-WorldSpaceGrid<object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Item(Vector3 worldPos, T value) { }
 	/* GenericInstMethod :
 	|
@@ -87500,7 +85471,6 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	|-WorldSpaceGrid<object>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Item(Vector2i cellCoords) { }
 	/* GenericInstMethod :
 	|
@@ -87512,7 +85482,6 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	|-WorldSpaceGrid<object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Item(Vector2i cellCoords, T value) { }
 	/* GenericInstMethod :
 	|
@@ -87523,7 +85492,6 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	|-WorldSpaceGrid<WorldCell>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Item(int x, int y) { }
 	/* GenericInstMethod :
 	|
@@ -87536,7 +85504,6 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	|-WorldSpaceGrid<object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Item(int x, int y, T value) { }
 	/* GenericInstMethod :
 	|
@@ -87546,7 +85513,6 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	|-WorldSpaceGrid<object>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -87554,7 +85520,6 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	|-WorldSpaceGrid<object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -87562,7 +85527,6 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	|-WorldSpaceGrid<object>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public Vector2i IndexToGridCoords(int index) { }
 	/* GenericInstMethod :
 	|
@@ -87570,7 +85534,6 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	|-WorldSpaceGrid<object>.IndexToGridCoords
 	*/
 
-	// RVA: -1 Offset: -1
 	public Vector3 IndexToWorldCoords(int index) { }
 	/* GenericInstMethod :
 	|
@@ -87578,7 +85541,6 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	|-WorldSpaceGrid<object>.IndexToWorldCoords
 	*/
 
-	// RVA: -1 Offset: -1
 	public Vector2i WorldToGridCoords(Vector3 worldPos) { }
 	/* GenericInstMethod :
 	|
@@ -87592,7 +85554,6 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	|-WorldSpaceGrid<WorldCell>.WorldToGridCoords
 	*/
 
-	// RVA: -1 Offset: -1
 	public Vector3 GridToWorldCoords(Vector2i cellPos) { }
 	/* GenericInstMethod :
 	|
@@ -87605,7 +85566,6 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 	|-WorldSpaceGrid<WorldCell>.GridToWorldCoords
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Copy(WorldSpaceGrid<T> other) { }
 	/* GenericInstMethod :
 	|
@@ -87616,12 +85576,9 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6567
 }
 
 public class ObjectPool<T> // TypeDefIndex: 6600
-{	// Fields
-	public List<T> list; // 0x0
+{	public List<T> list; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public virtual void AddToPool(T t) { }
 	/* GenericInstMethod :
 	|
@@ -87629,7 +85586,6 @@ public class ObjectPool<T> // TypeDefIndex: 6600
 	|-ObjectPool<object>.AddToPool
 	*/
 
-	// RVA: -1 Offset: -1
 	public T TakeFromPool() { }
 	/* GenericInstMethod :
 	|
@@ -87637,7 +85593,6 @@ public class ObjectPool<T> // TypeDefIndex: 6600
 	|-ObjectPool<object>.TakeFromPool
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -87648,12 +85603,9 @@ public class ObjectPool<T> // TypeDefIndex: 6600
 }
 
 public class GameObjectPool<T> : ObjectPool<T> // TypeDefIndex: 6601
-{	// Fields
-	private GameObject poolRoot; // 0x0
+{	private GameObject poolRoot; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void AddToPool(T t) { }
 	/* GenericInstMethod :
 	|
@@ -87661,7 +85613,6 @@ public class GameObjectPool<T> : ObjectPool<T> // TypeDefIndex: 6601
 	|-GameObjectPool<object>.AddToPool
 	*/
 
-	// RVA: -1 Offset: -1
 	public void AddChildrenToPool(Transform t) { }
 	/* GenericInstMethod :
 	|
@@ -87669,7 +85620,6 @@ public class GameObjectPool<T> : ObjectPool<T> // TypeDefIndex: 6601
 	|-GameObjectPool<object>.AddChildrenToPool
 	*/
 
-	// RVA: -1 Offset: -1
 	public T TakeOrInstantiate(GameObject prefabSource) { }
 	/* GenericInstMethod :
 	|
@@ -87677,7 +85627,6 @@ public class GameObjectPool<T> : ObjectPool<T> // TypeDefIndex: 6601
 	|-GameObjectPool<object>.TakeOrInstantiate
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -87688,12 +85637,9 @@ public class GameObjectPool<T> : ObjectPool<T> // TypeDefIndex: 6601
 }
 
 public class TimeAverageValueLookup<T> // TypeDefIndex: 6690
-{	// Fields
-	public Dictionary<T, TimeAverageValue> dict; // 0x0
+{	public Dictionary<T, TimeAverageValue> dict; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public bool TryIncrement(T id, ulong limit) { }
 	/* GenericInstMethod :
 	|
@@ -87701,7 +85647,6 @@ public class TimeAverageValueLookup<T> // TypeDefIndex: 6690
 	|-TimeAverageValueLookup<object>.TryIncrement
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Increment(T id) { }
 	/* GenericInstMethod :
 	|
@@ -87709,7 +85654,6 @@ public class TimeAverageValueLookup<T> // TypeDefIndex: 6690
 	|-TimeAverageValueLookup<object>.Increment
 	*/
 
-	// RVA: -1 Offset: -1
 	public ulong Calculate(T id) { }
 	/* GenericInstMethod :
 	|
@@ -87717,7 +85661,6 @@ public class TimeAverageValueLookup<T> // TypeDefIndex: 6690
 	|-TimeAverageValueLookup<object>.Calculate
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -87725,7 +85668,6 @@ public class TimeAverageValueLookup<T> // TypeDefIndex: 6690
 	|-TimeAverageValueLookup<object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -87736,39 +85678,30 @@ public class TimeAverageValueLookup<T> // TypeDefIndex: 6690
 }
 
 internal sealed class Pinnable<T> // TypeDefIndex: 6733
-{	// Fields
-	public T Data; // 0x0
+{	public T Data; // 0x0
 
 }
 
 internal class TweenRunner<T> // TypeDefIndex: 6755
-{	// Fields
-	protected MonoBehaviour m_CoroutineContainer; // 0x0
+{	protected MonoBehaviour m_CoroutineContainer; // 0x0
 	protected IEnumerator m_Tween; // 0x0
 
-	// Methods
 
 	[IteratorStateMachineAttribute] // RVA: 0xCA460 Offset: 0xC9860 VA: 0x1800CA460
-	// RVA: -1 Offset: -1
 	private static IEnumerator Start(T tweenInfo) { }
 
-	// RVA: -1 Offset: -1
 	public void Init(MonoBehaviour coroutineContainer) { }
 
-	// RVA: -1 Offset: -1
 	public void StartTween(T info) { }
 
-	// RVA: -1 Offset: -1
 	public void StopTween() { }
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 
 }
 
 internal sealed class CircularBuffer<T> // TypeDefIndex: 7620
-{	// Fields
-	private readonly int _capacity; // 0x0
+{	private readonly int _capacity; // 0x0
 	private readonly T[] _buffer; // 0x0
 	private int _start; // 0x0
 	private int _index; // 0x0
@@ -87776,12 +85709,9 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7620
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IsFull>k__BackingField; // 0x0
 
-	// Properties
 	public bool IsFull { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int capacity) { }
 	/* GenericInstMethod :
 	|
@@ -87791,7 +85721,6 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7620
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public bool get_IsFull() { }
 	/* GenericInstMethod :
 	|
@@ -87801,7 +85730,6 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7620
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_IsFull(bool value) { }
 	/* GenericInstMethod :
 	|
@@ -87810,7 +85738,6 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7620
 	|-CircularBuffer<object>.set_IsFull
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(T value) { }
 	/* GenericInstMethod :
 	|
@@ -87821,7 +85748,6 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7620
 	|-CircularBuffer<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public T[] MovePositionForward(int offset) { }
 	/* GenericInstMethod :
 	|
@@ -87830,7 +85756,6 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7620
 	|-CircularBuffer<object>.MovePositionForward
 	*/
 
-	// RVA: -1 Offset: -1
 	public void MovePositionBack(int offset) { }
 	/* GenericInstMethod :
 	|
@@ -87841,7 +85766,6 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7620
 	|-CircularBuffer<object>.MovePositionBack
 	*/
 
-	// RVA: -1 Offset: -1
 	private int GetItemsCount() { }
 	/* GenericInstMethod :
 	|
@@ -87850,7 +85774,6 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7620
 	|-CircularBuffer<object>.GetItemsCount
 	*/
 
-	// RVA: -1 Offset: -1
 	private IEnumerable<T> GetItems() { }
 	/* GenericInstMethod :
 	|
@@ -87860,7 +85783,6 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7620
 	*/
 
 	[IteratorStateMachineAttribute] // RVA: 0xB2890 Offset: 0xB1C90 VA: 0x1800B2890
-	// RVA: -1 Offset: -1
 	private IEnumerable<T> GetItems(int start, int end) { }
 	/* GenericInstMethod :
 	|
@@ -87874,9 +85796,7 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7620
 }
 
 internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7629
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -87890,7 +85810,6 @@ internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7629
 	|-Parsing<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual ParsingResult Invoke(string input, out T result) { }
 	/* GenericInstMethod :
 	|
@@ -87898,7 +85817,6 @@ internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7629
 	|-Parsing<object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(string input, out T result, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -87906,7 +85824,6 @@ internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7629
 	|-Parsing<object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual ParsingResult EndInvoke(out T result, IAsyncResult __result) { }
 	/* GenericInstMethod :
 	|
@@ -87917,15 +85834,13 @@ internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7629
 }
 
 internal struct GameEvent<T> // TypeDefIndex: 7705
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <GameId>k__BackingField; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Event>k__BackingField; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private T <Data>k__BackingField; // 0x0
 
-	// Properties
 	[JsonPropertyAttribute] // RVA: 0xC0CD0 Offset: 0xC00D0 VA: 0x1800C0CD0
 	public string GameId { get; set; }
 	[JsonPropertyAttribute] // RVA: 0xC0EF0 Offset: 0xC02F0 VA: 0x1800C0EF0
@@ -87933,10 +85848,8 @@ internal struct GameEvent<T> // TypeDefIndex: 7705
 	[JsonPropertyAttribute] // RVA: 0xC1150 Offset: 0xC0550 VA: 0x1800C1150
 	public T Data { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public string get_GameId() { }
 	/* GenericInstMethod :
 	|
@@ -87947,7 +85860,6 @@ internal struct GameEvent<T> // TypeDefIndex: 7705
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void set_GameId(string value) { }
 	/* GenericInstMethod :
 	|
@@ -87958,7 +85870,6 @@ internal struct GameEvent<T> // TypeDefIndex: 7705
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public string get_Event() { }
 	/* GenericInstMethod :
 	|
@@ -87969,7 +85880,6 @@ internal struct GameEvent<T> // TypeDefIndex: 7705
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void set_Event(string value) { }
 	/* GenericInstMethod :
 	|
@@ -87980,7 +85890,6 @@ internal struct GameEvent<T> // TypeDefIndex: 7705
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public T get_Data() { }
 	/* GenericInstMethod :
 	|
@@ -87993,7 +85902,6 @@ internal struct GameEvent<T> // TypeDefIndex: 7705
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void set_Data(T value) { }
 	/* GenericInstMethod :
 	|
@@ -88010,49 +85918,36 @@ internal struct GameEvent<T> // TypeDefIndex: 7705
 }
 
 public class BoneDictionary // TypeDefIndex: 9124
-{	// Fields
-	public Transform transform; // 0x10
+{	public Transform transform; // 0x10
 	public Transform[] transforms; // 0x18
 	public string[] names; // 0x20
 	private Dictionary<string, Transform> nameDict; // 0x28
 	private Dictionary<uint, Transform> hashDict; // 0x30
 	private Dictionary<Transform, uint> transformDict; // 0x38
 
-	// Properties
 	public int Count { get; }
 
-	// Methods
 
-	// RVA: 0x5177D0 Offset: 0x515DD0 VA: 0x1805177D0
 	public int get_Count() { }
 
-	// RVA: 0x517370 Offset: 0x515970 VA: 0x180517370
 	public void .ctor(Transform rootBone) { }
 
-	// RVA: 0x517630 Offset: 0x515C30 VA: 0x180517630
 	public void .ctor(Transform rootBone, Transform[] boneTransforms, string[] boneNames) { }
 
-	// RVA: 0x516F60 Offset: 0x515560 VA: 0x180516F60
 	private void BuildBoneDictionary() { }
 
-	// RVA: 0x5172C0 Offset: 0x5158C0 VA: 0x1805172C0
 	public Transform FindBone(string name, bool defaultToRoot = True) { }
 
-	// RVA: 0x517210 Offset: 0x515810 VA: 0x180517210
 	public Transform FindBone(uint hash, bool defaultToRoot = True) { }
 
-	// RVA: 0x517160 Offset: 0x515760 VA: 0x180517160
 	public uint FindBoneID(Transform transform) { }
 
 }
 
 public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 9151
-{	// Fields
-	public T component; // 0x0
+{	public T component; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void Initialize(T source) { }
 	/* GenericInstMethod :
 	|
@@ -88061,7 +85956,6 @@ public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 9151
 	|-ComponentInfo<Renderer>.Initialize
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -88073,8 +85967,7 @@ public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 9151
 }
 
 public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 9230
-{	// Fields
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private AmplifyOcclusionEffect ssao; // 0x0
 	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SEScreenSpaceShadows contactShadows; // 0x0
@@ -88141,7 +86034,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	private BaseEntity <currentDofTarget>k__BackingField; // 0x0
 	protected const float defaultDistance = 4096;
 
-	// Properties
 	public Camera localCamera { get; set; }
 	public static float AtmosphereBrightnessOverride { get; }
 	public static SphericalHarmonicsL2[] LightProbe { get; }
@@ -88149,10 +86041,8 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	public float ActualDeptOfFieldFocalLength { get; }
 	public BaseEntity currentDofTarget { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public Camera get_localCamera() { }
 	/* GenericInstMethod :
 	|
@@ -88162,7 +86052,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_localCamera(Camera value) { }
 	/* GenericInstMethod :
 	|
@@ -88170,7 +86059,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.set_localCamera
 	*/
 
-	// RVA: -1 Offset: -1
 	public static float get_AtmosphereBrightnessOverride() { }
 	/* GenericInstMethod :
 	|
@@ -88179,7 +86067,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.get_AtmosphereBrightnessOverride
 	*/
 
-	// RVA: -1 Offset: -1
 	public static SphericalHarmonicsL2[] get_LightProbe() { }
 	/* GenericInstMethod :
 	|
@@ -88188,7 +86075,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.get_LightProbe
 	*/
 
-	// RVA: -1 Offset: -1
 	public PostProcessLayer get_PostProcessLayer() { }
 	/* GenericInstMethod :
 	|
@@ -88197,7 +86083,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.get_PostProcessLayer
 	*/
 
-	// RVA: -1 Offset: -1
 	public float get_ActualDeptOfFieldFocalLength() { }
 	/* GenericInstMethod :
 	|
@@ -88206,7 +86091,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.get_ActualDeptOfFieldFocalLength
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	protected override void Awake() { }
 	/* GenericInstMethod :
 	|
@@ -88216,7 +86100,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.Awake
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	protected virtual void OnEnable() { }
 	/* GenericInstMethod :
 	|
@@ -88226,7 +86109,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.OnEnable
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	protected virtual void LateUpdate() { }
 	/* GenericInstMethod :
 	|
@@ -88236,7 +86118,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.LateUpdate
 	*/
 
-	// RVA: -1 Offset: -1
 	private void OnPreCull() { }
 	/* GenericInstMethod :
 	|
@@ -88244,7 +86125,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.OnPreCull
 	*/
 
-	// RVA: -1 Offset: -1
 	private void OnPreRender() { }
 	/* GenericInstMethod :
 	|
@@ -88253,7 +86133,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public BaseEntity get_currentDofTarget() { }
 	/* GenericInstMethod :
 	|
@@ -88263,7 +86142,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_currentDofTarget(BaseEntity value) { }
 	/* GenericInstMethod :
 	|
@@ -88271,7 +86149,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.set_currentDofTarget
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateDepthOfField() { }
 	/* GenericInstMethod :
 	|
@@ -88279,7 +86156,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateDepthOfField
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateAntiAliasing() { }
 	/* GenericInstMethod :
 	|
@@ -88287,7 +86163,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateAntiAliasing
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateSSAO() { }
 	/* GenericInstMethod :
 	|
@@ -88295,7 +86170,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateSSAO
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateMotionBlur() { }
 	/* GenericInstMethod :
 	|
@@ -88303,7 +86177,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateMotionBlur
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateShafts() { }
 	/* GenericInstMethod :
 	|
@@ -88311,7 +86184,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateShafts
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void ClearCameraFrustumCorners() { }
 	/* GenericInstMethod :
 	|
@@ -88319,7 +86191,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.ClearCameraFrustumCorners
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void ComputeCameraFrustumCorners(Camera camera, out Matrix4x4 nearCorners, out Matrix4x4 rayCorners) { }
 	/* GenericInstMethod :
 	|
@@ -88328,7 +86199,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.ComputeCameraFrustumCorners
 	*/
 
-	// RVA: -1 Offset: -1
 	public void UpdateCameraFrustumCorners(Camera camera, CommandBuffer cb) { }
 	/* GenericInstMethod :
 	|
@@ -88336,7 +86206,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateCameraFrustumCorners
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateDitherMask() { }
 	/* GenericInstMethod :
 	|
@@ -88344,7 +86213,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateDitherMask
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateShadows() { }
 	/* GenericInstMethod :
 	|
@@ -88352,7 +86220,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateShadows
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void ResetGrassShadowsTimer() { }
 	/* GenericInstMethod :
 	|
@@ -88360,7 +86227,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.ResetGrassShadowsTimer
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateVisualizeTexelDensity() { }
 	/* GenericInstMethod :
 	|
@@ -88368,7 +86234,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateVisualizeTexelDensity
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateLightColor(TOD_Sky sky) { }
 	/* GenericInstMethod :
 	|
@@ -88376,7 +86241,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateLightColor
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateSkyBrightness(TOD_Sky sky) { }
 	/* GenericInstMethod :
 	|
@@ -88384,7 +86248,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateSkyBrightness
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateDirectionalLight(TOD_Sky sky) { }
 	/* GenericInstMethod :
 	|
@@ -88392,7 +86255,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateDirectionalLight
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateAmbientLight(TOD_Sky sky) { }
 	/* GenericInstMethod :
 	|
@@ -88400,7 +86262,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateAmbientLight
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateSkyReflection(TOD_Sky sky) { }
 	/* GenericInstMethod :
 	|
@@ -88408,7 +86269,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateSkyReflection
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void UpdateLightProbe() { }
 	/* GenericInstMethod :
 	|
@@ -88416,7 +86276,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateLightProbe
 	*/
 
-	// RVA: -1 Offset: -1
 	private void UpdateAmbientProbe() { }
 	/* GenericInstMethod :
 	|
@@ -88424,7 +86283,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.UpdateAmbientProbe
 	*/
 
-	// RVA: -1 Offset: -1
 	private float GetIdealNearClipPlane() { }
 	/* GenericInstMethod :
 	|
@@ -88432,7 +86290,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.GetIdealNearClipPlane
 	*/
 
-	// RVA: -1 Offset: -1
 	private float Distance(Vector3 pos) { }
 	/* GenericInstMethod :
 	|
@@ -88440,7 +86297,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>.Distance
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -88450,7 +86306,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	|-RustCamera<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -88461,15 +86316,12 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 }
 
 public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 9564
-{	// Fields
-	protected T owner; // 0x0
+{	protected T owner; // 0x0
 	public MetabolismAttribute calories; // 0x0
 	public MetabolismAttribute hydration; // 0x0
 	public MetabolismAttribute heartrate; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1 Slot: 10
 	public virtual void Reset() { }
 	/* GenericInstMethod :
 	|
@@ -88478,7 +86330,6 @@ public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 95
 	|-BaseMetabolism<object>.Reset
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	protected virtual void OnDisable() { }
 	/* GenericInstMethod :
 	|
@@ -88487,7 +86338,6 @@ public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 95
 	|-BaseMetabolism<object>.OnDisable
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool ShouldDie() { }
 	/* GenericInstMethod :
 	|
@@ -88495,7 +86345,6 @@ public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 95
 	|-BaseMetabolism<object>.ShouldDie
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual MetabolismAttribute FindAttribute(MetabolismAttribute.Type type) { }
 	/* GenericInstMethod :
 	|
@@ -88504,7 +86353,6 @@ public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 95
 	|-BaseMetabolism<object>.FindAttribute
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -88517,21 +86365,16 @@ public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 95
 
 public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 9621
 {
-// Namespace: 
 public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 9621
-	// Fields
 	public List<Modifier> All; // 0x0
 	protected Dictionary<Modifier.ModifierType, float> totalValues; // 0x0
 	protected Dictionary<Modifier.ModifierType, float> modifierVariables; // 0x0
 	protected T owner; // 0x0
 	protected bool dirty; // 0x0
 
-	// Properties
 	public int ActiveModifierCoount { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public int get_ActiveModifierCoount() { }
 	/* GenericInstMethod :
 	|
@@ -88540,7 +86383,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.get_ActiveModifierCoount
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(List<ModifierDefintion> modDefs) { }
 	/* GenericInstMethod :
 	|
@@ -88548,7 +86390,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void Add(ModifierDefintion def) { }
 	/* GenericInstMethod :
 	|
@@ -88556,7 +86397,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void Add(Modifier modifier) { }
 	/* GenericInstMethod :
 	|
@@ -88565,7 +86405,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	private bool CanAdd(Modifier modifier) { }
 	/* GenericInstMethod :
 	|
@@ -88573,7 +86412,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.CanAdd
 	*/
 
-	// RVA: -1 Offset: -1
 	private int GetMaxModifiersForSourceType(Modifier.ModifierSource source) { }
 	/* GenericInstMethod :
 	|
@@ -88581,7 +86419,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.GetMaxModifiersForSourceType
 	*/
 
-	// RVA: -1 Offset: -1
 	private int GetTypeSourceCount(Modifier.ModifierType type, Modifier.ModifierSource source) { }
 	/* GenericInstMethod :
 	|
@@ -88589,7 +86426,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.GetTypeSourceCount
 	*/
 
-	// RVA: -1 Offset: -1
 	private Modifier GetShortestLifeModifier(Modifier.ModifierType type, Modifier.ModifierSource source) { }
 	/* GenericInstMethod :
 	|
@@ -88597,7 +86433,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.GetShortestLifeModifier
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Remove(Modifier modifier) { }
 	/* GenericInstMethod :
 	|
@@ -88605,7 +86440,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	public void RemoveAll() { }
 	/* GenericInstMethod :
 	|
@@ -88614,7 +86448,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.RemoveAll
 	*/
 
-	// RVA: -1 Offset: -1
 	public float GetValue(Modifier.ModifierType type, float defaultValue = 0) { }
 	/* GenericInstMethod :
 	|
@@ -88623,7 +86456,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.GetValue
 	*/
 
-	// RVA: -1 Offset: -1
 	public float GetVariableValue(Modifier.ModifierType type, float defaultValue) { }
 	/* GenericInstMethod :
 	|
@@ -88631,7 +86463,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.GetVariableValue
 	*/
 
-	// RVA: -1 Offset: -1
 	public void SetVariableValue(Modifier.ModifierType type, float value) { }
 	/* GenericInstMethod :
 	|
@@ -88639,7 +86470,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.SetVariableValue
 	*/
 
-	// RVA: -1 Offset: -1
 	public void RemoveVariable(Modifier.ModifierType type) { }
 	/* GenericInstMethod :
 	|
@@ -88647,7 +86477,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.RemoveVariable
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	protected virtual void OnDisable() { }
 	/* GenericInstMethod :
 	|
@@ -88656,7 +86485,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.OnDisable
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void SetDirty(bool flag) { }
 	/* GenericInstMethod :
 	|
@@ -88664,7 +86492,6 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 	|-BaseModifiers<object>.SetDirty
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -88676,12 +86503,9 @@ public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 962
 }
 
 public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 9969
-{	// Fields
-	public T Component; // 0x0
+{	public T Component; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(string name, GameObject prefab, T component, GameManager manager, PrefabAttribute.Library attribute) { }
 	/* GenericInstMethod :
 	|
@@ -88689,7 +86513,6 @@ public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 9969
 	|-Prefab<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public int CompareTo(Prefab<T> that) { }
 	/* GenericInstMethod :
 	|
@@ -88700,13 +86523,10 @@ public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 9969
 }
 
 public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 10411
-{	// Fields
-	internal T[] src; // 0x0
+{	internal T[] src; // 0x0
 	internal T[] dst; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void Push() { }
 	/* GenericInstMethod :
 	|
@@ -88717,7 +86537,6 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 10411
 	|-TerrainMap<int>.Push
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Pop() { }
 	/* GenericInstMethod :
 	|
@@ -88728,7 +86547,6 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 10411
 	|-TerrainMap<int>.Pop
 	*/
 
-	// RVA: -1 Offset: -1
 	public IEnumerable<T> ToEnumerable() { }
 	/* GenericInstMethod :
 	|
@@ -88739,7 +86557,6 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 10411
 	|-TerrainMap<int>.ToEnumerable
 	*/
 
-	// RVA: -1 Offset: -1
 	public int BytesPerElement() { }
 	/* GenericInstMethod :
 	|
@@ -88756,7 +86573,6 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 10411
 	|-TerrainMap<int>.BytesPerElement
 	*/
 
-	// RVA: -1 Offset: -1
 	public long GetMemoryUsage() { }
 	/* GenericInstMethod :
 	|
@@ -88767,7 +86583,6 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 10411
 	|-TerrainMap<int>.GetMemoryUsage
 	*/
 
-	// RVA: -1 Offset: -1
 	public byte[] ToByteArray() { }
 	/* GenericInstMethod :
 	|
@@ -88784,7 +86599,6 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 10411
 	|-TerrainMap<int>.ToByteArray
 	*/
 
-	// RVA: -1 Offset: -1
 	public void FromByteArray(byte[] dat) { }
 	/* GenericInstMethod :
 	|
@@ -88795,7 +86609,6 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 10411
 	|-TerrainMap<int>.FromByteArray
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -88809,45 +86622,34 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 10411
 }
 
 public static class RecipeDictionary // TypeDefIndex: 10754
-{	// Fields
-	private static Dictionary<uint, Dictionary<int, List<Recipe>>> recipeListsDict; // 0x2E40
+{	private static Dictionary<uint, Dictionary<int, List<Recipe>>> recipeListsDict; // 0x2E40
 
-	// Methods
 
-	// RVA: 0x6AB6F0 Offset: 0x6A9CF0 VA: 0x1806AB6F0
 	public static void CacheRecipes(RecipeList recipeList) { }
 
-	// RVA: 0x6AB970 Offset: 0x6A9F70 VA: 0x1806AB970
 	public static Recipe GetMatchingRecipeAndQuantity(RecipeList recipeList, List<Item> orderedIngredients, out int quantity) { }
 
-	// RVA: 0x6ABD80 Offset: 0x6AA380 VA: 0x1806ABD80
 	private static List<Recipe> GetRecipesByFirstIngredient(RecipeList recipeList, Item firstIngredient) { }
 
-	// RVA: 0x6ABEB0 Offset: 0x6AA4B0 VA: 0x1806ABEB0
 	public static bool ValidIngredientForARecipe(Item ingredient, RecipeList recipeList) { }
 
-	// RVA: 0x6ABFB0 Offset: 0x6AA5B0 VA: 0x1806ABFB0
 	private static void .cctor() { }
 
 }
 
 public struct CachedTransform<T> // TypeDefIndex: 11299
-{	// Fields
-	public T component; // 0x0
+{	public T component; // 0x0
 	public Vector3 position; // 0x0
 	public Quaternion rotation; // 0x0
 	public Vector3 localScale; // 0x0
 
-	// Properties
 	public Matrix4x4 localToWorldMatrix { get; }
 	public Matrix4x4 worldToLocalMatrix { get; }
 	public Vector3 forward { get; }
 	public Vector3 up { get; }
 	public Vector3 right { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(T instance) { }
 	/* GenericInstMethod :
 	|
@@ -88857,7 +86659,6 @@ public struct CachedTransform<T> // TypeDefIndex: 11299
 	|-CachedTransform<Camera>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Apply() { }
 	/* GenericInstMethod :
 	|
@@ -88867,7 +86668,6 @@ public struct CachedTransform<T> // TypeDefIndex: 11299
 	|-CachedTransform<Camera>.Apply
 	*/
 
-	// RVA: -1 Offset: -1
 	public void RotateAround(Vector3 center, Vector3 axis, float angle) { }
 	/* GenericInstMethod :
 	|
@@ -88876,7 +86676,6 @@ public struct CachedTransform<T> // TypeDefIndex: 11299
 	|-CachedTransform<object>.RotateAround
 	*/
 
-	// RVA: -1 Offset: -1
 	public Matrix4x4 get_localToWorldMatrix() { }
 	/* GenericInstMethod :
 	|
@@ -88885,7 +86684,6 @@ public struct CachedTransform<T> // TypeDefIndex: 11299
 	|-CachedTransform<object>.get_localToWorldMatrix
 	*/
 
-	// RVA: -1 Offset: -1
 	public Matrix4x4 get_worldToLocalMatrix() { }
 	/* GenericInstMethod :
 	|
@@ -88894,7 +86692,6 @@ public struct CachedTransform<T> // TypeDefIndex: 11299
 	|-CachedTransform<object>.get_worldToLocalMatrix
 	*/
 
-	// RVA: -1 Offset: -1
 	public Vector3 get_forward() { }
 	/* GenericInstMethod :
 	|
@@ -88903,7 +86700,6 @@ public struct CachedTransform<T> // TypeDefIndex: 11299
 	|-CachedTransform<object>.get_forward
 	*/
 
-	// RVA: -1 Offset: -1
 	public Vector3 get_up() { }
 	/* GenericInstMethod :
 	|
@@ -88913,7 +86709,6 @@ public struct CachedTransform<T> // TypeDefIndex: 11299
 	|-CachedTransform<Camera>.get_up
 	*/
 
-	// RVA: -1 Offset: -1
 	public Vector3 get_right() { }
 	/* GenericInstMethod :
 	|
@@ -88922,7 +86717,6 @@ public struct CachedTransform<T> // TypeDefIndex: 11299
 	|-CachedTransform<Camera>.get_right
 	*/
 
-	// RVA: -1 Offset: -1
 	public static bool op_Implicit(CachedTransform<T> instance) { }
 	/* GenericInstMethod :
 	|
@@ -88935,18 +86729,14 @@ public struct CachedTransform<T> // TypeDefIndex: 11299
 }
 
 public class NativeList<T> : Pool.IPooled // TypeDefIndex: 11393
-{	// Fields
-	private NativeArray<T> _array; // 0x0
+{	private NativeArray<T> _array; // 0x0
 	private int _length; // 0x0
 
-	// Properties
 	public NativeArray<T> Array { get; }
 	public int Count { get; }
 	public T Item { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public NativeArray<T> get_Array() { }
 	/* GenericInstMethod :
 	|
@@ -88955,7 +86745,6 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 11393
 	|-NativeList<Vector4>.get_Array
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -88964,7 +86753,6 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 11393
 	|-NativeList<Vector4>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -88975,7 +86763,6 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 11393
 	|-NativeList<Vector4>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -88986,7 +86773,6 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 11393
 	|-NativeList<Vector4>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
@@ -88997,7 +86783,6 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 11393
 	|-NativeList<Vector4>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -89008,7 +86793,6 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 11393
 	|-NativeList<Vector4>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Resize(int count) { }
 	/* GenericInstMethod :
 	|
@@ -89017,7 +86801,6 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 11393
 	|-NativeList<Vector4>.Resize
 	*/
 
-	// RVA: -1 Offset: -1
 	public void EnsureCapacity(int requiredCapacity) { }
 	/* GenericInstMethod :
 	|
@@ -89028,7 +86811,6 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 11393
 	|-NativeList<Vector4>.EnsureCapacity
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public void EnterPool() { }
 	/* GenericInstMethod :
 	|
@@ -89037,7 +86819,6 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 11393
 	|-NativeList<Vector4>.EnterPool
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void LeavePool() { }
 	/* GenericInstMethod :
 	|
@@ -89046,7 +86827,6 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 11393
 	|-NativeList<Vector4>.LeavePool
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -89058,12 +86838,9 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 11393
 }
 
 public class PooledList<T> // TypeDefIndex: 11399
-{	// Fields
-	public List<T> data; // 0x0
+{	public List<T> data; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void Alloc() { }
 	/* GenericInstMethod :
 	|
@@ -89080,7 +86857,6 @@ public class PooledList<T> // TypeDefIndex: 11399
 	|-PooledList<object>.Alloc
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Free() { }
 	/* GenericInstMethod :
 	|
@@ -89097,7 +86873,6 @@ public class PooledList<T> // TypeDefIndex: 11399
 	|-PooledList<object>.Free
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -89108,7 +86883,6 @@ public class PooledList<T> // TypeDefIndex: 11399
 	|-PooledList<object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -89122,21 +86896,17 @@ public class PooledList<T> // TypeDefIndex: 11399
 }
 
 public class SimpleList<T> // TypeDefIndex: 11402
-{	// Fields
-	private const int defaultCapacity = 16;
+{	private const int defaultCapacity = 16;
 	private static readonly T[] emptyArray; // 0x0
 	public T[] array; // 0x0
 	public int count; // 0x0
 
-	// Properties
 	public T[] Array { get; }
 	public int Count { get; }
 	public int Capacity { get; set; }
 	public T Item { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public T[] get_Array() { }
 	/* GenericInstMethod :
 	|
@@ -89147,7 +86917,6 @@ public class SimpleList<T> // TypeDefIndex: 11402
 	|-SimpleList<WaterDynamics.InstanceData>.get_Array
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -89158,7 +86927,6 @@ public class SimpleList<T> // TypeDefIndex: 11402
 	|-SimpleList<WaterDynamics.InstanceData>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Capacity() { }
 	/* GenericInstMethod :
 	|
@@ -89169,7 +86937,6 @@ public class SimpleList<T> // TypeDefIndex: 11402
 	|-SimpleList<WaterDynamics.InstanceData>.get_Capacity
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Capacity(int value) { }
 	/* GenericInstMethod :
 	|
@@ -89180,7 +86947,6 @@ public class SimpleList<T> // TypeDefIndex: 11402
 	|-SimpleList<WaterDynamics.InstanceData>.set_Capacity
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -89197,7 +86963,6 @@ public class SimpleList<T> // TypeDefIndex: 11402
 	|-SimpleList<WaterDynamics.InstanceData>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
@@ -89214,7 +86979,6 @@ public class SimpleList<T> // TypeDefIndex: 11402
 	|-SimpleList<WaterDynamics.InstanceData>.set_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -89225,7 +86989,6 @@ public class SimpleList<T> // TypeDefIndex: 11402
 	|-SimpleList<WaterDynamics.InstanceData>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int capacity) { }
 	/* GenericInstMethod :
 	|
@@ -89236,7 +86999,6 @@ public class SimpleList<T> // TypeDefIndex: 11402
 	|-SimpleList<WaterDynamics.InstanceData>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
@@ -89253,7 +87015,6 @@ public class SimpleList<T> // TypeDefIndex: 11402
 	|-SimpleList<WaterDynamics.InstanceData>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -89264,7 +87025,6 @@ public class SimpleList<T> // TypeDefIndex: 11402
 	|-SimpleList<WaterDynamics.InstanceData>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool Contains(T item) { }
 	/* GenericInstMethod :
 	|
@@ -89281,7 +87041,6 @@ public class SimpleList<T> // TypeDefIndex: 11402
 	|-SimpleList<WaterDynamics.InstanceData>.Contains
 	*/
 
-	// RVA: -1 Offset: -1
 	public void CopyTo(T[] array) { }
 	/* GenericInstMethod :
 	|
@@ -89292,7 +87051,6 @@ public class SimpleList<T> // TypeDefIndex: 11402
 	|-SimpleList<WaterDynamics.InstanceData>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public void EnsureCapacity(int min) { }
 	/* GenericInstMethod :
 	|
@@ -89303,7 +87061,6 @@ public class SimpleList<T> // TypeDefIndex: 11402
 	|-SimpleList<WaterDynamics.InstanceData>.EnsureCapacity
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -89317,8 +87074,7 @@ public class SimpleList<T> // TypeDefIndex: 11402
 }
 
 public class TimeCachedValue<T> // TypeDefIndex: 11407
-{	// Fields
-	public float refreshCooldown; // 0x0
+{	public float refreshCooldown; // 0x0
 	public float refreshRandomRange; // 0x0
 	public Func<T> updateValue; // 0x0
 	private T cachedValue; // 0x0
@@ -89326,9 +87082,7 @@ public class TimeCachedValue<T> // TypeDefIndex: 11407
 	private bool hasRun; // 0x0
 	private bool forceNextRun; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public T Get(bool force) { }
 	/* GenericInstMethod :
 	|
@@ -89336,7 +87090,6 @@ public class TimeCachedValue<T> // TypeDefIndex: 11407
 	|-TimeCachedValue<object>.Get
 	*/
 
-	// RVA: -1 Offset: -1
 	public void ForceNextRun() { }
 	/* GenericInstMethod :
 	|
@@ -89344,7 +87097,6 @@ public class TimeCachedValue<T> // TypeDefIndex: 11407
 	|-TimeCachedValue<object>.ForceNextRun
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -89355,18 +87107,14 @@ public class TimeCachedValue<T> // TypeDefIndex: 11407
 }
 
 public class ResourceRef<T> // TypeDefIndex: 11432
-{	// Fields
-	public string guid; // 0x0
+{	public string guid; // 0x0
 	private T _cachedObject; // 0x0
 
-	// Properties
 	public bool isValid { get; }
 	public string resourcePath { get; }
 	public uint resourceID { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public bool get_isValid() { }
 	/* GenericInstMethod :
 	|
@@ -89376,7 +87124,6 @@ public class ResourceRef<T> // TypeDefIndex: 11432
 	|-ResourceRef<Texture2D>.get_isValid
 	*/
 
-	// RVA: -1 Offset: -1
 	public T Get() { }
 	/* GenericInstMethod :
 	|
@@ -89387,7 +87134,6 @@ public class ResourceRef<T> // TypeDefIndex: 11432
 	|-ResourceRef<Texture2D>.Get
 	*/
 
-	// RVA: -1 Offset: -1
 	public string get_resourcePath() { }
 	/* GenericInstMethod :
 	|
@@ -89396,7 +87142,6 @@ public class ResourceRef<T> // TypeDefIndex: 11432
 	|-ResourceRef<GameObject>.get_resourcePath
 	*/
 
-	// RVA: -1 Offset: -1
 	public uint get_resourceID() { }
 	/* GenericInstMethod :
 	|
@@ -89405,7 +87150,6 @@ public class ResourceRef<T> // TypeDefIndex: 11432
 	|-ResourceRef<GameObject>.get_resourceID
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -89419,12 +87163,9 @@ public class ResourceRef<T> // TypeDefIndex: 11432
 }
 
 public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 11825
-{	// Fields
-	public T value; // 0x0
+{	public T value; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -89464,7 +87205,6 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 11825
 	|-ParameterOverride<Vector3>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(T value) { }
 	/* GenericInstMethod :
 	|
@@ -89488,7 +87228,6 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 11825
 	|-ParameterOverride<Vector3>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(T value, bool overrideState) { }
 	/* GenericInstMethod :
 	|
@@ -89516,7 +87255,6 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 11825
 	|-ParameterOverride<Vector3>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	internal override void Interp(ParameterOverride from, ParameterOverride to, float t) { }
 	/* GenericInstMethod :
 	|
@@ -89560,7 +87298,6 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 11825
 	|-ParameterOverride<Vector3>.Interp
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public virtual void Interp(T from, T to, float t) { }
 	/* GenericInstMethod :
 	|
@@ -89604,7 +87341,6 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 11825
 	|-ParameterOverride<Vector3>.Interp
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Override(T x) { }
 	/* GenericInstMethod :
 	|
@@ -89632,7 +87368,6 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 11825
 	|-ParameterOverride<Vector3>.Override
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 8
 	internal override void SetValue(ParameterOverride parameter) { }
 	/* GenericInstMethod :
 	|
@@ -89676,7 +87411,6 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 11825
 	|-ParameterOverride<Vector3>.SetValue
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override int GetHash() { }
 	/* GenericInstMethod :
 	|
@@ -89724,7 +87458,6 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 11825
 	|-ParameterOverride<Vector4>.GetHash
 	*/
 
-	// RVA: -1 Offset: -1
 	public static T op_Implicit(ParameterOverride<T> prop) { }
 	/* GenericInstMethod :
 	|
@@ -89757,8 +87490,7 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 11825
 }
 
 public class GenericLerp<T> : IDisposable // TypeDefIndex: 12120
-{	// Fields
-	private Interpolator<T> interpolator; // 0x0
+{	private Interpolator<T> interpolator; // 0x0
 	private IGenericLerpTarget<T> target; // 0x0
 	private static T snapshotPrototype; // 0x0
 	private static float TimeOffset; // 0x0
@@ -89769,13 +87501,10 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 12120
 	private int timeOffsetCount; // 0x0
 	private float extrapolatedTime; // 0x0
 
-	// Properties
 	private int TimeOffsetInterval { get; }
 	private float LerpTime { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	private int get_TimeOffsetInterval() { }
 	/* GenericInstMethod :
 	|
@@ -89789,7 +87518,6 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 12120
 	|-GenericLerp<TrainCar.TrainCarSnapshot>.get_TimeOffsetInterval
 	*/
 
-	// RVA: -1 Offset: -1
 	private float get_LerpTime() { }
 	/* GenericInstMethod :
 	|
@@ -89803,7 +87531,6 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 12120
 	|-GenericLerp<TrainCar.TrainCarSnapshot>.get_LerpTime
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IGenericLerpTarget<T> target, int listCount) { }
 	/* GenericInstMethod :
 	|
@@ -89813,7 +87540,6 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 12120
 	|-GenericLerp<TrainCar.TrainCarSnapshot>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Tick() { }
 	/* GenericInstMethod :
 	|
@@ -89827,7 +87553,6 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 12120
 	|-GenericLerp<TrainCar.TrainCarSnapshot>.Tick
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Snapshot(T snapshot) { }
 	/* GenericInstMethod :
 	|
@@ -89841,7 +87566,6 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 12120
 	|-GenericLerp<TrainCar.TrainCarSnapshot>.Snapshot
 	*/
 
-	// RVA: -1 Offset: -1
 	public void SnapTo(T snapshot) { }
 	/* GenericInstMethod :
 	|
@@ -89855,7 +87579,6 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 12120
 	|-GenericLerp<TrainCar.TrainCarSnapshot>.SnapTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public void SnapToNow(T snapshot) { }
 	/* GenericInstMethod :
 	|
@@ -89869,7 +87592,6 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 12120
 	|-GenericLerp<TrainCar.TrainCarSnapshot>.SnapToNow
 	*/
 
-	// RVA: -1 Offset: -1
 	public void SnapToEnd() { }
 	/* GenericInstMethod :
 	|
@@ -89883,7 +87605,6 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 12120
 	|-GenericLerp<TrainCar.TrainCarSnapshot>.SnapToEnd
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -89893,7 +87614,6 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 12120
 	|-GenericLerp<TrainCar.TrainCarSnapshot>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Wipe() { }
 	/* GenericInstMethod :
 	|
@@ -89903,7 +87623,6 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 12120
 	|-GenericLerp<TrainCar.TrainCarSnapshot>.Wipe
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -89920,13 +87639,10 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 12120
 }
 
 public class Interpolator<T> // TypeDefIndex: 12122
-{	// Fields
-	public List<T> list; // 0x0
+{	public List<T> list; // 0x0
 	public T last; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(int listCount) { }
 	/* GenericInstMethod :
 	|
@@ -89937,7 +87653,6 @@ public class Interpolator<T> // TypeDefIndex: 12122
 	|-Interpolator<TrainCar.TrainCarSnapshot>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(T tick) { }
 	/* GenericInstMethod :
 	|
@@ -89954,7 +87669,6 @@ public class Interpolator<T> // TypeDefIndex: 12122
 	|-Interpolator<TrainCar.TrainCarSnapshot>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Cull(float beforeTime) { }
 	/* GenericInstMethod :
 	|
@@ -89971,7 +87685,6 @@ public class Interpolator<T> // TypeDefIndex: 12122
 	|-Interpolator<TrainCar.TrainCarSnapshot>.Cull
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -89982,7 +87695,6 @@ public class Interpolator<T> // TypeDefIndex: 12122
 	|-Interpolator<TrainCar.TrainCarSnapshot>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public Interpolator.Segment<T> Query(float time, float interpolation, float extrapolation, float smoothing, ref T t) { }
 	/* GenericInstMethod :
 	|

@@ -1,6 +1,5 @@
 internal sealed class Huffman // TypeDefIndex: 7393
-{	// Fields
-	private static readonly int[][] ValTab0; // 0x0
+{	private static readonly int[][] ValTab0; // 0x0
 	private static readonly int[][] ValTab1; // 0x8
 	private static readonly int[][] ValTab2; // 0x10
 	private static readonly int[][] ValTab3; // 0x18
@@ -34,18 +33,13 @@ internal sealed class Huffman // TypeDefIndex: 7393
 	private readonly int[] _Table; // 0x40
 	private readonly char _Tablename2; // 0x48
 
-	// Methods
 
-	// RVA: 0x5E62A0 Offset: 0x5E48A0 VA: 0x1805E62A0
 	private static void .cctor() { }
 
-	// RVA: 0x660AD0 Offset: 0x65F0D0 VA: 0x180660AD0
 	private void .ctor(string s, int xlen, int ylen, int linbits, int linmax, int ref, int[] table, int[] hlen, int[][] val, int treelen) { }
 
-	// RVA: 0x5E32F0 Offset: 0x5E18F0 VA: 0x1805E32F0
 	internal static int Decode(Huffman h, int[] x, int[] y, int[] v, int[] w, BitReserve br) { }
 
-	// RVA: 0x5E3B70 Offset: 0x5E2170 VA: 0x1805E3B70
 	internal static void Initialize() { }
 
 }

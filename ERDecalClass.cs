@@ -1,6 +1,5 @@
 public class ERDecalClass // TypeDefIndex: 7215
-{	// Fields
-	public int id; // 0x10
+{	public int id; // 0x10
 	public ERDecalType type; // 0x14
 	public string name; // 0x18
 	public double roadType1; // 0x20
@@ -31,12 +30,9 @@ public class ERDecalClass // TypeDefIndex: 7215
 	public float width1; // 0xC8
 	public float width2; // 0xCC
 
-	// Methods
 
-	// RVA: 0x9A9C00 Offset: 0x9A8200 VA: 0x1809A9C00
 	public static void CopyDecal(ERDecal source, ERDecalClass target) { }
 
-	// RVA: 0x9A9E70 Offset: 0x9A8470 VA: 0x1809A9E70
 	public void .ctor() { }
 
 }

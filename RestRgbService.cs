@@ -1,6 +1,5 @@
 public abstract class RestRgbService : IRgbService // TypeDefIndex: 7678
-{	// Fields
-	private readonly SemaphoreSlim _sema; // 0x10
+{	private readonly SemaphoreSlim _sema; // 0x10
 	private readonly Stopwatch _heartbeatTimer; // 0x18
 	private readonly Stopwatch _timeSinceFailure; // 0x20
 	private bool _failed; // 0x28
@@ -15,118 +14,87 @@ public abstract class RestRgbService : IRgbService // TypeDefIndex: 7678
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TimeSpan <ReinitializeDelay>k__BackingField; // 0x48
 
-	// Properties
 	public bool IsConnected { get; set; }
 	public Vector3 ColorCorrection { get; set; }
 	protected HttpClient Client { get; set; }
 	protected TimeSpan HeartbeatInterval { get; set; }
 	protected TimeSpan ReinitializeDelay { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x73AC50 Offset: 0x739250 VA: 0x18073AC50 Slot: 4
 	public bool get_IsConnected() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11251F0 Offset: 0x11237F0 VA: 0x1811251F0
 	protected void set_IsConnected(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12D3520 Offset: 0x12D1B20 VA: 0x1812D3520 Slot: 5
 	public Vector3 get_ColorCorrection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21C1750 Offset: 0x21BFD50 VA: 0x1821C1750 Slot: 6
 	public void set_ColorCorrection(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	protected HttpClient get_Client() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD650 Offset: 0x6ABC50 VA: 0x1806AD650
 	protected void set_Client(HttpClient value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	protected TimeSpan get_HeartbeatInterval() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21C1760 Offset: 0x21BFD60 VA: 0x1821C1760
 	protected void set_HeartbeatInterval(TimeSpan value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	protected TimeSpan get_ReinitializeDelay() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEE7190 Offset: 0xEE5790 VA: 0x180EE7190
 	protected void set_ReinitializeDelay(TimeSpan value) { }
 
-	// RVA: 0x21C15B0 Offset: 0x21BFBB0 VA: 0x1821C15B0
 	protected void .ctor() { }
 
-	// RVA: -1 Offset: -1 Slot: 13
 	protected abstract ValueTask<bool> Initialize();
 
-	// RVA: -1 Offset: -1 Slot: 14
 	protected abstract ValueTask Shutdown();
 
-	// RVA: -1 Offset: -1 Slot: 15
 	protected abstract Task SendHeartbeat();
 
-	// RVA: -1 Offset: -1 Slot: 16
 	protected abstract Task SendStaticColor(Color color);
 
-	// RVA: -1 Offset: -1 Slot: 17
 	protected abstract Task SendPulseColor(Color color, float duration);
 
-	// RVA: -1 Offset: -1 Slot: 18
 	protected abstract Task SendEvent(RgbEventType type);
 
 	[AsyncStateMachineAttribute] // RVA: 0xB6BE0 Offset: 0xB5FE0 VA: 0x1800B6BE0
-	// RVA: 0x21C10D0 Offset: 0x21BF6D0 VA: 0x1821C10D0 Slot: 7
 	public ValueTask Start() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB6E30 Offset: 0xB6230 VA: 0x1800B6E30
-	// RVA: 0x21C13B0 Offset: 0x21BF9B0 VA: 0x1821C13B0 Slot: 8
 	public ValueTask Stop() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB6FE0 Offset: 0xB63E0 VA: 0x1800B6FE0
-	// RVA: 0x21C14B0 Offset: 0x21BFAB0 VA: 0x1821C14B0 Slot: 9
 	public ValueTask Update() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB7060 Offset: 0xB6460 VA: 0x1800B7060
-	// RVA: 0x21C0FD0 Offset: 0x21BF5D0 VA: 0x1821C0FD0
 	private void SendHeartbeatAndWait() { }
 
-	// RVA: 0x21C12C0 Offset: 0x21BF8C0 VA: 0x1821C12C0 Slot: 10
 	public void StaticColor(Color color) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB7150 Offset: 0xB6550 VA: 0x1800B7150
-	// RVA: 0x21C11D0 Offset: 0x21BF7D0 VA: 0x1821C11D0
 	private void StaticColorImpl(Color color) { }
 
-	// RVA: 0x21C0EC0 Offset: 0x21BF4C0 VA: 0x1821C0EC0 Slot: 11
 	public void PulseColor(Color color, float duration) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB72B0 Offset: 0xB66B0 VA: 0x1800B72B0
-	// RVA: 0x21C0DC0 Offset: 0x21BF3C0 VA: 0x1821C0DC0
 	private void PulseColorImpl(Color color, float duration) { }
 
-	// RVA: 0x21C0CD0 Offset: 0x21BF2D0 VA: 0x1821C0CD0 Slot: 12
 	public void Event(RgbEventType type) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB7440 Offset: 0xB6840 VA: 0x1800B7440
-	// RVA: 0x21C0BE0 Offset: 0x21BF1E0 VA: 0x1821C0BE0
 	private void EventImpl(RgbEventType type) { }
 
-	// RVA: 0x21C10A0 Offset: 0x21BF6A0 VA: 0x1821C10A0
 	private void ShutdownFromFailure() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB8880 Offset: 0xB7C80 VA: 0x1800B8880
-	// RVA: -1 Offset: -1
 	protected Task<HttpResponseMessage> SendPost<T>(string endpoint, T payload) { }
 	/* GenericInstMethod :
 	|
@@ -152,7 +120,6 @@ public abstract class RestRgbService : IRgbService // TypeDefIndex: 7678
 	|-RestRgbService.SendPost<RemoveGame>
 	*/
 
-	// RVA: -1 Offset: -1
 	protected static HttpContent BuildContent<T>(T parameters) { }
 	/* GenericInstMethod :
 	|
@@ -184,150 +151,119 @@ public abstract class RestRgbService : IRgbService // TypeDefIndex: 7678
 }
 
 private struct RestRgbService.<Start>d__31 : IAsyncStateMachine // TypeDefIndex: 7679
-{	// Fields
-	public int <>1__state; // 0x0
+{	public int <>1__state; // 0x0
 	public AsyncValueTaskMethodBuilder <>t__builder; // 0x8
 	public RestRgbService <>4__this; // 0x28
 	private TaskAwaiter <>u__1; // 0x30
 	private ValueTaskAwaiter<bool> <>u__2; // 0x38
 
-	// Methods
 
-	// RVA: 0x236F90 Offset: 0x236390 VA: 0x180236F90 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x236F70 Offset: 0x236370 VA: 0x180236F70 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 private struct RestRgbService.<Stop>d__32 : IAsyncStateMachine // TypeDefIndex: 7680
-{	// Fields
-	public int <>1__state; // 0x0
+{	public int <>1__state; // 0x0
 	public AsyncValueTaskMethodBuilder <>t__builder; // 0x8
 	public RestRgbService <>4__this; // 0x28
 	private TaskAwaiter <>u__1; // 0x30
 	private ValueTaskAwaiter <>u__2; // 0x38
 
-	// Methods
 
-	// RVA: 0x236FC0 Offset: 0x2363C0 VA: 0x180236FC0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x236F70 Offset: 0x236370 VA: 0x180236F70 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 private struct RestRgbService.<Update>d__33 : IAsyncStateMachine // TypeDefIndex: 7681
-{	// Fields
-	public int <>1__state; // 0x0
+{	public int <>1__state; // 0x0
 	public AsyncValueTaskMethodBuilder <>t__builder; // 0x8
 	public RestRgbService <>4__this; // 0x28
 	private ValueTaskAwaiter <>u__1; // 0x30
 
-	// Methods
 
-	// RVA: 0x236FE0 Offset: 0x2363E0 VA: 0x180236FE0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x236F70 Offset: 0x236370 VA: 0x180236F70 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 private struct RestRgbService.<SendHeartbeatAndWait>d__34 : IAsyncStateMachine // TypeDefIndex: 7682
-{	// Fields
-	public int <>1__state; // 0x0
+{	public int <>1__state; // 0x0
 	public AsyncVoidMethodBuilder <>t__builder; // 0x8
 	public RestRgbService <>4__this; // 0x28
 	private TaskAwaiter<bool> <>u__1; // 0x30
 	private TaskAwaiter <>u__2; // 0x38
 
-	// Methods
 
-	// RVA: 0x236F20 Offset: 0x236320 VA: 0x180236F20 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF1530 Offset: 0xF0930 VA: 0x1800F1530 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 private struct RestRgbService.<StaticColorImpl>d__36 : IAsyncStateMachine // TypeDefIndex: 7683
-{	// Fields
-	public int <>1__state; // 0x0
+{	public int <>1__state; // 0x0
 	public AsyncVoidMethodBuilder <>t__builder; // 0x8
 	public RestRgbService <>4__this; // 0x28
 	public Color color; // 0x30
 	private TaskAwaiter <>u__1; // 0x40
 
-	// Methods
 
-	// RVA: 0x236FA0 Offset: 0x2363A0 VA: 0x180236FA0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF1530 Offset: 0xF0930 VA: 0x1800F1530 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 private struct RestRgbService.<PulseColorImpl>d__38 : IAsyncStateMachine // TypeDefIndex: 7684
-{	// Fields
-	public int <>1__state; // 0x0
+{	public int <>1__state; // 0x0
 	public AsyncVoidMethodBuilder <>t__builder; // 0x8
 	public RestRgbService <>4__this; // 0x28
 	public Color color; // 0x30
 	public float duration; // 0x40
 	private TaskAwaiter <>u__1; // 0x48
 
-	// Methods
 
-	// RVA: 0x236F00 Offset: 0x236300 VA: 0x180236F00 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF1530 Offset: 0xF0930 VA: 0x1800F1530 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 private struct RestRgbService.<EventImpl>d__40 : IAsyncStateMachine // TypeDefIndex: 7685
-{	// Fields
-	public int <>1__state; // 0x0
+{	public int <>1__state; // 0x0
 	public AsyncVoidMethodBuilder <>t__builder; // 0x8
 	public RestRgbService <>4__this; // 0x28
 	public RgbEventType type; // 0x30
 	private TaskAwaiter <>u__1; // 0x38
 
-	// Methods
 
-	// RVA: 0x236E90 Offset: 0x236290 VA: 0x180236E90 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF1530 Offset: 0xF0930 VA: 0x1800F1530 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 private struct RestRgbService.<SendPost>d__42<T> : IAsyncStateMachine // TypeDefIndex: 7686
-{	// Fields
-	public int <>1__state; // 0x0
+{	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder<HttpResponseMessage> <>t__builder; // 0x0
 	public T payload; // 0x0
 	public RestRgbService <>4__this; // 0x0
 	public string endpoint; // 0x0
 	private TaskAwaiter<HttpResponseMessage> <>u__1; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1 Slot: 4
 	private void MoveNext() { }
 	/* GenericInstMethod :
 	|
@@ -354,7 +290,6 @@ private struct RestRgbService.<SendPost>d__42<T> : IAsyncStateMachine // TypeDef
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|

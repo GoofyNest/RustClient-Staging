@@ -1,6 +1,5 @@
 public class ERCrossingMainRoad : MonoBehaviour // TypeDefIndex: 7251
-{	// Fields
-	public ERModularBase baseScript; // 0x18
+{	public ERModularBase baseScript; // 0x18
 	public double roadType1; // 0x20
 	public int roadTypeInt1; // 0x28
 	public double roadType2; // 0x30
@@ -73,18 +72,13 @@ public class ERCrossingMainRoad : MonoBehaviour // TypeDefIndex: 7251
 	public Material mat3; // 0x1B0
 	public string name; // 0x1B8
 
-	// Methods
 
-	// RVA: 0xB816A0 Offset: 0xB7FCA0 VA: 0x180B816A0
 	public void OCQOQCDCQC() { }
 
-	// RVA: 0xB81530 Offset: 0xB7FB30 VA: 0x180B81530
 	public void Clear() { }
 
-	// RVA: 0xB83990 Offset: 0xB81F90 VA: 0x180B83990
 	private List<int> Triangulate(List<Vector3> vecs, List<Vector3> edges) { }
 
-	// RVA: 0xB840D0 Offset: 0xB826D0 VA: 0x180B840D0
 	public void .ctor() { }
 
 }

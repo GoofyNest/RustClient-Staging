@@ -1,6 +1,5 @@
 public class FirecrackerRepeater : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 8755
-{	// Fields
-	public GameObjectRef singleExplosionEffect; // 0x18
+{	public GameObjectRef singleExplosionEffect; // 0x18
 	public Transform[] parts; // 0x20
 	public float partWidth; // 0x28
 	public float partLength; // 0x2C
@@ -24,30 +23,21 @@ public class FirecrackerRepeater : BaseMonoBehaviour, IClientComponent // TypeDe
 	private bool lit; // 0x98
 	private float startTime; // 0x9C
 
-	// Methods
 
-	// RVA: 0x7899A0 Offset: 0x787FA0 VA: 0x1807899A0
 	private void Start() { }
 
-	// RVA: 0x789600 Offset: 0x787C00 VA: 0x180789600
 	public void OnDestroy() { }
 
-	// RVA: 0x7891C0 Offset: 0x7877C0 VA: 0x1807891C0
 	public void Begin() { }
 
-	// RVA: 0x789560 Offset: 0x787B60 VA: 0x180789560
 	public float GetProgress() { }
 
-	// RVA: 0x789C40 Offset: 0x788240 VA: 0x180789C40
 	public void Update() { }
 
-	// RVA: 0x789660 Offset: 0x787C60 VA: 0x180789660
 	public void SetTwistAmount(int index, Vector3 twistAmountToUse) { }
 
-	// RVA: 0x789200 Offset: 0x787800 VA: 0x180789200
 	public void Explode() { }
 
-	// RVA: 0x78A010 Offset: 0x788610 VA: 0x18078A010
 	public void .ctor() { }
 
 }

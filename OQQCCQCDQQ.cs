@@ -1,6 +1,5 @@
 public class OQQCCQCDQQ : MonoBehaviour // TypeDefIndex: 7271
-{	// Fields
-	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public QDQDOOQQDQODD roadType; // 0x18
 	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public double roadTypeID; // 0x20
@@ -151,81 +150,55 @@ public class OQQCCQCDQQ : MonoBehaviour // TypeDefIndex: 7271
 	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public List<Vector3> detailVecs; // 0x1F8
 
-	// Methods
 
-	// RVA: 0x8B9740 Offset: 0x8B7D40 VA: 0x1808B9740
 	public static void OOOCDQDQDC(List<ERMarkerExt> markers, List<OQQCCQCDQQ> exitRoads, ref List<Vector3> splinePoints, ref List<float> tValues) { }
 
-	// RVA: 0x8B4100 Offset: 0x8B2700 VA: 0x1808B4100
 	public static void ODOCDDDDDO(List<ERMarkerExt> markers, OQQCCQCDQQ exitRoad, ref List<Vector3> splinePoints, ref List<float> tValues, int currentInt) { }
 
-	// RVA: 0x8BAD80 Offset: 0x8B9380 VA: 0x1808BAD80
 	public static void OQCCQOQDDO(ERModularBase baseScript, ERModularRoad road, List<OQQCCQCDQQ> exitRoads, List<ERMarkerExt> markers, ref List<Vector3> soSplinePointsLeft, ref List<Vector3> soSplinePointsRight, ref bool hasExits, List<float> leftIndentFloats, List<float> rightIndentFloats, List<float> leftSurroundingFloats, List<float> rightSurroundingFloats, ref List<Vector3> surfaceVecs) { }
 
-	// RVA: 0x8A28D0 Offset: 0x8A0ED0 VA: 0x1808A28D0
 	public static void OCCCOOCCQC(ERModularBase baseScript, ERModularRoad road, OQQCCQCDQQ exitRoad, ref List<Vector3> soSplinePointsLeft, ref List<Vector3> soSplinePointsRight, List<float> leftIndentFloats, List<float> rightIndentFloats, List<float> leftSurroundingFloats, List<float> rightSurroundingFloats, ref List<Vector3> roadSurfaceVecs) { }
 
-	// RVA: 0x8A27D0 Offset: 0x8A0DD0 VA: 0x1808A27D0
 	public void BuildMeshInit(OQQCCQCDQQ exitRoad, List<Vector3> vecs, List<Vector2> uvs, List<int> tris, List<Color> colors, Material mat, ERModularRoad road) { }
 
-	// RVA: 0x8BB2E0 Offset: 0x8B98E0 VA: 0x1808BB2E0
 	public void OQDDCODQCD() { }
 
-	// RVA: 0x8BD300 Offset: 0x8BB900 VA: 0x1808BD300
 	public void SpawnSplitObjects() { }
 
-	// RVA: 0x8BB030 Offset: 0x8B9630 VA: 0x1808BB030
 	public void OQDDCCQOOO(ref int curGo, Vector3 v) { }
 
-	// RVA: 0x8B9990 Offset: 0x8B7F90 VA: 0x1808B9990
 	public static void OOOOOCODQO(OQQCCQCDQQ exitRoad, int vecCount, List<Vector3> vecs, List<Vector2> uvsArray, List<int> tris) { }
 
-	// RVA: 0x8B5B20 Offset: 0x8B4120 VA: 0x1808B5B20
 	public static void ODQCODOCDO(OQQCCQCDQQ exitRoad, int vecCount, List<Vector3> vecs, List<Vector2> uvsArray, List<int> tris, int decalIndex) { }
 
-	// RVA: 0x8BA6B0 Offset: 0x8B8CB0 VA: 0x1808BA6B0
 	public static void OQCCDDDOQQ(int i, int j, Vector3 prevPos, List<Vector3> edgeVecs, List<Vector3> soSplinePointsRight, float angleThreshold, ref List<Vector3> tmpvecs) { }
 
-	// RVA: 0x8BA290 Offset: 0x8B8890 VA: 0x1808BA290
 	private static void OOOQCQDCDD(int curLeft, int endLeft, int curRight, int endRight, List<int> rightInts, List<Vector3> vecs, ref List<int> tris) { }
 
-	// RVA: 0x8B21C0 Offset: 0x8B07C0 VA: 0x1808B21C0
 	public static void ODCDCQCOCQ(List<Vector3> vecs, ref List<int> tris) { }
 
-	// RVA: 0x8B7C10 Offset: 0x8B6210 VA: 0x1808B7C10
 	public static void ODQDQDCOQD(ERModularBase baseScript, ERModularRoad road, OQQCCQCDQQ exitRoad, ref List<Vector3> soSplinePointsLeft, ref List<Vector3> soSplinePointsRight) { }
 
-	// RVA: 0x8B2490 Offset: 0x8B0A90 VA: 0x1808B2490
 	public static void ODDDDDDQQD(ERModularBase baseScript, ERModularRoad road, ERMarkerExt marker, ref List<Vector3> soSplinePointsLeft, ref List<Vector3> soSplinePointsRight) { }
 
-	// RVA: 0x8BB740 Offset: 0x8B9D40 VA: 0x1808BB740
 	public static void OQDOQDDCDD(ERModularBase baseScript, ERModularRoad road, OQQCCQCDQQ exitRoad, List<ERMarkerExt> markers, List<List<Vector3>> exitOuterVerticesExtrusion, List<List<Vector3>> exitOuterVerticesFixed, List<List<Vector3>> exitOuterVerticesCurve, List<Vector3> exitInnerVertices) { }
 
-	// RVA: 0x8AEBF0 Offset: 0x8AD1F0 VA: 0x1808AEBF0
 	public static void OCDQCQDDOQ(ERModularBase baseScript, ERModularRoad road, List<ERMarkerExt> markers) { }
 
-	// RVA: 0x8AC190 Offset: 0x8AA790 VA: 0x1808AC190
 	public static void OCDDDOQCCO(ERModularBase baseScript, List<ERMarkerExt> markers, ref List<Vector3> vecs, ref List<Vector2> uvsArray, ref List<Vector2> uvsArray2, ref List<Color> customColors, ref List<Color> colors, ref List<List<int>> tris, ref Material[] materialsList) { }
 
-	// RVA: 0x8AC000 Offset: 0x8AA600 VA: 0x1808AC000
 	public static void OCDDCCQCCD(ref int triIndex, ref List<List<int>> tris, ref Material[] materialsList, Material m) { }
 
-	// RVA: 0x8BD0D0 Offset: 0x8BB6D0 VA: 0x1808BD0D0
 	public static float OQQDDDDDOC(Vector3 v, List<Vector3> soSplinePointsLeft, List<Vector3> soSplinePointsRight, ref int cInt, bool flag, ref int match) { }
 
-	// RVA: 0x8B3BF0 Offset: 0x8B21F0 VA: 0x1808B3BF0
 	private static void ODDDOCDCQO(List<Vector3> vecs, List<Vector2> uvs, List<int> tris, List<Color> colors, Material mat, GameObject go, ERModularRoad road) { }
 
-	// RVA: 0x8AAE90 Offset: 0x8A9490 VA: 0x1808AAE90
 	private void OCCDCQQDOQ(List<Vector3> vecs, List<int> connectionInts, List<Vector3> surfaceVecs, Vector3 prefDirVec) { }
 
-	// RVA: 0x8B1D00 Offset: 0x8B0300 VA: 0x1808B1D00
 	public Vector3 ODCCQQDQQQ() { }
 
-	// RVA: 0x8B1050 Offset: 0x8AF650 VA: 0x1808B1050
 	public void OCQOQQCDOD(List<Vector3> surfaceVecs, List<Vector2> uvs, int firstSection, int secondSection) { }
 
-	// RVA: 0x8BF2B0 Offset: 0x8BD8B0 VA: 0x1808BF2B0
 	public void .ctor() { }
 
 }

@@ -1,6 +1,5 @@
 public class ERSideWalk // TypeDefIndex: 7197
-{	// Fields
-	public string name; // 0x10
+{	public string name; // 0x10
 	public double id; // 0x18
 	public double timestamp; // 0x20
 	public float sidewalkWidth; // 0x28
@@ -29,27 +28,19 @@ public class ERSideWalk // TypeDefIndex: 7197
 	public int cornerSegments; // 0xA4
 	public float innerSegmentDistance; // 0xA8
 
-	// Methods
 
-	// RVA: 0xA66370 Offset: 0xA64970 VA: 0x180A66370
 	public static ERSideWalk CreateInstance(int count) { }
 
-	// RVA: 0xA66B60 Offset: 0xA65160 VA: 0x180A66B60
 	public void UpdateTimestamp() { }
 
-	// RVA: 0xA66A20 Offset: 0xA65020 VA: 0x180A66A20
 	public static string[] SidewalkNames(List<ERSideWalk> sidewalks) { }
 
-	// RVA: 0xA66180 Offset: 0xA64780 VA: 0x180A66180
 	public static void CopySidewalk(ERSideWalk source, ERSideWalk target) { }
 
-	// RVA: 0xA667B0 Offset: 0xA64DB0 VA: 0x180A667B0
 	public static void RefreshSidewalks(List<ERSideWalk> sidewalks) { }
 
-	// RVA: 0xA665E0 Offset: 0xA64BE0 VA: 0x180A665E0
 	public void OOQQDCCDQO() { }
 
-	// RVA: 0xA66C00 Offset: 0xA65200 VA: 0x180A66C00
 	public void .ctor() { }
 
 }

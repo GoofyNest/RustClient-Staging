@@ -1,6 +1,5 @@
 public class ERDecal : ScriptableObject // TypeDefIndex: 7213
-{	// Fields
-	public int id; // 0x18
+{	public int id; // 0x18
 	public string name; // 0x20
 	public ERDecalType type; // 0x28
 	public double roadType1; // 0x30
@@ -33,45 +32,31 @@ public class ERDecal : ScriptableObject // TypeDefIndex: 7213
 	public float width1; // 0xDC
 	public float width2; // 0xE0
 
-	// Methods
 
-	// RVA: 0x9AA5D0 Offset: 0x9A8BD0 VA: 0x1809AA5D0
 	public void Init(GameObject prefab, float baseWidth) { }
 
-	// RVA: 0x9AA340 Offset: 0x9A8940 VA: 0x1809AA340
 	public static ERDecal CreateInstance(GameObject prefab, float baseWidth) { }
 
-	// RVA: 0x9AA0D0 Offset: 0x9A86D0 VA: 0x1809AA0D0
 	public static void CopyDecal(ERDecalClass source, ERDecal target) { }
 
-	// RVA: 0x9AAF40 Offset: 0x9A9540 VA: 0x1809AAF40
 	public static void OODDOCCOCC(ERDecal source, ERDecal target) { }
 
-	// RVA: 0x9AAB70 Offset: 0x9A9170 VA: 0x1809AAB70
 	public void OCQCQCOCOO() { }
 
-	// RVA: 0x9AA9F0 Offset: 0x9A8FF0 VA: 0x1809AA9F0
 	public static ERDecal OCQCDQDODQ(int id, List<ERDecal> decalPresets) { }
 
-	// RVA: 0x9AA420 Offset: 0x9A8A20 VA: 0x1809AA420
 	public static List<ERDecal> FilterByType(List<ERDecal> lst, ERDecalType type) { }
 
-	// RVA: 0x9AB120 Offset: 0x9A9720 VA: 0x1809AB120
 	public static string[] OQDOCOQOQD(ref List<ERDecal> decals, string firstItem, int id1, int id2, ref int _index1, ref int _index2, ERDecalType type, ERDecalPosition position) { }
 
-	// RVA: 0x9AAD70 Offset: 0x9A9370 VA: 0x1809AAD70
 	public static int ODCOCCOOOO(List<ERDecal> decals, int tindex, ERDecalType type) { }
 
-	// RVA: 0x9AA7E0 Offset: 0x9A8DE0 VA: 0x1809AA7E0
 	public static GameObject[] OCCODDOQDO(List<ERDecal> decals, ref List<int> priority, ref List<float> scale) { }
 
-	// RVA: 0x9AA680 Offset: 0x9A8C80 VA: 0x1809AA680
 	public void MatchDistances(ref List<float> distances, List<Vector2> uvBreakPoints, float length) { }
 
-	// RVA: 0x9AB4C0 Offset: 0x9A9AC0 VA: 0x1809AB4C0
 	public void SetBreakPointDistances(ref List<float> distances, List<Vector2> uvBreakPoints, float length) { }
 
-	// RVA: 0x9AB580 Offset: 0x9A9B80 VA: 0x1809AB580
 	public void .ctor() { }
 
 }

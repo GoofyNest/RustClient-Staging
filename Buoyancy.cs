@@ -1,6 +1,5 @@
 public class Buoyancy : ListComponent<Buoyancy>, IServerComponent // TypeDefIndex: 9701
-{	// Fields
-	public BuoyancyPoint[] points; // 0x18
+{	public BuoyancyPoint[] points; // 0x18
 	public GameObjectRef[] waterImpacts; // 0x20
 	public Rigidbody rigidBody; // 0x28
 	public float buoyancyScale; // 0x30
@@ -16,20 +15,15 @@ public class Buoyancy : ListComponent<Buoyancy>, IServerComponent // TypeDefInde
 	public BaseEntity forEntity; // 0x58
 	public float submergedFraction; // 0x60
 
-	// Properties
 	public float timeOutOfWater { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6F06F0 Offset: 0x6EECF0 VA: 0x1806F06F0
 	public float get_timeOutOfWater() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6F0700 Offset: 0x6EED00 VA: 0x1806F0700
 	private void set_timeOutOfWater(float value) { }
 
-	// RVA: 0x6F0680 Offset: 0x6EEC80 VA: 0x1806F0680
 	public void .ctor() { }
 
 }

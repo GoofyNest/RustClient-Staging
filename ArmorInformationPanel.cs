@@ -1,6 +1,5 @@
 public class ArmorInformationPanel : ItemInformationPanel // TypeDefIndex: 10981
-{	// Fields
-	public ItemTextValue projectileDisplay; // 0x18
+{	public ItemTextValue projectileDisplay; // 0x18
 	public ItemTextValue meleeDisplay; // 0x20
 	public ItemTextValue coldDisplay; // 0x28
 	public ItemTextValue explosionDisplay; // 0x30
@@ -15,18 +14,13 @@ public class ArmorInformationPanel : ItemInformationPanel // TypeDefIndex: 10981
 	public Translate.Phrase WholeBodyText; // 0x78
 	public ItemTextValue eggVision; // 0x80
 
-	// Methods
 
-	// RVA: 0x82E790 Offset: 0x82CD90 VA: 0x18082E790 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0x82E870 Offset: 0x82CE70 VA: 0x18082E870
 	public string ProtectionAreaText(ItemModWearable wearable) { }
 
-	// RVA: 0x82E980 Offset: 0x82CF80 VA: 0x18082E980 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
-	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

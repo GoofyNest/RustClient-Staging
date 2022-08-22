@@ -1,13 +1,9 @@
 public static class Import // TypeDefIndex: 7791
 {
-// Namespace: Facepunch.GoogleSheets
 public static class Import // TypeDefIndex: 7791
-	// Fields
 	private static Regex regex; // 0x20D0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public static T[] FromUrl<T>(string sheetId) { }
 	/* GenericInstMethod :
 	|
@@ -15,24 +11,18 @@ public static class Import // TypeDefIndex: 7791
 	|-Import.FromUrl<object>
 	*/
 
-	// RVA: 0x2320900 Offset: 0x231EF00 VA: 0x182320900
 	private static string[] GetCSVColumns(string line) { }
 
-	// RVA: 0x2320AE0 Offset: 0x231F0E0 VA: 0x182320AE0
 	private static void MonoSecurityBullshitHack() { }
 
-	// RVA: 0x2320BE0 Offset: 0x231F1E0 VA: 0x182320BE0
 	private static void .cctor() { }
 
 }
 
 private sealed class Import.<>c__DisplayClass0_0<T> // TypeDefIndex: 7792
-{	// Fields
-	public string[] columnNames; // 0x0
+{	public string[] columnNames; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -43,14 +33,11 @@ private sealed class Import.<>c__DisplayClass0_0<T> // TypeDefIndex: 7792
 }
 
 private sealed class Import.<>c__DisplayClass0_1<T> // TypeDefIndex: 7793
-{	// Fields
-	public int i; // 0x0
+{	public int i; // 0x0
 	public Import.<>c__DisplayClass0_0<T> CS$<>8__locals1; // 0x0
 	public Func<PropertyInfo, bool> <>9__0; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -58,7 +45,6 @@ private sealed class Import.<>c__DisplayClass0_1<T> // TypeDefIndex: 7793
 	|-Import.<>c__DisplayClass0_1<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal bool <FromUrl>b__0(PropertyInfo x) { }
 	/* GenericInstMethod :
 	|
@@ -69,23 +55,17 @@ private sealed class Import.<>c__DisplayClass0_1<T> // TypeDefIndex: 7793
 }
 
 private sealed class Import.<>c // TypeDefIndex: 7794
-{	// Fields
-	public static readonly Import.<>c <>9; // 0x0
+{	public static readonly Import.<>c <>9; // 0x0
 	public static Func<Match, string> <>9__2_0; // 0x8
 	public static RemoteCertificateValidationCallback <>9__3_0; // 0x10
 
-	// Methods
 
-	// RVA: 0x2320CF0 Offset: 0x231F2F0 VA: 0x182320CF0
 	private static void .cctor() { }
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2320C40 Offset: 0x231F240 VA: 0x182320C40
 	internal string <GetCSVColumns>b__2_0(Match x) { }
 
-	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0
 	internal bool <MonoSecurityBullshitHack>b__3_0(object a, X509Certificate b, X509Chain c, SslPolicyErrors d) { }
 
 }

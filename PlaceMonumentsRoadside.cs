@@ -1,6 +1,5 @@
 public class PlaceMonumentsRoadside : ProceduralComponent // TypeDefIndex: 10551
-{	// Fields
-	public SpawnFilter Filter; // 0x28
+{	public SpawnFilter Filter; // 0x28
 	public string ResourceFolder; // 0x30
 	public int TargetCount; // 0x38
 	[FormerlySerializedAsAttribute] // RVA: 0xDA270 Offset: 0xD9670 VA: 0x1800DA270
@@ -17,25 +16,19 @@ public class PlaceMonumentsRoadside : ProceduralComponent // TypeDefIndex: 10551
 	private const int IndividualCandidates = 8;
 	private static Quaternion rot90; // 0x0
 
-	// Methods
 
-	// RVA: 0x915610 Offset: 0x913C10 VA: 0x180915610 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x914BA0 Offset: 0x9131A0 VA: 0x180914BA0
 	private PlaceMonumentsRoadside.DistanceInfo GetDistanceInfo(List<PlaceMonumentsRoadside.SpawnInfo> spawns, Prefab<MonumentInfo> prefab, Vector3 monumentPos, Quaternion monumentRot, Vector3 monumentScale) { }
 
-	// RVA: 0x9170B0 Offset: 0x9156B0 VA: 0x1809170B0
 	public void .ctor() { }
 
-	// RVA: 0x917030 Offset: 0x915630 VA: 0x180917030
 	private static void .cctor() { }
 
 }
 
 private struct PlaceMonumentsRoadside.SpawnInfo // TypeDefIndex: 10552
-{	// Fields
-	public Prefab<MonumentInfo> prefab; // 0x0
+{	public Prefab<MonumentInfo> prefab; // 0x0
 	public Vector3 position; // 0x8
 	public Quaternion rotation; // 0x14
 	public Vector3 scale; // 0x24
@@ -43,21 +36,17 @@ private struct PlaceMonumentsRoadside.SpawnInfo // TypeDefIndex: 10552
 }
 
 private class PlaceMonumentsRoadside.SpawnInfoGroup // TypeDefIndex: 10553
-{	// Fields
-	public bool processed; // 0x10
+{	public bool processed; // 0x10
 	public Prefab<MonumentInfo> prefab; // 0x18
 	public List<PlaceMonumentsRoadside.SpawnInfo> candidates; // 0x20
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
 }
 
 private struct PlaceMonumentsRoadside.DistanceInfo // TypeDefIndex: 10554
-{	// Fields
-	public float minDistanceSameType; // 0x0
+{	public float minDistanceSameType; // 0x0
 	public float maxDistanceSameType; // 0x4
 	public float minDistanceDifferentType; // 0x8
 	public float maxDistanceDifferentType; // 0xC
@@ -65,8 +54,7 @@ private struct PlaceMonumentsRoadside.DistanceInfo // TypeDefIndex: 10554
 }
 
 public enum PlaceMonumentsRoadside.DistanceMode // TypeDefIndex: 10555
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const PlaceMonumentsRoadside.DistanceMode Any = 0;
 	public const PlaceMonumentsRoadside.DistanceMode Min = 1;
 	public const PlaceMonumentsRoadside.DistanceMode Max = 2;
@@ -74,8 +62,7 @@ public enum PlaceMonumentsRoadside.DistanceMode // TypeDefIndex: 10555
 }
 
 public enum PlaceMonumentsRoadside.RoadMode // TypeDefIndex: 10556
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const PlaceMonumentsRoadside.RoadMode SideRoadOrRingRoad = 0;
 	public const PlaceMonumentsRoadside.RoadMode SideRoad = 1;
 	public const PlaceMonumentsRoadside.RoadMode RingRoad = 2;
@@ -85,19 +72,14 @@ public enum PlaceMonumentsRoadside.RoadMode // TypeDefIndex: 10556
 }
 
 private sealed class PlaceMonumentsRoadside.<>c // TypeDefIndex: 10557
-{	// Fields
-	public static readonly PlaceMonumentsRoadside.<>c <>9; // 0x0
+{	public static readonly PlaceMonumentsRoadside.<>c <>9; // 0x0
 	public static Func<string, string> <>9__17_0; // 0x8
 
-	// Methods
 
-	// RVA: 0x921170 Offset: 0x91F770 VA: 0x180921170
 	private static void .cctor() { }
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x920EA0 Offset: 0x91F4A0 VA: 0x180920EA0
 	internal string <Process>b__17_0(string folder) { }
 
 }

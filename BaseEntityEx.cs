@@ -1,8 +1,6 @@
 public static class BaseEntityEx // TypeDefIndex: 9459
-{	// Methods
-
+{
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public static bool IsValidEntityReference<T>(T obj) { }
 	/* GenericInstMethod :
 	|
@@ -11,7 +9,6 @@ public static class BaseEntityEx // TypeDefIndex: 9459
 	*/
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7A5BD0 Offset: 0x7A41D0 VA: 0x1807A5BD0
 	public static bool HasEntityInParents(BaseEntity ent, BaseEntity toFind) { }
 
 }

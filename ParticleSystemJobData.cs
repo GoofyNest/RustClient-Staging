@@ -1,6 +1,5 @@
 public struct ParticleSystemJobData // TypeDefIndex: 4550
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+{	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private readonly int <count>k__BackingField; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
@@ -37,39 +36,30 @@ public struct ParticleSystemJobData // TypeDefIndex: 4550
 	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private readonly ParticleSystemNativeArray4 <customData2>k__BackingField; // 0x178
 
-	// Properties
 	public int count { get; }
 	public ParticleSystemNativeArray3 positions { get; }
 	public ParticleSystemNativeArray3 velocities { get; }
 	public NativeArray<float> aliveTimePercent { get; }
 	public NativeArray<float> inverseStartLifetimes { get; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF3720 Offset: 0xF2B20 VA: 0x1800F3720
 	public int get_count() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x23BFA0 Offset: 0x23B3A0 VA: 0x18023BFA0
 	public ParticleSystemNativeArray3 get_positions() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x23BFC0 Offset: 0x23B3C0 VA: 0x18023BFC0
 	public ParticleSystemNativeArray3 get_velocities() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x23BF80 Offset: 0x23B380 VA: 0x18023BF80
 	public NativeArray<float> get_aliveTimePercent() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x23BF90 Offset: 0x23B390 VA: 0x18023BF90
 	public NativeArray<float> get_inverseStartLifetimes() { }
 
-	// RVA: 0x23BF70 Offset: 0x23B370 VA: 0x18023BF70
 	internal void .ctor(ref NativeParticleData nativeData) { }
 
-	// RVA: -1 Offset: -1
 	internal NativeArray<T> CreateNativeArray<T>(void* src, int count) { }
 	/* GenericInstMethod :
 	|
@@ -79,10 +69,8 @@ public struct ParticleSystemJobData // TypeDefIndex: 4550
 	|-ParticleSystemJobData.CreateNativeArray<Color32>
 	*/
 
-	// RVA: 0x23BF10 Offset: 0x23B310 VA: 0x18023BF10
 	internal ParticleSystemNativeArray3 CreateNativeArray3(ref NativeParticleData.Array3 ptrs, int count) { }
 
-	// RVA: 0x23BF40 Offset: 0x23B340 VA: 0x18023BF40
 	internal ParticleSystemNativeArray4 CreateNativeArray4(ref NativeParticleData.Array4 ptrs, int count) { }
 
 }

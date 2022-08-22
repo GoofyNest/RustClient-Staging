@@ -1,6 +1,5 @@
 public class ERCrossings : MonoBehaviour // TypeDefIndex: 7169
-{	// Fields
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public ERConnectionData cdata; // 0x18
 	public List<List<Vector3>> startConnectionV3; // 0x20
 	public List<List<Vector3>> endConnectionV3; // 0x28
@@ -181,102 +180,70 @@ public class ERCrossings : MonoBehaviour // TypeDefIndex: 7169
 	public int serializeTest; // 0x4C4
 	public int updateQueue; // 0x4C8
 
-	// Methods
 
-	// RVA: 0xB95930 Offset: 0xB93F30 VA: 0x180B95930
 	public void Refresh() { }
 
-	// RVA: 0xB94A90 Offset: 0xB93090 VA: 0x180B94A90
 	public void ODOCCDCQOC() { }
 
-	// RVA: 0xB95940 Offset: 0xB93F40 VA: 0x180B95940
 	public Vector3 OOQCQDQCOO(int index, Vector3 p0, Vector3 p1, Vector3 p2, bool update) { }
 
-	// RVA: 0xB98580 Offset: 0xB96B80 VA: 0x180B98580
 	public void UpdateAllConnectionAngles() { }
 
-	// RVA: 0xB95930 Offset: 0xB93F30 VA: 0x180B95930
 	public void OOOCDCQQCO() { }
 
-	// RVA: 0xB98B80 Offset: 0xB97180 VA: 0x180B98B80
 	public bool UpdateToRoadType(QDQDOOQQDQODD sourcePreset, ref List<ERModularRoad> updatedRoads) { }
 
-	// RVA: 0xB98270 Offset: 0xB96870 VA: 0x180B98270
 	public bool RoadIsUpdated(ERModularRoad rd, ref List<ERModularRoad> updatedRoads) { }
 
-	// RVA: 0xB98410 Offset: 0xB96A10 VA: 0x180B98410
 	public int SetRoadTypeInt(double id) { }
 
-	// RVA: 0xB8C010 Offset: 0xB8A610 VA: 0x180B8C010
 	public void OCQCQODOQC(ERCrossings source, bool refreshFlag) { }
 
-	// RVA: 0xB96320 Offset: 0xB94920 VA: 0x180B96320
 	public void OQCQCOOCDD() { }
 
-	// RVA: 0xB8DC00 Offset: 0xB8C200 VA: 0x180B8DC00
 	public void OCQDQODOQD(bool sidewalkSceneHandleFlag, bool rebuildRoads) { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void OQCQDQDCOD() { }
 
-	// RVA: 0xB91720 Offset: 0xB8FD20 VA: 0x180B91720
 	public void ODDDOCDCQO(bool rebuildRoads) { }
 
-	// RVA: 0xB96A10 Offset: 0xB95010 VA: 0x180B96A10
 	public void OQCQQCQDCQ(int el, List<List<int>> trIntArray, List<float> uvArray, List<List<int>> leftSidewalkIntArray, List<List<int>> rightSidewalkIntArray, int startend) { }
 
-	// RVA: 0xB94E20 Offset: 0xB93420 VA: 0x180B94E20
 	public void ODQCODQDDQ(int el, Material roadMaterial, int leftCorner, int rightCorner, int leftVecCount, int rightVecCount) { }
 
-	// RVA: 0xB8B860 Offset: 0xB89E60 VA: 0x180B8B860
 	public void OCDDOCDDOQ(List<Vector3> meshVecs, List<int> connectionVecInts, ref List<Vector2> roadShapeVecs, List<List<Vector3>> vecArrays, List<List<Vector3>> leftSidewalkArray, List<List<Vector3>> rightSidewalkArray, int connectionElement, int startend) { }
 
-	// RVA: 0xB94C10 Offset: 0xB93210 VA: 0x180B94C10
 	public static void ODOODQDCCQ(List<Vector3> sourceVecs, ref List<Vector2> roadShapeVecs, Vector3 centerPoint, Vector3 startPoint, float halfWayDistance) { }
 
-	// RVA: 0xB8AB50 Offset: 0xB89150 VA: 0x180B8AB50
 	public static string GetRoadShapeVecString(List<Vector2> vecs, List<Vector2> lvecs, List<Vector2> rvecs, ref int matchCount) { }
 
-	// RVA: 0xB8EFF0 Offset: 0xB8D5F0 VA: 0x180B8EFF0
 	public void ODCCCQCQOO() { }
 
-	// RVA: 0xB90880 Offset: 0xB8EE80 VA: 0x180B90880
 	public void ODCDCDDOCC(List<SidewalkPresetClass> sidewalkPresets, int el) { }
 
-	// RVA: 0xB8AF80 Offset: 0xB89580 VA: 0x180B8AF80
 	public void OCCODQDOCO() { }
 
-	// RVA: 0xB97690 Offset: 0xB95C90 VA: 0x180B97690
 	public void OQDOQDQQQQ(int el) { }
 
-	// RVA: 0xB954E0 Offset: 0xB93AE0 VA: 0x180B954E0
 	public void OODOQQQQCO() { }
 
-	// RVA: 0xB960C0 Offset: 0xB946C0 VA: 0x180B960C0
 	public void OQCOOQQOOD() { }
 
-	// RVA: 0xB971A0 Offset: 0xB957A0 VA: 0x180B971A0
 	public bool OQDOOCDOCD(ERModularRoad road, float angle) { }
 
-	// RVA: 0xB99AC0 Offset: 0xB980C0 VA: 0x180B99AC0
 	public void .ctor() { }
 
 }
 
 private sealed class ERCrossings.ᙃ // TypeDefIndex: 7170
-{	// Fields
-	public static readonly ERCrossings.ᙃ <>9; // 0x0
+{	public static readonly ERCrossings.ᙃ <>9; // 0x0
 	public static Comparison<ERConnectionSibling> <>9__203_0; // 0x8
 
-	// Methods
 
-	// RVA: 0x9CFC10 Offset: 0x9CE210 VA: 0x1809CFC10
 	private static void .cctor() { }
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x9CFBE0 Offset: 0x9CE1E0 VA: 0x1809CFBE0
 	internal int <OQDOOCDOCD>b__203_0(ERConnectionSibling x, ERConnectionSibling y) { }
 
 }

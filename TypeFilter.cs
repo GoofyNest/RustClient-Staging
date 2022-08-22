@@ -1,16 +1,11 @@
 public sealed class TypeFilter : MulticastDelegate // TypeDefIndex: 553
-{	// Methods
-
-	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
+{
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xFF6FE0 Offset: 0xFF55E0 VA: 0x180FF6FE0 Slot: 12
 	public virtual bool Invoke(Type m, object filterCriteria) { }
 
-	// RVA: 0xAE4D10 Offset: 0xAE3310 VA: 0x180AE4D10 Slot: 13
 	public virtual IAsyncResult BeginInvoke(Type m, object filterCriteria, AsyncCallback callback, object object) { }
 
-	// RVA: 0xFF6FB0 Offset: 0xFF55B0 VA: 0x180FF6FB0 Slot: 14
 	public virtual bool EndInvoke(IAsyncResult result) { }
 
 }

@@ -1,6 +1,5 @@
 public sealed class LensDistortion : PostProcessEffectSettings // TypeDefIndex: 11790
-{	// Fields
-	[RangeAttribute] // RVA: 0x71810 Offset: 0x70C10 VA: 0x180071810
+{	[RangeAttribute] // RVA: 0x71810 Offset: 0x70C10 VA: 0x180071810
 	[TooltipAttribute] // RVA: 0x71810 Offset: 0x70C10 VA: 0x180071810
 	public FloatParameter intensity; // 0x30
 	[RangeAttribute] // RVA: 0x719B0 Offset: 0x70DB0 VA: 0x1800719B0
@@ -23,12 +22,9 @@ public sealed class LensDistortion : PostProcessEffectSettings // TypeDefIndex: 
 	[TooltipAttribute] // RVA: 0x72300 Offset: 0x71700 VA: 0x180072300
 	public FloatParameter scale; // 0x58
 
-	// Methods
 
-	// RVA: 0x1018D00 Offset: 0x1017300 VA: 0x181018D00 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x1018E00 Offset: 0x1017400 VA: 0x181018E00
 	public void .ctor() { }
 
 }

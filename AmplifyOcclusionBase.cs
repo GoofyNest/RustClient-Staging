@@ -1,6 +1,5 @@
 public class AmplifyOcclusionBase : MonoBehaviour // TypeDefIndex: 11468
-{	// Fields
-	[HeaderAttribute] // RVA: 0xB2210 Offset: 0xB1610 VA: 0x1800B2210
+{	[HeaderAttribute] // RVA: 0xB2210 Offset: 0xB1610 VA: 0x1800B2210
 	public AmplifyOcclusionBase.ApplicationMethod ApplyMethod; // 0x18
 	[TooltipAttribute] // RVA: 0xB2330 Offset: 0xB1730 VA: 0x1800B2330
 	public AmplifyOcclusionBase.SampleCountLevel SampleCount; // 0x1C
@@ -116,118 +115,81 @@ public class AmplifyOcclusionBase : MonoBehaviour // TypeDefIndex: 11468
 	private readonly RenderTargetIdentifier[] m_applyDeferredTargets_Log; // 0x240
 	private AmplifyOcclusionBase.TargetDesc m_target; // 0x248
 
-	// Methods
 
-	// RVA: 0x827E00 Offset: 0x826400 VA: 0x180827E00
 	private void createCommandBuffer(ref AmplifyOcclusionBase.CmdBuffer aCmdBuffer, string aCmdBufferName, CameraEvent aCameraEvent) { }
 
-	// RVA: 0x825DB0 Offset: 0x8243B0 VA: 0x180825DB0
 	private void cleanupCommandBuffer(ref AmplifyOcclusionBase.CmdBuffer aCmdBuffer) { }
 
-	// RVA: 0x828050 Offset: 0x826650 VA: 0x180828050
 	private void createQuadMesh() { }
 
-	// RVA: 0x8243D0 Offset: 0x8229D0 VA: 0x1808243D0
 	private void PerformBlit(CommandBuffer cb, Material mat, int pass) { }
 
-	// RVA: 0x827EE0 Offset: 0x8264E0 VA: 0x180827EE0
 	private Material createMaterialWithShaderName(string aShaderName, bool aThroughErrorMsg) { }
 
-	// RVA: 0x825760 Offset: 0x823D60 VA: 0x180825760
 	private void checkMaterials(bool aThroughErrorMsg) { }
 
-	// RVA: 0x825D30 Offset: 0x824330 VA: 0x180825D30
 	private bool checkRenderTextureFormats() { }
 
-	// RVA: 0x823DE0 Offset: 0x8223E0 VA: 0x180823DE0
 	private void OnEnable() { }
 
-	// RVA: 0x823D90 Offset: 0x822390 VA: 0x180823D90
 	private void Reset() { }
 
-	// RVA: 0x823D90 Offset: 0x822390 VA: 0x180823D90
 	private void OnDisable() { }
 
-	// RVA: 0x828580 Offset: 0x826B80 VA: 0x180828580
 	private void releaseRT() { }
 
-	// RVA: 0x8259D0 Offset: 0x823FD0 VA: 0x1808259D0
 	private bool checkParamsChanged() { }
 
-	// RVA: 0x8288F0 Offset: 0x826EF0 VA: 0x1808288F0
 	private void updateParams() { }
 
-	// RVA: 0x824FC0 Offset: 0x8235C0 VA: 0x180824FC0
 	private void Update() { }
 
-	// RVA: 0x823F80 Offset: 0x822580 VA: 0x180823F80
 	private void OnPreRender() { }
 
-	// RVA: 0x823EF0 Offset: 0x8224F0 VA: 0x180823EF0
 	private void OnPostRender() { }
 
-	// RVA: 0x828780 Offset: 0x826D80 VA: 0x180828780
 	private int safeAllocateTemporaryRT(CommandBuffer cb, string propertyName, int width, int height, RenderTextureFormat format = 7, RenderTextureReadWrite readWrite = 0, FilterMode filterMode = 0) { }
 
-	// RVA: 0x8288C0 Offset: 0x826EC0 VA: 0x1808288C0
 	private void safeReleaseTemporaryRT(CommandBuffer cb, int id) { }
 
-	// RVA: 0x828650 Offset: 0x826C50 VA: 0x180828650
 	private RenderTexture safeAllocateRT(string name, int width, int height, RenderTextureFormat format, RenderTextureReadWrite readWrite, FilterMode filterMode = 0) { }
 
-	// RVA: 0x828800 Offset: 0x826E00 VA: 0x180828800
 	private void safeReleaseRT(ref RenderTexture rt) { }
 
-	// RVA: 0x823D30 Offset: 0x822330 VA: 0x180823D30
 	private void BeginSample(CommandBuffer cb, string name) { }
 
-	// RVA: 0x823D60 Offset: 0x822360 VA: 0x180823D60
 	private void EndSample(CommandBuffer cb, string name) { }
 
-	// RVA: 0x8272B0 Offset: 0x8258B0 VA: 0x1808272B0
 	private void commandBuffer_FillComputeOcclusion(CommandBuffer cb) { }
 
-	// RVA: 0x825ED0 Offset: 0x8244D0 VA: 0x180825ED0
 	private void commandBuffer_Blur(CommandBuffer cb, RenderTargetIdentifier aSourceRT, int aSourceWidth, int aSourceHeight) { }
 
-	// RVA: 0x828560 Offset: 0x826B60 VA: 0x180828560
 	private int getTemporalPass() { }
 
-	// RVA: 0x8279C0 Offset: 0x825FC0 VA: 0x1808279C0
 	private void commandBuffer_TemporalFilter(CommandBuffer cb) { }
 
-	// RVA: 0x826540 Offset: 0x824B40 VA: 0x180826540
 	private void commandBuffer_FillApplyDeferred(CommandBuffer cb, bool logTarget) { }
 
-	// RVA: 0x826F40 Offset: 0x825540 VA: 0x180826F40
 	private void commandBuffer_FillApplyPostEffect(CommandBuffer cb) { }
 
-	// RVA: 0x8261D0 Offset: 0x8247D0 VA: 0x1808261D0
 	private void commandBuffer_FillApplyDebug(CommandBuffer cb) { }
 
-	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	private bool isStereoSinglePassEnabled() { }
 
-	// RVA: 0x824A70 Offset: 0x823070 VA: 0x180824A70
 	private void UpdateGlobalShaderConstants() { }
 
-	// RVA: 0x8244E0 Offset: 0x822AE0 VA: 0x1808244E0
 	private void UpdateGlobalShaderConstants_AmbientOcclusion() { }
 
-	// RVA: 0x8246C0 Offset: 0x822CC0 VA: 0x1808246C0
 	private void UpdateGlobalShaderConstants_Matrices() { }
 
-	// RVA: 0x825340 Offset: 0x823940 VA: 0x180825340
 	public void .ctor() { }
 
-	// RVA: 0x8251F0 Offset: 0x8237F0 VA: 0x1808251F0
 	private static void .cctor() { }
 
 }
 
 public enum AmplifyOcclusionBase.ApplicationMethod // TypeDefIndex: 11469
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const AmplifyOcclusionBase.ApplicationMethod PostEffect = 0;
 	public const AmplifyOcclusionBase.ApplicationMethod Deferred = 1;
 	public const AmplifyOcclusionBase.ApplicationMethod Debug = 2;
@@ -235,8 +197,7 @@ public enum AmplifyOcclusionBase.ApplicationMethod // TypeDefIndex: 11469
 }
 
 public enum AmplifyOcclusionBase.PerPixelNormalSource // TypeDefIndex: 11470
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const AmplifyOcclusionBase.PerPixelNormalSource None = 0;
 	public const AmplifyOcclusionBase.PerPixelNormalSource Camera = 1;
 	public const AmplifyOcclusionBase.PerPixelNormalSource GBuffer = 2;
@@ -245,8 +206,7 @@ public enum AmplifyOcclusionBase.PerPixelNormalSource // TypeDefIndex: 11470
 }
 
 public enum AmplifyOcclusionBase.SampleCountLevel // TypeDefIndex: 11471
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const AmplifyOcclusionBase.SampleCountLevel Low = 0;
 	public const AmplifyOcclusionBase.SampleCountLevel Medium = 1;
 	public const AmplifyOcclusionBase.SampleCountLevel High = 2;
@@ -255,16 +215,14 @@ public enum AmplifyOcclusionBase.SampleCountLevel // TypeDefIndex: 11471
 }
 
 private struct AmplifyOcclusionBase.CmdBuffer // TypeDefIndex: 11472
-{	// Fields
-	public CommandBuffer cmdBuffer; // 0x0
+{	public CommandBuffer cmdBuffer; // 0x0
 	public CameraEvent cmdBufferEvent; // 0x8
 	public string cmdBufferName; // 0x10
 
 }
 
 private struct AmplifyOcclusionBase.TargetDesc // TypeDefIndex: 11473
-{	// Fields
-	public int fullWidth; // 0x0
+{	public int fullWidth; // 0x0
 	public int fullHeight; // 0x4
 	public RenderTextureFormat format; // 0x8
 	public int width; // 0xC
@@ -275,8 +233,7 @@ private struct AmplifyOcclusionBase.TargetDesc // TypeDefIndex: 11473
 }
 
 private static class AmplifyOcclusionBase.ShaderPass // TypeDefIndex: 11474
-{	// Fields
-	public const int CombineDownsampledOcclusionDepth = 16;
+{	public const int CombineDownsampledOcclusionDepth = 16;
 	public const int CombineEmission = 17;
 	public const int CombineEmissionLog = 18;
 	public const int BlurHorizontal1 = 0;
@@ -304,8 +261,7 @@ private static class AmplifyOcclusionBase.ShaderPass // TypeDefIndex: 11474
 }
 
 private static class AmplifyOcclusionBase.PropertyID // TypeDefIndex: 11475
-{	// Fields
-	public static readonly int _AO_Radius; // 0x0
+{	public static readonly int _AO_Radius; // 0x0
 	public static readonly int _AO_PixelRadiusLimit; // 0x4
 	public static readonly int _AO_RadiusIntensity; // 0x8
 	public static readonly int _AO_PowExponent; // 0xC
@@ -342,9 +298,7 @@ private static class AmplifyOcclusionBase.PropertyID // TypeDefIndex: 11475
 	public static readonly int _AO_Source_TexelSize; // 0x88
 	public static readonly int _AO_Source; // 0x8C
 
-	// Methods
 
-	// RVA: 0x83CED0 Offset: 0x83B4D0 VA: 0x18083CED0
 	private static void .cctor() { }
 
 }

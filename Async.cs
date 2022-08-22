@@ -1,30 +1,21 @@
 public sealed class AsyncCallback : MulticastDelegate // TypeDefIndex: 173
-{	// Methods
-
-	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
+{
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x49A3B0 Offset: 0x4989B0 VA: 0x18049A3B0 Slot: 12
 	public virtual void Invoke(IAsyncResult ar) { }
 
-	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13
 	public virtual IAsyncResult BeginInvoke(IAsyncResult ar, AsyncCallback callback, object object) { }
 
-	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
 	public virtual void EndInvoke(IAsyncResult result) { }
 
 }
 
 public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
-{	// Fields
-	private readonly Action<AsyncLocalValueChangedArgs<T>> m_valueChangedHandler; // 0x0
+{	private readonly Action<AsyncLocalValueChangedArgs<T>> m_valueChangedHandler; // 0x0
 
-	// Properties
 	public T Value { get; set; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(Action<AsyncLocalValueChangedArgs<T>> valueChangedHandler) { }
 	/* GenericInstMethod :
 	|
@@ -34,7 +25,6 @@ public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
 	|-AsyncLocal<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public T get_Value() { }
 	/* GenericInstMethod :
 	|
@@ -43,7 +33,6 @@ public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
 	|-AsyncLocal<object>.get_Value
 	*/
 
-	// RVA: -1 Offset: -1
 	public void set_Value(T value) { }
 	/* GenericInstMethod :
 	|
@@ -53,7 +42,6 @@ public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
 	|-AsyncLocal<object>.set_Value
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	private void System.Threading.IAsyncLocal.OnValueChanged(object previousValueObj, object currentValueObj, bool contextChanged) { }
 	/* GenericInstMethod :
 	|
@@ -64,23 +52,19 @@ public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
 }
 
 public struct AsyncLocalValueChangedArgs<T> // TypeDefIndex: 776
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private T <PreviousValue>k__BackingField; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private T <CurrentValue>k__BackingField; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <ThreadContextChanged>k__BackingField; // 0x0
 
-	// Properties
 	public T PreviousValue { get; set; }
 	public T CurrentValue { get; set; }
 	private bool ThreadContextChanged { set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public T get_PreviousValue() { }
 	/* GenericInstMethod :
 	|
@@ -90,7 +74,6 @@ public struct AsyncLocalValueChangedArgs<T> // TypeDefIndex: 776
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_PreviousValue(T value) { }
 	/* GenericInstMethod :
 	|
@@ -99,7 +82,6 @@ public struct AsyncLocalValueChangedArgs<T> // TypeDefIndex: 776
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public T get_CurrentValue() { }
 	/* GenericInstMethod :
 	|
@@ -110,7 +92,6 @@ public struct AsyncLocalValueChangedArgs<T> // TypeDefIndex: 776
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_CurrentValue(T value) { }
 	/* GenericInstMethod :
 	|
@@ -119,7 +100,6 @@ public struct AsyncLocalValueChangedArgs<T> // TypeDefIndex: 776
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	private void set_ThreadContextChanged(bool value) { }
 	/* GenericInstMethod :
 	|
@@ -127,7 +107,6 @@ public struct AsyncLocalValueChangedArgs<T> // TypeDefIndex: 776
 	|-AsyncLocalValueChangedArgs<object>.set_ThreadContextChanged
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(T previousValue, T currentValue, bool contextChanged) { }
 	/* GenericInstMethod :
 	|
@@ -138,8 +117,7 @@ public struct AsyncLocalValueChangedArgs<T> // TypeDefIndex: 776
 }
 
 internal enum AsyncCausalityStatus // TypeDefIndex: 838
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const AsyncCausalityStatus Started = 0;
 	public const AsyncCausalityStatus Completed = 1;
 	public const AsyncCausalityStatus Canceled = 2;
@@ -148,50 +126,38 @@ internal enum AsyncCausalityStatus // TypeDefIndex: 838
 }
 
 internal static class AsyncCausalityTracer // TypeDefIndex: 841
-{	// Properties
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	internal static bool LoggingOn { get; }
 
-	// Methods
 
 	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	internal static bool get_LoggingOn() { }
 
 	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal static void TraceOperationCreation(CausalityTraceLevel traceLevel, int taskId, string operationName, ulong relatedContext) { }
 
 	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal static void TraceOperationCompletion(CausalityTraceLevel traceLevel, int taskId, AsyncCausalityStatus status) { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal static void TraceOperationRelation(CausalityTraceLevel traceLevel, int taskId, CausalityRelation relation) { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal static void TraceSynchronousWorkStart(CausalityTraceLevel traceLevel, int taskId, CausalitySynchronousWork work) { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal static void TraceSynchronousWorkCompletion(CausalityTraceLevel traceLevel, CausalitySynchronousWork work) { }
 
 }
 
 internal class AsyncRequest // TypeDefIndex: 1193
-{	// Fields
-	internal IMessageSink ReplySink; // 0x10
+{	internal IMessageSink ReplySink; // 0x10
 	internal IMessage MsgRequest; // 0x18
 
-	// Methods
 
-	// RVA: 0xFDD0C0 Offset: 0xFDB6C0 VA: 0x180FDD0C0
 	public void .ctor(IMessage msgRequest, IMessageSink replySink) { }
 
 }
 
 public class AsyncResult : IAsyncResult, IMessageSink, IThreadPoolWorkItem // TypeDefIndex: 1223
-{	// Fields
-	private object async_state; // 0x10
+{	private object async_state; // 0x10
 	private WaitHandle handle; // 0x18
 	private object async_delegate; // 0x20
 	private IntPtr data; // 0x28
@@ -209,7 +175,6 @@ public class AsyncResult : IAsyncResult, IMessageSink, IThreadPoolWorkItem // Ty
 	private WaitCallback orig_cb; // 0x78
 	internal static ContextCallback ccb; // 0x0
 
-	// Properties
 	public virtual object AsyncState { get; }
 	public virtual WaitHandle AsyncWaitHandle { get; }
 	public virtual bool CompletedSynchronously { get; }
@@ -219,99 +184,69 @@ public class AsyncResult : IAsyncResult, IMessageSink, IThreadPoolWorkItem // Ty
 	public IMessageSink NextSink { get; }
 	internal MonoMethodMessage CallMessage { get; set; }
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x146DFB0 Offset: 0x146C5B0 VA: 0x18146DFB0
 	internal void .ctor(WaitCallback cb, object state, bool capture_context) { }
 
-	// RVA: 0x146DEB0 Offset: 0x146C4B0 VA: 0x18146DEB0
 	private static void WaitCallback_Context(object state) { }
 
-	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 12
 	public virtual object get_AsyncState() { }
 
-	// RVA: 0x146E0B0 Offset: 0x146C6B0 VA: 0x18146E0B0 Slot: 13
 	public virtual WaitHandle get_AsyncWaitHandle() { }
 
-	// RVA: 0x8C1660 Offset: 0x8BFC60 VA: 0x1808C1660 Slot: 14
 	public virtual bool get_CompletedSynchronously() { }
 
-	// RVA: 0x8C1670 Offset: 0x8BFC70 VA: 0x1808C1670 Slot: 15
 	public virtual bool get_IsCompleted() { }
 
-	// RVA: 0x1161060 Offset: 0x115F660 VA: 0x181161060
 	public bool get_EndInvokeCalled() { }
 
-	// RVA: 0x1161470 Offset: 0x115FA70 VA: 0x181161470
 	public void set_EndInvokeCalled(bool value) { }
 
-	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 16
 	public virtual object get_AsyncDelegate() { }
 
-	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 17
 	public IMessageSink get_NextSink() { }
 
-	// RVA: 0x146DB20 Offset: 0x146C120 VA: 0x18146DB20 Slot: 18
 	public virtual IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink) { }
 
-	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360 Slot: 19
 	public virtual IMessage GetReplyMessage() { }
 
-	// RVA: 0x519DE0 Offset: 0x5183E0 VA: 0x180519DE0 Slot: 20
 	public virtual void SetMessageCtrl(IMessageCtrl mc) { }
 
-	// RVA: 0x78E190 Offset: 0x78C790 VA: 0x18078E190
 	internal void SetCompletedSynchronously(bool completed) { }
 
-	// RVA: 0x146DB70 Offset: 0x146C170 VA: 0x18146DB70
 	internal IMessage EndInvoke() { }
 
-	// RVA: 0x146DCA0 Offset: 0x146C2A0 VA: 0x18146DCA0 Slot: 21
 	public virtual IMessage SyncProcessMessage(IMessage msg) { }
 
-	// RVA: 0x5362B0 Offset: 0x5348B0 VA: 0x1805362B0
 	internal MonoMethodMessage get_CallMessage() { }
 
-	// RVA: 0x5362C0 Offset: 0x5348C0 VA: 0x1805362C0
 	internal void set_CallMessage(MonoMethodMessage value) { }
 
-	// RVA: 0x146DC90 Offset: 0x146C290 VA: 0x18146DC90 Slot: 10
 	private void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem() { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 11
 	private void System.Threading.IThreadPoolWorkItem.MarkAborted(ThreadAbortException tae) { }
 
-	// RVA: 0x146DC90 Offset: 0x146C290 VA: 0x18146DC90
 	internal object Invoke() { }
 
-	// RVA: 0x146DF40 Offset: 0x146C540 VA: 0x18146DF40
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x146DE00 Offset: 0x146C400 VA: 0x18146DE00
 	private void <.ctor>b__17_0(object <p0>) { }
 
 }
 
 public struct AsyncVoidMethodBuilder // TypeDefIndex: 1273
-{	// Fields
-	private SynchronizationContext m_synchronizationContext; // 0x0
+{	private SynchronizationContext m_synchronizationContext; // 0x0
 	private AsyncMethodBuilderCore m_coreState; // 0x8
 	private Task m_task; // 0x18
 
-	// Properties
 	private Task Task { get; }
 
-	// Methods
 
-	// RVA: 0xFDD510 Offset: 0xFDBB10 VA: 0x180FDD510
 	public static AsyncVoidMethodBuilder Create() { }
 
 	[DebuggerStepThroughAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -379,10 +314,8 @@ public struct AsyncVoidMethodBuilder // TypeDefIndex: 1273
 	|-AsyncVoidMethodBuilder.Start<object>
 	*/
 
-	// RVA: 0x14BD10 Offset: 0x14B110 VA: 0x18014BD10
 	public void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
-	// RVA: -1 Offset: -1
 	public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -461,35 +394,26 @@ public struct AsyncVoidMethodBuilder // TypeDefIndex: 1273
 	|-AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<ValueTaskAwaiter, RgbController.<Worker>d__14>
 	*/
 
-	// RVA: 0x14BCB0 Offset: 0x14B0B0 VA: 0x18014BCB0
 	public void SetResult() { }
 
-	// RVA: 0x14BCA0 Offset: 0x14B0A0 VA: 0x18014BCA0
 	public void SetException(Exception exception) { }
 
-	// RVA: 0x14BC90 Offset: 0x14B090 VA: 0x18014BC90
 	private void NotifySynchronizationContextOfCompletion() { }
 
-	// RVA: 0x14BDD0 Offset: 0x14B1D0 VA: 0x18014BDD0
 	private Task get_Task() { }
 
 }
 
 public struct AsyncTaskMethodBuilder // TypeDefIndex: 1274
-{	// Fields
-	private static readonly Task<VoidTaskResult> s_cachedCompleted; // 0x0
+{	private static readonly Task<VoidTaskResult> s_cachedCompleted; // 0x0
 	private AsyncTaskMethodBuilder<VoidTaskResult> m_builder; // 0x0
 
-	// Properties
 	public Task Task { get; }
 
-	// Methods
 
-	// RVA: 0xDA9100 Offset: 0xDA7700 VA: 0x180DA9100
 	public static AsyncTaskMethodBuilder Create() { }
 
 	[DebuggerStepThroughAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -641,10 +565,8 @@ public struct AsyncTaskMethodBuilder // TypeDefIndex: 1274
 	|-AsyncTaskMethodBuilder.Start<CryptoStream.<WriteAsyncInternal>d__37>
 	*/
 
-	// RVA: 0x14BBE0 Offset: 0x14AFE0 VA: 0x18014BBE0
 	public void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
-	// RVA: -1 Offset: -1
 	public void AwaitOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -655,7 +577,6 @@ public struct AsyncTaskMethodBuilder // TypeDefIndex: 1274
 	|-AsyncTaskMethodBuilder.AwaitOnCompleted<CryptoStream.HopToThreadPoolAwaitable, CryptoStream.<WriteAsyncInternal>d__37>
 	*/
 
-	// RVA: -1 Offset: -1
 	public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -866,32 +787,24 @@ public struct AsyncTaskMethodBuilder // TypeDefIndex: 1274
 	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<ValueTaskAwaiter<bool>, RestRgbService.<Start>d__31>
 	*/
 
-	// RVA: 0x14BC30 Offset: 0x14B030 VA: 0x18014BC30
 	public Task get_Task() { }
 
-	// RVA: 0x14BB70 Offset: 0x14AF70 VA: 0x18014BB70
 	public void SetResult() { }
 
-	// RVA: 0x14BB20 Offset: 0x14AF20 VA: 0x18014BB20
 	public void SetException(Exception exception) { }
 
-	// RVA: 0xFDD460 Offset: 0xFDBA60 VA: 0x180FDD460
 	private static void .cctor() { }
 
 }
 
 public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
-{	// Fields
-	internal static readonly Task<TResult> s_defaultResultTask; // 0x0
+{	internal static readonly Task<TResult> s_defaultResultTask; // 0x0
 	private AsyncMethodBuilderCore m_coreState; // 0x0
 	private Task<TResult> m_task; // 0x0
 
-	// Properties
 	public Task<TResult> Task { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public static AsyncTaskMethodBuilder<TResult> Create() { }
 	/* GenericInstMethod :
 	|
@@ -927,7 +840,6 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	*/
 
 	[DebuggerStepThroughAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -1166,7 +1078,6 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	|-AsyncTaskMethodBuilder<object>.Start<XmlUrlResolver.<GetEntityAsync>d__15>
 	*/
 
-	// RVA: -1 Offset: -1
 	public void SetStateMachine(IAsyncStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -1201,7 +1112,6 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.SetStateMachine
 	*/
 
-	// RVA: -1 Offset: -1
 	public void AwaitOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -1239,7 +1149,6 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitOnCompleted<CryptoStream.HopToThreadPoolAwaitable, CryptoStream.<WriteAsyncInternal>d__37>
 	*/
 
-	// RVA: -1 Offset: -1
 	public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -1681,7 +1590,6 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<ValueTaskAwaiter<bool>, RestRgbService.<Start>d__31>
 	*/
 
-	// RVA: -1 Offset: -1
 	public Task<TResult> get_Task() { }
 	/* GenericInstMethod :
 	|
@@ -1716,7 +1624,6 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.get_Task
 	*/
 
-	// RVA: -1 Offset: -1
 	public void SetResult(TResult result) { }
 	/* GenericInstMethod :
 	|
@@ -1775,7 +1682,6 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.SetResult
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void SetResult(Task<TResult> completedTask) { }
 	/* GenericInstMethod :
 	|
@@ -1819,7 +1725,6 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.SetResult
 	*/
 
-	// RVA: -1 Offset: -1
 	public void SetException(Exception exception) { }
 	/* GenericInstMethod :
 	|
@@ -1878,7 +1783,6 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.SetException
 	*/
 
-	// RVA: -1 Offset: -1
 	private Task<TResult> GetTaskForResult(TResult result) { }
 	/* GenericInstMethod :
 	|
@@ -1922,7 +1826,6 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.GetTaskForResult
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -1969,17 +1872,13 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 }
 
 internal static class AsyncTaskCache // TypeDefIndex: 1276
-{	// Fields
-	internal static readonly Task<bool> TrueTask; // 0x0
+{	internal static readonly Task<bool> TrueTask; // 0x0
 	internal static readonly Task<bool> FalseTask; // 0x8
 	internal static readonly Task<int>[] Int32Tasks; // 0x10
 
-	// Methods
 
-	// RVA: 0xFDD110 Offset: 0xFDB710 VA: 0x180FDD110
 	private static Task<int>[] CreateInt32Tasks() { }
 
-	// RVA: -1 Offset: -1
 	internal static Task<TResult> CreateCacheableTask<TResult>(TResult result) { }
 	/* GenericInstMethod :
 	|
@@ -2017,138 +1916,103 @@ internal static class AsyncTaskCache // TypeDefIndex: 1276
 	|-AsyncTaskCache.CreateCacheableTask<VoidTaskResult>
 	*/
 
-	// RVA: 0xFDD1F0 Offset: 0xFDB7F0 VA: 0x180FDD1F0
 	private static void .cctor() { }
 
 }
 
 internal struct AsyncMethodBuilderCore // TypeDefIndex: 1277
-{	// Fields
-	internal IAsyncStateMachine m_stateMachine; // 0x0
+{	internal IAsyncStateMachine m_stateMachine; // 0x0
 	internal Action m_defaultContextAction; // 0x8
 
-	// Methods
 
-	// RVA: 0x14BA40 Offset: 0x14AE40 VA: 0x18014BA40
 	public void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
-	// RVA: 0x14B8B0 Offset: 0x14ACB0 VA: 0x18014B8B0
 	internal Action GetCompletionAction(Task taskForTracing, ref AsyncMethodBuilderCore.MoveNextRunner runnerToInitialize) { }
 
-	// RVA: 0x14B8C0 Offset: 0x14ACC0 VA: 0x18014B8C0
 	private Action OutputAsyncCausalityEvents(Task innerTask, Action continuation) { }
 
-	// RVA: 0x14B8D0 Offset: 0x14ACD0 VA: 0x18014B8D0
 	internal void PostBoxInitialization(IAsyncStateMachine stateMachine, AsyncMethodBuilderCore.MoveNextRunner runner, Task builtTask) { }
 
-	// RVA: 0xFDCD60 Offset: 0xFDB360 VA: 0x180FDCD60
 	internal static void ThrowAsync(Exception exception, SynchronizationContext targetContext) { }
 
-	// RVA: 0xFDC630 Offset: 0xFDAC30 VA: 0x180FDC630
 	internal static Action CreateContinuationWrapper(Action continuation, Action invokeAction, Task innerTask) { }
 
-	// RVA: 0xFDD040 Offset: 0xFDB640 VA: 0x180FDD040
 	internal static Task TryGetContinuationTask(Action action) { }
 
 }
 
 internal sealed class AsyncMethodBuilderCore.MoveNextRunner // TypeDefIndex: 1278
-{	// Fields
-	private readonly ExecutionContext m_context; // 0x10
+{	private readonly ExecutionContext m_context; // 0x10
 	internal IAsyncStateMachine m_stateMachine; // 0x18
 	private static ContextCallback s_invokeMoveNext; // 0x0
 
-	// Methods
 
-	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	internal void .ctor(ExecutionContext context, IAsyncStateMachine stateMachine) { }
 
-	// RVA: 0xFEBDF0 Offset: 0xFEA3F0 VA: 0x180FEBDF0
 	internal void Run() { }
 
-	// RVA: 0xFEBD50 Offset: 0xFEA350 VA: 0x180FEBD50
 	private static void InvokeMoveNext(object stateMachine) { }
 
 }
 
 private class AsyncMethodBuilderCore.ContinuationWrapper // TypeDefIndex: 1279
-{	// Fields
-	internal readonly Action m_continuation; // 0x10
+{	internal readonly Action m_continuation; // 0x10
 	private readonly Action m_invokeAction; // 0x18
 	internal readonly Task m_innerTask; // 0x20
 
-	// Methods
 
-	// RVA: 0xFE5750 Offset: 0xFE3D50 VA: 0x180FE5750
 	internal void .ctor(Action continuation, Action invokeAction, Task innerTask) { }
 
-	// RVA: 0xFE5730 Offset: 0xFE3D30 VA: 0x180FE5730
 	internal void Invoke() { }
 
 }
 
 private sealed class AsyncMethodBuilderCore.<>c__DisplayClass4_0 // TypeDefIndex: 1280
-{	// Fields
-	public Task innerTask; // 0x10
+{	public Task innerTask; // 0x10
 	public Action continuation; // 0x18
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFF78C0 Offset: 0xFF5EC0 VA: 0x180FF78C0
 	internal void <OutputAsyncCausalityEvents>b__0() { }
 
 }
 
 private sealed class AsyncMethodBuilderCore.<>c // TypeDefIndex: 1281
-{	// Fields
-	public static readonly AsyncMethodBuilderCore.<>c <>9; // 0x0
+{	public static readonly AsyncMethodBuilderCore.<>c <>9; // 0x0
 	public static SendOrPostCallback <>9__6_0; // 0x8
 	public static WaitCallback <>9__6_1; // 0x10
 
-	// Methods
 
-	// RVA: 0xFF7920 Offset: 0xFF5F20 VA: 0x180FF7920
 	private static void .cctor() { }
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFF7800 Offset: 0xFF5E00 VA: 0x180FF7800
 	internal void <ThrowAsync>b__6_0(object state) { }
 
-	// RVA: 0xFF7860 Offset: 0xFF5E60 VA: 0x180FF7860
 	internal void <ThrowAsync>b__6_1(object state) { }
 
 }
 
 public sealed class AsyncStateMachineAttribute : StateMachineAttribute // TypeDefIndex: 1282
-{	// Methods
-
-	// RVA: 0x7B9710 Offset: 0x7B7D10 VA: 0x1807B9710
+{
 	public void .ctor(Type stateMachineType) { }
 
 }
 
 internal static class AsyncHelper // TypeDefIndex: 1812
-{	// Fields
-	public static readonly Task DoneTask; // 0x0
+{	public static readonly Task DoneTask; // 0x0
 	public static readonly Task<bool> DoneTaskTrue; // 0x8
 	public static readonly Task<bool> DoneTaskFalse; // 0x10
 	public static readonly Task<int> DoneTaskZero; // 0x18
 
-	// Methods
 
-	// RVA: 0x12E3B50 Offset: 0x12E2150 VA: 0x1812E3B50
 	private static void .cctor() { }
 
 }
 
 internal enum AsyncOperationStatus // TypeDefIndex: 2532
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const AsyncOperationStatus Initialize = 0;
 	public const AsyncOperationStatus Continue = 1;
 	public const AsyncOperationStatus ReadDone = 2;
@@ -2157,37 +2021,29 @@ internal enum AsyncOperationStatus // TypeDefIndex: 2532
 }
 
 internal class AsyncProtocolResult // TypeDefIndex: 2533
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly int <UserResult>k__BackingField; // 0x10
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly ExceptionDispatchInfo <Error>k__BackingField; // 0x18
 
-	// Properties
 	public int UserResult { get; }
 	public ExceptionDispatchInfo Error { get; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public int get_UserResult() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public ExceptionDispatchInfo get_Error() { }
 
-	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int result) { }
 
-	// RVA: 0x10B6570 Offset: 0x10B4B70 VA: 0x1810B6570
 	public void .ctor(ExceptionDispatchInfo error) { }
 
 }
 
 internal abstract class AsyncProtocolRequest // TypeDefIndex: 2534
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly MobileAuthenticatedStream <Parent>k__BackingField; // 0x10
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly bool <RunSynchronously>k__BackingField; // 0x18
@@ -2198,84 +2054,64 @@ internal abstract class AsyncProtocolRequest // TypeDefIndex: 2534
 	private int WriteRequested; // 0x28
 	private readonly object locker; // 0x30
 
-	// Properties
 	public MobileAuthenticatedStream Parent { get; }
 	public bool RunSynchronously { get; }
 	public string Name { get; }
 	public int UserResult { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public MobileAuthenticatedStream get_Parent() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FFF0 Offset: 0x95E5F0 VA: 0x18095FFF0
 	public bool get_RunSynchronously() { }
 
-	// RVA: 0x749440 Offset: 0x747A40 VA: 0x180749440
 	public string get_Name() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0
 	public int get_UserResult() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x960000 Offset: 0x95E600 VA: 0x180960000
 	protected void set_UserResult(int value) { }
 
-	// RVA: 0x12103E0 Offset: 0x120E9E0 VA: 0x1812103E0
 	public void .ctor(MobileAuthenticatedStream parent, bool sync) { }
 
-	// RVA: 0x1210180 Offset: 0x120E780 VA: 0x181210180
 	internal void RequestRead(int size) { }
 
-	// RVA: 0x1210240 Offset: 0x120E840 VA: 0x181210240
 	internal void RequestWrite() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA2AB0 Offset: 0xA1EB0 VA: 0x1800A2AB0
-	// RVA: 0x1210250 Offset: 0x120E850 VA: 0x181210250
 	internal Task<AsyncProtocolResult> StartOperation(CancellationToken cancellationToken) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA2BE0 Offset: 0xA1FE0 VA: 0x1800A2BE0
-	// RVA: 0x1210060 Offset: 0x120E660 VA: 0x181210060
 	private Task ProcessOperation(CancellationToken cancellationToken) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA2D70 Offset: 0xA2170 VA: 0x1800A2D70
-	// RVA: 0x120FF40 Offset: 0x120E540 VA: 0x18120FF40
 	private Task<Nullable<int>> InnerRead(CancellationToken cancellationToken) { }
 
-	// RVA: -1 Offset: -1 Slot: 4
 	protected abstract AsyncOperationStatus Run(AsyncOperationStatus status);
 
-	// RVA: 0x1210370 Offset: 0x120E970 VA: 0x181210370 Slot: 3
 	public override string ToString() { }
 
 }
 
 private struct AsyncProtocolRequest.<StartOperation>d__23 : IAsyncStateMachine // TypeDefIndex: 2535
-{	// Fields
-	public int <>1__state; // 0x0
+{	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder<AsyncProtocolResult> <>t__builder; // 0x8
 	public AsyncProtocolRequest <>4__this; // 0x20
 	public CancellationToken cancellationToken; // 0x28
 	private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter <>u__1; // 0x30
 
-	// Methods
 
-	// RVA: 0x1D2510 Offset: 0x1D1910 VA: 0x1801D2510 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1D2520 Offset: 0x1D1920 VA: 0x1801D2520 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 private struct AsyncProtocolRequest.<ProcessOperation>d__24 : IAsyncStateMachine // TypeDefIndex: 2536
-{	// Fields
-	public int <>1__state; // 0x0
+{	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder <>t__builder; // 0x8
 	public CancellationToken cancellationToken; // 0x20
 	public AsyncProtocolRequest <>4__this; // 0x28
@@ -2284,20 +2120,16 @@ private struct AsyncProtocolRequest.<ProcessOperation>d__24 : IAsyncStateMachine
 	private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<Nullable<int>> <>u__1; // 0x38
 	private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter <>u__2; // 0x48
 
-	// Methods
 
-	// RVA: 0x1D2500 Offset: 0x1D1900 VA: 0x1801D2500 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 private struct AsyncProtocolRequest.<InnerRead>d__25 : IAsyncStateMachine // TypeDefIndex: 2537
-{	// Fields
-	public int <>1__state; // 0x0
+{	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder<Nullable<int>> <>t__builder; // 0x8
 	public AsyncProtocolRequest <>4__this; // 0x20
 	public CancellationToken cancellationToken; // 0x28
@@ -2305,86 +2137,65 @@ private struct AsyncProtocolRequest.<InnerRead>d__25 : IAsyncStateMachine // Typ
 	private Nullable<int> <totalRead>5__2; // 0x34
 	private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<int> <>u__1; // 0x40
 
-	// Methods
 
-	// RVA: 0x1D2420 Offset: 0x1D1820 VA: 0x1801D2420 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1D2430 Offset: 0x1D1830 VA: 0x1801D2430 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 internal class AsyncHandshakeRequest : AsyncProtocolRequest // TypeDefIndex: 2538
-{	// Methods
-
-	// RVA: 0x120FF30 Offset: 0x120E530 VA: 0x18120FF30
+{
 	public void .ctor(MobileAuthenticatedStream parent, bool sync) { }
 
-	// RVA: 0x120FF10 Offset: 0x120E510 VA: 0x18120FF10 Slot: 4
 	protected override AsyncOperationStatus Run(AsyncOperationStatus status) { }
 
 }
 
 internal abstract class AsyncReadOrWriteRequest : AsyncProtocolRequest // TypeDefIndex: 2539
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly BufferOffsetSize <UserBuffer>k__BackingField; // 0x38
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <CurrentSize>k__BackingField; // 0x40
 
-	// Properties
 	protected BufferOffsetSize UserBuffer { get; }
 	protected int CurrentSize { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	protected BufferOffsetSize get_UserBuffer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5DE3D0 Offset: 0x5DC9D0 VA: 0x1805DE3D0
 	protected int get_CurrentSize() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6840F0 Offset: 0x6826F0 VA: 0x1806840F0
 	protected void set_CurrentSize(int value) { }
 
-	// RVA: 0x12104F0 Offset: 0x120EAF0 VA: 0x1812104F0
 	public void .ctor(MobileAuthenticatedStream parent, bool sync, byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x1210480 Offset: 0x120EA80 VA: 0x181210480 Slot: 3
 	public override string ToString() { }
 
 }
 
 internal class AsyncReadRequest : AsyncReadOrWriteRequest // TypeDefIndex: 2540
-{	// Methods
-
-	// RVA: 0x1210610 Offset: 0x120EC10 VA: 0x181210610
+{
 	public void .ctor(MobileAuthenticatedStream parent, bool sync, byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x1210590 Offset: 0x120EB90 VA: 0x181210590 Slot: 4
 	protected override AsyncOperationStatus Run(AsyncOperationStatus status) { }
 
 }
 
 internal class AsyncWriteRequest : AsyncReadOrWriteRequest // TypeDefIndex: 2541
-{	// Methods
-
-	// RVA: 0x1210610 Offset: 0x120EC10 VA: 0x181210610
+{
 	public void .ctor(MobileAuthenticatedStream parent, bool sync, byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x1210620 Offset: 0x120EC20 VA: 0x181210620 Slot: 4
 	protected override AsyncOperationStatus Run(AsyncOperationStatus status) { }
 
 }
 
 internal class AsyncStreamReader // TypeDefIndex: 2647
-{	// Fields
-	private Stream stream; // 0x10
+{	private Stream stream; // 0x10
 	private Encoding encoding; // 0x18
 	private Decoder decoder; // 0x20
 	private byte[] byteBuffer; // 0x28
@@ -2393,169 +2204,124 @@ internal class AsyncStreamReader // TypeDefIndex: 2647
 	private ManualResetEvent eofEvent; // 0x40
 	private object syncObject; // 0x48
 
-	// Methods
 
-	// RVA: 0x100FE10 Offset: 0x100E410 VA: 0x18100FE10 Slot: 4
 	public virtual void Close() { }
 
-	// RVA: 0x17258A0 Offset: 0x1723EA0 VA: 0x1817258A0 Slot: 5
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x1725890 Offset: 0x1723E90 VA: 0x181725890
 	internal void CancelOperation() { }
 
 }
 
 public class AsyncCompletedEventArgs : EventArgs // TypeDefIndex: 2662
-{	// Fields
-	private readonly Exception error; // 0x10
+{	private readonly Exception error; // 0x10
 	private readonly bool cancelled; // 0x18
 	private readonly object userState; // 0x20
 
-	// Properties
 	[SRDescriptionAttribute] // RVA: 0xA9520 Offset: 0xA8920 VA: 0x1800A9520
 	public bool Cancelled { get; }
 	[SRDescriptionAttribute] // RVA: 0xA9610 Offset: 0xA8A10 VA: 0x1800A9610
 	public Exception Error { get; }
 
-	// Methods
 
-	// RVA: 0x15BBB30 Offset: 0x15BA130 VA: 0x1815BBB30
 	public void .ctor(Exception error, bool cancelled, object userState) { }
 
-	// RVA: 0x95FFF0 Offset: 0x95E5F0 VA: 0x18095FFF0
 	public bool get_Cancelled() { }
 
-	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public Exception get_Error() { }
 
-	// RVA: 0x15BBA50 Offset: 0x15BA050 VA: 0x1815BBA50
 	protected void RaiseExceptionIfNecessary() { }
 
 }
 
 public sealed class AsyncCompletedEventHandler : MulticastDelegate // TypeDefIndex: 2663
-{	// Methods
-
-	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
+{
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xAE4D50 Offset: 0xAE3350 VA: 0x180AE4D50 Slot: 12
 	public virtual void Invoke(object sender, AsyncCompletedEventArgs e) { }
 
-	// RVA: 0xAE4D10 Offset: 0xAE3310 VA: 0x180AE4D10 Slot: 13
 	public virtual IAsyncResult BeginInvoke(object sender, AsyncCompletedEventArgs e, AsyncCallback callback, object object) { }
 
-	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
 	public virtual void EndInvoke(IAsyncResult result) { }
 
 }
 
 public sealed class AsyncOperation // TypeDefIndex: 2664
-{	// Fields
-	private SynchronizationContext syncContext; // 0x10
+{	private SynchronizationContext syncContext; // 0x10
 	private object userSuppliedState; // 0x18
 	private bool alreadyCompleted; // 0x20
 
-	// Properties
 	public object UserSuppliedState { get; }
 
-	// Methods
 
-	// RVA: 0x15BC2B0 Offset: 0x15BA8B0 VA: 0x1815BC2B0
 	private void .ctor(object userSuppliedState, SynchronizationContext syncContext) { }
 
-	// RVA: 0x15BBDE0 Offset: 0x15BA3E0 VA: 0x1815BBDE0 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public object get_UserSuppliedState() { }
 
-	// RVA: 0x15BC090 Offset: 0x15BA690 VA: 0x1815BC090
 	public void Post(SendOrPostCallback d, object arg) { }
 
-	// RVA: 0x15BBF70 Offset: 0x15BA570 VA: 0x1815BBF70
 	public void PostOperationCompleted(SendOrPostCallback d, object arg) { }
 
-	// RVA: 0x15BBE90 Offset: 0x15BA490 VA: 0x1815BBE90
 	private void OperationCompletedCore() { }
 
-	// RVA: 0x15BC230 Offset: 0x15BA830 VA: 0x1815BC230
 	private void VerifyNotCompleted() { }
 
-	// RVA: 0x15BC1B0 Offset: 0x15BA7B0 VA: 0x1815BC1B0
 	private void VerifyDelegateNotNull(SendOrPostCallback d) { }
 
-	// RVA: 0x15BBD40 Offset: 0x15BA340 VA: 0x1815BBD40
 	internal static AsyncOperation CreateOperation(object userSuppliedState, SynchronizationContext syncContext) { }
 
 }
 
 public static class AsyncOperationManager // TypeDefIndex: 2665
-{	// Properties
-	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
+{	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	public static SynchronizationContext SynchronizationContext { get; }
 
-	// Methods
 
-	// RVA: 0x15BBBD0 Offset: 0x15BA1D0 VA: 0x1815BBBD0
 	public static AsyncOperation CreateOperation(object userSuppliedState) { }
 
-	// RVA: 0x15BBCD0 Offset: 0x15BA2D0 VA: 0x1815BBCD0
 	public static SynchronizationContext get_SynchronizationContext() { }
 
 }
 
 public class AsyncOperation : YieldInstruction // TypeDefIndex: 3491
-{	// Fields
-	internal IntPtr m_Ptr; // 0x10
+{	internal IntPtr m_Ptr; // 0x10
 	private Action<AsyncOperation> m_completeCallback; // 0x18
 
-	// Properties
 	public bool isDone { get; }
 	public int priority { set; }
 
-	// Methods
 
 	[StaticAccessorAttribute] // RVA: 0xB69C0 Offset: 0xB5DC0 VA: 0x1800B69C0
 	[NativeMethodAttribute] // RVA: 0xB69C0 Offset: 0xB5DC0 VA: 0x1800B69C0
-	// RVA: 0x180C480 Offset: 0x180AA80 VA: 0x18180C480
 	private static void InternalDestroy(IntPtr ptr) { }
 
 	[NativeMethodAttribute] // RVA: 0x90BC0 Offset: 0x8FFC0 VA: 0x180090BC0
-	// RVA: 0x180C520 Offset: 0x180AB20 VA: 0x18180C520
 	public bool get_isDone() { }
 
 	[NativeMethodAttribute] // RVA: 0xB6C90 Offset: 0xB6090 VA: 0x1800B6C90
-	// RVA: 0x180C560 Offset: 0x180AB60 VA: 0x18180C560
 	public void set_priority(int value) { }
 
-	// RVA: 0x180C3D0 Offset: 0x180A9D0 VA: 0x18180C3D0 Slot: 1
 	protected override void Finalize() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x180C4C0 Offset: 0x180AAC0 VA: 0x18180C4C0
 	internal void InvokeCompletionEvent() { }
 
-	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 }
 
 public struct AsyncGPUReadbackRequest // TypeDefIndex: 3802
-{	// Fields
-	internal IntPtr m_Ptr; // 0x0
+{	internal IntPtr m_Ptr; // 0x0
 	internal int m_Version; // 0x8
 
-	// Properties
 	public bool done { get; }
 	public bool hasError { get; }
 	public int layerCount { get; }
 	public int layerDataSize { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public NativeArray<T> GetData<T>(int layer = 0) { }
 	/* GenericInstMethod :
 	|
@@ -2563,87 +2329,62 @@ public struct AsyncGPUReadbackRequest // TypeDefIndex: 3802
 	|-AsyncGPUReadbackRequest.GetData<Color32>
 	*/
 
-	// RVA: 0x21CD50 Offset: 0x21C150 VA: 0x18021CD50
 	public bool get_done() { }
 
-	// RVA: 0x21CD10 Offset: 0x21C110 VA: 0x18021CD10
 	public bool get_hasError() { }
 
-	// RVA: 0x21CC90 Offset: 0x21C090 VA: 0x18021CC90
 	public int get_layerCount() { }
 
-	// RVA: 0x21CCD0 Offset: 0x21C0D0 VA: 0x18021CCD0
 	public int get_layerDataSize() { }
 
-	// RVA: 0x21CD50 Offset: 0x21C150 VA: 0x18021CD50
 	private bool IsDone() { }
 
-	// RVA: 0x21CD10 Offset: 0x21C110 VA: 0x18021CD10
 	private bool HasError() { }
 
-	// RVA: 0x21CC90 Offset: 0x21C090 VA: 0x18021CC90
 	private int GetLayerCount() { }
 
-	// RVA: 0x21CCD0 Offset: 0x21C0D0 VA: 0x18021CCD0
 	private int GetLayerDataSize() { }
 
-	// RVA: 0x21CD90 Offset: 0x21C190 VA: 0x18021CD90
 	internal void SetScriptingCallback(Action<AsyncGPUReadbackRequest> callback) { }
 
-	// RVA: 0x21CC40 Offset: 0x21C040 VA: 0x18021CC40
 	private IntPtr GetDataRaw(int layer) { }
 
-	// RVA: 0x1992360 Offset: 0x1990960 VA: 0x181992360
 	private static bool IsDone_Injected(ref AsyncGPUReadbackRequest _unity_self) { }
 
-	// RVA: 0x1992320 Offset: 0x1990920 VA: 0x181992320
 	private static bool HasError_Injected(ref AsyncGPUReadbackRequest _unity_self) { }
 
-	// RVA: 0x19922A0 Offset: 0x19908A0 VA: 0x1819922A0
 	private static int GetLayerCount_Injected(ref AsyncGPUReadbackRequest _unity_self) { }
 
-	// RVA: 0x19922E0 Offset: 0x19908E0 VA: 0x1819922E0
 	private static int GetLayerDataSize_Injected(ref AsyncGPUReadbackRequest _unity_self) { }
 
-	// RVA: 0x19923A0 Offset: 0x19909A0 VA: 0x1819923A0
 	private static void SetScriptingCallback_Injected(ref AsyncGPUReadbackRequest _unity_self, Action<AsyncGPUReadbackRequest> callback) { }
 
-	// RVA: 0x1992260 Offset: 0x1990860 VA: 0x181992260
 	private static IntPtr GetDataRaw_Injected(ref AsyncGPUReadbackRequest _unity_self, int layer) { }
 
 }
 
 public static class AsyncGPUReadback // TypeDefIndex: 3803
-{	// Methods
-
-	// RVA: 0x1992690 Offset: 0x1990C90 VA: 0x181992690
+{
 	private static void SetUpScriptingRequest(AsyncGPUReadbackRequest request, Action<AsyncGPUReadbackRequest> callback) { }
 
-	// RVA: 0x19925F0 Offset: 0x1990BF0 VA: 0x1819925F0
 	public static AsyncGPUReadbackRequest Request(ComputeBuffer src, Action<AsyncGPUReadbackRequest> callback) { }
 
-	// RVA: 0x1992540 Offset: 0x1990B40 VA: 0x181992540
 	public static AsyncGPUReadbackRequest Request(Texture src, int mipIndex = 0, Action<AsyncGPUReadbackRequest> callback) { }
 
 	[NativeMethodAttribute] // RVA: 0x6FF20 Offset: 0x6F320 VA: 0x18006FF20
-	// RVA: 0x1992440 Offset: 0x1990A40 VA: 0x181992440
 	private static AsyncGPUReadbackRequest Request_Internal_ComputeBuffer_1(ComputeBuffer buffer) { }
 
 	[NativeMethodAttribute] // RVA: 0x6FF20 Offset: 0x6F320 VA: 0x18006FF20
-	// RVA: 0x19924E0 Offset: 0x1990AE0 VA: 0x1819924E0
 	private static AsyncGPUReadbackRequest Request_Internal_Texture_1(Texture src, int mipIndex) { }
 
-	// RVA: 0x19923F0 Offset: 0x19909F0 VA: 0x1819923F0
 	private static void Request_Internal_ComputeBuffer_1_Injected(ComputeBuffer buffer, out AsyncGPUReadbackRequest ret) { }
 
-	// RVA: 0x1992490 Offset: 0x1990A90 VA: 0x181992490
 	private static void Request_Internal_Texture_1_Injected(Texture src, int mipIndex, out AsyncGPUReadbackRequest ret) { }
 
 }
 
 public class AsyncTextureLoad : CustomYieldInstruction // TypeDefIndex: 6627
-{	// Fields
-	private IntPtr buffer; // 0x10
+{	private IntPtr buffer; // 0x10
 	private int size; // 0x18
 	private int width; // 0x1C
 	private int height; // 0x20
@@ -2655,85 +2396,61 @@ public class AsyncTextureLoad : CustomYieldInstruction // TypeDefIndex: 6627
 	public bool cache; // 0x33
 	private Action worker; // 0x38
 
-	// Properties
 	public override bool keepWaiting { get; }
 	public bool isDone { get; }
 	public bool isValid { get; }
 	public Texture2D texture { get; }
 
-	// Methods
 
-	// RVA: 0x74DCB0 Offset: 0x74C2B0 VA: 0x18074DCB0 Slot: 7
 	public override bool get_keepWaiting() { }
 
-	// RVA: 0x1318680 Offset: 0x1316C80 VA: 0x181318680
 	public bool get_isDone() { }
 
-	// RVA: 0x1B9EC70 Offset: 0x1B9D270 VA: 0x181B9EC70
 	public bool get_isValid() { }
 
-	// RVA: 0x1B9ED60 Offset: 0x1B9D360 VA: 0x181B9ED60
 	public Texture2D get_texture() { }
 
-	// RVA: 0x1B9E710 Offset: 0x1B9CD10 VA: 0x181B9E710
 	public void LoadIntoTexture(Texture2D tex) { }
 
-	// RVA: 0x1B9EA70 Offset: 0x1B9D070 VA: 0x181B9EA70
 	public void WriteToCache(string cachename) { }
 
-	// RVA: 0x1B9E5D0 Offset: 0x1B9CBD0 VA: 0x181B9E5D0
 	private static extern void FreeTexture(ref IntPtr buffer) { }
 
-	// RVA: 0x1B9E8A0 Offset: 0x1B9CEA0 VA: 0x181B9E8A0
 	private static extern void LoadTextureFromFile(string filename, ref IntPtr buffer, ref int size, ref int width, ref int height, ref int channels, bool normal, bool dither, bool hqmode) { }
 
-	// RVA: 0x1B9E7C0 Offset: 0x1B9CDC0 VA: 0x181B9E7C0
 	private static extern void LoadTextureFromCache(string filename, ref IntPtr buffer, ref int size, ref int width, ref int height, ref int format) { }
 
-	// RVA: 0x1B9E9A0 Offset: 0x1B9CFA0 VA: 0x181B9E9A0
 	private static extern void SaveTextureToCache(string filename, IntPtr buffer, int size, int width, int height, int format) { }
 
-	// RVA: 0x1B9EB50 Offset: 0x1B9D150 VA: 0x181B9EB50
 	public void .ctor(string filename, bool normal, bool dither, bool hqmode, bool cache) { }
 
-	// RVA: 0x1B9E400 Offset: 0x1B9CA00 VA: 0x181B9E400
 	private void DoWork() { }
 
-	// RVA: 0x1B9E650 Offset: 0x1B9CC50 VA: 0x181B9E650
 	private void Invoke() { }
 
-	// RVA: 0x1B9E3C0 Offset: 0x1B9C9C0 VA: 0x181B9E3C0
 	private void Callback(IAsyncResult result) { }
 
 }
 
 public sealed class AsyncMethodBuilderAttribute : Attribute // TypeDefIndex: 7091
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly Type <BuilderType>k__BackingField; // 0x10
 
-	// Methods
 
-	// RVA: 0x7B9710 Offset: 0x7B7D10 VA: 0x1807B9710
 	public void .ctor(Type builderType) { }
 
 }
 
 public struct AsyncValueTaskMethodBuilder // TypeDefIndex: 7092
-{	// Fields
-	private AsyncTaskMethodBuilder _methodBuilder; // 0x0
+{	private AsyncTaskMethodBuilder _methodBuilder; // 0x0
 	private bool _haveResult; // 0x18
 	private bool _useBuilder; // 0x19
 
-	// Properties
 	public ValueTask Task { get; }
 
-	// Methods
 
-	// RVA: 0x4CF830 Offset: 0x4CDE30 VA: 0x1804CF830
 	public static AsyncValueTaskMethodBuilder Create() { }
 
-	// RVA: -1 Offset: -1
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -2762,19 +2479,14 @@ public struct AsyncValueTaskMethodBuilder // TypeDefIndex: 7092
 	|-AsyncValueTaskMethodBuilder.Start<object>
 	*/
 
-	// RVA: 0x2405D0 Offset: 0x23F9D0 VA: 0x1802405D0
 	public void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
-	// RVA: 0x2405B0 Offset: 0x23F9B0 VA: 0x1802405B0
 	public void SetResult() { }
 
-	// RVA: 0x2405A0 Offset: 0x23F9A0 VA: 0x1802405A0
 	public void SetException(Exception exception) { }
 
-	// RVA: 0x2405E0 Offset: 0x23F9E0 VA: 0x1802405E0
 	public ValueTask get_Task() { }
 
-	// RVA: -1 Offset: -1
 	public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -2813,18 +2525,14 @@ public struct AsyncValueTaskMethodBuilder // TypeDefIndex: 7092
 }
 
 public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7093
-{	// Fields
-	private AsyncTaskMethodBuilder<TResult> _methodBuilder; // 0x0
+{	private AsyncTaskMethodBuilder<TResult> _methodBuilder; // 0x0
 	private TResult _result; // 0x0
 	private bool _haveResult; // 0x0
 	private bool _useBuilder; // 0x0
 
-	// Properties
 	public ValueTask<TResult> Task { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public static AsyncValueTaskMethodBuilder<TResult> Create() { }
 	/* GenericInstMethod :
 	|
@@ -2835,7 +2543,6 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7093
 	|-AsyncValueTaskMethodBuilder<object>.Create
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -2846,7 +2553,6 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7093
 	|-AsyncValueTaskMethodBuilder<object>.Start<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public void SetStateMachine(IAsyncStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -2857,7 +2563,6 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7093
 	|-AsyncValueTaskMethodBuilder<object>.SetStateMachine
 	*/
 
-	// RVA: -1 Offset: -1
 	public void SetResult(TResult result) { }
 	/* GenericInstMethod :
 	|
@@ -2868,7 +2573,6 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7093
 	|-AsyncValueTaskMethodBuilder<object>.SetResult
 	*/
 
-	// RVA: -1 Offset: -1
 	public void SetException(Exception exception) { }
 	/* GenericInstMethod :
 	|
@@ -2879,7 +2583,6 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7093
 	|-AsyncValueTaskMethodBuilder<object>.SetException
 	*/
 
-	// RVA: -1 Offset: -1
 	public ValueTask<TResult> get_Task() { }
 	/* GenericInstMethod :
 	|
@@ -2890,7 +2593,6 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7093
 	|-AsyncValueTaskMethodBuilder<object>.get_Task
 	*/
 
-	// RVA: -1 Offset: -1
 	public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
@@ -2905,8 +2607,7 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7093
 }
 
 public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 10314
-{	// Fields
-	private List<int> indices; // 0x10
+{	private List<int> indices; // 0x10
 	private List<Vector3> vertices; // 0x18
 	private List<Vector3> normals; // 0x20
 	private List<int> triangles; // 0x28
@@ -2917,38 +2618,27 @@ public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 1
 	private bool alpha; // 0x45
 	private Action worker; // 0x48
 
-	// Properties
 	public override bool keepWaiting { get; }
 	public bool isDone { get; }
 	public Mesh mesh { get; }
 
-	// Methods
 
-	// RVA: 0x831F90 Offset: 0x830590 VA: 0x180831F90 Slot: 7
 	public override bool get_keepWaiting() { }
 
-	// RVA: 0x831F80 Offset: 0x830580 VA: 0x180831F80
 	public bool get_isDone() { }
 
-	// RVA: 0x831300 Offset: 0x82F900 VA: 0x180831300
 	public NavMeshBuildSource CreateNavMeshBuildSource() { }
 
-	// RVA: 0x831610 Offset: 0x82FC10 VA: 0x180831610
 	public NavMeshBuildSource CreateNavMeshBuildSource(int area) { }
 
-	// RVA: 0x831FA0 Offset: 0x8305A0 VA: 0x180831FA0
 	public Mesh get_mesh() { }
 
-	// RVA: 0x831DA0 Offset: 0x8303A0 VA: 0x180831DA0
 	public void .ctor(Vector3 pivot, int width, int height, bool normal, bool alpha) { }
 
-	// RVA: 0x8316B0 Offset: 0x82FCB0 VA: 0x1808316B0
 	private void DoWork() { }
 
-	// RVA: 0x831CE0 Offset: 0x8302E0 VA: 0x180831CE0
 	private void Invoke() { }
 
-	// RVA: 0x8312C0 Offset: 0x82F8C0 VA: 0x1808312C0
 	private void Callback(IAsyncResult result) { }
 
 }

@@ -1,6 +1,5 @@
 public static class ShaderUtilities // TypeDefIndex: 6822
-{	// Fields
-	public static int ID_MainTex; // 0x0
+{	public static int ID_MainTex; // 0x0
 	public static int ID_FaceTex; // 0x4
 	public static int ID_FaceColor; // 0x8
 	public static int ID_FaceDilate; // 0xC
@@ -64,37 +63,26 @@ public static class ShaderUtilities // TypeDefIndex: 6822
 	private static Shader k_ShaderRef_MobileSDF; // 0x120
 	private static Shader k_ShaderRef_MobileBitmap; // 0x128
 
-	// Properties
 	internal static Shader ShaderRef_MobileSDF { get; }
 	internal static Shader ShaderRef_MobileBitmap { get; }
 
-	// Methods
 
-	// RVA: 0xC6AA20 Offset: 0xC69020 VA: 0x180C6AA20
 	internal static Shader get_ShaderRef_MobileSDF() { }
 
-	// RVA: 0xC6A900 Offset: 0xC68F00 VA: 0x180C6A900
 	internal static Shader get_ShaderRef_MobileBitmap() { }
 
-	// RVA: 0xC6A740 Offset: 0xC68D40 VA: 0x180C6A740
 	private static void .cctor() { }
 
-	// RVA: 0xC696E0 Offset: 0xC67CE0 VA: 0x180C696E0
 	public static void GetShaderPropertyIDs() { }
 
-	// RVA: 0xC6A0C0 Offset: 0xC686C0 VA: 0x180C6A0C0
 	public static void UpdateShaderRatios(Material mat) { }
 
-	// RVA: 0xC67BE0 Offset: 0xC661E0 VA: 0x180C67BE0
 	public static Vector4 GetFontExtent(Material material) { }
 
-	// RVA: 0xC69EF0 Offset: 0xC684F0 VA: 0x180C69EF0
 	public static bool IsMaskingEnabled(Material material) { }
 
-	// RVA: 0xC67C40 Offset: 0xC66240 VA: 0x180C67C40
 	public static float GetPadding(Material material, bool enableExtraPadding, bool isBold) { }
 
-	// RVA: 0xC68720 Offset: 0xC66D20 VA: 0x180C68720
 	public static float GetPadding(Material[] materials, bool enableExtraPadding, bool isBold) { }
 
 }

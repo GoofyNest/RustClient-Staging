@@ -1,6 +1,5 @@
 public class EyeController : MonoBehaviour // TypeDefIndex: 9346
-{	// Fields
-	public const float MaxLookDot = 0,8;
+{	public const float MaxLookDot = 0,8;
 	public bool debug; // 0x18
 	public Transform LeftEye; // 0x20
 	public Transform RightEye; // 0x28
@@ -14,21 +13,15 @@ public class EyeController : MonoBehaviour // TypeDefIndex: 9346
 	private float TimeToUpdateFlicker; // 0x74
 	private float FlickerSpeed; // 0x78
 
-	// Methods
 
-	// RVA: 0x8D4CC0 Offset: 0x8D32C0 VA: 0x1808D4CC0
 	public void UpdateEyes() { }
 
-	// RVA: 0x8D49F0 Offset: 0x8D2FF0 VA: 0x1808D49F0
 	private void UpdateEye(Transform eye, Vector3 LookAt) { }
 
-	// RVA: 0x8D5020 Offset: 0x8D3620 VA: 0x1808D5020
 	private void UpdateFlicker() { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void UpdateFocus(Vector3 defaultLookAtPos) { }
 
-	// RVA: 0x8D5280 Offset: 0x8D3880 VA: 0x1808D5280
 	public void .ctor() { }
 
 }

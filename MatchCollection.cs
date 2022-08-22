@@ -1,6 +1,5 @@
 public class MatchCollection : ICollection, IEnumerable // TypeDefIndex: 2622
-{	// Fields
-	internal Regex _regex; // 0x10
+{	internal Regex _regex; // 0x10
 	internal ArrayList _matches; // 0x18
 	internal bool _done; // 0x20
 	internal string _input; // 0x28
@@ -10,34 +9,24 @@ public class MatchCollection : ICollection, IEnumerable // TypeDefIndex: 2622
 	internal int _prevlen; // 0x3C
 	private static int infinite; // 0x0
 
-	// Properties
 	public int Count { get; }
 	public object SyncRoot { get; }
 
-	// Methods
 
-	// RVA: 0x14BF920 Offset: 0x14BDF20 VA: 0x1814BF920
 	internal void .ctor(Regex regex, string input, int beginning, int length, int startat) { }
 
-	// RVA: 0x14BF730 Offset: 0x14BDD30 VA: 0x1814BF730
 	internal Match GetMatch(int i) { }
 
-	// RVA: 0x14BFA80 Offset: 0x14BE080 VA: 0x1814BFA80 Slot: 5
 	public int get_Count() { }
 
-	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80 Slot: 6
 	public object get_SyncRoot() { }
 
-	// RVA: 0x14BF530 Offset: 0x14BDB30 VA: 0x1814BF530 Slot: 4
 	public void CopyTo(Array array, int arrayIndex) { }
 
-	// RVA: 0x14BF6D0 Offset: 0x14BDCD0 VA: 0x1814BF6D0 Slot: 7
 	public IEnumerator GetEnumerator() { }
 
-	// RVA: 0x14BF8E0 Offset: 0x14BDEE0 VA: 0x1814BF8E0
 	private static void .cctor() { }
 
-	// RVA: 0x14BFA50 Offset: 0x14BE050 VA: 0x1814BFA50
 	internal void .ctor() { }
 
 }

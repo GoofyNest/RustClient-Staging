@@ -1,6 +1,5 @@
 public class PatrolHelicopterAI : BaseMonoBehaviour // TypeDefIndex: 9602
-{	// Fields
-	public List<PatrolHelicopterAI.targetinfo> _targetList; // 0x18
+{	public List<PatrolHelicopterAI.targetinfo> _targetList; // 0x18
 	public Vector3 interestZoneOrigin; // 0x20
 	public Vector3 destination; // 0x2C
 	public bool hasInterestZone; // 0x38
@@ -28,37 +27,29 @@ public class PatrolHelicopterAI : BaseMonoBehaviour // TypeDefIndex: 9602
 	public GameObjectRef rocketProjectile; // 0xC0
 	public GameObjectRef rocketProjectile_Napalm; // 0xC8
 
-	// Methods
 
-	// RVA: 0x885EF0 Offset: 0x8844F0 VA: 0x180885EF0
 	public void .ctor() { }
 
 }
 
 public class PatrolHelicopterAI.targetinfo // TypeDefIndex: 9603
-{	// Fields
-	public BasePlayer ply; // 0x10
+{	public BasePlayer ply; // 0x10
 	public BaseEntity ent; // 0x18
 	public float lastSeenTime; // 0x20
 	public float visibleFor; // 0x24
 	public float nextLOSCheck; // 0x28
 
-	// Methods
 
-	// RVA: 0x891CC0 Offset: 0x8902C0 VA: 0x180891CC0
 	public void .ctor(BaseEntity initEnt, BasePlayer initPly) { }
 
-	// RVA: 0x891C70 Offset: 0x890270 VA: 0x180891C70
 	public bool IsVisible() { }
 
-	// RVA: 0x891CA0 Offset: 0x8902A0 VA: 0x180891CA0
 	public float TimeSinceSeen() { }
 
 }
 
 public enum PatrolHelicopterAI.aiState // TypeDefIndex: 9604
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const PatrolHelicopterAI.aiState IDLE = 0;
 	public const PatrolHelicopterAI.aiState MOVE = 1;
 	public const PatrolHelicopterAI.aiState ORBIT = 2;

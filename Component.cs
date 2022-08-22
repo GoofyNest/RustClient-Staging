@@ -1,10 +1,8 @@
 public class Component : MarshalByRefObject, IComponent, IDisposable // TypeDefIndex: 2677
-{	// Fields
-	private static readonly object EventDisposed; // 0x0
+{	private static readonly object EventDisposed; // 0x0
 	private ISite site; // 0x18
 	private EventHandlerList events; // 0x20
 
-	// Properties
 	protected virtual bool CanRaiseEvents { get; }
 	internal bool CanRaiseEventsInternal { get; }
 	protected EventHandlerList Events { get; }
@@ -15,70 +13,50 @@ public class Component : MarshalByRefObject, IComponent, IDisposable // TypeDefI
 	[BrowsableAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
 	protected bool DesignMode { get; }
 
-	// Methods
 
-	// RVA: 0x15BEB50 Offset: 0x15BD150 VA: 0x1815BEB50 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 8
 	protected virtual bool get_CanRaiseEvents() { }
 
-	// RVA: 0x4C27F0 Offset: 0x4C0DF0 VA: 0x1804C27F0
 	internal bool get_CanRaiseEventsInternal() { }
 
-	// RVA: 0x15BEDD0 Offset: 0x15BD3D0 VA: 0x1815BEDD0
 	protected EventHandlerList get_Events() { }
 
-	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 9
 	public virtual ISite get_Site() { }
 
-	// RVA: 0x15BEAE0 Offset: 0x15BD0E0 VA: 0x1815BEAE0 Slot: 7
 	public void Dispose() { }
 
-	// RVA: 0x15BE900 Offset: 0x15BCF00 VA: 0x1815BE900 Slot: 10
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x15BEBF0 Offset: 0x15BD1F0 VA: 0x1815BEBF0 Slot: 11
 	protected virtual object GetService(Type service) { }
 
-	// RVA: 0x15BED80 Offset: 0x15BD380 VA: 0x1815BED80
 	protected bool get_DesignMode() { }
 
-	// RVA: 0x15BEC50 Offset: 0x15BD250 VA: 0x1815BEC50 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x15BED20 Offset: 0x15BD320 VA: 0x1815BED20
 	private static void .cctor() { }
 
 }
 
 public class Component : Object // TypeDefIndex: 3508
-{	// Properties
-	public Transform transform { get; }
+{	public Transform transform { get; }
 	public GameObject gameObject { get; }
 
-	// Methods
 
 	[FreeFunctionAttribute] // RVA: 0xB9A30 Offset: 0xB8E30 VA: 0x1800B9A30
-	// RVA: 0x1812D10 Offset: 0x1811310 VA: 0x181812D10
 	public Transform get_transform() { }
 
 	[FreeFunctionAttribute] // RVA: 0xB9AA0 Offset: 0xB8EA0 VA: 0x1800B9AA0
-	// RVA: 0x1812CD0 Offset: 0x18112D0 VA: 0x181812CD0
 	public GameObject get_gameObject() { }
 
 	[TypeInferenceRuleAttribute] // RVA: 0xB9C80 Offset: 0xB9080 VA: 0x1800B9C80
-	// RVA: 0x18128B0 Offset: 0x1810EB0 VA: 0x1818128B0
 	public Component GetComponent(Type type) { }
 
 	[FreeFunctionAttribute] // RVA: 0xB9CF0 Offset: 0xB90F0 VA: 0x1800B9CF0
-	// RVA: 0x1812740 Offset: 0x1810D40 VA: 0x181812740
 	internal void GetComponentFastPath(Type type, IntPtr oneFurtherThanResultValue) { }
 
-	// RVA: -1 Offset: -1
 	public T GetComponent<T>() { }
 	/* GenericInstMethod :
 	|
@@ -347,7 +325,6 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.GetComponent<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TryGetComponent<T>(out T component) { }
 	/* GenericInstMethod :
 	|
@@ -385,10 +362,8 @@ public class Component : Object // TypeDefIndex: 3508
 	*/
 
 	[TypeInferenceRuleAttribute] // RVA: 0xB9C80 Offset: 0xB9080 VA: 0x1800B9C80
-	// RVA: 0x18127A0 Offset: 0x1810DA0 VA: 0x1818127A0
 	public Component GetComponentInChildren(Type t, bool includeInactive) { }
 
-	// RVA: -1 Offset: -1
 	public T GetComponentInChildren<T>(bool includeInactive) { }
 	/* GenericInstMethod :
 	|
@@ -402,7 +377,6 @@ public class Component : Object // TypeDefIndex: 3508
 	*/
 
 	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public T GetComponentInChildren<T>() { }
 	/* GenericInstMethod :
 	|
@@ -440,10 +414,8 @@ public class Component : Object // TypeDefIndex: 3508
 	*/
 
 	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1812990 Offset: 0x1810F90 VA: 0x181812990
 	public Component[] GetComponentsInChildren(Type t) { }
 
-	// RVA: -1 Offset: -1
 	public T[] GetComponentsInChildren<T>(bool includeInactive) { }
 	/* GenericInstMethod :
 	|
@@ -489,7 +461,6 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.GetComponentsInChildren<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public void GetComponentsInChildren<T>(bool includeInactive, List<T> result) { }
 	/* GenericInstMethod :
 	|
@@ -518,7 +489,6 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.GetComponentsInChildren<Wearable>
 	*/
 
-	// RVA: -1 Offset: -1
 	public T[] GetComponentsInChildren<T>() { }
 	/* GenericInstMethod :
 	|
@@ -559,7 +529,6 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.GetComponentsInChildren<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public void GetComponentsInChildren<T>(List<T> results) { }
 	/* GenericInstMethod :
 	|
@@ -580,10 +549,8 @@ public class Component : Object // TypeDefIndex: 3508
 	*/
 
 	[TypeInferenceRuleAttribute] // RVA: 0xB9C80 Offset: 0xB9080 VA: 0x1800B9C80
-	// RVA: 0x1812830 Offset: 0x1810E30 VA: 0x181812830
 	public Component GetComponentInParent(Type t) { }
 
-	// RVA: -1 Offset: -1
 	public T GetComponentInParent<T>() { }
 	/* GenericInstMethod :
 	|
@@ -613,7 +580,6 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.GetComponentInParent<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public T[] GetComponentsInParent<T>(bool includeInactive) { }
 	/* GenericInstMethod :
 	|
@@ -621,7 +587,6 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.GetComponentsInParent<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public void GetComponentsInParent<T>(bool includeInactive, List<T> results) { }
 	/* GenericInstMethod :
 	|
@@ -631,7 +596,6 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.GetComponentsInParent<RectMask2D>
 	*/
 
-	// RVA: -1 Offset: -1
 	public T[] GetComponentsInParent<T>() { }
 	/* GenericInstMethod :
 	|
@@ -640,17 +604,13 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.GetComponentsInParent<object>
 	*/
 
-	// RVA: 0x18129F0 Offset: 0x1810FF0 VA: 0x1818129F0
 	public Component[] GetComponents(Type type) { }
 
 	[FreeFunctionAttribute] // RVA: 0xB9CF0 Offset: 0xB90F0 VA: 0x1800B9CF0
-	// RVA: 0x1812930 Offset: 0x1810F30 VA: 0x181812930
 	private void GetComponentsForListInternal(Type searchType, object resultList) { }
 
-	// RVA: 0x1812930 Offset: 0x1810F30 VA: 0x181812930
 	public void GetComponents(Type type, List<Component> results) { }
 
-	// RVA: -1 Offset: -1
 	public void GetComponents<T>(List<T> results) { }
 	/* GenericInstMethod :
 	|
@@ -663,7 +623,6 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.GetComponents<Mask>
 	*/
 
-	// RVA: -1 Offset: -1
 	public T[] GetComponents<T>() { }
 	/* GenericInstMethod :
 	|
@@ -679,38 +638,28 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.GetComponents<object>
 	*/
 
-	// RVA: 0x18126C0 Offset: 0x1810CC0 VA: 0x1818126C0
 	public bool CompareTag(string tag) { }
 
 	[FreeFunctionAttribute] // RVA: 0xBA000 Offset: 0xB9400 VA: 0x1800BA000
-	// RVA: 0x1812AE0 Offset: 0x18110E0 VA: 0x181812AE0
 	public void SendMessageUpwards(string methodName, object value, SendMessageOptions options) { }
 
-	// RVA: 0x1812C20 Offset: 0x1811220 VA: 0x181812C20
 	public void SendMessage(string methodName, object value) { }
 
-	// RVA: 0x1812C80 Offset: 0x1811280 VA: 0x181812C80
 	public void SendMessage(string methodName) { }
 
 	[FreeFunctionAttribute] // RVA: 0xBB650 Offset: 0xBAA50 VA: 0x1800BB650
-	// RVA: 0x1812BB0 Offset: 0x18111B0 VA: 0x181812BB0
 	public void SendMessage(string methodName, object value, SendMessageOptions options) { }
 
-	// RVA: 0x1812B50 Offset: 0x1811150 VA: 0x181812B50
 	public void SendMessage(string methodName, SendMessageOptions options) { }
 
 	[FreeFunctionAttribute] // RVA: 0xBB760 Offset: 0xBAB60 VA: 0x1800BB760
-	// RVA: 0x1812650 Offset: 0x1810C50 VA: 0x181812650
 	public void BroadcastMessage(string methodName, object parameter, SendMessageOptions options) { }
 
 	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1812600 Offset: 0x1810C00 VA: 0x181812600
 	public void BroadcastMessage(string methodName) { }
 
-	// RVA: 0x18125A0 Offset: 0x1810BA0 VA: 0x1818125A0
 	public void BroadcastMessage(string methodName, SendMessageOptions options) { }
 
-	// RVA: 0x180D0A0 Offset: 0x180B6A0 VA: 0x18180D0A0
 	public void .ctor() { }
 
 }

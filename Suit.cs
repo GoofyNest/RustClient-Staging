@@ -1,6 +1,5 @@
 public enum Suit // TypeDefIndex: 12015
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const Suit Spades = 0;
 	public const Suit Hearts = 1;
 	public const Suit Diamonds = 2;

@@ -1,6 +1,5 @@
 public class JiggleBone : BaseMonoBehaviour // TypeDefIndex: 8784
-{	// Fields
-	public bool debugMode; // 0x18
+{	public bool debugMode; // 0x18
 	private Vector3 targetPos; // 0x1C
 	private Vector3 dynamicPos; // 0x28
 	public Vector3 boneAxis; // 0x34
@@ -18,18 +17,13 @@ public class JiggleBone : BaseMonoBehaviour // TypeDefIndex: 8784
 	public float disableDistance; // 0x84
 	private bool disabled; // 0x88
 
-	// Methods
 
-	// RVA: 0x67C720 Offset: 0x67AD20 VA: 0x18067C720
 	public void LODCheck() { }
 
-	// RVA: 0x67C570 Offset: 0x67AB70 VA: 0x18067C570
 	private void Awake() { }
 
-	// RVA: 0x67C7D0 Offset: 0x67ADD0 VA: 0x18067C7D0
 	private void LateUpdate() { }
 
-	// RVA: 0x67CFF0 Offset: 0x67B5F0 VA: 0x18067CFF0
 	public void .ctor() { }
 
 }

@@ -1,16 +1,12 @@
 internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 {
-// Namespace: 
 [CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
-	// Fields
 	[DebuggerBrowsableAttribute] // RVA: 0x9E9D0 Offset: 0x9DDD0 VA: 0x18009E9D0
 	private readonly <message>j__TPar <message>i__Field; // 0x0
 
-	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void .ctor(<message>j__TPar message) { }
 	/* GenericInstMethod :
 	|
@@ -20,7 +16,6 @@ internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object value) { }
 	/* GenericInstMethod :
 	|
@@ -29,7 +24,6 @@ internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -38,7 +32,6 @@ internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -49,32 +42,23 @@ internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 }
 
 internal class __Filters // TypeDefIndex: 143
-{	// Fields
-	internal static readonly __Filters Instance; // 0x139A7
+{	internal static readonly __Filters Instance; // 0x139A7
 
-	// Methods
 
-	// RVA: 0x214CD10 Offset: 0x214B310 VA: 0x18214CD10 Slot: 4
 	internal virtual bool FilterAttribute(MemberInfo m, object filterCriteria) { }
 
-	// RVA: 0x214D300 Offset: 0x214B900 VA: 0x18214D300 Slot: 5
 	internal virtual bool FilterName(MemberInfo m, object filterCriteria) { }
 
-	// RVA: 0x214D140 Offset: 0x214B740 VA: 0x18214D140 Slot: 6
 	internal virtual bool FilterIgnoreCase(MemberInfo m, object filterCriteria) { }
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x214D4B0 Offset: 0x214BAB0 VA: 0x18214D4B0
 	private static void .cctor() { }
 
 }
 
 public sealed class Func<TResult> : MulticastDelegate // TypeDefIndex: 155
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -106,7 +90,6 @@ public sealed class Func<TResult> : MulticastDelegate // TypeDefIndex: 155
 	|-Func<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual TResult Invoke() { }
 	/* GenericInstMethod :
 	|
@@ -149,7 +132,6 @@ public sealed class Func<TResult> : MulticastDelegate // TypeDefIndex: 155
 	|-Func<Nullable<Int32Enum>>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -171,7 +153,6 @@ public sealed class Func<TResult> : MulticastDelegate // TypeDefIndex: 155
 	|-Func<VoidTaskResult>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual TResult EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -214,9 +195,7 @@ public sealed class Func<TResult> : MulticastDelegate // TypeDefIndex: 155
 }
 
 public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -749,7 +728,6 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<WeatherPreset, bool>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual TResult Invoke(T arg) { }
 	/* GenericInstMethod :
 	|
@@ -1298,7 +1276,6 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<Resolution, Vector2Int>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T arg, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -2140,7 +2117,6 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<Resolution, Vector2Int>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual TResult EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -2477,9 +2453,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 }
 
 public sealed class Converter<TInput, TOutput> : MulticastDelegate // TypeDefIndex: 161
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -2487,7 +2461,6 @@ public sealed class Converter<TInput, TOutput> : MulticastDelegate // TypeDefInd
 	|-Converter<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual TOutput Invoke(TInput input) { }
 	/* GenericInstMethod :
 	|
@@ -2496,7 +2469,6 @@ public sealed class Converter<TInput, TOutput> : MulticastDelegate // TypeDefInd
 	|-Converter<object, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(TInput input, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -2504,7 +2476,6 @@ public sealed class Converter<TInput, TOutput> : MulticastDelegate // TypeDefInd
 	|-Converter<object, object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual TOutput EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -2515,8 +2486,7 @@ public sealed class Converter<TInput, TOutput> : MulticastDelegate // TypeDefInd
 }
 
 internal struct __DTString // TypeDefIndex: 231
-{	// Fields
-	internal string Value; // 0x0
+{	internal string Value; // 0x0
 	internal int Index; // 0x8
 	internal int len; // 0xC
 	internal char m_current; // 0x10
@@ -2524,156 +2494,108 @@ internal struct __DTString // TypeDefIndex: 231
 	private bool m_checkDigitToken; // 0x20
 	private static char[] WhiteSpaceChecks; // 0x0
 
-	// Properties
 	internal CompareInfo CompareInfo { get; }
 
-	// Methods
 
-	// RVA: 0x2353B0 Offset: 0x2347B0 VA: 0x1802353B0
 	internal void .ctor(string str, DateTimeFormatInfo dtfi, bool checkDigitToken) { }
 
-	// RVA: 0x235490 Offset: 0x234890 VA: 0x180235490
 	internal void .ctor(string str, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0xF3EF0 Offset: 0xF32F0 VA: 0x1800F3EF0
 	internal CompareInfo get_CompareInfo() { }
 
-	// RVA: 0x234960 Offset: 0x233D60 VA: 0x180234960
 	internal bool GetNext() { }
 
-	// RVA: 0x234810 Offset: 0x233C10 VA: 0x180234810
 	internal bool AtEnd() { }
 
-	// RVA: 0x2347D0 Offset: 0x233BD0 VA: 0x1802347D0
 	internal bool Advance(int count) { }
 
-	// RVA: 0x2349A0 Offset: 0x233DA0 VA: 0x1802349A0
 	internal void GetRegularToken(out TokenType tokenType, out int tokenValue, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x234A30 Offset: 0x233E30 VA: 0x180234A30
 	internal TokenType GetSeparatorToken(DateTimeFormatInfo dtfi, out int indexBeforeSeparator, out char charBeforeSeparator) { }
 
-	// RVA: 0x234DF0 Offset: 0x2341F0 VA: 0x180234DF0
 	internal bool MatchSpecifiedWord(string target) { }
 
-	// RVA: 0x234D70 Offset: 0x234170 VA: 0x180234D70
 	internal bool MatchSpecifiedWord(string target, int endIndex) { }
 
-	// RVA: 0x234E70 Offset: 0x234270 VA: 0x180234E70
 	internal bool MatchSpecifiedWords(string target, bool checkWordBoundary, ref int matchLength) { }
 
-	// RVA: 0x234E80 Offset: 0x234280 VA: 0x180234E80
 	internal bool Match(string str) { }
 
-	// RVA: 0x234F30 Offset: 0x234330 VA: 0x180234F30
 	internal bool Match(char ch) { }
 
-	// RVA: 0x234CC0 Offset: 0x2340C0 VA: 0x180234CC0
 	internal int MatchLongestWords(string[] words, ref int maxMatchStrLen) { }
 
-	// RVA: 0x2349B0 Offset: 0x233DB0 VA: 0x1802349B0
 	internal int GetRepeatCount() { }
 
-	// RVA: 0x2348E0 Offset: 0x233CE0 VA: 0x1802348E0
 	internal bool GetNextDigit() { }
 
-	// RVA: 0x234880 Offset: 0x233C80 VA: 0x180234880
 	internal char GetChar() { }
 
-	// RVA: 0x2348B0 Offset: 0x233CB0 VA: 0x1802348B0
 	internal int GetDigit() { }
 
-	// RVA: 0x235230 Offset: 0x234630 VA: 0x180235230
 	internal void SkipWhiteSpaces() { }
 
-	// RVA: 0x235220 Offset: 0x234620 VA: 0x180235220
 	internal bool SkipWhiteSpaceCurrent() { }
 
-	// RVA: 0x2352D0 Offset: 0x2346D0 VA: 0x1802352D0
 	internal void TrimTail() { }
 
-	// RVA: 0x2350B0 Offset: 0x2344B0 VA: 0x1802350B0
 	internal void RemoveTrailingInQuoteSpaces() { }
 
-	// RVA: 0x234F90 Offset: 0x234390 VA: 0x180234F90
 	internal void RemoveLeadingInQuoteSpaces() { }
 
-	// RVA: 0x234B40 Offset: 0x233F40 VA: 0x180234B40
 	internal DTSubString GetSubString() { }
 
-	// RVA: 0x234820 Offset: 0x233C20 VA: 0x180234820
 	internal void ConsumeSubString(DTSubString sub) { }
 
-	// RVA: 0x214CAD0 Offset: 0x214B0D0 VA: 0x18214CAD0
 	private static void .cctor() { }
 
 }
 
 internal class __ComObject // TypeDefIndex: 429
-{	// Methods
-
-	// RVA: 0x214B870 Offset: 0x2149E70 VA: 0x18214B870
+{
 	private void .ctor() { }
 
 }
 
 internal static class __Error // TypeDefIndex: 615
-{	// Methods
-
-	// RVA: 0x1684FE0 Offset: 0x16835E0 VA: 0x181684FE0
+{
 	internal static void EndOfFile() { }
 
-	// RVA: 0x1685130 Offset: 0x1683730 VA: 0x181685130
 	internal static void FileNotOpen() { }
 
-	// RVA: 0x1685450 Offset: 0x1683A50 VA: 0x181685450
 	internal static void StreamIsClosed() { }
 
-	// RVA: 0x1685300 Offset: 0x1683900 VA: 0x181685300
 	internal static void MemoryStreamNotExpandable() { }
 
-	// RVA: 0x16853E0 Offset: 0x16839E0 VA: 0x1816853E0
 	internal static void ReaderClosed() { }
 
-	// RVA: 0x1685370 Offset: 0x1683970 VA: 0x181685370
 	internal static void ReadNotSupported() { }
 
-	// RVA: 0x1685C70 Offset: 0x1684270 VA: 0x181685C70
 	internal static void WrongAsyncResult() { }
 
-	// RVA: 0x1685050 Offset: 0x1683650 VA: 0x181685050
 	internal static void EndReadCalledTwice() { }
 
-	// RVA: 0x16850C0 Offset: 0x16836C0 VA: 0x1816850C0
 	internal static void EndWriteCalledTwice() { }
 
-	// RVA: 0x16851A0 Offset: 0x16837A0 VA: 0x1816851A0
 	internal static string GetDisplayablePath(string path, bool isInvalidPath) { }
 
-	// RVA: 0x16854C0 Offset: 0x1683AC0 VA: 0x1816854C0
 	internal static void WinIOError(int errorCode, string maybeFullPath) { }
 
-	// RVA: 0x1685B90 Offset: 0x1684190 VA: 0x181685B90
 	internal static void WriteNotSupported() { }
 
-	// RVA: 0x1685C00 Offset: 0x1684200 VA: 0x181685C00
 	internal static void WriterClosed() { }
 
 }
 
 internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, IEnumerator<TSource>, IDisposable, IEnumerator // TypeDefIndex: 627
-{	// Fields
-	private int threadId; // 0x0
+{	private int threadId; // 0x0
 	internal int state; // 0x0
 	internal TSource current; // 0x0
 
-	// Properties
 	public TSource Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -2681,7 +2603,6 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	|-Iterator<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public TSource get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -2689,7 +2610,6 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	|-Iterator<object>.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 11
 	protected abstract Iterator<TSource> Clone();
 	/* GenericInstMethod :
 	|
@@ -2697,7 +2617,6 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	|-Iterator<object>.Clone
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
@@ -2705,7 +2624,6 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	|-Iterator<object>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	protected virtual void Dispose(bool disposing) { }
 	/* GenericInstMethod :
 	|
@@ -2713,7 +2631,6 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	|-Iterator<object>.Dispose
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public IEnumerator<TSource> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -2721,7 +2638,6 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	|-Iterator<object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public abstract bool MoveNext();
 	/* GenericInstMethod :
 	|
@@ -2729,7 +2645,6 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	|-Iterator<object>.MoveNext
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
@@ -2737,7 +2652,6 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	|-Iterator<object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -2745,7 +2659,6 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	|-Iterator<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
@@ -2756,9 +2669,7 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 }
 
 internal abstract class SearchResultHandler<TSource> // TypeDefIndex: 629
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 4
+{
 	internal abstract bool IsResultIncluded(SearchResult result);
 	/* GenericInstMethod :
 	|
@@ -2766,7 +2677,6 @@ internal abstract class SearchResultHandler<TSource> // TypeDefIndex: 629
 	|-SearchResultHandler<object>.IsResultIncluded
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	internal abstract TSource CreateObject(SearchResult result);
 	/* GenericInstMethod :
 	|
@@ -2774,7 +2684,6 @@ internal abstract class SearchResultHandler<TSource> // TypeDefIndex: 629
 	|-SearchResultHandler<object>.CreateObject
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -2786,28 +2695,22 @@ internal abstract class SearchResultHandler<TSource> // TypeDefIndex: 629
 }
 
 internal static class _ThreadPoolWaitCallback // TypeDefIndex: 814
-{	// Methods
-
-	// RVA: 0x160BDF0 Offset: 0x160A3F0 VA: 0x18160BDF0
+{
 	internal static bool PerformWaitCallback() { }
 
 }
 
 public class Task<TResult> : Task // TypeDefIndex: 842
-{	// Fields
-	internal TResult m_result; // 0x0
+{	internal TResult m_result; // 0x0
 	private static readonly TaskFactory<TResult> s_Factory; // 0x0
 	internal static readonly Func<Task<Task>, Task<TResult>> TaskWhenAnyCast; // 0x0
 
-	// Properties
 	[DebuggerBrowsableAttribute] // RVA: 0x9E9D0 Offset: 0x9DDD0 VA: 0x18009E9D0
 	public TResult Result { get; }
 	internal TResult ResultOnSuccess { get; }
 	public static TaskFactory<TResult> Factory { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -2855,7 +2758,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(object state, TaskCreationOptions options) { }
 	/* GenericInstMethod :
 	|
@@ -2902,7 +2804,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(TResult result) { }
 	/* GenericInstMethod :
 	|
@@ -2949,7 +2850,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(bool canceled, TResult result, TaskCreationOptions creationOptions, CancellationToken ct) { }
 	/* GenericInstMethod :
 	|
@@ -2996,7 +2896,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(Func<object, TResult> function, object state, CancellationToken cancellationToken, TaskCreationOptions creationOptions) { }
 	/* GenericInstMethod :
 	|
@@ -3043,7 +2942,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(Func<TResult> valueSelector, Task parent, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
@@ -3090,7 +2988,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(Func<TResult> valueSelector, Task parent, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler) { }
 	/* GenericInstMethod :
 	|
@@ -3137,7 +3034,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(Delegate valueSelector, object state, Task parent, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler) { }
 	/* GenericInstMethod :
 	|
@@ -3184,7 +3080,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal static Task<TResult> StartNew(Task parent, Func<TResult> function, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
@@ -3231,7 +3126,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>.StartNew
 	*/
 
-	// RVA: -1 Offset: -1
 	internal bool TrySetResult(TResult result) { }
 	/* GenericInstMethod :
 	|
@@ -3273,7 +3167,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<Task>.TrySetResult
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void DangerousSetResult(TResult result) { }
 	/* GenericInstMethod :
 	|
@@ -3314,7 +3207,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<object>.DangerousSetResult
 	*/
 
-	// RVA: -1 Offset: -1
 	public TResult get_Result() { }
 	/* GenericInstMethod :
 	|
@@ -3354,7 +3246,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<Nullable<Item>>.get_Result
 	*/
 
-	// RVA: -1 Offset: -1
 	internal TResult get_ResultOnSuccess() { }
 	/* GenericInstMethod :
 	|
@@ -3391,7 +3282,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<object>.get_ResultOnSuccess
 	*/
 
-	// RVA: -1 Offset: -1
 	internal TResult GetResultCore(bool waitCompletionNotification) { }
 	/* GenericInstMethod :
 	|
@@ -3428,7 +3318,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<object>.GetResultCore
 	*/
 
-	// RVA: -1 Offset: -1
 	internal bool TrySetException(object exceptionObject) { }
 	/* GenericInstMethod :
 	|
@@ -3449,7 +3338,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>.TrySetException
 	*/
 
-	// RVA: -1 Offset: -1
 	internal bool TrySetCanceled(CancellationToken tokenToRecord) { }
 	/* GenericInstMethod :
 	|
@@ -3470,7 +3358,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>.TrySetCanceled
 	*/
 
-	// RVA: -1 Offset: -1
 	internal bool TrySetCanceled(CancellationToken tokenToRecord, object cancellationException) { }
 	/* GenericInstMethod :
 	|
@@ -3491,7 +3378,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>.TrySetCanceled
 	*/
 
-	// RVA: -1 Offset: -1
 	public static TaskFactory<TResult> get_Factory() { }
 	/* GenericInstMethod :
 	|
@@ -3514,7 +3400,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>.get_Factory
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 19
 	internal override void InnerInvoke() { }
 	/* GenericInstMethod :
 	|
@@ -3556,7 +3441,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<Task>.InnerInvoke
 	*/
 
-	// RVA: -1 Offset: -1
 	public TaskAwaiter<TResult> GetAwaiter() { }
 	/* GenericInstMethod :
 	|
@@ -3592,7 +3476,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>.GetAwaiter
 	*/
 
-	// RVA: -1 Offset: -1
 	public ConfiguredTaskAwaitable<TResult> ConfigureAwait(bool continueOnCapturedContext) { }
 	/* GenericInstMethod :
 	|
@@ -3619,7 +3502,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>.ConfigureAwait
 	*/
 
-	// RVA: -1 Offset: -1
 	public Task ContinueWith(Action<Task<TResult>> continuationAction, TaskContinuationOptions continuationOptions) { }
 	/* GenericInstMethod :
 	|
@@ -3667,7 +3549,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>.ContinueWith
 	*/
 
-	// RVA: -1 Offset: -1
 	internal Task ContinueWith(Action<Task<TResult>> continuationAction, TaskScheduler scheduler, CancellationToken cancellationToken, TaskContinuationOptions continuationOptions, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
@@ -3714,7 +3595,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<VoidTaskResult>.ContinueWith
 	*/
 
-	// RVA: -1 Offset: -1
 	public Task<TNewResult> ContinueWith<TNewResult>(Func<Task<TResult>, TNewResult> continuationFunction) { }
 	/* GenericInstMethod :
 	|
@@ -3723,7 +3603,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<object>.ContinueWith<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	internal Task<TNewResult> ContinueWith<TNewResult>(Func<Task<TResult>, TNewResult> continuationFunction, TaskScheduler scheduler, CancellationToken cancellationToken, TaskContinuationOptions continuationOptions, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
@@ -3731,7 +3610,6 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<object>.ContinueWith<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -3756,17 +3634,13 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 
 public class TaskFactory<TResult> // TypeDefIndex: 845
 {
-// Namespace: System.Threading.Tasks
 public class TaskFactory<TResult> // TypeDefIndex: 845
-	// Fields
 	private CancellationToken m_defaultCancellationToken; // 0x0
 	private TaskScheduler m_defaultScheduler; // 0x0
 	private TaskCreationOptions m_defaultCreationOptions; // 0x0
 	private TaskContinuationOptions m_defaultContinuationOptions; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -3787,7 +3661,6 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	|-TaskFactory<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(CancellationToken cancellationToken, TaskCreationOptions creationOptions, TaskContinuationOptions continuationOptions, TaskScheduler scheduler) { }
 	/* GenericInstMethod :
 	|
@@ -3808,7 +3681,6 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	|-TaskFactory<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public Task<TResult> StartNew(Func<TResult> function, CancellationToken cancellationToken, TaskCreationOptions creationOptions, TaskScheduler scheduler) { }
 	/* GenericInstMethod :
 	|
@@ -3855,7 +3727,6 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	|-TaskFactory<VoidTaskResult>.StartNew
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void FromAsyncCoreLogic(IAsyncResult iar, Func<IAsyncResult, TResult> endFunction, Action<IAsyncResult> endAction, Task<TResult> promise, bool requiresSynchronization) { }
 	/* GenericInstMethod :
 	|
@@ -3902,7 +3773,6 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	|-TaskFactory<VoidTaskResult>.FromAsyncCoreLogic
 	*/
 
-	// RVA: -1 Offset: -1
 	public Task<TResult> FromAsync(Func<AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, TResult> endMethod, object state) { }
 	/* GenericInstMethod :
 	|
@@ -3925,7 +3795,6 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	|-TaskFactory<VoidTaskResult>.FromAsync
 	*/
 
-	// RVA: -1 Offset: -1
 	internal static Task<TResult> FromAsyncImpl(Func<AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, TResult> endFunction, Action<IAsyncResult> endAction, object state, TaskCreationOptions creationOptions) { }
 	/* GenericInstMethod :
 	|
@@ -3972,7 +3841,6 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	|-TaskFactory<VoidTaskResult>.FromAsyncImpl
 	*/
 
-	// RVA: -1 Offset: -1
 	public Task<TResult> FromAsync<TArg1, TArg2>(Func<TArg1, TArg2, AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, TResult> endMethod, TArg1 arg1, TArg2 arg2, object state) { }
 	/* GenericInstMethod :
 	|
@@ -3984,7 +3852,6 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	|-TaskFactory<object>.FromAsync<object, object>
 	*/
 
-	// RVA: -1 Offset: -1
 	internal static Task<TResult> FromAsyncImpl<TArg1, TArg2>(Func<TArg1, TArg2, AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, TResult> endFunction, Action<IAsyncResult> endAction, TArg1 arg1, TArg2 arg2, object state, TaskCreationOptions creationOptions) { }
 	/* GenericInstMethod :
 	|
@@ -3995,7 +3862,6 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	|-TaskFactory<object>.FromAsyncImpl<object, object>
 	*/
 
-	// RVA: -1 Offset: -1
 	internal static Task<TResult> FromAsyncTrim<TInstance, TArgs>(TInstance thisRef, TArgs args, Func<TInstance, TArgs, AsyncCallback, object, IAsyncResult> beginMethod, Func<TInstance, IAsyncResult, TResult> endMethod) { }
 	/* GenericInstMethod :
 	|
@@ -4014,13 +3880,10 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 }
 
 internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAction // TypeDefIndex: 868
-{	// Fields
-	private byte _state; // 0x0
+{	private byte _state; // 0x0
 	private readonly bool _lookForOce; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(Task outerTask, bool lookForOce) { }
 	/* GenericInstMethod :
 	|
@@ -4028,7 +3891,6 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	|-UnwrapPromise<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 20
 	public void Invoke(Task completingTask) { }
 	/* GenericInstMethod :
 	|
@@ -4036,7 +3898,6 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	|-UnwrapPromise<object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1
 	private void InvokeCore(Task completingTask) { }
 	/* GenericInstMethod :
 	|
@@ -4044,7 +3905,6 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	|-UnwrapPromise<object>.InvokeCore
 	*/
 
-	// RVA: -1 Offset: -1
 	private void InvokeCoreAsync(Task completingTask) { }
 	/* GenericInstMethod :
 	|
@@ -4052,7 +3912,6 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	|-UnwrapPromise<object>.InvokeCoreAsync
 	*/
 
-	// RVA: -1 Offset: -1
 	private void ProcessCompletedOuterTask(Task task) { }
 	/* GenericInstMethod :
 	|
@@ -4060,7 +3919,6 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	|-UnwrapPromise<object>.ProcessCompletedOuterTask
 	*/
 
-	// RVA: -1 Offset: -1
 	private bool TrySetFromTask(Task task, bool lookForOce) { }
 	/* GenericInstMethod :
 	|
@@ -4068,7 +3926,6 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	|-UnwrapPromise<object>.TrySetFromTask
 	*/
 
-	// RVA: -1 Offset: -1
 	private void ProcessInnerTask(Task task) { }
 	/* GenericInstMethod :
 	|
@@ -4079,15 +3936,11 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 }
 
 public class TaskCompletionSource<TResult> // TypeDefIndex: 871
-{	// Fields
-	private readonly Task<TResult> m_task; // 0x0
+{	private readonly Task<TResult> m_task; // 0x0
 
-	// Properties
 	public Task<TResult> Task { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -4096,7 +3949,6 @@ public class TaskCompletionSource<TResult> // TypeDefIndex: 871
 	|-TaskCompletionSource<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public Task<TResult> get_Task() { }
 	/* GenericInstMethod :
 	|
@@ -4105,7 +3957,6 @@ public class TaskCompletionSource<TResult> // TypeDefIndex: 871
 	|-TaskCompletionSource<object>.get_Task
 	*/
 
-	// RVA: -1 Offset: -1
 	private void SpinUntilCompleted() { }
 	/* GenericInstMethod :
 	|
@@ -4113,7 +3964,6 @@ public class TaskCompletionSource<TResult> // TypeDefIndex: 871
 	|-TaskCompletionSource<object>.SpinUntilCompleted
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TrySetCanceled() { }
 	/* GenericInstMethod :
 	|
@@ -4121,7 +3971,6 @@ public class TaskCompletionSource<TResult> // TypeDefIndex: 871
 	|-TaskCompletionSource<object>.TrySetCanceled
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TrySetCanceled(CancellationToken cancellationToken) { }
 	/* GenericInstMethod :
 	|
@@ -4129,7 +3978,6 @@ public class TaskCompletionSource<TResult> // TypeDefIndex: 871
 	|-TaskCompletionSource<object>.TrySetCanceled
 	*/
 
-	// RVA: -1 Offset: -1
 	public void SetCanceled() { }
 	/* GenericInstMethod :
 	|
@@ -4141,12 +3989,9 @@ public class TaskCompletionSource<TResult> // TypeDefIndex: 871
 }
 
 internal sealed class ContinuationTaskFromResultTask<TAntecedentResult> : Task // TypeDefIndex: 873
-{	// Fields
-	private Task<TAntecedentResult> m_antecedent; // 0x0
+{	private Task<TAntecedentResult> m_antecedent; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(Task<TAntecedentResult> antecedent, Delegate action, object state, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
@@ -4193,7 +4038,6 @@ internal sealed class ContinuationTaskFromResultTask<TAntecedentResult> : Task /
 	|-ContinuationTaskFromResultTask<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 19
 	internal override void InnerInvoke() { }
 	/* GenericInstMethod :
 	|
@@ -4217,12 +4061,9 @@ internal sealed class ContinuationTaskFromResultTask<TAntecedentResult> : Task /
 }
 
 internal sealed class ContinuationResultTaskFromResultTask<TAntecedentResult, TResult> : Task<TResult> // TypeDefIndex: 874
-{	// Fields
-	private Task<TAntecedentResult> m_antecedent; // 0x0
+{	private Task<TAntecedentResult> m_antecedent; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(Task<TAntecedentResult> antecedent, Delegate function, object state, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
@@ -4230,7 +4071,6 @@ internal sealed class ContinuationResultTaskFromResultTask<TAntecedentResult, TR
 	|-ContinuationResultTaskFromResultTask<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 19
 	internal override void InnerInvoke() { }
 	/* GenericInstMethod :
 	|
@@ -4241,8 +4081,7 @@ internal sealed class ContinuationResultTaskFromResultTask<TAntecedentResult, TR
 }
 
 internal sealed class __BinaryWriter // TypeDefIndex: 1105
-{	// Fields
-	internal Stream sout; // 0x10
+{	internal Stream sout; // 0x10
 	internal FormatterTypeStyle formatterTypeStyle; // 0x18
 	internal Hashtable objectMapTable; // 0x20
 	internal ObjectWriter objectWriter; // 0x28
@@ -4264,154 +4103,105 @@ internal sealed class __BinaryWriter // TypeDefIndex: 1105
 	internal MemberReference memberReference; // 0xA0
 	internal BinaryAssembly binaryAssembly; // 0xA8
 
-	// Methods
 
-	// RVA: 0x12AD5F0 Offset: 0x12ABBF0 VA: 0x1812AD5F0
 	internal void .ctor(Stream sout, ObjectWriter objectWriter, FormatterTypeStyle formatterTypeStyle) { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal void WriteBegin() { }
 
-	// RVA: 0x12AB470 Offset: 0x12A9A70 VA: 0x1812AB470
 	internal void WriteEnd() { }
 
-	// RVA: 0x12AB250 Offset: 0x12A9850 VA: 0x1812AB250
 	internal void WriteBoolean(bool value) { }
 
-	// RVA: 0x12AB280 Offset: 0x12A9880 VA: 0x1812AB280
 	internal void WriteByte(byte value) { }
 
-	// RVA: 0x12AB2B0 Offset: 0x12A98B0 VA: 0x1812AB2B0
 	private void WriteBytes(byte[] value) { }
 
-	// RVA: 0x12AB2E0 Offset: 0x12A98E0 VA: 0x1812AB2E0
 	private void WriteBytes(byte[] byteA, int offset, int size) { }
 
-	// RVA: 0x12AB310 Offset: 0x12A9910 VA: 0x1812AB310
 	internal void WriteChar(char value) { }
 
-	// RVA: 0x12AB340 Offset: 0x12A9940 VA: 0x1812AB340
 	internal void WriteChars(char[] value) { }
 
-	// RVA: 0x12AB3A0 Offset: 0x12A99A0 VA: 0x1812AB3A0
 	internal void WriteDecimal(Decimal value) { }
 
-	// RVA: 0x12ACC60 Offset: 0x12AB260 VA: 0x1812ACC60
 	internal void WriteSingle(float value) { }
 
-	// RVA: 0x12AB440 Offset: 0x12A9A40 VA: 0x1812AB440
 	internal void WriteDouble(double value) { }
 
-	// RVA: 0x12AB4A0 Offset: 0x12A9AA0 VA: 0x1812AB4A0
 	internal void WriteInt16(short value) { }
 
-	// RVA: 0x12AB4D0 Offset: 0x12A9AD0 VA: 0x1812AB4D0
 	internal void WriteInt32(int value) { }
 
-	// RVA: 0x12AB370 Offset: 0x12A9970 VA: 0x1812AB370
 	internal void WriteInt64(long value) { }
 
-	// RVA: 0x12AB280 Offset: 0x12A9880 VA: 0x1812AB280
 	internal void WriteSByte(sbyte value) { }
 
-	// RVA: 0x12ACC90 Offset: 0x12AB290 VA: 0x1812ACC90
 	internal void WriteString(string value) { }
 
-	// RVA: 0x12AB370 Offset: 0x12A9970 VA: 0x1812AB370
 	internal void WriteTimeSpan(TimeSpan value) { }
 
-	// RVA: 0x12AB370 Offset: 0x12A9970 VA: 0x1812AB370
 	internal void WriteDateTime(DateTime value) { }
 
-	// RVA: 0x12ACCC0 Offset: 0x12AB2C0 VA: 0x1812ACCC0
 	internal void WriteUInt16(ushort value) { }
 
-	// RVA: 0x12ACCF0 Offset: 0x12AB2F0 VA: 0x1812ACCF0
 	internal void WriteUInt32(uint value) { }
 
-	// RVA: 0x12ACD20 Offset: 0x12AB320 VA: 0x1812ACD20
 	internal void WriteUInt64(ulong value) { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal void WriteObjectEnd(NameInfo memberNameInfo, NameInfo typeNameInfo) { }
 
-	// RVA: 0x12AC7D0 Offset: 0x12AADD0 VA: 0x1812AC7D0
 	internal void WriteSerializationHeaderEnd() { }
 
-	// RVA: 0x12AC850 Offset: 0x12AAE50 VA: 0x1812AC850
 	internal void WriteSerializationHeader(int topId, int headerId, int minorVersion, int majorVersion) { }
 
-	// RVA: 0x12ABCF0 Offset: 0x12AA2F0 VA: 0x1812ABCF0
 	internal void WriteMethodCall() { }
 
-	// RVA: 0x12ABD90 Offset: 0x12AA390 VA: 0x1812ABD90
 	internal void WriteMethodReturn() { }
 
-	// RVA: 0x12AC050 Offset: 0x12AA650 VA: 0x1812AC050
 	internal void WriteObject(NameInfo nameInfo, NameInfo typeNameInfo, int numMembers, string[] memberNames, Type[] memberTypes, WriteObjectInfo[] memberObjectInfos) { }
 
-	// RVA: 0x12ABF80 Offset: 0x12AA580 VA: 0x1812ABF80
 	internal void WriteObjectString(int objectId, string value) { }
 
-	// RVA: 0x12AC910 Offset: 0x12AAF10 VA: 0x1812AC910
 	internal void WriteSingleArray(NameInfo memberNameInfo, NameInfo arrayNameInfo, WriteObjectInfo objectInfo, NameInfo arrayElemTypeNameInfo, int length, int lowerBound, Array array) { }
 
-	// RVA: 0x12AAEE0 Offset: 0x12A94E0 VA: 0x1812AAEE0
 	private void WriteArrayAsBytes(Array array, int typeLength) { }
 
-	// RVA: 0x12AB770 Offset: 0x12A9D70 VA: 0x1812AB770
 	internal void WriteJaggedArray(NameInfo memberNameInfo, NameInfo arrayNameInfo, WriteObjectInfo objectInfo, NameInfo arrayElemTypeNameInfo, int length, int lowerBound) { }
 
-	// RVA: 0x12AC610 Offset: 0x12AAC10 VA: 0x1812AC610
 	internal void WriteRectangleArray(NameInfo memberNameInfo, NameInfo arrayNameInfo, WriteObjectInfo objectInfo, NameInfo arrayElemTypeNameInfo, int rank, int[] lengthA, int[] lowerBoundA) { }
 
-	// RVA: 0x12ABF20 Offset: 0x12AA520 VA: 0x1812ABF20
 	internal void WriteObjectByteArray(NameInfo memberNameInfo, NameInfo arrayNameInfo, WriteObjectInfo objectInfo, NameInfo arrayElemTypeNameInfo, int length, int lowerBound, byte[] byteA) { }
 
-	// RVA: 0x12ABB70 Offset: 0x12AA170 VA: 0x1812ABB70
 	internal void WriteMember(NameInfo memberNameInfo, NameInfo typeNameInfo, object value) { }
 
-	// RVA: 0x12ABE40 Offset: 0x12AA440 VA: 0x1812ABE40
 	internal void WriteNullMember(NameInfo memberNameInfo, NameInfo typeNameInfo) { }
 
-	// RVA: 0x12AB9B0 Offset: 0x12A9FB0 VA: 0x1812AB9B0
 	internal void WriteMemberObjectRef(NameInfo memberNameInfo, int idRef) { }
 
-	// RVA: 0x12AB980 Offset: 0x12A9F80 VA: 0x1812AB980
 	internal void WriteMemberNested(NameInfo memberNameInfo) { }
 
-	// RVA: 0x12ABA80 Offset: 0x12AA080 VA: 0x1812ABA80
 	internal void WriteMemberString(NameInfo memberNameInfo, NameInfo typeNameInfo, string value) { }
 
-	// RVA: 0x12AB5F0 Offset: 0x12A9BF0 VA: 0x1812AB5F0
 	internal void WriteItem(NameInfo itemNameInfo, NameInfo typeNameInfo, object value) { }
 
-	// RVA: 0x12ABE30 Offset: 0x12AA430 VA: 0x1812ABE30
 	internal void WriteNullItem(NameInfo itemNameInfo, NameInfo typeNameInfo) { }
 
-	// RVA: 0x12AB430 Offset: 0x12A9A30 VA: 0x1812AB430
 	internal void WriteDelayedNullItem() { }
 
-	// RVA: 0x12AB500 Offset: 0x12A9B00 VA: 0x1812AB500
 	internal void WriteItemEnd() { }
 
-	// RVA: 0x12AAE20 Offset: 0x12A9420 VA: 0x1812AAE20
 	private void InternalWriteItemNull() { }
 
-	// RVA: 0x12AB510 Offset: 0x12A9B10 VA: 0x1812AB510
 	internal void WriteItemObjectRef(NameInfo nameInfo, int idRef) { }
 
-	// RVA: 0x12AB150 Offset: 0x12A9750 VA: 0x1812AB150
 	internal void WriteAssembly(Type type, string assemblyString, int assemId, bool isNew) { }
 
-	// RVA: 0x12ACD50 Offset: 0x12AB350 VA: 0x1812ACD50
 	internal void WriteValue(InternalPrimitiveTypeE code, object value) { }
 
 }
 
 internal sealed class __BinaryParser // TypeDefIndex: 1116
-{	// Fields
-	internal ObjectReader objectReader; // 0x10
+{	internal ObjectReader objectReader; // 0x10
 	internal Stream input; // 0x18
 	internal long topId; // 0x20
 	internal long headerId; // 0x28
@@ -4437,167 +4227,114 @@ internal sealed class __BinaryParser // TypeDefIndex: 1116
 	internal ObjectNull objectNull; // 0xC0
 	internal static MessageEnd messageEnd; // 0x8
 
-	// Properties
 	internal BinaryAssemblyInfo SystemAssemblyInfo { get; }
 	internal SizedArray ObjectMapIdTable { get; }
 	internal SizedArray AssemIdToAssemblyTable { get; }
 	internal ParseRecord prs { get; }
 
-	// Methods
 
-	// RVA: 0x120FB00 Offset: 0x120E100 VA: 0x18120FB00
 	internal void .ctor(Stream stream, ObjectReader objectReader) { }
 
-	// RVA: 0x120FDC0 Offset: 0x120E3C0 VA: 0x18120FDC0
 	internal BinaryAssemblyInfo get_SystemAssemblyInfo() { }
 
-	// RVA: 0x120FCF0 Offset: 0x120E2F0 VA: 0x18120FCF0
 	internal SizedArray get_ObjectMapIdTable() { }
 
-	// RVA: 0x120FC20 Offset: 0x120E220 VA: 0x18120FC20
 	internal SizedArray get_AssemIdToAssemblyTable() { }
 
-	// RVA: 0x120FEA0 Offset: 0x120E4A0 VA: 0x18120FEA0
 	internal ParseRecord get_prs() { }
 
-	// RVA: 0x120F510 Offset: 0x120DB10 VA: 0x18120F510
 	internal void Run() { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal void ReadBegin() { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal void ReadEnd() { }
 
-	// RVA: 0x120AC80 Offset: 0x1209280 VA: 0x18120AC80
 	internal bool ReadBoolean() { }
 
-	// RVA: 0x120ACB0 Offset: 0x12092B0 VA: 0x18120ACB0
 	internal byte ReadByte() { }
 
-	// RVA: 0x120AD70 Offset: 0x1209370 VA: 0x18120AD70
 	internal byte[] ReadBytes(int length) { }
 
-	// RVA: 0x120ACE0 Offset: 0x12092E0 VA: 0x18120ACE0
 	internal void ReadBytes(byte[] byteA, int offset, int size) { }
 
-	// RVA: 0x120ADA0 Offset: 0x12093A0 VA: 0x18120ADA0
 	internal char ReadChar() { }
 
-	// RVA: 0x120ADD0 Offset: 0x12093D0 VA: 0x18120ADD0
 	internal char[] ReadChars(int length) { }
 
-	// RVA: 0x120BBE0 Offset: 0x120A1E0 VA: 0x18120BBE0
 	internal Decimal ReadDecimal() { }
 
-	// RVA: 0x120EF00 Offset: 0x120D500 VA: 0x18120EF00
 	internal float ReadSingle() { }
 
-	// RVA: 0x120BCB0 Offset: 0x120A2B0 VA: 0x18120BCB0
 	internal double ReadDouble() { }
 
-	// RVA: 0x120BCE0 Offset: 0x120A2E0 VA: 0x18120BCE0
 	internal short ReadInt16() { }
 
-	// RVA: 0x120BD10 Offset: 0x120A310 VA: 0x18120BD10
 	internal int ReadInt32() { }
 
-	// RVA: 0x120BD40 Offset: 0x120A340 VA: 0x18120BD40
 	internal long ReadInt64() { }
 
-	// RVA: 0x120ACB0 Offset: 0x12092B0 VA: 0x18120ACB0
 	internal sbyte ReadSByte() { }
 
-	// RVA: 0x120EF30 Offset: 0x120D530 VA: 0x18120EF30
 	internal string ReadString() { }
 
-	// RVA: 0x120BD40 Offset: 0x120A340 VA: 0x18120BD40
 	internal TimeSpan ReadTimeSpan() { }
 
-	// RVA: 0x120BB60 Offset: 0x120A160 VA: 0x18120BB60
 	internal DateTime ReadDateTime() { }
 
-	// RVA: 0x120EF60 Offset: 0x120D560 VA: 0x18120EF60
 	internal ushort ReadUInt16() { }
 
-	// RVA: 0x120EF90 Offset: 0x120D590 VA: 0x18120EF90
 	internal uint ReadUInt32() { }
 
-	// RVA: 0x120EFC0 Offset: 0x120D5C0 VA: 0x18120EFC0
 	internal ulong ReadUInt64() { }
 
-	// RVA: 0x120EE50 Offset: 0x120D450 VA: 0x18120EE50
 	internal void ReadSerializationHeaderRecord() { }
 
-	// RVA: 0x120A9B0 Offset: 0x1208FB0 VA: 0x18120A9B0
 	internal void ReadAssembly(BinaryHeaderEnum binaryHeaderEnum) { }
 
-	// RVA: 0x120E950 Offset: 0x120CF50 VA: 0x18120E950
 	private void ReadObject() { }
 
-	// RVA: 0x120AE00 Offset: 0x1209400 VA: 0x18120AE00
 	internal void ReadCrossAppDomainMap() { }
 
-	// RVA: 0x120E270 Offset: 0x120C870 VA: 0x18120E270
 	internal void ReadObjectWithMap(BinaryHeaderEnum binaryHeaderEnum) { }
 
-	// RVA: 0x120E330 Offset: 0x120C930 VA: 0x18120E330
 	private void ReadObjectWithMap(BinaryObjectWithMap record) { }
 
-	// RVA: 0x120E1B0 Offset: 0x120C7B0 VA: 0x18120E1B0
 	internal void ReadObjectWithMapTyped(BinaryHeaderEnum binaryHeaderEnum) { }
 
-	// RVA: 0x120DB60 Offset: 0x120C160 VA: 0x18120DB60
 	private void ReadObjectWithMapTyped(BinaryObjectWithMapTyped record) { }
 
-	// RVA: 0x120D1C0 Offset: 0x120B7C0 VA: 0x18120D1C0
 	private void ReadObjectString(BinaryHeaderEnum binaryHeaderEnum) { }
 
-	// RVA: 0x120BD70 Offset: 0x120A370 VA: 0x18120BD70
 	private void ReadMemberPrimitiveTyped() { }
 
-	// RVA: 0x120A2C0 Offset: 0x12088C0 VA: 0x18120A2C0
 	private void ReadArray(BinaryHeaderEnum binaryHeaderEnum) { }
 
-	// RVA: 0x1209D50 Offset: 0x1208350 VA: 0x181209D50
 	private void ReadArrayAsBytes(ParseRecord pr) { }
 
-	// RVA: 0x120C370 Offset: 0x120A970 VA: 0x18120C370
 	private void ReadMemberPrimitiveUnTyped() { }
 
-	// RVA: 0x120C8B0 Offset: 0x120AEB0 VA: 0x18120C8B0
 	private void ReadMemberReference() { }
 
-	// RVA: 0x120CDF0 Offset: 0x120B3F0 VA: 0x18120CDF0
 	private void ReadObjectNull(BinaryHeaderEnum binaryHeaderEnum) { }
 
-	// RVA: 0x120CC70 Offset: 0x120B270 VA: 0x18120CC70
 	private void ReadMessageEnd() { }
 
-	// RVA: 0x120EFF0 Offset: 0x120D5F0 VA: 0x18120EFF0
 	internal object ReadValue(InternalPrimitiveTypeE code) { }
 
-	// RVA: 0x1209B10 Offset: 0x1208110 VA: 0x181209B10
 	private ObjectProgress GetOp() { }
 
-	// RVA: 0x1209CB0 Offset: 0x12082B0 VA: 0x181209CB0
 	private void PutOp(ObjectProgress op) { }
 
-	// RVA: 0x120FAA0 Offset: 0x120E0A0 VA: 0x18120FAA0
 	private static void .cctor() { }
 
 }
 
 public struct TaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletion // TypeDefIndex: 1291
-{	// Fields
-	private readonly Task<TResult> m_task; // 0x0
+{	private readonly Task<TResult> m_task; // 0x0
 
-	// Properties
 	public bool IsCompleted { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(Task<TResult> task) { }
 	/* GenericInstMethod :
 	|
@@ -4618,7 +4355,6 @@ public struct TaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletio
 	|-TaskAwaiter<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsCompleted() { }
 	/* GenericInstMethod :
 	|
@@ -4654,7 +4390,6 @@ public struct TaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletio
 	|-TaskAwaiter<VoidTaskResult>.get_IsCompleted
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void OnCompleted(Action continuation) { }
 	/* GenericInstMethod :
 	|
@@ -4675,7 +4410,6 @@ public struct TaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletio
 	|-TaskAwaiter<VoidTaskResult>.OnCompleted
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public void UnsafeOnCompleted(Action continuation) { }
 	/* GenericInstMethod :
 	|
@@ -4696,7 +4430,6 @@ public struct TaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletio
 	|-TaskAwaiter<VoidTaskResult>.UnsafeOnCompleted
 	*/
 
-	// RVA: -1 Offset: -1
 	public TResult GetResult() { }
 	/* GenericInstMethod :
 	|
@@ -4751,12 +4484,9 @@ public struct TaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletio
 }
 
 public struct ConfiguredTaskAwaitable<TResult> // TypeDefIndex: 1294
-{	// Fields
-	private readonly ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<TResult> m_configuredTaskAwaiter; // 0x0
+{	private readonly ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<TResult> m_configuredTaskAwaiter; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(Task<TResult> task, bool continueOnCapturedContext) { }
 	/* GenericInstMethod :
 	|
@@ -4777,7 +4507,6 @@ public struct ConfiguredTaskAwaitable<TResult> // TypeDefIndex: 1294
 	|-ConfiguredTaskAwaitable<VoidTaskResult>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<TResult> GetAwaiter() { }
 	/* GenericInstMethod :
 	|
@@ -4807,12 +4536,9 @@ public struct ConfiguredTaskAwaitable<TResult> // TypeDefIndex: 1294
 }
 
 internal struct ConcurrentSet<KeyType, ItemType> // TypeDefIndex: 1507
-{	// Fields
-	private ItemType[] items; // 0x0
+{	private ItemType[] items; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public ItemType TryGet(KeyType key) { }
 	/* GenericInstMethod :
 	|
@@ -4824,7 +4550,6 @@ internal struct ConcurrentSet<KeyType, ItemType> // TypeDefIndex: 1507
 	|-ConcurrentSet<object, object>.TryGet
 	*/
 
-	// RVA: -1 Offset: -1
 	public ItemType GetOrAdd(ItemType newItem) { }
 	/* GenericInstMethod :
 	|
@@ -4837,9 +4562,7 @@ internal struct ConcurrentSet<KeyType, ItemType> // TypeDefIndex: 1507
 }
 
 internal abstract class ConcurrentSetItem<KeyType, ItemType> // TypeDefIndex: 1508
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 4
+{
 	public abstract int Compare(ItemType other);
 	/* GenericInstMethod :
 	|
@@ -4847,7 +4570,6 @@ internal abstract class ConcurrentSetItem<KeyType, ItemType> // TypeDefIndex: 15
 	|-ConcurrentSetItem<object, object>.Compare
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public abstract int Compare(KeyType key);
 	/* GenericInstMethod :
 	|
@@ -4855,7 +4577,6 @@ internal abstract class ConcurrentSetItem<KeyType, ItemType> // TypeDefIndex: 15
 	|-ConcurrentSetItem<object, object>.Compare
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -4868,13 +4589,10 @@ internal abstract class ConcurrentSetItem<KeyType, ItemType> // TypeDefIndex: 15
 }
 
 internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<ContainerType> // TypeDefIndex: 1524
-{	// Fields
-	private readonly PropertyAnalysis[] properties; // 0x0
+{	private readonly PropertyAnalysis[] properties; // 0x0
 	private readonly PropertyAccessor<ContainerType>[] accessors; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(TypeAnalysis typeAnalysis) { }
 	/* GenericInstMethod :
 	|
@@ -4903,7 +4621,6 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	|-InvokeTypeInfo<UIntPtr>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
@@ -4932,7 +4649,6 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	|-InvokeTypeInfo<UIntPtr>.WriteMetadata
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public override void WriteData(TraceLoggingDataCollector collector, ref ContainerType value) { }
 	/* GenericInstMethod :
 	|
@@ -4961,7 +4677,6 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	|-InvokeTypeInfo<UIntPtr>.WriteData
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public override object GetData(object value) { }
 	/* GenericInstMethod :
 	|
@@ -5032,7 +4747,6 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	|-InvokeTypeInfo<UIntPtr>.GetData
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override void WriteObjectData(TraceLoggingDataCollector collector, object valueObj) { }
 	/* GenericInstMethod :
 	|
@@ -5078,9 +4792,7 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 }
 
 internal abstract class PropertyAccessor<ContainerType> // TypeDefIndex: 1526
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 4
+{
 	public abstract void Write(TraceLoggingDataCollector collector, ref ContainerType value);
 	/* GenericInstMethod :
 	|
@@ -5088,7 +4800,6 @@ internal abstract class PropertyAccessor<ContainerType> // TypeDefIndex: 1526
 	|-PropertyAccessor<object>.Write
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public abstract object GetData(ContainerType value);
 	/* GenericInstMethod :
 	|
@@ -5096,7 +4807,6 @@ internal abstract class PropertyAccessor<ContainerType> // TypeDefIndex: 1526
 	|-PropertyAccessor<object>.GetData
 	*/
 
-	// RVA: -1 Offset: -1
 	public static PropertyAccessor<ContainerType> Create(PropertyAnalysis property) { }
 	/* GenericInstMethod :
 	|
@@ -5167,7 +4877,6 @@ internal abstract class PropertyAccessor<ContainerType> // TypeDefIndex: 1526
 	|-PropertyAccessor<UIntPtr>.Create
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -5199,13 +4908,10 @@ internal abstract class PropertyAccessor<ContainerType> // TypeDefIndex: 1526
 }
 
 internal class NonGenericProperytWriter<ContainerType> : PropertyAccessor<ContainerType> // TypeDefIndex: 1527
-{	// Fields
-	private readonly TraceLoggingTypeInfo typeInfo; // 0x0
+{	private readonly TraceLoggingTypeInfo typeInfo; // 0x0
 	private readonly MethodInfo getterInfo; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(PropertyAnalysis property) { }
 	/* GenericInstMethod :
 	|
@@ -5234,7 +4940,6 @@ internal class NonGenericProperytWriter<ContainerType> : PropertyAccessor<Contai
 	|-NonGenericProperytWriter<UIntPtr>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void Write(TraceLoggingDataCollector collector, ref ContainerType container) { }
 	/* GenericInstMethod :
 	|
@@ -5277,7 +4982,6 @@ internal class NonGenericProperytWriter<ContainerType> : PropertyAccessor<Contai
 	|-NonGenericProperytWriter<float>.Write
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override object GetData(ContainerType container) { }
 	/* GenericInstMethod :
 	|
@@ -5323,13 +5027,10 @@ internal class NonGenericProperytWriter<ContainerType> : PropertyAccessor<Contai
 }
 
 internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<ContainerType> // TypeDefIndex: 1528
-{	// Fields
-	private readonly TraceLoggingTypeInfo<ValueType> valueTypeInfo; // 0x0
+{	private readonly TraceLoggingTypeInfo<ValueType> valueTypeInfo; // 0x0
 	private readonly ClassPropertyWriter.Getter<ContainerType, ValueType> getter; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(PropertyAnalysis property) { }
 	/* GenericInstMethod :
 	|
@@ -5532,7 +5233,6 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<UIntPtr, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void Write(TraceLoggingDataCollector collector, ref ContainerType container) { }
 	/* GenericInstMethod :
 	|
@@ -5643,7 +5343,6 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<float, object>.Write
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override object GetData(ContainerType container) { }
 	/* GenericInstMethod :
 	|
@@ -5745,9 +5444,7 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 }
 
 internal sealed class NullTypeInfo<DataType> : TraceLoggingTypeInfo<DataType> // TypeDefIndex: 1531
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 4
+{
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
@@ -5756,7 +5453,6 @@ internal sealed class NullTypeInfo<DataType> : TraceLoggingTypeInfo<DataType> //
 	|-NullTypeInfo<object>.WriteMetadata
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public override void WriteData(TraceLoggingDataCollector collector, ref DataType value) { }
 	/* GenericInstMethod :
 	|
@@ -5765,7 +5461,6 @@ internal sealed class NullTypeInfo<DataType> : TraceLoggingTypeInfo<DataType> //
 	|-NullTypeInfo<object>.WriteData
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public override object GetData(object value) { }
 	/* GenericInstMethod :
 	|
@@ -5774,7 +5469,6 @@ internal sealed class NullTypeInfo<DataType> : TraceLoggingTypeInfo<DataType> //
 	|-NullTypeInfo<object>.GetData
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -5786,15 +5480,11 @@ internal sealed class NullTypeInfo<DataType> : TraceLoggingTypeInfo<DataType> //
 }
 
 internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo // TypeDefIndex: 1590
-{	// Fields
-	private static TraceLoggingTypeInfo<DataType> instance; // 0x0
+{	private static TraceLoggingTypeInfo<DataType> instance; // 0x0
 
-	// Properties
 	public static TraceLoggingTypeInfo<DataType> Instance { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -5881,7 +5571,6 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	|-TraceLoggingTypeInfo<UIntPtr>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor(string name, EventLevel level, EventOpcode opcode, EventKeywords keywords, EventTags tags) { }
 	/* GenericInstMethod :
 	|
@@ -5952,7 +5641,6 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	|-TraceLoggingTypeInfo<UIntPtr>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public static TraceLoggingTypeInfo<DataType> get_Instance() { }
 	/* GenericInstMethod :
 	|
@@ -5982,7 +5670,6 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	|-TraceLoggingTypeInfo<UIntPtr>.get_Instance
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	public abstract void WriteData(TraceLoggingDataCollector collector, ref DataType value);
 	/* GenericInstMethod :
 	|
@@ -5990,7 +5677,6 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	|-TraceLoggingTypeInfo<object>.WriteData
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override void WriteObjectData(TraceLoggingDataCollector collector, object value) { }
 	/* GenericInstMethod :
 	|
@@ -6049,7 +5735,6 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	|-TraceLoggingTypeInfo<float>.WriteObjectData
 	*/
 
-	// RVA: -1 Offset: -1
 	internal static TraceLoggingTypeInfo<DataType> GetInstance(List<Type> recursionCheck) { }
 	/* GenericInstMethod :
 	|
@@ -6120,7 +5805,6 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	|-TraceLoggingTypeInfo<UIntPtr>.GetInstance
 	*/
 
-	// RVA: -1 Offset: -1
 	private static TraceLoggingTypeInfo<DataType> InitInstance() { }
 	/* GenericInstMethod :
 	|
@@ -6194,8 +5878,7 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 1635
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 0392525BCB01691D1F319D89F2C12BF93A478467 /*Metadata offset 0x521C30*/; // 0x0
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 0392525BCB01691D1F319D89F2C12BF93A478467 /*Metadata offset 0x521C30*/; // 0x0
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 0588059ACBD52F7EA2835882F977A9CF72EB9775 /*Metadata offset 0x521D30*/; // 0x100
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=84 0A1ADB22C1D3E1F4B2448EE3F27DF9DE63329C4C /*Metadata offset 0x521D78*/; // 0x148
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=240 121EC59E23F7559B28D338D562528F6299C2DE22 /*Metadata offset 0x521DCC*/; // 0x19C
@@ -6340,32 +6023,25 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 1635
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 F8FAABB821300AA500C2CEC6091B3782A7FB44A4 /*Metadata offset 0x535361*/; // 0x13735
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2350 FCBD2781A933F0828ED4AAF88FD8B08D76DDD49B /*Metadata offset 0x53536D*/; // 0x13741
 
-	// Methods
 
-	// RVA: 0xAAB9D0 Offset: 0xAA9FD0 VA: 0x180AAB9D0
 	internal static uint ComputeStringHash(string s) { }
 
 }
 
 internal class __Il2CppComObject // TypeDefIndex: 1690
-{	// Methods
-
-	// RVA: 0x214D510 Offset: 0x214BB10 VA: 0x18214D510 Slot: 1
+{
 	protected override void Finalize() { }
 
 }
 
 internal sealed class __Il2CppComDelegate : __Il2CppComObject // TypeDefIndex: 1691
-{	// Methods
-
-	// RVA: 0x214D510 Offset: 0x214BB10 VA: 0x18214D510 Slot: 1
+{
 	protected override void Finalize() { }
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 1772
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 12D04472A8285260EA12FD3813CDFA9F2D2B548C /*Metadata offset 0x535F73*/; // 0x0
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 12D04472A8285260EA12FD3813CDFA9F2D2B548C /*Metadata offset 0x535F73*/; // 0x0
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 13A35EF1A549297C70E2AD46045BBD2ECA17852D /*Metadata offset 0x535F76*/; // 0x3
 	internal static readonly long 16968835DEF6DD3BB86EABA9DEC53BF41851CD6D = -1295888024253181014; // 0x8
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 1A84029C80CB5518379F199F53FF08A7B764F8FD /*Metadata offset 0x535F81*/; // 0x10
@@ -6394,16 +6070,13 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 1772
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 EC5BB4F59D4B9B2E9ECD3904D44A8275F23AFB11 /*Metadata offset 0x536E6D*/; // 0xEFF
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 EC83FB16C20052BEE2B4025159BC2ED45C9C70C3 /*Metadata offset 0x536E77*/; // 0xF09
 
-	// Methods
 
-	// RVA: 0xAAB9D0 Offset: 0xAA9FD0 VA: 0x180AAB9D0
 	internal static uint ComputeStringHash(string s) { }
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 2431
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 0701435C4E2C38EFE43C51BD22C114AB8B80124D /*Metadata offset 0x537DE1*/; // 0x0
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 0701435C4E2C38EFE43C51BD22C114AB8B80124D /*Metadata offset 0x537DE1*/; // 0x0
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 0EE6555EB2C89F29655BD23FAB0573D8D684331A /*Metadata offset 0x537DED*/; // 0xC
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=68 0F6A1E2CEA2FA691D57F3F3FDCF9B82A3FBF6EE1 /*Metadata offset 0x537E11*/; // 0x30
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 161F91CE1721D8F16622810CBB39887D21C47031 /*Metadata offset 0x537E55*/; // 0x74
@@ -6443,19 +6116,15 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 2431
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1212 FB0C58D8B3094F018764CC6E3094B9576DB08069 /*Metadata offset 0x538FA9*/; // 0x11C8
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 FFE3F15642234E7FAD6951D432F1134D5AD15922 /*Metadata offset 0x539465*/; // 0x1684
 
-	// Methods
 
-	// RVA: 0xAAB9D0 Offset: 0xAA9FD0 VA: 0x180AAB9D0
 	internal static uint ComputeStringHash(string s) { }
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 3155
 {
-// Namespace: 
 [CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 3155
-	// Fields
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=14 0283A6AF88802AB45989B29549915BEA0F6CD515 /*Metadata offset 0x53A61F*/; // 0x0
 	internal static readonly long 03F4297FCC30D0FD5E420E5D26E7FA711167C7EF = 2533317740920864; // 0x10
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9 1A39764B112685485A5BA7B2880D878B858C1A7A /*Metadata offset 0x53A635*/; // 0x18
@@ -6475,20 +6144,15 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 3155
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 EC5842B3154E1AF94500B57220EB9F684BCCC42A /*Metadata offset 0x53A7E8*/; // 0x1D0
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 EEAFE8C6E1AB017237567305EE925C976CDB6458 /*Metadata offset 0x53A808*/; // 0x1F0
 
-	// Methods
 
-	// RVA: 0xAAB9D0 Offset: 0xAA9FD0 VA: 0x180AAB9D0
 	internal static uint ComputeStringHash(string s) { }
 
 }
 
 internal class EmptyEnumerable<TElement> // TypeDefIndex: 3221
-{	// Fields
-	public static readonly TElement[] Instance; // 0x0
+{	public static readonly TElement[] Instance; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
@@ -6500,12 +6164,9 @@ internal class EmptyEnumerable<TElement> // TypeDefIndex: 3221
 }
 
 internal class IdentityFunction<TElement> // TypeDefIndex: 3222
-{	// Properties
-	public static Func<TElement, TElement> Instance { get; }
+{	public static Func<TElement, TElement> Instance { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public static Func<TElement, TElement> get_Instance() { }
 	/* GenericInstMethod :
 	|
@@ -6518,16 +6179,13 @@ internal class IdentityFunction<TElement> // TypeDefIndex: 3222
 }
 
 internal class Set<TElement> // TypeDefIndex: 3230
-{	// Fields
-	private int[] buckets; // 0x0
+{	private int[] buckets; // 0x0
 	private Set.Slot<TElement>[] slots; // 0x0
 	private int count; // 0x0
 	private int freeList; // 0x0
 	private IEqualityComparer<TElement> comparer; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IEqualityComparer<TElement> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -6547,7 +6205,6 @@ internal class Set<TElement> // TypeDefIndex: 3230
 	|-Set<Vector2>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool Add(TElement value) { }
 	/* GenericInstMethod :
 	|
@@ -6565,7 +6222,6 @@ internal class Set<TElement> // TypeDefIndex: 3230
 	|-Set<Vector2>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	private bool Find(TElement value, bool add) { }
 	/* GenericInstMethod :
 	|
@@ -6585,7 +6241,6 @@ internal class Set<TElement> // TypeDefIndex: 3230
 	|-Set<Vector2>.Find
 	*/
 
-	// RVA: -1 Offset: -1
 	private void Resize() { }
 	/* GenericInstMethod :
 	|
@@ -6605,7 +6260,6 @@ internal class Set<TElement> // TypeDefIndex: 3230
 	|-Set<Vector2>.Resize
 	*/
 
-	// RVA: -1 Offset: -1
 	internal int InternalGetHashCode(TElement value) { }
 	/* GenericInstMethod :
 	|
@@ -6628,15 +6282,12 @@ internal class Set<TElement> // TypeDefIndex: 3230
 }
 
 internal class GroupedEnumerable<TSource, TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IEnumerable // TypeDefIndex: 3232
-{	// Fields
-	private IEnumerable<TSource> source; // 0x0
+{	private IEnumerable<TSource> source; // 0x0
 	private Func<TSource, TKey> keySelector; // 0x0
 	private Func<TSource, TElement> elementSelector; // 0x0
 	private IEqualityComparer<TKey> comparer; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -6659,7 +6310,6 @@ internal class GroupedEnumerable<TSource, TKey, TElement> : IEnumerable<IGroupin
 	|-GroupedEnumerable<Resolution, Vector2Int, Resolution>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public IEnumerator<IGrouping<TKey, TElement>> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -6672,7 +6322,6 @@ internal class GroupedEnumerable<TSource, TKey, TElement> : IEnumerable<IGroupin
 	|-GroupedEnumerable<Resolution, Vector2Int, Resolution>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -6688,13 +6337,10 @@ internal class GroupedEnumerable<TSource, TKey, TElement> : IEnumerable<IGroupin
 }
 
 internal abstract class OrderedEnumerable<TElement> : IOrderedEnumerable<TElement>, IEnumerable<TElement>, IEnumerable // TypeDefIndex: 3233
-{	// Fields
-	internal IEnumerable<TElement> source; // 0x0
+{	internal IEnumerable<TElement> source; // 0x0
 
-	// Methods
 
 	[IteratorStateMachineAttribute] // RVA: 0xD1AA0 Offset: 0xD0EA0 VA: 0x1800D1AA0
-	// RVA: -1 Offset: -1 Slot: 5
 	public IEnumerator<TElement> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -6718,7 +6364,6 @@ internal abstract class OrderedEnumerable<TElement> : IOrderedEnumerable<TElemen
 	|-OrderedEnumerable<Resolution>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	internal abstract EnumerableSorter<TElement> GetEnumerableSorter(EnumerableSorter<TElement> next);
 	/* GenericInstMethod :
 	|
@@ -6726,7 +6371,6 @@ internal abstract class OrderedEnumerable<TElement> : IOrderedEnumerable<TElemen
 	|-OrderedEnumerable<object>.GetEnumerableSorter
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -6742,7 +6386,6 @@ internal abstract class OrderedEnumerable<TElement> : IOrderedEnumerable<TElemen
 	|-OrderedEnumerable<Resolution>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	private IOrderedEnumerable<TElement> System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable<TKey>(Func<TElement, TKey> keySelector, IComparer<TKey> comparer, bool descending) { }
 	/* GenericInstMethod :
 	|
@@ -6755,7 +6398,6 @@ internal abstract class OrderedEnumerable<TElement> : IOrderedEnumerable<TElemen
 	|-OrderedEnumerable<Resolution>.System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable<int>
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -6774,15 +6416,12 @@ internal abstract class OrderedEnumerable<TElement> : IOrderedEnumerable<TElemen
 }
 
 internal class OrderedEnumerable<TElement, TKey> : OrderedEnumerable<TElement> // TypeDefIndex: 3235
-{	// Fields
-	internal OrderedEnumerable<TElement> parent; // 0x0
+{	internal OrderedEnumerable<TElement> parent; // 0x0
 	internal Func<TElement, TKey> keySelector; // 0x0
 	internal IComparer<TKey> comparer; // 0x0
 	internal bool descending; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(IEnumerable<TElement> source, Func<TElement, TKey> keySelector, IComparer<TKey> comparer, bool descending) { }
 	/* GenericInstMethod :
 	|
@@ -6850,7 +6489,6 @@ internal class OrderedEnumerable<TElement, TKey> : OrderedEnumerable<TElement> /
 	|-OrderedEnumerable<Resolution, int>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	internal override EnumerableSorter<TElement> GetEnumerableSorter(EnumerableSorter<TElement> next) { }
 	/* GenericInstMethod :
 	|
@@ -6881,13 +6519,10 @@ internal class OrderedEnumerable<TElement, TKey> : OrderedEnumerable<TElement> /
 }
 
 internal struct Buffer<TElement> // TypeDefIndex: 3238
-{	// Fields
-	internal TElement[] items; // 0x0
+{	internal TElement[] items; // 0x0
 	internal int count; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(IEnumerable<TElement> source) { }
 	/* GenericInstMethod :
 	|
@@ -6973,7 +6608,6 @@ internal struct Buffer<TElement> // TypeDefIndex: 3238
 	|-Buffer<Resolution>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal TElement[] ToArray() { }
 	/* GenericInstMethod :
 	|
@@ -7011,10 +6645,8 @@ internal struct Buffer<TElement> // TypeDefIndex: 3238
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 3258
 {
-// Namespace: 
 [CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 3258
-	// Fields
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=120 0AA802CD6847EB893FE786B5EA5168B2FDCD7B93 /*Metadata offset 0x53AA9F*/; // 0x0
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 0C4110BC17D746F018F47B49E0EB0D6590F69939 /*Metadata offset 0x53AB17*/; // 0x78
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 20733E1283D873EBE47133A95C233E11B76F5F11 /*Metadata offset 0x53AC17*/; // 0x178
@@ -7030,14 +6662,11 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 3258
 }
 
 public struct BatchQueryJob<CommandT, ResultT> // TypeDefIndex: 3307
-{	// Fields
-	[ReadOnlyAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[ReadOnlyAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	internal NativeArray<CommandT> commands; // 0x0
 	internal NativeArray<ResultT> results; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(NativeArray<CommandT> commands, NativeArray<ResultT> results) { }
 	/* GenericInstMethod :
 	|
@@ -7048,15 +6677,12 @@ public struct BatchQueryJob<CommandT, ResultT> // TypeDefIndex: 3307
 }
 
 internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+{	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private UnityAction<T1> Delegate; // 0x0
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void add_Delegate(UnityAction<T1> value) { }
 	/* GenericInstMethod :
 	|
@@ -7072,7 +6698,6 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	protected void remove_Delegate(UnityAction<T1> value) { }
 	/* GenericInstMethod :
 	|
@@ -7087,7 +6712,6 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	|-InvokableCall<Vector2>.remove_Delegate
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
@@ -7116,7 +6740,6 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	|-InvokableCall<Vector2>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(UnityAction<T1> action) { }
 	/* GenericInstMethod :
 	|
@@ -7131,7 +6754,6 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	|-InvokableCall<Vector2>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public override void Invoke(object[] args) { }
 	/* GenericInstMethod :
 	|
@@ -7160,7 +6782,6 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	|-InvokableCall<Vector2>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	public virtual void Invoke(T1 args0) { }
 	/* GenericInstMethod :
 	|
@@ -7187,7 +6808,6 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	|-InvokableCall<Vector2>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public override bool Find(object targetObj, MethodInfo method) { }
 	/* GenericInstMethod :
 	|
@@ -7205,9 +6825,7 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 }
 
 public sealed class UnityAction<T0> : MulticastDelegate // TypeDefIndex: 3641
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -7228,7 +6846,6 @@ public sealed class UnityAction<T0> : MulticastDelegate // TypeDefIndex: 3641
 	|-UnityAction<Vector2>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual void Invoke(T0 arg0) { }
 	/* GenericInstMethod :
 	|
@@ -7259,7 +6876,6 @@ public sealed class UnityAction<T0> : MulticastDelegate // TypeDefIndex: 3641
 	|-UnityAction<Vector2>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T0 arg0, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -7291,7 +6907,6 @@ public sealed class UnityAction<T0> : MulticastDelegate // TypeDefIndex: 3641
 	|-UnityAction<Vector2>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual void EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -7310,13 +6925,10 @@ public sealed class UnityAction<T0> : MulticastDelegate // TypeDefIndex: 3641
 }
 
 public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
-{	// Fields
-	private object[] m_InvokeArray; // 0x0
+{	private object[] m_InvokeArray; // 0x0
 
-	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -7336,7 +6948,6 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	|-UnityEvent<Vector2>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void AddListener(UnityAction<T0> call) { }
 	/* GenericInstMethod :
 	|
@@ -7353,7 +6964,6 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	|-UnityEvent<Vector2>.AddListener
 	*/
 
-	// RVA: -1 Offset: -1
 	public void RemoveListener(UnityAction<T0> call) { }
 	/* GenericInstMethod :
 	|
@@ -7369,7 +6979,6 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	|-UnityEvent<Vector2>.RemoveListener
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	protected override MethodInfo FindMethod_Impl(string name, object targetObj) { }
 	/* GenericInstMethod :
 	|
@@ -7403,7 +7012,6 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	|-UnityEvent<Vector2>.FindMethod_Impl
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
@@ -7423,7 +7031,6 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	|-UnityEvent<Vector2>.GetDelegate
 	*/
 
-	// RVA: -1 Offset: -1
 	private static BaseInvokableCall GetDelegate(UnityAction<T0> action) { }
 	/* GenericInstMethod :
 	|
@@ -7438,7 +7045,6 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	|-UnityEvent<Vector2>.GetDelegate
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Invoke(T0 arg0) { }
 	/* GenericInstMethod :
 	|
@@ -7475,9 +7081,7 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 }
 
 public sealed class UnityAction<T0, T1> : MulticastDelegate // TypeDefIndex: 3643
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -7490,7 +7094,6 @@ public sealed class UnityAction<T0, T1> : MulticastDelegate // TypeDefIndex: 364
 	|-UnityAction<Vector2, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual void Invoke(T0 arg0, T1 arg1) { }
 	/* GenericInstMethod :
 	|
@@ -7511,7 +7114,6 @@ public sealed class UnityAction<T0, T1> : MulticastDelegate // TypeDefIndex: 364
 	|-UnityAction<Vector2, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T0 arg0, T1 arg1, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -7531,7 +7133,6 @@ public sealed class UnityAction<T0, T1> : MulticastDelegate // TypeDefIndex: 364
 	|-UnityAction<Vector2, object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual void EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -7546,13 +7147,10 @@ public sealed class UnityAction<T0, T1> : MulticastDelegate // TypeDefIndex: 364
 }
 
 public abstract class UnityEvent<T0, T1> : UnityEventBase // TypeDefIndex: 3644
-{	// Fields
-	private object[] m_InvokeArray; // 0x0
+{	private object[] m_InvokeArray; // 0x0
 
-	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -7564,7 +7162,6 @@ public abstract class UnityEvent<T0, T1> : UnityEventBase // TypeDefIndex: 3644
 	|-UnityEvent<Vector2, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	protected override MethodInfo FindMethod_Impl(string name, object targetObj) { }
 	/* GenericInstMethod :
 	|
@@ -7580,7 +7177,6 @@ public abstract class UnityEvent<T0, T1> : UnityEventBase // TypeDefIndex: 3644
 	|-UnityEvent<Vector2, object>.FindMethod_Impl
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
@@ -7592,7 +7188,6 @@ public abstract class UnityEvent<T0, T1> : UnityEventBase // TypeDefIndex: 3644
 	|-UnityEvent<Vector2, object>.GetDelegate
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Invoke(T0 arg0, T1 arg1) { }
 	/* GenericInstMethod :
 	|
@@ -7611,9 +7206,7 @@ public abstract class UnityEvent<T0, T1> : UnityEventBase // TypeDefIndex: 3644
 }
 
 public sealed class UnityAction<T0, T1, T2> : MulticastDelegate // TypeDefIndex: 3645
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -7622,7 +7215,6 @@ public sealed class UnityAction<T0, T1, T2> : MulticastDelegate // TypeDefIndex:
 	|-UnityAction<object, object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual void Invoke(T0 arg0, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
@@ -7633,7 +7225,6 @@ public sealed class UnityAction<T0, T1, T2> : MulticastDelegate // TypeDefIndex:
 	|-UnityAction<object, object, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T0 arg0, T1 arg1, T2 arg2, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -7644,7 +7235,6 @@ public sealed class UnityAction<T0, T1, T2> : MulticastDelegate // TypeDefIndex:
 	|-UnityAction<object, object, object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual void EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -7656,13 +7246,10 @@ public sealed class UnityAction<T0, T1, T2> : MulticastDelegate // TypeDefIndex:
 }
 
 public abstract class UnityEvent<T0, T1, T2> : UnityEventBase // TypeDefIndex: 3646
-{	// Fields
-	private object[] m_InvokeArray; // 0x0
+{	private object[] m_InvokeArray; // 0x0
 
-	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -7672,7 +7259,6 @@ public abstract class UnityEvent<T0, T1, T2> : UnityEventBase // TypeDefIndex: 3
 	|-UnityEvent<string, int, int>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	protected override MethodInfo FindMethod_Impl(string name, object targetObj) { }
 	/* GenericInstMethod :
 	|
@@ -7684,7 +7270,6 @@ public abstract class UnityEvent<T0, T1, T2> : UnityEventBase // TypeDefIndex: 3
 	|-UnityEvent<object, object, object>.FindMethod_Impl
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
@@ -7694,7 +7279,6 @@ public abstract class UnityEvent<T0, T1, T2> : UnityEventBase // TypeDefIndex: 3
 	|-UnityEvent<string, int, int>.GetDelegate
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Invoke(T0 arg0, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
@@ -7709,9 +7293,7 @@ public abstract class UnityEvent<T0, T1, T2> : UnityEventBase // TypeDefIndex: 3
 }
 
 public sealed class UnityAction<T0, T1, T2, T3> : MulticastDelegate // TypeDefIndex: 3647
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -7719,7 +7301,6 @@ public sealed class UnityAction<T0, T1, T2, T3> : MulticastDelegate // TypeDefIn
 	|-UnityAction<object, object, object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual void Invoke(T0 arg0, T1 arg1, T2 arg2, T3 arg3) { }
 	/* GenericInstMethod :
 	|
@@ -7727,7 +7308,6 @@ public sealed class UnityAction<T0, T1, T2, T3> : MulticastDelegate // TypeDefIn
 	|-UnityAction<object, object, object, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T0 arg0, T1 arg1, T2 arg2, T3 arg3, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -7735,7 +7315,6 @@ public sealed class UnityAction<T0, T1, T2, T3> : MulticastDelegate // TypeDefIn
 	|-UnityAction<object, object, object, object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual void EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -7746,13 +7325,10 @@ public sealed class UnityAction<T0, T1, T2, T3> : MulticastDelegate // TypeDefIn
 }
 
 public abstract class UnityEvent<T0, T1, T2, T3> : UnityEventBase // TypeDefIndex: 3648
-{	// Fields
-	private object[] m_InvokeArray; // 0x0
+{	private object[] m_InvokeArray; // 0x0
 
-	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -7760,7 +7336,6 @@ public abstract class UnityEvent<T0, T1, T2, T3> : UnityEventBase // TypeDefInde
 	|-UnityEvent<object, object, object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	protected override MethodInfo FindMethod_Impl(string name, object targetObj) { }
 	/* GenericInstMethod :
 	|
@@ -7768,7 +7343,6 @@ public abstract class UnityEvent<T0, T1, T2, T3> : UnityEventBase // TypeDefInde
 	|-UnityEvent<object, object, object, object>.FindMethod_Impl
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 7
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
@@ -7779,9 +7353,7 @@ public abstract class UnityEvent<T0, T1, T2, T3> : UnityEventBase // TypeDefInde
 }
 
 public class IntegratedSubsystemDescriptor<TSubsystem> : IntegratedSubsystemDescriptor // TypeDefIndex: 3941
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -7795,9 +7367,7 @@ public class IntegratedSubsystemDescriptor<TSubsystem> : IntegratedSubsystemDesc
 }
 
 public class IntegratedSubsystem<TSubsystemDescriptor> : IntegratedSubsystem // TypeDefIndex: 3947
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -7811,16 +7381,13 @@ public class IntegratedSubsystem<TSubsystemDescriptor> : IntegratedSubsystem // 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 4066
-{	// Methods
-
-	// RVA: 0xAAB9D0 Offset: 0xAA9FD0 VA: 0x180AAB9D0
+{
 	internal static uint ComputeStringHash(string s) { }
 
 }
 
 internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
-{	// Fields
-	private RBTree.TreePage<K>[] _pageTable; // 0x0
+{	private RBTree.TreePage<K>[] _pageTable; // 0x0
 	private int[] _pageTableMap; // 0x0
 	private int _inUsePageCount; // 0x0
 	private int _nextFreePageLine; // 0x0
@@ -7830,14 +7397,11 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private int _inUseSatelliteTreeCount; // 0x0
 	private readonly TreeAccessMethod _accessMethod; // 0x0
 
-	// Properties
 	public int Count { get; }
 	public bool HasDuplicates { get; }
 	public K Item { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1 Slot: 5
 	protected abstract int CompareNode(K record1, K record2);
 	/* GenericInstMethod :
 	|
@@ -7845,7 +7409,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.CompareNode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 6
 	protected abstract int CompareSateliteTreeNode(K record1, K record2);
 	/* GenericInstMethod :
 	|
@@ -7853,7 +7416,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.CompareSateliteTreeNode
 	*/
 
-	// RVA: -1 Offset: -1
 	protected void .ctor(TreeAccessMethod accessMethod) { }
 	/* GenericInstMethod :
 	|
@@ -7863,7 +7425,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	private void InitTree() { }
 	/* GenericInstMethod :
 	|
@@ -7874,7 +7435,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.InitTree
 	*/
 
-	// RVA: -1 Offset: -1
 	private void FreePage(RBTree.TreePage<K> page) { }
 	/* GenericInstMethod :
 	|
@@ -7883,7 +7443,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.FreePage
 	*/
 
-	// RVA: -1 Offset: -1
 	private RBTree.TreePage<K> AllocPage(int size) { }
 	/* GenericInstMethod :
 	|
@@ -7894,7 +7453,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.AllocPage
 	*/
 
-	// RVA: -1 Offset: -1
 	private void MarkPageFull(RBTree.TreePage<K> page) { }
 	/* GenericInstMethod :
 	|
@@ -7903,7 +7461,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.MarkPageFull
 	*/
 
-	// RVA: -1 Offset: -1
 	private void MarkPageFree(RBTree.TreePage<K> page) { }
 	/* GenericInstMethod :
 	|
@@ -7912,7 +7469,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.MarkPageFree
 	*/
 
-	// RVA: -1 Offset: -1
 	private static int GetIntValueFromBitMap(uint bitMap) { }
 	/* GenericInstMethod :
 	|
@@ -7921,7 +7477,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.GetIntValueFromBitMap
 	*/
 
-	// RVA: -1 Offset: -1
 	private void FreeNode(int nodeId) { }
 	/* GenericInstMethod :
 	|
@@ -7932,7 +7487,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.FreeNode
 	*/
 
-	// RVA: -1 Offset: -1
 	private int GetIndexOfPageWithFreeSlot(bool allocatedPage) { }
 	/* GenericInstMethod :
 	|
@@ -7943,7 +7497,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.GetIndexOfPageWithFreeSlot
 	*/
 
-	// RVA: -1 Offset: -1
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
@@ -7953,7 +7506,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.get_Count
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_HasDuplicates() { }
 	/* GenericInstMethod :
 	|
@@ -7962,7 +7514,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.get_HasDuplicates
 	*/
 
-	// RVA: -1 Offset: -1
 	private int GetNewNode(K key) { }
 	/* GenericInstMethod :
 	|
@@ -7973,7 +7524,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.GetNewNode
 	*/
 
-	// RVA: -1 Offset: -1
 	private int Successor(int x_id) { }
 	/* GenericInstMethod :
 	|
@@ -7982,7 +7532,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.Successor
 	*/
 
-	// RVA: -1 Offset: -1
 	private bool Successor(ref int nodeId, ref int mainTreeNodeId) { }
 	/* GenericInstMethod :
 	|
@@ -7993,7 +7542,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.Successor
 	*/
 
-	// RVA: -1 Offset: -1
 	private int Minimum(int x_id) { }
 	/* GenericInstMethod :
 	|
@@ -8002,7 +7550,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.Minimum
 	*/
 
-	// RVA: -1 Offset: -1
 	private int LeftRotate(int root_id, int x_id, int mainTreeNode) { }
 	/* GenericInstMethod :
 	|
@@ -8013,7 +7560,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.LeftRotate
 	*/
 
-	// RVA: -1 Offset: -1
 	private int RightRotate(int root_id, int x_id, int mainTreeNode) { }
 	/* GenericInstMethod :
 	|
@@ -8024,7 +7570,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.RightRotate
 	*/
 
-	// RVA: -1 Offset: -1
 	private int RBInsert(int root_id, int x_id, int mainTreeNodeID, int position, bool append) { }
 	/* GenericInstMethod :
 	|
@@ -8035,7 +7580,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.RBInsert
 	*/
 
-	// RVA: -1 Offset: -1
 	public void UpdateNodeKey(K currentKey, K newKey) { }
 	/* GenericInstMethod :
 	|
@@ -8046,7 +7590,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.UpdateNodeKey
 	*/
 
-	// RVA: -1 Offset: -1
 	public K DeleteByIndex(int i) { }
 	/* GenericInstMethod :
 	|
@@ -8057,7 +7600,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.DeleteByIndex
 	*/
 
-	// RVA: -1 Offset: -1
 	public int RBDelete(int z_id) { }
 	/* GenericInstMethod :
 	|
@@ -8067,7 +7609,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.RBDelete
 	*/
 
-	// RVA: -1 Offset: -1
 	private int RBDeleteX(int root_id, int z_id, int mainTreeNodeID) { }
 	/* GenericInstMethod :
 	|
@@ -8078,7 +7619,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.RBDeleteX
 	*/
 
-	// RVA: -1 Offset: -1
 	private int RBDeleteFixup(int root_id, int x_id, int px_id, int mainTreeNodeID) { }
 	/* GenericInstMethod :
 	|
@@ -8089,7 +7629,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.RBDeleteFixup
 	*/
 
-	// RVA: -1 Offset: -1
 	private int SearchSubTree(int root_id, K key) { }
 	/* GenericInstMethod :
 	|
@@ -8100,7 +7639,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.SearchSubTree
 	*/
 
-	// RVA: -1 Offset: -1
 	public K get_Item(int index) { }
 	/* GenericInstMethod :
 	|
@@ -8110,7 +7648,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.get_Item
 	*/
 
-	// RVA: -1 Offset: -1
 	private RBTree.NodePath<K> GetNodeByKey(K key) { }
 	/* GenericInstMethod :
 	|
@@ -8121,7 +7658,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.GetNodeByKey
 	*/
 
-	// RVA: -1 Offset: -1
 	public int GetIndexByKey(K key) { }
 	/* GenericInstMethod :
 	|
@@ -8130,7 +7666,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.GetIndexByKey
 	*/
 
-	// RVA: -1 Offset: -1
 	public int GetIndexByNode(int node) { }
 	/* GenericInstMethod :
 	|
@@ -8141,7 +7676,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.GetIndexByNode
 	*/
 
-	// RVA: -1 Offset: -1
 	private int GetIndexByNodePath(RBTree.NodePath<K> path) { }
 	/* GenericInstMethod :
 	|
@@ -8150,7 +7684,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.GetIndexByNodePath
 	*/
 
-	// RVA: -1 Offset: -1
 	private int ComputeIndexByNode(int nodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8159,7 +7692,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.ComputeIndexByNode
 	*/
 
-	// RVA: -1 Offset: -1
 	private int ComputeIndexWithSatelliteByNode(int nodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8168,7 +7700,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.ComputeIndexWithSatelliteByNode
 	*/
 
-	// RVA: -1 Offset: -1
 	private RBTree.NodePath<K> GetNodeByIndex(int userIndex) { }
 	/* GenericInstMethod :
 	|
@@ -8179,7 +7710,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.GetNodeByIndex
 	*/
 
-	// RVA: -1 Offset: -1
 	private int ComputeNodeByIndex(int index, out int satelliteRootId) { }
 	/* GenericInstMethod :
 	|
@@ -8188,7 +7718,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.ComputeNodeByIndex
 	*/
 
-	// RVA: -1 Offset: -1
 	private int ComputeNodeByIndex(int x_id, int index) { }
 	/* GenericInstMethod :
 	|
@@ -8197,7 +7726,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.ComputeNodeByIndex
 	*/
 
-	// RVA: -1 Offset: -1
 	public int Insert(K item) { }
 	/* GenericInstMethod :
 	|
@@ -8206,7 +7734,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.Insert
 	*/
 
-	// RVA: -1 Offset: -1
 	public int Add(K item) { }
 	/* GenericInstMethod :
 	|
@@ -8216,7 +7743,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public IEnumerator GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -8228,7 +7754,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<int>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1
 	public int IndexOf(int nodeId, K item) { }
 	/* GenericInstMethod :
 	|
@@ -8240,7 +7765,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<int>.IndexOf
 	*/
 
-	// RVA: -1 Offset: -1
 	public int Insert(int position, K item) { }
 	/* GenericInstMethod :
 	|
@@ -8250,7 +7774,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.Insert
 	*/
 
-	// RVA: -1 Offset: -1
 	public int InsertAt(int position, K item, bool append) { }
 	/* GenericInstMethod :
 	|
@@ -8261,7 +7784,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.InsertAt
 	*/
 
-	// RVA: -1 Offset: -1
 	public void RemoveAt(int position) { }
 	/* GenericInstMethod :
 	|
@@ -8271,7 +7793,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.RemoveAt
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
@@ -8281,7 +7802,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.Clear
 	*/
 
-	// RVA: -1 Offset: -1
 	public void CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -8293,7 +7813,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<int>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	public void CopyTo(K[] array, int index) { }
 	/* GenericInstMethod :
 	|
@@ -8305,7 +7824,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<int>.CopyTo
 	*/
 
-	// RVA: -1 Offset: -1
 	private void SetRight(int nodeId, int rightNodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8316,7 +7834,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.SetRight
 	*/
 
-	// RVA: -1 Offset: -1
 	private void SetLeft(int nodeId, int leftNodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8327,7 +7844,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.SetLeft
 	*/
 
-	// RVA: -1 Offset: -1
 	private void SetParent(int nodeId, int parentNodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8338,7 +7854,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.SetParent
 	*/
 
-	// RVA: -1 Offset: -1
 	private void SetColor(int nodeId, RBTree.NodeColor<K> color) { }
 	/* GenericInstMethod :
 	|
@@ -8349,7 +7864,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.SetColor
 	*/
 
-	// RVA: -1 Offset: -1
 	private void SetKey(int nodeId, K key) { }
 	/* GenericInstMethod :
 	|
@@ -8360,7 +7874,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.SetKey
 	*/
 
-	// RVA: -1 Offset: -1
 	private void SetNext(int nodeId, int nextNodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8371,7 +7884,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.SetNext
 	*/
 
-	// RVA: -1 Offset: -1
 	private void SetSubTreeSize(int nodeId, int size) { }
 	/* GenericInstMethod :
 	|
@@ -8382,7 +7894,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.SetSubTreeSize
 	*/
 
-	// RVA: -1 Offset: -1
 	private void IncreaseSize(int nodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8393,7 +7904,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.IncreaseSize
 	*/
 
-	// RVA: -1 Offset: -1
 	private void RecomputeSize(int nodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8404,7 +7914,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.RecomputeSize
 	*/
 
-	// RVA: -1 Offset: -1
 	private void DecreaseSize(int nodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8415,7 +7924,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.DecreaseSize
 	*/
 
-	// RVA: -1 Offset: -1
 	public int Right(int nodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8426,7 +7934,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.Right
 	*/
 
-	// RVA: -1 Offset: -1
 	public int Left(int nodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8437,7 +7944,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.Left
 	*/
 
-	// RVA: -1 Offset: -1
 	public int Parent(int nodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8448,7 +7954,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.Parent
 	*/
 
-	// RVA: -1 Offset: -1
 	private RBTree.NodeColor<K> color(int nodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8459,7 +7964,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.color
 	*/
 
-	// RVA: -1 Offset: -1
 	public int Next(int nodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8470,7 +7974,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.Next
 	*/
 
-	// RVA: -1 Offset: -1
 	public int SubTreeSize(int nodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8481,7 +7984,6 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RBTree<object>.SubTreeSize
 	*/
 
-	// RVA: -1 Offset: -1
 	public K Key(int nodeId) { }
 	/* GenericInstMethod :
 	|
@@ -8495,18 +7997,14 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 }
 
 internal sealed class Listeners<TElem> // TypeDefIndex: 4304
-{	// Fields
-	private readonly List<TElem> _listeners; // 0x0
+{	private readonly List<TElem> _listeners; // 0x0
 	private readonly Listeners.Func<TElem, TElem, bool> _filter; // 0x0
 	private readonly int _objectID; // 0x0
 	private int _listenerReaderCount; // 0x0
 
-	// Properties
 	internal bool HasListeners { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(int ObjectID, Listeners.Func<TElem, TElem, bool> notifyFilter) { }
 	/* GenericInstMethod :
 	|
@@ -8515,7 +8013,6 @@ internal sealed class Listeners<TElem> // TypeDefIndex: 4304
 	|-Listeners<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal bool get_HasListeners() { }
 	/* GenericInstMethod :
 	|
@@ -8524,7 +8021,6 @@ internal sealed class Listeners<TElem> // TypeDefIndex: 4304
 	|-Listeners<object>.get_HasListeners
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void Add(TElem listener) { }
 	/* GenericInstMethod :
 	|
@@ -8533,7 +8029,6 @@ internal sealed class Listeners<TElem> // TypeDefIndex: 4304
 	|-Listeners<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	internal int IndexOfReference(TElem listener) { }
 	/* GenericInstMethod :
 	|
@@ -8541,7 +8036,6 @@ internal sealed class Listeners<TElem> // TypeDefIndex: 4304
 	|-Listeners<object>.IndexOfReference
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void Remove(TElem listener) { }
 	/* GenericInstMethod :
 	|
@@ -8550,7 +8044,6 @@ internal sealed class Listeners<TElem> // TypeDefIndex: 4304
 	|-Listeners<object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void Notify<T1, T2, T3>(T1 arg1, T2 arg2, T3 arg3, Listeners.Action<TElem, TElem, T1, T2, T3> action) { }
 	/* GenericInstMethod :
 	|
@@ -8566,7 +8059,6 @@ internal sealed class Listeners<TElem> // TypeDefIndex: 4304
 	|-Listeners<object>.Notify<object, object, object>
 	*/
 
-	// RVA: -1 Offset: -1
 	private void RemoveNullListeners(int nullIndex) { }
 	/* GenericInstMethod :
 	|
@@ -8577,8 +8069,7 @@ internal sealed class Listeners<TElem> // TypeDefIndex: 4304
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 4436
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 0EE6555EB2C89F29655BD23FAB0573D8D684331A /*Metadata offset 0x53EECB*/; // 0x0
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 0EE6555EB2C89F29655BD23FAB0573D8D684331A /*Metadata offset 0x53EECB*/; // 0x0
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=152 229F48C8598232AD9236772DD710E64615D0EE51 /*Metadata offset 0x53EEEF*/; // 0x24
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=38 2A4F1BD548EC71F652E24985361CD72F0FE1BE7D /*Metadata offset 0x53EF87*/; // 0xBC
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=152 547FF12759F2EA9866F3E2095113686A6379ABBF /*Metadata offset 0x53EFAD*/; // 0xE2
@@ -8592,37 +8083,26 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 4436
 }
 
 internal sealed class _AndroidJNIHelper // TypeDefIndex: 4471
-{	// Methods
-
-	// RVA: 0x227B730 Offset: 0x2279D30 VA: 0x18227B730
+{
 	public static IntPtr CreateJavaProxy(IntPtr delegateHandle, AndroidJavaProxy proxy) { }
 
-	// RVA: 0x2272DB0 Offset: 0x22713B0 VA: 0x182272DB0
 	public static IntPtr CreateJavaRunnable(AndroidJavaRunnable jrunnable) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x227C950 Offset: 0x227AF50 VA: 0x18227C950
 	public static IntPtr InvokeJavaProxyMethod(AndroidJavaProxy proxy, IntPtr jmethodName, IntPtr jargs) { }
 
-	// RVA: 0x227AC80 Offset: 0x2279280 VA: 0x18227AC80
 	public static jvalue[] CreateJNIArgArray(object[] args) { }
 
-	// RVA: 0x227CC20 Offset: 0x227B220 VA: 0x18227CC20
 	public static object UnboxArray(AndroidJavaObject obj) { }
 
-	// RVA: 0x227D150 Offset: 0x227B750 VA: 0x18227D150
 	public static object Unbox(AndroidJavaObject obj) { }
 
-	// RVA: 0x22794A0 Offset: 0x2277AA0 VA: 0x1822794A0
 	public static AndroidJavaObject Box(object obj) { }
 
-	// RVA: 0x2272EE0 Offset: 0x22714E0 VA: 0x182272EE0
 	public static void DeleteJNIArgArray(object[] args, jvalue[] jniArgs) { }
 
-	// RVA: 0x227A390 Offset: 0x2278990 VA: 0x18227A390
 	public static IntPtr ConvertToJNIArray(Array array) { }
 
-	// RVA: -1 Offset: -1
 	public static ArrayType ConvertFromJNIArray<ArrayType>(IntPtr array) { }
 	/* GenericInstMethod :
 	|
@@ -8654,10 +8134,8 @@ internal sealed class _AndroidJNIHelper // TypeDefIndex: 4471
 	|-_AndroidJNIHelper.ConvertFromJNIArray<float>
 	*/
 
-	// RVA: 0x2273010 Offset: 0x2271610 VA: 0x182273010
 	public static IntPtr GetConstructorID(IntPtr jclass, object[] args) { }
 
-	// RVA: -1 Offset: -1
 	public static IntPtr GetMethodID<ReturnType>(IntPtr jclass, string methodName, object[] args, bool isStatic) { }
 	/* GenericInstMethod :
 	|
@@ -8673,22 +8151,16 @@ internal sealed class _AndroidJNIHelper // TypeDefIndex: 4471
 	|-_AndroidJNIHelper.GetMethodID<float>
 	*/
 
-	// RVA: 0x227B890 Offset: 0x2279E90 VA: 0x18227B890
 	public static IntPtr GetConstructorID(IntPtr jclass, string signature) { }
 
-	// RVA: 0x227BAF0 Offset: 0x227A0F0 VA: 0x18227BAF0
 	public static IntPtr GetMethodID(IntPtr jclass, string methodName, string signature, bool isStatic) { }
 
-	// RVA: 0x227BA60 Offset: 0x227A060 VA: 0x18227BA60
 	private static IntPtr GetMethodIDFallback(IntPtr jclass, string methodName, string signature, bool isStatic) { }
 
-	// RVA: 0x227BCD0 Offset: 0x227A2D0 VA: 0x18227BCD0
 	public static string GetSignature(object obj) { }
 
-	// RVA: 0x227C870 Offset: 0x227AE70 VA: 0x18227C870
 	public static string GetSignature(object[] args) { }
 
-	// RVA: -1 Offset: -1
 	public static string GetSignature<ReturnType>(object[] args) { }
 	/* GenericInstMethod :
 	|
@@ -8723,13 +8195,10 @@ internal sealed class _AndroidJNIHelper // TypeDefIndex: 4471
 }
 
 public class Memoized<TResult, TArgs> // TypeDefIndex: 4824
-{	// Fields
-	private readonly Func<TArgs, TResult> _factory; // 0x0
+{	private readonly Func<TArgs, TResult> _factory; // 0x0
 	private readonly Dictionary<TArgs, TResult> _cache; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(Func<TArgs, TResult> factory) { }
 	/* GenericInstMethod :
 	|
@@ -8746,7 +8215,6 @@ public class Memoized<TResult, TArgs> // TypeDefIndex: 4824
 	|-Memoized<string, ValueTuple<ItemDefinition.AmountType, int>>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public TResult Get(TArgs args) { }
 	/* GenericInstMethod :
 	|
@@ -8766,58 +8234,45 @@ public class Memoized<TResult, TArgs> // TypeDefIndex: 4824
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 4849
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=146 062825E0D4AB4302B73500604BF9520511ACFD15 /*Metadata offset 0x53F7DF*/; // 0x2B10360
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=146 062825E0D4AB4302B73500604BF9520511ACFD15 /*Metadata offset 0x53F7DF*/; // 0x2B10360
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 4899
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=104 1D1E8406C3A31F2298952B0976625EEDFB010FDC /*Metadata offset 0x53F945*/; // 0x0
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=104 1D1E8406C3A31F2298952B0976625EEDFB010FDC /*Metadata offset 0x53F945*/; // 0x0
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76 339A8BB625A037BA37DB4DF24A276E689D62172D /*Metadata offset 0x53F9AD*/; // 0x68
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76 48DE754CC0C776DAD1A85DB81BEFAAADE3A447E9 /*Metadata offset 0x53F9F9*/; // 0xB4
 	internal static readonly long A5F5D64EF7BB696455C9841B907D2E09986EA902 = 2533317740920876; // 0x100
 
-	// Methods
 
-	// RVA: 0xAAB9D0 Offset: 0xAA9FD0 VA: 0x180AAB9D0
 	internal static uint ComputeStringHash(string s) { }
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5096
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 7BBE37982E6C057ED87163CAFC7FD6E5E42EEA46 /*Metadata offset 0x53FD53*/; // 0x13626
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 7BBE37982E6C057ED87163CAFC7FD6E5E42EEA46 /*Metadata offset 0x53FD53*/; // 0x13626
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5561
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=5 B1A9AA820F353E1BEF1F7D40CD3F58447AA91D123BC2539918BC70F8A66E75B9 /*Metadata offset 0x54098D*/; // 0x3120
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=5 B1A9AA820F353E1BEF1F7D40CD3F58447AA91D123BC2539918BC70F8A66E75B9 /*Metadata offset 0x54098D*/; // 0x3120
 
-	// Methods
 
-	// RVA: 0xAAB9D0 Offset: 0xAA9FD0 VA: 0x180AAB9D0
 	internal static uint ComputeStringHash(string s) { }
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5616
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 BA8C008E9A9CA9629B0D5A47EB9DFDC7E9E88D61 /*Metadata offset 0x540B69*/; // 0x31CA
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 BA8C008E9A9CA9629B0D5A47EB9DFDC7E9E88D61 /*Metadata offset 0x540B69*/; // 0x31CA
 
 }
 
 internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
-{	// Fields
-	private readonly SortedDictionary<TPriority, Queue<TItem>> _subqueues; // 0x0
+{	private readonly SortedDictionary<TPriority, Queue<TItem>> _subqueues; // 0x0
 
-	// Properties
 	public bool HasItems { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(IComparer<TPriority> priorityComparer) { }
 	/* GenericInstMethod :
 	|
@@ -8826,7 +8281,6 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 	|-PriorityQueue<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -8836,7 +8290,6 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 	|-PriorityQueue<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Enqueue(TPriority priority, TItem item) { }
 	/* GenericInstMethod :
 	|
@@ -8846,7 +8299,6 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 	|-PriorityQueue<object, object>.Enqueue
 	*/
 
-	// RVA: -1 Offset: -1
 	private void AddQueueOfPriority(TPriority priority) { }
 	/* GenericInstMethod :
 	|
@@ -8855,7 +8307,6 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 	|-PriorityQueue<object, object>.AddQueueOfPriority
 	*/
 
-	// RVA: -1 Offset: -1
 	public TItem Peek() { }
 	/* GenericInstMethod :
 	|
@@ -8867,7 +8318,6 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 	|-PriorityQueue<object, object>.Peek
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_HasItems() { }
 	/* GenericInstMethod :
 	|
@@ -8877,7 +8327,6 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 	|-PriorityQueue<object, object>.get_HasItems
 	*/
 
-	// RVA: -1 Offset: -1
 	public TItem Dequeue() { }
 	/* GenericInstMethod :
 	|
@@ -8889,7 +8338,6 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 	|-PriorityQueue<object, object>.Dequeue
 	*/
 
-	// RVA: -1 Offset: -1
 	private TItem DequeueFromHighPriorityQueue() { }
 	/* GenericInstMethod :
 	|
@@ -8901,8 +8349,7 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5677
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 00C40B3F013EDA60390F2E849C4581815A9419E4 /*Metadata offset 0x540BE7*/; // 0x0
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 00C40B3F013EDA60390F2E849C4581815A9419E4 /*Metadata offset 0x540BE7*/; // 0x0
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 03B569C38E3CD6B720388919D43735A904012C52 /*Metadata offset 0x540C0F*/; // 0x28
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76 1FDC8DB567F5AAA7068D0D2A601CD71657CBDF38 /*Metadata offset 0x540C37*/; // 0x50
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 373B494F210C656134C5728D551D4C97B013EB33 /*Metadata offset 0x540C83*/; // 0x9C
@@ -8914,23 +8361,17 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5677
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5812
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=127 A097044521F478B3A2A9A3AC52887BA733E4DE56 /*Metadata offset 0x54118C*/; // 0x32FF
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=127 A097044521F478B3A2A9A3AC52887BA733E4DE56 /*Metadata offset 0x54118C*/; // 0x32FF
 
-	// Methods
 
-	// RVA: 0xAAB9D0 Offset: 0xAA9FD0 VA: 0x180AAB9D0
 	internal static uint ComputeStringHash(string s) { }
 
 }
 
 internal sealed class XHashtable<TValue> // TypeDefIndex: 5818
-{	// Fields
-	private XHashtable.XHashtableState<TValue> state; // 0x0
+{	private XHashtable.XHashtableState<TValue> state; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(XHashtable.ExtractKeyDelegate<TValue> extractKey, int capacity) { }
 	/* GenericInstMethod :
 	|
@@ -8940,7 +8381,6 @@ internal sealed class XHashtable<TValue> // TypeDefIndex: 5818
 	|-XHashtable<XName>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool TryGetValue(string key, int index, int count, out TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -8950,7 +8390,6 @@ internal sealed class XHashtable<TValue> // TypeDefIndex: 5818
 	|-XHashtable<XName>.TryGetValue
 	*/
 
-	// RVA: -1 Offset: -1
 	public TValue Add(TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -8964,20 +8403,15 @@ internal sealed class XHashtable<TValue> // TypeDefIndex: 5818
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5852
 {
-// Namespace: 
 [CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5852
-	// Methods
 
-	// RVA: 0xAAB9D0 Offset: 0xAA9FD0 VA: 0x180AAB9D0
 	internal static uint ComputeStringHash(string s) { }
 
 }
 
 internal sealed class MethodCall<T, TResult> : MulticastDelegate // TypeDefIndex: 5930
-{	// Methods
-
-	// RVA: -1 Offset: -1
+{
 	public void .ctor(object object, IntPtr method) { }
 	/* GenericInstMethod :
 	|
@@ -8985,7 +8419,6 @@ internal sealed class MethodCall<T, TResult> : MulticastDelegate // TypeDefIndex
 	|-MethodCall<object, object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 12
 	public virtual TResult Invoke(T target, object[] args) { }
 	/* GenericInstMethod :
 	|
@@ -8993,7 +8426,6 @@ internal sealed class MethodCall<T, TResult> : MulticastDelegate // TypeDefIndex
 	|-MethodCall<object, object>.Invoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 13
 	public virtual IAsyncResult BeginInvoke(T target, object[] args, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
@@ -9001,7 +8433,6 @@ internal sealed class MethodCall<T, TResult> : MulticastDelegate // TypeDefIndex
 	|-MethodCall<object, object>.BeginInvoke
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 14
 	public virtual TResult EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
@@ -9012,8 +8443,7 @@ internal sealed class MethodCall<T, TResult> : MulticastDelegate // TypeDefIndex
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 6148
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28 9E31F24F64765FCAA589F589324D17C9FCF6A06D /*Metadata offset 0x5415F6*/; // 0x0
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28 9E31F24F64765FCAA589F589324D17C9FCF6A06D /*Metadata offset 0x5415F6*/; // 0x0
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 ADFD2E1C801C825415DD53F4F2F72A13B389313C /*Metadata offset 0x541612*/; // 0x1C
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 D40004AB0E92BF6C8DFE481B56BE3D04ABDA76EB /*Metadata offset 0x54161E*/; // 0x28
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 DD3AEFEADB1CD615F3017763F1568179FEE640B0 /*Metadata offset 0x541628*/; // 0x32
@@ -9022,21 +8452,18 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 6148
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 6262
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 553AD71118F2B31C74BC988917343BADFA8F78EE /*Metadata offset 0x5417A9*/; // 0x3491
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 553AD71118F2B31C74BC988917343BADFA8F78EE /*Metadata offset 0x5417A9*/; // 0x3491
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 6635
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 373B494F210C656134C5728D551D4C97B013EB33 /*Metadata offset 0x541E02*/; // 0x0
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 373B494F210C656134C5728D551D4C97B013EB33 /*Metadata offset 0x541E02*/; // 0x0
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 E03C5B88B476F381E452F92C935A5B86131DFC4A /*Metadata offset 0x542202*/; // 0x400
 
 }
 
 internal class <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA} // TypeDefIndex: 6713
-{	// Fields
-	internal static <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA}.__StaticArrayInitTypeSize=32 $$method0x600002d-1 /*Metadata offset 0x542AEB*/; // 0x0
+{	internal static <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA}.__StaticArrayInitTypeSize=32 $$method0x600002d-1 /*Metadata offset 0x542AEB*/; // 0x0
 	internal static <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA}.__StaticArrayInitTypeSize=32 $$method0x600002d-2 /*Metadata offset 0x542B0B*/; // 0x20
 	internal static <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA}.__StaticArrayInitTypeSize=128 $$method0x600002d-3 /*Metadata offset 0x542B2B*/; // 0x40
 	internal static <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA}.__StaticArrayInitTypeSize=256 $$method0x600002d-4 /*Metadata offset 0x542BAB*/; // 0xC0
@@ -9044,13 +8471,10 @@ internal class <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CEC
 }
 
 public class FastAction<A> // TypeDefIndex: 6738
-{	// Fields
-	private LinkedList<Action<A>> delegates; // 0x0
+{	private LinkedList<Action<A>> delegates; // 0x0
 	private Dictionary<Action<A>, LinkedListNode<Action<A>>> lookup; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void Add(Action<A> rhs) { }
 	/* GenericInstMethod :
 	|
@@ -9060,7 +8484,6 @@ public class FastAction<A> // TypeDefIndex: 6738
 	|-FastAction<Object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Remove(Action<A> rhs) { }
 	/* GenericInstMethod :
 	|
@@ -9070,7 +8493,6 @@ public class FastAction<A> // TypeDefIndex: 6738
 	|-FastAction<Object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Call(A a) { }
 	/* GenericInstMethod :
 	|
@@ -9083,7 +8505,6 @@ public class FastAction<A> // TypeDefIndex: 6738
 	|-FastAction<Object>.Call
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -9097,13 +8518,10 @@ public class FastAction<A> // TypeDefIndex: 6738
 }
 
 public class FastAction<A, B> // TypeDefIndex: 6739
-{	// Fields
-	private LinkedList<Action<A, B>> delegates; // 0x0
+{	private LinkedList<Action<A, B>> delegates; // 0x0
 	private Dictionary<Action<A, B>, LinkedListNode<Action<A, B>>> lookup; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void Add(Action<A, B> rhs) { }
 	/* GenericInstMethod :
 	|
@@ -9112,7 +8530,6 @@ public class FastAction<A, B> // TypeDefIndex: 6739
 	|-FastAction<object, object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Remove(Action<A, B> rhs) { }
 	/* GenericInstMethod :
 	|
@@ -9121,7 +8538,6 @@ public class FastAction<A, B> // TypeDefIndex: 6739
 	|-FastAction<object, object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Call(A a, B b) { }
 	/* GenericInstMethod :
 	|
@@ -9138,7 +8554,6 @@ public class FastAction<A, B> // TypeDefIndex: 6739
 	|-FastAction<object, Compute_DT_EventArgs>.Call
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -9156,13 +8571,10 @@ public class FastAction<A, B> // TypeDefIndex: 6739
 }
 
 public class FastAction<A, B, C> // TypeDefIndex: 6740
-{	// Fields
-	private LinkedList<Action<A, B, C>> delegates; // 0x0
+{	private LinkedList<Action<A, B, C>> delegates; // 0x0
 	private Dictionary<Action<A, B, C>, LinkedListNode<Action<A, B, C>>> lookup; // 0x0
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void Add(Action<A, B, C> rhs) { }
 	/* GenericInstMethod :
 	|
@@ -9170,7 +8582,6 @@ public class FastAction<A, B, C> // TypeDefIndex: 6740
 	|-FastAction<object, object, object>.Add
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Remove(Action<A, B, C> rhs) { }
 	/* GenericInstMethod :
 	|
@@ -9178,7 +8589,6 @@ public class FastAction<A, B, C> // TypeDefIndex: 6740
 	|-FastAction<object, object, object>.Remove
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Call(A a, B b, C c) { }
 	/* GenericInstMethod :
 	|
@@ -9187,7 +8597,6 @@ public class FastAction<A, B, C> // TypeDefIndex: 6740
 	|-FastAction<GameObject, Material, Material>.Call
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -9199,8 +8608,7 @@ public class FastAction<A, B, C> // TypeDefIndex: 6740
 }
 
 public enum _HorizontalAlignmentOptions // TypeDefIndex: 6827
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const _HorizontalAlignmentOptions Left = 1;
 	public const _HorizontalAlignmentOptions Center = 2;
 	public const _HorizontalAlignmentOptions Right = 4;
@@ -9211,8 +8619,7 @@ public enum _HorizontalAlignmentOptions // TypeDefIndex: 6827
 }
 
 public enum _VerticalAlignmentOptions // TypeDefIndex: 6828
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const _VerticalAlignmentOptions Top = 256;
 	public const _VerticalAlignmentOptions Middle = 512;
 	public const _VerticalAlignmentOptions Bottom = 1024;
@@ -9223,20 +8630,17 @@ public enum _VerticalAlignmentOptions // TypeDefIndex: 6828
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 6870
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 7BBE37982E6C057ED87163CAFC7FD6E5E42EEA46 /*Metadata offset 0x5432BB*/; // 0x2B10370
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 7BBE37982E6C057ED87163CAFC7FD6E5E42EEA46 /*Metadata offset 0x5432BB*/; // 0x2B10370
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 6937
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=18 B633673BF635D4C719EF5A0496BD28129A8CE5D3B76217371B6C1FDDFFDD780B /*Metadata offset 0x543315*/; // 0x3736
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=18 B633673BF635D4C719EF5A0496BD28129A8CE5D3B76217371B6C1FDDFFDD780B /*Metadata offset 0x543315*/; // 0x3736
 
 }
 
 internal class <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7} // TypeDefIndex: 6968
-{	// Fields
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=76 $$method0x6000504-1 /*Metadata offset 0x54341B*/; // 0x0
+{	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=76 $$method0x6000504-1 /*Metadata offset 0x54341B*/; // 0x0
 	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=68 $$method0x6000505-1 /*Metadata offset 0x543467*/; // 0x4C
 	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=6144 $$method0x6000507-1 /*Metadata offset 0x5434AB*/; // 0x90
 	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=384 $$method0x6000507-2 /*Metadata offset 0x544CAB*/; // 0x1890
@@ -9258,8 +8662,7 @@ internal class <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FE
 }
 
 internal class <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8} // TypeDefIndex: 6993
-{	// Fields
-	internal static <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=32 $$method0x600007d-1 /*Metadata offset 0x545A7B*/; // 0x0
+{	internal static <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=32 $$method0x600007d-1 /*Metadata offset 0x545A7B*/; // 0x0
 	internal static <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=32 $$method0x600007d-2 /*Metadata offset 0x545A9B*/; // 0x20
 	internal static <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=128 $$method0x600007d-3 /*Metadata offset 0x545ABB*/; // 0x40
 	internal static <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=256 $$method0x600007d-4 /*Metadata offset 0x545B3B*/; // 0xC0
@@ -9267,20 +8670,16 @@ internal class <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84F
 }
 
 public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefIndex: 7086
-{	// Fields
-	internal readonly object _obj; // 0x0
+{	internal readonly object _obj; // 0x0
 	internal readonly TResult _result; // 0x0
 	internal readonly short _token; // 0x0
 	internal readonly bool _continueOnCapturedContext; // 0x0
 
-	// Properties
 	public bool IsCompleted { get; }
 	public bool IsCompletedSuccessfully { get; }
 	public TResult Result { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public void .ctor(TResult result) { }
 	/* GenericInstMethod :
 	|
@@ -9291,7 +8690,6 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	|-ValueTask<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor(Task<TResult> task) { }
 	/* GenericInstMethod :
 	|
@@ -9302,7 +8700,6 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	|-ValueTask<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -9313,7 +8710,6 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	|-ValueTask<object>.GetHashCode
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -9324,7 +8720,6 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	|-ValueTask<object>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public bool Equals(ValueTask<TResult> other) { }
 	/* GenericInstMethod :
 	|
@@ -9335,7 +8730,6 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	|-ValueTask<object>.Equals
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsCompleted() { }
 	/* GenericInstMethod :
 	|
@@ -9346,7 +8740,6 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	|-ValueTask<object>.get_IsCompleted
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsCompletedSuccessfully() { }
 	/* GenericInstMethod :
 	|
@@ -9357,7 +8750,6 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	|-ValueTask<object>.get_IsCompletedSuccessfully
 	*/
 
-	// RVA: -1 Offset: -1
 	public TResult get_Result() { }
 	/* GenericInstMethod :
 	|
@@ -9368,7 +8760,6 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	|-ValueTask<object>.get_Result
 	*/
 
-	// RVA: -1 Offset: -1
 	public ValueTaskAwaiter<TResult> GetAwaiter() { }
 	/* GenericInstMethod :
 	|
@@ -9379,7 +8770,6 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	|-ValueTask<object>.GetAwaiter
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -9393,15 +8783,11 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 }
 
 public struct ValueTaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletion // TypeDefIndex: 7096
-{	// Fields
-	private readonly ValueTask<TResult> _value; // 0x0
+{	private readonly ValueTask<TResult> _value; // 0x0
 
-	// Properties
 	public bool IsCompleted { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(ValueTask<TResult> value) { }
 	/* GenericInstMethod :
 	|
@@ -9412,7 +8798,6 @@ public struct ValueTaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyComp
 	|-ValueTaskAwaiter<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	public bool get_IsCompleted() { }
 	/* GenericInstMethod :
 	|
@@ -9424,7 +8809,6 @@ public struct ValueTaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyComp
 	*/
 
 	[StackTraceHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public TResult GetResult() { }
 	/* GenericInstMethod :
 	|
@@ -9435,7 +8819,6 @@ public struct ValueTaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyComp
 	|-ValueTaskAwaiter<object>.GetResult
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	public void OnCompleted(Action continuation) { }
 	/* GenericInstMethod :
 	|
@@ -9446,7 +8829,6 @@ public struct ValueTaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyComp
 	|-ValueTaskAwaiter<object>.OnCompleted
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public void UnsafeOnCompleted(Action continuation) { }
 	/* GenericInstMethod :
 	|
@@ -9460,14 +8842,12 @@ public struct ValueTaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyComp
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 7366
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 C92FBDBB320D6C40BEB41D97EE6C7B301C4ADB1D /*Metadata offset 0x547B33*/; // 0x1C85
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 C92FBDBB320D6C40BEB41D97EE6C7B301C4ADB1D /*Metadata offset 0x547B33*/; // 0x1C85
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 7415
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 021F8912B268BE164A590D1440F05920A3F2A63B9874F994402C7AFFC6F92F82 /*Metadata offset 0x54836F*/; // 0x0
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 021F8912B268BE164A590D1440F05920A3F2A63B9874F994402C7AFFC6F92F82 /*Metadata offset 0x54836F*/; // 0x0
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 02E68C9160BF270CAF19E18D3A77BC2EAA90EFCB3ECA3C454B58CD5BBA5FF7ED /*Metadata offset 0x5483AF*/; // 0x40
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 047D891CAC8D4F883998ACEFD1EB63F6A679046FFD19EC1276A057F847EE37F6 /*Metadata offset 0x5484AF*/; // 0x140
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 06ADCD404637282636289E77FA01C56630CB4945332C96D5FA2D9239FE0D6B04 /*Metadata offset 0x5484BF*/; // 0x150
@@ -9549,9 +8929,7 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 7415
 }
 
 internal sealed class TimedObjectsComparer<TObject> : IComparer<TObject> // TypeDefIndex: 7464
-{	// Methods
-
-	// RVA: -1 Offset: -1 Slot: 4
+{
 	public int Compare(TObject x, TObject y) { }
 	/* GenericInstMethod :
 	|
@@ -9559,7 +8937,6 @@ internal sealed class TimedObjectsComparer<TObject> : IComparer<TObject> // Type
 	|-TimedObjectsComparer<object>.Compare
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -9570,18 +8947,14 @@ internal sealed class TimedObjectsComparer<TObject> : IComparer<TObject> // Type
 }
 
 public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
-{	// Fields
-	private readonly long _time; // 0x0
+{	private readonly long _time; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly TValue <Value>k__BackingField; // 0x0
 
-	// Properties
 	public long Time { get; }
 	public TValue Value { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(long time, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -9589,7 +8962,6 @@ public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
 	|-ValueChange<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public long get_Time() { }
 	/* GenericInstMethod :
 	|
@@ -9600,7 +8972,6 @@ public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public TValue get_Value() { }
 	/* GenericInstMethod :
 	|
@@ -9610,7 +8981,6 @@ public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
 	|-ValueChange<object>.get_Value
 	*/
 
-	// RVA: -1 Offset: -1
 	public static bool op_Equality(ValueChange<TValue> change1, ValueChange<TValue> change2) { }
 	/* GenericInstMethod :
 	|
@@ -9618,7 +8988,6 @@ public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
 	|-ValueChange<object>.op_Equality
 	*/
 
-	// RVA: -1 Offset: -1
 	public static bool op_Inequality(ValueChange<TValue> change1, ValueChange<TValue> change2) { }
 	/* GenericInstMethod :
 	|
@@ -9626,7 +8995,6 @@ public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
 	|-ValueChange<object>.op_Inequality
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -9634,7 +9002,6 @@ public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
 	|-ValueChange<object>.ToString
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -9642,7 +9009,6 @@ public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
 	|-ValueChange<object>.Equals
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -9653,8 +9019,7 @@ public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
 }
 
 public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnumerable // TypeDefIndex: 7505
-{	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private EventHandler ValuesChanged; // 0x0
 	private readonly TimedObjectsComparer<ValueChange<TValue>> _comparer; // 0x0
 	private readonly List<ValueChange<TValue>> _valueChanges; // 0x0
@@ -9662,10 +9027,8 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	private bool _valuesChanged; // 0x0
 	private long _maxTime; // 0x0
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	internal void add_ValuesChanged(EventHandler value) { }
 	/* GenericInstMethod :
 	|
@@ -9676,7 +9039,6 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	internal void remove_ValuesChanged(EventHandler value) { }
 	/* GenericInstMethod :
 	|
@@ -9686,7 +9048,6 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	|-ValueLine<object>.remove_ValuesChanged
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void .ctor(TValue defaultValue) { }
 	/* GenericInstMethod :
 	|
@@ -9696,7 +9057,6 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	|-ValueLine<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1
 	internal TValue GetValueAtTime(long time) { }
 	/* GenericInstMethod :
 	|
@@ -9705,7 +9065,6 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	|-ValueLine<object>.GetValueAtTime
 	*/
 
-	// RVA: -1 Offset: -1
 	internal ValueChange<TValue> GetValueChangeAtTime(long time) { }
 	/* GenericInstMethod :
 	|
@@ -9713,7 +9072,6 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	|-ValueLine<object>.GetValueChangeAtTime
 	*/
 
-	// RVA: -1 Offset: -1
 	internal void SetValue(long time, TValue value) { }
 	/* GenericInstMethod :
 	|
@@ -9723,7 +9081,6 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	|-ValueLine<object>.SetValue
 	*/
 
-	// RVA: -1 Offset: -1
 	internal ValueLine<TValue> Reverse(long centerTime) { }
 	/* GenericInstMethod :
 	|
@@ -9733,7 +9090,6 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	|-ValueLine<object>.Reverse
 	*/
 
-	// RVA: -1 Offset: -1
 	private void OnValuesChanged(bool forceSort = True) { }
 	/* GenericInstMethod :
 	|
@@ -9741,7 +9097,6 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	|-ValueLine<object>.OnValuesChanged
 	*/
 
-	// RVA: -1 Offset: -1
 	private void OnValueChangesNeedSorting() { }
 	/* GenericInstMethod :
 	|
@@ -9749,7 +9104,6 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	|-ValueLine<object>.OnValueChangesNeedSorting
 	*/
 
-	// RVA: -1 Offset: -1
 	private void OnValueChangesSortingCompleted() { }
 	/* GenericInstMethod :
 	|
@@ -9757,7 +9111,6 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	|-ValueLine<object>.OnValueChangesSortingCompleted
 	*/
 
-	// RVA: -1 Offset: -1
 	private void SortValueChanges() { }
 	/* GenericInstMethod :
 	|
@@ -9765,7 +9118,6 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	|-ValueLine<object>.SortValueChanges
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 4
 	public IEnumerator<ValueChange<TValue>> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -9774,7 +9126,6 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	|-ValueLine<object>.GetEnumerator
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -9785,25 +9136,20 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 7638
-{	// Fields
-	internal static readonly int B52DDE3D967E604310620E80EFBFBED9B6FB8C0605B3CB29D31534DAA6181A7C = 505223448; // 0x1CE0
+{	internal static readonly int B52DDE3D967E604310620E80EFBFBED9B6FB8C0605B3CB29D31534DAA6181A7C = 505223448; // 0x1CE0
 
 }
 
 internal class <PrivateImplementationDetails> // TypeDefIndex: 7836
-{	// Fields
-	internal static <PrivateImplementationDetails>.$ArrayType$132 $$field-0 /*Metadata offset 0x54D60D*/; // 0x2B10510
+{	internal static <PrivateImplementationDetails>.$ArrayType$132 $$field-0 /*Metadata offset 0x54D60D*/; // 0x2B10510
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
 }
 
 internal class <PrivateImplementationDetails> // TypeDefIndex: 7854
-{	// Fields
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x54DE3D*/; // 0x0
+{	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x54DE3D*/; // 0x0
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-1 /*Metadata offset 0x54E03D*/; // 0x200
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-2 /*Metadata offset 0x54E23D*/; // 0x400
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-3 /*Metadata offset 0x54E43D*/; // 0x600
@@ -9811,16 +9157,13 @@ internal class <PrivateImplementationDetails> // TypeDefIndex: 7854
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-5 /*Metadata offset 0x54E83D*/; // 0xA00
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-6 /*Metadata offset 0x54EA3D*/; // 0xC00
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
 }
 
 internal class <PrivateImplementationDetails> // TypeDefIndex: 7895
-{	// Fields
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x54F3E9*/; // 0x0
+{	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x54F3E9*/; // 0x0
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-1 /*Metadata offset 0x54F5E9*/; // 0x200
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-2 /*Metadata offset 0x54F7E9*/; // 0x400
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-3 /*Metadata offset 0x54F9E9*/; // 0x600
@@ -9829,16 +9172,13 @@ internal class <PrivateImplementationDetails> // TypeDefIndex: 7895
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-6 /*Metadata offset 0x54FFE9*/; // 0xC00
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-7 /*Metadata offset 0x5501E9*/; // 0xE00
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
 }
 
 internal class <PrivateImplementationDetails> // TypeDefIndex: 7973
-{	// Fields
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x550B95*/; // 0x0
+{	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x550B95*/; // 0x0
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-1 /*Metadata offset 0x550D95*/; // 0x200
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-2 /*Metadata offset 0x550F95*/; // 0x400
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-3 /*Metadata offset 0x551195*/; // 0x600
@@ -9876,16 +9216,13 @@ internal class <PrivateImplementationDetails> // TypeDefIndex: 7973
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-35 /*Metadata offset 0x555195*/; // 0x4600
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-36 /*Metadata offset 0x555395*/; // 0x4800
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
 }
 
 internal class <PrivateImplementationDetails> // TypeDefIndex: 8007
-{	// Fields
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x555D41*/; // 0x0
+{	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x555D41*/; // 0x0
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-1 /*Metadata offset 0x555F41*/; // 0x200
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-2 /*Metadata offset 0x556141*/; // 0x400
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-3 /*Metadata offset 0x556341*/; // 0x600
@@ -9901,16 +9238,13 @@ internal class <PrivateImplementationDetails> // TypeDefIndex: 8007
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-13 /*Metadata offset 0x557741*/; // 0x1A00
 	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-14 /*Metadata offset 0x557941*/; // 0x1C00
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
 }
 
 public class CC_AnalogTV : CC_Base // TypeDefIndex: 8034
-{	// Fields
-	public float phase; // 0x28
+{	public float phase; // 0x28
 	public bool grayscale; // 0x2C
 	public float noiseIntensity; // 0x30
 	public float scanlinesIntensity; // 0x34
@@ -9919,92 +9253,69 @@ public class CC_AnalogTV : CC_Base // TypeDefIndex: 8034
 	public float cubicDistortion; // 0x40
 	public float scale; // 0x44
 
-	// Methods
 
-	// RVA: 0x1069390 Offset: 0x1067990 VA: 0x181069390
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x1069570 Offset: 0x1067B70 VA: 0x181069570
 	public void .ctor() { }
 
 }
 
 public class CC_Base : MonoBehaviour // TypeDefIndex: 8035
-{	// Fields
-	public Shader shader; // 0x18
+{	public Shader shader; // 0x18
 	protected Material _material; // 0x20
 
-	// Properties
 	protected Material material { get; }
 
-	// Methods
 
-	// RVA: 0x1069640 Offset: 0x1067C40 VA: 0x181069640 Slot: 4
 	protected virtual void Start() { }
 
-	// RVA: 0x10696E0 Offset: 0x1067CE0 VA: 0x1810696E0
 	protected Material get_material() { }
 
-	// RVA: 0x10695B0 Offset: 0x1067BB0 VA: 0x1810695B0 Slot: 5
 	protected virtual void OnDisable() { }
 
-	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
 }
 
 public class CC_BleachBypass : CC_Base // TypeDefIndex: 8036
-{	// Fields
-	public float amount; // 0x28
+{	public float amount; // 0x28
 
-	// Methods
 
-	// RVA: 0x10697A0 Offset: 0x1067DA0 VA: 0x1810697A0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0xA33870 Offset: 0xA31E70 VA: 0x180A33870
 	public void .ctor() { }
 
 }
 
 public class CC_Blend : CC_Base // TypeDefIndex: 8037
-{	// Fields
-	public Texture texture; // 0x28
+{	public Texture texture; // 0x28
 	public float amount; // 0x30
 	public int mode; // 0x34
 
-	// Methods
 
-	// RVA: 0x10698A0 Offset: 0x1067EA0 VA: 0x1810698A0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x1069A10 Offset: 0x1068010 VA: 0x181069A10
 	public void .ctor() { }
 
 }
 
 public class CC_BrightnessContrastGamma : CC_Base // TypeDefIndex: 8038
-{	// Fields
-	public float redCoeff; // 0x28
+{	public float redCoeff; // 0x28
 	public float greenCoeff; // 0x2C
 	public float blueCoeff; // 0x30
 	public float brightness; // 0x34
 	public float contrast; // 0x38
 	public float gamma; // 0x3C
 
-	// Methods
 
-	// RVA: 0x1069A20 Offset: 0x1068020 VA: 0x181069A20
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x1069C30 Offset: 0x1068230 VA: 0x181069C30
 	public void .ctor() { }
 
 }
 
 public class CC_ChannelMixer : CC_Base // TypeDefIndex: 8039
-{	// Fields
-	public float redR; // 0x28
+{	public float redR; // 0x28
 	public float redG; // 0x2C
 	public float redB; // 0x30
 	public float greenR; // 0x34
@@ -10017,194 +9328,147 @@ public class CC_ChannelMixer : CC_Base // TypeDefIndex: 8039
 	public float constantG; // 0x50
 	public float constantB; // 0x54
 
-	// Methods
 
-	// RVA: 0x1069C60 Offset: 0x1068260 VA: 0x181069C60
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x1069EC0 Offset: 0x10684C0 VA: 0x181069EC0
 	public void .ctor() { }
 
 }
 
 public class CC_Convolution3x3 : CC_Base // TypeDefIndex: 8040
-{	// Fields
-	public Vector3 kernelTop; // 0x28
+{	public Vector3 kernelTop; // 0x28
 	public Vector3 kernelMiddle; // 0x34
 	public Vector3 kernelBottom; // 0x40
 	public float divisor; // 0x4C
 	public float amount; // 0x50
 
-	// Methods
 
-	// RVA: 0x1069EE0 Offset: 0x10684E0 VA: 0x181069EE0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106A1F0 Offset: 0x10687F0 VA: 0x18106A1F0
 	public void .ctor() { }
 
 }
 
 public class CC_CrossStitch : CC_Base // TypeDefIndex: 8041
-{	// Fields
-	public int size; // 0x28
+{	public int size; // 0x28
 	public float brightness; // 0x2C
 	public bool invert; // 0x30
 	public bool pixelize; // 0x31
 
-	// Methods
 
-	// RVA: 0x106A2A0 Offset: 0x10688A0 VA: 0x18106A2A0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106A480 Offset: 0x1068A80 VA: 0x18106A480
 	public void .ctor() { }
 
 }
 
 public class CC_DoubleVision : CC_Base, IImageEffect // TypeDefIndex: 8042
-{	// Fields
-	public Vector2 displace; // 0x28
+{	public Vector2 displace; // 0x28
 	public float amount; // 0x30
 
-	// Methods
 
-	// RVA: 0x106A4A0 Offset: 0x1068AA0 VA: 0x18106A4A0 Slot: 6
 	public bool IsActive() { }
 
-	// RVA: 0x106A4E0 Offset: 0x1068AE0 VA: 0x18106A4E0 Slot: 7
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106A6A0 Offset: 0x1068CA0 VA: 0x18106A6A0
 	public void .ctor() { }
 
 }
 
 public class CC_FastVignette : CC_Base // TypeDefIndex: 8043
-{	// Fields
-	public float sharpness; // 0x28
+{	public float sharpness; // 0x28
 	public float darkness; // 0x2C
 	public bool desaturate; // 0x30
 
-	// Methods
 
-	// RVA: 0x106A6F0 Offset: 0x1068CF0 VA: 0x18106A6F0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106A800 Offset: 0x1068E00 VA: 0x18106A800
 	public void .ctor() { }
 
 }
 
 public class CC_Frost : CC_Base, IImageEffect // TypeDefIndex: 8044
-{	// Fields
-	public float scale; // 0x28
+{	public float scale; // 0x28
 	public float sharpness; // 0x2C
 	public float darkness; // 0x30
 	public bool enableVignette; // 0x34
 
-	// Methods
 
-	// RVA: 0x106A820 Offset: 0x1068E20 VA: 0x18106A820 Slot: 6
 	public bool IsActive() { }
 
-	// RVA: 0x106A860 Offset: 0x1068E60 VA: 0x18106A860 Slot: 7
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106A9F0 Offset: 0x1068FF0 VA: 0x18106A9F0
 	public void .ctor() { }
 
 }
 
 public class CC_GradientRamp : CC_Base // TypeDefIndex: 8045
-{	// Fields
-	public Texture rampTexture; // 0x28
+{	public Texture rampTexture; // 0x28
 	public float amount; // 0x30
 
-	// Methods
 
-	// RVA: 0x106AA10 Offset: 0x1069010 VA: 0x18106AA10
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x1069A10 Offset: 0x1068010 VA: 0x181069A10
 	public void .ctor() { }
 
 }
 
 public class CC_Grayscale : CC_Base, IImageEffect // TypeDefIndex: 8046
-{	// Fields
-	public float redLuminance; // 0x28
+{	public float redLuminance; // 0x28
 	public float greenLuminance; // 0x2C
 	public float blueLuminance; // 0x30
 	public float amount; // 0x34
 
-	// Methods
 
-	// RVA: 0x106AB70 Offset: 0x1069170 VA: 0x18106AB70 Slot: 6
 	public bool IsActive() { }
 
-	// RVA: 0x106ABB0 Offset: 0x10691B0 VA: 0x18106ABB0 Slot: 7
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106AD00 Offset: 0x1069300 VA: 0x18106AD00
 	public void .ctor() { }
 
 }
 
 public class CC_Halftone : CC_Base // TypeDefIndex: 8047
-{	// Fields
-	public float density; // 0x28
+{	public float density; // 0x28
 	public int mode; // 0x2C
 	public bool antialiasing; // 0x30
 	public bool showOriginal; // 0x31
 
-	// Methods
 
-	// RVA: 0x106AD30 Offset: 0x1069330 VA: 0x18106AD30
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106AE30 Offset: 0x1069430 VA: 0x18106AE30
 	public void .ctor() { }
 
 }
 
 public class CC_HueSaturationValue : CC_Base // TypeDefIndex: 8048
-{	// Fields
-	public float hue; // 0x28
+{	public float hue; // 0x28
 	public float saturation; // 0x2C
 	public float value; // 0x30
 
-	// Methods
 
-	// RVA: 0x106AE50 Offset: 0x1069450 VA: 0x18106AE50
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
 }
 
 public class CC_Led : CC_Base // TypeDefIndex: 8049
-{	// Fields
-	public float scale; // 0x28
+{	public float scale; // 0x28
 	public bool automaticRatio; // 0x2C
 	public float ratio; // 0x30
 	public float brightness; // 0x34
 	public int mode; // 0x38
 
-	// Methods
 
-	// RVA: 0x106AFD0 Offset: 0x10695D0 VA: 0x18106AFD0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106B190 Offset: 0x1069790 VA: 0x18106B190
 	public void .ctor() { }
 
 }
 
 public class CC_Levels : CC_Base // TypeDefIndex: 8050
-{	// Fields
-	public int mode; // 0x28
+{	public int mode; // 0x28
 	public float inputMinL; // 0x2C
 	public float inputMaxL; // 0x30
 	public float inputGammaL; // 0x34
@@ -10226,142 +9490,105 @@ public class CC_Levels : CC_Base // TypeDefIndex: 8050
 	public float outputMinB; // 0x74
 	public float outputMaxB; // 0x78
 
-	// Methods
 
-	// RVA: 0x106B1B0 Offset: 0x10697B0 VA: 0x18106B1B0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106B680 Offset: 0x1069C80 VA: 0x18106B680
 	public void .ctor() { }
 
 }
 
 public class CC_LookupFilter : CC_Base // TypeDefIndex: 8051
-{	// Fields
-	public Texture lookupTexture; // 0x28
+{	public Texture lookupTexture; // 0x28
 
-	// Methods
 
-	// RVA: 0x106B6E0 Offset: 0x1069CE0 VA: 0x18106B6E0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
 }
 
 public class CC_Negative : CC_Base // TypeDefIndex: 8052
-{	// Fields
-	public float amount; // 0x28
+{	public float amount; // 0x28
 
-	// Methods
 
-	// RVA: 0x106B800 Offset: 0x1069E00 VA: 0x18106B800
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0xA33870 Offset: 0xA31E70 VA: 0x180A33870
 	public void .ctor() { }
 
 }
 
 public class CC_PhotoFilter : CC_Base, IImageEffect // TypeDefIndex: 8053
-{	// Fields
-	public Color color; // 0x28
+{	public Color color; // 0x28
 	public float density; // 0x38
 
-	// Methods
 
-	// RVA: 0x106B900 Offset: 0x1069F00 VA: 0x18106B900 Slot: 6
 	public bool IsActive() { }
 
-	// RVA: 0x106B940 Offset: 0x1069F40 VA: 0x18106B940 Slot: 7
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106BA70 Offset: 0x106A070 VA: 0x18106BA70
 	public void .ctor() { }
 
 }
 
 public class CC_Pixelate : CC_Base // TypeDefIndex: 8054
-{	// Fields
-	public float scale; // 0x28
+{	public float scale; // 0x28
 	public bool automaticRatio; // 0x2C
 	public float ratio; // 0x30
 	public int mode; // 0x34
 
-	// Methods
 
-	// RVA: 0x106BAE0 Offset: 0x106A0E0 VA: 0x18106BAE0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106BC80 Offset: 0x106A280 VA: 0x18106BC80
 	public void .ctor() { }
 
 }
 
 public class CC_Posterize : CC_Base // TypeDefIndex: 8055
-{	// Fields
-	public int levels; // 0x28
+{	public int levels; // 0x28
 
-	// Methods
 
-	// RVA: 0x106BCA0 Offset: 0x106A2A0 VA: 0x18106BCA0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106BD50 Offset: 0x106A350 VA: 0x18106BD50
 	public void .ctor() { }
 
 }
 
 public class CC_RGBSplit : CC_Base // TypeDefIndex: 8056
-{	// Fields
-	public float amount; // 0x28
+{	public float amount; // 0x28
 	public float angle; // 0x2C
 
-	// Methods
 
-	// RVA: 0x106BD60 Offset: 0x106A360 VA: 0x18106BD60
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
 }
 
 public class CC_RadialBlur : CC_Base // TypeDefIndex: 8057
-{	// Fields
-	public float amount; // 0x28
+{	public float amount; // 0x28
 	public Vector2 center; // 0x2C
 	public int quality; // 0x34
 
-	// Methods
 
-	// RVA: 0x106BF00 Offset: 0x106A500 VA: 0x18106BF00
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106C080 Offset: 0x106A680 VA: 0x18106C080
 	public void .ctor() { }
 
 }
 
 public class CC_Sharpen : CC_Base // TypeDefIndex: 8058
-{	// Fields
-	public float strength; // 0x28
+{	public float strength; // 0x28
 	public float clamp; // 0x2C
 
-	// Methods
 
-	// RVA: 0x106C3B0 Offset: 0x106A9B0 VA: 0x18106C3B0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106C570 Offset: 0x106AB70 VA: 0x18106C570
 	public void .ctor() { }
 
 }
 
 public class CC_SharpenAndVignette : CC_Base, IImageEffect // TypeDefIndex: 8059
-{	// Fields
-	[HeaderAttribute] // RVA: 0xC3AA0 Offset: 0xC2EA0 VA: 0x1800C3AA0
+{	[HeaderAttribute] // RVA: 0xC3AA0 Offset: 0xC2EA0 VA: 0x1800C3AA0
 	public bool applySharpen; // 0x28
 	[RangeAttribute] // RVA: 0x75A70 Offset: 0x74E70 VA: 0x180075A70
 	public float strength; // 0x2C
@@ -10374,74 +9601,55 @@ public class CC_SharpenAndVignette : CC_Base, IImageEffect // TypeDefIndex: 8059
 	[RangeAttribute] // RVA: 0x77EF0 Offset: 0x772F0 VA: 0x180077EF0
 	public float darkness; // 0x3C
 
-	// Methods
 
-	// RVA: 0x8D6710 Offset: 0x8D4D10 VA: 0x1808D6710 Slot: 6
 	public bool IsActive() { }
 
-	// RVA: 0x106C0E0 Offset: 0x106A6E0 VA: 0x18106C0E0 Slot: 7
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106C380 Offset: 0x106A980 VA: 0x18106C380
 	public void .ctor() { }
 
 }
 
 public class CC_Threshold : CC_Base // TypeDefIndex: 8060
-{	// Fields
-	public float threshold; // 0x28
+{	public float threshold; // 0x28
 	public bool useNoise; // 0x2C
 	public float noiseRange; // 0x30
 
-	// Methods
 
-	// RVA: 0x106C590 Offset: 0x106AB90 VA: 0x18106C590
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106C6A0 Offset: 0x106ACA0 VA: 0x18106C6A0
 	public void .ctor() { }
 
 }
 
 public class CC_Vibrance : CC_Base // TypeDefIndex: 8061
-{	// Fields
-	public float amount; // 0x28
+{	public float amount; // 0x28
 
-	// Methods
 
-	// RVA: 0x106C6C0 Offset: 0x106ACC0 VA: 0x18106C6C0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
 }
 
 public class CC_Wiggle : CC_Base, IImageEffect // TypeDefIndex: 8062
-{	// Fields
-	public float timer; // 0x28
+{	public float timer; // 0x28
 	public float speed; // 0x2C
 	public float scale; // 0x30
 
-	// Methods
 
-	// RVA: 0x106C8E0 Offset: 0x106AEE0 VA: 0x18106C8E0
 	private void Update() { }
 
-	// RVA: 0x106A4A0 Offset: 0x1068AA0 VA: 0x18106A4A0 Slot: 6
 	public bool IsActive() { }
 
-	// RVA: 0x106C7C0 Offset: 0x106ADC0 VA: 0x18106C7C0 Slot: 7
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106C930 Offset: 0x106AF30 VA: 0x18106C930
 	public void .ctor() { }
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 8239
-{	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=19552 1DC4C1B55DC0F7A09DD49557857282243A661721 /*Metadata offset 0x55800C*/; // 0x0
+{	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=19552 1DC4C1B55DC0F7A09DD49557857282243A661721 /*Metadata offset 0x55800C*/; // 0x0
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=420 4D97B7EA75C57A5C53C1E01B1C6253465DE43B65 /*Metadata offset 0x55CC6C*/; // 0x4C60
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=15874 9B733B2872507920FB43A4A60F4CBE3E17200C8C /*Metadata offset 0x55CE10*/; // 0x4E04
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=15874 C01F4A345A0DC451B12954EDA4ED605D0075A2A5 /*Metadata offset 0x560C12*/; // 0x8C06
@@ -10452,25 +9660,18 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 8239
 
 internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <State>j__TPar> // TypeDefIndex: 8246
 {
-// Namespace: 
 private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=420 // TypeDefIndex: 8241
 
-// Namespace: 
 private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9776 // TypeDefIndex: 8242
 
-// Namespace: 
 private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=15874 // TypeDefIndex: 8243
 
-// Namespace: 
 private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=19552 // TypeDefIndex: 8244
 
-// Namespace: 
 internal class <Module> // TypeDefIndex: 8245
 
-// Namespace: 
 [CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <State>j__TPar> // TypeDefIndex: 8246
-	// Fields
 	[DebuggerBrowsableAttribute] // RVA: 0x9E9D0 Offset: 0x9DDD0 VA: 0x18009E9D0
 	private readonly <Identifier>j__TPar <Identifier>i__Field; // 0x0
 	[DebuggerBrowsableAttribute] // RVA: 0x9E9D0 Offset: 0x9DDD0 VA: 0x18009E9D0
@@ -10478,14 +9679,11 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	[DebuggerBrowsableAttribute] // RVA: 0x9E9D0 Offset: 0x9DDD0 VA: 0x18009E9D0
 	private readonly <State>j__TPar <State>i__Field; // 0x0
 
-	// Properties
 	public <Identifier>j__TPar Identifier { get; }
 	public <Name>j__TPar Name { get; }
 	public <State>j__TPar State { get; }
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public <Identifier>j__TPar get_Identifier() { }
 	/* GenericInstMethod :
 	|
@@ -10494,7 +9692,6 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	|-<>f__AnonymousType0<object, object, object>.get_Identifier
 	*/
 
-	// RVA: -1 Offset: -1
 	public <Name>j__TPar get_Name() { }
 	/* GenericInstMethod :
 	|
@@ -10503,7 +9700,6 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	|-<>f__AnonymousType0<object, object, object>.get_Name
 	*/
 
-	// RVA: -1 Offset: -1
 	public <State>j__TPar get_State() { }
 	/* GenericInstMethod :
 	|
@@ -10515,7 +9711,6 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void .ctor(<Identifier>j__TPar Identifier, <Name>j__TPar Name, <State>j__TPar State) { }
 	/* GenericInstMethod :
 	|
@@ -10528,7 +9723,6 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object value) { }
 	/* GenericInstMethod :
 	|
@@ -10540,7 +9734,6 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -10552,7 +9745,6 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	*/
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
@@ -10566,8 +9758,7 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 }
 
 public class v_chainsaw : MonoBehaviour // TypeDefIndex: 8896
-{	// Fields
-	public bool bAttacking; // 0x18
+{	public bool bAttacking; // 0x18
 	public bool bHitMetal; // 0x19
 	public bool bHitWood; // 0x1A
 	public bool bHitFlesh; // 0x1B
@@ -10592,37 +9783,27 @@ public class v_chainsaw : MonoBehaviour // TypeDefIndex: 8896
 	public float temp1; // 0xA0
 	public float temp2; // 0xA4
 
-	// Methods
 
-	// RVA: 0x1A82760 Offset: 0x1A80D60 VA: 0x181A82760
 	public void OnEnable() { }
 
-	// RVA: 0x1A825A0 Offset: 0x1A80BA0 VA: 0x181A825A0
 	private void Awake() { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void Start() { }
 
-	// RVA: 0x1A82870 Offset: 0x1A80E70 VA: 0x181A82870
 	private void ScrollChainTexture() { }
 
-	// RVA: 0x1A82980 Offset: 0x1A80F80 VA: 0x181A82980
 	private void Update() { }
 
-	// RVA: 0x1A825E0 Offset: 0x1A80BE0 VA: 0x181A825E0
 	private void DoHitSound(SoundDefinition soundDef) { }
 
-	// RVA: 0x1A82EF0 Offset: 0x1A814F0 VA: 0x181A82EF0
 	public void .ctor() { }
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 12153
 {
-// Namespace: 
 [CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 12153
-	// Fields
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 08A598D3DC7ED63443A0CAF087F7CDF5BAA67E3D /*Metadata offset 0x56AB15*/; // 0x0
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 0ED907628EE272F93737B500A23D77C9B1C88368 /*Metadata offset 0x56AB2D*/; // 0x18
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28 17ADC9F18EEFE619644F7B3C7C90D5FD8DCDE2BB /*Metadata offset 0x56AB41*/; // 0x2C
@@ -10648,9 +9829,7 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 12153
 	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 E3D5EABE71635FCDE2C05162A6CDE245A9796318 /*Metadata offset 0x56B743*/; // 0xC30
 	internal static readonly long FCBA60311CDE80DE090AE6F8834C9CEC477FA56A = 5927942488114331648; // 0xCB0
 
-	// Methods
 
-	// RVA: 0xAAB9D0 Offset: 0xAA9FD0 VA: 0x180AAB9D0
 	internal static uint ComputeStringHash(string s) { }
 
 }

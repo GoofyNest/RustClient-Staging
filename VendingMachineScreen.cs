@@ -1,6 +1,5 @@
 public class VendingMachineScreen : MonoBehaviour // TypeDefIndex: 8738
-{	// Fields
-	public RawImage largeIcon; // 0x18
+{	public RawImage largeIcon; // 0x18
 	public RawImage blueprintIcon; // 0x20
 	public Text mainText; // 0x28
 	public Text lowerText; // 0x30
@@ -17,25 +16,19 @@ public class VendingMachineScreen : MonoBehaviour // TypeDefIndex: 8738
 	private float imageCycleTime; // 0x80
 	private const float maxDistSq = 225;
 
-	// Methods
 
-	// RVA: 0xAD92D0 Offset: 0xAD78D0 VA: 0x180AD92D0
 	public void UpdateLOD() { }
 
-	// RVA: 0xAD9580 Offset: 0xAD7B80 VA: 0x180AD9580
 	public void UpdateLightAnimation() { }
 
-	// RVA: 0xAD9680 Offset: 0xAD7C80 VA: 0x180AD9680
 	private void Update() { }
 
-	// RVA: 0x885ED0 Offset: 0x8844D0 VA: 0x180885ED0
 	public void .ctor() { }
 
 }
 
 public enum VendingMachineScreen.vmScreenState // TypeDefIndex: 8739
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const VendingMachineScreen.vmScreenState ItemScroll = 0;
 	public const VendingMachineScreen.vmScreenState Vending = 1;
 	public const VendingMachineScreen.vmScreenState Message = 2;

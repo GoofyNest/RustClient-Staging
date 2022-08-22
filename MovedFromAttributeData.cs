@@ -1,6 +1,5 @@
 internal struct MovedFromAttributeData // TypeDefIndex: 3653
-{	// Fields
-	public string className; // 0x0
+{	public string className; // 0x0
 	public string nameSpace; // 0x8
 	public string assembly; // 0x10
 	public bool classHasChanged; // 0x18
@@ -8,9 +7,7 @@ internal struct MovedFromAttributeData // TypeDefIndex: 3653
 	public bool assemblyHasChanged; // 0x1A
 	public bool autoUdpateAPI; // 0x1B
 
-	// Methods
 
-	// RVA: 0x21D180 Offset: 0x21C580 VA: 0x18021D180
 	public void Set(bool autoUpdateAPI, string sourceNamespace, string sourceAssembly, string sourceClassName) { }
 
 }

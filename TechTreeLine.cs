@@ -1,6 +1,5 @@
 public class TechTreeLine : TechTreeWidget // TypeDefIndex: 10916
-{	// Fields
-	public RawImage center; // 0x28
+{	public RawImage center; // 0x28
 	public RawImage topLeft; // 0x30
 	public RawImage topRight; // 0x38
 	public RawImage bottomLeft; // 0x40
@@ -16,21 +15,15 @@ public class TechTreeLine : TechTreeWidget // TypeDefIndex: 10916
 	private bool targetAbove; // 0x81
 	private bool targetLeft; // 0x82
 
-	// Methods
 
-	// RVA: 0x7CD3F0 Offset: 0x7CB9F0 VA: 0x1807CD3F0 Slot: 8
 	public override void SetLocked(bool wantsLocked) { }
 
-	// RVA: 0x7CD400 Offset: 0x7CBA00 VA: 0x1807CD400
 	public void SetTargetAbove(bool isTargetAbove) { }
 
-	// RVA: 0x7CD410 Offset: 0x7CBA10 VA: 0x1807CD410
 	public void SetTargetToLeft(bool isLeft) { }
 
-	// RVA: 0x7CD190 Offset: 0x7CB790 VA: 0x1807CD190
 	public void Refresh() { }
 
-	// RVA: 0x7CD120 Offset: 0x7CB720 VA: 0x1807CD120
 	public void .ctor() { }
 
 }

@@ -1,6 +1,5 @@
 public class CarSettings // TypeDefIndex: 9705
-{	// Fields
-	[HeaderAttribute] // RVA: 0x84910 Offset: 0x83D10 VA: 0x180084910
+{	[HeaderAttribute] // RVA: 0x84910 Offset: 0x83D10 VA: 0x180084910
 	[RangeAttribute] // RVA: 0x84910 Offset: 0x83D10 VA: 0x180084910
 	public float rollingResistance; // 0x10
 	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
@@ -33,9 +32,7 @@ public class CarSettings // TypeDefIndex: 9705
 	[RangeAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
 	public float handlingBias; // 0x54
 
-	// Methods
 
-	// RVA: 0x6FE220 Offset: 0x6FC820 VA: 0x1806FE220
 	public void .ctor() { }
 
 }

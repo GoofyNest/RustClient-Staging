@@ -1,6 +1,5 @@
 public class TimedExplosive : BaseEntity // TypeDefIndex: 9684
-{	// Fields
-	public float timerAmountMin; // 0x168
+{	public float timerAmountMin; // 0x168
 	public float timerAmountMax; // 0x16C
 	public float minExplosionRadius; // 0x170
 	public float explosionRadius; // 0x174
@@ -17,18 +16,13 @@ public class TimedExplosive : BaseEntity // TypeDefIndex: 9684
 	public List<DamageTypeEntry> damageTypes; // 0x1A8
 	private float lastBounceTime; // 0x1B0
 
-	// Methods
 
-	// RVA: 0x86DB10 Offset: 0x86C110 VA: 0x18086DB10 Slot: 61
 	public override void DoDestroyEffects(BaseNetworkable.DestroyMode mode, Message msg) { }
 
-	// RVA: 0x568670 Offset: 0x566C70 VA: 0x180568670 Slot: 52
 	public override float GetExtrapolationTime() { }
 
-	// RVA: 0x86DB60 Offset: 0x86C160 VA: 0x18086DB60 Slot: 131
 	public virtual void SetCollisionEnabled(bool wantsCollision) { }
 
-	// RVA: 0x86DC00 Offset: 0x86C200 VA: 0x18086DC00
 	public void .ctor() { }
 
 }

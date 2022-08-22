@@ -1,6 +1,5 @@
 internal class VisualElementStylesData // TypeDefIndex: 4728
-{	// Fields
-	private static StyleValuePropertyReader s_StyleValuePropertyReader; // 0x0
+{	private static StyleValuePropertyReader s_StyleValuePropertyReader; // 0x0
 	public static readonly VisualElementStylesData none; // 0x8
 	internal readonly bool isShared; // 0x10
 	internal StyleLength width; // 0x14
@@ -31,12 +30,9 @@ internal class VisualElementStylesData // TypeDefIndex: 4728
 	internal StyleInt display; // 0x1B4
 	internal float dpiScaling; // 0x1C0
 
-	// Methods
 
-	// RVA: 0xEBF950 Offset: 0xEBDF50 VA: 0x180EBF950
 	public void .ctor(bool isShared) { }
 
-	// RVA: 0xEBF8B0 Offset: 0xEBDEB0 VA: 0x180EBF8B0
 	private static void .cctor() { }
 
 }

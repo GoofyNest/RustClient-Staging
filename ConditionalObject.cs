@@ -1,6 +1,5 @@
 public class ConditionalObject // TypeDefIndex: 12096
-{	// Fields
-	public GameObject gameObject; // 0x10
+{	public GameObject gameObject; // 0x10
 	public GameObject ownerGameObject; // 0x18
 	public ConditionalSocketSettings[] socketSettings; // 0x20
 	public bool restrictOnHealth; // 0x28
@@ -14,33 +13,25 @@ public class ConditionalObject // TypeDefIndex: 12096
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<bool> <IsActive>k__BackingField; // 0x42
 
-	// Properties
 	public Nullable<bool> IsActive { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BB410 Offset: 0x4B9A10 VA: 0x1804BB410
 	public Nullable<bool> get_IsActive() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BB420 Offset: 0x4B9A20 VA: 0x1804BB420
 	private void set_IsActive(Nullable<bool> value) { }
 
-	// RVA: 0x4BB370 Offset: 0x4B9970 VA: 0x1804BB370
 	public void .ctor(GameObject conditionalGO, GameObject ownerGO, int socketsTaken) { }
 
-	// RVA: 0x4BB2D0 Offset: 0x4B98D0 VA: 0x1804BB2D0
 	public void SetActive(bool active) { }
 
-	// RVA: 0x4BB260 Offset: 0x4B9860 VA: 0x1804BB260
 	public void RefreshActive() { }
 
 }
 
 public enum ConditionalObject.AdjacentCondition // TypeDefIndex: 12097
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const ConditionalObject.AdjacentCondition SameInFront = 0;
 	public const ConditionalObject.AdjacentCondition SameBehind = 1;
 	public const ConditionalObject.AdjacentCondition DifferentInFront = 2;
@@ -51,8 +42,7 @@ public enum ConditionalObject.AdjacentCondition // TypeDefIndex: 12097
 }
 
 public enum ConditionalObject.AdjacentMatchType // TypeDefIndex: 12098
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const ConditionalObject.AdjacentMatchType GroupOrExact = 0;
 	public const ConditionalObject.AdjacentMatchType ExactOnly = 1;
 	public const ConditionalObject.AdjacentMatchType GroupNotExact = 2;

@@ -1,6 +1,5 @@
 public class TechTreeSelectedNodeUI : MonoBehaviour // TypeDefIndex: 10917
-{	// Fields
-	public RustText selectedTitle; // 0x18
+{	public RustText selectedTitle; // 0x18
 	public RawImage selectedIcon; // 0x20
 	public RustText selectedDescription; // 0x28
 	public RustText costText; // 0x30
@@ -19,21 +18,15 @@ public class TechTreeSelectedNodeUI : MonoBehaviour // TypeDefIndex: 10917
 	private List<TechTreeData.NodeInstance> preReqNodes; // 0xA8
 	private int preReqCost; // 0xB0
 
-	// Methods
 
-	// RVA: 0x7CDED0 Offset: 0x7CC4D0 VA: 0x1807CDED0
 	public void Start() { }
 
-	// RVA: 0x7CDED0 Offset: 0x7CC4D0 VA: 0x1807CDED0
 	public void HideIP() { }
 
-	// RVA: 0x7CDF50 Offset: 0x7CC550 VA: 0x1807CDF50
 	public void TryUnlock() { }
 
-	// RVA: 0x7CD420 Offset: 0x7CBA20 VA: 0x1807CD420
 	public void DoSelection(TechTreeData.NodeInstance node) { }
 
-	// RVA: 0x7CDF70 Offset: 0x7CC570 VA: 0x1807CDF70
 	public void .ctor() { }
 
 }

@@ -1,32 +1,24 @@
 public class Message // TypeDefIndex: 6693
-{	// Fields
-	public Message.Type type; // 0x10
+{	public Message.Type type; // 0x10
 	public BaseNetwork peer; // 0x18
 	public Connection connection; // 0x20
 
-	// Properties
 	public NetRead read { get; }
 	public NetWrite write { get; }
 
-	// Methods
 
-	// RVA: 0xE57E40 Offset: 0xE56440 VA: 0x180E57E40
 	public NetRead get_read() { }
 
-	// RVA: 0x8557E0 Offset: 0x853DE0 VA: 0x1808557E0
 	public NetWrite get_write() { }
 
-	// RVA: 0x2210540 Offset: 0x220EB40 VA: 0x182210540 Slot: 4
 	public virtual void Clear() { }
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
 }
 
 public enum Message.Type // TypeDefIndex: 6694
-{	// Fields
-	public byte value__; // 0x0
+{	public byte value__; // 0x0
 	public const Message.Type Welcome = 1;
 	public const Message.Type Auth = 2;
 	public const Message.Type Approved = 3;

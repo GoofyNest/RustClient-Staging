@@ -1,6 +1,5 @@
 public class SpawnHandler : SingletonComponent<SpawnHandler> // TypeDefIndex: 10012
-{	// Fields
-	public float TickInterval; // 0x18
+{	public float TickInterval; // 0x18
 	public int MinSpawnsPerTick; // 0x1C
 	public int MaxSpawnsPerTick; // 0x20
 	public LayerMask PlacementMask; // 0x24
@@ -19,9 +18,7 @@ public class SpawnHandler : SingletonComponent<SpawnHandler> // TypeDefIndex: 10
 	[ReadOnlyAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
 	public SpawnPopulation[] ConvarSpawnPopulations; // 0x78
 
-	// Methods
 
-	// RVA: 0xA7E260 Offset: 0xA7C860 VA: 0x180A7E260
 	public void .ctor() { }
 
 }

@@ -1,6 +1,5 @@
 public class TorpedoServerProjectile : ServerProjectile // TypeDefIndex: 9613
-{	// Fields
-	[TooltipAttribute] // RVA: 0x7A670 Offset: 0x79A70 VA: 0x18007A670
+{	[TooltipAttribute] // RVA: 0x7A670 Offset: 0x79A70 VA: 0x18007A670
 	[SerializeField] // RVA: 0x7A670 Offset: 0x79A70 VA: 0x18007A670
 	private float minWaterDepth; // 0x58
 	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -10,9 +9,7 @@ public class TorpedoServerProjectile : ServerProjectile // TypeDefIndex: 9613
 	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float shallowWaterCutoff; // 0x64
 
-	// Methods
 
-	// RVA: 0xA0B600 Offset: 0xA09C00 VA: 0x180A0B600
 	public void .ctor() { }
 
 }

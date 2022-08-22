@@ -1,6 +1,5 @@
 public sealed class Vignette : PostProcessEffectSettings // TypeDefIndex: 11815
-{	// Fields
-	[TooltipAttribute] // RVA: 0x77A90 Offset: 0x76E90 VA: 0x180077A90
+{	[TooltipAttribute] // RVA: 0x77A90 Offset: 0x76E90 VA: 0x180077A90
 	public VignetteModeParameter mode; // 0x30
 	[TooltipAttribute] // RVA: 0x77B60 Offset: 0x76F60 VA: 0x180077B60
 	public ColorParameter color; // 0x38
@@ -23,12 +22,9 @@ public sealed class Vignette : PostProcessEffectSettings // TypeDefIndex: 11815
 	[TooltipAttribute] // RVA: 0x78600 Offset: 0x77A00 VA: 0x180078600
 	public FloatParameter opacity; // 0x70
 
-	// Methods
 
-	// RVA: 0x11EBBA0 Offset: 0x11EA1A0 VA: 0x1811EBBA0 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x11EBC70 Offset: 0x11EA270 VA: 0x1811EBC70
 	public void .ctor() { }
 
 }

@@ -1,6 +1,5 @@
 public class NpcWalkAnimation : MonoBehaviour, IClientComponent // TypeDefIndex: 9118
-{	// Fields
-	public Vector3 HipFudge; // 0x18
+{	public Vector3 HipFudge; // 0x18
 	public BaseNpc Npc; // 0x28
 	public Animator Animator; // 0x30
 	public Transform HipBone; // 0x38
@@ -39,50 +38,35 @@ public class NpcWalkAnimation : MonoBehaviour, IClientComponent // TypeDefIndex:
 	private RaycastHit lastGroundAlignInfo; // 0xE4
 	private float avgTurnDifference; // 0x110
 
-	// Methods
 
-	// RVA: 0x9D5590 Offset: 0x9D3B90 VA: 0x1809D5590
 	public void Start() { }
 
-	// RVA: 0x9D53A0 Offset: 0x9D39A0 VA: 0x1809D53A0
 	private void OnEnable() { }
 
-	// RVA: 0x9D5320 Offset: 0x9D3920 VA: 0x1809D5320
 	private void OnDisable() { }
 
-	// RVA: 0x9D4ED0 Offset: 0x9D34D0 VA: 0x1809D4ED0
 	public Quaternion GetRotation() { }
 
-	// RVA: 0x9D5420 Offset: 0x9D3A20 VA: 0x1809D5420
 	private void QueuedGroundAlign() { }
 
-	// RVA: 0x9D57B0 Offset: 0x9D3DB0 VA: 0x1809D57B0
 	private void Update() { }
 
-	// RVA: 0x9D4F90 Offset: 0x9D3590 VA: 0x1809D4F90
 	public bool GroundSample(Vector3 origin, out RaycastHit hit) { }
 
-	// RVA: 0x9D50C0 Offset: 0x9D36C0 VA: 0x1809D50C0
 	public void LateUpdate() { }
 
-	// RVA: 0x9D69C0 Offset: 0x9D4FC0 VA: 0x1809D69C0
 	public void .ctor() { }
 
-	// RVA: 0x9D68B0 Offset: 0x9D4EB0 VA: 0x1809D68B0
 	private static void .cctor() { }
 
 }
 
 public class NpcWalkAnimation.NPCWalkWorkQueue : PersistentObjectWorkQueue<NpcWalkAnimation> // TypeDefIndex: 9119
-{	// Methods
-
-	// RVA: 0x9D0DD0 Offset: 0x9CF3D0 VA: 0x1809D0DD0 Slot: 5
+{
 	protected override void RunJob(NpcWalkAnimation entity) { }
 
-	// RVA: 0x9D0E10 Offset: 0x9CF410 VA: 0x1809D0E10 Slot: 4
 	protected override bool ShouldAdd(NpcWalkAnimation entity) { }
 
-	// RVA: 0x9D0EB0 Offset: 0x9CF4B0 VA: 0x1809D0EB0
 	public void .ctor() { }
 
 }

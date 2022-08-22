@@ -1,6 +1,5 @@
 public enum ParticleSystemShapeType // TypeDefIndex: 4541
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const ParticleSystemShapeType Sphere = 0;
 	[ObsoleteAttribute] // RVA: 0x6FD60 Offset: 0x6F160 VA: 0x18006FD60
 	public const ParticleSystemShapeType SphereShell = 1;

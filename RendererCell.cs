@@ -1,65 +1,47 @@
 public class RendererCell : Pool.IPooled // TypeDefIndex: 9917
-{	// Fields
-	public Vector3 position; // 0x10
+{	public Vector3 position; // 0x10
 	public RendererGrid grid; // 0x20
 	public bool interrupt; // 0x28
 	public bool isInPool; // 0x29
 	public float Timestamp; // 0x2C
 	private ListDictionary<RendererKey, RendererGroup> batches; // 0x30
 
-	// Properties
 	public int Count { get; }
 
-	// Methods
 
-	// RVA: 0x94EC60 Offset: 0x94D260 VA: 0x18094EC60
 	public int get_Count() { }
 
-	// RVA: 0x94E5F0 Offset: 0x94CBF0 VA: 0x18094E5F0
 	public void Initialize(RendererGrid grid, Vector3 position) { }
 
-	// RVA: 0x94E7D0 Offset: 0x94CDD0 VA: 0x18094E7D0
 	public bool NeedsRefresh() { }
 
-	// RVA: 0x94E6B0 Offset: 0x94CCB0 VA: 0x18094E6B0
 	public int MeshCount() { }
 
-	// RVA: 0x94E0B0 Offset: 0x94C6B0 VA: 0x18094E0B0
 	public int BatchedMeshCount() { }
 
-	// RVA: 0x94EAD0 Offset: 0x94D0D0 VA: 0x18094EAD0
 	public int VertexCount() { }
 
-	// RVA: 0x94E8F0 Offset: 0x94CEF0 VA: 0x18094E8F0
 	public void Refresh() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xA7E00 Offset: 0xA7200 VA: 0x1800A7E00
-	// RVA: 0x94E880 Offset: 0x94CE80 VA: 0x18094E880
 	public IEnumerator RefreshAsync() { }
 
-	// RVA: 0x94E430 Offset: 0x94CA30 VA: 0x18094E430
 	public RendererGroup FindBatchGroup(RendererBatch renderer) { }
 
-	// RVA: 0x94E1D0 Offset: 0x94C7D0 VA: 0x18094E1D0
 	private RendererGroup CreateRendererGroup(RendererGrid grid, RendererCell cell, RendererKey key) { }
 
-	// RVA: 0x94E290 Offset: 0x94C890 VA: 0x18094E290
 	private void DestroyRendererGroup(ref RendererGroup grp) { }
 
-	// RVA: 0x94E2F0 Offset: 0x94C8F0 VA: 0x18094E2F0 Slot: 4
 	public void EnterPool() { }
 
-	// RVA: 0x94E630 Offset: 0x94CC30 VA: 0x18094E630 Slot: 5
 	public void LeavePool() { }
 
-	// RVA: 0x94EBF0 Offset: 0x94D1F0 VA: 0x18094EBF0
 	public void .ctor() { }
 
 }
 
 private sealed class RendererCell.<RefreshAsync>d__14 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 9918
-{	// Fields
-	private int <>1__state; // 0x10
+{	private int <>1__state; // 0x10
 	private object <>2__current; // 0x18
 	public RendererCell <>4__this; // 0x20
 	private BufferList<RendererGroup> <batchGroups>5__2; // 0x28
@@ -68,33 +50,25 @@ private sealed class RendererCell.<RefreshAsync>d__14 : IEnumerator<object>, IEn
 	private RendererGroup <batchGroup>5__5; // 0x40
 	private int <j>5__6; // 0x48
 
-	// Properties
 	private object System.Collections.Generic.IEnumerator<System.Object>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
-	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x956990 Offset: 0x954F90 VA: 0x180956990 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x957370 Offset: 0x955970 VA: 0x180957370 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

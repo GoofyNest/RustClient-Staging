@@ -1,6 +1,5 @@
 public class LightingOverride : MonoBehaviour // TypeDefIndex: 6634
-{	// Fields
-	public bool overrideAmbientLight; // 0x18
+{	public bool overrideAmbientLight; // 0x18
 	public AmbientMode ambientMode; // 0x1C
 	public Color ambientGroundColor; // 0x20
 	public Color ambientEquatorColor; // 0x30
@@ -13,15 +12,11 @@ public class LightingOverride : MonoBehaviour // TypeDefIndex: 6634
 	internal AmbientMode old_ambientMode; // 0x88
 	public float aspect; // 0x8C
 
-	// Methods
 
-	// RVA: 0x1BA3F60 Offset: 0x1BA2560 VA: 0x181BA3F60
 	private void OnPreRender() { }
 
-	// RVA: 0x1BA3ED0 Offset: 0x1BA24D0 VA: 0x181BA3ED0
 	private void OnPostRender() { }
 
-	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
 }

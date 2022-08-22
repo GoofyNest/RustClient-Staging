@@ -1,6 +1,5 @@
 public class TriggerParent : TriggerBase, IServerComponent // TypeDefIndex: 10036
-{	// Fields
-	[TooltipAttribute] // RVA: 0xB0260 Offset: 0xAF660 VA: 0x1800B0260
+{	[TooltipAttribute] // RVA: 0xB0260 Offset: 0xAF660 VA: 0x1800B0260
 	[SerializeField] // RVA: 0xB0260 Offset: 0xAF660 VA: 0x1800B0260
 	private bool doClippingCheck; // 0x30
 	[TooltipAttribute] // RVA: 0xB03F0 Offset: 0xAF7F0 VA: 0x1800B03F0
@@ -14,9 +13,7 @@ public class TriggerParent : TriggerBase, IServerComponent // TypeDefIndex: 1003
 	public bool overrideOtherTriggers; // 0x43
 	public const int CLIP_CHECK_MASK = 1218511105;
 
-	// Methods
 
-	// RVA: 0xA22A40 Offset: 0xA21040 VA: 0x180A22A40
 	public void .ctor() { }
 
 }

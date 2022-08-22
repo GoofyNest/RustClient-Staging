@@ -1,6 +1,5 @@
 public class ERPrefabInstance : MonoBehaviour // TypeDefIndex: 7289
-{	// Fields
-	public SideObject so; // 0x18
+{	public SideObject so; // 0x18
 	public GameObject prefab; // 0x20
 	public ERSORoadExt soData; // 0x28
 	public double id; // 0x30
@@ -10,12 +9,9 @@ public class ERPrefabInstance : MonoBehaviour // TypeDefIndex: 7289
 	public bool child; // 0x42
 	public int sectionIndex; // 0x44
 
-	// Methods
 
-	// RVA: 0xB3C060 Offset: 0xB3A660 VA: 0x180B3C060
 	public void Copy(ERPrefabInstance source) { }
 
-	// RVA: 0xB3C130 Offset: 0xB3A730 VA: 0x180B3C130
 	public void .ctor() { }
 
 }

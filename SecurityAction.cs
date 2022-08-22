@@ -1,6 +1,5 @@
 public enum SecurityAction // TypeDefIndex: 914
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const SecurityAction Demand = 2;
 	public const SecurityAction Assert = 3;
 	[ObsoleteAttribute] // RVA: 0xC4F90 Offset: 0xC4390 VA: 0x1800C4F90

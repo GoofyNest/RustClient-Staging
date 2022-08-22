@@ -1,6 +1,5 @@
 public enum NotificationSendResult // TypeDefIndex: 11648
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const NotificationSendResult Failed = 0;
 	public const NotificationSendResult Sent = 1;
 	public const NotificationSendResult Empty = 2;

@@ -1,6 +1,5 @@
 public class SidewalkPresetClass // TypeDefIndex: 7255
-{	// Fields
-	public string presetName; // 0x10
+{	public string presetName; // 0x10
 	public double id; // 0x18
 	public double timestamp; // 0x20
 	public float sidewalkWidth1; // 0x28
@@ -19,9 +18,7 @@ public class SidewalkPresetClass // TypeDefIndex: 7255
 	public List<float> curbUVs; // 0x60
 	public bool lockUVs; // 0x68
 
-	// Methods
 
-	// RVA: 0x22C5AB0 Offset: 0x22C40B0 VA: 0x1822C5AB0
 	public void .ctor(QDOQDSQOOQDDD corner, string name) { }
 
 }

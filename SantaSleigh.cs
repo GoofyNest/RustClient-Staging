@@ -1,6 +1,5 @@
 public class SantaSleigh : BaseEntity // TypeDefIndex: 8636
-{	// Fields
-	public GameObjectRef prefabDrop; // 0x168
+{	public GameObjectRef prefabDrop; // 0x168
 	public SpawnFilter filter; // 0x170
 	public Transform dropOrigin; // 0x178
 	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
@@ -12,22 +11,16 @@ public class SantaSleigh : BaseEntity // TypeDefIndex: 8636
 	public float hohohospacing; // 0x190
 	public float hohoho_additional_spacing; // 0x194
 
-	// Methods
 
-	// RVA: 0x49F770 Offset: 0x49DD70 VA: 0x18049F770 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x49F740 Offset: 0x49DD40 VA: 0x18049F740
 	public void ClientPlayHoHoHo() { }
 
-	// RVA: 0x49FB40 Offset: 0x49E140 VA: 0x18049FB40
 	public void Update() { }
 
-	// RVA: 0x49FCE0 Offset: 0x49E2E0 VA: 0x18049FCE0
 	public void .ctor() { }
 
-	// RVA: 0x49FC90 Offset: 0x49E290 VA: 0x18049FC90
 	private static void .cctor() { }
 
 }

@@ -1,6 +1,5 @@
 public struct ERRoadShape // TypeDefIndex: 7204
-{	// Fields
-	public List<Vector2> nodes; // 0x0
+{	public List<Vector2> nodes; // 0x0
 	public List<bool> hardEdge; // 0x8
 	public int priorityNodeIndexLeft; // 0x10
 	public int priorityNodeIndexRight; // 0x14
@@ -22,18 +21,13 @@ public struct ERRoadShape // TypeDefIndex: 7204
 	public int isSymmetrical; // 0x58
 	public bool isset; // 0x5C
 
-	// Methods
 
-	// RVA: 0xFCF00 Offset: 0xFC300 VA: 0x1800FCF00
 	public void .ctor(float width) { }
 
-	// RVA: 0xFCE90 Offset: 0xFC290 VA: 0x1800FCE90
 	public void OCCQQDOQOD(List<Vector2> _nodes) { }
 
-	// RVA: 0xFCC50 Offset: 0xFC050 VA: 0x1800FCC50
 	public void Copy(ERRoadShape shape) { }
 
-	// RVA: 0xFCCA0 Offset: 0xFC0A0 VA: 0x1800FCCA0
 	public void IsSymmetrical() { }
 
 }

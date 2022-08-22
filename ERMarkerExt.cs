@@ -1,6 +1,5 @@
 public class ERMarkerExt : ScriptableObject // TypeDefIndex: 7262
-{	// Fields
-	public bool activeSplineNode; // 0x18
+{	public bool activeSplineNode; // 0x18
 	public float leftIndent; // 0x1C
 	public int leftIndentAlignment; // 0x20
 	public float rightIndent; // 0x24
@@ -80,24 +79,17 @@ public class ERMarkerExt : ScriptableObject // TypeDefIndex: 7262
 	public float markerStartUVY; // 0x1D8
 	public List<Vector3> customPoints; // 0x1E0
 
-	// Methods
 
-	// RVA: 0x9BB370 Offset: 0x9B9970 VA: 0x1809BB370
 	public void Init(Vector3 pos, ERModularRoad scr, int element) { }
 
-	// RVA: 0x9BB2D0 Offset: 0x9B98D0 VA: 0x1809BB2D0
 	public static ERMarkerExt CreateInstance(Vector3 pos, ERModularRoad scr, int element) { }
 
-	// RVA: 0x9BC220 Offset: 0x9BA820 VA: 0x1809BC220
 	public void SetControlType(ERMarkerControlType type) { }
 
-	// RVA: 0x9BC270 Offset: 0x9BA870 VA: 0x1809BC270
 	public string[] SoNames() { }
 
-	// RVA: 0x9BBFF0 Offset: 0x9BA5F0 VA: 0x1809BBFF0
 	public static void OOQQCOQDQC(ERMarkerExt source, ERMarkerExt target, string name) { }
 
-	// RVA: 0x9BC450 Offset: 0x9BAA50 VA: 0x1809BC450
 	public void .ctor() { }
 
 }

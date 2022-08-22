@@ -1,6 +1,5 @@
 public enum GraphicsDeviceType // TypeDefIndex: 3822
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	[ObsoleteAttribute] // RVA: 0x708C0 Offset: 0x6FCC0 VA: 0x1800708C0
 	public const GraphicsDeviceType OpenGL2 = 0;
 	[ObsoleteAttribute] // RVA: 0x70A00 Offset: 0x6FE00 VA: 0x180070A00

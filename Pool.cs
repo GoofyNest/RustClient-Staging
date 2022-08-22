@@ -1,10 +1,7 @@
 public static class Pool // TypeDefIndex: 4835
-{	// Fields
-	public static Dictionary<Type, Pool.ICollection> directory; // 0x1347D
+{	public static Dictionary<Type, Pool.ICollection> directory; // 0x1347D
 
-	// Methods
 
-	// RVA: -1 Offset: -1
 	public static void FreeList<T>(ref List<T> obj) { }
 	/* GenericInstMethod :
 	|
@@ -239,10 +236,8 @@ public static class Pool // TypeDefIndex: 4835
 	|-Pool.FreeList<Vector2i>
 	*/
 
-	// RVA: 0x2270F30 Offset: 0x226F530 VA: 0x182270F30
 	public static void FreeMemoryStream(ref MemoryStream obj) { }
 
-	// RVA: -1 Offset: -1
 	public static void Free<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
@@ -547,7 +542,6 @@ public static class Pool // TypeDefIndex: 4835
 	|-Pool.Free<WaterDynamics.InstanceBatch>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void FreeDynamic<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
@@ -555,7 +549,6 @@ public static class Pool // TypeDefIndex: 4835
 	|-Pool.FreeDynamic<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	private static void FreeInternal<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
@@ -564,7 +557,6 @@ public static class Pool // TypeDefIndex: 4835
 	|-Pool.FreeInternal<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static T Get<T>() { }
 	/* GenericInstMethod :
 	|
@@ -939,7 +931,6 @@ public static class Pool // TypeDefIndex: 4835
 	|-Pool.Get<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static List<T> GetList<T>() { }
 	/* GenericInstMethod :
 	|
@@ -1174,7 +1165,6 @@ public static class Pool // TypeDefIndex: 4835
 	|-Pool.GetList<MeshRendererInstance>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void ResizeBuffer<T>(int size) { }
 	/* GenericInstMethod :
 	|
@@ -1187,7 +1177,6 @@ public static class Pool // TypeDefIndex: 4835
 	|-Pool.ResizeBuffer<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void FillBuffer<T>(int count = 2147483647) { }
 	/* GenericInstMethod :
 	|
@@ -1200,7 +1189,6 @@ public static class Pool // TypeDefIndex: 4835
 	|-Pool.FillBuffer<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static Pool.PoolCollection<T> FindCollection<T>() { }
 	/* GenericInstMethod :
 	|
@@ -1208,17 +1196,14 @@ public static class Pool // TypeDefIndex: 4835
 	|-Pool.FindCollection<object>
 	*/
 
-	// RVA: 0x2270D60 Offset: 0x226F360 VA: 0x182270D60
 	public static void Clear() { }
 
-	// RVA: 0x2271030 Offset: 0x226F630 VA: 0x182271030
 	private static void .cctor() { }
 
 }
 
 public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
-{	// Fields
-	public T[] buffer; // 0x0
+{	public T[] buffer; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private long <ItemsInStack>k__BackingField; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -1230,17 +1215,14 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private long <ItemsSpilled>k__BackingField; // 0x0
 
-	// Properties
 	public long ItemsInStack { get; set; }
 	public long ItemsInUse { get; set; }
 	public long ItemsCreated { get; set; }
 	public long ItemsTaken { get; set; }
 	public long ItemsSpilled { get; set; }
 
-	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 4
 	public long get_ItemsInStack() { }
 	/* GenericInstMethod :
 	|
@@ -1249,7 +1231,6 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void set_ItemsInStack(long value) { }
 	/* GenericInstMethod :
 	|
@@ -1258,7 +1239,6 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 5
 	public long get_ItemsInUse() { }
 	/* GenericInstMethod :
 	|
@@ -1267,7 +1247,6 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void set_ItemsInUse(long value) { }
 	/* GenericInstMethod :
 	|
@@ -1276,7 +1255,6 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 6
 	public long get_ItemsCreated() { }
 	/* GenericInstMethod :
 	|
@@ -1285,7 +1263,6 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void set_ItemsCreated(long value) { }
 	/* GenericInstMethod :
 	|
@@ -1294,7 +1271,6 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 7
 	public long get_ItemsTaken() { }
 	/* GenericInstMethod :
 	|
@@ -1303,7 +1279,6 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void set_ItemsTaken(long value) { }
 	/* GenericInstMethod :
 	|
@@ -1312,7 +1287,6 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1 Slot: 8
 	public long get_ItemsSpilled() { }
 	/* GenericInstMethod :
 	|
@@ -1321,7 +1295,6 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	*/
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	public void set_ItemsSpilled(long value) { }
 	/* GenericInstMethod :
 	|
@@ -1329,7 +1302,6 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	|-Pool.PoolCollection<object>.set_ItemsSpilled
 	*/
 
-	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
@@ -1337,7 +1309,6 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	|-Pool.PoolCollection<object>..ctor
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 9
 	public void Reset() { }
 	/* GenericInstMethod :
 	|
@@ -1345,7 +1316,6 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	|-Pool.PoolCollection<object>.Reset
 	*/
 
-	// RVA: -1 Offset: -1
 	public void Add(T obj) { }
 	/* GenericInstMethod :
 	|
@@ -1353,7 +1323,6 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	|-Pool.PoolCollection<object>.Add
 	*/
 
-	// RVA: -1 Offset: -1 Slot: 10
 	private void Facepunch.Pool.ICollection.Add(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -1364,8 +1333,7 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 }
 
 public class Pool : ConsoleSystem // TypeDefIndex: 11955
-{	// Fields
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+{	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	public static int mode; // 0x0
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
@@ -1378,65 +1346,50 @@ public class Pool : ConsoleSystem // TypeDefIndex: 11955
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	public static bool debug; // 0x6
 
-	// Methods
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x3696F0 Offset: 0x367CF0 VA: 0x1803696F0
 	public static void print_memory(ConsoleSystem.Arg arg) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x369FE0 Offset: 0x3685E0 VA: 0x180369FE0
 	public static void print_prefabs(ConsoleSystem.Arg arg) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x369260 Offset: 0x367860 VA: 0x180369260
 	public static void print_assets(ConsoleSystem.Arg arg) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x368E50 Offset: 0x367450 VA: 0x180368E50
 	public static void clear_memory(ConsoleSystem.Arg arg) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x368EA0 Offset: 0x3674A0 VA: 0x180368EA0
 	public static void clear_prefabs(ConsoleSystem.Arg arg) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x368E00 Offset: 0x367400 VA: 0x180368E00
 	public static void clear_assets(ConsoleSystem.Arg arg) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x368F10 Offset: 0x367510 VA: 0x180368F10
 	public static void export_prefabs(ConsoleSystem.Arg arg) { }
 
-	// RVA: 0x368DA0 Offset: 0x3673A0 VA: 0x180368DA0
 	public void .ctor() { }
 
-	// RVA: 0x368D30 Offset: 0x367330 VA: 0x180368D30
 	private static void .cctor() { }
 
 }
 
 private sealed class Pool.<>c // TypeDefIndex: 11956
-{	// Fields
-	public static readonly Pool.<>c <>9; // 0x0
+{	public static readonly Pool.<>c <>9; // 0x0
 	public static Func<KeyValuePair<Type, Pool.ICollection>, long> <>9__4_0; // 0x8
 
-	// Methods
 
-	// RVA: 0x36D5C0 Offset: 0x36BBC0 VA: 0x18036D5C0
 	private static void .cctor() { }
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x36D480 Offset: 0x36BA80 VA: 0x18036D480
 	internal long <print_memory>b__4_0(KeyValuePair<Type, Pool.ICollection> x) { }
 
 }

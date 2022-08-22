@@ -1,6 +1,5 @@
 public struct SpriteBone // TypeDefIndex: 3577
-{	// Fields
-	[SerializeField] // RVA: 0xD55E0 Offset: 0xD49E0 VA: 0x1800D55E0
+{	[SerializeField] // RVA: 0xD55E0 Offset: 0xD49E0 VA: 0x1800D55E0
 	[NativeNameAttribute] // RVA: 0xD55E0 Offset: 0xD49E0 VA: 0x1800D55E0
 	private string m_Name; // 0x0
 	[NativeNameAttribute] // RVA: 0xD5740 Offset: 0xD4B40 VA: 0x1800D5740

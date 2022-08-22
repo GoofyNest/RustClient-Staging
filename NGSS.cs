@@ -1,6 +1,5 @@
 public class NGSS_Directional : MonoBehaviour // TypeDefIndex: 11506
-{	// Fields
-	[TooltipAttribute] // RVA: 0xB8D80 Offset: 0xB8180 VA: 0x1800B8D80
+{	[TooltipAttribute] // RVA: 0xB8D80 Offset: 0xB8180 VA: 0x1800B8D80
 	[RangeAttribute] // RVA: 0xB8D80 Offset: 0xB8180 VA: 0x1800B8D80
 	public float PCSS_GLOBAL_SOFTNESS; // 0x18
 	[TooltipAttribute] // RVA: 0xB8EE0 Offset: 0xB82E0 VA: 0x1800B8EE0
@@ -15,22 +14,17 @@ public class NGSS_Directional : MonoBehaviour // TypeDefIndex: 11506
 	[TooltipAttribute] // RVA: 0xB9170 Offset: 0xB8570 VA: 0x1800B9170
 	public NGSS_Directional.SAMPLER_COUNT SAMPLERS_COUNT; // 0x28
 
-	// Methods
 
-	// RVA: 0x7E2030 Offset: 0x7E0630 VA: 0x1807E2030
 	private void Update() { }
 
-	// RVA: 0x7E1F80 Offset: 0x7E0580 VA: 0x1807E1F80
 	private void SetGlobalSettings(bool enabled) { }
 
-	// RVA: 0x7E2170 Offset: 0x7E0770 VA: 0x1807E2170
 	public void .ctor() { }
 
 }
 
 public enum NGSS_Directional.SAMPLER_COUNT // TypeDefIndex: 11507
-{	// Fields
-	public int value__; // 0x0
+{	public int value__; // 0x0
 	public const NGSS_Directional.SAMPLER_COUNT SAMPLERS_16 = 0;
 	public const NGSS_Directional.SAMPLER_COUNT SAMPLERS_25 = 1;
 	public const NGSS_Directional.SAMPLER_COUNT SAMPLERS_32 = 2;

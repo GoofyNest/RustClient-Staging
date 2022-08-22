@@ -1,6 +1,5 @@
 public class ExpandedLifeStats : MonoBehaviour // TypeDefIndex: 10924
-{	// Fields
-	public GameObject DisplayRoot; // 0x18
+{	public GameObject DisplayRoot; // 0x18
 	public GameObjectRef GenericStatRow; // 0x20
 	[HeaderAttribute] // RVA: 0x8ACB0 Offset: 0x8A0B0 VA: 0x18008ACB0
 	public Transform ResourcesStatRoot; // 0x28
@@ -22,108 +21,80 @@ public class ExpandedLifeStats : MonoBehaviour // TypeDefIndex: 10924
 	private bool state; // 0x98
 	private List<GameObject> rowsToRetire; // 0xA0
 
-	// Methods
 
-	// RVA: 0x8CFD90 Offset: 0x8CE390 VA: 0x1808CFD90
 	public void Toggle() { }
 
-	// RVA: 0x8CFA80 Offset: 0x8CE080 VA: 0x1808CFA80
 	public void Toggle(bool newState) { }
 
-	// RVA: 0x8CF180 Offset: 0x8CD780 VA: 0x1808CF180
 	private void PopulateDynamicStats() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x8AE80 Offset: 0x8A280 VA: 0x18008AE80
-	// RVA: 0x8CFEB0 Offset: 0x8CE4B0 VA: 0x1808CFEB0
 	private IEnumerator WaitAndRelayout() { }
 
-	// RVA: 0x8CF4C0 Offset: 0x8CDAC0 VA: 0x1808CF4C0
 	private void PopulateGenericStats(List<ExpandedLifeStats.GenericStatDisplay> stats, Transform parent, PlayerLifeStory life) { }
 
-	// RVA: 0x8CF800 Offset: 0x8CDE00 VA: 0x1808CF800
 	private void PopulateWeaponStats(List<PlayerLifeStory.WeaponStats> stats, Transform parent) { }
 
-	// RVA: 0x8CFDB0 Offset: 0x8CE3B0 VA: 0x1808CFDB0
 	public void UpdateScrollGradient() { }
 
-	// RVA: 0x8CFF20 Offset: 0x8CE520 VA: 0x1808CFF20
 	public void .ctor() { }
 
 }
 
 public struct ExpandedLifeStats.GenericStatDisplay // TypeDefIndex: 10925
-{	// Fields
-	public string statKey; // 0x0
+{	public string statKey; // 0x0
 	public Sprite statSprite; // 0x8
 	public Translate.Phrase displayPhrase; // 0x10
 
 }
 
 private sealed class ExpandedLifeStats.<>c // TypeDefIndex: 10926
-{	// Fields
-	public static readonly ExpandedLifeStats.<>c <>9; // 0x0
+{	public static readonly ExpandedLifeStats.<>c <>9; // 0x0
 	public static Comparison<PlayerLifeStory.WeaponStats> <>9__21_0; // 0x8
 
-	// Methods
 
-	// RVA: 0x8D9FB0 Offset: 0x8D85B0 VA: 0x1808D9FB0
 	private static void .cctor() { }
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8D9D20 Offset: 0x8D8320 VA: 0x1808D9D20
 	internal int <PopulateDynamicStats>b__21_0(PlayerLifeStory.WeaponStats a, PlayerLifeStory.WeaponStats b) { }
 
 }
 
 private sealed class ExpandedLifeStats.<WaitAndRelayout>d__22 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10927
-{	// Fields
-	private int <>1__state; // 0x10
+{	private int <>1__state; // 0x10
 	private object <>2__current; // 0x18
 	public ExpandedLifeStats <>4__this; // 0x20
 
-	// Properties
 	private object System.Collections.Generic.IEnumerator<System.Object>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
-	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x8DA310 Offset: 0x8D8910 VA: 0x1808DA310 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8DA4C0 Offset: 0x8D8AC0 VA: 0x1808DA4C0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
 
 private sealed class ExpandedLifeStats.<>c__DisplayClass23_0 // TypeDefIndex: 10928
-{	// Fields
-	public ExpandedLifeStats.GenericStatDisplay genericStatDisplay; // 0x10
+{	public ExpandedLifeStats.GenericStatDisplay genericStatDisplay; // 0x10
 
-	// Methods
 
-	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8D9E20 Offset: 0x8D8420 VA: 0x1808D9E20
 	internal bool <PopulateGenericStats>b__0(PlayerLifeStory.GenericStat p) { }
 
 }

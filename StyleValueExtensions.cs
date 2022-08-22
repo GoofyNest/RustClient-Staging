@@ -1,8 +1,6 @@
 internal static class StyleValueExtensions // TypeDefIndex: 4718
-{	// Methods
-
+{
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	internal static StyleEnum<T> ToStyleEnum<T>(StyleInt styleInt, T value) { }
 	/* GenericInstMethod :
 	|
@@ -14,15 +12,12 @@ internal static class StyleValueExtensions // TypeDefIndex: 4718
 	*/
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEBD160 Offset: 0xEBB760 VA: 0x180EBD160
 	internal static StyleLength ToStyleLength(StyleValue styleValue) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEBD120 Offset: 0xEBB720 VA: 0x180EBD120
 	internal static StyleFloat ToStyleFloat(StyleValue styleValue) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: -1 Offset: -1
 	internal static string DebugString<T>(IStyleValue<T> styleValue) { }
 	/* GenericInstMethod :
 	|

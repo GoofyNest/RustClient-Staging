@@ -1,6 +1,5 @@
 public class GreyScale : PostProcessEffectSettings // TypeDefIndex: 10262
-{	// Fields
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+{	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public FloatParameter redLuminance; // 0x30
 	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public FloatParameter greenLuminance; // 0x38
@@ -11,9 +10,7 @@ public class GreyScale : PostProcessEffectSettings // TypeDefIndex: 10262
 	[ColorUsageAttribute] // RVA: 0x768B0 Offset: 0x75CB0 VA: 0x1800768B0
 	public ColorParameter color; // 0x50
 
-	// Methods
 
-	// RVA: 0xCA6010 Offset: 0xCA4610 VA: 0x180CA6010
 	public void .ctor() { }
 
 }

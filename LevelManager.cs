@@ -1,64 +1,47 @@
 public static class LevelManager // TypeDefIndex: 9963
-{	// Fields
-	public static string CurrentLevelName; // 0x2B4F
+{	public static string CurrentLevelName; // 0x2B4F
 
-	// Properties
 	public static bool isLoaded { get; }
 
-	// Methods
 
-	// RVA: 0x68BF80 Offset: 0x68A580 VA: 0x18068BF80
 	public static bool get_isLoaded() { }
 
-	// RVA: 0x68BD60 Offset: 0x68A360 VA: 0x18068BD60
 	public static bool IsValid(string strName) { }
 
-	// RVA: 0x68BDF0 Offset: 0x68A3F0 VA: 0x18068BDF0
 	public static void LoadLevel(string strName, bool keepLoadingScreenOpen = True) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xAAB80 Offset: 0xA9F80 VA: 0x1800AAB80
-	// RVA: 0x68BD70 Offset: 0x68A370 VA: 0x18068BD70
 	public static IEnumerator LoadLevelAsync(string strName, bool keepLoadingScreenOpen = True) { }
 
-	// RVA: 0x68BE80 Offset: 0x68A480 VA: 0x18068BE80
 	public static void UnloadLevel(bool loadingScreen = True) { }
 
 }
 
 private sealed class LevelManager.<LoadLevelAsync>d__5 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 9964
-{	// Fields
-	private int <>1__state; // 0x10
+{	private int <>1__state; // 0x10
 	private object <>2__current; // 0x18
 	public string strName; // 0x20
 	public bool keepLoadingScreenOpen; // 0x28
 
-	// Properties
 	private object System.Collections.Generic.IEnumerator<System.Object>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
-	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x6903E0 Offset: 0x68E9E0 VA: 0x1806903E0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x690550 Offset: 0x68EB50 VA: 0x180690550 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

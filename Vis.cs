@@ -1,17 +1,12 @@
 public static class Vis // TypeDefIndex: 10054
-{	// Fields
-	private static int colCount; // 0x0
+{	private static int colCount; // 0x0
 	private static Collider[] colBuffer; // 0x8
 
-	// Methods
 
-	// RVA: 0x7FDE00 Offset: 0x7FC400 VA: 0x1807FDE00
 	private static void Buffer(Vector3 position, float radius, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 
-	// RVA: 0x7FD860 Offset: 0x7FBE60 VA: 0x1807FD860
 	public static bool AnyColliders(Vector3 position, float radius, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 1) { }
 
-	// RVA: -1 Offset: -1
 	public static void Colliders<T>(Vector3 position, float radius, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
@@ -20,7 +15,6 @@ public static class Vis // TypeDefIndex: 10054
 	|-Vis.Colliders<Collider>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void Components<T>(Vector3 position, float radius, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
@@ -30,7 +24,6 @@ public static class Vis // TypeDefIndex: 10054
 	|-Vis.Components<WaterVolume>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void Entities<T>(Vector3 position, float radius, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
@@ -47,7 +40,6 @@ public static class Vis // TypeDefIndex: 10054
 	|-Vis.Entities<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void EntityComponents<T>(Vector3 position, float radius, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
@@ -55,10 +47,8 @@ public static class Vis // TypeDefIndex: 10054
 	|-Vis.EntityComponents<object>
 	*/
 
-	// RVA: 0x7FDB60 Offset: 0x7FC160 VA: 0x1807FDB60
 	private static void Buffer(OBB bounds, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 
-	// RVA: -1 Offset: -1
 	public static void Colliders<T>(OBB bounds, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
@@ -66,7 +56,6 @@ public static class Vis // TypeDefIndex: 10054
 	|-Vis.Colliders<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void Components<T>(OBB bounds, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
@@ -74,7 +63,6 @@ public static class Vis // TypeDefIndex: 10054
 	|-Vis.Components<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void Entities<T>(OBB bounds, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
@@ -82,7 +70,6 @@ public static class Vis // TypeDefIndex: 10054
 	|-Vis.Entities<object>
 	*/
 
-	// RVA: -1 Offset: -1
 	public static void EntityComponents<T>(OBB bounds, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
@@ -90,10 +77,8 @@ public static class Vis // TypeDefIndex: 10054
 	|-Vis.EntityComponents<object>
 	*/
 
-	// RVA: 0x7FD910 Offset: 0x7FBF10 VA: 0x1807FD910
 	private static void Buffer(Vector3 startPosition, Vector3 endPosition, float radius, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 
-	// RVA: -1 Offset: -1
 	public static void Entities<T>(Vector3 startPosition, Vector3 endPosition, float radius, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
@@ -101,14 +86,12 @@ public static class Vis // TypeDefIndex: 10054
 	|-Vis.Entities<object>
 	*/
 
-	// RVA: 0x7FE050 Offset: 0x7FC650 VA: 0x1807FE050
 	private static void .cctor() { }
 
 }
 
 public class Vis : ConsoleSystem // TypeDefIndex: 11973
-{	// Fields
-	[ClientVar] // RVA: 0xC1E90 Offset: 0xC1290 VA: 0x1800C1E90
+{	[ClientVar] // RVA: 0xC1E90 Offset: 0xC1290 VA: 0x1800C1E90
 	[HelpAttribute] // RVA: 0xC1E90 Offset: 0xC1290 VA: 0x1800C1E90
 	public static bool lerp; // 0x0
 	[ServerVar] // RVA: 0xC20B0 Offset: 0xC14B0 VA: 0x1800C20B0
@@ -138,12 +121,9 @@ public class Vis : ConsoleSystem // TypeDefIndex: 11973
 	[HelpAttribute] // RVA: 0xC5150 Offset: 0xC4550 VA: 0x1800C5150
 	public static bool sense; // 0x8
 
-	// Methods
 
-	// RVA: 0x36D790 Offset: 0x36BD90 VA: 0x18036D790
 	public void .ctor() { }
 
-	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private static void .cctor() { }
 
 }
