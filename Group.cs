@@ -25,7 +25,7 @@ public class Group : Capture // TypeDefIndex: 2616
 	internal int[] _caps; // 0x20
 	internal int _capcount; // 0x28
 	internal CaptureCollection _capcoll; // 0x30
-	[OptionalFieldAttribute] // RVA: 0x7B620 Offset: 0x7AA20 VA: 0x18007B620
+	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
 	internal string _name; // 0x38
 
 	// Properties
@@ -67,28 +67,28 @@ public class Group : IDisposable // TypeDefIndex: 6708
 	// RVA: 0x14CAD50 Offset: 0x14C9350 VA: 0x1814CAD50
 	public bool get_isGlobal() { }
 
-	// RVA: 0x220F2F0 Offset: 0x220D8F0 VA: 0x18220F2F0
+	// RVA: 0x220F130 Offset: 0x220D730 VA: 0x18220F130
 	public void .ctor(Manager m, uint id) { }
 
-	// RVA: 0x220F050 Offset: 0x220D650 VA: 0x18220F050 Slot: 5
+	// RVA: 0x220EE90 Offset: 0x220D490 VA: 0x18220EE90 Slot: 5
 	public virtual void Dispose() { }
 
-	// RVA: 0x220F0E0 Offset: 0x220D6E0 VA: 0x18220F0E0
+	// RVA: 0x220EF20 Offset: 0x220D520 VA: 0x18220EF20
 	public void Join(Networkable nw) { }
 
-	// RVA: 0x220F190 Offset: 0x220D790 VA: 0x18220F190
+	// RVA: 0x220EFD0 Offset: 0x220D5D0 VA: 0x18220EFD0
 	public void Leave(Networkable nw) { }
 
-	// RVA: 0x220EFF0 Offset: 0x220D5F0 VA: 0x18220EFF0
+	// RVA: 0x220EE30 Offset: 0x220D430 VA: 0x18220EE30
 	public void AddSubscriber(Connection cn) { }
 
-	// RVA: 0x220F240 Offset: 0x220D840 VA: 0x18220F240
+	// RVA: 0x220F080 Offset: 0x220D680 VA: 0x18220F080
 	public void RemoveSubscriber(Connection cn) { }
 
-	// RVA: 0x220F0A0 Offset: 0x220D6A0 VA: 0x18220F0A0
+	// RVA: 0x220EEE0 Offset: 0x220D4E0 VA: 0x18220EEE0
 	public bool HasSubscribers() { }
 
-	// RVA: 0x220F290 Offset: 0x220D890 VA: 0x18220F290 Slot: 3
+	// RVA: 0x220F0D0 Offset: 0x220D6D0 VA: 0x18220F0D0 Slot: 3
 	public override string ToString() { }
 
 }

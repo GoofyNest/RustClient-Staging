@@ -26,10 +26,10 @@ public class ProceduralLift : BaseEntity // TypeDefIndex: 8432
 	// RVA: 0x9A84A0 Offset: 0x9A6AA0 VA: 0x1809A84A0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0x7DB50 Offset: 0x7CF50 VA: 0x18007DB50
-	[BaseEntity.Menu.Description] // RVA: 0x7DB50 Offset: 0x7CF50 VA: 0x18007DB50
-	[BaseEntity.Menu.Icon] // RVA: 0x7DB50 Offset: 0x7CF50 VA: 0x18007DB50
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7DB50 Offset: 0x7CF50 VA: 0x18007DB50
+	[BaseEntity.Menu] // RVA: 0x7DC20 Offset: 0x7D020 VA: 0x18007DC20
+	[BaseEntity.Menu.Description] // RVA: 0x7DC20 Offset: 0x7D020 VA: 0x18007DC20
+	[BaseEntity.Menu.Icon] // RVA: 0x7DC20 Offset: 0x7D020 VA: 0x18007DC20
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7DC20 Offset: 0x7D020 VA: 0x18007DC20
 	// RVA: 0x9A8640 Offset: 0x9A6C40 VA: 0x1809A8640
 	public void Menu_UseLift(BasePlayer player) { }
 

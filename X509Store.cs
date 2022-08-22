@@ -12,31 +12,31 @@ public class X509Store // TypeDefIndex: 1721
 
 	// Methods
 
-	// RVA: 0x2282B80 Offset: 0x2281180 VA: 0x182282B80
+	// RVA: 0x22829C0 Offset: 0x2280FC0 VA: 0x1822829C0
 	internal void .ctor(string path, bool crl, bool newFormat) { }
 
-	// RVA: 0x2282BE0 Offset: 0x22811E0 VA: 0x182282BE0
+	// RVA: 0x2282A20 Offset: 0x2281020 VA: 0x182282A20
 	public X509CertificateCollection get_Certificates() { }
 
-	// RVA: 0x2282C20 Offset: 0x2281220 VA: 0x182282C20
+	// RVA: 0x2282A60 Offset: 0x2281060 VA: 0x182282A60
 	public ArrayList get_Crls() { }
 
-	// RVA: 0x2282A30 Offset: 0x2281030 VA: 0x182282A30
+	// RVA: 0x2282870 Offset: 0x2280E70 VA: 0x182282870
 	private byte[] Load(string filename) { }
 
-	// RVA: 0x22828A0 Offset: 0x2280EA0 VA: 0x1822828A0
+	// RVA: 0x22826E0 Offset: 0x2280CE0 VA: 0x1822826E0
 	private X509Certificate LoadCertificate(string filename) { }
 
-	// RVA: 0x2282910 Offset: 0x2280F10 VA: 0x182282910
+	// RVA: 0x2282750 Offset: 0x2280D50 VA: 0x182282750
 	private X509Crl LoadCrl(string filename) { }
 
-	// RVA: 0x2282810 Offset: 0x2280E10 VA: 0x182282810
+	// RVA: 0x2282650 Offset: 0x2280C50 VA: 0x182282650
 	private bool CheckStore(string path, bool throwException) { }
 
-	// RVA: 0x2282580 Offset: 0x2280B80 VA: 0x182282580
+	// RVA: 0x22823C0 Offset: 0x22809C0 VA: 0x1822823C0
 	private X509CertificateCollection BuildCertificatesCollection(string storeName) { }
 
-	// RVA: 0x22826D0 Offset: 0x2280CD0 VA: 0x1822826D0
+	// RVA: 0x2282510 Offset: 0x2280B10 VA: 0x182282510
 	private ArrayList BuildCrlsCollection(string storeName) { }
 
 }

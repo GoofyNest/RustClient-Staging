@@ -1,14 +1,14 @@
 public class DamageRenderer : MonoBehaviour, IClientComponent, IPrefabPreProcess // TypeDefIndex: 9708
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private List<Material> damageShowingMats; // 0x18
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float maxDamageOpacity; // 0x20
-	[SerializeField] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[HideInInspector] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[HideInInspector] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	private List<DamageRenderer.DamageShowingRenderer> damageShowingRenderers; // 0x28
-	[SerializeField] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[HideInInspector] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[HideInInspector] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	private List<GlassPane> damageShowingGlassRenderers; // 0x30
 	private float prevHealth; // 0x38
 	private bool prevIsDead; // 0x3C
@@ -47,7 +47,7 @@ public class DamageRenderer : MonoBehaviour, IClientComponent, IPrefabPreProcess
 	// RVA: 0x83E910 Offset: 0x83CF10 VA: 0x18083E910
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x83E620 Offset: 0x83CC20 VA: 0x18083E620
 	private int[] <PreProcess>g__GetValidMatIndices|12_0(Renderer renderer, ref DamageRenderer.<>c__DisplayClass12_0 ) { }
 
@@ -60,7 +60,7 @@ private struct DamageRenderer.DamageShowingRenderer // TypeDefIndex: 9709
 
 	// Methods
 
-	// RVA: 0xF5AD0 Offset: 0xF4ED0 VA: 0x1800F5AD0
+	// RVA: 0xF5A50 Offset: 0xF4E50 VA: 0x1800F5A50
 	public void .ctor(Renderer renderer, int[] indices) { }
 
 }

@@ -1,6 +1,6 @@
 public abstract class BaseMeshPaintable : MonoBehaviour, IClientComponent // TypeDefIndex: 9202
 {	// Fields
-	private static MaterialPropertyBlock _block; // 0x2B11168
+	private static MaterialPropertyBlock _block; // 0x2B10188
 
 	// Properties
 	protected static MaterialPropertyBlock Block { get; }

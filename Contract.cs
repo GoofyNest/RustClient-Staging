@@ -1,7 +1,7 @@
 public static class Contract // TypeDefIndex: 1505
 {	// Methods
 
-	[ReliabilityContractAttribute] // RVA: 0x83CE0 Offset: 0x830E0 VA: 0x180083CE0
+	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
 	// RVA: -1 Offset: -1
 	public static bool ForAll<T>(IEnumerable<T> collection, Predicate<T> predicate) { }
 	/* GenericInstMethod :

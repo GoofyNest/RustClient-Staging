@@ -5,8 +5,8 @@ public class IndividualSpawner : BaseMonoBehaviour, IServerComponent // TypeDefI
 	public float respawnDelayMax; // 0x24
 	public bool useCustomBoundsCheckMask; // 0x28
 	public LayerMask customBoundsCheckMask; // 0x2C
-	[TooltipAttribute] // RVA: 0xACEC0 Offset: 0xAC2C0 VA: 0x1800ACEC0
-	[SerializeField] // RVA: 0xACEC0 Offset: 0xAC2C0 VA: 0x1800ACEC0
+	[TooltipAttribute] // RVA: 0xACF60 Offset: 0xAC360 VA: 0x1800ACF60
+	[SerializeField] // RVA: 0xACF60 Offset: 0xAC360 VA: 0x1800ACF60
 	private bool oneTimeSpawner; // 0x30
 
 	// Methods

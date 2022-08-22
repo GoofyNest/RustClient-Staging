@@ -6,22 +6,22 @@ public struct RigidTransform // TypeDefIndex: 7113
 
 	// Methods
 
-	// RVA: 0x22A560 Offset: 0x229960 VA: 0x18022A560
+	// RVA: 0x22A4E0 Offset: 0x2298E0 VA: 0x18022A4E0
 	public void .ctor(quaternion rotation, float3 translation) { }
 
-	// RVA: 0x239900 Offset: 0x238D00 VA: 0x180239900
+	// RVA: 0x239880 Offset: 0x238C80 VA: 0x180239880
 	public bool Equals(RigidTransform x) { }
 
-	// RVA: 0x2399A0 Offset: 0x238DA0 VA: 0x1802399A0 Slot: 0
+	// RVA: 0x239920 Offset: 0x238D20 VA: 0x180239920 Slot: 0
 	public override bool Equals(object x) { }
 
-	// RVA: 0x239AB0 Offset: 0x238EB0 VA: 0x180239AB0 Slot: 2
+	// RVA: 0x239A30 Offset: 0x238E30 VA: 0x180239A30 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x239AE0 Offset: 0x238EE0 VA: 0x180239AE0 Slot: 3
+	// RVA: 0x239A60 Offset: 0x238E60 VA: 0x180239A60 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x22ADC00 Offset: 0x22AC200 VA: 0x1822ADC00
+	// RVA: 0x22ADA40 Offset: 0x22AC040 VA: 0x1822ADA40
 	private static void .cctor() { }
 
 }

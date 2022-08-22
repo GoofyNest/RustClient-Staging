@@ -1,7 +1,7 @@
 public struct Bounds : IEquatable<Bounds> // TypeDefIndex: 3372
 {	// Fields
 	private Vector3 m_Center; // 0x0
-	[NativeNameAttribute] // RVA: 0x7D880 Offset: 0x7CC80 VA: 0x18007D880
+	[NativeNameAttribute] // RVA: 0x7D950 Offset: 0x7CD50 VA: 0x18007D950
 	private Vector3 m_Extents; // 0xC
 
 	// Properties
@@ -13,46 +13,46 @@ public struct Bounds : IEquatable<Bounds> // TypeDefIndex: 3372
 
 	// Methods
 
-	// RVA: 0x212B60 Offset: 0x211F60 VA: 0x180212B60
+	// RVA: 0x212AE0 Offset: 0x211EE0 VA: 0x180212AE0
 	public void .ctor(Vector3 center, Vector3 size) { }
 
-	// RVA: 0x212890 Offset: 0x211C90 VA: 0x180212890 Slot: 2
+	// RVA: 0x212810 Offset: 0x211C10 VA: 0x180212810 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x2125F0 Offset: 0x2119F0 VA: 0x1802125F0 Slot: 0
+	// RVA: 0x212570 Offset: 0x211970 VA: 0x180212570 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0x212700 Offset: 0x211B00 VA: 0x180212700 Slot: 4
+	// RVA: 0x212680 Offset: 0x211A80 VA: 0x180212680 Slot: 4
 	public bool Equals(Bounds other) { }
 
-	// RVA: 0x212C10 Offset: 0x212010 VA: 0x180212C10
+	// RVA: 0x212B90 Offset: 0x211F90 VA: 0x180212B90
 	public Vector3 get_center() { }
 
-	// RVA: 0x204FB0 Offset: 0x2043B0 VA: 0x180204FB0
+	// RVA: 0x204F30 Offset: 0x204330 VA: 0x180204F30
 	public void set_center(Vector3 value) { }
 
-	// RVA: 0x212C90 Offset: 0x212090 VA: 0x180212C90
+	// RVA: 0x212C10 Offset: 0x212010 VA: 0x180212C10
 	public Vector3 get_size() { }
 
-	// RVA: 0x212E20 Offset: 0x212220 VA: 0x180212E20
+	// RVA: 0x212DA0 Offset: 0x2121A0 VA: 0x180212DA0
 	public void set_size(Vector3 value) { }
 
-	// RVA: 0x212C30 Offset: 0x212030 VA: 0x180212C30
+	// RVA: 0x212BB0 Offset: 0x211FB0 VA: 0x180212BB0
 	public Vector3 get_extents() { }
 
-	// RVA: 0x212D40 Offset: 0x212140 VA: 0x180212D40
+	// RVA: 0x212CC0 Offset: 0x2120C0 VA: 0x180212CC0
 	public void set_extents(Vector3 value) { }
 
-	// RVA: 0x212C70 Offset: 0x212070 VA: 0x180212C70
+	// RVA: 0x212BF0 Offset: 0x211FF0 VA: 0x180212BF0
 	public Vector3 get_min() { }
 
-	// RVA: 0x212DB0 Offset: 0x2121B0 VA: 0x180212DB0
+	// RVA: 0x212D30 Offset: 0x212130 VA: 0x180212D30
 	public void set_min(Vector3 value) { }
 
-	// RVA: 0x212C50 Offset: 0x212050 VA: 0x180212C50
+	// RVA: 0x212BD0 Offset: 0x211FD0 VA: 0x180212BD0
 	public Vector3 get_max() { }
 
-	// RVA: 0x212D50 Offset: 0x212150 VA: 0x180212D50
+	// RVA: 0x212CD0 Offset: 0x2120D0 VA: 0x180212CD0
 	public void set_max(Vector3 value) { }
 
 	// RVA: 0x18208D0 Offset: 0x181EED0 VA: 0x1818208D0
@@ -61,38 +61,38 @@ public struct Bounds : IEquatable<Bounds> // TypeDefIndex: 3372
 	// RVA: 0x18209C0 Offset: 0x181EFC0 VA: 0x1818209C0
 	public static bool op_Inequality(Bounds lhs, Bounds rhs) { }
 
-	// RVA: 0x212960 Offset: 0x211D60 VA: 0x180212960
+	// RVA: 0x2128E0 Offset: 0x211CE0 VA: 0x1802128E0
 	public void SetMinMax(Vector3 min, Vector3 max) { }
 
-	// RVA: 0x2125C0 Offset: 0x2119C0 VA: 0x1802125C0
+	// RVA: 0x212540 Offset: 0x211940 VA: 0x180212540
 	public void Encapsulate(Vector3 point) { }
 
-	// RVA: 0x2124A0 Offset: 0x2118A0 VA: 0x1802124A0
+	// RVA: 0x212420 Offset: 0x211820 VA: 0x180212420
 	public void Encapsulate(Bounds bounds) { }
 
-	// RVA: 0x2127A0 Offset: 0x211BA0 VA: 0x1802127A0
+	// RVA: 0x212720 Offset: 0x211B20 VA: 0x180212720
 	public void Expand(float amount) { }
 
-	// RVA: 0x2128F0 Offset: 0x211CF0 VA: 0x1802128F0
+	// RVA: 0x212870 Offset: 0x211C70 VA: 0x180212870
 	public bool IntersectRay(Ray ray) { }
 
-	// RVA: 0x2129F0 Offset: 0x211DF0 VA: 0x1802129F0 Slot: 3
+	// RVA: 0x212970 Offset: 0x211D70 VA: 0x180212970 Slot: 3
 	public override string ToString() { }
 
-	[NativeMethodAttribute] // RVA: 0x7D8B0 Offset: 0x7CCB0 VA: 0x18007D8B0
-	// RVA: 0x212450 Offset: 0x211850 VA: 0x180212450
+	[NativeMethodAttribute] // RVA: 0x7D980 Offset: 0x7CD80 VA: 0x18007D980
+	// RVA: 0x2123D0 Offset: 0x2117D0 VA: 0x1802123D0
 	public bool Contains(Vector3 point) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7DA00 Offset: 0x7CE00 VA: 0x18007DA00
-	// RVA: 0x2129A0 Offset: 0x211DA0 VA: 0x1802129A0
+	[FreeFunctionAttribute] // RVA: 0x7DAD0 Offset: 0x7CED0 VA: 0x18007DAD0
+	// RVA: 0x212920 Offset: 0x211D20 VA: 0x180212920
 	public float SqrDistance(Vector3 point) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7DB10 Offset: 0x7CF10 VA: 0x18007DB10
+	[FreeFunctionAttribute] // RVA: 0x7DBE0 Offset: 0x7CFE0 VA: 0x18007DBE0
 	// RVA: 0x1820300 Offset: 0x181E900 VA: 0x181820300
 	private static bool IntersectRayAABB(Ray ray, Bounds bounds, out float dist) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7DC50 Offset: 0x7D050 VA: 0x18007DC50
-	// RVA: 0x2123E0 Offset: 0x2117E0 VA: 0x1802123E0
+	[FreeFunctionAttribute] // RVA: 0x7DD30 Offset: 0x7D130 VA: 0x18007DD30
+	// RVA: 0x212360 Offset: 0x211760 VA: 0x180212360
 	public Vector3 ClosestPoint(Vector3 point) { }
 
 	// RVA: 0x181FEC0 Offset: 0x181E4C0 VA: 0x18181FEC0

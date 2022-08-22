@@ -11,13 +11,13 @@ public struct CullingGroupEvent // TypeDefIndex: 3365
 
 	// Methods
 
-	// RVA: 0x13A620 Offset: 0x139A20 VA: 0x18013A620
+	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0
 	public int get_index() { }
 
-	// RVA: 0x2133C0 Offset: 0x2127C0 VA: 0x1802133C0
+	// RVA: 0x213340 Offset: 0x212740 VA: 0x180213340
 	public int get_currentDistance() { }
 
-	// RVA: 0x2133D0 Offset: 0x2127D0 VA: 0x1802133D0
+	// RVA: 0x213350 Offset: 0x212750 VA: 0x180213350
 	public int get_previousDistance() { }
 
 }

@@ -5,7 +5,7 @@ internal struct NamespaceCache // TypeDefIndex: 5835
 
 	// Methods
 
-	// RVA: 0x237650 Offset: 0x236A50 VA: 0x180237650
+	// RVA: 0x2375D0 Offset: 0x2369D0 VA: 0x1802375D0
 	public XNamespace Get(string namespaceName) { }
 
 }

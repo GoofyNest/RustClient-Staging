@@ -9,7 +9,7 @@ public struct ERVSData // TypeDefIndex: 7220
 
 	// Methods
 
-	// RVA: 0xFC140 Offset: 0xFB540 VA: 0x1800FC140
+	// RVA: 0xFC0C0 Offset: 0xFB4C0 VA: 0x1800FC0C0
 	public void .ctor(Vector3 node, bool active, float width, Vector3 leftPosition, Vector3 rightPosition) { }
 
 }

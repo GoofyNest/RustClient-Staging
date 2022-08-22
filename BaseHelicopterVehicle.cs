@@ -1,12 +1,12 @@
 public class BaseHelicopterVehicle : BaseVehicle // TypeDefIndex: 8325
 {	// Fields
 	private Option __menuOption_Menu_Push; // 0x3B8
-	[HeaderAttribute] // RVA: 0xB7050 Offset: 0xB6450 VA: 0x1800B7050
+	[HeaderAttribute] // RVA: 0xB70F0 Offset: 0xB64F0 VA: 0x1800B70F0
 	public float engineThrustMax; // 0x410
 	public Vector3 torqueScale; // 0x414
 	public Transform com; // 0x420
 	public GameObject[] killTriggers; // 0x428
-	[HeaderAttribute] // RVA: 0x786F0 Offset: 0x77AF0 VA: 0x1800786F0
+	[HeaderAttribute] // RVA: 0x787C0 Offset: 0x77BC0 VA: 0x1800787C0
 	public Transform[] GroundPoints; // 0x430
 	public Transform[] GroundEffects; // 0x438
 	public GameObjectRef serverGibs; // 0x440
@@ -14,7 +14,7 @@ public class BaseHelicopterVehicle : BaseVehicle // TypeDefIndex: 8325
 	public GameObjectRef fireBall; // 0x450
 	public GameObjectRef impactEffectSmall; // 0x458
 	public GameObjectRef impactEffectLarge; // 0x460
-	[HeaderAttribute] // RVA: 0xA9FF0 Offset: 0xA93F0 VA: 0x1800A9FF0
+	[HeaderAttribute] // RVA: 0xAA090 Offset: 0xA9490 VA: 0x1800AA090
 	public SoundDefinition flightEngineSoundDef; // 0x468
 	public SoundDefinition flightThwopsSoundDef; // 0x470
 	public float rotorGainModSmoothing; // 0x478
@@ -54,10 +54,10 @@ public class BaseHelicopterVehicle : BaseVehicle // TypeDefIndex: 8325
 	// RVA: 0xA3F1E0 Offset: 0xA3D7E0 VA: 0x180A3F1E0
 	public void InitializeClientsideEffects() { }
 
-	[BaseEntity.Menu] // RVA: 0x8C9A0 Offset: 0x8BDA0 VA: 0x18008C9A0
-	[BaseEntity.Menu.Description] // RVA: 0x8C9A0 Offset: 0x8BDA0 VA: 0x18008C9A0
-	[BaseEntity.Menu.Icon] // RVA: 0x8C9A0 Offset: 0x8BDA0 VA: 0x18008C9A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8C9A0 Offset: 0x8BDA0 VA: 0x18008C9A0
+	[BaseEntity.Menu] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
+	[BaseEntity.Menu.Description] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
+	[BaseEntity.Menu.Icon] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
 	// RVA: 0xA3F430 Offset: 0xA3DA30 VA: 0x180A3F430 Slot: 195
 	public virtual void Menu_Push(BasePlayer player) { }
 

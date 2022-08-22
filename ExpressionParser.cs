@@ -106,7 +106,7 @@ private struct ExpressionParser.ReservedWords // TypeDefIndex: 4252
 
 	// Methods
 
-	// RVA: 0xF91A0 Offset: 0xF85A0 VA: 0x1800F91A0
+	// RVA: 0xF9120 Offset: 0xF8520 VA: 0x1800F9120
 	internal void .ctor(string word, Tokens token, int op) { }
 
 }

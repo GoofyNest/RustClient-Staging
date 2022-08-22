@@ -120,7 +120,7 @@ public class ServicePoint // TypeDefIndex: 3018
 	// RVA: 0xFFDF70 Offset: 0xFFC570 VA: 0x180FFDF70
 	internal bool CallEndPointDelegate(Socket sock, IPEndPoint remote) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xFFEF80 Offset: 0xFFD580 VA: 0x180FFEF80
 	private void <GetConnectionGroup>b__66_0(object s, EventArgs e) { }
 

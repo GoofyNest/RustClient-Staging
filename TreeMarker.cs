@@ -15,7 +15,7 @@ public class TreeMarker : BaseEntity // TypeDefIndex: 8269
 	// RVA: 0xA1EEC0 Offset: 0xA1D4C0 VA: 0x180A1EEC0 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA1E7B0 Offset: 0xA1CDB0 VA: 0x180A1E7B0
 	public void MarkerHit(BaseEntity.RPCMessage msg) { }
 

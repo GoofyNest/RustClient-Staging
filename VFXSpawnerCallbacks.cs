@@ -1,7 +1,7 @@
 public abstract class VFXSpawnerCallbacks : ScriptableObject // TypeDefIndex: 4762
 {
 // Namespace: UnityEngine.VFX
-[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 [Serializable]
 public abstract class VFXSpawnerCallbacks : ScriptableObject // TypeDefIndex: 4762
 	// Methods

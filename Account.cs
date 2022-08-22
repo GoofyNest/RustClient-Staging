@@ -12,11 +12,11 @@ public static class Account // TypeDefIndex: 6172
 	// RVA: 0x14A9180 Offset: 0x14A7780 VA: 0x1814A9180
 	public static bool get_IsReachable() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9EFA0 Offset: 0x9E3A0 VA: 0x18009EFA0
+	[AsyncStateMachineAttribute] // RVA: 0x9F030 Offset: 0x9E430 VA: 0x18009F030
 	// RVA: 0x14A9060 Offset: 0x14A7660 VA: 0x1814A9060
 	public static Task Refresh() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9F030 Offset: 0x9E430 VA: 0x18009F030
+	[AsyncStateMachineAttribute] // RVA: 0x9F130 Offset: 0x9E530 VA: 0x18009F130
 	// RVA: 0x14A8F80 Offset: 0x14A7580 VA: 0x1814A8F80
 	public static Task ReadAllNotices() { }
 
@@ -27,11 +27,11 @@ public static class Account // TypeDefIndex: 6172
 
 public class Account.AccountJson // TypeDefIndex: 6173
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <SteamId>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <UnreadNotices>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private AccountNotice[] <Notices>k__BackingField; // 0x20
 
 	// Properties
@@ -41,27 +41,27 @@ public class Account.AccountJson // TypeDefIndex: 6173
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public string get_SteamId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	public void set_SteamId(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
 	public int get_UnreadNotices() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7D0C80 Offset: 0x7CF280 VA: 0x1807D0C80
 	public void set_UnreadNotices(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public AccountNotice[] get_Notices() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_Notices(AccountNotice[] value) { }
 
@@ -80,11 +80,11 @@ private struct Account.<Refresh>d__6 : IAsyncStateMachine // TypeDefIndex: 6174
 
 	// Methods
 
-	// RVA: 0x1F19F0 Offset: 0x1F0DF0 VA: 0x1801F19F0 Slot: 4
+	// RVA: 0x1F1970 Offset: 0x1F0D70 VA: 0x1801F1970 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -100,11 +100,11 @@ private struct Account.<ReadAllNotices>d__7 : IAsyncStateMachine // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1F19E0 Offset: 0x1F0DE0 VA: 0x1801F19E0 Slot: 4
+	// RVA: 0x1F1960 Offset: 0x1F0D60 VA: 0x1801F1960 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

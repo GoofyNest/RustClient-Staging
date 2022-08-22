@@ -1,6 +1,6 @@
 public class DiagnosticsTraceWriter : ITraceWriter // TypeDefIndex: 5974
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TraceLevel <LevelFilter>k__BackingField; // 0x10
 
 	// Properties
@@ -8,7 +8,7 @@ public class DiagnosticsTraceWriter : ITraceWriter // TypeDefIndex: 5974
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00 Slot: 4
 	public TraceLevel get_LevelFilter() { }
 

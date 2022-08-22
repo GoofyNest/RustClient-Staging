@@ -18,7 +18,7 @@ internal abstract class HeaderInfo // TypeDefIndex: 5769
 	public bool AllowsMany; // 0x10
 	public readonly HttpHeaderKind HeaderKind; // 0x14
 	public readonly string Name; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Func<object, string> <CustomToString>k__BackingField; // 0x20
 
 	// Properties
@@ -78,11 +78,11 @@ internal abstract class HeaderInfo // TypeDefIndex: 5769
 	// RVA: 0x1088660 Offset: 0x1086C60 VA: 0x181088660
 	public object CreateCollection(HttpHeaders headers) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public Func<object, string> get_CustomToString() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	private void set_CustomToString(Func<object, string> value) { }
 

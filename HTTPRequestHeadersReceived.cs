@@ -10,10 +10,10 @@ internal struct HTTPRequestHeadersReceived_t : ICallbackData // TypeDefIndex: 54
 
 	// Methods
 
-	// RVA: 0x1EA8A0 Offset: 0x1E9CA0 VA: 0x1801EA8A0 Slot: 5
+	// RVA: 0x1EA820 Offset: 0x1E9C20 VA: 0x1801EA820 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA890 Offset: 0x1E9C90 VA: 0x1801EA890 Slot: 4
+	// RVA: 0x1EA810 Offset: 0x1E9C10 VA: 0x1801EA810 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1372B20 Offset: 0x1371120 VA: 0x181372B20

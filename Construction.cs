@@ -3,9 +3,9 @@ public class Construction : PrefabAttribute // TypeDefIndex: 9052
 	public static string lastPlacementError; // 0x0
 	public BaseEntity.Menu.Option info; // 0x98
 	public bool canBypassBuildingPermission; // 0xB8
-	[FormerlySerializedAsAttribute] // RVA: 0xD06B0 Offset: 0xCFAB0 VA: 0x1800D06B0
+	[FormerlySerializedAsAttribute] // RVA: 0xD0740 Offset: 0xCFB40 VA: 0x1800D0740
 	public bool canRotateBeforePlacement; // 0xB9
-	[FormerlySerializedAsAttribute] // RVA: 0xD06B0 Offset: 0xCFAB0 VA: 0x1800D06B0
+	[FormerlySerializedAsAttribute] // RVA: 0xD0740 Offset: 0xCFB40 VA: 0x1800D0740
 	public bool canRotateAfterPlacement; // 0xBA
 	public bool checkVolumeOnRotate; // 0xBB
 	public bool checkVolumeOnUpgrade; // 0xBC
@@ -13,11 +13,11 @@ public class Construction : PrefabAttribute // TypeDefIndex: 9052
 	public bool placeOnWater; // 0xBE
 	public Vector3 rotationAmount; // 0xC0
 	public Vector3 applyStartingRotation; // 0xCC
-	[RangeAttribute] // RVA: 0x981E0 Offset: 0x975E0 VA: 0x1800981E0
+	[RangeAttribute] // RVA: 0x98320 Offset: 0x97720 VA: 0x180098320
 	public float healthMultiplier; // 0xD8
-	[RangeAttribute] // RVA: 0x981E0 Offset: 0x975E0 VA: 0x1800981E0
+	[RangeAttribute] // RVA: 0x98320 Offset: 0x97720 VA: 0x180098320
 	public float costMultiplier; // 0xDC
-	[RangeAttribute] // RVA: 0xD0960 Offset: 0xCFD60 VA: 0x1800D0960
+	[RangeAttribute] // RVA: 0xD09F0 Offset: 0xCFDF0 VA: 0x1800D09F0
 	public float maxplaceDistance; // 0xE0
 	public Mesh guideMesh; // 0xE8
 	public Socket_Base[] allSockets; // 0xF0
@@ -88,10 +88,10 @@ public struct Construction.Target // TypeDefIndex: 9053
 
 	// Methods
 
-	// RVA: 0xF3EF0 Offset: 0xF32F0 VA: 0x1800F3EF0
+	// RVA: 0xF3E70 Offset: 0xF3270 VA: 0x1800F3E70
 	public Quaternion GetWorldRotation(bool female) { }
 
-	// RVA: 0xF3ED0 Offset: 0xF32D0 VA: 0x1800F3ED0
+	// RVA: 0xF3E50 Offset: 0xF3250 VA: 0x1800F3E50
 	public Vector3 GetWorldPosition() { }
 
 }

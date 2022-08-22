@@ -1,7 +1,7 @@
 public class ShoutcastStream : IDisposable // TypeDefIndex: 11982
 {	// Fields
 	private static HttpClient client; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <SocketConnected>k__BackingField; // 0x10
 	private MP3Stream MP3Stream; // 0x18
 	private CancellationTokenSource cancelSource; // 0x20
@@ -15,9 +15,9 @@ public class ShoutcastStream : IDisposable // TypeDefIndex: 11982
 	private string url; // 0x40
 	private static List<float[]> pooledBuffers; // 0x10
 	public const uint MaxSampleBuffer = 163840;
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private uint <currentWriteIndex>k__BackingField; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float[] <floatSamples>k__BackingField; // 0x50
 	private byte[] buffer; // 0x58
 	public float[] floatBuffer; // 0x60
@@ -39,30 +39,30 @@ public class ShoutcastStream : IDisposable // TypeDefIndex: 11982
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public bool get_SocketConnected() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFC0 Offset: 0x4995C0 VA: 0x18049AFC0
 	private void set_SocketConnected(bool value) { }
 
 	// RVA: 0x598410 Offset: 0x596A10 VA: 0x180598410
 	public int get_Frequency() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x598420 Offset: 0x596A20 VA: 0x180598420
 	public uint get_currentWriteIndex() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x598430 Offset: 0x596A30 VA: 0x180598430
 	private void set_currentWriteIndex(uint value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
 	public float[] get_floatSamples() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF890 Offset: 0x4CDE90 VA: 0x1804CF890
 	private void set_floatSamples(float[] value) { }
 
@@ -87,15 +87,15 @@ public class ShoutcastStream : IDisposable // TypeDefIndex: 11982
 	// RVA: 0x597D40 Offset: 0x596340 VA: 0x180597D40
 	public void RegisterNewStreamer(ShoutcastStreamer forStreamer) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xC9AD0 Offset: 0xC8ED0 VA: 0x1800C9AD0
+	[AsyncStateMachineAttribute] // RVA: 0xC9C30 Offset: 0xC9030 VA: 0x1800C9C30
 	// RVA: 0x5970D0 Offset: 0x5956D0 VA: 0x1805970D0
 	private Task ConnectAsync() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xC9CA0 Offset: 0xC90A0 VA: 0x1800C9CA0
+	[AsyncStateMachineAttribute] // RVA: 0xC9DC0 Offset: 0xC91C0 VA: 0x1800C9DC0
 	// RVA: 0x597B00 Offset: 0x596100 VA: 0x180597B00
 	public Task<bool> ReadDataAsync(ShoutcastStreamer forStreamer) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xC9EA0 Offset: 0xC92A0 VA: 0x1800C9EA0
+	[AsyncStateMachineAttribute] // RVA: 0xC9F70 Offset: 0xC9370 VA: 0x1800C9F70
 	// RVA: 0x597C20 Offset: 0x596220 VA: 0x180597C20
 	private Task<bool> ReadDataAsync(byte[] byteBuffer) { }
 
@@ -117,7 +117,7 @@ public class ShoutcastStream : IDisposable // TypeDefIndex: 11982
 	// RVA: 0x597420 Offset: 0x595A20 VA: 0x180597420 Slot: 4
 	public void Dispose() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xC9FA0 Offset: 0xC93A0 VA: 0x1800C9FA0
+	[AsyncStateMachineAttribute] // RVA: 0xCA030 Offset: 0xC9430 VA: 0x1800CA030
 	// RVA: 0x597420 Offset: 0x595A20 VA: 0x180597420
 	private Task ShutdownSafely() { }
 
@@ -158,11 +158,11 @@ private struct ShoutcastStream.<ConnectAsync>d__42 : IAsyncStateMachine // TypeD
 
 	// Methods
 
-	// RVA: 0xF32E0 Offset: 0xF26E0 VA: 0x1800F32E0 Slot: 4
+	// RVA: 0xF3260 Offset: 0xF2660 VA: 0x1800F3260 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -177,11 +177,11 @@ private struct ShoutcastStream.<ReadDataAsync>d__43 : IAsyncStateMachine // Type
 
 	// Methods
 
-	// RVA: 0xF33C0 Offset: 0xF27C0 VA: 0x1800F33C0 Slot: 4
+	// RVA: 0xF3340 Offset: 0xF2740 VA: 0x1800F3340 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF33D0 Offset: 0xF27D0 VA: 0x1800F33D0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3350 Offset: 0xF2750 VA: 0x1800F3350 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -196,11 +196,11 @@ private struct ShoutcastStream.<ReadDataAsync>d__44 : IAsyncStateMachine // Type
 
 	// Methods
 
-	// RVA: 0xF3420 Offset: 0xF2820 VA: 0x1800F3420 Slot: 4
+	// RVA: 0xF33A0 Offset: 0xF27A0 VA: 0x1800F33A0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3430 Offset: 0xF2830 VA: 0x1800F3430 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF33B0 Offset: 0xF27B0 VA: 0x1800F33B0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -215,11 +215,11 @@ private struct ShoutcastStream.<ShutdownSafely>d__54 : IAsyncStateMachine // Typ
 
 	// Methods
 
-	// RVA: 0xF34A0 Offset: 0xF28A0 VA: 0x1800F34A0 Slot: 4
+	// RVA: 0xF3420 Offset: 0xF2820 VA: 0x1800F3420 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

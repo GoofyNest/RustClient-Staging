@@ -52,15 +52,15 @@ public class PermissionSet : ISecurityEncodable, ICollection, IEnumerable, IDese
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 14
 	public virtual object get_SyncRoot() { }
 
-	[MonoTODOAttribute] // RVA: 0xC1A80 Offset: 0xC0E80 VA: 0x1800C1A80
+	[MonoTODOAttribute] // RVA: 0xC1A40 Offset: 0xC0E40 VA: 0x1800C1A40
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 9
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x17B58D0 Offset: 0x17B3ED0 VA: 0x1817B58D0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x17B5AC0 Offset: 0x17B40C0 VA: 0x1817B5AC0 Slot: 2
 	public override int GetHashCode() { }
 

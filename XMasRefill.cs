@@ -7,14 +7,14 @@ public class XMasRefill : BaseEntity // TypeDefIndex: 8668
 
 	// Methods
 
-	// RVA: 0x1AA1C00 Offset: 0x1AA0200 VA: 0x181AA1C00 Slot: 35
+	// RVA: 0x1A8B870 Offset: 0x1A89E70 VA: 0x181A8B870 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1AA1FD0 Offset: 0x1AA05D0 VA: 0x181AA1FD0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1A8BC40 Offset: 0x1A8A240 VA: 0x181A8BC40
 	public void PlayBells() { }
 
-	// RVA: 0x1AA2000 Offset: 0x1AA0600 VA: 0x181AA2000
+	// RVA: 0x1A8BC70 Offset: 0x1A8A270 VA: 0x181A8BC70
 	public void .ctor() { }
 
 }

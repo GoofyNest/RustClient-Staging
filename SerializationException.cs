@@ -1,6 +1,6 @@
 public class SerializationException : SystemException // TypeDefIndex: 1056
 {	// Fields
-	private static string _nullMessage; // 0x2B1127C
+	private static string _nullMessage; // 0x2B1029C
 
 	// Methods
 

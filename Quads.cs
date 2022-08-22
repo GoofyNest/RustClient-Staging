@@ -5,16 +5,16 @@ internal class Quads // TypeDefIndex: 8198
 
 	// Methods
 
-	// RVA: 0x21E57C0 Offset: 0x21E3DC0 VA: 0x1821E57C0
+	// RVA: 0x21E5600 Offset: 0x21E3C00 VA: 0x1821E5600
 	private static bool HasMeshes() { }
 
-	// RVA: 0x21E4AD0 Offset: 0x21E30D0 VA: 0x1821E4AD0
+	// RVA: 0x21E4910 Offset: 0x21E2F10 VA: 0x1821E4910
 	public static void Cleanup() { }
 
-	// RVA: 0x21E53F0 Offset: 0x21E39F0 VA: 0x1821E53F0
+	// RVA: 0x21E5230 Offset: 0x21E3830 VA: 0x1821E5230
 	public static Mesh[] GetMeshes(int totalWidth, int totalHeight) { }
 
-	// RVA: 0x21E4D20 Offset: 0x21E3320 VA: 0x1821E4D20
+	// RVA: 0x21E4B60 Offset: 0x21E3160 VA: 0x1821E4B60
 	private static Mesh GetMesh(int triCount, int triOffset, int totalWidth, int totalHeight) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

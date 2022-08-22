@@ -1,32 +1,32 @@
 public static class InputTracking // TypeDefIndex: 4137
 {
 // Namespace: UnityEngine.XR
-[RequiredByNativeCodeAttribute] // RVA: 0x95050 Offset: 0x94450 VA: 0x180095050
-[NativeHeaderAttribute] // RVA: 0x95050 Offset: 0x94450 VA: 0x180095050
-[NativeConditionalAttribute] // RVA: 0x95050 Offset: 0x94450 VA: 0x180095050
-[StaticAccessorAttribute] // RVA: 0x95050 Offset: 0x94450 VA: 0x180095050
+[RequiredByNativeCodeAttribute] // RVA: 0x951B0 Offset: 0x945B0 VA: 0x1800951B0
+[NativeHeaderAttribute] // RVA: 0x951B0 Offset: 0x945B0 VA: 0x1800951B0
+[NativeConditionalAttribute] // RVA: 0x951B0 Offset: 0x945B0 VA: 0x1800951B0
+[StaticAccessorAttribute] // RVA: 0x951B0 Offset: 0x945B0 VA: 0x1800951B0
 public static class InputTracking // TypeDefIndex: 4137
 	// Fields
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private static Action<XRNodeState> trackingAcquired; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private static Action<XRNodeState> trackingLost; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private static Action<XRNodeState> nodeAdded; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private static Action<XRNodeState> nodeRemoved; // 0x18
 
 	// Methods
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22FB520 Offset: 0x22F9B20 VA: 0x1822FB520
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22FB360 Offset: 0x22F9960 VA: 0x1822FB360
 	private static void InvokeTrackingEvent(InputTracking.TrackingStateEventType eventType, XRNode nodeType, long uniqueID, bool tracked) { }
 
-	// RVA: 0x22FB760 Offset: 0x22F9D60 VA: 0x1822FB760
+	// RVA: 0x22FB5A0 Offset: 0x22F9BA0 VA: 0x1822FB5A0
 	private static void .cctor() { }
 
 }

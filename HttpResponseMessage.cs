@@ -5,9 +5,9 @@ public class HttpResponseMessage : IDisposable // TypeDefIndex: 5755
 	private HttpStatusCode statusCode; // 0x20
 	private Version version; // 0x28
 	private bool disposed; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private HttpContent <Content>k__BackingField; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private HttpRequestMessage <RequestMessage>k__BackingField; // 0x40
 
 	// Properties
@@ -24,11 +24,11 @@ public class HttpResponseMessage : IDisposable // TypeDefIndex: 5755
 	// RVA: 0x1090770 Offset: 0x108ED70 VA: 0x181090770
 	public void .ctor(HttpStatusCode statusCode) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
 	public HttpContent get_Content() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
 	public void set_Content(HttpContent value) { }
 
@@ -44,7 +44,7 @@ public class HttpResponseMessage : IDisposable // TypeDefIndex: 5755
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	public void set_ReasonPhrase(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
 	public void set_RequestMessage(HttpRequestMessage value) { }
 

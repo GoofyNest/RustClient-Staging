@@ -31,7 +31,7 @@ public class NVidiaReflex : MonoBehaviour // TypeDefIndex: 10229
 	// RVA: 0x7C8430 Offset: 0x7C6A30 VA: 0x1807C8430
 	private void LateUpdate() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBEE90 Offset: 0xBE290 VA: 0x1800BEE90
+	[IteratorStateMachineAttribute] // RVA: 0xBEF30 Offset: 0xBE330 VA: 0x1800BEF30
 	// RVA: 0x7C8E90 Offset: 0x7C7490 VA: 0x1807C8E90
 	private IEnumerator SleepCoroutine() { }
 
@@ -305,26 +305,26 @@ private sealed class NVidiaReflex.<SleepCoroutine>d__20 : IEnumerator<object>, I
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x7CED40 Offset: 0x7CD340 VA: 0x1807CED40 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7CF060 Offset: 0x7CD660 VA: 0x1807CF060 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 

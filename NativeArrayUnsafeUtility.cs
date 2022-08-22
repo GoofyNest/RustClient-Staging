@@ -1,12 +1,12 @@
 public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 {
 // Namespace: Unity.Collections.LowLevel.Unsafe
-[RequiredByNativeCodeAttribute] // RVA: 0xE0EA0 Offset: 0xE02A0 VA: 0x1800E0EA0
-[AttributeUsageAttribute] // RVA: 0xE0EA0 Offset: 0xE02A0 VA: 0x1800E0EA0
+[RequiredByNativeCodeAttribute] // RVA: 0xE0E80 Offset: 0xE0280 VA: 0x1800E0E80
+[AttributeUsageAttribute] // RVA: 0xE0E80 Offset: 0xE0280 VA: 0x1800E0E80
 public sealed class NativeSetClassTypeToNullOnScheduleAttribute : Attribute // TypeDefIndex: 3338
 
 // Namespace: Unity.Collections.LowLevel.Unsafe
-[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 	// Methods
 
@@ -14,7 +14,7 @@ public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 	public static NativeArray<T> ConvertExistingDataToNativeArray<T>(void* dataPointer, int length, Allocator allocator) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B5A0 Offset: 0x1A39BA0 VA: 0x181A3B5A0
+	|-RVA: 0x1A3B560 Offset: 0x1A39B60 VA: 0x181A3B560
 	|-NativeArrayUnsafeUtility.ConvertExistingDataToNativeArray<BoneData>
 	|-NativeArrayUnsafeUtility.ConvertExistingDataToNativeArray<BoneState>
 	|-NativeArrayUnsafeUtility.ConvertExistingDataToNativeArray<ColliderData>
@@ -35,7 +35,7 @@ public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 	|-NativeArrayUnsafeUtility.ConvertExistingDataToNativeArray<Vector4>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static void* GetUnsafePtr<T>(NativeArray<T> nativeArray) { }
 	/* GenericInstMethod :
@@ -46,7 +46,7 @@ public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 	|-NativeArrayUnsafeUtility.GetUnsafePtr<float3>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static void* GetUnsafeReadOnlyPtr<T>(NativeArray<T> nativeArray) { }
 	/* GenericInstMethod :

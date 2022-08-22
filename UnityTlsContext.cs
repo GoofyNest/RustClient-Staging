@@ -57,28 +57,28 @@ internal class UnityTlsContext : MobileTlsContext // TypeDefIndex: 2509
 	// RVA: 0x121EAE0 Offset: 0x121D0E0 VA: 0x18121EAE0 Slot: 8
 	public override void FinishHandshake() { }
 
-	[MonoPInvokeCallbackAttribute] // RVA: 0x9F990 Offset: 0x9ED90 VA: 0x18009F990
+	[MonoPInvokeCallbackAttribute] // RVA: 0x9F9D0 Offset: 0x9EDD0 VA: 0x18009F9D0
 	// RVA: 0x121FBD0 Offset: 0x121E1D0 VA: 0x18121FBD0
 	private static IntPtr WriteCallback(void* userData, byte* data, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
 	// RVA: 0x121FCF0 Offset: 0x121E2F0 VA: 0x18121FCF0
 	private IntPtr WriteCallback(byte* data, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	[MonoPInvokeCallbackAttribute] // RVA: 0x9FA60 Offset: 0x9EE60 VA: 0x18009FA60
+	[MonoPInvokeCallbackAttribute] // RVA: 0x9FAF0 Offset: 0x9EEF0 VA: 0x18009FAF0
 	// RVA: 0x121EFF0 Offset: 0x121D5F0 VA: 0x18121EFF0
 	private static IntPtr ReadCallback(void* userData, byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
 	// RVA: 0x121F110 Offset: 0x121D710 VA: 0x18121F110
 	private IntPtr ReadCallback(byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	[MonoPInvokeCallbackAttribute] // RVA: 0x9FB50 Offset: 0x9EF50 VA: 0x18009FB50
+	[MonoPInvokeCallbackAttribute] // RVA: 0x9FB70 Offset: 0x9EF70 VA: 0x18009FB70
 	// RVA: 0x121F900 Offset: 0x121DF00 VA: 0x18121F900
 	private static UnityTls.unitytls_x509verify_result VerifyCallback(void* userData, UnityTls.unitytls_x509list_ref chain, UnityTls.unitytls_errorstate* errorState) { }
 
 	// RVA: 0x121FA10 Offset: 0x121E010 VA: 0x18121FA10
 	private UnityTls.unitytls_x509verify_result VerifyCallback(UnityTls.unitytls_x509list_ref chain, UnityTls.unitytls_errorstate* errorState) { }
 
-	[MonoPInvokeCallbackAttribute] // RVA: 0xA0F70 Offset: 0xA0370 VA: 0x1800A0F70
+	[MonoPInvokeCallbackAttribute] // RVA: 0xA1000 Offset: 0xA0400 VA: 0x1800A1000
 	// RVA: 0x121E1B0 Offset: 0x121C7B0 VA: 0x18121E1B0
 	private static void CertificateCallback(void* userData, UnityTls.unitytls_tlsctx* ctx, byte* cn, IntPtr cnLen, UnityTls.unitytls_x509name* caList, IntPtr caListLen, UnityTls.unitytls_x509list_ref* chain, UnityTls.unitytls_key_ref* key, UnityTls.unitytls_errorstate* errorState) { }
 

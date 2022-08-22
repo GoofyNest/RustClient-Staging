@@ -10,10 +10,10 @@ internal struct ReservationNotificationCallback_t : ICallbackData // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x1D7BF0 Offset: 0x1D6FF0 VA: 0x1801D7BF0 Slot: 5
+	// RVA: 0x1D7B70 Offset: 0x1D6F70 VA: 0x1801D7B70 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7BE0 Offset: 0x1D6FE0 VA: 0x1801D7BE0 Slot: 4
+	// RVA: 0x1D7B60 Offset: 0x1D6F60 VA: 0x1801D7B60 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128EB50 Offset: 0x128D150 VA: 0x18128EB50

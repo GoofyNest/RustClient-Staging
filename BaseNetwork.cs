@@ -8,13 +8,13 @@ public class BaseNetworkable : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x20014C0 Offset: 0x1FFFAC0 VA: 0x1820014C0
+	// RVA: 0x2001300 Offset: 0x1FFF900 VA: 0x182001300
 	public static void ResetToPool(BaseNetworkable instance) { }
 
-	// RVA: 0x2001550 Offset: 0x1FFFB50 VA: 0x182001550
+	// RVA: 0x2001390 Offset: 0x1FFF990 VA: 0x182001390
 	public void ResetToPool() { }
 
-	// RVA: 0x20011E0 Offset: 0x1FFF7E0 VA: 0x1820011E0 Slot: 9
+	// RVA: 0x2001020 Offset: 0x1FFF620 VA: 0x182001020 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -23,64 +23,64 @@ public class BaseNetworkable : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E28620 Offset: 0x1E26C20 VA: 0x181E28620
+	// RVA: 0x1E28460 Offset: 0x1E26A60 VA: 0x181E28460
 	public void CopyTo(BaseNetworkable instance) { }
 
-	// RVA: 0x20002B0 Offset: 0x1FFE8B0 VA: 0x1820002B0
+	// RVA: 0x20000F0 Offset: 0x1FFE6F0 VA: 0x1820000F0
 	public BaseNetworkable Copy() { }
 
-	// RVA: 0x2000BC0 Offset: 0x1FFF1C0 VA: 0x182000BC0
+	// RVA: 0x2000A00 Offset: 0x1FFF000 VA: 0x182000A00
 	public static BaseNetworkable Deserialize(Stream stream) { }
 
-	// RVA: 0x2000330 Offset: 0x1FFE930 VA: 0x182000330
+	// RVA: 0x2000170 Offset: 0x1FFE770 VA: 0x182000170
 	public static BaseNetworkable DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2000890 Offset: 0x1FFEE90 VA: 0x182000890
+	// RVA: 0x20006D0 Offset: 0x1FFECD0 VA: 0x1820006D0
 	public static BaseNetworkable DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2000920 Offset: 0x1FFEF20 VA: 0x182000920
+	// RVA: 0x2000760 Offset: 0x1FFED60 VA: 0x182000760
 	public static BaseNetworkable Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20012F0 Offset: 0x1FFF8F0 VA: 0x1820012F0
+	// RVA: 0x2001130 Offset: 0x1FFF730 VA: 0x182001130
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2001A90 Offset: 0x2000090 VA: 0x182001A90 Slot: 12
+	// RVA: 0x20018D0 Offset: 0x1FFFED0 VA: 0x1820018D0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2001AB0 Offset: 0x20000B0 VA: 0x182001AB0 Slot: 13
+	// RVA: 0x20018F0 Offset: 0x1FFFEF0 VA: 0x1820018F0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, BaseNetworkable previous) { }
 
-	// RVA: 0x20014A0 Offset: 0x1FFFAA0 VA: 0x1820014A0 Slot: 14
+	// RVA: 0x20012E0 Offset: 0x1FFF8E0 VA: 0x1820012E0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2000F60 Offset: 0x1FFF560 VA: 0x182000F60
+	// RVA: 0x2000DA0 Offset: 0x1FFF3A0 VA: 0x182000DA0
 	public static BaseNetworkable Deserialize(byte[] buffer, BaseNetworkable instance, bool isDelta = False) { }
 
-	// RVA: 0x2000DB0 Offset: 0x1FFF3B0 VA: 0x182000DB0
+	// RVA: 0x2000BF0 Offset: 0x1FFF1F0 VA: 0x182000BF0
 	public static BaseNetworkable Deserialize(Stream stream, BaseNetworkable instance, bool isDelta) { }
 
-	// RVA: 0x20003B0 Offset: 0x1FFE9B0 VA: 0x1820003B0
+	// RVA: 0x20001F0 Offset: 0x1FFE7F0 VA: 0x1820001F0
 	public static BaseNetworkable DeserializeLengthDelimited(Stream stream, BaseNetworkable instance, bool isDelta) { }
 
-	// RVA: 0x2000630 Offset: 0x1FFEC30 VA: 0x182000630
+	// RVA: 0x2000470 Offset: 0x1FFEA70 VA: 0x182000470
 	public static BaseNetworkable DeserializeLength(Stream stream, int length, BaseNetworkable instance, bool isDelta) { }
 
-	// RVA: 0x20015E0 Offset: 0x1FFFBE0 VA: 0x1820015E0
+	// RVA: 0x2001420 Offset: 0x1FFFA20 VA: 0x182001420
 	public static void SerializeDelta(Stream stream, BaseNetworkable instance, BaseNetworkable previous) { }
 
-	// RVA: 0x2001960 Offset: 0x1FFFF60 VA: 0x182001960
+	// RVA: 0x20017A0 Offset: 0x1FFFDA0 VA: 0x1820017A0
 	public static void Serialize(Stream stream, BaseNetworkable instance) { }
 
-	// RVA: 0x2001A80 Offset: 0x2000080 VA: 0x182001A80
+	// RVA: 0x20018C0 Offset: 0x1FFFEC0 VA: 0x1820018C0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2001A90 Offset: 0x2000090 VA: 0x182001A90
+	// RVA: 0x20018D0 Offset: 0x1FFFED0 VA: 0x1820018D0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2001850 Offset: 0x1FFFE50 VA: 0x182001850
+	// RVA: 0x2001690 Offset: 0x1FFFC90 VA: 0x182001690
 	public static byte[] SerializeToBytes(BaseNetworkable instance) { }
 
-	// RVA: 0x20017A0 Offset: 0x1FFFDA0 VA: 0x1820017A0
+	// RVA: 0x20015E0 Offset: 0x1FFFBE0 VA: 0x1820015E0
 	public static void SerializeLengthDelimited(Stream stream, BaseNetworkable instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -90,9 +90,9 @@ public class BaseNetworkable : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 public abstract class BaseNetwork // TypeDefIndex: 6679
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private NetRead <read>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private NetWrite <write>k__BackingField; // 0x18
 	public INetworkCryptocraphy cryptography; // 0x20
 
@@ -102,38 +102,38 @@ public abstract class BaseNetwork // TypeDefIndex: 6679
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public NetRead get_read() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	private void set_read(NetRead value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public NetWrite get_write() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_write(NetWrite value) { }
 
-	// RVA: 0x220CB70 Offset: 0x220B170 VA: 0x18220CB70
+	// RVA: 0x220C9B0 Offset: 0x220AFB0 VA: 0x18220C9B0
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4
 	public virtual void Send(SendInfo sendinfo, MemoryStream data) { }
 
-	// RVA: 0x220CAC0 Offset: 0x220B0C0 VA: 0x18220CAC0
+	// RVA: 0x220C900 Offset: 0x220AF00 VA: 0x18220C900
 	protected Message StartMessage(Message.Type type, Connection connection) { }
 
-	// RVA: 0x220C730 Offset: 0x220AD30 VA: 0x18220C730
+	// RVA: 0x220C570 Offset: 0x220AB70 VA: 0x18220C570
 	public void Decrypt(Connection connection, NetRead read) { }
 
-	// RVA: 0x220C950 Offset: 0x220AF50 VA: 0x18220C950
+	// RVA: 0x220C790 Offset: 0x220AD90 VA: 0x18220C790
 	public void Encrypt(Connection connection, ref MemoryStream stream) { }
 
-	// RVA: 0x220CAA0 Offset: 0x220B0A0 VA: 0x18220CAA0
+	// RVA: 0x220C8E0 Offset: 0x220AEE0 VA: 0x18220C8E0
 	public void Record(Connection connection, Stream stream) { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
@@ -163,20 +163,20 @@ public enum BaseNetwork.StatTypeLong // TypeDefIndex: 6680
 
 public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, IEntity, NetworkHandler // TypeDefIndex: 9475
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <JustCreated>k__BackingField; // 0x18
 	private DeferredAction entityDestroy; // 0x20
 	public List<Component> postNetworkUpdateComponents; // 0x28
 	public EntityRef parentEntity; // 0x30
 	public readonly List<BaseEntity> children; // 0x40
 	public bool canTriggerParent; // 0x48
-	[HeaderAttribute] // RVA: 0x72260 Offset: 0x71660 VA: 0x180072260
-	[ReadOnlyAttribute] // RVA: 0x72260 Offset: 0x71660 VA: 0x180072260
+	[HeaderAttribute] // RVA: 0x72360 Offset: 0x71760 VA: 0x180072360
+	[ReadOnlyAttribute] // RVA: 0x72360 Offset: 0x71760 VA: 0x180072360
 	public uint prefabID; // 0x4C
-	[TooltipAttribute] // RVA: 0x723C0 Offset: 0x717C0 VA: 0x1800723C0
+	[TooltipAttribute] // RVA: 0x724D0 Offset: 0x718D0 VA: 0x1800724D0
 	public bool globalBroadcast; // 0x50
 	public Networkable net; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IsDestroyed>k__BackingField; // 0x60
 	private string _prefabName; // 0x68
 	private string _prefabNameWithoutExtension; // 0x70
@@ -195,11 +195,11 @@ public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, I
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
 	protected bool get_JustCreated() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x95FA00 Offset: 0x95E000 VA: 0x18095FA00
 	protected void set_JustCreated(bool value) { }
 
@@ -266,11 +266,11 @@ public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, I
 	// RVA: 0xA4F170 Offset: 0xA4D770 VA: 0x180A4F170
 	public PrefabAttribute.Library get_prefabAttribute() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA4EFF0 Offset: 0xA4D5F0 VA: 0x180A4EFF0 Slot: 7
 	public bool get_IsDestroyed() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6F1820 Offset: 0x6EFE20 VA: 0x1806F1820
 	private void set_IsDestroyed(bool value) { }
 
@@ -374,7 +374,7 @@ public struct BaseNetworkable.SaveInfo // TypeDefIndex: 9476
 
 	// Methods
 
-	// RVA: 0xFBD60 Offset: 0xFB160 VA: 0x1800FBD60
+	// RVA: 0xFBCE0 Offset: 0xFB0E0 VA: 0x1800FBCE0
 	internal bool SendingTo(Connection ownerConnection) { }
 
 }
@@ -462,11 +462,11 @@ public enum BaseNetworkable.DestroyMode // TypeDefIndex: 9480
 public static class BaseNetworkableEx // TypeDefIndex: 9481
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA4D280 Offset: 0xA4B880 VA: 0x180A4D280
 	public static bool IsValid(BaseNetworkable ent) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA4D270 Offset: 0xA4B870 VA: 0x180A4D270
 	public static bool IsRealNull(BaseNetworkable ent) { }
 

@@ -49,7 +49,7 @@ private struct SubsurfaceProfileTexture.SubsurfaceProfileEntry // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0xF65D0 Offset: 0xF59D0 VA: 0x1800F65D0
+	// RVA: 0xF6550 Offset: 0xF5950 VA: 0x1800F6550
 	public void .ctor(SubsurfaceProfileData data, SubsurfaceProfile profile) { }
 
 }

@@ -23,7 +23,7 @@ public class CameraMan : SingletonComponent<CameraMan> // TypeDefIndex: 9140
 	private Vector3 view; // 0x74
 	private Vector3 viewPrev; // 0x80
 	private Vector3 velocity; // 0x8C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <Zoom>k__BackingField; // 0x98
 
 	// Properties
@@ -99,11 +99,11 @@ public class CameraMan : SingletonComponent<CameraMan> // TypeDefIndex: 9140
 	// RVA: 0x6FC1D0 Offset: 0x6FA7D0 VA: 0x1806FC1D0
 	private CameraMan.MovementType get_currentMovementType() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6FC1C0 Offset: 0x6FA7C0 VA: 0x1806FC1C0
 	public float get_Zoom() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6FC5B0 Offset: 0x6FABB0 VA: 0x1806FC5B0
 	private void set_Zoom(float value) { }
 

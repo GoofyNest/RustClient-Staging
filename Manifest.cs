@@ -214,9 +214,9 @@ public enum ManifestEnvelope.ManifestFormats // TypeDefIndex: 1628
 
 public static class Manifest // TypeDefIndex: 6199
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static DateTime <LastDownloaded>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static string <Contents>k__BackingField; // 0x8
 
 	// Properties
@@ -225,26 +225,26 @@ public static class Manifest // TypeDefIndex: 6199
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B59C0 Offset: 0x14B3FC0 VA: 0x1814B59C0
 	public static DateTime get_LastDownloaded() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B5A50 Offset: 0x14B4050 VA: 0x1814B5A50
 	internal static void set_LastDownloaded(DateTime value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B5980 Offset: 0x14B3F80 VA: 0x1814B5980
 	public static string get_Contents() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B5A00 Offset: 0x14B4000 VA: 0x1814B5A00
 	internal static void set_Contents(string value) { }
 
 	// RVA: 0x14B4DD0 Offset: 0x14B33D0 VA: 0x1814B4DD0
 	internal static void Download() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA5470 Offset: 0xA4870 VA: 0x1800A5470
+	[IteratorStateMachineAttribute] // RVA: 0xA5500 Offset: 0xA4900 VA: 0x1800A5500
 	// RVA: 0x14B5930 Offset: 0x14B3F30 VA: 0x1814B5930
 	private static IEnumerator UpdateManifest() { }
 
@@ -286,26 +286,26 @@ private sealed class Manifest.<UpdateManifest>d__9 : IEnumerator<object>, IEnume
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x14BD1C0 Offset: 0x14BB7C0 VA: 0x1814BD1C0 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14BD520 Offset: 0x14BBB20 VA: 0x1814BD520 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
@@ -406,13 +406,13 @@ public class Manifest.ServerDesc // TypeDefIndex: 6249
 public class Manifest // TypeDefIndex: 11943
 {	// Methods
 
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	// RVA: 0x366330 Offset: 0x364930 VA: 0x180366330
 	public static object PrintManifest() { }
 
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	// RVA: 0x3662F0 Offset: 0x3648F0 VA: 0x1803662F0
 	public static object PrintManifestRaw() { }
 

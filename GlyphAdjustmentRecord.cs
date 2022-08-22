@@ -1,10 +1,10 @@
 internal struct GlyphAdjustmentRecord // TypeDefIndex: 4114
 {	// Fields
-	[NativeNameAttribute] // RVA: 0x88FD0 Offset: 0x883D0 VA: 0x180088FD0
-	[SerializeField] // RVA: 0x88FD0 Offset: 0x883D0 VA: 0x180088FD0
+	[NativeNameAttribute] // RVA: 0x89040 Offset: 0x88440 VA: 0x180089040
+	[SerializeField] // RVA: 0x89040 Offset: 0x88440 VA: 0x180089040
 	private uint m_GlyphIndex; // 0x0
-	[SerializeField] // RVA: 0x890A0 Offset: 0x884A0 VA: 0x1800890A0
-	[NativeNameAttribute] // RVA: 0x890A0 Offset: 0x884A0 VA: 0x1800890A0
+	[SerializeField] // RVA: 0x890D0 Offset: 0x884D0 VA: 0x1800890D0
+	[NativeNameAttribute] // RVA: 0x890D0 Offset: 0x884D0 VA: 0x1800890D0
 	private GlyphValueRecord m_GlyphValueRecord; // 0x4
 
 	// Properties
@@ -13,10 +13,10 @@ internal struct GlyphAdjustmentRecord // TypeDefIndex: 4114
 
 	// Methods
 
-	// RVA: 0x13A620 Offset: 0x139A20 VA: 0x18013A620
+	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0
 	public uint get_glyphIndex() { }
 
-	// RVA: 0x23DB70 Offset: 0x23CF70 VA: 0x18023DB70
+	// RVA: 0x23DAF0 Offset: 0x23CEF0 VA: 0x18023DAF0
 	public GlyphValueRecord get_glyphValueRecord() { }
 
 }

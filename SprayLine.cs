@@ -9,13 +9,13 @@ public class SprayLine : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6431
 
 	// Methods
 
-	// RVA: 0x1DBAD20 Offset: 0x1DB9320 VA: 0x181DBAD20
+	// RVA: 0x1DBAB60 Offset: 0x1DB9160 VA: 0x181DBAB60
 	public static void ResetToPool(SprayLine instance) { }
 
-	// RVA: 0x1DBAF20 Offset: 0x1DB9520 VA: 0x181DBAF20
+	// RVA: 0x1DBAD60 Offset: 0x1DB9360 VA: 0x181DBAD60
 	public void ResetToPool() { }
 
-	// RVA: 0x1DBAA20 Offset: 0x1DB9020 VA: 0x181DBAA20 Slot: 9
+	// RVA: 0x1DBA860 Offset: 0x1DB8E60 VA: 0x181DBA860 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -24,64 +24,64 @@ public class SprayLine : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6431
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DB94D0 Offset: 0x1DB7AD0 VA: 0x181DB94D0
+	// RVA: 0x1DB9310 Offset: 0x1DB7910 VA: 0x181DB9310
 	public void CopyTo(SprayLine instance) { }
 
-	// RVA: 0x1DB9620 Offset: 0x1DB7C20 VA: 0x181DB9620
+	// RVA: 0x1DB9460 Offset: 0x1DB7A60 VA: 0x181DB9460
 	public SprayLine Copy() { }
 
-	// RVA: 0x1DBA220 Offset: 0x1DB8820 VA: 0x181DBA220
+	// RVA: 0x1DBA060 Offset: 0x1DB8660 VA: 0x181DBA060
 	public static SprayLine Deserialize(Stream stream) { }
 
-	// RVA: 0x1DB97C0 Offset: 0x1DB7DC0 VA: 0x181DB97C0
+	// RVA: 0x1DB9600 Offset: 0x1DB7C00 VA: 0x181DB9600
 	public static SprayLine DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DB9E70 Offset: 0x1DB8470 VA: 0x181DB9E70
+	// RVA: 0x1DB9CB0 Offset: 0x1DB82B0 VA: 0x181DB9CB0
 	public static SprayLine DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DBA4A0 Offset: 0x1DB8AA0 VA: 0x181DBA4A0
+	// RVA: 0x1DBA2E0 Offset: 0x1DB88E0 VA: 0x181DBA2E0
 	public static SprayLine Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DBAAA0 Offset: 0x1DB90A0 VA: 0x181DBAAA0
+	// RVA: 0x1DBA8E0 Offset: 0x1DB8EE0 VA: 0x181DBA8E0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DBBA50 Offset: 0x1DBA050 VA: 0x181DBBA50 Slot: 12
+	// RVA: 0x1DBB890 Offset: 0x1DB9E90 VA: 0x181DBB890 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DBBA70 Offset: 0x1DBA070 VA: 0x181DBBA70 Slot: 13
+	// RVA: 0x1DBB8B0 Offset: 0x1DB9EB0 VA: 0x181DBB8B0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, SprayLine previous) { }
 
-	// RVA: 0x1DBAD00 Offset: 0x1DB9300 VA: 0x181DBAD00 Slot: 14
+	// RVA: 0x1DBAB40 Offset: 0x1DB9140 VA: 0x181DBAB40 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DB9F00 Offset: 0x1DB8500 VA: 0x181DB9F00
+	// RVA: 0x1DB9D40 Offset: 0x1DB8340 VA: 0x181DB9D40
 	public static SprayLine Deserialize(byte[] buffer, SprayLine instance, bool isDelta = False) { }
 
-	// RVA: 0x1DBA7B0 Offset: 0x1DB8DB0 VA: 0x181DBA7B0
+	// RVA: 0x1DBA5F0 Offset: 0x1DB8BF0 VA: 0x181DBA5F0
 	public static SprayLine Deserialize(Stream stream, SprayLine instance, bool isDelta) { }
 
-	// RVA: 0x1DB9840 Offset: 0x1DB7E40 VA: 0x181DB9840
+	// RVA: 0x1DB9680 Offset: 0x1DB7C80 VA: 0x181DB9680
 	public static SprayLine DeserializeLengthDelimited(Stream stream, SprayLine instance, bool isDelta) { }
 
-	// RVA: 0x1DB9B70 Offset: 0x1DB8170 VA: 0x181DB9B70
+	// RVA: 0x1DB99B0 Offset: 0x1DB7FB0 VA: 0x181DB99B0
 	public static SprayLine DeserializeLength(Stream stream, int length, SprayLine instance, bool isDelta) { }
 
-	// RVA: 0x1DBB120 Offset: 0x1DB9720 VA: 0x181DBB120
+	// RVA: 0x1DBAF60 Offset: 0x1DB9560 VA: 0x181DBAF60
 	public static void SerializeDelta(Stream stream, SprayLine instance, SprayLine previous) { }
 
-	// RVA: 0x1DBB730 Offset: 0x1DB9D30 VA: 0x181DBB730
+	// RVA: 0x1DBB570 Offset: 0x1DB9B70 VA: 0x181DBB570
 	public static void Serialize(Stream stream, SprayLine instance) { }
 
-	// RVA: 0x1DBBA40 Offset: 0x1DBA040 VA: 0x181DBBA40
+	// RVA: 0x1DBB880 Offset: 0x1DB9E80 VA: 0x181DBB880
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DBBA50 Offset: 0x1DBA050 VA: 0x181DBBA50
+	// RVA: 0x1DBB890 Offset: 0x1DB9E90 VA: 0x181DBB890
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DBB620 Offset: 0x1DB9C20 VA: 0x181DBB620
+	// RVA: 0x1DBB460 Offset: 0x1DB9A60 VA: 0x181DBB460
 	public static byte[] SerializeToBytes(SprayLine instance) { }
 
-	// RVA: 0x1DBB570 Offset: 0x1DB9B70 VA: 0x181DBB570
+	// RVA: 0x1DBB3B0 Offset: 0x1DB99B0 VA: 0x181DBB3B0
 	public static void SerializeLengthDelimited(Stream stream, SprayLine instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80

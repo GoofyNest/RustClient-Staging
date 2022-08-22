@@ -7,114 +7,114 @@ public sealed class MaterialPropertyBlock // TypeDefIndex: 3402
 
 	// Methods
 
-	[NativeNameAttribute] // RVA: 0x8E660 Offset: 0x8DA60 VA: 0x18008E660
-	// RVA: 0x18EBB40 Offset: 0x18EA140 VA: 0x1818EBB40
+	[NativeNameAttribute] // RVA: 0x8E6E0 Offset: 0x8DAE0 VA: 0x18008E6E0
+	// RVA: 0x18EBB00 Offset: 0x18EA100 VA: 0x1818EBB00
 	private Texture GetTextureImpl(int name) { }
 
-	[NativeNameAttribute] // RVA: 0x8E710 Offset: 0x8DB10 VA: 0x18008E710
-	// RVA: 0x18EBDF0 Offset: 0x18EA3F0 VA: 0x1818EBDF0
+	[NativeNameAttribute] // RVA: 0x8E790 Offset: 0x8DB90 VA: 0x18008E790
+	// RVA: 0x18EBDB0 Offset: 0x18EA3B0 VA: 0x1818EBDB0
 	private void SetFloatImpl(int name, float value) { }
 
-	[NativeNameAttribute] // RVA: 0x8E770 Offset: 0x8DB70 VA: 0x18008E770
-	// RVA: 0x18EC0B0 Offset: 0x18EA6B0 VA: 0x1818EC0B0
+	[NativeNameAttribute] // RVA: 0x8E7F0 Offset: 0x8DBF0 VA: 0x18008E7F0
+	// RVA: 0x18EC070 Offset: 0x18EA670 VA: 0x1818EC070
 	private void SetVectorImpl(int name, Vector4 value) { }
 
-	[NativeNameAttribute] // RVA: 0x8E7D0 Offset: 0x8DBD0 VA: 0x18008E7D0
-	// RVA: 0x18EBCF0 Offset: 0x18EA2F0 VA: 0x1818EBCF0
+	[NativeNameAttribute] // RVA: 0x8E850 Offset: 0x8DC50 VA: 0x18008E850
+	// RVA: 0x18EBCB0 Offset: 0x18EA2B0 VA: 0x1818EBCB0
 	private void SetColorImpl(int name, Color value) { }
 
-	[NativeNameAttribute] // RVA: 0x8E830 Offset: 0x8DC30 VA: 0x18008E830
-	// RVA: 0x18EBEF0 Offset: 0x18EA4F0 VA: 0x1818EBEF0
+	[NativeNameAttribute] // RVA: 0x8E8B0 Offset: 0x8DCB0 VA: 0x18008E8B0
+	// RVA: 0x18EBEB0 Offset: 0x18EA4B0 VA: 0x1818EBEB0
 	private void SetMatrixImpl(int name, Matrix4x4 value) { }
 
-	[NativeNameAttribute] // RVA: 0x8E8F0 Offset: 0x8DCF0 VA: 0x18008E8F0
-	// RVA: 0x18EBFB0 Offset: 0x18EA5B0 VA: 0x1818EBFB0
+	[NativeNameAttribute] // RVA: 0x8E950 Offset: 0x8DD50 VA: 0x18008E950
+	// RVA: 0x18EBF70 Offset: 0x18EA570 VA: 0x1818EBF70
 	private void SetTextureImpl(int name, Texture value) { }
 
-	[NativeNameAttribute] // RVA: 0x8E9B0 Offset: 0x8DDB0 VA: 0x18008E9B0
-	// RVA: 0x18EBBF0 Offset: 0x18EA1F0 VA: 0x1818EBBF0
+	[NativeNameAttribute] // RVA: 0x8EB70 Offset: 0x8DF70 VA: 0x18008EB70
+	// RVA: 0x18EBBB0 Offset: 0x18EA1B0 VA: 0x1818EBBB0
 	private void SetBufferImpl(int name, ComputeBuffer value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8EC40 Offset: 0x8E040 VA: 0x18008EC40
-	// RVA: 0x18EBB80 Offset: 0x18EA180 VA: 0x1818EBB80
+	[FreeFunctionAttribute] // RVA: 0x8ECC0 Offset: 0x8E0C0 VA: 0x18008ECC0
+	// RVA: 0x18EBB40 Offset: 0x18EA140 VA: 0x1818EBB40
 	internal static void Internal_CopySHCoefficientArraysFrom(MaterialPropertyBlock properties, SphericalHarmonicsL2[] lightProbes, int sourceStart, int destStart, int count) { }
 
-	[NativeMethodAttribute] // RVA: 0x8ECA0 Offset: 0x8E0A0 VA: 0x18008ECA0
-	// RVA: 0x18EB920 Offset: 0x18E9F20 VA: 0x1818EB920
+	[NativeMethodAttribute] // RVA: 0x8ED20 Offset: 0x8E120 VA: 0x18008ED20
+	// RVA: 0x18EB8E0 Offset: 0x18E9EE0 VA: 0x1818EB8E0
 	private static IntPtr CreateImpl() { }
 
-	[NativeMethodAttribute] // RVA: 0x8ED50 Offset: 0x8E150 VA: 0x18008ED50
-	// RVA: 0x18EB950 Offset: 0x18E9F50 VA: 0x1818EB950
+	[NativeMethodAttribute] // RVA: 0x8EE30 Offset: 0x8E230 VA: 0x18008EE30
+	// RVA: 0x18EB910 Offset: 0x18E9F10 VA: 0x1818EB910
 	private static void DestroyImpl(IntPtr mpb) { }
 
-	[NativeNameAttribute] // RVA: 0x8EEC0 Offset: 0x8E2C0 VA: 0x18008EEC0
-	// RVA: 0x18EC1F0 Offset: 0x18EA7F0 VA: 0x1818EC1F0
+	[NativeNameAttribute] // RVA: 0x8EF70 Offset: 0x8E370 VA: 0x18008EF70
+	// RVA: 0x18EC1B0 Offset: 0x18EA7B0 VA: 0x1818EC1B0
 	public bool get_isEmpty() { }
 
-	// RVA: 0x18EB5D0 Offset: 0x18E9BD0 VA: 0x1818EB5D0
+	// RVA: 0x18EB590 Offset: 0x18E9B90 VA: 0x1818EB590
 	private void Clear(bool keepMemory) { }
 
-	// RVA: 0x18EB590 Offset: 0x18E9B90 VA: 0x1818EB590
+	// RVA: 0x18EB550 Offset: 0x18E9B50 VA: 0x1818EB550
 	public void Clear() { }
 
-	// RVA: 0x18EC1B0 Offset: 0x18EA7B0 VA: 0x1818EC1B0
+	// RVA: 0x18EC170 Offset: 0x18EA770 VA: 0x1818EC170
 	public void .ctor() { }
 
-	// RVA: 0x18EBA30 Offset: 0x18EA030 VA: 0x1818EBA30 Slot: 1
+	// RVA: 0x18EB9F0 Offset: 0x18E9FF0 VA: 0x1818EB9F0 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x18EB990 Offset: 0x18E9F90 VA: 0x1818EB990
+	// RVA: 0x18EB950 Offset: 0x18E9F50 VA: 0x1818EB950
 	private void Dispose() { }
 
-	// RVA: 0x18EBE40 Offset: 0x18EA440 VA: 0x1818EBE40
+	// RVA: 0x18EBE00 Offset: 0x18EA400 VA: 0x1818EBE00
 	public void SetFloat(string name, float value) { }
 
-	// RVA: 0x18EBDF0 Offset: 0x18EA3F0 VA: 0x1818EBDF0
+	// RVA: 0x18EBDB0 Offset: 0x18EA3B0 VA: 0x1818EBDB0
 	public void SetFloat(int nameID, float value) { }
 
-	// RVA: 0x18EC150 Offset: 0x18EA750 VA: 0x1818EC150
+	// RVA: 0x18EC110 Offset: 0x18EA710 VA: 0x1818EC110
 	public void SetVector(string name, Vector4 value) { }
 
-	// RVA: 0x18EC100 Offset: 0x18EA700 VA: 0x1818EC100
+	// RVA: 0x18EC0C0 Offset: 0x18EA6C0 VA: 0x1818EC0C0
 	public void SetVector(int nameID, Vector4 value) { }
 
-	// RVA: 0x18EBD40 Offset: 0x18EA340 VA: 0x1818EBD40
+	// RVA: 0x18EBD00 Offset: 0x18EA300 VA: 0x1818EBD00
 	public void SetColor(string name, Color value) { }
 
-	// RVA: 0x18EBDA0 Offset: 0x18EA3A0 VA: 0x1818EBDA0
+	// RVA: 0x18EBD60 Offset: 0x18EA360 VA: 0x1818EBD60
 	public void SetColor(int nameID, Color value) { }
 
-	// RVA: 0x18EBF40 Offset: 0x18EA540 VA: 0x1818EBF40
+	// RVA: 0x18EBF00 Offset: 0x18EA500 VA: 0x1818EBF00
 	public void SetMatrix(int nameID, Matrix4x4 value) { }
 
-	// RVA: 0x18EBC40 Offset: 0x18EA240 VA: 0x1818EBC40
+	// RVA: 0x18EBC00 Offset: 0x18EA200 VA: 0x1818EBC00
 	public void SetBuffer(string name, ComputeBuffer value) { }
 
-	// RVA: 0x18EBBF0 Offset: 0x18EA1F0 VA: 0x1818EBBF0
+	// RVA: 0x18EBBB0 Offset: 0x18EA1B0 VA: 0x1818EBBB0
 	public void SetBuffer(int nameID, ComputeBuffer value) { }
 
-	// RVA: 0x18EC000 Offset: 0x18EA600 VA: 0x1818EC000
+	// RVA: 0x18EBFC0 Offset: 0x18EA5C0 VA: 0x1818EBFC0
 	public void SetTexture(string name, Texture value) { }
 
-	// RVA: 0x18EBFB0 Offset: 0x18EA5B0 VA: 0x1818EBFB0
+	// RVA: 0x18EBF70 Offset: 0x18EA570 VA: 0x1818EBF70
 	public void SetTexture(int nameID, Texture value) { }
 
-	// RVA: 0x18EBB40 Offset: 0x18EA140 VA: 0x1818EBB40
+	// RVA: 0x18EBB00 Offset: 0x18EA100 VA: 0x1818EBB00
 	public Texture GetTexture(int nameID) { }
 
-	// RVA: 0x18EB7E0 Offset: 0x18E9DE0 VA: 0x1818EB7E0
+	// RVA: 0x18EB7A0 Offset: 0x18E9DA0 VA: 0x1818EB7A0
 	public void CopySHCoefficientArraysFrom(SphericalHarmonicsL2[] lightProbes) { }
 
-	// RVA: 0x18EB620 Offset: 0x18E9C20 VA: 0x1818EB620
+	// RVA: 0x18EB5E0 Offset: 0x18E9BE0 VA: 0x1818EB5E0
 	public void CopySHCoefficientArraysFrom(SphericalHarmonicsL2[] lightProbes, int sourceStart, int destStart, int count) { }
 
-	// RVA: 0x18EC060 Offset: 0x18EA660 VA: 0x1818EC060
+	// RVA: 0x18EC020 Offset: 0x18EA620 VA: 0x1818EC020
 	private void SetVectorImpl_Injected(int name, ref Vector4 value) { }
 
-	// RVA: 0x18EBCA0 Offset: 0x18EA2A0 VA: 0x1818EBCA0
+	// RVA: 0x18EBC60 Offset: 0x18EA260 VA: 0x1818EBC60
 	private void SetColorImpl_Injected(int name, ref Color value) { }
 
-	// RVA: 0x18EBEA0 Offset: 0x18EA4A0 VA: 0x1818EBEA0
+	// RVA: 0x18EBE60 Offset: 0x18EA460 VA: 0x1818EBE60
 	private void SetMatrixImpl_Injected(int name, ref Matrix4x4 value) { }
 
 }

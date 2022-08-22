@@ -1,6 +1,6 @@
 public class ERCrossings : MonoBehaviour // TypeDefIndex: 7169
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public ERConnectionData cdata; // 0x18
 	public List<List<Vector3>> startConnectionV3; // 0x20
 	public List<List<Vector3>> endConnectionV3; // 0x28

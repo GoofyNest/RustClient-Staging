@@ -4,7 +4,7 @@ public enum AudioSpeakerMode // TypeDefIndex: 3998
 public enum AudioSpeakerMode // TypeDefIndex: 3998
 	// Fields
 	public int value__; // 0x0
-	[ObsoleteAttribute] // RVA: 0xB3A90 Offset: 0xB2E90 VA: 0x1800B3A90
+	[ObsoleteAttribute] // RVA: 0xB3AD0 Offset: 0xB2ED0 VA: 0x1800B3AD0
 	public const AudioSpeakerMode Raw = 0;
 	public const AudioSpeakerMode Mono = 1;
 	public const AudioSpeakerMode Stereo = 2;
@@ -82,8 +82,8 @@ public enum AudioReverbPreset // TypeDefIndex: 4003
 
 public sealed class AudioSettings // TypeDefIndex: 4004
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private static AudioSettings.AudioConfigurationChangeHandler OnAudioConfigurationChanged; // 0x13450
 
 	// Properties
@@ -93,46 +93,46 @@ public sealed class AudioSettings // TypeDefIndex: 4004
 
 	// Methods
 
-	// RVA: 0x22F9D60 Offset: 0x22F8360 VA: 0x1822F9D60
+	// RVA: 0x22F9BA0 Offset: 0x22F81A0 VA: 0x1822F9BA0
 	private static AudioSpeakerMode GetSpeakerMode() { }
 
-	[NativeThrowsAttribute] // RVA: 0xB3EB0 Offset: 0xB32B0 VA: 0x1800B3EB0
-	[NativeMethodAttribute] // RVA: 0xB3EB0 Offset: 0xB32B0 VA: 0x1800B3EB0
-	// RVA: 0x22F9E60 Offset: 0x22F8460 VA: 0x1822F9E60
+	[NativeThrowsAttribute] // RVA: 0xB3F50 Offset: 0xB3350 VA: 0x1800B3F50
+	[NativeMethodAttribute] // RVA: 0xB3F50 Offset: 0xB3350 VA: 0x1800B3F50
+	// RVA: 0x22F9CA0 Offset: 0x22F82A0 VA: 0x1822F9CA0
 	private static bool SetConfiguration(AudioConfiguration config) { }
 
-	[NativeMethodAttribute] // RVA: 0xB3F90 Offset: 0xB3390 VA: 0x1800B3F90
-	// RVA: 0x22F9D30 Offset: 0x22F8330 VA: 0x1822F9D30
+	[NativeMethodAttribute] // RVA: 0xB4030 Offset: 0xB3430 VA: 0x1800B4030
+	// RVA: 0x22F9B70 Offset: 0x22F8170 VA: 0x1822F9B70
 	private static int GetSampleRate() { }
 
-	// RVA: 0x22F9D60 Offset: 0x22F8360 VA: 0x1822F9D60
+	// RVA: 0x22F9BA0 Offset: 0x22F81A0 VA: 0x1822F9BA0
 	public static AudioSpeakerMode get_speakerMode() { }
 
-	[NativeMethodAttribute] // RVA: 0xB4120 Offset: 0xB3520 VA: 0x1800B4120
-	// RVA: 0x22F9EA0 Offset: 0x22F84A0 VA: 0x1822F9EA0
+	[NativeMethodAttribute] // RVA: 0xB41C0 Offset: 0xB35C0 VA: 0x1800B41C0
+	// RVA: 0x22F9CE0 Offset: 0x22F82E0 VA: 0x1822F9CE0
 	public static double get_dspTime() { }
 
-	// RVA: 0x22F9D30 Offset: 0x22F8330 VA: 0x1822F9D30
+	// RVA: 0x22F9B70 Offset: 0x22F8170 VA: 0x1822F9B70
 	public static int get_outputSampleRate() { }
 
-	[NativeMethodAttribute] // RVA: 0xB4230 Offset: 0xB3630 VA: 0x1800B4230
-	// RVA: 0x22F9CE0 Offset: 0x22F82E0 VA: 0x1822F9CE0
+	[NativeMethodAttribute] // RVA: 0xB42D0 Offset: 0xB36D0 VA: 0x1800B42D0
+	// RVA: 0x22F9B20 Offset: 0x22F8120 VA: 0x1822F9B20
 	public static void GetDSPBufferSize(out int bufferLength, out int numBuffers) { }
 
-	// RVA: 0x22F9C90 Offset: 0x22F8290 VA: 0x1822F9C90
+	// RVA: 0x22F9AD0 Offset: 0x22F80D0 VA: 0x1822F9AD0
 	public static AudioConfiguration GetConfiguration() { }
 
-	// RVA: 0x22F9DE0 Offset: 0x22F83E0 VA: 0x1822F9DE0
+	// RVA: 0x22F9C20 Offset: 0x22F8220 VA: 0x1822F9C20
 	public static bool Reset(AudioConfiguration config) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22F9D90 Offset: 0x22F8390 VA: 0x1822F9D90
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22F9BD0 Offset: 0x22F81D0 VA: 0x1822F9BD0
 	internal static void InvokeOnAudioConfigurationChanged(bool deviceWasChanged) { }
 
-	// RVA: 0x22F9E20 Offset: 0x22F8420 VA: 0x1822F9E20
+	// RVA: 0x22F9C60 Offset: 0x22F8260 VA: 0x1822F9C60
 	private static bool SetConfiguration_Injected(ref AudioConfiguration config) { }
 
-	// RVA: 0x22F9C50 Offset: 0x22F8250 VA: 0x1822F9C50
+	// RVA: 0x22F9A90 Offset: 0x22F8090 VA: 0x1822F9A90
 	private static void GetConfiguration_Injected(out AudioConfiguration ret) { }
 
 }
@@ -146,7 +146,7 @@ public sealed class AudioSettings.AudioConfigurationChangeHandler : MulticastDel
 	// RVA: 0x9E6190 Offset: 0x9E4790 VA: 0x1809E6190 Slot: 12
 	public virtual void Invoke(bool deviceWasChanged) { }
 
-	// RVA: 0x22F8E10 Offset: 0x22F7410 VA: 0x1822F8E10 Slot: 13
+	// RVA: 0x22F8C50 Offset: 0x22F7250 VA: 0x1822F8C50 Slot: 13
 	public virtual IAsyncResult BeginInvoke(bool deviceWasChanged, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -156,17 +156,17 @@ public sealed class AudioSettings.AudioConfigurationChangeHandler : MulticastDel
 
 public sealed class AudioClip : Object // TypeDefIndex: 4006
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private AudioClip.PCMReaderCallback m_PCMReaderCallback; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private AudioClip.PCMSetPositionCallback m_PCMSetPositionCallback; // 0x20
 
 	// Properties
-	[NativePropertyAttribute] // RVA: 0xB4AD0 Offset: 0xB3ED0 VA: 0x1800B4AD0
+	[NativePropertyAttribute] // RVA: 0xB4B70 Offset: 0xB3F70 VA: 0x1800B4B70
 	public float length { get; }
-	[NativePropertyAttribute] // RVA: 0xB4C00 Offset: 0xB4000 VA: 0x1800B4C00
+	[NativePropertyAttribute] // RVA: 0xB4CA0 Offset: 0xB40A0 VA: 0x1800B4CA0
 	public int samples { get; }
 	[NativePropertyAttribute] // RVA: 0xB4DA0 Offset: 0xB41A0 VA: 0x1800B4DA0
 	public int channels { get; }
@@ -175,83 +175,83 @@ public sealed class AudioClip : Object // TypeDefIndex: 4006
 
 	// Methods
 
-	// RVA: 0x22F89D0 Offset: 0x22F6FD0 VA: 0x1822F89D0
+	// RVA: 0x22F8810 Offset: 0x22F6E10 VA: 0x1822F8810
 	private void .ctor() { }
 
-	// RVA: 0x22F85F0 Offset: 0x22F6BF0 VA: 0x1822F85F0
+	// RVA: 0x22F8430 Offset: 0x22F6A30 VA: 0x1822F8430
 	private static bool GetData(AudioClip clip, [Out] float[] data, int numSamples, int samplesOffset) { }
 
-	// RVA: 0x22F8920 Offset: 0x22F6F20 VA: 0x1822F8920
+	// RVA: 0x22F8760 Offset: 0x22F6D60 VA: 0x1822F8760
 	private static bool SetData(AudioClip clip, float[] data, int numsamples, int samplesOffset) { }
 
-	// RVA: 0x22F80B0 Offset: 0x22F66B0 VA: 0x1822F80B0
+	// RVA: 0x22F7EF0 Offset: 0x22F64F0 VA: 0x1822F7EF0
 	private static AudioClip Construct_Internal() { }
 
-	// RVA: 0x22F8660 Offset: 0x22F6C60 VA: 0x1822F8660
+	// RVA: 0x22F84A0 Offset: 0x22F6AA0 VA: 0x1822F84A0
 	private string GetName() { }
 
-	// RVA: 0x22F80E0 Offset: 0x22F66E0 VA: 0x1822F80E0
+	// RVA: 0x22F7F20 Offset: 0x22F6520 VA: 0x1822F7F20
 	private void CreateUserSound(string name, int lengthSamples, int channels, int frequency, bool stream) { }
 
-	// RVA: 0x22F8C10 Offset: 0x22F7210 VA: 0x1822F8C10
+	// RVA: 0x22F8A50 Offset: 0x22F7050 VA: 0x1822F8A50
 	public float get_length() { }
 
-	// RVA: 0x22F8C90 Offset: 0x22F7290 VA: 0x1822F8C90
+	// RVA: 0x22F8AD0 Offset: 0x22F70D0 VA: 0x1822F8AD0
 	public int get_samples() { }
 
-	// RVA: 0x22F8B90 Offset: 0x22F7190 VA: 0x1822F8B90
+	// RVA: 0x22F89D0 Offset: 0x22F6FD0 VA: 0x1822F89D0
 	public int get_channels() { }
 
-	// RVA: 0x22F8BD0 Offset: 0x22F71D0 VA: 0x1822F8BD0
+	// RVA: 0x22F8A10 Offset: 0x22F7010 VA: 0x1822F8A10
 	public int get_frequency() { }
 
-	// RVA: 0x22F86E0 Offset: 0x22F6CE0 VA: 0x1822F86E0
+	// RVA: 0x22F8520 Offset: 0x22F6B20 VA: 0x1822F8520
 	public bool LoadAudioData() { }
 
-	// RVA: 0x22F8990 Offset: 0x22F6F90 VA: 0x1822F8990
+	// RVA: 0x22F87D0 Offset: 0x22F6DD0 VA: 0x1822F87D0
 	public bool UnloadAudioData() { }
 
-	[NativeMethodAttribute] // RVA: 0xB46B0 Offset: 0xB3AB0 VA: 0x1800B46B0
-	// RVA: 0x22F8C50 Offset: 0x22F7250 VA: 0x1822F8C50
+	[NativeMethodAttribute] // RVA: 0xB4750 Offset: 0xB3B50 VA: 0x1800B4750
+	// RVA: 0x22F8A90 Offset: 0x22F7090 VA: 0x1822F8A90
 	public AudioDataLoadState get_loadState() { }
 
-	// RVA: 0x22F8490 Offset: 0x22F6A90 VA: 0x1822F8490
+	// RVA: 0x22F82D0 Offset: 0x22F68D0 VA: 0x1822F82D0
 	public bool GetData(float[] data, int offsetSamples) { }
 
-	// RVA: 0x22F8720 Offset: 0x22F6D20 VA: 0x1822F8720
+	// RVA: 0x22F8560 Offset: 0x22F6B60 VA: 0x1822F8560
 	public bool SetData(float[] data, int offsetSamples) { }
 
-	// RVA: 0x22F8180 Offset: 0x22F6780 VA: 0x1822F8180
+	// RVA: 0x22F7FC0 Offset: 0x22F65C0 VA: 0x1822F7FC0
 	public static AudioClip Create(string name, int lengthSamples, int channels, int frequency, bool stream) { }
 
-	// RVA: 0x22F8150 Offset: 0x22F6750 VA: 0x1822F8150
+	// RVA: 0x22F7F90 Offset: 0x22F6590 VA: 0x1822F7F90
 	public static AudioClip Create(string name, int lengthSamples, int channels, int frequency, bool stream, AudioClip.PCMReaderCallback pcmreadercallback) { }
 
-	// RVA: 0x22F81B0 Offset: 0x22F67B0 VA: 0x1822F81B0
+	// RVA: 0x22F7FF0 Offset: 0x22F65F0 VA: 0x1822F7FF0
 	public static AudioClip Create(string name, int lengthSamples, int channels, int frequency, bool stream, AudioClip.PCMReaderCallback pcmreadercallback, AudioClip.PCMSetPositionCallback pcmsetpositioncallback) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22F8A50 Offset: 0x22F7050 VA: 0x1822F8A50
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22F8890 Offset: 0x22F6E90 VA: 0x1822F8890
 	private void add_m_PCMReaderCallback(AudioClip.PCMReaderCallback value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22F8CD0 Offset: 0x22F72D0 VA: 0x1822F8CD0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22F8B10 Offset: 0x22F7110 VA: 0x1822F8B10
 	private void remove_m_PCMReaderCallback(AudioClip.PCMReaderCallback value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22F8AF0 Offset: 0x22F70F0 VA: 0x1822F8AF0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22F8930 Offset: 0x22F6F30 VA: 0x1822F8930
 	private void add_m_PCMSetPositionCallback(AudioClip.PCMSetPositionCallback value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22F8D70 Offset: 0x22F7370 VA: 0x1822F8D70
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22F8BB0 Offset: 0x22F71B0 VA: 0x1822F8BB0
 	private void remove_m_PCMSetPositionCallback(AudioClip.PCMSetPositionCallback value) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22F86A0 Offset: 0x22F6CA0 VA: 0x1822F86A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22F84E0 Offset: 0x22F6AE0 VA: 0x1822F84E0
 	private void InvokePCMReaderCallback_Internal(float[] data) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22F86C0 Offset: 0x22F6CC0 VA: 0x1822F86C0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22F8500 Offset: 0x22F6B00 VA: 0x1822F8500
 	private void InvokePCMSetPositionCallback_Internal(int position) { }
 
 }
@@ -279,10 +279,10 @@ public sealed class AudioClip.PCMSetPositionCallback : MulticastDelegate // Type
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1A46420 Offset: 0x1A44A20 VA: 0x181A46420 Slot: 12
+	// RVA: 0x1A463E0 Offset: 0x1A449E0 VA: 0x181A463E0 Slot: 12
 	public virtual void Invoke(int position) { }
 
-	// RVA: 0x22FAE10 Offset: 0x22F9410 VA: 0x1822FAE10 Slot: 13
+	// RVA: 0x22FAC50 Offset: 0x22F9250 VA: 0x1822FAC50 Slot: 13
 	public virtual IAsyncResult BeginInvoke(int position, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -293,30 +293,30 @@ public sealed class AudioClip.PCMSetPositionCallback : MulticastDelegate // Type
 public sealed class AudioSource : AudioBehaviour // TypeDefIndex: 4011
 {
 // Namespace: UnityEngine
-[StaticAccessorAttribute] // RVA: 0xB61D0 Offset: 0xB55D0 VA: 0x1800B61D0
-[RequireComponent] // RVA: 0xB61D0 Offset: 0xB55D0 VA: 0x1800B61D0
+[StaticAccessorAttribute] // RVA: 0xB6270 Offset: 0xB5670 VA: 0x1800B6270
+[RequireComponent] // RVA: 0xB6270 Offset: 0xB5670 VA: 0x1800B6270
 public sealed class AudioListener : AudioBehaviour // TypeDefIndex: 4010
 
 // Namespace: UnityEngine
-[RequireComponent] // RVA: 0xB6500 Offset: 0xB5900 VA: 0x1800B6500
-[StaticAccessorAttribute] // RVA: 0xB6500 Offset: 0xB5900 VA: 0x1800B6500
+[RequireComponent] // RVA: 0xB65F0 Offset: 0xB59F0 VA: 0x1800B65F0
+[StaticAccessorAttribute] // RVA: 0xB65F0 Offset: 0xB59F0 VA: 0x1800B65F0
 public sealed class AudioSource : AudioBehaviour // TypeDefIndex: 4011
 	// Properties
 	public float volume { get; set; }
 	public float pitch { get; set; }
-	[NativePropertyAttribute] // RVA: 0xB8830 Offset: 0xB7C30 VA: 0x1800B8830
+	[NativePropertyAttribute] // RVA: 0xB88D0 Offset: 0xB7CD0 VA: 0x1800B88D0
 	public float time { get; set; }
-	[NativePropertyAttribute] // RVA: 0xB8970 Offset: 0xB7D70 VA: 0x1800B8970
+	[NativePropertyAttribute] // RVA: 0xB89E0 Offset: 0xB7DE0 VA: 0x1800B89E0
 	public int timeSamples { get; set; }
-	[NativePropertyAttribute] // RVA: 0xB89A0 Offset: 0xB7DA0 VA: 0x1800B89A0
+	[NativePropertyAttribute] // RVA: 0xB8A90 Offset: 0xB7E90 VA: 0x1800B8A90
 	public AudioClip clip { get; set; }
 	public AudioMixerGroup outputAudioMixerGroup { get; set; }
 	public bool isPlaying { get; }
 	public bool loop { set; }
 	public bool playOnAwake { set; }
-	[NativePropertyAttribute] // RVA: 0xB8A70 Offset: 0xB7E70 VA: 0x1800B8A70
+	[NativePropertyAttribute] // RVA: 0xB8B10 Offset: 0xB7F10 VA: 0x1800B8B10
 	public float panStereo { get; set; }
-	[NativePropertyAttribute] // RVA: 0xB8AD0 Offset: 0xB7ED0 VA: 0x1800B8AD0
+	[NativePropertyAttribute] // RVA: 0xB8BA0 Offset: 0xB7FA0 VA: 0x1800B8BA0
 	public float spatialBlend { set; }
 	public float dopplerLevel { set; }
 	public float spread { get; set; }
@@ -326,149 +326,149 @@ public sealed class AudioSource : AudioBehaviour // TypeDefIndex: 4011
 
 	// Methods
 
-	// RVA: 0x22F9F30 Offset: 0x22F8530 VA: 0x1822F9F30
+	// RVA: 0x22F9D70 Offset: 0x22F8370 VA: 0x1822F9D70
 	private static float GetPitch(AudioSource source) { }
 
-	// RVA: 0x22FA670 Offset: 0x22F8C70 VA: 0x1822FA670
+	// RVA: 0x22FA4B0 Offset: 0x22F8AB0 VA: 0x1822FA4B0
 	private static void SetPitch(AudioSource source, float pitch) { }
 
-	// RVA: 0x22FA2D0 Offset: 0x22F88D0 VA: 0x1822FA2D0
+	// RVA: 0x22FA110 Offset: 0x22F8710 VA: 0x1822FA110
 	private static void PlayHelper(AudioSource source, ulong delay) { }
 
-	// RVA: 0x22FA5D0 Offset: 0x22F8BD0 VA: 0x1822FA5D0
+	// RVA: 0x22FA410 Offset: 0x22F8A10 VA: 0x1822FA410
 	private void Play(double delay) { }
 
-	// RVA: 0x22FA320 Offset: 0x22F8920 VA: 0x1822FA320
+	// RVA: 0x22FA160 Offset: 0x22F8760 VA: 0x1822FA160
 	private static void PlayOneShotHelper(AudioSource source, AudioClip clip, float volumeScale) { }
 
-	// RVA: 0x22FA700 Offset: 0x22F8D00 VA: 0x1822FA700
+	// RVA: 0x22FA540 Offset: 0x22F8B40 VA: 0x1822FA540
 	private void Stop(bool stopOneShots) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80A80 Offset: 0x7FE80 VA: 0x180080A80
-	// RVA: 0x22FA620 Offset: 0x22F8C20 VA: 0x1822FA620
+	[NativeThrowsAttribute] // RVA: 0x80B40 Offset: 0x7FF40 VA: 0x180080B40
+	// RVA: 0x22FA460 Offset: 0x22F8A60 VA: 0x1822FA460
 	private static void SetCustomCurveHelper(AudioSource source, AudioSourceCurveType type, AnimationCurve curve) { }
 
-	// RVA: 0x22F9ED0 Offset: 0x22F84D0 VA: 0x1822F9ED0
+	// RVA: 0x22F9D10 Offset: 0x22F8310 VA: 0x1822F9D10
 	private static void GetOutputDataHelper(AudioSource source, [Out] float[] samples, int channel) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80A80 Offset: 0x7FE80 VA: 0x180080A80
-	// RVA: 0x22F9F70 Offset: 0x22F8570 VA: 0x1822F9F70
+	[NativeThrowsAttribute] // RVA: 0x80B40 Offset: 0x7FF40 VA: 0x180080B40
+	// RVA: 0x22F9DB0 Offset: 0x22F83B0 VA: 0x1822F9DB0
 	private static void GetSpectrumDataHelper(AudioSource source, [Out] float[] samples, int channel, FFTWindow window) { }
 
-	// RVA: 0x22FA990 Offset: 0x22F8F90 VA: 0x1822FA990
+	// RVA: 0x22FA7D0 Offset: 0x22F8DD0 VA: 0x1822FA7D0
 	public float get_volume() { }
 
-	// RVA: 0x22FADC0 Offset: 0x22F93C0 VA: 0x1822FADC0
+	// RVA: 0x22FAC00 Offset: 0x22F9200 VA: 0x1822FAC00
 	public void set_volume(float value) { }
 
-	// RVA: 0x22F9F30 Offset: 0x22F8530 VA: 0x1822F9F30
+	// RVA: 0x22F9D70 Offset: 0x22F8370 VA: 0x1822F9D70
 	public float get_pitch() { }
 
-	// RVA: 0x22FA670 Offset: 0x22F8C70 VA: 0x1822FA670
+	// RVA: 0x22FA4B0 Offset: 0x22F8AB0 VA: 0x1822FA4B0
 	public void set_pitch(float value) { }
 
-	// RVA: 0x22FA950 Offset: 0x22F8F50 VA: 0x1822FA950
+	// RVA: 0x22FA790 Offset: 0x22F8D90 VA: 0x1822FA790
 	public float get_time() { }
 
-	// RVA: 0x22FAD70 Offset: 0x22F9370 VA: 0x1822FAD70
+	// RVA: 0x22FABB0 Offset: 0x22F91B0 VA: 0x1822FABB0
 	public void set_time(float value) { }
 
-	[NativeMethodAttribute] // RVA: 0x90510 Offset: 0x8F910 VA: 0x180090510
-	// RVA: 0x22FA910 Offset: 0x22F8F10 VA: 0x1822FA910
+	[NativeMethodAttribute] // RVA: 0x90620 Offset: 0x8FA20 VA: 0x180090620
+	// RVA: 0x22FA750 Offset: 0x22F8D50 VA: 0x1822FA750
 	public int get_timeSamples() { }
 
-	[NativeMethodAttribute] // RVA: 0x90510 Offset: 0x8F910 VA: 0x180090510
-	// RVA: 0x22FAD30 Offset: 0x22F9330 VA: 0x1822FAD30
+	[NativeMethodAttribute] // RVA: 0x90620 Offset: 0x8FA20 VA: 0x180090620
+	// RVA: 0x22FAB70 Offset: 0x22F9170 VA: 0x1822FAB70
 	public void set_timeSamples(int value) { }
 
-	// RVA: 0x22FA790 Offset: 0x22F8D90 VA: 0x1822FA790
+	// RVA: 0x22FA5D0 Offset: 0x22F8BD0 VA: 0x1822FA5D0
 	public AudioClip get_clip() { }
 
-	// RVA: 0x22FA9D0 Offset: 0x22F8FD0 VA: 0x1822FA9D0
+	// RVA: 0x22FA810 Offset: 0x22F8E10 VA: 0x1822FA810
 	public void set_clip(AudioClip value) { }
 
-	// RVA: 0x22FA850 Offset: 0x22F8E50 VA: 0x1822FA850
+	// RVA: 0x22FA690 Offset: 0x22F8C90 VA: 0x1822FA690
 	public AudioMixerGroup get_outputAudioMixerGroup() { }
 
-	// RVA: 0x22FAB60 Offset: 0x22F9160 VA: 0x1822FAB60
+	// RVA: 0x22FA9A0 Offset: 0x22F8FA0 VA: 0x1822FA9A0
 	public void set_outputAudioMixerGroup(AudioMixerGroup value) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22FA590 Offset: 0x22F8B90 VA: 0x1822FA590
+	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22FA3D0 Offset: 0x22F89D0 VA: 0x1822FA3D0
 	public void Play() { }
 
-	// RVA: 0x22FA260 Offset: 0x22F8860 VA: 0x1822FA260
+	// RVA: 0x22FA0A0 Offset: 0x22F86A0 VA: 0x1822FA0A0
 	public void PlayDelayed(float delay) { }
 
-	// RVA: 0x22FA530 Offset: 0x22F8B30 VA: 0x1822FA530
+	// RVA: 0x22FA370 Offset: 0x22F8970 VA: 0x1822FA370
 	public void PlayScheduled(double time) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22FA460 Offset: 0x22F8A60 VA: 0x1822FA460
+	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22FA2A0 Offset: 0x22F88A0 VA: 0x1822FA2A0
 	public void PlayOneShot(AudioClip clip) { }
 
-	// RVA: 0x22FA380 Offset: 0x22F8980 VA: 0x1822FA380
+	// RVA: 0x22FA1C0 Offset: 0x22F87C0 VA: 0x1822FA1C0
 	public void PlayOneShot(AudioClip clip, float volumeScale) { }
 
-	// RVA: 0x22FA6C0 Offset: 0x22F8CC0 VA: 0x1822FA6C0
+	// RVA: 0x22FA500 Offset: 0x22F8B00 VA: 0x1822FA500
 	public void Stop() { }
 
-	// RVA: 0x22F9FE0 Offset: 0x22F85E0 VA: 0x1822F9FE0
+	// RVA: 0x22F9E20 Offset: 0x22F8420 VA: 0x1822F9E20
 	public void Pause() { }
 
-	// RVA: 0x22FA750 Offset: 0x22F8D50 VA: 0x1822FA750
+	// RVA: 0x22FA590 Offset: 0x22F8B90 VA: 0x1822FA590
 	public void UnPause() { }
 
-	[NativeNameAttribute] // RVA: 0xB86E0 Offset: 0xB7AE0 VA: 0x1800B86E0
-	// RVA: 0x22FA7D0 Offset: 0x22F8DD0 VA: 0x1822FA7D0
+	[NativeNameAttribute] // RVA: 0xB8780 Offset: 0xB7B80 VA: 0x1800B8780
+	// RVA: 0x22FA610 Offset: 0x22F8C10 VA: 0x1822FA610
 	public bool get_isPlaying() { }
 
-	// RVA: 0x22FA020 Offset: 0x22F8620 VA: 0x1822FA020
+	// RVA: 0x22F9E60 Offset: 0x22F8460 VA: 0x1822F9E60
 	public static void PlayClipAtPoint(AudioClip clip, Vector3 position, float volume) { }
 
-	// RVA: 0x22FAA70 Offset: 0x22F9070 VA: 0x1822FAA70
+	// RVA: 0x22FA8B0 Offset: 0x22F8EB0 VA: 0x1822FA8B0
 	public void set_loop(bool value) { }
 
-	// RVA: 0x22FAC00 Offset: 0x22F9200 VA: 0x1822FAC00
+	// RVA: 0x22FAA40 Offset: 0x22F9040 VA: 0x1822FAA40
 	public void set_playOnAwake(bool value) { }
 
-	// RVA: 0x22FA890 Offset: 0x22F8E90 VA: 0x1822FA890
+	// RVA: 0x22FA6D0 Offset: 0x22F8CD0 VA: 0x1822FA6D0
 	public float get_panStereo() { }
 
-	// RVA: 0x22FABB0 Offset: 0x22F91B0 VA: 0x1822FABB0
+	// RVA: 0x22FA9F0 Offset: 0x22F8FF0 VA: 0x1822FA9F0
 	public void set_panStereo(float value) { }
 
-	// RVA: 0x22FAC90 Offset: 0x22F9290 VA: 0x1822FAC90
+	// RVA: 0x22FAAD0 Offset: 0x22F90D0 VA: 0x1822FAAD0
 	public void set_spatialBlend(float value) { }
 
-	// RVA: 0x22FA620 Offset: 0x22F8C20 VA: 0x1822FA620
+	// RVA: 0x22FA460 Offset: 0x22F8A60 VA: 0x1822FA460
 	public void SetCustomCurve(AudioSourceCurveType type, AnimationCurve curve) { }
 
-	// RVA: 0x22FAA20 Offset: 0x22F9020 VA: 0x1822FAA20
+	// RVA: 0x22FA860 Offset: 0x22F8E60 VA: 0x1822FA860
 	public void set_dopplerLevel(float value) { }
 
-	// RVA: 0x22FA8D0 Offset: 0x22F8ED0 VA: 0x1822FA8D0
+	// RVA: 0x22FA710 Offset: 0x22F8D10 VA: 0x1822FA710
 	public float get_spread() { }
 
-	// RVA: 0x22FACE0 Offset: 0x22F92E0 VA: 0x1822FACE0
+	// RVA: 0x22FAB20 Offset: 0x22F9120 VA: 0x1822FAB20
 	public void set_spread(float value) { }
 
-	// RVA: 0x22FAC50 Offset: 0x22F9250 VA: 0x1822FAC50
+	// RVA: 0x22FAA90 Offset: 0x22F9090 VA: 0x1822FAA90
 	public void set_priority(int value) { }
 
-	// RVA: 0x22FAB10 Offset: 0x22F9110 VA: 0x1822FAB10
+	// RVA: 0x22FA950 Offset: 0x22F8F50 VA: 0x1822FA950
 	public void set_mute(bool value) { }
 
-	// RVA: 0x22FA810 Offset: 0x22F8E10 VA: 0x1822FA810
+	// RVA: 0x22FA650 Offset: 0x22F8C50 VA: 0x1822FA650
 	public float get_maxDistance() { }
 
-	// RVA: 0x22FAAC0 Offset: 0x22F90C0 VA: 0x1822FAAC0
+	// RVA: 0x22FA900 Offset: 0x22F8F00 VA: 0x1822FA900
 	public void set_maxDistance(float value) { }
 
-	// RVA: 0x22F9ED0 Offset: 0x22F84D0 VA: 0x1822F9ED0
+	// RVA: 0x22F9D10 Offset: 0x22F8310 VA: 0x1822F9D10
 	public void GetOutputData(float[] samples, int channel) { }
 
-	// RVA: 0x22F9F70 Offset: 0x22F8570 VA: 0x1822F9F70
+	// RVA: 0x22F9DB0 Offset: 0x22F83B0 VA: 0x1822F9DB0
 	public void GetSpectrumData(float[] samples, int channel, FFTWindow window) { }
 
 }
@@ -494,97 +494,97 @@ public sealed class AudioReverbZone : Behaviour // TypeDefIndex: 4012
 
 	// Methods
 
-	// RVA: 0x22F9570 Offset: 0x22F7B70 VA: 0x1822F9570
+	// RVA: 0x22F93B0 Offset: 0x22F79B0 VA: 0x1822F93B0
 	public float get_minDistance() { }
 
-	// RVA: 0x22F99A0 Offset: 0x22F7FA0 VA: 0x1822F99A0
+	// RVA: 0x22F97E0 Offset: 0x22F7DE0 VA: 0x1822F97E0
 	public void set_minDistance(float value) { }
 
-	// RVA: 0x22F9530 Offset: 0x22F7B30 VA: 0x1822F9530
+	// RVA: 0x22F9370 Offset: 0x22F7970 VA: 0x1822F9370
 	public float get_maxDistance() { }
 
-	// RVA: 0x22F9950 Offset: 0x22F7F50 VA: 0x1822F9950
+	// RVA: 0x22F9790 Offset: 0x22F7D90 VA: 0x1822F9790
 	public void set_maxDistance(float value) { }
 
-	// RVA: 0x22F9AD0 Offset: 0x22F80D0 VA: 0x1822F9AD0
+	// RVA: 0x22F9910 Offset: 0x22F7F10 VA: 0x1822F9910
 	public void set_reverbPreset(AudioReverbPreset value) { }
 
-	// RVA: 0x22F9730 Offset: 0x22F7D30 VA: 0x1822F9730
+	// RVA: 0x22F9570 Offset: 0x22F7B70 VA: 0x1822F9570
 	public int get_room() { }
 
-	// RVA: 0x22F9BD0 Offset: 0x22F81D0 VA: 0x1822F9BD0
+	// RVA: 0x22F9A10 Offset: 0x22F8010 VA: 0x1822F9A10
 	public void set_room(int value) { }
 
-	// RVA: 0x22F96B0 Offset: 0x22F7CB0 VA: 0x1822F96B0
+	// RVA: 0x22F94F0 Offset: 0x22F7AF0 VA: 0x1822F94F0
 	public int get_roomHF() { }
 
-	// RVA: 0x22F9B50 Offset: 0x22F8150 VA: 0x1822F9B50
+	// RVA: 0x22F9990 Offset: 0x22F7F90 VA: 0x1822F9990
 	public void set_roomHF(int value) { }
 
-	// RVA: 0x22F96F0 Offset: 0x22F7CF0 VA: 0x1822F96F0
+	// RVA: 0x22F9530 Offset: 0x22F7B30 VA: 0x1822F9530
 	public int get_roomLF() { }
 
-	// RVA: 0x22F9B90 Offset: 0x22F8190 VA: 0x1822F9B90
+	// RVA: 0x22F99D0 Offset: 0x22F7FD0 VA: 0x1822F99D0
 	public void set_roomLF(int value) { }
 
-	// RVA: 0x22F9470 Offset: 0x22F7A70 VA: 0x1822F9470
+	// RVA: 0x22F92B0 Offset: 0x22F78B0 VA: 0x1822F92B0
 	public float get_decayTime() { }
 
-	// RVA: 0x22F9860 Offset: 0x22F7E60 VA: 0x1822F9860
+	// RVA: 0x22F96A0 Offset: 0x22F7CA0 VA: 0x1822F96A0
 	public void set_decayTime(float value) { }
 
-	// RVA: 0x22F9430 Offset: 0x22F7A30 VA: 0x1822F9430
+	// RVA: 0x22F9270 Offset: 0x22F7870 VA: 0x1822F9270
 	public float get_decayHFRatio() { }
 
-	// RVA: 0x22F9810 Offset: 0x22F7E10 VA: 0x1822F9810
+	// RVA: 0x22F9650 Offset: 0x22F7C50 VA: 0x1822F9650
 	public void set_decayHFRatio(float value) { }
 
-	// RVA: 0x22F95F0 Offset: 0x22F7BF0 VA: 0x1822F95F0
+	// RVA: 0x22F9430 Offset: 0x22F7A30 VA: 0x1822F9430
 	public int get_reflections() { }
 
-	// RVA: 0x22F9A40 Offset: 0x22F8040 VA: 0x1822F9A40
+	// RVA: 0x22F9880 Offset: 0x22F7E80 VA: 0x1822F9880
 	public void set_reflections(int value) { }
 
-	// RVA: 0x22F95B0 Offset: 0x22F7BB0 VA: 0x1822F95B0
+	// RVA: 0x22F93F0 Offset: 0x22F79F0 VA: 0x1822F93F0
 	public float get_reflectionsDelay() { }
 
-	// RVA: 0x22F99F0 Offset: 0x22F7FF0 VA: 0x1822F99F0
+	// RVA: 0x22F9830 Offset: 0x22F7E30 VA: 0x1822F9830
 	public void set_reflectionsDelay(float value) { }
 
-	// RVA: 0x22F9670 Offset: 0x22F7C70 VA: 0x1822F9670
+	// RVA: 0x22F94B0 Offset: 0x22F7AB0 VA: 0x1822F94B0
 	public int get_reverb() { }
 
-	// RVA: 0x22F9B10 Offset: 0x22F8110 VA: 0x1822F9B10
+	// RVA: 0x22F9950 Offset: 0x22F7F50 VA: 0x1822F9950
 	public void set_reverb(int value) { }
 
-	// RVA: 0x22F9630 Offset: 0x22F7C30 VA: 0x1822F9630
+	// RVA: 0x22F9470 Offset: 0x22F7A70 VA: 0x1822F9470
 	public float get_reverbDelay() { }
 
-	// RVA: 0x22F9A80 Offset: 0x22F8080 VA: 0x1822F9A80
+	// RVA: 0x22F98C0 Offset: 0x22F7EC0 VA: 0x1822F98C0
 	public void set_reverbDelay(float value) { }
 
-	// RVA: 0x22F93B0 Offset: 0x22F79B0 VA: 0x1822F93B0
+	// RVA: 0x22F91F0 Offset: 0x22F77F0 VA: 0x1822F91F0
 	public float get_HFReference() { }
 
-	// RVA: 0x22F9770 Offset: 0x22F7D70 VA: 0x1822F9770
+	// RVA: 0x22F95B0 Offset: 0x22F7BB0 VA: 0x1822F95B0
 	public void set_HFReference(float value) { }
 
-	// RVA: 0x22F93F0 Offset: 0x22F79F0 VA: 0x1822F93F0
+	// RVA: 0x22F9230 Offset: 0x22F7830 VA: 0x1822F9230
 	public float get_LFReference() { }
 
-	// RVA: 0x22F97C0 Offset: 0x22F7DC0 VA: 0x1822F97C0
+	// RVA: 0x22F9600 Offset: 0x22F7C00 VA: 0x1822F9600
 	public void set_LFReference(float value) { }
 
-	// RVA: 0x22F94F0 Offset: 0x22F7AF0 VA: 0x1822F94F0
+	// RVA: 0x22F9330 Offset: 0x22F7930 VA: 0x1822F9330
 	public float get_diffusion() { }
 
-	// RVA: 0x22F9900 Offset: 0x22F7F00 VA: 0x1822F9900
+	// RVA: 0x22F9740 Offset: 0x22F7D40 VA: 0x1822F9740
 	public void set_diffusion(float value) { }
 
-	// RVA: 0x22F94B0 Offset: 0x22F7AB0 VA: 0x1822F94B0
+	// RVA: 0x22F92F0 Offset: 0x22F78F0 VA: 0x1822F92F0
 	public float get_density() { }
 
-	// RVA: 0x22F98B0 Offset: 0x22F7EB0 VA: 0x1822F98B0
+	// RVA: 0x22F96F0 Offset: 0x22F7CF0 VA: 0x1822F96F0
 	public void set_density(float value) { }
 
 }
@@ -592,21 +592,21 @@ public sealed class AudioReverbZone : Behaviour // TypeDefIndex: 4012
 public struct AudioClipPlayable : IEquatable<AudioClipPlayable> // TypeDefIndex: 4014
 {
 // Namespace: UnityEngine.Audio
-[NativeHeaderAttribute] // RVA: 0xB8DA0 Offset: 0xB81A0 VA: 0x1800B8DA0
-[NativeHeaderAttribute] // RVA: 0xB8DA0 Offset: 0xB81A0 VA: 0x1800B8DA0
-[StaticAccessorAttribute] // RVA: 0xB8DA0 Offset: 0xB81A0 VA: 0x1800B8DA0
-[NativeHeaderAttribute] // RVA: 0xB8DA0 Offset: 0xB81A0 VA: 0x1800B8DA0
-[RequiredByNativeCodeAttribute] // RVA: 0xB8DA0 Offset: 0xB81A0 VA: 0x1800B8DA0
+[NativeHeaderAttribute] // RVA: 0xB8DE0 Offset: 0xB81E0 VA: 0x1800B8DE0
+[NativeHeaderAttribute] // RVA: 0xB8DE0 Offset: 0xB81E0 VA: 0x1800B8DE0
+[StaticAccessorAttribute] // RVA: 0xB8DE0 Offset: 0xB81E0 VA: 0x1800B8DE0
+[NativeHeaderAttribute] // RVA: 0xB8DE0 Offset: 0xB81E0 VA: 0x1800B8DE0
+[RequiredByNativeCodeAttribute] // RVA: 0xB8DE0 Offset: 0xB81E0 VA: 0x1800B8DE0
 public struct AudioClipPlayable : IEquatable<AudioClipPlayable> // TypeDefIndex: 4014
 	// Fields
 	private PlayableHandle m_Handle; // 0x0
 
 	// Methods
 
-	// RVA: 0x212F40 Offset: 0x212340 VA: 0x180212F40 Slot: 5
+	// RVA: 0x212EC0 Offset: 0x2122C0 VA: 0x180212EC0 Slot: 5
 	public PlayableHandle GetHandle() { }
 
-	// RVA: 0x23E1F0 Offset: 0x23D5F0 VA: 0x18023E1F0 Slot: 4
+	// RVA: 0x23E170 Offset: 0x23D570 VA: 0x18023E170 Slot: 4
 	public bool Equals(AudioClipPlayable other) { }
 
 }
@@ -614,22 +614,22 @@ public struct AudioClipPlayable : IEquatable<AudioClipPlayable> // TypeDefIndex:
 public class AudioMixer : Object // TypeDefIndex: 4015
 {	// Methods
 
-	// RVA: 0x22F9350 Offset: 0x22F7950 VA: 0x1822F9350
+	// RVA: 0x22F9190 Offset: 0x22F7790 VA: 0x1822F9190
 	internal void .ctor() { }
 
-	// RVA: 0x22F90B0 Offset: 0x22F76B0 VA: 0x1822F90B0
+	// RVA: 0x22F8EF0 Offset: 0x22F74F0 VA: 0x1822F8EF0
 	internal void TransitionToSnapshot(AudioMixerSnapshot snapshot, float timeToReach) { }
 
-	[NativeMethodAttribute] // RVA: 0xB9200 Offset: 0xB8600 VA: 0x1800B9200
-	// RVA: 0x22F9050 Offset: 0x22F7650 VA: 0x1822F9050
+	[NativeMethodAttribute] // RVA: 0xB9220 Offset: 0xB8620 VA: 0x1800B9220
+	// RVA: 0x22F8E90 Offset: 0x22F7490 VA: 0x1822F8E90
 	private void TransitionToSnapshotInternal(AudioMixerSnapshot snapshot, float timeToReach) { }
 
-	[NativeMethodAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22F8FF0 Offset: 0x22F75F0 VA: 0x1822F8FF0
+	[NativeMethodAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22F8E30 Offset: 0x22F7430 VA: 0x1822F8E30
 	public bool SetFloat(string name, float value) { }
 
-	[NativeMethodAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22F8F90 Offset: 0x22F7590 VA: 0x1822F8F90
+	[NativeMethodAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22F8DD0 Offset: 0x22F73D0 VA: 0x1822F8DD0
 	public bool GetFloat(string name, out float value) { }
 
 }
@@ -637,7 +637,7 @@ public class AudioMixer : Object // TypeDefIndex: 4015
 public class AudioMixerGroup : Object // TypeDefIndex: 4016
 {	// Methods
 
-	// RVA: 0x22F8E90 Offset: 0x22F7490 VA: 0x1822F8E90
+	// RVA: 0x22F8CD0 Offset: 0x22F72D0 VA: 0x1822F8CD0
 	internal void .ctor() { }
 
 }
@@ -648,25 +648,25 @@ public struct AudioMixerPlayable : IEquatable<AudioMixerPlayable> // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x212F40 Offset: 0x212340 VA: 0x180212F40 Slot: 5
+	// RVA: 0x212EC0 Offset: 0x2122C0 VA: 0x180212EC0 Slot: 5
 	public PlayableHandle GetHandle() { }
 
-	// RVA: 0x23E280 Offset: 0x23D680 VA: 0x18023E280 Slot: 4
+	// RVA: 0x23E200 Offset: 0x23D600 VA: 0x18023E200 Slot: 4
 	public bool Equals(AudioMixerPlayable other) { }
 
 }
 
 public class AudioMixerSnapshot : Object // TypeDefIndex: 4018
 {	// Properties
-	[NativePropertyAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NativePropertyAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public AudioMixer audioMixer { get; }
 
 	// Methods
 
-	// RVA: 0x22F8F50 Offset: 0x22F7550 VA: 0x1822F8F50
+	// RVA: 0x22F8D90 Offset: 0x22F7390 VA: 0x1822F8D90
 	public AudioMixer get_audioMixer() { }
 
-	// RVA: 0x22F8EF0 Offset: 0x22F74F0 VA: 0x1822F8EF0
+	// RVA: 0x22F8D30 Offset: 0x22F7330 VA: 0x1822F8D30
 	public void TransitionTo(float timeToReach) { }
 
 }
@@ -679,21 +679,21 @@ public struct AudioPlayableOutput // TypeDefIndex: 4019
 
 public class AudioSampleProvider // TypeDefIndex: 4020
 {	// Fields
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private AudioSampleProvider.SampleFramesHandler sampleFramesAvailable; // 0x10
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private AudioSampleProvider.SampleFramesHandler sampleFramesOverflow; // 0x18
 
 	// Methods
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22F9C10 Offset: 0x22F8210 VA: 0x1822F9C10
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22F9A50 Offset: 0x22F8050 VA: 0x1822F9A50
 	private void InvokeSampleFramesAvailable(int sampleFrameCount) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22F9C30 Offset: 0x22F8230 VA: 0x1822F9C30
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22F9A70 Offset: 0x22F8070 VA: 0x1822F9A70
 	private void InvokeSampleFramesOverflow(int droppedSampleFrameCount) { }
 
 }
@@ -704,10 +704,10 @@ public sealed class AudioSampleProvider.SampleFramesHandler : MulticastDelegate 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x22FAF20 Offset: 0x22F9520 VA: 0x1822FAF20 Slot: 12
+	// RVA: 0x22FAD60 Offset: 0x22F9360 VA: 0x1822FAD60 Slot: 12
 	public virtual void Invoke(AudioSampleProvider provider, uint sampleFrameCount) { }
 
-	// RVA: 0x22FAE90 Offset: 0x22F9490 VA: 0x1822FAE90 Slot: 13
+	// RVA: 0x22FACD0 Offset: 0x22F92D0 VA: 0x1822FACD0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(AudioSampleProvider provider, uint sampleFrameCount, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -726,13 +726,13 @@ public class AudioEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 64
 
 	// Methods
 
-	// RVA: 0x1FF8A30 Offset: 0x1FF7030 VA: 0x181FF8A30
+	// RVA: 0x1FF8870 Offset: 0x1FF6E70 VA: 0x181FF8870
 	public static void ResetToPool(AudioEntity instance) { }
 
-	// RVA: 0x1FF8990 Offset: 0x1FF6F90 VA: 0x181FF8990
+	// RVA: 0x1FF87D0 Offset: 0x1FF6DD0 VA: 0x181FF87D0
 	public void ResetToPool() { }
 
-	// RVA: 0x1FF8640 Offset: 0x1FF6C40 VA: 0x181FF8640 Slot: 9
+	// RVA: 0x1FF8480 Offset: 0x1FF6A80 VA: 0x181FF8480 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -741,64 +741,64 @@ public class AudioEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 64
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1C071E0 Offset: 0x1C057E0 VA: 0x181C071E0
+	// RVA: 0x1C07020 Offset: 0x1C05620 VA: 0x181C07020
 	public void CopyTo(AudioEntity instance) { }
 
-	// RVA: 0x1FF74B0 Offset: 0x1FF5AB0 VA: 0x181FF74B0
+	// RVA: 0x1FF72F0 Offset: 0x1FF58F0 VA: 0x181FF72F0
 	public AudioEntity Copy() { }
 
-	// RVA: 0x1FF8100 Offset: 0x1FF6700 VA: 0x181FF8100
+	// RVA: 0x1FF7F40 Offset: 0x1FF6540 VA: 0x181FF7F40
 	public static AudioEntity Deserialize(Stream stream) { }
 
-	// RVA: 0x1FF7530 Offset: 0x1FF5B30 VA: 0x181FF7530
+	// RVA: 0x1FF7370 Offset: 0x1FF5970 VA: 0x181FF7370
 	public static AudioEntity DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1FF7890 Offset: 0x1FF5E90 VA: 0x181FF7890
+	// RVA: 0x1FF76D0 Offset: 0x1FF5CD0 VA: 0x181FF76D0
 	public static AudioEntity DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1FF7DF0 Offset: 0x1FF63F0 VA: 0x181FF7DF0
+	// RVA: 0x1FF7C30 Offset: 0x1FF6230 VA: 0x181FF7C30
 	public static AudioEntity Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1FF8760 Offset: 0x1FF6D60 VA: 0x181FF8760
+	// RVA: 0x1FF85A0 Offset: 0x1FF6BA0 VA: 0x181FF85A0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1FF9010 Offset: 0x1FF7610 VA: 0x181FF9010 Slot: 12
+	// RVA: 0x1FF8E50 Offset: 0x1FF7450 VA: 0x181FF8E50 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1FF9030 Offset: 0x1FF7630 VA: 0x181FF9030 Slot: 13
+	// RVA: 0x1FF8E70 Offset: 0x1FF7470 VA: 0x181FF8E70 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AudioEntity previous) { }
 
-	// RVA: 0x1FF8970 Offset: 0x1FF6F70 VA: 0x181FF8970 Slot: 14
+	// RVA: 0x1FF87B0 Offset: 0x1FF6DB0 VA: 0x181FF87B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1FF8350 Offset: 0x1FF6950 VA: 0x181FF8350
+	// RVA: 0x1FF8190 Offset: 0x1FF6790 VA: 0x181FF8190
 	public static AudioEntity Deserialize(byte[] buffer, AudioEntity instance, bool isDelta = False) { }
 
-	// RVA: 0x1FF7BE0 Offset: 0x1FF61E0 VA: 0x181FF7BE0
+	// RVA: 0x1FF7A20 Offset: 0x1FF6020 VA: 0x181FF7A20
 	public static AudioEntity Deserialize(Stream stream, AudioEntity instance, bool isDelta) { }
 
-	// RVA: 0x1FF75B0 Offset: 0x1FF5BB0 VA: 0x181FF75B0
+	// RVA: 0x1FF73F0 Offset: 0x1FF59F0 VA: 0x181FF73F0
 	public static AudioEntity DeserializeLengthDelimited(Stream stream, AudioEntity instance, bool isDelta) { }
 
-	// RVA: 0x1FF7920 Offset: 0x1FF5F20 VA: 0x181FF7920
+	// RVA: 0x1FF7760 Offset: 0x1FF5D60 VA: 0x181FF7760
 	public static AudioEntity DeserializeLength(Stream stream, int length, AudioEntity instance, bool isDelta) { }
 
-	// RVA: 0x1FF8AD0 Offset: 0x1FF70D0 VA: 0x181FF8AD0
+	// RVA: 0x1FF8910 Offset: 0x1FF6F10 VA: 0x181FF8910
 	public static void SerializeDelta(Stream stream, AudioEntity instance, AudioEntity previous) { }
 
-	// RVA: 0x1FF8EB0 Offset: 0x1FF74B0 VA: 0x181FF8EB0
+	// RVA: 0x1FF8CF0 Offset: 0x1FF72F0 VA: 0x181FF8CF0
 	public static void Serialize(Stream stream, AudioEntity instance) { }
 
-	// RVA: 0x1FF9000 Offset: 0x1FF7600 VA: 0x181FF9000
+	// RVA: 0x1FF8E40 Offset: 0x1FF7440 VA: 0x181FF8E40
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1FF9010 Offset: 0x1FF7610 VA: 0x181FF9010
+	// RVA: 0x1FF8E50 Offset: 0x1FF7450 VA: 0x181FF8E50
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1FF8DA0 Offset: 0x1FF73A0 VA: 0x181FF8DA0
+	// RVA: 0x1FF8BE0 Offset: 0x1FF71E0 VA: 0x181FF8BE0
 	public static byte[] SerializeToBytes(AudioEntity instance) { }
 
-	// RVA: 0x1FF8CF0 Offset: 0x1FF72F0 VA: 0x181FF8CF0
+	// RVA: 0x1FF8B30 Offset: 0x1FF7130 VA: 0x181FF8B30
 	public static void SerializeLengthDelimited(Stream stream, AudioEntity instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -810,14 +810,14 @@ public class AudioVisualisationEntity : IOEntity // TypeDefIndex: 8307
 {	// Fields
 	private Option __menuOption_ChangeLightSettings; // 0x288
 	private EntityRef<BaseEntity> connectedTo; // 0x2E0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private AudioVisualisationEntity.LightColour <currentColour>k__BackingField; // 0x2F0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private AudioVisualisationEntity.VolumeSensitivity <currentVolumeSensitivity>k__BackingField; // 0x2F4
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private AudioVisualisationEntity.Speed <currentSpeed>k__BackingField; // 0x2F8
 	public GameObjectRef SettingsDialog; // 0x300
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <currentGradient>k__BackingField; // 0x308
 	private IAudioConnectionSource currentSource; // 0x310
 	private static float[] bands; // 0x0
@@ -847,35 +847,35 @@ public class AudioVisualisationEntity : IOEntity // TypeDefIndex: 8307
 	// RVA: 0x8376D0 Offset: 0x835CD0 VA: 0x1808376D0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x838370 Offset: 0x836970 VA: 0x180838370
 	public AudioVisualisationEntity.LightColour get_currentColour() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8383B0 Offset: 0x8369B0 VA: 0x1808383B0
 	private void set_currentColour(AudioVisualisationEntity.LightColour value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8383A0 Offset: 0x8369A0 VA: 0x1808383A0
 	public AudioVisualisationEntity.VolumeSensitivity get_currentVolumeSensitivity() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8383E0 Offset: 0x8369E0 VA: 0x1808383E0
 	private void set_currentVolumeSensitivity(AudioVisualisationEntity.VolumeSensitivity value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x838390 Offset: 0x836990 VA: 0x180838390
 	public AudioVisualisationEntity.Speed get_currentSpeed() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8383D0 Offset: 0x8369D0 VA: 0x1808383D0
 	private void set_currentSpeed(AudioVisualisationEntity.Speed value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x838380 Offset: 0x836980 VA: 0x180838380
 	public int get_currentGradient() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8383C0 Offset: 0x8369C0 VA: 0x1808383C0
 	private void set_currentGradient(int value) { }
 
@@ -891,7 +891,7 @@ public class AudioVisualisationEntity : IOEntity // TypeDefIndex: 8307
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 159
 	protected virtual void UpdateVisualisation(float volume, bool force = False) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x837020 Offset: 0x835620 VA: 0x180837020
 	private void Client_PlayAudioFrom(BaseEntity.RPCMessage msg) { }
 
@@ -916,10 +916,10 @@ public class AudioVisualisationEntity : IOEntity // TypeDefIndex: 8307
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 165
 	protected virtual void UpdateVisualSettings() { }
 
-	[BaseEntity.Menu] // RVA: 0xB1FC0 Offset: 0xB13C0 VA: 0x1800B1FC0
-	[BaseEntity.Menu.Description] // RVA: 0xB1FC0 Offset: 0xB13C0 VA: 0x1800B1FC0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xB1FC0 Offset: 0xB13C0 VA: 0x1800B1FC0
-	[BaseEntity.Menu.Icon] // RVA: 0xB1FC0 Offset: 0xB13C0 VA: 0x1800B1FC0
+	[BaseEntity.Menu] // RVA: 0xB20B0 Offset: 0xB14B0 VA: 0x1800B20B0
+	[BaseEntity.Menu.Description] // RVA: 0xB20B0 Offset: 0xB14B0 VA: 0x1800B20B0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xB20B0 Offset: 0xB14B0 VA: 0x1800B20B0
+	[BaseEntity.Menu.Icon] // RVA: 0xB20B0 Offset: 0xB14B0 VA: 0x1800B20B0
 	// RVA: 0x836F20 Offset: 0x835520 VA: 0x180836F20
 	public void ChangeLightSettings(BasePlayer player) { }
 
@@ -1066,11 +1066,11 @@ public class AudioVisualisationEntityLight : AudioVisualisationEntity // TypeDef
 
 public struct AudioVisualisationEntityLight.LightColourSet // TypeDefIndex: 9436
 {	// Fields
-	[ColorUsageAttribute] // RVA: 0x85AC0 Offset: 0x84EC0 VA: 0x180085AC0
+	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
 	public Color LightColor; // 0x0
-	[ColorUsageAttribute] // RVA: 0x85AC0 Offset: 0x84EC0 VA: 0x180085AC0
+	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
 	public Color SecondaryLightColour; // 0x10
-	[ColorUsageAttribute] // RVA: 0x85AC0 Offset: 0x84EC0 VA: 0x180085AC0
+	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
 	public Color EmissionColour; // 0x20
 
 }
@@ -1079,7 +1079,7 @@ public class AudioInterceptComponent : MonoBehaviour // TypeDefIndex: 9456
 {	// Fields
 	public OggEncoder Encoder; // 0x18
 	private float[] strippedData; // 0x20
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static bool debugChannels; // 0x0
 
 	// Methods
@@ -1097,35 +1097,35 @@ public class AudioInterceptComponent : MonoBehaviour // TypeDefIndex: 9456
 
 public class Audio : ConsoleSystem // TypeDefIndex: 11883
 {	// Fields
-	[ClientVar] // RVA: 0x88210 Offset: 0x87610 VA: 0x180088210
+	[ClientVar] // RVA: 0x88340 Offset: 0x87740 VA: 0x180088340
 	public static float master; // 0x0
-	[ClientVar] // RVA: 0x88210 Offset: 0x87610 VA: 0x180088210
+	[ClientVar] // RVA: 0x88340 Offset: 0x87740 VA: 0x180088340
 	public static float musicvolume; // 0x4
-	[ClientVar] // RVA: 0x88210 Offset: 0x87610 VA: 0x180088210
+	[ClientVar] // RVA: 0x88340 Offset: 0x87740 VA: 0x180088340
 	public static float musicvolumemenu; // 0x8
-	[ClientVar] // RVA: 0x88210 Offset: 0x87610 VA: 0x180088210
+	[ClientVar] // RVA: 0x88340 Offset: 0x87740 VA: 0x180088340
 	public static float game; // 0xC
-	[ClientVar] // RVA: 0x88210 Offset: 0x87610 VA: 0x180088210
+	[ClientVar] // RVA: 0x88340 Offset: 0x87740 VA: 0x180088340
 	public static float voices; // 0x10
-	[ClientVar] // RVA: 0x88210 Offset: 0x87610 VA: 0x180088210
+	[ClientVar] // RVA: 0x88340 Offset: 0x87740 VA: 0x180088340
 	public static float instruments; // 0x14
-	[ClientVar] // RVA: 0x88210 Offset: 0x87610 VA: 0x180088210
+	[ClientVar] // RVA: 0x88340 Offset: 0x87740 VA: 0x180088340
 	public static float voiceProps; // 0x18
-	[ClientVar] // RVA: 0x88BD0 Offset: 0x87FD0 VA: 0x180088BD0
+	[ClientVar] // RVA: 0x88C40 Offset: 0x88040 VA: 0x180088C40
 	public static bool ambience; // 0x1C
-	[ClientVar] // RVA: 0x88C70 Offset: 0x88070 VA: 0x180088C70
+	[ClientVar] // RVA: 0x88EC0 Offset: 0x882C0 VA: 0x180088EC0
 	public static float framebudget; // 0x20
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static float minupdatefraction; // 0x24
-	[ClientVar] // RVA: 0x89060 Offset: 0x88460 VA: 0x180089060
-	public static bool advancedocclusion; // 0x28
 	[ClientVar] // RVA: 0x89110 Offset: 0x88510 VA: 0x180089110
+	public static bool advancedocclusion; // 0x28
+	[ClientVar] // RVA: 0x89180 Offset: 0x88580 VA: 0x180089180
 	public static bool hqsoundfade; // 0x29
-	[ClientVar] // RVA: 0x891C0 Offset: 0x885C0 VA: 0x1800891C0
+	[ClientVar] // RVA: 0x89230 Offset: 0x88630 VA: 0x180089230
 	public static bool debugVoiceLimiting; // 0x2A
 
 	// Properties
-	[ClientVar] // RVA: 0x88210 Offset: 0x87610 VA: 0x180088210
+	[ClientVar] // RVA: 0x88340 Offset: 0x87740 VA: 0x180088340
 	public static int speakers { get; set; }
 
 	// Methods
@@ -1136,11 +1136,11 @@ public class Audio : ConsoleSystem // TypeDefIndex: 11883
 	// RVA: 0x6CC3D0 Offset: 0x6CA9D0 VA: 0x1806CC3D0
 	public static void set_speakers(int value) { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x6CC180 Offset: 0x6CA780 VA: 0x1806CC180
 	public static void printSounds(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x89320 Offset: 0x88720 VA: 0x180089320
+	[ClientVar] // RVA: 0x89390 Offset: 0x88790 VA: 0x180089390
 	// RVA: 0x6CB020 Offset: 0x6C9620 VA: 0x1806CB020
 	public static void printEngineSounds(ConsoleSystem.Arg arg) { }
 

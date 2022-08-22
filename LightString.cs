@@ -8,13 +8,13 @@ public class LightString : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 	// Methods
 
-	// RVA: 0x1F21610 Offset: 0x1F1FC10 VA: 0x181F21610
+	// RVA: 0x1F21450 Offset: 0x1F1FA50 VA: 0x181F21450
 	public static void ResetToPool(LightString instance) { }
 
-	// RVA: 0x1F21420 Offset: 0x1F1FA20 VA: 0x181F21420
+	// RVA: 0x1F21260 Offset: 0x1F1F860 VA: 0x181F21260
 	public void ResetToPool() { }
 
-	// RVA: 0x1F21360 Offset: 0x1F1F960 VA: 0x181F21360 Slot: 9
+	// RVA: 0x1F211A0 Offset: 0x1F1F7A0 VA: 0x181F211A0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -23,64 +23,64 @@ public class LightString : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F20350 Offset: 0x1F1E950 VA: 0x181F20350
+	// RVA: 0x1F20190 Offset: 0x1F1E790 VA: 0x181F20190
 	public void CopyTo(LightString instance) { }
 
-	// RVA: 0x1F20500 Offset: 0x1F1EB00 VA: 0x181F20500
+	// RVA: 0x1F20340 Offset: 0x1F1E940 VA: 0x181F20340
 	public LightString Copy() { }
 
-	// RVA: 0x1F211E0 Offset: 0x1F1F7E0 VA: 0x181F211E0
+	// RVA: 0x1F21020 Offset: 0x1F1F620 VA: 0x181F21020
 	public static LightString Deserialize(Stream stream) { }
 
-	// RVA: 0x1F20700 Offset: 0x1F1ED00 VA: 0x181F20700
+	// RVA: 0x1F20540 Offset: 0x1F1EB40 VA: 0x181F20540
 	public static LightString DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F20AC0 Offset: 0x1F1F0C0 VA: 0x181F20AC0
+	// RVA: 0x1F20900 Offset: 0x1F1EF00 VA: 0x181F20900
 	public static LightString DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F20E60 Offset: 0x1F1F460 VA: 0x181F20E60
+	// RVA: 0x1F20CA0 Offset: 0x1F1F2A0 VA: 0x181F20CA0
 	public static LightString Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F213E0 Offset: 0x1F1F9E0 VA: 0x181F213E0
+	// RVA: 0x1F21220 Offset: 0x1F1F820 VA: 0x181F21220
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F21ED0 Offset: 0x1F204D0 VA: 0x181F21ED0 Slot: 12
+	// RVA: 0x1F21D10 Offset: 0x1F20310 VA: 0x181F21D10 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F21EF0 Offset: 0x1F204F0 VA: 0x181F21EF0 Slot: 13
+	// RVA: 0x1F21D30 Offset: 0x1F20330 VA: 0x181F21D30 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, LightString previous) { }
 
-	// RVA: 0x1F21400 Offset: 0x1F1FA00 VA: 0x181F21400 Slot: 14
+	// RVA: 0x1F21240 Offset: 0x1F1F840 VA: 0x181F21240 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F21260 Offset: 0x1F1F860 VA: 0x181F21260
+	// RVA: 0x1F210A0 Offset: 0x1F1F6A0 VA: 0x181F210A0
 	public static LightString Deserialize(byte[] buffer, LightString instance, bool isDelta = False) { }
 
-	// RVA: 0x1F20F80 Offset: 0x1F1F580 VA: 0x181F20F80
+	// RVA: 0x1F20DC0 Offset: 0x1F1F3C0 VA: 0x181F20DC0
 	public static LightString Deserialize(Stream stream, LightString instance, bool isDelta) { }
 
-	// RVA: 0x1F20780 Offset: 0x1F1ED80 VA: 0x181F20780
+	// RVA: 0x1F205C0 Offset: 0x1F1EBC0 VA: 0x181F205C0
 	public static LightString DeserializeLengthDelimited(Stream stream, LightString instance, bool isDelta) { }
 
-	// RVA: 0x1F20B50 Offset: 0x1F1F150 VA: 0x181F20B50
+	// RVA: 0x1F20990 Offset: 0x1F1EF90 VA: 0x181F20990
 	public static LightString DeserializeLength(Stream stream, int length, LightString instance, bool isDelta) { }
 
-	// RVA: 0x1F21800 Offset: 0x1F1FE00 VA: 0x181F21800
+	// RVA: 0x1F21640 Offset: 0x1F1FC40 VA: 0x181F21640
 	public static void SerializeDelta(Stream stream, LightString instance, LightString previous) { }
 
-	// RVA: 0x1F21C70 Offset: 0x1F20270 VA: 0x181F21C70
+	// RVA: 0x1F21AB0 Offset: 0x1F200B0 VA: 0x181F21AB0
 	public static void Serialize(Stream stream, LightString instance) { }
 
-	// RVA: 0x1F21EC0 Offset: 0x1F204C0 VA: 0x181F21EC0
+	// RVA: 0x1F21D00 Offset: 0x1F20300 VA: 0x181F21D00
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F21ED0 Offset: 0x1F204D0 VA: 0x181F21ED0
+	// RVA: 0x1F21D10 Offset: 0x1F20310 VA: 0x181F21D10
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F21B60 Offset: 0x1F20160 VA: 0x181F21B60
+	// RVA: 0x1F219A0 Offset: 0x1F1FFA0 VA: 0x181F219A0
 	public static byte[] SerializeToBytes(LightString instance) { }
 
-	// RVA: 0x1F21AB0 Offset: 0x1F200B0 VA: 0x181F21AB0
+	// RVA: 0x1F218F0 Offset: 0x1F1FEF0 VA: 0x181F218F0
 	public static void SerializeLengthDelimited(Stream stream, LightString instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -97,13 +97,13 @@ public class LightString.StringPoint : IDisposable, Pool.IPooled, IProto // Type
 
 	// Methods
 
-	// RVA: 0x1F2DD90 Offset: 0x1F2C390 VA: 0x181F2DD90
+	// RVA: 0x1F2DBD0 Offset: 0x1F2C1D0 VA: 0x181F2DBD0
 	public static void ResetToPool(LightString.StringPoint instance) { }
 
-	// RVA: 0x1F2DD00 Offset: 0x1F2C300 VA: 0x181F2DD00
+	// RVA: 0x1F2DB40 Offset: 0x1F2C140 VA: 0x181F2DB40
 	public void ResetToPool() { }
 
-	// RVA: 0x1F2DAE0 Offset: 0x1F2C0E0 VA: 0x181F2DAE0 Slot: 9
+	// RVA: 0x1F2D920 Offset: 0x1F2BF20 VA: 0x181F2D920 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -112,64 +112,64 @@ public class LightString.StringPoint : IDisposable, Pool.IPooled, IProto // Type
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F21F10 Offset: 0x1F20510 VA: 0x181F21F10
+	// RVA: 0x1F21D50 Offset: 0x1F20350 VA: 0x181F21D50
 	public void CopyTo(LightString.StringPoint instance) { }
 
-	// RVA: 0x1F2CD00 Offset: 0x1F2B300 VA: 0x181F2CD00
+	// RVA: 0x1F2CB40 Offset: 0x1F2B140 VA: 0x181F2CB40
 	public LightString.StringPoint Copy() { }
 
-	// RVA: 0x1F2D310 Offset: 0x1F2B910 VA: 0x181F2D310
+	// RVA: 0x1F2D150 Offset: 0x1F2B750 VA: 0x181F2D150
 	public static LightString.StringPoint Deserialize(Stream stream) { }
 
-	// RVA: 0x1F2CFE0 Offset: 0x1F2B5E0 VA: 0x181F2CFE0
+	// RVA: 0x1F2CE20 Offset: 0x1F2B420 VA: 0x181F2CE20
 	public static LightString.StringPoint DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F2D280 Offset: 0x1F2B880 VA: 0x181F2D280
+	// RVA: 0x1F2D0C0 Offset: 0x1F2B6C0 VA: 0x181F2D0C0
 	public static LightString.StringPoint DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F2D710 Offset: 0x1F2BD10 VA: 0x181F2D710
+	// RVA: 0x1F2D550 Offset: 0x1F2BB50 VA: 0x181F2D550
 	public static LightString.StringPoint Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F2DB60 Offset: 0x1F2C160 VA: 0x181F2DB60
+	// RVA: 0x1F2D9A0 Offset: 0x1F2BFA0 VA: 0x181F2D9A0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F2E5D0 Offset: 0x1F2CBD0 VA: 0x181F2E5D0 Slot: 12
+	// RVA: 0x1F2E410 Offset: 0x1F2CA10 VA: 0x181F2E410 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F2E5F0 Offset: 0x1F2CBF0 VA: 0x181F2E5F0 Slot: 13
+	// RVA: 0x1F2E430 Offset: 0x1F2CA30 VA: 0x181F2E430 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, LightString.StringPoint previous) { }
 
-	// RVA: 0x1F2DCE0 Offset: 0x1F2C2E0 VA: 0x181F2DCE0 Slot: 14
+	// RVA: 0x1F2DB20 Offset: 0x1F2C120 VA: 0x181F2DB20 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F2D4D0 Offset: 0x1F2BAD0 VA: 0x181F2D4D0
+	// RVA: 0x1F2D310 Offset: 0x1F2B910 VA: 0x181F2D310
 	public static LightString.StringPoint Deserialize(byte[] buffer, LightString.StringPoint instance, bool isDelta = False) { }
 
-	// RVA: 0x1F2D960 Offset: 0x1F2BF60 VA: 0x181F2D960
+	// RVA: 0x1F2D7A0 Offset: 0x1F2BDA0 VA: 0x181F2D7A0
 	public static LightString.StringPoint Deserialize(Stream stream, LightString.StringPoint instance, bool isDelta) { }
 
-	// RVA: 0x1F2CD90 Offset: 0x1F2B390 VA: 0x181F2CD90
+	// RVA: 0x1F2CBD0 Offset: 0x1F2B1D0 VA: 0x181F2CBD0
 	public static LightString.StringPoint DeserializeLengthDelimited(Stream stream, LightString.StringPoint instance, bool isDelta) { }
 
-	// RVA: 0x1F2D060 Offset: 0x1F2B660 VA: 0x181F2D060
+	// RVA: 0x1F2CEA0 Offset: 0x1F2B4A0 VA: 0x181F2CEA0
 	public static LightString.StringPoint DeserializeLength(Stream stream, int length, LightString.StringPoint instance, bool isDelta) { }
 
-	// RVA: 0x1F2DE20 Offset: 0x1F2C420 VA: 0x181F2DE20
+	// RVA: 0x1F2DC60 Offset: 0x1F2C260 VA: 0x181F2DC60
 	public static void SerializeDelta(Stream stream, LightString.StringPoint instance, LightString.StringPoint previous) { }
 
-	// RVA: 0x1F2E380 Offset: 0x1F2C980 VA: 0x181F2E380
+	// RVA: 0x1F2E1C0 Offset: 0x1F2C7C0 VA: 0x181F2E1C0
 	public static void Serialize(Stream stream, LightString.StringPoint instance) { }
 
-	// RVA: 0x1F2E5C0 Offset: 0x1F2CBC0 VA: 0x181F2E5C0
+	// RVA: 0x1F2E400 Offset: 0x1F2CA00 VA: 0x181F2E400
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F2E5D0 Offset: 0x1F2CBD0 VA: 0x181F2E5D0
+	// RVA: 0x1F2E410 Offset: 0x1F2CA10 VA: 0x181F2E410
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F2E270 Offset: 0x1F2C870 VA: 0x181F2E270
+	// RVA: 0x1F2E0B0 Offset: 0x1F2C6B0 VA: 0x181F2E0B0
 	public static byte[] SerializeToBytes(LightString.StringPoint instance) { }
 
-	// RVA: 0x1F2E1C0 Offset: 0x1F2C7C0 VA: 0x181F2E1C0
+	// RVA: 0x1F2E000 Offset: 0x1F2C600 VA: 0x181F2E000
 	public static void SerializeLengthDelimited(Stream stream, LightString.StringPoint instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80

@@ -10,11 +10,11 @@ internal class BuiltinRuntimeReflectionSystem : IScriptableRuntimeReflectionSyst
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void Dispose(bool disposing) { }
 
-	[StaticAccessorAttribute] // RVA: 0x83ED0 Offset: 0x832D0 VA: 0x180083ED0
+	[StaticAccessorAttribute] // RVA: 0x83F00 Offset: 0x83300 VA: 0x180083F00
 	// RVA: 0x1820C40 Offset: 0x181F240 VA: 0x181820C40
 	private static bool BuiltinUpdate() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1820C70 Offset: 0x181F270 VA: 0x181820C70
 	private static BuiltinRuntimeReflectionSystem Internal_BuiltinRuntimeReflectionSystem_New() { }
 

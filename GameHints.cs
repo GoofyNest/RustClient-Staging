@@ -132,7 +132,7 @@ public class HowToOpenCrafting : BaseTip // TypeDefIndex: 11596
 
 public class HowToOpenInventory : BaseTip // TypeDefIndex: 11597
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B11168
+	public static Translate.Phrase Phrase; // 0x2B10188
 
 	// Properties
 	public int InventoryOpenedTimes { get; }
@@ -260,7 +260,7 @@ public class HowToRegenWithComfort : BaseTip // TypeDefIndex: 11600
 
 public class HowToRetrieveThrown : BaseTip // TypeDefIndex: 11601
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B112D4
+	public static Translate.Phrase Phrase; // 0x2B102F4
 
 	// Properties
 	public static bool HasThrowableItemEquipped { get; }
@@ -448,7 +448,7 @@ public class HowToUseWave : BaseTip // TypeDefIndex: 11606
 
 public class HowToVoiceChat : BaseTip // TypeDefIndex: 11607
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B11180
+	public static Translate.Phrase Phrase; // 0x2B101A0
 
 	// Properties
 	public float SecondsSpeaking { get; }
@@ -529,7 +529,7 @@ public class TipInstrumentFullKeyboard : InstrumentTip // TypeDefIndex: 11610
 
 public class TipInstrumentNumlock : InstrumentTip // TypeDefIndex: 11611
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B11368
+	public static Translate.Phrase Phrase; // 0x2B10388
 
 	// Properties
 	public override bool ShouldShow { get; }
@@ -800,7 +800,7 @@ public class TipFillToolCupboard : BaseTip // TypeDefIndex: 11620
 
 public class TipFishingControls : BaseTip // TypeDefIndex: 11621
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B11160
+	public static Translate.Phrase Phrase; // 0x2B10180
 
 	// Properties
 	public override bool ShouldShow { get; }
@@ -890,7 +890,7 @@ public class TipHealAtCampfire : BaseTip // TypeDefIndex: 11623
 public class TipKayakPaddle : BaseTip // TypeDefIndex: 11624
 {	// Fields
 	public static Translate.Phrase Phrase; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static bool <hasPaddledWithoutOar>k__BackingField; // 0x8
 
 	// Properties
@@ -905,11 +905,11 @@ public class TipKayakPaddle : BaseTip // TypeDefIndex: 11624
 	// RVA: 0xC5F480 Offset: 0xC5DA80 VA: 0x180C5F480 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC5F7A0 Offset: 0xC5DDA0 VA: 0x180C5F7A0
 	public static bool get_hasPaddledWithoutOar() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC5F800 Offset: 0xC5DE00 VA: 0x180C5F800
 	public static void set_hasPaddledWithoutOar(bool value) { }
 
@@ -1075,7 +1075,7 @@ public class TipPetControlWheel : BaseTip // TypeDefIndex: 11630
 
 public class TipPlaceSleepingBag : BaseTip // TypeDefIndex: 11631
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B1119C
+	public static Translate.Phrase Phrase; // 0x2B101BC
 
 	// Properties
 	public override bool ShouldShow { get; }
@@ -1156,7 +1156,7 @@ public class TipPokerWinnings : BaseTip // TypeDefIndex: 11633
 
 public class TipRads : BaseTip // TypeDefIndex: 11634
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B11160
+	public static Translate.Phrase Phrase; // 0x2B10180
 
 	// Properties
 	public float RadDuration { get; }
@@ -1245,7 +1245,7 @@ public class TipReskinObject : BaseTip // TypeDefIndex: 11636
 
 public class TipSledPlacement : BaseTip // TypeDefIndex: 11637
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B11160
+	public static Translate.Phrase Phrase; // 0x2B10180
 
 	// Properties
 	public override bool ShouldShow { get; }
@@ -1292,7 +1292,7 @@ public class TipSleepingBagPlacement : BaseTip // TypeDefIndex: 11638
 public class TipSnapAttractionPoint : BaseTip // TypeDefIndex: 11639
 {	// Fields
 	public static Translate.Phrase Phrase; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static bool <HasDismissedSnap>k__BackingField; // 0x8
 
 	// Properties
@@ -1307,11 +1307,11 @@ public class TipSnapAttractionPoint : BaseTip // TypeDefIndex: 11639
 	// RVA: 0xC628F0 Offset: 0xC60EF0 VA: 0x180C628F0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC62890 Offset: 0xC60E90 VA: 0x180C62890
 	public static bool get_HasDismissedSnap() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC62B20 Offset: 0xC61120 VA: 0x180C62B20
 	public static void set_HasDismissedSnap(bool value) { }
 
@@ -1373,7 +1373,7 @@ public class TipSprayControls : BaseTip // TypeDefIndex: 11641
 
 public class TipTooCold : BaseTip // TypeDefIndex: 11642
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B11194
+	public static Translate.Phrase Phrase; // 0x2B101B4
 
 	// Properties
 	public float ColdDuration { get; }

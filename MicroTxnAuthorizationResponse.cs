@@ -11,10 +11,10 @@ internal struct MicroTxnAuthorizationResponse_t : ICallbackData // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1EB9B0 Offset: 0x1EADB0 VA: 0x1801EB9B0 Slot: 5
+	// RVA: 0x1EB930 Offset: 0x1EAD30 VA: 0x1801EB930 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EB9A0 Offset: 0x1EADA0 VA: 0x1801EB9A0 Slot: 4
+	// RVA: 0x1EB920 Offset: 0x1EAD20 VA: 0x1801EB920 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1373ED0 Offset: 0x13724D0 VA: 0x181373ED0

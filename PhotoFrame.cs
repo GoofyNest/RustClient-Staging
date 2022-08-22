@@ -8,13 +8,13 @@ public class PhotoFrame : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 638
 
 	// Methods
 
-	// RVA: 0x1EA9AA0 Offset: 0x1EA80A0 VA: 0x181EA9AA0
+	// RVA: 0x1EA98E0 Offset: 0x1EA7EE0 VA: 0x181EA98E0
 	public static void ResetToPool(PhotoFrame instance) { }
 
-	// RVA: 0x1EA99A0 Offset: 0x1EA7FA0 VA: 0x181EA99A0
+	// RVA: 0x1EA97E0 Offset: 0x1EA7DE0 VA: 0x181EA97E0
 	public void ResetToPool() { }
 
-	// RVA: 0x1EA97F0 Offset: 0x1EA7DF0 VA: 0x181EA97F0 Slot: 9
+	// RVA: 0x1EA9630 Offset: 0x1EA7C30 VA: 0x181EA9630 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -23,64 +23,64 @@ public class PhotoFrame : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 638
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1EA85F0 Offset: 0x1EA6BF0 VA: 0x181EA85F0
+	// RVA: 0x1EA8430 Offset: 0x1EA6A30 VA: 0x181EA8430
 	public void CopyTo(PhotoFrame instance) { }
 
-	// RVA: 0x1EA8710 Offset: 0x1EA6D10 VA: 0x181EA8710
+	// RVA: 0x1EA8550 Offset: 0x1EA6B50 VA: 0x181EA8550
 	public PhotoFrame Copy() { }
 
-	// RVA: 0x1EA94A0 Offset: 0x1EA7AA0 VA: 0x181EA94A0
+	// RVA: 0x1EA92E0 Offset: 0x1EA78E0 VA: 0x181EA92E0
 	public static PhotoFrame Deserialize(Stream stream) { }
 
-	// RVA: 0x1EA8880 Offset: 0x1EA6E80 VA: 0x181EA8880
+	// RVA: 0x1EA86C0 Offset: 0x1EA6CC0 VA: 0x181EA86C0
 	public static PhotoFrame DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1EA8C00 Offset: 0x1EA7200 VA: 0x181EA8C00
+	// RVA: 0x1EA8A40 Offset: 0x1EA7040 VA: 0x181EA8A40
 	public static PhotoFrame DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1EA8F80 Offset: 0x1EA7580 VA: 0x181EA8F80
+	// RVA: 0x1EA8DC0 Offset: 0x1EA73C0 VA: 0x181EA8DC0
 	public static PhotoFrame Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1EA9960 Offset: 0x1EA7F60 VA: 0x181EA9960
+	// RVA: 0x1EA97A0 Offset: 0x1EA7DA0 VA: 0x181EA97A0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1EAA110 Offset: 0x1EA8710 VA: 0x181EAA110 Slot: 12
+	// RVA: 0x1EA9F50 Offset: 0x1EA8550 VA: 0x181EA9F50 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1EAA130 Offset: 0x1EA8730 VA: 0x181EAA130 Slot: 13
+	// RVA: 0x1EA9F70 Offset: 0x1EA8570 VA: 0x181EA9F70 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, PhotoFrame previous) { }
 
-	// RVA: 0x1EA9980 Offset: 0x1EA7F80 VA: 0x181EA9980 Slot: 14
+	// RVA: 0x1EA97C0 Offset: 0x1EA7DC0 VA: 0x181EA97C0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1EA96F0 Offset: 0x1EA7CF0 VA: 0x181EA96F0
+	// RVA: 0x1EA9530 Offset: 0x1EA7B30 VA: 0x181EA9530
 	public static PhotoFrame Deserialize(byte[] buffer, PhotoFrame instance, bool isDelta = False) { }
 
-	// RVA: 0x1EA9270 Offset: 0x1EA7870 VA: 0x181EA9270
+	// RVA: 0x1EA90B0 Offset: 0x1EA76B0 VA: 0x181EA90B0
 	public static PhotoFrame Deserialize(Stream stream, PhotoFrame instance, bool isDelta) { }
 
-	// RVA: 0x1EA8900 Offset: 0x1EA6F00 VA: 0x181EA8900
+	// RVA: 0x1EA8740 Offset: 0x1EA6D40 VA: 0x181EA8740
 	public static PhotoFrame DeserializeLengthDelimited(Stream stream, PhotoFrame instance, bool isDelta) { }
 
-	// RVA: 0x1EA8C90 Offset: 0x1EA7290 VA: 0x181EA8C90
+	// RVA: 0x1EA8AD0 Offset: 0x1EA70D0 VA: 0x181EA8AD0
 	public static PhotoFrame DeserializeLength(Stream stream, int length, PhotoFrame instance, bool isDelta) { }
 
-	// RVA: 0x1EA9BA0 Offset: 0x1EA81A0 VA: 0x181EA9BA0
+	// RVA: 0x1EA99E0 Offset: 0x1EA7FE0 VA: 0x181EA99E0
 	public static void SerializeDelta(Stream stream, PhotoFrame instance, PhotoFrame previous) { }
 
-	// RVA: 0x1EA9F50 Offset: 0x1EA8550 VA: 0x181EA9F50
+	// RVA: 0x1EA9D90 Offset: 0x1EA8390 VA: 0x181EA9D90
 	public static void Serialize(Stream stream, PhotoFrame instance) { }
 
-	// RVA: 0x1EAA100 Offset: 0x1EA8700 VA: 0x181EAA100
+	// RVA: 0x1EA9F40 Offset: 0x1EA8540 VA: 0x181EA9F40
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1EAA110 Offset: 0x1EA8710 VA: 0x181EAA110
+	// RVA: 0x1EA9F50 Offset: 0x1EA8550 VA: 0x181EA9F50
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1EA9E40 Offset: 0x1EA8440 VA: 0x181EA9E40
+	// RVA: 0x1EA9C80 Offset: 0x1EA8280 VA: 0x181EA9C80
 	public static byte[] SerializeToBytes(PhotoFrame instance) { }
 
-	// RVA: 0x1EA9D90 Offset: 0x1EA8390 VA: 0x181EA9D90
+	// RVA: 0x1EA9BD0 Offset: 0x1EA81D0 VA: 0x181EA9BD0
 	public static void SerializeLengthDelimited(Stream stream, PhotoFrame instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -148,31 +148,31 @@ public class PhotoFrame : StorageContainer, ILOD, IImageReceiver, ISignage, IUGC
 	// RVA: 0x907960 Offset: 0x905F60 VA: 0x180907960
 	private void FreeOverlayTexture() { }
 
-	[BaseEntity.Menu] // RVA: 0x7C160 Offset: 0x7B560 VA: 0x18007C160
-	[BaseEntity.Menu.Icon] // RVA: 0x7C160 Offset: 0x7B560 VA: 0x18007C160
-	[BaseEntity.Menu.Description] // RVA: 0x7C160 Offset: 0x7B560 VA: 0x18007C160
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C160 Offset: 0x7B560 VA: 0x18007C160
+	[BaseEntity.Menu] // RVA: 0x7C230 Offset: 0x7B630 VA: 0x18007C230
+	[BaseEntity.Menu.Icon] // RVA: 0x7C230 Offset: 0x7B630 VA: 0x18007C230
+	[BaseEntity.Menu.Description] // RVA: 0x7C230 Offset: 0x7B630 VA: 0x18007C230
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C230 Offset: 0x7B630 VA: 0x18007C230
 	// RVA: 0x908630 Offset: 0x906C30 VA: 0x180908630
 	public void Menu_ChangeText(BasePlayer player) { }
 
 	// RVA: 0x908F40 Offset: 0x907540 VA: 0x180908F40 Slot: 165
 	public void OnTextureWasEdited(int frame, Texture2D texture, bool fromFile = False) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x909310 Offset: 0x907910 VA: 0x180909310
 	public void RecieveOverlayTexture(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.Menu] // RVA: 0x7C470 Offset: 0x7B870 VA: 0x18007C470
-	[BaseEntity.Menu.Icon] // RVA: 0x7C470 Offset: 0x7B870 VA: 0x18007C470
-	[BaseEntity.Menu.Description] // RVA: 0x7C470 Offset: 0x7B870 VA: 0x18007C470
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C470 Offset: 0x7B870 VA: 0x18007C470
+	[BaseEntity.Menu] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
+	[BaseEntity.Menu.Icon] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
+	[BaseEntity.Menu.Description] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
 	// RVA: 0x908820 Offset: 0x906E20 VA: 0x180908820
 	public void Menu_LockSign(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7C700 Offset: 0x7BB00 VA: 0x18007C700
-	[BaseEntity.Menu.Icon] // RVA: 0x7C700 Offset: 0x7BB00 VA: 0x18007C700
-	[BaseEntity.Menu.Description] // RVA: 0x7C700 Offset: 0x7BB00 VA: 0x18007C700
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C700 Offset: 0x7BB00 VA: 0x18007C700
+	[BaseEntity.Menu] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
+	[BaseEntity.Menu.Icon] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
+	[BaseEntity.Menu.Description] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
 	// RVA: 0x908860 Offset: 0x906E60 VA: 0x180908860
 	public void Menu_UnLockSign(BasePlayer player) { }
 
@@ -233,7 +233,7 @@ public class PhotoFrame : StorageContainer, ILOD, IImageReceiver, ISignage, IUGC
 	// RVA: 0x9099E0 Offset: 0x907FE0 VA: 0x1809099E0
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x908F40 Offset: 0x907540 VA: 0x180908F40
 	private void <Menu_ChangeText>b__20_0(int frame, Texture2D texture) { }
 

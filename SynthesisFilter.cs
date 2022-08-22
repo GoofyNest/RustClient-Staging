@@ -50,88 +50,88 @@ public class SynthesisFilter // TypeDefIndex: 7397
 
 	// Methods
 
-	// RVA: 0x2266040 Offset: 0x2264640 VA: 0x182266040
+	// RVA: 0x2265E80 Offset: 0x2264480 VA: 0x182265E80
 	internal void .ctor(int channelnumber, float factor, float[] eq0) { }
 
-	// RVA: 0x226C130 Offset: 0x226A730 VA: 0x18226C130
+	// RVA: 0x226BF70 Offset: 0x226A570 VA: 0x18226BF70
 	internal void set_Eq(float[] value) { }
 
-	// RVA: 0x22656E0 Offset: 0x2263CE0 VA: 0x1822656E0
+	// RVA: 0x2265520 Offset: 0x2263B20 VA: 0x182265520
 	private void InitBlock() { }
 
-	// RVA: 0x2265730 Offset: 0x2263D30 VA: 0x182265730
+	// RVA: 0x2265570 Offset: 0x2263B70 VA: 0x182265570
 	internal void Reset() { }
 
-	// RVA: 0x22631E0 Offset: 0x22617E0 VA: 0x1822631E0
+	// RVA: 0x2263020 Offset: 0x2261620 VA: 0x182263020
 	internal void AddSample(float sample, int subbandnumber) { }
 
-	// RVA: 0x2263240 Offset: 0x2261840 VA: 0x182263240
+	// RVA: 0x2263080 Offset: 0x2261680 VA: 0x182263080
 	internal void AddSamples(float[] s) { }
 
-	// RVA: 0x22632D0 Offset: 0x22618D0 VA: 0x1822632D0
+	// RVA: 0x2263110 Offset: 0x2261710 VA: 0x182263110
 	private void ComputeNewValues() { }
 
-	// RVA: 0x22666A0 Offset: 0x2264CA0 VA: 0x1822666A0
+	// RVA: 0x22664E0 Offset: 0x2264AE0 VA: 0x1822664E0
 	private void compute_pc_samples0(ABuffer buffer) { }
 
-	// RVA: 0x2268A40 Offset: 0x2267040 VA: 0x182268A40
+	// RVA: 0x2268880 Offset: 0x2266E80 VA: 0x182268880
 	private void compute_pc_samples1(ABuffer buffer) { }
 
-	// RVA: 0x2269030 Offset: 0x2267630 VA: 0x182269030
+	// RVA: 0x2268E70 Offset: 0x2267470 VA: 0x182268E70
 	private void compute_pc_samples2(ABuffer buffer) { }
 
-	// RVA: 0x2269620 Offset: 0x2267C20 VA: 0x182269620
+	// RVA: 0x2269460 Offset: 0x2267A60 VA: 0x182269460
 	private void compute_pc_samples3(ABuffer buffer) { }
 
-	// RVA: 0x2269C10 Offset: 0x2268210 VA: 0x182269C10
+	// RVA: 0x2269A50 Offset: 0x2268050 VA: 0x182269A50
 	private void compute_pc_samples4(ABuffer buffer) { }
 
-	// RVA: 0x226A200 Offset: 0x2268800 VA: 0x18226A200
+	// RVA: 0x226A040 Offset: 0x2268640 VA: 0x18226A040
 	private void compute_pc_samples5(ABuffer buffer) { }
 
-	// RVA: 0x226A7F0 Offset: 0x2268DF0 VA: 0x18226A7F0
+	// RVA: 0x226A630 Offset: 0x2268C30 VA: 0x18226A630
 	private void compute_pc_samples6(ABuffer buffer) { }
 
-	// RVA: 0x226ADE0 Offset: 0x22693E0 VA: 0x18226ADE0
+	// RVA: 0x226AC20 Offset: 0x2269220 VA: 0x18226AC20
 	private void compute_pc_samples7(ABuffer buffer) { }
 
-	// RVA: 0x226B3D0 Offset: 0x22699D0 VA: 0x18226B3D0
+	// RVA: 0x226B210 Offset: 0x2269810 VA: 0x18226B210
 	private void compute_pc_samples8(ABuffer buffer) { }
 
-	// RVA: 0x226B9C0 Offset: 0x2269FC0 VA: 0x18226B9C0
+	// RVA: 0x226B800 Offset: 0x2269E00 VA: 0x18226B800
 	private void compute_pc_samples9(ABuffer buffer) { }
 
-	// RVA: 0x2266C90 Offset: 0x2265290 VA: 0x182266C90
+	// RVA: 0x2266AD0 Offset: 0x22650D0 VA: 0x182266AD0
 	private void compute_pc_samples10(ABuffer buffer) { }
 
-	// RVA: 0x2267280 Offset: 0x2265880 VA: 0x182267280
+	// RVA: 0x22670C0 Offset: 0x22656C0 VA: 0x1822670C0
 	private void compute_pc_samples11(ABuffer buffer) { }
 
-	// RVA: 0x2267870 Offset: 0x2265E70 VA: 0x182267870
+	// RVA: 0x22676B0 Offset: 0x2265CB0 VA: 0x1822676B0
 	private void compute_pc_samples12(ABuffer buffer) { }
 
-	// RVA: 0x2267E60 Offset: 0x2266460 VA: 0x182267E60
+	// RVA: 0x2267CA0 Offset: 0x22662A0 VA: 0x182267CA0
 	private void compute_pc_samples13(ABuffer buffer) { }
 
-	// RVA: 0x2268450 Offset: 0x2266A50 VA: 0x182268450
+	// RVA: 0x2268290 Offset: 0x2266890 VA: 0x182268290
 	private void compute_pc_samples14(ABuffer buffer) { }
 
-	// RVA: 0x22650F0 Offset: 0x22636F0 VA: 0x1822650F0
+	// RVA: 0x2264F30 Offset: 0x2263530 VA: 0x182264F30
 	private void Compute_pc_samples15(ABuffer buffer) { }
 
-	// RVA: 0x226BFB0 Offset: 0x226A5B0 VA: 0x18226BFB0
+	// RVA: 0x226BDF0 Offset: 0x226A3F0 VA: 0x18226BDF0
 	private void compute_pc_samples(ABuffer buffer) { }
 
-	// RVA: 0x2266480 Offset: 0x2264A80 VA: 0x182266480
+	// RVA: 0x22662C0 Offset: 0x22648C0 VA: 0x1822662C0
 	internal void calculate_pc_samples(ABuffer buffer) { }
 
-	// RVA: 0x22657F0 Offset: 0x2263DF0 VA: 0x1822657F0
+	// RVA: 0x2265630 Offset: 0x2263C30 VA: 0x182265630
 	private static float[][] SplitArray(float[] array, int blockSize) { }
 
-	// RVA: 0x2265910 Offset: 0x2263F10 VA: 0x182265910
+	// RVA: 0x2265750 Offset: 0x2263D50 VA: 0x182265750
 	private static float[] SubArray(float[] array, int offs, int len) { }
 
-	// RVA: 0x22659F0 Offset: 0x2263FF0 VA: 0x1822659F0
+	// RVA: 0x2265830 Offset: 0x2263E30 VA: 0x182265830
 	private static void .cctor() { }
 
 }

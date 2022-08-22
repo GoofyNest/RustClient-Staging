@@ -58,7 +58,7 @@ public class RCMenu : ComputerMenu // TypeDefIndex: 8687
 	// RVA: 0x69D950 Offset: 0x69BF50 VA: 0x18069D950
 	public void DelayedLODRefresh() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xB9EA0 Offset: 0xB92A0 VA: 0x1800B9EA0
+	[IteratorStateMachineAttribute] // RVA: 0xB9F40 Offset: 0xB9340 VA: 0x1800B9F40
 	// RVA: 0x69E2A0 Offset: 0x69C8A0 VA: 0x18069E2A0
 	private IEnumerator RefreshLODs() { }
 
@@ -108,26 +108,26 @@ private sealed class RCMenu.<RefreshLODs>d__31 : IEnumerator<object>, IEnumerato
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x6ACDC0 Offset: 0x6AB3C0 VA: 0x1806ACDC0 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6AD120 Offset: 0x6AB720 VA: 0x1806AD120 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 

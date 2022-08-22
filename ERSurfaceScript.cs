@@ -1,7 +1,7 @@
 public class ERSurfaceScript : MonoBehaviour // TypeDefIndex: 7167
 {
 // Namespace: 
-[AddComponentMenu] // RVA: 0x7D850 Offset: 0x7CC50 VA: 0x18007D850
+[AddComponentMenu] // RVA: 0x7D920 Offset: 0x7CD20 VA: 0x18007D920
 public class ERSurfaceScript : MonoBehaviour // TypeDefIndex: 7167
 	// Methods
 

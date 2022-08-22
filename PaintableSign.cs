@@ -7,13 +7,13 @@ public class PaintableSign : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1F918A0 Offset: 0x1F8FEA0 VA: 0x181F918A0
+	// RVA: 0x1F916E0 Offset: 0x1F8FCE0 VA: 0x181F916E0
 	public static void ResetToPool(PaintableSign instance) { }
 
-	// RVA: 0x1F91750 Offset: 0x1F8FD50 VA: 0x181F91750
+	// RVA: 0x1F91590 Offset: 0x1F8FB90 VA: 0x181F91590
 	public void ResetToPool() { }
 
-	// RVA: 0x1F91550 Offset: 0x1F8FB50 VA: 0x181F91550 Slot: 9
+	// RVA: 0x1F91390 Offset: 0x1F8F990 VA: 0x181F91390 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -22,64 +22,64 @@ public class PaintableSign : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F90680 Offset: 0x1F8EC80 VA: 0x181F90680
+	// RVA: 0x1F904C0 Offset: 0x1F8EAC0 VA: 0x181F904C0
 	public void CopyTo(PaintableSign instance) { }
 
-	// RVA: 0x1F90880 Offset: 0x1F8EE80 VA: 0x181F90880
+	// RVA: 0x1F906C0 Offset: 0x1F8ECC0 VA: 0x181F906C0
 	public PaintableSign Copy() { }
 
-	// RVA: 0x1F91280 Offset: 0x1F8F880 VA: 0x181F91280
+	// RVA: 0x1F910C0 Offset: 0x1F8F6C0 VA: 0x181F910C0
 	public static PaintableSign Deserialize(Stream stream) { }
 
-	// RVA: 0x1F90C30 Offset: 0x1F8F230 VA: 0x181F90C30
+	// RVA: 0x1F90A70 Offset: 0x1F8F070 VA: 0x181F90A70
 	public static PaintableSign DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F90CB0 Offset: 0x1F8F2B0 VA: 0x181F90CB0
+	// RVA: 0x1F90AF0 Offset: 0x1F8F0F0 VA: 0x181F90AF0
 	public static PaintableSign DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F91160 Offset: 0x1F8F760 VA: 0x181F91160
+	// RVA: 0x1F90FA0 Offset: 0x1F8F5A0 VA: 0x181F90FA0
 	public static PaintableSign Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F91710 Offset: 0x1F8FD10 VA: 0x181F91710
+	// RVA: 0x1F91550 Offset: 0x1F8FB50 VA: 0x181F91550
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F91F80 Offset: 0x1F90580 VA: 0x181F91F80 Slot: 12
+	// RVA: 0x1F91DC0 Offset: 0x1F903C0 VA: 0x181F91DC0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F91FA0 Offset: 0x1F905A0 VA: 0x181F91FA0 Slot: 13
+	// RVA: 0x1F91DE0 Offset: 0x1F903E0 VA: 0x181F91DE0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, PaintableSign previous) { }
 
-	// RVA: 0x1F91730 Offset: 0x1F8FD30 VA: 0x181F91730 Slot: 14
+	// RVA: 0x1F91570 Offset: 0x1F8FB70 VA: 0x181F91570 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F91060 Offset: 0x1F8F660 VA: 0x181F91060
+	// RVA: 0x1F90EA0 Offset: 0x1F8F4A0 VA: 0x181F90EA0
 	public static PaintableSign Deserialize(byte[] buffer, PaintableSign instance, bool isDelta = False) { }
 
-	// RVA: 0x1F91300 Offset: 0x1F8F900 VA: 0x181F91300
+	// RVA: 0x1F91140 Offset: 0x1F8F740 VA: 0x181F91140
 	public static PaintableSign Deserialize(Stream stream, PaintableSign instance, bool isDelta) { }
 
-	// RVA: 0x1F90900 Offset: 0x1F8EF00 VA: 0x181F90900
+	// RVA: 0x1F90740 Offset: 0x1F8ED40 VA: 0x181F90740
 	public static PaintableSign DeserializeLengthDelimited(Stream stream, PaintableSign instance, bool isDelta) { }
 
-	// RVA: 0x1F90D40 Offset: 0x1F8F340 VA: 0x181F90D40
+	// RVA: 0x1F90B80 Offset: 0x1F8F180 VA: 0x181F90B80
 	public static PaintableSign DeserializeLength(Stream stream, int length, PaintableSign instance, bool isDelta) { }
 
-	// RVA: 0x1F919F0 Offset: 0x1F8FFF0 VA: 0x181F919F0
+	// RVA: 0x1F91830 Offset: 0x1F8FE30 VA: 0x181F91830
 	public static void SerializeDelta(Stream stream, PaintableSign instance, PaintableSign previous) { }
 
-	// RVA: 0x1F91D90 Offset: 0x1F90390 VA: 0x181F91D90
+	// RVA: 0x1F91BD0 Offset: 0x1F901D0 VA: 0x181F91BD0
 	public static void Serialize(Stream stream, PaintableSign instance) { }
 
-	// RVA: 0x1F91F70 Offset: 0x1F90570 VA: 0x181F91F70
+	// RVA: 0x1F91DB0 Offset: 0x1F903B0 VA: 0x181F91DB0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F91F80 Offset: 0x1F90580 VA: 0x181F91F80
+	// RVA: 0x1F91DC0 Offset: 0x1F903C0 VA: 0x181F91DC0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F91C80 Offset: 0x1F90280 VA: 0x181F91C80
+	// RVA: 0x1F91AC0 Offset: 0x1F900C0 VA: 0x181F91AC0
 	public static byte[] SerializeToBytes(PaintableSign instance) { }
 
-	// RVA: 0x1F91BD0 Offset: 0x1F901D0 VA: 0x181F91BD0
+	// RVA: 0x1F91A10 Offset: 0x1F90010 VA: 0x181F91A10
 	public static void SerializeLengthDelimited(Stream stream, PaintableSign instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80

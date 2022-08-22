@@ -7,7 +7,7 @@ public struct NoiseParameters // TypeDefIndex: 10291
 
 	// Methods
 
-	// RVA: 0xFAF60 Offset: 0xFA360 VA: 0x1800FAF60
+	// RVA: 0xFAEE0 Offset: 0xFA2E0 VA: 0x1800FAEE0
 	public void .ctor(int octaves, float frequency, float amplitude, float offset) { }
 
 }

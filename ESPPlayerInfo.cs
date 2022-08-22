@@ -10,10 +10,10 @@ public class ESPPlayerInfo : MonoBehaviour // TypeDefIndex: 12006
 	public Color AllyColor; // 0x60
 	public Color EnemyColor; // 0x70
 	public QueryVis visCheck; // 0x80
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BasePlayer <Entity>k__BackingField; // 0x88
-	[ClientVar] // RVA: 0xCBE20 Offset: 0xCB220 VA: 0x1800CBE20
-	[HelpAttribute] // RVA: 0xCBE20 Offset: 0xCB220 VA: 0x1800CBE20
+	[ClientVar] // RVA: 0xCBEB0 Offset: 0xCB2B0 VA: 0x1800CBEB0
+	[HelpAttribute] // RVA: 0xCBEB0 Offset: 0xCB2B0 VA: 0x1800CBEB0
 	public static float framebudgetms; // 0x0
 	private bool inQueue; // 0x90
 	public static ESPPlayerInfo.ESPWorkQueue workQueue; // 0x8
@@ -26,11 +26,11 @@ public class ESPPlayerInfo : MonoBehaviour // TypeDefIndex: 12006
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
 	public BasePlayer get_Entity() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
 	public void set_Entity(BasePlayer value) { }
 

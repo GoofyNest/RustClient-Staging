@@ -138,7 +138,7 @@ internal class WebConnection // TypeDefIndex: 3027
 	// RVA: 0x1188650 Offset: 0x1186C50 VA: 0x181188650
 	internal void set_UnsafeAuthenticatedConnectionSharing(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1188100 Offset: 0x1186700 VA: 0x181188100
 	private void <SendRequest>b__41_0(object o) { }
 

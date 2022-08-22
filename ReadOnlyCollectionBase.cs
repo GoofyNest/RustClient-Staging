@@ -1,7 +1,7 @@
 public abstract class ReadOnlyCollectionBase : ICollection, IEnumerable // TypeDefIndex: 1416
 {
 // Namespace: System.Collections
-[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 [Serializable]
 public abstract class ReadOnlyCollectionBase : ICollection, IEnumerable // TypeDefIndex: 1416
 	// Fields

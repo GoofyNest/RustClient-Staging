@@ -29,7 +29,7 @@ public abstract class HttpHeaders : IEnumerable<KeyValuePair<string, IEnumerable
 	// RVA: 0x108C5B0 Offset: 0x108ABB0 VA: 0x18108C5B0
 	private bool TryCheckName(string name, out HeaderInfo headerInfo) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD9CD0 Offset: 0xD90D0 VA: 0x1800D9CD0
+	[IteratorStateMachineAttribute] // RVA: 0xD9CE0 Offset: 0xD90E0 VA: 0x1800D9CE0
 	// RVA: 0x108BBE0 Offset: 0x108A1E0 VA: 0x18108BBE0 Slot: 4
 	public IEnumerator<KeyValuePair<string, IEnumerable<string>>> GetEnumerator() { }
 
@@ -138,11 +138,11 @@ private sealed class HttpHeaders.<GetEnumerator>d__19 : IEnumerator<KeyValuePair
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x10984C0 Offset: 0x1096AC0 VA: 0x1810984C0 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
@@ -152,15 +152,15 @@ private sealed class HttpHeaders.<GetEnumerator>d__19 : IEnumerator<KeyValuePair
 	// RVA: 0x1098560 Offset: 0x1096B60 VA: 0x181098560
 	private void <>m__Finally1() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xB11230 Offset: 0xB0F830 VA: 0x180B11230 Slot: 4
 	private KeyValuePair<string, IEnumerable<string>> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Collections.Generic.IEnumerable<System.String>>>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1098420 Offset: 0x1096A20 VA: 0x181098420 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1098470 Offset: 0x1096A70 VA: 0x181098470 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 

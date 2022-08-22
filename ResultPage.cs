@@ -15,14 +15,14 @@ public struct ResultPage : IDisposable // TypeDefIndex: 5281
 
 	// Methods
 
-	[IteratorStateMachineAttribute] // RVA: 0x9F780 Offset: 0x9EB80 VA: 0x18009F780
-	// RVA: 0x224BB0 Offset: 0x223FB0 VA: 0x180224BB0
+	[IteratorStateMachineAttribute] // RVA: 0x9F810 Offset: 0x9EC10 VA: 0x18009F810
+	// RVA: 0x224B30 Offset: 0x223F30 VA: 0x180224B30
 	public IEnumerable<Item> get_Entries() { }
 
-	// RVA: 0x224BA0 Offset: 0x223FA0 VA: 0x180224BA0
+	// RVA: 0x224B20 Offset: 0x223F20 VA: 0x180224B20
 	private ulong GetStat(uint index, ItemStatistic stat) { }
 
-	// RVA: 0x224B50 Offset: 0x223F50 VA: 0x180224B50 Slot: 4
+	// RVA: 0x224AD0 Offset: 0x223ED0 VA: 0x180224AD0 Slot: 4
 	public void Dispose() { }
 
 }
@@ -43,35 +43,35 @@ private sealed class ResultPage.<get_Entries>d__10 : IEnumerable<Item>, IEnumera
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E0EB0 Offset: 0x19DF4B0 VA: 0x1819E0EB0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E0E70 Offset: 0x19DF470 VA: 0x1819E0E70
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x19E0510 Offset: 0x19DEB10 VA: 0x1819E0510 Slot: 8
+	// RVA: 0x19E04D0 Offset: 0x19DEAD0 VA: 0x1819E04D0 Slot: 8
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x176D430 Offset: 0x176BA30 VA: 0x18176D430 Slot: 6
 	private Item System.Collections.Generic.IEnumerator<Steamworks.Ugc.Item>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E0D90 Offset: 0x19DF390 VA: 0x1819E0D90 Slot: 10
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E0D50 Offset: 0x19DF350 VA: 0x1819E0D50 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E0DE0 Offset: 0x19DF3E0 VA: 0x1819E0DE0 Slot: 9
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E0DA0 Offset: 0x19DF3A0 VA: 0x1819E0DA0 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E0CE0 Offset: 0x19DF2E0 VA: 0x1819E0CE0 Slot: 4
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E0CA0 Offset: 0x19DF2A0 VA: 0x1819E0CA0 Slot: 4
 	private IEnumerator<Item> System.Collections.Generic.IEnumerable<Steamworks.Ugc.Item>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E0CE0 Offset: 0x19DF2E0 VA: 0x1819E0CE0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E0CA0 Offset: 0x19DF2A0 VA: 0x1819E0CA0 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }

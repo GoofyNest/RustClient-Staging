@@ -3,9 +3,9 @@ public class SantaSleigh : BaseEntity // TypeDefIndex: 8636
 	public GameObjectRef prefabDrop; // 0x168
 	public SpawnFilter filter; // 0x170
 	public Transform dropOrigin; // 0x178
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float altitudeAboveTerrain; // 0x0
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float desiredAltitude; // 0x4
 	public Light bigLight; // 0x180
 	public SoundPlayer hohoho; // 0x188
@@ -17,7 +17,7 @@ public class SantaSleigh : BaseEntity // TypeDefIndex: 8636
 	// RVA: 0x49F770 Offset: 0x49DD70 VA: 0x18049F770 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49F740 Offset: 0x49DD40 VA: 0x18049F740
 	public void ClientPlayHoHoHo() { }
 

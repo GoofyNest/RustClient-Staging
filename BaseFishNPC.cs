@@ -14,9 +14,9 @@ public class BaseFishNPC : BaseNpc, IAIAttack, IAISenses // TypeDefIndex: 8324
 	// RVA: 0x7E7C80 Offset: 0x7E6280 VA: 0x1807E7C80 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	[BaseEntity.Menu] // RVA: 0x83110 Offset: 0x82510 VA: 0x180083110
-	[BaseEntity.Menu.Description] // RVA: 0x83110 Offset: 0x82510 VA: 0x180083110
-	[BaseEntity.Menu.ShowIf] // RVA: 0x83110 Offset: 0x82510 VA: 0x180083110
+	[BaseEntity.Menu] // RVA: 0x831D0 Offset: 0x825D0 VA: 0x1800831D0
+	[BaseEntity.Menu.Description] // RVA: 0x831D0 Offset: 0x825D0 VA: 0x1800831D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x831D0 Offset: 0x825D0 VA: 0x1800831D0
 	// RVA: 0x7E7B50 Offset: 0x7E6150 VA: 0x1807E7B50
 	public void MenuDesignAI(BasePlayer ply) { }
 

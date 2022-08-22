@@ -5,7 +5,7 @@ internal struct Coord // TypeDefIndex: 424
 
 	// Methods
 
-	// RVA: 0x14B650 Offset: 0x14AA50 VA: 0x18014B650
+	// RVA: 0x14B5D0 Offset: 0x14A9D0 VA: 0x18014B5D0
 	public void .ctor(int x, int y) { }
 
 }

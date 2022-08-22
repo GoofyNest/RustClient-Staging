@@ -3,9 +3,9 @@ public class LightGroupAtTime : FacepunchBehaviour // TypeDefIndex: 9197
 	public float IntensityOverride; // 0x18
 	public AnimationCurve IntensityScaleOverTime; // 0x20
 	public Transform SearchRoot; // 0x28
-	[HeaderAttribute] // RVA: 0xD8F00 Offset: 0xD8300 VA: 0x1800D8F00
+	[HeaderAttribute] // RVA: 0xD8FA0 Offset: 0xD83A0 VA: 0x1800D8FA0
 	public bool requiresPower; // 0x30
-	[TooltipAttribute] // RVA: 0xD9140 Offset: 0xD8540 VA: 0x1800D9140
+	[TooltipAttribute] // RVA: 0xD9200 Offset: 0xD8600 VA: 0x1800D9200
 	public Transform powerOverrideTransform; // 0x38
 	private List<KeyValuePair<Light, float>> lights; // 0x40
 	private List<KeyValuePair<AmbientLightLOD, float>> lightLODs; // 0x48

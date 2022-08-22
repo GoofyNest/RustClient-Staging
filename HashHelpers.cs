@@ -15,7 +15,7 @@ internal static class HashHelpers // TypeDefIndex: 747
 internal static class HashHelpers // TypeDefIndex: 1396
 {
 // Namespace: System.Collections
-[FriendAccessAllowedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal static class HashHelpers // TypeDefIndex: 1396
 	// Fields
 	public static readonly int[] primes; // 0x0
@@ -29,11 +29,11 @@ internal static class HashHelpers // TypeDefIndex: 1396
 	// RVA: 0x145FA60 Offset: 0x145E060 VA: 0x18145FA60
 	internal static ConditionalWeakTable<object, SerializationInfo> get_SerializationInfoTable() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x145F950 Offset: 0x145DF50 VA: 0x18145F950
 	public static bool IsPrime(int candidate) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x145F7B0 Offset: 0x145DDB0 VA: 0x18145F7B0
 	public static int GetPrime(int min) { }
 

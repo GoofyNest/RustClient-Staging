@@ -21,22 +21,22 @@ internal static class ASN1Convert // TypeDefIndex: 46
 public static class ASN1Convert // TypeDefIndex: 1705
 {	// Methods
 
-	// RVA: 0x1AAC7C0 Offset: 0x1AAADC0 VA: 0x181AAC7C0
+	// RVA: 0x1AAC600 Offset: 0x1AAAC00 VA: 0x181AAC600
 	public static ASN1 FromInt32(int value) { }
 
-	// RVA: 0x1AACA20 Offset: 0x1AAB020 VA: 0x181AACA20
+	// RVA: 0x1AAC860 Offset: 0x1AAAE60 VA: 0x181AAC860
 	public static ASN1 FromOid(string oid) { }
 
-	// RVA: 0x1AACAC0 Offset: 0x1AAB0C0 VA: 0x181AACAC0
+	// RVA: 0x1AAC900 Offset: 0x1AAAF00 VA: 0x181AAC900
 	public static ASN1 FromUnsignedBigInteger(byte[] big) { }
 
-	// RVA: 0x1AAD1D0 Offset: 0x1AAB7D0 VA: 0x181AAD1D0
+	// RVA: 0x1AAD010 Offset: 0x1AAB610 VA: 0x181AAD010
 	public static int ToInt32(ASN1 asn1) { }
 
-	// RVA: 0x1AAD370 Offset: 0x1AAB970 VA: 0x181AAD370
+	// RVA: 0x1AAD1B0 Offset: 0x1AAB7B0 VA: 0x181AAD1B0
 	public static string ToOid(ASN1 asn1) { }
 
-	// RVA: 0x1AACBC0 Offset: 0x1AAB1C0 VA: 0x181AACBC0
+	// RVA: 0x1AACA00 Offset: 0x1AAB000 VA: 0x181AACA00
 	public static DateTime ToDateTime(ASN1 time) { }
 
 }

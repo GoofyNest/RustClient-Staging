@@ -3,7 +3,7 @@ public class VirtualScroll : MonoBehaviour // TypeDefIndex: 12001
 	public int ItemHeight; // 0x18
 	public int ItemSpacing; // 0x1C
 	public RectOffset Padding; // 0x20
-	[TooltipAttribute] // RVA: 0xCB030 Offset: 0xCA430 VA: 0x1800CB030
+	[TooltipAttribute] // RVA: 0xCB0F0 Offset: 0xCA4F0 VA: 0x1800CB0F0
 	public GameObject DataSourceObject; // 0x28
 	public GameObject SourceObject; // 0x30
 	public ScrollRect ScrollRect; // 0x38

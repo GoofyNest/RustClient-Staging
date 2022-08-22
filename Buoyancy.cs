@@ -8,9 +8,9 @@ public class Buoyancy : ListComponent<Buoyancy>, IServerComponent // TypeDefInde
 	public float flowMovementScale; // 0x38
 	public float requiredSubmergedFraction; // 0x3C
 	public bool useUnderwaterDrag; // 0x40
-	[RangeAttribute] // RVA: 0x84490 Offset: 0x83890 VA: 0x180084490
+	[RangeAttribute] // RVA: 0x84500 Offset: 0x83900 VA: 0x180084500
 	public float underwaterDrag; // 0x44
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <timeOutOfWater>k__BackingField; // 0x48
 	public Action<bool> SubmergedChanged; // 0x50
 	public BaseEntity forEntity; // 0x58
@@ -21,11 +21,11 @@ public class Buoyancy : ListComponent<Buoyancy>, IServerComponent // TypeDefInde
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6F0650 Offset: 0x6EEC50 VA: 0x1806F0650
 	public float get_timeOutOfWater() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6F0660 Offset: 0x6EEC60 VA: 0x1806F0660
 	private void set_timeOutOfWater(float value) { }
 

@@ -64,7 +64,7 @@ public sealed class DirectoryInfo : FileSystemInfo // TypeDefIndex: 661
 	// RVA: 0x1379610 Offset: 0x1377C10 VA: 0x181379610
 	public IEnumerable<FileInfo> EnumerateFiles(string searchPattern, SearchOption searchOption) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA5970 Offset: 0xA4D70 VA: 0x1800A5970
+	[IteratorStateMachineAttribute] // RVA: 0xA5680 Offset: 0xA4A80 VA: 0x1800A5680
 	// RVA: 0x13793B0 Offset: 0x13779B0 VA: 0x1813793B0
 	private IEnumerable<FileInfo> CreateEnumerateFilesIterator(string searchPattern, SearchOption searchOption) { }
 
@@ -91,11 +91,11 @@ private sealed class DirectoryInfo.<CreateEnumerateFilesIterator>d__43 : IEnumer
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD87490 Offset: 0xD85A90 VA: 0x180D87490
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1391AC0 Offset: 0x13900C0 VA: 0x181391AC0 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
@@ -105,23 +105,23 @@ private sealed class DirectoryInfo.<CreateEnumerateFilesIterator>d__43 : IEnumer
 	// RVA: 0x1391B70 Offset: 0x1390170 VA: 0x181391B70
 	private void <>m__Finally1() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 6
 	private FileInfo System.Collections.Generic.IEnumerator<System.IO.FileInfo>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1391A70 Offset: 0x1390070 VA: 0x181391A70 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13919B0 Offset: 0x138FFB0 VA: 0x1813919B0 Slot: 4
 	private IEnumerator<FileInfo> System.Collections.Generic.IEnumerable<System.IO.FileInfo>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13919B0 Offset: 0x138FFB0 VA: 0x1813919B0 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 

@@ -4,123 +4,123 @@ public class BaseSubmarine : BaseVehicle, IEngineControllerUser, IEntity, IAirSu
 	private Option __menuOption_Menu_ItemStorage; // 0x410
 	private Option __menuOption_Menu_Push; // 0x468
 	private Option __menuOption_Menu_TorpedoStorage; // 0x4C0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <PropPercentVelocity>k__BackingField; // 0x518
 	private bool runningClientTick; // 0x51C
 	private bool playedDiveBubbles; // 0x51D
 	private bool playedWindowFilm; // 0x51E
 	private float baseAlphaInside; // 0x520
 	private float baseAlphaOutside; // 0x524
-	[HeaderAttribute] // RVA: 0xC6220 Offset: 0xC5620 VA: 0x1800C6220
-	[SerializeField] // RVA: 0xC6220 Offset: 0xC5620 VA: 0x1800C6220
+	[HeaderAttribute] // RVA: 0xC62B0 Offset: 0xC56B0 VA: 0x1800C62B0
+	[SerializeField] // RVA: 0xC62B0 Offset: 0xC56B0 VA: 0x1800C62B0
 	private Transform centreOfMassTransform; // 0x528
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Buoyancy buoyancy; // 0x530
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float maxRudderAngle; // 0x538
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform rudderVisualTransform; // 0x540
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform rudderDetailedColliderTransform; // 0x548
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform propellerTransform; // 0x550
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float timeUntilAutoSurface; // 0x558
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Renderer[] interiorRenderers; // 0x560
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SonarObject sonarObject; // 0x568
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BaseSubmarine.ParentTriggerInfo[] parentTriggers; // 0x570
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GameObjectRef fuelStoragePrefab; // 0x578
-	[HeaderAttribute] // RVA: 0xC69F0 Offset: 0xC5DF0 VA: 0x1800C69F0
-	[SerializeField] // RVA: 0xC69F0 Offset: 0xC5DF0 VA: 0x1800C69F0
+	[HeaderAttribute] // RVA: 0xC6A80 Offset: 0xC5E80 VA: 0x1800C6A80
+	[SerializeField] // RVA: 0xC6A80 Offset: 0xC5E80 VA: 0x1800C6A80
 	private float engineKW; // 0x580
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float turnPower; // 0x584
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float engineStartupTime; // 0x588
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GameObjectRef itemStoragePrefab; // 0x590
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float depthChangeTargetSpeed; // 0x598
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float idleFuelPerSec; // 0x59C
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float maxFuelPerSec; // 0x5A0
-	[FormerlySerializedAsAttribute] // RVA: 0xC6E10 Offset: 0xC6210 VA: 0x1800C6E10
-	[SerializeField] // RVA: 0xC6E10 Offset: 0xC6210 VA: 0x1800C6E10
+	[FormerlySerializedAsAttribute] // RVA: 0xC6EA0 Offset: 0xC62A0 VA: 0x1800C6EA0
+	[SerializeField] // RVA: 0xC6EA0 Offset: 0xC62A0 VA: 0x1800C6EA0
 	private bool internalAccessStorage; // 0x5A4
-	[HeaderAttribute] // RVA: 0xC6F70 Offset: 0xC6370 VA: 0x1800C6F70
-	[SerializeField] // RVA: 0xC6F70 Offset: 0xC6370 VA: 0x1800C6F70
+	[HeaderAttribute] // RVA: 0xC7000 Offset: 0xC6400 VA: 0x1800C7000
+	[SerializeField] // RVA: 0xC7000 Offset: 0xC6400 VA: 0x1800C7000
 	private GameObjectRef torpedoStoragePrefab; // 0x5A8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform torpedoFiringPoint; // 0x5B0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float maxFireRate; // 0x5B8
-	[HeaderAttribute] // RVA: 0xC87E0 Offset: 0xC7BE0 VA: 0x1800C87E0
-	[SerializeField] // RVA: 0xC87E0 Offset: 0xC7BE0 VA: 0x1800C87E0
+	[HeaderAttribute] // RVA: 0xC8870 Offset: 0xC7C70 VA: 0x1800C8870
+	[SerializeField] // RVA: 0xC8870 Offset: 0xC7C70 VA: 0x1800C8870
 	protected SubmarineAudio submarineAudio; // 0x5C0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem fxTorpedoFire; // 0x5C8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GameObject internalFXContainer; // 0x5D0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GameObject internalOnFXContainer; // 0x5D8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem fxIntAmbientBubbleLoop; // 0x5E0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem fxIntInitialDiveBubbles; // 0x5E8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem fxIntWaterDropSpray; // 0x5F0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem fxIntWindowFilm; // 0x5F8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystemContainer fxIntMediumDamage; // 0x600
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystemContainer fxIntHeavyDamage; // 0x608
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GameObject externalFXContainer; // 0x610
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GameObject externalOnFXContainer; // 0x618
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem fxExtAmbientBubbleLoop; // 0x620
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem fxExtInitialDiveBubbles; // 0x628
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem fxExtAboveWaterEngineThrustForward; // 0x630
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem fxExtAboveWaterEngineThrustReverse; // 0x638
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem fxExtUnderWaterEngineThrustForward; // 0x640
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem[] fxExtUnderWaterEngineThrustForwardSubs; // 0x648
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem fxExtUnderWaterEngineThrustReverse; // 0x650
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem[] fxExtUnderWaterEngineThrustReverseSubs; // 0x658
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem fxExtBowWave; // 0x660
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem fxExtWakeEffect; // 0x668
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GameObjectRef aboveWatercollisionEffect; // 0x670
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GameObjectRef underWatercollisionEffect; // 0x678
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private VolumetricLightBeam spotlightVolumetrics; // 0x680
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float mountedAlphaInside; // 0x688
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float mountedAlphaOutside; // 0x68C
-	[ServerVar] // RVA: 0xCA310 Offset: 0xC9710 VA: 0x1800CA310
+	[ServerVar] // RVA: 0xCA3A0 Offset: 0xC97A0 VA: 0x1800CA3A0
 	public static float outsidedecayminutes; // 0x0
-	[ServerVar] // RVA: 0xCA350 Offset: 0xC9750 VA: 0x1800CA350
+	[ServerVar] // RVA: 0xCA3E0 Offset: 0xC97E0 VA: 0x1800CA3E0
 	public static float deepwaterdecayminutes; // 0x4
-	[ServerVar] // RVA: 0xCA420 Offset: 0xC9820 VA: 0x1800CA420
+	[ServerVar] // RVA: 0xCA4B0 Offset: 0xC98B0 VA: 0x1800CA4B0
 	public static float oxygenminutes; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Vector3 <Velocity>k__BackingField; // 0x690
 	public const BaseEntity.Flags Flag_Ammo = 16384;
 	private float _throttle; // 0x69C
@@ -163,11 +163,11 @@ public class BaseSubmarine : BaseVehicle, IEngineControllerUser, IEntity, IAirSu
 	// RVA: 0x92F610 Offset: 0x92DC10 VA: 0x18092F610 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x931C40 Offset: 0x930240 VA: 0x180931C40
 	public float get_PropPercentVelocity() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x931D70 Offset: 0x930370 VA: 0x180931D70
 	private void set_PropPercentVelocity(float value) { }
 
@@ -207,56 +207,56 @@ public class BaseSubmarine : BaseVehicle, IEngineControllerUser, IEntity, IAirSu
 	// RVA: 0x930AB0 Offset: 0x92F0B0 VA: 0x180930AB0 Slot: 199
 	protected virtual void TorpedoFired() { }
 
-	[BaseEntity.Menu] // RVA: 0x73DF0 Offset: 0x731F0 VA: 0x180073DF0
-	[BaseEntity.Menu.Description] // RVA: 0x73DF0 Offset: 0x731F0 VA: 0x180073DF0
-	[BaseEntity.Menu.Icon] // RVA: 0x73DF0 Offset: 0x731F0 VA: 0x180073DF0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x73DF0 Offset: 0x731F0 VA: 0x180073DF0
+	[BaseEntity.Menu] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
+	[BaseEntity.Menu.Description] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
+	[BaseEntity.Menu.Icon] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	// RVA: 0x92F0D0 Offset: 0x92D6D0 VA: 0x18092F0D0
 	public void Menu_FuelStorage(BasePlayer player) { }
 
 	// RVA: 0x92F000 Offset: 0x92D600 VA: 0x18092F000
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xCA740 Offset: 0xC9B40 VA: 0x1800CA740
-	[BaseEntity.Menu.Description] // RVA: 0xCA740 Offset: 0xC9B40 VA: 0x1800CA740
-	[BaseEntity.Menu.Icon] // RVA: 0xCA740 Offset: 0xC9B40 VA: 0x1800CA740
-	[BaseEntity.Menu.ShowIf] // RVA: 0xCA740 Offset: 0xC9B40 VA: 0x1800CA740
+	[BaseEntity.Menu] // RVA: 0xCA7D0 Offset: 0xC9BD0 VA: 0x1800CA7D0
+	[BaseEntity.Menu.Description] // RVA: 0xCA7D0 Offset: 0xC9BD0 VA: 0x1800CA7D0
+	[BaseEntity.Menu.Icon] // RVA: 0xCA7D0 Offset: 0xC9BD0 VA: 0x1800CA7D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xCA7D0 Offset: 0xC9BD0 VA: 0x1800CA7D0
 	// RVA: 0x92F350 Offset: 0x92D950 VA: 0x18092F350
 	public void Menu_TorpedoStorage(BasePlayer player) { }
 
 	// RVA: 0x92F260 Offset: 0x92D860 VA: 0x18092F260
 	public bool Menu_TorpedoStorage_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xCAA80 Offset: 0xC9E80 VA: 0x1800CAA80
-	[BaseEntity.Menu.Description] // RVA: 0xCAA80 Offset: 0xC9E80 VA: 0x1800CAA80
-	[BaseEntity.Menu.Icon] // RVA: 0xCAA80 Offset: 0xC9E80 VA: 0x1800CAA80
-	[BaseEntity.Menu.ShowIf] // RVA: 0xCAA80 Offset: 0xC9E80 VA: 0x1800CAA80
+	[BaseEntity.Menu] // RVA: 0xCAB10 Offset: 0xC9F10 VA: 0x1800CAB10
+	[BaseEntity.Menu.Description] // RVA: 0xCAB10 Offset: 0xC9F10 VA: 0x1800CAB10
+	[BaseEntity.Menu.Icon] // RVA: 0xCAB10 Offset: 0xC9F10 VA: 0x1800CAB10
+	[BaseEntity.Menu.ShowIf] // RVA: 0xCAB10 Offset: 0xC9F10 VA: 0x1800CAB10
 	// RVA: 0x92F1E0 Offset: 0x92D7E0 VA: 0x18092F1E0
 	public void Menu_ItemStorage(BasePlayer player) { }
 
 	// RVA: 0x92F110 Offset: 0x92D710 VA: 0x18092F110
 	public bool Menu_ItemStorage_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8C9A0 Offset: 0x8BDA0 VA: 0x18008C9A0
-	[BaseEntity.Menu.Description] // RVA: 0x8C9A0 Offset: 0x8BDA0 VA: 0x18008C9A0
-	[BaseEntity.Menu.Icon] // RVA: 0x8C9A0 Offset: 0x8BDA0 VA: 0x18008C9A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8C9A0 Offset: 0x8BDA0 VA: 0x18008C9A0
+	[BaseEntity.Menu] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
+	[BaseEntity.Menu.Description] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
+	[BaseEntity.Menu.Icon] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
 	// RVA: 0x92F220 Offset: 0x92D820 VA: 0x18092F220 Slot: 200
 	public virtual void Menu_Push(BasePlayer player) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x930950 Offset: 0x92EF50 VA: 0x180930950
 	private void SubmarineUpdate(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x92DE40 Offset: 0x92C440 VA: 0x18092DE40
 	private void EngineStartFailed(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x766630 Offset: 0x764C30 VA: 0x180766630
 	private void TorpedoFired(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x930A80 Offset: 0x92F080 VA: 0x180930A80
 	private void TorpedoFireFailed(BaseEntity.RPCMessage msg) { }
 
@@ -266,11 +266,11 @@ public class BaseSubmarine : BaseVehicle, IEngineControllerUser, IEntity, IAirSu
 	// RVA: 0x931950 Offset: 0x92FF50 VA: 0x180931950
 	public VehicleEngineController.EngineState<BaseSubmarine> get_EngineState() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x931CD0 Offset: 0x9302D0 VA: 0x180931CD0
 	public Vector3 get_Velocity() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x931F00 Offset: 0x930500 VA: 0x180931F00
 	private void set_Velocity(Vector3 value) { }
 

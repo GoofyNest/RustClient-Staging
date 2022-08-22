@@ -11,10 +11,10 @@ internal struct LobbyDataUpdate_t : ICallbackData // TypeDefIndex: 5338
 
 	// Methods
 
-	// RVA: 0x1EB5A0 Offset: 0x1EA9A0 VA: 0x1801EB5A0 Slot: 5
+	// RVA: 0x1EB520 Offset: 0x1EA920 VA: 0x1801EB520 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EB590 Offset: 0x1EA990 VA: 0x1801EB590 Slot: 4
+	// RVA: 0x1EB510 Offset: 0x1EA910 VA: 0x1801EB510 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1373970 Offset: 0x1371F70 VA: 0x181373970

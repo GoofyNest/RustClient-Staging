@@ -8,23 +8,23 @@ internal static class SourceServerQuery // TypeDefIndex: 5258
 	// RVA: 0xDE3D50 Offset: 0xDE2350 VA: 0x180DE3D50
 	internal static Task<Dictionary<string, string>> GetRules(ServerInfo server) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x997B0 Offset: 0x98BB0 VA: 0x1800997B0
+	[AsyncStateMachineAttribute] // RVA: 0x99800 Offset: 0x98C00 VA: 0x180099800
 	// RVA: 0xDE3C80 Offset: 0xDE2280 VA: 0x180DE3C80
 	private static Task<Dictionary<string, string>> GetRulesImpl(IPEndPoint endpoint) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x99BA0 Offset: 0x98FA0 VA: 0x180099BA0
+	[AsyncStateMachineAttribute] // RVA: 0x99C70 Offset: 0x99070 VA: 0x180099C70
 	// RVA: 0xDE40D0 Offset: 0xDE26D0 VA: 0x180DE40D0
 	private static Task<Dictionary<string, string>> GetRules(UdpClient client) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x99DD0 Offset: 0x991D0 VA: 0x180099DD0
+	[AsyncStateMachineAttribute] // RVA: 0x99E60 Offset: 0x99260 VA: 0x180099E60
 	// RVA: 0xDE41A0 Offset: 0xDE27A0 VA: 0x180DE41A0
 	private static Task<byte[]> Receive(UdpClient client) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x99EF0 Offset: 0x992F0 VA: 0x180099EF0
+	[AsyncStateMachineAttribute] // RVA: 0x99F80 Offset: 0x99380 VA: 0x180099F80
 	// RVA: 0xDE3BB0 Offset: 0xDE21B0 VA: 0x180DE3BB0
 	private static Task<byte[]> GetChallengeData(UdpClient client) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9A1C0 Offset: 0x995C0 VA: 0x18009A1C0
+	[AsyncStateMachineAttribute] // RVA: 0x9A250 Offset: 0x99650 VA: 0x18009A250
 	// RVA: 0xDE4270 Offset: 0xDE2870 VA: 0x180DE4270
 	private static Task Send(UdpClient client, byte[] message) { }
 
@@ -60,11 +60,11 @@ private struct SourceServerQuery.<GetRulesImpl>d__4 : IAsyncStateMachine // Type
 
 	// Methods
 
-	// RVA: 0x1235C0 Offset: 0x1229C0 VA: 0x1801235C0 Slot: 4
+	// RVA: 0x123540 Offset: 0x122940 VA: 0x180123540 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1235D0 Offset: 0x1229D0 VA: 0x1801235D0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x123550 Offset: 0x122950 VA: 0x180123550 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -79,11 +79,11 @@ private struct SourceServerQuery.<GetRules>d__5 : IAsyncStateMachine // TypeDefI
 
 	// Methods
 
-	// RVA: 0x123620 Offset: 0x122A20 VA: 0x180123620 Slot: 4
+	// RVA: 0x1235A0 Offset: 0x1229A0 VA: 0x1801235A0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x123630 Offset: 0x122A30 VA: 0x180123630 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1235B0 Offset: 0x1229B0 VA: 0x1801235B0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -120,11 +120,11 @@ private struct SourceServerQuery.<Receive>d__6 : IAsyncStateMachine // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x1236E0 Offset: 0x122AE0 VA: 0x1801236E0 Slot: 4
+	// RVA: 0x123660 Offset: 0x122A60 VA: 0x180123660 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1236F0 Offset: 0x122AF0 VA: 0x1801236F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x123670 Offset: 0x122A70 VA: 0x180123670 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -139,11 +139,11 @@ private struct SourceServerQuery.<GetChallengeData>d__7 : IAsyncStateMachine // 
 
 	// Methods
 
-	// RVA: 0x1234A0 Offset: 0x1228A0 VA: 0x1801234A0 Slot: 4
+	// RVA: 0x123420 Offset: 0x122820 VA: 0x180123420 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1234B0 Offset: 0x1228B0 VA: 0x1801234B0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x123430 Offset: 0x122830 VA: 0x180123430 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -158,11 +158,11 @@ private struct SourceServerQuery.<Send>d__8 : IAsyncStateMachine // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x123800 Offset: 0x122C00 VA: 0x180123800 Slot: 4
+	// RVA: 0x123780 Offset: 0x122B80 VA: 0x180123780 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

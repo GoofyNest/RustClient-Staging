@@ -9,13 +9,13 @@ internal struct HeaderVariantInfo // TypeDefIndex: 2943
 
 	// Methods
 
-	// RVA: 0xF91E0 Offset: 0xF85E0 VA: 0x1800F91E0
+	// RVA: 0xF9160 Offset: 0xF8560 VA: 0x1800F9160
 	internal void .ctor(string name, CookieVariant variant) { }
 
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	internal string get_Name() { }
 
-	// RVA: 0x122E90 Offset: 0x122290 VA: 0x180122E90
+	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
 	internal CookieVariant get_Variant() { }
 
 }

@@ -20,38 +20,38 @@ public struct Double : IComparable, IFormattable, IConvertible, IComparable<doub
 	// RVA: 0x10D4500 Offset: 0x10D2B00 VA: 0x1810D4500
 	public static bool IsNegativeInfinity(double d) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x10D44D0 Offset: 0x10D2AD0 VA: 0x1810D44D0
 	public static bool IsNaN(double d) { }
 
 	// RVA: 0x10D4420 Offset: 0x10D2A20 VA: 0x1810D4420
 	public static bool IsFinite(double d) { }
 
-	// RVA: 0x19EA80 Offset: 0x19DE80 VA: 0x18019EA80 Slot: 4
+	// RVA: 0x19EA00 Offset: 0x19DE00 VA: 0x18019EA00 Slot: 4
 	public int CompareTo(object value) { }
 
-	// RVA: 0x19E950 Offset: 0x19DD50 VA: 0x18019E950 Slot: 23
+	// RVA: 0x19E8D0 Offset: 0x19DCD0 VA: 0x18019E8D0 Slot: 23
 	public int CompareTo(double value) { }
 
-	// RVA: 0x19ED00 Offset: 0x19E100 VA: 0x18019ED00 Slot: 0
+	// RVA: 0x19EC80 Offset: 0x19E080 VA: 0x18019EC80 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x19EC10 Offset: 0x19E010 VA: 0x18019EC10 Slot: 24
+	// RVA: 0x19EB90 Offset: 0x19DF90 VA: 0x18019EB90 Slot: 24
 	public bool Equals(double obj) { }
 
-	// RVA: 0x19EE20 Offset: 0x19E220 VA: 0x18019EE20 Slot: 2
+	// RVA: 0x19EDA0 Offset: 0x19E1A0 VA: 0x18019EDA0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x19F410 Offset: 0x19E810 VA: 0x18019F410 Slot: 3
+	// RVA: 0x19F390 Offset: 0x19E790 VA: 0x18019F390 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x19F390 Offset: 0x19E790 VA: 0x18019F390
+	// RVA: 0x19F310 Offset: 0x19E710 VA: 0x18019F310
 	public string ToString(string format) { }
 
-	// RVA: 0x19F3D0 Offset: 0x19E7D0 VA: 0x18019F3D0 Slot: 21
+	// RVA: 0x19F350 Offset: 0x19E750 VA: 0x18019F350 Slot: 21
 	public string ToString(IFormatProvider provider) { }
 
-	// RVA: 0x19F350 Offset: 0x19E750 VA: 0x18019F350 Slot: 5
+	// RVA: 0x19F2D0 Offset: 0x19E6D0 VA: 0x18019F2D0 Slot: 5
 	public string ToString(string format, IFormatProvider provider) { }
 
 	// RVA: 0x10D4540 Offset: 0x10D2B40 VA: 0x1810D4540
@@ -75,52 +75,52 @@ public struct Double : IComparable, IFormattable, IConvertible, IComparable<doub
 	// RVA: 0x10D4BE0 Offset: 0x10D31E0 VA: 0x1810D4BE0
 	private static bool TryParse(string s, NumberStyles style, NumberFormatInfo info, out double result) { }
 
-	// RVA: 0x19EE30 Offset: 0x19E230 VA: 0x18019EE30 Slot: 6
+	// RVA: 0x19EDB0 Offset: 0x19E1B0 VA: 0x18019EDB0 Slot: 6
 	public TypeCode GetTypeCode() { }
 
-	// RVA: 0x19EE40 Offset: 0x19E240 VA: 0x18019EE40 Slot: 7
+	// RVA: 0x19EDC0 Offset: 0x19E1C0 VA: 0x18019EDC0 Slot: 7
 	private bool System.IConvertible.ToBoolean(IFormatProvider provider) { }
 
-	// RVA: 0x19EF00 Offset: 0x19E300 VA: 0x18019EF00 Slot: 8
+	// RVA: 0x19EE80 Offset: 0x19E280 VA: 0x18019EE80 Slot: 8
 	private char System.IConvertible.ToChar(IFormatProvider provider) { }
 
-	// RVA: 0x19F0D0 Offset: 0x19E4D0 VA: 0x18019F0D0 Slot: 9
+	// RVA: 0x19F050 Offset: 0x19E450 VA: 0x18019F050 Slot: 9
 	private sbyte System.IConvertible.ToSByte(IFormatProvider provider) { }
 
-	// RVA: 0x19EEA0 Offset: 0x19E2A0 VA: 0x18019EEA0 Slot: 10
+	// RVA: 0x19EE20 Offset: 0x19E220 VA: 0x18019EE20 Slot: 10
 	private byte System.IConvertible.ToByte(IFormatProvider provider) { }
 
-	// RVA: 0x19EFB0 Offset: 0x19E3B0 VA: 0x18019EFB0 Slot: 11
+	// RVA: 0x19EF30 Offset: 0x19E330 VA: 0x18019EF30 Slot: 11
 	private short System.IConvertible.ToInt16(IFormatProvider provider) { }
 
-	// RVA: 0x19F230 Offset: 0x19E630 VA: 0x18019F230 Slot: 12
+	// RVA: 0x19F1B0 Offset: 0x19E5B0 VA: 0x18019F1B0 Slot: 12
 	private ushort System.IConvertible.ToUInt16(IFormatProvider provider) { }
 
-	// RVA: 0x19F010 Offset: 0x19E410 VA: 0x18019F010 Slot: 13
+	// RVA: 0x19EF90 Offset: 0x19E390 VA: 0x18019EF90 Slot: 13
 	private int System.IConvertible.ToInt32(IFormatProvider provider) { }
 
-	// RVA: 0x19F290 Offset: 0x19E690 VA: 0x18019F290 Slot: 14
+	// RVA: 0x19F210 Offset: 0x19E610 VA: 0x18019F210 Slot: 14
 	private uint System.IConvertible.ToUInt32(IFormatProvider provider) { }
 
-	// RVA: 0x19F070 Offset: 0x19E470 VA: 0x18019F070 Slot: 15
+	// RVA: 0x19EFF0 Offset: 0x19E3F0 VA: 0x18019EFF0 Slot: 15
 	private long System.IConvertible.ToInt64(IFormatProvider provider) { }
 
-	// RVA: 0x19F2F0 Offset: 0x19E6F0 VA: 0x18019F2F0 Slot: 16
+	// RVA: 0x19F270 Offset: 0x19E670 VA: 0x18019F270 Slot: 16
 	private ulong System.IConvertible.ToUInt64(IFormatProvider provider) { }
 
-	// RVA: 0x19F130 Offset: 0x19E530 VA: 0x18019F130 Slot: 17
+	// RVA: 0x19F0B0 Offset: 0x19E4B0 VA: 0x18019F0B0 Slot: 17
 	private float System.IConvertible.ToSingle(IFormatProvider provider) { }
 
-	// RVA: 0x19EFA0 Offset: 0x19E3A0 VA: 0x18019EFA0 Slot: 18
+	// RVA: 0x19EF20 Offset: 0x19E320 VA: 0x18019EF20 Slot: 18
 	private double System.IConvertible.ToDouble(IFormatProvider provider) { }
 
-	// RVA: 0x19EF20 Offset: 0x19E320 VA: 0x18019EF20 Slot: 19
+	// RVA: 0x19EEA0 Offset: 0x19E2A0 VA: 0x18019EEA0 Slot: 19
 	private Decimal System.IConvertible.ToDecimal(IFormatProvider provider) { }
 
-	// RVA: 0x19EF10 Offset: 0x19E310 VA: 0x18019EF10 Slot: 20
+	// RVA: 0x19EE90 Offset: 0x19E290 VA: 0x18019EE90 Slot: 20
 	private DateTime System.IConvertible.ToDateTime(IFormatProvider provider) { }
 
-	// RVA: 0x19F190 Offset: 0x19E590 VA: 0x18019F190 Slot: 22
+	// RVA: 0x19F110 Offset: 0x19E510 VA: 0x18019F110 Slot: 22
 	private object System.IConvertible.ToType(Type type, IFormatProvider provider) { }
 
 	// RVA: 0x10D4CD0 Offset: 0x10D32D0 VA: 0x1810D4CD0

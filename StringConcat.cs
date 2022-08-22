@@ -13,16 +13,16 @@ public struct StringConcat // TypeDefIndex: 2430
 
 	// Methods
 
-	// RVA: 0x238040 Offset: 0x237440 VA: 0x180238040
+	// RVA: 0x237FC0 Offset: 0x2373C0 VA: 0x180237FC0
 	public void Clear() { }
 
-	// RVA: 0x1D10C0 Offset: 0x1D04C0 VA: 0x1801D10C0
+	// RVA: 0x1D1040 Offset: 0x1D0440 VA: 0x1801D1040
 	internal int get_Count() { }
 
-	// RVA: 0x2381E0 Offset: 0x2375E0 VA: 0x1802381E0
+	// RVA: 0x238160 Offset: 0x237560 VA: 0x180238160
 	public string GetResult() { }
 
-	// RVA: 0x238060 Offset: 0x237460 VA: 0x180238060
+	// RVA: 0x237FE0 Offset: 0x2373E0 VA: 0x180237FE0
 	internal void ConcatNoDelimiter(string s) { }
 
 }

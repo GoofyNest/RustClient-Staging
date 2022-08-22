@@ -26,10 +26,10 @@ public class RFBroadcaster : IOEntity, IRFObject // TypeDefIndex: 8437
 	// RVA: 0x69F4B0 Offset: 0x69DAB0 VA: 0x18069F4B0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0x80170 Offset: 0x7F570 VA: 0x180080170
-	[BaseEntity.Menu.Description] // RVA: 0x80170 Offset: 0x7F570 VA: 0x180080170
-	[BaseEntity.Menu.Icon] // RVA: 0x80170 Offset: 0x7F570 VA: 0x180080170
-	[BaseEntity.Menu.ShowIf] // RVA: 0x80170 Offset: 0x7F570 VA: 0x180080170
+	[BaseEntity.Menu] // RVA: 0x80230 Offset: 0x7F630 VA: 0x180080230
+	[BaseEntity.Menu.Description] // RVA: 0x80230 Offset: 0x7F630 VA: 0x180080230
+	[BaseEntity.Menu.Icon] // RVA: 0x80230 Offset: 0x7F630 VA: 0x180080230
+	[BaseEntity.Menu.ShowIf] // RVA: 0x80230 Offset: 0x7F630 VA: 0x180080230
 	// RVA: 0x69F510 Offset: 0x69DB10 VA: 0x18069F510
 	public void Menu_SetFreqency(BasePlayer player) { }
 

@@ -11,32 +11,32 @@ public struct TransformAccess // TypeDefIndex: 3589
 
 	// Methods
 
-	// RVA: 0x218770 Offset: 0x217B70 VA: 0x180218770
+	// RVA: 0x2186F0 Offset: 0x217AF0 VA: 0x1802186F0
 	public Vector3 get_position() { }
 
-	// RVA: 0x2187E0 Offset: 0x217BE0 VA: 0x1802187E0
+	// RVA: 0x218760 Offset: 0x217B60 VA: 0x180218760
 	public Quaternion get_rotation() { }
 
-	// RVA: 0x218840 Offset: 0x217C40 VA: 0x180218840
+	// RVA: 0x2187C0 Offset: 0x217BC0 VA: 0x1802187C0
 	public void set_localPosition(Vector3 value) { }
 
-	// RVA: 0x218890 Offset: 0x217C90 VA: 0x180218890
+	// RVA: 0x218810 Offset: 0x217C10 VA: 0x180218810
 	public void set_localRotation(Quaternion value) { }
 
-	[NativeMethodAttribute] // RVA: 0xD8D80 Offset: 0xD8180 VA: 0x1800D8D80
-	// RVA: 0x1901140 Offset: 0x18FF740 VA: 0x181901140
+	[NativeMethodAttribute] // RVA: 0xD8DF0 Offset: 0xD81F0 VA: 0x1800D8DF0
+	// RVA: 0x1901100 Offset: 0x18FF700 VA: 0x181901100
 	private static void GetPosition(ref TransformAccess access, out Vector3 p) { }
 
-	[NativeMethodAttribute] // RVA: 0xD8EC0 Offset: 0xD82C0 VA: 0x1800D8EC0
-	// RVA: 0x1901190 Offset: 0x18FF790 VA: 0x181901190
+	[NativeMethodAttribute] // RVA: 0xD8F30 Offset: 0xD8330 VA: 0x1800D8F30
+	// RVA: 0x1901150 Offset: 0x18FF750 VA: 0x181901150
 	private static void GetRotation(ref TransformAccess access, out Quaternion r) { }
 
-	[NativeMethodAttribute] // RVA: 0xD8F30 Offset: 0xD8330 VA: 0x1800D8F30
-	// RVA: 0x19011E0 Offset: 0x18FF7E0 VA: 0x1819011E0
+	[NativeMethodAttribute] // RVA: 0xD8FD0 Offset: 0xD83D0 VA: 0x1800D8FD0
+	// RVA: 0x19011A0 Offset: 0x18FF7A0 VA: 0x1819011A0
 	private static void SetLocalPosition(ref TransformAccess access, ref Vector3 p) { }
 
-	[NativeMethodAttribute] // RVA: 0xD91F0 Offset: 0xD85F0 VA: 0x1800D91F0
-	// RVA: 0x1901230 Offset: 0x18FF830 VA: 0x181901230
+	[NativeMethodAttribute] // RVA: 0xD9230 Offset: 0xD8630 VA: 0x1800D9230
+	// RVA: 0x19011F0 Offset: 0x18FF7F0 VA: 0x1819011F0
 	private static void SetLocalRotation(ref TransformAccess access, ref Quaternion r) { }
 
 }

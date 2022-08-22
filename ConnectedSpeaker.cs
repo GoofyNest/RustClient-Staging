@@ -6,13 +6,13 @@ public class ConnectedSpeaker : IDisposable, Pool.IPooled, IProto // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x20B25B0 Offset: 0x20B0BB0 VA: 0x1820B25B0
+	// RVA: 0x20B23F0 Offset: 0x20B09F0 VA: 0x1820B23F0
 	public static void ResetToPool(ConnectedSpeaker instance) { }
 
-	// RVA: 0x20B2630 Offset: 0x20B0C30 VA: 0x1820B2630
+	// RVA: 0x20B2470 Offset: 0x20B0A70 VA: 0x1820B2470
 	public void ResetToPool() { }
 
-	// RVA: 0x20B2480 Offset: 0x20B0A80 VA: 0x1820B2480 Slot: 9
+	// RVA: 0x20B22C0 Offset: 0x20B08C0 VA: 0x1820B22C0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -21,64 +21,64 @@ public class ConnectedSpeaker : IDisposable, Pool.IPooled, IProto // TypeDefInde
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE690 Offset: 0x1BFCC90 VA: 0x181BFE690
+	// RVA: 0x1BFE4D0 Offset: 0x1BFCAD0 VA: 0x181BFE4D0
 	public void CopyTo(ConnectedSpeaker instance) { }
 
-	// RVA: 0x20B1B00 Offset: 0x20B0100 VA: 0x1820B1B00
+	// RVA: 0x20B1940 Offset: 0x20AFF40 VA: 0x1820B1940
 	public ConnectedSpeaker Copy() { }
 
-	// RVA: 0x20B2300 Offset: 0x20B0900 VA: 0x1820B2300
+	// RVA: 0x20B2140 Offset: 0x20B0740 VA: 0x1820B2140
 	public static ConnectedSpeaker Deserialize(Stream stream) { }
 
-	// RVA: 0x20B1B70 Offset: 0x20B0170 VA: 0x1820B1B70
+	// RVA: 0x20B19B0 Offset: 0x20AFFB0 VA: 0x1820B19B0
 	public static ConnectedSpeaker DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20B2010 Offset: 0x20B0610 VA: 0x1820B2010
+	// RVA: 0x20B1E50 Offset: 0x20B0450 VA: 0x1820B1E50
 	public static ConnectedSpeaker DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20B20A0 Offset: 0x20B06A0 VA: 0x1820B20A0
+	// RVA: 0x20B1EE0 Offset: 0x20B04E0 VA: 0x1820B1EE0
 	public static ConnectedSpeaker Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20B2570 Offset: 0x20B0B70 VA: 0x1820B2570
+	// RVA: 0x20B23B0 Offset: 0x20B09B0 VA: 0x1820B23B0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20B2B00 Offset: 0x20B1100 VA: 0x1820B2B00 Slot: 12
+	// RVA: 0x20B2940 Offset: 0x20B0F40 VA: 0x1820B2940 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20B2BD0 Offset: 0x20B11D0 VA: 0x1820B2BD0 Slot: 13
+	// RVA: 0x20B2A10 Offset: 0x20B1010 VA: 0x1820B2A10 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ConnectedSpeaker previous) { }
 
-	// RVA: 0x20B2590 Offset: 0x20B0B90 VA: 0x1820B2590 Slot: 14
+	// RVA: 0x20B23D0 Offset: 0x20B09D0 VA: 0x1820B23D0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20B2380 Offset: 0x20B0980 VA: 0x1820B2380
+	// RVA: 0x20B21C0 Offset: 0x20B07C0 VA: 0x1820B21C0
 	public static ConnectedSpeaker Deserialize(byte[] buffer, ConnectedSpeaker instance, bool isDelta = False) { }
 
-	// RVA: 0x20B21C0 Offset: 0x20B07C0 VA: 0x1820B21C0
+	// RVA: 0x20B2000 Offset: 0x20B0600 VA: 0x1820B2000
 	public static ConnectedSpeaker Deserialize(Stream stream, ConnectedSpeaker instance, bool isDelta) { }
 
-	// RVA: 0x20B1BF0 Offset: 0x20B01F0 VA: 0x1820B1BF0
+	// RVA: 0x20B1A30 Offset: 0x20B0030 VA: 0x1820B1A30
 	public static ConnectedSpeaker DeserializeLengthDelimited(Stream stream, ConnectedSpeaker instance, bool isDelta) { }
 
-	// RVA: 0x20B1E10 Offset: 0x20B0410 VA: 0x1820B1E10
+	// RVA: 0x20B1C50 Offset: 0x20B0250 VA: 0x1820B1C50
 	public static ConnectedSpeaker DeserializeLength(Stream stream, int length, ConnectedSpeaker instance, bool isDelta) { }
 
-	// RVA: 0x20B26B0 Offset: 0x20B0CB0 VA: 0x1820B26B0
+	// RVA: 0x20B24F0 Offset: 0x20B0AF0 VA: 0x1820B24F0
 	public static void SerializeDelta(Stream stream, ConnectedSpeaker instance, ConnectedSpeaker previous) { }
 
-	// RVA: 0x20B2A20 Offset: 0x20B1020 VA: 0x1820B2A20
+	// RVA: 0x20B2860 Offset: 0x20B0E60 VA: 0x1820B2860
 	public static void Serialize(Stream stream, ConnectedSpeaker instance) { }
 
-	// RVA: 0x20B2AF0 Offset: 0x20B10F0 VA: 0x1820B2AF0
+	// RVA: 0x20B2930 Offset: 0x20B0F30 VA: 0x1820B2930
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20B2B00 Offset: 0x20B1100 VA: 0x1820B2B00
+	// RVA: 0x20B2940 Offset: 0x20B0F40 VA: 0x1820B2940
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20B2870 Offset: 0x20B0E70 VA: 0x1820B2870
+	// RVA: 0x20B26B0 Offset: 0x20B0CB0 VA: 0x1820B26B0
 	public static byte[] SerializeToBytes(ConnectedSpeaker instance) { }
 
-	// RVA: 0x20B27C0 Offset: 0x20B0DC0 VA: 0x1820B27C0
+	// RVA: 0x20B2600 Offset: 0x20B0C00 VA: 0x1820B2600
 	public static void SerializeLengthDelimited(Stream stream, ConnectedSpeaker instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -113,11 +113,11 @@ public class ConnectedSpeaker : IOEntity // TypeDefIndex: 8563
 	// RVA: 0x2FAAB0 Offset: 0x2F90B0 VA: 0x1802FAAB0
 	private void OnAudioRead(float[] data) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x2FA6C0 Offset: 0x2F8CC0 VA: 0x1802FA6C0
 	private void Client_PlayAudioFrom(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x2FA830 Offset: 0x2F8E30 VA: 0x1802FA830
 	private void Client_StopPlayingAudio(BaseEntity.RPCMessage msg) { }
 

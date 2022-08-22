@@ -25,10 +25,10 @@ public class PressButton : IOEntity // TypeDefIndex: 8430
 	// RVA: 0x9A7950 Offset: 0x9A5F50 VA: 0x1809A7950 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0x7D5D0 Offset: 0x7C9D0 VA: 0x18007D5D0
-	[BaseEntity.Menu.Description] // RVA: 0x7D5D0 Offset: 0x7C9D0 VA: 0x18007D5D0
-	[BaseEntity.Menu.Icon] // RVA: 0x7D5D0 Offset: 0x7C9D0 VA: 0x18007D5D0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7D5D0 Offset: 0x7C9D0 VA: 0x18007D5D0
+	[BaseEntity.Menu] // RVA: 0x7D6A0 Offset: 0x7CAA0 VA: 0x18007D6A0
+	[BaseEntity.Menu.Description] // RVA: 0x7D6A0 Offset: 0x7CAA0 VA: 0x18007D6A0
+	[BaseEntity.Menu.Icon] // RVA: 0x7D6A0 Offset: 0x7CAA0 VA: 0x18007D6A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7D6A0 Offset: 0x7CAA0 VA: 0x18007D6A0
 	// RVA: 0x9A79F0 Offset: 0x9A5FF0 VA: 0x1809A79F0
 	public void Menu_Press(BasePlayer player) { }
 
@@ -59,10 +59,10 @@ public class PressButton_TrainTunnel : PressButton // TypeDefIndex: 8431
 	// RVA: 0x9A7EC0 Offset: 0x9A64C0 VA: 0x1809A7EC0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	[BaseEntity.Menu] // RVA: 0x7D8F0 Offset: 0x7CCF0 VA: 0x18007D8F0
-	[BaseEntity.Menu.Description] // RVA: 0x7D8F0 Offset: 0x7CCF0 VA: 0x18007D8F0
-	[BaseEntity.Menu.Icon] // RVA: 0x7D8F0 Offset: 0x7CCF0 VA: 0x18007D8F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7D8F0 Offset: 0x7CCF0 VA: 0x18007D8F0
+	[BaseEntity.Menu] // RVA: 0x7D9C0 Offset: 0x7CDC0 VA: 0x18007D9C0
+	[BaseEntity.Menu.Description] // RVA: 0x7D9C0 Offset: 0x7CDC0 VA: 0x18007D9C0
+	[BaseEntity.Menu.Icon] // RVA: 0x7D9C0 Offset: 0x7CDC0 VA: 0x18007D9C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7D9C0 Offset: 0x7CDC0 VA: 0x18007D9C0
 	// RVA: 0x9A7E10 Offset: 0x9A6410 VA: 0x1809A7E10
 	public void Menu_Press_TrainTunnel(BasePlayer player) { }
 

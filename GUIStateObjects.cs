@@ -4,10 +4,10 @@ internal class GUIStateObjects // TypeDefIndex: 4046
 
 	// Methods
 
-	// RVA: 0x1A792B0 Offset: 0x1A778B0 VA: 0x181A792B0
+	// RVA: 0x1A79270 Offset: 0x1A77870 VA: 0x181A79270
 	internal static object GetStateObject(Type t, int controlID) { }
 
-	// RVA: 0x1A793C0 Offset: 0x1A779C0 VA: 0x181A793C0
+	// RVA: 0x1A79380 Offset: 0x1A77980 VA: 0x181A79380
 	private static void .cctor() { }
 
 }

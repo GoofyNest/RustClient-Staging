@@ -11,10 +11,10 @@ internal struct GameConnectedClanChatMsg_t : ICallbackData // TypeDefIndex: 5315
 
 	// Methods
 
-	// RVA: 0x1E79F0 Offset: 0x1E6DF0 VA: 0x1801E79F0 Slot: 5
+	// RVA: 0x1E7970 Offset: 0x1E6D70 VA: 0x1801E7970 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E79E0 Offset: 0x1E6DE0 VA: 0x1801E79E0 Slot: 4
+	// RVA: 0x1E7960 Offset: 0x1E6D60 VA: 0x1801E7960 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1370F70 Offset: 0x136F570 VA: 0x181370F70

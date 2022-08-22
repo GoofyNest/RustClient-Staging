@@ -8,34 +8,34 @@ internal class TermInfoReader // TypeDefIndex: 399
 
 	// Methods
 
-	// RVA: 0x18C2870 Offset: 0x18C0E70 VA: 0x1818C2870
+	// RVA: 0x18C2830 Offset: 0x18C0E30 VA: 0x1818C2830
 	public void .ctor(string term, string filename) { }
 
-	// RVA: 0x18C27B0 Offset: 0x18C0DB0 VA: 0x1818C27B0
+	// RVA: 0x18C2770 Offset: 0x18C0D70 VA: 0x1818C2770
 	public void .ctor(string term, byte[] buffer) { }
 
-	// RVA: 0x18C2400 Offset: 0x18C0A00 VA: 0x1818C2400
+	// RVA: 0x18C23C0 Offset: 0x18C09C0 VA: 0x1818C23C0
 	private void ReadHeader(byte[] buffer, ref int position) { }
 
-	// RVA: 0x18C2700 Offset: 0x18C0D00 VA: 0x1818C2700
+	// RVA: 0x18C26C0 Offset: 0x18C0CC0 VA: 0x1818C26C0
 	private void ReadNames(byte[] buffer, ref int position) { }
 
-	// RVA: 0x18C2330 Offset: 0x18C0930 VA: 0x1818C2330
+	// RVA: 0x18C22F0 Offset: 0x18C08F0 VA: 0x1818C22F0
 	public int Get(TermInfoNumbers number) { }
 
-	// RVA: 0x18C21C0 Offset: 0x18C07C0 VA: 0x1818C21C0
+	// RVA: 0x18C2180 Offset: 0x18C0780 VA: 0x1818C2180
 	public string Get(TermInfoStrings tstr) { }
 
-	// RVA: 0x18C1FA0 Offset: 0x18C05A0 VA: 0x1818C1FA0
+	// RVA: 0x18C1F60 Offset: 0x18C0560 VA: 0x1818C1F60
 	public byte[] GetStringBytes(TermInfoStrings tstr) { }
 
-	// RVA: 0x18C1E60 Offset: 0x18C0460 VA: 0x1818C1E60
+	// RVA: 0x18C1E20 Offset: 0x18C0420 VA: 0x1818C1E20
 	private short GetInt16(byte[] buffer, int offset) { }
 
-	// RVA: 0x18C2130 Offset: 0x18C0730 VA: 0x1818C2130
+	// RVA: 0x18C20F0 Offset: 0x18C06F0 VA: 0x1818C20F0
 	private string GetString(byte[] buffer, int offset) { }
 
-	// RVA: 0x18C1EE0 Offset: 0x18C04E0 VA: 0x1818C1EE0
+	// RVA: 0x18C1EA0 Offset: 0x18C04A0 VA: 0x1818C1EA0
 	private byte[] GetStringBytes(byte[] buffer, int offset) { }
 
 }

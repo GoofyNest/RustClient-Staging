@@ -1,6 +1,6 @@
 public sealed class SequenceNumberEvent : MetaEvent // TypeDefIndex: 7543
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ushort <Number>k__BackingField; // 0x20
 
 	// Properties
@@ -14,11 +14,11 @@ public sealed class SequenceNumberEvent : MetaEvent // TypeDefIndex: 7543
 	// RVA: 0x13A5570 Offset: 0x13A3B70 VA: 0x1813A5570
 	public void .ctor(ushort number) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x12FA5F0 Offset: 0x12F8BF0 VA: 0x1812FA5F0
 	public ushort get_Number() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13A55C0 Offset: 0x13A3BC0 VA: 0x1813A55C0
 	public void set_Number(ushort value) { }
 

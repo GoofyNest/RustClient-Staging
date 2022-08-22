@@ -6,7 +6,7 @@ public struct CRedge // TypeDefIndex: 7233
 
 	// Methods
 
-	// RVA: 0xFD140 Offset: 0xFC540 VA: 0x1800FD140
+	// RVA: 0xFD0C0 Offset: 0xFC4C0 VA: 0x1800FD0C0
 	public void .ctor(int v_1, int v_2) { }
 
 }

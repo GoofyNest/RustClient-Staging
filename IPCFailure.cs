@@ -9,10 +9,10 @@ internal struct IPCFailure_t : ICallbackData // TypeDefIndex: 5297
 
 	// Methods
 
-	// RVA: 0x1EA910 Offset: 0x1E9D10 VA: 0x1801EA910 Slot: 5
+	// RVA: 0x1EA890 Offset: 0x1E9C90 VA: 0x1801EA890 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA900 Offset: 0x1E9D00 VA: 0x1801EA900 Slot: 4
+	// RVA: 0x1EA880 Offset: 0x1E9C80 VA: 0x1801EA880 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1372BC0 Offset: 0x13711C0 VA: 0x181372BC0

@@ -6,19 +6,19 @@ internal struct NamespaceResolver // TypeDefIndex: 5839
 
 	// Methods
 
-	// RVA: 0x237760 Offset: 0x236B60 VA: 0x180237760
+	// RVA: 0x2376E0 Offset: 0x236AE0 VA: 0x1802376E0
 	public void PushScope() { }
 
-	// RVA: 0x237750 Offset: 0x236B50 VA: 0x180237750
+	// RVA: 0x2376D0 Offset: 0x236AD0 VA: 0x1802376D0
 	public void PopScope() { }
 
-	// RVA: 0x237730 Offset: 0x236B30 VA: 0x180237730
+	// RVA: 0x2376B0 Offset: 0x236AB0 VA: 0x1802376B0
 	public void Add(string prefix, XNamespace ns) { }
 
-	// RVA: 0x237720 Offset: 0x236B20 VA: 0x180237720
+	// RVA: 0x2376A0 Offset: 0x236AA0 VA: 0x1802376A0
 	public void AddFirst(string prefix, XNamespace ns) { }
 
-	// RVA: 0x237740 Offset: 0x236B40 VA: 0x180237740
+	// RVA: 0x2376C0 Offset: 0x236AC0 VA: 0x1802376C0
 	public string GetPrefixOfNamespace(XNamespace ns, bool allowDefaultNamespace) { }
 
 }

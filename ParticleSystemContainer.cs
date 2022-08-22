@@ -1,7 +1,7 @@
 public class ParticleSystemContainer : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 11325
 {	// Fields
 	public bool precached; // 0x18
-	[HideInInspector] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public ParticleSystemContainer.ParticleSystemGroup[] particleGroups; // 0x20
 
 	// Methods

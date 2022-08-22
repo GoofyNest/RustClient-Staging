@@ -13,7 +13,7 @@ private sealed class CircularBuffer.<GetEnumerator>d__26<T> : IEnumerator<T>, IE
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
@@ -22,7 +22,7 @@ private sealed class CircularBuffer.<GetEnumerator>d__26<T> : IEnumerator<T>, IE
 	|-CircularBuffer.<GetEnumerator>d__26<object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
@@ -47,7 +47,7 @@ private sealed class CircularBuffer.<GetEnumerator>d__26<T> : IEnumerator<T>, IE
 	|-CircularBuffer.<GetEnumerator>d__26<object>.<>m__Finally1
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private T System.Collections.Generic.IEnumerator<T>.get_Current() { }
 	/* GenericInstMethod :
@@ -56,7 +56,7 @@ private sealed class CircularBuffer.<GetEnumerator>d__26<T> : IEnumerator<T>, IE
 	|-CircularBuffer.<GetEnumerator>d__26<object>.System.Collections.Generic.IEnumerator<T>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
@@ -65,7 +65,7 @@ private sealed class CircularBuffer.<GetEnumerator>d__26<T> : IEnumerator<T>, IE
 	|-CircularBuffer.<GetEnumerator>d__26<object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
@@ -94,7 +94,7 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
@@ -106,7 +106,7 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 	|-CircularBuffer.<GetItems>d__15<object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
@@ -127,7 +127,7 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 	|-CircularBuffer.<GetItems>d__15<object>.MoveNext
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private T System.Collections.Generic.IEnumerator<T>.get_Current() { }
 	/* GenericInstMethod :
@@ -139,7 +139,7 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 	|-CircularBuffer.<GetItems>d__15<object>.System.Collections.Generic.IEnumerator<T>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
@@ -151,7 +151,7 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 	|-CircularBuffer.<GetItems>d__15<object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
@@ -163,7 +163,7 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 	|-CircularBuffer.<GetItems>d__15<object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
@@ -175,7 +175,7 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 	|-CircularBuffer.<GetItems>d__15<object>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :

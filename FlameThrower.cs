@@ -1,11 +1,11 @@
 public class FlameThrower : AttackEntity // TypeDefIndex: 8568
 {	// Fields
-	[HeaderAttribute] // RVA: 0xAB070 Offset: 0xAA470 VA: 0x1800AB070
+	[HeaderAttribute] // RVA: 0xAB110 Offset: 0xAA510 VA: 0x1800AB110
 	public int maxAmmo; // 0x280
 	public int ammo; // 0x284
 	public ItemDefinition fuelType; // 0x288
 	public float timeSinceLastAttack; // 0x290
-	[FormerlySerializedAsAttribute] // RVA: 0xAB220 Offset: 0xAA620 VA: 0x1800AB220
+	[FormerlySerializedAsAttribute] // RVA: 0xAB2C0 Offset: 0xAA6C0 VA: 0x1800AB2C0
 	public float nextReadyTime; // 0x294
 	public float flameRange; // 0x298
 	public float flameRadius; // 0x29C

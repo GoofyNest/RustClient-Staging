@@ -24,9 +24,9 @@ internal sealed class NumberFormatter // TypeDefIndex: 381
 	private uint _val3; // 0x44
 	private uint _val4; // 0x48
 	private int _ind; // 0x4C
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static NumberFormatter threadNumberFormatter; // 0x80000000
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static NumberFormatter userFormatProvider; // 0x80000008
 
 	// Properties

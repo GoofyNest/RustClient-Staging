@@ -161,59 +161,59 @@ public struct TMP_DefaultControls.Resources // TypeDefIndex: 6758
 
 public class TMP_FontAsset : TMP_Asset // TypeDefIndex: 6760
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string m_Version; // 0x30
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	internal string m_SourceFontFileGUID; // 0x38
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Font m_SourceFontFile; // 0x40
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private AtlasPopulationMode m_AtlasPopulationMode; // 0x48
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private FaceInfo m_FaceInfo; // 0x50
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private List<Glyph> m_GlyphTable; // 0xA8
 	private Dictionary<uint, Glyph> m_GlyphLookupDictionary; // 0xB0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private List<TMP_Character> m_CharacterTable; // 0xB8
 	private Dictionary<uint, TMP_Character> m_CharacterLookupDictionary; // 0xC0
 	private Texture2D m_AtlasTexture; // 0xC8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Texture2D[] m_AtlasTextures; // 0xD0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	internal int m_AtlasTextureIndex; // 0xD8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private List<GlyphRect> m_UsedGlyphRects; // 0xE0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private List<GlyphRect> m_FreeGlyphRects; // 0xE8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private FaceInfo_Legacy m_fontInfo; // 0xF0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public Texture2D atlas; // 0xF8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int m_AtlasWidth; // 0x100
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int m_AtlasHeight; // 0x104
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int m_AtlasPadding; // 0x108
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GlyphRenderMode m_AtlasRenderMode; // 0x10C
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	internal List<TMP_Glyph> m_glyphInfoList; // 0x110
-	[SerializeField] // RVA: 0xCB710 Offset: 0xCAB10 VA: 0x1800CB710
-	[FormerlySerializedAsAttribute] // RVA: 0xCB710 Offset: 0xCAB10 VA: 0x1800CB710
+	[SerializeField] // RVA: 0xCB7A0 Offset: 0xCABA0 VA: 0x1800CB7A0
+	[FormerlySerializedAsAttribute] // RVA: 0xCB7A0 Offset: 0xCABA0 VA: 0x1800CB7A0
 	internal KerningTable m_KerningTable; // 0x118
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_FontFeatureTable m_FontFeatureTable; // 0x120
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private List<TMP_FontAsset> fallbackFontAssets; // 0x128
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public List<TMP_FontAsset> m_FallbackFontAssetTable; // 0x130
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	internal FontAssetCreationSettings m_CreationSettings; // 0x138
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_FontWeightPair[] m_FontWeightTable; // 0x190
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_FontWeightPair[] fontWeights; // 0x198
 	public float normalStyle; // 0x1A0
 	public float normalSpacingOffset; // 0x1A4
@@ -244,7 +244,7 @@ public class TMP_FontAsset : TMP_Asset // TypeDefIndex: 6760
 	public Texture2D[] atlasTextures { get; set; }
 	internal List<GlyphRect> usedGlyphRects { get; set; }
 	internal List<GlyphRect> freeGlyphRects { get; set; }
-	[ObsoleteAttribute] // RVA: 0xCC0E0 Offset: 0xCB4E0 VA: 0x1800CC0E0
+	[ObsoleteAttribute] // RVA: 0xCC170 Offset: 0xCB570 VA: 0x1800CC170
 	public FaceInfo_Legacy fontInfo { get; }
 	public int atlasWidth { get; set; }
 	public int atlasHeight { get; set; }
@@ -565,7 +565,7 @@ public class TMP_FontAssetUtilities // TypeDefIndex: 6775
 
 public class TMP_FontFeatureTable // TypeDefIndex: 6776
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	internal List<TMP_GlyphPairAdjustmentRecord> m_GlyphPairAdjustmentRecords; // 0x10
 	internal Dictionary<long, TMP_GlyphPairAdjustmentRecord> m_GlyphPairAdjustmentRecordLookupDictionary; // 0x18
 
@@ -612,13 +612,13 @@ private sealed class TMP_FontFeatureTable.<>c // TypeDefIndex: 6777
 
 public struct TMP_GlyphValueRecord // TypeDefIndex: 6779
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_XPlacement; // 0x0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_YPlacement; // 0x4
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_XAdvance; // 0x8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_YAdvance; // 0xC
 
 	// Properties
@@ -629,37 +629,37 @@ public struct TMP_GlyphValueRecord // TypeDefIndex: 6779
 
 	// Methods
 
-	// RVA: 0xF2400 Offset: 0xF1800 VA: 0x1800F2400
+	// RVA: 0xF2380 Offset: 0xF1780 VA: 0x1800F2380
 	public float get_xPlacement() { }
 
-	// RVA: 0xF2410 Offset: 0xF1810 VA: 0x1800F2410
+	// RVA: 0xF2390 Offset: 0xF1790 VA: 0x1800F2390
 	public void set_xPlacement(float value) { }
 
-	// RVA: 0x117990 Offset: 0x116D90 VA: 0x180117990
+	// RVA: 0x117910 Offset: 0x116D10 VA: 0x180117910
 	public float get_yPlacement() { }
 
-	// RVA: 0x1179A0 Offset: 0x116DA0 VA: 0x1801179A0
+	// RVA: 0x117920 Offset: 0x116D20 VA: 0x180117920
 	public void set_yPlacement(float value) { }
 
-	// RVA: 0x117180 Offset: 0x116580 VA: 0x180117180
+	// RVA: 0x117100 Offset: 0x116500 VA: 0x180117100
 	public float get_xAdvance() { }
 
-	// RVA: 0x1171C0 Offset: 0x1165C0 VA: 0x1801171C0
+	// RVA: 0x117140 Offset: 0x116540 VA: 0x180117140
 	public void set_xAdvance(float value) { }
 
-	// RVA: 0x117190 Offset: 0x116590 VA: 0x180117190
+	// RVA: 0x117110 Offset: 0x116510 VA: 0x180117110
 	public float get_yAdvance() { }
 
-	// RVA: 0x1171D0 Offset: 0x1165D0 VA: 0x1801171D0
+	// RVA: 0x117150 Offset: 0x116550 VA: 0x180117150
 	public void set_yAdvance(float value) { }
 
-	// RVA: 0xF2B40 Offset: 0xF1F40 VA: 0x1800F2B40
+	// RVA: 0xF2AC0 Offset: 0xF1EC0 VA: 0x1800F2AC0
 	public void .ctor(float xPlacement, float yPlacement, float xAdvance, float yAdvance) { }
 
-	// RVA: 0x117960 Offset: 0x116D60 VA: 0x180117960
+	// RVA: 0x1178E0 Offset: 0x116CE0 VA: 0x1801178E0
 	internal void .ctor(GlyphValueRecord_Legacy valueRecord) { }
 
-	// RVA: 0x117550 Offset: 0x116950 VA: 0x180117550
+	// RVA: 0x1174D0 Offset: 0x1168D0 VA: 0x1801174D0
 	internal void .ctor(GlyphValueRecord valueRecord) { }
 
 	// RVA: 0xC74940 Offset: 0xC72F40 VA: 0x180C74940
@@ -669,9 +669,9 @@ public struct TMP_GlyphValueRecord // TypeDefIndex: 6779
 
 public struct TMP_GlyphAdjustmentRecord // TypeDefIndex: 6780
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private uint m_GlyphIndex; // 0x0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_GlyphValueRecord m_GlyphValueRecord; // 0x4
 
 	// Properties
@@ -680,33 +680,33 @@ public struct TMP_GlyphAdjustmentRecord // TypeDefIndex: 6780
 
 	// Methods
 
-	// RVA: 0xF37A0 Offset: 0xF2BA0 VA: 0x1800F37A0
+	// RVA: 0xF3720 Offset: 0xF2B20 VA: 0x1800F3720
 	public uint get_glyphIndex() { }
 
-	// RVA: 0xF38D0 Offset: 0xF2CD0 VA: 0x1800F38D0
+	// RVA: 0xF3850 Offset: 0xF2C50 VA: 0x1800F3850
 	public void set_glyphIndex(uint value) { }
 
-	// RVA: 0x117940 Offset: 0x116D40 VA: 0x180117940
+	// RVA: 0x1178C0 Offset: 0x116CC0 VA: 0x1801178C0
 	public TMP_GlyphValueRecord get_glyphValueRecord() { }
 
-	// RVA: 0x117950 Offset: 0x116D50 VA: 0x180117950
+	// RVA: 0x1178D0 Offset: 0x116CD0 VA: 0x1801178D0
 	public void set_glyphValueRecord(TMP_GlyphValueRecord value) { }
 
-	// RVA: 0x117900 Offset: 0x116D00 VA: 0x180117900
+	// RVA: 0x117880 Offset: 0x116C80 VA: 0x180117880
 	public void .ctor(uint glyphIndex, TMP_GlyphValueRecord glyphValueRecord) { }
 
-	// RVA: 0x117910 Offset: 0x116D10 VA: 0x180117910
+	// RVA: 0x117890 Offset: 0x116C90 VA: 0x180117890
 	internal void .ctor(GlyphAdjustmentRecord adjustmentRecord) { }
 
 }
 
 public class TMP_GlyphPairAdjustmentRecord // TypeDefIndex: 6781
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord; // 0x10
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord; // 0x24
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private FontFeatureLookupFlags m_FeatureLookupFlags; // 0x38
 
 	// Properties
@@ -746,79 +746,79 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 {	// Fields
 	protected TouchScreenKeyboard m_SoftKeyboard; // 0xE8
 	private static readonly char[] kSeparators; // 0x0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected RectTransform m_TextViewport; // 0xF0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected TMP_Text m_TextComponent; // 0xF8
 	protected RectTransform m_TextComponentRectTransform; // 0x100
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected Graphic m_Placeholder; // 0x108
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected Scrollbar m_VerticalScrollbar; // 0x110
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected TMP_ScrollbarEventHandler m_VerticalScrollbarEventHandler; // 0x118
 	private bool m_IsDrivenByLayoutComponents; // 0x120
 	private float m_ScrollPosition; // 0x124
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_ScrollSensitivity; // 0x128
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_InputField.ContentType m_ContentType; // 0x12C
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_InputField.InputType m_InputType; // 0x130
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private char m_AsteriskChar; // 0x134
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TouchScreenKeyboardType m_KeyboardType; // 0x138
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_InputField.LineType m_LineType; // 0x13C
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_HideMobileInput; // 0x140
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_HideSoftKeyboard; // 0x141
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_InputField.CharacterValidation m_CharacterValidation; // 0x144
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string m_RegexValue; // 0x148
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_GlobalPointSize; // 0x150
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int m_CharacterLimit; // 0x154
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_InputField.SubmitEvent m_OnEndEdit; // 0x158
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_InputField.SubmitEvent m_OnSubmit; // 0x160
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_InputField.SelectionEvent m_OnSelect; // 0x168
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_InputField.SelectionEvent m_OnDeselect; // 0x170
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_InputField.TextSelectionEvent m_OnTextSelection; // 0x178
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_InputField.TextSelectionEvent m_OnEndTextSelection; // 0x180
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_InputField.OnChangeEvent m_OnValueChanged; // 0x188
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_InputField.TouchScreenKeyboardEvent m_OnTouchScreenKeyboardStatusChanged; // 0x190
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_InputField.OnValidateInput m_OnValidateInput; // 0x198
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Color m_CaretColor; // 0x1A0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_CustomCaretColor; // 0x1B0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Color m_SelectionColor; // 0x1B4
-	[SerializeField] // RVA: 0xD07D0 Offset: 0xCFBD0 VA: 0x1800D07D0
-	[TextAreaAttribute] // RVA: 0xD07D0 Offset: 0xCFBD0 VA: 0x1800D07D0
+	[SerializeField] // RVA: 0xD0860 Offset: 0xCFC60 VA: 0x1800D0860
+	[TextAreaAttribute] // RVA: 0xD0860 Offset: 0xCFC60 VA: 0x1800D0860
 	protected string m_Text; // 0x1C8
-	[SerializeField] // RVA: 0xD0850 Offset: 0xCFC50 VA: 0x1800D0850
-	[RangeAttribute] // RVA: 0xD0850 Offset: 0xCFC50 VA: 0x1800D0850
+	[SerializeField] // RVA: 0xD08E0 Offset: 0xCFCE0 VA: 0x1800D08E0
+	[RangeAttribute] // RVA: 0xD08E0 Offset: 0xCFCE0 VA: 0x1800D08E0
 	private float m_CaretBlinkRate; // 0x1D0
-	[SerializeField] // RVA: 0xD0920 Offset: 0xCFD20 VA: 0x1800D0920
-	[RangeAttribute] // RVA: 0xD0920 Offset: 0xCFD20 VA: 0x1800D0920
+	[SerializeField] // RVA: 0xD09B0 Offset: 0xCFDB0 VA: 0x1800D09B0
+	[RangeAttribute] // RVA: 0xD09B0 Offset: 0xCFDB0 VA: 0x1800D09B0
 	private int m_CaretWidth; // 0x1D4
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_ReadOnly; // 0x1D8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_RichText; // 0x1D9
 	protected int m_StringPosition; // 0x1DC
 	protected int m_StringSelectPosition; // 0x1E0
@@ -853,23 +853,23 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	private float m_KeyDownStartTime; // 0x25C
 	private float m_DoubleClickDelay; // 0x260
 	private const string kEmailSpecialCharacters = "!#$%&\'*+-/=?^_`{|}~";
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected TMP_FontAsset m_GlobalFontAsset; // 0x268
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_OnFocusSelectAll; // 0x270
 	protected bool m_isSelectAll; // 0x271
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_ResetOnDeActivation; // 0x272
 	private bool m_SelectionStillActive; // 0x273
 	private bool m_ReleaseSelection; // 0x274
 	private GameObject m_SelectedObject; // 0x278
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_RestoreOriginalTextOnEscape; // 0x280
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_isRichTextEditingAllowed; // 0x281
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected int m_LineLimit; // 0x284
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected TMP_InputValidator m_InputValidator; // 0x288
 	private bool m_isSelected; // 0x290
 	private bool m_IsStringPositionDirty; // 0x291
@@ -1287,7 +1287,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	// RVA: 0xC7DD90 Offset: 0xC7C390 VA: 0x180C7DD90
 	private void ON_TEXT_CHANGED(Object obj) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD1160 Offset: 0xD0560 VA: 0x1800D1160
+	[IteratorStateMachineAttribute] // RVA: 0xD11F0 Offset: 0xD05F0 VA: 0x1800D11F0
 	// RVA: 0xC76B10 Offset: 0xC75110 VA: 0x180C76B10
 	private IEnumerator CaretBlink() { }
 
@@ -1339,7 +1339,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	// RVA: 0xC7E340 Offset: 0xC7C940 VA: 0x180C7E340 Slot: 62
 	public virtual void OnDrag(PointerEventData eventData) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD12A0 Offset: 0xD06A0 VA: 0x1800D12A0
+	[IteratorStateMachineAttribute] // RVA: 0xD1330 Offset: 0xD0730 VA: 0x1800D1330
 	// RVA: 0xC7AFE0 Offset: 0xC795E0 VA: 0x180C7AFE0
 	private IEnumerator MouseDragOutsideRect(PointerEventData eventData) { }
 
@@ -1733,26 +1733,26 @@ private sealed class TMP_InputField.<CaretBlink>d__267 : IEnumerator<object>, IE
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0xDB5A10 Offset: 0xDB4010 VA: 0x180DB5A10 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDB5B60 Offset: 0xDB4160 VA: 0x180DB5B60 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
@@ -1771,26 +1771,26 @@ private sealed class TMP_InputField.<MouseDragOutsideRect>d__285 : IEnumerator<o
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0xDB5BB0 Offset: 0xDB41B0 VA: 0x180DB5BB0 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDB5E60 Offset: 0xDB4460 VA: 0x180DB5E60 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
@@ -2077,40 +2077,40 @@ public struct TMP_MeshInfo // TypeDefIndex: 6810
 
 	// Methods
 
-	// RVA: 0x122700 Offset: 0x121B00 VA: 0x180122700
+	// RVA: 0x122680 Offset: 0x121A80 VA: 0x180122680
 	public void .ctor(Mesh mesh, int size) { }
 
-	// RVA: 0x122710 Offset: 0x121B10 VA: 0x180122710
+	// RVA: 0x122690 Offset: 0x121A90 VA: 0x180122690
 	public void .ctor(Mesh mesh, int size, bool isVolumetric) { }
 
-	// RVA: 0x122500 Offset: 0x121900 VA: 0x180122500
+	// RVA: 0x122480 Offset: 0x121880 VA: 0x180122480
 	public void ResizeMeshInfo(int size) { }
 
-	// RVA: 0x122510 Offset: 0x121910 VA: 0x180122510
+	// RVA: 0x122490 Offset: 0x121890 VA: 0x180122490
 	public void ResizeMeshInfo(int size, bool isVolumetric) { }
 
-	// RVA: 0x122450 Offset: 0x121850 VA: 0x180122450
+	// RVA: 0x1223D0 Offset: 0x1217D0 VA: 0x1801223D0
 	public void Clear() { }
 
-	// RVA: 0x122310 Offset: 0x121710 VA: 0x180122310
+	// RVA: 0x122290 Offset: 0x121690 VA: 0x180122290
 	public void Clear(bool uploadChanges) { }
 
-	// RVA: 0x1222D0 Offset: 0x1216D0 VA: 0x1801222D0
+	// RVA: 0x122250 Offset: 0x121650 VA: 0x180122250
 	public void ClearUnusedVertices() { }
 
-	// RVA: 0x1221E0 Offset: 0x1215E0 VA: 0x1801221E0
+	// RVA: 0x122160 Offset: 0x121560 VA: 0x180122160
 	public void ClearUnusedVertices(int startIndex) { }
 
-	// RVA: 0x122210 Offset: 0x121610 VA: 0x180122210
+	// RVA: 0x122190 Offset: 0x121590 VA: 0x180122190
 	public void ClearUnusedVertices(int startIndex, bool updateMesh) { }
 
-	// RVA: 0x122520 Offset: 0x121920 VA: 0x180122520
+	// RVA: 0x1224A0 Offset: 0x1218A0 VA: 0x1801224A0
 	public void SortGeometry(VertexSortingOrder order) { }
 
-	// RVA: 0x1225A0 Offset: 0x1219A0 VA: 0x1801225A0
+	// RVA: 0x122520 Offset: 0x121920 VA: 0x180122520
 	public void SortGeometry(IList<int> sortingOrder) { }
 
-	// RVA: 0x1226F0 Offset: 0x121AF0 VA: 0x1801226F0
+	// RVA: 0x122670 Offset: 0x121A70 VA: 0x180122670
 	public void SwapVertexData(int src, int dst) { }
 
 	// RVA: 0xD9CF50 Offset: 0xD9B550 VA: 0x180D9CF50
@@ -2123,7 +2123,7 @@ internal class TMP_ObjectPool<T> // TypeDefIndex: 6811
 	private readonly Stack<T> m_Stack; // 0x0
 	private readonly UnityAction<T> m_ActionOnGet; // 0x0
 	private readonly UnityAction<T> m_ActionOnRelease; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <countAll>k__BackingField; // 0x0
 
 	// Properties
@@ -2133,7 +2133,7 @@ internal class TMP_ObjectPool<T> // TypeDefIndex: 6811
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public int get_countAll() { }
 	/* GenericInstMethod :
@@ -2142,7 +2142,7 @@ internal class TMP_ObjectPool<T> // TypeDefIndex: 6811
 	|-TMP_ObjectPool<object>.get_countAll
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	private void set_countAll(int value) { }
 	/* GenericInstMethod :
@@ -2208,13 +2208,13 @@ public struct TMP_FontStyleStack // TypeDefIndex: 6812
 
 	// Methods
 
-	// RVA: 0x1177C0 Offset: 0x116BC0 VA: 0x1801177C0
+	// RVA: 0x117740 Offset: 0x116B40 VA: 0x180117740
 	public void Clear() { }
 
-	// RVA: 0x117740 Offset: 0x116B40 VA: 0x180117740
+	// RVA: 0x1176C0 Offset: 0x116AC0 VA: 0x1801176C0
 	public byte Add(FontStyles style) { }
 
-	// RVA: 0x1177D0 Offset: 0x116BD0 VA: 0x1801177D0
+	// RVA: 0x117750 Offset: 0x116B50 VA: 0x180117750
 	public byte Remove(FontStyles style) { }
 
 }
@@ -2233,18 +2233,18 @@ public struct TMP_RichTextTagStack<T> // TypeDefIndex: 6813
 	public void .ctor(T[] tagStack) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x210500 Offset: 0x20F900 VA: 0x180210500
+	|-RVA: 0x210480 Offset: 0x20F880 VA: 0x180210480
 	|-TMP_RichTextTagStack<int>..ctor
 	|-TMP_RichTextTagStack<Int32Enum>..ctor
 	|-TMP_RichTextTagStack<float>..ctor
 	|-TMP_RichTextTagStack<TextAlignmentOptions>..ctor
 	|-TMP_RichTextTagStack<Color32>..ctor
 	|
-	|-RVA: 0x210650 Offset: 0x20FA50 VA: 0x180210650
+	|-RVA: 0x2105D0 Offset: 0x20F9D0 VA: 0x1802105D0
 	|-TMP_RichTextTagStack<object>..ctor
 	|-TMP_RichTextTagStack<TMP_ColorGradient>..ctor
 	|
-	|-RVA: 0x210730 Offset: 0x20FB30 VA: 0x180210730
+	|-RVA: 0x2106B0 Offset: 0x20FAB0 VA: 0x1802106B0
 	|-TMP_RichTextTagStack<MaterialReference>..ctor
 	*/
 
@@ -2252,17 +2252,17 @@ public struct TMP_RichTextTagStack<T> // TypeDefIndex: 6813
 	public void .ctor(int capacity) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x210550 Offset: 0x20F950 VA: 0x180210550
+	|-RVA: 0x2104D0 Offset: 0x20F8D0 VA: 0x1802104D0
 	|-TMP_RichTextTagStack<int>..ctor
 	|-TMP_RichTextTagStack<Int32Enum>..ctor
 	|-TMP_RichTextTagStack<float>..ctor
 	|-TMP_RichTextTagStack<FontWeight>..ctor
 	|-TMP_RichTextTagStack<Color32>..ctor
 	|
-	|-RVA: 0x2105D0 Offset: 0x20F9D0 VA: 0x1802105D0
+	|-RVA: 0x210550 Offset: 0x20F950 VA: 0x180210550
 	|-TMP_RichTextTagStack<object>..ctor
 	|
-	|-RVA: 0x2106A0 Offset: 0x20FAA0 VA: 0x1802106A0
+	|-RVA: 0x210620 Offset: 0x20FA20 VA: 0x180210620
 	|-TMP_RichTextTagStack<MaterialReference>..ctor
 	*/
 
@@ -2270,7 +2270,7 @@ public struct TMP_RichTextTagStack<T> // TypeDefIndex: 6813
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20F5A0 Offset: 0x20E9A0 VA: 0x18020F5A0
+	|-RVA: 0x20F520 Offset: 0x20E920 VA: 0x18020F520
 	|-TMP_RichTextTagStack<int>.Clear
 	|-TMP_RichTextTagStack<Int32Enum>.Clear
 	|-TMP_RichTextTagStack<object>.Clear
@@ -2283,21 +2283,21 @@ public struct TMP_RichTextTagStack<T> // TypeDefIndex: 6813
 	public void SetDefault(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2103D0 Offset: 0x20F7D0 VA: 0x1802103D0
+	|-RVA: 0x210350 Offset: 0x20F750 VA: 0x180210350
 	|-TMP_RichTextTagStack<int>.SetDefault
 	|-TMP_RichTextTagStack<Int32Enum>.SetDefault
 	|-TMP_RichTextTagStack<FontWeight>.SetDefault
 	|-TMP_RichTextTagStack<TextAlignmentOptions>.SetDefault
 	|-TMP_RichTextTagStack<Color32>.SetDefault
 	|
-	|-RVA: 0x210410 Offset: 0x20F810 VA: 0x180210410
+	|-RVA: 0x210390 Offset: 0x20F790 VA: 0x180210390
 	|-TMP_RichTextTagStack<object>.SetDefault
 	|-TMP_RichTextTagStack<TMP_ColorGradient>.SetDefault
 	|
-	|-RVA: 0x2104C0 Offset: 0x20F8C0 VA: 0x1802104C0
+	|-RVA: 0x210440 Offset: 0x20F840 VA: 0x180210440
 	|-TMP_RichTextTagStack<float>.SetDefault
 	|
-	|-RVA: 0x210460 Offset: 0x20F860 VA: 0x180210460
+	|-RVA: 0x2103E0 Offset: 0x20F7E0 VA: 0x1802103E0
 	|-TMP_RichTextTagStack<MaterialReference>.SetDefault
 	*/
 
@@ -2305,21 +2305,21 @@ public struct TMP_RichTextTagStack<T> // TypeDefIndex: 6813
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20F460 Offset: 0x20E860 VA: 0x18020F460
+	|-RVA: 0x20F3E0 Offset: 0x20E7E0 VA: 0x18020F3E0
 	|-TMP_RichTextTagStack<int>.Add
 	|-TMP_RichTextTagStack<Int32Enum>.Add
 	|-TMP_RichTextTagStack<FontWeight>.Add
 	|-TMP_RichTextTagStack<TextAlignmentOptions>.Add
 	|-TMP_RichTextTagStack<Color32>.Add
 	|
-	|-RVA: 0x20F4A0 Offset: 0x20E8A0 VA: 0x18020F4A0
+	|-RVA: 0x20F420 Offset: 0x20E820 VA: 0x18020F420
 	|-TMP_RichTextTagStack<object>.Add
 	|-TMP_RichTextTagStack<TMP_ColorGradient>.Add
 	|
-	|-RVA: 0x20F4F0 Offset: 0x20E8F0 VA: 0x18020F4F0
+	|-RVA: 0x20F470 Offset: 0x20E870 VA: 0x18020F470
 	|-TMP_RichTextTagStack<float>.Add
 	|
-	|-RVA: 0x20F530 Offset: 0x20E930 VA: 0x18020F530
+	|-RVA: 0x20F4B0 Offset: 0x20E8B0 VA: 0x18020F4B0
 	|-TMP_RichTextTagStack<MaterialReference>.Add
 	*/
 
@@ -2327,21 +2327,21 @@ public struct TMP_RichTextTagStack<T> // TypeDefIndex: 6813
 	public T Remove() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2102F0 Offset: 0x20F6F0 VA: 0x1802102F0
+	|-RVA: 0x210270 Offset: 0x20F670 VA: 0x180210270
 	|-TMP_RichTextTagStack<int>.Remove
 	|-TMP_RichTextTagStack<Int32Enum>.Remove
 	|-TMP_RichTextTagStack<FontWeight>.Remove
 	|-TMP_RichTextTagStack<TextAlignmentOptions>.Remove
 	|-TMP_RichTextTagStack<Color32>.Remove
 	|
-	|-RVA: 0x210360 Offset: 0x20F760 VA: 0x180210360
+	|-RVA: 0x2102E0 Offset: 0x20F6E0 VA: 0x1802102E0
 	|-TMP_RichTextTagStack<object>.Remove
 	|-TMP_RichTextTagStack<TMP_ColorGradient>.Remove
 	|
-	|-RVA: 0x2101C0 Offset: 0x20F5C0 VA: 0x1802101C0
+	|-RVA: 0x210140 Offset: 0x20F540 VA: 0x180210140
 	|-TMP_RichTextTagStack<float>.Remove
 	|
-	|-RVA: 0x210240 Offset: 0x20F640 VA: 0x180210240
+	|-RVA: 0x2101C0 Offset: 0x20F5C0 VA: 0x1802101C0
 	|-TMP_RichTextTagStack<MaterialReference>.Remove
 	*/
 
@@ -2349,20 +2349,20 @@ public struct TMP_RichTextTagStack<T> // TypeDefIndex: 6813
 	public void Push(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20FD10 Offset: 0x20F110 VA: 0x18020FD10
+	|-RVA: 0x20FC90 Offset: 0x20F090 VA: 0x18020FC90
 	|-TMP_RichTextTagStack<int>.Push
 	|-TMP_RichTextTagStack<Int32Enum>.Push
 	|
-	|-RVA: 0x20FFE0 Offset: 0x20F3E0 VA: 0x18020FFE0
+	|-RVA: 0x20FF60 Offset: 0x20F360 VA: 0x18020FF60
 	|-TMP_RichTextTagStack<object>.Push
 	|
-	|-RVA: 0x2100D0 Offset: 0x20F4D0 VA: 0x1802100D0
+	|-RVA: 0x210050 Offset: 0x20F450 VA: 0x180210050
 	|-TMP_RichTextTagStack<float>.Push
 	|
-	|-RVA: 0x20FDF0 Offset: 0x20F1F0 VA: 0x18020FDF0
+	|-RVA: 0x20FD70 Offset: 0x20F170 VA: 0x18020FD70
 	|-TMP_RichTextTagStack<MaterialReference>.Push
 	|
-	|-RVA: 0x20FF00 Offset: 0x20F300 VA: 0x18020FF00
+	|-RVA: 0x20FE80 Offset: 0x20F280 VA: 0x18020FE80
 	|-TMP_RichTextTagStack<Color32>.Push
 	*/
 
@@ -2370,18 +2370,18 @@ public struct TMP_RichTextTagStack<T> // TypeDefIndex: 6813
 	public T Pop() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20F9F0 Offset: 0x20EDF0 VA: 0x18020F9F0
+	|-RVA: 0x20F970 Offset: 0x20ED70 VA: 0x18020F970
 	|-TMP_RichTextTagStack<int>.Pop
 	|-TMP_RichTextTagStack<Int32Enum>.Pop
 	|-TMP_RichTextTagStack<Color32>.Pop
 	|
-	|-RVA: 0x20FA50 Offset: 0x20EE50 VA: 0x18020FA50
+	|-RVA: 0x20F9D0 Offset: 0x20EDD0 VA: 0x18020F9D0
 	|-TMP_RichTextTagStack<object>.Pop
 	|
-	|-RVA: 0x20FAC0 Offset: 0x20EEC0 VA: 0x18020FAC0
+	|-RVA: 0x20FA40 Offset: 0x20EE40 VA: 0x18020FA40
 	|-TMP_RichTextTagStack<float>.Pop
 	|
-	|-RVA: 0x20F900 Offset: 0x20ED00 VA: 0x18020F900
+	|-RVA: 0x20F880 Offset: 0x20EC80 VA: 0x18020F880
 	|-TMP_RichTextTagStack<MaterialReference>.Pop
 	*/
 
@@ -2389,19 +2389,19 @@ public struct TMP_RichTextTagStack<T> // TypeDefIndex: 6813
 	public T Peek() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20F790 Offset: 0x20EB90 VA: 0x18020F790
+	|-RVA: 0x20F710 Offset: 0x20EB10 VA: 0x18020F710
 	|-TMP_RichTextTagStack<int>.Peek
 	|-TMP_RichTextTagStack<Int32Enum>.Peek
 	|-TMP_RichTextTagStack<FontWeight>.Peek
 	|-TMP_RichTextTagStack<Color32>.Peek
 	|
-	|-RVA: 0x20F860 Offset: 0x20EC60 VA: 0x18020F860
+	|-RVA: 0x20F7E0 Offset: 0x20EBE0 VA: 0x18020F7E0
 	|-TMP_RichTextTagStack<object>.Peek
 	|
-	|-RVA: 0x20F8B0 Offset: 0x20ECB0 VA: 0x18020F8B0
+	|-RVA: 0x20F830 Offset: 0x20EC30 VA: 0x18020F830
 	|-TMP_RichTextTagStack<float>.Peek
 	|
-	|-RVA: 0x20F7E0 Offset: 0x20EBE0 VA: 0x18020F7E0
+	|-RVA: 0x20F760 Offset: 0x20EB60 VA: 0x18020F760
 	|-TMP_RichTextTagStack<MaterialReference>.Peek
 	*/
 
@@ -2409,18 +2409,18 @@ public struct TMP_RichTextTagStack<T> // TypeDefIndex: 6813
 	public T CurrentItem() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20F5B0 Offset: 0x20E9B0 VA: 0x18020F5B0
+	|-RVA: 0x20F530 Offset: 0x20E930 VA: 0x18020F530
 	|-TMP_RichTextTagStack<int>.CurrentItem
 	|-TMP_RichTextTagStack<Int32Enum>.CurrentItem
 	|-TMP_RichTextTagStack<Color32>.CurrentItem
 	|
-	|-RVA: 0x20F720 Offset: 0x20EB20 VA: 0x18020F720
+	|-RVA: 0x20F6A0 Offset: 0x20EAA0 VA: 0x18020F6A0
 	|-TMP_RichTextTagStack<object>.CurrentItem
 	|
-	|-RVA: 0x20F6B0 Offset: 0x20EAB0 VA: 0x18020F6B0
+	|-RVA: 0x20F630 Offset: 0x20EA30 VA: 0x18020F630
 	|-TMP_RichTextTagStack<float>.CurrentItem
 	|
-	|-RVA: 0x20F610 Offset: 0x20EA10 VA: 0x18020F610
+	|-RVA: 0x20F590 Offset: 0x20E990 VA: 0x18020F590
 	|-TMP_RichTextTagStack<MaterialReference>.CurrentItem
 	*/
 
@@ -2428,18 +2428,18 @@ public struct TMP_RichTextTagStack<T> // TypeDefIndex: 6813
 	public T PreviousItem() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20FB20 Offset: 0x20EF20 VA: 0x18020FB20
+	|-RVA: 0x20FAA0 Offset: 0x20EEA0 VA: 0x18020FAA0
 	|-TMP_RichTextTagStack<int>.PreviousItem
 	|-TMP_RichTextTagStack<Int32Enum>.PreviousItem
 	|-TMP_RichTextTagStack<Color32>.PreviousItem
 	|
-	|-RVA: 0x20FB90 Offset: 0x20EF90 VA: 0x18020FB90
+	|-RVA: 0x20FB10 Offset: 0x20EF10 VA: 0x18020FB10
 	|-TMP_RichTextTagStack<object>.PreviousItem
 	|
-	|-RVA: 0x20FCA0 Offset: 0x20F0A0 VA: 0x18020FCA0
+	|-RVA: 0x20FC20 Offset: 0x20F020 VA: 0x18020FC20
 	|-TMP_RichTextTagStack<float>.PreviousItem
 	|
-	|-RVA: 0x20FC00 Offset: 0x20F000 VA: 0x18020FC00
+	|-RVA: 0x20FB80 Offset: 0x20EF80 VA: 0x18020FB80
 	|-TMP_RichTextTagStack<MaterialReference>.PreviousItem
 	*/
 
@@ -2479,51 +2479,51 @@ public class TMP_SelectionCaret : MaskableGraphic // TypeDefIndex: 6819
 public class TMP_Settings : ScriptableObject // TypeDefIndex: 6820
 {	// Fields
 	private static TMP_Settings s_Instance; // 0x0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_enableWordWrapping; // 0x18
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_enableKerning; // 0x19
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_enableExtraPadding; // 0x1A
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_enableTintAllSprites; // 0x1B
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_EnableRaycastTarget; // 0x1C
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_GetFontFeaturesAtRuntime; // 0x1D
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int m_missingGlyphCharacter; // 0x20
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_warningsDisabled; // 0x24
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_FontAsset m_defaultFontAsset; // 0x28
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string m_defaultFontAssetPath; // 0x30
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_defaultFontSize; // 0x38
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_defaultAutoSizeMinRatio; // 0x3C
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_defaultAutoSizeMaxRatio; // 0x40
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Vector2 m_defaultTextMeshProTextContainerSize; // 0x44
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Vector2 m_defaultTextMeshProUITextContainerSize; // 0x4C
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_autoSizeTextContainer; // 0x54
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private List<TMP_FontAsset> m_fallbackFontAssets; // 0x58
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_matchMaterialPreset; // 0x60
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string m_defaultColorGradientPresetsPath; // 0x68
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_enableEmojiSupport; // 0x70
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TextAsset m_leadingCharacters; // 0x78
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TextAsset m_followingCharacters; // 0x80
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_Settings.LineBreakingTable m_linebreakingRules; // 0x88
 
 	// Properties
@@ -2670,24 +2670,24 @@ public class TMP_Settings.LineBreakingTable // TypeDefIndex: 6821
 
 public class TMP_SubMesh : MonoBehaviour // TypeDefIndex: 6823
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_FontAsset m_fontAsset; // 0x18
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Material m_material; // 0x20
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Material m_sharedMaterial; // 0x28
 	private Material m_fallbackMaterial; // 0x30
 	private Material m_fallbackSourceMaterial; // 0x38
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_isDefaultMaterial; // 0x40
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_padding; // 0x44
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Renderer m_renderer; // 0x48
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private MeshFilter m_meshFilter; // 0x50
 	private Mesh m_mesh; // 0x58
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TextMeshPro m_TextComponent; // 0x60
 	private bool m_isRegisteredForEvents; // 0x68
 
@@ -2808,26 +2808,26 @@ public class TMP_SubMesh : MonoBehaviour // TypeDefIndex: 6823
 
 public class TMP_SubMeshUI : MaskableGraphic, IClippable, IMaskable, IMaterialModifier // TypeDefIndex: 6824
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TMP_FontAsset m_fontAsset; // 0xC8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Material m_material; // 0xD0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Material m_sharedMaterial; // 0xD8
 	private Material m_fallbackMaterial; // 0xE0
 	private Material m_fallbackSourceMaterial; // 0xE8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_isDefaultMaterial; // 0xF0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_padding; // 0xF4
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private CanvasRenderer m_canvasRenderer; // 0xF8
 	private Mesh m_mesh; // 0x100
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TextMeshProUGUI m_TextComponent; // 0x108
 	private bool m_isRegisteredForEvents; // 0x110
 	private bool m_materialDirty; // 0x111
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int m_materialReferenceIndex; // 0x114
 
 	// Properties
@@ -2995,175 +2995,175 @@ public enum TMP_TextElementType // TypeDefIndex: 6830
 
 public abstract class TMP_Text : MaskableGraphic // TypeDefIndex: 6837
 {	// Fields
-	[SerializeField] // RVA: 0xD07D0 Offset: 0xCFBD0 VA: 0x1800D07D0
-	[TextAreaAttribute] // RVA: 0xD07D0 Offset: 0xCFBD0 VA: 0x1800D07D0
+	[SerializeField] // RVA: 0xD0860 Offset: 0xCFC60 VA: 0x1800D0860
+	[TextAreaAttribute] // RVA: 0xD0860 Offset: 0xCFC60 VA: 0x1800D0860
 	protected string m_text; // 0xC8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_isRightToLeft; // 0xD0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected TMP_FontAsset m_fontAsset; // 0xD8
 	protected TMP_FontAsset m_currentFontAsset; // 0xE0
 	protected bool m_isSDFShader; // 0xE8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected Material m_sharedMaterial; // 0xF0
 	protected Material m_currentMaterial; // 0xF8
 	protected MaterialReference[] m_materialReferences; // 0x100
 	protected Dictionary<int, int> m_materialReferenceIndexLookup; // 0x108
 	protected TMP_RichTextTagStack<MaterialReference> m_materialReferenceStack; // 0x110
 	protected int m_currentMaterialIndex; // 0x150
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected Material[] m_fontSharedMaterials; // 0x158
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected Material m_fontMaterial; // 0x160
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected Material[] m_fontMaterials; // 0x168
 	protected bool m_isMaterialDirty; // 0x170
-	[SerializeField] // RVA: 0xD7000 Offset: 0xD6400 VA: 0x1800D7000
-	[ColorUsageAttribute] // RVA: 0xD7000 Offset: 0xD6400 VA: 0x1800D7000
+	[SerializeField] // RVA: 0xD70A0 Offset: 0xD64A0 VA: 0x1800D70A0
+	[ColorUsageAttribute] // RVA: 0xD70A0 Offset: 0xD64A0 VA: 0x1800D70A0
 	protected Color32 m_fontColor32; // 0x174
-	[SerializeField] // RVA: 0xD7000 Offset: 0xD6400 VA: 0x1800D7000
-	[ColorUsageAttribute] // RVA: 0xD7000 Offset: 0xD6400 VA: 0x1800D7000
+	[SerializeField] // RVA: 0xD70A0 Offset: 0xD64A0 VA: 0x1800D70A0
+	[ColorUsageAttribute] // RVA: 0xD70A0 Offset: 0xD64A0 VA: 0x1800D70A0
 	protected Color m_fontColor; // 0x178
 	protected static Color32 s_colorWhite; // 0x0
 	protected Color32 m_underlineColor; // 0x188
 	protected Color32 m_strikethroughColor; // 0x18C
 	protected Color32 m_highlightColor; // 0x190
 	protected Vector4 m_highlightPadding; // 0x194
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_enableVertexGradient; // 0x1A4
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected ColorMode m_colorMode; // 0x1A8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected VertexGradient m_fontColorGradient; // 0x1AC
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected TMP_ColorGradient m_fontColorGradientPreset; // 0x1F0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_overrideHtmlColors; // 0x1F8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected Color32 m_faceColor; // 0x1FC
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected Color32 m_outlineColor; // 0x200
 	protected float m_outlineWidth; // 0x204
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_fontSize; // 0x208
 	protected float m_currentFontSize; // 0x20C
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_fontSizeBase; // 0x210
 	protected TMP_RichTextTagStack<float> m_sizeStack; // 0x218
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected FontWeight m_fontWeight; // 0x230
 	protected FontWeight m_FontWeightInternal; // 0x234
 	protected TMP_RichTextTagStack<FontWeight> m_FontWeightStack; // 0x238
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_enableAutoSizing; // 0x250
 	protected float m_maxFontSize; // 0x254
 	protected float m_minFontSize; // 0x258
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_fontSizeMin; // 0x25C
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_fontSizeMax; // 0x260
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected FontStyles m_fontStyle; // 0x264
 	protected FontStyles m_FontStyleInternal; // 0x268
 	protected TMP_FontStyleStack m_fontStyleStack; // 0x26C
 	protected bool m_isUsingBold; // 0x276
-	[SerializeField] // RVA: 0xD8DC0 Offset: 0xD81C0 VA: 0x1800D8DC0
-	[FormerlySerializedAsAttribute] // RVA: 0xD8DC0 Offset: 0xD81C0 VA: 0x1800D8DC0
+	[SerializeField] // RVA: 0xD8E70 Offset: 0xD8270 VA: 0x1800D8E70
+	[FormerlySerializedAsAttribute] // RVA: 0xD8E70 Offset: 0xD8270 VA: 0x1800D8E70
 	protected TextAlignmentOptions m_textAlignment; // 0x278
 	protected TextAlignmentOptions m_lineJustification; // 0x27C
 	protected TMP_RichTextTagStack<TextAlignmentOptions> m_lineJustificationStack; // 0x280
 	protected Vector3[] m_textContainerLocalCorners; // 0x298
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_characterSpacing; // 0x2A0
 	protected float m_cSpacing; // 0x2A4
 	protected float m_monoSpacing; // 0x2A8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_wordSpacing; // 0x2AC
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_lineSpacing; // 0x2B0
 	protected float m_lineSpacingDelta; // 0x2B4
 	protected float m_lineHeight; // 0x2B8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_lineSpacingMax; // 0x2BC
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_paragraphSpacing; // 0x2C0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_charWidthMaxAdj; // 0x2C4
 	protected float m_charWidthAdjDelta; // 0x2C8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_enableWordWrapping; // 0x2CC
 	protected bool m_isCharacterWrappingEnabled; // 0x2CD
 	protected bool m_isNonBreakingSpace; // 0x2CE
 	protected bool m_isIgnoringAlignment; // 0x2CF
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_wordWrappingRatios; // 0x2D0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected TextOverflowModes m_overflowMode; // 0x2D4
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected int m_firstOverflowCharacterIndex; // 0x2D8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected TMP_Text m_linkedTextComponent; // 0x2E0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_isLinkedTextComponent; // 0x2E8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_isTextTruncated; // 0x2E9
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_enableKerning; // 0x2EA
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_enableExtraPadding; // 0x2EB
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool checkPaddingRequired; // 0x2EC
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_isRichText; // 0x2ED
 	protected bool m_isOverlay; // 0x2EE
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_isOrthographic; // 0x2EF
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_isCullingEnabled; // 0x2F0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_ignoreRectMaskCulling; // 0x2F1
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_ignoreCulling; // 0x2F2
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected TextureMappingOptions m_horizontalMapping; // 0x2F4
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected TextureMappingOptions m_verticalMapping; // 0x2F8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_uvLineOffset; // 0x2FC
 	protected TextRenderFlags m_renderMode; // 0x300
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected VertexSortingOrder m_geometrySortingOrder; // 0x304
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_VertexBufferAutoSizeReduction; // 0x308
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected int m_firstVisibleCharacter; // 0x30C
 	protected int m_maxVisibleCharacters; // 0x310
 	protected int m_maxVisibleWords; // 0x314
 	protected int m_maxVisibleLines; // 0x318
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_useMaxVisibleDescender; // 0x31C
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected int m_pageToDisplay; // 0x320
 	protected bool m_isNewPage; // 0x324
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected Vector4 m_margin; // 0x328
 	protected float m_marginLeft; // 0x338
 	protected float m_marginRight; // 0x33C
 	protected float m_marginWidth; // 0x340
 	protected float m_marginHeight; // 0x344
 	protected float m_width; // 0x348
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected TMP_TextInfo m_textInfo; // 0x350
 	protected bool m_havePropertiesChanged; // 0x358
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_isUsingLegacyAnimationComponent; // 0x359
 	protected Transform m_transform; // 0x360
 	protected RectTransform m_rectTransform; // 0x368
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <autoSizeTextContainer>k__BackingField; // 0x370
 	protected bool m_autoSizeTextContainer; // 0x371
 	protected Mesh m_mesh; // 0x378
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected bool m_isVolumetricText; // 0x380
 	protected float m_flexibleHeight; // 0x384
 	protected float m_flexibleWidth; // 0x388
@@ -3708,11 +3708,11 @@ public abstract class TMP_Text : MaskableGraphic // TypeDefIndex: 6837
 	// RVA: 0xDB4280 Offset: 0xDB2880 VA: 0x180DB4280
 	public RectTransform get_rectTransform() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDB3870 Offset: 0xDB1E70 VA: 0x180DB3870 Slot: 71
 	public virtual bool get_autoSizeTextContainer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDB44E0 Offset: 0xDB2AE0 VA: 0x180DB44E0 Slot: 72
 	public virtual void set_autoSizeTextContainer(bool value) { }
 
@@ -4076,14 +4076,14 @@ public abstract class TMP_Text : MaskableGraphic // TypeDefIndex: 6837
 
 public class TMP_TextElement // TypeDefIndex: 6840
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected TextElementType m_ElementType; // 0x10
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private uint m_Unicode; // 0x14
 	private Glyph m_Glyph; // 0x18
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private uint m_GlyphIndex; // 0x20
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_Scale; // 0x24
 
 	// Properties
@@ -4237,7 +4237,7 @@ public class TMP_TextInfo // TypeDefIndex: 6842
 
 public class TMP_TextParsingUtilities // TypeDefIndex: 6843
 {	// Fields
-	private static readonly TMP_TextParsingUtilities s_Instance; // 0x2B11394
+	private static readonly TMP_TextParsingUtilities s_Instance; // 0x2B103B4
 	private const string k_LookupStringL = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-";
 	private const string k_LookupStringU = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[-]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~-";
 
@@ -4367,7 +4367,7 @@ private struct TMP_TextUtilities.LineSegment // TypeDefIndex: 6847
 
 	// Methods
 
-	// RVA: 0x1BD6E0 Offset: 0x1BCAE0 VA: 0x1801BD6E0
+	// RVA: 0x1BD660 Offset: 0x1BCA60 VA: 0x1801BD660
 	public void .ctor(Vector3 p1, Vector3 p2) { }
 
 }
@@ -4541,13 +4541,13 @@ public struct TMP_LinkInfo // TypeDefIndex: 6858
 
 	// Methods
 
-	// RVA: 0x1220E0 Offset: 0x1214E0 VA: 0x1801220E0
+	// RVA: 0x122060 Offset: 0x121460 VA: 0x180122060
 	internal void SetLinkID(char[] text, int startIndex, int length) { }
 
-	// RVA: 0x122000 Offset: 0x121400 VA: 0x180122000
+	// RVA: 0x121F80 Offset: 0x121380 VA: 0x180121F80
 	public string GetLinkText() { }
 
-	// RVA: 0x121F60 Offset: 0x121360 VA: 0x180121F60
+	// RVA: 0x121EE0 Offset: 0x1212E0 VA: 0x180121EE0
 	public string GetLinkID() { }
 
 }
@@ -4561,7 +4561,7 @@ public struct TMP_WordInfo // TypeDefIndex: 6859
 
 	// Methods
 
-	// RVA: 0x1BD710 Offset: 0x1BCB10 VA: 0x1801BD710
+	// RVA: 0x1BD690 Offset: 0x1BCA90 VA: 0x1801BD690
 	public string GetWord() { }
 
 }

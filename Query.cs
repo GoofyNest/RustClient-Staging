@@ -31,47 +31,47 @@ public struct Query // TypeDefIndex: 5279
 
 	// Methods
 
-	// RVA: 0x224AF0 Offset: 0x223EF0 VA: 0x180224AF0
+	// RVA: 0x224A70 Offset: 0x223E70 VA: 0x180224A70
 	public void .ctor(UgcType type) { }
 
-	// RVA: 0x19D6E00 Offset: 0x19D5400 VA: 0x1819D6E00
+	// RVA: 0x19D6DC0 Offset: 0x19D53C0 VA: 0x1819D6DC0
 	public static Query get_All() { }
 
-	// RVA: 0x2247C0 Offset: 0x223BC0 VA: 0x1802247C0
+	// RVA: 0x224740 Offset: 0x223B40 VA: 0x180224740
 	public Query RankedByPublicationDate() { }
 
-	// RVA: 0x224760 Offset: 0x223B60 VA: 0x180224760
+	// RVA: 0x2246E0 Offset: 0x223AE0 VA: 0x1802246E0
 	public Query RankedByAcceptanceDate() { }
 
-	// RVA: 0x224820 Offset: 0x223C20 VA: 0x180224820
+	// RVA: 0x2247A0 Offset: 0x223BA0 VA: 0x1802247A0
 	public Query RankedByTrend() { }
 
-	// RVA: 0x224690 Offset: 0x223A90 VA: 0x180224690
+	// RVA: 0x224610 Offset: 0x223A10 VA: 0x180224610
 	internal Query LimitUser(SteamId steamid) { }
 
-	// RVA: 0x224880 Offset: 0x223C80 VA: 0x180224880
+	// RVA: 0x224800 Offset: 0x223C00 VA: 0x180224800
 	public Query WhereUserPublished(SteamId user) { }
 
-	// RVA: 0x224910 Offset: 0x223D10 VA: 0x180224910
+	// RVA: 0x224890 Offset: 0x223C90 VA: 0x180224890
 	public Query WithFileId(PublishedFileId[] files) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9F690 Offset: 0x9EA90 VA: 0x18009F690
-	// RVA: 0x224680 Offset: 0x223A80 VA: 0x180224680
+	[AsyncStateMachineAttribute] // RVA: 0x9F740 Offset: 0x9EB40 VA: 0x18009F740
+	// RVA: 0x224600 Offset: 0x223A00 VA: 0x180224600
 	public Task<Nullable<ResultPage>> GetPageAsync(int page) { }
 
-	// RVA: 0x224A30 Offset: 0x223E30 VA: 0x180224A30
+	// RVA: 0x2249B0 Offset: 0x223DB0 VA: 0x1802249B0
 	public Query WithTrendDays(int days) { }
 
-	// RVA: 0x2246B0 Offset: 0x223AB0 VA: 0x1802246B0
+	// RVA: 0x224630 Offset: 0x223A30 VA: 0x180224630
 	public Query MatchAllTags() { }
 
-	// RVA: 0x224930 Offset: 0x223D30 VA: 0x180224930
+	// RVA: 0x2248B0 Offset: 0x223CB0 VA: 0x1802248B0
 	public Query WithTag(string tag) { }
 
-	// RVA: 0x224660 Offset: 0x223A60 VA: 0x180224660
+	// RVA: 0x2245E0 Offset: 0x2239E0 VA: 0x1802245E0
 	private void ApplyConstraints(UGCQueryHandle_t handle) { }
 
-	// RVA: 0x224670 Offset: 0x223A70 VA: 0x180224670
+	// RVA: 0x2245F0 Offset: 0x2239F0 VA: 0x1802245F0
 	private void ApplyReturns(UGCQueryHandle_t handle) { }
 
 }
@@ -86,11 +86,11 @@ private struct Query.<GetPageAsync>d__76 : IAsyncStateMachine // TypeDefIndex: 5
 
 	// Methods
 
-	// RVA: 0x224E90 Offset: 0x224290 VA: 0x180224E90 Slot: 4
+	// RVA: 0x224E10 Offset: 0x224210 VA: 0x180224E10 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x224EA0 Offset: 0x2242A0 VA: 0x180224EA0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x224E20 Offset: 0x224220 VA: 0x180224E20 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

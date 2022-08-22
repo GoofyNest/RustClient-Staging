@@ -129,7 +129,7 @@ public static class Parser.DateTime // TypeDefIndex: 5791
 
 private sealed class Parser.DateTime.<>c // TypeDefIndex: 5792
 {	// Fields
-	public static readonly Parser.DateTime.<>c <>9; // 0x2B11240
+	public static readonly Parser.DateTime.<>c <>9; // 0x2B10260
 
 	// Methods
 

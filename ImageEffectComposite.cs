@@ -15,7 +15,7 @@ public class ImageEffectComposite : MonoBehaviour // TypeDefIndex: 8030
 	// RVA: 0x106D6D0 Offset: 0x106BCD0 VA: 0x18106D6D0
 	public void Remove(ImageEffectLayer effect) { }
 
-	[ImageEffectTransformsToLDR] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ImageEffectTransformsToLDR] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x106D200 Offset: 0x106B800 VA: 0x18106D200
 	private void OnRenderImage(RenderTexture src, RenderTexture dst) { }
 

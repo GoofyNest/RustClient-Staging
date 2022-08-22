@@ -15,130 +15,130 @@ internal class Peer // TypeDefIndex: 7334
 
 	// Methods
 
-	// RVA: 0x22CE050 Offset: 0x22CC650 VA: 0x1822CE050
+	// RVA: 0x22CDE90 Offset: 0x22CC490 VA: 0x1822CDE90
 	public static Peer CreateServer(string ip, int port, int maxConnections) { }
 
-	// RVA: 0x22CDB80 Offset: 0x22CC180 VA: 0x1822CDB80
+	// RVA: 0x22CD9C0 Offset: 0x22CBFC0 VA: 0x1822CD9C0
 	public static Peer CreateConnection(string hostname, int port, int retries, int retryDelay, int timeout) { }
 
-	// RVA: 0x22CDAC0 Offset: 0x22CC0C0 VA: 0x1822CDAC0
+	// RVA: 0x22CD900 Offset: 0x22CBF00 VA: 0x1822CD900
 	public void Close() { }
 
-	// RVA: 0x22CEE20 Offset: 0x22CD420 VA: 0x1822CEE20
+	// RVA: 0x22CEC60 Offset: 0x22CD260 VA: 0x1822CEC60
 	public uint PendingReceiveCount() { }
 
-	// RVA: 0x22CF260 Offset: 0x22CD860 VA: 0x1822CF260
+	// RVA: 0x22CF0A0 Offset: 0x22CD6A0 VA: 0x1822CF0A0
 	public bool Receive() { }
 
-	// RVA: 0x22CFD30 Offset: 0x22CE330 VA: 0x1822CFD30 Slot: 4
+	// RVA: 0x22CFB70 Offset: 0x22CE170 VA: 0x1822CFB70 Slot: 4
 	public virtual ulong get_incomingGUID() { }
 
-	// RVA: 0x22CFA20 Offset: 0x22CE020 VA: 0x1822CFA20 Slot: 5
+	// RVA: 0x22CF860 Offset: 0x22CDE60 VA: 0x1822CF860 Slot: 5
 	public virtual uint get_incomingAddressInt() { }
 
-	// RVA: 0x22CFDC0 Offset: 0x22CE3C0 VA: 0x1822CFDC0 Slot: 6
+	// RVA: 0x22CFC00 Offset: 0x22CE200 VA: 0x1822CFC00 Slot: 6
 	public virtual uint get_incomingPort() { }
 
-	// RVA: 0x22CFAB0 Offset: 0x22CE0B0 VA: 0x1822CFAB0
+	// RVA: 0x22CF8F0 Offset: 0x22CDEF0 VA: 0x1822CF8F0
 	public string get_incomingAddress() { }
 
-	// RVA: 0x22CFC40 Offset: 0x22CE240 VA: 0x1822CFC40 Slot: 7
+	// RVA: 0x22CFA80 Offset: 0x22CE080 VA: 0x1822CFA80 Slot: 7
 	public virtual int get_incomingBits() { }
 
-	// RVA: 0x22CFBB0 Offset: 0x22CE1B0 VA: 0x1822CFBB0 Slot: 8
+	// RVA: 0x22CF9F0 Offset: 0x22CDFF0 VA: 0x1822CF9F0 Slot: 8
 	public virtual int get_incomingBitsUnread() { }
 
-	// RVA: 0x22CFD00 Offset: 0x22CE300 VA: 0x1822CFD00 Slot: 9
+	// RVA: 0x22CFB40 Offset: 0x22CE140 VA: 0x1822CFB40 Slot: 9
 	public virtual int get_incomingBytes() { }
 
-	// RVA: 0x22CFCD0 Offset: 0x22CE2D0 VA: 0x1822CFCD0 Slot: 10
+	// RVA: 0x22CFB10 Offset: 0x22CE110 VA: 0x1822CFB10 Slot: 10
 	public virtual int get_incomingBytesUnread() { }
 
-	// RVA: 0x22CF670 Offset: 0x22CDC70 VA: 0x1822CF670 Slot: 11
+	// RVA: 0x22CF4B0 Offset: 0x22CDAB0 VA: 0x1822CF4B0 Slot: 11
 	public virtual void SetReadPos(int bitsOffset) { }
 
-	// RVA: 0x22CF1B0 Offset: 0x22CD7B0 VA: 0x1822CF1B0 Slot: 12
+	// RVA: 0x22CEFF0 Offset: 0x22CD5F0 VA: 0x1822CEFF0 Slot: 12
 	protected virtual bool Read(byte* data, int length) { }
 
-	// RVA: 0x22CF160 Offset: 0x22CD760 VA: 0x1822CF160
+	// RVA: 0x22CEFA0 Offset: 0x22CD5A0 VA: 0x1822CEFA0
 	public int ReadBytes(byte[] buffer, int offset, int length) { }
 
-	// RVA: 0x22CEF70 Offset: 0x22CD570 VA: 0x1822CEF70
+	// RVA: 0x22CEDB0 Offset: 0x22CD3B0 VA: 0x1822CEDB0
 	public byte ReadByte() { }
 
-	// RVA: 0x22CEEE0 Offset: 0x22CD4E0 VA: 0x1822CEEE0 Slot: 13
+	// RVA: 0x22CED20 Offset: 0x22CD320 VA: 0x1822CED20 Slot: 13
 	public virtual IntPtr RawData() { }
 
-	// RVA: 0x22CF060 Offset: 0x22CD660 VA: 0x1822CF060
+	// RVA: 0x22CEEA0 Offset: 0x22CD4A0 VA: 0x1822CEEA0
 	public int ReadBytes(MemoryStream memoryStream, int length) { }
 
-	// RVA: 0x22CF410 Offset: 0x22CDA10 VA: 0x1822CF410 Slot: 14
+	// RVA: 0x22CF250 Offset: 0x22CD850 VA: 0x1822CF250 Slot: 14
 	public virtual void SendStart() { }
 
-	// RVA: 0x22CF7C0 Offset: 0x22CDDC0 VA: 0x1822CF7C0
+	// RVA: 0x22CF600 Offset: 0x22CDC00 VA: 0x1822CF600
 	public void WriteByte(byte val) { }
 
-	// RVA: 0x22CF840 Offset: 0x22CDE40 VA: 0x1822CF840
+	// RVA: 0x22CF680 Offset: 0x22CDC80 VA: 0x1822CF680
 	public void WriteBytes(byte[] val, int offset, int length) { }
 
-	// RVA: 0x22CF7F0 Offset: 0x22CDDF0 VA: 0x1822CF7F0
+	// RVA: 0x22CF630 Offset: 0x22CDC30 VA: 0x1822CF630
 	public void WriteBytes(byte[] val) { }
 
-	// RVA: 0x22CF880 Offset: 0x22CDE80 VA: 0x1822CF880
+	// RVA: 0x22CF6C0 Offset: 0x22CDCC0 VA: 0x1822CF6C0
 	public void WriteBytes(MemoryStream stream) { }
 
-	// RVA: 0x22CF910 Offset: 0x22CDF10 VA: 0x1822CF910 Slot: 15
+	// RVA: 0x22CF750 Offset: 0x22CDD50 VA: 0x1822CF750 Slot: 15
 	protected virtual void Write(byte* data, int size) { }
 
-	// RVA: 0x22CF320 Offset: 0x22CD920 VA: 0x1822CF320 Slot: 16
+	// RVA: 0x22CF160 Offset: 0x22CD760 VA: 0x1822CF160 Slot: 16
 	public virtual uint SendBroadcast(Priority priority, SendMethod reliability, sbyte channel) { }
 
-	// RVA: 0x22CF4A0 Offset: 0x22CDAA0 VA: 0x1822CF4A0 Slot: 17
+	// RVA: 0x22CF2E0 Offset: 0x22CD8E0 VA: 0x1822CF2E0 Slot: 17
 	public virtual uint SendTo(ulong guid, Priority priority, SendMethod reliability, sbyte channel) { }
 
-	// RVA: 0x22CF5A0 Offset: 0x22CDBA0 VA: 0x1822CF5A0
+	// RVA: 0x22CF3E0 Offset: 0x22CD9E0 VA: 0x1822CF3E0
 	public void SendUnconnectedMessage(byte* data, int length, uint adr, ushort port) { }
 
-	// RVA: 0x22CE450 Offset: 0x22CCA50 VA: 0x1822CE450
+	// RVA: 0x22CE290 Offset: 0x22CC890 VA: 0x1822CE290
 	public string GetAddress(ulong guid) { }
 
-	// RVA: 0x22CF710 Offset: 0x22CDD10 VA: 0x1822CF710
+	// RVA: 0x22CF550 Offset: 0x22CDB50 VA: 0x1822CF550
 	private static string StringFromPointer(IntPtr p) { }
 
-	// RVA: 0x22CF7B0 Offset: 0x22CDDB0 VA: 0x1822CF7B0
+	// RVA: 0x22CF5F0 Offset: 0x22CDBF0 VA: 0x1822CF5F0
 	public int ToRaknetPriority(Priority priority) { }
 
-	// RVA: 0x22CF790 Offset: 0x22CDD90 VA: 0x1822CF790
+	// RVA: 0x22CF5D0 Offset: 0x22CDBD0 VA: 0x1822CF5D0
 	public int ToRaknetPacketReliability(SendMethod reliability) { }
 
-	// RVA: 0x22CED60 Offset: 0x22CD360 VA: 0x1822CED60
+	// RVA: 0x22CEBA0 Offset: 0x22CD1A0 VA: 0x1822CEBA0
 	public void Kick(Connection connection) { }
 
-	// RVA: 0x22CDA50 Offset: 0x22CC050 VA: 0x1822CDA50 Slot: 18
+	// RVA: 0x22CD890 Offset: 0x22CBE90 VA: 0x1822CD890 Slot: 18
 	protected virtual void Check() { }
 
-	// RVA: 0x22CE900 Offset: 0x22CCF00 VA: 0x1822CE900 Slot: 19
+	// RVA: 0x22CE740 Offset: 0x22CCD40 VA: 0x1822CE740 Slot: 19
 	public virtual string GetStatisticsString(ulong guid) { }
 
-	// RVA: 0x22CE540 Offset: 0x22CCB40 VA: 0x1822CE540 Slot: 20
+	// RVA: 0x22CE380 Offset: 0x22CC980 VA: 0x1822CE380 Slot: 20
 	public virtual int GetPingAverage(ulong guid) { }
 
-	// RVA: 0x22CE5E0 Offset: 0x22CCBE0 VA: 0x1822CE5E0 Slot: 21
+	// RVA: 0x22CE420 Offset: 0x22CCA20 VA: 0x1822CE420 Slot: 21
 	public virtual int GetPingLast(ulong guid) { }
 
-	// RVA: 0x22CE680 Offset: 0x22CCC80 VA: 0x1822CE680 Slot: 22
+	// RVA: 0x22CE4C0 Offset: 0x22CCAC0 VA: 0x1822CE4C0 Slot: 22
 	public virtual int GetPingLowest(ulong guid) { }
 
-	// RVA: 0x22CEC10 Offset: 0x22CD210 VA: 0x1822CEC10 Slot: 23
+	// RVA: 0x22CEA50 Offset: 0x22CD050 VA: 0x1822CEA50 Slot: 23
 	public virtual Native.RaknetStats GetStatistics(ulong guid) { }
 
-	// RVA: 0x22CE720 Offset: 0x22CCD20 VA: 0x1822CE720 Slot: 24
+	// RVA: 0x22CE560 Offset: 0x22CCB60 VA: 0x1822CE560 Slot: 24
 	public virtual ulong GetStat(Connection connection, BaseNetwork.StatTypeLong type) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x22CF9D0 Offset: 0x22CDFD0 VA: 0x1822CF9D0
+	// RVA: 0x22CF810 Offset: 0x22CDE10 VA: 0x1822CF810
 	private static void .cctor() { }
 
 }

@@ -4,7 +4,7 @@ public static class TweenMode // TypeDefIndex: 5589
 
 	// Methods
 
-	// RVA: 0x21BDB20 Offset: 0x21BC120 VA: 0x1821BDB20
+	// RVA: 0x21BD960 Offset: 0x21BBF60 VA: 0x1821BD960
 	private static void .cctor() { }
 
 }

@@ -17,26 +17,26 @@ public sealed class SqliteConnection : DbConnection, ICloneable // TypeDefIndex:
 	private int _defaultTimeout; // 0x60
 	internal bool _binaryGuid; // 0x64
 	internal long _version; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SQLiteUpdateEventHandler _updateHandler; // 0x70
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SQLiteCommitHandler _commitHandler; // 0x78
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private EventHandler _rollbackHandler; // 0x80
 	private SQLiteUpdateCallback _updateCallback; // 0x88
 	private SQLiteCommitCallback _commitCallback; // 0x90
 	private SQLiteRollbackCallback _rollbackCallback; // 0x98
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private StateChangeEventHandler StateChange; // 0xA0
 
 	// Properties
-	[EditorAttribute] // RVA: 0xDD860 Offset: 0xDCC60 VA: 0x1800DD860
-	[RefreshPropertiesAttribute] // RVA: 0xDD860 Offset: 0xDCC60 VA: 0x1800DD860
-	[DefaultValueAttribute] // RVA: 0xDD860 Offset: 0xDCC60 VA: 0x1800DD860
+	[EditorAttribute] // RVA: 0xDD8C0 Offset: 0xDCCC0 VA: 0x1800DD8C0
+	[RefreshPropertiesAttribute] // RVA: 0xDD8C0 Offset: 0xDCCC0 VA: 0x1800DD8C0
+	[DefaultValueAttribute] // RVA: 0xDD8C0 Offset: 0xDCCC0 VA: 0x1800DD8C0
 	public override string ConnectionString { get; set; }
 	public int DefaultTimeout { get; }
-	[BrowsableAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
+	[BrowsableAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	public override ConnectionState State { get; }
 
 	// Methods
@@ -165,13 +165,13 @@ public sealed class SqliteFactory : DbProviderFactory, IServiceProvider // TypeD
 
 	// Methods
 
-	// RVA: 0x21F2500 Offset: 0x21F0B00 VA: 0x1821F2500
+	// RVA: 0x21F2340 Offset: 0x21F0940 VA: 0x1821F2340
 	private static void .cctor() { }
 
-	// RVA: 0x21F2240 Offset: 0x21F0840 VA: 0x1821F2240 Slot: 4
+	// RVA: 0x21F2080 Offset: 0x21F0680 VA: 0x1821F2080 Slot: 4
 	private object System.IServiceProvider.GetService(Type serviceType) { }
 
-	// RVA: 0x21F20A0 Offset: 0x21F06A0 VA: 0x1821F20A0
+	// RVA: 0x21F1EE0 Offset: 0x21F04E0 VA: 0x1821F1EE0
 	private object GetSQLiteProviderServicesInstance() { }
 
 	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
@@ -652,32 +652,32 @@ public sealed class SqliteCommand : DbCommand, ICloneable // TypeDefIndex: 4859
 	private SqliteTransaction _transaction; // 0x70
 
 	// Properties
-	[DefaultValueAttribute] // RVA: 0xDF030 Offset: 0xDE430 VA: 0x1800DF030
-	[RefreshPropertiesAttribute] // RVA: 0xDF030 Offset: 0xDE430 VA: 0x1800DF030
-	[EditorAttribute] // RVA: 0xDF030 Offset: 0xDE430 VA: 0x1800DF030
+	[DefaultValueAttribute] // RVA: 0xDF090 Offset: 0xDE490 VA: 0x1800DF090
+	[RefreshPropertiesAttribute] // RVA: 0xDF090 Offset: 0xDE490 VA: 0x1800DF090
+	[EditorAttribute] // RVA: 0xDF090 Offset: 0xDE490 VA: 0x1800DF090
 	public override string CommandText { get; set; }
-	[DefaultValueAttribute] // RVA: 0xDF120 Offset: 0xDE520 VA: 0x1800DF120
+	[DefaultValueAttribute] // RVA: 0xDF190 Offset: 0xDE590 VA: 0x1800DF190
 	public override int CommandTimeout { get; set; }
-	[DefaultValueAttribute] // RVA: 0xDF2C0 Offset: 0xDE6C0 VA: 0x1800DF2C0
-	[RefreshPropertiesAttribute] // RVA: 0xDF2C0 Offset: 0xDE6C0 VA: 0x1800DF2C0
+	[DefaultValueAttribute] // RVA: 0xDF340 Offset: 0xDE740 VA: 0x1800DF340
+	[RefreshPropertiesAttribute] // RVA: 0xDF340 Offset: 0xDE740 VA: 0x1800DF340
 	public override CommandType CommandType { set; }
-	[EditorAttribute] // RVA: 0xDF390 Offset: 0xDE790 VA: 0x1800DF390
-	[DefaultValueAttribute] // RVA: 0xDF390 Offset: 0xDE790 VA: 0x1800DF390
+	[EditorAttribute] // RVA: 0xDF440 Offset: 0xDE840 VA: 0x1800DF440
+	[DefaultValueAttribute] // RVA: 0xDF440 Offset: 0xDE840 VA: 0x1800DF440
 	public SqliteConnection Connection { get; set; }
 	protected override DbConnection DbConnection { get; set; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	public SqliteParameterCollection Parameters { get; }
 	protected override DbParameterCollection DbParameterCollection { get; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E7C0 Offset: 0x9DBC0 VA: 0x18009E7C0
-	[BrowsableAttribute] // RVA: 0x9E7C0 Offset: 0x9DBC0 VA: 0x18009E7C0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
+	[BrowsableAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
 	public SqliteTransaction Transaction { get; set; }
 	protected override DbTransaction DbTransaction { get; set; }
-	[DefaultValueAttribute] // RVA: 0xDF740 Offset: 0xDEB40 VA: 0x1800DF740
+	[DefaultValueAttribute] // RVA: 0xDF7C0 Offset: 0xDEBC0 VA: 0x1800DF7C0
 	public override UpdateRowSource UpdatedRowSource { get; set; }
-	[DefaultValueAttribute] // RVA: 0xDF820 Offset: 0xDEC20 VA: 0x1800DF820
-	[EditorBrowsableAttribute] // RVA: 0xDF820 Offset: 0xDEC20 VA: 0x1800DF820
-	[BrowsableAttribute] // RVA: 0xDF820 Offset: 0xDEC20 VA: 0x1800DF820
-	[DesignOnlyAttribute] // RVA: 0xDF820 Offset: 0xDEC20 VA: 0x1800DF820
+	[DefaultValueAttribute] // RVA: 0xDF8D0 Offset: 0xDECD0 VA: 0x1800DF8D0
+	[EditorBrowsableAttribute] // RVA: 0xDF8D0 Offset: 0xDECD0 VA: 0x1800DF8D0
+	[BrowsableAttribute] // RVA: 0xDF8D0 Offset: 0xDECD0 VA: 0x1800DF8D0
+	[DesignOnlyAttribute] // RVA: 0xDF8D0 Offset: 0xDECD0 VA: 0x1800DF8D0
 	public override bool DesignTimeVisible { get; set; }
 
 	// Methods
@@ -798,16 +798,16 @@ public sealed class SqliteCommand : DbCommand, ICloneable // TypeDefIndex: 4859
 public sealed class SqliteCommandBuilder : DbCommandBuilder // TypeDefIndex: 4860
 {	// Properties
 	public SqliteDataAdapter DataAdapter { set; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public override CatalogLocation CatalogLocation { get; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public override string CatalogSeparator { get; }
-	[DefaultValueAttribute] // RVA: 0xDFBB0 Offset: 0xDEFB0 VA: 0x1800DFBB0
-	[BrowsableAttribute] // RVA: 0xDFBB0 Offset: 0xDEFB0 VA: 0x1800DFBB0
+	[DefaultValueAttribute] // RVA: 0xDFC30 Offset: 0xDF030 VA: 0x1800DFC30
+	[BrowsableAttribute] // RVA: 0xDFC30 Offset: 0xDF030 VA: 0x1800DFC30
 	public override string QuotePrefix { get; set; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public override string QuoteSuffix { get; set; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public override string SchemaSeparator { get; }
 
 	// Methods
@@ -1117,7 +1117,7 @@ internal struct SQLiteTypeNames // TypeDefIndex: 4874
 
 	// Methods
 
-	// RVA: 0xF91E0 Offset: 0xF85E0 VA: 0x1800F91E0
+	// RVA: 0xF9160 Offset: 0xF8560 VA: 0x1800F9160
 	internal void .ctor(string newtypeName, DbType newdataType) { }
 
 }
@@ -1275,19 +1275,19 @@ public sealed class SqliteException : DbException // TypeDefIndex: 4878
 
 	// Methods
 
-	// RVA: 0x21F1EF0 Offset: 0x21F04F0 VA: 0x1821F1EF0
+	// RVA: 0x21F1D30 Offset: 0x21F0330 VA: 0x1821F1D30
 	private void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x21F1F10 Offset: 0x21F0510 VA: 0x1821F1F10
+	// RVA: 0x21F1D50 Offset: 0x21F0350 VA: 0x1821F1D50
 	public void .ctor(int errorCode, string extendedInformation) { }
 
-	// RVA: 0x21F2090 Offset: 0x21F0690 VA: 0x1821F2090
+	// RVA: 0x21F1ED0 Offset: 0x21F04D0 VA: 0x1821F1ED0
 	public void .ctor() { }
 
-	// RVA: 0x21F12D0 Offset: 0x21EF8D0 VA: 0x1821F12D0
+	// RVA: 0x21F1110 Offset: 0x21EF710 VA: 0x1821F1110
 	private static string GetStockErrorMessage(int errorCode, string errorMessage) { }
 
-	// RVA: 0x21F13D0 Offset: 0x21EF9D0 VA: 0x1821F13D0
+	// RVA: 0x21F1210 Offset: 0x21EF810 VA: 0x1821F1210
 	private static void .cctor() { }
 
 }
@@ -1353,31 +1353,31 @@ public abstract class SqliteFunction // TypeDefIndex: 4880
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 7
 	public virtual int Compare(string param1, string param2) { }
 
-	// RVA: 0x21F2B30 Offset: 0x21F1130 VA: 0x1821F2B30
+	// RVA: 0x21F2970 Offset: 0x21F0F70 VA: 0x1821F2970
 	internal object[] ConvertParams(int nArgs, IntPtr argsptr) { }
 
-	// RVA: 0x21F3210 Offset: 0x21F1810 VA: 0x1821F3210
+	// RVA: 0x21F3050 Offset: 0x21F1650 VA: 0x1821F3050
 	private void SetReturnValue(IntPtr context, object returnValue) { }
 
-	// RVA: 0x21F31B0 Offset: 0x21F17B0 VA: 0x1821F31B0
+	// RVA: 0x21F2FF0 Offset: 0x21F15F0 VA: 0x1821F2FF0
 	internal void ScalarCallback(IntPtr context, int nArgs, IntPtr argsptr) { }
 
-	// RVA: 0x21F2A90 Offset: 0x21F1090 VA: 0x1821F2A90
+	// RVA: 0x21F28D0 Offset: 0x21F0ED0 VA: 0x1821F28D0
 	internal int CompareCallback(IntPtr ptr, int len1, IntPtr ptr1, int len2, IntPtr ptr2) { }
 
-	// RVA: 0x21F2A30 Offset: 0x21F1030 VA: 0x1821F2A30
+	// RVA: 0x21F2870 Offset: 0x21F0E70 VA: 0x1821F2870
 	internal int CompareCallback16(IntPtr ptr, int len1, IntPtr ptr1, int len2, IntPtr ptr2) { }
 
-	// RVA: 0x21F35C0 Offset: 0x21F1BC0 VA: 0x1821F35C0
+	// RVA: 0x21F3400 Offset: 0x21F1A00 VA: 0x1821F3400
 	internal void StepCallback(IntPtr context, int nArgs, IntPtr argsptr) { }
 
-	// RVA: 0x21F3080 Offset: 0x21F1680 VA: 0x1821F3080
+	// RVA: 0x21F2EC0 Offset: 0x21F14C0 VA: 0x1821F2EC0
 	internal void FinalCallback(IntPtr context) { }
 
-	// RVA: 0x21F3760 Offset: 0x21F1D60 VA: 0x1821F3760
+	// RVA: 0x21F35A0 Offset: 0x21F1BA0 VA: 0x1821F35A0
 	private static void .cctor() { }
 
-	// RVA: 0x21F25D0 Offset: 0x21F0BD0 VA: 0x1821F25D0
+	// RVA: 0x21F2410 Offset: 0x21F0A10 VA: 0x1821F2410
 	internal static SqliteFunction[] BindFunctions(SQLiteBase sqlbase) { }
 
 }
@@ -1481,52 +1481,52 @@ internal sealed class SqliteKeyReader : IDisposable // TypeDefIndex: 4888
 
 	// Methods
 
-	// RVA: 0x21F5360 Offset: 0x21F3960 VA: 0x1821F5360
+	// RVA: 0x21F51A0 Offset: 0x21F37A0 VA: 0x1821F51A0
 	internal void .ctor(SqliteConnection cnn, SqliteDataReader reader, SqliteStatement stmt) { }
 
 	// RVA: 0xD86ED0 Offset: 0xD854D0 VA: 0x180D86ED0
 	internal int get_Count() { }
 
-	// RVA: 0x21F52C0 Offset: 0x21F38C0 VA: 0x1821F52C0
+	// RVA: 0x21F5100 Offset: 0x21F3700 VA: 0x1821F5100
 	internal void Sync(int i) { }
 
-	// RVA: 0x21F51D0 Offset: 0x21F37D0 VA: 0x1821F51D0
+	// RVA: 0x21F5010 Offset: 0x21F3610 VA: 0x1821F5010
 	internal void Sync() { }
 
-	// RVA: 0x21F5100 Offset: 0x21F3700 VA: 0x1821F5100
+	// RVA: 0x21F4F40 Offset: 0x21F3540 VA: 0x1821F4F40
 	internal void Reset() { }
 
-	// RVA: 0x21F45B0 Offset: 0x21F2BB0 VA: 0x1821F45B0 Slot: 4
+	// RVA: 0x21F43F0 Offset: 0x21F29F0 VA: 0x1821F43F0 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x21F4720 Offset: 0x21F2D20 VA: 0x1821F4720
+	// RVA: 0x21F4560 Offset: 0x21F2B60 VA: 0x1821F4560
 	internal string GetDataTypeName(int i) { }
 
-	// RVA: 0x21F47D0 Offset: 0x21F2DD0 VA: 0x1821F47D0
+	// RVA: 0x21F4610 Offset: 0x21F2C10 VA: 0x1821F4610
 	internal Type GetFieldType(int i) { }
 
-	// RVA: 0x21F4B00 Offset: 0x21F3100 VA: 0x1821F4B00
+	// RVA: 0x21F4940 Offset: 0x21F2F40 VA: 0x1821F4940
 	internal string GetName(int i) { }
 
-	// RVA: 0x21F4650 Offset: 0x21F2C50 VA: 0x1821F4650
+	// RVA: 0x21F4490 Offset: 0x21F2A90 VA: 0x1821F4490
 	internal bool GetBoolean(int i) { }
 
-	// RVA: 0x21F48A0 Offset: 0x21F2EA0 VA: 0x1821F48A0
+	// RVA: 0x21F46E0 Offset: 0x21F2CE0 VA: 0x1821F46E0
 	internal int GetInt32(int i) { }
 
-	// RVA: 0x21F49D0 Offset: 0x21F2FD0 VA: 0x1821F49D0
+	// RVA: 0x21F4810 Offset: 0x21F2E10 VA: 0x1821F4810
 	internal long GetInt64(int i) { }
 
-	// RVA: 0x21F4B40 Offset: 0x21F3140 VA: 0x1821F4B40
+	// RVA: 0x21F4980 Offset: 0x21F2F80 VA: 0x1821F4980
 	internal string GetString(int i) { }
 
-	// RVA: 0x21F4C10 Offset: 0x21F3210 VA: 0x1821F4C10
+	// RVA: 0x21F4A50 Offset: 0x21F3050 VA: 0x1821F4A50
 	internal object GetValue(int i) { }
 
-	// RVA: 0x21F4FA0 Offset: 0x21F35A0 VA: 0x1821F4FA0
+	// RVA: 0x21F4DE0 Offset: 0x21F33E0 VA: 0x1821F4DE0
 	internal bool IsDBNull(int i) { }
 
-	// RVA: 0x21F3BA0 Offset: 0x21F21A0 VA: 0x1821F3BA0
+	// RVA: 0x21F39E0 Offset: 0x21F1FE0 VA: 0x1821F39E0
 	internal void AppendSchemaTable(DataTable tbl) { }
 
 }
@@ -1554,16 +1554,16 @@ private sealed class SqliteKeyReader.KeyQuery : IDisposable // TypeDefIndex: 489
 
 	// Methods
 
-	// RVA: 0x21F0F20 Offset: 0x21EF520 VA: 0x1821F0F20
+	// RVA: 0x21F0D60 Offset: 0x21EF360 VA: 0x1821F0D60
 	internal void .ctor(SqliteConnection cnn, string database, string table, string[] columns) { }
 
-	// RVA: 0x21F1240 Offset: 0x21EF840 VA: 0x1821F1240
+	// RVA: 0x21F1080 Offset: 0x21EF680 VA: 0x1821F1080
 	internal void set_IsValid(bool value) { }
 
-	// RVA: 0x21F0DC0 Offset: 0x21EF3C0 VA: 0x1821F0DC0
+	// RVA: 0x21F0C00 Offset: 0x21EF200 VA: 0x1821F0C00
 	internal void Sync(long rowid) { }
 
-	// RVA: 0x21F0D40 Offset: 0x21EF340 VA: 0x1821F0D40 Slot: 4
+	// RVA: 0x21F0B80 Offset: 0x21EF180 VA: 0x1821F0B80 Slot: 4
 	public void Dispose() { }
 
 }
@@ -1581,36 +1581,36 @@ public sealed class SqliteParameter : DbParameter, ICloneable // TypeDefIndex: 4
 
 	// Properties
 	public override bool IsNullable { get; set; }
-	[RefreshPropertiesAttribute] // RVA: 0xE0A40 Offset: 0xDFE40 VA: 0x1800E0A40
-	[DbProviderSpecificTypePropertyAttribute] // RVA: 0xE0A40 Offset: 0xDFE40 VA: 0x1800E0A40
+	[RefreshPropertiesAttribute] // RVA: 0xE0AC0 Offset: 0xDFEC0 VA: 0x1800E0AC0
+	[DbProviderSpecificTypePropertyAttribute] // RVA: 0xE0AC0 Offset: 0xDFEC0 VA: 0x1800E0AC0
 	public override DbType DbType { get; set; }
 	public override ParameterDirection Direction { get; set; }
 	public override string ParameterName { get; set; }
-	[DefaultValueAttribute] // RVA: 0xE0BF0 Offset: 0xDFFF0 VA: 0x1800E0BF0
+	[DefaultValueAttribute] // RVA: 0xE0C60 Offset: 0xE0060 VA: 0x1800E0C60
 	public override int Size { set; }
 	public override string SourceColumn { get; set; }
 	public override bool SourceColumnNullMapping { set; }
 	public override DataRowVersion SourceVersion { get; set; }
-	[TypeConverterAttribute] // RVA: 0xE0C10 Offset: 0xE0010 VA: 0x1800E0C10
-	[RefreshPropertiesAttribute] // RVA: 0xE0C10 Offset: 0xE0010 VA: 0x1800E0C10
+	[TypeConverterAttribute] // RVA: 0xE0C80 Offset: 0xE0080 VA: 0x1800E0C80
+	[RefreshPropertiesAttribute] // RVA: 0xE0C80 Offset: 0xE0080 VA: 0x1800E0C80
 	public override object Value { get; set; }
 
 	// Methods
 
-	// RVA: 0x21F7C20 Offset: 0x21F6220 VA: 0x1821F7C20
+	// RVA: 0x21F7A60 Offset: 0x21F6060 VA: 0x1821F7A60
 	public void .ctor() { }
 
-	// RVA: 0x21F7FA0 Offset: 0x21F65A0 VA: 0x1821F7FA0
+	// RVA: 0x21F7DE0 Offset: 0x21F63E0 VA: 0x1821F7DE0
 	public void .ctor(string parameterName, object value) { }
 
-	// RVA: 0x21F7F10 Offset: 0x21F6510 VA: 0x1821F7F10
+	// RVA: 0x21F7D50 Offset: 0x21F6350 VA: 0x1821F7D50
 	public void .ctor(string parameterName, DbType parameterType, int parameterSize, string sourceColumn, DataRowVersion rowVersion) { }
 
-	// RVA: 0x21F7D70 Offset: 0x21F6370 VA: 0x1821F7D70
+	// RVA: 0x21F7BB0 Offset: 0x21F61B0 VA: 0x1821F7BB0
 	private void .ctor(SqliteParameter source) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
-	// RVA: 0x21F7C90 Offset: 0x21F6290 VA: 0x1821F7C90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
+	// RVA: 0x21F7AD0 Offset: 0x21F60D0 VA: 0x1821F7AD0
 	public void .ctor(string parameterName, DbType parameterType, int parameterSize, ParameterDirection direction, bool isNullable, byte precision, byte scale, string sourceColumn, DataRowVersion rowVersion, object value) { }
 
 	// RVA: 0xC659E0 Offset: 0xC63FE0 VA: 0x180C659E0 Slot: 10
@@ -1619,7 +1619,7 @@ public sealed class SqliteParameter : DbParameter, ICloneable // TypeDefIndex: 4
 	// RVA: 0xE72CA0 Offset: 0xE712A0 VA: 0x180E72CA0 Slot: 11
 	public override void set_IsNullable(bool value) { }
 
-	// RVA: 0x21F8030 Offset: 0x21F6630 VA: 0x1821F8030 Slot: 6
+	// RVA: 0x21F7E70 Offset: 0x21F6470 VA: 0x1821F7E70 Slot: 6
 	public override DbType get_DbType() { }
 
 	// RVA: 0x7D0C80 Offset: 0x7CF280 VA: 0x1807D0C80 Slot: 7
@@ -1628,7 +1628,7 @@ public sealed class SqliteParameter : DbParameter, ICloneable // TypeDefIndex: 4
 	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 8
 	public override ParameterDirection get_Direction() { }
 
-	// RVA: 0x21F8100 Offset: 0x21F6700 VA: 0x1821F8100 Slot: 9
+	// RVA: 0x21F7F40 Offset: 0x21F6540 VA: 0x1821F7F40 Slot: 9
 	public override void set_Direction(ParameterDirection value) { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050 Slot: 12
@@ -1646,7 +1646,7 @@ public sealed class SqliteParameter : DbParameter, ICloneable // TypeDefIndex: 4
 	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340 Slot: 16
 	public override void set_SourceColumn(string value) { }
 
-	// RVA: 0x21F8160 Offset: 0x21F6760 VA: 0x1821F8160 Slot: 17
+	// RVA: 0x21F7FA0 Offset: 0x21F65A0 VA: 0x1821F7FA0 Slot: 17
 	public override void set_SourceColumnNullMapping(bool value) { }
 
 	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460 Slot: 18
@@ -1658,10 +1658,10 @@ public sealed class SqliteParameter : DbParameter, ICloneable // TypeDefIndex: 4
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 20
 	public override object get_Value() { }
 
-	// RVA: 0x21F8170 Offset: 0x21F6770 VA: 0x1821F8170 Slot: 21
+	// RVA: 0x21F7FB0 Offset: 0x21F65B0 VA: 0x1821F7FB0 Slot: 21
 	public override void set_Value(object value) { }
 
-	// RVA: 0x21F7A50 Offset: 0x21F6050 VA: 0x1821F7A50 Slot: 22
+	// RVA: 0x21F7890 Offset: 0x21F5E90 VA: 0x1821F7890 Slot: 22
 	public object Clone() { }
 
 }
@@ -1681,7 +1681,7 @@ public sealed class SqliteParameterCollection : DbParameterCollection // TypeDef
 
 	// Methods
 
-	// RVA: 0x21F7920 Offset: 0x21F5F20 VA: 0x1821F7920
+	// RVA: 0x21F7760 Offset: 0x21F5D60 VA: 0x1821F7760
 	internal void .ctor(SqliteCommand cmd) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 22
@@ -1693,59 +1693,59 @@ public sealed class SqliteParameterCollection : DbParameterCollection // TypeDef
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 24
 	public override object get_SyncRoot() { }
 
-	// RVA: 0x21F70C0 Offset: 0x21F56C0 VA: 0x1821F70C0 Slot: 29
+	// RVA: 0x21F6F00 Offset: 0x21F5500 VA: 0x1821F6F00 Slot: 29
 	public override IEnumerator GetEnumerator() { }
 
-	// RVA: 0x21F6EC0 Offset: 0x21F54C0 VA: 0x1821F6EC0
+	// RVA: 0x21F6D00 Offset: 0x21F5300 VA: 0x1821F6D00
 	public int Add(SqliteParameter parameter) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x7D6F0 Offset: 0x7CAF0 VA: 0x18007D6F0
-	// RVA: 0x21F6E50 Offset: 0x21F5450 VA: 0x1821F6E50 Slot: 25
+	[EditorBrowsableAttribute] // RVA: 0x7D7C0 Offset: 0x7CBC0 VA: 0x18007D7C0
+	// RVA: 0x21F6C90 Offset: 0x21F5290 VA: 0x1821F6C90 Slot: 25
 	public override int Add(object value) { }
 
-	// RVA: 0x21F6D70 Offset: 0x21F5370 VA: 0x1821F6D70
+	// RVA: 0x21F6BB0 Offset: 0x21F51B0 VA: 0x1821F6BB0
 	public SqliteParameter AddWithValue(string parameterName, object value) { }
 
-	// RVA: 0x21F6FA0 Offset: 0x21F55A0 VA: 0x1821F6FA0 Slot: 28
+	// RVA: 0x21F6DE0 Offset: 0x21F53E0 VA: 0x1821F6DE0 Slot: 28
 	public override void Clear() { }
 
-	// RVA: 0x21F6FF0 Offset: 0x21F55F0 VA: 0x1821F6FF0 Slot: 26
+	// RVA: 0x21F6E30 Offset: 0x21F5430 VA: 0x1821F6E30 Slot: 26
 	public override bool Contains(object value) { }
 
-	// RVA: 0x21F7070 Offset: 0x21F5670 VA: 0x1821F7070 Slot: 27
+	// RVA: 0x21F6EB0 Offset: 0x21F54B0 VA: 0x1821F6EB0 Slot: 27
 	public override void CopyTo(Array array, int index) { }
 
-	// RVA: 0x21F79A0 Offset: 0x21F5FA0 VA: 0x1821F79A0 Slot: 21
+	// RVA: 0x21F77E0 Offset: 0x21F5DE0 VA: 0x1821F77E0 Slot: 21
 	public override int get_Count() { }
 
-	// RVA: 0x21F79E0 Offset: 0x21F5FE0 VA: 0x1821F79E0
+	// RVA: 0x21F7820 Offset: 0x21F5E20 VA: 0x1821F7820
 	public SqliteParameter get_Item(int index) { }
 
-	// RVA: 0x21F7140 Offset: 0x21F5740 VA: 0x1821F7140 Slot: 30
+	// RVA: 0x21F6F80 Offset: 0x21F5580 VA: 0x1821F6F80 Slot: 30
 	protected override DbParameter GetParameter(int index) { }
 
-	// RVA: 0x21F71A0 Offset: 0x21F57A0 VA: 0x1821F71A0 Slot: 32
+	// RVA: 0x21F6FE0 Offset: 0x21F55E0 VA: 0x1821F6FE0 Slot: 32
 	public override int IndexOf(string parameterName) { }
 
-	// RVA: 0x21F72E0 Offset: 0x21F58E0 VA: 0x1821F72E0 Slot: 31
+	// RVA: 0x21F7120 Offset: 0x21F5720 VA: 0x1821F7120 Slot: 31
 	public override int IndexOf(object value) { }
 
-	// RVA: 0x21F7360 Offset: 0x21F5960 VA: 0x1821F7360 Slot: 33
+	// RVA: 0x21F71A0 Offset: 0x21F57A0 VA: 0x1821F71A0 Slot: 33
 	public override void Insert(int index, object value) { }
 
-	// RVA: 0x21F7810 Offset: 0x21F5E10 VA: 0x1821F7810 Slot: 34
+	// RVA: 0x21F7650 Offset: 0x21F5C50 VA: 0x1821F7650 Slot: 34
 	public override void Remove(object value) { }
 
-	// RVA: 0x21F77B0 Offset: 0x21F5DB0 VA: 0x1821F77B0 Slot: 35
+	// RVA: 0x21F75F0 Offset: 0x21F5BF0 VA: 0x1821F75F0 Slot: 35
 	public override void RemoveAt(int index) { }
 
-	// RVA: 0x21F7890 Offset: 0x21F5E90 VA: 0x1821F7890 Slot: 36
+	// RVA: 0x21F76D0 Offset: 0x21F5CD0 VA: 0x1821F76D0 Slot: 36
 	protected override void SetParameter(int index, DbParameter value) { }
 
 	// RVA: 0x4A04D0 Offset: 0x49EAD0 VA: 0x1804A04D0
 	internal void Unbind() { }
 
-	// RVA: 0x21F73F0 Offset: 0x21F59F0 VA: 0x1821F73F0
+	// RVA: 0x21F7230 Offset: 0x21F5830 VA: 0x1821F7230
 	internal void MapParameters(SqliteStatement activeStatement) { }
 
 }
@@ -1766,25 +1766,25 @@ internal sealed class SqliteStatement : IDisposable // TypeDefIndex: 4893
 
 	// Methods
 
-	// RVA: 0x21F8F20 Offset: 0x21F7520 VA: 0x1821F8F20
+	// RVA: 0x21F8D60 Offset: 0x21F7360 VA: 0x1821F8D60
 	internal void .ctor(SQLiteBase sqlbase, SqliteStatementHandle stmt, string strCommand, SqliteStatement previous) { }
 
-	// RVA: 0x21F8AC0 Offset: 0x21F70C0 VA: 0x1821F8AC0
+	// RVA: 0x21F8900 Offset: 0x21F6F00 VA: 0x1821F8900
 	internal bool MapParameter(string s, SqliteParameter p) { }
 
-	// RVA: 0x21F8A40 Offset: 0x21F7040 VA: 0x1821F8A40 Slot: 4
+	// RVA: 0x21F8880 Offset: 0x21F6E80 VA: 0x1821F8880 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x21F89C0 Offset: 0x21F6FC0 VA: 0x1821F89C0
+	// RVA: 0x21F8800 Offset: 0x21F6E00 VA: 0x1821F8800
 	internal void BindParameters() { }
 
-	// RVA: 0x21F8410 Offset: 0x21F6A10 VA: 0x1821F8410
+	// RVA: 0x21F8250 Offset: 0x21F6850 VA: 0x1821F8250
 	private void BindParameter(int index, SqliteParameter param) { }
 
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	internal string[] get_TypeDefinitions() { }
 
-	// RVA: 0x21F8CD0 Offset: 0x21F72D0 VA: 0x1821F8CD0
+	// RVA: 0x21F8B10 Offset: 0x21F7110 VA: 0x1821F8B10
 	internal void SetTypes(string typedefs) { }
 
 }
@@ -1800,25 +1800,25 @@ public sealed class SqliteTransaction : DbTransaction // TypeDefIndex: 4894
 
 	// Methods
 
-	// RVA: 0x21F96C0 Offset: 0x21F7CC0 VA: 0x1821F96C0
+	// RVA: 0x21F9500 Offset: 0x21F7B00 VA: 0x1821F9500
 	internal void .ctor(SqliteConnection connection, bool deferredLock) { }
 
-	// RVA: 0x21F9170 Offset: 0x21F7770 VA: 0x1821F9170 Slot: 7
+	// RVA: 0x21F8FB0 Offset: 0x21F75B0 VA: 0x1821F8FB0 Slot: 7
 	public override void Commit() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public SqliteConnection get_Connection() { }
 
-	// RVA: 0x21F92C0 Offset: 0x21F78C0 VA: 0x1821F92C0 Slot: 8
+	// RVA: 0x21F9100 Offset: 0x21F7700 VA: 0x1821F9100 Slot: 8
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x21F9670 Offset: 0x21F7C70 VA: 0x1821F9670 Slot: 9
+	// RVA: 0x21F94B0 Offset: 0x21F7AB0 VA: 0x1821F94B0 Slot: 9
 	public override void Rollback() { }
 
-	// RVA: 0x21F9560 Offset: 0x21F7B60 VA: 0x1821F9560
+	// RVA: 0x21F93A0 Offset: 0x21F79A0 VA: 0x1821F93A0
 	internal static void IssueRollback(SqliteConnection cnn) { }
 
-	// RVA: 0x21F9400 Offset: 0x21F7A00 VA: 0x1821F9400
+	// RVA: 0x21F9240 Offset: 0x21F7840 VA: 0x1821F9240
 	internal bool IsValid(bool throwError) { }
 
 }
@@ -1858,19 +1858,19 @@ internal class SqliteStatementHandle : CriticalHandle // TypeDefIndex: 4898
 	// RVA: 0x691E10 Offset: 0x690410 VA: 0x180691E10
 	public static IntPtr op_Implicit(SqliteStatementHandle stmt) { }
 
-	// RVA: 0x21F8390 Offset: 0x21F6990 VA: 0x1821F8390
+	// RVA: 0x21F81D0 Offset: 0x21F67D0 VA: 0x1821F81D0
 	public static SqliteStatementHandle op_Implicit(IntPtr stmt) { }
 
-	// RVA: 0x21F82C0 Offset: 0x21F68C0 VA: 0x1821F82C0
+	// RVA: 0x21F8100 Offset: 0x21F6700 VA: 0x1821F8100
 	private void .ctor(IntPtr stmt) { }
 
-	// RVA: 0x21F8310 Offset: 0x21F6910 VA: 0x1821F8310
+	// RVA: 0x21F8150 Offset: 0x21F6750 VA: 0x1821F8150
 	internal void .ctor() { }
 
-	// RVA: 0x21F8250 Offset: 0x21F6850 VA: 0x1821F8250 Slot: 7
+	// RVA: 0x21F8090 Offset: 0x21F6690 VA: 0x1821F8090 Slot: 7
 	protected override bool ReleaseHandle() { }
 
-	// RVA: 0x21F8350 Offset: 0x21F6950 VA: 0x1821F8350 Slot: 5
+	// RVA: 0x21F8190 Offset: 0x21F6790 VA: 0x1821F8190 Slot: 5
 	public override bool get_IsInvalid() { }
 
 }
@@ -1878,7 +1878,7 @@ internal class SqliteStatementHandle : CriticalHandle // TypeDefIndex: 4898
 public class SqliteException : Exception // TypeDefIndex: 7360
 {	// Methods
 
-	// RVA: 0x231F0A0 Offset: 0x231D6A0 VA: 0x18231F0A0
+	// RVA: 0x231EEE0 Offset: 0x231D4E0 VA: 0x18231EEE0
 	public void .ctor(string message) { }
 
 }

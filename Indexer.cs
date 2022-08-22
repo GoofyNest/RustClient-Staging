@@ -13,43 +13,43 @@ public class Indexer // TypeDefIndex: 6641
 
 	// Methods
 
-	// RVA: 0x22CA320 Offset: 0x22C8920 VA: 0x1822CA320
+	// RVA: 0x22CA160 Offset: 0x22C8760 VA: 0x1822CA160
 	public TimeSpan get_TotalLength() { }
 
 	// RVA: 0x8D8F10 Offset: 0x8D7510 VA: 0x1808D8F10
 	public long get_Interval() { }
 
-	// RVA: 0x22C9F80 Offset: 0x22C8580 VA: 0x1822C9F80
+	// RVA: 0x22C9DC0 Offset: 0x22C83C0 VA: 0x1822C9DC0
 	internal void .ctor(Reader reader) { }
 
-	// RVA: 0x22C9960 Offset: 0x22C7F60 VA: 0x1822C9960
+	// RVA: 0x22C97A0 Offset: 0x22C7DA0 VA: 0x1822C97A0
 	private void ProcessPacket(Packet packet) { }
 
-	// RVA: 0x22C94F0 Offset: 0x22C7AF0 VA: 0x1822C94F0
+	// RVA: 0x22C9330 Offset: 0x22C7930 VA: 0x1822C9330
 	private void EntityUpdated(uint ent) { }
 
-	// RVA: 0x22C92E0 Offset: 0x22C78E0 VA: 0x1822C92E0
+	// RVA: 0x22C9120 Offset: 0x22C7720 VA: 0x1822C9120
 	private void EntityPosition(BinaryReader reader) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void RpcMessage(BinaryReader reader) { }
 
-	// RVA: 0x22C98D0 Offset: 0x22C7ED0 VA: 0x1822C98D0
+	// RVA: 0x22C9710 Offset: 0x22C7D10 VA: 0x1822C9710
 	internal Indexer.Keyframe LookupKeyframeForTime(long time) { }
 
-	// RVA: 0x22C9830 Offset: 0x22C7E30 VA: 0x1822C9830
+	// RVA: 0x22C9670 Offset: 0x22C7C70 VA: 0x1822C9670
 	internal Indexer.Keyframe GetKeyframe(int index) { }
 
-	// RVA: 0x22C9560 Offset: 0x22C7B60 VA: 0x1822C9560
+	// RVA: 0x22C93A0 Offset: 0x22C79A0 VA: 0x1822C93A0
 	internal HashSet<uint> GetChangedEntities(long from, long to) { }
 
-	// RVA: 0x22C9220 Offset: 0x22C7820 VA: 0x1822C9220
+	// RVA: 0x22C9060 Offset: 0x22C7660 VA: 0x1822C9060
 	private void EntityDestroy(BinaryReader reader) { }
 
-	// RVA: 0x22C9070 Offset: 0x22C7670 VA: 0x1822C9070
+	// RVA: 0x22C8EB0 Offset: 0x22C74B0 VA: 0x1822C8EB0
 	private void Entities(BinaryReader reader) { }
 
-	// RVA: 0x22C9C10 Offset: 0x22C8210 VA: 0x1822C9C10
+	// RVA: 0x22C9A50 Offset: 0x22C8050 VA: 0x1822C9A50
 	private void TryCreateKeyframe(Packet packet) { }
 
 }
@@ -66,10 +66,10 @@ public class Indexer.Entity // TypeDefIndex: 6642
 
 	// Methods
 
-	// RVA: 0x22C9040 Offset: 0x22C7640 VA: 0x1822C9040
+	// RVA: 0x22C8E80 Offset: 0x22C7480 VA: 0x1822C8E80
 	public uint get_UId() { }
 
-	// RVA: 0x22C8FA0 Offset: 0x22C75A0 VA: 0x1822C8FA0
+	// RVA: 0x22C8DE0 Offset: 0x22C73E0 VA: 0x1822C8DE0
 	public Indexer.Entity Copy() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -86,10 +86,10 @@ public class Indexer.Keyframe // TypeDefIndex: 6643
 
 	// Methods
 
-	// RVA: 0x22CA3E0 Offset: 0x22C89E0 VA: 0x1822CA3E0
+	// RVA: 0x22CA220 Offset: 0x22C8820 VA: 0x1822CA220
 	public void Init() { }
 
-	// RVA: 0x22CA380 Offset: 0x22C8980 VA: 0x1822CA380
+	// RVA: 0x22CA1C0 Offset: 0x22C87C0 VA: 0x1822CA1C0
 	public bool HasEntity(uint iD) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -105,13 +105,13 @@ private sealed class Indexer.Keyframe.<>c // TypeDefIndex: 6644
 
 	// Methods
 
-	// RVA: 0x22CB3C0 Offset: 0x22C99C0 VA: 0x1822CB3C0
+	// RVA: 0x22CB200 Offset: 0x22C9800 VA: 0x1822CB200
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x22CB2C0 Offset: 0x22C98C0 VA: 0x1822CB2C0
+	// RVA: 0x22CB100 Offset: 0x22C9700 VA: 0x1822CB100
 	internal uint <Init>b__4_0(Indexer.Entity x) { }
 
 	// RVA: 0x7B4E80 Offset: 0x7B3480 VA: 0x1807B4E80
@@ -126,13 +126,13 @@ private sealed class Indexer.<>c // TypeDefIndex: 6645
 
 	// Methods
 
-	// RVA: 0x22CB420 Offset: 0x22C9A20 VA: 0x1822CB420
+	// RVA: 0x22CB260 Offset: 0x22C9860 VA: 0x1822CB260
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x22CB2F0 Offset: 0x22C98F0 VA: 0x1822CB2F0
+	// RVA: 0x22CB130 Offset: 0x22C9730 VA: 0x1822CB130
 	internal Indexer.Entity <TryCreateKeyframe>b__21_0(KeyValuePair<uint, Indexer.Entity> x) { }
 
 }

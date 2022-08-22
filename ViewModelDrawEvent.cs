@@ -9,13 +9,13 @@ public struct ViewModelDrawEvent : IEquatable<ViewModelDrawEvent> // TypeDefInde
 
 	// Methods
 
-	// RVA: 0xF8970 Offset: 0xF7D70 VA: 0x1800F8970 Slot: 4
+	// RVA: 0xF88F0 Offset: 0xF7CF0 VA: 0x1800F88F0 Slot: 4
 	public bool Equals(ViewModelDrawEvent other) { }
 
-	// RVA: 0xF89B0 Offset: 0xF7DB0 VA: 0x1800F89B0 Slot: 0
+	// RVA: 0xF8930 Offset: 0xF7D30 VA: 0x1800F8930 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xF8A60 Offset: 0xF7E60 VA: 0x1800F8A60 Slot: 2
+	// RVA: 0xF89E0 Offset: 0xF7DE0 VA: 0x1800F89E0 Slot: 2
 	public override int GetHashCode() { }
 
 }

@@ -33,10 +33,10 @@ internal static class TimeSpanConverter // TypeDefIndex: 7481
 	|-TimeSpanConverter.ConvertTo<object>
 	*/
 
-	// RVA: 0x22026B0 Offset: 0x2200CB0 VA: 0x1822026B0
+	// RVA: 0x22024F0 Offset: 0x2200AF0 VA: 0x1822024F0
 	public static ITimeSpan ConvertTo(ITimeSpan timeSpan, Type timeSpanType, long time, TempoMap tempoMap) { }
 
-	// RVA: 0x2202580 Offset: 0x2200B80 VA: 0x182202580
+	// RVA: 0x22023C0 Offset: 0x22009C0 VA: 0x1822023C0
 	public static long ConvertFrom(ITimeSpan timeSpan, long time, TempoMap tempoMap) { }
 
 	// RVA: -1 Offset: -1
@@ -47,10 +47,10 @@ internal static class TimeSpanConverter // TypeDefIndex: 7481
 	|-TimeSpanConverter.GetConverter<object>
 	*/
 
-	// RVA: 0x2202840 Offset: 0x2200E40 VA: 0x182202840
+	// RVA: 0x2202680 Offset: 0x2200C80 VA: 0x182202680
 	private static ITimeSpanConverter GetConverter(Type timeSpanType) { }
 
-	// RVA: 0x2202920 Offset: 0x2200F20 VA: 0x182202920
+	// RVA: 0x2202760 Offset: 0x2200D60 VA: 0x182202760
 	private static void .cctor() { }
 
 }

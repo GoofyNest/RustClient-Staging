@@ -1,6 +1,6 @@
 public struct LayerSelect // TypeDefIndex: 11429
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int layer; // 0x0
 
 	// Properties
@@ -9,7 +9,7 @@ public struct LayerSelect // TypeDefIndex: 11429
 
 	// Methods
 
-	// RVA: 0xF38D0 Offset: 0xF2CD0 VA: 0x1800F38D0
+	// RVA: 0xF3850 Offset: 0xF2C50 VA: 0x1800F3850
 	public void .ctor(int layer) { }
 
 	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
@@ -18,10 +18,10 @@ public struct LayerSelect // TypeDefIndex: 11429
 	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
 	public static LayerSelect op_Implicit(int layer) { }
 
-	// RVA: 0xF38E0 Offset: 0xF2CE0 VA: 0x1800F38E0
+	// RVA: 0xF3860 Offset: 0xF2C60 VA: 0x1800F3860
 	public int get_Mask() { }
 
-	// RVA: 0xF38F0 Offset: 0xF2CF0 VA: 0x1800F38F0
+	// RVA: 0xF3870 Offset: 0xF2C70 VA: 0x1800F3870
 	public string get_Name() { }
 
 }

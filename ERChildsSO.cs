@@ -8,7 +8,7 @@ public struct ERChildsSO // TypeDefIndex: 7246
 
 	// Methods
 
-	// RVA: 0xFD200 Offset: 0xFC600 VA: 0x1800FD200
+	// RVA: 0xFD180 Offset: 0xFC580 VA: 0x1800FD180
 	public void .ctor(int _id) { }
 
 }

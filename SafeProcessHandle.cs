@@ -1,6 +1,6 @@
 public sealed class SafeProcessHandle : SafeHandleZeroOrMinusOneIsInvalid // TypeDefIndex: 2563
 {	// Fields
-	internal static SafeProcessHandle InvalidHandle; // 0x2B11188
+	internal static SafeProcessHandle InvalidHandle; // 0x2B101A8
 
 	// Methods
 

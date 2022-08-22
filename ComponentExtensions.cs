@@ -1,7 +1,7 @@
 public static class ComponentExtensions // TypeDefIndex: 6223
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static T Duplicate<T>(T obj) { }
 	/* GenericInstMethod :
@@ -11,17 +11,17 @@ public static class ComponentExtensions // TypeDefIndex: 6223
 	|-ComponentExtensions.Duplicate<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static T[] Duplicate<T>(T obj, int amount, bool includeOriginalInArray = False) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A37170 Offset: 0x1A35770 VA: 0x181A37170
+	|-RVA: 0x1A37130 Offset: 0x1A35730 VA: 0x181A37130
 	|-ComponentExtensions.Duplicate<ESPPlayerInfo>
 	|-ComponentExtensions.Duplicate<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static void SetActive<T>(T obj, bool active) { }
 	/* GenericInstMethod :
@@ -40,25 +40,25 @@ public static class ComponentExtensions // TypeDefIndex: 6223
 	|-ComponentExtensions.SetActive<Text>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static Vector2 WorldToRectTransform<T>(T obj, Vector2 worldPos) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A37450 Offset: 0x1A35A50 VA: 0x181A37450
+	|-RVA: 0x1A37410 Offset: 0x1A35A10 VA: 0x181A37410
 	|-ComponentExtensions.WorldToRectTransform<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static Rect GetWorldRect<T>(T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A37230 Offset: 0x1A35830 VA: 0x181A37230
+	|-RVA: 0x1A371F0 Offset: 0x1A357F0 VA: 0x181A371F0
 	|-ComponentExtensions.GetWorldRect<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool GetComponent<T, U>(T obj, out U value) { }
 	/* GenericInstMethod :
@@ -67,7 +67,7 @@ public static class ComponentExtensions // TypeDefIndex: 6223
 	|-ComponentExtensions.GetComponent<object, object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool GetComponentInParent<T, U>(T obj, out U value) { }
 	/* GenericInstMethod :
@@ -76,7 +76,7 @@ public static class ComponentExtensions // TypeDefIndex: 6223
 	|-ComponentExtensions.GetComponentInParent<object, object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool GetComponentInChildren<T, U>(T obj, out U value) { }
 	/* GenericInstMethod :

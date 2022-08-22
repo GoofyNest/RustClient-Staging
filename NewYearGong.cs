@@ -15,7 +15,7 @@ public class NewYearGong : BaseCombatEntity // TypeDefIndex: 8609
 	// RVA: 0x9D0900 Offset: 0x9CEF00 VA: 0x1809D0900 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x9D0D50 Offset: 0x9CF350 VA: 0x1809D0D50
 	public void PlaySound(BaseEntity.RPCMessage msg) { }
 

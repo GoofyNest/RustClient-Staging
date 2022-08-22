@@ -1,17 +1,17 @@
 internal static class ReflectionUtils // TypeDefIndex: 5965
 {	// Fields
-	public static readonly Type[] EmptyTypes; // 0x2B11170
+	public static readonly Type[] EmptyTypes; // 0x2B10190
 
 	// Methods
 
 	// RVA: 0x1810860 Offset: 0x180EE60 VA: 0x181810860
 	private static void .cctor() { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x18101A0 Offset: 0x180E7A0 VA: 0x1818101A0
 	public static bool IsVirtual(PropertyInfo propertyInfo) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x180CC70 Offset: 0x180B270 VA: 0x18180CC70
 	public static MethodInfo GetBaseDefinition(PropertyInfo propertyInfo) { }
 
@@ -117,7 +117,7 @@ internal static class ReflectionUtils // TypeDefIndex: 5965
 	public static T[] GetAttributes<T>(object attributeProvider, bool inherit) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B780 Offset: 0x1A39D80 VA: 0x181A3B780
+	|-RVA: 0x1A3B740 Offset: 0x1A39D40 VA: 0x181A3B740
 	|-ReflectionUtils.GetAttributes<object>
 	*/
 
@@ -142,7 +142,7 @@ internal static class ReflectionUtils // TypeDefIndex: 5965
 	// RVA: 0x180ECF0 Offset: 0x180D2F0 VA: 0x18180ECF0
 	public static IEnumerable<PropertyInfo> GetProperties(Type targetType, BindingFlags bindingAttr) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x18103D0 Offset: 0x180E9D0 VA: 0x1818103D0
 	public static BindingFlags RemoveFlag(BindingFlags bindingAttr, BindingFlags flag) { }
 

@@ -97,7 +97,7 @@ public class TechTreeDialog : UIDialog, IInventoryChanged // TypeDefIndex: 10912
 	// RVA: 0x7AE3C0 Offset: 0x7AC9C0 VA: 0x1807AE3C0
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7AC950 Offset: 0x7AAF50 VA: 0x1807AC950
 	private void <OpenDialog>b__17_0() { }
 

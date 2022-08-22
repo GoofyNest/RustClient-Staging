@@ -10,13 +10,13 @@ public class TrainEngine : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 	// Methods
 
-	// RVA: 0x1EF1EF0 Offset: 0x1EF04F0 VA: 0x181EF1EF0
+	// RVA: 0x1EF1D30 Offset: 0x1EF0330 VA: 0x181EF1D30
 	public static void ResetToPool(TrainEngine instance) { }
 
-	// RVA: 0x1EF1FA0 Offset: 0x1EF05A0 VA: 0x181EF1FA0
+	// RVA: 0x1EF1DE0 Offset: 0x1EF03E0 VA: 0x181EF1DE0
 	public void ResetToPool() { }
 
-	// RVA: 0x1EF1B50 Offset: 0x1EF0150 VA: 0x181EF1B50 Slot: 9
+	// RVA: 0x1EF1990 Offset: 0x1EEFF90 VA: 0x181EF1990 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -25,64 +25,64 @@ public class TrainEngine : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E21B60 Offset: 0x1E20160 VA: 0x181E21B60
+	// RVA: 0x1E219A0 Offset: 0x1E1FFA0 VA: 0x181E219A0
 	public void CopyTo(TrainEngine instance) { }
 
-	// RVA: 0x1EF0840 Offset: 0x1EEEE40 VA: 0x181EF0840
+	// RVA: 0x1EF0680 Offset: 0x1EEEC80 VA: 0x181EF0680
 	public TrainEngine Copy() { }
 
-	// RVA: 0x1EF0FF0 Offset: 0x1EEF5F0 VA: 0x181EF0FF0
+	// RVA: 0x1EF0E30 Offset: 0x1EEF430 VA: 0x181EF0E30
 	public static TrainEngine Deserialize(Stream stream) { }
 
-	// RVA: 0x1EF08C0 Offset: 0x1EEEEC0 VA: 0x181EF08C0
+	// RVA: 0x1EF0700 Offset: 0x1EEED00 VA: 0x181EF0700
 	public static TrainEngine DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1EF0C60 Offset: 0x1EEF260 VA: 0x181EF0C60
+	// RVA: 0x1EF0AA0 Offset: 0x1EEF0A0 VA: 0x181EF0AA0
 	public static TrainEngine DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1EF15B0 Offset: 0x1EEFBB0 VA: 0x181EF15B0
+	// RVA: 0x1EF13F0 Offset: 0x1EEF9F0 VA: 0x181EF13F0
 	public static TrainEngine Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1EF1C80 Offset: 0x1EF0280 VA: 0x181EF1C80
+	// RVA: 0x1EF1AC0 Offset: 0x1EF00C0 VA: 0x181EF1AC0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1EF2600 Offset: 0x1EF0C00 VA: 0x181EF2600 Slot: 12
+	// RVA: 0x1EF2440 Offset: 0x1EF0A40 VA: 0x181EF2440 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1EF2620 Offset: 0x1EF0C20 VA: 0x181EF2620 Slot: 13
+	// RVA: 0x1EF2460 Offset: 0x1EF0A60 VA: 0x181EF2460 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, TrainEngine previous) { }
 
-	// RVA: 0x1EF1ED0 Offset: 0x1EF04D0 VA: 0x181EF1ED0 Slot: 14
+	// RVA: 0x1EF1D10 Offset: 0x1EF0310 VA: 0x181EF1D10 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1EF1280 Offset: 0x1EEF880 VA: 0x181EF1280
+	// RVA: 0x1EF10C0 Offset: 0x1EEF6C0 VA: 0x181EF10C0
 	public static TrainEngine Deserialize(byte[] buffer, TrainEngine instance, bool isDelta = False) { }
 
-	// RVA: 0x1EF1900 Offset: 0x1EEFF00 VA: 0x181EF1900
+	// RVA: 0x1EF1740 Offset: 0x1EEFD40 VA: 0x181EF1740
 	public static TrainEngine Deserialize(Stream stream, TrainEngine instance, bool isDelta) { }
 
-	// RVA: 0x1EF0940 Offset: 0x1EEEF40 VA: 0x181EF0940
+	// RVA: 0x1EF0780 Offset: 0x1EEED80 VA: 0x181EF0780
 	public static TrainEngine DeserializeLengthDelimited(Stream stream, TrainEngine instance, bool isDelta) { }
 
-	// RVA: 0x1EF0CF0 Offset: 0x1EEF2F0 VA: 0x181EF0CF0
+	// RVA: 0x1EF0B30 Offset: 0x1EEF130 VA: 0x181EF0B30
 	public static TrainEngine DeserializeLength(Stream stream, int length, TrainEngine instance, bool isDelta) { }
 
-	// RVA: 0x1EF2050 Offset: 0x1EF0650 VA: 0x181EF2050
+	// RVA: 0x1EF1E90 Offset: 0x1EF0490 VA: 0x181EF1E90
 	public static void SerializeDelta(Stream stream, TrainEngine instance, TrainEngine previous) { }
 
-	// RVA: 0x1EF2480 Offset: 0x1EF0A80 VA: 0x181EF2480
+	// RVA: 0x1EF22C0 Offset: 0x1EF08C0 VA: 0x181EF22C0
 	public static void Serialize(Stream stream, TrainEngine instance) { }
 
-	// RVA: 0x1EF25F0 Offset: 0x1EF0BF0 VA: 0x181EF25F0
+	// RVA: 0x1EF2430 Offset: 0x1EF0A30 VA: 0x181EF2430
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1EF2600 Offset: 0x1EF0C00 VA: 0x181EF2600
+	// RVA: 0x1EF2440 Offset: 0x1EF0A40 VA: 0x181EF2440
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1EF2370 Offset: 0x1EF0970 VA: 0x181EF2370
+	// RVA: 0x1EF21B0 Offset: 0x1EF07B0 VA: 0x181EF21B0
 	public static byte[] SerializeToBytes(TrainEngine instance) { }
 
-	// RVA: 0x1EF22C0 Offset: 0x1EF08C0 VA: 0x181EF22C0
+	// RVA: 0x1EF2100 Offset: 0x1EF0700 VA: 0x181EF2100
 	public static void SerializeLengthDelimited(Stream stream, TrainEngine instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -104,83 +104,83 @@ public class TrainEngine : TrainCar, IEngineControllerUser, IEntity // TypeDefIn
 	private Nullable<TrainEngine.TrainMovementState> prevLightVisualsState; // 0x5B0
 	private Nullable<bool> prevLightVisualsOnState; // 0x5B8
 	private Nullable<bool> prevLightVisualsHeadlightOnState; // 0x5BA
-	[HeaderAttribute] // RVA: 0x948C0 Offset: 0x93CC0 VA: 0x1800948C0
-	[SerializeField] // RVA: 0x948C0 Offset: 0x93CC0 VA: 0x1800948C0
+	[HeaderAttribute] // RVA: 0x94950 Offset: 0x93D50 VA: 0x180094950
+	[SerializeField] // RVA: 0x94950 Offset: 0x93D50 VA: 0x180094950
 	private Transform leftHandLever; // 0x5C0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform rightHandLever; // 0x5C8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform leftHandGrip; // 0x5D0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform rightHandGrip; // 0x5D8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TrainEngine.LeverStyle leverStyle; // 0x5E0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Canvas monitorCanvas; // 0x5E8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private RustText monitorText; // 0x5F0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private LocomotiveExtraVisuals gauges; // 0x5F8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float engineForce; // 0x600
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float maxSpeed; // 0x604
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float engineStartupTime; // 0x608
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GameObjectRef fuelStoragePrefab; // 0x610
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float idleFuelPerSec; // 0x618
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float maxFuelPerSec; // 0x61C
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ProtectionProperties driverProtection; // 0x620
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool lootablesAreOnPlatform; // 0x628
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private VehicleLight[] onLights; // 0x630
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private VehicleLight[] headlights; // 0x638
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private VehicleLight[] notMovingLights; // 0x640
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private VehicleLight[] movingForwardLights; // 0x648
-	[FormerlySerializedAsAttribute] // RVA: 0x955B0 Offset: 0x949B0 VA: 0x1800955B0
-	[SerializeField] // RVA: 0x955B0 Offset: 0x949B0 VA: 0x1800955B0
+	[FormerlySerializedAsAttribute] // RVA: 0x95630 Offset: 0x94A30 VA: 0x180095630
+	[SerializeField] // RVA: 0x95630 Offset: 0x94A30 VA: 0x180095630
 	private VehicleLight[] movingBackwardLights; // 0x650
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystemContainer fxEngineOn; // 0x658
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystemContainer fxLightDamage; // 0x660
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystemContainer fxMediumDamage; // 0x668
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystemContainer fxHeavyDamage; // 0x670
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystemContainer fxEngineTrouble; // 0x678
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BoxCollider engineWorldCol; // 0x680
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float engineDamageToSlow; // 0x688
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float engineDamageTimeframe; // 0x68C
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float engineSlowedTime; // 0x690
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float engineSlowedMaxVel; // 0x694
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystemContainer[] sparks; // 0x698
-	[FormerlySerializedAsAttribute] // RVA: 0x960D0 Offset: 0x954D0 VA: 0x1800960D0
-	[SerializeField] // RVA: 0x960D0 Offset: 0x954D0 VA: 0x1800960D0
+	[FormerlySerializedAsAttribute] // RVA: 0x96140 Offset: 0x95540 VA: 0x180096140
+	[SerializeField] // RVA: 0x96140 Offset: 0x95540 VA: 0x180096140
 	private Light[] sparkLights; // 0x6A0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TrainEngineAudio trainAudio; // 0x6A8
 	public const BaseEntity.Flags Flag_HazardAhead = 16384;
 	private const BaseEntity.Flags Flag_Horn = 65536;
 	public const BaseEntity.Flags Flag_AltColor = 131072;
 	public const BaseEntity.Flags Flag_EngineSlowed = 262144;
 	private VehicleEngineController<TrainEngine> engineController; // 0x6B0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TrainEngine.EngineSpeeds <CurThrottleSetting>k__BackingField; // 0x6B8
 
 	// Properties
@@ -262,21 +262,21 @@ public class TrainEngine : TrainCar, IEngineControllerUser, IEntity // TypeDefIn
 	// RVA: 0xA15FE0 Offset: 0xA145E0 VA: 0x180A15FE0
 	private void UpdateEngineFX() { }
 
-	[BaseEntity.Menu] // RVA: 0x73DF0 Offset: 0x731F0 VA: 0x180073DF0
-	[BaseEntity.Menu.Description] // RVA: 0x73DF0 Offset: 0x731F0 VA: 0x180073DF0
-	[BaseEntity.Menu.Icon] // RVA: 0x73DF0 Offset: 0x731F0 VA: 0x180073DF0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x73DF0 Offset: 0x731F0 VA: 0x180073DF0
+	[BaseEntity.Menu] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
+	[BaseEntity.Menu.Description] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
+	[BaseEntity.Menu.Icon] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	// RVA: 0xA145A0 Offset: 0xA12BA0 VA: 0x180A145A0
 	public void Menu_FuelStorage(BasePlayer player) { }
 
 	// RVA: 0xA144D0 Offset: 0xA12AD0 VA: 0x180A144D0
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA15380 Offset: 0xA13980 VA: 0x180A15380
 	private void SetThrottle(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA15170 Offset: 0xA13770 VA: 0x180A15170
 	private void SetFuelAmount(BaseEntity.RPCMessage msg) { }
 
@@ -289,11 +289,11 @@ public class TrainEngine : TrainCar, IEngineControllerUser, IEntity // TypeDefIn
 	// RVA: 0xA167C0 Offset: 0xA14DC0 VA: 0x180A167C0
 	public bool get_EngineIsSlowed() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA167B0 Offset: 0xA14DB0 VA: 0x180A167B0
 	public TrainEngine.EngineSpeeds get_CurThrottleSetting() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA16890 Offset: 0xA14E90 VA: 0x180A16890
 	protected void set_CurThrottleSetting(TrainEngine.EngineSpeeds value) { }
 

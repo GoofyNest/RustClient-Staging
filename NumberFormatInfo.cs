@@ -19,9 +19,9 @@ public sealed class NumberFormatInfo : ICloneable, IFormatProvider // TypeDefInd
 	internal string percentGroupSeparator; // 0x88
 	internal string percentSymbol; // 0x90
 	internal string perMilleSymbol; // 0x98
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	internal string[] nativeDigits; // 0xA0
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	internal int m_dataItem; // 0xA8
 	internal int numberDecimalDigits; // 0xAC
 	internal int currencyDecimalDigits; // 0xB0
@@ -31,16 +31,16 @@ public sealed class NumberFormatInfo : ICloneable, IFormatProvider // TypeDefInd
 	internal int percentPositivePattern; // 0xC0
 	internal int percentNegativePattern; // 0xC4
 	internal int percentDecimalDigits; // 0xC8
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	internal int digitSubstitution; // 0xCC
 	internal bool isReadOnly; // 0xD0
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	internal bool m_useUserOverride; // 0xD1
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	internal bool m_isInvariant; // 0xD2
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	internal bool validForParseAsNumber; // 0xD3
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	internal bool validForParseAsCurrency; // 0xD4
 	private const NumberStyles InvalidNumberStyles = -1024;
 
@@ -79,15 +79,15 @@ public sealed class NumberFormatInfo : ICloneable, IFormatProvider // TypeDefInd
 	// RVA: 0x13852A0 Offset: 0x13838A0 VA: 0x1813852A0
 	public void .ctor() { }
 
-	[OnSerializingAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1384900 Offset: 0x1382F00 VA: 0x181384900
 	private void OnSerializing(StreamingContext ctx) { }
 
-	[OnDeserializingAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnDeserializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void OnDeserializing(StreamingContext ctx) { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void OnDeserialized(StreamingContext ctx) { }
 

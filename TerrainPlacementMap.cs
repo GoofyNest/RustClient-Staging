@@ -52,7 +52,7 @@ public class TerrainPlacementMap : TerrainMap<bool> // TypeDefIndex: 10412
 	// RVA: 0x1151110 Offset: 0x114F710 VA: 0x181151110
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x11510C0 Offset: 0x114F6C0 VA: 0x1811510C0
 	private void <SetBlocked>b__15_0(int x, int z, float lerp) { }
 

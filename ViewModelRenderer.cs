@@ -20,8 +20,8 @@ public class ViewModelRenderer : MonoBehaviour // TypeDefIndex: 11453
 	// RVA: 0x7F5370 Offset: 0x7F3970 VA: 0x1807F5370
 	public void RemoveDrawEvents() { }
 
-	[ContextMenu] // RVA: 0xB0A30 Offset: 0xAFE30 VA: 0x1800B0A30
-	[ButtonAttribute] // RVA: 0xB0A30 Offset: 0xAFE30 VA: 0x1800B0A30
+	[ContextMenu] // RVA: 0xB0AD0 Offset: 0xAFED0 VA: 0x1800B0AD0
+	[ButtonAttribute] // RVA: 0xB0AD0 Offset: 0xAFED0 VA: 0x1800B0AD0
 	// RVA: 0x7F40D0 Offset: 0x7F26D0 VA: 0x1807F40D0
 	public void CacheReferences() { }
 

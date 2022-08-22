@@ -4,15 +4,15 @@ public abstract class CodeAccessPermission : IPermission, ISecurityEncodable // 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	protected void .ctor() { }
 
-	[ConditionalAttribute] // RVA: 0xC11A0 Offset: 0xC05A0 VA: 0x1800C11A0
+	[ConditionalAttribute] // RVA: 0xC11B0 Offset: 0xC05B0 VA: 0x1800C11B0
 	// RVA: 0x16F8610 Offset: 0x16F6C10 VA: 0x1816F8610 Slot: 7
 	public void Demand() { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x16F87D0 Offset: 0x16F6DD0 VA: 0x1816F87D0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0xCCE560 Offset: 0xCCCB60 VA: 0x180CCE560 Slot: 2
 	public override int GetHashCode() { }
 

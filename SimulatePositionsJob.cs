@@ -1,10 +1,10 @@
 internal struct SimulatePositionsJob : IJob // TypeDefIndex: 7320
 {	// Fields
-	[ReadOnlyAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ReadOnlyAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public NativeArray<ColliderData> ColliderData; // 0x0
-	[ReadOnlyAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ReadOnlyAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public NativeArray<ColliderState> ColliderState; // 0x10
-	[ReadOnlyAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ReadOnlyAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public NativeArray<BoneData> BoneData; // 0x20
 	public NativeArray<BoneState> BoneState; // 0x30
 	public int TickRate; // 0x40
@@ -23,40 +23,40 @@ internal struct SimulatePositionsJob : IJob // TypeDefIndex: 7320
 
 	// Methods
 
-	// RVA: 0x237F80 Offset: 0x237380 VA: 0x180237F80 Slot: 4
+	// RVA: 0x237F00 Offset: 0x237300 VA: 0x180237F00 Slot: 4
 	public void Execute() { }
 
-	// RVA: 0x237F40 Offset: 0x237340 VA: 0x180237F40
+	// RVA: 0x237EC0 Offset: 0x2372C0 VA: 0x180237EC0
 	private void AdjustSimulationSpace() { }
 
-	// RVA: 0x237F90 Offset: 0x237390 VA: 0x180237F90
+	// RVA: 0x237F10 Offset: 0x237310 VA: 0x180237F10
 	private void MovePositions() { }
 
-	// RVA: 0x237F50 Offset: 0x237350 VA: 0x180237F50
+	// RVA: 0x237ED0 Offset: 0x2372D0 VA: 0x180237ED0
 	private void ApplyPositionConstraints(NativeArray<float3> newPositions) { }
 
-	// RVA: 0x237FE0 Offset: 0x2373E0 VA: 0x180237FE0
+	// RVA: 0x237F60 Offset: 0x237360 VA: 0x180237F60
 	private void ResolveCollisions() { }
 
-	// RVA: 0x237F70 Offset: 0x237370 VA: 0x180237F70
+	// RVA: 0x237EF0 Offset: 0x2372F0 VA: 0x180237EF0
 	private void ApplyRotationConstraints() { }
 
-	// RVA: 0x237FA0 Offset: 0x2373A0 VA: 0x180237FA0
+	// RVA: 0x237F20 Offset: 0x237320 VA: 0x180237F20
 	private float3 RayMarch(in float3 origin, in float3 direction, float radius, float maxDistance) { }
 
-	// RVA: 0x237FF0 Offset: 0x2373F0 VA: 0x180237FF0
+	// RVA: 0x237F70 Offset: 0x237370 VA: 0x180237F70
 	private float Scene(in float3 position) { }
 
-	// RVA: 0x223ED30 Offset: 0x223D330 VA: 0x18223ED30
+	// RVA: 0x223EB70 Offset: 0x223D170 VA: 0x18223EB70
 	private static float Union(float d1, float d2) { }
 
-	// RVA: 0x223D900 Offset: 0x223BF00 VA: 0x18223D900
+	// RVA: 0x223D740 Offset: 0x223BD40 VA: 0x18223D740
 	private static float Capsule(in float3 p, in float3 a, in float3 b, float r) { }
 
-	// RVA: 0x223EBE0 Offset: 0x223D1E0 VA: 0x18223EBE0
+	// RVA: 0x223EA20 Offset: 0x223D020 VA: 0x18223EA20
 	private static float3 Slerp(float3 a, float3 b, float t) { }
 
-	// RVA: 0x223DBC0 Offset: 0x223C1C0 VA: 0x18223DBC0
+	// RVA: 0x223DA00 Offset: 0x223C000 VA: 0x18223DA00
 	private static quaternion FromToRotation(float3 from, float3 to) { }
 
 }

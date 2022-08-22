@@ -6,9 +6,9 @@ public class Model : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 9210
 	public Transform eyeBone; // 0x30
 	public Animator animator; // 0x38
 	public Skeleton skeleton; // 0x40
-	[HideInInspector] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public Transform[] boneTransforms; // 0x48
-	[HideInInspector] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public string[] boneNames; // 0x50
 	internal BoneDictionary boneDict; // 0x58
 	internal int skin; // 0x60

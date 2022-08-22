@@ -36,10 +36,10 @@ public class StashContainer : StorageContainer // TypeDefIndex: 8455
 	// RVA: 0xA8B540 Offset: 0xA89B40 VA: 0x180A8B540 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0x8DC10 Offset: 0x8D010 VA: 0x18008DC10
-	[BaseEntity.Menu.Description] // RVA: 0x8DC10 Offset: 0x8D010 VA: 0x18008DC10
-	[BaseEntity.Menu.Icon] // RVA: 0x8DC10 Offset: 0x8D010 VA: 0x18008DC10
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8DC10 Offset: 0x8D010 VA: 0x18008DC10
+	[BaseEntity.Menu] // RVA: 0x8DCC0 Offset: 0x8D0C0 VA: 0x18008DCC0
+	[BaseEntity.Menu.Description] // RVA: 0x8DCC0 Offset: 0x8D0C0 VA: 0x18008DCC0
+	[BaseEntity.Menu.Icon] // RVA: 0x8DCC0 Offset: 0x8D0C0 VA: 0x18008DCC0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8DCC0 Offset: 0x8D0C0 VA: 0x18008DCC0
 	// RVA: 0xA8B6A0 Offset: 0xA89CA0 VA: 0x180A8B6A0
 	public void Menu_HideStash(BasePlayer player) { }
 

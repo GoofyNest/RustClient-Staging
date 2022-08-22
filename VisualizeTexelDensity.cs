@@ -2,9 +2,9 @@ public class VisualizeTexelDensity : MonoBehaviour // TypeDefIndex: 11533
 {	// Fields
 	public Shader shader; // 0x18
 	public string shaderTag; // 0x20
-	[RangeAttribute] // RVA: 0xBE350 Offset: 0xBD750 VA: 0x1800BE350
+	[RangeAttribute] // RVA: 0xBE3F0 Offset: 0xBD7F0 VA: 0x1800BE3F0
 	public int texelsPerMeter; // 0x28
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float overlayOpacity; // 0x2C
 	public bool showHUD; // 0x30
 	private Camera mainCamera; // 0x38

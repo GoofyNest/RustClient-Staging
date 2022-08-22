@@ -108,34 +108,34 @@ public static class Vis // TypeDefIndex: 10054
 
 public class Vis : ConsoleSystem // TypeDefIndex: 11973
 {	// Fields
-	[ClientVar] // RVA: 0xC1DF0 Offset: 0xC11F0 VA: 0x1800C1DF0
-	[HelpAttribute] // RVA: 0xC1DF0 Offset: 0xC11F0 VA: 0x1800C1DF0
+	[ClientVar] // RVA: 0xC1E90 Offset: 0xC1290 VA: 0x1800C1E90
+	[HelpAttribute] // RVA: 0xC1E90 Offset: 0xC1290 VA: 0x1800C1E90
 	public static bool lerp; // 0x0
-	[ServerVar] // RVA: 0xC1FE0 Offset: 0xC13E0 VA: 0x1800C1FE0
-	[HelpAttribute] // RVA: 0xC1FE0 Offset: 0xC13E0 VA: 0x1800C1FE0
+	[ServerVar] // RVA: 0xC20B0 Offset: 0xC14B0 VA: 0x1800C20B0
+	[HelpAttribute] // RVA: 0xC20B0 Offset: 0xC14B0 VA: 0x1800C20B0
 	public static bool damage; // 0x1
-	[ServerVar] // RVA: 0xC2080 Offset: 0xC1480 VA: 0x1800C2080
-	[ClientVar] // RVA: 0xC2080 Offset: 0xC1480 VA: 0x1800C2080
-	[HelpAttribute] // RVA: 0xC2080 Offset: 0xC1480 VA: 0x1800C2080
+	[ServerVar] // RVA: 0xC21F0 Offset: 0xC15F0 VA: 0x1800C21F0
+	[ClientVar] // RVA: 0xC21F0 Offset: 0xC15F0 VA: 0x1800C21F0
+	[HelpAttribute] // RVA: 0xC21F0 Offset: 0xC15F0 VA: 0x1800C21F0
 	public static bool attack; // 0x2
-	[ServerVar] // RVA: 0xC3570 Offset: 0xC2970 VA: 0x1800C3570
-	[ClientVar] // RVA: 0xC3570 Offset: 0xC2970 VA: 0x1800C3570
-	[HelpAttribute] // RVA: 0xC3570 Offset: 0xC2970 VA: 0x1800C3570
+	[ServerVar] // RVA: 0xC3660 Offset: 0xC2A60 VA: 0x1800C3660
+	[ClientVar] // RVA: 0xC3660 Offset: 0xC2A60 VA: 0x1800C3660
+	[HelpAttribute] // RVA: 0xC3660 Offset: 0xC2A60 VA: 0x1800C3660
 	public static bool protection; // 0x3
-	[ServerVar] // RVA: 0xC3760 Offset: 0xC2B60 VA: 0x1800C3760
-	[HelpAttribute] // RVA: 0xC3760 Offset: 0xC2B60 VA: 0x1800C3760
+	[ServerVar] // RVA: 0xC37F0 Offset: 0xC2BF0 VA: 0x1800C37F0
+	[HelpAttribute] // RVA: 0xC37F0 Offset: 0xC2BF0 VA: 0x1800C37F0
 	public static bool weakspots; // 0x4
-	[ServerVar] // RVA: 0xC38D0 Offset: 0xC2CD0 VA: 0x1800C38D0
-	[HelpAttribute] // RVA: 0xC38D0 Offset: 0xC2CD0 VA: 0x1800C38D0
+	[ServerVar] // RVA: 0xC3A00 Offset: 0xC2E00 VA: 0x1800C3A00
+	[HelpAttribute] // RVA: 0xC3A00 Offset: 0xC2E00 VA: 0x1800C3A00
 	public static bool triggers; // 0x5
-	[ServerVar] // RVA: 0xC3AA0 Offset: 0xC2EA0 VA: 0x1800C3AA0
-	[HelpAttribute] // RVA: 0xC3AA0 Offset: 0xC2EA0 VA: 0x1800C3AA0
+	[ServerVar] // RVA: 0xC4E80 Offset: 0xC4280 VA: 0x1800C4E80
+	[HelpAttribute] // RVA: 0xC4E80 Offset: 0xC4280 VA: 0x1800C4E80
 	public static bool hitboxes; // 0x6
-	[ServerVar] // RVA: 0xC4F00 Offset: 0xC4300 VA: 0x1800C4F00
-	[HelpAttribute] // RVA: 0xC4F00 Offset: 0xC4300 VA: 0x1800C4F00
+	[ServerVar] // RVA: 0xC4FC0 Offset: 0xC43C0 VA: 0x1800C4FC0
+	[HelpAttribute] // RVA: 0xC4FC0 Offset: 0xC43C0 VA: 0x1800C4FC0
 	public static bool lineofsight; // 0x7
-	[ServerVar] // RVA: 0xC4FE0 Offset: 0xC43E0 VA: 0x1800C4FE0
-	[HelpAttribute] // RVA: 0xC4FE0 Offset: 0xC43E0 VA: 0x1800C4FE0
+	[ServerVar] // RVA: 0xC5150 Offset: 0xC4550 VA: 0x1800C5150
+	[HelpAttribute] // RVA: 0xC5150 Offset: 0xC4550 VA: 0x1800C5150
 	public static bool sense; // 0x8
 
 	// Methods

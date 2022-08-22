@@ -1,32 +1,32 @@
 public class SubmarineDuo : BaseSubmarine // TypeDefIndex: 8458
 {	// Fields
 	private Option __menuOption_Menu_SwapSeats; // 0x6F8
-	[HeaderAttribute] // RVA: 0x8E690 Offset: 0x8DA90 VA: 0x18008E690
-	[SerializeField] // RVA: 0x8E690 Offset: 0x8DA90 VA: 0x18008E690
+	[HeaderAttribute] // RVA: 0x8E710 Offset: 0x8DB10 VA: 0x18008E710
+	[SerializeField] // RVA: 0x8E710 Offset: 0x8DB10 VA: 0x18008E710
 	private Transform steeringWheel; // 0x750
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform steeringWheelLeftGrip; // 0x758
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform steeringWheelRightGrip; // 0x760
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform leftPedal; // 0x768
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform rightPedal; // 0x770
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform driverLeftFoot; // 0x778
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform driverRightFoot; // 0x780
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform mphNeedle; // 0x788
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform fuelNeedle; // 0x790
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform waterDepthNeedle; // 0x798
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform ammoFlag; // 0x7A0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SubmarineSonar sonar; // 0x7A8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform torpedoTubeHatch; // 0x7B0
 	private float smoothedSpeed; // 0x7B8
 	private float flagLerp; // 0x7BC
@@ -64,10 +64,10 @@ public class SubmarineDuo : BaseSubmarine // TypeDefIndex: 8458
 	// RVA: 0x7A2AE0 Offset: 0x7A10E0 VA: 0x1807A2AE0 Slot: 199
 	protected override void TorpedoFired() { }
 
-	[BaseEntity.Menu] // RVA: 0x8F080 Offset: 0x8E480 VA: 0x18008F080
-	[BaseEntity.Menu.Description] // RVA: 0x8F080 Offset: 0x8E480 VA: 0x18008F080
-	[BaseEntity.Menu.Icon] // RVA: 0x8F080 Offset: 0x8E480 VA: 0x18008F080
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8F080 Offset: 0x8E480 VA: 0x18008F080
+	[BaseEntity.Menu] // RVA: 0x8F1B0 Offset: 0x8E5B0 VA: 0x18008F1B0
+	[BaseEntity.Menu.Description] // RVA: 0x8F1B0 Offset: 0x8E5B0 VA: 0x18008F1B0
+	[BaseEntity.Menu.Icon] // RVA: 0x8F1B0 Offset: 0x8E5B0 VA: 0x18008F1B0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8F1B0 Offset: 0x8E5B0 VA: 0x18008F1B0
 	// RVA: 0x7A2A50 Offset: 0x7A1050 VA: 0x1807A2A50
 	public void Menu_SwapSeats(BasePlayer player) { }
 
@@ -80,7 +80,7 @@ public class SubmarineDuo : BaseSubmarine // TypeDefIndex: 8458
 	// RVA: 0x7A39C0 Offset: 0x7A1FC0 VA: 0x1807A39C0
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7A2B00 Offset: 0x7A1100 VA: 0x1807A2B00
 	internal static Vector3 <UpdateInteriorVisuals>g__SetGauge|31_0(Vector3 localAngles, float amount, float maxReading, float maxDegrees, bool zAxis) { }
 

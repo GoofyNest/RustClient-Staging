@@ -15,17 +15,17 @@ public class ReadingSettings // TypeDefIndex: 7601
 	private NoHeaderChunkPolicy _noHeaderChunkPolicy; // 0x34
 	private ZeroLengthDataPolicy _zeroLengthDataPolicy; // 0x38
 	private EndOfTrackStoringPolicy _endOfTrackStoringPolicy; // 0x3C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private UnknownChannelEventCallback <UnknownChannelEventCallback>k__BackingField; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ChunkTypesCollection <CustomChunkTypes>k__BackingField; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private EventTypesCollection <CustomMetaEventTypes>k__BackingField; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Encoding <TextEncoding>k__BackingField; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private DecodeTextCallback <DecodeTextCallback>k__BackingField; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ReaderSettings <ReaderSettings>k__BackingField; // 0x68
 
 	// Properties
@@ -77,7 +77,7 @@ public class ReadingSettings // TypeDefIndex: 7601
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	public UnknownChannelEventPolicy get_UnknownChannelEventPolicy() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
 	public UnknownChannelEventCallback get_UnknownChannelEventCallback() { }
 
@@ -96,19 +96,19 @@ public class ReadingSettings // TypeDefIndex: 7601
 	// RVA: 0x5E2F40 Offset: 0x5E1540 VA: 0x1805E2F40
 	public NoHeaderChunkPolicy get_NoHeaderChunkPolicy() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	public ChunkTypesCollection get_CustomChunkTypes() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
 	public EventTypesCollection get_CustomMetaEventTypes() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
 	public Encoding get_TextEncoding() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
 	public DecodeTextCallback get_DecodeTextCallback() { }
 
@@ -118,11 +118,11 @@ public class ReadingSettings // TypeDefIndex: 7601
 	// RVA: 0x5E2F50 Offset: 0x5E1550 VA: 0x1805E2F50
 	public EndOfTrackStoringPolicy get_EndOfTrackStoringPolicy() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
 	public ReaderSettings get_ReaderSettings() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x519E50 Offset: 0x518450 VA: 0x180519E50
 	public void set_ReaderSettings(ReaderSettings value) { }
 

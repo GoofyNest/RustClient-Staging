@@ -17,46 +17,46 @@ public struct RectInt : IEquatable<RectInt> // TypeDefIndex: 3377
 
 	// Methods
 
-	// RVA: 0x13A620 Offset: 0x139A20 VA: 0x18013A620
+	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0
 	public int get_x() { }
 
-	// RVA: 0x13A380 Offset: 0x139780 VA: 0x18013A380
+	// RVA: 0x13A300 Offset: 0x139700 VA: 0x18013A300
 	public int get_y() { }
 
-	// RVA: 0x13ACA0 Offset: 0x13A0A0 VA: 0x18013ACA0
+	// RVA: 0x13AC20 Offset: 0x13A020 VA: 0x18013AC20
 	public int get_width() { }
 
-	// RVA: 0x221DE0 Offset: 0x2211E0 VA: 0x180221DE0
+	// RVA: 0x221D60 Offset: 0x221160 VA: 0x180221D60
 	public int get_height() { }
 
-	// RVA: 0x221E60 Offset: 0x221260 VA: 0x180221E60
+	// RVA: 0x221DE0 Offset: 0x2211E0 VA: 0x180221DE0
 	public int get_xMin() { }
 
-	// RVA: 0x221FC0 Offset: 0x2213C0 VA: 0x180221FC0
+	// RVA: 0x221F40 Offset: 0x221340 VA: 0x180221F40
 	public void set_xMin(int value) { }
 
-	// RVA: 0x221F40 Offset: 0x221340 VA: 0x180221F40
+	// RVA: 0x221EC0 Offset: 0x2212C0 VA: 0x180221EC0
 	public int get_yMin() { }
 
-	// RVA: 0x222060 Offset: 0x221460 VA: 0x180222060
+	// RVA: 0x221FE0 Offset: 0x2213E0 VA: 0x180221FE0
 	public void set_yMin(int value) { }
 
-	// RVA: 0x221DF0 Offset: 0x2211F0 VA: 0x180221DF0
+	// RVA: 0x221D70 Offset: 0x221170 VA: 0x180221D70
 	public int get_xMax() { }
 
-	// RVA: 0x221FB0 Offset: 0x2213B0 VA: 0x180221FB0
+	// RVA: 0x221F30 Offset: 0x221330 VA: 0x180221F30
 	public void set_xMax(int value) { }
 
-	// RVA: 0x221ED0 Offset: 0x2212D0 VA: 0x180221ED0
+	// RVA: 0x221E50 Offset: 0x221250 VA: 0x180221E50
 	public int get_yMax() { }
 
-	// RVA: 0x222050 Offset: 0x221450 VA: 0x180222050
+	// RVA: 0x221FD0 Offset: 0x2213D0 VA: 0x180221FD0
 	public void set_yMax(int value) { }
 
-	// RVA: 0x221DD0 Offset: 0x2211D0 VA: 0x180221DD0 Slot: 3
+	// RVA: 0x221D50 Offset: 0x221150 VA: 0x180221D50 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x221D80 Offset: 0x221180 VA: 0x180221D80 Slot: 4
+	// RVA: 0x221D00 Offset: 0x221100 VA: 0x180221D00 Slot: 4
 	public bool Equals(RectInt other) { }
 
 }

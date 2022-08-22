@@ -5,9 +5,9 @@ public class CoverPointVolume : MonoBehaviour, IServerComponent // TypeDefIndex:
 	public LayerMask CoverLayerMask; // 0x20
 	public Transform BlockerGroup; // 0x28
 	public Transform ManualCoverPointGroup; // 0x30
-	[ServerVar] // RVA: 0xDFE40 Offset: 0xDF240 VA: 0x1800DFE40
+	[ServerVar] // RVA: 0xDFF90 Offset: 0xDF390 VA: 0x1800DFF90
 	public static float cover_point_sample_step_size; // 0x0
-	[ServerVar] // RVA: 0xE0010 Offset: 0xDF410 VA: 0x1800E0010
+	[ServerVar] // RVA: 0xE0130 Offset: 0xDF530 VA: 0x1800E0130
 	public static float cover_point_sample_step_height; // 0x4
 	public readonly List<CoverPoint> CoverPoints; // 0x38
 	private readonly List<CoverPointBlockerVolume> _coverPointBlockers; // 0x40
@@ -15,7 +15,7 @@ public class CoverPointVolume : MonoBehaviour, IServerComponent // TypeDefIndex:
 
 	// Methods
 
-	[ContextMenu] // RVA: 0xE01A0 Offset: 0xDF5A0 VA: 0x1800E01A0
+	[ContextMenu] // RVA: 0xE0270 Offset: 0xDF670 VA: 0x1800E0270
 	// RVA: 0x4BB6E0 Offset: 0x4B9CE0 VA: 0x1804BB6E0
 	private void ClearCoverPoints() { }
 

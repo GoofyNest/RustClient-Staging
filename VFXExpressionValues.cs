@@ -1,14 +1,14 @@
 public class VFXExpressionValues // TypeDefIndex: 4760
 {
 // Namespace: UnityEngine.VFX
-[RequiredByNativeCodeAttribute] // RVA: 0xBB790 Offset: 0xBAB90 VA: 0x1800BB790
-[NativeTypeAttribute] // RVA: 0xBB790 Offset: 0xBAB90 VA: 0x1800BB790
-[StaticAccessorAttribute] // RVA: 0xBB790 Offset: 0xBAB90 VA: 0x1800BB790
+[RequiredByNativeCodeAttribute] // RVA: 0xBB830 Offset: 0xBAC30 VA: 0x1800BB830
+[NativeTypeAttribute] // RVA: 0xBB830 Offset: 0xBAC30 VA: 0x1800BB830
+[StaticAccessorAttribute] // RVA: 0xBB830 Offset: 0xBAC30 VA: 0x1800BB830
 internal class VFXExpressionNoise // TypeDefIndex: 4759
 
 // Namespace: UnityEngine.VFX
-[RequiredByNativeCodeAttribute] // RVA: 0xBB980 Offset: 0xBAD80 VA: 0x1800BB980
-[NativeTypeAttribute] // RVA: 0xBB980 Offset: 0xBAD80 VA: 0x1800BB980
+[RequiredByNativeCodeAttribute] // RVA: 0xBBA20 Offset: 0xBAE20 VA: 0x1800BBA20
+[NativeTypeAttribute] // RVA: 0xBBA20 Offset: 0xBAE20 VA: 0x1800BBA20
 public class VFXExpressionValues // TypeDefIndex: 4760
 	// Fields
 	internal IntPtr m_Ptr; // 0x10
@@ -18,8 +18,8 @@ public class VFXExpressionValues // TypeDefIndex: 4760
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2321790 Offset: 0x231FD90 VA: 0x182321790
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x23215D0 Offset: 0x231FBD0 VA: 0x1823215D0
 	internal static VFXExpressionValues CreateExpressionValuesWrapper(IntPtr ptr) { }
 
 }

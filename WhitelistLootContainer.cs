@@ -1,6 +1,6 @@
 public class WhitelistLootContainer : LootContainer // TypeDefIndex: 9619
 {	// Fields
-	public static readonly Translate.Phrase CantLootToast; // 0x2B11168
+	public static readonly Translate.Phrase CantLootToast; // 0x2B10188
 
 	// Methods
 

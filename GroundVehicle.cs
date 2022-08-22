@@ -1,23 +1,23 @@
 public abstract class GroundVehicle : BaseVehicle, IEngineControllerUser, IEntity // TypeDefIndex: 9711
 {	// Fields
-	[HeaderAttribute] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
-	[SerializeField] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[HeaderAttribute] // RVA: 0x85E70 Offset: 0x85270 VA: 0x180085E70
+	[SerializeField] // RVA: 0x85E70 Offset: 0x85270 VA: 0x180085E70
 	protected GroundVehicleAudio gvAudio; // 0x3B8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GameObjectRef fuelStoragePrefab; // 0x3C0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform waterloggedPoint; // 0x3C8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GameObjectRef collisionEffect; // 0x3D0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float engineStartupTime; // 0x3D8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float minCollisionDamageForce; // 0x3DC
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float maxCollisionDamageForce; // 0x3E0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float collisionDamageMultiplier; // 0x3E4
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Vector3 <Velocity>k__BackingField; // 0x3E8
 	protected VehicleEngineController<GroundVehicle> engineController; // 0x3F8
 	private bool runningClientTick; // 0x400
@@ -30,11 +30,11 @@ public abstract class GroundVehicle : BaseVehicle, IEngineControllerUser, IEntit
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xCA72D0 Offset: 0xCA58D0 VA: 0x180CA72D0 Slot: 195
 	public Vector3 get_Velocity() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xCA72F0 Offset: 0xCA58F0 VA: 0x180CA72F0
 	private void set_Velocity(Vector3 value) { }
 

@@ -48,10 +48,10 @@ public class DefaultValueAttribute : Attribute // TypeDefIndex: 3800
 	// RVA: 0x181D9F0 Offset: 0x181BFF0 VA: 0x18181D9F0
 	public object get_Value() { }
 
-	// RVA: 0x18E97C0 Offset: 0x18E7DC0 VA: 0x1818E97C0 Slot: 0
+	// RVA: 0x18E9780 Offset: 0x18E7D80 VA: 0x1818E9780 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x18E9880 Offset: 0x18E7E80 VA: 0x1818E9880 Slot: 2
+	// RVA: 0x18E9840 Offset: 0x18E7E40 VA: 0x1818E9840 Slot: 2
 	public override int GetHashCode() { }
 
 }

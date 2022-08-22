@@ -37,165 +37,165 @@ public class AdminUI : MonoBehaviour // TypeDefIndex: 10825
 
 public class Admin : ConsoleSystem // TypeDefIndex: 11875
 {	// Fields
-	[ClientVar] // RVA: 0x80D20 Offset: 0x80120 VA: 0x180080D20
+	[ClientVar] // RVA: 0x80EF0 Offset: 0x802F0 VA: 0x180080EF0
 	public static float admintime; // 0x0
-	[ClientVar] // RVA: 0x80F30 Offset: 0x80330 VA: 0x180080F30
-	public static float adminlight; // 0x4
 	[ClientVar] // RVA: 0x810A0 Offset: 0x804A0 VA: 0x1800810A0
+	public static float adminlight; // 0x4
+	[ClientVar] // RVA: 0x81190 Offset: 0x80590 VA: 0x180081190
 	public static float adminreflectionmultiplier; // 0x8
-	[ClientVar] // RVA: 0x81250 Offset: 0x80650 VA: 0x180081250
+	[ClientVar] // RVA: 0x81340 Offset: 0x80740 VA: 0x180081340
 	public static float adminambientmultiplier; // 0xC
-	[ReplicatedVar] // RVA: 0x81320 Offset: 0x80720 VA: 0x180081320
+	[ReplicatedVar] // RVA: 0x81460 Offset: 0x80860 VA: 0x180081460
 	public static bool allowAdminUI; // 0x10
-	[ClientVar] // RVA: 0x81410 Offset: 0x80810 VA: 0x180081410
+	[ClientVar] // RVA: 0x815F0 Offset: 0x809F0 VA: 0x1800815F0
 	public static bool underwater_effect; // 0x11
-	[ClientVar] // RVA: 0x81410 Offset: 0x80810 VA: 0x180081410
+	[ClientVar] // RVA: 0x815F0 Offset: 0x809F0 VA: 0x1800815F0
 	public static float underwater_scatter; // 0x14
-	[ClientVar] // RVA: 0x81690 Offset: 0x80A90 VA: 0x180081690
+	[ClientVar] // RVA: 0x81780 Offset: 0x80B80 VA: 0x180081780
 	public static bool woundedfreecam; // 0x18
-	[ClientVar] // RVA: 0x81790 Offset: 0x80B90 VA: 0x180081790
+	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
 	public static bool ddraw_netupdate; // 0x19
 
 	// Properties
-	[ClientVar] // RVA: 0x84C70 Offset: 0x84070 VA: 0x180084C70
+	[ClientVar] // RVA: 0x84D80 Offset: 0x84180 VA: 0x180084D80
 	public static float adminclouds { get; set; }
-	[ClientVar] // RVA: 0x84E50 Offset: 0x84250 VA: 0x180084E50
+	[ClientVar] // RVA: 0x84EF0 Offset: 0x842F0 VA: 0x180084EF0
 	public static float adminfog { get; set; }
-	[ClientVar] // RVA: 0x84F70 Offset: 0x84370 VA: 0x180084F70
+	[ClientVar] // RVA: 0x85080 Offset: 0x84480 VA: 0x180085080
 	public static float adminwind { get; set; }
-	[ClientVar] // RVA: 0x85220 Offset: 0x84620 VA: 0x180085220
+	[ClientVar] // RVA: 0x852E0 Offset: 0x846E0 VA: 0x1800852E0
 	public static float adminrain { get; set; }
 
 	// Methods
 
-	[ServerVar] // RVA: 0x817F0 Offset: 0x80BF0 VA: 0x1800817F0
+	[ServerVar] // RVA: 0x81950 Offset: 0x80D50 VA: 0x180081950
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void status(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x818D0 Offset: 0x80CD0 VA: 0x1800818D0
+	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void stats(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void killplayer(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void injureplayer(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void recoverplayer(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void kick(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void kickall(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81CC0 Offset: 0x810C0 VA: 0x180081CC0
+	[ServerVar] // RVA: 0x81D30 Offset: 0x81130 VA: 0x180081D30
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void ban(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void moderatorid(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void ownerid(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void removemoderator(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void removeowner(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x831F0 Offset: 0x825F0 VA: 0x1800831F0
+	[ServerVar] // RVA: 0x83370 Offset: 0x82770 VA: 0x180083370
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void banid(ConsoleSystem.Arg arg) { }
 
 	// RVA: 0x6C9B80 Offset: 0x6C8180 VA: 0x1806C9B80
 	private static bool TryGetBanExpiry(ConsoleSystem.Arg arg, int n, out long expiry, out string durationSuffix) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void unban(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void skipqueue(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x83500 Offset: 0x82900 VA: 0x180083500
+	[ServerVar] // RVA: 0x83680 Offset: 0x82A80 VA: 0x180083680
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void players(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x83760 Offset: 0x82B60 VA: 0x180083760
+	[ServerVar] // RVA: 0x83820 Offset: 0x82C20 VA: 0x180083820
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void say(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x837F0 Offset: 0x82BF0 VA: 0x1800837F0
+	[ServerVar] // RVA: 0x83860 Offset: 0x82C60 VA: 0x180083860
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void users(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x837F0 Offset: 0x82BF0 VA: 0x1800837F0
+	[ServerVar] // RVA: 0x83860 Offset: 0x82C60 VA: 0x180083860
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void sleepingusers(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x839C0 Offset: 0x82DC0 VA: 0x1800839C0
+	[ServerVar] // RVA: 0x83A30 Offset: 0x82E30 VA: 0x180083A30
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void sleepingusersinrange(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x83A30 Offset: 0x82E30 VA: 0x180083A30
+	[ServerVar] // RVA: 0x83B10 Offset: 0x82F10 VA: 0x180083B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void usersinrange(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x83BD0 Offset: 0x82FD0 VA: 0x180083BD0
+	[ServerVar] // RVA: 0x83CB0 Offset: 0x830B0 VA: 0x180083CB0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void usersinrangeofplayer(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x83D00 Offset: 0x83100 VA: 0x180083D00
+	[ServerVar] // RVA: 0x83D70 Offset: 0x83170 VA: 0x180083D70
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void banlist(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x83DE0 Offset: 0x831E0 VA: 0x180083DE0
+	[ServerVar] // RVA: 0x83E50 Offset: 0x83250 VA: 0x180083E50
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void banlistex(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x83E50 Offset: 0x83250 VA: 0x180083E50
+	[ServerVar] // RVA: 0x83F40 Offset: 0x83340 VA: 0x180083F40
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void listid(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void mute(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void unmute(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x84380 Offset: 0x83780 VA: 0x180084380
+	[ServerVar] // RVA: 0x84440 Offset: 0x83840 VA: 0x180084440
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void mutelist(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void clientperf(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void clientperf_frametime(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x84500 Offset: 0x83900 VA: 0x180084500
+	[ServerVar] // RVA: 0x84610 Offset: 0x83A10 VA: 0x180084610
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void carstats(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x846B0 Offset: 0x83AB0 VA: 0x1800846B0
+	[ClientVar] // RVA: 0x84780 Offset: 0x83B80 VA: 0x180084780
 	// RVA: 0x6C9DC0 Offset: 0x6C83C0 VA: 0x1806C9DC0
 	public static string ent(ConsoleSystem.Arg args) { }
 
@@ -223,23 +223,23 @@ public class Admin : ConsoleSystem // TypeDefIndex: 11875
 	// RVA: 0x6CAAE0 Offset: 0x6C90E0 VA: 0x1806CAAE0
 	public static void set_adminrain(float value) { }
 
-	[ClientVar] // RVA: 0x84790 Offset: 0x83B90 VA: 0x180084790
+	[ClientVar] // RVA: 0x84830 Offset: 0x83C30 VA: 0x180084830
 	// RVA: 0x6C9970 Offset: 0x6C7F70 VA: 0x1806C9970
 	public static void AdminUI_ReceivePlayerList(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x84790 Offset: 0x83B90 VA: 0x180084790
+	[ClientVar] // RVA: 0x84830 Offset: 0x83C30 VA: 0x180084830
 	// RVA: 0x6C9A20 Offset: 0x6C8020 VA: 0x1806C9A20
 	public static void AdminUI_ReceiveServerInfo(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x84790 Offset: 0x83B90 VA: 0x180084790
+	[ClientVar] // RVA: 0x84830 Offset: 0x83C30 VA: 0x180084830
 	// RVA: 0x6C98C0 Offset: 0x6C7EC0 VA: 0x1806C98C0
 	public static void AdminUI_ReceiveCommands(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x84790 Offset: 0x83B90 VA: 0x180084790
+	[ClientVar] // RVA: 0x84830 Offset: 0x83C30 VA: 0x180084830
 	// RVA: 0x6C9AD0 Offset: 0x6C80D0 VA: 0x1806C9AD0
 	public static void AdminUI_ReceiveUGCList(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x84AC0 Offset: 0x83EC0 VA: 0x180084AC0
+	[ClientVar] // RVA: 0x84BD0 Offset: 0x83FD0 VA: 0x180084BD0
 	// RVA: 0x6CA400 Offset: 0x6C8A00 VA: 0x1806CA400
 	public static void hudcomponent(ConsoleSystem.Arg arg) { }
 

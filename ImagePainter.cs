@@ -2,7 +2,7 @@ public class ImagePainter : MonoBehaviour, IPointerDownHandler, IEventSystemHand
 {	// Fields
 	public ImagePainter.OnDrawingEvent onDrawing; // 0x18
 	public MonoBehaviour redirectRightClick; // 0x20
-	[TooltipAttribute] // RVA: 0x8CF20 Offset: 0x8C320 VA: 0x18008CF20
+	[TooltipAttribute] // RVA: 0x8D070 Offset: 0x8C470 VA: 0x18008D070
 	public float spacingScale; // 0x28
 	internal Brush brush; // 0x30
 	internal ImagePainter.PointerState[] pointerState; // 0x38

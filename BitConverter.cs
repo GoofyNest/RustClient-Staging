@@ -22,15 +22,15 @@ public static class BitConverter // TypeDefIndex: 178
 	// RVA: 0x155EAF0 Offset: 0x155D0F0 VA: 0x18155EAF0
 	public static byte[] GetBytes(long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x155EC80 Offset: 0x155D280 VA: 0x18155EC80
 	public static byte[] GetBytes(ushort value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x155EB50 Offset: 0x155D150 VA: 0x18155EB50
 	public static byte[] GetBytes(uint value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x155EF90 Offset: 0x155D590 VA: 0x18155EF90
 	public static byte[] GetBytes(ulong value) { }
 
@@ -49,15 +49,15 @@ public static class BitConverter // TypeDefIndex: 178
 	// RVA: 0x155F2A0 Offset: 0x155D8A0 VA: 0x18155F2A0
 	public static long ToInt64(byte[] value, int startIndex) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x155F880 Offset: 0x155DE80 VA: 0x18155F880
 	public static ushort ToUInt16(byte[] value, int startIndex) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x155FA20 Offset: 0x155E020 VA: 0x18155FA20
 	public static uint ToUInt32(byte[] value, int startIndex) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x155FBF0 Offset: 0x155E1F0 VA: 0x18155FBF0
 	public static ulong ToUInt64(byte[] value, int startIndex) { }
 

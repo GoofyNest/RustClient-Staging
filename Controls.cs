@@ -1,6 +1,6 @@
 public static class Controls // TypeDefIndex: 12021
 {	// Fields
-	public static float labelWidth; // 0x2B11240
+	public static float labelWidth; // 0x2B10260
 
 	// Methods
 

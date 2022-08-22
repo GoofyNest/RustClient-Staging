@@ -1,21 +1,21 @@
 public class Megaphone : HeldEntity // TypeDefIndex: 8604
 {	// Fields
-	[HeaderAttribute] // RVA: 0xB0450 Offset: 0xAF850 VA: 0x1800B0450
+	[HeaderAttribute] // RVA: 0xB04C0 Offset: 0xAF8C0 VA: 0x1800B04C0
 	public VoiceProcessor voiceProcessor; // 0x1F8
 	public float VoiceDamageMinFrequency; // 0x200
 	public float VoiceDamageAmount; // 0x204
 	public AudioSource VoiceSource; // 0x208
 	public SoundDefinition StartBroadcastingSfx; // 0x210
 	public SoundDefinition StopBroadcastingSfx; // 0x218
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static float <MegaphoneVoiceRange>k__BackingField; // 0x0
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static bool IgnorePushToTalk; // 0x4
 	private static int BroadcastBoolAnim; // 0x8
 	private float talkingLayerWeight; // 0x220
 
 	// Properties
-	[ReplicatedVar] // RVA: 0xB0780 Offset: 0xAFB80 VA: 0x1800B0780
+	[ReplicatedVar] // RVA: 0xB07E0 Offset: 0xAFBE0 VA: 0x1800B07E0
 	public static float MegaphoneVoiceRange { get; set; }
 
 	// Methods
@@ -23,11 +23,11 @@ public class Megaphone : HeldEntity // TypeDefIndex: 8604
 	// RVA: 0x95D130 Offset: 0x95B730 VA: 0x18095D130 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x95D450 Offset: 0x95BA50 VA: 0x18095D450
 	public static float get_MegaphoneVoiceRange() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x95D510 Offset: 0x95BB10 VA: 0x18095D510
 	public static void set_MegaphoneVoiceRange(float value) { }
 

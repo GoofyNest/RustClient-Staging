@@ -6,10 +6,10 @@ public class Twirl : ImageEffectBase // TypeDefIndex: 8215
 
 	// Methods
 
-	// RVA: 0x21E9E70 Offset: 0x21E8470 VA: 0x1821E9E70
+	// RVA: 0x21E9CB0 Offset: 0x21E82B0 VA: 0x1821E9CB0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21E9EF0 Offset: 0x21E84F0 VA: 0x1821E9EF0
+	// RVA: 0x21E9D30 Offset: 0x21E8330 VA: 0x1821E9D30
 	public void .ctor() { }
 
 }

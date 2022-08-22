@@ -10,115 +10,115 @@ public static class LZ4Codec // TypeDefIndex: 6711
 
 	// Methods
 
-	// RVA: 0x22D1440 Offset: 0x22CFA40 VA: 0x1822D1440
+	// RVA: 0x22D1280 Offset: 0x22CF880 VA: 0x1822D1280
 	internal static void CheckArguments(byte[] input, int inputOffset, ref int inputLength, byte[] output, int outputOffset, ref int outputLength) { }
 
-	// RVA: 0x22D1360 Offset: 0x22CF960 VA: 0x1822D1360
+	// RVA: 0x22D11A0 Offset: 0x22CF7A0 VA: 0x1822D11A0
 	private static void BlockCopy(byte* src, byte* dst, int len) { }
 
-	// RVA: 0x22D13D0 Offset: 0x22CF9D0 VA: 0x1822D13D0
+	// RVA: 0x22D1210 Offset: 0x22CF810 VA: 0x1822D1210
 	private static void BlockFill(byte* dst, int len, byte val) { }
 
-	// RVA: 0x22D2180 Offset: 0x22D0780 VA: 0x1822D2180
+	// RVA: 0x22D1FC0 Offset: 0x22D05C0 VA: 0x1822D1FC0
 	public static int Encode32(byte* input, byte* output, int inputLength, int outputLength) { }
 
-	// RVA: 0x22D22D0 Offset: 0x22D08D0 VA: 0x1822D22D0
+	// RVA: 0x22D2110 Offset: 0x22D0710 VA: 0x1822D2110
 	public static int Encode32(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength) { }
 
-	// RVA: 0x22D1920 Offset: 0x22CFF20 VA: 0x1822D1920
+	// RVA: 0x22D1760 Offset: 0x22CFD60 VA: 0x1822D1760
 	public static int Decode32(byte* input, int inputLength, byte* output, int outputLength, bool knownOutputLength) { }
 
-	// RVA: 0x22D15D0 Offset: 0x22CFBD0 VA: 0x1822D15D0
+	// RVA: 0x22D1410 Offset: 0x22CFA10 VA: 0x1822D1410
 	public static int Decode32(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength, bool knownOutputLength) { }
 
-	// RVA: 0x22D2C40 Offset: 0x22D1240 VA: 0x1822D2C40
+	// RVA: 0x22D2A80 Offset: 0x22D1080 VA: 0x1822D2A80
 	public static int Encode64(byte* input, byte* output, int inputLength, int outputLength) { }
 
-	// RVA: 0x22D28E0 Offset: 0x22D0EE0 VA: 0x1822D28E0
+	// RVA: 0x22D2720 Offset: 0x22D0D20 VA: 0x1822D2720
 	public static int Encode64(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength) { }
 
-	// RVA: 0x22D1DA0 Offset: 0x22D03A0 VA: 0x1822D1DA0
+	// RVA: 0x22D1BE0 Offset: 0x22D01E0 VA: 0x1822D1BE0
 	public static int Decode64(byte* input, int inputLength, byte* output, int outputLength, bool knownOutputLength) { }
 
-	// RVA: 0x22D1A50 Offset: 0x22D0050 VA: 0x1822D1A50
+	// RVA: 0x22D1890 Offset: 0x22CFE90 VA: 0x1822D1890
 	public static int Decode64(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength, bool knownOutputLength) { }
 
-	// RVA: 0x22D2FC0 Offset: 0x22D15C0 VA: 0x1822D2FC0
+	// RVA: 0x22D2E00 Offset: 0x22D1400 VA: 0x1822D2E00
 	private static LZ4Codec.LZ4HC_Data_Structure LZ4HC_Create(byte* src) { }
 
-	// RVA: 0x22D6700 Offset: 0x22D4D00 VA: 0x1822D6700
+	// RVA: 0x22D6540 Offset: 0x22D4B40 VA: 0x1822D6540
 	private static int LZ4_compressHC_32(byte* input, byte* output, int inputLength, int outputLength) { }
 
-	// RVA: 0x22D1ED0 Offset: 0x22D04D0 VA: 0x1822D1ED0
+	// RVA: 0x22D1D10 Offset: 0x22D0310 VA: 0x1822D1D10
 	public static int Encode32HC(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength) { }
 
-	// RVA: 0x22D67A0 Offset: 0x22D4DA0 VA: 0x1822D67A0
+	// RVA: 0x22D65E0 Offset: 0x22D4BE0 VA: 0x1822D65E0
 	private static int LZ4_compressHC_64(byte* input, byte* output, int inputLength, int outputLength) { }
 
-	// RVA: 0x22D2630 Offset: 0x22D0C30 VA: 0x1822D2630
+	// RVA: 0x22D2470 Offset: 0x22D0A70 VA: 0x1822D2470
 	public static int Encode64HC(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength) { }
 
-	// RVA: 0x22D4C60 Offset: 0x22D3260 VA: 0x1822D4C60
+	// RVA: 0x22D4AA0 Offset: 0x22D30A0 VA: 0x1822D4AA0
 	private static int LZ4_compressCtx_32(byte** hash_table, byte* src, byte* dst, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x22D3F90 Offset: 0x22D2590 VA: 0x1822D3F90
+	// RVA: 0x22D3DD0 Offset: 0x22D23D0 VA: 0x1822D3DD0
 	private static int LZ4_compress64kCtx_32(ushort* hash_table, byte* src, byte* dst, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x22D6C10 Offset: 0x22D5210 VA: 0x1822D6C10
+	// RVA: 0x22D6A50 Offset: 0x22D5050 VA: 0x1822D6A50
 	private static int LZ4_uncompress_32(byte* src, byte* dst, int dst_len) { }
 
-	// RVA: 0x22D7380 Offset: 0x22D5980 VA: 0x1822D7380
+	// RVA: 0x22D71C0 Offset: 0x22D57C0 VA: 0x1822D71C0
 	private static int LZ4_uncompress_unknownOutputSize_32(byte* src, byte* dst, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x22D3ED0 Offset: 0x22D24D0 VA: 0x1822D3ED0
+	// RVA: 0x22D3D10 Offset: 0x22D2310 VA: 0x1822D3D10
 	private static void LZ4HC_Insert_32(LZ4Codec.LZ4HC_Data_Structure hc4, byte* src_p) { }
 
-	// RVA: 0x22D2D90 Offset: 0x22D1390 VA: 0x1822D2D90
+	// RVA: 0x22D2BD0 Offset: 0x22D11D0 VA: 0x1822D2BD0
 	private static int LZ4HC_CommonLength_32(byte* p1, byte* p2, byte* src_LASTLITERALS) { }
 
-	// RVA: 0x22D30E0 Offset: 0x22D16E0 VA: 0x1822D30E0
+	// RVA: 0x22D2F20 Offset: 0x22D1520 VA: 0x1822D2F20
 	private static int LZ4HC_InsertAndFindBestMatch_32(LZ4Codec.LZ4HC_Data_Structure hc4, byte* src_p, byte* src_LASTLITERALS, ref byte* matchpos) { }
 
-	// RVA: 0x22D36E0 Offset: 0x22D1CE0 VA: 0x1822D36E0
+	// RVA: 0x22D3520 Offset: 0x22D1B20 VA: 0x1822D3520
 	private static int LZ4HC_InsertAndGetWiderMatch_32(LZ4Codec.LZ4HC_Data_Structure hc4, byte* src_p, byte* startLimit, byte* src_LASTLITERALS, int longest, ref byte* matchpos, ref byte* startpos) { }
 
-	// RVA: 0x22D6840 Offset: 0x22D4E40 VA: 0x1822D6840
+	// RVA: 0x22D6680 Offset: 0x22D4C80 VA: 0x1822D6680
 	private static int LZ4_encodeSequence_32(ref byte* src_p, ref byte* dst_p, ref byte* src_anchor, int matchLength, byte* xxx_ref, byte* dst_end) { }
 
-	// RVA: 0x22D5960 Offset: 0x22D3F60 VA: 0x1822D5960
+	// RVA: 0x22D57A0 Offset: 0x22D3DA0 VA: 0x1822D57A0
 	private static int LZ4_compressHCCtx_32(LZ4Codec.LZ4HC_Data_Structure ctx, byte* src, byte* dst, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x22D52C0 Offset: 0x22D38C0 VA: 0x1822D52C0
+	// RVA: 0x22D5100 Offset: 0x22D3700 VA: 0x1822D5100
 	private static int LZ4_compressCtx_64(uint* hash_table, byte* src, byte* dst, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x22D45E0 Offset: 0x22D2BE0 VA: 0x1822D45E0
+	// RVA: 0x22D4420 Offset: 0x22D2A20 VA: 0x1822D4420
 	private static int LZ4_compress64kCtx_64(ushort* hash_table, byte* src, byte* dst, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x22D6F80 Offset: 0x22D5580 VA: 0x1822D6F80
+	// RVA: 0x22D6DC0 Offset: 0x22D53C0 VA: 0x1822D6DC0
 	private static int LZ4_uncompress_64(byte* src, byte* dst, int dst_len) { }
 
-	// RVA: 0x22D7750 Offset: 0x22D5D50 VA: 0x1822D7750
+	// RVA: 0x22D7590 Offset: 0x22D5B90 VA: 0x1822D7590
 	private static int LZ4_uncompress_unknownOutputSize_64(byte* src, byte* dst, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x22D3ED0 Offset: 0x22D24D0 VA: 0x1822D3ED0
+	// RVA: 0x22D3D10 Offset: 0x22D2310 VA: 0x1822D3D10
 	private static void LZ4HC_Insert_64(LZ4Codec.LZ4HC_Data_Structure hc4, byte* src_p) { }
 
-	// RVA: 0x22D2E90 Offset: 0x22D1490 VA: 0x1822D2E90
+	// RVA: 0x22D2CD0 Offset: 0x22D12D0 VA: 0x1822D2CD0
 	private static int LZ4HC_CommonLength_64(byte* p1, byte* p2, byte* src_LASTLITERALS) { }
 
-	// RVA: 0x22D33E0 Offset: 0x22D19E0 VA: 0x1822D33E0
+	// RVA: 0x22D3220 Offset: 0x22D1820 VA: 0x1822D3220
 	private static int LZ4HC_InsertAndFindBestMatch_64(LZ4Codec.LZ4HC_Data_Structure hc4, byte* src_p, byte* src_LASTLITERALS, ref byte* matchpos) { }
 
-	// RVA: 0x22D3AC0 Offset: 0x22D20C0 VA: 0x1822D3AC0
+	// RVA: 0x22D3900 Offset: 0x22D1F00 VA: 0x1822D3900
 	private static int LZ4HC_InsertAndGetWiderMatch_64(LZ4Codec.LZ4HC_Data_Structure hc4, byte* src_p, byte* startLimit, byte* src_LASTLITERALS, int longest, ref byte* matchpos, ref byte* startpos) { }
 
-	// RVA: 0x22D6A30 Offset: 0x22D5030 VA: 0x1822D6A30
+	// RVA: 0x22D6870 Offset: 0x22D4E70 VA: 0x1822D6870
 	private static int LZ4_encodeSequence_64(ref byte* src_p, ref byte* dst_p, ref byte* src_anchor, int matchLength, byte* src_ref, byte* dst_end) { }
 
-	// RVA: 0x22D6030 Offset: 0x22D4630 VA: 0x1822D6030
+	// RVA: 0x22D5E70 Offset: 0x22D4470 VA: 0x1822D5E70
 	private static int LZ4_compressHCCtx_64(LZ4Codec.LZ4HC_Data_Structure ctx, byte* src, byte* dst, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x22D7BA0 Offset: 0x22D61A0 VA: 0x1822D7BA0
+	// RVA: 0x22D79E0 Offset: 0x22D5FE0 VA: 0x1822D79E0
 	private static void .cctor() { }
 
 }
@@ -182,133 +182,133 @@ public static class LZ4Codec // TypeDefIndex: 6981
 
 	// Methods
 
-	// RVA: 0x2254380 Offset: 0x2252980 VA: 0x182254380
+	// RVA: 0x22541C0 Offset: 0x22527C0 VA: 0x1822541C0
 	internal static void CheckArguments(byte[] input, int inputOffset, ref int inputLength, byte[] output, int outputOffset, ref int outputLength) { }
 
-	// RVA: 0x225F240 Offset: 0x225D840 VA: 0x18225F240
+	// RVA: 0x225F080 Offset: 0x225D680 VA: 0x18225F080
 	internal static void Poke2(byte[] buffer, int offset, ushort value) { }
 
-	// RVA: 0x225F1E0 Offset: 0x225D7E0 VA: 0x18225F1E0
+	// RVA: 0x225F020 Offset: 0x225D620 VA: 0x18225F020
 	internal static ushort Peek2(byte[] buffer, int offset) { }
 
 	// RVA: 0x1202A50 Offset: 0x1201050 VA: 0x181202A50
 	internal static uint Peek4(byte[] buffer, int offset) { }
 
-	// RVA: 0x22600A0 Offset: 0x225E6A0 VA: 0x1822600A0
+	// RVA: 0x225FEE0 Offset: 0x225E4E0 VA: 0x18225FEE0
 	private static uint Xor4(byte[] buffer, int offset1, int offset2) { }
 
-	// RVA: 0x2260230 Offset: 0x225E830 VA: 0x182260230
+	// RVA: 0x2260070 Offset: 0x225E670 VA: 0x182260070
 	private static ulong Xor8(byte[] buffer, int offset1, int offset2) { }
 
-	// RVA: 0x2255B40 Offset: 0x2254140 VA: 0x182255B40
+	// RVA: 0x2255980 Offset: 0x2253F80 VA: 0x182255980
 	private static bool Equal2(byte[] buffer, int offset1, int offset2) { }
 
-	// RVA: 0x2255BE0 Offset: 0x22541E0 VA: 0x182255BE0
+	// RVA: 0x2255A20 Offset: 0x2254020 VA: 0x182255A20
 	private static bool Equal4(byte[] buffer, int offset1, int offset2) { }
 
-	// RVA: 0x2254510 Offset: 0x2252B10 VA: 0x182254510
+	// RVA: 0x2254350 Offset: 0x2252950 VA: 0x182254350
 	private static void Copy4(byte[] buf, int src, int dst) { }
 
-	// RVA: 0x2254650 Offset: 0x2252C50 VA: 0x182254650
+	// RVA: 0x2254490 Offset: 0x2252A90 VA: 0x182254490
 	private static void Copy8(byte[] buf, int src, int dst) { }
 
-	// RVA: 0x2253F00 Offset: 0x2252500 VA: 0x182253F00
+	// RVA: 0x2253D40 Offset: 0x2252340 VA: 0x182253D40
 	private static void BlockCopy(byte[] src, int src_0, byte[] dst, int dst_0, int len) { }
 
-	// RVA: 0x225FE90 Offset: 0x225E490 VA: 0x18225FE90
+	// RVA: 0x225FCD0 Offset: 0x225E2D0 VA: 0x18225FCD0
 	private static int WildCopy(byte[] src, int src_0, byte[] dst, int dst_0, int dst_end) { }
 
-	// RVA: 0x225F2A0 Offset: 0x225D8A0 VA: 0x18225F2A0
+	// RVA: 0x225F0E0 Offset: 0x225D6E0 VA: 0x18225F0E0
 	private static int SecureCopy(byte[] buffer, int src, int dst, int dst_end) { }
 
-	// RVA: 0x22551C0 Offset: 0x22537C0 VA: 0x1822551C0
+	// RVA: 0x2255000 Offset: 0x2253600 VA: 0x182255000
 	public static int Encode32(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength) { }
 
-	// RVA: 0x22556E0 Offset: 0x2253CE0 VA: 0x1822556E0
+	// RVA: 0x2255520 Offset: 0x2253B20 VA: 0x182255520
 	public static int Encode64(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength) { }
 
-	// RVA: 0x22548C0 Offset: 0x2252EC0 VA: 0x1822548C0
+	// RVA: 0x2254700 Offset: 0x2252D00 VA: 0x182254700
 	public static int Decode32(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength, bool knownOutputLength) { }
 
-	// RVA: 0x2254BA0 Offset: 0x22531A0 VA: 0x182254BA0
+	// RVA: 0x22549E0 Offset: 0x2252FE0 VA: 0x1822549E0
 	public static int Decode64(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength, bool knownOutputLength) { }
 
-	// RVA: 0x2256330 Offset: 0x2254930 VA: 0x182256330
+	// RVA: 0x2256170 Offset: 0x2254770 VA: 0x182256170
 	private static LZ4Codec.LZ4HC_Data_Structure LZ4HC_Create(byte[] src, int src_0, int src_len, byte[] dst, int dst_0, int dst_len) { }
 
-	// RVA: 0x225C630 Offset: 0x225AC30 VA: 0x18225C630
+	// RVA: 0x225C470 Offset: 0x225AA70 VA: 0x18225C470
 	private static int LZ4_compressHC_32(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength) { }
 
-	// RVA: 0x2254F50 Offset: 0x2253550 VA: 0x182254F50
+	// RVA: 0x2254D90 Offset: 0x2253390 VA: 0x182254D90
 	public static int Encode32HC(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength) { }
 
-	// RVA: 0x225C6D0 Offset: 0x225ACD0 VA: 0x18225C6D0
+	// RVA: 0x225C510 Offset: 0x225AB10 VA: 0x18225C510
 	private static int LZ4_compressHC_64(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength) { }
 
-	// RVA: 0x2255470 Offset: 0x2253A70 VA: 0x182255470
+	// RVA: 0x22552B0 Offset: 0x22538B0 VA: 0x1822552B0
 	public static int Encode64HC(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength) { }
 
-	// RVA: 0x2259930 Offset: 0x2257F30 VA: 0x182259930
+	// RVA: 0x2259770 Offset: 0x2257D70 VA: 0x182259770
 	private static int LZ4_compressCtx_safe32(int[] hash_table, byte[] src, byte[] dst, int src_0, int dst_0, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x2257B30 Offset: 0x2256130 VA: 0x182257B30
+	// RVA: 0x2257970 Offset: 0x2255F70 VA: 0x182257970
 	private static int LZ4_compress64kCtx_safe32(ushort[] hash_table, byte[] src, byte[] dst, int src_0, int dst_0, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x225D2B0 Offset: 0x225B8B0 VA: 0x18225D2B0
+	// RVA: 0x225D0F0 Offset: 0x225B6F0 VA: 0x18225D0F0
 	private static int LZ4_uncompress_safe32(byte[] src, byte[] dst, int src_0, int dst_0, int dst_len) { }
 
-	// RVA: 0x225E1D0 Offset: 0x225C7D0 VA: 0x18225E1D0
+	// RVA: 0x225E010 Offset: 0x225C610 VA: 0x18225E010
 	private static int LZ4_uncompress_unknownOutputSize_safe32(byte[] src, byte[] dst, int src_0, int dst_0, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x22577F0 Offset: 0x2255DF0 VA: 0x1822577F0
+	// RVA: 0x2257630 Offset: 0x2255C30 VA: 0x182257630
 	private static void LZ4HC_Insert_32(LZ4Codec.LZ4HC_Data_Structure ctx, int src_p) { }
 
-	// RVA: 0x2255F80 Offset: 0x2254580 VA: 0x182255F80
+	// RVA: 0x2255DC0 Offset: 0x22543C0 VA: 0x182255DC0
 	private static int LZ4HC_CommonLength_32(LZ4Codec.LZ4HC_Data_Structure ctx, int p1, int p2) { }
 
-	// RVA: 0x2256480 Offset: 0x2254A80 VA: 0x182256480
+	// RVA: 0x22562C0 Offset: 0x22548C0 VA: 0x1822562C0
 	private static int LZ4HC_InsertAndFindBestMatch_32(LZ4Codec.LZ4HC_Data_Structure ctx, int src_p, ref int src_match) { }
 
-	// RVA: 0x2256E80 Offset: 0x2255480 VA: 0x182256E80
+	// RVA: 0x2256CC0 Offset: 0x22552C0 VA: 0x182256CC0
 	private static int LZ4HC_InsertAndGetWiderMatch_32(LZ4Codec.LZ4HC_Data_Structure ctx, int src_p, int startLimit, int longest, ref int matchpos, ref int startpos) { }
 
-	// RVA: 0x225C770 Offset: 0x225AD70 VA: 0x18225C770
+	// RVA: 0x225C5B0 Offset: 0x225ABB0 VA: 0x18225C5B0
 	private static int LZ4_encodeSequence_32(LZ4Codec.LZ4HC_Data_Structure ctx, ref int src_p, ref int dst_p, ref int src_anchor, int matchLength, int src_ref, int dst_end) { }
 
-	// RVA: 0x225B880 Offset: 0x2259E80 VA: 0x18225B880
+	// RVA: 0x225B6C0 Offset: 0x2259CC0 VA: 0x18225B6C0
 	private static int LZ4_compressHCCtx_32(LZ4Codec.LZ4HC_Data_Structure ctx) { }
 
-	// RVA: 0x225A8B0 Offset: 0x2258EB0 VA: 0x18225A8B0
+	// RVA: 0x225A6F0 Offset: 0x2258CF0 VA: 0x18225A6F0
 	private static int LZ4_compressCtx_safe64(int[] hash_table, byte[] src, byte[] dst, int src_0, int dst_0, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x2258A10 Offset: 0x2257010 VA: 0x182258A10
+	// RVA: 0x2258850 Offset: 0x2256E50 VA: 0x182258850
 	private static int LZ4_compress64kCtx_safe64(ushort[] hash_table, byte[] src, byte[] dst, int src_0, int dst_0, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x225DA10 Offset: 0x225C010 VA: 0x18225DA10
+	// RVA: 0x225D850 Offset: 0x225BE50 VA: 0x18225D850
 	private static int LZ4_uncompress_safe64(byte[] src, byte[] dst, int src_0, int dst_0, int dst_len) { }
 
-	// RVA: 0x225E9A0 Offset: 0x225CFA0 VA: 0x18225E9A0
+	// RVA: 0x225E7E0 Offset: 0x225CDE0 VA: 0x18225E7E0
 	private static int LZ4_uncompress_unknownOutputSize_safe64(byte[] src, byte[] dst, int src_0, int dst_0, int src_len, int dst_maxlen) { }
 
-	// RVA: 0x2257990 Offset: 0x2255F90 VA: 0x182257990
+	// RVA: 0x22577D0 Offset: 0x2255DD0 VA: 0x1822577D0
 	private static void LZ4HC_Insert_64(LZ4Codec.LZ4HC_Data_Structure ctx, int src_p) { }
 
-	// RVA: 0x2256130 Offset: 0x2254730 VA: 0x182256130
+	// RVA: 0x2255F70 Offset: 0x2254570 VA: 0x182255F70
 	private static int LZ4HC_CommonLength_64(LZ4Codec.LZ4HC_Data_Structure ctx, int p1, int p2) { }
 
-	// RVA: 0x2256980 Offset: 0x2254F80 VA: 0x182256980
+	// RVA: 0x22567C0 Offset: 0x2254DC0 VA: 0x1822567C0
 	private static int LZ4HC_InsertAndFindBestMatch_64(LZ4Codec.LZ4HC_Data_Structure ctx, int src_p, ref int matchpos) { }
 
-	// RVA: 0x2257310 Offset: 0x2255910 VA: 0x182257310
+	// RVA: 0x2257150 Offset: 0x2255750 VA: 0x182257150
 	private static int LZ4HC_InsertAndGetWiderMatch_64(LZ4Codec.LZ4HC_Data_Structure ctx, int src_p, int startLimit, int longest, ref int matchpos, ref int startpos) { }
 
-	// RVA: 0x225CD10 Offset: 0x225B310 VA: 0x18225CD10
+	// RVA: 0x225CB50 Offset: 0x225B150 VA: 0x18225CB50
 	private static int LZ4_encodeSequence_64(LZ4Codec.LZ4HC_Data_Structure ctx, ref int src_p, ref int dst_p, ref int src_anchor, int matchLength, int src_ref) { }
 
-	// RVA: 0x225BF70 Offset: 0x225A570 VA: 0x18225BF70
+	// RVA: 0x225BDB0 Offset: 0x225A3B0 VA: 0x18225BDB0
 	private static int LZ4_compressHCCtx_64(LZ4Codec.LZ4HC_Data_Structure ctx) { }
 
-	// RVA: 0x2260560 Offset: 0x225EB60 VA: 0x182260560
+	// RVA: 0x22603A0 Offset: 0x225E9A0 VA: 0x1822603A0
 	private static void .cctor() { }
 
 }
@@ -353,28 +353,28 @@ public static class LZ4Codec // TypeDefIndex: 6989
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	private static bool Has2010Runtime() { }
 
-	// RVA: 0x2255DB0 Offset: 0x22543B0 VA: 0x182255DB0
+	// RVA: 0x2255BF0 Offset: 0x22541F0 VA: 0x182255BF0
 	private static void InitializeLZ4mm() { }
 
-	// RVA: 0x2255D20 Offset: 0x2254320 VA: 0x182255D20
+	// RVA: 0x2255B60 Offset: 0x2254160 VA: 0x182255B60
 	private static void InitializeLZ4cc() { }
 
-	// RVA: 0x2255E40 Offset: 0x2254440 VA: 0x182255E40
+	// RVA: 0x2255C80 Offset: 0x2254280 VA: 0x182255C80
 	private static void InitializeLZ4n() { }
 
-	// RVA: 0x2255EE0 Offset: 0x22544E0 VA: 0x182255EE0
+	// RVA: 0x2255D20 Offset: 0x2254320 VA: 0x182255D20
 	private static void InitializeLZ4s() { }
 
-	// RVA: 0x2260690 Offset: 0x225EC90 VA: 0x182260690
+	// RVA: 0x22604D0 Offset: 0x225EAD0 VA: 0x1822604D0
 	private static void .cctor() { }
 
-	// RVA: 0x225F500 Offset: 0x225DB00 VA: 0x18225F500
+	// RVA: 0x225F340 Offset: 0x225D940 VA: 0x18225F340
 	private static void SelectCodec(out ILZ4Service encoder, out ILZ4Service decoder, out ILZ4Service encoderHC) { }
 
-	// RVA: 0x2253AD0 Offset: 0x22520D0 VA: 0x182253AD0
+	// RVA: 0x2253910 Offset: 0x2251F10 VA: 0x182253910
 	private static ILZ4Service AutoTest(ILZ4Service service) { }
 
-	// RVA: 0x225FE30 Offset: 0x225E430 VA: 0x18225FE30
+	// RVA: 0x225FC70 Offset: 0x225E270 VA: 0x18225FC70
 	private static void Try(Action method) { }
 
 	// RVA: -1 Offset: -1
@@ -400,16 +400,16 @@ public static class LZ4Codec // TypeDefIndex: 6989
 	|-LZ4Codec.TryService<object>
 	*/
 
-	// RVA: 0x225F1C0 Offset: 0x225D7C0 VA: 0x18225F1C0
+	// RVA: 0x225F000 Offset: 0x225D600 VA: 0x18225F000
 	public static int MaximumOutputLength(int inputLength) { }
 
-	// RVA: 0x2255A80 Offset: 0x2254080 VA: 0x182255A80
+	// RVA: 0x22558C0 Offset: 0x2253EC0 VA: 0x1822558C0
 	public static int Encode(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength) { }
 
-	// RVA: 0x2255990 Offset: 0x2253F90 VA: 0x182255990
+	// RVA: 0x22557D0 Offset: 0x2253DD0 VA: 0x1822557D0
 	public static int EncodeHC(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength) { }
 
-	// RVA: 0x2254E80 Offset: 0x2253480 VA: 0x182254E80
+	// RVA: 0x2254CC0 Offset: 0x22532C0 VA: 0x182254CC0
 	public static int Decode(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength = 0, bool knownOutputLength = False) { }
 
 }

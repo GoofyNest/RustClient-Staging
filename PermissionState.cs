@@ -1,7 +1,7 @@
 public enum PermissionState // TypeDefIndex: 913
 {
 // Namespace: System.Security.Permissions
-[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 [Serializable]
 public enum PermissionState // TypeDefIndex: 913
 	// Fields

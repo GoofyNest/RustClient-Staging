@@ -1,10 +1,10 @@
 public class StringContent : ByteArrayContent // TypeDefIndex: 5757
 {	// Methods
 
-	// RVA: 0x231BF40 Offset: 0x231A540 VA: 0x18231BF40
+	// RVA: 0x231BD80 Offset: 0x231A380 VA: 0x18231BD80
 	public void .ctor(string content, Encoding encoding, string mediaType) { }
 
-	// RVA: 0x231BF00 Offset: 0x231A500 VA: 0x18231BF00
+	// RVA: 0x231BD40 Offset: 0x231A340 VA: 0x18231BD40
 	private static byte[] GetByteArray(string content, Encoding encoding) { }
 
 }

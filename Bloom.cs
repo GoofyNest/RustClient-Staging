@@ -103,35 +103,35 @@ public enum Bloom.BloomQuality // TypeDefIndex: 8156
 
 public sealed class Bloom : PostProcessEffectSettings // TypeDefIndex: 11767
 {	// Fields
-	[MinAttribute] // RVA: 0xEC120 Offset: 0xEB520 VA: 0x1800EC120
-	[TooltipAttribute] // RVA: 0xEC120 Offset: 0xEB520 VA: 0x1800EC120
+	[MinAttribute] // RVA: 0xEC200 Offset: 0xEB600 VA: 0x1800EC200
+	[TooltipAttribute] // RVA: 0xEC200 Offset: 0xEB600 VA: 0x1800EC200
 	public FloatParameter intensity; // 0x30
-	[MinAttribute] // RVA: 0xEC250 Offset: 0xEB650 VA: 0x1800EC250
-	[TooltipAttribute] // RVA: 0xEC250 Offset: 0xEB650 VA: 0x1800EC250
-	public FloatParameter threshold; // 0x38
-	[RangeAttribute] // RVA: 0xEC2E0 Offset: 0xEB6E0 VA: 0x1800EC2E0
+	[MinAttribute] // RVA: 0xEC2E0 Offset: 0xEB6E0 VA: 0x1800EC2E0
 	[TooltipAttribute] // RVA: 0xEC2E0 Offset: 0xEB6E0 VA: 0x1800EC2E0
-	public FloatParameter softKnee; // 0x40
+	public FloatParameter threshold; // 0x38
+	[RangeAttribute] // RVA: 0xEC330 Offset: 0xEB730 VA: 0x1800EC330
 	[TooltipAttribute] // RVA: 0xEC330 Offset: 0xEB730 VA: 0x1800EC330
+	public FloatParameter softKnee; // 0x40
+	[TooltipAttribute] // RVA: 0xEC3B0 Offset: 0xEB7B0 VA: 0x1800EC3B0
 	public FloatParameter clamp; // 0x48
-	[RangeAttribute] // RVA: 0xEC390 Offset: 0xEB790 VA: 0x1800EC390
-	[TooltipAttribute] // RVA: 0xEC390 Offset: 0xEB790 VA: 0x1800EC390
-	public FloatParameter diffusion; // 0x50
 	[RangeAttribute] // RVA: 0xEC430 Offset: 0xEB830 VA: 0x1800EC430
 	[TooltipAttribute] // RVA: 0xEC430 Offset: 0xEB830 VA: 0x1800EC430
+	public FloatParameter diffusion; // 0x50
+	[RangeAttribute] // RVA: 0xEC530 Offset: 0xEB930 VA: 0x1800EC530
+	[TooltipAttribute] // RVA: 0xEC530 Offset: 0xEB930 VA: 0x1800EC530
 	public FloatParameter anamorphicRatio; // 0x58
-	[ColorUsageAttribute] // RVA: 0xEC580 Offset: 0xEB980 VA: 0x1800EC580
-	[TooltipAttribute] // RVA: 0xEC580 Offset: 0xEB980 VA: 0x1800EC580
-	public ColorParameter color; // 0x60
-	[FormerlySerializedAsAttribute] // RVA: 0xEC620 Offset: 0xEBA20 VA: 0x1800EC620
+	[ColorUsageAttribute] // RVA: 0xEC620 Offset: 0xEBA20 VA: 0x1800EC620
 	[TooltipAttribute] // RVA: 0xEC620 Offset: 0xEBA20 VA: 0x1800EC620
+	public ColorParameter color; // 0x60
+	[FormerlySerializedAsAttribute] // RVA: 0xEC780 Offset: 0xEBB80 VA: 0x1800EC780
+	[TooltipAttribute] // RVA: 0xEC780 Offset: 0xEBB80 VA: 0x1800EC780
 	public BoolParameter fastMode; // 0x68
-	[TooltipAttribute] // RVA: 0xEC790 Offset: 0xEBB90 VA: 0x1800EC790
-	[DisplayNameAttribute] // RVA: 0xEC790 Offset: 0xEBB90 VA: 0x1800EC790
+	[TooltipAttribute] // RVA: 0xEC890 Offset: 0xEBC90 VA: 0x1800EC890
+	[DisplayNameAttribute] // RVA: 0xEC890 Offset: 0xEBC90 VA: 0x1800EC890
 	public TextureParameter dirtTexture; // 0x70
-	[MinAttribute] // RVA: 0xEC8A0 Offset: 0xEBCA0 VA: 0x1800EC8A0
-	[TooltipAttribute] // RVA: 0xEC8A0 Offset: 0xEBCA0 VA: 0x1800EC8A0
-	[DisplayNameAttribute] // RVA: 0xEC8A0 Offset: 0xEBCA0 VA: 0x1800EC8A0
+	[MinAttribute] // RVA: 0xEC8F0 Offset: 0xEBCF0 VA: 0x1800EC8F0
+	[TooltipAttribute] // RVA: 0xEC8F0 Offset: 0xEBCF0 VA: 0x1800EC8F0
+	[DisplayNameAttribute] // RVA: 0xEC8F0 Offset: 0xEBCF0 VA: 0x1800EC8F0
 	public FloatParameter dirtIntensity; // 0x78
 
 	// Methods

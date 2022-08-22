@@ -70,10 +70,10 @@ public class PoweredRemoteControlEntity : IOEntity, IRemoteControllable // TypeD
 	// RVA: 0x99FFD0 Offset: 0x99E5D0 VA: 0x18099FFD0 Slot: 31
 	public override void DestroyShared() { }
 
-	[BaseEntity.Menu] // RVA: 0x7D250 Offset: 0x7C650 VA: 0x18007D250
-	[BaseEntity.Menu.Description] // RVA: 0x7D250 Offset: 0x7C650 VA: 0x18007D250
-	[BaseEntity.Menu.Icon] // RVA: 0x7D250 Offset: 0x7C650 VA: 0x18007D250
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7D250 Offset: 0x7C650 VA: 0x18007D250
+	[BaseEntity.Menu] // RVA: 0x7D320 Offset: 0x7C720 VA: 0x18007D320
+	[BaseEntity.Menu.Description] // RVA: 0x7D320 Offset: 0x7C720 VA: 0x18007D320
+	[BaseEntity.Menu.Icon] // RVA: 0x7D320 Offset: 0x7C720 VA: 0x18007D320
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7D320 Offset: 0x7C720 VA: 0x18007D320
 	// RVA: 0x9A04A0 Offset: 0x99EAA0 VA: 0x1809A04A0
 	public void Menu_SetID(BasePlayer player) { }
 

@@ -2,7 +2,7 @@ public class PointOfInterestMapMarker : MonoBehaviour // TypeDefIndex: 10959
 {	// Fields
 	public Image MapIcon; // 0x18
 	public GameObject LeaderRoot; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <isLeader>k__BackingField; // 0x28
 
 	// Properties
@@ -10,11 +10,11 @@ public class PointOfInterestMapMarker : MonoBehaviour // TypeDefIndex: 10959
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x9974E0 Offset: 0x995AE0 VA: 0x1809974E0
 	public bool get_isLeader() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x9974F0 Offset: 0x995AF0 VA: 0x1809974F0
 	private void set_isLeader(bool value) { }
 

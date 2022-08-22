@@ -5,20 +5,20 @@ public sealed class Resources // TypeDefIndex: 3490
 	internal static T[] ConvertObjects<T>(Object[] rawObjects) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A36B50 Offset: 0x1A35150 VA: 0x181A36B50
+	|-RVA: 0x1A36B10 Offset: 0x1A35110 VA: 0x181A36B10
 	|-Resources.ConvertObjects<object>
 	*/
 
-	[FreeFunctionAttribute] // RVA: 0xB46F0 Offset: 0xB3AF0 VA: 0x1800B46F0
-	[TypeInferenceRuleAttribute] // RVA: 0xB46F0 Offset: 0xB3AF0 VA: 0x1800B46F0
-	// RVA: 0x19B3960 Offset: 0x19B1F60 VA: 0x1819B3960
+	[FreeFunctionAttribute] // RVA: 0xB4790 Offset: 0xB3B90 VA: 0x1800B4790
+	[TypeInferenceRuleAttribute] // RVA: 0xB4790 Offset: 0xB3B90 VA: 0x1800B4790
+	// RVA: 0x19B3920 Offset: 0x19B1F20 VA: 0x1819B3920
 	public static Object[] FindObjectsOfTypeAll(Type type) { }
 
 	// RVA: -1 Offset: -1
 	public static T[] FindObjectsOfTypeAll<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B880 Offset: 0x1A39E80 VA: 0x181A3B880
+	|-RVA: 0x1A3B840 Offset: 0x1A39E40 VA: 0x181A3B840
 	|-Resources.FindObjectsOfTypeAll<LocalizeText>
 	|-Resources.FindObjectsOfTypeAll<RustText>
 	|-Resources.FindObjectsOfTypeAll<Cubemap>
@@ -27,7 +27,7 @@ public sealed class Resources // TypeDefIndex: 3490
 	|-Resources.FindObjectsOfTypeAll<object>
 	*/
 
-	// RVA: 0x19B3A40 Offset: 0x19B2040 VA: 0x1819B3A40
+	// RVA: 0x19B3A00 Offset: 0x19B2000 VA: 0x1819B3A00
 	public static Object Load(string path) { }
 
 	// RVA: -1 Offset: -1
@@ -51,29 +51,29 @@ public sealed class Resources // TypeDefIndex: 3490
 	|-Resources.Load<object>
 	*/
 
-	[TypeInferenceRuleAttribute] // RVA: 0xB4860 Offset: 0xB3C60 VA: 0x1800B4860
-	[FreeFunctionAttribute] // RVA: 0xB4860 Offset: 0xB3C60 VA: 0x1800B4860
-	[NativeThrowsAttribute] // RVA: 0xB4860 Offset: 0xB3C60 VA: 0x1800B4860
-	// RVA: 0x19B3AD0 Offset: 0x19B20D0 VA: 0x1819B3AD0
+	[TypeInferenceRuleAttribute] // RVA: 0xB4900 Offset: 0xB3D00 VA: 0x1800B4900
+	[FreeFunctionAttribute] // RVA: 0xB4900 Offset: 0xB3D00 VA: 0x1800B4900
+	[NativeThrowsAttribute] // RVA: 0xB4900 Offset: 0xB3D00 VA: 0x1800B4900
+	// RVA: 0x19B3A90 Offset: 0x19B2090 VA: 0x1819B3A90
 	public static Object Load(string path, Type systemTypeInstance) { }
 
-	[FreeFunctionAttribute] // RVA: 0xB4A50 Offset: 0xB3E50 VA: 0x1800B4A50
-	[NativeThrowsAttribute] // RVA: 0xB4A50 Offset: 0xB3E50 VA: 0x1800B4A50
-	// RVA: 0x19B39F0 Offset: 0x19B1FF0 VA: 0x1819B39F0
+	[FreeFunctionAttribute] // RVA: 0xB4AF0 Offset: 0xB3EF0 VA: 0x1800B4AF0
+	[NativeThrowsAttribute] // RVA: 0xB4AF0 Offset: 0xB3EF0 VA: 0x1800B4AF0
+	// RVA: 0x19B39B0 Offset: 0x19B1FB0 VA: 0x1819B39B0
 	public static Object[] LoadAll(string path, Type systemTypeInstance) { }
 
 	// RVA: -1 Offset: -1
 	public static T[] LoadAll<T>(string path) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B900 Offset: 0x1A39F00 VA: 0x181A3B900
+	|-RVA: 0x1A3B8C0 Offset: 0x1A39EC0 VA: 0x181A3B8C0
 	|-Resources.LoadAll<Config>
 	|-Resources.LoadAll<object>
 	*/
 
-	[FreeFunctionAttribute] // RVA: 0xB4DD0 Offset: 0xB41D0 VA: 0x1800B4DD0
 	[TypeInferenceRuleAttribute] // RVA: 0xB4DD0 Offset: 0xB41D0 VA: 0x1800B4DD0
-	// RVA: 0x19B39A0 Offset: 0x19B1FA0 VA: 0x1819B39A0
+	[FreeFunctionAttribute] // RVA: 0xB4DD0 Offset: 0xB41D0 VA: 0x1800B4DD0
+	// RVA: 0x19B3960 Offset: 0x19B1F60 VA: 0x1819B3960
 	public static Object GetBuiltinResource(Type type, string path) { }
 
 	// RVA: -1 Offset: -1
@@ -85,12 +85,12 @@ public sealed class Resources // TypeDefIndex: 3490
 	|-Resources.GetBuiltinResource<object>
 	*/
 
-	[FreeFunctionAttribute] // RVA: 0xB6470 Offset: 0xB5870 VA: 0x1800B6470
-	// RVA: 0x19B3B20 Offset: 0x19B2120 VA: 0x1819B3B20
+	[FreeFunctionAttribute] // RVA: 0xB64E0 Offset: 0xB58E0 VA: 0x1800B64E0
+	// RVA: 0x19B3AE0 Offset: 0x19B20E0 VA: 0x1819B3AE0
 	public static void UnloadAsset(Object assetToUnload) { }
 
-	[FreeFunctionAttribute] // RVA: 0xB66D0 Offset: 0xB5AD0 VA: 0x1800B66D0
-	// RVA: 0x19B3B60 Offset: 0x19B2160 VA: 0x1819B3B60
+	[FreeFunctionAttribute] // RVA: 0xB6710 Offset: 0xB5B10 VA: 0x1800B6710
+	// RVA: 0x19B3B20 Offset: 0x19B2120 VA: 0x1819B3B20
 	public static AsyncOperation UnloadUnusedAssets() { }
 
 }

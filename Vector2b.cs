@@ -7,28 +7,28 @@ public struct Vector2b : IEquatable<Vector2b> // TypeDefIndex: 4820
 
 	// Methods
 
-	// RVA: 0x1F9F70 Offset: 0x1F9370 VA: 0x1801F9F70
+	// RVA: 0x1F9EF0 Offset: 0x1F92F0 VA: 0x1801F9EF0
 	public void .ctor(bool x, bool y) { }
 
-	// RVA: 0x22717C0 Offset: 0x226FDC0 VA: 0x1822717C0
+	// RVA: 0x2271600 Offset: 0x226FC00 VA: 0x182271600
 	public static bool op_Equality(Vector2b a, Vector2b b) { }
 
-	// RVA: 0x22717E0 Offset: 0x226FDE0 VA: 0x1822717E0
+	// RVA: 0x2271620 Offset: 0x226FC20 VA: 0x182271620
 	public static bool op_Inequality(Vector2b a, Vector2b b) { }
 
-	// RVA: 0x238600 Offset: 0x237A00 VA: 0x180238600 Slot: 4
+	// RVA: 0x238580 Offset: 0x237980 VA: 0x180238580 Slot: 4
 	public bool Equals(Vector2b o) { }
 
-	// RVA: 0x2386B0 Offset: 0x237AB0 VA: 0x1802386B0 Slot: 2
+	// RVA: 0x238630 Offset: 0x237A30 VA: 0x180238630 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x238620 Offset: 0x237A20 VA: 0x180238620 Slot: 0
+	// RVA: 0x2385A0 Offset: 0x2379A0 VA: 0x1802385A0 Slot: 0
 	public override bool Equals(object o) { }
 
-	// RVA: 0x2386F0 Offset: 0x237AF0 VA: 0x1802386F0 Slot: 3
+	// RVA: 0x238670 Offset: 0x237A70 VA: 0x180238670 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x2271760 Offset: 0x226FD60 VA: 0x182271760
+	// RVA: 0x22715A0 Offset: 0x226FBA0 VA: 0x1822715A0
 	private static void .cctor() { }
 
 }

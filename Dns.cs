@@ -25,7 +25,7 @@ public static class Dns // TypeDefIndex: 2995
 	// RVA: 0x152F3B0 Offset: 0x152D9B0 VA: 0x18152F3B0
 	public static IPHostEntry GetHostEntry(IPAddress address) { }
 
-	[ObsoleteAttribute] // RVA: 0xB67D0 Offset: 0xB5BD0 VA: 0x1800B67D0
+	[ObsoleteAttribute] // RVA: 0xB6740 Offset: 0xB5B40 VA: 0x1800B6740
 	// RVA: 0x152EFF0 Offset: 0x152D5F0 VA: 0x18152EFF0
 	public static IPHostEntry GetHostByName(string hostName) { }
 

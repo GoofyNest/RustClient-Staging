@@ -12,7 +12,7 @@ internal struct ParsingInfo // TypeDefIndex: 239
 
 	// Methods
 
-	// RVA: 0x2159A0 Offset: 0x214DA0 VA: 0x1802159A0
+	// RVA: 0x215920 Offset: 0x214D20 VA: 0x180215920
 	internal void Init() { }
 
 }

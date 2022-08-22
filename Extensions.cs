@@ -1,7 +1,7 @@
 public static class Extensions // TypeDefIndex: 6047
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static U Value<U>(IEnumerable<JToken> value) { }
 	/* GenericInstMethod :
@@ -12,27 +12,27 @@ public static class Extensions // TypeDefIndex: 6047
 	|-Extensions.Value<float>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static U Value<T, U>(IEnumerable<T> value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A389A0 Offset: 0x1A36FA0 VA: 0x181A389A0
+	|-RVA: 0x1A38960 Offset: 0x1A36F60 VA: 0x181A38960
 	|-Extensions.Value<object, object>
 	|
-	|-RVA: 0x1A38A40 Offset: 0x1A37040 VA: 0x181A38A40
+	|-RVA: 0x1A38A00 Offset: 0x1A37000 VA: 0x181A38A00
 	|-Extensions.Value<object, float>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal static U Convert<T, U>(T token) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A38230 Offset: 0x1A36830 VA: 0x181A38230
+	|-RVA: 0x1A381F0 Offset: 0x1A367F0 VA: 0x181A381F0
 	|-Extensions.Convert<object, object>
 	|
-	|-RVA: 0x1A385E0 Offset: 0x1A36BE0 VA: 0x181A385E0
+	|-RVA: 0x1A385A0 Offset: 0x1A36BA0 VA: 0x181A385A0
 	|-Extensions.Convert<object, float>
 	*/
 
@@ -151,7 +151,7 @@ private sealed class Extensions.<>c // TypeDefIndex: 6052
 private sealed class Extensions.<>c__13<T, U> // TypeDefIndex: 6054
 {
 // Namespace: 
-[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 [Serializable]
 private sealed class Extensions.<>c__13<T, U> // TypeDefIndex: 6054
 	// Fields
@@ -180,7 +180,7 @@ private sealed class Extensions.<>c__13<T, U> // TypeDefIndex: 6054
 public static class Extensions // TypeDefIndex: 8137
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static T Pop<T>(List<T> list) { }
 	/* GenericInstMethod :
@@ -198,7 +198,7 @@ public static class Extensions // TypeDefIndex: 8137
 public static class Extensions // TypeDefIndex: 11572
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool AnyOfType<TSource>(IEnumerable<TSource> source, Type expectedType) { }
 	/* GenericInstMethod :

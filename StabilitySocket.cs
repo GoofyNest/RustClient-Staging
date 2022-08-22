@@ -1,6 +1,6 @@
 public class StabilitySocket : Socket_Base // TypeDefIndex: 9109
 {	// Fields
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float support; // 0xE8
 
 	// Methods

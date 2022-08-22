@@ -1,6 +1,6 @@
 public class Voice : ConsoleSystem // TypeDefIndex: 11974
 {	// Fields
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static bool loopback; // 0x2050B
 
 	// Methods

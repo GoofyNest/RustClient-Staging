@@ -1,11 +1,11 @@
 public static class CollectionExtensions // TypeDefIndex: 1442
 {
 // Namespace: System.Collections.Generic
-[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 public static class CollectionExtensions // TypeDefIndex: 1442
 	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TValue GetValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue> dictionary, TKey key) { }
 	/* GenericInstMethod :
@@ -15,7 +15,7 @@ public static class CollectionExtensions // TypeDefIndex: 1442
 	|-CollectionExtensions.GetValueOrDefault<string, LocalDataStoreSlot>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TValue GetValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue> dictionary, TKey key, TValue defaultValue) { }
 	/* GenericInstMethod :
@@ -29,7 +29,7 @@ public static class CollectionExtensions // TypeDefIndex: 1442
 internal static class CollectionExtensions // TypeDefIndex: 5760
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool SequenceEqual<TSource>(List<TSource> first, List<TSource> second) { }
 	/* GenericInstMethod :
@@ -41,11 +41,11 @@ internal static class CollectionExtensions // TypeDefIndex: 5760
 	|-CollectionExtensions.SequenceEqual<string>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1086670 Offset: 0x1084C70 VA: 0x181086670
 	public static void SetValue(List<NameValueHeaderValue> parameters, string key, string value) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static string ToString<T>(List<T> list) { }
 	/* GenericInstMethod :
@@ -55,7 +55,7 @@ internal static class CollectionExtensions // TypeDefIndex: 5760
 	|-CollectionExtensions.ToString<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static void ToStringBuilder<T>(List<T> list, StringBuilder sb) { }
 	/* GenericInstMethod :

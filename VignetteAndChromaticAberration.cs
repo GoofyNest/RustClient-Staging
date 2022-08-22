@@ -17,16 +17,16 @@ public class VignetteAndChromaticAberration : PostEffectsBase, IImageEffect // T
 
 	// Methods
 
-	// RVA: 0x21E9F70 Offset: 0x21E8570 VA: 0x1821E9F70 Slot: 4
+	// RVA: 0x21E9DB0 Offset: 0x21E83B0 VA: 0x1821E9DB0 Slot: 4
 	public override bool CheckResources() { }
 
 	// RVA: 0x1073E80 Offset: 0x1072480 VA: 0x181073E80 Slot: 5
 	public bool IsActive() { }
 
-	// RVA: 0x21EA070 Offset: 0x21E8670 VA: 0x1821EA070 Slot: 6
+	// RVA: 0x21E9EB0 Offset: 0x21E84B0 VA: 0x1821E9EB0 Slot: 6
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21EA720 Offset: 0x21E8D20 VA: 0x1821EA720
+	// RVA: 0x21EA560 Offset: 0x21E8B60 VA: 0x1821EA560
 	public void .ctor() { }
 
 }

@@ -1,8 +1,8 @@
 public sealed class SmpteTimeDivision : TimeDivision // TypeDefIndex: 7611
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly SmpteFormat <Format>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly byte <Resolution>k__BackingField; // 0x11
 
 	// Properties
@@ -14,11 +14,11 @@ public sealed class SmpteTimeDivision : TimeDivision // TypeDefIndex: 7611
 	// RVA: 0x13A7460 Offset: 0x13A5A60 VA: 0x1813A7460
 	public void .ctor(SmpteFormat format, byte resolution) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public SmpteFormat get_Format() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xF8B3B0 Offset: 0xF899B0 VA: 0x180F8B3B0
 	public byte get_Resolution() { }
 

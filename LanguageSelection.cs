@@ -10,7 +10,7 @@ public class LanguageSelection : MonoBehaviour // TypeDefIndex: 11115
 	// RVA: 0x6874C0 Offset: 0x685AC0 VA: 0x1806874C0
 	private void ChangeLanguage(string language) { }
 
-	[ContextMenu] // RVA: 0x970E0 Offset: 0x964E0 VA: 0x1800970E0
+	[ContextMenu] // RVA: 0x97190 Offset: 0x96590 VA: 0x180097190
 	// RVA: 0x687200 Offset: 0x685800 VA: 0x180687200
 	private void BuildAll() { }
 

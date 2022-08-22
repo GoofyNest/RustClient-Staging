@@ -26,16 +26,16 @@ internal struct DefaultSerializationBinder.TypeNameKey // TypeDefIndex: 6001
 
 	// Methods
 
-	// RVA: 0xF5AD0 Offset: 0xF4ED0 VA: 0x1800F5AD0
+	// RVA: 0xF5A50 Offset: 0xF4E50 VA: 0x1800F5A50
 	public void .ctor(string assemblyName, string typeName) { }
 
-	// RVA: 0x1EF400 Offset: 0x1EE800 VA: 0x1801EF400 Slot: 2
+	// RVA: 0x1EF380 Offset: 0x1EE780 VA: 0x1801EF380 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1EF350 Offset: 0x1EE750 VA: 0x1801EF350 Slot: 0
+	// RVA: 0x1EF2D0 Offset: 0x1EE6D0 VA: 0x1801EF2D0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xF5A10 Offset: 0xF4E10 VA: 0x1800F5A10
+	// RVA: 0xF5990 Offset: 0xF4D90 VA: 0x1800F5990
 	public bool Equals(DefaultSerializationBinder.TypeNameKey other) { }
 
 }

@@ -21,22 +21,22 @@ public class NoiseAndGrain : PostEffectsBase, IImageEffect // TypeDefIndex: 8194
 
 	// Methods
 
-	// RVA: 0x21E1850 Offset: 0x21DFE50 VA: 0x1821E1850 Slot: 4
+	// RVA: 0x21E1690 Offset: 0x21DFC90 VA: 0x1821E1690 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x21E1D50 Offset: 0x21E0350 VA: 0x1821E1D50 Slot: 5
+	// RVA: 0x21E1B90 Offset: 0x21E0190 VA: 0x1821E1B90 Slot: 5
 	public bool IsActive() { }
 
-	// RVA: 0x21E1DE0 Offset: 0x21E03E0 VA: 0x1821E1DE0 Slot: 6
+	// RVA: 0x21E1C20 Offset: 0x21E0220 VA: 0x1821E1C20 Slot: 6
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21E1940 Offset: 0x21DFF40 VA: 0x1821E1940
+	// RVA: 0x21E1780 Offset: 0x21DFD80 VA: 0x1821E1780
 	private static void DrawNoiseQuadGrid(RenderTexture source, RenderTexture dest, Material fxMaterial, Texture2D noise, int passNr) { }
 
-	// RVA: 0x21E28C0 Offset: 0x21E0EC0 VA: 0x1821E28C0
+	// RVA: 0x21E2700 Offset: 0x21E0D00 VA: 0x1821E2700
 	public void .ctor() { }
 
-	// RVA: 0x21E2880 Offset: 0x21E0E80 VA: 0x1821E2880
+	// RVA: 0x21E26C0 Offset: 0x21E0CC0 VA: 0x1821E26C0
 	private static void .cctor() { }
 
 }

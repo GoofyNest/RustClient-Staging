@@ -12,10 +12,10 @@ internal struct AvatarImageLoaded_t : ICallbackData // TypeDefIndex: 5311
 
 	// Methods
 
-	// RVA: 0x1E45C0 Offset: 0x1E39C0 VA: 0x1801E45C0 Slot: 5
+	// RVA: 0x1E4540 Offset: 0x1E3940 VA: 0x1801E4540 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E45B0 Offset: 0x1E39B0 VA: 0x1801E45B0 Slot: 4
+	// RVA: 0x1E4530 Offset: 0x1E3930 VA: 0x1801E4530 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x136B040 Offset: 0x1369640 VA: 0x18136B040

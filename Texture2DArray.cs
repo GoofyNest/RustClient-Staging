@@ -7,45 +7,45 @@ public sealed class Texture2DArray : Texture // TypeDefIndex: 3448
 
 	// Methods
 
-	[NativeNameAttribute] // RVA: 0xA28D0 Offset: 0xA1CD0 VA: 0x1800A28D0
-	// RVA: 0x217A430 Offset: 0x2178A30 VA: 0x18217A430
+	[NativeNameAttribute] // RVA: 0xA2960 Offset: 0xA1D60 VA: 0x1800A2960
+	// RVA: 0x217A270 Offset: 0x2178870 VA: 0x18217A270
 	public static int get_allSlices() { }
 
-	[NativeNameAttribute] // RVA: 0xA2420 Offset: 0xA1820 VA: 0x1800A2420
-	// RVA: 0x217A460 Offset: 0x2178A60 VA: 0x18217A460
+	[NativeNameAttribute] // RVA: 0xA24B0 Offset: 0xA18B0 VA: 0x1800A24B0
+	// RVA: 0x217A2A0 Offset: 0x21788A0 VA: 0x18217A2A0
 	public int get_depth() { }
 
-	[NativeNameAttribute] // RVA: 0x9E800 Offset: 0x9DC00 VA: 0x18009E800
-	// RVA: 0x217A4A0 Offset: 0x2178AA0 VA: 0x18217A4A0
+	[NativeNameAttribute] // RVA: 0x9E890 Offset: 0x9DC90 VA: 0x18009E890
+	// RVA: 0x217A2E0 Offset: 0x21788E0 VA: 0x18217A2E0
 	public TextureFormat get_format() { }
 
-	// RVA: 0x217A4E0 Offset: 0x2178AE0 VA: 0x18217A4E0 Slot: 11
+	// RVA: 0x217A320 Offset: 0x2178920 VA: 0x18217A320 Slot: 11
 	public override bool get_isReadable() { }
 
-	[FreeFunctionAttribute] // RVA: 0xA29A0 Offset: 0xA1DA0 VA: 0x1800A29A0
-	// RVA: 0x2179E40 Offset: 0x2178440 VA: 0x182179E40
+	[FreeFunctionAttribute] // RVA: 0xA2A00 Offset: 0xA1E00 VA: 0x1800A2A00
+	// RVA: 0x2179C80 Offset: 0x2178280 VA: 0x182179C80
 	private static bool Internal_CreateImpl(Texture2DArray mono, int w, int h, int d, int mipCount, GraphicsFormat format, TextureCreationFlags flags) { }
 
-	// RVA: 0x2179EA0 Offset: 0x21784A0 VA: 0x182179EA0
+	// RVA: 0x2179CE0 Offset: 0x21782E0 VA: 0x182179CE0
 	private static void Internal_Create(Texture2DArray mono, int w, int h, int d, int mipCount, GraphicsFormat format, TextureCreationFlags flags) { }
 
-	// RVA: 0x2179F70 Offset: 0x2178570 VA: 0x182179F70
+	// RVA: 0x2179DB0 Offset: 0x21783B0 VA: 0x182179DB0
 	public void .ctor(int width, int height, int depth, DefaultFormat format, TextureCreationFlags flags) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x217A1A0 Offset: 0x21787A0 VA: 0x18217A1A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x2179FE0 Offset: 0x21785E0 VA: 0x182179FE0
 	public void .ctor(int width, int height, int depth, GraphicsFormat format, TextureCreationFlags flags) { }
 
-	// RVA: 0x217A360 Offset: 0x2178960 VA: 0x18217A360
+	// RVA: 0x217A1A0 Offset: 0x21787A0 VA: 0x18217A1A0
 	public void .ctor(int width, int height, int depth, GraphicsFormat format, TextureCreationFlags flags, int mipCount) { }
 
-	// RVA: 0x217A090 Offset: 0x2178690 VA: 0x18217A090
+	// RVA: 0x2179ED0 Offset: 0x21784D0 VA: 0x182179ED0
 	public void .ctor(int width, int height, int depth, TextureFormat textureFormat, int mipCount, bool linear) { }
 
-	// RVA: 0x217A310 Offset: 0x2178910 VA: 0x18217A310
+	// RVA: 0x217A150 Offset: 0x2178750 VA: 0x18217A150
 	public void .ctor(int width, int height, int depth, TextureFormat textureFormat, bool mipChain, bool linear) { }
 
-	// RVA: 0x217A2C0 Offset: 0x21788C0 VA: 0x18217A2C0
+	// RVA: 0x217A100 Offset: 0x2178700 VA: 0x18217A100
 	public void .ctor(int width, int height, int depth, TextureFormat textureFormat, bool mipChain) { }
 
 }

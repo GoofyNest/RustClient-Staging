@@ -1,7 +1,7 @@
 internal class NativeThrowsAttribute : Attribute // TypeDefIndex: 3286
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private bool <ThrowsException>k__BackingField; // 0x10
 
 	// Properties
@@ -9,11 +9,11 @@ internal class NativeThrowsAttribute : Attribute // TypeDefIndex: 3286
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFC0 Offset: 0x4995C0 VA: 0x18049AFC0 Slot: 7
 	public void set_ThrowsException(bool value) { }
 
-	// RVA: 0x2311B30 Offset: 0x2310130 VA: 0x182311B30
+	// RVA: 0x2311970 Offset: 0x230FF70 VA: 0x182311970
 	public void .ctor() { }
 
 }

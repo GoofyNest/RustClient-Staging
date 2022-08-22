@@ -1,7 +1,7 @@
 public class MemoryTraceWriter : ITraceWriter // TypeDefIndex: 5978
 {	// Fields
 	private readonly Queue<string> _traceMessages; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TraceLevel <LevelFilter>k__BackingField; // 0x18
 
 	// Properties
@@ -9,11 +9,11 @@ public class MemoryTraceWriter : ITraceWriter // TypeDefIndex: 5978
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470 Slot: 4
 	public TraceLevel get_LevelFilter() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7D0C80 Offset: 0x7CF280 VA: 0x1807D0C80
 	public void set_LevelFilter(TraceLevel value) { }
 

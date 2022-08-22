@@ -19,7 +19,7 @@ public struct FontAssetCreationSettings // TypeDefIndex: 6764
 
 	// Methods
 
-	// RVA: 0x117200 Offset: 0x116600 VA: 0x180117200
+	// RVA: 0x117180 Offset: 0x116580 VA: 0x180117180
 	internal void .ctor(string sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, string characterSet, int renderMode) { }
 
 }

@@ -120,208 +120,208 @@ internal static class UnsafeNativeMethods // TypeDefIndex: 4896
 
 	// Methods
 
-	// RVA: 0x21F98D0 Offset: 0x21F7ED0 VA: 0x1821F98D0
+	// RVA: 0x21F9710 Offset: 0x21F7D10 VA: 0x1821F9710
 	private static void .cctor() { }
 
-	// RVA: 0x21FA230 Offset: 0x21F8830 VA: 0x1821FA230
+	// RVA: 0x21FA070 Offset: 0x21F8670 VA: 0x1821FA070
 	internal static extern int sqlite3_close(IntPtr db) { }
 
-	// RVA: 0x21FA2B0 Offset: 0x21F88B0 VA: 0x1821FA2B0
+	// RVA: 0x21FA0F0 Offset: 0x21F86F0 VA: 0x1821FA0F0
 	internal static extern int sqlite3_close_v2(IntPtr db) { }
 
-	// RVA: 0x21FAEB0 Offset: 0x21F94B0 VA: 0x1821FAEB0
+	// RVA: 0x21FACF0 Offset: 0x21F92F0 VA: 0x1821FACF0
 	internal static extern int sqlite3_create_function(IntPtr db, byte[] strName, int nArgs, int nType, IntPtr pvUser, SQLiteCallback func, SQLiteCallback fstep, SQLiteFinalCallback ffinal) { }
 
-	// RVA: 0x21FB0F0 Offset: 0x21F96F0 VA: 0x1821FB0F0
+	// RVA: 0x21FAF30 Offset: 0x21F9530 VA: 0x1821FAF30
 	internal static extern int sqlite3_finalize(IntPtr stmt) { }
 
-	// RVA: 0x21FB540 Offset: 0x21F9B40 VA: 0x1821FB540
+	// RVA: 0x21FB380 Offset: 0x21F9980 VA: 0x1821FB380
 	internal static extern int sqlite3_open_v2(byte[] utf8Filename, out IntPtr db, int flags, IntPtr vfs) { }
 
-	// RVA: 0x21FB4A0 Offset: 0x21F9AA0 VA: 0x1821FB4A0
+	// RVA: 0x21FB2E0 Offset: 0x21F98E0 VA: 0x1821FB2E0
 	internal static extern int sqlite3_open(byte[] utf8Filename, out IntPtr db) { }
 
-	// RVA: 0x21FB400 Offset: 0x21F9A00 VA: 0x1821FB400
+	// RVA: 0x21FB240 Offset: 0x21F9840 VA: 0x1821FB240
 	internal static extern int sqlite3_open16(string fileName, out IntPtr db) { }
 
-	// RVA: 0x21FB6B0 Offset: 0x21F9CB0 VA: 0x1821FB6B0
+	// RVA: 0x21FB4F0 Offset: 0x21F9AF0 VA: 0x1821FB4F0
 	internal static extern int sqlite3_reset(IntPtr stmt) { }
 
-	// RVA: 0x21F9F10 Offset: 0x21F8510 VA: 0x1821F9F10
+	// RVA: 0x21F9D50 Offset: 0x21F8350 VA: 0x1821F9D50
 	internal static extern IntPtr sqlite3_bind_parameter_name(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FA560 Offset: 0x21F8B60 VA: 0x1821FA560
+	// RVA: 0x21FA3A0 Offset: 0x21F89A0 VA: 0x1821FA3A0
 	internal static extern IntPtr sqlite3_column_database_name(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FA4D0 Offset: 0x21F8AD0 VA: 0x1821FA4D0
+	// RVA: 0x21FA310 Offset: 0x21F8910 VA: 0x1821FA310
 	internal static extern IntPtr sqlite3_column_database_name16(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FA5F0 Offset: 0x21F8BF0 VA: 0x1821FA5F0
+	// RVA: 0x21FA430 Offset: 0x21F8A30 VA: 0x1821FA430
 	internal static extern IntPtr sqlite3_column_decltype(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FA8C0 Offset: 0x21F8EC0 VA: 0x1821FA8C0
+	// RVA: 0x21FA700 Offset: 0x21F8D00 VA: 0x1821FA700
 	internal static extern IntPtr sqlite3_column_name(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FA830 Offset: 0x21F8E30 VA: 0x1821FA830
+	// RVA: 0x21FA670 Offset: 0x21F8C70 VA: 0x1821FA670
 	internal static extern IntPtr sqlite3_column_name16(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FA9E0 Offset: 0x21F8FE0 VA: 0x1821FA9E0
+	// RVA: 0x21FA820 Offset: 0x21F8E20 VA: 0x1821FA820
 	internal static extern IntPtr sqlite3_column_origin_name(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FA950 Offset: 0x21F8F50 VA: 0x1821FA950
+	// RVA: 0x21FA790 Offset: 0x21F8D90 VA: 0x1821FA790
 	internal static extern IntPtr sqlite3_column_origin_name16(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FAB00 Offset: 0x21F9100 VA: 0x1821FAB00
+	// RVA: 0x21FA940 Offset: 0x21F8F40 VA: 0x1821FA940
 	internal static extern IntPtr sqlite3_column_table_name(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FAA70 Offset: 0x21F9070 VA: 0x1821FAA70
+	// RVA: 0x21FA8B0 Offset: 0x21F8EB0 VA: 0x1821FA8B0
 	internal static extern IntPtr sqlite3_column_table_name16(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FAC20 Offset: 0x21F9220 VA: 0x1821FAC20
+	// RVA: 0x21FAA60 Offset: 0x21F9060 VA: 0x1821FAA60
 	internal static extern IntPtr sqlite3_column_text(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FAB90 Offset: 0x21F9190 VA: 0x1821FAB90
+	// RVA: 0x21FA9D0 Offset: 0x21F8FD0 VA: 0x1821FA9D0
 	internal static extern IntPtr sqlite3_column_text16(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FAFB0 Offset: 0x21F95B0 VA: 0x1821FAFB0
+	// RVA: 0x21FADF0 Offset: 0x21F93F0 VA: 0x1821FADF0
 	internal static extern IntPtr sqlite3_errmsg(IntPtr db) { }
 
-	// RVA: 0x21FB5F0 Offset: 0x21F9BF0 VA: 0x1821FB5F0
+	// RVA: 0x21FB430 Offset: 0x21F9A30 VA: 0x1821FB430
 	internal static extern int sqlite3_prepare(IntPtr db, IntPtr pSql, int nBytes, out IntPtr stmt, out IntPtr ptrRemain) { }
 
-	// RVA: 0x21FBD40 Offset: 0x21FA340 VA: 0x1821FBD40
+	// RVA: 0x21FBB80 Offset: 0x21FA180 VA: 0x1821FBB80
 	internal static extern int sqlite3_table_column_metadata(IntPtr db, byte[] dbName, byte[] tblName, byte[] colName, out IntPtr ptrDataType, out IntPtr ptrCollSeq, out int notNull, out int primaryKey, out int autoInc) { }
 
-	// RVA: 0x21FC170 Offset: 0x21FA770 VA: 0x1821FC170
+	// RVA: 0x21FBFB0 Offset: 0x21FA5B0 VA: 0x1821FBFB0
 	internal static extern IntPtr sqlite3_value_text(IntPtr p) { }
 
-	// RVA: 0x21FC0F0 Offset: 0x21FA6F0 VA: 0x1821FC0F0
+	// RVA: 0x21FBF30 Offset: 0x21FA530 VA: 0x1821FBF30
 	internal static extern IntPtr sqlite3_value_text16(IntPtr p) { }
 
-	// RVA: 0x21FB290 Offset: 0x21F9890 VA: 0x1821FB290
+	// RVA: 0x21FB0D0 Offset: 0x21F96D0 VA: 0x1821FB0D0
 	internal static extern IntPtr sqlite3_libversion() { }
 
-	// RVA: 0x21FA1B0 Offset: 0x21F87B0 VA: 0x1821FA1B0
+	// RVA: 0x21F9FF0 Offset: 0x21F85F0 VA: 0x1821F9FF0
 	internal static extern int sqlite3_changes(IntPtr db) { }
 
-	// RVA: 0x21FA120 Offset: 0x21F8720 VA: 0x1821FA120
+	// RVA: 0x21F9F60 Offset: 0x21F8560 VA: 0x1821F9F60
 	internal static extern int sqlite3_busy_timeout(IntPtr db, int ms) { }
 
-	// RVA: 0x21F9B60 Offset: 0x21F8160 VA: 0x1821F9B60
+	// RVA: 0x21F99A0 Offset: 0x21F7FA0 VA: 0x1821F99A0
 	internal static extern int sqlite3_bind_blob(IntPtr stmt, int index, byte[] value, int nSize, IntPtr nTransient) { }
 
-	// RVA: 0x21F9C20 Offset: 0x21F8220 VA: 0x1821F9C20
+	// RVA: 0x21F9A60 Offset: 0x21F8060 VA: 0x1821F9A60
 	internal static extern int sqlite3_bind_double(IntPtr stmt, int index, double value) { }
 
-	// RVA: 0x21F9D60 Offset: 0x21F8360 VA: 0x1821F9D60
+	// RVA: 0x21F9BA0 Offset: 0x21F81A0 VA: 0x1821F9BA0
 	internal static extern int sqlite3_bind_int(IntPtr stmt, int index, int value) { }
 
-	// RVA: 0x21F9CC0 Offset: 0x21F82C0 VA: 0x1821F9CC0
+	// RVA: 0x21F9B00 Offset: 0x21F8100 VA: 0x1821F9B00
 	internal static extern int sqlite3_bind_int64(IntPtr stmt, int index, long value) { }
 
-	// RVA: 0x21F9E00 Offset: 0x21F8400 VA: 0x1821F9E00
+	// RVA: 0x21F9C40 Offset: 0x21F8240 VA: 0x1821F9C40
 	internal static extern int sqlite3_bind_null(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FA060 Offset: 0x21F8660 VA: 0x1821FA060
+	// RVA: 0x21F9EA0 Offset: 0x21F84A0 VA: 0x1821F9EA0
 	internal static extern int sqlite3_bind_text(IntPtr stmt, int index, byte[] value, int nlen, IntPtr pvReserved) { }
 
-	// RVA: 0x21F9E90 Offset: 0x21F8490 VA: 0x1821F9E90
+	// RVA: 0x21F9CD0 Offset: 0x21F82D0 VA: 0x1821F9CD0
 	internal static extern int sqlite3_bind_parameter_count(IntPtr stmt) { }
 
-	// RVA: 0x21FA450 Offset: 0x21F8A50 VA: 0x1821FA450
+	// RVA: 0x21FA290 Offset: 0x21F8890 VA: 0x1821FA290
 	internal static extern int sqlite3_column_count(IntPtr stmt) { }
 
-	// RVA: 0x21FBCC0 Offset: 0x21FA2C0 VA: 0x1821FBCC0
+	// RVA: 0x21FBB00 Offset: 0x21FA100 VA: 0x1821FBB00
 	internal static extern int sqlite3_step(IntPtr stmt) { }
 
-	// RVA: 0x21FA680 Offset: 0x21F8C80 VA: 0x1821FA680
+	// RVA: 0x21FA4C0 Offset: 0x21F8AC0 VA: 0x1821FA4C0
 	internal static extern double sqlite3_column_double(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FA7A0 Offset: 0x21F8DA0 VA: 0x1821FA7A0
+	// RVA: 0x21FA5E0 Offset: 0x21F8BE0 VA: 0x1821FA5E0
 	internal static extern int sqlite3_column_int(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FA710 Offset: 0x21F8D10 VA: 0x1821FA710
+	// RVA: 0x21FA550 Offset: 0x21F8B50 VA: 0x1821FA550
 	internal static extern long sqlite3_column_int64(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FA330 Offset: 0x21F8930 VA: 0x1821FA330
+	// RVA: 0x21FA170 Offset: 0x21F8770 VA: 0x1821FA170
 	internal static extern IntPtr sqlite3_column_blob(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FA3C0 Offset: 0x21F89C0 VA: 0x1821FA3C0
+	// RVA: 0x21FA200 Offset: 0x21F8800 VA: 0x1821FA200
 	internal static extern int sqlite3_column_bytes(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FACB0 Offset: 0x21F92B0 VA: 0x1821FACB0
+	// RVA: 0x21FAAF0 Offset: 0x21F90F0 VA: 0x1821FAAF0
 	internal static extern TypeAffinity sqlite3_column_type(IntPtr stmt, int index) { }
 
-	// RVA: 0x21FADE0 Offset: 0x21F93E0 VA: 0x1821FADE0
+	// RVA: 0x21FAC20 Offset: 0x21F9220 VA: 0x1821FAC20
 	internal static extern int sqlite3_create_collation(IntPtr db, byte[] strName, int nType, IntPtr pvUser, SQLiteCollation func) { }
 
-	// RVA: 0x21FBEF0 Offset: 0x21FA4F0 VA: 0x1821FBEF0
+	// RVA: 0x21FBD30 Offset: 0x21FA330 VA: 0x1821FBD30
 	internal static extern IntPtr sqlite3_value_blob(IntPtr p) { }
 
-	// RVA: 0x21FBF70 Offset: 0x21FA570 VA: 0x1821FBF70
+	// RVA: 0x21FBDB0 Offset: 0x21FA3B0 VA: 0x1821FBDB0
 	internal static extern int sqlite3_value_bytes(IntPtr p) { }
 
-	// RVA: 0x21FBFF0 Offset: 0x21FA5F0 VA: 0x1821FBFF0
+	// RVA: 0x21FBE30 Offset: 0x21FA430 VA: 0x1821FBE30
 	internal static extern double sqlite3_value_double(IntPtr p) { }
 
-	// RVA: 0x21FC070 Offset: 0x21FA670 VA: 0x1821FC070
+	// RVA: 0x21FBEB0 Offset: 0x21FA4B0 VA: 0x1821FBEB0
 	internal static extern long sqlite3_value_int64(IntPtr p) { }
 
-	// RVA: 0x21FC1F0 Offset: 0x21FA7F0 VA: 0x1821FC1F0
+	// RVA: 0x21FC030 Offset: 0x21FA630 VA: 0x1821FC030
 	internal static extern TypeAffinity sqlite3_value_type(IntPtr p) { }
 
-	// RVA: 0x21FB730 Offset: 0x21F9D30 VA: 0x1821FB730
+	// RVA: 0x21FB570 Offset: 0x21F9B70 VA: 0x1821FB570
 	internal static extern void sqlite3_result_blob(IntPtr context, byte[] value, int nSize, IntPtr pvReserved) { }
 
-	// RVA: 0x21FB7E0 Offset: 0x21F9DE0 VA: 0x1821FB7E0
+	// RVA: 0x21FB620 Offset: 0x21F9C20 VA: 0x1821FB620
 	internal static extern void sqlite3_result_double(IntPtr context, double value) { }
 
-	// RVA: 0x21FB910 Offset: 0x21F9F10 VA: 0x1821FB910
+	// RVA: 0x21FB750 Offset: 0x21F9D50 VA: 0x1821FB750
 	internal static extern void sqlite3_result_error(IntPtr context, byte[] strErr, int nLen) { }
 
-	// RVA: 0x21FB9B0 Offset: 0x21F9FB0 VA: 0x1821FB9B0
+	// RVA: 0x21FB7F0 Offset: 0x21F9DF0 VA: 0x1821FB7F0
 	internal static extern void sqlite3_result_int64(IntPtr context, long value) { }
 
-	// RVA: 0x21FBA40 Offset: 0x21FA040 VA: 0x1821FBA40
+	// RVA: 0x21FB880 Offset: 0x21F9E80 VA: 0x1821FB880
 	internal static extern void sqlite3_result_null(IntPtr context) { }
 
-	// RVA: 0x21FBB70 Offset: 0x21FA170 VA: 0x1821FBB70
+	// RVA: 0x21FB9B0 Offset: 0x21F9FB0 VA: 0x1821FB9B0
 	internal static extern void sqlite3_result_text(IntPtr context, byte[] value, int nLen, IntPtr pvReserved) { }
 
-	// RVA: 0x21F9AD0 Offset: 0x21F80D0 VA: 0x1821F9AD0
+	// RVA: 0x21F9910 Offset: 0x21F7F10 VA: 0x1821F9910
 	internal static extern IntPtr sqlite3_aggregate_context(IntPtr context, int nBytes) { }
 
-	// RVA: 0x21F9FA0 Offset: 0x21F85A0 VA: 0x1821F9FA0
+	// RVA: 0x21F9DE0 Offset: 0x21F83E0 VA: 0x1821F9DE0
 	internal static extern int sqlite3_bind_text16(IntPtr stmt, int index, string value, int nlen, IntPtr pvReserved) { }
 
-	// RVA: 0x21FB870 Offset: 0x21F9E70 VA: 0x1821FB870
+	// RVA: 0x21FB6B0 Offset: 0x21F9CB0 VA: 0x1821FB6B0
 	internal static extern void sqlite3_result_error16(IntPtr context, string strName, int nLen) { }
 
-	// RVA: 0x21FBAC0 Offset: 0x21FA0C0 VA: 0x1821FBAC0
+	// RVA: 0x21FB900 Offset: 0x21F9F00 VA: 0x1821FB900
 	internal static extern void sqlite3_result_text16(IntPtr context, string strName, int nLen, IntPtr pvReserved) { }
 
-	// RVA: 0x21FB1F0 Offset: 0x21F97F0 VA: 0x1821FB1F0
+	// RVA: 0x21FB030 Offset: 0x21F9630 VA: 0x1821FB030
 	internal static extern int sqlite3_key(IntPtr db, byte[] key, int keylen) { }
 
-	// RVA: 0x21FBE50 Offset: 0x21FA450 VA: 0x1821FBE50
+	// RVA: 0x21FBC90 Offset: 0x21FA290 VA: 0x1821FBC90
 	internal static extern IntPtr sqlite3_update_hook(IntPtr db, SQLiteUpdateCallback func, IntPtr pvUser) { }
 
-	// RVA: 0x21FAD40 Offset: 0x21F9340 VA: 0x1821FAD40
+	// RVA: 0x21FAB80 Offset: 0x21F9180 VA: 0x1821FAB80
 	internal static extern IntPtr sqlite3_commit_hook(IntPtr db, SQLiteCommitCallback func, IntPtr pvUser) { }
 
-	// RVA: 0x21FBC20 Offset: 0x21FA220 VA: 0x1821FBC20
+	// RVA: 0x21FBA60 Offset: 0x21FA060 VA: 0x1821FBA60
 	internal static extern IntPtr sqlite3_rollback_hook(IntPtr db, SQLiteRollbackCallback func, IntPtr pvUser) { }
 
-	// RVA: 0x21FB370 Offset: 0x21F9970 VA: 0x1821FB370
+	// RVA: 0x21FB1B0 Offset: 0x21F97B0 VA: 0x1821FB1B0
 	internal static extern IntPtr sqlite3_next_stmt(IntPtr db, IntPtr stmt) { }
 
-	// RVA: 0x21FB030 Offset: 0x21F9630 VA: 0x1821FB030
+	// RVA: 0x21FAE70 Offset: 0x21F9470 VA: 0x1821FAE70
 	internal static extern int sqlite3_exec(IntPtr db, byte[] strSql, IntPtr pvCallback, IntPtr pvParam, out IntPtr errMsg) { }
 
-	// RVA: 0x21FB170 Offset: 0x21F9770 VA: 0x1821FB170
+	// RVA: 0x21FAFB0 Offset: 0x21F95B0 VA: 0x1821FAFB0
 	internal static extern int sqlite3_free(IntPtr ptr) { }
 
-	// RVA: 0x21FB300 Offset: 0x21F9900 VA: 0x1821FB300
+	// RVA: 0x21FB140 Offset: 0x21F9740 VA: 0x1821FB140
 	internal static extern int sqlite3_libversion_number() { }
 
 }

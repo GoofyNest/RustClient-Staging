@@ -21,13 +21,13 @@ internal class SequentialSearchPrimeGeneratorBase : PrimeGeneratorBase // TypeDe
 public class SequentialSearchPrimeGeneratorBase : PrimeGeneratorBase // TypeDefIndex: 1771
 {	// Methods
 
-	// RVA: 0x1AC4840 Offset: 0x1AC2E40 VA: 0x181AC4840 Slot: 8
+	// RVA: 0x1AC4680 Offset: 0x1AC2C80 VA: 0x181AC4680 Slot: 8
 	protected virtual BigInteger GenerateSearchBase(int bits, object context) { }
 
 	// RVA: 0xFEDCE0 Offset: 0xFEC2E0 VA: 0x180FEDCE0 Slot: 7
 	public override BigInteger GenerateNewPrime(int bits) { }
 
-	// RVA: 0x1AC4440 Offset: 0x1AC2A40 VA: 0x181AC4440 Slot: 9
+	// RVA: 0x1AC4280 Offset: 0x1AC2880 VA: 0x181AC4280 Slot: 9
 	public virtual BigInteger GenerateNewPrime(int bits, object context) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 10

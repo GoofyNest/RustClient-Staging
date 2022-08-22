@@ -17,13 +17,13 @@ public class SunShafts : PostEffectsBase // TypeDefIndex: 8205
 
 	// Methods
 
-	// RVA: 0x21E70A0 Offset: 0x21E56A0 VA: 0x1821E70A0 Slot: 4
+	// RVA: 0x21E6EE0 Offset: 0x21E54E0 VA: 0x1821E6EE0 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x21E7130 Offset: 0x21E5730 VA: 0x1821E7130
+	// RVA: 0x21E6F70 Offset: 0x21E5570 VA: 0x1821E6F70
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21E7B70 Offset: 0x21E6170 VA: 0x1821E7B70
+	// RVA: 0x21E79B0 Offset: 0x21E5FB0 VA: 0x1821E79B0
 	public void .ctor() { }
 
 }

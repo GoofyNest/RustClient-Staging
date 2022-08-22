@@ -2,7 +2,7 @@ public class BlendedLoopEngineSound : MonoBehaviour, IClientComponent // TypeDef
 {	// Fields
 	public BlendedEngineLoopDefinition loopDefinition; // 0x18
 	public bool engineOn; // 0x20
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float RPMControl; // 0x24
 	public float smoothedRPMControl; // 0x28
 	private BlendedLoopEngineSound.EngineLoop[] engineLoops; // 0x30

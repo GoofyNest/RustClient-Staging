@@ -65,7 +65,7 @@ public class CryptoStream : Stream, IDisposable // TypeDefIndex: 949
 	// RVA: 0x16FB0B0 Offset: 0x16F96B0 VA: 0x1816FB0B0 Slot: 21
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xC8E90 Offset: 0xC8290 VA: 0x1800C8E90
+	[AsyncStateMachineAttribute] // RVA: 0xC8E30 Offset: 0xC8230 VA: 0x1800C8E30
 	// RVA: 0x16FAF60 Offset: 0x16F9560 VA: 0x1816FAF60
 	private Task<int> ReadAsyncInternal(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
@@ -75,7 +75,7 @@ public class CryptoStream : Stream, IDisposable // TypeDefIndex: 949
 	// RVA: 0x16FBBF0 Offset: 0x16FA1F0 VA: 0x1816FBBF0 Slot: 24
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xC9010 Offset: 0xC8410 VA: 0x1800C9010
+	[AsyncStateMachineAttribute] // RVA: 0xC8FC0 Offset: 0xC83C0 VA: 0x1800C8FC0
 	// RVA: 0x16FBAB0 Offset: 0x16FA0B0 VA: 0x1816FBAB0
 	private Task WriteAsyncInternal(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
@@ -96,16 +96,16 @@ private struct CryptoStream.HopToThreadPoolAwaitable : INotifyCompletion // Type
 
 	// Methods
 
-	// RVA: 0x14CC90 Offset: 0x14C090 VA: 0x18014CC90
+	// RVA: 0x14CC10 Offset: 0x14C010 VA: 0x18014CC10
 	public CryptoStream.HopToThreadPoolAwaitable GetAwaiter() { }
 
-	// RVA: 0x207580 Offset: 0x206980 VA: 0x180207580
+	// RVA: 0x207500 Offset: 0x206900 VA: 0x180207500
 	public bool get_IsCompleted() { }
 
-	// RVA: 0x207520 Offset: 0x206920 VA: 0x180207520 Slot: 4
+	// RVA: 0x2074A0 Offset: 0x2068A0 VA: 0x1802074A0 Slot: 4
 	public void OnCompleted(Action continuation) { }
 
-	// RVA: 0xF1F30 Offset: 0xF1330 VA: 0x1800F1F30
+	// RVA: 0xF1EB0 Offset: 0xF12B0 VA: 0x1800F1EB0
 	public void GetResult() { }
 
 }
@@ -130,11 +130,11 @@ private struct CryptoStream.<ReadAsyncInternal>d__34 : IAsyncStateMachine // Typ
 
 	// Methods
 
-	// RVA: 0x207590 Offset: 0x206990 VA: 0x180207590 Slot: 4
+	// RVA: 0x207510 Offset: 0x206910 VA: 0x180207510 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2075A0 Offset: 0x2069A0 VA: 0x1802075A0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x207520 Offset: 0x206920 VA: 0x180207520 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -157,11 +157,11 @@ private struct CryptoStream.<WriteAsyncInternal>d__37 : IAsyncStateMachine // Ty
 
 	// Methods
 
-	// RVA: 0x2075F0 Offset: 0x2069F0 VA: 0x1802075F0 Slot: 4
+	// RVA: 0x207570 Offset: 0x206970 VA: 0x180207570 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

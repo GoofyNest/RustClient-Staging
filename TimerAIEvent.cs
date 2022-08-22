@@ -1,8 +1,8 @@
 public class TimerAIEvent : BaseAIEvent // TypeDefIndex: 9416
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <DurationMin>k__BackingField; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <DurationMax>k__BackingField; // 0x44
 	protected float currentDuration; // 0x48
 	protected float elapsedDuration; // 0x4C
@@ -13,19 +13,19 @@ public class TimerAIEvent : BaseAIEvent // TypeDefIndex: 9416
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x533E60 Offset: 0x532460 VA: 0x180533E60
 	public float get_DurationMin() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
 	public void set_DurationMin(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8054E0 Offset: 0x803AE0 VA: 0x1808054E0
 	public float get_DurationMax() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x88AA90 Offset: 0x889090 VA: 0x18088AA90
 	public void set_DurationMax(float value) { }
 

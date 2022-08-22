@@ -11,7 +11,7 @@ public class ValidationResult // TypeDefIndex: 1737
 
 	// Methods
 
-	// RVA: 0x1AC6890 Offset: 0x1AC4E90 VA: 0x181AC6890
+	// RVA: 0x1AC66D0 Offset: 0x1AC4CD0 VA: 0x181AC66D0
 	public void .ctor(bool trusted, bool user_denied, int error_code, Nullable<MonoSslPolicyErrors> policy_errors) { }
 
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90

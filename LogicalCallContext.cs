@@ -62,19 +62,19 @@ internal struct LogicalCallContext.Reader // TypeDefIndex: 1218
 
 	// Methods
 
-	// RVA: 0xF1510 Offset: 0xF0910 VA: 0x1800F1510
+	// RVA: 0xF1490 Offset: 0xF0890 VA: 0x1800F1490
 	public void .ctor(LogicalCallContext ctx) { }
 
-	// RVA: 0x1188A0 Offset: 0x117CA0 VA: 0x1801188A0
+	// RVA: 0x118820 Offset: 0x117C20 VA: 0x180118820
 	public bool get_IsNull() { }
 
-	// RVA: 0x1EFE50 Offset: 0x1EF250 VA: 0x1801EFE50
+	// RVA: 0x1EFDD0 Offset: 0x1EF1D0 VA: 0x1801EFDD0
 	public bool get_HasInfo() { }
 
-	// RVA: 0x1EFDD0 Offset: 0x1EF1D0 VA: 0x1801EFDD0
+	// RVA: 0x1EFD50 Offset: 0x1EF150 VA: 0x1801EFD50
 	public LogicalCallContext Clone() { }
 
-	// RVA: 0x1EFE40 Offset: 0x1EF240 VA: 0x1801EFE40
+	// RVA: 0x1EFDC0 Offset: 0x1EF1C0 VA: 0x1801EFDC0
 	public object GetData(string name) { }
 
 }

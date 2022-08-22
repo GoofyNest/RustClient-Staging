@@ -1,33 +1,33 @@
 public class Motion : Object // TypeDefIndex: 4494
 {	// Methods
 
-	// RVA: 0x22DD440 Offset: 0x22DBA40 VA: 0x1822DD440
+	// RVA: 0x22DD280 Offset: 0x22DB880 VA: 0x1822DD280
 	protected void .ctor() { }
 
 }
 
 public class Motion : MonoBehaviour // TypeDefIndex: 8133
 {	// Fields
-	[SerializeField] // RVA: 0x93430 Offset: 0x92830 VA: 0x180093430
-	[TooltipAttribute] // RVA: 0x93430 Offset: 0x92830 VA: 0x180093430
+	[SerializeField] // RVA: 0x934B0 Offset: 0x928B0 VA: 0x1800934B0
+	[TooltipAttribute] // RVA: 0x934B0 Offset: 0x928B0 VA: 0x1800934B0
 	private Motion.ExposureMode _exposureMode; // 0x18
-	[SerializeField] // RVA: 0x93500 Offset: 0x92900 VA: 0x180093500
-	[TooltipAttribute] // RVA: 0x93500 Offset: 0x92900 VA: 0x180093500
+	[SerializeField] // RVA: 0x935B0 Offset: 0x929B0 VA: 0x1800935B0
+	[TooltipAttribute] // RVA: 0x935B0 Offset: 0x929B0 VA: 0x1800935B0
 	private int _shutterSpeed; // 0x1C
-	[SerializeField] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
-	[TooltipAttribute] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
+	[SerializeField] // RVA: 0x93680 Offset: 0x92A80 VA: 0x180093680
+	[TooltipAttribute] // RVA: 0x93680 Offset: 0x92A80 VA: 0x180093680
 	private float _exposureTimeScale; // 0x20
-	[SerializeField] // RVA: 0x936E0 Offset: 0x92AE0 VA: 0x1800936E0
-	[TooltipAttribute] // RVA: 0x936E0 Offset: 0x92AE0 VA: 0x1800936E0
+	[SerializeField] // RVA: 0x93760 Offset: 0x92B60 VA: 0x180093760
+	[TooltipAttribute] // RVA: 0x93760 Offset: 0x92B60 VA: 0x180093760
 	private Motion.SampleCount _sampleCount; // 0x24
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int _sampleCountValue; // 0x28
-	[SerializeField] // RVA: 0x93930 Offset: 0x92D30 VA: 0x180093930
-	[RangeAttribute] // RVA: 0x93930 Offset: 0x92D30 VA: 0x180093930
-	[TooltipAttribute] // RVA: 0x93930 Offset: 0x92D30 VA: 0x180093930
+	[SerializeField] // RVA: 0x939B0 Offset: 0x92DB0 VA: 0x1800939B0
+	[RangeAttribute] // RVA: 0x939B0 Offset: 0x92DB0 VA: 0x1800939B0
+	[TooltipAttribute] // RVA: 0x939B0 Offset: 0x92DB0 VA: 0x1800939B0
 	private float _maxBlurRadius; // 0x2C
-	[SerializeField] // RVA: 0x93990 Offset: 0x92D90 VA: 0x180093990
-	[TooltipAttribute] // RVA: 0x93990 Offset: 0x92D90 VA: 0x180093990
+	[SerializeField] // RVA: 0x93AA0 Offset: 0x92EA0 VA: 0x180093AA0
+	[TooltipAttribute] // RVA: 0x93AA0 Offset: 0x92EA0 VA: 0x180093AA0
 	private Motion.DebugMode _debugMode; // 0x30
 	private Material _prefilterMaterial; // 0x38
 	private Material _reconstructionMaterial; // 0x40

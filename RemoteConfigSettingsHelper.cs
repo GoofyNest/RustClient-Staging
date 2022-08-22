@@ -1,7 +1,7 @@
 internal enum RemoteConfigSettingsHelper.Tag // TypeDefIndex: 4745
 {
 // Namespace: 
-[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal enum RemoteConfigSettingsHelper.Tag // TypeDefIndex: 4745
 	// Fields
 	public int value__; // 0x0

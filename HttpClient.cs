@@ -47,19 +47,19 @@ public class HttpClient : HttpMessageInvoker // TypeDefIndex: 5737
 	// RVA: 0x1089E40 Offset: 0x1088440 VA: 0x181089E40
 	public Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD11B0 Offset: 0xD05B0 VA: 0x1800D11B0
+	[AsyncStateMachineAttribute] // RVA: 0xD1240 Offset: 0xD0640 VA: 0x1800D1240
 	// RVA: 0x1089C70 Offset: 0x1088270 VA: 0x181089C70
 	private Task<HttpResponseMessage> SendAsyncWorker(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD12F0 Offset: 0xD06F0 VA: 0x1800D12F0
+	[AsyncStateMachineAttribute] // RVA: 0xD1380 Offset: 0xD0780 VA: 0x1800D1380
 	// RVA: 0x10899E0 Offset: 0x1087FE0 VA: 0x1810899E0
 	public Task<string> GetStringAsync(string requestUri) { }
 
 	// RVA: 0x108A310 Offset: 0x1088910 VA: 0x18108A310
 	private static void .cctor() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	// RVA: 0x108A2E0 Offset: 0x10888E0 VA: 0x18108A2E0
 	private Task<HttpResponseMessage> <>n__0(HttpRequestMessage request, CancellationToken cancellationToken) { }
 
@@ -80,11 +80,11 @@ private struct HttpClient.<SendAsyncWorker>d__47 : IAsyncStateMachine // TypeDef
 
 	// Methods
 
-	// RVA: 0x19E1E0 Offset: 0x19D5E0 VA: 0x18019E1E0 Slot: 4
+	// RVA: 0x19E160 Offset: 0x19D560 VA: 0x18019E160 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E1F0 Offset: 0x19D5F0 VA: 0x18019E1F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E170 Offset: 0x19D570 VA: 0x18019E170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -101,11 +101,11 @@ private struct HttpClient.<GetStringAsync>d__52 : IAsyncStateMachine // TypeDefI
 
 	// Methods
 
-	// RVA: 0x19E050 Offset: 0x19D450 VA: 0x18019E050 Slot: 4
+	// RVA: 0x19DFD0 Offset: 0x19D3D0 VA: 0x18019DFD0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E060 Offset: 0x19D460 VA: 0x18019E060 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19DFE0 Offset: 0x19D3E0 VA: 0x18019DFE0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

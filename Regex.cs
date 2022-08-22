@@ -5,7 +5,7 @@ public class Regex : ISerializable // TypeDefIndex: 2600
 	protected internal RegexOptions roptions; // 0x20
 	private static readonly TimeSpan MaximumMatchTimeout; // 0x0
 	public static readonly TimeSpan InfiniteMatchTimeout; // 0x8
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	protected internal TimeSpan internalMatchTimeout; // 0x28
 	private const string DefaultMatchTimeout_ConfigKeyName = "REGEX_DEFAULT_MATCH_TIMEOUT";
 	internal static readonly TimeSpan FallbackDefaultMatchTimeout; // 0x10

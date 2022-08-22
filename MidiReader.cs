@@ -11,7 +11,7 @@ public sealed class MidiReader : IDisposable // TypeDefIndex: 7587
 	private long _bufferStart; // 0x38
 	private long _position; // 0x40
 	private bool _disposed; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly long <Length>k__BackingField; // 0x50
 
 	// Properties
@@ -30,7 +30,7 @@ public sealed class MidiReader : IDisposable // TypeDefIndex: 7587
 	// RVA: 0x13A2FA0 Offset: 0x13A15A0 VA: 0x1813A2FA0
 	public void set_Position(long value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
 	public long get_Length() { }
 

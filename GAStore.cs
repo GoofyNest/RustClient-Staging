@@ -2,9 +2,9 @@ internal class GAStore // TypeDefIndex: 5669
 {	// Fields
 	private static readonly GAStore _instance; // 0x0
 	private string dbPath; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SqliteConnection <SqlDatabase>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <DbReady>k__BackingField; // 0x20
 	private bool _tableReady; // 0x21
 
@@ -21,15 +21,15 @@ internal class GAStore // TypeDefIndex: 5669
 	// RVA: 0x13C31E0 Offset: 0x13C17E0 VA: 0x1813C31E0
 	private static GAStore get_Instance() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	private SqliteConnection get_SqlDatabase() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_SqlDatabase(SqliteConnection value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7F9AE0 Offset: 0x7F80E0 VA: 0x1807F9AE0
 	private void set_DbReady(bool value) { }
 

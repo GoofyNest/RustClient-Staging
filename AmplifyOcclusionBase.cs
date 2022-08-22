@@ -1,81 +1,81 @@
 public class AmplifyOcclusionBase : MonoBehaviour // TypeDefIndex: 11468
 {	// Fields
-	[HeaderAttribute] // RVA: 0xB20E0 Offset: 0xB14E0 VA: 0x1800B20E0
+	[HeaderAttribute] // RVA: 0xB2210 Offset: 0xB1610 VA: 0x1800B2210
 	public AmplifyOcclusionBase.ApplicationMethod ApplyMethod; // 0x18
-	[TooltipAttribute] // RVA: 0xB21B0 Offset: 0xB15B0 VA: 0x1800B21B0
+	[TooltipAttribute] // RVA: 0xB2330 Offset: 0xB1730 VA: 0x1800B2330
 	public AmplifyOcclusionBase.SampleCountLevel SampleCount; // 0x1C
 	public AmplifyOcclusionBase.PerPixelNormalSource PerPixelNormals; // 0x20
-	[TooltipAttribute] // RVA: 0xB2360 Offset: 0xB1760 VA: 0x1800B2360
-	[RangeAttribute] // RVA: 0xB2360 Offset: 0xB1760 VA: 0x1800B2360
+	[TooltipAttribute] // RVA: 0xB2400 Offset: 0xB1800 VA: 0x1800B2400
+	[RangeAttribute] // RVA: 0xB2400 Offset: 0xB1800 VA: 0x1800B2400
 	public float Intensity; // 0x24
 	public Color Tint; // 0x28
-	[TooltipAttribute] // RVA: 0xB2450 Offset: 0xB1850 VA: 0x1800B2450
-	[RangeAttribute] // RVA: 0xB2450 Offset: 0xB1850 VA: 0x1800B2450
+	[TooltipAttribute] // RVA: 0xB2570 Offset: 0xB1970 VA: 0x1800B2570
+	[RangeAttribute] // RVA: 0xB2570 Offset: 0xB1970 VA: 0x1800B2570
 	public float Radius; // 0x38
-	[TooltipAttribute] // RVA: 0xB2680 Offset: 0xB1A80 VA: 0x1800B2680
-	[RangeAttribute] // RVA: 0xB2680 Offset: 0xB1A80 VA: 0x1800B2680
+	[TooltipAttribute] // RVA: 0xB2800 Offset: 0xB1C00 VA: 0x1800B2800
+	[RangeAttribute] // RVA: 0xB2800 Offset: 0xB1C00 VA: 0x1800B2800
 	public int PixelRadiusLimit; // 0x3C
-	[TooltipAttribute] // RVA: 0xB2870 Offset: 0xB1C70 VA: 0x1800B2870
-	[RangeAttribute] // RVA: 0xB2870 Offset: 0xB1C70 VA: 0x1800B2870
+	[TooltipAttribute] // RVA: 0xB2A30 Offset: 0xB1E30 VA: 0x1800B2A30
+	[RangeAttribute] // RVA: 0xB2A30 Offset: 0xB1E30 VA: 0x1800B2A30
 	public float RadiusIntensity; // 0x40
-	[TooltipAttribute] // RVA: 0xB2B60 Offset: 0xB1F60 VA: 0x1800B2B60
-	[RangeAttribute] // RVA: 0xB2B60 Offset: 0xB1F60 VA: 0x1800B2B60
+	[TooltipAttribute] // RVA: 0xB2C50 Offset: 0xB2050 VA: 0x1800B2C50
+	[RangeAttribute] // RVA: 0xB2C50 Offset: 0xB2050 VA: 0x1800B2C50
 	public float PowerExponent; // 0x44
-	[TooltipAttribute] // RVA: 0xB2CA0 Offset: 0xB20A0 VA: 0x1800B2CA0
-	[RangeAttribute] // RVA: 0xB2CA0 Offset: 0xB20A0 VA: 0x1800B2CA0
+	[TooltipAttribute] // RVA: 0xB2D40 Offset: 0xB2140 VA: 0x1800B2D40
+	[RangeAttribute] // RVA: 0xB2D40 Offset: 0xB2140 VA: 0x1800B2D40
 	public float Bias; // 0x48
-	[TooltipAttribute] // RVA: 0xB2E10 Offset: 0xB2210 VA: 0x1800B2E10
-	[RangeAttribute] // RVA: 0xB2E10 Offset: 0xB2210 VA: 0x1800B2E10
+	[TooltipAttribute] // RVA: 0xB2F70 Offset: 0xB2370 VA: 0x1800B2F70
+	[RangeAttribute] // RVA: 0xB2F70 Offset: 0xB2370 VA: 0x1800B2F70
 	public float Thickness; // 0x4C
-	[TooltipAttribute] // RVA: 0xB2F30 Offset: 0xB2330 VA: 0x1800B2F30
+	[TooltipAttribute] // RVA: 0xB2FD0 Offset: 0xB23D0 VA: 0x1800B2FD0
 	public bool Downsample; // 0x50
-	[HeaderAttribute] // RVA: 0xB2F60 Offset: 0xB2360 VA: 0x1800B2F60
-	[TooltipAttribute] // RVA: 0xB2F60 Offset: 0xB2360 VA: 0x1800B2F60
+	[HeaderAttribute] // RVA: 0xB3110 Offset: 0xB2510 VA: 0x1800B3110
+	[TooltipAttribute] // RVA: 0xB3110 Offset: 0xB2510 VA: 0x1800B3110
 	public bool FadeEnabled; // 0x51
-	[TooltipAttribute] // RVA: 0xB3120 Offset: 0xB2520 VA: 0x1800B3120
+	[TooltipAttribute] // RVA: 0xB31C0 Offset: 0xB25C0 VA: 0x1800B31C0
 	public float FadeStart; // 0x54
-	[TooltipAttribute] // RVA: 0xB3190 Offset: 0xB2590 VA: 0x1800B3190
+	[TooltipAttribute] // RVA: 0xB3300 Offset: 0xB2700 VA: 0x1800B3300
 	public float FadeLength; // 0x58
-	[TooltipAttribute] // RVA: 0xB33C0 Offset: 0xB27C0 VA: 0x1800B33C0
-	[RangeAttribute] // RVA: 0xB33C0 Offset: 0xB27C0 VA: 0x1800B33C0
+	[TooltipAttribute] // RVA: 0xB3490 Offset: 0xB2890 VA: 0x1800B3490
+	[RangeAttribute] // RVA: 0xB3490 Offset: 0xB2890 VA: 0x1800B3490
 	public float FadeToIntensity; // 0x5C
 	public Color FadeToTint; // 0x60
-	[TooltipAttribute] // RVA: 0xB3480 Offset: 0xB2880 VA: 0x1800B3480
-	[RangeAttribute] // RVA: 0xB3480 Offset: 0xB2880 VA: 0x1800B3480
+	[TooltipAttribute] // RVA: 0xB3550 Offset: 0xB2950 VA: 0x1800B3550
+	[RangeAttribute] // RVA: 0xB3550 Offset: 0xB2950 VA: 0x1800B3550
 	public float FadeToRadius; // 0x70
-	[TooltipAttribute] // RVA: 0xB35F0 Offset: 0xB29F0 VA: 0x1800B35F0
-	[RangeAttribute] // RVA: 0xB35F0 Offset: 0xB29F0 VA: 0x1800B35F0
+	[TooltipAttribute] // RVA: 0xB36C0 Offset: 0xB2AC0 VA: 0x1800B36C0
+	[RangeAttribute] // RVA: 0xB36C0 Offset: 0xB2AC0 VA: 0x1800B36C0
 	public float FadeToPowerExponent; // 0x74
-	[TooltipAttribute] // RVA: 0xB3710 Offset: 0xB2B10 VA: 0x1800B3710
-	[RangeAttribute] // RVA: 0xB3710 Offset: 0xB2B10 VA: 0x1800B3710
+	[TooltipAttribute] // RVA: 0xB37B0 Offset: 0xB2BB0 VA: 0x1800B37B0
+	[RangeAttribute] // RVA: 0xB37B0 Offset: 0xB2BB0 VA: 0x1800B37B0
 	public float FadeToThickness; // 0x78
-	[HeaderAttribute] // RVA: 0xB38E0 Offset: 0xB2CE0 VA: 0x1800B38E0
+	[HeaderAttribute] // RVA: 0xB39E0 Offset: 0xB2DE0 VA: 0x1800B39E0
 	public bool BlurEnabled; // 0x7C
-	[TooltipAttribute] // RVA: 0xB3A30 Offset: 0xB2E30 VA: 0x1800B3A30
-	[RangeAttribute] // RVA: 0xB3A30 Offset: 0xB2E30 VA: 0x1800B3A30
+	[TooltipAttribute] // RVA: 0xB3B00 Offset: 0xB2F00 VA: 0x1800B3B00
+	[RangeAttribute] // RVA: 0xB3B00 Offset: 0xB2F00 VA: 0x1800B3B00
 	public int BlurRadius; // 0x80
-	[TooltipAttribute] // RVA: 0xB3C20 Offset: 0xB3020 VA: 0x1800B3C20
-	[RangeAttribute] // RVA: 0xB3C20 Offset: 0xB3020 VA: 0x1800B3C20
+	[TooltipAttribute] // RVA: 0xB3DD0 Offset: 0xB31D0 VA: 0x1800B3DD0
+	[RangeAttribute] // RVA: 0xB3DD0 Offset: 0xB31D0 VA: 0x1800B3DD0
 	public int BlurPasses; // 0x84
-	[TooltipAttribute] // RVA: 0xB3E20 Offset: 0xB3220 VA: 0x1800B3E20
-	[RangeAttribute] // RVA: 0xB3E20 Offset: 0xB3220 VA: 0x1800B3E20
+	[TooltipAttribute] // RVA: 0xB3EC0 Offset: 0xB32C0 VA: 0x1800B3EC0
+	[RangeAttribute] // RVA: 0xB3EC0 Offset: 0xB32C0 VA: 0x1800B3EC0
 	public float BlurSharpness; // 0x88
-	[HeaderAttribute] // RVA: 0xB3F00 Offset: 0xB3300 VA: 0x1800B3F00
-	[TooltipAttribute] // RVA: 0xB3F00 Offset: 0xB3300 VA: 0x1800B3F00
+	[HeaderAttribute] // RVA: 0xB3FA0 Offset: 0xB33A0 VA: 0x1800B3FA0
+	[TooltipAttribute] // RVA: 0xB3FA0 Offset: 0xB33A0 VA: 0x1800B3FA0
 	public bool FilterEnabled; // 0x8C
-	[TooltipAttribute] // RVA: 0xB3FD0 Offset: 0xB33D0 VA: 0x1800B3FD0
-	[RangeAttribute] // RVA: 0xB3FD0 Offset: 0xB33D0 VA: 0x1800B3FD0
+	[TooltipAttribute] // RVA: 0xB40A0 Offset: 0xB34A0 VA: 0x1800B40A0
+	[RangeAttribute] // RVA: 0xB40A0 Offset: 0xB34A0 VA: 0x1800B40A0
 	public float FilterBlending; // 0x90
-	[TooltipAttribute] // RVA: 0xB41D0 Offset: 0xB35D0 VA: 0x1800B41D0
-	[RangeAttribute] // RVA: 0xB41D0 Offset: 0xB35D0 VA: 0x1800B41D0
+	[TooltipAttribute] // RVA: 0xB4270 Offset: 0xB3670 VA: 0x1800B4270
+	[RangeAttribute] // RVA: 0xB4270 Offset: 0xB3670 VA: 0x1800B4270
 	public float FilterResponse; // 0x94
-	[TooltipAttribute] // RVA: 0xB4320 Offset: 0xB3720 VA: 0x1800B4320
+	[TooltipAttribute] // RVA: 0xB4430 Offset: 0xB3830 VA: 0x1800B4430
 	public bool TemporalDirections; // 0x98
-	[TooltipAttribute] // RVA: 0xB4450 Offset: 0xB3850 VA: 0x1800B4450
+	[TooltipAttribute] // RVA: 0xB44F0 Offset: 0xB38F0 VA: 0x1800B44F0
 	public bool TemporalOffsets; // 0x99
-	[TooltipAttribute] // RVA: 0xB44A0 Offset: 0xB38A0 VA: 0x1800B44A0
+	[TooltipAttribute] // RVA: 0xB4540 Offset: 0xB3940 VA: 0x1800B4540
 	public bool TemporalDilation; // 0x9A
-	[TooltipAttribute] // RVA: 0xB44D0 Offset: 0xB38D0 VA: 0x1800B44D0
+	[TooltipAttribute] // RVA: 0xB4570 Offset: 0xB3970 VA: 0x1800B4570
 	public bool UseMotionVectors; // 0x9B
 	private AmplifyOcclusionBase.PerPixelNormalSource m_prevPerPixelNormals; // 0x9C
 	private AmplifyOcclusionBase.ApplicationMethod m_prevApplyMethod; // 0xA0

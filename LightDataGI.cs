@@ -17,22 +17,22 @@ public struct LightDataGI // TypeDefIndex: 3886
 
 	// Methods
 
-	// RVA: 0x213790 Offset: 0x212B90 VA: 0x180213790
+	// RVA: 0x213710 Offset: 0x212B10 VA: 0x180213710
 	public void Init(ref DirectionalLight light) { }
 
-	// RVA: 0x213710 Offset: 0x212B10 VA: 0x180213710
+	// RVA: 0x213690 Offset: 0x212A90 VA: 0x180213690
 	public void Init(ref PointLight light) { }
 
-	// RVA: 0x2137A0 Offset: 0x212BA0 VA: 0x1802137A0
+	// RVA: 0x213720 Offset: 0x212B20 VA: 0x180213720
 	public void Init(ref SpotLight light) { }
 
-	// RVA: 0x213720 Offset: 0x212B20 VA: 0x180213720
+	// RVA: 0x2136A0 Offset: 0x212AA0 VA: 0x1802136A0
 	public void Init(ref RectangleLight light) { }
 
-	// RVA: 0x2136A0 Offset: 0x212AA0 VA: 0x1802136A0
+	// RVA: 0x213620 Offset: 0x212A20 VA: 0x180213620
 	public void Init(ref DiscLight light) { }
 
-	// RVA: 0x213690 Offset: 0x212A90 VA: 0x180213690
+	// RVA: 0x213610 Offset: 0x212A10 VA: 0x180213610
 	public void InitNoBake(int lightInstanceID) { }
 
 }

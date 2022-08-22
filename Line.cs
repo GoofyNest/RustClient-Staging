@@ -5,25 +5,25 @@ public struct Line // TypeDefIndex: 6588
 
 	// Methods
 
-	// RVA: 0x1BD6E0 Offset: 0x1BCAE0 VA: 0x1801BD6E0
+	// RVA: 0x1BD660 Offset: 0x1BCA60 VA: 0x1801BD660
 	public void .ctor(Vector3 point0, Vector3 point1) { }
 
-	// RVA: 0x22C5A0 Offset: 0x22B9A0 VA: 0x18022C5A0
+	// RVA: 0x22C520 Offset: 0x22B920 VA: 0x18022C520
 	public void .ctor(Vector3 origin, Vector3 direction, float length) { }
 
-	// RVA: 0x22C550 Offset: 0x22B950 VA: 0x18022C550
+	// RVA: 0x22C4D0 Offset: 0x22B8D0 VA: 0x18022C4D0
 	public bool Trace(Ray ray, float radius, out RaycastHit hit, float maxDistance = ∞) { }
 
-	// RVA: 0x22C330 Offset: 0x22B730 VA: 0x18022C330
+	// RVA: 0x22C2B0 Offset: 0x22B6B0 VA: 0x18022C2B0
 	public Vector3 ClosestPoint(Vector3 pos) { }
 
-	// RVA: 0x22C2F0 Offset: 0x22B6F0 VA: 0x18022C2F0
+	// RVA: 0x22C270 Offset: 0x22B670 VA: 0x18022C270
 	public Vector3 ClosestPoint2D(Vector3 pos) { }
 
-	// RVA: 0x22C370 Offset: 0x22B770 VA: 0x18022C370
+	// RVA: 0x22C2F0 Offset: 0x22B6F0 VA: 0x18022C2F0
 	public float Distance(Vector3 pos) { }
 
-	// RVA: 0x22C460 Offset: 0x22B860 VA: 0x18022C460
+	// RVA: 0x22C3E0 Offset: 0x22B7E0 VA: 0x18022C3E0
 	public float SqrDistance(Vector3 pos) { }
 
 }

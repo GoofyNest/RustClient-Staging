@@ -2,7 +2,7 @@ internal sealed class CultureAwareComparer : StringComparer // TypeDefIndex: 304
 {	// Fields
 	private CompareInfo _compareInfo; // 0x10
 	private bool _ignoreCase; // 0x18
-	[OptionalFieldAttribute] // RVA: 0x7B620 Offset: 0x7AA20 VA: 0x18007B620
+	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
 	private CompareOptions _options; // 0x1C
 
 	// Methods

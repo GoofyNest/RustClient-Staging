@@ -14,7 +14,7 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 10954
 	public GameObject PlayerDeathMarker; // 0x70
 	public List<SleepingBagMapMarker> SleepingBagMarkers; // 0x78
 	public List<SleepingBagClusterMapMarker> SleepingBagClusters; // 0x80
-	[FormerlySerializedAsAttribute] // RVA: 0x8D0D0 Offset: 0x8C4D0 VA: 0x18008D0D0
+	[FormerlySerializedAsAttribute] // RVA: 0x8D150 Offset: 0x8C550 VA: 0x18008D150
 	public RawImage UndergroundLayer; // 0x88
 	public bool ShowGrid; // 0x90
 	public bool ShowPointOfInterestMarkers; // 0x91
@@ -24,7 +24,7 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 10954
 	public bool ShowTeamMembers; // 0x95
 	public bool ShowTrainLayer; // 0x96
 	public bool ShowMissions; // 0x97
-	[FormerlySerializedAsAttribute] // RVA: 0x8D210 Offset: 0x8C610 VA: 0x18008D210
+	[FormerlySerializedAsAttribute] // RVA: 0x8D2E0 Offset: 0x8C6E0 VA: 0x18008D2E0
 	public bool ShowUndergroundLayers; // 0x98
 	public bool MLRSMarkerMode; // 0x99
 	public RustImageButton LockButton; // 0xA0
@@ -32,7 +32,7 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 10954
 	public RustImageButton TrainButton; // 0xB0
 	public RustImageButton[] UnderwaterButtons; // 0xB8
 	public static MapView ActiveView; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <followingPlayer>k__BackingField; // 0xC0
 	private Dictionary<MapMarker.ClusterType, List<MapMarker>> clusterDict; // 0xC8
 	private List<GameObject> markersToRetire; // 0xD0
@@ -52,11 +52,11 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 10954
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x56EAF0 Offset: 0x56D0F0 VA: 0x18056EAF0
 	public bool get_followingPlayer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x56EB00 Offset: 0x56D100 VA: 0x18056EB00
 	public void set_followingPlayer(bool value) { }
 

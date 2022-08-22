@@ -4,10 +4,10 @@ public class TransactionEventArgs : EventArgs // TypeDefIndex: 3984
 
 	// Methods
 
-	// RVA: 0x230CC00 Offset: 0x230B200 VA: 0x18230CC00
+	// RVA: 0x230CA40 Offset: 0x230B040 VA: 0x18230CA40
 	public void .ctor() { }
 
-	// RVA: 0x230CC60 Offset: 0x230B260 VA: 0x18230CC60
+	// RVA: 0x230CAA0 Offset: 0x230B0A0 VA: 0x18230CAA0
 	internal void .ctor(Transaction transaction) { }
 
 }

@@ -11,40 +11,40 @@ public abstract class ConstructorBuilder : ConstructorInfo // TypeDefIndex: 600
 
 	// Methods
 
-	// RVA: 0x18C65B0 Offset: 0x18C4BB0 VA: 0x1818C65B0 Slot: 21
+	// RVA: 0x18C6570 Offset: 0x18C4B70 VA: 0x1818C6570 Slot: 21
 	public override MethodAttributes get_Attributes() { }
 
-	// RVA: 0x18C6600 Offset: 0x18C4C00 VA: 0x1818C6600 Slot: 9
+	// RVA: 0x18C65C0 Offset: 0x18C4BC0 VA: 0x1818C65C0 Slot: 9
 	public override Type get_DeclaringType() { }
 
-	// RVA: 0x18C6680 Offset: 0x18C4C80 VA: 0x1818C6680 Slot: 8
+	// RVA: 0x18C6640 Offset: 0x18C4C40 VA: 0x1818C6640 Slot: 8
 	public override string get_Name() { }
 
-	// RVA: 0x18C64D0 Offset: 0x18C4AD0 VA: 0x1818C64D0 Slot: 18
+	// RVA: 0x18C6490 Offset: 0x18C4A90 VA: 0x1818C6490 Slot: 18
 	public override ParameterInfo[] GetParameters() { }
 
-	// RVA: 0x18C6650 Offset: 0x18C4C50 VA: 0x1818C6650 Slot: 20
+	// RVA: 0x18C6610 Offset: 0x18C4C10 VA: 0x1818C6610 Slot: 20
 	public override RuntimeMethodHandle get_MethodHandle() { }
 
-	// RVA: 0x18C66D0 Offset: 0x18C4CD0 VA: 0x1818C66D0 Slot: 10
+	// RVA: 0x18C6690 Offset: 0x18C4C90 VA: 0x1818C6690 Slot: 10
 	public override Type get_ReflectedType() { }
 
-	// RVA: 0x18C6440 Offset: 0x18C4A40 VA: 0x1818C6440 Slot: 11
+	// RVA: 0x18C6400 Offset: 0x18C4A00 VA: 0x1818C6400 Slot: 11
 	public override object[] GetCustomAttributes(bool inherit) { }
 
-	// RVA: 0x18C6470 Offset: 0x18C4A70 VA: 0x1818C6470 Slot: 12
+	// RVA: 0x18C6430 Offset: 0x18C4A30 VA: 0x1818C6430 Slot: 12
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18C64A0 Offset: 0x18C4AA0 VA: 0x1818C64A0 Slot: 19
+	// RVA: 0x18C6460 Offset: 0x18C4A60 VA: 0x1818C6460 Slot: 19
 	public override MethodImplAttributes GetMethodImplementationFlags() { }
 
-	// RVA: 0x18C6520 Offset: 0x18C4B20 VA: 0x1818C6520 Slot: 22
+	// RVA: 0x18C64E0 Offset: 0x18C4AE0 VA: 0x1818C64E0 Slot: 22
 	public override object Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
-	// RVA: 0x18C6550 Offset: 0x18C4B50 VA: 0x1818C6550 Slot: 40
+	// RVA: 0x18C6510 Offset: 0x18C4B10 VA: 0x1818C6510 Slot: 40
 	public override object Invoke(BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
-	// RVA: 0x18C6580 Offset: 0x18C4B80 VA: 0x1818C6580 Slot: 13
+	// RVA: 0x18C6540 Offset: 0x18C4B40 VA: 0x1818C6540 Slot: 13
 	public override bool IsDefined(Type attributeType, bool inherit) { }
 
 }

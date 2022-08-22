@@ -1,18 +1,18 @@
 public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private CardGameController.CardGameState <State>k__BackingField; // 0x10
 	public const int IDLE_KICK_SECONDS = 600;
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private CardTable <Owner>k__BackingField; // 0x18
 	protected CardPlayerData[] playerData; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private CardTable.WinnerBreakdown <winnerInfo>k__BackingField; // 0x28
 	protected CardTable.CardList localPlayerCards; // 0x30
 	private CardGameSounds _sounds; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TimeUntil <TimeUntilTurnEnds>k__BackingField; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <ClientScrapInPot>k__BackingField; // 0x44
 
 	// Properties
@@ -36,11 +36,11 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public CardGameController.CardGameState get_State() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
 	private void set_State(CardGameController.CardGameState value) { }
 
@@ -65,11 +65,11 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 	// RVA: 0x8C0CF0 Offset: 0x8BF2F0 VA: 0x1808C0CF0 Slot: 9
 	public virtual int get_TimeBetweenRounds() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	protected CardTable get_Owner() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_Owner(CardTable value) { }
 
@@ -82,11 +82,11 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 	// RVA: 0x7A8A60 Offset: 0x7A7060 VA: 0x1807A8A60
 	protected bool get_IsClient() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
 	public CardTable.WinnerBreakdown get_winnerInfo() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
 	private void set_winnerInfo(CardTable.WinnerBreakdown value) { }
 
@@ -153,19 +153,19 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 	// RVA: 0x8C0B70 Offset: 0x8BF170 VA: 0x1808C0B70
 	public bool get_GameWon() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
 	public TimeUntil get_TimeUntilTurnEnds() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x684160 Offset: 0x682760 VA: 0x180684160
 	private void set_TimeUntilTurnEnds(TimeUntil value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5DE450 Offset: 0x5DCA50 VA: 0x1805DE450
 	public int get_ClientScrapInPot() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8C0D00 Offset: 0x8BF300 VA: 0x1808C0D00
 	private void set_ClientScrapInPot(int value) { }
 

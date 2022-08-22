@@ -35,11 +35,11 @@ public class DecorSpawn : MonoBehaviour, IClientComponent // TypeDefIndex: 10334
 	// RVA: 0x843870 Offset: 0x841E70 VA: 0x180843870
 	public void Refresh(bool force = False) { }
 
-	[ContextMenu] // RVA: 0xCB460 Offset: 0xCA860 VA: 0x1800CB460
+	[ContextMenu] // RVA: 0xCB540 Offset: 0xCA940 VA: 0x1800CB540
 	// RVA: 0x8436A0 Offset: 0x841CA0 VA: 0x1808436A0
 	private void RefreshAll_ContextMenu() { }
 
-	[ContextMenu] // RVA: 0xCB640 Offset: 0xCAA40 VA: 0x1800CB640
+	[ContextMenu] // RVA: 0xCB700 Offset: 0xCAB00 VA: 0x1800CB700
 	// RVA: 0x843840 Offset: 0x841E40 VA: 0x180843840
 	private void Refresh_ContextMenu() { }
 
@@ -55,7 +55,7 @@ public class DecorSpawn : MonoBehaviour, IClientComponent // TypeDefIndex: 10334
 	// RVA: 0x8432B0 Offset: 0x8418B0 VA: 0x1808432B0
 	private void FreePatches() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xCB750 Offset: 0xCAB50 VA: 0x1800CB750
+	[IteratorStateMachineAttribute] // RVA: 0xCB940 Offset: 0xCAD40 VA: 0x1800CB940
 	// RVA: 0x843BE0 Offset: 0x8421E0 VA: 0x180843BE0
 	private IEnumerator UpdateCoroutine() { }
 
@@ -80,26 +80,26 @@ private sealed class DecorSpawn.<UpdateCoroutine>d__28 : IEnumerator<object>, IE
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x858FC0 Offset: 0x8575C0 VA: 0x180858FC0 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x859190 Offset: 0x857790 VA: 0x180859190 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 

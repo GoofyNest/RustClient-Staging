@@ -5,34 +5,34 @@ public class Manager : IDisposable // TypeDefIndex: 6709
 
 	// Methods
 
-	// RVA: 0x220F4D0 Offset: 0x220DAD0 VA: 0x18220F4D0 Slot: 5
+	// RVA: 0x220F310 Offset: 0x220D910 VA: 0x18220F310 Slot: 5
 	public virtual void Dispose() { }
 
-	// RVA: 0x220FAF0 Offset: 0x220E0F0 VA: 0x18220FAF0
+	// RVA: 0x220F930 Offset: 0x220DF30 VA: 0x18220F930
 	public void .ctor(Provider p) { }
 
-	// RVA: 0x220FA70 Offset: 0x220E070 VA: 0x18220FA70
+	// RVA: 0x220F8B0 Offset: 0x220DEB0 VA: 0x18220F8B0
 	public Group TryGet(uint ID) { }
 
-	// RVA: 0x220F800 Offset: 0x220DE00 VA: 0x18220F800
+	// RVA: 0x220F640 Offset: 0x220DC40 VA: 0x18220F640
 	public Group Get(uint ID) { }
 
-	// RVA: 0x220F3C0 Offset: 0x220D9C0 VA: 0x18220F3C0
+	// RVA: 0x220F200 Offset: 0x220D800 VA: 0x18220F200
 	public Subscriber CreateSubscriber(Connection connection) { }
 
-	// RVA: 0x220F460 Offset: 0x220DA60 VA: 0x18220F460
+	// RVA: 0x220F2A0 Offset: 0x220D8A0 VA: 0x18220F2A0
 	public void DestroySubscriber(ref Subscriber subscriber) { }
 
-	// RVA: 0x220F970 Offset: 0x220DF70 VA: 0x18220F970
+	// RVA: 0x220F7B0 Offset: 0x220DDB0 VA: 0x18220F7B0
 	public bool IsInside(Group group, Vector3 vPos) { }
 
-	// RVA: 0x220F630 Offset: 0x220DC30 VA: 0x18220F630
+	// RVA: 0x220F470 Offset: 0x220DA70 VA: 0x18220F470
 	public Group GetGroup(Vector3 vPos) { }
 
-	// RVA: 0x220F720 Offset: 0x220DD20 VA: 0x18220F720
+	// RVA: 0x220F560 Offset: 0x220DB60 VA: 0x18220F560
 	public void GetVisibleFromFar(Group center, List<Group> groups) { }
 
-	// RVA: 0x220F790 Offset: 0x220DD90 VA: 0x18220F790
+	// RVA: 0x220F5D0 Offset: 0x220DBD0 VA: 0x18220F5D0
 	public void GetVisibleFromNear(Group center, List<Group> groups) { }
 
 }
@@ -89,37 +89,37 @@ public class Manager // TypeDefIndex: 7372
 
 	// Methods
 
-	// RVA: 0x22AC420 Offset: 0x22AAA20 VA: 0x1822AC420
+	// RVA: 0x22AC260 Offset: 0x22AA860 VA: 0x1822AC260
 	private void .ctor() { }
 
-	// RVA: 0x22AC3C0 Offset: 0x22AA9C0 VA: 0x1822AC3C0
+	// RVA: 0x22AC200 Offset: 0x22AA800 VA: 0x1822AC200
 	private static void .cctor() { }
 
-	// RVA: 0x22AC520 Offset: 0x22AAB20 VA: 0x1822AC520
+	// RVA: 0x22AC360 Offset: 0x22AA960 VA: 0x1822AC360
 	public static Manager get_PrimaryManager() { }
 
-	// RVA: 0x22AC340 Offset: 0x22AA940 VA: 0x1822AC340
+	// RVA: 0x22AC180 Offset: 0x22AA780 VA: 0x1822AC180
 	private static string Normalize(string name) { }
 
-	// RVA: 0x22ABB40 Offset: 0x22AA140 VA: 0x1822ABB40
+	// RVA: 0x22AB980 Offset: 0x22A9F80 VA: 0x1822AB980
 	public Encoding GetEncoding(int codePage) { }
 
-	// RVA: 0x22AB750 Offset: 0x22A9D50 VA: 0x1822AB750
+	// RVA: 0x22AB590 Offset: 0x22A9B90 VA: 0x1822AB590
 	public Encoding GetEncoding(string name) { }
 
-	// RVA: 0x22AB340 Offset: 0x22A9940 VA: 0x1822AB340
+	// RVA: 0x22AB180 Offset: 0x22A9780 VA: 0x1822AB180
 	public CultureInfo GetCulture(int culture, bool useUserOverride) { }
 
-	// RVA: 0x22AB530 Offset: 0x22A9B30 VA: 0x1822AB530
+	// RVA: 0x22AB370 Offset: 0x22A9970 VA: 0x1822AB370
 	public CultureInfo GetCulture(string name, bool useUserOverride) { }
 
-	// RVA: 0x22ABBF0 Offset: 0x22AA1F0 VA: 0x1822ABBF0
+	// RVA: 0x22ABA30 Offset: 0x22AA030 VA: 0x1822ABA30
 	internal object Instantiate(string name) { }
 
-	// RVA: 0x22AC020 Offset: 0x22AA620 VA: 0x1822AC020
+	// RVA: 0x22ABE60 Offset: 0x22AA460 VA: 0x1822ABE60
 	private void LoadClassList() { }
 
-	// RVA: 0x22AC1E0 Offset: 0x22AA7E0 VA: 0x1822AC1E0
+	// RVA: 0x22AC020 Offset: 0x22AA620 VA: 0x1822AC020
 	private void LoadInternalClasses() { }
 
 }

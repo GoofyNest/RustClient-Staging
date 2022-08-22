@@ -13,7 +13,7 @@ public class CeilingLight : IOEntity // TypeDefIndex: 8548
 	// RVA: 0x531AA0 Offset: 0x5300A0 VA: 0x180531AA0 Slot: 116
 	public override void OnAttacked(HitInfo info) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x531840 Offset: 0x52FE40 VA: 0x180531840
 	public void ClientPhysPush(BaseEntity.RPCMessage msg) { }
 

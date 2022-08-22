@@ -1,10 +1,10 @@
 public class EnvironmentVolume : MonoBehaviour // TypeDefIndex: 9863
 {	// Fields
-	[InspectorFlagsAttribute] // RVA: 0x70AC0 Offset: 0x6FEC0 VA: 0x180070AC0
+	[InspectorFlagsAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
 	public EnvironmentType Type; // 0x18
 	public Vector3 Center; // 0x1C
 	public Vector3 Size; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Collider <trigger>k__BackingField; // 0x38
 
 	// Properties
@@ -12,11 +12,11 @@ public class EnvironmentVolume : MonoBehaviour // TypeDefIndex: 9863
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
 	public Collider get_trigger() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
 	private void set_trigger(Collider value) { }
 

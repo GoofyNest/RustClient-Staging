@@ -65,24 +65,24 @@ public class PostProcessLayer : MonoBehaviour // TypeDefIndex: 11738
 	public RenderTextureFormat intermediateFormat; // 0xE0
 	private RenderTextureFormat prevIntermediateFormat; // 0xE4
 	private bool supportsIntermediateFormat; // 0xE8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PostProcessResources m_Resources; // 0xF0
-	[PreserveAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[SerializeField] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+	[PreserveAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	private bool m_ShowToolkit; // 0xF8
-	[PreserveAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[SerializeField] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+	[PreserveAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	private bool m_ShowCustomSorter; // 0xF9
 	public bool breakBeforeColorGrading; // 0xFA
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private List<PostProcessLayer.SerializedBundleRef> m_BeforeTransparentBundles; // 0x100
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private List<PostProcessLayer.SerializedBundleRef> m_BeforeStackBundles; // 0x108
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private List<PostProcessLayer.SerializedBundleRef> m_AfterStackBundles; // 0x110
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Dictionary<PostProcessEvent, List<PostProcessLayer.SerializedBundleRef>> <sortedBundles>k__BackingField; // 0x118
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <haveBundlesBeenInited>k__BackingField; // 0x120
 	private Dictionary<Type, PostProcessBundle> m_Bundles; // 0x128
 	private PropertySheetFactory m_PropertySheetFactory; // 0x130
@@ -174,19 +174,19 @@ public class PostProcessLayer : MonoBehaviour // TypeDefIndex: 11738
 	// RVA: 0x1029040 Offset: 0x1027640 VA: 0x181029040
 	private void StopDLSS() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE66340 Offset: 0xE64940 VA: 0x180E66340
 	public Dictionary<PostProcessEvent, List<PostProcessLayer.SerializedBundleRef>> get_sortedBundles() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE65A00 Offset: 0xE64000 VA: 0x180E65A00
 	private void set_sortedBundles(Dictionary<PostProcessEvent, List<PostProcessLayer.SerializedBundleRef>> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x102A4C0 Offset: 0x1028AC0 VA: 0x18102A4C0
 	public bool get_haveBundlesBeenInited() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x102A4E0 Offset: 0x1028AE0 VA: 0x18102A4E0
 	private void set_haveBundlesBeenInited(bool value) { }
 
@@ -196,7 +196,7 @@ public class PostProcessLayer : MonoBehaviour // TypeDefIndex: 11738
 	// RVA: 0x1023BC0 Offset: 0x10221C0 VA: 0x181023BC0
 	private void InitLegacy() { }
 
-	[ImageEffectUsesCommandBuffer] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ImageEffectUsesCommandBuffer] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1025860 Offset: 0x1023E60 VA: 0x181025860
 	private void OnRenderImage(RenderTexture src, RenderTexture dst) { }
 
@@ -243,7 +243,7 @@ public class PostProcessLayer : MonoBehaviour // TypeDefIndex: 11738
 	public PostProcessBundle GetBundle<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B700 Offset: 0x1A39D00 VA: 0x181A3B700
+	|-RVA: 0x1A3B6C0 Offset: 0x1A39CC0 VA: 0x181A3B6C0
 	|-PostProcessLayer.GetBundle<object>
 	|-PostProcessLayer.GetBundle<AmbientOcclusion>
 	|-PostProcessLayer.GetBundle<AutoExposure>
@@ -475,45 +475,45 @@ public class PostProcessRenderContext // TypeDefIndex: 11747
 {	// Fields
 	public bool dlssEnabled; // 0x10
 	private Camera m_Camera; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private CommandBuffer <command>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private RenderTargetIdentifier <source>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private RenderTargetIdentifier <destination>k__BackingField; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private RenderTextureFormat <sourceFormat>k__BackingField; // 0x78
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <flip>k__BackingField; // 0x7C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PostProcessResources <resources>k__BackingField; // 0x80
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PropertySheetFactory <propertySheets>k__BackingField; // 0x88
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Dictionary<string, object> <userData>k__BackingField; // 0x90
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PostProcessDebugLayer <debugLayer>k__BackingField; // 0x98
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <width>k__BackingField; // 0xA0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <height>k__BackingField; // 0xA4
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <stereoActive>k__BackingField; // 0xA8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <xrActiveEye>k__BackingField; // 0xAC
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <numberOfEyes>k__BackingField; // 0xB0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PostProcessRenderContext.StereoRenderingMode <stereoRenderingMode>k__BackingField; // 0xB4
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <screenWidth>k__BackingField; // 0xB8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <screenHeight>k__BackingField; // 0xBC
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <isSceneView>k__BackingField; // 0xC0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PostProcessLayer.Antialiasing <antialiasing>k__BackingField; // 0xC4
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TemporalAntialiasing <temporalAntialiasing>k__BackingField; // 0xC8
 	internal PropertySheet uberSheet; // 0xD0
 	internal Texture autoExposureTexture; // 0xD8
@@ -558,163 +558,163 @@ public class PostProcessRenderContext // TypeDefIndex: 11747
 	// RVA: 0x11D5F40 Offset: 0x11D4540 VA: 0x1811D5F40
 	public void set_camera(Camera value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public CommandBuffer get_command() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_command(CommandBuffer value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x11D5F20 Offset: 0x11D4520 VA: 0x1811D5F20
 	public RenderTargetIdentifier get_source() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x11D6000 Offset: 0x11D4600 VA: 0x1811D6000
 	public void set_source(RenderTargetIdentifier value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x11D5F00 Offset: 0x11D4500 VA: 0x1811D5F00
 	public RenderTargetIdentifier get_destination() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x11D5FE0 Offset: 0x11D45E0 VA: 0x1811D5FE0
 	public void set_destination(RenderTargetIdentifier value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xAF5D60 Offset: 0xAF4360 VA: 0x180AF5D60
 	public RenderTextureFormat get_sourceFormat() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xB28CD0 Offset: 0xB272D0 VA: 0x180B28CD0
 	public void set_sourceFormat(RenderTextureFormat value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x9660F0 Offset: 0x9646F0 VA: 0x1809660F0
 	public bool get_flip() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x966100 Offset: 0x964700 VA: 0x180966100
 	public void set_flip(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5743E0 Offset: 0x5729E0 VA: 0x1805743E0
 	public PostProcessResources get_resources() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574470 Offset: 0x572A70 VA: 0x180574470
 	internal void set_resources(PostProcessResources value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
 	public PropertySheetFactory get_propertySheets() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
 	internal void set_propertySheets(PropertySheetFactory value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050
 	public Dictionary<string, object> get_userData() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4E4060 Offset: 0x4E2660 VA: 0x1804E4060
 	private void set_userData(Dictionary<string, object> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
 	public PostProcessDebugLayer get_debugLayer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574410 Offset: 0x572A10 VA: 0x180574410
 	internal void set_debugLayer(PostProcessDebugLayer value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1051760 Offset: 0x104FD60 VA: 0x181051760
 	public int get_width() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1079F80 Offset: 0x1078580 VA: 0x181079F80
 	public void set_width(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1051770 Offset: 0x104FD70 VA: 0x181051770
 	public int get_height() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1079F90 Offset: 0x1078590 VA: 0x181079F90
 	public void set_height(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8084F0 Offset: 0x806AF0 VA: 0x1808084F0
 	public bool get_stereoActive() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x808500 Offset: 0x806B00 VA: 0x180808500
 	private void set_stereoActive(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA4D020 Offset: 0xA4B620 VA: 0x180A4D020
 	public int get_xrActiveEye() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x107A040 Offset: 0x1078640 VA: 0x18107A040
 	private void set_xrActiveEye(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x2FA5B0 Offset: 0x2F8BB0 VA: 0x1802FA5B0
 	public int get_numberOfEyes() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x2FA5C0 Offset: 0x2F8BC0 VA: 0x1802FA5C0
 	private void set_numberOfEyes(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1079E30 Offset: 0x1078430 VA: 0x181079E30
 	public PostProcessRenderContext.StereoRenderingMode get_stereoRenderingMode() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1079FA0 Offset: 0x10785A0 VA: 0x181079FA0
 	private void set_stereoRenderingMode(PostProcessRenderContext.StereoRenderingMode value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1079E60 Offset: 0x1078460 VA: 0x181079E60
 	public int get_screenWidth() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1079FD0 Offset: 0x10785D0 VA: 0x181079FD0
 	public void set_screenWidth(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1079E50 Offset: 0x1078450 VA: 0x181079E50
 	public int get_screenHeight() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1079FC0 Offset: 0x10785C0 VA: 0x181079FC0
 	public void set_screenHeight(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x56EAF0 Offset: 0x56D0F0 VA: 0x18056EAF0
 	public bool get_isSceneView() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x56EB00 Offset: 0x56D100 VA: 0x18056EB00
 	internal void set_isSceneView(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xAE2A20 Offset: 0xAE1020 VA: 0x180AE2A20
 	public PostProcessLayer.Antialiasing get_antialiasing() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1079F70 Offset: 0x1078570 VA: 0x181079F70
 	internal void set_antialiasing(PostProcessLayer.Antialiasing value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDA00E0 Offset: 0xD9E6E0 VA: 0x180DA00E0
 	public TemporalAntialiasing get_temporalAntialiasing() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDA04C0 Offset: 0xD9EAC0 VA: 0x180DA04C0
 	internal void set_temporalAntialiasing(TemporalAntialiasing value) { }
 
@@ -774,9 +774,9 @@ public sealed class PostProcessAttribute : Attribute // TypeDefIndex: 11753
 
 public sealed class PostProcessBundle // TypeDefIndex: 11836
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PostProcessAttribute <attribute>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PostProcessEffectSettings <settings>k__BackingField; // 0x18
 	private PostProcessEffectRenderer m_Renderer; // 0x20
 
@@ -787,19 +787,19 @@ public sealed class PostProcessBundle // TypeDefIndex: 11836
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public PostProcessAttribute get_attribute() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	private void set_attribute(PostProcessAttribute value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public PostProcessEffectSettings get_settings() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_settings(PostProcessEffectSettings value) { }
 
@@ -887,11 +887,11 @@ public sealed class PostProcessDebugLayer // TypeDefIndex: 11840
 	private Dictionary<MonitorType, Monitor> m_Monitors; // 0x30
 	private int frameWidth; // 0x38
 	private int frameHeight; // 0x3C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private RenderTexture <debugOverlayTarget>k__BackingField; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <debugOverlayActive>k__BackingField; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private DebugOverlay <debugOverlay>k__BackingField; // 0x4C
 	public PostProcessDebugLayer.OverlaySettings overlaySettings; // 0x50
 
@@ -902,27 +902,27 @@ public sealed class PostProcessDebugLayer // TypeDefIndex: 11840
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
 	public RenderTexture get_debugOverlayTarget() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
 	private void set_debugOverlayTarget(RenderTexture value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC3E0 Offset: 0x4BA9E0 VA: 0x1804BC3E0
 	public bool get_debugOverlayActive() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5E0 Offset: 0x4BABE0 VA: 0x1804BC5E0
 	private void set_debugOverlayActive(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x599D40 Offset: 0x598340 VA: 0x180599D40
 	public DebugOverlay get_debugOverlay() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x59A0F0 Offset: 0x5986F0 VA: 0x18059A0F0
 	private void set_debugOverlay(DebugOverlay value) { }
 
@@ -967,12 +967,12 @@ public sealed class PostProcessDebugLayer // TypeDefIndex: 11840
 public class PostProcessDebugLayer.OverlaySettings // TypeDefIndex: 11841
 {	// Fields
 	public bool linearDepth; // 0x10
-	[RangeAttribute] // RVA: 0x7B600 Offset: 0x7AA00 VA: 0x18007B600
+	[RangeAttribute] // RVA: 0x7B740 Offset: 0x7AB40 VA: 0x18007B740
 	public float motionColorIntensity; // 0x14
-	[RangeAttribute] // RVA: 0x7B690 Offset: 0x7AA90 VA: 0x18007B690
+	[RangeAttribute] // RVA: 0x7B840 Offset: 0x7AC40 VA: 0x18007B840
 	public int motionGridSize; // 0x18
 	public ColorBlindnessType colorBlindnessType; // 0x1C
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float colorBlindnessStrength; // 0x20
 
 	// Methods
@@ -1013,7 +1013,7 @@ public abstract class PostProcessEffectRenderer // TypeDefIndex: 11842
 
 public abstract class PostProcessEffectRenderer<T> : PostProcessEffectRenderer // TypeDefIndex: 11843
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private T <settings>k__BackingField; // 0x0
 
 	// Properties
@@ -1021,7 +1021,7 @@ public abstract class PostProcessEffectRenderer<T> : PostProcessEffectRenderer /
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public T get_settings() { }
 	/* GenericInstMethod :
@@ -1053,7 +1053,7 @@ public abstract class PostProcessEffectRenderer<T> : PostProcessEffectRenderer /
 	|-PostProcessEffectRenderer<Wiggle>.get_settings
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal void set_settings(T value) { }
 	/* GenericInstMethod :
@@ -1066,7 +1066,7 @@ public abstract class PostProcessEffectRenderer<T> : PostProcessEffectRenderer /
 	internal override void SetSettings(PostProcessEffectSettings settings) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C58B0 Offset: 0x19C3EB0 VA: 0x1819C58B0
+	|-RVA: 0x19C5870 Offset: 0x19C3E70 VA: 0x1819C5870
 	|-PostProcessEffectRenderer<BlurOptimized>.SetSettings
 	|-PostProcessEffectRenderer<DepthOfFieldEffect>.SetSettings
 	|-PostProcessEffectRenderer<DoubleVision>.SetSettings
@@ -1097,7 +1097,7 @@ public abstract class PostProcessEffectRenderer<T> : PostProcessEffectRenderer /
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C5950 Offset: 0x19C3F50 VA: 0x1819C5950
+	|-RVA: 0x19C5910 Offset: 0x19C3F10 VA: 0x1819C5910
 	|-PostProcessEffectRenderer<BlurOptimized>..ctor
 	|-PostProcessEffectRenderer<DepthOfFieldEffect>..ctor
 	|-PostProcessEffectRenderer<DoubleVision>..ctor
@@ -1152,7 +1152,7 @@ public class PostProcessEffectSettings : ScriptableObject // TypeDefIndex: 11844
 	// RVA: 0x1021430 Offset: 0x101FA30 VA: 0x181021430
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1021380 Offset: 0x101F980 VA: 0x181021380
 	private ParameterOverride <OnEnable>b__3_2(FieldInfo t) { }
 
@@ -1192,10 +1192,10 @@ public enum PostProcessEvent // TypeDefIndex: 11846
 internal struct PostProcessEventComparer : IEqualityComparer<PostProcessEvent> // TypeDefIndex: 11847
 {	// Methods
 
-	// RVA: 0x16B590 Offset: 0x16A990 VA: 0x18016B590 Slot: 4
+	// RVA: 0x16B510 Offset: 0x16A910 VA: 0x18016B510 Slot: 4
 	public bool Equals(PostProcessEvent x, PostProcessEvent y) { }
 
-	// RVA: 0x16B5A0 Offset: 0x16A9A0 VA: 0x18016B5A0 Slot: 5
+	// RVA: 0x16B520 Offset: 0x16A920 VA: 0x18016B520 Slot: 5
 	public int GetHashCode(PostProcessEvent obj) { }
 
 }
@@ -1294,7 +1294,7 @@ private sealed class PostProcessManager.<>c // TypeDefIndex: 11849
 
 public sealed class PostProcessProfile : ScriptableObject // TypeDefIndex: 11850
 {	// Fields
-	[TooltipAttribute] // RVA: 0x7BE80 Offset: 0x7B280 VA: 0x18007BE80
+	[TooltipAttribute] // RVA: 0x7BFB0 Offset: 0x7B3B0 VA: 0x18007BFB0
 	public List<PostProcessEffectSettings> settings; // 0x18
 	public bool isDirty; // 0x20
 
@@ -1479,16 +1479,16 @@ public sealed class PostProcessResources.SMAALuts // TypeDefIndex: 11855
 public sealed class PostProcessVolume : MonoBehaviour // TypeDefIndex: 11856
 {	// Fields
 	public PostProcessProfile sharedProfile; // 0x18
-	[TooltipAttribute] // RVA: 0x7C290 Offset: 0x7B690 VA: 0x18007C290
+	[TooltipAttribute] // RVA: 0x7C390 Offset: 0x7B790 VA: 0x18007C390
 	public bool isGlobal; // 0x20
 	public Bounds bounds; // 0x24
-	[MinAttribute] // RVA: 0x7C360 Offset: 0x7B760 VA: 0x18007C360
-	[TooltipAttribute] // RVA: 0x7C360 Offset: 0x7B760 VA: 0x18007C360
+	[MinAttribute] // RVA: 0x7C430 Offset: 0x7B830 VA: 0x18007C430
+	[TooltipAttribute] // RVA: 0x7C430 Offset: 0x7B830 VA: 0x18007C430
 	public float blendDistance; // 0x3C
-	[RangeAttribute] // RVA: 0x7C420 Offset: 0x7B820 VA: 0x18007C420
-	[TooltipAttribute] // RVA: 0x7C420 Offset: 0x7B820 VA: 0x18007C420
+	[RangeAttribute] // RVA: 0x7C620 Offset: 0x7BA20 VA: 0x18007C620
+	[TooltipAttribute] // RVA: 0x7C620 Offset: 0x7BA20 VA: 0x18007C620
 	public float weight; // 0x40
-	[TooltipAttribute] // RVA: 0x7C640 Offset: 0x7BA40 VA: 0x18007C640
+	[TooltipAttribute] // RVA: 0x7C7A0 Offset: 0x7BBA0 VA: 0x18007C7A0
 	public float priority; // 0x44
 	private int m_PreviousLayer; // 0x48
 	private float m_PreviousPriority; // 0x4C

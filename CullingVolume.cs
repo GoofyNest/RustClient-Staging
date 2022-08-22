@@ -1,12 +1,12 @@
 public class CullingVolume : MonoBehaviour, IClientComponent // TypeDefIndex: 9842
 {	// Fields
-	[TooltipAttribute] // RVA: 0x9F190 Offset: 0x9E590 VA: 0x18009F190
+	[TooltipAttribute] // RVA: 0x9F260 Offset: 0x9E660 VA: 0x18009F260
 	public GameObject OccludeeRoot; // 0x18
-	[TooltipAttribute] // RVA: 0x9F200 Offset: 0x9E600 VA: 0x18009F200
+	[TooltipAttribute] // RVA: 0x9F2D0 Offset: 0x9E6D0 VA: 0x18009F2D0
 	public bool Invert; // 0x20
-	[TooltipAttribute] // RVA: 0x9F270 Offset: 0x9E670 VA: 0x18009F270
+	[TooltipAttribute] // RVA: 0x9F340 Offset: 0x9E740 VA: 0x18009F340
 	public bool Portal; // 0x21
-	[TooltipAttribute] // RVA: 0x9F310 Offset: 0x9E710 VA: 0x18009F310
+	[TooltipAttribute] // RVA: 0x9F3E0 Offset: 0x9E7E0 VA: 0x18009F3E0
 	public List<CullingVolume> Connections; // 0x28
 	private Transform root; // 0x30
 	private Bounds bounds; // 0x38

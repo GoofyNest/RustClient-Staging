@@ -154,7 +154,7 @@ private struct RegexCharClass.LowerCaseMapping // TypeDefIndex: 2609
 
 	// Methods
 
-	// RVA: 0x1F1AC0 Offset: 0x1F0EC0 VA: 0x1801F1AC0
+	// RVA: 0x1F1A40 Offset: 0x1F0E40 VA: 0x1801F1A40
 	internal void .ctor(char chMin, char chMax, int lcOp, int data) { }
 
 }

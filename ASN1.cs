@@ -87,7 +87,7 @@ public class ASN1 // TypeDefIndex: 1704
 	// RVA: 0x1639750 Offset: 0x1637D50 VA: 0x181639750
 	public void .ctor(byte tag, byte[] data) { }
 
-	// RVA: 0x1AAE4F0 Offset: 0x1AACAF0 VA: 0x181AAE4F0
+	// RVA: 0x1AAE330 Offset: 0x1AAC930 VA: 0x181AAE330
 	public void .ctor(byte[] data) { }
 
 	// RVA: 0x16397D0 Offset: 0x1637DD0 VA: 0x1816397D0
@@ -99,10 +99,10 @@ public class ASN1 // TypeDefIndex: 1704
 	// RVA: 0x16398D0 Offset: 0x1637ED0 VA: 0x1816398D0
 	public int get_Length() { }
 
-	// RVA: 0x1AAE770 Offset: 0x1AACD70 VA: 0x181AAE770
+	// RVA: 0x1AAE5B0 Offset: 0x1AACBB0 VA: 0x181AAE5B0
 	public byte[] get_Value() { }
 
-	// RVA: 0x1AAE810 Offset: 0x1AACE10 VA: 0x181AAE810
+	// RVA: 0x1AAE650 Offset: 0x1AACC50 VA: 0x181AAE650
 	public void set_Value(byte[] value) { }
 
 	// RVA: 0x1638650 Offset: 0x1636C50 VA: 0x181638650
@@ -111,25 +111,25 @@ public class ASN1 // TypeDefIndex: 1704
 	// RVA: 0x16386F0 Offset: 0x1636CF0 VA: 0x1816386F0
 	public bool CompareValue(byte[] value) { }
 
-	// RVA: 0x1AAD620 Offset: 0x1AABC20 VA: 0x181AAD620
+	// RVA: 0x1AAD460 Offset: 0x1AABA60 VA: 0x181AAD460
 	public ASN1 Add(ASN1 asn1) { }
 
-	// RVA: 0x1AADB30 Offset: 0x1AAC130 VA: 0x181AADB30 Slot: 4
+	// RVA: 0x1AAD970 Offset: 0x1AABF70 VA: 0x181AAD970 Slot: 4
 	public virtual byte[] GetBytes() { }
 
-	// RVA: 0x1AAD810 Offset: 0x1AABE10 VA: 0x181AAD810
+	// RVA: 0x1AAD650 Offset: 0x1AABC50 VA: 0x181AAD650
 	protected void Decode(byte[] asn1, ref int anPos, int anLength) { }
 
-	// RVA: 0x1AAD6C0 Offset: 0x1AABCC0 VA: 0x181AAD6C0
+	// RVA: 0x1AAD500 Offset: 0x1AABB00 VA: 0x181AAD500
 	protected void DecodeTLV(byte[] asn1, ref int pos, out byte tag, out int length, out byte[] content) { }
 
-	// RVA: 0x1AAE690 Offset: 0x1AACC90 VA: 0x181AAE690
+	// RVA: 0x1AAE4D0 Offset: 0x1AACAD0 VA: 0x181AAE4D0
 	public ASN1 get_Item(int index) { }
 
-	// RVA: 0x1AADA20 Offset: 0x1AAC020 VA: 0x181AADA20
+	// RVA: 0x1AAD860 Offset: 0x1AABE60 VA: 0x181AAD860
 	public ASN1 Element(int index, byte anTag) { }
 
-	// RVA: 0x1AAE220 Offset: 0x1AAC820 VA: 0x181AAE220 Slot: 3
+	// RVA: 0x1AAE060 Offset: 0x1AAC660 VA: 0x181AAE060 Slot: 3
 	public override string ToString() { }
 
 }

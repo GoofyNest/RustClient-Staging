@@ -17,20 +17,20 @@ public class Candle : BaseCombatEntity, ISplashable, IIgniteable // TypeDefIndex
 	// RVA: 0x6FDC90 Offset: 0x6FC290 VA: 0x1806FDC90 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.Menu] // RVA: 0xCFE60 Offset: 0xCF260 VA: 0x1800CFE60
-	[BaseEntity.Menu.Description] // RVA: 0xCFE60 Offset: 0xCF260 VA: 0x1800CFE60
-	[BaseEntity.Menu.Icon] // RVA: 0xCFE60 Offset: 0xCF260 VA: 0x1800CFE60
-	[BaseEntity.Menu.ShowIf] // RVA: 0xCFE60 Offset: 0xCF260 VA: 0x1800CFE60
+	[BaseEntity.Menu] // RVA: 0xCFEF0 Offset: 0xCF2F0 VA: 0x1800CFEF0
+	[BaseEntity.Menu.Description] // RVA: 0xCFEF0 Offset: 0xCF2F0 VA: 0x1800CFEF0
+	[BaseEntity.Menu.Icon] // RVA: 0xCFEF0 Offset: 0xCF2F0 VA: 0x1800CFEF0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xCFEF0 Offset: 0xCF2F0 VA: 0x1800CFEF0
 	// RVA: 0x6FDC40 Offset: 0x6FC240 VA: 0x1806FDC40
 	public void Menu_Ignite(BasePlayer player) { }
 
 	// RVA: 0x6FDC20 Offset: 0x6FC220 VA: 0x1806FDC20
 	public bool Menu_Ignite_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xD0130 Offset: 0xCF530 VA: 0x1800D0130
-	[BaseEntity.Menu.Description] // RVA: 0xD0130 Offset: 0xCF530 VA: 0x1800D0130
-	[BaseEntity.Menu.Icon] // RVA: 0xD0130 Offset: 0xCF530 VA: 0x1800D0130
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD0130 Offset: 0xCF530 VA: 0x1800D0130
+	[BaseEntity.Menu] // RVA: 0xD01C0 Offset: 0xCF5C0 VA: 0x1800D01C0
+	[BaseEntity.Menu.Description] // RVA: 0xD01C0 Offset: 0xCF5C0 VA: 0x1800D01C0
+	[BaseEntity.Menu.Icon] // RVA: 0xD01C0 Offset: 0xCF5C0 VA: 0x1800D01C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD01C0 Offset: 0xCF5C0 VA: 0x1800D01C0
 	// RVA: 0x6FDBD0 Offset: 0x6FC1D0 VA: 0x1806FDBD0
 	public void Menu_Extinguish(BasePlayer player) { }
 

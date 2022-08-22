@@ -8,13 +8,13 @@ public class DecayEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 	// Methods
 
-	// RVA: 0x20BA9E0 Offset: 0x20B8FE0 VA: 0x1820BA9E0
+	// RVA: 0x20BA820 Offset: 0x20B8E20 VA: 0x1820BA820
 	public static void ResetToPool(DecayEntity instance) { }
 
-	// RVA: 0x20BAA70 Offset: 0x20B9070 VA: 0x1820BAA70
+	// RVA: 0x20BA8B0 Offset: 0x20B8EB0 VA: 0x1820BA8B0
 	public void ResetToPool() { }
 
-	// RVA: 0x20BA700 Offset: 0x20B8D00 VA: 0x1820BA700 Slot: 9
+	// RVA: 0x20BA540 Offset: 0x20B8B40 VA: 0x1820BA540 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -23,64 +23,64 @@ public class DecayEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E28620 Offset: 0x1E26C20 VA: 0x181E28620
+	// RVA: 0x1E28460 Offset: 0x1E26A60 VA: 0x181E28460
 	public void CopyTo(DecayEntity instance) { }
 
-	// RVA: 0x20B9790 Offset: 0x20B7D90 VA: 0x1820B9790
+	// RVA: 0x20B95D0 Offset: 0x20B7BD0 VA: 0x1820B95D0
 	public DecayEntity Copy() { }
 
-	// RVA: 0x20BA0D0 Offset: 0x20B86D0 VA: 0x1820BA0D0
+	// RVA: 0x20B9F10 Offset: 0x20B8510 VA: 0x1820B9F10
 	public static DecayEntity Deserialize(Stream stream) { }
 
-	// RVA: 0x20B9AA0 Offset: 0x20B80A0 VA: 0x1820B9AA0
+	// RVA: 0x20B98E0 Offset: 0x20B7EE0 VA: 0x1820B98E0
 	public static DecayEntity DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20B9D90 Offset: 0x20B8390 VA: 0x1820B9D90
+	// RVA: 0x20B9BD0 Offset: 0x20B81D0 VA: 0x1820B9BD0
 	public static DecayEntity DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20B9E20 Offset: 0x20B8420 VA: 0x1820B9E20
+	// RVA: 0x20B9C60 Offset: 0x20B8260 VA: 0x1820B9C60
 	public static DecayEntity Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20BA810 Offset: 0x20B8E10 VA: 0x1820BA810
+	// RVA: 0x20BA650 Offset: 0x20B8C50 VA: 0x1820BA650
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20BAFE0 Offset: 0x20B95E0 VA: 0x1820BAFE0 Slot: 12
+	// RVA: 0x20BAE20 Offset: 0x20B9420 VA: 0x1820BAE20 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20BB000 Offset: 0x20B9600 VA: 0x1820BB000 Slot: 13
+	// RVA: 0x20BAE40 Offset: 0x20B9440 VA: 0x1820BAE40 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, DecayEntity previous) { }
 
-	// RVA: 0x20BA9C0 Offset: 0x20B8FC0 VA: 0x1820BA9C0 Slot: 14
+	// RVA: 0x20BA800 Offset: 0x20B8E00 VA: 0x1820BA800 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20BA470 Offset: 0x20B8A70 VA: 0x1820BA470
+	// RVA: 0x20BA2B0 Offset: 0x20B88B0 VA: 0x1820BA2B0
 	public static DecayEntity Deserialize(byte[] buffer, DecayEntity instance, bool isDelta = False) { }
 
-	// RVA: 0x20BA2C0 Offset: 0x20B88C0 VA: 0x1820BA2C0
+	// RVA: 0x20BA100 Offset: 0x20B8700 VA: 0x1820BA100
 	public static DecayEntity Deserialize(Stream stream, DecayEntity instance, bool isDelta) { }
 
-	// RVA: 0x20B9810 Offset: 0x20B7E10 VA: 0x1820B9810
+	// RVA: 0x20B9650 Offset: 0x20B7C50 VA: 0x1820B9650
 	public static DecayEntity DeserializeLengthDelimited(Stream stream, DecayEntity instance, bool isDelta) { }
 
-	// RVA: 0x20B9B20 Offset: 0x20B8120 VA: 0x1820B9B20
+	// RVA: 0x20B9960 Offset: 0x20B7F60 VA: 0x1820B9960
 	public static DecayEntity DeserializeLength(Stream stream, int length, DecayEntity instance, bool isDelta) { }
 
-	// RVA: 0x20BAB00 Offset: 0x20B9100 VA: 0x1820BAB00
+	// RVA: 0x20BA940 Offset: 0x20B8F40 VA: 0x1820BA940
 	public static void SerializeDelta(Stream stream, DecayEntity instance, DecayEntity previous) { }
 
-	// RVA: 0x20BAEA0 Offset: 0x20B94A0 VA: 0x1820BAEA0
+	// RVA: 0x20BACE0 Offset: 0x20B92E0 VA: 0x1820BACE0
 	public static void Serialize(Stream stream, DecayEntity instance) { }
 
-	// RVA: 0x20BAFD0 Offset: 0x20B95D0 VA: 0x1820BAFD0
+	// RVA: 0x20BAE10 Offset: 0x20B9410 VA: 0x1820BAE10
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20BAFE0 Offset: 0x20B95E0 VA: 0x1820BAFE0
+	// RVA: 0x20BAE20 Offset: 0x20B9420 VA: 0x1820BAE20
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20BAD90 Offset: 0x20B9390 VA: 0x1820BAD90
+	// RVA: 0x20BABD0 Offset: 0x20B91D0 VA: 0x1820BABD0
 	public static byte[] SerializeToBytes(DecayEntity instance) { }
 
-	// RVA: 0x20BACE0 Offset: 0x20B92E0 VA: 0x1820BACE0
+	// RVA: 0x20BAB20 Offset: 0x20B9120 VA: 0x1820BAB20
 	public static void SerializeLengthDelimited(Stream stream, DecayEntity instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80

@@ -6,13 +6,13 @@ public class ResearchTable : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1E02E40 Offset: 0x1E01440 VA: 0x181E02E40
+	// RVA: 0x1E02C80 Offset: 0x1E01280 VA: 0x181E02C80
 	public static void ResetToPool(ResearchTable instance) { }
 
-	// RVA: 0x1E02DC0 Offset: 0x1E013C0 VA: 0x181E02DC0
+	// RVA: 0x1E02C00 Offset: 0x1E01200 VA: 0x181E02C00
 	public void ResetToPool() { }
 
-	// RVA: 0x1E02C90 Offset: 0x1E01290 VA: 0x181E02C90 Slot: 9
+	// RVA: 0x1E02AD0 Offset: 0x1E010D0 VA: 0x181E02AD0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -21,64 +21,64 @@ public class ResearchTable : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE690 Offset: 0x1BFCC90 VA: 0x181BFE690
+	// RVA: 0x1BFE4D0 Offset: 0x1BFCAD0 VA: 0x181BFE4D0
 	public void CopyTo(ResearchTable instance) { }
 
-	// RVA: 0x1E02300 Offset: 0x1E00900 VA: 0x181E02300
+	// RVA: 0x1E02140 Offset: 0x1E00740 VA: 0x181E02140
 	public ResearchTable Copy() { }
 
-	// RVA: 0x1E02B10 Offset: 0x1E01110 VA: 0x181E02B10
+	// RVA: 0x1E02950 Offset: 0x1E00F50 VA: 0x181E02950
 	public static ResearchTable Deserialize(Stream stream) { }
 
-	// RVA: 0x1E02370 Offset: 0x1E00970 VA: 0x181E02370
+	// RVA: 0x1E021B0 Offset: 0x1E007B0 VA: 0x181E021B0
 	public static ResearchTable DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E02810 Offset: 0x1E00E10 VA: 0x181E02810
+	// RVA: 0x1E02650 Offset: 0x1E00C50 VA: 0x181E02650
 	public static ResearchTable DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E028A0 Offset: 0x1E00EA0 VA: 0x181E028A0
+	// RVA: 0x1E026E0 Offset: 0x1E00CE0 VA: 0x181E026E0
 	public static ResearchTable Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E02D80 Offset: 0x1E01380 VA: 0x181E02D80
+	// RVA: 0x1E02BC0 Offset: 0x1E011C0 VA: 0x181E02BC0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E03290 Offset: 0x1E01890 VA: 0x181E03290 Slot: 12
+	// RVA: 0x1E030D0 Offset: 0x1E016D0 VA: 0x181E030D0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E032B0 Offset: 0x1E018B0 VA: 0x181E032B0 Slot: 13
+	// RVA: 0x1E030F0 Offset: 0x1E016F0 VA: 0x181E030F0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ResearchTable previous) { }
 
-	// RVA: 0x1E02DA0 Offset: 0x1E013A0 VA: 0x181E02DA0 Slot: 14
+	// RVA: 0x1E02BE0 Offset: 0x1E011E0 VA: 0x181E02BE0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E02B90 Offset: 0x1E01190 VA: 0x181E02B90
+	// RVA: 0x1E029D0 Offset: 0x1E00FD0 VA: 0x181E029D0
 	public static ResearchTable Deserialize(byte[] buffer, ResearchTable instance, bool isDelta = False) { }
 
-	// RVA: 0x1E029C0 Offset: 0x1E00FC0 VA: 0x181E029C0
+	// RVA: 0x1E02800 Offset: 0x1E00E00 VA: 0x181E02800
 	public static ResearchTable Deserialize(Stream stream, ResearchTable instance, bool isDelta) { }
 
-	// RVA: 0x1E023F0 Offset: 0x1E009F0 VA: 0x181E023F0
+	// RVA: 0x1E02230 Offset: 0x1E00830 VA: 0x181E02230
 	public static ResearchTable DeserializeLengthDelimited(Stream stream, ResearchTable instance, bool isDelta) { }
 
-	// RVA: 0x1E02610 Offset: 0x1E00C10 VA: 0x181E02610
+	// RVA: 0x1E02450 Offset: 0x1E00A50 VA: 0x181E02450
 	public static ResearchTable DeserializeLength(Stream stream, int length, ResearchTable instance, bool isDelta) { }
 
-	// RVA: 0x1E02EC0 Offset: 0x1E014C0 VA: 0x181E02EC0
+	// RVA: 0x1E02D00 Offset: 0x1E01300 VA: 0x181E02D00
 	public static void SerializeDelta(Stream stream, ResearchTable instance, ResearchTable previous) { }
 
-	// RVA: 0x1E031A0 Offset: 0x1E017A0 VA: 0x181E031A0
+	// RVA: 0x1E02FE0 Offset: 0x1E015E0 VA: 0x181E02FE0
 	public static void Serialize(Stream stream, ResearchTable instance) { }
 
-	// RVA: 0x1E03280 Offset: 0x1E01880 VA: 0x181E03280
+	// RVA: 0x1E030C0 Offset: 0x1E016C0 VA: 0x181E030C0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E03290 Offset: 0x1E01890 VA: 0x181E03290
+	// RVA: 0x1E030D0 Offset: 0x1E016D0 VA: 0x181E030D0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E03090 Offset: 0x1E01690 VA: 0x181E03090
+	// RVA: 0x1E02ED0 Offset: 0x1E014D0 VA: 0x181E02ED0
 	public static byte[] SerializeToBytes(ResearchTable instance) { }
 
-	// RVA: 0x1E02FE0 Offset: 0x1E015E0 VA: 0x181E02FE0
+	// RVA: 0x1E02E20 Offset: 0x1E01420 VA: 0x181E02E20
 	public static void SerializeLengthDelimited(Stream stream, ResearchTable instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80

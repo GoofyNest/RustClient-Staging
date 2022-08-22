@@ -58,19 +58,19 @@ private struct SpecialPurposeCamera.RenderEntry : IEquatable<SpecialPurposeCamer
 
 	// Methods
 
-	// RVA: 0xFC3E0 Offset: 0xFB7E0 VA: 0x1800FC3E0
+	// RVA: 0xFC360 Offset: 0xFB760 VA: 0x1800FC360
 	public void .ctor(Transform transform, Mesh mesh, Material material, bool billboard) { }
 
-	// RVA: 0xFC440 Offset: 0xFB840 VA: 0x1800FC440
+	// RVA: 0xFC3C0 Offset: 0xFB7C0 VA: 0x1800FC3C0
 	public Matrix4x4 get_matrix() { }
 
-	// RVA: 0xF2D10 Offset: 0xF2110 VA: 0x1800F2D10 Slot: 2
+	// RVA: 0xF2C90 Offset: 0xF2090 VA: 0x1800F2C90 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0xFC340 Offset: 0xFB740 VA: 0x1800FC340 Slot: 0
+	// RVA: 0xFC2C0 Offset: 0xFB6C0 VA: 0x1800FC2C0 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0xFC310 Offset: 0xFB710 VA: 0x1800FC310 Slot: 4
+	// RVA: 0xFC290 Offset: 0xFB690 VA: 0x1800FC290 Slot: 4
 	public bool Equals(SpecialPurposeCamera.RenderEntry other) { }
 
 	// RVA: 0xA748E0 Offset: 0xA72EE0 VA: 0x180A748E0

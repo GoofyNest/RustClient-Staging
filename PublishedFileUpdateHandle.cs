@@ -7,19 +7,19 @@ internal struct PublishedFileUpdateHandle_t : IEquatable<PublishedFileUpdateHand
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
 	public static PublishedFileUpdateHandle_t op_Implicit(ulong value) { }
 
-	// RVA: 0x123240 Offset: 0x122640 VA: 0x180123240 Slot: 3
+	// RVA: 0x1231C0 Offset: 0x1225C0 VA: 0x1801231C0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1D8C30 Offset: 0x1D8030 VA: 0x1801D8C30 Slot: 2
+	// RVA: 0x1D8BB0 Offset: 0x1D7FB0 VA: 0x1801D8BB0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1EC740 Offset: 0x1EBB40 VA: 0x1801EC740 Slot: 0
+	// RVA: 0x1EC6C0 Offset: 0x1EBAC0 VA: 0x1801EC6C0 Slot: 0
 	public override bool Equals(object p) { }
 
-	// RVA: 0x1D8BB0 Offset: 0x1D7FB0 VA: 0x1801D8BB0 Slot: 4
+	// RVA: 0x1D8B30 Offset: 0x1D7F30 VA: 0x1801D8B30 Slot: 4
 	public bool Equals(PublishedFileUpdateHandle_t p) { }
 
-	// RVA: 0x1D8BA0 Offset: 0x1D7FA0 VA: 0x1801D8BA0 Slot: 5
+	// RVA: 0x1D8B20 Offset: 0x1D7F20 VA: 0x1801D8B20 Slot: 5
 	public int CompareTo(PublishedFileUpdateHandle_t other) { }
 
 }

@@ -96,10 +96,10 @@ public struct ArgIterator // TypeDefIndex: 347
 
 	// Methods
 
-	// RVA: 0x1F1F90 Offset: 0x1F1390 VA: 0x1801F1F90 Slot: 0
+	// RVA: 0x1F1F10 Offset: 0x1F1310 VA: 0x1801F1F10 Slot: 0
 	public override bool Equals(object o) { }
 
-	// RVA: 0x14C550 Offset: 0x14B950 VA: 0x18014C550 Slot: 2
+	// RVA: 0x14C4D0 Offset: 0x14B8D0 VA: 0x18014C4D0 Slot: 2
 	public override int GetHashCode() { }
 
 }
@@ -130,22 +130,22 @@ internal class ArgInfo // TypeDefIndex: 1222
 
 internal class ArgumentCache : ISerializationCallbackReceiver // TypeDefIndex: 3626
 {	// Fields
-	[SerializeField] // RVA: 0xDF0B0 Offset: 0xDE4B0 VA: 0x1800DF0B0
-	[FormerlySerializedAsAttribute] // RVA: 0xDF0B0 Offset: 0xDE4B0 VA: 0x1800DF0B0
+	[FormerlySerializedAsAttribute] // RVA: 0xDF110 Offset: 0xDE510 VA: 0x1800DF110
+	[SerializeField] // RVA: 0xDF110 Offset: 0xDE510 VA: 0x1800DF110
 	private Object m_ObjectArgument; // 0x10
-	[SerializeField] // RVA: 0xDF210 Offset: 0xDE610 VA: 0x1800DF210
-	[FormerlySerializedAsAttribute] // RVA: 0xDF210 Offset: 0xDE610 VA: 0x1800DF210
+	[FormerlySerializedAsAttribute] // RVA: 0xDF280 Offset: 0xDE680 VA: 0x1800DF280
+	[SerializeField] // RVA: 0xDF280 Offset: 0xDE680 VA: 0x1800DF280
 	private string m_ObjectArgumentAssemblyTypeName; // 0x18
-	[FormerlySerializedAsAttribute] // RVA: 0xDF340 Offset: 0xDE740 VA: 0x1800DF340
-	[SerializeField] // RVA: 0xDF340 Offset: 0xDE740 VA: 0x1800DF340
+	[SerializeField] // RVA: 0xDF3C0 Offset: 0xDE7C0 VA: 0x1800DF3C0
+	[FormerlySerializedAsAttribute] // RVA: 0xDF3C0 Offset: 0xDE7C0 VA: 0x1800DF3C0
 	private int m_IntArgument; // 0x20
-	[SerializeField] // RVA: 0xDF510 Offset: 0xDE910 VA: 0x1800DF510
-	[FormerlySerializedAsAttribute] // RVA: 0xDF510 Offset: 0xDE910 VA: 0x1800DF510
+	[FormerlySerializedAsAttribute] // RVA: 0xDF580 Offset: 0xDE980 VA: 0x1800DF580
+	[SerializeField] // RVA: 0xDF580 Offset: 0xDE980 VA: 0x1800DF580
 	private float m_FloatArgument; // 0x24
-	[FormerlySerializedAsAttribute] // RVA: 0xDF550 Offset: 0xDE950 VA: 0x1800DF550
-	[SerializeField] // RVA: 0xDF550 Offset: 0xDE950 VA: 0x1800DF550
+	[FormerlySerializedAsAttribute] // RVA: 0xDF5D0 Offset: 0xDE9D0 VA: 0x1800DF5D0
+	[SerializeField] // RVA: 0xDF5D0 Offset: 0xDE9D0 VA: 0x1800DF5D0
 	private string m_StringArgument; // 0x28
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_BoolArgument; // 0x30
 
 	// Properties
@@ -193,7 +193,7 @@ internal class ArgumentCache : ISerializationCallbackReceiver // TypeDefIndex: 3
 public static class ArgEx // TypeDefIndex: 11695
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x9ECB20 Offset: 0x9EB120 VA: 0x1809ECB20
 	public static BasePlayer GetPlayer_Clientside(ConsoleSystem.Arg arg, int iArgNum) { }
 

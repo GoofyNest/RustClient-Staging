@@ -13,10 +13,10 @@ internal struct GetAppDependenciesResult_t : ICallbackData // TypeDefIndex: 5445
 
 	// Methods
 
-	// RVA: 0x1E8D60 Offset: 0x1E8160 VA: 0x1801E8D60 Slot: 5
+	// RVA: 0x1E8CE0 Offset: 0x1E80E0 VA: 0x1801E8CE0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E8D50 Offset: 0x1E8150 VA: 0x1801E8D50 Slot: 4
+	// RVA: 0x1E8CD0 Offset: 0x1E80D0 VA: 0x1801E8CD0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x13716F0 Offset: 0x136FCF0 VA: 0x1813716F0

@@ -1,12 +1,12 @@
 public class SpawnPopulation : BaseScriptableObject // TypeDefIndex: 9995
 {	// Fields
-	[HeaderAttribute] // RVA: 0xAC7A0 Offset: 0xABBA0 VA: 0x1800AC7A0
+	[HeaderAttribute] // RVA: 0xAC840 Offset: 0xABC40 VA: 0x1800AC840
 	public string ResourceFolder; // 0x20
 	public GameObjectRef[] ResourceList; // 0x28
-	[HeaderAttribute] // RVA: 0xAC890 Offset: 0xABC90 VA: 0x1800AC890
-	[TooltipAttribute] // RVA: 0xAC890 Offset: 0xABC90 VA: 0x1800AC890
-	[SerializeField] // RVA: 0xAC890 Offset: 0xABC90 VA: 0x1800AC890
-	[FormerlySerializedAsAttribute] // RVA: 0xAC890 Offset: 0xABC90 VA: 0x1800AC890
+	[HeaderAttribute] // RVA: 0xAC990 Offset: 0xABD90 VA: 0x1800AC990
+	[TooltipAttribute] // RVA: 0xAC990 Offset: 0xABD90 VA: 0x1800AC990
+	[SerializeField] // RVA: 0xAC990 Offset: 0xABD90 VA: 0x1800AC990
+	[FormerlySerializedAsAttribute] // RVA: 0xAC990 Offset: 0xABD90 VA: 0x1800AC990
 	private float _targetDensity; // 0x30
 	public float SpawnRate; // 0x34
 	public int ClusterSizeMin; // 0x38

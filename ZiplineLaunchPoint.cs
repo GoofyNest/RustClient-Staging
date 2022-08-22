@@ -19,54 +19,54 @@ public class ZiplineLaunchPoint : BaseEntity // TypeDefIndex: 8489
 
 	// Methods
 
-	// RVA: 0x1AA3590 Offset: 0x1AA1B90 VA: 0x181AA3590 Slot: 49
+	// RVA: 0x1A8D200 Offset: 0x1A8B800 VA: 0x181A8D200 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x1AA4C80 Offset: 0x1AA3280 VA: 0x181AA4C80 Slot: 50
+	// RVA: 0x1A8E8F0 Offset: 0x1A8CEF0 VA: 0x181A8E8F0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x1AA3D70 Offset: 0x1AA2370 VA: 0x181AA3D70 Slot: 35
+	// RVA: 0x1A8D9E0 Offset: 0x1A8BFE0 VA: 0x181A8D9E0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x1AA3E60 Offset: 0x1AA2460 VA: 0x181AA3E60 Slot: 27
+	// RVA: 0x1A8DAD0 Offset: 0x1A8C0D0 VA: 0x181A8DAD0 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0x1AA4960 Offset: 0x1AA2F60 VA: 0x181AA4960
+	// RVA: 0x1A8E5D0 Offset: 0x1A8CBD0 VA: 0x181A8E5D0
 	private void UpdateLineRenderer(bool force = False) { }
 
-	[BaseEntity.Menu] // RVA: 0x9D3E0 Offset: 0x9C7E0 VA: 0x18009D3E0
-	[BaseEntity.Menu.Description] // RVA: 0x9D3E0 Offset: 0x9C7E0 VA: 0x18009D3E0
-	[BaseEntity.Menu.Icon] // RVA: 0x9D3E0 Offset: 0x9C7E0 VA: 0x18009D3E0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x9D3E0 Offset: 0x9C7E0 VA: 0x18009D3E0
-	// RVA: 0x1AA3B80 Offset: 0x1AA2180 VA: 0x181AA3B80
+	[BaseEntity.Menu] // RVA: 0x9D470 Offset: 0x9C870 VA: 0x18009D470
+	[BaseEntity.Menu.Description] // RVA: 0x9D470 Offset: 0x9C870 VA: 0x18009D470
+	[BaseEntity.Menu.Icon] // RVA: 0x9D470 Offset: 0x9C870 VA: 0x18009D470
+	[BaseEntity.Menu.ShowIf] // RVA: 0x9D470 Offset: 0x9C870 VA: 0x18009D470
+	// RVA: 0x1A8D7F0 Offset: 0x1A8BDF0 VA: 0x181A8D7F0
 	private void Menu_MountZipline(BasePlayer player) { }
 
-	// RVA: 0x1AA3BC0 Offset: 0x1AA21C0 VA: 0x181AA3BC0
+	// RVA: 0x1A8D830 Offset: 0x1A8BE30 VA: 0x181A8D830
 	private bool Menu_Mount_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x1AA39A0 Offset: 0x1AA1FA0 VA: 0x181AA39A0 Slot: 34
+	// RVA: 0x1A8D610 Offset: 0x1A8BC10 VA: 0x181A8D610 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x1AA3210 Offset: 0x1AA1810 VA: 0x181AA3210
+	// RVA: 0x1A8CE80 Offset: 0x1A8B480 VA: 0x181A8CE80
 	private void CalculateZiplinePoints(List<Vector3> targets, ref List<Vector3> points) { }
 
-	// RVA: 0x1AA3120 Offset: 0x1AA1720 VA: 0x181AA3120
+	// RVA: 0x1A8CD90 Offset: 0x1A8B390 VA: 0x181A8CD90
 	private Vector3 CalculateLineMidPoint(Vector3 start, Vector3 endPoint) { }
 
-	// RVA: 0x1AA4420 Offset: 0x1AA2A20 VA: 0x181AA4420
+	// RVA: 0x1A8E090 Offset: 0x1A8C690 VA: 0x181A8E090
 	private void UpdateBuildingBlocks() { }
 
-	// RVA: 0x1AA38A0 Offset: 0x1AA1EA0 VA: 0x181AA38A0
+	// RVA: 0x1A8D510 Offset: 0x1A8BB10 VA: 0x181A8D510
 	private bool IsPlayerFacingValidDirection(BasePlayer ply) { }
 
-	// RVA: 0x1AA33F0 Offset: 0x1AA19F0 VA: 0x181AA33F0
+	// RVA: 0x1A8D060 Offset: 0x1A8B660 VA: 0x181A8D060
 	public float GetLineLength() { }
 
-	// RVA: 0x1AA4BE0 Offset: 0x1AA31E0 VA: 0x181AA4BE0
+	// RVA: 0x1A8E850 Offset: 0x1A8CE50 VA: 0x181A8E850
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1AA3F10 Offset: 0x1AA2510 VA: 0x181AA3F10
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1A8DB80 Offset: 0x1A8C180 VA: 0x181A8DB80
 	private void <UpdateBuildingBlocks>g__SetUpBuildingBlock|24_0(BoxCollider longCollider, BoxCollider pointCollider, int startIndex, int endIndex) { }
 
 }

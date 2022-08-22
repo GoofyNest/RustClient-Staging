@@ -1,38 +1,38 @@
 public abstract class GroundVehicleAudio : MonoBehaviour, IClientComponent // TypeDefIndex: 9712
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected GroundVehicle groundVehicle; // 0x18
-	[HeaderAttribute] // RVA: 0x87D60 Offset: 0x87160 VA: 0x180087D60
-	[SerializeField] // RVA: 0x87D60 Offset: 0x87160 VA: 0x180087D60
+	[HeaderAttribute] // RVA: 0x87DD0 Offset: 0x871D0 VA: 0x180087DD0
+	[SerializeField] // RVA: 0x87DD0 Offset: 0x871D0 VA: 0x180087DD0
 	private SoundDefinition engineStartSound; // 0x20
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition engineStopSound; // 0x28
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition engineStartFailSound; // 0x30
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BlendedLoopEngineSound blendedEngineLoops; // 0x38
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float wheelRatioMultiplier; // 0x40
-	[HeaderAttribute] // RVA: 0x88490 Offset: 0x87890 VA: 0x180088490
-	[SerializeField] // RVA: 0x88490 Offset: 0x87890 VA: 0x180088490
+	[HeaderAttribute] // RVA: 0x88500 Offset: 0x87900 VA: 0x180088500
+	[SerializeField] // RVA: 0x88500 Offset: 0x87900 VA: 0x180088500
 	private SoundDefinition waterSplashSoundDef; // 0x48
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BlendedSoundLoops waterLoops; // 0x50
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float waterSoundsMaxSpeed; // 0x58
-	[HeaderAttribute] // RVA: 0x88990 Offset: 0x87D90 VA: 0x180088990
-	[SerializeField] // RVA: 0x88990 Offset: 0x87D90 VA: 0x180088990
+	[HeaderAttribute] // RVA: 0x88AE0 Offset: 0x87EE0 VA: 0x180088AE0
+	[SerializeField] // RVA: 0x88AE0 Offset: 0x87EE0 VA: 0x180088AE0
 	private SoundDefinition brakeSoundDef; // 0x60
-	[HeaderAttribute] // RVA: 0x88B80 Offset: 0x87F80 VA: 0x180088B80
-	[SerializeField] // RVA: 0x88B80 Offset: 0x87F80 VA: 0x180088B80
+	[HeaderAttribute] // RVA: 0x88BF0 Offset: 0x87FF0 VA: 0x180088BF0
+	[SerializeField] // RVA: 0x88BF0 Offset: 0x87FF0 VA: 0x180088BF0
 	private SoundDefinition lightsToggleSound; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <CameraDistance>k__BackingField; // 0x70
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <inWater>k__BackingField; // 0x74
 	private Sound brakeSound; // 0x78
 	private bool wasInWater; // 0x80
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <engineRpm>k__BackingField; // 0x84
 	private float engineRpmDamp; // 0x88
 	private float wheelsRpm; // 0x8C
@@ -48,19 +48,19 @@ public abstract class GroundVehicleAudio : MonoBehaviour, IClientComponent // Ty
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C33C0 Offset: 0x5C19C0 VA: 0x1805C33C0
 	protected float get_CameraDistance() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C35A0 Offset: 0x5C1BA0 VA: 0x1805C35A0
 	private void set_CameraDistance(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xCA6AA0 Offset: 0xCA50A0 VA: 0x180CA6AA0
 	protected bool get_inWater() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xCA6AC0 Offset: 0xCA50C0 VA: 0x180CA6AC0
 	private void set_inWater(bool value) { }
 
@@ -70,11 +70,11 @@ public abstract class GroundVehicleAudio : MonoBehaviour, IClientComponent // Ty
 	// RVA: -1 Offset: -1 Slot: 5
 	protected abstract void set_EngineAudioSet(EngineAudioSet value);
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xCA6A90 Offset: 0xCA5090 VA: 0x180CA6A90
 	public float get_engineRpm() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xCA6AB0 Offset: 0xCA50B0 VA: 0x180CA6AB0
 	private void set_engineRpm(float value) { }
 

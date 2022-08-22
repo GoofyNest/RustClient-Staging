@@ -44,14 +44,14 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	// RVA: 0x1462600 Offset: 0x1460C00 VA: 0x181462600
 	public void .ctor(int capacity, float loadFactor) { }
 
-	[ObsoleteAttribute] // RVA: 0xE7730 Offset: 0xE6B30 VA: 0x1800E7730
+	[ObsoleteAttribute] // RVA: 0xE7790 Offset: 0xE6B90 VA: 0x1800E7790
 	// RVA: 0x1462880 Offset: 0x1460E80 VA: 0x181462880
 	public void .ctor(int capacity, float loadFactor, IHashCodeProvider hcp, IComparer comparer) { }
 
 	// RVA: 0x1462530 Offset: 0x1460B30 VA: 0x181462530
 	public void .ctor(int capacity, float loadFactor, IEqualityComparer equalityComparer) { }
 
-	[ObsoleteAttribute] // RVA: 0xE77D0 Offset: 0xE6BD0 VA: 0x1800E77D0
+	[ObsoleteAttribute] // RVA: 0xE7800 Offset: 0xE6C00 VA: 0x1800E7800
 	// RVA: 0x1462950 Offset: 0x1460F50 VA: 0x181462950
 	public void .ctor(IHashCodeProvider hcp, IComparer comparer) { }
 
@@ -70,7 +70,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	// RVA: 0x14600D0 Offset: 0x145E6D0 VA: 0x1814600D0 Slot: 21
 	public virtual void Add(object key, object value) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x14600F0 Offset: 0x145E6F0 VA: 0x1814600F0 Slot: 22
 	public virtual void Clear() { }
 
@@ -110,7 +110,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	// RVA: 0x1462450 Offset: 0x1460A50 VA: 0x181462450
 	private void UpdateVersion() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83CE0 Offset: 0x830E0 VA: 0x180083CE0
+	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
 	// RVA: 0x1463010 Offset: 0x1461610 VA: 0x181463010
 	private void rehash(int newsize, bool forceNewHashCode) { }
 
@@ -135,14 +135,14 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	// RVA: 0x1462E10 Offset: 0x1461410 VA: 0x181462E10 Slot: 34
 	public virtual ICollection get_Values() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83CE0 Offset: 0x830E0 VA: 0x180083CE0
+	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
 	// RVA: 0x1461090 Offset: 0x145F690 VA: 0x181461090
 	private void Insert(object key, object nvalue, bool add) { }
 
 	// RVA: 0x1462EA0 Offset: 0x14614A0 VA: 0x181462EA0
 	private void putEntry(Hashtable.bucket[] newBuckets, object key, object nvalue, int hashcode) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83CE0 Offset: 0x830E0 VA: 0x180083CE0
+	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
 	// RVA: 0x1462040 Offset: 0x1460640 VA: 0x181462040 Slot: 35
 	public virtual void Remove(object key) { }
 

@@ -8,7 +8,7 @@ public struct ERCPUpdate // TypeDefIndex: 7232
 
 	// Methods
 
-	// RVA: 0xFD170 Offset: 0xFC570 VA: 0x1800FD170
+	// RVA: 0xFD0F0 Offset: 0xFC4F0 VA: 0x1800FD0F0
 	public void .ctor(ERModularRoad v_road, ERCrossingPrefabs v_prefab, int v_startEnd, int v_connection, Vector3 v_cp) { }
 
 }

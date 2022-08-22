@@ -4,15 +4,15 @@ public abstract class Decoder // TypeDefIndex: 433
 	internal DecoderFallbackBuffer m_fallbackBuffer; // 0x18
 
 	// Properties
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public DecoderFallback Fallback { get; }
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public DecoderFallbackBuffer FallbackBuffer { get; }
 	internal bool InternalHasFallbackBuffer { get; }
 
 	// Methods
 
-	// RVA: 0x18ADDF0 Offset: 0x18AC3F0 VA: 0x1818ADDF0
+	// RVA: 0x18ADDB0 Offset: 0x18AC3B0 VA: 0x1818ADDB0
 	internal void SerializeDecoder(SerializationInfo info) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -21,46 +21,46 @@ public abstract class Decoder // TypeDefIndex: 433
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public DecoderFallback get_Fallback() { }
 
-	// RVA: 0x18ADE50 Offset: 0x18AC450 VA: 0x1818ADE50
+	// RVA: 0x18ADE10 Offset: 0x18AC410 VA: 0x1818ADE10
 	public DecoderFallbackBuffer get_FallbackBuffer() { }
 
 	// RVA: 0x17CB140 Offset: 0x17C9740 VA: 0x1817CB140
 	internal bool get_InternalHasFallbackBuffer() { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
-	// RVA: 0x18ADD20 Offset: 0x18AC320 VA: 0x1818ADD20 Slot: 4
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	// RVA: 0x18ADCE0 Offset: 0x18AC2E0 VA: 0x1818ADCE0 Slot: 4
 	public virtual void Reset() { }
 
 	// RVA: -1 Offset: -1 Slot: 5
 	public abstract int GetCharCount(byte[] bytes, int index, int count);
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
-	// RVA: 0x18ADAB0 Offset: 0x18AC0B0 VA: 0x1818ADAB0 Slot: 6
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	// RVA: 0x18ADA70 Offset: 0x18AC070 VA: 0x1818ADA70 Slot: 6
 	public virtual int GetCharCount(byte[] bytes, int index, int count, bool flush) { }
 
-	[ComVisibleAttribute] // RVA: 0x902E0 Offset: 0x8F6E0 VA: 0x1800902E0
-	[CLSCompliantAttribute] // RVA: 0x902E0 Offset: 0x8F6E0 VA: 0x1800902E0
-	// RVA: 0x18AD960 Offset: 0x18ABF60 VA: 0x1818AD960 Slot: 7
+	[ComVisibleAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
+	[CLSCompliantAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
+	// RVA: 0x18AD920 Offset: 0x18ABF20 VA: 0x1818AD920 Slot: 7
 	public virtual int GetCharCount(byte* bytes, int count, bool flush) { }
 
 	// RVA: -1 Offset: -1 Slot: 8
 	public abstract int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex);
 
-	// RVA: 0x18ADD00 Offset: 0x18AC300 VA: 0x1818ADD00 Slot: 9
+	// RVA: 0x18ADCC0 Offset: 0x18AC2C0 VA: 0x1818ADCC0 Slot: 9
 	public virtual int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex, bool flush) { }
 
-	[CLSCompliantAttribute] // RVA: 0x90730 Offset: 0x8FB30 VA: 0x180090730
-	[ComVisibleAttribute] // RVA: 0x90730 Offset: 0x8FB30 VA: 0x180090730
-	// RVA: 0x18ADAD0 Offset: 0x18AC0D0 VA: 0x1818ADAD0 Slot: 10
+	[CLSCompliantAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
+	[ComVisibleAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
+	// RVA: 0x18ADA90 Offset: 0x18AC090 VA: 0x1818ADA90 Slot: 10
 	public virtual int GetChars(byte* bytes, int byteCount, char* chars, int charCount, bool flush) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
-	// RVA: 0x18AD5F0 Offset: 0x18ABBF0 VA: 0x1818AD5F0 Slot: 11
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	// RVA: 0x18AD5B0 Offset: 0x18ABBB0 VA: 0x1818AD5B0 Slot: 11
 	public virtual void Convert(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex, int charCount, bool flush, out int bytesUsed, out int charsUsed, out bool completed) { }
 
-	[ComVisibleAttribute] // RVA: 0x902E0 Offset: 0x8F6E0 VA: 0x1800902E0
-	[CLSCompliantAttribute] // RVA: 0x902E0 Offset: 0x8F6E0 VA: 0x1800902E0
-	// RVA: 0x18AD3B0 Offset: 0x18AB9B0 VA: 0x1818AD3B0 Slot: 12
+	[ComVisibleAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
+	[CLSCompliantAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
+	// RVA: 0x18AD370 Offset: 0x18AB970 VA: 0x1818AD370 Slot: 12
 	public virtual void Convert(byte* bytes, int byteCount, char* chars, int charCount, bool flush, out int bytesUsed, out int charsUsed, out bool completed) { }
 
 }

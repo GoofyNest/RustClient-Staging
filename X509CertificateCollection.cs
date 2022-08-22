@@ -63,13 +63,13 @@ public class X509CertificateCollection : CollectionBase, IEnumerable // TypeDefI
 	// RVA: 0x105CC80 Offset: 0x105B280 VA: 0x18105CC80
 	public void .ctor() { }
 
-	// RVA: 0x227DE10 Offset: 0x227C410 VA: 0x18227DE10
+	// RVA: 0x227DC50 Offset: 0x227C250 VA: 0x18227DC50
 	public X509Certificate get_Item(int index) { }
 
-	// RVA: 0x227DCD0 Offset: 0x227C2D0 VA: 0x18227DCD0
+	// RVA: 0x227DB10 Offset: 0x227C110 VA: 0x18227DB10
 	public int Add(X509Certificate value) { }
 
-	// RVA: 0x227DD70 Offset: 0x227C370 VA: 0x18227DD70
+	// RVA: 0x227DBB0 Offset: 0x227C1B0 VA: 0x18227DBB0
 	public X509CertificateCollection.X509CertificateEnumerator GetEnumerator() { }
 
 	// RVA: 0x1568C00 Offset: 0x1567200 VA: 0x181568C00 Slot: 18
@@ -90,22 +90,22 @@ public class X509CertificateCollection.X509CertificateEnumerator : IEnumerator /
 
 	// Methods
 
-	// RVA: 0x227E000 Offset: 0x227C600 VA: 0x18227E000
+	// RVA: 0x227DE40 Offset: 0x227C440 VA: 0x18227DE40
 	public void .ctor(X509CertificateCollection mappings) { }
 
-	// RVA: 0x227E070 Offset: 0x227C670 VA: 0x18227E070
+	// RVA: 0x227DEB0 Offset: 0x227C4B0 VA: 0x18227DEB0
 	public X509Certificate get_Current() { }
 
-	// RVA: 0x227DFB0 Offset: 0x227C5B0 VA: 0x18227DFB0 Slot: 5
+	// RVA: 0x227DDF0 Offset: 0x227C3F0 VA: 0x18227DDF0 Slot: 5
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	// RVA: 0x227DF10 Offset: 0x227C510 VA: 0x18227DF10 Slot: 4
+	// RVA: 0x227DD50 Offset: 0x227C350 VA: 0x18227DD50 Slot: 4
 	private bool System.Collections.IEnumerator.MoveNext() { }
 
-	// RVA: 0x227DF60 Offset: 0x227C560 VA: 0x18227DF60 Slot: 6
+	// RVA: 0x227DDA0 Offset: 0x227C3A0 VA: 0x18227DDA0 Slot: 6
 	private void System.Collections.IEnumerator.Reset() { }
 
-	// RVA: 0x227DEC0 Offset: 0x227C4C0 VA: 0x18227DEC0
+	// RVA: 0x227DD00 Offset: 0x227C300 VA: 0x18227DD00
 	public bool MoveNext() { }
 
 }

@@ -30,10 +30,10 @@ public class FreeableLootContainer : LootContainer // TypeDefIndex: 8393
 	// RVA: 0x754D30 Offset: 0x753330 VA: 0x180754D30 Slot: 153
 	public override bool ShouldShowLootMenus() { }
 
-	[BaseEntity.Menu] // RVA: 0xE0330 Offset: 0xDF730 VA: 0x1800E0330
-	[BaseEntity.Menu.Description] // RVA: 0xE0330 Offset: 0xDF730 VA: 0x1800E0330
-	[BaseEntity.Menu.Icon] // RVA: 0xE0330 Offset: 0xDF730 VA: 0x1800E0330
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE0330 Offset: 0xDF730 VA: 0x1800E0330
+	[BaseEntity.Menu] // RVA: 0xE03B0 Offset: 0xDF7B0 VA: 0x1800E03B0
+	[BaseEntity.Menu.Description] // RVA: 0xE03B0 Offset: 0xDF7B0 VA: 0x1800E03B0
+	[BaseEntity.Menu.Icon] // RVA: 0xE03B0 Offset: 0xDF7B0 VA: 0x1800E03B0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE03B0 Offset: 0xDF7B0 VA: 0x1800E03B0
 	// RVA: 0x754C00 Offset: 0x753200 VA: 0x180754C00
 	public void Menu_FreeCrate(BasePlayer player) { }
 

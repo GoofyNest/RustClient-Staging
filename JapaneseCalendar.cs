@@ -6,9 +6,9 @@ public class JapaneseCalendar : Calendar // TypeDefIndex: 712
 	internal GregorianCalendarHelper helper; // 0x20
 
 	// Properties
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public override DateTime MinSupportedDateTime { get; }
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public override DateTime MaxSupportedDateTime { get; }
 	internal override int ID { get; }
 	public override int[] Eras { get; }

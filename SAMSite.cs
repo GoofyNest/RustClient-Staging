@@ -6,13 +6,13 @@ public class SAMSite : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6345
 
 	// Methods
 
-	// RVA: 0x1E07230 Offset: 0x1E05830 VA: 0x181E07230
+	// RVA: 0x1E07070 Offset: 0x1E05670 VA: 0x181E07070
 	public static void ResetToPool(SAMSite instance) { }
 
-	// RVA: 0x1E071B0 Offset: 0x1E057B0 VA: 0x181E071B0
+	// RVA: 0x1E06FF0 Offset: 0x1E055F0 VA: 0x181E06FF0
 	public void ResetToPool() { }
 
-	// RVA: 0x1E07080 Offset: 0x1E05680 VA: 0x181E07080 Slot: 9
+	// RVA: 0x1E06EC0 Offset: 0x1E054C0 VA: 0x181E06EC0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -21,64 +21,64 @@ public class SAMSite : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6345
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DB8330 Offset: 0x1DB6930 VA: 0x181DB8330
+	// RVA: 0x1DB8170 Offset: 0x1DB6770 VA: 0x181DB8170
 	public void CopyTo(SAMSite instance) { }
 
-	// RVA: 0x1E06700 Offset: 0x1E04D00 VA: 0x181E06700
+	// RVA: 0x1E06540 Offset: 0x1E04B40 VA: 0x181E06540
 	public SAMSite Copy() { }
 
-	// RVA: 0x1E07000 Offset: 0x1E05600 VA: 0x181E07000
+	// RVA: 0x1E06E40 Offset: 0x1E05440 VA: 0x181E06E40
 	public static SAMSite Deserialize(Stream stream) { }
 
-	// RVA: 0x1E06770 Offset: 0x1E04D70 VA: 0x181E06770
+	// RVA: 0x1E065B0 Offset: 0x1E04BB0 VA: 0x181E065B0
 	public static SAMSite DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E06C00 Offset: 0x1E05200 VA: 0x181E06C00
+	// RVA: 0x1E06A40 Offset: 0x1E05040 VA: 0x181E06A40
 	public static SAMSite DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E06EE0 Offset: 0x1E054E0 VA: 0x181E06EE0
+	// RVA: 0x1E06D20 Offset: 0x1E05320 VA: 0x181E06D20
 	public static SAMSite Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E07170 Offset: 0x1E05770 VA: 0x181E07170
+	// RVA: 0x1E06FB0 Offset: 0x1E055B0 VA: 0x181E06FB0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E07830 Offset: 0x1E05E30 VA: 0x181E07830 Slot: 12
+	// RVA: 0x1E07670 Offset: 0x1E05C70 VA: 0x181E07670 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E07850 Offset: 0x1E05E50 VA: 0x181E07850 Slot: 13
+	// RVA: 0x1E07690 Offset: 0x1E05C90 VA: 0x181E07690 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, SAMSite previous) { }
 
-	// RVA: 0x1E07190 Offset: 0x1E05790 VA: 0x181E07190 Slot: 14
+	// RVA: 0x1E06FD0 Offset: 0x1E055D0 VA: 0x181E06FD0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E06C90 Offset: 0x1E05290 VA: 0x181E06C90
+	// RVA: 0x1E06AD0 Offset: 0x1E050D0 VA: 0x181E06AD0
 	public static SAMSite Deserialize(byte[] buffer, SAMSite instance, bool isDelta = False) { }
 
-	// RVA: 0x1E06D90 Offset: 0x1E05390 VA: 0x181E06D90
+	// RVA: 0x1E06BD0 Offset: 0x1E051D0 VA: 0x181E06BD0
 	public static SAMSite Deserialize(Stream stream, SAMSite instance, bool isDelta) { }
 
-	// RVA: 0x1E067F0 Offset: 0x1E04DF0 VA: 0x181E067F0
+	// RVA: 0x1E06630 Offset: 0x1E04C30 VA: 0x181E06630
 	public static SAMSite DeserializeLengthDelimited(Stream stream, SAMSite instance, bool isDelta) { }
 
-	// RVA: 0x1E06A10 Offset: 0x1E05010 VA: 0x181E06A10
+	// RVA: 0x1E06850 Offset: 0x1E04E50 VA: 0x181E06850
 	public static SAMSite DeserializeLength(Stream stream, int length, SAMSite instance, bool isDelta) { }
 
-	// RVA: 0x1E072B0 Offset: 0x1E058B0 VA: 0x181E072B0
+	// RVA: 0x1E070F0 Offset: 0x1E056F0 VA: 0x181E070F0
 	public static void SerializeDelta(Stream stream, SAMSite instance, SAMSite previous) { }
 
-	// RVA: 0x1E076B0 Offset: 0x1E05CB0 VA: 0x181E076B0
+	// RVA: 0x1E074F0 Offset: 0x1E05AF0 VA: 0x181E074F0
 	public static void Serialize(Stream stream, SAMSite instance) { }
 
-	// RVA: 0x1E07820 Offset: 0x1E05E20 VA: 0x181E07820
+	// RVA: 0x1E07660 Offset: 0x1E05C60 VA: 0x181E07660
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E07830 Offset: 0x1E05E30 VA: 0x181E07830
+	// RVA: 0x1E07670 Offset: 0x1E05C70 VA: 0x181E07670
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E075A0 Offset: 0x1E05BA0 VA: 0x181E075A0
+	// RVA: 0x1E073E0 Offset: 0x1E059E0 VA: 0x181E073E0
 	public static byte[] SerializeToBytes(SAMSite instance) { }
 
-	// RVA: 0x1E074F0 Offset: 0x1E05AF0 VA: 0x181E074F0
+	// RVA: 0x1E07330 Offset: 0x1E05930 VA: 0x181E07330
 	public static void SerializeLengthDelimited(Stream stream, SAMSite instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -107,7 +107,7 @@ public class SamSite : ContainerIOEntity // TypeDefIndex: 8441
 	public bool staticRespawn; // 0x490
 	public ItemDefinition ammoType; // 0x498
 	public Transform[] tubes; // 0x4A0
-	[ServerVar] // RVA: 0x81830 Offset: 0x80C30 VA: 0x180081830
+	[ServerVar] // RVA: 0x818B0 Offset: 0x80CB0 VA: 0x1800818B0
 	public static float staticrepairseconds; // 0x0
 	public SoundDefinition yawMovementLoopDef; // 0x4A8
 	public float yawGainLerp; // 0x4B0
@@ -165,20 +165,20 @@ public class SamSite : ContainerIOEntity // TypeDefIndex: 8441
 	// RVA: 0x49DC60 Offset: 0x49C260 VA: 0x18049DC60 Slot: 19
 	protected override void DoClientDestroy() { }
 
-	[BaseEntity.Menu] // RVA: 0x81910 Offset: 0x80D10 VA: 0x180081910
-	[BaseEntity.Menu.Description] // RVA: 0x81910 Offset: 0x80D10 VA: 0x180081910
-	[BaseEntity.Menu.Icon] // RVA: 0x81910 Offset: 0x80D10 VA: 0x180081910
-	[BaseEntity.Menu.ShowIf] // RVA: 0x81910 Offset: 0x80D10 VA: 0x180081910
+	[BaseEntity.Menu] // RVA: 0x81990 Offset: 0x80D90 VA: 0x180081990
+	[BaseEntity.Menu.Description] // RVA: 0x81990 Offset: 0x80D90 VA: 0x180081990
+	[BaseEntity.Menu.Icon] // RVA: 0x81990 Offset: 0x80D90 VA: 0x180081990
+	[BaseEntity.Menu.ShowIf] // RVA: 0x81990 Offset: 0x80D90 VA: 0x180081990
 	// RVA: 0x49E510 Offset: 0x49CB10 VA: 0x18049E510
 	private void Menu_EnableDefenderMode(BasePlayer player) { }
 
 	// RVA: 0x49E4B0 Offset: 0x49CAB0 VA: 0x18049E4B0
 	private bool Menu_EnableDefenderMode_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x81B20 Offset: 0x80F20 VA: 0x180081B20
-	[BaseEntity.Menu.Description] // RVA: 0x81B20 Offset: 0x80F20 VA: 0x180081B20
-	[BaseEntity.Menu.Icon] // RVA: 0x81B20 Offset: 0x80F20 VA: 0x180081B20
-	[BaseEntity.Menu.ShowIf] // RVA: 0x81B20 Offset: 0x80F20 VA: 0x180081B20
+	[BaseEntity.Menu] // RVA: 0x81B90 Offset: 0x80F90 VA: 0x180081B90
+	[BaseEntity.Menu.Description] // RVA: 0x81B90 Offset: 0x80F90 VA: 0x180081B90
+	[BaseEntity.Menu.Icon] // RVA: 0x81B90 Offset: 0x80F90 VA: 0x180081B90
+	[BaseEntity.Menu.ShowIf] // RVA: 0x81B90 Offset: 0x80F90 VA: 0x180081B90
 	// RVA: 0x49E460 Offset: 0x49CA60 VA: 0x18049E460
 	private void Menu_DisableDefenderMode(BasePlayer player) { }
 

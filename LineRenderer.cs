@@ -2,51 +2,51 @@ public sealed class LineRenderer : Renderer // TypeDefIndex: 3401
 {	// Properties
 	public Color startColor { set; }
 	public Color endColor { set; }
-	[NativePropertyAttribute] // RVA: 0x8E200 Offset: 0x8D600 VA: 0x18008E200
+	[NativePropertyAttribute] // RVA: 0x8E280 Offset: 0x8D680 VA: 0x18008E280
 	public int positionCount { get; set; }
 
 	// Methods
 
-	[ObsoleteAttribute] // RVA: 0x8DEA0 Offset: 0x8D2A0 VA: 0x18008DEA0
-	// RVA: 0x18EA7A0 Offset: 0x18E8DA0 VA: 0x1818EA7A0
+	[ObsoleteAttribute] // RVA: 0x8DF20 Offset: 0x8D320 VA: 0x18008DF20
+	// RVA: 0x18EA760 Offset: 0x18E8D60 VA: 0x1818EA760
 	public void SetColors(Color start, Color end) { }
 
-	// RVA: 0x18EAA80 Offset: 0x18E9080 VA: 0x1818EAA80
+	// RVA: 0x18EAA40 Offset: 0x18E9040 VA: 0x1818EAA40
 	public void set_startColor(Color value) { }
 
-	// RVA: 0x18EA9A0 Offset: 0x18E8FA0 VA: 0x1818EA9A0
+	// RVA: 0x18EA960 Offset: 0x18E8F60 VA: 0x1818EA960
 	public void set_endColor(Color value) { }
 
-	// RVA: 0x18EA910 Offset: 0x18E8F10 VA: 0x1818EA910
+	// RVA: 0x18EA8D0 Offset: 0x18E8ED0 VA: 0x1818EA8D0
 	public int get_positionCount() { }
 
-	// RVA: 0x18EA9F0 Offset: 0x18E8FF0 VA: 0x1818EA9F0
+	// RVA: 0x18EA9B0 Offset: 0x18E8FB0 VA: 0x1818EA9B0
 	public void set_positionCount(int value) { }
 
-	// RVA: 0x18EA870 Offset: 0x18E8E70 VA: 0x1818EA870
+	// RVA: 0x18EA830 Offset: 0x18E8E30 VA: 0x1818EA830
 	public void SetPosition(int index, Vector3 position) { }
 
-	// RVA: 0x18EA6F0 Offset: 0x18E8CF0 VA: 0x1818EA6F0
+	// RVA: 0x18EA6B0 Offset: 0x18E8CB0 VA: 0x1818EA6B0
 	public Vector3 GetPosition(int index) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8DF00 Offset: 0x8D300 VA: 0x18008DF00
-	// RVA: 0x18EA750 Offset: 0x18E8D50 VA: 0x1818EA750
+	[FreeFunctionAttribute] // RVA: 0x8DF80 Offset: 0x8D380 VA: 0x18008DF80
+	// RVA: 0x18EA710 Offset: 0x18E8D10 VA: 0x1818EA710
 	public int GetPositions([Out] Vector3[] positions) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8DFE0 Offset: 0x8D3E0 VA: 0x18008DFE0
-	// RVA: 0x18EA8C0 Offset: 0x18E8EC0 VA: 0x1818EA8C0
+	[FreeFunctionAttribute] // RVA: 0x8E060 Offset: 0x8D460 VA: 0x18008E060
+	// RVA: 0x18EA880 Offset: 0x18E8E80 VA: 0x1818EA880
 	public void SetPositions(Vector3[] positions) { }
 
-	// RVA: 0x18EAA30 Offset: 0x18E9030 VA: 0x1818EAA30
+	// RVA: 0x18EA9F0 Offset: 0x18E8FF0 VA: 0x1818EA9F0
 	private void set_startColor_Injected(ref Color value) { }
 
-	// RVA: 0x18EA950 Offset: 0x18E8F50 VA: 0x1818EA950
+	// RVA: 0x18EA910 Offset: 0x18E8F10 VA: 0x1818EA910
 	private void set_endColor_Injected(ref Color value) { }
 
-	// RVA: 0x18EA820 Offset: 0x18E8E20 VA: 0x1818EA820
+	// RVA: 0x18EA7E0 Offset: 0x18E8DE0 VA: 0x1818EA7E0
 	private void SetPosition_Injected(int index, ref Vector3 position) { }
 
-	// RVA: 0x18EA6A0 Offset: 0x18E8CA0 VA: 0x1818EA6A0
+	// RVA: 0x18EA660 Offset: 0x18E8C60 VA: 0x1818EA660
 	private void GetPosition_Injected(int index, out Vector3 ret) { }
 
 }

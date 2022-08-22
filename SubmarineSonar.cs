@@ -1,20 +1,20 @@
 public class SubmarineSonar : FacepunchBehaviour // TypeDefIndex: 11679
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float range; // 0x18
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem sonarPS; // 0x20
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem blipPS; // 0x28
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SonarObject us; // 0x30
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Color greenBlip; // 0x38
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Color redBlip; // 0x48
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Color whiteBlip; // 0x58
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SubmarineAudio submarineAudio; // 0x68
 	private List<SubmarineSonar.SonarBlip> currentlyInRange; // 0x70
 	private float rangeSqr; // 0x78
@@ -52,11 +52,11 @@ public class SubmarineSonar : FacepunchBehaviour // TypeDefIndex: 11679
 	// RVA: 0x5C4580 Offset: 0x5C2B80 VA: 0x1805C4580
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C3ED0 Offset: 0x5C24D0 VA: 0x1805C3ED0
 	private float <UpdateTick>g__GetCurrentBlipAngle|20_0(SubmarineSonar.SonarBlip nextBlip) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C4000 Offset: 0x5C2600 VA: 0x1805C4000
 	private void <UpdateTick>g__ShowBlip|20_1(SubmarineSonar.SonarBlip nextBlip, float nextAngle) { }
 
@@ -72,10 +72,10 @@ private struct SubmarineSonar.SonarBlip : IComparable<SubmarineSonar.SonarBlip> 
 
 	// Methods
 
-	// RVA: 0xF3530 Offset: 0xF2930 VA: 0x1800F3530
+	// RVA: 0xF34B0 Offset: 0xF28B0 VA: 0x1800F34B0
 	public void .ctor(float dist, float angle, Color colour, float scale = 1) { }
 
-	// RVA: 0xF3510 Offset: 0xF2910 VA: 0x1800F3510 Slot: 4
+	// RVA: 0xF3490 Offset: 0xF2890 VA: 0x1800F3490 Slot: 4
 	public int CompareTo(SubmarineSonar.SonarBlip other) { }
 
 }

@@ -11,17 +11,17 @@ public static class Import // TypeDefIndex: 7791
 	public static T[] FromUrl<T>(string sheetId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A39560 Offset: 0x1A37B60 VA: 0x181A39560
+	|-RVA: 0x1A39520 Offset: 0x1A37B20 VA: 0x181A39520
 	|-Import.FromUrl<object>
 	*/
 
-	// RVA: 0x231FFE0 Offset: 0x231E5E0 VA: 0x18231FFE0
+	// RVA: 0x231FE20 Offset: 0x231E420 VA: 0x18231FE20
 	private static string[] GetCSVColumns(string line) { }
 
-	// RVA: 0x23201C0 Offset: 0x231E7C0 VA: 0x1823201C0
+	// RVA: 0x2320000 Offset: 0x231E600 VA: 0x182320000
 	private static void MonoSecurityBullshitHack() { }
 
-	// RVA: 0x23202C0 Offset: 0x231E8C0 VA: 0x1823202C0
+	// RVA: 0x2320100 Offset: 0x231E700 VA: 0x182320100
 	private static void .cctor() { }
 
 }
@@ -76,13 +76,13 @@ private sealed class Import.<>c // TypeDefIndex: 7794
 
 	// Methods
 
-	// RVA: 0x23203D0 Offset: 0x231E9D0 VA: 0x1823203D0
+	// RVA: 0x2320210 Offset: 0x231E810 VA: 0x182320210
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2320320 Offset: 0x231E920 VA: 0x182320320
+	// RVA: 0x2320160 Offset: 0x231E760 VA: 0x182320160
 	internal string <GetCSVColumns>b__2_0(Match x) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250

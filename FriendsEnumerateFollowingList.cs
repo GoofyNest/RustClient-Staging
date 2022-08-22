@@ -12,10 +12,10 @@ internal struct FriendsEnumerateFollowingList_t : ICallbackData // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1E5B70 Offset: 0x1E4F70 VA: 0x1801E5B70 Slot: 5
+	// RVA: 0x1E5AF0 Offset: 0x1E4EF0 VA: 0x1801E5AF0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E5B60 Offset: 0x1E4F60 VA: 0x1801E5B60 Slot: 4
+	// RVA: 0x1E5AE0 Offset: 0x1E4EE0 VA: 0x1801E5AE0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1370600 Offset: 0x136EC00 VA: 0x181370600

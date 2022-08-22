@@ -1,8 +1,8 @@
 public struct Key // TypeDefIndex: 6283
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private uint <Field>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Wire <WireType>k__BackingField; // 0x4
 
 	// Properties
@@ -11,26 +11,26 @@ public struct Key // TypeDefIndex: 6283
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF37A0 Offset: 0xF2BA0 VA: 0x1800F37A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3720 Offset: 0xF2B20 VA: 0x1800F3720
 	public uint get_Field() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF38D0 Offset: 0xF2CD0 VA: 0x1800F38D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3850 Offset: 0xF2C50 VA: 0x1800F3850
 	public void set_Field(uint value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x14B860 Offset: 0x14AC60 VA: 0x18014B860
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x14B7E0 Offset: 0x14ABE0 VA: 0x18014B7E0
 	public Wire get_WireType() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19DFE0 Offset: 0x19D3E0 VA: 0x18019DFE0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19DF60 Offset: 0x19D360 VA: 0x18019DF60
 	public void set_WireType(Wire value) { }
 
-	// RVA: 0xF8950 Offset: 0xF7D50 VA: 0x1800F8950
+	// RVA: 0xF88D0 Offset: 0xF7CD0 VA: 0x1800F88D0
 	public void .ctor(uint field, Wire wireType) { }
 
-	// RVA: 0x231AD0 Offset: 0x230ED0 VA: 0x180231AD0 Slot: 3
+	// RVA: 0x231A50 Offset: 0x230E50 VA: 0x180231A50 Slot: 3
 	public override string ToString() { }
 
 }

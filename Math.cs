@@ -65,7 +65,7 @@ public static class Math // TypeDefIndex: 266
 	// RVA: 0x16759D0 Offset: 0x1673FD0 VA: 0x1816759D0
 	public static double Truncate(double d) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x16759B0 Offset: 0x1673FB0 VA: 0x1816759B0
 	public static double Sqrt(double d) { }
 
@@ -99,99 +99,99 @@ public static class Math // TypeDefIndex: 266
 	// RVA: 0x1674B10 Offset: 0x1673110 VA: 0x181674B10
 	public static double Abs(double value) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x7D810 Offset: 0x7CC10 VA: 0x18007D810
-	[CLSCompliantAttribute] // RVA: 0x7D810 Offset: 0x7CC10 VA: 0x18007D810
+	[ReliabilityContractAttribute] // RVA: 0x7D860 Offset: 0x7CC60 VA: 0x18007D860
+	[CLSCompliantAttribute] // RVA: 0x7D860 Offset: 0x7CC60 VA: 0x18007D860
 	// RVA: 0x1675170 Offset: 0x1673770 VA: 0x181675170
 	public static sbyte Max(sbyte val1, sbyte val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x16750E0 Offset: 0x16736E0 VA: 0x1816750E0
 	public static byte Max(byte val1, byte val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x16752C0 Offset: 0x16738C0 VA: 0x1816752C0
 	public static short Max(short val1, short val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x7D810 Offset: 0x7CC10 VA: 0x18007D810
-	[CLSCompliantAttribute] // RVA: 0x7D810 Offset: 0x7CC10 VA: 0x18007D810
+	[ReliabilityContractAttribute] // RVA: 0x7D860 Offset: 0x7CC60 VA: 0x18007D860
+	[CLSCompliantAttribute] // RVA: 0x7D860 Offset: 0x7CC60 VA: 0x18007D860
 	// RVA: 0x1675100 Offset: 0x1673700 VA: 0x181675100
 	public static ushort Max(ushort val1, ushort val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x1675220 Offset: 0x1673820 VA: 0x181675220
 	public static int Max(int val1, int val2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x7DC90 Offset: 0x7D090 VA: 0x18007DC90
-	[ReliabilityContractAttribute] // RVA: 0x7DC90 Offset: 0x7D090 VA: 0x18007DC90
+	[CLSCompliantAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
+	[ReliabilityContractAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
 	// RVA: 0x16750F0 Offset: 0x16736F0 VA: 0x1816750F0
 	public static uint Max(uint val1, uint val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x16750D0 Offset: 0x16736D0 VA: 0x1816750D0
 	public static long Max(long val1, long val2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x7DC90 Offset: 0x7D090 VA: 0x18007DC90
-	[ReliabilityContractAttribute] // RVA: 0x7DC90 Offset: 0x7D090 VA: 0x18007DC90
+	[CLSCompliantAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
+	[ReliabilityContractAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
 	// RVA: 0x1675160 Offset: 0x1673760 VA: 0x181675160
 	public static ulong Max(ulong val1, ulong val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x1675110 Offset: 0x1673710 VA: 0x181675110
 	public static float Max(float val1, float val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x1675230 Offset: 0x1673830 VA: 0x181675230
 	public static double Max(double val1, double val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x1675180 Offset: 0x1673780 VA: 0x181675180
 	public static Decimal Max(Decimal val1, Decimal val2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x7DC90 Offset: 0x7D090 VA: 0x18007DC90
-	[ReliabilityContractAttribute] // RVA: 0x7DC90 Offset: 0x7D090 VA: 0x18007DC90
+	[CLSCompliantAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
+	[ReliabilityContractAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
 	// RVA: 0x16754C0 Offset: 0x1673AC0 VA: 0x1816754C0
 	public static sbyte Min(sbyte val1, sbyte val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x1675380 Offset: 0x1673980 VA: 0x181675380
 	public static byte Min(byte val1, byte val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x1675390 Offset: 0x1673990 VA: 0x181675390
 	public static short Min(short val1, short val2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x7DC90 Offset: 0x7D090 VA: 0x18007DC90
-	[ReliabilityContractAttribute] // RVA: 0x7DC90 Offset: 0x7D090 VA: 0x18007DC90
+	[CLSCompliantAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
+	[ReliabilityContractAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
 	// RVA: 0x1675360 Offset: 0x1673960 VA: 0x181675360
 	public static ushort Min(ushort val1, ushort val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x1675490 Offset: 0x1673A90 VA: 0x181675490
 	public static int Min(int val1, int val2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x7DC90 Offset: 0x7D090 VA: 0x18007DC90
-	[ReliabilityContractAttribute] // RVA: 0x7DC90 Offset: 0x7D090 VA: 0x18007DC90
+	[CLSCompliantAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
+	[ReliabilityContractAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
 	// RVA: 0x16754B0 Offset: 0x1673AB0 VA: 0x1816754B0
 	public static uint Min(uint val1, uint val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x1675370 Offset: 0x1673970 VA: 0x181675370
 	public static long Min(long val1, long val2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x7DC90 Offset: 0x7D090 VA: 0x18007DC90
-	[ReliabilityContractAttribute] // RVA: 0x7DC90 Offset: 0x7D090 VA: 0x18007DC90
+	[CLSCompliantAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
+	[ReliabilityContractAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
 	// RVA: 0x16754A0 Offset: 0x1673AA0 VA: 0x1816754A0
 	public static ulong Min(ulong val1, ulong val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x16753A0 Offset: 0x16739A0 VA: 0x1816753A0
 	public static float Min(float val1, float val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x16752D0 Offset: 0x16738D0 VA: 0x1816752D0
 	public static double Min(double val1, double val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x16753F0 Offset: 0x16739F0 VA: 0x1816753F0
 	public static Decimal Min(Decimal val1, Decimal val2) { }
 
@@ -221,205 +221,205 @@ public static class math // TypeDefIndex: 7099
 public static class math // TypeDefIndex: 7099
 	// Methods
 
-	// RVA: 0x22AEC70 Offset: 0x22AD270 VA: 0x1822AEC70
+	// RVA: 0x22AEAB0 Offset: 0x22AD0B0 VA: 0x1822AEAB0
 	public static float2 float2(float x, float y) { }
 
-	// RVA: 0x22AEEE0 Offset: 0x22AD4E0 VA: 0x1822AEEE0
+	// RVA: 0x22AED20 Offset: 0x22AD320 VA: 0x1822AED20
 	public static uint hash(float2 v) { }
 
-	// RVA: 0x22AF100 Offset: 0x22AD700 VA: 0x1822AF100
+	// RVA: 0x22AEF40 Offset: 0x22AD540 VA: 0x1822AEF40
 	public static uint hash(float3 v) { }
 
-	// RVA: 0x22AECC0 Offset: 0x22AD2C0 VA: 0x1822AECC0
+	// RVA: 0x22AEB00 Offset: 0x22AD100 VA: 0x1822AEB00
 	public static float4 float4(float x, float y, float z, float w) { }
 
-	// RVA: 0x22AEC80 Offset: 0x22AD280 VA: 0x1822AEC80
+	// RVA: 0x22AEAC0 Offset: 0x22AD0C0 VA: 0x1822AEAC0
 	public static float4 float4(float3 xyz, float w) { }
 
-	// RVA: 0x22AED20 Offset: 0x22AD320 VA: 0x1822AED20
+	// RVA: 0x22AEB60 Offset: 0x22AD160 VA: 0x1822AEB60
 	public static uint hash(float4 v) { }
 
-	// RVA: 0x22AECE0 Offset: 0x22AD2E0 VA: 0x1822AECE0
+	// RVA: 0x22AEB20 Offset: 0x22AD120 VA: 0x1822AEB20
 	public static uint hash(half2 v) { }
 
-	// RVA: 0x22AF1A0 Offset: 0x22AD7A0 VA: 0x1822AF1A0
+	// RVA: 0x22AEFE0 Offset: 0x22AD5E0 VA: 0x1822AEFE0
 	public static int2 int2(int x, int y) { }
 
-	// RVA: 0x22AEEB0 Offset: 0x22AD4B0 VA: 0x1822AEEB0
+	// RVA: 0x22AECF0 Offset: 0x22AD2F0 VA: 0x1822AECF0
 	public static uint hash(int2 v) { }
 
-	// RVA: 0x22AE800 Offset: 0x22ACE00 VA: 0x1822AE800
+	// RVA: 0x22AE640 Offset: 0x22ACC40 VA: 0x1822AE640
 	public static int asint(float x) { }
 
-	// RVA: 0x2271C30 Offset: 0x2270230 VA: 0x182271C30
+	// RVA: 0x2271A70 Offset: 0x2270070 VA: 0x182271A70
 	public static uint2 asuint(int2 x) { }
 
-	// RVA: 0x22AE800 Offset: 0x22ACE00 VA: 0x1822AE800
+	// RVA: 0x22AE640 Offset: 0x22ACC40 VA: 0x1822AE640
 	public static uint asuint(float x) { }
 
-	// RVA: 0x22AE8E0 Offset: 0x22ACEE0 VA: 0x1822AE8E0
+	// RVA: 0x22AE720 Offset: 0x22ACD20 VA: 0x1822AE720
 	public static uint2 asuint(float2 x) { }
 
-	// RVA: 0x22AE810 Offset: 0x22ACE10 VA: 0x1822AE810
+	// RVA: 0x22AE650 Offset: 0x22ACC50 VA: 0x1822AE650
 	public static uint3 asuint(float3 x) { }
 
-	// RVA: 0x22AE880 Offset: 0x22ACE80 VA: 0x1822AE880
+	// RVA: 0x22AE6C0 Offset: 0x22ACCC0 VA: 0x1822AE6C0
 	public static uint4 asuint(float4 x) { }
 
-	// RVA: 0x22AE7F0 Offset: 0x22ACDF0 VA: 0x1822AE7F0
+	// RVA: 0x22AE630 Offset: 0x22ACC30 VA: 0x1822AE630
 	public static float asfloat(int x) { }
 
-	// RVA: 0x22AE7F0 Offset: 0x22ACDF0 VA: 0x1822AE7F0
+	// RVA: 0x22AE630 Offset: 0x22ACC30 VA: 0x1822AE630
 	public static float asfloat(uint x) { }
 
-	// RVA: 0x22AF4F0 Offset: 0x22ADAF0 VA: 0x1822AF4F0
+	// RVA: 0x22AF330 Offset: 0x22AD930 VA: 0x1822AF330
 	public static int min(int x, int y) { }
 
-	// RVA: 0x22AF4C0 Offset: 0x22ADAC0 VA: 0x1822AF4C0
+	// RVA: 0x22AF300 Offset: 0x22AD900 VA: 0x1822AF300
 	public static int2 min(int2 x, int2 y) { }
 
-	// RVA: 0x223ED30 Offset: 0x223D330 VA: 0x18223ED30
+	// RVA: 0x223EB70 Offset: 0x223D170 VA: 0x18223EB70
 	public static float min(float x, float y) { }
 
-	// RVA: 0x22AF4B0 Offset: 0x22ADAB0 VA: 0x1822AF4B0
+	// RVA: 0x22AF2F0 Offset: 0x22AD8F0 VA: 0x1822AF2F0
 	public static int max(int x, int y) { }
 
-	// RVA: 0x22AF480 Offset: 0x22ADA80 VA: 0x1822AF480
+	// RVA: 0x22AF2C0 Offset: 0x22AD8C0 VA: 0x1822AF2C0
 	public static int2 max(int2 x, int2 y) { }
 
-	// RVA: 0x223F470 Offset: 0x223DA70 VA: 0x18223F470
+	// RVA: 0x223F2B0 Offset: 0x223D8B0 VA: 0x18223F2B0
 	public static float max(float x, float y) { }
 
-	// RVA: 0x22AF3C0 Offset: 0x22AD9C0 VA: 0x1822AF3C0
+	// RVA: 0x22AF200 Offset: 0x22AD800 VA: 0x1822AF200
 	public static float3 lerp(float3 x, float3 y, float s) { }
 
-	// RVA: 0x22AF300 Offset: 0x22AD900 VA: 0x1822AF300
+	// RVA: 0x22AF140 Offset: 0x22AD740 VA: 0x1822AF140
 	public static float4 lerp(float4 x, float4 y, float s) { }
 
-	// RVA: 0x22AE920 Offset: 0x22ACF20 VA: 0x1822AE920
+	// RVA: 0x22AE760 Offset: 0x22ACD60 VA: 0x1822AE760
 	public static int2 clamp(int2 x, int2 a, int2 b) { }
 
-	// RVA: 0x22AE960 Offset: 0x22ACF60 VA: 0x1822AE960
+	// RVA: 0x22AE7A0 Offset: 0x22ACDA0 VA: 0x1822AE7A0
 	public static float clamp(float x, float a, float b) { }
 
-	// RVA: 0x22AEB70 Offset: 0x22AD170 VA: 0x1822AEB70
+	// RVA: 0x22AE9B0 Offset: 0x22ACFB0 VA: 0x1822AE9B0
 	public static float dot(float3 x, float3 y) { }
 
-	// RVA: 0x22AEB20 Offset: 0x22AD120 VA: 0x1822AEB20
+	// RVA: 0x22AE960 Offset: 0x22ACF60 VA: 0x1822AE960
 	public static float dot(float4 x, float4 y) { }
 
-	// RVA: 0x22AE9D0 Offset: 0x22ACFD0 VA: 0x1822AE9D0
+	// RVA: 0x22AE810 Offset: 0x22ACE10 VA: 0x1822AE810
 	public static float cos(float x) { }
 
-	// RVA: 0x22AE760 Offset: 0x22ACD60 VA: 0x1822AE760
+	// RVA: 0x22AE5A0 Offset: 0x22ACBA0 VA: 0x1822AE5A0
 	public static float acos(float x) { }
 
-	// RVA: 0x22AFDE0 Offset: 0x22AE3E0 VA: 0x1822AFDE0
+	// RVA: 0x22AFC20 Offset: 0x22AE220 VA: 0x1822AFC20
 	public static float sin(float x) { }
 
-	// RVA: 0x22AFD20 Offset: 0x22AE320 VA: 0x1822AFD20
+	// RVA: 0x22AFB60 Offset: 0x22AE160 VA: 0x1822AFB60
 	public static float rcp(float x) { }
 
-	// RVA: 0x22B0340 Offset: 0x22AE940 VA: 0x1822B0340
+	// RVA: 0x22B0180 Offset: 0x22AE780 VA: 0x1822B0180
 	public static float sqrt(float x) { }
 
-	// RVA: 0x22AFD30 Offset: 0x22AE330 VA: 0x1822AFD30
+	// RVA: 0x22AFB70 Offset: 0x22AE170 VA: 0x1822AFB70
 	public static float rsqrt(float x) { }
 
-	// RVA: 0x22AFAB0 Offset: 0x22AE0B0 VA: 0x1822AFAB0
+	// RVA: 0x22AF8F0 Offset: 0x22ADEF0 VA: 0x1822AF8F0
 	public static float3 normalizesafe(float3 x, float3 defaultvalue) { }
 
-	// RVA: 0x22AF260 Offset: 0x22AD860 VA: 0x1822AF260
+	// RVA: 0x22AF0A0 Offset: 0x22AD6A0 VA: 0x1822AF0A0
 	public static float length(float3 x) { }
 
-	// RVA: 0x22AEA30 Offset: 0x22AD030 VA: 0x1822AEA30
+	// RVA: 0x22AE870 Offset: 0x22ACE70 VA: 0x1822AE870
 	public static float3 cross(float3 x, float3 y) { }
 
-	// RVA: 0x22AE7C0 Offset: 0x22ACDC0 VA: 0x1822AE7C0
+	// RVA: 0x22AE600 Offset: 0x22ACC00 VA: 0x1822AE600
 	public static bool any(float2 x) { }
 
-	// RVA: 0x22AFDA0 Offset: 0x22AE3A0 VA: 0x1822AFDA0
+	// RVA: 0x22AFBE0 Offset: 0x22AE1E0 VA: 0x1822AFBE0
 	public static uint select(uint a, uint b, bool c) { }
 
-	// RVA: 0x22AFDB0 Offset: 0x22AE3B0 VA: 0x1822AFDB0
+	// RVA: 0x22AFBF0 Offset: 0x22AE1F0 VA: 0x1822AFBF0
 	public static float3 select(float3 a, float3 b, bool c) { }
 
-	// RVA: 0x22AFBE0 Offset: 0x22AE1E0 VA: 0x1822AFBE0
+	// RVA: 0x22AFA20 Offset: 0x22AE020 VA: 0x1822AFA20
 	public static float3 project(float3 a, float3 b) { }
 
-	// RVA: 0x22AFE40 Offset: 0x22AE440 VA: 0x1822AFE40
+	// RVA: 0x22AFC80 Offset: 0x22AE280 VA: 0x1822AFC80
 	public static void sincos(float x, out float s, out float c) { }
 
-	// RVA: 0x22AEAC0 Offset: 0x22AD0C0 VA: 0x1822AEAC0
+	// RVA: 0x22AE900 Offset: 0x22ACF00 VA: 0x1822AE900
 	public static uint csum(uint2 x) { }
 
-	// RVA: 0x22AEAD0 Offset: 0x22AD0D0 VA: 0x1822AEAD0
+	// RVA: 0x22AE910 Offset: 0x22ACF10 VA: 0x1822AE910
 	public static uint csum(uint3 x) { }
 
-	// RVA: 0x22AEAF0 Offset: 0x22AD0F0 VA: 0x1822AEAF0
+	// RVA: 0x22AE930 Offset: 0x22ACF30 VA: 0x1822AE930
 	public static uint csum(uint4 x) { }
 
-	// RVA: 0x22AEC00 Offset: 0x22AD200 VA: 0x1822AEC00
+	// RVA: 0x22AEA40 Offset: 0x22AD040 VA: 0x1822AEA40
 	public static float f16tof32(uint x) { }
 
-	// RVA: 0x22AFD10 Offset: 0x22AE310 VA: 0x1822AFD10
+	// RVA: 0x22AFB50 Offset: 0x22AE150 VA: 0x1822AFB50
 	public static quaternion quaternion(float4 value) { }
 
-	// RVA: 0x22AF1B0 Offset: 0x22AD7B0 VA: 0x1822AF1B0
+	// RVA: 0x22AEFF0 Offset: 0x22AD5F0 VA: 0x1822AEFF0
 	public static quaternion inverse(quaternion q) { }
 
-	// RVA: 0x22AEBB0 Offset: 0x22AD1B0 VA: 0x1822AEBB0
+	// RVA: 0x22AE9F0 Offset: 0x22ACFF0 VA: 0x1822AE9F0
 	public static float dot(quaternion a, quaternion b) { }
 
-	// RVA: 0x22AF980 Offset: 0x22ADF80 VA: 0x1822AF980
+	// RVA: 0x22AF7C0 Offset: 0x22ADDC0 VA: 0x1822AF7C0
 	public static quaternion normalize(quaternion q) { }
 
-	// RVA: 0x223F640 Offset: 0x223DC40 VA: 0x18223F640
+	// RVA: 0x223F480 Offset: 0x223DA80 VA: 0x18223F480
 	public static quaternion mul(quaternion a, quaternion b) { }
 
-	// RVA: 0x223F4C0 Offset: 0x223DAC0 VA: 0x18223F4C0
+	// RVA: 0x223F300 Offset: 0x223D900 VA: 0x18223F300
 	public static float3 mul(quaternion q, float3 v) { }
 
-	// RVA: 0x223F4C0 Offset: 0x223DAC0 VA: 0x18223F4C0
+	// RVA: 0x223F300 Offset: 0x223D900 VA: 0x18223F300
 	public static float3 rotate(quaternion q, float3 v) { }
 
-	// RVA: 0x22AF800 Offset: 0x22ADE00 VA: 0x1822AF800
+	// RVA: 0x22AF640 Offset: 0x22ADC40 VA: 0x1822AF640
 	public static quaternion nlerp(quaternion q1, quaternion q2, float t) { }
 
-	// RVA: 0x22AFF10 Offset: 0x22AE510 VA: 0x1822AFF10
+	// RVA: 0x22AFD50 Offset: 0x22AE350 VA: 0x1822AFD50
 	public static quaternion slerp(quaternion q1, quaternion q2, float t) { }
 
-	// RVA: 0x22AED20 Offset: 0x22AD320 VA: 0x1822AED20
+	// RVA: 0x22AEB60 Offset: 0x22AD160 VA: 0x1822AEB60
 	public static uint hash(quaternion q) { }
 
-	// RVA: 0x22AE740 Offset: 0x22ACD40 VA: 0x1822AE740
+	// RVA: 0x22AE580 Offset: 0x22ACB80 VA: 0x1822AE580
 	public static RigidTransform RigidTransform(quaternion rot, float3 pos) { }
 
-	// RVA: 0x223F1B0 Offset: 0x223D7B0 VA: 0x18223F1B0
+	// RVA: 0x223EFF0 Offset: 0x223D5F0 VA: 0x18223EFF0
 	public static RigidTransform inverse(RigidTransform t) { }
 
-	// RVA: 0x22AF500 Offset: 0x22ADB00 VA: 0x1822AF500
+	// RVA: 0x22AF340 Offset: 0x22AD940 VA: 0x1822AF340
 	public static RigidTransform mul(RigidTransform a, RigidTransform b) { }
 
-	// RVA: 0x22AEFA0 Offset: 0x22AD5A0 VA: 0x1822AEFA0
+	// RVA: 0x22AEDE0 Offset: 0x22AD3E0 VA: 0x1822AEDE0
 	public static uint hash(RigidTransform t) { }
 
-	// RVA: 0x22AF1A0 Offset: 0x22AD7A0 VA: 0x1822AF1A0
+	// RVA: 0x22AEFE0 Offset: 0x22AD5E0 VA: 0x1822AEFE0
 	public static uint2 uint2(uint x, uint y) { }
 
-	// RVA: 0x22AED00 Offset: 0x22AD300 VA: 0x1822AED00
+	// RVA: 0x22AEB40 Offset: 0x22AD140 VA: 0x1822AEB40
 	public static uint hash(uint2 v) { }
 
-	// RVA: 0x22B03A0 Offset: 0x22AE9A0 VA: 0x1822B03A0
+	// RVA: 0x22B01E0 Offset: 0x22AE7E0 VA: 0x1822B01E0
 	public static uint3 uint3(uint x, uint y, uint z) { }
 
-	// RVA: 0x22AEF30 Offset: 0x22AD530 VA: 0x1822AEF30
+	// RVA: 0x22AED70 Offset: 0x22AD370 VA: 0x1822AED70
 	public static uint hash(uint3 v) { }
 
-	// RVA: 0x22B03B0 Offset: 0x22AE9B0 VA: 0x1822B03B0
+	// RVA: 0x22B01F0 Offset: 0x22AE7F0 VA: 0x1822B01F0
 	public static uint4 uint4(uint x, uint y, uint z, uint w) { }
 
-	// RVA: 0x22AEE00 Offset: 0x22AD400 VA: 0x1822AEE00
+	// RVA: 0x22AEC40 Offset: 0x22AD240 VA: 0x1822AEC40
 	public static uint hash(uint4 v) { }
 
 }

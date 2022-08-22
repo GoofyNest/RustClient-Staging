@@ -22,61 +22,61 @@ public class VertexHelper : IDisposable // TypeDefIndex: 5029
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2249A00 Offset: 0x2248000 VA: 0x182249A00
+	// RVA: 0x2249840 Offset: 0x2247E40 VA: 0x182249840
 	public void .ctor(Mesh m) { }
 
-	// RVA: 0x22492D0 Offset: 0x22478D0 VA: 0x1822492D0
+	// RVA: 0x2249110 Offset: 0x2247710 VA: 0x182249110
 	private void InitializeListIfRequired() { }
 
-	// RVA: 0x2248EC0 Offset: 0x22474C0 VA: 0x182248EC0 Slot: 4
+	// RVA: 0x2248D00 Offset: 0x2247300 VA: 0x182248D00 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x2248DB0 Offset: 0x22473B0 VA: 0x182248DB0
+	// RVA: 0x2248BF0 Offset: 0x22471F0 VA: 0x182248BF0
 	public void Clear() { }
 
-	// RVA: 0x2249C10 Offset: 0x2248210 VA: 0x182249C10
+	// RVA: 0x2249A50 Offset: 0x2248050 VA: 0x182249A50
 	public int get_currentVertCount() { }
 
-	// RVA: 0x2249BD0 Offset: 0x22481D0 VA: 0x182249BD0
+	// RVA: 0x2249A10 Offset: 0x2248010 VA: 0x182249A10
 	public int get_currentIndexCount() { }
 
-	// RVA: 0x22494A0 Offset: 0x2247AA0 VA: 0x1822494A0
+	// RVA: 0x22492E0 Offset: 0x22478E0 VA: 0x1822492E0
 	public void PopulateUIVertex(ref UIVertex vertex, int i) { }
 
-	// RVA: 0x2249690 Offset: 0x2247C90 VA: 0x182249690
+	// RVA: 0x22494D0 Offset: 0x2247AD0 VA: 0x1822494D0
 	public void SetUIVertex(UIVertex vertex, int i) { }
 
-	// RVA: 0x2249100 Offset: 0x2247700 VA: 0x182249100
+	// RVA: 0x2248F40 Offset: 0x2247540 VA: 0x182248F40
 	public void FillMesh(Mesh mesh) { }
 
-	// RVA: 0x2248B00 Offset: 0x2247100 VA: 0x182248B00
+	// RVA: 0x2248940 Offset: 0x2246F40 VA: 0x182248940
 	public void AddVert(Vector3 position, Color32 color, Vector2 uv0, Vector2 uv1, Vector2 uv2, Vector2 uv3, Vector3 normal, Vector4 tangent) { }
 
-	// RVA: 0x2248C90 Offset: 0x2247290 VA: 0x182248C90
+	// RVA: 0x2248AD0 Offset: 0x22470D0 VA: 0x182248AD0
 	public void AddVert(Vector3 position, Color32 color, Vector2 uv0, Vector2 uv1, Vector3 normal, Vector4 tangent) { }
 
-	// RVA: 0x2248950 Offset: 0x2246F50 VA: 0x182248950
+	// RVA: 0x2248790 Offset: 0x2246D90 VA: 0x182248790
 	public void AddVert(Vector3 position, Color32 color, Vector2 uv0) { }
 
-	// RVA: 0x22487E0 Offset: 0x2246DE0 VA: 0x1822487E0
+	// RVA: 0x2248620 Offset: 0x2246C20 VA: 0x182248620
 	public void AddVert(UIVertex v) { }
 
-	// RVA: 0x2248210 Offset: 0x2246810 VA: 0x182248210
+	// RVA: 0x2248050 Offset: 0x2246650 VA: 0x182248050
 	public void AddTriangle(int idx0, int idx1, int idx2) { }
 
-	// RVA: 0x22482C0 Offset: 0x22468C0 VA: 0x1822482C0
+	// RVA: 0x2248100 Offset: 0x2246700 VA: 0x182248100
 	public void AddUIVertexQuad(UIVertex[] verts) { }
 
-	// RVA: 0x22486A0 Offset: 0x2246CA0 VA: 0x1822486A0
+	// RVA: 0x22484E0 Offset: 0x2246AE0 VA: 0x1822484E0
 	public void AddUIVertexStream(List<UIVertex> verts, List<int> indices) { }
 
-	// RVA: 0x2248760 Offset: 0x2246D60 VA: 0x182248760
+	// RVA: 0x22485A0 Offset: 0x2246BA0 VA: 0x1822485A0
 	public void AddUIVertexTriangleStream(List<UIVertex> verts) { }
 
-	// RVA: 0x2249250 Offset: 0x2247850 VA: 0x182249250
+	// RVA: 0x2249090 Offset: 0x2247690 VA: 0x182249090
 	public void GetUIVertexStream(List<UIVertex> stream) { }
 
-	// RVA: 0x2249940 Offset: 0x2247F40 VA: 0x182249940
+	// RVA: 0x2249780 Offset: 0x2247D80 VA: 0x182249780
 	private static void .cctor() { }
 
 }

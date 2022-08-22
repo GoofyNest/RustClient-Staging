@@ -13,16 +13,16 @@ public sealed class X509StoreManager // TypeDefIndex: 1722
 
 	// Methods
 
-	// RVA: 0x2282080 Offset: 0x2280680 VA: 0x182282080
+	// RVA: 0x2281EC0 Offset: 0x22804C0 VA: 0x182281EC0
 	internal static string get_CurrentUserPath() { }
 
-	// RVA: 0x22822F0 Offset: 0x22808F0 VA: 0x1822822F0
+	// RVA: 0x2282130 Offset: 0x2280730 VA: 0x182282130
 	internal static string get_LocalMachinePath() { }
 
-	// RVA: 0x2282170 Offset: 0x2280770 VA: 0x182282170
+	// RVA: 0x2281FB0 Offset: 0x22805B0 VA: 0x182281FB0
 	public static X509Stores get_CurrentUser() { }
 
-	// RVA: 0x22823F0 Offset: 0x22809F0 VA: 0x1822823F0
+	// RVA: 0x2282230 Offset: 0x2280830 VA: 0x182282230
 	public static X509Stores get_LocalMachine() { }
 
 }

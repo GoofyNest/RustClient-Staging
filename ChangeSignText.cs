@@ -6,7 +6,7 @@ public class ChangeSignText : UIDialog // TypeDefIndex: 10888
 	public GameObject[] frameOptions; // 0x48
 	public Camera cameraPreview; // 0x50
 	public Camera camera3D; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private MeshPaintableSource[] <currentSources>k__BackingField; // 0x60
 	private List<GameObject> copiedObjects; // 0x68
 	private int currentFrame; // 0x70
@@ -19,11 +19,11 @@ public class ChangeSignText : UIDialog // TypeDefIndex: 10888
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
 	public MeshPaintableSource[] get_currentSources() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x536330 Offset: 0x534930 VA: 0x180536330
 	public void set_currentSources(MeshPaintableSource[] value) { }
 

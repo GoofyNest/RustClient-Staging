@@ -45,16 +45,16 @@ public sealed class PKCS1 // TypeDefIndex: 1757
 
 	// Methods
 
-	// RVA: 0x1AC1020 Offset: 0x1ABF620 VA: 0x181AC1020
+	// RVA: 0x1AC0E60 Offset: 0x1ABF460 VA: 0x181AC0E60
 	internal static string HashNameFromOid(string oid, bool throwOnError = True) { }
 
-	// RVA: 0x1AC0FC0 Offset: 0x1ABF5C0 VA: 0x181AC0FC0
+	// RVA: 0x1AC0E00 Offset: 0x1ABF400 VA: 0x181AC0E00
 	internal static HashAlgorithm CreateFromOid(string oid) { }
 
-	// RVA: 0x1AC0B70 Offset: 0x1ABF170 VA: 0x181AC0B70
+	// RVA: 0x1AC09B0 Offset: 0x1ABEFB0 VA: 0x181AC09B0
 	internal static HashAlgorithm CreateFromName(string name) { }
 
-	// RVA: 0x1AC1310 Offset: 0x1ABF910 VA: 0x181AC1310
+	// RVA: 0x1AC1150 Offset: 0x1ABF750 VA: 0x181AC1150
 	private static void .cctor() { }
 
 }

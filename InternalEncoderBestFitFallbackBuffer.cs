@@ -12,31 +12,31 @@ internal sealed class InternalEncoderBestFitFallbackBuffer : EncoderFallbackBuff
 
 	// Methods
 
-	// RVA: 0x191C480 Offset: 0x191AA80 VA: 0x18191C480
+	// RVA: 0x191C440 Offset: 0x191AA40 VA: 0x18191C440
 	private static object get_InternalSyncObject() { }
 
-	// RVA: 0x191C2D0 Offset: 0x191A8D0 VA: 0x18191C2D0
+	// RVA: 0x191C290 Offset: 0x191A890 VA: 0x18191C290
 	public void .ctor(InternalEncoderBestFitFallback fallback) { }
 
-	// RVA: 0x191BDB0 Offset: 0x191A3B0 VA: 0x18191BDB0 Slot: 4
+	// RVA: 0x191BD70 Offset: 0x191A370 VA: 0x18191BD70 Slot: 4
 	public override bool Fallback(char charUnknown, int index) { }
 
-	// RVA: 0x191BEF0 Offset: 0x191A4F0 VA: 0x18191BEF0 Slot: 5
+	// RVA: 0x191BEB0 Offset: 0x191A4B0 VA: 0x18191BEB0 Slot: 5
 	public override bool Fallback(char charUnknownHigh, char charUnknownLow, int index) { }
 
-	// RVA: 0x191C160 Offset: 0x191A760 VA: 0x18191C160 Slot: 6
+	// RVA: 0x191C120 Offset: 0x191A720 VA: 0x18191C120 Slot: 6
 	public override char GetNextChar() { }
 
-	// RVA: 0x191C180 Offset: 0x191A780 VA: 0x18191C180 Slot: 7
+	// RVA: 0x191C140 Offset: 0x191A740 VA: 0x18191C140 Slot: 7
 	public override bool MovePrevious() { }
 
-	// RVA: 0x191C510 Offset: 0x191AB10 VA: 0x18191C510 Slot: 8
+	// RVA: 0x191C4D0 Offset: 0x191AAD0 VA: 0x18191C4D0 Slot: 8
 	public override int get_Remaining() { }
 
-	// RVA: 0x191C1A0 Offset: 0x191A7A0 VA: 0x18191C1A0 Slot: 9
+	// RVA: 0x191C160 Offset: 0x191A760 VA: 0x18191C160 Slot: 9
 	public override void Reset() { }
 
-	// RVA: 0x191C1C0 Offset: 0x191A7C0 VA: 0x18191C1C0
+	// RVA: 0x191C180 Offset: 0x191A780 VA: 0x18191C180
 	private char TryBestFit(char cUnknown) { }
 
 }

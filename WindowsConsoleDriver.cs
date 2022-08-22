@@ -14,76 +14,76 @@ internal class WindowsConsoleDriver : IConsoleDriver // TypeDefIndex: 428
 
 	// Methods
 
-	// RVA: 0x214A4E0 Offset: 0x2148AE0 VA: 0x18214A4E0
+	// RVA: 0x214A320 Offset: 0x2148920 VA: 0x18214A320
 	public void .ctor() { }
 
-	// RVA: 0x2149DC0 Offset: 0x21483C0 VA: 0x182149DC0
+	// RVA: 0x2149C00 Offset: 0x2148200 VA: 0x182149C00
 	private static ConsoleColor GetForeground(short attr) { }
 
-	// RVA: 0x2149D10 Offset: 0x2148310 VA: 0x182149D10
+	// RVA: 0x2149B50 Offset: 0x2148150 VA: 0x182149B50
 	private static ConsoleColor GetBackground(short attr) { }
 
-	// RVA: 0x2149D00 Offset: 0x2148300 VA: 0x182149D00
+	// RVA: 0x2149B40 Offset: 0x2148140 VA: 0x182149B40
 	private static short GetAttrForeground(int attr, ConsoleColor color) { }
 
-	// RVA: 0x2149CF0 Offset: 0x21482F0 VA: 0x182149CF0
+	// RVA: 0x2149B30 Offset: 0x2148130 VA: 0x182149B30
 	private static short GetAttrBackground(int attr, ConsoleColor color) { }
 
-	// RVA: 0x214A5C0 Offset: 0x2148BC0 VA: 0x18214A5C0 Slot: 4
+	// RVA: 0x214A400 Offset: 0x2148A00 VA: 0x18214A400 Slot: 4
 	public ConsoleColor get_BackgroundColor() { }
 
-	// RVA: 0x214AC10 Offset: 0x2149210 VA: 0x18214AC10 Slot: 5
+	// RVA: 0x214AA50 Offset: 0x2149050 VA: 0x18214AA50 Slot: 5
 	public void set_BackgroundColor(ConsoleColor value) { }
 
-	// RVA: 0x214A660 Offset: 0x2148C60 VA: 0x18214A660 Slot: 6
+	// RVA: 0x214A4A0 Offset: 0x2148AA0 VA: 0x18214A4A0 Slot: 6
 	public int get_BufferWidth() { }
 
-	// RVA: 0x214A700 Offset: 0x2148D00 VA: 0x18214A700 Slot: 14
+	// RVA: 0x214A540 Offset: 0x2148B40 VA: 0x18214A540 Slot: 14
 	public int get_CursorLeft() { }
 
-	// RVA: 0x214ACE0 Offset: 0x21492E0 VA: 0x18214ACE0 Slot: 7
+	// RVA: 0x214AB20 Offset: 0x2149120 VA: 0x18214AB20 Slot: 7
 	public void set_CursorLeft(int value) { }
 
-	// RVA: 0x214A7A0 Offset: 0x2148DA0 VA: 0x18214A7A0 Slot: 8
+	// RVA: 0x214A5E0 Offset: 0x2148BE0 VA: 0x18214A5E0 Slot: 8
 	public int get_CursorTop() { }
 
-	// RVA: 0x214ADB0 Offset: 0x21493B0 VA: 0x18214ADB0 Slot: 9
+	// RVA: 0x214ABF0 Offset: 0x21491F0 VA: 0x18214ABF0 Slot: 9
 	public void set_CursorTop(int value) { }
 
-	// RVA: 0x214A850 Offset: 0x2148E50 VA: 0x18214A850 Slot: 10
+	// RVA: 0x214A690 Offset: 0x2148C90 VA: 0x18214A690 Slot: 10
 	public ConsoleColor get_ForegroundColor() { }
 
-	// RVA: 0x214AE80 Offset: 0x2149480 VA: 0x18214AE80 Slot: 11
+	// RVA: 0x214ACC0 Offset: 0x21492C0 VA: 0x18214ACC0 Slot: 11
 	public void set_ForegroundColor(ConsoleColor value) { }
 
-	// RVA: 0x214A8F0 Offset: 0x2148EF0 VA: 0x18214A8F0 Slot: 12
+	// RVA: 0x214A730 Offset: 0x2148D30 VA: 0x18214A730 Slot: 12
 	public bool get_KeyAvailable() { }
 
-	// RVA: 0x214A0B0 Offset: 0x21486B0 VA: 0x18214A0B0 Slot: 13
+	// RVA: 0x2149EF0 Offset: 0x21484F0 VA: 0x182149EF0 Slot: 13
 	public ConsoleKeyInfo ReadKey(bool intercept) { }
 
-	// RVA: 0x214A430 Offset: 0x2148A30 VA: 0x18214A430 Slot: 15
+	// RVA: 0x214A270 Offset: 0x2148870 VA: 0x18214A270 Slot: 15
 	public void SetCursorPosition(int left, int top) { }
 
-	// RVA: 0x2149E60 Offset: 0x2148460 VA: 0x182149E60
+	// RVA: 0x2149CA0 Offset: 0x21482A0 VA: 0x182149CA0
 	private static bool IsModifierKey(short virtualKeyCode) { }
 
-	// RVA: 0x2149DD0 Offset: 0x21483D0 VA: 0x182149DD0
+	// RVA: 0x2149C10 Offset: 0x2148210 VA: 0x182149C10
 	private static extern IntPtr GetStdHandle(Handles handle) { }
 
-	// RVA: 0x2149D20 Offset: 0x2148320 VA: 0x182149D20
+	// RVA: 0x2149B60 Offset: 0x2148160 VA: 0x182149B60
 	private static extern bool GetConsoleScreenBufferInfo(IntPtr handle, out ConsoleScreenBufferInfo info) { }
 
-	// RVA: 0x214A2F0 Offset: 0x21488F0 VA: 0x18214A2F0
+	// RVA: 0x214A130 Offset: 0x2148730 VA: 0x18214A130
 	private static extern bool SetConsoleCursorPosition(IntPtr handle, Coord coord) { }
 
-	// RVA: 0x214A390 Offset: 0x2148990 VA: 0x18214A390
+	// RVA: 0x214A1D0 Offset: 0x21487D0 VA: 0x18214A1D0
 	private static extern bool SetConsoleTextAttribute(IntPtr handle, short attribute) { }
 
-	// RVA: 0x2149E90 Offset: 0x2148490 VA: 0x182149E90
+	// RVA: 0x2149CD0 Offset: 0x21482D0 VA: 0x182149CD0
 	private static extern bool PeekConsoleInput(IntPtr handle, out InputRecord record, int length, out int eventsRead) { }
 
-	// RVA: 0x2149FA0 Offset: 0x21485A0 VA: 0x182149FA0
+	// RVA: 0x2149DE0 Offset: 0x21483E0 VA: 0x182149DE0
 	private static extern bool ReadConsoleInput(IntPtr handle, out InputRecord record, int length, out int nread) { }
 
 }

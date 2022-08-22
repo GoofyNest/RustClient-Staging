@@ -2,11 +2,11 @@ public class Toggle : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 {	// Fields
 	public Toggle.ToggleTransition toggleTransition; // 0xE8
 	public Graphic graphic; // 0xF0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ToggleGroup m_Group; // 0xF8
 	public Toggle.ToggleEvent onValueChanged; // 0x100
-	[TooltipAttribute] // RVA: 0x7DD30 Offset: 0x7D130 VA: 0x18007DD30
-	[SerializeField] // RVA: 0x7DD30 Offset: 0x7D130 VA: 0x18007DD30
+	[TooltipAttribute] // RVA: 0x7DE00 Offset: 0x7D200 VA: 0x18007DE00
+	[SerializeField] // RVA: 0x7DE00 Offset: 0x7D200 VA: 0x18007DE00
 	private bool m_IsOn; // 0x108
 
 	// Properties
@@ -18,10 +18,10 @@ public class Toggle : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 	// RVA: 0xB0EDC0 Offset: 0xB0D3C0 VA: 0x180B0EDC0
 	public ToggleGroup get_group() { }
 
-	// RVA: 0x2248150 Offset: 0x2246750 VA: 0x182248150
+	// RVA: 0x2247F90 Offset: 0x2246590 VA: 0x182247F90
 	public void set_group(ToggleGroup value) { }
 
-	// RVA: 0x22480A0 Offset: 0x22466A0 VA: 0x1822480A0
+	// RVA: 0x2247EE0 Offset: 0x22464E0 VA: 0x182247EE0
 	protected void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 46
@@ -33,46 +33,46 @@ public class Toggle : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 48
 	public virtual void GraphicUpdateComplete() { }
 
-	// RVA: 0x22479A0 Offset: 0x2245FA0 VA: 0x1822479A0 Slot: 8
+	// RVA: 0x22477E0 Offset: 0x2245DE0 VA: 0x1822477E0 Slot: 8
 	protected override void OnDestroy() { }
 
-	// RVA: 0x2247B70 Offset: 0x2246170 VA: 0x182247B70 Slot: 5
+	// RVA: 0x22479B0 Offset: 0x2245FB0 VA: 0x1822479B0 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x2247B40 Offset: 0x2246140 VA: 0x182247B40 Slot: 7
+	// RVA: 0x2247980 Offset: 0x2245F80 VA: 0x182247980 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x2247A30 Offset: 0x2246030 VA: 0x182247A30 Slot: 13
+	// RVA: 0x2247870 Offset: 0x2245E70 VA: 0x182247870 Slot: 13
 	protected override void OnDidApplyAnimationProperties() { }
 
-	// RVA: 0x2247D00 Offset: 0x2246300 VA: 0x182247D00
+	// RVA: 0x2247B40 Offset: 0x2246140 VA: 0x182247B40
 	private void SetToggleGroup(ToggleGroup newGroup, bool setMemberValue) { }
 
 	// RVA: 0xA2A990 Offset: 0xA28F90 VA: 0x180A2A990
 	public bool get_isOn() { }
 
-	// RVA: 0x22481A0 Offset: 0x22467A0 VA: 0x1822481A0
+	// RVA: 0x2247FE0 Offset: 0x22465E0 VA: 0x182247FE0
 	public void set_isOn(bool value) { }
 
-	// RVA: 0x2247CF0 Offset: 0x22462F0 VA: 0x182247CF0
+	// RVA: 0x2247B30 Offset: 0x2246130 VA: 0x182247B30
 	public void SetIsOnWithoutNotify(bool value) { }
 
-	// RVA: 0x2247F30 Offset: 0x2246530 VA: 0x182247F30
+	// RVA: 0x2247D70 Offset: 0x2246370 VA: 0x182247D70
 	private void Set(bool value, bool sendCallback = True) { }
 
-	// RVA: 0x2247C20 Offset: 0x2246220 VA: 0x182247C20
+	// RVA: 0x2247A60 Offset: 0x2246060 VA: 0x182247A60
 	private void PlayEffect(bool instant) { }
 
-	// RVA: 0x2248090 Offset: 0x2246690 VA: 0x182248090 Slot: 6
+	// RVA: 0x2247ED0 Offset: 0x22464D0 VA: 0x182247ED0 Slot: 6
 	protected override void Start() { }
 
-	// RVA: 0x2247940 Offset: 0x2245F40 VA: 0x182247940
+	// RVA: 0x2247780 Offset: 0x2245D80 VA: 0x182247780
 	private void InternalToggle() { }
 
-	// RVA: 0x2247BB0 Offset: 0x22461B0 VA: 0x182247BB0 Slot: 49
+	// RVA: 0x22479F0 Offset: 0x2245FF0 VA: 0x1822479F0 Slot: 49
 	public virtual void OnPointerClick(PointerEventData eventData) { }
 
-	// RVA: 0x2247940 Offset: 0x2245F40 VA: 0x182247940 Slot: 50
+	// RVA: 0x2247780 Offset: 0x2245D80 VA: 0x182247780 Slot: 50
 	public virtual void OnSubmit(BaseEventData eventData) { }
 
 	// RVA: 0xABD310 Offset: 0xABB910 VA: 0x180ABD310 Slot: 42
@@ -91,7 +91,7 @@ public enum Toggle.ToggleTransition // TypeDefIndex: 5016
 public class Toggle.ToggleEvent : UnityEvent<bool> // TypeDefIndex: 5017
 {	// Methods
 
-	// RVA: 0x2247010 Offset: 0x2245610 VA: 0x182247010
+	// RVA: 0x2246E50 Offset: 0x2245450 VA: 0x182246E50
 	public void .ctor() { }
 
 }

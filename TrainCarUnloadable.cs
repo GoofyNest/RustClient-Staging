@@ -1,25 +1,25 @@
 public class TrainCarUnloadable : TrainCar // TypeDefIndex: 8470
 {	// Fields
 	private Option __menuOption_Menu_Open; // 0x538
-	[HeaderAttribute] // RVA: 0x93F60 Offset: 0x93360 VA: 0x180093F60
-	[SerializeField] // RVA: 0x93F60 Offset: 0x93360 VA: 0x180093F60
+	[HeaderAttribute] // RVA: 0x93FE0 Offset: 0x933E0 VA: 0x180093FE0
+	[SerializeField] // RVA: 0x93FE0 Offset: 0x933E0 VA: 0x180093FE0
 	private GameObjectRef storagePrefab; // 0x590
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BoxCollider[] unloadingAreas; // 0x598
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TrainCarFuelHatches fuelHatches; // 0x5A0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform orePlaneVisuals; // 0x5A8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform orePlaneColliderDetailed; // 0x5B0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform orePlaneColliderWorld; // 0x5B8
-	[SerializeField] // RVA: 0x764E0 Offset: 0x758E0 VA: 0x1800764E0
-	[RangeAttribute] // RVA: 0x764E0 Offset: 0x758E0 VA: 0x1800764E0
+	[SerializeField] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
+	[RangeAttribute] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
 	public float vacuumStretchPercent; // 0x5C0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystemContainer unloadingFXContainer; // 0x5C8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ParticleSystem unloadingFX; // 0x5D0
 	public TrainCarUnloadable.WagonType wagonType; // 0x5D8
 	private int lootTypeIndex; // 0x5DC
@@ -27,7 +27,7 @@ public class TrainCarUnloadable : TrainCar // TypeDefIndex: 8470
 	private Vector3 _oreScale; // 0x5E8
 	private float animPercent; // 0x5F4
 	private float prevAnimTime; // 0x5F8
-	[ServerVar] // RVA: 0x94530 Offset: 0x93930 VA: 0x180094530
+	[ServerVar] // RVA: 0x945B0 Offset: 0x939B0 VA: 0x1800945B0
 	public static float decayminutesafterunload; // 0x0
 	private List<MeshRenderer> orePlaneRenderers; // 0x600
 	private float clientOrePercentFull; // 0x608
@@ -94,21 +94,21 @@ public class TrainCarUnloadable : TrainCar // TypeDefIndex: 8470
 	// RVA: 0xA0DD50 Offset: 0xA0C350 VA: 0x180A0DD50
 	private void SetClientOrePercent(float percent) { }
 
-	[BaseEntity.Menu] // RVA: 0x94640 Offset: 0x93A40 VA: 0x180094640
-	[BaseEntity.Menu.Description] // RVA: 0x94640 Offset: 0x93A40 VA: 0x180094640
-	[BaseEntity.Menu.Icon] // RVA: 0x94640 Offset: 0x93A40 VA: 0x180094640
-	[BaseEntity.Menu.ShowIf] // RVA: 0x94640 Offset: 0x93A40 VA: 0x180094640
+	[BaseEntity.Menu] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
+	[BaseEntity.Menu.Description] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
+	[BaseEntity.Menu.Icon] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
 	// RVA: 0xA0D0A0 Offset: 0xA0B6A0 VA: 0x180A0D0A0
 	public void Menu_Open(BasePlayer player) { }
 
 	// RVA: 0xA0CFD0 Offset: 0xA0B5D0 VA: 0x180A0CFD0
 	public bool Menu_Open_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA0DBC0 Offset: 0xA0C1C0 VA: 0x180A0DBC0
 	private void RPC_AnimateUnload(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA0DCF0 Offset: 0xA0C2F0 VA: 0x180A0DCF0
 	private void RPC_StopAnimateUnload(BaseEntity.RPCMessage msg) { }
 

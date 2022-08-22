@@ -1,18 +1,18 @@
 public class BuildInfo // TypeDefIndex: 6169
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <Date>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BuildInfo.ScmInfo <Scm>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BuildInfo.BuildDesc <Build>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <Valid>k__BackingField; // 0x28
 	private static BuildInfo _current; // 0x0
 
 	// Properties
 	public int Date { get; set; }
-	[JsonIgnoreAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[JsonIgnoreAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public DateTime BuildDate { get; }
 	public BuildInfo.ScmInfo Scm { get; set; }
 	public BuildInfo.BuildDesc Build { get; set; }
@@ -21,38 +21,38 @@ public class BuildInfo // TypeDefIndex: 6169
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public int get_Date() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
 	public void set_Date(int value) { }
 
 	// RVA: 0x14AA9D0 Offset: 0x14A8FD0 VA: 0x1814AA9D0
 	public DateTime get_BuildDate() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public BuildInfo.ScmInfo get_Scm() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	public void set_Scm(BuildInfo.ScmInfo value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public BuildInfo.BuildDesc get_Build() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_Build(BuildInfo.BuildDesc value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x9974E0 Offset: 0x995AE0 VA: 0x1809974E0
 	public bool get_Valid() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x9974F0 Offset: 0x995AF0 VA: 0x1809974F0
 	public void set_Valid(bool value) { }
 
@@ -66,19 +66,19 @@ public class BuildInfo // TypeDefIndex: 6169
 
 public class BuildInfo.ScmInfo // TypeDefIndex: 6170
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Type>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <ChangeId>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Branch>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Repo>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Comment>k__BackingField; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Author>k__BackingField; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Date>k__BackingField; // 0x40
 
 	// Properties
@@ -92,59 +92,59 @@ public class BuildInfo.ScmInfo // TypeDefIndex: 6170
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public string get_Type() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	public void set_Type(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public string get_ChangeId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	public void set_ChangeId(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public string get_Branch() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_Branch(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
 	public string get_Repo() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
 	public void set_Repo(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	public string get_Comment() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
 	public void set_Comment(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
 	public string get_Author() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
 	public void set_Author(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
 	public string get_Date() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
 	public void set_Date(string value) { }
 
@@ -155,17 +155,17 @@ public class BuildInfo.ScmInfo // TypeDefIndex: 6170
 
 public class BuildInfo.BuildDesc // TypeDefIndex: 6171
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Id>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Number>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Tag>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Url>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Name>k__BackingField; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Node>k__BackingField; // 0x38
 
 	// Properties
@@ -178,51 +178,51 @@ public class BuildInfo.BuildDesc // TypeDefIndex: 6171
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public string get_Id() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	public void set_Id(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public string get_Number() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	public void set_Number(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public string get_Tag() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_Tag(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
 	public string get_Url() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
 	public void set_Url(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	public string get_Name() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
 	public void set_Name(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
 	public string get_Node() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
 	public void set_Node(string value) { }
 
@@ -241,13 +241,13 @@ public class BuildingBlock : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1F714D0 Offset: 0x1F6FAD0 VA: 0x181F714D0
+	// RVA: 0x1F71310 Offset: 0x1F6F910 VA: 0x181F71310
 	public static void ResetToPool(BuildingBlock instance) { }
 
-	// RVA: 0x1F71560 Offset: 0x1F6FB60 VA: 0x181F71560
+	// RVA: 0x1F713A0 Offset: 0x1F6F9A0 VA: 0x181F713A0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F711F0 Offset: 0x1F6F7F0 VA: 0x181F711F0 Slot: 9
+	// RVA: 0x1F71030 Offset: 0x1F6F630 VA: 0x181F71030 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -256,64 +256,64 @@ public class BuildingBlock : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D68DA0 Offset: 0x1D673A0 VA: 0x181D68DA0
+	// RVA: 0x1D68BE0 Offset: 0x1D671E0 VA: 0x181D68BE0
 	public void CopyTo(BuildingBlock instance) { }
 
-	// RVA: 0x1F702C0 Offset: 0x1F6E8C0 VA: 0x181F702C0
+	// RVA: 0x1F70100 Offset: 0x1F6E700 VA: 0x181F70100
 	public BuildingBlock Copy() { }
 
-	// RVA: 0x1F70E50 Offset: 0x1F6F450 VA: 0x181F70E50
+	// RVA: 0x1F70C90 Offset: 0x1F6F290 VA: 0x181F70C90
 	public static BuildingBlock Deserialize(Stream stream) { }
 
-	// RVA: 0x1F70340 Offset: 0x1F6E940 VA: 0x181F70340
+	// RVA: 0x1F70180 Offset: 0x1F6E780 VA: 0x181F70180
 	public static BuildingBlock DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F708A0 Offset: 0x1F6EEA0 VA: 0x181F708A0
+	// RVA: 0x1F706E0 Offset: 0x1F6ECE0 VA: 0x181F706E0
 	public static BuildingBlock DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F70BB0 Offset: 0x1F6F1B0 VA: 0x181F70BB0
+	// RVA: 0x1F709F0 Offset: 0x1F6EFF0 VA: 0x181F709F0
 	public static BuildingBlock Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F71300 Offset: 0x1F6F900 VA: 0x181F71300
+	// RVA: 0x1F71140 Offset: 0x1F6F740 VA: 0x181F71140
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F71AA0 Offset: 0x1F700A0 VA: 0x181F71AA0 Slot: 12
+	// RVA: 0x1F718E0 Offset: 0x1F6FEE0 VA: 0x181F718E0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F71AC0 Offset: 0x1F700C0 VA: 0x181F71AC0 Slot: 13
+	// RVA: 0x1F71900 Offset: 0x1F6FF00 VA: 0x181F71900 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, BuildingBlock previous) { }
 
-	// RVA: 0x1F714B0 Offset: 0x1F6FAB0 VA: 0x181F714B0 Slot: 14
+	// RVA: 0x1F712F0 Offset: 0x1F6F8F0 VA: 0x181F712F0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F70930 Offset: 0x1F6EF30 VA: 0x181F70930
+	// RVA: 0x1F70770 Offset: 0x1F6ED70 VA: 0x181F70770
 	public static BuildingBlock Deserialize(byte[] buffer, BuildingBlock instance, bool isDelta = False) { }
 
-	// RVA: 0x1F71040 Offset: 0x1F6F640 VA: 0x181F71040
+	// RVA: 0x1F70E80 Offset: 0x1F6F480 VA: 0x181F70E80
 	public static BuildingBlock Deserialize(Stream stream, BuildingBlock instance, bool isDelta) { }
 
-	// RVA: 0x1F703C0 Offset: 0x1F6E9C0 VA: 0x181F703C0
+	// RVA: 0x1F70200 Offset: 0x1F6E800 VA: 0x181F70200
 	public static BuildingBlock DeserializeLengthDelimited(Stream stream, BuildingBlock instance, bool isDelta) { }
 
-	// RVA: 0x1F70640 Offset: 0x1F6EC40 VA: 0x181F70640
+	// RVA: 0x1F70480 Offset: 0x1F6EA80 VA: 0x181F70480
 	public static BuildingBlock DeserializeLength(Stream stream, int length, BuildingBlock instance, bool isDelta) { }
 
-	// RVA: 0x1F715F0 Offset: 0x1F6FBF0 VA: 0x181F715F0
+	// RVA: 0x1F71430 Offset: 0x1F6FA30 VA: 0x181F71430
 	public static void SerializeDelta(Stream stream, BuildingBlock instance, BuildingBlock previous) { }
 
-	// RVA: 0x1F71970 Offset: 0x1F6FF70 VA: 0x181F71970
+	// RVA: 0x1F717B0 Offset: 0x1F6FDB0 VA: 0x181F717B0
 	public static void Serialize(Stream stream, BuildingBlock instance) { }
 
-	// RVA: 0x1F71A90 Offset: 0x1F70090 VA: 0x181F71A90
+	// RVA: 0x1F718D0 Offset: 0x1F6FED0 VA: 0x181F718D0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F71AA0 Offset: 0x1F700A0 VA: 0x181F71AA0
+	// RVA: 0x1F718E0 Offset: 0x1F6FEE0 VA: 0x181F718E0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F71860 Offset: 0x1F6FE60 VA: 0x181F71860
+	// RVA: 0x1F716A0 Offset: 0x1F6FCA0 VA: 0x181F716A0
 	public static byte[] SerializeToBytes(BuildingBlock instance) { }
 
-	// RVA: 0x1F717B0 Offset: 0x1F6FDB0 VA: 0x181F717B0
+	// RVA: 0x1F715F0 Offset: 0x1F6FBF0 VA: 0x181F715F0
 	public static void SerializeLengthDelimited(Stream stream, BuildingBlock instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -332,13 +332,13 @@ public class BuildingPrivilege : IDisposable, Pool.IPooled, IProto // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1F73370 Offset: 0x1F71970 VA: 0x181F73370
+	// RVA: 0x1F731B0 Offset: 0x1F717B0 VA: 0x181F731B0
 	public static void ResetToPool(BuildingPrivilege instance) { }
 
-	// RVA: 0x1F73560 Offset: 0x1F71B60 VA: 0x181F73560
+	// RVA: 0x1F733A0 Offset: 0x1F719A0 VA: 0x181F733A0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F73070 Offset: 0x1F71670 VA: 0x181F73070 Slot: 9
+	// RVA: 0x1F72EB0 Offset: 0x1F714B0 VA: 0x181F72EB0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -347,64 +347,64 @@ public class BuildingPrivilege : IDisposable, Pool.IPooled, IProto // TypeDefInd
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F71AE0 Offset: 0x1F700E0 VA: 0x181F71AE0
+	// RVA: 0x1F71920 Offset: 0x1F6FF20 VA: 0x181F71920
 	public void CopyTo(BuildingPrivilege instance) { }
 
-	// RVA: 0x1F71C20 Offset: 0x1F70220 VA: 0x181F71C20
+	// RVA: 0x1F71A60 Offset: 0x1F70060 VA: 0x181F71A60
 	public BuildingPrivilege Copy() { }
 
-	// RVA: 0x1F72860 Offset: 0x1F70E60 VA: 0x181F72860
+	// RVA: 0x1F726A0 Offset: 0x1F70CA0 VA: 0x181F726A0
 	public static BuildingPrivilege Deserialize(Stream stream) { }
 
-	// RVA: 0x1F720F0 Offset: 0x1F706F0 VA: 0x181F720F0
+	// RVA: 0x1F71F30 Offset: 0x1F70530 VA: 0x181F71F30
 	public static BuildingPrivilege DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F72170 Offset: 0x1F70770 VA: 0x181F72170
+	// RVA: 0x1F71FB0 Offset: 0x1F705B0 VA: 0x181F71FB0
 	public static BuildingPrivilege DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F72D50 Offset: 0x1F71350 VA: 0x181F72D50
+	// RVA: 0x1F72B90 Offset: 0x1F71190 VA: 0x181F72B90
 	public static BuildingPrivilege Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F730F0 Offset: 0x1F716F0 VA: 0x181F730F0
+	// RVA: 0x1F72F30 Offset: 0x1F71530 VA: 0x181F72F30
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F73EB0 Offset: 0x1F724B0 VA: 0x181F73EB0 Slot: 12
+	// RVA: 0x1F73CF0 Offset: 0x1F722F0 VA: 0x181F73CF0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F73ED0 Offset: 0x1F724D0 VA: 0x181F73ED0 Slot: 13
+	// RVA: 0x1F73D10 Offset: 0x1F72310 VA: 0x181F73D10 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, BuildingPrivilege previous) { }
 
-	// RVA: 0x1F73350 Offset: 0x1F71950 VA: 0x181F73350 Slot: 14
+	// RVA: 0x1F73190 Offset: 0x1F71790 VA: 0x181F73190 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F72520 Offset: 0x1F70B20 VA: 0x181F72520
+	// RVA: 0x1F72360 Offset: 0x1F70960 VA: 0x181F72360
 	public static BuildingPrivilege Deserialize(byte[] buffer, BuildingPrivilege instance, bool isDelta = False) { }
 
-	// RVA: 0x1F72AE0 Offset: 0x1F710E0 VA: 0x181F72AE0
+	// RVA: 0x1F72920 Offset: 0x1F70F20 VA: 0x181F72920
 	public static BuildingPrivilege Deserialize(Stream stream, BuildingPrivilege instance, bool isDelta) { }
 
-	// RVA: 0x1F71DB0 Offset: 0x1F703B0 VA: 0x181F71DB0
+	// RVA: 0x1F71BF0 Offset: 0x1F701F0 VA: 0x181F71BF0
 	public static BuildingPrivilege DeserializeLengthDelimited(Stream stream, BuildingPrivilege instance, bool isDelta) { }
 
-	// RVA: 0x1F72200 Offset: 0x1F70800 VA: 0x181F72200
+	// RVA: 0x1F72040 Offset: 0x1F70640 VA: 0x181F72040
 	public static BuildingPrivilege DeserializeLength(Stream stream, int length, BuildingPrivilege instance, bool isDelta) { }
 
-	// RVA: 0x1F73750 Offset: 0x1F71D50 VA: 0x181F73750
+	// RVA: 0x1F73590 Offset: 0x1F71B90 VA: 0x181F73590
 	public static void SerializeDelta(Stream stream, BuildingPrivilege instance, BuildingPrivilege previous) { }
 
-	// RVA: 0x1F73C20 Offset: 0x1F72220 VA: 0x181F73C20
+	// RVA: 0x1F73A60 Offset: 0x1F72060 VA: 0x181F73A60
 	public static void Serialize(Stream stream, BuildingPrivilege instance) { }
 
-	// RVA: 0x1F73EA0 Offset: 0x1F724A0 VA: 0x181F73EA0
+	// RVA: 0x1F73CE0 Offset: 0x1F722E0 VA: 0x181F73CE0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F73EB0 Offset: 0x1F724B0 VA: 0x181F73EB0
+	// RVA: 0x1F73CF0 Offset: 0x1F722F0 VA: 0x181F73CF0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F73B10 Offset: 0x1F72110 VA: 0x181F73B10
+	// RVA: 0x1F73950 Offset: 0x1F71F50 VA: 0x181F73950
 	public static byte[] SerializeToBytes(BuildingPrivilege instance) { }
 
-	// RVA: 0x1F73A60 Offset: 0x1F72060 VA: 0x181F73A60
+	// RVA: 0x1F738A0 Offset: 0x1F71EA0 VA: 0x181F738A0
 	public static void SerializeLengthDelimited(Stream stream, BuildingPrivilege instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -470,40 +470,40 @@ public class BuildingPrivlidge : StorageContainer // TypeDefIndex: 8363
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void BuildingDirty() { }
 
-	[BaseEntity.Menu] // RVA: 0xCDB90 Offset: 0xCCF90 VA: 0x1800CDB90
-	[BaseEntity.Menu.Description] // RVA: 0xCDB90 Offset: 0xCCF90 VA: 0x1800CDB90
-	[BaseEntity.Menu.Icon] // RVA: 0xCDB90 Offset: 0xCCF90 VA: 0x1800CDB90
-	[BaseEntity.Menu.ShowIf] // RVA: 0xCDB90 Offset: 0xCCF90 VA: 0x1800CDB90
+	[BaseEntity.Menu] // RVA: 0xCDC20 Offset: 0xCD020 VA: 0x1800CDC20
+	[BaseEntity.Menu.Description] // RVA: 0xCDC20 Offset: 0xCD020 VA: 0x1800CDC20
+	[BaseEntity.Menu.Icon] // RVA: 0xCDC20 Offset: 0xCD020 VA: 0x1800CDC20
+	[BaseEntity.Menu.ShowIf] // RVA: 0xCDC20 Offset: 0xCD020 VA: 0x1800CDC20
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void Menu_MaxAuth(BasePlayer player) { }
 
 	// RVA: 0x6EDFB0 Offset: 0x6EC5B0 VA: 0x1806EDFB0
 	public bool MenuMaxAuth_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xCDED0 Offset: 0xCD2D0 VA: 0x1800CDED0
-	[BaseEntity.Menu.Description] // RVA: 0xCDED0 Offset: 0xCD2D0 VA: 0x1800CDED0
-	[BaseEntity.Menu.Icon] // RVA: 0xCDED0 Offset: 0xCD2D0 VA: 0x1800CDED0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xCDED0 Offset: 0xCD2D0 VA: 0x1800CDED0
+	[BaseEntity.Menu] // RVA: 0xCDF10 Offset: 0xCD310 VA: 0x1800CDF10
+	[BaseEntity.Menu.Description] // RVA: 0xCDF10 Offset: 0xCD310 VA: 0x1800CDF10
+	[BaseEntity.Menu.Icon] // RVA: 0xCDF10 Offset: 0xCD310 VA: 0x1800CDF10
+	[BaseEntity.Menu.ShowIf] // RVA: 0xCDF10 Offset: 0xCD310 VA: 0x1800CDF10
 	// RVA: 0x6EDE00 Offset: 0x6EC400 VA: 0x1806EDE00
 	public void MenuAuthorize(BasePlayer player) { }
 
 	// RVA: 0x6EDDC0 Offset: 0x6EC3C0 VA: 0x1806EDDC0
 	public bool MenuAuthorize_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xCE220 Offset: 0xCD620 VA: 0x1800CE220
-	[BaseEntity.Menu.Description] // RVA: 0xCE220 Offset: 0xCD620 VA: 0x1800CE220
-	[BaseEntity.Menu.Icon] // RVA: 0xCE220 Offset: 0xCD620 VA: 0x1800CE220
-	[BaseEntity.Menu.ShowIf] // RVA: 0xCE220 Offset: 0xCD620 VA: 0x1800CE220
+	[BaseEntity.Menu] // RVA: 0xCE2B0 Offset: 0xCD6B0 VA: 0x1800CE2B0
+	[BaseEntity.Menu.Description] // RVA: 0xCE2B0 Offset: 0xCD6B0 VA: 0x1800CE2B0
+	[BaseEntity.Menu.Icon] // RVA: 0xCE2B0 Offset: 0xCD6B0 VA: 0x1800CE2B0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xCE2B0 Offset: 0xCD6B0 VA: 0x1800CE2B0
 	// RVA: 0x6EDF70 Offset: 0x6EC570 VA: 0x1806EDF70
 	public void MenuDeauthorize(BasePlayer player) { }
 
 	// RVA: 0x6EDF60 Offset: 0x6EC560 VA: 0x1806EDF60
 	public bool MenuDeauthorize_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xCF890 Offset: 0xCEC90 VA: 0x1800CF890
-	[BaseEntity.Menu.Description] // RVA: 0xCF890 Offset: 0xCEC90 VA: 0x1800CF890
-	[BaseEntity.Menu.Icon] // RVA: 0xCF890 Offset: 0xCEC90 VA: 0x1800CF890
-	[BaseEntity.Menu.ShowIf] // RVA: 0xCF890 Offset: 0xCEC90 VA: 0x1800CF890
+	[BaseEntity.Menu] // RVA: 0xCF8F0 Offset: 0xCECF0 VA: 0x1800CF8F0
+	[BaseEntity.Menu.Description] // RVA: 0xCF8F0 Offset: 0xCECF0 VA: 0x1800CF8F0
+	[BaseEntity.Menu.Icon] // RVA: 0xCF8F0 Offset: 0xCECF0 VA: 0x1800CF8F0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xCF8F0 Offset: 0xCECF0 VA: 0x1800CF8F0
 	// RVA: 0x6EDF20 Offset: 0x6EC520 VA: 0x1806EDF20
 	public void MenuClearList(BasePlayer player) { }
 
@@ -513,10 +513,10 @@ public class BuildingPrivlidge : StorageContainer // TypeDefIndex: 8363
 	// RVA: 0x6EE270 Offset: 0x6EC870 VA: 0x1806EE270 Slot: 153
 	public override bool ShouldShowLootMenus() { }
 
-	[BaseEntity.Menu] // RVA: 0xCFAB0 Offset: 0xCEEB0 VA: 0x1800CFAB0
-	[BaseEntity.Menu.Description] // RVA: 0xCFAB0 Offset: 0xCEEB0 VA: 0x1800CFAB0
-	[BaseEntity.Menu.Icon] // RVA: 0xCFAB0 Offset: 0xCEEB0 VA: 0x1800CFAB0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xCFAB0 Offset: 0xCEEB0 VA: 0x1800CFAB0
+	[BaseEntity.Menu] // RVA: 0xCFB40 Offset: 0xCEF40 VA: 0x1800CFB40
+	[BaseEntity.Menu.Description] // RVA: 0xCFB40 Offset: 0xCEF40 VA: 0x1800CFB40
+	[BaseEntity.Menu.Icon] // RVA: 0xCFB40 Offset: 0xCEF40 VA: 0x1800CFB40
+	[BaseEntity.Menu.ShowIf] // RVA: 0xCFB40 Offset: 0xCEF40 VA: 0x1800CFB40
 	// RVA: 0x6EE0E0 Offset: 0x6EC6E0 VA: 0x1806EE0E0
 	public void Menu_RotateVM(BasePlayer player) { }
 
@@ -596,7 +596,7 @@ public class BuildingBlock : StabilityEntity // TypeDefIndex: 8538
 	// RVA: 0x6E94F0 Offset: 0x6E7AF0 VA: 0x1806E94F0
 	public List<Option> GetBuildMenu(BasePlayer player) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6EB6E0 Offset: 0x6E9CE0 VA: 0x1806EB6E0
 	private void RefreshSkin(BaseEntity.RPCMessage msg) { }
 

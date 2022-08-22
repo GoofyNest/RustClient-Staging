@@ -47,7 +47,7 @@ public class BinaryReader : IDisposable // TypeDefIndex: 616
 	// RVA: 0x13762A0 Offset: 0x13748A0 VA: 0x1813762A0 Slot: 10
 	public virtual byte ReadByte() { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x1376A80 Offset: 0x1375080 VA: 0x181376A80 Slot: 11
 	public virtual sbyte ReadSByte() { }
 
@@ -57,21 +57,21 @@ public class BinaryReader : IDisposable // TypeDefIndex: 616
 	// RVA: 0x1376730 Offset: 0x1374D30 VA: 0x181376730 Slot: 13
 	public virtual short ReadInt16() { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x1376730 Offset: 0x1374D30 VA: 0x181376730 Slot: 14
 	public virtual ushort ReadUInt16() { }
 
 	// RVA: 0x13767A0 Offset: 0x1374DA0 VA: 0x1813767A0 Slot: 15
 	public virtual int ReadInt32() { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x1376E20 Offset: 0x1375420 VA: 0x181376E20 Slot: 16
 	public virtual uint ReadUInt32() { }
 
 	// RVA: 0x1376910 Offset: 0x1374F10 VA: 0x181376910 Slot: 17
 	public virtual long ReadInt64() { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x1376910 Offset: 0x1374F10 VA: 0x181376910 Slot: 18
 	public virtual ulong ReadUInt64() { }
 
@@ -117,9 +117,9 @@ public class BinaryWriter : IDisposable // TypeDefIndex: 617
 	private byte[] _buffer; // 0x18
 	private Encoding _encoding; // 0x20
 	private Encoder _encoder; // 0x28
-	[OptionalFieldAttribute] // RVA: 0x7B620 Offset: 0x7AA20 VA: 0x18007B620
+	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
 	private bool _leaveOpen; // 0x30
-	[OptionalFieldAttribute] // RVA: 0x7B620 Offset: 0x7AA20 VA: 0x18007B620
+	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
 	private char[] _tmpOneCharBuffer; // 0x38
 	private byte[] _largeByteBuffer; // 0x40
 	private int _maxChars; // 0x48
@@ -163,7 +163,7 @@ public class BinaryWriter : IDisposable // TypeDefIndex: 617
 	// RVA: 0x1318750 Offset: 0x1316D50 VA: 0x181318750 Slot: 10
 	public virtual void Write(byte value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x1318750 Offset: 0x1316D50 VA: 0x181318750 Slot: 11
 	public virtual void Write(sbyte value) { }
 
@@ -185,21 +185,21 @@ public class BinaryWriter : IDisposable // TypeDefIndex: 617
 	// RVA: 0x1377520 Offset: 0x1375B20 VA: 0x181377520 Slot: 17
 	public virtual void Write(short value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x1377490 Offset: 0x1375A90 VA: 0x181377490 Slot: 18
 	public virtual void Write(ushort value) { }
 
 	// RVA: 0x1377950 Offset: 0x1375F50 VA: 0x181377950 Slot: 19
 	public virtual void Write(int value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x1377C00 Offset: 0x1376200 VA: 0x181377C00 Slot: 20
 	public virtual void Write(uint value) { }
 
 	// RVA: 0x13775B0 Offset: 0x1375BB0 VA: 0x1813775B0 Slot: 21
 	public virtual void Write(long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x1377A40 Offset: 0x1376040 VA: 0x181377A40 Slot: 22
 	public virtual void Write(ulong value) { }
 
@@ -807,7 +807,7 @@ private enum BinaryNode.DataTypePrecedence // TypeDefIndex: 4244
 public class BinaryConverter : JsonConverter // TypeDefIndex: 6099
 {
 // Namespace: Newtonsoft.Json.Converters
-[PreserveAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 public class BinaryConverter : JsonConverter // TypeDefIndex: 6099
 	// Fields
 	private ReflectionObject _reflectionObject; // 0x10
@@ -859,9 +859,9 @@ internal enum BsonBinaryType // TypeDefIndex: 6132
 	public byte value__; // 0x0
 	public const BsonBinaryType Binary = 0;
 	public const BsonBinaryType Function = 1;
-	[ObsoleteAttribute] // RVA: 0x96FB0 Offset: 0x963B0 VA: 0x180096FB0
+	[ObsoleteAttribute] // RVA: 0x97070 Offset: 0x96470 VA: 0x180097070
 	public const BsonBinaryType BinaryOld = 2;
-	[ObsoleteAttribute] // RVA: 0x97110 Offset: 0x96510 VA: 0x180097110
+	[ObsoleteAttribute] // RVA: 0x97160 Offset: 0x96560 VA: 0x180097160
 	public const BsonBinaryType UuidOld = 3;
 	public const BsonBinaryType Uuid = 4;
 	public const BsonBinaryType Md5 = 5;
@@ -1006,7 +1006,7 @@ private class BsonReader.ContainerContext // TypeDefIndex: 6136
 
 internal abstract class BsonToken // TypeDefIndex: 6137
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BsonToken <Parent>k__BackingField; // 0x10
 
 	// Properties
@@ -1018,7 +1018,7 @@ internal abstract class BsonToken // TypeDefIndex: 6137
 	// RVA: -1 Offset: -1 Slot: 4
 	public abstract BsonType get_Type();
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	public void set_Parent(BsonToken value) { }
 
@@ -1099,7 +1099,7 @@ internal class BsonValue : BsonToken // TypeDefIndex: 6140
 
 internal class BsonString : BsonValue // TypeDefIndex: 6141
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IncludeLength>k__BackingField; // 0x28
 
 	// Properties
@@ -1107,7 +1107,7 @@ internal class BsonString : BsonValue // TypeDefIndex: 6141
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x9974F0 Offset: 0x995AF0 VA: 0x1809974F0
 	public void set_IncludeLength(bool value) { }
 
@@ -1119,12 +1119,12 @@ internal class BsonString : BsonValue // TypeDefIndex: 6141
 internal class BsonRegex : BsonToken // TypeDefIndex: 6143
 {
 // Namespace: Newtonsoft.Json.Bson
-[PreserveAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal class BsonRegex : BsonToken // TypeDefIndex: 6143
 	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BsonString <Pattern>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BsonString <Options>k__BackingField; // 0x20
 
 	// Properties
@@ -1134,11 +1134,11 @@ internal class BsonRegex : BsonToken // TypeDefIndex: 6143
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	public void set_Pattern(BsonString value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_Options(BsonString value) { }
 
@@ -1152,9 +1152,9 @@ internal class BsonRegex : BsonToken // TypeDefIndex: 6143
 
 internal class BsonProperty // TypeDefIndex: 6144
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BsonString <Name>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BsonToken <Value>k__BackingField; // 0x18
 
 	// Properties
@@ -1163,11 +1163,11 @@ internal class BsonProperty // TypeDefIndex: 6144
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	public void set_Name(BsonString value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	public void set_Value(BsonToken value) { }
 
@@ -1226,7 +1226,7 @@ public class BsonWriter : JsonWriter // TypeDefIndex: 6146
 
 public class BsonObjectId // TypeDefIndex: 6147
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private byte[] <Value>k__BackingField; // 0x10
 
 	// Properties
@@ -1234,11 +1234,11 @@ public class BsonObjectId // TypeDefIndex: 6147
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public byte[] get_Value() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	private void set_Value(byte[] value) { }
 
@@ -1250,7 +1250,7 @@ public class BsonObjectId // TypeDefIndex: 6147
 public static class BinaryReaderExtensions // TypeDefIndex: 6221
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14AA8B0 Offset: 0x14A8EB0 VA: 0x1814AA8B0
 	public static Vector3 ReadVector3(BinaryReader o) { }
 
@@ -1259,7 +1259,7 @@ public static class BinaryReaderExtensions // TypeDefIndex: 6221
 public static class BinaryWriterExtensions // TypeDefIndex: 6222
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14AA950 Offset: 0x14A8F50 VA: 0x1814AA950
 	public static void Write(BinaryWriter o, Vector3 vec) { }
 
@@ -1271,10 +1271,10 @@ public sealed class BinaryDataHandler : MulticastDelegate // TypeDefIndex: 6911
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1A42F50 Offset: 0x1A41550 VA: 0x181A42F50 Slot: 12
+	// RVA: 0x1A42F10 Offset: 0x1A41510 VA: 0x181A42F10 Slot: 12
 	public virtual void Invoke(Span<byte> data) { }
 
-	// RVA: 0x22054E0 Offset: 0x2203AE0 VA: 0x1822054E0 Slot: 13
+	// RVA: 0x2205320 Offset: 0x2203920 VA: 0x182205320 Slot: 13
 	public virtual IAsyncResult BeginInvoke(Span<byte> data, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

@@ -1,8 +1,8 @@
 public class RangeConditionHeaderValue : ICloneable // TypeDefIndex: 5803
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<DateTimeOffset> <Date>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private EntityTagHeaderValue <EntityTag>k__BackingField; // 0x28
 
 	// Properties
@@ -17,19 +17,19 @@ public class RangeConditionHeaderValue : ICloneable // TypeDefIndex: 5803
 	// RVA: 0x1095170 Offset: 0x1093770 VA: 0x181095170
 	public void .ctor(EntityTagHeaderValue entityTag) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1095200 Offset: 0x1093800 VA: 0x181095200
 	public Nullable<DateTimeOffset> get_Date() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1095220 Offset: 0x1093820 VA: 0x181095220
 	private void set_Date(Nullable<DateTimeOffset> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
 	public EntityTagHeaderValue get_EntityTag() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
 	private void set_EntityTag(EntityTagHeaderValue value) { }
 

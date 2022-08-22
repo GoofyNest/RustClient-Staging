@@ -1,11 +1,11 @@
 internal sealed class DebugLogHandler : ILogHandler // TypeDefIndex: 3370
 {	// Methods
 
-	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1827DF0 Offset: 0x18263F0 VA: 0x181827DF0
 	internal static void Internal_Log(LogType level, LogOption options, string msg, Object obj) { }
 
-	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1827DA0 Offset: 0x18263A0 VA: 0x181827DA0
 	internal static void Internal_LogException(Exception exception, Object obj) { }
 

@@ -13,11 +13,11 @@ public static class Buffer // TypeDefIndex: 180
 	// RVA: 0x1560CC0 Offset: 0x155F2C0 VA: 0x181560CC0
 	internal static void ZeroMemory(byte* src, long len) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x1560B20 Offset: 0x155F120 VA: 0x181560B20
 	internal static void Memcpy(byte[] dest, int destIndex, byte* src, int srcIndex, int len) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x1560940 Offset: 0x155EF40 VA: 0x181560940
 	internal static void Memcpy(byte* pDest, int destIndex, byte[] src, int srcIndex, int len) { }
 
@@ -27,7 +27,7 @@ public static class Buffer // TypeDefIndex: 180
 	// RVA: 0x1560580 Offset: 0x155EB80 VA: 0x181560580
 	public static void BlockCopy(Array src, int srcOffset, Array dst, int dstOffset, int count) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x1560B60 Offset: 0x155F160 VA: 0x181560B60
 	public static void MemoryCopy(void* source, void* destination, long destinationSizeInBytes, long sourceBytesToCopy) { }
 

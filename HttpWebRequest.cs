@@ -57,10 +57,10 @@ public class HttpWebRequest : WebRequest, ISerializable // TypeDefIndex: 3006
 	private HttpWebRequest.AuthorizationState proxy_auth_state; // 0x190
 	private string host; // 0x1A0
 	internal Action<Stream> ResendContentFactory; // 0x1A8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <ThrowOnError>k__BackingField; // 0x1B0
 	private bool unsafe_auth_blah; // 0x1B1
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <ReuseConnection>k__BackingField; // 0x1B2
 	internal WebConnection StoredConnection; // 0x1B8
 
@@ -119,7 +119,7 @@ public class HttpWebRequest : WebRequest, ISerializable // TypeDefIndex: 3006
 	// RVA: 0x13407E0 Offset: 0x133EDE0 VA: 0x1813407E0
 	public void .ctor(Uri uri) { }
 
-	[ObsoleteAttribute] // RVA: 0xB6F60 Offset: 0xB6360 VA: 0x1800B6F60
+	[ObsoleteAttribute] // RVA: 0xB6F50 Offset: 0xB6350 VA: 0x1800B6F50
 	// RVA: 0x13409C0 Offset: 0x133EFC0 VA: 0x1813409C0
 	protected void .ctor(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
@@ -183,11 +183,11 @@ public class HttpWebRequest : WebRequest, ISerializable // TypeDefIndex: 3006
 	// RVA: 0x1341C70 Offset: 0x1340270 VA: 0x181341C70
 	internal void set_InternalContentLength(long value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC82E80 Offset: 0xC81480 VA: 0x180C82E80
 	internal bool get_ThrowOnError() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1342210 Offset: 0x1340810 VA: 0x181342210
 	internal void set_ThrowOnError(bool value) { }
 
@@ -401,23 +401,23 @@ public class HttpWebRequest : WebRequest, ISerializable // TypeDefIndex: 3006
 	// RVA: 0x133CA40 Offset: 0x133B040 VA: 0x18133CA40
 	private bool CheckFinalStatus(WebAsyncResult result) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1341240 Offset: 0x133F840 VA: 0x181341240
 	internal bool get_ReuseConnection() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1342180 Offset: 0x1340780 VA: 0x181342180
 	internal void set_ReuseConnection(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13404B0 Offset: 0x133EAB0 VA: 0x1813404B0
 	private void <SetWriteStream>b__258_0(SimpleAsyncResult result) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1340630 Offset: 0x133EC30 VA: 0x181340630
 	private void <SetWriteStream>b__258_1(SimpleAsyncResult inner) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13403B0 Offset: 0x133E9B0 VA: 0x1813403B0
 	private bool <SetWriteStreamInner>b__259_0(SimpleAsyncResult result) { }
 
@@ -451,25 +451,25 @@ private struct HttpWebRequest.AuthorizationState // TypeDefIndex: 3008
 
 	// Methods
 
-	// RVA: 0x1AE370 Offset: 0x1AD770 VA: 0x1801AE370
+	// RVA: 0x1AE2F0 Offset: 0x1AD6F0 VA: 0x1801AE2F0
 	public bool get_IsCompleted() { }
 
-	// RVA: 0x1AE4B0 Offset: 0x1AD8B0 VA: 0x1801AE4B0
+	// RVA: 0x1AE430 Offset: 0x1AD830 VA: 0x1801AE430
 	public HttpWebRequest.NtlmAuthState get_NtlmAuthState() { }
 
-	// RVA: 0x1E15D0 Offset: 0x1E09D0 VA: 0x1801E15D0
+	// RVA: 0x1E1550 Offset: 0x1E0950 VA: 0x1801E1550
 	public bool get_IsNtlmAuthenticated() { }
 
-	// RVA: 0x1E1590 Offset: 0x1E0990 VA: 0x1801E1590
+	// RVA: 0x1E1510 Offset: 0x1E0910 VA: 0x1801E1510
 	public void .ctor(HttpWebRequest request, bool isProxy) { }
 
-	// RVA: 0x1E14C0 Offset: 0x1E08C0 VA: 0x1801E14C0
+	// RVA: 0x1E1440 Offset: 0x1E0840 VA: 0x1801E1440
 	public bool CheckAuthorization(WebResponse response, HttpStatusCode code) { }
 
-	// RVA: 0x1E14D0 Offset: 0x1E08D0 VA: 0x1801E14D0
+	// RVA: 0x1E1450 Offset: 0x1E0850 VA: 0x1801E1450
 	public void Reset() { }
 
-	// RVA: 0x1E14E0 Offset: 0x1E08E0 VA: 0x1801E14E0 Slot: 3
+	// RVA: 0x1E1460 Offset: 0x1E0860 VA: 0x1801E1460 Slot: 3
 	public override string ToString() { }
 
 }

@@ -16,7 +16,7 @@ public class X509Certificate2 : X509Certificate // TypeDefIndex: 2814
 	public X500DistinguishedName SubjectName { get; }
 	public string Thumbprint { get; }
 	public int Version { get; }
-	[MonoTODOAttribute] // RVA: 0xAFFA0 Offset: 0xAF3A0 VA: 0x1800AFFA0
+	[MonoTODOAttribute] // RVA: 0xAFFE0 Offset: 0xAF3E0 VA: 0x1800AFFE0
 	internal X509Certificate MonoCertificate { get; }
 
 	// Methods
@@ -75,15 +75,15 @@ public class X509Certificate2 : X509Certificate // TypeDefIndex: 2814
 	// RVA: 0x1193760 Offset: 0x1191D60 VA: 0x181193760
 	public int get_Version() { }
 
-	[MonoTODOAttribute] // RVA: 0xAFCA0 Offset: 0xAF0A0 VA: 0x1800AFCA0
+	[MonoTODOAttribute] // RVA: 0xAE930 Offset: 0xADD30 VA: 0x1800AE930
 	// RVA: 0x11929D0 Offset: 0x1190FD0 VA: 0x1811929D0
 	public string GetNameInfo(X509NameType nameType, bool forIssuer) { }
 
-	[MonoTODOAttribute] // RVA: 0xAFD40 Offset: 0xAF140 VA: 0x1800AFD40
+	[MonoTODOAttribute] // RVA: 0xAFD70 Offset: 0xAF170 VA: 0x1800AFD70
 	// RVA: 0x1192A20 Offset: 0x1191020 VA: 0x181192A20 Slot: 14
 	public override void Import(byte[] rawData, string password, X509KeyStorageFlags keyStorageFlags) { }
 
-	[MonoTODOAttribute] // RVA: 0xAFD40 Offset: 0xAF140 VA: 0x1800AFD40
+	[MonoTODOAttribute] // RVA: 0xAFD70 Offset: 0xAF170 VA: 0x1800AFD70
 	// RVA: 0x1192A60 Offset: 0x1191060 VA: 0x181192A60 Slot: 15
 	public override void Import(string fileName, string password, X509KeyStorageFlags keyStorageFlags) { }
 
@@ -99,7 +99,7 @@ public class X509Certificate2 : X509Certificate // TypeDefIndex: 2814
 	// RVA: 0x1192910 Offset: 0x1190F10 VA: 0x181192910
 	private static void AppendBuffer(StringBuilder sb, byte[] buffer) { }
 
-	[MonoTODOAttribute] // RVA: 0xAFF10 Offset: 0xAF310 VA: 0x1800AFF10
+	[MonoTODOAttribute] // RVA: 0xAFF50 Offset: 0xAF350 VA: 0x1800AFF50
 	// RVA: 0x1193220 Offset: 0x1191820 VA: 0x181193220
 	public bool Verify() { }
 

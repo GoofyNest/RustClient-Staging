@@ -1,7 +1,7 @@
 public static class ObjectEx // TypeDefIndex: 11349
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool IsUnityNull<T>(T obj) { }
 	/* GenericInstMethod :

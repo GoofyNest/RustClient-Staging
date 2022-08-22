@@ -6,82 +6,82 @@ public struct VectorData : IProto // TypeDefIndex: 6290
 
 	// Methods
 
-	// RVA: 0xFB580 Offset: 0xFA980 VA: 0x1800FB580
+	// RVA: 0xFB500 Offset: 0xFA900 VA: 0x1800FB500
 	public void .ctor(float x, float y, float z) { }
 
-	// RVA: 0x1EF9950 Offset: 0x1EF7F50 VA: 0x181EF9950
+	// RVA: 0x1EF9790 Offset: 0x1EF7D90 VA: 0x181EF9790
 	public static VectorData op_Implicit(Vector3 v) { }
 
-	// RVA: 0x1EF99D0 Offset: 0x1EF7FD0 VA: 0x181EF99D0
+	// RVA: 0x1EF9810 Offset: 0x1EF7E10 VA: 0x181EF9810
 	public static VectorData op_Implicit(Quaternion q) { }
 
-	// RVA: 0x1EF9980 Offset: 0x1EF7F80 VA: 0x181EF9980
+	// RVA: 0x1EF97C0 Offset: 0x1EF7DC0 VA: 0x181EF97C0
 	public static Vector3 op_Implicit(VectorData v) { }
 
-	// RVA: 0x1EF9A30 Offset: 0x1EF8030 VA: 0x181EF9A30
+	// RVA: 0x1EF9870 Offset: 0x1EF7E70 VA: 0x181EF9870
 	public static Quaternion op_Implicit(VectorData v) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void ResetToPool(VectorData instance) { }
 
-	// RVA: 0xF1F30 Offset: 0xF1330 VA: 0x1800F1F30
+	// RVA: 0xF1EB0 Offset: 0xF12B0 VA: 0x1800F1EB0
 	public void CopyTo(VectorData instance) { }
 
-	// RVA: 0xFB460 Offset: 0xFA860 VA: 0x1800FB460
+	// RVA: 0xFB3E0 Offset: 0xFA7E0 VA: 0x1800FB3E0
 	public VectorData Copy() { }
 
-	// RVA: 0x1EF9280 Offset: 0x1EF7880 VA: 0x181EF9280
+	// RVA: 0x1EF90C0 Offset: 0x1EF76C0 VA: 0x181EF90C0
 	public static VectorData Deserialize(Stream stream) { }
 
-	// RVA: 0x1EF8D80 Offset: 0x1EF7380 VA: 0x181EF8D80
+	// RVA: 0x1EF8BC0 Offset: 0x1EF71C0 VA: 0x181EF8BC0
 	public static VectorData DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1EF8DB0 Offset: 0x1EF73B0 VA: 0x181EF8DB0
+	// RVA: 0x1EF8BF0 Offset: 0x1EF71F0 VA: 0x181EF8BF0
 	public static VectorData DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1EF9180 Offset: 0x1EF7780 VA: 0x181EF9180
+	// RVA: 0x1EF8FC0 Offset: 0x1EF75C0 VA: 0x181EF8FC0
 	public static VectorData Deserialize(byte[] buffer) { }
 
-	// RVA: 0x232190 Offset: 0x231590 VA: 0x180232190
+	// RVA: 0x232110 Offset: 0x231510 VA: 0x180232110
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x232220 Offset: 0x231620 VA: 0x180232220 Slot: 4
+	// RVA: 0x2321A0 Offset: 0x2315A0 VA: 0x1802321A0 Slot: 4
 	public void WriteToStream(Stream stream) { }
 
-	// RVA: 0x232250 Offset: 0x231650 VA: 0x180232250
+	// RVA: 0x2321D0 Offset: 0x2315D0 VA: 0x1802321D0
 	public void WriteToStreamDelta(Stream stream, VectorData previous) { }
 
-	// RVA: 0x2321C0 Offset: 0x2315C0 VA: 0x1802321C0 Slot: 5
+	// RVA: 0x232140 Offset: 0x231540 VA: 0x180232140 Slot: 5
 	public void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1EF9050 Offset: 0x1EF7650 VA: 0x181EF9050
+	// RVA: 0x1EF8E90 Offset: 0x1EF7490 VA: 0x181EF8E90
 	public static VectorData Deserialize(byte[] buffer, ref VectorData instance, bool isDelta = False) { }
 
-	// RVA: 0x1EF92B0 Offset: 0x1EF78B0 VA: 0x181EF92B0
+	// RVA: 0x1EF90F0 Offset: 0x1EF76F0 VA: 0x181EF90F0
 	public static VectorData Deserialize(Stream stream, ref VectorData instance, bool isDelta) { }
 
-	// RVA: 0x1EF8AE0 Offset: 0x1EF70E0 VA: 0x181EF8AE0
+	// RVA: 0x1EF8920 Offset: 0x1EF6F20 VA: 0x181EF8920
 	public static VectorData DeserializeLengthDelimited(Stream stream, ref VectorData instance, bool isDelta) { }
 
-	// RVA: 0x1EF8DE0 Offset: 0x1EF73E0 VA: 0x181EF8DE0
+	// RVA: 0x1EF8C20 Offset: 0x1EF7220 VA: 0x181EF8C20
 	public static VectorData DeserializeLength(Stream stream, int length, ref VectorData instance, bool isDelta) { }
 
-	// RVA: 0x1EF9460 Offset: 0x1EF7A60 VA: 0x181EF9460
+	// RVA: 0x1EF92A0 Offset: 0x1EF78A0 VA: 0x181EF92A0
 	public static void SerializeDelta(Stream stream, VectorData instance, VectorData previous) { }
 
-	// RVA: 0x1EF9830 Offset: 0x1EF7E30 VA: 0x181EF9830
+	// RVA: 0x1EF9670 Offset: 0x1EF7C70 VA: 0x181EF9670
 	public static void Serialize(Stream stream, VectorData instance) { }
 
-	// RVA: 0x2321F0 Offset: 0x2315F0 VA: 0x1802321F0
+	// RVA: 0x232170 Offset: 0x231570 VA: 0x180232170
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x232220 Offset: 0x231620 VA: 0x180232220
+	// RVA: 0x2321A0 Offset: 0x2315A0 VA: 0x1802321A0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1EF9710 Offset: 0x1EF7D10 VA: 0x181EF9710
+	// RVA: 0x1EF9550 Offset: 0x1EF7B50 VA: 0x181EF9550
 	public static byte[] SerializeToBytes(VectorData instance) { }
 
-	// RVA: 0x1EF9650 Offset: 0x1EF7C50 VA: 0x181EF9650
+	// RVA: 0x1EF9490 Offset: 0x1EF7A90 VA: 0x181EF9490
 	public static void SerializeLengthDelimited(Stream stream, VectorData instance) { }
 
 }

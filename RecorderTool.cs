@@ -1,6 +1,6 @@
 public class RecorderTool : ThrownWeapon, ICassettePlayer // TypeDefIndex: 8627
 {	// Fields
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static bool debugRecording; // 0x0
 	public AudioSource RecorderAudioSource; // 0x2A0
 	public SoundDefinition RecordStartSfx; // 0x2A8
@@ -13,10 +13,10 @@ public class RecorderTool : ThrownWeapon, ICassettePlayer // TypeDefIndex: 8627
 	public static bool IsRecording; // 0x1
 	private AudioInterceptComponent activeIntercept; // 0x2D8
 	private float recordStartTime; // 0x2E0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Cassette <cachedCassette>k__BackingField; // 0x2E8
 	private OggEncoder currentEncoder; // 0x2F0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <StartCountdown>k__BackingField; // 0x2F8
 	private Sound rewindingSound; // 0x300
 	private uint cassetteToLoad; // 0x308
@@ -35,11 +35,11 @@ public class RecorderTool : ThrownWeapon, ICassettePlayer // TypeDefIndex: 8627
 	// RVA: 0x93CEE0 Offset: 0x93B4E0 VA: 0x18093CEE0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x93E5E0 Offset: 0x93CBE0 VA: 0x18093E5E0
 	public Cassette get_cachedCassette() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x93E5F0 Offset: 0x93CBF0 VA: 0x18093E5F0
 	private void set_cachedCassette(Cassette value) { }
 
@@ -61,11 +61,11 @@ public class RecorderTool : ThrownWeapon, ICassettePlayer // TypeDefIndex: 8627
 	// RVA: 0x93C420 Offset: 0x93AA20 VA: 0x18093C420 Slot: 20
 	internal override void DoNetworkDestroy() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x838390 Offset: 0x836990 VA: 0x180838390
 	public int get_StartCountdown() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8383D0 Offset: 0x8369D0 VA: 0x1808383D0
 	private void set_StartCountdown(int value) { }
 
@@ -99,11 +99,11 @@ public class RecorderTool : ThrownWeapon, ICassettePlayer // TypeDefIndex: 8627
 	// RVA: 0x93C580 Offset: 0x93AB80 VA: 0x18093C580 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x93C1A0 Offset: 0x93A7A0 VA: 0x18093C1A0
 	public void Client_OnCassetteInserted(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x93C360 Offset: 0x93A960 VA: 0x18093C360
 	public void Client_OnCassetteRemoved(BaseEntity.RPCMessage msg) { }
 

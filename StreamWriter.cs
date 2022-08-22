@@ -26,7 +26,7 @@ public class StreamWriter : TextWriter // TypeDefIndex: 648
 	// RVA: 0x1630460 Offset: 0x162EA60 VA: 0x181630460
 	private void CheckAsyncTaskInProgress() { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1631690 Offset: 0x162FC90 VA: 0x181631690
 	internal static Encoding get_UTF8NoBOM() { }
 

@@ -171,12 +171,12 @@ public class BaseMission.PositionGenerator // TypeDefIndex: 10209
 	public bool centerOnProvider; // 0x20
 	public bool centerOnPlayer; // 0x21
 	public BaseMission.PositionGenerator.PositionType positionType; // 0x24
-	[HeaderAttribute] // RVA: 0xBE240 Offset: 0xBD640 VA: 0x1800BE240
-	[InspectorFlagsAttribute] // RVA: 0xBE240 Offset: 0xBD640 VA: 0x1800BE240
+	[HeaderAttribute] // RVA: 0xBE2E0 Offset: 0xBD6E0 VA: 0x1800BE2E0
+	[InspectorFlagsAttribute] // RVA: 0xBE2E0 Offset: 0xBD6E0 VA: 0x1800BE2E0
 	public MissionPoint.MissionPointEnum Flags; // 0x28
-	[InspectorFlagsAttribute] // RVA: 0x70AC0 Offset: 0x6FEC0 VA: 0x180070AC0
+	[InspectorFlagsAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
 	public MissionPoint.MissionPointEnum ExclusionFlags; // 0x2C
-	[HeaderAttribute] // RVA: 0xBE3B0 Offset: 0xBD7B0 VA: 0x1800BE3B0
+	[HeaderAttribute] // RVA: 0xBE450 Offset: 0xBD850 VA: 0x1800BE450
 	public WorldPositionGenerator worldPositionGenerator; // 0x30
 
 	// Methods

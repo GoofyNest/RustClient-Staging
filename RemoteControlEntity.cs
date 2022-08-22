@@ -1,7 +1,7 @@
 public class RemoteControlEntity : BaseCombatEntity, IRemoteControllable // TypeDefIndex: 8435
 {	// Fields
 	private Option __menuOption_Menu_SetID; // 0x240
-	[HeaderAttribute] // RVA: 0x7FCA0 Offset: 0x7F0A0 VA: 0x18007FCA0
+	[HeaderAttribute] // RVA: 0x7FD60 Offset: 0x7F160 VA: 0x18007FD60
 	public string rcIdentifier; // 0x298
 	public Transform viewEyes; // 0x2A0
 	public GameObjectRef IDPanelPrefab; // 0x2A8
@@ -57,10 +57,10 @@ public class RemoteControlEntity : BaseCombatEntity, IRemoteControllable // Type
 	// RVA: 0x94C900 Offset: 0x94AF00 VA: 0x18094C900 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0x7D250 Offset: 0x7C650 VA: 0x18007D250
-	[BaseEntity.Menu.Description] // RVA: 0x7D250 Offset: 0x7C650 VA: 0x18007D250
-	[BaseEntity.Menu.Icon] // RVA: 0x7D250 Offset: 0x7C650 VA: 0x18007D250
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7D250 Offset: 0x7C650 VA: 0x18007D250
+	[BaseEntity.Menu] // RVA: 0x7D320 Offset: 0x7C720 VA: 0x18007D320
+	[BaseEntity.Menu.Description] // RVA: 0x7D320 Offset: 0x7C720 VA: 0x18007D320
+	[BaseEntity.Menu.Icon] // RVA: 0x7D320 Offset: 0x7C720 VA: 0x18007D320
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7D320 Offset: 0x7C720 VA: 0x18007D320
 	// RVA: 0x94CA40 Offset: 0x94B040 VA: 0x18094CA40
 	public void Menu_SetID(BasePlayer player) { }
 

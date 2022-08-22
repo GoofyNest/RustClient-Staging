@@ -5,15 +5,15 @@ public static class MouseCaptureController // TypeDefIndex: 4594
 
 	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xEB3030 Offset: 0xEB1630 VA: 0x180EB3030
 	public static bool HasMouseCapture(IEventHandler handler) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xEB2D40 Offset: 0xEB1340 VA: 0x180EB2D40
 	public static void CaptureMouse(IEventHandler handler) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xEB31A0 Offset: 0xEB17A0 VA: 0x180EB31A0
 	public static void ReleaseMouse(IEventHandler handler) { }
 

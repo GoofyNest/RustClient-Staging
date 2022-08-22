@@ -4,13 +4,13 @@ public class InstantCameraTool : HeldEntity // TypeDefIndex: 8584
 	public GameObjectRef screenshotEffect; // 0x200
 	public SoundDefinition startPhotoSoundDef; // 0x208
 	public SoundDefinition finishPhotoSoundDef; // 0x210
-	[RangeAttribute] // RVA: 0xAC750 Offset: 0xABB50 VA: 0x1800AC750
+	[RangeAttribute] // RVA: 0xAC790 Offset: 0xABB90 VA: 0x1800AC790
 	public int resolutionX; // 0x218
-	[RangeAttribute] // RVA: 0xAC800 Offset: 0xABC00 VA: 0x1800AC800
+	[RangeAttribute] // RVA: 0xAC8A0 Offset: 0xABCA0 VA: 0x1800AC8A0
 	public int resolutionY; // 0x21C
-	[RangeAttribute] // RVA: 0xAC920 Offset: 0xABD20 VA: 0x1800AC920
+	[RangeAttribute] // RVA: 0xACA20 Offset: 0xABE20 VA: 0x1800ACA20
 	public int quality; // 0x220
-	[RangeAttribute] // RVA: 0x759D0 Offset: 0x74DD0 VA: 0x1800759D0
+	[RangeAttribute] // RVA: 0x75A70 Offset: 0x74E70 VA: 0x180075A70
 	public float cooldownSeconds; // 0x224
 	private TimeSince _sinceLastPhoto; // 0x228
 	private float cameraFOV; // 0x22C
@@ -36,7 +36,7 @@ public class InstantCameraTool : HeldEntity // TypeDefIndex: 8584
 	// RVA: 0x8156F0 Offset: 0x813CF0 VA: 0x1808156F0 Slot: 138
 	public override void OnInput() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xACAE0 Offset: 0xABEE0 VA: 0x1800ACAE0
+	[IteratorStateMachineAttribute] // RVA: 0xACB80 Offset: 0xABF80 VA: 0x1800ACB80
 	// RVA: 0x815C10 Offset: 0x814210 VA: 0x180815C10
 	private IEnumerator TakePhoto() { }
 
@@ -76,26 +76,26 @@ private sealed class InstantCameraTool.<TakePhoto>d__19 : IEnumerator<object>, I
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x820560 Offset: 0x81EB60 VA: 0x180820560 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x820790 Offset: 0x81ED90 VA: 0x180820790 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 

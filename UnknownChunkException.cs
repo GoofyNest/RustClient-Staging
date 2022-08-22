@@ -1,6 +1,6 @@
 public sealed class UnknownChunkException : MidiException // TypeDefIndex: 7583
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly string <ChunkId>k__BackingField; // 0x88
 
 	// Methods

@@ -1,22 +1,22 @@
 public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitializePotentialDragHandler, ICanvasElement // TypeDefIndex: 5007
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private RectTransform m_FillRect; // 0xE8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private RectTransform m_HandleRect; // 0xF0
-	[SpaceAttribute] // RVA: 0x7CC70 Offset: 0x7C070 VA: 0x18007CC70
-	[SerializeField] // RVA: 0x7CC70 Offset: 0x7C070 VA: 0x18007CC70
+	[SpaceAttribute] // RVA: 0x7CD40 Offset: 0x7C140 VA: 0x18007CD40
+	[SerializeField] // RVA: 0x7CD40 Offset: 0x7C140 VA: 0x18007CD40
 	private Slider.Direction m_Direction; // 0xF8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_MinValue; // 0xFC
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_MaxValue; // 0x100
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_WholeNumbers; // 0x104
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected float m_Value; // 0x108
-	[SpaceAttribute] // RVA: 0x7CC70 Offset: 0x7C070 VA: 0x18007CC70
-	[SerializeField] // RVA: 0x7CC70 Offset: 0x7C070 VA: 0x18007CC70
+	[SpaceAttribute] // RVA: 0x7CD40 Offset: 0x7C140 VA: 0x18007CD40
+	[SerializeField] // RVA: 0x7CD40 Offset: 0x7C140 VA: 0x18007CD40
 	private Slider.SliderEvent m_OnValueChanged; // 0x110
 	private Image m_FillImage; // 0x118
 	private Transform m_FillTransform; // 0x120
@@ -199,7 +199,7 @@ public enum Slider.Direction // TypeDefIndex: 5008
 public class Slider.SliderEvent : UnityEvent<float> // TypeDefIndex: 5009
 {	// Methods
 
-	// RVA: 0x22443A0 Offset: 0x22429A0 VA: 0x1822443A0
+	// RVA: 0x22441E0 Offset: 0x22427E0 VA: 0x1822441E0
 	public void .ctor() { }
 
 }

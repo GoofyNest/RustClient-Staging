@@ -7,16 +7,16 @@ public struct InstancingKey : IEquatable<InstancingKey> // TypeDefIndex: 11363
 
 	// Methods
 
-	// RVA: 0xF8D80 Offset: 0xF8180 VA: 0x1800F8D80
+	// RVA: 0xF8D00 Offset: 0xF8100 VA: 0x1800F8D00
 	public void .ctor(Mesh mesh, int submeshIndex, Material material, int shaderPass) { }
 
-	// RVA: 0xF8C80 Offset: 0xF8080 VA: 0x1800F8C80 Slot: 2
+	// RVA: 0xF8C00 Offset: 0xF8000 VA: 0x1800F8C00 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0xF8BB0 Offset: 0xF7FB0 VA: 0x1800F8BB0 Slot: 0
+	// RVA: 0xF8B30 Offset: 0xF7F30 VA: 0x1800F8B30 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0xF8C50 Offset: 0xF8050 VA: 0x1800F8C50 Slot: 4
+	// RVA: 0xF8BD0 Offset: 0xF7FD0 VA: 0x1800F8BD0 Slot: 4
 	public bool Equals(InstancingKey other) { }
 
 }

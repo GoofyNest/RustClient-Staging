@@ -6,22 +6,22 @@ public struct RendererKey : IEquatable<RendererKey> // TypeDefIndex: 9922
 
 	// Methods
 
-	// RVA: 0xF91A0 Offset: 0xF85A0 VA: 0x1800F91A0
+	// RVA: 0xF9120 Offset: 0xF8520 VA: 0x1800F9120
 	public void .ctor(Material material, ShadowCastingMode shadows, int layer) { }
 
-	// RVA: 0xFA5F0 Offset: 0xF99F0 VA: 0x1800FA5F0
+	// RVA: 0xFA570 Offset: 0xF9970 VA: 0x1800FA570
 	public void .ctor(MeshRenderer renderer) { }
 
-	// RVA: 0xFA660 Offset: 0xF9A60 VA: 0x1800FA660
+	// RVA: 0xFA5E0 Offset: 0xF99E0 VA: 0x1800FA5E0
 	public void .ctor(RendererBatch batch) { }
 
-	// RVA: 0xFA580 Offset: 0xF9980 VA: 0x1800FA580 Slot: 2
+	// RVA: 0xFA500 Offset: 0xF9900 VA: 0x1800FA500 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0xFA4C0 Offset: 0xF98C0 VA: 0x1800FA4C0 Slot: 0
+	// RVA: 0xFA440 Offset: 0xF9840 VA: 0x1800FA440 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0xFA560 Offset: 0xF9960 VA: 0x1800FA560 Slot: 4
+	// RVA: 0xFA4E0 Offset: 0xF98E0 VA: 0x1800FA4E0 Slot: 4
 	public bool Equals(RendererKey other) { }
 
 }

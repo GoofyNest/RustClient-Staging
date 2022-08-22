@@ -1,30 +1,30 @@
 public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutElement, ICanvasRaycastFilter // TypeDefIndex: 4938
 {	// Fields
 	protected static Material s_ETC1DefaultUI; // 0x0
-	[FormerlySerializedAsAttribute] // RVA: 0xEC530 Offset: 0xEB930 VA: 0x1800EC530
-	[SerializeField] // RVA: 0xEC530 Offset: 0xEB930 VA: 0x1800EC530
+	[FormerlySerializedAsAttribute] // RVA: 0xEC580 Offset: 0xEB980 VA: 0x1800EC580
+	[SerializeField] // RVA: 0xEC580 Offset: 0xEB980 VA: 0x1800EC580
 	private Sprite m_Sprite; // 0xC8
 	private Sprite m_OverrideSprite; // 0xD0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Image.Type m_Type; // 0xD8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_PreserveAspect; // 0xDC
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_FillCenter; // 0xDD
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Image.FillMethod m_FillMethod; // 0xE0
-	[RangeAttribute] // RVA: 0x79B00 Offset: 0x78F00 VA: 0x180079B00
-	[SerializeField] // RVA: 0x79B00 Offset: 0x78F00 VA: 0x180079B00
+	[RangeAttribute] // RVA: 0x79E20 Offset: 0x79220 VA: 0x180079E20
+	[SerializeField] // RVA: 0x79E20 Offset: 0x79220 VA: 0x180079E20
 	private float m_FillAmount; // 0xE4
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_FillClockwise; // 0xE8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int m_FillOrigin; // 0xEC
 	private float m_AlphaHitTestMinimumThreshold; // 0xF0
 	private bool m_Tracked; // 0xF4
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_UseSpriteMesh; // 0xF5
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_PixelsPerUnitMultiplier; // 0xF8
 	private float m_CachedReferencePixelsPerUnit; // 0xFC
 	private static readonly Vector2[] s_VertScratch; // 0x8
@@ -45,7 +45,7 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 	public float fillAmount { get; set; }
 	public bool fillClockwise { get; set; }
 	public int fillOrigin { get; set; }
-	[ObsoleteAttribute] // RVA: 0xECA30 Offset: 0xEBE30 VA: 0x1800ECA30
+	[ObsoleteAttribute] // RVA: 0xECAB0 Offset: 0xEBEB0 VA: 0x1800ECAB0
 	public float eventAlphaThreshold { get; set; }
 	public float alphaHitTestMinimumThreshold { get; set; }
 	public bool useSpriteMesh { get; set; }
@@ -365,10 +365,10 @@ public struct Image // TypeDefIndex: 5551
 
 	// Methods
 
-	// RVA: 0x1EA9E0 Offset: 0x1E9DE0 VA: 0x1801EA9E0
+	// RVA: 0x1EA960 Offset: 0x1E9D60 VA: 0x1801EA960
 	public Color GetPixel(int x, int y) { }
 
-	// RVA: 0x1EAB70 Offset: 0x1E9F70 VA: 0x1801EAB70 Slot: 3
+	// RVA: 0x1EAAF0 Offset: 0x1E9EF0 VA: 0x1801EAAF0 Slot: 3
 	public override string ToString() { }
 
 }

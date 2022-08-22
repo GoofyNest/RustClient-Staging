@@ -1,10 +1,10 @@
 public sealed class ByteQuadtree // TypeDefIndex: 10279
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int size; // 0x10
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int levels; // 0x14
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ByteMap[] values; // 0x18
 
 	// Properties
@@ -54,46 +54,46 @@ public struct ByteQuadtree.Element // TypeDefIndex: 10280
 
 	// Methods
 
-	// RVA: 0xF48A0 Offset: 0xF3CA0 VA: 0x1800F48A0
+	// RVA: 0xF4820 Offset: 0xF3C20 VA: 0x1800F4820
 	public void .ctor(ByteQuadtree source, int x, int y, int level) { }
 
-	// RVA: 0xF49D0 Offset: 0xF3DD0 VA: 0x1800F49D0
+	// RVA: 0xF4950 Offset: 0xF3D50 VA: 0x1800F4950
 	public bool get_IsLeaf() { }
 
-	// RVA: 0xF49E0 Offset: 0xF3DE0 VA: 0x1800F49E0
+	// RVA: 0xF4960 Offset: 0xF3D60 VA: 0x1800F4960
 	public bool get_IsRoot() { }
 
-	// RVA: 0xF3F30 Offset: 0xF3330 VA: 0x1800F3F30
+	// RVA: 0xF3EB0 Offset: 0xF32B0 VA: 0x1800F3EB0
 	public int get_ByteMap() { }
 
-	// RVA: 0xF4B20 Offset: 0xF3F20 VA: 0x1800F4B20
+	// RVA: 0xF4AA0 Offset: 0xF3EA0 VA: 0x1800F4AA0
 	public uint get_Value() { }
 
-	// RVA: 0xF4970 Offset: 0xF3D70 VA: 0x1800F4970
+	// RVA: 0xF48F0 Offset: 0xF3CF0 VA: 0x1800F48F0
 	public Vector2 get_Coords() { }
 
-	// RVA: 0xF49B0 Offset: 0xF3DB0 VA: 0x1800F49B0
+	// RVA: 0xF4930 Offset: 0xF3D30 VA: 0x1800F4930
 	public int get_Depth() { }
 
-	// RVA: 0xF4A30 Offset: 0xF3E30 VA: 0x1800F4A30
+	// RVA: 0xF49B0 Offset: 0xF3DB0 VA: 0x1800F49B0
 	public ByteQuadtree.Element get_Parent() { }
 
-	// RVA: 0xF48F0 Offset: 0xF3CF0 VA: 0x1800F48F0
+	// RVA: 0xF4870 Offset: 0xF3C70 VA: 0x1800F4870
 	public ByteQuadtree.Element get_Child1() { }
 
-	// RVA: 0xF4910 Offset: 0xF3D10 VA: 0x1800F4910
+	// RVA: 0xF4890 Offset: 0xF3C90 VA: 0x1800F4890
 	public ByteQuadtree.Element get_Child2() { }
 
-	// RVA: 0xF4930 Offset: 0xF3D30 VA: 0x1800F4930
+	// RVA: 0xF48B0 Offset: 0xF3CB0 VA: 0x1800F48B0
 	public ByteQuadtree.Element get_Child3() { }
 
-	// RVA: 0xF4950 Offset: 0xF3D50 VA: 0x1800F4950
+	// RVA: 0xF48D0 Offset: 0xF3CD0 VA: 0x1800F48D0
 	public ByteQuadtree.Element get_Child4() { }
 
-	// RVA: 0xF4A10 Offset: 0xF3E10 VA: 0x1800F4A10
+	// RVA: 0xF4990 Offset: 0xF3D90 VA: 0x1800F4990
 	public ByteQuadtree.Element get_MaxChild() { }
 
-	// RVA: 0xF4B00 Offset: 0xF3F00 VA: 0x1800F4B00
+	// RVA: 0xF4A80 Offset: 0xF3E80 VA: 0x1800F4A80
 	public ByteQuadtree.Element get_RandChild() { }
 
 }

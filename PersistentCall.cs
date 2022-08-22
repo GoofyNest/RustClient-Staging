@@ -1,20 +1,20 @@
 internal class PersistentCall // TypeDefIndex: 3635
 {	// Fields
-	[SerializeField] // RVA: 0xDFFD0 Offset: 0xDF3D0 VA: 0x1800DFFD0
-	[FormerlySerializedAsAttribute] // RVA: 0xDFFD0 Offset: 0xDF3D0 VA: 0x1800DFFD0
+	[FormerlySerializedAsAttribute] // RVA: 0xE00E0 Offset: 0xDF4E0 VA: 0x1800E00E0
+	[SerializeField] // RVA: 0xE00E0 Offset: 0xDF4E0 VA: 0x1800E00E0
 	private Object m_Target; // 0x10
-	[FormerlySerializedAsAttribute] // RVA: 0xE01D0 Offset: 0xDF5D0 VA: 0x1800E01D0
-	[SerializeField] // RVA: 0xE01D0 Offset: 0xDF5D0 VA: 0x1800E01D0
+	[SerializeField] // RVA: 0xE0230 Offset: 0xDF630 VA: 0x1800E0230
+	[FormerlySerializedAsAttribute] // RVA: 0xE0230 Offset: 0xDF630 VA: 0x1800E0230
 	private string m_MethodName; // 0x18
-	[SerializeField] // RVA: 0xE0280 Offset: 0xDF680 VA: 0x1800E0280
-	[FormerlySerializedAsAttribute] // RVA: 0xE0280 Offset: 0xDF680 VA: 0x1800E0280
+	[SerializeField] // RVA: 0xE0300 Offset: 0xDF700 VA: 0x1800E0300
+	[FormerlySerializedAsAttribute] // RVA: 0xE0300 Offset: 0xDF700 VA: 0x1800E0300
 	private PersistentListenerMode m_Mode; // 0x20
-	[FormerlySerializedAsAttribute] // RVA: 0xE0420 Offset: 0xDF820 VA: 0x1800E0420
-	[SerializeField] // RVA: 0xE0420 Offset: 0xDF820 VA: 0x1800E0420
+	[FormerlySerializedAsAttribute] // RVA: 0xE04A0 Offset: 0xDF8A0 VA: 0x1800E04A0
+	[SerializeField] // RVA: 0xE04A0 Offset: 0xDF8A0 VA: 0x1800E04A0
 	private ArgumentCache m_Arguments; // 0x28
-	[FormerlySerializedAsAttribute] // RVA: 0xE0560 Offset: 0xDF960 VA: 0x1800E0560
-	[SerializeField] // RVA: 0xE0560 Offset: 0xDF960 VA: 0x1800E0560
-	[FormerlySerializedAsAttribute] // RVA: 0xE0560 Offset: 0xDF960 VA: 0x1800E0560
+	[FormerlySerializedAsAttribute] // RVA: 0xE05E0 Offset: 0xDF9E0 VA: 0x1800E05E0
+	[SerializeField] // RVA: 0xE05E0 Offset: 0xDF9E0 VA: 0x1800E05E0
+	[FormerlySerializedAsAttribute] // RVA: 0xE05E0 Offset: 0xDF9E0 VA: 0x1800E05E0
 	private UnityEventCallState m_CallState; // 0x30
 
 	// Properties
@@ -37,16 +37,16 @@ internal class PersistentCall // TypeDefIndex: 3635
 	// RVA: 0x181D9D0 Offset: 0x181BFD0 VA: 0x18181D9D0
 	public ArgumentCache get_arguments() { }
 
-	// RVA: 0x1832860 Offset: 0x1830E60 VA: 0x181832860
+	// RVA: 0x1832820 Offset: 0x1830E20 VA: 0x181832820
 	public bool IsValid() { }
 
-	// RVA: 0x1832500 Offset: 0x1830B00 VA: 0x181832500
+	// RVA: 0x18324C0 Offset: 0x1830AC0 VA: 0x1818324C0
 	public BaseInvokableCall GetRuntimeCall(UnityEventBase theEvent) { }
 
-	// RVA: 0x1831FB0 Offset: 0x18305B0 VA: 0x181831FB0
+	// RVA: 0x1831F70 Offset: 0x1830570 VA: 0x181831F70
 	private static BaseInvokableCall GetObjectCall(Object target, MethodInfo method, ArgumentCache arguments) { }
 
-	// RVA: 0x18328F0 Offset: 0x1830EF0 VA: 0x1818328F0
+	// RVA: 0x18328B0 Offset: 0x1830EB0 VA: 0x1818328B0
 	public void .ctor() { }
 
 }

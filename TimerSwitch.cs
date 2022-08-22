@@ -26,10 +26,10 @@ public class TimerSwitch : IOEntity // TypeDefIndex: 8466
 	// RVA: 0x88B6B0 Offset: 0x889CB0 VA: 0x18088B6B0
 	public void Update() { }
 
-	[BaseEntity.Menu] // RVA: 0x90A70 Offset: 0x8FE70 VA: 0x180090A70
-	[BaseEntity.Menu.Description] // RVA: 0x90A70 Offset: 0x8FE70 VA: 0x180090A70
-	[BaseEntity.Menu.Icon] // RVA: 0x90A70 Offset: 0x8FE70 VA: 0x180090A70
-	[BaseEntity.Menu.ShowIf] // RVA: 0x90A70 Offset: 0x8FE70 VA: 0x180090A70
+	[BaseEntity.Menu] // RVA: 0x90AF0 Offset: 0x8FEF0 VA: 0x180090AF0
+	[BaseEntity.Menu.Description] // RVA: 0x90AF0 Offset: 0x8FEF0 VA: 0x180090AF0
+	[BaseEntity.Menu.Icon] // RVA: 0x90AF0 Offset: 0x8FEF0 VA: 0x180090AF0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x90AF0 Offset: 0x8FEF0 VA: 0x180090AF0
 	// RVA: 0x88B580 Offset: 0x889B80 VA: 0x18088B580
 	public void Menu_TurnOn(BasePlayer player) { }
 

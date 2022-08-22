@@ -1,12 +1,12 @@
 internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private T <Item>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SortedSet.Node<T> <Left>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SortedSet.Node<T> <Right>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private NodeColor <Color>k__BackingField; // 0x0
 
 	// Properties
@@ -25,11 +25,11 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public void .ctor(T item, NodeColor color) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E560 Offset: 0x1E2CB60 VA: 0x181E2E560
+	|-RVA: 0x1E2E3A0 Offset: 0x1E2C9A0 VA: 0x181E2E3A0
 	|-SortedSet.Node<KeyValuePair<long, object>>..ctor
 	|-SortedSet.Node<KeyValuePair<object, object>>..ctor
 	|
-	|-RVA: 0x1E2E5F0 Offset: 0x1E2CBF0 VA: 0x181E2E5F0
+	|-RVA: 0x1E2E430 Offset: 0x1E2CA30 VA: 0x181E2E430
 	|-SortedSet.Node<object>..ctor
 	*/
 
@@ -37,7 +37,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public static bool IsNonNullRed(SortedSet.Node<T> node) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DD00 Offset: 0x1E2C300 VA: 0x181E2DD00
+	|-RVA: 0x1E2DB40 Offset: 0x1E2C140 VA: 0x181E2DB40
 	|-SortedSet.Node<KeyValuePair<long, object>>.IsNonNullRed
 	|-SortedSet.Node<KeyValuePair<object, object>>.IsNonNullRed
 	|-SortedSet.Node<object>.IsNonNullRed
@@ -47,13 +47,13 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public static bool IsNullOrBlack(SortedSet.Node<T> node) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DD90 Offset: 0x1E2C390 VA: 0x181E2DD90
+	|-RVA: 0x1E2DBD0 Offset: 0x1E2C1D0 VA: 0x181E2DBD0
 	|-SortedSet.Node<KeyValuePair<long, object>>.IsNullOrBlack
 	|-SortedSet.Node<KeyValuePair<object, object>>.IsNullOrBlack
 	|-SortedSet.Node<object>.IsNullOrBlack
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public T get_Item() { }
 	/* GenericInstMethod :
@@ -66,22 +66,22 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.get_Item
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void set_Item(T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E810 Offset: 0x1E2CE10 VA: 0x181E2E810
+	|-RVA: 0x1E2E650 Offset: 0x1E2CC50 VA: 0x181E2E650
 	|-SortedSet.Node<KeyValuePair<long, object>>.set_Item
 	|
-	|-RVA: 0x1E2E830 Offset: 0x1E2CE30 VA: 0x181E2E830
+	|-RVA: 0x1E2E670 Offset: 0x1E2CC70 VA: 0x181E2E670
 	|-SortedSet.Node<KeyValuePair<object, object>>.set_Item
 	|
 	|-RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	|-SortedSet.Node<object>.set_Item
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public SortedSet.Node<T> get_Left() { }
 	/* GenericInstMethod :
@@ -94,7 +94,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.get_Left
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void set_Left(SortedSet.Node<T> value) { }
 	/* GenericInstMethod :
@@ -107,7 +107,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.set_Left
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public SortedSet.Node<T> get_Right() { }
 	/* GenericInstMethod :
@@ -120,7 +120,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.get_Right
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void set_Right(SortedSet.Node<T> value) { }
 	/* GenericInstMethod :
@@ -133,7 +133,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.set_Right
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public NodeColor get_Color() { }
 	/* GenericInstMethod :
@@ -146,7 +146,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.get_Color
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void set_Color(NodeColor value) { }
 	/* GenericInstMethod :
@@ -163,7 +163,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public bool get_IsBlack() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E7B0 Offset: 0x1E2CDB0 VA: 0x181E2E7B0
+	|-RVA: 0x1E2E5F0 Offset: 0x1E2CBF0 VA: 0x181E2E5F0
 	|-SortedSet.Node<KeyValuePair<long, object>>.get_IsBlack
 	|-SortedSet.Node<KeyValuePair<object, object>>.get_IsBlack
 	|-SortedSet.Node<object>.get_IsBlack
@@ -173,7 +173,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public bool get_IsRed() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E7E0 Offset: 0x1E2CDE0 VA: 0x181E2E7E0
+	|-RVA: 0x1E2E620 Offset: 0x1E2CC20 VA: 0x181E2E620
 	|-SortedSet.Node<KeyValuePair<long, object>>.get_IsRed
 	|-SortedSet.Node<KeyValuePair<object, object>>.get_IsRed
 	|-SortedSet.Node<object>.get_IsRed
@@ -183,7 +183,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public bool get_Is2Node() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E670 Offset: 0x1E2CC70 VA: 0x181E2E670
+	|-RVA: 0x1E2E4B0 Offset: 0x1E2CAB0 VA: 0x181E2E4B0
 	|-SortedSet.Node<KeyValuePair<long, object>>.get_Is2Node
 	|-SortedSet.Node<KeyValuePair<object, object>>.get_Is2Node
 	|-SortedSet.Node<object>.get_Is2Node
@@ -193,7 +193,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public bool get_Is4Node() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E720 Offset: 0x1E2CD20 VA: 0x181E2E720
+	|-RVA: 0x1E2E560 Offset: 0x1E2CB60 VA: 0x181E2E560
 	|-SortedSet.Node<KeyValuePair<long, object>>.get_Is4Node
 	|-SortedSet.Node<KeyValuePair<object, object>>.get_Is4Node
 	|-SortedSet.Node<object>.get_Is4Node
@@ -203,7 +203,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public void ColorBlack() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DB80 Offset: 0x1E2C180 VA: 0x181E2DB80
+	|-RVA: 0x1E2D9C0 Offset: 0x1E2BFC0 VA: 0x181E2D9C0
 	|-SortedSet.Node<KeyValuePair<long, object>>.ColorBlack
 	|-SortedSet.Node<KeyValuePair<object, object>>.ColorBlack
 	|-SortedSet.Node<object>.ColorBlack
@@ -213,7 +213,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public void ColorRed() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DBB0 Offset: 0x1E2C1B0 VA: 0x181E2DBB0
+	|-RVA: 0x1E2D9F0 Offset: 0x1E2BFF0 VA: 0x181E2D9F0
 	|-SortedSet.Node<KeyValuePair<long, object>>.ColorRed
 	|-SortedSet.Node<KeyValuePair<object, object>>.ColorRed
 	|-SortedSet.Node<object>.ColorRed
@@ -223,7 +223,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public TreeRotation GetRotation(SortedSet.Node<T> current, SortedSet.Node<T> sibling) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DBE0 Offset: 0x1E2C1E0 VA: 0x181E2DBE0
+	|-RVA: 0x1E2DA20 Offset: 0x1E2C020 VA: 0x181E2DA20
 	|-SortedSet.Node<KeyValuePair<long, object>>.GetRotation
 	|-SortedSet.Node<KeyValuePair<object, object>>.GetRotation
 	|-SortedSet.Node<object>.GetRotation
@@ -233,7 +233,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public SortedSet.Node<T> GetSibling(SortedSet.Node<T> node) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DC90 Offset: 0x1E2C290 VA: 0x181E2DC90
+	|-RVA: 0x1E2DAD0 Offset: 0x1E2C0D0 VA: 0x181E2DAD0
 	|-SortedSet.Node<KeyValuePair<long, object>>.GetSibling
 	|-SortedSet.Node<KeyValuePair<object, object>>.GetSibling
 	|-SortedSet.Node<object>.GetSibling
@@ -243,7 +243,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public void Split4Node() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E4B0 Offset: 0x1E2CAB0 VA: 0x181E2E4B0
+	|-RVA: 0x1E2E2F0 Offset: 0x1E2C8F0 VA: 0x181E2E2F0
 	|-SortedSet.Node<KeyValuePair<long, object>>.Split4Node
 	|-SortedSet.Node<KeyValuePair<object, object>>.Split4Node
 	|-SortedSet.Node<object>.Split4Node
@@ -253,7 +253,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public SortedSet.Node<T> Rotate(TreeRotation rotation) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E310 Offset: 0x1E2C910 VA: 0x181E2E310
+	|-RVA: 0x1E2E150 Offset: 0x1E2C750 VA: 0x181E2E150
 	|-SortedSet.Node<KeyValuePair<long, object>>.Rotate
 	|-SortedSet.Node<KeyValuePair<object, object>>.Rotate
 	|-SortedSet.Node<object>.Rotate
@@ -263,7 +263,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public SortedSet.Node<T> RotateLeft() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E080 Offset: 0x1E2C680 VA: 0x181E2E080
+	|-RVA: 0x1E2DEC0 Offset: 0x1E2C4C0 VA: 0x181E2DEC0
 	|-SortedSet.Node<KeyValuePair<long, object>>.RotateLeft
 	|-SortedSet.Node<KeyValuePair<object, object>>.RotateLeft
 	|-SortedSet.Node<object>.RotateLeft
@@ -273,7 +273,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public SortedSet.Node<T> RotateLeftRight() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DF50 Offset: 0x1E2C550 VA: 0x181E2DF50
+	|-RVA: 0x1E2DD90 Offset: 0x1E2C390 VA: 0x181E2DD90
 	|-SortedSet.Node<KeyValuePair<long, object>>.RotateLeftRight
 	|-SortedSet.Node<KeyValuePair<object, object>>.RotateLeftRight
 	|-SortedSet.Node<object>.RotateLeftRight
@@ -283,7 +283,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public SortedSet.Node<T> RotateRight() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E260 Offset: 0x1E2C860 VA: 0x181E2E260
+	|-RVA: 0x1E2E0A0 Offset: 0x1E2C6A0 VA: 0x181E2E0A0
 	|-SortedSet.Node<KeyValuePair<long, object>>.RotateRight
 	|-SortedSet.Node<KeyValuePair<object, object>>.RotateRight
 	|-SortedSet.Node<object>.RotateRight
@@ -293,7 +293,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public SortedSet.Node<T> RotateRightLeft() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E130 Offset: 0x1E2C730 VA: 0x181E2E130
+	|-RVA: 0x1E2DF70 Offset: 0x1E2C570 VA: 0x181E2DF70
 	|-SortedSet.Node<KeyValuePair<long, object>>.RotateRightLeft
 	|-SortedSet.Node<KeyValuePair<object, object>>.RotateRightLeft
 	|-SortedSet.Node<object>.RotateRightLeft
@@ -303,7 +303,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public void Merge2Nodes() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DE20 Offset: 0x1E2C420 VA: 0x181E2DE20
+	|-RVA: 0x1E2DC60 Offset: 0x1E2C260 VA: 0x181E2DC60
 	|-SortedSet.Node<KeyValuePair<long, object>>.Merge2Nodes
 	|-SortedSet.Node<KeyValuePair<object, object>>.Merge2Nodes
 	|-SortedSet.Node<object>.Merge2Nodes
@@ -313,7 +313,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	public void ReplaceChild(SortedSet.Node<T> child, SortedSet.Node<T> newChild) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DED0 Offset: 0x1E2C4D0 VA: 0x181E2DED0
+	|-RVA: 0x1E2DD10 Offset: 0x1E2C310 VA: 0x181E2DD10
 	|-SortedSet.Node<KeyValuePair<long, object>>.ReplaceChild
 	|-SortedSet.Node<KeyValuePair<object, object>>.ReplaceChild
 	|-SortedSet.Node<object>.ReplaceChild
@@ -341,11 +341,11 @@ public struct SortedSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator
 	internal void .ctor(SortedSet<T> set) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2310F0 Offset: 0x2304F0 VA: 0x1802310F0
+	|-RVA: 0x231070 Offset: 0x230470 VA: 0x180231070
 	|-SortedSet.Enumerator<KeyValuePair<long, object>>..ctor
 	|-SortedSet.Enumerator<KeyValuePair<object, object>>..ctor
 	|
-	|-RVA: 0x231070 Offset: 0x230470 VA: 0x180231070
+	|-RVA: 0x230FF0 Offset: 0x2303F0 VA: 0x180230FF0
 	|-SortedSet.Enumerator<object>..ctor
 	*/
 
@@ -353,11 +353,11 @@ public struct SortedSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator
 	internal void .ctor(SortedSet<T> set, bool reverse) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2310D0 Offset: 0x2304D0 VA: 0x1802310D0
+	|-RVA: 0x231050 Offset: 0x230450 VA: 0x180231050
 	|-SortedSet.Enumerator<KeyValuePair<long, object>>..ctor
 	|-SortedSet.Enumerator<KeyValuePair<object, object>>..ctor
 	|
-	|-RVA: 0x2310E0 Offset: 0x2304E0 VA: 0x1802310E0
+	|-RVA: 0x231060 Offset: 0x230460 VA: 0x180231060
 	|-SortedSet.Enumerator<object>..ctor
 	*/
 
@@ -365,13 +365,13 @@ public struct SortedSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x231050 Offset: 0x230450 VA: 0x180231050
+	|-RVA: 0x230FD0 Offset: 0x2303D0 VA: 0x180230FD0
 	|-SortedSet.Enumerator<KeyValuePair<long, object>>.System.Runtime.Serialization.ISerializable.GetObjectData
 	|
-	|-RVA: 0x231010 Offset: 0x230410 VA: 0x180231010
+	|-RVA: 0x230F90 Offset: 0x230390 VA: 0x180230F90
 	|-SortedSet.Enumerator<KeyValuePair<object, object>>.System.Runtime.Serialization.ISerializable.GetObjectData
 	|
-	|-RVA: 0x231030 Offset: 0x230430 VA: 0x180231030
+	|-RVA: 0x230FB0 Offset: 0x2303B0 VA: 0x180230FB0
 	|-SortedSet.Enumerator<object>.System.Runtime.Serialization.ISerializable.GetObjectData
 	*/
 
@@ -379,13 +379,13 @@ public struct SortedSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x230FE0 Offset: 0x2303E0 VA: 0x180230FE0
+	|-RVA: 0x230F60 Offset: 0x230360 VA: 0x180230F60
 	|-SortedSet.Enumerator<KeyValuePair<long, object>>.System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
 	|
-	|-RVA: 0x231000 Offset: 0x230400 VA: 0x180231000
+	|-RVA: 0x230F80 Offset: 0x230380 VA: 0x180230F80
 	|-SortedSet.Enumerator<KeyValuePair<object, object>>.System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
 	|
-	|-RVA: 0x230FF0 Offset: 0x2303F0 VA: 0x180230FF0
+	|-RVA: 0x230F70 Offset: 0x230370 VA: 0x180230F70
 	|-SortedSet.Enumerator<object>.System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
 	*/
 
@@ -393,11 +393,11 @@ public struct SortedSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator
 	private void Initialize() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2300C0 Offset: 0x22F4C0 VA: 0x1802300C0
+	|-RVA: 0x230040 Offset: 0x22F440 VA: 0x180230040
 	|-SortedSet.Enumerator<KeyValuePair<long, object>>.Initialize
 	|-SortedSet.Enumerator<KeyValuePair<object, object>>.Initialize
 	|
-	|-RVA: 0x2300D0 Offset: 0x22F4D0 VA: 0x1802300D0
+	|-RVA: 0x230050 Offset: 0x22F450 VA: 0x180230050
 	|-SortedSet.Enumerator<object>.Initialize
 	*/
 
@@ -405,13 +405,13 @@ public struct SortedSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x230140 Offset: 0x22F540 VA: 0x180230140
+	|-RVA: 0x2300C0 Offset: 0x22F4C0 VA: 0x1802300C0
 	|-SortedSet.Enumerator<KeyValuePair<long, object>>.MoveNext
 	|
-	|-RVA: 0x230190 Offset: 0x22F590 VA: 0x180230190
+	|-RVA: 0x230110 Offset: 0x22F510 VA: 0x180230110
 	|-SortedSet.Enumerator<KeyValuePair<object, object>>.MoveNext
 	|
-	|-RVA: 0x230130 Offset: 0x22F530 VA: 0x180230130
+	|-RVA: 0x2300B0 Offset: 0x22F4B0 VA: 0x1802300B0
 	|-SortedSet.Enumerator<object>.MoveNext
 	*/
 
@@ -419,7 +419,7 @@ public struct SortedSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF1F30 Offset: 0xF1330 VA: 0x1800F1F30
+	|-RVA: 0xF1EB0 Offset: 0xF12B0 VA: 0x1800F1EB0
 	|-SortedSet.Enumerator<KeyValuePair<long, object>>.Dispose
 	|-SortedSet.Enumerator<KeyValuePair<object, object>>.Dispose
 	|-SortedSet.Enumerator<object>.Dispose
@@ -429,11 +429,11 @@ public struct SortedSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator
 	public T get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2311A0 Offset: 0x2305A0 VA: 0x1802311A0
+	|-RVA: 0x231120 Offset: 0x230520 VA: 0x180231120
 	|-SortedSet.Enumerator<KeyValuePair<long, object>>.get_Current
 	|-SortedSet.Enumerator<KeyValuePair<object, object>>.get_Current
 	|
-	|-RVA: 0x2312D0 Offset: 0x2306D0 VA: 0x1802312D0
+	|-RVA: 0x231250 Offset: 0x230650 VA: 0x180231250
 	|-SortedSet.Enumerator<object>.get_Current
 	*/
 
@@ -441,13 +441,13 @@ public struct SortedSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x230B10 Offset: 0x22FF10 VA: 0x180230B10
+	|-RVA: 0x230A90 Offset: 0x22FE90 VA: 0x180230A90
 	|-SortedSet.Enumerator<KeyValuePair<long, object>>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x230DF0 Offset: 0x2301F0 VA: 0x180230DF0
+	|-RVA: 0x230D70 Offset: 0x230170 VA: 0x180230D70
 	|-SortedSet.Enumerator<KeyValuePair<object, object>>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x230F10 Offset: 0x230310 VA: 0x180230F10
+	|-RVA: 0x230E90 Offset: 0x230290 VA: 0x180230E90
 	|-SortedSet.Enumerator<object>.System.Collections.IEnumerator.get_Current
 	*/
 
@@ -455,7 +455,7 @@ public struct SortedSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator
 	internal bool get_NotStartedOrEnded() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2313E0 Offset: 0x2307E0 VA: 0x1802313E0
+	|-RVA: 0x231360 Offset: 0x230760 VA: 0x180231360
 	|-SortedSet.Enumerator<KeyValuePair<long, object>>.get_NotStartedOrEnded
 	|-SortedSet.Enumerator<KeyValuePair<object, object>>.get_NotStartedOrEnded
 	|-SortedSet.Enumerator<object>.get_NotStartedOrEnded
@@ -465,13 +465,13 @@ public struct SortedSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator
 	internal void Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2301C0 Offset: 0x22F5C0 VA: 0x1802301C0
+	|-RVA: 0x230140 Offset: 0x22F540 VA: 0x180230140
 	|-SortedSet.Enumerator<KeyValuePair<long, object>>.Reset
 	|
-	|-RVA: 0x2301D0 Offset: 0x22F5D0 VA: 0x1802301D0
+	|-RVA: 0x230150 Offset: 0x22F550 VA: 0x180230150
 	|-SortedSet.Enumerator<KeyValuePair<object, object>>.Reset
 	|
-	|-RVA: 0x2301B0 Offset: 0x22F5B0 VA: 0x1802301B0
+	|-RVA: 0x230130 Offset: 0x22F530 VA: 0x180230130
 	|-SortedSet.Enumerator<object>.Reset
 	*/
 
@@ -479,13 +479,13 @@ public struct SortedSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2309F0 Offset: 0x22FDF0 VA: 0x1802309F0
+	|-RVA: 0x230970 Offset: 0x22FD70 VA: 0x180230970
 	|-SortedSet.Enumerator<KeyValuePair<long, object>>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x2308A0 Offset: 0x22FCA0 VA: 0x1802308A0
+	|-RVA: 0x230820 Offset: 0x22FC20 VA: 0x180230820
 	|-SortedSet.Enumerator<KeyValuePair<object, object>>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x230AC0 Offset: 0x22FEC0 VA: 0x180230AC0
+	|-RVA: 0x230A40 Offset: 0x22FE40 VA: 0x180230A40
 	|-SortedSet.Enumerator<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -493,11 +493,11 @@ public struct SortedSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2BF70 Offset: 0x1E2A570 VA: 0x181E2BF70
+	|-RVA: 0x1E2BDB0 Offset: 0x1E2A3B0 VA: 0x181E2BDB0
 	|-SortedSet.Enumerator<KeyValuePair<long, object>>..cctor
 	|-SortedSet.Enumerator<KeyValuePair<object, object>>..cctor
 	|
-	|-RVA: 0x1E2C090 Offset: 0x1E2A690 VA: 0x181E2C090
+	|-RVA: 0x1E2BED0 Offset: 0x1E2A4D0 VA: 0x181E2BED0
 	|-SortedSet.Enumerator<object>..cctor
 	*/
 
@@ -525,13 +525,13 @@ private sealed class SortedSet.<>c__DisplayClass52_0<T> // TypeDefIndex: 3146
 	internal bool <CopyTo>b__0(SortedSet.Node<T> node) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E362F0 Offset: 0x1E348F0 VA: 0x181E362F0
+	|-RVA: 0x1E36130 Offset: 0x1E34730 VA: 0x181E36130
 	|-SortedSet.<>c__DisplayClass52_0<KeyValuePair<long, object>>.<CopyTo>b__0
 	|
-	|-RVA: 0x1E36260 Offset: 0x1E34860 VA: 0x181E36260
+	|-RVA: 0x1E360A0 Offset: 0x1E346A0 VA: 0x181E360A0
 	|-SortedSet.<>c__DisplayClass52_0<KeyValuePair<object, object>>.<CopyTo>b__0
 	|
-	|-RVA: 0x1E361D0 Offset: 0x1E347D0 VA: 0x181E361D0
+	|-RVA: 0x1E36010 Offset: 0x1E34610 VA: 0x181E36010
 	|-SortedSet.<>c__DisplayClass52_0<object>.<CopyTo>b__0
 	*/
 
@@ -576,11 +576,11 @@ private sealed class SortedSet.<>c__DisplayClass53_1<T> // TypeDefIndex: 3148
 	internal bool <System.Collections.ICollection.CopyTo>b__0(SortedSet.Node<T> node) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E36390 Offset: 0x1E34990 VA: 0x181E36390
+	|-RVA: 0x1E361D0 Offset: 0x1E347D0 VA: 0x181E361D0
 	|-SortedSet.<>c__DisplayClass53_1<KeyValuePair<long, object>>.<System.Collections.ICollection.CopyTo>b__0
 	|-SortedSet.<>c__DisplayClass53_1<KeyValuePair<object, object>>.<System.Collections.ICollection.CopyTo>b__0
 	|
-	|-RVA: 0x1E36490 Offset: 0x1E34A90 VA: 0x181E36490
+	|-RVA: 0x1E362D0 Offset: 0x1E348D0 VA: 0x181E362D0
 	|-SortedSet.<>c__DisplayClass53_1<object>.<System.Collections.ICollection.CopyTo>b__0
 	*/
 

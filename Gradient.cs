@@ -8,51 +8,51 @@ public class Gradient : IEquatable<Gradient> // TypeDefIndex: 3464
 
 	// Methods
 
-	[FreeFunctionAttribute] // RVA: 0xA9BA0 Offset: 0xA8FA0 VA: 0x1800A9BA0
-	// RVA: 0x182C750 Offset: 0x182AD50 VA: 0x18182C750
+	[FreeFunctionAttribute] // RVA: 0xA9C40 Offset: 0xA9040 VA: 0x1800A9C40
+	// RVA: 0x182C710 Offset: 0x182AD10 VA: 0x18182C710
 	private static IntPtr Init() { }
 
-	[FreeFunctionAttribute] // RVA: 0xA9C90 Offset: 0xA9090 VA: 0x1800A9C90
-	// RVA: 0x182C380 Offset: 0x182A980 VA: 0x18182C380
+	[FreeFunctionAttribute] // RVA: 0xA9D30 Offset: 0xA9130 VA: 0x1800A9D30
+	// RVA: 0x182C340 Offset: 0x182A940 VA: 0x18182C340
 	private void Cleanup() { }
 
-	[FreeFunctionAttribute] // RVA: 0xA9D00 Offset: 0xA9100 VA: 0x1800A9D00
-	// RVA: 0x182C780 Offset: 0x182AD80 VA: 0x18182C780
+	[FreeFunctionAttribute] // RVA: 0xA9DA0 Offset: 0xA91A0 VA: 0x1800A9DA0
+	// RVA: 0x182C740 Offset: 0x182AD40 VA: 0x18182C740
 	private bool Internal_Equals(IntPtr other) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x182C830 Offset: 0x182AE30 VA: 0x18182C830
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x182C7F0 Offset: 0x182ADF0 VA: 0x18182C7F0
 	public void .ctor() { }
 
-	// RVA: 0x182C6A0 Offset: 0x182ACA0 VA: 0x18182C6A0 Slot: 1
+	// RVA: 0x182C660 Offset: 0x182AC60 VA: 0x18182C660 Slot: 1
 	protected override void Finalize() { }
 
-	[FreeFunctionAttribute] // RVA: 0xA9E00 Offset: 0xA9200 VA: 0x1800A9E00
-	// RVA: 0x182C640 Offset: 0x182AC40 VA: 0x18182C640
+	[FreeFunctionAttribute] // RVA: 0xA9EA0 Offset: 0xA92A0 VA: 0x1800A9EA0
+	// RVA: 0x182C600 Offset: 0x182AC00 VA: 0x18182C600
 	public Color Evaluate(float time) { }
 
-	[FreeFunctionAttribute] // RVA: 0xA9E40 Offset: 0xA9240 VA: 0x1800A9E40
-	// RVA: 0x182C8B0 Offset: 0x182AEB0 VA: 0x18182C8B0
+	[FreeFunctionAttribute] // RVA: 0xA9F10 Offset: 0xA9310 VA: 0x1800A9F10
+	// RVA: 0x182C870 Offset: 0x182AE70 VA: 0x18182C870
 	public GradientColorKey[] get_colorKeys() { }
 
-	[FreeFunctionAttribute] // RVA: 0xA9F60 Offset: 0xA9360 VA: 0x1800A9F60
-	// RVA: 0x182C870 Offset: 0x182AE70 VA: 0x18182C870
+	[FreeFunctionAttribute] // RVA: 0xAA000 Offset: 0xA9400 VA: 0x1800AA000
+	// RVA: 0x182C830 Offset: 0x182AE30 VA: 0x18182C830
 	public GradientAlphaKey[] get_alphaKeys() { }
 
-	[FreeFunctionAttribute] // RVA: 0xAA020 Offset: 0xA9420 VA: 0x1800AA020
-	// RVA: 0x182C7D0 Offset: 0x182ADD0 VA: 0x18182C7D0
+	[FreeFunctionAttribute] // RVA: 0xAA0E0 Offset: 0xA94E0 VA: 0x1800AA0E0
+	// RVA: 0x182C790 Offset: 0x182AD90 VA: 0x18182C790
 	public void SetKeys(GradientColorKey[] colorKeys, GradientAlphaKey[] alphaKeys) { }
 
-	// RVA: 0x182C3C0 Offset: 0x182A9C0 VA: 0x18182C3C0 Slot: 0
+	// RVA: 0x182C380 Offset: 0x182A980 VA: 0x18182C380 Slot: 0
 	public override bool Equals(object o) { }
 
-	// RVA: 0x182C520 Offset: 0x182AB20 VA: 0x18182C520 Slot: 4
+	// RVA: 0x182C4E0 Offset: 0x182AAE0 VA: 0x18182C4E0 Slot: 4
 	public bool Equals(Gradient other) { }
 
 	// RVA: 0x181C590 Offset: 0x181AB90 VA: 0x18181C590 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x182C5E0 Offset: 0x182ABE0 VA: 0x18182C5E0
+	// RVA: 0x182C5A0 Offset: 0x182ABA0 VA: 0x18182C5A0
 	private void Evaluate_Injected(float time, out Color ret) { }
 
 }

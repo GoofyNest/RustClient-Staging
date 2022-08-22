@@ -11,10 +11,10 @@ internal struct SetPersonaNameResponse_t : ICallbackData // TypeDefIndex: 5324
 
 	// Methods
 
-	// RVA: 0x1D87B0 Offset: 0x1D7BB0 VA: 0x1801D87B0 Slot: 5
+	// RVA: 0x1D8730 Offset: 0x1D7B30 VA: 0x1801D8730 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D87A0 Offset: 0x1D7BA0 VA: 0x1801D87A0 Slot: 4
+	// RVA: 0x1D8720 Offset: 0x1D7B20 VA: 0x1801D8720 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128F7A0 Offset: 0x128DDA0 VA: 0x18128F7A0

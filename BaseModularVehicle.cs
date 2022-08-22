@@ -5,21 +5,21 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 	private LOD[] baseVehicleLODs; // 0x468
 	private LOD[] combinedLODs; // 0x470
 	private int[] maxRendererIndex; // 0x478
-	[HeaderAttribute] // RVA: 0xB8A20 Offset: 0xB7E20 VA: 0x1800B8A20
-	[SerializeField] // RVA: 0xB8A20 Offset: 0xB7E20 VA: 0x1800B8A20
+	[HeaderAttribute] // RVA: 0xB8AC0 Offset: 0xB7EC0 VA: 0x1800B8AC0
+	[SerializeField] // RVA: 0xB8AC0 Offset: 0xB7EC0 VA: 0x1800B8AC0
 	private List<ModularVehicleSocket> moduleSockets; // 0x480
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform centreOfMassTransform; // 0x488
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected Transform waterSample; // 0x490
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private LODGroup lodGroup; // 0x498
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly List<BaseVehicleModule> <AttachedModuleEntities>k__BackingField; // 0x4A0
 	private float _mass; // 0x4A8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <TotalMass>k__BackingField; // 0x4AC
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <HasInited>k__BackingField; // 0x4B0
 	public const BaseEntity.Flags FLAG_KINEMATIC = 16384;
 	private Dictionary<BaseVehicleModule, Action> moduleAddActions; // 0x4B8
@@ -72,10 +72,10 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 	// RVA: 0xA48290 Offset: 0xA46890 VA: 0x180A48290
 	private void RefreshLODSets() { }
 
-	[BaseEntity.Menu] // RVA: 0x8C9A0 Offset: 0x8BDA0 VA: 0x18008C9A0
-	[BaseEntity.Menu.Description] // RVA: 0x8C9A0 Offset: 0x8BDA0 VA: 0x18008C9A0
-	[BaseEntity.Menu.Icon] // RVA: 0x8C9A0 Offset: 0x8BDA0 VA: 0x18008C9A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8C9A0 Offset: 0x8BDA0 VA: 0x18008C9A0
+	[BaseEntity.Menu] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
+	[BaseEntity.Menu.Description] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
+	[BaseEntity.Menu.Icon] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
 	// RVA: 0xA47740 Offset: 0xA45D40 VA: 0x180A47740 Slot: 205
 	public virtual void Menu_Push(BasePlayer player) { }
 
@@ -88,7 +88,7 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 	// RVA: 0xA492E0 Offset: 0xA478E0 VA: 0x180A492E0
 	public bool get_HasAnyModules() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA49290 Offset: 0xA47890 VA: 0x180A49290
 	public List<BaseVehicleModule> get_AttachedModuleEntities() { }
 
@@ -101,11 +101,11 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 	// RVA: 0xA49420 Offset: 0xA47A20 VA: 0x180A49420
 	private float get_Mass() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA495E0 Offset: 0xA47BE0 VA: 0x180A495E0
 	public float get_TotalMass() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA49640 Offset: 0xA47C40 VA: 0x180A49640
 	private void set_TotalMass(float value) { }
 
@@ -115,11 +115,11 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 206
 	public virtual bool get_IsLockable() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA49330 Offset: 0xA47930 VA: 0x180A49330
 	public bool get_HasInited() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA49630 Offset: 0xA47C30 VA: 0x180A49630
 	private void set_HasInited(bool value) { }
 

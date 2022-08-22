@@ -1,9 +1,9 @@
 public class GlassPane : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 9736
 {	// Fields
 	public Renderer glassRendereer; // 0x18
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BaseVehicleModule module; // 0x20
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float showFullDamageAt; // 0x28
 	private static int detailAmountID; // 0x0
 

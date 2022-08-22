@@ -4,14 +4,14 @@ public class TexasHoldEmController : CardGameController // TypeDefIndex: 12017
 	public const int SMALL_BLIND = 5;
 	public const int BIG_BLIND = 10;
 	public const string WON_HAND_STAT = "won_hand_texas_holdem";
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TexasHoldEmController.PokerInputOption <LastAction>k__BackingField; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ulong <LastActionTarget>k__BackingField; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <LastActionValue>k__BackingField; // 0x60
 	public const int RAISE_INCREMENTS = 5;
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <BiggestRaiseThisTurn>k__BackingField; // 0x64
 	private int dealerIndex; // 0x68
 	private int activePlayerIndex; // 0x6C
@@ -39,35 +39,35 @@ public class TexasHoldEmController : CardGameController // TypeDefIndex: 12017
 	// RVA: 0x8D8E80 Offset: 0x8D7480 VA: 0x1808D8E80
 	public void .ctor(CardTable owner) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D8F00 Offset: 0x8D7500 VA: 0x1808D8F00
 	public TexasHoldEmController.PokerInputOption get_LastAction() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D8F40 Offset: 0x8D7540 VA: 0x1808D8F40
 	private void set_LastAction(TexasHoldEmController.PokerInputOption value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
 	public ulong get_LastActionTarget() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D8F30 Offset: 0x8D7530 VA: 0x1808D8F30
 	private void set_LastActionTarget(ulong value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5743B0 Offset: 0x5729B0 VA: 0x1805743B0
 	public int get_LastActionValue() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574440 Offset: 0x572A40 VA: 0x180574440
 	private void set_LastActionValue(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574390 Offset: 0x572990 VA: 0x180574390
 	public int get_BiggestRaiseThisTurn() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574420 Offset: 0x572A20 VA: 0x180574420
 	private void set_BiggestRaiseThisTurn(int value) { }
 
@@ -137,31 +137,31 @@ public class TexasHoldEmController : CardGameController // TypeDefIndex: 12017
 	// RVA: 0x8D78E0 Offset: 0x8D5EE0 VA: 0x1808D78E0
 	public bool HasSecondaryWinners() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D8CE0 Offset: 0x8D72E0 VA: 0x1808D8CE0
 	private void <SubGetAvailableInputs>b__46_3() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D8C50 Offset: 0x8D7250 VA: 0x1808D8C50
 	private void <SubGetAvailableInputs>b__46_0() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D8C80 Offset: 0x8D7280 VA: 0x1808D8C80
 	private void <SubGetAvailableInputs>b__46_1() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D8D10 Offset: 0x8D7310 VA: 0x1808D8D10
 	private void <SubGetAvailableInputs>b__46_4() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D8DB0 Offset: 0x8D73B0 VA: 0x1808D8DB0
 	private void <SubGetAvailableInputs>b__46_5() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D8E50 Offset: 0x8D7450 VA: 0x1808D8E50
 	private void <SubGetAvailableInputs>b__46_6() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D8CB0 Offset: 0x8D72B0 VA: 0x1808D8CB0
 	private void <SubGetAvailableInputs>b__46_2() { }
 

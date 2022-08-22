@@ -10,7 +10,7 @@ public struct FixedSByteNorm4 // TypeDefIndex: 11419
 
 	// Methods
 
-	// RVA: 0xF54F0 Offset: 0xF48F0 VA: 0x1800F54F0
+	// RVA: 0xF5470 Offset: 0xF4870 VA: 0x1800F5470
 	public void .ctor(Vector4 vec) { }
 
 	// RVA: 0x78DD00 Offset: 0x78C300 VA: 0x18078DD00

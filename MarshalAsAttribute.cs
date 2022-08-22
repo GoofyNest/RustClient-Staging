@@ -1,9 +1,9 @@
 public sealed class MarshalAsAttribute : Attribute // TypeDefIndex: 1356
 {	// Fields
 	public string MarshalCookie; // 0x10
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	public string MarshalType; // 0x18
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	public Type MarshalTypeRef; // 0x20
 	public Type SafeArrayUserDefinedSubType; // 0x28
 	private UnmanagedType utype; // 0x30

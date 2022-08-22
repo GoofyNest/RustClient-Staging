@@ -1,54 +1,54 @@
 public class SubmarineAudio : MonoBehaviour // TypeDefIndex: 9761
 {	// Fields
-	[HeaderAttribute] // RVA: 0x87D60 Offset: 0x87160 VA: 0x180087D60
-	[SerializeField] // RVA: 0x87D60 Offset: 0x87160 VA: 0x180087D60
+	[HeaderAttribute] // RVA: 0x87DD0 Offset: 0x871D0 VA: 0x180087DD0
+	[SerializeField] // RVA: 0x87DD0 Offset: 0x871D0 VA: 0x180087DD0
 	private SoundDefinition engineStartSound; // 0x18
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition engineStopSound; // 0x20
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition engineStartFailSound; // 0x28
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition engineLoopSound; // 0x30
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private AnimationCurve engineLoopPitchCurve; // 0x38
-	[HeaderAttribute] // RVA: 0x88490 Offset: 0x87890 VA: 0x180088490
-	[SerializeField] // RVA: 0x88490 Offset: 0x87890 VA: 0x180088490
+	[HeaderAttribute] // RVA: 0x88500 Offset: 0x87900 VA: 0x180088500
+	[SerializeField] // RVA: 0x88500 Offset: 0x87900 VA: 0x180088500
 	private SoundDefinition underwaterLoopDef; // 0x40
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition underwaterMovementLoopDef; // 0x48
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BlendedSoundLoops surfaceWaterLoops; // 0x50
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float surfaceWaterSoundsMaxSpeed; // 0x58
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition waterEmergeSoundDef; // 0x60
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition waterSubmergeSoundDef; // 0x68
-	[HeaderAttribute] // RVA: 0x93780 Offset: 0x92B80 VA: 0x180093780
-	[SerializeField] // RVA: 0x93780 Offset: 0x92B80 VA: 0x180093780
+	[HeaderAttribute] // RVA: 0x93890 Offset: 0x92C90 VA: 0x180093890
+	[SerializeField] // RVA: 0x93890 Offset: 0x92C90 VA: 0x180093890
 	private SoundDefinition activeLoopDef; // 0x70
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition footPedalSoundDef; // 0x78
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform footPedalSoundPos; // 0x80
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition steeringWheelSoundDef; // 0x88
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform steeringWheelSoundPos; // 0x90
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition heavyDamageSparksDef; // 0x98
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform heavyDamageSparksPos; // 0xA0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition flagRaise; // 0xA8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition flagLower; // 0xB0
-	[HeaderAttribute] // RVA: 0x93D20 Offset: 0x93120 VA: 0x180093D20
-	[SerializeField] // RVA: 0x93D20 Offset: 0x93120 VA: 0x180093D20
+	[HeaderAttribute] // RVA: 0x93E00 Offset: 0x93200 VA: 0x180093E00
+	[SerializeField] // RVA: 0x93E00 Offset: 0x93200 VA: 0x180093E00
 	private SoundDefinition climbOrDiveLoopSound; // 0xB8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition sonarBlipSound; // 0xC0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundDefinition torpedoFailedSound; // 0xC8
 	private Sound engineLoop; // 0xD0
 	private SoundModulation.Modulator engineLoopPitchMod; // 0xD8

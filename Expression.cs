@@ -8,10 +8,10 @@ public abstract class Expression // TypeDefIndex: 3239
 
 	// Methods
 
-	// RVA: 0x222A950 Offset: 0x2228F50 VA: 0x18222A950 Slot: 4
+	// RVA: 0x222A790 Offset: 0x2228D90 VA: 0x18222A790 Slot: 4
 	public virtual ExpressionType get_NodeType() { }
 
-	// RVA: 0x222A8E0 Offset: 0x2228EE0 VA: 0x18222A8E0
+	// RVA: 0x222A720 Offset: 0x2228D20 VA: 0x18222A720
 	private static void .cctor() { }
 
 }

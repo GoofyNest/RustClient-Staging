@@ -18,7 +18,7 @@ internal sealed class NoAllocHelpers // TypeDefIndex: 3519
 	|-NoAllocHelpers.EnsureListElemCount<Material>
 	*/
 
-	// RVA: 0x18F7B10 Offset: 0x18F6110 VA: 0x1818F7B10
+	// RVA: 0x18F7AD0 Offset: 0x18F60D0 VA: 0x1818F7AD0
 	public static int SafeLength(Array values) { }
 
 	// RVA: -1 Offset: -1
@@ -39,17 +39,17 @@ internal sealed class NoAllocHelpers // TypeDefIndex: 3519
 	public static T[] ExtractArrayFromListT<T>(List<T> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B5B0 Offset: 0x1A39BB0 VA: 0x181A3B5B0
+	|-RVA: 0x1A3B570 Offset: 0x1A39B70 VA: 0x181A3B570
 	|-NoAllocHelpers.ExtractArrayFromListT<object>
 	|-NoAllocHelpers.ExtractArrayFromListT<Material>
 	*/
 
-	[FreeFunctionAttribute] // RVA: 0xC2050 Offset: 0xC1450 VA: 0x1800C2050
-	// RVA: 0x18F7AD0 Offset: 0x18F60D0 VA: 0x1818F7AD0
+	[FreeFunctionAttribute] // RVA: 0xC20F0 Offset: 0xC14F0 VA: 0x1800C20F0
+	// RVA: 0x18F7A90 Offset: 0x18F6090 VA: 0x1818F7A90
 	internal static void Internal_ResizeList(object list, int size) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC2150 Offset: 0xC1550 VA: 0x1800C2150
-	// RVA: 0x18F7A90 Offset: 0x18F6090 VA: 0x1818F7A90
+	[FreeFunctionAttribute] // RVA: 0xC21C0 Offset: 0xC15C0 VA: 0x1800C21C0
+	// RVA: 0x18F7A50 Offset: 0x18F6050 VA: 0x1818F7A50
 	public static Array ExtractArrayFromList(object list) { }
 
 }

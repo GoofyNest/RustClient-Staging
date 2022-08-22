@@ -1,8 +1,8 @@
 public class MeshPaintable3D : BaseMeshPaintable // TypeDefIndex: 9205
 {	// Fields
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static float brushScale; // 0x0
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static float uvBufferScale; // 0x4
 	public string replacementTextureName; // 0x18
 	public int textureWidth; // 0x20
@@ -17,7 +17,7 @@ public class MeshPaintable3D : BaseMeshPaintable // TypeDefIndex: 9205
 	private Texture2D _paintTexture; // 0x60
 	private int _lastDrawTime; // 0x68
 	private RectInt _areaClamp; // 0x6C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <HasChanges>k__BackingField; // 0x7C
 
 	// Properties
@@ -35,11 +35,11 @@ public class MeshPaintable3D : BaseMeshPaintable // TypeDefIndex: 9205
 	// RVA: 0x536330 Offset: 0x534930 VA: 0x180536330 Slot: 5
 	public override void set_TargetTexture(Texture2D value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x9660F0 Offset: 0x9646F0 VA: 0x1809660F0 Slot: 6
 	public override bool get_HasChanges() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x966100 Offset: 0x964700 VA: 0x180966100 Slot: 7
 	public override void set_HasChanges(bool value) { }
 
@@ -73,25 +73,25 @@ private struct MeshPaintable3D.DrawTextureJob : IJobParallelFor // TypeDefIndex:
 {	// Fields
 	public int textureWidth; // 0x0
 	public int2 textureMaxPos; // 0x4
-	[ReadOnlyAttribute] // RVA: 0xD9BC0 Offset: 0xD8FC0 VA: 0x1800D9BC0
-	[NativeDisableParallelForRestrictionAttribute] // RVA: 0xD9BC0 Offset: 0xD8FC0 VA: 0x1800D9BC0
+	[ReadOnlyAttribute] // RVA: 0xD9BD0 Offset: 0xD8FD0 VA: 0x1800D9BD0
+	[NativeDisableParallelForRestrictionAttribute] // RVA: 0xD9BD0 Offset: 0xD8FD0 VA: 0x1800D9BD0
 	public NativeArray<Color32> textureData; // 0x10
 	public Color textureColor; // 0x20
 	public float textureScaleX; // 0x30
 	public float textureScaleY; // 0x34
 	public int uvWidth; // 0x38
 	public int2 uvMaxPos; // 0x3C
-	[ReadOnlyAttribute] // RVA: 0xD9BC0 Offset: 0xD8FC0 VA: 0x1800D9BC0
-	[NativeDisableParallelForRestrictionAttribute] // RVA: 0xD9BC0 Offset: 0xD8FC0 VA: 0x1800D9BC0
+	[ReadOnlyAttribute] // RVA: 0xD9BD0 Offset: 0xD8FD0 VA: 0x1800D9BD0
+	[NativeDisableParallelForRestrictionAttribute] // RVA: 0xD9BD0 Offset: 0xD8FD0 VA: 0x1800D9BD0
 	public NativeArray<half2> uvData; // 0x48
 	public int paintWidth; // 0x58
 	public int paintHeight; // 0x5C
-	[ReadOnlyAttribute] // RVA: 0xD9E30 Offset: 0xD9230 VA: 0x1800D9E30
-	[NativeDisableParallelForRestrictionAttribute] // RVA: 0xD9E30 Offset: 0xD9230 VA: 0x1800D9E30
-	[DeallocateOnJobCompletionAttribute] // RVA: 0xD9E30 Offset: 0xD9230 VA: 0x1800D9E30
+	[ReadOnlyAttribute] // RVA: 0xD9EF0 Offset: 0xD92F0 VA: 0x1800D9EF0
+	[NativeDisableParallelForRestrictionAttribute] // RVA: 0xD9EF0 Offset: 0xD92F0 VA: 0x1800D9EF0
+	[DeallocateOnJobCompletionAttribute] // RVA: 0xD9EF0 Offset: 0xD92F0 VA: 0x1800D9EF0
 	public NativeArray<Color32> paintDataCurrent; // 0x60
-	[WriteOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[NativeDisableParallelForRestrictionAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+	[WriteOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[NativeDisableParallelForRestrictionAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	public NativeArray<Color32> paintDataNew; // 0x70
 	public int startX; // 0x80
 	public int startY; // 0x84
@@ -101,13 +101,13 @@ private struct MeshPaintable3D.DrawTextureJob : IJobParallelFor // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0xFA7C0 Offset: 0xF9BC0 VA: 0x1800FA7C0 Slot: 4
+	// RVA: 0xFA740 Offset: 0xF9B40 VA: 0x1800FA740 Slot: 4
 	public void Execute(int index) { }
 
-	// RVA: 0xFA800 Offset: 0xF9C00 VA: 0x1800FA800
+	// RVA: 0xFA780 Offset: 0xF9B80 VA: 0x1800FA780
 	private float2 SampleUv(float x, float y) { }
 
-	// RVA: 0xFA7D0 Offset: 0xF9BD0 VA: 0x1800FA7D0
+	// RVA: 0xFA750 Offset: 0xF9B50 VA: 0x1800FA750
 	private Color SampleTexture(float x, float y) { }
 
 	// RVA: 0x957A70 Offset: 0x956070 VA: 0x180957A70

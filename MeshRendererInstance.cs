@@ -12,10 +12,10 @@ public struct MeshRendererInstance // TypeDefIndex: 9166
 
 	// Methods
 
-	// RVA: 0xFABA0 Offset: 0xF9FA0 VA: 0x1800FABA0
+	// RVA: 0xFAB20 Offset: 0xF9F20 VA: 0x1800FAB20
 	public Mesh get_mesh() { }
 
-	// RVA: 0xFABC0 Offset: 0xF9FC0 VA: 0x1800FABC0
+	// RVA: 0xFAB40 Offset: 0xF9F40 VA: 0x1800FAB40
 	public void set_mesh(Mesh value) { }
 
 }

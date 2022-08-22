@@ -1,13 +1,13 @@
 public class GraphicRaycaster : BaseRaycaster // TypeDefIndex: 4931
 {	// Fields
 	protected const int kNoEventMaskSet = -1;
-	[FormerlySerializedAsAttribute] // RVA: 0xEC0D0 Offset: 0xEB4D0 VA: 0x1800EC0D0
-	[SerializeField] // RVA: 0xEC0D0 Offset: 0xEB4D0 VA: 0x1800EC0D0
+	[FormerlySerializedAsAttribute] // RVA: 0xEC170 Offset: 0xEB570 VA: 0x1800EC170
+	[SerializeField] // RVA: 0xEC170 Offset: 0xEB570 VA: 0x1800EC170
 	private bool m_IgnoreReversedGraphics; // 0x20
-	[FormerlySerializedAsAttribute] // RVA: 0xEC200 Offset: 0xEB600 VA: 0x1800EC200
-	[SerializeField] // RVA: 0xEC200 Offset: 0xEB600 VA: 0x1800EC200
+	[FormerlySerializedAsAttribute] // RVA: 0xEC290 Offset: 0xEB690 VA: 0x1800EC290
+	[SerializeField] // RVA: 0xEC290 Offset: 0xEB690 VA: 0x1800EC290
 	private GraphicRaycaster.BlockingObjects m_BlockingObjects; // 0x24
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected LayerMask m_BlockingMask; // 0x28
 	private Canvas m_Canvas; // 0x30
 	private List<Graphic> m_RaycastResults; // 0x38

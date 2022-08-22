@@ -16,10 +16,10 @@ public class SprayCanSpray : DecayEntity, ISplashable // TypeDefIndex: 8454
 	// RVA: 0xA83780 Offset: 0xA81D80 VA: 0x180A83780 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.Menu] // RVA: 0x8D990 Offset: 0x8CD90 VA: 0x18008D990
-	[BaseEntity.Menu.Description] // RVA: 0x8D990 Offset: 0x8CD90 VA: 0x18008D990
-	[BaseEntity.Menu.Icon] // RVA: 0x8D990 Offset: 0x8CD90 VA: 0x18008D990
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8D990 Offset: 0x8CD90 VA: 0x18008D990
+	[BaseEntity.Menu] // RVA: 0x8DA10 Offset: 0x8CE10 VA: 0x18008DA10
+	[BaseEntity.Menu.Description] // RVA: 0x8DA10 Offset: 0x8CE10 VA: 0x18008DA10
+	[BaseEntity.Menu.Icon] // RVA: 0x8DA10 Offset: 0x8CE10 VA: 0x18008DA10
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8DA10 Offset: 0x8CE10 VA: 0x18008DA10
 	// RVA: 0xA83740 Offset: 0xA81D40 VA: 0x180A83740
 	private void Menu_WaterClear(BasePlayer player) { }
 

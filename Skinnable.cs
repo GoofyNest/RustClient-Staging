@@ -1,7 +1,7 @@
 public class Skinnable : ScriptableObject // TypeDefIndex: 7715
 {
 // Namespace: 
-[CreateAssetMenuAttribute] // RVA: 0xC7090 Offset: 0xC6490 VA: 0x1800C7090
+[CreateAssetMenuAttribute] // RVA: 0xC7170 Offset: 0xC6570 VA: 0x1800C7170
 public class Skinnable : ScriptableObject // TypeDefIndex: 7715
 	// Fields
 	public string Name; // 0x18

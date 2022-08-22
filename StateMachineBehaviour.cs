@@ -1,12 +1,12 @@
 public abstract class StateMachineBehaviour : ScriptableObject // TypeDefIndex: 4478
 {
 // Namespace: UnityEngine
-[AttributeUsageAttribute] // RVA: 0xB8E60 Offset: 0xB8260 VA: 0x1800B8E60
-[RequiredByNativeCodeAttribute] // RVA: 0xB8E60 Offset: 0xB8260 VA: 0x1800B8E60
+[AttributeUsageAttribute] // RVA: 0xC8BD0 Offset: 0xC7FD0 VA: 0x1800C8BD0
+[RequiredByNativeCodeAttribute] // RVA: 0xC8BD0 Offset: 0xC7FD0 VA: 0x1800C8BD0
 public sealed class SharedBetweenAnimatorsAttribute : Attribute // TypeDefIndex: 4477
 
 // Namespace: UnityEngine
-[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 public abstract class StateMachineBehaviour : ScriptableObject // TypeDefIndex: 4478
 	// Methods
 

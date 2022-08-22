@@ -13,16 +13,16 @@ private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 // Ty
 internal class <Module> // TypeDefIndex: 6153
 
 // Namespace: 
-[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 public static class PlatformServiceExtensions // TypeDefIndex: 6154
 	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2315B60 Offset: 0x2314160 VA: 0x182315B60
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x23159A0 Offset: 0x2313FA0 VA: 0x1823159A0
 	public static long AddPlayerStatInt(IPlatformService platform, string key, long amount) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2315A00 Offset: 0x2314000 VA: 0x182315A00
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x2315840 Offset: 0x2313E40 VA: 0x182315840
 	public static double AddPlayerStatFloat(IPlatformService platform, string key, double amount) { }
 
 }

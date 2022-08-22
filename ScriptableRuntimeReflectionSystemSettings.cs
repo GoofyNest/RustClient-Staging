@@ -8,20 +8,20 @@ public static class ScriptableRuntimeReflectionSystemSettings // TypeDefIndex: 3
 
 	// Methods
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1832BC0 Offset: 0x18311C0 VA: 0x181832BC0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1832B80 Offset: 0x1831180 VA: 0x181832B80
 	private static void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(IScriptableRuntimeReflectionSystem value) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1832B60 Offset: 0x1831160 VA: 0x181832B60
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1832B20 Offset: 0x1831120 VA: 0x181832B20
 	private static ScriptableRuntimeReflectionSystemWrapper get_Internal_ScriptableRuntimeReflectionSystemSettings_instance() { }
 
-	[StaticAccessorAttribute] // RVA: 0x844B0 Offset: 0x838B0 VA: 0x1800844B0
-	[RuntimeInitializeOnLoadMethodAttribute] // RVA: 0x844B0 Offset: 0x838B0 VA: 0x1800844B0
-	// RVA: 0x1832AD0 Offset: 0x18310D0 VA: 0x181832AD0
+	[StaticAccessorAttribute] // RVA: 0x84520 Offset: 0x83920 VA: 0x180084520
+	[RuntimeInitializeOnLoadMethodAttribute] // RVA: 0x84520 Offset: 0x83920 VA: 0x180084520
+	// RVA: 0x1832A90 Offset: 0x1831090 VA: 0x181832A90
 	private static void ScriptingDirtyReflectionSystemInstance() { }
 
-	// RVA: 0x1832B00 Offset: 0x1831100 VA: 0x181832B00
+	// RVA: 0x1832AC0 Offset: 0x18310C0 VA: 0x181832AC0
 	private static void .cctor() { }
 
 }

@@ -90,7 +90,7 @@ public static class SteamClient // TypeDefIndex: 5184
 {	// Fields
 	private static bool initialized; // 0x0
 	private static readonly List<SteamClass> openInterfaces; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static AppId <AppId>k__BackingField; // 0x10
 
 	// Properties
@@ -157,11 +157,11 @@ public static class SteamClient // TypeDefIndex: 5184
 	// RVA: 0xDE51E0 Offset: 0xDE37E0 VA: 0x180DE51E0
 	public static string get_Name() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE4FE0 Offset: 0xDE35E0 VA: 0x180DE4FE0
 	public static AppId get_AppId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE52E0 Offset: 0xDE38E0 VA: 0x180DE52E0
 	internal static void set_AppId(AppId value) { }
 
@@ -173,23 +173,23 @@ public static class SteamClient // TypeDefIndex: 5184
 public class SteamFriends : SteamClientClass<SteamFriends> // TypeDefIndex: 5185
 {	// Fields
 	private static Dictionary<string, string> richPresence; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Friend, string, string> OnChatMessage; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Friend, string, string> OnClanChatMessage; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Friend> OnPersonaStateChange; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Friend, string> OnGameRichPresenceJoinRequested; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<bool> OnGameOverlayActivated; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<string, string> OnGameServerChangeRequested; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Lobby, SteamId> OnGameLobbyJoinRequested; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Friend> OnFriendRichPresenceUpdate; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<string> OnOverlayBrowserProtocol; // 0x48
 
 	// Properties
@@ -212,7 +212,7 @@ public class SteamFriends : SteamClientClass<SteamFriends> // TypeDefIndex: 5185
 	// RVA: 0xDE6050 Offset: 0xDE4650 VA: 0x180DE6050
 	private static void OnGameConnectedClanChatMessage(GameConnectedClanChatMsg_t data) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x8E100 Offset: 0x8D500 VA: 0x18008E100
+	[IteratorStateMachineAttribute] // RVA: 0x8E180 Offset: 0x8D580 VA: 0x18008E180
 	// RVA: 0xDE5480 Offset: 0xDE3A80 VA: 0x180DE5480
 	private static IEnumerable<Friend> GetFriendsWithFlag(FriendFlags flag) { }
 
@@ -234,11 +234,11 @@ public class SteamFriends : SteamClientClass<SteamFriends> // TypeDefIndex: 5185
 	// RVA: 0xDE6420 Offset: 0xDE4A20 VA: 0x180DE6420
 	public static bool RequestUserInformation(SteamId steamid, bool nameonly = True) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x8E180 Offset: 0x8D580 VA: 0x18008E180
+	[AsyncStateMachineAttribute] // RVA: 0x8E200 Offset: 0x8D600 VA: 0x18008E200
 	// RVA: 0xDE5340 Offset: 0xDE3940 VA: 0x180DE5340
 	internal static Task CacheUserInformationAsync(SteamId steamid, bool nameonly) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x8E440 Offset: 0x8D840 VA: 0x18008E440
+	[AsyncStateMachineAttribute] // RVA: 0x8E4C0 Offset: 0x8D8C0 VA: 0x18008E4C0
 	// RVA: 0xDE5550 Offset: 0xDE3B50 VA: 0x180DE5550
 	public static Task<Nullable<Image>> GetMediumAvatarAsync(SteamId steamid) { }
 
@@ -313,34 +313,34 @@ private sealed class SteamFriends.<GetFriendsWithFlag>d__34 : IEnumerable<Friend
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD87490 Offset: 0xD85A90 VA: 0x180D87490
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0xDEC230 Offset: 0xDEA830 VA: 0x180DEC230 Slot: 8
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 6
 	private Friend System.Collections.Generic.IEnumerator<Steamworks.Friend>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDEC370 Offset: 0xDEA970 VA: 0x180DEC370 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDEC3C0 Offset: 0xDEA9C0 VA: 0x180DEC3C0 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDEC2D0 Offset: 0xDEA8D0 VA: 0x180DEC2D0 Slot: 4
 	private IEnumerator<Friend> System.Collections.Generic.IEnumerable<Steamworks.Friend>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDEC2D0 Offset: 0xDEA8D0 VA: 0x180DEC2D0 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
@@ -356,11 +356,11 @@ private struct SteamFriends.<CacheUserInformationAsync>d__51 : IAsyncStateMachin
 
 	// Methods
 
-	// RVA: 0x1232B0 Offset: 0x1226B0 VA: 0x1801232B0 Slot: 4
+	// RVA: 0x123230 Offset: 0x122630 VA: 0x180123230 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -374,11 +374,11 @@ private struct SteamFriends.<GetMediumAvatarAsync>d__53 : IAsyncStateMachine // 
 
 	// Methods
 
-	// RVA: 0x123560 Offset: 0x122960 VA: 0x180123560 Slot: 4
+	// RVA: 0x1234E0 Offset: 0x1228E0 VA: 0x1801234E0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x123570 Offset: 0x122970 VA: 0x180123570 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1234F0 Offset: 0x1228F0 VA: 0x1801234F0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -405,15 +405,15 @@ public class SteamInput : SteamClientClass<SteamInput> // TypeDefIndex: 5190
 
 public class SteamInventory : SteamSharedClass<SteamInventory> // TypeDefIndex: 5191
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<InventoryResult> OnInventoryUpdated; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action OnDefinitionsUpdated; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static string <Currency>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static InventoryItem[] <Items>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static InventoryDef[] <Definitions>k__BackingField; // 0x20
 	private static Dictionary<int, InventoryDef> _defMap; // 0x28
 
@@ -437,19 +437,19 @@ public class SteamInventory : SteamSharedClass<SteamInventory> // TypeDefIndex: 
 	// RVA: 0xDE72C0 Offset: 0xDE58C0 VA: 0x180DE72C0
 	private static void InventoryUpdated(SteamInventoryFullUpdate_t x) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE7960 Offset: 0xDE5F60 VA: 0x180DE7960
 	public static void add_OnInventoryUpdated(Action<InventoryResult> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE7C00 Offset: 0xDE6200 VA: 0x180DE7C00
 	public static void remove_OnInventoryUpdated(Action<InventoryResult> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE78B0 Offset: 0xDE5EB0 VA: 0x180DE78B0
 	public static void add_OnDefinitionsUpdated(Action value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE7B50 Offset: 0xDE6150 VA: 0x180DE7B50
 	public static void remove_OnDefinitionsUpdated(Action value) { }
 
@@ -462,31 +462,31 @@ public class SteamInventory : SteamSharedClass<SteamInventory> // TypeDefIndex: 
 	// RVA: 0xDE6B90 Offset: 0xDE5190 VA: 0x180DE6B90
 	public static InventoryDef FindDefinition(InventoryDefId defId) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE7A10 Offset: 0xDE6010 VA: 0x180DE7A10
 	public static string get_Currency() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE7CB0 Offset: 0xDE62B0 VA: 0x180DE7CB0
 	internal static void set_Currency(string value) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x8F9E0 Offset: 0x8EDE0 VA: 0x18008F9E0
+	[AsyncStateMachineAttribute] // RVA: 0x8FA60 Offset: 0x8EE60 VA: 0x18008FA60
 	// RVA: 0xDE6D40 Offset: 0xDE5340 VA: 0x180DE6D40
 	public static Task<InventoryDef[]> GetDefinitionsWithPricesAsync() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE7B10 Offset: 0xDE6110 VA: 0x180DE7B10
 	public static InventoryItem[] get_Items() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE7D50 Offset: 0xDE6350 VA: 0x180DE7D50
 	internal static void set_Items(InventoryItem[] value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE7A50 Offset: 0xDE6050 VA: 0x180DE7A50
 	public static InventoryDef[] get_Definitions() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE7D00 Offset: 0xDE6300 VA: 0x180DE7D00
 	internal static void set_Definitions(InventoryDef[] value) { }
 
@@ -496,27 +496,27 @@ public class SteamInventory : SteamSharedClass<SteamInventory> // TypeDefIndex: 
 	// RVA: 0xDE6CC0 Offset: 0xDE52C0 VA: 0x180DE6CC0
 	public static bool GetAllItems() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x8FFD0 Offset: 0x8F3D0 VA: 0x18008FFD0
+	[AsyncStateMachineAttribute] // RVA: 0x900D0 Offset: 0x8F4D0 VA: 0x1800900D0
 	// RVA: 0xDE6C10 Offset: 0xDE5210 VA: 0x180DE6C10
 	public static Task<Nullable<InventoryResult>> GetAllItemsAsync() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x900D0 Offset: 0x8F4D0 VA: 0x1800900D0
+	[AsyncStateMachineAttribute] // RVA: 0x90150 Offset: 0x8F550 VA: 0x180090150
 	// RVA: 0xDE6990 Offset: 0xDE4F90 VA: 0x180DE6990
 	public static Task<Nullable<InventoryResult>> CraftItemAsync(InventoryItem[] list, InventoryDef target) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x90200 Offset: 0x8F600 VA: 0x180090200
+	[AsyncStateMachineAttribute] // RVA: 0x90280 Offset: 0x8F680 VA: 0x180090280
 	// RVA: 0xDE6A90 Offset: 0xDE5090 VA: 0x180DE6A90
 	public static Task<Nullable<InventoryResult>> CraftItemAsync(InventoryItem.Amount[] list, InventoryDef target) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x90320 Offset: 0x8F720 VA: 0x180090320
+	[AsyncStateMachineAttribute] // RVA: 0x903A0 Offset: 0x8F7A0 VA: 0x1800903A0
 	// RVA: 0xDE6F90 Offset: 0xDE5590 VA: 0x180DE6F90
 	public static Task<Nullable<InventoryResult>> GrantPromoItemsAsync() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x90490 Offset: 0x8F890 VA: 0x180090490
+	[AsyncStateMachineAttribute] // RVA: 0x90510 Offset: 0x8F910 VA: 0x180090510
 	// RVA: 0xDE77B0 Offset: 0xDE5DB0 VA: 0x180DE77B0
 	public static Task<Nullable<InventoryResult>> TriggerItemDropAsync(InventoryDefId id) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x906B0 Offset: 0x8FAB0 VA: 0x1800906B0
+	[AsyncStateMachineAttribute] // RVA: 0x90770 Offset: 0x8FB70 VA: 0x180090770
 	// RVA: 0xDE76D0 Offset: 0xDE5CD0 VA: 0x180DE76D0
 	public static Task<Nullable<InventoryPurchaseResult>> StartPurchaseAsync(InventoryDef[] items) { }
 
@@ -591,11 +591,11 @@ private struct SteamInventory.<GetDefinitionsWithPricesAsync>d__19 : IAsyncState
 
 	// Methods
 
-	// RVA: 0x123500 Offset: 0x122900 VA: 0x180123500 Slot: 4
+	// RVA: 0x123480 Offset: 0x122880 VA: 0x180123480 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x123510 Offset: 0x122910 VA: 0x180123510 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x123490 Offset: 0x122890 VA: 0x180123490 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -608,11 +608,11 @@ private struct SteamInventory.<GetAllItemsAsync>d__31 : IAsyncStateMachine // Ty
 
 	// Methods
 
-	// RVA: 0x1233E0 Offset: 0x1227E0 VA: 0x1801233E0 Slot: 4
+	// RVA: 0x123360 Offset: 0x122760 VA: 0x180123360 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1233F0 Offset: 0x1227F0 VA: 0x1801233F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x123370 Offset: 0x122770 VA: 0x180123370 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -627,11 +627,11 @@ private struct SteamInventory.<CraftItemAsync>d__33 : IAsyncStateMachine // Type
 
 	// Methods
 
-	// RVA: 0x123320 Offset: 0x122720 VA: 0x180123320 Slot: 4
+	// RVA: 0x1232A0 Offset: 0x1226A0 VA: 0x1801232A0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x123330 Offset: 0x122730 VA: 0x180123330 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1232B0 Offset: 0x1226B0 VA: 0x1801232B0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -646,11 +646,11 @@ private struct SteamInventory.<CraftItemAsync>d__34 : IAsyncStateMachine // Type
 
 	// Methods
 
-	// RVA: 0x123380 Offset: 0x122780 VA: 0x180123380 Slot: 4
+	// RVA: 0x123300 Offset: 0x122700 VA: 0x180123300 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x123390 Offset: 0x122790 VA: 0x180123390 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x123310 Offset: 0x122710 VA: 0x180123310 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -663,11 +663,11 @@ private struct SteamInventory.<GrantPromoItemsAsync>d__36 : IAsyncStateMachine /
 
 	// Methods
 
-	// RVA: 0x123680 Offset: 0x122A80 VA: 0x180123680 Slot: 4
+	// RVA: 0x123600 Offset: 0x122A00 VA: 0x180123600 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x123690 Offset: 0x122A90 VA: 0x180123690 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x123610 Offset: 0x122A10 VA: 0x180123610 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -681,11 +681,11 @@ private struct SteamInventory.<TriggerItemDropAsync>d__37 : IAsyncStateMachine /
 
 	// Methods
 
-	// RVA: 0x1238D0 Offset: 0x122CD0 VA: 0x1801238D0 Slot: 4
+	// RVA: 0x123850 Offset: 0x122C50 VA: 0x180123850 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1238E0 Offset: 0x122CE0 VA: 0x1801238E0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x123860 Offset: 0x122C60 VA: 0x180123860 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -699,40 +699,40 @@ private struct SteamInventory.<StartPurchaseAsync>d__39 : IAsyncStateMachine // 
 
 	// Methods
 
-	// RVA: 0x123870 Offset: 0x122C70 VA: 0x180123870 Slot: 4
+	// RVA: 0x1237F0 Offset: 0x122BF0 VA: 0x1801237F0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x123880 Offset: 0x122C80 VA: 0x180123880 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x123800 Offset: 0x122C00 VA: 0x180123800 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 public class SteamMatchmaking : SteamClientClass<SteamMatchmaking> // TypeDefIndex: 5200
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Friend, Lobby> OnLobbyInvite; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Lobby> OnLobbyEntered; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Result, Lobby> OnLobbyCreated; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Lobby, uint, ushort, SteamId> OnLobbyGameCreated; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Lobby> OnLobbyDataChanged; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Lobby, Friend> OnLobbyMemberDataChanged; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Lobby, Friend> OnLobbyMemberJoined; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Lobby, Friend> OnLobbyMemberLeave; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Lobby, Friend> OnLobbyMemberDisconnected; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Lobby, Friend, Friend> OnLobbyMemberKicked; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Lobby, Friend, Friend> OnLobbyMemberBanned; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Lobby, Friend, string> OnChatMessage; // 0x58
 
 	// Properties
@@ -752,7 +752,7 @@ public class SteamMatchmaking : SteamClientClass<SteamMatchmaking> // TypeDefInd
 	// RVA: 0xDE8490 Offset: 0xDE6A90 VA: 0x180DE8490
 	private static void OnLobbyChatMessageRecievedAPI(LobbyChatMsg_t callback) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x93140 Offset: 0x92540 VA: 0x180093140
+	[IteratorStateMachineAttribute] // RVA: 0x931C0 Offset: 0x925C0 VA: 0x1800931C0
 	// RVA: 0xDE7E60 Offset: 0xDE6460 VA: 0x180DE7E60
 	public static IEnumerable<ServerInfo> GetFavoriteServers() { }
 
@@ -813,34 +813,34 @@ private sealed class SteamMatchmaking.<GetFavoriteServers>d__47 : IEnumerable<Se
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDEC1F0 Offset: 0xDEA7F0 VA: 0x180DEC1F0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0xDEBE70 Offset: 0xDEA470 VA: 0x180DEBE70 Slot: 8
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDEC0B0 Offset: 0xDEA6B0 VA: 0x180DEC0B0 Slot: 6
 	private ServerInfo System.Collections.Generic.IEnumerator<Steamworks.Data.ServerInfo>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDEC100 Offset: 0xDEA700 VA: 0x180DEC100 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDEC150 Offset: 0xDEA750 VA: 0x180DEC150 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDEC020 Offset: 0xDEA620 VA: 0x180DEC020 Slot: 4
 	private IEnumerator<ServerInfo> System.Collections.Generic.IEnumerable<Steamworks.Data.ServerInfo>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDEC020 Offset: 0xDEA620 VA: 0x180DEC020 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
@@ -865,9 +865,9 @@ internal class SteamMatchmakingServers : SteamClientClass<SteamMatchmakingServer
 
 public class SteamMusic : SteamClientClass<SteamMusic> // TypeDefIndex: 5204
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action OnPlaybackChanged; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<float> OnVolumeChanged; // 0x8
 
 	// Methods
@@ -949,9 +949,9 @@ public class SteamNetworkingSockets : SteamSharedClass<SteamNetworkingSockets> /
 {	// Fields
 	private static readonly Dictionary<uint, SocketManager> SocketInterfaces; // 0x0
 	private static readonly Dictionary<uint, ConnectionManager> ConnectionInterfaces; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Connection, ConnectionInfo> OnConnectionStatusChanged; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<NetAddress> OnFakeIPResult; // 0x18
 
 	// Properties
@@ -990,11 +990,11 @@ public class SteamNetworkingSockets : SteamSharedClass<SteamNetworkingSockets> /
 	// RVA: 0xDE9690 Offset: 0xDE7C90 VA: 0x180DE9690
 	private static void FakeIPResult(SteamNetworkingFakeIPResult_t data) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE9FA0 Offset: 0xDE85A0 VA: 0x180DE9FA0
 	public static void add_OnFakeIPResult(Action<NetAddress> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDEA1C0 Offset: 0xDE87C0 VA: 0x180DEA1C0
 	public static void remove_OnFakeIPResult(Action<NetAddress> value) { }
 
@@ -1020,9 +1020,9 @@ public class SteamNetworkingSockets : SteamSharedClass<SteamNetworkingSockets> /
 
 public class SteamNetworkingUtils : SteamSharedClass<SteamNetworkingUtils> // TypeDefIndex: 5209
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<NetDebugOutput, string> OnDebugOutput; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static SteamNetworkingAvailability <Status>k__BackingField; // 0x8
 	private static NetDebugOutput _debugLevel; // 0xC
 	private static NetDebugFunc _debugFunc; // 0x10
@@ -1045,114 +1045,114 @@ public class SteamNetworkingUtils : SteamSharedClass<SteamNetworkingUtils> // Ty
 
 	// Methods
 
-	// RVA: 0x19D7B20 Offset: 0x19D6120 VA: 0x1819D7B20
+	// RVA: 0x19D7AE0 Offset: 0x19D60E0 VA: 0x1819D7AE0
 	internal static ISteamNetworkingUtils get_Internal() { }
 
-	// RVA: 0x19D70D0 Offset: 0x19D56D0 VA: 0x1819D70D0 Slot: 4
+	// RVA: 0x19D7090 Offset: 0x19D5690 VA: 0x1819D7090 Slot: 4
 	internal override void InitializeInterface(bool server) { }
 
-	// RVA: 0x19D7260 Offset: 0x19D5860 VA: 0x1819D7260
+	// RVA: 0x19D7220 Offset: 0x19D5820 VA: 0x1819D7220
 	private static void InstallCallbacks(bool server) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19D77A0 Offset: 0x19D5DA0 VA: 0x1819D77A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19D7760 Offset: 0x19D5D60 VA: 0x1819D7760
 	public static void add_OnDebugOutput(Action<NetDebugOutput, string> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19D7C00 Offset: 0x19D6200 VA: 0x1819D7C00
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19D7BC0 Offset: 0x19D61C0 VA: 0x1819D7BC0
 	public static void remove_OnDebugOutput(Action<NetDebugOutput, string> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19D7BA0 Offset: 0x19D61A0 VA: 0x1819D7BA0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19D7B60 Offset: 0x19D6160 VA: 0x1819D7B60
 	public static SteamNetworkingAvailability get_Status() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19D8130 Offset: 0x19D6730 VA: 0x1819D8130
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19D80F0 Offset: 0x19D66F0 VA: 0x1819D80F0
 	private static void set_Status(SteamNetworkingAvailability value) { }
 
-	// RVA: 0x19D7070 Offset: 0x19D5670 VA: 0x1819D7070
+	// RVA: 0x19D7030 Offset: 0x19D5630 VA: 0x1819D7030
 	public static void InitRelayNetworkAccess() { }
 
-	// RVA: 0x19D7890 Offset: 0x19D5E90 VA: 0x1819D7890
+	// RVA: 0x19D7850 Offset: 0x19D5E50 VA: 0x1819D7850
 	public static int get_ConnectionTimeout() { }
 
-	// RVA: 0x19D7D50 Offset: 0x19D6350 VA: 0x1819D7D50
+	// RVA: 0x19D7D10 Offset: 0x19D6310 VA: 0x1819D7D10
 	public static void set_ConnectionTimeout(int value) { }
 
-	// RVA: 0x19D80D0 Offset: 0x19D66D0 VA: 0x1819D80D0
+	// RVA: 0x19D8090 Offset: 0x19D6690 VA: 0x1819D8090
 	public static void set_SendBufferSize(int value) { }
 
-	// RVA: 0x19D7CF0 Offset: 0x19D62F0 VA: 0x1819D7CF0
+	// RVA: 0x19D7CB0 Offset: 0x19D62B0 VA: 0x1819D7CB0
 	public static void set_AllowWithoutAuth(int value) { }
 
-	// RVA: 0x19D8190 Offset: 0x19D6790 VA: 0x1819D8190
+	// RVA: 0x19D8150 Offset: 0x19D6750 VA: 0x1819D8150
 	public static void set_Unencrypted(int value) { }
 
-	// RVA: 0x19D78E0 Offset: 0x19D5EE0 VA: 0x1819D78E0
+	// RVA: 0x19D78A0 Offset: 0x19D5EA0 VA: 0x1819D78A0
 	public static int get_DebugLevelAckRTT() { }
 
-	// RVA: 0x19D7DB0 Offset: 0x19D63B0 VA: 0x1819D7DB0
+	// RVA: 0x19D7D70 Offset: 0x19D6370 VA: 0x1819D7D70
 	public static void set_DebugLevelAckRTT(int value) { }
 
-	// RVA: 0x19D79D0 Offset: 0x19D5FD0 VA: 0x1819D79D0
+	// RVA: 0x19D7990 Offset: 0x19D5F90 VA: 0x1819D7990
 	public static int get_DebugLevelPacketDecode() { }
 
-	// RVA: 0x19D7ED0 Offset: 0x19D64D0 VA: 0x1819D7ED0
+	// RVA: 0x19D7E90 Offset: 0x19D6490 VA: 0x1819D7E90
 	public static void set_DebugLevelPacketDecode(int value) { }
 
-	// RVA: 0x19D7930 Offset: 0x19D5F30 VA: 0x1819D7930
+	// RVA: 0x19D78F0 Offset: 0x19D5EF0 VA: 0x1819D78F0
 	public static int get_DebugLevelMessage() { }
 
-	// RVA: 0x19D7E10 Offset: 0x19D6410 VA: 0x1819D7E10
+	// RVA: 0x19D7DD0 Offset: 0x19D63D0 VA: 0x1819D7DD0
 	public static void set_DebugLevelMessage(int value) { }
 
-	// RVA: 0x19D7A20 Offset: 0x19D6020 VA: 0x1819D7A20
+	// RVA: 0x19D79E0 Offset: 0x19D5FE0 VA: 0x1819D79E0
 	public static int get_DebugLevelPacketGaps() { }
 
-	// RVA: 0x19D7F30 Offset: 0x19D6530 VA: 0x1819D7F30
+	// RVA: 0x19D7EF0 Offset: 0x19D64F0 VA: 0x1819D7EF0
 	public static void set_DebugLevelPacketGaps(int value) { }
 
-	// RVA: 0x19D7980 Offset: 0x19D5F80 VA: 0x1819D7980
+	// RVA: 0x19D7940 Offset: 0x19D5F40 VA: 0x1819D7940
 	public static int get_DebugLevelP2PRendezvous() { }
 
-	// RVA: 0x19D7E70 Offset: 0x19D6470 VA: 0x1819D7E70
+	// RVA: 0x19D7E30 Offset: 0x19D6430 VA: 0x1819D7E30
 	public static void set_DebugLevelP2PRendezvous(int value) { }
 
-	// RVA: 0x19D7A70 Offset: 0x19D6070 VA: 0x1819D7A70
+	// RVA: 0x19D7A30 Offset: 0x19D6030 VA: 0x1819D7A30
 	public static int get_DebugLevelSDRRelayPings() { }
 
-	// RVA: 0x19D7F90 Offset: 0x19D6590 VA: 0x1819D7F90
+	// RVA: 0x19D7F50 Offset: 0x19D6550 VA: 0x1819D7F50
 	public static void set_DebugLevelSDRRelayPings(int value) { }
 
-	// RVA: 0x19D7AC0 Offset: 0x19D60C0 VA: 0x1819D7AC0
+	// RVA: 0x19D7A80 Offset: 0x19D6080 VA: 0x1819D7A80
 	public static NetDebugOutput get_DebugLevel() { }
 
-	// RVA: 0x19D7FF0 Offset: 0x19D65F0 VA: 0x1819D7FF0
+	// RVA: 0x19D7FB0 Offset: 0x19D65B0 VA: 0x1819D7FB0
 	public static void set_DebugLevel(NetDebugOutput value) { }
 
-	[MonoPInvokeCallbackAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19D7430 Offset: 0x19D5A30 VA: 0x1819D7430
+	[MonoPInvokeCallbackAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19D73F0 Offset: 0x19D59F0 VA: 0x1819D73F0
 	private static void OnDebugMessage(NetDebugOutput nType, IntPtr str) { }
 
-	// RVA: 0x19D7370 Offset: 0x19D5970 VA: 0x1819D7370
+	// RVA: 0x19D7330 Offset: 0x19D5930 VA: 0x1819D7330
 	internal static void LogDebugMessage(NetDebugOutput type, string message) { }
 
-	// RVA: 0x19D7520 Offset: 0x19D5B20 VA: 0x1819D7520
+	// RVA: 0x19D74E0 Offset: 0x19D5AE0 VA: 0x1819D74E0
 	internal static void OutputDebugMessages() { }
 
-	// RVA: 0x19D6F40 Offset: 0x19D5540 VA: 0x1819D6F40
+	// RVA: 0x19D6F00 Offset: 0x19D5500 VA: 0x1819D6F00
 	internal static NetMsg* AllocateMessage() { }
 
-	// RVA: 0x19D7650 Offset: 0x19D5C50 VA: 0x1819D7650
+	// RVA: 0x19D7610 Offset: 0x19D5C10 VA: 0x1819D7610
 	internal static bool SetConfigInt(NetConfig type, int value) { }
 
-	// RVA: 0x19D6FA0 Offset: 0x19D55A0 VA: 0x1819D6FA0
+	// RVA: 0x19D6F60 Offset: 0x19D5560 VA: 0x1819D6F60
 	internal static int GetConfigInt(NetConfig type) { }
 
-	// RVA: 0x19D7760 Offset: 0x19D5D60 VA: 0x1819D7760
+	// RVA: 0x19D7720 Offset: 0x19D5D20 VA: 0x1819D7720
 	public void .ctor() { }
 
-	// RVA: 0x19D76F0 Offset: 0x19D5CF0 VA: 0x1819D76F0
+	// RVA: 0x19D76B0 Offset: 0x19D5CB0 VA: 0x1819D76B0
 	private static void .cctor() { }
 
 }
@@ -1171,31 +1171,31 @@ private sealed class SteamNetworkingUtils.<>c // TypeDefIndex: 5211
 
 	// Methods
 
-	// RVA: 0x19E0000 Offset: 0x19DE600 VA: 0x1819E0000
+	// RVA: 0x19DFFC0 Offset: 0x19DE5C0 VA: 0x1819DFFC0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x19DEDC0 Offset: 0x19DD3C0 VA: 0x1819DEDC0
+	// RVA: 0x19DED80 Offset: 0x19DD380 VA: 0x1819DED80
 	internal void <InstallCallbacks>b__3_0(SteamRelayNetworkStatus_t x) { }
 
 }
 
 public class SteamParental : SteamSharedClass<SteamParental> // TypeDefIndex: 5212
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action OnSettingsChanged; // 0x13848
 
 	// Methods
 
-	// RVA: 0x19D8510 Offset: 0x19D6B10 VA: 0x1819D8510 Slot: 4
+	// RVA: 0x19D84D0 Offset: 0x19D6AD0 VA: 0x1819D84D0 Slot: 4
 	internal override void InitializeInterface(bool server) { }
 
-	// RVA: 0x19D8680 Offset: 0x19D6C80 VA: 0x1819D8680
+	// RVA: 0x19D8640 Offset: 0x19D6C40 VA: 0x1819D8640
 	internal static void InstallEvents(bool server) { }
 
-	// RVA: 0x19D8790 Offset: 0x19D6D90 VA: 0x1819D8790
+	// RVA: 0x19D8750 Offset: 0x19D6D50 VA: 0x1819D8750
 	public void .ctor() { }
 
 }
@@ -1207,33 +1207,33 @@ private sealed class SteamParental.<>c // TypeDefIndex: 5213
 
 	// Methods
 
-	// RVA: 0x19E0060 Offset: 0x19DE660 VA: 0x1819E0060
+	// RVA: 0x19E0020 Offset: 0x19DE620 VA: 0x1819E0020
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x19DEE70 Offset: 0x19DD470 VA: 0x1819DEE70
+	// RVA: 0x19DEE30 Offset: 0x19DD430 VA: 0x1819DEE30
 	internal void <InstallEvents>b__3_0(SteamParentalSettingsChanged_t x) { }
 
 }
 
 public class SteamParties : SteamClientClass<SteamParties> // TypeDefIndex: 5214
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action OnBeaconLocationsUpdated; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action OnActiveBeaconsUpdated; // 0x8
 
 	// Methods
 
-	// RVA: 0x19D87D0 Offset: 0x19D6DD0 VA: 0x1819D87D0 Slot: 4
+	// RVA: 0x19D8790 Offset: 0x19D6D90 VA: 0x1819D8790 Slot: 4
 	internal override void InitializeInterface(bool server) { }
 
-	// RVA: 0x19D8860 Offset: 0x19D6E60 VA: 0x1819D8860
+	// RVA: 0x19D8820 Offset: 0x19D6E20 VA: 0x1819D8820
 	internal void InstallEvents(bool server) { }
 
-	// RVA: 0x19D8A40 Offset: 0x19D7040 VA: 0x1819D8A40
+	// RVA: 0x19D8A00 Offset: 0x19D7000 VA: 0x1819D8A00
 	public void .ctor() { }
 
 }
@@ -1246,36 +1246,36 @@ private sealed class SteamParties.<>c // TypeDefIndex: 5215
 
 	// Methods
 
-	// RVA: 0x19E00C0 Offset: 0x19DE6C0 VA: 0x1819E00C0
+	// RVA: 0x19E0080 Offset: 0x19DE680 VA: 0x1819E0080
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x19DEF30 Offset: 0x19DD530 VA: 0x1819DEF30
+	// RVA: 0x19DEEF0 Offset: 0x19DD4F0 VA: 0x1819DEEF0
 	internal void <InstallEvents>b__3_0(AvailableBeaconLocationsUpdated_t x) { }
 
-	// RVA: 0x19DF230 Offset: 0x19DD830 VA: 0x1819DF230
+	// RVA: 0x19DF1F0 Offset: 0x19DD7F0 VA: 0x1819DF1F0
 	internal void <InstallEvents>b__3_1(ActiveBeaconsUpdated_t x) { }
 
 }
 
 public class SteamRemotePlay : SteamClientClass<SteamRemotePlay> // TypeDefIndex: 5216
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<RemotePlaySession> OnSessionConnected; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<RemotePlaySession> OnSessionDisconnected; // 0x8
 
 	// Methods
 
-	// RVA: 0x19D8A80 Offset: 0x19D7080 VA: 0x1819D8A80 Slot: 4
+	// RVA: 0x19D8A40 Offset: 0x19D7040 VA: 0x1819D8A40 Slot: 4
 	internal override void InitializeInterface(bool server) { }
 
-	// RVA: 0x19D8B10 Offset: 0x19D7110 VA: 0x1819D8B10
+	// RVA: 0x19D8AD0 Offset: 0x19D70D0 VA: 0x1819D8AD0
 	internal void InstallEvents(bool server) { }
 
-	// RVA: 0x19D8CF0 Offset: 0x19D72F0 VA: 0x1819D8CF0
+	// RVA: 0x19D8CB0 Offset: 0x19D72B0 VA: 0x1819D8CB0
 	public void .ctor() { }
 
 }
@@ -1288,16 +1288,16 @@ private sealed class SteamRemotePlay.<>c // TypeDefIndex: 5217
 
 	// Methods
 
-	// RVA: 0x19DFEE0 Offset: 0x19DE4E0 VA: 0x1819DFEE0
+	// RVA: 0x19DFEA0 Offset: 0x19DE4A0 VA: 0x1819DFEA0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x19DEEC0 Offset: 0x19DD4C0 VA: 0x1819DEEC0
+	// RVA: 0x19DEE80 Offset: 0x19DD480 VA: 0x1819DEE80
 	internal void <InstallEvents>b__3_0(SteamRemotePlaySessionConnected_t x) { }
 
-	// RVA: 0x19DF140 Offset: 0x19DD740 VA: 0x1819DF140
+	// RVA: 0x19DF100 Offset: 0x19DD700 VA: 0x1819DF100
 	internal void <InstallEvents>b__3_1(SteamRemotePlaySessionDisconnected_t x) { }
 
 }
@@ -1305,21 +1305,21 @@ private sealed class SteamRemotePlay.<>c // TypeDefIndex: 5217
 public class SteamRemoteStorage : SteamClientClass<SteamRemoteStorage> // TypeDefIndex: 5218
 {	// Methods
 
-	// RVA: 0x19D8D30 Offset: 0x19D7330 VA: 0x1819D8D30 Slot: 4
+	// RVA: 0x19D8CF0 Offset: 0x19D72F0 VA: 0x1819D8CF0 Slot: 4
 	internal override void InitializeInterface(bool server) { }
 
-	// RVA: 0x19D8DB0 Offset: 0x19D73B0 VA: 0x1819D8DB0
+	// RVA: 0x19D8D70 Offset: 0x19D7370 VA: 0x1819D8D70
 	public void .ctor() { }
 
 }
 
 public class SteamScreenshots : SteamClientClass<SteamScreenshots> // TypeDefIndex: 5219
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action OnScreenshotRequested; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Screenshot> OnScreenshotReady; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Result> OnScreenshotFailed; // 0x10
 
 	// Properties
@@ -1327,19 +1327,19 @@ public class SteamScreenshots : SteamClientClass<SteamScreenshots> // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x19D9110 Offset: 0x19D7710 VA: 0x1819D9110
+	// RVA: 0x19D90D0 Offset: 0x19D76D0 VA: 0x1819D90D0
 	internal static ISteamScreenshots get_Internal() { }
 
-	// RVA: 0x19D8DF0 Offset: 0x19D73F0 VA: 0x1819D8DF0 Slot: 4
+	// RVA: 0x19D8DB0 Offset: 0x19D73B0 VA: 0x1819D8DB0 Slot: 4
 	internal override void InitializeInterface(bool server) { }
 
-	// RVA: 0x19D8E70 Offset: 0x19D7470 VA: 0x1819D8E70
+	// RVA: 0x19D8E30 Offset: 0x19D7430 VA: 0x1819D8E30
 	internal static void InstallEvents() { }
 
-	// RVA: 0x19D9040 Offset: 0x19D7640 VA: 0x1819D9040
+	// RVA: 0x19D9000 Offset: 0x19D7600 VA: 0x1819D9000
 	public static void TriggerScreenshot() { }
 
-	// RVA: 0x19D90D0 Offset: 0x19D76D0 VA: 0x1819D90D0
+	// RVA: 0x19D9090 Offset: 0x19D7690 VA: 0x1819D9090
 	public void .ctor() { }
 
 }
@@ -1352,29 +1352,29 @@ private sealed class SteamScreenshots.<>c // TypeDefIndex: 5220
 
 	// Methods
 
-	// RVA: 0x19DFFA0 Offset: 0x19DE5A0 VA: 0x1819DFFA0
+	// RVA: 0x19DFF60 Offset: 0x19DE560 VA: 0x1819DFF60
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x19DEFF0 Offset: 0x19DD5F0 VA: 0x1819DEFF0
+	// RVA: 0x19DEFB0 Offset: 0x19DD5B0 VA: 0x1819DEFB0
 	internal void <InstallEvents>b__3_0(ScreenshotRequested_t x) { }
 
-	// RVA: 0x19DF0A0 Offset: 0x19DD6A0 VA: 0x1819DF0A0
+	// RVA: 0x19DF060 Offset: 0x19DD660 VA: 0x1819DF060
 	internal void <InstallEvents>b__3_1(ScreenshotReady_t x) { }
 
 }
 
 public class SteamUGC : SteamSharedClass<SteamUGC> // TypeDefIndex: 5221
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Result> OnDownloadItemResult; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<AppId, PublishedFileId> OnItemSubscribed; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<AppId, PublishedFileId> OnItemUnsubscribed; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<AppId, PublishedFileId> OnItemInstalled; // 0x18
 
 	// Properties
@@ -1382,23 +1382,23 @@ public class SteamUGC : SteamSharedClass<SteamUGC> // TypeDefIndex: 5221
 
 	// Methods
 
-	// RVA: 0x19D9700 Offset: 0x19D7D00 VA: 0x1819D9700
+	// RVA: 0x19D96C0 Offset: 0x19D7CC0 VA: 0x1819D96C0
 	internal static ISteamUGC get_Internal() { }
 
-	// RVA: 0x19D91E0 Offset: 0x19D77E0 VA: 0x1819D91E0 Slot: 4
+	// RVA: 0x19D91A0 Offset: 0x19D77A0 VA: 0x1819D91A0 Slot: 4
 	internal override void InitializeInterface(bool server) { }
 
-	// RVA: 0x19D9270 Offset: 0x19D7870 VA: 0x1819D9270
+	// RVA: 0x19D9230 Offset: 0x19D7830 VA: 0x1819D9230
 	internal static void InstallEvents(bool server) { }
 
-	// RVA: 0x19D91A0 Offset: 0x19D77A0 VA: 0x1819D91A0
+	// RVA: 0x19D9160 Offset: 0x19D7760 VA: 0x1819D9160
 	public static bool Download(PublishedFileId fileId, bool highPriority = False) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x94BC0 Offset: 0x93FC0 VA: 0x180094BC0
-	// RVA: 0x19D9600 Offset: 0x19D7C00 VA: 0x1819D9600
+	[AsyncStateMachineAttribute] // RVA: 0x94C70 Offset: 0x94070 VA: 0x180094C70
+	// RVA: 0x19D95C0 Offset: 0x19D7BC0 VA: 0x1819D95C0
 	public static Task<Nullable<Item>> QueryFileAsync(PublishedFileId fileId) { }
 
-	// RVA: 0x19D96C0 Offset: 0x19D7CC0 VA: 0x1819D96C0
+	// RVA: 0x19D9680 Offset: 0x19D7C80 VA: 0x1819D9680
 	public void .ctor() { }
 
 }
@@ -1413,22 +1413,22 @@ private sealed class SteamUGC.<>c // TypeDefIndex: 5222
 
 	// Methods
 
-	// RVA: 0x19DFDC0 Offset: 0x19DE3C0 VA: 0x1819DFDC0
+	// RVA: 0x19DFD80 Offset: 0x19DE380 VA: 0x1819DFD80
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x19DF040 Offset: 0x19DD640 VA: 0x1819DF040
+	// RVA: 0x19DF000 Offset: 0x19DD600 VA: 0x1819DF000
 	internal void <InstallEvents>b__3_0(DownloadItemResult_t x) { }
 
-	// RVA: 0x19DF1B0 Offset: 0x19DD7B0 VA: 0x1819DF1B0
+	// RVA: 0x19DF170 Offset: 0x19DD770 VA: 0x1819DF170
 	internal void <InstallEvents>b__3_1(RemoteStoragePublishedFileSubscribed_t x) { }
 
-	// RVA: 0x19DF3D0 Offset: 0x19DD9D0 VA: 0x1819DF3D0
+	// RVA: 0x19DF390 Offset: 0x19DD990 VA: 0x1819DF390
 	internal void <InstallEvents>b__3_2(RemoteStoragePublishedFileUnsubscribed_t x) { }
 
-	// RVA: 0x19DF450 Offset: 0x19DDA50 VA: 0x1819DF450
+	// RVA: 0x19DF410 Offset: 0x19DDA10 VA: 0x1819DF410
 	internal void <InstallEvents>b__3_3(ItemInstalled_t x) { }
 
 }
@@ -1442,11 +1442,11 @@ private struct SteamUGC.<QueryFileAsync>d__19 : IAsyncStateMachine // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x224EF0 Offset: 0x2242F0 VA: 0x180224EF0 Slot: 4
+	// RVA: 0x224E70 Offset: 0x224270 VA: 0x180224E70 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x224F00 Offset: 0x224300 VA: 0x180224F00 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x224E80 Offset: 0x224280 VA: 0x180224E80 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -1454,25 +1454,25 @@ private struct SteamUGC.<QueryFileAsync>d__19 : IAsyncStateMachine // TypeDefInd
 public class SteamUser : SteamClientClass<SteamUser> // TypeDefIndex: 5224
 {	// Fields
 	private static Dictionary<string, string> richPresence; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action OnSteamServersConnected; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action OnSteamServerConnectFailure; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action OnSteamServersDisconnected; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action OnClientGameServerDeny; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action OnLicensesUpdated; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<SteamId, SteamId, AuthResponse> OnValidateAuthTicketResponse; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<GetAuthSessionTicketResponse_t> OnGetAuthSessionTicketResponse; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<AppId, ulong, bool> OnMicroTxnAuthorizationResponse; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<string> OnGameWebCallback; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<DurationControl> OnDurationControl; // 0x50
 	private static bool _recordingVoice; // 0x58
 	private static byte[] readBuffer; // 0x60
@@ -1488,73 +1488,73 @@ public class SteamUser : SteamClientClass<SteamUser> // TypeDefIndex: 5224
 
 	// Methods
 
-	// RVA: 0x19DB670 Offset: 0x19D9C70 VA: 0x1819DB670
+	// RVA: 0x19DB630 Offset: 0x19D9C30 VA: 0x1819DB630
 	internal static ISteamUser get_Internal() { }
 
-	// RVA: 0x19DA4E0 Offset: 0x19D8AE0 VA: 0x1819DA4E0 Slot: 4
+	// RVA: 0x19DA4A0 Offset: 0x19D8AA0 VA: 0x1819DA4A0 Slot: 4
 	internal override void InitializeInterface(bool server) { }
 
-	// RVA: 0x19DA7A0 Offset: 0x19D8DA0 VA: 0x1819DA7A0
+	// RVA: 0x19DA760 Offset: 0x19D8D60 VA: 0x1819DA760
 	internal static void InstallEvents() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19DB3D0 Offset: 0x19D99D0 VA: 0x1819DB3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19DB390 Offset: 0x19D9990 VA: 0x1819DB390
 	internal static void add_OnGetAuthSessionTicketResponse(Action<GetAuthSessionTicketResponse_t> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19DB880 Offset: 0x19D9E80 VA: 0x1819DB880
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19DB840 Offset: 0x19D9E40 VA: 0x1819DB840
 	internal static void remove_OnGetAuthSessionTicketResponse(Action<GetAuthSessionTicketResponse_t> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19DB4D0 Offset: 0x19D9AD0 VA: 0x1819DB4D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19DB490 Offset: 0x19D9A90 VA: 0x1819DB490
 	public static void add_OnMicroTxnAuthorizationResponse(Action<AppId, ulong, bool> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19DB980 Offset: 0x19D9F80 VA: 0x1819DB980
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19DB940 Offset: 0x19D9F40 VA: 0x1819DB940
 	public static void remove_OnMicroTxnAuthorizationResponse(Action<AppId, ulong, bool> value) { }
 
-	// RVA: 0x19DB820 Offset: 0x19D9E20 VA: 0x1819DB820
+	// RVA: 0x19DB7E0 Offset: 0x19D9DE0 VA: 0x1819DB7E0
 	public static bool get_VoiceRecord() { }
 
-	// RVA: 0x19DBC20 Offset: 0x19DA220 VA: 0x1819DBC20
+	// RVA: 0x19DBBE0 Offset: 0x19DA1E0 VA: 0x1819DBBE0
 	public static void set_VoiceRecord(bool value) { }
 
-	// RVA: 0x19DB5D0 Offset: 0x19D9BD0 VA: 0x1819DB5D0
+	// RVA: 0x19DB590 Offset: 0x19D9B90 VA: 0x1819DB590
 	public static bool get_HasVoiceData() { }
 
-	// RVA: 0x19DAFF0 Offset: 0x19D95F0 VA: 0x1819DAFF0
+	// RVA: 0x19DAFB0 Offset: 0x19D95B0 VA: 0x1819DAFB0
 	public static byte[] ReadVoiceDataBytes() { }
 
-	// RVA: 0x19DB7C0 Offset: 0x19D9DC0 VA: 0x1819DB7C0
+	// RVA: 0x19DB780 Offset: 0x19D9D80 VA: 0x1819DB780
 	public static uint get_SampleRate() { }
 
-	// RVA: 0x19DBA80 Offset: 0x19DA080 VA: 0x1819DBA80
+	// RVA: 0x19DBA40 Offset: 0x19DA040 VA: 0x1819DBA40
 	public static void set_SampleRate(uint value) { }
 
-	// RVA: 0x19DB760 Offset: 0x19D9D60 VA: 0x1819DB760
+	// RVA: 0x19DB720 Offset: 0x19D9D20 VA: 0x1819DB720
 	public static uint get_OptimalSampleRate() { }
 
-	// RVA: 0x19DA0D0 Offset: 0x19D86D0 VA: 0x1819DA0D0
+	// RVA: 0x19DA090 Offset: 0x19D8690 VA: 0x1819DA090
 	public static int DecompressVoice(byte[] from, Stream output) { }
 
-	// RVA: 0x19DA380 Offset: 0x19D8980 VA: 0x1819DA380
+	// RVA: 0x19DA340 Offset: 0x19D8940 VA: 0x1819DA340
 	public static AuthTicket GetAuthSessionTicket() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x95870 Offset: 0x94C70 VA: 0x180095870
-	// RVA: 0x19DA2A0 Offset: 0x19D88A0 VA: 0x1819DA2A0
+	[AsyncStateMachineAttribute] // RVA: 0x958F0 Offset: 0x94CF0 VA: 0x1800958F0
+	// RVA: 0x19DA260 Offset: 0x19D8860 VA: 0x1819DA260
 	public static Task<AuthTicket> GetAuthSessionTicketAsync(double timeoutSeconds = 10) { }
 
-	// RVA: 0x19DB700 Offset: 0x19D9D00 VA: 0x1819DB700
+	// RVA: 0x19DB6C0 Offset: 0x19D9CC0 VA: 0x1819DB6C0
 	public static bool get_IsTwoFactorEnabled() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x95970 Offset: 0x94D70 VA: 0x180095970
-	// RVA: 0x19DB260 Offset: 0x19D9860 VA: 0x1819DB260
+	[AsyncStateMachineAttribute] // RVA: 0x95A60 Offset: 0x94E60 VA: 0x180095A60
+	// RVA: 0x19DB220 Offset: 0x19D9820 VA: 0x1819DB220
 	public static Task<byte[]> RequestEncryptedAppTicketAsync() { }
 
-	// RVA: 0x19DB390 Offset: 0x19D9990 VA: 0x1819DB390
+	// RVA: 0x19DB350 Offset: 0x19D9950 VA: 0x1819DB350
 	public void .ctor() { }
 
-	// RVA: 0x19DB320 Offset: 0x19D9920 VA: 0x1819DB320
+	// RVA: 0x19DB2E0 Offset: 0x19D98E0 VA: 0x1819DB2E0
 	private static void .cctor() { }
 
 }
@@ -1575,40 +1575,40 @@ private sealed class SteamUser.<>c // TypeDefIndex: 5225
 
 	// Methods
 
-	// RVA: 0x19DFE80 Offset: 0x19DE480 VA: 0x1819DFE80
+	// RVA: 0x19DFE40 Offset: 0x19DE440 VA: 0x1819DFE40
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x19DF550 Offset: 0x19DDB50 VA: 0x1819DF550
+	// RVA: 0x19DF510 Offset: 0x19DDB10 VA: 0x1819DF510
 	internal void <InstallEvents>b__4_0(SteamServersConnected_t x) { }
 
-	// RVA: 0x19DF5C0 Offset: 0x19DDBC0 VA: 0x1819DF5C0
+	// RVA: 0x19DF580 Offset: 0x19DDB80 VA: 0x1819DF580
 	internal void <InstallEvents>b__4_1(SteamServerConnectFailure_t x) { }
 
-	// RVA: 0x19DF630 Offset: 0x19DDC30 VA: 0x1819DF630
+	// RVA: 0x19DF5F0 Offset: 0x19DDBF0 VA: 0x1819DF5F0
 	internal void <InstallEvents>b__4_2(SteamServersDisconnected_t x) { }
 
-	// RVA: 0x19DF6A0 Offset: 0x19DDCA0 VA: 0x1819DF6A0
+	// RVA: 0x19DF660 Offset: 0x19DDC60 VA: 0x1819DF660
 	internal void <InstallEvents>b__4_3(ClientGameServerDeny_t x) { }
 
-	// RVA: 0x19DF710 Offset: 0x19DDD10 VA: 0x1819DF710
+	// RVA: 0x19DF6D0 Offset: 0x19DDCD0 VA: 0x1819DF6D0
 	internal void <InstallEvents>b__4_4(LicensesUpdated_t x) { }
 
-	// RVA: 0x19DF780 Offset: 0x19DDD80 VA: 0x1819DF780
+	// RVA: 0x19DF740 Offset: 0x19DDD40 VA: 0x1819DF740
 	internal void <InstallEvents>b__4_5(ValidateAuthTicketResponse_t x) { }
 
-	// RVA: 0x19DF850 Offset: 0x19DDE50 VA: 0x1819DF850
+	// RVA: 0x19DF810 Offset: 0x19DDE10 VA: 0x1819DF810
 	internal void <InstallEvents>b__4_6(MicroTxnAuthorizationResponse_t x) { }
 
-	// RVA: 0x19DF910 Offset: 0x19DDF10 VA: 0x1819DF910
+	// RVA: 0x19DF8D0 Offset: 0x19DDED0 VA: 0x1819DF8D0
 	internal void <InstallEvents>b__4_7(GameWebCallback_t x) { }
 
-	// RVA: 0x19DF9A0 Offset: 0x19DDFA0 VA: 0x1819DF9A0
+	// RVA: 0x19DF960 Offset: 0x19DDF60 VA: 0x1819DF960
 	internal void <InstallEvents>b__4_8(GetAuthSessionTicketResponse_t x) { }
 
-	// RVA: 0x19DFA20 Offset: 0x19DE020 VA: 0x1819DFA20
+	// RVA: 0x19DF9E0 Offset: 0x19DDFE0 VA: 0x1819DF9E0
 	internal void <InstallEvents>b__4_9(DurationControl_t x) { }
 
 }
@@ -1623,7 +1623,7 @@ private sealed class SteamUser.<>c__DisplayClass54_0 // TypeDefIndex: 5226
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x19DFD90 Offset: 0x19DE390 VA: 0x1819DFD90
+	// RVA: 0x19DFD50 Offset: 0x19DE350 VA: 0x1819DFD50
 	internal void <GetAuthSessionTicketAsync>g__f|0(GetAuthSessionTicketResponse_t t) { }
 
 }
@@ -1639,11 +1639,11 @@ private struct SteamUser.<GetAuthSessionTicketAsync>d__54 : IAsyncStateMachine /
 
 	// Methods
 
-	// RVA: 0x224E30 Offset: 0x224230 VA: 0x180224E30 Slot: 4
+	// RVA: 0x224DB0 Offset: 0x2241B0 VA: 0x180224DB0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x224E40 Offset: 0x224240 VA: 0x180224E40 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x224DC0 Offset: 0x2241C0 VA: 0x180224DC0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -1656,28 +1656,28 @@ private struct SteamUser.<RequestEncryptedAppTicketAsync>d__71 : IAsyncStateMach
 
 	// Methods
 
-	// RVA: 0x224F50 Offset: 0x224350 VA: 0x180224F50 Slot: 4
+	// RVA: 0x224ED0 Offset: 0x2242D0 VA: 0x180224ED0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x224F60 Offset: 0x224360 VA: 0x180224F60 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x224EE0 Offset: 0x2242E0 VA: 0x180224EE0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 public class SteamUserStats : SteamClientClass<SteamUserStats> // TypeDefIndex: 5229
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static bool <StatsRecieved>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<string, int> OnAchievementIconFetched; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<SteamId, Result> OnUserStatsReceived; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Result> OnUserStatsStored; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<Achievement, int, int> OnAchievementProgress; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<SteamId> OnUserStatsUnloaded; // 0x28
 
 	// Properties
@@ -1687,53 +1687,53 @@ public class SteamUserStats : SteamClientClass<SteamUserStats> // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x19D9F50 Offset: 0x19D8550 VA: 0x1819D9F50
+	// RVA: 0x19D9F10 Offset: 0x19D8510 VA: 0x1819D9F10
 	internal static ISteamUserStats get_Internal() { }
 
-	// RVA: 0x19D9810 Offset: 0x19D7E10 VA: 0x1819D9810 Slot: 4
+	// RVA: 0x19D97D0 Offset: 0x19D7DD0 VA: 0x1819D97D0 Slot: 4
 	internal override void InitializeInterface(bool server) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19DA090 Offset: 0x19D8690 VA: 0x1819DA090
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19DA050 Offset: 0x19D8650 VA: 0x1819DA050
 	internal static void set_StatsRecieved(bool value) { }
 
-	// RVA: 0x19D98B0 Offset: 0x19D7EB0 VA: 0x1819D98B0
+	// RVA: 0x19D9870 Offset: 0x19D7E70 VA: 0x1819D9870
 	internal static void InstallEvents() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19D9E40 Offset: 0x19D8440 VA: 0x1819D9E40
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19D9E00 Offset: 0x19D8400 VA: 0x1819D9E00
 	public static void add_OnAchievementProgress(Action<Achievement, int, int> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19D9FE0 Offset: 0x19D85E0 VA: 0x1819D9FE0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19D9FA0 Offset: 0x19D85A0 VA: 0x1819D9FA0
 	public static void remove_OnAchievementProgress(Action<Achievement, int, int> value) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x965E0 Offset: 0x959E0 VA: 0x1800965E0
-	// RVA: 0x19D9EF0 Offset: 0x19D84F0 VA: 0x1819D9EF0
+	[IteratorStateMachineAttribute] // RVA: 0x96620 Offset: 0x95A20 VA: 0x180096620
+	// RVA: 0x19D9EB0 Offset: 0x19D84B0 VA: 0x1819D9EB0
 	public static IEnumerable<Achievement> get_Achievements() { }
 
-	// RVA: 0x19D9DD0 Offset: 0x19D83D0 VA: 0x1819D9DD0
+	// RVA: 0x19D9D90 Offset: 0x19D8390 VA: 0x1819D9D90
 	public static bool StoreStats() { }
 
-	// RVA: 0x19D9CF0 Offset: 0x19D82F0 VA: 0x1819D9CF0
+	// RVA: 0x19D9CB0 Offset: 0x19D82B0 VA: 0x1819D9CB0
 	public static bool RequestCurrentStats() { }
 
-	// RVA: 0x19D9D50 Offset: 0x19D8350 VA: 0x1819D9D50
+	// RVA: 0x19D9D10 Offset: 0x19D8310 VA: 0x1819D9D10
 	public static bool SetStat(string name, int value) { }
 
-	// RVA: 0x19D9D90 Offset: 0x19D8390 VA: 0x1819D9D90
+	// RVA: 0x19D9D50 Offset: 0x19D8350 VA: 0x1819D9D50
 	public static bool SetStat(string name, float value) { }
 
-	// RVA: 0x19D97D0 Offset: 0x19D7DD0 VA: 0x1819D97D0
+	// RVA: 0x19D9790 Offset: 0x19D7D90 VA: 0x1819D9790
 	public static int GetStatInt(string name) { }
 
-	// RVA: 0x19D9780 Offset: 0x19D7D80 VA: 0x1819D9780
+	// RVA: 0x19D9740 Offset: 0x19D7D40 VA: 0x1819D9740
 	public static float GetStatFloat(string name) { }
 
-	// RVA: 0x19D9D20 Offset: 0x19D8320 VA: 0x1819D9D20
+	// RVA: 0x19D9CE0 Offset: 0x19D82E0 VA: 0x1819D9CE0
 	public static bool ResetAll(bool includeAchievements) { }
 
-	// RVA: 0x19D9E00 Offset: 0x19D8400 VA: 0x1819D9E00
+	// RVA: 0x19D9DC0 Offset: 0x19D83C0 VA: 0x1819D9DC0
 	public void .ctor() { }
 
 }
@@ -1749,25 +1749,25 @@ private sealed class SteamUserStats.<>c // TypeDefIndex: 5230
 
 	// Methods
 
-	// RVA: 0x19DFE20 Offset: 0x19DE420 VA: 0x1819DFE20
+	// RVA: 0x19DFDE0 Offset: 0x19DE3E0 VA: 0x1819DFDE0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x19DFAB0 Offset: 0x19DE0B0 VA: 0x1819DFAB0
+	// RVA: 0x19DFA70 Offset: 0x19DE070 VA: 0x1819DFA70
 	internal void <InstallEvents>b__7_0(UserStatsReceived_t x) { }
 
-	// RVA: 0x19DFBA0 Offset: 0x19DE1A0 VA: 0x1819DFBA0
+	// RVA: 0x19DFB60 Offset: 0x19DE160 VA: 0x1819DFB60
 	internal void <InstallEvents>b__7_1(UserStatsStored_t x) { }
 
-	// RVA: 0x19DFC00 Offset: 0x19DE200 VA: 0x1819DFC00
+	// RVA: 0x19DFBC0 Offset: 0x19DE1C0 VA: 0x1819DFBC0
 	internal void <InstallEvents>b__7_2(UserAchievementStored_t x) { }
 
-	// RVA: 0x19DFCA0 Offset: 0x19DE2A0 VA: 0x1819DFCA0
+	// RVA: 0x19DFC60 Offset: 0x19DE260 VA: 0x1819DFC60
 	internal void <InstallEvents>b__7_3(UserStatsUnloaded_t x) { }
 
-	// RVA: 0x19DFD10 Offset: 0x19DE310 VA: 0x1819DFD10
+	// RVA: 0x19DFCD0 Offset: 0x19DE2D0 VA: 0x1819DFCD0
 	internal void <InstallEvents>b__7_4(UserAchievementIconFetched_t x) { }
 
 }
@@ -1785,48 +1785,48 @@ private sealed class SteamUserStats.<get_Achievements>d__24 : IEnumerable<Achiev
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD87490 Offset: 0xD85A90 VA: 0x180D87490
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x19E0320 Offset: 0x19DE920 VA: 0x1819E0320 Slot: 8
+	// RVA: 0x19E02E0 Offset: 0x19DE8E0 VA: 0x1819E02E0 Slot: 8
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 6
 	private Achievement System.Collections.Generic.IEnumerator<Steamworks.Data.Achievement>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E0470 Offset: 0x19DEA70 VA: 0x1819E0470 Slot: 10
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E0430 Offset: 0x19DEA30 VA: 0x1819E0430 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E04C0 Offset: 0x19DEAC0 VA: 0x1819E04C0 Slot: 9
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E0480 Offset: 0x19DEA80 VA: 0x1819E0480 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E03E0 Offset: 0x19DE9E0 VA: 0x1819E03E0 Slot: 4
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E03A0 Offset: 0x19DE9A0 VA: 0x1819E03A0 Slot: 4
 	private IEnumerator<Achievement> System.Collections.Generic.IEnumerable<Steamworks.Data.Achievement>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E03E0 Offset: 0x19DE9E0 VA: 0x1819E03E0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E03A0 Offset: 0x19DE9A0 VA: 0x1819E03A0 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
 
 public class SteamUtils : SteamSharedClass<SteamUtils> // TypeDefIndex: 5232
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action OnIpCountryChanged; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<int> OnLowBatteryPower; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action OnSteamShutdown; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<bool> OnGamepadTextInputDismissed; // 0x18
 	private static NotificationPosition overlayNotificationPosition; // 0x20
 
@@ -1837,40 +1837,40 @@ public class SteamUtils : SteamSharedClass<SteamUtils> // TypeDefIndex: 5232
 
 	// Methods
 
-	// RVA: 0x19DC690 Offset: 0x19DAC90 VA: 0x1819DC690
+	// RVA: 0x19DC650 Offset: 0x19DAC50 VA: 0x1819DC650
 	internal static ISteamUtils get_Internal() { }
 
-	// RVA: 0x19DC140 Offset: 0x19DA740 VA: 0x1819DC140 Slot: 4
+	// RVA: 0x19DC100 Offset: 0x19DA700 VA: 0x1819DC100 Slot: 4
 	internal override void InitializeInterface(bool server) { }
 
-	// RVA: 0x19DC1F0 Offset: 0x19DA7F0 VA: 0x1819DC1F0
+	// RVA: 0x19DC1B0 Offset: 0x19DA7B0 VA: 0x1819DC1B0
 	internal static void InstallEvents(bool server) { }
 
-	// RVA: 0x19DC580 Offset: 0x19DAB80 VA: 0x1819DC580
+	// RVA: 0x19DC540 Offset: 0x19DAB40 VA: 0x1819DC540
 	private static void SteamClosed() { }
 
-	// RVA: 0x19DC710 Offset: 0x19DAD10 VA: 0x1819DC710
+	// RVA: 0x19DC6D0 Offset: 0x19DACD0 VA: 0x1819DC6D0
 	public static string get_IpCountry() { }
 
-	// RVA: 0x19DBE00 Offset: 0x19DA400 VA: 0x1819DBE00
+	// RVA: 0x19DBDC0 Offset: 0x19DA3C0 VA: 0x1819DBDC0
 	public static bool GetImageSize(int image, out uint width, out uint height) { }
 
-	// RVA: 0x19DBEA0 Offset: 0x19DA4A0 VA: 0x1819DBEA0
+	// RVA: 0x19DBE60 Offset: 0x19DA460 VA: 0x1819DBE60
 	public static Nullable<Image> GetImage(int image) { }
 
-	// RVA: 0x19DC770 Offset: 0x19DAD70 VA: 0x1819DC770
+	// RVA: 0x19DC730 Offset: 0x19DAD30 VA: 0x1819DC730
 	public static bool get_IsOverlayEnabled() { }
 
-	// RVA: 0x19DC0E0 Offset: 0x19DA6E0 VA: 0x1819DC0E0
+	// RVA: 0x19DC0A0 Offset: 0x19DA6A0 VA: 0x1819DC0A0
 	public static bool InitFilterText() { }
 
-	// RVA: 0x19DBD50 Offset: 0x19DA350 VA: 0x1819DBD50
+	// RVA: 0x19DBD10 Offset: 0x19DA310 VA: 0x1819DBD10
 	public static string FilterText(TextFilteringContext context, SteamId sourceSteamID, string inputMessage) { }
 
-	// RVA: 0x19DC650 Offset: 0x19DAC50 VA: 0x1819DC650
+	// RVA: 0x19DC610 Offset: 0x19DAC10 VA: 0x1819DC610
 	public void .ctor() { }
 
-	// RVA: 0x19DC610 Offset: 0x19DAC10 VA: 0x1819DC610
+	// RVA: 0x19DC5D0 Offset: 0x19DABD0 VA: 0x1819DC5D0
 	private static void .cctor() { }
 
 }
@@ -1885,22 +1885,22 @@ private sealed class SteamUtils.<>c // TypeDefIndex: 5233
 
 	// Methods
 
-	// RVA: 0x19DFF40 Offset: 0x19DE540 VA: 0x1819DFF40
+	// RVA: 0x19DFF00 Offset: 0x19DE500 VA: 0x1819DFF00
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x19DEF80 Offset: 0x19DD580 VA: 0x1819DEF80
+	// RVA: 0x19DEF40 Offset: 0x19DD540 VA: 0x1819DEF40
 	internal void <InstallEvents>b__3_0(IPCountry_t x) { }
 
-	// RVA: 0x19DF280 Offset: 0x19DD880 VA: 0x1819DF280
+	// RVA: 0x19DF240 Offset: 0x19DD840 VA: 0x1819DF240
 	internal void <InstallEvents>b__3_1(LowBatteryPower_t x) { }
 
-	// RVA: 0x19DF300 Offset: 0x19DD900 VA: 0x1819DF300
+	// RVA: 0x19DF2C0 Offset: 0x19DD8C0 VA: 0x1819DF2C0
 	internal void <InstallEvents>b__3_2(SteamShutdown_t x) { }
 
-	// RVA: 0x19DF4D0 Offset: 0x19DDAD0 VA: 0x1819DF4D0
+	// RVA: 0x19DF490 Offset: 0x19DDA90 VA: 0x1819DF490
 	internal void <InstallEvents>b__3_3(GamepadTextInputDismissed_t x) { }
 
 }
@@ -1908,13 +1908,13 @@ private sealed class SteamUtils.<>c // TypeDefIndex: 5233
 public class SteamVideo : SteamClientClass<SteamVideo> // TypeDefIndex: 5234
 {	// Methods
 
-	// RVA: 0x19DC7D0 Offset: 0x19DADD0 VA: 0x1819DC7D0 Slot: 4
+	// RVA: 0x19DC790 Offset: 0x19DAD90 VA: 0x1819DC790 Slot: 4
 	internal override void InitializeInterface(bool server) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal static void InstallEvents() { }
 
-	// RVA: 0x19DC850 Offset: 0x19DAE50 VA: 0x1819DC850
+	// RVA: 0x19DC810 Offset: 0x19DAE10 VA: 0x1819DC810
 	public void .ctor() { }
 
 }
@@ -1934,10 +1934,10 @@ public struct SteamId // TypeDefIndex: 5252
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
 	public static ulong op_Implicit(SteamId value) { }
 
-	// RVA: 0x123240 Offset: 0x122640 VA: 0x180123240 Slot: 3
+	// RVA: 0x1231C0 Offset: 0x1225C0 VA: 0x1801231C0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xF37A0 Offset: 0xF2BA0 VA: 0x1800F37A0
+	// RVA: 0xF3720 Offset: 0xF2B20 VA: 0x1800F3720
 	public uint get_AccountId() { }
 
 }
@@ -1948,7 +1948,7 @@ internal abstract class SteamInterface // TypeDefIndex: 5266
 	public IntPtr SelfGlobal; // 0x18
 	public IntPtr SelfServer; // 0x20
 	public IntPtr SelfClient; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IsServer>k__BackingField; // 0x30
 
 	// Properties
@@ -1969,11 +1969,11 @@ internal abstract class SteamInterface // TypeDefIndex: 5266
 	// RVA: 0xDE6950 Offset: 0xDE4F50 VA: 0x180DE6950
 	public bool get_IsValid() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x82BC90 Offset: 0x82A290 VA: 0x18082BC90
 	public bool get_IsServer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x82BCC0 Offset: 0x82A2C0 VA: 0x18082BCC0
 	private void set_IsServer(bool value) { }
 
@@ -2013,7 +2013,7 @@ public class SteamSharedClass<T> : SteamClass // TypeDefIndex: 5268
 	internal static SteamInterface get_Interface() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A50A10 Offset: 0x1A4F010 VA: 0x181A50A10
+	|-RVA: 0x1A509D0 Offset: 0x1A4EFD0 VA: 0x181A509D0
 	|-SteamSharedClass<SteamApps>.get_Interface
 	|-SteamSharedClass<SteamInventory>.get_Interface
 	|-SteamSharedClass<SteamNetworkingSockets>.get_Interface
@@ -2035,7 +2035,7 @@ public class SteamSharedClass<T> : SteamClass // TypeDefIndex: 5268
 	internal virtual void SetInterface(bool server, SteamInterface iface) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A509A0 Offset: 0x1A4EFA0 VA: 0x181A509A0
+	|-RVA: 0x1A50960 Offset: 0x1A4EF60 VA: 0x181A50960
 	|-SteamSharedClass<SteamApps>.SetInterface
 	|-SteamSharedClass<SteamInventory>.SetInterface
 	|-SteamSharedClass<SteamNetworking>.SetInterface
@@ -2051,7 +2051,7 @@ public class SteamSharedClass<T> : SteamClass // TypeDefIndex: 5268
 	internal override void DestroyInterface(bool server) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A50930 Offset: 0x1A4EF30 VA: 0x181A50930
+	|-RVA: 0x1A508F0 Offset: 0x1A4EEF0 VA: 0x181A508F0
 	|-SteamSharedClass<SteamApps>.DestroyInterface
 	|-SteamSharedClass<SteamInventory>.DestroyInterface
 	|-SteamSharedClass<SteamNetworking>.DestroyInterface
@@ -2099,7 +2099,7 @@ public class SteamClientClass<T> : SteamClass // TypeDefIndex: 5269
 	internal virtual void SetInterface(bool server, SteamInterface iface) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A50890 Offset: 0x1A4EE90 VA: 0x181A50890
+	|-RVA: 0x1A50850 Offset: 0x1A4EE50 VA: 0x181A50850
 	|-SteamClientClass<SteamFriends>.SetInterface
 	|-SteamClientClass<SteamInput>.SetInterface
 	|-SteamClientClass<SteamMatchmaking>.SetInterface
@@ -2119,7 +2119,7 @@ public class SteamClientClass<T> : SteamClass // TypeDefIndex: 5269
 	internal override void DestroyInterface(bool server) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A50850 Offset: 0x1A4EE50 VA: 0x181A50850
+	|-RVA: 0x1A50810 Offset: 0x1A4EE10 VA: 0x181A50810
 	|-SteamClientClass<SteamFriends>.DestroyInterface
 	|-SteamClientClass<SteamInput>.DestroyInterface
 	|-SteamClientClass<SteamMatchmaking>.DestroyInterface
@@ -2165,10 +2165,10 @@ internal struct SteamParamStringArray : IDisposable // TypeDefIndex: 5273
 
 	// Methods
 
-	// RVA: 0x19D82D0 Offset: 0x19D68D0 VA: 0x1819D82D0
+	// RVA: 0x19D8290 Offset: 0x19D6890 VA: 0x1819D8290
 	public static SteamParamStringArray From(string[] array) { }
 
-	// RVA: 0x224D50 Offset: 0x224150 VA: 0x180224D50 Slot: 4
+	// RVA: 0x224CD0 Offset: 0x2240D0 VA: 0x180224CD0 Slot: 4
 	public void Dispose() { }
 
 }
@@ -2183,10 +2183,10 @@ internal struct SteamServersConnected_t : ICallbackData // TypeDefIndex: 5293
 
 	// Methods
 
-	// RVA: 0x1DA0F0 Offset: 0x1D94F0 VA: 0x1801DA0F0 Slot: 5
+	// RVA: 0x1DA070 Offset: 0x1D9470 VA: 0x1801DA070 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DA0E0 Offset: 0x1D94E0 VA: 0x1801DA0E0 Slot: 4
+	// RVA: 0x1DA060 Offset: 0x1D9460 VA: 0x1801DA060 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1290A50 Offset: 0x128F050 VA: 0x181290A50
@@ -2206,10 +2206,10 @@ internal struct SteamServerConnectFailure_t : ICallbackData // TypeDefIndex: 529
 
 	// Methods
 
-	// RVA: 0x1DA080 Offset: 0x1D9480 VA: 0x1801DA080 Slot: 5
+	// RVA: 0x1DA000 Offset: 0x1D9400 VA: 0x1801DA000 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DA070 Offset: 0x1D9470 VA: 0x1801DA070 Slot: 4
+	// RVA: 0x1D9FF0 Offset: 0x1D93F0 VA: 0x1801D9FF0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x12909A0 Offset: 0x128EFA0 VA: 0x1812909A0
@@ -2228,10 +2228,10 @@ internal struct SteamServersDisconnected_t : ICallbackData // TypeDefIndex: 5295
 
 	// Methods
 
-	// RVA: 0x1DA160 Offset: 0x1D9560 VA: 0x1801DA160 Slot: 5
+	// RVA: 0x1DA0E0 Offset: 0x1D94E0 VA: 0x1801DA0E0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DA150 Offset: 0x1D9550 VA: 0x1801DA150 Slot: 4
+	// RVA: 0x1DA0D0 Offset: 0x1D94D0 VA: 0x1801DA0D0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1290B00 Offset: 0x128F100 VA: 0x181290B00
@@ -2252,10 +2252,10 @@ internal struct SteamAPICallCompleted_t : ICallbackData // TypeDefIndex: 5329
 
 	// Methods
 
-	// RVA: 0x1D8B40 Offset: 0x1D7F40 VA: 0x1801D8B40 Slot: 5
+	// RVA: 0x1D8AC0 Offset: 0x1D7EC0 VA: 0x1801D8AC0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D8B30 Offset: 0x1D7F30 VA: 0x1801D8B30 Slot: 4
+	// RVA: 0x1D8AB0 Offset: 0x1D7EB0 VA: 0x1801D8AB0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128FB60 Offset: 0x128E160 VA: 0x18128FB60
@@ -2265,7 +2265,7 @@ internal struct SteamAPICallCompleted_t : ICallbackData // TypeDefIndex: 5329
 
 internal struct SteamShutdown_t : ICallbackData // TypeDefIndex: 5330
 {	// Fields
-	public static int _datasize; // 0x2B11180
+	public static int _datasize; // 0x2B101A0
 
 	// Properties
 	public int DataSize { get; }
@@ -2273,10 +2273,10 @@ internal struct SteamShutdown_t : ICallbackData // TypeDefIndex: 5330
 
 	// Methods
 
-	// RVA: 0x1DA1D0 Offset: 0x1D95D0 VA: 0x1801DA1D0 Slot: 5
+	// RVA: 0x1DA150 Offset: 0x1D9550 VA: 0x1801DA150 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DA1C0 Offset: 0x1D95C0 VA: 0x1801DA1C0 Slot: 4
+	// RVA: 0x1DA140 Offset: 0x1D9540 VA: 0x1801DA140 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1290BB0 Offset: 0x128F1B0 VA: 0x181290BB0
@@ -2295,10 +2295,10 @@ internal struct SteamInputDeviceConnected_t : ICallbackData // TypeDefIndex: 542
 
 	// Methods
 
-	// RVA: 0x1D8DA0 Offset: 0x1D81A0 VA: 0x1801D8DA0 Slot: 5
+	// RVA: 0x1D8D20 Offset: 0x1D8120 VA: 0x1801D8D20 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D8D90 Offset: 0x1D8190 VA: 0x1801D8D90 Slot: 4
+	// RVA: 0x1D8D10 Offset: 0x1D8110 VA: 0x1801D8D10 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128FDE0 Offset: 0x128E3E0 VA: 0x18128FDE0
@@ -2317,10 +2317,10 @@ internal struct SteamInputDeviceDisconnected_t : ICallbackData // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1D8E10 Offset: 0x1D8210 VA: 0x1801D8E10 Slot: 5
+	// RVA: 0x1D8D90 Offset: 0x1D8190 VA: 0x1801D8D90 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D8E00 Offset: 0x1D8200 VA: 0x1801D8E00 Slot: 4
+	// RVA: 0x1D8D80 Offset: 0x1D8180 VA: 0x1801D8D80 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128FE80 Offset: 0x128E480 VA: 0x18128FE80
@@ -2345,10 +2345,10 @@ internal struct SteamInputConfigurationLoaded_t : ICallbackData // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1D8D30 Offset: 0x1D8130 VA: 0x1801D8D30 Slot: 5
+	// RVA: 0x1D8CB0 Offset: 0x1D80B0 VA: 0x1801D8CB0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D8D20 Offset: 0x1D8120 VA: 0x1801D8D20 Slot: 4
+	// RVA: 0x1D8CA0 Offset: 0x1D80A0 VA: 0x1801D8CA0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128FD40 Offset: 0x128E340 VA: 0x18128FD40
@@ -2372,10 +2372,10 @@ internal struct SteamUGCQueryCompleted_t : ICallbackData // TypeDefIndex: 5430
 
 	// Methods
 
-	// RVA: 0x1DAB10 Offset: 0x1D9F10 VA: 0x1801DAB10 Slot: 5
+	// RVA: 0x1DAA90 Offset: 0x1D9E90 VA: 0x1801DAA90 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DAB00 Offset: 0x1D9F00 VA: 0x1801DAB00 Slot: 4
+	// RVA: 0x1DAA80 Offset: 0x1D9E80 VA: 0x1801DAA80 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1290DE0 Offset: 0x128F3E0 VA: 0x181290DE0
@@ -2395,10 +2395,10 @@ internal struct SteamUGCRequestUGCDetailsResult_t : ICallbackData // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x1DACF0 Offset: 0x1DA0F0 VA: 0x1801DACF0 Slot: 5
+	// RVA: 0x1DAC70 Offset: 0x1DA070 VA: 0x1801DAC70 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DACE0 Offset: 0x1DA0E0 VA: 0x1801DACE0 Slot: 4
+	// RVA: 0x1DAC60 Offset: 0x1DA060 VA: 0x1801DAC60 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1290E90 Offset: 0x128F490 VA: 0x181290E90
@@ -2418,10 +2418,10 @@ internal struct SteamAppInstalled_t : ICallbackData // TypeDefIndex: 5449
 
 	// Methods
 
-	// RVA: 0x1D8C50 Offset: 0x1D8050 VA: 0x1801D8C50 Slot: 5
+	// RVA: 0x1D8BD0 Offset: 0x1D7FD0 VA: 0x1801D8BD0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D8C40 Offset: 0x1D8040 VA: 0x1801D8C40 Slot: 4
+	// RVA: 0x1D8BC0 Offset: 0x1D7FC0 VA: 0x1801D8BC0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128FC00 Offset: 0x128E200 VA: 0x18128FC00
@@ -2441,10 +2441,10 @@ internal struct SteamAppUninstalled_t : ICallbackData // TypeDefIndex: 5450
 
 	// Methods
 
-	// RVA: 0x1D8CC0 Offset: 0x1D80C0 VA: 0x1801D8CC0 Slot: 5
+	// RVA: 0x1D8C40 Offset: 0x1D8040 VA: 0x1801D8C40 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D8CB0 Offset: 0x1D80B0 VA: 0x1801D8CB0 Slot: 4
+	// RVA: 0x1D8C30 Offset: 0x1D8030 VA: 0x1801D8C30 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128FCA0 Offset: 0x128E2A0 VA: 0x18128FCA0
@@ -2464,10 +2464,10 @@ internal struct SteamInventoryResultReady_t : ICallbackData // TypeDefIndex: 547
 
 	// Methods
 
-	// RVA: 0x1D91C0 Offset: 0x1D85C0 VA: 0x1801D91C0 Slot: 5
+	// RVA: 0x1D9140 Offset: 0x1D8540 VA: 0x1801D9140 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D91B0 Offset: 0x1D85B0 VA: 0x1801D91B0 Slot: 4
+	// RVA: 0x1D9130 Offset: 0x1D8530 VA: 0x1801D9130 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1290250 Offset: 0x128E850 VA: 0x181290250
@@ -2486,10 +2486,10 @@ internal struct SteamInventoryFullUpdate_t : ICallbackData // TypeDefIndex: 5475
 
 	// Methods
 
-	// RVA: 0x1D8F60 Offset: 0x1D8360 VA: 0x1801D8F60 Slot: 5
+	// RVA: 0x1D8EE0 Offset: 0x1D82E0 VA: 0x1801D8EE0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D8F50 Offset: 0x1D8350 VA: 0x1801D8F50 Slot: 4
+	// RVA: 0x1D8ED0 Offset: 0x1D82D0 VA: 0x1801D8ED0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1290070 Offset: 0x128E670 VA: 0x181290070
@@ -2507,10 +2507,10 @@ internal struct SteamInventoryDefinitionUpdate_t : ICallbackData // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1D8E80 Offset: 0x1D8280 VA: 0x1801D8E80 Slot: 5
+	// RVA: 0x1D8E00 Offset: 0x1D8200 VA: 0x1801D8E00 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D8E70 Offset: 0x1D8270 VA: 0x1801D8E70 Slot: 4
+	// RVA: 0x1D8DF0 Offset: 0x1D81F0 VA: 0x1801D8DF0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128FF20 Offset: 0x128E520 VA: 0x18128FF20
@@ -2532,10 +2532,10 @@ internal struct SteamInventoryEligiblePromoItemDefIDs_t : ICallbackData // TypeD
 
 	// Methods
 
-	// RVA: 0x1D8EF0 Offset: 0x1D82F0 VA: 0x1801D8EF0 Slot: 5
+	// RVA: 0x1D8E70 Offset: 0x1D8270 VA: 0x1801D8E70 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D8EE0 Offset: 0x1D82E0 VA: 0x1801D8EE0 Slot: 4
+	// RVA: 0x1D8E60 Offset: 0x1D8260 VA: 0x1801D8E60 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128FFD0 Offset: 0x128E5D0 VA: 0x18128FFD0
@@ -2556,10 +2556,10 @@ internal struct SteamInventoryStartPurchaseResult_t : ICallbackData // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x1D92C0 Offset: 0x1D86C0 VA: 0x1801D92C0 Slot: 5
+	// RVA: 0x1D9240 Offset: 0x1D8640 VA: 0x1801D9240 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D92B0 Offset: 0x1D86B0 VA: 0x1801D92B0 Slot: 4
+	// RVA: 0x1D9230 Offset: 0x1D8630 VA: 0x1801D9230 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x12902F0 Offset: 0x128E8F0 VA: 0x1812902F0
@@ -2579,13 +2579,13 @@ internal struct SteamInventoryRequestPricesResult_t : ICallbackData // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x1D8FC0 Offset: 0x1D83C0 VA: 0x1801D8FC0
+	// RVA: 0x1D8F40 Offset: 0x1D8340 VA: 0x1801D8F40
 	internal string CurrencyUTF8() { }
 
-	// RVA: 0x1D9050 Offset: 0x1D8450 VA: 0x1801D9050 Slot: 5
+	// RVA: 0x1D8FD0 Offset: 0x1D83D0 VA: 0x1801D8FD0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D9040 Offset: 0x1D8440 VA: 0x1801D9040 Slot: 4
+	// RVA: 0x1D8FC0 Offset: 0x1D83C0 VA: 0x1801D8FC0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x12901A0 Offset: 0x128E7A0 VA: 0x1812901A0
@@ -2595,7 +2595,7 @@ internal struct SteamInventoryRequestPricesResult_t : ICallbackData // TypeDefIn
 
 internal struct SteamParentalSettingsChanged_t : ICallbackData // TypeDefIndex: 5482
 {	// Fields
-	public static int _datasize; // 0x2B1119C
+	public static int _datasize; // 0x2B101BC
 
 	// Properties
 	public int DataSize { get; }
@@ -2603,10 +2603,10 @@ internal struct SteamParentalSettingsChanged_t : ICallbackData // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1D9D50 Offset: 0x1D9150 VA: 0x1801D9D50 Slot: 5
+	// RVA: 0x1D9CD0 Offset: 0x1D90D0 VA: 0x1801D9CD0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D9D40 Offset: 0x1D9140 VA: 0x1801D9D40 Slot: 4
+	// RVA: 0x1D9CC0 Offset: 0x1D90C0 VA: 0x1801D9CC0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x12906E0 Offset: 0x128ECE0 VA: 0x1812906E0
@@ -2625,10 +2625,10 @@ internal struct SteamRemotePlaySessionConnected_t : ICallbackData // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x1D9FA0 Offset: 0x1D93A0 VA: 0x1801D9FA0 Slot: 5
+	// RVA: 0x1D9F20 Offset: 0x1D9320 VA: 0x1801D9F20 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D9F90 Offset: 0x1D9390 VA: 0x1801D9F90 Slot: 4
+	// RVA: 0x1D9F10 Offset: 0x1D9310 VA: 0x1801D9F10 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1290840 Offset: 0x128EE40 VA: 0x181290840
@@ -2647,10 +2647,10 @@ internal struct SteamRemotePlaySessionDisconnected_t : ICallbackData // TypeDefI
 
 	// Methods
 
-	// RVA: 0x1DA010 Offset: 0x1D9410 VA: 0x1801DA010 Slot: 5
+	// RVA: 0x1D9F90 Offset: 0x1D9390 VA: 0x1801D9F90 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DA000 Offset: 0x1D9400 VA: 0x1801DA000 Slot: 4
+	// RVA: 0x1D9F80 Offset: 0x1D9380 VA: 0x1801D9F80 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x12908F0 Offset: 0x128EEF0 VA: 0x1812908F0
@@ -2669,10 +2669,10 @@ internal struct SteamNetworkingMessagesSessionRequest_t : ICallbackData // TypeD
 
 	// Methods
 
-	// RVA: 0x1D9C70 Offset: 0x1D9070 VA: 0x1801D9C70 Slot: 5
+	// RVA: 0x1D9BF0 Offset: 0x1D8FF0 VA: 0x1801D9BF0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D9C60 Offset: 0x1D9060 VA: 0x1801D9C60 Slot: 4
+	// RVA: 0x1D9BE0 Offset: 0x1D8FE0 VA: 0x1801D9BE0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1290640 Offset: 0x128EC40 VA: 0x181290640
@@ -2691,10 +2691,10 @@ internal struct SteamNetworkingMessagesSessionFailed_t : ICallbackData // TypeDe
 
 	// Methods
 
-	// RVA: 0x1D9A70 Offset: 0x1D8E70 VA: 0x1801D9A70 Slot: 5
+	// RVA: 0x1D99F0 Offset: 0x1D8DF0 VA: 0x1801D99F0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D9A60 Offset: 0x1D8E60 VA: 0x1801D9A60 Slot: 4
+	// RVA: 0x1D99E0 Offset: 0x1D8DE0 VA: 0x1801D99E0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x12905A0 Offset: 0x128EBA0 VA: 0x1812905A0
@@ -2715,10 +2715,10 @@ internal struct SteamNetConnectionStatusChangedCallback_t : ICallbackData // Typ
 
 	// Methods
 
-	// RVA: 0x1D9550 Offset: 0x1D8950 VA: 0x1801D9550 Slot: 5
+	// RVA: 0x1D94D0 Offset: 0x1D88D0 VA: 0x1801D94D0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D9540 Offset: 0x1D8940 VA: 0x1801D9540 Slot: 4
+	// RVA: 0x1D94C0 Offset: 0x1D88C0 VA: 0x1801D94C0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1290440 Offset: 0x128EA40 VA: 0x181290440
@@ -2738,10 +2738,10 @@ internal struct SteamNetAuthenticationStatus_t : ICallbackData // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1D93A0 Offset: 0x1D87A0 VA: 0x1801D93A0 Slot: 5
+	// RVA: 0x1D9320 Offset: 0x1D8720 VA: 0x1801D9320 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D9390 Offset: 0x1D8790 VA: 0x1801D9390 Slot: 4
+	// RVA: 0x1D9310 Offset: 0x1D8710 VA: 0x1801D9310 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x12903A0 Offset: 0x128E9A0 VA: 0x1812903A0
@@ -2764,10 +2764,10 @@ internal struct SteamRelayNetworkStatus_t : ICallbackData // TypeDefIndex: 5489
 
 	// Methods
 
-	// RVA: 0x1D9DC0 Offset: 0x1D91C0 VA: 0x1801D9DC0 Slot: 5
+	// RVA: 0x1D9D40 Offset: 0x1D9140 VA: 0x1801D9D40 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D9DB0 Offset: 0x1D91B0 VA: 0x1801D9DB0 Slot: 4
+	// RVA: 0x1D9D30 Offset: 0x1D9130 VA: 0x1801D9D30 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1290790 Offset: 0x128ED90 VA: 0x181290790
@@ -2789,10 +2789,10 @@ internal struct SteamNetworkingFakeIPResult_t : ICallbackData // TypeDefIndex: 5
 
 	// Methods
 
-	// RVA: 0x1D97A0 Offset: 0x1D8BA0 VA: 0x1801D97A0 Slot: 5
+	// RVA: 0x1D9720 Offset: 0x1D8B20 VA: 0x1801D9720 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D9790 Offset: 0x1D8B90 VA: 0x1801D9790 Slot: 4
+	// RVA: 0x1D9710 Offset: 0x1D8B10 VA: 0x1801D9710 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x12904F0 Offset: 0x128EAF0 VA: 0x1812904F0
@@ -2838,13 +2838,13 @@ internal struct SteamUGCDetails_t // TypeDefIndex: 5515
 
 	// Methods
 
-	// RVA: 0x1DA330 Offset: 0x1D9730 VA: 0x1801DA330
+	// RVA: 0x1DA2B0 Offset: 0x1D96B0 VA: 0x1801DA2B0
 	internal string TitleUTF8() { }
 
-	// RVA: 0x1DA230 Offset: 0x1D9630 VA: 0x1801DA230
+	// RVA: 0x1DA1B0 Offset: 0x1D95B0 VA: 0x1801DA1B0
 	internal string DescriptionUTF8() { }
 
-	// RVA: 0x1DA2B0 Offset: 0x1D96B0 VA: 0x1801DA2B0
+	// RVA: 0x1DA230 Offset: 0x1D9630 VA: 0x1801DA230
 	internal string TagsUTF8() { }
 
 }
@@ -2867,19 +2867,19 @@ internal struct SteamAPICall_t : IEquatable<SteamAPICall_t>, IComparable<SteamAP
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
 	public static SteamAPICall_t op_Implicit(ulong value) { }
 
-	// RVA: 0x123240 Offset: 0x122640 VA: 0x180123240 Slot: 3
+	// RVA: 0x1231C0 Offset: 0x1225C0 VA: 0x1801231C0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1D8C30 Offset: 0x1D8030 VA: 0x1801D8C30 Slot: 2
+	// RVA: 0x1D8BB0 Offset: 0x1D7FB0 VA: 0x1801D8BB0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1D8BC0 Offset: 0x1D7FC0 VA: 0x1801D8BC0 Slot: 0
+	// RVA: 0x1D8B40 Offset: 0x1D7F40 VA: 0x1801D8B40 Slot: 0
 	public override bool Equals(object p) { }
 
-	// RVA: 0x1D8BB0 Offset: 0x1D7FB0 VA: 0x1801D8BB0 Slot: 4
+	// RVA: 0x1D8B30 Offset: 0x1D7F30 VA: 0x1801D8B30 Slot: 4
 	public bool Equals(SteamAPICall_t p) { }
 
-	// RVA: 0x1D8BA0 Offset: 0x1D7FA0 VA: 0x1801D8BA0 Slot: 5
+	// RVA: 0x1D8B20 Offset: 0x1D7F20 VA: 0x1801D8B20 Slot: 5
 	public int CompareTo(SteamAPICall_t other) { }
 
 }
@@ -2893,19 +2893,19 @@ internal struct SteamInventoryResult_t : IEquatable<SteamInventoryResult_t>, ICo
 	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
 	public static SteamInventoryResult_t op_Implicit(int value) { }
 
-	// RVA: 0x1D92A0 Offset: 0x1D86A0 VA: 0x1801D92A0 Slot: 3
+	// RVA: 0x1D9220 Offset: 0x1D8620 VA: 0x1801D9220 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x14C550 Offset: 0x14B950 VA: 0x18014C550 Slot: 2
+	// RVA: 0x14C4D0 Offset: 0x14B8D0 VA: 0x18014C4D0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1D9230 Offset: 0x1D8630 VA: 0x1801D9230 Slot: 0
+	// RVA: 0x1D91B0 Offset: 0x1D85B0 VA: 0x1801D91B0 Slot: 0
 	public override bool Equals(object p) { }
 
-	// RVA: 0x1D7D30 Offset: 0x1D7130 VA: 0x1801D7D30 Slot: 4
+	// RVA: 0x1D7CB0 Offset: 0x1D70B0 VA: 0x1801D7CB0 Slot: 4
 	public bool Equals(SteamInventoryResult_t p) { }
 
-	// RVA: 0x1D9220 Offset: 0x1D8620 VA: 0x1801D9220 Slot: 5
+	// RVA: 0x1D91A0 Offset: 0x1D85A0 VA: 0x1801D91A0 Slot: 5
 	public int CompareTo(SteamInventoryResult_t other) { }
 
 }
@@ -2919,19 +2919,19 @@ internal struct SteamInventoryUpdateHandle_t : IEquatable<SteamInventoryUpdateHa
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
 	public static SteamInventoryUpdateHandle_t op_Implicit(ulong value) { }
 
-	// RVA: 0x123240 Offset: 0x122640 VA: 0x180123240 Slot: 3
+	// RVA: 0x1231C0 Offset: 0x1225C0 VA: 0x1801231C0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1D8C30 Offset: 0x1D8030 VA: 0x1801D8C30 Slot: 2
+	// RVA: 0x1D8BB0 Offset: 0x1D7FB0 VA: 0x1801D8BB0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1D9320 Offset: 0x1D8720 VA: 0x1801D9320 Slot: 0
+	// RVA: 0x1D92A0 Offset: 0x1D86A0 VA: 0x1801D92A0 Slot: 0
 	public override bool Equals(object p) { }
 
-	// RVA: 0x1D8BB0 Offset: 0x1D7FB0 VA: 0x1801D8BB0 Slot: 4
+	// RVA: 0x1D8B30 Offset: 0x1D7F30 VA: 0x1801D8B30 Slot: 4
 	public bool Equals(SteamInventoryUpdateHandle_t p) { }
 
-	// RVA: 0x1D8BA0 Offset: 0x1D7FA0 VA: 0x1801D8BA0 Slot: 5
+	// RVA: 0x1D8B20 Offset: 0x1D7F20 VA: 0x1801D8B20 Slot: 5
 	public int CompareTo(SteamInventoryUpdateHandle_t other) { }
 
 }
@@ -2945,19 +2945,19 @@ internal struct SteamNetworkingPOPID : IEquatable<SteamNetworkingPOPID>, ICompar
 	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
 	public static SteamNetworkingPOPID op_Implicit(uint value) { }
 
-	// RVA: 0x1D7D40 Offset: 0x1D7140 VA: 0x1801D7D40 Slot: 3
+	// RVA: 0x1D7CC0 Offset: 0x1D70C0 VA: 0x1801D7CC0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x14C550 Offset: 0x14B950 VA: 0x18014C550 Slot: 2
+	// RVA: 0x14C4D0 Offset: 0x14B8D0 VA: 0x18014C4D0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1D9CD0 Offset: 0x1D90D0 VA: 0x1801D9CD0 Slot: 0
+	// RVA: 0x1D9C50 Offset: 0x1D9050 VA: 0x1801D9C50 Slot: 0
 	public override bool Equals(object p) { }
 
-	// RVA: 0x1D7D30 Offset: 0x1D7130 VA: 0x1801D7D30 Slot: 4
+	// RVA: 0x1D7CB0 Offset: 0x1D70B0 VA: 0x1801D7CB0 Slot: 4
 	public bool Equals(SteamNetworkingPOPID p) { }
 
-	// RVA: 0x1D7CB0 Offset: 0x1D70B0 VA: 0x1801D7CB0 Slot: 5
+	// RVA: 0x1D7C30 Offset: 0x1D7030 VA: 0x1801D7C30 Slot: 5
 	public int CompareTo(SteamNetworkingPOPID other) { }
 
 }
@@ -2975,16 +2975,16 @@ public class SteamAchievement : IAchievement // TypeDefIndex: 5710
 
 	// Methods
 
-	// RVA: 0x21EA830 Offset: 0x21E8E30 VA: 0x1821EA830 Slot: 4
+	// RVA: 0x21EA670 Offset: 0x21E8C70 VA: 0x1821EA670 Slot: 4
 	public string get_Key() { }
 
-	// RVA: 0x21EA820 Offset: 0x21E8E20 VA: 0x1821EA820 Slot: 5
+	// RVA: 0x21EA660 Offset: 0x21E8C60 VA: 0x1821EA660 Slot: 5
 	public bool get_IsUnlocked() { }
 
-	// RVA: 0x21EA7F0 Offset: 0x21E8DF0 VA: 0x1821EA7F0
+	// RVA: 0x21EA630 Offset: 0x21E8C30 VA: 0x1821EA630
 	internal void .ctor(Achievement achievement) { }
 
-	// RVA: 0x21EA7E0 Offset: 0x21E8DE0 VA: 0x1821EA7E0 Slot: 6
+	// RVA: 0x21EA620 Offset: 0x21E8C20 VA: 0x1821EA620 Slot: 6
 	public void Unlock() { }
 
 }
@@ -2992,9 +2992,9 @@ public class SteamAchievement : IAchievement // TypeDefIndex: 5710
 public class SteamAuthTicket : IAuthTicket, IDisposable // TypeDefIndex: 5711
 {	// Fields
 	private readonly AuthTicket _ticket; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly string <Token>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly byte[] <Data>k__BackingField; // 0x20
 
 	// Properties
@@ -3003,25 +3003,25 @@ public class SteamAuthTicket : IAuthTicket, IDisposable // TypeDefIndex: 5711
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	public string get_Token() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 5
 	public byte[] get_Data() { }
 
-	// RVA: 0x21EA860 Offset: 0x21E8E60 VA: 0x1821EA860
+	// RVA: 0x21EA6A0 Offset: 0x21E8CA0 VA: 0x1821EA6A0
 	internal void .ctor(AuthTicket ticket) { }
 
-	// RVA: 0x21EA840 Offset: 0x21E8E40 VA: 0x1821EA840 Slot: 6
+	// RVA: 0x21EA680 Offset: 0x21E8C80 VA: 0x1821EA680 Slot: 6
 	public void Dispose() { }
 
 }
 
 public class SteamDownloadableContent : IDownloadableContent // TypeDefIndex: 5712
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly int <AppId>k__BackingField; // 0x10
 
 	// Properties
@@ -3030,11 +3030,11 @@ public class SteamDownloadableContent : IDownloadableContent // TypeDefIndex: 57
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00 Slot: 4
 	public int get_AppId() { }
 
-	// RVA: 0x21EA970 Offset: 0x21E8F70 VA: 0x1821EA970 Slot: 5
+	// RVA: 0x21EA7B0 Offset: 0x21E8DB0 VA: 0x1821EA7B0 Slot: 5
 	public bool get_IsInstalled() { }
 
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
@@ -3044,9 +3044,9 @@ public class SteamDownloadableContent : IDownloadableContent // TypeDefIndex: 57
 
 public class SteamInventory : IPlayerInventory, IDisposable // TypeDefIndex: 5713
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly InventoryResult <Value>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly IReadOnlyList<IPlayerItem> <Items>k__BackingField; // 0x18
 
 	// Properties
@@ -3055,24 +3055,24 @@ public class SteamInventory : IPlayerInventory, IDisposable // TypeDefIndex: 571
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public InventoryResult get_Value() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 5
 	public IReadOnlyList<IPlayerItem> get_Items() { }
 
-	// RVA: 0x21EAA00 Offset: 0x21E9000 VA: 0x1821EAA00
+	// RVA: 0x21EA840 Offset: 0x21E8E40 VA: 0x1821EA840
 	internal void .ctor(InventoryResult inventory) { }
 
-	// RVA: 0x21EA9C0 Offset: 0x21E8FC0 VA: 0x1821EA9C0 Slot: 7
+	// RVA: 0x21EA800 Offset: 0x21E8E00 VA: 0x1821EA800 Slot: 7
 	public void Dispose() { }
 
-	// RVA: 0x21EA990 Offset: 0x21E8F90 VA: 0x1821EA990 Slot: 4
+	// RVA: 0x21EA7D0 Offset: 0x21E8DD0 VA: 0x1821EA7D0 Slot: 4
 	public bool BelongsTo(ulong userId) { }
 
-	// RVA: 0x21EA9E0 Offset: 0x21E8FE0 VA: 0x1821EA9E0 Slot: 6
+	// RVA: 0x21EA820 Offset: 0x21E8E20 VA: 0x1821EA820 Slot: 6
 	public byte[] Serialize() { }
 
 }
@@ -3084,13 +3084,13 @@ private sealed class SteamInventory.<>c // TypeDefIndex: 5714
 
 	// Methods
 
-	// RVA: 0x21F0C20 Offset: 0x21EF220 VA: 0x1821F0C20
+	// RVA: 0x21F0A60 Offset: 0x21EF060 VA: 0x1821F0A60
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x21F0810 Offset: 0x21EEE10 VA: 0x1821F0810
+	// RVA: 0x21F0650 Offset: 0x21EEC50 VA: 0x1821F0650
 	internal SteamItem <.ctor>b__6_0(InventoryItem i) { }
 
 }
@@ -3108,7 +3108,7 @@ public class SteamItem : IPlayerItem // TypeDefIndex: 5715
 
 	// Methods
 
-	// RVA: 0x21EB1A0 Offset: 0x21E97A0 VA: 0x1821EB1A0
+	// RVA: 0x21EAFE0 Offset: 0x21E95E0 VA: 0x1821EAFE0
 	public void .ctor(InventoryItem item) { }
 
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470 Slot: 4
@@ -3117,20 +3117,20 @@ public class SteamItem : IPlayerItem // TypeDefIndex: 5715
 	// RVA: 0x12FA5F0 Offset: 0x12F8BF0 VA: 0x1812FA5F0 Slot: 5
 	public int get_Quantity() { }
 
-	// RVA: 0x21EB1E0 Offset: 0x21E97E0 VA: 0x1821EB1E0 Slot: 6
+	// RVA: 0x21EB020 Offset: 0x21E9620 VA: 0x1821EB020 Slot: 6
 	public DateTimeOffset get_Acquired() { }
 
-	// RVA: 0x21EB2E0 Offset: 0x21E98E0 VA: 0x1821EB2E0 Slot: 7
+	// RVA: 0x21EB120 Offset: 0x21E9720 VA: 0x1821EB120 Slot: 7
 	public ulong get_WorkshopId() { }
 
-	// RVA: 0x21EB270 Offset: 0x21E9870 VA: 0x1821EB270 Slot: 8
+	// RVA: 0x21EB0B0 Offset: 0x21E96B0 VA: 0x1821EB0B0 Slot: 8
 	public string get_ItemShortName() { }
 
 }
 
 public class SteamItemDefinition : IPlayerItemDefinition, IEquatable<IPlayerItemDefinition> // TypeDefIndex: 5716
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly InventoryDef <Value>k__BackingField; // 0x10
 
 	// Properties
@@ -3152,68 +3152,68 @@ public class SteamItemDefinition : IPlayerItemDefinition, IEquatable<IPlayerItem
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public InventoryDef get_Value() { }
 
 	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
 	internal void .ctor(InventoryDef value) { }
 
-	// RVA: 0x21EAF20 Offset: 0x21E9520 VA: 0x1821EAF20 Slot: 4
+	// RVA: 0x21EAD60 Offset: 0x21E9360 VA: 0x1821EAD60 Slot: 4
 	public int get_DefinitionId() { }
 
-	// RVA: 0x21EB050 Offset: 0x21E9650 VA: 0x1821EB050 Slot: 5
+	// RVA: 0x21EAE90 Offset: 0x21E9490 VA: 0x1821EAE90 Slot: 5
 	public string get_Name() { }
 
-	// RVA: 0x21EAF40 Offset: 0x21E9540 VA: 0x1821EAF40 Slot: 6
+	// RVA: 0x21EAD80 Offset: 0x21E9380 VA: 0x1821EAD80 Slot: 6
 	public string get_Description() { }
 
-	// RVA: 0x21EB0E0 Offset: 0x21E96E0 VA: 0x1821EB0E0 Slot: 7
+	// RVA: 0x21EAF20 Offset: 0x21E9520 VA: 0x1821EAF20 Slot: 7
 	public string get_Type() { }
 
-	// RVA: 0x21EAF60 Offset: 0x21E9560 VA: 0x1821EAF60 Slot: 8
+	// RVA: 0x21EADA0 Offset: 0x21E93A0 VA: 0x1821EADA0 Slot: 8
 	public string get_IconUrl() { }
 
-	// RVA: 0x21EB030 Offset: 0x21E9630 VA: 0x1821EB030 Slot: 9
+	// RVA: 0x21EAE70 Offset: 0x21E9470 VA: 0x1821EAE70 Slot: 9
 	public int get_LocalPrice() { }
 
-	// RVA: 0x21EB010 Offset: 0x21E9610 VA: 0x1821EB010 Slot: 10
+	// RVA: 0x21EAE50 Offset: 0x21E9450 VA: 0x1821EAE50 Slot: 10
 	public string get_LocalPriceFormatted() { }
 
-	// RVA: 0x21EB070 Offset: 0x21E9670 VA: 0x1821EB070 Slot: 11
+	// RVA: 0x21EAEB0 Offset: 0x21E94B0 VA: 0x1821EAEB0 Slot: 11
 	public string get_PriceCategory() { }
 
-	// RVA: 0x21EAF80 Offset: 0x21E9580 VA: 0x1821EAF80 Slot: 12
+	// RVA: 0x21EADC0 Offset: 0x21E93C0 VA: 0x1821EADC0 Slot: 12
 	public bool get_IsGenerator() { }
 
-	// RVA: 0x21EAFA0 Offset: 0x21E95A0 VA: 0x1821EAFA0 Slot: 13
+	// RVA: 0x21EADE0 Offset: 0x21E93E0 VA: 0x1821EADE0 Slot: 13
 	public bool get_IsMarketable() { }
 
-	// RVA: 0x21EB090 Offset: 0x21E9690 VA: 0x1821EB090 Slot: 14
+	// RVA: 0x21EAED0 Offset: 0x21E94D0 VA: 0x1821EAED0 Slot: 14
 	public string get_StoreTags() { }
 
-	// RVA: 0x21EAFC0 Offset: 0x21E95C0 VA: 0x1821EAFC0 Slot: 15
+	// RVA: 0x21EAE00 Offset: 0x21E9400 VA: 0x1821EAE00 Slot: 15
 	public string get_ItemShortName() { }
 
-	// RVA: 0x21EB150 Offset: 0x21E9750 VA: 0x1821EB150 Slot: 16
+	// RVA: 0x21EAF90 Offset: 0x21E9590 VA: 0x1821EAF90 Slot: 16
 	public ulong get_WorkshopId() { }
 
-	// RVA: 0x21EB100 Offset: 0x21E9700 VA: 0x1821EB100 Slot: 17
+	// RVA: 0x21EAF40 Offset: 0x21E9540 VA: 0x1821EAF40 Slot: 17
 	public ulong get_WorkshopDownload() { }
 
-	// RVA: 0x21EAD30 Offset: 0x21E9330 VA: 0x1821EAD30 Slot: 18
+	// RVA: 0x21EAB70 Offset: 0x21E9170 VA: 0x1821EAB70 Slot: 18
 	public IEnumerable<PlayerItemRecipe> GetRecipesContainingThis() { }
 
-	// RVA: 0x21EADC0 Offset: 0x21E93C0 VA: 0x1821EADC0
+	// RVA: 0x21EAC00 Offset: 0x21E9200 VA: 0x1821EAC00
 	private static PlayerItemRecipe SteamToPlatformRecipe(InventoryRecipe recipe) { }
 
 	// RVA: 0x155E3F0 Offset: 0x155C9F0 VA: 0x18155E3F0 Slot: 19
 	public bool Equals(IPlayerItemDefinition other) { }
 
-	// RVA: 0x21EAB70 Offset: 0x21E9170 VA: 0x1821EAB70 Slot: 0
+	// RVA: 0x21EA9B0 Offset: 0x21E8FB0 VA: 0x1821EA9B0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x21EACE0 Offset: 0x21E92E0 VA: 0x1821EACE0 Slot: 2
+	// RVA: 0x21EAB20 Offset: 0x21E9120 VA: 0x1821EAB20 Slot: 2
 	public override int GetHashCode() { }
 
 }
@@ -3225,13 +3225,13 @@ private sealed class SteamItemDefinition.<>c // TypeDefIndex: 5717
 
 	// Methods
 
-	// RVA: 0x21F0CE0 Offset: 0x21EF2E0 VA: 0x1821F0CE0
+	// RVA: 0x21F0B20 Offset: 0x21EF120 VA: 0x1821F0B20
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x21F07D0 Offset: 0x21EEDD0 VA: 0x1821F07D0
+	// RVA: 0x21F0610 Offset: 0x21EEC10 VA: 0x1821F0610
 	internal PlayerItemRecipe.Ingredient <SteamToPlatformRecipe>b__33_0(InventoryRecipe.Ingredient i) { }
 
 }
@@ -3241,23 +3241,23 @@ public class SteamPlatform : IPlatformService // TypeDefIndex: 5718
 	private readonly AvatarCache _avatars; // 0x10
 	private readonly Dictionary<int, SteamDownloadableContent> _dlcCache; // 0x18
 	private readonly Dictionary<ulong, SteamWorkshopContent> _workshopCache; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private IReadOnlyList<IPlayerItemDefinition> <ItemDefinitions>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private IReadOnlyList<IPlayerItem> <Items>k__BackingField; // 0x30
 	private bool confiscatedLoop; // 0x38
 	private readonly Dictionary<ulong, SteamPlayer> _playerCache; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ulong <UserId>k__BackingField; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <UserName>k__BackingField; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Country>k__BackingField; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Language>k__BackingField; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Version>k__BackingField; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Branch>k__BackingField; // 0x70
 	private readonly Dictionary<string, SteamAchievement> _achievements; // 0x78
 	private IPlatformHooks _hooks; // 0x80
@@ -3281,250 +3281,250 @@ public class SteamPlatform : IPlatformService // TypeDefIndex: 5718
 
 	// Methods
 
-	[AsyncStateMachineAttribute] // RVA: 0xCAFC0 Offset: 0xCA3C0 VA: 0x1800CAFC0
-	// RVA: 0x21ED0C0 Offset: 0x21EB6C0 VA: 0x1821ED0C0
+	[AsyncStateMachineAttribute] // RVA: 0xCB050 Offset: 0xCA450 VA: 0x1800CB050
+	// RVA: 0x21ECF00 Offset: 0x21EB500 VA: 0x1821ECF00
 	private static void LoadAvatarFromSteamAsync(ulong userId, Texture2D texture) { }
 
-	// RVA: 0x21EC000 Offset: 0x21EA600 VA: 0x1821EC000 Slot: 19
+	// RVA: 0x21EBE40 Offset: 0x21EA440 VA: 0x1821EBE40 Slot: 19
 	public Texture2D GetAvatarTexture(ulong userId) { }
 
-	// RVA: 0x21EC070 Offset: 0x21EA670 VA: 0x1821EC070 Slot: 45
+	// RVA: 0x21EBEB0 Offset: 0x21EA4B0 VA: 0x1821EBEB0 Slot: 45
 	public IDownloadableContent GetDownloadableContent(int appId) { }
 
-	// RVA: 0x21EC740 Offset: 0x21EAD40 VA: 0x1821EC740 Slot: 46
+	// RVA: 0x21EC580 Offset: 0x21EAB80 VA: 0x1821EC580 Slot: 46
 	public IWorkshopContent GetWorkshopContent(ulong workshopId) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330 Slot: 36
 	public IReadOnlyList<IPlayerItemDefinition> get_ItemDefinitions() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
 	private void set_ItemDefinitions(IReadOnlyList<IPlayerItemDefinition> value) { }
 
 	// RVA: 0x364A70 Offset: 0x363070 VA: 0x180364A70 Slot: 37
 	public void RefreshItemDefinitions() { }
 
-	// RVA: 0x21EC1B0 Offset: 0x21EA7B0 VA: 0x1821EC1B0 Slot: 38
+	// RVA: 0x21EBFF0 Offset: 0x21EA5F0 VA: 0x1821EBFF0 Slot: 38
 	public IPlayerItemDefinition GetItemDefinition(int definitionId) { }
 
-	// RVA: 0x21ED1A0 Offset: 0x21EB7A0 VA: 0x1821ED1A0
+	// RVA: 0x21ECFE0 Offset: 0x21EB5E0 VA: 0x1821ECFE0
 	private void OnDefinitionsUpdated() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050 Slot: 39
 	public IReadOnlyList<IPlayerItem> get_Items() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
 	private void set_Items(IReadOnlyList<IPlayerItem> value) { }
 
-	// RVA: 0x21ED4F0 Offset: 0x21EBAF0 VA: 0x1821ED4F0 Slot: 40
+	// RVA: 0x21ED330 Offset: 0x21EB930 VA: 0x1821ED330 Slot: 40
 	public void RefreshItems() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCB380 Offset: 0xCA780 VA: 0x1800CB380
-	// RVA: 0x21ED420 Offset: 0x21EBA20 VA: 0x1821ED420 Slot: 41
+	[AsyncStateMachineAttribute] // RVA: 0xCB410 Offset: 0xCA810 VA: 0x1800CB410
+	// RVA: 0x21ED260 Offset: 0x21EB860 VA: 0x1821ED260 Slot: 41
 	public Task<IPlayerInventory> RefreshAndGetItems() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCB5C0 Offset: 0xCA9C0 VA: 0x1800CB5C0
-	// RVA: 0x21EB770 Offset: 0x21E9D70 VA: 0x1821EB770 Slot: 42
+	[AsyncStateMachineAttribute] // RVA: 0xCB650 Offset: 0xCAA50 VA: 0x1800CB650
+	// RVA: 0x21EB5B0 Offset: 0x21E9BB0 VA: 0x1821EB5B0 Slot: 42
 	public Task<IPlayerInventory> CraftItem(IEnumerable<IPlayerItem> inputs, IPlayerItemDefinition output) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCB8B0 Offset: 0xCACB0 VA: 0x1800CB8B0
-	// RVA: 0x21EC3E0 Offset: 0x21EA9E0 VA: 0x1821EC3E0 Slot: 43
+	[AsyncStateMachineAttribute] // RVA: 0xCB8F0 Offset: 0xCACF0 VA: 0x1800CB8F0
+	// RVA: 0x21EC220 Offset: 0x21EA820 VA: 0x1821EC220 Slot: 43
 	public Task<List<IPlayerItemDefinition>> GetItemDefinitionsWithPrices() { }
 
-	// RVA: 0x21EBD10 Offset: 0x21EA310 VA: 0x1821EBD10 Slot: 44
+	// RVA: 0x21EBB50 Offset: 0x21EA150 VA: 0x1821EBB50 Slot: 44
 	public string FormatPrice(int price) { }
 
-	// RVA: 0x21ED310 Offset: 0x21EB910 VA: 0x1821ED310
+	// RVA: 0x21ED150 Offset: 0x21EB750 VA: 0x1821ED150
 	private void OnInventoryUpdated(InventoryResult result) { }
 
-	// RVA: 0x21EB570 Offset: 0x21E9B70 VA: 0x1821EB570
+	// RVA: 0x21EB3B0 Offset: 0x21E99B0 VA: 0x1821EB3B0
 	private void ConfiscatedItems() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCBB10 Offset: 0xCAF10 VA: 0x1800CBB10
-	// RVA: 0x21ECFF0 Offset: 0x21EB5F0 VA: 0x1821ECFF0
+	[AsyncStateMachineAttribute] // RVA: 0xCBBA0 Offset: 0xCAFA0 VA: 0x1800CBBA0
+	// RVA: 0x21ECE30 Offset: 0x21EB430 VA: 0x1821ECE30
 	private Task InventoryDropAsync() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450 Slot: 8
 	public ulong get_UserId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xEE6420 Offset: 0xEE4A20 VA: 0x180EE6420
 	private void set_UserId(ulong value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870 Slot: 9
 	public string get_UserName() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF890 Offset: 0x4CDE90 VA: 0x1804CF890
 	private void set_UserName(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860 Slot: 10
 	public string get_Country() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF880 Offset: 0x4CDE80 VA: 0x1804CF880
 	private void set_Country(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320 Slot: 11
 	public string get_Language() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x536330 Offset: 0x534930 VA: 0x180536330
 	private void set_Language(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50 Slot: 12
 	public string get_Version() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x519E50 Offset: 0x518450 VA: 0x180519E50
 	private void set_Version(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0 Slot: 13
 	public string get_Branch() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
 	private void set_Branch(string value) { }
 
-	// RVA: 0x21EBF70 Offset: 0x21EA570 VA: 0x1821EBF70 Slot: 14
+	// RVA: 0x21EBDB0 Offset: 0x21EA3B0 VA: 0x1821EBDB0 Slot: 14
 	public IAuthTicket GetAuthSessionTicket() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCC9D0 Offset: 0xCBDD0 VA: 0x1800CC9D0
-	// RVA: 0x21EBEA0 Offset: 0x21EA4A0 VA: 0x1821EBEA0 Slot: 15
+	[AsyncStateMachineAttribute] // RVA: 0xCCAB0 Offset: 0xCBEB0 VA: 0x1800CCAB0
+	// RVA: 0x21EBCE0 Offset: 0x21EA2E0 VA: 0x1821EBCE0 Slot: 15
 	public Task<IAuthTicket> GetAuthSessionTicketAsync() { }
 
-	// RVA: 0x21EDD00 Offset: 0x21EC300 VA: 0x1821EDD00 Slot: 16
+	// RVA: 0x21EDB40 Offset: 0x21EC140 VA: 0x1821EDB40 Slot: 16
 	public IEnumerable<IPlayerInfo> get_Friends() { }
 
-	// RVA: 0x21EC6B0 Offset: 0x21EACB0 VA: 0x1821EC6B0 Slot: 17
+	// RVA: 0x21EC4F0 Offset: 0x21EAAF0 VA: 0x1821EC4F0 Slot: 17
 	public IPlayerInfo GetPlayerInformation(ulong userId) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCCBB0 Offset: 0xCBFB0 VA: 0x1800CCBB0
-	// RVA: 0x21EC590 Offset: 0x21EAB90 VA: 0x1821EC590 Slot: 18
+	[AsyncStateMachineAttribute] // RVA: 0xCCC40 Offset: 0xCC040 VA: 0x1800CCC40
+	// RVA: 0x21EC3D0 Offset: 0x21EA9D0 VA: 0x1821EC3D0 Slot: 18
 	public Task<IPlayerInfo> GetPlayerInformationAsync(ulong userId) { }
 
-	// RVA: 0x21EC4B0 Offset: 0x21EAAB0 VA: 0x1821EC4B0
+	// RVA: 0x21EC2F0 Offset: 0x21EA8F0 VA: 0x1821EC2F0
 	private SteamPlayer GetOrAddPlayer(ulong userId) { }
 
-	// RVA: 0x21EBBA0 Offset: 0x21EA1A0 VA: 0x1821EBBA0 Slot: 27
+	// RVA: 0x21EB9E0 Offset: 0x21E9FE0 VA: 0x1821EB9E0 Slot: 27
 	public string FilterChat(ulong userId, string message) { }
 
-	// RVA: 0x21EBC90 Offset: 0x21EA290 VA: 0x1821EBC90 Slot: 28
+	// RVA: 0x21EBAD0 Offset: 0x21EA0D0 VA: 0x1821EBAD0 Slot: 28
 	public string FilterName(ulong userId, string message) { }
 
-	// RVA: 0x21EBC20 Offset: 0x21EA220 VA: 0x1821EBC20 Slot: 29
+	// RVA: 0x21EBA60 Offset: 0x21EA060 VA: 0x1821EBA60 Slot: 29
 	public string FilterGeneric(string message) { }
 
-	// RVA: 0x21EB560 Offset: 0x21E9B60 VA: 0x1821EB560 Slot: 47
+	// RVA: 0x21EB3A0 Offset: 0x21E99A0 VA: 0x1821EB3A0 Slot: 47
 	public void ClearRichPresence() { }
 
-	// RVA: 0x21EC730 Offset: 0x21EAD30 VA: 0x1821EC730 Slot: 48
+	// RVA: 0x21EC570 Offset: 0x21EAB70 VA: 0x1821EC570 Slot: 48
 	public string GetRichPresence(string key) { }
 
-	// RVA: 0x21ED780 Offset: 0x21EBD80 VA: 0x1821ED780 Slot: 49
+	// RVA: 0x21ED5C0 Offset: 0x21EBBC0 VA: 0x1821ED5C0 Slot: 49
 	public void SetRichPresence(string key, string value) { }
 
-	// RVA: 0x21EB890 Offset: 0x21E9E90 VA: 0x1821EB890 Slot: 20
+	// RVA: 0x21EB6D0 Offset: 0x21E9CD0 VA: 0x1821EB6D0 Slot: 20
 	public IServerQuery CreateServerQuery(ServerQuerySet querySet) { }
 
-	// RVA: 0x21EB9F0 Offset: 0x21E9FF0 VA: 0x1821EB9F0 Slot: 21
+	// RVA: 0x21EB830 Offset: 0x21E9E30 VA: 0x1821EB830 Slot: 21
 	public IServerQuery CreateServerQuery(IEnumerable<string> endpoints) { }
 
-	// RVA: 0x21EB460 Offset: 0x21E9A60 VA: 0x1821EB460 Slot: 22
+	// RVA: 0x21EB2A0 Offset: 0x21E98A0 VA: 0x1821EB2A0 Slot: 22
 	public void AddServerToHistory(ServerInfo server) { }
 
-	// RVA: 0x21ED640 Offset: 0x21EBC40 VA: 0x1821ED640 Slot: 23
+	// RVA: 0x21ED480 Offset: 0x21EBA80 VA: 0x1821ED480 Slot: 23
 	public void RemoveServerFromHistory(ServerInfo server) { }
 
-	// RVA: 0x21EDC70 Offset: 0x21EC270 VA: 0x1821EDC70 Slot: 24
+	// RVA: 0x21EDAB0 Offset: 0x21EC0B0 VA: 0x1821EDAB0 Slot: 24
 	public IReadOnlyList<ServerInfo> get_FavoriteServers() { }
 
-	// RVA: 0x21EB360 Offset: 0x21E9960 VA: 0x1821EB360 Slot: 25
+	// RVA: 0x21EB1A0 Offset: 0x21E97A0 VA: 0x1821EB1A0 Slot: 25
 	public void AddServerToFavorites(ServerInfo server) { }
 
-	// RVA: 0x21ED540 Offset: 0x21EBB40 VA: 0x1821ED540 Slot: 26
+	// RVA: 0x21ED380 Offset: 0x21EB980 VA: 0x1821ED380 Slot: 26
 	public void RemoveServerFromFavorites(ServerInfo server) { }
 
-	// RVA: 0x21ED940 Offset: 0x21EBF40 VA: 0x1821ED940
+	// RVA: 0x21ED780 Offset: 0x21EBD80 VA: 0x1821ED780
 	internal static ServerInfo ToPlatformServer(ServerInfo info) { }
 
-	// RVA: 0x21ED9F0 Offset: 0x21EBFF0 VA: 0x1821ED9F0
+	// RVA: 0x21ED830 Offset: 0x21EBE30 VA: 0x1821ED830
 	internal static ServerInfo ToSteamServer(ServerInfo server) { }
 
-	// RVA: 0x21EBDB0 Offset: 0x21EA3B0 VA: 0x1821EBDB0 Slot: 50
+	// RVA: 0x21EBBF0 Offset: 0x21EA1F0 VA: 0x1821EBBF0 Slot: 50
 	public IAchievement GetAchievement(string key) { }
 
-	// RVA: 0x21ED740 Offset: 0x21EBD40 VA: 0x1821ED740 Slot: 51
+	// RVA: 0x21ED580 Offset: 0x21EBB80 VA: 0x1821ED580 Slot: 51
 	public void RequestCurrentStats() { }
 
-	// RVA: 0x21EC170 Offset: 0x21EA770 VA: 0x1821EC170 Slot: 52
+	// RVA: 0x21EBFB0 Offset: 0x21EA5B0 VA: 0x1821EBFB0 Slot: 52
 	public long GetGlobalStatInt(string key) { }
 
-	// RVA: 0x21EC710 Offset: 0x21EAD10 VA: 0x1821EC710 Slot: 53
+	// RVA: 0x21EC550 Offset: 0x21EAB50 VA: 0x1821EC550 Slot: 53
 	public long GetPlayerStatInt(string key) { }
 
-	// RVA: 0x21ED770 Offset: 0x21EBD70 VA: 0x1821ED770 Slot: 54
+	// RVA: 0x21ED5B0 Offset: 0x21EBBB0 VA: 0x1821ED5B0 Slot: 54
 	public void SetPlayerStatInt(string key, long value) { }
 
-	// RVA: 0x21EC130 Offset: 0x21EA730 VA: 0x1821EC130 Slot: 55
+	// RVA: 0x21EBF70 Offset: 0x21EA570 VA: 0x1821EBF70 Slot: 55
 	public double GetGlobalStatFloat(string key) { }
 
-	// RVA: 0x21EC6F0 Offset: 0x21EACF0 VA: 0x1821EC6F0 Slot: 56
+	// RVA: 0x21EC530 Offset: 0x21EAB30 VA: 0x1821EC530 Slot: 56
 	public double GetPlayerStatFloat(string key) { }
 
-	// RVA: 0x21ED750 Offset: 0x21EBD50 VA: 0x1821ED750 Slot: 57
+	// RVA: 0x21ED590 Offset: 0x21EBB90 VA: 0x1821ED590 Slot: 57
 	public void SetPlayerStatFloat(string key, double value) { }
 
-	// RVA: 0x21EDE70 Offset: 0x21EC470 VA: 0x1821EDE70 Slot: 30
+	// RVA: 0x21EDCB0 Offset: 0x21EC2B0 VA: 0x1821EDCB0 Slot: 30
 	public uint get_OptimalSampleRate() { }
 
-	// RVA: 0x21EDEC0 Offset: 0x21EC4C0 VA: 0x1821EDEC0 Slot: 31
+	// RVA: 0x21EDD00 Offset: 0x21EC300 VA: 0x1821EDD00 Slot: 31
 	public bool get_VoiceRecord() { }
 
-	// RVA: 0x21EDF60 Offset: 0x21EC560 VA: 0x1821EDF60 Slot: 32
+	// RVA: 0x21EDDA0 Offset: 0x21EC3A0 VA: 0x1821EDDA0 Slot: 32
 	public void set_VoiceRecord(bool value) { }
 
-	// RVA: 0x21EDD80 Offset: 0x21EC380 VA: 0x1821EDD80 Slot: 33
+	// RVA: 0x21EDBC0 Offset: 0x21EC1C0 VA: 0x1821EDBC0 Slot: 33
 	public bool get_HasVoiceData() { }
 
-	// RVA: 0x21EC020 Offset: 0x21EA620 VA: 0x1821EC020 Slot: 34
+	// RVA: 0x21EBE60 Offset: 0x21EA460 VA: 0x1821EBE60 Slot: 34
 	public byte[] GetCompressedVoiceData() { }
 
-	// RVA: 0x21EBB30 Offset: 0x21EA130 VA: 0x1821EBB30 Slot: 35
+	// RVA: 0x21EB970 Offset: 0x21E9F70 VA: 0x1821EB970 Slot: 35
 	public int DecompressVoiceData(byte[] data, MemoryStream outputStream) { }
 
-	// RVA: 0x21EDDD0 Offset: 0x21EC3D0 VA: 0x1821EDDD0 Slot: 7
+	// RVA: 0x21EDC10 Offset: 0x21EC210 VA: 0x1821EDC10 Slot: 7
 	public bool get_IsValid() { }
 
-	// RVA: 0x21EC980 Offset: 0x21EAF80 VA: 0x1821EC980 Slot: 4
+	// RVA: 0x21EC7C0 Offset: 0x21EADC0 VA: 0x1821EC7C0 Slot: 4
 	public bool Initialize(IPlatformHooks hooks) { }
 
-	// RVA: 0x21ED7A0 Offset: 0x21EBDA0 VA: 0x1821ED7A0 Slot: 5
+	// RVA: 0x21ED5E0 Offset: 0x21EBBE0 VA: 0x1821ED5E0 Slot: 5
 	public void Shutdown() { }
 
-	// RVA: 0x21EDA60 Offset: 0x21EC060 VA: 0x1821EDA60 Slot: 6
+	// RVA: 0x21ED8A0 Offset: 0x21EBEA0 VA: 0x1821ED8A0 Slot: 6
 	public void Update() { }
 
-	// RVA: 0x21ED500 Offset: 0x21EBB00 VA: 0x1821ED500
+	// RVA: 0x21ED340 Offset: 0x21EB940 VA: 0x1821ED340
 	private static AuthResponse RemapAuthResponse(AuthResponse response) { }
 
-	// RVA: 0x21EBA70 Offset: 0x21EA070 VA: 0x1821EBA70
+	// RVA: 0x21EB8B0 Offset: 0x21E9EB0 VA: 0x1821EB8B0
 	private static void DebugPrintSteamCallback(CallbackType type, string content, bool isServer) { }
 
-	// RVA: 0x21EDB20 Offset: 0x21EC120 VA: 0x1821EDB20
+	// RVA: 0x21ED960 Offset: 0x21EBF60 VA: 0x1821ED960
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x21EDA50 Offset: 0x21EC050 VA: 0x1821EDA50
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x21ED890 Offset: 0x21EBE90 VA: 0x1821ED890
 	private SteamPlayer <get_Friends>b__55_0(Friend f) { }
 
 }
@@ -3539,11 +3539,11 @@ private struct SteamPlatform.<LoadAvatarFromSteamAsync>d__1 : IAsyncStateMachine
 
 	// Methods
 
-	// RVA: 0x237220 Offset: 0x236620 VA: 0x180237220 Slot: 4
+	// RVA: 0x2371A0 Offset: 0x2365A0 VA: 0x1802371A0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF15B0 Offset: 0xF09B0 VA: 0x1800F15B0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF1530 Offset: 0xF0930 VA: 0x1800F1530 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -3558,22 +3558,22 @@ private sealed class SteamPlatform.<>c // TypeDefIndex: 5720
 
 	// Methods
 
-	// RVA: 0x21F0C80 Offset: 0x21EF280 VA: 0x1821F0C80
+	// RVA: 0x21F0AC0 Offset: 0x21EF0C0 VA: 0x1821F0AC0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x21F0770 Offset: 0x21EED70 VA: 0x1821F0770
+	// RVA: 0x21F05B0 Offset: 0x21EEBB0 VA: 0x1821F05B0
 	internal SteamItemDefinition <OnDefinitionsUpdated>b__13_0(InventoryDef d) { }
 
-	// RVA: 0x21F0680 Offset: 0x21EEC80 VA: 0x1821F0680
+	// RVA: 0x21F04C0 Offset: 0x21EEAC0 VA: 0x1821F04C0
 	internal InventoryItem <CraftItem>b__20_0(SteamItem i) { }
 
-	// RVA: 0x21F06B0 Offset: 0x21EECB0 VA: 0x1821F06B0
+	// RVA: 0x21F04F0 Offset: 0x21EEAF0 VA: 0x1821F04F0
 	internal IPlayerItemDefinition <GetItemDefinitionsWithPrices>b__21_0(InventoryDef d) { }
 
-	// RVA: 0x21F0710 Offset: 0x21EED10 VA: 0x1821F0710
+	// RVA: 0x21F0550 Offset: 0x21EEB50 VA: 0x1821F0550
 	internal void <Initialize>b__97_0(Exception e) { }
 
 }
@@ -3586,11 +3586,11 @@ private struct SteamPlatform.<RefreshAndGetItems>d__19 : IAsyncStateMachine // T
 
 	// Methods
 
-	// RVA: 0x237230 Offset: 0x236630 VA: 0x180237230 Slot: 4
+	// RVA: 0x2371B0 Offset: 0x2365B0 VA: 0x1802371B0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x237240 Offset: 0x236640 VA: 0x180237240 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x2371C0 Offset: 0x2365C0 VA: 0x1802371C0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -3605,11 +3605,11 @@ private struct SteamPlatform.<CraftItem>d__20 : IAsyncStateMachine // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x237090 Offset: 0x236490 VA: 0x180237090 Slot: 4
+	// RVA: 0x237010 Offset: 0x236410 VA: 0x180237010 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2370A0 Offset: 0x2364A0 VA: 0x1802370A0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x237020 Offset: 0x236420 VA: 0x180237020 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -3622,11 +3622,11 @@ private struct SteamPlatform.<GetItemDefinitionsWithPrices>d__21 : IAsyncStateMa
 
 	// Methods
 
-	// RVA: 0x237150 Offset: 0x236550 VA: 0x180237150 Slot: 4
+	// RVA: 0x2370D0 Offset: 0x2364D0 VA: 0x1802370D0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x237160 Offset: 0x236560 VA: 0x180237160 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x2370E0 Offset: 0x2364E0 VA: 0x1802370E0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -3640,11 +3640,11 @@ private struct SteamPlatform.<InventoryDropAsync>d__26 : IAsyncStateMachine // T
 
 	// Methods
 
-	// RVA: 0x237210 Offset: 0x236610 VA: 0x180237210 Slot: 4
+	// RVA: 0x237190 Offset: 0x236590 VA: 0x180237190 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -3657,11 +3657,11 @@ private struct SteamPlatform.<GetAuthSessionTicketAsync>d__53 : IAsyncStateMachi
 
 	// Methods
 
-	// RVA: 0x2370F0 Offset: 0x2364F0 VA: 0x1802370F0 Slot: 4
+	// RVA: 0x237070 Offset: 0x236470 VA: 0x180237070 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x237100 Offset: 0x236500 VA: 0x180237100 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x237080 Offset: 0x236480 VA: 0x180237080 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -3677,18 +3677,18 @@ private struct SteamPlatform.<GetPlayerInformationAsync>d__57 : IAsyncStateMachi
 
 	// Methods
 
-	// RVA: 0x2371B0 Offset: 0x2365B0 VA: 0x1802371B0 Slot: 4
+	// RVA: 0x237130 Offset: 0x236530 VA: 0x180237130 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2371C0 Offset: 0x2365C0 VA: 0x1802371C0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x237140 Offset: 0x236540 VA: 0x180237140 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 public class SteamPlayer : IPlayerInfo // TypeDefIndex: 5727
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly Friend <Value>k__BackingField; // 0x10
 
 	// Properties
@@ -3703,29 +3703,29 @@ public class SteamPlayer : IPlayerInfo // TypeDefIndex: 5727
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public Friend get_Value() { }
 
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 4
 	public ulong get_UserId() { }
 
-	// RVA: 0x21EE1C0 Offset: 0x21EC7C0 VA: 0x1821EE1C0 Slot: 5
+	// RVA: 0x21EE000 Offset: 0x21EC600 VA: 0x1821EE000 Slot: 5
 	public string get_UserName() { }
 
-	// RVA: 0x21EE000 Offset: 0x21EC600 VA: 0x1821EE000 Slot: 6
+	// RVA: 0x21EDE40 Offset: 0x21EC440 VA: 0x1821EDE40 Slot: 6
 	public bool get_IsOnline() { }
 
-	// RVA: 0x21EDFE0 Offset: 0x21EC5E0 VA: 0x1821EDFE0 Slot: 7
+	// RVA: 0x21EDE20 Offset: 0x21EC420 VA: 0x1821EDE20 Slot: 7
 	public bool get_IsMe() { }
 
-	// RVA: 0x21EDFC0 Offset: 0x21EC5C0 VA: 0x1821EDFC0 Slot: 8
+	// RVA: 0x21EDE00 Offset: 0x21EC400 VA: 0x1821EDE00 Slot: 8
 	public bool get_IsFriend() { }
 
-	// RVA: 0x21EE020 Offset: 0x21EC620 VA: 0x1821EE020 Slot: 9
+	// RVA: 0x21EDE60 Offset: 0x21EC460 VA: 0x1821EDE60 Slot: 9
 	public bool get_IsPlayingThisGame() { }
 
-	// RVA: 0x21EE040 Offset: 0x21EC640 VA: 0x1821EE040 Slot: 10
+	// RVA: 0x21EDE80 Offset: 0x21EC480 VA: 0x1821EDE80 Slot: 10
 	public string get_ServerEndpoint() { }
 
 	// RVA: 0x139FB30 Offset: 0x139E130 VA: 0x18139FB30
@@ -3735,13 +3735,13 @@ public class SteamPlayer : IPlayerInfo // TypeDefIndex: 5727
 
 public class SteamServerQuery : IServerQuery, IDisposable // TypeDefIndex: 5728
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly ServerQuerySet <QuerySet>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Base <Query>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly IReadOnlyList<ServerInfo> <Servers>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Action<ServerInfo> OnServerFound; // 0x28
 
 	// Properties
@@ -3751,40 +3751,40 @@ public class SteamServerQuery : IServerQuery, IDisposable // TypeDefIndex: 5728
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00 Slot: 4
 	public ServerQuerySet get_QuerySet() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public Base get_Query() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_Query(Base value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 5
 	public IReadOnlyList<ServerInfo> get_Servers() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x21EE460 Offset: 0x21ECA60 VA: 0x1821EE460 Slot: 6
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x21EE2A0 Offset: 0x21EC8A0 VA: 0x1821EE2A0 Slot: 6
 	public void add_OnServerFound(Action<ServerInfo> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x21EE500 Offset: 0x21ECB00 VA: 0x1821EE500 Slot: 7
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x21EE340 Offset: 0x21EC940 VA: 0x1821EE340 Slot: 7
 	public void remove_OnServerFound(Action<ServerInfo> value) { }
 
-	// RVA: 0x21EE300 Offset: 0x21EC900 VA: 0x1821EE300
+	// RVA: 0x21EE140 Offset: 0x21EC740 VA: 0x1821EE140
 	public void .ctor(ServerQuerySet set, Base query) { }
 
-	// RVA: 0x21EE200 Offset: 0x21EC800 VA: 0x1821EE200 Slot: 10
+	// RVA: 0x21EE040 Offset: 0x21EC640 VA: 0x1821EE040 Slot: 10
 	public void Dispose() { }
 
-	// RVA: 0x21EE1E0 Offset: 0x21EC7E0 VA: 0x1821EE1E0 Slot: 8
+	// RVA: 0x21EE020 Offset: 0x21EC620 VA: 0x1821EE020 Slot: 8
 	public void AddFilter(string key, string value) { }
 
-	// RVA: 0x21EE2D0 Offset: 0x21EC8D0 VA: 0x1821EE2D0 Slot: 9
+	// RVA: 0x21EE110 Offset: 0x21EC710 VA: 0x1821EE110 Slot: 9
 	public Task RunQueryAsync(double timeoutInSeconds) { }
 
 }
@@ -3799,7 +3799,7 @@ private sealed class SteamServerQuery.<>c__DisplayClass13_0 // TypeDefIndex: 572
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x21F0880 Offset: 0x21EEE80 VA: 0x1821F0880
+	// RVA: 0x21F06C0 Offset: 0x21EECC0 VA: 0x1821F06C0
 	internal void <.ctor>b__0() { }
 
 }
@@ -3815,23 +3815,23 @@ public static class SteamUtil // TypeDefIndex: 5730
 
 	// Methods
 
-	// RVA: 0x21EEA30 Offset: 0x21ED030 VA: 0x1821EEA30
+	// RVA: 0x21EE870 Offset: 0x21ECE70 VA: 0x1821EE870
 	public static string get_betaName() { }
 
-	// RVA: 0x21EE9E0 Offset: 0x21ECFE0 VA: 0x1821EE9E0
+	// RVA: 0x21EE820 Offset: 0x21ECE20 VA: 0x1821EE820
 	public static string get_betaBranch() { }
 
-	// RVA: 0x21EE5A0 Offset: 0x21ECBA0 VA: 0x1821EE5A0
+	// RVA: 0x21EE3E0 Offset: 0x21EC9E0 VA: 0x1821EE3E0
 	private static string GetBetaName(bool full) { }
 
-	// RVA: 0x21EE970 Offset: 0x21ECF70 VA: 0x1821EE970
+	// RVA: 0x21EE7B0 Offset: 0x21ECDB0 VA: 0x1821EE7B0
 	private static void .cctor() { }
 
 }
 
 public class SteamWorkshopContent : IWorkshopContent // TypeDefIndex: 5731
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly Item <Value>k__BackingField; // 0x10
 
 	// Properties
@@ -3851,50 +3851,50 @@ public class SteamWorkshopContent : IWorkshopContent // TypeDefIndex: 5731
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x21EF3B0 Offset: 0x21ED9B0 VA: 0x1821EF3B0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x21EF1F0 Offset: 0x21ED7F0 VA: 0x1821EF1F0
 	public Item get_Value() { }
 
-	// RVA: 0x21EF440 Offset: 0x21EDA40 VA: 0x1821EF440 Slot: 4
+	// RVA: 0x21EF280 Offset: 0x21ED880 VA: 0x1821EF280 Slot: 4
 	public ulong get_WorkshopId() { }
 
-	// RVA: 0x21EF250 Offset: 0x21ED850 VA: 0x1821EF250 Slot: 5
+	// RVA: 0x21EF090 Offset: 0x21ED690 VA: 0x1821EF090 Slot: 5
 	public string get_Title() { }
 
-	// RVA: 0x21EEBE0 Offset: 0x21ED1E0 VA: 0x1821EEBE0 Slot: 6
+	// RVA: 0x21EEA20 Offset: 0x21ED020 VA: 0x1821EEA20 Slot: 6
 	public string get_Description() { }
 
-	// RVA: 0x21EF1A0 Offset: 0x21ED7A0 VA: 0x1821EF1A0 Slot: 7
+	// RVA: 0x21EEFE0 Offset: 0x21ED5E0 VA: 0x1821EEFE0 Slot: 7
 	public IEnumerable<string> get_Tags() { }
 
-	// RVA: 0x21EF300 Offset: 0x21ED900 VA: 0x1821EF300 Slot: 8
+	// RVA: 0x21EF140 Offset: 0x21ED740 VA: 0x1821EF140 Slot: 8
 	public string get_Url() { }
 
-	// RVA: 0x21EF0F0 Offset: 0x21ED6F0 VA: 0x1821EF0F0 Slot: 9
+	// RVA: 0x21EEF30 Offset: 0x21ED530 VA: 0x1821EEF30 Slot: 9
 	public string get_PreviewImageUrl() { }
 
-	// RVA: 0x21EEF50 Offset: 0x21ED550 VA: 0x1821EEF50 Slot: 10
+	// RVA: 0x21EED90 Offset: 0x21ED390 VA: 0x1821EED90 Slot: 10
 	public ulong get_OwnerId() { }
 
-	// RVA: 0x21EF000 Offset: 0x21ED600 VA: 0x1821EF000 Slot: 11
+	// RVA: 0x21EEE40 Offset: 0x21ED440 VA: 0x1821EEE40 Slot: 11
 	public IPlayerInfo get_Owner() { }
 
-	// RVA: 0x21EEEA0 Offset: 0x21ED4A0 VA: 0x1821EEEA0 Slot: 12
+	// RVA: 0x21EECE0 Offset: 0x21ED2E0 VA: 0x1821EECE0 Slot: 12
 	public bool get_IsInstalled() { }
 
-	// RVA: 0x21EED40 Offset: 0x21ED340 VA: 0x1821EED40 Slot: 13
+	// RVA: 0x21EEB80 Offset: 0x21ED180 VA: 0x1821EEB80 Slot: 13
 	public bool get_IsDownloadPending() { }
 
-	// RVA: 0x21EEDF0 Offset: 0x21ED3F0 VA: 0x1821EEDF0 Slot: 14
+	// RVA: 0x21EEC30 Offset: 0x21ED230 VA: 0x1821EEC30 Slot: 14
 	public bool get_IsDownloading() { }
 
-	// RVA: 0x21EEC90 Offset: 0x21ED290 VA: 0x1821EEC90 Slot: 15
+	// RVA: 0x21EEAD0 Offset: 0x21ED0D0 VA: 0x1821EEAD0 Slot: 15
 	public string get_Directory() { }
 
-	// RVA: 0x21EEB30 Offset: 0x21ED130 VA: 0x1821EEB30
+	// RVA: 0x21EE970 Offset: 0x21ECF70 VA: 0x1821EE970
 	public void .ctor(Item item) { }
 
-	// RVA: 0x21EEA80 Offset: 0x21ED080 VA: 0x1821EEA80 Slot: 16
+	// RVA: 0x21EE8C0 Offset: 0x21ECEC0 VA: 0x1821EE8C0 Slot: 16
 	public bool Download() { }
 
 }
@@ -3902,110 +3902,110 @@ public class SteamWorkshopContent : IWorkshopContent // TypeDefIndex: 5731
 public static class SteamNetworking // TypeDefIndex: 7362
 {
 // Namespace: Facepunch.Network
-[ConsoleSystem.Factory] // RVA: 0x80CC0 Offset: 0x800C0 VA: 0x180080CC0
+[ConsoleSystem.Factory] // RVA: 0x80DB0 Offset: 0x801B0 VA: 0x180080DB0
 public static class SteamNetworking // TypeDefIndex: 7362
 	// Properties
-	[ClientVar] // RVA: 0x9B480 Offset: 0x9A880 VA: 0x18009B480
-	[ServerVar] // RVA: 0x9B480 Offset: 0x9A880 VA: 0x18009B480
+	[ClientVar] // RVA: 0x9B510 Offset: 0x9A910 VA: 0x18009B510
+	[ServerVar] // RVA: 0x9B510 Offset: 0x9A910 VA: 0x18009B510
 	public static int steamnetdebug { get; set; }
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	public static int steamnetdebug_ackrtt { get; set; }
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	public static int steamnetdebug_packetdecode { get; set; }
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	public static int steamnetdebug_message { get; set; }
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	public static int steamnetdebug_packetgaps { get; set; }
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	public static int steamnetdebug_p2prendezvous { get; set; }
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	public static int steamnetdebug_sdrrelaypings { get; set; }
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	public static int steamconnectiontimeout { get; set; }
 
 	// Methods
 
-	// RVA: 0x22DA100 Offset: 0x22D8700 VA: 0x1822DA100
+	// RVA: 0x22D9F40 Offset: 0x22D8540 VA: 0x1822D9F40
 	public static SendType ToSteamSendType(SendMethod method, Priority priority) { }
 
-	// RVA: 0x22DA0E0 Offset: 0x22D86E0 VA: 0x1822DA0E0
+	// RVA: 0x22D9F20 Offset: 0x22D8520 VA: 0x1822D9F20
 	public static ushort ToSteamLaneIndexServer(SendMethod method, Priority priority, sbyte channel) { }
 
-	// RVA: 0x22DA0D0 Offset: 0x22D86D0 VA: 0x1822DA0D0
+	// RVA: 0x22D9F10 Offset: 0x22D8510 VA: 0x1822D9F10
 	public static ushort ToSteamLaneIndexClient(SendMethod method, Priority priority, sbyte channel) { }
 
-	// RVA: 0x22D9F70 Offset: 0x22D8570 VA: 0x1822D9F70
+	// RVA: 0x22D9DB0 Offset: 0x22D83B0 VA: 0x1822D9DB0
 	public static void InitRelayNetworkAccess() { }
 
-	// RVA: 0x22D9FC0 Offset: 0x22D85C0 VA: 0x1822D9FC0
+	// RVA: 0x22D9E00 Offset: 0x22D8400 VA: 0x1822D9E00
 	public static void SetDebugFunction() { }
 
-	// RVA: 0x22DA040 Offset: 0x22D8640 VA: 0x1822DA040
+	// RVA: 0x22D9E80 Offset: 0x22D8480 VA: 0x1822D9E80
 	private static void SteamNetworkingUtils_OnDebugOutput(NetDebugOutput type, string str) { }
 
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	// RVA: 0x22DA690 Offset: 0x22D8C90 VA: 0x1822DA690
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	// RVA: 0x22DA4D0 Offset: 0x22D8AD0 VA: 0x1822DA4D0
 	public static string steamstatus() { }
 
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	// RVA: 0x22D9F70 Offset: 0x22D8570 VA: 0x1822D9F70
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	// RVA: 0x22D9DB0 Offset: 0x22D83B0 VA: 0x1822D9DB0
 	public static void steamrelayinit() { }
 
-	// RVA: 0x22DA1E0 Offset: 0x22D87E0 VA: 0x1822DA1E0
+	// RVA: 0x22DA020 Offset: 0x22D8620 VA: 0x1822DA020
 	public static int get_steamnetdebug() { }
 
-	// RVA: 0x22DA4B0 Offset: 0x22D8AB0 VA: 0x1822DA4B0
+	// RVA: 0x22DA2F0 Offset: 0x22D88F0 VA: 0x1822DA2F0
 	public static void set_steamnetdebug(int value) { }
 
-	// RVA: 0x22DA190 Offset: 0x22D8790 VA: 0x1822DA190
+	// RVA: 0x22D9FD0 Offset: 0x22D85D0 VA: 0x1822D9FD0
 	public static int get_steamnetdebug_ackrtt() { }
 
-	// RVA: 0x22DA460 Offset: 0x22D8A60 VA: 0x1822DA460
+	// RVA: 0x22DA2A0 Offset: 0x22D88A0 VA: 0x1822DA2A0
 	public static void set_steamnetdebug_ackrtt(int value) { }
 
-	// RVA: 0x22DA320 Offset: 0x22D8920 VA: 0x1822DA320
+	// RVA: 0x22DA160 Offset: 0x22D8760 VA: 0x1822DA160
 	public static int get_steamnetdebug_packetdecode() { }
 
-	// RVA: 0x22DA5A0 Offset: 0x22D8BA0 VA: 0x1822DA5A0
+	// RVA: 0x22DA3E0 Offset: 0x22D89E0 VA: 0x1822DA3E0
 	public static void set_steamnetdebug_packetdecode(int value) { }
 
-	// RVA: 0x22DA280 Offset: 0x22D8880 VA: 0x1822DA280
+	// RVA: 0x22DA0C0 Offset: 0x22D86C0 VA: 0x1822DA0C0
 	public static int get_steamnetdebug_message() { }
 
-	// RVA: 0x22DA500 Offset: 0x22D8B00 VA: 0x1822DA500
+	// RVA: 0x22DA340 Offset: 0x22D8940 VA: 0x1822DA340
 	public static void set_steamnetdebug_message(int value) { }
 
-	// RVA: 0x22DA370 Offset: 0x22D8970 VA: 0x1822DA370
+	// RVA: 0x22DA1B0 Offset: 0x22D87B0 VA: 0x1822DA1B0
 	public static int get_steamnetdebug_packetgaps() { }
 
-	// RVA: 0x22DA5F0 Offset: 0x22D8BF0 VA: 0x1822DA5F0
+	// RVA: 0x22DA430 Offset: 0x22D8A30 VA: 0x1822DA430
 	public static void set_steamnetdebug_packetgaps(int value) { }
 
-	// RVA: 0x22DA2D0 Offset: 0x22D88D0 VA: 0x1822DA2D0
+	// RVA: 0x22DA110 Offset: 0x22D8710 VA: 0x1822DA110
 	public static int get_steamnetdebug_p2prendezvous() { }
 
-	// RVA: 0x22DA550 Offset: 0x22D8B50 VA: 0x1822DA550
+	// RVA: 0x22DA390 Offset: 0x22D8990 VA: 0x1822DA390
 	public static void set_steamnetdebug_p2prendezvous(int value) { }
 
-	// RVA: 0x22DA3C0 Offset: 0x22D89C0 VA: 0x1822DA3C0
+	// RVA: 0x22DA200 Offset: 0x22D8800 VA: 0x1822DA200
 	public static int get_steamnetdebug_sdrrelaypings() { }
 
-	// RVA: 0x22DA640 Offset: 0x22D8C40 VA: 0x1822DA640
+	// RVA: 0x22DA480 Offset: 0x22D8A80 VA: 0x1822DA480
 	public static void set_steamnetdebug_sdrrelaypings(int value) { }
 
-	// RVA: 0x22DA140 Offset: 0x22D8740 VA: 0x1822DA140
+	// RVA: 0x22D9F80 Offset: 0x22D8580 VA: 0x1822D9F80
 	public static int get_steamconnectiontimeout() { }
 
-	// RVA: 0x22DA410 Offset: 0x22D8A10 VA: 0x1822DA410
+	// RVA: 0x22DA250 Offset: 0x22D8850 VA: 0x1822DA250
 	public static void set_steamconnectiontimeout(int value) { }
 
 }
@@ -4017,43 +4017,43 @@ public class SteamNetworking.Client : Client, IConnectionManager // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x22CC790 Offset: 0x22CAD90 VA: 0x1822CC790 Slot: 11
+	// RVA: 0x22CC5D0 Offset: 0x22CABD0 VA: 0x1822CC5D0 Slot: 11
 	public override bool IsConnected() { }
 
-	// RVA: 0x22D7CD0 Offset: 0x22D62D0 VA: 0x1822D7CD0 Slot: 8
+	// RVA: 0x22D7B10 Offset: 0x22D6110 VA: 0x1822D7B10 Slot: 8
 	public override bool Connect(string strURL, int port) { }
 
-	// RVA: 0x22D7E30 Offset: 0x22D6430 VA: 0x1822D7E30 Slot: 9
+	// RVA: 0x22D7C70 Offset: 0x22D6270 VA: 0x1822D7C70 Slot: 9
 	public override void Cycle() { }
 
-	// RVA: 0x22D7FA0 Offset: 0x22D65A0 VA: 0x1822D7FA0 Slot: 10
+	// RVA: 0x22D7DE0 Offset: 0x22D63E0 VA: 0x1822D7DE0 Slot: 10
 	public override void Disconnect(string reason, bool sendReasonToServer) { }
 
-	// RVA: 0x22D8360 Offset: 0x22D6960 VA: 0x1822D8360 Slot: 4
+	// RVA: 0x22D81A0 Offset: 0x22D67A0 VA: 0x1822D81A0 Slot: 4
 	public override void Send(SendInfo sendinfo, MemoryStream data) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 13
 	private void Steamworks.IConnectionManager.OnConnecting(ConnectionInfo info) { }
 
-	// RVA: 0x22D8470 Offset: 0x22D6A70 VA: 0x1822D8470 Slot: 14
+	// RVA: 0x22D82B0 Offset: 0x22D68B0 VA: 0x1822D82B0 Slot: 14
 	private void Steamworks.IConnectionManager.OnConnected(ConnectionInfo info) { }
 
-	// RVA: 0x22D84A0 Offset: 0x22D6AA0 VA: 0x1822D84A0 Slot: 15
+	// RVA: 0x22D82E0 Offset: 0x22D68E0 VA: 0x1822D82E0 Slot: 15
 	private void Steamworks.IConnectionManager.OnDisconnected(ConnectionInfo info) { }
 
-	// RVA: 0x22D8520 Offset: 0x22D6B20 VA: 0x1822D8520 Slot: 16
+	// RVA: 0x22D8360 Offset: 0x22D6960 VA: 0x1822D8360 Slot: 16
 	private void Steamworks.IConnectionManager.OnMessage(IntPtr data, int datasize, long messageNum, long recvTime, int channel) { }
 
-	// RVA: 0x22D8120 Offset: 0x22D6720 VA: 0x1822D8120 Slot: 5
+	// RVA: 0x22D7F60 Offset: 0x22D6560 VA: 0x1822D7F60 Slot: 5
 	public override string GetDebug(Connection connection) { }
 
-	// RVA: 0x22D81A0 Offset: 0x22D67A0 VA: 0x1822D81A0 Slot: 12
+	// RVA: 0x22D7FE0 Offset: 0x22D65E0 VA: 0x1822D7FE0 Slot: 12
 	public override int GetLastPing() { }
 
-	// RVA: 0x22D8200 Offset: 0x22D6800 VA: 0x1822D8200 Slot: 6
+	// RVA: 0x22D8040 Offset: 0x22D6640 VA: 0x1822D8040 Slot: 6
 	public override ulong GetStat(Connection connection, BaseNetwork.StatTypeLong type) { }
 
-	// RVA: 0x22D8B20 Offset: 0x22D7120 VA: 0x1822D8B20
+	// RVA: 0x22D8960 Offset: 0x22D6F60 VA: 0x1822D8960
 	public void .ctor() { }
 
 }
@@ -4071,58 +4071,58 @@ public class SteamNetworking.Server : Server, ISocketManager // TypeDefIndex: 73
 
 	// Methods
 
-	// RVA: 0x22D9F40 Offset: 0x22D8540 VA: 0x1822D9F40 Slot: 8
+	// RVA: 0x22D9D80 Offset: 0x22D8380 VA: 0x1822D9D80 Slot: 8
 	public override string get_ProtocolId() { }
 
-	// RVA: 0x22D9E20 Offset: 0x22D8420 VA: 0x1822D9E20
+	// RVA: 0x22D9C60 Offset: 0x22D8260 VA: 0x1822D9C60
 	public void .ctor(bool enableSteamDatagramRelay) { }
 
 	// RVA: 0xEE6D10 Offset: 0xEE5310 VA: 0x180EE6D10 Slot: 7
 	public override bool IsConnected() { }
 
-	// RVA: 0x22D9980 Offset: 0x22D7F80 VA: 0x1822D9980 Slot: 10
+	// RVA: 0x22D97C0 Offset: 0x22D7DC0 VA: 0x1822D97C0 Slot: 10
 	public override bool Start() { }
 
-	// RVA: 0x22D9D50 Offset: 0x22D8350 VA: 0x1822D9D50 Slot: 11
+	// RVA: 0x22D9B90 Offset: 0x22D8190 VA: 0x1822D9B90 Slot: 11
 	public override void Stop(string shutdownMsg) { }
 
-	// RVA: 0x22D8CF0 Offset: 0x22D72F0 VA: 0x1822D8CF0 Slot: 13
+	// RVA: 0x22D8B30 Offset: 0x22D7130 VA: 0x1822D8B30 Slot: 13
 	public override void Disconnect(Connection cn) { }
 
-	// RVA: 0x22D8FD0 Offset: 0x22D75D0 VA: 0x1822D8FD0 Slot: 14
+	// RVA: 0x22D8E10 Offset: 0x22D7410 VA: 0x1822D8E10 Slot: 14
 	public override void Kick(Connection cn, string message, bool logfile) { }
 
-	// RVA: 0x22D8B80 Offset: 0x22D7180 VA: 0x1822D8B80 Slot: 12
+	// RVA: 0x22D89C0 Offset: 0x22D6FC0 VA: 0x1822D89C0 Slot: 12
 	public override void Cycle() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 18
 	public override void SendUnconnected(uint netAddr, ushort netPort, byte[] data, int size) { }
 
-	// RVA: 0x22D9630 Offset: 0x22D7C30 VA: 0x1822D9630 Slot: 4
+	// RVA: 0x22D9470 Offset: 0x22D7A70 VA: 0x1822D9470 Slot: 4
 	public override void Send(SendInfo sendinfo, MemoryStream data) { }
 
-	// RVA: 0x22D9810 Offset: 0x22D7E10 VA: 0x1822D9810
+	// RVA: 0x22D9650 Offset: 0x22D7C50 VA: 0x1822D9650
 	private void Send(SendInfo sendinfo, MemoryStream data, Connection connection) { }
 
-	// RVA: 0x22D92F0 Offset: 0x22D78F0 VA: 0x1822D92F0 Slot: 19
+	// RVA: 0x22D9130 Offset: 0x22D7730 VA: 0x1822D9130 Slot: 19
 	public void OnConnecting(Connection cn, ConnectionInfo info) { }
 
-	// RVA: 0x22D91C0 Offset: 0x22D77C0 VA: 0x1822D91C0 Slot: 20
+	// RVA: 0x22D9000 Offset: 0x22D7600 VA: 0x1822D9000 Slot: 20
 	public void OnConnected(Connection cn, ConnectionInfo info) { }
 
-	// RVA: 0x22D9310 Offset: 0x22D7910 VA: 0x1822D9310 Slot: 21
+	// RVA: 0x22D9150 Offset: 0x22D7750 VA: 0x1822D9150 Slot: 21
 	public void OnDisconnected(Connection cn, ConnectionInfo info) { }
 
-	// RVA: 0x22D9390 Offset: 0x22D7990 VA: 0x1822D9390 Slot: 22
+	// RVA: 0x22D91D0 Offset: 0x22D77D0 VA: 0x1822D91D0 Slot: 22
 	public void OnMessage(Connection cn, NetIdentity identity, IntPtr data, int size, long messageNum, long recvTime, int channel) { }
 
-	// RVA: 0x22D8DD0 Offset: 0x22D73D0 VA: 0x1822D8DD0 Slot: 5
+	// RVA: 0x22D8C10 Offset: 0x22D7210 VA: 0x1822D8C10 Slot: 5
 	public override string GetDebug(Connection connection) { }
 
-	// RVA: 0x22D8D80 Offset: 0x22D7380 VA: 0x1822D8D80 Slot: 17
+	// RVA: 0x22D8BC0 Offset: 0x22D71C0 VA: 0x1822D8BC0 Slot: 17
 	public override int GetAveragePing(Connection connection) { }
 
-	// RVA: 0x22D8E30 Offset: 0x22D7430 VA: 0x1822D8E30 Slot: 6
+	// RVA: 0x22D8C70 Offset: 0x22D7270 VA: 0x1822D8C70 Slot: 6
 	public override ulong GetStat(Connection connection, BaseNetwork.StatTypeLong type) { }
 
 }
@@ -4134,13 +4134,13 @@ private sealed class SteamNetworking.Server.<>c // TypeDefIndex: 7365
 
 	// Methods
 
-	// RVA: 0x22DA980 Offset: 0x22D8F80 VA: 0x1822DA980
+	// RVA: 0x22DA7C0 Offset: 0x22D8DC0 VA: 0x1822DA7C0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x22DA8F0 Offset: 0x22D8EF0 VA: 0x1822DA8F0
+	// RVA: 0x22DA730 Offset: 0x22D8D30 VA: 0x1822DA730
 	internal void <Start>b__9_0(NetAddress fakeAddressCallback) { }
 
 }
@@ -4157,7 +4157,7 @@ public class SteamInventory : EntityComponent<BasePlayer> // TypeDefIndex: 8653
 	// RVA: 0x79C1C0 Offset: 0x79A7C0 VA: 0x18079C1C0
 	public bool HasItem(int itemid) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x79BF10 Offset: 0x79A510 VA: 0x18079BF10
 	private void ClientUpdateSteamInventory(BaseEntity.RPCMessage msg) { }
 
@@ -4199,7 +4199,7 @@ public class SteamDLCItem : ScriptableObject // TypeDefIndex: 10761
 
 public class SteamInventoryCategory : ScriptableObject // TypeDefIndex: 10762
 {	// Fields
-	[HeaderAttribute] // RVA: 0x7ABE0 Offset: 0x79FE0 VA: 0x18007ABE0
+	[HeaderAttribute] // RVA: 0x7AE30 Offset: 0x7A230 VA: 0x18007AE30
 	public bool canBeSoldToOtherUsers; // 0x18
 	public bool canBeTradedWithOtherUsers; // 0x19
 	public bool isCommodity; // 0x1A
@@ -4282,18 +4282,18 @@ public class SteamInventoryItem : ScriptableObject // TypeDefIndex: 10765
 	public Sprite icon; // 0x20
 	public Translate.Phrase displayName; // 0x28
 	public Translate.Phrase displayDescription; // 0x30
-	[HeaderAttribute] // RVA: 0x7ABE0 Offset: 0x79FE0 VA: 0x18007ABE0
+	[HeaderAttribute] // RVA: 0x7AE30 Offset: 0x7A230 VA: 0x18007AE30
 	public SteamInventoryItem.Category category; // 0x38
 	public SteamInventoryItem.SubCategory subcategory; // 0x3C
 	public SteamInventoryCategory steamCategory; // 0x40
 	public bool isLimitedTimeOffer; // 0x48
-	[TooltipAttribute] // RVA: 0x7AEC0 Offset: 0x7A2C0 VA: 0x18007AEC0
+	[TooltipAttribute] // RVA: 0x7AFC0 Offset: 0x7A3C0 VA: 0x18007AFC0
 	public bool PreventBreakingDown; // 0x49
-	[HeaderAttribute] // RVA: 0x7B260 Offset: 0x7A660 VA: 0x18007B260
+	[HeaderAttribute] // RVA: 0x7B3E0 Offset: 0x7A7E0 VA: 0x18007B3E0
 	public string itemname; // 0x50
 	public ulong workshopID; // 0x58
 	public SteamDLCItem DlcItem; // 0x60
-	[TooltipAttribute] // RVA: 0x7B3E0 Offset: 0x7A7E0 VA: 0x18007B3E0
+	[TooltipAttribute] // RVA: 0x7B4E0 Offset: 0x7A8E0 VA: 0x18007B4E0
 	public bool forceCraftableItemDesc; // 0x68
 
 	// Properties
@@ -4388,11 +4388,11 @@ public enum SteamClientWrapper.RichPresenceState // TypeDefIndex: 10778
 
 public static class SteamNewsSource // TypeDefIndex: 11132
 {	// Fields
-	public static SteamNewsSource.Story[] Stories; // 0x2B11160
+	public static SteamNewsSource.Story[] Stories; // 0x2B10180
 
 	// Methods
 
-	[IteratorStateMachineAttribute] // RVA: 0x99140 Offset: 0x98540 VA: 0x180099140
+	[IteratorStateMachineAttribute] // RVA: 0x992C0 Offset: 0x986C0 VA: 0x1800992C0
 	// RVA: 0x79C7F0 Offset: 0x79ADF0 VA: 0x18079C7F0
 	public static IEnumerator GetStories() { }
 
@@ -4420,26 +4420,26 @@ private sealed class SteamNewsSource.<GetStories>d__2 : IEnumerator<object>, IEn
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x7B4900 Offset: 0x7B2F00 VA: 0x1807B4900 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7B4DC0 Offset: 0x7B33C0 VA: 0x1807B4DC0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
@@ -4598,9 +4598,9 @@ public class SteamUserButton : MonoBehaviour // TypeDefIndex: 11229
 	public Color textColorInGame; // 0x30
 	public Color textColorOnline; // 0x40
 	public Color textColorNormal; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ulong <SteamId>k__BackingField; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Username>k__BackingField; // 0x68
 
 	// Properties
@@ -4609,23 +4609,23 @@ public class SteamUserButton : MonoBehaviour // TypeDefIndex: 11229
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
 	public ulong get_SteamId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6E6D70 Offset: 0x6E5370 VA: 0x1806E6D70
 	private void set_SteamId(ulong value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
 	public string get_Username() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x519E50 Offset: 0x518450 VA: 0x180519E50
 	private void set_Username(string value) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA2450 Offset: 0xA1850 VA: 0x1800A2450
+	[AsyncStateMachineAttribute] // RVA: 0xA2590 Offset: 0xA1990 VA: 0x1800A2590
 	// RVA: 0x79C840 Offset: 0x79AE40 VA: 0x18079C840
 	public void UpdateFromUser(ulong steamid, bool isInThisGame, bool isOnline, bool hideSteamId) { }
 
@@ -4647,11 +4647,11 @@ private struct SteamUserButton.<UpdateFromUser>d__14 : IAsyncStateMachine // Typ
 
 	// Methods
 
-	// RVA: 0xF66D0 Offset: 0xF5AD0 VA: 0x1800F66D0 Slot: 4
+	// RVA: 0xF6650 Offset: 0xF5A50 VA: 0x1800F6650 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF15B0 Offset: 0xF09B0 VA: 0x1800F15B0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF1530 Offset: 0xF0930 VA: 0x1800F1530 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -4659,11 +4659,11 @@ private struct SteamUserButton.<UpdateFromUser>d__14 : IAsyncStateMachine // Typ
 public class Steam // TypeDefIndex: 11964
 {	// Methods
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x36B8F0 Offset: 0x369EF0 VA: 0x18036B8F0
 	public static object achievements() { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x36B8B0 Offset: 0x369EB0 VA: 0x18036B8B0
 	public static void ResetStats() { }
 
@@ -4699,9 +4699,9 @@ public class SteamInventoryCrafting : MonoBehaviour // TypeDefIndex: 12050
 	public TextMeshProUGUI MetalAmount; // 0x38
 	public int SelectedCount; // 0x40
 	public TextMeshProUGUI InfoText; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private IPlayerItemDefinition <ResultItem>k__BackingField; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Coroutine <MarketCoroutine>k__BackingField; // 0x58
 	public SteamInventoryCrateOpen CraftModal; // 0x60
 	public GameObject CraftingContainer; // 0x68
@@ -4717,19 +4717,19 @@ public class SteamInventoryCrafting : MonoBehaviour // TypeDefIndex: 12050
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
 	public IPlayerItemDefinition get_ResultItem() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF890 Offset: 0x4CDE90 VA: 0x1804CF890
 	private void set_ResultItem(IPlayerItemDefinition value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
 	public Coroutine get_MarketCoroutine() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF880 Offset: 0x4CDE80 VA: 0x1804CF880
 	private void set_MarketCoroutine(Coroutine value) { }
 
@@ -4751,22 +4751,22 @@ public class SteamInventoryCrafting : MonoBehaviour // TypeDefIndex: 12050
 	// RVA: 0x4CF580 Offset: 0x4CDB80 VA: 0x1804CF580
 	private void UpdateInfoText(int length, IPlayerItemDefinition definition, Nullable<double> totalValue) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1A10 Offset: 0xD0E10 VA: 0x1800D1A10
+	[AsyncStateMachineAttribute] // RVA: 0xD1AF0 Offset: 0xD0EF0 VA: 0x1800D1AF0
 	// RVA: 0x4CE0D0 Offset: 0x4CC6D0 VA: 0x1804CE0D0
 	private Task<SteamInventoryCrafting.MarketPrice> GetMarketPrice(IPlayerItemDefinition definition) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1C20 Offset: 0xD1020 VA: 0x1800D1C20
+	[AsyncStateMachineAttribute] // RVA: 0xD1D70 Offset: 0xD1170 VA: 0x1800D1D70
 	// RVA: 0x4CDFB0 Offset: 0x4CC5B0 VA: 0x1804CDFB0
 	private Task<SteamInventoryCrafting.MarketPrice> GetMarketPriceImpl(IPlayerItemDefinition definition) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD1DC0 Offset: 0xD11C0 VA: 0x1800D1DC0
+	[IteratorStateMachineAttribute] // RVA: 0xD1E50 Offset: 0xD1250 VA: 0x1800D1E50
 	// RVA: 0x4CE1F0 Offset: 0x4CC7F0 VA: 0x1804CE1F0
 	private IEnumerator LoadMarketPrice(IPlayerItemDefinition definition) { }
 
 	// RVA: 0x4CD6B0 Offset: 0x4CBCB0 VA: 0x1804CD6B0
 	public void DoExchange() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD2030 Offset: 0xD1430 VA: 0x1800D2030
+	[AsyncStateMachineAttribute] // RVA: 0xD20C0 Offset: 0xD14C0 VA: 0x1800D20C0
 	// RVA: 0x4CD9D0 Offset: 0x4CBFD0 VA: 0x1804CD9D0
 	private Task ExchangeItems(SteamInventoryItem[] selected) { }
 
@@ -4786,13 +4786,13 @@ public class SteamInventoryCrafting : MonoBehaviour // TypeDefIndex: 12050
 
 public class SteamInventoryCrafting.MarketPrice // TypeDefIndex: 12051
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <success>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ulong <volume>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <lowest_price>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private double <lowest_price_value>k__BackingField; // 0x28
 
 	// Properties
@@ -4803,35 +4803,35 @@ public class SteamInventoryCrafting.MarketPrice // TypeDefIndex: 12051
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public bool get_success() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFC0 Offset: 0x4995C0 VA: 0x18049AFC0
 	public void set_success(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public ulong get_volume() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFD0 Offset: 0x4995D0 VA: 0x18049AFD0
 	public void set_volume(ulong value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public string get_lowest_price() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_lowest_price(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF80 Offset: 0x499580 VA: 0x18049AF80
 	public double get_lowest_price_value() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFB0 Offset: 0x4995B0 VA: 0x18049AFB0
 	public void set_lowest_price_value(double value) { }
 
@@ -4965,11 +4965,11 @@ private struct SteamInventoryCrafting.<GetMarketPrice>d__29 : IAsyncStateMachine
 
 	// Methods
 
-	// RVA: 0xF2280 Offset: 0xF1680 VA: 0x1800F2280 Slot: 4
+	// RVA: 0xF2200 Offset: 0xF1600 VA: 0x1800F2200 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF2290 Offset: 0xF1690 VA: 0x1800F2290 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2210 Offset: 0xF1610 VA: 0x1800F2210 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -4984,11 +4984,11 @@ private struct SteamInventoryCrafting.<GetMarketPriceImpl>d__30 : IAsyncStateMac
 
 	// Methods
 
-	// RVA: 0xF2220 Offset: 0xF1620 VA: 0x1800F2220 Slot: 4
+	// RVA: 0xF21A0 Offset: 0xF15A0 VA: 0x1800F21A0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF2230 Offset: 0xF1630 VA: 0x1800F2230 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF21B0 Offset: 0xF15B0 VA: 0x1800F21B0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -5021,26 +5021,26 @@ private sealed class SteamInventoryCrafting.<LoadMarketPrice>d__31 : IEnumerator
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x4B1D80 Offset: 0x4B0380 VA: 0x1804B1D80 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4B1F60 Offset: 0x4B0560 VA: 0x1804B1F60 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
@@ -5089,11 +5089,11 @@ private struct SteamInventoryCrafting.<ExchangeItems>d__33 : IAsyncStateMachine 
 
 	// Methods
 
-	// RVA: 0xF2200 Offset: 0xF1600 VA: 0x1800F2200 Slot: 4
+	// RVA: 0xF2180 Offset: 0xF1580 VA: 0x1800F2180 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -5119,7 +5119,7 @@ public class SteamInventoryCrateOpen : MonoBehaviour // TypeDefIndex: 12062
 	// RVA: 0x4AD570 Offset: 0x4ABB70 VA: 0x1804AD570
 	public void DoCraft() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD5EF0 Offset: 0xD52F0 VA: 0x1800D5EF0
+	[AsyncStateMachineAttribute] // RVA: 0xD5F60 Offset: 0xD5360 VA: 0x1800D5F60
 	// RVA: 0x4AD570 Offset: 0x4ABB70 VA: 0x1804AD570
 	private Task DoCraftAsync() { }
 
@@ -5225,11 +5225,11 @@ private struct SteamInventoryCrateOpen.<DoCraftAsync>d__12 : IAsyncStateMachine 
 
 	// Methods
 
-	// RVA: 0xF21E0 Offset: 0xF15E0 VA: 0x1800F21E0 Slot: 4
+	// RVA: 0xF2160 Offset: 0xF1560 VA: 0x1800F2160 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -5280,11 +5280,11 @@ public class SteamInventoryManager : SingletonComponent<SteamInventoryManager> /
 	// RVA: 0x4AE270 Offset: 0x4AC870 VA: 0x1804AE270
 	public void ManualRefresh() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD6400 Offset: 0xD5800 VA: 0x1800D6400
+	[AsyncStateMachineAttribute] // RVA: 0xD64C0 Offset: 0xD58C0 VA: 0x1800D64C0
 	// RVA: 0x4AE3F0 Offset: 0x4AC9F0 VA: 0x1804AE3F0
 	public Task Refresh() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD65B0 Offset: 0xD59B0 VA: 0x1800D65B0
+	[AsyncStateMachineAttribute] // RVA: 0xD6620 Offset: 0xD5A20 VA: 0x1800D6620
 	// RVA: 0x4AE140 Offset: 0x4AC740 VA: 0x1804AE140
 	private Task FixStacks(IReadOnlyCollection<IPlayerItem> steamitems) { }
 
@@ -5341,11 +5341,11 @@ private struct SteamInventoryManager.<Refresh>d__8 : IAsyncStateMachine // TypeD
 
 	// Methods
 
-	// RVA: 0xF22F0 Offset: 0xF16F0 VA: 0x1800F22F0 Slot: 4
+	// RVA: 0xF2270 Offset: 0xF1670 VA: 0x1800F2270 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -5367,11 +5367,11 @@ private struct SteamInventoryManager.<FixStacks>d__9 : IAsyncStateMachine // Typ
 
 	// Methods
 
-	// RVA: 0xF2210 Offset: 0xF1610 VA: 0x1800F2210 Slot: 4
+	// RVA: 0xF2190 Offset: 0xF1590 VA: 0x1800F2190 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -5379,7 +5379,7 @@ private struct SteamInventoryManager.<FixStacks>d__9 : IAsyncStateMachine // Typ
 public class SteamInventoryNewItem : MonoBehaviour // TypeDefIndex: 12075
 {	// Methods
 
-	[AsyncStateMachineAttribute] // RVA: 0xD6970 Offset: 0xD5D70 VA: 0x1800D6970
+	[AsyncStateMachineAttribute] // RVA: 0xD69E0 Offset: 0xD5DE0 VA: 0x1800D69E0
 	// RVA: 0x4AE550 Offset: 0x4ACB50 VA: 0x1804AE550
 	public Task Open(IPlayerItem item) { }
 
@@ -5398,11 +5398,11 @@ private struct SteamInventoryNewItem.<Open>d__0 : IAsyncStateMachine // TypeDefI
 
 	// Methods
 
-	// RVA: 0xF22E0 Offset: 0xF16E0 VA: 0x1800F22E0 Slot: 4
+	// RVA: 0xF2260 Offset: 0xF1660 VA: 0x1800F2260 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

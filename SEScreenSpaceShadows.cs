@@ -4,28 +4,28 @@ public class SEScreenSpaceShadows : MonoBehaviour // TypeDefIndex: 11526
 	private CommandBuffer renderShadowsCommandBuffer; // 0x20
 	private Camera attachedCamera; // 0x28
 	public Light sun; // 0x30
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float blendStrength; // 0x38
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float accumulation; // 0x3C
-	[RangeAttribute] // RVA: 0xB9B80 Offset: 0xB8F80 VA: 0x1800B9B80
+	[RangeAttribute] // RVA: 0xB9CA0 Offset: 0xB90A0 VA: 0x1800B9CA0
 	public float lengthFade; // 0x40
-	[RangeAttribute] // RVA: 0xB9C50 Offset: 0xB9050 VA: 0x1800B9C50
+	[RangeAttribute] // RVA: 0xB9D50 Offset: 0xB9150 VA: 0x1800B9D50
 	public float range; // 0x44
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float zThickness; // 0x48
-	[RangeAttribute] // RVA: 0xB9D40 Offset: 0xB9140 VA: 0x1800B9D40
+	[RangeAttribute] // RVA: 0xB9DE0 Offset: 0xB91E0 VA: 0x1800B9DE0
 	public int samples; // 0x4C
-	[RangeAttribute] // RVA: 0xB9D60 Offset: 0xB9160 VA: 0x1800B9D60
+	[RangeAttribute] // RVA: 0xB9E00 Offset: 0xB9200 VA: 0x1800B9E00
 	public float nearSampleQuality; // 0x50
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float traceBias; // 0x54
 	public bool stochasticSampling; // 0x58
 	public bool leverageTemporalAA; // 0x59
 	public bool bilateralBlur; // 0x5A
-	[RangeAttribute] // RVA: 0xA43E0 Offset: 0xA37E0 VA: 0x1800A43E0
+	[RangeAttribute] // RVA: 0xA4560 Offset: 0xA3960 VA: 0x1800A4560
 	public int blurPasses; // 0x5C
-	[RangeAttribute] // RVA: 0xB9E80 Offset: 0xB9280 VA: 0x1800B9E80
+	[RangeAttribute] // RVA: 0xB9F20 Offset: 0xB9320 VA: 0x1800B9F20
 	public float blurDepthTolerance; // 0x60
 	private Material material; // 0x68
 	private object initChecker; // 0x70

@@ -1,6 +1,6 @@
 public class Lerp : ConsoleSystem // TypeDefIndex: 11942
 {	// Fields
-	[ClientVar] // RVA: 0xAAA40 Offset: 0xA9E40 VA: 0x1800AAA40
+	[ClientVar] // RVA: 0xAAAE0 Offset: 0xA9EE0 VA: 0x1800AAAE0
 	public static bool enabled; // 0x0
 	private static float inertia_cur; // 0x4
 	private const float inertia_def = 0;
@@ -20,17 +20,17 @@ public class Lerp : ConsoleSystem // TypeDefIndex: 11942
 	private const float extrapolation_max = 2;
 
 	// Properties
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static bool debug { get; set; }
-	[ClientVar] // RVA: 0xAABA0 Offset: 0xA9FA0 VA: 0x1800AABA0
+	[ClientVar] // RVA: 0xAAC70 Offset: 0xAA070 VA: 0x1800AAC70
 	public static float inertia { get; set; }
-	[ClientVar] // RVA: 0xAAD30 Offset: 0xAA130 VA: 0x1800AAD30
+	[ClientVar] // RVA: 0xAAE00 Offset: 0xAA200 VA: 0x1800AAE00
 	public static float smoothing { get; set; }
-	[ClientVar] // RVA: 0xAADA0 Offset: 0xAA1A0 VA: 0x1800AADA0
-	public static float interpolation { get; set; }
 	[ClientVar] // RVA: 0xAAF30 Offset: 0xAA330 VA: 0x1800AAF30
+	public static float interpolation { get; set; }
+	[ClientVar] // RVA: 0xAB0D0 Offset: 0xAA4D0 VA: 0x1800AB0D0
 	public static float extrapolation { get; set; }
-	[ClientVar] // RVA: 0xAB110 Offset: 0xAA510 VA: 0x1800AB110
+	[ClientVar] // RVA: 0xAB280 Offset: 0xAA680 VA: 0x1800AB280
 	public static int timeoffsetinterval { get; set; }
 
 	// Methods

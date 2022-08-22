@@ -5,10 +5,10 @@ public struct Extents // TypeDefIndex: 6861
 
 	// Methods
 
-	// RVA: 0x117000 Offset: 0x116400 VA: 0x180117000
+	// RVA: 0x116F80 Offset: 0x116380 VA: 0x180116F80
 	public void .ctor(Vector2 min, Vector2 max) { }
 
-	// RVA: 0x116FF0 Offset: 0x1163F0 VA: 0x180116FF0 Slot: 3
+	// RVA: 0x116F70 Offset: 0x116370 VA: 0x180116F70 Slot: 3
 	public override string ToString() { }
 
 }

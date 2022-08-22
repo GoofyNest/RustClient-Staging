@@ -12,31 +12,31 @@ public abstract class ISCIIEncoding : MonoEncoding // TypeDefIndex: 7872
 
 	// Methods
 
-	// RVA: 0x22F5900 Offset: 0x22F3F00 VA: 0x1822F5900
+	// RVA: 0x22F5740 Offset: 0x22F3D40 VA: 0x1822F5740
 	protected void .ctor(int codePage, int shift, string encodingName, string webName) { }
 
-	// RVA: 0x22F5080 Offset: 0x22F3680 VA: 0x1822F5080 Slot: 19
+	// RVA: 0x22F4EC0 Offset: 0x22F34C0 VA: 0x1822F4EC0 Slot: 19
 	public override int GetByteCount(char[] chars, int index, int count) { }
 
-	// RVA: 0x22F51B0 Offset: 0x22F37B0 VA: 0x1822F51B0 Slot: 18
+	// RVA: 0x22F4FF0 Offset: 0x22F35F0 VA: 0x1822F4FF0 Slot: 18
 	public override int GetByteCount(string s) { }
 
-	// RVA: 0x22F5050 Offset: 0x22F3650 VA: 0x1822F5050 Slot: 46
+	// RVA: 0x22F4E90 Offset: 0x22F3490 VA: 0x1822F4E90 Slot: 46
 	public override int GetByteCountImpl(char* chars, int count) { }
 
-	// RVA: 0x22F5220 Offset: 0x22F3820 VA: 0x1822F5220 Slot: 47
+	// RVA: 0x22F5060 Offset: 0x22F3660 VA: 0x1822F5060 Slot: 47
 	public override int GetBytesImpl(char* chars, int charCount, byte* bytes, int byteCount) { }
 
-	// RVA: 0x22F5420 Offset: 0x22F3A20 VA: 0x1822F5420 Slot: 29
+	// RVA: 0x22F5260 Offset: 0x22F3860 VA: 0x1822F5260 Slot: 29
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x22F5550 Offset: 0x22F3B50 VA: 0x1822F5550 Slot: 33
+	// RVA: 0x22F5390 Offset: 0x22F3990 VA: 0x1822F5390 Slot: 33
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x22F5800 Offset: 0x22F3E00 VA: 0x1822F5800 Slot: 40
+	// RVA: 0x22F5640 Offset: 0x22F3C40 VA: 0x1822F5640 Slot: 40
 	public override int GetMaxByteCount(int charCount) { }
 
-	// RVA: 0x22F5880 Offset: 0x22F3E80 VA: 0x1822F5880 Slot: 41
+	// RVA: 0x22F56C0 Offset: 0x22F3CC0 VA: 0x1822F56C0 Slot: 41
 	public override int GetMaxCharCount(int byteCount) { }
 
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870 Slot: 7

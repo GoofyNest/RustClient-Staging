@@ -10,10 +10,10 @@ public class Signage : IOEntity, ILOD, ISignage, IUGCBrowserEntity // TypeDefInd
 	internal RealTimeSince[] timeSinceRequest; // 0x3A8
 	internal uint[] loadedTextures; // 0x3B0
 	public ItemDefinition RequiredHeldEntity; // 0x3B8
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static float textureRequestDistance; // 0x0
 	private bool textureRequestSent; // 0x3C0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <withinTextureRange>k__BackingField; // 0x3C1
 	private LODCell cell; // 0x3C8
 
@@ -54,24 +54,24 @@ public class Signage : IOEntity, ILOD, ISignage, IUGCBrowserEntity // TypeDefInd
 	// RVA: 0x59BA30 Offset: 0x59A030 VA: 0x18059BA30
 	private void LoadTexture(int frame, uint id, byte[] data) { }
 
-	[BaseEntity.Menu] // RVA: 0x7C160 Offset: 0x7B560 VA: 0x18007C160
-	[BaseEntity.Menu.Icon] // RVA: 0x7C160 Offset: 0x7B560 VA: 0x18007C160
-	[BaseEntity.Menu.Description] // RVA: 0x7C160 Offset: 0x7B560 VA: 0x18007C160
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C160 Offset: 0x7B560 VA: 0x18007C160
+	[BaseEntity.Menu] // RVA: 0x7C230 Offset: 0x7B630 VA: 0x18007C230
+	[BaseEntity.Menu.Icon] // RVA: 0x7C230 Offset: 0x7B630 VA: 0x18007C230
+	[BaseEntity.Menu.Description] // RVA: 0x7C230 Offset: 0x7B630 VA: 0x18007C230
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C230 Offset: 0x7B630 VA: 0x18007C230
 	// RVA: 0x59BF10 Offset: 0x59A510 VA: 0x18059BF10
 	public void Menu_ChangeText(BasePlayer player) { }
 
 	// RVA: 0x59C500 Offset: 0x59AB00 VA: 0x18059C500 Slot: 169
 	public virtual void OnTextureWasEdited(int frame, Texture2D texture, bool fromFile = False) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x59CC00 Offset: 0x59B200 VA: 0x18059CC00
 	public void RecieveTexture(BaseEntity.RPCMessage msg) { }
 
 	// RVA: 0x59AEE0 Offset: 0x5994E0 VA: 0x18059AEE0
 	private void EnsureInitialized() { }
 
-	[ConditionalAttribute] // RVA: 0x83DB0 Offset: 0x831B0 VA: 0x180083DB0
+	[ConditionalAttribute] // RVA: 0x83E20 Offset: 0x83220 VA: 0x180083E20
 	// RVA: 0x59D1A0 Offset: 0x59B7A0 VA: 0x18059D1A0
 	private static void SignDebugLog(string str) { }
 
@@ -90,11 +90,11 @@ public class Signage : IOEntity, ILOD, ISignage, IUGCBrowserEntity // TypeDefInd
 	// RVA: 0x59B8F0 Offset: 0x599EF0 VA: 0x18059B8F0
 	private bool HeldEntityCheck(BasePlayer player) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x59D580 Offset: 0x59BB80 VA: 0x18059D580
 	protected bool get_withinTextureRange() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x59D590 Offset: 0x59BB90 VA: 0x18059D590
 	private void set_withinTextureRange(bool value) { }
 
@@ -116,17 +116,17 @@ public class Signage : IOEntity, ILOD, ISignage, IUGCBrowserEntity // TypeDefInd
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 172
 	protected virtual void OnExitTextureRange() { }
 
-	[BaseEntity.Menu] // RVA: 0x7C470 Offset: 0x7B870 VA: 0x18007C470
-	[BaseEntity.Menu.Icon] // RVA: 0x7C470 Offset: 0x7B870 VA: 0x18007C470
-	[BaseEntity.Menu.Description] // RVA: 0x7C470 Offset: 0x7B870 VA: 0x18007C470
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C470 Offset: 0x7B870 VA: 0x18007C470
+	[BaseEntity.Menu] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
+	[BaseEntity.Menu.Icon] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
+	[BaseEntity.Menu.Description] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
 	// RVA: 0x59C030 Offset: 0x59A630 VA: 0x18059C030
 	public void Menu_LockSign(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7C700 Offset: 0x7BB00 VA: 0x18007C700
-	[BaseEntity.Menu.Icon] // RVA: 0x7C700 Offset: 0x7BB00 VA: 0x18007C700
-	[BaseEntity.Menu.Description] // RVA: 0x7C700 Offset: 0x7BB00 VA: 0x18007C700
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C700 Offset: 0x7BB00 VA: 0x18007C700
+	[BaseEntity.Menu] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
+	[BaseEntity.Menu.Icon] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
+	[BaseEntity.Menu.Description] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
 	// RVA: 0x59C070 Offset: 0x59A670 VA: 0x18059C070
 	public void Menu_UnLockSign(BasePlayer player) { }
 
@@ -154,7 +154,7 @@ public class Signage : IOEntity, ILOD, ISignage, IUGCBrowserEntity // TypeDefInd
 	// RVA: 0x59D230 Offset: 0x59B830 VA: 0x18059D230
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x59D200 Offset: 0x59B800 VA: 0x18059D200
 	private void <Menu_ChangeText>b__21_0(int i, Texture2D x) { }
 

@@ -10,13 +10,13 @@ public class Minicopter : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 634
 
 	// Methods
 
-	// RVA: 0x1F48A60 Offset: 0x1F47060 VA: 0x181F48A60
+	// RVA: 0x1F488A0 Offset: 0x1F46EA0 VA: 0x181F488A0
 	public static void ResetToPool(Minicopter instance) { }
 
-	// RVA: 0x1F489B0 Offset: 0x1F46FB0 VA: 0x181F489B0
+	// RVA: 0x1F487F0 Offset: 0x1F46DF0 VA: 0x181F487F0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F48600 Offset: 0x1F46C00 VA: 0x181F48600 Slot: 9
+	// RVA: 0x1F48440 Offset: 0x1F46A40 VA: 0x181F48440 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -25,64 +25,64 @@ public class Minicopter : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 634
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E21B60 Offset: 0x1E20160 VA: 0x181E21B60
+	// RVA: 0x1E219A0 Offset: 0x1E1FFA0 VA: 0x181E219A0
 	public void CopyTo(Minicopter instance) { }
 
-	// RVA: 0x1F472B0 Offset: 0x1F458B0 VA: 0x181F472B0
+	// RVA: 0x1F470F0 Offset: 0x1F456F0 VA: 0x181F470F0
 	public Minicopter Copy() { }
 
-	// RVA: 0x1F47A80 Offset: 0x1F46080 VA: 0x181F47A80
+	// RVA: 0x1F478C0 Offset: 0x1F45EC0 VA: 0x181F478C0
 	public static Minicopter Deserialize(Stream stream) { }
 
-	// RVA: 0x1F47660 Offset: 0x1F45C60 VA: 0x181F47660
+	// RVA: 0x1F474A0 Offset: 0x1F45AA0 VA: 0x181F474A0
 	public static Minicopter DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F476E0 Offset: 0x1F45CE0 VA: 0x181F476E0
+	// RVA: 0x1F47520 Offset: 0x1F45B20 VA: 0x181F47520
 	public static Minicopter DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F47F80 Offset: 0x1F46580 VA: 0x181F47F80
+	// RVA: 0x1F47DC0 Offset: 0x1F463C0 VA: 0x181F47DC0
 	public static Minicopter Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F48730 Offset: 0x1F46D30 VA: 0x181F48730
+	// RVA: 0x1F48570 Offset: 0x1F46B70 VA: 0x181F48570
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F490E0 Offset: 0x1F476E0 VA: 0x181F490E0 Slot: 12
+	// RVA: 0x1F48F20 Offset: 0x1F47520 VA: 0x181F48F20 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F49100 Offset: 0x1F47700 VA: 0x181F49100 Slot: 13
+	// RVA: 0x1F48F40 Offset: 0x1F47540 VA: 0x181F48F40 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Minicopter previous) { }
 
-	// RVA: 0x1F48990 Offset: 0x1F46F90 VA: 0x181F48990 Slot: 14
+	// RVA: 0x1F487D0 Offset: 0x1F46DD0 VA: 0x181F487D0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F482D0 Offset: 0x1F468D0 VA: 0x181F482D0
+	// RVA: 0x1F48110 Offset: 0x1F46710 VA: 0x181F48110
 	public static Minicopter Deserialize(byte[] buffer, Minicopter instance, bool isDelta = False) { }
 
-	// RVA: 0x1F47D20 Offset: 0x1F46320 VA: 0x181F47D20
+	// RVA: 0x1F47B60 Offset: 0x1F46160 VA: 0x181F47B60
 	public static Minicopter Deserialize(Stream stream, Minicopter instance, bool isDelta) { }
 
-	// RVA: 0x1F47330 Offset: 0x1F45930 VA: 0x181F47330
+	// RVA: 0x1F47170 Offset: 0x1F45770 VA: 0x181F47170
 	public static Minicopter DeserializeLengthDelimited(Stream stream, Minicopter instance, bool isDelta) { }
 
-	// RVA: 0x1F47770 Offset: 0x1F45D70 VA: 0x181F47770
+	// RVA: 0x1F475B0 Offset: 0x1F45BB0 VA: 0x181F475B0
 	public static Minicopter DeserializeLength(Stream stream, int length, Minicopter instance, bool isDelta) { }
 
-	// RVA: 0x1F48B10 Offset: 0x1F47110 VA: 0x181F48B10
+	// RVA: 0x1F48950 Offset: 0x1F46F50 VA: 0x181F48950
 	public static void SerializeDelta(Stream stream, Minicopter instance, Minicopter previous) { }
 
-	// RVA: 0x1F48F60 Offset: 0x1F47560 VA: 0x181F48F60
+	// RVA: 0x1F48DA0 Offset: 0x1F473A0 VA: 0x181F48DA0
 	public static void Serialize(Stream stream, Minicopter instance) { }
 
-	// RVA: 0x1F490D0 Offset: 0x1F476D0 VA: 0x181F490D0
+	// RVA: 0x1F48F10 Offset: 0x1F47510 VA: 0x181F48F10
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F490E0 Offset: 0x1F476E0 VA: 0x181F490E0
+	// RVA: 0x1F48F20 Offset: 0x1F47520 VA: 0x181F48F20
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F48E50 Offset: 0x1F47450 VA: 0x181F48E50
+	// RVA: 0x1F48C90 Offset: 0x1F47290 VA: 0x181F48C90
 	public static byte[] SerializeToBytes(Minicopter instance) { }
 
-	// RVA: 0x1F48DA0 Offset: 0x1F473A0 VA: 0x181F48DA0
+	// RVA: 0x1F48BE0 Offset: 0x1F471E0 VA: 0x181F48BE0
 	public static void SerializeLengthDelimited(Stream stream, Minicopter instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -92,7 +92,7 @@ public class Minicopter : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 634
 
 public class MiniCopter : BaseHelicopterVehicle, IEngineControllerUser, IEntity // TypeDefIndex: 8292
 {	// Fields
-	[HeaderAttribute] // RVA: 0x78440 Offset: 0x77840 VA: 0x180078440
+	[HeaderAttribute] // RVA: 0x78540 Offset: 0x77940 VA: 0x180078540
 	public GameObjectRef fuelStoragePrefab; // 0x4D0
 	public float fuelPerSec; // 0x4D8
 	public float fuelGaugeMax; // 0x4DC
@@ -107,7 +107,7 @@ public class MiniCopter : BaseHelicopterVehicle, IEngineControllerUser, IEntity 
 	public float cachedrotation_left; // 0x520
 	public float cachedrotation_right; // 0x524
 	public float cachedrotation_front; // 0x528
-	[HeaderAttribute] // RVA: 0x7F490 Offset: 0x7E890 VA: 0x18007F490
+	[HeaderAttribute] // RVA: 0x7F560 Offset: 0x7E960 VA: 0x18007F560
 	public Transform joystickPositionLeft; // 0x530
 	public Transform joystickPositionRight; // 0x538
 	public Transform leftFootPosition; // 0x540
@@ -124,11 +124,11 @@ public class MiniCopter : BaseHelicopterVehicle, IEngineControllerUser, IEntity 
 	public float motorForceConstant; // 0x590
 	public float brakeForceConstant; // 0x594
 	public GameObject preventBuildingObject; // 0x598
-	[ServerVar] // RVA: 0x71E60 Offset: 0x71260 VA: 0x180071E60
+	[ServerVar] // RVA: 0x71F60 Offset: 0x71360 VA: 0x180071F60
 	public static float population; // 0x0
-	[ServerVar] // RVA: 0xAC300 Offset: 0xAB700 VA: 0x1800AC300
+	[ServerVar] // RVA: 0xAC3A0 Offset: 0xAB7A0 VA: 0x1800AC3A0
 	public static float outsidedecayminutes; // 0x4
-	[ServerVar] // RVA: 0xAC460 Offset: 0xAB860 VA: 0x1800AC460
+	[ServerVar] // RVA: 0xAC500 Offset: 0xAB900 VA: 0x1800AC500
 	public static float insidedecayminutes; // 0x8
 	private VehicleEngineController<MiniCopter> engineController; // 0x5A0
 	private float leftWheelVelocity; // 0x5A8
@@ -158,10 +158,10 @@ public class MiniCopter : BaseHelicopterVehicle, IEngineControllerUser, IEntity 
 	// RVA: 0x765D80 Offset: 0x764380 VA: 0x180765D80
 	public float GetFuelFraction() { }
 
-	[BaseEntity.Menu] // RVA: 0xAC590 Offset: 0xAB990 VA: 0x1800AC590
-	[BaseEntity.Menu.Description] // RVA: 0xAC590 Offset: 0xAB990 VA: 0x1800AC590
-	[BaseEntity.Menu.Icon] // RVA: 0xAC590 Offset: 0xAB990 VA: 0x1800AC590
-	[BaseEntity.Menu.ShowIf] // RVA: 0xAC590 Offset: 0xAB990 VA: 0x1800AC590
+	[BaseEntity.Menu] // RVA: 0xAC630 Offset: 0xABA30 VA: 0x1800AC630
+	[BaseEntity.Menu.Description] // RVA: 0xAC630 Offset: 0xABA30 VA: 0x1800AC630
+	[BaseEntity.Menu.Icon] // RVA: 0xAC630 Offset: 0xABA30 VA: 0x1800AC630
+	[BaseEntity.Menu.ShowIf] // RVA: 0xAC630 Offset: 0xABA30 VA: 0x1800AC630
 	// RVA: 0x766420 Offset: 0x764A20 VA: 0x180766420
 	public void Menu_FuelStorage(BasePlayer player) { }
 

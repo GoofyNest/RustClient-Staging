@@ -172,7 +172,7 @@ internal struct SimpleCollator.Context // TypeDefIndex: 40
 
 	// Methods
 
-	// RVA: 0x1F6630 Offset: 0x1F5A30 VA: 0x1801F6630
+	// RVA: 0x1F65B0 Offset: 0x1F59B0 VA: 0x1801F65B0
 	public void .ctor(CompareOptions opt, byte* alwaysMatchFlags, byte* neverMatchFlags, byte* buffer1, byte* buffer2, byte* prev1) { }
 
 }
@@ -184,7 +184,7 @@ private struct SimpleCollator.PreviousInfo // TypeDefIndex: 41
 
 	// Methods
 
-	// RVA: 0x1F6750 Offset: 0x1F5B50 VA: 0x1801F6750
+	// RVA: 0x1F66D0 Offset: 0x1F5AD0 VA: 0x1801F66D0
 	public void .ctor(bool dummy) { }
 
 }

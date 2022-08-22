@@ -1,27 +1,27 @@
 internal class Utility // TypeDefIndex: 4719
 {	// Fields
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private static Action<bool> GraphicsResourcesRecreate; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private static Action EngineUpdate; // 0x8
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private static Action FlushPendingResources; // 0x10
 	private static ProfilerMarker s_MarkerRaiseEngineUpdate; // 0x18
 
 	// Methods
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xEBEA30 Offset: 0xEBD030 VA: 0x180EBEA30
 	internal static void RaiseGraphicsResourcesRecreate(bool recreate) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xEBE920 Offset: 0xEBCF20 VA: 0x180EBE920
 	internal static void RaiseEngineUpdate() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xEBE9C0 Offset: 0xEBCFC0 VA: 0x180EBE9C0
 	internal static void RaiseFlushPendingResources() { }
 
@@ -42,7 +42,7 @@ public static class Utility // TypeDefIndex: 5272
 
 	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal static T ToType<T>(IntPtr ptr) { }
 	/* GenericInstMethod :
@@ -222,28 +222,28 @@ public static class Utility // TypeDefIndex: 5272
 	|-Utility.ToType<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E2120 Offset: 0x19E0720 VA: 0x1819E2120
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E20E0 Offset: 0x19E06E0 VA: 0x1819E20E0
 	internal static object ToType(IntPtr ptr, Type t) { }
 
-	// RVA: 0x19E20F0 Offset: 0x19E06F0 VA: 0x1819E20F0
+	// RVA: 0x19E20B0 Offset: 0x19E06B0 VA: 0x1819E20B0
 	internal static uint Swap(uint x) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E1E10 Offset: 0x19E0410 VA: 0x1819E1E10
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E1DD0 Offset: 0x19E03D0 VA: 0x1819E1DD0
 	public static uint IpToInt32(IPAddress ipAddress) { }
 
-	// RVA: 0x19E1D70 Offset: 0x19E0370 VA: 0x1819E1D70
+	// RVA: 0x19E1D30 Offset: 0x19E0330 VA: 0x1819E1D30
 	public static IPAddress Int32ToIp(uint ipAddress) { }
 
-	// RVA: 0x19E1260 Offset: 0x19DF860 VA: 0x1819E1260
+	// RVA: 0x19E1220 Offset: 0x19DF820 VA: 0x1819E1220
 	public static string FormatPrice(string currency, double price) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E1EA0 Offset: 0x19E04A0 VA: 0x1819E1EA0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E1E60 Offset: 0x19E0460 VA: 0x1819E1E60
 	public static string ReadNullTerminatedUTF8String(BinaryReader br) { }
 
-	// RVA: 0x19E21A0 Offset: 0x19E07A0 VA: 0x1819E21A0
+	// RVA: 0x19E2160 Offset: 0x19E0760 VA: 0x1819E2160
 	private static void .cctor() { }
 
 }

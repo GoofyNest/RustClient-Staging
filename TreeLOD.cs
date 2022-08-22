@@ -1,6 +1,6 @@
 public class TreeLOD : LODComponent, IComparable<TreeLOD> // TypeDefIndex: 9956
 {	// Fields
-	[HorizontalAttribute] // RVA: 0xAA2D0 Offset: 0xA96D0 VA: 0x1800AA2D0
+	[HorizontalAttribute] // RVA: 0xAA3F0 Offset: 0xA97F0 VA: 0x1800AA3F0
 	public TreeLOD.State[] States; // 0x80
 	private int requestedlod; // 0x88
 	private int curlod; // 0x8C

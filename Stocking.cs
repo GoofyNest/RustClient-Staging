@@ -1,6 +1,6 @@
 public class Stocking : LootContainer // TypeDefIndex: 8839
 {	// Fields
-	public static ListHashSet<Stocking> stockings; // 0x2B11168
+	public static ListHashSet<Stocking> stockings; // 0x2B10188
 
 	// Methods
 

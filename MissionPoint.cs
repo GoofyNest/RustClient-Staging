@@ -7,13 +7,13 @@ public class MissionPoint : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 	// Methods
 
-	// RVA: 0x1F4E5C0 Offset: 0x1F4CBC0 VA: 0x181F4E5C0
+	// RVA: 0x1F4E400 Offset: 0x1F4CA00 VA: 0x181F4E400
 	public static void ResetToPool(MissionPoint instance) { }
 
-	// RVA: 0x1F4E510 Offset: 0x1F4CB10 VA: 0x181F4E510
+	// RVA: 0x1F4E350 Offset: 0x1F4C950 VA: 0x181F4E350
 	public void ResetToPool() { }
 
-	// RVA: 0x1F4E450 Offset: 0x1F4CA50 VA: 0x181F4E450 Slot: 9
+	// RVA: 0x1F4E290 Offset: 0x1F4C890 VA: 0x181F4E290 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -22,64 +22,64 @@ public class MissionPoint : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F4D970 Offset: 0x1F4BF70 VA: 0x181F4D970
+	// RVA: 0x1F4D7B0 Offset: 0x1F4BDB0 VA: 0x181F4D7B0
 	public void CopyTo(MissionPoint instance) { }
 
-	// RVA: 0x1F4D9C0 Offset: 0x1F4BFC0 VA: 0x181F4D9C0
+	// RVA: 0x1F4D800 Offset: 0x1F4BE00 VA: 0x181F4D800
 	public MissionPoint Copy() { }
 
-	// RVA: 0x1F4E3D0 Offset: 0x1F4C9D0 VA: 0x181F4E3D0
+	// RVA: 0x1F4E210 Offset: 0x1F4C810 VA: 0x181F4E210
 	public static MissionPoint Deserialize(Stream stream) { }
 
-	// RVA: 0x1F4DCC0 Offset: 0x1F4C2C0 VA: 0x181F4DCC0
+	// RVA: 0x1F4DB00 Offset: 0x1F4C100 VA: 0x181F4DB00
 	public static MissionPoint DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F4DD40 Offset: 0x1F4C340 VA: 0x181F4DD40
+	// RVA: 0x1F4DB80 Offset: 0x1F4C180 VA: 0x181F4DB80
 	public static MissionPoint DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F4E110 Offset: 0x1F4C710 VA: 0x181F4E110
+	// RVA: 0x1F4DF50 Offset: 0x1F4C550 VA: 0x181F4DF50
 	public static MissionPoint Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F4E4D0 Offset: 0x1F4CAD0 VA: 0x181F4E4D0
+	// RVA: 0x1F4E310 Offset: 0x1F4C910 VA: 0x181F4E310
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F4ED20 Offset: 0x1F4D320 VA: 0x181F4ED20 Slot: 12
+	// RVA: 0x1F4EB60 Offset: 0x1F4D160 VA: 0x181F4EB60 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F4ED40 Offset: 0x1F4D340 VA: 0x181F4ED40 Slot: 13
+	// RVA: 0x1F4EB80 Offset: 0x1F4D180 VA: 0x181F4EB80 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, MissionPoint previous) { }
 
-	// RVA: 0x1F4E4F0 Offset: 0x1F4CAF0 VA: 0x181F4E4F0 Slot: 14
+	// RVA: 0x1F4E330 Offset: 0x1F4C930 VA: 0x181F4E330 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F4E010 Offset: 0x1F4C610 VA: 0x181F4E010
+	// RVA: 0x1F4DE50 Offset: 0x1F4C450 VA: 0x181F4DE50
 	public static MissionPoint Deserialize(byte[] buffer, MissionPoint instance, bool isDelta = False) { }
 
-	// RVA: 0x1F4E230 Offset: 0x1F4C830 VA: 0x181F4E230
+	// RVA: 0x1F4E070 Offset: 0x1F4C670 VA: 0x181F4E070
 	public static MissionPoint Deserialize(Stream stream, MissionPoint instance, bool isDelta) { }
 
-	// RVA: 0x1F4DA50 Offset: 0x1F4C050 VA: 0x181F4DA50
+	// RVA: 0x1F4D890 Offset: 0x1F4BE90 VA: 0x181F4D890
 	public static MissionPoint DeserializeLengthDelimited(Stream stream, MissionPoint instance, bool isDelta) { }
 
-	// RVA: 0x1F4DDD0 Offset: 0x1F4C3D0 VA: 0x181F4DDD0
+	// RVA: 0x1F4DC10 Offset: 0x1F4C210 VA: 0x181F4DC10
 	public static MissionPoint DeserializeLength(Stream stream, int length, MissionPoint instance, bool isDelta) { }
 
-	// RVA: 0x1F4E670 Offset: 0x1F4CC70 VA: 0x181F4E670
+	// RVA: 0x1F4E4B0 Offset: 0x1F4CAB0 VA: 0x181F4E4B0
 	public static void SerializeDelta(Stream stream, MissionPoint instance, MissionPoint previous) { }
 
-	// RVA: 0x1F4EB10 Offset: 0x1F4D110 VA: 0x181F4EB10
+	// RVA: 0x1F4E950 Offset: 0x1F4CF50 VA: 0x181F4E950
 	public static void Serialize(Stream stream, MissionPoint instance) { }
 
-	// RVA: 0x1F4ED10 Offset: 0x1F4D310 VA: 0x181F4ED10
+	// RVA: 0x1F4EB50 Offset: 0x1F4D150 VA: 0x181F4EB50
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F4ED20 Offset: 0x1F4D320 VA: 0x181F4ED20
+	// RVA: 0x1F4EB60 Offset: 0x1F4D160 VA: 0x181F4EB60
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F4EA00 Offset: 0x1F4D000 VA: 0x181F4EA00
+	// RVA: 0x1F4E840 Offset: 0x1F4CE40 VA: 0x181F4E840
 	public static byte[] SerializeToBytes(MissionPoint instance) { }
 
-	// RVA: 0x1F4E950 Offset: 0x1F4CF50 VA: 0x181F4E950
+	// RVA: 0x1F4E790 Offset: 0x1F4CD90 VA: 0x181F4E790
 	public static void SerializeLengthDelimited(Stream stream, MissionPoint instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80

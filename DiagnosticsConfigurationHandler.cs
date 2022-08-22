@@ -1,7 +1,7 @@
 public class DiagnosticsConfigurationHandler : IConfigurationSectionHandler // TypeDefIndex: 3185
 {
 // Namespace: System.Diagnostics
-[ObsoleteAttribute] // RVA: 0xC1520 Offset: 0xC0920 VA: 0x1800C1520
+[ObsoleteAttribute] // RVA: 0xC1400 Offset: 0xC0800 VA: 0x1800C1400
 public class DiagnosticsConfigurationHandler : IConfigurationSectionHandler // TypeDefIndex: 3185
 	// Methods
 

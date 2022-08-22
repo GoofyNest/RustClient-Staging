@@ -14,7 +14,7 @@ public class OreResourceEntity : StagedResourceEntity // TypeDefIndex: 8610
 	// RVA: 0x9E7C70 Offset: 0x9E6270 VA: 0x1809E7C70 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x9E8210 Offset: 0x9E6810 VA: 0x1809E8210
 	public void PlayBonusLevelSound(BaseEntity.RPCMessage msg) { }
 

@@ -15,10 +15,10 @@ internal struct FavoritesListChanged_t : ICallbackData // TypeDefIndex: 5335
 
 	// Methods
 
-	// RVA: 0x1E5730 Offset: 0x1E4B30 VA: 0x1801E5730 Slot: 5
+	// RVA: 0x1E56B0 Offset: 0x1E4AB0 VA: 0x1801E56B0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E5720 Offset: 0x1E4B20 VA: 0x1801E5720 Slot: 4
+	// RVA: 0x1E56A0 Offset: 0x1E4AA0 VA: 0x1801E56A0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1370370 Offset: 0x136E970 VA: 0x181370370

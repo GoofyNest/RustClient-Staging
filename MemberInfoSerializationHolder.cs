@@ -9,19 +9,19 @@ internal class MemberInfoSerializationHolder : ISerializable, IObjectReference /
 
 	// Methods
 
-	// RVA: 0x18CB430 Offset: 0x18C9A30 VA: 0x1818CB430
+	// RVA: 0x18CB3F0 Offset: 0x18C99F0 VA: 0x1818CB3F0
 	public static void GetSerializationInfo(SerializationInfo info, string name, RuntimeType reflectedClass, string signature, MemberTypes type) { }
 
-	// RVA: 0x18CB460 Offset: 0x18C9A60 VA: 0x1818CB460
+	// RVA: 0x18CB420 Offset: 0x18C9A20 VA: 0x1818CB420
 	public static void GetSerializationInfo(SerializationInfo info, string name, RuntimeType reflectedClass, string signature, string signature2, MemberTypes type, Type[] genericArguments) { }
 
-	// RVA: 0x18CB6B0 Offset: 0x18C9CB0 VA: 0x1818CB6B0
+	// RVA: 0x18CB670 Offset: 0x18C9C70 VA: 0x1818CB670
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x18CA4D0 Offset: 0x18C8AD0 VA: 0x1818CA4D0 Slot: 6
+	// RVA: 0x18CA490 Offset: 0x18C8A90 VA: 0x1818CA490 Slot: 6
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x18CA540 Offset: 0x18C8B40 VA: 0x1818CA540 Slot: 7
+	// RVA: 0x18CA500 Offset: 0x18C8B00 VA: 0x1818CA500 Slot: 7
 	public virtual object GetRealObject(StreamingContext context) { }
 
 }

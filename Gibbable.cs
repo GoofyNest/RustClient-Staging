@@ -8,15 +8,15 @@ public class Gibbable : PrefabAttribute, IClientComponent // TypeDefIndex: 9890
 	public PhysicMaterial physicsMaterial; // 0xB8
 	public GameObjectRef fxPrefab; // 0xC0
 	public bool spawnFxPrefab; // 0xC8
-	[TooltipAttribute] // RVA: 0xA5180 Offset: 0xA4580 VA: 0x1800A5180
+	[TooltipAttribute] // RVA: 0xA5350 Offset: 0xA4750 VA: 0x1800A5350
 	public bool important; // 0xC9
 	public float explodeScale; // 0xCC
 	public float scaleOverride; // 0xD0
-	[ReadOnlyAttribute] // RVA: 0x70AC0 Offset: 0x6FEC0 VA: 0x180070AC0
+	[ReadOnlyAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
 	public int uniqueId; // 0xD4
 	public Gibbable.BoundsEffectType boundsEffectType; // 0xD8
 	public bool isConditional; // 0xDC
-	[ReadOnlyAttribute] // RVA: 0x70AC0 Offset: 0x6FEC0 VA: 0x180070AC0
+	[ReadOnlyAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
 	public Bounds effectBounds; // 0xE0
 	public List<Gibbable.OverrideMesh> MeshOverrides; // 0xF8
 	private static MaterialPropertyBlock propertyBlock; // 0x0

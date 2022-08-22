@@ -9,10 +9,10 @@ public static class TimeConverter // TypeDefIndex: 7480
 	|-TimeConverter.ConvertTo<object>
 	*/
 
-	// RVA: 0x2202090 Offset: 0x2200690 VA: 0x182202090
+	// RVA: 0x2201ED0 Offset: 0x22004D0 VA: 0x182201ED0
 	public static ITimeSpan ConvertTo(ITimeSpan time, Type timeType, TempoMap tempoMap) { }
 
-	// RVA: 0x2202000 Offset: 0x2200600 VA: 0x182202000
+	// RVA: 0x2201E40 Offset: 0x2200440 VA: 0x182201E40
 	public static long ConvertFrom(ITimeSpan time, TempoMap tempoMap) { }
 
 }

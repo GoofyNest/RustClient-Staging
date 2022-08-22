@@ -11,10 +11,10 @@ internal struct ValidateAuthTicketResponse_t : ICallbackData // TypeDefIndex: 52
 
 	// Methods
 
-	// RVA: 0x1DC990 Offset: 0x1DBD90 VA: 0x1801DC990 Slot: 5
+	// RVA: 0x1DC910 Offset: 0x1DBD10 VA: 0x1801DC910 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DC980 Offset: 0x1DBD80 VA: 0x1801DC980 Slot: 4
+	// RVA: 0x1DC900 Offset: 0x1DBD00 VA: 0x1801DC900 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1291FF0 Offset: 0x12905F0 VA: 0x181291FF0

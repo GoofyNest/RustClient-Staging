@@ -1,7 +1,7 @@
 public class RandomRendererEnable : MonoBehaviour // TypeDefIndex: 8786
 {	// Fields
 	public Renderer[] randoms; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <EnabledIndex>k__BackingField; // 0x20
 
 	// Properties
@@ -9,11 +9,11 @@ public class RandomRendererEnable : MonoBehaviour // TypeDefIndex: 8786
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	public int get_EnabledIndex() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x69D620 Offset: 0x69BC20 VA: 0x18069D620
 	private void set_EnabledIndex(int value) { }
 

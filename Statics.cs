@@ -131,40 +131,40 @@ internal static class Statics // TypeDefIndex: 1577
 	|-RVA: 0x12BF080 Offset: 0x12BD680 VA: 0x1812BF080
 	|-Statics.CreateDefaultTypeInfo<Guid>
 	|
-	|-RVA: 0x1B1A740 Offset: 0x1B18D40 VA: 0x181B1A740
+	|-RVA: 0x1B1A580 Offset: 0x1B18B80 VA: 0x181B1A580
 	|-Statics.CreateDefaultTypeInfo<short>
 	|
-	|-RVA: 0x1B1C670 Offset: 0x1B1AC70 VA: 0x181B1C670
+	|-RVA: 0x1B1C4B0 Offset: 0x1B1AAB0 VA: 0x181B1C4B0
 	|-Statics.CreateDefaultTypeInfo<int>
 	|
-	|-RVA: 0x1B1E5A0 Offset: 0x1B1CBA0 VA: 0x181B1E5A0
+	|-RVA: 0x1B1E3E0 Offset: 0x1B1C9E0 VA: 0x181B1E3E0
 	|-Statics.CreateDefaultTypeInfo<long>
 	|
-	|-RVA: 0x1B204D0 Offset: 0x1B1EAD0 VA: 0x181B204D0
+	|-RVA: 0x1B20310 Offset: 0x1B1E910 VA: 0x181B20310
 	|-Statics.CreateDefaultTypeInfo<IntPtr>
 	|
-	|-RVA: 0x1B22400 Offset: 0x1B20A00 VA: 0x181B22400
+	|-RVA: 0x1B22240 Offset: 0x1B20840 VA: 0x181B22240
 	|-Statics.CreateDefaultTypeInfo<object>
 	|
-	|-RVA: 0x1B24330 Offset: 0x1B22930 VA: 0x181B24330
+	|-RVA: 0x1B24170 Offset: 0x1B22770 VA: 0x181B24170
 	|-Statics.CreateDefaultTypeInfo<sbyte>
 	|
-	|-RVA: 0x1B26260 Offset: 0x1B24860 VA: 0x181B26260
+	|-RVA: 0x1B260A0 Offset: 0x1B246A0 VA: 0x181B260A0
 	|-Statics.CreateDefaultTypeInfo<float>
 	|
-	|-RVA: 0x1B28190 Offset: 0x1B26790 VA: 0x181B28190
+	|-RVA: 0x1B27FD0 Offset: 0x1B265D0 VA: 0x181B27FD0
 	|-Statics.CreateDefaultTypeInfo<TimeSpan>
 	|
-	|-RVA: 0x1B2A0C0 Offset: 0x1B286C0 VA: 0x181B2A0C0
+	|-RVA: 0x1B29F00 Offset: 0x1B28500 VA: 0x181B29F00
 	|-Statics.CreateDefaultTypeInfo<ushort>
 	|
-	|-RVA: 0x1B2BFF0 Offset: 0x1B2A5F0 VA: 0x181B2BFF0
+	|-RVA: 0x1B2BE30 Offset: 0x1B2A430 VA: 0x181B2BE30
 	|-Statics.CreateDefaultTypeInfo<uint>
 	|
-	|-RVA: 0x1B2DF20 Offset: 0x1B2C520 VA: 0x181B2DF20
+	|-RVA: 0x1B2DD60 Offset: 0x1B2C360 VA: 0x181B2DD60
 	|-Statics.CreateDefaultTypeInfo<ulong>
 	|
-	|-RVA: 0x1B2FE50 Offset: 0x1B2E450 VA: 0x181B2FE50
+	|-RVA: 0x1B2FC90 Offset: 0x1B2E290 VA: 0x181B2FC90
 	|-Statics.CreateDefaultTypeInfo<UIntPtr>
 	*/
 

@@ -9,40 +9,40 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.IsBlittable<FoliageGridMeshData.FoliageVertex>
 	*/
 
-	[ThreadSafeAttribute] // RVA: 0x93BC0 Offset: 0x92FC0 VA: 0x180093BC0
-	// RVA: 0x1834BF0 Offset: 0x18331F0 VA: 0x181834BF0
+	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	// RVA: 0x1834BB0 Offset: 0x18331B0 VA: 0x181834BB0
 	public static void* Malloc(long size, int alignment, Allocator allocator) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93BC0 Offset: 0x92FC0 VA: 0x180093BC0
-	// RVA: 0x1834840 Offset: 0x1832E40 VA: 0x181834840
+	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	// RVA: 0x1834800 Offset: 0x1832E00 VA: 0x181834800
 	public static void Free(void* memory, Allocator allocator) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93BC0 Offset: 0x92FC0 VA: 0x180093BC0
-	// RVA: 0x1834C90 Offset: 0x1833290 VA: 0x181834C90
+	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	// RVA: 0x1834C50 Offset: 0x1833250 VA: 0x181834C50
 	public static void MemCpy(void* destination, void* source, long size) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93BC0 Offset: 0x92FC0 VA: 0x180093BC0
-	// RVA: 0x1834CF0 Offset: 0x18332F0 VA: 0x181834CF0
+	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	// RVA: 0x1834CB0 Offset: 0x18332B0 VA: 0x181834CB0
 	public static void MemSet(void* destination, byte value, long size) { }
 
-	// RVA: 0x1834C40 Offset: 0x1833240 VA: 0x181834C40
+	// RVA: 0x1834C00 Offset: 0x1833200 VA: 0x181834C00
 	public static void MemClear(void* destination, long size) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93BC0 Offset: 0x92FC0 VA: 0x180093BC0
-	// RVA: 0x1834D50 Offset: 0x1833350 VA: 0x181834D50
+	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	// RVA: 0x1834D10 Offset: 0x1833310 VA: 0x181834D10
 	public static int SizeOf(Type type) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93BC0 Offset: 0x92FC0 VA: 0x180093BC0
-	// RVA: 0x1834BB0 Offset: 0x18331B0 VA: 0x181834BB0
+	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	// RVA: 0x1834B70 Offset: 0x1833170 VA: 0x181834B70
 	public static bool IsBlittable(Type type) { }
 
-	// RVA: 0x1834B50 Offset: 0x1833150 VA: 0x181834B50
+	// RVA: 0x1834B10 Offset: 0x1833110 VA: 0x181834B10
 	private static bool IsBlittableValueType(Type t) { }
 
-	// RVA: 0x18348E0 Offset: 0x1832EE0 VA: 0x1818348E0
+	// RVA: 0x18348A0 Offset: 0x1832EA0 VA: 0x1818348A0
 	private static string GetReasonForTypeNonBlittableImpl(Type t, string name) { }
 
-	// RVA: 0x1834AC0 Offset: 0x18330C0 VA: 0x181834AC0
+	// RVA: 0x1834A80 Offset: 0x1833080 VA: 0x181834A80
 	internal static bool IsArrayBlittable(Array arr) { }
 
 	// RVA: -1 Offset: -1
@@ -53,7 +53,7 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.IsGenericListBlittable<FoliageGridMeshData.FoliageVertex>
 	*/
 
-	// RVA: 0x1834880 Offset: 0x1832E80 VA: 0x181834880
+	// RVA: 0x1834840 Offset: 0x1832E40 VA: 0x181834840
 	internal static string GetReasonForArrayNonBlittable(Array arr) { }
 
 	// RVA: -1 Offset: -1

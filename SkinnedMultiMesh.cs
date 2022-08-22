@@ -15,7 +15,7 @@ public class SkinnedMultiMesh : MonoBehaviour, IPrefabPreProcess // TypeDefIndex
 	public float hairNumber; // 0x60
 	public int skinType; // 0x64
 	public SkinSetCollection SkinCollection; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly List<Renderer> <Renderers>k__BackingField; // 0x70
 
 	// Properties
@@ -23,7 +23,7 @@ public class SkinnedMultiMesh : MonoBehaviour, IPrefabPreProcess // TypeDefIndex
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
 	public List<Renderer> get_Renderers() { }
 

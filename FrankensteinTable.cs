@@ -6,13 +6,13 @@ public class FrankensteinTable : IDisposable, Pool.IPooled, IProto // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1D5B110 Offset: 0x1D59710 VA: 0x181D5B110
+	// RVA: 0x1D5AF50 Offset: 0x1D59550 VA: 0x181D5AF50
 	public static void ResetToPool(FrankensteinTable instance) { }
 
-	// RVA: 0x1D5B1F0 Offset: 0x1D597F0 VA: 0x181D5B1F0
+	// RVA: 0x1D5B030 Offset: 0x1D59630 VA: 0x181D5B030
 	public void ResetToPool() { }
 
-	// RVA: 0x1D5AF80 Offset: 0x1D59580 VA: 0x181D5AF80 Slot: 9
+	// RVA: 0x1D5ADC0 Offset: 0x1D593C0 VA: 0x181D5ADC0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -21,64 +21,64 @@ public class FrankensteinTable : IDisposable, Pool.IPooled, IProto // TypeDefInd
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D5A290 Offset: 0x1D58890 VA: 0x181D5A290
+	// RVA: 0x1D5A0D0 Offset: 0x1D586D0 VA: 0x181D5A0D0
 	public void CopyTo(FrankensteinTable instance) { }
 
-	// RVA: 0x1D5A3B0 Offset: 0x1D589B0 VA: 0x181D5A3B0
+	// RVA: 0x1D5A1F0 Offset: 0x1D587F0 VA: 0x181D5A1F0
 	public FrankensteinTable Copy() { }
 
-	// RVA: 0x1D5AD40 Offset: 0x1D59340 VA: 0x181D5AD40
+	// RVA: 0x1D5AB80 Offset: 0x1D59180 VA: 0x181D5AB80
 	public static FrankensteinTable Deserialize(Stream stream) { }
 
-	// RVA: 0x1D5A7A0 Offset: 0x1D58DA0 VA: 0x181D5A7A0
+	// RVA: 0x1D5A5E0 Offset: 0x1D58BE0 VA: 0x181D5A5E0
 	public static FrankensteinTable DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1D5AA90 Offset: 0x1D59090 VA: 0x181D5AA90
+	// RVA: 0x1D5A8D0 Offset: 0x1D58ED0 VA: 0x181D5A8D0
 	public static FrankensteinTable DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1D5AB20 Offset: 0x1D59120 VA: 0x181D5AB20
+	// RVA: 0x1D5A960 Offset: 0x1D58F60 VA: 0x181D5A960
 	public static FrankensteinTable Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1D5B0D0 Offset: 0x1D596D0 VA: 0x181D5B0D0
+	// RVA: 0x1D5AF10 Offset: 0x1D59510 VA: 0x181D5AF10
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1D5B740 Offset: 0x1D59D40 VA: 0x181D5B740 Slot: 12
+	// RVA: 0x1D5B580 Offset: 0x1D59B80 VA: 0x181D5B580 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1D5B760 Offset: 0x1D59D60 VA: 0x181D5B760 Slot: 13
+	// RVA: 0x1D5B5A0 Offset: 0x1D59BA0 VA: 0x181D5B5A0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, FrankensteinTable previous) { }
 
-	// RVA: 0x1D5B0F0 Offset: 0x1D596F0 VA: 0x181D5B0F0 Slot: 14
+	// RVA: 0x1D5AF30 Offset: 0x1D59530 VA: 0x181D5AF30 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1D5AC40 Offset: 0x1D59240 VA: 0x181D5AC40
+	// RVA: 0x1D5AA80 Offset: 0x1D59080 VA: 0x181D5AA80
 	public static FrankensteinTable Deserialize(byte[] buffer, FrankensteinTable instance, bool isDelta = False) { }
 
-	// RVA: 0x1D5ADC0 Offset: 0x1D593C0 VA: 0x181D5ADC0
+	// RVA: 0x1D5AC00 Offset: 0x1D59200 VA: 0x181D5AC00
 	public static FrankensteinTable Deserialize(Stream stream, FrankensteinTable instance, bool isDelta) { }
 
-	// RVA: 0x1D5A510 Offset: 0x1D58B10 VA: 0x181D5A510
+	// RVA: 0x1D5A350 Offset: 0x1D58950 VA: 0x181D5A350
 	public static FrankensteinTable DeserializeLengthDelimited(Stream stream, FrankensteinTable instance, bool isDelta) { }
 
-	// RVA: 0x1D5A820 Offset: 0x1D58E20 VA: 0x181D5A820
+	// RVA: 0x1D5A660 Offset: 0x1D58C60 VA: 0x181D5A660
 	public static FrankensteinTable DeserializeLength(Stream stream, int length, FrankensteinTable instance, bool isDelta) { }
 
-	// RVA: 0x1D5B2D0 Offset: 0x1D598D0 VA: 0x181D5B2D0
+	// RVA: 0x1D5B110 Offset: 0x1D59710 VA: 0x181D5B110
 	public static void SerializeDelta(Stream stream, FrankensteinTable instance, FrankensteinTable previous) { }
 
-	// RVA: 0x1D5B5E0 Offset: 0x1D59BE0 VA: 0x181D5B5E0
+	// RVA: 0x1D5B420 Offset: 0x1D59A20 VA: 0x181D5B420
 	public static void Serialize(Stream stream, FrankensteinTable instance) { }
 
-	// RVA: 0x1D5B730 Offset: 0x1D59D30 VA: 0x181D5B730
+	// RVA: 0x1D5B570 Offset: 0x1D59B70 VA: 0x181D5B570
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1D5B740 Offset: 0x1D59D40 VA: 0x181D5B740
+	// RVA: 0x1D5B580 Offset: 0x1D59B80 VA: 0x181D5B580
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1D5B4D0 Offset: 0x1D59AD0 VA: 0x181D5B4D0
+	// RVA: 0x1D5B310 Offset: 0x1D59910 VA: 0x181D5B310
 	public static byte[] SerializeToBytes(FrankensteinTable instance) { }
 
-	// RVA: 0x1D5B420 Offset: 0x1D59A20 VA: 0x181D5B420
+	// RVA: 0x1D5B260 Offset: 0x1D59860 VA: 0x181D5B260
 	public static void SerializeLengthDelimited(Stream stream, FrankensteinTable instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -96,10 +96,10 @@ public class FrankensteinTable : StorageContainer // TypeDefIndex: 8392
 	public List<ItemDefinition> HeadItems; // 0x498
 	public List<ItemDefinition> TorsoItems; // 0x4A0
 	public List<ItemDefinition> LegItems; // 0x4A8
-	[HideInInspector] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public List<ItemDefinition> ItemsToUse; // 0x4B0
 	public FrankensteinTableVisuals TableVisuals; // 0x4B8
-	[HeaderAttribute] // RVA: 0xDFC00 Offset: 0xDF000 VA: 0x1800DFC00
+	[HeaderAttribute] // RVA: 0xDFC80 Offset: 0xDF080 VA: 0x1800DFC80
 	public float TableDownDuration; // 0x4C0
 
 	// Properties
@@ -128,20 +128,20 @@ public class FrankensteinTable : StorageContainer // TypeDefIndex: 8392
 	// RVA: 0x753330 Offset: 0x751930 VA: 0x180753330
 	public void Create() { }
 
-	[BaseEntity.Menu] // RVA: 0xDFC70 Offset: 0xDF070 VA: 0x1800DFC70
-	[BaseEntity.Menu.Description] // RVA: 0xDFC70 Offset: 0xDF070 VA: 0x1800DFC70
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDFC70 Offset: 0xDF070 VA: 0x1800DFC70
-	[BaseEntity.Menu.Icon] // RVA: 0xDFC70 Offset: 0xDF070 VA: 0x1800DFC70
+	[BaseEntity.Menu] // RVA: 0xDFCF0 Offset: 0xDF0F0 VA: 0x1800DFCF0
+	[BaseEntity.Menu.Description] // RVA: 0xDFCF0 Offset: 0xDF0F0 VA: 0x1800DFCF0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDFCF0 Offset: 0xDF0F0 VA: 0x1800DFCF0
+	[BaseEntity.Menu.Icon] // RVA: 0xDFCF0 Offset: 0xDF0F0 VA: 0x1800DFCF0
 	// RVA: 0x754190 Offset: 0x752790 VA: 0x180754190
 	public void MenuWakeFrankenstein(BasePlayer ply) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250
 	public bool CanWake(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xDFF00 Offset: 0xDF300 VA: 0x1800DFF00
-	[BaseEntity.Menu.Description] // RVA: 0xDFF00 Offset: 0xDF300 VA: 0x1800DFF00
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDFF00 Offset: 0xDF300 VA: 0x1800DFF00
-	[BaseEntity.Menu.Icon] // RVA: 0xDFF00 Offset: 0xDF300 VA: 0x1800DFF00
+	[BaseEntity.Menu] // RVA: 0xE0010 Offset: 0xDF410 VA: 0x1800E0010
+	[BaseEntity.Menu.Description] // RVA: 0xE0010 Offset: 0xDF410 VA: 0x1800E0010
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE0010 Offset: 0xDF410 VA: 0x1800E0010
+	[BaseEntity.Menu.Icon] // RVA: 0xE0010 Offset: 0xDF410 VA: 0x1800E0010
 	// RVA: 0x754150 Offset: 0x752750 VA: 0x180754150
 	public void MenuSleepFrankenstein(BasePlayer ply) { }
 
@@ -163,7 +163,7 @@ public class FrankensteinTable : StorageContainer // TypeDefIndex: 8392
 	// RVA: 0x753EE0 Offset: 0x7524E0 VA: 0x180753EE0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x753210 Offset: 0x751810 VA: 0x180753210
 	public void CL_WakeFrankenstein(BaseEntity.RPCMessage msg) { }
 

@@ -3,10 +3,10 @@ public class CompareInfo : IDeserializationCallback // TypeDefIndex: 690
 	private const CompareOptions ValidIndexMaskOffFlags = -32;
 	private const CompareOptions ValidCompareMaskOffFlags = -536870944;
 	private const CompareOptions ValidHashCodeOfStringMaskOffFlags = -32;
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	private string m_name; // 0x10
 	private string m_sortName; // 0x18
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	private int win32LCID; // 0x20
 	private int culture; // 0x24
 	private const int LINGUISTIC_IGNORECASE = 16;
@@ -22,7 +22,7 @@ public class CompareInfo : IDeserializationCallback // TypeDefIndex: 690
 	private const int RESERVED_FIND_ASCII_STRING = 536870912;
 	private const int SORT_VERSION_WHIDBEY = 4096;
 	private const int SORT_VERSION_V4 = 393473;
-	[OptionalFieldAttribute] // RVA: 0xA9B30 Offset: 0xA8F30 VA: 0x1800A9B30
+	[OptionalFieldAttribute] // RVA: 0xA9AF0 Offset: 0xA8EF0 VA: 0x1800A9AF0
 	private SortVersion m_SortVersion; // 0x28
 	private SimpleCollator collator; // 0x30
 	private static Dictionary<string, SimpleCollator> collators; // 0x0
@@ -30,7 +30,7 @@ public class CompareInfo : IDeserializationCallback // TypeDefIndex: 690
 	private static bool managedCollationChecked; // 0x9
 
 	// Properties
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public virtual string Name { get; }
 	private static bool UseManagedCollation { get; }
 
@@ -42,18 +42,18 @@ public class CompareInfo : IDeserializationCallback // TypeDefIndex: 690
 	// RVA: 0x16D6F80 Offset: 0x16D5580 VA: 0x1816D6F80
 	public static CompareInfo GetCompareInfo(string name) { }
 
-	[OnDeserializingAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnDeserializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE36CA0 Offset: 0xE352A0 VA: 0x180E36CA0
 	private void OnDeserializing(StreamingContext ctx) { }
 
 	// RVA: 0x16D7C80 Offset: 0x16D6280 VA: 0x1816D7C80
 	private void OnDeserialized() { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x16D7D50 Offset: 0x16D6350 VA: 0x1816D7D50
 	private void OnDeserialized(StreamingContext ctx) { }
 
-	[OnSerializingAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x16D7D60 Offset: 0x16D6360 VA: 0x1816D7D60
 	private void OnSerializing(StreamingContext ctx) { }
 

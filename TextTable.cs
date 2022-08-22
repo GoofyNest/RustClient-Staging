@@ -9,31 +9,31 @@ public class TextTable // TypeDefIndex: 6596
 
 	// Methods
 
-	// RVA: 0x1BAD740 Offset: 0x1BABD40 VA: 0x181BAD740
+	// RVA: 0x1BAD580 Offset: 0x1BABB80 VA: 0x181BAD580
 	public void Clear() { }
 
-	// RVA: 0x1BAD420 Offset: 0x1BABA20 VA: 0x181BAD420
+	// RVA: 0x1BAD260 Offset: 0x1BAB860 VA: 0x181BAD260
 	public void AddColumns(string[] values) { }
 
-	// RVA: 0x1BAD360 Offset: 0x1BAB960 VA: 0x181BAD360
+	// RVA: 0x1BAD1A0 Offset: 0x1BAB7A0 VA: 0x181BAD1A0
 	public void AddColumn(string title) { }
 
-	// RVA: 0x1BAD530 Offset: 0x1BABB30 VA: 0x181BAD530
+	// RVA: 0x1BAD370 Offset: 0x1BAB970 VA: 0x181BAD370
 	public void AddRow(string[] values) { }
 
-	// RVA: 0x1BAD800 Offset: 0x1BABE00 VA: 0x181BAD800
+	// RVA: 0x1BAD640 Offset: 0x1BABC40 VA: 0x181BAD640
 	public string ToJson() { }
 
-	// RVA: 0x1BADD70 Offset: 0x1BAC370 VA: 0x181BADD70 Slot: 3
+	// RVA: 0x1BADBB0 Offset: 0x1BAC1B0 VA: 0x181BADBB0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1BAD7C0 Offset: 0x1BABDC0 VA: 0x181BAD7C0
+	// RVA: 0x1BAD600 Offset: 0x1BABC00 VA: 0x181BAD600
 	private void MarkDirty() { }
 
-	// RVA: 0x1BAE0E0 Offset: 0x1BAC6E0 VA: 0x181BAE0E0
+	// RVA: 0x1BADF20 Offset: 0x1BAC520 VA: 0x181BADF20
 	public void .ctor() { }
 
-	// RVA: 0x1BAE080 Offset: 0x1BAC680 VA: 0x181BAE080
+	// RVA: 0x1BADEC0 Offset: 0x1BAC4C0 VA: 0x181BADEC0
 	private static void .cctor() { }
 
 }
@@ -56,7 +56,7 @@ private class TextTable.Column // TypeDefIndex: 6598
 
 	// Methods
 
-	// RVA: 0x1BA2270 Offset: 0x1BA0870 VA: 0x181BA2270
+	// RVA: 0x1BA20B0 Offset: 0x1BA06B0 VA: 0x181BA20B0
 	public void .ctor(string title) { }
 
 }

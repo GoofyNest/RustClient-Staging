@@ -34,8 +34,8 @@ public interface IConfigurationSectionHandler // TypeDefIndex: 3166
 public sealed class BypassElement : ConfigurationElement // TypeDefIndex: 3167
 
 // Namespace: System.Net.Configuration
-[DefaultMemberAttribute] // RVA: 0xC0DD0 Offset: 0xC01D0 VA: 0x1800C0DD0
-[ConfigurationCollectionAttribute] // RVA: 0xC0DD0 Offset: 0xC01D0 VA: 0x1800C0DD0
+[DefaultMemberAttribute] // RVA: 0xC0D90 Offset: 0xC0190 VA: 0x1800C0D90
+[ConfigurationCollectionAttribute] // RVA: 0xC0D90 Offset: 0xC0190 VA: 0x1800C0D90
 public sealed class BypassElementCollection : ConfigurationElementCollection // TypeDefIndex: 3168
 	// Methods
 

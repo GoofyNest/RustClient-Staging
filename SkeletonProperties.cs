@@ -1,7 +1,7 @@
 public class SkeletonProperties : ScriptableObject // TypeDefIndex: 9982
 {	// Fields
 	public GameObject boneReference; // 0x18
-	[BonePropertyAttribute] // RVA: 0x70AC0 Offset: 0x6FEC0 VA: 0x180070AC0
+	[BonePropertyAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
 	public SkeletonProperties.BoneProperty[] bones; // 0x20
 	private Dictionary<uint, SkeletonProperties.BoneProperty> quickLookup; // 0x28
 

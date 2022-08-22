@@ -9,9 +9,9 @@ public enum EntityHandling // TypeDefIndex: 1838
 public class EntityTagHeaderValue : ICloneable // TypeDefIndex: 5765
 {	// Fields
 	private static readonly EntityTagHeaderValue any; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IsWeak>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Tag>k__BackingField; // 0x18
 
 	// Properties
@@ -23,19 +23,19 @@ public class EntityTagHeaderValue : ICloneable // TypeDefIndex: 5765
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public bool get_IsWeak() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFC0 Offset: 0x4995C0 VA: 0x18049AFC0
 	internal void set_IsWeak(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public string get_Tag() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	internal void set_Tag(string value) { }
 
@@ -275,13 +275,13 @@ public class EntitySlots : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 62
 
 	// Methods
 
-	// RVA: 0x1D55BB0 Offset: 0x1D541B0 VA: 0x181D55BB0
+	// RVA: 0x1D559F0 Offset: 0x1D53FF0 VA: 0x181D559F0
 	public static void ResetToPool(EntitySlots instance) { }
 
-	// RVA: 0x1D55C70 Offset: 0x1D54270 VA: 0x181D55C70
+	// RVA: 0x1D55AB0 Offset: 0x1D540B0 VA: 0x181D55AB0
 	public void ResetToPool() { }
 
-	// RVA: 0x1D554A0 Offset: 0x1D53AA0 VA: 0x181D554A0 Slot: 9
+	// RVA: 0x1D552E0 Offset: 0x1D538E0 VA: 0x181D552E0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -290,64 +290,64 @@ public class EntitySlots : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 62
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFB230 Offset: 0x1BF9830 VA: 0x181BFB230
+	// RVA: 0x1BFB070 Offset: 0x1BF9670 VA: 0x181BFB070
 	public void CopyTo(EntitySlots instance) { }
 
-	// RVA: 0x1D53D10 Offset: 0x1D52310 VA: 0x181D53D10
+	// RVA: 0x1D53B50 Offset: 0x1D52150 VA: 0x181D53B50
 	public EntitySlots Copy() { }
 
-	// RVA: 0x1D54840 Offset: 0x1D52E40 VA: 0x181D54840
+	// RVA: 0x1D54680 Offset: 0x1D52C80 VA: 0x181D54680
 	public static EntitySlots Deserialize(Stream stream) { }
 
-	// RVA: 0x1D54100 Offset: 0x1D52700 VA: 0x181D54100
+	// RVA: 0x1D53F40 Offset: 0x1D52540 VA: 0x181D53F40
 	public static EntitySlots DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1D544C0 Offset: 0x1D52AC0 VA: 0x181D544C0
+	// RVA: 0x1D54300 Offset: 0x1D52900 VA: 0x181D54300
 	public static EntitySlots DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1D54DA0 Offset: 0x1D533A0 VA: 0x181D54DA0
+	// RVA: 0x1D54BE0 Offset: 0x1D531E0 VA: 0x181D54BE0
 	public static EntitySlots Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1D555E0 Offset: 0x1D53BE0 VA: 0x181D555E0
+	// RVA: 0x1D55420 Offset: 0x1D53A20 VA: 0x181D55420
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1D56350 Offset: 0x1D54950 VA: 0x181D56350 Slot: 12
+	// RVA: 0x1D56190 Offset: 0x1D54790 VA: 0x181D56190 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1D56370 Offset: 0x1D54970 VA: 0x181D56370 Slot: 13
+	// RVA: 0x1D561B0 Offset: 0x1D547B0 VA: 0x181D561B0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, EntitySlots previous) { }
 
-	// RVA: 0x1D55870 Offset: 0x1D53E70 VA: 0x181D55870 Slot: 14
+	// RVA: 0x1D556B0 Offset: 0x1D53CB0 VA: 0x181D556B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1D55130 Offset: 0x1D53730 VA: 0x181D55130
+	// RVA: 0x1D54F70 Offset: 0x1D53570 VA: 0x181D54F70
 	public static EntitySlots Deserialize(byte[] buffer, EntitySlots instance, bool isDelta = False) { }
 
-	// RVA: 0x1D54B10 Offset: 0x1D53110 VA: 0x181D54B10
+	// RVA: 0x1D54950 Offset: 0x1D52F50 VA: 0x181D54950
 	public static EntitySlots Deserialize(Stream stream, EntitySlots instance, bool isDelta) { }
 
-	// RVA: 0x1D53DA0 Offset: 0x1D523A0 VA: 0x181D53DA0
+	// RVA: 0x1D53BE0 Offset: 0x1D521E0 VA: 0x181D53BE0
 	public static EntitySlots DeserializeLengthDelimited(Stream stream, EntitySlots instance, bool isDelta) { }
 
-	// RVA: 0x1D54180 Offset: 0x1D52780 VA: 0x181D54180
+	// RVA: 0x1D53FC0 Offset: 0x1D525C0 VA: 0x181D53FC0
 	public static EntitySlots DeserializeLength(Stream stream, int length, EntitySlots instance, bool isDelta) { }
 
-	// RVA: 0x1D55D30 Offset: 0x1D54330 VA: 0x181D55D30
+	// RVA: 0x1D55B70 Offset: 0x1D54170 VA: 0x181D55B70
 	public static void SerializeDelta(Stream stream, EntitySlots instance, EntitySlots previous) { }
 
-	// RVA: 0x1D561B0 Offset: 0x1D547B0 VA: 0x181D561B0
+	// RVA: 0x1D55FF0 Offset: 0x1D545F0 VA: 0x181D55FF0
 	public static void Serialize(Stream stream, EntitySlots instance) { }
 
-	// RVA: 0x1D56340 Offset: 0x1D54940 VA: 0x181D56340
+	// RVA: 0x1D56180 Offset: 0x1D54780 VA: 0x181D56180
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1D56350 Offset: 0x1D54950 VA: 0x181D56350
+	// RVA: 0x1D56190 Offset: 0x1D54790 VA: 0x181D56190
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1D560A0 Offset: 0x1D546A0 VA: 0x181D560A0
+	// RVA: 0x1D55EE0 Offset: 0x1D544E0 VA: 0x181D55EE0
 	public static byte[] SerializeToBytes(EntitySlots instance) { }
 
-	// RVA: 0x1D55FF0 Offset: 0x1D545F0 VA: 0x181D55FF0
+	// RVA: 0x1D55E30 Offset: 0x1D54430 VA: 0x181D55E30
 	public static void SerializeLengthDelimited(Stream stream, EntitySlots instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -363,13 +363,13 @@ public class EntityList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 648
 
 	// Methods
 
-	// RVA: 0x1D53590 Offset: 0x1D51B90 VA: 0x181D53590
+	// RVA: 0x1D533D0 Offset: 0x1D519D0 VA: 0x181D533D0
 	public static void ResetToPool(EntityList instance) { }
 
-	// RVA: 0x1D533E0 Offset: 0x1D519E0 VA: 0x181D533E0
+	// RVA: 0x1D53220 Offset: 0x1D51820 VA: 0x181D53220
 	public void ResetToPool() { }
 
-	// RVA: 0x1D53160 Offset: 0x1D51760 VA: 0x181D53160 Slot: 9
+	// RVA: 0x1D52FA0 Offset: 0x1D515A0 VA: 0x181D52FA0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -378,64 +378,64 @@ public class EntityList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 648
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D524C0 Offset: 0x1D50AC0 VA: 0x181D524C0
+	// RVA: 0x1D52300 Offset: 0x1D50900 VA: 0x181D52300
 	public void CopyTo(EntityList instance) { }
 
-	// RVA: 0x1D525F0 Offset: 0x1D50BF0 VA: 0x181D525F0
+	// RVA: 0x1D52430 Offset: 0x1D50A30 VA: 0x181D52430
 	public EntityList Copy() { }
 
-	// RVA: 0x1D52FC0 Offset: 0x1D515C0 VA: 0x181D52FC0
+	// RVA: 0x1D52E00 Offset: 0x1D51400 VA: 0x181D52E00
 	public static EntityList Deserialize(Stream stream) { }
 
-	// RVA: 0x1D529D0 Offset: 0x1D50FD0 VA: 0x181D529D0
+	// RVA: 0x1D52810 Offset: 0x1D50E10 VA: 0x181D52810
 	public static EntityList DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1D52CA0 Offset: 0x1D512A0 VA: 0x181D52CA0
+	// RVA: 0x1D52AE0 Offset: 0x1D510E0 VA: 0x181D52AE0
 	public static EntityList DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1D53040 Offset: 0x1D51640 VA: 0x181D53040
+	// RVA: 0x1D52E80 Offset: 0x1D51480 VA: 0x181D52E80
 	public static EntityList Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1D533A0 Offset: 0x1D519A0 VA: 0x181D533A0
+	// RVA: 0x1D531E0 Offset: 0x1D517E0 VA: 0x181D531E0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1D53CD0 Offset: 0x1D522D0 VA: 0x181D53CD0 Slot: 12
+	// RVA: 0x1D53B10 Offset: 0x1D52110 VA: 0x181D53B10 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1D53CF0 Offset: 0x1D522F0 VA: 0x181D53CF0 Slot: 13
+	// RVA: 0x1D53B30 Offset: 0x1D52130 VA: 0x181D53B30 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, EntityList previous) { }
 
-	// RVA: 0x1D533C0 Offset: 0x1D519C0 VA: 0x181D533C0 Slot: 14
+	// RVA: 0x1D53200 Offset: 0x1D51800 VA: 0x181D53200 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1D52D30 Offset: 0x1D51330 VA: 0x181D52D30
+	// RVA: 0x1D52B70 Offset: 0x1D51170 VA: 0x181D52B70
 	public static EntityList Deserialize(byte[] buffer, EntityList instance, bool isDelta = False) { }
 
-	// RVA: 0x1D52E30 Offset: 0x1D51430 VA: 0x181D52E30
+	// RVA: 0x1D52C70 Offset: 0x1D51270 VA: 0x181D52C70
 	public static EntityList Deserialize(Stream stream, EntityList instance, bool isDelta) { }
 
-	// RVA: 0x1D52760 Offset: 0x1D50D60 VA: 0x181D52760
+	// RVA: 0x1D525A0 Offset: 0x1D50BA0 VA: 0x181D525A0
 	public static EntityList DeserializeLengthDelimited(Stream stream, EntityList instance, bool isDelta) { }
 
-	// RVA: 0x1D52A50 Offset: 0x1D51050 VA: 0x181D52A50
+	// RVA: 0x1D52890 Offset: 0x1D50E90 VA: 0x181D52890
 	public static EntityList DeserializeLength(Stream stream, int length, EntityList instance, bool isDelta) { }
 
-	// RVA: 0x1D53740 Offset: 0x1D51D40 VA: 0x181D53740
+	// RVA: 0x1D53580 Offset: 0x1D51B80 VA: 0x181D53580
 	public static void SerializeDelta(Stream stream, EntityList instance, EntityList previous) { }
 
-	// RVA: 0x1D53AE0 Offset: 0x1D520E0 VA: 0x181D53AE0
+	// RVA: 0x1D53920 Offset: 0x1D51F20 VA: 0x181D53920
 	public static void Serialize(Stream stream, EntityList instance) { }
 
-	// RVA: 0x1D53CC0 Offset: 0x1D522C0 VA: 0x181D53CC0
+	// RVA: 0x1D53B00 Offset: 0x1D52100 VA: 0x181D53B00
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1D53CD0 Offset: 0x1D522D0 VA: 0x181D53CD0
+	// RVA: 0x1D53B10 Offset: 0x1D52110 VA: 0x181D53B10
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1D539D0 Offset: 0x1D51FD0 VA: 0x181D539D0
+	// RVA: 0x1D53810 Offset: 0x1D51E10 VA: 0x181D53810
 	public static byte[] SerializeToBytes(EntityList instance) { }
 
-	// RVA: 0x1D53920 Offset: 0x1D51F20 VA: 0x181D53920
+	// RVA: 0x1D53760 Offset: 0x1D51D60 VA: 0x181D53760
 	public static void SerializeLengthDelimited(Stream stream, EntityList instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -451,13 +451,13 @@ public class EntityIdList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 	// Methods
 
-	// RVA: 0x1D51E10 Offset: 0x1D50410 VA: 0x181D51E10
+	// RVA: 0x1D51C50 Offset: 0x1D50250 VA: 0x181D51C50
 	public static void ResetToPool(EntityIdList instance) { }
 
-	// RVA: 0x1D51D30 Offset: 0x1D50330 VA: 0x181D51D30
+	// RVA: 0x1D51B70 Offset: 0x1D50170 VA: 0x181D51B70
 	public void ResetToPool() { }
 
-	// RVA: 0x1D51BA0 Offset: 0x1D501A0 VA: 0x181D51BA0 Slot: 9
+	// RVA: 0x1D519E0 Offset: 0x1D4FFE0 VA: 0x181D519E0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -466,64 +466,64 @@ public class EntityIdList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D50EB0 Offset: 0x1D4F4B0 VA: 0x181D50EB0
+	// RVA: 0x1D50CF0 Offset: 0x1D4F2F0 VA: 0x181D50CF0
 	public void CopyTo(EntityIdList instance) { }
 
-	// RVA: 0x1D50FD0 Offset: 0x1D4F5D0 VA: 0x181D50FD0
+	// RVA: 0x1D50E10 Offset: 0x1D4F410 VA: 0x181D50E10
 	public EntityIdList Copy() { }
 
-	// RVA: 0x1D51B20 Offset: 0x1D50120 VA: 0x181D51B20
+	// RVA: 0x1D51960 Offset: 0x1D4FF60 VA: 0x181D51960
 	public static EntityIdList Deserialize(Stream stream) { }
 
-	// RVA: 0x1D513C0 Offset: 0x1D4F9C0 VA: 0x181D513C0
+	// RVA: 0x1D51200 Offset: 0x1D4F800 VA: 0x181D51200
 	public static EntityIdList DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1D51440 Offset: 0x1D4FA40 VA: 0x181D51440
+	// RVA: 0x1D51280 Offset: 0x1D4F880 VA: 0x181D51280
 	public static EntityIdList DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1D51740 Offset: 0x1D4FD40 VA: 0x181D51740
+	// RVA: 0x1D51580 Offset: 0x1D4FB80 VA: 0x181D51580
 	public static EntityIdList Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1D51CF0 Offset: 0x1D502F0 VA: 0x181D51CF0
+	// RVA: 0x1D51B30 Offset: 0x1D50130 VA: 0x181D51B30
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1D52340 Offset: 0x1D50940 VA: 0x181D52340 Slot: 12
+	// RVA: 0x1D52180 Offset: 0x1D50780 VA: 0x181D52180 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1D52360 Offset: 0x1D50960 VA: 0x181D52360 Slot: 13
+	// RVA: 0x1D521A0 Offset: 0x1D507A0 VA: 0x181D521A0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, EntityIdList previous) { }
 
-	// RVA: 0x1D51D10 Offset: 0x1D50310 VA: 0x181D51D10 Slot: 14
+	// RVA: 0x1D51B50 Offset: 0x1D50150 VA: 0x181D51B50 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1D51A20 Offset: 0x1D50020 VA: 0x181D51A20
+	// RVA: 0x1D51860 Offset: 0x1D4FE60 VA: 0x181D51860
 	public static EntityIdList Deserialize(byte[] buffer, EntityIdList instance, bool isDelta = False) { }
 
-	// RVA: 0x1D51860 Offset: 0x1D4FE60 VA: 0x181D51860
+	// RVA: 0x1D516A0 Offset: 0x1D4FCA0 VA: 0x181D516A0
 	public static EntityIdList Deserialize(Stream stream, EntityIdList instance, bool isDelta) { }
 
-	// RVA: 0x1D51130 Offset: 0x1D4F730 VA: 0x181D51130
+	// RVA: 0x1D50F70 Offset: 0x1D4F570 VA: 0x181D50F70
 	public static EntityIdList DeserializeLengthDelimited(Stream stream, EntityIdList instance, bool isDelta) { }
 
-	// RVA: 0x1D514D0 Offset: 0x1D4FAD0 VA: 0x181D514D0
+	// RVA: 0x1D51310 Offset: 0x1D4F910 VA: 0x181D51310
 	public static EntityIdList DeserializeLength(Stream stream, int length, EntityIdList instance, bool isDelta) { }
 
-	// RVA: 0x1D51EF0 Offset: 0x1D504F0 VA: 0x181D51EF0
+	// RVA: 0x1D51D30 Offset: 0x1D50330 VA: 0x181D51D30
 	public static void SerializeDelta(Stream stream, EntityIdList instance, EntityIdList previous) { }
 
-	// RVA: 0x1D521F0 Offset: 0x1D507F0 VA: 0x181D521F0
+	// RVA: 0x1D52030 Offset: 0x1D50630 VA: 0x181D52030
 	public static void Serialize(Stream stream, EntityIdList instance) { }
 
-	// RVA: 0x1D52330 Offset: 0x1D50930 VA: 0x181D52330
+	// RVA: 0x1D52170 Offset: 0x1D50770 VA: 0x181D52170
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1D52340 Offset: 0x1D50940 VA: 0x181D52340
+	// RVA: 0x1D52180 Offset: 0x1D50780 VA: 0x181D52180
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1D520E0 Offset: 0x1D506E0 VA: 0x181D520E0
+	// RVA: 0x1D51F20 Offset: 0x1D50520 VA: 0x181D51F20
 	public static byte[] SerializeToBytes(EntityIdList instance) { }
 
-	// RVA: 0x1D52030 Offset: 0x1D50630 VA: 0x181D52030
+	// RVA: 0x1D51E70 Offset: 0x1D50470 VA: 0x181D51E70
 	public static void SerializeLengthDelimited(Stream stream, EntityIdList instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -537,25 +537,25 @@ public static class Entity // TypeDefIndex: 6628
 
 	// Methods
 
-	// RVA: 0x1BA2C50 Offset: 0x1BA1250 VA: 0x181BA2C50
+	// RVA: 0x1BA2A90 Offset: 0x1BA1090 VA: 0x181BA2A90
 	public static void Register(Transform t, IEntity entity) { }
 
-	// RVA: 0x1BA2BC0 Offset: 0x1BA11C0 VA: 0x181BA2BC0
+	// RVA: 0x1BA2A00 Offset: 0x1BA1000 VA: 0x181BA2A00
 	public static IEntity Get(Transform t) { }
 
-	// RVA: 0x1BA2E90 Offset: 0x1BA1490 VA: 0x181BA2E90
+	// RVA: 0x1BA2CD0 Offset: 0x1BA12D0 VA: 0x181BA2CD0
 	public static void Unregister(Transform t) { }
 
-	// RVA: 0x1BA2CE0 Offset: 0x1BA12E0 VA: 0x181BA2CE0
+	// RVA: 0x1BA2B20 Offset: 0x1BA1120 VA: 0x181BA2B20
 	public static void Register(GameObject obj, IEntity entity) { }
 
-	// RVA: 0x1BA2AD0 Offset: 0x1BA10D0 VA: 0x181BA2AD0
+	// RVA: 0x1BA2910 Offset: 0x1BA0F10 VA: 0x181BA2910
 	public static IEntity Get(GameObject obj) { }
 
-	// RVA: 0x1BA2DC0 Offset: 0x1BA13C0 VA: 0x181BA2DC0
+	// RVA: 0x1BA2C00 Offset: 0x1BA1200 VA: 0x181BA2C00
 	public static void Unregister(GameObject obj) { }
 
-	// RVA: 0x1BA2F10 Offset: 0x1BA1510 VA: 0x181BA2F10
+	// RVA: 0x1BA2D50 Offset: 0x1BA1350 VA: 0x181BA2D50
 	private static void .cctor() { }
 
 }
@@ -731,9 +731,9 @@ public class EntityFlag_Toggle : EntityComponent<BaseEntity>, IOnPostNetworkUpda
 	public bool runClientside; // 0x20
 	public bool runServerside; // 0x21
 	public BaseEntity.Flags flag; // 0x24
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private UnityEvent onFlagEnabled; // 0x28
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private UnityEvent onFlagDisabled; // 0x30
 	internal bool hasRunOnce; // 0x38
 	internal bool lastHasFlag; // 0x39
@@ -803,7 +803,7 @@ public class EntityItem_RotateWhenOn : EntityComponent<BaseEntity>, IOnPostNetwo
 	// RVA: 0x8C4C30 Offset: 0x8C3230 VA: 0x1808C4C30
 	public void DoClose() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x756A0 Offset: 0x74AA0 VA: 0x1800756A0
+	[IteratorStateMachineAttribute] // RVA: 0x757A0 Offset: 0x74BA0 VA: 0x1800757A0
 	// RVA: 0x8C5350 Offset: 0x8C3950 VA: 0x1808C5350
 	private IEnumerator RotateTo(EntityItem_RotateWhenOn.State state) { }
 
@@ -849,26 +849,26 @@ private sealed class EntityItem_RotateWhenOn.<RotateTo>d__12 : IEnumerator<objec
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x8D8F50 Offset: 0x8D7550 VA: 0x1808D8F50 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D96B0 Offset: 0x8D7CB0 VA: 0x1808D96B0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
@@ -964,15 +964,15 @@ public class EntityLink : Pool.IPooled // TypeDefIndex: 9534
 public static class EntityLinkEx // TypeDefIndex: 9535
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8C55E0 Offset: 0x8C3BE0 VA: 0x1808C55E0
 	public static void FreeLinks(List<EntityLink> links) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8C5550 Offset: 0x8C3B50 VA: 0x1808C5550
 	public static void ClearLinks(List<EntityLink> links) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8C5420 Offset: 0x8C3A20 VA: 0x1808C5420
 	public static void AddLinks(List<EntityLink> links, BaseEntity entity, Socket_Base[] sockets) { }
 
@@ -988,22 +988,22 @@ public struct EntityRef // TypeDefIndex: 9536
 
 	// Methods
 
-	// RVA: 0xF9EA0 Offset: 0xF92A0 VA: 0x1800F9EA0
+	// RVA: 0xF9E20 Offset: 0xF9220 VA: 0x1800F9E20
 	public bool IsSet() { }
 
-	// RVA: 0xF9EB0 Offset: 0xF92B0 VA: 0x1800F9EB0
+	// RVA: 0xF9E30 Offset: 0xF9230 VA: 0x1800F9E30
 	public bool IsValid(bool serverside) { }
 
-	// RVA: 0xF9ED0 Offset: 0xF92D0 VA: 0x1800F9ED0
+	// RVA: 0xF9E50 Offset: 0xF9250 VA: 0x1800F9E50
 	public void Set(BaseEntity ent) { }
 
-	// RVA: 0xF9E90 Offset: 0xF9290 VA: 0x1800F9E90
+	// RVA: 0xF9E10 Offset: 0xF9210 VA: 0x1800F9E10
 	public BaseEntity Get(bool serverside) { }
 
-	// RVA: 0xF9F20 Offset: 0xF9320 VA: 0x1800F9F20
+	// RVA: 0xF9EA0 Offset: 0xF92A0 VA: 0x1800F9EA0
 	public uint get_uid() { }
 
-	// RVA: 0xF9F60 Offset: 0xF9360 VA: 0x1800F9F60
+	// RVA: 0xF9EE0 Offset: 0xF92E0 VA: 0x1800F9EE0
 	public void set_uid(uint value) { }
 
 }
@@ -1022,7 +1022,7 @@ public struct EntityRef<T> // TypeDefIndex: 9537
 	public void .ctor(uint uid) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F4F20 Offset: 0x1F4320 VA: 0x1801F4F20
+	|-RVA: 0x1F4EA0 Offset: 0x1F42A0 VA: 0x1801F4EA0
 	|-EntityRef<LootContainer>..ctor
 	|-EntityRef<Marketplace>..ctor
 	|-EntityRef<object>..ctor
@@ -1033,7 +1033,7 @@ public struct EntityRef<T> // TypeDefIndex: 9537
 	public bool get_IsSet() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F4F60 Offset: 0x1F4360 VA: 0x1801F4F60
+	|-RVA: 0x1F4EE0 Offset: 0x1F42E0 VA: 0x1801F4EE0
 	|-EntityRef<FishingBobber>.get_IsSet
 	|-EntityRef<IOEntity>.get_IsSet
 	|-EntityRef<object>.get_IsSet
@@ -1043,7 +1043,7 @@ public struct EntityRef<T> // TypeDefIndex: 9537
 	public bool IsValid(bool serverside) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F4E30 Offset: 0x1F4230 VA: 0x1801F4E30
+	|-RVA: 0x1F4DB0 Offset: 0x1F41B0 VA: 0x1801F4DB0
 	|-EntityRef<BaseEntity>.IsValid
 	|-EntityRef<FishingBobber>.IsValid
 	|-EntityRef<StorageContainer>.IsValid
@@ -1056,7 +1056,7 @@ public struct EntityRef<T> // TypeDefIndex: 9537
 	public void Set(T entity) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F4E90 Offset: 0x1F4290 VA: 0x1801F4E90
+	|-RVA: 0x1F4E10 Offset: 0x1F4210 VA: 0x1801F4E10
 	|-EntityRef<BaseEntity>.Set
 	|-EntityRef<BasePlayer>.Set
 	|-EntityRef<FishingBobber>.Set
@@ -1069,7 +1069,7 @@ public struct EntityRef<T> // TypeDefIndex: 9537
 	public T Get(bool serverside) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F4E20 Offset: 0x1F4220 VA: 0x1801F4E20
+	|-RVA: 0x1F4DA0 Offset: 0x1F41A0 VA: 0x1801F4DA0
 	|-EntityRef<BaseEntity>.Get
 	|-EntityRef<BasePlayer>.Get
 	|-EntityRef<BaseVehicleSeat>.Get
@@ -1089,7 +1089,7 @@ public struct EntityRef<T> // TypeDefIndex: 9537
 	public bool TryGet(bool serverside, out T entity) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F4EA0 Offset: 0x1F42A0 VA: 0x1801F4EA0
+	|-RVA: 0x1F4E20 Offset: 0x1F4220 VA: 0x1801F4E20
 	|-EntityRef<object>.TryGet
 	*/
 
@@ -1097,7 +1097,7 @@ public struct EntityRef<T> // TypeDefIndex: 9537
 	public uint get_uid() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F4F70 Offset: 0x1F4370 VA: 0x1801F4F70
+	|-RVA: 0x1F4EF0 Offset: 0x1F42F0 VA: 0x1801F4EF0
 	|-EntityRef<object>.get_uid
 	|-EntityRef<TrainCar>.get_uid
 	*/
@@ -1106,7 +1106,7 @@ public struct EntityRef<T> // TypeDefIndex: 9537
 	public void set_uid(uint value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F4F80 Offset: 0x1F4380 VA: 0x1801F4F80
+	|-RVA: 0x1F4F00 Offset: 0x1F4300 VA: 0x1801F4F00
 	|-EntityRef<BaseEntity>.set_uid
 	|-EntityRef<BaseOven>.set_uid
 	|-EntityRef<BasePlayer>.set_uid
@@ -1141,72 +1141,72 @@ public class EntityHUDRender : MonoBehaviour // TypeDefIndex: 10922
 public class Entity : ConsoleSystem // TypeDefIndex: 11912
 {	// Methods
 
-	[ClientVar] // RVA: 0x85D70 Offset: 0x85170 VA: 0x180085D70
+	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
 	// RVA: 0x6DE7D0 Offset: 0x6DCDD0 VA: 0x1806DE7D0
 	public static void debug_lookat(ConsoleSystem.Arg args) { }
 
 	// RVA: 0x6DCC30 Offset: 0x6DB230 VA: 0x1806DCC30
 	private static TextTable GetEntityTable(Func<Entity.EntityInfo, bool> filter) { }
 
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	// RVA: 0x6DEAE0 Offset: 0x6DD0E0 VA: 0x1806DEAE0
 	public static void find_entity(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	// RVA: 0x6DEF10 Offset: 0x6DD510 VA: 0x1806DEF10
 	public static void find_id(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	// RVA: 0x6DED00 Offset: 0x6DD300 VA: 0x1806DED00
 	public static void find_group(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	// RVA: 0x6DF120 Offset: 0x6DD720 VA: 0x1806DF120
 	public static void find_parent(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	// RVA: 0x6DF820 Offset: 0x6DDE20 VA: 0x1806DF820
 	public static void find_status(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	// RVA: 0x6DF330 Offset: 0x6DD930 VA: 0x1806DF330
 	public static void find_radius(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	// RVA: 0x6DF5B0 Offset: 0x6DDBB0 VA: 0x1806DF5B0
 	public static void find_self(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x99050 Offset: 0x98450 VA: 0x180099050
+	[ClientVar] // RVA: 0x99190 Offset: 0x98590 VA: 0x180099190
 	// RVA: 0x6DDE90 Offset: 0x6DC490 VA: 0x1806DDE90
 	public static void clspawn(string name) { }
 
-	[ClientVar] // RVA: 0x992B0 Offset: 0x986B0 VA: 0x1800992B0
+	[ClientVar] // RVA: 0x993D0 Offset: 0x987D0 VA: 0x1800993D0
 	// RVA: 0x6DE0C0 Offset: 0x6DC6C0 VA: 0x1806DE0C0
 	public static void clspawnat(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x99470 Offset: 0x98870 VA: 0x180099470
+	[ClientVar] // RVA: 0x996C0 Offset: 0x98AC0 VA: 0x1800996C0
 	// RVA: 0x6DE310 Offset: 0x6DC910 VA: 0x1806DE310
 	public static void clspawnhere(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x996E0 Offset: 0x98AE0 VA: 0x1800996E0
+	[ClientVar] // RVA: 0x99880 Offset: 0x98C80 VA: 0x180099880
 	// RVA: 0x6DE6B0 Offset: 0x6DCCB0 VA: 0x1806DE6B0
 	public static void clspawnitem(string name) { }
 
-	[ClientVar] // RVA: 0x99A70 Offset: 0x98E70 VA: 0x180099A70
+	[ClientVar] // RVA: 0x99C00 Offset: 0x99000 VA: 0x180099C00
 	// RVA: 0x6DD890 Offset: 0x6DBE90 VA: 0x1806DD890
 	public static void UploadSign(ConsoleSystem.Arg arg) { }
 
 	// RVA: 0x6DD4F0 Offset: 0x6DBAF0 VA: 0x1806DD4F0
 	private static bool IsLookingAtSign(ConsoleSystem.Arg arg, out ISignage signage) { }
 
-	[ClientVar] // RVA: 0x99C30 Offset: 0x99030 VA: 0x180099C30
+	[ClientVar] // RVA: 0x99DF0 Offset: 0x991F0 VA: 0x180099DF0
 	// RVA: 0x6DC8E0 Offset: 0x6DAEE0 VA: 0x1806DC8E0
 	public static void DownloadSign(ConsoleSystem.Arg arg) { }
 
@@ -1225,7 +1225,7 @@ private struct Entity.EntityInfo // TypeDefIndex: 11913
 
 	// Methods
 
-	// RVA: 0xF40D0 Offset: 0xF34D0 VA: 0x1800F40D0
+	// RVA: 0xF4050 Offset: 0xF3450 VA: 0x1800F4050
 	public void .ctor(BaseNetworkable src) { }
 
 }

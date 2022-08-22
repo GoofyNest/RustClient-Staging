@@ -41,11 +41,11 @@ public class StaticInstrument : BaseMountable // TypeDefIndex: 8652
 	// RVA: 0xA8D180 Offset: 0xA8B780 VA: 0x180A8D180 Slot: 27
 	public override void ResetState() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA8C190 Offset: 0xA8A790 VA: 0x180A8C190
 	private void Client_PlayNote(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA8C360 Offset: 0xA8A960 VA: 0x180A8C360
 	private void Client_StopNote(BaseEntity.RPCMessage msg) { }
 

@@ -63,19 +63,19 @@ public static class TMPro_EventManager // TypeDefIndex: 6851
 public static class TMPro_ExtensionMethods // TypeDefIndex: 6853
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x115ECC0 Offset: 0x115D2C0 VA: 0x18115ECC0
 	public static string ArrayToString(char[] chars) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x115EF90 Offset: 0x115D590 VA: 0x18115EF90
 	public static string IntToString(int[] unicodes) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x115F030 Offset: 0x115D630 VA: 0x18115F030
 	public static string IntToString(int[] unicodes, int start, int length) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static int FindInstanceID<T>(List<T> list, T target) { }
 	/* GenericInstMethod :
@@ -84,39 +84,39 @@ public static class TMPro_ExtensionMethods // TypeDefIndex: 6853
 	|-TMPro_ExtensionMethods.FindInstanceID<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x115EF50 Offset: 0x115D550 VA: 0x18115EF50
 	public static bool Compare(Color32 a, Color32 b) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x115EDA0 Offset: 0x115D3A0 VA: 0x18115EDA0
 	public static bool CompareRGB(Color32 a, Color32 b) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x115EE60 Offset: 0x115D460 VA: 0x18115EE60
 	public static bool Compare(Color a, Color b) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x115ED70 Offset: 0x115D370 VA: 0x18115ED70
 	public static bool CompareRGB(Color a, Color b) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x115F150 Offset: 0x115D750 VA: 0x18115F150
 	public static Color32 Multiply(Color32 c1, Color32 c2) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x115F150 Offset: 0x115D750 VA: 0x18115F150
 	public static Color32 Tint(Color32 c1, Color32 c2) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x115F240 Offset: 0x115D840 VA: 0x18115F240
 	public static Color32 Tint(Color32 c1, float tint) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x115EDD0 Offset: 0x115D3D0 VA: 0x18115EDD0
 	public static bool Compare(Vector3 v1, Vector3 v2, int accuracy) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x115EEA0 Offset: 0x115D4A0 VA: 0x18115EEA0
 	public static bool Compare(Quaternion q1, Quaternion q2, int accuracy) { }
 

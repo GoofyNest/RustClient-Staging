@@ -1,10 +1,10 @@
 public struct SubsurfaceProfileData // TypeDefIndex: 10662
 {	// Fields
-	[RangeAttribute] // RVA: 0xEF390 Offset: 0xEE790 VA: 0x1800EF390
+	[RangeAttribute] // RVA: 0xEF490 Offset: 0xEE890 VA: 0x1800EF490
 	public float ScatterRadius; // 0x0
-	[ColorUsageAttribute] // RVA: 0xEF610 Offset: 0xEEA10 VA: 0x1800EF610
+	[ColorUsageAttribute] // RVA: 0xEF6E0 Offset: 0xEEAE0 VA: 0x1800EF6E0
 	public Color SubsurfaceColor; // 0x4
-	[ColorUsageAttribute] // RVA: 0xEF610 Offset: 0xEEA10 VA: 0x1800EF610
+	[ColorUsageAttribute] // RVA: 0xEF6E0 Offset: 0xEEAE0 VA: 0x1800EF6E0
 	public Color FalloffColor; // 0x14
 
 	// Properties

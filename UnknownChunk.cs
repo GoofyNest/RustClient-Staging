@@ -1,6 +1,6 @@
 public sealed class UnknownChunk : MidiChunk // TypeDefIndex: 7512
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private byte[] <Data>k__BackingField; // 0x18
 
 	// Properties
@@ -11,7 +11,7 @@ public sealed class UnknownChunk : MidiChunk // TypeDefIndex: 7512
 	// RVA: 0x13AB500 Offset: 0x13A9B00 VA: 0x1813AB500
 	internal void .ctor(string id) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_Data(byte[] value) { }
 

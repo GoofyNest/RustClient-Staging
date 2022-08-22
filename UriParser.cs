@@ -61,61 +61,61 @@ public abstract class UriParser // TypeDefIndex: 2583
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 4
 	protected virtual UriParser OnNewUri() { }
 
-	// RVA: 0x22B9650 Offset: 0x22B7C50 VA: 0x1822B9650 Slot: 5
+	// RVA: 0x22B9490 Offset: 0x22B7A90 VA: 0x1822B9490 Slot: 5
 	protected virtual void InitializeAndValidate(Uri uri, out UriFormatException parsingError) { }
 
-	// RVA: 0x22B9880 Offset: 0x22B7E80 VA: 0x1822B9880 Slot: 6
+	// RVA: 0x22B96C0 Offset: 0x22B7CC0 VA: 0x1822B96C0 Slot: 6
 	protected virtual string Resolve(Uri baseUri, Uri relativeUri, out UriFormatException parsingError) { }
 
-	// RVA: 0x22B92F0 Offset: 0x22B78F0 VA: 0x1822B92F0 Slot: 7
+	// RVA: 0x22B9130 Offset: 0x22B7730 VA: 0x1822B9130 Slot: 7
 	protected virtual string GetComponents(Uri uri, UriComponents components, UriFormat format) { }
 
-	// RVA: 0x22B9800 Offset: 0x22B7E00 VA: 0x1822B9800 Slot: 8
+	// RVA: 0x22B9640 Offset: 0x22B7C40 VA: 0x1822B9640 Slot: 8
 	protected virtual bool IsWellFormedOriginalString(Uri uri) { }
 
-	// RVA: 0x22BA5B0 Offset: 0x22B8BB0 VA: 0x1822BA5B0
+	// RVA: 0x22BA3F0 Offset: 0x22B89F0 VA: 0x1822BA3F0
 	internal static bool get_ShouldUseLegacyV2Quirks() { }
 
-	// RVA: 0x22B9A80 Offset: 0x22B8080 VA: 0x1822B9A80
+	// RVA: 0x22B98C0 Offset: 0x22B7EC0 VA: 0x1822B98C0
 	private static void .cctor() { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	internal UriSyntaxFlags get_Flags() { }
 
-	// RVA: 0x22B9820 Offset: 0x22B7E20 VA: 0x1822B9820
+	// RVA: 0x22B9660 Offset: 0x22B7C60 VA: 0x1822B9660
 	internal bool NotAny(UriSyntaxFlags flags) { }
 
-	// RVA: 0x22B95F0 Offset: 0x22B7BF0 VA: 0x1822B95F0
+	// RVA: 0x22B9430 Offset: 0x22B7A30 VA: 0x1822B9430
 	internal bool InFact(UriSyntaxFlags flags) { }
 
-	// RVA: 0x22B9730 Offset: 0x22B7D30 VA: 0x1822B9730
+	// RVA: 0x22B9570 Offset: 0x22B7B70 VA: 0x1822B9570
 	internal bool IsAllSet(UriSyntaxFlags flags) { }
 
-	// RVA: 0x22B9790 Offset: 0x22B7D90 VA: 0x1822B9790
+	// RVA: 0x22B95D0 Offset: 0x22B7BD0 VA: 0x1822B95D0
 	private bool IsFullMatch(UriSyntaxFlags flags, UriSyntaxFlags expected) { }
 
-	// RVA: 0x22BA540 Offset: 0x22B8B40 VA: 0x1822BA540
+	// RVA: 0x22BA380 Offset: 0x22B8980 VA: 0x1822BA380
 	internal void .ctor(UriSyntaxFlags flags) { }
 
-	// RVA: 0x22B8FF0 Offset: 0x22B75F0 VA: 0x1822B8FF0
+	// RVA: 0x22B8E30 Offset: 0x22B7430 VA: 0x1822B8E30
 	internal static UriParser FindOrFetchAsUnknownV1Syntax(string lwrCaseScheme) { }
 
-	// RVA: 0x22B9510 Offset: 0x22B7B10 VA: 0x1822B9510
+	// RVA: 0x22B9350 Offset: 0x22B7950 VA: 0x1822B9350
 	internal static UriParser GetSyntax(string lwrCaseScheme) { }
 
-	// RVA: 0x22BA5A0 Offset: 0x22B8BA0 VA: 0x1822BA5A0
+	// RVA: 0x22BA3E0 Offset: 0x22B89E0 VA: 0x1822BA3E0
 	internal bool get_IsSimple() { }
 
-	// RVA: 0x22B96B0 Offset: 0x22B7CB0 VA: 0x1822B96B0
+	// RVA: 0x22B94F0 Offset: 0x22B7AF0 VA: 0x1822B94F0
 	internal UriParser InternalOnNewUri() { }
 
-	// RVA: 0x22B9710 Offset: 0x22B7D10 VA: 0x1822B9710
+	// RVA: 0x22B9550 Offset: 0x22B7B50 VA: 0x1822B9550
 	internal void InternalValidate(Uri thisUri, out UriFormatException parsingError) { }
 
 	// RVA: 0x139BE80 Offset: 0x139A480 VA: 0x18139BE80
 	internal string InternalResolve(Uri thisBaseUri, Uri uriLink, out UriFormatException parsingError) { }
 
-	// RVA: 0x22B9690 Offset: 0x22B7C90 VA: 0x1822B9690
+	// RVA: 0x22B94D0 Offset: 0x22B7AD0 VA: 0x1822B94D0
 	internal string InternalGetComponents(Uri thisUri, UriComponents uriComponents, UriFormat uriFormat) { }
 
 	// RVA: 0xE59160 Offset: 0xE57760 VA: 0x180E59160
@@ -134,7 +134,7 @@ private enum UriParser.UriQuirksVersion // TypeDefIndex: 2584
 private class UriParser.BuiltInUriParser : UriParser // TypeDefIndex: 2585
 {	// Methods
 
-	// RVA: 0x22B5F50 Offset: 0x22B4550 VA: 0x1822B5F50
+	// RVA: 0x22B5D90 Offset: 0x22B4390 VA: 0x1822B5D90
 	internal void .ctor(string lwrCaseScheme, int defaultPort, UriSyntaxFlags syntaxFlags) { }
 
 }

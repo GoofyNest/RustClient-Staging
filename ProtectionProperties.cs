@@ -1,10 +1,10 @@
 public class ProtectionProperties : ScriptableObject // TypeDefIndex: 10751
 {	// Fields
-	[TextAreaAttribute] // RVA: 0x72110 Offset: 0x71510 VA: 0x180072110
+	[TextAreaAttribute] // RVA: 0x721B0 Offset: 0x715B0 VA: 0x1800721B0
 	public string comments; // 0x18
-	[RangeAttribute] // RVA: 0x77D60 Offset: 0x77160 VA: 0x180077D60
+	[RangeAttribute] // RVA: 0x77EF0 Offset: 0x772F0 VA: 0x180077EF0
 	public float density; // 0x20
-	[ArrayIndexIsEnumRanged] // RVA: 0x77EE0 Offset: 0x772E0 VA: 0x180077EE0
+	[ArrayIndexIsEnumRanged] // RVA: 0x77FE0 Offset: 0x773E0 VA: 0x180077FE0
 	public float[] amounts; // 0x28
 
 	// Methods

@@ -16,25 +16,25 @@ public struct Keyframe // TypeDefIndex: 3351
 
 	// Methods
 
-	// RVA: 0x215B20 Offset: 0x214F20 VA: 0x180215B20
+	// RVA: 0x215AA0 Offset: 0x214EA0 VA: 0x180215AA0
 	public void .ctor(float time, float value) { }
 
-	// RVA: 0x215B40 Offset: 0x214F40 VA: 0x180215B40
+	// RVA: 0x215AC0 Offset: 0x214EC0 VA: 0x180215AC0
 	public void .ctor(float time, float value, float inTangent, float outTangent) { }
 
-	// RVA: 0x13A390 Offset: 0x139790 VA: 0x18013A390
+	// RVA: 0x13A310 Offset: 0x139710 VA: 0x18013A310
 	public float get_time() { }
 
-	// RVA: 0xF2410 Offset: 0xF1810 VA: 0x1800F2410
+	// RVA: 0xF2390 Offset: 0xF1790 VA: 0x1800F2390
 	public void set_time(float value) { }
 
-	// RVA: 0x2123B0 Offset: 0x2117B0 VA: 0x1802123B0
+	// RVA: 0x212330 Offset: 0x211730 VA: 0x180212330
 	public float get_value() { }
 
-	// RVA: 0x1171C0 Offset: 0x1165C0 VA: 0x1801171C0
+	// RVA: 0x117140 Offset: 0x116540 VA: 0x180117140
 	public void set_inTangent(float value) { }
 
-	// RVA: 0x1171D0 Offset: 0x1165D0 VA: 0x1801171D0
+	// RVA: 0x117150 Offset: 0x116550 VA: 0x180117150
 	public void set_outTangent(float value) { }
 
 }

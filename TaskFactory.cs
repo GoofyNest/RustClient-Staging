@@ -10,7 +10,7 @@ private sealed class TaskFactory.FromAsyncTrimPromise<TResult, TInstance> : Task
 	internal void .ctor(TInstance thisRef, Func<TInstance, IAsyncResult, TResult> endMethod) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A88A60 Offset: 0x1A87060 VA: 0x181A88A60
+	|-RVA: 0x1A970F0 Offset: 0x1A956F0 VA: 0x181A970F0
 	|-TaskFactory.FromAsyncTrimPromise<int, object>..ctor
 	|-TaskFactory.FromAsyncTrimPromise<object, object>..ctor
 	|-TaskFactory.FromAsyncTrimPromise<VoidTaskResult, object>..ctor
@@ -20,13 +20,13 @@ private sealed class TaskFactory.FromAsyncTrimPromise<TResult, TInstance> : Task
 	internal static void CompleteFromAsyncResult(IAsyncResult asyncResult) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A881E0 Offset: 0x1A867E0 VA: 0x181A881E0
+	|-RVA: 0x1A96870 Offset: 0x1A94E70 VA: 0x181A96870
 	|-TaskFactory.FromAsyncTrimPromise<int, object>.CompleteFromAsyncResult
 	|
-	|-RVA: 0x1A87FC0 Offset: 0x1A865C0 VA: 0x181A87FC0
+	|-RVA: 0x1A96650 Offset: 0x1A94C50 VA: 0x181A96650
 	|-TaskFactory.FromAsyncTrimPromise<object, object>.CompleteFromAsyncResult
 	|
-	|-RVA: 0x1A87DA0 Offset: 0x1A863A0 VA: 0x181A87DA0
+	|-RVA: 0x1A96430 Offset: 0x1A94A30 VA: 0x181A96430
 	|-TaskFactory.FromAsyncTrimPromise<VoidTaskResult, object>.CompleteFromAsyncResult
 	*/
 
@@ -34,13 +34,13 @@ private sealed class TaskFactory.FromAsyncTrimPromise<TResult, TInstance> : Task
 	internal void Complete(TInstance thisRef, Func<TInstance, IAsyncResult, TResult> endMethod, IAsyncResult asyncResult, bool requiresSynchronization) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A88560 Offset: 0x1A86B60 VA: 0x181A88560
+	|-RVA: 0x1A96BF0 Offset: 0x1A951F0 VA: 0x181A96BF0
 	|-TaskFactory.FromAsyncTrimPromise<int, object>.Complete
 	|
-	|-RVA: 0x1A886C0 Offset: 0x1A86CC0 VA: 0x181A886C0
+	|-RVA: 0x1A96D50 Offset: 0x1A95350 VA: 0x181A96D50
 	|-TaskFactory.FromAsyncTrimPromise<object, object>.Complete
 	|
-	|-RVA: 0x1A88400 Offset: 0x1A86A00 VA: 0x181A88400
+	|-RVA: 0x1A96A90 Offset: 0x1A95090 VA: 0x181A96A90
 	|-TaskFactory.FromAsyncTrimPromise<VoidTaskResult, object>.Complete
 	*/
 
@@ -48,13 +48,13 @@ private sealed class TaskFactory.FromAsyncTrimPromise<TResult, TInstance> : Task
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A88820 Offset: 0x1A86E20 VA: 0x181A88820
+	|-RVA: 0x1A96EB0 Offset: 0x1A954B0 VA: 0x181A96EB0
 	|-TaskFactory.FromAsyncTrimPromise<int, object>..cctor
 	|
-	|-RVA: 0x1A888E0 Offset: 0x1A86EE0 VA: 0x181A888E0
+	|-RVA: 0x1A96F70 Offset: 0x1A95570 VA: 0x181A96F70
 	|-TaskFactory.FromAsyncTrimPromise<object, object>..cctor
 	|
-	|-RVA: 0x1A889A0 Offset: 0x1A86FA0 VA: 0x181A889A0
+	|-RVA: 0x1A97030 Offset: 0x1A95630 VA: 0x181A97030
 	|-TaskFactory.FromAsyncTrimPromise<VoidTaskResult, object>..cctor
 	*/
 

@@ -5,11 +5,11 @@ internal static class GADevice // TypeDefIndex: 5675
 	private static string _writablepath; // 0x10
 	private static readonly string _osVersion; // 0x18
 	private static readonly string _deviceManufacturer; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static string <SdkGameEngineVersion>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static string <GameEngineVersion>k__BackingField; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static string <ConnectionType>k__BackingField; // 0x38
 
 	// Properties
@@ -27,27 +27,27 @@ internal static class GADevice // TypeDefIndex: 5675
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void Touch() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13B13B0 Offset: 0x13AF9B0 VA: 0x1813B13B0
 	private static string get_SdkGameEngineVersion() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13B1620 Offset: 0x13AFC20 VA: 0x1813B1620
 	public static void set_SdkGameEngineVersion(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13B11C0 Offset: 0x13AF7C0 VA: 0x1813B11C0
 	public static string get_GameEngineVersion() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13B15B0 Offset: 0x13AFBB0 VA: 0x1813B15B0
 	public static void set_GameEngineVersion(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13B1100 Offset: 0x13AF700 VA: 0x1813B1100
 	public static string get_ConnectionType() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13B14D0 Offset: 0x13AFAD0 VA: 0x1813B14D0
 	public static void set_ConnectionType(string value) { }
 

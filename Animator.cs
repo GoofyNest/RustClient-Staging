@@ -14,297 +14,297 @@ public class Animator : Behaviour // TypeDefIndex: 4487
 
 	// Methods
 
-	[NativeMethodAttribute] // RVA: 0xCA460 Offset: 0xC9860 VA: 0x1800CA460
-	// RVA: 0x22DD080 Offset: 0x22DB680 VA: 0x1822DD080
+	[NativeMethodAttribute] // RVA: 0xCA4F0 Offset: 0xC98F0 VA: 0x1800CA4F0
+	// RVA: 0x22DCEC0 Offset: 0x22DB4C0 VA: 0x1822DCEC0
 	public bool get_isInitialized() { }
 
-	// RVA: 0x22DBFE0 Offset: 0x22DA5E0 VA: 0x1822DBFE0
+	// RVA: 0x22DBE20 Offset: 0x22DA420 VA: 0x1822DBE20
 	public float GetFloat(string name) { }
 
-	// RVA: 0x22DBFA0 Offset: 0x22DA5A0 VA: 0x1822DBFA0
+	// RVA: 0x22DBDE0 Offset: 0x22DA3E0 VA: 0x1822DBDE0
 	public float GetFloat(int id) { }
 
-	// RVA: 0x22DC7B0 Offset: 0x22DADB0 VA: 0x1822DC7B0
+	// RVA: 0x22DC5F0 Offset: 0x22DABF0 VA: 0x1822DC5F0
 	public void SetFloat(string name, float value) { }
 
-	// RVA: 0x22DC740 Offset: 0x22DAD40 VA: 0x1822DC740
+	// RVA: 0x22DC580 Offset: 0x22DAB80 VA: 0x1822DC580
 	public void SetFloat(string name, float value, float dampTime, float deltaTime) { }
 
-	// RVA: 0x22DC6F0 Offset: 0x22DACF0 VA: 0x1822DC6F0
+	// RVA: 0x22DC530 Offset: 0x22DAB30 VA: 0x1822DC530
 	public void SetFloat(int id, float value) { }
 
-	// RVA: 0x22DC690 Offset: 0x22DAC90 VA: 0x1822DC690
+	// RVA: 0x22DC4D0 Offset: 0x22DAAD0 VA: 0x1822DC4D0
 	public void SetFloat(int id, float value, float dampTime, float deltaTime) { }
 
-	// RVA: 0x22DBE80 Offset: 0x22DA480 VA: 0x1822DBE80
+	// RVA: 0x22DBCC0 Offset: 0x22DA2C0 VA: 0x1822DBCC0
 	public bool GetBool(int id) { }
 
-	// RVA: 0x22DC630 Offset: 0x22DAC30 VA: 0x1822DC630
+	// RVA: 0x22DC470 Offset: 0x22DAA70 VA: 0x1822DC470
 	public void SetBool(string name, bool value) { }
 
-	// RVA: 0x22DC5D0 Offset: 0x22DABD0 VA: 0x1822DC5D0
+	// RVA: 0x22DC410 Offset: 0x22DAA10 VA: 0x1822DC410
 	public void SetBool(int id, bool value) { }
 
-	// RVA: 0x22DC0C0 Offset: 0x22DA6C0 VA: 0x1822DC0C0
+	// RVA: 0x22DBF00 Offset: 0x22DA500 VA: 0x1822DBF00
 	public int GetInteger(string name) { }
 
-	// RVA: 0x22DCBE0 Offset: 0x22DB1E0 VA: 0x1822DCBE0
+	// RVA: 0x22DCA20 Offset: 0x22DB020 VA: 0x1822DCA20
 	public void SetInteger(string name, int value) { }
 
-	// RVA: 0x22DCB90 Offset: 0x22DB190 VA: 0x1822DCB90
+	// RVA: 0x22DC9D0 Offset: 0x22DAFD0 VA: 0x1822DC9D0
 	public void SetInteger(int id, int value) { }
 
-	// RVA: 0x22DCF20 Offset: 0x22DB520 VA: 0x1822DCF20
+	// RVA: 0x22DCD60 Offset: 0x22DB360 VA: 0x1822DCD60
 	public void SetTrigger(string name) { }
 
-	// RVA: 0x22DCEE0 Offset: 0x22DB4E0 VA: 0x1822DCEE0
+	// RVA: 0x22DCD20 Offset: 0x22DB320 VA: 0x1822DCD20
 	public void SetTrigger(int id) { }
 
-	// RVA: 0x22DC580 Offset: 0x22DAB80 VA: 0x1822DC580
+	// RVA: 0x22DC3C0 Offset: 0x22DA9C0 VA: 0x1822DC3C0
 	public void ResetTrigger(string name) { }
 
-	// RVA: 0x22DC540 Offset: 0x22DAB40 VA: 0x1822DC540
+	// RVA: 0x22DC380 Offset: 0x22DA980 VA: 0x1822DC380
 	public void ResetTrigger(int id) { }
 
-	// RVA: 0x22DD180 Offset: 0x22DB780 VA: 0x1822DD180
+	// RVA: 0x22DCFC0 Offset: 0x22DB5C0 VA: 0x1822DCFC0
 	public void set_applyRootMotion(bool value) { }
 
-	// RVA: 0x22DD350 Offset: 0x22DB950 VA: 0x1822DD350
+	// RVA: 0x22DD190 Offset: 0x22DB790 VA: 0x1822DD190
 	public void set_updateMode(AnimatorUpdateMode value) { }
 
-	// RVA: 0x22DCA50 Offset: 0x22DB050 VA: 0x1822DCA50
+	// RVA: 0x22DC890 Offset: 0x22DAE90 VA: 0x1822DC890
 	public void SetIKPosition(AvatarIKGoal goal, Vector3 goalPosition) { }
 
-	// RVA: 0x22DC860 Offset: 0x22DAE60 VA: 0x1822DC860
+	// RVA: 0x22DC6A0 Offset: 0x22DACA0 VA: 0x1822DC6A0
 	private void SetGoalPosition(AvatarIKGoal goal, Vector3 goalPosition) { }
 
-	// RVA: 0x22DCB20 Offset: 0x22DB120 VA: 0x1822DCB20
+	// RVA: 0x22DC960 Offset: 0x22DAF60 VA: 0x1822DC960
 	public void SetIKRotation(AvatarIKGoal goal, Quaternion goalRotation) { }
 
-	// RVA: 0x22DC900 Offset: 0x22DAF00 VA: 0x1822DC900
+	// RVA: 0x22DC740 Offset: 0x22DAD40 VA: 0x1822DC740
 	private void SetGoalRotation(AvatarIKGoal goal, Quaternion goalRotation) { }
 
-	// RVA: 0x22DC070 Offset: 0x22DA670 VA: 0x1822DC070
+	// RVA: 0x22DBEB0 Offset: 0x22DA4B0 VA: 0x1822DBEB0
 	public float GetIKPositionWeight(AvatarIKGoal goal) { }
 
-	// RVA: 0x22DC030 Offset: 0x22DA630 VA: 0x1822DC030
+	// RVA: 0x22DBE70 Offset: 0x22DA470 VA: 0x1822DBE70
 	private float GetGoalWeightPosition(AvatarIKGoal goal) { }
 
-	// RVA: 0x22DC9F0 Offset: 0x22DAFF0 VA: 0x1822DC9F0
+	// RVA: 0x22DC830 Offset: 0x22DAE30 VA: 0x1822DC830
 	public void SetIKPositionWeight(AvatarIKGoal goal, float value) { }
 
-	// RVA: 0x22DC950 Offset: 0x22DAF50 VA: 0x1822DC950
+	// RVA: 0x22DC790 Offset: 0x22DAD90 VA: 0x1822DC790
 	private void SetGoalWeightPosition(AvatarIKGoal goal, float value) { }
 
-	// RVA: 0x22DCAC0 Offset: 0x22DB0C0 VA: 0x1822DCAC0
+	// RVA: 0x22DC900 Offset: 0x22DAF00 VA: 0x1822DC900
 	public void SetIKRotationWeight(AvatarIKGoal goal, float value) { }
 
-	// RVA: 0x22DC9A0 Offset: 0x22DAFA0 VA: 0x1822DC9A0
+	// RVA: 0x22DC7E0 Offset: 0x22DADE0 VA: 0x1822DC7E0
 	private void SetGoalWeightRotation(AvatarIKGoal goal, float value) { }
 
-	// RVA: 0x22DCD30 Offset: 0x22DB330 VA: 0x1822DCD30
+	// RVA: 0x22DCB70 Offset: 0x22DB170 VA: 0x1822DCB70
 	public void SetLookAtPosition(Vector3 lookAtPosition) { }
 
-	[NativeMethodAttribute] // RVA: 0xCA5D0 Offset: 0xC99D0 VA: 0x1800CA5D0
-	// RVA: 0x22DCCE0 Offset: 0x22DB2E0 VA: 0x1822DCCE0
+	[NativeMethodAttribute] // RVA: 0xCA660 Offset: 0xC9A60 VA: 0x1800CA660
+	// RVA: 0x22DCB20 Offset: 0x22DB120 VA: 0x1822DCB20
 	private void SetLookAtPositionInternal(Vector3 lookAtPosition) { }
 
-	// RVA: 0x22DCE00 Offset: 0x22DB400 VA: 0x1822DCE00
+	// RVA: 0x22DCC40 Offset: 0x22DB240 VA: 0x1822DCC40
 	public void SetLookAtWeight(float weight) { }
 
-	// RVA: 0x22DCE70 Offset: 0x22DB470 VA: 0x1822DCE70
+	// RVA: 0x22DCCB0 Offset: 0x22DB2B0 VA: 0x1822DCCB0
 	public void SetLookAtWeight(float weight, float bodyWeight, float headWeight, float eyesWeight, float clampWeight) { }
 
-	[NativeMethodAttribute] // RVA: 0xCA940 Offset: 0xC9D40 VA: 0x1800CA940
-	// RVA: 0x22DCD90 Offset: 0x22DB390 VA: 0x1822DCD90
+	[NativeMethodAttribute] // RVA: 0xCA9D0 Offset: 0xC9DD0 VA: 0x1800CA9D0
+	// RVA: 0x22DCBD0 Offset: 0x22DB1D0 VA: 0x1822DCBD0
 	private void SetLookAtWeightInternal(float weight, float bodyWeight, float headWeight, float eyesWeight, float clampWeight) { }
 
-	// RVA: 0x22DD0C0 Offset: 0x22DB6C0 VA: 0x1822DD0C0
+	// RVA: 0x22DCF00 Offset: 0x22DB500 VA: 0x1822DCF00
 	public int get_layerCount() { }
 
-	// RVA: 0x22DC110 Offset: 0x22DA710 VA: 0x1822DC110
+	// RVA: 0x22DBF50 Offset: 0x22DA550 VA: 0x1822DBF50
 	public int GetLayerIndex(string layerName) { }
 
-	// RVA: 0x22DC160 Offset: 0x22DA760 VA: 0x1822DC160
+	// RVA: 0x22DBFA0 Offset: 0x22DA5A0 VA: 0x1822DBFA0
 	public float GetLayerWeight(int layerIndex) { }
 
-	// RVA: 0x22DCC40 Offset: 0x22DB240 VA: 0x1822DCC40
+	// RVA: 0x22DCA80 Offset: 0x22DB080 VA: 0x1822DCA80
 	public void SetLayerWeight(int layerIndex, float weight) { }
 
-	// RVA: 0x22DBE20 Offset: 0x22DA420 VA: 0x1822DBE20
+	// RVA: 0x22DBC60 Offset: 0x22DA260 VA: 0x1822DBC60
 	private void GetAnimatorStateInfo(int layerIndex, StateInfoIndex stateInfoIndex, out AnimatorStateInfo info) { }
 
-	// RVA: 0x22DBF00 Offset: 0x22DA500 VA: 0x1822DBF00
+	// RVA: 0x22DBD40 Offset: 0x22DA340 VA: 0x1822DBD40
 	public AnimatorStateInfo GetCurrentAnimatorStateInfo(int layerIndex) { }
 
-	// RVA: 0x22DC1E0 Offset: 0x22DA7E0 VA: 0x1822DC1E0
+	// RVA: 0x22DC020 Offset: 0x22DA620 VA: 0x1822DC020
 	public AnimatorStateInfo GetNextAnimatorStateInfo(int layerIndex) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCA9A0 Offset: 0xC9DA0 VA: 0x1800CA9A0
-	// RVA: 0x22DBEC0 Offset: 0x22DA4C0 VA: 0x1822DBEC0
+	[FreeFunctionAttribute] // RVA: 0xCAA30 Offset: 0xC9E30 VA: 0x1800CAA30
+	// RVA: 0x22DBD00 Offset: 0x22DA300 VA: 0x1822DBD00
 	public AnimatorClipInfo[] GetCurrentAnimatorClipInfo(int layerIndex) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCAB60 Offset: 0xC9F60 VA: 0x1800CAB60
-	// RVA: 0x22DC1A0 Offset: 0x22DA7A0 VA: 0x1822DC1A0
+	[FreeFunctionAttribute] // RVA: 0xCABF0 Offset: 0xC9FF0 VA: 0x1800CABF0
+	// RVA: 0x22DBFE0 Offset: 0x22DA5E0 VA: 0x1822DBFE0
 	public AnimatorClipInfo[] GetNextAnimatorClipInfo(int layerIndex) { }
 
-	// RVA: 0x22DC310 Offset: 0x22DA910 VA: 0x1822DC310
+	// RVA: 0x22DC150 Offset: 0x22DA750 VA: 0x1822DC150
 	public bool IsInTransition(int layerIndex) { }
 
-	// RVA: 0x22DD300 Offset: 0x22DB900 VA: 0x1822DD300
+	// RVA: 0x22DD140 Offset: 0x22DB740 VA: 0x1822DD140
 	public void set_speed(float value) { }
 
-	// RVA: 0x22DBC30 Offset: 0x22DA230 VA: 0x1822DBC30
+	// RVA: 0x22DBA70 Offset: 0x22DA070 VA: 0x1822DBA70
 	public void CrossFade(string stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset) { }
 
-	// RVA: 0x22DBB10 Offset: 0x22DA110 VA: 0x1822DBB10
+	// RVA: 0x22DB950 Offset: 0x22D9F50 VA: 0x1822DB950
 	public void CrossFade(string stateName, float normalizedTransitionDuration, int layer) { }
 
-	// RVA: 0x22DBD90 Offset: 0x22DA390 VA: 0x1822DBD90
+	// RVA: 0x22DBBD0 Offset: 0x22DA1D0 VA: 0x1822DBBD0
 	public void CrossFade(string stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCAF00 Offset: 0xCA300 VA: 0x1800CAF00
-	// RVA: 0x22DBCC0 Offset: 0x22DA2C0 VA: 0x1822DBCC0
+	[FreeFunctionAttribute] // RVA: 0xCAF90 Offset: 0xCA390 VA: 0x1800CAF90
+	// RVA: 0x22DBB00 Offset: 0x22DA100 VA: 0x1822DBB00
 	public void CrossFade(int stateHashName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime) { }
 
-	// RVA: 0x22DBD20 Offset: 0x22DA320 VA: 0x1822DBD20
+	// RVA: 0x22DBB60 Offset: 0x22DA160 VA: 0x1822DBB60
 	public void CrossFade(int stateHashName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset) { }
 
-	// RVA: 0x22DBBB0 Offset: 0x22DA1B0 VA: 0x1822DBBB0
+	// RVA: 0x22DB9F0 Offset: 0x22D9FF0 VA: 0x1822DB9F0
 	public void CrossFade(int stateHashName, float normalizedTransitionDuration, int layer) { }
 
-	// RVA: 0x22DC520 Offset: 0x22DAB20 VA: 0x1822DC520
+	// RVA: 0x22DC360 Offset: 0x22DA960 VA: 0x1822DC360
 	public void Play(string stateName, int layer) { }
 
-	// RVA: 0x22DC440 Offset: 0x22DAA40 VA: 0x1822DC440
+	// RVA: 0x22DC280 Offset: 0x22DA880 VA: 0x1822DC280
 	public void Play(string stateName) { }
 
-	// RVA: 0x22DC350 Offset: 0x22DA950 VA: 0x1822DC350
+	// RVA: 0x22DC190 Offset: 0x22DA790 VA: 0x1822DC190
 	public void Play(string stateName, int layer, float normalizedTime) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCB210 Offset: 0xCA610 VA: 0x1800CB210
-	// RVA: 0x22DC3E0 Offset: 0x22DA9E0 VA: 0x1822DC3E0
+	[FreeFunctionAttribute] // RVA: 0xCB2A0 Offset: 0xCA6A0 VA: 0x1800CB2A0
+	// RVA: 0x22DC220 Offset: 0x22DA820 VA: 0x1822DC220
 	public void Play(int stateNameHash, int layer, float normalizedTime) { }
 
-	// RVA: 0x22DC4C0 Offset: 0x22DAAC0 VA: 0x1822DC4C0
+	// RVA: 0x22DC300 Offset: 0x22DA900 VA: 0x1822DC300
 	public void Play(int stateNameHash, int layer) { }
 
-	// RVA: 0x22DC470 Offset: 0x22DAA70 VA: 0x1822DC470
+	// RVA: 0x22DC2B0 Offset: 0x22DA8B0 VA: 0x1822DC2B0
 	public void Play(int stateNameHash) { }
 
-	// RVA: 0x22DD000 Offset: 0x22DB600 VA: 0x1822DD000
+	// RVA: 0x22DCE40 Offset: 0x22DB440 VA: 0x1822DCE40
 	public AnimatorCullingMode get_cullingMode() { }
 
-	// RVA: 0x22DD220 Offset: 0x22DB820 VA: 0x1822DD220
+	// RVA: 0x22DD060 Offset: 0x22DB660 VA: 0x1822DD060
 	public void set_cullingMode(AnimatorCullingMode value) { }
 
-	// RVA: 0x22DD140 Offset: 0x22DB740 VA: 0x1822DD140
+	// RVA: 0x22DCF80 Offset: 0x22DB580 VA: 0x1822DCF80
 	public RuntimeAnimatorController get_runtimeAnimatorController() { }
 
-	// RVA: 0x22DD2B0 Offset: 0x22DB8B0 VA: 0x1822DD2B0
+	// RVA: 0x22DD0F0 Offset: 0x22DB6F0 VA: 0x1822DD0F0
 	public void set_runtimeAnimatorController(RuntimeAnimatorController value) { }
 
-	[NativeMethodAttribute] // RVA: 0xCB4E0 Offset: 0xCA8E0 VA: 0x1800CB4E0
-	// RVA: 0x22DD040 Offset: 0x22DB640 VA: 0x1822DD040
+	[NativeMethodAttribute] // RVA: 0xCB570 Offset: 0xCA970 VA: 0x1800CB570
+	// RVA: 0x22DCE80 Offset: 0x22DB480 VA: 0x1822DCE80
 	public bool get_hasBoundPlayables() { }
 
-	// RVA: 0x22DC280 Offset: 0x22DA880 VA: 0x1822DC280
+	// RVA: 0x22DC0C0 Offset: 0x22DA6C0 VA: 0x1822DC0C0
 	public bool HasState(int layerIndex, int stateID) { }
 
-	[NativeMethodAttribute] // RVA: 0xCB6A0 Offset: 0xCAAA0 VA: 0x1800CB6A0
-	// RVA: 0x22DCF70 Offset: 0x22DB570 VA: 0x1822DCF70
+	[NativeMethodAttribute] // RVA: 0xCB730 Offset: 0xCAB30 VA: 0x1800CB730
+	// RVA: 0x22DCDB0 Offset: 0x22DB3B0 VA: 0x1822DCDB0
 	public static int StringToHash(string name) { }
 
-	// RVA: 0x22DD1D0 Offset: 0x22DB7D0 VA: 0x1822DD1D0
+	// RVA: 0x22DD010 Offset: 0x22DB610 VA: 0x1822DD010
 	public void set_avatar(Avatar value) { }
 
-	// RVA: 0x22DBA60 Offset: 0x22DA060 VA: 0x1822DBA60
+	// RVA: 0x22DB8A0 Offset: 0x22D9EA0 VA: 0x1822DB8A0
 	private void CheckIfInIKPass() { }
 
-	// RVA: 0x22DC2D0 Offset: 0x22DA8D0 VA: 0x1822DC2D0
+	// RVA: 0x22DC110 Offset: 0x22DA710 VA: 0x1822DC110
 	private bool IsInIKPass() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCB900 Offset: 0xCAD00 VA: 0x1800CB900
-	// RVA: 0x22DC7B0 Offset: 0x22DADB0 VA: 0x1822DC7B0
+	[FreeFunctionAttribute] // RVA: 0xCB990 Offset: 0xCAD90 VA: 0x1800CB990
+	// RVA: 0x22DC5F0 Offset: 0x22DABF0 VA: 0x1822DC5F0
 	private void SetFloatString(string name, float value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBB60 Offset: 0xCAF60 VA: 0x1800CBB60
-	// RVA: 0x22DC6F0 Offset: 0x22DACF0 VA: 0x1822DC6F0
+	[FreeFunctionAttribute] // RVA: 0xCBBF0 Offset: 0xCAFF0 VA: 0x1800CBBF0
+	// RVA: 0x22DC530 Offset: 0x22DAB30 VA: 0x1822DC530
 	private void SetFloatID(int id, float value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBCA0 Offset: 0xCB0A0 VA: 0x1800CBCA0
-	// RVA: 0x22DBFE0 Offset: 0x22DA5E0 VA: 0x1822DBFE0
+	[FreeFunctionAttribute] // RVA: 0xCBD30 Offset: 0xCB130 VA: 0x1800CBD30
+	// RVA: 0x22DBE20 Offset: 0x22DA420 VA: 0x1822DBE20
 	private float GetFloatString(string name) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBDB0 Offset: 0xCB1B0 VA: 0x1800CBDB0
-	// RVA: 0x22DBFA0 Offset: 0x22DA5A0 VA: 0x1822DBFA0
+	[FreeFunctionAttribute] // RVA: 0xCBE10 Offset: 0xCB210 VA: 0x1800CBE10
+	// RVA: 0x22DBDE0 Offset: 0x22DA3E0 VA: 0x1822DBDE0
 	private float GetFloatID(int id) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBEB0 Offset: 0xCB2B0 VA: 0x1800CBEB0
-	// RVA: 0x22DC630 Offset: 0x22DAC30 VA: 0x1822DC630
+	[FreeFunctionAttribute] // RVA: 0xCBEF0 Offset: 0xCB2F0 VA: 0x1800CBEF0
+	// RVA: 0x22DC470 Offset: 0x22DAA70 VA: 0x1822DC470
 	private void SetBoolString(string name, bool value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBF50 Offset: 0xCB350 VA: 0x1800CBF50
-	// RVA: 0x22DC5D0 Offset: 0x22DABD0 VA: 0x1822DC5D0
+	[FreeFunctionAttribute] // RVA: 0xCBFE0 Offset: 0xCB3E0 VA: 0x1800CBFE0
+	// RVA: 0x22DC410 Offset: 0x22DAA10 VA: 0x1822DC410
 	private void SetBoolID(int id, bool value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC110 Offset: 0xCB510 VA: 0x1800CC110
-	// RVA: 0x22DBE80 Offset: 0x22DA480 VA: 0x1822DBE80
+	[FreeFunctionAttribute] // RVA: 0xCC1A0 Offset: 0xCB5A0 VA: 0x1800CC1A0
+	// RVA: 0x22DBCC0 Offset: 0x22DA2C0 VA: 0x1822DBCC0
 	private bool GetBoolID(int id) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC250 Offset: 0xCB650 VA: 0x1800CC250
-	// RVA: 0x22DCBE0 Offset: 0x22DB1E0 VA: 0x1822DCBE0
+	[FreeFunctionAttribute] // RVA: 0xCC2E0 Offset: 0xCB6E0 VA: 0x1800CC2E0
+	// RVA: 0x22DCA20 Offset: 0x22DB020 VA: 0x1822DCA20
 	private void SetIntegerString(string name, int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC410 Offset: 0xCB810 VA: 0x1800CC410
-	// RVA: 0x22DCB90 Offset: 0x22DB190 VA: 0x1822DCB90
+	[FreeFunctionAttribute] // RVA: 0xCC470 Offset: 0xCB870 VA: 0x1800CC470
+	// RVA: 0x22DC9D0 Offset: 0x22DAFD0 VA: 0x1822DC9D0
 	private void SetIntegerID(int id, int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC4E0 Offset: 0xCB8E0 VA: 0x1800CC4E0
-	// RVA: 0x22DC0C0 Offset: 0x22DA6C0 VA: 0x1822DC0C0
+	[FreeFunctionAttribute] // RVA: 0xCC590 Offset: 0xCB990 VA: 0x1800CC590
+	// RVA: 0x22DBF00 Offset: 0x22DA500 VA: 0x1822DBF00
 	private int GetIntegerString(string name) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC720 Offset: 0xCBB20 VA: 0x1800CC720
-	// RVA: 0x22DCF20 Offset: 0x22DB520 VA: 0x1822DCF20
+	[FreeFunctionAttribute] // RVA: 0xCC7B0 Offset: 0xCBBB0 VA: 0x1800CC7B0
+	// RVA: 0x22DCD60 Offset: 0x22DB360 VA: 0x1822DCD60
 	private void SetTriggerString(string name) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC7B0 Offset: 0xCBBB0 VA: 0x1800CC7B0
-	// RVA: 0x22DCEE0 Offset: 0x22DB4E0 VA: 0x1822DCEE0
+	[FreeFunctionAttribute] // RVA: 0xCC890 Offset: 0xCBC90 VA: 0x1800CC890
+	// RVA: 0x22DCD20 Offset: 0x22DB320 VA: 0x1822DCD20
 	private void SetTriggerID(int id) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC960 Offset: 0xCBD60 VA: 0x1800CC960
-	// RVA: 0x22DC580 Offset: 0x22DAB80 VA: 0x1822DC580
+	[FreeFunctionAttribute] // RVA: 0xCCA20 Offset: 0xCBE20 VA: 0x1800CCA20
+	// RVA: 0x22DC3C0 Offset: 0x22DA9C0 VA: 0x1822DC3C0
 	private void ResetTriggerString(string name) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCCAC0 Offset: 0xCBEC0 VA: 0x1800CCAC0
-	// RVA: 0x22DC540 Offset: 0x22DAB40 VA: 0x1822DC540
+	[FreeFunctionAttribute] // RVA: 0xCCB50 Offset: 0xCBF50 VA: 0x1800CCB50
+	// RVA: 0x22DC380 Offset: 0x22DA980 VA: 0x1822DC380
 	private void ResetTriggerID(int id) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCCC00 Offset: 0xCC000 VA: 0x1800CCC00
-	// RVA: 0x22DC740 Offset: 0x22DAD40 VA: 0x1822DC740
+	[FreeFunctionAttribute] // RVA: 0xCCCC0 Offset: 0xCC0C0 VA: 0x1800CCCC0
+	// RVA: 0x22DC580 Offset: 0x22DAB80 VA: 0x1822DC580
 	private void SetFloatStringDamp(string name, float value, float dampTime, float deltaTime) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCCDC0 Offset: 0xCC1C0 VA: 0x1800CCDC0
-	// RVA: 0x22DC690 Offset: 0x22DAC90 VA: 0x1822DC690
+	[FreeFunctionAttribute] // RVA: 0xCCE50 Offset: 0xCC250 VA: 0x1800CCE50
+	// RVA: 0x22DC4D0 Offset: 0x22DAAD0 VA: 0x1822DC4D0
 	private void SetFloatIDDamp(int id, float value, float dampTime, float deltaTime) { }
 
-	[NativeMethodAttribute] // RVA: 0xCCE80 Offset: 0xCC280 VA: 0x1800CCE80
-	// RVA: 0x22DCFB0 Offset: 0x22DB5B0 VA: 0x1822DCFB0
+	[NativeMethodAttribute] // RVA: 0xCCF10 Offset: 0xCC310 VA: 0x1800CCF10
+	// RVA: 0x22DCDF0 Offset: 0x22DB3F0 VA: 0x1822DCDF0
 	public void Update(float deltaTime) { }
 
-	// RVA: 0x22DD100 Offset: 0x22DB700 VA: 0x1822DD100
+	// RVA: 0x22DCF40 Offset: 0x22DB540 VA: 0x1822DCF40
 	public bool get_logWarnings() { }
 
-	// RVA: 0x22DD260 Offset: 0x22DB860 VA: 0x1822DD260
+	// RVA: 0x22DD0A0 Offset: 0x22DB6A0 VA: 0x1822DD0A0
 	public void set_fireEvents(bool value) { }
 
-	// RVA: 0x22DC810 Offset: 0x22DAE10 VA: 0x1822DC810
+	// RVA: 0x22DC650 Offset: 0x22DAC50 VA: 0x1822DC650
 	private void SetGoalPosition_Injected(AvatarIKGoal goal, ref Vector3 goalPosition) { }
 
-	// RVA: 0x22DC8B0 Offset: 0x22DAEB0 VA: 0x1822DC8B0
+	// RVA: 0x22DC6F0 Offset: 0x22DACF0 VA: 0x1822DC6F0
 	private void SetGoalRotation_Injected(AvatarIKGoal goal, ref Quaternion goalRotation) { }
 
-	// RVA: 0x22DCC90 Offset: 0x22DB290 VA: 0x1822DCC90
+	// RVA: 0x22DCAD0 Offset: 0x22DB0D0 VA: 0x1822DCAD0
 	private void SetLookAtPositionInternal_Injected(ref Vector3 lookAtPosition) { }
 
 }

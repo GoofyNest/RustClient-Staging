@@ -26,10 +26,10 @@ public class BaseBoat : BaseVehicle // TypeDefIndex: 8318
 	// RVA: 0x7D6800 Offset: 0x7D4E00 VA: 0x1807D6800 Slot: 112
 	public override float MaxVelocity() { }
 
-	[BaseEntity.Menu] // RVA: 0xB4970 Offset: 0xB3D70 VA: 0x1800B4970
-	[BaseEntity.Menu.Description] // RVA: 0xB4970 Offset: 0xB3D70 VA: 0x1800B4970
-	[BaseEntity.Menu.Icon] // RVA: 0xB4970 Offset: 0xB3D70 VA: 0x1800B4970
-	[BaseEntity.Menu.ShowIf] // RVA: 0xB4970 Offset: 0xB3D70 VA: 0x1800B4970
+	[BaseEntity.Menu] // RVA: 0xB4A10 Offset: 0xB3E10 VA: 0x1800B4A10
+	[BaseEntity.Menu.Description] // RVA: 0xB4A10 Offset: 0xB3E10 VA: 0x1800B4A10
+	[BaseEntity.Menu.Icon] // RVA: 0xB4A10 Offset: 0xB3E10 VA: 0x1800B4A10
+	[BaseEntity.Menu.ShowIf] // RVA: 0xB4A10 Offset: 0xB3E10 VA: 0x1800B4A10
 	// RVA: 0x7D6810 Offset: 0x7D4E10 VA: 0x1807D6810 Slot: 194
 	public virtual void Menu_Push(BasePlayer player) { }
 

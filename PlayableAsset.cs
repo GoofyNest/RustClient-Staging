@@ -8,18 +8,18 @@ public abstract class PlayableAsset : ScriptableObject // TypeDefIndex: 3865
 	// RVA: -1 Offset: -1 Slot: 4
 	public abstract Playable CreatePlayable(PlayableGraph graph, GameObject owner);
 
-	// RVA: 0x18FA3C0 Offset: 0x18F89C0 VA: 0x1818FA3C0 Slot: 5
+	// RVA: 0x18FA380 Offset: 0x18F8980 VA: 0x1818FA380 Slot: 5
 	public virtual double get_duration() { }
 
-	// RVA: 0x18FA420 Offset: 0x18F8A20 VA: 0x1818FA420 Slot: 6
+	// RVA: 0x18FA3E0 Offset: 0x18F89E0 VA: 0x1818FA3E0 Slot: 6
 	public virtual IEnumerable<PlayableBinding> get_outputs() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x18FA1C0 Offset: 0x18F87C0 VA: 0x1818FA1C0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x18FA180 Offset: 0x18F8780 VA: 0x1818FA180
 	internal static void Internal_CreatePlayable(PlayableAsset asset, PlayableGraph graph, GameObject go, IntPtr ptr) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x18FA390 Offset: 0x18F8990 VA: 0x1818FA390
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x18FA350 Offset: 0x18F8950 VA: 0x1818FA350
 	internal static void Internal_GetPlayableAssetDuration(PlayableAsset asset, IntPtr ptrToDouble) { }
 
 	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0

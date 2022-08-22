@@ -7,13 +7,13 @@ internal struct ExecutionContextSwitcher // TypeDefIndex: 781
 
 	// Methods
 
-	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0xB4350 Offset: 0xB3750 VA: 0x1800B4350
-	[ReliabilityContractAttribute] // RVA: 0xB4350 Offset: 0xB3750 VA: 0x1800B4350
-	// RVA: 0x1F0760 Offset: 0x1EFB60 VA: 0x1801F0760
+	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0xB4380 Offset: 0xB3780 VA: 0x1800B4380
+	[ReliabilityContractAttribute] // RVA: 0xB4380 Offset: 0xB3780 VA: 0x1800B4380
+	// RVA: 0x1F06E0 Offset: 0x1EFAE0 VA: 0x1801F06E0
 	internal bool UndoNoThrow() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83CE0 Offset: 0x830E0 VA: 0x180083CE0
-	// RVA: 0x1F0770 Offset: 0x1EFB70 VA: 0x1801F0770
+	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	// RVA: 0x1F06F0 Offset: 0x1EFAF0 VA: 0x1801F06F0
 	internal void Undo() { }
 
 }

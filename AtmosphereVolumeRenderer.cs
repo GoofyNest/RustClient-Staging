@@ -91,7 +91,7 @@ private struct AtmosphereVolumeRenderer.CurrentVolumeEntry // TypeDefIndex: 1064
 
 	// Methods
 
-	// RVA: 0xF9130 Offset: 0xF8530 VA: 0x1800F9130
+	// RVA: 0xF90B0 Offset: 0xF84B0 VA: 0x1800F90B0
 	public void .ctor(AtmosphereVolume volume, float distance) { }
 
 }

@@ -4,7 +4,7 @@ public class TypeInferenceRuleAttribute : Attribute // TypeDefIndex: 3294
 
 	// Methods
 
-	// RVA: 0x21806B0 Offset: 0x217ECB0 VA: 0x1821806B0
+	// RVA: 0x21804F0 Offset: 0x217EAF0 VA: 0x1821804F0
 	public void .ctor(TypeInferenceRules rule) { }
 
 	// RVA: 0x7EDCE0 Offset: 0x7EC2E0 VA: 0x1807EDCE0

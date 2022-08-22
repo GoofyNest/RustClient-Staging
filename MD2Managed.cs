@@ -43,25 +43,25 @@ public class MD2Managed : MD2 // TypeDefIndex: 1754
 
 	// Methods
 
-	// RVA: 0x1AB7A30 Offset: 0x1AB6030 VA: 0x181AB7A30
+	// RVA: 0x1AB7870 Offset: 0x1AB5E70 VA: 0x181AB7870
 	private byte[] Padding(int nLength) { }
 
-	// RVA: 0x1AB7B30 Offset: 0x1AB6130 VA: 0x181AB7B30
+	// RVA: 0x1AB7970 Offset: 0x1AB5F70 VA: 0x181AB7970
 	public void .ctor() { }
 
 	// RVA: 0x174A9E0 Offset: 0x1748FE0 VA: 0x18174A9E0 Slot: 16
 	public override void Initialize() { }
 
-	// RVA: 0x1AB74B0 Offset: 0x1AB5AB0 VA: 0x181AB74B0 Slot: 17
+	// RVA: 0x1AB72F0 Offset: 0x1AB58F0 VA: 0x181AB72F0 Slot: 17
 	protected override void HashCore(byte[] array, int ibStart, int cbSize) { }
 
-	// RVA: 0x1AB75B0 Offset: 0x1AB5BB0 VA: 0x181AB75B0 Slot: 18
+	// RVA: 0x1AB73F0 Offset: 0x1AB59F0 VA: 0x181AB73F0 Slot: 18
 	protected override byte[] HashFinal() { }
 
-	// RVA: 0x1AB7710 Offset: 0x1AB5D10 VA: 0x181AB7710
+	// RVA: 0x1AB7550 Offset: 0x1AB5B50 VA: 0x181AB7550
 	private void MD2Transform(byte[] state, byte[] checksum, byte[] block, int index) { }
 
-	// RVA: 0x1AB7AC0 Offset: 0x1AB60C0 VA: 0x181AB7AC0
+	// RVA: 0x1AB7900 Offset: 0x1AB5F00 VA: 0x181AB7900
 	private static void .cctor() { }
 
 }

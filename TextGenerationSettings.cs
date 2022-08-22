@@ -21,13 +21,13 @@ public struct TextGenerationSettings // TypeDefIndex: 3951
 
 	// Methods
 
-	// RVA: 0x23FB70 Offset: 0x23EF70 VA: 0x18023FB70
+	// RVA: 0x23FAF0 Offset: 0x23EEF0 VA: 0x18023FAF0
 	private bool CompareColors(Color left, Color right) { }
 
-	// RVA: 0x23FBA0 Offset: 0x23EFA0 VA: 0x18023FBA0
+	// RVA: 0x23FB20 Offset: 0x23EF20 VA: 0x18023FB20
 	private bool CompareVector2(Vector2 left, Vector2 right) { }
 
-	// RVA: 0x23FBB0 Offset: 0x23EFB0 VA: 0x18023FBB0
+	// RVA: 0x23FB30 Offset: 0x23EF30 VA: 0x18023FB30
 	public bool Equals(TextGenerationSettings other) { }
 
 }

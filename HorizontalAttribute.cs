@@ -5,7 +5,7 @@ public class HorizontalAttribute : PropertyAttribute // TypeDefIndex: 6572
 
 	// Methods
 
-	// RVA: 0x19BA770 Offset: 0x19B8D70 VA: 0x1819BA770
+	// RVA: 0x19BA730 Offset: 0x19B8D30 VA: 0x1819BA730
 	public void .ctor(int count, int label = -1) { }
 
 }

@@ -6,13 +6,13 @@ public class BaseProjectile : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1F65470 Offset: 0x1F63A70 VA: 0x181F65470
+	// RVA: 0x1F652B0 Offset: 0x1F638B0 VA: 0x181F652B0
 	public static void ResetToPool(BaseProjectile instance) { }
 
-	// RVA: 0x1F653D0 Offset: 0x1F639D0 VA: 0x181F653D0
+	// RVA: 0x1F65210 Offset: 0x1F63810 VA: 0x181F65210
 	public void ResetToPool() { }
 
-	// RVA: 0x1F65270 Offset: 0x1F63870 VA: 0x181F65270 Slot: 9
+	// RVA: 0x1F650B0 Offset: 0x1F636B0 VA: 0x181F650B0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -21,64 +21,64 @@ public class BaseProjectile : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F647D0 Offset: 0x1F62DD0 VA: 0x181F647D0
+	// RVA: 0x1F64610 Offset: 0x1F62C10 VA: 0x181F64610
 	public void CopyTo(BaseProjectile instance) { }
 
-	// RVA: 0x1F64840 Offset: 0x1F62E40 VA: 0x181F64840
+	// RVA: 0x1F64680 Offset: 0x1F62C80 VA: 0x181F64680
 	public BaseProjectile Copy() { }
 
-	// RVA: 0x1F64FD0 Offset: 0x1F635D0 VA: 0x181F64FD0
+	// RVA: 0x1F64E10 Offset: 0x1F63410 VA: 0x181F64E10
 	public static BaseProjectile Deserialize(Stream stream) { }
 
-	// RVA: 0x1F64B50 Offset: 0x1F63150 VA: 0x181F64B50
+	// RVA: 0x1F64990 Offset: 0x1F62F90 VA: 0x181F64990
 	public static BaseProjectile DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F64BD0 Offset: 0x1F631D0 VA: 0x181F64BD0
+	// RVA: 0x1F64A10 Offset: 0x1F63010 VA: 0x181F64A10
 	public static BaseProjectile DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F65150 Offset: 0x1F63750 VA: 0x181F65150
+	// RVA: 0x1F64F90 Offset: 0x1F63590 VA: 0x181F64F90
 	public static BaseProjectile Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F65390 Offset: 0x1F63990 VA: 0x181F65390
+	// RVA: 0x1F651D0 Offset: 0x1F637D0 VA: 0x181F651D0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F65A00 Offset: 0x1F64000 VA: 0x181F65A00 Slot: 12
+	// RVA: 0x1F65840 Offset: 0x1F63E40 VA: 0x181F65840 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F65A20 Offset: 0x1F64020 VA: 0x181F65A20 Slot: 13
+	// RVA: 0x1F65860 Offset: 0x1F63E60 VA: 0x181F65860 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, BaseProjectile previous) { }
 
-	// RVA: 0x1F653B0 Offset: 0x1F639B0 VA: 0x181F653B0 Slot: 14
+	// RVA: 0x1F651F0 Offset: 0x1F637F0 VA: 0x181F651F0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F65050 Offset: 0x1F63650 VA: 0x181F65050
+	// RVA: 0x1F64E90 Offset: 0x1F63490 VA: 0x181F64E90
 	public static BaseProjectile Deserialize(byte[] buffer, BaseProjectile instance, bool isDelta = False) { }
 
-	// RVA: 0x1F64E70 Offset: 0x1F63470 VA: 0x181F64E70
+	// RVA: 0x1F64CB0 Offset: 0x1F632B0 VA: 0x181F64CB0
 	public static BaseProjectile Deserialize(Stream stream, BaseProjectile instance, bool isDelta) { }
 
-	// RVA: 0x1F64910 Offset: 0x1F62F10 VA: 0x181F64910
+	// RVA: 0x1F64750 Offset: 0x1F62D50 VA: 0x181F64750
 	public static BaseProjectile DeserializeLengthDelimited(Stream stream, BaseProjectile instance, bool isDelta) { }
 
-	// RVA: 0x1F64C60 Offset: 0x1F63260 VA: 0x181F64C60
+	// RVA: 0x1F64AA0 Offset: 0x1F630A0 VA: 0x181F64AA0
 	public static BaseProjectile DeserializeLength(Stream stream, int length, BaseProjectile instance, bool isDelta) { }
 
-	// RVA: 0x1F65510 Offset: 0x1F63B10 VA: 0x181F65510
+	// RVA: 0x1F65350 Offset: 0x1F63950 VA: 0x181F65350
 	public static void SerializeDelta(Stream stream, BaseProjectile instance, BaseProjectile previous) { }
 
-	// RVA: 0x1F65870 Offset: 0x1F63E70 VA: 0x181F65870
+	// RVA: 0x1F656B0 Offset: 0x1F63CB0 VA: 0x181F656B0
 	public static void Serialize(Stream stream, BaseProjectile instance) { }
 
-	// RVA: 0x1F659F0 Offset: 0x1F63FF0 VA: 0x181F659F0
+	// RVA: 0x1F65830 Offset: 0x1F63E30 VA: 0x181F65830
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F65A00 Offset: 0x1F64000 VA: 0x181F65A00
+	// RVA: 0x1F65840 Offset: 0x1F63E40 VA: 0x181F65840
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F65760 Offset: 0x1F63D60 VA: 0x181F65760
+	// RVA: 0x1F655A0 Offset: 0x1F63BA0 VA: 0x181F655A0
 	public static byte[] SerializeToBytes(BaseProjectile instance) { }
 
-	// RVA: 0x1F656B0 Offset: 0x1F63CB0 VA: 0x181F656B0
+	// RVA: 0x1F654F0 Offset: 0x1F63AF0 VA: 0x181F654F0
 	public static void SerializeLengthDelimited(Stream stream, BaseProjectile instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -104,13 +104,13 @@ public class Attack : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6483
 
 	// Methods
 
-	// RVA: 0x1FF6080 Offset: 0x1FF4680 VA: 0x181FF6080
+	// RVA: 0x1FF5EC0 Offset: 0x1FF44C0 VA: 0x181FF5EC0
 	public static void ResetToPool(Attack instance) { }
 
-	// RVA: 0x1FF5F50 Offset: 0x1FF4550 VA: 0x181FF5F50
+	// RVA: 0x1FF5D90 Offset: 0x1FF4390 VA: 0x181FF5D90
 	public void ResetToPool() { }
 
-	// RVA: 0x1FF59E0 Offset: 0x1FF3FE0 VA: 0x181FF59E0 Slot: 9
+	// RVA: 0x1FF5820 Offset: 0x1FF3E20 VA: 0x181FF5820 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -119,64 +119,64 @@ public class Attack : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6483
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1FF3DE0 Offset: 0x1FF23E0 VA: 0x181FF3DE0
+	// RVA: 0x1FF3C20 Offset: 0x1FF2220 VA: 0x181FF3C20
 	public void CopyTo(Attack instance) { }
 
-	// RVA: 0x1FF3E80 Offset: 0x1FF2480 VA: 0x181FF3E80
+	// RVA: 0x1FF3CC0 Offset: 0x1FF22C0 VA: 0x181FF3CC0
 	public Attack Copy() { }
 
-	// RVA: 0x1FF5190 Offset: 0x1FF3790 VA: 0x181FF5190
+	// RVA: 0x1FF4FD0 Offset: 0x1FF35D0 VA: 0x181FF4FD0
 	public static Attack Deserialize(Stream stream) { }
 
-	// RVA: 0x1FF43E0 Offset: 0x1FF29E0 VA: 0x181FF43E0
+	// RVA: 0x1FF4220 Offset: 0x1FF2820 VA: 0x181FF4220
 	public static Attack DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1FF4460 Offset: 0x1FF2A60 VA: 0x181FF4460
+	// RVA: 0x1FF42A0 Offset: 0x1FF28A0 VA: 0x181FF42A0
 	public static Attack DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1FF4940 Offset: 0x1FF2F40 VA: 0x181FF4940
+	// RVA: 0x1FF4780 Offset: 0x1FF2D80 VA: 0x181FF4780
 	public static Attack Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1FF5B90 Offset: 0x1FF4190 VA: 0x181FF5B90
+	// RVA: 0x1FF59D0 Offset: 0x1FF3FD0 VA: 0x181FF59D0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1FF7470 Offset: 0x1FF5A70 VA: 0x181FF7470 Slot: 12
+	// RVA: 0x1FF72B0 Offset: 0x1FF58B0 VA: 0x181FF72B0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1FF7490 Offset: 0x1FF5A90 VA: 0x181FF7490 Slot: 13
+	// RVA: 0x1FF72D0 Offset: 0x1FF58D0 VA: 0x181FF72D0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Attack previous) { }
 
-	// RVA: 0x1FF5F30 Offset: 0x1FF4530 VA: 0x181FF5F30 Slot: 14
+	// RVA: 0x1FF5D70 Offset: 0x1FF4370 VA: 0x181FF5D70 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1FF5560 Offset: 0x1FF3B60 VA: 0x181FF5560
+	// RVA: 0x1FF53A0 Offset: 0x1FF39A0 VA: 0x181FF53A0
 	public static Attack Deserialize(byte[] buffer, Attack instance, bool isDelta = False) { }
 
-	// RVA: 0x1FF4DF0 Offset: 0x1FF33F0 VA: 0x181FF4DF0
+	// RVA: 0x1FF4C30 Offset: 0x1FF3230 VA: 0x181FF4C30
 	public static Attack Deserialize(Stream stream, Attack instance, bool isDelta) { }
 
-	// RVA: 0x1FF3F70 Offset: 0x1FF2570 VA: 0x181FF3F70
+	// RVA: 0x1FF3DB0 Offset: 0x1FF23B0 VA: 0x181FF3DB0
 	public static Attack DeserializeLengthDelimited(Stream stream, Attack instance, bool isDelta) { }
 
-	// RVA: 0x1FF44F0 Offset: 0x1FF2AF0 VA: 0x181FF44F0
+	// RVA: 0x1FF4330 Offset: 0x1FF2930 VA: 0x181FF4330
 	public static Attack DeserializeLength(Stream stream, int length, Attack instance, bool isDelta) { }
 
-	// RVA: 0x1FF61B0 Offset: 0x1FF47B0 VA: 0x181FF61B0
+	// RVA: 0x1FF5FF0 Offset: 0x1FF45F0 VA: 0x181FF5FF0
 	public static void SerializeDelta(Stream stream, Attack instance, Attack previous) { }
 
-	// RVA: 0x1FF6E70 Offset: 0x1FF5470 VA: 0x181FF6E70
+	// RVA: 0x1FF6CB0 Offset: 0x1FF52B0 VA: 0x181FF6CB0
 	public static void Serialize(Stream stream, Attack instance) { }
 
-	// RVA: 0x1FF7460 Offset: 0x1FF5A60 VA: 0x181FF7460
+	// RVA: 0x1FF72A0 Offset: 0x1FF58A0 VA: 0x181FF72A0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1FF7470 Offset: 0x1FF5A70 VA: 0x181FF7470
+	// RVA: 0x1FF72B0 Offset: 0x1FF58B0 VA: 0x181FF72B0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1FF6D60 Offset: 0x1FF5360 VA: 0x181FF6D60
+	// RVA: 0x1FF6BA0 Offset: 0x1FF51A0 VA: 0x181FF6BA0
 	public static byte[] SerializeToBytes(Attack instance) { }
 
-	// RVA: 0x1FF6CB0 Offset: 0x1FF52B0 VA: 0x181FF6CB0
+	// RVA: 0x1FF6AF0 Offset: 0x1FF50F0 VA: 0x181FF6AF0
 	public static void SerializeLengthDelimited(Stream stream, Attack instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -193,13 +193,13 @@ public class ProjectileShoot : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x2049AA0 Offset: 0x20480A0 VA: 0x182049AA0
+	// RVA: 0x20498E0 Offset: 0x2047EE0 VA: 0x1820498E0
 	public static void ResetToPool(ProjectileShoot instance) { }
 
-	// RVA: 0x2049C60 Offset: 0x2048260 VA: 0x182049C60
+	// RVA: 0x2049AA0 Offset: 0x20480A0 VA: 0x182049AA0
 	public void ResetToPool() { }
 
-	// RVA: 0x20499E0 Offset: 0x2047FE0 VA: 0x1820499E0 Slot: 9
+	// RVA: 0x2049820 Offset: 0x2047E20 VA: 0x182049820 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -208,64 +208,64 @@ public class ProjectileShoot : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x2048A60 Offset: 0x2047060 VA: 0x182048A60
+	// RVA: 0x20488A0 Offset: 0x2046EA0 VA: 0x1820488A0
 	public void CopyTo(ProjectileShoot instance) { }
 
-	// RVA: 0x2048C10 Offset: 0x2047210 VA: 0x182048C10
+	// RVA: 0x2048A50 Offset: 0x2047050 VA: 0x182048A50
 	public ProjectileShoot Copy() { }
 
-	// RVA: 0x2049510 Offset: 0x2047B10 VA: 0x182049510
+	// RVA: 0x2049350 Offset: 0x2047950 VA: 0x182049350
 	public static ProjectileShoot Deserialize(Stream stream) { }
 
-	// RVA: 0x2048E10 Offset: 0x2047410 VA: 0x182048E10
+	// RVA: 0x2048C50 Offset: 0x2047250 VA: 0x182048C50
 	public static ProjectileShoot DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2049480 Offset: 0x2047A80 VA: 0x182049480
+	// RVA: 0x20492C0 Offset: 0x20478C0 VA: 0x1820492C0
 	public static ProjectileShoot DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20498C0 Offset: 0x2047EC0 VA: 0x1820498C0
+	// RVA: 0x2049700 Offset: 0x2047D00 VA: 0x182049700
 	public static ProjectileShoot Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2049A60 Offset: 0x2048060 VA: 0x182049A60
+	// RVA: 0x20498A0 Offset: 0x2047EA0 VA: 0x1820498A0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x204A450 Offset: 0x2048A50 VA: 0x18204A450 Slot: 12
+	// RVA: 0x204A290 Offset: 0x2048890 VA: 0x18204A290 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x204A470 Offset: 0x2048A70 VA: 0x18204A470 Slot: 13
+	// RVA: 0x204A2B0 Offset: 0x20488B0 VA: 0x18204A2B0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ProjectileShoot previous) { }
 
-	// RVA: 0x2049A80 Offset: 0x2048080 VA: 0x182049A80 Slot: 14
+	// RVA: 0x20498C0 Offset: 0x2047EC0 VA: 0x1820498C0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2049590 Offset: 0x2047B90 VA: 0x182049590
+	// RVA: 0x20493D0 Offset: 0x20479D0 VA: 0x1820493D0
 	public static ProjectileShoot Deserialize(byte[] buffer, ProjectileShoot instance, bool isDelta = False) { }
 
-	// RVA: 0x2049690 Offset: 0x2047C90 VA: 0x182049690
+	// RVA: 0x20494D0 Offset: 0x2047AD0 VA: 0x1820494D0
 	public static ProjectileShoot Deserialize(Stream stream, ProjectileShoot instance, bool isDelta) { }
 
-	// RVA: 0x2048E90 Offset: 0x2047490 VA: 0x182048E90
+	// RVA: 0x2048CD0 Offset: 0x20472D0 VA: 0x182048CD0
 	public static ProjectileShoot DeserializeLengthDelimited(Stream stream, ProjectileShoot instance, bool isDelta) { }
 
-	// RVA: 0x20491A0 Offset: 0x20477A0 VA: 0x1820491A0
+	// RVA: 0x2048FE0 Offset: 0x20475E0 VA: 0x182048FE0
 	public static ProjectileShoot DeserializeLength(Stream stream, int length, ProjectileShoot instance, bool isDelta) { }
 
-	// RVA: 0x2049E20 Offset: 0x2048420 VA: 0x182049E20
+	// RVA: 0x2049C60 Offset: 0x2048260 VA: 0x182049C60
 	public static void SerializeDelta(Stream stream, ProjectileShoot instance, ProjectileShoot previous) { }
 
-	// RVA: 0x204A220 Offset: 0x2048820 VA: 0x18204A220
+	// RVA: 0x204A060 Offset: 0x2048660 VA: 0x18204A060
 	public static void Serialize(Stream stream, ProjectileShoot instance) { }
 
-	// RVA: 0x204A440 Offset: 0x2048A40 VA: 0x18204A440
+	// RVA: 0x204A280 Offset: 0x2048880 VA: 0x18204A280
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x204A450 Offset: 0x2048A50 VA: 0x18204A450
+	// RVA: 0x204A290 Offset: 0x2048890 VA: 0x18204A290
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x204A110 Offset: 0x2048710 VA: 0x18204A110
+	// RVA: 0x2049F50 Offset: 0x2048550 VA: 0x182049F50
 	public static byte[] SerializeToBytes(ProjectileShoot instance) { }
 
-	// RVA: 0x204A060 Offset: 0x2048660 VA: 0x18204A060
+	// RVA: 0x2049EA0 Offset: 0x20484A0 VA: 0x182049EA0
 	public static void SerializeLengthDelimited(Stream stream, ProjectileShoot instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -284,13 +284,13 @@ public class ProjectileShoot.Projectile : IDisposable, Pool.IPooled, IProto // T
 
 	// Methods
 
-	// RVA: 0x204B860 Offset: 0x2049E60 VA: 0x18204B860
+	// RVA: 0x204B6A0 Offset: 0x2049CA0 VA: 0x18204B6A0
 	public static void ResetToPool(ProjectileShoot.Projectile instance) { }
 
-	// RVA: 0x204B910 Offset: 0x2049F10 VA: 0x18204B910
+	// RVA: 0x204B750 Offset: 0x2049D50 VA: 0x18204B750
 	public void ResetToPool() { }
 
-	// RVA: 0x204B5C0 Offset: 0x2049BC0 VA: 0x18204B5C0 Slot: 9
+	// RVA: 0x204B400 Offset: 0x2049A00 VA: 0x18204B400 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -299,64 +299,64 @@ public class ProjectileShoot.Projectile : IDisposable, Pool.IPooled, IProto // T
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x203D5A0 Offset: 0x203BBA0 VA: 0x18203D5A0
+	// RVA: 0x203D3E0 Offset: 0x203B9E0 VA: 0x18203D3E0
 	public void CopyTo(ProjectileShoot.Projectile instance) { }
 
-	// RVA: 0x204A490 Offset: 0x2048A90 VA: 0x18204A490
+	// RVA: 0x204A2D0 Offset: 0x20488D0 VA: 0x18204A2D0
 	public ProjectileShoot.Projectile Copy() { }
 
-	// RVA: 0x204B0B0 Offset: 0x20496B0 VA: 0x18204B0B0
+	// RVA: 0x204AEF0 Offset: 0x20494F0 VA: 0x18204AEF0
 	public static ProjectileShoot.Projectile Deserialize(Stream stream) { }
 
-	// RVA: 0x204A530 Offset: 0x2048B30 VA: 0x18204A530
+	// RVA: 0x204A370 Offset: 0x2048970 VA: 0x18204A370
 	public static ProjectileShoot.Projectile DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x204A880 Offset: 0x2048E80 VA: 0x18204A880
+	// RVA: 0x204A6C0 Offset: 0x2048CC0 VA: 0x18204A6C0
 	public static ProjectileShoot.Projectile DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x204ADD0 Offset: 0x20493D0 VA: 0x18204ADD0
+	// RVA: 0x204AC10 Offset: 0x2049210 VA: 0x18204AC10
 	public static ProjectileShoot.Projectile Deserialize(byte[] buffer) { }
 
-	// RVA: 0x204B640 Offset: 0x2049C40 VA: 0x18204B640
+	// RVA: 0x204B480 Offset: 0x2049A80 VA: 0x18204B480
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x204C270 Offset: 0x204A870 VA: 0x18204C270 Slot: 12
+	// RVA: 0x204C0B0 Offset: 0x204A6B0 VA: 0x18204C0B0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x204C290 Offset: 0x204A890 VA: 0x18204C290 Slot: 13
+	// RVA: 0x204C0D0 Offset: 0x204A6D0 VA: 0x18204C0D0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ProjectileShoot.Projectile previous) { }
 
-	// RVA: 0x204B840 Offset: 0x2049E40 VA: 0x18204B840 Slot: 14
+	// RVA: 0x204B680 Offset: 0x2049C80 VA: 0x18204B680 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x204B2F0 Offset: 0x20498F0 VA: 0x18204B2F0
+	// RVA: 0x204B130 Offset: 0x2049730 VA: 0x18204B130
 	public static ProjectileShoot.Projectile Deserialize(byte[] buffer, ProjectileShoot.Projectile instance, bool isDelta = False) { }
 
-	// RVA: 0x204ABC0 Offset: 0x20491C0 VA: 0x18204ABC0
+	// RVA: 0x204AA00 Offset: 0x2049000 VA: 0x18204AA00
 	public static ProjectileShoot.Projectile Deserialize(Stream stream, ProjectileShoot.Projectile instance, bool isDelta) { }
 
-	// RVA: 0x204A5B0 Offset: 0x2048BB0 VA: 0x18204A5B0
+	// RVA: 0x204A3F0 Offset: 0x20489F0 VA: 0x18204A3F0
 	public static ProjectileShoot.Projectile DeserializeLengthDelimited(Stream stream, ProjectileShoot.Projectile instance, bool isDelta) { }
 
-	// RVA: 0x204A910 Offset: 0x2048F10 VA: 0x18204A910
+	// RVA: 0x204A750 Offset: 0x2048D50 VA: 0x18204A750
 	public static ProjectileShoot.Projectile DeserializeLength(Stream stream, int length, ProjectileShoot.Projectile instance, bool isDelta) { }
 
-	// RVA: 0x204B9C0 Offset: 0x2049FC0 VA: 0x18204B9C0
+	// RVA: 0x204B800 Offset: 0x2049E00 VA: 0x18204B800
 	public static void SerializeDelta(Stream stream, ProjectileShoot.Projectile instance, ProjectileShoot.Projectile previous) { }
 
-	// RVA: 0x204BFD0 Offset: 0x204A5D0 VA: 0x18204BFD0
+	// RVA: 0x204BE10 Offset: 0x204A410 VA: 0x18204BE10
 	public static void Serialize(Stream stream, ProjectileShoot.Projectile instance) { }
 
-	// RVA: 0x204C260 Offset: 0x204A860 VA: 0x18204C260
+	// RVA: 0x204C0A0 Offset: 0x204A6A0 VA: 0x18204C0A0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x204C270 Offset: 0x204A870 VA: 0x18204C270
+	// RVA: 0x204C0B0 Offset: 0x204A6B0 VA: 0x18204C0B0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x204BEC0 Offset: 0x204A4C0 VA: 0x18204BEC0
+	// RVA: 0x204BD00 Offset: 0x204A300 VA: 0x18204BD00
 	public static byte[] SerializeToBytes(ProjectileShoot.Projectile instance) { }
 
-	// RVA: 0x204BE10 Offset: 0x204A410 VA: 0x18204BE10
+	// RVA: 0x204BC50 Offset: 0x204A250 VA: 0x18204BC50
 	public static void SerializeLengthDelimited(Stream stream, ProjectileShoot.Projectile instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -366,22 +366,22 @@ public class ProjectileShoot.Projectile : IDisposable, Pool.IPooled, IProto // T
 
 public class BaseProjectile : AttackEntity // TypeDefIndex: 8529
 {	// Fields
-	[HeaderAttribute] // RVA: 0xA5DF0 Offset: 0xA51F0 VA: 0x1800A5DF0
+	[HeaderAttribute] // RVA: 0xA5E80 Offset: 0xA5280 VA: 0x1800A5E80
 	public float NoiseRadius; // 0x280
-	[HeaderAttribute] // RVA: 0xA7220 Offset: 0xA6620 VA: 0x1800A7220
+	[HeaderAttribute] // RVA: 0xA72B0 Offset: 0xA66B0 VA: 0x1800A72B0
 	public float damageScale; // 0x284
 	public float distanceScale; // 0x288
 	public float projectileVelocityScale; // 0x28C
 	public bool automatic; // 0x290
 	public bool usableByTurret; // 0x291
-	[TooltipAttribute] // RVA: 0xA7280 Offset: 0xA6680 VA: 0x1800A7280
+	[TooltipAttribute] // RVA: 0xA7310 Offset: 0xA6710 VA: 0x1800A7310
 	public float turretDamageScale; // 0x294
-	[HeaderAttribute] // RVA: 0x786F0 Offset: 0x77AF0 VA: 0x1800786F0
+	[HeaderAttribute] // RVA: 0x787C0 Offset: 0x77BC0 VA: 0x1800787C0
 	public GameObjectRef attackFX; // 0x298
 	public GameObjectRef silencedAttack; // 0x2A0
 	public GameObjectRef muzzleBrakeAttack; // 0x2A8
 	public Transform MuzzlePoint; // 0x2B0
-	[HeaderAttribute] // RVA: 0xA73E0 Offset: 0xA67E0 VA: 0x1800A73E0
+	[HeaderAttribute] // RVA: 0xA7470 Offset: 0xA6870 VA: 0x1800A7470
 	public float reloadTime; // 0x2B8
 	public bool canUnloadAmmo; // 0x2BC
 	public BaseProjectile.Magazine primaryMagazine; // 0x2C0
@@ -389,11 +389,11 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 8529
 	public float reloadStartDuration; // 0x2CC
 	public float reloadFractionDuration; // 0x2D0
 	public float reloadEndDuration; // 0x2D4
-	[HeaderAttribute] // RVA: 0x7C090 Offset: 0x7B490 VA: 0x18007C090
+	[HeaderAttribute] // RVA: 0x7C140 Offset: 0x7B540 VA: 0x18007C140
 	public float aimSway; // 0x2D8
 	public float aimSwaySpeed; // 0x2DC
 	public RecoilProperties recoil; // 0x2E0
-	[HeaderAttribute] // RVA: 0x7C130 Offset: 0x7B530 VA: 0x18007C130
+	[HeaderAttribute] // RVA: 0x7C200 Offset: 0x7B600 VA: 0x18007C200
 	public AnimationCurve aimconeCurve; // 0x2E8
 	public float aimCone; // 0x2F0
 	public float hipAimCone; // 0x2F4
@@ -402,7 +402,7 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 8529
 	public float aimconePenaltyRecoverTime; // 0x300
 	public float aimconePenaltyRecoverDelay; // 0x304
 	public float stancePenaltyScale; // 0x308
-	[HeaderAttribute] // RVA: 0xA74E0 Offset: 0xA68E0 VA: 0x1800A74E0
+	[HeaderAttribute] // RVA: 0xA75C0 Offset: 0xA69C0 VA: 0x1800A75C0
 	public bool hasADS; // 0x30C
 	public bool noAimingWhileCycling; // 0x30D
 	public bool manualCycle; // 0x30E
@@ -620,7 +620,7 @@ public class BaseProjectile.Magazine // TypeDefIndex: 8530
 	public BaseProjectile.Magazine.Definition definition; // 0x10
 	public int capacity; // 0x18
 	public int contents; // 0x1C
-	[ItemSelector] // RVA: 0xA7560 Offset: 0xA6960 VA: 0x1800A7560
+	[ItemSelector] // RVA: 0xA7690 Offset: 0xA6A90 VA: 0x1800A7690
 	public ItemDefinition ammoType; // 0x20
 
 	// Methods
@@ -644,10 +644,10 @@ public class BaseProjectile.Magazine // TypeDefIndex: 8530
 
 public struct BaseProjectile.Magazine.Definition // TypeDefIndex: 8531
 {	// Fields
-	[TooltipAttribute] // RVA: 0xA7650 Offset: 0xA6A50 VA: 0x1800A7650
+	[TooltipAttribute] // RVA: 0xA76E0 Offset: 0xA6AE0 VA: 0x1800A76E0
 	public int builtInSize; // 0x0
-	[TooltipAttribute] // RVA: 0xA7950 Offset: 0xA6D50 VA: 0x1800A7950
-	[InspectorFlagsAttribute] // RVA: 0xA7950 Offset: 0xA6D50 VA: 0x1800A7950
+	[TooltipAttribute] // RVA: 0xA79E0 Offset: 0xA6DE0 VA: 0x1800A79E0
+	[InspectorFlagsAttribute] // RVA: 0xA79E0 Offset: 0xA6DE0 VA: 0x1800A79E0
 	public AmmoTypes ammoTypes; // 0x4
 
 }
@@ -849,46 +849,46 @@ public class Projectile : BaseMonoBehaviour // TypeDefIndex: 9223
 {	// Fields
 	public const float moveDeltaTime = 0,03125;
 	public const float lifeTime = 8;
-	[HeaderAttribute] // RVA: 0xDA2A0 Offset: 0xD96A0 VA: 0x1800DA2A0
+	[HeaderAttribute] // RVA: 0xDA2F0 Offset: 0xD96F0 VA: 0x1800DA2F0
 	public Vector3 initialVelocity; // 0x18
 	public float drag; // 0x24
 	public float gravityModifier; // 0x28
 	public float thickness; // 0x2C
-	[TooltipAttribute] // RVA: 0xDA4F0 Offset: 0xD98F0 VA: 0x1800DA4F0
+	[TooltipAttribute] // RVA: 0xDA510 Offset: 0xD9910 VA: 0x1800DA510
 	public float initialDistance; // 0x30
 	[HeaderAttribute] // RVA: 0xDA6C0 Offset: 0xD9AC0 VA: 0x1800DA6C0
 	public bool remainInWorld; // 0x34
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float stickProbability; // 0x38
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float breakProbability; // 0x3C
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float conditionLoss; // 0x40
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float ricochetChance; // 0x44
 	public float penetrationPower; // 0x48
-	[HeaderAttribute] // RVA: 0xCB670 Offset: 0xCAA70 VA: 0x1800CB670
+	[HeaderAttribute] // RVA: 0xCB6A0 Offset: 0xCAAA0 VA: 0x1800CB6A0
 	public DamageProperties damageProperties; // 0x50
-	[HorizontalAttribute] // RVA: 0xC8F30 Offset: 0xC8330 VA: 0x1800C8F30
+	[HorizontalAttribute] // RVA: 0xC9010 Offset: 0xC8410 VA: 0x1800C9010
 	public MinMax damageDistances; // 0x58
-	[HorizontalAttribute] // RVA: 0xC8F30 Offset: 0xC8330 VA: 0x1800C8F30
+	[HorizontalAttribute] // RVA: 0xC9010 Offset: 0xC8410 VA: 0x1800C9010
 	public MinMax damageMultipliers; // 0x60
 	public List<DamageTypeEntry> damageTypes; // 0x68
-	[HeaderAttribute] // RVA: 0xDAC40 Offset: 0xDA040 VA: 0x1800DAC40
+	[HeaderAttribute] // RVA: 0xDAC70 Offset: 0xDA070 VA: 0x1800DAC70
 	public ScaleRenderer rendererToScale; // 0x70
 	public ScaleRenderer firstPersonRenderer; // 0x78
 	public bool createDecals; // 0x80
-	[HeaderAttribute] // RVA: 0x786F0 Offset: 0x77AF0 VA: 0x1800786F0
+	[HeaderAttribute] // RVA: 0x787C0 Offset: 0x77BC0 VA: 0x1800787C0
 	public bool doDefaultHitEffects; // 0x81
-	[HeaderAttribute] // RVA: 0x72010 Offset: 0x71410 VA: 0x180072010
+	[HeaderAttribute] // RVA: 0x720C0 Offset: 0x714C0 VA: 0x1800720C0
 	public SoundDefinition flybySound; // 0x88
 	public float flybySoundDistance; // 0x90
 	public SoundDefinition closeFlybySound; // 0x98
 	public float closeFlybyDistance; // 0xA0
-	[HeaderAttribute] // RVA: 0xDAEE0 Offset: 0xDA2E0 VA: 0x1800DAEE0
+	[HeaderAttribute] // RVA: 0xDAED0 Offset: 0xDA2D0 VA: 0x1800DAED0
 	public float tumbleSpeed; // 0xA4
 	public Vector3 tumbleAxis; // 0xA8
-	[HeaderAttribute] // RVA: 0xDAFC0 Offset: 0xDA3C0 VA: 0x1800DAFC0
+	[HeaderAttribute] // RVA: 0xDB030 Offset: 0xDA430 VA: 0x1800DB030
 	public Vector3 swimScale; // 0xB4
 	public Vector3 swimSpeed; // 0xC0
 	public BasePlayer owner; // 0xD0
@@ -1073,11 +1073,11 @@ public class AttackedAIEvent : BaseAIEvent // TypeDefIndex: 9392
 
 public class AttackEntity : HeldEntity // TypeDefIndex: 9460
 {	// Fields
-	[HeaderAttribute] // RVA: 0x71550 Offset: 0x70950 VA: 0x180071550
+	[HeaderAttribute] // RVA: 0x71590 Offset: 0x70990 VA: 0x180071590
 	public float deployDelay; // 0x1F8
 	public float repeatDelay; // 0x1FC
 	public float animationDelay; // 0x200
-	[HeaderAttribute] // RVA: 0x71680 Offset: 0x70A80 VA: 0x180071680
+	[HeaderAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	public float effectiveRange; // 0x204
 	public float npcDamageScale; // 0x208
 	public float attackLengthMin; // 0x20C
@@ -1093,7 +1093,7 @@ public class AttackEntity : HeldEntity // TypeDefIndex: 9460
 	public bool CanUseAtLongRange; // 0x231
 	public SoundDefinition[] reloadSounds; // 0x238
 	public SoundDefinition thirdPersonMeleeSound; // 0x240
-	[HeaderAttribute] // RVA: 0x71760 Offset: 0x70B60 VA: 0x180071760
+	[HeaderAttribute] // RVA: 0x71860 Offset: 0x70C60 VA: 0x180071860
 	public float recoilCompDelayOverride; // 0x248
 	public bool wantsRecoilComp; // 0x24C
 	private float nextAttackTime; // 0x250
@@ -1178,31 +1178,31 @@ public class AttackEntity : HeldEntity // TypeDefIndex: 9460
 
 public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 9626
 {	// Fields
-	[HeaderAttribute] // RVA: 0x7BEB0 Offset: 0x7B2B0 VA: 0x18007BEB0
+	[HeaderAttribute] // RVA: 0x7BF80 Offset: 0x7B380 VA: 0x18007BF80
 	public GameObjectRef defaultSilencerEffect; // 0x168
 	public bool isSilencer; // 0x170
-	[HeaderAttribute] // RVA: 0x7BFB0 Offset: 0x7B3B0 VA: 0x18007BFB0
+	[HeaderAttribute] // RVA: 0x7C0B0 Offset: 0x7B4B0 VA: 0x18007C0B0
 	public ProjectileWeaponMod.Modifier repeatDelay; // 0x174
 	public ProjectileWeaponMod.Modifier projectileVelocity; // 0x180
 	public ProjectileWeaponMod.Modifier projectileDamage; // 0x18C
 	public ProjectileWeaponMod.Modifier projectileDistance; // 0x198
-	[HeaderAttribute] // RVA: 0x7C090 Offset: 0x7B490 VA: 0x18007C090
+	[HeaderAttribute] // RVA: 0x7C140 Offset: 0x7B540 VA: 0x18007C140
 	public ProjectileWeaponMod.Modifier aimsway; // 0x1A4
 	public ProjectileWeaponMod.Modifier aimswaySpeed; // 0x1B0
 	public ProjectileWeaponMod.Modifier recoil; // 0x1BC
-	[HeaderAttribute] // RVA: 0x7C130 Offset: 0x7B530 VA: 0x18007C130
+	[HeaderAttribute] // RVA: 0x7C200 Offset: 0x7B600 VA: 0x18007C200
 	public ProjectileWeaponMod.Modifier sightAimCone; // 0x1C8
 	public ProjectileWeaponMod.Modifier hipAimCone; // 0x1D4
-	[HeaderAttribute] // RVA: 0x7C2F0 Offset: 0x7B6F0 VA: 0x18007C2F0
+	[HeaderAttribute] // RVA: 0x7C3C0 Offset: 0x7B7C0 VA: 0x18007C3C0
 	public bool isLight; // 0x1E0
-	[HeaderAttribute] // RVA: 0x7C3B0 Offset: 0x7B7B0 VA: 0x18007C3B0
+	[HeaderAttribute] // RVA: 0x7C480 Offset: 0x7B880 VA: 0x18007C480
 	public bool isMuzzleBrake; // 0x1E1
-	[HeaderAttribute] // RVA: 0x7C540 Offset: 0x7B940 VA: 0x18007C540
+	[HeaderAttribute] // RVA: 0x7C5C0 Offset: 0x7B9C0 VA: 0x18007C5C0
 	public bool isMuzzleBoost; // 0x1E2
-	[HeaderAttribute] // RVA: 0x7C5D0 Offset: 0x7B9D0 VA: 0x18007C5D0
+	[HeaderAttribute] // RVA: 0x7C6A0 Offset: 0x7BAA0 VA: 0x18007C6A0
 	public bool isScope; // 0x1E3
 	public float zoomAmountDisplayOnly; // 0x1E4
-	[HeaderAttribute] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
+	[HeaderAttribute] // RVA: 0x7C8A0 Offset: 0x7BCA0 VA: 0x18007C8A0
 	public ProjectileWeaponMod.Modifier magazineCapacity; // 0x1E8
 	public bool needsOnForEffects; // 0x1F4
 
@@ -1246,9 +1246,9 @@ public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 9626
 public struct ProjectileWeaponMod.Modifier // TypeDefIndex: 9627
 {	// Fields
 	public bool enabled; // 0x0
-	[TooltipAttribute] // RVA: 0x7C830 Offset: 0x7BC30 VA: 0x18007C830
+	[TooltipAttribute] // RVA: 0x7C940 Offset: 0x7BD40 VA: 0x18007C940
 	public float scalar; // 0x4
-	[TooltipAttribute] // RVA: 0x7C960 Offset: 0x7BD60 VA: 0x18007C960
+	[TooltipAttribute] // RVA: 0x7CA30 Offset: 0x7BE30 VA: 0x18007CA30
 	public float offset; // 0x8
 
 }

@@ -48,7 +48,7 @@ public struct MeshRendererLookup.LookupEntry // TypeDefIndex: 9169
 
 	// Methods
 
-	// RVA: 0xFA960 Offset: 0xF9D60 VA: 0x1800FA960
+	// RVA: 0xFA8E0 Offset: 0xF9CE0 VA: 0x1800FA8E0
 	public void .ctor(MeshRendererInstance instance) { }
 
 }

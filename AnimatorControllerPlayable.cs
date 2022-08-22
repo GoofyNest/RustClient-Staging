@@ -5,19 +5,19 @@ public struct AnimatorControllerPlayable : IEquatable<AnimatorControllerPlayable
 
 	// Methods
 
-	// RVA: 0x23D1A0 Offset: 0x23C5A0 VA: 0x18023D1A0
+	// RVA: 0x23D120 Offset: 0x23C520 VA: 0x18023D120
 	internal void .ctor(PlayableHandle handle) { }
 
-	// RVA: 0x212F40 Offset: 0x212340 VA: 0x180212F40 Slot: 5
+	// RVA: 0x212EC0 Offset: 0x2122C0 VA: 0x180212EC0 Slot: 5
 	public PlayableHandle GetHandle() { }
 
-	// RVA: 0x23D180 Offset: 0x23C580 VA: 0x18023D180
+	// RVA: 0x23D100 Offset: 0x23C500 VA: 0x18023D100
 	public void SetHandle(PlayableHandle handle) { }
 
-	// RVA: 0x23D0F0 Offset: 0x23C4F0 VA: 0x18023D0F0 Slot: 4
+	// RVA: 0x23D070 Offset: 0x23C470 VA: 0x18023D070 Slot: 4
 	public bool Equals(AnimatorControllerPlayable other) { }
 
-	// RVA: 0x22DB7E0 Offset: 0x22D9DE0 VA: 0x1822DB7E0
+	// RVA: 0x22DB620 Offset: 0x22D9C20 VA: 0x1822DB620
 	private static void .cctor() { }
 
 }

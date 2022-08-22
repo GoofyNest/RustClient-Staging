@@ -26,11 +26,11 @@ public static class RemotingServices // TypeDefIndex: 1143
 	// RVA: 0x148A1F0 Offset: 0x14887F0 VA: 0x18148A1F0
 	internal static IMethodReturnMessage InternalExecuteMessage(MarshalByRefObject target, IMethodCallMessage reqMsg) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x1487980 Offset: 0x1485F80 VA: 0x181487980
 	public static object Connect(Type classToProxy, string url) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x1487A20 Offset: 0x1486020 VA: 0x181487A20
 	public static object Connect(Type classToProxy, string url, object data) { }
 
@@ -52,7 +52,7 @@ public static class RemotingServices // TypeDefIndex: 1143
 	// RVA: 0x148AB50 Offset: 0x1489150 VA: 0x18148AB50
 	private static string NewUri() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x148A070 Offset: 0x1488670 VA: 0x18148A070
 	public static RealProxy GetRealProxy(object proxy) { }
 

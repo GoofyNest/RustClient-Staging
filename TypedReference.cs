@@ -9,24 +9,24 @@ public struct TypedReference // TypeDefIndex: 323
 
 	// Methods
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x2144AE0 Offset: 0x21430E0 VA: 0x182144AE0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x2144920 Offset: 0x2142F20 VA: 0x182144920
 	public static TypedReference MakeTypedReference(object target, FieldInfo[] flds) { }
 
-	// RVA: 0x2144AC0 Offset: 0x21430C0 VA: 0x182144AC0
+	// RVA: 0x2144900 Offset: 0x2142F00 VA: 0x182144900
 	private static TypedReference MakeTypedReferenceInternal(object target, FieldInfo[] fields) { }
 
-	// RVA: 0x232A20 Offset: 0x231E20 VA: 0x180232A20 Slot: 2
+	// RVA: 0x2329A0 Offset: 0x231DA0 VA: 0x1802329A0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x232A10 Offset: 0x231E10 VA: 0x180232A10 Slot: 0
+	// RVA: 0x232990 Offset: 0x231D90 VA: 0x180232990 Slot: 0
 	public override bool Equals(object o) { }
 
-	// RVA: 0x232AC0 Offset: 0x231EC0 VA: 0x180232AC0
+	// RVA: 0x232A40 Offset: 0x231E40 VA: 0x180232A40
 	internal bool get_IsNull() { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x2145000 Offset: 0x2143600 VA: 0x182145000
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x2144E40 Offset: 0x2143440 VA: 0x182144E40
 	public static void SetTypedReference(TypedReference target, object value) { }
 
 }

@@ -1,6 +1,6 @@
 public static class SecurityManager // TypeDefIndex: 908
 {	// Properties
-	[ObsoleteAttribute] // RVA: 0xC2020 Offset: 0xC1420 VA: 0x1800C2020
+	[ObsoleteAttribute] // RVA: 0xC1FA0 Offset: 0xC13A0 VA: 0x1800C1FA0
 	public static bool SecurityEnabled { get; }
 
 	// Methods

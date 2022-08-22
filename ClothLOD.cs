@@ -1,6 +1,6 @@
 public class ClothLOD : FacepunchBehaviour // TypeDefIndex: 9924
 {	// Fields
-	[ServerVar] // RVA: 0xA9890 Offset: 0xA8C90 VA: 0x1800A9890
+	[ServerVar] // RVA: 0xA9970 Offset: 0xA8D70 VA: 0x1800A9970
 	public static float clothLODDist; // 0x0
 	public Cloth cloth; // 0x18
 	private bool lastWantsEnabled; // 0x20

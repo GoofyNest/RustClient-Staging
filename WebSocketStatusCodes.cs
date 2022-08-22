@@ -4,7 +4,7 @@ public static class WebSocketStatusCodes // TypeDefIndex: 6933
 
 	// Methods
 
-	// RVA: 0x220C5F0 Offset: 0x220ABF0 VA: 0x18220C5F0
+	// RVA: 0x220C430 Offset: 0x220AA30 VA: 0x18220C430
 	private static void .cctor() { }
 
 }

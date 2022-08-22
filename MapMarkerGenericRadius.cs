@@ -11,7 +11,7 @@ public class MapMarkerGenericRadius : MapMarker // TypeDefIndex: 8602
 	// RVA: 0x5673D0 Offset: 0x5659D0 VA: 0x1805673D0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5670B0 Offset: 0x5656B0 VA: 0x1805670B0
 	public void MarkerUpdate(BaseEntity.RPCMessage msg) { }
 

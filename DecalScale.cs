@@ -1,6 +1,6 @@
 public class DecalScale : DecalComponent // TypeDefIndex: 9178
 {	// Fields
-	[MinMaxAttribute] // RVA: 0xD6090 Offset: 0xD5490 VA: 0x1800D6090
+	[MinMaxAttribute] // RVA: 0xD6100 Offset: 0xD5500 VA: 0x1800D6100
 	public MinMax range; // 0x98
 
 	// Methods

@@ -1,10 +1,10 @@
 public class DungeonNavmesh : FacepunchBehaviour, IServerComponent // TypeDefIndex: 8956
 {	// Fields
 	public int NavMeshAgentTypeIndex; // 0x18
-	[TooltipAttribute] // RVA: 0xC6EA0 Offset: 0xC62A0 VA: 0x1800C6EA0
+	[TooltipAttribute] // RVA: 0xC6F30 Offset: 0xC6330 VA: 0x1800C6F30
 	public string DefaultAreaName; // 0x20
 	public float NavmeshResolutionModifier; // 0x28
-	[TooltipAttribute] // RVA: 0xC6F40 Offset: 0xC6340 VA: 0x1800C6F40
+	[TooltipAttribute] // RVA: 0xC6FD0 Offset: 0xC63D0 VA: 0x1800C6FD0
 	public Bounds Bounds; // 0x2C
 	public NavMeshData NavMeshData; // 0x48
 	public NavMeshDataInstance NavMeshDataInstance; // 0x50
@@ -47,7 +47,7 @@ public class DungeonBaseInfo : LandmarkInfo // TypeDefIndex: 10336
 	// RVA: 0xAB4110 Offset: 0xAB2710 VA: 0x180AB4110
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xAB3F70 Offset: 0xAB2570 VA: 0x180AB3F70
 	private int <Add>b__4_0(DungeonBaseFloor l, DungeonBaseFloor r) { }
 
@@ -98,7 +98,7 @@ public class DungeonBaseLink : MonoBehaviour // TypeDefIndex: 10339
 	public int MaxFloor; // 0x20
 	public int MaxCountLocal; // 0x24
 	public int MaxCountGlobal; // 0x28
-	[TooltipAttribute] // RVA: 0xCC3E0 Offset: 0xCB7E0 VA: 0x1800CC3E0
+	[TooltipAttribute] // RVA: 0xCC530 Offset: 0xCB930 VA: 0x1800CC530
 	public int MaxCountIdentifier; // 0x2C
 	internal DungeonBaseInfo Dungeon; // 0x30
 	public MeshRenderer[] MapRenderers; // 0x38
@@ -223,14 +223,14 @@ public struct DungeonGridConnectionHash // TypeDefIndex: 10347
 
 	// Methods
 
-	// RVA: 0xFC650 Offset: 0xFBA50 VA: 0x1800FC650
+	// RVA: 0xFC5D0 Offset: 0xFB9D0 VA: 0x1800FC5D0
 	public int get_Value() { }
 
 }
 
 public class DungeonGridInfo : LandmarkInfo // TypeDefIndex: 10348
 {	// Fields
-	[HeaderAttribute] // RVA: 0xCC4B0 Offset: 0xCB8B0 VA: 0x1800CC4B0
+	[HeaderAttribute] // RVA: 0xCC600 Offset: 0xCBA00 VA: 0x1800CC600
 	public int CellSize; // 0x30
 	public float LinkHeight; // 0x34
 	public float LinkRadius; // 0x38

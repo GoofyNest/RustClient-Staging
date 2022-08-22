@@ -22,11 +22,11 @@ public class WaterInflatable : BaseMountable, IPoolVehicle, INotifyTrigger // Ty
 	public Buoyancy buoyancy; // 0x3A0
 	public bool driftTowardsIsland; // 0x3A8
 	public GameObjectRef mountEffect; // 0x3B0
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float handSplashOffset; // 0x3B8
 	public float velocitySplashMultiplier; // 0x3BC
 	public Vector3 modifyEyeOffset; // 0x3C0
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float inheritVelocityMultiplier; // 0x3CC
 	private TimeSince lastPaddle; // 0x3D0
 	public ParticleSystem[] movingParticleSystems; // 0x3D8
@@ -49,7 +49,7 @@ public class WaterInflatable : BaseMountable, IPoolVehicle, INotifyTrigger // Ty
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 171
 	public override bool get_IsSummerDlcVehicle() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC13BD0 Offset: 0xC121D0 VA: 0x180C13BD0
 	public void OnPaddled(BaseEntity.RPCMessage msg) { }
 

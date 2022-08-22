@@ -5,16 +5,16 @@ public struct AABB // TypeDefIndex: 6585
 
 	// Methods
 
-	// RVA: 0x22BE30 Offset: 0x22B230 VA: 0x18022BE30
+	// RVA: 0x22BDB0 Offset: 0x22B1B0 VA: 0x18022BDB0
 	public void .ctor(Vector3 position, Vector3 size) { }
 
-	// RVA: 0x22BC60 Offset: 0x22B060 VA: 0x18022BC60
+	// RVA: 0x22BBE0 Offset: 0x22AFE0 VA: 0x18022BBE0
 	public bool Contains(Vector3 target) { }
 
-	// RVA: 0x22BC20 Offset: 0x22B020 VA: 0x18022BC20
+	// RVA: 0x22BBA0 Offset: 0x22AFA0 VA: 0x18022BBA0
 	public Vector3 ClosestPoint(Vector3 target) { }
 
-	// RVA: 0x22BDE0 Offset: 0x22B1E0 VA: 0x18022BDE0
+	// RVA: 0x22BD60 Offset: 0x22B160 VA: 0x18022BD60
 	public bool Trace(Ray ray, out RaycastHit hit, float radius = 0, float maxDistance = ∞) { }
 
 }

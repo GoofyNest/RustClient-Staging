@@ -15,7 +15,7 @@ public class BigWheelGame : SpinnerWheel // TypeDefIndex: 8744
 	// RVA: 0x511760 Offset: 0x50FD60 VA: 0x180511760
 	public HitNumber GetCurrentHitType() { }
 
-	[ContextMenu] // RVA: 0xBDEA0 Offset: 0xBD2A0 VA: 0x1800BDEA0
+	[ContextMenu] // RVA: 0xBDF80 Offset: 0xBD380 VA: 0x1800BDF80
 	// RVA: 0x511920 Offset: 0x50FF20 VA: 0x180511920
 	private void LoadHitNumbers() { }
 

@@ -6,13 +6,13 @@ public class SkullTrophy : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 	// Methods
 
-	// RVA: 0x1E0E570 Offset: 0x1E0CB70 VA: 0x181E0E570
+	// RVA: 0x1E0E3B0 Offset: 0x1E0C9B0 VA: 0x181E0E3B0
 	public static void ResetToPool(SkullTrophy instance) { }
 
-	// RVA: 0x1E0E600 Offset: 0x1E0CC00 VA: 0x181E0E600
+	// RVA: 0x1E0E440 Offset: 0x1E0CA40 VA: 0x181E0E440
 	public void ResetToPool() { }
 
-	// RVA: 0x1E0E420 Offset: 0x1E0CA20 VA: 0x181E0E420 Slot: 9
+	// RVA: 0x1E0E260 Offset: 0x1E0C860 VA: 0x181E0E260 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -21,64 +21,64 @@ public class SkullTrophy : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D67D50 Offset: 0x1D66350 VA: 0x181D67D50
+	// RVA: 0x1D67B90 Offset: 0x1D66190 VA: 0x181D67B90
 	public void CopyTo(SkullTrophy instance) { }
 
-	// RVA: 0x1E0DA80 Offset: 0x1E0C080 VA: 0x181E0DA80
+	// RVA: 0x1E0D8C0 Offset: 0x1E0BEC0 VA: 0x181E0D8C0
 	public SkullTrophy Copy() { }
 
-	// RVA: 0x1E0E3A0 Offset: 0x1E0C9A0 VA: 0x181E0E3A0
+	// RVA: 0x1E0E1E0 Offset: 0x1E0C7E0 VA: 0x181E0E1E0
 	public static SkullTrophy Deserialize(Stream stream) { }
 
-	// RVA: 0x1E0DB00 Offset: 0x1E0C100 VA: 0x181E0DB00
+	// RVA: 0x1E0D940 Offset: 0x1E0BF40 VA: 0x181E0D940
 	public static SkullTrophy DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E0DDA0 Offset: 0x1E0C3A0 VA: 0x181E0DDA0
+	// RVA: 0x1E0DBE0 Offset: 0x1E0C1E0 VA: 0x181E0DBE0
 	public static SkullTrophy DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E0E030 Offset: 0x1E0C630 VA: 0x181E0E030
+	// RVA: 0x1E0DE70 Offset: 0x1E0C470 VA: 0x181E0DE70
 	public static SkullTrophy Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E0E530 Offset: 0x1E0CB30 VA: 0x181E0E530
+	// RVA: 0x1E0E370 Offset: 0x1E0C970 VA: 0x181E0E370
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E0EA70 Offset: 0x1E0D070 VA: 0x181E0EA70 Slot: 12
+	// RVA: 0x1E0E8B0 Offset: 0x1E0CEB0 VA: 0x181E0E8B0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E0EA90 Offset: 0x1E0D090 VA: 0x181E0EA90 Slot: 13
+	// RVA: 0x1E0E8D0 Offset: 0x1E0CED0 VA: 0x181E0E8D0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, SkullTrophy previous) { }
 
-	// RVA: 0x1E0E550 Offset: 0x1E0CB50 VA: 0x181E0E550 Slot: 14
+	// RVA: 0x1E0E390 Offset: 0x1E0C990 VA: 0x181E0E390 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E0E2A0 Offset: 0x1E0C8A0 VA: 0x181E0E2A0
+	// RVA: 0x1E0E0E0 Offset: 0x1E0C6E0 VA: 0x181E0E0E0
 	public static SkullTrophy Deserialize(byte[] buffer, SkullTrophy instance, bool isDelta = False) { }
 
-	// RVA: 0x1E0E150 Offset: 0x1E0C750 VA: 0x181E0E150
+	// RVA: 0x1E0DF90 Offset: 0x1E0C590 VA: 0x181E0DF90
 	public static SkullTrophy Deserialize(Stream stream, SkullTrophy instance, bool isDelta) { }
 
-	// RVA: 0x1E0DB80 Offset: 0x1E0C180 VA: 0x181E0DB80
+	// RVA: 0x1E0D9C0 Offset: 0x1E0BFC0 VA: 0x181E0D9C0
 	public static SkullTrophy DeserializeLengthDelimited(Stream stream, SkullTrophy instance, bool isDelta) { }
 
-	// RVA: 0x1E0DE30 Offset: 0x1E0C430 VA: 0x181E0DE30
+	// RVA: 0x1E0DC70 Offset: 0x1E0C270 VA: 0x181E0DC70
 	public static SkullTrophy DeserializeLength(Stream stream, int length, SkullTrophy instance, bool isDelta) { }
 
-	// RVA: 0x1E0E690 Offset: 0x1E0CC90 VA: 0x181E0E690
+	// RVA: 0x1E0E4D0 Offset: 0x1E0CAD0 VA: 0x181E0E4D0
 	public static void SerializeDelta(Stream stream, SkullTrophy instance, SkullTrophy previous) { }
 
-	// RVA: 0x1E0E970 Offset: 0x1E0CF70 VA: 0x181E0E970
+	// RVA: 0x1E0E7B0 Offset: 0x1E0CDB0 VA: 0x181E0E7B0
 	public static void Serialize(Stream stream, SkullTrophy instance) { }
 
-	// RVA: 0x1E0EA60 Offset: 0x1E0D060 VA: 0x181E0EA60
+	// RVA: 0x1E0E8A0 Offset: 0x1E0CEA0 VA: 0x181E0E8A0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E0EA70 Offset: 0x1E0D070 VA: 0x181E0EA70
+	// RVA: 0x1E0E8B0 Offset: 0x1E0CEB0 VA: 0x181E0E8B0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E0E860 Offset: 0x1E0CE60 VA: 0x181E0E860
+	// RVA: 0x1E0E6A0 Offset: 0x1E0CCA0 VA: 0x181E0E6A0
 	public static byte[] SerializeToBytes(SkullTrophy instance) { }
 
-	// RVA: 0x1E0E7B0 Offset: 0x1E0CDB0 VA: 0x181E0E7B0
+	// RVA: 0x1E0E5F0 Offset: 0x1E0CBF0 VA: 0x181E0E5F0
 	public static void SerializeLengthDelimited(Stream stream, SkullTrophy instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80

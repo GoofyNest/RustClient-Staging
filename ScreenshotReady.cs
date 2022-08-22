@@ -10,10 +10,10 @@ internal struct ScreenshotReady_t : ICallbackData // TypeDefIndex: 5406
 
 	// Methods
 
-	// RVA: 0x1D7D60 Offset: 0x1D7160 VA: 0x1801D7D60 Slot: 5
+	// RVA: 0x1D7CE0 Offset: 0x1D70E0 VA: 0x1801D7CE0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7D50 Offset: 0x1D7150 VA: 0x1801D7D50 Slot: 4
+	// RVA: 0x1D7CD0 Offset: 0x1D70D0 VA: 0x1801D7CD0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128EBF0 Offset: 0x128D1F0 VA: 0x18128EBF0

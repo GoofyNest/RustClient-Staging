@@ -34,7 +34,7 @@ public abstract class PrimeGeneratorBase // TypeDefIndex: 1770
 	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 4
 	public virtual ConfidenceFactor get_Confidence() { }
 
-	// RVA: 0x1AC1D50 Offset: 0x1AC0350 VA: 0x181AC1D50 Slot: 5
+	// RVA: 0x1AC1B90 Offset: 0x1AC0190 VA: 0x181AC1B90 Slot: 5
 	public virtual PrimalityTest get_PrimalityTest() { }
 
 	// RVA: 0x16485B0 Offset: 0x1646BB0 VA: 0x1816485B0 Slot: 6

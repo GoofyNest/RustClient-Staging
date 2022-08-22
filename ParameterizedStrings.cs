@@ -1,6 +1,6 @@
 internal static class ParameterizedStrings // TypeDefIndex: 394
 {	// Fields
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static ParameterizedStrings.LowLevelStack _cachedStack; // 0x80000000
 
 	// Methods
@@ -46,22 +46,22 @@ public struct ParameterizedStrings.FormatParam // TypeDefIndex: 395
 
 	// Methods
 
-	// RVA: 0x2152C0 Offset: 0x2146C0 VA: 0x1802152C0
+	// RVA: 0x215240 Offset: 0x214640 VA: 0x180215240
 	public void .ctor(int value) { }
 
-	// RVA: 0xFCB60 Offset: 0xFBF60 VA: 0x1800FCB60
+	// RVA: 0xFCAE0 Offset: 0xFBEE0 VA: 0x1800FCAE0
 	private void .ctor(int intValue, string stringValue) { }
 
-	// RVA: 0x18C9930 Offset: 0x18C7F30 VA: 0x1818C9930
+	// RVA: 0x18C98F0 Offset: 0x18C7EF0 VA: 0x1818C98F0
 	public static ParameterizedStrings.FormatParam op_Implicit(int value) { }
 
-	// RVA: 0xF37A0 Offset: 0xF2BA0 VA: 0x1800F37A0
+	// RVA: 0xF3720 Offset: 0xF2B20 VA: 0x1800F3720
 	public int get_Int32() { }
 
-	// RVA: 0x215330 Offset: 0x214730 VA: 0x180215330
+	// RVA: 0x2152B0 Offset: 0x2146B0 VA: 0x1802152B0
 	public string get_String() { }
 
-	// RVA: 0x2152E0 Offset: 0x2146E0 VA: 0x1802152E0
+	// RVA: 0x215260 Offset: 0x214660 VA: 0x180215260
 	public object get_Object() { }
 
 }
@@ -73,16 +73,16 @@ private sealed class ParameterizedStrings.LowLevelStack // TypeDefIndex: 396
 
 	// Methods
 
-	// RVA: 0x18CA470 Offset: 0x18C8A70 VA: 0x1818CA470
+	// RVA: 0x18CA430 Offset: 0x18C8A30 VA: 0x1818CA430
 	public void .ctor() { }
 
-	// RVA: 0x18CA2C0 Offset: 0x18C88C0 VA: 0x1818CA2C0
+	// RVA: 0x18CA280 Offset: 0x18C8880 VA: 0x1818CA280
 	public ParameterizedStrings.FormatParam Pop() { }
 
-	// RVA: 0x18CA370 Offset: 0x18C8970 VA: 0x1818CA370
+	// RVA: 0x18CA330 Offset: 0x18C8930 VA: 0x1818CA330
 	public void Push(ParameterizedStrings.FormatParam item) { }
 
-	// RVA: 0x18CA290 Offset: 0x18C8890 VA: 0x1818CA290
+	// RVA: 0x18CA250 Offset: 0x18C8850 VA: 0x1818CA250
 	public void Clear() { }
 
 }

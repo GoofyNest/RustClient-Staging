@@ -12,10 +12,10 @@ public abstract class MD5 : HashAlgorithm // TypeDefIndex: 971
 public class Md5 // TypeDefIndex: 4848
 {	// Methods
 
-	// RVA: 0x226E7D0 Offset: 0x226CDD0 VA: 0x18226E7D0
+	// RVA: 0x226E610 Offset: 0x226CC10 VA: 0x18226E610
 	public static string Calculate(string input) { }
 
-	// RVA: 0x226E8F0 Offset: 0x226CEF0 VA: 0x18226E8F0
+	// RVA: 0x226E730 Offset: 0x226CD30 VA: 0x18226E730
 	public static string Calculate(byte[] input) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

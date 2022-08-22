@@ -11,19 +11,19 @@ internal struct ComputedStyle // TypeDefIndex: 4706
 
 	// Methods
 
-	// RVA: 0x139E20 Offset: 0x139220 VA: 0x180139E20
+	// RVA: 0x139DA0 Offset: 0x1391A0 VA: 0x180139DA0
 	private VisualElementStylesData get_stylesData() { }
 
-	// RVA: 0x139DE0 Offset: 0x1391E0 VA: 0x180139DE0
+	// RVA: 0x139D60 Offset: 0x139160 VA: 0x180139D60
 	private InheritedStylesData get_inheritedStylesData() { }
 
-	// RVA: 0x139E00 Offset: 0x139200 VA: 0x180139E00
+	// RVA: 0x139D80 Offset: 0x139180 VA: 0x180139D80
 	public StyleEnum<Overflow> get_overflow() { }
 
-	// RVA: 0x139DC0 Offset: 0x1391C0 VA: 0x180139DC0
+	// RVA: 0x139D40 Offset: 0x139140 VA: 0x180139D40
 	public StyleEnum<DisplayStyle> get_display() { }
 
-	// RVA: 0x139E40 Offset: 0x139240 VA: 0x180139E40
+	// RVA: 0x139DC0 Offset: 0x1391C0 VA: 0x180139DC0
 	public StyleEnum<Visibility> get_visibility() { }
 
 }

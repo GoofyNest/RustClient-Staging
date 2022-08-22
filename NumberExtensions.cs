@@ -1,7 +1,7 @@
 public static class NumberExtensions // TypeDefIndex: 4844
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static string FormatBytes<T>(T input, bool shortFormat = False) { }
 	/* GenericInstMethod :
@@ -16,7 +16,7 @@ public static class NumberExtensions // TypeDefIndex: 4844
 	|-NumberExtensions.FormatBytes<ulong>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static T Clamp<T>(T input, T min, T max) { }
 	/* GenericInstMethod :
@@ -25,32 +25,32 @@ public static class NumberExtensions // TypeDefIndex: 4844
 	|-NumberExtensions.Clamp<int>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x226F8E0 Offset: 0x226DEE0 VA: 0x18226F8E0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x226F720 Offset: 0x226DD20 VA: 0x18226F720
 	public static string FormatSeconds(ulong i) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x226F8F0 Offset: 0x226DEF0 VA: 0x18226F8F0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x226F730 Offset: 0x226DD30 VA: 0x18226F730
 	public static string FormatSeconds(long s) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x226F8D0 Offset: 0x226DED0 VA: 0x18226F8D0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x226F710 Offset: 0x226DD10 VA: 0x18226F710
 	public static string FormatSecondsLong(ulong i) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x226ED80 Offset: 0x226D380 VA: 0x18226ED80
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x226EBC0 Offset: 0x226D1C0 VA: 0x18226EBC0
 	public static string FormatSecondsLong(long s) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x226ECB0 Offset: 0x226D2B0 VA: 0x18226ECB0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x226EAF0 Offset: 0x226D0F0 VA: 0x18226EAF0
 	public static string FormatNumberShort(ulong i) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x226ECC0 Offset: 0x226D2C0 VA: 0x18226ECC0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x226EB00 Offset: 0x226D100 VA: 0x18226EB00
 	public static string FormatNumberShort(long num) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x226EC50 Offset: 0x226D250 VA: 0x18226EC50
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x226EA90 Offset: 0x226D090 VA: 0x18226EA90
 	public static string FormatDistance(float num) { }
 
 }

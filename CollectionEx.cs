@@ -1,7 +1,7 @@
 public static class CollectionEx // TypeDefIndex: 11344
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool IsNullOrEmpty<T>(ICollection<T> collection) { }
 	/* GenericInstMethod :
@@ -14,7 +14,7 @@ public static class CollectionEx // TypeDefIndex: 11344
 	|-CollectionEx.IsNullOrEmpty<Material>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool IsEmpty<T>(ICollection<T> collection) { }
 	/* GenericInstMethod :

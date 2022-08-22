@@ -1,6 +1,6 @@
 public class GrowableGeneProperties : ScriptableObject // TypeDefIndex: 9543
 {	// Fields
-	[ArrayIndexIsEnum] // RVA: 0x76D20 Offset: 0x76120 VA: 0x180076D20
+	[ArrayIndexIsEnum] // RVA: 0x76E40 Offset: 0x76240 VA: 0x180076E40
 	public GrowableGeneProperties.GeneWeight[] Weights; // 0x18
 
 	// Methods

@@ -98,11 +98,11 @@ public class InventoryDef : IEquatable<InventoryDef> // TypeDefIndex: 5239
 	// RVA: 0xDE05F0 Offset: 0xDDEBF0 VA: 0x180DE05F0 Slot: 4
 	public bool Equals(InventoryDef p) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE0CA0 Offset: 0xDDF2A0 VA: 0x180DE0CA0
 	private InventoryRecipe <GetRecipes>b__21_0(string x) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDE0C80 Offset: 0xDDF280 VA: 0x180DE0C80
 	private bool <GetRecipesContainingThis>b__44_3(InventoryRecipe x) { }
 

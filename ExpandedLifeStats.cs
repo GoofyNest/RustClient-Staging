@@ -2,13 +2,13 @@ public class ExpandedLifeStats : MonoBehaviour // TypeDefIndex: 10924
 {	// Fields
 	public GameObject DisplayRoot; // 0x18
 	public GameObjectRef GenericStatRow; // 0x20
-	[HeaderAttribute] // RVA: 0x8ABC0 Offset: 0x89FC0 VA: 0x18008ABC0
+	[HeaderAttribute] // RVA: 0x8ACB0 Offset: 0x8A0B0 VA: 0x18008ACB0
 	public Transform ResourcesStatRoot; // 0x28
 	public List<ExpandedLifeStats.GenericStatDisplay> ResourceStats; // 0x30
-	[HeaderAttribute] // RVA: 0x8AC90 Offset: 0x8A090 VA: 0x18008AC90
+	[HeaderAttribute] // RVA: 0x8AD80 Offset: 0x8A180 VA: 0x18008AD80
 	public GameObjectRef WeaponStatRow; // 0x38
 	public Transform WeaponsRoot; // 0x40
-	[HeaderAttribute] // RVA: 0x71E00 Offset: 0x71200 VA: 0x180071E00
+	[HeaderAttribute] // RVA: 0x71EA0 Offset: 0x712A0 VA: 0x180071EA0
 	public Transform MiscRoot; // 0x48
 	public List<ExpandedLifeStats.GenericStatDisplay> MiscStats; // 0x50
 	public LifeInfographic Infographic; // 0x58
@@ -33,7 +33,7 @@ public class ExpandedLifeStats : MonoBehaviour // TypeDefIndex: 10924
 	// RVA: 0x8CEB60 Offset: 0x8CD160 VA: 0x1808CEB60
 	private void PopulateDynamicStats() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x8AE10 Offset: 0x8A210 VA: 0x18008AE10
+	[IteratorStateMachineAttribute] // RVA: 0x8AE80 Offset: 0x8A280 VA: 0x18008AE80
 	// RVA: 0x8CF890 Offset: 0x8CDE90 VA: 0x1808CF890
 	private IEnumerator WaitAndRelayout() { }
 
@@ -89,26 +89,26 @@ private sealed class ExpandedLifeStats.<WaitAndRelayout>d__22 : IEnumerator<obje
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x8D9CF0 Offset: 0x8D82F0 VA: 0x1808D9CF0 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D9EA0 Offset: 0x8D84A0 VA: 0x1808D9EA0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 

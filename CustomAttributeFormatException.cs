@@ -1,7 +1,7 @@
 public class CustomAttributeFormatException : FormatException // TypeDefIndex: 562
 {	// Methods
 
-	// RVA: 0x18C7B10 Offset: 0x18C6110 VA: 0x1818C7B10
+	// RVA: 0x18C7AD0 Offset: 0x18C60D0 VA: 0x1818C7AD0
 	public void .ctor() { }
 
 	// RVA: 0x1524C00 Offset: 0x1523200 VA: 0x181524C00

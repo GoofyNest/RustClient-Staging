@@ -19,7 +19,7 @@ public class IPAddress // TypeDefIndex: 2882
 	internal const int NumberOfLabels = 8;
 
 	// Properties
-	[ObsoleteAttribute] // RVA: 0xB36B0 Offset: 0xB2AB0 VA: 0x1800B36B0
+	[ObsoleteAttribute] // RVA: 0xB3690 Offset: 0xB2A90 VA: 0x1800B3690
 	public long Address { get; }
 	public AddressFamily AddressFamily { get; }
 	public long ScopeId { get; }

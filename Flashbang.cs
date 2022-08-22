@@ -17,7 +17,7 @@ public class Flashbang : TimedExplosive // TypeDefIndex: 8570
 	// RVA: 0x791910 Offset: 0x78FF10 VA: 0x180791910
 	public void FlashFrom(Vector3 pos, float amount) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7918A0 Offset: 0x78FEA0 VA: 0x1807918A0
 	public void Client_DoFlash(BaseEntity.RPCMessage msg) { }
 

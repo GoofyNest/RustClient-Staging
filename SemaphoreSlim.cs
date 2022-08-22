@@ -40,7 +40,7 @@ public class SemaphoreSlim : IDisposable // TypeDefIndex: 759
 	// RVA: 0x14999A0 Offset: 0x1497FA0 VA: 0x1814999A0
 	private bool RemoveAsyncWaiter(SemaphoreSlim.TaskNode task) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB2C20 Offset: 0xB2020 VA: 0x1800B2C20
+	[AsyncStateMachineAttribute] // RVA: 0xB2C00 Offset: 0xB2000 VA: 0x1800B2C00
 	// RVA: 0x1499FD0 Offset: 0x14985D0 VA: 0x181499FD0
 	private Task<bool> WaitUntilCountOrTimeoutAsync(SemaphoreSlim.TaskNode asyncWaiter, int millisecondsTimeout, CancellationToken cancellationToken) { }
 
@@ -106,11 +106,11 @@ private struct SemaphoreSlim.<WaitUntilCountOrTimeoutAsync>d__31 : IAsyncStateMa
 
 	// Methods
 
-	// RVA: 0x1F0B70 Offset: 0x1EFF70 VA: 0x1801F0B70 Slot: 4
+	// RVA: 0x1F0AF0 Offset: 0x1EFEF0 VA: 0x1801F0AF0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1F0B80 Offset: 0x1EFF80 VA: 0x1801F0B80 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1F0B00 Offset: 0x1EFF00 VA: 0x1801F0B00 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

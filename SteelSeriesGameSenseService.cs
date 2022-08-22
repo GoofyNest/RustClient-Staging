@@ -13,49 +13,49 @@ public class SteelSeriesGameSenseService : RestRgbService // TypeDefIndex: 7693
 
 	// Methods
 
-	[AsyncStateMachineAttribute] // RVA: 0xB9FD0 Offset: 0xB93D0 VA: 0x1800B9FD0
-	// RVA: 0x21C21E0 Offset: 0x21C07E0 VA: 0x1821C21E0 Slot: 13
+	[AsyncStateMachineAttribute] // RVA: 0xBA070 Offset: 0xB9470 VA: 0x1800BA070
+	// RVA: 0x21C2020 Offset: 0x21C0620 VA: 0x1821C2020 Slot: 13
 	protected override ValueTask<bool> Initialize() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBB450 Offset: 0xBA850 VA: 0x1800BB450
-	// RVA: 0x21C2720 Offset: 0x21C0D20 VA: 0x1821C2720 Slot: 14
+	[AsyncStateMachineAttribute] // RVA: 0xBB4B0 Offset: 0xBA8B0 VA: 0x1800BB4B0
+	// RVA: 0x21C2560 Offset: 0x21C0B60 VA: 0x1821C2560 Slot: 14
 	protected override ValueTask Shutdown() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBB670 Offset: 0xBAA70 VA: 0x1800BB670
-	// RVA: 0x21C23F0 Offset: 0x21C09F0 VA: 0x1821C23F0 Slot: 15
+	[AsyncStateMachineAttribute] // RVA: 0xBB710 Offset: 0xBAB10 VA: 0x1800BB710
+	// RVA: 0x21C2230 Offset: 0x21C0830 VA: 0x1821C2230 Slot: 15
 	protected override Task SendHeartbeat() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBB810 Offset: 0xBAC10 VA: 0x1800BB810
-	// RVA: 0x21C2610 Offset: 0x21C0C10 VA: 0x1821C2610 Slot: 16
+	[AsyncStateMachineAttribute] // RVA: 0xBB8B0 Offset: 0xBACB0 VA: 0x1800BB8B0
+	// RVA: 0x21C2450 Offset: 0x21C0A50 VA: 0x1821C2450 Slot: 16
 	protected override Task SendStaticColor(Color color) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBB930 Offset: 0xBAD30 VA: 0x1800BB930
-	// RVA: 0x21C24E0 Offset: 0x21C0AE0 VA: 0x1821C24E0 Slot: 17
+	[AsyncStateMachineAttribute] // RVA: 0xBB9D0 Offset: 0xBADD0 VA: 0x1800BB9D0
+	// RVA: 0x21C2320 Offset: 0x21C0920 VA: 0x1821C2320 Slot: 17
 	protected override Task SendPulseColor(Color color, float duration) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBBA20 Offset: 0xBAE20 VA: 0x1800BBA20
-	// RVA: 0x21C22F0 Offset: 0x21C08F0 VA: 0x1821C22F0 Slot: 18
+	[AsyncStateMachineAttribute] // RVA: 0xBBAB0 Offset: 0xBAEB0 VA: 0x1800BBAB0
+	// RVA: 0x21C2130 Offset: 0x21C0730 VA: 0x1821C2130 Slot: 18
 	protected override Task SendEvent(RgbEventType type) { }
 
-	// RVA: 0x21C2820 Offset: 0x21C0E20 VA: 0x1821C2820
+	// RVA: 0x21C2660 Offset: 0x21C0C60 VA: 0x1821C2660
 	private static string TryGetMomentsEvent(RgbEventType type) { }
 
-	// RVA: 0x21C1D30 Offset: 0x21C0330 VA: 0x1821C1D30
+	// RVA: 0x21C1B70 Offset: 0x21C0170 VA: 0x1821C1B70
 	private ColorData GetColorData(Color color) { }
 
-	// RVA: 0x21C1F80 Offset: 0x21C0580 VA: 0x1821C1F80
+	// RVA: 0x21C1DC0 Offset: 0x21C03C0 VA: 0x1821C1DC0
 	private string GetEndpoint(string path) { }
 
-	// RVA: 0x21C1FE0 Offset: 0x21C05E0 VA: 0x1821C1FE0
+	// RVA: 0x21C1E20 Offset: 0x21C0420 VA: 0x1821C1E20
 	private static string GetGameSenseAddress() { }
 
-	// RVA: 0x21C1E40 Offset: 0x21C0440 VA: 0x1821C1E40
+	// RVA: 0x21C1C80 Offset: 0x21C0280 VA: 0x1821C1C80
 	private static string GetCorePropsPath() { }
 
-	// RVA: 0x21C0C90 Offset: 0x21BF290 VA: 0x1821C0C90
+	// RVA: 0x21C0AD0 Offset: 0x21BF0D0 VA: 0x1821C0AD0
 	public void .ctor() { }
 
-	// RVA: 0x21C2870 Offset: 0x21C0E70 VA: 0x1821C2870
+	// RVA: 0x21C26B0 Offset: 0x21C0CB0 VA: 0x1821C26B0
 	private static void .cctor() { }
 
 }
@@ -70,11 +70,11 @@ private struct SteelSeriesGameSenseService.<Initialize>d__10 : IAsyncStateMachin
 
 	// Methods
 
-	// RVA: 0x236F20 Offset: 0x236320 VA: 0x180236F20 Slot: 4
+	// RVA: 0x236EA0 Offset: 0x2362A0 VA: 0x180236EA0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x236F30 Offset: 0x236330 VA: 0x180236F30 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x236EB0 Offset: 0x2362B0 VA: 0x180236EB0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -88,11 +88,11 @@ private struct SteelSeriesGameSenseService.<Shutdown>d__11 : IAsyncStateMachine 
 
 	// Methods
 
-	// RVA: 0x236FE0 Offset: 0x2363E0 VA: 0x180236FE0 Slot: 4
+	// RVA: 0x236F60 Offset: 0x236360 VA: 0x180236F60 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x236FF0 Offset: 0x2363F0 VA: 0x180236FF0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x236F70 Offset: 0x236370 VA: 0x180236F70 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -106,11 +106,11 @@ private struct SteelSeriesGameSenseService.<SendHeartbeat>d__12 : IAsyncStateMac
 
 	// Methods
 
-	// RVA: 0x236FB0 Offset: 0x2363B0 VA: 0x180236FB0 Slot: 4
+	// RVA: 0x236F30 Offset: 0x236330 VA: 0x180236F30 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -125,11 +125,11 @@ private struct SteelSeriesGameSenseService.<SendStaticColor>d__13 : IAsyncStateM
 
 	// Methods
 
-	// RVA: 0x236FD0 Offset: 0x2363D0 VA: 0x180236FD0 Slot: 4
+	// RVA: 0x236F50 Offset: 0x236350 VA: 0x180236F50 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -145,11 +145,11 @@ private struct SteelSeriesGameSenseService.<SendPulseColor>d__14 : IAsyncStateMa
 
 	// Methods
 
-	// RVA: 0x236FC0 Offset: 0x2363C0 VA: 0x180236FC0 Slot: 4
+	// RVA: 0x236F40 Offset: 0x236340 VA: 0x180236F40 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -164,11 +164,11 @@ private struct SteelSeriesGameSenseService.<SendEvent>d__15 : IAsyncStateMachine
 
 	// Methods
 
-	// RVA: 0x236F90 Offset: 0x236390 VA: 0x180236F90 Slot: 4
+	// RVA: 0x236F10 Offset: 0x236310 VA: 0x180236F10 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

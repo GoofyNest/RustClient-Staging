@@ -191,22 +191,22 @@ public class PKCS12 : ICloneable // TypeDefIndex: 1711
 
 	// Methods
 
-	// RVA: 0x1ABFEB0 Offset: 0x1ABE4B0 VA: 0x181ABFEB0
+	// RVA: 0x1ABFCF0 Offset: 0x1ABE2F0 VA: 0x181ABFCF0
 	public void .ctor() { }
 
-	// RVA: 0x1ABFFA0 Offset: 0x1ABE5A0 VA: 0x181ABFFA0
+	// RVA: 0x1ABFDE0 Offset: 0x1ABE3E0 VA: 0x181ABFDE0
 	public void .ctor(byte[] data) { }
 
-	// RVA: 0x1ABFE60 Offset: 0x1ABE460 VA: 0x181ABFE60
+	// RVA: 0x1ABFCA0 Offset: 0x1ABE2A0 VA: 0x181ABFCA0
 	public void .ctor(byte[] data, string password) { }
 
-	// RVA: 0x1ABACE0 Offset: 0x1AB92E0 VA: 0x181ABACE0
+	// RVA: 0x1ABAB20 Offset: 0x1AB9120 VA: 0x181ABAB20
 	private void Decode(byte[] data) { }
 
 	// RVA: 0x174E560 Offset: 0x174CB60 VA: 0x18174E560 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1AC09F0 Offset: 0x1ABEFF0 VA: 0x181AC09F0
+	// RVA: 0x1AC0830 Offset: 0x1ABEE30 VA: 0x181AC0830
 	public void set_Password(string value) { }
 
 	// RVA: 0x5E2F40 Offset: 0x5E1540 VA: 0x1805E2F40
@@ -215,10 +215,10 @@ public class PKCS12 : ICloneable // TypeDefIndex: 1711
 	// RVA: 0xD73D10 Offset: 0xD72310 VA: 0x180D73D10
 	public void set_IterationCount(int value) { }
 
-	// RVA: 0x1AC0350 Offset: 0x1ABE950 VA: 0x181AC0350
+	// RVA: 0x1AC0190 Offset: 0x1ABE790 VA: 0x181AC0190
 	public ArrayList get_Keys() { }
 
-	// RVA: 0x1AC0020 Offset: 0x1ABE620 VA: 0x181AC0020
+	// RVA: 0x1ABFE60 Offset: 0x1ABE460 VA: 0x181ABFE60
 	public X509CertificateCollection get_Certificates() { }
 
 	// RVA: 0x1752A00 Offset: 0x1751000 VA: 0x181752A00
@@ -227,58 +227,58 @@ public class PKCS12 : ICloneable // TypeDefIndex: 1711
 	// RVA: 0x174D510 Offset: 0x174BB10 VA: 0x18174D510
 	private bool Compare(byte[] expected, byte[] actual) { }
 
-	// RVA: 0x1ABE880 Offset: 0x1ABCE80 VA: 0x181ABE880
+	// RVA: 0x1ABE6C0 Offset: 0x1ABCCC0 VA: 0x181ABE6C0
 	private SymmetricAlgorithm GetSymmetricAlgorithm(string algorithmOid, byte[] salt, int iterationCount) { }
 
-	// RVA: 0x1ABB550 Offset: 0x1AB9B50 VA: 0x181ABB550
+	// RVA: 0x1ABB390 Offset: 0x1AB9990 VA: 0x181ABB390
 	public byte[] Decrypt(string algorithmOid, byte[] salt, int iterationCount, byte[] encryptedData) { }
 
-	// RVA: 0x1ABB6A0 Offset: 0x1AB9CA0 VA: 0x181ABB6A0
+	// RVA: 0x1ABB4E0 Offset: 0x1AB9AE0 VA: 0x181ABB4E0
 	public byte[] Decrypt(PKCS7.EncryptedData ed) { }
 
-	// RVA: 0x1ABB7D0 Offset: 0x1AB9DD0 VA: 0x181ABB7D0
+	// RVA: 0x1ABB610 Offset: 0x1AB9C10 VA: 0x181ABB610
 	public byte[] Encrypt(string algorithmOid, byte[] salt, int iterationCount, byte[] data) { }
 
-	// RVA: 0x1ABE650 Offset: 0x1ABCC50 VA: 0x181ABE650
+	// RVA: 0x1ABE490 Offset: 0x1ABCA90 VA: 0x181ABE490
 	private DSAParameters GetExistingParameters(out bool found) { }
 
-	// RVA: 0x1AB9E00 Offset: 0x1AB8400 VA: 0x181AB9E00
+	// RVA: 0x1AB9C40 Offset: 0x1AB8240 VA: 0x181AB9C40
 	private void AddPrivateKey(PKCS8.PrivateKeyInfo pki) { }
 
-	// RVA: 0x1ABF110 Offset: 0x1ABD710 VA: 0x181ABF110
+	// RVA: 0x1ABEF50 Offset: 0x1ABD550 VA: 0x181ABEF50
 	private void ReadSafeBag(ASN1 safeBag) { }
 
-	// RVA: 0x1AB9F70 Offset: 0x1AB8570 VA: 0x181AB9F70
+	// RVA: 0x1AB9DB0 Offset: 0x1AB83B0 VA: 0x181AB9DB0
 	private ASN1 CertificateSafeBag(X509Certificate x509, IDictionary attributes) { }
 
-	// RVA: 0x1ABEEA0 Offset: 0x1ABD4A0 VA: 0x181ABEEA0
+	// RVA: 0x1ABECE0 Offset: 0x1ABD2E0 VA: 0x181ABECE0
 	private byte[] MAC(byte[] password, byte[] salt, int iterations, byte[] data) { }
 
-	// RVA: 0x1ABC150 Offset: 0x1ABA750 VA: 0x181ABC150
+	// RVA: 0x1ABBF90 Offset: 0x1ABA590 VA: 0x181ABBF90
 	public byte[] GetBytes() { }
 
-	// RVA: 0x1ABB920 Offset: 0x1AB9F20 VA: 0x181ABB920
+	// RVA: 0x1ABB760 Offset: 0x1AB9D60 VA: 0x181ABB760
 	private PKCS7.ContentInfo EncryptedContentInfo(ASN1 safeBags, string algorithmOid) { }
 
-	// RVA: 0x1AB9DF0 Offset: 0x1AB83F0 VA: 0x181AB9DF0
+	// RVA: 0x1AB9C30 Offset: 0x1AB8230 VA: 0x181AB9C30
 	public void AddCertificate(X509Certificate cert) { }
 
-	// RVA: 0x1AB9B00 Offset: 0x1AB8100 VA: 0x181AB9B00
+	// RVA: 0x1AB9940 Offset: 0x1AB7F40 VA: 0x181AB9940
 	public void AddCertificate(X509Certificate cert, IDictionary attributes) { }
 
-	// RVA: 0x1ABF810 Offset: 0x1ABDE10 VA: 0x181ABF810
+	// RVA: 0x1ABF650 Offset: 0x1ABDC50 VA: 0x181ABF650
 	public void RemoveCertificate(X509Certificate cert) { }
 
-	// RVA: 0x1ABF820 Offset: 0x1ABDE20 VA: 0x181ABF820
+	// RVA: 0x1ABF660 Offset: 0x1ABDC60 VA: 0x181ABF660
 	public void RemoveCertificate(X509Certificate cert, IDictionary attrs) { }
 
-	// RVA: 0x1ABABA0 Offset: 0x1AB91A0 VA: 0x181ABABA0 Slot: 4
+	// RVA: 0x1ABA9E0 Offset: 0x1AB8FE0 VA: 0x181ABA9E0 Slot: 4
 	public object Clone() { }
 
-	// RVA: 0x1AC0930 Offset: 0x1ABEF30 VA: 0x181AC0930
+	// RVA: 0x1AC0770 Offset: 0x1ABED70 VA: 0x181AC0770
 	public static int get_MaximumPasswordLength() { }
 
-	// RVA: 0x1ABFE20 Offset: 0x1ABE420 VA: 0x181ABFE20
+	// RVA: 0x1ABFC60 Offset: 0x1ABE260 VA: 0x181ABFC60
 	private static void .cctor() { }
 
 }
@@ -310,28 +310,28 @@ public class PKCS12.DeriveBytes // TypeDefIndex: 1712
 	// RVA: 0x7D0C80 Offset: 0x7CF280 VA: 0x1807D0C80
 	public void set_IterationCount(int value) { }
 
-	// RVA: 0x1AB4AB0 Offset: 0x1AB30B0 VA: 0x181AB4AB0
+	// RVA: 0x1AB48F0 Offset: 0x1AB2EF0 VA: 0x181AB48F0
 	public void set_Password(byte[] value) { }
 
-	// RVA: 0x1AB4B60 Offset: 0x1AB3160 VA: 0x181AB4B60
+	// RVA: 0x1AB49A0 Offset: 0x1AB2FA0 VA: 0x181AB49A0
 	public void set_Salt(byte[] value) { }
 
 	// RVA: 0x17478D0 Offset: 0x1745ED0 VA: 0x1817478D0
 	private void Adjust(byte[] a, int aOff, byte[] b) { }
 
-	// RVA: 0x1AB4500 Offset: 0x1AB2B00 VA: 0x181AB4500
+	// RVA: 0x1AB4340 Offset: 0x1AB2940 VA: 0x181AB4340
 	private byte[] Derive(byte[] diversifier, int n) { }
 
-	// RVA: 0x1AB4400 Offset: 0x1AB2A00 VA: 0x181AB4400
+	// RVA: 0x1AB4240 Offset: 0x1AB2840 VA: 0x181AB4240
 	public byte[] DeriveKey(int size) { }
 
-	// RVA: 0x1AB4380 Offset: 0x1AB2980 VA: 0x181AB4380
+	// RVA: 0x1AB41C0 Offset: 0x1AB27C0 VA: 0x181AB41C0
 	public byte[] DeriveIV(int size) { }
 
-	// RVA: 0x1AB4480 Offset: 0x1AB2A80 VA: 0x181AB4480
+	// RVA: 0x1AB42C0 Offset: 0x1AB28C0 VA: 0x181AB42C0
 	public byte[] DeriveMAC(int size) { }
 
-	// RVA: 0x1AB49C0 Offset: 0x1AB2FC0 VA: 0x181AB49C0
+	// RVA: 0x1AB4800 Offset: 0x1AB2E00 VA: 0x181AB4800
 	private static void .cctor() { }
 
 }

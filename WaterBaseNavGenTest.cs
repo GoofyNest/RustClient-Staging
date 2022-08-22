@@ -4,7 +4,7 @@ public class WaterBaseNavGenTest : MonoBehaviour // TypeDefIndex: 8285
 
 	// Methods
 
-	[ContextMenu] // RVA: 0xABF60 Offset: 0xAB360 VA: 0x1800ABF60
+	[ContextMenu] // RVA: 0xAC000 Offset: 0xAB400 VA: 0x1800AC000
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void NavGen() { }
 

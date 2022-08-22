@@ -5,17 +5,17 @@ public sealed class Camera : Behaviour // TypeDefIndex: 3360
 	public static Camera.CameraCallback onPostRender; // 0x10
 
 	// Properties
-	[NativePropertyAttribute] // RVA: 0x77D00 Offset: 0x77100 VA: 0x180077D00
+	[NativePropertyAttribute] // RVA: 0x77C70 Offset: 0x77070 VA: 0x180077C70
 	public float nearClipPlane { get; set; }
-	[NativePropertyAttribute] // RVA: 0x77E10 Offset: 0x77210 VA: 0x180077E10
+	[NativePropertyAttribute] // RVA: 0x77E00 Offset: 0x77200 VA: 0x180077E00
 	public float farClipPlane { get; set; }
-	[NativePropertyAttribute] // RVA: 0x77FC0 Offset: 0x773C0 VA: 0x180077FC0
+	[NativePropertyAttribute] // RVA: 0x77F10 Offset: 0x77310 VA: 0x180077F10
 	public float fieldOfView { get; set; }
 	public RenderingPath renderingPath { set; }
 	public RenderingPath actualRenderingPath { get; }
 	public bool allowHDR { get; set; }
 	public bool allowMSAA { get; set; }
-	[NativePropertyAttribute] // RVA: 0x78160 Offset: 0x77560 VA: 0x180078160
+	[NativePropertyAttribute] // RVA: 0x78110 Offset: 0x77510 VA: 0x180078110
 	public bool forceIntoRenderTexture { set; }
 	public float orthographicSize { get; set; }
 	public bool orthographic { get; set; }
@@ -31,9 +31,9 @@ public sealed class Camera : Behaviour // TypeDefIndex: 3360
 	public bool usePhysicalProperties { get; set; }
 	public Vector2 sensorSize { get; set; }
 	public float focalLength { get; set; }
-	[NativePropertyAttribute] // RVA: 0x78230 Offset: 0x77630 VA: 0x180078230
+	[NativePropertyAttribute] // RVA: 0x78220 Offset: 0x77620 VA: 0x180078220
 	public Rect rect { get; set; }
-	[NativePropertyAttribute] // RVA: 0x783E0 Offset: 0x777E0 VA: 0x1800783E0
+	[NativePropertyAttribute] // RVA: 0x78350 Offset: 0x77750 VA: 0x180078350
 	public Rect pixelRect { get; set; }
 	public int pixelWidth { get; }
 	public int pixelHeight { get; }
@@ -42,7 +42,7 @@ public sealed class Camera : Behaviour // TypeDefIndex: 3360
 	public Matrix4x4 worldToCameraMatrix { get; }
 	public Matrix4x4 projectionMatrix { get; set; }
 	public Matrix4x4 nonJitteredProjectionMatrix { get; set; }
-	[NativePropertyAttribute] // RVA: 0x78500 Offset: 0x77900 VA: 0x180078500
+	[NativePropertyAttribute] // RVA: 0x784B0 Offset: 0x778B0 VA: 0x1800784B0
 	public bool useJitteredProjectionMatrixForTransparentRendering { set; }
 	public static Camera main { get; }
 	public static Camera current { get; }
@@ -74,7 +74,7 @@ public sealed class Camera : Behaviour // TypeDefIndex: 3360
 	// RVA: 0x18236B0 Offset: 0x1821CB0 VA: 0x1818236B0
 	public void set_renderingPath(RenderingPath value) { }
 
-	[NativeNameAttribute] // RVA: 0x761D0 Offset: 0x755D0 VA: 0x1800761D0
+	[NativeNameAttribute] // RVA: 0x76210 Offset: 0x75610 VA: 0x180076210
 	// RVA: 0x1822420 Offset: 0x1820A20 VA: 0x181822420
 	public RenderingPath get_actualRenderingPath() { }
 
@@ -126,11 +126,11 @@ public sealed class Camera : Behaviour // TypeDefIndex: 3360
 	// RVA: 0x18225C0 Offset: 0x1820BC0 VA: 0x1818225C0
 	public CameraType get_cameraType() { }
 
-	[FreeFunctionAttribute] // RVA: 0x762B0 Offset: 0x756B0 VA: 0x1800762B0
+	[FreeFunctionAttribute] // RVA: 0x76300 Offset: 0x75700 VA: 0x180076300
 	// RVA: 0x1821350 Offset: 0x181F950 VA: 0x181821350
 	private float[] GetLayerCullDistances() { }
 
-	[FreeFunctionAttribute] // RVA: 0x76380 Offset: 0x75780 VA: 0x180076380
+	[FreeFunctionAttribute] // RVA: 0x76420 Offset: 0x75820 VA: 0x180076420
 	// RVA: 0x1821C60 Offset: 0x1820260 VA: 0x181821C60
 	private void SetLayerCullDistances(float[] d) { }
 
@@ -191,11 +191,11 @@ public sealed class Camera : Behaviour // TypeDefIndex: 3360
 	// RVA: 0x1823520 Offset: 0x1821B20 VA: 0x181823520
 	public void set_pixelRect(Rect value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x765C0 Offset: 0x759C0 VA: 0x1800765C0
+	[FreeFunctionAttribute] // RVA: 0x76590 Offset: 0x75990 VA: 0x180076590
 	// RVA: 0x1822AB0 Offset: 0x18210B0 VA: 0x181822AB0
 	public int get_pixelWidth() { }
 
-	[FreeFunctionAttribute] // RVA: 0x76700 Offset: 0x75B00 VA: 0x180076700
+	[FreeFunctionAttribute] // RVA: 0x76740 Offset: 0x75B40 VA: 0x180076740
 	// RVA: 0x18229D0 Offset: 0x1820FD0 VA: 0x1818229D0
 	public int get_pixelHeight() { }
 
@@ -265,18 +265,18 @@ public sealed class Camera : Behaviour // TypeDefIndex: 3360
 	// RVA: 0x1821940 Offset: 0x181FF40 VA: 0x181821940
 	public Ray ScreenPointToRay(Vector3 pos) { }
 
-	[FreeFunctionAttribute] // RVA: 0x768C0 Offset: 0x75CC0 VA: 0x1800768C0
+	[FreeFunctionAttribute] // RVA: 0x76840 Offset: 0x75C40 VA: 0x180076840
 	// RVA: 0x1820E90 Offset: 0x181F490 VA: 0x181820E90
 	private void CalculateFrustumCornersInternal(Rect viewport, float z, Camera.MonoOrStereoscopicEye eye, [Out] Vector3[] outCorners) { }
 
 	// RVA: 0x1820F00 Offset: 0x181F500 VA: 0x181820F00
 	public void CalculateFrustumCorners(Rect viewport, float z, Camera.MonoOrStereoscopicEye eye, Vector3[] outCorners) { }
 
-	[FreeFunctionAttribute] // RVA: 0x76A20 Offset: 0x75E20 VA: 0x180076A20
+	[FreeFunctionAttribute] // RVA: 0x76A00 Offset: 0x75E00 VA: 0x180076A00
 	// RVA: 0x1822830 Offset: 0x1820E30 VA: 0x181822830
 	public static Camera get_main() { }
 
-	[FreeFunctionAttribute] // RVA: 0x76B00 Offset: 0x75F00 VA: 0x180076B00
+	[FreeFunctionAttribute] // RVA: 0x76AC0 Offset: 0x75EC0 VA: 0x180076AC0
 	// RVA: 0x1822680 Offset: 0x1820C80 VA: 0x181822680
 	public static Camera get_current() { }
 
@@ -286,7 +286,7 @@ public sealed class Camera : Behaviour // TypeDefIndex: 3360
 	// RVA: 0x1822D60 Offset: 0x1821360 VA: 0x181822D60
 	public StereoTargetEyeMask get_stereoTargetEye() { }
 
-	[FreeFunctionAttribute] // RVA: 0x76CE0 Offset: 0x760E0 VA: 0x180076CE0
+	[FreeFunctionAttribute] // RVA: 0x76C00 Offset: 0x76000 VA: 0x180076C00
 	// RVA: 0x1822CE0 Offset: 0x18212E0 VA: 0x181822CE0
 	public Camera.MonoOrStereoscopicEye get_stereoActiveEye() { }
 
@@ -308,11 +308,11 @@ public sealed class Camera : Behaviour // TypeDefIndex: 3360
 	// RVA: 0x1821890 Offset: 0x181FE90 VA: 0x181821890
 	public void ResetStereoProjectionMatrices() { }
 
-	[FreeFunctionAttribute] // RVA: 0x76E30 Offset: 0x76230 VA: 0x180076E30
+	[FreeFunctionAttribute] // RVA: 0x76E10 Offset: 0x76210 VA: 0x180076E10
 	// RVA: 0x18211C0 Offset: 0x181F7C0 VA: 0x1818211C0
 	private static int GetAllCamerasCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0x76F40 Offset: 0x76340 VA: 0x180076F40
+	[FreeFunctionAttribute] // RVA: 0x76F30 Offset: 0x76330 VA: 0x180076F30
 	// RVA: 0x18211F0 Offset: 0x181F7F0 VA: 0x1818211F0
 	private static int GetAllCamerasImpl([Out] Camera[] cam) { }
 
@@ -322,15 +322,15 @@ public sealed class Camera : Behaviour // TypeDefIndex: 3360
 	// RVA: 0x1821230 Offset: 0x181F830 VA: 0x181821230
 	public static int GetAllCameras(Camera[] cameras) { }
 
-	[FreeFunctionAttribute] // RVA: 0x77150 Offset: 0x76550 VA: 0x180077150
+	[FreeFunctionAttribute] // RVA: 0x771F0 Offset: 0x765F0 VA: 0x1800771F0
 	// RVA: 0x1821810 Offset: 0x181FE10 VA: 0x181821810
 	public void Render() { }
 
-	[FreeFunctionAttribute] // RVA: 0x772E0 Offset: 0x766E0 VA: 0x1800772E0
+	[FreeFunctionAttribute] // RVA: 0x772D0 Offset: 0x766D0 VA: 0x1800772D0
 	// RVA: 0x18217B0 Offset: 0x181FDB0 VA: 0x1818217B0
 	public void RenderWithShader(Shader shader, string replacementTag) { }
 
-	[FreeFunctionAttribute] // RVA: 0x77390 Offset: 0x76790 VA: 0x180077390
+	[FreeFunctionAttribute] // RVA: 0x77460 Offset: 0x76860 VA: 0x180077460
 	// RVA: 0x1821020 Offset: 0x181F620 VA: 0x181821020
 	public void CopyFrom(Camera other) { }
 
@@ -340,11 +340,11 @@ public sealed class Camera : Behaviour // TypeDefIndex: 3360
 	// RVA: 0x18215D0 Offset: 0x181FBD0 VA: 0x1818215D0
 	public void RemoveAllCommandBuffers() { }
 
-	[NativeNameAttribute] // RVA: 0x774E0 Offset: 0x768E0 VA: 0x1800774E0
+	[NativeNameAttribute] // RVA: 0x77570 Offset: 0x76970 VA: 0x180077570
 	// RVA: 0x1820CC0 Offset: 0x181F2C0 VA: 0x181820CC0
 	private void AddCommandBufferImpl(CameraEvent evt, CommandBuffer buffer) { }
 
-	[NativeNameAttribute] // RVA: 0x77700 Offset: 0x76B00 VA: 0x180077700
+	[NativeNameAttribute] // RVA: 0x77730 Offset: 0x76B30 VA: 0x180077730
 	// RVA: 0x1821610 Offset: 0x181FC10 VA: 0x181821610
 	private void RemoveCommandBufferImpl(CameraEvent evt, CommandBuffer buffer) { }
 
@@ -354,19 +354,19 @@ public sealed class Camera : Behaviour // TypeDefIndex: 3360
 	// RVA: 0x1821660 Offset: 0x181FC60 VA: 0x181821660
 	public void RemoveCommandBuffer(CameraEvent evt, CommandBuffer buffer) { }
 
-	[FreeFunctionAttribute] // RVA: 0x778F0 Offset: 0x76CF0 VA: 0x1800778F0
+	[FreeFunctionAttribute] // RVA: 0x77980 Offset: 0x76D80 VA: 0x180077980
 	// RVA: 0x1821310 Offset: 0x181F910 VA: 0x181821310
 	public CommandBuffer[] GetCommandBuffers(CameraEvent evt) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1821110 Offset: 0x181F710 VA: 0x181821110
 	private static void FireOnPreCull(Camera cam) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1821160 Offset: 0x181F760 VA: 0x181821160
 	private static void FireOnPreRender(Camera cam) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x18210B0 Offset: 0x181F6B0 VA: 0x1818210B0
 	private static void FireOnPostRender(Camera cam) { }
 

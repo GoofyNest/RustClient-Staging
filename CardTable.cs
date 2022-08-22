@@ -12,13 +12,13 @@ public class CardTable : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6407
 
 	// Methods
 
-	// RVA: 0x1F7B010 Offset: 0x1F79610 VA: 0x181F7B010
+	// RVA: 0x1F7AE50 Offset: 0x1F79450 VA: 0x181F7AE50
 	public static void ResetToPool(CardTable instance) { }
 
-	// RVA: 0x1F7B260 Offset: 0x1F79860 VA: 0x181F7B260
+	// RVA: 0x1F7B0A0 Offset: 0x1F796A0 VA: 0x181F7B0A0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F7ABD0 Offset: 0x1F791D0 VA: 0x181F7ABD0 Slot: 9
+	// RVA: 0x1F7AA10 Offset: 0x1F79010 VA: 0x181F7AA10 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -27,64 +27,64 @@ public class CardTable : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6407
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F78E40 Offset: 0x1F77440 VA: 0x181F78E40
+	// RVA: 0x1F78C80 Offset: 0x1F77280 VA: 0x181F78C80
 	public void CopyTo(CardTable instance) { }
 
-	// RVA: 0x1F791D0 Offset: 0x1F777D0 VA: 0x181F791D0
+	// RVA: 0x1F79010 Offset: 0x1F77610 VA: 0x181F79010
 	public CardTable Copy() { }
 
-	// RVA: 0x1F79FB0 Offset: 0x1F785B0 VA: 0x181F79FB0
+	// RVA: 0x1F79DF0 Offset: 0x1F783F0 VA: 0x181F79DF0
 	public static CardTable Deserialize(Stream stream) { }
 
-	// RVA: 0x1F79250 Offset: 0x1F77850 VA: 0x181F79250
+	// RVA: 0x1F79090 Offset: 0x1F77690 VA: 0x181F79090
 	public static CardTable DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F79740 Offset: 0x1F77D40 VA: 0x181F79740
+	// RVA: 0x1F79580 Offset: 0x1F77B80 VA: 0x181F79580
 	public static CardTable DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F7A7B0 Offset: 0x1F78DB0 VA: 0x181F7A7B0
+	// RVA: 0x1F7A5F0 Offset: 0x1F78BF0 VA: 0x181F7A5F0
 	public static CardTable Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F7AC50 Offset: 0x1F79250 VA: 0x181F7AC50
+	// RVA: 0x1F7AA90 Offset: 0x1F79090 VA: 0x181F7AA90
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F7BED0 Offset: 0x1F7A4D0 VA: 0x181F7BED0 Slot: 12
+	// RVA: 0x1F7BD10 Offset: 0x1F7A310 VA: 0x181F7BD10 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F7BEF0 Offset: 0x1F7A4F0 VA: 0x181F7BEF0 Slot: 13
+	// RVA: 0x1F7BD30 Offset: 0x1F7A330 VA: 0x181F7BD30 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, CardTable previous) { }
 
-	// RVA: 0x1F7AFF0 Offset: 0x1F795F0 VA: 0x181F7AFF0 Slot: 14
+	// RVA: 0x1F7AE30 Offset: 0x1F79430 VA: 0x181F7AE30 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F7A340 Offset: 0x1F78940 VA: 0x181F7A340
+	// RVA: 0x1F7A180 Offset: 0x1F78780 VA: 0x181F7A180
 	public static CardTable Deserialize(byte[] buffer, CardTable instance, bool isDelta = False) { }
 
-	// RVA: 0x1F79C10 Offset: 0x1F78210 VA: 0x181F79C10
+	// RVA: 0x1F79A50 Offset: 0x1F78050 VA: 0x181F79A50
 	public static CardTable Deserialize(Stream stream, CardTable instance, bool isDelta) { }
 
-	// RVA: 0x1F792D0 Offset: 0x1F778D0 VA: 0x181F792D0
+	// RVA: 0x1F79110 Offset: 0x1F77710 VA: 0x181F79110
 	public static CardTable DeserializeLengthDelimited(Stream stream, CardTable instance, bool isDelta) { }
 
-	// RVA: 0x1F797D0 Offset: 0x1F77DD0 VA: 0x181F797D0
+	// RVA: 0x1F79610 Offset: 0x1F77C10 VA: 0x181F79610
 	public static CardTable DeserializeLength(Stream stream, int length, CardTable instance, bool isDelta) { }
 
-	// RVA: 0x1F7B4B0 Offset: 0x1F79AB0 VA: 0x181F7B4B0
+	// RVA: 0x1F7B2F0 Offset: 0x1F798F0 VA: 0x181F7B2F0
 	public static void SerializeDelta(Stream stream, CardTable instance, CardTable previous) { }
 
-	// RVA: 0x1F7BB00 Offset: 0x1F7A100 VA: 0x181F7BB00
+	// RVA: 0x1F7B940 Offset: 0x1F79F40 VA: 0x181F7B940
 	public static void Serialize(Stream stream, CardTable instance) { }
 
-	// RVA: 0x1F7BEC0 Offset: 0x1F7A4C0 VA: 0x181F7BEC0
+	// RVA: 0x1F7BD00 Offset: 0x1F7A300 VA: 0x181F7BD00
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F7BED0 Offset: 0x1F7A4D0 VA: 0x181F7BED0
+	// RVA: 0x1F7BD10 Offset: 0x1F7A310 VA: 0x181F7BD10
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F7B9F0 Offset: 0x1F79FF0 VA: 0x181F7B9F0
+	// RVA: 0x1F7B830 Offset: 0x1F79E30 VA: 0x181F7B830
 	public static byte[] SerializeToBytes(CardTable instance) { }
 
-	// RVA: 0x1F7B940 Offset: 0x1F79F40 VA: 0x181F7B940
+	// RVA: 0x1F7B780 Offset: 0x1F79D80 VA: 0x181F7B780
 	public static void SerializeLengthDelimited(Stream stream, CardTable instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -109,13 +109,13 @@ public class CardTable.CardPlayer : IDisposable, Pool.IPooled, IProto // TypeDef
 
 	// Methods
 
-	// RVA: 0x1F78260 Offset: 0x1F76860 VA: 0x181F78260
+	// RVA: 0x1F780A0 Offset: 0x1F766A0 VA: 0x181F780A0
 	public static void ResetToPool(CardTable.CardPlayer instance) { }
 
-	// RVA: 0x1F783C0 Offset: 0x1F769C0 VA: 0x181F783C0
+	// RVA: 0x1F78200 Offset: 0x1F76800 VA: 0x181F78200
 	public void ResetToPool() { }
 
-	// RVA: 0x1F781A0 Offset: 0x1F767A0 VA: 0x181F781A0 Slot: 9
+	// RVA: 0x1F77FE0 Offset: 0x1F765E0 VA: 0x181F77FE0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -124,64 +124,64 @@ public class CardTable.CardPlayer : IDisposable, Pool.IPooled, IProto // TypeDef
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F76D40 Offset: 0x1F75340 VA: 0x181F76D40
+	// RVA: 0x1F76B80 Offset: 0x1F75180 VA: 0x181F76B80
 	public void CopyTo(CardTable.CardPlayer instance) { }
 
-	// RVA: 0x1F76EA0 Offset: 0x1F754A0 VA: 0x181F76EA0
+	// RVA: 0x1F76CE0 Offset: 0x1F752E0 VA: 0x181F76CE0
 	public CardTable.CardPlayer Copy() { }
 
-	// RVA: 0x1F77D10 Offset: 0x1F76310 VA: 0x181F77D10
+	// RVA: 0x1F77B50 Offset: 0x1F76150 VA: 0x181F77B50
 	public static CardTable.CardPlayer Deserialize(Stream stream) { }
 
-	// RVA: 0x1F77040 Offset: 0x1F75640 VA: 0x181F77040
+	// RVA: 0x1F76E80 Offset: 0x1F75480 VA: 0x181F76E80
 	public static CardTable.CardPlayer DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F775A0 Offset: 0x1F75BA0 VA: 0x181F775A0
+	// RVA: 0x1F773E0 Offset: 0x1F759E0 VA: 0x181F773E0
 	public static CardTable.CardPlayer DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F77BF0 Offset: 0x1F761F0 VA: 0x181F77BF0
+	// RVA: 0x1F77A30 Offset: 0x1F76030 VA: 0x181F77A30
 	public static CardTable.CardPlayer Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F78220 Offset: 0x1F76820 VA: 0x181F78220
+	// RVA: 0x1F78060 Offset: 0x1F76660 VA: 0x181F78060
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F78E00 Offset: 0x1F77400 VA: 0x181F78E00 Slot: 12
+	// RVA: 0x1F78C40 Offset: 0x1F77240 VA: 0x181F78C40 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F78E20 Offset: 0x1F77420 VA: 0x181F78E20 Slot: 13
+	// RVA: 0x1F78C60 Offset: 0x1F77260 VA: 0x181F78C60 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, CardTable.CardPlayer previous) { }
 
-	// RVA: 0x1F78240 Offset: 0x1F76840 VA: 0x181F78240 Slot: 14
+	// RVA: 0x1F78080 Offset: 0x1F76680 VA: 0x181F78080 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F77AF0 Offset: 0x1F760F0 VA: 0x181F77AF0
+	// RVA: 0x1F77930 Offset: 0x1F75F30 VA: 0x181F77930
 	public static CardTable.CardPlayer Deserialize(byte[] buffer, CardTable.CardPlayer instance, bool isDelta = False) { }
 
-	// RVA: 0x1F77D90 Offset: 0x1F76390 VA: 0x181F77D90
+	// RVA: 0x1F77BD0 Offset: 0x1F761D0 VA: 0x181F77BD0
 	public static CardTable.CardPlayer Deserialize(Stream stream, CardTable.CardPlayer instance, bool isDelta) { }
 
-	// RVA: 0x1F770C0 Offset: 0x1F756C0 VA: 0x181F770C0
+	// RVA: 0x1F76F00 Offset: 0x1F75500 VA: 0x181F76F00
 	public static CardTable.CardPlayer DeserializeLengthDelimited(Stream stream, CardTable.CardPlayer instance, bool isDelta) { }
 
-	// RVA: 0x1F77630 Offset: 0x1F75C30 VA: 0x181F77630
+	// RVA: 0x1F77470 Offset: 0x1F75A70 VA: 0x181F77470
 	public static CardTable.CardPlayer DeserializeLength(Stream stream, int length, CardTable.CardPlayer instance, bool isDelta) { }
 
-	// RVA: 0x1F78520 Offset: 0x1F76B20 VA: 0x181F78520
+	// RVA: 0x1F78360 Offset: 0x1F76960 VA: 0x181F78360
 	public static void SerializeDelta(Stream stream, CardTable.CardPlayer instance, CardTable.CardPlayer previous) { }
 
-	// RVA: 0x1F78B20 Offset: 0x1F77120 VA: 0x181F78B20
+	// RVA: 0x1F78960 Offset: 0x1F76F60 VA: 0x181F78960
 	public static void Serialize(Stream stream, CardTable.CardPlayer instance) { }
 
-	// RVA: 0x1F78DF0 Offset: 0x1F773F0 VA: 0x181F78DF0
+	// RVA: 0x1F78C30 Offset: 0x1F77230 VA: 0x181F78C30
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F78E00 Offset: 0x1F77400 VA: 0x181F78E00
+	// RVA: 0x1F78C40 Offset: 0x1F77240 VA: 0x181F78C40
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F78A10 Offset: 0x1F77010 VA: 0x181F78A10
+	// RVA: 0x1F78850 Offset: 0x1F76E50 VA: 0x181F78850
 	public static byte[] SerializeToBytes(CardTable.CardPlayer instance) { }
 
-	// RVA: 0x1F78960 Offset: 0x1F76F60 VA: 0x181F78960
+	// RVA: 0x1F787A0 Offset: 0x1F76DA0 VA: 0x181F787A0
 	public static void SerializeLengthDelimited(Stream stream, CardTable.CardPlayer instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -200,13 +200,13 @@ public class CardTable.TexasHoldEm : IDisposable, Pool.IPooled, IProto // TypeDe
 
 	// Methods
 
-	// RVA: 0x1F7EDC0 Offset: 0x1F7D3C0 VA: 0x181F7EDC0
+	// RVA: 0x1F7EC00 Offset: 0x1F7D200 VA: 0x181F7EC00
 	public static void ResetToPool(CardTable.TexasHoldEm instance) { }
 
-	// RVA: 0x1F7ECC0 Offset: 0x1F7D2C0 VA: 0x181F7ECC0
+	// RVA: 0x1F7EB00 Offset: 0x1F7D100 VA: 0x181F7EB00
 	public void ResetToPool() { }
 
-	// RVA: 0x1F7E9A0 Offset: 0x1F7CFA0 VA: 0x181F7E9A0 Slot: 9
+	// RVA: 0x1F7E7E0 Offset: 0x1F7CDE0 VA: 0x181F7E7E0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -215,64 +215,64 @@ public class CardTable.TexasHoldEm : IDisposable, Pool.IPooled, IProto // TypeDe
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F7D4B0 Offset: 0x1F7BAB0 VA: 0x181F7D4B0
+	// RVA: 0x1F7D2F0 Offset: 0x1F7B8F0 VA: 0x181F7D2F0
 	public void CopyTo(CardTable.TexasHoldEm instance) { }
 
-	// RVA: 0x1F7D5E0 Offset: 0x1F7BBE0 VA: 0x181F7D5E0
+	// RVA: 0x1F7D420 Offset: 0x1F7BA20 VA: 0x181F7D420
 	public CardTable.TexasHoldEm Copy() { }
 
-	// RVA: 0x1F7DDF0 Offset: 0x1F7C3F0 VA: 0x181F7DDF0
+	// RVA: 0x1F7DC30 Offset: 0x1F7C230 VA: 0x181F7DC30
 	public static CardTable.TexasHoldEm Deserialize(Stream stream) { }
 
-	// RVA: 0x1F7D9B0 Offset: 0x1F7BFB0 VA: 0x181F7D9B0
+	// RVA: 0x1F7D7F0 Offset: 0x1F7BDF0 VA: 0x181F7D7F0
 	public static CardTable.TexasHoldEm DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F7DA30 Offset: 0x1F7C030 VA: 0x181F7DA30
+	// RVA: 0x1F7D870 Offset: 0x1F7BE70 VA: 0x181F7D870
 	public static CardTable.TexasHoldEm DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F7E3E0 Offset: 0x1F7C9E0 VA: 0x181F7E3E0
+	// RVA: 0x1F7E220 Offset: 0x1F7C820 VA: 0x181F7E220
 	public static CardTable.TexasHoldEm Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F7EA20 Offset: 0x1F7D020 VA: 0x181F7EA20
+	// RVA: 0x1F7E860 Offset: 0x1F7CE60 VA: 0x181F7E860
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F7F4F0 Offset: 0x1F7DAF0 VA: 0x181F7F4F0 Slot: 12
+	// RVA: 0x1F7F330 Offset: 0x1F7D930 VA: 0x181F7F330 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F7F510 Offset: 0x1F7DB10 VA: 0x181F7F510 Slot: 13
+	// RVA: 0x1F7F350 Offset: 0x1F7D950 VA: 0x181F7F350 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, CardTable.TexasHoldEm previous) { }
 
-	// RVA: 0x1F7ECA0 Offset: 0x1F7D2A0 VA: 0x181F7ECA0 Slot: 14
+	// RVA: 0x1F7EAE0 Offset: 0x1F7D0E0 VA: 0x181F7EAE0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F7E090 Offset: 0x1F7C690 VA: 0x181F7E090
+	// RVA: 0x1F7DED0 Offset: 0x1F7C4D0 VA: 0x181F7DED0
 	public static CardTable.TexasHoldEm Deserialize(byte[] buffer, CardTable.TexasHoldEm instance, bool isDelta = False) { }
 
-	// RVA: 0x1F7E720 Offset: 0x1F7CD20 VA: 0x181F7E720
+	// RVA: 0x1F7E560 Offset: 0x1F7CB60 VA: 0x181F7E560
 	public static CardTable.TexasHoldEm Deserialize(Stream stream, CardTable.TexasHoldEm instance, bool isDelta) { }
 
-	// RVA: 0x1F7D660 Offset: 0x1F7BC60 VA: 0x181F7D660
+	// RVA: 0x1F7D4A0 Offset: 0x1F7BAA0 VA: 0x181F7D4A0
 	public static CardTable.TexasHoldEm DeserializeLengthDelimited(Stream stream, CardTable.TexasHoldEm instance, bool isDelta) { }
 
-	// RVA: 0x1F7DAC0 Offset: 0x1F7C0C0 VA: 0x181F7DAC0
+	// RVA: 0x1F7D900 Offset: 0x1F7BF00 VA: 0x181F7D900
 	public static CardTable.TexasHoldEm DeserializeLength(Stream stream, int length, CardTable.TexasHoldEm instance, bool isDelta) { }
 
-	// RVA: 0x1F7EEC0 Offset: 0x1F7D4C0 VA: 0x181F7EEC0
+	// RVA: 0x1F7ED00 Offset: 0x1F7D300 VA: 0x181F7ED00
 	public static void SerializeDelta(Stream stream, CardTable.TexasHoldEm instance, CardTable.TexasHoldEm previous) { }
 
-	// RVA: 0x1F7F2F0 Offset: 0x1F7D8F0 VA: 0x181F7F2F0
+	// RVA: 0x1F7F130 Offset: 0x1F7D730 VA: 0x181F7F130
 	public static void Serialize(Stream stream, CardTable.TexasHoldEm instance) { }
 
-	// RVA: 0x1F7F4E0 Offset: 0x1F7DAE0 VA: 0x181F7F4E0
+	// RVA: 0x1F7F320 Offset: 0x1F7D920 VA: 0x181F7F320
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F7F4F0 Offset: 0x1F7DAF0 VA: 0x181F7F4F0
+	// RVA: 0x1F7F330 Offset: 0x1F7D930 VA: 0x181F7F330
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F7F1E0 Offset: 0x1F7D7E0 VA: 0x181F7F1E0
+	// RVA: 0x1F7F020 Offset: 0x1F7D620 VA: 0x181F7F020
 	public static byte[] SerializeToBytes(CardTable.TexasHoldEm instance) { }
 
-	// RVA: 0x1F7F130 Offset: 0x1F7D730 VA: 0x181F7F130
+	// RVA: 0x1F7EF70 Offset: 0x1F7D570 VA: 0x181F7EF70
 	public static void SerializeLengthDelimited(Stream stream, CardTable.TexasHoldEm instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -289,13 +289,13 @@ public class CardTable.WinnerBreakdown : IDisposable, Pool.IPooled, IProto // Ty
 
 	// Methods
 
-	// RVA: 0x1F80650 Offset: 0x1F7EC50 VA: 0x181F80650
+	// RVA: 0x1F80490 Offset: 0x1F7EA90 VA: 0x181F80490
 	public static void ResetToPool(CardTable.WinnerBreakdown instance) { }
 
-	// RVA: 0x1F80830 Offset: 0x1F7EE30 VA: 0x181F80830
+	// RVA: 0x1F80670 Offset: 0x1F7EC70 VA: 0x181F80670
 	public void ResetToPool() { }
 
-	// RVA: 0x1F80590 Offset: 0x1F7EB90 VA: 0x181F80590 Slot: 9
+	// RVA: 0x1F803D0 Offset: 0x1F7E9D0 VA: 0x181F803D0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -304,64 +304,64 @@ public class CardTable.WinnerBreakdown : IDisposable, Pool.IPooled, IProto // Ty
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F7F530 Offset: 0x1F7DB30 VA: 0x181F7F530
+	// RVA: 0x1F7F370 Offset: 0x1F7D970 VA: 0x181F7F370
 	public void CopyTo(CardTable.WinnerBreakdown instance) { }
 
-	// RVA: 0x1F7F660 Offset: 0x1F7DC60 VA: 0x181F7F660
+	// RVA: 0x1F7F4A0 Offset: 0x1F7DAA0 VA: 0x181F7F4A0
 	public CardTable.WinnerBreakdown Copy() { }
 
-	// RVA: 0x1F7FFF0 Offset: 0x1F7E5F0 VA: 0x181F7FFF0
+	// RVA: 0x1F7FE30 Offset: 0x1F7E430 VA: 0x181F7FE30
 	public static CardTable.WinnerBreakdown Deserialize(Stream stream) { }
 
-	// RVA: 0x1F7F7E0 Offset: 0x1F7DDE0 VA: 0x181F7F7E0
+	// RVA: 0x1F7F620 Offset: 0x1F7DC20 VA: 0x181F7F620
 	public static CardTable.WinnerBreakdown DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F7FB00 Offset: 0x1F7E100 VA: 0x181F7FB00
+	// RVA: 0x1F7F940 Offset: 0x1F7DF40 VA: 0x181F7F940
 	public static CardTable.WinnerBreakdown DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F801F0 Offset: 0x1F7E7F0 VA: 0x181F801F0
+	// RVA: 0x1F80030 Offset: 0x1F7E630 VA: 0x181F80030
 	public static CardTable.WinnerBreakdown Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F80610 Offset: 0x1F7EC10 VA: 0x181F80610
+	// RVA: 0x1F80450 Offset: 0x1F7EA50 VA: 0x181F80450
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F81060 Offset: 0x1F7F660 VA: 0x181F81060 Slot: 12
+	// RVA: 0x1F80EA0 Offset: 0x1F7F4A0 VA: 0x181F80EA0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F81080 Offset: 0x1F7F680 VA: 0x181F81080 Slot: 13
+	// RVA: 0x1F80EC0 Offset: 0x1F7F4C0 VA: 0x181F80EC0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, CardTable.WinnerBreakdown previous) { }
 
-	// RVA: 0x1F80630 Offset: 0x1F7EC30 VA: 0x181F80630 Slot: 14
+	// RVA: 0x1F80470 Offset: 0x1F7EA70 VA: 0x181F80470 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F80490 Offset: 0x1F7EA90 VA: 0x181F80490
+	// RVA: 0x1F802D0 Offset: 0x1F7E8D0 VA: 0x181F802D0
 	public static CardTable.WinnerBreakdown Deserialize(byte[] buffer, CardTable.WinnerBreakdown instance, bool isDelta = False) { }
 
-	// RVA: 0x1F7FE20 Offset: 0x1F7E420 VA: 0x181F7FE20
+	// RVA: 0x1F7FC60 Offset: 0x1F7E260 VA: 0x181F7FC60
 	public static CardTable.WinnerBreakdown Deserialize(Stream stream, CardTable.WinnerBreakdown instance, bool isDelta) { }
 
-	// RVA: 0x1F7F860 Offset: 0x1F7DE60 VA: 0x181F7F860
+	// RVA: 0x1F7F6A0 Offset: 0x1F7DCA0 VA: 0x181F7F6A0
 	public static CardTable.WinnerBreakdown DeserializeLengthDelimited(Stream stream, CardTable.WinnerBreakdown instance, bool isDelta) { }
 
-	// RVA: 0x1F7FB90 Offset: 0x1F7E190 VA: 0x181F7FB90
+	// RVA: 0x1F7F9D0 Offset: 0x1F7DFD0 VA: 0x181F7F9D0
 	public static CardTable.WinnerBreakdown DeserializeLength(Stream stream, int length, CardTable.WinnerBreakdown instance, bool isDelta) { }
 
-	// RVA: 0x1F80A10 Offset: 0x1F7F010 VA: 0x181F80A10
+	// RVA: 0x1F80850 Offset: 0x1F7EE50 VA: 0x181F80850
 	public static void SerializeDelta(Stream stream, CardTable.WinnerBreakdown instance, CardTable.WinnerBreakdown previous) { }
 
-	// RVA: 0x1F80E20 Offset: 0x1F7F420 VA: 0x181F80E20
+	// RVA: 0x1F80C60 Offset: 0x1F7F260 VA: 0x181F80C60
 	public static void Serialize(Stream stream, CardTable.WinnerBreakdown instance) { }
 
-	// RVA: 0x1F81050 Offset: 0x1F7F650 VA: 0x181F81050
+	// RVA: 0x1F80E90 Offset: 0x1F7F490 VA: 0x181F80E90
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F81060 Offset: 0x1F7F660 VA: 0x181F81060
+	// RVA: 0x1F80EA0 Offset: 0x1F7F4A0 VA: 0x181F80EA0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F80D10 Offset: 0x1F7F310 VA: 0x181F80D10
+	// RVA: 0x1F80B50 Offset: 0x1F7F150 VA: 0x181F80B50
 	public static byte[] SerializeToBytes(CardTable.WinnerBreakdown instance) { }
 
-	// RVA: 0x1F80C60 Offset: 0x1F7F260 VA: 0x181F80C60
+	// RVA: 0x1F80AA0 Offset: 0x1F7F0A0 VA: 0x181F80AA0
 	public static void SerializeLengthDelimited(Stream stream, CardTable.WinnerBreakdown instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -379,13 +379,13 @@ public class CardTable.WinnerBreakdown.Winner : IDisposable, Pool.IPooled, IProt
 
 	// Methods
 
-	// RVA: 0x20BFF10 Offset: 0x20BE510 VA: 0x1820BFF10
+	// RVA: 0x20BFD50 Offset: 0x20BE350 VA: 0x1820BFD50
 	public static void ResetToPool(CardTable.WinnerBreakdown.Winner instance) { }
 
-	// RVA: 0x20BFE80 Offset: 0x20BE480 VA: 0x1820BFE80
+	// RVA: 0x20BFCC0 Offset: 0x20BE2C0 VA: 0x1820BFCC0
 	public void ResetToPool() { }
 
-	// RVA: 0x20BFBA0 Offset: 0x20BE1A0 VA: 0x1820BFBA0 Slot: 9
+	// RVA: 0x20BF9E0 Offset: 0x20BDFE0 VA: 0x1820BF9E0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -394,64 +394,64 @@ public class CardTable.WinnerBreakdown.Winner : IDisposable, Pool.IPooled, IProt
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20BEC20 Offset: 0x20BD220 VA: 0x1820BEC20
+	// RVA: 0x20BEA60 Offset: 0x20BD060 VA: 0x1820BEA60
 	public void CopyTo(CardTable.WinnerBreakdown.Winner instance) { }
 
-	// RVA: 0x20BEC50 Offset: 0x20BD250 VA: 0x1820BEC50
+	// RVA: 0x20BEA90 Offset: 0x20BD090 VA: 0x1820BEA90
 	public CardTable.WinnerBreakdown.Winner Copy() { }
 
-	// RVA: 0x20BF800 Offset: 0x20BDE00 VA: 0x1820BF800
+	// RVA: 0x20BF640 Offset: 0x20BDC40 VA: 0x1820BF640
 	public static CardTable.WinnerBreakdown.Winner Deserialize(Stream stream) { }
 
-	// RVA: 0x20BEF50 Offset: 0x20BD550 VA: 0x1820BEF50
+	// RVA: 0x20BED90 Offset: 0x20BD390 VA: 0x1820BED90
 	public static CardTable.WinnerBreakdown.Winner DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20BF230 Offset: 0x20BD830 VA: 0x1820BF230
+	// RVA: 0x20BF070 Offset: 0x20BD670 VA: 0x1820BF070
 	public static CardTable.WinnerBreakdown.Winner DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20BF2C0 Offset: 0x20BD8C0 VA: 0x1820BF2C0
+	// RVA: 0x20BF100 Offset: 0x20BD700 VA: 0x1820BF100
 	public static CardTable.WinnerBreakdown.Winner Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20BFCB0 Offset: 0x20BE2B0 VA: 0x1820BFCB0
+	// RVA: 0x20BFAF0 Offset: 0x20BE0F0 VA: 0x1820BFAF0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20C0450 Offset: 0x20BEA50 VA: 0x1820C0450 Slot: 12
+	// RVA: 0x20C0290 Offset: 0x20BE890 VA: 0x1820C0290 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20C0470 Offset: 0x20BEA70 VA: 0x1820C0470 Slot: 13
+	// RVA: 0x20C02B0 Offset: 0x20BE8B0 VA: 0x1820C02B0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, CardTable.WinnerBreakdown.Winner previous) { }
 
-	// RVA: 0x20BFE60 Offset: 0x20BE460 VA: 0x1820BFE60 Slot: 14
+	// RVA: 0x20BFCA0 Offset: 0x20BE2A0 VA: 0x1820BFCA0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20BF570 Offset: 0x20BDB70 VA: 0x1820BF570
+	// RVA: 0x20BF3B0 Offset: 0x20BD9B0 VA: 0x1820BF3B0
 	public static CardTable.WinnerBreakdown.Winner Deserialize(byte[] buffer, CardTable.WinnerBreakdown.Winner instance, bool isDelta = False) { }
 
-	// RVA: 0x20BF9F0 Offset: 0x20BDFF0 VA: 0x1820BF9F0
+	// RVA: 0x20BF830 Offset: 0x20BDE30 VA: 0x1820BF830
 	public static CardTable.WinnerBreakdown.Winner Deserialize(Stream stream, CardTable.WinnerBreakdown.Winner instance, bool isDelta) { }
 
-	// RVA: 0x20BECD0 Offset: 0x20BD2D0 VA: 0x1820BECD0
+	// RVA: 0x20BEB10 Offset: 0x20BD110 VA: 0x1820BEB10
 	public static CardTable.WinnerBreakdown.Winner DeserializeLengthDelimited(Stream stream, CardTable.WinnerBreakdown.Winner instance, bool isDelta) { }
 
-	// RVA: 0x20BEFD0 Offset: 0x20BD5D0 VA: 0x1820BEFD0
+	// RVA: 0x20BEE10 Offset: 0x20BD410 VA: 0x1820BEE10
 	public static CardTable.WinnerBreakdown.Winner DeserializeLength(Stream stream, int length, CardTable.WinnerBreakdown.Winner instance, bool isDelta) { }
 
-	// RVA: 0x20BFFA0 Offset: 0x20BE5A0 VA: 0x1820BFFA0
+	// RVA: 0x20BFDE0 Offset: 0x20BE3E0 VA: 0x1820BFDE0
 	public static void SerializeDelta(Stream stream, CardTable.WinnerBreakdown.Winner instance, CardTable.WinnerBreakdown.Winner previous) { }
 
-	// RVA: 0x20C0320 Offset: 0x20BE920 VA: 0x1820C0320
+	// RVA: 0x20C0160 Offset: 0x20BE760 VA: 0x1820C0160
 	public static void Serialize(Stream stream, CardTable.WinnerBreakdown.Winner instance) { }
 
-	// RVA: 0x20C0440 Offset: 0x20BEA40 VA: 0x1820C0440
+	// RVA: 0x20C0280 Offset: 0x20BE880 VA: 0x1820C0280
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20C0450 Offset: 0x20BEA50 VA: 0x1820C0450
+	// RVA: 0x20C0290 Offset: 0x20BE890 VA: 0x1820C0290
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20C0210 Offset: 0x20BE810 VA: 0x1820C0210
+	// RVA: 0x20C0050 Offset: 0x20BE650 VA: 0x1820C0050
 	public static byte[] SerializeToBytes(CardTable.WinnerBreakdown.Winner instance) { }
 
-	// RVA: 0x20C0160 Offset: 0x20BE760 VA: 0x1820C0160
+	// RVA: 0x20BFFA0 Offset: 0x20BE5A0 VA: 0x1820BFFA0
 	public static void SerializeLengthDelimited(Stream stream, CardTable.WinnerBreakdown.Winner instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -467,13 +467,13 @@ public class CardTable.CardList : IDisposable, Pool.IPooled, IProto // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x1F76670 Offset: 0x1F74C70 VA: 0x181F76670
+	// RVA: 0x1F764B0 Offset: 0x1F74AB0 VA: 0x181F764B0
 	public static void ResetToPool(CardTable.CardList instance) { }
 
-	// RVA: 0x1F76590 Offset: 0x1F74B90 VA: 0x181F76590
+	// RVA: 0x1F763D0 Offset: 0x1F749D0 VA: 0x181F763D0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F76400 Offset: 0x1F74A00 VA: 0x181F76400 Slot: 9
+	// RVA: 0x1F76240 Offset: 0x1F74840 VA: 0x181F76240 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -482,64 +482,64 @@ public class CardTable.CardList : IDisposable, Pool.IPooled, IProto // TypeDefIn
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F75710 Offset: 0x1F73D10 VA: 0x181F75710
+	// RVA: 0x1F75550 Offset: 0x1F73B50 VA: 0x181F75550
 	public void CopyTo(CardTable.CardList instance) { }
 
-	// RVA: 0x1F75830 Offset: 0x1F73E30 VA: 0x181F75830
+	// RVA: 0x1F75670 Offset: 0x1F73C70 VA: 0x181F75670
 	public CardTable.CardList Copy() { }
 
-	// RVA: 0x1F76260 Offset: 0x1F74860 VA: 0x181F76260
+	// RVA: 0x1F760A0 Offset: 0x1F746A0 VA: 0x181F760A0
 	public static CardTable.CardList Deserialize(Stream stream) { }
 
-	// RVA: 0x1F75C20 Offset: 0x1F74220 VA: 0x181F75C20
+	// RVA: 0x1F75A60 Offset: 0x1F74060 VA: 0x181F75A60
 	public static CardTable.CardList DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F75F10 Offset: 0x1F74510 VA: 0x181F75F10
+	// RVA: 0x1F75D50 Offset: 0x1F74350 VA: 0x181F75D50
 	public static CardTable.CardList DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F762E0 Offset: 0x1F748E0 VA: 0x181F762E0
+	// RVA: 0x1F76120 Offset: 0x1F74720 VA: 0x181F76120
 	public static CardTable.CardList Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F76550 Offset: 0x1F74B50 VA: 0x181F76550
+	// RVA: 0x1F76390 Offset: 0x1F74990 VA: 0x181F76390
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F76BC0 Offset: 0x1F751C0 VA: 0x181F76BC0 Slot: 12
+	// RVA: 0x1F76A00 Offset: 0x1F75000 VA: 0x181F76A00 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F76BE0 Offset: 0x1F751E0 VA: 0x181F76BE0 Slot: 13
+	// RVA: 0x1F76A20 Offset: 0x1F75020 VA: 0x181F76A20 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, CardTable.CardList previous) { }
 
-	// RVA: 0x1F76570 Offset: 0x1F74B70 VA: 0x181F76570 Slot: 14
+	// RVA: 0x1F763B0 Offset: 0x1F749B0 VA: 0x181F763B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F76160 Offset: 0x1F74760 VA: 0x181F76160
+	// RVA: 0x1F75FA0 Offset: 0x1F745A0 VA: 0x181F75FA0
 	public static CardTable.CardList Deserialize(byte[] buffer, CardTable.CardList instance, bool isDelta = False) { }
 
-	// RVA: 0x1F75FA0 Offset: 0x1F745A0 VA: 0x181F75FA0
+	// RVA: 0x1F75DE0 Offset: 0x1F743E0 VA: 0x181F75DE0
 	public static CardTable.CardList Deserialize(Stream stream, CardTable.CardList instance, bool isDelta) { }
 
-	// RVA: 0x1F75990 Offset: 0x1F73F90 VA: 0x181F75990
+	// RVA: 0x1F757D0 Offset: 0x1F73DD0 VA: 0x181F757D0
 	public static CardTable.CardList DeserializeLengthDelimited(Stream stream, CardTable.CardList instance, bool isDelta) { }
 
-	// RVA: 0x1F75CA0 Offset: 0x1F742A0 VA: 0x181F75CA0
+	// RVA: 0x1F75AE0 Offset: 0x1F740E0 VA: 0x181F75AE0
 	public static CardTable.CardList DeserializeLength(Stream stream, int length, CardTable.CardList instance, bool isDelta) { }
 
-	// RVA: 0x1F76750 Offset: 0x1F74D50 VA: 0x181F76750
+	// RVA: 0x1F76590 Offset: 0x1F74B90 VA: 0x181F76590
 	public static void SerializeDelta(Stream stream, CardTable.CardList instance, CardTable.CardList previous) { }
 
-	// RVA: 0x1F76A60 Offset: 0x1F75060 VA: 0x181F76A60
+	// RVA: 0x1F768A0 Offset: 0x1F74EA0 VA: 0x181F768A0
 	public static void Serialize(Stream stream, CardTable.CardList instance) { }
 
-	// RVA: 0x1F76BB0 Offset: 0x1F751B0 VA: 0x181F76BB0
+	// RVA: 0x1F769F0 Offset: 0x1F74FF0 VA: 0x181F769F0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F76BC0 Offset: 0x1F751C0 VA: 0x181F76BC0
+	// RVA: 0x1F76A00 Offset: 0x1F75000 VA: 0x181F76A00
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F76950 Offset: 0x1F74F50 VA: 0x181F76950
+	// RVA: 0x1F76790 Offset: 0x1F74D90 VA: 0x181F76790
 	public static byte[] SerializeToBytes(CardTable.CardList instance) { }
 
-	// RVA: 0x1F768A0 Offset: 0x1F74EA0 VA: 0x181F768A0
+	// RVA: 0x1F766E0 Offset: 0x1F74CE0 VA: 0x181F766E0
 	public static void SerializeLengthDelimited(Stream stream, CardTable.CardList instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -557,32 +557,32 @@ public class CardTable : BaseVehicle // TypeDefIndex: 8367
 	private int lastVisualScrap; // 0x470
 	private static Dictionary<int, Sprite> tableCardImageDict; // 0x8
 	private static Sprite blankCardStatic; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <recentlyLeftPlayerName>k__BackingField; // 0x478
-	[HeaderAttribute] // RVA: 0x80FD0 Offset: 0x803D0 VA: 0x180080FD0
-	[SerializeField] // RVA: 0x80FD0 Offset: 0x803D0 VA: 0x180080FD0
+	[HeaderAttribute] // RVA: 0x81110 Offset: 0x80510 VA: 0x180081110
+	[SerializeField] // RVA: 0x81110 Offset: 0x80510 VA: 0x180081110
 	private GameObjectRef uiPrefab; // 0x480
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GameObjectRef playerStoragePrefab; // 0x488
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private GameObjectRef potPrefab; // 0x490
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ViewModel viewModel; // 0x498
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private CardTableUI.PlayingCardImage[] tableCards; // 0x4A0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Renderer[] tableCardBackings; // 0x4A8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Canvas cardUICanvas; // 0x4B0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Image[] tableCardImages; // 0x4B8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Sprite blankCard; // 0x4C0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Transform chipStacksParent; // 0x4C8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private CardTable.ChipStack[] chipStacks; // 0x4D0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private CardTable.ChipStack[] fillerStacks; // 0x4D8
 	public ItemDefinition scrapItemDef; // 0x4E0
 	public CardTable.PlayerStorageInfo[] playerStoragePoints; // 0x4E8
@@ -615,11 +615,11 @@ public class CardTable : BaseVehicle // TypeDefIndex: 8367
 	// RVA: 0x704EA0 Offset: 0x7034A0 VA: 0x180704EA0
 	public bool get_ShowTakeWinningsTip() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x704ED0 Offset: 0x7034D0 VA: 0x180704ED0
 	public string get_recentlyLeftPlayerName() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x704EE0 Offset: 0x7034E0 VA: 0x180704EE0
 	private void set_recentlyLeftPlayerName(string value) { }
 
@@ -638,20 +638,20 @@ public class CardTable : BaseVehicle // TypeDefIndex: 8367
 	// RVA: 0x701F30 Offset: 0x700530 VA: 0x180701F30
 	public void GetAvailableInputs(CardPlayerData localPlayerData, List<CardTableUI.KeycodeWithAction> targetList) { }
 
-	[BaseEntity.Menu] // RVA: 0xD0F10 Offset: 0xD0310 VA: 0x1800D0F10
-	[BaseEntity.Menu.Description] // RVA: 0xD0F10 Offset: 0xD0310 VA: 0x1800D0F10
-	[BaseEntity.Menu.Icon] // RVA: 0xD0F10 Offset: 0xD0310 VA: 0x1800D0F10
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD0F10 Offset: 0xD0310 VA: 0x1800D0F10
+	[BaseEntity.Menu] // RVA: 0xD0FA0 Offset: 0xD03A0 VA: 0x1800D0FA0
+	[BaseEntity.Menu.Description] // RVA: 0xD0FA0 Offset: 0xD03A0 VA: 0x1800D0FA0
+	[BaseEntity.Menu.Icon] // RVA: 0xD0FA0 Offset: 0xD03A0 VA: 0x1800D0FA0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD0FA0 Offset: 0xD03A0 VA: 0x1800D0FA0
 	// RVA: 0x702C90 Offset: 0x701290 VA: 0x180702C90
 	public void Menu_Play(BasePlayer player) { }
 
 	// RVA: 0x702BE0 Offset: 0x7011E0 VA: 0x180702BE0
 	public bool Menu_Play_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8E020 Offset: 0x8D420 VA: 0x18008E020
-	[BaseEntity.Menu.Description] // RVA: 0x8E020 Offset: 0x8D420 VA: 0x18008E020
-	[BaseEntity.Menu.Icon] // RVA: 0x8E020 Offset: 0x8D420 VA: 0x18008E020
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8E020 Offset: 0x8D420 VA: 0x18008E020
+	[BaseEntity.Menu] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
+	[BaseEntity.Menu.Description] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
+	[BaseEntity.Menu.Icon] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
 	// RVA: 0x702BA0 Offset: 0x7011A0 VA: 0x180702BA0
 	public void Menu_Open(BasePlayer player) { }
 
@@ -682,26 +682,26 @@ public class CardTable : BaseVehicle // TypeDefIndex: 8367
 	// RVA: 0x7049C0 Offset: 0x702FC0 VA: 0x1807049C0
 	private void ShowStack(CardTable.ChipStack stack, ref int remainingScrap) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x703F00 Offset: 0x702500 VA: 0x180703F00
 	private void OnWinnersDeclared(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x704040 Offset: 0x702640 VA: 0x180704040
 	private void ReceiveCardsForPlayer(BaseEntity.RPCMessage msg) { }
 
 	// RVA: 0x701B50 Offset: 0x700150 VA: 0x180701B50
 	public void ClientInput(int inputType, int inputValue = 0) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x701D10 Offset: 0x700310 VA: 0x180701D10
 	private void ClientPlaySound(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x701D70 Offset: 0x700370 VA: 0x180701D70
 	private void ClientStartTurnTimer(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x701BC0 Offset: 0x7001C0 VA: 0x180701BC0
 	private void ClientOnPlayerLeft(BaseEntity.RPCMessage msg) { }
 

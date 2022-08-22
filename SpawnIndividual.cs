@@ -6,7 +6,7 @@ public struct SpawnIndividual // TypeDefIndex: 9994
 
 	// Methods
 
-	// RVA: 0xFC480 Offset: 0xFB880 VA: 0x1800FC480
+	// RVA: 0xFC400 Offset: 0xFB800 VA: 0x1800FC400
 	public void .ctor(uint prefabID, Vector3 position, Quaternion rotation) { }
 
 }

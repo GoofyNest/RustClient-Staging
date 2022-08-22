@@ -13,10 +13,10 @@ internal sealed class StaticTree // TypeDefIndex: 6961
 
 	// Methods
 
-	// RVA: 0x21D50A0 Offset: 0x21D36A0 VA: 0x1821D50A0
+	// RVA: 0x21D4EE0 Offset: 0x21D34E0 VA: 0x1821D4EE0
 	private void .ctor(short[] treeCodes, int[] extraBits, int extraBase, int elems, int maxLength) { }
 
-	// RVA: 0x21D4DE0 Offset: 0x21D33E0 VA: 0x1821D4DE0
+	// RVA: 0x21D4C20 Offset: 0x21D3220 VA: 0x1821D4C20
 	private static void .cctor() { }
 
 }

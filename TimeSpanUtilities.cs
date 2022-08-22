@@ -6,7 +6,7 @@ public static class TimeSpanUtilities // TypeDefIndex: 7499
 
 	// Methods
 
-	// RVA: 0x2202C40 Offset: 0x2201240 VA: 0x182202C40
+	// RVA: 0x2202A80 Offset: 0x2201080 VA: 0x182202A80
 	internal static ITimeSpan Subtract(ITimeSpan timeSpan1, ITimeSpan timeSpan2, TimeSpanMode mode) { }
 
 	// RVA: -1 Offset: -1
@@ -22,7 +22,7 @@ public static class TimeSpanUtilities // TypeDefIndex: 7499
 	|-TimeSpanUtilities.GetParsing<object>
 	*/
 
-	// RVA: 0x2202CE0 Offset: 0x22012E0 VA: 0x182202CE0
+	// RVA: 0x2202B20 Offset: 0x2201120 VA: 0x182202B20
 	private static void .cctor() { }
 
 }

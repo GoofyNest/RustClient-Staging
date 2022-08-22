@@ -18,7 +18,7 @@ public class MailAddress // TypeDefIndex: 3037
 	// RVA: 0x13465B0 Offset: 0x1344BB0 VA: 0x1813465B0
 	public void .ctor(string address, string displayName) { }
 
-	[MonoTODOAttribute] // RVA: 0xB99A0 Offset: 0xB8DA0 VA: 0x1800B99A0
+	[MonoTODOAttribute] // RVA: 0xB98C0 Offset: 0xB8CC0 VA: 0x1800B98C0
 	// RVA: 0x13464C0 Offset: 0x1344AC0 VA: 0x1813464C0
 	public void .ctor(string address, string displayName, Encoding displayNameEncoding) { }
 

@@ -26,11 +26,11 @@ public sealed class SerializationInfo // TypeDefIndex: 1058
 
 	// Methods
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x12A9BF0 Offset: 0x12A81F0 VA: 0x1812A9BF0
 	public void .ctor(Type type, IFormatterConverter converter) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x12A9C10 Offset: 0x12A8210 VA: 0x1812A9C10
 	public void .ctor(Type type, IFormatterConverter converter, bool requireSameTokenInPartialTrust) { }
 
@@ -94,7 +94,7 @@ public sealed class SerializationInfo // TypeDefIndex: 1058
 	// RVA: 0x12A83F0 Offset: 0x12A69F0 VA: 0x1812A83F0
 	public void AddValue(string name, long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x12A7F80 Offset: 0x12A6580 VA: 0x1812A7F80
 	public void AddValue(string name, ulong value) { }
 
@@ -116,14 +116,14 @@ public sealed class SerializationInfo // TypeDefIndex: 1058
 	// RVA: 0x12A8C40 Offset: 0x12A7240 VA: 0x1812A8C40
 	private object GetElement(string name, out Type foundType) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x12A8B00 Offset: 0x12A7100 VA: 0x1812A8B00
 	private object GetElementNoThrow(string name, out Type foundType) { }
 
 	// RVA: 0x12A9570 Offset: 0x12A7B70 VA: 0x1812A9570
 	public object GetValue(string name, Type type) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x12A93B0 Offset: 0x12A79B0 VA: 0x1812A93B0
 	internal object GetValueNoThrow(string name, Type type) { }
 

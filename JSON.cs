@@ -1,13 +1,13 @@
 public static class JsonUtility // TypeDefIndex: 4525
 {
 // Namespace: UnityEngine
-[NativeHeaderAttribute] // RVA: 0xE7E10 Offset: 0xE7210 VA: 0x1800E7E10
+[NativeHeaderAttribute] // RVA: 0xE7DF0 Offset: 0xE71F0 VA: 0x1800E7DF0
 public static class JsonUtility // TypeDefIndex: 4525
 	// Methods
 
-	[ThreadSafeAttribute] // RVA: 0xE7E90 Offset: 0xE7290 VA: 0x1800E7E90
-	[FreeFunctionAttribute] // RVA: 0xE7E90 Offset: 0xE7290 VA: 0x1800E7E90
-	// RVA: 0x2322910 Offset: 0x2320F10 VA: 0x182322910
+	[ThreadSafeAttribute] // RVA: 0xE7F30 Offset: 0xE7330 VA: 0x1800E7F30
+	[FreeFunctionAttribute] // RVA: 0xE7F30 Offset: 0xE7330 VA: 0x1800E7F30
+	// RVA: 0x2322750 Offset: 0x2320D50 VA: 0x182322750
 	private static object FromJsonInternal(string json, object objectToOverwrite, Type type) { }
 
 	// RVA: -1 Offset: -1
@@ -19,7 +19,7 @@ public static class JsonUtility // TypeDefIndex: 4525
 	|-JsonUtility.FromJson<object>
 	*/
 
-	// RVA: 0x2322970 Offset: 0x2320F70 VA: 0x182322970
+	// RVA: 0x23227B0 Offset: 0x2320DB0 VA: 0x1823227B0
 	public static object FromJson(string json, Type type) { }
 
 }
@@ -50,7 +50,7 @@ internal abstract class JSONNode // TypeDefIndex: 5639
 {	// Fields
 	public static bool forceASCII; // 0x0
 	public static bool longAsString; // 0x1
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static StringBuilder m_EscapeBuilder; // 0x80000000
 
 	// Properties
@@ -102,7 +102,7 @@ internal abstract class JSONNode // TypeDefIndex: 5639
 	// RVA: 0x13C91C0 Offset: 0x13C77C0 VA: 0x1813C91C0 Slot: 13
 	public virtual void Add(JSONNode aItem) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBB8B0 Offset: 0xBACB0 VA: 0x1800BB8B0
+	[IteratorStateMachineAttribute] // RVA: 0xBB950 Offset: 0xBAD50 VA: 0x1800BB950
 	// RVA: 0x13CA7A0 Offset: 0x13C8DA0 VA: 0x1813CA7A0 Slot: 14
 	public virtual IEnumerable<JSONNode> get_Children() { }
 
@@ -203,16 +203,16 @@ public struct JSONNode.Enumerator // TypeDefIndex: 5640
 
 	// Methods
 
-	// RVA: 0x1EF050 Offset: 0x1EE450 VA: 0x1801EF050
+	// RVA: 0x1EEFD0 Offset: 0x1EE3D0 VA: 0x1801EEFD0
 	public void .ctor(List.Enumerator<JSONNode> aArrayEnum) { }
 
-	// RVA: 0x1EF090 Offset: 0x1EE490 VA: 0x1801EF090
+	// RVA: 0x1EF010 Offset: 0x1EE410 VA: 0x1801EF010
 	public void .ctor(Dictionary.Enumerator<string, JSONNode> aDictEnum) { }
 
-	// RVA: 0x1EF0E0 Offset: 0x1EE4E0 VA: 0x1801EF0E0
+	// RVA: 0x1EF060 Offset: 0x1EE460 VA: 0x1801EF060
 	public KeyValuePair<string, JSONNode> get_Current() { }
 
-	// RVA: 0x1EEFE0 Offset: 0x1EE3E0 VA: 0x1801EEFE0
+	// RVA: 0x1EEF60 Offset: 0x1EE360 VA: 0x1801EEF60
 	public bool MoveNext() { }
 
 }
@@ -238,34 +238,34 @@ private sealed class JSONNode.<get_Children>d__40 : IEnumerable<JSONNode>, IEnum
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD87490 Offset: 0xD85A90 VA: 0x180D87490
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x13CF780 Offset: 0x13CDD80 VA: 0x1813CF780 Slot: 8
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 6
 	private JSONNode System.Collections.Generic.IEnumerator<GameAnalyticsSDK.Net.Utilities.JSONNode>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13CF820 Offset: 0x13CDE20 VA: 0x1813CF820 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13CF790 Offset: 0x13CDD90 VA: 0x1813CF790 Slot: 4
 	private IEnumerator<JSONNode> System.Collections.Generic.IEnumerable<GameAnalyticsSDK.Net.Utilities.JSONNode>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13CF790 Offset: 0x13CDD90 VA: 0x1813CF790 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
@@ -306,7 +306,7 @@ internal class JSONArray : JSONNode // TypeDefIndex: 5643
 	// RVA: 0x13C81E0 Offset: 0x13C67E0 VA: 0x1813C81E0 Slot: 12
 	public override void Add(string aKey, JSONNode aItem) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBBE00 Offset: 0xBB200 VA: 0x1800BBE00
+	[IteratorStateMachineAttribute] // RVA: 0xBBEB0 Offset: 0xBB2B0 VA: 0x1800BBEB0
 	// RVA: 0x13C85D0 Offset: 0x13C6BD0 VA: 0x1813C85D0 Slot: 14
 	public override IEnumerable<JSONNode> get_Children() { }
 
@@ -335,11 +335,11 @@ private sealed class JSONArray.<get_Children>d__22 : IEnumerable<JSONNode>, IEnu
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD87490 Offset: 0xD85A90 VA: 0x180D87490
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13CF360 Offset: 0x13CD960 VA: 0x1813CF360 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
@@ -349,23 +349,23 @@ private sealed class JSONArray.<get_Children>d__22 : IEnumerable<JSONNode>, IEnu
 	// RVA: 0x13CF400 Offset: 0x13CDA00 VA: 0x1813CF400
 	private void <>m__Finally1() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 6
 	private JSONNode System.Collections.Generic.IEnumerator<GameAnalyticsSDK.Net.Utilities.JSONNode>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13CF310 Offset: 0x13CD910 VA: 0x1813CF310 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13CF270 Offset: 0x13CD870 VA: 0x1813CF270 Slot: 4
 	private IEnumerator<JSONNode> System.Collections.Generic.IEnumerable<GameAnalyticsSDK.Net.Utilities.JSONNode>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13CF270 Offset: 0x13CD870 VA: 0x1813CF270 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
@@ -402,7 +402,7 @@ internal class JSONObject : JSONNode // TypeDefIndex: 5645
 	// RVA: 0x13CB3B0 Offset: 0x13C99B0 VA: 0x1813CB3B0 Slot: 12
 	public override void Add(string aKey, JSONNode aItem) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBDCF0 Offset: 0xBD0F0 VA: 0x1800BDCF0
+	[IteratorStateMachineAttribute] // RVA: 0xBDD90 Offset: 0xBD190 VA: 0x1800BDD90
 	// RVA: 0x13CBA90 Offset: 0x13CA090 VA: 0x1813CBA90 Slot: 14
 	public override IEnumerable<JSONNode> get_Children() { }
 
@@ -431,11 +431,11 @@ private sealed class JSONObject.<get_Children>d__23 : IEnumerable<JSONNode>, IEn
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD87490 Offset: 0xD85A90 VA: 0x180D87490
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13CF6A0 Offset: 0x13CDCA0 VA: 0x1813CF6A0 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
@@ -445,23 +445,23 @@ private sealed class JSONObject.<get_Children>d__23 : IEnumerable<JSONNode>, IEn
 	// RVA: 0x13CF740 Offset: 0x13CDD40 VA: 0x1813CF740
 	private void <>m__Finally1() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 6
 	private JSONNode System.Collections.Generic.IEnumerator<GameAnalyticsSDK.Net.Utilities.JSONNode>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13CF650 Offset: 0x13CDC50 VA: 0x1813CF650 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13CF5B0 Offset: 0x13CDBB0 VA: 0x1813CF5B0 Slot: 4
 	private IEnumerator<JSONNode> System.Collections.Generic.IEnumerable<GameAnalyticsSDK.Net.Utilities.JSONNode>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13CF5B0 Offset: 0x13CDBB0 VA: 0x1813CF5B0 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
@@ -750,9 +750,9 @@ public class JsonException : Exception // TypeDefIndex: 5874
 
 public class JsonExtensionDataAttribute : Attribute // TypeDefIndex: 5875
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <WriteData>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <ReadData>k__BackingField; // 0x11
 
 	// Properties
@@ -761,19 +761,19 @@ public class JsonExtensionDataAttribute : Attribute // TypeDefIndex: 5875
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public bool get_WriteData() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFC0 Offset: 0x4995C0 VA: 0x18049AFC0
 	public void set_WriteData(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xF8B3B0 Offset: 0xF899B0 VA: 0x180F8B3B0
 	public bool get_ReadData() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xF8B3C0 Offset: 0xF899C0 VA: 0x180F8B3C0
 	public void set_ReadData(bool value) { }
 
@@ -802,13 +802,13 @@ internal struct JsonPosition // TypeDefIndex: 5877
 
 	// Methods
 
-	// RVA: 0x141FF0 Offset: 0x1413F0 VA: 0x180141FF0
+	// RVA: 0x141F70 Offset: 0x141370 VA: 0x180141F70
 	public void .ctor(JsonContainerType type) { }
 
-	// RVA: 0x141FD0 Offset: 0x1413D0 VA: 0x180141FD0
+	// RVA: 0x141F50 Offset: 0x141350 VA: 0x180141F50
 	internal int CalculateLength() { }
 
-	// RVA: 0x141FE0 Offset: 0x1413E0 VA: 0x180141FE0
+	// RVA: 0x141F60 Offset: 0x141360 VA: 0x180141F60
 	internal void WriteTo(StringBuilder sb) { }
 
 	// RVA: 0x4BCCA0 Offset: 0x4BB2A0 VA: 0x1804BCCA0
@@ -843,9 +843,9 @@ public sealed class JsonArrayAttribute : JsonContainerAttribute // TypeDefIndex:
 
 public abstract class JsonContainerAttribute : Attribute // TypeDefIndex: 5885
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Type <ItemConverterType>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private object[] <ItemConverterParameters>k__BackingField; // 0x18
 	internal Nullable<bool> _isReference; // 0x20
 	internal Nullable<bool> _itemIsReference; // 0x22
@@ -858,11 +858,11 @@ public abstract class JsonContainerAttribute : Attribute // TypeDefIndex: 5885
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public Type get_ItemConverterType() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public object[] get_ItemConverterParameters() { }
 
@@ -874,7 +874,7 @@ public abstract class JsonContainerAttribute : Attribute // TypeDefIndex: 5885
 public sealed class JsonConverterAttribute : Attribute // TypeDefIndex: 5887
 {	// Fields
 	private readonly Type _converterType; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private object[] <ConverterParameters>k__BackingField; // 0x18
 
 	// Properties
@@ -886,7 +886,7 @@ public sealed class JsonConverterAttribute : Attribute // TypeDefIndex: 5887
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public Type get_ConverterType() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public object[] get_ConverterParameters() { }
 
@@ -941,19 +941,19 @@ public class JsonSerializerSettings // TypeDefIndex: 5889
 	internal Nullable<ConstructorHandling> _constructorHandling; // 0xC0
 	internal Nullable<TypeNameHandling> _typeNameHandling; // 0xC8
 	internal Nullable<MetadataPropertyHandling> _metadataPropertyHandling; // 0xD0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private IList<JsonConverter> <Converters>k__BackingField; // 0xD8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private IContractResolver <ContractResolver>k__BackingField; // 0xE0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private IEqualityComparer <EqualityComparer>k__BackingField; // 0xE8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Func<IReferenceResolver> <ReferenceResolverProvider>k__BackingField; // 0xF0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ITraceWriter <TraceWriter>k__BackingField; // 0xF8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SerializationBinder <Binder>k__BackingField; // 0x100
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private EventHandler<ErrorEventArgs> <Error>k__BackingField; // 0x108
 
 	// Properties
@@ -993,11 +993,11 @@ public class JsonSerializerSettings // TypeDefIndex: 5889
 	// RVA: 0xF90670 Offset: 0xF8EC70 VA: 0x180F90670
 	public DefaultValueHandling get_DefaultValueHandling() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD9F470 Offset: 0xD9DA70 VA: 0x180D9F470
 	public IList<JsonConverter> get_Converters() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD35070 Offset: 0xD33670 VA: 0x180D35070
 	public void set_Converters(IList<JsonConverter> value) { }
 
@@ -1016,27 +1016,27 @@ public class JsonSerializerSettings // TypeDefIndex: 5889
 	// RVA: 0xF90590 Offset: 0xF8EB90 VA: 0x180F90590
 	public ConstructorHandling get_ConstructorHandling() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4EF3A0 Offset: 0x4ED9A0 VA: 0x1804EF3A0
 	public IContractResolver get_ContractResolver() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x872140 Offset: 0x870740 VA: 0x180872140
 	public IEqualityComparer get_EqualityComparer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC73B60 Offset: 0xC72160 VA: 0x180C73B60
 	public Func<IReferenceResolver> get_ReferenceResolverProvider() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xB0EDC0 Offset: 0xB0D3C0 VA: 0x180B0EDC0
 	public ITraceWriter get_TraceWriter() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA2A920 Offset: 0xA28F20 VA: 0x180A2A920
 	public SerializationBinder get_Binder() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC831A0 Offset: 0xC817A0 VA: 0x180C831A0
 	public EventHandler<ErrorEventArgs> get_Error() { }
 
@@ -1271,11 +1271,11 @@ public sealed class JsonPropertyAttribute : Attribute // TypeDefIndex: 5895
 	internal Nullable<bool> _itemIsReference; // 0x4C
 	internal Nullable<ReferenceLoopHandling> _itemReferenceLoopHandling; // 0x50
 	internal Nullable<TypeNameHandling> _itemTypeNameHandling; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Type <ItemConverterType>k__BackingField; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private object[] <ItemConverterParameters>k__BackingField; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <PropertyName>k__BackingField; // 0x70
 
 	// Properties
@@ -1285,19 +1285,19 @@ public sealed class JsonPropertyAttribute : Attribute // TypeDefIndex: 5895
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
 	public Type get_ItemConverterType() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
 	public object[] get_ItemConverterParameters() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
 	public string get_PropertyName() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
 	public void set_PropertyName(string value) { }
 
@@ -1405,14 +1405,14 @@ public class JsonTextWriter : JsonWriter // TypeDefIndex: 5897
 	// RVA: 0xE47420 Offset: 0xE45A20 VA: 0x180E47420 Slot: 26
 	public override void WriteValue(int value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE47190 Offset: 0xE45790 VA: 0x180E47190 Slot: 27
 	public override void WriteValue(uint value) { }
 
 	// RVA: 0xE47360 Offset: 0xE45960 VA: 0x180E47360 Slot: 28
 	public override void WriteValue(long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE46850 Offset: 0xE44E50 VA: 0x180E46850 Slot: 29
 	public override void WriteValue(ulong value) { }
 
@@ -1434,7 +1434,7 @@ public class JsonTextWriter : JsonWriter // TypeDefIndex: 5897
 	// RVA: 0xE46FC0 Offset: 0xE455C0 VA: 0x180E46FC0 Slot: 33
 	public override void WriteValue(short value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE473A0 Offset: 0xE459A0 VA: 0x180E473A0 Slot: 34
 	public override void WriteValue(ushort value) { }
 
@@ -1444,7 +1444,7 @@ public class JsonTextWriter : JsonWriter // TypeDefIndex: 5897
 	// RVA: 0xE473E0 Offset: 0xE459E0 VA: 0x180E473E0 Slot: 36
 	public override void WriteValue(byte value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE47670 Offset: 0xE45C70 VA: 0x180E47670 Slot: 37
 	public override void WriteValue(sbyte value) { }
 
@@ -1485,7 +1485,7 @@ public class JsonTextWriter : JsonWriter // TypeDefIndex: 5897
 
 public class JsonWriterException : JsonException // TypeDefIndex: 5898
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Path>k__BackingField; // 0x88
 
 	// Properties
@@ -1493,7 +1493,7 @@ public class JsonWriterException : JsonException // TypeDefIndex: 5898
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
 	private void set_Path(string value) { }
 
@@ -1516,11 +1516,11 @@ public class JsonWriterException : JsonException // TypeDefIndex: 5898
 
 public class JsonReaderException : JsonException // TypeDefIndex: 5899
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <LineNumber>k__BackingField; // 0x88
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <LinePosition>k__BackingField; // 0x8C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Path>k__BackingField; // 0x90
 
 	// Properties
@@ -1530,15 +1530,15 @@ public class JsonReaderException : JsonException // TypeDefIndex: 5899
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xF8C000 Offset: 0xF8A600 VA: 0x180F8C000
 	private void set_LineNumber(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xF8C010 Offset: 0xF8A610 VA: 0x180F8C010
 	private void set_LinePosition(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4E4060 Offset: 0x4E2660 VA: 0x1804E4060
 	private void set_Path(string value) { }
 
@@ -1612,9 +1612,9 @@ public abstract class JsonReader : IDisposable // TypeDefIndex: 5902
 	internal FloatParseHandling _floatParseHandling; // 0x5C
 	private string _dateFormatString; // 0x60
 	private List<JsonPosition> _stack; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <CloseInput>k__BackingField; // 0x70
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <SupportMultipleContent>k__BackingField; // 0x71
 
 	// Properties
@@ -1638,19 +1638,19 @@ public abstract class JsonReader : IDisposable // TypeDefIndex: 5902
 	// RVA: 0x7D0C00 Offset: 0x7CF200 VA: 0x1807D0C00
 	protected JsonReader.State get_CurrentState() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC312F0 Offset: 0xC2F8F0 VA: 0x180C312F0
 	public bool get_CloseInput() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC32410 Offset: 0xC30A10 VA: 0x180C32410
 	public void set_CloseInput(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE75840 Offset: 0xE73E40 VA: 0x180E75840
 	public bool get_SupportMultipleContent() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE75870 Offset: 0xE73E70 VA: 0x180E75870
 	public void set_SupportMultipleContent(bool value) { }
 
@@ -1832,7 +1832,7 @@ public abstract class JsonReader : IDisposable // TypeDefIndex: 5902
 
 public static class JsonConvert // TypeDefIndex: 5904
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Func<JsonSerializerSettings> <DefaultSettings>k__BackingField; // 0x0
 	public static readonly string True; // 0x8
 	public static readonly string False; // 0x10
@@ -1848,11 +1848,11 @@ public static class JsonConvert // TypeDefIndex: 5904
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xF8B030 Offset: 0xF89630 VA: 0x180F8B030
 	public static Func<JsonSerializerSettings> get_DefaultSettings() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xF8B090 Offset: 0xF89690 VA: 0x180F8B090
 	public static void set_DefaultSettings(Func<JsonSerializerSettings> value) { }
 
@@ -2039,7 +2039,7 @@ public class JsonSerializer // TypeDefIndex: 5906
 	private Nullable<bool> _checkAdditionalContent; // 0xC1
 	private string _dateFormatString; // 0xC8
 	private bool _dateFormatStringSet; // 0xD0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private EventHandler<ErrorEventArgs> Error; // 0xD8
 
 	// Properties
@@ -2065,11 +2065,11 @@ public class JsonSerializer // TypeDefIndex: 5906
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xF92B70 Offset: 0xF91170 VA: 0x180F92B70 Slot: 4
 	public virtual void add_Error(EventHandler<ErrorEventArgs> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xF92D20 Offset: 0xF91320 VA: 0x180F92D20 Slot: 5
 	public virtual void remove_Error(EventHandler<ErrorEventArgs> value) { }
 
@@ -2257,7 +2257,7 @@ public abstract class JsonWriter : IDisposable // TypeDefIndex: 5912
 	private JsonPosition _currentPosition; // 0x18
 	private JsonWriter.State _currentState; // 0x30
 	private Formatting _formatting; // 0x34
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <CloseOutput>k__BackingField; // 0x38
 	private DateFormatHandling _dateFormatHandling; // 0x3C
 	private DateTimeZoneHandling _dateTimeZoneHandling; // 0x40
@@ -2288,11 +2288,11 @@ public abstract class JsonWriter : IDisposable // TypeDefIndex: 5912
 	// RVA: 0xE4B4E0 Offset: 0xE49AE0 VA: 0x180E4B4E0
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8C1040 Offset: 0x8BF640 VA: 0x1808C1040
 	public bool get_CloseOutput() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x78E170 Offset: 0x78C770 VA: 0x18078E170
 	public void set_CloseOutput(bool value) { }
 
@@ -2458,14 +2458,14 @@ public abstract class JsonWriter : IDisposable // TypeDefIndex: 5912
 	// RVA: 0xE4ABC0 Offset: 0xE491C0 VA: 0x180E4ABC0 Slot: 26
 	public virtual void WriteValue(int value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE4ABC0 Offset: 0xE491C0 VA: 0x180E4ABC0 Slot: 27
 	public virtual void WriteValue(uint value) { }
 
 	// RVA: 0xE4ABC0 Offset: 0xE491C0 VA: 0x180E4ABC0 Slot: 28
 	public virtual void WriteValue(long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE4ABC0 Offset: 0xE491C0 VA: 0x180E4ABC0 Slot: 29
 	public virtual void WriteValue(ulong value) { }
 
@@ -2481,7 +2481,7 @@ public abstract class JsonWriter : IDisposable // TypeDefIndex: 5912
 	// RVA: 0xE4ABC0 Offset: 0xE491C0 VA: 0x180E4ABC0 Slot: 33
 	public virtual void WriteValue(short value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE4ABC0 Offset: 0xE491C0 VA: 0x180E4ABC0 Slot: 34
 	public virtual void WriteValue(ushort value) { }
 
@@ -2491,7 +2491,7 @@ public abstract class JsonWriter : IDisposable // TypeDefIndex: 5912
 	// RVA: 0xE4ABC0 Offset: 0xE491C0 VA: 0x180E4ABC0 Slot: 36
 	public virtual void WriteValue(byte value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE4ABC0 Offset: 0xE491C0 VA: 0x180E4ABC0 Slot: 37
 	public virtual void WriteValue(sbyte value) { }
 
@@ -2513,14 +2513,14 @@ public abstract class JsonWriter : IDisposable // TypeDefIndex: 5912
 	// RVA: 0xE4AD60 Offset: 0xE49360 VA: 0x180E4AD60 Slot: 43
 	public virtual void WriteValue(Nullable<int> value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE4B470 Offset: 0xE49A70 VA: 0x180E4B470 Slot: 44
 	public virtual void WriteValue(Nullable<uint> value) { }
 
 	// RVA: 0xE4B310 Offset: 0xE49910 VA: 0x180E4B310 Slot: 45
 	public virtual void WriteValue(Nullable<long> value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE499A0 Offset: 0xE47FA0 VA: 0x180E499A0 Slot: 46
 	public virtual void WriteValue(Nullable<ulong> value) { }
 
@@ -2536,7 +2536,7 @@ public abstract class JsonWriter : IDisposable // TypeDefIndex: 5912
 	// RVA: 0xE4B060 Offset: 0xE49660 VA: 0x180E4B060 Slot: 50
 	public virtual void WriteValue(Nullable<short> value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE4ADD0 Offset: 0xE493D0 VA: 0x180E4ADD0 Slot: 51
 	public virtual void WriteValue(Nullable<ushort> value) { }
 
@@ -2546,7 +2546,7 @@ public abstract class JsonWriter : IDisposable // TypeDefIndex: 5912
 	// RVA: 0xE4AEE0 Offset: 0xE494E0 VA: 0x180E4AEE0 Slot: 53
 	public virtual void WriteValue(Nullable<byte> value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE4ABE0 Offset: 0xE491E0 VA: 0x180E4ABE0 Slot: 54
 	public virtual void WriteValue(Nullable<sbyte> value) { }
 
@@ -2643,13 +2643,13 @@ public class JsonContainerContract : JsonContract // TypeDefIndex: 5977
 {	// Fields
 	private JsonContract _itemContract; // 0x90
 	private JsonContract _finalItemContract; // 0x98
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private JsonConverter <ItemConverter>k__BackingField; // 0xA0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<bool> <ItemIsReference>k__BackingField; // 0xA8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<ReferenceLoopHandling> <ItemReferenceLoopHandling>k__BackingField; // 0xAC
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<TypeNameHandling> <ItemTypeNameHandling>k__BackingField; // 0xB4
 
 	// Properties
@@ -2671,35 +2671,35 @@ public class JsonContainerContract : JsonContract // TypeDefIndex: 5977
 	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
 	internal JsonContract get_FinalItemContract() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
 	public JsonConverter get_ItemConverter() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
 	public void set_ItemConverter(JsonConverter value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1BA0 Offset: 0x13F01A0 VA: 0x1813F1BA0
 	public Nullable<bool> get_ItemIsReference() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1C30 Offset: 0x13F0230 VA: 0x1813F1C30
 	public void set_ItemIsReference(Nullable<bool> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1BB0 Offset: 0x13F01B0 VA: 0x1813F1BB0
 	public Nullable<ReferenceLoopHandling> get_ItemReferenceLoopHandling() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1C40 Offset: 0x13F0240 VA: 0x1813F1C40
 	public void set_ItemReferenceLoopHandling(Nullable<ReferenceLoopHandling> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1BC0 Offset: 0x13F01C0 VA: 0x1813F1BC0
 	public Nullable<TypeNameHandling> get_ItemTypeNameHandling() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1C50 Offset: 0x13F0250 VA: 0x1813F1C50
 	public void set_ItemTypeNameHandling(Nullable<TypeNameHandling> value) { }
 
@@ -2973,7 +2973,7 @@ public class JsonLinqContract : JsonContract // TypeDefIndex: 5984
 
 public class JsonPrimitiveContract : JsonContract // TypeDefIndex: 5985
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PrimitiveTypeCode <TypeCode>k__BackingField; // 0x90
 	private static readonly Dictionary<Type, ReadType> ReadTypeMap; // 0x0
 
@@ -2982,11 +2982,11 @@ public class JsonPrimitiveContract : JsonContract // TypeDefIndex: 5985
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD277E0 Offset: 0xD25DE0 VA: 0x180D277E0
 	internal PrimitiveTypeCode get_TypeCode() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD27750 Offset: 0xD25D50 VA: 0x180D27750
 	internal void set_TypeCode(PrimitiveTypeCode value) { }
 
@@ -3000,24 +3000,24 @@ public class JsonPrimitiveContract : JsonContract // TypeDefIndex: 5985
 
 public class JsonArrayContract : JsonContainerContract // TypeDefIndex: 6005
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Type <CollectionItemType>k__BackingField; // 0xC0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IsMultidimensionalArray>k__BackingField; // 0xC8
 	private readonly Type _genericCollectionDefinitionType; // 0xD0
 	private Type _genericWrapperType; // 0xD8
 	private ObjectConstructor<object> _genericWrapperCreator; // 0xE0
 	private Func<object> _genericTemporaryCollectionCreator; // 0xE8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IsArray>k__BackingField; // 0xF0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <ShouldCreateWrapper>k__BackingField; // 0xF1
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <CanDeserialize>k__BackingField; // 0xF2
 	private readonly ConstructorInfo _parameterizedConstructor; // 0xF8
 	private ObjectConstructor<object> _parameterizedCreator; // 0x100
 	private ObjectConstructor<object> _overrideCreator; // 0x108
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <HasParameterizedCreator>k__BackingField; // 0x110
 
 	// Properties
@@ -3033,43 +3033,43 @@ public class JsonArrayContract : JsonContainerContract // TypeDefIndex: 6005
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x104F1B0 Offset: 0x104D7B0 VA: 0x18104F1B0
 	public Type get_CollectionItemType() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xEFAF20 Offset: 0xEF9520 VA: 0x180EFAF20
 	private void set_CollectionItemType(Type value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1960 Offset: 0x13EFF60 VA: 0x1813F1960
 	public bool get_IsMultidimensionalArray() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1A50 Offset: 0x13F0050 VA: 0x1813F1A50
 	private void set_IsMultidimensionalArray(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDA00F0 Offset: 0xD9E6F0 VA: 0x180DA00F0
 	internal bool get_IsArray() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDA04D0 Offset: 0xD9EAD0 VA: 0x180DA04D0
 	private void set_IsArray(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1A20 Offset: 0x13F0020 VA: 0x1813F1A20
 	internal bool get_ShouldCreateWrapper() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1A90 Offset: 0x13F0090 VA: 0x1813F1A90
 	private void set_ShouldCreateWrapper(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1910 Offset: 0x13EFF10 VA: 0x1813F1910
 	internal bool get_CanDeserialize() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1A30 Offset: 0x13F0030 VA: 0x1813F1A30
 	private void set_CanDeserialize(bool value) { }
 
@@ -3082,11 +3082,11 @@ public class JsonArrayContract : JsonContainerContract // TypeDefIndex: 6005
 	// RVA: 0x13F1A60 Offset: 0x13F0060 VA: 0x1813F1A60
 	public void set_OverrideCreator(ObjectConstructor<object> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1950 Offset: 0x13EFF50 VA: 0x1813F1950
 	public bool get_HasParameterizedCreator() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F1A40 Offset: 0x13F0040 VA: 0x1813F1A40
 	public void set_HasParameterizedCreator(bool value) { }
 
@@ -3136,17 +3136,17 @@ public abstract class JsonContract // TypeDefIndex: 6011
 	private IList<SerializationCallback> _onSerializingCallbacks; // 0x48
 	private IList<SerializationErrorCallback> _onErrorCallbacks; // 0x50
 	private Type _createdType; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Type <UnderlyingType>k__BackingField; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<bool> <IsReference>k__BackingField; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private JsonConverter <Converter>k__BackingField; // 0x70
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private JsonConverter <InternalConverter>k__BackingField; // 0x78
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Func<object> <DefaultCreator>k__BackingField; // 0x80
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <DefaultCreatorNonPublic>k__BackingField; // 0x88
 
 	// Properties
@@ -3165,11 +3165,11 @@ public abstract class JsonContract // TypeDefIndex: 6011
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
 	public Type get_UnderlyingType() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x536330 Offset: 0x534930 VA: 0x180536330
 	private void set_UnderlyingType(Type value) { }
 
@@ -3179,27 +3179,27 @@ public abstract class JsonContract // TypeDefIndex: 6011
 	// RVA: 0x13F2930 Offset: 0x13F0F30 VA: 0x1813F2930
 	public void set_CreatedType(Type value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F26F0 Offset: 0x13F0CF0 VA: 0x1813F26F0
 	public Nullable<bool> get_IsReference() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F29A0 Offset: 0x13F0FA0 VA: 0x1813F29A0
 	public void set_IsReference(Nullable<bool> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
 	public JsonConverter get_Converter() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
 	public void set_Converter(JsonConverter value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
 	internal JsonConverter get_InternalConverter() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4E8840 Offset: 0x4E6E40 VA: 0x1804E8840
 	internal void set_InternalConverter(JsonConverter value) { }
 
@@ -3218,19 +3218,19 @@ public abstract class JsonContract // TypeDefIndex: 6011
 	// RVA: 0x13F27E0 Offset: 0x13F0DE0 VA: 0x1813F27E0
 	public IList<SerializationErrorCallback> get_OnErrorCallbacks() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5743E0 Offset: 0x5729E0 VA: 0x1805743E0
 	public Func<object> get_DefaultCreator() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574470 Offset: 0x572A70 VA: 0x180574470
 	public void set_DefaultCreator(Func<object> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x69D600 Offset: 0x69BC00 VA: 0x18069D600
 	public bool get_DefaultCreatorNonPublic() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x69D610 Offset: 0x69BC10 VA: 0x18069D610
 	public void set_DefaultCreatorNonPublic(bool value) { }
 
@@ -3297,57 +3297,57 @@ public class JsonProperty // TypeDefIndex: 6015
 	private string _propertyName; // 0x30
 	internal bool _skipPropertyNameEscape; // 0x38
 	private Type _propertyType; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private JsonContract <PropertyContract>k__BackingField; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Type <DeclaringType>k__BackingField; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<int> <Order>k__BackingField; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <UnderlyingName>k__BackingField; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private IValueProvider <ValueProvider>k__BackingField; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private IAttributeProvider <AttributeProvider>k__BackingField; // 0x70
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private JsonConverter <Converter>k__BackingField; // 0x78
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private JsonConverter <MemberConverter>k__BackingField; // 0x80
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <Ignored>k__BackingField; // 0x88
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <Readable>k__BackingField; // 0x89
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <Writable>k__BackingField; // 0x8A
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <HasMemberAttribute>k__BackingField; // 0x8B
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<bool> <IsReference>k__BackingField; // 0x8C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<NullValueHandling> <NullValueHandling>k__BackingField; // 0x90
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<DefaultValueHandling> <DefaultValueHandling>k__BackingField; // 0x98
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<ReferenceLoopHandling> <ReferenceLoopHandling>k__BackingField; // 0xA0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<ObjectCreationHandling> <ObjectCreationHandling>k__BackingField; // 0xA8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<TypeNameHandling> <TypeNameHandling>k__BackingField; // 0xB0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Predicate<object> <ShouldSerialize>k__BackingField; // 0xB8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Predicate<object> <ShouldDeserialize>k__BackingField; // 0xC0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Predicate<object> <GetIsSpecified>k__BackingField; // 0xC8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Action<object, object> <SetIsSpecified>k__BackingField; // 0xD0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private JsonConverter <ItemConverter>k__BackingField; // 0xD8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<bool> <ItemIsReference>k__BackingField; // 0xE0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<TypeNameHandling> <ItemTypeNameHandling>k__BackingField; // 0xE4
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<ReferenceLoopHandling> <ItemReferenceLoopHandling>k__BackingField; // 0xEC
 
 	// Properties
@@ -3384,11 +3384,11 @@ public class JsonProperty // TypeDefIndex: 6015
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	internal JsonContract get_PropertyContract() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5DD810 Offset: 0x5DBE10 VA: 0x1805DD810
 	internal void set_PropertyContract(JsonContract value) { }
 
@@ -3398,39 +3398,39 @@ public class JsonProperty // TypeDefIndex: 6015
 	// RVA: 0x13F4F60 Offset: 0x13F3560 VA: 0x1813F4F60
 	public void set_PropertyName(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
 	public Type get_DeclaringType() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF890 Offset: 0x4CDE90 VA: 0x1804CF890
 	public void set_DeclaringType(Type value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
 	public Nullable<int> get_Order() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D8F30 Offset: 0x8D7530 VA: 0x1808D8F30
 	public void set_Order(Nullable<int> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
 	public string get_UnderlyingName() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x536330 Offset: 0x534930 VA: 0x180536330
 	public void set_UnderlyingName(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
 	public IValueProvider get_ValueProvider() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x519E50 Offset: 0x518450 VA: 0x180519E50
 	public void set_ValueProvider(IValueProvider value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
 	public void set_AttributeProvider(IAttributeProvider value) { }
 
@@ -3440,51 +3440,51 @@ public class JsonProperty // TypeDefIndex: 6015
 	// RVA: 0x13F5000 Offset: 0x13F3600 VA: 0x1813F5000
 	public void set_PropertyType(Type value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
 	public JsonConverter get_Converter() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4E8840 Offset: 0x4E6E40 VA: 0x1804E8840
 	public void set_Converter(JsonConverter value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5743E0 Offset: 0x5729E0 VA: 0x1805743E0
 	public JsonConverter get_MemberConverter() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574470 Offset: 0x572A70 VA: 0x180574470
 	public void set_MemberConverter(JsonConverter value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x69D600 Offset: 0x69BC00 VA: 0x18069D600
 	public bool get_Ignored() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x69D610 Offset: 0x69BC10 VA: 0x18069D610
 	public void set_Ignored(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xEC11D0 Offset: 0xEBF7D0 VA: 0x180EC11D0
 	public bool get_Readable() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xEC1870 Offset: 0xEBFE70 VA: 0x180EC1870
 	public void set_Readable(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4EC0 Offset: 0x13F34C0 VA: 0x1813F4EC0
 	public bool get_Writable() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F5050 Offset: 0x13F3650 VA: 0x1813F5050
 	public void set_Writable(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4E30 Offset: 0x13F3430 VA: 0x1813F4E30
 	public bool get_HasMemberAttribute() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4EF0 Offset: 0x13F34F0 VA: 0x1813F4EF0
 	public void set_HasMemberAttribute(bool value) { }
 
@@ -3500,114 +3500,114 @@ public class JsonProperty // TypeDefIndex: 6015
 	// RVA: 0x13F4E80 Offset: 0x13F3480 VA: 0x1813F4E80
 	public Required get_Required() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4E40 Offset: 0x13F3440 VA: 0x1813F4E40
 	public Nullable<bool> get_IsReference() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4F00 Offset: 0x13F3500 VA: 0x1813F4F00
 	public void set_IsReference(Nullable<bool> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050
 	public Nullable<NullValueHandling> get_NullValueHandling() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4F40 Offset: 0x13F3540 VA: 0x1813F4F40
 	public void set_NullValueHandling(Nullable<NullValueHandling> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
 	public Nullable<DefaultValueHandling> get_DefaultValueHandling() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4ED0 Offset: 0x13F34D0 VA: 0x1813F4ED0
 	public void set_DefaultValueHandling(Nullable<DefaultValueHandling> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
 	public Nullable<ReferenceLoopHandling> get_ReferenceLoopHandling() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F5030 Offset: 0x13F3630 VA: 0x1813F5030
 	public void set_ReferenceLoopHandling(Nullable<ReferenceLoopHandling> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x952B90 Offset: 0x951190 VA: 0x180952B90
 	public Nullable<ObjectCreationHandling> get_ObjectCreationHandling() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4F50 Offset: 0x13F3550 VA: 0x1813F4F50
 	public void set_ObjectCreationHandling(Nullable<ObjectCreationHandling> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x9921A0 Offset: 0x9907A0 VA: 0x1809921A0
 	public Nullable<TypeNameHandling> get_TypeNameHandling() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F5040 Offset: 0x13F3640 VA: 0x1813F5040
 	public void set_TypeNameHandling(Nullable<TypeNameHandling> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7ACF70 Offset: 0x7AB570 VA: 0x1807ACF70
 	public Predicate<object> get_ShouldSerialize() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA4D230 Offset: 0xA4B830 VA: 0x180A4D230
 	public void set_ShouldSerialize(Predicate<object> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x104F1B0 Offset: 0x104D7B0 VA: 0x18104F1B0
 	public Predicate<object> get_ShouldDeserialize() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDA00E0 Offset: 0xD9E6E0 VA: 0x180DA00E0
 	public Predicate<object> get_GetIsSpecified() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDA04C0 Offset: 0xD9EAC0 VA: 0x180DA04C0
 	public void set_GetIsSpecified(Predicate<object> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC73A80 Offset: 0xC72080 VA: 0x180C73A80
 	public Action<object, object> get_SetIsSpecified() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC73BD0 Offset: 0xC721D0 VA: 0x180C73BD0
 	public void set_SetIsSpecified(Action<object, object> value) { }
 
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050 Slot: 3
 	public override string ToString() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD9F470 Offset: 0xD9DA70 VA: 0x180D9F470
 	public JsonConverter get_ItemConverter() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD35070 Offset: 0xD33670 VA: 0x180D35070
 	public void set_ItemConverter(JsonConverter value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4E50 Offset: 0x13F3450 VA: 0x1813F4E50
 	public Nullable<bool> get_ItemIsReference() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4F10 Offset: 0x13F3510 VA: 0x1813F4F10
 	public void set_ItemIsReference(Nullable<bool> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4E70 Offset: 0x13F3470 VA: 0x1813F4E70
 	public Nullable<TypeNameHandling> get_ItemTypeNameHandling() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4F30 Offset: 0x13F3530 VA: 0x1813F4F30
 	public void set_ItemTypeNameHandling(Nullable<TypeNameHandling> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4E60 Offset: 0x13F3460 VA: 0x1813F4E60
 	public Nullable<ReferenceLoopHandling> get_ItemReferenceLoopHandling() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4F20 Offset: 0x13F3520 VA: 0x1813F4F20
 	public void set_ItemReferenceLoopHandling(Nullable<ReferenceLoopHandling> value) { }
 
@@ -3648,15 +3648,15 @@ public class JsonPropertyCollection : KeyedCollection<string, JsonProperty> // T
 
 public class JsonObjectContract : JsonContainerContract // TypeDefIndex: 6018
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private MemberSerialization <MemberSerialization>k__BackingField; // 0xC0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<Required> <ItemRequired>k__BackingField; // 0xC4
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private JsonPropertyCollection <Properties>k__BackingField; // 0xD0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ExtensionDataSetter <ExtensionDataSetter>k__BackingField; // 0xD8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ExtensionDataGetter <ExtensionDataGetter>k__BackingField; // 0xE0
 	internal bool ExtensionDataIsJToken; // 0xE8
 	private Nullable<bool> _hasRequiredOrDefaultValueProperties; // 0xE9
@@ -3672,9 +3672,9 @@ public class JsonObjectContract : JsonContainerContract // TypeDefIndex: 6018
 	public Nullable<Required> ItemRequired { get; set; }
 	public JsonPropertyCollection Properties { get; set; }
 	public JsonPropertyCollection CreatorParameters { get; }
-	[ObsoleteAttribute] // RVA: 0x8E150 Offset: 0x8D550 VA: 0x18008E150
-	public ConstructorInfo OverrideConstructor { set; }
 	[ObsoleteAttribute] // RVA: 0x8E1D0 Offset: 0x8D5D0 VA: 0x18008E1D0
+	public ConstructorInfo OverrideConstructor { set; }
+	[ObsoleteAttribute] // RVA: 0x8E250 Offset: 0x8D650 VA: 0x18008E250
 	public ConstructorInfo ParametrizedConstructor { set; }
 	public ObjectConstructor<object> OverrideCreator { get; }
 	internal ObjectConstructor<object> ParameterizedCreator { get; }
@@ -3685,27 +3685,27 @@ public class JsonObjectContract : JsonContainerContract // TypeDefIndex: 6018
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1079E40 Offset: 0x1078440 VA: 0x181079E40
 	public MemberSerialization get_MemberSerialization() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1079FB0 Offset: 0x10785B0 VA: 0x181079FB0
 	public void set_MemberSerialization(MemberSerialization value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4180 Offset: 0x13F2780 VA: 0x1813F4180
 	public Nullable<Required> get_ItemRequired() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13F4250 Offset: 0x13F2850 VA: 0x1813F4250
 	public void set_ItemRequired(Nullable<Required> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC73A80 Offset: 0xC72080 VA: 0x180C73A80
 	public JsonPropertyCollection get_Properties() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC73BD0 Offset: 0xC721D0 VA: 0x180C73BD0
 	private void set_Properties(JsonPropertyCollection value) { }
 
@@ -3724,19 +3724,19 @@ public class JsonObjectContract : JsonContainerContract // TypeDefIndex: 6018
 	// RVA: 0xC831A0 Offset: 0xC817A0 VA: 0x180C831A0
 	internal ObjectConstructor<object> get_ParameterizedCreator() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD9F470 Offset: 0xD9DA70 VA: 0x180D9F470
 	public ExtensionDataSetter get_ExtensionDataSetter() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD35070 Offset: 0xD33670 VA: 0x180D35070
 	public void set_ExtensionDataSetter(ExtensionDataSetter value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4EF3A0 Offset: 0x4ED9A0 VA: 0x1804EF3A0
 	public ExtensionDataGetter get_ExtensionDataGetter() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4EF3B0 Offset: 0x4ED9B0 VA: 0x1804EF3B0
 	public void set_ExtensionDataGetter(ExtensionDataGetter value) { }
 
@@ -4527,7 +4527,7 @@ public class JsonMergeSettings // TypeDefIndex: 6041
 public class JTokenEqualityComparer : IEqualityComparer<JToken> // TypeDefIndex: 6046
 {
 // Namespace: Newtonsoft.Json.Linq
-[PreserveAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 public class JTokenEqualityComparer : IEqualityComparer<JToken> // TypeDefIndex: 6046
 	// Methods
 
@@ -4545,8 +4545,8 @@ public class JTokenEqualityComparer : IEqualityComparer<JToken> // TypeDefIndex:
 public class JConstructor : JContainer // TypeDefIndex: 6056
 {
 // Namespace: Newtonsoft.Json.Linq
-[PreserveAttribute] // RVA: 0x71440 Offset: 0x70840 VA: 0x180071440
-[DefaultMemberAttribute] // RVA: 0x71440 Offset: 0x70840 VA: 0x180071440
+[PreserveAttribute] // RVA: 0x71550 Offset: 0x70950 VA: 0x180071550
+[DefaultMemberAttribute] // RVA: 0x71550 Offset: 0x70950 VA: 0x180071550
 public class JConstructor : JContainer // TypeDefIndex: 6056
 	// Fields
 	private string _name; // 0x48
@@ -4797,9 +4797,9 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 public class JObject : JContainer, IDictionary<string, JToken>, ICollection<KeyValuePair<string, JToken>>, IEnumerable<KeyValuePair<string, JToken>>, IEnumerable, ICustomTypeDescriptor, INotifyPropertyChanging // TypeDefIndex: 6060
 {	// Fields
 	private readonly JPropertyKeyedCollection _properties; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PropertyChangedEventHandler PropertyChanged; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PropertyChangingEventHandler PropertyChanging; // 0x58
 
 	// Properties
@@ -4955,11 +4955,11 @@ private sealed class JObject.<GetEnumerator>d__58 : IEnumerator<KeyValuePair<str
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE4CBE0 Offset: 0xE4B1E0 VA: 0x180E4CBE0 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
@@ -4969,15 +4969,15 @@ private sealed class JObject.<GetEnumerator>d__58 : IEnumerator<KeyValuePair<str
 	// RVA: 0xE4CC90 Offset: 0xE4B290 VA: 0x180E4CC90
 	private void <>m__Finally1() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xB11230 Offset: 0xB0F830 VA: 0x180B11230 Slot: 4
 	private KeyValuePair<string, JToken> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE4CB40 Offset: 0xE4B140 VA: 0x180E4CB40 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE4CB90 Offset: 0xE4B190 VA: 0x180E4CB90 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
@@ -5197,14 +5197,14 @@ public class JTokenWriter : JsonWriter // TypeDefIndex: 6065
 	// RVA: 0xE3AAE0 Offset: 0xE390E0 VA: 0x180E3AAE0 Slot: 26
 	public override void WriteValue(int value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE3A610 Offset: 0xE38C10 VA: 0x180E3A610 Slot: 27
 	public override void WriteValue(uint value) { }
 
 	// RVA: 0xE3A810 Offset: 0xE38E10 VA: 0x180E3A810 Slot: 28
 	public override void WriteValue(long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE3AC50 Offset: 0xE39250 VA: 0x180E3AC50 Slot: 29
 	public override void WriteValue(ulong value) { }
 
@@ -5220,7 +5220,7 @@ public class JTokenWriter : JsonWriter // TypeDefIndex: 6065
 	// RVA: 0xE3ACD0 Offset: 0xE392D0 VA: 0x180E3ACD0 Slot: 33
 	public override void WriteValue(short value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE3A890 Offset: 0xE38E90 VA: 0x180E3A890 Slot: 34
 	public override void WriteValue(ushort value) { }
 
@@ -5230,7 +5230,7 @@ public class JTokenWriter : JsonWriter // TypeDefIndex: 6065
 	// RVA: 0xE3A710 Offset: 0xE38D10 VA: 0x180E3A710 Slot: 36
 	public override void WriteValue(byte value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE3AA60 Offset: 0xE39060 VA: 0x180E3AA60 Slot: 37
 	public override void WriteValue(sbyte value) { }
 
@@ -5291,7 +5291,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 
 	// Methods
 
-	[DebuggerStepThroughAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerStepThroughAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public JContainer get_Parent() { }
 
@@ -5400,18 +5400,18 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	// RVA: 0xE40580 Offset: 0xE3EB80 VA: 0x180E40580
 	public static short op_Explicit(JToken value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE42220 Offset: 0xE40820 VA: 0x180E42220
 	public static ushort op_Explicit(JToken value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE3DE40 Offset: 0xE3C440 VA: 0x180E3DE40
 	public static char op_Explicit(JToken value) { }
 
 	// RVA: 0xE3FED0 Offset: 0xE3E4D0 VA: 0x180E3FED0
 	public static byte op_Explicit(JToken value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE3EBA0 Offset: 0xE3D1A0 VA: 0x180E3EBA0
 	public static sbyte op_Explicit(JToken value) { }
 
@@ -5421,14 +5421,14 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	// RVA: 0xE415A0 Offset: 0xE3FBA0 VA: 0x180E415A0
 	public static Nullable<short> op_Explicit(JToken value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE42400 Offset: 0xE40A00 VA: 0x180E42400
 	public static Nullable<ushort> op_Explicit(JToken value) { }
 
 	// RVA: 0xE41350 Offset: 0xE3F950 VA: 0x180E41350
 	public static Nullable<byte> op_Explicit(JToken value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE40760 Offset: 0xE3ED60 VA: 0x180E40760
 	public static Nullable<sbyte> op_Explicit(JToken value) { }
 
@@ -5444,11 +5444,11 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	// RVA: 0xE3F960 Offset: 0xE3DF60 VA: 0x180E3F960
 	public static Decimal op_Explicit(JToken value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE428A0 Offset: 0xE40EA0 VA: 0x180E428A0
 	public static Nullable<uint> op_Explicit(JToken value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE42650 Offset: 0xE40C50 VA: 0x180E42650
 	public static Nullable<ulong> op_Explicit(JToken value) { }
 
@@ -5461,11 +5461,11 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	// RVA: 0xE409B0 Offset: 0xE3EFB0 VA: 0x180E409B0
 	public static string op_Explicit(JToken value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE403A0 Offset: 0xE3E9A0 VA: 0x180E403A0
 	public static uint op_Explicit(JToken value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0xE3E450 Offset: 0xE3CA50 VA: 0x180E3E450
 	public static ulong op_Explicit(JToken value) { }
 
@@ -5579,23 +5579,23 @@ private class JToken.LineInfoAnnotation // TypeDefIndex: 6067
 public class JProperty : JContainer // TypeDefIndex: 6073
 {
 // Namespace: 
-[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 private sealed class JToken.<AfterSelf>d__42 // TypeDefIndex: 6069
 
 // Namespace: 
-[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 private sealed class JToken.<BeforeSelf>d__43 // TypeDefIndex: 6070
 
 // Namespace: 
-[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 private sealed class JToken.<Annotations>d__171<T> // TypeDefIndex: 6071
 
 // Namespace: 
-[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 private sealed class JToken.<Annotations>d__172 // TypeDefIndex: 6072
 
 // Namespace: Newtonsoft.Json.Linq
-[PreserveAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 public class JProperty : JContainer // TypeDefIndex: 6073
 	// Fields
 	private readonly JProperty.JPropertyList _content; // 0x48
@@ -5612,11 +5612,11 @@ public class JProperty : JContainer // TypeDefIndex: 6073
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450 Slot: 45
 	protected override IList<JToken> get_ChildrenTokens() { }
 
-	[DebuggerStepThroughAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerStepThroughAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
 	public string get_Name() { }
 
-	[DebuggerStepThroughAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerStepThroughAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE37E60 Offset: 0xE36460 VA: 0x180E37E60
 	public JToken get_Value() { }
 
@@ -5656,7 +5656,7 @@ public class JProperty : JContainer // TypeDefIndex: 6073
 	// RVA: 0xE36F40 Offset: 0xE35540 VA: 0x180E36F40 Slot: 10
 	internal override JToken CloneToken() { }
 
-	[DebuggerStepThroughAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerStepThroughAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE37E50 Offset: 0xE36450 VA: 0x180E37E50 Slot: 12
 	public override JTokenType get_Type() { }
 
@@ -5747,26 +5747,26 @@ private sealed class JProperty.JPropertyList.<GetEnumerator>d__1 : IEnumerator<J
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0xE4C880 Offset: 0xE4AE80 VA: 0x180E4C880 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private JToken System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE4C8E0 Offset: 0xE4AEE0 VA: 0x180E4C8E0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
@@ -5969,7 +5969,7 @@ public static class JSON // TypeDefIndex: 11582
 	// RVA: 0x87A7F0 Offset: 0x878DF0 VA: 0x18087A7F0
 	private static Type FindType(string fullName) { }
 
-	[PreserveAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	private static T DecodeType<T>(Variant data) { }
 	/* GenericInstMethod :
@@ -6008,7 +6008,7 @@ public static class JSON // TypeDefIndex: 11582
 	|-JSON.DecodeType<ulong>
 	*/
 
-	[PreserveAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	private static List<T> DecodeList<T>(Variant data) { }
 	/* GenericInstMethod :
@@ -6047,7 +6047,7 @@ public static class JSON // TypeDefIndex: 11582
 	|-JSON.DecodeList<ulong>
 	*/
 
-	[PreserveAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	private static Dictionary<TKey, TValue> DecodeDictionary<TKey, TValue>(Variant data) { }
 	/* GenericInstMethod :
@@ -6416,46 +6416,46 @@ public static class JSON // TypeDefIndex: 11582
 	|-JSON.DecodeDictionary<ulong, ulong>
 	*/
 
-	[PreserveAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	private static T[] DecodeArray<T>(Variant data) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A39C70 Offset: 0x1A38270 VA: 0x181A39C70
+	|-RVA: 0x1A39C30 Offset: 0x1A38230 VA: 0x181A39C30
 	|-JSON.DecodeArray<bool>
 	|
-	|-RVA: 0x1A39E90 Offset: 0x1A38490 VA: 0x181A39E90
+	|-RVA: 0x1A39E50 Offset: 0x1A38450 VA: 0x181A39E50
 	|-JSON.DecodeArray<Decimal>
 	|
-	|-RVA: 0x1A3A0D0 Offset: 0x1A386D0 VA: 0x181A3A0D0
+	|-RVA: 0x1A3A090 Offset: 0x1A38690 VA: 0x181A3A090
 	|-JSON.DecodeArray<double>
 	|
-	|-RVA: 0x1A3A300 Offset: 0x1A38900 VA: 0x181A3A300
+	|-RVA: 0x1A3A2C0 Offset: 0x1A388C0 VA: 0x181A3A2C0
 	|-JSON.DecodeArray<short>
 	|
-	|-RVA: 0x1A3A520 Offset: 0x1A38B20 VA: 0x181A3A520
+	|-RVA: 0x1A3A4E0 Offset: 0x1A38AE0 VA: 0x181A3A4E0
 	|-JSON.DecodeArray<int>
 	|
-	|-RVA: 0x1A3A740 Offset: 0x1A38D40 VA: 0x181A3A740
+	|-RVA: 0x1A3A700 Offset: 0x1A38D00 VA: 0x181A3A700
 	|-JSON.DecodeArray<long>
 	|
-	|-RVA: 0x1A3A960 Offset: 0x1A38F60 VA: 0x181A3A960
+	|-RVA: 0x1A3A920 Offset: 0x1A38F20 VA: 0x181A3A920
 	|-JSON.DecodeArray<object>
 	|
-	|-RVA: 0x1A3AB70 Offset: 0x1A39170 VA: 0x181A3AB70
+	|-RVA: 0x1A3AB30 Offset: 0x1A39130 VA: 0x181A3AB30
 	|-JSON.DecodeArray<float>
 	|
-	|-RVA: 0x1A3ADA0 Offset: 0x1A393A0 VA: 0x181A3ADA0
+	|-RVA: 0x1A3AD60 Offset: 0x1A39360 VA: 0x181A3AD60
 	|-JSON.DecodeArray<ushort>
 	|
-	|-RVA: 0x1A3AFC0 Offset: 0x1A395C0 VA: 0x181A3AFC0
+	|-RVA: 0x1A3AF80 Offset: 0x1A39580 VA: 0x181A3AF80
 	|-JSON.DecodeArray<uint>
 	|
-	|-RVA: 0x1A3B1E0 Offset: 0x1A397E0 VA: 0x181A3B1E0
+	|-RVA: 0x1A3B1A0 Offset: 0x1A397A0 VA: 0x181A3B1A0
 	|-JSON.DecodeArray<ulong>
 	*/
 
-	[PreserveAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	private static void DecodeMultiRankArray<T>(ProxyArray arrayData, Array array, int arrayRank, int[] indices) { }
 	/* GenericInstMethod :
@@ -6464,7 +6464,7 @@ public static class JSON // TypeDefIndex: 11582
 	|-JSON.DecodeMultiRankArray<object>
 	*/
 
-	[PreserveAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static void SupportTypeForAOT<T>() { }
 	/* GenericInstMethod :
@@ -6504,7 +6504,7 @@ public static class JSON // TypeDefIndex: 11582
 	|-JSON.SupportTypeForAOT<ulong>
 	*/
 
-	[PreserveAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x87AA20 Offset: 0x879020 VA: 0x18087AA20
 	private static void SupportValueTypesForAOT() { }
 

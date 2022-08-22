@@ -39,7 +39,7 @@ public class StackTrace // TypeDefIndex: 1503
 	// RVA: 0xD86640 Offset: 0xD84C40 VA: 0x180D86640 Slot: 5
 	public virtual StackFrame GetFrame(int index) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 6
 	public virtual StackFrame[] GetFrames() { }
 

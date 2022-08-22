@@ -39,7 +39,7 @@ private struct TickInterpolator.Segment // TypeDefIndex: 11406
 
 	// Methods
 
-	// RVA: 0xF9740 Offset: 0xF8B40 VA: 0x1800F9740
+	// RVA: 0xF96C0 Offset: 0xF8AC0 VA: 0x1800F96C0
 	public void .ctor(Vector3 a, Vector3 b) { }
 
 }

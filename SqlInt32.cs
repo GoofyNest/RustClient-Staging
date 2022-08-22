@@ -15,22 +15,22 @@ public struct SqlInt32 : INullable, IComparable, IXmlSerializable // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x119910 Offset: 0x118D10 VA: 0x180119910
+	// RVA: 0x119890 Offset: 0x118C90 VA: 0x180119890
 	private void .ctor(bool fNull) { }
 
-	// RVA: 0x119920 Offset: 0x118D20 VA: 0x180119920
+	// RVA: 0x1198A0 Offset: 0x118CA0 VA: 0x1801198A0
 	public void .ctor(int value) { }
 
-	// RVA: 0x1181D0 Offset: 0x1175D0 VA: 0x1801181D0 Slot: 4
+	// RVA: 0x118150 Offset: 0x117550 VA: 0x180118150 Slot: 4
 	public bool get_IsNull() { }
 
-	// RVA: 0x119930 Offset: 0x118D30 VA: 0x180119930
+	// RVA: 0x1198B0 Offset: 0x118CB0 VA: 0x1801198B0
 	public int get_Value() { }
 
 	// RVA: 0xCC3CD0 Offset: 0xCC22D0 VA: 0x180CC3CD0
 	public static SqlInt32 op_Implicit(int x) { }
 
-	// RVA: 0x1198F0 Offset: 0x118CF0 VA: 0x1801198F0 Slot: 3
+	// RVA: 0x119870 Offset: 0x118C70 VA: 0x180119870 Slot: 3
 	public override string ToString() { }
 
 	// RVA: 0xCC4040 Offset: 0xCC2640 VA: 0x180CC4040
@@ -75,31 +75,31 @@ public struct SqlInt32 : INullable, IComparable, IXmlSerializable // TypeDefInde
 	// RVA: 0xCC31F0 Offset: 0xCC17F0 VA: 0x180CC31F0
 	public static SqlBoolean GreaterThan(SqlInt32 x, SqlInt32 y) { }
 
-	// RVA: 0x1196A0 Offset: 0x118AA0 VA: 0x1801196A0
+	// RVA: 0x119620 Offset: 0x118A20 VA: 0x180119620
 	public SqlDouble ToSqlDouble() { }
 
-	// RVA: 0x1197B0 Offset: 0x118BB0 VA: 0x1801197B0
+	// RVA: 0x119730 Offset: 0x118B30 VA: 0x180119730
 	public SqlInt64 ToSqlInt64() { }
 
-	// RVA: 0x1191B0 Offset: 0x1185B0 VA: 0x1801191B0 Slot: 5
+	// RVA: 0x119130 Offset: 0x118530 VA: 0x180119130 Slot: 5
 	public int CompareTo(object value) { }
 
-	// RVA: 0x1192B0 Offset: 0x1186B0 VA: 0x1801192B0
+	// RVA: 0x119230 Offset: 0x118630 VA: 0x180119230
 	public int CompareTo(SqlInt32 value) { }
 
-	// RVA: 0x1192C0 Offset: 0x1186C0 VA: 0x1801192C0 Slot: 0
+	// RVA: 0x119240 Offset: 0x118640 VA: 0x180119240 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x119440 Offset: 0x118840 VA: 0x180119440 Slot: 2
+	// RVA: 0x1193C0 Offset: 0x1187C0 VA: 0x1801193C0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x117E00 Offset: 0x117200 VA: 0x180117E00 Slot: 6
+	// RVA: 0x117D80 Offset: 0x117180 VA: 0x180117D80 Slot: 6
 	private XmlSchema System.Xml.Serialization.IXmlSerializable.GetSchema() { }
 
-	// RVA: 0x1194C0 Offset: 0x1188C0 VA: 0x1801194C0 Slot: 7
+	// RVA: 0x119440 Offset: 0x118840 VA: 0x180119440 Slot: 7
 	private void System.Xml.Serialization.IXmlSerializable.ReadXml(XmlReader reader) { }
 
-	// RVA: 0x1195D0 Offset: 0x1189D0 VA: 0x1801195D0 Slot: 8
+	// RVA: 0x119550 Offset: 0x118950 VA: 0x180119550 Slot: 8
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
 	// RVA: 0xCC3190 Offset: 0xCC1790 VA: 0x180CC3190

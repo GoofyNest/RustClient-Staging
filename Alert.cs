@@ -15,13 +15,13 @@ public class Alert // TypeDefIndex: 1736
 	// RVA: 0xF8B3B0 Offset: 0xF899B0 VA: 0x180F8B3B0
 	public AlertDescription get_Description() { }
 
-	// RVA: 0x1AAE920 Offset: 0x1AACF20 VA: 0x181AAE920
+	// RVA: 0x1AAE760 Offset: 0x1AACD60 VA: 0x181AAE760
 	public void .ctor(AlertDescription description) { }
 
-	// RVA: 0x1AAE9C0 Offset: 0x1AACFC0 VA: 0x181AAE9C0
+	// RVA: 0x1AAE800 Offset: 0x1AACE00 VA: 0x181AAE800
 	private void inferAlertLevel() { }
 
-	// RVA: 0x1AAE8A0 Offset: 0x1AACEA0 VA: 0x181AAE8A0 Slot: 3
+	// RVA: 0x1AAE6E0 Offset: 0x1AACCE0 VA: 0x181AAE6E0 Slot: 3
 	public override string ToString() { }
 
 }

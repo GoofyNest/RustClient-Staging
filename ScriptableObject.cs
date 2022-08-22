@@ -1,10 +1,10 @@
 public class ScriptableObject : Object // TypeDefIndex: 3523
 {	// Methods
 
-	// RVA: 0x19AE610 Offset: 0x19ACC10 VA: 0x1819AE610
+	// RVA: 0x19AE5D0 Offset: 0x19ACBD0 VA: 0x1819AE5D0
 	public void .ctor() { }
 
-	// RVA: 0x19B4CD0 Offset: 0x19B32D0 VA: 0x1819B4CD0
+	// RVA: 0x19B4C90 Offset: 0x19B3290 VA: 0x1819B4C90
 	public static ScriptableObject CreateInstance(Type type) { }
 
 	// RVA: -1 Offset: -1
@@ -28,12 +28,12 @@ public class ScriptableObject : Object // TypeDefIndex: 3523
 	|-ScriptableObject.CreateInstance<PlayerConnection>
 	*/
 
-	[NativeMethodAttribute] // RVA: 0x90510 Offset: 0x8F910 VA: 0x180090510
-	// RVA: 0x19B4D60 Offset: 0x19B3360 VA: 0x1819B4D60
+	[NativeMethodAttribute] // RVA: 0x90620 Offset: 0x8FA20 VA: 0x180090620
+	// RVA: 0x19B4D20 Offset: 0x19B3320 VA: 0x1819B4D20
 	private static void CreateScriptableObject(ScriptableObject self) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC3A70 Offset: 0xC2E70 VA: 0x1800C3A70
-	// RVA: 0x19B4D10 Offset: 0x19B3310 VA: 0x1819B4D10
+	[FreeFunctionAttribute] // RVA: 0xC3B00 Offset: 0xC2F00 VA: 0x1800C3B00
+	// RVA: 0x19B4CD0 Offset: 0x19B32D0 VA: 0x1819B4CD0
 	internal static ScriptableObject CreateScriptableObjectInstanceFromType(Type type, bool applyDefaultsAndReset) { }
 
 }

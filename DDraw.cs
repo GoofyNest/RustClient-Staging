@@ -282,23 +282,23 @@ private sealed class DDraw.<>c // TypeDefIndex: 11693
 public class DDraw // TypeDefIndex: 11899
 {	// Methods
 
-	[ClientVar] // RVA: 0x93000 Offset: 0x92400 VA: 0x180093000
+	[ClientVar] // RVA: 0x930E0 Offset: 0x924E0 VA: 0x1800930E0
 	// RVA: 0x6D5760 Offset: 0x6D3D60 VA: 0x1806D5760
 	public static void line(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x93000 Offset: 0x92400 VA: 0x180093000
+	[ClientVar] // RVA: 0x930E0 Offset: 0x924E0 VA: 0x1800930E0
 	// RVA: 0x6D53A0 Offset: 0x6D39A0 VA: 0x1806D53A0
 	public static void arrow(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x93000 Offset: 0x92400 VA: 0x180093000
+	[ClientVar] // RVA: 0x930E0 Offset: 0x924E0 VA: 0x1800930E0
 	// RVA: 0x6D5950 Offset: 0x6D3F50 VA: 0x1806D5950
 	public static void sphere(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x93000 Offset: 0x92400 VA: 0x180093000
+	[ClientVar] // RVA: 0x930E0 Offset: 0x924E0 VA: 0x1800930E0
 	// RVA: 0x6D5AF0 Offset: 0x6D40F0 VA: 0x1806D5AF0
 	public static void text(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x93000 Offset: 0x92400 VA: 0x180093000
+	[ClientVar] // RVA: 0x930E0 Offset: 0x924E0 VA: 0x1800930E0
 	// RVA: 0x6D55C0 Offset: 0x6D3BC0 VA: 0x1806D55C0
 	public static void box(ConsoleSystem.Arg arg) { }
 

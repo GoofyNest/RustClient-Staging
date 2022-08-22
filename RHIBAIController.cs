@@ -4,7 +4,7 @@ public class RHIBAIController : FacepunchBehaviour // TypeDefIndex: 9704
 
 	// Methods
 
-	[ContextMenu] // RVA: 0x847F0 Offset: 0x83BF0 VA: 0x1800847F0
+	[ContextMenu] // RVA: 0x84860 Offset: 0x83C60 VA: 0x180084860
 	// RVA: 0x6A0760 Offset: 0x69ED60 VA: 0x1806A0760
 	public void SetupPatrolPath() { }
 

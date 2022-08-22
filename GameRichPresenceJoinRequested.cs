@@ -10,13 +10,13 @@ internal struct GameRichPresenceJoinRequested_t : ICallbackData // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1E7BA0 Offset: 0x1E6FA0 VA: 0x1801E7BA0
+	// RVA: 0x1E7B20 Offset: 0x1E6F20 VA: 0x1801E7B20
 	internal string ConnectUTF8() { }
 
-	// RVA: 0x1E7C30 Offset: 0x1E7030 VA: 0x1801E7C30 Slot: 5
+	// RVA: 0x1E7BB0 Offset: 0x1E6FB0 VA: 0x1801E7BB0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E7C20 Offset: 0x1E7020 VA: 0x1801E7C20 Slot: 4
+	// RVA: 0x1E7BA0 Offset: 0x1E6FA0 VA: 0x1801E7BA0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x13712B0 Offset: 0x136F8B0 VA: 0x1813712B0

@@ -4,7 +4,7 @@ internal class BootConfigData // TypeDefIndex: 3359
 
 	// Methods
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x181FCC0 Offset: 0x181E2C0 VA: 0x18181FCC0
 	private static BootConfigData WrapBootConfigData(IntPtr nativeHandle) { }
 

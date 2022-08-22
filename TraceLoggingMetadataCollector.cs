@@ -3,7 +3,7 @@ internal class TraceLoggingMetadataCollector // TypeDefIndex: 1587
 	private readonly TraceLoggingMetadataCollector.Impl impl; // 0x10
 	private readonly FieldMetadata currentGroup; // 0x18
 	private int bufferedArrayFieldCount; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private EventFieldTags <Tags>k__BackingField; // 0x24
 
 	// Properties
@@ -21,11 +21,11 @@ internal class TraceLoggingMetadataCollector // TypeDefIndex: 1587
 	// RVA: 0x10E9380 Offset: 0x10E7980 VA: 0x1810E9380
 	private void .ctor(TraceLoggingMetadataCollector other, FieldMetadata group) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7D0C00 Offset: 0x7CF200 VA: 0x1807D0C00
 	internal EventFieldTags get_Tags() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7D0C60 Offset: 0x7CF260 VA: 0x1807D0C60
 	internal void set_Tags(EventFieldTags value) { }
 

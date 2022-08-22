@@ -16,8 +16,8 @@ public static class RuntimeHelpers // TypeDefIndex: 1317
 	// RVA: 0xCCE560 Offset: 0xCCCB60 VA: 0x180CCE560
 	public static int GetHashCode(object o) { }
 
-	[ReliabilityContractAttribute] // RVA: 0xD9F20 Offset: 0xD9320 VA: 0x1800D9F20
-	[MonoTODOAttribute] // RVA: 0xD9F20 Offset: 0xD9320 VA: 0x1800D9F20
+	[ReliabilityContractAttribute] // RVA: 0xD9EA0 Offset: 0xD92A0 VA: 0x1800D9EA0
+	[MonoTODOAttribute] // RVA: 0xD9EA0 Offset: 0xD92A0 VA: 0x1800D9EA0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void PrepareConstrainedRegions() { }
 

@@ -46,55 +46,55 @@ public class DepthOfFieldDeprecated : PostEffectsBase // TypeDefIndex: 8181
 
 	// Methods
 
-	// RVA: 0x21DBBC0 Offset: 0x21DA1C0 VA: 0x1821DBBC0
+	// RVA: 0x21DBA00 Offset: 0x21DA000 VA: 0x1821DBA00
 	private void CreateMaterials() { }
 
-	// RVA: 0x21DBA80 Offset: 0x21DA080 VA: 0x1821DBA80 Slot: 4
+	// RVA: 0x21DB8C0 Offset: 0x21D9EC0 VA: 0x1821DB8C0 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x21DC080 Offset: 0x21DA680 VA: 0x1821DC080
+	// RVA: 0x21DBEC0 Offset: 0x21DA4C0 VA: 0x1821DBEC0
 	private void OnDisable() { }
 
-	// RVA: 0x21DC0D0 Offset: 0x21DA6D0 VA: 0x1821DC0D0
+	// RVA: 0x21DBF10 Offset: 0x21DA510 VA: 0x1821DBF10
 	private void OnEnable() { }
 
-	// RVA: 0x21DBE60 Offset: 0x21DA460 VA: 0x1821DBE60
+	// RVA: 0x21DBCA0 Offset: 0x21DA2A0 VA: 0x1821DBCA0
 	private float FocalDistance01(float worldDist) { }
 
-	// RVA: 0x21DC040 Offset: 0x21DA640 VA: 0x1821DC040
+	// RVA: 0x21DBE80 Offset: 0x21DA480 VA: 0x1821DBE80
 	private int GetDividerBasedOnQuality() { }
 
-	// RVA: 0x21DC060 Offset: 0x21DA660 VA: 0x1821DC060
+	// RVA: 0x21DBEA0 Offset: 0x21DA4A0 VA: 0x1821DBEA0
 	private int GetLowResolutionDividerBasedOnQuality(int baseDivider) { }
 
-	// RVA: 0x21DC150 Offset: 0x21DA750 VA: 0x1821DC150
+	// RVA: 0x21DBF90 Offset: 0x21DA590 VA: 0x1821DBF90
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21DB740 Offset: 0x21D9D40 VA: 0x1821DB740
+	// RVA: 0x21DB580 Offset: 0x21D9B80 VA: 0x1821DB580
 	private void Blur(RenderTexture from, RenderTexture to, DepthOfFieldDeprecated.DofBlurriness iterations, int blurPass, float spread) { }
 
-	// RVA: 0x21DB130 Offset: 0x21D9730 VA: 0x1821DB130
+	// RVA: 0x21DAF70 Offset: 0x21D9570 VA: 0x1821DAF70
 	private void BlurFg(RenderTexture from, RenderTexture to, DepthOfFieldDeprecated.DofBlurriness iterations, int blurPass, float spread) { }
 
-	// RVA: 0x21DB490 Offset: 0x21D9A90 VA: 0x1821DB490
+	// RVA: 0x21DB2D0 Offset: 0x21D98D0 VA: 0x1821DB2D0
 	private void BlurHex(RenderTexture from, RenderTexture to, int blurPass, float spread, RenderTexture tmp) { }
 
-	// RVA: 0x21DBCE0 Offset: 0x21DA2E0 VA: 0x1821DBCE0
+	// RVA: 0x21DBB20 Offset: 0x21DA120 VA: 0x1821DBB20
 	private void Downsample(RenderTexture from, RenderTexture to) { }
 
-	// RVA: 0x21DA820 Offset: 0x21D8E20 VA: 0x1821DA820
+	// RVA: 0x21DA660 Offset: 0x21D8C60 VA: 0x1821DA660
 	private void AddBokeh(RenderTexture bokehInfo, RenderTexture tempTex, RenderTexture finalTarget) { }
 
-	// RVA: 0x21DCD50 Offset: 0x21DB350 VA: 0x1821DCD50
+	// RVA: 0x21DCB90 Offset: 0x21DB190 VA: 0x1821DCB90
 	private void ReleaseTextures() { }
 
-	// RVA: 0x21DACF0 Offset: 0x21D92F0 VA: 0x1821DACF0
+	// RVA: 0x21DAB30 Offset: 0x21D9130 VA: 0x1821DAB30
 	private void AllocateTextures(bool blurForeground, RenderTexture source, int divider, int lowTexDivider) { }
 
-	// RVA: 0x21DCF60 Offset: 0x21DB560 VA: 0x1821DCF60
+	// RVA: 0x21DCDA0 Offset: 0x21DB3A0 VA: 0x1821DCDA0
 	public void .ctor() { }
 
-	// RVA: 0x21DCF10 Offset: 0x21DB510 VA: 0x1821DCF10
+	// RVA: 0x21DCD50 Offset: 0x21DB350 VA: 0x1821DCD50
 	private static void .cctor() { }
 
 }

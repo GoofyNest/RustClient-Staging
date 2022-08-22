@@ -6,10 +6,10 @@ internal struct UnSafeCharBuffer // TypeDefIndex: 333
 
 	// Methods
 
-	// RVA: 0x234450 Offset: 0x233850 VA: 0x180234450
+	// RVA: 0x2343D0 Offset: 0x2337D0 VA: 0x1802343D0
 	public void .ctor(char* buffer, int bufferSize) { }
 
-	// RVA: 0x234390 Offset: 0x233790 VA: 0x180234390
+	// RVA: 0x234310 Offset: 0x233710 VA: 0x180234310
 	public void AppendString(string stringToAppend) { }
 
 }

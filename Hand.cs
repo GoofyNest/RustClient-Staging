@@ -9,19 +9,19 @@ public struct Hand : IEquatable<Hand> // TypeDefIndex: 4146
 
 	// Methods
 
-	// RVA: 0x1FBB30 Offset: 0x1FAF30 VA: 0x1801FBB30
+	// RVA: 0x1FBAB0 Offset: 0x1FAEB0 VA: 0x1801FBAB0
 	internal ulong get_deviceId() { }
 
-	// RVA: 0x13ACA0 Offset: 0x13A0A0 VA: 0x18013ACA0
+	// RVA: 0x13AC20 Offset: 0x13A020 VA: 0x18013AC20
 	internal uint get_featureIndex() { }
 
-	// RVA: 0x23E520 Offset: 0x23D920 VA: 0x18023E520 Slot: 0
+	// RVA: 0x23E4A0 Offset: 0x23D8A0 VA: 0x18023E4A0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x23E3E0 Offset: 0x23D7E0 VA: 0x18023E3E0 Slot: 4
+	// RVA: 0x23E360 Offset: 0x23D760 VA: 0x18023E360 Slot: 4
 	public bool Equals(Hand other) { }
 
-	// RVA: 0x23E420 Offset: 0x23D820 VA: 0x18023E420 Slot: 2
+	// RVA: 0x23E3A0 Offset: 0x23D7A0 VA: 0x18023E3A0 Slot: 2
 	public override int GetHashCode() { }
 
 }

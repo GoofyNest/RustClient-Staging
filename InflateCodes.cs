@@ -20,13 +20,13 @@ internal sealed class InflateCodes // TypeDefIndex: 6949
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x21D31B0 Offset: 0x21D17B0 VA: 0x1821D31B0
+	// RVA: 0x21D2FF0 Offset: 0x21D15F0 VA: 0x1821D2FF0
 	internal void Init(int bl, int bd, int[] tl, int tl_index, int[] td, int td_index) { }
 
-	// RVA: 0x21D3210 Offset: 0x21D1810 VA: 0x1821D3210
+	// RVA: 0x21D3050 Offset: 0x21D1650 VA: 0x1821D3050
 	internal int Process(InflateBlocks blocks, int r) { }
 
-	// RVA: 0x21D25E0 Offset: 0x21D0BE0 VA: 0x1821D25E0
+	// RVA: 0x21D2420 Offset: 0x21D0A20 VA: 0x1821D2420
 	internal int InflateFast(int bl, int bd, int[] tl, int tl_index, int[] td, int td_index, InflateBlocks s, ZlibCodec z) { }
 
 }

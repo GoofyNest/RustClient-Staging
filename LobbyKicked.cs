@@ -11,10 +11,10 @@ internal struct LobbyKicked_t : ICallbackData // TypeDefIndex: 5343
 
 	// Methods
 
-	// RVA: 0x1EB760 Offset: 0x1EAB60 VA: 0x1801EB760 Slot: 5
+	// RVA: 0x1EB6E0 Offset: 0x1EAAE0 VA: 0x1801EB6E0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EB750 Offset: 0x1EAB50 VA: 0x1801EB750 Slot: 4
+	// RVA: 0x1EB6D0 Offset: 0x1EAAD0 VA: 0x1801EB6D0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1373C30 Offset: 0x1372230 VA: 0x181373C30

@@ -11,10 +11,10 @@ public abstract class TraceListener : MarshalByRefObject, IDisposable // TypeDef
 	public virtual bool IsThreadSafe { get; }
 	public int IndentLevel { set; }
 	public int IndentSize { set; }
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public TraceFilter Filter { get; }
 	protected bool NeedIndent { get; set; }
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public TraceOptions TraceOutputOptions { get; }
 
 	// Methods
@@ -61,7 +61,7 @@ public abstract class TraceListener : MarshalByRefObject, IDisposable // TypeDef
 	// RVA: -1 Offset: -1 Slot: 12
 	public abstract void WriteLine(string message);
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x1737930 Offset: 0x1735F30 VA: 0x181737930 Slot: 13
 	public virtual void TraceEvent(TraceEventCache eventCache, string source, TraceEventType eventType, int id, string message) { }
 

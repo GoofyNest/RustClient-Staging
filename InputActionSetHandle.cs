@@ -4,19 +4,19 @@ internal struct InputActionSetHandle_t : IEquatable<InputActionSetHandle_t>, ICo
 
 	// Methods
 
-	// RVA: 0x123240 Offset: 0x122640 VA: 0x180123240 Slot: 3
+	// RVA: 0x1231C0 Offset: 0x1225C0 VA: 0x1801231C0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1D8C30 Offset: 0x1D8030 VA: 0x1801D8C30 Slot: 2
+	// RVA: 0x1D8BB0 Offset: 0x1D7FB0 VA: 0x1801D8BB0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1EACC0 Offset: 0x1EA0C0 VA: 0x1801EACC0 Slot: 0
+	// RVA: 0x1EAC40 Offset: 0x1EA040 VA: 0x1801EAC40 Slot: 0
 	public override bool Equals(object p) { }
 
-	// RVA: 0x1D8BB0 Offset: 0x1D7FB0 VA: 0x1801D8BB0 Slot: 4
+	// RVA: 0x1D8B30 Offset: 0x1D7F30 VA: 0x1801D8B30 Slot: 4
 	public bool Equals(InputActionSetHandle_t p) { }
 
-	// RVA: 0x1D8BA0 Offset: 0x1D7FA0 VA: 0x1801D8BA0 Slot: 5
+	// RVA: 0x1D8B20 Offset: 0x1D7F20 VA: 0x1801D8B20 Slot: 5
 	public int CompareTo(InputActionSetHandle_t other) { }
 
 }

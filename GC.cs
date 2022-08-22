@@ -34,22 +34,22 @@ public static class GC // TypeDefIndex: 224
 	// RVA: 0x10DDC40 Offset: 0x10DC240 VA: 0x1810DDC40
 	public static void Collect() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x10DDCD0 Offset: 0x10DC2D0 VA: 0x1810DDCD0
 	public static int CollectionCount(int generation) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void KeepAlive(object obj) { }
 
 	// RVA: 0x10DE050 Offset: 0x10DC650 VA: 0x1810DE050
 	public static int get_MaxGeneration() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x10DDFF0 Offset: 0x10DC5F0 VA: 0x1810DDFF0
 	private static void _SuppressFinalize(object o) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x10DDF50 Offset: 0x10DC550 VA: 0x1810DDF50
 	public static void SuppressFinalize(object obj) { }
 
@@ -69,23 +69,23 @@ public static class GC // TypeDefIndex: 224
 
 public class GC : ConsoleSystem // TypeDefIndex: 11925
 {	// Fields
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static bool buffer_enabled; // 0x0
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static int debuglevel; // 0x4
 	private static int m_buffer; // 0x8
 
 	// Properties
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static int buffer { get; set; }
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	public static bool incremental_enabled { get; set; }
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	public static int incremental_milliseconds { get; set; }
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	public static bool enabled { get; set; }
 
 	// Methods
@@ -114,18 +114,18 @@ public class GC : ConsoleSystem // TypeDefIndex: 11925
 	// RVA: 0x6E0980 Offset: 0x6DEF80 VA: 0x1806E0980
 	public static void set_enabled(bool value) { }
 
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	// RVA: 0x6E0820 Offset: 0x6DEE20 VA: 0x1806E0820
 	public static void collect() { }
 
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	// RVA: 0x6E0A90 Offset: 0x6DF090 VA: 0x1806E0A90
 	public static void unload() { }
 
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	// RVA: 0x6E06A0 Offset: 0x6DECA0 VA: 0x1806E06A0
 	public static void alloc(ConsoleSystem.Arg args) { }
 

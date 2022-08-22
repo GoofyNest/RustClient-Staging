@@ -1,7 +1,7 @@
 public sealed class DetailPrototype // TypeDefIndex: 4091
 {
 // Namespace: UnityEngine
-[UsedByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[UsedByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 public sealed class DetailPrototype // TypeDefIndex: 4091
 	// Fields
 	internal GameObject m_Prototype; // 0x10
@@ -19,16 +19,16 @@ public sealed class DetailPrototype // TypeDefIndex: 4091
 
 	// Methods
 
-	// RVA: 0x22BE940 Offset: 0x22BCF40 VA: 0x1822BE940
+	// RVA: 0x22BE780 Offset: 0x22BCD80 VA: 0x1822BE780
 	public void .ctor() { }
 
-	// RVA: 0x22BE570 Offset: 0x22BCB70 VA: 0x1822BE570 Slot: 0
+	// RVA: 0x22BE3B0 Offset: 0x22BC9B0 VA: 0x1822BE3B0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x18F8270 Offset: 0x18F6870 VA: 0x1818F8270 Slot: 2
+	// RVA: 0x18F8230 Offset: 0x18F6830 VA: 0x1818F8230 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x22BE760 Offset: 0x22BCD60 VA: 0x1822BE760
+	// RVA: 0x22BE5A0 Offset: 0x22BCBA0 VA: 0x1822BE5A0
 	private bool Equals(DetailPrototype other) { }
 
 }

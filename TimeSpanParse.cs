@@ -86,10 +86,10 @@ private struct TimeSpanParse.TimeSpanToken // TypeDefIndex: 728
 
 	// Methods
 
-	// RVA: 0x1EDA20 Offset: 0x1ECE20 VA: 0x1801EDA20
+	// RVA: 0x1ED9A0 Offset: 0x1ECDA0 VA: 0x1801ED9A0
 	public void .ctor(int number) { }
 
-	// RVA: 0x1EDA10 Offset: 0x1ECE10 VA: 0x1801EDA10
+	// RVA: 0x1ED990 Offset: 0x1ECD90 VA: 0x1801ED990
 	public bool IsInvalidNumber(int maxValue, int maxPrecision) { }
 
 }
@@ -106,22 +106,22 @@ private struct TimeSpanParse.TimeSpanTokenizer // TypeDefIndex: 729
 
 	// Methods
 
-	// RVA: 0x1EDAE0 Offset: 0x1ECEE0 VA: 0x1801EDAE0
+	// RVA: 0x1EDA60 Offset: 0x1ECE60 VA: 0x1801EDA60
 	internal void Init(string input) { }
 
-	// RVA: 0x1EDAD0 Offset: 0x1ECED0 VA: 0x1801EDAD0
+	// RVA: 0x1EDA50 Offset: 0x1ECE50 VA: 0x1801EDA50
 	internal void Init(string input, int startPosition) { }
 
-	// RVA: 0x1EDAB0 Offset: 0x1ECEB0 VA: 0x1801EDAB0
+	// RVA: 0x1EDA30 Offset: 0x1ECE30 VA: 0x1801EDA30
 	internal TimeSpanParse.TimeSpanToken GetNextToken() { }
 
-	// RVA: 0x1EDB40 Offset: 0x1ECF40 VA: 0x1801EDB40
+	// RVA: 0x1EDAC0 Offset: 0x1ECEC0 VA: 0x1801EDAC0
 	internal bool get_EOL() { }
 
-	// RVA: 0x1EDB70 Offset: 0x1ECF70 VA: 0x1801EDB70
+	// RVA: 0x1EDAF0 Offset: 0x1ECEF0 VA: 0x1801EDAF0
 	internal char get_NextChar() { }
 
-	// RVA: 0x1EDB00 Offset: 0x1ECF00 VA: 0x1801EDB00
+	// RVA: 0x1EDA80 Offset: 0x1ECE80 VA: 0x1801EDA80
 	internal char get_CurrentChar() { }
 
 }
@@ -149,55 +149,55 @@ private struct TimeSpanParse.TimeSpanRawInfo // TypeDefIndex: 730
 
 	// Methods
 
-	// RVA: 0x1ED720 Offset: 0x1ECB20 VA: 0x1801ED720
+	// RVA: 0x1ED6A0 Offset: 0x1ECAA0 VA: 0x1801ED6A0
 	internal TimeSpanFormat.FormatLiterals get_PositiveInvariant() { }
 
-	// RVA: 0x1ED690 Offset: 0x1ECA90 VA: 0x1801ED690
+	// RVA: 0x1ED610 Offset: 0x1ECA10 VA: 0x1801ED610
 	internal TimeSpanFormat.FormatLiterals get_NegativeInvariant() { }
 
-	// RVA: 0x1ED740 Offset: 0x1ECB40 VA: 0x1801ED740
+	// RVA: 0x1ED6C0 Offset: 0x1ECAC0 VA: 0x1801ED6C0
 	internal TimeSpanFormat.FormatLiterals get_PositiveLocalized() { }
 
-	// RVA: 0x1ED6B0 Offset: 0x1ECAB0 VA: 0x1801ED6B0
+	// RVA: 0x1ED630 Offset: 0x1ECA30 VA: 0x1801ED630
 	internal TimeSpanFormat.FormatLiterals get_NegativeLocalized() { }
 
-	// RVA: 0x1ED430 Offset: 0x1EC830 VA: 0x1801ED430
+	// RVA: 0x1ED3B0 Offset: 0x1EC7B0 VA: 0x1801ED3B0
 	internal bool FullAppCompatMatch(TimeSpanFormat.FormatLiterals pattern) { }
 
-	// RVA: 0x1ED640 Offset: 0x1ECA40 VA: 0x1801ED640
+	// RVA: 0x1ED5C0 Offset: 0x1EC9C0 VA: 0x1801ED5C0
 	internal bool PartialAppCompatMatch(TimeSpanFormat.FormatLiterals pattern) { }
 
-	// RVA: 0x1ED5F0 Offset: 0x1EC9F0 VA: 0x1801ED5F0
+	// RVA: 0x1ED570 Offset: 0x1EC970 VA: 0x1801ED570
 	internal bool FullMatch(TimeSpanFormat.FormatLiterals pattern) { }
 
-	// RVA: 0x1ED4F0 Offset: 0x1EC8F0 VA: 0x1801ED4F0
+	// RVA: 0x1ED470 Offset: 0x1EC870 VA: 0x1801ED470
 	internal bool FullDMatch(TimeSpanFormat.FormatLiterals pattern) { }
 
-	// RVA: 0x1ED530 Offset: 0x1EC930 VA: 0x1801ED530
+	// RVA: 0x1ED4B0 Offset: 0x1EC8B0 VA: 0x1801ED4B0
 	internal bool FullHMMatch(TimeSpanFormat.FormatLiterals pattern) { }
 
-	// RVA: 0x1ED470 Offset: 0x1EC870 VA: 0x1801ED470
+	// RVA: 0x1ED3F0 Offset: 0x1EC7F0 VA: 0x1801ED3F0
 	internal bool FullDHMMatch(TimeSpanFormat.FormatLiterals pattern) { }
 
-	// RVA: 0x1ED5B0 Offset: 0x1EC9B0 VA: 0x1801ED5B0
+	// RVA: 0x1ED530 Offset: 0x1EC930 VA: 0x1801ED530
 	internal bool FullHMSMatch(TimeSpanFormat.FormatLiterals pattern) { }
 
-	// RVA: 0x1ED4B0 Offset: 0x1EC8B0 VA: 0x1801ED4B0
+	// RVA: 0x1ED430 Offset: 0x1EC830 VA: 0x1801ED430
 	internal bool FullDHMSMatch(TimeSpanFormat.FormatLiterals pattern) { }
 
-	// RVA: 0x1ED570 Offset: 0x1EC970 VA: 0x1801ED570
+	// RVA: 0x1ED4F0 Offset: 0x1EC8F0 VA: 0x1801ED4F0
 	internal bool FullHMSFMatch(TimeSpanFormat.FormatLiterals pattern) { }
 
-	// RVA: 0x1ED630 Offset: 0x1ECA30 VA: 0x1801ED630
+	// RVA: 0x1ED5B0 Offset: 0x1EC9B0 VA: 0x1801ED5B0
 	internal void Init(DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x1ED680 Offset: 0x1ECA80 VA: 0x1801ED680
+	// RVA: 0x1ED600 Offset: 0x1ECA00 VA: 0x1801ED600
 	internal bool ProcessToken(ref TimeSpanParse.TimeSpanToken tok, ref TimeSpanParse.TimeSpanResult result) { }
 
-	// RVA: 0x1ED420 Offset: 0x1EC820 VA: 0x1801ED420
+	// RVA: 0x1ED3A0 Offset: 0x1EC7A0 VA: 0x1801ED3A0
 	private bool AddSep(string sep, ref TimeSpanParse.TimeSpanResult result) { }
 
-	// RVA: 0x1ED3F0 Offset: 0x1EC7F0 VA: 0x1801ED3F0
+	// RVA: 0x1ED370 Offset: 0x1EC770 VA: 0x1801ED370
 	private bool AddNum(TimeSpanParse.TimeSpanToken num, ref TimeSpanParse.TimeSpanResult result) { }
 
 }
@@ -213,19 +213,19 @@ private struct TimeSpanParse.TimeSpanResult // TypeDefIndex: 731
 
 	// Methods
 
-	// RVA: 0x1ED7E0 Offset: 0x1ECBE0 VA: 0x1801ED7E0
+	// RVA: 0x1ED760 Offset: 0x1ECB60 VA: 0x1801ED760
 	internal void Init(TimeSpanParse.TimeSpanThrowStyle canThrow) { }
 
-	// RVA: 0x1ED810 Offset: 0x1ECC10 VA: 0x1801ED810
+	// RVA: 0x1ED790 Offset: 0x1ECB90 VA: 0x1801ED790
 	internal void SetFailure(TimeSpanParse.ParseFailureKind failure, string failureMessageID) { }
 
-	// RVA: 0x1ED7F0 Offset: 0x1ECBF0 VA: 0x1801ED7F0
+	// RVA: 0x1ED770 Offset: 0x1ECB70 VA: 0x1801ED770
 	internal void SetFailure(TimeSpanParse.ParseFailureKind failure, string failureMessageID, object failureMessageFormatArgument) { }
 
-	// RVA: 0x1ED840 Offset: 0x1ECC40 VA: 0x1801ED840
+	// RVA: 0x1ED7C0 Offset: 0x1ECBC0 VA: 0x1801ED7C0
 	internal void SetFailure(TimeSpanParse.ParseFailureKind failure, string failureMessageID, object failureMessageFormatArgument, string failureArgumentName) { }
 
-	// RVA: 0x1ED7D0 Offset: 0x1ECBD0 VA: 0x1801ED7D0
+	// RVA: 0x1ED750 Offset: 0x1ECB50 VA: 0x1801ED750
 	internal Exception GetTimeSpanParseException() { }
 
 }

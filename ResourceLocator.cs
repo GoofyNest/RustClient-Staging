@@ -9,16 +9,16 @@ internal struct ResourceLocator // TypeDefIndex: 494
 
 	// Methods
 
-	// RVA: 0x14C910 Offset: 0x14BD10 VA: 0x18014C910
+	// RVA: 0x14C890 Offset: 0x14BC90 VA: 0x18014C890
 	internal void .ctor(int dataPos, object value) { }
 
-	// RVA: 0x122E90 Offset: 0x122290 VA: 0x180122E90
+	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
 	internal int get_DataPosition() { }
 
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	internal object get_Value() { }
 
-	// RVA: 0xF1510 Offset: 0xF0910 VA: 0x1800F1510
+	// RVA: 0xF1490 Offset: 0xF0890 VA: 0x1800F1490
 	internal void set_Value(object value) { }
 
 	// RVA: 0xFEC610 Offset: 0xFEAC10 VA: 0x180FEC610

@@ -5,11 +5,11 @@ public abstract class Graphic : UIBehaviour, ICanvasElement // TypeDefIndex: 493
 	[FormerlySerializedAsAttribute] // RVA: 0xEA540 Offset: 0xE9940 VA: 0x1800EA540
 	[SerializeField] // RVA: 0xEA540 Offset: 0xE9940 VA: 0x1800EA540
 	protected Material m_Material; // 0x18
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Color m_Color; // 0x20
 	protected bool m_SkipLayoutUpdate; // 0x30
 	protected bool m_SkipMaterialUpdate; // 0x31
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_RaycastTarget; // 0x32
 	private RectTransform m_RectTransform; // 0x38
 	private CanvasRenderer m_CanvasRenderer; // 0x40
@@ -24,7 +24,7 @@ public abstract class Graphic : UIBehaviour, ICanvasElement // TypeDefIndex: 493
 	protected Mesh m_CachedMesh; // 0x70
 	protected Vector2[] m_CachedUvs; // 0x78
 	private readonly TweenRunner<ColorTween> m_ColorTweenRunner; // 0x80
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <useLegacyMeshGeneration>k__BackingField; // 0x88
 
 	// Properties
@@ -59,11 +59,11 @@ public abstract class Graphic : UIBehaviour, ICanvasElement // TypeDefIndex: 493
 	// RVA: 0x15F01F0 Offset: 0x15EE7F0 VA: 0x1815F01F0 Slot: 25
 	public virtual void set_raycastTarget(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x69D600 Offset: 0x69BC00 VA: 0x18069D600
 	protected bool get_useLegacyMeshGeneration() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x69D610 Offset: 0x69BC10 VA: 0x18069D610
 	protected void set_useLegacyMeshGeneration(bool value) { }
 
@@ -160,12 +160,12 @@ public abstract class Graphic : UIBehaviour, ICanvasElement // TypeDefIndex: 493
 	// RVA: 0x15EFF80 Offset: 0x15EE580 VA: 0x1815EFF80
 	protected static Mesh get_workerMesh() { }
 
-	[EditorBrowsableAttribute] // RVA: 0xEA9B0 Offset: 0xE9DB0 VA: 0x1800EA9B0
-	[ObsoleteAttribute] // RVA: 0xEA9B0 Offset: 0xE9DB0 VA: 0x1800EA9B0
+	[EditorBrowsableAttribute] // RVA: 0xEAA30 Offset: 0xE9E30 VA: 0x1800EAA30
+	[ObsoleteAttribute] // RVA: 0xEAA30 Offset: 0xE9E30 VA: 0x1800EAA30
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 42
 	protected virtual void OnFillVBO(List<UIVertex> vbo) { }
 
-	[ObsoleteAttribute] // RVA: 0xEAB50 Offset: 0xE9F50 VA: 0x1800EAB50
+	[ObsoleteAttribute] // RVA: 0xEABD0 Offset: 0xE9FD0 VA: 0x1800EABD0
 	// RVA: 0x15EE630 Offset: 0x15ECC30 VA: 0x1815EE630 Slot: 43
 	protected virtual void OnPopulateMesh(Mesh m) { }
 

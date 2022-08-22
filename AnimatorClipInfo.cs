@@ -9,14 +9,14 @@ public struct AnimatorClipInfo // TypeDefIndex: 4484
 
 	// Methods
 
-	// RVA: 0x23D0B0 Offset: 0x23C4B0 VA: 0x18023D0B0
+	// RVA: 0x23D030 Offset: 0x23C430 VA: 0x18023D030
 	public AnimationClip get_clip() { }
 
-	// RVA: 0x2123B0 Offset: 0x2117B0 VA: 0x1802123B0
+	// RVA: 0x212330 Offset: 0x211730 VA: 0x180212330
 	public float get_weight() { }
 
-	[FreeFunctionAttribute] // RVA: 0xC9770 Offset: 0xC8B70 VA: 0x1800C9770
-	// RVA: 0x22DB690 Offset: 0x22D9C90 VA: 0x1822DB690
+	[FreeFunctionAttribute] // RVA: 0xC9800 Offset: 0xC8C00 VA: 0x1800C9800
+	// RVA: 0x22DB4D0 Offset: 0x22D9AD0 VA: 0x1822DB4D0
 	private static AnimationClip InstanceIDToAnimationClipPPtr(int instanceID) { }
 
 }

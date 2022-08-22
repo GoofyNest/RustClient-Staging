@@ -17,22 +17,22 @@ public struct TileData // TypeDefIndex: 4572
 
 	// Methods
 
-	// RVA: 0xF1510 Offset: 0xF0910 VA: 0x1800F1510
+	// RVA: 0xF1490 Offset: 0xF0890 VA: 0x1800F1490
 	public void set_sprite(Sprite value) { }
 
-	// RVA: 0x116FB0 Offset: 0x1163B0 VA: 0x180116FB0
+	// RVA: 0x116F30 Offset: 0x116330 VA: 0x180116F30
 	public void set_color(Color value) { }
 
-	// RVA: 0x240D10 Offset: 0x240110 VA: 0x180240D10
+	// RVA: 0x240C90 Offset: 0x240090 VA: 0x180240C90
 	public void set_transform(Matrix4x4 value) { }
 
-	// RVA: 0xF3800 Offset: 0xF2C00 VA: 0x1800F3800
+	// RVA: 0xF3780 Offset: 0xF2B80 VA: 0x1800F3780
 	public void set_gameObject(GameObject value) { }
 
-	// RVA: 0x23C1C0 Offset: 0x23B5C0 VA: 0x18023C1C0
+	// RVA: 0x23C140 Offset: 0x23B540 VA: 0x18023C140
 	public void set_flags(TileFlags value) { }
 
-	// RVA: 0x23C110 Offset: 0x23B510 VA: 0x18023C110
+	// RVA: 0x23C090 Offset: 0x23B490 VA: 0x18023C090
 	public void set_colliderType(Tile.ColliderType value) { }
 
 }

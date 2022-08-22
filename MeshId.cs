@@ -6,19 +6,19 @@ public struct MeshId : IEquatable<MeshId> // TypeDefIndex: 4156
 
 	// Methods
 
-	// RVA: 0x23EBB0 Offset: 0x23DFB0 VA: 0x18023EBB0 Slot: 3
+	// RVA: 0x23EB30 Offset: 0x23DF30 VA: 0x18023EB30 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x23EB70 Offset: 0x23DF70 VA: 0x18023EB70 Slot: 2
+	// RVA: 0x23EAF0 Offset: 0x23DEF0 VA: 0x18023EAF0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x23EAA0 Offset: 0x23DEA0 VA: 0x18023EAA0 Slot: 0
+	// RVA: 0x23EA20 Offset: 0x23DE20 VA: 0x18023EA20 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x23EB40 Offset: 0x23DF40 VA: 0x18023EB40 Slot: 4
+	// RVA: 0x23EAC0 Offset: 0x23DEC0 VA: 0x18023EAC0 Slot: 4
 	public bool Equals(MeshId other) { }
 
-	// RVA: 0x22FB9B0 Offset: 0x22F9FB0 VA: 0x1822FB9B0
+	// RVA: 0x22FB7F0 Offset: 0x22F9DF0 VA: 0x1822FB7F0
 	private static void .cctor() { }
 
 }

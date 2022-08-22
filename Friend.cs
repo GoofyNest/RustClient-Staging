@@ -14,38 +14,38 @@ public struct Friend // TypeDefIndex: 5236
 
 	// Methods
 
-	// RVA: 0x1D2F30 Offset: 0x1D2330 VA: 0x1801D2F30
+	// RVA: 0x1D2EB0 Offset: 0x1D22B0 VA: 0x1801D2EB0
 	public void .ctor(SteamId steamid) { }
 
-	// RVA: 0x1D2EC0 Offset: 0x1D22C0 VA: 0x1801D2EC0 Slot: 3
+	// RVA: 0x1D2E40 Offset: 0x1D2240 VA: 0x1801D2E40 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1D2F80 Offset: 0x1D2380 VA: 0x1801D2F80
+	// RVA: 0x1D2F00 Offset: 0x1D2300 VA: 0x1801D2F00
 	public bool get_IsMe() { }
 
-	// RVA: 0x1D2F60 Offset: 0x1D2360 VA: 0x1801D2F60
+	// RVA: 0x1D2EE0 Offset: 0x1D22E0 VA: 0x1801D2EE0
 	public bool get_IsFriend() { }
 
-	// RVA: 0x1D3000 Offset: 0x1D2400 VA: 0x1801D3000
+	// RVA: 0x1D2F80 Offset: 0x1D2380 VA: 0x1801D2F80
 	public bool get_IsPlayingThisGame() { }
 
-	// RVA: 0x1D2FE0 Offset: 0x1D23E0 VA: 0x1801D2FE0
+	// RVA: 0x1D2F60 Offset: 0x1D2360 VA: 0x1801D2F60
 	public bool get_IsOnline() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x97630 Offset: 0x96A30 VA: 0x180097630
-	// RVA: 0x1D2E00 Offset: 0x1D2200 VA: 0x1801D2E00
+	[AsyncStateMachineAttribute] // RVA: 0x976C0 Offset: 0x96AC0 VA: 0x1800976C0
+	// RVA: 0x1D2D80 Offset: 0x1D2180 VA: 0x1801D2D80
 	public Task RequestInfoAsync() { }
 
-	// RVA: 0x1D3120 Offset: 0x1D2520 VA: 0x1801D3120
+	// RVA: 0x1D30A0 Offset: 0x1D24A0 VA: 0x1801D30A0
 	public Relationship get_Relationship() { }
 
-	// RVA: 0x1D3130 Offset: 0x1D2530 VA: 0x1801D3130
+	// RVA: 0x1D30B0 Offset: 0x1D24B0 VA: 0x1801D30B0
 	public FriendState get_State() { }
 
-	// RVA: 0x1D3110 Offset: 0x1D2510 VA: 0x1801D3110
+	// RVA: 0x1D3090 Offset: 0x1D2490 VA: 0x1801D3090
 	public string get_Name() { }
 
-	// RVA: 0x1D2F40 Offset: 0x1D2340 VA: 0x1801D2F40
+	// RVA: 0x1D2EC0 Offset: 0x1D22C0 VA: 0x1801D2EC0
 	public Nullable<Friend.FriendGameInfo> get_GameInfo() { }
 
 }
@@ -63,7 +63,7 @@ public struct Friend.FriendGameInfo // TypeDefIndex: 5237
 
 	// Methods
 
-	// RVA: 0x1D2DA0 Offset: 0x1D21A0 VA: 0x1801D2DA0
+	// RVA: 0x1D2D20 Offset: 0x1D2120 VA: 0x1801D2D20
 	public IPAddress get_IpAddress() { }
 
 	// RVA: 0x1284AD0 Offset: 0x12830D0 VA: 0x181284AD0
@@ -80,11 +80,11 @@ private struct Friend.<RequestInfoAsync>d__13 : IAsyncStateMachine // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1DB290 Offset: 0x1DA690 VA: 0x1801DB290 Slot: 4
+	// RVA: 0x1DB210 Offset: 0x1DA610 VA: 0x1801DB210 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

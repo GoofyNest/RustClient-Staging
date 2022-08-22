@@ -39,36 +39,36 @@ public sealed class AppDomain : MarshalByRefObject // TypeDefIndex: 337
 {	// Fields
 	private IntPtr _mono_app_domain; // 0x18
 	private static string _process_guid; // 0x0
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Dictionary<string, object> type_resolve_in_progress; // 0x80000000
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Dictionary<string, object> assembly_resolve_in_progress; // 0x80000008
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Dictionary<string, object> assembly_resolve_in_progress_refonly; // 0x80000010
 	private object _evidence; // 0x20
 	private object _granted; // 0x28
 	private int _principalPolicy; // 0x30
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static object _principal; // 0x80000018
 	private static AppDomain default_domain; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private AssemblyLoadEventHandler AssemblyLoad; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ResolveEventHandler AssemblyResolve; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private EventHandler DomainUnload; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private EventHandler ProcessExit; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ResolveEventHandler ResourceResolve; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ResolveEventHandler TypeResolve; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private UnhandledExceptionEventHandler UnhandledException; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private EventHandler<FirstChanceExceptionEventArgs> FirstChanceException; // 0x70
 	private object _domain_manager; // 0x78
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ResolveEventHandler ReflectionOnlyAssemblyResolve; // 0x80
 	private object _activation; // 0x88
 	private object _applicationIdentity; // 0x90
@@ -127,7 +127,7 @@ public sealed class AppDomain : MarshalByRefObject // TypeDefIndex: 337
 	// RVA: 0x1552A00 Offset: 0x1551000 VA: 0x181552A00
 	internal Assembly LoadSatellite(AssemblyName assemblyRef, bool throwOnError) { }
 
-	[ObsoleteAttribute] // RVA: 0x8C780 Offset: 0x8BB80 VA: 0x18008C780
+	[ObsoleteAttribute] // RVA: 0x8C760 Offset: 0x8BB60 VA: 0x18008C760
 	// RVA: 0x1552B10 Offset: 0x1551110 VA: 0x181552B10 Slot: 11
 	public Assembly Load(AssemblyName assemblyRef, Evidence assemblySecurity) { }
 
@@ -176,7 +176,7 @@ public sealed class AppDomain : MarshalByRefObject // TypeDefIndex: 337
 	// RVA: 0x1553600 Offset: 0x1551C00 VA: 0x181553600
 	private int getDomainID() { }
 
-	[ObsoleteAttribute] // RVA: 0x8C970 Offset: 0x8BD70 VA: 0x18008C970
+	[ObsoleteAttribute] // RVA: 0x8C8D0 Offset: 0x8BCD0 VA: 0x18008C8D0
 	// RVA: 0x15525F0 Offset: 0x1550BF0 VA: 0x1815525F0
 	public static int GetCurrentThreadId() { }
 
@@ -204,27 +204,27 @@ public sealed class AppDomain : MarshalByRefObject // TypeDefIndex: 337
 	// RVA: 0x15532D0 Offset: 0x15518D0 VA: 0x1815532D0
 	internal void ProcessMessageInDomain(byte[] arrRequest, CADMethodCallMessage cadMsg, out byte[] arrResponse, out CADMethodReturnMessage cadMrm) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1553410 Offset: 0x1551A10 VA: 0x181553410 Slot: 13
 	public void add_DomainUnload(EventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1553650 Offset: 0x1551C50 VA: 0x181553650 Slot: 14
 	public void remove_DomainUnload(EventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x15534B0 Offset: 0x1551AB0 VA: 0x1815534B0 Slot: 15
 	public void add_ProcessExit(EventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x15536F0 Offset: 0x1551CF0 VA: 0x1815536F0 Slot: 16
 	public void remove_ProcessExit(EventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1553550 Offset: 0x1551B50 VA: 0x181553550 Slot: 17
 	public void add_UnhandledException(UnhandledExceptionEventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1553790 Offset: 0x1551D90 VA: 0x181553790 Slot: 18
 	public void remove_UnhandledException(UnhandledExceptionEventHandler value) { }
 
@@ -254,7 +254,7 @@ public sealed class AppDomainSetup // TypeDefIndex: 346
 	private bool disallow_appbase_probe; // 0x90
 	private byte[] configuration_bytes; // 0x98
 	private byte[] serialized_non_primitives; // 0xA0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <TargetFrameworkName>k__BackingField; // 0xA8
 
 	// Properties
@@ -296,29 +296,29 @@ internal class AppDomainLevelActivator : IActivator // TypeDefIndex: 1203
 
 public class Application // TypeDefIndex: 3354
 {	// Fields
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private static Application.LowMemoryCallback lowMemory; // 0x0
 	private static Application.LogCallback s_LogCallbackHandler; // 0x8
 	private static Application.LogCallback s_LogCallbackHandlerThreaded; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private static Action<bool> focusChanged; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private static Action<string> deepLinkActivated; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private static Func<bool> wantsToQuit; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private static Action quitting; // 0x30
 
 	// Properties
 	public static bool isPlaying { get; }
 	public static string dataPath { get; }
 	public static string streamingAssetsPath { get; }
-	[SecurityCriticalAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SecurityCriticalAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public static string persistentDataPath { get; }
 	public static string unityVersion { get; }
 	public static string version { get; }
@@ -330,99 +330,99 @@ public class Application // TypeDefIndex: 3354
 	public static bool isMobilePlatform { get; }
 	public static SystemLanguage systemLanguage { get; }
 	public static NetworkReachability internetReachability { get; }
-	[ObsoleteAttribute] // RVA: 0x75840 Offset: 0x74C40 VA: 0x180075840
+	[ObsoleteAttribute] // RVA: 0x75710 Offset: 0x74B10 VA: 0x180075710
 	public static string loadedLevelName { get; }
 	public static bool isEditor { get; }
 
 	// Methods
 
-	[FreeFunctionAttribute] // RVA: 0x70DC0 Offset: 0x701C0 VA: 0x180070DC0
+	[FreeFunctionAttribute] // RVA: 0x70E00 Offset: 0x70200 VA: 0x180070E00
 	// RVA: 0x181D230 Offset: 0x181B830 VA: 0x18181D230
 	public static void Quit(int exitCode) { }
 
 	// RVA: 0x181D270 Offset: 0x181B870 VA: 0x18181D270
 	public static void Quit() { }
 
-	[FreeFunctionAttribute] // RVA: 0x70FA0 Offset: 0x703A0 VA: 0x180070FA0
+	[FreeFunctionAttribute] // RVA: 0x70F10 Offset: 0x70310 VA: 0x180070F10
 	// RVA: 0x181CEE0 Offset: 0x181B4E0 VA: 0x18181CEE0
 	public static bool CanStreamedLevelBeLoaded(string levelName) { }
 
-	[FreeFunctionAttribute] // RVA: 0x710D0 Offset: 0x704D0 VA: 0x1800710D0
+	[FreeFunctionAttribute] // RVA: 0x710A0 Offset: 0x704A0 VA: 0x1800710A0
 	// RVA: 0x181D4F0 Offset: 0x181BAF0 VA: 0x18181D4F0
 	public static bool get_isPlaying() { }
 
-	[FreeFunctionAttribute] // RVA: 0x71210 Offset: 0x70610 VA: 0x180071210
+	[FreeFunctionAttribute] // RVA: 0x711D0 Offset: 0x705D0 VA: 0x1800711D0
 	// RVA: 0x181D430 Offset: 0x181BA30 VA: 0x18181D430
 	public static string get_dataPath() { }
 
-	[FreeFunctionAttribute] // RVA: 0x712C0 Offset: 0x706C0 VA: 0x1800712C0
+	[FreeFunctionAttribute] // RVA: 0x71310 Offset: 0x70710 VA: 0x180071310
 	// RVA: 0x181D5A0 Offset: 0x181BBA0 VA: 0x18181D5A0
 	public static string get_streamingAssetsPath() { }
 
-	[FreeFunctionAttribute] // RVA: 0x713E0 Offset: 0x707E0 VA: 0x1800713E0
+	[FreeFunctionAttribute] // RVA: 0x713D0 Offset: 0x707D0 VA: 0x1800713D0
 	// RVA: 0x181D540 Offset: 0x181BB40 VA: 0x18181D540
 	public static string get_persistentDataPath() { }
 
-	[FreeFunctionAttribute] // RVA: 0x715B0 Offset: 0x709B0 VA: 0x1800715B0
+	[FreeFunctionAttribute] // RVA: 0x714E0 Offset: 0x708E0 VA: 0x1800714E0
 	// RVA: 0x181D630 Offset: 0x181BC30 VA: 0x18181D630
 	public static string get_unityVersion() { }
 
-	[FreeFunctionAttribute] // RVA: 0x71730 Offset: 0x70B30 VA: 0x180071730
+	[FreeFunctionAttribute] // RVA: 0x71720 Offset: 0x70B20 VA: 0x180071720
 	// RVA: 0x181D660 Offset: 0x181BC60 VA: 0x18181D660
 	public static string get_version() { }
 
-	[FreeFunctionAttribute] // RVA: 0x71850 Offset: 0x70C50 VA: 0x180071850
+	[FreeFunctionAttribute] // RVA: 0x717E0 Offset: 0x70BE0 VA: 0x1800717E0
 	// RVA: 0x181D3D0 Offset: 0x181B9D0 VA: 0x18181D3D0
 	public static string get_companyName() { }
 
-	[FreeFunctionAttribute] // RVA: 0x71930 Offset: 0x70D30 VA: 0x180071930
+	[FreeFunctionAttribute] // RVA: 0x71920 Offset: 0x70D20 VA: 0x180071920
 	// RVA: 0x181D1F0 Offset: 0x181B7F0 VA: 0x18181D1F0
 	public static void OpenURL(string url) { }
 
-	[FreeFunctionAttribute] // RVA: 0x71A10 Offset: 0x70E10 VA: 0x180071A10
+	[FreeFunctionAttribute] // RVA: 0x71A60 Offset: 0x70E60 VA: 0x180071A60
 	// RVA: 0x181D600 Offset: 0x181BC00 VA: 0x18181D600
 	public static int get_targetFrameRate() { }
 
-	[FreeFunctionAttribute] // RVA: 0x71BA0 Offset: 0x70FA0 VA: 0x180071BA0
+	[FreeFunctionAttribute] // RVA: 0x71B40 Offset: 0x70F40 VA: 0x180071B40
 	// RVA: 0x181D760 Offset: 0x181BD60 VA: 0x18181D760
 	public static void set_targetFrameRate(int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x71D20 Offset: 0x71120 VA: 0x180071D20
+	[FreeFunctionAttribute] // RVA: 0x71CD0 Offset: 0x710D0 VA: 0x180071CD0
 	// RVA: 0x181D2A0 Offset: 0x181B8A0 VA: 0x18181D2A0
 	private static void SetLogCallbackDefined(bool defined) { }
 
-	[FreeFunctionAttribute] // RVA: 0x71E30 Offset: 0x71230 VA: 0x180071E30
+	[FreeFunctionAttribute] // RVA: 0x71E10 Offset: 0x71210 VA: 0x180071E10
 	// RVA: 0x181CF20 Offset: 0x181B520 VA: 0x18181CF20
 	public static StackTraceLogType GetStackTraceLogType(LogType logType) { }
 
-	[FreeFunctionAttribute] // RVA: 0x72040 Offset: 0x71440 VA: 0x180072040
+	[FreeFunctionAttribute] // RVA: 0x71ED0 Offset: 0x712D0 VA: 0x180071ED0
 	// RVA: 0x181D2E0 Offset: 0x181B8E0 VA: 0x18181D2E0
 	public static void SetStackTraceLogType(LogType logType, StackTraceLogType stackTraceType) { }
 
-	[FreeFunctionAttribute] // RVA: 0x72230 Offset: 0x71630 VA: 0x180072230
+	[FreeFunctionAttribute] // RVA: 0x72180 Offset: 0x71580 VA: 0x180072180
 	// RVA: 0x181D400 Offset: 0x181BA00 VA: 0x18181D400
 	public static string get_consoleLogPath() { }
 
-	[FreeFunctionAttribute] // RVA: 0x72310 Offset: 0x71710 VA: 0x180072310
+	[FreeFunctionAttribute] // RVA: 0x722D0 Offset: 0x716D0 VA: 0x1800722D0
 	// RVA: 0x181D720 Offset: 0x181BD20 VA: 0x18181D720
 	public static void set_backgroundLoadingPriority(ThreadPriority value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x72420 Offset: 0x71820 VA: 0x180072420
+	[FreeFunctionAttribute] // RVA: 0x72460 Offset: 0x71860 VA: 0x180072460
 	// RVA: 0x181D570 Offset: 0x181BB70 VA: 0x18181D570
 	public static RuntimePlatform get_platform() { }
 
 	// RVA: 0x181D490 Offset: 0x181BA90 VA: 0x18181D490
 	public static bool get_isMobilePlatform() { }
 
-	[FreeFunctionAttribute] // RVA: 0x73920 Offset: 0x72D20 VA: 0x180073920
+	[FreeFunctionAttribute] // RVA: 0x72530 Offset: 0x71930 VA: 0x180072530
 	// RVA: 0x181D5D0 Offset: 0x181BBD0 VA: 0x18181D5D0
 	public static SystemLanguage get_systemLanguage() { }
 
-	[FreeFunctionAttribute] // RVA: 0x73AD0 Offset: 0x72ED0 VA: 0x180073AD0
+	[FreeFunctionAttribute] // RVA: 0x73A40 Offset: 0x72E40 VA: 0x180073A40
 	// RVA: 0x181D460 Offset: 0x181BA60 VA: 0x18181D460
 	public static NetworkReachability get_internetReachability() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x181CD00 Offset: 0x181B300 VA: 0x18181CD00
 	internal static void CallLowMemory() { }
 
@@ -432,27 +432,27 @@ public class Application // TypeDefIndex: 3354
 	// RVA: 0x181D690 Offset: 0x181BC90 VA: 0x18181D690
 	public static void remove_logMessageReceived(Application.LogCallback value) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x181CC40 Offset: 0x181B240 VA: 0x18181CC40
 	private static void CallLogCallback(string logString, string stackTrace, LogType type, bool invokedOnMainThread) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x181CFB0 Offset: 0x181B5B0 VA: 0x18181CFB0
 	private static bool Internal_ApplicationWantsToQuit() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x181CF60 Offset: 0x181B560 VA: 0x18181CF60
 	private static void Internal_ApplicationQuit() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x181D1A0 Offset: 0x181B7A0 VA: 0x18181D1A0
 	internal static void InvokeOnBeforeRender() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x181D140 Offset: 0x181B740 VA: 0x18181D140
 	internal static void InvokeFocusChanged(bool focus) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x181D0E0 Offset: 0x181B6E0 VA: 0x18181D0E0
 	internal static void InvokeDeepLinkActivated(string url) { }
 
@@ -490,7 +490,7 @@ public sealed class Application.LogCallback : MulticastDelegate // TypeDefIndex:
 	// RVA: 0x13104B0 Offset: 0x130EAB0 VA: 0x1813104B0 Slot: 12
 	public virtual void Invoke(string condition, string stackTrace, LogType type) { }
 
-	// RVA: 0x1831C90 Offset: 0x1830290 VA: 0x181831C90 Slot: 13
+	// RVA: 0x1831C50 Offset: 0x1830250 VA: 0x181831C50 Slot: 13
 	public virtual IAsyncResult BeginInvoke(string condition, string stackTrace, LogType type, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -504,7 +504,7 @@ public struct AppId // TypeDefIndex: 5235
 
 	// Methods
 
-	// RVA: 0x1D7D40 Offset: 0x1D7140 VA: 0x1801D7D40 Slot: 3
+	// RVA: 0x1D7CC0 Offset: 0x1D70C0 VA: 0x1801D7CC0 Slot: 3
 	public override string ToString() { }
 
 	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
@@ -528,10 +528,10 @@ internal struct AppResumingFromSuspend_t : ICallbackData // TypeDefIndex: 5333
 
 	// Methods
 
-	// RVA: 0x1E4470 Offset: 0x1E3870 VA: 0x1801E4470 Slot: 5
+	// RVA: 0x1E43F0 Offset: 0x1E37F0 VA: 0x1801E43F0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E4460 Offset: 0x1E3860 VA: 0x1801E4460 Slot: 4
+	// RVA: 0x1E43E0 Offset: 0x1E37E0 VA: 0x1801E43E0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x136ADD0 Offset: 0x13693D0 VA: 0x18136ADD0
@@ -553,10 +553,10 @@ internal struct AppProofOfPurchaseKeyResponse_t : ICallbackData // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1E4270 Offset: 0x1E3670 VA: 0x1801E4270 Slot: 5
+	// RVA: 0x1E41F0 Offset: 0x1E35F0 VA: 0x1801E41F0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E4260 Offset: 0x1E3660 VA: 0x1801E4260 Slot: 4
+	// RVA: 0x1E41E0 Offset: 0x1E35E0 VA: 0x1801E41E0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x136AD30 Offset: 0x1369330 VA: 0x18136AD30
@@ -569,7 +569,7 @@ public static class Application // TypeDefIndex: 6176
 	private static MonoBehaviour _controller; // 0x0
 	public static Manifest Manifest; // 0x8
 	public static Dictionary<IPEndPoint, int> ServerMetadata; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static BaseIntegration <Integration>k__BackingField; // 0x18
 
 	// Properties
@@ -584,11 +584,11 @@ public static class Application // TypeDefIndex: 6176
 	// RVA: 0x14A9380 Offset: 0x14A7980 VA: 0x1814A9380
 	public static void Initialize(BaseIntegration integration) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14A9790 Offset: 0x14A7D90 VA: 0x1814A9790
 	public static BaseIntegration get_Integration() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14A97D0 Offset: 0x14A7DD0 VA: 0x1814A97D0
 	public static void set_Integration(BaseIntegration value) { }
 
@@ -610,7 +610,7 @@ internal class ApplicationControllerMonobehaviour : MonoBehaviour // TypeDefInde
 
 public struct AppInfo // TypeDefIndex: 6240
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Image>k__BackingField; // 0x0
 
 	// Properties
@@ -636,66 +636,66 @@ public struct AppInfo // TypeDefIndex: 6240
 
 	// Methods
 
-	// RVA: 0x1F1040 Offset: 0x1F0440 VA: 0x1801F1040
+	// RVA: 0x1F0FC0 Offset: 0x1F03C0 VA: 0x1801F0FC0
 	public int get_Version() { }
 
-	// RVA: 0x1F0C10 Offset: 0x1F0010 VA: 0x1801F0C10
+	// RVA: 0x1F0B90 Offset: 0x1EFF90 VA: 0x1801F0B90
 	public BuildInfo get_Build() { }
 
-	// RVA: 0x1F0EA0 Offset: 0x1F02A0 VA: 0x1801F0EA0
+	// RVA: 0x1F0E20 Offset: 0x1F0220 VA: 0x1801F0E20
 	public string get_Name() { }
 
-	// RVA: 0x1F0EB0 Offset: 0x1F02B0 VA: 0x1801F0EB0
+	// RVA: 0x1F0E30 Offset: 0x1F0230 VA: 0x1801F0E30
 	public string get_Os() { }
 
-	// RVA: 0x1F0C30 Offset: 0x1F0030 VA: 0x1801F0C30
+	// RVA: 0x1F0BB0 Offset: 0x1EFFB0 VA: 0x1801F0BB0
 	public string get_Cpu() { }
 
-	// RVA: 0x1F0C20 Offset: 0x1F0020 VA: 0x1801F0C20
+	// RVA: 0x1F0BA0 Offset: 0x1EFFA0 VA: 0x1801F0BA0
 	public int get_CpuCount() { }
 
-	// RVA: 0x1F0C40 Offset: 0x1F0040 VA: 0x1801F0C40
+	// RVA: 0x1F0BC0 Offset: 0x1EFFC0 VA: 0x1801F0BC0
 	public int get_Mem() { }
 
-	// RVA: 0x1F0C50 Offset: 0x1F0050 VA: 0x1801F0C50
+	// RVA: 0x1F0BD0 Offset: 0x1EFFD0 VA: 0x1801F0BD0
 	public string get_Gpu() { }
 
-	// RVA: 0x1F0C40 Offset: 0x1F0040 VA: 0x1801F0C40
+	// RVA: 0x1F0BC0 Offset: 0x1EFFC0 VA: 0x1801F0BC0
 	public int get_GpuMem() { }
 
-	// RVA: 0x1F0BD0 Offset: 0x1EFFD0 VA: 0x1801F0BD0
+	// RVA: 0x1F0B50 Offset: 0x1EFF50 VA: 0x1801F0B50
 	public string get_Arch() { }
 
-	// RVA: 0x1F0F80 Offset: 0x1F0380 VA: 0x1801F0F80
+	// RVA: 0x1F0F00 Offset: 0x1F0300 VA: 0x1801F0F00
 	public string get_UserId() { }
 
-	// RVA: 0x1F0FE0 Offset: 0x1F03E0 VA: 0x1801F0FE0
+	// RVA: 0x1F0F60 Offset: 0x1F0360 VA: 0x1801F0F60
 	public string get_UserName() { }
 
-	// RVA: 0x1F0EC0 Offset: 0x1F02C0 VA: 0x1801F0EC0
+	// RVA: 0x1F0E40 Offset: 0x1F0240 VA: 0x1801F0E40
 	public string get_ServerAddress() { }
 
-	// RVA: 0x1F0F20 Offset: 0x1F0320 VA: 0x1801F0F20
+	// RVA: 0x1F0EA0 Offset: 0x1F02A0 VA: 0x1801F0EA0
 	public string get_ServerName() { }
 
-	// RVA: 0x1F0C60 Offset: 0x1F0060 VA: 0x1801F0C60
+	// RVA: 0x1F0BE0 Offset: 0x1EFFE0 VA: 0x1801F0BE0
 	public string get_LevelName() { }
 
-	// RVA: 0x1F0CC0 Offset: 0x1F00C0 VA: 0x1801F0CC0
+	// RVA: 0x1F0C40 Offset: 0x1F0040 VA: 0x1801F0C40
 	public string get_LevelPos() { }
 
-	// RVA: 0x1F0D80 Offset: 0x1F0180 VA: 0x1801F0D80
+	// RVA: 0x1F0D00 Offset: 0x1F0100 VA: 0x1801F0D00
 	public string get_LevelRot() { }
 
-	// RVA: 0x1F0E40 Offset: 0x1F0240 VA: 0x1801F0E40
+	// RVA: 0x1F0DC0 Offset: 0x1F01C0 VA: 0x1801F0DC0
 	public int get_MinutesPlayed() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	public string get_Image() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF1510 Offset: 0xF0910 VA: 0x1800F1510
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF1490 Offset: 0xF0890 VA: 0x1800F1490
 	public void set_Image(string value) { }
 
 }
@@ -720,13 +720,13 @@ public class Approval : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6476
 
 	// Methods
 
-	// RVA: 0x1E25250 Offset: 0x1E23850 VA: 0x181E25250
+	// RVA: 0x1E25090 Offset: 0x1E23690 VA: 0x181E25090
 	public static void ResetToPool(Approval instance) { }
 
-	// RVA: 0x1E25090 Offset: 0x1E23690 VA: 0x181E25090
+	// RVA: 0x1E24ED0 Offset: 0x1E234D0 VA: 0x181E24ED0
 	public void ResetToPool() { }
 
-	// RVA: 0x1E24E20 Offset: 0x1E23420 VA: 0x181E24E20 Slot: 9
+	// RVA: 0x1E24C60 Offset: 0x1E23260 VA: 0x181E24C60 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -735,64 +735,64 @@ public class Approval : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6476
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E23980 Offset: 0x1E21F80 VA: 0x181E23980
+	// RVA: 0x1E237C0 Offset: 0x1E21DC0 VA: 0x181E237C0
 	public void CopyTo(Approval instance) { }
 
-	// RVA: 0x1E23A30 Offset: 0x1E22030 VA: 0x181E23A30
+	// RVA: 0x1E23870 Offset: 0x1E21E70 VA: 0x181E23870
 	public Approval Copy() { }
 
-	// RVA: 0x1E247F0 Offset: 0x1E22DF0 VA: 0x181E247F0
+	// RVA: 0x1E24630 Offset: 0x1E22C30 VA: 0x181E24630
 	public static Approval Deserialize(Stream stream) { }
 
-	// RVA: 0x1E23B20 Offset: 0x1E22120 VA: 0x181E23B20
+	// RVA: 0x1E23960 Offset: 0x1E21F60 VA: 0x181E23960
 	public static Approval DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E24110 Offset: 0x1E22710 VA: 0x181E24110
+	// RVA: 0x1E23F50 Offset: 0x1E22550 VA: 0x181E23F50
 	public static Approval DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E24D00 Offset: 0x1E23300 VA: 0x181E24D00
+	// RVA: 0x1E24B40 Offset: 0x1E23140 VA: 0x181E24B40
 	public static Approval Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E25050 Offset: 0x1E23650 VA: 0x181E25050
+	// RVA: 0x1E24E90 Offset: 0x1E23490 VA: 0x181E24E90
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E25EC0 Offset: 0x1E244C0 VA: 0x181E25EC0 Slot: 12
+	// RVA: 0x1E25D00 Offset: 0x1E24300 VA: 0x181E25D00 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E25EE0 Offset: 0x1E244E0 VA: 0x181E25EE0 Slot: 13
+	// RVA: 0x1E25D20 Offset: 0x1E24320 VA: 0x181E25D20 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Approval previous) { }
 
-	// RVA: 0x1E25070 Offset: 0x1E23670 VA: 0x181E25070 Slot: 14
+	// RVA: 0x1E24EB0 Offset: 0x1E234B0 VA: 0x181E24EB0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E246F0 Offset: 0x1E22CF0 VA: 0x181E246F0
+	// RVA: 0x1E24530 Offset: 0x1E22B30 VA: 0x181E24530
 	public static Approval Deserialize(byte[] buffer, Approval instance, bool isDelta = False) { }
 
-	// RVA: 0x1E24870 Offset: 0x1E22E70 VA: 0x181E24870
+	// RVA: 0x1E246B0 Offset: 0x1E22CB0 VA: 0x181E246B0
 	public static Approval Deserialize(Stream stream, Approval instance, bool isDelta) { }
 
-	// RVA: 0x1E23BA0 Offset: 0x1E221A0 VA: 0x181E23BA0
+	// RVA: 0x1E239E0 Offset: 0x1E21FE0 VA: 0x181E239E0
 	public static Approval DeserializeLengthDelimited(Stream stream, Approval instance, bool isDelta) { }
 
-	// RVA: 0x1E241A0 Offset: 0x1E227A0 VA: 0x181E241A0
+	// RVA: 0x1E23FE0 Offset: 0x1E225E0 VA: 0x181E23FE0
 	public static Approval DeserializeLength(Stream stream, int length, Approval instance, bool isDelta) { }
 
-	// RVA: 0x1E25410 Offset: 0x1E23A10 VA: 0x181E25410
+	// RVA: 0x1E25250 Offset: 0x1E23850 VA: 0x181E25250
 	public static void SerializeDelta(Stream stream, Approval instance, Approval previous) { }
 
-	// RVA: 0x1E25AE0 Offset: 0x1E240E0 VA: 0x181E25AE0
+	// RVA: 0x1E25920 Offset: 0x1E23F20 VA: 0x181E25920
 	public static void Serialize(Stream stream, Approval instance) { }
 
-	// RVA: 0x1E25EB0 Offset: 0x1E244B0 VA: 0x181E25EB0
+	// RVA: 0x1E25CF0 Offset: 0x1E242F0 VA: 0x181E25CF0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E25EC0 Offset: 0x1E244C0 VA: 0x181E25EC0
+	// RVA: 0x1E25D00 Offset: 0x1E24300 VA: 0x181E25D00
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E259D0 Offset: 0x1E23FD0 VA: 0x181E259D0
+	// RVA: 0x1E25810 Offset: 0x1E23E10 VA: 0x181E25810
 	public static byte[] SerializeToBytes(Approval instance) { }
 
-	// RVA: 0x1E25920 Offset: 0x1E23F20 VA: 0x181E25920
+	// RVA: 0x1E25760 Offset: 0x1E23D60 VA: 0x181E25760
 	public static void SerializeLengthDelimited(Stream stream, Approval instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -823,13 +823,13 @@ public class AppRequest : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 651
 
 	// Methods
 
-	// RVA: 0x1E13100 Offset: 0x1E11700 VA: 0x181E13100
+	// RVA: 0x1E12F40 Offset: 0x1E11540 VA: 0x181E12F40
 	public static void ResetToPool(AppRequest instance) { }
 
-	// RVA: 0x1E12DB0 Offset: 0x1E113B0 VA: 0x181E12DB0
+	// RVA: 0x1E12BF0 Offset: 0x1E111F0 VA: 0x181E12BF0
 	public void ResetToPool() { }
 
-	// RVA: 0x1E12CF0 Offset: 0x1E112F0 VA: 0x181E12CF0 Slot: 9
+	// RVA: 0x1E12B30 Offset: 0x1E11130 VA: 0x181E12B30 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -838,64 +838,64 @@ public class AppRequest : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 651
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E11230 Offset: 0x1E0F830 VA: 0x181E11230
+	// RVA: 0x1E11070 Offset: 0x1E0F670 VA: 0x181E11070
 	public void CopyTo(AppRequest instance) { }
 
-	// RVA: 0x1E11600 Offset: 0x1E0FC00 VA: 0x181E11600
+	// RVA: 0x1E11440 Offset: 0x1E0FA40 VA: 0x181E11440
 	public AppRequest Copy() { }
 
-	// RVA: 0x1E12A50 Offset: 0x1E11050 VA: 0x181E12A50
+	// RVA: 0x1E12890 Offset: 0x1E10E90 VA: 0x181E12890
 	public static AppRequest Deserialize(Stream stream) { }
 
-	// RVA: 0x1E11D10 Offset: 0x1E10310 VA: 0x181E11D10
+	// RVA: 0x1E11B50 Offset: 0x1E10150 VA: 0x181E11B50
 	public static AppRequest DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E12400 Offset: 0x1E10A00 VA: 0x181E12400
+	// RVA: 0x1E12240 Offset: 0x1E10840 VA: 0x181E12240
 	public static AppRequest DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E12BD0 Offset: 0x1E111D0 VA: 0x181E12BD0
+	// RVA: 0x1E12A10 Offset: 0x1E11010 VA: 0x181E12A10
 	public static AppRequest Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E12D70 Offset: 0x1E11370 VA: 0x181E12D70
+	// RVA: 0x1E12BB0 Offset: 0x1E111B0 VA: 0x181E12BB0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E150B0 Offset: 0x1E136B0 VA: 0x181E150B0 Slot: 12
+	// RVA: 0x1E14EF0 Offset: 0x1E134F0 VA: 0x181E14EF0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E150D0 Offset: 0x1E136D0 VA: 0x181E150D0 Slot: 13
+	// RVA: 0x1E14F10 Offset: 0x1E13510 VA: 0x181E14F10 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppRequest previous) { }
 
-	// RVA: 0x1E12D90 Offset: 0x1E11390 VA: 0x181E12D90 Slot: 14
+	// RVA: 0x1E12BD0 Offset: 0x1E111D0 VA: 0x181E12BD0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E12AD0 Offset: 0x1E110D0 VA: 0x181E12AD0
+	// RVA: 0x1E12910 Offset: 0x1E10F10 VA: 0x181E12910
 	public static AppRequest Deserialize(byte[] buffer, AppRequest instance, bool isDelta = False) { }
 
-	// RVA: 0x1E12490 Offset: 0x1E10A90 VA: 0x181E12490
+	// RVA: 0x1E122D0 Offset: 0x1E108D0 VA: 0x181E122D0
 	public static AppRequest Deserialize(Stream stream, AppRequest instance, bool isDelta) { }
 
-	// RVA: 0x1E11680 Offset: 0x1E0FC80 VA: 0x181E11680
+	// RVA: 0x1E114C0 Offset: 0x1E0FAC0 VA: 0x181E114C0
 	public static AppRequest DeserializeLengthDelimited(Stream stream, AppRequest instance, bool isDelta) { }
 
-	// RVA: 0x1E11D90 Offset: 0x1E10390 VA: 0x181E11D90
+	// RVA: 0x1E11BD0 Offset: 0x1E101D0 VA: 0x181E11BD0
 	public static AppRequest DeserializeLength(Stream stream, int length, AppRequest instance, bool isDelta) { }
 
-	// RVA: 0x1E13450 Offset: 0x1E11A50 VA: 0x181E13450
+	// RVA: 0x1E13290 Offset: 0x1E11890 VA: 0x181E13290
 	public static void SerializeDelta(Stream stream, AppRequest instance, AppRequest previous) { }
 
-	// RVA: 0x1E14400 Offset: 0x1E12A00 VA: 0x181E14400
+	// RVA: 0x1E14240 Offset: 0x1E12840 VA: 0x181E14240
 	public static void Serialize(Stream stream, AppRequest instance) { }
 
-	// RVA: 0x1E150A0 Offset: 0x1E136A0 VA: 0x181E150A0
+	// RVA: 0x1E14EE0 Offset: 0x1E134E0 VA: 0x181E14EE0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E150B0 Offset: 0x1E136B0 VA: 0x181E150B0
+	// RVA: 0x1E14EF0 Offset: 0x1E134F0 VA: 0x181E14EF0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E142F0 Offset: 0x1E128F0 VA: 0x181E142F0
+	// RVA: 0x1E14130 Offset: 0x1E12730 VA: 0x181E14130
 	public static byte[] SerializeToBytes(AppRequest instance) { }
 
-	// RVA: 0x1E14240 Offset: 0x1E12840 VA: 0x181E14240
+	// RVA: 0x1E14080 Offset: 0x1E12680 VA: 0x181E14080
 	public static void SerializeLengthDelimited(Stream stream, AppRequest instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -912,13 +912,13 @@ public class AppMessage : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 651
 
 	// Methods
 
-	// RVA: 0x2092670 Offset: 0x2090C70 VA: 0x182092670
+	// RVA: 0x20924B0 Offset: 0x2090AB0 VA: 0x1820924B0
 	public static void ResetToPool(AppMessage instance) { }
 
-	// RVA: 0x2092750 Offset: 0x2090D50 VA: 0x182092750
+	// RVA: 0x2092590 Offset: 0x2090B90 VA: 0x182092590
 	public void ResetToPool() { }
 
-	// RVA: 0x20924D0 Offset: 0x2090AD0 VA: 0x1820924D0 Slot: 9
+	// RVA: 0x2092310 Offset: 0x2090910 VA: 0x182092310 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -927,64 +927,64 @@ public class AppMessage : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 651
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20918E0 Offset: 0x208FEE0 VA: 0x1820918E0
+	// RVA: 0x2091720 Offset: 0x208FD20 VA: 0x182091720
 	public void CopyTo(AppMessage instance) { }
 
-	// RVA: 0x20919A0 Offset: 0x208FFA0 VA: 0x1820919A0
+	// RVA: 0x20917E0 Offset: 0x208FDE0 VA: 0x1820917E0
 	public AppMessage Copy() { }
 
-	// RVA: 0x2092450 Offset: 0x2090A50 VA: 0x182092450
+	// RVA: 0x2092290 Offset: 0x2090890 VA: 0x182092290
 	public static AppMessage Deserialize(Stream stream) { }
 
-	// RVA: 0x2091AB0 Offset: 0x20900B0 VA: 0x182091AB0
+	// RVA: 0x20918F0 Offset: 0x208FEF0 VA: 0x1820918F0
 	public static AppMessage DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2092000 Offset: 0x2090600 VA: 0x182092000
+	// RVA: 0x2091E40 Offset: 0x2090440 VA: 0x182091E40
 	public static AppMessage DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2092090 Offset: 0x2090690 VA: 0x182092090
+	// RVA: 0x2091ED0 Offset: 0x20904D0 VA: 0x182091ED0
 	public static AppMessage Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2092630 Offset: 0x2090C30 VA: 0x182092630
+	// RVA: 0x2092470 Offset: 0x2090A70 VA: 0x182092470
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2092F10 Offset: 0x2091510 VA: 0x182092F10 Slot: 12
+	// RVA: 0x2092D50 Offset: 0x2091350 VA: 0x182092D50 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2092F30 Offset: 0x2091530 VA: 0x182092F30 Slot: 13
+	// RVA: 0x2092D70 Offset: 0x2091370 VA: 0x182092D70 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppMessage previous) { }
 
-	// RVA: 0x2092650 Offset: 0x2090C50 VA: 0x182092650 Slot: 14
+	// RVA: 0x2092490 Offset: 0x2090A90 VA: 0x182092490 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2092350 Offset: 0x2090950 VA: 0x182092350
+	// RVA: 0x2092190 Offset: 0x2090790 VA: 0x182092190
 	public static AppMessage Deserialize(byte[] buffer, AppMessage instance, bool isDelta = False) { }
 
-	// RVA: 0x20921B0 Offset: 0x20907B0 VA: 0x1820921B0
+	// RVA: 0x2091FF0 Offset: 0x20905F0 VA: 0x182091FF0
 	public static AppMessage Deserialize(Stream stream, AppMessage instance, bool isDelta) { }
 
-	// RVA: 0x2091B30 Offset: 0x2090130 VA: 0x182091B30
+	// RVA: 0x2091970 Offset: 0x208FF70 VA: 0x182091970
 	public static AppMessage DeserializeLengthDelimited(Stream stream, AppMessage instance, bool isDelta) { }
 
-	// RVA: 0x2091DB0 Offset: 0x20903B0 VA: 0x182091DB0
+	// RVA: 0x2091BF0 Offset: 0x20901F0 VA: 0x182091BF0
 	public static AppMessage DeserializeLength(Stream stream, int length, AppMessage instance, bool isDelta) { }
 
-	// RVA: 0x2092830 Offset: 0x2090E30 VA: 0x182092830
+	// RVA: 0x2092670 Offset: 0x2090C70 VA: 0x182092670
 	public static void SerializeDelta(Stream stream, AppMessage instance, AppMessage previous) { }
 
-	// RVA: 0x2092C90 Offset: 0x2091290 VA: 0x182092C90
+	// RVA: 0x2092AD0 Offset: 0x20910D0 VA: 0x182092AD0
 	public static void Serialize(Stream stream, AppMessage instance) { }
 
-	// RVA: 0x2092F00 Offset: 0x2091500 VA: 0x182092F00
+	// RVA: 0x2092D40 Offset: 0x2091340 VA: 0x182092D40
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2092F10 Offset: 0x2091510 VA: 0x182092F10
+	// RVA: 0x2092D50 Offset: 0x2091350 VA: 0x182092D50
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2092B80 Offset: 0x2091180 VA: 0x182092B80
+	// RVA: 0x20929C0 Offset: 0x2090FC0 VA: 0x1820929C0
 	public static byte[] SerializeToBytes(AppMessage instance) { }
 
-	// RVA: 0x2092AD0 Offset: 0x20910D0 VA: 0x182092AD0
+	// RVA: 0x2092910 Offset: 0x2090F10 VA: 0x182092910
 	public static void SerializeLengthDelimited(Stream stream, AppMessage instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -1010,13 +1010,13 @@ public class AppResponse : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 65
 
 	// Methods
 
-	// RVA: 0x1E16A50 Offset: 0x1E15050 VA: 0x181E16A50
+	// RVA: 0x1E16890 Offset: 0x1E14E90 VA: 0x181E16890
 	public static void ResetToPool(AppResponse instance) { }
 
-	// RVA: 0x1E16790 Offset: 0x1E14D90 VA: 0x181E16790
+	// RVA: 0x1E165D0 Offset: 0x1E14BD0 VA: 0x181E165D0
 	public void ResetToPool() { }
 
-	// RVA: 0x1E166D0 Offset: 0x1E14CD0 VA: 0x181E166D0 Slot: 9
+	// RVA: 0x1E16510 Offset: 0x1E14B10 VA: 0x181E16510 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -1025,64 +1025,64 @@ public class AppResponse : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 65
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E150F0 Offset: 0x1E136F0 VA: 0x181E150F0
+	// RVA: 0x1E14F30 Offset: 0x1E13530 VA: 0x181E14F30
 	public void CopyTo(AppResponse instance) { }
 
-	// RVA: 0x1E15480 Offset: 0x1E13A80 VA: 0x181E15480
+	// RVA: 0x1E152C0 Offset: 0x1E138C0 VA: 0x181E152C0
 	public AppResponse Copy() { }
 
-	// RVA: 0x1E16550 Offset: 0x1E14B50 VA: 0x181E16550
+	// RVA: 0x1E16390 Offset: 0x1E14990 VA: 0x181E16390
 	public static AppResponse Deserialize(Stream stream) { }
 
-	// RVA: 0x1E15A10 Offset: 0x1E14010 VA: 0x181E15A10
+	// RVA: 0x1E15850 Offset: 0x1E13E50 VA: 0x181E15850
 	public static AppResponse DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E15F70 Offset: 0x1E14570 VA: 0x181E15F70
+	// RVA: 0x1E15DB0 Offset: 0x1E143B0 VA: 0x181E15DB0
 	public static AppResponse DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E16000 Offset: 0x1E14600 VA: 0x181E16000
+	// RVA: 0x1E15E40 Offset: 0x1E14440 VA: 0x181E15E40
 	public static AppResponse Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E16750 Offset: 0x1E14D50 VA: 0x181E16750
+	// RVA: 0x1E16590 Offset: 0x1E14B90 VA: 0x181E16590
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E182E0 Offset: 0x1E168E0 VA: 0x181E182E0 Slot: 12
+	// RVA: 0x1E18120 Offset: 0x1E16720 VA: 0x181E18120 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E18300 Offset: 0x1E16900 VA: 0x181E18300 Slot: 13
+	// RVA: 0x1E18140 Offset: 0x1E16740 VA: 0x181E18140 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppResponse previous) { }
 
-	// RVA: 0x1E16770 Offset: 0x1E14D70 VA: 0x181E16770 Slot: 14
+	// RVA: 0x1E165B0 Offset: 0x1E14BB0 VA: 0x181E165B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E165D0 Offset: 0x1E14BD0 VA: 0x181E165D0
+	// RVA: 0x1E16410 Offset: 0x1E14A10 VA: 0x181E16410
 	public static AppResponse Deserialize(byte[] buffer, AppResponse instance, bool isDelta = False) { }
 
-	// RVA: 0x1E16120 Offset: 0x1E14720 VA: 0x181E16120
+	// RVA: 0x1E15F60 Offset: 0x1E14560 VA: 0x181E15F60
 	public static AppResponse Deserialize(Stream stream, AppResponse instance, bool isDelta) { }
 
-	// RVA: 0x1E15500 Offset: 0x1E13B00 VA: 0x181E15500
+	// RVA: 0x1E15340 Offset: 0x1E13940 VA: 0x181E15340
 	public static AppResponse DeserializeLengthDelimited(Stream stream, AppResponse instance, bool isDelta) { }
 
-	// RVA: 0x1E15A90 Offset: 0x1E14090 VA: 0x181E15A90
+	// RVA: 0x1E158D0 Offset: 0x1E13ED0 VA: 0x181E158D0
 	public static AppResponse DeserializeLength(Stream stream, int length, AppResponse instance, bool isDelta) { }
 
-	// RVA: 0x1E16D10 Offset: 0x1E15310 VA: 0x181E16D10
+	// RVA: 0x1E16B50 Offset: 0x1E15150 VA: 0x181E16B50
 	public static void SerializeDelta(Stream stream, AppResponse instance, AppResponse previous) { }
 
-	// RVA: 0x1E17920 Offset: 0x1E15F20 VA: 0x181E17920
+	// RVA: 0x1E17760 Offset: 0x1E15D60 VA: 0x181E17760
 	public static void Serialize(Stream stream, AppResponse instance) { }
 
-	// RVA: 0x1E182D0 Offset: 0x1E168D0 VA: 0x181E182D0
+	// RVA: 0x1E18110 Offset: 0x1E16710 VA: 0x181E18110
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E182E0 Offset: 0x1E168E0 VA: 0x181E182E0
+	// RVA: 0x1E18120 Offset: 0x1E16720 VA: 0x181E18120
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E17810 Offset: 0x1E15E10 VA: 0x181E17810
+	// RVA: 0x1E17650 Offset: 0x1E15C50 VA: 0x181E17650
 	public static byte[] SerializeToBytes(AppResponse instance) { }
 
-	// RVA: 0x1E17760 Offset: 0x1E15D60 VA: 0x181E17760
+	// RVA: 0x1E175A0 Offset: 0x1E15BA0 VA: 0x181E175A0
 	public static void SerializeLengthDelimited(Stream stream, AppResponse instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -1100,13 +1100,13 @@ public class AppBroadcast : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 	// Methods
 
-	// RVA: 0x2015D30 Offset: 0x2014330 VA: 0x182015D30
+	// RVA: 0x2015B70 Offset: 0x2014170 VA: 0x182015B70
 	public static void ResetToPool(AppBroadcast instance) { }
 
-	// RVA: 0x2015C10 Offset: 0x2014210 VA: 0x182015C10
+	// RVA: 0x2015A50 Offset: 0x2014050 VA: 0x182015A50
 	public void ResetToPool() { }
 
-	// RVA: 0x2015870 Offset: 0x2013E70 VA: 0x182015870 Slot: 9
+	// RVA: 0x20156B0 Offset: 0x2013CB0 VA: 0x1820156B0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -1115,64 +1115,64 @@ public class AppBroadcast : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x2014660 Offset: 0x2012C60 VA: 0x182014660
+	// RVA: 0x20144A0 Offset: 0x2012AA0 VA: 0x1820144A0
 	public void CopyTo(AppBroadcast instance) { }
 
-	// RVA: 0x2014760 Offset: 0x2012D60 VA: 0x182014760
+	// RVA: 0x20145A0 Offset: 0x2012BA0 VA: 0x1820145A0
 	public AppBroadcast Copy() { }
 
-	// RVA: 0x2014F00 Offset: 0x2013500 VA: 0x182014F00
+	// RVA: 0x2014D40 Offset: 0x2013340 VA: 0x182014D40
 	public static AppBroadcast Deserialize(Stream stream) { }
 
-	// RVA: 0x2014B60 Offset: 0x2013160 VA: 0x182014B60
+	// RVA: 0x20149A0 Offset: 0x2012FA0 VA: 0x1820149A0
 	public static AppBroadcast DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2014BE0 Offset: 0x20131E0 VA: 0x182014BE0
+	// RVA: 0x2014A20 Offset: 0x2013020 VA: 0x182014A20
 	public static AppBroadcast DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2015300 Offset: 0x2013900 VA: 0x182015300
+	// RVA: 0x2015140 Offset: 0x2013740 VA: 0x182015140
 	public static AppBroadcast Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2015A10 Offset: 0x2014010 VA: 0x182015A10
+	// RVA: 0x2015850 Offset: 0x2013E50 VA: 0x182015850
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2016710 Offset: 0x2014D10 VA: 0x182016710 Slot: 12
+	// RVA: 0x2016550 Offset: 0x2014B50 VA: 0x182016550 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2016730 Offset: 0x2014D30 VA: 0x182016730 Slot: 13
+	// RVA: 0x2016570 Offset: 0x2014B70 VA: 0x182016570 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppBroadcast previous) { }
 
-	// RVA: 0x2015BF0 Offset: 0x20141F0 VA: 0x182015BF0 Slot: 14
+	// RVA: 0x2015A30 Offset: 0x2014030 VA: 0x182015A30 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20155D0 Offset: 0x2013BD0 VA: 0x1820155D0
+	// RVA: 0x2015410 Offset: 0x2013A10 VA: 0x182015410
 	public static AppBroadcast Deserialize(byte[] buffer, AppBroadcast instance, bool isDelta = False) { }
 
-	// RVA: 0x2015120 Offset: 0x2013720 VA: 0x182015120
+	// RVA: 0x2014F60 Offset: 0x2013560 VA: 0x182014F60
 	public static AppBroadcast Deserialize(Stream stream, AppBroadcast instance, bool isDelta) { }
 
-	// RVA: 0x20148A0 Offset: 0x2012EA0 VA: 0x1820148A0
+	// RVA: 0x20146E0 Offset: 0x2012CE0 VA: 0x1820146E0
 	public static AppBroadcast DeserializeLengthDelimited(Stream stream, AppBroadcast instance, bool isDelta) { }
 
-	// RVA: 0x2014C70 Offset: 0x2013270 VA: 0x182014C70
+	// RVA: 0x2014AB0 Offset: 0x20130B0 VA: 0x182014AB0
 	public static AppBroadcast DeserializeLength(Stream stream, int length, AppBroadcast instance, bool isDelta) { }
 
-	// RVA: 0x2015E50 Offset: 0x2014450 VA: 0x182015E50
+	// RVA: 0x2015C90 Offset: 0x2014290 VA: 0x182015C90
 	public static void SerializeDelta(Stream stream, AppBroadcast instance, AppBroadcast previous) { }
 
-	// RVA: 0x20163A0 Offset: 0x20149A0 VA: 0x1820163A0
+	// RVA: 0x20161E0 Offset: 0x20147E0 VA: 0x1820161E0
 	public static void Serialize(Stream stream, AppBroadcast instance) { }
 
-	// RVA: 0x2016700 Offset: 0x2014D00 VA: 0x182016700
+	// RVA: 0x2016540 Offset: 0x2014B40 VA: 0x182016540
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2016710 Offset: 0x2014D10 VA: 0x182016710
+	// RVA: 0x2016550 Offset: 0x2014B50 VA: 0x182016550
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2016290 Offset: 0x2014890 VA: 0x182016290
+	// RVA: 0x20160D0 Offset: 0x20146D0 VA: 0x1820160D0
 	public static byte[] SerializeToBytes(AppBroadcast instance) { }
 
-	// RVA: 0x20161E0 Offset: 0x20147E0 VA: 0x1820161E0
+	// RVA: 0x2016020 Offset: 0x2014620 VA: 0x182016020
 	public static void SerializeLengthDelimited(Stream stream, AppBroadcast instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -1187,13 +1187,13 @@ public class AppEmpty : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6515
 
 	// Methods
 
-	// RVA: 0x2080660 Offset: 0x207EC60 VA: 0x182080660
+	// RVA: 0x20804A0 Offset: 0x207EAA0 VA: 0x1820804A0
 	public static void ResetToPool(AppEmpty instance) { }
 
-	// RVA: 0x20806D0 Offset: 0x207ECD0 VA: 0x1820806D0
+	// RVA: 0x2080510 Offset: 0x207EB10 VA: 0x182080510
 	public void ResetToPool() { }
 
-	// RVA: 0x2080540 Offset: 0x207EB40 VA: 0x182080540 Slot: 9
+	// RVA: 0x2080380 Offset: 0x207E980 VA: 0x182080380 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -1205,61 +1205,61 @@ public class AppEmpty : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6515
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void CopyTo(AppEmpty instance) { }
 
-	// RVA: 0x207FC90 Offset: 0x207E290 VA: 0x18207FC90
+	// RVA: 0x207FAD0 Offset: 0x207E0D0 VA: 0x18207FAD0
 	public AppEmpty Copy() { }
 
-	// RVA: 0x20804C0 Offset: 0x207EAC0 VA: 0x1820804C0
+	// RVA: 0x2080300 Offset: 0x207E900 VA: 0x182080300
 	public static AppEmpty Deserialize(Stream stream) { }
 
-	// RVA: 0x207FEC0 Offset: 0x207E4C0 VA: 0x18207FEC0
+	// RVA: 0x207FD00 Offset: 0x207E300 VA: 0x18207FD00
 	public static AppEmpty DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2080100 Offset: 0x207E700 VA: 0x182080100
+	// RVA: 0x207FF40 Offset: 0x207E540 VA: 0x18207FF40
 	public static AppEmpty DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2080190 Offset: 0x207E790 VA: 0x182080190
+	// RVA: 0x207FFD0 Offset: 0x207E5D0 VA: 0x18207FFD0
 	public static AppEmpty Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2080620 Offset: 0x207EC20 VA: 0x182080620
+	// RVA: 0x2080460 Offset: 0x207EA60 VA: 0x182080460
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2080A20 Offset: 0x207F020 VA: 0x182080A20 Slot: 12
+	// RVA: 0x2080860 Offset: 0x207EE60 VA: 0x182080860 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2080A90 Offset: 0x207F090 VA: 0x182080A90 Slot: 13
+	// RVA: 0x20808D0 Offset: 0x207EED0 VA: 0x1820808D0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppEmpty previous) { }
 
-	// RVA: 0x2080640 Offset: 0x207EC40 VA: 0x182080640 Slot: 14
+	// RVA: 0x2080480 Offset: 0x207EA80 VA: 0x182080480 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20803C0 Offset: 0x207E9C0 VA: 0x1820803C0
+	// RVA: 0x2080200 Offset: 0x207E800 VA: 0x182080200
 	public static AppEmpty Deserialize(byte[] buffer, AppEmpty instance, bool isDelta = False) { }
 
-	// RVA: 0x20802B0 Offset: 0x207E8B0 VA: 0x1820802B0
+	// RVA: 0x20800F0 Offset: 0x207E6F0 VA: 0x1820800F0
 	public static AppEmpty Deserialize(Stream stream, AppEmpty instance, bool isDelta) { }
 
-	// RVA: 0x207FCE0 Offset: 0x207E2E0 VA: 0x18207FCE0
+	// RVA: 0x207FB20 Offset: 0x207E120 VA: 0x18207FB20
 	public static AppEmpty DeserializeLengthDelimited(Stream stream, AppEmpty instance, bool isDelta) { }
 
-	// RVA: 0x207FF40 Offset: 0x207E540 VA: 0x18207FF40
+	// RVA: 0x207FD80 Offset: 0x207E380 VA: 0x18207FD80
 	public static AppEmpty DeserializeLength(Stream stream, int length, AppEmpty instance, bool isDelta) { }
 
-	// RVA: 0x2080740 Offset: 0x207ED40 VA: 0x182080740
+	// RVA: 0x2080580 Offset: 0x207EB80 VA: 0x182080580
 	public static void SerializeDelta(Stream stream, AppEmpty instance, AppEmpty previous) { }
 
-	// RVA: 0x20809B0 Offset: 0x207EFB0 VA: 0x1820809B0
+	// RVA: 0x20807F0 Offset: 0x207EDF0 VA: 0x1820807F0
 	public static void Serialize(Stream stream, AppEmpty instance) { }
 
-	// RVA: 0x2080A10 Offset: 0x207F010 VA: 0x182080A10
+	// RVA: 0x2080850 Offset: 0x207EE50 VA: 0x182080850
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2080A20 Offset: 0x207F020 VA: 0x182080A20
+	// RVA: 0x2080860 Offset: 0x207EE60 VA: 0x182080860
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2080850 Offset: 0x207EE50 VA: 0x182080850
+	// RVA: 0x2080690 Offset: 0x207EC90 VA: 0x182080690
 	public static byte[] SerializeToBytes(AppEmpty instance) { }
 
-	// RVA: 0x20807A0 Offset: 0x207EDA0 VA: 0x1820807A0
+	// RVA: 0x20805E0 Offset: 0x207EBE0 VA: 0x1820805E0
 	public static void SerializeLengthDelimited(Stream stream, AppEmpty instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -1275,13 +1275,13 @@ public class AppSendMessage : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1E18D80 Offset: 0x1E17380 VA: 0x181E18D80
+	// RVA: 0x1E18BC0 Offset: 0x1E171C0 VA: 0x181E18BC0
 	public static void ResetToPool(AppSendMessage instance) { }
 
-	// RVA: 0x1E18E10 Offset: 0x1E17410 VA: 0x181E18E10
+	// RVA: 0x1E18C50 Offset: 0x1E17250 VA: 0x181E18C50
 	public void ResetToPool() { }
 
-	// RVA: 0x1E18CC0 Offset: 0x1E172C0 VA: 0x181E18CC0 Slot: 9
+	// RVA: 0x1E18B00 Offset: 0x1E17100 VA: 0x181E18B00 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -1290,64 +1290,64 @@ public class AppSendMessage : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D67D50 Offset: 0x1D66350 VA: 0x181D67D50
+	// RVA: 0x1D67B90 Offset: 0x1D66190 VA: 0x181D67B90
 	public void CopyTo(AppSendMessage instance) { }
 
-	// RVA: 0x1E18320 Offset: 0x1E16920 VA: 0x181E18320
+	// RVA: 0x1E18160 Offset: 0x1E16760 VA: 0x181E18160
 	public AppSendMessage Copy() { }
 
-	// RVA: 0x1E189D0 Offset: 0x1E16FD0 VA: 0x181E189D0
+	// RVA: 0x1E18810 Offset: 0x1E16E10 VA: 0x181E18810
 	public static AppSendMessage Deserialize(Stream stream) { }
 
-	// RVA: 0x1E185C0 Offset: 0x1E16BC0 VA: 0x181E185C0
+	// RVA: 0x1E18400 Offset: 0x1E16A00 VA: 0x181E18400
 	public static AppSendMessage DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E18640 Offset: 0x1E16C40 VA: 0x181E18640
+	// RVA: 0x1E18480 Offset: 0x1E16A80 VA: 0x181E18480
 	public static AppSendMessage DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E18A50 Offset: 0x1E17050 VA: 0x181E18A50
+	// RVA: 0x1E18890 Offset: 0x1E16E90 VA: 0x181E18890
 	public static AppSendMessage Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E18D40 Offset: 0x1E17340 VA: 0x181E18D40
+	// RVA: 0x1E18B80 Offset: 0x1E17180 VA: 0x181E18B80
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E19300 Offset: 0x1E17900 VA: 0x181E19300 Slot: 12
+	// RVA: 0x1E19140 Offset: 0x1E17740 VA: 0x181E19140 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E19320 Offset: 0x1E17920 VA: 0x181E19320 Slot: 13
+	// RVA: 0x1E19160 Offset: 0x1E17760 VA: 0x181E19160 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppSendMessage previous) { }
 
-	// RVA: 0x1E18D60 Offset: 0x1E17360 VA: 0x181E18D60 Slot: 14
+	// RVA: 0x1E18BA0 Offset: 0x1E171A0 VA: 0x181E18BA0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E188D0 Offset: 0x1E16ED0 VA: 0x181E188D0
+	// RVA: 0x1E18710 Offset: 0x1E16D10 VA: 0x181E18710
 	public static AppSendMessage Deserialize(byte[] buffer, AppSendMessage instance, bool isDelta = False) { }
 
-	// RVA: 0x1E18B70 Offset: 0x1E17170 VA: 0x181E18B70
+	// RVA: 0x1E189B0 Offset: 0x1E16FB0 VA: 0x181E189B0
 	public static AppSendMessage Deserialize(Stream stream, AppSendMessage instance, bool isDelta) { }
 
-	// RVA: 0x1E183A0 Offset: 0x1E169A0 VA: 0x181E183A0
+	// RVA: 0x1E181E0 Offset: 0x1E167E0 VA: 0x181E181E0
 	public static AppSendMessage DeserializeLengthDelimited(Stream stream, AppSendMessage instance, bool isDelta) { }
 
-	// RVA: 0x1E186D0 Offset: 0x1E16CD0 VA: 0x181E186D0
+	// RVA: 0x1E18510 Offset: 0x1E16B10 VA: 0x181E18510
 	public static AppSendMessage DeserializeLength(Stream stream, int length, AppSendMessage instance, bool isDelta) { }
 
-	// RVA: 0x1E18EA0 Offset: 0x1E174A0 VA: 0x181E18EA0
+	// RVA: 0x1E18CE0 Offset: 0x1E172E0 VA: 0x181E18CE0
 	public static void SerializeDelta(Stream stream, AppSendMessage instance, AppSendMessage previous) { }
 
-	// RVA: 0x1E191C0 Offset: 0x1E177C0 VA: 0x181E191C0
+	// RVA: 0x1E19000 Offset: 0x1E17600 VA: 0x181E19000
 	public static void Serialize(Stream stream, AppSendMessage instance) { }
 
-	// RVA: 0x1E192F0 Offset: 0x1E178F0 VA: 0x181E192F0
+	// RVA: 0x1E19130 Offset: 0x1E17730 VA: 0x181E19130
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E19300 Offset: 0x1E17900 VA: 0x181E19300
+	// RVA: 0x1E19140 Offset: 0x1E17740 VA: 0x181E19140
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E190B0 Offset: 0x1E176B0 VA: 0x181E190B0
+	// RVA: 0x1E18EF0 Offset: 0x1E174F0 VA: 0x181E18EF0
 	public static byte[] SerializeToBytes(AppSendMessage instance) { }
 
-	// RVA: 0x1E19000 Offset: 0x1E17600 VA: 0x181E19000
+	// RVA: 0x1E18E40 Offset: 0x1E17440 VA: 0x181E18E40
 	public static void SerializeLengthDelimited(Stream stream, AppSendMessage instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -1363,13 +1363,13 @@ public class AppSetEntityValue : IDisposable, Pool.IPooled, IProto // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1E19DA0 Offset: 0x1E183A0 VA: 0x181E19DA0
+	// RVA: 0x1E19BE0 Offset: 0x1E181E0 VA: 0x181E19BE0
 	public static void ResetToPool(AppSetEntityValue instance) { }
 
-	// RVA: 0x1E19E20 Offset: 0x1E18420 VA: 0x181E19E20
+	// RVA: 0x1E19C60 Offset: 0x1E18260 VA: 0x181E19C60
 	public void ResetToPool() { }
 
-	// RVA: 0x1E19CE0 Offset: 0x1E182E0 VA: 0x181E19CE0 Slot: 9
+	// RVA: 0x1E19B20 Offset: 0x1E18120 VA: 0x181E19B20 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -1378,64 +1378,64 @@ public class AppSetEntityValue : IDisposable, Pool.IPooled, IProto // TypeDefInd
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E19340 Offset: 0x1E17940 VA: 0x181E19340
+	// RVA: 0x1E19180 Offset: 0x1E17780 VA: 0x181E19180
 	public void CopyTo(AppSetEntityValue instance) { }
 
-	// RVA: 0x1E19360 Offset: 0x1E17960 VA: 0x181E19360
+	// RVA: 0x1E191A0 Offset: 0x1E177A0 VA: 0x181E191A0
 	public AppSetEntityValue Copy() { }
 
-	// RVA: 0x1E19B60 Offset: 0x1E18160 VA: 0x181E19B60
+	// RVA: 0x1E199A0 Offset: 0x1E17FA0 VA: 0x181E199A0
 	public static AppSetEntityValue Deserialize(Stream stream) { }
 
-	// RVA: 0x1E193D0 Offset: 0x1E179D0 VA: 0x181E193D0
+	// RVA: 0x1E19210 Offset: 0x1E17810 VA: 0x181E19210
 	public static AppSetEntityValue DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E19870 Offset: 0x1E17E70 VA: 0x181E19870
+	// RVA: 0x1E196B0 Offset: 0x1E17CB0 VA: 0x181E196B0
 	public static AppSetEntityValue DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E19A40 Offset: 0x1E18040 VA: 0x181E19A40
+	// RVA: 0x1E19880 Offset: 0x1E17E80 VA: 0x181E19880
 	public static AppSetEntityValue Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E19D60 Offset: 0x1E18360 VA: 0x181E19D60
+	// RVA: 0x1E19BA0 Offset: 0x1E181A0 VA: 0x181E19BA0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E1A2B0 Offset: 0x1E188B0 VA: 0x181E1A2B0 Slot: 12
+	// RVA: 0x1E1A0F0 Offset: 0x1E186F0 VA: 0x181E1A0F0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E1A380 Offset: 0x1E18980 VA: 0x181E1A380 Slot: 13
+	// RVA: 0x1E1A1C0 Offset: 0x1E187C0 VA: 0x181E1A1C0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppSetEntityValue previous) { }
 
-	// RVA: 0x1E19D80 Offset: 0x1E18380 VA: 0x181E19D80 Slot: 14
+	// RVA: 0x1E19BC0 Offset: 0x1E181C0 VA: 0x181E19BC0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E19BE0 Offset: 0x1E181E0 VA: 0x181E19BE0
+	// RVA: 0x1E19A20 Offset: 0x1E18020 VA: 0x181E19A20
 	public static AppSetEntityValue Deserialize(byte[] buffer, AppSetEntityValue instance, bool isDelta = False) { }
 
-	// RVA: 0x1E19900 Offset: 0x1E17F00 VA: 0x181E19900
+	// RVA: 0x1E19740 Offset: 0x1E17D40 VA: 0x181E19740
 	public static AppSetEntityValue Deserialize(Stream stream, AppSetEntityValue instance, bool isDelta) { }
 
-	// RVA: 0x1E19450 Offset: 0x1E17A50 VA: 0x181E19450
+	// RVA: 0x1E19290 Offset: 0x1E17890 VA: 0x181E19290
 	public static AppSetEntityValue DeserializeLengthDelimited(Stream stream, AppSetEntityValue instance, bool isDelta) { }
 
-	// RVA: 0x1E19670 Offset: 0x1E17C70 VA: 0x181E19670
+	// RVA: 0x1E194B0 Offset: 0x1E17AB0 VA: 0x181E194B0
 	public static AppSetEntityValue DeserializeLength(Stream stream, int length, AppSetEntityValue instance, bool isDelta) { }
 
-	// RVA: 0x1E19EA0 Offset: 0x1E184A0 VA: 0x181E19EA0
+	// RVA: 0x1E19CE0 Offset: 0x1E182E0 VA: 0x181E19CE0
 	public static void SerializeDelta(Stream stream, AppSetEntityValue instance, AppSetEntityValue previous) { }
 
-	// RVA: 0x1E1A1D0 Offset: 0x1E187D0 VA: 0x181E1A1D0
+	// RVA: 0x1E1A010 Offset: 0x1E18610 VA: 0x181E1A010
 	public static void Serialize(Stream stream, AppSetEntityValue instance) { }
 
-	// RVA: 0x1E1A2A0 Offset: 0x1E188A0 VA: 0x181E1A2A0
+	// RVA: 0x1E1A0E0 Offset: 0x1E186E0 VA: 0x181E1A0E0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E1A2B0 Offset: 0x1E188B0 VA: 0x181E1A2B0
+	// RVA: 0x1E1A0F0 Offset: 0x1E186F0 VA: 0x181E1A0F0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E1A020 Offset: 0x1E18620 VA: 0x181E1A020
+	// RVA: 0x1E19E60 Offset: 0x1E18460 VA: 0x181E19E60
 	public static byte[] SerializeToBytes(AppSetEntityValue instance) { }
 
-	// RVA: 0x1E19F70 Offset: 0x1E18570 VA: 0x181E19F70
+	// RVA: 0x1E19DB0 Offset: 0x1E183B0 VA: 0x181E19DB0
 	public static void SerializeLengthDelimited(Stream stream, AppSetEntityValue instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -1451,13 +1451,13 @@ public class AppPromoteToLeader : IDisposable, Pool.IPooled, IProto // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x2093A80 Offset: 0x2092080 VA: 0x182093A80
+	// RVA: 0x20938C0 Offset: 0x2091EC0 VA: 0x1820938C0
 	public static void ResetToPool(AppPromoteToLeader instance) { }
 
-	// RVA: 0x2093A00 Offset: 0x2092000 VA: 0x182093A00
+	// RVA: 0x2093840 Offset: 0x2091E40 VA: 0x182093840
 	public void ResetToPool() { }
 
-	// RVA: 0x20938D0 Offset: 0x2091ED0 VA: 0x1820938D0 Slot: 9
+	// RVA: 0x2093710 Offset: 0x2091D10 VA: 0x182093710 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -1466,64 +1466,64 @@ public class AppPromoteToLeader : IDisposable, Pool.IPooled, IProto // TypeDefIn
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F1CBB0 Offset: 0x1F1B1B0 VA: 0x181F1CBB0
+	// RVA: 0x1F1C9F0 Offset: 0x1F1AFF0 VA: 0x181F1C9F0
 	public void CopyTo(AppPromoteToLeader instance) { }
 
-	// RVA: 0x2092F50 Offset: 0x2091550 VA: 0x182092F50
+	// RVA: 0x2092D90 Offset: 0x2091390 VA: 0x182092D90
 	public AppPromoteToLeader Copy() { }
 
-	// RVA: 0x2093750 Offset: 0x2091D50 VA: 0x182093750
+	// RVA: 0x2093590 Offset: 0x2091B90 VA: 0x182093590
 	public static AppPromoteToLeader Deserialize(Stream stream) { }
 
-	// RVA: 0x2092FC0 Offset: 0x20915C0 VA: 0x182092FC0
+	// RVA: 0x2092E00 Offset: 0x2091400 VA: 0x182092E00
 	public static AppPromoteToLeader DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2093260 Offset: 0x2091860 VA: 0x182093260
+	// RVA: 0x20930A0 Offset: 0x20916A0 VA: 0x1820930A0
 	public static AppPromoteToLeader DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2093630 Offset: 0x2091C30 VA: 0x182093630
+	// RVA: 0x2093470 Offset: 0x2091A70 VA: 0x182093470
 	public static AppPromoteToLeader Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20939C0 Offset: 0x2091FC0 VA: 0x1820939C0
+	// RVA: 0x2093800 Offset: 0x2091E00 VA: 0x182093800
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2093F50 Offset: 0x2092550 VA: 0x182093F50 Slot: 12
+	// RVA: 0x2093D90 Offset: 0x2092390 VA: 0x182093D90 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2094020 Offset: 0x2092620 VA: 0x182094020 Slot: 13
+	// RVA: 0x2093E60 Offset: 0x2092460 VA: 0x182093E60 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppPromoteToLeader previous) { }
 
-	// RVA: 0x20939E0 Offset: 0x2091FE0 VA: 0x1820939E0 Slot: 14
+	// RVA: 0x2093820 Offset: 0x2091E20 VA: 0x182093820 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20937D0 Offset: 0x2091DD0 VA: 0x1820937D0
+	// RVA: 0x2093610 Offset: 0x2091C10 VA: 0x182093610
 	public static AppPromoteToLeader Deserialize(byte[] buffer, AppPromoteToLeader instance, bool isDelta = False) { }
 
-	// RVA: 0x20934F0 Offset: 0x2091AF0 VA: 0x1820934F0
+	// RVA: 0x2093330 Offset: 0x2091930 VA: 0x182093330
 	public static AppPromoteToLeader Deserialize(Stream stream, AppPromoteToLeader instance, bool isDelta) { }
 
-	// RVA: 0x2093040 Offset: 0x2091640 VA: 0x182093040
+	// RVA: 0x2092E80 Offset: 0x2091480 VA: 0x182092E80
 	public static AppPromoteToLeader DeserializeLengthDelimited(Stream stream, AppPromoteToLeader instance, bool isDelta) { }
 
-	// RVA: 0x20932F0 Offset: 0x20918F0 VA: 0x1820932F0
+	// RVA: 0x2093130 Offset: 0x2091730 VA: 0x182093130
 	public static AppPromoteToLeader DeserializeLength(Stream stream, int length, AppPromoteToLeader instance, bool isDelta) { }
 
-	// RVA: 0x2093B00 Offset: 0x2092100 VA: 0x182093B00
+	// RVA: 0x2093940 Offset: 0x2091F40 VA: 0x182093940
 	public static void SerializeDelta(Stream stream, AppPromoteToLeader instance, AppPromoteToLeader previous) { }
 
-	// RVA: 0x2093E70 Offset: 0x2092470 VA: 0x182093E70
+	// RVA: 0x2093CB0 Offset: 0x20922B0 VA: 0x182093CB0
 	public static void Serialize(Stream stream, AppPromoteToLeader instance) { }
 
-	// RVA: 0x2093F40 Offset: 0x2092540 VA: 0x182093F40
+	// RVA: 0x2093D80 Offset: 0x2092380 VA: 0x182093D80
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2093F50 Offset: 0x2092550 VA: 0x182093F50
+	// RVA: 0x2093D90 Offset: 0x2092390 VA: 0x182093D90
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2093CC0 Offset: 0x20922C0 VA: 0x182093CC0
+	// RVA: 0x2093B00 Offset: 0x2092100 VA: 0x182093B00
 	public static byte[] SerializeToBytes(AppPromoteToLeader instance) { }
 
-	// RVA: 0x2093C10 Offset: 0x2092210 VA: 0x182093C10
+	// RVA: 0x2093A50 Offset: 0x2092050 VA: 0x182093A50
 	public static void SerializeLengthDelimited(Stream stream, AppPromoteToLeader instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -1538,13 +1538,13 @@ public class AppSuccess : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 651
 
 	// Methods
 
-	// RVA: 0x1E1AEB0 Offset: 0x1E194B0 VA: 0x181E1AEB0
+	// RVA: 0x1E1ACF0 Offset: 0x1E192F0 VA: 0x181E1ACF0
 	public static void ResetToPool(AppSuccess instance) { }
 
-	// RVA: 0x1E1AE40 Offset: 0x1E19440 VA: 0x181E1AE40
+	// RVA: 0x1E1AC80 Offset: 0x1E19280 VA: 0x181E1AC80
 	public void ResetToPool() { }
 
-	// RVA: 0x1E1AD80 Offset: 0x1E19380 VA: 0x181E1AD80 Slot: 9
+	// RVA: 0x1E1ABC0 Offset: 0x1E191C0 VA: 0x181E1ABC0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -1556,61 +1556,61 @@ public class AppSuccess : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 651
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void CopyTo(AppSuccess instance) { }
 
-	// RVA: 0x1E1A4D0 Offset: 0x1E18AD0 VA: 0x181E1A4D0
+	// RVA: 0x1E1A310 Offset: 0x1E18910 VA: 0x181E1A310
 	public AppSuccess Copy() { }
 
-	// RVA: 0x1E1AC00 Offset: 0x1E19200 VA: 0x181E1AC00
+	// RVA: 0x1E1AA40 Offset: 0x1E19040 VA: 0x181E1AA40
 	public static AppSuccess Deserialize(Stream stream) { }
 
-	// RVA: 0x1E1A700 Offset: 0x1E18D00 VA: 0x181E1A700
+	// RVA: 0x1E1A540 Offset: 0x1E18B40 VA: 0x181E1A540
 	public static AppSuccess DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E1A940 Offset: 0x1E18F40 VA: 0x181E1A940
+	// RVA: 0x1E1A780 Offset: 0x1E18D80 VA: 0x181E1A780
 	public static AppSuccess DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E1AAE0 Offset: 0x1E190E0 VA: 0x181E1AAE0
+	// RVA: 0x1E1A920 Offset: 0x1E18F20 VA: 0x181E1A920
 	public static AppSuccess Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E1AE00 Offset: 0x1E19400 VA: 0x181E1AE00
+	// RVA: 0x1E1AC40 Offset: 0x1E19240 VA: 0x181E1AC40
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E1B200 Offset: 0x1E19800 VA: 0x181E1B200 Slot: 12
+	// RVA: 0x1E1B040 Offset: 0x1E19640 VA: 0x181E1B040 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E1B270 Offset: 0x1E19870 VA: 0x181E1B270 Slot: 13
+	// RVA: 0x1E1B0B0 Offset: 0x1E196B0 VA: 0x181E1B0B0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppSuccess previous) { }
 
-	// RVA: 0x1E1AE20 Offset: 0x1E19420 VA: 0x181E1AE20 Slot: 14
+	// RVA: 0x1E1AC60 Offset: 0x1E19260 VA: 0x181E1AC60 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E1AC80 Offset: 0x1E19280 VA: 0x181E1AC80
+	// RVA: 0x1E1AAC0 Offset: 0x1E190C0 VA: 0x181E1AAC0
 	public static AppSuccess Deserialize(byte[] buffer, AppSuccess instance, bool isDelta = False) { }
 
-	// RVA: 0x1E1A9D0 Offset: 0x1E18FD0 VA: 0x181E1A9D0
+	// RVA: 0x1E1A810 Offset: 0x1E18E10 VA: 0x181E1A810
 	public static AppSuccess Deserialize(Stream stream, AppSuccess instance, bool isDelta) { }
 
-	// RVA: 0x1E1A520 Offset: 0x1E18B20 VA: 0x181E1A520
+	// RVA: 0x1E1A360 Offset: 0x1E18960 VA: 0x181E1A360
 	public static AppSuccess DeserializeLengthDelimited(Stream stream, AppSuccess instance, bool isDelta) { }
 
-	// RVA: 0x1E1A780 Offset: 0x1E18D80 VA: 0x181E1A780
+	// RVA: 0x1E1A5C0 Offset: 0x1E18BC0 VA: 0x181E1A5C0
 	public static AppSuccess DeserializeLength(Stream stream, int length, AppSuccess instance, bool isDelta) { }
 
-	// RVA: 0x1E1AF20 Offset: 0x1E19520 VA: 0x181E1AF20
+	// RVA: 0x1E1AD60 Offset: 0x1E19360 VA: 0x181E1AD60
 	public static void SerializeDelta(Stream stream, AppSuccess instance, AppSuccess previous) { }
 
-	// RVA: 0x1E1B190 Offset: 0x1E19790 VA: 0x181E1B190
+	// RVA: 0x1E1AFD0 Offset: 0x1E195D0 VA: 0x181E1AFD0
 	public static void Serialize(Stream stream, AppSuccess instance) { }
 
-	// RVA: 0x1E1B1F0 Offset: 0x1E197F0 VA: 0x181E1B1F0
+	// RVA: 0x1E1B030 Offset: 0x1E19630 VA: 0x181E1B030
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E1B200 Offset: 0x1E19800 VA: 0x181E1B200
+	// RVA: 0x1E1B040 Offset: 0x1E19640 VA: 0x181E1B040
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E1B030 Offset: 0x1E19630 VA: 0x181E1B030
+	// RVA: 0x1E1AE70 Offset: 0x1E19470 VA: 0x181E1AE70
 	public static byte[] SerializeToBytes(AppSuccess instance) { }
 
-	// RVA: 0x1E1AF80 Offset: 0x1E19580 VA: 0x181E1AF80
+	// RVA: 0x1E1ADC0 Offset: 0x1E193C0 VA: 0x181E1ADC0
 	public static void SerializeLengthDelimited(Stream stream, AppSuccess instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -1626,13 +1626,13 @@ public class AppError : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6520
 
 	// Methods
 
-	// RVA: 0x2086930 Offset: 0x2084F30 VA: 0x182086930
+	// RVA: 0x2086770 Offset: 0x2084D70 VA: 0x182086770
 	public static void ResetToPool(AppError instance) { }
 
-	// RVA: 0x20868A0 Offset: 0x2084EA0 VA: 0x1820868A0
+	// RVA: 0x20866E0 Offset: 0x2084CE0 VA: 0x1820866E0
 	public void ResetToPool() { }
 
-	// RVA: 0x2086750 Offset: 0x2084D50 VA: 0x182086750 Slot: 9
+	// RVA: 0x2086590 Offset: 0x2084B90 VA: 0x182086590 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -1641,64 +1641,64 @@ public class AppError : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6520
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D67D50 Offset: 0x1D66350 VA: 0x181D67D50
+	// RVA: 0x1D67B90 Offset: 0x1D66190 VA: 0x181D67B90
 	public void CopyTo(AppError instance) { }
 
-	// RVA: 0x2085DB0 Offset: 0x20843B0 VA: 0x182085DB0
+	// RVA: 0x2085BF0 Offset: 0x20841F0 VA: 0x182085BF0
 	public AppError Copy() { }
 
-	// RVA: 0x2086460 Offset: 0x2084A60 VA: 0x182086460
+	// RVA: 0x20862A0 Offset: 0x20848A0 VA: 0x1820862A0
 	public static AppError Deserialize(Stream stream) { }
 
-	// RVA: 0x2085E30 Offset: 0x2084430 VA: 0x182085E30
+	// RVA: 0x2085C70 Offset: 0x2084270 VA: 0x182085C70
 	public static AppError DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20862D0 Offset: 0x20848D0 VA: 0x1820862D0
+	// RVA: 0x2086110 Offset: 0x2084710 VA: 0x182086110
 	public static AppError DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2086630 Offset: 0x2084C30 VA: 0x182086630
+	// RVA: 0x2086470 Offset: 0x2084A70 VA: 0x182086470
 	public static AppError Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2086860 Offset: 0x2084E60 VA: 0x182086860
+	// RVA: 0x20866A0 Offset: 0x2084CA0 VA: 0x1820866A0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2086E20 Offset: 0x2085420 VA: 0x182086E20 Slot: 12
+	// RVA: 0x2086C60 Offset: 0x2085260 VA: 0x182086C60 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2086E40 Offset: 0x2085440 VA: 0x182086E40 Slot: 13
+	// RVA: 0x2086C80 Offset: 0x2085280 VA: 0x182086C80 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppError previous) { }
 
-	// RVA: 0x2086880 Offset: 0x2084E80 VA: 0x182086880 Slot: 14
+	// RVA: 0x20866C0 Offset: 0x2084CC0 VA: 0x1820866C0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2086360 Offset: 0x2084960 VA: 0x182086360
+	// RVA: 0x20861A0 Offset: 0x20847A0 VA: 0x1820861A0
 	public static AppError Deserialize(byte[] buffer, AppError instance, bool isDelta = False) { }
 
-	// RVA: 0x20864E0 Offset: 0x2084AE0 VA: 0x1820864E0
+	// RVA: 0x2086320 Offset: 0x2084920 VA: 0x182086320
 	public static AppError Deserialize(Stream stream, AppError instance, bool isDelta) { }
 
-	// RVA: 0x2085EB0 Offset: 0x20844B0 VA: 0x182085EB0
+	// RVA: 0x2085CF0 Offset: 0x20842F0 VA: 0x182085CF0
 	public static AppError DeserializeLengthDelimited(Stream stream, AppError instance, bool isDelta) { }
 
-	// RVA: 0x20860D0 Offset: 0x20846D0 VA: 0x1820860D0
+	// RVA: 0x2085F10 Offset: 0x2084510 VA: 0x182085F10
 	public static AppError DeserializeLength(Stream stream, int length, AppError instance, bool isDelta) { }
 
-	// RVA: 0x20869C0 Offset: 0x2084FC0 VA: 0x1820869C0
+	// RVA: 0x2086800 Offset: 0x2084E00 VA: 0x182086800
 	public static void SerializeDelta(Stream stream, AppError instance, AppError previous) { }
 
-	// RVA: 0x2086CE0 Offset: 0x20852E0 VA: 0x182086CE0
+	// RVA: 0x2086B20 Offset: 0x2085120 VA: 0x182086B20
 	public static void Serialize(Stream stream, AppError instance) { }
 
-	// RVA: 0x2086E10 Offset: 0x2085410 VA: 0x182086E10
+	// RVA: 0x2086C50 Offset: 0x2085250 VA: 0x182086C50
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2086E20 Offset: 0x2085420 VA: 0x182086E20
+	// RVA: 0x2086C60 Offset: 0x2085260 VA: 0x182086C60
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2086BD0 Offset: 0x20851D0 VA: 0x182086BD0
+	// RVA: 0x2086A10 Offset: 0x2085010 VA: 0x182086A10
 	public static byte[] SerializeToBytes(AppError instance) { }
 
-	// RVA: 0x2086B20 Offset: 0x2085120 VA: 0x182086B20
+	// RVA: 0x2086960 Offset: 0x2084F60 VA: 0x182086960
 	public static void SerializeLengthDelimited(Stream stream, AppError instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -1714,13 +1714,13 @@ public class AppFlag : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6521
 
 	// Methods
 
-	// RVA: 0x2087A70 Offset: 0x2086070 VA: 0x182087A70
+	// RVA: 0x20878B0 Offset: 0x2085EB0 VA: 0x1820878B0
 	public static void ResetToPool(AppFlag instance) { }
 
-	// RVA: 0x2087AF0 Offset: 0x20860F0 VA: 0x182087AF0
+	// RVA: 0x2087930 Offset: 0x2085F30 VA: 0x182087930
 	public void ResetToPool() { }
 
-	// RVA: 0x2087940 Offset: 0x2085F40 VA: 0x182087940 Slot: 9
+	// RVA: 0x2087780 Offset: 0x2085D80 VA: 0x182087780 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -1729,64 +1729,64 @@ public class AppFlag : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6521
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E19340 Offset: 0x1E17940 VA: 0x181E19340
+	// RVA: 0x1E19180 Offset: 0x1E17780 VA: 0x181E19180
 	public void CopyTo(AppFlag instance) { }
 
-	// RVA: 0x2086FC0 Offset: 0x20855C0 VA: 0x182086FC0
+	// RVA: 0x2086E00 Offset: 0x2085400 VA: 0x182086E00
 	public AppFlag Copy() { }
 
-	// RVA: 0x20878C0 Offset: 0x2085EC0 VA: 0x1820878C0
+	// RVA: 0x2087700 Offset: 0x2085D00 VA: 0x182087700
 	public static AppFlag Deserialize(Stream stream) { }
 
-	// RVA: 0x2087250 Offset: 0x2085850 VA: 0x182087250
+	// RVA: 0x2087090 Offset: 0x2085690 VA: 0x182087090
 	public static AppFlag DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20872D0 Offset: 0x20858D0 VA: 0x1820872D0
+	// RVA: 0x2087110 Offset: 0x2085710 VA: 0x182087110
 	public static AppFlag DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2087560 Offset: 0x2085B60 VA: 0x182087560
+	// RVA: 0x20873A0 Offset: 0x20859A0 VA: 0x1820873A0
 	public static AppFlag Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2087A30 Offset: 0x2086030 VA: 0x182087A30
+	// RVA: 0x2087870 Offset: 0x2085E70 VA: 0x182087870
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2087F80 Offset: 0x2086580 VA: 0x182087F80 Slot: 12
+	// RVA: 0x2087DC0 Offset: 0x20863C0 VA: 0x182087DC0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2088050 Offset: 0x2086650 VA: 0x182088050 Slot: 13
+	// RVA: 0x2087E90 Offset: 0x2086490 VA: 0x182087E90 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppFlag previous) { }
 
-	// RVA: 0x2087A50 Offset: 0x2086050 VA: 0x182087A50 Slot: 14
+	// RVA: 0x2087890 Offset: 0x2085E90 VA: 0x182087890 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2087680 Offset: 0x2085C80 VA: 0x182087680
+	// RVA: 0x20874C0 Offset: 0x2085AC0 VA: 0x1820874C0
 	public static AppFlag Deserialize(byte[] buffer, AppFlag instance, bool isDelta = False) { }
 
-	// RVA: 0x2087780 Offset: 0x2085D80 VA: 0x182087780
+	// RVA: 0x20875C0 Offset: 0x2085BC0 VA: 0x1820875C0
 	public static AppFlag Deserialize(Stream stream, AppFlag instance, bool isDelta) { }
 
-	// RVA: 0x2087030 Offset: 0x2085630 VA: 0x182087030
+	// RVA: 0x2086E70 Offset: 0x2085470 VA: 0x182086E70
 	public static AppFlag DeserializeLengthDelimited(Stream stream, AppFlag instance, bool isDelta) { }
 
-	// RVA: 0x2087360 Offset: 0x2085960 VA: 0x182087360
+	// RVA: 0x20871A0 Offset: 0x20857A0 VA: 0x1820871A0
 	public static AppFlag DeserializeLength(Stream stream, int length, AppFlag instance, bool isDelta) { }
 
-	// RVA: 0x2087B70 Offset: 0x2086170 VA: 0x182087B70
+	// RVA: 0x20879B0 Offset: 0x2085FB0 VA: 0x1820879B0
 	public static void SerializeDelta(Stream stream, AppFlag instance, AppFlag previous) { }
 
-	// RVA: 0x2087EA0 Offset: 0x20864A0 VA: 0x182087EA0
+	// RVA: 0x2087CE0 Offset: 0x20862E0 VA: 0x182087CE0
 	public static void Serialize(Stream stream, AppFlag instance) { }
 
-	// RVA: 0x2087F70 Offset: 0x2086570 VA: 0x182087F70
+	// RVA: 0x2087DB0 Offset: 0x20863B0 VA: 0x182087DB0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2087F80 Offset: 0x2086580 VA: 0x182087F80
+	// RVA: 0x2087DC0 Offset: 0x20863C0 VA: 0x182087DC0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2087CF0 Offset: 0x20862F0 VA: 0x182087CF0
+	// RVA: 0x2087B30 Offset: 0x2086130 VA: 0x182087B30
 	public static byte[] SerializeToBytes(AppFlag instance) { }
 
-	// RVA: 0x2087C40 Offset: 0x2086240 VA: 0x182087C40
+	// RVA: 0x2087A80 Offset: 0x2086080 VA: 0x182087A80
 	public static void SerializeLengthDelimited(Stream stream, AppFlag instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -1813,13 +1813,13 @@ public class AppInfo : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6522
 
 	// Methods
 
-	// RVA: 0x20899B0 Offset: 0x2087FB0 VA: 0x1820899B0
+	// RVA: 0x20897F0 Offset: 0x2087DF0 VA: 0x1820897F0
 	public static void ResetToPool(AppInfo instance) { }
 
-	// RVA: 0x2089800 Offset: 0x2087E00 VA: 0x182089800
+	// RVA: 0x2089640 Offset: 0x2087C40 VA: 0x182089640
 	public void ResetToPool() { }
 
-	// RVA: 0x2089590 Offset: 0x2087B90 VA: 0x182089590 Slot: 9
+	// RVA: 0x20893D0 Offset: 0x20879D0 VA: 0x1820893D0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -1828,64 +1828,64 @@ public class AppInfo : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6522
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20881A0 Offset: 0x20867A0 VA: 0x1820881A0
+	// RVA: 0x2087FE0 Offset: 0x20865E0 VA: 0x182087FE0
 	public void CopyTo(AppInfo instance) { }
 
-	// RVA: 0x2088250 Offset: 0x2086850 VA: 0x182088250
+	// RVA: 0x2088090 Offset: 0x2086690 VA: 0x182088090
 	public AppInfo Copy() { }
 
-	// RVA: 0x2089510 Offset: 0x2087B10 VA: 0x182089510
+	// RVA: 0x2089350 Offset: 0x2087950 VA: 0x182089350
 	public static AppInfo Deserialize(Stream stream) { }
 
-	// RVA: 0x2088870 Offset: 0x2086E70 VA: 0x182088870
+	// RVA: 0x20886B0 Offset: 0x2086CB0 VA: 0x1820886B0
 	public static AppInfo DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20888F0 Offset: 0x2086EF0 VA: 0x1820888F0
+	// RVA: 0x2088730 Offset: 0x2086D30 VA: 0x182088730
 	public static AppInfo DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2088F90 Offset: 0x2087590 VA: 0x182088F90
+	// RVA: 0x2088DD0 Offset: 0x20873D0 VA: 0x182088DD0
 	public static AppInfo Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20897C0 Offset: 0x2087DC0 VA: 0x1820897C0
+	// RVA: 0x2089600 Offset: 0x2087C00 VA: 0x182089600
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x208A760 Offset: 0x2088D60 VA: 0x18208A760 Slot: 12
+	// RVA: 0x208A5A0 Offset: 0x2088BA0 VA: 0x18208A5A0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x208A780 Offset: 0x2088D80 VA: 0x18208A780 Slot: 13
+	// RVA: 0x208A5C0 Offset: 0x2088BC0 VA: 0x18208A5C0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppInfo previous) { }
 
-	// RVA: 0x20897E0 Offset: 0x2087DE0 VA: 0x1820897E0 Slot: 14
+	// RVA: 0x2089620 Offset: 0x2087C20 VA: 0x182089620 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2088E90 Offset: 0x2087490 VA: 0x182088E90
+	// RVA: 0x2088CD0 Offset: 0x20872D0 VA: 0x182088CD0
 	public static AppInfo Deserialize(byte[] buffer, AppInfo instance, bool isDelta = False) { }
 
-	// RVA: 0x20890B0 Offset: 0x20876B0 VA: 0x1820890B0
+	// RVA: 0x2088EF0 Offset: 0x20874F0 VA: 0x182088EF0
 	public static AppInfo Deserialize(Stream stream, AppInfo instance, bool isDelta) { }
 
-	// RVA: 0x2088340 Offset: 0x2086940 VA: 0x182088340
+	// RVA: 0x2088180 Offset: 0x2086780 VA: 0x182088180
 	public static AppInfo DeserializeLengthDelimited(Stream stream, AppInfo instance, bool isDelta) { }
 
-	// RVA: 0x2088980 Offset: 0x2086F80 VA: 0x182088980
+	// RVA: 0x20887C0 Offset: 0x2086DC0 VA: 0x1820887C0
 	public static AppInfo DeserializeLength(Stream stream, int length, AppInfo instance, bool isDelta) { }
 
-	// RVA: 0x2089B60 Offset: 0x2088160 VA: 0x182089B60
+	// RVA: 0x20899A0 Offset: 0x2087FA0 VA: 0x1820899A0
 	public static void SerializeDelta(Stream stream, AppInfo instance, AppInfo previous) { }
 
-	// RVA: 0x208A330 Offset: 0x2088930 VA: 0x18208A330
+	// RVA: 0x208A170 Offset: 0x2088770 VA: 0x18208A170
 	public static void Serialize(Stream stream, AppInfo instance) { }
 
-	// RVA: 0x208A750 Offset: 0x2088D50 VA: 0x18208A750
+	// RVA: 0x208A590 Offset: 0x2088B90 VA: 0x18208A590
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x208A760 Offset: 0x2088D60 VA: 0x18208A760
+	// RVA: 0x208A5A0 Offset: 0x2088BA0 VA: 0x18208A5A0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x208A220 Offset: 0x2088820 VA: 0x18208A220
+	// RVA: 0x208A060 Offset: 0x2088660 VA: 0x18208A060
 	public static byte[] SerializeToBytes(AppInfo instance) { }
 
-	// RVA: 0x208A170 Offset: 0x2088770 VA: 0x18208A170
+	// RVA: 0x2089FB0 Offset: 0x20885B0 VA: 0x182089FB0
 	public static void SerializeLengthDelimited(Stream stream, AppInfo instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -1905,13 +1905,13 @@ public class AppTime : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6523
 
 	// Methods
 
-	// RVA: 0x1E232C0 Offset: 0x1E218C0 VA: 0x181E232C0
+	// RVA: 0x1E23100 Offset: 0x1E21700 VA: 0x181E23100
 	public static void ResetToPool(AppTime instance) { }
 
-	// RVA: 0x1E23210 Offset: 0x1E21810 VA: 0x181E23210
+	// RVA: 0x1E23050 Offset: 0x1E21650 VA: 0x181E23050
 	public void ResetToPool() { }
 
-	// RVA: 0x1E22F10 Offset: 0x1E21510 VA: 0x181E22F10 Slot: 9
+	// RVA: 0x1E22D50 Offset: 0x1E21350 VA: 0x181E22D50 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -1920,64 +1920,64 @@ public class AppTime : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6523
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E21B60 Offset: 0x1E20160 VA: 0x181E21B60
+	// RVA: 0x1E219A0 Offset: 0x1E1FFA0 VA: 0x181E219A0
 	public void CopyTo(AppTime instance) { }
 
-	// RVA: 0x1E21BA0 Offset: 0x1E201A0 VA: 0x181E21BA0
+	// RVA: 0x1E219E0 Offset: 0x1E1FFE0 VA: 0x181E219E0
 	public AppTime Copy() { }
 
-	// RVA: 0x1E226B0 Offset: 0x1E20CB0 VA: 0x181E226B0
+	// RVA: 0x1E224F0 Offset: 0x1E20AF0 VA: 0x181E224F0
 	public static AppTime Deserialize(Stream stream) { }
 
-	// RVA: 0x1E21C20 Offset: 0x1E20220 VA: 0x181E21C20
+	// RVA: 0x1E21A60 Offset: 0x1E20060 VA: 0x181E21A60
 	public static AppTime DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E21FD0 Offset: 0x1E205D0 VA: 0x181E21FD0
+	// RVA: 0x1E21E10 Offset: 0x1E20410 VA: 0x181E21E10
 	public static AppTime DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E22BB0 Offset: 0x1E211B0 VA: 0x181E22BB0
+	// RVA: 0x1E229F0 Offset: 0x1E20FF0 VA: 0x181E229F0
 	public static AppTime Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E22F90 Offset: 0x1E21590 VA: 0x181E22F90
+	// RVA: 0x1E22DD0 Offset: 0x1E213D0 VA: 0x181E22DD0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E23940 Offset: 0x1E21F40 VA: 0x181E23940 Slot: 12
+	// RVA: 0x1E23780 Offset: 0x1E21D80 VA: 0x181E23780 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E23960 Offset: 0x1E21F60 VA: 0x181E23960 Slot: 13
+	// RVA: 0x1E237A0 Offset: 0x1E21DA0 VA: 0x181E237A0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppTime previous) { }
 
-	// RVA: 0x1E231F0 Offset: 0x1E217F0 VA: 0x181E231F0 Slot: 14
+	// RVA: 0x1E23030 Offset: 0x1E21630 VA: 0x181E23030 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E22370 Offset: 0x1E20970 VA: 0x181E22370
+	// RVA: 0x1E221B0 Offset: 0x1E207B0 VA: 0x181E221B0
 	public static AppTime Deserialize(byte[] buffer, AppTime instance, bool isDelta = False) { }
 
-	// RVA: 0x1E22950 Offset: 0x1E20F50 VA: 0x181E22950
+	// RVA: 0x1E22790 Offset: 0x1E20D90 VA: 0x181E22790
 	public static AppTime Deserialize(Stream stream, AppTime instance, bool isDelta) { }
 
-	// RVA: 0x1E21CA0 Offset: 0x1E202A0 VA: 0x181E21CA0
+	// RVA: 0x1E21AE0 Offset: 0x1E200E0 VA: 0x181E21AE0
 	public static AppTime DeserializeLengthDelimited(Stream stream, AppTime instance, bool isDelta) { }
 
-	// RVA: 0x1E22060 Offset: 0x1E20660 VA: 0x181E22060
+	// RVA: 0x1E21EA0 Offset: 0x1E204A0 VA: 0x181E21EA0
 	public static AppTime DeserializeLength(Stream stream, int length, AppTime instance, bool isDelta) { }
 
-	// RVA: 0x1E23370 Offset: 0x1E21970 VA: 0x181E23370
+	// RVA: 0x1E231B0 Offset: 0x1E217B0 VA: 0x181E231B0
 	public static void SerializeDelta(Stream stream, AppTime instance, AppTime previous) { }
 
-	// RVA: 0x1E237C0 Offset: 0x1E21DC0 VA: 0x181E237C0
+	// RVA: 0x1E23600 Offset: 0x1E21C00 VA: 0x181E23600
 	public static void Serialize(Stream stream, AppTime instance) { }
 
-	// RVA: 0x1E23930 Offset: 0x1E21F30 VA: 0x181E23930
+	// RVA: 0x1E23770 Offset: 0x1E21D70 VA: 0x181E23770
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E23940 Offset: 0x1E21F40 VA: 0x181E23940
+	// RVA: 0x1E23780 Offset: 0x1E21D80 VA: 0x181E23780
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E236B0 Offset: 0x1E21CB0 VA: 0x181E236B0
+	// RVA: 0x1E234F0 Offset: 0x1E21AF0 VA: 0x181E234F0
 	public static byte[] SerializeToBytes(AppTime instance) { }
 
-	// RVA: 0x1E23600 Offset: 0x1E21C00 VA: 0x181E23600
+	// RVA: 0x1E23440 Offset: 0x1E21A40 VA: 0x181E23440
 	public static void SerializeLengthDelimited(Stream stream, AppTime instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -1998,13 +1998,13 @@ public class AppMap : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6524
 
 	// Methods
 
-	// RVA: 0x208E2B0 Offset: 0x208C8B0 VA: 0x18208E2B0
+	// RVA: 0x208E0F0 Offset: 0x208C6F0 VA: 0x18208E0F0
 	public static void ResetToPool(AppMap instance) { }
 
-	// RVA: 0x208E080 Offset: 0x208C680 VA: 0x18208E080
+	// RVA: 0x208DEC0 Offset: 0x208C4C0 VA: 0x18208DEC0
 	public void ResetToPool() { }
 
-	// RVA: 0x208DC90 Offset: 0x208C290 VA: 0x18208DC90 Slot: 9
+	// RVA: 0x208DAD0 Offset: 0x208C0D0 VA: 0x18208DAD0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -2013,64 +2013,64 @@ public class AppMap : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6524
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x208C1E0 Offset: 0x208A7E0 VA: 0x18208C1E0
+	// RVA: 0x208C020 Offset: 0x208A620 VA: 0x18208C020
 	public void CopyTo(AppMap instance) { }
 
-	// RVA: 0x208C400 Offset: 0x208AA00 VA: 0x18208C400
+	// RVA: 0x208C240 Offset: 0x208A840 VA: 0x18208C240
 	public AppMap Copy() { }
 
-	// RVA: 0x208D1B0 Offset: 0x208B7B0 VA: 0x18208D1B0
+	// RVA: 0x208CFF0 Offset: 0x208B5F0 VA: 0x18208CFF0
 	public static AppMap Deserialize(Stream stream) { }
 
-	// RVA: 0x208C8B0 Offset: 0x208AEB0 VA: 0x18208C8B0
+	// RVA: 0x208C6F0 Offset: 0x208ACF0 VA: 0x18208C6F0
 	public static AppMap DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x208CD30 Offset: 0x208B330 VA: 0x18208CD30
+	// RVA: 0x208CB70 Offset: 0x208B170 VA: 0x18208CB70
 	public static AppMap DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x208CDC0 Offset: 0x208B3C0 VA: 0x18208CDC0
+	// RVA: 0x208CC00 Offset: 0x208B200 VA: 0x18208CC00
 	public static AppMap Deserialize(byte[] buffer) { }
 
-	// RVA: 0x208DD10 Offset: 0x208C310 VA: 0x18208DD10
+	// RVA: 0x208DB50 Offset: 0x208C150 VA: 0x18208DB50
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x208EDD0 Offset: 0x208D3D0 VA: 0x18208EDD0 Slot: 12
+	// RVA: 0x208EC10 Offset: 0x208D210 VA: 0x18208EC10 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x208EDF0 Offset: 0x208D3F0 VA: 0x18208EDF0 Slot: 13
+	// RVA: 0x208EC30 Offset: 0x208D230 VA: 0x18208EC30 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppMap previous) { }
 
-	// RVA: 0x208E060 Offset: 0x208C660 VA: 0x18208E060 Slot: 14
+	// RVA: 0x208DEA0 Offset: 0x208C4A0 VA: 0x18208DEA0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x208D860 Offset: 0x208BE60 VA: 0x18208D860
+	// RVA: 0x208D6A0 Offset: 0x208BCA0 VA: 0x18208D6A0
 	public static AppMap Deserialize(byte[] buffer, AppMap instance, bool isDelta = False) { }
 
-	// RVA: 0x208D510 Offset: 0x208BB10 VA: 0x18208D510
+	// RVA: 0x208D350 Offset: 0x208B950 VA: 0x18208D350
 	public static AppMap Deserialize(Stream stream, AppMap instance, bool isDelta) { }
 
-	// RVA: 0x208C480 Offset: 0x208AA80 VA: 0x18208C480
+	// RVA: 0x208C2C0 Offset: 0x208A8C0 VA: 0x18208C2C0
 	public static AppMap DeserializeLengthDelimited(Stream stream, AppMap instance, bool isDelta) { }
 
-	// RVA: 0x208C930 Offset: 0x208AF30 VA: 0x18208C930
+	// RVA: 0x208C770 Offset: 0x208AD70 VA: 0x18208C770
 	public static AppMap DeserializeLength(Stream stream, int length, AppMap instance, bool isDelta) { }
 
-	// RVA: 0x208E4E0 Offset: 0x208CAE0 VA: 0x18208E4E0
+	// RVA: 0x208E320 Offset: 0x208C920 VA: 0x18208E320
 	public static void SerializeDelta(Stream stream, AppMap instance, AppMap previous) { }
 
-	// RVA: 0x208EA70 Offset: 0x208D070 VA: 0x18208EA70
+	// RVA: 0x208E8B0 Offset: 0x208CEB0 VA: 0x18208E8B0
 	public static void Serialize(Stream stream, AppMap instance) { }
 
-	// RVA: 0x208EDC0 Offset: 0x208D3C0 VA: 0x18208EDC0
+	// RVA: 0x208EC00 Offset: 0x208D200 VA: 0x18208EC00
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x208EDD0 Offset: 0x208D3D0 VA: 0x18208EDD0
+	// RVA: 0x208EC10 Offset: 0x208D210 VA: 0x18208EC10
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x208E960 Offset: 0x208CF60 VA: 0x18208E960
+	// RVA: 0x208E7A0 Offset: 0x208CDA0 VA: 0x18208E7A0
 	public static byte[] SerializeToBytes(AppMap instance) { }
 
-	// RVA: 0x208E8B0 Offset: 0x208CEB0 VA: 0x18208E8B0
+	// RVA: 0x208E6F0 Offset: 0x208CCF0 VA: 0x18208E6F0
 	public static void SerializeLengthDelimited(Stream stream, AppMap instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -2088,13 +2088,13 @@ public class AppMap.Monument : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x2096BD0 Offset: 0x20951D0 VA: 0x182096BD0
+	// RVA: 0x2096A10 Offset: 0x2095010 VA: 0x182096A10
 	public static void ResetToPool(AppMap.Monument instance) { }
 
-	// RVA: 0x2096C80 Offset: 0x2095280 VA: 0x182096C80
+	// RVA: 0x2096AC0 Offset: 0x20950C0 VA: 0x182096AC0
 	public void ResetToPool() { }
 
-	// RVA: 0x2096970 Offset: 0x2094F70 VA: 0x182096970 Slot: 9
+	// RVA: 0x20967B0 Offset: 0x2094DB0 VA: 0x1820967B0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -2103,64 +2103,64 @@ public class AppMap.Monument : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x2095960 Offset: 0x2093F60 VA: 0x182095960
+	// RVA: 0x20957A0 Offset: 0x2093DA0 VA: 0x1820957A0
 	public void CopyTo(AppMap.Monument instance) { }
 
-	// RVA: 0x20959B0 Offset: 0x2093FB0 VA: 0x1820959B0
+	// RVA: 0x20957F0 Offset: 0x2093DF0 VA: 0x1820957F0
 	public AppMap.Monument Copy() { }
 
-	// RVA: 0x2096070 Offset: 0x2094670 VA: 0x182096070
+	// RVA: 0x2095EB0 Offset: 0x20944B0 VA: 0x182095EB0
 	public static AppMap.Monument Deserialize(Stream stream) { }
 
-	// RVA: 0x2095CE0 Offset: 0x20942E0 VA: 0x182095CE0
+	// RVA: 0x2095B20 Offset: 0x2094120 VA: 0x182095B20
 	public static AppMap.Monument DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2095FE0 Offset: 0x20945E0 VA: 0x182095FE0
+	// RVA: 0x2095E20 Offset: 0x2094420 VA: 0x182095E20
 	public static AppMap.Monument DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2096500 Offset: 0x2094B00 VA: 0x182096500
+	// RVA: 0x2096340 Offset: 0x2094940 VA: 0x182096340
 	public static AppMap.Monument Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20969F0 Offset: 0x2094FF0 VA: 0x1820969F0
+	// RVA: 0x2096830 Offset: 0x2094E30 VA: 0x182096830
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20972C0 Offset: 0x20958C0 VA: 0x1820972C0 Slot: 12
+	// RVA: 0x2097100 Offset: 0x2095700 VA: 0x182097100 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20972E0 Offset: 0x20958E0 VA: 0x1820972E0 Slot: 13
+	// RVA: 0x2097120 Offset: 0x2095720 VA: 0x182097120 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppMap.Monument previous) { }
 
-	// RVA: 0x2096BB0 Offset: 0x20951B0 VA: 0x182096BB0 Slot: 14
+	// RVA: 0x20969F0 Offset: 0x2094FF0 VA: 0x1820969F0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2096270 Offset: 0x2094870 VA: 0x182096270
+	// RVA: 0x20960B0 Offset: 0x20946B0 VA: 0x1820960B0
 	public static AppMap.Monument Deserialize(byte[] buffer, AppMap.Monument instance, bool isDelta = False) { }
 
-	// RVA: 0x20967B0 Offset: 0x2094DB0 VA: 0x1820967B0
+	// RVA: 0x20965F0 Offset: 0x2094BF0 VA: 0x1820965F0
 	public static AppMap.Monument Deserialize(Stream stream, AppMap.Monument instance, bool isDelta) { }
 
-	// RVA: 0x2095A40 Offset: 0x2094040 VA: 0x182095A40
+	// RVA: 0x2095880 Offset: 0x2093E80 VA: 0x182095880
 	public static AppMap.Monument DeserializeLengthDelimited(Stream stream, AppMap.Monument instance, bool isDelta) { }
 
-	// RVA: 0x2095D60 Offset: 0x2094360 VA: 0x182095D60
+	// RVA: 0x2095BA0 Offset: 0x20941A0 VA: 0x182095BA0
 	public static AppMap.Monument DeserializeLength(Stream stream, int length, AppMap.Monument instance, bool isDelta) { }
 
-	// RVA: 0x2096D30 Offset: 0x2095330 VA: 0x182096D30
+	// RVA: 0x2096B70 Offset: 0x2095170 VA: 0x182096B70
 	public static void SerializeDelta(Stream stream, AppMap.Monument instance, AppMap.Monument previous) { }
 
-	// RVA: 0x2097120 Offset: 0x2095720 VA: 0x182097120
+	// RVA: 0x2096F60 Offset: 0x2095560 VA: 0x182096F60
 	public static void Serialize(Stream stream, AppMap.Monument instance) { }
 
-	// RVA: 0x20972B0 Offset: 0x20958B0 VA: 0x1820972B0
+	// RVA: 0x20970F0 Offset: 0x20956F0 VA: 0x1820970F0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20972C0 Offset: 0x20958C0 VA: 0x1820972C0
+	// RVA: 0x2097100 Offset: 0x2095700 VA: 0x182097100
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2097010 Offset: 0x2095610 VA: 0x182097010
+	// RVA: 0x2096E50 Offset: 0x2095450 VA: 0x182096E50
 	public static byte[] SerializeToBytes(AppMap.Monument instance) { }
 
-	// RVA: 0x2096F60 Offset: 0x2095560 VA: 0x182096F60
+	// RVA: 0x2096DA0 Offset: 0x20953A0 VA: 0x182096DA0
 	public static void SerializeLengthDelimited(Stream stream, AppMap.Monument instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -2177,13 +2177,13 @@ public class AppEntityInfo : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x2082EC0 Offset: 0x20814C0 VA: 0x182082EC0
+	// RVA: 0x2082D00 Offset: 0x2081300 VA: 0x182082D00
 	public static void ResetToPool(AppEntityInfo instance) { }
 
-	// RVA: 0x2082E10 Offset: 0x2081410 VA: 0x182082E10
+	// RVA: 0x2082C50 Offset: 0x2081250 VA: 0x182082C50
 	public void ResetToPool() { }
 
-	// RVA: 0x2082CA0 Offset: 0x20812A0 VA: 0x182082CA0 Slot: 9
+	// RVA: 0x2082AE0 Offset: 0x20810E0 VA: 0x182082AE0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -2192,64 +2192,64 @@ public class AppEntityInfo : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x2080B20 Offset: 0x207F120 VA: 0x182080B20
+	// RVA: 0x2080960 Offset: 0x207EF60 VA: 0x182080960
 	public void CopyTo(AppEntityInfo instance) { }
 
-	// RVA: 0x20820B0 Offset: 0x20806B0 VA: 0x1820820B0
+	// RVA: 0x2081EF0 Offset: 0x20804F0 VA: 0x182081EF0
 	public AppEntityInfo Copy() { }
 
-	// RVA: 0x2082C20 Offset: 0x2081220 VA: 0x182082C20
+	// RVA: 0x2082A60 Offset: 0x2081060 VA: 0x182082A60
 	public static AppEntityInfo Deserialize(Stream stream) { }
 
-	// RVA: 0x2082180 Offset: 0x2080780 VA: 0x182082180
+	// RVA: 0x2081FC0 Offset: 0x20805C0 VA: 0x182081FC0
 	public static AppEntityInfo DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2082770 Offset: 0x2080D70 VA: 0x182082770
+	// RVA: 0x20825B0 Offset: 0x2080BB0 VA: 0x1820825B0
 	public static AppEntityInfo DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2082800 Offset: 0x2080E00 VA: 0x182082800
+	// RVA: 0x2082640 Offset: 0x2080C40 VA: 0x182082640
 	public static AppEntityInfo Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2082DD0 Offset: 0x20813D0 VA: 0x182082DD0
+	// RVA: 0x2082C10 Offset: 0x2081210 VA: 0x182082C10
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2083580 Offset: 0x2081B80 VA: 0x182083580 Slot: 12
+	// RVA: 0x20833C0 Offset: 0x20819C0 VA: 0x1820833C0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20835A0 Offset: 0x2081BA0 VA: 0x1820835A0 Slot: 13
+	// RVA: 0x20833E0 Offset: 0x20819E0 VA: 0x1820833E0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppEntityInfo previous) { }
 
-	// RVA: 0x2082DF0 Offset: 0x20813F0 VA: 0x182082DF0 Slot: 14
+	// RVA: 0x2082C30 Offset: 0x2081230 VA: 0x182082C30 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2082B20 Offset: 0x2081120 VA: 0x182082B20
+	// RVA: 0x2082960 Offset: 0x2080F60 VA: 0x182082960
 	public static AppEntityInfo Deserialize(byte[] buffer, AppEntityInfo instance, bool isDelta = False) { }
 
-	// RVA: 0x2082920 Offset: 0x2080F20 VA: 0x182082920
+	// RVA: 0x2082760 Offset: 0x2080D60 VA: 0x182082760
 	public static AppEntityInfo Deserialize(Stream stream, AppEntityInfo instance, bool isDelta) { }
 
-	// RVA: 0x2082200 Offset: 0x2080800 VA: 0x182082200
+	// RVA: 0x2082040 Offset: 0x2080640 VA: 0x182082040
 	public static AppEntityInfo DeserializeLengthDelimited(Stream stream, AppEntityInfo instance, bool isDelta) { }
 
-	// RVA: 0x20824D0 Offset: 0x2080AD0 VA: 0x1820824D0
+	// RVA: 0x2082310 Offset: 0x2080910 VA: 0x182082310
 	public static AppEntityInfo DeserializeLength(Stream stream, int length, AppEntityInfo instance, bool isDelta) { }
 
-	// RVA: 0x2082F70 Offset: 0x2081570 VA: 0x182082F70
+	// RVA: 0x2082DB0 Offset: 0x20813B0 VA: 0x182082DB0
 	public static void SerializeDelta(Stream stream, AppEntityInfo instance, AppEntityInfo previous) { }
 
-	// RVA: 0x2083360 Offset: 0x2081960 VA: 0x182083360
+	// RVA: 0x20831A0 Offset: 0x20817A0 VA: 0x1820831A0
 	public static void Serialize(Stream stream, AppEntityInfo instance) { }
 
-	// RVA: 0x2083570 Offset: 0x2081B70 VA: 0x182083570
+	// RVA: 0x20833B0 Offset: 0x20819B0 VA: 0x1820833B0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2083580 Offset: 0x2081B80 VA: 0x182083580
+	// RVA: 0x20833C0 Offset: 0x20819C0 VA: 0x1820833C0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2083250 Offset: 0x2081850 VA: 0x182083250
+	// RVA: 0x2083090 Offset: 0x2081690 VA: 0x182083090
 	public static byte[] SerializeToBytes(AppEntityInfo instance) { }
 
-	// RVA: 0x20831A0 Offset: 0x20817A0 VA: 0x1820831A0
+	// RVA: 0x2082FE0 Offset: 0x20815E0 VA: 0x182082FE0
 	public static void SerializeLengthDelimited(Stream stream, AppEntityInfo instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -2269,13 +2269,13 @@ public class AppEntityPayload : IDisposable, Pool.IPooled, IProto // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x20851B0 Offset: 0x20837B0 VA: 0x1820851B0
+	// RVA: 0x2084FF0 Offset: 0x20835F0 VA: 0x182084FF0
 	public static void ResetToPool(AppEntityPayload instance) { }
 
-	// RVA: 0x20853C0 Offset: 0x20839C0 VA: 0x1820853C0
+	// RVA: 0x2085200 Offset: 0x2083800 VA: 0x182085200
 	public void ResetToPool() { }
 
-	// RVA: 0x2084E20 Offset: 0x2083420 VA: 0x182084E20 Slot: 9
+	// RVA: 0x2084C60 Offset: 0x2083260 VA: 0x182084C60 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -2284,64 +2284,64 @@ public class AppEntityPayload : IDisposable, Pool.IPooled, IProto // TypeDefInde
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20835C0 Offset: 0x2081BC0 VA: 0x1820835C0
+	// RVA: 0x2083400 Offset: 0x2081A00 VA: 0x182083400
 	public void CopyTo(AppEntityPayload instance) { }
 
-	// RVA: 0x2083770 Offset: 0x2081D70 VA: 0x182083770
+	// RVA: 0x20835B0 Offset: 0x2081BB0 VA: 0x1820835B0
 	public AppEntityPayload Copy() { }
 
-	// RVA: 0x2084440 Offset: 0x2082A40 VA: 0x182084440
+	// RVA: 0x2084280 Offset: 0x2082880 VA: 0x182084280
 	public static AppEntityPayload Deserialize(Stream stream) { }
 
-	// RVA: 0x20837F0 Offset: 0x2081DF0 VA: 0x1820837F0
+	// RVA: 0x2083630 Offset: 0x2081C30 VA: 0x182083630
 	public static AppEntityPayload DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2083C50 Offset: 0x2082250 VA: 0x182083C50
+	// RVA: 0x2083A90 Offset: 0x2082090 VA: 0x182083A90
 	public static AppEntityPayload DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2084090 Offset: 0x2082690 VA: 0x182084090
+	// RVA: 0x2083ED0 Offset: 0x20824D0 VA: 0x182083ED0
 	public static AppEntityPayload Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2084EA0 Offset: 0x20834A0 VA: 0x182084EA0
+	// RVA: 0x2084CE0 Offset: 0x20832E0 VA: 0x182084CE0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2085D70 Offset: 0x2084370 VA: 0x182085D70 Slot: 12
+	// RVA: 0x2085BB0 Offset: 0x20841B0 VA: 0x182085BB0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2085D90 Offset: 0x2084390 VA: 0x182085D90 Slot: 13
+	// RVA: 0x2085BD0 Offset: 0x20841D0 VA: 0x182085BD0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppEntityPayload previous) { }
 
-	// RVA: 0x2085190 Offset: 0x2083790 VA: 0x182085190 Slot: 14
+	// RVA: 0x2084FD0 Offset: 0x20835D0 VA: 0x182084FD0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2084750 Offset: 0x2082D50 VA: 0x182084750
+	// RVA: 0x2084590 Offset: 0x2082B90 VA: 0x182084590
 	public static AppEntityPayload Deserialize(byte[] buffer, AppEntityPayload instance, bool isDelta = False) { }
 
-	// RVA: 0x2084B20 Offset: 0x2083120 VA: 0x182084B20
+	// RVA: 0x2084960 Offset: 0x2082F60 VA: 0x182084960
 	public static AppEntityPayload Deserialize(Stream stream, AppEntityPayload instance, bool isDelta) { }
 
-	// RVA: 0x2083870 Offset: 0x2081E70 VA: 0x182083870
+	// RVA: 0x20836B0 Offset: 0x2081CB0 VA: 0x1820836B0
 	public static AppEntityPayload DeserializeLengthDelimited(Stream stream, AppEntityPayload instance, bool isDelta) { }
 
-	// RVA: 0x2083CE0 Offset: 0x20822E0 VA: 0x182083CE0
+	// RVA: 0x2083B20 Offset: 0x2082120 VA: 0x182083B20
 	public static AppEntityPayload DeserializeLength(Stream stream, int length, AppEntityPayload instance, bool isDelta) { }
 
-	// RVA: 0x20855D0 Offset: 0x2083BD0 VA: 0x1820855D0
+	// RVA: 0x2085410 Offset: 0x2083A10 VA: 0x182085410
 	public static void SerializeDelta(Stream stream, AppEntityPayload instance, AppEntityPayload previous) { }
 
-	// RVA: 0x2085AB0 Offset: 0x20840B0 VA: 0x182085AB0
+	// RVA: 0x20858F0 Offset: 0x2083EF0 VA: 0x1820858F0
 	public static void Serialize(Stream stream, AppEntityPayload instance) { }
 
-	// RVA: 0x2085D60 Offset: 0x2084360 VA: 0x182085D60
+	// RVA: 0x2085BA0 Offset: 0x20841A0 VA: 0x182085BA0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2085D70 Offset: 0x2084370 VA: 0x182085D70
+	// RVA: 0x2085BB0 Offset: 0x20841B0 VA: 0x182085BB0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20859A0 Offset: 0x2083FA0 VA: 0x1820859A0
+	// RVA: 0x20857E0 Offset: 0x2083DE0 VA: 0x1820857E0
 	public static byte[] SerializeToBytes(AppEntityPayload instance) { }
 
-	// RVA: 0x20858F0 Offset: 0x2083EF0 VA: 0x1820858F0
+	// RVA: 0x2085730 Offset: 0x2083D30 VA: 0x182085730
 	public static void SerializeLengthDelimited(Stream stream, AppEntityPayload instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -2359,13 +2359,13 @@ public class AppEntityPayload.Item : IDisposable, Pool.IPooled, IProto // TypeDe
 
 	// Methods
 
-	// RVA: 0x2095350 Offset: 0x2093950 VA: 0x182095350
+	// RVA: 0x2095190 Offset: 0x2093790 VA: 0x182095190
 	public static void ResetToPool(AppEntityPayload.Item instance) { }
 
-	// RVA: 0x20953E0 Offset: 0x20939E0 VA: 0x1820953E0
+	// RVA: 0x2095220 Offset: 0x2093820 VA: 0x182095220
 	public void ResetToPool() { }
 
-	// RVA: 0x2095100 Offset: 0x2093700 VA: 0x182095100 Slot: 9
+	// RVA: 0x2094F40 Offset: 0x2093540 VA: 0x182094F40 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -2374,64 +2374,64 @@ public class AppEntityPayload.Item : IDisposable, Pool.IPooled, IProto // TypeDe
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D68DA0 Offset: 0x1D673A0 VA: 0x181D68DA0
+	// RVA: 0x1D68BE0 Offset: 0x1D671E0 VA: 0x181D68BE0
 	public void CopyTo(AppEntityPayload.Item instance) { }
 
-	// RVA: 0x20941D0 Offset: 0x20927D0 VA: 0x1820941D0
+	// RVA: 0x2094010 Offset: 0x2092610 VA: 0x182094010
 	public AppEntityPayload.Item Copy() { }
 
-	// RVA: 0x2094840 Offset: 0x2092E40 VA: 0x182094840
+	// RVA: 0x2094680 Offset: 0x2092C80 VA: 0x182094680
 	public static AppEntityPayload.Item Deserialize(Stream stream) { }
 
-	// RVA: 0x2094250 Offset: 0x2092850 VA: 0x182094250
+	// RVA: 0x2094090 Offset: 0x2092690 VA: 0x182094090
 	public static AppEntityPayload.Item DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2094550 Offset: 0x2092B50 VA: 0x182094550
+	// RVA: 0x2094390 Offset: 0x2092990 VA: 0x182094390
 	public static AppEntityPayload.Item DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2094A30 Offset: 0x2093030 VA: 0x182094A30
+	// RVA: 0x2094870 Offset: 0x2092E70 VA: 0x182094870
 	public static AppEntityPayload.Item Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2095180 Offset: 0x2093780 VA: 0x182095180
+	// RVA: 0x2094FC0 Offset: 0x20935C0 VA: 0x182094FC0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2095920 Offset: 0x2093F20 VA: 0x182095920 Slot: 12
+	// RVA: 0x2095760 Offset: 0x2093D60 VA: 0x182095760 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2095940 Offset: 0x2093F40 VA: 0x182095940 Slot: 13
+	// RVA: 0x2095780 Offset: 0x2093D80 VA: 0x182095780 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppEntityPayload.Item previous) { }
 
-	// RVA: 0x2095330 Offset: 0x2093930 VA: 0x182095330 Slot: 14
+	// RVA: 0x2095170 Offset: 0x2093770 VA: 0x182095170 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2094E80 Offset: 0x2093480 VA: 0x182094E80
+	// RVA: 0x2094CC0 Offset: 0x20932C0 VA: 0x182094CC0
 	public static AppEntityPayload.Item Deserialize(byte[] buffer, AppEntityPayload.Item instance, bool isDelta = False) { }
 
-	// RVA: 0x2094CD0 Offset: 0x20932D0 VA: 0x182094CD0
+	// RVA: 0x2094B10 Offset: 0x2093110 VA: 0x182094B10
 	public static AppEntityPayload.Item Deserialize(Stream stream, AppEntityPayload.Item instance, bool isDelta) { }
 
-	// RVA: 0x20942D0 Offset: 0x20928D0 VA: 0x1820942D0
+	// RVA: 0x2094110 Offset: 0x2092710 VA: 0x182094110
 	public static AppEntityPayload.Item DeserializeLengthDelimited(Stream stream, AppEntityPayload.Item instance, bool isDelta) { }
 
-	// RVA: 0x20945E0 Offset: 0x2092BE0 VA: 0x1820945E0
+	// RVA: 0x2094420 Offset: 0x2092A20 VA: 0x182094420
 	public static AppEntityPayload.Item DeserializeLength(Stream stream, int length, AppEntityPayload.Item instance, bool isDelta) { }
 
-	// RVA: 0x2095470 Offset: 0x2093A70 VA: 0x182095470
+	// RVA: 0x20952B0 Offset: 0x20938B0 VA: 0x1820952B0
 	public static void SerializeDelta(Stream stream, AppEntityPayload.Item instance, AppEntityPayload.Item previous) { }
 
-	// RVA: 0x20957F0 Offset: 0x2093DF0 VA: 0x1820957F0
+	// RVA: 0x2095630 Offset: 0x2093C30 VA: 0x182095630
 	public static void Serialize(Stream stream, AppEntityPayload.Item instance) { }
 
-	// RVA: 0x2095910 Offset: 0x2093F10 VA: 0x182095910
+	// RVA: 0x2095750 Offset: 0x2093D50 VA: 0x182095750
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2095920 Offset: 0x2093F20 VA: 0x182095920
+	// RVA: 0x2095760 Offset: 0x2093D60 VA: 0x182095760
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20956E0 Offset: 0x2093CE0 VA: 0x1820956E0
+	// RVA: 0x2095520 Offset: 0x2093B20 VA: 0x182095520
 	public static byte[] SerializeToBytes(AppEntityPayload.Item instance) { }
 
-	// RVA: 0x2095630 Offset: 0x2093C30 VA: 0x182095630
+	// RVA: 0x2095470 Offset: 0x2093A70 VA: 0x182095470
 	public static void SerializeLengthDelimited(Stream stream, AppEntityPayload.Item instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -2450,13 +2450,13 @@ public class AppTeamInfo : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 65
 
 	// Methods
 
-	// RVA: 0x1E1F900 Offset: 0x1E1DF00 VA: 0x181E1F900
+	// RVA: 0x1E1F740 Offset: 0x1E1DD40 VA: 0x181E1F740
 	public static void ResetToPool(AppTeamInfo instance) { }
 
-	// RVA: 0x1E1F4D0 Offset: 0x1E1DAD0 VA: 0x181E1F4D0
+	// RVA: 0x1E1F310 Offset: 0x1E1D910 VA: 0x181E1F310
 	public void ResetToPool() { }
 
-	// RVA: 0x1E1F410 Offset: 0x1E1DA10 VA: 0x181E1F410 Slot: 9
+	// RVA: 0x1E1F250 Offset: 0x1E1D850 VA: 0x181E1F250 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -2465,64 +2465,64 @@ public class AppTeamInfo : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 65
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E1DE40 Offset: 0x1E1C440 VA: 0x181E1DE40
+	// RVA: 0x1E1DC80 Offset: 0x1E1C280 VA: 0x181E1DC80
 	public void CopyTo(AppTeamInfo instance) { }
 
-	// RVA: 0x1E1E290 Offset: 0x1E1C890 VA: 0x181E1E290
+	// RVA: 0x1E1E0D0 Offset: 0x1E1C6D0 VA: 0x181E1E0D0
 	public AppTeamInfo Copy() { }
 
-	// RVA: 0x1E1F390 Offset: 0x1E1D990 VA: 0x181E1F390
+	// RVA: 0x1E1F1D0 Offset: 0x1E1D7D0 VA: 0x181E1F1D0
 	public static AppTeamInfo Deserialize(Stream stream) { }
 
-	// RVA: 0x1E1E7D0 Offset: 0x1E1CDD0 VA: 0x181E1E7D0
+	// RVA: 0x1E1E610 Offset: 0x1E1CC10 VA: 0x181E1E610
 	public static AppTeamInfo DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E1E850 Offset: 0x1E1CE50 VA: 0x181E1E850
+	// RVA: 0x1E1E690 Offset: 0x1E1CC90 VA: 0x181E1E690
 	public static AppTeamInfo DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E1F270 Offset: 0x1E1D870 VA: 0x181E1F270
+	// RVA: 0x1E1F0B0 Offset: 0x1E1D6B0 VA: 0x181E1F0B0
 	public static AppTeamInfo Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E1F490 Offset: 0x1E1DA90 VA: 0x181E1F490
+	// RVA: 0x1E1F2D0 Offset: 0x1E1D8D0 VA: 0x181E1F2D0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E20830 Offset: 0x1E1EE30 VA: 0x181E20830 Slot: 12
+	// RVA: 0x1E20670 Offset: 0x1E1EC70 VA: 0x181E20670 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E20850 Offset: 0x1E1EE50 VA: 0x181E20850 Slot: 13
+	// RVA: 0x1E20690 Offset: 0x1E1EC90 VA: 0x181E20690 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppTeamInfo previous) { }
 
-	// RVA: 0x1E1F4B0 Offset: 0x1E1DAB0 VA: 0x181E1F4B0 Slot: 14
+	// RVA: 0x1E1F2F0 Offset: 0x1E1D8F0 VA: 0x181E1F2F0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E1F170 Offset: 0x1E1D770 VA: 0x181E1F170
+	// RVA: 0x1E1EFB0 Offset: 0x1E1D5B0 VA: 0x181E1EFB0
 	public static AppTeamInfo Deserialize(byte[] buffer, AppTeamInfo instance, bool isDelta = False) { }
 
-	// RVA: 0x1E1ED80 Offset: 0x1E1D380 VA: 0x181E1ED80
+	// RVA: 0x1E1EBC0 Offset: 0x1E1D1C0 VA: 0x181E1EBC0
 	public static AppTeamInfo Deserialize(Stream stream, AppTeamInfo instance, bool isDelta) { }
 
-	// RVA: 0x1E1E310 Offset: 0x1E1C910 VA: 0x181E1E310
+	// RVA: 0x1E1E150 Offset: 0x1E1C750 VA: 0x181E1E150
 	public static AppTeamInfo DeserializeLengthDelimited(Stream stream, AppTeamInfo instance, bool isDelta) { }
 
-	// RVA: 0x1E1E8E0 Offset: 0x1E1CEE0 VA: 0x181E1E8E0
+	// RVA: 0x1E1E720 Offset: 0x1E1CD20 VA: 0x181E1E720
 	public static AppTeamInfo DeserializeLength(Stream stream, int length, AppTeamInfo instance, bool isDelta) { }
 
-	// RVA: 0x1E1FD30 Offset: 0x1E1E330 VA: 0x181E1FD30
+	// RVA: 0x1E1FB70 Offset: 0x1E1E170 VA: 0x181E1FB70
 	public static void SerializeDelta(Stream stream, AppTeamInfo instance, AppTeamInfo previous) { }
 
-	// RVA: 0x1E203A0 Offset: 0x1E1E9A0 VA: 0x181E203A0
+	// RVA: 0x1E201E0 Offset: 0x1E1E7E0 VA: 0x181E201E0
 	public static void Serialize(Stream stream, AppTeamInfo instance) { }
 
-	// RVA: 0x1E20820 Offset: 0x1E1EE20 VA: 0x181E20820
+	// RVA: 0x1E20660 Offset: 0x1E1EC60 VA: 0x181E20660
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E20830 Offset: 0x1E1EE30 VA: 0x181E20830
+	// RVA: 0x1E20670 Offset: 0x1E1EC70 VA: 0x181E20670
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E20290 Offset: 0x1E1E890 VA: 0x181E20290
+	// RVA: 0x1E200D0 Offset: 0x1E1E6D0 VA: 0x181E200D0
 	public static byte[] SerializeToBytes(AppTeamInfo instance) { }
 
-	// RVA: 0x1E201E0 Offset: 0x1E1E7E0 VA: 0x181E201E0
+	// RVA: 0x1E20020 Offset: 0x1E1E620 VA: 0x181E20020
 	public static void SerializeLengthDelimited(Stream stream, AppTeamInfo instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -2545,13 +2545,13 @@ public class AppTeamInfo.Member : IDisposable, Pool.IPooled, IProto // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x1E27D00 Offset: 0x1E26300 VA: 0x181E27D00
+	// RVA: 0x1E27B40 Offset: 0x1E26140 VA: 0x181E27B40
 	public static void ResetToPool(AppTeamInfo.Member instance) { }
 
-	// RVA: 0x1E27C00 Offset: 0x1E26200 VA: 0x181E27C00
+	// RVA: 0x1E27A40 Offset: 0x1E26040 VA: 0x181E27A40
 	public void ResetToPool() { }
 
-	// RVA: 0x1E27830 Offset: 0x1E25E30 VA: 0x181E27830 Slot: 9
+	// RVA: 0x1E27670 Offset: 0x1E25C70 VA: 0x181E27670 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -2560,64 +2560,64 @@ public class AppTeamInfo.Member : IDisposable, Pool.IPooled, IProto // TypeDefIn
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E25F00 Offset: 0x1E24500 VA: 0x181E25F00
+	// RVA: 0x1E25D40 Offset: 0x1E24340 VA: 0x181E25D40
 	public void CopyTo(AppTeamInfo.Member instance) { }
 
-	// RVA: 0x1E25F70 Offset: 0x1E24570 VA: 0x181E25F70
+	// RVA: 0x1E25DB0 Offset: 0x1E243B0 VA: 0x181E25DB0
 	public AppTeamInfo.Member Copy() { }
 
-	// RVA: 0x1E26D70 Offset: 0x1E25370 VA: 0x181E26D70
+	// RVA: 0x1E26BB0 Offset: 0x1E251B0 VA: 0x181E26BB0
 	public static AppTeamInfo.Member Deserialize(Stream stream) { }
 
-	// RVA: 0x1E26020 Offset: 0x1E24620 VA: 0x181E26020
+	// RVA: 0x1E25E60 Offset: 0x1E24460 VA: 0x181E25E60
 	public static AppTeamInfo.Member DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E264B0 Offset: 0x1E24AB0 VA: 0x181E264B0
+	// RVA: 0x1E262F0 Offset: 0x1E248F0 VA: 0x181E262F0
 	public static AppTeamInfo.Member DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E26930 Offset: 0x1E24F30 VA: 0x181E26930
+	// RVA: 0x1E26770 Offset: 0x1E24D70 VA: 0x181E26770
 	public static AppTeamInfo.Member Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E278B0 Offset: 0x1E25EB0 VA: 0x181E278B0
+	// RVA: 0x1E276F0 Offset: 0x1E25CF0 VA: 0x181E276F0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E285E0 Offset: 0x1E26BE0 VA: 0x181E285E0 Slot: 12
+	// RVA: 0x1E28420 Offset: 0x1E26A20 VA: 0x181E28420 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E28600 Offset: 0x1E26C00 VA: 0x181E28600 Slot: 13
+	// RVA: 0x1E28440 Offset: 0x1E26A40 VA: 0x181E28440 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppTeamInfo.Member previous) { }
 
-	// RVA: 0x1E27BE0 Offset: 0x1E261E0 VA: 0x181E27BE0 Slot: 14
+	// RVA: 0x1E27A20 Offset: 0x1E26020 VA: 0x181E27A20 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E27410 Offset: 0x1E25A10 VA: 0x181E27410
+	// RVA: 0x1E27250 Offset: 0x1E25850 VA: 0x181E27250
 	public static AppTeamInfo.Member Deserialize(byte[] buffer, AppTeamInfo.Member instance, bool isDelta = False) { }
 
-	// RVA: 0x1E270E0 Offset: 0x1E256E0 VA: 0x181E270E0
+	// RVA: 0x1E26F20 Offset: 0x1E25520 VA: 0x181E26F20
 	public static AppTeamInfo.Member Deserialize(Stream stream, AppTeamInfo.Member instance, bool isDelta) { }
 
-	// RVA: 0x1E260A0 Offset: 0x1E246A0 VA: 0x181E260A0
+	// RVA: 0x1E25EE0 Offset: 0x1E244E0 VA: 0x181E25EE0
 	public static AppTeamInfo.Member DeserializeLengthDelimited(Stream stream, AppTeamInfo.Member instance, bool isDelta) { }
 
-	// RVA: 0x1E26540 Offset: 0x1E24B40 VA: 0x181E26540
+	// RVA: 0x1E26380 Offset: 0x1E24980 VA: 0x181E26380
 	public static AppTeamInfo.Member DeserializeLength(Stream stream, int length, AppTeamInfo.Member instance, bool isDelta) { }
 
-	// RVA: 0x1E27E00 Offset: 0x1E26400 VA: 0x181E27E00
+	// RVA: 0x1E27C40 Offset: 0x1E26240 VA: 0x181E27C40
 	public static void SerializeDelta(Stream stream, AppTeamInfo.Member instance, AppTeamInfo.Member previous) { }
 
-	// RVA: 0x1E28370 Offset: 0x1E26970 VA: 0x181E28370
+	// RVA: 0x1E281B0 Offset: 0x1E267B0 VA: 0x181E281B0
 	public static void Serialize(Stream stream, AppTeamInfo.Member instance) { }
 
-	// RVA: 0x1E285D0 Offset: 0x1E26BD0 VA: 0x181E285D0
+	// RVA: 0x1E28410 Offset: 0x1E26A10 VA: 0x181E28410
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E285E0 Offset: 0x1E26BE0 VA: 0x181E285E0
+	// RVA: 0x1E28420 Offset: 0x1E26A20 VA: 0x181E28420
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E28260 Offset: 0x1E26860 VA: 0x181E28260
+	// RVA: 0x1E280A0 Offset: 0x1E266A0 VA: 0x181E280A0
 	public static byte[] SerializeToBytes(AppTeamInfo.Member instance) { }
 
-	// RVA: 0x1E281B0 Offset: 0x1E267B0 VA: 0x181E281B0
+	// RVA: 0x1E27FF0 Offset: 0x1E265F0 VA: 0x181E27FF0
 	public static void SerializeLengthDelimited(Stream stream, AppTeamInfo.Member instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -2635,13 +2635,13 @@ public class AppTeamInfo.Note : IDisposable, Pool.IPooled, IProto // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x1E29810 Offset: 0x1E27E10 VA: 0x181E29810
+	// RVA: 0x1E29650 Offset: 0x1E27C50 VA: 0x181E29650
 	public static void ResetToPool(AppTeamInfo.Note instance) { }
 
-	// RVA: 0x1E298A0 Offset: 0x1E27EA0 VA: 0x181E298A0
+	// RVA: 0x1E296E0 Offset: 0x1E27CE0 VA: 0x181E296E0
 	public void ResetToPool() { }
 
-	// RVA: 0x1E295C0 Offset: 0x1E27BC0 VA: 0x181E295C0 Slot: 9
+	// RVA: 0x1E29400 Offset: 0x1E27A00 VA: 0x181E29400 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -2650,64 +2650,64 @@ public class AppTeamInfo.Note : IDisposable, Pool.IPooled, IProto // TypeDefInde
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E28620 Offset: 0x1E26C20 VA: 0x181E28620
+	// RVA: 0x1E28460 Offset: 0x1E26A60 VA: 0x181E28460
 	public void CopyTo(AppTeamInfo.Note instance) { }
 
-	// RVA: 0x1E28650 Offset: 0x1E26C50 VA: 0x181E28650
+	// RVA: 0x1E28490 Offset: 0x1E26A90 VA: 0x181E28490
 	public AppTeamInfo.Note Copy() { }
 
-	// RVA: 0x1E293D0 Offset: 0x1E279D0 VA: 0x181E293D0
+	// RVA: 0x1E29210 Offset: 0x1E27810 VA: 0x181E29210
 	public static AppTeamInfo.Note Deserialize(Stream stream) { }
 
-	// RVA: 0x1E286D0 Offset: 0x1E26CD0 VA: 0x181E286D0
+	// RVA: 0x1E28510 Offset: 0x1E26B10 VA: 0x181E28510
 	public static AppTeamInfo.Note DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E28C50 Offset: 0x1E27250 VA: 0x181E28C50
+	// RVA: 0x1E28A90 Offset: 0x1E27090 VA: 0x181E28A90
 	public static AppTeamInfo.Note DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E29120 Offset: 0x1E27720 VA: 0x181E29120
+	// RVA: 0x1E28F60 Offset: 0x1E27560 VA: 0x181E28F60
 	public static AppTeamInfo.Note Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E29640 Offset: 0x1E27C40 VA: 0x181E29640
+	// RVA: 0x1E29480 Offset: 0x1E27A80 VA: 0x181E29480
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E29E10 Offset: 0x1E28410 VA: 0x181E29E10 Slot: 12
+	// RVA: 0x1E29C50 Offset: 0x1E28250 VA: 0x181E29C50 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E29E30 Offset: 0x1E28430 VA: 0x181E29E30 Slot: 13
+	// RVA: 0x1E29C70 Offset: 0x1E28270 VA: 0x181E29C70 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppTeamInfo.Note previous) { }
 
-	// RVA: 0x1E297F0 Offset: 0x1E27DF0 VA: 0x181E297F0 Slot: 14
+	// RVA: 0x1E29630 Offset: 0x1E27C30 VA: 0x181E29630 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E28CE0 Offset: 0x1E272E0 VA: 0x181E28CE0
+	// RVA: 0x1E28B20 Offset: 0x1E27120 VA: 0x181E28B20
 	public static AppTeamInfo.Note Deserialize(byte[] buffer, AppTeamInfo.Note instance, bool isDelta = False) { }
 
-	// RVA: 0x1E28F70 Offset: 0x1E27570 VA: 0x181E28F70
+	// RVA: 0x1E28DB0 Offset: 0x1E273B0 VA: 0x181E28DB0
 	public static AppTeamInfo.Note Deserialize(Stream stream, AppTeamInfo.Note instance, bool isDelta) { }
 
-	// RVA: 0x1E28750 Offset: 0x1E26D50 VA: 0x181E28750
+	// RVA: 0x1E28590 Offset: 0x1E26B90 VA: 0x181E28590
 	public static AppTeamInfo.Note DeserializeLengthDelimited(Stream stream, AppTeamInfo.Note instance, bool isDelta) { }
 
-	// RVA: 0x1E289E0 Offset: 0x1E26FE0 VA: 0x181E289E0
+	// RVA: 0x1E28820 Offset: 0x1E26E20 VA: 0x181E28820
 	public static AppTeamInfo.Note DeserializeLength(Stream stream, int length, AppTeamInfo.Note instance, bool isDelta) { }
 
-	// RVA: 0x1E29930 Offset: 0x1E27F30 VA: 0x181E29930
+	// RVA: 0x1E29770 Offset: 0x1E27D70 VA: 0x181E29770
 	public static void SerializeDelta(Stream stream, AppTeamInfo.Note instance, AppTeamInfo.Note previous) { }
 
-	// RVA: 0x1E29CD0 Offset: 0x1E282D0 VA: 0x181E29CD0
+	// RVA: 0x1E29B10 Offset: 0x1E28110 VA: 0x181E29B10
 	public static void Serialize(Stream stream, AppTeamInfo.Note instance) { }
 
-	// RVA: 0x1E29E00 Offset: 0x1E28400 VA: 0x181E29E00
+	// RVA: 0x1E29C40 Offset: 0x1E28240 VA: 0x181E29C40
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E29E10 Offset: 0x1E28410 VA: 0x181E29E10
+	// RVA: 0x1E29C50 Offset: 0x1E28250 VA: 0x181E29C50
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E29BC0 Offset: 0x1E281C0 VA: 0x181E29BC0
+	// RVA: 0x1E29A00 Offset: 0x1E28000 VA: 0x181E29A00
 	public static byte[] SerializeToBytes(AppTeamInfo.Note instance) { }
 
-	// RVA: 0x1E29B10 Offset: 0x1E28110 VA: 0x181E29B10
+	// RVA: 0x1E29950 Offset: 0x1E27F50 VA: 0x181E29950
 	public static void SerializeLengthDelimited(Stream stream, AppTeamInfo.Note instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -2727,13 +2727,13 @@ public class AppChatMessage : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x2018020 Offset: 0x2016620 VA: 0x182018020
+	// RVA: 0x2017E60 Offset: 0x2016460 VA: 0x182017E60
 	public static void ResetToPool(AppChatMessage instance) { }
 
-	// RVA: 0x2018130 Offset: 0x2016730 VA: 0x182018130
+	// RVA: 0x2017F70 Offset: 0x2016570 VA: 0x182017F70
 	public void ResetToPool() { }
 
-	// RVA: 0x2017C00 Offset: 0x2016200 VA: 0x182017C00 Slot: 9
+	// RVA: 0x2017A40 Offset: 0x2016040 VA: 0x182017A40 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -2742,64 +2742,64 @@ public class AppChatMessage : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x2016750 Offset: 0x2014D50 VA: 0x182016750
+	// RVA: 0x2016590 Offset: 0x2014B90 VA: 0x182016590
 	public void CopyTo(AppChatMessage instance) { }
 
-	// RVA: 0x20167C0 Offset: 0x2014DC0 VA: 0x1820167C0
+	// RVA: 0x2016600 Offset: 0x2014C00 VA: 0x182016600
 	public AppChatMessage Copy() { }
 
-	// RVA: 0x2017940 Offset: 0x2015F40 VA: 0x182017940
+	// RVA: 0x2017780 Offset: 0x2015D80 VA: 0x182017780
 	public static AppChatMessage Deserialize(Stream stream) { }
 
-	// RVA: 0x2016BC0 Offset: 0x20151C0 VA: 0x182016BC0
+	// RVA: 0x2016A00 Offset: 0x2015000 VA: 0x182016A00
 	public static AppChatMessage DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2016C40 Offset: 0x2015240 VA: 0x182016C40
+	// RVA: 0x2016A80 Offset: 0x2015080 VA: 0x182016A80
 	public static AppChatMessage DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2017000 Offset: 0x2015600 VA: 0x182017000
+	// RVA: 0x2016E40 Offset: 0x2015440 VA: 0x182016E40
 	public static AppChatMessage Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2017D90 Offset: 0x2016390 VA: 0x182017D90
+	// RVA: 0x2017BD0 Offset: 0x20161D0 VA: 0x182017BD0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2018A30 Offset: 0x2017030 VA: 0x182018A30 Slot: 12
+	// RVA: 0x2018870 Offset: 0x2016E70 VA: 0x182018870 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2018A50 Offset: 0x2017050 VA: 0x182018A50 Slot: 13
+	// RVA: 0x2018890 Offset: 0x2016E90 VA: 0x182018890 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppChatMessage previous) { }
 
-	// RVA: 0x2018000 Offset: 0x2016600 VA: 0x182018000 Slot: 14
+	// RVA: 0x2017E40 Offset: 0x2016440 VA: 0x182017E40 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20175F0 Offset: 0x2015BF0 VA: 0x1820175F0
+	// RVA: 0x2017430 Offset: 0x2015A30 VA: 0x182017430
 	public static AppChatMessage Deserialize(byte[] buffer, AppChatMessage instance, bool isDelta = False) { }
 
-	// RVA: 0x2017370 Offset: 0x2015970 VA: 0x182017370
+	// RVA: 0x20171B0 Offset: 0x20157B0 VA: 0x1820171B0
 	public static AppChatMessage Deserialize(Stream stream, AppChatMessage instance, bool isDelta) { }
 
-	// RVA: 0x2016870 Offset: 0x2014E70 VA: 0x182016870
+	// RVA: 0x20166B0 Offset: 0x2014CB0 VA: 0x1820166B0
 	public static AppChatMessage DeserializeLengthDelimited(Stream stream, AppChatMessage instance, bool isDelta) { }
 
-	// RVA: 0x2016CD0 Offset: 0x20152D0 VA: 0x182016CD0
+	// RVA: 0x2016B10 Offset: 0x2015110 VA: 0x182016B10
 	public static AppChatMessage DeserializeLength(Stream stream, int length, AppChatMessage instance, bool isDelta) { }
 
-	// RVA: 0x2018240 Offset: 0x2016840 VA: 0x182018240
+	// RVA: 0x2018080 Offset: 0x2016680 VA: 0x182018080
 	public static void SerializeDelta(Stream stream, AppChatMessage instance, AppChatMessage previous) { }
 
-	// RVA: 0x2018760 Offset: 0x2016D60 VA: 0x182018760
+	// RVA: 0x20185A0 Offset: 0x2016BA0 VA: 0x1820185A0
 	public static void Serialize(Stream stream, AppChatMessage instance) { }
 
-	// RVA: 0x2018A20 Offset: 0x2017020 VA: 0x182018A20
+	// RVA: 0x2018860 Offset: 0x2016E60 VA: 0x182018860
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2018A30 Offset: 0x2017030 VA: 0x182018A30
+	// RVA: 0x2018870 Offset: 0x2016E70 VA: 0x182018870
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2018650 Offset: 0x2016C50 VA: 0x182018650
+	// RVA: 0x2018490 Offset: 0x2016A90 VA: 0x182018490
 	public static byte[] SerializeToBytes(AppChatMessage instance) { }
 
-	// RVA: 0x20185A0 Offset: 0x2016BA0 VA: 0x1820185A0
+	// RVA: 0x20183E0 Offset: 0x20169E0 VA: 0x1820183E0
 	public static void SerializeLengthDelimited(Stream stream, AppChatMessage instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -2815,13 +2815,13 @@ public class AppTeamChat : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 65
 
 	// Methods
 
-	// RVA: 0x1E1D6C0 Offset: 0x1E1BCC0 VA: 0x181E1D6C0
+	// RVA: 0x1E1D500 Offset: 0x1E1BB00 VA: 0x181E1D500
 	public static void ResetToPool(AppTeamChat instance) { }
 
-	// RVA: 0x1E1D510 Offset: 0x1E1BB10 VA: 0x181E1D510
+	// RVA: 0x1E1D350 Offset: 0x1E1B950 VA: 0x181E1D350
 	public void ResetToPool() { }
 
-	// RVA: 0x1E1D450 Offset: 0x1E1BA50 VA: 0x181E1D450 Slot: 9
+	// RVA: 0x1E1D290 Offset: 0x1E1B890 VA: 0x181E1D290 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -2830,64 +2830,64 @@ public class AppTeamChat : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 65
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E1C8A0 Offset: 0x1E1AEA0 VA: 0x181E1C8A0
+	// RVA: 0x1E1C6E0 Offset: 0x1E1ACE0 VA: 0x181E1C6E0
 	public void CopyTo(AppTeamChat instance) { }
 
-	// RVA: 0x1E1C9D0 Offset: 0x1E1AFD0 VA: 0x181E1C9D0
+	// RVA: 0x1E1C810 Offset: 0x1E1AE10 VA: 0x181E1C810
 	public AppTeamChat Copy() { }
 
-	// RVA: 0x1E1D2B0 Offset: 0x1E1B8B0 VA: 0x181E1D2B0
+	// RVA: 0x1E1D0F0 Offset: 0x1E1B6F0 VA: 0x181E1D0F0
 	public static AppTeamChat Deserialize(Stream stream) { }
 
-	// RVA: 0x1E1CA50 Offset: 0x1E1B050 VA: 0x181E1CA50
+	// RVA: 0x1E1C890 Offset: 0x1E1AE90 VA: 0x181E1C890
 	public static AppTeamChat DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E1CF90 Offset: 0x1E1B590 VA: 0x181E1CF90
+	// RVA: 0x1E1CDD0 Offset: 0x1E1B3D0 VA: 0x181E1CDD0
 	public static AppTeamChat DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E1D330 Offset: 0x1E1B930 VA: 0x181E1D330
+	// RVA: 0x1E1D170 Offset: 0x1E1B770 VA: 0x181E1D170
 	public static AppTeamChat Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E1D4D0 Offset: 0x1E1BAD0 VA: 0x181E1D4D0
+	// RVA: 0x1E1D310 Offset: 0x1E1B910 VA: 0x181E1D310
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E1DE00 Offset: 0x1E1C400 VA: 0x181E1DE00 Slot: 12
+	// RVA: 0x1E1DC40 Offset: 0x1E1C240 VA: 0x181E1DC40 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E1DE20 Offset: 0x1E1C420 VA: 0x181E1DE20 Slot: 13
+	// RVA: 0x1E1DC60 Offset: 0x1E1C260 VA: 0x181E1DC60 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppTeamChat previous) { }
 
-	// RVA: 0x1E1D4F0 Offset: 0x1E1BAF0 VA: 0x181E1D4F0 Slot: 14
+	// RVA: 0x1E1D330 Offset: 0x1E1B930 VA: 0x181E1D330 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E1D020 Offset: 0x1E1B620 VA: 0x181E1D020
+	// RVA: 0x1E1CE60 Offset: 0x1E1B460 VA: 0x181E1CE60
 	public static AppTeamChat Deserialize(byte[] buffer, AppTeamChat instance, bool isDelta = False) { }
 
-	// RVA: 0x1E1D120 Offset: 0x1E1B720 VA: 0x181E1D120
+	// RVA: 0x1E1CF60 Offset: 0x1E1B560 VA: 0x181E1CF60
 	public static AppTeamChat Deserialize(Stream stream, AppTeamChat instance, bool isDelta) { }
 
-	// RVA: 0x1E1CAD0 Offset: 0x1E1B0D0 VA: 0x181E1CAD0
+	// RVA: 0x1E1C910 Offset: 0x1E1AF10 VA: 0x181E1C910
 	public static AppTeamChat DeserializeLengthDelimited(Stream stream, AppTeamChat instance, bool isDelta) { }
 
-	// RVA: 0x1E1CD40 Offset: 0x1E1B340 VA: 0x181E1CD40
+	// RVA: 0x1E1CB80 Offset: 0x1E1B180 VA: 0x181E1CB80
 	public static AppTeamChat DeserializeLength(Stream stream, int length, AppTeamChat instance, bool isDelta) { }
 
-	// RVA: 0x1E1D870 Offset: 0x1E1BE70 VA: 0x181E1D870
+	// RVA: 0x1E1D6B0 Offset: 0x1E1BCB0 VA: 0x181E1D6B0
 	public static void SerializeDelta(Stream stream, AppTeamChat instance, AppTeamChat previous) { }
 
-	// RVA: 0x1E1DC10 Offset: 0x1E1C210 VA: 0x181E1DC10
+	// RVA: 0x1E1DA50 Offset: 0x1E1C050 VA: 0x181E1DA50
 	public static void Serialize(Stream stream, AppTeamChat instance) { }
 
-	// RVA: 0x1E1DDF0 Offset: 0x1E1C3F0 VA: 0x181E1DDF0
+	// RVA: 0x1E1DC30 Offset: 0x1E1C230 VA: 0x181E1DC30
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E1DE00 Offset: 0x1E1C400 VA: 0x181E1DE00
+	// RVA: 0x1E1DC40 Offset: 0x1E1C240 VA: 0x181E1DC40
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E1DB00 Offset: 0x1E1C100 VA: 0x181E1DB00
+	// RVA: 0x1E1D940 Offset: 0x1E1BF40 VA: 0x181E1D940
 	public static byte[] SerializeToBytes(AppTeamChat instance) { }
 
-	// RVA: 0x1E1DA50 Offset: 0x1E1C050 VA: 0x181E1DA50
+	// RVA: 0x1E1D890 Offset: 0x1E1BE90 VA: 0x181E1D890
 	public static void SerializeLengthDelimited(Stream stream, AppTeamChat instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -2915,13 +2915,13 @@ public class AppMarker : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6534
 
 	// Methods
 
-	// RVA: 0x2090760 Offset: 0x208ED60 VA: 0x182090760
+	// RVA: 0x20905A0 Offset: 0x208EBA0 VA: 0x1820905A0
 	public static void ResetToPool(AppMarker instance) { }
 
-	// RVA: 0x20904C0 Offset: 0x208EAC0 VA: 0x1820904C0
+	// RVA: 0x2090300 Offset: 0x208E900 VA: 0x182090300
 	public void ResetToPool() { }
 
-	// RVA: 0x2090400 Offset: 0x208EA00 VA: 0x182090400 Slot: 9
+	// RVA: 0x2090240 Offset: 0x208E840 VA: 0x182090240 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -2930,64 +2930,64 @@ public class AppMarker : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6534
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x208EE10 Offset: 0x208D410 VA: 0x18208EE10
+	// RVA: 0x208EC50 Offset: 0x208D250 VA: 0x18208EC50
 	public void CopyTo(AppMarker instance) { }
 
-	// RVA: 0x208F020 Offset: 0x208D620 VA: 0x18208F020
+	// RVA: 0x208EE60 Offset: 0x208D460 VA: 0x18208EE60
 	public AppMarker Copy() { }
 
-	// RVA: 0x2090280 Offset: 0x208E880 VA: 0x182090280
+	// RVA: 0x20900C0 Offset: 0x208E6C0 VA: 0x1820900C0
 	public static AppMarker Deserialize(Stream stream) { }
 
-	// RVA: 0x208F630 Offset: 0x208DC30 VA: 0x18208F630
+	// RVA: 0x208F470 Offset: 0x208DA70 VA: 0x18208F470
 	public static AppMarker DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x208F6B0 Offset: 0x208DCB0 VA: 0x18208F6B0
+	// RVA: 0x208F4F0 Offset: 0x208DAF0 VA: 0x18208F4F0
 	public static AppMarker DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x208FCA0 Offset: 0x208E2A0 VA: 0x18208FCA0
+	// RVA: 0x208FAE0 Offset: 0x208E0E0 VA: 0x18208FAE0
 	public static AppMarker Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2090480 Offset: 0x208EA80 VA: 0x182090480
+	// RVA: 0x20902C0 Offset: 0x208E8C0 VA: 0x1820902C0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20918A0 Offset: 0x208FEA0 VA: 0x1820918A0 Slot: 12
+	// RVA: 0x20916E0 Offset: 0x208FCE0 VA: 0x1820916E0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20918C0 Offset: 0x208FEC0 VA: 0x1820918C0 Slot: 13
+	// RVA: 0x2091700 Offset: 0x208FD00 VA: 0x182091700 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppMarker previous) { }
 
-	// RVA: 0x20904A0 Offset: 0x208EAA0 VA: 0x1820904A0 Slot: 14
+	// RVA: 0x20902E0 Offset: 0x208E8E0 VA: 0x1820902E0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2090300 Offset: 0x208E900 VA: 0x182090300
+	// RVA: 0x2090140 Offset: 0x208E740 VA: 0x182090140
 	public static AppMarker Deserialize(byte[] buffer, AppMarker instance, bool isDelta = False) { }
 
-	// RVA: 0x208FDC0 Offset: 0x208E3C0 VA: 0x18208FDC0
+	// RVA: 0x208FC00 Offset: 0x208E200 VA: 0x18208FC00
 	public static AppMarker Deserialize(Stream stream, AppMarker instance, bool isDelta) { }
 
-	// RVA: 0x208F0A0 Offset: 0x208D6A0 VA: 0x18208F0A0
+	// RVA: 0x208EEE0 Offset: 0x208D4E0 VA: 0x18208EEE0
 	public static AppMarker DeserializeLengthDelimited(Stream stream, AppMarker instance, bool isDelta) { }
 
-	// RVA: 0x208F740 Offset: 0x208DD40 VA: 0x18208F740
+	// RVA: 0x208F580 Offset: 0x208DB80 VA: 0x18208F580
 	public static AppMarker DeserializeLength(Stream stream, int length, AppMarker instance, bool isDelta) { }
 
-	// RVA: 0x2090A00 Offset: 0x208F000 VA: 0x182090A00
+	// RVA: 0x2090840 Offset: 0x208EE40 VA: 0x182090840
 	public static void SerializeDelta(Stream stream, AppMarker instance, AppMarker previous) { }
 
-	// RVA: 0x2091360 Offset: 0x208F960 VA: 0x182091360
+	// RVA: 0x20911A0 Offset: 0x208F7A0 VA: 0x1820911A0
 	public static void Serialize(Stream stream, AppMarker instance) { }
 
-	// RVA: 0x2091890 Offset: 0x208FE90 VA: 0x182091890
+	// RVA: 0x20916D0 Offset: 0x208FCD0 VA: 0x1820916D0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20918A0 Offset: 0x208FEA0 VA: 0x1820918A0
+	// RVA: 0x20916E0 Offset: 0x208FCE0 VA: 0x1820916E0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2091250 Offset: 0x208F850 VA: 0x182091250
+	// RVA: 0x2091090 Offset: 0x208F690 VA: 0x182091090
 	public static byte[] SerializeToBytes(AppMarker instance) { }
 
-	// RVA: 0x20911A0 Offset: 0x208F7A0 VA: 0x1820911A0
+	// RVA: 0x2090FE0 Offset: 0x208F5E0 VA: 0x182090FE0
 	public static void SerializeLengthDelimited(Stream stream, AppMarker instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -3011,13 +3011,13 @@ public class AppMarker.SellOrder : IDisposable, Pool.IPooled, IProto // TypeDefI
 
 	// Methods
 
-	// RVA: 0x2099230 Offset: 0x2097830 VA: 0x182099230
+	// RVA: 0x2099070 Offset: 0x2097670 VA: 0x182099070
 	public static void ResetToPool(AppMarker.SellOrder instance) { }
 
-	// RVA: 0x2099140 Offset: 0x2097740 VA: 0x182099140
+	// RVA: 0x2098F80 Offset: 0x2097580 VA: 0x182098F80
 	public void ResetToPool() { }
 
-	// RVA: 0x2098D40 Offset: 0x2097340 VA: 0x182098D40 Slot: 9
+	// RVA: 0x2098B80 Offset: 0x2097180 VA: 0x182098B80 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -3026,64 +3026,64 @@ public class AppMarker.SellOrder : IDisposable, Pool.IPooled, IProto // TypeDefI
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x2097300 Offset: 0x2095900 VA: 0x182097300
+	// RVA: 0x2097140 Offset: 0x2095740 VA: 0x182097140
 	public void CopyTo(AppMarker.SellOrder instance) { }
 
-	// RVA: 0x2097350 Offset: 0x2095950 VA: 0x182097350
+	// RVA: 0x2097190 Offset: 0x2095790 VA: 0x182097190
 	public AppMarker.SellOrder Copy() { }
 
-	// RVA: 0x2097D60 Offset: 0x2096360 VA: 0x182097D60
+	// RVA: 0x2097BA0 Offset: 0x20961A0 VA: 0x182097BA0
 	public static AppMarker.SellOrder Deserialize(Stream stream) { }
 
-	// RVA: 0x20973F0 Offset: 0x20959F0 VA: 0x1820973F0
+	// RVA: 0x2097230 Offset: 0x2095830 VA: 0x182097230
 	public static AppMarker.SellOrder DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2097CD0 Offset: 0x20962D0 VA: 0x182097CD0
+	// RVA: 0x2097B10 Offset: 0x2096110 VA: 0x182097B10
 	public static AppMarker.SellOrder DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20988C0 Offset: 0x2096EC0 VA: 0x1820988C0
+	// RVA: 0x2098700 Offset: 0x2096D00 VA: 0x182098700
 	public static AppMarker.SellOrder Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2098DC0 Offset: 0x20973C0 VA: 0x182098DC0
+	// RVA: 0x2098C00 Offset: 0x2097200 VA: 0x182098C00
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2099A80 Offset: 0x2098080 VA: 0x182099A80 Slot: 12
+	// RVA: 0x20998C0 Offset: 0x2097EC0 VA: 0x1820998C0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2099AA0 Offset: 0x20980A0 VA: 0x182099AA0 Slot: 13
+	// RVA: 0x20998E0 Offset: 0x2097EE0 VA: 0x1820998E0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppMarker.SellOrder previous) { }
 
-	// RVA: 0x2099120 Offset: 0x2097720 VA: 0x182099120 Slot: 14
+	// RVA: 0x2098F60 Offset: 0x2097560 VA: 0x182098F60 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2098460 Offset: 0x2096A60 VA: 0x182098460
+	// RVA: 0x20982A0 Offset: 0x20968A0 VA: 0x1820982A0
 	public static AppMarker.SellOrder Deserialize(byte[] buffer, AppMarker.SellOrder instance, bool isDelta = False) { }
 
-	// RVA: 0x2098100 Offset: 0x2096700 VA: 0x182098100
+	// RVA: 0x2097F40 Offset: 0x2096540 VA: 0x182097F40
 	public static AppMarker.SellOrder Deserialize(Stream stream, AppMarker.SellOrder instance, bool isDelta) { }
 
-	// RVA: 0x2097470 Offset: 0x2095A70 VA: 0x182097470
+	// RVA: 0x20972B0 Offset: 0x20958B0 VA: 0x1820972B0
 	public static AppMarker.SellOrder DeserializeLengthDelimited(Stream stream, AppMarker.SellOrder instance, bool isDelta) { }
 
-	// RVA: 0x20978B0 Offset: 0x2095EB0 VA: 0x1820978B0
+	// RVA: 0x20976F0 Offset: 0x2095CF0 VA: 0x1820976F0
 	public static AppMarker.SellOrder DeserializeLength(Stream stream, int length, AppMarker.SellOrder instance, bool isDelta) { }
 
-	// RVA: 0x2099320 Offset: 0x2097920 VA: 0x182099320
+	// RVA: 0x2099160 Offset: 0x2097760 VA: 0x182099160
 	public static void SerializeDelta(Stream stream, AppMarker.SellOrder instance, AppMarker.SellOrder previous) { }
 
-	// RVA: 0x2099870 Offset: 0x2097E70 VA: 0x182099870
+	// RVA: 0x20996B0 Offset: 0x2097CB0 VA: 0x1820996B0
 	public static void Serialize(Stream stream, AppMarker.SellOrder instance) { }
 
-	// RVA: 0x2099A70 Offset: 0x2098070 VA: 0x182099A70
+	// RVA: 0x20998B0 Offset: 0x2097EB0 VA: 0x1820998B0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2099A80 Offset: 0x2098080 VA: 0x182099A80
+	// RVA: 0x20998C0 Offset: 0x2097EC0 VA: 0x1820998C0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2099760 Offset: 0x2097D60 VA: 0x182099760
+	// RVA: 0x20995A0 Offset: 0x2097BA0 VA: 0x1820995A0
 	public static byte[] SerializeToBytes(AppMarker.SellOrder instance) { }
 
-	// RVA: 0x20996B0 Offset: 0x2097CB0 VA: 0x1820996B0
+	// RVA: 0x20994F0 Offset: 0x2097AF0 VA: 0x1820994F0
 	public static void SerializeLengthDelimited(Stream stream, AppMarker.SellOrder instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -3099,13 +3099,13 @@ public class AppMapMarkers : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x208B8B0 Offset: 0x2089EB0 VA: 0x18208B8B0
+	// RVA: 0x208B6F0 Offset: 0x2089CF0 VA: 0x18208B6F0
 	public static void ResetToPool(AppMapMarkers instance) { }
 
-	// RVA: 0x208BA60 Offset: 0x208A060 VA: 0x18208BA60
+	// RVA: 0x208B8A0 Offset: 0x2089EA0 VA: 0x18208B8A0
 	public void ResetToPool() { }
 
-	// RVA: 0x208B630 Offset: 0x2089C30 VA: 0x18208B630 Slot: 9
+	// RVA: 0x208B470 Offset: 0x2089A70 VA: 0x18208B470 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -3114,64 +3114,64 @@ public class AppMapMarkers : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x208A7A0 Offset: 0x2088DA0 VA: 0x18208A7A0
+	// RVA: 0x208A5E0 Offset: 0x2088BE0 VA: 0x18208A5E0
 	public void CopyTo(AppMapMarkers instance) { }
 
-	// RVA: 0x208A930 Offset: 0x2088F30 VA: 0x18208A930
+	// RVA: 0x208A770 Offset: 0x2088D70 VA: 0x18208A770
 	public AppMapMarkers Copy() { }
 
-	// RVA: 0x208B2C0 Offset: 0x20898C0 VA: 0x18208B2C0
+	// RVA: 0x208B100 Offset: 0x2089700 VA: 0x18208B100
 	public static AppMapMarkers Deserialize(Stream stream) { }
 
-	// RVA: 0x208ADF0 Offset: 0x20893F0 VA: 0x18208ADF0
+	// RVA: 0x208AC30 Offset: 0x2089230 VA: 0x18208AC30
 	public static AppMapMarkers DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x208B110 Offset: 0x2089710 VA: 0x18208B110
+	// RVA: 0x208AF50 Offset: 0x2089550 VA: 0x18208AF50
 	public static AppMapMarkers DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x208B1A0 Offset: 0x20897A0 VA: 0x18208B1A0
+	// RVA: 0x208AFE0 Offset: 0x20895E0 VA: 0x18208AFE0
 	public static AppMapMarkers Deserialize(byte[] buffer) { }
 
-	// RVA: 0x208B870 Offset: 0x2089E70 VA: 0x18208B870
+	// RVA: 0x208B6B0 Offset: 0x2089CB0 VA: 0x18208B6B0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x208C1A0 Offset: 0x208A7A0 VA: 0x18208C1A0 Slot: 12
+	// RVA: 0x208BFE0 Offset: 0x208A5E0 VA: 0x18208BFE0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x208C1C0 Offset: 0x208A7C0 VA: 0x18208C1C0 Slot: 13
+	// RVA: 0x208C000 Offset: 0x208A600 VA: 0x18208C000 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppMapMarkers previous) { }
 
-	// RVA: 0x208B890 Offset: 0x2089E90 VA: 0x18208B890 Slot: 14
+	// RVA: 0x208B6D0 Offset: 0x2089CD0 VA: 0x18208B6D0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x208B340 Offset: 0x2089940 VA: 0x18208B340
+	// RVA: 0x208B180 Offset: 0x2089780 VA: 0x18208B180
 	public static AppMapMarkers Deserialize(byte[] buffer, AppMapMarkers instance, bool isDelta = False) { }
 
-	// RVA: 0x208B440 Offset: 0x2089A40 VA: 0x18208B440
+	// RVA: 0x208B280 Offset: 0x2089880 VA: 0x18208B280
 	public static AppMapMarkers Deserialize(Stream stream, AppMapMarkers instance, bool isDelta) { }
 
-	// RVA: 0x208AB20 Offset: 0x2089120 VA: 0x18208AB20
+	// RVA: 0x208A960 Offset: 0x2088F60 VA: 0x18208A960
 	public static AppMapMarkers DeserializeLengthDelimited(Stream stream, AppMapMarkers instance, bool isDelta) { }
 
-	// RVA: 0x208AE70 Offset: 0x2089470 VA: 0x18208AE70
+	// RVA: 0x208ACB0 Offset: 0x20892B0 VA: 0x18208ACB0
 	public static AppMapMarkers DeserializeLength(Stream stream, int length, AppMapMarkers instance, bool isDelta) { }
 
-	// RVA: 0x208BC10 Offset: 0x208A210 VA: 0x18208BC10
+	// RVA: 0x208BA50 Offset: 0x208A050 VA: 0x18208BA50
 	public static void SerializeDelta(Stream stream, AppMapMarkers instance, AppMapMarkers previous) { }
 
-	// RVA: 0x208BFB0 Offset: 0x208A5B0 VA: 0x18208BFB0
+	// RVA: 0x208BDF0 Offset: 0x208A3F0 VA: 0x18208BDF0
 	public static void Serialize(Stream stream, AppMapMarkers instance) { }
 
-	// RVA: 0x208C190 Offset: 0x208A790 VA: 0x18208C190
+	// RVA: 0x208BFD0 Offset: 0x208A5D0 VA: 0x18208BFD0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x208C1A0 Offset: 0x208A7A0 VA: 0x18208C1A0
+	// RVA: 0x208BFE0 Offset: 0x208A5E0 VA: 0x18208BFE0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x208BEA0 Offset: 0x208A4A0 VA: 0x18208BEA0
+	// RVA: 0x208BCE0 Offset: 0x208A2E0 VA: 0x18208BCE0
 	public static byte[] SerializeToBytes(AppMapMarkers instance) { }
 
-	// RVA: 0x208BDF0 Offset: 0x208A3F0 VA: 0x18208BDF0
+	// RVA: 0x208BC30 Offset: 0x208A230 VA: 0x18208BC30
 	public static void SerializeLengthDelimited(Stream stream, AppMapMarkers instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -3188,13 +3188,13 @@ public class AppTeamChanged : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1E1C190 Offset: 0x1E1A790 VA: 0x181E1C190
+	// RVA: 0x1E1BFD0 Offset: 0x1E1A5D0 VA: 0x181E1BFD0
 	public static void ResetToPool(AppTeamChanged instance) { }
 
-	// RVA: 0x1E1C0E0 Offset: 0x1E1A6E0 VA: 0x181E1C0E0
+	// RVA: 0x1E1BF20 Offset: 0x1E1A520 VA: 0x181E1BF20
 	public void ResetToPool() { }
 
-	// RVA: 0x1E1BF70 Offset: 0x1E1A570 VA: 0x181E1BF70 Slot: 9
+	// RVA: 0x1E1BDB0 Offset: 0x1E1A3B0 VA: 0x181E1BDB0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -3203,64 +3203,64 @@ public class AppTeamChanged : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E1B300 Offset: 0x1E19900 VA: 0x181E1B300
+	// RVA: 0x1E1B140 Offset: 0x1E19740 VA: 0x181E1B140
 	public void CopyTo(AppTeamChanged instance) { }
 
-	// RVA: 0x1E1B380 Offset: 0x1E19980 VA: 0x181E1B380
+	// RVA: 0x1E1B1C0 Offset: 0x1E197C0 VA: 0x181E1B1C0
 	public AppTeamChanged Copy() { }
 
-	// RVA: 0x1E1BAD0 Offset: 0x1E1A0D0 VA: 0x181E1BAD0
+	// RVA: 0x1E1B910 Offset: 0x1E19F10 VA: 0x181E1B910
 	public static AppTeamChanged Deserialize(Stream stream) { }
 
-	// RVA: 0x1E1B450 Offset: 0x1E19A50 VA: 0x181E1B450
+	// RVA: 0x1E1B290 Offset: 0x1E19890 VA: 0x181E1B290
 	public static AppTeamChanged DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E1B7A0 Offset: 0x1E19DA0 VA: 0x181E1B7A0
+	// RVA: 0x1E1B5E0 Offset: 0x1E19BE0 VA: 0x181E1B5E0
 	public static AppTeamChanged DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E1BD50 Offset: 0x1E1A350 VA: 0x181E1BD50
+	// RVA: 0x1E1BB90 Offset: 0x1E1A190 VA: 0x181E1BB90
 	public static AppTeamChanged Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E1C0A0 Offset: 0x1E1A6A0 VA: 0x181E1C0A0
+	// RVA: 0x1E1BEE0 Offset: 0x1E1A4E0 VA: 0x181E1BEE0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E1C860 Offset: 0x1E1AE60 VA: 0x181E1C860 Slot: 12
+	// RVA: 0x1E1C6A0 Offset: 0x1E1ACA0 VA: 0x181E1C6A0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E1C880 Offset: 0x1E1AE80 VA: 0x181E1C880 Slot: 13
+	// RVA: 0x1E1C6C0 Offset: 0x1E1ACC0 VA: 0x181E1C6C0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppTeamChanged previous) { }
 
-	// RVA: 0x1E1C0C0 Offset: 0x1E1A6C0 VA: 0x181E1C0C0 Slot: 14
+	// RVA: 0x1E1BF00 Offset: 0x1E1A500 VA: 0x181E1BF00 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E1BE70 Offset: 0x1E1A470 VA: 0x181E1BE70
+	// RVA: 0x1E1BCB0 Offset: 0x1E1A2B0 VA: 0x181E1BCB0
 	public static AppTeamChanged Deserialize(byte[] buffer, AppTeamChanged instance, bool isDelta = False) { }
 
-	// RVA: 0x1E1BB50 Offset: 0x1E1A150 VA: 0x181E1BB50
+	// RVA: 0x1E1B990 Offset: 0x1E19F90 VA: 0x181E1B990
 	public static AppTeamChanged Deserialize(Stream stream, AppTeamChanged instance, bool isDelta) { }
 
-	// RVA: 0x1E1B4D0 Offset: 0x1E19AD0 VA: 0x181E1B4D0
+	// RVA: 0x1E1B310 Offset: 0x1E19910 VA: 0x181E1B310
 	public static AppTeamChanged DeserializeLengthDelimited(Stream stream, AppTeamChanged instance, bool isDelta) { }
 
-	// RVA: 0x1E1B830 Offset: 0x1E19E30 VA: 0x181E1B830
+	// RVA: 0x1E1B670 Offset: 0x1E19C70 VA: 0x181E1B670
 	public static AppTeamChanged DeserializeLength(Stream stream, int length, AppTeamChanged instance, bool isDelta) { }
 
-	// RVA: 0x1E1C240 Offset: 0x1E1A840 VA: 0x181E1C240
+	// RVA: 0x1E1C080 Offset: 0x1E1A680 VA: 0x181E1C080
 	public static void SerializeDelta(Stream stream, AppTeamChanged instance, AppTeamChanged previous) { }
 
-	// RVA: 0x1E1C640 Offset: 0x1E1AC40 VA: 0x181E1C640
+	// RVA: 0x1E1C480 Offset: 0x1E1AA80 VA: 0x181E1C480
 	public static void Serialize(Stream stream, AppTeamChanged instance) { }
 
-	// RVA: 0x1E1C850 Offset: 0x1E1AE50 VA: 0x181E1C850
+	// RVA: 0x1E1C690 Offset: 0x1E1AC90 VA: 0x181E1C690
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E1C860 Offset: 0x1E1AE60 VA: 0x181E1C860
+	// RVA: 0x1E1C6A0 Offset: 0x1E1ACA0 VA: 0x181E1C6A0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E1C530 Offset: 0x1E1AB30 VA: 0x181E1C530
+	// RVA: 0x1E1C370 Offset: 0x1E1A970 VA: 0x181E1C370
 	public static byte[] SerializeToBytes(AppTeamChanged instance) { }
 
-	// RVA: 0x1E1C480 Offset: 0x1E1AA80 VA: 0x181E1C480
+	// RVA: 0x1E1C2C0 Offset: 0x1E1A8C0 VA: 0x181E1C2C0
 	public static void SerializeLengthDelimited(Stream stream, AppTeamChanged instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -3276,13 +3276,13 @@ public class AppTeamMessage : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1E21510 Offset: 0x1E1FB10 VA: 0x181E21510
+	// RVA: 0x1E21350 Offset: 0x1E1F950 VA: 0x181E21350
 	public static void ResetToPool(AppTeamMessage instance) { }
 
-	// RVA: 0x1E21470 Offset: 0x1E1FA70 VA: 0x181E21470
+	// RVA: 0x1E212B0 Offset: 0x1E1F8B0 VA: 0x181E212B0
 	public void ResetToPool() { }
 
-	// RVA: 0x1E21310 Offset: 0x1E1F910 VA: 0x181E21310 Slot: 9
+	// RVA: 0x1E21150 Offset: 0x1E1F750 VA: 0x181E21150 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -3291,64 +3291,64 @@ public class AppTeamMessage : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E20870 Offset: 0x1E1EE70 VA: 0x181E20870
+	// RVA: 0x1E206B0 Offset: 0x1E1ECB0 VA: 0x181E206B0
 	public void CopyTo(AppTeamMessage instance) { }
 
-	// RVA: 0x1E208E0 Offset: 0x1E1EEE0 VA: 0x181E208E0
+	// RVA: 0x1E20720 Offset: 0x1E1ED20 VA: 0x181E20720
 	public AppTeamMessage Copy() { }
 
-	// RVA: 0x1E21290 Offset: 0x1E1F890 VA: 0x181E21290
+	// RVA: 0x1E210D0 Offset: 0x1E1F6D0 VA: 0x181E210D0
 	public static AppTeamMessage Deserialize(Stream stream) { }
 
-	// RVA: 0x1E209B0 Offset: 0x1E1EFB0 VA: 0x181E209B0
+	// RVA: 0x1E207F0 Offset: 0x1E1EDF0 VA: 0x181E207F0
 	public static AppTeamMessage DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E20E80 Offset: 0x1E1F480 VA: 0x181E20E80
+	// RVA: 0x1E20CC0 Offset: 0x1E1F2C0 VA: 0x181E20CC0
 	public static AppTeamMessage DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E21010 Offset: 0x1E1F610 VA: 0x181E21010
+	// RVA: 0x1E20E50 Offset: 0x1E1F450 VA: 0x181E20E50
 	public static AppTeamMessage Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E21430 Offset: 0x1E1FA30 VA: 0x181E21430
+	// RVA: 0x1E21270 Offset: 0x1E1F870 VA: 0x181E21270
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E21B20 Offset: 0x1E20120 VA: 0x181E21B20 Slot: 12
+	// RVA: 0x1E21960 Offset: 0x1E1FF60 VA: 0x181E21960 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E21B40 Offset: 0x1E20140 VA: 0x181E21B40 Slot: 13
+	// RVA: 0x1E21980 Offset: 0x1E1FF80 VA: 0x181E21980 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppTeamMessage previous) { }
 
-	// RVA: 0x1E21450 Offset: 0x1E1FA50 VA: 0x181E21450 Slot: 14
+	// RVA: 0x1E21290 Offset: 0x1E1F890 VA: 0x181E21290 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E20F10 Offset: 0x1E1F510 VA: 0x181E20F10
+	// RVA: 0x1E20D50 Offset: 0x1E1F350 VA: 0x181E20D50
 	public static AppTeamMessage Deserialize(byte[] buffer, AppTeamMessage instance, bool isDelta = False) { }
 
-	// RVA: 0x1E21130 Offset: 0x1E1F730 VA: 0x181E21130
+	// RVA: 0x1E20F70 Offset: 0x1E1F570 VA: 0x181E20F70
 	public static AppTeamMessage Deserialize(Stream stream, AppTeamMessage instance, bool isDelta) { }
 
-	// RVA: 0x1E20A30 Offset: 0x1E1F030 VA: 0x181E20A30
+	// RVA: 0x1E20870 Offset: 0x1E1EE70 VA: 0x181E20870
 	public static AppTeamMessage DeserializeLengthDelimited(Stream stream, AppTeamMessage instance, bool isDelta) { }
 
-	// RVA: 0x1E20C70 Offset: 0x1E1F270 VA: 0x181E20C70
+	// RVA: 0x1E20AB0 Offset: 0x1E1F0B0 VA: 0x181E20AB0
 	public static AppTeamMessage DeserializeLength(Stream stream, int length, AppTeamMessage instance, bool isDelta) { }
 
-	// RVA: 0x1E215B0 Offset: 0x1E1FBB0 VA: 0x181E215B0
+	// RVA: 0x1E213F0 Offset: 0x1E1F9F0 VA: 0x181E213F0
 	public static void SerializeDelta(Stream stream, AppTeamMessage instance, AppTeamMessage previous) { }
 
-	// RVA: 0x1E21950 Offset: 0x1E1FF50 VA: 0x181E21950
+	// RVA: 0x1E21790 Offset: 0x1E1FD90 VA: 0x181E21790
 	public static void Serialize(Stream stream, AppTeamMessage instance) { }
 
-	// RVA: 0x1E21B10 Offset: 0x1E20110 VA: 0x181E21B10
+	// RVA: 0x1E21950 Offset: 0x1E1FF50 VA: 0x181E21950
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E21B20 Offset: 0x1E20120 VA: 0x181E21B20
+	// RVA: 0x1E21960 Offset: 0x1E1FF60 VA: 0x181E21960
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E21840 Offset: 0x1E1FE40 VA: 0x181E21840
+	// RVA: 0x1E21680 Offset: 0x1E1FC80 VA: 0x181E21680
 	public static byte[] SerializeToBytes(AppTeamMessage instance) { }
 
-	// RVA: 0x1E21790 Offset: 0x1E1FD90 VA: 0x181E21790
+	// RVA: 0x1E215D0 Offset: 0x1E1FBD0 VA: 0x181E215D0
 	public static void SerializeLengthDelimited(Stream stream, AppTeamMessage instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -3365,13 +3365,13 @@ public class AppEntityChanged : IDisposable, Pool.IPooled, IProto // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x20819B0 Offset: 0x207FFB0 VA: 0x1820819B0
+	// RVA: 0x20817F0 Offset: 0x207FDF0 VA: 0x1820817F0
 	public static void ResetToPool(AppEntityChanged instance) { }
 
-	// RVA: 0x2081900 Offset: 0x207FF00 VA: 0x182081900
+	// RVA: 0x2081740 Offset: 0x207FD40 VA: 0x182081740
 	public void ResetToPool() { }
 
-	// RVA: 0x2081790 Offset: 0x207FD90 VA: 0x182081790 Slot: 9
+	// RVA: 0x20815D0 Offset: 0x207FBD0 VA: 0x1820815D0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -3380,64 +3380,64 @@ public class AppEntityChanged : IDisposable, Pool.IPooled, IProto // TypeDefInde
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x2080B20 Offset: 0x207F120 VA: 0x182080B20
+	// RVA: 0x2080960 Offset: 0x207EF60 VA: 0x182080960
 	public void CopyTo(AppEntityChanged instance) { }
 
-	// RVA: 0x2080BA0 Offset: 0x207F1A0 VA: 0x182080BA0
+	// RVA: 0x20809E0 Offset: 0x207EFE0 VA: 0x1820809E0
 	public AppEntityChanged Copy() { }
 
-	// RVA: 0x20813F0 Offset: 0x207F9F0 VA: 0x1820813F0
+	// RVA: 0x2081230 Offset: 0x207F830 VA: 0x182081230
 	public static AppEntityChanged Deserialize(Stream stream) { }
 
-	// RVA: 0x2080F40 Offset: 0x207F540 VA: 0x182080F40
+	// RVA: 0x2080D80 Offset: 0x207F380 VA: 0x182080D80
 	public static AppEntityChanged DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2081260 Offset: 0x207F860 VA: 0x182081260
+	// RVA: 0x20810A0 Offset: 0x207F6A0 VA: 0x1820810A0
 	public static AppEntityChanged DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2081670 Offset: 0x207FC70 VA: 0x182081670
+	// RVA: 0x20814B0 Offset: 0x207FAB0 VA: 0x1820814B0
 	public static AppEntityChanged Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20818C0 Offset: 0x207FEC0 VA: 0x1820818C0
+	// RVA: 0x2081700 Offset: 0x207FD00 VA: 0x182081700
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2082070 Offset: 0x2080670 VA: 0x182082070 Slot: 12
+	// RVA: 0x2081EB0 Offset: 0x20804B0 VA: 0x182081EB0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2082090 Offset: 0x2080690 VA: 0x182082090 Slot: 13
+	// RVA: 0x2081ED0 Offset: 0x20804D0 VA: 0x182081ED0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AppEntityChanged previous) { }
 
-	// RVA: 0x20818E0 Offset: 0x207FEE0 VA: 0x1820818E0 Slot: 14
+	// RVA: 0x2081720 Offset: 0x207FD20 VA: 0x182081720 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20812F0 Offset: 0x207F8F0 VA: 0x1820812F0
+	// RVA: 0x2081130 Offset: 0x207F730 VA: 0x182081130
 	public static AppEntityChanged Deserialize(byte[] buffer, AppEntityChanged instance, bool isDelta = False) { }
 
-	// RVA: 0x2081470 Offset: 0x207FA70 VA: 0x182081470
+	// RVA: 0x20812B0 Offset: 0x207F8B0 VA: 0x1820812B0
 	public static AppEntityChanged Deserialize(Stream stream, AppEntityChanged instance, bool isDelta) { }
 
-	// RVA: 0x2080C70 Offset: 0x207F270 VA: 0x182080C70
+	// RVA: 0x2080AB0 Offset: 0x207F0B0 VA: 0x182080AB0
 	public static AppEntityChanged DeserializeLengthDelimited(Stream stream, AppEntityChanged instance, bool isDelta) { }
 
-	// RVA: 0x2080FC0 Offset: 0x207F5C0 VA: 0x182080FC0
+	// RVA: 0x2080E00 Offset: 0x207F400 VA: 0x182080E00
 	public static AppEntityChanged DeserializeLength(Stream stream, int length, AppEntityChanged instance, bool isDelta) { }
 
-	// RVA: 0x2081A60 Offset: 0x2080060 VA: 0x182081A60
+	// RVA: 0x20818A0 Offset: 0x207FEA0 VA: 0x1820818A0
 	public static void SerializeDelta(Stream stream, AppEntityChanged instance, AppEntityChanged previous) { }
 
-	// RVA: 0x2081E50 Offset: 0x2080450 VA: 0x182081E50
+	// RVA: 0x2081C90 Offset: 0x2080290 VA: 0x182081C90
 	public static void Serialize(Stream stream, AppEntityChanged instance) { }
 
-	// RVA: 0x2082060 Offset: 0x2080660 VA: 0x182082060
+	// RVA: 0x2081EA0 Offset: 0x20804A0 VA: 0x182081EA0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2082070 Offset: 0x2080670 VA: 0x182082070
+	// RVA: 0x2081EB0 Offset: 0x20804B0 VA: 0x182081EB0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2081D40 Offset: 0x2080340 VA: 0x182081D40
+	// RVA: 0x2081B80 Offset: 0x2080180 VA: 0x182081B80
 	public static byte[] SerializeToBytes(AppEntityChanged instance) { }
 
-	// RVA: 0x2081C90 Offset: 0x2080290 VA: 0x182081C90
+	// RVA: 0x2081AD0 Offset: 0x20800D0 VA: 0x182081AD0
 	public static void SerializeLengthDelimited(Stream stream, AppEntityChanged instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -3483,13 +3483,13 @@ public static class Application // TypeDefIndex: 6613
 
 	// Methods
 
-	// RVA: 0x1B9D7B0 Offset: 0x1B9BDB0 VA: 0x181B9D7B0
+	// RVA: 0x1B9D5F0 Offset: 0x1B9BBF0 VA: 0x181B9D5F0
 	public static void Quit() { }
 
-	// RVA: 0x1B9D820 Offset: 0x1B9BE20 VA: 0x181B9D820
+	// RVA: 0x1B9D660 Offset: 0x1B9BC60 VA: 0x181B9D660
 	public static string get_installPath() { }
 
-	// RVA: 0x1B9D810 Offset: 0x1B9BE10 VA: 0x181B9D810
+	// RVA: 0x1B9D650 Offset: 0x1B9BC50 VA: 0x181B9D650
 	public static string get_dataPath() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -4506,27 +4506,27 @@ public static class Approved // TypeDefIndex: 7722
 
 public class ApprovedSkinInfo // TypeDefIndex: 7738
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ulong <InventoryId>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Desc>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Name>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ulong <WorkshopdId>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Price <Price>k__BackingField; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <Tradable>k__BackingField; // 0x34
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private DropChance <DropChance>k__BackingField; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <Marketable>k__BackingField; // 0x3C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Skinnable <Skinnable>k__BackingField; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <AllowInCrates>k__BackingField; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IsLimitedTimeOffer>k__BackingField; // 0x49
 
 	// Properties
@@ -4544,91 +4544,91 @@ public class ApprovedSkinInfo // TypeDefIndex: 7738
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public ulong get_InventoryId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8C1080 Offset: 0x8BF680 VA: 0x1808C1080
 	private void set_InventoryId(ulong value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public string get_Desc() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_Desc(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public string get_Name() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	private void set_Name(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
 	public ulong get_WorkshopdId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE72CC0 Offset: 0xE712C0 VA: 0x180E72CC0
 	private void set_WorkshopdId(ulong value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA38CE0 Offset: 0xA372E0 VA: 0x180A38CE0
 	internal Price get_Price() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA392A0 Offset: 0xA378A0 VA: 0x180A392A0
 	private void set_Price(Price value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xBA1A80 Offset: 0xBA0080 VA: 0x180BA1A80
 	public bool get_Tradable() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE72CB0 Offset: 0xE712B0 VA: 0x180E72CB0
 	private void set_Tradable(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6BB940 Offset: 0x6B9F40 VA: 0x1806BB940
 	public DropChance get_DropChance() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC74910 Offset: 0xC72F10 VA: 0x180C74910
 	private void set_DropChance(DropChance value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC659E0 Offset: 0xC63FE0 VA: 0x180C659E0
 	public bool get_Marketable() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE72CA0 Offset: 0xE712A0 VA: 0x180E72CA0
 	private void set_Marketable(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
 	public Skinnable get_Skinnable() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
 	private void set_Skinnable(Skinnable value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC3E0 Offset: 0x4BA9E0 VA: 0x1804BC3E0
 	public bool get_AllowInCrates() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5E0 Offset: 0x4BABE0 VA: 0x1804BC5E0
 	private void set_AllowInCrates(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xBA1AA0 Offset: 0xBA00A0 VA: 0x180BA1AA0
 	public bool get_IsLimitedTimeOffer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x82D7F0 Offset: 0x82BDF0 VA: 0x18082D7F0
 	private void set_IsLimitedTimeOffer(bool value) { }
 
@@ -4690,10 +4690,10 @@ public abstract class AppIOEntity : IOEntity // TypeDefIndex: 8306
 	// RVA: 0x82B170 Offset: 0x829770 VA: 0x18082B170 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.Menu] // RVA: 0xB0480 Offset: 0xAF880 VA: 0x1800B0480
-	[BaseEntity.Menu.Description] // RVA: 0xB0480 Offset: 0xAF880 VA: 0x1800B0480
-	[BaseEntity.Menu.Icon] // RVA: 0xB0480 Offset: 0xAF880 VA: 0x1800B0480
-	[BaseEntity.Menu.ShowIf] // RVA: 0xB0480 Offset: 0xAF880 VA: 0x1800B0480
+	[BaseEntity.Menu] // RVA: 0xB0520 Offset: 0xAF920 VA: 0x1800B0520
+	[BaseEntity.Menu.Description] // RVA: 0xB0520 Offset: 0xAF920 VA: 0x1800B0520
+	[BaseEntity.Menu.Icon] // RVA: 0xB0520 Offset: 0xAF920 VA: 0x1800B0520
+	[BaseEntity.Menu.ShowIf] // RVA: 0xB0520 Offset: 0xAF920 VA: 0x1800B0520
 	// RVA: 0x82B0D0 Offset: 0x8296D0 VA: 0x18082B0D0
 	public void Menu_Pair(BasePlayer player) { }
 
@@ -4753,25 +4753,25 @@ public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 11135
 
 public class App : ConsoleSystem // TypeDefIndex: 11882
 {	// Fields
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static string listenip; // 0x0
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int port; // 0x8
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static string publicip; // 0x10
-	[ServerVar] // RVA: 0x86470 Offset: 0x85870 VA: 0x180086470
+	[ServerVar] // RVA: 0x86530 Offset: 0x85930 VA: 0x180086530
 	public static bool update; // 0x18
-	[ServerVar] // RVA: 0x86540 Offset: 0x85940 VA: 0x180086540
+	[ServerVar] // RVA: 0x86600 Offset: 0x85A00 VA: 0x180086600
 	public static bool notifications; // 0x19
-	[ServerVar] // RVA: 0x866A0 Offset: 0x85AA0 VA: 0x1800866A0
+	[ServerVar] // RVA: 0x87AA0 Offset: 0x86EA0 VA: 0x180087AA0
 	public static int queuelimit; // 0x1C
-	[ReplicatedVar] // RVA: 0x87AD0 Offset: 0x86ED0 VA: 0x180087AD0
+	[ReplicatedVar] // RVA: 0x87BB0 Offset: 0x86FB0 VA: 0x180087BB0
 	public static string serverid; // 0x20
-	[ServerVar] // RVA: 0x87C90 Offset: 0x87090 VA: 0x180087C90
+	[ServerVar] // RVA: 0x87D90 Offset: 0x87190 VA: 0x180087D90
 	public static float alarmcooldown; // 0x28
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int maxconnections; // 0x2C
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int maxconnectionsperip; // 0x30
 
 	// Methods

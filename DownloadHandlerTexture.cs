@@ -9,29 +9,29 @@ public sealed class DownloadHandlerTexture : DownloadHandler // TypeDefIndex: 47
 
 	// Methods
 
-	// RVA: 0x2322160 Offset: 0x2320760 VA: 0x182322160
+	// RVA: 0x2321FA0 Offset: 0x23205A0 VA: 0x182321FA0
 	private static IntPtr Create(DownloadHandlerTexture obj, bool readable) { }
 
-	// RVA: 0x2322340 Offset: 0x2320940 VA: 0x182322340
+	// RVA: 0x2322180 Offset: 0x2320780 VA: 0x182322180
 	private void InternalCreateTexture(bool readable) { }
 
-	// RVA: 0x2322510 Offset: 0x2320B10 VA: 0x182322510
+	// RVA: 0x2322350 Offset: 0x2320950 VA: 0x182322350
 	public void .ctor(bool readable) { }
 
-	// RVA: 0x2322330 Offset: 0x2320930 VA: 0x182322330 Slot: 5
+	// RVA: 0x2322170 Offset: 0x2320770 VA: 0x182322170 Slot: 5
 	protected override byte[] GetData() { }
 
-	// RVA: 0x23223D0 Offset: 0x23209D0 VA: 0x1823223D0
+	// RVA: 0x2322210 Offset: 0x2320810 VA: 0x182322210
 	public Texture2D get_texture() { }
 
-	// RVA: 0x23223D0 Offset: 0x23209D0 VA: 0x1823223D0
+	// RVA: 0x2322210 Offset: 0x2320810 VA: 0x182322210
 	private Texture2D InternalGetTexture() { }
 
-	[NativeThrowsAttribute] // RVA: 0x80A80 Offset: 0x7FE80 VA: 0x180080A80
-	// RVA: 0x2322390 Offset: 0x2320990 VA: 0x182322390
+	[NativeThrowsAttribute] // RVA: 0x80B40 Offset: 0x7FF40 VA: 0x180080B40
+	// RVA: 0x23221D0 Offset: 0x23207D0 VA: 0x1823221D0
 	private Texture2D InternalGetTextureNative() { }
 
-	// RVA: 0x23221B0 Offset: 0x23207B0 VA: 0x1823221B0
+	// RVA: 0x2321FF0 Offset: 0x23205F0 VA: 0x182321FF0
 	public static Texture2D GetContent(UnityWebRequest www) { }
 
 }

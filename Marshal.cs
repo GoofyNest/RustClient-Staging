@@ -8,11 +8,11 @@ public static class Marshal // TypeDefIndex: 1355
 	// RVA: 0xFE9F90 Offset: 0xFE8590 VA: 0x180FE9F90
 	public static IntPtr AllocCoTaskMem(int cb) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83CE0 Offset: 0x830E0 VA: 0x180083CE0
+	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
 	// RVA: 0xFE9FA0 Offset: 0xFE85A0 VA: 0x180FE9FA0
 	public static IntPtr AllocHGlobal(IntPtr cb) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83CE0 Offset: 0x830E0 VA: 0x180083CE0
+	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
 	// RVA: 0xFE9FB0 Offset: 0xFE85B0 VA: 0x180FE9FB0
 	public static IntPtr AllocHGlobal(int cb) { }
 
@@ -43,7 +43,7 @@ public static class Marshal // TypeDefIndex: 1355
 	// RVA: 0xFEA420 Offset: 0xFE8A20 VA: 0x180FEA420
 	public static void FreeBSTR(IntPtr ptr) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0xFEA430 Offset: 0xFE8A30 VA: 0x180FEA430
 	public static void FreeHGlobal(IntPtr hglobal) { }
 
@@ -56,7 +56,7 @@ public static class Marshal // TypeDefIndex: 1355
 	// RVA: 0xFEA450 Offset: 0xFE8A50 VA: 0x180FEA450
 	public static int GetHRForException(Exception e) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0xFEA460 Offset: 0xFE8A60 VA: 0x180FEA460
 	public static int GetLastWin32Error() { }
 
@@ -69,7 +69,7 @@ public static class Marshal // TypeDefIndex: 1355
 	// RVA: 0xFEA480 Offset: 0xFE8A80 VA: 0x180FEA480
 	public static string PtrToStringUni(IntPtr ptr, int len) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0xFEA4A0 Offset: 0xFE8AA0 VA: 0x180FEA4A0
 	public static object PtrToStructure(IntPtr ptr, Type structureType) { }
 
@@ -94,34 +94,34 @@ public static class Marshal // TypeDefIndex: 1355
 	// RVA: 0xFEA4D0 Offset: 0xFE8AD0 VA: 0x180FEA4D0
 	public static short ReadInt16(IntPtr ptr, int ofs) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0xFEA520 Offset: 0xFE8B20 VA: 0x180FEA520
 	public static int ReadInt32(IntPtr ptr) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0xFEA560 Offset: 0xFE8B60 VA: 0x180FEA560
 	public static int ReadInt32(IntPtr ptr, int ofs) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0xFEA600 Offset: 0xFE8C00 VA: 0x180FEA600
 	public static long ReadInt64(IntPtr ptr) { }
 
 	// RVA: 0xFEA5B0 Offset: 0xFE8BB0 VA: 0x180FEA5B0
 	public static long ReadInt64(IntPtr ptr, int ofs) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0xFEA770 Offset: 0xFE8D70 VA: 0x180FEA770
 	public static IntPtr ReadIntPtr(IntPtr ptr) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0xFEA650 Offset: 0xFE8C50 VA: 0x180FEA650
 	public static IntPtr ReadIntPtr(IntPtr ptr, int ofs) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0xFEA880 Offset: 0xFE8E80 VA: 0x180FEA880
 	private static int ReleaseInternal(IntPtr pUnk) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0xFEA890 Offset: 0xFE8E90 VA: 0x180FEA890
 	public static int Release(IntPtr pUnk) { }
 
@@ -148,8 +148,8 @@ public static class Marshal // TypeDefIndex: 1355
 	// RVA: 0xFEABB0 Offset: 0xFE91B0 VA: 0x180FEABB0
 	public static IntPtr SecureStringToGlobalAllocUnicode(SecureString s) { }
 
-	[ComVisibleAttribute] // RVA: 0xE0D50 Offset: 0xE0150 VA: 0x1800E0D50
-	[ReliabilityContractAttribute] // RVA: 0xE0D50 Offset: 0xE0150 VA: 0x1800E0D50
+	[ComVisibleAttribute] // RVA: 0xE0D30 Offset: 0xE0130 VA: 0x1800E0D30
+	[ReliabilityContractAttribute] // RVA: 0xE0D30 Offset: 0xE0130 VA: 0x1800E0D30
 	// RVA: 0xFEAC60 Offset: 0xFE9260 VA: 0x180FEAC60
 	public static void StructureToPtr(object structure, IntPtr ptr, bool fDeleteOld) { }
 

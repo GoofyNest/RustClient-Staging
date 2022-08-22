@@ -1,6 +1,6 @@
 internal sealed class ThreadPoolWorkQueueThreadLocals // TypeDefIndex: 813
 {	// Fields
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public static ThreadPoolWorkQueueThreadLocals threadLocals; // 0x80000000
 	public readonly ThreadPoolWorkQueue workQueue; // 0x10
 	public readonly ThreadPoolWorkQueue.WorkStealingQueue workStealingQueue; // 0x18

@@ -6,13 +6,13 @@ public class Zipline : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6434
 
 	// Methods
 
-	// RVA: 0x1E5E770 Offset: 0x1E5CD70 VA: 0x181E5E770
+	// RVA: 0x1E5E5B0 Offset: 0x1E5CBB0 VA: 0x181E5E5B0
 	public static void ResetToPool(Zipline instance) { }
 
-	// RVA: 0x1E5E690 Offset: 0x1E5CC90 VA: 0x181E5E690
+	// RVA: 0x1E5E4D0 Offset: 0x1E5CAD0 VA: 0x181E5E4D0
 	public void ResetToPool() { }
 
-	// RVA: 0x1E5E500 Offset: 0x1E5CB00 VA: 0x181E5E500 Slot: 9
+	// RVA: 0x1E5E340 Offset: 0x1E5C940 VA: 0x181E5E340 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -21,64 +21,64 @@ public class Zipline : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6434
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E5D790 Offset: 0x1E5BD90 VA: 0x181E5D790
+	// RVA: 0x1E5D5D0 Offset: 0x1E5BBD0 VA: 0x181E5D5D0
 	public void CopyTo(Zipline instance) { }
 
-	// RVA: 0x1E5D8F0 Offset: 0x1E5BEF0 VA: 0x181E5D8F0
+	// RVA: 0x1E5D730 Offset: 0x1E5BD30 VA: 0x181E5D730
 	public Zipline Copy() { }
 
-	// RVA: 0x1E5E0B0 Offset: 0x1E5C6B0 VA: 0x181E5E0B0
+	// RVA: 0x1E5DEF0 Offset: 0x1E5C4F0 VA: 0x181E5DEF0
 	public static Zipline Deserialize(Stream stream) { }
 
-	// RVA: 0x1E5DAB0 Offset: 0x1E5C0B0 VA: 0x181E5DAB0
+	// RVA: 0x1E5D8F0 Offset: 0x1E5BEF0 VA: 0x181E5D8F0
 	public static Zipline DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E5DDB0 Offset: 0x1E5C3B0 VA: 0x181E5DDB0
+	// RVA: 0x1E5DBF0 Offset: 0x1E5C1F0 VA: 0x181E5DBF0
 	public static Zipline DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E5E130 Offset: 0x1E5C730 VA: 0x181E5E130
+	// RVA: 0x1E5DF70 Offset: 0x1E5C570 VA: 0x181E5DF70
 	public static Zipline Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E5E650 Offset: 0x1E5CC50 VA: 0x181E5E650
+	// RVA: 0x1E5E490 Offset: 0x1E5CA90 VA: 0x181E5E490
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E5EF30 Offset: 0x1E5D530 VA: 0x181E5EF30 Slot: 12
+	// RVA: 0x1E5ED70 Offset: 0x1E5D370 VA: 0x181E5ED70 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E5EF50 Offset: 0x1E5D550 VA: 0x181E5EF50 Slot: 13
+	// RVA: 0x1E5ED90 Offset: 0x1E5D390 VA: 0x181E5ED90 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Zipline previous) { }
 
-	// RVA: 0x1E5E670 Offset: 0x1E5CC70 VA: 0x181E5E670 Slot: 14
+	// RVA: 0x1E5E4B0 Offset: 0x1E5CAB0 VA: 0x181E5E4B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E5E400 Offset: 0x1E5CA00 VA: 0x181E5E400
+	// RVA: 0x1E5E240 Offset: 0x1E5C840 VA: 0x181E5E240
 	public static Zipline Deserialize(byte[] buffer, Zipline instance, bool isDelta = False) { }
 
-	// RVA: 0x1E5E250 Offset: 0x1E5C850 VA: 0x181E5E250
+	// RVA: 0x1E5E090 Offset: 0x1E5C690 VA: 0x181E5E090
 	public static Zipline Deserialize(Stream stream, Zipline instance, bool isDelta) { }
 
-	// RVA: 0x1E5DB30 Offset: 0x1E5C130 VA: 0x181E5DB30
+	// RVA: 0x1E5D970 Offset: 0x1E5BF70 VA: 0x181E5D970
 	public static Zipline DeserializeLengthDelimited(Stream stream, Zipline instance, bool isDelta) { }
 
-	// RVA: 0x1E5DE40 Offset: 0x1E5C440 VA: 0x181E5DE40
+	// RVA: 0x1E5DC80 Offset: 0x1E5C280 VA: 0x181E5DC80
 	public static Zipline DeserializeLength(Stream stream, int length, Zipline instance, bool isDelta) { }
 
-	// RVA: 0x1E5E850 Offset: 0x1E5CE50 VA: 0x181E5E850
+	// RVA: 0x1E5E690 Offset: 0x1E5CC90 VA: 0x181E5E690
 	public static void SerializeDelta(Stream stream, Zipline instance, Zipline previous) { }
 
-	// RVA: 0x1E5ECD0 Offset: 0x1E5D2D0 VA: 0x181E5ECD0
+	// RVA: 0x1E5EB10 Offset: 0x1E5D110 VA: 0x181E5EB10
 	public static void Serialize(Stream stream, Zipline instance) { }
 
-	// RVA: 0x1E5EF20 Offset: 0x1E5D520 VA: 0x181E5EF20
+	// RVA: 0x1E5ED60 Offset: 0x1E5D360 VA: 0x181E5ED60
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E5EF30 Offset: 0x1E5D530 VA: 0x181E5EF30
+	// RVA: 0x1E5ED70 Offset: 0x1E5D370 VA: 0x181E5ED70
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E5EBC0 Offset: 0x1E5D1C0 VA: 0x181E5EBC0
+	// RVA: 0x1E5EA00 Offset: 0x1E5D000 VA: 0x181E5EA00
 	public static byte[] SerializeToBytes(Zipline instance) { }
 
-	// RVA: 0x1E5EAD0 Offset: 0x1E5D0D0 VA: 0x181E5EAD0
+	// RVA: 0x1E5E910 Offset: 0x1E5CF10 VA: 0x181E5E910
 	public static void SerializeLengthDelimited(Stream stream, Zipline instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80

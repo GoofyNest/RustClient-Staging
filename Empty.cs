@@ -1,6 +1,6 @@
 internal sealed class Empty : ISerializable // TypeDefIndex: 209
 {	// Fields
-	public static readonly Empty Value; // 0x2B112DC
+	public static readonly Empty Value; // 0x2B102FC
 
 	// Methods
 

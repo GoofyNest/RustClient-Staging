@@ -13,7 +13,7 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable // TypeDefInd
 	internal const int MaxWaitHandles = 64;
 
 	// Properties
-	[ObsoleteAttribute] // RVA: 0xB9BF0 Offset: 0xB8FF0 VA: 0x1800B9BF0
+	[ObsoleteAttribute] // RVA: 0xB9C20 Offset: 0xB9020 VA: 0x1800B9C20
 	public virtual IntPtr Handle { set; }
 	public SafeWaitHandle SafeWaitHandle { get; set; }
 
@@ -28,11 +28,11 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable // TypeDefInd
 	// RVA: 0x161D180 Offset: 0x161B780 VA: 0x18161D180 Slot: 7
 	public virtual void set_Handle(IntPtr value) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83CE0 Offset: 0x830E0 VA: 0x180083CE0
+	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
 	// RVA: 0x161D0C0 Offset: 0x161B6C0 VA: 0x18161D0C0
 	public SafeWaitHandle get_SafeWaitHandle() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x161D290 Offset: 0x161B890 VA: 0x18161D290
 	public void set_SafeWaitHandle(SafeWaitHandle value) { }
 
@@ -54,11 +54,11 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable // TypeDefInd
 	// RVA: 0x161C1F0 Offset: 0x161A7F0 VA: 0x18161C1F0
 	internal static bool InternalWaitOne(SafeHandle waitableSafeHandle, long millisecondsTimeout, bool hasThreadAffinity, bool exitContext) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83CE0 Offset: 0x830E0 VA: 0x180083CE0
+	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
 	// RVA: 0x161C400 Offset: 0x161AA00 VA: 0x18161C400
 	public static int WaitAny(WaitHandle[] waitHandles, int millisecondsTimeout, bool exitContext) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83CE0 Offset: 0x830E0 VA: 0x180083CE0
+	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
 	// RVA: 0x161C760 Offset: 0x161AD60 VA: 0x18161C760
 	public static int WaitAny(WaitHandle[] waitHandles, TimeSpan timeout, bool exitContext) { }
 

@@ -3,7 +3,7 @@ public class Video : RustControl // TypeDefIndex: 7043
 	public RawImage VideoCanvas; // 0x30
 	public VideoPlayer VideoPlayer; // 0x38
 	public CanvasGroup CanvasGroup; // 0x40
-	[RangeAttribute] // RVA: 0x759D0 Offset: 0x74DD0 VA: 0x1800759D0
+	[RangeAttribute] // RVA: 0x75A70 Offset: 0x74E70 VA: 0x180075A70
 	public float FadeIn; // 0x48
 	private uint textureWidth; // 0x4C
 	private uint textureHeight; // 0x50

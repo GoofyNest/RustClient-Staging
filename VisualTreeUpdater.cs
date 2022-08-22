@@ -4,10 +4,10 @@ internal sealed class VisualTreeUpdater // TypeDefIndex: 4618
 
 	// Methods
 
-	// RVA: 0x22F79D0 Offset: 0x22F5FD0 VA: 0x1822F79D0
+	// RVA: 0x22F7810 Offset: 0x22F5E10 VA: 0x1822F7810
 	public void UpdateVisualTreePhase(VisualTreeUpdatePhase phase) { }
 
-	// RVA: 0x22F78A0 Offset: 0x22F5EA0 VA: 0x1822F78A0
+	// RVA: 0x22F76E0 Offset: 0x22F5CE0 VA: 0x1822F76E0
 	public void OnVersionChanged(VisualElement ve, VersionChangeType versionChangeType) { }
 
 }

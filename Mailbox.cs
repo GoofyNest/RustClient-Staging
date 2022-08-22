@@ -34,10 +34,10 @@ public class Mailbox : StorageContainer // TypeDefIndex: 8408
 	// RVA: 0x55BFC0 Offset: 0x55A5C0 VA: 0x18055BFC0
 	public void MarkFull(bool full) { }
 
-	[BaseEntity.Menu] // RVA: 0xECF60 Offset: 0xEC360 VA: 0x1800ECF60
-	[BaseEntity.Menu.Description] // RVA: 0xECF60 Offset: 0xEC360 VA: 0x1800ECF60
-	[BaseEntity.Menu.Icon] // RVA: 0xECF60 Offset: 0xEC360 VA: 0x1800ECF60
-	[BaseEntity.Menu.ShowIf] // RVA: 0xECF60 Offset: 0xEC360 VA: 0x1800ECF60
+	[BaseEntity.Menu] // RVA: 0xED010 Offset: 0xEC410 VA: 0x1800ED010
+	[BaseEntity.Menu.Description] // RVA: 0xED010 Offset: 0xEC410 VA: 0x1800ED010
+	[BaseEntity.Menu.Icon] // RVA: 0xED010 Offset: 0xEC410 VA: 0x1800ED010
+	[BaseEntity.Menu.ShowIf] // RVA: 0xED010 Offset: 0xEC410 VA: 0x1800ED010
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void Full(BasePlayer player) { }
 

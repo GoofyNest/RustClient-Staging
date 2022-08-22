@@ -5,28 +5,28 @@ public class BoxCollider : Collider // TypeDefIndex: 3925
 
 	// Methods
 
-	// RVA: 0x22968D0 Offset: 0x2294ED0 VA: 0x1822968D0
+	// RVA: 0x2296710 Offset: 0x2294D10 VA: 0x182296710
 	public Vector3 get_center() { }
 
-	// RVA: 0x2296A10 Offset: 0x2295010 VA: 0x182296A10
+	// RVA: 0x2296850 Offset: 0x2294E50 VA: 0x182296850
 	public void set_center(Vector3 value) { }
 
-	// RVA: 0x2296970 Offset: 0x2294F70 VA: 0x182296970
+	// RVA: 0x22967B0 Offset: 0x2294DB0 VA: 0x1822967B0
 	public Vector3 get_size() { }
 
-	// RVA: 0x2296AB0 Offset: 0x22950B0 VA: 0x182296AB0
+	// RVA: 0x22968F0 Offset: 0x2294EF0 VA: 0x1822968F0
 	public void set_size(Vector3 value) { }
 
-	// RVA: 0x2296880 Offset: 0x2294E80 VA: 0x182296880
+	// RVA: 0x22966C0 Offset: 0x2294CC0 VA: 0x1822966C0
 	private void get_center_Injected(out Vector3 ret) { }
 
-	// RVA: 0x22969C0 Offset: 0x2294FC0 VA: 0x1822969C0
+	// RVA: 0x2296800 Offset: 0x2294E00 VA: 0x182296800
 	private void set_center_Injected(ref Vector3 value) { }
 
-	// RVA: 0x2296920 Offset: 0x2294F20 VA: 0x182296920
+	// RVA: 0x2296760 Offset: 0x2294D60 VA: 0x182296760
 	private void get_size_Injected(out Vector3 ret) { }
 
-	// RVA: 0x2296A60 Offset: 0x2295060 VA: 0x182296A60
+	// RVA: 0x22968A0 Offset: 0x2294EA0 VA: 0x1822968A0
 	private void set_size_Injected(ref Vector3 value) { }
 
 }

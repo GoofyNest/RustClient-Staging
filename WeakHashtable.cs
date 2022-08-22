@@ -1,6 +1,6 @@
 internal sealed class WeakHashtable : Hashtable // TypeDefIndex: 2777
 {	// Fields
-	private static IEqualityComparer _comparer; // 0x2B1163C
+	private static IEqualityComparer _comparer; // 0x2B1065C
 
 	// Methods
 

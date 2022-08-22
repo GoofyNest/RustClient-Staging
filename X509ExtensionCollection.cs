@@ -27,16 +27,16 @@ public sealed class X509ExtensionCollection : CollectionBase, IEnumerable // Typ
 	// RVA: 0x105CC80 Offset: 0x105B280 VA: 0x18105CC80
 	public void .ctor() { }
 
-	// RVA: 0x22815E0 Offset: 0x227FBE0 VA: 0x1822815E0
+	// RVA: 0x2281420 Offset: 0x227FA20 VA: 0x182281420
 	public void .ctor(ASN1 asn1) { }
 
-	// RVA: 0x2281420 Offset: 0x227FA20 VA: 0x182281420
+	// RVA: 0x2281260 Offset: 0x227F860 VA: 0x182281260
 	public int IndexOf(string oid) { }
 
 	// RVA: 0x1568C00 Offset: 0x1567200 VA: 0x181568C00 Slot: 18
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x2281700 Offset: 0x227FD00 VA: 0x182281700
+	// RVA: 0x2281540 Offset: 0x227FB40 VA: 0x182281540
 	public X509Extension get_Item(string oid) { }
 
 }

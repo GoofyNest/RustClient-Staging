@@ -319,7 +319,7 @@ public static class GenericsUtil // TypeDefIndex: 4817
 
 private static class GenericsUtil.CastImpl<TSrc, TDst> // TypeDefIndex: 4818
 {	// Fields
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public static TSrc Value; // 0xFFFFFFFF
 
 	// Methods

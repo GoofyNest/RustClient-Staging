@@ -6,13 +6,13 @@ public class HeldEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 631
 
 	// Methods
 
-	// RVA: 0x1D65280 Offset: 0x1D63880 VA: 0x181D65280
+	// RVA: 0x1D650C0 Offset: 0x1D636C0 VA: 0x181D650C0
 	public static void ResetToPool(HeldEntity instance) { }
 
-	// RVA: 0x1D65300 Offset: 0x1D63900 VA: 0x181D65300
+	// RVA: 0x1D65140 Offset: 0x1D63740 VA: 0x181D65140
 	public void ResetToPool() { }
 
-	// RVA: 0x1D65150 Offset: 0x1D63750 VA: 0x181D65150 Slot: 9
+	// RVA: 0x1D64F90 Offset: 0x1D63590 VA: 0x181D64F90 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -21,64 +21,64 @@ public class HeldEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 631
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE690 Offset: 0x1BFCC90 VA: 0x181BFE690
+	// RVA: 0x1BFE4D0 Offset: 0x1BFCAD0 VA: 0x181BFE4D0
 	public void CopyTo(HeldEntity instance) { }
 
-	// RVA: 0x1D647D0 Offset: 0x1D62DD0 VA: 0x181D647D0
+	// RVA: 0x1D64610 Offset: 0x1D62C10 VA: 0x181D64610
 	public HeldEntity Copy() { }
 
-	// RVA: 0x1D64FD0 Offset: 0x1D635D0 VA: 0x181D64FD0
+	// RVA: 0x1D64E10 Offset: 0x1D63410 VA: 0x181D64E10
 	public static HeldEntity Deserialize(Stream stream) { }
 
-	// RVA: 0x1D64840 Offset: 0x1D62E40 VA: 0x181D64840
+	// RVA: 0x1D64680 Offset: 0x1D62C80 VA: 0x181D64680
 	public static HeldEntity DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1D64CE0 Offset: 0x1D632E0 VA: 0x181D64CE0
+	// RVA: 0x1D64B20 Offset: 0x1D63120 VA: 0x181D64B20
 	public static HeldEntity DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1D64EB0 Offset: 0x1D634B0 VA: 0x181D64EB0
+	// RVA: 0x1D64CF0 Offset: 0x1D632F0 VA: 0x181D64CF0
 	public static HeldEntity Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1D65240 Offset: 0x1D63840 VA: 0x181D65240
+	// RVA: 0x1D65080 Offset: 0x1D63680 VA: 0x181D65080
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1D657D0 Offset: 0x1D63DD0 VA: 0x181D657D0 Slot: 12
+	// RVA: 0x1D65610 Offset: 0x1D63C10 VA: 0x181D65610 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1D658A0 Offset: 0x1D63EA0 VA: 0x181D658A0 Slot: 13
+	// RVA: 0x1D656E0 Offset: 0x1D63CE0 VA: 0x181D656E0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, HeldEntity previous) { }
 
-	// RVA: 0x1D65260 Offset: 0x1D63860 VA: 0x181D65260 Slot: 14
+	// RVA: 0x1D650A0 Offset: 0x1D636A0 VA: 0x181D650A0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1D65050 Offset: 0x1D63650 VA: 0x181D65050
+	// RVA: 0x1D64E90 Offset: 0x1D63490 VA: 0x181D64E90
 	public static HeldEntity Deserialize(byte[] buffer, HeldEntity instance, bool isDelta = False) { }
 
-	// RVA: 0x1D64D70 Offset: 0x1D63370 VA: 0x181D64D70
+	// RVA: 0x1D64BB0 Offset: 0x1D631B0 VA: 0x181D64BB0
 	public static HeldEntity Deserialize(Stream stream, HeldEntity instance, bool isDelta) { }
 
-	// RVA: 0x1D648C0 Offset: 0x1D62EC0 VA: 0x181D648C0
+	// RVA: 0x1D64700 Offset: 0x1D62D00 VA: 0x181D64700
 	public static HeldEntity DeserializeLengthDelimited(Stream stream, HeldEntity instance, bool isDelta) { }
 
-	// RVA: 0x1D64AE0 Offset: 0x1D630E0 VA: 0x181D64AE0
+	// RVA: 0x1D64920 Offset: 0x1D62F20 VA: 0x181D64920
 	public static HeldEntity DeserializeLength(Stream stream, int length, HeldEntity instance, bool isDelta) { }
 
-	// RVA: 0x1D65380 Offset: 0x1D63980 VA: 0x181D65380
+	// RVA: 0x1D651C0 Offset: 0x1D637C0 VA: 0x181D651C0
 	public static void SerializeDelta(Stream stream, HeldEntity instance, HeldEntity previous) { }
 
-	// RVA: 0x1D656F0 Offset: 0x1D63CF0 VA: 0x181D656F0
+	// RVA: 0x1D65530 Offset: 0x1D63B30 VA: 0x181D65530
 	public static void Serialize(Stream stream, HeldEntity instance) { }
 
-	// RVA: 0x1D657C0 Offset: 0x1D63DC0 VA: 0x181D657C0
+	// RVA: 0x1D65600 Offset: 0x1D63C00 VA: 0x181D65600
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1D657D0 Offset: 0x1D63DD0 VA: 0x181D657D0
+	// RVA: 0x1D65610 Offset: 0x1D63C10 VA: 0x181D65610
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1D65540 Offset: 0x1D63B40 VA: 0x181D65540
+	// RVA: 0x1D65380 Offset: 0x1D63980 VA: 0x181D65380
 	public static byte[] SerializeToBytes(HeldEntity instance) { }
 
-	// RVA: 0x1D65490 Offset: 0x1D63A90 VA: 0x181D65490
+	// RVA: 0x1D652D0 Offset: 0x1D638D0 VA: 0x181D652D0
 	public static void SerializeLengthDelimited(Stream stream, HeldEntity instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -100,18 +100,18 @@ public class HeldEntity : BaseEntity // TypeDefIndex: 8575
 	public static float lastExamineTime; // 0x0
 	private float nextExamineTime; // 0x1AC
 	public const BaseEntity.Flags Flag_ForceVisible = 65536;
-	[HeaderAttribute] // RVA: 0xABC40 Offset: 0xAB040 VA: 0x1800ABC40
+	[HeaderAttribute] // RVA: 0xABCB0 Offset: 0xAB0B0 VA: 0x1800ABCB0
 	public string handBone; // 0x1B0
 	public AnimatorOverrideController HoldAnimationOverride; // 0x1B8
 	public bool isBuildingTool; // 0x1C0
-	[HeaderAttribute] // RVA: 0xABCB0 Offset: 0xAB0B0 VA: 0x1800ABCB0
+	[HeaderAttribute] // RVA: 0xABD80 Offset: 0xAB180 VA: 0x1800ABD80
 	public float hostileScore; // 0x1C4
 	public HeldEntity.HolsterInfo holsterInfo; // 0x1C8
-	[HeaderAttribute] // RVA: 0xABDD0 Offset: 0xAB1D0 VA: 0x1800ABDD0
+	[HeaderAttribute] // RVA: 0xABE70 Offset: 0xAB270 VA: 0x1800ABE70
 	public BasePlayer.CameraMode HeldCameraMode; // 0x1D0
 	public Vector3 FirstPersonArmOffset; // 0x1D4
 	public Vector3 FirstPersonArmRotation; // 0x1E0
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float FirstPersonRotationStrength; // 0x1EC
 	internal uint ownerItemUID; // 0x1F0
 
@@ -126,7 +126,7 @@ public class HeldEntity : BaseEntity // TypeDefIndex: 8575
 	// RVA: 0x7378A0 Offset: 0x735EA0 VA: 0x1807378A0 Slot: 131
 	public virtual void AddPunch(Vector3 amount, float duration) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x737970 Offset: 0x735F70 VA: 0x180737970
 	public void CL_Punch(BaseEntity.RPCMessage msg) { }
 

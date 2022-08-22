@@ -8,13 +8,13 @@ public class SmartAlarm : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 636
 
 	// Methods
 
-	// RVA: 0x1DB2C60 Offset: 0x1DB1260 VA: 0x181DB2C60
+	// RVA: 0x1DB2AA0 Offset: 0x1DB10A0 VA: 0x181DB2AA0
 	public static void ResetToPool(SmartAlarm instance) { }
 
-	// RVA: 0x1DB2D90 Offset: 0x1DB1390 VA: 0x181DB2D90
+	// RVA: 0x1DB2BD0 Offset: 0x1DB11D0 VA: 0x181DB2BD0
 	public void ResetToPool() { }
 
-	// RVA: 0x1DB2A70 Offset: 0x1DB1070 VA: 0x181DB2A70 Slot: 9
+	// RVA: 0x1DB28B0 Offset: 0x1DB0EB0 VA: 0x181DB28B0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -23,64 +23,64 @@ public class SmartAlarm : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 636
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DB17D0 Offset: 0x1DAFDD0 VA: 0x181DB17D0
+	// RVA: 0x1DB1610 Offset: 0x1DAFC10 VA: 0x181DB1610
 	public void CopyTo(SmartAlarm instance) { }
 
-	// RVA: 0x1DB1920 Offset: 0x1DAFF20 VA: 0x181DB1920
+	// RVA: 0x1DB1760 Offset: 0x1DAFD60 VA: 0x181DB1760
 	public SmartAlarm Copy() { }
 
-	// RVA: 0x1DB24D0 Offset: 0x1DB0AD0 VA: 0x181DB24D0
+	// RVA: 0x1DB2310 Offset: 0x1DB0910 VA: 0x181DB2310
 	public static SmartAlarm Deserialize(Stream stream) { }
 
-	// RVA: 0x1DB1AB0 Offset: 0x1DB00B0 VA: 0x181DB1AB0
+	// RVA: 0x1DB18F0 Offset: 0x1DAFEF0 VA: 0x181DB18F0
 	public static SmartAlarm DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DB1E40 Offset: 0x1DB0440 VA: 0x181DB1E40
+	// RVA: 0x1DB1C80 Offset: 0x1DB0280 VA: 0x181DB1C80
 	public static SmartAlarm DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DB21D0 Offset: 0x1DB07D0 VA: 0x181DB21D0
+	// RVA: 0x1DB2010 Offset: 0x1DB0610 VA: 0x181DB2010
 	public static SmartAlarm Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DB2C20 Offset: 0x1DB1220 VA: 0x181DB2C20
+	// RVA: 0x1DB2A60 Offset: 0x1DB1060 VA: 0x181DB2A60
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DB34C0 Offset: 0x1DB1AC0 VA: 0x181DB34C0 Slot: 12
+	// RVA: 0x1DB3300 Offset: 0x1DB1900 VA: 0x181DB3300 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DB34E0 Offset: 0x1DB1AE0 VA: 0x181DB34E0 Slot: 13
+	// RVA: 0x1DB3320 Offset: 0x1DB1920 VA: 0x181DB3320 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, SmartAlarm previous) { }
 
-	// RVA: 0x1DB2C40 Offset: 0x1DB1240 VA: 0x181DB2C40 Slot: 14
+	// RVA: 0x1DB2A80 Offset: 0x1DB1080 VA: 0x181DB2A80 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DB2730 Offset: 0x1DB0D30 VA: 0x181DB2730
+	// RVA: 0x1DB2570 Offset: 0x1DB0B70 VA: 0x181DB2570
 	public static SmartAlarm Deserialize(byte[] buffer, SmartAlarm instance, bool isDelta = False) { }
 
-	// RVA: 0x1DB2830 Offset: 0x1DB0E30 VA: 0x181DB2830
+	// RVA: 0x1DB2670 Offset: 0x1DB0C70 VA: 0x181DB2670
 	public static SmartAlarm Deserialize(Stream stream, SmartAlarm instance, bool isDelta) { }
 
-	// RVA: 0x1DB1B30 Offset: 0x1DB0130 VA: 0x181DB1B30
+	// RVA: 0x1DB1970 Offset: 0x1DAFF70 VA: 0x181DB1970
 	public static SmartAlarm DeserializeLengthDelimited(Stream stream, SmartAlarm instance, bool isDelta) { }
 
-	// RVA: 0x1DB1ED0 Offset: 0x1DB04D0 VA: 0x181DB1ED0
+	// RVA: 0x1DB1D10 Offset: 0x1DB0310 VA: 0x181DB1D10
 	public static SmartAlarm DeserializeLength(Stream stream, int length, SmartAlarm instance, bool isDelta) { }
 
-	// RVA: 0x1DB2EC0 Offset: 0x1DB14C0 VA: 0x181DB2EC0
+	// RVA: 0x1DB2D00 Offset: 0x1DB1300 VA: 0x181DB2D00
 	public static void SerializeDelta(Stream stream, SmartAlarm instance, SmartAlarm previous) { }
 
-	// RVA: 0x1DB32C0 Offset: 0x1DB18C0 VA: 0x181DB32C0
+	// RVA: 0x1DB3100 Offset: 0x1DB1700 VA: 0x181DB3100
 	public static void Serialize(Stream stream, SmartAlarm instance) { }
 
-	// RVA: 0x1DB34B0 Offset: 0x1DB1AB0 VA: 0x181DB34B0
+	// RVA: 0x1DB32F0 Offset: 0x1DB18F0 VA: 0x181DB32F0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DB34C0 Offset: 0x1DB1AC0 VA: 0x181DB34C0
+	// RVA: 0x1DB3300 Offset: 0x1DB1900 VA: 0x181DB3300
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DB31B0 Offset: 0x1DB17B0 VA: 0x181DB31B0
+	// RVA: 0x1DB2FF0 Offset: 0x1DB15F0 VA: 0x181DB2FF0
 	public static byte[] SerializeToBytes(SmartAlarm instance) { }
 
-	// RVA: 0x1DB3100 Offset: 0x1DB1700 VA: 0x181DB3100
+	// RVA: 0x1DB2F40 Offset: 0x1DB1540 VA: 0x181DB2F40
 	public static void SerializeLengthDelimited(Stream stream, SmartAlarm instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -94,7 +94,7 @@ public class SmartAlarm : AppIOEntity, ISubscribable // TypeDefIndex: 8449
 	public const BaseEntity.Flags Flag_HasCustomMessage = 16384;
 	public static readonly Translate.Phrase DefaultNotificationTitle; // 0x0
 	public static readonly Translate.Phrase DefaultNotificationBody; // 0x8
-	[HeaderAttribute] // RVA: 0x87A70 Offset: 0x86E70 VA: 0x180087A70
+	[HeaderAttribute] // RVA: 0x87AE0 Offset: 0x86EE0 VA: 0x180087AE0
 	public GameObjectRef SetupNotificationDialog; // 0x338
 	public Animator Animator; // 0x340
 	private static readonly int AnimatorOn; // 0x10
@@ -116,17 +116,17 @@ public class SmartAlarm : AppIOEntity, ISubscribable // TypeDefIndex: 8449
 	// RVA: 0x5AF000 Offset: 0x5AD600 VA: 0x1805AF000
 	public void OnAlarmStatusChange(bool isOn) { }
 
-	[BaseEntity.Menu] // RVA: 0x87B80 Offset: 0x86F80 VA: 0x180087B80
-	[BaseEntity.Menu.Description] // RVA: 0x87B80 Offset: 0x86F80 VA: 0x180087B80
-	[BaseEntity.Menu.Icon] // RVA: 0x87B80 Offset: 0x86F80 VA: 0x180087B80
-	[BaseEntity.Menu.ShowIf] // RVA: 0x87B80 Offset: 0x86F80 VA: 0x180087B80
+	[BaseEntity.Menu] // RVA: 0x87C80 Offset: 0x87080 VA: 0x180087C80
+	[BaseEntity.Menu.Description] // RVA: 0x87C80 Offset: 0x87080 VA: 0x180087C80
+	[BaseEntity.Menu.Icon] // RVA: 0x87C80 Offset: 0x87080 VA: 0x180087C80
+	[BaseEntity.Menu.ShowIf] // RVA: 0x87C80 Offset: 0x87080 VA: 0x180087C80
 	// RVA: 0x5AEFC0 Offset: 0x5AD5C0 VA: 0x1805AEFC0
 	public void MenuSetupNotification(BasePlayer player) { }
 
 	// RVA: 0x5AEF40 Offset: 0x5AD540 VA: 0x1805AEF40
 	public bool MenuSetupNotification_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5AF6B0 Offset: 0x5ADCB0 VA: 0x1805AF6B0
 	private void SetupNotification(BaseEntity.RPCMessage rpc) { }
 

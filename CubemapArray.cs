@@ -7,7 +7,7 @@ public sealed class CubemapArray : Texture // TypeDefIndex: 3449
 	// RVA: 0x18270A0 Offset: 0x18256A0 VA: 0x1818270A0 Slot: 11
 	public override bool get_isReadable() { }
 
-	[FreeFunctionAttribute] // RVA: 0xA2E50 Offset: 0xA2250 VA: 0x1800A2E50
+	[FreeFunctionAttribute] // RVA: 0xA2EE0 Offset: 0xA22E0 VA: 0x1800A2EE0
 	// RVA: 0x1826AF0 Offset: 0x18250F0 VA: 0x181826AF0
 	private static bool Internal_CreateImpl(CubemapArray mono, int ext, int count, int mipCount, GraphicsFormat format, TextureCreationFlags flags) { }
 
@@ -17,7 +17,7 @@ public sealed class CubemapArray : Texture // TypeDefIndex: 3449
 	// RVA: 0x1826E40 Offset: 0x1825440 VA: 0x181826E40
 	public void .ctor(int width, int cubemapCount, DefaultFormat format, TextureCreationFlags flags) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1826D30 Offset: 0x1825330 VA: 0x181826D30
 	public void .ctor(int width, int cubemapCount, GraphicsFormat format, TextureCreationFlags flags) { }
 

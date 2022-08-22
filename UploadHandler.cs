@@ -7,27 +7,27 @@ public class UploadHandler : IDisposable // TypeDefIndex: 4134
 
 	// Methods
 
-	[NativeMethodAttribute] // RVA: 0x90510 Offset: 0x8F910 VA: 0x180090510
-	// RVA: 0x22A1F80 Offset: 0x22A0580 VA: 0x1822A1F80
+	[NativeMethodAttribute] // RVA: 0x90620 Offset: 0x8FA20 VA: 0x180090620
+	// RVA: 0x22A1DC0 Offset: 0x22A03C0 VA: 0x1822A1DC0
 	private void Release() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x22A1E50 Offset: 0x22A0450 VA: 0x1822A1E50 Slot: 1
+	// RVA: 0x22A1C90 Offset: 0x22A0290 VA: 0x1822A1C90 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x22A1DE0 Offset: 0x22A03E0 VA: 0x1822A1DE0 Slot: 4
+	// RVA: 0x22A1C20 Offset: 0x22A0220 VA: 0x1822A1C20 Slot: 4
 	public void Dispose() { }
 
 	// RVA: 0x17D6970 Offset: 0x17D4F70 VA: 0x1817D6970
 	public void set_contentType(string value) { }
 
-	// RVA: 0x22A1F30 Offset: 0x22A0530 VA: 0x1822A1F30 Slot: 5
+	// RVA: 0x22A1D70 Offset: 0x22A0370 VA: 0x1822A1D70 Slot: 5
 	internal virtual void SetContentType(string newContentType) { }
 
-	[NativeMethodAttribute] // RVA: 0x91980 Offset: 0x90D80 VA: 0x180091980
-	// RVA: 0x22A1F30 Offset: 0x22A0530 VA: 0x1822A1F30
+	[NativeMethodAttribute] // RVA: 0x919C0 Offset: 0x90DC0 VA: 0x1800919C0
+	// RVA: 0x22A1D70 Offset: 0x22A0370 VA: 0x1822A1D70
 	private void InternalSetContentType(string newContentType) { }
 
 }

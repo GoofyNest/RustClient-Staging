@@ -7,10 +7,10 @@ public class StrongNameKeyPair : ISerializable, IDeserializationCallback // Type
 
 	// Methods
 
-	// RVA: 0x18D7300 Offset: 0x18D5900 VA: 0x1818D7300
+	// RVA: 0x18D72C0 Offset: 0x18D58C0 VA: 0x1818D72C0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x18D71F0 Offset: 0x18D57F0 VA: 0x1818D71F0 Slot: 4
+	// RVA: 0x18D71B0 Offset: 0x18D57B0 VA: 0x1818D71B0 Slot: 4
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5

@@ -1,8 +1,8 @@
 internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 4792
 {
 // Namespace: Microsoft.CodeAnalysis
-[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-[EmbeddedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+[EmbeddedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 4792
 	// Methods
 
@@ -17,8 +17,8 @@ internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 5099
 internal class <Module> // TypeDefIndex: 5098
 
 // Namespace: Microsoft.CodeAnalysis
-[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-[EmbeddedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+[EmbeddedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 5099
 	// Methods
 
@@ -30,8 +30,8 @@ internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 5099
 internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6675
 {
 // Namespace: Microsoft.CodeAnalysis
-[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-[EmbeddedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+[EmbeddedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6675
 	// Methods
 
@@ -43,8 +43,8 @@ internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6675
 internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6722
 {
 // Namespace: Microsoft.CodeAnalysis
-[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-[EmbeddedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+[EmbeddedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6722
 	// Methods
 
@@ -56,8 +56,8 @@ internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6722
 internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6900
 {
 // Namespace: Microsoft.CodeAnalysis
-[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-[EmbeddedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+[EmbeddedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6900
 	// Methods
 
@@ -69,8 +69,8 @@ internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6900
 internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 7081
 {
 // Namespace: Microsoft.CodeAnalysis
-[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-[EmbeddedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+[EmbeddedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 7081
 	// Methods
 
@@ -82,8 +82,8 @@ internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 7081
 internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 7304
 {
 // Namespace: Microsoft.CodeAnalysis
-[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-[EmbeddedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+[EmbeddedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 7304
 	// Methods
 

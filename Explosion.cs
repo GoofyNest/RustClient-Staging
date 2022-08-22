@@ -1,9 +1,9 @@
 public class Explosion_Bloom : MonoBehaviour // TypeDefIndex: 11490
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public Explosion_Bloom.Settings settings; // 0x18
-	[SerializeField] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[HideInInspector] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[HideInInspector] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	private Shader m_Shader; // 0x30
 	private Material m_Material; // 0x38
 	private const int kMaxIterations = 16;
@@ -57,25 +57,25 @@ public class Explosion_Bloom : MonoBehaviour // TypeDefIndex: 11490
 
 public struct Explosion_Bloom.Settings // TypeDefIndex: 11491
 {	// Fields
-	[SerializeField] // RVA: 0xB6A70 Offset: 0xB5E70 VA: 0x1800B6A70
-	[TooltipAttribute] // RVA: 0xB6A70 Offset: 0xB5E70 VA: 0x1800B6A70
+	[SerializeField] // RVA: 0xB6BA0 Offset: 0xB5FA0 VA: 0x1800B6BA0
+	[TooltipAttribute] // RVA: 0xB6BA0 Offset: 0xB5FA0 VA: 0x1800B6BA0
 	public float threshold; // 0x0
-	[SerializeField] // RVA: 0xB6C20 Offset: 0xB6020 VA: 0x1800B6C20
-	[RangeAttribute] // RVA: 0xB6C20 Offset: 0xB6020 VA: 0x1800B6C20
-	[TooltipAttribute] // RVA: 0xB6C20 Offset: 0xB6020 VA: 0x1800B6C20
+	[SerializeField] // RVA: 0xB6D20 Offset: 0xB6120 VA: 0x1800B6D20
+	[RangeAttribute] // RVA: 0xB6D20 Offset: 0xB6120 VA: 0x1800B6D20
+	[TooltipAttribute] // RVA: 0xB6D20 Offset: 0xB6120 VA: 0x1800B6D20
 	public float softKnee; // 0x4
-	[SerializeField] // RVA: 0xB6EB0 Offset: 0xB62B0 VA: 0x1800B6EB0
-	[RangeAttribute] // RVA: 0xB6EB0 Offset: 0xB62B0 VA: 0x1800B6EB0
-	[TooltipAttribute] // RVA: 0xB6EB0 Offset: 0xB62B0 VA: 0x1800B6EB0
+	[SerializeField] // RVA: 0xB6F80 Offset: 0xB6380 VA: 0x1800B6F80
+	[RangeAttribute] // RVA: 0xB6F80 Offset: 0xB6380 VA: 0x1800B6F80
+	[TooltipAttribute] // RVA: 0xB6F80 Offset: 0xB6380 VA: 0x1800B6F80
 	public float radius; // 0x8
-	[SerializeField] // RVA: 0xB6FC0 Offset: 0xB63C0 VA: 0x1800B6FC0
-	[TooltipAttribute] // RVA: 0xB6FC0 Offset: 0xB63C0 VA: 0x1800B6FC0
-	public float intensity; // 0xC
 	[SerializeField] // RVA: 0xB70B0 Offset: 0xB64B0 VA: 0x1800B70B0
 	[TooltipAttribute] // RVA: 0xB70B0 Offset: 0xB64B0 VA: 0x1800B70B0
-	public bool highQuality; // 0x10
+	public float intensity; // 0xC
 	[SerializeField] // RVA: 0xB7210 Offset: 0xB6610 VA: 0x1800B7210
 	[TooltipAttribute] // RVA: 0xB7210 Offset: 0xB6610 VA: 0x1800B7210
+	public bool highQuality; // 0x10
+	[SerializeField] // RVA: 0xB7340 Offset: 0xB6740 VA: 0x1800B7340
+	[TooltipAttribute] // RVA: 0xB7340 Offset: 0xB6740 VA: 0x1800B7340
 	public bool antiFlicker; // 0x11
 
 	// Properties
@@ -85,16 +85,16 @@ public struct Explosion_Bloom.Settings // TypeDefIndex: 11491
 
 	// Methods
 
-	// RVA: 0xF2410 Offset: 0xF1810 VA: 0x1800F2410
+	// RVA: 0xF2390 Offset: 0xF1790 VA: 0x1800F2390
 	public void set_thresholdGamma(float value) { }
 
-	// RVA: 0xFA020 Offset: 0xF9420 VA: 0x1800FA020
+	// RVA: 0xF9FA0 Offset: 0xF93A0 VA: 0x1800F9FA0
 	public float get_thresholdGamma() { }
 
-	// RVA: 0xFA0A0 Offset: 0xF94A0 VA: 0x1800FA0A0
+	// RVA: 0xFA020 Offset: 0xF9420 VA: 0x1800FA020
 	public void set_thresholdLinear(float value) { }
 
-	// RVA: 0xFA090 Offset: 0xF9490 VA: 0x1800FA090
+	// RVA: 0xFA010 Offset: 0xF9410 VA: 0x1800FA010
 	public float get_thresholdLinear() { }
 
 	// RVA: 0x8D6E30 Offset: 0x8D5430 VA: 0x1808D6E30
@@ -436,7 +436,7 @@ internal class ExplosionsSpriteSheetAnimation : MonoBehaviour // TypeDefIndex: 1
 	// RVA: 0x8D2C00 Offset: 0x8D1200 VA: 0x1808D2C00
 	private void OnDisable() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xB8740 Offset: 0xB7B40 VA: 0x1800B8740
+	[IteratorStateMachineAttribute] // RVA: 0xB8830 Offset: 0xB7C30 VA: 0x1800B8830
 	// RVA: 0x8D2DE0 Offset: 0x8D13E0 VA: 0x1808D2DE0
 	private IEnumerator UpdateCorutine() { }
 
@@ -466,26 +466,26 @@ private sealed class ExplosionsSpriteSheetAnimation.<UpdateCorutine>d__26 : IEnu
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x8D99F0 Offset: 0x8D7FF0 VA: 0x1808D99F0 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8D9CA0 Offset: 0x8D82A0 VA: 0x1808D9CA0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 

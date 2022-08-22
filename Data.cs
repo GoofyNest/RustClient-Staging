@@ -74,7 +74,7 @@ public sealed class DBNull : ISerializable, IConvertible // TypeDefIndex: 201
 
 internal struct DataCollector // TypeDefIndex: 1509
 {	// Fields
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	internal static DataCollector ThreadInstance; // 0x80000000
 	private byte* scratchEnd; // 0x0
 	private EventSource.EventData* datasEnd; // 0x8
@@ -90,55 +90,55 @@ internal struct DataCollector // TypeDefIndex: 1509
 
 	// Methods
 
-	// RVA: 0x120B70 Offset: 0x11FF70 VA: 0x180120B70
+	// RVA: 0x120AF0 Offset: 0x11FEF0 VA: 0x180120AF0
 	internal void Enable(byte* scratch, int scratchSize, EventSource.EventData* datas, int dataCount, GCHandle* pins, int pinCount) { }
 
-	// RVA: 0x120B50 Offset: 0x11FF50 VA: 0x180120B50
+	// RVA: 0x120AD0 Offset: 0x11FED0 VA: 0x180120AD0
 	internal void Disable() { }
 
-	// RVA: 0x120D10 Offset: 0x120110 VA: 0x180120D10
+	// RVA: 0x120C90 Offset: 0x120090 VA: 0x180120C90
 	internal EventSource.EventData* Finish() { }
 
-	// RVA: 0x120AF0 Offset: 0x11FEF0 VA: 0x180120AF0
+	// RVA: 0x120A70 Offset: 0x11FE70 VA: 0x180120A70
 	internal void AddScalar(void* value, int size) { }
 
-	// RVA: 0x120AB0 Offset: 0x11FEB0 VA: 0x180120AB0
+	// RVA: 0x120A30 Offset: 0x11FE30 VA: 0x180120A30
 	internal void AddBinary(string value, int size) { }
 
-	// RVA: 0x120AC0 Offset: 0x11FEC0 VA: 0x180120AC0
+	// RVA: 0x120A40 Offset: 0x11FE40 VA: 0x180120A40
 	internal void AddBinary(Array value, int size) { }
 
-	// RVA: 0x120AA0 Offset: 0x11FEA0 VA: 0x180120AA0
+	// RVA: 0x120A20 Offset: 0x11FE20 VA: 0x180120A20
 	internal void AddArray(Array value, int length, int itemSize) { }
 
-	// RVA: 0x120B00 Offset: 0x11FF00 VA: 0x180120B00
+	// RVA: 0x120A80 Offset: 0x11FE80 VA: 0x180120A80
 	internal int BeginBufferedArray() { }
 
-	// RVA: 0x120BC0 Offset: 0x11FFC0 VA: 0x180120BC0
+	// RVA: 0x120B40 Offset: 0x11FF40 VA: 0x180120B40
 	internal void EndBufferedArray(int bookmark, int count) { }
 
-	// RVA: 0x120B30 Offset: 0x11FF30 VA: 0x180120B30
+	// RVA: 0x120AB0 Offset: 0x11FEB0 VA: 0x180120AB0
 	internal void BeginBuffered() { }
 
-	// RVA: 0x120C90 Offset: 0x120090 VA: 0x180120C90
+	// RVA: 0x120C10 Offset: 0x120010 VA: 0x180120C10
 	internal void EndBuffered() { }
 
-	// RVA: 0x120CF0 Offset: 0x1200F0 VA: 0x180120CF0
+	// RVA: 0x120C70 Offset: 0x120070 VA: 0x180120C70
 	private void EnsureBuffer() { }
 
-	// RVA: 0x120D00 Offset: 0x120100 VA: 0x180120D00
+	// RVA: 0x120C80 Offset: 0x120080 VA: 0x180120C80
 	private void EnsureBuffer(int additionalSize) { }
 
-	// RVA: 0x120D30 Offset: 0x120130 VA: 0x180120D30
+	// RVA: 0x120CB0 Offset: 0x1200B0 VA: 0x180120CB0
 	private void GrowBuffer(int required) { }
 
-	// RVA: 0x120D90 Offset: 0x120190 VA: 0x180120D90
+	// RVA: 0x120D10 Offset: 0x120110 VA: 0x180120D10
 	private void PinArray(object value, int size) { }
 
-	// RVA: 0x120DA0 Offset: 0x1201A0 VA: 0x180120DA0
+	// RVA: 0x120D20 Offset: 0x120120 VA: 0x180120D20
 	private void ScalarsBegin() { }
 
-	// RVA: 0x120DB0 Offset: 0x1201B0 VA: 0x180120DB0
+	// RVA: 0x120D30 Offset: 0x120130 VA: 0x180120D30
 	private void ScalarsEnd() { }
 
 }
@@ -1821,7 +1821,7 @@ internal class Datatype_byte : Datatype_short // TypeDefIndex: 2229
 
 internal class Datatype_nonNegativeInteger : Datatype_integer // TypeDefIndex: 2230
 {	// Fields
-	private static readonly FacetsChecker numeric10FacetsChecker; // 0x2B11240
+	private static readonly FacetsChecker numeric10FacetsChecker; // 0x2B10260
 
 	// Properties
 	internal override FacetsChecker FacetsChecker { get; }
@@ -2192,16 +2192,16 @@ internal class Datatype_uuid : Datatype_anySimpleType // TypeDefIndex: 2242
 public sealed class DataUtility // TypeDefIndex: 3576
 {	// Methods
 
-	// RVA: 0x19A9D80 Offset: 0x19A8380 VA: 0x1819A9D80
+	// RVA: 0x19A9D40 Offset: 0x19A8340 VA: 0x1819A9D40
 	public static Vector4 GetInnerUV(Sprite sprite) { }
 
-	// RVA: 0x19A9F00 Offset: 0x19A8500 VA: 0x1819A9F00
+	// RVA: 0x19A9EC0 Offset: 0x19A84C0 VA: 0x1819A9EC0
 	public static Vector4 GetOuterUV(Sprite sprite) { }
 
-	// RVA: 0x19A9F70 Offset: 0x19A8570 VA: 0x1819A9F70
+	// RVA: 0x19A9F30 Offset: 0x19A8530 VA: 0x1819A9F30
 	public static Vector4 GetPadding(Sprite sprite) { }
 
-	// RVA: 0x19A9DF0 Offset: 0x19A83F0 VA: 0x1819A9DF0
+	// RVA: 0x19A9DB0 Offset: 0x19A83B0 VA: 0x1819A9DB0
 	public static Vector2 GetMinSize(Sprite sprite) { }
 
 }
@@ -2213,11 +2213,11 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 
 	// Methods
 
-	[EventAttribute] // RVA: 0x9ABD0 Offset: 0x99FD0 VA: 0x18009ABD0
+	[EventAttribute] // RVA: 0x9ACD0 Offset: 0x9A0D0 VA: 0x18009ACD0
 	// RVA: 0x1233FC0 Offset: 0x12325C0 VA: 0x181233FC0
 	internal void Trace(string message) { }
 
-	[NonEventAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonEventAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal void Trace<T0>(string format, T0 arg0) { }
 	/* GenericInstMethod :
@@ -2230,7 +2230,7 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	|-DataCommonEventSource.Trace<int>
 	*/
 
-	[NonEventAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonEventAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal void Trace<T0, T1>(string format, T0 arg0, T1 arg1) { }
 	/* GenericInstMethod :
@@ -2257,7 +2257,7 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	|-DataCommonEventSource.Trace<object, object>
 	*/
 
-	[NonEventAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonEventAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal void Trace<T0, T1, T2>(string format, T0 arg0, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
@@ -2284,7 +2284,7 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	|-DataCommonEventSource.Trace<object, object, object>
 	*/
 
-	[NonEventAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonEventAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal void Trace<T0, T1, T2, T3>(string format, T0 arg0, T1 arg1, T2 arg2, T3 arg3) { }
 	/* GenericInstMethod :
@@ -2302,7 +2302,7 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	|-DataCommonEventSource.Trace<object, object, object, object>
 	*/
 
-	[NonEventAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonEventAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal void Trace<T0, T1, T2, T3, T4>(string format, T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4) { }
 	/* GenericInstMethod :
@@ -2315,7 +2315,7 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	|-DataCommonEventSource.Trace<object, object, object, object, object>
 	*/
 
-	[NonEventAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonEventAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal void Trace<T0, T1, T2, T3, T4, T5, T6>(string format, T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6) { }
 	/* GenericInstMethod :
@@ -2328,11 +2328,11 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	|-DataCommonEventSource.Trace<object, object, object, object, object, object, object>
 	*/
 
-	[EventAttribute] // RVA: 0x9B180 Offset: 0x9A580 VA: 0x18009B180
+	[EventAttribute] // RVA: 0x9B210 Offset: 0x9A610 VA: 0x18009B210
 	// RVA: 0x1233ED0 Offset: 0x12324D0 VA: 0x181233ED0
 	internal long EnterScope(string message) { }
 
-	[NonEventAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonEventAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal long EnterScope<T1>(string format, T1 arg1) { }
 	/* GenericInstMethod :
@@ -2344,7 +2344,7 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	|-DataCommonEventSource.EnterScope<object>
 	*/
 
-	[NonEventAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonEventAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal long EnterScope<T1, T2>(string format, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
@@ -2369,7 +2369,7 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	|-DataCommonEventSource.EnterScope<object, object>
 	*/
 
-	[NonEventAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonEventAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal long EnterScope<T1, T2, T3>(string format, T1 arg1, T2 arg2, T3 arg3) { }
 	/* GenericInstMethod :
@@ -2393,7 +2393,7 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	|-DataCommonEventSource.EnterScope<object, object, object>
 	*/
 
-	[NonEventAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonEventAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal long EnterScope<T1, T2, T3, T4>(string format, T1 arg1, T2 arg2, T3 arg3, T4 arg4) { }
 	/* GenericInstMethod :
@@ -2406,7 +2406,7 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	|-DataCommonEventSource.EnterScope<object, object, object, object>
 	*/
 
-	[EventAttribute] // RVA: 0x9B4F0 Offset: 0x9A8F0 VA: 0x18009B4F0
+	[EventAttribute] // RVA: 0x9B580 Offset: 0x9A980 VA: 0x18009B580
 	// RVA: 0x1233FB0 Offset: 0x12325B0 VA: 0x181233FB0
 	internal void ExitScope(long scopeId) { }
 
@@ -2453,49 +2453,49 @@ public class DataColumn : MarshalByValueComponent // TypeDefIndex: 4181
 	internal SimpleType _simpleType; // 0xD0
 	private static int s_objectTypeCount; // 0x0
 	private readonly int _objectID; // 0xD8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <XmlDataType>k__BackingField; // 0xE0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PropertyChangedEventHandler PropertyChanging; // 0xE8
 
 	// Properties
-	[DefaultValueAttribute] // RVA: 0x9D5E0 Offset: 0x9C9E0 VA: 0x18009D5E0
+	[DefaultValueAttribute] // RVA: 0x9D670 Offset: 0x9CA70 VA: 0x18009D670
 	public bool AllowDBNull { get; set; }
-	[DefaultValueAttribute] // RVA: 0x9D630 Offset: 0x9CA30 VA: 0x18009D630
-	[RefreshPropertiesAttribute] // RVA: 0x9D630 Offset: 0x9CA30 VA: 0x18009D630
+	[DefaultValueAttribute] // RVA: 0x9D970 Offset: 0x9CD70 VA: 0x18009D970
+	[RefreshPropertiesAttribute] // RVA: 0x9D970 Offset: 0x9CD70 VA: 0x18009D970
 	public bool AutoIncrement { get; set; }
 	internal object AutoIncrementCurrent { get; set; }
 	internal AutoIncrementValue AutoInc { get; }
-	[DefaultValueAttribute] // RVA: 0x9DB30 Offset: 0x9CF30 VA: 0x18009DB30
+	[DefaultValueAttribute] // RVA: 0x9DBC0 Offset: 0x9CFC0 VA: 0x18009DBC0
 	public long AutoIncrementSeed { get; set; }
-	[DefaultValueAttribute] // RVA: 0x9DB80 Offset: 0x9CF80 VA: 0x18009DB80
+	[DefaultValueAttribute] // RVA: 0x9DC10 Offset: 0x9D010 VA: 0x18009DC10
 	public long AutoIncrementStep { get; set; }
 	public string Caption { get; set; }
-	[DefaultValueAttribute] // RVA: 0x9DC10 Offset: 0x9D010 VA: 0x18009DC10
-	[RefreshPropertiesAttribute] // RVA: 0x9DC10 Offset: 0x9D010 VA: 0x18009DC10
+	[DefaultValueAttribute] // RVA: 0x9DCA0 Offset: 0x9D0A0 VA: 0x18009DCA0
+	[RefreshPropertiesAttribute] // RVA: 0x9DCA0 Offset: 0x9D0A0 VA: 0x18009DCA0
 	public string ColumnName { get; set; }
 	internal string EncodedColumnName { get; }
 	internal IFormatProvider FormatProvider { get; }
 	internal CultureInfo Locale { get; }
 	internal int ObjectID { get; }
-	[DefaultValueAttribute] // RVA: 0x91B60 Offset: 0x90F60 VA: 0x180091B60
+	[DefaultValueAttribute] // RVA: 0x91B10 Offset: 0x90F10 VA: 0x180091B10
 	public string Prefix { get; set; }
 	internal bool Computed { get; }
 	internal DataExpression DataExpression { get; }
-	[RefreshPropertiesAttribute] // RVA: 0x9DD40 Offset: 0x9D140 VA: 0x18009DD40
-	[DefaultValueAttribute] // RVA: 0x9DD40 Offset: 0x9D140 VA: 0x18009DD40
-	[TypeConverterAttribute] // RVA: 0x9DD40 Offset: 0x9D140 VA: 0x18009DD40
+	[RefreshPropertiesAttribute] // RVA: 0x9DDD0 Offset: 0x9D1D0 VA: 0x18009DDD0
+	[DefaultValueAttribute] // RVA: 0x9DDD0 Offset: 0x9D1D0 VA: 0x18009DDD0
+	[TypeConverterAttribute] // RVA: 0x9DDD0 Offset: 0x9D1D0 VA: 0x18009DDD0
 	public Type DataType { get; set; }
-	[DefaultValueAttribute] // RVA: 0x9DF80 Offset: 0x9D380 VA: 0x18009DF80
-	[RefreshPropertiesAttribute] // RVA: 0x9DF80 Offset: 0x9D380 VA: 0x18009DF80
+	[DefaultValueAttribute] // RVA: 0x9E010 Offset: 0x9D410 VA: 0x18009E010
+	[RefreshPropertiesAttribute] // RVA: 0x9E010 Offset: 0x9D410 VA: 0x18009E010
 	public DataSetDateTime DateTimeMode { get; set; }
-	[TypeConverterAttribute] // RVA: 0x9E150 Offset: 0x9D550 VA: 0x18009E150
+	[TypeConverterAttribute] // RVA: 0x9E1F0 Offset: 0x9D5F0 VA: 0x18009E1F0
 	public object DefaultValue { get; set; }
 	internal bool DefaultValueIsNull { get; }
-	[DefaultValueAttribute] // RVA: 0x9DC10 Offset: 0x9D010 VA: 0x18009DC10
-	[RefreshPropertiesAttribute] // RVA: 0x9DC10 Offset: 0x9D010 VA: 0x18009DC10
+	[DefaultValueAttribute] // RVA: 0x9DCA0 Offset: 0x9D0A0 VA: 0x18009DCA0
+	[RefreshPropertiesAttribute] // RVA: 0x9DCA0 Offset: 0x9D0A0 VA: 0x18009DCA0
 	public string Expression { get; set; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public PropertyCollection ExtendedProperties { get; }
 	internal bool HasData { get; }
 	internal bool ImplementsINullable { get; }
@@ -2503,26 +2503,26 @@ public class DataColumn : MarshalByValueComponent // TypeDefIndex: 4181
 	internal bool ImplementsIRevertibleChangeTracking { get; }
 	internal bool IsValueType { get; }
 	internal bool IsSqlType { get; }
-	[DefaultValueAttribute] // RVA: 0x9E720 Offset: 0x9DB20 VA: 0x18009E720
+	[DefaultValueAttribute] // RVA: 0x9E830 Offset: 0x9DC30 VA: 0x18009E830
 	public int MaxLength { get; set; }
 	public string Namespace { get; set; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E7C0 Offset: 0x9DBC0 VA: 0x18009E7C0
-	[BrowsableAttribute] // RVA: 0x9E7C0 Offset: 0x9DBC0 VA: 0x18009E7C0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
+	[BrowsableAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
 	public int Ordinal { get; }
-	[DefaultValueAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
+	[DefaultValueAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
 	public bool ReadOnly { get; set; }
-	[DebuggerBrowsableAttribute] // RVA: 0x9E940 Offset: 0x9DD40 VA: 0x18009E940
+	[DebuggerBrowsableAttribute] // RVA: 0x9E9D0 Offset: 0x9DDD0 VA: 0x18009E9D0
 	private Index SortIndex { get; }
-	[BrowsableAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
+	[BrowsableAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	public DataTable Table { get; }
 	internal object Item { get; set; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9EA60 Offset: 0x9DE60 VA: 0x18009EA60
-	[DefaultValueAttribute] // RVA: 0x9EA60 Offset: 0x9DE60 VA: 0x18009EA60
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9EAF0 Offset: 0x9DEF0 VA: 0x18009EAF0
+	[DefaultValueAttribute] // RVA: 0x9EAF0 Offset: 0x9DEF0 VA: 0x18009EAF0
 	public bool Unique { get; set; }
 	internal string XmlDataType { get; set; }
 	internal SimpleType SimpleType { get; set; }
-	[DefaultValueAttribute] // RVA: 0x9EB20 Offset: 0x9DF20 VA: 0x18009EB20
+	[DefaultValueAttribute] // RVA: 0x9EBB0 Offset: 0x9DFB0 VA: 0x18009EBB0
 	public virtual MappingType ColumnMapping { get; set; }
 	internal bool IsCustomType { get; }
 	internal bool ImplementsIXMLSerializable { get; }
@@ -2724,11 +2724,11 @@ public class DataColumn : MarshalByValueComponent // TypeDefIndex: 4181
 	// RVA: 0x7AEEF0 Offset: 0x7AD4F0 VA: 0x1807AEEF0
 	internal void InternalUnique(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4EF3A0 Offset: 0x4ED9A0 VA: 0x1804EF3A0
 	internal string get_XmlDataType() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4EF3B0 Offset: 0x4ED9B0 VA: 0x1804EF3B0
 	internal void set_XmlDataType(string value) { }
 
@@ -2866,9 +2866,9 @@ public class DataColumn : MarshalByValueComponent // TypeDefIndex: 4181
 public class DataColumnChangeEventArgs : EventArgs // TypeDefIndex: 4185
 {	// Fields
 	private DataColumn _column; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly DataRow <Row>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private object <ProposedValue>k__BackingField; // 0x20
 
 	// Properties
@@ -2882,11 +2882,11 @@ public class DataColumnChangeEventArgs : EventArgs // TypeDefIndex: 4185
 	// RVA: 0x12298D0 Offset: 0x1227ED0 VA: 0x1812298D0
 	public void .ctor(DataRow row, DataColumn column, object value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public object get_ProposedValue() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_ProposedValue(object value) { }
 
@@ -2923,11 +2923,11 @@ public sealed class DataColumnCollection : InternalDataCollectionBase // TypeDef
 	private DataColumn[] _columnsImplementingIChangeTracking; // 0x40
 	private int _nColumnsImplementingIChangeTracking; // 0x48
 	private int _nColumnsImplementingIRevertibleChangeTracking; // 0x4C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private CollectionChangeEventHandler CollectionChanged; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private CollectionChangeEventHandler CollectionChanging; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private CollectionChangeEventHandler ColumnPropertyChanged; // 0x60
 
 	// Properties
@@ -2974,19 +2974,19 @@ public sealed class DataColumnCollection : InternalDataCollectionBase // TypeDef
 	// RVA: 0x1229EA0 Offset: 0x12284A0 VA: 0x181229EA0
 	public DataColumn Add(string columnName, Type type) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x122C910 Offset: 0x122AF10 VA: 0x18122C910
 	public void add_CollectionChanged(CollectionChangeEventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x122CD30 Offset: 0x122B330 VA: 0x18122CD30
 	public void remove_CollectionChanged(CollectionChangeEventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x122C9B0 Offset: 0x122AFB0 VA: 0x18122C9B0
 	internal void add_ColumnPropertyChanged(CollectionChangeEventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x122CDD0 Offset: 0x122B3D0 VA: 0x18122CDD0
 	internal void remove_ColumnPropertyChanged(CollectionChangeEventHandler value) { }
 
@@ -3066,7 +3066,7 @@ public sealed class DataColumnCollection : InternalDataCollectionBase // TypeDef
 
 internal sealed class DataColumnPropertyDescriptor : PropertyDescriptor // TypeDefIndex: 4188
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly DataColumn <Column>k__BackingField; // 0x88
 
 	// Properties
@@ -3084,7 +3084,7 @@ internal sealed class DataColumnPropertyDescriptor : PropertyDescriptor // TypeD
 	// RVA: 0x122D160 Offset: 0x122B760 VA: 0x18122D160 Slot: 6
 	public override AttributeCollection get_Attributes() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
 	internal DataColumn get_Column() { }
 
@@ -3199,55 +3199,55 @@ internal struct DataKey // TypeDefIndex: 4202
 
 	// Methods
 
-	// RVA: 0x1D2CA0 Offset: 0x1D20A0 VA: 0x1801D2CA0
+	// RVA: 0x1D2C20 Offset: 0x1D2020 VA: 0x1801D2C20
 	internal void .ctor(DataColumn[] columns, bool copyColumns) { }
 
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	internal DataColumn[] get_ColumnsReference() { }
 
-	// RVA: 0xF4FD0 Offset: 0xF43D0 VA: 0x1800F4FD0
+	// RVA: 0xF4F50 Offset: 0xF4350 VA: 0x1800F4F50
 	internal bool get_HasValue() { }
 
-	// RVA: 0x1D2CB0 Offset: 0x1D20B0 VA: 0x1801D2CB0
+	// RVA: 0x1D2C30 Offset: 0x1D2030 VA: 0x1801D2C30
 	internal DataTable get_Table() { }
 
-	// RVA: 0x1D2860 Offset: 0x1D1C60 VA: 0x1801D2860
+	// RVA: 0x1D27E0 Offset: 0x1D1BE0 VA: 0x1801D27E0
 	internal void CheckState() { }
 
-	// RVA: 0x1D2870 Offset: 0x1D1C70 VA: 0x1801D2870
+	// RVA: 0x1D27F0 Offset: 0x1D1BF0 VA: 0x1801D27F0
 	internal bool ColumnsEqual(DataKey key) { }
 
 	// RVA: 0x12356F0 Offset: 0x1233CF0 VA: 0x1812356F0
 	internal static bool ColumnsEqual(DataColumn[] column1, DataColumn[] column2) { }
 
-	// RVA: 0x1D2880 Offset: 0x1D1C80 VA: 0x1801D2880
+	// RVA: 0x1D2800 Offset: 0x1D1C00 VA: 0x1801D2800
 	internal bool ContainsColumn(DataColumn column) { }
 
-	// RVA: 0x1D2970 Offset: 0x1D1D70 VA: 0x1801D2970 Slot: 2
+	// RVA: 0x1D28F0 Offset: 0x1D1CF0 VA: 0x1801D28F0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1D28F0 Offset: 0x1D1CF0 VA: 0x1801D28F0 Slot: 0
+	// RVA: 0x1D2870 Offset: 0x1D1C70 VA: 0x1801D2870 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x1D28E0 Offset: 0x1D1CE0 VA: 0x1801D28E0
+	// RVA: 0x1D2860 Offset: 0x1D1C60 VA: 0x1801D2860
 	internal bool Equals(DataKey value) { }
 
-	// RVA: 0x1D29D0 Offset: 0x1D1DD0 VA: 0x1801D29D0
+	// RVA: 0x1D2950 Offset: 0x1D1D50 VA: 0x1801D2950
 	internal IndexField[] GetIndexDesc() { }
 
-	// RVA: 0x1D29E0 Offset: 0x1D1DE0 VA: 0x1801D29E0
+	// RVA: 0x1D2960 Offset: 0x1D1D60 VA: 0x1801D2960
 	internal object[] GetKeyValues(int record) { }
 
-	// RVA: 0x1D2B60 Offset: 0x1D1F60 VA: 0x1801D2B60
+	// RVA: 0x1D2AE0 Offset: 0x1D1EE0 VA: 0x1801D2AE0
 	internal Index GetSortIndex() { }
 
-	// RVA: 0x1D2B50 Offset: 0x1D1F50 VA: 0x1801D2B50
+	// RVA: 0x1D2AD0 Offset: 0x1D1ED0 VA: 0x1801D2AD0
 	internal Index GetSortIndex(DataViewRowState recordStates) { }
 
-	// RVA: 0x1D2BD0 Offset: 0x1D1FD0 VA: 0x1801D2BD0
+	// RVA: 0x1D2B50 Offset: 0x1D1F50 VA: 0x1801D2B50
 	internal bool RecordsEqual(int record1, int record2) { }
 
-	// RVA: 0x1D2C90 Offset: 0x1D2090 VA: 0x1801D2C90
+	// RVA: 0x1D2C10 Offset: 0x1D2010 VA: 0x1801D2C10
 	internal DataColumn[] ToArray() { }
 
 }
@@ -3266,7 +3266,7 @@ public class DataRelation // TypeDefIndex: 4203
 	private bool _checkMultipleNested; // 0x4A
 	private static int s_objectTypeCount; // 0x0
 	private readonly int _objectID; // 0x4C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PropertyChangedEventHandler PropertyChanging; // 0x50
 
 	// Properties
@@ -3274,20 +3274,20 @@ public class DataRelation // TypeDefIndex: 4203
 	internal DataColumn[] ChildColumnsReference { get; }
 	internal DataKey ChildKey { get; }
 	public virtual DataTable ChildTable { get; }
-	[BrowsableAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
+	[BrowsableAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	public virtual DataSet DataSet { get; }
 	public virtual DataColumn[] ParentColumns { get; }
 	internal DataColumn[] ParentColumnsReference { get; }
 	internal DataKey ParentKey { get; }
 	public virtual DataTable ParentTable { get; }
-	[DefaultValueAttribute] // RVA: 0x91B60 Offset: 0x90F60 VA: 0x180091B60
+	[DefaultValueAttribute] // RVA: 0x91B10 Offset: 0x90F10 VA: 0x180091B10
 	public virtual string RelationName { get; }
-	[DefaultValueAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
+	[DefaultValueAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
 	public virtual bool Nested { get; set; }
 	public virtual UniqueConstraint ParentKeyConstraint { get; }
 	public virtual ForeignKeyConstraint ChildKeyConstraint { get; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public PropertyCollection ExtendedProperties { get; }
 	internal bool CheckMultipleNested { get; set; }
 	internal int ObjectID { get; }
@@ -3499,7 +3499,7 @@ internal sealed class DataRelationCollection.DataTableRelationCollection : DataR
 	private readonly DataTable _table; // 0x38
 	private readonly ArrayList _relations; // 0x40
 	private readonly bool _fParentCollection; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private CollectionChangeEventHandler RelationPropertyChanged; // 0x50
 
 	// Properties
@@ -3527,11 +3527,11 @@ internal sealed class DataRelationCollection.DataTableRelationCollection : DataR
 	// RVA: 0xAF7070 Offset: 0xAF5670 VA: 0x180AF7070 Slot: 13
 	public override DataRelation get_Item(string name) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xAF6FD0 Offset: 0xAF55D0 VA: 0x180AF6FD0
 	internal void add_RelationPropertyChanged(CollectionChangeEventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xAF7280 Offset: 0xAF5880 VA: 0x180AF7280
 	internal void remove_RelationPropertyChanged(CollectionChangeEventHandler value) { }
 
@@ -3590,7 +3590,7 @@ internal sealed class DataRelationCollection.DataSetRelationCollection : DataRel
 
 internal sealed class DataRelationPropertyDescriptor : PropertyDescriptor // TypeDefIndex: 4207
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly DataRelation <Relation>k__BackingField; // 0x88
 
 	// Properties
@@ -3604,7 +3604,7 @@ internal sealed class DataRelationPropertyDescriptor : PropertyDescriptor // Typ
 	// RVA: 0xAE4390 Offset: 0xAE2990 VA: 0x180AE4390
 	internal void .ctor(DataRelation dataRelation) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
 	internal DataRelation get_Relation() { }
 
@@ -3745,14 +3745,14 @@ public class DataRow // TypeDefIndex: 4208
 	// RVA: 0xAE5F90 Offset: 0xAE4590 VA: 0x180AE5F90
 	public void AcceptChanges() { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	// RVA: 0xAE6420 Offset: 0xAE4A20 VA: 0x180AE6420
 	public void BeginEdit() { }
 
 	// RVA: 0xAE6340 Offset: 0xAE4940 VA: 0x180AE6340
 	private bool BeginEditInternal() { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	// RVA: 0xAE6430 Offset: 0xAE4A30 VA: 0x180AE6430
 	public void CancelEdit() { }
 
@@ -3765,7 +3765,7 @@ public class DataRow // TypeDefIndex: 4208
 	// RVA: 0xAE6B40 Offset: 0xAE5140 VA: 0x180AE6B40
 	public void Delete() { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	// RVA: 0xAE6C20 Offset: 0xAE5220 VA: 0x180AE6C20
 	public void EndEdit() { }
 
@@ -3916,9 +3916,9 @@ public enum DataRowAction // TypeDefIndex: 4210
 
 public class DataRowChangeEventArgs : EventArgs // TypeDefIndex: 4211
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly DataRow <Row>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly DataRowAction <Action>k__BackingField; // 0x18
 
 	// Methods
@@ -4085,7 +4085,7 @@ public class DataRowView : ICustomTypeDescriptor // TypeDefIndex: 4219
 	private readonly DataRow _row; // 0x18
 	private bool _delayBeginEdit; // 0x20
 	private static readonly PropertyDescriptorCollection s_zeroPropertyDescriptorCollection; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PropertyChangedEventHandler PropertyChanged; // 0x28
 
 	// Properties
@@ -4188,40 +4188,40 @@ public class DataSet : MarshalByValueComponent, IXmlSerializable, ISerializable 
 	private static XmlSchemaComplexType s_schemaTypeForWSDL; // 0x8
 	internal bool _useDataSetSchemaOnly; // 0x8C
 	internal bool _udtIsWrapped; // 0x8D
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PropertyChangedEventHandler PropertyChanging; // 0x90
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private MergeFailedEventHandler MergeFailed; // 0x98
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private DataRowCreatedEventHandler DataRowCreated; // 0xA0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private DataSetClearEventhandler ClearFunctionCalled; // 0xA8
 
 	// Properties
-	[DefaultValueAttribute] // RVA: 0xA2B90 Offset: 0xA1F90 VA: 0x1800A2B90
+	[DefaultValueAttribute] // RVA: 0xA2C70 Offset: 0xA2070 VA: 0x1800A2C70
 	public SerializationFormat RemotingFormat { get; set; }
-	[BrowsableAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
+	[BrowsableAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	public virtual SchemaSerializationMode SchemaSerializationMode { get; }
-	[DefaultValueAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
+	[DefaultValueAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
 	public bool CaseSensitive { get; set; }
-	[DefaultValueAttribute] // RVA: 0x9D5E0 Offset: 0x9C9E0 VA: 0x18009D5E0
+	[DefaultValueAttribute] // RVA: 0x9D670 Offset: 0x9CA70 VA: 0x18009D670
 	public bool EnforceConstraints { get; set; }
-	[DefaultValueAttribute] // RVA: 0x91B60 Offset: 0x90F60 VA: 0x180091B60
+	[DefaultValueAttribute] // RVA: 0x91B10 Offset: 0x90F10 VA: 0x180091B10
 	public string DataSetName { get; set; }
-	[DefaultValueAttribute] // RVA: 0x91B60 Offset: 0x90F60 VA: 0x180091B60
+	[DefaultValueAttribute] // RVA: 0x91B10 Offset: 0x90F10 VA: 0x180091B10
 	public string Namespace { get; set; }
-	[DefaultValueAttribute] // RVA: 0x91B60 Offset: 0x90F60 VA: 0x180091B60
+	[DefaultValueAttribute] // RVA: 0x91B10 Offset: 0x90F10 VA: 0x180091B10
 	public string Prefix { get; set; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public PropertyCollection ExtendedProperties { get; }
 	public CultureInfo Locale { get; set; }
-	[BrowsableAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
+	[BrowsableAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	public override ISite Site { get; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	public DataRelationCollection Relations { get; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	public DataTableCollection Tables { get; }
 	internal string MainTableName { get; set; }
 	internal int ObjectID { get; }
@@ -4575,56 +4575,56 @@ public class DataTable : MarshalByValueComponent, ISerializable, IXmlSerializabl
 	internal bool AreIndexEventsSuspended { get; }
 	private bool IsTypedDataTable { get; }
 	internal bool SelfNested { get; }
-	[DebuggerBrowsableAttribute] // RVA: 0x9E940 Offset: 0x9DD40 VA: 0x18009E940
+	[DebuggerBrowsableAttribute] // RVA: 0x9E9D0 Offset: 0x9DDD0 VA: 0x18009E9D0
 	internal List<Index> LiveIndexes { get; }
-	[DefaultValueAttribute] // RVA: 0xA34B0 Offset: 0xA28B0 VA: 0x1800A34B0
+	[DefaultValueAttribute] // RVA: 0xA3540 Offset: 0xA2940 VA: 0x1800A3540
 	public SerializationFormat RemotingFormat { get; set; }
 	internal int UKColumnPositionForInference { get; set; }
-	[BrowsableAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
+	[BrowsableAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	public DataRelationCollection ChildRelations { get; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	public DataColumnCollection Columns { get; }
 	private CompareInfo CompareInfo { get; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	public ConstraintCollection Constraints { get; }
-	[BrowsableAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
+	[BrowsableAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	public DataSet DataSet { get; }
 	internal string DisplayExpressionInternal { get; }
 	internal bool EnforceConstraints { get; set; }
 	internal bool SuspendEnforceConstraints { get; set; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public PropertyCollection ExtendedProperties { get; }
 	internal IFormatProvider FormatProvider { get; }
 	public CultureInfo Locale { get; set; }
-	[DefaultValueAttribute] // RVA: 0xA3890 Offset: 0xA2C90 VA: 0x1800A3890
+	[DefaultValueAttribute] // RVA: 0xA3970 Offset: 0xA2D70 VA: 0x1800A3970
 	public int MinimumCapacity { get; set; }
 	internal int RecordCapacity { get; }
 	internal int ElementColumnCount { get; set; }
-	[BrowsableAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
+	[BrowsableAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	public DataRelationCollection ParentRelations { get; }
 	internal bool MergingData { get; set; }
 	internal DataRelation[] NestedParentRelations { get; }
 	internal bool SchemaLoading { get; }
 	internal int NestedParentsCount { get; }
-	[TypeConverterAttribute] // RVA: 0xA3A40 Offset: 0xA2E40 VA: 0x1800A3A40
+	[TypeConverterAttribute] // RVA: 0xA3A90 Offset: 0xA2E90 VA: 0x1800A3A90
 	public DataColumn[] PrimaryKey { get; set; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public DataRowCollection Rows { get; }
-	[RefreshPropertiesAttribute] // RVA: 0xA3C70 Offset: 0xA3070 VA: 0x1800A3C70
-	[DefaultValueAttribute] // RVA: 0xA3C70 Offset: 0xA3070 VA: 0x1800A3C70
+	[RefreshPropertiesAttribute] // RVA: 0xA3D20 Offset: 0xA3120 VA: 0x1800A3D20
+	[DefaultValueAttribute] // RVA: 0xA3D20 Offset: 0xA3120 VA: 0x1800A3D20
 	public string TableName { get; set; }
 	internal string EncodedTableName { get; }
 	public string Namespace { get; set; }
-	[DefaultValueAttribute] // RVA: 0x91B60 Offset: 0x90F60 VA: 0x180091B60
+	[DefaultValueAttribute] // RVA: 0x91B10 Offset: 0x90F10 VA: 0x180091B10
 	public string Prefix { get; set; }
 	internal DataColumn XmlText { get; set; }
 	internal Decimal MaxOccurs { get; set; }
 	internal Decimal MinOccurs { get; set; }
-	[BrowsableAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
+	[BrowsableAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	public override ISite Site { get; }
 	internal bool NeedColumnChangeEvents { get; }
 	internal XmlQualifiedName TypeName { get; set; }
@@ -5286,7 +5286,7 @@ internal struct DataTable.RowDiffIdUsageSection // TypeDefIndex: 4224
 
 	// Methods
 
-	// RVA: 0x1EF290 Offset: 0x1EE690 VA: 0x1801EF290
+	// RVA: 0x1EF210 Offset: 0x1EE610 VA: 0x1801EF210
 	internal void Prepare(DataTable table) { }
 
 }
@@ -5297,14 +5297,14 @@ internal struct DataTable.DSRowDiffIdUsageSection // TypeDefIndex: 4225
 
 	// Methods
 
-	// RVA: 0x1EF150 Offset: 0x1EE550 VA: 0x1801EF150
+	// RVA: 0x1EF0D0 Offset: 0x1EE4D0 VA: 0x1801EF0D0
 	internal void Prepare(DataSet ds) { }
 
 }
 
 public sealed class DataTableClearEventArgs : EventArgs // TypeDefIndex: 4226
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly DataTable <Table>k__BackingField; // 0x10
 
 	// Methods
@@ -5448,7 +5448,7 @@ public sealed class DataTableCollection : InternalDataCollectionBase // TypeDefI
 
 public sealed class DataTableNewRowEventArgs : EventArgs // TypeDefIndex: 4229
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly DataRow <Row>k__BackingField; // 0x10
 
 	// Methods
@@ -5478,9 +5478,9 @@ public sealed class DataTableNewRowEventHandler : MulticastDelegate // TypeDefIn
 public class DataView : MarshalByValueComponent, IBindingList, IList, ICollection, IEnumerable // TypeDefIndex: 4232
 {
 // Namespace: System.Data
-[DefaultEventAttribute] // RVA: 0xA4430 Offset: 0xA3830 VA: 0x1800A4430
-[DefaultPropertyAttribute] // RVA: 0xA4430 Offset: 0xA3830 VA: 0x1800A4430
-[DefaultMemberAttribute] // RVA: 0xA4430 Offset: 0xA3830 VA: 0x1800A4430
+[DefaultEventAttribute] // RVA: 0xA4400 Offset: 0xA3800 VA: 0x1800A4400
+[DefaultPropertyAttribute] // RVA: 0xA4400 Offset: 0xA3800 VA: 0x1800A4400
+[DefaultMemberAttribute] // RVA: 0xA4400 Offset: 0xA3800 VA: 0x1800A4400
 public class DataView : MarshalByValueComponent, IBindingList, IList, ICollection, IEnumerable // TypeDefIndex: 4232
 	// Fields
 	private DataViewManager _dataViewManager; // 0x20
@@ -5511,26 +5511,26 @@ public class DataView : MarshalByValueComponent, IBindingList, IList, ICollectio
 	private readonly int _objectID; // 0xA8
 
 	// Properties
-	[DefaultValueAttribute] // RVA: 0x9D5E0 Offset: 0x9C9E0 VA: 0x18009D5E0
+	[DefaultValueAttribute] // RVA: 0x9D670 Offset: 0x9CA70 VA: 0x18009D670
 	public bool AllowDelete { get; }
-	[DefaultValueAttribute] // RVA: 0x9D5E0 Offset: 0x9C9E0 VA: 0x18009D5E0
+	[DefaultValueAttribute] // RVA: 0x9D670 Offset: 0x9CA70 VA: 0x18009D670
 	public bool AllowNew { get; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public int Count { get; }
 	private int CountFromIndex { get; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public DataViewManager DataViewManager { get; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	protected bool IsOpen { get; }
-	[DefaultValueAttribute] // RVA: 0xA4B80 Offset: 0xA3F80 VA: 0x1800A4B80
+	[DefaultValueAttribute] // RVA: 0xA4C10 Offset: 0xA4010 VA: 0x1800A4C10
 	public DataViewRowState RowStateFilter { get; }
-	[DefaultValueAttribute] // RVA: 0x91B60 Offset: 0x90F60 VA: 0x180091B60
+	[DefaultValueAttribute] // RVA: 0x91B10 Offset: 0x90F10 VA: 0x180091B10
 	public string Sort { get; }
 	internal Comparison<DataRow> SortComparison { get; }
 	private object System.Collections.ICollection.SyncRoot { get; }
-	[RefreshPropertiesAttribute] // RVA: 0xA4DC0 Offset: 0xA41C0 VA: 0x1800A4DC0
-	[DefaultValueAttribute] // RVA: 0xA4DC0 Offset: 0xA41C0 VA: 0x1800A4DC0
-	[TypeConverterAttribute] // RVA: 0xA4DC0 Offset: 0xA41C0 VA: 0x1800A4DC0
+	[RefreshPropertiesAttribute] // RVA: 0xA4E50 Offset: 0xA4250 VA: 0x1800A4E50
+	[DefaultValueAttribute] // RVA: 0xA4E50 Offset: 0xA4250 VA: 0x1800A4E50
+	[TypeConverterAttribute] // RVA: 0xA4E50 Offset: 0xA4250 VA: 0x1800A4E50
 	public DataTable Table { get; }
 	private object System.Collections.IList.Item { get; set; }
 	public DataRowView Item { get; }
@@ -5796,7 +5796,7 @@ public class DataViewManager : MarshalByValueComponent // TypeDefIndex: 4235
 	private static NotSupportedException s_notSupported; // 0x0
 
 	// Properties
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	public DataViewSettingCollection DataViewSettings { get; }
 
 	// Methods
@@ -6250,25 +6250,25 @@ public abstract class DbCommandBuilder : Component // TypeDefIndex: 4369
 	private int _parameterNameMaxLength; // 0xB8
 
 	// Properties
-	[DefaultValueAttribute] // RVA: 0xA97F0 Offset: 0xA8BF0 VA: 0x1800A97F0
+	[DefaultValueAttribute] // RVA: 0xA9840 Offset: 0xA8C40 VA: 0x1800A9840
 	public virtual ConflictOption ConflictOption { get; }
-	[DefaultValueAttribute] // RVA: 0xA9920 Offset: 0xA8D20 VA: 0x1800A9920
+	[DefaultValueAttribute] // RVA: 0xA99B0 Offset: 0xA8DB0 VA: 0x1800A99B0
 	public virtual CatalogLocation CatalogLocation { get; }
-	[DefaultValueAttribute] // RVA: 0xA9A10 Offset: 0xA8E10 VA: 0x1800A9A10
+	[DefaultValueAttribute] // RVA: 0xA9AC0 Offset: 0xA8EC0 VA: 0x1800A9AC0
 	public virtual string CatalogSeparator { get; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E7C0 Offset: 0x9DBC0 VA: 0x18009E7C0
-	[BrowsableAttribute] // RVA: 0x9E7C0 Offset: 0x9DBC0 VA: 0x18009E7C0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
+	[BrowsableAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
 	public DbDataAdapter DataAdapter { get; set; }
 	internal int ParameterNameMaxLength { get; }
 	internal string ParameterNamePattern { get; }
 	private string QuotedBaseTableName { get; }
-	[DefaultValueAttribute] // RVA: 0x91B60 Offset: 0x90F60 VA: 0x180091B60
+	[DefaultValueAttribute] // RVA: 0x91B10 Offset: 0x90F10 VA: 0x180091B10
 	public virtual string QuotePrefix { get; set; }
-	[DefaultValueAttribute] // RVA: 0x91B60 Offset: 0x90F60 VA: 0x180091B60
+	[DefaultValueAttribute] // RVA: 0x91B10 Offset: 0x90F10 VA: 0x180091B10
 	public virtual string QuoteSuffix { get; set; }
-	[DefaultValueAttribute] // RVA: 0xA9A10 Offset: 0xA8E10 VA: 0x1800A9A10
+	[DefaultValueAttribute] // RVA: 0xA9AC0 Offset: 0xA8EC0 VA: 0x1800A9AC0
 	public virtual string SchemaSeparator { get; }
-	[DefaultValueAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
+	[DefaultValueAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
 	public bool SetAllValues { get; }
 	private DbCommand InsertCommand { get; set; }
 	private DbCommand UpdateCommand { get; set; }
@@ -6694,7 +6694,7 @@ public class DataAdapter : Component // TypeDefIndex: 4374
 	private MissingMappingAction _missingMappingAction; // 0x28
 
 	// Properties
-	[DefaultValueAttribute] // RVA: 0xA9DA0 Offset: 0xA91A0 VA: 0x1800A9DA0
+	[DefaultValueAttribute] // RVA: 0xA9E40 Offset: 0xA9240 VA: 0x1800A9E40
 	public MissingMappingAction MissingMappingAction { get; }
 
 	// Methods
@@ -6713,9 +6713,9 @@ public sealed class DataColumnMapping : MarshalByRefObject // TypeDefIndex: 4375
 	private string _sourceColumnName; // 0x20
 
 	// Properties
-	[DefaultValueAttribute] // RVA: 0x91B60 Offset: 0x90F60 VA: 0x180091B60
+	[DefaultValueAttribute] // RVA: 0x91B10 Offset: 0x90F10 VA: 0x180091B10
 	public string DataSetColumn { get; }
-	[DefaultValueAttribute] // RVA: 0x91B60 Offset: 0x90F60 VA: 0x180091B60
+	[DefaultValueAttribute] // RVA: 0x91B10 Offset: 0x90F10 VA: 0x180091B10
 	public string SourceColumn { get; }
 
 	// Methods
@@ -6726,11 +6726,11 @@ public sealed class DataColumnMapping : MarshalByRefObject // TypeDefIndex: 4375
 	// RVA: 0x1275300 Offset: 0x1273900 VA: 0x181275300 Slot: 7
 	public string get_SourceColumn() { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	// RVA: 0x12751E0 Offset: 0x12737E0 VA: 0x1812751E0
 	public DataColumn GetDataColumnBySchemaAction(DataTable dataTable, Type dataType, MissingSchemaAction schemaAction) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	// RVA: 0x1274EC0 Offset: 0x12734C0 VA: 0x181274EC0
 	public static DataColumn GetDataColumnBySchemaAction(string sourceColumn, string dataSetColumn, DataTable dataTable, Type dataType, MissingSchemaAction schemaAction) { }
 
@@ -6742,14 +6742,14 @@ public sealed class DataColumnMapping : MarshalByRefObject // TypeDefIndex: 4375
 public sealed class DataColumnMappingCollection : MarshalByRefObject // TypeDefIndex: 4377
 {
 // Namespace: System.Data.Common
-[DefaultMemberAttribute] // RVA: 0x70BA0 Offset: 0x6FFA0 VA: 0x180070BA0
+[DefaultMemberAttribute] // RVA: 0x70CB0 Offset: 0x700B0 VA: 0x180070CB0
 public sealed class DataColumnMappingCollection : MarshalByRefObject // TypeDefIndex: 4377
 	// Fields
 	private List<DataColumnMapping> _items; // 0x18
 
 	// Properties
-	[BrowsableAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
+	[BrowsableAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	public int Count { get; }
 
 	// Methods
@@ -6760,7 +6760,7 @@ public sealed class DataColumnMappingCollection : MarshalByRefObject // TypeDefI
 	// RVA: 0x1274BC0 Offset: 0x12731C0 VA: 0x181274BC0 Slot: 7
 	public int IndexOf(string sourceColumn) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	// RVA: 0x1274860 Offset: 0x1272E60 VA: 0x181274860
 	public static DataColumn GetDataColumn(DataColumnMappingCollection columnMappings, string sourceColumn, Type dataType, DataTable dataTable, MissingMappingAction mappingAction, MissingSchemaAction schemaAction) { }
 
@@ -6995,7 +6995,7 @@ public sealed class DataTableMapping : MarshalByRefObject // TypeDefIndex: 4382
 
 	// Methods
 
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	// RVA: 0x12784E0 Offset: 0x1276AE0 VA: 0x1812784E0
 	public DataColumn GetDataColumn(string sourceColumn, Type dataType, DataTable dataTable, MissingMappingAction mappingAction, MissingSchemaAction schemaAction) { }
 
@@ -7003,33 +7003,33 @@ public sealed class DataTableMapping : MarshalByRefObject // TypeDefIndex: 4382
 
 public abstract class DbCommand : Component, IDbCommand, IDisposable // TypeDefIndex: 4386
 {	// Properties
-	[RefreshPropertiesAttribute] // RVA: 0xA3C70 Offset: 0xA3070 VA: 0x1800A3C70
-	[DefaultValueAttribute] // RVA: 0xA3C70 Offset: 0xA3070 VA: 0x1800A3C70
+	[RefreshPropertiesAttribute] // RVA: 0xA3D20 Offset: 0xA3120 VA: 0x1800A3D20
+	[DefaultValueAttribute] // RVA: 0xA3D20 Offset: 0xA3120 VA: 0x1800A3D20
 	public abstract string CommandText { get; set; }
 	public abstract int CommandTimeout { get; set; }
-	[DefaultValueAttribute] // RVA: 0xAA5D0 Offset: 0xA99D0 VA: 0x1800AA5D0
-	[RefreshPropertiesAttribute] // RVA: 0xAA5D0 Offset: 0xA99D0 VA: 0x1800AA5D0
+	[DefaultValueAttribute] // RVA: 0xAA630 Offset: 0xA9A30 VA: 0x1800AA630
+	[RefreshPropertiesAttribute] // RVA: 0xAA630 Offset: 0xA9A30 VA: 0x1800AA630
 	public abstract CommandType CommandType { set; }
-	[DefaultValueAttribute] // RVA: 0xAA880 Offset: 0xA9C80 VA: 0x1800AA880
-	[BrowsableAttribute] // RVA: 0xAA880 Offset: 0xA9C80 VA: 0x1800AA880
-	[DesignerSerializationVisibilityAttribute] // RVA: 0xAA880 Offset: 0xA9C80 VA: 0x1800AA880
+	[DefaultValueAttribute] // RVA: 0xAA8E0 Offset: 0xA9CE0 VA: 0x1800AA8E0
+	[BrowsableAttribute] // RVA: 0xAA8E0 Offset: 0xA9CE0 VA: 0x1800AA8E0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0xAA8E0 Offset: 0xA9CE0 VA: 0x1800AA8E0
 	public DbConnection Connection { get; set; }
 	protected abstract DbConnection DbConnection { get; set; }
 	protected abstract DbParameterCollection DbParameterCollection { get; }
 	protected abstract DbTransaction DbTransaction { get; set; }
-	[EditorBrowsableAttribute] // RVA: 0xAA9B0 Offset: 0xA9DB0 VA: 0x1800AA9B0
-	[DefaultValueAttribute] // RVA: 0xAA9B0 Offset: 0xA9DB0 VA: 0x1800AA9B0
-	[DesignOnlyAttribute] // RVA: 0xAA9B0 Offset: 0xA9DB0 VA: 0x1800AA9B0
-	[BrowsableAttribute] // RVA: 0xAA9B0 Offset: 0xA9DB0 VA: 0x1800AA9B0
+	[EditorBrowsableAttribute] // RVA: 0xAAA00 Offset: 0xA9E00 VA: 0x1800AAA00
+	[DefaultValueAttribute] // RVA: 0xAAA00 Offset: 0xA9E00 VA: 0x1800AAA00
+	[DesignOnlyAttribute] // RVA: 0xAAA00 Offset: 0xA9E00 VA: 0x1800AAA00
+	[BrowsableAttribute] // RVA: 0xAAA00 Offset: 0xA9E00 VA: 0x1800AAA00
 	public abstract bool DesignTimeVisible { get; set; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E7C0 Offset: 0x9DBC0 VA: 0x18009E7C0
-	[BrowsableAttribute] // RVA: 0x9E7C0 Offset: 0x9DBC0 VA: 0x18009E7C0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
+	[BrowsableAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
 	public DbParameterCollection Parameters { get; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0xAACE0 Offset: 0xAA0E0 VA: 0x1800AACE0
-	[BrowsableAttribute] // RVA: 0xAACE0 Offset: 0xAA0E0 VA: 0x1800AACE0
-	[DefaultValueAttribute] // RVA: 0xAACE0 Offset: 0xAA0E0 VA: 0x1800AACE0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0xAAD80 Offset: 0xAA180 VA: 0x1800AAD80
+	[BrowsableAttribute] // RVA: 0xAAD80 Offset: 0xAA180 VA: 0x1800AAD80
+	[DefaultValueAttribute] // RVA: 0xAAD80 Offset: 0xAA180 VA: 0x1800AAD80
 	public DbTransaction Transaction { get; set; }
-	[DefaultValueAttribute] // RVA: 0xAAED0 Offset: 0xAA2D0 VA: 0x1800AAED0
+	[DefaultValueAttribute] // RVA: 0xAAF70 Offset: 0xAA370 VA: 0x1800AAF70
 	public abstract UpdateRowSource UpdatedRowSource { get; set; }
 
 	// Methods
@@ -7116,12 +7116,12 @@ public abstract class DbCommand : Component, IDbCommand, IDisposable // TypeDefI
 
 public abstract class DbConnection : Component, IDisposable // TypeDefIndex: 4387
 {	// Properties
-	[RefreshPropertiesAttribute] // RVA: 0xAB0A0 Offset: 0xAA4A0 VA: 0x1800AB0A0
-	[DefaultValueAttribute] // RVA: 0xAB0A0 Offset: 0xAA4A0 VA: 0x1800AB0A0
-	[RecommendedAsConfigurableAttribute] // RVA: 0xAB0A0 Offset: 0xAA4A0 VA: 0x1800AB0A0
-	[SettingsBindableAttribute] // RVA: 0xAB0A0 Offset: 0xAA4A0 VA: 0x1800AB0A0
+	[RefreshPropertiesAttribute] // RVA: 0xAB140 Offset: 0xAA540 VA: 0x1800AB140
+	[DefaultValueAttribute] // RVA: 0xAB140 Offset: 0xAA540 VA: 0x1800AB140
+	[RecommendedAsConfigurableAttribute] // RVA: 0xAB140 Offset: 0xAA540 VA: 0x1800AB140
+	[SettingsBindableAttribute] // RVA: 0xAB140 Offset: 0xAA540 VA: 0x1800AB140
 	public abstract string ConnectionString { get; set; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public abstract ConnectionState State { get; }
 
 	// Methods
@@ -7171,17 +7171,17 @@ public abstract class DbDataAdapter : DataAdapter // TypeDefIndex: 4388
 
 	// Properties
 	private IDbDataAdapter _IDbDataAdapter { get; }
-	[BrowsableAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
+	[BrowsableAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	public DbCommand DeleteCommand { get; set; }
-	[BrowsableAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
+	[BrowsableAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	public DbCommand InsertCommand { get; set; }
-	[BrowsableAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E960 Offset: 0x9DD60 VA: 0x18009E960
+	[BrowsableAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	public DbCommand SelectCommand { get; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E7C0 Offset: 0x9DBC0 VA: 0x18009E7C0
-	[BrowsableAttribute] // RVA: 0x9E7C0 Offset: 0x9DBC0 VA: 0x18009E7C0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
+	[BrowsableAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
 	public DbCommand UpdateCommand { get; set; }
 
 	// Methods
@@ -7242,7 +7242,7 @@ public abstract class DbDataReader : MarshalByRefObject, IDataReader, IDisposabl
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 21
 	public virtual void Close() { }
 
-	[EditorBrowsableAttribute] // RVA: 0x7D6F0 Offset: 0x7CAF0 VA: 0x18007D6F0
+	[EditorBrowsableAttribute] // RVA: 0x7D7C0 Offset: 0x7CBC0 VA: 0x18007D7C0
 	// RVA: 0x127F6A0 Offset: 0x127DCA0 VA: 0x18127F6A0 Slot: 9
 	public void Dispose() { }
 
@@ -7252,7 +7252,7 @@ public abstract class DbDataReader : MarshalByRefObject, IDataReader, IDisposabl
 	// RVA: -1 Offset: -1 Slot: 23
 	public abstract string GetDataTypeName(int ordinal);
 
-	[EditorBrowsableAttribute] // RVA: 0x7D6F0 Offset: 0x7CAF0 VA: 0x18007D6F0
+	[EditorBrowsableAttribute] // RVA: 0x7D7C0 Offset: 0x7CBC0 VA: 0x18007D7C0
 	// RVA: -1 Offset: -1 Slot: 24
 	public abstract IEnumerator GetEnumerator();
 
@@ -7368,7 +7368,7 @@ public class DbEnumerator : IEnumerator // TypeDefIndex: 4391
 	// RVA: 0x127FDD0 Offset: 0x127E3D0 VA: 0x18127FDD0 Slot: 4
 	public bool MoveNext() { }
 
-	[EditorBrowsableAttribute] // RVA: 0x7D6F0 Offset: 0x7CAF0 VA: 0x18007D6F0
+	[EditorBrowsableAttribute] // RVA: 0x7D7C0 Offset: 0x7CBC0 VA: 0x18007D7C0
 	// RVA: 0x127FFB0 Offset: 0x127E5B0 VA: 0x18127FFB0 Slot: 6
 	public void Reset() { }
 
@@ -7496,30 +7496,30 @@ public static class DbMetaDataColumnNames // TypeDefIndex: 4395
 
 public abstract class DbParameter : MarshalByRefObject // TypeDefIndex: 4396
 {	// Properties
-	[BrowsableAttribute] // RVA: 0xABD40 Offset: 0xAB140 VA: 0x1800ABD40
-	[DesignerSerializationVisibilityAttribute] // RVA: 0xABD40 Offset: 0xAB140 VA: 0x1800ABD40
-	[RefreshPropertiesAttribute] // RVA: 0xABD40 Offset: 0xAB140 VA: 0x1800ABD40
+	[BrowsableAttribute] // RVA: 0xABDB0 Offset: 0xAB1B0 VA: 0x1800ABDB0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0xABDB0 Offset: 0xAB1B0 VA: 0x1800ABDB0
+	[RefreshPropertiesAttribute] // RVA: 0xABDB0 Offset: 0xAB1B0 VA: 0x1800ABDB0
 	public abstract DbType DbType { get; set; }
-	[RefreshPropertiesAttribute] // RVA: 0xABE80 Offset: 0xAB280 VA: 0x1800ABE80
-	[DefaultValueAttribute] // RVA: 0xABE80 Offset: 0xAB280 VA: 0x1800ABE80
+	[RefreshPropertiesAttribute] // RVA: 0xABF20 Offset: 0xAB320 VA: 0x1800ABF20
+	[DefaultValueAttribute] // RVA: 0xABF20 Offset: 0xAB320 VA: 0x1800ABF20
 	public abstract ParameterDirection Direction { get; set; }
-	[DesignOnlyAttribute] // RVA: 0xABF90 Offset: 0xAB390 VA: 0x1800ABF90
-	[BrowsableAttribute] // RVA: 0xABF90 Offset: 0xAB390 VA: 0x1800ABF90
-	[EditorBrowsableAttribute] // RVA: 0xABF90 Offset: 0xAB390 VA: 0x1800ABF90
+	[DesignOnlyAttribute] // RVA: 0xAC030 Offset: 0xAB430 VA: 0x1800AC030
+	[BrowsableAttribute] // RVA: 0xAC030 Offset: 0xAB430 VA: 0x1800AC030
+	[EditorBrowsableAttribute] // RVA: 0xAC030 Offset: 0xAB430 VA: 0x1800AC030
 	public abstract bool IsNullable { get; set; }
-	[DefaultValueAttribute] // RVA: 0x91B60 Offset: 0x90F60 VA: 0x180091B60
+	[DefaultValueAttribute] // RVA: 0x91B10 Offset: 0x90F10 VA: 0x180091B10
 	public abstract string ParameterName { get; set; }
 	public abstract int Size { set; }
-	[DefaultValueAttribute] // RVA: 0x91B60 Offset: 0x90F60 VA: 0x180091B60
+	[DefaultValueAttribute] // RVA: 0x91B10 Offset: 0x90F10 VA: 0x180091B10
 	public abstract string SourceColumn { get; set; }
-	[EditorBrowsableAttribute] // RVA: 0xAC1F0 Offset: 0xAB5F0 VA: 0x1800AC1F0
-	[DefaultValueAttribute] // RVA: 0xAC1F0 Offset: 0xAB5F0 VA: 0x1800AC1F0
-	[RefreshPropertiesAttribute] // RVA: 0xAC1F0 Offset: 0xAB5F0 VA: 0x1800AC1F0
+	[EditorBrowsableAttribute] // RVA: 0xAC2C0 Offset: 0xAB6C0 VA: 0x1800AC2C0
+	[DefaultValueAttribute] // RVA: 0xAC2C0 Offset: 0xAB6C0 VA: 0x1800AC2C0
+	[RefreshPropertiesAttribute] // RVA: 0xAC2C0 Offset: 0xAB6C0 VA: 0x1800AC2C0
 	public abstract bool SourceColumnNullMapping { set; }
-	[DefaultValueAttribute] // RVA: 0xAC3E0 Offset: 0xAB7E0 VA: 0x1800AC3E0
+	[DefaultValueAttribute] // RVA: 0xAC440 Offset: 0xAB840 VA: 0x1800AC440
 	public virtual DataRowVersion SourceVersion { get; set; }
-	[RefreshPropertiesAttribute] // RVA: 0xAC4D0 Offset: 0xAB8D0 VA: 0x1800AC4D0
-	[DefaultValueAttribute] // RVA: 0xAC4D0 Offset: 0xAB8D0 VA: 0x1800AC4D0
+	[RefreshPropertiesAttribute] // RVA: 0xAC570 Offset: 0xAB970 VA: 0x1800AC570
+	[DefaultValueAttribute] // RVA: 0xAC570 Offset: 0xAB970 VA: 0x1800AC570
 	public abstract object Value { get; set; }
 
 	// Methods
@@ -7579,20 +7579,20 @@ public abstract class DbParameter : MarshalByRefObject // TypeDefIndex: 4396
 
 public abstract class DbParameterCollection : MarshalByRefObject, IList, ICollection, IEnumerable // TypeDefIndex: 4397
 {	// Properties
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E7C0 Offset: 0x9DBC0 VA: 0x18009E7C0
-	[BrowsableAttribute] // RVA: 0x9E7C0 Offset: 0x9DBC0 VA: 0x18009E7C0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
+	[BrowsableAttribute] // RVA: 0x9E850 Offset: 0x9DC50 VA: 0x18009E850
 	public abstract int Count { get; }
-	[EditorBrowsableAttribute] // RVA: 0xACA50 Offset: 0xABE50 VA: 0x1800ACA50
-	[BrowsableAttribute] // RVA: 0xACA50 Offset: 0xABE50 VA: 0x1800ACA50
-	[DesignerSerializationVisibilityAttribute] // RVA: 0xACA50 Offset: 0xABE50 VA: 0x1800ACA50
+	[EditorBrowsableAttribute] // RVA: 0xACAF0 Offset: 0xABEF0 VA: 0x1800ACAF0
+	[BrowsableAttribute] // RVA: 0xACAF0 Offset: 0xABEF0 VA: 0x1800ACAF0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0xACAF0 Offset: 0xABEF0 VA: 0x1800ACAF0
 	public virtual bool IsFixedSize { get; }
-	[BrowsableAttribute] // RVA: 0xABD40 Offset: 0xAB140 VA: 0x1800ABD40
-	[DesignerSerializationVisibilityAttribute] // RVA: 0xABD40 Offset: 0xAB140 VA: 0x1800ABD40
-	[EditorBrowsableAttribute] // RVA: 0xABD40 Offset: 0xAB140 VA: 0x1800ABD40
+	[BrowsableAttribute] // RVA: 0xABDB0 Offset: 0xAB1B0 VA: 0x1800ABDB0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0xABDB0 Offset: 0xAB1B0 VA: 0x1800ABDB0
+	[EditorBrowsableAttribute] // RVA: 0xABDB0 Offset: 0xAB1B0 VA: 0x1800ABDB0
 	public virtual bool IsReadOnly { get; }
-	[EditorBrowsableAttribute] // RVA: 0xACA50 Offset: 0xABE50 VA: 0x1800ACA50
-	[BrowsableAttribute] // RVA: 0xACA50 Offset: 0xABE50 VA: 0x1800ACA50
-	[DesignerSerializationVisibilityAttribute] // RVA: 0xACA50 Offset: 0xABE50 VA: 0x1800ACA50
+	[EditorBrowsableAttribute] // RVA: 0xACAF0 Offset: 0xABEF0 VA: 0x1800ACAF0
+	[BrowsableAttribute] // RVA: 0xACAF0 Offset: 0xABEF0 VA: 0x1800ACAF0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0xACAF0 Offset: 0xABEF0 VA: 0x1800ACAF0
 	public abstract object SyncRoot { get; }
 	private object System.Collections.IList.Item { get; set; }
 	public DbParameter Item { get; }
@@ -7635,7 +7635,7 @@ public abstract class DbParameterCollection : MarshalByRefObject, IList, ICollec
 	// RVA: -1 Offset: -1 Slot: 28
 	public abstract void Clear();
 
-	[EditorBrowsableAttribute] // RVA: 0x7D6F0 Offset: 0x7CAF0 VA: 0x18007D6F0
+	[EditorBrowsableAttribute] // RVA: 0x7D7C0 Offset: 0x7CBC0 VA: 0x18007D7C0
 	// RVA: -1 Offset: -1 Slot: 29
 	public abstract IEnumerator GetEnumerator();
 
@@ -7672,7 +7672,7 @@ public abstract class DbProviderFactory // TypeDefIndex: 4398
 
 public sealed class DbProviderSpecificTypePropertyAttribute : Attribute // TypeDefIndex: 4399
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly bool <IsProviderSpecificTypeProperty>k__BackingField; // 0x10
 
 	// Methods
@@ -7705,7 +7705,7 @@ public abstract class DbTransaction : MarshalByRefObject, IDisposable // TypeDef
 public sealed class DataContractAttribute : Attribute // TypeDefIndex: 5705
 {
 // Namespace: System.Runtime.Serialization
-[AttributeUsageAttribute] // RVA: 0xC9B20 Offset: 0xC8F20 VA: 0x1800C9B20
+[AttributeUsageAttribute] // RVA: 0xC9B60 Offset: 0xC8F60 VA: 0x1800C9B60
 public sealed class DataContractAttribute : Attribute // TypeDefIndex: 5705
 	// Fields
 	private bool isReference; // 0x10
@@ -7918,7 +7918,7 @@ public class Database // TypeDefIndex: 7356
 public class Database // TypeDefIndex: 7356
 	// Fields
 	private IntPtr _connection; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IsConnectionOpen>k__BackingField; // 0x18
 
 	// Properties
@@ -7927,33 +7927,33 @@ public class Database // TypeDefIndex: 7356
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
 	private bool get_IsConnectionOpen() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x95FA00 Offset: 0x95E000 VA: 0x18095FA00
 	private void set_IsConnectionOpen(bool value) { }
 
-	// RVA: 0x231DA40 Offset: 0x231C040 VA: 0x18231DA40
+	// RVA: 0x231D880 Offset: 0x231BE80 VA: 0x18231D880
 	public void Open(string path, bool fastMode = False) { }
 
-	// RVA: 0x231E190 Offset: 0x231C790 VA: 0x18231E190
+	// RVA: 0x231DFD0 Offset: 0x231C5D0 VA: 0x18231DFD0
 	public bool TableExists(string name) { }
 
-	// RVA: 0x231D9D0 Offset: 0x231BFD0 VA: 0x18231D9D0
+	// RVA: 0x231D810 Offset: 0x231BE10 VA: 0x18231D810
 	public bool IndexExists(string tableName, string indexName) { }
 
-	// RVA: 0x231D200 Offset: 0x231B800 VA: 0x18231D200
+	// RVA: 0x231D040 Offset: 0x231B640 VA: 0x18231D040
 	public bool ColumnExists(string tableName, string columnName) { }
 
-	// RVA: 0x231D130 Offset: 0x231B730 VA: 0x18231D130
+	// RVA: 0x231CF70 Offset: 0x231B570 VA: 0x18231CF70
 	public void Close() { }
 
-	// RVA: 0x231E1F0 Offset: 0x231C7F0 VA: 0x18231E1F0
+	// RVA: 0x231E030 Offset: 0x231C630 VA: 0x18231E030
 	public int get_AffectedRows() { }
 
-	// RVA: 0x231D500 Offset: 0x231BB00 VA: 0x18231D500
+	// RVA: 0x231D340 Offset: 0x231B940 VA: 0x18231D340
 	public void Execute(string query) { }
 
 	// RVA: -1 Offset: -1
@@ -8037,7 +8037,7 @@ public class Database // TypeDefIndex: 7356
 	|-Database.GetColumnValue<object>
 	*/
 
-	// RVA: 0x231DEF0 Offset: 0x231C4F0 VA: 0x18231DEF0
+	// RVA: 0x231DD30 Offset: 0x231C330 VA: 0x18231DD30
 	public int QueryInt(string query) { }
 
 	// RVA: -1 Offset: -1
@@ -8058,7 +8058,7 @@ public class Database // TypeDefIndex: 7356
 	|-Database.QueryInt<string, string>
 	*/
 
-	// RVA: 0x231DF50 Offset: 0x231C550 VA: 0x18231DF50
+	// RVA: 0x231DD90 Offset: 0x231C390 VA: 0x18231DD90
 	public long QueryLong(string query) { }
 
 	// RVA: -1 Offset: -1
@@ -8088,16 +8088,16 @@ public class Database // TypeDefIndex: 7356
 	|-Database.QueryBlob<object, object, object, object>
 	*/
 
-	// RVA: 0x231D0E0 Offset: 0x231B6E0 VA: 0x18231D0E0
+	// RVA: 0x231CF20 Offset: 0x231B520 VA: 0x18231CF20
 	public void BeginTransaction() { }
 
-	// RVA: 0x231D270 Offset: 0x231B870 VA: 0x18231D270
+	// RVA: 0x231D0B0 Offset: 0x231B6B0 VA: 0x18231D0B0
 	public void Commit() { }
 
-	// RVA: 0x231E140 Offset: 0x231C740 VA: 0x18231E140
+	// RVA: 0x231DF80 Offset: 0x231C580 VA: 0x18231DF80
 	public void Rollback() { }
 
-	// RVA: 0x231D2C0 Offset: 0x231B8C0 VA: 0x18231D2C0
+	// RVA: 0x231D100 Offset: 0x231B700 VA: 0x18231D100
 	protected void ExecuteQuery(IntPtr stmHandle, bool finalize = True) { }
 
 	// RVA: -1 Offset: -1
@@ -8116,7 +8116,7 @@ public class Database // TypeDefIndex: 7356
 	|-Database.ExecuteAndReadQueryResult<long>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0x9A680 Offset: 0x99A80 VA: 0x18009A680
+	[IteratorStateMachineAttribute] // RVA: 0x9A710 Offset: 0x99B10 VA: 0x18009A710
 	// RVA: -1 Offset: -1
 	protected IEnumerable<T> ExecuteAndReadQueryResults<T>(IntPtr stmHandle, Func<IntPtr, T> rowReader, bool finalize = True) { }
 	/* GenericInstMethod :
@@ -8125,33 +8125,33 @@ public class Database // TypeDefIndex: 7356
 	|-Database.ExecuteAndReadQueryResults<object>
 	*/
 
-	// RVA: 0x231DCC0 Offset: 0x231C2C0 VA: 0x18231DCC0
+	// RVA: 0x231DB00 Offset: 0x231C100 VA: 0x18231DB00
 	protected IntPtr Prepare(string query) { }
 
-	// RVA: 0x231D530 Offset: 0x231BB30 VA: 0x18231D530
+	// RVA: 0x231D370 Offset: 0x231B970 VA: 0x18231D370
 	private void FinalizeOrReset(IntPtr stmHandle, bool finalize = True) { }
 
-	// RVA: 0x231D840 Offset: 0x231BE40 VA: 0x18231D840
+	// RVA: 0x231D680 Offset: 0x231BC80 VA: 0x18231D680
 	protected void Finalize(IntPtr stmHandle) { }
 
-	// RVA: 0x231DFB0 Offset: 0x231C5B0 VA: 0x18231DFB0
+	// RVA: 0x231DDF0 Offset: 0x231C3F0 VA: 0x18231DDF0
 	protected void Reset(IntPtr stmHandle) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal static Exception <GetColumnValue>g__TypeError|19_0<T>(ref Database.<>c__DisplayClass19_0<T> ) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B19D10 Offset: 0x1B18310 VA: 0x181B19D10
+	|-RVA: 0x1B19B50 Offset: 0x1B18150 VA: 0x181B19B50
 	|-Database.<GetColumnValue>g__TypeError|19_0<int>
 	|
-	|-RVA: 0x1B19E10 Offset: 0x1B18410 VA: 0x181B19E10
+	|-RVA: 0x1B19C50 Offset: 0x1B18250 VA: 0x181B19C50
 	|-Database.<GetColumnValue>g__TypeError|19_0<long>
 	|
-	|-RVA: 0x1B19F10 Offset: 0x1B18510 VA: 0x181B19F10
+	|-RVA: 0x1B19D50 Offset: 0x1B18350 VA: 0x181B19D50
 	|-Database.<GetColumnValue>g__TypeError|19_0<object>
 	*/
 
@@ -8182,7 +8182,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
@@ -8191,7 +8191,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 	|-Database.<ExecuteAndReadQueryResults>d__32<object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
@@ -8216,7 +8216,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 	|-Database.<ExecuteAndReadQueryResults>d__32<object>.<>m__Finally1
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private T System.Collections.Generic.IEnumerator<T>.get_Current() { }
 	/* GenericInstMethod :
@@ -8225,7 +8225,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 	|-Database.<ExecuteAndReadQueryResults>d__32<object>.System.Collections.Generic.IEnumerator<T>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
@@ -8234,7 +8234,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 	|-Database.<ExecuteAndReadQueryResults>d__32<object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
@@ -8243,7 +8243,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 	|-Database.<ExecuteAndReadQueryResults>d__32<object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
@@ -8252,7 +8252,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 	|-Database.<ExecuteAndReadQueryResults>d__32<object>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
@@ -8272,27 +8272,27 @@ internal static class DataTypesUtilities // TypeDefIndex: 7622
 	// RVA: 0x13976D0 Offset: 0x1395CD0 VA: 0x1813976D0
 	public static ushort CombineAsSevenBitNumbers(byte head, byte tail) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1397950 Offset: 0x1395F50 VA: 0x181397950
 	public static FourBitNumber GetTail(byte number) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1397890 Offset: 0x1395E90 VA: 0x181397890
 	public static SevenBitNumber GetTail(ushort number) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x125C5B0 Offset: 0x125ABB0 VA: 0x18125C5B0
 	public static byte GetTail(short number) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1397740 Offset: 0x1395D40 VA: 0x181397740
 	public static FourBitNumber GetHead(byte number) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13977F0 Offset: 0x1395DF0 VA: 0x1813977F0
 	public static SevenBitNumber GetHead(ushort number) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13977E0 Offset: 0x1395DE0 VA: 0x1813977E0
 	public static byte GetHead(short number) { }
 
@@ -8307,28 +8307,28 @@ internal abstract class DbcsEncoding : MonoEncoding // TypeDefIndex: 7825
 
 	// Methods
 
-	// RVA: 0x224EAD0 Offset: 0x224D0D0 VA: 0x18224EAD0
+	// RVA: 0x224E910 Offset: 0x224CF10 VA: 0x18224E910
 	public void .ctor(int codePage) { }
 
-	// RVA: 0x224EAE0 Offset: 0x224D0E0 VA: 0x18224EAE0
+	// RVA: 0x224E920 Offset: 0x224CF20 VA: 0x18224E920
 	public void .ctor(int codePage, int windowsCodePage) { }
 
 	// RVA: -1 Offset: -1 Slot: 48
 	internal abstract DbcsConvert GetConvert();
 
-	// RVA: 0x224E530 Offset: 0x224CB30 VA: 0x18224E530 Slot: 19
+	// RVA: 0x224E370 Offset: 0x224C970 VA: 0x18224E370 Slot: 19
 	public override int GetByteCount(char[] chars, int index, int count) { }
 
-	// RVA: 0x224E6B0 Offset: 0x224CCB0 VA: 0x18224E6B0 Slot: 29
+	// RVA: 0x224E4F0 Offset: 0x224CAF0 VA: 0x18224E4F0 Slot: 29
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x224E810 Offset: 0x224CE10 VA: 0x18224E810 Slot: 33
+	// RVA: 0x224E650 Offset: 0x224CC50 VA: 0x18224E650 Slot: 33
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x224E9D0 Offset: 0x224CFD0 VA: 0x18224E9D0 Slot: 40
+	// RVA: 0x224E810 Offset: 0x224CE10 VA: 0x18224E810 Slot: 40
 	public override int GetMaxByteCount(int charCount) { }
 
-	// RVA: 0x224EA50 Offset: 0x224D050 VA: 0x18224EA50 Slot: 41
+	// RVA: 0x224E890 Offset: 0x224CE90 VA: 0x18224E890 Slot: 41
 	public override int GetMaxCharCount(int byteCount) { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 12
@@ -8354,10 +8354,10 @@ internal abstract class DbcsEncoding.DbcsDecoder : Decoder // TypeDefIndex: 7826
 	// RVA: 0x15C0D00 Offset: 0x15BF300 VA: 0x1815C0D00
 	public void .ctor(DbcsConvert convert) { }
 
-	// RVA: 0x224E410 Offset: 0x224CA10 VA: 0x18224E410
+	// RVA: 0x224E250 Offset: 0x224C850 VA: 0x18224E250
 	internal void CheckRange(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x224E250 Offset: 0x224C850 VA: 0x18224E250
+	// RVA: 0x224E090 Offset: 0x224C690 VA: 0x18224E090
 	internal void CheckRange(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
 }
@@ -8372,10 +8372,10 @@ internal class DbcsConvert // TypeDefIndex: 7827
 
 	// Methods
 
-	// RVA: 0x224E0C0 Offset: 0x224C6C0 VA: 0x18224E0C0
+	// RVA: 0x224DF00 Offset: 0x224C500 VA: 0x18224DF00
 	internal void .ctor(string fileName) { }
 
-	// RVA: 0x224DFE0 Offset: 0x224C5E0 VA: 0x18224DFE0
+	// RVA: 0x224DE20 Offset: 0x224C420 VA: 0x18224DE20
 	private static void .cctor() { }
 
 }
@@ -8383,8 +8383,8 @@ internal class DbcsConvert // TypeDefIndex: 7827
 public class Data : ConsoleSystem // TypeDefIndex: 11898
 {	// Methods
 
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	// RVA: 0x6D5CE0 Offset: 0x6D42E0 VA: 0x1806D5CE0
 	public static void export(ConsoleSystem.Arg args) { }
 

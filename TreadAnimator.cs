@@ -58,7 +58,7 @@ public class TreadAnimator : MonoBehaviour, IClientComponent // TypeDefIndex: 88
 	// RVA: 0xA190B0 Offset: 0xA176B0 VA: 0x180A190B0
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA18400 Offset: 0xA16A00 VA: 0x180A18400
 	private void <AnimateWheelsTreads>g__AnimateTreadWheel|30_0(ref float treadMovement, ref Material treadMat, bool left, ref TreadAnimator.<>c__DisplayClass30_0 ) { }
 

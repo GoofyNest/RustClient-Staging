@@ -63,19 +63,19 @@ internal sealed class Tokenizer.StringMaker // TypeDefIndex: 922
 
 	// Methods
 
-	// RVA: 0x18B0810 Offset: 0x18AEE10 VA: 0x1818B0810
+	// RVA: 0x18B07D0 Offset: 0x18AEDD0 VA: 0x1818B07D0
 	private static uint HashString(string str) { }
 
-	// RVA: 0x18B07B0 Offset: 0x18AEDB0 VA: 0x1818B07B0
+	// RVA: 0x18B0770 Offset: 0x18AED70 VA: 0x1818B0770
 	private static uint HashCharArray(char[] a, int l) { }
 
-	// RVA: 0x18B0D20 Offset: 0x18AF320 VA: 0x1818B0D20
+	// RVA: 0x18B0CE0 Offset: 0x18AF2E0 VA: 0x1818B0CE0
 	public void .ctor() { }
 
-	// RVA: 0x18B06B0 Offset: 0x18AECB0 VA: 0x1818B06B0
+	// RVA: 0x18B0670 Offset: 0x18AEC70 VA: 0x1818B0670
 	private bool CompareStringAndChars(string str, char[] a, int l) { }
 
-	// RVA: 0x18B08E0 Offset: 0x18AEEE0 VA: 0x1818B08E0
+	// RVA: 0x18B08A0 Offset: 0x18AEEA0 VA: 0x1818B08A0
 	public string MakeString() { }
 
 }
@@ -90,10 +90,10 @@ internal class Tokenizer.StreamTokenReader : Tokenizer.ITokenReader // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x18AFF90 Offset: 0x18AE590 VA: 0x1818AFF90
+	// RVA: 0x18AFF50 Offset: 0x18AE550 VA: 0x1818AFF50
 	internal void .ctor(StreamReader input) { }
 
-	// RVA: 0x18AFF50 Offset: 0x18AE550 VA: 0x1818AFF50 Slot: 5
+	// RVA: 0x18AFF10 Offset: 0x18AE510 VA: 0x1818AFF10 Slot: 5
 	public virtual int Read() { }
 
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470

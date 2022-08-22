@@ -10,13 +10,13 @@ public struct SerializationEntry // TypeDefIndex: 1059
 
 	// Methods
 
-	// RVA: 0xF3F40 Offset: 0xF3340 VA: 0x1800F3F40
+	// RVA: 0xF3EC0 Offset: 0xF32C0 VA: 0x1800F3EC0
 	public object get_Value() { }
 
-	// RVA: 0xF3F60 Offset: 0xF3360 VA: 0x1800F3F60
+	// RVA: 0xF3EE0 Offset: 0xF32E0 VA: 0x1800F3EE0
 	public string get_Name() { }
 
-	// RVA: 0x1DFBF0 Offset: 0x1DEFF0 VA: 0x1801DFBF0
+	// RVA: 0x1DFB70 Offset: 0x1DEF70 VA: 0x1801DFB70
 	internal void .ctor(string entryName, object entryValue, Type entryType) { }
 
 }

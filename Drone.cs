@@ -1,6 +1,6 @@
 public class Drone : RemoteControlEntity // TypeDefIndex: 8689
 {	// Fields
-	[HeaderAttribute] // RVA: 0xBB900 Offset: 0xBAD00 VA: 0x1800BB900
+	[HeaderAttribute] // RVA: 0xBB9A0 Offset: 0xBADA0 VA: 0x1800BB9A0
 	public Rigidbody body; // 0x2B0
 	public bool killInWater; // 0x2B8
 	public bool enableGrounding; // 0x2B9
@@ -17,7 +17,7 @@ public class Drone : RemoteControlEntity // TypeDefIndex: 8689
 	public float hurtVelocityThreshold; // 0x2E0
 	public float hurtDamagePower; // 0x2E4
 	public float collisionDisableTime; // 0x2E8
-	[HeaderAttribute] // RVA: 0x8CC10 Offset: 0x8C010 VA: 0x18008CC10
+	[HeaderAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
 	public SoundDefinition movementLoopSoundDef; // 0x2F0
 	public SoundDefinition movementStartSoundDef; // 0x2F8
 	public SoundDefinition movementStopSoundDef; // 0x300
@@ -62,7 +62,7 @@ private struct Drone.DroneInputState // TypeDefIndex: 8690
 
 	// Methods
 
-	// RVA: 0xFC5E0 Offset: 0xFB9E0 VA: 0x1800FC5E0
+	// RVA: 0xFC560 Offset: 0xFB960 VA: 0x1800FC560
 	public void Reset() { }
 
 }

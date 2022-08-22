@@ -10,7 +10,7 @@ public class TransactionInformation // TypeDefIndex: 3986
 
 	// Methods
 
-	// RVA: 0x230CCD0 Offset: 0x230B2D0 VA: 0x18230CCD0
+	// RVA: 0x230CB10 Offset: 0x230B110 VA: 0x18230CB10
 	internal void .ctor() { }
 
 	// RVA: 0xA38CE0 Offset: 0xA372E0 VA: 0x180A38CE0

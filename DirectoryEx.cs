@@ -4,7 +4,7 @@ public static class DirectoryEx // TypeDefIndex: 11345
 	// RVA: 0x986B10 Offset: 0x985110 VA: 0x180986B10
 	public static void Backup(DirectoryInfo parent, string[] names) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x987270 Offset: 0x985870 VA: 0x180987270
 	public static bool MoveToSafe(DirectoryInfo parent, string target, int retries = 10) { }
 

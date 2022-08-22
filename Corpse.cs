@@ -6,13 +6,13 @@ public class Corpse : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6299
 
 	// Methods
 
-	// RVA: 0x20B38B0 Offset: 0x20B1EB0 VA: 0x1820B38B0
+	// RVA: 0x20B36F0 Offset: 0x20B1CF0 VA: 0x1820B36F0
 	public static void ResetToPool(Corpse instance) { }
 
-	// RVA: 0x20B3830 Offset: 0x20B1E30 VA: 0x1820B3830
+	// RVA: 0x20B3670 Offset: 0x20B1C70 VA: 0x1820B3670
 	public void ResetToPool() { }
 
-	// RVA: 0x20B3700 Offset: 0x20B1D00 VA: 0x1820B3700 Slot: 9
+	// RVA: 0x20B3540 Offset: 0x20B1B40 VA: 0x1820B3540 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -21,64 +21,64 @@ public class Corpse : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6299
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE690 Offset: 0x1BFCC90 VA: 0x181BFE690
+	// RVA: 0x1BFE4D0 Offset: 0x1BFCAD0 VA: 0x181BFE4D0
 	public void CopyTo(Corpse instance) { }
 
-	// RVA: 0x20B2D80 Offset: 0x20B1380 VA: 0x1820B2D80
+	// RVA: 0x20B2BC0 Offset: 0x20B11C0 VA: 0x1820B2BC0
 	public Corpse Copy() { }
 
-	// RVA: 0x20B3580 Offset: 0x20B1B80 VA: 0x1820B3580
+	// RVA: 0x20B33C0 Offset: 0x20B19C0 VA: 0x1820B33C0
 	public static Corpse Deserialize(Stream stream) { }
 
-	// RVA: 0x20B3010 Offset: 0x20B1610 VA: 0x1820B3010
+	// RVA: 0x20B2E50 Offset: 0x20B1450 VA: 0x1820B2E50
 	public static Corpse DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20B3090 Offset: 0x20B1690 VA: 0x1820B3090
+	// RVA: 0x20B2ED0 Offset: 0x20B14D0 VA: 0x1820B2ED0
 	public static Corpse DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20B3320 Offset: 0x20B1920 VA: 0x1820B3320
+	// RVA: 0x20B3160 Offset: 0x20B1760 VA: 0x1820B3160
 	public static Corpse Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20B37F0 Offset: 0x20B1DF0 VA: 0x1820B37F0
+	// RVA: 0x20B3630 Offset: 0x20B1C30 VA: 0x1820B3630
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20B3D80 Offset: 0x20B2380 VA: 0x1820B3D80 Slot: 12
+	// RVA: 0x20B3BC0 Offset: 0x20B21C0 VA: 0x1820B3BC0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20B3E50 Offset: 0x20B2450 VA: 0x1820B3E50 Slot: 13
+	// RVA: 0x20B3C90 Offset: 0x20B2290 VA: 0x1820B3C90 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Corpse previous) { }
 
-	// RVA: 0x20B3810 Offset: 0x20B1E10 VA: 0x1820B3810 Slot: 14
+	// RVA: 0x20B3650 Offset: 0x20B1C50 VA: 0x1820B3650 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20B3600 Offset: 0x20B1C00 VA: 0x1820B3600
+	// RVA: 0x20B3440 Offset: 0x20B1A40 VA: 0x1820B3440
 	public static Corpse Deserialize(byte[] buffer, Corpse instance, bool isDelta = False) { }
 
-	// RVA: 0x20B3440 Offset: 0x20B1A40 VA: 0x1820B3440
+	// RVA: 0x20B3280 Offset: 0x20B1880 VA: 0x1820B3280
 	public static Corpse Deserialize(Stream stream, Corpse instance, bool isDelta) { }
 
-	// RVA: 0x20B2DF0 Offset: 0x20B13F0 VA: 0x1820B2DF0
+	// RVA: 0x20B2C30 Offset: 0x20B1230 VA: 0x1820B2C30
 	public static Corpse DeserializeLengthDelimited(Stream stream, Corpse instance, bool isDelta) { }
 
-	// RVA: 0x20B3120 Offset: 0x20B1720 VA: 0x1820B3120
+	// RVA: 0x20B2F60 Offset: 0x20B1560 VA: 0x1820B2F60
 	public static Corpse DeserializeLength(Stream stream, int length, Corpse instance, bool isDelta) { }
 
-	// RVA: 0x20B3930 Offset: 0x20B1F30 VA: 0x1820B3930
+	// RVA: 0x20B3770 Offset: 0x20B1D70 VA: 0x1820B3770
 	public static void SerializeDelta(Stream stream, Corpse instance, Corpse previous) { }
 
-	// RVA: 0x20B3CA0 Offset: 0x20B22A0 VA: 0x1820B3CA0
+	// RVA: 0x20B3AE0 Offset: 0x20B20E0 VA: 0x1820B3AE0
 	public static void Serialize(Stream stream, Corpse instance) { }
 
-	// RVA: 0x20B3D70 Offset: 0x20B2370 VA: 0x1820B3D70
+	// RVA: 0x20B3BB0 Offset: 0x20B21B0 VA: 0x1820B3BB0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20B3D80 Offset: 0x20B2380 VA: 0x1820B3D80
+	// RVA: 0x20B3BC0 Offset: 0x20B21C0 VA: 0x1820B3BC0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20B3AF0 Offset: 0x20B20F0 VA: 0x1820B3AF0
+	// RVA: 0x20B3930 Offset: 0x20B1F30 VA: 0x1820B3930
 	public static byte[] SerializeToBytes(Corpse instance) { }
 
-	// RVA: 0x20B3A40 Offset: 0x20B2040 VA: 0x1820B3A40
+	// RVA: 0x20B3880 Offset: 0x20B1E80 VA: 0x1820B3880
 	public static void SerializeLengthDelimited(Stream stream, Corpse instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80

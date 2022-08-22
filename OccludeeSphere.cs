@@ -9,16 +9,16 @@ public struct OccludeeSphere // TypeDefIndex: 11508
 
 	// Methods
 
-	// RVA: 0xFB1E0 Offset: 0xFA5E0 VA: 0x1800FB1E0
+	// RVA: 0xFB160 Offset: 0xFA560 VA: 0x1800FB160
 	public bool get_IsRegistered() { }
 
-	// RVA: 0xFB050 Offset: 0xFA450 VA: 0x1800FB050
+	// RVA: 0xFAFD0 Offset: 0xFA3D0 VA: 0x1800FAFD0
 	public void Invalidate() { }
 
-	// RVA: 0xFB110 Offset: 0xFA510 VA: 0x1800FB110
+	// RVA: 0xFB090 Offset: 0xFA490 VA: 0x1800FB090
 	public void .ctor(int id) { }
 
-	// RVA: 0xFB080 Offset: 0xFA480 VA: 0x1800FB080
+	// RVA: 0xFB000 Offset: 0xFA400 VA: 0x1800FB000
 	public void .ctor(int id, OcclusionCulling.Sphere sphere) { }
 
 }

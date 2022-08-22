@@ -5,23 +5,23 @@ public struct CancellationTokenRegistration : IEquatable<CancellationTokenRegist
 
 	// Methods
 
-	// RVA: 0x1F0280 Offset: 0x1EF680 VA: 0x1801F0280
+	// RVA: 0x1F0200 Offset: 0x1EF600 VA: 0x1801F0200
 	internal void .ctor(CancellationCallbackInfo callbackInfo, SparselyPopulatedArrayAddInfo<CancellationCallbackInfo> registrationInfo) { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1F0270 Offset: 0x1EF670 VA: 0x1801F0270
+	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1F01F0 Offset: 0x1EF5F0 VA: 0x1801F01F0
 	internal bool TryDeregister() { }
 
-	// RVA: 0x1F0050 Offset: 0x1EF450 VA: 0x1801F0050 Slot: 5
+	// RVA: 0x1EFFD0 Offset: 0x1EF3D0 VA: 0x1801EFFD0 Slot: 5
 	public void Dispose() { }
 
-	// RVA: 0x1F0060 Offset: 0x1EF460 VA: 0x1801F0060 Slot: 0
+	// RVA: 0x1EFFE0 Offset: 0x1EF3E0 VA: 0x1801EFFE0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1F0140 Offset: 0x1EF540 VA: 0x1801F0140 Slot: 4
+	// RVA: 0x1F00C0 Offset: 0x1EF4C0 VA: 0x1801F00C0 Slot: 4
 	public bool Equals(CancellationTokenRegistration other) { }
 
-	// RVA: 0x1F01D0 Offset: 0x1EF5D0 VA: 0x1801F01D0 Slot: 2
+	// RVA: 0x1F0150 Offset: 0x1EF550 VA: 0x1801F0150 Slot: 2
 	public override int GetHashCode() { }
 
 }

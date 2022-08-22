@@ -1,7 +1,7 @@
 public class Construct : ConsoleSystem // TypeDefIndex: 11895
 {	// Fields
-	[ServerVar] // RVA: 0x90F60 Offset: 0x90360 VA: 0x180090F60
-	[HelpAttribute] // RVA: 0x90F60 Offset: 0x90360 VA: 0x180090F60
+	[ServerVar] // RVA: 0x911A0 Offset: 0x905A0 VA: 0x1800911A0
+	[HelpAttribute] // RVA: 0x911A0 Offset: 0x905A0 VA: 0x1800911A0
 	public static float frameminutes; // 0x20420
 
 	// Methods

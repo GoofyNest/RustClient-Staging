@@ -66,76 +66,76 @@ public struct DateTime : IComparable, IFormattable, IConvertible, ISerializable,
 
 	// Methods
 
-	// RVA: 0x20CC90 Offset: 0x20C090 VA: 0x18020CC90
+	// RVA: 0x20CC10 Offset: 0x20C010 VA: 0x18020CC10
 	public void .ctor(long ticks) { }
 
-	// RVA: 0x1D2F30 Offset: 0x1D2330 VA: 0x1801D2F30
+	// RVA: 0x1D2EB0 Offset: 0x1D22B0 VA: 0x1801D2EB0
 	private void .ctor(ulong dateData) { }
 
-	// RVA: 0x20CCA0 Offset: 0x20C0A0 VA: 0x18020CCA0
+	// RVA: 0x20CC20 Offset: 0x20C020 VA: 0x18020CC20
 	public void .ctor(long ticks, DateTimeKind kind) { }
 
-	// RVA: 0x20CF50 Offset: 0x20C350 VA: 0x18020CF50
+	// RVA: 0x20CED0 Offset: 0x20C2D0 VA: 0x18020CED0
 	internal void .ctor(long ticks, DateTimeKind kind, bool isAmbiguousDst) { }
 
-	// RVA: 0x20D070 Offset: 0x20C470 VA: 0x18020D070
+	// RVA: 0x20CFF0 Offset: 0x20C3F0 VA: 0x18020CFF0
 	public void .ctor(int year, int month, int day) { }
 
-	// RVA: 0x20CCD0 Offset: 0x20C0D0 VA: 0x18020CCD0
+	// RVA: 0x20CC50 Offset: 0x20C050 VA: 0x18020CC50
 	public void .ctor(int year, int month, int day, int hour, int minute, int second) { }
 
-	// RVA: 0x20CF60 Offset: 0x20C360 VA: 0x18020CF60
+	// RVA: 0x20CEE0 Offset: 0x20C2E0 VA: 0x18020CEE0
 	public void .ctor(int year, int month, int day, int hour, int minute, int second, DateTimeKind kind) { }
 
-	// RVA: 0x20CD70 Offset: 0x20C170 VA: 0x18020CD70
+	// RVA: 0x20CCF0 Offset: 0x20C0F0 VA: 0x18020CCF0
 	public void .ctor(int year, int month, int day, int hour, int minute, int second, int millisecond) { }
 
-	// RVA: 0x20D060 Offset: 0x20C460 VA: 0x18020D060
+	// RVA: 0x20CFE0 Offset: 0x20C3E0 VA: 0x18020CFE0
 	public void .ctor(int year, int month, int day, int hour, int minute, int second, int millisecond, DateTimeKind kind) { }
 
-	// RVA: 0x20CCB0 Offset: 0x20C0B0 VA: 0x18020CCB0
+	// RVA: 0x20CC30 Offset: 0x20C030 VA: 0x18020CC30
 	private void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x20D200 Offset: 0x20C600 VA: 0x18020D200
+	// RVA: 0x20D180 Offset: 0x20C580 VA: 0x18020D180
 	internal long get_InternalTicks() { }
 
-	// RVA: 0x20D1E0 Offset: 0x20C5E0 VA: 0x18020D1E0
+	// RVA: 0x20D160 Offset: 0x20C560 VA: 0x18020D160
 	private ulong get_InternalKind() { }
 
-	// RVA: 0x20C0D0 Offset: 0x20B4D0 VA: 0x18020C0D0
+	// RVA: 0x20C050 Offset: 0x20B450 VA: 0x18020C050
 	public DateTime Add(TimeSpan value) { }
 
-	// RVA: 0x20C0E0 Offset: 0x20B4E0 VA: 0x18020C0E0
+	// RVA: 0x20C060 Offset: 0x20B460 VA: 0x18020C060
 	private DateTime Add(double value, int scale) { }
 
-	// RVA: 0x20BFA0 Offset: 0x20B3A0 VA: 0x18020BFA0
+	// RVA: 0x20BF20 Offset: 0x20B320 VA: 0x18020BF20
 	public DateTime AddDays(double value) { }
 
-	// RVA: 0x20BFC0 Offset: 0x20B3C0 VA: 0x18020BFC0
+	// RVA: 0x20BF40 Offset: 0x20B340 VA: 0x18020BF40
 	public DateTime AddHours(double value) { }
 
-	// RVA: 0x20BFE0 Offset: 0x20B3E0 VA: 0x18020BFE0
+	// RVA: 0x20BF60 Offset: 0x20B360 VA: 0x18020BF60
 	public DateTime AddMilliseconds(double value) { }
 
-	// RVA: 0x20BFF0 Offset: 0x20B3F0 VA: 0x18020BFF0
+	// RVA: 0x20BF70 Offset: 0x20B370 VA: 0x18020BF70
 	public DateTime AddMonths(int months) { }
 
-	// RVA: 0x20C000 Offset: 0x20B400 VA: 0x18020C000
+	// RVA: 0x20BF80 Offset: 0x20B380 VA: 0x18020BF80
 	public DateTime AddSeconds(double value) { }
 
-	// RVA: 0x20C020 Offset: 0x20B420 VA: 0x18020C020
+	// RVA: 0x20BFA0 Offset: 0x20B3A0 VA: 0x18020BFA0
 	public DateTime AddTicks(long value) { }
 
-	// RVA: 0x20C030 Offset: 0x20B430 VA: 0x18020C030
+	// RVA: 0x20BFB0 Offset: 0x20B3B0 VA: 0x18020BFB0
 	public DateTime AddYears(int value) { }
 
 	// RVA: 0x17A3DE0 Offset: 0x17A23E0 VA: 0x1817A3DE0
 	public static int Compare(DateTime t1, DateTime t2) { }
 
-	// RVA: 0x20C120 Offset: 0x20B520 VA: 0x18020C120 Slot: 4
+	// RVA: 0x20C0A0 Offset: 0x20B4A0 VA: 0x18020C0A0 Slot: 4
 	public int CompareTo(object value) { }
 
-	// RVA: 0x20C0F0 Offset: 0x20B4F0 VA: 0x18020C0F0 Slot: 24
+	// RVA: 0x20C070 Offset: 0x20B470 VA: 0x18020C070 Slot: 24
 	public int CompareTo(DateTime value) { }
 
 	// RVA: 0x17A3E00 Offset: 0x17A2400 VA: 0x1817A3E00
@@ -150,10 +150,10 @@ public struct DateTime : IComparable, IFormattable, IConvertible, ISerializable,
 	// RVA: 0x17A4150 Offset: 0x17A2750 VA: 0x1817A4150
 	internal static long DoubleDateToTicks(double value) { }
 
-	// RVA: 0x20C220 Offset: 0x20B620 VA: 0x18020C220 Slot: 0
+	// RVA: 0x20C1A0 Offset: 0x20B5A0 VA: 0x18020C1A0 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x20C200 Offset: 0x20B600 VA: 0x18020C200 Slot: 25
+	// RVA: 0x20C180 Offset: 0x20B580 VA: 0x18020C180 Slot: 25
 	public bool Equals(DateTime value) { }
 
 	// RVA: 0x17A4420 Offset: 0x17A2A20 VA: 0x1817A4420
@@ -171,46 +171,46 @@ public struct DateTime : IComparable, IFormattable, IConvertible, ISerializable,
 	// RVA: 0x17A4850 Offset: 0x17A2E50 VA: 0x1817A4850
 	public static DateTime FromOADate(double d) { }
 
-	// RVA: 0x20C480 Offset: 0x20B880 VA: 0x18020C480 Slot: 23
+	// RVA: 0x20C400 Offset: 0x20B800 VA: 0x18020C400 Slot: 23
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 	// RVA: 0x17A5190 Offset: 0x17A3790 VA: 0x1817A5190
 	public static DateTime SpecifyKind(DateTime value, DateTimeKind kind) { }
 
-	// RVA: 0x20C530 Offset: 0x20B930 VA: 0x18020C530
+	// RVA: 0x20C4B0 Offset: 0x20B8B0 VA: 0x18020C4B0
 	public long ToBinary() { }
 
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	internal long ToBinaryRaw() { }
 
-	// RVA: 0x20D0F0 Offset: 0x20C4F0 VA: 0x18020D0F0
+	// RVA: 0x20D070 Offset: 0x20C470 VA: 0x18020D070
 	public DateTime get_Date() { }
 
-	// RVA: 0x20C2B0 Offset: 0x20B6B0 VA: 0x18020C2B0
+	// RVA: 0x20C230 Offset: 0x20B630 VA: 0x18020C230
 	private int GetDatePart(int part) { }
 
-	// RVA: 0x20D180 Offset: 0x20C580 VA: 0x18020D180
+	// RVA: 0x20D100 Offset: 0x20C500 VA: 0x18020D100
 	public int get_Day() { }
 
-	// RVA: 0x20D130 Offset: 0x20C530 VA: 0x18020D130
+	// RVA: 0x20D0B0 Offset: 0x20C4B0 VA: 0x18020D0B0
 	public DayOfWeek get_DayOfWeek() { }
 
-	// RVA: 0x20C2C0 Offset: 0x20B6C0 VA: 0x18020C2C0 Slot: 2
+	// RVA: 0x20C240 Offset: 0x20B640 VA: 0x18020C240 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x20D190 Offset: 0x20C590 VA: 0x18020D190
+	// RVA: 0x20D110 Offset: 0x20C510 VA: 0x18020D110
 	public int get_Hour() { }
 
-	// RVA: 0x20D220 Offset: 0x20C620 VA: 0x18020D220
+	// RVA: 0x20D1A0 Offset: 0x20C5A0 VA: 0x18020D1A0
 	public DateTimeKind get_Kind() { }
 
-	// RVA: 0x20D250 Offset: 0x20C650 VA: 0x18020D250
+	// RVA: 0x20D1D0 Offset: 0x20C5D0 VA: 0x18020D1D0
 	public int get_Millisecond() { }
 
-	// RVA: 0x20D2A0 Offset: 0x20C6A0 VA: 0x18020D2A0
+	// RVA: 0x20D220 Offset: 0x20C620 VA: 0x18020D220
 	public int get_Minute() { }
 
-	// RVA: 0x20D2F0 Offset: 0x20C6F0 VA: 0x18020D2F0
+	// RVA: 0x20D270 Offset: 0x20C670 VA: 0x18020D270
 	public int get_Month() { }
 
 	// RVA: 0x17A7AA0 Offset: 0x17A60A0 VA: 0x1817A7AA0
@@ -222,16 +222,16 @@ public struct DateTime : IComparable, IFormattable, IConvertible, ISerializable,
 	// RVA: 0x17A4C30 Offset: 0x17A3230 VA: 0x1817A4C30
 	internal static long GetSystemTimeAsFileTime() { }
 
-	// RVA: 0x20D300 Offset: 0x20C700 VA: 0x18020D300
+	// RVA: 0x20D280 Offset: 0x20C680 VA: 0x18020D280
 	public int get_Second() { }
 
-	// RVA: 0x20D200 Offset: 0x20C600 VA: 0x18020D200
+	// RVA: 0x20D180 Offset: 0x20C580 VA: 0x18020D180
 	public long get_Ticks() { }
 
-	// RVA: 0x20D350 Offset: 0x20C750 VA: 0x18020D350
+	// RVA: 0x20D2D0 Offset: 0x20C6D0 VA: 0x18020D2D0
 	public TimeSpan get_TimeOfDay() { }
 
-	// RVA: 0x20D380 Offset: 0x20C780 VA: 0x18020D380
+	// RVA: 0x20D300 Offset: 0x20C700 VA: 0x18020D300
 	public int get_Year() { }
 
 	// RVA: 0x17A4C40 Offset: 0x17A3240 VA: 0x1817A4C40
@@ -252,49 +252,49 @@ public struct DateTime : IComparable, IFormattable, IConvertible, ISerializable,
 	// RVA: 0x17A4DD0 Offset: 0x17A33D0 VA: 0x1817A4DD0
 	public static DateTime ParseExact(string s, string[] formats, IFormatProvider provider, DateTimeStyles style) { }
 
-	// RVA: 0x20C2F0 Offset: 0x20B6F0 VA: 0x18020C2F0
+	// RVA: 0x20C270 Offset: 0x20B670 VA: 0x18020C270
 	public TimeSpan Subtract(DateTime value) { }
 
 	// RVA: 0x17A5C80 Offset: 0x17A4280 VA: 0x1817A5C80
 	private static double TicksToOADate(long value) { }
 
-	// RVA: 0x20C750 Offset: 0x20BB50 VA: 0x18020C750
+	// RVA: 0x20C6D0 Offset: 0x20BAD0 VA: 0x18020C6D0
 	public double ToOADate() { }
 
-	// RVA: 0x20C5D0 Offset: 0x20B9D0 VA: 0x18020C5D0
+	// RVA: 0x20C550 Offset: 0x20B950 VA: 0x18020C550
 	public long ToFileTime() { }
 
-	// RVA: 0x20C5C0 Offset: 0x20B9C0 VA: 0x18020C5C0
+	// RVA: 0x20C540 Offset: 0x20B940 VA: 0x18020C540
 	public long ToFileTimeUtc() { }
 
-	// RVA: 0x20C690 Offset: 0x20BA90 VA: 0x18020C690
+	// RVA: 0x20C610 Offset: 0x20BA10 VA: 0x18020C610
 	public DateTime ToLocalTime() { }
 
-	// RVA: 0x20C6A0 Offset: 0x20BAA0 VA: 0x18020C6A0
+	// RVA: 0x20C620 Offset: 0x20BA20 VA: 0x18020C620
 	internal DateTime ToLocalTime(bool throwOnOverflow) { }
 
-	// RVA: 0x20C6B0 Offset: 0x20BAB0 VA: 0x18020C6B0
+	// RVA: 0x20C630 Offset: 0x20BA30 VA: 0x18020C630
 	public string ToLongTimeString() { }
 
-	// RVA: 0x20C8D0 Offset: 0x20BCD0 VA: 0x18020C8D0
+	// RVA: 0x20C850 Offset: 0x20BC50 VA: 0x18020C850
 	public string ToShortDateString() { }
 
-	// RVA: 0x20C970 Offset: 0x20BD70 VA: 0x18020C970
+	// RVA: 0x20C8F0 Offset: 0x20BCF0 VA: 0x18020C8F0
 	public string ToShortTimeString() { }
 
-	// RVA: 0x20CBF0 Offset: 0x20BFF0 VA: 0x18020CBF0 Slot: 3
+	// RVA: 0x20CB70 Offset: 0x20BF70 VA: 0x18020CB70 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x20CA10 Offset: 0x20BE10 VA: 0x18020CA10
+	// RVA: 0x20C990 Offset: 0x20BD90 VA: 0x18020C990
 	public string ToString(string format) { }
 
-	// RVA: 0x20CAB0 Offset: 0x20BEB0 VA: 0x18020CAB0 Slot: 21
+	// RVA: 0x20CA30 Offset: 0x20BE30 VA: 0x18020CA30 Slot: 21
 	public string ToString(IFormatProvider provider) { }
 
-	// RVA: 0x20CB50 Offset: 0x20BF50 VA: 0x18020CB50 Slot: 5
+	// RVA: 0x20CAD0 Offset: 0x20BED0 VA: 0x18020CAD0 Slot: 5
 	public string ToString(string format, IFormatProvider provider) { }
 
-	// RVA: 0x20CC80 Offset: 0x20C080 VA: 0x18020CC80
+	// RVA: 0x20CC00 Offset: 0x20C000 VA: 0x18020CC00
 	public DateTime ToUniversalTime() { }
 
 	// RVA: 0x17A6AE0 Offset: 0x17A50E0 VA: 0x1817A6AE0
@@ -330,52 +330,52 @@ public struct DateTime : IComparable, IFormattable, IConvertible, ISerializable,
 	// RVA: 0x17A7E80 Offset: 0x17A6480 VA: 0x1817A7E80
 	public static bool op_GreaterThanOrEqual(DateTime t1, DateTime t2) { }
 
-	// RVA: 0x20C2E0 Offset: 0x20B6E0 VA: 0x18020C2E0 Slot: 6
+	// RVA: 0x20C260 Offset: 0x20B660 VA: 0x18020C260 Slot: 6
 	public TypeCode GetTypeCode() { }
 
-	// RVA: 0x20C310 Offset: 0x20B710 VA: 0x18020C310 Slot: 7
+	// RVA: 0x20C290 Offset: 0x20B690 VA: 0x18020C290 Slot: 7
 	private bool System.IConvertible.ToBoolean(IFormatProvider provider) { }
 
-	// RVA: 0x20C330 Offset: 0x20B730 VA: 0x18020C330 Slot: 8
+	// RVA: 0x20C2B0 Offset: 0x20B6B0 VA: 0x18020C2B0 Slot: 8
 	private char System.IConvertible.ToChar(IFormatProvider provider) { }
 
-	// RVA: 0x20C3A0 Offset: 0x20B7A0 VA: 0x18020C3A0 Slot: 9
+	// RVA: 0x20C320 Offset: 0x20B720 VA: 0x18020C320 Slot: 9
 	private sbyte System.IConvertible.ToSByte(IFormatProvider provider) { }
 
-	// RVA: 0x20C320 Offset: 0x20B720 VA: 0x18020C320 Slot: 10
+	// RVA: 0x20C2A0 Offset: 0x20B6A0 VA: 0x18020C2A0 Slot: 10
 	private byte System.IConvertible.ToByte(IFormatProvider provider) { }
 
-	// RVA: 0x20C370 Offset: 0x20B770 VA: 0x18020C370 Slot: 11
+	// RVA: 0x20C2F0 Offset: 0x20B6F0 VA: 0x18020C2F0 Slot: 11
 	private short System.IConvertible.ToInt16(IFormatProvider provider) { }
 
-	// RVA: 0x20C450 Offset: 0x20B850 VA: 0x18020C450 Slot: 12
+	// RVA: 0x20C3D0 Offset: 0x20B7D0 VA: 0x18020C3D0 Slot: 12
 	private ushort System.IConvertible.ToUInt16(IFormatProvider provider) { }
 
-	// RVA: 0x20C380 Offset: 0x20B780 VA: 0x18020C380 Slot: 13
+	// RVA: 0x20C300 Offset: 0x20B700 VA: 0x18020C300 Slot: 13
 	private int System.IConvertible.ToInt32(IFormatProvider provider) { }
 
-	// RVA: 0x20C460 Offset: 0x20B860 VA: 0x18020C460 Slot: 14
+	// RVA: 0x20C3E0 Offset: 0x20B7E0 VA: 0x18020C3E0 Slot: 14
 	private uint System.IConvertible.ToUInt32(IFormatProvider provider) { }
 
-	// RVA: 0x20C390 Offset: 0x20B790 VA: 0x18020C390 Slot: 15
+	// RVA: 0x20C310 Offset: 0x20B710 VA: 0x18020C310 Slot: 15
 	private long System.IConvertible.ToInt64(IFormatProvider provider) { }
 
-	// RVA: 0x20C470 Offset: 0x20B870 VA: 0x18020C470 Slot: 16
+	// RVA: 0x20C3F0 Offset: 0x20B7F0 VA: 0x18020C3F0 Slot: 16
 	private ulong System.IConvertible.ToUInt64(IFormatProvider provider) { }
 
-	// RVA: 0x20C3B0 Offset: 0x20B7B0 VA: 0x18020C3B0 Slot: 17
+	// RVA: 0x20C330 Offset: 0x20B730 VA: 0x18020C330 Slot: 17
 	private float System.IConvertible.ToSingle(IFormatProvider provider) { }
 
-	// RVA: 0x20C360 Offset: 0x20B760 VA: 0x18020C360 Slot: 18
+	// RVA: 0x20C2E0 Offset: 0x20B6E0 VA: 0x18020C2E0 Slot: 18
 	private double System.IConvertible.ToDouble(IFormatProvider provider) { }
 
-	// RVA: 0x20C340 Offset: 0x20B740 VA: 0x18020C340 Slot: 19
+	// RVA: 0x20C2C0 Offset: 0x20B6C0 VA: 0x18020C2C0 Slot: 19
 	private Decimal System.IConvertible.ToDecimal(IFormatProvider provider) { }
 
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0 Slot: 20
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840 Slot: 20
 	private DateTime System.IConvertible.ToDateTime(IFormatProvider provider) { }
 
-	// RVA: 0x20C3C0 Offset: 0x20B7C0 VA: 0x18020C3C0 Slot: 22
+	// RVA: 0x20C340 Offset: 0x20B740 VA: 0x18020C340 Slot: 22
 	private object System.IConvertible.ToType(Type type, IFormatProvider provider) { }
 
 	// RVA: 0x17A67C0 Offset: 0x17A4DC0 VA: 0x1817A67C0
@@ -420,13 +420,13 @@ public struct DateTimeOffset : IComparable, IFormattable, ISerializable, IDeseri
 
 	// Methods
 
-	// RVA: 0x20B9B0 Offset: 0x20ADB0 VA: 0x18020B9B0
+	// RVA: 0x20B930 Offset: 0x20AD30 VA: 0x18020B930
 	public void .ctor(long ticks, TimeSpan offset) { }
 
-	// RVA: 0x20BB30 Offset: 0x20AF30 VA: 0x18020BB30
+	// RVA: 0x20BAB0 Offset: 0x20AEB0 VA: 0x18020BAB0
 	public void .ctor(DateTime dateTime) { }
 
-	// RVA: 0x20BB20 Offset: 0x20AF20 VA: 0x18020BB20
+	// RVA: 0x20BAA0 Offset: 0x20AEA0 VA: 0x18020BAA0
 	public void .ctor(DateTime dateTime, TimeSpan offset) { }
 
 	// RVA: 0x17977B0 Offset: 0x1795DB0 VA: 0x1817977B0
@@ -435,67 +435,67 @@ public struct DateTimeOffset : IComparable, IFormattable, ISerializable, IDeseri
 	// RVA: 0x1797950 Offset: 0x1795F50 VA: 0x181797950
 	public static DateTimeOffset get_UtcNow() { }
 
-	// RVA: 0x20BB50 Offset: 0x20AF50 VA: 0x18020BB50
+	// RVA: 0x20BAD0 Offset: 0x20AED0 VA: 0x18020BAD0
 	public DateTime get_DateTime() { }
 
-	// RVA: 0x20BD70 Offset: 0x20B170 VA: 0x18020BD70
+	// RVA: 0x20BCF0 Offset: 0x20B0F0 VA: 0x18020BCF0
 	public DateTime get_UtcDateTime() { }
 
-	// RVA: 0x20BBF0 Offset: 0x20AFF0 VA: 0x18020BBF0
+	// RVA: 0x20BB70 Offset: 0x20AF70 VA: 0x18020BB70
 	public DateTime get_LocalDateTime() { }
 
-	// RVA: 0x20BB40 Offset: 0x20AF40 VA: 0x18020BB40
+	// RVA: 0x20BAC0 Offset: 0x20AEC0 VA: 0x18020BAC0
 	private DateTime get_ClockDateTime() { }
 
-	// RVA: 0x20BB60 Offset: 0x20AF60 VA: 0x18020BB60
+	// RVA: 0x20BAE0 Offset: 0x20AEE0 VA: 0x18020BAE0
 	public int get_Day() { }
 
-	// RVA: 0x20BB90 Offset: 0x20AF90 VA: 0x18020BB90
+	// RVA: 0x20BB10 Offset: 0x20AF10 VA: 0x18020BB10
 	public int get_Hour() { }
 
-	// RVA: 0x20BC20 Offset: 0x20B020 VA: 0x18020BC20
+	// RVA: 0x20BBA0 Offset: 0x20AFA0 VA: 0x18020BBA0
 	public int get_Minute() { }
 
-	// RVA: 0x20BC80 Offset: 0x20B080 VA: 0x18020BC80
+	// RVA: 0x20BC00 Offset: 0x20B000 VA: 0x18020BC00
 	public int get_Month() { }
 
-	// RVA: 0x20BCB0 Offset: 0x20B0B0 VA: 0x18020BCB0
+	// RVA: 0x20BC30 Offset: 0x20B030 VA: 0x18020BC30
 	public TimeSpan get_Offset() { }
 
-	// RVA: 0x20BCE0 Offset: 0x20B0E0 VA: 0x18020BCE0
+	// RVA: 0x20BC60 Offset: 0x20B060 VA: 0x18020BC60
 	public int get_Second() { }
 
-	// RVA: 0x20BD40 Offset: 0x20B140 VA: 0x18020BD40
+	// RVA: 0x20BCC0 Offset: 0x20B0C0 VA: 0x18020BCC0
 	public long get_Ticks() { }
 
-	// RVA: 0x20BD80 Offset: 0x20B180 VA: 0x18020BD80
+	// RVA: 0x20BD00 Offset: 0x20B100 VA: 0x18020BD00
 	public int get_Year() { }
 
 	// RVA: 0x1795AC0 Offset: 0x17940C0 VA: 0x181795AC0
 	public static int Compare(DateTimeOffset first, DateTimeOffset second) { }
 
-	// RVA: 0x20B3B0 Offset: 0x20A7B0 VA: 0x18020B3B0 Slot: 4
+	// RVA: 0x20B330 Offset: 0x20A730 VA: 0x18020B330 Slot: 4
 	private int System.IComparable.CompareTo(object obj) { }
 
-	// RVA: 0x20B0A0 Offset: 0x20A4A0 VA: 0x18020B0A0 Slot: 8
+	// RVA: 0x20B020 Offset: 0x20A420 VA: 0x18020B020 Slot: 8
 	public int CompareTo(DateTimeOffset other) { }
 
-	// RVA: 0x20B260 Offset: 0x20A660 VA: 0x18020B260 Slot: 0
+	// RVA: 0x20B1E0 Offset: 0x20A5E0 VA: 0x18020B1E0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x20B1C0 Offset: 0x20A5C0 VA: 0x18020B1C0 Slot: 9
+	// RVA: 0x20B140 Offset: 0x20A540 VA: 0x18020B140 Slot: 9
 	public bool Equals(DateTimeOffset other) { }
 
-	// RVA: 0x20B570 Offset: 0x20A970 VA: 0x18020B570 Slot: 7
+	// RVA: 0x20B4F0 Offset: 0x20A8F0 VA: 0x18020B4F0 Slot: 7
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
 
-	// RVA: 0x20B580 Offset: 0x20A980 VA: 0x18020B580 Slot: 6
+	// RVA: 0x20B500 Offset: 0x20A900 VA: 0x18020B500 Slot: 6
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x20B9C0 Offset: 0x20ADC0 VA: 0x18020B9C0
+	// RVA: 0x20B940 Offset: 0x20AD40 VA: 0x18020B940
 	private void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x20B380 Offset: 0x20A780 VA: 0x18020B380 Slot: 2
+	// RVA: 0x20B300 Offset: 0x20A700 VA: 0x18020B300 Slot: 2
 	public override int GetHashCode() { }
 
 	// RVA: 0x1795E10 Offset: 0x1794410 VA: 0x181795E10
@@ -507,22 +507,22 @@ public struct DateTimeOffset : IComparable, IFormattable, ISerializable, IDeseri
 	// RVA: 0x1795CF0 Offset: 0x17942F0 VA: 0x181795CF0
 	public static DateTimeOffset ParseExact(string input, string format, IFormatProvider formatProvider, DateTimeStyles styles) { }
 
-	// RVA: 0x20B960 Offset: 0x20AD60 VA: 0x18020B960
+	// RVA: 0x20B8E0 Offset: 0x20ACE0 VA: 0x18020B8E0
 	public long ToUnixTimeSeconds() { }
 
-	// RVA: 0x20B910 Offset: 0x20AD10 VA: 0x18020B910
+	// RVA: 0x20B890 Offset: 0x20AC90 VA: 0x18020B890
 	public long ToUnixTimeMilliseconds() { }
 
-	// RVA: 0x20B700 Offset: 0x20AB00 VA: 0x18020B700 Slot: 3
+	// RVA: 0x20B680 Offset: 0x20AA80 VA: 0x18020B680 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x20B620 Offset: 0x20AA20 VA: 0x18020B620
+	// RVA: 0x20B5A0 Offset: 0x20A9A0 VA: 0x18020B5A0
 	public string ToString(IFormatProvider formatProvider) { }
 
-	// RVA: 0x20B7E0 Offset: 0x20ABE0 VA: 0x18020B7E0 Slot: 5
+	// RVA: 0x20B760 Offset: 0x20AB60 VA: 0x18020B760 Slot: 5
 	public string ToString(string format, IFormatProvider formatProvider) { }
 
-	// RVA: 0x20B8D0 Offset: 0x20ACD0 VA: 0x18020B8D0
+	// RVA: 0x20B850 Offset: 0x20AC50 VA: 0x18020B850
 	public DateTimeOffset ToUniversalTime() { }
 
 	// RVA: 0x1796AB0 Offset: 0x17950B0 VA: 0x181796AB0
@@ -997,13 +997,13 @@ internal struct DateTimeRawInfo // TypeDefIndex: 235
 
 	// Methods
 
-	// RVA: 0x20BDE0 Offset: 0x20B1E0 VA: 0x18020BDE0
+	// RVA: 0x20BD60 Offset: 0x20B160 VA: 0x18020BD60
 	internal void Init(int* numberBuffer) { }
 
-	// RVA: 0x20BDB0 Offset: 0x20B1B0 VA: 0x18020BDB0
+	// RVA: 0x20BD30 Offset: 0x20B130 VA: 0x18020BD30
 	internal void AddNumber(int value) { }
 
-	// RVA: 0x20BDD0 Offset: 0x20B1D0 VA: 0x18020BDD0
+	// RVA: 0x20BD50 Offset: 0x20B150 VA: 0x18020BD50
 	internal int GetNumber(int index) { }
 
 }
@@ -1029,16 +1029,16 @@ internal struct DateTimeResult // TypeDefIndex: 238
 
 	// Methods
 
-	// RVA: 0x20BEB0 Offset: 0x20B2B0 VA: 0x18020BEB0
+	// RVA: 0x20BE30 Offset: 0x20B230 VA: 0x18020BE30
 	internal void Init() { }
 
-	// RVA: 0x20BEE0 Offset: 0x20B2E0 VA: 0x18020BEE0
+	// RVA: 0x20BE60 Offset: 0x20B260 VA: 0x18020BE60
 	internal void SetDate(int year, int month, int day) { }
 
-	// RVA: 0x20BEF0 Offset: 0x20B2F0 VA: 0x18020BEF0
+	// RVA: 0x20BE70 Offset: 0x20B270 VA: 0x18020BE70
 	internal void SetFailure(ParseFailureKind failure, string failureMessageID, object failureMessageFormatArgument) { }
 
-	// RVA: 0x20BF30 Offset: 0x20B330 VA: 0x18020BF30
+	// RVA: 0x20BEB0 Offset: 0x20B2B0 VA: 0x18020BEB0
 	internal void SetFailure(ParseFailureKind failure, string failureMessageID, object failureMessageFormatArgument, string failureArgumentName) { }
 
 }
@@ -1061,23 +1061,23 @@ public sealed class DateTimeFormatInfo : ICloneable, IFormatProvider // TypeDefI
 {	// Fields
 	private static DateTimeFormatInfo invariantInfo; // 0x0
 	private CultureData m_cultureData; // 0x10
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	internal string m_name; // 0x18
 	private string m_langName; // 0x20
 	private CompareInfo m_compareInfo; // 0x28
 	private CultureInfo m_cultureInfo; // 0x30
 	internal string amDesignator; // 0x38
 	internal string pmDesignator; // 0x40
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	internal string dateSeparator; // 0x48
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	internal string generalShortTimePattern; // 0x50
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	internal string generalLongTimePattern; // 0x58
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	internal string timeSeparator; // 0x60
 	internal string monthDayPattern; // 0x68
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	internal string dateTimeOffsetPattern; // 0x70
 	internal const string rfc1123Pattern = "ddd, dd MMM yyyy HH\':\'mm\':\'ss \'GMT\'";
 	internal const string sortableDateTimePattern = "yyyy\'-\'MM\'-\'dd\'T\'HH\':\'mm\':\'ss";
@@ -1085,26 +1085,26 @@ public sealed class DateTimeFormatInfo : ICloneable, IFormatProvider // TypeDefI
 	internal Calendar calendar; // 0x78
 	internal int firstDayOfWeek; // 0x80
 	internal int calendarWeekRule; // 0x84
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	internal string fullDateTimePattern; // 0x88
 	internal string[] abbreviatedDayNames; // 0x90
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	internal string[] m_superShortDayNames; // 0x98
 	internal string[] dayNames; // 0xA0
 	internal string[] abbreviatedMonthNames; // 0xA8
 	internal string[] monthNames; // 0xB0
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	internal string[] genitiveMonthNames; // 0xB8
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	internal string[] m_genitiveAbbreviatedMonthNames; // 0xC0
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	internal string[] leapYearMonthNames; // 0xC8
 	internal string longDatePattern; // 0xD0
 	internal string shortDatePattern; // 0xD8
 	internal string yearMonthPattern; // 0xE0
 	internal string longTimePattern; // 0xE8
 	internal string shortTimePattern; // 0xF0
-	[OptionalFieldAttribute] // RVA: 0xA9B30 Offset: 0xA8F30 VA: 0x1800A9B30
+	[OptionalFieldAttribute] // RVA: 0xA9AF0 Offset: 0xA8EF0 VA: 0x1800A9AF0
 	private string[] allYearMonthPatterns; // 0xF8
 	internal string[] allShortDatePatterns; // 0x100
 	internal string[] allLongDatePatterns; // 0x108
@@ -1116,22 +1116,22 @@ public sealed class DateTimeFormatInfo : ICloneable, IFormatProvider // TypeDefI
 	internal int[] optionalCalendars; // 0x138
 	private const int DEFAULT_ALL_DATETIMES_SIZE = 132;
 	internal bool m_isReadOnly; // 0x140
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	internal DateTimeFormatFlags formatFlags; // 0x144
 	internal static bool preferExistingTokens; // 0x8
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	private int CultureID; // 0x148
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	private bool m_useUserOverride; // 0x14C
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	private bool bUseCalendarInfo; // 0x14D
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	private int nDataItem; // 0x150
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	internal bool m_isDefaultCalendar; // 0x154
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	private static Hashtable s_calendarNativeNames; // 0x10
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	internal string[] m_dateWords; // 0x158
 	private string m_fullTimeSpanPositivePattern; // 0x160
 	private string m_fullTimeSpanNegativePattern; // 0x168
@@ -1209,7 +1209,7 @@ public sealed class DateTimeFormatInfo : ICloneable, IFormatProvider // TypeDefI
 	private string[] UnclonedShortTimePatterns { get; }
 	private string[] UnclonedLongTimePatterns { get; }
 	public bool IsReadOnly { get; }
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public string[] MonthGenitiveNames { get; }
 	internal string FullTimeSpanPositivePattern { get; }
 	internal string FullTimeSpanNegativePattern { get; }
@@ -1253,11 +1253,11 @@ public sealed class DateTimeFormatInfo : ICloneable, IFormatProvider // TypeDefI
 	// RVA: 0x16E2D70 Offset: 0x16E1370 VA: 0x1816E2D70
 	private void InitializeOverridableProperties(CultureData cultureData, int calendarID) { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x16E3600 Offset: 0x16E1C00 VA: 0x1816E3600
 	private void OnDeserialized(StreamingContext ctx) { }
 
-	[OnSerializingAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x16E3DE0 Offset: 0x16E23E0 VA: 0x1816E3DE0
 	private void OnSerializing(StreamingContext ctx) { }
 
@@ -1814,28 +1814,28 @@ internal struct DateTimeParser // TypeDefIndex: 5916
 	// RVA: 0x1802C80 Offset: 0x1801280 VA: 0x181802C80
 	private static void .cctor() { }
 
-	// RVA: 0x2113E0 Offset: 0x2107E0 VA: 0x1802113E0
+	// RVA: 0x211360 Offset: 0x210760 VA: 0x180211360
 	public bool Parse(char[] text, int startIndex, int length) { }
 
-	// RVA: 0x211370 Offset: 0x210770 VA: 0x180211370
+	// RVA: 0x2112F0 Offset: 0x2106F0 VA: 0x1802112F0
 	private bool ParseDate(int start) { }
 
-	// RVA: 0x211380 Offset: 0x210780 VA: 0x180211380
+	// RVA: 0x211300 Offset: 0x210700 VA: 0x180211300
 	private bool ParseTimeAndZoneAndWhitespace(int start) { }
 
-	// RVA: 0x2113C0 Offset: 0x2107C0 VA: 0x1802113C0
+	// RVA: 0x211340 Offset: 0x210740 VA: 0x180211340
 	private bool ParseTime(ref int start) { }
 
-	// RVA: 0x2113D0 Offset: 0x2107D0 VA: 0x1802113D0
+	// RVA: 0x211350 Offset: 0x210750 VA: 0x180211350
 	private bool ParseZone(int start) { }
 
-	// RVA: 0x211310 Offset: 0x210710 VA: 0x180211310
+	// RVA: 0x211290 Offset: 0x210690 VA: 0x180211290
 	private bool Parse4Digit(int start, out int num) { }
 
-	// RVA: 0x211300 Offset: 0x210700 VA: 0x180211300
+	// RVA: 0x211280 Offset: 0x210680 VA: 0x180211280
 	private bool Parse2Digit(int start, out int num) { }
 
-	// RVA: 0x211320 Offset: 0x210720 VA: 0x180211320
+	// RVA: 0x2112A0 Offset: 0x2106A0 VA: 0x1802112A0
 	private bool ParseChar(int start, char ch) { }
 
 }
@@ -1851,7 +1851,7 @@ internal static class DateTimeUtils // TypeDefIndex: 5949
 	// RVA: 0x1806470 Offset: 0x1804A70 VA: 0x181806470
 	private static void .cctor() { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1803750 Offset: 0x1801D50 VA: 0x181803750
 	public static TimeSpan GetUtcOffset(DateTime d) { }
 

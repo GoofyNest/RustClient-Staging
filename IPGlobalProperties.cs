@@ -1,6 +1,6 @@
 public abstract class IPGlobalProperties // TypeDefIndex: 3073
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static readonly bool <PlatformNeedsLibCWorkaround>k__BackingField; // 0x14668
 
 	// Properties
@@ -9,7 +9,7 @@ public abstract class IPGlobalProperties // TypeDefIndex: 3073
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1344B40 Offset: 0x1343140 VA: 0x181344B40
 	private static bool get_PlatformNeedsLibCWorkaround() { }
 

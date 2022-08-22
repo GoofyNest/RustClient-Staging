@@ -20,7 +20,7 @@ public class WindowsIdentity : ClaimsIdentity, IIdentity, IDeserializationCallba
 	// RVA: 0x17CA450 Offset: 0x17C8A50 VA: 0x1817CA450
 	public void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x17C9C50 Offset: 0x17C8250 VA: 0x1817C9C50 Slot: 14
 	public void Dispose() { }
 

@@ -77,73 +77,73 @@ private struct FacetsChecker.FacetsCompiler // TypeDefIndex: 2246
 
 	// Methods
 
-	// RVA: 0x1F1D10 Offset: 0x1F1110 VA: 0x1801F1D10
+	// RVA: 0x1F1C90 Offset: 0x1F1090 VA: 0x1801F1C90
 	public void .ctor(DatatypeImplementation baseDatatype, RestrictionFacets restriction) { }
 
-	// RVA: 0x1F1BB0 Offset: 0x1F0FB0 VA: 0x1801F1BB0
+	// RVA: 0x1F1B30 Offset: 0x1F0F30 VA: 0x1801F1B30
 	internal void CompileLengthFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1C10 Offset: 0x1F1010 VA: 0x1801F1C10
+	// RVA: 0x1F1B90 Offset: 0x1F0F90 VA: 0x1801F1B90
 	internal void CompileMinLengthFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1BE0 Offset: 0x1F0FE0 VA: 0x1801F1BE0
+	// RVA: 0x1F1B60 Offset: 0x1F0F60 VA: 0x1801F1B60
 	internal void CompileMaxLengthFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1C20 Offset: 0x1F1020 VA: 0x1801F1C20
+	// RVA: 0x1F1BA0 Offset: 0x1F0FA0 VA: 0x1801F1BA0
 	internal void CompilePatternFacet(XmlSchemaPatternFacet facet) { }
 
-	// RVA: 0x1F1B80 Offset: 0x1F0F80 VA: 0x1801F1B80
+	// RVA: 0x1F1B00 Offset: 0x1F0F00 VA: 0x1801F1B00
 	internal void CompileEnumerationFacet(XmlSchemaFacet facet, IXmlNamespaceResolver nsmgr, XmlNameTable nameTable) { }
 
-	// RVA: 0x1F1C40 Offset: 0x1F1040 VA: 0x1801F1C40
+	// RVA: 0x1F1BC0 Offset: 0x1F0FC0 VA: 0x1801F1BC0
 	internal void CompileWhitespaceFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1BD0 Offset: 0x1F0FD0 VA: 0x1801F1BD0
+	// RVA: 0x1F1B50 Offset: 0x1F0F50 VA: 0x1801F1B50
 	internal void CompileMaxInclusiveFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1BC0 Offset: 0x1F0FC0 VA: 0x1801F1BC0
+	// RVA: 0x1F1B40 Offset: 0x1F0F40 VA: 0x1801F1B40
 	internal void CompileMaxExclusiveFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1C00 Offset: 0x1F1000 VA: 0x1801F1C00
+	// RVA: 0x1F1B80 Offset: 0x1F0F80 VA: 0x1801F1B80
 	internal void CompileMinInclusiveFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1BF0 Offset: 0x1F0FF0 VA: 0x1801F1BF0
+	// RVA: 0x1F1B70 Offset: 0x1F0F70 VA: 0x1801F1B70
 	internal void CompileMinExclusiveFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1C30 Offset: 0x1F1030 VA: 0x1801F1C30
+	// RVA: 0x1F1BB0 Offset: 0x1F0FB0 VA: 0x1801F1BB0
 	internal void CompileTotalDigitsFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1BA0 Offset: 0x1F0FA0 VA: 0x1801F1BA0
+	// RVA: 0x1F1B20 Offset: 0x1F0F20 VA: 0x1801F1B20
 	internal void CompileFractionDigitsFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1C60 Offset: 0x1F1060 VA: 0x1801F1C60
+	// RVA: 0x1F1BE0 Offset: 0x1F0FE0 VA: 0x1801F1BE0
 	internal void FinishFacetCompile() { }
 
-	// RVA: 0x1F1B70 Offset: 0x1F0F70 VA: 0x1801F1B70
+	// RVA: 0x1F1AF0 Offset: 0x1F0EF0 VA: 0x1801F1AF0
 	private void CheckValue(object value, XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1B90 Offset: 0x1F0F90 VA: 0x1801F1B90
+	// RVA: 0x1F1B10 Offset: 0x1F0F10 VA: 0x1801F1B10
 	internal void CompileFacetCombinations() { }
 
-	// RVA: 0x1F1C50 Offset: 0x1F1050 VA: 0x1801F1C50
+	// RVA: 0x1F1BD0 Offset: 0x1F0FD0 VA: 0x1801F1BD0
 	private void CopyFacetsFromBaseType() { }
 
-	// RVA: 0x1F1C70 Offset: 0x1F1070 VA: 0x1801F1C70
+	// RVA: 0x1F1BF0 Offset: 0x1F0FF0 VA: 0x1801F1BF0
 	private object ParseFacetValue(XmlSchemaDatatype datatype, XmlSchemaFacet facet, string code, IXmlNamespaceResolver nsmgr, XmlNameTable nameTable) { }
 
 	// RVA: 0x151DEB0 Offset: 0x151C4B0 VA: 0x18151DEB0
 	private static string Preprocess(string pattern) { }
 
-	// RVA: 0x1F1B60 Offset: 0x1F0F60 VA: 0x1801F1B60
+	// RVA: 0x1F1AE0 Offset: 0x1F0EE0 VA: 0x1801F1AE0
 	private void CheckProhibitedFlag(XmlSchemaFacet facet, RestrictionFlags flag, string errorCode) { }
 
-	// RVA: 0x1F1B50 Offset: 0x1F0F50 VA: 0x1801F1B50
+	// RVA: 0x1F1AD0 Offset: 0x1F0ED0 VA: 0x1801F1AD0
 	private void CheckDupFlag(XmlSchemaFacet facet, RestrictionFlags flag, string errorCode) { }
 
-	// RVA: 0x1F1C80 Offset: 0x1F1080 VA: 0x1801F1C80
+	// RVA: 0x1F1C00 Offset: 0x1F1000 VA: 0x1801F1C00
 	private void SetFlag(XmlSchemaFacet facet, RestrictionFlags flag) { }
 
-	// RVA: 0x1F1CE0 Offset: 0x1F10E0 VA: 0x1801F1CE0
+	// RVA: 0x1F1C60 Offset: 0x1F1060 VA: 0x1801F1C60
 	private void SetFlag(RestrictionFlags flag) { }
 
 	// RVA: 0x151E180 Offset: 0x151C780 VA: 0x18151E180
@@ -158,7 +158,7 @@ private struct FacetsChecker.FacetsCompiler.Map // TypeDefIndex: 2247
 
 	// Methods
 
-	// RVA: 0xFCAE0 Offset: 0xFBEE0 VA: 0x1800FCAE0
+	// RVA: 0xFCA60 Offset: 0xFBE60 VA: 0x1800FCA60
 	internal void .ctor(char m, string r) { }
 
 }

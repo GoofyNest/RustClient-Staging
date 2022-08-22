@@ -1,12 +1,12 @@
 public class BurstClothHitBoxCollision : BurstCloth, IClientComponent, IPrefabPreProcess // TypeDefIndex: 8674
 {	// Fields
-	[HeaderAttribute] // RVA: 0xB9260 Offset: 0xB8660 VA: 0x1800B9260
+	[HeaderAttribute] // RVA: 0xB9300 Offset: 0xB8700 VA: 0x1800B9300
 	public float GravityStrength; // 0x130
 	public float DefaultLength; // 0x134
 	public float MountedLengthMultiplier; // 0x138
 	public float DuckedLengthMultiplier; // 0x13C
 	public float CorpseLengthMultiplier; // 0x140
-	[HeaderAttribute] // RVA: 0x94DF0 Offset: 0x941F0 VA: 0x180094DF0
+	[HeaderAttribute] // RVA: 0x94E70 Offset: 0x94270 VA: 0x180094E70
 	public string[] IgnoreKeywords; // 0x148
 	private BasePlayer _player; // 0x150
 	private Ragdoll _ragdoll; // 0x158
@@ -41,11 +41,11 @@ public class BurstClothHitBoxCollision : BurstCloth, IClientComponent, IPrefabPr
 	// RVA: 0x6F1A30 Offset: 0x6F0030 VA: 0x1806F1A30
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6F1840 Offset: 0x6EFE40 VA: 0x1806F1840
 	private bool <GatherColliders>g__ShouldIgnore|15_0(string name) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal static void <GatherColliders>g__Swap|15_1<T>(ref T a, ref T b) { }
 	/* GenericInstMethod :

@@ -23,16 +23,16 @@ public struct HashSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator /
 	internal void .ctor(HashSet<T> set) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x21E850 Offset: 0x21DC50 VA: 0x18021E850
+	|-RVA: 0x21E7D0 Offset: 0x21DBD0 VA: 0x18021E7D0
 	|-HashSet.Enumerator<Connection>..ctor
 	|-HashSet.Enumerator<int>..ctor
 	|-HashSet.Enumerator<uint>..ctor
 	|
-	|-RVA: 0x21E8A0 Offset: 0x21DCA0 VA: 0x18021E8A0
+	|-RVA: 0x21E820 Offset: 0x21DC20 VA: 0x18021E820
 	|-HashSet.Enumerator<object>..ctor
 	|-HashSet.Enumerator<ulong>..ctor
 	|
-	|-RVA: 0x21E8F0 Offset: 0x21DCF0 VA: 0x18021E8F0
+	|-RVA: 0x21E870 Offset: 0x21DC70 VA: 0x18021E870
 	|-HashSet.Enumerator<Vector3>..ctor
 	*/
 
@@ -40,7 +40,7 @@ public struct HashSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator /
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF1F30 Offset: 0xF1330 VA: 0x1800F1F30
+	|-RVA: 0xF1EB0 Offset: 0xF12B0 VA: 0x1800F1EB0
 	|-HashSet.Enumerator<AICoverPoint>.Dispose
 	|-HashSet.Enumerator<AIMovePoint>.Dispose
 	|-HashSet.Enumerator<AmbienceEmitter>.Dispose
@@ -73,7 +73,7 @@ public struct HashSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator /
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x21DB10 Offset: 0x21CF10 VA: 0x18021DB10
+	|-RVA: 0x21DA90 Offset: 0x21CE90 VA: 0x18021DA90
 	|-HashSet.Enumerator<AICoverPoint>.MoveNext
 	|-HashSet.Enumerator<AIMovePoint>.MoveNext
 	|-HashSet.Enumerator<AmbienceEmitter>.MoveNext
@@ -98,19 +98,19 @@ public struct HashSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator /
 	|-HashSet.Enumerator<WaterInteraction>.MoveNext
 	|-HashSet.Enumerator<WindZoneEx>.MoveNext
 	|
-	|-RVA: 0x21DEC0 Offset: 0x21D2C0 VA: 0x18021DEC0
+	|-RVA: 0x21DE40 Offset: 0x21D240 VA: 0x18021DE40
 	|-HashSet.Enumerator<Connection>.MoveNext
 	|
-	|-RVA: 0x21DDE0 Offset: 0x21D1E0 VA: 0x18021DDE0
+	|-RVA: 0x21DD60 Offset: 0x21D160 VA: 0x18021DD60
 	|-HashSet.Enumerator<int>.MoveNext
 	|
-	|-RVA: 0x21DA30 Offset: 0x21CE30 VA: 0x18021DA30
+	|-RVA: 0x21D9B0 Offset: 0x21CDB0 VA: 0x18021D9B0
 	|-HashSet.Enumerator<uint>.MoveNext
 	|
-	|-RVA: 0x21DC00 Offset: 0x21D000 VA: 0x18021DC00
+	|-RVA: 0x21DB80 Offset: 0x21CF80 VA: 0x18021DB80
 	|-HashSet.Enumerator<ulong>.MoveNext
 	|
-	|-RVA: 0x21DCF0 Offset: 0x21D0F0 VA: 0x18021DCF0
+	|-RVA: 0x21DC70 Offset: 0x21D070 VA: 0x18021DC70
 	|-HashSet.Enumerator<Vector3>.MoveNext
 	*/
 
@@ -118,7 +118,7 @@ public struct HashSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator /
 	public T get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF3F60 Offset: 0xF3360 VA: 0x1800F3F60
+	|-RVA: 0xF3EE0 Offset: 0xF32E0 VA: 0x1800F3EE0
 	|-HashSet.Enumerator<AICoverPoint>.get_Current
 	|-HashSet.Enumerator<AIMovePoint>.get_Current
 	|-HashSet.Enumerator<AmbienceEmitter>.get_Current
@@ -144,12 +144,12 @@ public struct HashSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator /
 	|-HashSet.Enumerator<WindZoneEx>.get_Current
 	|-HashSet.Enumerator<object>.get_Current
 	|
-	|-RVA: 0xF3F30 Offset: 0xF3330 VA: 0x1800F3F30
+	|-RVA: 0xF3EB0 Offset: 0xF32B0 VA: 0x1800F3EB0
 	|-HashSet.Enumerator<uint>.get_Current
 	|-HashSet.Enumerator<Connection>.get_Current
 	|-HashSet.Enumerator<int>.get_Current
 	|
-	|-RVA: 0x116B10 Offset: 0x115F10 VA: 0x180116B10
+	|-RVA: 0x116A90 Offset: 0x115E90 VA: 0x180116A90
 	|-HashSet.Enumerator<Vector3>.get_Current
 	*/
 
@@ -157,22 +157,22 @@ public struct HashSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator /
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x21E3B0 Offset: 0x21D7B0 VA: 0x18021E3B0
+	|-RVA: 0x21E330 Offset: 0x21D730 VA: 0x18021E330
 	|-HashSet.Enumerator<Connection>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x21E750 Offset: 0x21DB50 VA: 0x18021E750
+	|-RVA: 0x21E6D0 Offset: 0x21DAD0 VA: 0x18021E6D0
 	|-HashSet.Enumerator<int>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x21E6B0 Offset: 0x21DAB0 VA: 0x18021E6B0
+	|-RVA: 0x21E630 Offset: 0x21DA30 VA: 0x18021E630
 	|-HashSet.Enumerator<object>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x21E4B0 Offset: 0x21D8B0 VA: 0x18021E4B0
+	|-RVA: 0x21E430 Offset: 0x21D830 VA: 0x18021E430
 	|-HashSet.Enumerator<uint>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x21E5B0 Offset: 0x21D9B0 VA: 0x18021E5B0
+	|-RVA: 0x21E530 Offset: 0x21D930 VA: 0x18021E530
 	|-HashSet.Enumerator<ulong>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x21E2B0 Offset: 0x21D6B0 VA: 0x18021E2B0
+	|-RVA: 0x21E230 Offset: 0x21D630 VA: 0x18021E230
 	|-HashSet.Enumerator<Vector3>.System.Collections.IEnumerator.get_Current
 	*/
 
@@ -180,22 +180,22 @@ public struct HashSet.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator /
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x21DFA0 Offset: 0x21D3A0 VA: 0x18021DFA0
+	|-RVA: 0x21DF20 Offset: 0x21D320 VA: 0x18021DF20
 	|-HashSet.Enumerator<Connection>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x21E0A0 Offset: 0x21D4A0 VA: 0x18021E0A0
+	|-RVA: 0x21E020 Offset: 0x21D420 VA: 0x18021E020
 	|-HashSet.Enumerator<int>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x21E020 Offset: 0x21D420 VA: 0x18021E020
+	|-RVA: 0x21DFA0 Offset: 0x21D3A0 VA: 0x18021DFA0
 	|-HashSet.Enumerator<object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x21E230 Offset: 0x21D630 VA: 0x18021E230
+	|-RVA: 0x21E1B0 Offset: 0x21D5B0 VA: 0x18021E1B0
 	|-HashSet.Enumerator<uint>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x21E120 Offset: 0x21D520 VA: 0x18021E120
+	|-RVA: 0x21E0A0 Offset: 0x21D4A0 VA: 0x18021E0A0
 	|-HashSet.Enumerator<ulong>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x21E1A0 Offset: 0x21D5A0 VA: 0x18021E1A0
+	|-RVA: 0x21E120 Offset: 0x21D520 VA: 0x18021E120
 	|-HashSet.Enumerator<Vector3>.System.Collections.IEnumerator.Reset
 	*/
 

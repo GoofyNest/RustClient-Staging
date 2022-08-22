@@ -1,14 +1,14 @@
 public sealed class GUISettings // TypeDefIndex: 4043
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_DoubleClickSelectsWord; // 0x10
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_TripleClickSelectsLine; // 0x11
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Color m_CursorColor; // 0x14
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_CursorFlashSpeed; // 0x24
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Color m_SelectionColor; // 0x28
 
 	// Properties
@@ -20,25 +20,25 @@ public sealed class GUISettings // TypeDefIndex: 4043
 
 	// Methods
 
-	// RVA: 0x1A768B0 Offset: 0x1A74EB0 VA: 0x181A768B0
+	// RVA: 0x1A76870 Offset: 0x1A74E70 VA: 0x181A76870
 	private static float Internal_GetCursorFlashSpeed() { }
 
-	// RVA: 0x1A769A0 Offset: 0x1A74FA0 VA: 0x181A769A0
+	// RVA: 0x1A76960 Offset: 0x1A74F60 VA: 0x181A76960
 	public bool get_doubleClickSelectsWord() { }
 
-	// RVA: 0x1A769C0 Offset: 0x1A74FC0 VA: 0x181A769C0
+	// RVA: 0x1A76980 Offset: 0x1A74F80 VA: 0x181A76980
 	public bool get_tripleClickSelectsLine() { }
 
-	// RVA: 0x1A76950 Offset: 0x1A74F50 VA: 0x181A76950
+	// RVA: 0x1A76910 Offset: 0x1A74F10 VA: 0x181A76910
 	public Color get_cursorColor() { }
 
-	// RVA: 0x1A76960 Offset: 0x1A74F60 VA: 0x181A76960
+	// RVA: 0x1A76920 Offset: 0x1A74F20 VA: 0x181A76920
 	public float get_cursorFlashSpeed() { }
 
-	// RVA: 0x1A769B0 Offset: 0x1A74FB0 VA: 0x181A769B0
+	// RVA: 0x1A76970 Offset: 0x1A74F70 VA: 0x181A76970
 	public Color get_selectionColor() { }
 
-	// RVA: 0x1A768E0 Offset: 0x1A74EE0 VA: 0x181A768E0
+	// RVA: 0x1A768A0 Offset: 0x1A74EA0 VA: 0x181A768A0
 	public void .ctor() { }
 
 }

@@ -1,17 +1,17 @@
 public class VolumetricDustParticles : MonoBehaviour // TypeDefIndex: 11556
 {	// Fields
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float alpha; // 0x18
-	[RangeAttribute] // RVA: 0xC34C0 Offset: 0xC28C0 VA: 0x1800C34C0
+	[RangeAttribute] // RVA: 0xC35B0 Offset: 0xC29B0 VA: 0x1800C35B0
 	public float size; // 0x1C
 	public VolumetricDustParticles.Direction direction; // 0x20
 	public float speed; // 0x24
 	public float density; // 0x28
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float spawnMaxDistance; // 0x2C
 	public bool cullingEnabled; // 0x30
 	public float cullingMaxDistance; // 0x34
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <isCulled>k__BackingField; // 0x38
 	public static bool isFeatureSupported; // 0x0
 	private ParticleSystem m_Particles; // 0x40
@@ -29,11 +29,11 @@ public class VolumetricDustParticles : MonoBehaviour // TypeDefIndex: 11556
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8C1040 Offset: 0x8BF640 VA: 0x1808C1040
 	public bool get_isCulled() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x78E170 Offset: 0x78C770 VA: 0x18078E170
 	private void set_isCulled(bool value) { }
 

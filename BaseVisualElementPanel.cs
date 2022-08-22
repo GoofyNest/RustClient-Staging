@@ -1,14 +1,14 @@
 internal abstract class BaseVisualElementPanel : IPanel // TypeDefIndex: 4600
 {	// Fields
 	private float m_PixelsPerPoint; // 0x10
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private bool <duringLayoutPhase>k__BackingField; // 0x14
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private RepaintData <repaintData>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private bool <disposed>k__BackingField; // 0x20
 	internal ElementUnderPointer m_TopElementUnderPointers; // 0x28
 
@@ -59,7 +59,7 @@ internal abstract class BaseVisualElementPanel : IPanel // TypeDefIndex: 4600
 	// RVA: 0xEA9150 Offset: 0xEA7750 VA: 0x180EA9150
 	internal void set_pixelsPerPoint(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA10E00 Offset: 0xA0F400 VA: 0x180A10E00
 	internal bool get_duringLayoutPhase() { }
 
@@ -69,7 +69,7 @@ internal abstract class BaseVisualElementPanel : IPanel // TypeDefIndex: 4600
 	// RVA: -1 Offset: -1 Slot: 18
 	internal abstract void OnVersionChanged(VisualElement ele, VersionChangeType changeTypeFlag);
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 19
 	internal virtual RepaintData get_repaintData() { }
 
@@ -88,11 +88,11 @@ internal abstract class BaseVisualElementPanel : IPanel // TypeDefIndex: 4600
 	// RVA: -1 Offset: -1 Slot: 23
 	public abstract VisualElement Pick(Vector2 point);
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xB103F0 Offset: 0xB0E9F0 VA: 0x180B103F0
 	internal bool get_disposed() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7F9AE0 Offset: 0x7F80E0 VA: 0x1807F9AE0
 	private void set_disposed(bool value) { }
 

@@ -1,8 +1,8 @@
 public class MLRSAmmoUI : MonoBehaviour // TypeDefIndex: 9722
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private RustText ammoText; // 0x18
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private MLRSAmmoIcon[] ammoIcons; // 0x20
 	private int lastSetAmmoCount; // 0x28
 

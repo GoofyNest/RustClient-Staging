@@ -6,7 +6,7 @@ public class RepeatingFirework : BaseFirework // TypeDefIndex: 8279
 
 	// Methods
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x954160 Offset: 0x952760 VA: 0x180954160
 	public void RPCFire(BaseEntity.RPCMessage msg) { }
 

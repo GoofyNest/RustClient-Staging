@@ -30,20 +30,20 @@ public class Recycler : StorageContainer // TypeDefIndex: 8434
 	// RVA: 0x93E950 Offset: 0x93CF50 VA: 0x18093E950
 	private bool CanBeRecycled(Item item) { }
 
-	[BaseEntity.Menu] // RVA: 0x7F830 Offset: 0x7EC30 VA: 0x18007F830
-	[BaseEntity.Menu.Description] // RVA: 0x7F830 Offset: 0x7EC30 VA: 0x18007F830
-	[BaseEntity.Menu.Icon] // RVA: 0x7F830 Offset: 0x7EC30 VA: 0x18007F830
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7F830 Offset: 0x7EC30 VA: 0x18007F830
+	[BaseEntity.Menu] // RVA: 0x7F900 Offset: 0x7ED00 VA: 0x18007F900
+	[BaseEntity.Menu.Description] // RVA: 0x7F900 Offset: 0x7ED00 VA: 0x18007F900
+	[BaseEntity.Menu.Icon] // RVA: 0x7F900 Offset: 0x7ED00 VA: 0x18007F900
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7F900 Offset: 0x7ED00 VA: 0x18007F900
 	// RVA: 0x93F420 Offset: 0x93DA20 VA: 0x18093F420
 	public void Menu_TurnOn(BasePlayer player) { }
 
 	// RVA: 0x93F360 Offset: 0x93D960 VA: 0x18093F360
 	public bool Menu_TurnOn_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7FA30 Offset: 0x7EE30 VA: 0x18007FA30
-	[BaseEntity.Menu.Description] // RVA: 0x7FA30 Offset: 0x7EE30 VA: 0x18007FA30
-	[BaseEntity.Menu.Icon] // RVA: 0x7FA30 Offset: 0x7EE30 VA: 0x18007FA30
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7FA30 Offset: 0x7EE30 VA: 0x18007FA30
+	[BaseEntity.Menu] // RVA: 0x7FB00 Offset: 0x7EF00 VA: 0x18007FB00
+	[BaseEntity.Menu.Description] // RVA: 0x7FB00 Offset: 0x7EF00 VA: 0x18007FB00
+	[BaseEntity.Menu.Icon] // RVA: 0x7FB00 Offset: 0x7EF00 VA: 0x18007FB00
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7FB00 Offset: 0x7EF00 VA: 0x18007FB00
 	// RVA: 0x93F310 Offset: 0x93D910 VA: 0x18093F310
 	public void Menu_TurnOff(BasePlayer player) { }
 

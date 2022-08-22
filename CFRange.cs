@@ -5,7 +5,7 @@ internal struct CFRange // TypeDefIndex: 2516
 
 	// Methods
 
-	// RVA: 0x1D1490 Offset: 0x1D0890 VA: 0x1801D1490
+	// RVA: 0x1D1410 Offset: 0x1D0810 VA: 0x1801D1410
 	public void .ctor(int loc, int len) { }
 
 }

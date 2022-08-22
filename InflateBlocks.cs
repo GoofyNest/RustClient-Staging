@@ -24,22 +24,22 @@ internal sealed class InflateBlocks // TypeDefIndex: 6946
 
 	// Methods
 
-	// RVA: 0x21D2470 Offset: 0x21D0A70 VA: 0x1821D2470
+	// RVA: 0x21D22B0 Offset: 0x21D08B0 VA: 0x1821D22B0
 	internal void .ctor(ZlibCodec codec, object checkfn, int w) { }
 
-	// RVA: 0x21D2340 Offset: 0x21D0940 VA: 0x1821D2340
+	// RVA: 0x21D2180 Offset: 0x21D0780 VA: 0x1821D2180
 	internal uint Reset() { }
 
-	// RVA: 0x21D0BA0 Offset: 0x21CF1A0 VA: 0x1821D0BA0
+	// RVA: 0x21D09E0 Offset: 0x21CEFE0 VA: 0x1821D09E0
 	internal int Process(int r) { }
 
-	// RVA: 0x21D0B60 Offset: 0x21CF160 VA: 0x1821D0B60
+	// RVA: 0x21D09A0 Offset: 0x21CEFA0 VA: 0x1821D09A0
 	internal void Free() { }
 
-	// RVA: 0x21D09D0 Offset: 0x21CEFD0 VA: 0x1821D09D0
+	// RVA: 0x21D0810 Offset: 0x21CEE10 VA: 0x1821D0810
 	internal int Flush(int r) { }
 
-	// RVA: 0x21D2400 Offset: 0x21D0A00 VA: 0x1821D2400
+	// RVA: 0x21D2240 Offset: 0x21D0840 VA: 0x1821D2240
 	private static void .cctor() { }
 
 }

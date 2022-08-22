@@ -11,7 +11,7 @@ public struct MaterialReference // TypeDefIndex: 6742
 
 	// Methods
 
-	// RVA: 0x1175D0 Offset: 0x1169D0 VA: 0x1801175D0
+	// RVA: 0x117550 Offset: 0x116950 VA: 0x180117550
 	public void .ctor(int index, TMP_FontAsset fontAsset, Material material, float padding) { }
 
 	// RVA: 0xC66DE0 Offset: 0xC653E0 VA: 0x180C66DE0

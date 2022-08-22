@@ -29,28 +29,28 @@ public class sedanAnimation : MonoBehaviour // TypeDefIndex: 8298
 
 	// Methods
 
-	// RVA: 0x1AAA6E0 Offset: 0x1AA8CE0 VA: 0x181AAA6E0
+	// RVA: 0x1A94350 Offset: 0x1A92950 VA: 0x181A94350
 	private void Start() { }
 
-	// RVA: 0x1AAB440 Offset: 0x1AA9A40 VA: 0x181AAB440
+	// RVA: 0x1A950B0 Offset: 0x1A936B0 VA: 0x181A950B0
 	private void Update() { }
 
-	// RVA: 0x1AAA3F0 Offset: 0x1AA89F0 VA: 0x181AAA3F0
+	// RVA: 0x1A94060 Offset: 0x1A92660 VA: 0x181A94060
 	private void InputPlayer() { }
 
-	// RVA: 0x1AAA050 Offset: 0x1AA8650 VA: 0x181AAA050
+	// RVA: 0x1A93CC0 Offset: 0x1A922C0 VA: 0x181A93CC0
 	private void DoSteering() { }
 
-	// RVA: 0x1AA9EB0 Offset: 0x1AA84B0 VA: 0x181AA9EB0
+	// RVA: 0x1A93B20 Offset: 0x1A92120 VA: 0x181A93B20
 	private void ApplyForceAtWheels() { }
 
-	// RVA: 0x1AAA730 Offset: 0x1AA8D30 VA: 0x181AAA730
+	// RVA: 0x1A943A0 Offset: 0x1A929A0 VA: 0x181A943A0
 	private void UpdateTireAnimation() { }
 
-	// RVA: 0x1AAA0A0 Offset: 0x1AA86A0 VA: 0x181AAA0A0
+	// RVA: 0x1A93D10 Offset: 0x1A92310 VA: 0x181A93D10
 	private float GetShockHeightDelta(WheelCollider wheel) { }
 
-	// RVA: 0x1AAB4B0 Offset: 0x1AA9AB0 VA: 0x181AAB4B0
+	// RVA: 0x1A95120 Offset: 0x1A93720 VA: 0x181A95120
 	public void .ctor() { }
 
 }

@@ -12,10 +12,10 @@ internal struct LobbyEnter_t : ICallbackData // TypeDefIndex: 5337
 
 	// Methods
 
-	// RVA: 0x1EB610 Offset: 0x1EAA10 VA: 0x1801EB610 Slot: 5
+	// RVA: 0x1EB590 Offset: 0x1EA990 VA: 0x1801EB590 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EB600 Offset: 0x1EAA00 VA: 0x1801EB600 Slot: 4
+	// RVA: 0x1EB580 Offset: 0x1EA980 VA: 0x1801EB580 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1373A20 Offset: 0x1372020 VA: 0x181373A20

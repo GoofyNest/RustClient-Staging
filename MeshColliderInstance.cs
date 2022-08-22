@@ -14,10 +14,10 @@ public struct MeshColliderInstance // TypeDefIndex: 9157
 
 	// Methods
 
-	// RVA: 0xFAA40 Offset: 0xF9E40 VA: 0x1800FAA40
+	// RVA: 0xFA9C0 Offset: 0xF9DC0 VA: 0x1800FA9C0
 	public Mesh get_mesh() { }
 
-	// RVA: 0xFAA60 Offset: 0xF9E60 VA: 0x1800FAA60
+	// RVA: 0xFA9E0 Offset: 0xF9DE0 VA: 0x1800FA9E0
 	public void set_mesh(Mesh value) { }
 
 }

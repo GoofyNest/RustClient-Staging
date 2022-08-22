@@ -362,34 +362,34 @@ public struct TimeZoneInfo.TransitionTime : IEquatable<TimeZoneInfo.TransitionTi
 
 	// Methods
 
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	public DateTime get_TimeOfDay() { }
 
-	// RVA: 0x14B850 Offset: 0x14AC50 VA: 0x18014B850
+	// RVA: 0x14B7D0 Offset: 0x14ABD0 VA: 0x18014B7D0
 	public int get_Month() { }
 
-	// RVA: 0x1AE370 Offset: 0x1AD770 VA: 0x1801AE370
+	// RVA: 0x1AE2F0 Offset: 0x1AD6F0 VA: 0x1801AE2F0
 	public int get_Week() { }
 
-	// RVA: 0x1AE310 Offset: 0x1AD710 VA: 0x1801AE310
+	// RVA: 0x1AE290 Offset: 0x1AD690 VA: 0x1801AE290
 	public int get_Day() { }
 
-	// RVA: 0x1AE4B0 Offset: 0x1AD8B0 VA: 0x1801AE4B0
+	// RVA: 0x1AE430 Offset: 0x1AD830 VA: 0x1801AE430
 	public DayOfWeek get_DayOfWeek() { }
 
-	// RVA: 0x10ABD0 Offset: 0x109FD0 VA: 0x18010ABD0
+	// RVA: 0x10AB50 Offset: 0x109F50 VA: 0x18010AB50
 	public bool get_IsFixedDateRule() { }
 
-	// RVA: 0x1F6240 Offset: 0x1F5640 VA: 0x1801F6240 Slot: 0
+	// RVA: 0x1F61C0 Offset: 0x1F55C0 VA: 0x1801F61C0 Slot: 0
 	public override bool Equals(object obj) { }
 
 	// RVA: 0x161B760 Offset: 0x1619D60 VA: 0x18161B760
 	public static bool op_Inequality(TimeZoneInfo.TransitionTime t1, TimeZoneInfo.TransitionTime t2) { }
 
-	// RVA: 0x1F6210 Offset: 0x1F5610 VA: 0x1801F6210 Slot: 4
+	// RVA: 0x1F6190 Offset: 0x1F5590 VA: 0x1801F6190 Slot: 4
 	public bool Equals(TimeZoneInfo.TransitionTime other) { }
 
-	// RVA: 0x1F62E0 Offset: 0x1F56E0 VA: 0x1801F62E0 Slot: 2
+	// RVA: 0x1F6260 Offset: 0x1F5660 VA: 0x1801F6260 Slot: 2
 	public override int GetHashCode() { }
 
 	// RVA: 0x161AE30 Offset: 0x1619430 VA: 0x18161AE30
@@ -404,13 +404,13 @@ public struct TimeZoneInfo.TransitionTime : IEquatable<TimeZoneInfo.TransitionTi
 	// RVA: 0x161B210 Offset: 0x1619810 VA: 0x18161B210
 	private static void ValidateTransitionTime(DateTime timeOfDay, int month, int week, int day, DayOfWeek dayOfWeek) { }
 
-	// RVA: 0x1F62F0 Offset: 0x1F56F0 VA: 0x1801F62F0 Slot: 6
+	// RVA: 0x1F6270 Offset: 0x1F5670 VA: 0x1801F6270 Slot: 6
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
 
-	// RVA: 0x1F6300 Offset: 0x1F5700 VA: 0x1801F6300 Slot: 5
+	// RVA: 0x1F6280 Offset: 0x1F5680 VA: 0x1801F6280 Slot: 5
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1F6420 Offset: 0x1F5820 VA: 0x1801F6420
+	// RVA: 0x1F63A0 Offset: 0x1F57A0 VA: 0x1801F63A0
 	private void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

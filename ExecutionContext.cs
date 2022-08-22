@@ -39,11 +39,11 @@ public sealed class ExecutionContext : IDisposable, ISerializable // TypeDefInde
 	// RVA: 0x14948D0 Offset: 0x1492ED0 VA: 0x1814948D0
 	internal bool get_IsPreAllocatedDefault() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x1494830 Offset: 0x1492E30 VA: 0x181494830
 	internal void .ctor(bool isPreAllocatedDefault) { }
 
@@ -53,7 +53,7 @@ public sealed class ExecutionContext : IDisposable, ISerializable // TypeDefInde
 	// RVA: 0x1494510 Offset: 0x1492B10 VA: 0x181494510
 	internal static void SetLocalValue(IAsyncLocal local, object newValue, bool needChangeNotifications) { }
 
-	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1493BE0 Offset: 0x14921E0 VA: 0x181493BE0
 	internal static void OnAsyncLocalContextChanged(ExecutionContext previous, ExecutionContext current) { }
 
@@ -69,19 +69,19 @@ public sealed class ExecutionContext : IDisposable, ISerializable // TypeDefInde
 	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340
 	internal void set_IllogicalCallContext(IllogicalCallContext value) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	internal SynchronizationContext get_SynchronizationContext() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	internal void set_SynchronizationContext(SynchronizationContext value) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	internal SynchronizationContext get_SynchronizationContextNoFlow() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	internal void set_SynchronizationContextNoFlow(SynchronizationContext value) { }
 
@@ -91,11 +91,11 @@ public sealed class ExecutionContext : IDisposable, ISerializable // TypeDefInde
 	// RVA: 0x1494200 Offset: 0x1492800 VA: 0x181494200
 	public static void Run(ExecutionContext executionContext, ContextCallback callback, object state) { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1494310 Offset: 0x1492910 VA: 0x181494310
 	internal static void Run(ExecutionContext executionContext, ContextCallback callback, object state, bool preserveSyncCtx) { }
 
-	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1493F60 Offset: 0x1492560 VA: 0x181493F60
 	internal static void RunInternal(ExecutionContext executionContext, ContextCallback callback, object state, bool preserveSyncCtx) { }
 
@@ -105,7 +105,7 @@ public sealed class ExecutionContext : IDisposable, ISerializable // TypeDefInde
 	// RVA: 0x1493870 Offset: 0x1491E70 VA: 0x181493870
 	private static void EstablishCopyOnWriteScope(Thread currentThread, bool knownNullWindowsIdentity, ref ExecutionContextSwitcher ecsw) { }
 
-	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14943A0 Offset: 0x14929A0 VA: 0x1814943A0
 	internal static ExecutionContextSwitcher SetExecutionContext(ExecutionContext executionContext, bool preserveSyncCtx) { }
 
@@ -121,7 +121,7 @@ public sealed class ExecutionContext : IDisposable, ISerializable // TypeDefInde
 	// RVA: 0x1493480 Offset: 0x1491A80 VA: 0x181493480
 	public static ExecutionContext Capture() { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1493990 Offset: 0x1491F90 VA: 0x181493990
 	internal static ExecutionContext FastCapture() { }
 
@@ -165,34 +165,34 @@ internal struct ExecutionContext.Reader // TypeDefIndex: 784
 
 	// Methods
 
-	// RVA: 0xF1510 Offset: 0xF0910 VA: 0x1800F1510
+	// RVA: 0xF1490 Offset: 0xF0890 VA: 0x1800F1490
 	public void .ctor(ExecutionContext ec) { }
 
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	public ExecutionContext DangerousGetRawExecutionContext() { }
 
-	// RVA: 0x1188A0 Offset: 0x117CA0 VA: 0x1801188A0
+	// RVA: 0x118820 Offset: 0x117C20 VA: 0x180118820
 	public bool get_IsNull() { }
 
-	// RVA: 0x1F07E0 Offset: 0x1EFBE0 VA: 0x1801F07E0
+	// RVA: 0x1F0760 Offset: 0x1EFB60 VA: 0x1801F0760
 	public bool IsDefaultFTContext(bool ignoreSyncCtx) { }
 
-	// RVA: 0x1F0840 Offset: 0x1EFC40 VA: 0x1801F0840
+	// RVA: 0x1F07C0 Offset: 0x1EFBC0 VA: 0x1801F07C0
 	public bool get_IsFlowSuppressed() { }
 
-	// RVA: 0x1F08B0 Offset: 0x1EFCB0 VA: 0x1801F08B0
+	// RVA: 0x1F0830 Offset: 0x1EFC30 VA: 0x1801F0830
 	public SynchronizationContext get_SynchronizationContext() { }
 
-	// RVA: 0x1F08A0 Offset: 0x1EFCA0 VA: 0x1801F08A0
+	// RVA: 0x1F0820 Offset: 0x1EFC20 VA: 0x1801F0820
 	public SynchronizationContext get_SynchronizationContextNoFlow() { }
 
-	// RVA: 0x1F0860 Offset: 0x1EFC60 VA: 0x1801F0860
+	// RVA: 0x1F07E0 Offset: 0x1EFBE0 VA: 0x1801F07E0
 	public LogicalCallContext.Reader get_LogicalCallContext() { }
 
-	// RVA: 0x1F07A0 Offset: 0x1EFBA0 VA: 0x1801F07A0
+	// RVA: 0x1F0720 Offset: 0x1EFB20 VA: 0x1801F0720
 	public object GetLocalValue(IAsyncLocal local) { }
 
-	// RVA: 0x1F07B0 Offset: 0x1EFBB0 VA: 0x1801F07B0
+	// RVA: 0x1F0730 Offset: 0x1EFB30 VA: 0x1801F0730
 	public bool HasSameLocalValues(ExecutionContext other) { }
 
 }

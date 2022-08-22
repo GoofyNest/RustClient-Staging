@@ -44,19 +44,19 @@ public class BaseArcadeMachine : BaseVehicle // TypeDefIndex: 8316
 	// RVA: 0x7D3FC0 Offset: 0x7D25C0 VA: 0x1807D3FC0 Slot: 28
 	public override void InitShared() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7D3000 Offset: 0x7D1600 VA: 0x1807D3000
 	public void BeginHosting(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7D35D0 Offset: 0x7D1BD0 VA: 0x1807D35D0
 	public void EndHosting(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7D43A0 Offset: 0x7D29A0 VA: 0x1807D43A0
 	public void NoHost(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7D3A90 Offset: 0x7D2090 VA: 0x1807D3A90
 	public void GetEntityMessage(BaseEntity.RPCMessage msg) { }
 
@@ -69,11 +69,11 @@ public class BaseArcadeMachine : BaseVehicle // TypeDefIndex: 8316
 	// RVA: 0x7D3880 Offset: 0x7D1E80 VA: 0x1807D3880
 	public void GameVisibilityChanged(bool isVisible) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7D31C0 Offset: 0x7D17C0 VA: 0x1807D31C0
 	public void DestroyEntity(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7D3EE0 Offset: 0x7D24E0 VA: 0x1807D3EE0
 	public void GetSnapshotFromServer(BaseEntity.RPCMessage msg) { }
 
@@ -95,10 +95,10 @@ public class BaseArcadeMachine : BaseVehicle // TypeDefIndex: 8316
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 184
 	public override bool MountMenuVisible(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xB4790 Offset: 0xB3B90 VA: 0x1800B4790
-	[BaseEntity.Menu.Description] // RVA: 0xB4790 Offset: 0xB3B90 VA: 0x1800B4790
-	[BaseEntity.Menu.Icon] // RVA: 0xB4790 Offset: 0xB3B90 VA: 0x1800B4790
-	[BaseEntity.Menu.ShowIf] // RVA: 0xB4790 Offset: 0xB3B90 VA: 0x1800B4790
+	[BaseEntity.Menu] // RVA: 0xB4830 Offset: 0xB3C30 VA: 0x1800B4830
+	[BaseEntity.Menu.Description] // RVA: 0xB4830 Offset: 0xB3C30 VA: 0x1800B4830
+	[BaseEntity.Menu.Icon] // RVA: 0xB4830 Offset: 0xB3C30 VA: 0x1800B4830
+	[BaseEntity.Menu.ShowIf] // RVA: 0xB4830 Offset: 0xB3C30 VA: 0x1800B4830
 	// RVA: 0x7D4360 Offset: 0x7D2960 VA: 0x1807D4360
 	public void Menu_Play(BasePlayer player) { }
 

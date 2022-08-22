@@ -31,13 +31,13 @@ public sealed class FtpWebRequest : WebRequest // TypeDefIndex: 3002
 	private Encoding dataEncoding; // 0xF0
 
 	// Properties
-	[MonoTODOAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[MonoTODOAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public override string ConnectionGroupName { set; }
 	public override string ContentType { get; set; }
 	public override long ContentLength { get; set; }
 	public override ICredentials Credentials { get; set; }
 	public bool EnableSsl { get; }
-	[MonoTODOAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[MonoTODOAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public override WebHeaderCollection Headers { get; set; }
 	public override string Method { get; set; }
 	public override bool PreAuthenticate { set; }
@@ -45,7 +45,7 @@ public sealed class FtpWebRequest : WebRequest // TypeDefIndex: 3002
 	public int ReadWriteTimeout { get; }
 	public override Uri RequestUri { get; }
 	public ServicePoint ServicePoint { get; }
-	[MonoTODOAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[MonoTODOAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public override bool UseDefaultCredentials { get; set; }
 	public override int Timeout { get; }
 	private string DataType { get; }

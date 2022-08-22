@@ -7,10 +7,10 @@ internal class SystemClock // TypeDefIndex: 3557
 
 	// Methods
 
-	// RVA: 0x19B9D70 Offset: 0x19B8370 VA: 0x1819B9D70
+	// RVA: 0x19B9D30 Offset: 0x19B8330 VA: 0x1819B9D30
 	public static DateTime get_now() { }
 
-	// RVA: 0x19B9CF0 Offset: 0x19B82F0 VA: 0x1819B9CF0
+	// RVA: 0x19B9CB0 Offset: 0x19B82B0 VA: 0x1819B9CB0
 	private static void .cctor() { }
 
 }

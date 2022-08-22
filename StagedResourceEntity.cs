@@ -19,7 +19,7 @@ public class StagedResourceEntity : ResourceEntity // TypeDefIndex: 8650
 	// RVA: 0xA8A770 Offset: 0xA88D70 VA: 0x180A8A770 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA8ACB0 Offset: 0xA892B0 VA: 0x180A8ACB0
 	private void ResourceUpdate(BaseEntity.RPCMessage packet) { }
 

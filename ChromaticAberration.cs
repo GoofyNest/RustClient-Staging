@@ -1,12 +1,12 @@
 public sealed class ChromaticAberration : PostProcessEffectSettings // TypeDefIndex: 11771
 {	// Fields
-	[TooltipAttribute] // RVA: 0xEC9D0 Offset: 0xEBDD0 VA: 0x1800EC9D0
+	[TooltipAttribute] // RVA: 0xECA80 Offset: 0xEBE80 VA: 0x1800ECA80
 	public TextureParameter spectralLut; // 0x30
-	[RangeAttribute] // RVA: 0xECA90 Offset: 0xEBE90 VA: 0x1800ECA90
-	[TooltipAttribute] // RVA: 0xECA90 Offset: 0xEBE90 VA: 0x1800ECA90
+	[RangeAttribute] // RVA: 0xECAE0 Offset: 0xEBEE0 VA: 0x1800ECAE0
+	[TooltipAttribute] // RVA: 0xECAE0 Offset: 0xEBEE0 VA: 0x1800ECAE0
 	public FloatParameter intensity; // 0x38
-	[FormerlySerializedAsAttribute] // RVA: 0xECC60 Offset: 0xEC060 VA: 0x1800ECC60
-	[TooltipAttribute] // RVA: 0xECC60 Offset: 0xEC060 VA: 0x1800ECC60
+	[FormerlySerializedAsAttribute] // RVA: 0xECCF0 Offset: 0xEC0F0 VA: 0x1800ECCF0
+	[TooltipAttribute] // RVA: 0xECCF0 Offset: 0xEC0F0 VA: 0x1800ECCF0
 	public BoolParameter fastMode; // 0x40
 
 	// Methods

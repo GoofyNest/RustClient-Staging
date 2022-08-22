@@ -1,11 +1,11 @@
 public class Harmony : ConsoleSystem // TypeDefIndex: 11932
 {	// Methods
 
-	[ServerVar] // RVA: 0xA5350 Offset: 0xA4750 VA: 0x1800A5350
+	[ServerVar] // RVA: 0xA54C0 Offset: 0xA48C0 VA: 0x1800A54C0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void Load(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0xA5520 Offset: 0xA4920 VA: 0x1800A5520
+	[ServerVar] // RVA: 0xA55B0 Offset: 0xA49B0 VA: 0x1800A55B0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void Unload(ConsoleSystem.Arg args) { }
 

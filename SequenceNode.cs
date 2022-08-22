@@ -28,7 +28,7 @@ private struct SequenceNode.SequenceConstructPosContext // TypeDefIndex: 2161
 
 	// Methods
 
-	// RVA: 0x13AF60 Offset: 0x13A360 VA: 0x18013AF60
+	// RVA: 0x13AEE0 Offset: 0x13A2E0 VA: 0x18013AEE0
 	public void .ctor(SequenceNode node, BitSet firstpos, BitSet lastpos) { }
 
 }

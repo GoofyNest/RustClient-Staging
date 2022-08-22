@@ -8,19 +8,19 @@ public struct InputDevice : IEquatable<InputDevice> // TypeDefIndex: 4145
 
 	// Methods
 
-	// RVA: 0x23E6F0 Offset: 0x23DAF0 VA: 0x18023E6F0
+	// RVA: 0x23E670 Offset: 0x23DA70 VA: 0x18023E670
 	internal void .ctor(ulong deviceId) { }
 
-	// RVA: 0x23E700 Offset: 0x23DB00 VA: 0x18023E700
+	// RVA: 0x23E680 Offset: 0x23DA80 VA: 0x18023E680
 	private ulong get_deviceId() { }
 
-	// RVA: 0x23E5D0 Offset: 0x23D9D0 VA: 0x18023E5D0 Slot: 0
+	// RVA: 0x23E550 Offset: 0x23D950 VA: 0x18023E550 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x23E680 Offset: 0x23DA80 VA: 0x18023E680 Slot: 4
+	// RVA: 0x23E600 Offset: 0x23DA00 VA: 0x18023E600 Slot: 4
 	public bool Equals(InputDevice other) { }
 
-	// RVA: 0x23E6C0 Offset: 0x23DAC0 VA: 0x18023E6C0 Slot: 2
+	// RVA: 0x23E640 Offset: 0x23DA40 VA: 0x18023E640 Slot: 2
 	public override int GetHashCode() { }
 
 }

@@ -91,7 +91,7 @@ internal class X509Certificate2ImplMono : X509Certificate2Impl // TypeDefIndex: 
 	// RVA: 0x14D18A0 Offset: 0x14CFEA0 VA: 0x1814D18A0 Slot: 24
 	public override int get_Version() { }
 
-	[MonoTODOAttribute] // RVA: 0xAFCA0 Offset: 0xAF0A0 VA: 0x1800AFCA0
+	[MonoTODOAttribute] // RVA: 0xAE930 Offset: 0xADD30 VA: 0x1800AE930
 	// RVA: 0x14CF540 Offset: 0x14CDB40 VA: 0x1814CF540 Slot: 27
 	public override string GetNameInfo(X509NameType nameType, bool forIssuer) { }
 
@@ -104,7 +104,7 @@ internal class X509Certificate2ImplMono : X509Certificate2Impl // TypeDefIndex: 
 	// RVA: 0x14CFB30 Offset: 0x14CE130 VA: 0x1814CFB30
 	private X509Certificate ImportPkcs12(byte[] rawData, string password) { }
 
-	[MonoTODOAttribute] // RVA: 0xAFD40 Offset: 0xAF140 VA: 0x1800AFD40
+	[MonoTODOAttribute] // RVA: 0xAFD70 Offset: 0xAF170 VA: 0x1800AFD70
 	// RVA: 0x14D01E0 Offset: 0x14CE7E0 VA: 0x1814D01E0 Slot: 28
 	public override void Import(byte[] rawData, string password, X509KeyStorageFlags keyStorageFlags) { }
 
@@ -120,7 +120,7 @@ internal class X509Certificate2ImplMono : X509Certificate2Impl // TypeDefIndex: 
 	// RVA: 0x14CF180 Offset: 0x14CD780 VA: 0x1814CF180
 	private static void AppendBuffer(StringBuilder sb, byte[] buffer) { }
 
-	[MonoTODOAttribute] // RVA: 0xAFF10 Offset: 0xAF310 VA: 0x1800AFF10
+	[MonoTODOAttribute] // RVA: 0xAFF50 Offset: 0xAF350 VA: 0x1800AFF50
 	// RVA: 0x14D0BC0 Offset: 0x14CF1C0 VA: 0x1814D0BC0 Slot: 29
 	public override bool Verify(X509Certificate2 thisCertificate) { }
 

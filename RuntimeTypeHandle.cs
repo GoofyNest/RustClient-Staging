@@ -7,26 +7,26 @@ public struct RuntimeTypeHandle : ISerializable // TypeDefIndex: 391
 
 	// Methods
 
-	// RVA: 0x1D2F30 Offset: 0x1D2330 VA: 0x1801D2F30
+	// RVA: 0x1D2EB0 Offset: 0x1D22B0 VA: 0x1801D2EB0
 	internal void .ctor(IntPtr val) { }
 
-	// RVA: 0x1DF3A0 Offset: 0x1DE7A0 VA: 0x1801DF3A0
+	// RVA: 0x1DF320 Offset: 0x1DE720 VA: 0x1801DF320
 	internal void .ctor(RuntimeType type) { }
 
-	// RVA: 0x1DF220 Offset: 0x1DE620 VA: 0x1801DF220
+	// RVA: 0x1DF1A0 Offset: 0x1DE5A0 VA: 0x1801DF1A0
 	private void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	public IntPtr get_Value() { }
 
-	// RVA: 0x1DF200 Offset: 0x1DE600 VA: 0x1801DF200 Slot: 4
+	// RVA: 0x1DF180 Offset: 0x1DE580 VA: 0x1801DF180 Slot: 4
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
-	// RVA: 0x1DF0F0 Offset: 0x1DE4F0 VA: 0x1801DF0F0 Slot: 0
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	// RVA: 0x1DF070 Offset: 0x1DE470 VA: 0x1801DF070 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x14C550 Offset: 0x14B950 VA: 0x18014C550 Slot: 2
+	// RVA: 0x14C4D0 Offset: 0x14B8D0 VA: 0x18014C4D0 Slot: 2
 	public override int GetHashCode() { }
 
 	// RVA: 0x1299180 Offset: 0x1297780 VA: 0x181299180

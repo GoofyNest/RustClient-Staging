@@ -10,16 +10,16 @@ protected internal struct EventSource.EventData // TypeDefIndex: 1581
 
 	// Methods
 
-	// RVA: 0x19F5B0 Offset: 0x19E9B0 VA: 0x18019F5B0
+	// RVA: 0x19F530 Offset: 0x19E930 VA: 0x18019F530
 	public IntPtr get_DataPointer() { }
 
-	// RVA: 0x19F5C0 Offset: 0x19E9C0 VA: 0x18019F5C0
+	// RVA: 0x19F540 Offset: 0x19E940 VA: 0x18019F540
 	public void set_DataPointer(IntPtr value) { }
 
-	// RVA: 0x19DFD0 Offset: 0x19D3D0 VA: 0x18019DFD0
+	// RVA: 0x19DF50 Offset: 0x19D350 VA: 0x18019DF50
 	public void set_Size(int value) { }
 
-	// RVA: 0x19F520 Offset: 0x19E920 VA: 0x18019F520
+	// RVA: 0x19F4A0 Offset: 0x19E8A0 VA: 0x18019F4A0
 	internal void SetMetadata(byte* pointer, int size, int reserved) { }
 
 }
@@ -117,13 +117,13 @@ protected abstract class TypeConverter.SimplePropertyDescriptor : PropertyDescri
 
 protected internal class Dropdown.DropdownItem : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, ICancelHandler // TypeDefIndex: 4922
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Text m_Text; // 0x18
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Image m_Image; // 0x20
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private RectTransform m_RectTransform; // 0x28
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Toggle m_Toggle; // 0x30
 
 	// Properties
@@ -312,13 +312,13 @@ protected struct BaseFootstepEffect.GroundInfo // TypeDefIndex: 9328
 
 	// Methods
 
-	// RVA: 0xFB9E0 Offset: 0xFADE0 VA: 0x1800FB9E0
+	// RVA: 0xFB960 Offset: 0xFAD60 VA: 0x1800FB960
 	public GameObject SpawnDecal(string effectType) { }
 
-	// RVA: 0xFBBC0 Offset: 0xFAFC0 VA: 0x1800FBBC0
+	// RVA: 0xFBB40 Offset: 0xFAF40 VA: 0x1800FBB40
 	public GameObject SpawnEffect(string effectType) { }
 
-	// RVA: 0xFBAD0 Offset: 0xFAED0 VA: 0x1800FBAD0
+	// RVA: 0xFBA50 Offset: 0xFAE50 VA: 0x1800FBA50
 	public GameObject SpawnDisplacement(string effectType) { }
 
 }

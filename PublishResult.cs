@@ -9,7 +9,7 @@ public struct PublishResult // TypeDefIndex: 5276
 
 	// Methods
 
-	// RVA: 0x224610 Offset: 0x223A10 VA: 0x180224610
+	// RVA: 0x224590 Offset: 0x223990 VA: 0x180224590
 	public bool get_Success() { }
 
 }

@@ -5,7 +5,7 @@ internal struct Position // TypeDefIndex: 2154
 
 	// Methods
 
-	// RVA: 0xFCB60 Offset: 0xFBF60 VA: 0x1800FCB60
+	// RVA: 0xFCAE0 Offset: 0xFBEE0 VA: 0x1800FCAE0
 	public void .ctor(int symbol, object particle) { }
 
 }

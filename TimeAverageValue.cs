@@ -4,13 +4,13 @@ public class TimeAverageValue // TypeDefIndex: 6689
 
 	// Methods
 
-	// RVA: 0x2214E60 Offset: 0x2213460 VA: 0x182214E60
+	// RVA: 0x2214CA0 Offset: 0x22132A0 VA: 0x182214CA0
 	public ulong Calculate() { }
 
-	// RVA: 0x2214E70 Offset: 0x2213470 VA: 0x182214E70
+	// RVA: 0x2214CB0 Offset: 0x22132B0 VA: 0x182214CB0
 	public void Increment() { }
 
-	// RVA: 0x2214E80 Offset: 0x2213480 VA: 0x182214E80
+	// RVA: 0x2214CC0 Offset: 0x22132C0 VA: 0x182214CC0
 	public void Reset() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

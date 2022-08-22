@@ -1,8 +1,8 @@
 public class Integration : BaseIntegration // TypeDefIndex: 8229
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Action OnManifestUpdated; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Action OnServerMetadataUpdated; // 0x18
 	private Auth _auth; // 0x20
 	private IAuthTicket _steamTicket; // 0x28
@@ -24,22 +24,22 @@ public class Integration : BaseIntegration // TypeDefIndex: 8229
 	// RVA: 0x106E180 Offset: 0x106C780 VA: 0x18106E180 Slot: 5
 	public override string get_Bucket() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x106DEA0 Offset: 0x106C4A0 VA: 0x18106DEA0
 	public void add_OnManifestUpdated(Action value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x106E650 Offset: 0x106CC50 VA: 0x18106E650
 	public void remove_OnManifestUpdated(Action value) { }
 
 	// RVA: 0x106DC80 Offset: 0x106C280 VA: 0x18106DC80 Slot: 6
 	public override void OnManifestFile(Manifest manifest) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x106DF40 Offset: 0x106C540 VA: 0x18106DF40
 	public void add_OnServerMetadataUpdated(Action value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x106E6F0 Offset: 0x106CCF0 VA: 0x18106E6F0
 	public void remove_OnServerMetadataUpdated(Action value) { }
 

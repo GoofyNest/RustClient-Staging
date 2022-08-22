@@ -37,7 +37,7 @@ public struct ERSOSection // TypeDefIndex: 7188
 
 	// Methods
 
-	// RVA: 0xFBDA0 Offset: 0xFB1A0 VA: 0x1800FBDA0
+	// RVA: 0xFBD20 Offset: 0xFB120 VA: 0x1800FBD20
 	public void .ctor(Vector3 _startPos, Vector3 _endPos, int _startIndex, int _endIndex, float _startFraction, float _endFraction, float _hsStart, float _hsEnd) { }
 
 	// RVA: 0xA5A7A0 Offset: 0xA58DA0 VA: 0x180A5A7A0

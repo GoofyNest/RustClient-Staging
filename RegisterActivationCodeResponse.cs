@@ -10,10 +10,10 @@ internal struct RegisterActivationCodeResponse_t : ICallbackData // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1D3160 Offset: 0x1D2560 VA: 0x1801D3160 Slot: 5
+	// RVA: 0x1D30E0 Offset: 0x1D24E0 VA: 0x1801D30E0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D3150 Offset: 0x1D2550 VA: 0x1801D3150 Slot: 4
+	// RVA: 0x1D30D0 Offset: 0x1D24D0 VA: 0x1801D30D0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128D7D0 Offset: 0x128BDD0 VA: 0x18128D7D0

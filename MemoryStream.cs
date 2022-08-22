@@ -97,7 +97,7 @@ public class MemoryStream : Stream // TypeDefIndex: 635
 	// RVA: 0x1625B10 Offset: 0x1624110 VA: 0x181625B10 Slot: 27
 	public override int Read([In] [Out] byte[] buffer, int offset, int count) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x16257F0 Offset: 0x1623DF0 VA: 0x1816257F0 Slot: 21
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
@@ -119,7 +119,7 @@ public class MemoryStream : Stream // TypeDefIndex: 635
 	// RVA: 0x1626590 Offset: 0x1624B90 VA: 0x181626590 Slot: 29
 	public override void Write(byte[] buffer, int offset, int count) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x1626160 Offset: 0x1624760 VA: 0x181626160 Slot: 24
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 

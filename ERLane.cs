@@ -7,13 +7,13 @@ public struct ERLane // TypeDefIndex: 7219
 
 	// Methods
 
-	// RVA: 0xFAE80 Offset: 0xFA280 VA: 0x1800FAE80
+	// RVA: 0xFAE00 Offset: 0xFA200 VA: 0x1800FAE00
 	public void .ctor(float position, ERLaneDirection direction, int index) { }
 
-	// RVA: 0xFAE40 Offset: 0xFA240 VA: 0x1800FAE40
+	// RVA: 0xFADC0 Offset: 0xFA1C0 VA: 0x1800FADC0
 	public void .ctor(ERLane lane) { }
 
-	// RVA: 0xFAE40 Offset: 0xFA240 VA: 0x1800FAE40
+	// RVA: 0xFADC0 Offset: 0xFA1C0 VA: 0x1800FADC0
 	public void Copy(ERLane lane) { }
 
 }

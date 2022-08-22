@@ -1,12 +1,12 @@
 public static class IJobParallelForExtensions // TypeDefIndex: 3303
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static JobHandle Schedule<T>(T jobData, int arrayLength, int innerloopBatchCount, JobHandle dependsOn) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A39190 Offset: 0x1A37790 VA: 0x181A39190
+	|-RVA: 0x1A39150 Offset: 0x1A37750 VA: 0x181A39150
 	|-IJobParallelForExtensions.Schedule<MeshPaintable3D.DrawTextureJob>
 	*/
 

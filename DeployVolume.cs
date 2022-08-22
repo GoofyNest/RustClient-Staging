@@ -1,10 +1,10 @@
 public abstract class DeployVolume : PrefabAttribute // TypeDefIndex: 9844
 {	// Fields
 	public LayerMask layers; // 0x98
-	[InspectorFlagsAttribute] // RVA: 0x70AC0 Offset: 0x6FEC0 VA: 0x180070AC0
+	[InspectorFlagsAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
 	public ColliderInfo.Flags ignore; // 0x9C
 	public DeployVolume.EntityMode entityMode; // 0xA0
-	[FormerlySerializedAsAttribute] // RVA: 0x9F550 Offset: 0x9E950 VA: 0x18009F550
+	[FormerlySerializedAsAttribute] // RVA: 0x9F5E0 Offset: 0x9E9E0 VA: 0x18009F5E0
 	public BaseEntity[] entityList; // 0xA8
 
 	// Methods

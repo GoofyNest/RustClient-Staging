@@ -29,7 +29,7 @@ public class BenchmarkData // TypeDefIndex: 6178
 	// RVA: 0x14AA380 Offset: 0x14A8980 VA: 0x1814AA380
 	public void WriteTimersToResults() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9F8B0 Offset: 0x9ECB0 VA: 0x18009F8B0
+	[AsyncStateMachineAttribute] // RVA: 0x9F940 Offset: 0x9ED40 VA: 0x18009F940
 	// RVA: 0x14AA050 Offset: 0x14A8650 VA: 0x1814AA050
 	public Task<string> Upload() { }
 
@@ -65,11 +65,11 @@ private struct BenchmarkData.<Upload>d__13 : IAsyncStateMachine // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1F1A60 Offset: 0x1F0E60 VA: 0x1801F1A60 Slot: 4
+	// RVA: 0x1F19E0 Offset: 0x1F0DE0 VA: 0x1801F19E0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1F1A70 Offset: 0x1F0E70 VA: 0x1801F1A70 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1F19F0 Offset: 0x1F0DF0 VA: 0x1801F19F0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

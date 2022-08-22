@@ -84,7 +84,7 @@ public class ERRoad // TypeDefIndex: 7183
 	// RVA: 0xB4B790 Offset: 0xB49D90 VA: 0x180B4B790
 	public ERRoad SplitRoad(int markerIndex) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x7D6F0 Offset: 0x7CAF0 VA: 0x18007D6F0
+	[EditorBrowsableAttribute] // RVA: 0x7D7C0 Offset: 0x7CBC0 VA: 0x18007D7C0
 	// RVA: 0xB4B6C0 Offset: 0xB49CC0 VA: 0x180B4B6C0
 	private ERModularRoad SplitRoadExt(int markerIndex) { }
 
@@ -127,7 +127,7 @@ public class ERRoad // TypeDefIndex: 7183
 	// RVA: 0xB44D70 Offset: 0xB43370 VA: 0x180B44D70
 	public void FollowTerrainContours(bool value) { }
 
-	[ObsoleteAttribute] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	// RVA: 0xB44D40 Offset: 0xB43340 VA: 0x180B44D40
 	public void SetFollowTerrainContoursOffset(float value) { }
 
@@ -185,7 +185,7 @@ public class ERRoad // TypeDefIndex: 7183
 	// RVA: 0xB46110 Offset: 0xB44710 VA: 0x180B46110
 	public Vector3 GetLookatSmooth(float distance, int currentElement) { }
 
-	[ObsoleteAttribute] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	// RVA: 0xB458E0 Offset: 0xB43EE0 VA: 0x180B458E0
 	public Vector3 GetLookatAtDistanceSmooth(float distance, ref int currentElement) { }
 
@@ -210,11 +210,11 @@ public class ERRoad // TypeDefIndex: 7183
 	// RVA: 0xB48ED0 Offset: 0xB474D0 VA: 0x180B48ED0
 	public float SetIndent(float value, int marker, ERRoadSide type) { }
 
-	[ObsoleteAttribute] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	// RVA: 0xB49C40 Offset: 0xB48240 VA: 0x180B49C40
 	public float SetRightIndent(float value, int marker) { }
 
-	[ObsoleteAttribute] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	// RVA: 0xB49130 Offset: 0xB47730 VA: 0x180B49130
 	public float SetLeftIndent(float value, int marker) { }
 
@@ -230,11 +230,11 @@ public class ERRoad // TypeDefIndex: 7183
 	// RVA: 0xB45820 Offset: 0xB43E20 VA: 0x180B45820
 	public ERIndentAlignment GetIndentAlignment(int marker, ERRoadSide type) { }
 
-	[ObsoleteAttribute] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	// RVA: 0xB49D00 Offset: 0xB48300 VA: 0x180B49D00
 	public float SetRightSurrouding(float value, int marker) { }
 
-	[ObsoleteAttribute] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	// RVA: 0xB491F0 Offset: 0xB477F0 VA: 0x180B491F0
 	public float SetLeftSurrouding(float value, int marker) { }
 
@@ -250,7 +250,7 @@ public class ERRoad // TypeDefIndex: 7183
 	// RVA: 0xB45890 Offset: 0xB43E90 VA: 0x180B45890
 	public Vector3[] GetLeftSurroudingPoints() { }
 
-	[ObsoleteAttribute] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	// RVA: 0xB45800 Offset: 0xB43E00 VA: 0x180B45800
 	public float GetLength() { }
 

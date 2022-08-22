@@ -1,8 +1,8 @@
 public sealed class NativeContainerAttribute : Attribute // TypeDefIndex: 3327
 {
 // Namespace: Unity.Collections.LowLevel.Unsafe
-[RequiredByNativeCodeAttribute] // RVA: 0xECA00 Offset: 0xEBE00 VA: 0x1800ECA00
-[AttributeUsageAttribute] // RVA: 0xECA00 Offset: 0xEBE00 VA: 0x1800ECA00
+[RequiredByNativeCodeAttribute] // RVA: 0xECA20 Offset: 0xEBE20 VA: 0x1800ECA20
+[AttributeUsageAttribute] // RVA: 0xECA20 Offset: 0xEBE20 VA: 0x1800ECA20
 public sealed class NativeContainerAttribute : Attribute // TypeDefIndex: 3327
 	// Methods
 

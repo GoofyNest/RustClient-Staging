@@ -37,31 +37,31 @@ public class DepthOfField : PostEffectsBase // TypeDefIndex: 8178
 	// RVA: 0x592640 Offset: 0x590C40 VA: 0x180592640
 	public void set_ForceOnlyFarBlur(bool value) { }
 
-	// RVA: 0x21DD030 Offset: 0x21DB630 VA: 0x1821DD030 Slot: 4
+	// RVA: 0x21DCE70 Offset: 0x21DB470 VA: 0x1821DCE70 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x21DD770 Offset: 0x21DBD70 VA: 0x1821DD770
+	// RVA: 0x21DD5B0 Offset: 0x21DBBB0 VA: 0x1821DD5B0
 	private void OnEnable() { }
 
-	// RVA: 0x21DD600 Offset: 0x21DBC00 VA: 0x1821DD600
+	// RVA: 0x21DD440 Offset: 0x21DBA40 VA: 0x1821DD440
 	private void OnDisable() { }
 
-	// RVA: 0x21DF2C0 Offset: 0x21DD8C0 VA: 0x1821DF2C0
+	// RVA: 0x21DF100 Offset: 0x21DD700 VA: 0x1821DF100
 	private void ReleaseComputeResources() { }
 
-	// RVA: 0x21DD240 Offset: 0x21DB840 VA: 0x1821DD240
+	// RVA: 0x21DD080 Offset: 0x21DB680 VA: 0x1821DD080
 	private void CreateComputeResources() { }
 
-	// RVA: 0x21DD3D0 Offset: 0x21DB9D0 VA: 0x1821DD3D0
+	// RVA: 0x21DD210 Offset: 0x21DB810 VA: 0x1821DD210
 	private float FocalDistance01(float worldDist) { }
 
-	// RVA: 0x21DF330 Offset: 0x21DD930 VA: 0x1821DF330
+	// RVA: 0x21DF170 Offset: 0x21DD770 VA: 0x1821DF170
 	private void WriteCoc(RenderTexture fromTo, bool fgDilate) { }
 
-	// RVA: 0x21DD7D0 Offset: 0x21DBDD0 VA: 0x1821DD7D0
+	// RVA: 0x21DD610 Offset: 0x21DBC10 VA: 0x1821DD610
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21DF690 Offset: 0x21DDC90 VA: 0x1821DF690
+	// RVA: 0x21DF4D0 Offset: 0x21DDAD0 VA: 0x1821DF4D0
 	public void .ctor() { }
 
 }
@@ -85,17 +85,17 @@ public enum DepthOfField.BlurSampleCount // TypeDefIndex: 8180
 
 public sealed class DepthOfField : PostProcessEffectSettings // TypeDefIndex: 11782
 {	// Fields
-	[MinAttribute] // RVA: 0x6F800 Offset: 0x6EC00 VA: 0x18006F800
-	[TooltipAttribute] // RVA: 0x6F800 Offset: 0x6EC00 VA: 0x18006F800
+	[MinAttribute] // RVA: 0x6FBA0 Offset: 0x6EFA0 VA: 0x18006FBA0
+	[TooltipAttribute] // RVA: 0x6FBA0 Offset: 0x6EFA0 VA: 0x18006FBA0
 	public FloatParameter focusDistance; // 0x30
-	[RangeAttribute] // RVA: 0x6FCF0 Offset: 0x6F0F0 VA: 0x18006FCF0
-	[TooltipAttribute] // RVA: 0x6FCF0 Offset: 0x6F0F0 VA: 0x18006FCF0
+	[RangeAttribute] // RVA: 0x6FE10 Offset: 0x6F210 VA: 0x18006FE10
+	[TooltipAttribute] // RVA: 0x6FE10 Offset: 0x6F210 VA: 0x18006FE10
 	public FloatParameter aperture; // 0x38
-	[RangeAttribute] // RVA: 0x6FE20 Offset: 0x6F220 VA: 0x18006FE20
-	[TooltipAttribute] // RVA: 0x6FE20 Offset: 0x6F220 VA: 0x18006FE20
+	[RangeAttribute] // RVA: 0x70010 Offset: 0x6F410 VA: 0x180070010
+	[TooltipAttribute] // RVA: 0x70010 Offset: 0x6F410 VA: 0x180070010
 	public FloatParameter focalLength; // 0x40
-	[DisplayNameAttribute] // RVA: 0x70100 Offset: 0x6F500 VA: 0x180070100
-	[TooltipAttribute] // RVA: 0x70100 Offset: 0x6F500 VA: 0x180070100
+	[DisplayNameAttribute] // RVA: 0x70240 Offset: 0x6F640 VA: 0x180070240
+	[TooltipAttribute] // RVA: 0x70240 Offset: 0x6F640 VA: 0x180070240
 	public KernelSizeParameter kernelSize; // 0x48
 
 	// Methods

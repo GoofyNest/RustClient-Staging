@@ -1,6 +1,6 @@
 public class Marketplace : BaseEntity // TypeDefIndex: 8802
 {	// Fields
-	[HeaderAttribute] // RVA: 0xBEAC0 Offset: 0xBDEC0 VA: 0x1800BEAC0
+	[HeaderAttribute] // RVA: 0xBEB60 Offset: 0xBDF60 VA: 0x1800BEB60
 	public GameObjectRef terminalPrefab; // 0x168
 	public Transform[] terminalPoints; // 0x170
 	public Transform droneLaunchPoint; // 0x178

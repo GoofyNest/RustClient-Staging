@@ -9,10 +9,10 @@ internal struct DlcInstalled_t : ICallbackData // TypeDefIndex: 5398
 
 	// Methods
 
-	// RVA: 0x1E5420 Offset: 0x1E4820 VA: 0x1801E5420 Slot: 5
+	// RVA: 0x1E53A0 Offset: 0x1E47A0 VA: 0x1801E53A0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E5410 Offset: 0x1E4810 VA: 0x1801E5410 Slot: 4
+	// RVA: 0x1E5390 Offset: 0x1E4790 VA: 0x1801E5390 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x136FEE0 Offset: 0x136E4E0 VA: 0x18136FEE0

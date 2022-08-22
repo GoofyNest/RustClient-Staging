@@ -12,10 +12,10 @@ internal struct GSClientGroupStatus_t : ICallbackData // TypeDefIndex: 5496
 
 	// Methods
 
-	// RVA: 0x1E7600 Offset: 0x1E6A00 VA: 0x1801E7600 Slot: 5
+	// RVA: 0x1E7580 Offset: 0x1E6980 VA: 0x1801E7580 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E75F0 Offset: 0x1E69F0 VA: 0x1801E75F0 Slot: 4
+	// RVA: 0x1E7570 Offset: 0x1E6970 VA: 0x1801E7570 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x13709D0 Offset: 0x136EFD0 VA: 0x1813709D0

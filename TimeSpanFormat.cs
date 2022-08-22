@@ -51,28 +51,28 @@ internal struct TimeSpanFormat.FormatLiterals // TypeDefIndex: 722
 
 	// Methods
 
-	// RVA: 0x1EC990 Offset: 0x1EBD90 VA: 0x1801EC990
+	// RVA: 0x1EC910 Offset: 0x1EBD10 VA: 0x1801EC910
 	internal string get_Start() { }
 
-	// RVA: 0x1EC850 Offset: 0x1EBC50 VA: 0x1801EC850
+	// RVA: 0x1EC7D0 Offset: 0x1EBBD0 VA: 0x1801EC7D0
 	internal string get_DayHourSep() { }
 
-	// RVA: 0x1EC8D0 Offset: 0x1EBCD0 VA: 0x1801EC8D0
+	// RVA: 0x1EC850 Offset: 0x1EBC50 VA: 0x1801EC850
 	internal string get_HourMinuteSep() { }
 
-	// RVA: 0x1EC910 Offset: 0x1EBD10 VA: 0x1801EC910
+	// RVA: 0x1EC890 Offset: 0x1EBC90 VA: 0x1801EC890
 	internal string get_MinuteSecondSep() { }
 
-	// RVA: 0x1EC950 Offset: 0x1EBD50 VA: 0x1801EC950
+	// RVA: 0x1EC8D0 Offset: 0x1EBCD0 VA: 0x1801EC8D0
 	internal string get_SecondFractionSep() { }
 
-	// RVA: 0x1EC890 Offset: 0x1EBC90 VA: 0x1801EC890
+	// RVA: 0x1EC810 Offset: 0x1EBC10 VA: 0x1801EC810
 	internal string get_End() { }
 
 	// RVA: 0x137DFD0 Offset: 0x137C5D0 VA: 0x18137DFD0
 	internal static TimeSpanFormat.FormatLiterals InitInvariant(bool isNegative) { }
 
-	// RVA: 0x1EC840 Offset: 0x1EBC40 VA: 0x1801EC840
+	// RVA: 0x1EC7C0 Offset: 0x1EBBC0 VA: 0x1801EC7C0
 	internal void Init(string format, bool useInvariantFieldLengths) { }
 
 }

@@ -76,22 +76,22 @@ internal struct ConvertUtils.TypeConvertKey // TypeDefIndex: 5944
 
 	// Methods
 
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	public Type get_InitialType() { }
 
-	// RVA: 0xF3F40 Offset: 0xF3340 VA: 0x1800F3F40
+	// RVA: 0xF3EC0 Offset: 0xF32C0 VA: 0x1800F3EC0
 	public Type get_TargetType() { }
 
-	// RVA: 0xF5AD0 Offset: 0xF4ED0 VA: 0x1800F5AD0
+	// RVA: 0xF5A50 Offset: 0xF4E50 VA: 0x1800F5A50
 	public void .ctor(Type initialType, Type targetType) { }
 
-	// RVA: 0xF5A70 Offset: 0xF4E70 VA: 0x1800F5A70 Slot: 2
+	// RVA: 0xF59F0 Offset: 0xF4DF0 VA: 0x1800F59F0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x211EF0 Offset: 0x2112F0 VA: 0x180211EF0 Slot: 0
+	// RVA: 0x211E70 Offset: 0x211270 VA: 0x180211E70 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x2116A0 Offset: 0x210AA0 VA: 0x1802116A0
+	// RVA: 0x211620 Offset: 0x210A20 VA: 0x180211620
 	public bool Equals(ConvertUtils.TypeConvertKey other) { }
 
 }

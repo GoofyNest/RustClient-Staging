@@ -12,7 +12,7 @@ internal class RSAManaged : RSA // TypeDefIndex: 75
 	private BigInteger qInv; // 0x50
 	private BigInteger n; // 0x58
 	private BigInteger e; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private RSAManaged.KeyGeneratedEventHandler KeyGenerated; // 0x68
 
 	// Properties
@@ -48,11 +48,11 @@ internal class RSAManaged : RSA // TypeDefIndex: 75
 	// RVA: 0x1754B40 Offset: 0x1753140 VA: 0x181754B40 Slot: 5
 	protected override void Dispose(bool disposing) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x17567D0 Offset: 0x1754DD0 VA: 0x1817567D0
 	public void add_KeyGenerated(RSAManaged.KeyGeneratedEventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x17569D0 Offset: 0x1754FD0 VA: 0x1817569D0
 	public void remove_KeyGenerated(RSAManaged.KeyGeneratedEventHandler value) { }
 
@@ -94,7 +94,7 @@ public class RSAManaged : RSA // TypeDefIndex: 1761
 	private BigInteger qInv; // 0x50
 	private BigInteger n; // 0x58
 	private BigInteger e; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private RSAManaged.KeyGeneratedEventHandler KeyGenerated; // 0x68
 
 	// Properties
@@ -102,19 +102,19 @@ public class RSAManaged : RSA // TypeDefIndex: 1761
 
 	// Methods
 
-	// RVA: 0x1AC35F0 Offset: 0x1AC1BF0 VA: 0x181AC35F0
+	// RVA: 0x1AC3430 Offset: 0x1AC1A30 VA: 0x181AC3430
 	private void GenerateKeyPair() { }
 
-	// RVA: 0x1AC4390 Offset: 0x1AC2990 VA: 0x181AC4390
+	// RVA: 0x1AC41D0 Offset: 0x1AC27D0 VA: 0x181AC41D0
 	public bool get_PublicOnly() { }
 
-	// RVA: 0x1AC3180 Offset: 0x1AC1780 VA: 0x181AC3180 Slot: 11
+	// RVA: 0x1AC2FC0 Offset: 0x1AC15C0 VA: 0x181AC2FC0 Slot: 11
 	public override RSAParameters ExportParameters(bool includePrivateParameters) { }
 
-	// RVA: 0x1AC3C60 Offset: 0x1AC2260 VA: 0x181AC3C60 Slot: 12
+	// RVA: 0x1AC3AA0 Offset: 0x1AC20A0 VA: 0x181AC3AA0 Slot: 12
 	public override void ImportParameters(RSAParameters parameters) { }
 
-	// RVA: 0x1AC3BB0 Offset: 0x1AC21B0 VA: 0x181AC3BB0
+	// RVA: 0x1AC39F0 Offset: 0x1AC1FF0 VA: 0x181AC39F0
 	private byte[] GetPaddedValue(BigInteger value, int length) { }
 
 }

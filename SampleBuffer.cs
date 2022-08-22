@@ -7,19 +7,19 @@ public class SampleBuffer : ABuffer // TypeDefIndex: 7396
 
 	// Methods
 
-	// RVA: 0x22630D0 Offset: 0x22616D0 VA: 0x1822630D0
+	// RVA: 0x2262F10 Offset: 0x2261510 VA: 0x182262F10
 	internal void .ctor(int sampleFrequency, int numberOfChannels) { }
 
-	// RVA: 0x2262FF0 Offset: 0x22615F0 VA: 0x182262FF0 Slot: 4
+	// RVA: 0x2262E30 Offset: 0x2261430 VA: 0x182262E30 Slot: 4
 	protected override void Append(int channel, short valueRenamed) { }
 
-	// RVA: 0x2262EF0 Offset: 0x22614F0 VA: 0x182262EF0 Slot: 5
+	// RVA: 0x2262D30 Offset: 0x2261330 VA: 0x182262D30 Slot: 5
 	internal override void AppendSamples(int channel, float[] samples) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 6
 	internal override void WriteBuffer(int val) { }
 
-	// RVA: 0x2263080 Offset: 0x2261680 VA: 0x182263080 Slot: 7
+	// RVA: 0x2262EC0 Offset: 0x22614C0 VA: 0x182262EC0 Slot: 7
 	internal override void ClearBuffer() { }
 
 }

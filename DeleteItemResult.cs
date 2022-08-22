@@ -10,10 +10,10 @@ internal struct DeleteItemResult_t : ICallbackData // TypeDefIndex: 5446
 
 	// Methods
 
-	// RVA: 0x1E5340 Offset: 0x1E4740 VA: 0x1801E5340 Slot: 5
+	// RVA: 0x1E52C0 Offset: 0x1E46C0 VA: 0x1801E52C0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E5330 Offset: 0x1E4730 VA: 0x1801E5330 Slot: 4
+	// RVA: 0x1E52B0 Offset: 0x1E46B0 VA: 0x1801E52B0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x136FE40 Offset: 0x136E440 VA: 0x18136FE40

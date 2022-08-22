@@ -13,25 +13,25 @@ public struct SqlSingle : INullable, IComparable, IXmlSerializable // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x119910 Offset: 0x118D10 VA: 0x180119910
+	// RVA: 0x119890 Offset: 0x118C90 VA: 0x180119890
 	private void .ctor(bool fNull) { }
 
-	// RVA: 0x11B1B0 Offset: 0x11A5B0 VA: 0x18011B1B0
+	// RVA: 0x11B130 Offset: 0x11A530 VA: 0x18011B130
 	public void .ctor(float value) { }
 
-	// RVA: 0x11B1C0 Offset: 0x11A5C0 VA: 0x18011B1C0
+	// RVA: 0x11B140 Offset: 0x11A540 VA: 0x18011B140
 	public void .ctor(double value) { }
 
-	// RVA: 0x1181D0 Offset: 0x1175D0 VA: 0x1801181D0 Slot: 4
+	// RVA: 0x118150 Offset: 0x117550 VA: 0x180118150 Slot: 4
 	public bool get_IsNull() { }
 
-	// RVA: 0x11B1D0 Offset: 0x11A5D0 VA: 0x18011B1D0
+	// RVA: 0x11B150 Offset: 0x11A550 VA: 0x18011B150
 	public float get_Value() { }
 
 	// RVA: 0xCC89A0 Offset: 0xCC6FA0 VA: 0x180CC89A0
 	public static SqlSingle op_Implicit(float x) { }
 
-	// RVA: 0x11B190 Offset: 0x11A590 VA: 0x18011B190 Slot: 3
+	// RVA: 0x11B110 Offset: 0x11A510 VA: 0x18011B110 Slot: 3
 	public override string ToString() { }
 
 	// RVA: 0xCC9060 Offset: 0xCC7660 VA: 0x180CC9060
@@ -85,28 +85,28 @@ public struct SqlSingle : INullable, IComparable, IXmlSerializable // TypeDefInd
 	// RVA: 0xCC7D10 Offset: 0xCC6310 VA: 0x180CC7D10
 	public static SqlBoolean GreaterThan(SqlSingle x, SqlSingle y) { }
 
-	// RVA: 0x11B080 Offset: 0x11A480 VA: 0x18011B080
+	// RVA: 0x11B000 Offset: 0x11A400 VA: 0x18011B000
 	public SqlDouble ToSqlDouble() { }
 
-	// RVA: 0x11AB50 Offset: 0x119F50 VA: 0x18011AB50 Slot: 5
+	// RVA: 0x11AAD0 Offset: 0x119ED0 VA: 0x18011AAD0 Slot: 5
 	public int CompareTo(object value) { }
 
-	// RVA: 0x11AB40 Offset: 0x119F40 VA: 0x18011AB40
+	// RVA: 0x11AAC0 Offset: 0x119EC0 VA: 0x18011AAC0
 	public int CompareTo(SqlSingle value) { }
 
-	// RVA: 0x11AC50 Offset: 0x11A050 VA: 0x18011AC50 Slot: 0
+	// RVA: 0x11ABD0 Offset: 0x119FD0 VA: 0x18011ABD0 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x11ADF0 Offset: 0x11A1F0 VA: 0x18011ADF0 Slot: 2
+	// RVA: 0x11AD70 Offset: 0x11A170 VA: 0x18011AD70 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x117E00 Offset: 0x117200 VA: 0x180117E00 Slot: 6
+	// RVA: 0x117D80 Offset: 0x117180 VA: 0x180117D80 Slot: 6
 	private XmlSchema System.Xml.Serialization.IXmlSerializable.GetSchema() { }
 
-	// RVA: 0x11AE80 Offset: 0x11A280 VA: 0x18011AE80 Slot: 7
+	// RVA: 0x11AE00 Offset: 0x11A200 VA: 0x18011AE00 Slot: 7
 	private void System.Xml.Serialization.IXmlSerializable.ReadXml(XmlReader reader) { }
 
-	// RVA: 0x11AFA0 Offset: 0x11A3A0 VA: 0x18011AFA0 Slot: 8
+	// RVA: 0x11AF20 Offset: 0x11A320 VA: 0x18011AF20 Slot: 8
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
 	// RVA: 0xCC7CB0 Offset: 0xCC62B0 VA: 0x180CC7CB0

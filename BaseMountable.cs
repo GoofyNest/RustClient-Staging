@@ -2,16 +2,16 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 8330
 {	// Fields
 	private Option __menuOption_Menu_Mount; // 0x240
 	public static Translate.Phrase dismountPhrase; // 0x0
-	[HeaderAttribute] // RVA: 0xB92C0 Offset: 0xB86C0 VA: 0x1800B92C0
-	[FormerlySerializedAsAttribute] // RVA: 0xB92C0 Offset: 0xB86C0 VA: 0x1800B92C0
+	[HeaderAttribute] // RVA: 0xB9360 Offset: 0xB8760 VA: 0x1800B9360
+	[FormerlySerializedAsAttribute] // RVA: 0xB9360 Offset: 0xB8760 VA: 0x1800B9360
 	public Transform eyePositionOverride; // 0x298
-	[FormerlySerializedAsAttribute] // RVA: 0xB95F0 Offset: 0xB89F0 VA: 0x1800B95F0
+	[FormerlySerializedAsAttribute] // RVA: 0xB9690 Offset: 0xB8A90 VA: 0x1800B9690
 	public Transform eyeCenterOverride; // 0x2A0
 	public Vector2 pitchClamp; // 0x2A8
 	public Vector2 yawClamp; // 0x2B0
 	public bool canWieldItems; // 0x2B8
 	public bool relativeViewAngles; // 0x2B9
-	[HeaderAttribute] // RVA: 0xB97A0 Offset: 0xB8BA0 VA: 0x1800B97A0
+	[HeaderAttribute] // RVA: 0xB9840 Offset: 0xB8C40 VA: 0x1800B9840
 	public Transform mountAnchor; // 0x2C0
 	public PlayerModel.MountPoses mountPose; // 0x2C8
 	public float maxMountDistance; // 0x2CC
@@ -19,7 +19,7 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 8330
 	public bool checkPlayerLosOnMount; // 0x2D8
 	public bool disableMeshCullingForPlayers; // 0x2D9
 	public bool allowHeadLook; // 0x2DA
-	[FormerlySerializedAsAttribute] // RVA: 0xB9860 Offset: 0xB8C60 VA: 0x1800B9860
+	[FormerlySerializedAsAttribute] // RVA: 0xB9930 Offset: 0xB8D30 VA: 0x1800B9930
 	public bool modifiesPlayerCollider; // 0x2DB
 	public BasePlayer.CapsuleColliderInfo customPlayerCollider; // 0x2DC
 	public SoundDefinition mountSoundDef; // 0x2F0
@@ -29,11 +29,11 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 8330
 	public BaseMountable.MountGestureType allowedGestures; // 0x30C
 	public bool canDrinkWhileMounted; // 0x310
 	public bool allowSleeperMounting; // 0x311
-	[HelpAttribute] // RVA: 0xB99D0 Offset: 0xB8DD0 VA: 0x1800B99D0
+	[HelpAttribute] // RVA: 0xB9A70 Offset: 0xB8E70 VA: 0x1800B9A70
 	public bool animateClothInLocalSpace; // 0x312
-	[HeaderAttribute] // RVA: 0xABDD0 Offset: 0xAB1D0 VA: 0x1800ABDD0
+	[HeaderAttribute] // RVA: 0xABE70 Offset: 0xAB270 VA: 0x1800ABE70
 	public BasePlayer.CameraMode MountedCameraMode; // 0x314
-	[FormerlySerializedAsAttribute] // RVA: 0xB9BC0 Offset: 0xB8FC0 VA: 0x1800B9BC0
+	[FormerlySerializedAsAttribute] // RVA: 0xB9CC0 Offset: 0xB90C0 VA: 0x1800B9CC0
 	public bool isMobile; // 0x318
 	public float SideLeanAmount; // 0x31C
 
@@ -187,10 +187,10 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 8330
 	// RVA: 0xA4A0F0 Offset: 0xA486F0 VA: 0x180A4A0F0
 	public void ClientRequestDismount() { }
 
-	[BaseEntity.Menu] // RVA: 0x7A9D0 Offset: 0x79DD0 VA: 0x18007A9D0
-	[BaseEntity.Menu.Description] // RVA: 0x7A9D0 Offset: 0x79DD0 VA: 0x18007A9D0
-	[BaseEntity.Menu.Icon] // RVA: 0x7A9D0 Offset: 0x79DD0 VA: 0x18007A9D0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7A9D0 Offset: 0x79DD0 VA: 0x18007A9D0
+	[BaseEntity.Menu] // RVA: 0x7AB20 Offset: 0x79F20 VA: 0x18007AB20
+	[BaseEntity.Menu.Description] // RVA: 0x7AB20 Offset: 0x79F20 VA: 0x18007AB20
+	[BaseEntity.Menu.Icon] // RVA: 0x7AB20 Offset: 0x79F20 VA: 0x18007AB20
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7AB20 Offset: 0x79F20 VA: 0x18007AB20
 	// RVA: 0xA4B3C0 Offset: 0xA499C0 VA: 0x180A4B3C0
 	public void Menu_Mount(BasePlayer player) { }
 
@@ -215,7 +215,7 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 8330
 	// RVA: 0xA4CB20 Offset: 0xA4B120 VA: 0x180A4CB20
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA4A0F0 Offset: 0xA486F0 VA: 0x180A4A0F0
 	private void <DoPlayerMovement>b__78_0(BasePlayer basePlayer) { }
 

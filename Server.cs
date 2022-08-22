@@ -152,43 +152,43 @@ private class ServerCertValidationCallback.CallbackContext // TypeDefIndex: 2986
 
 public struct ServerInfo : IEquatable<ServerInfo> // TypeDefIndex: 5557
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Name>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <Ping>k__BackingField; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <GameDir>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Map>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Description>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private uint <AppId>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <Players>k__BackingField; // 0x2C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <MaxPlayers>k__BackingField; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <BotPlayers>k__BackingField; // 0x34
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <Passworded>k__BackingField; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <Secure>k__BackingField; // 0x39
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private uint <LastTimePlayed>k__BackingField; // 0x3C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <Version>k__BackingField; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <TagString>k__BackingField; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ulong <SteamId>k__BackingField; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private uint <AddressRaw>k__BackingField; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private IPAddress <Address>k__BackingField; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <ConnectionPort>k__BackingField; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <QueryPort>k__BackingField; // 0x6C
 	private string[] _tags; // 0x70
 
@@ -215,178 +215,178 @@ public struct ServerInfo : IEquatable<ServerInfo> // TypeDefIndex: 5557
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	public string get_Name() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF1510 Offset: 0xF0910 VA: 0x1800F1510
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF1490 Offset: 0xF0890 VA: 0x1800F1490
 	public void set_Name(string value) { }
 
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0x122E90 Offset: 0x122290 VA: 0x180122E90
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
 	public int get_Ping() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19DFD0 Offset: 0x19D3D0 VA: 0x18019DFD0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19DF50 Offset: 0x19D350 VA: 0x18019DF50
 	public void set_Ping(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF14F0 Offset: 0xF08F0 VA: 0x1800F14F0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF1470 Offset: 0xF0870 VA: 0x1800F1470
 	public void set_GameDir(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0xF3F70 Offset: 0xF3370 VA: 0x1800F3F70
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0xF3EF0 Offset: 0xF32F0 VA: 0x1800F3EF0
 	public string get_Map() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF1500 Offset: 0xF0900 VA: 0x1800F1500
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF1480 Offset: 0xF0880 VA: 0x1800F1480
 	public void set_Map(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF1560 Offset: 0xF0960 VA: 0x1800F1560
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF14E0 Offset: 0xF08E0 VA: 0x1800F14E0
 	public void set_Description(string value) { }
 
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0xF3F50 Offset: 0xF3350 VA: 0x1800F3F50
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0xF3ED0 Offset: 0xF32D0 VA: 0x1800F3ED0
 	public uint get_AppId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3F80 Offset: 0xF3380 VA: 0x1800F3F80
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3F00 Offset: 0xF3300 VA: 0x1800F3F00
 	public void set_AppId(uint value) { }
 
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0x1D86A0 Offset: 0x1D7AA0 VA: 0x1801D86A0
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0x1D8620 Offset: 0x1D7A20 VA: 0x1801D8620
 	public int get_Players() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D8730 Offset: 0x1D7B30 VA: 0x1801D8730
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D86B0 Offset: 0x1D7AB0 VA: 0x1801D86B0
 	public void set_Players(int value) { }
 
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0x1D10C0 Offset: 0x1D04C0 VA: 0x1801D10C0
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0x1D1040 Offset: 0x1D0440 VA: 0x1801D1040
 	public int get_MaxPlayers() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D8720 Offset: 0x1D7B20 VA: 0x1801D8720
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D86A0 Offset: 0x1D7AA0 VA: 0x1801D86A0
 	public void set_MaxPlayers(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D86F0 Offset: 0x1D7AF0 VA: 0x1801D86F0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D8670 Offset: 0x1D7A70 VA: 0x1801D8670
 	public void set_BotPlayers(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D2830 Offset: 0x1D1C30 VA: 0x1801D2830
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D27B0 Offset: 0x1D1BB0 VA: 0x1801D27B0
 	public void set_Passworded(bool value) { }
 
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0x1D86C0 Offset: 0x1D7AC0 VA: 0x1801D86C0
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0x1D8640 Offset: 0x1D7A40 VA: 0x1801D8640
 	public bool get_Secure() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D8750 Offset: 0x1D7B50 VA: 0x1801D8750
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D86D0 Offset: 0x1D7AD0 VA: 0x1801D86D0
 	public void set_Secure(bool value) { }
 
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0x1D8690 Offset: 0x1D7A90 VA: 0x1801D8690
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0x1D8610 Offset: 0x1D7A10 VA: 0x1801D8610
 	public uint get_LastTimePlayed() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D8710 Offset: 0x1D7B10 VA: 0x1801D8710
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D8690 Offset: 0x1D7A90 VA: 0x1801D8690
 	public void set_LastTimePlayed(uint value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D8770 Offset: 0x1D7B70 VA: 0x1801D8770
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D86F0 Offset: 0x1D7AF0 VA: 0x1801D86F0
 	public void set_Version(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0xFC8A0 Offset: 0xFBCA0 VA: 0x1800FC8A0
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0xFC820 Offset: 0xFBC20 VA: 0x1800FC820
 	public string get_TagString() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF37F0 Offset: 0xF2BF0 VA: 0x1800F37F0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3770 Offset: 0xF2B70 VA: 0x1800F3770
 	public void set_TagString(string value) { }
 
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0x1D86D0 Offset: 0x1D7AD0 VA: 0x1801D86D0
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0x1D8650 Offset: 0x1D7A50 VA: 0x1801D8650
 	public ulong get_SteamId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D8760 Offset: 0x1D7B60 VA: 0x1801D8760
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D86E0 Offset: 0x1D7AE0 VA: 0x1801D86E0
 	public void set_SteamId(ulong value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0x1D8660 Offset: 0x1D7A60 VA: 0x1801D8660
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0x1D85E0 Offset: 0x1D79E0 VA: 0x1801D85E0
 	public uint get_AddressRaw() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D86E0 Offset: 0x1D7AE0 VA: 0x1801D86E0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D8660 Offset: 0x1D7A60 VA: 0x1801D8660
 	public void set_AddressRaw(uint value) { }
 
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0x1D8670 Offset: 0x1D7A70 VA: 0x1801D8670
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0x1D85F0 Offset: 0x1D79F0 VA: 0x1801D85F0
 	public IPAddress get_Address() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3810 Offset: 0xF2C10 VA: 0x1800F3810
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3790 Offset: 0xF2B90 VA: 0x1800F3790
 	public void set_Address(IPAddress value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0x1D8680 Offset: 0x1D7A80 VA: 0x1801D8680
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0x1D8600 Offset: 0x1D7A00 VA: 0x1801D8600
 	public int get_ConnectionPort() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D8700 Offset: 0x1D7B00 VA: 0x1801D8700
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D8680 Offset: 0x1D7A80 VA: 0x1801D8680
 	public void set_ConnectionPort(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0x1D86B0 Offset: 0x1D7AB0 VA: 0x1801D86B0
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0x1D8630 Offset: 0x1D7A30 VA: 0x1801D8630
 	public int get_QueryPort() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D8740 Offset: 0x1D7B40 VA: 0x1801D8740
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D86C0 Offset: 0x1D7AC0 VA: 0x1801D86C0
 	public void set_QueryPort(int value) { }
 
 	// RVA: 0x128F140 Offset: 0x128D740 VA: 0x18128F140
 	internal static ServerInfo From(gameserveritem_t item) { }
 
-	// RVA: 0x1D85A0 Offset: 0x1D79A0 VA: 0x1801D85A0
+	// RVA: 0x1D8520 Offset: 0x1D7920 VA: 0x1801D8520
 	public void .ctor(uint ip, ushort cport, ushort qport, uint timeplayed) { }
 
-	// RVA: 0x1D8050 Offset: 0x1D7450 VA: 0x1801D8050
+	// RVA: 0x1D7FD0 Offset: 0x1D73D0 VA: 0x1801D7FD0
 	public void AddToHistory() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA5D40 Offset: 0xA5140 VA: 0x1800A5D40
-	// RVA: 0x1D8290 Offset: 0x1D7690 VA: 0x1801D8290
+	[AsyncStateMachineAttribute] // RVA: 0xA5DD0 Offset: 0xA51D0 VA: 0x1800A5DD0
+	// RVA: 0x1D8210 Offset: 0x1D7610 VA: 0x1801D8210
 	public Task<Dictionary<string, string>> QueryRulesAsync() { }
 
-	// RVA: 0x1D84B0 Offset: 0x1D78B0 VA: 0x1801D84B0
+	// RVA: 0x1D8430 Offset: 0x1D7830 VA: 0x1801D8430
 	public void RemoveFromHistory() { }
 
-	// RVA: 0x1D7F10 Offset: 0x1D7310 VA: 0x1801D7F10
+	// RVA: 0x1D7E90 Offset: 0x1D7290 VA: 0x1801D7E90
 	public void AddToFavourites() { }
 
-	// RVA: 0x1D83C0 Offset: 0x1D77C0 VA: 0x1801D83C0
+	// RVA: 0x1D8340 Offset: 0x1D7740 VA: 0x1801D8340
 	public void RemoveFromFavourites() { }
 
-	// RVA: 0x1D8190 Offset: 0x1D7590 VA: 0x1801D8190 Slot: 4
+	// RVA: 0x1D8110 Offset: 0x1D7510 VA: 0x1801D8110 Slot: 4
 	public bool Equals(ServerInfo other) { }
 
-	// RVA: 0x1D8280 Offset: 0x1D7680 VA: 0x1801D8280 Slot: 2
+	// RVA: 0x1D8200 Offset: 0x1D7600 VA: 0x1801D8200 Slot: 2
 	public override int GetHashCode() { }
 
 }
@@ -400,11 +400,11 @@ private struct ServerInfo.<QueryRulesAsync>d__85 : IAsyncStateMachine // TypeDef
 
 	// Methods
 
-	// RVA: 0x1DB230 Offset: 0x1DA630 VA: 0x1801DB230 Slot: 4
+	// RVA: 0x1DB1B0 Offset: 0x1DA5B0 VA: 0x1801DB1B0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1DB240 Offset: 0x1DA640 VA: 0x1801DB240 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1DB1C0 Offset: 0x1DA5C0 VA: 0x1801DB1C0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -423,41 +423,41 @@ public enum ServerQuerySet // TypeDefIndex: 5695
 
 public struct ServerInfo // TypeDefIndex: 5701
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly uint <AppId>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly string <Name>k__BackingField; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly IPAddress <Address>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly uint <AddressRaw>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly int <ConnectionPort>k__BackingField; // 0x1C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly int <QueryPort>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly string <Map>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly string <TagString>k__BackingField; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly bool <IsSecure>k__BackingField; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly int <Players>k__BackingField; // 0x3C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly int <MaxPlayers>k__BackingField; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly uint <LastTimePlayed>k__BackingField; // 0x44
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly int <Ping>k__BackingField; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly ulong <SteamId>k__BackingField; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly uint <Born>k__BackingField; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly IReadOnlyList<string> <Tags>k__BackingField; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly string <ConnectionProtocol>k__BackingField; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly string <ConnectionString>k__BackingField; // 0x70
 
 	// Properties
@@ -482,85 +482,85 @@ public struct ServerInfo // TypeDefIndex: 5701
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF37A0 Offset: 0xF2BA0 VA: 0x1800F37A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3720 Offset: 0xF2B20 VA: 0x1800F3720
 	public uint get_AppId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3F40 Offset: 0xF3340 VA: 0x1800F3F40
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3EC0 Offset: 0xF32C0 VA: 0x1800F3EC0
 	public string get_Name() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3F60 Offset: 0xF3360 VA: 0x1800F3F60
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3EE0 Offset: 0xF32E0 VA: 0x1800F3EE0
 	public IPAddress get_Address() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1EF120 Offset: 0x1EE520 VA: 0x1801EF120
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1EF0A0 Offset: 0x1EE4A0 VA: 0x1801EF0A0
 	public uint get_AddressRaw() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1EF130 Offset: 0x1EE530 VA: 0x1801EF130
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1EF0B0 Offset: 0x1EE4B0 VA: 0x1801EF0B0
 	public int get_ConnectionPort() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x12C240 Offset: 0x12B640 VA: 0x18012C240
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x12C1C0 Offset: 0x12B5C0 VA: 0x18012C1C0
 	public int get_QueryPort() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xFC880 Offset: 0xFBC80 VA: 0x1800FC880
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xFC800 Offset: 0xFBC00 VA: 0x1800FC800
 	public string get_Map() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xFCAD0 Offset: 0xFBED0 VA: 0x1800FCAD0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xFCA50 Offset: 0xFBE50 VA: 0x1800FCA50
 	public string get_TagString() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x23F990 Offset: 0x23ED90 VA: 0x18023F990
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x23F910 Offset: 0x23ED10 VA: 0x18023F910
 	public bool get_IsSecure() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D8690 Offset: 0x1D7A90 VA: 0x1801D8690
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D8610 Offset: 0x1D7A10 VA: 0x1801D8610
 	public int get_Players() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xFC890 Offset: 0xFBC90 VA: 0x1800FC890
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xFC810 Offset: 0xFBC10 VA: 0x1800FC810
 	public int get_MaxPlayers() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x23F9A0 Offset: 0x23EDA0 VA: 0x18023F9A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x23F920 Offset: 0x23ED20 VA: 0x18023F920
 	public uint get_LastTimePlayed() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1E0B70 Offset: 0x1DFF70 VA: 0x1801E0B70
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1E0AF0 Offset: 0x1DFEF0 VA: 0x1801E0AF0
 	public int get_Ping() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D86D0 Offset: 0x1D7AD0 VA: 0x1801D86D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D8650 Offset: 0x1D7A50 VA: 0x1801D8650
 	public ulong get_SteamId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D8660 Offset: 0x1D7A60 VA: 0x1801D8660
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D85E0 Offset: 0x1D79E0 VA: 0x1801D85E0
 	public uint get_Born() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D8670 Offset: 0x1D7A70 VA: 0x1801D8670
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D85F0 Offset: 0x1D79F0 VA: 0x1801D85F0
 	public IReadOnlyList<string> get_Tags() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xFC8D0 Offset: 0xFBCD0 VA: 0x1800FC8D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xFC850 Offset: 0xFBC50 VA: 0x1800FC850
 	public string get_ConnectionProtocol() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x141F90 Offset: 0x141390 VA: 0x180141F90
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x141F10 Offset: 0x141310 VA: 0x180141F10
 	public string get_ConnectionString() { }
 
-	// RVA: 0x23F970 Offset: 0x23ED70 VA: 0x18023F970
+	// RVA: 0x23F8F0 Offset: 0x23ECF0 VA: 0x18023F8F0
 	public void .ctor(uint appId, string name, IPAddress address, int connectionPort, int queryPort, string map, string tagString, bool isSecure, int players, int maxPlayers, uint lastTimePlayed, int ping, ulong steamId, int authedPlayers = 2147483647) { }
 
-	// RVA: 0x23004E0 Offset: 0x22FEAE0 VA: 0x1823004E0
+	// RVA: 0x2300320 Offset: 0x22FE920 VA: 0x182300320
 	private static uint AddressToUInt32(IPAddress address) { }
 
-	// RVA: 0x19E20F0 Offset: 0x19E06F0 VA: 0x1819E20F0
+	// RVA: 0x19E20B0 Offset: 0x19E06B0 VA: 0x1819E20B0
 	private static uint Swap(uint x) { }
 
 }
@@ -572,34 +572,34 @@ private sealed class ServerInfo.<>c // TypeDefIndex: 5702
 
 	// Methods
 
-	// RVA: 0x2300CA0 Offset: 0x22FF2A0 VA: 0x182300CA0
+	// RVA: 0x2300AE0 Offset: 0x22FF0E0 VA: 0x182300AE0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2300C50 Offset: 0x22FF250 VA: 0x182300C50
+	// RVA: 0x2300A90 Offset: 0x22FF090 VA: 0x182300A90
 	internal bool <.ctor>b__54_0(string x) { }
 
 }
 
 public struct ServerParameters // TypeDefIndex: 5703
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly string <ShortName>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly string <FullName>k__BackingField; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly string <Version>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly bool <IsSecure>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly bool <HideIP>k__BackingField; // 0x19
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly IPAddress <Address>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly ushort <GamePort>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly ushort <QueryPort>k__BackingField; // 0x2A
 
 	// Properties
@@ -614,39 +614,39 @@ public struct ServerParameters // TypeDefIndex: 5703
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	public string get_ShortName() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3F40 Offset: 0xF3340 VA: 0x1800F3F40
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3EC0 Offset: 0xF32C0 VA: 0x1800F3EC0
 	public string get_FullName() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3F60 Offset: 0xF3360 VA: 0x1800F3F60
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3EE0 Offset: 0xF32E0 VA: 0x1800F3EE0
 	public string get_Version() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x23FB30 Offset: 0x23EF30 VA: 0x18023FB30
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x23FAB0 Offset: 0x23EEB0 VA: 0x18023FAB0
 	public bool get_IsSecure() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x23FB20 Offset: 0x23EF20 VA: 0x18023FB20
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x23FAA0 Offset: 0x23EEA0 VA: 0x18023FAA0
 	public bool get_HideIP() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF37B0 Offset: 0xF2BB0 VA: 0x1800F37B0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3730 Offset: 0xF2B30 VA: 0x1800F3730
 	public IPAddress get_Address() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x23FB10 Offset: 0x23EF10 VA: 0x18023FB10
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x23FA90 Offset: 0x23EE90 VA: 0x18023FA90
 	public ushort get_GamePort() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x23FB40 Offset: 0x23EF40 VA: 0x18023FB40
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x23FAC0 Offset: 0x23EEC0 VA: 0x18023FAC0
 	public ushort get_QueryPort() { }
 
-	// RVA: 0x23F9B0 Offset: 0x23EDB0 VA: 0x18023F9B0
+	// RVA: 0x23F930 Offset: 0x23ED30 VA: 0x18023F930
 	public void .ctor(string shortName, string fullName, string version, bool isSecure, bool hideIP, IPAddress address, ushort gamePort, ushort queryPort = 0) { }
 
 }
@@ -654,9 +654,9 @@ public struct ServerParameters // TypeDefIndex: 5703
 public static class ServerInfoExtensions // TypeDefIndex: 6157
 {	// Methods
 
-	[AsyncStateMachineAttribute] // RVA: 0x9A050 Offset: 0x99450 VA: 0x18009A050
-	[ExtensionAttribute] // RVA: 0x9A050 Offset: 0x99450 VA: 0x18009A050
-	// RVA: 0x2315FC0 Offset: 0x23145C0 VA: 0x182315FC0
+	[AsyncStateMachineAttribute] // RVA: 0x9A100 Offset: 0x99500 VA: 0x18009A100
+	[ExtensionAttribute] // RVA: 0x9A100 Offset: 0x99500 VA: 0x18009A100
+	// RVA: 0x2315E00 Offset: 0x2314400 VA: 0x182315E00
 	public static Task<Dictionary<string, string>> QueryRulesAsync(ServerInfo server) { }
 
 }
@@ -670,18 +670,18 @@ private struct ServerInfoExtensions.<QueryRulesAsync>d__0 : IAsyncStateMachine /
 
 	// Methods
 
-	// RVA: 0x240B80 Offset: 0x23FF80 VA: 0x180240B80 Slot: 4
+	// RVA: 0x240B00 Offset: 0x23FF00 VA: 0x180240B00 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x240B90 Offset: 0x23FF90 VA: 0x180240B90 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x240B10 Offset: 0x23FF10 VA: 0x180240B10 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 public static class ServerListMetadata // TypeDefIndex: 6211
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static DateTimeOffset <LastDownloaded>k__BackingField; // 0x3650
 
 	// Properties
@@ -689,11 +689,11 @@ public static class ServerListMetadata // TypeDefIndex: 6211
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B8E70 Offset: 0x14B7470 VA: 0x1814B8E70
 	public static DateTimeOffset get_LastDownloaded() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B8EC0 Offset: 0x14B74C0 VA: 0x1814B8EC0
 	private static void set_LastDownloaded(DateTimeOffset value) { }
 
@@ -709,7 +709,7 @@ public static class ServerListMetadata // TypeDefIndex: 6211
 	// RVA: 0x14B86F0 Offset: 0x14B6CF0 VA: 0x1814B86F0
 	private static void OnUpdated(Dictionary<IPEndPoint, int> metadata) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B8B90 Offset: 0x14B7190 VA: 0x1814B8B90
 	internal static bool <LoadMetadata>g__TryParseIPEndPoint|6_0(string value, out IPEndPoint endPoint) { }
 
@@ -741,13 +741,13 @@ public class ServerGib : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6330
 
 	// Methods
 
-	// RVA: 0x1E083F0 Offset: 0x1E069F0 VA: 0x181E083F0
+	// RVA: 0x1E08230 Offset: 0x1E06830 VA: 0x181E08230
 	public static void ResetToPool(ServerGib instance) { }
 
-	// RVA: 0x1E08360 Offset: 0x1E06960 VA: 0x181E08360
+	// RVA: 0x1E081A0 Offset: 0x1E067A0 VA: 0x181E081A0
 	public void ResetToPool() { }
 
-	// RVA: 0x1E08210 Offset: 0x1E06810 VA: 0x181E08210 Slot: 9
+	// RVA: 0x1E08050 Offset: 0x1E06650 VA: 0x181E08050 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -756,64 +756,64 @@ public class ServerGib : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6330
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D67D50 Offset: 0x1D66350 VA: 0x181D67D50
+	// RVA: 0x1D67B90 Offset: 0x1D66190 VA: 0x181D67B90
 	public void CopyTo(ServerGib instance) { }
 
-	// RVA: 0x1E07870 Offset: 0x1E05E70 VA: 0x181E07870
+	// RVA: 0x1E076B0 Offset: 0x1E05CB0 VA: 0x181E076B0
 	public ServerGib Copy() { }
 
-	// RVA: 0x1E08190 Offset: 0x1E06790 VA: 0x181E08190
+	// RVA: 0x1E07FD0 Offset: 0x1E065D0 VA: 0x181E07FD0
 	public static ServerGib Deserialize(Stream stream) { }
 
-	// RVA: 0x1E07B10 Offset: 0x1E06110 VA: 0x181E07B10
+	// RVA: 0x1E07950 Offset: 0x1E05F50 VA: 0x181E07950
 	public static ServerGib DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E07B90 Offset: 0x1E06190 VA: 0x181E07B90
+	// RVA: 0x1E079D0 Offset: 0x1E05FD0 VA: 0x181E079D0
 	public static ServerGib DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E07E20 Offset: 0x1E06420 VA: 0x181E07E20
+	// RVA: 0x1E07C60 Offset: 0x1E06260 VA: 0x181E07C60
 	public static ServerGib Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E08320 Offset: 0x1E06920 VA: 0x181E08320
+	// RVA: 0x1E08160 Offset: 0x1E06760 VA: 0x181E08160
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E08860 Offset: 0x1E06E60 VA: 0x181E08860 Slot: 12
+	// RVA: 0x1E086A0 Offset: 0x1E06CA0 VA: 0x181E086A0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E08880 Offset: 0x1E06E80 VA: 0x181E08880 Slot: 13
+	// RVA: 0x1E086C0 Offset: 0x1E06CC0 VA: 0x181E086C0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ServerGib previous) { }
 
-	// RVA: 0x1E08340 Offset: 0x1E06940 VA: 0x181E08340 Slot: 14
+	// RVA: 0x1E08180 Offset: 0x1E06780 VA: 0x181E08180 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E08090 Offset: 0x1E06690 VA: 0x181E08090
+	// RVA: 0x1E07ED0 Offset: 0x1E064D0 VA: 0x181E07ED0
 	public static ServerGib Deserialize(byte[] buffer, ServerGib instance, bool isDelta = False) { }
 
-	// RVA: 0x1E07F40 Offset: 0x1E06540 VA: 0x181E07F40
+	// RVA: 0x1E07D80 Offset: 0x1E06380 VA: 0x181E07D80
 	public static ServerGib Deserialize(Stream stream, ServerGib instance, bool isDelta) { }
 
-	// RVA: 0x1E078F0 Offset: 0x1E05EF0 VA: 0x181E078F0
+	// RVA: 0x1E07730 Offset: 0x1E05D30 VA: 0x181E07730
 	public static ServerGib DeserializeLengthDelimited(Stream stream, ServerGib instance, bool isDelta) { }
 
-	// RVA: 0x1E07C20 Offset: 0x1E06220 VA: 0x181E07C20
+	// RVA: 0x1E07A60 Offset: 0x1E06060 VA: 0x181E07A60
 	public static ServerGib DeserializeLength(Stream stream, int length, ServerGib instance, bool isDelta) { }
 
-	// RVA: 0x1E08480 Offset: 0x1E06A80 VA: 0x181E08480
+	// RVA: 0x1E082C0 Offset: 0x1E068C0 VA: 0x181E082C0
 	public static void SerializeDelta(Stream stream, ServerGib instance, ServerGib previous) { }
 
-	// RVA: 0x1E08760 Offset: 0x1E06D60 VA: 0x181E08760
+	// RVA: 0x1E085A0 Offset: 0x1E06BA0 VA: 0x181E085A0
 	public static void Serialize(Stream stream, ServerGib instance) { }
 
-	// RVA: 0x1E08850 Offset: 0x1E06E50 VA: 0x181E08850
+	// RVA: 0x1E08690 Offset: 0x1E06C90 VA: 0x181E08690
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E08860 Offset: 0x1E06E60 VA: 0x181E08860
+	// RVA: 0x1E086A0 Offset: 0x1E06CA0 VA: 0x181E086A0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E08650 Offset: 0x1E06C50 VA: 0x181E08650
+	// RVA: 0x1E08490 Offset: 0x1E06A90 VA: 0x181E08490
 	public static byte[] SerializeToBytes(ServerGib instance) { }
 
-	// RVA: 0x1E085A0 Offset: 0x1E06BA0 VA: 0x181E085A0
+	// RVA: 0x1E083E0 Offset: 0x1E069E0 VA: 0x181E083E0
 	public static void SerializeLengthDelimited(Stream stream, ServerGib instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -848,13 +848,13 @@ public abstract class Server : BaseNetwork // TypeDefIndex: 6703
 	// RVA: -1 Offset: -1 Slot: 7
 	public abstract bool IsConnected();
 
-	// RVA: 0x2214670 Offset: 0x2212C70 VA: 0x182214670 Slot: 8
+	// RVA: 0x22144B0 Offset: 0x2212AB0 VA: 0x1822144B0 Slot: 8
 	public virtual string get_ProtocolId() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 9
 	public virtual bool get_AllowPassthroughMessages() { }
 
-	// RVA: 0x2214450 Offset: 0x2212A50 VA: 0x182214450
+	// RVA: 0x2214290 Offset: 0x2212890 VA: 0x182214290
 	public void Reset() { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 10
@@ -872,43 +872,43 @@ public abstract class Server : BaseNetwork // TypeDefIndex: 6703
 	// RVA: -1 Offset: -1 Slot: 14
 	public abstract void Kick(Connection cn, string message, bool logfile = False);
 
-	// RVA: 0x2214460 Offset: 0x2212A60 VA: 0x182214460
+	// RVA: 0x22142A0 Offset: 0x22128A0 VA: 0x1822142A0
 	public uint TakeUID() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void ReturnUID(uint uid) { }
 
-	// RVA: 0x22142C0 Offset: 0x22128C0 VA: 0x1822142C0
+	// RVA: 0x2214100 Offset: 0x2212700 VA: 0x182214100
 	public void RegisterUID(uint uid) { }
 
-	// RVA: 0x2214450 Offset: 0x2212A50 VA: 0x182214450
+	// RVA: 0x2214290 Offset: 0x2212890 VA: 0x182214290
 	internal void ResetUIDs() { }
 
-	// RVA: 0x2213B60 Offset: 0x2212160 VA: 0x182213B60
+	// RVA: 0x22139A0 Offset: 0x2211FA0 VA: 0x1822139A0
 	public Networkable CreateNetworkable() { }
 
-	// RVA: 0x2213AC0 Offset: 0x22120C0 VA: 0x182213AC0
+	// RVA: 0x2213900 Offset: 0x2211F00 VA: 0x182213900
 	public Networkable CreateNetworkable(uint uid) { }
 
-	// RVA: 0x2213C70 Offset: 0x2212270 VA: 0x182213C70
+	// RVA: 0x2213AB0 Offset: 0x22120B0 VA: 0x182213AB0
 	public void DestroyNetworkable(ref Networkable networkable) { }
 
-	// RVA: 0x2213DD0 Offset: 0x22123D0 VA: 0x182213DD0
+	// RVA: 0x2213C10 Offset: 0x2212210 VA: 0x182213C10
 	protected void OnDisconnected(string strReason, Connection cn) { }
 
-	// RVA: 0x2213D00 Offset: 0x2212300 VA: 0x182213D00
+	// RVA: 0x2213B40 Offset: 0x2212140 VA: 0x182213B40
 	protected Connection FindConnection(ulong guid) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 15
 	protected virtual void OnNewConnection() { }
 
-	// RVA: 0x2213D80 Offset: 0x2212380 VA: 0x182213D80
+	// RVA: 0x2213BC0 Offset: 0x22121C0 VA: 0x182213BC0
 	private string IPAddressWithoutPort(string address) { }
 
-	// RVA: 0x2213FF0 Offset: 0x22125F0 VA: 0x182213FF0 Slot: 16
+	// RVA: 0x2213E30 Offset: 0x2212430 VA: 0x182213E30 Slot: 16
 	protected virtual void OnNewConnection(Connection connection) { }
 
-	// RVA: 0x22142D0 Offset: 0x22128D0 VA: 0x1822142D0
+	// RVA: 0x2214110 Offset: 0x2212710 VA: 0x182214110
 	protected void RemoveConnection(Connection connection) { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 17
@@ -917,10 +917,10 @@ public abstract class Server : BaseNetwork // TypeDefIndex: 6703
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 18
 	public virtual void SendUnconnected(uint netAddr, ushort netPort, byte[] steamResponseBuffer, int packetSize) { }
 
-	// RVA: 0x2214580 Offset: 0x2212B80 VA: 0x182214580
+	// RVA: 0x22143C0 Offset: 0x22129C0 VA: 0x1822143C0
 	protected void .ctor() { }
 
-	// RVA: 0x2214500 Offset: 0x2212B00 VA: 0x182214500
+	// RVA: 0x2214340 Offset: 0x2212940 VA: 0x182214340
 	private static void .cctor() { }
 
 }
@@ -928,7 +928,7 @@ public abstract class Server : BaseNetwork // TypeDefIndex: 6703
 public class ServerVar : ConsoleVar // TypeDefIndex: 6891
 {	// Methods
 
-	// RVA: 0x22B5740 Offset: 0x22B3D40 VA: 0x1822B5740
+	// RVA: 0x22B5580 Offset: 0x22B3B80 VA: 0x1822B5580
 	public void .ctor() { }
 
 }
@@ -936,7 +936,7 @@ public class ServerVar : ConsoleVar // TypeDefIndex: 6891
 public class ServerUserVar : ConsoleVar // TypeDefIndex: 6892
 {	// Methods
 
-	// RVA: 0x22B5720 Offset: 0x22B3D20 VA: 0x1822B5720
+	// RVA: 0x22B5560 Offset: 0x22B3B60 VA: 0x1822B5560
 	public void .ctor() { }
 
 }
@@ -944,7 +944,7 @@ public class ServerUserVar : ConsoleVar // TypeDefIndex: 6892
 public class ServerAllVar : ConsoleVar // TypeDefIndex: 6893
 {	// Methods
 
-	// RVA: 0x22B5700 Offset: 0x22B3D00 VA: 0x1822B5700
+	// RVA: 0x22B5540 Offset: 0x22B3B40 VA: 0x1822B5540
 	public void .ctor() { }
 
 }
@@ -959,7 +959,7 @@ public class Server : Server // TypeDefIndex: 7333
 
 	// Methods
 
-	// RVA: 0x22D1330 Offset: 0x22CF930 VA: 0x1822D1330 Slot: 8
+	// RVA: 0x22D1170 Offset: 0x22CF770 VA: 0x1822D1170 Slot: 8
 	public override string get_ProtocolId() { }
 
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 9
@@ -968,52 +968,52 @@ public class Server : Server // TypeDefIndex: 7333
 	// RVA: 0xEE6D10 Offset: 0xEE5310 VA: 0x180EE6D10 Slot: 7
 	public override bool IsConnected() { }
 
-	// RVA: 0x22D0F20 Offset: 0x22CF520 VA: 0x1822D0F20 Slot: 10
+	// RVA: 0x22D0D60 Offset: 0x22CF360 VA: 0x1822D0D60 Slot: 10
 	public override bool Start() { }
 
-	// RVA: 0x22D0FB0 Offset: 0x22CF5B0 VA: 0x1822D0FB0 Slot: 11
+	// RVA: 0x22D0DF0 Offset: 0x22CF3F0 VA: 0x1822D0DF0 Slot: 11
 	public override void Stop(string shutdownMsg) { }
 
-	// RVA: 0x22D0470 Offset: 0x22CEA70 VA: 0x1822D0470 Slot: 13
+	// RVA: 0x22D02B0 Offset: 0x22CE8B0 VA: 0x1822D02B0 Slot: 13
 	public override void Disconnect(Connection cn) { }
 
-	// RVA: 0x22D0810 Offset: 0x22CEE10 VA: 0x1822D0810 Slot: 14
+	// RVA: 0x22D0650 Offset: 0x22CEC50 VA: 0x1822D0650 Slot: 14
 	public override void Kick(Connection cn, string message, bool logfile) { }
 
-	// RVA: 0x22D05C0 Offset: 0x22CEBC0 VA: 0x1822D05C0
+	// RVA: 0x22D0400 Offset: 0x22CEA00 VA: 0x1822D0400
 	internal bool HandleRaknetPacket(byte type, Connection connection) { }
 
-	// RVA: 0x22D1110 Offset: 0x22CF710 VA: 0x1822D1110
+	// RVA: 0x22D0F50 Offset: 0x22CF550 VA: 0x1822D0F50
 	internal void UnconnectedPacket() { }
 
-	// RVA: 0x22CFE50 Offset: 0x22CE450 VA: 0x1822CFE50
+	// RVA: 0x22CFC90 Offset: 0x22CE290 VA: 0x1822CFC90
 	internal void ConnectedPacket(Connection connection) { }
 
-	// RVA: 0x22D00E0 Offset: 0x22CE6E0 VA: 0x1822D00E0 Slot: 12
+	// RVA: 0x22CFF20 Offset: 0x22CE520 VA: 0x1822CFF20 Slot: 12
 	public override void Cycle() { }
 
-	// RVA: 0x22D09F0 Offset: 0x22CEFF0 VA: 0x1822D09F0 Slot: 15
+	// RVA: 0x22D0830 Offset: 0x22CEE30 VA: 0x1822D0830 Slot: 15
 	protected override void OnNewConnection() { }
 
-	// RVA: 0x22D0510 Offset: 0x22CEB10 VA: 0x1822D0510 Slot: 5
+	// RVA: 0x22D0350 Offset: 0x22CE950 VA: 0x1822D0350 Slot: 5
 	public override string GetDebug(Connection connection) { }
 
-	// RVA: 0x22D04D0 Offset: 0x22CEAD0 VA: 0x1822D04D0 Slot: 17
+	// RVA: 0x22D0310 Offset: 0x22CE910 VA: 0x1822D0310 Slot: 17
 	public override int GetAveragePing(Connection connection) { }
 
-	// RVA: 0x22D05A0 Offset: 0x22CEBA0 VA: 0x1822D05A0 Slot: 6
+	// RVA: 0x22D03E0 Offset: 0x22CE9E0 VA: 0x1822D03E0 Slot: 6
 	public override ulong GetStat(Connection connection, BaseNetwork.StatTypeLong type) { }
 
-	// RVA: 0x22D0AF0 Offset: 0x22CF0F0 VA: 0x1822D0AF0 Slot: 18
+	// RVA: 0x22D0930 Offset: 0x22CEF30 VA: 0x1822D0930 Slot: 18
 	public override void SendUnconnected(uint netAddr, ushort netPort, byte[] data, int size) { }
 
-	// RVA: 0x22D0D40 Offset: 0x22CF340 VA: 0x1822D0D40 Slot: 4
+	// RVA: 0x22D0B80 Offset: 0x22CF180 VA: 0x1822D0B80 Slot: 4
 	public override void Send(SendInfo sendinfo, MemoryStream data) { }
 
-	// RVA: 0x22D0BE0 Offset: 0x22CF1E0 VA: 0x1822D0BE0
+	// RVA: 0x22D0A20 Offset: 0x22CF020 VA: 0x1822D0A20
 	private void Send(SendInfo sendinfo, MemoryStream data, Connection connection) { }
 
-	// RVA: 0x22D12D0 Offset: 0x22CF8D0 VA: 0x1822D12D0
+	// RVA: 0x22D1110 Offset: 0x22CF710 VA: 0x1822D1110
 	public void .ctor() { }
 
 }
@@ -1245,7 +1245,7 @@ public class ServerBrowserInfo : SingletonComponent<ServerBrowserInfo> // TypeDe
 	// RVA: 0x58D110 Offset: 0x58B710 VA: 0x18058D110
 	public void Refresh() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9A0C0 Offset: 0x994C0 VA: 0x18009A0C0
+	[AsyncStateMachineAttribute] // RVA: 0x9A200 Offset: 0x99600 VA: 0x18009A200
 	// RVA: 0x58D040 Offset: 0x58B640 VA: 0x18058D040
 	private void QueryRules() { }
 
@@ -1271,11 +1271,11 @@ private struct ServerBrowserInfo.<QueryRules>d__19 : IAsyncStateMachine // TypeD
 
 	// Methods
 
-	// RVA: 0xF33B0 Offset: 0xF27B0 VA: 0x1800F33B0 Slot: 4
+	// RVA: 0xF3330 Offset: 0xF2730 VA: 0x1800F3330 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF15B0 Offset: 0xF09B0 VA: 0x1800F15B0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF1530 Offset: 0xF0930 VA: 0x1800F1530 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -1602,7 +1602,7 @@ public class ServerBrowserTag : MonoBehaviour // TypeDefIndex: 11164
 	public Color activeColor; // 0x2C
 	public Color inactiveColor; // 0x3C
 	public Image background; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IsActive>k__BackingField; // 0x58
 
 	// Properties
@@ -1610,11 +1610,11 @@ public class ServerBrowserTag : MonoBehaviour // TypeDefIndex: 11164
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x592630 Offset: 0x590C30 VA: 0x180592630
 	public bool get_IsActive() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x592640 Offset: 0x590C40 VA: 0x180592640
 	private void set_IsActive(bool value) { }
 
@@ -1718,7 +1718,7 @@ public class ServerHistory : MonoBehaviour // TypeDefIndex: 11168
 	// RVA: 0x593E20 Offset: 0x592420 VA: 0x180593E20
 	private void Start() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9AE90 Offset: 0x9A290 VA: 0x18009AE90
+	[AsyncStateMachineAttribute] // RVA: 0x9AFD0 Offset: 0x9A3D0 VA: 0x18009AFD0
 	// RVA: 0x593E20 Offset: 0x592420 VA: 0x180593E20
 	public Task Refresh() { }
 
@@ -1739,11 +1739,11 @@ private struct ServerHistory.<Refresh>d__4 : IAsyncStateMachine // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0xF3490 Offset: 0xF2890 VA: 0x1800F3490 Slot: 4
+	// RVA: 0xF3410 Offset: 0xF2810 VA: 0x1800F3410 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -1790,11 +1790,11 @@ public class ServerHistoryItem : MonoBehaviour // TypeDefIndex: 11171
 public static class ServerInfoHelpers // TypeDefIndex: 11172
 {	// Methods
 
-	[AsyncStateMachineAttribute] // RVA: 0x9B3B0 Offset: 0x9A7B0 VA: 0x18009B3B0
+	[AsyncStateMachineAttribute] // RVA: 0x9B440 Offset: 0x9A840 VA: 0x18009B440
 	// RVA: 0x594050 Offset: 0x592650 VA: 0x180594050
 	public static Task<Nullable<ServerInfo>> Load(string address, int port) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9B400 Offset: 0x9A800 VA: 0x18009B400
+	[AsyncStateMachineAttribute] // RVA: 0x9B490 Offset: 0x9A890 VA: 0x18009B490
 	// RVA: 0x593F10 Offset: 0x592510 VA: 0x180593F10
 	public static Task<Dictionary<string, string>> LoadRules(ServerInfo serverInfo) { }
 
@@ -1813,11 +1813,11 @@ private struct ServerInfoHelpers.<Load>d__0 : IAsyncStateMachine // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0xF3350 Offset: 0xF2750 VA: 0x1800F3350 Slot: 4
+	// RVA: 0xF32D0 Offset: 0xF26D0 VA: 0x1800F32D0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3360 Offset: 0xF2760 VA: 0x1800F3360 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF32E0 Offset: 0xF26E0 VA: 0x1800F32E0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -1834,11 +1834,11 @@ private struct ServerInfoHelpers.<LoadRules>d__1 : IAsyncStateMachine // TypeDef
 
 	// Methods
 
-	// RVA: 0xF32F0 Offset: 0xF26F0 VA: 0x1800F32F0 Slot: 4
+	// RVA: 0xF3270 Offset: 0xF2670 VA: 0x1800F3270 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3300 Offset: 0xF2700 VA: 0x1800F3300 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3280 Offset: 0xF2680 VA: 0x1800F3280 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -1852,205 +1852,205 @@ public static class Server // TypeDefIndex: 11651
 
 public class Server : ConsoleSystem // TypeDefIndex: 11960
 {	// Fields
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static string ip; // 0x0
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int port; // 0x8
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int queryport; // 0xC
-	[ServerVar] // RVA: 0xB4620 Offset: 0xB3A20 VA: 0x1800B4620
+	[ServerVar] // RVA: 0xB4720 Offset: 0xB3B20 VA: 0x1800B4720
 	public static int maxplayers; // 0x10
-	[ServerVar] // RVA: 0xB4620 Offset: 0xB3A20 VA: 0x1800B4620
+	[ServerVar] // RVA: 0xB4720 Offset: 0xB3B20 VA: 0x1800B4720
 	public static string hostname; // 0x18
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static string identity; // 0x20
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static string level; // 0x28
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static string levelurl; // 0x30
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool leveltransfer; // 0x38
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int seed; // 0x3C
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int salt; // 0x40
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int worldsize; // 0x44
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int saveinterval; // 0x48
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool secure; // 0x4C
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int encryption; // 0x50
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int tickrate; // 0x54
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int entityrate; // 0x58
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float schematime; // 0x5C
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float cycletime; // 0x60
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool official; // 0x64
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool stats; // 0x65
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool globalchat; // 0x66
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool stability; // 0x67
-	[ServerVar] // RVA: 0xB4620 Offset: 0xB3A20 VA: 0x1800B4620
+	[ServerVar] // RVA: 0xB4720 Offset: 0xB3B20 VA: 0x1800B4720
 	public static bool radiation; // 0x68
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float itemdespawn; // 0x6C
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float itemdespawn_quick; // 0x70
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float corpsedespawn; // 0x74
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float debrisdespawn; // 0x78
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool pve; // 0x7C
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool cinematic; // 0x7D
-	[ServerVar] // RVA: 0xB4620 Offset: 0xB3A20 VA: 0x1800B4620
+	[ServerVar] // RVA: 0xB4720 Offset: 0xB3B20 VA: 0x1800B4720
 	public static string description; // 0x80
-	[ServerVar] // RVA: 0xB4620 Offset: 0xB3A20 VA: 0x1800B4620
+	[ServerVar] // RVA: 0xB4720 Offset: 0xB3B20 VA: 0x1800B4720
 	public static string url; // 0x88
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static string branch; // 0x90
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int queriesPerSecond; // 0x98
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int ipQueriesPerMin; // 0x9C
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool statBackup; // 0xA0
-	[ServerVar] // RVA: 0xB8940 Offset: 0xB7D40 VA: 0x1800B8940
+	[ServerVar] // RVA: 0xB8A10 Offset: 0xB7E10 VA: 0x1800B8A10
 	public static string headerimage; // 0xA8
-	[ServerVar] // RVA: 0xB8940 Offset: 0xB7D40 VA: 0x1800B8940
+	[ServerVar] // RVA: 0xB8A10 Offset: 0xB7E10 VA: 0x1800B8A10
 	public static string logoimage; // 0xB0
-	[ServerVar] // RVA: 0xB8940 Offset: 0xB7D40 VA: 0x1800B8940
+	[ServerVar] // RVA: 0xB8A10 Offset: 0xB7E10 VA: 0x1800B8A10
 	public static int saveBackupCount; // 0xB8
-	[ReplicatedVar] // RVA: 0xB8AA0 Offset: 0xB7EA0 VA: 0x1800B8AA0
+	[ReplicatedVar] // RVA: 0xB8B40 Offset: 0xB7F40 VA: 0x1800B8B40
 	public static string motd; // 0xC0
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float meleedamage; // 0xC8
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float arrowdamage; // 0xCC
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float bulletdamage; // 0xD0
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float bleedingdamage; // 0xD4
-	[ReplicatedVar] // RVA: 0x858A0 Offset: 0x84CA0 VA: 0x1800858A0
+	[ReplicatedVar] // RVA: 0x85960 Offset: 0x84D60 VA: 0x180085960
 	public static float funWaterDamageThreshold; // 0xD8
-	[ReplicatedVar] // RVA: 0x858A0 Offset: 0x84CA0 VA: 0x1800858A0
+	[ReplicatedVar] // RVA: 0x85960 Offset: 0x84D60 VA: 0x180085960
 	public static float funWaterWetnessGain; // 0xDC
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float meleearmor; // 0xE0
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float arrowarmor; // 0xE4
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float bulletarmor; // 0xE8
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float bleedingarmor; // 0xEC
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int updatebatch; // 0xF0
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int updatebatchspawn; // 0xF4
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int entitybatchsize; // 0xF8
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float entitybatchtime; // 0xFC
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float composterUpdateInterval; // 0x100
-	[ReplicatedVar] // RVA: 0xA99C0 Offset: 0xA8DC0 VA: 0x1800A99C0
+	[ReplicatedVar] // RVA: 0xA9A10 Offset: 0xA8E10 VA: 0x1800A9A10
 	public static float planttick; // 0x104
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float planttickscale; // 0x108
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool useMinimumPlantCondition; // 0x10C
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float nonPlanterDeathChancePerTick; // 0x110
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float ceilingLightGrowableRange; // 0x114
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float artificialTemperatureGrowableRange; // 0x118
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float ceilingLightHeightOffset; // 0x11C
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float sprinklerRadius; // 0x120
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float sprinklerEyeHeightOffset; // 0x124
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float optimalPlanterQualitySaturation; // 0x128
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float metabolismtick; // 0x12C
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float modifierTickRate; // 0x130
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static float rewounddelay; // 0x134
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static bool woundingenabled; // 0x138
-	[ServerVar] // RVA: 0xB9EF0 Offset: 0xB92F0 VA: 0x1800B9EF0
+	[ServerVar] // RVA: 0xBA030 Offset: 0xB9430 VA: 0x1800BA030
 	public static float woundedrecoverchance; // 0x13C
-	[ServerVar] // RVA: 0xBA020 Offset: 0xB9420 VA: 0x1800BA020
-	public static float incapacitatedrecoverchance; // 0x140
 	[ServerVar] // RVA: 0xBB410 Offset: 0xBA810 VA: 0x1800BB410
+	public static float incapacitatedrecoverchance; // 0x140
+	[ServerVar] // RVA: 0xBB500 Offset: 0xBA900 VA: 0x1800BB500
 	public static float woundedmaxfoodandwaterbonus; // 0x144
-	[ServerVar] // RVA: 0xBB5B0 Offset: 0xBA9B0 VA: 0x1800BB5B0
+	[ServerVar] // RVA: 0xBB6D0 Offset: 0xBAAD0 VA: 0x1800BB6D0
 	public static int crawlingminimumhealth; // 0x148
-	[ServerVar] // RVA: 0xBB750 Offset: 0xBAB50 VA: 0x1800BB750
+	[ServerVar] // RVA: 0xBB7F0 Offset: 0xBABF0 VA: 0x1800BB7F0
 	public static int crawlingmaximumhealth; // 0x14C
-	[ServerVar] // RVA: 0xB8B00 Offset: 0xB7F00 VA: 0x1800B8B00
+	[ServerVar] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	public static bool playerserverfall; // 0x150
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool plantlightdetection; // 0x151
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float respawnresetrange; // 0x154
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int maxunack; // 0x158
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool netcache; // 0x15C
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool corpses; // 0x15D
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool events; // 0x15E
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static bool dropitems; // 0x15F
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int netcachesize; // 0x160
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int savecachesize; // 0x164
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int combatlogsize; // 0x168
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int combatlogdelay; // 0x16C
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int authtimeout; // 0x170
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int playertimeout; // 0x174
-	[ServerVar] // RVA: 0xB4620 Offset: 0xB3A20 VA: 0x1800B4620
+	[ServerVar] // RVA: 0xB4720 Offset: 0xB3B20 VA: 0x1800B4720
 	public static int idlekick; // 0x178
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int idlekickmode; // 0x17C
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static int idlekickadmins; // 0x180
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static string gamemode; // 0x188
-	[ServerVar] // RVA: 0xBC440 Offset: 0xBB840 VA: 0x1800BC440
+	[ServerVar] // RVA: 0xBC620 Offset: 0xBBA20 VA: 0x1800BC620
 	public static string tags; // 0x190
-	[ServerVar] // RVA: 0xBC760 Offset: 0xBBB60 VA: 0x1800BC760
+	[ServerVar] // RVA: 0xBC830 Offset: 0xBBC30 VA: 0x1800BC830
 	public static bool censorplayerlist; // 0x198
-	[ServerVar] // RVA: 0xBDB20 Offset: 0xBCF20 VA: 0x1800BDB20
+	[ServerVar] // RVA: 0xBDD10 Offset: 0xBD110 VA: 0x1800BDD10
 	public static string bansServerEndpoint; // 0x1A0
-	[ServerVar] // RVA: 0xBDCB0 Offset: 0xBD0B0 VA: 0x1800BDCB0
+	[ServerVar] // RVA: 0xBDD50 Offset: 0xBD150 VA: 0x1800BDD50
 	public static int bansServerFailureMode; // 0x1A8
-	[ServerVar] // RVA: 0xBDD40 Offset: 0xBD140 VA: 0x1800BDD40
+	[ServerVar] // RVA: 0xBDDE0 Offset: 0xBD1E0 VA: 0x1800BDDE0
 	public static int bansServerTimeout; // 0x1AC
-	[ServerVar] // RVA: 0xBDE20 Offset: 0xBD220 VA: 0x1800BDE20
+	[ServerVar] // RVA: 0xBDF40 Offset: 0xBD340 VA: 0x1800BDF40
 	public static string reportsServerEndpoint; // 0x1B0
-	[ServerVar] // RVA: 0xBDF90 Offset: 0xBD390 VA: 0x1800BDF90
+	[ServerVar] // RVA: 0xBE0B0 Offset: 0xBD4B0 VA: 0x1800BE0B0
 	public static string reportsServerEndpointKey; // 0x1B8
-	[ServerVar] // RVA: 0xBE100 Offset: 0xBD500 VA: 0x1800BE100
+	[ServerVar] // RVA: 0xBE220 Offset: 0xBD620 VA: 0x1800BE220
 	public static bool printReportsToConsole; // 0x1C0
 
 	// Methods

@@ -1,9 +1,9 @@
 public class Stack : ICollection, IEnumerable, ICloneable // TypeDefIndex: 1423
 {
 // Namespace: System.Collections
-[DebuggerDisplayAttribute] // RVA: 0xEA180 Offset: 0xE9580 VA: 0x1800EA180
-[DebuggerTypeProxyAttribute] // RVA: 0xEA180 Offset: 0xE9580 VA: 0x1800EA180
-[ComVisibleAttribute] // RVA: 0xEA180 Offset: 0xE9580 VA: 0x1800EA180
+[DebuggerDisplayAttribute] // RVA: 0xEA140 Offset: 0xE9540 VA: 0x1800EA140
+[DebuggerTypeProxyAttribute] // RVA: 0xEA140 Offset: 0xE9540 VA: 0x1800EA140
+[ComVisibleAttribute] // RVA: 0xEA140 Offset: 0xE9540 VA: 0x1800EA140
 [Serializable]
 public class Stack : ICollection, IEnumerable, ICloneable // TypeDefIndex: 1423
 	// Fields
@@ -99,19 +99,19 @@ public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 	internal void .ctor(Stack<T> stack) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x22F6E0 Offset: 0x22EAE0 VA: 0x18022F6E0
+	|-RVA: 0x22F660 Offset: 0x22EA60 VA: 0x18022F660
 	|-Stack.Enumerator<KeyValuePair<int, int>>..ctor
 	|-Stack.Enumerator<IntPtr>..ctor
 	|-Stack.Enumerator<object>..ctor
 	|-Stack.Enumerator<Vector2>..ctor
 	|
-	|-RVA: 0x22F7E0 Offset: 0x22EBE0 VA: 0x18022F7E0
+	|-RVA: 0x22F760 Offset: 0x22EB60 VA: 0x18022F760
 	|-Stack.Enumerator<SequenceNode.SequenceConstructPosContext>..ctor
 	|
-	|-RVA: 0x22F780 Offset: 0x22EB80 VA: 0x18022F780
+	|-RVA: 0x22F700 Offset: 0x22EB00 VA: 0x18022F700
 	|-Stack.Enumerator<Matrix4x4>..ctor
 	|
-	|-RVA: 0x22F730 Offset: 0x22EB30 VA: 0x18022F730
+	|-RVA: 0x22F6B0 Offset: 0x22EAB0 VA: 0x18022F6B0
 	|-Stack.Enumerator<EventDispatcher.DispatchContext>..ctor
 	*/
 
@@ -119,7 +119,7 @@ public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x22E940 Offset: 0x22DD40 VA: 0x18022E940
+	|-RVA: 0x22E8C0 Offset: 0x22DCC0 VA: 0x18022E8C0
 	|-Stack.Enumerator<Poolable>.Dispose
 	|-Stack.Enumerator<KeyValuePair<int, int>>.Dispose
 	|-Stack.Enumerator<IntPtr>.Dispose
@@ -135,27 +135,27 @@ public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x22EBB0 Offset: 0x22DFB0 VA: 0x18022EBB0
+	|-RVA: 0x22EB30 Offset: 0x22DF30 VA: 0x18022EB30
 	|-Stack.Enumerator<Poolable>.MoveNext
 	|-Stack.Enumerator<object>.MoveNext
 	|-Stack.Enumerator<Object>.MoveNext
 	|
-	|-RVA: 0x22ECD0 Offset: 0x22E0D0 VA: 0x18022ECD0
+	|-RVA: 0x22EC50 Offset: 0x22E050 VA: 0x18022EC50
 	|-Stack.Enumerator<KeyValuePair<int, int>>.MoveNext
 	|
-	|-RVA: 0x22EAA0 Offset: 0x22DEA0 VA: 0x18022EAA0
+	|-RVA: 0x22EA20 Offset: 0x22DE20 VA: 0x18022EA20
 	|-Stack.Enumerator<IntPtr>.MoveNext
 	|
-	|-RVA: 0x22EDE0 Offset: 0x22E1E0 VA: 0x18022EDE0
+	|-RVA: 0x22ED60 Offset: 0x22E160 VA: 0x18022ED60
 	|-Stack.Enumerator<SequenceNode.SequenceConstructPosContext>.MoveNext
 	|
-	|-RVA: 0x22E960 Offset: 0x22DD60 VA: 0x18022E960
+	|-RVA: 0x22E8E0 Offset: 0x22DCE0 VA: 0x18022E8E0
 	|-Stack.Enumerator<Matrix4x4>.MoveNext
 	|
-	|-RVA: 0x22EDF0 Offset: 0x22E1F0 VA: 0x18022EDF0
+	|-RVA: 0x22ED70 Offset: 0x22E170 VA: 0x18022ED70
 	|-Stack.Enumerator<EventDispatcher.DispatchContext>.MoveNext
 	|
-	|-RVA: 0x22E950 Offset: 0x22DD50 VA: 0x18022E950
+	|-RVA: 0x22E8D0 Offset: 0x22DCD0 VA: 0x18022E8D0
 	|-Stack.Enumerator<Vector2>.MoveNext
 	*/
 
@@ -163,27 +163,27 @@ public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 	public T get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x22F9F0 Offset: 0x22EDF0 VA: 0x18022F9F0
+	|-RVA: 0x22F970 Offset: 0x22ED70 VA: 0x18022F970
 	|-Stack.Enumerator<Poolable>.get_Current
 	|-Stack.Enumerator<Object>.get_Current
 	|-Stack.Enumerator<object>.get_Current
 	|
-	|-RVA: 0x22F960 Offset: 0x22ED60 VA: 0x18022F960
+	|-RVA: 0x22F8E0 Offset: 0x22ECE0 VA: 0x18022F8E0
 	|-Stack.Enumerator<KeyValuePair<int, int>>.get_Current
 	|
-	|-RVA: 0x22F890 Offset: 0x22EC90 VA: 0x18022F890
+	|-RVA: 0x22F810 Offset: 0x22EC10 VA: 0x18022F810
 	|-Stack.Enumerator<IntPtr>.get_Current
 	|
-	|-RVA: 0x22F910 Offset: 0x22ED10 VA: 0x18022F910
+	|-RVA: 0x22F890 Offset: 0x22EC90 VA: 0x18022F890
 	|-Stack.Enumerator<SequenceNode.SequenceConstructPosContext>.get_Current
 	|
-	|-RVA: 0x22F830 Offset: 0x22EC30 VA: 0x18022F830
+	|-RVA: 0x22F7B0 Offset: 0x22EBB0 VA: 0x18022F7B0
 	|-Stack.Enumerator<Matrix4x4>.get_Current
 	|
-	|-RVA: 0x22F8D0 Offset: 0x22ECD0 VA: 0x18022F8D0
+	|-RVA: 0x22F850 Offset: 0x22EC50 VA: 0x18022F850
 	|-Stack.Enumerator<EventDispatcher.DispatchContext>.get_Current
 	|
-	|-RVA: 0x22F9A0 Offset: 0x22EDA0 VA: 0x18022F9A0
+	|-RVA: 0x22F920 Offset: 0x22ED20 VA: 0x18022F920
 	|-Stack.Enumerator<Vector2>.get_Current
 	*/
 
@@ -191,25 +191,25 @@ public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 	private void ThrowEnumerationNotStartedOrEnded() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x22F670 Offset: 0x22EA70 VA: 0x18022F670
+	|-RVA: 0x22F5F0 Offset: 0x22E9F0 VA: 0x18022F5F0
 	|-Stack.Enumerator<KeyValuePair<int, int>>.ThrowEnumerationNotStartedOrEnded
 	|
-	|-RVA: 0x22F6A0 Offset: 0x22EAA0 VA: 0x18022F6A0
+	|-RVA: 0x22F620 Offset: 0x22EA20 VA: 0x18022F620
 	|-Stack.Enumerator<IntPtr>.ThrowEnumerationNotStartedOrEnded
 	|
-	|-RVA: 0x22F6D0 Offset: 0x22EAD0 VA: 0x18022F6D0
+	|-RVA: 0x22F650 Offset: 0x22EA50 VA: 0x18022F650
 	|-Stack.Enumerator<object>.ThrowEnumerationNotStartedOrEnded
 	|
-	|-RVA: 0x22F680 Offset: 0x22EA80 VA: 0x18022F680
+	|-RVA: 0x22F600 Offset: 0x22EA00 VA: 0x18022F600
 	|-Stack.Enumerator<SequenceNode.SequenceConstructPosContext>.ThrowEnumerationNotStartedOrEnded
 	|
-	|-RVA: 0x22F6C0 Offset: 0x22EAC0 VA: 0x18022F6C0
+	|-RVA: 0x22F640 Offset: 0x22EA40 VA: 0x18022F640
 	|-Stack.Enumerator<Matrix4x4>.ThrowEnumerationNotStartedOrEnded
 	|
-	|-RVA: 0x22F690 Offset: 0x22EA90 VA: 0x18022F690
+	|-RVA: 0x22F610 Offset: 0x22EA10 VA: 0x18022F610
 	|-Stack.Enumerator<EventDispatcher.DispatchContext>.ThrowEnumerationNotStartedOrEnded
 	|
-	|-RVA: 0x22F6B0 Offset: 0x22EAB0 VA: 0x18022F6B0
+	|-RVA: 0x22F630 Offset: 0x22EA30 VA: 0x18022F630
 	|-Stack.Enumerator<Vector2>.ThrowEnumerationNotStartedOrEnded
 	*/
 
@@ -217,25 +217,25 @@ public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x22F320 Offset: 0x22E720 VA: 0x18022F320
+	|-RVA: 0x22F2A0 Offset: 0x22E6A0 VA: 0x18022F2A0
 	|-Stack.Enumerator<KeyValuePair<int, int>>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x22F5C0 Offset: 0x22E9C0 VA: 0x18022F5C0
+	|-RVA: 0x22F540 Offset: 0x22E940 VA: 0x18022F540
 	|-Stack.Enumerator<IntPtr>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x22F560 Offset: 0x22E960 VA: 0x18022F560
+	|-RVA: 0x22F4E0 Offset: 0x22E8E0 VA: 0x18022F4E0
 	|-Stack.Enumerator<object>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x22F1A0 Offset: 0x22E5A0 VA: 0x18022F1A0
+	|-RVA: 0x22F120 Offset: 0x22E520 VA: 0x18022F120
 	|-Stack.Enumerator<SequenceNode.SequenceConstructPosContext>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x22F3D0 Offset: 0x22E7D0 VA: 0x18022F3D0
+	|-RVA: 0x22F350 Offset: 0x22E750 VA: 0x18022F350
 	|-Stack.Enumerator<Matrix4x4>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x22F270 Offset: 0x22E670 VA: 0x18022F270
+	|-RVA: 0x22F1F0 Offset: 0x22E5F0 VA: 0x18022F1F0
 	|-Stack.Enumerator<EventDispatcher.DispatchContext>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x22F4A0 Offset: 0x22E8A0 VA: 0x18022F4A0
+	|-RVA: 0x22F420 Offset: 0x22E820 VA: 0x18022F420
 	|-Stack.Enumerator<Vector2>.System.Collections.IEnumerator.get_Current
 	*/
 
@@ -243,25 +243,25 @@ public struct Stack.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x22EF00 Offset: 0x22E300 VA: 0x18022EF00
+	|-RVA: 0x22EE80 Offset: 0x22E280 VA: 0x18022EE80
 	|-Stack.Enumerator<KeyValuePair<int, int>>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x22F0A0 Offset: 0x22E4A0 VA: 0x18022F0A0
+	|-RVA: 0x22F020 Offset: 0x22E420 VA: 0x18022F020
 	|-Stack.Enumerator<IntPtr>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x22EE00 Offset: 0x22E200 VA: 0x18022EE00
+	|-RVA: 0x22ED80 Offset: 0x22E180 VA: 0x18022ED80
 	|-Stack.Enumerator<object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x22EF80 Offset: 0x22E380 VA: 0x18022EF80
+	|-RVA: 0x22EF00 Offset: 0x22E300 VA: 0x18022EF00
 	|-Stack.Enumerator<SequenceNode.SequenceConstructPosContext>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x22F010 Offset: 0x22E410 VA: 0x18022F010
+	|-RVA: 0x22EF90 Offset: 0x22E390 VA: 0x18022EF90
 	|-Stack.Enumerator<Matrix4x4>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x22F120 Offset: 0x22E520 VA: 0x18022F120
+	|-RVA: 0x22F0A0 Offset: 0x22E4A0 VA: 0x18022F0A0
 	|-Stack.Enumerator<EventDispatcher.DispatchContext>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x22EE80 Offset: 0x22E280 VA: 0x18022EE80
+	|-RVA: 0x22EE00 Offset: 0x22E200 VA: 0x18022EE00
 	|-Stack.Enumerator<Vector2>.System.Collections.IEnumerator.Reset
 	*/
 

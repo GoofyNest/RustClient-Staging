@@ -2,7 +2,7 @@ public class WaitForSecondsRealtimeEx : CustomYieldInstruction, Pool.IPooled // 
 {	// Fields
 	private bool _isInPool; // 0x10
 	private float _waitUntilTime; // 0x14
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <WaitTime>k__BackingField; // 0x18
 
 	// Properties
@@ -11,11 +11,11 @@ public class WaitForSecondsRealtimeEx : CustomYieldInstruction, Pool.IPooled // 
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7746B0 Offset: 0x772CB0 VA: 0x1807746B0
 	public float get_WaitTime() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7746F0 Offset: 0x772CF0 VA: 0x1807746F0
 	public void set_WaitTime(float value) { }
 

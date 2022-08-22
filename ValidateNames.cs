@@ -1,6 +1,6 @@
 internal static class ValidateNames // TypeDefIndex: 2000
 {	// Fields
-	private static XmlCharType xmlCharType; // 0x2B11180
+	private static XmlCharType xmlCharType; // 0x2B101A0
 
 	// Methods
 

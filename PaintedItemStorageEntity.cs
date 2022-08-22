@@ -45,7 +45,7 @@ public class PaintedItemStorageEntity : BaseEntity, IServerFileReceiver, IUGCBro
 	// RVA: 0x85B560 Offset: 0x859B60 VA: 0x18085B560
 	public static void RebuildAll() { }
 
-	[ConditionalAttribute] // RVA: 0xB2420 Offset: 0xB1820 VA: 0x1800B2420
+	[ConditionalAttribute] // RVA: 0xB2510 Offset: 0xB1910 VA: 0x1800B2510
 	// RVA: 0x85ADB0 Offset: 0x8593B0 VA: 0x18085ADB0
 	private void DebugOnlyLog(string str) { }
 

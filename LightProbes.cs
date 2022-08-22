@@ -1,16 +1,16 @@
 public sealed class LightProbes : Object // TypeDefIndex: 3392
 {
 // Namespace: UnityEngine
-[NativeAsStructAttribute] // RVA: 0x8CBD0 Offset: 0x8BFD0 VA: 0x18008CBD0
-[NativeHeaderAttribute] // RVA: 0x8CBD0 Offset: 0x8BFD0 VA: 0x18008CBD0
+[NativeHeaderAttribute] // RVA: 0x8CC40 Offset: 0x8C040 VA: 0x18008CC40
+[NativeAsStructAttribute] // RVA: 0x8CC40 Offset: 0x8C040 VA: 0x18008CC40
 public sealed class LightProbes : Object // TypeDefIndex: 3392
 	// Methods
 
-	[FreeFunctionAttribute] // RVA: 0x7A300 Offset: 0x79700 VA: 0x18007A300
-	// RVA: 0x18E9FA0 Offset: 0x18E85A0 VA: 0x1818E9FA0
+	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
+	// RVA: 0x18E9F60 Offset: 0x18E8560 VA: 0x1818E9F60
 	public static void GetInterpolatedProbe(Vector3 position, Renderer renderer, out SphericalHarmonicsL2 probe) { }
 
-	// RVA: 0x18E9F40 Offset: 0x18E8540 VA: 0x1818E9F40
+	// RVA: 0x18E9F00 Offset: 0x18E8500 VA: 0x1818E9F00
 	private static void GetInterpolatedProbe_Injected(ref Vector3 position, Renderer renderer, out SphericalHarmonicsL2 probe) { }
 
 }

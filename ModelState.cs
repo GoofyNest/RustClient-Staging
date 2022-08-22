@@ -29,109 +29,109 @@ public class ModelState : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 627
 
 	// Methods
 
-	// RVA: 0x201F470 Offset: 0x201DA70 VA: 0x18201F470
+	// RVA: 0x201F2B0 Offset: 0x201D8B0 VA: 0x18201F2B0
 	public void .ctor() { }
 
-	// RVA: 0x201E950 Offset: 0x201CF50 VA: 0x18201E950
+	// RVA: 0x201E790 Offset: 0x201CD90 VA: 0x18201E790
 	public bool HasFlag(ModelState.Flag f) { }
 
-	// RVA: 0x201F400 Offset: 0x201DA00 VA: 0x18201F400
+	// RVA: 0x201F240 Offset: 0x201D840 VA: 0x18201F240
 	public void SetFlag(ModelState.Flag f, bool b) { }
 
-	// RVA: 0x201F4C0 Offset: 0x201DAC0 VA: 0x18201F4C0
+	// RVA: 0x201F300 Offset: 0x201D900 VA: 0x18201F300
 	public bool get_ducked() { }
 
-	// RVA: 0x201F5C0 Offset: 0x201DBC0 VA: 0x18201F5C0
+	// RVA: 0x201F400 Offset: 0x201DA00 VA: 0x18201F400
 	public void set_ducked(bool value) { }
 
-	// RVA: 0x201F4F0 Offset: 0x201DAF0 VA: 0x18201F4F0
+	// RVA: 0x201F330 Offset: 0x201D930 VA: 0x18201F330
 	public bool get_jumped() { }
 
-	// RVA: 0x201F620 Offset: 0x201DC20 VA: 0x18201F620
+	// RVA: 0x201F460 Offset: 0x201DA60 VA: 0x18201F460
 	public void set_jumped(bool value) { }
 
-	// RVA: 0x201F530 Offset: 0x201DB30 VA: 0x18201F530
+	// RVA: 0x201F370 Offset: 0x201D970 VA: 0x18201F370
 	public bool get_onground() { }
 
-	// RVA: 0x201F6A0 Offset: 0x201DCA0 VA: 0x18201F6A0
+	// RVA: 0x201F4E0 Offset: 0x201DAE0 VA: 0x18201F4E0
 	public void set_onground(bool value) { }
 
-	// RVA: 0x201F560 Offset: 0x201DB60 VA: 0x18201F560
+	// RVA: 0x201F3A0 Offset: 0x201D9A0 VA: 0x18201F3A0
 	public bool get_sleeping() { }
 
-	// RVA: 0x201F700 Offset: 0x201DD00 VA: 0x18201F700
+	// RVA: 0x201F540 Offset: 0x201DB40 VA: 0x18201F540
 	public void set_sleeping(bool value) { }
 
-	// RVA: 0x201F570 Offset: 0x201DB70 VA: 0x18201F570
+	// RVA: 0x201F3B0 Offset: 0x201D9B0 VA: 0x18201F3B0
 	public bool get_sprinting() { }
 
-	// RVA: 0x201F720 Offset: 0x201DD20 VA: 0x18201F720
+	// RVA: 0x201F560 Offset: 0x201DB60 VA: 0x18201F560
 	public void set_sprinting(bool value) { }
 
-	// RVA: 0x201F510 Offset: 0x201DB10 VA: 0x18201F510
+	// RVA: 0x201F350 Offset: 0x201D950 VA: 0x18201F350
 	public bool get_onLadder() { }
 
-	// RVA: 0x201F660 Offset: 0x201DC60 VA: 0x18201F660
+	// RVA: 0x201F4A0 Offset: 0x201DAA0 VA: 0x18201F4A0
 	public void set_onLadder(bool value) { }
 
-	// RVA: 0x201F4D0 Offset: 0x201DAD0 VA: 0x18201F4D0
+	// RVA: 0x201F310 Offset: 0x201D910 VA: 0x18201F310
 	public bool get_flying() { }
 
-	// RVA: 0x201F5E0 Offset: 0x201DBE0 VA: 0x18201F5E0
+	// RVA: 0x201F420 Offset: 0x201DA20 VA: 0x18201F420
 	public void set_flying(bool value) { }
 
-	// RVA: 0x201F4A0 Offset: 0x201DAA0 VA: 0x18201F4A0
+	// RVA: 0x201F2E0 Offset: 0x201D8E0 VA: 0x18201F2E0
 	public bool get_aiming() { }
 
-	// RVA: 0x201F580 Offset: 0x201DB80 VA: 0x18201F580
+	// RVA: 0x201F3C0 Offset: 0x201D9C0 VA: 0x18201F3C0
 	public void set_aiming(bool value) { }
 
-	// RVA: 0x201F540 Offset: 0x201DB40 VA: 0x18201F540
+	// RVA: 0x201F380 Offset: 0x201D980 VA: 0x18201F380
 	public bool get_prone() { }
 
-	// RVA: 0x201F6C0 Offset: 0x201DCC0 VA: 0x18201F6C0
+	// RVA: 0x201F500 Offset: 0x201DB00 VA: 0x18201F500
 	public void set_prone(bool value) { }
 
-	// RVA: 0x201F500 Offset: 0x201DB00 VA: 0x18201F500
+	// RVA: 0x201F340 Offset: 0x201D940 VA: 0x18201F340
 	public bool get_mounted() { }
 
-	// RVA: 0x201F640 Offset: 0x201DC40 VA: 0x18201F640
+	// RVA: 0x201F480 Offset: 0x201DA80 VA: 0x18201F480
 	public void set_mounted(bool value) { }
 
-	// RVA: 0x201F550 Offset: 0x201DB50 VA: 0x18201F550
+	// RVA: 0x201F390 Offset: 0x201D990 VA: 0x18201F390
 	public bool get_relaxed() { }
 
-	// RVA: 0x201F6E0 Offset: 0x201DCE0 VA: 0x18201F6E0
+	// RVA: 0x201F520 Offset: 0x201DB20 VA: 0x18201F520
 	public void set_relaxed(bool value) { }
 
-	// RVA: 0x201F4B0 Offset: 0x201DAB0 VA: 0x18201F4B0
+	// RVA: 0x201F2F0 Offset: 0x201D8F0 VA: 0x18201F2F0
 	public bool get_crawling() { }
 
-	// RVA: 0x201F5A0 Offset: 0x201DBA0 VA: 0x18201F5A0
+	// RVA: 0x201F3E0 Offset: 0x201D9E0 VA: 0x18201F3E0
 	public void set_crawling(bool value) { }
 
-	// RVA: 0x201F520 Offset: 0x201DB20 VA: 0x18201F520
+	// RVA: 0x201F360 Offset: 0x201D960 VA: 0x18201F360
 	public bool get_onPhone() { }
 
-	// RVA: 0x201F680 Offset: 0x201DC80 VA: 0x18201F680
+	// RVA: 0x201F4C0 Offset: 0x201DAC0 VA: 0x18201F4C0
 	public void set_onPhone(bool value) { }
 
-	// RVA: 0x201F4E0 Offset: 0x201DAE0 VA: 0x18201F4E0
+	// RVA: 0x201F320 Offset: 0x201D920 VA: 0x18201F320
 	public bool get_headLook() { }
 
-	// RVA: 0x201F600 Offset: 0x201DC00 VA: 0x18201F600
+	// RVA: 0x201F440 Offset: 0x201DA40 VA: 0x18201F440
 	public void set_headLook(bool value) { }
 
-	// RVA: 0x201E5F0 Offset: 0x201CBF0 VA: 0x18201E5F0
+	// RVA: 0x201E430 Offset: 0x201CA30 VA: 0x18201E430
 	public static bool Equal(ModelState a, ModelState b) { }
 
-	// RVA: 0x201EA30 Offset: 0x201D030 VA: 0x18201EA30
+	// RVA: 0x201E870 Offset: 0x201CE70 VA: 0x18201E870
 	public static void ResetToPool(ModelState instance) { }
 
-	// RVA: 0x201E980 Offset: 0x201CF80 VA: 0x18201E980
+	// RVA: 0x201E7C0 Offset: 0x201CDC0 VA: 0x18201E7C0
 	public void ResetToPool() { }
 
-	// RVA: 0x201E570 Offset: 0x201CB70 VA: 0x18201E570 Slot: 9
+	// RVA: 0x201E3B0 Offset: 0x201C9B0 VA: 0x18201E3B0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -140,64 +140,64 @@ public class ModelState : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 627
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x201D250 Offset: 0x201B850 VA: 0x18201D250
+	// RVA: 0x201D090 Offset: 0x201B690 VA: 0x18201D090
 	public void CopyTo(ModelState instance) { }
 
-	// RVA: 0x201D2A0 Offset: 0x201B8A0 VA: 0x18201D2A0
+	// RVA: 0x201D0E0 Offset: 0x201B6E0 VA: 0x18201D0E0
 	public ModelState Copy() { }
 
-	// RVA: 0x201E2F0 Offset: 0x201C8F0 VA: 0x18201E2F0
+	// RVA: 0x201E130 Offset: 0x201C730 VA: 0x18201E130
 	public static ModelState Deserialize(Stream stream) { }
 
-	// RVA: 0x201D340 Offset: 0x201B940 VA: 0x18201D340
+	// RVA: 0x201D180 Offset: 0x201B780 VA: 0x18201D180
 	public static ModelState DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x201D9D0 Offset: 0x201BFD0 VA: 0x18201D9D0
+	// RVA: 0x201D810 Offset: 0x201BE10 VA: 0x18201D810
 	public static ModelState DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x201DFC0 Offset: 0x201C5C0 VA: 0x18201DFC0
+	// RVA: 0x201DE00 Offset: 0x201C400 VA: 0x18201DE00
 	public static ModelState Deserialize(byte[] buffer) { }
 
-	// RVA: 0x201E700 Offset: 0x201CD00 VA: 0x18201E700
+	// RVA: 0x201E540 Offset: 0x201CB40 VA: 0x18201E540
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x201F430 Offset: 0x201DA30 VA: 0x18201F430 Slot: 12
+	// RVA: 0x201F270 Offset: 0x201D870 VA: 0x18201F270 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x201F450 Offset: 0x201DA50 VA: 0x18201F450 Slot: 13
+	// RVA: 0x201F290 Offset: 0x201D890 VA: 0x18201F290 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ModelState previous) { }
 
-	// RVA: 0x201E960 Offset: 0x201CF60 VA: 0x18201E960 Slot: 14
+	// RVA: 0x201E7A0 Offset: 0x201CDA0 VA: 0x18201E7A0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x201DA60 Offset: 0x201C060 VA: 0x18201DA60
+	// RVA: 0x201D8A0 Offset: 0x201BEA0 VA: 0x18201D8A0
 	public static ModelState Deserialize(byte[] buffer, ModelState instance, bool isDelta = False) { }
 
-	// RVA: 0x201DD70 Offset: 0x201C370 VA: 0x18201DD70
+	// RVA: 0x201DBB0 Offset: 0x201C1B0 VA: 0x18201DBB0
 	public static ModelState Deserialize(Stream stream, ModelState instance, bool isDelta) { }
 
-	// RVA: 0x201D3C0 Offset: 0x201B9C0 VA: 0x18201D3C0
+	// RVA: 0x201D200 Offset: 0x201B800 VA: 0x18201D200
 	public static ModelState DeserializeLengthDelimited(Stream stream, ModelState instance, bool isDelta) { }
 
-	// RVA: 0x201D6E0 Offset: 0x201BCE0 VA: 0x18201D6E0
+	// RVA: 0x201D520 Offset: 0x201BB20 VA: 0x18201D520
 	public static ModelState DeserializeLength(Stream stream, int length, ModelState instance, bool isDelta) { }
 
-	// RVA: 0x201EAE0 Offset: 0x201D0E0 VA: 0x18201EAE0
+	// RVA: 0x201E920 Offset: 0x201CF20 VA: 0x18201E920
 	public static void SerializeDelta(Stream stream, ModelState instance, ModelState previous) { }
 
-	// RVA: 0x201F140 Offset: 0x201D740 VA: 0x18201F140
+	// RVA: 0x201EF80 Offset: 0x201D580 VA: 0x18201EF80
 	public static void Serialize(Stream stream, ModelState instance) { }
 
-	// RVA: 0x201F420 Offset: 0x201DA20 VA: 0x18201F420
+	// RVA: 0x201F260 Offset: 0x201D860 VA: 0x18201F260
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x201F430 Offset: 0x201DA30 VA: 0x18201F430
+	// RVA: 0x201F270 Offset: 0x201D870 VA: 0x18201F270
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x201F030 Offset: 0x201D630 VA: 0x18201F030
+	// RVA: 0x201EE70 Offset: 0x201D470 VA: 0x18201EE70
 	public static byte[] SerializeToBytes(ModelState instance) { }
 
-	// RVA: 0x201EF80 Offset: 0x201D580 VA: 0x18201EF80
+	// RVA: 0x201EDC0 Offset: 0x201D3C0 VA: 0x18201EDC0
 	public static void SerializeLengthDelimited(Stream stream, ModelState instance) { }
 
 }

@@ -24,13 +24,13 @@ public class Profile : ConsoleSystem // TypeDefIndex: 11957
 	// RVA: 0x36A4A0 Offset: 0x368AA0 VA: 0x18036A4A0
 	private static void NeedProfileFolder() { }
 
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void start(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void stop(ConsoleSystem.Arg arg) { }
 

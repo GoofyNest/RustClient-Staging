@@ -22,7 +22,7 @@ internal static class Helpers // TypeDefIndex: 5254
 internal struct Helpers.Memory : IDisposable // TypeDefIndex: 5255
 {	// Fields
 	private static readonly Queue<IntPtr> BufferBag; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private IntPtr <Ptr>k__BackingField; // 0x0
 
 	// Properties
@@ -30,13 +30,13 @@ internal struct Helpers.Memory : IDisposable // TypeDefIndex: 5255
 
 	// Methods
 
-	[IsReadOnlyAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[CompilerGeneratedAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0
+	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	public IntPtr get_Ptr() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D2F30 Offset: 0x1D2330 VA: 0x1801D2F30
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D2EB0 Offset: 0x1D22B0 VA: 0x1801D2EB0
 	private void set_Ptr(IntPtr value) { }
 
 	// RVA: 0x128D7C0 Offset: 0x128BDC0 VA: 0x18128D7C0
@@ -45,7 +45,7 @@ internal struct Helpers.Memory : IDisposable // TypeDefIndex: 5255
 	// RVA: 0x128D590 Offset: 0x128BB90 VA: 0x18128D590
 	internal static Helpers.Memory Take() { }
 
-	// RVA: 0x1D3140 Offset: 0x1D2540 VA: 0x1801D3140 Slot: 4
+	// RVA: 0x1D30C0 Offset: 0x1D24C0 VA: 0x1801D30C0 Slot: 4
 	public void Dispose() { }
 
 	// RVA: 0x128D760 Offset: 0x128BD60 VA: 0x18128D760

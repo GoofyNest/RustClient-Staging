@@ -29,17 +29,17 @@ public class DeployableBoomBox : ContainerIOEntity, ICassettePlayer, IAudioConne
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 167
 	public BaseEntity get_ToBaseEntity() { }
 
-	[BaseEntity.Menu] // RVA: 0xD6A40 Offset: 0xD5E40 VA: 0x1800D6A40
-	[BaseEntity.Menu.Description] // RVA: 0xD6A40 Offset: 0xD5E40 VA: 0x1800D6A40
-	[BaseEntity.Menu.Icon] // RVA: 0xD6A40 Offset: 0xD5E40 VA: 0x1800D6A40
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD6A40 Offset: 0xD5E40 VA: 0x1800D6A40
+	[BaseEntity.Menu] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
+	[BaseEntity.Menu.Description] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
+	[BaseEntity.Menu.Icon] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
 	// RVA: 0x977E60 Offset: 0x976460 VA: 0x180977E60
 	public void Play(BasePlayer forPlayer) { }
 
-	[BaseEntity.Menu] // RVA: 0xD6CA0 Offset: 0xD60A0 VA: 0x1800D6CA0
-	[BaseEntity.Menu.Description] // RVA: 0xD6CA0 Offset: 0xD60A0 VA: 0x1800D6CA0
-	[BaseEntity.Menu.Icon] // RVA: 0xD6CA0 Offset: 0xD60A0 VA: 0x1800D6CA0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD6CA0 Offset: 0xD60A0 VA: 0x1800D6CA0
+	[BaseEntity.Menu] // RVA: 0xD6D10 Offset: 0xD6110 VA: 0x1800D6D10
+	[BaseEntity.Menu.Description] // RVA: 0xD6D10 Offset: 0xD6110 VA: 0x1800D6D10
+	[BaseEntity.Menu.Icon] // RVA: 0xD6D10 Offset: 0xD6110 VA: 0x1800D6D10
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD6D10 Offset: 0xD6110 VA: 0x1800D6D10
 	// RVA: 0x978A40 Offset: 0x977040 VA: 0x180978A40
 	public void Stop(BasePlayer forPlayer) { }
 
@@ -49,10 +49,10 @@ public class DeployableBoomBox : ContainerIOEntity, ICassettePlayer, IAudioConne
 	// RVA: 0x9764C0 Offset: 0x974AC0 VA: 0x1809764C0
 	private bool CanStart(BasePlayer forPlayer) { }
 
-	[BaseEntity.Menu] // RVA: 0xD6F20 Offset: 0xD6320 VA: 0x1800D6F20
-	[BaseEntity.Menu.Description] // RVA: 0xD6F20 Offset: 0xD6320 VA: 0x1800D6F20
-	[BaseEntity.Menu.Icon] // RVA: 0xD6F20 Offset: 0xD6320 VA: 0x1800D6F20
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD6F20 Offset: 0xD6320 VA: 0x1800D6F20
+	[BaseEntity.Menu] // RVA: 0xD6FC0 Offset: 0xD63C0 VA: 0x1800D6FC0
+	[BaseEntity.Menu.Description] // RVA: 0xD6FC0 Offset: 0xD63C0 VA: 0x1800D6FC0
+	[BaseEntity.Menu.Icon] // RVA: 0xD6FC0 Offset: 0xD63C0 VA: 0x1800D6FC0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD6FC0 Offset: 0xD63C0 VA: 0x1800D6FC0
 	// RVA: 0x976520 Offset: 0x974B20 VA: 0x180976520
 	public void ChangeRadioSettings(BasePlayer player) { }
 
@@ -62,15 +62,15 @@ public class DeployableBoomBox : ContainerIOEntity, ICassettePlayer, IAudioConne
 	// RVA: 0x977200 Offset: 0x975800 VA: 0x180977200 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x9765A0 Offset: 0x974BA0 VA: 0x1809765A0
 	public void Client_OnCassetteInserted(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x9765E0 Offset: 0x974BE0 VA: 0x1809765E0
 	public void Client_OnCassetteRemoved(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x977290 Offset: 0x975890 VA: 0x180977290
 	public void OnRadioIPChanged(BaseEntity.RPCMessage msg) { }
 

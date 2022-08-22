@@ -8,13 +8,13 @@ public class TakeDamage : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 648
 
 	// Methods
 
-	// RVA: 0x1DC66B0 Offset: 0x1DC4CB0 VA: 0x181DC66B0
+	// RVA: 0x1DC64F0 Offset: 0x1DC4AF0 VA: 0x181DC64F0
 	public static void ResetToPool(TakeDamage instance) { }
 
-	// RVA: 0x1DC6610 Offset: 0x1DC4C10 VA: 0x181DC6610
+	// RVA: 0x1DC6450 Offset: 0x1DC4A50 VA: 0x181DC6450
 	public void ResetToPool() { }
 
-	// RVA: 0x1DC6300 Offset: 0x1DC4900 VA: 0x181DC6300 Slot: 9
+	// RVA: 0x1DC6140 Offset: 0x1DC4740 VA: 0x181DC6140 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -23,64 +23,64 @@ public class TakeDamage : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 648
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DC5350 Offset: 0x1DC3950 VA: 0x181DC5350
+	// RVA: 0x1DC5190 Offset: 0x1DC3790 VA: 0x181DC5190
 	public void CopyTo(TakeDamage instance) { }
 
-	// RVA: 0x1DC5380 Offset: 0x1DC3980 VA: 0x181DC5380
+	// RVA: 0x1DC51C0 Offset: 0x1DC37C0 VA: 0x181DC51C0
 	public TakeDamage Copy() { }
 
-	// RVA: 0x1DC6100 Offset: 0x1DC4700 VA: 0x181DC6100
+	// RVA: 0x1DC5F40 Offset: 0x1DC4540 VA: 0x181DC5F40
 	public static TakeDamage Deserialize(Stream stream) { }
 
-	// RVA: 0x1DC5690 Offset: 0x1DC3C90 VA: 0x181DC5690
+	// RVA: 0x1DC54D0 Offset: 0x1DC3AD0 VA: 0x181DC54D0
 	public static TakeDamage DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DC5710 Offset: 0x1DC3D10 VA: 0x181DC5710
+	// RVA: 0x1DC5550 Offset: 0x1DC3B50 VA: 0x181DC5550
 	public static TakeDamage DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DC5BE0 Offset: 0x1DC41E0 VA: 0x181DC5BE0
+	// RVA: 0x1DC5A20 Offset: 0x1DC4020 VA: 0x181DC5A20
 	public static TakeDamage Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DC6420 Offset: 0x1DC4A20 VA: 0x181DC6420
+	// RVA: 0x1DC6260 Offset: 0x1DC4860 VA: 0x181DC6260
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DC6DF0 Offset: 0x1DC53F0 VA: 0x181DC6DF0 Slot: 12
+	// RVA: 0x1DC6C30 Offset: 0x1DC5230 VA: 0x181DC6C30 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DC6E10 Offset: 0x1DC5410 VA: 0x181DC6E10 Slot: 13
+	// RVA: 0x1DC6C50 Offset: 0x1DC5250 VA: 0x181DC6C50 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, TakeDamage previous) { }
 
-	// RVA: 0x1DC65F0 Offset: 0x1DC4BF0 VA: 0x181DC65F0 Slot: 14
+	// RVA: 0x1DC6430 Offset: 0x1DC4A30 VA: 0x181DC6430 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DC5E80 Offset: 0x1DC4480 VA: 0x181DC5E80
+	// RVA: 0x1DC5CC0 Offset: 0x1DC42C0 VA: 0x181DC5CC0
 	public static TakeDamage Deserialize(byte[] buffer, TakeDamage instance, bool isDelta = False) { }
 
-	// RVA: 0x1DC5A10 Offset: 0x1DC4010 VA: 0x181DC5A10
+	// RVA: 0x1DC5850 Offset: 0x1DC3E50 VA: 0x181DC5850
 	public static TakeDamage Deserialize(Stream stream, TakeDamage instance, bool isDelta) { }
 
-	// RVA: 0x1DC5400 Offset: 0x1DC3A00 VA: 0x181DC5400
+	// RVA: 0x1DC5240 Offset: 0x1DC3840 VA: 0x181DC5240
 	public static TakeDamage DeserializeLengthDelimited(Stream stream, TakeDamage instance, bool isDelta) { }
 
-	// RVA: 0x1DC57A0 Offset: 0x1DC3DA0 VA: 0x181DC57A0
+	// RVA: 0x1DC55E0 Offset: 0x1DC3BE0 VA: 0x181DC55E0
 	public static TakeDamage DeserializeLength(Stream stream, int length, TakeDamage instance, bool isDelta) { }
 
-	// RVA: 0x1DC6750 Offset: 0x1DC4D50 VA: 0x181DC6750
+	// RVA: 0x1DC6590 Offset: 0x1DC4B90 VA: 0x181DC6590
 	public static void SerializeDelta(Stream stream, TakeDamage instance, TakeDamage previous) { }
 
-	// RVA: 0x1DC6C10 Offset: 0x1DC5210 VA: 0x181DC6C10
+	// RVA: 0x1DC6A50 Offset: 0x1DC5050 VA: 0x181DC6A50
 	public static void Serialize(Stream stream, TakeDamage instance) { }
 
-	// RVA: 0x1DC6DE0 Offset: 0x1DC53E0 VA: 0x181DC6DE0
+	// RVA: 0x1DC6C20 Offset: 0x1DC5220 VA: 0x181DC6C20
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DC6DF0 Offset: 0x1DC53F0 VA: 0x181DC6DF0
+	// RVA: 0x1DC6C30 Offset: 0x1DC5230 VA: 0x181DC6C30
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DC6B00 Offset: 0x1DC5100 VA: 0x181DC6B00
+	// RVA: 0x1DC6940 Offset: 0x1DC4F40 VA: 0x181DC6940
 	public static byte[] SerializeToBytes(TakeDamage instance) { }
 
-	// RVA: 0x1DC6A50 Offset: 0x1DC5050 VA: 0x181DC6A50
+	// RVA: 0x1DC6890 Offset: 0x1DC4E90 VA: 0x181DC6890
 	public static void SerializeLengthDelimited(Stream stream, TakeDamage instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80

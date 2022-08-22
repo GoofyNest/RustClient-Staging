@@ -75,7 +75,7 @@ public class PrefabAttribute.AttributeCollection // TypeDefIndex: 11331
 	public T[] Find<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A36F60 Offset: 0x1A35560 VA: 0x181A36F60
+	|-RVA: 0x1A36F20 Offset: 0x1A35520 VA: 0x181A36F20
 	|-PrefabAttribute.AttributeCollection.Find<object>
 	*/
 
@@ -126,7 +126,7 @@ public class PrefabAttribute.Library // TypeDefIndex: 11332
 	public T[] FindAll<T>(uint prefabID) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B400 Offset: 0x1A39A00 VA: 0x181A3B400
+	|-RVA: 0x1A3B3C0 Offset: 0x1A399C0 VA: 0x181A3B3C0
 	|-PrefabAttribute.Library.FindAll<AttractionPoint>
 	|-PrefabAttribute.Library.FindAll<ConditionalModel>
 	|-PrefabAttribute.Library.FindAll<DecalComponent>

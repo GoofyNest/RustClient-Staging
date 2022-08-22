@@ -13,37 +13,37 @@ public struct CancellationToken // TypeDefIndex: 749
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
 	public static CancellationToken get_None() { }
 
-	// RVA: 0x1F0710 Offset: 0x1EFB10 VA: 0x1801F0710
+	// RVA: 0x1F0690 Offset: 0x1EFA90 VA: 0x1801F0690
 	public bool get_IsCancellationRequested() { }
 
-	// RVA: 0x1F06E0 Offset: 0x1EFAE0 VA: 0x1801F06E0
+	// RVA: 0x1F0660 Offset: 0x1EFA60 VA: 0x1801F0660
 	public bool get_CanBeCanceled() { }
 
-	// RVA: 0xF1510 Offset: 0xF0910 VA: 0x1800F1510
+	// RVA: 0xF1490 Offset: 0xF0890 VA: 0x1800F1490
 	internal void .ctor(CancellationTokenSource source) { }
 
-	// RVA: 0x1F0660 Offset: 0x1EFA60 VA: 0x1801F0660
+	// RVA: 0x1F05E0 Offset: 0x1EF9E0 VA: 0x1801F05E0
 	public void .ctor(bool canceled) { }
 
 	// RVA: 0x1491DA0 Offset: 0x14903A0 VA: 0x181491DA0
 	private static void ActionToActionObjShunt(object obj) { }
 
-	// RVA: 0x1F04A0 Offset: 0x1EF8A0 VA: 0x1801F04A0
+	// RVA: 0x1F0420 Offset: 0x1EF820 VA: 0x1801F0420
 	public CancellationTokenRegistration Register(Action<object> callback, object state) { }
 
-	// RVA: 0x1F0450 Offset: 0x1EF850 VA: 0x1801F0450
+	// RVA: 0x1F03D0 Offset: 0x1EF7D0 VA: 0x1801F03D0
 	internal CancellationTokenRegistration InternalRegisterWithoutEC(Action<object> callback, object state) { }
 
-	// RVA: 0x1F0570 Offset: 0x1EF970 VA: 0x1801F0570
+	// RVA: 0x1F04F0 Offset: 0x1EF8F0 VA: 0x1801F04F0
 	private CancellationTokenRegistration Register(Action<object> callback, object state, bool useSynchronizationContext, bool useExecutionContext) { }
 
-	// RVA: 0x1F0370 Offset: 0x1EF770 VA: 0x1801F0370
+	// RVA: 0x1F02F0 Offset: 0x1EF6F0 VA: 0x1801F02F0
 	public bool Equals(CancellationToken other) { }
 
-	// RVA: 0x1F02E0 Offset: 0x1EF6E0 VA: 0x1801F02E0 Slot: 0
+	// RVA: 0x1F0260 Offset: 0x1EF660 VA: 0x1801F0260 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0x1F0380 Offset: 0x1EF780 VA: 0x1801F0380 Slot: 2
+	// RVA: 0x1F0300 Offset: 0x1EF700 VA: 0x1801F0300 Slot: 2
 	public override int GetHashCode() { }
 
 	// RVA: 0x14924D0 Offset: 0x1490AD0 VA: 0x1814924D0
@@ -52,13 +52,13 @@ public struct CancellationToken // TypeDefIndex: 749
 	// RVA: 0x14924F0 Offset: 0x1490AF0 VA: 0x1814924F0
 	public static bool op_Inequality(CancellationToken left, CancellationToken right) { }
 
-	// RVA: 0x1F05B0 Offset: 0x1EF9B0 VA: 0x1801F05B0
+	// RVA: 0x1F0530 Offset: 0x1EF930 VA: 0x1801F0530
 	public void ThrowIfCancellationRequested() { }
 
-	// RVA: 0x1F05F0 Offset: 0x1EF9F0 VA: 0x1801F05F0
+	// RVA: 0x1F0570 Offset: 0x1EF970 VA: 0x1801F0570
 	internal void ThrowIfSourceDisposed() { }
 
-	// RVA: 0x1F0650 Offset: 0x1EFA50 VA: 0x1801F0650
+	// RVA: 0x1F05D0 Offset: 0x1EF9D0 VA: 0x1801F05D0
 	private void ThrowOperationCanceledException() { }
 
 	// RVA: 0x1492290 Offset: 0x1490890 VA: 0x181492290

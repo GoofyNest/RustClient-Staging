@@ -21,16 +21,16 @@ public class ParticleSystemIK : MonoBehaviour, IClientComponent // TypeDefIndex:
 
 public struct ParticleSystemIK.ParticleSystemIKJob : IJobParticleSystem // TypeDefIndex: 11328
 {	// Fields
-	[ReadOnlyAttribute] // RVA: 0x70AC0 Offset: 0x6FEC0 VA: 0x180070AC0
+	[ReadOnlyAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
 	public Vector3 position; // 0x0
-	[ReadOnlyAttribute] // RVA: 0x70AC0 Offset: 0x6FEC0 VA: 0x180070AC0
+	[ReadOnlyAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
 	public Vector3 forward; // 0xC
-	[ReadOnlyAttribute] // RVA: 0x70AC0 Offset: 0x6FEC0 VA: 0x180070AC0
+	[ReadOnlyAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
 	public float deltaTime; // 0x18
 
 	// Methods
 
-	// RVA: 0xF93C0 Offset: 0xF87C0 VA: 0x1800F93C0 Slot: 4
+	// RVA: 0xF9340 Offset: 0xF8740 VA: 0x1800F9340 Slot: 4
 	public void Execute(ParticleSystemJobData particles) { }
 
 }

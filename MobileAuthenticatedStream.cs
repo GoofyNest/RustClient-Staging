@@ -11,11 +11,11 @@ internal abstract class MobileAuthenticatedStream : AuthenticatedStream, IMonoSs
 	private int closeRequested; // 0x78
 	private bool shutdown; // 0x7C
 	private static int uniqueNameInteger; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly SslStream <SslStream>k__BackingField; // 0x80
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly MonoTlsSettings <Settings>k__BackingField; // 0x88
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly MonoTlsProvider <Provider>k__BackingField; // 0x90
 	private static int nextId; // 0x4
 	internal readonly int ID; // 0x98
@@ -39,11 +39,11 @@ internal abstract class MobileAuthenticatedStream : AuthenticatedStream, IMonoSs
 	// RVA: 0x12189F0 Offset: 0x1216FF0 VA: 0x1812189F0
 	public void .ctor(Stream innerStream, bool leaveInnerStreamOpen, SslStream owner, MonoTlsSettings settings, MonoTlsProvider provider) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
 	public MonoTlsSettings get_Settings() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050 Slot: 51
 	public MonoTlsProvider get_Provider() { }
 
@@ -71,7 +71,7 @@ internal abstract class MobileAuthenticatedStream : AuthenticatedStream, IMonoSs
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 47
 	public AuthenticatedStream get_AuthenticatedStream() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3650 Offset: 0xA2A50 VA: 0x1800A3650
+	[AsyncStateMachineAttribute] // RVA: 0xA3670 Offset: 0xA2A70 VA: 0x1800A3670
 	// RVA: 0x1217EB0 Offset: 0x12164B0 VA: 0x181217EB0
 	private Task ProcessAuthentication(bool runSynchronously, bool serverMode, string targetHost, SslProtocols enabledProtocols, X509Certificate serverCertificate, X509CertificateCollection clientCertificates, bool clientCertRequired) { }
 
@@ -102,7 +102,7 @@ internal abstract class MobileAuthenticatedStream : AuthenticatedStream, IMonoSs
 	// RVA: 0x1218810 Offset: 0x1216E10 VA: 0x181218810 Slot: 24
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3700 Offset: 0xA2B00 VA: 0x1800A3700
+	[AsyncStateMachineAttribute] // RVA: 0xA3730 Offset: 0xA2B30 VA: 0x1800A3730
 	// RVA: 0x1218670 Offset: 0x1216C70 VA: 0x181218670
 	private Task<int> StartOperation(MobileAuthenticatedStream.OperationType type, AsyncProtocolRequest asyncRequest, CancellationToken cancellationToken) { }
 
@@ -118,11 +118,11 @@ internal abstract class MobileAuthenticatedStream : AuthenticatedStream, IMonoSs
 	// RVA: 0x1217C20 Offset: 0x1216220 VA: 0x181217C20
 	private bool InternalWrite(AsyncProtocolRequest asyncRequest, BufferOffsetSize2 internalBuffer, byte[] buffer, int offset, int size) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA37B0 Offset: 0xA2BB0 VA: 0x1800A37B0
+	[AsyncStateMachineAttribute] // RVA: 0xA3840 Offset: 0xA2C40 VA: 0x1800A3840
 	// RVA: 0x1217670 Offset: 0x1215C70 VA: 0x181217670
 	internal Task<int> InnerRead(bool sync, int requestedSize, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA38E0 Offset: 0xA2CE0 VA: 0x1800A38E0
+	[AsyncStateMachineAttribute] // RVA: 0xA3920 Offset: 0xA2D20 VA: 0x1800A3920
 	// RVA: 0x12177B0 Offset: 0x1215DB0 VA: 0x1812177B0
 	internal Task InnerWrite(bool sync, CancellationToken cancellationToken) { }
 
@@ -180,7 +180,7 @@ internal abstract class MobileAuthenticatedStream : AuthenticatedStream, IMonoSs
 	// RVA: 0x12189B0 Offset: 0x1216FB0 VA: 0x1812189B0
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x12187C0 Offset: 0x1216DC0 VA: 0x1812187C0
 	private void <InnerWrite>b__67_0() { }
 
@@ -211,11 +211,11 @@ private struct MobileAuthenticatedStream.<ProcessAuthentication>d__47 : IAsyncSt
 
 	// Methods
 
-	// RVA: 0x1D1F00 Offset: 0x1D1300 VA: 0x1801D1F00 Slot: 4
+	// RVA: 0x1D1E80 Offset: 0x1D1280 VA: 0x1801D1E80 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -232,11 +232,11 @@ private struct MobileAuthenticatedStream.<StartOperation>d__58 : IAsyncStateMach
 
 	// Methods
 
-	// RVA: 0x1D1F80 Offset: 0x1D1380 VA: 0x1801D1F80 Slot: 4
+	// RVA: 0x1D1F00 Offset: 0x1D1300 VA: 0x1801D1F00 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D1F90 Offset: 0x1D1390 VA: 0x1801D1F90 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D1F10 Offset: 0x1D1310 VA: 0x1801D1F10 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -268,11 +268,11 @@ private struct MobileAuthenticatedStream.<InnerRead>d__66 : IAsyncStateMachine /
 
 	// Methods
 
-	// RVA: 0x1D1E90 Offset: 0x1D1290 VA: 0x1801D1E90 Slot: 4
+	// RVA: 0x1D1E10 Offset: 0x1D1210 VA: 0x1801D1E10 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D1EA0 Offset: 0x1D12A0 VA: 0x1801D1EA0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D1E20 Offset: 0x1D1220 VA: 0x1801D1E20 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -288,11 +288,11 @@ private struct MobileAuthenticatedStream.<InnerWrite>d__67 : IAsyncStateMachine 
 
 	// Methods
 
-	// RVA: 0x1D1EF0 Offset: 0x1D12F0 VA: 0x1801D1EF0 Slot: 4
+	// RVA: 0x1D1E70 Offset: 0x1D1270 VA: 0x1801D1E70 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

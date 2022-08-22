@@ -35,7 +35,7 @@ public class PlanterBox : StorageContainer, ISplashable // TypeDefIndex: 8619
 	// RVA: 0x91D7E0 Offset: 0x91BDE0 VA: 0x18091D7E0 Slot: 75
 	public override void LookingAtTick() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x91DCA0 Offset: 0x91C2A0 VA: 0x18091DCA0
 	private void RPC_ReceiveSaturationUpdate(BaseEntity.RPCMessage msg) { }
 

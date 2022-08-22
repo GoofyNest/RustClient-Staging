@@ -28,15 +28,15 @@ public class HeldBoomBox : HeldEntity, ICassettePlayer // TypeDefIndex: 8574
 	// RVA: 0x736230 Offset: 0x734830 VA: 0x180736230 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x736090 Offset: 0x734690 VA: 0x180736090
 	public void Client_OnCassetteInserted(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7360E0 Offset: 0x7346E0 VA: 0x1807360E0
 	public void Client_OnCassetteRemoved(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x736760 Offset: 0x734D60 VA: 0x180736760
 	public void OnRadioIPChanged(BaseEntity.RPCMessage msg) { }
 

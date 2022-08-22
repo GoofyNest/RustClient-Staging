@@ -26,7 +26,7 @@ public abstract class HttpContent : IDisposable // TypeDefIndex: 5744
 	// RVA: 0x108AAD0 Offset: 0x10890D0 VA: 0x18108AAD0
 	public Task CopyToAsync(Stream stream, TransportContext context) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1B10 Offset: 0xD0F10 VA: 0x1800D1B10
+	[AsyncStateMachineAttribute] // RVA: 0xD1BA0 Offset: 0xD0FA0 VA: 0x1800D1BA0
 	// RVA: 0x108AC40 Offset: 0x1089240 VA: 0x18108AC40 Slot: 5
 	protected virtual Task<Stream> CreateContentReadStreamAsync() { }
 
@@ -42,15 +42,15 @@ public abstract class HttpContent : IDisposable // TypeDefIndex: 5744
 	// RVA: 0x108B040 Offset: 0x1089640 VA: 0x18108B040
 	public Task LoadIntoBufferAsync() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1D30 Offset: 0xD1130 VA: 0x1800D1D30
+	[AsyncStateMachineAttribute] // RVA: 0xD1DC0 Offset: 0xD11C0 VA: 0x1800D1DC0
 	// RVA: 0x108B050 Offset: 0x1089650 VA: 0x18108B050
 	public Task LoadIntoBufferAsync(long maxBufferSize) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1F00 Offset: 0xD1300 VA: 0x1800D1F00
+	[AsyncStateMachineAttribute] // RVA: 0xD1F90 Offset: 0xD1390 VA: 0x1800D1F90
 	// RVA: 0x108B160 Offset: 0x1089760 VA: 0x18108B160
 	public Task<Stream> ReadAsStreamAsync() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD20F0 Offset: 0xD14F0 VA: 0x1800D20F0
+	[AsyncStateMachineAttribute] // RVA: 0xD2180 Offset: 0xD1580 VA: 0x1800D2180
 	// RVA: 0x108B260 Offset: 0x1089860 VA: 0x18108B260
 	public Task<string> ReadAsStringAsync() { }
 
@@ -100,11 +100,11 @@ private struct HttpContent.<CreateContentReadStreamAsync>d__12 : IAsyncStateMach
 
 	// Methods
 
-	// RVA: 0x19DFF0 Offset: 0x19D3F0 VA: 0x18019DFF0 Slot: 4
+	// RVA: 0x19DF70 Offset: 0x19D370 VA: 0x18019DF70 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E000 Offset: 0x19D400 VA: 0x18019E000 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19DF80 Offset: 0x19D380 VA: 0x18019DF80 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -119,11 +119,11 @@ private struct HttpContent.<LoadIntoBufferAsync>d__17 : IAsyncStateMachine // Ty
 
 	// Methods
 
-	// RVA: 0x19E0B0 Offset: 0x19D4B0 VA: 0x18019E0B0 Slot: 4
+	// RVA: 0x19E030 Offset: 0x19D430 VA: 0x18019E030 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -137,11 +137,11 @@ private struct HttpContent.<ReadAsStreamAsync>d__18 : IAsyncStateMachine // Type
 
 	// Methods
 
-	// RVA: 0x19E0C0 Offset: 0x19D4C0 VA: 0x18019E0C0 Slot: 4
+	// RVA: 0x19E040 Offset: 0x19D440 VA: 0x18019E040 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E0D0 Offset: 0x19D4D0 VA: 0x18019E0D0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E050 Offset: 0x19D450 VA: 0x18019E050 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -155,11 +155,11 @@ private struct HttpContent.<ReadAsStringAsync>d__20 : IAsyncStateMachine // Type
 
 	// Methods
 
-	// RVA: 0x19E120 Offset: 0x19D520 VA: 0x18019E120 Slot: 4
+	// RVA: 0x19E0A0 Offset: 0x19D4A0 VA: 0x18019E0A0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E130 Offset: 0x19D530 VA: 0x18019E130 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E0B0 Offset: 0x19D4B0 VA: 0x18019E0B0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

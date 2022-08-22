@@ -23,13 +23,13 @@ public static class TerrainSplat // TypeDefIndex: 7783
 
 	// Methods
 
-	// RVA: 0x2303D00 Offset: 0x2302300 VA: 0x182303D00
+	// RVA: 0x2303B40 Offset: 0x2302140 VA: 0x182303B40
 	public static int TypeToIndex(int id) { }
 
 	// RVA: 0x768230 Offset: 0x766830 VA: 0x180768230
 	public static int IndexToType(int idx) { }
 
-	// RVA: 0x2303D80 Offset: 0x2302380 VA: 0x182303D80
+	// RVA: 0x2303BC0 Offset: 0x23021C0 VA: 0x182303BC0
 	private static void .cctor() { }
 
 }

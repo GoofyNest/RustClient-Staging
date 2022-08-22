@@ -53,7 +53,7 @@ internal class WorkshopItemList : MonoBehaviour // TypeDefIndex: 7743
 	// RVA: 0xE84600 Offset: 0xE82C00 VA: 0x180E84600
 	public void SwitchToAccepted() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD14F0 Offset: 0xD08F0 VA: 0x1800D14F0
+	[AsyncStateMachineAttribute] // RVA: 0xD1580 Offset: 0xD0980 VA: 0x1800D1580
 	// RVA: 0xE84510 Offset: 0xE82B10 VA: 0x180E84510
 	public Task Refresh() { }
 
@@ -104,11 +104,11 @@ private struct WorkshopItemList.<Refresh>d__26 : IAsyncStateMachine // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x137630 Offset: 0x136A30 VA: 0x180137630 Slot: 4
+	// RVA: 0x1375B0 Offset: 0x1369B0 VA: 0x1801375B0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

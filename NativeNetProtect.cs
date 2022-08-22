@@ -4,25 +4,25 @@ internal static class NativeNetProtect // TypeDefIndex: 7154
 
 	// Methods
 
-	// RVA: 0x22E6BF0 Offset: 0x22E51F0 VA: 0x1822E6BF0
+	// RVA: 0x22E6A30 Offset: 0x22E5030 VA: 0x1822E6A30
 	private static extern uint dotProtectMessage_RawPtr(IntPtr Instance, IntPtr Input, uint InputLength, IntPtr Output, ref uint OutputLength) { }
 
-	// RVA: 0x22E6CB0 Offset: 0x22E52B0 VA: 0x1822E6CB0
+	// RVA: 0x22E6AF0 Offset: 0x22E50F0 VA: 0x1822E6AF0
 	private static extern uint dotUnprotectMessage_RawPtr(IntPtr Instance, IntPtr Input, uint InputLength, IntPtr Output, ref uint OutputLength) { }
 
-	// RVA: 0x22E6B60 Offset: 0x22E5160 VA: 0x1822E6B60
+	// RVA: 0x22E69A0 Offset: 0x22E4FA0 VA: 0x1822E69A0
 	private static extern uint dotGetProtectMessageOutputLength(IntPtr Instance, uint InputLength) { }
 
-	// RVA: 0x22E6790 Offset: 0x22E4D90 VA: 0x1822E6790
+	// RVA: 0x22E65D0 Offset: 0x22E4BD0 VA: 0x1822E65D0
 	public static void SetInstance(IntPtr NetProtectInstance) { }
 
-	// RVA: 0x22E63D0 Offset: 0x22E49D0 VA: 0x1822E63D0
+	// RVA: 0x22E6210 Offset: 0x22E4810 VA: 0x1822E6210
 	public static bool ProtectMessage(MemoryStream Input, long InputOffset, MemoryStream Output, long OutputOffset) { }
 
-	// RVA: 0x22E67F0 Offset: 0x22E4DF0 VA: 0x1822E67F0
+	// RVA: 0x22E6630 Offset: 0x22E4C30 VA: 0x1822E6630
 	public static bool UnprotectMessage(MemoryStream Input, long InputOffset, MemoryStream Output, long OutputOffset) { }
 
-	// RVA: 0x22E6B20 Offset: 0x22E5120 VA: 0x1822E6B20
+	// RVA: 0x22E6960 Offset: 0x22E4F60 VA: 0x1822E6960
 	private static void .cctor() { }
 
 }

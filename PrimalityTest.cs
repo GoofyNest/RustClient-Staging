@@ -24,7 +24,7 @@ public sealed class PrimalityTest : MulticastDelegate // TypeDefIndex: 1768
 	// RVA: 0x1647790 Offset: 0x1645D90 VA: 0x181647790 Slot: 12
 	public virtual bool Invoke(BigInteger bi, ConfidenceFactor confidence) { }
 
-	// RVA: 0x1AC1440 Offset: 0x1ABFA40 VA: 0x181AC1440 Slot: 13
+	// RVA: 0x1AC1280 Offset: 0x1ABF880 VA: 0x181AC1280 Slot: 13
 	public virtual IAsyncResult BeginInvoke(BigInteger bi, ConfidenceFactor confidence, AsyncCallback callback, object object) { }
 
 	// RVA: 0xFF6250 Offset: 0xFF4850 VA: 0x180FF6250 Slot: 14

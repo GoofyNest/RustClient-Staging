@@ -1,12 +1,12 @@
 public class EnvironmentFishManager : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 8949
 {	// Fields
 	public EnvironmentFishManager.FishTypeInstance[] fishTypes; // 0x18
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static int maxFishPerType; // 0x0
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static float maxFishDistance; // 0x4
-	[ClientVar] // RVA: 0xC6D90 Offset: 0xC6190 VA: 0x1800C6D90
-	[HelpAttribute] // RVA: 0xC6D90 Offset: 0xC6190 VA: 0x1800C6D90
+	[ClientVar] // RVA: 0xC6E20 Offset: 0xC6220 VA: 0x1800C6E20
+	[HelpAttribute] // RVA: 0xC6E20 Offset: 0xC6220 VA: 0x1800C6E20
 	public static float framebudgetms; // 0x8
 	public static EnvironmentFishManager.EnvironmentFishWorkQueue workQueue; // 0x10
 	private GameObject fishContainer; // 0x20

@@ -4,7 +4,7 @@ public static class MemoryExtensions // TypeDefIndex: 6728
 
 	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static void Reverse<T>(Span<T> span) { }
 	/* GenericInstMethod :
@@ -16,10 +16,10 @@ public static class MemoryExtensions // TypeDefIndex: 6728
 	|-MemoryExtensions.Reverse<object>
 	*/
 
-	// RVA: 0x231A970 Offset: 0x2318F70 VA: 0x18231A970
+	// RVA: 0x231A7B0 Offset: 0x2318DB0 VA: 0x18231A7B0
 	private static IntPtr MeasureStringAdjustment() { }
 
-	// RVA: 0x231A9C0 Offset: 0x2318FC0 VA: 0x18231A9C0
+	// RVA: 0x231A800 Offset: 0x2318E00 VA: 0x18231A800
 	private static void .cctor() { }
 
 }

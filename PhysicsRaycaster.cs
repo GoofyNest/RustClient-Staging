@@ -2,9 +2,9 @@ public class PhysicsRaycaster : BaseRaycaster // TypeDefIndex: 5093
 {	// Fields
 	protected const int kNoEventMaskSet = -1;
 	protected Camera m_EventCamera; // 0x20
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected LayerMask m_EventMask; // 0x28
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	protected int m_MaxRayIntersections; // 0x2C
 	protected int m_LastMaxRayIntersections; // 0x30
 	private RaycastHit[] m_Hits; // 0x38

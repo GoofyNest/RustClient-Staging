@@ -1,7 +1,7 @@
 public class DoorCloser : BaseEntity // TypeDefIndex: 8382
 {	// Fields
 	private Option __menuOption_Menu_Remove; // 0x168
-	[ItemSelector] // RVA: 0xA7560 Offset: 0xA6960 VA: 0x1800A7560
+	[ItemSelector] // RVA: 0xA7690 Offset: 0xA6A90 VA: 0x1800A7690
 	public ItemDefinition itemType; // 0x1C0
 	public float delay; // 0x1C8
 
@@ -25,10 +25,10 @@ public class DoorCloser : BaseEntity // TypeDefIndex: 8382
 	// RVA: 0xAAC470 Offset: 0xAAAA70 VA: 0x180AAC470
 	public Door GetDoor() { }
 
-	[BaseEntity.Menu] // RVA: 0xD9FF0 Offset: 0xD93F0 VA: 0x1800D9FF0
-	[BaseEntity.Menu.Description] // RVA: 0xD9FF0 Offset: 0xD93F0 VA: 0x1800D9FF0
-	[BaseEntity.Menu.Icon] // RVA: 0xD9FF0 Offset: 0xD93F0 VA: 0x1800D9FF0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD9FF0 Offset: 0xD93F0 VA: 0x1800D9FF0
+	[BaseEntity.Menu] // RVA: 0xDA060 Offset: 0xD9460 VA: 0x1800DA060
+	[BaseEntity.Menu.Description] // RVA: 0xDA060 Offset: 0xD9460 VA: 0x1800DA060
+	[BaseEntity.Menu.Icon] // RVA: 0xDA060 Offset: 0xD9460 VA: 0x1800DA060
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDA060 Offset: 0xD9460 VA: 0x1800DA060
 	// RVA: 0xAAC9B0 Offset: 0xAAAFB0 VA: 0x180AAC9B0
 	public void Menu_Remove(BasePlayer player) { }
 

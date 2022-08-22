@@ -20,7 +20,7 @@ public sealed class ChannelServices // TypeDefIndex: 1187
 	// RVA: 0xFDDFF0 Offset: 0xFDC5F0 VA: 0x180FDDFF0
 	internal static IMessageSink CreateClientChannelSinkChain(IChannelSender sender, string url, object[] channelDataArray, out string objectUri) { }
 
-	[ObsoleteAttribute] // RVA: 0xD26E0 Offset: 0xD1AE0 VA: 0x1800D26E0
+	[ObsoleteAttribute] // RVA: 0xD26B0 Offset: 0xD1AB0 VA: 0x1800D26B0
 	// RVA: 0xFDFCF0 Offset: 0xFDE2F0 VA: 0x180FDFCF0
 	public static void RegisterChannel(IChannel chnl) { }
 

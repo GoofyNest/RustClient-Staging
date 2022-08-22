@@ -32,73 +32,73 @@ internal class ZlibBaseStream : Stream // TypeDefIndex: 6964
 
 	// Methods
 
-	// RVA: 0x21D81B0 Offset: 0x21D67B0 VA: 0x1821D81B0
+	// RVA: 0x21D7FF0 Offset: 0x21D65F0 VA: 0x1821D7FF0
 	internal int get_Crc32() { }
 
-	// RVA: 0x21D7710 Offset: 0x21D5D10 VA: 0x1821D7710
+	// RVA: 0x21D7550 Offset: 0x21D5B50 VA: 0x1821D7550
 	public void .ctor(Stream stream, CompressionMode compressionMode, CompressionLevel level, ZlibStreamFlavor flavor, bool leaveOpen) { }
 
-	// RVA: 0x21D8240 Offset: 0x21D6840 VA: 0x1821D8240
+	// RVA: 0x21D8080 Offset: 0x21D6680 VA: 0x1821D8080
 	protected internal bool get__wantCompress() { }
 
-	// RVA: 0x21D82B0 Offset: 0x21D68B0 VA: 0x1821D82B0
+	// RVA: 0x21D80F0 Offset: 0x21D66F0 VA: 0x1821D80F0
 	private ZlibCodec get_z() { }
 
-	// RVA: 0x21D8250 Offset: 0x21D6850 VA: 0x1821D8250
+	// RVA: 0x21D8090 Offset: 0x21D6690 VA: 0x1821D8090
 	private byte[] get_workingBuffer() { }
 
-	// RVA: 0x21D6F80 Offset: 0x21D5580 VA: 0x1821D6F80 Slot: 29
+	// RVA: 0x21D6DC0 Offset: 0x21D53C0 VA: 0x1821D6DC0 Slot: 29
 	public override void Write(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x21D79B0 Offset: 0x21D5FB0 VA: 0x1821D79B0
+	// RVA: 0x21D77F0 Offset: 0x21D5DF0 VA: 0x1821D77F0
 	private void finish() { }
 
-	// RVA: 0x21D7830 Offset: 0x21D5E30 VA: 0x1821D7830
+	// RVA: 0x21D7670 Offset: 0x21D5C70 VA: 0x1821D7670
 	private void end() { }
 
-	// RVA: 0x21D62D0 Offset: 0x21D48D0 VA: 0x1821D62D0 Slot: 16
+	// RVA: 0x21D6110 Offset: 0x21D4710 VA: 0x1821D6110 Slot: 16
 	public override void Close() { }
 
-	// RVA: 0x21D6600 Offset: 0x21D4C00 VA: 0x1821D6600 Slot: 18
+	// RVA: 0x21D6440 Offset: 0x21D4A40 VA: 0x1821D6440 Slot: 18
 	public override void Flush() { }
 
-	// RVA: 0x21D6CF0 Offset: 0x21D52F0 VA: 0x1821D6CF0 Slot: 25
+	// RVA: 0x21D6B30 Offset: 0x21D5130 VA: 0x1821D6B30 Slot: 25
 	public override long Seek(long offset, SeekOrigin origin) { }
 
-	// RVA: 0x21D6D40 Offset: 0x21D5340 VA: 0x1821D6D40 Slot: 26
+	// RVA: 0x21D6B80 Offset: 0x21D5180 VA: 0x1821D6B80 Slot: 26
 	public override void SetLength(long value) { }
 
-	// RVA: 0x21D6630 Offset: 0x21D4C30 VA: 0x1821D6630
+	// RVA: 0x21D6470 Offset: 0x21D4A70 VA: 0x1821D6470
 	private string ReadZeroTerminatedString() { }
 
-	// RVA: 0x21D7320 Offset: 0x21D5920 VA: 0x1821D7320
+	// RVA: 0x21D7160 Offset: 0x21D5760 VA: 0x1821D7160
 	private int _ReadAndValidateGzipHeader() { }
 
-	// RVA: 0x21D67B0 Offset: 0x21D4DB0 VA: 0x1821D67B0 Slot: 27
+	// RVA: 0x21D65F0 Offset: 0x21D4BF0 VA: 0x1821D65F0 Slot: 27
 	public override int Read(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x21D8120 Offset: 0x21D6720 VA: 0x1821D8120 Slot: 7
+	// RVA: 0x21D7F60 Offset: 0x21D6560 VA: 0x1821D7F60 Slot: 7
 	public override bool get_CanRead() { }
 
-	// RVA: 0x21D8150 Offset: 0x21D6750 VA: 0x1821D8150 Slot: 8
+	// RVA: 0x21D7F90 Offset: 0x21D6590 VA: 0x1821D7F90 Slot: 8
 	public override bool get_CanSeek() { }
 
-	// RVA: 0x21D8180 Offset: 0x21D6780 VA: 0x1821D8180 Slot: 9
+	// RVA: 0x21D7FC0 Offset: 0x21D65C0 VA: 0x1821D7FC0 Slot: 9
 	public override bool get_CanWrite() { }
 
-	// RVA: 0x21D81C0 Offset: 0x21D67C0 VA: 0x1821D81C0 Slot: 10
+	// RVA: 0x21D8000 Offset: 0x21D6600 VA: 0x1821D8000 Slot: 10
 	public override long get_Length() { }
 
-	// RVA: 0x21D81F0 Offset: 0x21D67F0 VA: 0x1821D81F0 Slot: 11
+	// RVA: 0x21D8030 Offset: 0x21D6630 VA: 0x1821D8030 Slot: 11
 	public override long get_Position() { }
 
-	// RVA: 0x21D8560 Offset: 0x21D6B60 VA: 0x1821D8560 Slot: 12
+	// RVA: 0x21D83A0 Offset: 0x21D69A0 VA: 0x1821D83A0 Slot: 12
 	public override void set_Position(long value) { }
 
-	// RVA: 0x21D6510 Offset: 0x21D4B10 VA: 0x1821D6510
+	// RVA: 0x21D6350 Offset: 0x21D4950 VA: 0x1821D6350
 	public static void CompressBuffer(byte[] b, Stream compressor) { }
 
-	// RVA: 0x21D6D70 Offset: 0x21D5370 VA: 0x1821D6D70
+	// RVA: 0x21D6BB0 Offset: 0x21D51B0 VA: 0x1821D6BB0
 	public static byte[] UncompressBuffer(byte[] compressed, Stream decompressor) { }
 
 }

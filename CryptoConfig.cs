@@ -1,6 +1,6 @@
 public class CryptoConfig // TypeDefIndex: 1003
 {	// Properties
-	[MonoLimitationAttribute] // RVA: 0xCBD10 Offset: 0xCB110 VA: 0x1800CBD10
+	[MonoLimitationAttribute] // RVA: 0xCBC60 Offset: 0xCB060 VA: 0x1800CBC60
 	public static bool AllowOnlyFipsAlgorithms { get; }
 
 	// Methods

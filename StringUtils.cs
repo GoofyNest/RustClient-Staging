@@ -1,23 +1,23 @@
 internal static class StringUtils // TypeDefIndex: 5969
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1811FE0 Offset: 0x18105E0 VA: 0x181811FE0
 	public static string FormatWith(string format, IFormatProvider provider, object arg0) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x18123A0 Offset: 0x18109A0 VA: 0x1818123A0
 	public static string FormatWith(string format, IFormatProvider provider, object arg0, object arg1) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1812550 Offset: 0x1810B50 VA: 0x181812550
 	public static string FormatWith(string format, IFormatProvider provider, object arg0, object arg1, object arg2) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1812130 Offset: 0x1810730 VA: 0x181812130
 	public static string FormatWith(string format, IFormatProvider provider, object arg0, object arg1, object arg2, object arg3) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1811F20 Offset: 0x1810520 VA: 0x181811F20
 	private static string FormatWith(string format, IFormatProvider provider, object[] args) { }
 
@@ -30,7 +30,7 @@ internal static class StringUtils // TypeDefIndex: 5969
 	// RVA: 0x1812B10 Offset: 0x1811110 VA: 0x181812B10
 	public static void ToCharAsUnicode(char c, char[] buffer) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TSource ForgivingCaseSensitiveFind<TSource>(IEnumerable<TSource> source, Func<TSource, string> valueSelector, string testValue) { }
 	/* GenericInstMethod :
@@ -49,11 +49,11 @@ internal static class StringUtils // TypeDefIndex: 5969
 	// RVA: 0x1812820 Offset: 0x1810E20 VA: 0x181812820
 	public static bool IsLowSurrogate(char c) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1812880 Offset: 0x1810E80 VA: 0x181812880
 	public static bool StartsWith(string source, char value) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1811EE0 Offset: 0x18104E0 VA: 0x181811EE0
 	public static bool EndsWith(string source, char value) { }
 

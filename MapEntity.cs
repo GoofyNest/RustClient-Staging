@@ -7,13 +7,13 @@ public class MapEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6320
 
 	// Methods
 
-	// RVA: 0x1F3E880 Offset: 0x1F3CE80 VA: 0x181F3E880
+	// RVA: 0x1F3E6C0 Offset: 0x1F3CCC0 VA: 0x181F3E6C0
 	public static void ResetToPool(MapEntity instance) { }
 
-	// RVA: 0x1F3E730 Offset: 0x1F3CD30 VA: 0x181F3E730
+	// RVA: 0x1F3E570 Offset: 0x1F3CB70 VA: 0x181F3E570
 	public void ResetToPool() { }
 
-	// RVA: 0x1F3E530 Offset: 0x1F3CB30 VA: 0x181F3E530 Slot: 9
+	// RVA: 0x1F3E370 Offset: 0x1F3C970 VA: 0x181F3E370 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -22,64 +22,64 @@ public class MapEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6320
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F3D730 Offset: 0x1F3BD30 VA: 0x181F3D730
+	// RVA: 0x1F3D570 Offset: 0x1F3BB70 VA: 0x181F3D570
 	public void CopyTo(MapEntity instance) { }
 
-	// RVA: 0x1F3D930 Offset: 0x1F3BF30 VA: 0x181F3D930
+	// RVA: 0x1F3D770 Offset: 0x1F3BD70 VA: 0x181F3D770
 	public MapEntity Copy() { }
 
-	// RVA: 0x1F3E4B0 Offset: 0x1F3CAB0 VA: 0x181F3E4B0
+	// RVA: 0x1F3E2F0 Offset: 0x1F3C8F0 VA: 0x181F3E2F0
 	public static MapEntity Deserialize(Stream stream) { }
 
-	// RVA: 0x1F3D9B0 Offset: 0x1F3BFB0 VA: 0x181F3D9B0
+	// RVA: 0x1F3D7F0 Offset: 0x1F3BDF0 VA: 0x181F3D7F0
 	public static MapEntity DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F3DD20 Offset: 0x1F3C320 VA: 0x181F3DD20
+	// RVA: 0x1F3DB60 Offset: 0x1F3C160 VA: 0x181F3DB60
 	public static MapEntity DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F3E180 Offset: 0x1F3C780 VA: 0x181F3E180
+	// RVA: 0x1F3DFC0 Offset: 0x1F3C5C0 VA: 0x181F3DFC0
 	public static MapEntity Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F3E6F0 Offset: 0x1F3CCF0 VA: 0x181F3E6F0
+	// RVA: 0x1F3E530 Offset: 0x1F3CB30 VA: 0x181F3E530
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F3EF60 Offset: 0x1F3D560 VA: 0x181F3EF60 Slot: 12
+	// RVA: 0x1F3EDA0 Offset: 0x1F3D3A0 VA: 0x181F3EDA0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F3EF80 Offset: 0x1F3D580 VA: 0x181F3EF80 Slot: 13
+	// RVA: 0x1F3EDC0 Offset: 0x1F3D3C0 VA: 0x181F3EDC0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, MapEntity previous) { }
 
-	// RVA: 0x1F3E710 Offset: 0x1F3CD10 VA: 0x181F3E710 Slot: 14
+	// RVA: 0x1F3E550 Offset: 0x1F3CB50 VA: 0x181F3E550 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F3E080 Offset: 0x1F3C680 VA: 0x181F3E080
+	// RVA: 0x1F3DEC0 Offset: 0x1F3C4C0 VA: 0x181F3DEC0
 	public static MapEntity Deserialize(byte[] buffer, MapEntity instance, bool isDelta = False) { }
 
-	// RVA: 0x1F3E2A0 Offset: 0x1F3C8A0 VA: 0x181F3E2A0
+	// RVA: 0x1F3E0E0 Offset: 0x1F3C6E0 VA: 0x181F3E0E0
 	public static MapEntity Deserialize(Stream stream, MapEntity instance, bool isDelta) { }
 
-	// RVA: 0x1F3DA30 Offset: 0x1F3C030 VA: 0x181F3DA30
+	// RVA: 0x1F3D870 Offset: 0x1F3BE70 VA: 0x181F3D870
 	public static MapEntity DeserializeLengthDelimited(Stream stream, MapEntity instance, bool isDelta) { }
 
-	// RVA: 0x1F3DDB0 Offset: 0x1F3C3B0 VA: 0x181F3DDB0
+	// RVA: 0x1F3DBF0 Offset: 0x1F3C1F0 VA: 0x181F3DBF0
 	public static MapEntity DeserializeLength(Stream stream, int length, MapEntity instance, bool isDelta) { }
 
-	// RVA: 0x1F3E9D0 Offset: 0x1F3CFD0 VA: 0x181F3E9D0
+	// RVA: 0x1F3E810 Offset: 0x1F3CE10 VA: 0x181F3E810
 	public static void SerializeDelta(Stream stream, MapEntity instance, MapEntity previous) { }
 
-	// RVA: 0x1F3ED70 Offset: 0x1F3D370 VA: 0x181F3ED70
+	// RVA: 0x1F3EBB0 Offset: 0x1F3D1B0 VA: 0x181F3EBB0
 	public static void Serialize(Stream stream, MapEntity instance) { }
 
-	// RVA: 0x1F3EF50 Offset: 0x1F3D550 VA: 0x181F3EF50
+	// RVA: 0x1F3ED90 Offset: 0x1F3D390 VA: 0x181F3ED90
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F3EF60 Offset: 0x1F3D560 VA: 0x181F3EF60
+	// RVA: 0x1F3EDA0 Offset: 0x1F3D3A0 VA: 0x181F3EDA0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F3EC60 Offset: 0x1F3D260 VA: 0x181F3EC60
+	// RVA: 0x1F3EAA0 Offset: 0x1F3D0A0 VA: 0x181F3EAA0
 	public static byte[] SerializeToBytes(MapEntity instance) { }
 
-	// RVA: 0x1F3EBB0 Offset: 0x1F3D1B0 VA: 0x181F3EBB0
+	// RVA: 0x1F3E9F0 Offset: 0x1F3CFF0 VA: 0x181F3E9F0
 	public static void SerializeLengthDelimited(Stream stream, MapEntity instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80

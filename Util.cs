@@ -11,7 +11,7 @@ public static class Util // TypeDefIndex: 11649
 
 	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x589E40 Offset: 0x588440 VA: 0x180589E40
 	public static string ToErrorMessage(NotificationSendResult result) { }
 

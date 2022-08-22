@@ -16,49 +16,49 @@ internal struct ColorTween : ITweenValue // TypeDefIndex: 5039
 
 	// Methods
 
-	// RVA: 0x116F80 Offset: 0x116380 VA: 0x180116F80
+	// RVA: 0x116F00 Offset: 0x116300 VA: 0x180116F00
 	public Color get_startColor() { }
 
-	// RVA: 0x116FB0 Offset: 0x1163B0 VA: 0x180116FB0
+	// RVA: 0x116F30 Offset: 0x116330 VA: 0x180116F30
 	public void set_startColor(Color value) { }
 
-	// RVA: 0x116F90 Offset: 0x116390 VA: 0x180116F90
+	// RVA: 0x116F10 Offset: 0x116310 VA: 0x180116F10
 	public Color get_targetColor() { }
 
-	// RVA: 0x116FC0 Offset: 0x1163C0 VA: 0x180116FC0
+	// RVA: 0x116F40 Offset: 0x116340 VA: 0x180116F40
 	public void set_targetColor(Color value) { }
 
-	// RVA: 0xF3F50 Offset: 0xF3350 VA: 0x1800F3F50
+	// RVA: 0xF3ED0 Offset: 0xF32D0 VA: 0x1800F3ED0
 	public ColorTween.ColorTweenMode get_tweenMode() { }
 
-	// RVA: 0xF3F80 Offset: 0xF3380 VA: 0x1800F3F80
+	// RVA: 0xF3F00 Offset: 0xF3300 VA: 0x1800F3F00
 	public void set_tweenMode(ColorTween.ColorTweenMode value) { }
 
-	// RVA: 0x116E60 Offset: 0x116260 VA: 0x180116E60 Slot: 6
+	// RVA: 0x116DE0 Offset: 0x1161E0 VA: 0x180116DE0 Slot: 6
 	public float get_duration() { }
 
-	// RVA: 0x116FA0 Offset: 0x1163A0 VA: 0x180116FA0
+	// RVA: 0x116F20 Offset: 0x116320 VA: 0x180116F20
 	public void set_duration(float value) { }
 
-	// RVA: 0x116E70 Offset: 0x116270 VA: 0x180116E70 Slot: 5
+	// RVA: 0x116DF0 Offset: 0x1161F0 VA: 0x180116DF0 Slot: 5
 	public bool get_ignoreTimeScale() { }
 
-	// RVA: 0xF1580 Offset: 0xF0980 VA: 0x1800F1580
+	// RVA: 0xF1500 Offset: 0xF0900 VA: 0x1800F1500
 	public void set_ignoreTimeScale(bool value) { }
 
-	// RVA: 0x19E570 Offset: 0x19D970 VA: 0x18019E570 Slot: 4
+	// RVA: 0x19E4F0 Offset: 0x19D8F0 VA: 0x18019E4F0 Slot: 4
 	public void TweenValue(float floatPercentage) { }
 
-	// RVA: 0x19E4C0 Offset: 0x19D8C0 VA: 0x18019E4C0
+	// RVA: 0x19E440 Offset: 0x19D840 VA: 0x18019E440
 	public void AddOnChangedCallback(UnityAction<Color> callback) { }
 
-	// RVA: 0x116E70 Offset: 0x116270 VA: 0x180116E70
+	// RVA: 0x116DF0 Offset: 0x1161F0 VA: 0x180116DF0
 	public bool GetIgnoreTimescale() { }
 
-	// RVA: 0x116E60 Offset: 0x116260 VA: 0x180116E60
+	// RVA: 0x116DE0 Offset: 0x1161E0 VA: 0x180116DE0
 	public float GetDuration() { }
 
-	// RVA: 0xF4FD0 Offset: 0xF43D0 VA: 0x1800F4FD0 Slot: 7
+	// RVA: 0xF4F50 Offset: 0xF4350 VA: 0x1800F4F50 Slot: 7
 	public bool ValidTarget() { }
 
 }
@@ -98,49 +98,49 @@ internal struct ColorTween : ITweenValue // TypeDefIndex: 6750
 
 	// Methods
 
-	// RVA: 0x116F80 Offset: 0x116380 VA: 0x180116F80
+	// RVA: 0x116F00 Offset: 0x116300 VA: 0x180116F00
 	public Color get_startColor() { }
 
-	// RVA: 0x116FB0 Offset: 0x1163B0 VA: 0x180116FB0
+	// RVA: 0x116F30 Offset: 0x116330 VA: 0x180116F30
 	public void set_startColor(Color value) { }
 
-	// RVA: 0x116F90 Offset: 0x116390 VA: 0x180116F90
+	// RVA: 0x116F10 Offset: 0x116310 VA: 0x180116F10
 	public Color get_targetColor() { }
 
-	// RVA: 0x116FC0 Offset: 0x1163C0 VA: 0x180116FC0
+	// RVA: 0x116F40 Offset: 0x116340 VA: 0x180116F40
 	public void set_targetColor(Color value) { }
 
-	// RVA: 0xF3F50 Offset: 0xF3350 VA: 0x1800F3F50
+	// RVA: 0xF3ED0 Offset: 0xF32D0 VA: 0x1800F3ED0
 	public ColorTween.ColorTweenMode get_tweenMode() { }
 
-	// RVA: 0xF3F80 Offset: 0xF3380 VA: 0x1800F3F80
+	// RVA: 0xF3F00 Offset: 0xF3300 VA: 0x1800F3F00
 	public void set_tweenMode(ColorTween.ColorTweenMode value) { }
 
-	// RVA: 0x116E60 Offset: 0x116260 VA: 0x180116E60 Slot: 6
+	// RVA: 0x116DE0 Offset: 0x1161E0 VA: 0x180116DE0 Slot: 6
 	public float get_duration() { }
 
-	// RVA: 0x116FA0 Offset: 0x1163A0 VA: 0x180116FA0
+	// RVA: 0x116F20 Offset: 0x116320 VA: 0x180116F20
 	public void set_duration(float value) { }
 
-	// RVA: 0x116E70 Offset: 0x116270 VA: 0x180116E70 Slot: 5
+	// RVA: 0x116DF0 Offset: 0x1161F0 VA: 0x180116DF0 Slot: 5
 	public bool get_ignoreTimeScale() { }
 
-	// RVA: 0xF1580 Offset: 0xF0980 VA: 0x1800F1580
+	// RVA: 0xF1500 Offset: 0xF0900 VA: 0x1800F1500
 	public void set_ignoreTimeScale(bool value) { }
 
-	// RVA: 0x116E80 Offset: 0x116280 VA: 0x180116E80 Slot: 4
+	// RVA: 0x116E00 Offset: 0x116200 VA: 0x180116E00 Slot: 4
 	public void TweenValue(float floatPercentage) { }
 
-	// RVA: 0x116DB0 Offset: 0x1161B0 VA: 0x180116DB0
+	// RVA: 0x116D30 Offset: 0x116130 VA: 0x180116D30
 	public void AddOnChangedCallback(UnityAction<Color> callback) { }
 
-	// RVA: 0x116E70 Offset: 0x116270 VA: 0x180116E70
+	// RVA: 0x116DF0 Offset: 0x1161F0 VA: 0x180116DF0
 	public bool GetIgnoreTimescale() { }
 
-	// RVA: 0x116E60 Offset: 0x116260 VA: 0x180116E60
+	// RVA: 0x116DE0 Offset: 0x1161E0 VA: 0x180116DE0
 	public float GetDuration() { }
 
-	// RVA: 0xF4FD0 Offset: 0xF43D0 VA: 0x1800F4FD0 Slot: 7
+	// RVA: 0xF4F50 Offset: 0xF4350 VA: 0x1800F4F50 Slot: 7
 	public bool ValidTarget() { }
 
 }

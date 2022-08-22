@@ -10,10 +10,10 @@ internal struct GlobalAchievementPercentagesReady_t : ICallbackData // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x1E94A0 Offset: 0x1E88A0 VA: 0x1801E94A0 Slot: 5
+	// RVA: 0x1E9420 Offset: 0x1E8820 VA: 0x1801E9420 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9490 Offset: 0x1E8890 VA: 0x1801E9490 Slot: 4
+	// RVA: 0x1E9410 Offset: 0x1E8810 VA: 0x1801E9410 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1371A20 Offset: 0x1370020 VA: 0x181371A20

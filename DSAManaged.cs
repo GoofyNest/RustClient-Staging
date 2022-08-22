@@ -12,7 +12,7 @@ internal class DSAManaged : DSA // TypeDefIndex: 78
 	private int counter; // 0x60
 	private bool j_missing; // 0x64
 	private RandomNumberGenerator rng; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private DSAManaged.KeyGeneratedEventHandler KeyGenerated; // 0x70
 
 	// Properties
@@ -64,11 +64,11 @@ internal class DSAManaged : DSA // TypeDefIndex: 78
 	// RVA: 0x17459D0 Offset: 0x1743FD0 VA: 0x1817459D0 Slot: 5
 	protected override void Dispose(bool disposing) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1747600 Offset: 0x1745C00 VA: 0x181747600
 	public void add_KeyGenerated(DSAManaged.KeyGeneratedEventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1747830 Offset: 0x1745E30 VA: 0x181747830
 	public void remove_KeyGenerated(DSAManaged.KeyGeneratedEventHandler value) { }
 

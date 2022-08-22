@@ -1,10 +1,10 @@
 public class ReliableEventSender : StateMachineBehaviour // TypeDefIndex: 9120
 {	// Fields
-	[HeaderAttribute] // RVA: 0xD1270 Offset: 0xD0670 VA: 0x1800D1270
+	[HeaderAttribute] // RVA: 0xD1300 Offset: 0xD0700 VA: 0x1800D1300
 	public string StateEnter; // 0x18
-	[HeaderAttribute] // RVA: 0xD13D0 Offset: 0xD07D0 VA: 0x1800D13D0
+	[HeaderAttribute] // RVA: 0xD1410 Offset: 0xD0810 VA: 0x1800D1410
 	public string MidStateEvent; // 0x20
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float TargetEventTime; // 0x28
 	private bool sentBeginEvent; // 0x2C
 	private float lastTime; // 0x30

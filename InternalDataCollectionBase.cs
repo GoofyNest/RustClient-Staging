@@ -1,11 +1,11 @@
 public class InternalDataCollectionBase : ICollection, IEnumerable // TypeDefIndex: 4167
 {	// Fields
-	internal static readonly CollectionChangeEventArgs s_refreshEventArgs; // 0x2B11350
+	internal static readonly CollectionChangeEventArgs s_refreshEventArgs; // 0x2B10370
 
 	// Properties
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public virtual int Count { get; }
-	[BrowsableAttribute] // RVA: 0x9A8A0 Offset: 0x99CA0 VA: 0x18009A8A0
+	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
 	public object SyncRoot { get; }
 	protected virtual ArrayList List { get; }
 

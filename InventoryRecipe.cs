@@ -9,16 +9,16 @@ public struct InventoryRecipe : IEquatable<InventoryRecipe> // TypeDefIndex: 524
 	// RVA: 0xDE1D10 Offset: 0xDE0310 VA: 0x180DE1D10
 	internal static InventoryRecipe FromString(string part, InventoryDef Result) { }
 
-	// RVA: 0x122ED0 Offset: 0x1222D0 VA: 0x180122ED0
+	// RVA: 0x122E50 Offset: 0x122250 VA: 0x180122E50
 	internal bool ContainsIngredient(InventoryDef inventoryDef) { }
 
-	// RVA: 0x122F50 Offset: 0x122350 VA: 0x180122F50 Slot: 0
+	// RVA: 0x122ED0 Offset: 0x1222D0 VA: 0x180122ED0 Slot: 0
 	public override bool Equals(object p) { }
 
-	// RVA: 0x123000 Offset: 0x122400 VA: 0x180123000 Slot: 2
+	// RVA: 0x122F80 Offset: 0x122380 VA: 0x180122F80 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x122EE0 Offset: 0x1222E0 VA: 0x180122EE0 Slot: 4
+	// RVA: 0x122E60 Offset: 0x122260 VA: 0x180122E60 Slot: 4
 	public bool Equals(InventoryRecipe p) { }
 
 }

@@ -1,6 +1,6 @@
 public class LandmarkInfo : MonoBehaviour // TypeDefIndex: 9961
 {	// Fields
-	[HeaderAttribute] // RVA: 0xAA650 Offset: 0xA9A50 VA: 0x1800AA650
+	[HeaderAttribute] // RVA: 0xAA840 Offset: 0xA9C40 VA: 0x1800AA840
 	public bool shouldDisplayOnMap; // 0x18
 	public bool isLayerSpecific; // 0x19
 	public Translate.Phrase displayPhrase; // 0x20

@@ -6,18 +6,18 @@ public class DefaultContractResolver : IContractResolver // TypeDefIndex: 5991
 	private static readonly DefaultContractResolverState _sharedState; // 0x18
 	private readonly DefaultContractResolverState _instanceState; // 0x10
 	private readonly bool _sharedCache; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private BindingFlags <DefaultMembersSearchFlags>k__BackingField; // 0x1C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <SerializeCompilerGeneratedMembers>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IgnoreSerializableInterface>k__BackingField; // 0x21
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IgnoreSerializableAttribute>k__BackingField; // 0x22
 
 	// Properties
 	internal static IContractResolver Instance { get; }
-	[ObsoleteAttribute] // RVA: 0x7F610 Offset: 0x7EA10 VA: 0x18007F610
+	[ObsoleteAttribute] // RVA: 0x7F6E0 Offset: 0x7EAE0 VA: 0x18007F6E0
 	public BindingFlags DefaultMembersSearchFlags { get; set; }
 	public bool SerializeCompilerGeneratedMembers { get; }
 	public bool IgnoreSerializableInterface { get; }
@@ -28,34 +28,34 @@ public class DefaultContractResolver : IContractResolver // TypeDefIndex: 5991
 	// RVA: 0xE2FFC0 Offset: 0xE2E5C0 VA: 0x180E2FFC0
 	internal static IContractResolver get_Instance() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
 	public BindingFlags get_DefaultMembersSearchFlags() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x95F9F0 Offset: 0x95DFF0 VA: 0x18095F9F0
 	public void set_DefaultMembersSearchFlags(BindingFlags value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xB103F0 Offset: 0xB0E9F0 VA: 0x180B103F0
 	public bool get_SerializeCompilerGeneratedMembers() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xB10400 Offset: 0xB0EA00 VA: 0x180B10400
 	public bool get_IgnoreSerializableInterface() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xB10410 Offset: 0xB0EA10 VA: 0x180B10410
 	public bool get_IgnoreSerializableAttribute() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xE30020 Offset: 0xE2E620 VA: 0x180E30020
 	public void set_IgnoreSerializableAttribute(bool value) { }
 
 	// RVA: 0xE2FF50 Offset: 0xE2E550 VA: 0x180E2FF50
 	public void .ctor() { }
 
-	[ObsoleteAttribute] // RVA: 0x7F460 Offset: 0x7E860 VA: 0x18007F460
+	[ObsoleteAttribute] // RVA: 0x7F530 Offset: 0x7E930 VA: 0x18007F530
 	// RVA: 0xE2FEC0 Offset: 0xE2E4C0 VA: 0x180E2FEC0
 	public void .ctor(bool shareCache) { }
 
@@ -187,11 +187,11 @@ public class DefaultContractResolver : IContractResolver // TypeDefIndex: 5991
 private sealed class DefaultContractResolver.<>c // TypeDefIndex: 5994
 {
 // Namespace: 
-[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 private sealed class DefaultContractResolver.EnumerableDictionaryWrapper.<GetEnumerator>d__2<TEnumeratorKey, TEnumeratorValue> // TypeDefIndex: 5993
 
 // Namespace: 
-[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 [Serializable]
 private sealed class DefaultContractResolver.<>c // TypeDefIndex: 5994
 	// Fields

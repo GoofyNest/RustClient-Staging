@@ -1,26 +1,26 @@
 public sealed class Vignette : PostProcessEffectSettings // TypeDefIndex: 11815
 {	// Fields
-	[TooltipAttribute] // RVA: 0x77980 Offset: 0x76D80 VA: 0x180077980
+	[TooltipAttribute] // RVA: 0x77A90 Offset: 0x76E90 VA: 0x180077A90
 	public VignetteModeParameter mode; // 0x30
-	[TooltipAttribute] // RVA: 0x779F0 Offset: 0x76DF0 VA: 0x1800779F0
+	[TooltipAttribute] // RVA: 0x77B60 Offset: 0x76F60 VA: 0x180077B60
 	public ColorParameter color; // 0x38
-	[TooltipAttribute] // RVA: 0x77B30 Offset: 0x76F30 VA: 0x180077B30
+	[TooltipAttribute] // RVA: 0x77C40 Offset: 0x77040 VA: 0x180077C40
 	public Vector2Parameter center; // 0x40
-	[RangeAttribute] // RVA: 0x77C70 Offset: 0x77070 VA: 0x180077C70
-	[TooltipAttribute] // RVA: 0x77C70 Offset: 0x77070 VA: 0x180077C70
+	[RangeAttribute] // RVA: 0x77DB0 Offset: 0x771B0 VA: 0x180077DB0
+	[TooltipAttribute] // RVA: 0x77DB0 Offset: 0x771B0 VA: 0x180077DB0
 	public FloatParameter intensity; // 0x48
-	[RangeAttribute] // RVA: 0x77E40 Offset: 0x77240 VA: 0x180077E40
-	[TooltipAttribute] // RVA: 0x77E40 Offset: 0x77240 VA: 0x180077E40
+	[RangeAttribute] // RVA: 0x77F40 Offset: 0x77340 VA: 0x180077F40
+	[TooltipAttribute] // RVA: 0x77F40 Offset: 0x77340 VA: 0x180077F40
 	public FloatParameter smoothness; // 0x50
-	[RangeAttribute] // RVA: 0x78040 Offset: 0x77440 VA: 0x180078040
-	[TooltipAttribute] // RVA: 0x78040 Offset: 0x77440 VA: 0x180078040
+	[RangeAttribute] // RVA: 0x78140 Offset: 0x77540 VA: 0x180078140
+	[TooltipAttribute] // RVA: 0x78140 Offset: 0x77540 VA: 0x180078140
 	public FloatParameter roundness; // 0x58
-	[TooltipAttribute] // RVA: 0x78190 Offset: 0x77590 VA: 0x180078190
+	[TooltipAttribute] // RVA: 0x782D0 Offset: 0x776D0 VA: 0x1800782D0
 	public BoolParameter rounded; // 0x60
-	[TooltipAttribute] // RVA: 0x78340 Offset: 0x77740 VA: 0x180078340
+	[TooltipAttribute] // RVA: 0x78480 Offset: 0x77880 VA: 0x180078480
 	public TextureParameter mask; // 0x68
-	[RangeAttribute] // RVA: 0x78470 Offset: 0x77870 VA: 0x180078470
-	[TooltipAttribute] // RVA: 0x78470 Offset: 0x77870 VA: 0x180078470
+	[RangeAttribute] // RVA: 0x78600 Offset: 0x77A00 VA: 0x180078600
+	[TooltipAttribute] // RVA: 0x78600 Offset: 0x77A00 VA: 0x180078600
 	public FloatParameter opacity; // 0x70
 
 	// Methods

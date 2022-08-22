@@ -17,28 +17,28 @@ public static class Translate // TypeDefIndex: 6718
 
 	// Methods
 
-	// RVA: 0x2320C50 Offset: 0x231F250 VA: 0x182320C50
+	// RVA: 0x2320A90 Offset: 0x231F090 VA: 0x182320A90
 	public static void Init() { }
 
-	// RVA: 0x2320CB0 Offset: 0x231F2B0 VA: 0x182320CB0
+	// RVA: 0x2320AF0 Offset: 0x231F0F0 VA: 0x182320AF0
 	public static void LoadLanguage(string lang) { }
 
-	// RVA: 0x23206B0 Offset: 0x231ECB0 VA: 0x1823206B0
+	// RVA: 0x23204F0 Offset: 0x231EAF0 VA: 0x1823204F0
 	private static void AddLanguageFile(string fileName) { }
 
-	// RVA: 0x2320AB0 Offset: 0x231F0B0 VA: 0x182320AB0
+	// RVA: 0x23208F0 Offset: 0x231EEF0 VA: 0x1823208F0
 	public static string Get(string key, string def) { }
 
-	// RVA: 0x23209A0 Offset: 0x231EFA0 VA: 0x1823209A0
+	// RVA: 0x23207E0 Offset: 0x231EDE0 VA: 0x1823207E0
 	public static string FormatTranslated(Translate.Phrase phrase, string b) { }
 
-	// RVA: 0x2320A50 Offset: 0x231F050 VA: 0x182320A50
+	// RVA: 0x2320890 Offset: 0x231EE90 VA: 0x182320890
 	public static string GetLanguage() { }
 
-	// RVA: 0x2320E00 Offset: 0x231F400 VA: 0x182320E00
+	// RVA: 0x2320C40 Offset: 0x231F240 VA: 0x182320C40
 	public static void SetLanguage(string str) { }
 
-	// RVA: 0x2320F10 Offset: 0x231F510 VA: 0x182320F10
+	// RVA: 0x2320D50 Offset: 0x231F350 VA: 0x182320D50
 	private static void .cctor() { }
 
 }
@@ -46,7 +46,7 @@ public static class Translate // TypeDefIndex: 6718
 public class Translate.Phrase // TypeDefIndex: 6719
 {	// Fields
 	public string token; // 0x10
-	[TextAreaAttribute] // RVA: 0x72110 Offset: 0x71510 VA: 0x180072110
+	[TextAreaAttribute] // RVA: 0x721B0 Offset: 0x715B0 VA: 0x1800721B0
 	public string english; // 0x18
 
 	// Properties
@@ -54,7 +54,7 @@ public class Translate.Phrase // TypeDefIndex: 6719
 
 	// Methods
 
-	// RVA: 0x2320430 Offset: 0x231EA30 VA: 0x182320430 Slot: 4
+	// RVA: 0x2320270 Offset: 0x231E870 VA: 0x182320270 Slot: 4
 	public virtual string get_translated() { }
 
 	// RVA: 0xD5B2D0 Offset: 0xD598D0 VA: 0x180D5B2D0
@@ -63,7 +63,7 @@ public class Translate.Phrase // TypeDefIndex: 6719
 	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
 	public void .ctor(string t = "", string eng = "") { }
 
-	// RVA: 0x2320630 Offset: 0x231EC30 VA: 0x182320630
+	// RVA: 0x2320470 Offset: 0x231EA70 VA: 0x182320470
 	public static Translate.Phrase op_Implicit(string b) { }
 
 }

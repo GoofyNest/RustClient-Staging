@@ -6,13 +6,13 @@ public struct Cylinder // TypeDefIndex: 6587
 
 	// Methods
 
-	// RVA: 0x22C070 Offset: 0x22B470 VA: 0x18022C070
+	// RVA: 0x22BFF0 Offset: 0x22B3F0 VA: 0x18022BFF0
 	public void .ctor(Vector3 position, float radius, float extent) { }
 
-	// RVA: 0x22C0D0 Offset: 0x22B4D0 VA: 0x18022C0D0
+	// RVA: 0x22C050 Offset: 0x22B450 VA: 0x18022C050
 	public bool Contains(Vector3 target) { }
 
-	// RVA: 0x22C090 Offset: 0x22B490 VA: 0x18022C090
+	// RVA: 0x22C010 Offset: 0x22B410 VA: 0x18022C010
 	public Vector3 ClosestPoint(Vector3 target) { }
 
 }

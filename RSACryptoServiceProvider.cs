@@ -11,7 +11,7 @@ public sealed class RSACryptoServiceProvider : RSA // TypeDefIndex: 983
 	// Properties
 	public static bool UseMachineKeyStore { get; }
 	public override int KeySize { get; }
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public bool PublicOnly { get; }
 
 	// Methods

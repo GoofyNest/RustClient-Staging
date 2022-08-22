@@ -14,13 +14,13 @@ public class EffectData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 627
 
 	// Methods
 
-	// RVA: 0x201A950 Offset: 0x2018F50 VA: 0x18201A950
+	// RVA: 0x201A790 Offset: 0x2018D90 VA: 0x18201A790
 	public static void ResetToPool(EffectData instance) { }
 
-	// RVA: 0x201AA50 Offset: 0x2019050 VA: 0x18201AA50
+	// RVA: 0x201A890 Offset: 0x2018E90 VA: 0x18201A890
 	public void ResetToPool() { }
 
-	// RVA: 0x201A450 Offset: 0x2018A50 VA: 0x18201A450 Slot: 9
+	// RVA: 0x201A290 Offset: 0x2018890 VA: 0x18201A290 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -29,64 +29,64 @@ public class EffectData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 627
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x2018A70 Offset: 0x2017070 VA: 0x182018A70
+	// RVA: 0x20188B0 Offset: 0x2016EB0 VA: 0x1820188B0
 	public void CopyTo(EffectData instance) { }
 
-	// RVA: 0x2018AD0 Offset: 0x20170D0 VA: 0x182018AD0
+	// RVA: 0x2018910 Offset: 0x2016F10 VA: 0x182018910
 	public EffectData Copy() { }
 
-	// RVA: 0x2019D60 Offset: 0x2018360 VA: 0x182019D60
+	// RVA: 0x2019BA0 Offset: 0x20181A0 VA: 0x182019BA0
 	public static EffectData Deserialize(Stream stream) { }
 
-	// RVA: 0x2018B90 Offset: 0x2017190 VA: 0x182018B90
+	// RVA: 0x20189D0 Offset: 0x2016FD0 VA: 0x1820189D0
 	public static EffectData DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2019040 Offset: 0x2017640 VA: 0x182019040
+	// RVA: 0x2018E80 Offset: 0x2017480 VA: 0x182018E80
 	public static EffectData DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2019910 Offset: 0x2017F10 VA: 0x182019910
+	// RVA: 0x2019750 Offset: 0x2017D50 VA: 0x182019750
 	public static EffectData Deserialize(byte[] buffer) { }
 
-	// RVA: 0x201A5D0 Offset: 0x2018BD0 VA: 0x18201A5D0
+	// RVA: 0x201A410 Offset: 0x2018A10 VA: 0x18201A410
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x201B660 Offset: 0x2019C60 VA: 0x18201B660 Slot: 12
+	// RVA: 0x201B4A0 Offset: 0x2019AA0 VA: 0x18201B4A0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x201B680 Offset: 0x2019C80 VA: 0x18201B680 Slot: 13
+	// RVA: 0x201B4C0 Offset: 0x2019AC0 VA: 0x18201B4C0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, EffectData previous) { }
 
-	// RVA: 0x201A930 Offset: 0x2018F30 VA: 0x18201A930 Slot: 14
+	// RVA: 0x201A770 Offset: 0x2018D70 VA: 0x18201A770 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20194D0 Offset: 0x2017AD0 VA: 0x1820194D0
+	// RVA: 0x2019310 Offset: 0x2017910 VA: 0x182019310
 	public static EffectData Deserialize(byte[] buffer, EffectData instance, bool isDelta = False) { }
 
-	// RVA: 0x201A0F0 Offset: 0x20186F0 VA: 0x18201A0F0
+	// RVA: 0x2019F30 Offset: 0x2018530 VA: 0x182019F30
 	public static EffectData Deserialize(Stream stream, EffectData instance, bool isDelta) { }
 
-	// RVA: 0x2018C10 Offset: 0x2017210 VA: 0x182018C10
+	// RVA: 0x2018A50 Offset: 0x2017050 VA: 0x182018A50
 	public static EffectData DeserializeLengthDelimited(Stream stream, EffectData instance, bool isDelta) { }
 
-	// RVA: 0x20190D0 Offset: 0x20176D0 VA: 0x1820190D0
+	// RVA: 0x2018F10 Offset: 0x2017510 VA: 0x182018F10
 	public static EffectData DeserializeLength(Stream stream, int length, EffectData instance, bool isDelta) { }
 
-	// RVA: 0x201AB50 Offset: 0x2019150 VA: 0x18201AB50
+	// RVA: 0x201A990 Offset: 0x2018F90 VA: 0x18201A990
 	public static void SerializeDelta(Stream stream, EffectData instance, EffectData previous) { }
 
-	// RVA: 0x201B310 Offset: 0x2019910 VA: 0x18201B310
+	// RVA: 0x201B150 Offset: 0x2019750 VA: 0x18201B150
 	public static void Serialize(Stream stream, EffectData instance) { }
 
-	// RVA: 0x201B650 Offset: 0x2019C50 VA: 0x18201B650
+	// RVA: 0x201B490 Offset: 0x2019A90 VA: 0x18201B490
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x201B660 Offset: 0x2019C60 VA: 0x18201B660
+	// RVA: 0x201B4A0 Offset: 0x2019AA0 VA: 0x18201B4A0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x201B200 Offset: 0x2019800 VA: 0x18201B200
+	// RVA: 0x201B040 Offset: 0x2019640 VA: 0x18201B040
 	public static byte[] SerializeToBytes(EffectData instance) { }
 
-	// RVA: 0x201B150 Offset: 0x2019750 VA: 0x18201B150
+	// RVA: 0x201AF90 Offset: 0x2019590 VA: 0x18201AF90
 	public static void SerializeLengthDelimited(Stream stream, EffectData instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -107,7 +107,7 @@ public class EffectsBenchmarkScene : BenchmarkScene // TypeDefIndex: 8251
 	// RVA: 0xABEE50 Offset: 0xABD450 VA: 0x180ABEE50 Slot: 7
 	public override void StartBenchmark() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA1020 Offset: 0xA0420 VA: 0x1800A1020
+	[IteratorStateMachineAttribute] // RVA: 0xA10B0 Offset: 0xA04B0 VA: 0x1800A10B0
 	// RVA: 0xABEDD0 Offset: 0xABD3D0 VA: 0x180ABEDD0
 	private IEnumerator DoEffectBenchmark() { }
 
@@ -132,26 +132,26 @@ private sealed class EffectsBenchmarkScene.<DoEffectBenchmark>d__6 : IEnumerator
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0xAC56D0 Offset: 0xAC3CD0 VA: 0x180AC56D0 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xAC5990 Offset: 0xAC3F90 VA: 0x180AC5990 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
@@ -294,7 +294,7 @@ public static class Effect.server // TypeDefIndex: 9334
 
 public class EffectAudioPerspectiveSwitcher : MonoBehaviour, IEffect, IPrefabPreProcess // TypeDefIndex: 9335
 {	// Fields
-	[HideInInspector] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public EffectParentToWeaponBone parentToWeaponComponent; // 0x18
 
 	// Methods
@@ -322,7 +322,7 @@ public class EffectAudioPerspectiveSwitcher : MonoBehaviour, IEffect, IPrefabPre
 public static class EffectLibrary // TypeDefIndex: 9338
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xABAB10 Offset: 0xAB9110 VA: 0x180ABAB10
 	private static void SetupEffect(GameObject go, Effect effect) { }
 
@@ -412,7 +412,7 @@ public class EffectScaleWithCameraDistance : MonoBehaviour, IEffect // TypeDefIn
 	public float maxScale; // 0x1C
 	public float scaleStartDistance; // 0x20
 	public float scaleEndDistance; // 0x24
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static bool on; // 0x0
 
 	// Methods
@@ -476,11 +476,11 @@ public class EffectDictionary // TypeDefIndex: 9855
 
 public class EffectRecycle : BaseMonoBehaviour, IClientComponent, IRagdollInhert, IEffectRecycle, IOnParentDestroying // TypeDefIndex: 9856
 {	// Fields
-	[FormerlySerializedAsAttribute] // RVA: 0x9F5D0 Offset: 0x9E9D0 VA: 0x18009F5D0
-	[ReadOnlyAttribute] // RVA: 0x9F5D0 Offset: 0x9E9D0 VA: 0x18009F5D0
+	[FormerlySerializedAsAttribute] // RVA: 0x9F790 Offset: 0x9EB90 VA: 0x18009F790
+	[ReadOnlyAttribute] // RVA: 0x9F790 Offset: 0x9EB90 VA: 0x18009F790
 	public float detachTime; // 0x18
-	[FormerlySerializedAsAttribute] // RVA: 0x9F5D0 Offset: 0x9E9D0 VA: 0x18009F5D0
-	[ReadOnlyAttribute] // RVA: 0x9F5D0 Offset: 0x9E9D0 VA: 0x18009F5D0
+	[FormerlySerializedAsAttribute] // RVA: 0x9F790 Offset: 0x9EB90 VA: 0x18009F790
+	[ReadOnlyAttribute] // RVA: 0x9F790 Offset: 0x9EB90 VA: 0x18009F790
 	public float recycleTime; // 0x1C
 	public EffectRecycle.PlayMode playMode; // 0x20
 	public EffectRecycle.ParentDestroyBehaviour onParentDestroyed; // 0x24
@@ -592,38 +592,38 @@ public class EffectRecycleLite : BasePrefab, IClientComponent, IEffectRecycle, I
 public class Effects : ConsoleSystem // TypeDefIndex: 11910
 {	// Fields
 	private static int _antialiasing; // 0x0
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static bool ao; // 0x4
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static bool bloom; // 0x5
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static bool lensdirt; // 0x6
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static bool motionblur; // 0x7
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static bool sharpen; // 0x8
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static bool shafts; // 0x9
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static bool vignet; // 0xA
 	public const bool color = True;
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static bool footsteps; // 0xB
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static int maxgibs; // 0xC
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static int maxGibDist; // 0x10
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static int minGibLife; // 0x14
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static int maxGibLife; // 0x18
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static bool otherplayerslightflares; // 0x1C
-	[ClientVar] // RVA: 0x98160 Offset: 0x97560 VA: 0x180098160
+	[ClientVar] // RVA: 0x982E0 Offset: 0x976E0 VA: 0x1800982E0
 	public static bool showoutlines; // 0x1D
 
 	// Properties
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static int antialiasing { get; set; }
 	public static bool requireMotionVectors { get; }
 	public static Effects.AntiAliasingType AntiAliasingMode { get; set; }
@@ -648,7 +648,7 @@ public class Effects : ConsoleSystem // TypeDefIndex: 11910
 	// RVA: 0x6DBD70 Offset: 0x6DA370 VA: 0x1806DBD70
 	public static int ClearAllGibs() { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x6DC020 Offset: 0x6DA620 VA: 0x1806DC020
 	public static void ClearAllGibs(ConsoleSystem.Arg arg) { }
 

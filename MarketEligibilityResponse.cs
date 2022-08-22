@@ -13,10 +13,10 @@ internal struct MarketEligibilityResponse_t : ICallbackData // TypeDefIndex: 530
 
 	// Methods
 
-	// RVA: 0x1EB8B0 Offset: 0x1EACB0 VA: 0x1801EB8B0 Slot: 5
+	// RVA: 0x1EB830 Offset: 0x1EAC30 VA: 0x1801EB830 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EB8A0 Offset: 0x1EACA0 VA: 0x1801EB8A0 Slot: 4
+	// RVA: 0x1EB820 Offset: 0x1EAC20 VA: 0x1801EB820 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1373E30 Offset: 0x1372430 VA: 0x181373E30

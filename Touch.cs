@@ -23,16 +23,16 @@ public struct Touch // TypeDefIndex: 4073
 
 	// Methods
 
-	// RVA: 0x13A620 Offset: 0x139A20 VA: 0x18013A620
+	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0
 	public int get_fingerId() { }
 
-	// RVA: 0x240B50 Offset: 0x23FF50 VA: 0x180240B50
+	// RVA: 0x240AD0 Offset: 0x23FED0 VA: 0x180240AD0
 	public Vector2 get_position() { }
 
-	// RVA: 0x240B40 Offset: 0x23FF40 VA: 0x180240B40
+	// RVA: 0x240AC0 Offset: 0x23FEC0 VA: 0x180240AC0
 	public TouchPhase get_phase() { }
 
-	// RVA: 0x240B70 Offset: 0x23FF70 VA: 0x180240B70
+	// RVA: 0x240AF0 Offset: 0x23FEF0 VA: 0x180240AF0
 	public TouchType get_type() { }
 
 }

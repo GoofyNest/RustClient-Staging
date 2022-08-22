@@ -5,7 +5,7 @@ public sealed class Evidence : ICollection, IEnumerable // TypeDefIndex: 910
 	private ArrayList assemblyEvidenceList; // 0x20
 
 	// Properties
-	[ObsoleteAttribute] // RVA: 0x9E1A0 Offset: 0x9D5A0 VA: 0x18009E1A0
+	[ObsoleteAttribute] // RVA: 0x9E110 Offset: 0x9D510 VA: 0x18009E110
 	public int Count { get; }
 	public object SyncRoot { get; }
 
@@ -20,11 +20,11 @@ public sealed class Evidence : ICollection, IEnumerable // TypeDefIndex: 910
 	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 6
 	public object get_SyncRoot() { }
 
-	[ObsoleteAttribute] // RVA: 0x9E1A0 Offset: 0x9D5A0 VA: 0x18009E1A0
+	[ObsoleteAttribute] // RVA: 0x9E110 Offset: 0x9D510 VA: 0x18009E110
 	// RVA: 0x17B3D50 Offset: 0x17B2350 VA: 0x1817B3D50 Slot: 4
 	public void CopyTo(Array array, int index) { }
 
-	[ObsoleteAttribute] // RVA: 0x9E1A0 Offset: 0x9D5A0 VA: 0x18009E1A0
+	[ObsoleteAttribute] // RVA: 0x9E110 Offset: 0x9D510 VA: 0x18009E110
 	// RVA: 0x17B3E10 Offset: 0x17B2410 VA: 0x1817B3E10 Slot: 7
 	public IEnumerator GetEnumerator() { }
 

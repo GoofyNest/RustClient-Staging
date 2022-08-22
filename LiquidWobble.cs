@@ -5,7 +5,7 @@ public class LiquidWobble : MonoBehaviour // TypeDefIndex: 10685
 	private Vector3 velocity; // 0x2C
 	private Vector3 lastRot; // 0x38
 	private Vector3 angularVelocity; // 0x44
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float CurrentWaterLevelFraction; // 0x50
 	public float MinWaterLevel; // 0x54
 	public float MaxWaterLevel; // 0x58

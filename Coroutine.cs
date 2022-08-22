@@ -10,7 +10,7 @@ public sealed class Coroutine : YieldInstruction // TypeDefIndex: 3509
 	// RVA: 0x1826A00 Offset: 0x1825000 VA: 0x181826A00 Slot: 1
 	protected override void Finalize() { }
 
-	[FreeFunctionAttribute] // RVA: 0xBBAE0 Offset: 0xBAEE0 VA: 0x1800BBAE0
+	[FreeFunctionAttribute] // RVA: 0xBBB70 Offset: 0xBAF70 VA: 0x1800BBB70
 	// RVA: 0x1826AB0 Offset: 0x18250B0 VA: 0x181826AB0
 	private static void ReleaseCoroutine(IntPtr ptr) { }
 

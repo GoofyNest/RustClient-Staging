@@ -37,8 +37,8 @@ public class DiagnosticsConSys : ConsoleSystem // TypeDefIndex: 9276
 	// RVA: 0x9821D0 Offset: 0x9807D0 VA: 0x1809821D0
 	private static void DumpGameObjectRecursive(StringBuilder str, Transform tx, int indent, bool includeComponents = False) { }
 
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	// RVA: 0x985140 Offset: 0x983740 VA: 0x180985140
 	public static void dump(ConsoleSystem.Arg args) { }
 

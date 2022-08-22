@@ -1,6 +1,6 @@
 public sealed class TrackChunk : MidiChunk // TypeDefIndex: 7511
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly EventsCollection <Events>k__BackingField; // 0x18
 
 	// Properties
@@ -11,7 +11,7 @@ public sealed class TrackChunk : MidiChunk // TypeDefIndex: 7511
 	// RVA: 0x13AA310 Offset: 0x13A8910 VA: 0x1813AA310
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public EventsCollection get_Events() { }
 

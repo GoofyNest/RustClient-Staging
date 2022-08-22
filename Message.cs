@@ -16,7 +16,7 @@ public class Message // TypeDefIndex: 6693
 	// RVA: 0x855180 Offset: 0x853780 VA: 0x180855180
 	public NetWrite get_write() { }
 
-	// RVA: 0x220FC20 Offset: 0x220E220 VA: 0x18220FC20 Slot: 4
+	// RVA: 0x220FA60 Offset: 0x220E060 VA: 0x18220FA60 Slot: 4
 	public virtual void Clear() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

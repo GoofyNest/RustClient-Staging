@@ -4,19 +4,19 @@ public class LiquidWeaponEffects : MonoBehaviour // TypeDefIndex: 9470
 	public ParticleSystem EmissionPS; // 0x20
 	public ParticleSystem InnerEmissionPS; // 0x28
 	public LiquidWobble Liquid; // 0x30
-	[HeaderAttribute] // RVA: 0x71B70 Offset: 0x70F70 VA: 0x180071B70
+	[HeaderAttribute] // RVA: 0x71C70 Offset: 0x71070 VA: 0x180071C70
 	public float MinPressureSpeed; // 0x38
 	public float MaxPressureSpeed; // 0x3C
 	public AnimationCurve PressureSpeedCurve; // 0x40
 	public Vector2 StreamSize; // 0x48
 	public AnimationCurve PressureSizeMultiplierCurve; // 0x50
-	[HeaderAttribute] // RVA: 0x71CF0 Offset: 0x710F0 VA: 0x180071CF0
+	[HeaderAttribute] // RVA: 0x71D90 Offset: 0x71190 VA: 0x180071D90
 	public float MinPressureInnerSpeed; // 0x58
 	public float MaxPressureInnerSpeed; // 0x5C
 	public AnimationCurve InnerPressureSpeedCurve; // 0x60
 	public Vector2 InnerStreamSize; // 0x68
 	public AnimationCurve InnerPressureSizeMultiplierCurve; // 0x70
-	[HeaderAttribute] // RVA: 0x71E00 Offset: 0x71200 VA: 0x180071E00
+	[HeaderAttribute] // RVA: 0x71EA0 Offset: 0x712A0 VA: 0x180071EA0
 	public bool UseImpactSplashEffect; // 0x78
 	public GameObjectRef ImpactSplashEffect; // 0x80
 	public float ImpactSplashEffectInterval; // 0x88
@@ -27,7 +27,7 @@ public class LiquidWeaponEffects : MonoBehaviour // TypeDefIndex: 9470
 	private float pressure; // 0xA0
 	private float nextSplashTime; // 0xA4
 	private float targetWaterLevel; // 0xA8
-	[HeaderAttribute] // RVA: 0x72010 Offset: 0x71410 VA: 0x180072010
+	[HeaderAttribute] // RVA: 0x720C0 Offset: 0x714C0 VA: 0x1800720C0
 	public bool firstPersonSounds; // 0xAC
 	public SoundDefinition shootStartSoundDef; // 0xB0
 	public SoundDefinition shootLoopSoundDef; // 0xB8

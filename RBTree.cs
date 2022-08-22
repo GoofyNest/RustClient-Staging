@@ -30,7 +30,7 @@ private struct RBTree.NodePath<K> // TypeDefIndex: 4289
 	internal void .ctor(int nodeID, int mainTreeNodeID) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF8950 Offset: 0xF7D50 VA: 0x1800F8950
+	|-RVA: 0xF88D0 Offset: 0xF7CD0 VA: 0x1800F88D0
 	|-RBTree.NodePath<int>..ctor
 	|-RBTree.NodePath<object>..ctor
 	*/
@@ -127,10 +127,10 @@ internal struct RBTree.RBTreeEnumerator<K> : IEnumerator<K>, IDisposable, IEnume
 	internal void .ctor(RBTree<K> tree) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20AE30 Offset: 0x20A230 VA: 0x18020AE30
+	|-RVA: 0x20ADB0 Offset: 0x20A1B0 VA: 0x18020ADB0
 	|-RBTree.RBTreeEnumerator<int>..ctor
 	|
-	|-RVA: 0x20ACD0 Offset: 0x20A0D0 VA: 0x18020ACD0
+	|-RVA: 0x20AC50 Offset: 0x20A050 VA: 0x18020AC50
 	|-RBTree.RBTreeEnumerator<object>..ctor
 	*/
 
@@ -138,10 +138,10 @@ internal struct RBTree.RBTreeEnumerator<K> : IEnumerator<K>, IDisposable, IEnume
 	internal void .ctor(RBTree<K> tree, int position) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20AD20 Offset: 0x20A120 VA: 0x18020AD20
+	|-RVA: 0x20ACA0 Offset: 0x20A0A0 VA: 0x18020ACA0
 	|-RBTree.RBTreeEnumerator<int>..ctor
 	|
-	|-RVA: 0x20AE80 Offset: 0x20A280 VA: 0x18020AE80
+	|-RVA: 0x20AE00 Offset: 0x20A200 VA: 0x18020AE00
 	|-RBTree.RBTreeEnumerator<object>..ctor
 	*/
 
@@ -149,7 +149,7 @@ internal struct RBTree.RBTreeEnumerator<K> : IEnumerator<K>, IDisposable, IEnume
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF1F30 Offset: 0xF1330 VA: 0x1800F1F30
+	|-RVA: 0xF1EB0 Offset: 0xF12B0 VA: 0x1800F1EB0
 	|-RBTree.RBTreeEnumerator<int>.Dispose
 	|-RBTree.RBTreeEnumerator<object>.Dispose
 	*/
@@ -158,10 +158,10 @@ internal struct RBTree.RBTreeEnumerator<K> : IEnumerator<K>, IDisposable, IEnume
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20A890 Offset: 0x209C90 VA: 0x18020A890
+	|-RVA: 0x20A810 Offset: 0x209C10 VA: 0x18020A810
 	|-RBTree.RBTreeEnumerator<int>.MoveNext
 	|
-	|-RVA: 0x20A9E0 Offset: 0x209DE0 VA: 0x18020A9E0
+	|-RVA: 0x20A960 Offset: 0x209D60 VA: 0x18020A960
 	|-RBTree.RBTreeEnumerator<object>.MoveNext
 	*/
 
@@ -169,10 +169,10 @@ internal struct RBTree.RBTreeEnumerator<K> : IEnumerator<K>, IDisposable, IEnume
 	public K get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1AE4E0 Offset: 0x1AD8E0 VA: 0x1801AE4E0
+	|-RVA: 0x1AE460 Offset: 0x1AD860 VA: 0x1801AE460
 	|-RBTree.RBTreeEnumerator<int>.get_Current
 	|
-	|-RVA: 0xF3F70 Offset: 0xF3370 VA: 0x1800F3F70
+	|-RVA: 0xF3EF0 Offset: 0xF32F0 VA: 0x1800F3EF0
 	|-RBTree.RBTreeEnumerator<object>.get_Current
 	*/
 
@@ -180,10 +180,10 @@ internal struct RBTree.RBTreeEnumerator<K> : IEnumerator<K>, IDisposable, IEnume
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20AC20 Offset: 0x20A020 VA: 0x18020AC20
+	|-RVA: 0x20ABA0 Offset: 0x209FA0 VA: 0x18020ABA0
 	|-RBTree.RBTreeEnumerator<int>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x20ACA0 Offset: 0x20A0A0 VA: 0x18020ACA0
+	|-RVA: 0x20AC20 Offset: 0x20A020 VA: 0x18020AC20
 	|-RBTree.RBTreeEnumerator<object>.System.Collections.IEnumerator.get_Current
 	*/
 
@@ -191,10 +191,10 @@ internal struct RBTree.RBTreeEnumerator<K> : IEnumerator<K>, IDisposable, IEnume
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20ABB0 Offset: 0x209FB0 VA: 0x18020ABB0
+	|-RVA: 0x20AB30 Offset: 0x209F30 VA: 0x18020AB30
 	|-RBTree.RBTreeEnumerator<int>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x20AB40 Offset: 0x209F40 VA: 0x18020AB40
+	|-RVA: 0x20AAC0 Offset: 0x209EC0 VA: 0x18020AAC0
 	|-RBTree.RBTreeEnumerator<object>.System.Collections.IEnumerator.Reset
 	*/
 

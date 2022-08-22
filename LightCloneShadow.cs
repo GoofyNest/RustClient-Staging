@@ -2,12 +2,12 @@ public class LightCloneShadow : MonoBehaviour // TypeDefIndex: 10684
 {	// Fields
 	public bool cloneShadowMap; // 0x18
 	public string shaderPropNameMap; // 0x20
-	[RangeAttribute] // RVA: 0x711F0 Offset: 0x705F0 VA: 0x1800711F0
+	[RangeAttribute] // RVA: 0x71350 Offset: 0x70750 VA: 0x180071350
 	public int cloneShadowMapDownscale; // 0x28
 	public RenderTexture map; // 0x30
 	public bool cloneShadowMask; // 0x38
 	public string shaderPropNameMask; // 0x40
-	[RangeAttribute] // RVA: 0x711F0 Offset: 0x705F0 VA: 0x1800711F0
+	[RangeAttribute] // RVA: 0x71350 Offset: 0x70750 VA: 0x180071350
 	public int cloneShadowMaskDownscale; // 0x48
 	public RenderTexture mask; // 0x50
 	private Light light; // 0x58

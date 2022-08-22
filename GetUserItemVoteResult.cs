@@ -13,10 +13,10 @@ internal struct GetUserItemVoteResult_t : ICallbackData // TypeDefIndex: 5438
 
 	// Methods
 
-	// RVA: 0x1E9270 Offset: 0x1E8670 VA: 0x1801E9270 Slot: 5
+	// RVA: 0x1E91F0 Offset: 0x1E85F0 VA: 0x1801E91F0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9260 Offset: 0x1E8660 VA: 0x1801E9260 Slot: 4
+	// RVA: 0x1E91E0 Offset: 0x1E85E0 VA: 0x1801E91E0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x13718E0 Offset: 0x136FEE0 VA: 0x1813718E0

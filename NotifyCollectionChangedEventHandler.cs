@@ -1,7 +1,7 @@
 public sealed class NotifyCollectionChangedEventHandler : MulticastDelegate // TypeDefIndex: 5861
 {
 // Namespace: System.ComponentModel
-[PreserveAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 public sealed class NotifyCollectionChangedEventHandler : MulticastDelegate // TypeDefIndex: 5861
 	// Methods
 

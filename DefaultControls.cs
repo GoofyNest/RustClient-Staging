@@ -77,7 +77,7 @@ public static class DefaultControls // TypeDefIndex: 4917
 
 private class DefaultControls.DefaultRuntimeFactory : DefaultControls.IFactoryControls // TypeDefIndex: 4919
 {	// Fields
-	public static DefaultControls.IFactoryControls Default; // 0x2B1155C
+	public static DefaultControls.IFactoryControls Default; // 0x2B1057C
 
 	// Methods
 

@@ -3,7 +3,7 @@ public class TriggerSafeZone : TriggerBase // TypeDefIndex: 10046
 	public static List<TriggerSafeZone> allSafeZones; // 0x0
 	public float maxDepth; // 0x30
 	public float maxAltitude; // 0x34
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Collider <triggerCollider>k__BackingField; // 0x38
 
 	// Properties
@@ -11,11 +11,11 @@ public class TriggerSafeZone : TriggerBase // TypeDefIndex: 10046
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
 	public Collider get_triggerCollider() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
 	private void set_triggerCollider(Collider value) { }
 

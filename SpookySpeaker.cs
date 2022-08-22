@@ -20,24 +20,24 @@ public class SpookySpeaker : BaseCombatEntity // TypeDefIndex: 8453
 	// RVA: 0xA81060 Offset: 0xA7F660 VA: 0x180A81060 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA81490 Offset: 0xA7FA90 VA: 0x180A81490
 	public void PlaySpookySound() { }
 
-	[BaseEntity.Menu] // RVA: 0x8D420 Offset: 0x8C820 VA: 0x18008D420
-	[BaseEntity.Menu.Description] // RVA: 0x8D420 Offset: 0x8C820 VA: 0x18008D420
-	[BaseEntity.Menu.Icon] // RVA: 0x8D420 Offset: 0x8C820 VA: 0x18008D420
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8D420 Offset: 0x8C820 VA: 0x18008D420
+	[BaseEntity.Menu] // RVA: 0x8D4F0 Offset: 0x8C8F0 VA: 0x18008D4F0
+	[BaseEntity.Menu.Description] // RVA: 0x8D4F0 Offset: 0x8C8F0 VA: 0x18008D4F0
+	[BaseEntity.Menu.Icon] // RVA: 0x8D4F0 Offset: 0x8C8F0 VA: 0x18008D4F0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8D4F0 Offset: 0x8C8F0 VA: 0x18008D4F0
 	// RVA: 0xA81010 Offset: 0xA7F610 VA: 0x180A81010
 	public void Menu_SoundOn(BasePlayer player) { }
 
 	// RVA: 0x7A0080 Offset: 0x79E680 VA: 0x1807A0080
 	public bool Menu_SoundOn_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8D680 Offset: 0x8CA80 VA: 0x18008D680
-	[BaseEntity.Menu.Description] // RVA: 0x8D680 Offset: 0x8CA80 VA: 0x18008D680
-	[BaseEntity.Menu.Icon] // RVA: 0x8D680 Offset: 0x8CA80 VA: 0x18008D680
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8D680 Offset: 0x8CA80 VA: 0x18008D680
+	[BaseEntity.Menu] // RVA: 0x8D790 Offset: 0x8CB90 VA: 0x18008D790
+	[BaseEntity.Menu.Description] // RVA: 0x8D790 Offset: 0x8CB90 VA: 0x18008D790
+	[BaseEntity.Menu.Icon] // RVA: 0x8D790 Offset: 0x8CB90 VA: 0x18008D790
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8D790 Offset: 0x8CB90 VA: 0x18008D790
 	// RVA: 0xA80FC0 Offset: 0xA7F5C0 VA: 0x180A80FC0
 	public void Menu_SoundOff(BasePlayer player) { }
 

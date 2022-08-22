@@ -23,7 +23,7 @@ public class ServerAdminPlayerEntry : MonoBehaviour // TypeDefIndex: 12078
 	public RustText PlayerName; // 0x18
 	public RustText Ping; // 0x20
 	public RustButton Button; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Admin.PlayerInfo <CachedInfo>k__BackingField; // 0x30
 	private Action selectedAction; // 0x70
 	private Action deselectedAction; // 0x78
@@ -33,11 +33,11 @@ public class ServerAdminPlayerEntry : MonoBehaviour // TypeDefIndex: 12078
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4C8E90 Offset: 0x4C7490 VA: 0x1804C8E90
 	public Admin.PlayerInfo get_CachedInfo() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4C8EC0 Offset: 0x4C74C0 VA: 0x1804C8EC0
 	private void set_CachedInfo(Admin.PlayerInfo value) { }
 
@@ -79,7 +79,7 @@ public class ServerAdminPlayerInfo : MonoBehaviour // TypeDefIndex: 12080
 	public RustText Health; // 0x50
 	public RustInput KickReasonInput; // 0x58
 	public RustInput BanReasonInput; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Admin.PlayerInfo <CachedInfo>k__BackingField; // 0x68
 
 	// Properties
@@ -87,11 +87,11 @@ public class ServerAdminPlayerInfo : MonoBehaviour // TypeDefIndex: 12080
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4C9420 Offset: 0x4C7A20 VA: 0x1804C9420
 	public Admin.PlayerInfo get_CachedInfo() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4C9450 Offset: 0x4C7A50 VA: 0x1804C9450
 	public void set_CachedInfo(Admin.PlayerInfo value) { }
 
@@ -182,11 +182,11 @@ public class ServerAdminUGCEntryAudio : ServerAdminUGCEntry // TypeDefIndex: 120
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4C97D0 Offset: 0x4C7DD0 VA: 0x1804C97D0
 	private void <OnVisible>b__5_0(byte[] bytes) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4C9870 Offset: 0x4C7E70 VA: 0x1804C9870
 	private void <OnVisible>b__5_1(AudioClip clip, bool b) { }
 
@@ -221,7 +221,7 @@ public class ServerAdminUGCEntryImage : ServerAdminUGCEntry // TypeDefIndex: 120
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4C9F70 Offset: 0x4C8570 VA: 0x1804C9F70
 	private void <GetDataForCurrentIndex>b__7_0(byte[] bytes) { }
 
@@ -407,7 +407,7 @@ public class ServerAdminUI : SingletonComponent<ServerAdminUI> // TypeDefIndex: 
 	// RVA: 0x4CD460 Offset: 0x4CBA60 VA: 0x1804CD460
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4CD190 Offset: 0x4CB790 VA: 0x1804CD190
 	private GameObjectRef <PopulateConvarInfo>b__38_0(Admin.ServerConvarInfo convarInfo) { }
 

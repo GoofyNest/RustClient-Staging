@@ -1,6 +1,6 @@
 public static class ErrorLogger // TypeDefIndex: 9281
 {	// Fields
-	private static bool installed; // 0x2B11168
+	private static bool installed; // 0x2B10188
 
 	// Methods
 

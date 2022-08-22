@@ -10,16 +10,16 @@ public struct StyleFloat : IStyleValue<float>, IEquatable<StyleFloat> // TypeDef
 
 	// Methods
 
-	// RVA: 0x13A850 Offset: 0x139C50 VA: 0x18013A850 Slot: 4
+	// RVA: 0x13A7D0 Offset: 0x139BD0 VA: 0x18013A7D0 Slot: 4
 	public float get_value() { }
 
-	// RVA: 0x13A620 Offset: 0x139A20 VA: 0x18013A620 Slot: 5
+	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0 Slot: 5
 	public StyleKeyword get_keyword() { }
 
-	// RVA: 0x13A820 Offset: 0x139C20 VA: 0x18013A820
+	// RVA: 0x13A7A0 Offset: 0x139BA0 VA: 0x18013A7A0
 	public void .ctor(float v) { }
 
-	// RVA: 0x13A830 Offset: 0x139C30 VA: 0x18013A830
+	// RVA: 0x13A7B0 Offset: 0x139BB0 VA: 0x18013A7B0
 	internal void .ctor(float v, StyleKeyword keyword) { }
 
 	// RVA: 0xEB9B10 Offset: 0xEB8110 VA: 0x180EB9B10
@@ -28,16 +28,16 @@ public struct StyleFloat : IStyleValue<float>, IEquatable<StyleFloat> // TypeDef
 	// RVA: 0xEB9B40 Offset: 0xEB8140 VA: 0x180EB9B40
 	public static StyleFloat op_Implicit(float v) { }
 
-	// RVA: 0x13A670 Offset: 0x139A70 VA: 0x18013A670 Slot: 6
+	// RVA: 0x13A5F0 Offset: 0x1399F0 VA: 0x18013A5F0 Slot: 6
 	public bool Equals(StyleFloat other) { }
 
-	// RVA: 0x13A6B0 Offset: 0x139AB0 VA: 0x18013A6B0 Slot: 0
+	// RVA: 0x13A630 Offset: 0x139A30 VA: 0x18013A630 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x13A760 Offset: 0x139B60 VA: 0x18013A760 Slot: 2
+	// RVA: 0x13A6E0 Offset: 0x139AE0 VA: 0x18013A6E0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13A7C0 Offset: 0x139BC0 VA: 0x18013A7C0 Slot: 3
+	// RVA: 0x13A740 Offset: 0x139B40 VA: 0x18013A740 Slot: 3
 	public override string ToString() { }
 
 }

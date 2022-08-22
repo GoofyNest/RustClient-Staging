@@ -9,10 +9,10 @@ public class SkeletonSkin : MonoBehaviour // TypeDefIndex: 7353
 
 	// Methods
 
-	// RVA: 0x22FE330 Offset: 0x22FC930 VA: 0x1822FE330
+	// RVA: 0x22FE170 Offset: 0x22FC770 VA: 0x1822FE170
 	public void Retarget(Skeleton target) { }
 
-	// RVA: 0x22FE060 Offset: 0x22FC660 VA: 0x1822FE060
+	// RVA: 0x22FDEA0 Offset: 0x22FC4A0 VA: 0x1822FDEA0
 	public SkinnedMeshRenderer DuplicateAndRetarget(GameObject host, Skeleton target) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

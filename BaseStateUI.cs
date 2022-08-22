@@ -33,7 +33,7 @@ public class BaseStateUI : MonoBehaviour // TypeDefIndex: 10790
 	public ScrollRect Scroll; // 0x108
 	public AIState StateType; // 0x110
 	public int StateContainerID; // 0x114
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <InputEntityMemorySlot>k__BackingField; // 0x118
 	private Transform addNewEventButton; // 0x120
 
@@ -42,11 +42,11 @@ public class BaseStateUI : MonoBehaviour // TypeDefIndex: 10790
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x92D940 Offset: 0x92BF40 VA: 0x18092D940
 	public int get_InputEntityMemorySlot() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x92D950 Offset: 0x92BF50 VA: 0x18092D950
 	private void set_InputEntityMemorySlot(int value) { }
 
@@ -65,7 +65,7 @@ public class BaseStateUI : MonoBehaviour // TypeDefIndex: 10790
 	// RVA: 0x92CB40 Offset: 0x92B140 VA: 0x18092CB40
 	private BaseEventUI GetEvent(int id) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x7C240 Offset: 0x7B640 VA: 0x18007C240
+	[IteratorStateMachineAttribute] // RVA: 0x7C310 Offset: 0x7B710 VA: 0x18007C310
 	// RVA: 0x92D7A0 Offset: 0x92BDA0 VA: 0x18092D7A0
 	private IEnumerator ScrollToBottom() { }
 
@@ -113,26 +113,26 @@ private sealed class BaseStateUI.<ScrollToBottom>d__43 : IEnumerator<object>, IE
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x93ADF0 Offset: 0x9393F0 VA: 0x18093ADF0 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x93AF00 Offset: 0x939500 VA: 0x18093AF00 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 

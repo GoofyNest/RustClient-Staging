@@ -1,6 +1,6 @@
 public class TreeEntity : ResourceEntity, IPrefabPreProcess // TypeDefIndex: 8657
 {	// Fields
-	[HeaderAttribute] // RVA: 0xB71B0 Offset: 0xB65B0 VA: 0x1800B71B0
+	[HeaderAttribute] // RVA: 0xB7250 Offset: 0xB6650 VA: 0x1800B7250
 	public bool fallOnKilled; // 0x180
 	public float fallDuration; // 0x184
 	public GameObjectRef fallStartSound; // 0x188
@@ -38,7 +38,7 @@ public class TreeEntity : ResourceEntity, IPrefabPreProcess // TypeDefIndex: 865
 	// RVA: 0xA19F80 Offset: 0xA18580 VA: 0x180A19F80 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA1B3D0 Offset: 0xA199D0 VA: 0x180A1B3D0
 	public void TreeFall(BaseEntity.RPCMessage msg) { }
 
@@ -57,7 +57,7 @@ public class TreeEntity : ResourceEntity, IPrefabPreProcess // TypeDefIndex: 865
 	// RVA: 0xA19E50 Offset: 0xA18450 VA: 0x180A19E50 Slot: 20
 	internal override void DoNetworkDestroy() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA19D00 Offset: 0xA18300 VA: 0x180A19D00
 	public void CrackSound(BaseEntity.RPCMessage msg) { }
 

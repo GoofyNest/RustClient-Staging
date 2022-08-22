@@ -4,24 +4,24 @@ public static class StencilMaterial // TypeDefIndex: 5012
 
 	// Methods
 
-	[EditorBrowsableAttribute] // RVA: 0x7D6A0 Offset: 0x7CAA0 VA: 0x18007D6A0
-	[ObsoleteAttribute] // RVA: 0x7D6A0 Offset: 0x7CAA0 VA: 0x18007D6A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
+	[ObsoleteAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
 	public static Material Add(Material baseMat, int stencilID) { }
 
-	// RVA: 0x2244E50 Offset: 0x2243450 VA: 0x182244E50
+	// RVA: 0x2244C90 Offset: 0x2243290 VA: 0x182244C90
 	public static Material Add(Material baseMat, int stencilID, StencilOp operation, CompareFunction compareFunction, ColorWriteMask colorWriteMask) { }
 
-	// RVA: 0x2244510 Offset: 0x2242B10 VA: 0x182244510
+	// RVA: 0x2244350 Offset: 0x2242950 VA: 0x182244350
 	public static Material Add(Material baseMat, int stencilID, StencilOp operation, CompareFunction compareFunction, ColorWriteMask colorWriteMask, int readMask, int writeMask) { }
 
-	// RVA: 0x2245020 Offset: 0x2243620 VA: 0x182245020
+	// RVA: 0x2244E60 Offset: 0x2243460 VA: 0x182244E60
 	public static void Remove(Material customMat) { }
 
-	// RVA: 0x2244EF0 Offset: 0x22434F0 VA: 0x182244EF0
+	// RVA: 0x2244D30 Offset: 0x2243330 VA: 0x182244D30
 	public static void ClearAll() { }
 
-	// RVA: 0x22451E0 Offset: 0x22437E0 VA: 0x1822451E0
+	// RVA: 0x2245020 Offset: 0x2243620 VA: 0x182245020
 	private static void .cctor() { }
 
 }
@@ -41,7 +41,7 @@ private class StencilMaterial.MatEntry // TypeDefIndex: 5013
 
 	// Methods
 
-	// RVA: 0x2244390 Offset: 0x2242990 VA: 0x182244390
+	// RVA: 0x22441D0 Offset: 0x22427D0 VA: 0x1822441D0
 	public void .ctor() { }
 
 }

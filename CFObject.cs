@@ -1,6 +1,6 @@
 internal class CFObject : IDisposable // TypeDefIndex: 2513
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private IntPtr <Handle>k__BackingField; // 0x10
 
 	// Properties
@@ -29,11 +29,11 @@ internal class CFObject : IDisposable // TypeDefIndex: 2513
 	// RVA: 0xD7D250 Offset: 0xD7B850 VA: 0x180D7D250 Slot: 1
 	protected override void Finalize() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 5
 	public IntPtr get_Handle() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8C1080 Offset: 0x8BF680 VA: 0x1808C1080
 	private void set_Handle(IntPtr value) { }
 

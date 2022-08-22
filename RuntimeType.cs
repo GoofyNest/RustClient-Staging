@@ -106,7 +106,7 @@ internal class RuntimeType : TypeInfo, ISerializable, ICloneable // TypeDefIndex
 	// RVA: 0x129EA90 Offset: 0x129D090 VA: 0x18129EA90 Slot: 43
 	public override MethodInfo[] GetMethods(BindingFlags bindingAttr) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x129BED0 Offset: 0x129A4D0 VA: 0x18129BED0 Slot: 36
 	public override ConstructorInfo[] GetConstructors(BindingFlags bindingAttr) { }
 
@@ -155,7 +155,7 @@ internal class RuntimeType : TypeInfo, ISerializable, ICloneable // TypeDefIndex
 	// RVA: 0x1299520 Offset: 0x1297B20 VA: 0x181299520 Slot: 114
 	public override bool IsInstanceOfType(object o) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x12A2990 Offset: 0x12A0F90 VA: 0x1812A2990 Slot: 113
 	public override bool IsSubclassOf(Type type) { }
 
@@ -255,8 +255,8 @@ internal class RuntimeType : TypeInfo, ISerializable, ICloneable // TypeDefIndex
 	// RVA: 0x1299420 Offset: 0x1297A20 VA: 0x181299420 Slot: 80
 	public override bool get_IsGenericType() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[DebuggerStepThroughAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	// RVA: 0x12A0080 Offset: 0x129E680 VA: 0x1812A0080 Slot: 23
 	public override object InvokeMember(string name, BindingFlags bindingFlags, Binder binder, object target, object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, string[] namedParams) { }
 
@@ -305,8 +305,8 @@ internal class RuntimeType : TypeInfo, ISerializable, ICloneable // TypeDefIndex
 	// RVA: 0x1299CD0 Offset: 0x12982D0 VA: 0x181299CD0
 	internal object CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes, ref StackCrawlMark stackMark) { }
 
-	[DebuggerStepThroughAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-	[DebuggerHiddenAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	// RVA: 0x1299A30 Offset: 0x1298030 VA: 0x181299A30
 	internal object CreateInstanceDefaultCtor(bool publicOnly, bool skipCheckThis, bool fillCache, ref StackCrawlMark stackMark) { }
 
@@ -489,7 +489,7 @@ private struct RuntimeType.ListBuilder<T> // TypeDefIndex: 294
 	public void .ctor(int capacity) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E35A0 Offset: 0x1E29A0 VA: 0x1801E35A0
+	|-RVA: 0x1E3520 Offset: 0x1E2920 VA: 0x1801E3520
 	|-RuntimeType.ListBuilder<object>..ctor
 	|-RuntimeType.ListBuilder<ConstructorInfo>..ctor
 	|-RuntimeType.ListBuilder<EventInfo>..ctor
@@ -503,7 +503,7 @@ private struct RuntimeType.ListBuilder<T> // TypeDefIndex: 294
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E35E0 Offset: 0x1E29E0 VA: 0x1801E35E0
+	|-RVA: 0x1E3560 Offset: 0x1E2960 VA: 0x1801E3560
 	|-RuntimeType.ListBuilder<object>.get_Item
 	|-RuntimeType.ListBuilder<ConstructorInfo>.get_Item
 	|-RuntimeType.ListBuilder<MethodInfo>.get_Item
@@ -514,7 +514,7 @@ private struct RuntimeType.ListBuilder<T> // TypeDefIndex: 294
 	public T[] ToArray() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E3590 Offset: 0x1E2990 VA: 0x1801E3590
+	|-RVA: 0x1E3510 Offset: 0x1E2910 VA: 0x1801E3510
 	|-RuntimeType.ListBuilder<object>.ToArray
 	|-RuntimeType.ListBuilder<ConstructorInfo>.ToArray
 	|-RuntimeType.ListBuilder<EventInfo>.ToArray
@@ -528,7 +528,7 @@ private struct RuntimeType.ListBuilder<T> // TypeDefIndex: 294
 	public void CopyTo(object[] array, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E34D0 Offset: 0x1E28D0 VA: 0x1801E34D0
+	|-RVA: 0x1E3450 Offset: 0x1E2850 VA: 0x1801E3450
 	|-RuntimeType.ListBuilder<object>.CopyTo
 	|-RuntimeType.ListBuilder<ConstructorInfo>.CopyTo
 	|-RuntimeType.ListBuilder<EventInfo>.CopyTo
@@ -542,7 +542,7 @@ private struct RuntimeType.ListBuilder<T> // TypeDefIndex: 294
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF3F30 Offset: 0xF3330 VA: 0x1800F3F30
+	|-RVA: 0xF3EB0 Offset: 0xF32B0 VA: 0x1800F3EB0
 	|-RuntimeType.ListBuilder<object>.get_Count
 	|-RuntimeType.ListBuilder<ConstructorInfo>.get_Count
 	|-RuntimeType.ListBuilder<EventInfo>.get_Count
@@ -556,7 +556,7 @@ private struct RuntimeType.ListBuilder<T> // TypeDefIndex: 294
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E34C0 Offset: 0x1E28C0 VA: 0x1801E34C0
+	|-RVA: 0x1E3440 Offset: 0x1E2840 VA: 0x1801E3440
 	|-RuntimeType.ListBuilder<object>.Add
 	|-RuntimeType.ListBuilder<ConstructorInfo>.Add
 	|-RuntimeType.ListBuilder<EventInfo>.Add

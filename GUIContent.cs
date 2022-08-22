@@ -1,10 +1,10 @@
 public class GUIContent // TypeDefIndex: 4035
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string m_Text; // 0x10
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Texture m_Image; // 0x18
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string m_Tooltip; // 0x20
 	private static readonly GUIContent s_Text; // 0x0
 	private static readonly GUIContent s_Image; // 0x8
@@ -27,38 +27,38 @@ public class GUIContent // TypeDefIndex: 4035
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	public void set_image(Texture value) { }
 
-	// RVA: 0x1A6C720 Offset: 0x1A6AD20 VA: 0x181A6C720
+	// RVA: 0x1A6C6E0 Offset: 0x1A6ACE0 VA: 0x181A6C6E0
 	public string get_tooltip() { }
 
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_tooltip(string value) { }
 
-	// RVA: 0x1A6C690 Offset: 0x1A6AC90 VA: 0x181A6C690
+	// RVA: 0x1A6C650 Offset: 0x1A6AC50 VA: 0x181A6C650
 	public void .ctor() { }
 
-	// RVA: 0x1A6C630 Offset: 0x1A6AC30 VA: 0x181A6C630
+	// RVA: 0x1A6C5F0 Offset: 0x1A6ABF0 VA: 0x181A6C5F0
 	public void .ctor(string text) { }
 
-	// RVA: 0x1A6C700 Offset: 0x1A6AD00 VA: 0x181A6C700
+	// RVA: 0x1A6C6C0 Offset: 0x1A6ACC0 VA: 0x181A6C6C0
 	public void .ctor(string text, string tooltip) { }
 
-	// RVA: 0x1A6C490 Offset: 0x1A6AA90 VA: 0x181A6C490
+	// RVA: 0x1A6C450 Offset: 0x1A6AA50 VA: 0x181A6C450
 	public void .ctor(string text, Texture image, string tooltip) { }
 
-	// RVA: 0x1A6C560 Offset: 0x1A6AB60 VA: 0x181A6C560
+	// RVA: 0x1A6C520 Offset: 0x1A6AB20 VA: 0x181A6C520
 	public void .ctor(GUIContent src) { }
 
-	// RVA: 0x1A6BF70 Offset: 0x1A6A570 VA: 0x181A6BF70
+	// RVA: 0x1A6BF30 Offset: 0x1A6A530 VA: 0x181A6BF30
 	internal static GUIContent Temp(string t) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xCD0D0 Offset: 0xCC4D0 VA: 0x1800CD0D0
-	// RVA: 0x1A6BE10 Offset: 0x1A6A410 VA: 0x181A6BE10
+	[VisibleToOtherModulesAttribute] // RVA: 0xCD160 Offset: 0xCC560 VA: 0x1800CD160
+	// RVA: 0x1A6BDD0 Offset: 0x1A6A3D0 VA: 0x181A6BDD0
 	internal static void ClearStaticCache() { }
 
-	// RVA: 0x1A6C030 Offset: 0x1A6A630 VA: 0x181A6C030
+	// RVA: 0x1A6BFF0 Offset: 0x1A6A5F0 VA: 0x181A6BFF0
 	internal static GUIContent[] Temp(string[] texts) { }
 
-	// RVA: 0x1A6C240 Offset: 0x1A6A840 VA: 0x181A6C240
+	// RVA: 0x1A6C200 Offset: 0x1A6A800 VA: 0x181A6C200
 	private static void .cctor() { }
 
 }

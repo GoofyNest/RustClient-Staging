@@ -70,20 +70,20 @@ public class PowerCounter : IOEntity // TypeDefIndex: 8428
 	// RVA: 0x99D5A0 Offset: 0x99BBA0 VA: 0x18099D5A0 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	[BaseEntity.Menu] // RVA: 0x7C990 Offset: 0x7BD90 VA: 0x18007C990
-	[BaseEntity.Menu.Description] // RVA: 0x7C990 Offset: 0x7BD90 VA: 0x18007C990
-	[BaseEntity.Menu.Icon] // RVA: 0x7C990 Offset: 0x7BD90 VA: 0x18007C990
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C990 Offset: 0x7BD90 VA: 0x18007C990
+	[BaseEntity.Menu] // RVA: 0x7CA60 Offset: 0x7BE60 VA: 0x18007CA60
+	[BaseEntity.Menu.Description] // RVA: 0x7CA60 Offset: 0x7BE60 VA: 0x18007CA60
+	[BaseEntity.Menu.Icon] // RVA: 0x7CA60 Offset: 0x7BE60 VA: 0x18007CA60
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7CA60 Offset: 0x7BE60 VA: 0x18007CA60
 	// RVA: 0x99D460 Offset: 0x99BA60 VA: 0x18099D460
 	public void Menu_ShowPassthrough(BasePlayer player) { }
 
 	// RVA: 0x99C850 Offset: 0x99AE50 VA: 0x18099C850
 	public bool Menu_Passthrough_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7CD70 Offset: 0x7C170 VA: 0x18007CD70
-	[BaseEntity.Menu.Description] // RVA: 0x7CD70 Offset: 0x7C170 VA: 0x18007CD70
-	[BaseEntity.Menu.Icon] // RVA: 0x7CD70 Offset: 0x7C170 VA: 0x18007CD70
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7CD70 Offset: 0x7C170 VA: 0x18007CD70
+	[BaseEntity.Menu] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[BaseEntity.Menu.Description] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[BaseEntity.Menu.Icon] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
 	// RVA: 0x99D410 Offset: 0x99BA10 VA: 0x18099D410
 	public void Menu_ShowCounter(BasePlayer player) { }
 
@@ -93,10 +93,10 @@ public class PowerCounter : IOEntity // TypeDefIndex: 8428
 	// RVA: 0x99D660 Offset: 0x99BC60 VA: 0x18099D660
 	public void SendNewTarget(int newTarget) { }
 
-	[BaseEntity.Menu] // RVA: 0x7CF90 Offset: 0x7C390 VA: 0x18007CF90
-	[BaseEntity.Menu.Description] // RVA: 0x7CF90 Offset: 0x7C390 VA: 0x18007CF90
-	[BaseEntity.Menu.Icon] // RVA: 0x7CF90 Offset: 0x7C390 VA: 0x18007CF90
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7CF90 Offset: 0x7C390 VA: 0x18007CF90
+	[BaseEntity.Menu] // RVA: 0x7D060 Offset: 0x7C460 VA: 0x18007D060
+	[BaseEntity.Menu.Description] // RVA: 0x7D060 Offset: 0x7C460 VA: 0x18007D060
+	[BaseEntity.Menu.Icon] // RVA: 0x7D060 Offset: 0x7C460 VA: 0x18007D060
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7D060 Offset: 0x7C460 VA: 0x18007D060
 	// RVA: 0x99D200 Offset: 0x99B800 VA: 0x18099D200
 	public void Menu_SetTarget(BasePlayer player) { }
 

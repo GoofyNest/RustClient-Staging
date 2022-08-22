@@ -10,7 +10,7 @@ internal struct MovedFromAttributeData // TypeDefIndex: 3653
 
 	// Methods
 
-	// RVA: 0x221C80 Offset: 0x221080 VA: 0x180221C80
+	// RVA: 0x221C00 Offset: 0x221000 VA: 0x180221C00
 	public void Set(bool autoUpdateAPI, string sourceNamespace, string sourceAssembly, string sourceClassName) { }
 
 }

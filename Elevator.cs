@@ -6,13 +6,13 @@ public class Elevator : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6387
 
 	// Methods
 
-	// RVA: 0x1E73660 Offset: 0x1E71C60 VA: 0x181E73660
+	// RVA: 0x1E734A0 Offset: 0x1E71AA0 VA: 0x181E734A0
 	public static void ResetToPool(Elevator instance) { }
 
-	// RVA: 0x1E736E0 Offset: 0x1E71CE0 VA: 0x181E736E0
+	// RVA: 0x1E73520 Offset: 0x1E71B20 VA: 0x181E73520
 	public void ResetToPool() { }
 
-	// RVA: 0x1E73530 Offset: 0x1E71B30 VA: 0x181E73530 Slot: 9
+	// RVA: 0x1E73370 Offset: 0x1E71970 VA: 0x181E73370 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -21,64 +21,64 @@ public class Elevator : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6387
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE690 Offset: 0x1BFCC90 VA: 0x181BFE690
+	// RVA: 0x1BFE4D0 Offset: 0x1BFCAD0 VA: 0x181BFE4D0
 	public void CopyTo(Elevator instance) { }
 
-	// RVA: 0x1E72BB0 Offset: 0x1E711B0 VA: 0x181E72BB0
+	// RVA: 0x1E729F0 Offset: 0x1E70FF0 VA: 0x181E729F0
 	public Elevator Copy() { }
 
-	// RVA: 0x1E73150 Offset: 0x1E71750 VA: 0x181E73150
+	// RVA: 0x1E72F90 Offset: 0x1E71590 VA: 0x181E72F90
 	public static Elevator Deserialize(Stream stream) { }
 
-	// RVA: 0x1E72E40 Offset: 0x1E71440 VA: 0x181E72E40
+	// RVA: 0x1E72C80 Offset: 0x1E71280 VA: 0x181E72C80
 	public static Elevator DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E730C0 Offset: 0x1E716C0 VA: 0x181E730C0
+	// RVA: 0x1E72F00 Offset: 0x1E71500 VA: 0x181E72F00
 	public static Elevator DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E731D0 Offset: 0x1E717D0 VA: 0x181E731D0
+	// RVA: 0x1E73010 Offset: 0x1E71610 VA: 0x181E73010
 	public static Elevator Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E73620 Offset: 0x1E71C20 VA: 0x181E73620
+	// RVA: 0x1E73460 Offset: 0x1E71A60 VA: 0x181E73460
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E73BB0 Offset: 0x1E721B0 VA: 0x181E73BB0 Slot: 12
+	// RVA: 0x1E739F0 Offset: 0x1E71FF0 VA: 0x181E739F0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E73C80 Offset: 0x1E72280 VA: 0x181E73C80 Slot: 13
+	// RVA: 0x1E73AC0 Offset: 0x1E720C0 VA: 0x181E73AC0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Elevator previous) { }
 
-	// RVA: 0x1E73640 Offset: 0x1E71C40 VA: 0x181E73640 Slot: 14
+	// RVA: 0x1E73480 Offset: 0x1E71A80 VA: 0x181E73480 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E732F0 Offset: 0x1E718F0 VA: 0x181E732F0
+	// RVA: 0x1E73130 Offset: 0x1E71730 VA: 0x181E73130
 	public static Elevator Deserialize(byte[] buffer, Elevator instance, bool isDelta = False) { }
 
-	// RVA: 0x1E733F0 Offset: 0x1E719F0 VA: 0x181E733F0
+	// RVA: 0x1E73230 Offset: 0x1E71830 VA: 0x181E73230
 	public static Elevator Deserialize(Stream stream, Elevator instance, bool isDelta) { }
 
-	// RVA: 0x1E72C20 Offset: 0x1E71220 VA: 0x181E72C20
+	// RVA: 0x1E72A60 Offset: 0x1E71060 VA: 0x181E72A60
 	public static Elevator DeserializeLengthDelimited(Stream stream, Elevator instance, bool isDelta) { }
 
-	// RVA: 0x1E72EC0 Offset: 0x1E714C0 VA: 0x181E72EC0
+	// RVA: 0x1E72D00 Offset: 0x1E71300 VA: 0x181E72D00
 	public static Elevator DeserializeLength(Stream stream, int length, Elevator instance, bool isDelta) { }
 
-	// RVA: 0x1E73760 Offset: 0x1E71D60 VA: 0x181E73760
+	// RVA: 0x1E735A0 Offset: 0x1E71BA0 VA: 0x181E735A0
 	public static void SerializeDelta(Stream stream, Elevator instance, Elevator previous) { }
 
-	// RVA: 0x1E73AD0 Offset: 0x1E720D0 VA: 0x181E73AD0
+	// RVA: 0x1E73910 Offset: 0x1E71F10 VA: 0x181E73910
 	public static void Serialize(Stream stream, Elevator instance) { }
 
-	// RVA: 0x1E73BA0 Offset: 0x1E721A0 VA: 0x181E73BA0
+	// RVA: 0x1E739E0 Offset: 0x1E71FE0 VA: 0x181E739E0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E73BB0 Offset: 0x1E721B0 VA: 0x181E73BB0
+	// RVA: 0x1E739F0 Offset: 0x1E71FF0 VA: 0x181E739F0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E73920 Offset: 0x1E71F20 VA: 0x181E73920
+	// RVA: 0x1E73760 Offset: 0x1E71D60 VA: 0x181E73760
 	public static byte[] SerializeToBytes(Elevator instance) { }
 
-	// RVA: 0x1E73870 Offset: 0x1E71E70 VA: 0x181E73870
+	// RVA: 0x1E736B0 Offset: 0x1E71CB0 VA: 0x181E736B0
 	public static void SerializeLengthDelimited(Stream stream, Elevator instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -128,10 +128,10 @@ public class ElevatorLift : BaseCombatEntity // TypeDefIndex: 8387
 	// RVA: 0xAC4170 Offset: 0xAC2770 VA: 0x180AC4170
 	private Elevator get_owner() { }
 
-	[BaseEntity.Menu] // RVA: 0xDB0B0 Offset: 0xDA4B0 VA: 0x1800DB0B0
-	[BaseEntity.Menu.Description] // RVA: 0xDB0B0 Offset: 0xDA4B0 VA: 0x1800DB0B0
-	[BaseEntity.Menu.Icon] // RVA: 0xDB0B0 Offset: 0xDA4B0 VA: 0x1800DB0B0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDB0B0 Offset: 0xDA4B0 VA: 0x1800DB0B0
+	[BaseEntity.Menu] // RVA: 0xDB120 Offset: 0xDA520 VA: 0x1800DB120
+	[BaseEntity.Menu.Description] // RVA: 0xDB120 Offset: 0xDA520 VA: 0x1800DB120
+	[BaseEntity.Menu.Icon] // RVA: 0xDB120 Offset: 0xDA520 VA: 0x1800DB120
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDB120 Offset: 0xDA520 VA: 0x1800DB120
 	// RVA: 0xAC3670 Offset: 0xAC1C70 VA: 0x180AC3670
 	public void Menu_RaiseElevator(BasePlayer p) { }
 
@@ -141,17 +141,17 @@ public class ElevatorLift : BaseCombatEntity // TypeDefIndex: 8387
 	// RVA: 0xAC35C0 Offset: 0xAC1BC0 VA: 0x180AC35C0 Slot: 145
 	protected virtual bool Menu_RaiseElevator_ShowIf_Base(BasePlayer p) { }
 
-	[BaseEntity.Menu] // RVA: 0xDB480 Offset: 0xDA880 VA: 0x1800DB480
-	[BaseEntity.Menu.Description] // RVA: 0xDB480 Offset: 0xDA880 VA: 0x1800DB480
-	[BaseEntity.Menu.Icon] // RVA: 0xDB480 Offset: 0xDA880 VA: 0x1800DB480
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDB480 Offset: 0xDA880 VA: 0x1800DB480
+	[BaseEntity.Menu] // RVA: 0xDB4C0 Offset: 0xDA8C0 VA: 0x1800DB4C0
+	[BaseEntity.Menu.Description] // RVA: 0xDB4C0 Offset: 0xDA8C0 VA: 0x1800DB4C0
+	[BaseEntity.Menu.Icon] // RVA: 0xDB4C0 Offset: 0xDA8C0 VA: 0x1800DB4C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDB4C0 Offset: 0xDA8C0 VA: 0x1800DB4C0
 	// RVA: 0xAC3570 Offset: 0xAC1B70 VA: 0x180AC3570
 	public void Menu_RaiseElevatorToTop(BasePlayer p) { }
 
-	[BaseEntity.Menu] // RVA: 0xDB7D0 Offset: 0xDABD0 VA: 0x1800DB7D0
-	[BaseEntity.Menu.Description] // RVA: 0xDB7D0 Offset: 0xDABD0 VA: 0x1800DB7D0
-	[BaseEntity.Menu.Icon] // RVA: 0xDB7D0 Offset: 0xDABD0 VA: 0x1800DB7D0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDB7D0 Offset: 0xDABD0 VA: 0x1800DB7D0
+	[BaseEntity.Menu] // RVA: 0xDB800 Offset: 0xDAC00 VA: 0x1800DB800
+	[BaseEntity.Menu.Description] // RVA: 0xDB800 Offset: 0xDAC00 VA: 0x1800DB800
+	[BaseEntity.Menu.Icon] // RVA: 0xDB800 Offset: 0xDAC00 VA: 0x1800DB800
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDB800 Offset: 0xDAC00 VA: 0x1800DB800
 	// RVA: 0xAC3520 Offset: 0xAC1B20 VA: 0x180AC3520
 	public void Menu_LowerElevator(BasePlayer p) { }
 
@@ -161,10 +161,10 @@ public class ElevatorLift : BaseCombatEntity // TypeDefIndex: 8387
 	// RVA: 0xAC3470 Offset: 0xAC1A70 VA: 0x180AC3470 Slot: 146
 	protected virtual bool Menu_LowerElevator_ShowIf_Base(BasePlayer p) { }
 
-	[BaseEntity.Menu] // RVA: 0xDBCA0 Offset: 0xDB0A0 VA: 0x1800DBCA0
-	[BaseEntity.Menu.Description] // RVA: 0xDBCA0 Offset: 0xDB0A0 VA: 0x1800DBCA0
-	[BaseEntity.Menu.Icon] // RVA: 0xDBCA0 Offset: 0xDB0A0 VA: 0x1800DBCA0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDBCA0 Offset: 0xDB0A0 VA: 0x1800DBCA0
+	[BaseEntity.Menu] // RVA: 0xDBCB0 Offset: 0xDB0B0 VA: 0x1800DBCB0
+	[BaseEntity.Menu.Description] // RVA: 0xDBCB0 Offset: 0xDB0B0 VA: 0x1800DBCB0
+	[BaseEntity.Menu.Icon] // RVA: 0xDBCB0 Offset: 0xDB0B0 VA: 0x1800DBCB0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDBCB0 Offset: 0xDB0B0 VA: 0x1800DBCB0
 	// RVA: 0xAC3420 Offset: 0xAC1A20 VA: 0x180AC3420
 	public void Menu_LowerElevatorToFloor(BasePlayer p) { }
 
@@ -207,17 +207,17 @@ public class ElevatorLiftStatic : ElevatorLift // TypeDefIndex: 8388
 	// RVA: 0xAC2790 Offset: 0xAC0D90 VA: 0x180AC2790 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	[BaseEntity.Menu] // RVA: 0xDBEF0 Offset: 0xDB2F0 VA: 0x1800DBEF0
-	[BaseEntity.Menu.Description] // RVA: 0xDBEF0 Offset: 0xDB2F0 VA: 0x1800DBEF0
-	[BaseEntity.Menu.Icon] // RVA: 0xDBEF0 Offset: 0xDB2F0 VA: 0x1800DBEF0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDBEF0 Offset: 0xDB2F0 VA: 0x1800DBEF0
+	[BaseEntity.Menu] // RVA: 0xDBF50 Offset: 0xDB350 VA: 0x1800DBF50
+	[BaseEntity.Menu.Description] // RVA: 0xDBF50 Offset: 0xDB350 VA: 0x1800DBF50
+	[BaseEntity.Menu.Icon] // RVA: 0xDBF50 Offset: 0xDB350 VA: 0x1800DBF50
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDBF50 Offset: 0xDB350 VA: 0x1800DBF50
 	// RVA: 0xAC2720 Offset: 0xAC0D20 VA: 0x180AC2720
 	public void Menu_RaiseElevatorToTop(BasePlayer p) { }
 
-	[BaseEntity.Menu] // RVA: 0xDC1E0 Offset: 0xDB5E0 VA: 0x1800DC1E0
-	[BaseEntity.Menu.Description] // RVA: 0xDC1E0 Offset: 0xDB5E0 VA: 0x1800DC1E0
-	[BaseEntity.Menu.Icon] // RVA: 0xDC1E0 Offset: 0xDB5E0 VA: 0x1800DC1E0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDC1E0 Offset: 0xDB5E0 VA: 0x1800DC1E0
+	[BaseEntity.Menu] // RVA: 0xDC240 Offset: 0xDB640 VA: 0x1800DC240
+	[BaseEntity.Menu.Description] // RVA: 0xDC240 Offset: 0xDB640 VA: 0x1800DC240
+	[BaseEntity.Menu.Icon] // RVA: 0xDC240 Offset: 0xDB640 VA: 0x1800DC240
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDC240 Offset: 0xDB640 VA: 0x1800DC240
 	// RVA: 0xAC26D0 Offset: 0xAC0CD0 VA: 0x180AC26D0
 	public void Menu_LowerElevatorToFloor(BasePlayer p) { }
 
@@ -242,14 +242,14 @@ public class Elevator : IOEntity, IFlagNotify // TypeDefIndex: 8692
 	public float LiftSpeedPerMetre; // 0x2B0
 	public GameObject[] PoweredObjects; // 0x2B8
 	public MeshRenderer PoweredMesh; // 0x2C0
-	[ColorUsageAttribute] // RVA: 0x85AC0 Offset: 0x84EC0 VA: 0x180085AC0
+	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
 	public Color PoweredLightColour; // 0x2C8
-	[ColorUsageAttribute] // RVA: 0x85AC0 Offset: 0x84EC0 VA: 0x180085AC0
+	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
 	public Color UnpoweredLightColour; // 0x2D8
 	public SkinnedMeshRenderer[] CableRenderers; // 0x2E8
 	public LODGroup CableLod; // 0x2F0
 	public Transform CableRoot; // 0x2F8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <Floor>k__BackingField; // 0x300
 	protected const BaseEntity.Flags TopFloorFlag = 128;
 	public const BaseEntity.Flags ElevatorPowered = 256;
@@ -265,11 +265,11 @@ public class Elevator : IOEntity, IFlagNotify // TypeDefIndex: 8692
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 160
 	protected virtual bool get_IsStatic() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xAC5670 Offset: 0xAC3C70 VA: 0x180AC5670
 	public int get_Floor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xAC5680 Offset: 0xAC3C80 VA: 0x180AC5680
 	public void set_Floor(int value) { }
 

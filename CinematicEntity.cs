@@ -10,11 +10,11 @@ public class CinematicEntity : BaseEntity // TypeDefIndex: 9275
 	// RVA: 0x53B510 Offset: 0x539B10 VA: 0x18053B510 Slot: 13
 	public override void ClientOnEnable() { }
 
-	[ClientVar] // RVA: 0xE69B0 Offset: 0xE5DB0 VA: 0x1800E69B0
+	[ClientVar] // RVA: 0xE6A50 Offset: 0xE5E50 VA: 0x1800E6A50
 	// RVA: 0x53B650 Offset: 0x539C50 VA: 0x18053B650
 	public static void DemoHideObjects(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x81790 Offset: 0x80B90 VA: 0x180081790
+	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
 	// RVA: 0x53BAE0 Offset: 0x53A0E0 VA: 0x18053BAE0
 	public static void RemoveDemoOverride() { }
 

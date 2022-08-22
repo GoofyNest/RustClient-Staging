@@ -13,22 +13,22 @@ public class WaterSystem : MonoBehaviour // TypeDefIndex: 10627
 	private Vector4[] shoreWaveArray; // 0x70
 	private Vector4 global0; // 0x78
 	private Vector4 global1; // 0x88
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <ShoreWavesRcpFadeDistance>k__BackingField; // 0x98
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <TerrainRcpFadeDistance>k__BackingField; // 0x9C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IsInitialized>k__BackingField; // 0xA0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static WaterCollision <Collision>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static WaterDynamics <Dynamics>k__BackingField; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static WaterBody <Ocean>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static HashSet<WaterBody> <WaterBodies>k__BackingField; // 0x18
 	private static float oceanLevel; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static float <WaveTime>k__BackingField; // 0x24
 	public static readonly int[] QualityToMaxVertices; // 0x28
 	private WaterQuality prevQuality; // 0xA4
@@ -38,9 +38,9 @@ public class WaterSystem : MonoBehaviour // TypeDefIndex: 10627
 	private Texture2D defaultHeightSlopeMap; // 0xB8
 	private bool hasValidCausticsAnims; // 0xC0
 	private List<WaterRuntime> runtimeCleanup; // 0xC8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Dictionary<WaterCamera, WaterRuntime> <Runtimes>k__BackingField; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static HashSet<WaterDepthMask> <DepthMasks>k__BackingField; // 0x38
 	private static WaterSystem instance; // 0x40
 	private static Vector3[] emptyShoreMap; // 0x48
@@ -92,59 +92,59 @@ public class WaterSystem : MonoBehaviour // TypeDefIndex: 10627
 	// RVA: 0xC2B750 Offset: 0xC29D50 VA: 0x180C2B750
 	public Vector4 get_Global1() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6FC1C0 Offset: 0x6FA7C0 VA: 0x1806FC1C0
 	public float get_ShoreWavesRcpFadeDistance() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6FC5B0 Offset: 0x6FABB0 VA: 0x1806FC5B0
 	private void set_ShoreWavesRcpFadeDistance(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2B9F0 Offset: 0xC29FF0 VA: 0x180C2B9F0
 	public float get_TerrainRcpFadeDistance() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2BE90 Offset: 0xC2A490 VA: 0x180C2BE90
 	private void set_TerrainRcpFadeDistance(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2BCC0 Offset: 0xC2A2C0 VA: 0x180C2BCC0
 	private void set_IsInitialized(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2B7E0 Offset: 0xC29DE0 VA: 0x180C2B7E0
 	public bool get_IsInitialized() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2B620 Offset: 0xC29C20 VA: 0x180C2B620
 	public static WaterCollision get_Collision() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2BB80 Offset: 0xC2A180 VA: 0x180C2BB80
 	private static void set_Collision(WaterCollision value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2BC50 Offset: 0xC2A250 VA: 0x180C2BC50
 	private static void set_Dynamics(WaterDynamics value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2B6E0 Offset: 0xC29CE0 VA: 0x180C2B6E0
 	public static WaterDynamics get_Dynamics() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2BDB0 Offset: 0xC2A3B0 VA: 0x180C2BDB0
 	private static void set_Ocean(WaterBody value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2B850 Offset: 0xC29E50 VA: 0x180C2B850
 	public static WaterBody get_Ocean() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2BEA0 Offset: 0xC2A4A0 VA: 0x180C2BEA0
 	private static void set_WaterBodies(HashSet<WaterBody> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2BA00 Offset: 0xC2A000 VA: 0x180C2BA00
 	public static HashSet<WaterBody> get_WaterBodies() { }
 
@@ -154,30 +154,30 @@ public class WaterSystem : MonoBehaviour // TypeDefIndex: 10627
 	// RVA: 0xC2BCD0 Offset: 0xC2A2D0 VA: 0x180C2BCD0
 	public static void set_OceanLevel(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2BAC0 Offset: 0xC2A0C0 VA: 0x180C2BAC0
 	public static float get_WaveTime() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2BF10 Offset: 0xC2A510 VA: 0x180C2BF10
 	private static void set_WaveTime(float value) { }
 
 	// RVA: 0xC2B760 Offset: 0xC29D60 VA: 0x180C2B760
 	public bool get_HasCaustics() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2BE20 Offset: 0xC2A420 VA: 0x180C2BE20
 	private static void set_Runtimes(Dictionary<WaterCamera, WaterRuntime> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2B930 Offset: 0xC29F30 VA: 0x180C2B930
 	public static Dictionary<WaterCamera, WaterRuntime> get_Runtimes() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2BBE0 Offset: 0xC2A1E0 VA: 0x180C2BBE0
 	private static void set_DepthMasks(HashSet<WaterDepthMask> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xC2B680 Offset: 0xC29C80 VA: 0x180C2B680
 	public static HashSet<WaterDepthMask> get_DepthMasks() { }
 
@@ -357,17 +357,17 @@ public class WaterSystem.SimulationSettings // TypeDefIndex: 10628
 	public Texture2D PerlinNoise; // 0x30
 	public WaterGerstner.WaveParams[] OpenSeaWaves; // 0x38
 	public WaterGerstner.ShoreWaveParams ShoreWaves; // 0x40
-	[RangeAttribute] // RVA: 0xECD00 Offset: 0xEC100 VA: 0x1800ECD00
+	[RangeAttribute] // RVA: 0xECE20 Offset: 0xEC220 VA: 0x1800ECE20
 	public float ShoreWavesFadeDistance; // 0x48
-	[RangeAttribute] // RVA: 0xECD00 Offset: 0xEC100 VA: 0x1800ECD00
+	[RangeAttribute] // RVA: 0xECE20 Offset: 0xEC220 VA: 0x1800ECE20
 	public float TerrainFadeDistance; // 0x4C
-	[RangeAttribute] // RVA: 0xECE60 Offset: 0xEC260 VA: 0x1800ECE60
+	[RangeAttribute] // RVA: 0xECEE0 Offset: 0xEC2E0 VA: 0x1800ECEE0
 	public float OpenSeaCrestFoamThreshold; // 0x50
-	[RangeAttribute] // RVA: 0xECE60 Offset: 0xEC260 VA: 0x1800ECE60
+	[RangeAttribute] // RVA: 0xECEE0 Offset: 0xEC2E0 VA: 0x1800ECEE0
 	public float ShoreCrestFoamThreshold; // 0x54
-	[RangeAttribute] // RVA: 0xECE60 Offset: 0xEC260 VA: 0x1800ECE60
+	[RangeAttribute] // RVA: 0xECEE0 Offset: 0xEC2E0 VA: 0x1800ECEE0
 	public float ShoreCrestFoamFarThreshold; // 0x58
-	[RangeAttribute] // RVA: 0xECD00 Offset: 0xEC100 VA: 0x1800ECD00
+	[RangeAttribute] // RVA: 0xECE20 Offset: 0xEC220 VA: 0x1800ECE20
 	public float ShoreCrestFoamFadeDistance; // 0x5C
 
 	// Methods

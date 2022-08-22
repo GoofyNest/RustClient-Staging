@@ -39,10 +39,10 @@ public class X509Extension // TypeDefIndex: 1719
 
 	// Methods
 
-	// RVA: 0x2281DA0 Offset: 0x22803A0 VA: 0x182281DA0
+	// RVA: 0x2281BE0 Offset: 0x22801E0 VA: 0x182281BE0
 	public void .ctor(ASN1 asn1) { }
 
-	// RVA: 0x2281C40 Offset: 0x2280240 VA: 0x182281C40
+	// RVA: 0x2281A80 Offset: 0x2280080 VA: 0x182281A80
 	public void .ctor(X509Extension extension) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4
@@ -57,19 +57,19 @@ public class X509Extension // TypeDefIndex: 1719
 	// RVA: 0x95F9E0 Offset: 0x95DFE0 VA: 0x18095F9E0
 	public bool get_Critical() { }
 
-	// RVA: 0x2282050 Offset: 0x2280650 VA: 0x182282050
+	// RVA: 0x2281E90 Offset: 0x2280490 VA: 0x182281E90
 	public ASN1 get_Value() { }
 
-	// RVA: 0x22817D0 Offset: 0x227FDD0 VA: 0x1822817D0 Slot: 0
+	// RVA: 0x2281610 Offset: 0x227FC10 VA: 0x182281610 Slot: 0
 	public override bool Equals(object obj) { }
 
 	// RVA: 0xDE1FA0 Offset: 0xDE05A0 VA: 0x180DE1FA0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x2281A40 Offset: 0x2280040 VA: 0x182281A40
+	// RVA: 0x2281880 Offset: 0x227FE80 VA: 0x182281880
 	private void WriteLine(StringBuilder sb, int n, int pos) { }
 
-	// RVA: 0x2281920 Offset: 0x227FF20 VA: 0x182281920 Slot: 3
+	// RVA: 0x2281760 Offset: 0x227FD60 VA: 0x182281760 Slot: 3
 	public override string ToString() { }
 
 }

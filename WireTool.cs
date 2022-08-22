@@ -161,27 +161,27 @@ public class WireTool : HeldEntity // TypeDefIndex: 8662
 	// RVA: 0x8FD0D0 Offset: 0x8FB6D0 VA: 0x1808FD0D0
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8F8740 Offset: 0x8F6D40 VA: 0x1808F8740
 	private void <AddClearConnections>b__5_0(BasePlayer ply) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8FCB80 Offset: 0x8FB180 VA: 0x1808FCB80
 	private void <OnInput>b__67_0(BasePlayer ply) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8FCB90 Offset: 0x8FB190 VA: 0x1808FCB90
 	private void <OnInput>b__67_1(BasePlayer ply) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8FCBA0 Offset: 0x8FB1A0 VA: 0x1808FCBA0
 	private void <OnInput>b__67_2(BasePlayer ply) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8FCBB0 Offset: 0x8FB1B0 VA: 0x1808FCBB0
 	private void <OnInput>b__67_3(BasePlayer ply) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8FCBC0 Offset: 0x8FB1C0 VA: 0x1808FCBC0
 	private void <OnInput>b__67_4(BasePlayer ply) { }
 

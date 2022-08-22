@@ -9,10 +9,10 @@ internal struct StartPlaytimeTrackingResult_t : ICallbackData // TypeDefIndex: 5
 
 	// Methods
 
-	// RVA: 0x1D8970 Offset: 0x1D7D70 VA: 0x1801D8970 Slot: 5
+	// RVA: 0x1D88F0 Offset: 0x1D7CF0 VA: 0x1801D88F0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D8960 Offset: 0x1D7D60 VA: 0x1801D8960 Slot: 4
+	// RVA: 0x1D88E0 Offset: 0x1D7CE0 VA: 0x1801D88E0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128F9E0 Offset: 0x128DFE0 VA: 0x18128F9E0

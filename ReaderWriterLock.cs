@@ -21,7 +21,7 @@ public sealed class ReaderWriterLock : CriticalFinalizerObject // TypeDefIndex: 
 	// RVA: 0x14981A0 Offset: 0x14967A0 VA: 0x1814981A0
 	private void AcquireWriterLock(int millisecondsTimeout, int initialLockCount) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x1498450 Offset: 0x1496A50 VA: 0x181498450
 	public void ReleaseWriterLock() { }
 

@@ -8,7 +8,7 @@ public class SoundPlayer : BaseMonoBehaviour, IClientComponent, IOnParentDestroy
 	public bool pending; // 0x2D
 	public Vector3 soundOffset; // 0x30
 	private int playOnFrame; // 0x3C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Sound <sound>k__BackingField; // 0x40
 
 	// Properties
@@ -16,11 +16,11 @@ public class SoundPlayer : BaseMonoBehaviour, IClientComponent, IOnParentDestroy
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
 	public Sound get_sound() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
 	protected void set_sound(Sound value) { }
 

@@ -1,7 +1,7 @@
 public class AbandonedMutexException : SystemException // TypeDefIndex: 773
 {
 // Namespace: System.Threading
-[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 [Serializable]
 public class AbandonedMutexException : SystemException // TypeDefIndex: 773
 	// Fields

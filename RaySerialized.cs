@@ -1,31 +1,31 @@
 public class RaySerialized // TypeDefIndex: 6286
 {	// Methods
 
-	// RVA: 0x1E49530 Offset: 0x1E47B30 VA: 0x181E49530
+	// RVA: 0x1E49370 Offset: 0x1E47970 VA: 0x181E49370
 	public static void ResetToPool(Ray instance) { }
 
-	// RVA: 0x1E49260 Offset: 0x1E47860 VA: 0x181E49260
+	// RVA: 0x1E490A0 Offset: 0x1E476A0 VA: 0x181E490A0
 	public static Ray Deserialize(byte[] buffer, ref Ray instance, bool isDelta = False) { }
 
-	// RVA: 0x1E49030 Offset: 0x1E47630 VA: 0x181E49030
+	// RVA: 0x1E48E70 Offset: 0x1E47470 VA: 0x181E48E70
 	public static Ray Deserialize(Stream stream, ref Ray instance, bool isDelta) { }
 
-	// RVA: 0x1E48A30 Offset: 0x1E47030 VA: 0x181E48A30
+	// RVA: 0x1E48870 Offset: 0x1E46E70 VA: 0x181E48870
 	public static Ray DeserializeLengthDelimited(Stream stream, ref Ray instance, bool isDelta) { }
 
-	// RVA: 0x1E48D40 Offset: 0x1E47340 VA: 0x181E48D40
+	// RVA: 0x1E48B80 Offset: 0x1E47180 VA: 0x181E48B80
 	public static Ray DeserializeLength(Stream stream, int length, ref Ray instance, bool isDelta) { }
 
-	// RVA: 0x1E49590 Offset: 0x1E47B90 VA: 0x181E49590
+	// RVA: 0x1E493D0 Offset: 0x1E479D0 VA: 0x181E493D0
 	public static void SerializeDelta(Stream stream, Ray instance, Ray previous) { }
 
-	// RVA: 0x1E49C60 Offset: 0x1E48260 VA: 0x181E49C60
+	// RVA: 0x1E49AA0 Offset: 0x1E480A0 VA: 0x181E49AA0
 	public static void Serialize(Stream stream, Ray instance) { }
 
-	// RVA: 0x1E49B30 Offset: 0x1E48130 VA: 0x181E49B30
+	// RVA: 0x1E49970 Offset: 0x1E47F70 VA: 0x181E49970
 	public static byte[] SerializeToBytes(Ray instance) { }
 
-	// RVA: 0x1E49A20 Offset: 0x1E48020 VA: 0x181E49A20
+	// RVA: 0x1E49860 Offset: 0x1E47E60 VA: 0x181E49860
 	public static void SerializeLengthDelimited(Stream stream, Ray instance) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

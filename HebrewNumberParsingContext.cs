@@ -5,7 +5,7 @@ internal struct HebrewNumberParsingContext // TypeDefIndex: 706
 
 	// Methods
 
-	// RVA: 0x1ECFD0 Offset: 0x1EC3D0 VA: 0x1801ECFD0
+	// RVA: 0x1ECF50 Offset: 0x1EC350 VA: 0x1801ECF50
 	public void .ctor(int result) { }
 
 }

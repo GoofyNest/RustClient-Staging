@@ -115,7 +115,7 @@ internal class Number // TypeDefIndex: 278
 	// RVA: 0x1683160 Offset: 0x1681760 VA: 0x181683160
 	internal static bool TryStringToNumber(string str, NumberStyles options, ref Number.NumberBuffer number, NumberFormatInfo numfmt, bool parseDecimal) { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1683090 Offset: 0x1681690 VA: 0x181683090
 	internal static bool TryStringToNumber(string str, NumberStyles options, ref Number.NumberBuffer number, StringBuilder sb, NumberFormatInfo numfmt, bool parseDecimal) { }
 
@@ -132,10 +132,10 @@ internal struct Number.NumberBuffer // TypeDefIndex: 279
 
 	// Methods
 
-	// RVA: 0x1FC180 Offset: 0x1FB580 VA: 0x1801FC180
+	// RVA: 0x1FC100 Offset: 0x1FB500 VA: 0x1801FC100
 	public void .ctor(byte* stackBuffer) { }
 
-	// RVA: 0x1FC160 Offset: 0x1FB560 VA: 0x1801FC160
+	// RVA: 0x1FC0E0 Offset: 0x1FB4E0 VA: 0x1801FC0E0
 	public byte* PackForNative() { }
 
 	// RVA: 0x1679D00 Offset: 0x1678300 VA: 0x181679D00

@@ -6,13 +6,13 @@ public class UniqueConstraint : Constraint // TypeDefIndex: 4311
 
 	// Properties
 	internal Index ConstraintIndex { get; }
-	[ReadOnlyAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ReadOnlyAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	public virtual DataColumn[] Columns { get; }
 	internal DataColumn[] ColumnsReference { get; }
 	public bool IsPrimaryKey { get; }
 	internal override bool InCollection { set; }
 	internal DataKey Key { get; }
-	[ReadOnlyAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ReadOnlyAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	public override DataTable Table { get; }
 
 	// Methods

@@ -181,7 +181,7 @@ public struct CoverageQueries.Query.Internal // TypeDefIndex: 11484
 
 	// Methods
 
-	// RVA: 0xF3E20 Offset: 0xF3220 VA: 0x1800F3E20
+	// RVA: 0xF3DA0 Offset: 0xF31A0 VA: 0x1800F3DA0
 	public void Reset() { }
 
 }
@@ -200,7 +200,7 @@ public struct CoverageQueries.Query.Result // TypeDefIndex: 11485
 
 	// Methods
 
-	// RVA: 0xF3E30 Offset: 0xF3230 VA: 0x1800F3E30
+	// RVA: 0xF3DB0 Offset: 0xF31B0 VA: 0x1800F3DB0
 	public void Reset() { }
 
 }

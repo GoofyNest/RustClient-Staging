@@ -1,6 +1,6 @@
 public sealed class Debugger // TypeDefIndex: 1501
 {	// Fields
-	public static readonly string DefaultCategory; // 0x2B11180
+	public static readonly string DefaultCategory; // 0x2B101A0
 
 	// Properties
 	public static bool IsAttached { get; }

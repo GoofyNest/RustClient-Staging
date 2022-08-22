@@ -8,22 +8,22 @@ public sealed class AutoExposure : PostProcessEffectSettings // TypeDefIndex: 11
 	[DisplayNameAttribute] // RVA: 0xEA2B0 Offset: 0xE96B0 VA: 0x1800EA2B0
 	[TooltipAttribute] // RVA: 0xEA2B0 Offset: 0xE96B0 VA: 0x1800EA2B0
 	public FloatParameter minLuminance; // 0x38
-	[RangeAttribute] // RVA: 0xEA3E0 Offset: 0xE97E0 VA: 0x1800EA3E0
-	[DisplayNameAttribute] // RVA: 0xEA3E0 Offset: 0xE97E0 VA: 0x1800EA3E0
-	[TooltipAttribute] // RVA: 0xEA3E0 Offset: 0xE97E0 VA: 0x1800EA3E0
+	[RangeAttribute] // RVA: 0xEA4C0 Offset: 0xE98C0 VA: 0x1800EA4C0
+	[DisplayNameAttribute] // RVA: 0xEA4C0 Offset: 0xE98C0 VA: 0x1800EA4C0
+	[TooltipAttribute] // RVA: 0xEA4C0 Offset: 0xE98C0 VA: 0x1800EA4C0
 	public FloatParameter maxLuminance; // 0x40
-	[MinAttribute] // RVA: 0xEA5F0 Offset: 0xE99F0 VA: 0x1800EA5F0
-	[DisplayNameAttribute] // RVA: 0xEA5F0 Offset: 0xE99F0 VA: 0x1800EA5F0
-	[TooltipAttribute] // RVA: 0xEA5F0 Offset: 0xE99F0 VA: 0x1800EA5F0
+	[MinAttribute] // RVA: 0xEA710 Offset: 0xE9B10 VA: 0x1800EA710
+	[DisplayNameAttribute] // RVA: 0xEA710 Offset: 0xE9B10 VA: 0x1800EA710
+	[TooltipAttribute] // RVA: 0xEA710 Offset: 0xE9B10 VA: 0x1800EA710
 	public FloatParameter keyValue; // 0x48
-	[DisplayNameAttribute] // RVA: 0xEA760 Offset: 0xE9B60 VA: 0x1800EA760
-	[TooltipAttribute] // RVA: 0xEA760 Offset: 0xE9B60 VA: 0x1800EA760
+	[DisplayNameAttribute] // RVA: 0xEA860 Offset: 0xE9C60 VA: 0x1800EA860
+	[TooltipAttribute] // RVA: 0xEA860 Offset: 0xE9C60 VA: 0x1800EA860
 	public EyeAdaptationParameter eyeAdaptation; // 0x50
-	[MinAttribute] // RVA: 0xEA960 Offset: 0xE9D60 VA: 0x1800EA960
-	[TooltipAttribute] // RVA: 0xEA960 Offset: 0xE9D60 VA: 0x1800EA960
+	[MinAttribute] // RVA: 0xEA9E0 Offset: 0xE9DE0 VA: 0x1800EA9E0
+	[TooltipAttribute] // RVA: 0xEA9E0 Offset: 0xE9DE0 VA: 0x1800EA9E0
 	public FloatParameter speedUp; // 0x58
-	[MinAttribute] // RVA: 0xEAA30 Offset: 0xE9E30 VA: 0x1800EAA30
-	[TooltipAttribute] // RVA: 0xEAA30 Offset: 0xE9E30 VA: 0x1800EAA30
+	[MinAttribute] // RVA: 0xEAB10 Offset: 0xE9F10 VA: 0x1800EAB10
+	[TooltipAttribute] // RVA: 0xEAB10 Offset: 0xE9F10 VA: 0x1800EAB10
 	public FloatParameter speedDown; // 0x60
 
 	// Methods

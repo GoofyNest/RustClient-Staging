@@ -5,7 +5,7 @@ public class BaseGameMode : BaseEntity // TypeDefIndex: 8517
 	public const BaseEntity.Flags Flag_Warmup = 128;
 	public const BaseEntity.Flags Flag_GameOver = 256;
 	public const BaseEntity.Flags Flag_WaitingForPlayers = 512;
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<BaseGameMode> GameModeChanged; // 0x0
 	public string shortname; // 0x178
 	public float matchDuration; // 0x180
@@ -40,7 +40,7 @@ public class BaseGameMode : BaseEntity // TypeDefIndex: 8517
 	public static BaseGameMode clActiveGameMode; // 0x8
 	public static List<BaseGameMode> clGameModeManifest; // 0x10
 	public PlayerInventoryProperties[] loadouts; // 0x208
-	[TooltipAttribute] // RVA: 0xA26C0 Offset: 0xA1AC0 VA: 0x1800A26C0
+	[TooltipAttribute] // RVA: 0xA2750 Offset: 0xA1B50 VA: 0x1800A2750
 	public bool useStaticLoadoutPerPlayer; // 0x210
 	public bool topUpMagazines; // 0x211
 	public bool sendKillNotifications; // 0x212
@@ -96,11 +96,11 @@ public class BaseGameMode : BaseEntity // TypeDefIndex: 8517
 	// RVA: 0xA3DCF0 Offset: 0xA3C2F0 VA: 0x180A3DCF0
 	public bool KeepScores() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA3EC40 Offset: 0xA3D240 VA: 0x180A3EC40
 	public static void add_GameModeChanged(Action<BaseGameMode> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA3ED30 Offset: 0xA3D330 VA: 0x180A3ED30
 	public static void remove_GameModeChanged(Action<BaseGameMode> value) { }
 
@@ -185,7 +185,7 @@ public class BaseGameMode : BaseEntity // TypeDefIndex: 8517
 	// RVA: 0xA3E830 Offset: 0xA3CE30 VA: 0x180A3E830
 	public float TimeUntilMatchEnds() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA3E4D0 Offset: 0xA3CAD0 VA: 0x180A3E4D0
 	public void RPC_ScoreSplash(BaseEntity.RPCMessage msg) { }
 

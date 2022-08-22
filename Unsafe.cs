@@ -61,7 +61,7 @@ public static class Unsafe // TypeDefIndex: 6664
 public static class Unsafe // TypeDefIndex: 6664
 	// Methods
 
-	[NonVersionableAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonVersionableAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static int SizeOf<T>() { }
 	/* GenericInstMethod :
@@ -76,11 +76,11 @@ public static class Unsafe // TypeDefIndex: 6664
 	|-Unsafe.SizeOf<object>
 	*/
 
-	[NonVersionableAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2323370 Offset: 0x2321970 VA: 0x182323370
+	[NonVersionableAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x23231B0 Offset: 0x23217B0 VA: 0x1823231B0
 	public static void CopyBlock(ref byte destination, ref byte source, uint byteCount) { }
 
-	[NonVersionableAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonVersionableAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static T As<T>(object o) { }
 	/* GenericInstMethod :
@@ -91,7 +91,7 @@ public static class Unsafe // TypeDefIndex: 6664
 	|-Unsafe.As<object>
 	*/
 
-	[NonVersionableAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonVersionableAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static ref T AsRef<T>(void* source) { }
 	/* GenericInstMethod :
@@ -103,7 +103,7 @@ public static class Unsafe // TypeDefIndex: 6664
 	|-Unsafe.AsRef<object>
 	*/
 
-	[NonVersionableAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonVersionableAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static ref TTo As<TFrom, TTo>(ref TFrom source) { }
 	/* GenericInstMethod :
@@ -118,7 +118,7 @@ public static class Unsafe // TypeDefIndex: 6664
 	|-Unsafe.As<object, object>
 	*/
 
-	[NonVersionableAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonVersionableAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static ref T Add<T>(ref T source, int elementOffset) { }
 	/* GenericInstMethod :
@@ -133,7 +133,7 @@ public static class Unsafe // TypeDefIndex: 6664
 	|-Unsafe.Add<object>
 	*/
 
-	[NonVersionableAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonVersionableAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static ref T Add<T>(ref T source, IntPtr elementOffset) { }
 	/* GenericInstMethod :
@@ -145,7 +145,7 @@ public static class Unsafe // TypeDefIndex: 6664
 	|-Unsafe.Add<object>
 	*/
 
-	[NonVersionableAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonVersionableAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static ref T AddByteOffset<T>(ref T source, IntPtr byteOffset) { }
 	/* GenericInstMethod :
@@ -156,7 +156,7 @@ public static class Unsafe // TypeDefIndex: 6664
 	|-Unsafe.AddByteOffset<object>
 	*/
 
-	[NonVersionableAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[NonVersionableAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IntPtr ByteOffset<T>(ref T origin, ref T target) { }
 	/* GenericInstMethod :

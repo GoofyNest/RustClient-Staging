@@ -1,7 +1,7 @@
 public sealed class ConfigurationCollectionAttribute : Attribute // TypeDefIndex: 1698
 {
 // Namespace: System.Configuration
-[AttributeUsageAttribute] // RVA: 0x7AB60 Offset: 0x79F60 VA: 0x18007AB60
+[AttributeUsageAttribute] // RVA: 0x7AAA0 Offset: 0x79EA0 VA: 0x18007AAA0
 public sealed class ConfigurationCollectionAttribute : Attribute // TypeDefIndex: 1698
 	// Methods
 

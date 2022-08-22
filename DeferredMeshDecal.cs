@@ -69,7 +69,7 @@ public struct DeferredMeshDecal.MaterialLink // TypeDefIndex: 10668
 
 	// Methods
 
-	// RVA: 0xF91E0 Offset: 0xF85E0 VA: 0x1800F91E0
+	// RVA: 0xF9160 Offset: 0xF8560 VA: 0x1800F9160
 	public void .ctor(DeferredMeshDecal.MaterialReplacement replacement, int submeshIndex) { }
 
 }

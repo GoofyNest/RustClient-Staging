@@ -7,13 +7,13 @@ public struct Option // TypeDefIndex: 7027
 
 	// Methods
 
-	// RVA: 0x14B8A0 Offset: 0x14ACA0 VA: 0x18014B8A0
+	// RVA: 0x14B820 Offset: 0x14AC20 VA: 0x18014B820
 	public void .ctor(string token, string english, string value, bool isdefault = False, Icons icon = 0) { }
 
-	// RVA: 0x14B970 Offset: 0x14AD70 VA: 0x18014B970
+	// RVA: 0x14B8F0 Offset: 0x14ACF0 VA: 0x18014B8F0
 	public void .ctor(Translate.Phrase phrase, string value, bool isdefault = False, Icons icon = 0) { }
 
-	// RVA: 0x14B960 Offset: 0x14AD60 VA: 0x18014B960
+	// RVA: 0x14B8E0 Offset: 0x14ACE0 VA: 0x18014B8E0
 	public void .ctor(Icons icon, string value, bool isdefault = False) { }
 
 }
@@ -42,13 +42,13 @@ public struct Option // TypeDefIndex: 11674
 
 	// Methods
 
-	// RVA: 0xF5040 Offset: 0xF4440 VA: 0x1800F5040
+	// RVA: 0xF4FC0 Offset: 0xF43C0 VA: 0x1800F4FC0
 	public void set_copyOptionsFrom(BaseEntity.Menu.Option value) { }
 
-	// RVA: 0xF5020 Offset: 0xF4420 VA: 0x1800F5020
+	// RVA: 0xF4FA0 Offset: 0xF43A0 VA: 0x1800F4FA0
 	public void RunTimeStart() { }
 
-	// RVA: 0xF5000 Offset: 0xF4400 VA: 0x1800F5000
+	// RVA: 0xF4F80 Offset: 0xF4380 VA: 0x1800F4F80
 	public void RunTimeProgress() { }
 
 }

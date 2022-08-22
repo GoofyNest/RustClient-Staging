@@ -10,10 +10,10 @@ internal struct GSClientKick_t : ICallbackData // TypeDefIndex: 5492
 
 	// Methods
 
-	// RVA: 0x1E7670 Offset: 0x1E6A70 VA: 0x1801E7670 Slot: 5
+	// RVA: 0x1E75F0 Offset: 0x1E69F0 VA: 0x1801E75F0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E7660 Offset: 0x1E6A60 VA: 0x1801E7660 Slot: 4
+	// RVA: 0x1E75E0 Offset: 0x1E69E0 VA: 0x1801E75E0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1370A70 Offset: 0x136F070 VA: 0x181370A70

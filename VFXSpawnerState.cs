@@ -5,28 +5,28 @@ public sealed class VFXSpawnerState : IDisposable // TypeDefIndex: 4763
 
 	// Methods
 
-	// RVA: 0x2321A70 Offset: 0x2320070 VA: 0x182321A70
+	// RVA: 0x23218B0 Offset: 0x231FEB0 VA: 0x1823218B0
 	internal void .ctor(IntPtr ptr, bool owner) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x23217F0 Offset: 0x231FDF0 VA: 0x1823217F0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x2321630 Offset: 0x231FC30 VA: 0x182321630
 	internal static VFXSpawnerState CreateSpawnerStateWrapper() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x23219F0 Offset: 0x231FFF0 VA: 0x1823219F0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x2321830 Offset: 0x231FE30 VA: 0x182321830
 	internal void SetWrapValue(IntPtr ptr) { }
 
-	// RVA: 0x2321970 Offset: 0x231FF70 VA: 0x182321970
+	// RVA: 0x23217B0 Offset: 0x231FDB0 VA: 0x1823217B0
 	private void Release() { }
 
-	// RVA: 0x23218A0 Offset: 0x231FEA0 VA: 0x1823218A0 Slot: 1
+	// RVA: 0x23216E0 Offset: 0x231FCE0 VA: 0x1823216E0 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x2321840 Offset: 0x231FE40 VA: 0x182321840 Slot: 4
+	// RVA: 0x2321680 Offset: 0x231FC80 VA: 0x182321680 Slot: 4
 	public void Dispose() { }
 
-	[NativeMethodAttribute] // RVA: 0x90510 Offset: 0x8F910 VA: 0x180090510
-	// RVA: 0x2321930 Offset: 0x231FF30 VA: 0x182321930
+	[NativeMethodAttribute] // RVA: 0x90620 Offset: 0x8FA20 VA: 0x180090620
+	// RVA: 0x2321770 Offset: 0x231FD70 VA: 0x182321770
 	private static void Internal_Destroy(IntPtr ptr) { }
 
 }

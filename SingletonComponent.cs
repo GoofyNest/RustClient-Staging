@@ -13,7 +13,7 @@ public abstract class SingletonComponent : FacepunchBehaviour // TypeDefIndex: 5
 	// RVA: 0x95F830 Offset: 0x95DE30 VA: 0x18095F830 Slot: 7
 	protected virtual void OnDestroy() { }
 
-	// RVA: 0x21BCF50 Offset: 0x21BB550 VA: 0x1821BCF50
+	// RVA: 0x21BCD90 Offset: 0x21BB390 VA: 0x1821BCD90
 	public static void InitializeSingletons(GameObject go) { }
 
 	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0

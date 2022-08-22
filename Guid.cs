@@ -18,17 +18,17 @@ public struct Guid : IFormattable, IComparable, IComparable<Guid>, IEquatable<Gu
 
 	// Methods
 
-	// RVA: 0x1ECE60 Offset: 0x1EC260 VA: 0x1801ECE60
+	// RVA: 0x1ECDE0 Offset: 0x1EC1E0 VA: 0x1801ECDE0
 	public void .ctor(byte[] b) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x1ECE10 Offset: 0x1EC210 VA: 0x1801ECE10
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x1ECD90 Offset: 0x1EC190 VA: 0x1801ECD90
 	public void .ctor(uint a, ushort b, ushort c, byte d, byte e, byte f, byte g, byte h, byte i, byte j, byte k) { }
 
-	// RVA: 0x1ECE10 Offset: 0x1EC210 VA: 0x1801ECE10
+	// RVA: 0x1ECD90 Offset: 0x1EC190 VA: 0x1801ECD90
 	public void .ctor(int a, short b, short c, byte d, byte e, byte f, byte g, byte h, byte i, byte j, byte k) { }
 
-	// RVA: 0x1ECE70 Offset: 0x1EC270 VA: 0x1801ECE70
+	// RVA: 0x1ECDF0 Offset: 0x1EC1F0 VA: 0x1801ECDF0
 	public void .ctor(string g) { }
 
 	// RVA: 0x137F8F0 Offset: 0x137DEF0 VA: 0x18137F8F0
@@ -76,28 +76,28 @@ public struct Guid : IFormattable, IComparable, IComparable<Guid>, IEquatable<Gu
 	// RVA: 0x137F5C0 Offset: 0x137DBC0 VA: 0x18137F5C0
 	private static bool IsHexPrefix(string str, int i) { }
 
-	// RVA: 0x1ECDA0 Offset: 0x1EC1A0 VA: 0x1801ECDA0
+	// RVA: 0x1ECD20 Offset: 0x1EC120 VA: 0x1801ECD20
 	public byte[] ToByteArray() { }
 
-	// RVA: 0x1ECDB0 Offset: 0x1EC1B0 VA: 0x1801ECDB0 Slot: 3
+	// RVA: 0x1ECD30 Offset: 0x1EC130 VA: 0x1801ECD30 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1ECD50 Offset: 0x1EC150 VA: 0x1801ECD50 Slot: 2
+	// RVA: 0x1ECCD0 Offset: 0x1EC0D0 VA: 0x1801ECCD0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1ECAF0 Offset: 0x1EBEF0 VA: 0x1801ECAF0 Slot: 0
+	// RVA: 0x1ECA70 Offset: 0x1EBE70 VA: 0x1801ECA70 Slot: 0
 	public override bool Equals(object o) { }
 
-	// RVA: 0x1ECC60 Offset: 0x1EC060 VA: 0x1801ECC60 Slot: 7
+	// RVA: 0x1ECBE0 Offset: 0x1EBFE0 VA: 0x1801ECBE0 Slot: 7
 	public bool Equals(Guid g) { }
 
-	// RVA: 0x1ECD80 Offset: 0x1EC180 VA: 0x1801ECD80
+	// RVA: 0x1ECD00 Offset: 0x1EC100 VA: 0x1801ECD00
 	private int GetResult(uint me, uint them) { }
 
-	// RVA: 0x1ECAC0 Offset: 0x1EBEC0 VA: 0x1801ECAC0 Slot: 5
+	// RVA: 0x1ECA40 Offset: 0x1EBE40 VA: 0x1801ECA40 Slot: 5
 	public int CompareTo(object value) { }
 
-	// RVA: 0x1ECAD0 Offset: 0x1EBED0 VA: 0x1801ECAD0 Slot: 6
+	// RVA: 0x1ECA50 Offset: 0x1EBE50 VA: 0x1801ECA50 Slot: 6
 	public int CompareTo(Guid value) { }
 
 	// RVA: 0x13820A0 Offset: 0x13806A0 VA: 0x1813820A0
@@ -106,7 +106,7 @@ public struct Guid : IFormattable, IComparable, IComparable<Guid>, IEquatable<Gu
 	// RVA: 0x1382230 Offset: 0x1380830 VA: 0x181382230
 	public static bool op_Inequality(Guid a, Guid b) { }
 
-	// RVA: 0x1ECE00 Offset: 0x1EC200 VA: 0x1801ECE00
+	// RVA: 0x1ECD80 Offset: 0x1EC180 VA: 0x1801ECD80
 	public string ToString(string format) { }
 
 	// RVA: 0x137F3B0 Offset: 0x137D9B0 VA: 0x18137F3B0
@@ -118,7 +118,7 @@ public struct Guid : IFormattable, IComparable, IComparable<Guid>, IEquatable<Gu
 	// RVA: 0x137F460 Offset: 0x137DA60 VA: 0x18137F460
 	private static int HexsToChars(char* guidChars, int offset, int a, int b, bool hex) { }
 
-	// RVA: 0x1ECDF0 Offset: 0x1EC1F0 VA: 0x1801ECDF0 Slot: 4
+	// RVA: 0x1ECD70 Offset: 0x1EC170 VA: 0x1801ECD70 Slot: 4
 	public string ToString(string format, IFormatProvider provider) { }
 
 	// RVA: 0x137F6B0 Offset: 0x137DCB0 VA: 0x18137F6B0
@@ -183,22 +183,22 @@ private struct Guid.GuidResult // TypeDefIndex: 245
 
 	// Methods
 
-	// RVA: 0x1ECA00 Offset: 0x1EBE00 VA: 0x1801ECA00
+	// RVA: 0x1EC980 Offset: 0x1EBD80 VA: 0x1801EC980
 	internal void Init(Guid.GuidParseThrowStyle canThrow) { }
 
-	// RVA: 0x1ECA80 Offset: 0x1EBE80 VA: 0x1801ECA80
+	// RVA: 0x1ECA00 Offset: 0x1EBE00 VA: 0x1801ECA00
 	internal void SetFailure(Exception nativeException) { }
 
-	// RVA: 0x1ECA40 Offset: 0x1EBE40 VA: 0x1801ECA40
+	// RVA: 0x1EC9C0 Offset: 0x1EBDC0 VA: 0x1801EC9C0
 	internal void SetFailure(Guid.ParseFailureKind failure, string failureMessageID) { }
 
-	// RVA: 0x1ECA10 Offset: 0x1EBE10 VA: 0x1801ECA10
+	// RVA: 0x1EC990 Offset: 0x1EBD90 VA: 0x1801EC990
 	internal void SetFailure(Guid.ParseFailureKind failure, string failureMessageID, object failureMessageFormatArgument) { }
 
-	// RVA: 0x1ECA70 Offset: 0x1EBE70 VA: 0x1801ECA70
+	// RVA: 0x1EC9F0 Offset: 0x1EBDF0 VA: 0x1801EC9F0
 	internal void SetFailure(Guid.ParseFailureKind failure, string failureMessageID, object failureMessageFormatArgument, string failureArgumentName, Exception innerException) { }
 
-	// RVA: 0x1EC9F0 Offset: 0x1EBDF0 VA: 0x1801EC9F0
+	// RVA: 0x1EC970 Offset: 0x1EBD70 VA: 0x1801EC970
 	internal Exception GetGuidParseException() { }
 
 }

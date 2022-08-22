@@ -15,22 +15,22 @@ public struct SqlInt64 : INullable, IComparable, IXmlSerializable // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x1181B0 Offset: 0x1175B0 VA: 0x1801181B0
+	// RVA: 0x118130 Offset: 0x117530 VA: 0x180118130
 	private void .ctor(bool fNull) { }
 
-	// RVA: 0x11A3A0 Offset: 0x1197A0 VA: 0x18011A3A0
+	// RVA: 0x11A320 Offset: 0x119720 VA: 0x18011A320
 	public void .ctor(long value) { }
 
-	// RVA: 0x1181D0 Offset: 0x1175D0 VA: 0x1801181D0 Slot: 4
+	// RVA: 0x118150 Offset: 0x117550 VA: 0x180118150 Slot: 4
 	public bool get_IsNull() { }
 
-	// RVA: 0x11A3B0 Offset: 0x1197B0 VA: 0x18011A3B0
+	// RVA: 0x11A330 Offset: 0x119730 VA: 0x18011A330
 	public long get_Value() { }
 
 	// RVA: 0xCC5600 Offset: 0xCC3C00 VA: 0x180CC5600
 	public static SqlInt64 op_Implicit(long x) { }
 
-	// RVA: 0x11A380 Offset: 0x119780 VA: 0x18011A380 Slot: 3
+	// RVA: 0x11A300 Offset: 0x119700 VA: 0x18011A300 Slot: 3
 	public override string ToString() { }
 
 	// RVA: 0xCC5CC0 Offset: 0xCC42C0 VA: 0x180CC5CC0
@@ -81,40 +81,40 @@ public struct SqlInt64 : INullable, IComparable, IXmlSerializable // TypeDefInde
 	// RVA: 0xCC4510 Offset: 0xCC2B10 VA: 0x180CC4510
 	public static SqlBoolean GreaterThan(SqlInt64 x, SqlInt64 y) { }
 
-	// RVA: 0x119EE0 Offset: 0x1192E0 VA: 0x180119EE0
+	// RVA: 0x119E60 Offset: 0x119260 VA: 0x180119E60
 	public SqlByte ToSqlByte() { }
 
-	// RVA: 0x119FE0 Offset: 0x1193E0 VA: 0x180119FE0
+	// RVA: 0x119F60 Offset: 0x119360 VA: 0x180119F60
 	public SqlDouble ToSqlDouble() { }
 
-	// RVA: 0x11A100 Offset: 0x119500 VA: 0x18011A100
+	// RVA: 0x11A080 Offset: 0x119480 VA: 0x18011A080
 	public SqlInt16 ToSqlInt16() { }
 
-	// RVA: 0x11A240 Offset: 0x119640 VA: 0x18011A240
+	// RVA: 0x11A1C0 Offset: 0x1195C0 VA: 0x18011A1C0
 	public SqlInt32 ToSqlInt32() { }
 
-	// RVA: 0x119F50 Offset: 0x119350 VA: 0x180119F50
+	// RVA: 0x119ED0 Offset: 0x1192D0 VA: 0x180119ED0
 	public SqlDecimal ToSqlDecimal() { }
 
-	// RVA: 0x1199B0 Offset: 0x118DB0 VA: 0x1801199B0 Slot: 5
+	// RVA: 0x119930 Offset: 0x118D30 VA: 0x180119930 Slot: 5
 	public int CompareTo(object value) { }
 
-	// RVA: 0x119AC0 Offset: 0x118EC0 VA: 0x180119AC0
+	// RVA: 0x119A40 Offset: 0x118E40 VA: 0x180119A40
 	public int CompareTo(SqlInt64 value) { }
 
-	// RVA: 0x119AE0 Offset: 0x118EE0 VA: 0x180119AE0 Slot: 0
+	// RVA: 0x119A60 Offset: 0x118E60 VA: 0x180119A60 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x119C70 Offset: 0x119070 VA: 0x180119C70 Slot: 2
+	// RVA: 0x119BF0 Offset: 0x118FF0 VA: 0x180119BF0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x117E00 Offset: 0x117200 VA: 0x180117E00 Slot: 6
+	// RVA: 0x117D80 Offset: 0x117180 VA: 0x180117D80 Slot: 6
 	private XmlSchema System.Xml.Serialization.IXmlSerializable.GetSchema() { }
 
-	// RVA: 0x119CF0 Offset: 0x1190F0 VA: 0x180119CF0 Slot: 7
+	// RVA: 0x119C70 Offset: 0x119070 VA: 0x180119C70 Slot: 7
 	private void System.Xml.Serialization.IXmlSerializable.ReadXml(XmlReader reader) { }
 
-	// RVA: 0x119E10 Offset: 0x119210 VA: 0x180119E10 Slot: 8
+	// RVA: 0x119D90 Offset: 0x119190 VA: 0x180119D90 Slot: 8
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
 	// RVA: 0xCC44B0 Offset: 0xCC2AB0 VA: 0x180CC44B0

@@ -23,13 +23,13 @@ public class GrowableEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1D619E0 Offset: 0x1D5FFE0 VA: 0x181D619E0
+	// RVA: 0x1D61820 Offset: 0x1D5FE20 VA: 0x181D61820
 	public static void ResetToPool(GrowableEntity instance) { }
 
-	// RVA: 0x1D61850 Offset: 0x1D5FE50 VA: 0x181D61850
+	// RVA: 0x1D61690 Offset: 0x1D5FC90 VA: 0x181D61690
 	public void ResetToPool() { }
 
-	// RVA: 0x1D61600 Offset: 0x1D5FC00 VA: 0x181D61600 Slot: 9
+	// RVA: 0x1D61440 Offset: 0x1D5FA40 VA: 0x181D61440 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -38,64 +38,64 @@ public class GrowableEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D5FD60 Offset: 0x1D5E360 VA: 0x181D5FD60
+	// RVA: 0x1D5FBA0 Offset: 0x1D5E1A0 VA: 0x181D5FBA0
 	public void CopyTo(GrowableEntity instance) { }
 
-	// RVA: 0x1D5FDF0 Offset: 0x1D5E3F0 VA: 0x181D5FDF0
+	// RVA: 0x1D5FC30 Offset: 0x1D5E230 VA: 0x181D5FC30
 	public GrowableEntity Copy() { }
 
-	// RVA: 0x1D61580 Offset: 0x1D5FB80 VA: 0x181D61580
+	// RVA: 0x1D613C0 Offset: 0x1D5F9C0 VA: 0x181D613C0
 	public static GrowableEntity Deserialize(Stream stream) { }
 
-	// RVA: 0x1D605A0 Offset: 0x1D5EBA0 VA: 0x181D605A0
+	// RVA: 0x1D603E0 Offset: 0x1D5E9E0 VA: 0x181D603E0
 	public static GrowableEntity DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1D60CD0 Offset: 0x1D5F2D0 VA: 0x181D60CD0
+	// RVA: 0x1D60B10 Offset: 0x1D5F110 VA: 0x181D60B10
 	public static GrowableEntity DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1D60E60 Offset: 0x1D5F460 VA: 0x181D60E60
+	// RVA: 0x1D60CA0 Offset: 0x1D5F2A0 VA: 0x181D60CA0
 	public static GrowableEntity Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1D61810 Offset: 0x1D5FE10 VA: 0x181D61810
+	// RVA: 0x1D61650 Offset: 0x1D5FC50 VA: 0x181D61650
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1D62830 Offset: 0x1D60E30 VA: 0x181D62830 Slot: 12
+	// RVA: 0x1D62670 Offset: 0x1D60C70 VA: 0x181D62670 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1D62850 Offset: 0x1D60E50 VA: 0x181D62850 Slot: 13
+	// RVA: 0x1D62690 Offset: 0x1D60C90 VA: 0x181D62690 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, GrowableEntity previous) { }
 
-	// RVA: 0x1D61830 Offset: 0x1D5FE30 VA: 0x181D61830 Slot: 14
+	// RVA: 0x1D61670 Offset: 0x1D5FC70 VA: 0x181D61670 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1D60D60 Offset: 0x1D5F360 VA: 0x181D60D60
+	// RVA: 0x1D60BA0 Offset: 0x1D5F1A0 VA: 0x181D60BA0
 	public static GrowableEntity Deserialize(byte[] buffer, GrowableEntity instance, bool isDelta = False) { }
 
-	// RVA: 0x1D60F80 Offset: 0x1D5F580 VA: 0x181D60F80
+	// RVA: 0x1D60DC0 Offset: 0x1D5F3C0 VA: 0x181D60DC0
 	public static GrowableEntity Deserialize(Stream stream, GrowableEntity instance, bool isDelta) { }
 
-	// RVA: 0x1D5FED0 Offset: 0x1D5E4D0 VA: 0x181D5FED0
+	// RVA: 0x1D5FD10 Offset: 0x1D5E310 VA: 0x181D5FD10
 	public static GrowableEntity DeserializeLengthDelimited(Stream stream, GrowableEntity instance, bool isDelta) { }
 
-	// RVA: 0x1D60620 Offset: 0x1D5EC20 VA: 0x181D60620
+	// RVA: 0x1D60460 Offset: 0x1D5EA60 VA: 0x181D60460
 	public static GrowableEntity DeserializeLength(Stream stream, int length, GrowableEntity instance, bool isDelta) { }
 
-	// RVA: 0x1D61B70 Offset: 0x1D60170 VA: 0x181D61B70
+	// RVA: 0x1D619B0 Offset: 0x1D5FFB0 VA: 0x181D619B0
 	public static void SerializeDelta(Stream stream, GrowableEntity instance, GrowableEntity previous) { }
 
-	// RVA: 0x1D62490 Offset: 0x1D60A90 VA: 0x181D62490
+	// RVA: 0x1D622D0 Offset: 0x1D608D0 VA: 0x181D622D0
 	public static void Serialize(Stream stream, GrowableEntity instance) { }
 
-	// RVA: 0x1D62820 Offset: 0x1D60E20 VA: 0x181D62820
+	// RVA: 0x1D62660 Offset: 0x1D60C60 VA: 0x181D62660
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1D62830 Offset: 0x1D60E30 VA: 0x181D62830
+	// RVA: 0x1D62670 Offset: 0x1D60C70 VA: 0x181D62670
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1D62380 Offset: 0x1D60980 VA: 0x181D62380
+	// RVA: 0x1D621C0 Offset: 0x1D607C0 VA: 0x181D621C0
 	public static byte[] SerializeToBytes(GrowableEntity instance) { }
 
-	// RVA: 0x1D622D0 Offset: 0x1D608D0 VA: 0x181D622D0
+	// RVA: 0x1D62110 Offset: 0x1D60710 VA: 0x181D62110
 	public static void SerializeLengthDelimited(Stream stream, GrowableEntity instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -116,25 +116,25 @@ public class GrowableEntity : BaseCombatEntity, IInstanceDataReceiver // TypeDef
 	private float client_healthScale; // 0x370
 	public PlantProperties Properties; // 0x378
 	public ItemDefinition SourceItemDef; // 0x380
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PlantProperties.State <State>k__BackingField; // 0x388
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <Age>k__BackingField; // 0x38C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <LightQuality>k__BackingField; // 0x390
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <GroundQuality>k__BackingField; // 0x394
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <WaterQuality>k__BackingField; // 0x398
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <WaterConsumption>k__BackingField; // 0x39C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <Fertilized>k__BackingField; // 0x3A0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <TemperatureQuality>k__BackingField; // 0x3A4
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <OverallQuality>k__BackingField; // 0x3A8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <Yield>k__BackingField; // 0x3AC
 	private float stageAge; // 0x3B0
 	public GrowableGenes Genes; // 0x3B8
@@ -176,24 +176,24 @@ public class GrowableEntity : BaseCombatEntity, IInstanceDataReceiver // TypeDef
 	// RVA: 0x72E160 Offset: 0x72C760 VA: 0x18072E160 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE13F0 Offset: 0xE07F0 VA: 0x1800E13F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE13F0 Offset: 0xE07F0 VA: 0x1800E13F0
+	[BaseEntity.Menu] // RVA: 0xE1510 Offset: 0xE0910 VA: 0x1800E1510
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE1510 Offset: 0xE0910 VA: 0x1800E1510
 	// RVA: 0x72EFE0 Offset: 0x72D5E0 VA: 0x18072EFE0
 	public void MenuPick(BasePlayer ply) { }
 
 	// RVA: 0x72EE20 Offset: 0x72D420 VA: 0x18072EE20
 	public bool MenuCanPick(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE15D0 Offset: 0xE09D0 VA: 0x1800E15D0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE15D0 Offset: 0xE09D0 VA: 0x1800E15D0
+	[BaseEntity.Menu] // RVA: 0xE1630 Offset: 0xE0A30 VA: 0x1800E1630
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE1630 Offset: 0xE0A30 VA: 0x1800E1630
 	// RVA: 0x72EFA0 Offset: 0x72D5A0 VA: 0x18072EFA0
 	public void MenuClone(BasePlayer ply) { }
 
 	// RVA: 0x72EE10 Offset: 0x72D410 VA: 0x18072EE10
 	public bool MenuCanClone(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE1780 Offset: 0xE0B80 VA: 0x1800E1780
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE1780 Offset: 0xE0B80 VA: 0x1800E1780
+	[BaseEntity.Menu] // RVA: 0xE17E0 Offset: 0xE0BE0 VA: 0x1800E17E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE17E0 Offset: 0xE0BE0 VA: 0x1800E17E0
 	// RVA: 0x72F020 Offset: 0x72D620 VA: 0x18072F020
 	public void MenuRemove(BasePlayer ply) { }
 
@@ -203,7 +203,7 @@ public class GrowableEntity : BaseCombatEntity, IInstanceDataReceiver // TypeDef
 	// RVA: 0x72EDA0 Offset: 0x72D3A0 VA: 0x18072EDA0 Slot: 75
 	public override void LookingAtTick() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x72F530 Offset: 0x72DB30 VA: 0x18072F530
 	private void RPC_ReceiveQualityUpdate(BaseEntity.RPCMessage msg) { }
 
@@ -234,83 +234,83 @@ public class GrowableEntity : BaseCombatEntity, IInstanceDataReceiver // TypeDef
 	// RVA: 0x72F7E0 Offset: 0x72DDE0 VA: 0x18072F7E0
 	public void UpdateHealthVisual() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7302F0 Offset: 0x72E8F0 VA: 0x1807302F0
 	public PlantProperties.State get_State() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7304D0 Offset: 0x72EAD0 VA: 0x1807304D0
 	private void set_State(PlantProperties.State value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x72FF20 Offset: 0x72E520 VA: 0x18072FF20
 	public float get_Age() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x730480 Offset: 0x72EA80 VA: 0x180730480
 	private void set_Age(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x730240 Offset: 0x72E840 VA: 0x180730240
 	public float get_LightQuality() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7304B0 Offset: 0x72EAB0 VA: 0x1807304B0
 	private void set_LightQuality(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x730070 Offset: 0x72E670 VA: 0x180730070
 	public float get_GroundQuality() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7304A0 Offset: 0x72EAA0 VA: 0x1807304A0
 	private void set_GroundQuality(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x730380 Offset: 0x72E980 VA: 0x180730380
 	public float get_WaterQuality() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x730500 Offset: 0x72EB00 VA: 0x180730500
 	private void set_WaterQuality(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x730370 Offset: 0x72E970 VA: 0x180730370
 	public float get_WaterConsumption() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7304F0 Offset: 0x72EAF0 VA: 0x1807304F0
 	private void set_WaterConsumption(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x730060 Offset: 0x72E660 VA: 0x180730060
 	public bool get_Fertilized() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x730490 Offset: 0x72EA90 VA: 0x180730490
 	private void set_Fertilized(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x730300 Offset: 0x72E900 VA: 0x180730300
 	public float get_TemperatureQuality() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7304E0 Offset: 0x72EAE0 VA: 0x1807304E0
 	private void set_TemperatureQuality(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x730250 Offset: 0x72E850 VA: 0x180730250
 	public float get_OverallQuality() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7304C0 Offset: 0x72EAC0 VA: 0x1807304C0
 	private void set_OverallQuality(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x730390 Offset: 0x72E990 VA: 0x180730390
 	public float get_Yield() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x730510 Offset: 0x72EB10 VA: 0x180730510
 	private void set_Yield(float value) { }
 

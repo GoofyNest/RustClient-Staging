@@ -24,16 +24,16 @@ public struct ERRoadShape // TypeDefIndex: 7204
 
 	// Methods
 
-	// RVA: 0xFCF80 Offset: 0xFC380 VA: 0x1800FCF80
+	// RVA: 0xFCF00 Offset: 0xFC300 VA: 0x1800FCF00
 	public void .ctor(float width) { }
 
-	// RVA: 0xFCF10 Offset: 0xFC310 VA: 0x1800FCF10
+	// RVA: 0xFCE90 Offset: 0xFC290 VA: 0x1800FCE90
 	public void OCCQQDOQOD(List<Vector2> _nodes) { }
 
-	// RVA: 0xFCCD0 Offset: 0xFC0D0 VA: 0x1800FCCD0
+	// RVA: 0xFCC50 Offset: 0xFC050 VA: 0x1800FCC50
 	public void Copy(ERRoadShape shape) { }
 
-	// RVA: 0xFCD20 Offset: 0xFC120 VA: 0x1800FCD20
+	// RVA: 0xFCCA0 Offset: 0xFC0A0 VA: 0x1800FCCA0
 	public void IsSymmetrical() { }
 
 }

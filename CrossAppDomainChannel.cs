@@ -1,6 +1,6 @@
 internal class CrossAppDomainChannel : IChannel, IChannelSender, IChannelReceiver // TypeDefIndex: 1189
 {	// Fields
-	private static object s_lock; // 0x2B11194
+	private static object s_lock; // 0x2B101B4
 
 	// Properties
 	public virtual string ChannelName { get; }

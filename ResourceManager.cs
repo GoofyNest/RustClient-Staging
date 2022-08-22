@@ -1,7 +1,7 @@
 public class ResourceManager // TypeDefIndex: 491
 {	// Fields
 	protected string BaseNameField; // 0x10
-	[ObsoleteAttribute] // RVA: 0x964A0 Offset: 0x958A0 VA: 0x1800964A0
+	[ObsoleteAttribute] // RVA: 0x964B0 Offset: 0x958B0 VA: 0x1800964B0
 	protected Hashtable ResourceSets; // 0x18
 	private Dictionary<string, ResourceSet> _resourceSets; // 0x20
 	private string moduleDir; // 0x28
@@ -12,17 +12,17 @@ public class ResourceManager // TypeDefIndex: 491
 	private ResourceManager.CultureNameResourceSetPair _lastUsedResourceCache; // 0x50
 	private bool _ignoreCase; // 0x58
 	private bool UseManifest; // 0x59
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	private bool UseSatelliteAssem; // 0x5A
-	[OptionalFieldAttribute] // RVA: 0x7B620 Offset: 0x7AA20 VA: 0x18007B620
+	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
 	private UltimateResourceFallbackLocation _fallbackLoc; // 0x5C
-	[OptionalFieldAttribute] // RVA: 0x7B620 Offset: 0x7AA20 VA: 0x18007B620
+	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
 	private Version _satelliteContractVersion; // 0x60
-	[OptionalFieldAttribute] // RVA: 0x7B620 Offset: 0x7AA20 VA: 0x18007B620
+	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
 	private bool _lookedForSatelliteContractVersion; // 0x68
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	private Assembly _callingAssembly; // 0x70
-	[OptionalFieldAttribute] // RVA: 0x7B700 Offset: 0x7AB00 VA: 0x18007B700
+	[OptionalFieldAttribute] // RVA: 0x7B710 Offset: 0x7AB10 VA: 0x18007B710
 	private RuntimeAssembly m_callingAssembly; // 0x78
 	private IResourceGroveler resourceGroveler; // 0x80
 	public static readonly int MagicNumber; // 0x0
@@ -51,15 +51,15 @@ public class ResourceManager // TypeDefIndex: 491
 	// RVA: 0xFEED80 Offset: 0xFED380 VA: 0x180FEED80
 	public void .ctor(Type resourceSource) { }
 
-	[OnDeserializingAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnDeserializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xFEEA00 Offset: 0xFED000 VA: 0x180FEEA00
 	private void OnDeserializing(StreamingContext ctx) { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xFEE830 Offset: 0xFECE30 VA: 0x180FEE830
 	private void OnDeserialized(StreamingContext ctx) { }
 
-	[OnSerializingAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xFEEA50 Offset: 0xFED050 VA: 0x180FEEA50
 	private void OnSerializing(StreamingContext ctx) { }
 

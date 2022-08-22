@@ -30,11 +30,11 @@ public class BigWheelBettingTerminal : StorageContainer // TypeDefIndex: 8534
 	// RVA: 0x5108B0 Offset: 0x50EEB0 VA: 0x1805108B0
 	public void LoseSound() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x511220 Offset: 0x50F820 VA: 0x180511220
 	public void SetTimeUntilNextSpin(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x511590 Offset: 0x50FB90 VA: 0x180511590
 	public void WinOrLoseSound(BaseEntity.RPCMessage msg) { }
 

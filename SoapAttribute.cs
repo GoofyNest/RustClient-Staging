@@ -4,7 +4,7 @@ public class SoapAttribute : Attribute // TypeDefIndex: 1210
 internal class RemoteActivator : MarshalByRefObject // TypeDefIndex: 1209
 
 // Namespace: System.Runtime.Remoting.Metadata
-[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 public class SoapAttribute : Attribute // TypeDefIndex: 1210
 	// Fields
 	private bool _useAttribute; // 0x10

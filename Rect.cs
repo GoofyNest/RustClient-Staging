@@ -1,12 +1,12 @@
 public struct Rect : IEquatable<Rect> // TypeDefIndex: 3376
 {	// Fields
-	[NativeNameAttribute] // RVA: 0x7F640 Offset: 0x7EA40 VA: 0x18007F640
+	[NativeNameAttribute] // RVA: 0x7F710 Offset: 0x7EB10 VA: 0x18007F710
 	private float m_XMin; // 0x0
-	[NativeNameAttribute] // RVA: 0x7F750 Offset: 0x7EB50 VA: 0x18007F750
+	[NativeNameAttribute] // RVA: 0x7F820 Offset: 0x7EC20 VA: 0x18007F820
 	private float m_YMin; // 0x4
-	[NativeNameAttribute] // RVA: 0x7F800 Offset: 0x7EC00 VA: 0x18007F800
+	[NativeNameAttribute] // RVA: 0x7F8D0 Offset: 0x7ECD0 VA: 0x18007F8D0
 	private float m_Width; // 0x8
-	[NativeNameAttribute] // RVA: 0x7F930 Offset: 0x7ED30 VA: 0x18007F930
+	[NativeNameAttribute] // RVA: 0x7FA00 Offset: 0x7EE00 VA: 0x18007FA00
 	private float m_Height; // 0xC
 
 	// Properties
@@ -27,130 +27,130 @@ public struct Rect : IEquatable<Rect> // TypeDefIndex: 3376
 
 	// Methods
 
-	// RVA: 0xF2B40 Offset: 0xF1F40 VA: 0x1800F2B40
+	// RVA: 0xF2AC0 Offset: 0xF1EC0 VA: 0x1800F2AC0
 	public void .ctor(float x, float y, float width, float height) { }
 
-	// RVA: 0x218390 Offset: 0x217790 VA: 0x180218390
+	// RVA: 0x218310 Offset: 0x217710 VA: 0x180218310
 	public void .ctor(Vector2 position, Vector2 size) { }
 
-	// RVA: 0x117960 Offset: 0x116D60 VA: 0x180117960
+	// RVA: 0x1178E0 Offset: 0x116CE0 VA: 0x1801178E0
 	public void .ctor(Rect source) { }
 
 	// RVA: 0x1824730 Offset: 0x1822D30 VA: 0x181824730
 	public static Rect get_zero() { }
 
-	// RVA: 0x19006A0 Offset: 0x18FECA0 VA: 0x1819006A0
+	// RVA: 0x1900660 Offset: 0x18FEC60 VA: 0x181900660
 	public static Rect MinMaxRect(float xmin, float ymin, float xmax, float ymax) { }
 
-	// RVA: 0x13A390 Offset: 0x139790 VA: 0x18013A390
+	// RVA: 0x13A310 Offset: 0x139710 VA: 0x18013A310
 	public float get_x() { }
 
-	// RVA: 0xF2410 Offset: 0xF1810 VA: 0x1800F2410
+	// RVA: 0xF2390 Offset: 0xF1790 VA: 0x1800F2390
 	public void set_x(float value) { }
 
-	// RVA: 0x2123B0 Offset: 0x2117B0 VA: 0x1802123B0
+	// RVA: 0x212330 Offset: 0x211730 VA: 0x180212330
 	public float get_y() { }
 
-	// RVA: 0x1179A0 Offset: 0x116DA0 VA: 0x1801179A0
+	// RVA: 0x117920 Offset: 0x116D20 VA: 0x180117920
 	public void set_y(float value) { }
 
-	// RVA: 0x218460 Offset: 0x217860 VA: 0x180218460
+	// RVA: 0x2183E0 Offset: 0x2177E0 VA: 0x1802183E0
 	public Vector2 get_position() { }
 
-	// RVA: 0x204BB0 Offset: 0x203FB0 VA: 0x180204BB0
+	// RVA: 0x204B30 Offset: 0x203F30 VA: 0x180204B30
 	public void set_position(Vector2 value) { }
 
-	// RVA: 0x2183D0 Offset: 0x2177D0 VA: 0x1802183D0
+	// RVA: 0x218350 Offset: 0x217750 VA: 0x180218350
 	public Vector2 get_center() { }
 
-	// RVA: 0x2184E0 Offset: 0x2178E0 VA: 0x1802184E0
+	// RVA: 0x218460 Offset: 0x217860 VA: 0x180218460
 	public void set_center(Vector2 value) { }
 
-	// RVA: 0x218460 Offset: 0x217860 VA: 0x180218460
+	// RVA: 0x2183E0 Offset: 0x2177E0 VA: 0x1802183E0
 	public Vector2 get_min() { }
 
-	// RVA: 0x218550 Offset: 0x217950 VA: 0x180218550
+	// RVA: 0x2184D0 Offset: 0x2178D0 VA: 0x1802184D0
 	public void set_min(Vector2 value) { }
 
-	// RVA: 0x218420 Offset: 0x217820 VA: 0x180218420
+	// RVA: 0x2183A0 Offset: 0x2177A0 VA: 0x1802183A0
 	public Vector2 get_max() { }
 
-	// RVA: 0x218520 Offset: 0x217920 VA: 0x180218520
+	// RVA: 0x2184A0 Offset: 0x2178A0 VA: 0x1802184A0
 	public void set_max(Vector2 value) { }
 
-	// RVA: 0x2123C0 Offset: 0x2117C0 VA: 0x1802123C0
+	// RVA: 0x212340 Offset: 0x211740 VA: 0x180212340
 	public float get_width() { }
 
-	// RVA: 0x1171C0 Offset: 0x1165C0 VA: 0x1801171C0
+	// RVA: 0x117140 Offset: 0x116540 VA: 0x180117140
 	public void set_width(float value) { }
 
-	// RVA: 0x2123D0 Offset: 0x2117D0 VA: 0x1802123D0
+	// RVA: 0x212350 Offset: 0x211750 VA: 0x180212350
 	public float get_height() { }
 
-	// RVA: 0x1171D0 Offset: 0x1165D0 VA: 0x1801171D0
+	// RVA: 0x117150 Offset: 0x116550 VA: 0x180117150
 	public void set_height(float value) { }
 
-	// RVA: 0x218490 Offset: 0x217890 VA: 0x180218490
+	// RVA: 0x218410 Offset: 0x217810 VA: 0x180218410
 	public Vector2 get_size() { }
 
-	// RVA: 0x2185A0 Offset: 0x2179A0 VA: 0x1802185A0
+	// RVA: 0x218520 Offset: 0x217920 VA: 0x180218520
 	public void set_size(Vector2 value) { }
 
-	// RVA: 0x13A390 Offset: 0x139790 VA: 0x18013A390
+	// RVA: 0x13A310 Offset: 0x139710 VA: 0x18013A310
 	public float get_xMin() { }
 
-	// RVA: 0x2185D0 Offset: 0x2179D0 VA: 0x1802185D0
+	// RVA: 0x218550 Offset: 0x217950 VA: 0x180218550
 	public void set_xMin(float value) { }
 
-	// RVA: 0x2123B0 Offset: 0x2117B0 VA: 0x1802123B0
+	// RVA: 0x212330 Offset: 0x211730 VA: 0x180212330
 	public float get_yMin() { }
 
-	// RVA: 0x218600 Offset: 0x217A00 VA: 0x180218600
+	// RVA: 0x218580 Offset: 0x217980 VA: 0x180218580
 	public void set_yMin(float value) { }
 
-	// RVA: 0x2184C0 Offset: 0x2178C0 VA: 0x1802184C0
+	// RVA: 0x218440 Offset: 0x217840 VA: 0x180218440
 	public float get_xMax() { }
 
-	// RVA: 0x2185C0 Offset: 0x2179C0 VA: 0x1802185C0
+	// RVA: 0x218540 Offset: 0x217940 VA: 0x180218540
 	public void set_xMax(float value) { }
 
-	// RVA: 0x2184D0 Offset: 0x2178D0 VA: 0x1802184D0
+	// RVA: 0x218450 Offset: 0x217850 VA: 0x180218450
 	public float get_yMax() { }
 
-	// RVA: 0x2185F0 Offset: 0x2179F0 VA: 0x1802185F0
+	// RVA: 0x218570 Offset: 0x217970 VA: 0x180218570
 	public void set_yMax(float value) { }
 
-	// RVA: 0x217F10 Offset: 0x217310 VA: 0x180217F10
+	// RVA: 0x217E90 Offset: 0x217290 VA: 0x180217E90
 	public bool Contains(Vector2 point) { }
 
-	// RVA: 0x217EC0 Offset: 0x2172C0 VA: 0x180217EC0
+	// RVA: 0x217E40 Offset: 0x217240 VA: 0x180217E40
 	public bool Contains(Vector3 point) { }
 
-	// RVA: 0x19006D0 Offset: 0x18FECD0 VA: 0x1819006D0
+	// RVA: 0x1900690 Offset: 0x18FEC90 VA: 0x181900690
 	private static Rect OrderMinMax(Rect rect) { }
 
-	// RVA: 0x2181A0 Offset: 0x2175A0 VA: 0x1802181A0
+	// RVA: 0x218120 Offset: 0x217520 VA: 0x180218120
 	public bool Overlaps(Rect other) { }
 
-	// RVA: 0x218200 Offset: 0x217600 VA: 0x180218200
+	// RVA: 0x218180 Offset: 0x217580 VA: 0x180218180
 	public bool Overlaps(Rect other, bool allowInverse) { }
 
-	// RVA: 0x1900C90 Offset: 0x18FF290 VA: 0x181900C90
+	// RVA: 0x1900C50 Offset: 0x18FF250 VA: 0x181900C50
 	public static bool op_Inequality(Rect lhs, Rect rhs) { }
 
-	// RVA: 0x1900C50 Offset: 0x18FF250 VA: 0x181900C50
+	// RVA: 0x1900C10 Offset: 0x18FF210 VA: 0x181900C10
 	public static bool op_Equality(Rect lhs, Rect rhs) { }
 
-	// RVA: 0x218100 Offset: 0x217500 VA: 0x180218100 Slot: 2
+	// RVA: 0x218080 Offset: 0x217480 VA: 0x180218080 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x217F50 Offset: 0x217350 VA: 0x180217F50 Slot: 0
+	// RVA: 0x217ED0 Offset: 0x2172D0 VA: 0x180217ED0 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0x218060 Offset: 0x217460 VA: 0x180218060 Slot: 4
+	// RVA: 0x217FE0 Offset: 0x2173E0 VA: 0x180217FE0 Slot: 4
 	public bool Equals(Rect other) { }
 
-	// RVA: 0x218380 Offset: 0x217780 VA: 0x180218380 Slot: 3
+	// RVA: 0x218300 Offset: 0x217700 VA: 0x180218300 Slot: 3
 	public override string ToString() { }
 
 }

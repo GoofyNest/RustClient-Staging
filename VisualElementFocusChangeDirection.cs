@@ -9,16 +9,16 @@ public class VisualElementFocusChangeDirection : FocusChangeDirection // TypeDef
 
 	// Methods
 
-	// RVA: 0x22F7630 Offset: 0x22F5C30 VA: 0x1822F7630
+	// RVA: 0x22F7470 Offset: 0x22F5A70 VA: 0x1822F7470
 	public static FocusChangeDirection get_left() { }
 
-	// RVA: 0x22F7690 Offset: 0x22F5C90 VA: 0x1822F7690
+	// RVA: 0x22F74D0 Offset: 0x22F5AD0 VA: 0x1822F74D0
 	public static FocusChangeDirection get_right() { }
 
-	// RVA: 0x22F75D0 Offset: 0x22F5BD0 VA: 0x1822F75D0
+	// RVA: 0x22F7410 Offset: 0x22F5A10 VA: 0x1822F7410
 	protected void .ctor(int value) { }
 
-	// RVA: 0x22F73E0 Offset: 0x22F59E0 VA: 0x1822F73E0
+	// RVA: 0x22F7220 Offset: 0x22F5820 VA: 0x1822F7220
 	private static void .cctor() { }
 
 }

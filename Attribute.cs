@@ -281,22 +281,22 @@ internal class AttributeHelperEngine // TypeDefIndex: 3492
 
 	// Methods
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x181F0D0 Offset: 0x181D6D0 VA: 0x18181F0D0
 	private static Type GetParentTypeDisallowingMultipleInclusion(Type type) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x181F1B0 Offset: 0x181D7B0 VA: 0x18181F1B0
 	private static Type[] GetRequiredComponents(Type klass) { }
 
 	// RVA: 0x181EFD0 Offset: 0x181D5D0 VA: 0x18181EFD0
 	private static int GetExecuteMode(Type klass) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x181EEA0 Offset: 0x181D4A0 VA: 0x18181EEA0
 	private static int CheckIsEditorScript(Type klass) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x181EF60 Offset: 0x181D560 VA: 0x18181EF60
 	private static int GetDefaultExecutionOrderFor(Type klass) { }
 

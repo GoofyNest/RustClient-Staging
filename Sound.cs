@@ -5,25 +5,25 @@ public class Sound : MonoBehaviour, IClientComponent, IOnParentDestroying, IComp
 	public SoundModifier[] modifiers; // 0x20
 	public SoundSource soundSource; // 0x28
 	public AudioSource[] audioSources; // 0x30
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundFade _fade; // 0x38
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundModulation _modulation; // 0x40
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SoundOcclusion _occlusion; // 0x48
 	private AudioSource audioSource; // 0x50
 	private AudioSource distantAudioSource; // 0x58
 	private Sound syncParent; // 0x60
 	private Sound syncChild; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <initialMaxDistance>k__BackingField; // 0x70
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <initialSpread>k__BackingField; // 0x74
 	public bool playing; // 0x78
 	public bool isFirstPerson; // 0x79
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <startTime>k__BackingField; // 0x7C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <endTime>k__BackingField; // 0x80
 	private List<WeightedAudioClip> closeClips; // 0x88
 	private List<WeightedAudioClip> farClips; // 0x90
@@ -34,7 +34,7 @@ public class Sound : MonoBehaviour, IClientComponent, IOnParentDestroying, IComp
 	private int FrameUpdateIndex; // 0xA8
 	private Vector3 previousPosition; // 0xAC
 	private float previousPositionUpdateTime; // 0xB8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <basePitch>k__BackingField; // 0xBC
 	private int priorityModifier; // 0xC0
 
@@ -66,19 +66,19 @@ public class Sound : MonoBehaviour, IClientComponent, IOnParentDestroying, IComp
 	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
 	public SoundOcclusion get_occlusion() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C33C0 Offset: 0x5C19C0 VA: 0x1805C33C0
 	public float get_initialMaxDistance() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C35A0 Offset: 0x5C1BA0 VA: 0x1805C35A0
 	private void set_initialMaxDistance(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C33D0 Offset: 0x5C19D0 VA: 0x1805C33D0
 	public float get_initialSpread() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C35B0 Offset: 0x5C1BB0 VA: 0x1805C35B0
 	private void set_initialSpread(float value) { }
 
@@ -115,27 +115,27 @@ public class Sound : MonoBehaviour, IClientComponent, IOnParentDestroying, IComp
 	// RVA: 0x5C3430 Offset: 0x5C1A30 VA: 0x1805C3430
 	public float get_maxDistance() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C3480 Offset: 0x5C1A80 VA: 0x1805C3480
 	public float get_startTime() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C3610 Offset: 0x5C1C10 VA: 0x1805C3610
 	private void set_startTime(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C33A0 Offset: 0x5C19A0 VA: 0x1805C33A0
 	public float get_endTime() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C3590 Offset: 0x5C1B90 VA: 0x1805C3590
 	private void set_endTime(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C3370 Offset: 0x5C1970 VA: 0x1805C3370
 	public float get_basePitch() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C3560 Offset: 0x5C1B60 VA: 0x1805C3560
 	private void set_basePitch(float value) { }
 

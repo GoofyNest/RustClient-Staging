@@ -4,7 +4,7 @@ public static class RendererEx // TypeDefIndex: 11352
 
 	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x94E690 Offset: 0x94CC90 VA: 0x18094E690
 	public static void SetSharedMaterials(Renderer renderer, List<Material> materials) { }
 

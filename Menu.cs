@@ -37,7 +37,7 @@ public class Menu : RustControl // TypeDefIndex: 7008
 	// RVA: 0xFC5C50 Offset: 0xFC4250 VA: 0x180FC5C50
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xFC5C40 Offset: 0xFC4240 VA: 0x180FC5C40
 	private void <Awake>b__11_0(string x) { }
 

@@ -11,10 +11,10 @@ internal struct FriendsGetFollowerCount_t : ICallbackData // TypeDefIndex: 5321
 
 	// Methods
 
-	// RVA: 0x1E6320 Offset: 0x1E5720 VA: 0x1801E6320 Slot: 5
+	// RVA: 0x1E62A0 Offset: 0x1E56A0 VA: 0x1801E62A0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E6310 Offset: 0x1E5710 VA: 0x1801E6310 Slot: 4
+	// RVA: 0x1E6290 Offset: 0x1E5690 VA: 0x1801E6290 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x13706A0 Offset: 0x136ECA0 VA: 0x1813706A0

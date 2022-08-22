@@ -7,19 +7,19 @@ public struct TaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion // Type
 
 	// Methods
 
-	// RVA: 0xF1510 Offset: 0xF0910 VA: 0x1800F1510
+	// RVA: 0xF1490 Offset: 0xF0890 VA: 0x1800F1490
 	internal void .ctor(Task task) { }
 
-	// RVA: 0x14C140 Offset: 0x14B540 VA: 0x18014C140
+	// RVA: 0x14C0C0 Offset: 0x14B4C0 VA: 0x18014C0C0
 	public bool get_IsCompleted() { }
 
-	// RVA: 0x14CA80 Offset: 0x14BE80 VA: 0x18014CA80 Slot: 5
+	// RVA: 0x14CA00 Offset: 0x14BE00 VA: 0x18014CA00 Slot: 5
 	public void OnCompleted(Action continuation) { }
 
-	// RVA: 0x14CAB0 Offset: 0x14BEB0 VA: 0x18014CAB0 Slot: 4
+	// RVA: 0x14CA30 Offset: 0x14BE30 VA: 0x18014CA30 Slot: 4
 	public void UnsafeOnCompleted(Action continuation) { }
 
-	// RVA: 0x14C0D0 Offset: 0x14B4D0 VA: 0x18014C0D0
+	// RVA: 0x14C050 Offset: 0x14B450 VA: 0x18014C050
 	public void GetResult() { }
 
 	// RVA: 0xFF5FB0 Offset: 0xFF45B0 VA: 0x180FF5FB0

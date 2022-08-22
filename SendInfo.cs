@@ -8,10 +8,10 @@ public struct SendInfo // TypeDefIndex: 6701
 
 	// Methods
 
-	// RVA: 0x2374B0 Offset: 0x2368B0 VA: 0x1802374B0
+	// RVA: 0x237430 Offset: 0x236830 VA: 0x180237430
 	public void .ctor(List<Connection> connections) { }
 
-	// RVA: 0x237480 Offset: 0x236880 VA: 0x180237480
+	// RVA: 0x237400 Offset: 0x236800 VA: 0x180237400
 	public void .ctor(Connection connection) { }
 
 }

@@ -1,12 +1,12 @@
 public static class IJobParallelForTransformExtensions // TypeDefIndex: 3586
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static JobHandle Schedule<T>(T jobData, TransformAccessArray transforms, JobHandle dependsOn) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A39270 Offset: 0x1A37870 VA: 0x181A39270
+	|-RVA: 0x1A39230 Offset: 0x1A37830 VA: 0x181A39230
 	|-IJobParallelForTransformExtensions.Schedule<InitializeBoneStateJob>
 	|-IJobParallelForTransformExtensions.Schedule<InitializeColliderStateJob>
 	|-IJobParallelForTransformExtensions.Schedule<UpdateTransformsJob>
@@ -24,13 +24,13 @@ internal struct IJobParallelForTransformExtensions.TransformParallelForLoopStruc
 	public static IntPtr Initialize() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C60B0 Offset: 0x19C46B0 VA: 0x1819C60B0
+	|-RVA: 0x19C6070 Offset: 0x19C4670 VA: 0x1819C6070
 	|-IJobParallelForTransformExtensions.TransformParallelForLoopStruct<InitializeBoneStateJob>.Initialize
 	|
-	|-RVA: 0x19C62F0 Offset: 0x19C48F0 VA: 0x1819C62F0
+	|-RVA: 0x19C62B0 Offset: 0x19C48B0 VA: 0x1819C62B0
 	|-IJobParallelForTransformExtensions.TransformParallelForLoopStruct<InitializeColliderStateJob>.Initialize
 	|
-	|-RVA: 0x19C5E70 Offset: 0x19C4470 VA: 0x1819C5E70
+	|-RVA: 0x19C5E30 Offset: 0x19C4430 VA: 0x1819C5E30
 	|-IJobParallelForTransformExtensions.TransformParallelForLoopStruct<UpdateTransformsJob>.Initialize
 	*/
 
@@ -38,13 +38,13 @@ internal struct IJobParallelForTransformExtensions.TransformParallelForLoopStruc
 	public static void Execute(ref T jobData, IntPtr jobData2, IntPtr bufferRangePatchData, ref JobRanges ranges, int jobIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C5AB0 Offset: 0x19C40B0 VA: 0x1819C5AB0
+	|-RVA: 0x19C5A70 Offset: 0x19C4070 VA: 0x1819C5A70
 	|-IJobParallelForTransformExtensions.TransformParallelForLoopStruct<InitializeBoneStateJob>.Execute
 	|
-	|-RVA: 0x19C5D30 Offset: 0x19C4330 VA: 0x1819C5D30
+	|-RVA: 0x19C5CF0 Offset: 0x19C42F0 VA: 0x1819C5CF0
 	|-IJobParallelForTransformExtensions.TransformParallelForLoopStruct<InitializeColliderStateJob>.Execute
 	|
-	|-RVA: 0x19C5BF0 Offset: 0x19C41F0 VA: 0x1819C5BF0
+	|-RVA: 0x19C5BB0 Offset: 0x19C41B0 VA: 0x1819C5BB0
 	|-IJobParallelForTransformExtensions.TransformParallelForLoopStruct<UpdateTransformsJob>.Execute
 	*/
 
@@ -77,13 +77,13 @@ public sealed class IJobParallelForTransformExtensions.TransformParallelForLoopS
 	public virtual IAsyncResult BeginInvoke(ref T jobData, IntPtr additionalPtr, IntPtr bufferRangePatchData, ref JobRanges ranges, int jobIndex, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BC610 Offset: 0x19BAC10 VA: 0x1819BC610
+	|-RVA: 0x19BC5D0 Offset: 0x19BABD0 VA: 0x1819BC5D0
 	|-IJobParallelForTransformExtensions.TransformParallelForLoopStruct.ExecuteJobFunction<InitializeBoneStateJob>.BeginInvoke
 	|
-	|-RVA: 0x19BC6F0 Offset: 0x19BACF0 VA: 0x1819BC6F0
+	|-RVA: 0x19BC6B0 Offset: 0x19BACB0 VA: 0x1819BC6B0
 	|-IJobParallelForTransformExtensions.TransformParallelForLoopStruct.ExecuteJobFunction<InitializeColliderStateJob>.BeginInvoke
 	|
-	|-RVA: 0x19BC450 Offset: 0x19BAA50 VA: 0x1819BC450
+	|-RVA: 0x19BC410 Offset: 0x19BAA10 VA: 0x1819BC410
 	|-IJobParallelForTransformExtensions.TransformParallelForLoopStruct.ExecuteJobFunction<UpdateTransformsJob>.BeginInvoke
 	*/
 

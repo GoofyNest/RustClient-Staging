@@ -4,43 +4,43 @@ public class Checksum // TypeDefIndex: 4816
 
 	// Methods
 
-	// RVA: 0x226D680 Offset: 0x226BC80 VA: 0x18226D680
+	// RVA: 0x226D4C0 Offset: 0x226BAC0 VA: 0x18226D4C0
 	public void Add(float f, int bytes) { }
 
-	// RVA: 0x226D3D0 Offset: 0x226B9D0 VA: 0x18226D3D0
+	// RVA: 0x226D210 Offset: 0x226B810 VA: 0x18226D210
 	public void Add(float f) { }
 
-	// RVA: 0x226D320 Offset: 0x226B920 VA: 0x18226D320
+	// RVA: 0x226D160 Offset: 0x226B760 VA: 0x18226D160
 	public void Add(int i) { }
 
-	// RVA: 0x226D5D0 Offset: 0x226BBD0 VA: 0x18226D5D0
+	// RVA: 0x226D410 Offset: 0x226BA10 VA: 0x18226D410
 	public void Add(uint u) { }
 
-	// RVA: 0x226D490 Offset: 0x226BA90 VA: 0x18226D490
+	// RVA: 0x226D2D0 Offset: 0x226B8D0 VA: 0x18226D2D0
 	public void Add(short i) { }
 
-	// RVA: 0x226D500 Offset: 0x226BB00 VA: 0x18226D500
+	// RVA: 0x226D340 Offset: 0x226B940 VA: 0x18226D340
 	public void Add(ushort u) { }
 
-	// RVA: 0x226D570 Offset: 0x226BB70 VA: 0x18226D570
+	// RVA: 0x226D3B0 Offset: 0x226B9B0 VA: 0x18226D3B0
 	public void Add(byte b) { }
 
-	// RVA: 0x226D830 Offset: 0x226BE30 VA: 0x18226D830
+	// RVA: 0x226D670 Offset: 0x226BC70 VA: 0x18226D670
 	public void Clear() { }
 
-	// RVA: 0x226D880 Offset: 0x226BE80 VA: 0x18226D880
+	// RVA: 0x226D6C0 Offset: 0x226BCC0 VA: 0x18226D6C0
 	public string MD5() { }
 
-	// RVA: 0x226D910 Offset: 0x226BF10 VA: 0x18226D910
+	// RVA: 0x226D750 Offset: 0x226BD50 VA: 0x18226D750
 	public string SHA1() { }
 
-	// RVA: 0x226D9A0 Offset: 0x226BFA0 VA: 0x18226D9A0 Slot: 3
+	// RVA: 0x226D7E0 Offset: 0x226BDE0 VA: 0x18226D7E0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x226D760 Offset: 0x226BD60 VA: 0x18226D760
+	// RVA: 0x226D5A0 Offset: 0x226BBA0 VA: 0x18226D5A0
 	private string BytesToString(byte[] bytes) { }
 
-	// RVA: 0x226DA00 Offset: 0x226C000 VA: 0x18226DA00
+	// RVA: 0x226D840 Offset: 0x226BE40 VA: 0x18226D840
 	public void .ctor() { }
 
 }

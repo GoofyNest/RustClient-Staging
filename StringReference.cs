@@ -12,22 +12,22 @@ internal struct StringReference // TypeDefIndex: 5936
 
 	// Methods
 
-	// RVA: 0x211D70 Offset: 0x211170 VA: 0x180211D70
+	// RVA: 0x211CF0 Offset: 0x2110F0 VA: 0x180211CF0
 	public char get_Item(int i) { }
 
-	// RVA: 0xFC8C0 Offset: 0xFBCC0 VA: 0x1800FC8C0
+	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	public char[] get_Chars() { }
 
-	// RVA: 0x122E90 Offset: 0x122290 VA: 0x180122E90
+	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
 	public int get_StartIndex() { }
 
-	// RVA: 0x1AE4B0 Offset: 0x1AD8B0 VA: 0x1801AE4B0
+	// RVA: 0x1AE430 Offset: 0x1AD830 VA: 0x1801AE430
 	public int get_Length() { }
 
-	// RVA: 0xF91A0 Offset: 0xF85A0 VA: 0x1800F91A0
+	// RVA: 0xF9120 Offset: 0xF8520 VA: 0x1800F9120
 	public void .ctor(char[] chars, int startIndex, int length) { }
 
-	// RVA: 0x211D40 Offset: 0x211140 VA: 0x180211D40 Slot: 3
+	// RVA: 0x211CC0 Offset: 0x2110C0 VA: 0x180211CC0 Slot: 3
 	public override string ToString() { }
 
 }

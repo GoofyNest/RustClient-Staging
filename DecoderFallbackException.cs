@@ -5,13 +5,13 @@ public sealed class DecoderFallbackException : ArgumentException // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x18ABC60 Offset: 0x18AA260 VA: 0x1818ABC60
+	// RVA: 0x18ABC20 Offset: 0x18AA220 VA: 0x1818ABC20
 	public void .ctor() { }
 
 	// RVA: 0x15C8280 Offset: 0x15C6880 VA: 0x1815C8280
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x18ABCC0 Offset: 0x18AA2C0 VA: 0x1818ABCC0
+	// RVA: 0x18ABC80 Offset: 0x18AA280 VA: 0x1818ABC80
 	public void .ctor(string message, byte[] bytesUnknown, int index) { }
 
 }

@@ -17,36 +17,36 @@ public class WebClient : Component // TypeDefIndex: 2953
 	private RequestCachePolicy m_CachePolicy; // 0x90
 	private int m_CallNesting; // 0x98
 	private AsyncOperation m_AsyncOp; // 0xA0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private OpenReadCompletedEventHandler OpenReadCompleted; // 0xA8
 	private SendOrPostCallback openReadOperationCompleted; // 0xB0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private OpenWriteCompletedEventHandler OpenWriteCompleted; // 0xB8
 	private SendOrPostCallback openWriteOperationCompleted; // 0xC0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private DownloadStringCompletedEventHandler DownloadStringCompleted; // 0xC8
 	private SendOrPostCallback downloadStringOperationCompleted; // 0xD0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private DownloadDataCompletedEventHandler DownloadDataCompleted; // 0xD8
 	private SendOrPostCallback downloadDataOperationCompleted; // 0xE0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private AsyncCompletedEventHandler DownloadFileCompleted; // 0xE8
 	private SendOrPostCallback downloadFileOperationCompleted; // 0xF0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private UploadStringCompletedEventHandler UploadStringCompleted; // 0xF8
 	private SendOrPostCallback uploadStringOperationCompleted; // 0x100
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private UploadDataCompletedEventHandler UploadDataCompleted; // 0x108
 	private SendOrPostCallback uploadDataOperationCompleted; // 0x110
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private UploadFileCompletedEventHandler UploadFileCompleted; // 0x118
 	private SendOrPostCallback uploadFileOperationCompleted; // 0x120
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private UploadValuesCompletedEventHandler UploadValuesCompleted; // 0x128
 	private SendOrPostCallback uploadValuesOperationCompleted; // 0x130
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private DownloadProgressChangedEventHandler DownloadProgressChanged; // 0x138
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private UploadProgressChangedEventHandler UploadProgressChanged; // 0x140
 	private SendOrPostCallback reportDownloadProgressChanged; // 0x148
 	private SendOrPostCallback reportUploadProgressChanged; // 0x150
@@ -177,11 +177,11 @@ public class WebClient : Component // TypeDefIndex: 2953
 	// RVA: 0x10130D0 Offset: 0x10116D0 VA: 0x1810130D0
 	private void OpenWriteOperationCompleted(object arg) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1015260 Offset: 0x1013860 VA: 0x181015260
 	public void add_DownloadStringCompleted(DownloadStringCompletedEventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x10153A0 Offset: 0x10139A0 VA: 0x1810153A0
 	public void remove_DownloadStringCompleted(DownloadStringCompletedEventHandler value) { }
 
@@ -233,11 +233,11 @@ public class WebClient : Component // TypeDefIndex: 2953
 	// RVA: 0x1013F90 Offset: 0x1012590 VA: 0x181013F90
 	private void UploadFileOperationCompleted(object arg) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1015300 Offset: 0x1013900 VA: 0x181015300
 	public void add_UploadValuesCompleted(UploadValuesCompletedEventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1015440 Offset: 0x1013A40 VA: 0x181015440
 	public void remove_UploadValuesCompleted(UploadValuesCompletedEventHandler value) { }
 

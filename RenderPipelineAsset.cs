@@ -21,7 +21,7 @@ public abstract class RenderPipelineAsset : ScriptableObject // TypeDefIndex: 38
 
 	// Methods
 
-	// RVA: 0x19AE3D0 Offset: 0x19AC9D0 VA: 0x1819AE3D0
+	// RVA: 0x19AE390 Offset: 0x19AC990 VA: 0x1819AE390
 	internal RenderPipeline InternalCreatePipeline() { }
 
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 4
@@ -81,13 +81,13 @@ public abstract class RenderPipelineAsset : ScriptableObject // TypeDefIndex: 38
 	// RVA: -1 Offset: -1 Slot: 22
 	protected abstract RenderPipeline CreatePipeline();
 
-	// RVA: 0x19AE5C0 Offset: 0x19ACBC0 VA: 0x1819AE5C0 Slot: 23
+	// RVA: 0x19AE580 Offset: 0x19ACB80 VA: 0x1819AE580 Slot: 23
 	protected virtual void OnValidate() { }
 
-	// RVA: 0x19AE570 Offset: 0x19ACB70 VA: 0x1819AE570 Slot: 24
+	// RVA: 0x19AE530 Offset: 0x19ACB30 VA: 0x1819AE530 Slot: 24
 	protected virtual void OnDisable() { }
 
-	// RVA: 0x19AE610 Offset: 0x19ACC10 VA: 0x1819AE610
+	// RVA: 0x19AE5D0 Offset: 0x19ACBD0 VA: 0x1819AE5D0
 	protected void .ctor() { }
 
 }

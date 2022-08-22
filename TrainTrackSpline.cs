@@ -1,10 +1,9 @@
 public class TrainTrackSpline : WorldSpline // TypeDefIndex: 9774
 {	// Fields
-	[TooltipAttribute] // RVA: 0x97CB0 Offset: 0x970B0 VA: 0x180097CB0
+	[TooltipAttribute] // RVA: 0x97D40 Offset: 0x97140 VA: 0x180097D40
 	public bool isStation; // 0x40
-	[TooltipAttribute] // RVA: 0x97DB0 Offset: 0x971B0 VA: 0x180097DB0
+	[TooltipAttribute] // RVA: 0x97F30 Offset: 0x97330 VA: 0x180097F30
 	public bool aboveGroundSpawn; // 0x41
-	public bool useNewTangentCalc; // 0x42
 	public int hierarchy; // 0x44
 
 	// Methods

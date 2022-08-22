@@ -33,28 +33,28 @@ internal sealed class BitConverterLE // TypeDefIndex: 47
 internal sealed class BitConverterLE // TypeDefIndex: 1706
 {	// Methods
 
-	// RVA: 0x1AB0DF0 Offset: 0x1AAF3F0 VA: 0x181AB0DF0
+	// RVA: 0x1AB0C30 Offset: 0x1AAF230 VA: 0x181AB0C30
 	private static byte[] GetUIntBytes(byte* bytes) { }
 
-	// RVA: 0x1AB0F60 Offset: 0x1AAF560 VA: 0x181AB0F60
+	// RVA: 0x1AB0DA0 Offset: 0x1AAF3A0 VA: 0x181AB0DA0
 	private static byte[] GetULongBytes(byte* bytes) { }
 
-	// RVA: 0x1AB0DB0 Offset: 0x1AAF3B0 VA: 0x181AB0DB0
+	// RVA: 0x1AB0BF0 Offset: 0x1AAF1F0 VA: 0x181AB0BF0
 	internal static byte[] GetBytes(int value) { }
 
-	// RVA: 0x1AB0DD0 Offset: 0x1AAF3D0 VA: 0x181AB0DD0
+	// RVA: 0x1AB0C10 Offset: 0x1AAF210 VA: 0x181AB0C10
 	internal static byte[] GetBytes(long value) { }
 
-	// RVA: 0x1AB1500 Offset: 0x1AAFB00 VA: 0x181AB1500
+	// RVA: 0x1AB1340 Offset: 0x1AAF940 VA: 0x181AB1340
 	private static void UShortFromBytes(byte* dst, byte[] src, int startIndex) { }
 
-	// RVA: 0x1AB1340 Offset: 0x1AAF940 VA: 0x181AB1340
+	// RVA: 0x1AB1180 Offset: 0x1AAF780 VA: 0x181AB1180
 	private static void UIntFromBytes(byte* dst, byte[] src, int startIndex) { }
 
-	// RVA: 0x1AB1200 Offset: 0x1AAF800 VA: 0x181AB1200
+	// RVA: 0x1AB1040 Offset: 0x1AAF640 VA: 0x181AB1040
 	internal static ushort ToUInt16(byte[] value, int startIndex) { }
 
-	// RVA: 0x1AB1310 Offset: 0x1AAF910 VA: 0x181AB1310
+	// RVA: 0x1AB1150 Offset: 0x1AAF750 VA: 0x181AB1150
 	internal static uint ToUInt32(byte[] value, int startIndex) { }
 
 }

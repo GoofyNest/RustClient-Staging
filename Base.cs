@@ -1,10 +1,10 @@
 public abstract class Base : IDisposable // TypeDefIndex: 5283
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private AppId <AppId>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Action OnChanges; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Action<ServerInfo> OnResponsiveServer; // 0x20
 	public List<ServerInfo> Responsive; // 0x28
 	public List<ServerInfo> Unresponsive; // 0x30
@@ -24,26 +24,26 @@ public abstract class Base : IDisposable // TypeDefIndex: 5283
 	// RVA: 0xDD76C0 Offset: 0xDD5CC0 VA: 0x180DD76C0
 	internal static ISteamMatchmakingServers get_Internal() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public AppId get_AppId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
 	public void set_AppId(AppId value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDD75F0 Offset: 0xDD5BF0 VA: 0x180DD75F0
 	public void add_OnChanges(Action value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDD77C0 Offset: 0xDD5DC0 VA: 0x180DD77C0
 	public void remove_OnChanges(Action value) { }
 
 	// RVA: 0xDD7480 Offset: 0xDD5A80 VA: 0x180DD7480
 	public void .ctor() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA2550 Offset: 0xA1950 VA: 0x1800A2550
+	[AsyncStateMachineAttribute] // RVA: 0xA25E0 Offset: 0xA19E0 VA: 0x1800A25E0
 	// RVA: 0xDD6F90 Offset: 0xDD5590 VA: 0x180DD6F90 Slot: 5
 	public virtual Task<bool> RunQueryAsync(float timeoutSeconds = 10) { }
 
@@ -89,11 +89,11 @@ public abstract class Base : IDisposable // TypeDefIndex: 5283
 	// RVA: 0xDD6D30 Offset: 0xDD5330 VA: 0x180DD6D30
 	private void OnServer(ServerInfo serverInfo, bool responded) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDD7200 Offset: 0xDD5800 VA: 0x180DD7200
 	private bool <UpdateResponsive>b__33_0(int x) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDD7090 Offset: 0xDD5690 VA: 0x180DD7090
 	private bool <MovePendingToUnresponsive>b__34_0(int x) { }
 
@@ -111,11 +111,11 @@ private struct Base.<RunQueryAsync>d__15 : IAsyncStateMachine // TypeDefIndex: 5
 
 	// Methods
 
-	// RVA: 0x123740 Offset: 0x122B40 VA: 0x180123740 Slot: 4
+	// RVA: 0x1236C0 Offset: 0x122AC0 VA: 0x1801236C0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x123750 Offset: 0x122B50 VA: 0x180123750 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1236D0 Offset: 0x122AD0 VA: 0x1801236D0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

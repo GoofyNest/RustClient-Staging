@@ -6,7 +6,7 @@ public struct LOD // TypeDefIndex: 3440
 
 	// Methods
 
-	// RVA: 0x215B70 Offset: 0x214F70 VA: 0x180215B70
+	// RVA: 0x215AF0 Offset: 0x214EF0 VA: 0x180215AF0
 	public void .ctor(float screenRelativeTransitionHeight, Renderer[] renderers) { }
 
 }

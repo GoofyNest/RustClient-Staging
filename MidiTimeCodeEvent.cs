@@ -1,9 +1,9 @@
 public sealed class MidiTimeCodeEvent : SystemCommonEvent // TypeDefIndex: 7562
 {	// Fields
 	private static readonly Dictionary<MidiTimeCodeComponent, byte> ComponentValueMasks; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private MidiTimeCodeComponent <Component>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private FourBitNumber <ComponentValue>k__BackingField; // 0x21
 
 	// Properties
@@ -18,19 +18,19 @@ public sealed class MidiTimeCodeEvent : SystemCommonEvent // TypeDefIndex: 7562
 	// RVA: 0x13A3640 Offset: 0x13A1C40 VA: 0x1813A3640
 	public void .ctor(MidiTimeCodeComponent component, FourBitNumber componentValue) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xB103F0 Offset: 0xB0E9F0 VA: 0x180B103F0
 	public MidiTimeCodeComponent get_Component() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7F9AE0 Offset: 0x7F80E0 VA: 0x1807F9AE0
 	public void set_Component(MidiTimeCodeComponent value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xB10400 Offset: 0xB0EA00 VA: 0x180B10400
 	public FourBitNumber get_ComponentValue() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13A3780 Offset: 0x13A1D80 VA: 0x1813A3780
 	public void set_ComponentValue(FourBitNumber value) { }
 

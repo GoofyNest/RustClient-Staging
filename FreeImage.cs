@@ -164,10 +164,10 @@ public struct FreeImage.Bitmap // TypeDefIndex: 8025
 
 	// Methods
 
-	// RVA: 0x184F10 Offset: 0x184310 VA: 0x180184F10
+	// RVA: 0x184E90 Offset: 0x184290 VA: 0x180184E90
 	public bool get_IsNull() { }
 
-	// RVA: 0x184E60 Offset: 0x184260 VA: 0x180184E60
+	// RVA: 0x184DE0 Offset: 0x1841E0 VA: 0x180184DE0
 	public void Unload() { }
 
 	// RVA: 0x1068110 Offset: 0x1066710 VA: 0x181068110

@@ -42,11 +42,11 @@ public class Door : AnimatedBuildingBlock, INotifyTrigger // TypeDefIndex: 8381
 	// RVA: 0xAAD3F0 Offset: 0xAAB9F0 VA: 0x180AAD3F0 Slot: 134
 	public override bool CanPickup(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xD8FA0 Offset: 0xD83A0 VA: 0x1800D8FA0
-	[BaseEntity.Menu.Description] // RVA: 0xD8FA0 Offset: 0xD83A0 VA: 0x1800D8FA0
-	[BaseEntity.Menu.Icon] // RVA: 0xD8FA0 Offset: 0xD83A0 VA: 0x1800D8FA0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD8FA0 Offset: 0xD83A0 VA: 0x1800D8FA0
-	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD8FA0 Offset: 0xD83A0 VA: 0x1800D8FA0
+	[BaseEntity.Menu] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
+	[BaseEntity.Menu.Description] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
+	[BaseEntity.Menu.Icon] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
+	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
 	// RVA: 0xAAE540 Offset: 0xAACB40 VA: 0x180AAE540
 	public void Menu_OpenDoor(BasePlayer player) { }
 
@@ -59,11 +59,11 @@ public class Door : AnimatedBuildingBlock, INotifyTrigger // TypeDefIndex: 8381
 	// RVA: 0xAAE500 Offset: 0xAACB00 VA: 0x180AAE500
 	public bool Menu_OpenDoor_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xD93D0 Offset: 0xD87D0 VA: 0x1800D93D0
-	[BaseEntity.Menu.Description] // RVA: 0xD93D0 Offset: 0xD87D0 VA: 0x1800D93D0
-	[BaseEntity.Menu.Icon] // RVA: 0xD93D0 Offset: 0xD87D0 VA: 0x1800D93D0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD93D0 Offset: 0xD87D0 VA: 0x1800D93D0
-	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD93D0 Offset: 0xD87D0 VA: 0x1800D93D0
+	[BaseEntity.Menu] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
+	[BaseEntity.Menu.Description] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
+	[BaseEntity.Menu.Icon] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
+	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
 	// RVA: 0xAAE2F0 Offset: 0xAAC8F0 VA: 0x180AAE2F0
 	public void Menu_CloseDoor(BasePlayer player) { }
 
@@ -76,21 +76,21 @@ public class Door : AnimatedBuildingBlock, INotifyTrigger // TypeDefIndex: 8381
 	// RVA: 0xAAE2B0 Offset: 0xAAC8B0 VA: 0x180AAE2B0
 	public bool Menu_CloseDoor_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xD9880 Offset: 0xD8C80 VA: 0x1800D9880
-	[BaseEntity.Menu.Description] // RVA: 0xD9880 Offset: 0xD8C80 VA: 0x1800D9880
-	[BaseEntity.Menu.Icon] // RVA: 0xD9880 Offset: 0xD8C80 VA: 0x1800D9880
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD9880 Offset: 0xD8C80 VA: 0x1800D9880
-	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD9880 Offset: 0xD8C80 VA: 0x1800D9880
+	[BaseEntity.Menu] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
+	[BaseEntity.Menu.Description] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
+	[BaseEntity.Menu.Icon] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
+	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
 	// RVA: 0xAAE3A0 Offset: 0xAAC9A0 VA: 0x180AAE3A0
 	public void Menu_KnockDoor(BasePlayer player) { }
 
 	// RVA: 0xAAE330 Offset: 0xAAC930 VA: 0x180AAE330
 	public bool Menu_KnockDoor_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xD9BF0 Offset: 0xD8FF0 VA: 0x1800D9BF0
-	[BaseEntity.Menu.Description] // RVA: 0xD9BF0 Offset: 0xD8FF0 VA: 0x1800D9BF0
-	[BaseEntity.Menu.Icon] // RVA: 0xD9BF0 Offset: 0xD8FF0 VA: 0x1800D9BF0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD9BF0 Offset: 0xD8FF0 VA: 0x1800D9BF0
+	[BaseEntity.Menu] // RVA: 0xD9C00 Offset: 0xD9000 VA: 0x1800D9C00
+	[BaseEntity.Menu.Description] // RVA: 0xD9C00 Offset: 0xD9000 VA: 0x1800D9C00
+	[BaseEntity.Menu.Icon] // RVA: 0xD9C00 Offset: 0xD9000 VA: 0x1800D9C00
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD9C00 Offset: 0xD9000 VA: 0x1800D9C00
 	// RVA: 0xAAE590 Offset: 0xAACB90 VA: 0x180AAE590
 	public void Menu_ToggleHatch(BasePlayer player) { }
 
@@ -100,7 +100,7 @@ public class Door : AnimatedBuildingBlock, INotifyTrigger // TypeDefIndex: 8381
 	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 72
 	public override bool NeedsCrosshair() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xAAE5D0 Offset: 0xAACBD0 VA: 0x180AAE5D0
 	private void OnDoorInterrupted(BaseEntity.RPCMessage msg) { }
 

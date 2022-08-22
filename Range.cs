@@ -11,19 +11,19 @@ internal struct Range // TypeDefIndex: 4283
 
 	// Methods
 
-	// RVA: 0x1377B0 Offset: 0x136BB0 VA: 0x1801377B0
+	// RVA: 0x137730 Offset: 0x136B30 VA: 0x180137730
 	public void .ctor(int min, int max) { }
 
-	// RVA: 0x137820 Offset: 0x136C20 VA: 0x180137820
+	// RVA: 0x1377A0 Offset: 0x136BA0 VA: 0x1801377A0
 	public int get_Count() { }
 
-	// RVA: 0x137840 Offset: 0x136C40 VA: 0x180137840
+	// RVA: 0x1377C0 Offset: 0x136BC0 VA: 0x1801377C0
 	public bool get_IsNull() { }
 
-	// RVA: 0x137850 Offset: 0x136C50 VA: 0x180137850
+	// RVA: 0x1377D0 Offset: 0x136BD0 VA: 0x1801377D0
 	public int get_Min() { }
 
-	// RVA: 0x137760 Offset: 0x136B60 VA: 0x180137760
+	// RVA: 0x1376E0 Offset: 0x136AE0 VA: 0x1801376E0
 	internal void CheckNull() { }
 
 }

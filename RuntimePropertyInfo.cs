@@ -9,28 +9,28 @@ internal abstract class RuntimePropertyInfo : PropertyInfo, ISerializable // Typ
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
 	internal BindingFlags get_BindingFlags() { }
 
-	// RVA: 0x18D70A0 Offset: 0x18D56A0 VA: 0x1818D70A0 Slot: 16
+	// RVA: 0x18D7060 Offset: 0x18D5660 VA: 0x1818D7060 Slot: 16
 	public override Module get_Module() { }
 
-	// RVA: 0x18D6E90 Offset: 0x18D5490 VA: 0x1818D6E90
+	// RVA: 0x18D6E50 Offset: 0x18D5450 VA: 0x1818D6E50
 	internal RuntimeType GetDeclaringTypeInternal() { }
 
-	// RVA: 0x18D7160 Offset: 0x18D5760 VA: 0x1818D7160
+	// RVA: 0x18D7120 Offset: 0x18D5720 VA: 0x1818D7120
 	private RuntimeType get_ReflectedTypeInternal() { }
 
-	// RVA: 0x18D70A0 Offset: 0x18D56A0 VA: 0x1818D70A0
+	// RVA: 0x18D7060 Offset: 0x18D5660 VA: 0x1818D7060
 	internal RuntimeModule GetRuntimeModule() { }
 
-	// RVA: 0x18D7150 Offset: 0x18D5750 VA: 0x1818D7150 Slot: 3
+	// RVA: 0x18D7110 Offset: 0x18D5710 VA: 0x1818D7110 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x18D6BE0 Offset: 0x18D51E0 VA: 0x1818D6BE0
+	// RVA: 0x18D6BA0 Offset: 0x18D51A0 VA: 0x1818D6BA0
 	private string FormatNameAndSig(bool serialization) { }
 
-	// RVA: 0x18D6F20 Offset: 0x18D5520 VA: 0x1818D6F20 Slot: 35
+	// RVA: 0x18D6EE0 Offset: 0x18D54E0 VA: 0x1818D6EE0 Slot: 35
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x18D7140 Offset: 0x18D5740 VA: 0x1818D7140
+	// RVA: 0x18D7100 Offset: 0x18D5700 VA: 0x1818D7100
 	internal string SerializationToString() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

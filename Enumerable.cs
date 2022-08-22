@@ -50,48 +50,48 @@ public abstract class Enum : ValueType, IComparable, IFormattable, IConvertible 
 	|-Enum.TryParse<KeyCode>
 	*/
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x10D7160 Offset: 0x10D5760 VA: 0x1810D7160
 	public static object Parse(Type enumType, string value) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x10D72A0 Offset: 0x10D58A0 VA: 0x1810D72A0
 	public static object Parse(Type enumType, string value, bool ignoreCase) { }
 
 	// RVA: 0x10D99D0 Offset: 0x10D7FD0 VA: 0x1810D99D0
 	private static bool TryParseEnum(Type enumType, string value, bool ignoreCase, ref Enum.EnumResult parseResult) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x10D6290 Offset: 0x10D4890 VA: 0x1810D6290
 	public static Type GetUnderlyingType(Type enumType) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x10D6350 Offset: 0x10D4950 VA: 0x1810D6350
 	public static Array GetValues(Type enumType) { }
 
 	// RVA: 0x10D7020 Offset: 0x10D5620 VA: 0x1810D7020
 	internal static ulong[] InternalGetValues(RuntimeType enumType) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x10D5D30 Offset: 0x10D4330 VA: 0x1810D5D30
 	public static string GetName(Type enumType, object value) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x10D5DF0 Offset: 0x10D43F0 VA: 0x1810D5DF0
 	public static string[] GetNames(Type enumType) { }
 
 	// RVA: 0x10D6FA0 Offset: 0x10D55A0 VA: 0x1810D6FA0
 	internal static string[] InternalGetNames(RuntimeType enumType) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x10D8E20 Offset: 0x10D7420 VA: 0x1810D8E20
 	public static object ToObject(Type enumType, object value) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x10D70A0 Offset: 0x10D56A0 VA: 0x1810D70A0
 	public static bool IsDefined(Type enumType, object value) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x10D53C0 Offset: 0x10D39C0 VA: 0x1810D53C0
 	public static string Format(Type enumType, object value, string format) { }
 
@@ -116,7 +116,7 @@ public abstract class Enum : ValueType, IComparable, IFormattable, IConvertible 
 	// RVA: 0x10D9770 Offset: 0x10D7D70 VA: 0x1810D9770 Slot: 3
 	public override string ToString() { }
 
-	[ObsoleteAttribute] // RVA: 0x7A040 Offset: 0x79440 VA: 0x18007A040
+	[ObsoleteAttribute] // RVA: 0x79FB0 Offset: 0x793B0 VA: 0x180079FB0
 	// RVA: 0x10D9760 Offset: 0x10D7D60 VA: 0x1810D9760 Slot: 5
 	public string ToString(string format, IFormatProvider provider) { }
 
@@ -126,7 +126,7 @@ public abstract class Enum : ValueType, IComparable, IFormattable, IConvertible 
 	// RVA: 0x10D9530 Offset: 0x10D7B30 VA: 0x1810D9530
 	public string ToString(string format) { }
 
-	[ObsoleteAttribute] // RVA: 0x7A1F0 Offset: 0x795F0 VA: 0x18007A1F0
+	[ObsoleteAttribute] // RVA: 0x7A290 Offset: 0x79690 VA: 0x18007A290
 	// RVA: 0xD86B30 Offset: 0xD85130 VA: 0x180D86B30 Slot: 21
 	public string ToString(IFormatProvider provider) { }
 
@@ -181,39 +181,39 @@ public abstract class Enum : ValueType, IComparable, IFormattable, IConvertible 
 	// RVA: 0x10D7AD0 Offset: 0x10D60D0 VA: 0x1810D7AD0 Slot: 22
 	private object System.IConvertible.ToType(Type type, IFormatProvider provider) { }
 
-	[ComVisibleAttribute] // RVA: 0x7A310 Offset: 0x79710 VA: 0x18007A310
-	[CLSCompliantAttribute] // RVA: 0x7A310 Offset: 0x79710 VA: 0x18007A310
+	[ComVisibleAttribute] // RVA: 0x7A390 Offset: 0x79790 VA: 0x18007A390
+	[CLSCompliantAttribute] // RVA: 0x7A390 Offset: 0x79790 VA: 0x18007A390
 	// RVA: 0x10D9340 Offset: 0x10D7940 VA: 0x1810D9340
 	public static object ToObject(Type enumType, sbyte value) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x10D8690 Offset: 0x10D6C90 VA: 0x1810D8690
 	public static object ToObject(Type enumType, short value) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x10D8A60 Offset: 0x10D7060 VA: 0x1810D8A60
 	public static object ToObject(Type enumType, int value) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x10D80F0 Offset: 0x10D66F0 VA: 0x1810D80F0
 	public static object ToObject(Type enumType, byte value) { }
 
-	[ComVisibleAttribute] // RVA: 0x7A310 Offset: 0x79710 VA: 0x18007A310
-	[CLSCompliantAttribute] // RVA: 0x7A310 Offset: 0x79710 VA: 0x18007A310
+	[ComVisibleAttribute] // RVA: 0x7A390 Offset: 0x79790 VA: 0x18007A390
+	[CLSCompliantAttribute] // RVA: 0x7A390 Offset: 0x79790 VA: 0x18007A390
 	// RVA: 0x10D84B0 Offset: 0x10D6AB0 VA: 0x1810D84B0
 	public static object ToObject(Type enumType, ushort value) { }
 
-	[ComVisibleAttribute] // RVA: 0x7A310 Offset: 0x79710 VA: 0x18007A310
-	[CLSCompliantAttribute] // RVA: 0x7A310 Offset: 0x79710 VA: 0x18007A310
+	[ComVisibleAttribute] // RVA: 0x7A390 Offset: 0x79790 VA: 0x18007A390
+	[CLSCompliantAttribute] // RVA: 0x7A390 Offset: 0x79790 VA: 0x18007A390
 	// RVA: 0x10D7F10 Offset: 0x10D6510 VA: 0x1810D7F10
 	public static object ToObject(Type enumType, uint value) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0x10D8C40 Offset: 0x10D7240 VA: 0x1810D8C40
 	public static object ToObject(Type enumType, long value) { }
 
-	[ComVisibleAttribute] // RVA: 0x7A310 Offset: 0x79710 VA: 0x18007A310
-	[CLSCompliantAttribute] // RVA: 0x7A310 Offset: 0x79710 VA: 0x18007A310
+	[ComVisibleAttribute] // RVA: 0x7A390 Offset: 0x79790 VA: 0x18007A390
+	[CLSCompliantAttribute] // RVA: 0x7A390 Offset: 0x79790 VA: 0x18007A390
 	// RVA: 0x10D82D0 Offset: 0x10D68D0 VA: 0x1810D82D0
 	public static object ToObject(Type enumType, ulong value) { }
 
@@ -254,19 +254,19 @@ private struct Enum.EnumResult // TypeDefIndex: 213
 
 	// Methods
 
-	// RVA: 0x19F450 Offset: 0x19E850 VA: 0x18019F450
+	// RVA: 0x19F3D0 Offset: 0x19E7D0 VA: 0x18019F3D0
 	internal void Init(bool canMethodThrow) { }
 
-	// RVA: 0x19F4D0 Offset: 0x19E8D0 VA: 0x18019F4D0
+	// RVA: 0x19F450 Offset: 0x19E850 VA: 0x18019F450
 	internal void SetFailure(Exception unhandledException) { }
 
-	// RVA: 0x19F4F0 Offset: 0x19E8F0 VA: 0x18019F4F0
+	// RVA: 0x19F470 Offset: 0x19E870 VA: 0x18019F470
 	internal void SetFailure(Enum.ParseFailureKind failure, string failureParameter) { }
 
-	// RVA: 0x19F4C0 Offset: 0x19E8C0 VA: 0x18019F4C0
+	// RVA: 0x19F440 Offset: 0x19E840 VA: 0x18019F440
 	internal void SetFailure(Enum.ParseFailureKind failure, string failureMessageID, object failureMessageFormatArgument) { }
 
-	// RVA: 0x19F440 Offset: 0x19E840 VA: 0x18019F440
+	// RVA: 0x19F3C0 Offset: 0x19E7C0 VA: 0x18019F3C0
 	internal Exception GetEnumParseException() { }
 
 }
@@ -299,98 +299,98 @@ public abstract class EnumBuilder : TypeInfo // TypeDefIndex: 602
 
 	// Methods
 
-	// RVA: 0x18C8940 Offset: 0x18C6F40 VA: 0x1818C8940 Slot: 24
+	// RVA: 0x18C8900 Offset: 0x18C6F00 VA: 0x1818C8900 Slot: 24
 	public override Assembly get_Assembly() { }
 
-	// RVA: 0x18C88F0 Offset: 0x18C6EF0 VA: 0x1818C88F0 Slot: 28
+	// RVA: 0x18C88B0 Offset: 0x18C6EB0 VA: 0x1818C88B0 Slot: 28
 	public override string get_AssemblyQualifiedName() { }
 
-	// RVA: 0x18C8990 Offset: 0x18C6F90 VA: 0x1818C8990 Slot: 30
+	// RVA: 0x18C8950 Offset: 0x18C6F50 VA: 0x1818C8950 Slot: 30
 	public override Type get_BaseType() { }
 
-	// RVA: 0x18C89E0 Offset: 0x18C6FE0 VA: 0x1818C89E0 Slot: 26
+	// RVA: 0x18C89A0 Offset: 0x18C6FA0 VA: 0x1818C89A0 Slot: 26
 	public override string get_FullName() { }
 
-	// RVA: 0x18C8A30 Offset: 0x18C7030 VA: 0x1818C8A30 Slot: 16
+	// RVA: 0x18C89F0 Offset: 0x18C6FF0 VA: 0x1818C89F0 Slot: 16
 	public override Module get_Module() { }
 
-	// RVA: 0x18C8A80 Offset: 0x18C7080 VA: 0x1818C8A80 Slot: 8
+	// RVA: 0x18C8A40 Offset: 0x18C7040 VA: 0x1818C8A40 Slot: 8
 	public override string get_Name() { }
 
-	// RVA: 0x18C8AD0 Offset: 0x18C70D0 VA: 0x1818C8AD0 Slot: 27
+	// RVA: 0x18C8A90 Offset: 0x18C7090 VA: 0x1818C8A90 Slot: 27
 	public override string get_Namespace() { }
 
-	// RVA: 0x18C8570 Offset: 0x18C6B70 VA: 0x1818C8570 Slot: 103
+	// RVA: 0x18C8530 Offset: 0x18C6B30 VA: 0x1818C8530 Slot: 103
 	public override Type GetElementType() { }
 
-	// RVA: 0x18C8B20 Offset: 0x18C7120 VA: 0x1818C8B20 Slot: 112
+	// RVA: 0x18C8AE0 Offset: 0x18C70E0 VA: 0x1818C8AE0 Slot: 112
 	public override Type get_UnderlyingSystemType() { }
 
-	// RVA: 0x18C8480 Offset: 0x18C6A80 VA: 0x1818C8480 Slot: 94
+	// RVA: 0x18C8440 Offset: 0x18C6A40 VA: 0x1818C8440 Slot: 94
 	protected override TypeAttributes GetAttributeFlagsImpl() { }
 
-	// RVA: 0x18C84B0 Offset: 0x18C6AB0 VA: 0x1818C84B0 Slot: 34
+	// RVA: 0x18C8470 Offset: 0x18C6A70 VA: 0x1818C8470 Slot: 34
 	protected override ConstructorInfo GetConstructorImpl(BindingFlags bindingAttr, Binder binder, CallingConventions callConvention, Type[] types, ParameterModifier[] modifiers) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
-	// RVA: 0x18C84E0 Offset: 0x18C6AE0 VA: 0x1818C84E0 Slot: 36
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
+	// RVA: 0x18C84A0 Offset: 0x18C6AA0 VA: 0x1818C84A0 Slot: 36
 	public override ConstructorInfo[] GetConstructors(BindingFlags bindingAttr) { }
 
-	// RVA: 0x18C8540 Offset: 0x18C6B40 VA: 0x1818C8540 Slot: 11
+	// RVA: 0x18C8500 Offset: 0x18C6B00 VA: 0x1818C8500 Slot: 11
 	public override object[] GetCustomAttributes(bool inherit) { }
 
-	// RVA: 0x18C8510 Offset: 0x18C6B10 VA: 0x1818C8510 Slot: 12
+	// RVA: 0x18C84D0 Offset: 0x18C6AD0 VA: 0x1818C84D0 Slot: 12
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18C85C0 Offset: 0x18C6BC0 VA: 0x1818C85C0 Slot: 50
+	// RVA: 0x18C8580 Offset: 0x18C6B80 VA: 0x1818C8580 Slot: 50
 	public override EventInfo GetEvent(string name, BindingFlags bindingAttr) { }
 
-	// RVA: 0x18C85F0 Offset: 0x18C6BF0 VA: 0x1818C85F0 Slot: 44
+	// RVA: 0x18C85B0 Offset: 0x18C6BB0 VA: 0x1818C85B0 Slot: 44
 	public override FieldInfo GetField(string name, BindingFlags bindingAttr) { }
 
-	// RVA: 0x18C8620 Offset: 0x18C6C20 VA: 0x1818C8620 Slot: 47
+	// RVA: 0x18C85E0 Offset: 0x18C6BE0 VA: 0x1818C85E0 Slot: 47
 	public override FieldInfo[] GetFields(BindingFlags bindingAttr) { }
 
-	// RVA: 0x18C8650 Offset: 0x18C6C50 VA: 0x1818C8650 Slot: 48
+	// RVA: 0x18C8610 Offset: 0x18C6C10 VA: 0x1818C8610 Slot: 48
 	public override Type[] GetInterfaces() { }
 
-	// RVA: 0x18C8680 Offset: 0x18C6C80 VA: 0x1818C8680 Slot: 41
+	// RVA: 0x18C8640 Offset: 0x18C6C40 VA: 0x1818C8640 Slot: 41
 	protected override MethodInfo GetMethodImpl(string name, BindingFlags bindingAttr, Binder binder, CallingConventions callConvention, Type[] types, ParameterModifier[] modifiers) { }
 
-	// RVA: 0x18C86B0 Offset: 0x18C6CB0 VA: 0x1818C86B0 Slot: 43
+	// RVA: 0x18C8670 Offset: 0x18C6C70 VA: 0x1818C8670 Slot: 43
 	public override MethodInfo[] GetMethods(BindingFlags bindingAttr) { }
 
-	// RVA: 0x18C86E0 Offset: 0x18C6CE0 VA: 0x1818C86E0 Slot: 60
+	// RVA: 0x18C86A0 Offset: 0x18C6CA0 VA: 0x1818C86A0 Slot: 60
 	public override Type GetNestedType(string name, BindingFlags bindingAttr) { }
 
-	// RVA: 0x18C8710 Offset: 0x18C6D10 VA: 0x1818C8710 Slot: 57
+	// RVA: 0x18C86D0 Offset: 0x18C6CD0 VA: 0x1818C86D0 Slot: 57
 	public override PropertyInfo[] GetProperties(BindingFlags bindingAttr) { }
 
-	// RVA: 0x18C8740 Offset: 0x18C6D40 VA: 0x1818C8740 Slot: 56
+	// RVA: 0x18C8700 Offset: 0x18C6D00 VA: 0x1818C8700 Slot: 56
 	protected override PropertyInfo GetPropertyImpl(string name, BindingFlags bindingAttr, Binder binder, Type returnType, Type[] types, ParameterModifier[] modifiers) { }
 
-	// RVA: 0x18C8770 Offset: 0x18C6D70 VA: 0x1818C8770 Slot: 106
+	// RVA: 0x18C8730 Offset: 0x18C6D30 VA: 0x1818C8730 Slot: 106
 	protected override bool HasElementTypeImpl() { }
 
-	// RVA: 0x18C87A0 Offset: 0x18C6DA0 VA: 0x1818C87A0 Slot: 23
+	// RVA: 0x18C8760 Offset: 0x18C6D60 VA: 0x1818C8760 Slot: 23
 	public override object InvokeMember(string name, BindingFlags invokeAttr, Binder binder, object target, object[] args, ParameterModifier[] modifiers, CultureInfo culture, string[] namedParameters) { }
 
-	// RVA: 0x18C87D0 Offset: 0x18C6DD0 VA: 0x1818C87D0 Slot: 95
+	// RVA: 0x18C8790 Offset: 0x18C6D90 VA: 0x1818C8790 Slot: 95
 	protected override bool IsArrayImpl() { }
 
-	// RVA: 0x18C8800 Offset: 0x18C6E00 VA: 0x1818C8800 Slot: 96
+	// RVA: 0x18C87C0 Offset: 0x18C6DC0 VA: 0x1818C87C0 Slot: 96
 	protected override bool IsByRefImpl() { }
 
-	// RVA: 0x18C8830 Offset: 0x18C6E30 VA: 0x1818C8830 Slot: 99
+	// RVA: 0x18C87F0 Offset: 0x18C6DF0 VA: 0x1818C87F0 Slot: 99
 	protected override bool IsCOMObjectImpl() { }
 
-	// RVA: 0x18C8860 Offset: 0x18C6E60 VA: 0x1818C8860 Slot: 13
+	// RVA: 0x18C8820 Offset: 0x18C6E20 VA: 0x1818C8820 Slot: 13
 	public override bool IsDefined(Type attributeType, bool inherit) { }
 
-	// RVA: 0x18C8890 Offset: 0x18C6E90 VA: 0x1818C8890 Slot: 97
+	// RVA: 0x18C8850 Offset: 0x18C6E50 VA: 0x1818C8850 Slot: 97
 	protected override bool IsPointerImpl() { }
 
-	// RVA: 0x18C88C0 Offset: 0x18C6EC0 VA: 0x1818C88C0 Slot: 98
+	// RVA: 0x18C8880 Offset: 0x18C6E80 VA: 0x1818C8880 Slot: 98
 	protected override bool IsPrimitiveImpl() { }
 
 }
@@ -408,7 +408,7 @@ internal static class EnumHelper<UnderlyingType> // TypeDefIndex: 1511
 	public static UnderlyingType Cast<ValueType>(ValueType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A37900 Offset: 0x1A35F00 VA: 0x181A37900
+	|-RVA: 0x1A378C0 Offset: 0x1A35EC0 VA: 0x181A378C0
 	|-EnumHelper<byte>.Cast<bool>
 	|-EnumHelper<byte>.Cast<byte>
 	|-EnumHelper<byte>.Cast<sbyte>
@@ -434,7 +434,7 @@ internal static class EnumHelper<UnderlyingType> // TypeDefIndex: 1511
 	|-EnumHelper<ulong>.Cast<byte>
 	|-EnumHelper<ulong>.Cast<sbyte>
 	|
-	|-RVA: 0x1A379D0 Offset: 0x1A35FD0 VA: 0x181A379D0
+	|-RVA: 0x1A37990 Offset: 0x1A35F90 VA: 0x181A37990
 	|-EnumHelper<byte>.Cast<char>
 	|-EnumHelper<byte>.Cast<short>
 	|-EnumHelper<byte>.Cast<ushort>
@@ -460,7 +460,7 @@ internal static class EnumHelper<UnderlyingType> // TypeDefIndex: 1511
 	|-EnumHelper<ulong>.Cast<short>
 	|-EnumHelper<ulong>.Cast<ushort>
 	|
-	|-RVA: 0x1A37AA0 Offset: 0x1A360A0 VA: 0x181A37AA0
+	|-RVA: 0x1A37A60 Offset: 0x1A36060 VA: 0x181A37A60
 	|-EnumHelper<byte>.Cast<KeyValuePair<object, object>>
 	|-EnumHelper<byte>.Cast<DateTimeOffset>
 	|-EnumHelper<byte>.Cast<Decimal>
@@ -494,7 +494,7 @@ internal static class EnumHelper<UnderlyingType> // TypeDefIndex: 1511
 	|-EnumHelper<ulong>.Cast<Decimal>
 	|-EnumHelper<ulong>.Cast<Guid>
 	|
-	|-RVA: 0x1A37B70 Offset: 0x1A36170 VA: 0x181A37B70
+	|-RVA: 0x1A37B30 Offset: 0x1A36130 VA: 0x181A37B30
 	|-EnumHelper<byte>.Cast<DateTime>
 	|-EnumHelper<byte>.Cast<TimeSpan>
 	|-EnumHelper<short>.Cast<DateTime>
@@ -512,7 +512,7 @@ internal static class EnumHelper<UnderlyingType> // TypeDefIndex: 1511
 	|-EnumHelper<ulong>.Cast<DateTime>
 	|-EnumHelper<ulong>.Cast<TimeSpan>
 	|
-	|-RVA: 0x1A37D10 Offset: 0x1A36310 VA: 0x181A37D10
+	|-RVA: 0x1A37CD0 Offset: 0x1A362D0 VA: 0x181A37CD0
 	|-EnumHelper<byte>.Cast<EmptyStruct>
 	|-EnumHelper<short>.Cast<EmptyStruct>
 	|-EnumHelper<int>.Cast<EmptyStruct>
@@ -522,7 +522,7 @@ internal static class EnumHelper<UnderlyingType> // TypeDefIndex: 1511
 	|-EnumHelper<uint>.Cast<EmptyStruct>
 	|-EnumHelper<ulong>.Cast<EmptyStruct>
 	|
-	|-RVA: 0x1A37C40 Offset: 0x1A36240 VA: 0x181A37C40
+	|-RVA: 0x1A37C00 Offset: 0x1A36200 VA: 0x181A37C00
 	|-EnumHelper<byte>.Cast<double>
 	|-EnumHelper<byte>.Cast<float>
 	|-EnumHelper<short>.Cast<double>
@@ -540,7 +540,7 @@ internal static class EnumHelper<UnderlyingType> // TypeDefIndex: 1511
 	|-EnumHelper<ulong>.Cast<double>
 	|-EnumHelper<ulong>.Cast<float>
 	|
-	|-RVA: 0x1A37DE0 Offset: 0x1A363E0 VA: 0x181A37DE0
+	|-RVA: 0x1A37DA0 Offset: 0x1A363A0 VA: 0x181A37DA0
 	|-EnumHelper<byte>.Cast<int>
 	|-EnumHelper<byte>.Cast<uint>
 	|-EnumHelper<short>.Cast<int>
@@ -558,7 +558,7 @@ internal static class EnumHelper<UnderlyingType> // TypeDefIndex: 1511
 	|-EnumHelper<ulong>.Cast<int>
 	|-EnumHelper<ulong>.Cast<uint>
 	|
-	|-RVA: 0x1A37EB0 Offset: 0x1A364B0 VA: 0x181A37EB0
+	|-RVA: 0x1A37E70 Offset: 0x1A36470 VA: 0x181A37E70
 	|-EnumHelper<byte>.Cast<long>
 	|-EnumHelper<byte>.Cast<IntPtr>
 	|-EnumHelper<byte>.Cast<object>
@@ -606,31 +606,31 @@ internal static class EnumHelper<UnderlyingType> // TypeDefIndex: 1511
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2133370 Offset: 0x2131970 VA: 0x182133370
+	|-RVA: 0x21331B0 Offset: 0x21317B0 VA: 0x1821331B0
 	|-EnumHelper<byte>..cctor
 	|
-	|-RVA: 0x2132E70 Offset: 0x2131470 VA: 0x182132E70
+	|-RVA: 0x2132CB0 Offset: 0x21312B0 VA: 0x182132CB0
 	|-EnumHelper<short>..cctor
 	|
-	|-RVA: 0x2132F70 Offset: 0x2131570 VA: 0x182132F70
+	|-RVA: 0x2132DB0 Offset: 0x21313B0 VA: 0x182132DB0
 	|-EnumHelper<int>..cctor
 	|
-	|-RVA: 0x2133070 Offset: 0x2131670 VA: 0x182133070
+	|-RVA: 0x2132EB0 Offset: 0x21314B0 VA: 0x182132EB0
 	|-EnumHelper<long>..cctor
 	|
-	|-RVA: 0x2133170 Offset: 0x2131770 VA: 0x182133170
+	|-RVA: 0x2132FB0 Offset: 0x21315B0 VA: 0x182132FB0
 	|-EnumHelper<object>..cctor
 	|
-	|-RVA: 0x2133570 Offset: 0x2131B70 VA: 0x182133570
+	|-RVA: 0x21333B0 Offset: 0x21319B0 VA: 0x1821333B0
 	|-EnumHelper<sbyte>..cctor
 	|
-	|-RVA: 0x2133470 Offset: 0x2131A70 VA: 0x182133470
+	|-RVA: 0x21332B0 Offset: 0x21318B0 VA: 0x1821332B0
 	|-EnumHelper<ushort>..cctor
 	|
-	|-RVA: 0x2132D70 Offset: 0x2131370 VA: 0x182132D70
+	|-RVA: 0x2132BB0 Offset: 0x21311B0 VA: 0x182132BB0
 	|-EnumHelper<uint>..cctor
 	|
-	|-RVA: 0x2133270 Offset: 0x2131870 VA: 0x182133270
+	|-RVA: 0x21330B0 Offset: 0x21316B0 VA: 0x1821330B0
 	|-EnumHelper<ulong>..cctor
 	*/
 
@@ -827,7 +827,7 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	public virtual UnderlyingType Invoke(ValueType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x18A3850 Offset: 0x18A1E50 VA: 0x1818A3850
+	|-RVA: 0x18A3810 Offset: 0x18A1E10 VA: 0x1818A3810
 	|-EnumHelper.Transformer<byte, bool>.Invoke
 	|-EnumHelper.Transformer<byte, byte>.Invoke
 	|-EnumHelper.Transformer<byte, sbyte>.Invoke
@@ -835,7 +835,7 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<sbyte, byte>.Invoke
 	|-EnumHelper.Transformer<sbyte, sbyte>.Invoke
 	|
-	|-RVA: 0x18A6190 Offset: 0x18A4790 VA: 0x1818A6190
+	|-RVA: 0x18A6150 Offset: 0x18A4750 VA: 0x1818A6150
 	|-EnumHelper.Transformer<byte, char>.Invoke
 	|-EnumHelper.Transformer<byte, short>.Invoke
 	|-EnumHelper.Transformer<byte, ushort>.Invoke
@@ -859,11 +859,11 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<sbyte, DateTime>.Invoke
 	|-EnumHelper.Transformer<sbyte, TimeSpan>.Invoke
 	|
-	|-RVA: 0x18A8110 Offset: 0x18A6710 VA: 0x1818A8110
+	|-RVA: 0x18A80D0 Offset: 0x18A66D0 VA: 0x1818A80D0
 	|-EnumHelper.Transformer<byte, EmptyStruct>.Invoke
 	|-EnumHelper.Transformer<sbyte, EmptyStruct>.Invoke
 	|
-	|-RVA: 0x18A6CD0 Offset: 0x18A52D0 VA: 0x1818A6CD0
+	|-RVA: 0x18A6C90 Offset: 0x18A5290 VA: 0x1818A6C90
 	|-EnumHelper.Transformer<byte, double>.Invoke
 	|-EnumHelper.Transformer<sbyte, double>.Invoke
 	|
@@ -873,7 +873,7 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<sbyte, int>.Invoke
 	|-EnumHelper.Transformer<sbyte, uint>.Invoke
 	|
-	|-RVA: 0x1B16710 Offset: 0x1B14D10 VA: 0x181B16710
+	|-RVA: 0x1B16550 Offset: 0x1B14B50 VA: 0x181B16550
 	|-EnumHelper.Transformer<byte, long>.Invoke
 	|-EnumHelper.Transformer<byte, IntPtr>.Invoke
 	|-EnumHelper.Transformer<byte, ulong>.Invoke
@@ -887,11 +887,11 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<byte, object>.Invoke
 	|-EnumHelper.Transformer<sbyte, object>.Invoke
 	|
-	|-RVA: 0x18A4810 Offset: 0x18A2E10 VA: 0x1818A4810
+	|-RVA: 0x18A47D0 Offset: 0x18A2DD0 VA: 0x1818A47D0
 	|-EnumHelper.Transformer<byte, float>.Invoke
 	|-EnumHelper.Transformer<sbyte, float>.Invoke
 	|
-	|-RVA: 0x1B16F00 Offset: 0x1B15500 VA: 0x181B16F00
+	|-RVA: 0x1B16D40 Offset: 0x1B15340 VA: 0x181B16D40
 	|-EnumHelper.Transformer<short, bool>.Invoke
 	|-EnumHelper.Transformer<short, byte>.Invoke
 	|-EnumHelper.Transformer<short, sbyte>.Invoke
@@ -899,7 +899,7 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<ushort, byte>.Invoke
 	|-EnumHelper.Transformer<ushort, sbyte>.Invoke
 	|
-	|-RVA: 0x1B18E10 Offset: 0x1B17410 VA: 0x181B18E10
+	|-RVA: 0x1B18C50 Offset: 0x1B17250 VA: 0x181B18C50
 	|-EnumHelper.Transformer<short, char>.Invoke
 	|-EnumHelper.Transformer<short, short>.Invoke
 	|-EnumHelper.Transformer<short, ushort>.Invoke
@@ -907,7 +907,7 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<ushort, short>.Invoke
 	|-EnumHelper.Transformer<ushort, ushort>.Invoke
 	|
-	|-RVA: 0x1B184D0 Offset: 0x1B16AD0 VA: 0x181B184D0
+	|-RVA: 0x1B18310 Offset: 0x1B16910 VA: 0x181B18310
 	|-EnumHelper.Transformer<short, KeyValuePair<object, object>>.Invoke
 	|-EnumHelper.Transformer<short, DateTimeOffset>.Invoke
 	|-EnumHelper.Transformer<short, Decimal>.Invoke
@@ -917,27 +917,27 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<ushort, Decimal>.Invoke
 	|-EnumHelper.Transformer<ushort, Guid>.Invoke
 	|
-	|-RVA: 0x1B18810 Offset: 0x1B16E10 VA: 0x181B18810
+	|-RVA: 0x1B18650 Offset: 0x1B16C50 VA: 0x181B18650
 	|-EnumHelper.Transformer<short, DateTime>.Invoke
 	|-EnumHelper.Transformer<short, TimeSpan>.Invoke
 	|-EnumHelper.Transformer<ushort, DateTime>.Invoke
 	|-EnumHelper.Transformer<ushort, TimeSpan>.Invoke
 	|
-	|-RVA: 0x1B19720 Offset: 0x1B17D20 VA: 0x181B19720
+	|-RVA: 0x1B19560 Offset: 0x1B17B60 VA: 0x181B19560
 	|-EnumHelper.Transformer<short, EmptyStruct>.Invoke
 	|-EnumHelper.Transformer<ushort, EmptyStruct>.Invoke
 	|
-	|-RVA: 0x1B16200 Offset: 0x1B14800 VA: 0x181B16200
+	|-RVA: 0x1B16040 Offset: 0x1B14640 VA: 0x181B16040
 	|-EnumHelper.Transformer<short, double>.Invoke
 	|-EnumHelper.Transformer<ushort, double>.Invoke
 	|
-	|-RVA: 0x1B15750 Offset: 0x1B13D50 VA: 0x181B15750
+	|-RVA: 0x1B15590 Offset: 0x1B13B90 VA: 0x181B15590
 	|-EnumHelper.Transformer<short, int>.Invoke
 	|-EnumHelper.Transformer<short, uint>.Invoke
 	|-EnumHelper.Transformer<ushort, int>.Invoke
 	|-EnumHelper.Transformer<ushort, uint>.Invoke
 	|
-	|-RVA: 0x1B17540 Offset: 0x1B15B40 VA: 0x181B17540
+	|-RVA: 0x1B17380 Offset: 0x1B15980 VA: 0x181B17380
 	|-EnumHelper.Transformer<short, long>.Invoke
 	|-EnumHelper.Transformer<short, IntPtr>.Invoke
 	|-EnumHelper.Transformer<short, ulong>.Invoke
@@ -947,15 +947,15 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<ushort, ulong>.Invoke
 	|-EnumHelper.Transformer<ushort, UIntPtr>.Invoke
 	|
-	|-RVA: 0x1B17D40 Offset: 0x1B16340 VA: 0x181B17D40
+	|-RVA: 0x1B17B80 Offset: 0x1B16180 VA: 0x181B17B80
 	|-EnumHelper.Transformer<short, object>.Invoke
 	|-EnumHelper.Transformer<ushort, object>.Invoke
 	|
-	|-RVA: 0x1B19A20 Offset: 0x1B18020 VA: 0x181B19A20
+	|-RVA: 0x1B19860 Offset: 0x1B17E60 VA: 0x181B19860
 	|-EnumHelper.Transformer<short, float>.Invoke
 	|-EnumHelper.Transformer<ushort, float>.Invoke
 	|
-	|-RVA: 0x1B181D0 Offset: 0x1B167D0 VA: 0x181B181D0
+	|-RVA: 0x1B18010 Offset: 0x1B16610 VA: 0x181B18010
 	|-EnumHelper.Transformer<int, bool>.Invoke
 	|-EnumHelper.Transformer<int, byte>.Invoke
 	|-EnumHelper.Transformer<int, sbyte>.Invoke
@@ -963,7 +963,7 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<uint, byte>.Invoke
 	|-EnumHelper.Transformer<uint, sbyte>.Invoke
 	|
-	|-RVA: 0x1B17A40 Offset: 0x1B16040 VA: 0x181B17A40
+	|-RVA: 0x1B17880 Offset: 0x1B15E80 VA: 0x181B17880
 	|-EnumHelper.Transformer<int, char>.Invoke
 	|-EnumHelper.Transformer<int, short>.Invoke
 	|-EnumHelper.Transformer<int, ushort>.Invoke
@@ -971,7 +971,7 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<uint, short>.Invoke
 	|-EnumHelper.Transformer<uint, ushort>.Invoke
 	|
-	|-RVA: 0x1B17200 Offset: 0x1B15800 VA: 0x181B17200
+	|-RVA: 0x1B17040 Offset: 0x1B15640 VA: 0x181B17040
 	|-EnumHelper.Transformer<int, KeyValuePair<object, object>>.Invoke
 	|-EnumHelper.Transformer<int, DateTimeOffset>.Invoke
 	|-EnumHelper.Transformer<int, Decimal>.Invoke
@@ -981,27 +981,27 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<uint, Decimal>.Invoke
 	|-EnumHelper.Transformer<uint, Guid>.Invoke
 	|
-	|-RVA: 0x1B18B10 Offset: 0x1B17110 VA: 0x181B18B10
+	|-RVA: 0x1B18950 Offset: 0x1B16F50 VA: 0x181B18950
 	|-EnumHelper.Transformer<int, DateTime>.Invoke
 	|-EnumHelper.Transformer<int, TimeSpan>.Invoke
 	|-EnumHelper.Transformer<uint, DateTime>.Invoke
 	|-EnumHelper.Transformer<uint, TimeSpan>.Invoke
 	|
-	|-RVA: 0x1B19110 Offset: 0x1B17710 VA: 0x181B19110
+	|-RVA: 0x1B18F50 Offset: 0x1B17550 VA: 0x181B18F50
 	|-EnumHelper.Transformer<int, EmptyStruct>.Invoke
 	|-EnumHelper.Transformer<uint, EmptyStruct>.Invoke
 	|
-	|-RVA: 0x1B19410 Offset: 0x1B17A10 VA: 0x181B19410
+	|-RVA: 0x1B19250 Offset: 0x1B17850 VA: 0x181B19250
 	|-EnumHelper.Transformer<int, double>.Invoke
 	|-EnumHelper.Transformer<uint, double>.Invoke
 	|
-	|-RVA: 0x19FA7C0 Offset: 0x19F8DC0 VA: 0x1819FA7C0
+	|-RVA: 0x19FA780 Offset: 0x19F8D80 VA: 0x1819FA780
 	|-EnumHelper.Transformer<int, int>.Invoke
 	|-EnumHelper.Transformer<int, uint>.Invoke
 	|-EnumHelper.Transformer<uint, int>.Invoke
 	|-EnumHelper.Transformer<uint, uint>.Invoke
 	|
-	|-RVA: 0x1B16510 Offset: 0x1B14B10 VA: 0x181B16510
+	|-RVA: 0x1B16350 Offset: 0x1B14950 VA: 0x181B16350
 	|-EnumHelper.Transformer<int, long>.Invoke
 	|-EnumHelper.Transformer<int, IntPtr>.Invoke
 	|-EnumHelper.Transformer<int, ulong>.Invoke
@@ -1011,15 +1011,15 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<uint, ulong>.Invoke
 	|-EnumHelper.Transformer<uint, UIntPtr>.Invoke
 	|
-	|-RVA: 0x1B15D80 Offset: 0x1B14380 VA: 0x181B15D80
+	|-RVA: 0x1B15BC0 Offset: 0x1B141C0 VA: 0x181B15BC0
 	|-EnumHelper.Transformer<int, object>.Invoke
 	|-EnumHelper.Transformer<uint, object>.Invoke
 	|
-	|-RVA: 0x1B16C10 Offset: 0x1B15210 VA: 0x181B16C10
+	|-RVA: 0x1B16A50 Offset: 0x1B15050 VA: 0x181B16A50
 	|-EnumHelper.Transformer<int, float>.Invoke
 	|-EnumHelper.Transformer<uint, float>.Invoke
 	|
-	|-RVA: 0x1B17740 Offset: 0x1B15D40 VA: 0x181B17740
+	|-RVA: 0x1B17580 Offset: 0x1B15B80 VA: 0x181B17580
 	|-EnumHelper.Transformer<long, bool>.Invoke
 	|-EnumHelper.Transformer<long, byte>.Invoke
 	|-EnumHelper.Transformer<long, sbyte>.Invoke
@@ -1027,7 +1027,7 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<ulong, byte>.Invoke
 	|-EnumHelper.Transformer<ulong, sbyte>.Invoke
 	|
-	|-RVA: 0x1B16910 Offset: 0x1B14F10 VA: 0x181B16910
+	|-RVA: 0x1B16750 Offset: 0x1B14D50 VA: 0x181B16750
 	|-EnumHelper.Transformer<long, char>.Invoke
 	|-EnumHelper.Transformer<long, short>.Invoke
 	|-EnumHelper.Transformer<long, ushort>.Invoke
@@ -1035,7 +1035,7 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<ulong, short>.Invoke
 	|-EnumHelper.Transformer<ulong, ushort>.Invoke
 	|
-	|-RVA: 0x1B15A40 Offset: 0x1B14040 VA: 0x181B15A40
+	|-RVA: 0x1B15880 Offset: 0x1B13E80 VA: 0x181B15880
 	|-EnumHelper.Transformer<long, KeyValuePair<object, object>>.Invoke
 	|-EnumHelper.Transformer<long, DateTimeOffset>.Invoke
 	|-EnumHelper.Transformer<long, Decimal>.Invoke
@@ -1045,27 +1045,27 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<ulong, Decimal>.Invoke
 	|-EnumHelper.Transformer<ulong, Guid>.Invoke
 	|
-	|-RVA: 0x19FD190 Offset: 0x19FB790 VA: 0x1819FD190
+	|-RVA: 0x19FD150 Offset: 0x19FB750 VA: 0x1819FD150
 	|-EnumHelper.Transformer<long, DateTime>.Invoke
 	|-EnumHelper.Transformer<long, TimeSpan>.Invoke
 	|-EnumHelper.Transformer<ulong, DateTime>.Invoke
 	|-EnumHelper.Transformer<ulong, TimeSpan>.Invoke
 	|
-	|-RVA: 0x1B95970 Offset: 0x1B93F70 VA: 0x181B95970
+	|-RVA: 0x1B957B0 Offset: 0x1B93DB0 VA: 0x181B957B0
 	|-EnumHelper.Transformer<long, EmptyStruct>.Invoke
 	|-EnumHelper.Transformer<ulong, EmptyStruct>.Invoke
 	|
-	|-RVA: 0x20C7B30 Offset: 0x20C6130 VA: 0x1820C7B30
+	|-RVA: 0x20C7970 Offset: 0x20C5F70 VA: 0x1820C7970
 	|-EnumHelper.Transformer<long, double>.Invoke
 	|-EnumHelper.Transformer<ulong, double>.Invoke
 	|
-	|-RVA: 0x20C7840 Offset: 0x20C5E40 VA: 0x1820C7840
+	|-RVA: 0x20C7680 Offset: 0x20C5C80 VA: 0x1820C7680
 	|-EnumHelper.Transformer<long, int>.Invoke
 	|-EnumHelper.Transformer<long, uint>.Invoke
 	|-EnumHelper.Transformer<ulong, int>.Invoke
 	|-EnumHelper.Transformer<ulong, uint>.Invoke
 	|
-	|-RVA: 0x20C7E40 Offset: 0x20C6440 VA: 0x1820C7E40
+	|-RVA: 0x20C7C80 Offset: 0x20C6280 VA: 0x1820C7C80
 	|-EnumHelper.Transformer<long, long>.Invoke
 	|-EnumHelper.Transformer<long, IntPtr>.Invoke
 	|-EnumHelper.Transformer<long, ulong>.Invoke
@@ -1080,7 +1080,7 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<object, object>.Invoke
 	|-EnumHelper.Transformer<ulong, object>.Invoke
 	|
-	|-RVA: 0x20C8040 Offset: 0x20C6640 VA: 0x1820C8040
+	|-RVA: 0x20C7E80 Offset: 0x20C6480 VA: 0x1820C7E80
 	|-EnumHelper.Transformer<long, float>.Invoke
 	|-EnumHelper.Transformer<ulong, float>.Invoke
 	*/
@@ -1089,46 +1089,46 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	public virtual IAsyncResult BeginInvoke(ValueType value, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B14450 Offset: 0x1B12A50 VA: 0x181B14450
+	|-RVA: 0x1B14290 Offset: 0x1B12890 VA: 0x181B14290
 	|-EnumHelper.Transformer<byte, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B13650 Offset: 0x1B11C50 VA: 0x181B13650
+	|-RVA: 0x1B13490 Offset: 0x1B11A90 VA: 0x181B13490
 	|-EnumHelper.Transformer<byte, byte>.BeginInvoke
 	|
-	|-RVA: 0x1B14B50 Offset: 0x1B13150 VA: 0x181B14B50
+	|-RVA: 0x1B14990 Offset: 0x1B12F90 VA: 0x181B14990
 	|-EnumHelper.Transformer<byte, char>.BeginInvoke
 	|
-	|-RVA: 0x1B154D0 Offset: 0x1B13AD0 VA: 0x181B154D0
+	|-RVA: 0x1B15310 Offset: 0x1B13910 VA: 0x181B15310
 	|-EnumHelper.Transformer<byte, KeyValuePair<object, object>>.BeginInvoke
 	|
-	|-RVA: 0x1B15650 Offset: 0x1B13C50 VA: 0x181B15650
+	|-RVA: 0x1B15490 Offset: 0x1B13A90 VA: 0x181B15490
 	|-EnumHelper.Transformer<byte, DateTime>.BeginInvoke
 	|
-	|-RVA: 0x1B155D0 Offset: 0x1B13BD0 VA: 0x181B155D0
+	|-RVA: 0x1B15410 Offset: 0x1B13A10 VA: 0x181B15410
 	|-EnumHelper.Transformer<byte, DateTimeOffset>.BeginInvoke
 	|
-	|-RVA: 0x1B150D0 Offset: 0x1B136D0 VA: 0x181B150D0
+	|-RVA: 0x1B14F10 Offset: 0x1B13510 VA: 0x181B14F10
 	|-EnumHelper.Transformer<byte, Decimal>.BeginInvoke
 	|
-	|-RVA: 0x1B14650 Offset: 0x1B12C50 VA: 0x181B14650
+	|-RVA: 0x1B14490 Offset: 0x1B12A90 VA: 0x181B14490
 	|-EnumHelper.Transformer<byte, EmptyStruct>.BeginInvoke
 	|
-	|-RVA: 0x1B151D0 Offset: 0x1B137D0 VA: 0x181B151D0
+	|-RVA: 0x1B15010 Offset: 0x1B13610 VA: 0x181B15010
 	|-EnumHelper.Transformer<byte, double>.BeginInvoke
 	|
-	|-RVA: 0x1B13DD0 Offset: 0x1B123D0 VA: 0x181B13DD0
+	|-RVA: 0x1B13C10 Offset: 0x1B12210 VA: 0x181B13C10
 	|-EnumHelper.Transformer<byte, Guid>.BeginInvoke
 	|
-	|-RVA: 0x1B14DD0 Offset: 0x1B133D0 VA: 0x181B14DD0
+	|-RVA: 0x1B14C10 Offset: 0x1B13210 VA: 0x181B14C10
 	|-EnumHelper.Transformer<byte, short>.BeginInvoke
 	|
-	|-RVA: 0x1B13ED0 Offset: 0x1B124D0 VA: 0x181B13ED0
+	|-RVA: 0x1B13D10 Offset: 0x1B12310 VA: 0x181B13D10
 	|-EnumHelper.Transformer<byte, int>.BeginInvoke
 	|
-	|-RVA: 0x1B152D0 Offset: 0x1B138D0 VA: 0x181B152D0
+	|-RVA: 0x1B15110 Offset: 0x1B13710 VA: 0x181B15110
 	|-EnumHelper.Transformer<byte, long>.BeginInvoke
 	|
-	|-RVA: 0x1B141D0 Offset: 0x1B127D0 VA: 0x181B141D0
+	|-RVA: 0x1B14010 Offset: 0x1B12610 VA: 0x181B14010
 	|-EnumHelper.Transformer<byte, IntPtr>.BeginInvoke
 	|
 	|-RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380
@@ -1142,466 +1142,466 @@ private sealed class EnumHelper.Transformer<UnderlyingType, ValueType> : Multica
 	|-EnumHelper.Transformer<uint, object>.BeginInvoke
 	|-EnumHelper.Transformer<ulong, object>.BeginInvoke
 	|
-	|-RVA: 0x1B14ED0 Offset: 0x1B134D0 VA: 0x181B14ED0
+	|-RVA: 0x1B14D10 Offset: 0x1B13310 VA: 0x181B14D10
 	|-EnumHelper.Transformer<byte, sbyte>.BeginInvoke
 	|
-	|-RVA: 0x1B14950 Offset: 0x1B12F50 VA: 0x181B14950
+	|-RVA: 0x1B14790 Offset: 0x1B12D90 VA: 0x181B14790
 	|-EnumHelper.Transformer<byte, float>.BeginInvoke
 	|
-	|-RVA: 0x1B153D0 Offset: 0x1B139D0 VA: 0x181B153D0
+	|-RVA: 0x1B15210 Offset: 0x1B13810 VA: 0x181B15210
 	|-EnumHelper.Transformer<byte, TimeSpan>.BeginInvoke
 	|
-	|-RVA: 0x1B137D0 Offset: 0x1B11DD0 VA: 0x181B137D0
+	|-RVA: 0x1B13610 Offset: 0x1B11C10 VA: 0x181B13610
 	|-EnumHelper.Transformer<byte, ushort>.BeginInvoke
 	|
-	|-RVA: 0x1B14F50 Offset: 0x1B13550 VA: 0x181B14F50
+	|-RVA: 0x1B14D90 Offset: 0x1B13390 VA: 0x181B14D90
 	|-EnumHelper.Transformer<byte, uint>.BeginInvoke
 	|
-	|-RVA: 0x1B13FD0 Offset: 0x1B125D0 VA: 0x181B13FD0
+	|-RVA: 0x1B13E10 Offset: 0x1B12410 VA: 0x181B13E10
 	|-EnumHelper.Transformer<byte, ulong>.BeginInvoke
 	|
-	|-RVA: 0x1B134D0 Offset: 0x1B11AD0 VA: 0x181B134D0
+	|-RVA: 0x1B13310 Offset: 0x1B11910 VA: 0x181B13310
 	|-EnumHelper.Transformer<byte, UIntPtr>.BeginInvoke
 	|
-	|-RVA: 0x1B14BD0 Offset: 0x1B131D0 VA: 0x181B14BD0
+	|-RVA: 0x1B14A10 Offset: 0x1B13010 VA: 0x181B14A10
 	|-EnumHelper.Transformer<short, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B149D0 Offset: 0x1B12FD0 VA: 0x181B149D0
+	|-RVA: 0x1B14810 Offset: 0x1B12E10 VA: 0x181B14810
 	|-EnumHelper.Transformer<short, byte>.BeginInvoke
 	|
-	|-RVA: 0x1B13C50 Offset: 0x1B12250 VA: 0x181B13C50
+	|-RVA: 0x1B13A90 Offset: 0x1B12090 VA: 0x181B13A90
 	|-EnumHelper.Transformer<short, char>.BeginInvoke
 	|
-	|-RVA: 0x1B138D0 Offset: 0x1B11ED0 VA: 0x181B138D0
+	|-RVA: 0x1B13710 Offset: 0x1B11D10 VA: 0x181B13710
 	|-EnumHelper.Transformer<short, KeyValuePair<object, object>>.BeginInvoke
 	|
-	|-RVA: 0x1B13450 Offset: 0x1B11A50 VA: 0x181B13450
+	|-RVA: 0x1B13290 Offset: 0x1B11890 VA: 0x181B13290
 	|-EnumHelper.Transformer<short, DateTime>.BeginInvoke
 	|
-	|-RVA: 0x1B143D0 Offset: 0x1B129D0 VA: 0x181B143D0
+	|-RVA: 0x1B14210 Offset: 0x1B12810 VA: 0x181B14210
 	|-EnumHelper.Transformer<short, DateTimeOffset>.BeginInvoke
 	|
-	|-RVA: 0x1B136D0 Offset: 0x1B11CD0 VA: 0x181B136D0
+	|-RVA: 0x1B13510 Offset: 0x1B11B10 VA: 0x181B13510
 	|-EnumHelper.Transformer<short, Decimal>.BeginInvoke
 	|
-	|-RVA: 0x1B15050 Offset: 0x1B13650 VA: 0x181B15050
+	|-RVA: 0x1B14E90 Offset: 0x1B13490 VA: 0x181B14E90
 	|-EnumHelper.Transformer<short, EmptyStruct>.BeginInvoke
 	|
-	|-RVA: 0x1B14350 Offset: 0x1B12950 VA: 0x181B14350
+	|-RVA: 0x1B14190 Offset: 0x1B12790 VA: 0x181B14190
 	|-EnumHelper.Transformer<short, double>.BeginInvoke
 	|
-	|-RVA: 0x1B13BD0 Offset: 0x1B121D0 VA: 0x181B13BD0
+	|-RVA: 0x1B13A10 Offset: 0x1B12010 VA: 0x181B13A10
 	|-EnumHelper.Transformer<short, Guid>.BeginInvoke
 	|
-	|-RVA: 0x1B139D0 Offset: 0x1B11FD0 VA: 0x181B139D0
+	|-RVA: 0x1B13810 Offset: 0x1B11E10 VA: 0x181B13810
 	|-EnumHelper.Transformer<short, short>.BeginInvoke
 	|
-	|-RVA: 0x1B13850 Offset: 0x1B11E50 VA: 0x181B13850
+	|-RVA: 0x1B13690 Offset: 0x1B11C90 VA: 0x181B13690
 	|-EnumHelper.Transformer<short, int>.BeginInvoke
 	|
-	|-RVA: 0x1B13B50 Offset: 0x1B12150 VA: 0x181B13B50
+	|-RVA: 0x1B13990 Offset: 0x1B11F90 VA: 0x181B13990
 	|-EnumHelper.Transformer<short, long>.BeginInvoke
 	|
-	|-RVA: 0x1B13750 Offset: 0x1B11D50 VA: 0x181B13750
+	|-RVA: 0x1B13590 Offset: 0x1B11B90 VA: 0x181B13590
 	|-EnumHelper.Transformer<short, IntPtr>.BeginInvoke
 	|
-	|-RVA: 0x1B13950 Offset: 0x1B11F50 VA: 0x181B13950
+	|-RVA: 0x1B13790 Offset: 0x1B11D90 VA: 0x181B13790
 	|-EnumHelper.Transformer<short, sbyte>.BeginInvoke
 	|
-	|-RVA: 0x1B156D0 Offset: 0x1B13CD0 VA: 0x181B156D0
+	|-RVA: 0x1B15510 Offset: 0x1B13B10 VA: 0x181B15510
 	|-EnumHelper.Transformer<short, float>.BeginInvoke
 	|
-	|-RVA: 0x1B15450 Offset: 0x1B13A50 VA: 0x181B15450
+	|-RVA: 0x1B15290 Offset: 0x1B13890 VA: 0x181B15290
 	|-EnumHelper.Transformer<short, TimeSpan>.BeginInvoke
 	|
-	|-RVA: 0x1B13D50 Offset: 0x1B12350 VA: 0x181B13D50
+	|-RVA: 0x1B13B90 Offset: 0x1B12190 VA: 0x181B13B90
 	|-EnumHelper.Transformer<short, ushort>.BeginInvoke
 	|
-	|-RVA: 0x1B140D0 Offset: 0x1B126D0 VA: 0x181B140D0
+	|-RVA: 0x1B13F10 Offset: 0x1B12510 VA: 0x181B13F10
 	|-EnumHelper.Transformer<short, uint>.BeginInvoke
 	|
-	|-RVA: 0x1B14A50 Offset: 0x1B13050 VA: 0x181B14A50
+	|-RVA: 0x1B14890 Offset: 0x1B12E90 VA: 0x181B14890
 	|-EnumHelper.Transformer<short, ulong>.BeginInvoke
 	|
-	|-RVA: 0x1B142D0 Offset: 0x1B128D0 VA: 0x181B142D0
+	|-RVA: 0x1B14110 Offset: 0x1B12710 VA: 0x181B14110
 	|-EnumHelper.Transformer<short, UIntPtr>.BeginInvoke
 	|
-	|-RVA: 0x1B15350 Offset: 0x1B13950 VA: 0x181B15350
+	|-RVA: 0x1B15190 Offset: 0x1B13790 VA: 0x181B15190
 	|-EnumHelper.Transformer<int, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B13CD0 Offset: 0x1B122D0 VA: 0x181B13CD0
+	|-RVA: 0x1B13B10 Offset: 0x1B12110 VA: 0x181B13B10
 	|-EnumHelper.Transformer<int, byte>.BeginInvoke
 	|
-	|-RVA: 0x1B13F50 Offset: 0x1B12550 VA: 0x181B13F50
+	|-RVA: 0x1B13D90 Offset: 0x1B12390 VA: 0x181B13D90
 	|-EnumHelper.Transformer<int, char>.BeginInvoke
 	|
-	|-RVA: 0x1B144D0 Offset: 0x1B12AD0 VA: 0x181B144D0
+	|-RVA: 0x1B14310 Offset: 0x1B12910 VA: 0x181B14310
 	|-EnumHelper.Transformer<int, KeyValuePair<object, object>>.BeginInvoke
 	|
-	|-RVA: 0x1B14550 Offset: 0x1B12B50 VA: 0x181B14550
+	|-RVA: 0x1B14390 Offset: 0x1B12990 VA: 0x181B14390
 	|-EnumHelper.Transformer<int, DateTime>.BeginInvoke
 	|
-	|-RVA: 0x1B14850 Offset: 0x1B12E50 VA: 0x181B14850
+	|-RVA: 0x1B14690 Offset: 0x1B12C90 VA: 0x181B14690
 	|-EnumHelper.Transformer<int, DateTimeOffset>.BeginInvoke
 	|
-	|-RVA: 0x1B146D0 Offset: 0x1B12CD0 VA: 0x181B146D0
+	|-RVA: 0x1B14510 Offset: 0x1B12B10 VA: 0x181B14510
 	|-EnumHelper.Transformer<int, Decimal>.BeginInvoke
 	|
-	|-RVA: 0x1B14FD0 Offset: 0x1B135D0 VA: 0x181B14FD0
+	|-RVA: 0x1B14E10 Offset: 0x1B13410 VA: 0x181B14E10
 	|-EnumHelper.Transformer<int, EmptyStruct>.BeginInvoke
 	|
-	|-RVA: 0x1B14250 Offset: 0x1B12850 VA: 0x181B14250
+	|-RVA: 0x1B14090 Offset: 0x1B12690 VA: 0x181B14090
 	|-EnumHelper.Transformer<int, double>.BeginInvoke
 	|
-	|-RVA: 0x1B15550 Offset: 0x1B13B50 VA: 0x181B15550
+	|-RVA: 0x1B15390 Offset: 0x1B13990 VA: 0x181B15390
 	|-EnumHelper.Transformer<int, Guid>.BeginInvoke
 	|
-	|-RVA: 0x1B148D0 Offset: 0x1B12ED0 VA: 0x181B148D0
+	|-RVA: 0x1B14710 Offset: 0x1B12D10 VA: 0x181B14710
 	|-EnumHelper.Transformer<int, short>.BeginInvoke
 	|
-	|-RVA: 0x1B15250 Offset: 0x1B13850 VA: 0x181B15250
+	|-RVA: 0x1B15090 Offset: 0x1B13690 VA: 0x181B15090
 	|-EnumHelper.Transformer<int, int>.BeginInvoke
 	|
-	|-RVA: 0x1B14CD0 Offset: 0x1B132D0 VA: 0x181B14CD0
+	|-RVA: 0x1B14B10 Offset: 0x1B13110 VA: 0x181B14B10
 	|-EnumHelper.Transformer<int, long>.BeginInvoke
 	|
-	|-RVA: 0x1B14E50 Offset: 0x1B13450 VA: 0x181B14E50
+	|-RVA: 0x1B14C90 Offset: 0x1B13290 VA: 0x181B14C90
 	|-EnumHelper.Transformer<int, IntPtr>.BeginInvoke
 	|
-	|-RVA: 0x1B13A50 Offset: 0x1B12050 VA: 0x181B13A50
+	|-RVA: 0x1B13890 Offset: 0x1B11E90 VA: 0x181B13890
 	|-EnumHelper.Transformer<int, sbyte>.BeginInvoke
 	|
-	|-RVA: 0x1B13550 Offset: 0x1B11B50 VA: 0x181B13550
+	|-RVA: 0x1B13390 Offset: 0x1B11990 VA: 0x181B13390
 	|-EnumHelper.Transformer<int, float>.BeginInvoke
 	|
-	|-RVA: 0x1B14AD0 Offset: 0x1B130D0 VA: 0x181B14AD0
+	|-RVA: 0x1B14910 Offset: 0x1B12F10 VA: 0x181B14910
 	|-EnumHelper.Transformer<int, TimeSpan>.BeginInvoke
 	|
-	|-RVA: 0x1B13E50 Offset: 0x1B12450 VA: 0x181B13E50
+	|-RVA: 0x1B13C90 Offset: 0x1B12290 VA: 0x181B13C90
 	|-EnumHelper.Transformer<int, ushort>.BeginInvoke
 	|
-	|-RVA: 0x1B147D0 Offset: 0x1B12DD0 VA: 0x181B147D0
+	|-RVA: 0x1B14610 Offset: 0x1B12C10 VA: 0x181B14610
 	|-EnumHelper.Transformer<int, uint>.BeginInvoke
 	|
-	|-RVA: 0x1B135D0 Offset: 0x1B11BD0 VA: 0x181B135D0
+	|-RVA: 0x1B13410 Offset: 0x1B11A10 VA: 0x181B13410
 	|-EnumHelper.Transformer<int, ulong>.BeginInvoke
 	|
-	|-RVA: 0x1B145D0 Offset: 0x1B12BD0 VA: 0x181B145D0
+	|-RVA: 0x1B14410 Offset: 0x1B12A10 VA: 0x181B14410
 	|-EnumHelper.Transformer<int, UIntPtr>.BeginInvoke
 	|
-	|-RVA: 0x1B14050 Offset: 0x1B12650 VA: 0x181B14050
+	|-RVA: 0x1B13E90 Offset: 0x1B12490 VA: 0x181B13E90
 	|-EnumHelper.Transformer<long, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B14C50 Offset: 0x1B13250 VA: 0x181B14C50
+	|-RVA: 0x1B14A90 Offset: 0x1B13090 VA: 0x181B14A90
 	|-EnumHelper.Transformer<long, byte>.BeginInvoke
 	|
-	|-RVA: 0x1B13AD0 Offset: 0x1B120D0 VA: 0x181B13AD0
+	|-RVA: 0x1B13910 Offset: 0x1B11F10 VA: 0x181B13910
 	|-EnumHelper.Transformer<long, char>.BeginInvoke
 	|
-	|-RVA: 0x1B14750 Offset: 0x1B12D50 VA: 0x181B14750
+	|-RVA: 0x1B14590 Offset: 0x1B12B90 VA: 0x181B14590
 	|-EnumHelper.Transformer<long, KeyValuePair<object, object>>.BeginInvoke
 	|
-	|-RVA: 0x1B15150 Offset: 0x1B13750 VA: 0x181B15150
+	|-RVA: 0x1B14F90 Offset: 0x1B13590 VA: 0x181B14F90
 	|-EnumHelper.Transformer<long, DateTime>.BeginInvoke
 	|
-	|-RVA: 0x1B14D50 Offset: 0x1B13350 VA: 0x181B14D50
+	|-RVA: 0x1B14B90 Offset: 0x1B13190 VA: 0x181B14B90
 	|-EnumHelper.Transformer<long, DateTimeOffset>.BeginInvoke
 	|
-	|-RVA: 0x1B14150 Offset: 0x1B12750 VA: 0x181B14150
+	|-RVA: 0x1B13F90 Offset: 0x1B12590 VA: 0x181B13F90
 	|-EnumHelper.Transformer<long, Decimal>.BeginInvoke
 	|
-	|-RVA: 0x213BE40 Offset: 0x213A440 VA: 0x18213BE40
+	|-RVA: 0x213BC80 Offset: 0x213A280 VA: 0x18213BC80
 	|-EnumHelper.Transformer<long, EmptyStruct>.BeginInvoke
 	|
-	|-RVA: 0x213BF40 Offset: 0x213A540 VA: 0x18213BF40
+	|-RVA: 0x213BD80 Offset: 0x213A380 VA: 0x18213BD80
 	|-EnumHelper.Transformer<long, double>.BeginInvoke
 	|
-	|-RVA: 0x213A0C0 Offset: 0x21386C0 VA: 0x18213A0C0
+	|-RVA: 0x2139F00 Offset: 0x2138500 VA: 0x182139F00
 	|-EnumHelper.Transformer<long, Guid>.BeginInvoke
 	|
-	|-RVA: 0x213B7C0 Offset: 0x2139DC0 VA: 0x18213B7C0
+	|-RVA: 0x213B600 Offset: 0x2139C00 VA: 0x18213B600
 	|-EnumHelper.Transformer<long, short>.BeginInvoke
 	|
-	|-RVA: 0x213ADC0 Offset: 0x21393C0 VA: 0x18213ADC0
+	|-RVA: 0x213AC00 Offset: 0x2139200 VA: 0x18213AC00
 	|-EnumHelper.Transformer<long, int>.BeginInvoke
 	|
-	|-RVA: 0x213B440 Offset: 0x2139A40 VA: 0x18213B440
+	|-RVA: 0x213B280 Offset: 0x2139880 VA: 0x18213B280
 	|-EnumHelper.Transformer<long, long>.BeginInvoke
 	|
-	|-RVA: 0x213B040 Offset: 0x2139640 VA: 0x18213B040
+	|-RVA: 0x213AE80 Offset: 0x2139480 VA: 0x18213AE80
 	|-EnumHelper.Transformer<long, IntPtr>.BeginInvoke
 	|
-	|-RVA: 0x213BB40 Offset: 0x213A140 VA: 0x18213BB40
+	|-RVA: 0x213B980 Offset: 0x2139F80 VA: 0x18213B980
 	|-EnumHelper.Transformer<long, sbyte>.BeginInvoke
 	|
-	|-RVA: 0x213ACC0 Offset: 0x21392C0 VA: 0x18213ACC0
+	|-RVA: 0x213AB00 Offset: 0x2139100 VA: 0x18213AB00
 	|-EnumHelper.Transformer<long, float>.BeginInvoke
 	|
-	|-RVA: 0x213CEC0 Offset: 0x213B4C0 VA: 0x18213CEC0
+	|-RVA: 0x213CD00 Offset: 0x213B300 VA: 0x18213CD00
 	|-EnumHelper.Transformer<long, TimeSpan>.BeginInvoke
 	|
-	|-RVA: 0x213A740 Offset: 0x2138D40 VA: 0x18213A740
+	|-RVA: 0x213A580 Offset: 0x2138B80 VA: 0x18213A580
 	|-EnumHelper.Transformer<long, ushort>.BeginInvoke
 	|
-	|-RVA: 0x213BFC0 Offset: 0x213A5C0 VA: 0x18213BFC0
+	|-RVA: 0x213BE00 Offset: 0x213A400 VA: 0x18213BE00
 	|-EnumHelper.Transformer<long, uint>.BeginInvoke
 	|
-	|-RVA: 0x213AFC0 Offset: 0x21395C0 VA: 0x18213AFC0
+	|-RVA: 0x213AE00 Offset: 0x2139400 VA: 0x18213AE00
 	|-EnumHelper.Transformer<long, ulong>.BeginInvoke
 	|
-	|-RVA: 0x213C1C0 Offset: 0x213A7C0 VA: 0x18213C1C0
+	|-RVA: 0x213C000 Offset: 0x213A600 VA: 0x18213C000
 	|-EnumHelper.Transformer<long, UIntPtr>.BeginInvoke
 	|
-	|-RVA: 0x213A540 Offset: 0x2138B40 VA: 0x18213A540
+	|-RVA: 0x213A380 Offset: 0x2138980 VA: 0x18213A380
 	|-EnumHelper.Transformer<sbyte, bool>.BeginInvoke
 	|
-	|-RVA: 0x213AD40 Offset: 0x2139340 VA: 0x18213AD40
+	|-RVA: 0x213AB80 Offset: 0x2139180 VA: 0x18213AB80
 	|-EnumHelper.Transformer<sbyte, byte>.BeginInvoke
 	|
-	|-RVA: 0x213A8C0 Offset: 0x2138EC0 VA: 0x18213A8C0
+	|-RVA: 0x213A700 Offset: 0x2138D00 VA: 0x18213A700
 	|-EnumHelper.Transformer<sbyte, char>.BeginInvoke
 	|
-	|-RVA: 0x213C540 Offset: 0x213AB40 VA: 0x18213C540
+	|-RVA: 0x213C380 Offset: 0x213A980 VA: 0x18213C380
 	|-EnumHelper.Transformer<sbyte, KeyValuePair<object, object>>.BeginInvoke
 	|
-	|-RVA: 0x213BBC0 Offset: 0x213A1C0 VA: 0x18213BBC0
+	|-RVA: 0x213BA00 Offset: 0x213A000 VA: 0x18213BA00
 	|-EnumHelper.Transformer<sbyte, DateTime>.BeginInvoke
 	|
-	|-RVA: 0x213A440 Offset: 0x2138A40 VA: 0x18213A440
+	|-RVA: 0x213A280 Offset: 0x2138880 VA: 0x18213A280
 	|-EnumHelper.Transformer<sbyte, DateTimeOffset>.BeginInvoke
 	|
-	|-RVA: 0x213AEC0 Offset: 0x21394C0 VA: 0x18213AEC0
+	|-RVA: 0x213AD00 Offset: 0x2139300 VA: 0x18213AD00
 	|-EnumHelper.Transformer<sbyte, Decimal>.BeginInvoke
 	|
-	|-RVA: 0x2139FC0 Offset: 0x21385C0 VA: 0x182139FC0
+	|-RVA: 0x2139E00 Offset: 0x2138400 VA: 0x182139E00
 	|-EnumHelper.Transformer<sbyte, EmptyStruct>.BeginInvoke
 	|
-	|-RVA: 0x213C5C0 Offset: 0x213ABC0 VA: 0x18213C5C0
+	|-RVA: 0x213C400 Offset: 0x213AA00 VA: 0x18213C400
 	|-EnumHelper.Transformer<sbyte, double>.BeginInvoke
 	|
-	|-RVA: 0x213C640 Offset: 0x213AC40 VA: 0x18213C640
+	|-RVA: 0x213C480 Offset: 0x213AA80 VA: 0x18213C480
 	|-EnumHelper.Transformer<sbyte, Guid>.BeginInvoke
 	|
-	|-RVA: 0x213AC40 Offset: 0x2139240 VA: 0x18213AC40
+	|-RVA: 0x213AA80 Offset: 0x2139080 VA: 0x18213AA80
 	|-EnumHelper.Transformer<sbyte, short>.BeginInvoke
 	|
-	|-RVA: 0x213BD40 Offset: 0x213A340 VA: 0x18213BD40
+	|-RVA: 0x213BB80 Offset: 0x213A180 VA: 0x18213BB80
 	|-EnumHelper.Transformer<sbyte, int>.BeginInvoke
 	|
-	|-RVA: 0x213C3C0 Offset: 0x213A9C0 VA: 0x18213C3C0
+	|-RVA: 0x213C200 Offset: 0x213A800 VA: 0x18213C200
 	|-EnumHelper.Transformer<sbyte, long>.BeginInvoke
 	|
-	|-RVA: 0x213B540 Offset: 0x2139B40 VA: 0x18213B540
+	|-RVA: 0x213B380 Offset: 0x2139980 VA: 0x18213B380
 	|-EnumHelper.Transformer<sbyte, IntPtr>.BeginInvoke
 	|
-	|-RVA: 0x213C2C0 Offset: 0x213A8C0 VA: 0x18213C2C0
+	|-RVA: 0x213C100 Offset: 0x213A700 VA: 0x18213C100
 	|-EnumHelper.Transformer<sbyte, sbyte>.BeginInvoke
 	|
-	|-RVA: 0x213BC40 Offset: 0x213A240 VA: 0x18213BC40
+	|-RVA: 0x213BA80 Offset: 0x213A080 VA: 0x18213BA80
 	|-EnumHelper.Transformer<sbyte, float>.BeginInvoke
 	|
-	|-RVA: 0x213B640 Offset: 0x2139C40 VA: 0x18213B640
+	|-RVA: 0x213B480 Offset: 0x2139A80 VA: 0x18213B480
 	|-EnumHelper.Transformer<sbyte, TimeSpan>.BeginInvoke
 	|
-	|-RVA: 0x213CDC0 Offset: 0x213B3C0 VA: 0x18213CDC0
+	|-RVA: 0x213CC00 Offset: 0x213B200 VA: 0x18213CC00
 	|-EnumHelper.Transformer<sbyte, ushort>.BeginInvoke
 	|
-	|-RVA: 0x213A2C0 Offset: 0x21388C0 VA: 0x18213A2C0
+	|-RVA: 0x213A100 Offset: 0x2138700 VA: 0x18213A100
 	|-EnumHelper.Transformer<sbyte, uint>.BeginInvoke
 	|
-	|-RVA: 0x213A040 Offset: 0x2138640 VA: 0x18213A040
+	|-RVA: 0x2139E80 Offset: 0x2138480 VA: 0x182139E80
 	|-EnumHelper.Transformer<sbyte, ulong>.BeginInvoke
 	|
-	|-RVA: 0x2139E40 Offset: 0x2138440 VA: 0x182139E40
+	|-RVA: 0x2139C80 Offset: 0x2138280 VA: 0x182139C80
 	|-EnumHelper.Transformer<sbyte, UIntPtr>.BeginInvoke
 	|
-	|-RVA: 0x213BAC0 Offset: 0x213A0C0 VA: 0x18213BAC0
+	|-RVA: 0x213B900 Offset: 0x2139F00 VA: 0x18213B900
 	|-EnumHelper.Transformer<ushort, bool>.BeginInvoke
 	|
-	|-RVA: 0x213B1C0 Offset: 0x21397C0 VA: 0x18213B1C0
+	|-RVA: 0x213B000 Offset: 0x2139600 VA: 0x18213B000
 	|-EnumHelper.Transformer<ushort, byte>.BeginInvoke
 	|
-	|-RVA: 0x213B940 Offset: 0x2139F40 VA: 0x18213B940
+	|-RVA: 0x213B780 Offset: 0x2139D80 VA: 0x18213B780
 	|-EnumHelper.Transformer<ushort, char>.BeginInvoke
 	|
-	|-RVA: 0x213B240 Offset: 0x2139840 VA: 0x18213B240
+	|-RVA: 0x213B080 Offset: 0x2139680 VA: 0x18213B080
 	|-EnumHelper.Transformer<ushort, KeyValuePair<object, object>>.BeginInvoke
 	|
-	|-RVA: 0x213A6C0 Offset: 0x2138CC0 VA: 0x18213A6C0
+	|-RVA: 0x213A500 Offset: 0x2138B00 VA: 0x18213A500
 	|-EnumHelper.Transformer<ushort, DateTime>.BeginInvoke
 	|
-	|-RVA: 0x213A3C0 Offset: 0x21389C0 VA: 0x18213A3C0
+	|-RVA: 0x213A200 Offset: 0x2138800 VA: 0x18213A200
 	|-EnumHelper.Transformer<ushort, DateTimeOffset>.BeginInvoke
 	|
-	|-RVA: 0x213B340 Offset: 0x2139940 VA: 0x18213B340
+	|-RVA: 0x213B180 Offset: 0x2139780 VA: 0x18213B180
 	|-EnumHelper.Transformer<ushort, Decimal>.BeginInvoke
 	|
-	|-RVA: 0x213A1C0 Offset: 0x21387C0 VA: 0x18213A1C0
+	|-RVA: 0x213A000 Offset: 0x2138600 VA: 0x18213A000
 	|-EnumHelper.Transformer<ushort, EmptyStruct>.BeginInvoke
 	|
-	|-RVA: 0x213B6C0 Offset: 0x2139CC0 VA: 0x18213B6C0
+	|-RVA: 0x213B500 Offset: 0x2139B00 VA: 0x18213B500
 	|-EnumHelper.Transformer<ushort, double>.BeginInvoke
 	|
-	|-RVA: 0x2139EC0 Offset: 0x21384C0 VA: 0x182139EC0
+	|-RVA: 0x2139D00 Offset: 0x2138300 VA: 0x182139D00
 	|-EnumHelper.Transformer<ushort, Guid>.BeginInvoke
 	|
-	|-RVA: 0x213BCC0 Offset: 0x213A2C0 VA: 0x18213BCC0
+	|-RVA: 0x213BB00 Offset: 0x213A100 VA: 0x18213BB00
 	|-EnumHelper.Transformer<ushort, short>.BeginInvoke
 	|
-	|-RVA: 0x213CBC0 Offset: 0x213B1C0 VA: 0x18213CBC0
+	|-RVA: 0x213CA00 Offset: 0x213B000 VA: 0x18213CA00
 	|-EnumHelper.Transformer<ushort, int>.BeginInvoke
 	|
-	|-RVA: 0x213A9C0 Offset: 0x2138FC0 VA: 0x18213A9C0
+	|-RVA: 0x213A800 Offset: 0x2138E00 VA: 0x18213A800
 	|-EnumHelper.Transformer<ushort, long>.BeginInvoke
 	|
-	|-RVA: 0x2139F40 Offset: 0x2138540 VA: 0x182139F40
+	|-RVA: 0x2139D80 Offset: 0x2138380 VA: 0x182139D80
 	|-EnumHelper.Transformer<ushort, IntPtr>.BeginInvoke
 	|
-	|-RVA: 0x213C140 Offset: 0x213A740 VA: 0x18213C140
+	|-RVA: 0x213BF80 Offset: 0x213A580 VA: 0x18213BF80
 	|-EnumHelper.Transformer<ushort, sbyte>.BeginInvoke
 	|
-	|-RVA: 0x213A940 Offset: 0x2138F40 VA: 0x18213A940
+	|-RVA: 0x213A780 Offset: 0x2138D80 VA: 0x18213A780
 	|-EnumHelper.Transformer<ushort, float>.BeginInvoke
 	|
-	|-RVA: 0x213B3C0 Offset: 0x21399C0 VA: 0x18213B3C0
+	|-RVA: 0x213B200 Offset: 0x2139800 VA: 0x18213B200
 	|-EnumHelper.Transformer<ushort, TimeSpan>.BeginInvoke
 	|
-	|-RVA: 0x213C740 Offset: 0x213AD40 VA: 0x18213C740
+	|-RVA: 0x213C580 Offset: 0x213AB80 VA: 0x18213C580
 	|-EnumHelper.Transformer<ushort, ushort>.BeginInvoke
 	|
-	|-RVA: 0x213B4C0 Offset: 0x2139AC0 VA: 0x18213B4C0
+	|-RVA: 0x213B300 Offset: 0x2139900 VA: 0x18213B300
 	|-EnumHelper.Transformer<ushort, uint>.BeginInvoke
 	|
-	|-RVA: 0x213A840 Offset: 0x2138E40 VA: 0x18213A840
+	|-RVA: 0x213A680 Offset: 0x2138C80 VA: 0x18213A680
 	|-EnumHelper.Transformer<ushort, ulong>.BeginInvoke
 	|
-	|-RVA: 0x213B140 Offset: 0x2139740 VA: 0x18213B140
+	|-RVA: 0x213AF80 Offset: 0x2139580 VA: 0x18213AF80
 	|-EnumHelper.Transformer<ushort, UIntPtr>.BeginInvoke
 	|
-	|-RVA: 0x213BA40 Offset: 0x213A040 VA: 0x18213BA40
+	|-RVA: 0x213B880 Offset: 0x2139E80 VA: 0x18213B880
 	|-EnumHelper.Transformer<uint, bool>.BeginInvoke
 	|
-	|-RVA: 0x213B5C0 Offset: 0x2139BC0 VA: 0x18213B5C0
+	|-RVA: 0x213B400 Offset: 0x2139A00 VA: 0x18213B400
 	|-EnumHelper.Transformer<uint, byte>.BeginInvoke
 	|
-	|-RVA: 0x213C9C0 Offset: 0x213AFC0 VA: 0x18213C9C0
+	|-RVA: 0x213C800 Offset: 0x213AE00 VA: 0x18213C800
 	|-EnumHelper.Transformer<uint, char>.BeginInvoke
 	|
-	|-RVA: 0x213B8C0 Offset: 0x2139EC0 VA: 0x18213B8C0
+	|-RVA: 0x213B700 Offset: 0x2139D00 VA: 0x18213B700
 	|-EnumHelper.Transformer<uint, KeyValuePair<object, object>>.BeginInvoke
 	|
-	|-RVA: 0x213A5C0 Offset: 0x2138BC0 VA: 0x18213A5C0
+	|-RVA: 0x213A400 Offset: 0x2138A00 VA: 0x18213A400
 	|-EnumHelper.Transformer<uint, DateTime>.BeginInvoke
 	|
-	|-RVA: 0x213A7C0 Offset: 0x2138DC0 VA: 0x18213A7C0
+	|-RVA: 0x213A600 Offset: 0x2138C00 VA: 0x18213A600
 	|-EnumHelper.Transformer<uint, DateTimeOffset>.BeginInvoke
 	|
-	|-RVA: 0x213AAC0 Offset: 0x21390C0 VA: 0x18213AAC0
+	|-RVA: 0x213A900 Offset: 0x2138F00 VA: 0x18213A900
 	|-EnumHelper.Transformer<uint, Decimal>.BeginInvoke
 	|
-	|-RVA: 0x213C040 Offset: 0x213A640 VA: 0x18213C040
+	|-RVA: 0x213BE80 Offset: 0x213A480 VA: 0x18213BE80
 	|-EnumHelper.Transformer<uint, EmptyStruct>.BeginInvoke
 	|
-	|-RVA: 0x213A240 Offset: 0x2138840 VA: 0x18213A240
+	|-RVA: 0x213A080 Offset: 0x2138680 VA: 0x18213A080
 	|-EnumHelper.Transformer<uint, double>.BeginInvoke
 	|
-	|-RVA: 0x213C440 Offset: 0x213AA40 VA: 0x18213C440
+	|-RVA: 0x213C280 Offset: 0x213A880 VA: 0x18213C280
 	|-EnumHelper.Transformer<uint, Guid>.BeginInvoke
 	|
-	|-RVA: 0x213B0C0 Offset: 0x21396C0 VA: 0x18213B0C0
+	|-RVA: 0x213AF00 Offset: 0x2139500 VA: 0x18213AF00
 	|-EnumHelper.Transformer<uint, short>.BeginInvoke
 	|
-	|-RVA: 0x213ABC0 Offset: 0x21391C0 VA: 0x18213ABC0
+	|-RVA: 0x213AA00 Offset: 0x2139000 VA: 0x18213AA00
 	|-EnumHelper.Transformer<uint, int>.BeginInvoke
 	|
-	|-RVA: 0x213CA40 Offset: 0x213B040 VA: 0x18213CA40
+	|-RVA: 0x213C880 Offset: 0x213AE80 VA: 0x18213C880
 	|-EnumHelper.Transformer<uint, long>.BeginInvoke
 	|
-	|-RVA: 0x213C7C0 Offset: 0x213ADC0 VA: 0x18213C7C0
+	|-RVA: 0x213C600 Offset: 0x213AC00 VA: 0x18213C600
 	|-EnumHelper.Transformer<uint, IntPtr>.BeginInvoke
 	|
-	|-RVA: 0x213CD40 Offset: 0x213B340 VA: 0x18213CD40
+	|-RVA: 0x213CB80 Offset: 0x213B180 VA: 0x18213CB80
 	|-EnumHelper.Transformer<uint, sbyte>.BeginInvoke
 	|
-	|-RVA: 0x213B840 Offset: 0x2139E40 VA: 0x18213B840
+	|-RVA: 0x213B680 Offset: 0x2139C80 VA: 0x18213B680
 	|-EnumHelper.Transformer<uint, float>.BeginInvoke
 	|
-	|-RVA: 0x213CE40 Offset: 0x213B440 VA: 0x18213CE40
+	|-RVA: 0x213CC80 Offset: 0x213B280 VA: 0x18213CC80
 	|-EnumHelper.Transformer<uint, TimeSpan>.BeginInvoke
 	|
-	|-RVA: 0x213B2C0 Offset: 0x21398C0 VA: 0x18213B2C0
+	|-RVA: 0x213B100 Offset: 0x2139700 VA: 0x18213B100
 	|-EnumHelper.Transformer<uint, ushort>.BeginInvoke
 	|
-	|-RVA: 0x213CB40 Offset: 0x213B140 VA: 0x18213CB40
+	|-RVA: 0x213C980 Offset: 0x213AF80 VA: 0x18213C980
 	|-EnumHelper.Transformer<uint, uint>.BeginInvoke
 	|
-	|-RVA: 0x213C340 Offset: 0x213A940 VA: 0x18213C340
+	|-RVA: 0x213C180 Offset: 0x213A780 VA: 0x18213C180
 	|-EnumHelper.Transformer<uint, ulong>.BeginInvoke
 	|
-	|-RVA: 0x213CAC0 Offset: 0x213B0C0 VA: 0x18213CAC0
+	|-RVA: 0x213C900 Offset: 0x213AF00 VA: 0x18213C900
 	|-EnumHelper.Transformer<uint, UIntPtr>.BeginInvoke
 	|
-	|-RVA: 0x213C840 Offset: 0x213AE40 VA: 0x18213C840
+	|-RVA: 0x213C680 Offset: 0x213AC80 VA: 0x18213C680
 	|-EnumHelper.Transformer<ulong, bool>.BeginInvoke
 	|
-	|-RVA: 0x213C940 Offset: 0x213AF40 VA: 0x18213C940
+	|-RVA: 0x213C780 Offset: 0x213AD80 VA: 0x18213C780
 	|-EnumHelper.Transformer<ulong, byte>.BeginInvoke
 	|
-	|-RVA: 0x213CCC0 Offset: 0x213B2C0 VA: 0x18213CCC0
+	|-RVA: 0x213CB00 Offset: 0x213B100 VA: 0x18213CB00
 	|-EnumHelper.Transformer<ulong, char>.BeginInvoke
 	|
-	|-RVA: 0x213BEC0 Offset: 0x213A4C0 VA: 0x18213BEC0
+	|-RVA: 0x213BD00 Offset: 0x213A300 VA: 0x18213BD00
 	|-EnumHelper.Transformer<ulong, KeyValuePair<object, object>>.BeginInvoke
 	|
-	|-RVA: 0x213B740 Offset: 0x2139D40 VA: 0x18213B740
+	|-RVA: 0x213B580 Offset: 0x2139B80 VA: 0x18213B580
 	|-EnumHelper.Transformer<ulong, DateTime>.BeginInvoke
 	|
-	|-RVA: 0x213A340 Offset: 0x2138940 VA: 0x18213A340
+	|-RVA: 0x213A180 Offset: 0x2138780 VA: 0x18213A180
 	|-EnumHelper.Transformer<ulong, DateTimeOffset>.BeginInvoke
 	|
-	|-RVA: 0x213AB40 Offset: 0x2139140 VA: 0x18213AB40
+	|-RVA: 0x213A980 Offset: 0x2138F80 VA: 0x18213A980
 	|-EnumHelper.Transformer<ulong, Decimal>.BeginInvoke
 	|
-	|-RVA: 0x213B9C0 Offset: 0x2139FC0 VA: 0x18213B9C0
+	|-RVA: 0x213B800 Offset: 0x2139E00 VA: 0x18213B800
 	|-EnumHelper.Transformer<ulong, EmptyStruct>.BeginInvoke
 	|
-	|-RVA: 0x213AF40 Offset: 0x2139540 VA: 0x18213AF40
+	|-RVA: 0x213AD80 Offset: 0x2139380 VA: 0x18213AD80
 	|-EnumHelper.Transformer<ulong, double>.BeginInvoke
 	|
-	|-RVA: 0x213A640 Offset: 0x2138C40 VA: 0x18213A640
+	|-RVA: 0x213A480 Offset: 0x2138A80 VA: 0x18213A480
 	|-EnumHelper.Transformer<ulong, Guid>.BeginInvoke
 	|
-	|-RVA: 0x213C6C0 Offset: 0x213ACC0 VA: 0x18213C6C0
+	|-RVA: 0x213C500 Offset: 0x213AB00 VA: 0x18213C500
 	|-EnumHelper.Transformer<ulong, short>.BeginInvoke
 	|
-	|-RVA: 0x213AA40 Offset: 0x2139040 VA: 0x18213AA40
+	|-RVA: 0x213A880 Offset: 0x2138E80 VA: 0x18213A880
 	|-EnumHelper.Transformer<ulong, int>.BeginInvoke
 	|
-	|-RVA: 0x213AE40 Offset: 0x2139440 VA: 0x18213AE40
+	|-RVA: 0x213AC80 Offset: 0x2139280 VA: 0x18213AC80
 	|-EnumHelper.Transformer<ulong, long>.BeginInvoke
 	|
-	|-RVA: 0x213C240 Offset: 0x213A840 VA: 0x18213C240
+	|-RVA: 0x213C080 Offset: 0x213A680 VA: 0x18213C080
 	|-EnumHelper.Transformer<ulong, IntPtr>.BeginInvoke
 	|
-	|-RVA: 0x213A140 Offset: 0x2138740 VA: 0x18213A140
+	|-RVA: 0x2139F80 Offset: 0x2138580 VA: 0x182139F80
 	|-EnumHelper.Transformer<ulong, sbyte>.BeginInvoke
 	|
-	|-RVA: 0x213C0C0 Offset: 0x213A6C0 VA: 0x18213C0C0
+	|-RVA: 0x213BF00 Offset: 0x213A500 VA: 0x18213BF00
 	|-EnumHelper.Transformer<ulong, float>.BeginInvoke
 	|
-	|-RVA: 0x213C8C0 Offset: 0x213AEC0 VA: 0x18213C8C0
+	|-RVA: 0x213C700 Offset: 0x213AD00 VA: 0x18213C700
 	|-EnumHelper.Transformer<ulong, TimeSpan>.BeginInvoke
 	|
-	|-RVA: 0x213CC40 Offset: 0x213B240 VA: 0x18213CC40
+	|-RVA: 0x213CA80 Offset: 0x213B080 VA: 0x18213CA80
 	|-EnumHelper.Transformer<ulong, ushort>.BeginInvoke
 	|
-	|-RVA: 0x213A4C0 Offset: 0x2138AC0 VA: 0x18213A4C0
+	|-RVA: 0x213A300 Offset: 0x2138900 VA: 0x18213A300
 	|-EnumHelper.Transformer<ulong, uint>.BeginInvoke
 	|
-	|-RVA: 0x213BDC0 Offset: 0x213A3C0 VA: 0x18213BDC0
+	|-RVA: 0x213BC00 Offset: 0x213A200 VA: 0x18213BC00
 	|-EnumHelper.Transformer<ulong, ulong>.BeginInvoke
 	|
-	|-RVA: 0x213C4C0 Offset: 0x213AAC0 VA: 0x18213C4C0
+	|-RVA: 0x213C300 Offset: 0x213A900 VA: 0x18213C300
 	|-EnumHelper.Transformer<ulong, UIntPtr>.BeginInvoke
 	*/
 
@@ -1809,535 +1809,535 @@ private static class EnumHelper.Caster<UnderlyingType, ValueType> // TypeDefInde
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1AFB8D0 Offset: 0x1AF9ED0 VA: 0x181AFB8D0
+	|-RVA: 0x1AFB710 Offset: 0x1AF9D10 VA: 0x181AFB710
 	|-EnumHelper.Caster<byte, bool>..cctor
 	|
-	|-RVA: 0x1AF6C80 Offset: 0x1AF5280 VA: 0x181AF6C80
+	|-RVA: 0x1AF6AC0 Offset: 0x1AF50C0 VA: 0x181AF6AC0
 	|-EnumHelper.Caster<byte, byte>..cctor
 	|
-	|-RVA: 0x1B00080 Offset: 0x1AFE680 VA: 0x181B00080
+	|-RVA: 0x1AFFEC0 Offset: 0x1AFE4C0 VA: 0x181AFFEC0
 	|-EnumHelper.Caster<byte, char>..cctor
 	|
-	|-RVA: 0x1B04390 Offset: 0x1B02990 VA: 0x181B04390
+	|-RVA: 0x1B041D0 Offset: 0x1B027D0 VA: 0x181B041D0
 	|-EnumHelper.Caster<byte, KeyValuePair<object, object>>..cctor
 	|
-	|-RVA: 0x1AFE020 Offset: 0x1AFC620 VA: 0x181AFE020
+	|-RVA: 0x1AFDE60 Offset: 0x1AFC460 VA: 0x181AFDE60
 	|-EnumHelper.Caster<byte, DateTime>..cctor
 	|
-	|-RVA: 0x1B061A0 Offset: 0x1B047A0 VA: 0x181B061A0
+	|-RVA: 0x1B05FE0 Offset: 0x1B045E0 VA: 0x181B05FE0
 	|-EnumHelper.Caster<byte, DateTimeOffset>..cctor
 	|
-	|-RVA: 0x1B0A950 Offset: 0x1B08F50 VA: 0x181B0A950
+	|-RVA: 0x1B0A790 Offset: 0x1B08D90 VA: 0x181B0A790
 	|-EnumHelper.Caster<byte, Decimal>..cctor
 	|
-	|-RVA: 0x1AFEBB0 Offset: 0x1AFD1B0 VA: 0x181AFEBB0
+	|-RVA: 0x1AFE9F0 Offset: 0x1AFCFF0 VA: 0x181AFE9F0
 	|-EnumHelper.Caster<byte, EmptyStruct>..cctor
 	|
-	|-RVA: 0x1B0E0D0 Offset: 0x1B0C6D0 VA: 0x181B0E0D0
+	|-RVA: 0x1B0DF10 Offset: 0x1B0C510 VA: 0x181B0DF10
 	|-EnumHelper.Caster<byte, double>..cctor
 	|
-	|-RVA: 0x1B0EC60 Offset: 0x1B0D260 VA: 0x181B0EC60
+	|-RVA: 0x1B0EAA0 Offset: 0x1B0D0A0 VA: 0x181B0EAA0
 	|-EnumHelper.Caster<byte, Guid>..cctor
 	|
-	|-RVA: 0x1AF67E0 Offset: 0x1AF4DE0 VA: 0x181AF67E0
+	|-RVA: 0x1AF6620 Offset: 0x1AF4C20 VA: 0x181AF6620
 	|-EnumHelper.Caster<byte, short>..cctor
 	|
-	|-RVA: 0x1AFBB20 Offset: 0x1AFA120 VA: 0x181AFBB20
+	|-RVA: 0x1AFB960 Offset: 0x1AF9F60 VA: 0x181AFB960
 	|-EnumHelper.Caster<byte, int>..cctor
 	|
-	|-RVA: 0x1AFE270 Offset: 0x1AFC870 VA: 0x181AFE270
+	|-RVA: 0x1AFE0B0 Offset: 0x1AFC6B0 VA: 0x181AFE0B0
 	|-EnumHelper.Caster<byte, long>..cctor
 	|
-	|-RVA: 0x1B035B0 Offset: 0x1B01BB0 VA: 0x181B035B0
+	|-RVA: 0x1B033F0 Offset: 0x1B019F0 VA: 0x181B033F0
 	|-EnumHelper.Caster<byte, IntPtr>..cctor
 	|
-	|-RVA: 0x1B0DE80 Offset: 0x1B0C480 VA: 0x181B0DE80
+	|-RVA: 0x1B0DCC0 Offset: 0x1B0C2C0 VA: 0x181B0DCC0
 	|-EnumHelper.Caster<byte, object>..cctor
 	|
-	|-RVA: 0x1B06F80 Offset: 0x1B05580 VA: 0x181B06F80
+	|-RVA: 0x1B06DC0 Offset: 0x1B053C0 VA: 0x181B06DC0
 	|-EnumHelper.Caster<byte, sbyte>..cctor
 	|
-	|-RVA: 0x1B02580 Offset: 0x1B00B80 VA: 0x181B02580
+	|-RVA: 0x1B023C0 Offset: 0x1B009C0 VA: 0x181B023C0
 	|-EnumHelper.Caster<byte, float>..cctor
 	|
-	|-RVA: 0x1AF9F60 Offset: 0x1AF8560 VA: 0x181AF9F60
+	|-RVA: 0x1AF9DA0 Offset: 0x1AF83A0 VA: 0x181AF9DA0
 	|-EnumHelper.Caster<byte, TimeSpan>..cctor
 	|
-	|-RVA: 0x1AFB680 Offset: 0x1AF9C80 VA: 0x181AFB680
+	|-RVA: 0x1AFB4C0 Offset: 0x1AF9AC0 VA: 0x181AFB4C0
 	|-EnumHelper.Caster<byte, ushort>..cctor
 	|
-	|-RVA: 0x1AFDDD0 Offset: 0x1AFC3D0 VA: 0x181AFDDD0
+	|-RVA: 0x1AFDC10 Offset: 0x1AFC210 VA: 0x181AFDC10
 	|-EnumHelper.Caster<byte, uint>..cctor
 	|
-	|-RVA: 0x1B0B730 Offset: 0x1B09D30 VA: 0x181B0B730
+	|-RVA: 0x1B0B570 Offset: 0x1B09B70 VA: 0x181B0B570
 	|-EnumHelper.Caster<byte, ulong>..cctor
 	|
-	|-RVA: 0x1AFC900 Offset: 0x1AFAF00 VA: 0x181AFC900
+	|-RVA: 0x1AFC740 Offset: 0x1AFAD40 VA: 0x181AFC740
 	|-EnumHelper.Caster<byte, UIntPtr>..cctor
 	|
-	|-RVA: 0x1B0D0A0 Offset: 0x1B0B6A0 VA: 0x181B0D0A0
+	|-RVA: 0x1B0CEE0 Offset: 0x1B0B4E0 VA: 0x181B0CEE0
 	|-EnumHelper.Caster<short, bool>..cctor
 	|
-	|-RVA: 0x1AF7F00 Offset: 0x1AF6500 VA: 0x181AF7F00
+	|-RVA: 0x1AF7D40 Offset: 0x1AF6340 VA: 0x181AF7D40
 	|-EnumHelper.Caster<short, byte>..cctor
 	|
-	|-RVA: 0x1AF7A60 Offset: 0x1AF6060 VA: 0x181AF7A60
+	|-RVA: 0x1AF78A0 Offset: 0x1AF5EA0 VA: 0x181AF78A0
 	|-EnumHelper.Caster<short, char>..cctor
 	|
-	|-RVA: 0x1B01300 Offset: 0x1AFF900 VA: 0x181B01300
+	|-RVA: 0x1B01140 Offset: 0x1AFF740 VA: 0x181B01140
 	|-EnumHelper.Caster<short, KeyValuePair<object, object>>..cctor
 	|
-	|-RVA: 0x1B009C0 Offset: 0x1AFEFC0 VA: 0x181B009C0
+	|-RVA: 0x1B00800 Offset: 0x1AFEE00 VA: 0x181B00800
 	|-EnumHelper.Caster<short, DateTime>..cctor
 	|
-	|-RVA: 0x1B06AE0 Offset: 0x1B050E0 VA: 0x181B06AE0
+	|-RVA: 0x1B06920 Offset: 0x1B04F20 VA: 0x181B06920
 	|-EnumHelper.Caster<short, DateTimeOffset>..cctor
 	|
-	|-RVA: 0x1AFAAF0 Offset: 0x1AF90F0 VA: 0x181AFAAF0
+	|-RVA: 0x1AFA930 Offset: 0x1AF8F30 VA: 0x181AFA930
 	|-EnumHelper.Caster<short, Decimal>..cctor
 	|
-	|-RVA: 0x1B0ADF0 Offset: 0x1B093F0 VA: 0x181B0ADF0
+	|-RVA: 0x1B0AC30 Offset: 0x1B09230 VA: 0x181B0AC30
 	|-EnumHelper.Caster<short, EmptyStruct>..cctor
 	|
-	|-RVA: 0x1AF9AC0 Offset: 0x1AF80C0 VA: 0x181AF9AC0
+	|-RVA: 0x1AF9900 Offset: 0x1AF7F00 VA: 0x181AF9900
 	|-EnumHelper.Caster<short, double>..cctor
 	|
-	|-RVA: 0x1B05D00 Offset: 0x1B04300 VA: 0x181B05D00
+	|-RVA: 0x1B05B40 Offset: 0x1B04140 VA: 0x181B05B40
 	|-EnumHelper.Caster<short, Guid>..cctor
 	|
-	|-RVA: 0x1B053C0 Offset: 0x1B039C0 VA: 0x181B053C0
+	|-RVA: 0x1B05200 Offset: 0x1B03800 VA: 0x181B05200
 	|-EnumHelper.Caster<short, short>..cctor
 	|
-	|-RVA: 0x1B002D0 Offset: 0x1AFE8D0 VA: 0x181B002D0
+	|-RVA: 0x1B00110 Offset: 0x1AFE710 VA: 0x181B00110
 	|-EnumHelper.Caster<short, int>..cctor
 	|
-	|-RVA: 0x1AFCB50 Offset: 0x1AFB150 VA: 0x181AFCB50
+	|-RVA: 0x1AFC990 Offset: 0x1AFAF90 VA: 0x181AFC990
 	|-EnumHelper.Caster<short, long>..cctor
 	|
-	|-RVA: 0x1B07B10 Offset: 0x1B06110 VA: 0x181B07B10
+	|-RVA: 0x1B07950 Offset: 0x1B05F50 VA: 0x181B07950
 	|-EnumHelper.Caster<short, IntPtr>..cctor
 	|
-	|-RVA: 0x1B017A0 Offset: 0x1AFFDA0 VA: 0x181B017A0
+	|-RVA: 0x1B015E0 Offset: 0x1AFFBE0 VA: 0x181B015E0
 	|-EnumHelper.Caster<short, object>..cctor
 	|
-	|-RVA: 0x1B02EC0 Offset: 0x1B014C0 VA: 0x181B02EC0
+	|-RVA: 0x1B02D00 Offset: 0x1B01300 VA: 0x181B02D00
 	|-EnumHelper.Caster<short, sbyte>..cctor
 	|
-	|-RVA: 0x1B08FE0 Offset: 0x1B075E0 VA: 0x181B08FE0
+	|-RVA: 0x1B08E20 Offset: 0x1B07420 VA: 0x181B08E20
 	|-EnumHelper.Caster<short, float>..cctor
 	|
-	|-RVA: 0x1B08D90 Offset: 0x1B07390 VA: 0x181B08D90
+	|-RVA: 0x1B08BD0 Offset: 0x1B071D0 VA: 0x181B08BD0
 	|-EnumHelper.Caster<short, TimeSpan>..cctor
 	|
-	|-RVA: 0x1B0C510 Offset: 0x1B0AB10 VA: 0x181B0C510
+	|-RVA: 0x1B0C350 Offset: 0x1B0A950 VA: 0x181B0C350
 	|-EnumHelper.Caster<short, ushort>..cctor
 	|
-	|-RVA: 0x1AFB430 Offset: 0x1AF9A30 VA: 0x181AFB430
+	|-RVA: 0x1AFB270 Offset: 0x1AF9870 VA: 0x181AFB270
 	|-EnumHelper.Caster<short, uint>..cctor
 	|
-	|-RVA: 0x1AFD490 Offset: 0x1AFBA90 VA: 0x181AFD490
+	|-RVA: 0x1AFD2D0 Offset: 0x1AFB8D0 VA: 0x181AFD2D0
 	|-EnumHelper.Caster<short, ulong>..cctor
 	|
-	|-RVA: 0x1B09480 Offset: 0x1B07A80 VA: 0x181B09480
+	|-RVA: 0x1B092C0 Offset: 0x1B078C0 VA: 0x181B092C0
 	|-EnumHelper.Caster<short, UIntPtr>..cctor
 	|
-	|-RVA: 0x1AF57B0 Offset: 0x1AF3DB0 VA: 0x181AF57B0
+	|-RVA: 0x1AF55F0 Offset: 0x1AF3BF0 VA: 0x181AF55F0
 	|-EnumHelper.Caster<int, bool>..cctor
 	|
-	|-RVA: 0x1AF8A90 Offset: 0x1AF7090 VA: 0x181AF8A90
+	|-RVA: 0x1AF88D0 Offset: 0x1AF6ED0 VA: 0x181AF88D0
 	|-EnumHelper.Caster<int, byte>..cctor
 	|
-	|-RVA: 0x1AF85F0 Offset: 0x1AF6BF0 VA: 0x181AF85F0
+	|-RVA: 0x1AF8430 Offset: 0x1AF6A30 VA: 0x181AF8430
 	|-EnumHelper.Caster<int, char>..cctor
 	|
-	|-RVA: 0x1B0A010 Offset: 0x1B08610 VA: 0x181B0A010
+	|-RVA: 0x1B09E50 Offset: 0x1B08450 VA: 0x181B09E50
 	|-EnumHelper.Caster<int, KeyValuePair<object, object>>..cctor
 	|
-	|-RVA: 0x1B078C0 Offset: 0x1B05EC0 VA: 0x181B078C0
+	|-RVA: 0x1B07700 Offset: 0x1B05D00 VA: 0x181B07700
 	|-EnumHelper.Caster<int, DateTime>..cctor
 	|
-	|-RVA: 0x1AFE710 Offset: 0x1AFCD10 VA: 0x181AFE710
+	|-RVA: 0x1AFE550 Offset: 0x1AFCB50 VA: 0x181AFE550
 	|-EnumHelper.Caster<int, DateTimeOffset>..cctor
 	|
-	|-RVA: 0x1B03EF0 Offset: 0x1B024F0 VA: 0x181B03EF0
+	|-RVA: 0x1B03D30 Offset: 0x1B02330 VA: 0x181B03D30
 	|-EnumHelper.Caster<int, Decimal>..cctor
 	|
-	|-RVA: 0x1B05AB0 Offset: 0x1B040B0 VA: 0x181B05AB0
+	|-RVA: 0x1B058F0 Offset: 0x1B03EF0 VA: 0x181B058F0
 	|-EnumHelper.Caster<int, EmptyStruct>..cctor
 	|
-	|-RVA: 0x1AF9620 Offset: 0x1AF7C20 VA: 0x181AF9620
+	|-RVA: 0x1AF9460 Offset: 0x1AF7A60 VA: 0x181AF9460
 	|-EnumHelper.Caster<int, double>..cctor
 	|
-	|-RVA: 0x1AF60F0 Offset: 0x1AF46F0 VA: 0x181AF60F0
+	|-RVA: 0x1AF5F30 Offset: 0x1AF4530 VA: 0x181AF5F30
 	|-EnumHelper.Caster<int, Guid>..cctor
 	|
-	|-RVA: 0x1AFCFF0 Offset: 0x1AFB5F0 VA: 0x181AFCFF0
+	|-RVA: 0x1AFCE30 Offset: 0x1AFB430 VA: 0x181AFCE30
 	|-EnumHelper.Caster<int, short>..cctor
 	|
-	|-RVA: 0x1AF7CB0 Offset: 0x1AF62B0 VA: 0x181AF7CB0
+	|-RVA: 0x1AF7AF0 Offset: 0x1AF60F0 VA: 0x181AF7AF0
 	|-EnumHelper.Caster<int, int>..cctor
 	|
-	|-RVA: 0x1B0A4B0 Offset: 0x1B08AB0 VA: 0x181B0A4B0
+	|-RVA: 0x1B0A2F0 Offset: 0x1B088F0 VA: 0x181B0A2F0
 	|-EnumHelper.Caster<int, long>..cctor
 	|
-	|-RVA: 0x1AF5EA0 Offset: 0x1AF44A0 VA: 0x181AF5EA0
+	|-RVA: 0x1AF5CE0 Offset: 0x1AF42E0 VA: 0x181AF5CE0
 	|-EnumHelper.Caster<int, IntPtr>..cctor
 	|
-	|-RVA: 0x1B0ABA0 Offset: 0x1B091A0 VA: 0x181B0ABA0
+	|-RVA: 0x1B0A9E0 Offset: 0x1B08FE0 VA: 0x181B0A9E0
 	|-EnumHelper.Caster<int, object>..cctor
 	|
-	|-RVA: 0x1B086A0 Offset: 0x1B06CA0 VA: 0x181B086A0
+	|-RVA: 0x1B084E0 Offset: 0x1B06AE0 VA: 0x181B084E0
 	|-EnumHelper.Caster<int, sbyte>..cctor
 	|
-	|-RVA: 0x1AFAD40 Offset: 0x1AF9340 VA: 0x181AFAD40
+	|-RVA: 0x1AFAB80 Offset: 0x1AF9180 VA: 0x181AFAB80
 	|-EnumHelper.Caster<int, float>..cctor
 	|
-	|-RVA: 0x1B063F0 Offset: 0x1B049F0 VA: 0x181B063F0
+	|-RVA: 0x1B06230 Offset: 0x1B04830 VA: 0x181B06230
 	|-EnumHelper.Caster<int, TimeSpan>..cctor
 	|
-	|-RVA: 0x1B0DC30 Offset: 0x1B0C230 VA: 0x181B0DC30
+	|-RVA: 0x1B0DA70 Offset: 0x1B0C070 VA: 0x181B0DA70
 	|-EnumHelper.Caster<int, ushort>..cctor
 	|
-	|-RVA: 0x1B00C10 Offset: 0x1AFF210 VA: 0x181B00C10
+	|-RVA: 0x1B00A50 Offset: 0x1AFF050 VA: 0x181B00A50
 	|-EnumHelper.Caster<int, uint>..cctor
 	|
-	|-RVA: 0x1AF83A0 Offset: 0x1AF69A0 VA: 0x181AF83A0
+	|-RVA: 0x1AF81E0 Offset: 0x1AF67E0 VA: 0x181AF81E0
 	|-EnumHelper.Caster<int, ulong>..cctor
 	|
-	|-RVA: 0x1B07D60 Offset: 0x1B06360 VA: 0x181B07D60
+	|-RVA: 0x1B07BA0 Offset: 0x1B061A0 VA: 0x181B07BA0
 	|-EnumHelper.Caster<int, UIntPtr>..cctor
 	|
-	|-RVA: 0x1B03A50 Offset: 0x1B02050 VA: 0x181B03A50
+	|-RVA: 0x1B03890 Offset: 0x1B01E90 VA: 0x181B03890
 	|-EnumHelper.Caster<long, bool>..cctor
 	|
-	|-RVA: 0x1AFF740 Offset: 0x1AFDD40 VA: 0x181AFF740
+	|-RVA: 0x1AFF580 Offset: 0x1AFDB80 VA: 0x181AFF580
 	|-EnumHelper.Caster<long, byte>..cctor
 	|
-	|-RVA: 0x1B03110 Offset: 0x1B01710 VA: 0x181B03110
+	|-RVA: 0x1B02F50 Offset: 0x1B01550 VA: 0x181B02F50
 	|-EnumHelper.Caster<long, char>..cctor
 	|
-	|-RVA: 0x1AF8CE0 Offset: 0x1AF72E0 VA: 0x181AF8CE0
+	|-RVA: 0x1AF8B20 Offset: 0x1AF7120 VA: 0x181AF8B20
 	|-EnumHelper.Caster<long, KeyValuePair<object, object>>..cctor
 	|
-	|-RVA: 0x1AFA1B0 Offset: 0x1AF87B0 VA: 0x181AFA1B0
+	|-RVA: 0x1AF9FF0 Offset: 0x1AF85F0 VA: 0x181AF9FF0
 	|-EnumHelper.Caster<long, DateTime>..cctor
 	|
-	|-RVA: 0x1B01550 Offset: 0x1AFFB50 VA: 0x181B01550
+	|-RVA: 0x1B01390 Offset: 0x1AFF990 VA: 0x181B01390
 	|-EnumHelper.Caster<long, DateTimeOffset>..cctor
 	|
-	|-RVA: 0x1AFF990 Offset: 0x1AFDF90 VA: 0x181AFF990
+	|-RVA: 0x1AFF7D0 Offset: 0x1AFDDD0 VA: 0x181AFF7D0
 	|-EnumHelper.Caster<long, Decimal>..cctor
 	|
-	|-RVA: 0x1B088F0 Offset: 0x1B06EF0 VA: 0x181B088F0
+	|-RVA: 0x1B08730 Offset: 0x1B06D30 VA: 0x181B08730
 	|-EnumHelper.Caster<long, EmptyStruct>..cctor
 	|
-	|-RVA: 0x1AF6340 Offset: 0x1AF4940 VA: 0x181AF6340
+	|-RVA: 0x1AF6180 Offset: 0x1AF4780 VA: 0x181AF6180
 	|-EnumHelper.Caster<long, double>..cctor
 	|
-	|-RVA: 0x1AFEE00 Offset: 0x1AFD400 VA: 0x181AFEE00
+	|-RVA: 0x1AFEC40 Offset: 0x1AFD240 VA: 0x181AFEC40
 	|-EnumHelper.Caster<long, Guid>..cctor
 	|
-	|-RVA: 0x1B09DC0 Offset: 0x1B083C0 VA: 0x181B09DC0
+	|-RVA: 0x1B09C00 Offset: 0x1B08200 VA: 0x181B09C00
 	|-EnumHelper.Caster<long, short>..cctor
 	|
-	|-RVA: 0x1AFFE30 Offset: 0x1AFE430 VA: 0x181AFFE30
+	|-RVA: 0x1AFFC70 Offset: 0x1AFE270 VA: 0x181AFFC70
 	|-EnumHelper.Caster<long, int>..cctor
 	|
-	|-RVA: 0x1AFD930 Offset: 0x1AFBF30 VA: 0x181AFD930
+	|-RVA: 0x1AFD770 Offset: 0x1AFBD70 VA: 0x181AFD770
 	|-EnumHelper.Caster<long, long>..cctor
 	|
-	|-RVA: 0x1B0EA10 Offset: 0x1B0D010 VA: 0x181B0EA10
+	|-RVA: 0x1B0E850 Offset: 0x1B0CE50 VA: 0x181B0E850
 	|-EnumHelper.Caster<long, IntPtr>..cctor
 	|
-	|-RVA: 0x1AF8840 Offset: 0x1AF6E40 VA: 0x181AF8840
+	|-RVA: 0x1AF8680 Offset: 0x1AF6C80 VA: 0x181AF8680
 	|-EnumHelper.Caster<long, object>..cctor
 	|
-	|-RVA: 0x1B0B980 Offset: 0x1B09F80 VA: 0x181B0B980
+	|-RVA: 0x1B0B7C0 Offset: 0x1B09DC0 VA: 0x181B0B7C0
 	|-EnumHelper.Caster<long, sbyte>..cctor
 	|
-	|-RVA: 0x1AF9180 Offset: 0x1AF7780 VA: 0x181AF9180
+	|-RVA: 0x1AF8FC0 Offset: 0x1AF75C0 VA: 0x181AF8FC0
 	|-EnumHelper.Caster<long, float>..cctor
 	|
-	|-RVA: 0x1AF7370 Offset: 0x1AF5970 VA: 0x181AF7370
+	|-RVA: 0x1AF71B0 Offset: 0x1AF57B0 VA: 0x181AF71B0
 	|-EnumHelper.Caster<long, TimeSpan>..cctor
 	|
-	|-RVA: 0x1B05170 Offset: 0x1B03770 VA: 0x181B05170
+	|-RVA: 0x1B04FB0 Offset: 0x1B035B0 VA: 0x181B04FB0
 	|-EnumHelper.Caster<long, ushort>..cctor
 	|
-	|-RVA: 0x1B020E0 Offset: 0x1B006E0 VA: 0x181B020E0
+	|-RVA: 0x1B01F20 Offset: 0x1B00520 VA: 0x181B01F20
 	|-EnumHelper.Caster<long, uint>..cctor
 	|
-	|-RVA: 0x1B0D2F0 Offset: 0x1B0B8F0 VA: 0x181B0D2F0
+	|-RVA: 0x1B0D130 Offset: 0x1B0B730 VA: 0x181B0D130
 	|-EnumHelper.Caster<long, ulong>..cctor
 	|
-	|-RVA: 0x1B027D0 Offset: 0x1B00DD0 VA: 0x181B027D0
+	|-RVA: 0x1B02610 Offset: 0x1B00C10 VA: 0x181B02610
 	|-EnumHelper.Caster<long, UIntPtr>..cctor
 	|
-	|-RVA: 0x1B05860 Offset: 0x1B03E60 VA: 0x181B05860
+	|-RVA: 0x1B056A0 Offset: 0x1B03CA0 VA: 0x181B056A0
 	|-EnumHelper.Caster<object, object>..cctor
 	|
-	|-RVA: 0x1AFAF90 Offset: 0x1AF9590 VA: 0x181AFAF90
+	|-RVA: 0x1AFADD0 Offset: 0x1AF93D0 VA: 0x181AFADD0
 	|-EnumHelper.Caster<sbyte, bool>..cctor
 	|
-	|-RVA: 0x1B0E570 Offset: 0x1B0CB70 VA: 0x181B0E570
+	|-RVA: 0x1B0E3B0 Offset: 0x1B0C9B0 VA: 0x181B0E3B0
 	|-EnumHelper.Caster<sbyte, byte>..cctor
 	|
-	|-RVA: 0x1AF7120 Offset: 0x1AF5720 VA: 0x181AF7120
+	|-RVA: 0x1AF6F60 Offset: 0x1AF5560 VA: 0x181AF6F60
 	|-EnumHelper.Caster<sbyte, char>..cctor
 	|
-	|-RVA: 0x1B0A260 Offset: 0x1B08860 VA: 0x181B0A260
+	|-RVA: 0x1B0A0A0 Offset: 0x1B086A0 VA: 0x181B0A0A0
 	|-EnumHelper.Caster<sbyte, KeyValuePair<object, object>>..cctor
 	|
-	|-RVA: 0x1AFA8A0 Offset: 0x1AF8EA0 VA: 0x181AFA8A0
+	|-RVA: 0x1AFA6E0 Offset: 0x1AF8CE0 VA: 0x181AFA6E0
 	|-EnumHelper.Caster<sbyte, DateTime>..cctor
 	|
-	|-RVA: 0x1AFBD70 Offset: 0x1AFA370 VA: 0x181AFBD70
+	|-RVA: 0x1AFBBB0 Offset: 0x1AFA1B0 VA: 0x181AFBBB0
 	|-EnumHelper.Caster<sbyte, DateTimeOffset>..cctor
 	|
-	|-RVA: 0x1AFC460 Offset: 0x1AFAA60 VA: 0x181AFC460
+	|-RVA: 0x1AFC2A0 Offset: 0x1AFA8A0 VA: 0x181AFC2A0
 	|-EnumHelper.Caster<sbyte, Decimal>..cctor
 	|
-	|-RVA: 0x1AF6590 Offset: 0x1AF4B90 VA: 0x181AF6590
+	|-RVA: 0x1AF63D0 Offset: 0x1AF49D0 VA: 0x181AF63D0
 	|-EnumHelper.Caster<sbyte, EmptyStruct>..cctor
 	|
-	|-RVA: 0x1B03800 Offset: 0x1B01E00 VA: 0x181B03800
+	|-RVA: 0x1B03640 Offset: 0x1B01C40 VA: 0x181B03640
 	|-EnumHelper.Caster<sbyte, double>..cctor
 	|
-	|-RVA: 0x1B04830 Offset: 0x1B02E30 VA: 0x181B04830
+	|-RVA: 0x1B04670 Offset: 0x1B02C70 VA: 0x181B04670
 	|-EnumHelper.Caster<sbyte, Guid>..cctor
 	|
-	|-RVA: 0x1B09920 Offset: 0x1B07F20 VA: 0x181B09920
+	|-RVA: 0x1B09760 Offset: 0x1B07D60 VA: 0x181B09760
 	|-EnumHelper.Caster<sbyte, short>..cctor
 	|
-	|-RVA: 0x1B0C070 Offset: 0x1B0A670 VA: 0x181B0C070
+	|-RVA: 0x1B0BEB0 Offset: 0x1B0A4B0 VA: 0x181B0BEB0
 	|-EnumHelper.Caster<sbyte, int>..cctor
 	|
-	|-RVA: 0x1AFD240 Offset: 0x1AFB840 VA: 0x181AFD240
+	|-RVA: 0x1AFD080 Offset: 0x1AFB680 VA: 0x181AFD080
 	|-EnumHelper.Caster<sbyte, long>..cctor
 	|
-	|-RVA: 0x1B096D0 Offset: 0x1B07CD0 VA: 0x181B096D0
+	|-RVA: 0x1B09510 Offset: 0x1B07B10 VA: 0x181B09510
 	|-EnumHelper.Caster<sbyte, IntPtr>..cctor
 	|
-	|-RVA: 0x1B045E0 Offset: 0x1B02BE0 VA: 0x181B045E0
+	|-RVA: 0x1B04420 Offset: 0x1B02A20 VA: 0x181B04420
 	|-EnumHelper.Caster<sbyte, object>..cctor
 	|
-	|-RVA: 0x1B0C760 Offset: 0x1B0AD60 VA: 0x181B0C760
+	|-RVA: 0x1B0C5A0 Offset: 0x1B0ABA0 VA: 0x181B0C5A0
 	|-EnumHelper.Caster<sbyte, sbyte>..cctor
 	|
-	|-RVA: 0x1B07670 Offset: 0x1B05C70 VA: 0x181B07670
+	|-RVA: 0x1B074B0 Offset: 0x1B05AB0 VA: 0x181B074B0
 	|-EnumHelper.Caster<sbyte, float>..cctor
 	|
-	|-RVA: 0x1B00520 Offset: 0x1AFEB20 VA: 0x181B00520
+	|-RVA: 0x1B00360 Offset: 0x1AFE960 VA: 0x181B00360
 	|-EnumHelper.Caster<sbyte, TimeSpan>..cctor
 	|
-	|-RVA: 0x1AFA400 Offset: 0x1AF8A00 VA: 0x181AFA400
+	|-RVA: 0x1AFA240 Offset: 0x1AF8840 VA: 0x181AFA240
 	|-EnumHelper.Caster<sbyte, ushort>..cctor
 	|
-	|-RVA: 0x1B0A700 Offset: 0x1B08D00 VA: 0x181B0A700
+	|-RVA: 0x1B0A540 Offset: 0x1B08B40 VA: 0x181B0A540
 	|-EnumHelper.Caster<sbyte, uint>..cctor
 	|
-	|-RVA: 0x1B04A80 Offset: 0x1B03080 VA: 0x181B04A80
+	|-RVA: 0x1B048C0 Offset: 0x1B02EC0 VA: 0x181B048C0
 	|-EnumHelper.Caster<sbyte, ulong>..cctor
 	|
-	|-RVA: 0x1AF75C0 Offset: 0x1AF5BC0 VA: 0x181AF75C0
+	|-RVA: 0x1AF7400 Offset: 0x1AF5A00 VA: 0x181AF7400
 	|-EnumHelper.Caster<sbyte, UIntPtr>..cctor
 	|
-	|-RVA: 0x1B08B40 Offset: 0x1B07140 VA: 0x181B08B40
+	|-RVA: 0x1B08980 Offset: 0x1B06F80 VA: 0x181B08980
 	|-EnumHelper.Caster<ushort, bool>..cctor
 	|
-	|-RVA: 0x1B06640 Offset: 0x1B04C40 VA: 0x181B06640
+	|-RVA: 0x1B06480 Offset: 0x1B04A80 VA: 0x181B06480
 	|-EnumHelper.Caster<ushort, byte>..cctor
 	|
-	|-RVA: 0x1B010B0 Offset: 0x1AFF6B0 VA: 0x181B010B0
+	|-RVA: 0x1B00EF0 Offset: 0x1AFF4F0 VA: 0x181B00EF0
 	|-EnumHelper.Caster<ushort, char>..cctor
 	|
-	|-RVA: 0x1B071D0 Offset: 0x1B057D0 VA: 0x181B071D0
+	|-RVA: 0x1B07010 Offset: 0x1B05610 VA: 0x181B07010
 	|-EnumHelper.Caster<ushort, KeyValuePair<object, object>>..cctor
 	|
-	|-RVA: 0x1B0D790 Offset: 0x1B0BD90 VA: 0x181B0D790
+	|-RVA: 0x1B0D5D0 Offset: 0x1B0BBD0 VA: 0x181B0D5D0
 	|-EnumHelper.Caster<ushort, DateTime>..cctor
 	|
-	|-RVA: 0x1B0B040 Offset: 0x1B09640 VA: 0x181B0B040
+	|-RVA: 0x1B0AE80 Offset: 0x1B09480 VA: 0x181B0AE80
 	|-EnumHelper.Caster<ushort, DateTimeOffset>..cctor
 	|
-	|-RVA: 0x1B0BBD0 Offset: 0x1B0A1D0 VA: 0x181B0BBD0
+	|-RVA: 0x1B0BA10 Offset: 0x1B0A010 VA: 0x181B0BA10
 	|-EnumHelper.Caster<ushort, Decimal>..cctor
 	|
-	|-RVA: 0x1AFCDA0 Offset: 0x1AFB3A0 VA: 0x181AFCDA0
+	|-RVA: 0x1AFCBE0 Offset: 0x1AFB1E0 VA: 0x181AFCBE0
 	|-EnumHelper.Caster<ushort, EmptyStruct>..cctor
 	|
-	|-RVA: 0x1B01E90 Offset: 0x1B00490 VA: 0x181B01E90
+	|-RVA: 0x1B01CD0 Offset: 0x1B002D0 VA: 0x181B01CD0
 	|-EnumHelper.Caster<ushort, double>..cctor
 	|
-	|-RVA: 0x1B01C40 Offset: 0x1B00240 VA: 0x181B01C40
+	|-RVA: 0x1B01A80 Offset: 0x1B00080 VA: 0x181B01A80
 	|-EnumHelper.Caster<ushort, Guid>..cctor
 	|
-	|-RVA: 0x1B04F20 Offset: 0x1B03520 VA: 0x181B04F20
+	|-RVA: 0x1B04D60 Offset: 0x1B03360 VA: 0x181B04D60
 	|-EnumHelper.Caster<ushort, short>..cctor
 	|
-	|-RVA: 0x1B08200 Offset: 0x1B06800 VA: 0x181B08200
+	|-RVA: 0x1B08040 Offset: 0x1B06640 VA: 0x181B08040
 	|-EnumHelper.Caster<ushort, int>..cctor
 	|
-	|-RVA: 0x1B00E60 Offset: 0x1AFF460 VA: 0x181B00E60
+	|-RVA: 0x1B00CA0 Offset: 0x1AFF2A0 VA: 0x181B00CA0
 	|-EnumHelper.Caster<ushort, long>..cctor
 	|
-	|-RVA: 0x1B019F0 Offset: 0x1AFFFF0 VA: 0x181B019F0
+	|-RVA: 0x1B01830 Offset: 0x1AFFE30 VA: 0x181B01830
 	|-EnumHelper.Caster<ushort, IntPtr>..cctor
 	|
-	|-RVA: 0x1B05F50 Offset: 0x1B04550 VA: 0x181B05F50
+	|-RVA: 0x1B05D90 Offset: 0x1B04390 VA: 0x181B05D90
 	|-EnumHelper.Caster<ushort, object>..cctor
 	|
-	|-RVA: 0x1B06D30 Offset: 0x1B05330 VA: 0x181B06D30
+	|-RVA: 0x1B06B70 Offset: 0x1B05170 VA: 0x181B06B70
 	|-EnumHelper.Caster<ushort, sbyte>..cctor
 	|
-	|-RVA: 0x1AFF2A0 Offset: 0x1AFD8A0 VA: 0x181AFF2A0
+	|-RVA: 0x1AFF0E0 Offset: 0x1AFD6E0 VA: 0x181AFF0E0
 	|-EnumHelper.Caster<ushort, float>..cctor
 	|
-	|-RVA: 0x1B09B70 Offset: 0x1B08170 VA: 0x181B09B70
+	|-RVA: 0x1B099B0 Offset: 0x1B07FB0 VA: 0x181B099B0
 	|-EnumHelper.Caster<ushort, TimeSpan>..cctor
 	|
-	|-RVA: 0x1AFD6E0 Offset: 0x1AFBCE0 VA: 0x181AFD6E0
+	|-RVA: 0x1AFD520 Offset: 0x1AFBB20 VA: 0x181AFD520
 	|-EnumHelper.Caster<ushort, ushort>..cctor
 	|
-	|-RVA: 0x1AFBFC0 Offset: 0x1AFA5C0 VA: 0x181AFBFC0
+	|-RVA: 0x1AFBE00 Offset: 0x1AFA400 VA: 0x181AFBE00
 	|-EnumHelper.Caster<ushort, uint>..cctor
 	|
-	|-RVA: 0x1B05610 Offset: 0x1B03C10 VA: 0x181B05610
+	|-RVA: 0x1B05450 Offset: 0x1B03A50 VA: 0x181B05450
 	|-EnumHelper.Caster<ushort, ulong>..cctor
 	|
-	|-RVA: 0x1B02C70 Offset: 0x1B01270 VA: 0x181B02C70
+	|-RVA: 0x1B02AB0 Offset: 0x1B010B0 VA: 0x181B02AB0
 	|-EnumHelper.Caster<ushort, UIntPtr>..cctor
 	|
-	|-RVA: 0x1AF5A00 Offset: 0x1AF4000 VA: 0x181AF5A00
+	|-RVA: 0x1AF5840 Offset: 0x1AF3E40 VA: 0x181AF5840
 	|-EnumHelper.Caster<uint, bool>..cctor
 	|
-	|-RVA: 0x1AFC6B0 Offset: 0x1AFACB0 VA: 0x181AFC6B0
+	|-RVA: 0x1AFC4F0 Offset: 0x1AFAAF0 VA: 0x181AFC4F0
 	|-EnumHelper.Caster<uint, byte>..cctor
 	|
-	|-RVA: 0x1AF93D0 Offset: 0x1AF79D0 VA: 0x181AF93D0
+	|-RVA: 0x1AF9210 Offset: 0x1AF7810 VA: 0x181AF9210
 	|-EnumHelper.Caster<uint, char>..cctor
 	|
-	|-RVA: 0x1B04140 Offset: 0x1B02740 VA: 0x181B04140
+	|-RVA: 0x1B03F80 Offset: 0x1B02580 VA: 0x181B03F80
 	|-EnumHelper.Caster<uint, KeyValuePair<object, object>>..cctor
 	|
-	|-RVA: 0x1B0EEB0 Offset: 0x1B0D4B0 VA: 0x181B0EEB0
+	|-RVA: 0x1B0ECF0 Offset: 0x1B0D2F0 VA: 0x181B0ECF0
 	|-EnumHelper.Caster<uint, DateTime>..cctor
 	|
-	|-RVA: 0x1B0BE20 Offset: 0x1B0A420 VA: 0x181B0BE20
+	|-RVA: 0x1B0BC60 Offset: 0x1B0A260 VA: 0x181B0BC60
 	|-EnumHelper.Caster<uint, DateTimeOffset>..cctor
 	|
-	|-RVA: 0x1AFF050 Offset: 0x1AFD650 VA: 0x181AFF050
+	|-RVA: 0x1AFEE90 Offset: 0x1AFD490 VA: 0x181AFEE90
 	|-EnumHelper.Caster<uint, Decimal>..cctor
 	|
-	|-RVA: 0x1B0E7C0 Offset: 0x1B0CDC0 VA: 0x181B0E7C0
+	|-RVA: 0x1B0E600 Offset: 0x1B0CC00 VA: 0x181B0E600
 	|-EnumHelper.Caster<uint, EmptyStruct>..cctor
 	|
-	|-RVA: 0x1AFF4F0 Offset: 0x1AFDAF0 VA: 0x181AFF4F0
+	|-RVA: 0x1AFF330 Offset: 0x1AFD930 VA: 0x181AFF330
 	|-EnumHelper.Caster<uint, double>..cctor
 	|
-	|-RVA: 0x1AFE4C0 Offset: 0x1AFCAC0 VA: 0x181AFE4C0
+	|-RVA: 0x1AFE300 Offset: 0x1AFC900 VA: 0x181AFE300
 	|-EnumHelper.Caster<uint, Guid>..cctor
 	|
-	|-RVA: 0x1AF6A30 Offset: 0x1AF5030 VA: 0x181AF6A30
+	|-RVA: 0x1AF6870 Offset: 0x1AF4E70 VA: 0x181AF6870
 	|-EnumHelper.Caster<uint, short>..cctor
 	|
-	|-RVA: 0x1AFA650 Offset: 0x1AF8C50 VA: 0x181AFA650
+	|-RVA: 0x1AFA490 Offset: 0x1AF8A90 VA: 0x181AFA490
 	|-EnumHelper.Caster<uint, int>..cctor
 	|
-	|-RVA: 0x1AFFBE0 Offset: 0x1AFE1E0 VA: 0x181AFFBE0
+	|-RVA: 0x1AFFA20 Offset: 0x1AFE020 VA: 0x181AFFA20
 	|-EnumHelper.Caster<uint, long>..cctor
 	|
-	|-RVA: 0x1B03CA0 Offset: 0x1B022A0 VA: 0x181B03CA0
+	|-RVA: 0x1B03AE0 Offset: 0x1B020E0 VA: 0x181B03AE0
 	|-EnumHelper.Caster<uint, IntPtr>..cctor
 	|
-	|-RVA: 0x1B0B4E0 Offset: 0x1B09AE0 VA: 0x181B0B4E0
+	|-RVA: 0x1B0B320 Offset: 0x1B09920 VA: 0x181B0B320
 	|-EnumHelper.Caster<uint, object>..cctor
 	|
-	|-RVA: 0x1AF7810 Offset: 0x1AF5E10 VA: 0x181AF7810
+	|-RVA: 0x1AF7650 Offset: 0x1AF5C50 VA: 0x181AF7650
 	|-EnumHelper.Caster<uint, sbyte>..cctor
 	|
-	|-RVA: 0x1B0D540 Offset: 0x1B0BB40 VA: 0x181B0D540
+	|-RVA: 0x1B0D380 Offset: 0x1B0B980 VA: 0x181B0D380
 	|-EnumHelper.Caster<uint, float>..cctor
 	|
-	|-RVA: 0x1AF9870 Offset: 0x1AF7E70 VA: 0x181AF9870
+	|-RVA: 0x1AF96B0 Offset: 0x1AF7CB0 VA: 0x181AF96B0
 	|-EnumHelper.Caster<uint, TimeSpan>..cctor
 	|
-	|-RVA: 0x1AFDB80 Offset: 0x1AFC180 VA: 0x181AFDB80
+	|-RVA: 0x1AFD9C0 Offset: 0x1AFBFC0 VA: 0x181AFD9C0
 	|-EnumHelper.Caster<uint, ushort>..cctor
 	|
-	|-RVA: 0x1AF5C50 Offset: 0x1AF4250 VA: 0x181AF5C50
+	|-RVA: 0x1AF5A90 Offset: 0x1AF4090 VA: 0x181AF5A90
 	|-EnumHelper.Caster<uint, uint>..cctor
 	|
-	|-RVA: 0x1AF6ED0 Offset: 0x1AF54D0 VA: 0x181AF6ED0
+	|-RVA: 0x1AF6D10 Offset: 0x1AF5310 VA: 0x181AF6D10
 	|-EnumHelper.Caster<uint, ulong>..cctor
 	|
-	|-RVA: 0x1AF9D10 Offset: 0x1AF8310 VA: 0x181AF9D10
+	|-RVA: 0x1AF9B50 Offset: 0x1AF8150 VA: 0x181AF9B50
 	|-EnumHelper.Caster<uint, UIntPtr>..cctor
 	|
-	|-RVA: 0x1B0CE50 Offset: 0x1B0B450 VA: 0x181B0CE50
+	|-RVA: 0x1B0CC90 Offset: 0x1B0B290 VA: 0x181B0CC90
 	|-EnumHelper.Caster<ulong, bool>..cctor
 	|
-	|-RVA: 0x1B0B290 Offset: 0x1B09890 VA: 0x181B0B290
+	|-RVA: 0x1B0B0D0 Offset: 0x1B096D0 VA: 0x181B0B0D0
 	|-EnumHelper.Caster<ulong, byte>..cctor
 	|
-	|-RVA: 0x1B0C9B0 Offset: 0x1B0AFB0 VA: 0x181B0C9B0
+	|-RVA: 0x1B0C7F0 Offset: 0x1B0ADF0 VA: 0x181B0C7F0
 	|-EnumHelper.Caster<ulong, char>..cctor
 	|
-	|-RVA: 0x1B07FB0 Offset: 0x1B065B0 VA: 0x181B07FB0
+	|-RVA: 0x1B07DF0 Offset: 0x1B063F0 VA: 0x181B07DF0
 	|-EnumHelper.Caster<ulong, KeyValuePair<object, object>>..cctor
 	|
-	|-RVA: 0x1AFE960 Offset: 0x1AFCF60 VA: 0x181AFE960
+	|-RVA: 0x1AFE7A0 Offset: 0x1AFCDA0 VA: 0x181AFE7A0
 	|-EnumHelper.Caster<ulong, DateTime>..cctor
 	|
-	|-RVA: 0x1B07420 Offset: 0x1B05A20 VA: 0x181B07420
+	|-RVA: 0x1B07260 Offset: 0x1B05860 VA: 0x181B07260
 	|-EnumHelper.Caster<ulong, DateTimeOffset>..cctor
 	|
-	|-RVA: 0x1B04CD0 Offset: 0x1B032D0 VA: 0x181B04CD0
+	|-RVA: 0x1B04B10 Offset: 0x1B03110 VA: 0x181B04B10
 	|-EnumHelper.Caster<ulong, Decimal>..cctor
 	|
-	|-RVA: 0x1AF8150 Offset: 0x1AF6750 VA: 0x181AF8150
+	|-RVA: 0x1AF7F90 Offset: 0x1AF6590 VA: 0x181AF7F90
 	|-EnumHelper.Caster<ulong, EmptyStruct>..cctor
 	|
-	|-RVA: 0x1B0C2C0 Offset: 0x1B0A8C0 VA: 0x181B0C2C0
+	|-RVA: 0x1B0C100 Offset: 0x1B0A700 VA: 0x181B0C100
 	|-EnumHelper.Caster<ulong, double>..cctor
 	|
-	|-RVA: 0x1AF8F30 Offset: 0x1AF7530 VA: 0x181AF8F30
+	|-RVA: 0x1AF8D70 Offset: 0x1AF7370 VA: 0x181AF8D70
 	|-EnumHelper.Caster<ulong, Guid>..cctor
 	|
-	|-RVA: 0x1B09230 Offset: 0x1B07830 VA: 0x181B09230
+	|-RVA: 0x1B09070 Offset: 0x1B07670 VA: 0x181B09070
 	|-EnumHelper.Caster<ulong, short>..cctor
 	|
-	|-RVA: 0x1B0CC00 Offset: 0x1B0B200 VA: 0x181B0CC00
+	|-RVA: 0x1B0CA40 Offset: 0x1B0B040 VA: 0x181B0CA40
 	|-EnumHelper.Caster<ulong, int>..cctor
 	|
-	|-RVA: 0x1AFC210 Offset: 0x1AFA810 VA: 0x181AFC210
+	|-RVA: 0x1AFC050 Offset: 0x1AFA650 VA: 0x181AFC050
 	|-EnumHelper.Caster<ulong, long>..cctor
 	|
-	|-RVA: 0x1B06890 Offset: 0x1B04E90 VA: 0x181B06890
+	|-RVA: 0x1B066D0 Offset: 0x1B04CD0 VA: 0x181B066D0
 	|-EnumHelper.Caster<ulong, IntPtr>..cctor
 	|
-	|-RVA: 0x1B02A20 Offset: 0x1B01020 VA: 0x181B02A20
+	|-RVA: 0x1B02860 Offset: 0x1B00E60 VA: 0x181B02860
 	|-EnumHelper.Caster<ulong, object>..cctor
 	|
-	|-RVA: 0x1B0E320 Offset: 0x1B0C920 VA: 0x181B0E320
+	|-RVA: 0x1B0E160 Offset: 0x1B0C760 VA: 0x181B0E160
 	|-EnumHelper.Caster<ulong, sbyte>..cctor
 	|
-	|-RVA: 0x1AFB1E0 Offset: 0x1AF97E0 VA: 0x181AFB1E0
+	|-RVA: 0x1AFB020 Offset: 0x1AF9620 VA: 0x181AFB020
 	|-EnumHelper.Caster<ulong, float>..cctor
 	|
-	|-RVA: 0x1B00770 Offset: 0x1AFED70 VA: 0x181B00770
+	|-RVA: 0x1B005B0 Offset: 0x1AFEBB0 VA: 0x181B005B0
 	|-EnumHelper.Caster<ulong, TimeSpan>..cctor
 	|
-	|-RVA: 0x1B03360 Offset: 0x1B01960 VA: 0x181B03360
+	|-RVA: 0x1B031A0 Offset: 0x1B017A0 VA: 0x181B031A0
 	|-EnumHelper.Caster<ulong, ushort>..cctor
 	|
-	|-RVA: 0x1B08450 Offset: 0x1B06A50 VA: 0x181B08450
+	|-RVA: 0x1B08290 Offset: 0x1B06890 VA: 0x181B08290
 	|-EnumHelper.Caster<ulong, uint>..cctor
 	|
-	|-RVA: 0x1B0D9E0 Offset: 0x1B0BFE0 VA: 0x181B0D9E0
+	|-RVA: 0x1B0D820 Offset: 0x1B0BE20 VA: 0x181B0D820
 	|-EnumHelper.Caster<ulong, ulong>..cctor
 	|
-	|-RVA: 0x1B02330 Offset: 0x1B00930 VA: 0x181B02330
+	|-RVA: 0x1B02170 Offset: 0x1B00770 VA: 0x181B02170
 	|-EnumHelper.Caster<ulong, UIntPtr>..cctor
 	*/
 
@@ -2353,7 +2353,7 @@ internal sealed class EnumerableTypeInfo<IterableType, ElementType> : TraceLoggi
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B4E080 Offset: 0x1B4C680 VA: 0x181B4E080
+	|-RVA: 0x1B4DEC0 Offset: 0x1B4C4C0 VA: 0x181B4DEC0
 	|-EnumerableTypeInfo<object, object>.WriteMetadata
 	*/
 
@@ -2361,7 +2361,7 @@ internal sealed class EnumerableTypeInfo<IterableType, ElementType> : TraceLoggi
 	public override void WriteData(TraceLoggingDataCollector collector, ref IterableType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B4DD60 Offset: 0x1B4C360 VA: 0x181B4DD60
+	|-RVA: 0x1B4DBA0 Offset: 0x1B4C1A0 VA: 0x181B4DBA0
 	|-EnumerableTypeInfo<object, object>.WriteData
 	*/
 
@@ -2374,70 +2374,70 @@ internal sealed class EnumByteTypeInfo<EnumType> : TraceLoggingTypeInfo<EnumType
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B12880 Offset: 0x1B10E80 VA: 0x181B12880
+	|-RVA: 0x1B126C0 Offset: 0x1B10CC0 VA: 0x181B126C0
 	|-EnumByteTypeInfo<bool>.WriteMetadata
 	|
-	|-RVA: 0x1B12B50 Offset: 0x1B11150 VA: 0x181B12B50
+	|-RVA: 0x1B12990 Offset: 0x1B10F90 VA: 0x181B12990
 	|-EnumByteTypeInfo<byte>.WriteMetadata
 	|
-	|-RVA: 0x1B12AC0 Offset: 0x1B110C0 VA: 0x181B12AC0
+	|-RVA: 0x1B12900 Offset: 0x1B10F00 VA: 0x181B12900
 	|-EnumByteTypeInfo<char>.WriteMetadata
 	|
-	|-RVA: 0x1B12D90 Offset: 0x1B11390 VA: 0x181B12D90
+	|-RVA: 0x1B12BD0 Offset: 0x1B111D0 VA: 0x181B12BD0
 	|-EnumByteTypeInfo<KeyValuePair<object, object>>.WriteMetadata
 	|
-	|-RVA: 0x1B12EB0 Offset: 0x1B114B0 VA: 0x181B12EB0
+	|-RVA: 0x1B12CF0 Offset: 0x1B112F0 VA: 0x181B12CF0
 	|-EnumByteTypeInfo<DateTime>.WriteMetadata
 	|
-	|-RVA: 0x1B12C70 Offset: 0x1B11270 VA: 0x181B12C70
+	|-RVA: 0x1B12AB0 Offset: 0x1B110B0 VA: 0x181B12AB0
 	|-EnumByteTypeInfo<DateTimeOffset>.WriteMetadata
 	|
-	|-RVA: 0x1B12BE0 Offset: 0x1B111E0 VA: 0x181B12BE0
+	|-RVA: 0x1B12A20 Offset: 0x1B11020 VA: 0x181B12A20
 	|-EnumByteTypeInfo<Decimal>.WriteMetadata
 	|
-	|-RVA: 0x1B12F40 Offset: 0x1B11540 VA: 0x181B12F40
+	|-RVA: 0x1B12D80 Offset: 0x1B11380 VA: 0x181B12D80
 	|-EnumByteTypeInfo<EmptyStruct>.WriteMetadata
 	|
-	|-RVA: 0x1B12D00 Offset: 0x1B11300 VA: 0x181B12D00
+	|-RVA: 0x1B12B40 Offset: 0x1B11140 VA: 0x181B12B40
 	|-EnumByteTypeInfo<double>.WriteMetadata
 	|
-	|-RVA: 0x1B12910 Offset: 0x1B10F10 VA: 0x181B12910
+	|-RVA: 0x1B12750 Offset: 0x1B10D50 VA: 0x181B12750
 	|-EnumByteTypeInfo<Guid>.WriteMetadata
 	|
-	|-RVA: 0x1B12FD0 Offset: 0x1B115D0 VA: 0x181B12FD0
+	|-RVA: 0x1B12E10 Offset: 0x1B11410 VA: 0x181B12E10
 	|-EnumByteTypeInfo<short>.WriteMetadata
 	|
-	|-RVA: 0x1B13330 Offset: 0x1B11930 VA: 0x181B13330
+	|-RVA: 0x1B13170 Offset: 0x1B11770 VA: 0x181B13170
 	|-EnumByteTypeInfo<int>.WriteMetadata
 	|
-	|-RVA: 0x1B132A0 Offset: 0x1B118A0 VA: 0x181B132A0
+	|-RVA: 0x1B130E0 Offset: 0x1B116E0 VA: 0x181B130E0
 	|-EnumByteTypeInfo<long>.WriteMetadata
 	|
-	|-RVA: 0x1B13210 Offset: 0x1B11810 VA: 0x181B13210
+	|-RVA: 0x1B13050 Offset: 0x1B11650 VA: 0x181B13050
 	|-EnumByteTypeInfo<IntPtr>.WriteMetadata
 	|
-	|-RVA: 0x1B127F0 Offset: 0x1B10DF0 VA: 0x181B127F0
+	|-RVA: 0x1B12630 Offset: 0x1B10C30 VA: 0x181B12630
 	|-EnumByteTypeInfo<object>.WriteMetadata
 	|
-	|-RVA: 0x1B130F0 Offset: 0x1B116F0 VA: 0x181B130F0
+	|-RVA: 0x1B12F30 Offset: 0x1B11530 VA: 0x181B12F30
 	|-EnumByteTypeInfo<sbyte>.WriteMetadata
 	|
-	|-RVA: 0x1B129A0 Offset: 0x1B10FA0 VA: 0x181B129A0
+	|-RVA: 0x1B127E0 Offset: 0x1B10DE0 VA: 0x181B127E0
 	|-EnumByteTypeInfo<float>.WriteMetadata
 	|
-	|-RVA: 0x1B13060 Offset: 0x1B11660 VA: 0x181B13060
+	|-RVA: 0x1B12EA0 Offset: 0x1B114A0 VA: 0x181B12EA0
 	|-EnumByteTypeInfo<TimeSpan>.WriteMetadata
 	|
-	|-RVA: 0x1B12A30 Offset: 0x1B11030 VA: 0x181B12A30
+	|-RVA: 0x1B12870 Offset: 0x1B10E70 VA: 0x181B12870
 	|-EnumByteTypeInfo<ushort>.WriteMetadata
 	|
-	|-RVA: 0x1B13180 Offset: 0x1B11780 VA: 0x181B13180
+	|-RVA: 0x1B12FC0 Offset: 0x1B115C0 VA: 0x181B12FC0
 	|-EnumByteTypeInfo<uint>.WriteMetadata
 	|
-	|-RVA: 0x1B133C0 Offset: 0x1B119C0 VA: 0x181B133C0
+	|-RVA: 0x1B13200 Offset: 0x1B11800 VA: 0x181B13200
 	|-EnumByteTypeInfo<ulong>.WriteMetadata
 	|
-	|-RVA: 0x1B12E20 Offset: 0x1B11420 VA: 0x181B12E20
+	|-RVA: 0x1B12C60 Offset: 0x1B11260 VA: 0x181B12C60
 	|-EnumByteTypeInfo<UIntPtr>.WriteMetadata
 	*/
 
@@ -2445,70 +2445,70 @@ internal sealed class EnumByteTypeInfo<EnumType> : TraceLoggingTypeInfo<EnumType
 	public override void WriteData(TraceLoggingDataCollector collector, ref EnumType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B11C10 Offset: 0x1B10210 VA: 0x181B11C10
+	|-RVA: 0x1B11A50 Offset: 0x1B10050 VA: 0x181B11A50
 	|-EnumByteTypeInfo<bool>.WriteData
 	|
-	|-RVA: 0x1B122E0 Offset: 0x1B108E0 VA: 0x181B122E0
+	|-RVA: 0x1B12120 Offset: 0x1B10720 VA: 0x181B12120
 	|-EnumByteTypeInfo<byte>.WriteData
 	|
-	|-RVA: 0x1B11D50 Offset: 0x1B10350 VA: 0x181B11D50
+	|-RVA: 0x1B11B90 Offset: 0x1B10190 VA: 0x181B11B90
 	|-EnumByteTypeInfo<char>.WriteData
 	|
-	|-RVA: 0x1B11AC0 Offset: 0x1B100C0 VA: 0x181B11AC0
+	|-RVA: 0x1B11900 Offset: 0x1B0FF00 VA: 0x181B11900
 	|-EnumByteTypeInfo<KeyValuePair<object, object>>.WriteData
 	|
-	|-RVA: 0x1B12110 Offset: 0x1B10710 VA: 0x181B12110
+	|-RVA: 0x1B11F50 Offset: 0x1B10550 VA: 0x181B11F50
 	|-EnumByteTypeInfo<DateTime>.WriteData
 	|
-	|-RVA: 0x1B11A10 Offset: 0x1B10010 VA: 0x181B11A10
+	|-RVA: 0x1B11850 Offset: 0x1B0FE50 VA: 0x181B11850
 	|-EnumByteTypeInfo<DateTimeOffset>.WriteData
 	|
-	|-RVA: 0x1B11FC0 Offset: 0x1B105C0 VA: 0x181B11FC0
+	|-RVA: 0x1B11E00 Offset: 0x1B10400 VA: 0x181B11E00
 	|-EnumByteTypeInfo<Decimal>.WriteData
 	|
-	|-RVA: 0x1B11F20 Offset: 0x1B10520 VA: 0x181B11F20
+	|-RVA: 0x1B11D60 Offset: 0x1B10360 VA: 0x181B11D60
 	|-EnumByteTypeInfo<EmptyStruct>.WriteData
 	|
-	|-RVA: 0x1B11DF0 Offset: 0x1B103F0 VA: 0x181B11DF0
+	|-RVA: 0x1B11C30 Offset: 0x1B10230 VA: 0x181B11C30
 	|-EnumByteTypeInfo<double>.WriteData
 	|
-	|-RVA: 0x1B12380 Offset: 0x1B10980 VA: 0x181B12380
+	|-RVA: 0x1B121C0 Offset: 0x1B107C0 VA: 0x181B121C0
 	|-EnumByteTypeInfo<Guid>.WriteData
 	|
-	|-RVA: 0x1B11CB0 Offset: 0x1B102B0 VA: 0x181B11CB0
+	|-RVA: 0x1B11AF0 Offset: 0x1B100F0 VA: 0x181B11AF0
 	|-EnumByteTypeInfo<short>.WriteData
 	|
-	|-RVA: 0x1B11E90 Offset: 0x1B10490 VA: 0x181B11E90
+	|-RVA: 0x1B11CD0 Offset: 0x1B102D0 VA: 0x181B11CD0
 	|-EnumByteTypeInfo<int>.WriteData
 	|
-	|-RVA: 0x1B126B0 Offset: 0x1B10CB0 VA: 0x181B126B0
+	|-RVA: 0x1B124F0 Offset: 0x1B10AF0 VA: 0x181B124F0
 	|-EnumByteTypeInfo<long>.WriteData
 	|
-	|-RVA: 0x1B12750 Offset: 0x1B10D50 VA: 0x181B12750
+	|-RVA: 0x1B12590 Offset: 0x1B10B90 VA: 0x181B12590
 	|-EnumByteTypeInfo<IntPtr>.WriteData
 	|
-	|-RVA: 0x1B12610 Offset: 0x1B10C10 VA: 0x181B12610
+	|-RVA: 0x1B12450 Offset: 0x1B10A50 VA: 0x181B12450
 	|-EnumByteTypeInfo<object>.WriteData
 	|
-	|-RVA: 0x1B11B70 Offset: 0x1B10170 VA: 0x181B11B70
+	|-RVA: 0x1B119B0 Offset: 0x1B0FFB0 VA: 0x181B119B0
 	|-EnumByteTypeInfo<sbyte>.WriteData
 	|
-	|-RVA: 0x1B124D0 Offset: 0x1B10AD0 VA: 0x181B124D0
+	|-RVA: 0x1B12310 Offset: 0x1B10910 VA: 0x181B12310
 	|-EnumByteTypeInfo<float>.WriteData
 	|
-	|-RVA: 0x1B12430 Offset: 0x1B10A30 VA: 0x181B12430
+	|-RVA: 0x1B12270 Offset: 0x1B10870 VA: 0x181B12270
 	|-EnumByteTypeInfo<TimeSpan>.WriteData
 	|
-	|-RVA: 0x1B12240 Offset: 0x1B10840 VA: 0x181B12240
+	|-RVA: 0x1B12080 Offset: 0x1B10680 VA: 0x181B12080
 	|-EnumByteTypeInfo<ushort>.WriteData
 	|
-	|-RVA: 0x1B121B0 Offset: 0x1B107B0 VA: 0x181B121B0
+	|-RVA: 0x1B11FF0 Offset: 0x1B105F0 VA: 0x181B11FF0
 	|-EnumByteTypeInfo<uint>.WriteData
 	|
-	|-RVA: 0x1B12570 Offset: 0x1B10B70 VA: 0x181B12570
+	|-RVA: 0x1B123B0 Offset: 0x1B109B0 VA: 0x181B123B0
 	|-EnumByteTypeInfo<ulong>.WriteData
 	|
-	|-RVA: 0x1B12070 Offset: 0x1B10670 VA: 0x181B12070
+	|-RVA: 0x1B11EB0 Offset: 0x1B104B0 VA: 0x181B11EB0
 	|-EnumByteTypeInfo<UIntPtr>.WriteData
 	*/
 
@@ -2545,7 +2545,7 @@ internal sealed class EnumByteTypeInfo<EnumType> : TraceLoggingTypeInfo<EnumType
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BFCE0 Offset: 0x19BE2E0 VA: 0x1819BFCE0
+	|-RVA: 0x19BFCA0 Offset: 0x19BE2A0 VA: 0x1819BFCA0
 	|-EnumByteTypeInfo<bool>..ctor
 	|-EnumByteTypeInfo<byte>..ctor
 	|-EnumByteTypeInfo<char>..ctor
@@ -2579,70 +2579,70 @@ internal sealed class EnumSByteTypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTyp
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2139420 Offset: 0x2137A20 VA: 0x182139420
+	|-RVA: 0x2139260 Offset: 0x2137860 VA: 0x182139260
 	|-EnumSByteTypeInfo<bool>.WriteMetadata
 	|
-	|-RVA: 0x2139660 Offset: 0x2137C60 VA: 0x182139660
+	|-RVA: 0x21394A0 Offset: 0x2137AA0 VA: 0x1821394A0
 	|-EnumSByteTypeInfo<byte>.WriteMetadata
 	|
-	|-RVA: 0x21399C0 Offset: 0x2137FC0 VA: 0x1821399C0
+	|-RVA: 0x2139800 Offset: 0x2137E00 VA: 0x182139800
 	|-EnumSByteTypeInfo<char>.WriteMetadata
 	|
-	|-RVA: 0x2139780 Offset: 0x2137D80 VA: 0x182139780
+	|-RVA: 0x21395C0 Offset: 0x2137BC0 VA: 0x1821395C0
 	|-EnumSByteTypeInfo<KeyValuePair<object, object>>.WriteMetadata
 	|
-	|-RVA: 0x2139A50 Offset: 0x2138050 VA: 0x182139A50
+	|-RVA: 0x2139890 Offset: 0x2137E90 VA: 0x182139890
 	|-EnumSByteTypeInfo<DateTime>.WriteMetadata
 	|
-	|-RVA: 0x2139390 Offset: 0x2137990 VA: 0x182139390
+	|-RVA: 0x21391D0 Offset: 0x21377D0 VA: 0x1821391D0
 	|-EnumSByteTypeInfo<DateTimeOffset>.WriteMetadata
 	|
-	|-RVA: 0x2139DB0 Offset: 0x21383B0 VA: 0x182139DB0
+	|-RVA: 0x2139BF0 Offset: 0x21381F0 VA: 0x182139BF0
 	|-EnumSByteTypeInfo<Decimal>.WriteMetadata
 	|
-	|-RVA: 0x2139B70 Offset: 0x2138170 VA: 0x182139B70
+	|-RVA: 0x21399B0 Offset: 0x2137FB0 VA: 0x1821399B0
 	|-EnumSByteTypeInfo<EmptyStruct>.WriteMetadata
 	|
-	|-RVA: 0x2139270 Offset: 0x2137870 VA: 0x182139270
+	|-RVA: 0x21390B0 Offset: 0x21376B0 VA: 0x1821390B0
 	|-EnumSByteTypeInfo<double>.WriteMetadata
 	|
-	|-RVA: 0x2139AE0 Offset: 0x21380E0 VA: 0x182139AE0
+	|-RVA: 0x2139920 Offset: 0x2137F20 VA: 0x182139920
 	|-EnumSByteTypeInfo<Guid>.WriteMetadata
 	|
-	|-RVA: 0x2139C00 Offset: 0x2138200 VA: 0x182139C00
+	|-RVA: 0x2139A40 Offset: 0x2138040 VA: 0x182139A40
 	|-EnumSByteTypeInfo<short>.WriteMetadata
 	|
-	|-RVA: 0x21394B0 Offset: 0x2137AB0 VA: 0x1821394B0
+	|-RVA: 0x21392F0 Offset: 0x21378F0 VA: 0x1821392F0
 	|-EnumSByteTypeInfo<int>.WriteMetadata
 	|
-	|-RVA: 0x2139810 Offset: 0x2137E10 VA: 0x182139810
+	|-RVA: 0x2139650 Offset: 0x2137C50 VA: 0x182139650
 	|-EnumSByteTypeInfo<long>.WriteMetadata
 	|
-	|-RVA: 0x2139300 Offset: 0x2137900 VA: 0x182139300
+	|-RVA: 0x2139140 Offset: 0x2137740 VA: 0x182139140
 	|-EnumSByteTypeInfo<IntPtr>.WriteMetadata
 	|
-	|-RVA: 0x21396F0 Offset: 0x2137CF0 VA: 0x1821396F0
+	|-RVA: 0x2139530 Offset: 0x2137B30 VA: 0x182139530
 	|-EnumSByteTypeInfo<object>.WriteMetadata
 	|
-	|-RVA: 0x21398A0 Offset: 0x2137EA0 VA: 0x1821398A0
+	|-RVA: 0x21396E0 Offset: 0x2137CE0 VA: 0x1821396E0
 	|-EnumSByteTypeInfo<sbyte>.WriteMetadata
 	|
-	|-RVA: 0x2139930 Offset: 0x2137F30 VA: 0x182139930
+	|-RVA: 0x2139770 Offset: 0x2137D70 VA: 0x182139770
 	|-EnumSByteTypeInfo<float>.WriteMetadata
 	|
-	|-RVA: 0x2139D20 Offset: 0x2138320 VA: 0x182139D20
+	|-RVA: 0x2139B60 Offset: 0x2138160 VA: 0x182139B60
 	|-EnumSByteTypeInfo<TimeSpan>.WriteMetadata
 	|
-	|-RVA: 0x2139C90 Offset: 0x2138290 VA: 0x182139C90
+	|-RVA: 0x2139AD0 Offset: 0x21380D0 VA: 0x182139AD0
 	|-EnumSByteTypeInfo<ushort>.WriteMetadata
 	|
-	|-RVA: 0x2139540 Offset: 0x2137B40 VA: 0x182139540
+	|-RVA: 0x2139380 Offset: 0x2137980 VA: 0x182139380
 	|-EnumSByteTypeInfo<uint>.WriteMetadata
 	|
-	|-RVA: 0x21395D0 Offset: 0x2137BD0 VA: 0x1821395D0
+	|-RVA: 0x2139410 Offset: 0x2137A10 VA: 0x182139410
 	|-EnumSByteTypeInfo<ulong>.WriteMetadata
 	|
-	|-RVA: 0x1B48E10 Offset: 0x1B47410 VA: 0x181B48E10
+	|-RVA: 0x1B48C50 Offset: 0x1B47250 VA: 0x181B48C50
 	|-EnumSByteTypeInfo<UIntPtr>.WriteMetadata
 	*/
 
@@ -2650,70 +2650,70 @@ internal sealed class EnumSByteTypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTyp
 	public override void WriteData(TraceLoggingDataCollector collector, ref EnumType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2138F40 Offset: 0x2137540 VA: 0x182138F40
+	|-RVA: 0x2138D80 Offset: 0x2137380 VA: 0x182138D80
 	|-EnumSByteTypeInfo<bool>.WriteData
 	|
-	|-RVA: 0x2139130 Offset: 0x2137730 VA: 0x182139130
+	|-RVA: 0x2138F70 Offset: 0x2137570 VA: 0x182138F70
 	|-EnumSByteTypeInfo<byte>.WriteData
 	|
-	|-RVA: 0x2138840 Offset: 0x2136E40 VA: 0x182138840
+	|-RVA: 0x2138680 Offset: 0x2136C80 VA: 0x182138680
 	|-EnumSByteTypeInfo<char>.WriteData
 	|
-	|-RVA: 0x2138AD0 Offset: 0x21370D0 VA: 0x182138AD0
+	|-RVA: 0x2138910 Offset: 0x2136F10 VA: 0x182138910
 	|-EnumSByteTypeInfo<KeyValuePair<object, object>>.WriteData
 	|
-	|-RVA: 0x2138FE0 Offset: 0x21375E0 VA: 0x182138FE0
+	|-RVA: 0x2138E20 Offset: 0x2137420 VA: 0x182138E20
 	|-EnumSByteTypeInfo<DateTime>.WriteData
 	|
-	|-RVA: 0x2139080 Offset: 0x2137680 VA: 0x182139080
+	|-RVA: 0x2138EC0 Offset: 0x21374C0 VA: 0x182138EC0
 	|-EnumSByteTypeInfo<DateTimeOffset>.WriteData
 	|
-	|-RVA: 0x2138980 Offset: 0x2136F80 VA: 0x182138980
+	|-RVA: 0x21387C0 Offset: 0x2136DC0 VA: 0x1821387C0
 	|-EnumSByteTypeInfo<Decimal>.WriteData
 	|
-	|-RVA: 0x2138A30 Offset: 0x2137030 VA: 0x182138A30
+	|-RVA: 0x2138870 Offset: 0x2136E70 VA: 0x182138870
 	|-EnumSByteTypeInfo<EmptyStruct>.WriteData
 	|
-	|-RVA: 0x2138EA0 Offset: 0x21374A0 VA: 0x182138EA0
+	|-RVA: 0x2138CE0 Offset: 0x21372E0 VA: 0x182138CE0
 	|-EnumSByteTypeInfo<double>.WriteData
 	|
-	|-RVA: 0x2138CC0 Offset: 0x21372C0 VA: 0x182138CC0
+	|-RVA: 0x2138B00 Offset: 0x2137100 VA: 0x182138B00
 	|-EnumSByteTypeInfo<Guid>.WriteData
 	|
-	|-RVA: 0x2138D70 Offset: 0x2137370 VA: 0x182138D70
+	|-RVA: 0x2138BB0 Offset: 0x21371B0 VA: 0x182138BB0
 	|-EnumSByteTypeInfo<short>.WriteData
 	|
-	|-RVA: 0x2138670 Offset: 0x2136C70 VA: 0x182138670
+	|-RVA: 0x21384B0 Offset: 0x2136AB0 VA: 0x1821384B0
 	|-EnumSByteTypeInfo<int>.WriteData
 	|
-	|-RVA: 0x21387A0 Offset: 0x2136DA0 VA: 0x1821387A0
+	|-RVA: 0x21385E0 Offset: 0x2136BE0 VA: 0x1821385E0
 	|-EnumSByteTypeInfo<long>.WriteData
 	|
-	|-RVA: 0x2138B80 Offset: 0x2137180 VA: 0x182138B80
+	|-RVA: 0x21389C0 Offset: 0x2136FC0 VA: 0x1821389C0
 	|-EnumSByteTypeInfo<IntPtr>.WriteData
 	|
-	|-RVA: 0x2138700 Offset: 0x2136D00 VA: 0x182138700
+	|-RVA: 0x2138540 Offset: 0x2136B40 VA: 0x182138540
 	|-EnumSByteTypeInfo<object>.WriteData
 	|
-	|-RVA: 0x21385D0 Offset: 0x2136BD0 VA: 0x1821385D0
+	|-RVA: 0x2138410 Offset: 0x2136A10 VA: 0x182138410
 	|-EnumSByteTypeInfo<sbyte>.WriteData
 	|
-	|-RVA: 0x21391D0 Offset: 0x21377D0 VA: 0x1821391D0
+	|-RVA: 0x2139010 Offset: 0x2137610 VA: 0x182139010
 	|-EnumSByteTypeInfo<float>.WriteData
 	|
-	|-RVA: 0x2138530 Offset: 0x2136B30 VA: 0x182138530
+	|-RVA: 0x2138370 Offset: 0x2136970 VA: 0x182138370
 	|-EnumSByteTypeInfo<TimeSpan>.WriteData
 	|
-	|-RVA: 0x2138C20 Offset: 0x2137220 VA: 0x182138C20
+	|-RVA: 0x2138A60 Offset: 0x2137060 VA: 0x182138A60
 	|-EnumSByteTypeInfo<ushort>.WriteData
 	|
-	|-RVA: 0x2138E10 Offset: 0x2137410 VA: 0x182138E10
+	|-RVA: 0x2138C50 Offset: 0x2137250 VA: 0x182138C50
 	|-EnumSByteTypeInfo<uint>.WriteData
 	|
-	|-RVA: 0x21388E0 Offset: 0x2136EE0 VA: 0x1821388E0
+	|-RVA: 0x2138720 Offset: 0x2136D20 VA: 0x182138720
 	|-EnumSByteTypeInfo<ulong>.WriteData
 	|
-	|-RVA: 0x1B48D70 Offset: 0x1B47370 VA: 0x181B48D70
+	|-RVA: 0x1B48BB0 Offset: 0x1B471B0 VA: 0x181B48BB0
 	|-EnumSByteTypeInfo<UIntPtr>.WriteData
 	*/
 
@@ -2750,7 +2750,7 @@ internal sealed class EnumSByteTypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTyp
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BFCE0 Offset: 0x19BE2E0 VA: 0x1819BFCE0
+	|-RVA: 0x19BFCA0 Offset: 0x19BE2A0 VA: 0x1819BFCA0
 	|-EnumSByteTypeInfo<bool>..ctor
 	|-EnumSByteTypeInfo<byte>..ctor
 	|-EnumSByteTypeInfo<char>..ctor
@@ -2784,70 +2784,70 @@ internal sealed class EnumInt16TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTyp
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2134A80 Offset: 0x2133080 VA: 0x182134A80
+	|-RVA: 0x21348C0 Offset: 0x2132EC0 VA: 0x1821348C0
 	|-EnumInt16TypeInfo<bool>.WriteMetadata
 	|
-	|-RVA: 0x2134720 Offset: 0x2132D20 VA: 0x182134720
+	|-RVA: 0x2134560 Offset: 0x2132B60 VA: 0x182134560
 	|-EnumInt16TypeInfo<byte>.WriteMetadata
 	|
-	|-RVA: 0x2134CC0 Offset: 0x21332C0 VA: 0x182134CC0
+	|-RVA: 0x2134B00 Offset: 0x2133100 VA: 0x182134B00
 	|-EnumInt16TypeInfo<char>.WriteMetadata
 	|
-	|-RVA: 0x2134840 Offset: 0x2132E40 VA: 0x182134840
+	|-RVA: 0x2134680 Offset: 0x2132C80 VA: 0x182134680
 	|-EnumInt16TypeInfo<KeyValuePair<object, object>>.WriteMetadata
 	|
-	|-RVA: 0x2134E70 Offset: 0x2133470 VA: 0x182134E70
+	|-RVA: 0x2134CB0 Offset: 0x21332B0 VA: 0x182134CB0
 	|-EnumInt16TypeInfo<DateTime>.WriteMetadata
 	|
-	|-RVA: 0x2134D50 Offset: 0x2133350 VA: 0x182134D50
+	|-RVA: 0x2134B90 Offset: 0x2133190 VA: 0x182134B90
 	|-EnumInt16TypeInfo<DateTimeOffset>.WriteMetadata
 	|
-	|-RVA: 0x2134450 Offset: 0x2132A50 VA: 0x182134450
+	|-RVA: 0x2134290 Offset: 0x2132890 VA: 0x182134290
 	|-EnumInt16TypeInfo<Decimal>.WriteMetadata
 	|
-	|-RVA: 0x2135020 Offset: 0x2133620 VA: 0x182135020
+	|-RVA: 0x2134E60 Offset: 0x2133460 VA: 0x182134E60
 	|-EnumInt16TypeInfo<EmptyStruct>.WriteMetadata
 	|
-	|-RVA: 0x2134690 Offset: 0x2132C90 VA: 0x182134690
+	|-RVA: 0x21344D0 Offset: 0x2132AD0 VA: 0x1821344D0
 	|-EnumInt16TypeInfo<double>.WriteMetadata
 	|
-	|-RVA: 0x2134F90 Offset: 0x2133590 VA: 0x182134F90
+	|-RVA: 0x2134DD0 Offset: 0x21333D0 VA: 0x182134DD0
 	|-EnumInt16TypeInfo<Guid>.WriteMetadata
 	|
-	|-RVA: 0x2134B10 Offset: 0x2133110 VA: 0x182134B10
+	|-RVA: 0x2134950 Offset: 0x2132F50 VA: 0x182134950
 	|-EnumInt16TypeInfo<short>.WriteMetadata
 	|
-	|-RVA: 0x2134DE0 Offset: 0x21333E0 VA: 0x182134DE0
+	|-RVA: 0x2134C20 Offset: 0x2133220 VA: 0x182134C20
 	|-EnumInt16TypeInfo<int>.WriteMetadata
 	|
-	|-RVA: 0x2134F00 Offset: 0x2133500 VA: 0x182134F00
+	|-RVA: 0x2134D40 Offset: 0x2133340 VA: 0x182134D40
 	|-EnumInt16TypeInfo<long>.WriteMetadata
 	|
-	|-RVA: 0x21344E0 Offset: 0x2132AE0 VA: 0x1821344E0
+	|-RVA: 0x2134320 Offset: 0x2132920 VA: 0x182134320
 	|-EnumInt16TypeInfo<IntPtr>.WriteMetadata
 	|
-	|-RVA: 0x2134C30 Offset: 0x2133230 VA: 0x182134C30
+	|-RVA: 0x2134A70 Offset: 0x2133070 VA: 0x182134A70
 	|-EnumInt16TypeInfo<object>.WriteMetadata
 	|
-	|-RVA: 0x2134600 Offset: 0x2132C00 VA: 0x182134600
+	|-RVA: 0x2134440 Offset: 0x2132A40 VA: 0x182134440
 	|-EnumInt16TypeInfo<sbyte>.WriteMetadata
 	|
-	|-RVA: 0x2134960 Offset: 0x2132F60 VA: 0x182134960
+	|-RVA: 0x21347A0 Offset: 0x2132DA0 VA: 0x1821347A0
 	|-EnumInt16TypeInfo<float>.WriteMetadata
 	|
-	|-RVA: 0x21349F0 Offset: 0x2132FF0 VA: 0x1821349F0
+	|-RVA: 0x2134830 Offset: 0x2132E30 VA: 0x182134830
 	|-EnumInt16TypeInfo<TimeSpan>.WriteMetadata
 	|
-	|-RVA: 0x21348D0 Offset: 0x2132ED0 VA: 0x1821348D0
+	|-RVA: 0x2134710 Offset: 0x2132D10 VA: 0x182134710
 	|-EnumInt16TypeInfo<ushort>.WriteMetadata
 	|
-	|-RVA: 0x2134570 Offset: 0x2132B70 VA: 0x182134570
+	|-RVA: 0x21343B0 Offset: 0x21329B0 VA: 0x1821343B0
 	|-EnumInt16TypeInfo<uint>.WriteMetadata
 	|
-	|-RVA: 0x2134BA0 Offset: 0x21331A0 VA: 0x182134BA0
+	|-RVA: 0x21349E0 Offset: 0x2132FE0 VA: 0x1821349E0
 	|-EnumInt16TypeInfo<ulong>.WriteMetadata
 	|
-	|-RVA: 0x21347B0 Offset: 0x2132DB0 VA: 0x1821347B0
+	|-RVA: 0x21345F0 Offset: 0x2132BF0 VA: 0x1821345F0
 	|-EnumInt16TypeInfo<UIntPtr>.WriteMetadata
 	*/
 
@@ -2855,70 +2855,70 @@ internal sealed class EnumInt16TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTyp
 	public override void WriteData(TraceLoggingDataCollector collector, ref EnumType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2133700 Offset: 0x2131D00 VA: 0x182133700
+	|-RVA: 0x2133540 Offset: 0x2131B40 VA: 0x182133540
 	|-EnumInt16TypeInfo<bool>.WriteData
 	|
-	|-RVA: 0x2133840 Offset: 0x2131E40 VA: 0x182133840
+	|-RVA: 0x2133680 Offset: 0x2131C80 VA: 0x182133680
 	|-EnumInt16TypeInfo<byte>.WriteData
 	|
-	|-RVA: 0x2133F30 Offset: 0x2132530 VA: 0x182133F30
+	|-RVA: 0x2133D70 Offset: 0x2132370 VA: 0x182133D70
 	|-EnumInt16TypeInfo<char>.WriteData
 	|
-	|-RVA: 0x2134260 Offset: 0x2132860 VA: 0x182134260
+	|-RVA: 0x21340A0 Offset: 0x21326A0 VA: 0x1821340A0
 	|-EnumInt16TypeInfo<KeyValuePair<object, object>>.WriteData
 	|
-	|-RVA: 0x2133980 Offset: 0x2131F80 VA: 0x182133980
+	|-RVA: 0x21337C0 Offset: 0x2131DC0 VA: 0x1821337C0
 	|-EnumInt16TypeInfo<DateTime>.WriteData
 	|
-	|-RVA: 0x2133AC0 Offset: 0x21320C0 VA: 0x182133AC0
+	|-RVA: 0x2133900 Offset: 0x2131F00 VA: 0x182133900
 	|-EnumInt16TypeInfo<DateTimeOffset>.WriteData
 	|
-	|-RVA: 0x2133FD0 Offset: 0x21325D0 VA: 0x182133FD0
+	|-RVA: 0x2133E10 Offset: 0x2132410 VA: 0x182133E10
 	|-EnumInt16TypeInfo<Decimal>.WriteData
 	|
-	|-RVA: 0x2133DF0 Offset: 0x21323F0 VA: 0x182133DF0
+	|-RVA: 0x2133C30 Offset: 0x2132230 VA: 0x182133C30
 	|-EnumInt16TypeInfo<EmptyStruct>.WriteData
 	|
-	|-RVA: 0x2133B70 Offset: 0x2132170 VA: 0x182133B70
+	|-RVA: 0x21339B0 Offset: 0x2131FB0 VA: 0x1821339B0
 	|-EnumInt16TypeInfo<double>.WriteData
 	|
-	|-RVA: 0x2134080 Offset: 0x2132680 VA: 0x182134080
+	|-RVA: 0x2133EC0 Offset: 0x21324C0 VA: 0x182133EC0
 	|-EnumInt16TypeInfo<Guid>.WriteData
 	|
-	|-RVA: 0x2133C10 Offset: 0x2132210 VA: 0x182133C10
+	|-RVA: 0x2133A50 Offset: 0x2132050 VA: 0x182133A50
 	|-EnumInt16TypeInfo<short>.WriteData
 	|
-	|-RVA: 0x2133670 Offset: 0x2131C70 VA: 0x182133670
+	|-RVA: 0x21334B0 Offset: 0x2131AB0 VA: 0x1821334B0
 	|-EnumInt16TypeInfo<int>.WriteData
 	|
-	|-RVA: 0x2134310 Offset: 0x2132910 VA: 0x182134310
+	|-RVA: 0x2134150 Offset: 0x2132750 VA: 0x182134150
 	|-EnumInt16TypeInfo<long>.WriteData
 	|
-	|-RVA: 0x2133CB0 Offset: 0x21322B0 VA: 0x182133CB0
+	|-RVA: 0x2133AF0 Offset: 0x21320F0 VA: 0x182133AF0
 	|-EnumInt16TypeInfo<IntPtr>.WriteData
 	|
-	|-RVA: 0x21338E0 Offset: 0x2131EE0 VA: 0x1821338E0
+	|-RVA: 0x2133720 Offset: 0x2131D20 VA: 0x182133720
 	|-EnumInt16TypeInfo<object>.WriteData
 	|
-	|-RVA: 0x21343B0 Offset: 0x21329B0 VA: 0x1821343B0
+	|-RVA: 0x21341F0 Offset: 0x21327F0 VA: 0x1821341F0
 	|-EnumInt16TypeInfo<sbyte>.WriteData
 	|
-	|-RVA: 0x2133A20 Offset: 0x2132020 VA: 0x182133A20
+	|-RVA: 0x2133860 Offset: 0x2131E60 VA: 0x182133860
 	|-EnumInt16TypeInfo<float>.WriteData
 	|
-	|-RVA: 0x2133E90 Offset: 0x2132490 VA: 0x182133E90
+	|-RVA: 0x2133CD0 Offset: 0x21322D0 VA: 0x182133CD0
 	|-EnumInt16TypeInfo<TimeSpan>.WriteData
 	|
-	|-RVA: 0x2134130 Offset: 0x2132730 VA: 0x182134130
+	|-RVA: 0x2133F70 Offset: 0x2132570 VA: 0x182133F70
 	|-EnumInt16TypeInfo<ushort>.WriteData
 	|
-	|-RVA: 0x21341D0 Offset: 0x21327D0 VA: 0x1821341D0
+	|-RVA: 0x2134010 Offset: 0x2132610 VA: 0x182134010
 	|-EnumInt16TypeInfo<uint>.WriteData
 	|
-	|-RVA: 0x21337A0 Offset: 0x2131DA0 VA: 0x1821337A0
+	|-RVA: 0x21335E0 Offset: 0x2131BE0 VA: 0x1821335E0
 	|-EnumInt16TypeInfo<ulong>.WriteData
 	|
-	|-RVA: 0x2133D50 Offset: 0x2132350 VA: 0x182133D50
+	|-RVA: 0x2133B90 Offset: 0x2132190 VA: 0x182133B90
 	|-EnumInt16TypeInfo<UIntPtr>.WriteData
 	*/
 
@@ -2955,7 +2955,7 @@ internal sealed class EnumInt16TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTyp
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BFCE0 Offset: 0x19BE2E0 VA: 0x1819BFCE0
+	|-RVA: 0x19BFCA0 Offset: 0x19BE2A0 VA: 0x1819BFCA0
 	|-EnumInt16TypeInfo<bool>..ctor
 	|-EnumInt16TypeInfo<byte>..ctor
 	|-EnumInt16TypeInfo<char>..ctor
@@ -2989,70 +2989,70 @@ internal sealed class EnumUInt16TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTy
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B4A190 Offset: 0x1B48790 VA: 0x181B4A190
+	|-RVA: 0x1B49FD0 Offset: 0x1B485D0 VA: 0x181B49FD0
 	|-EnumUInt16TypeInfo<bool>.WriteMetadata
 	|
-	|-RVA: 0x1B4A2B0 Offset: 0x1B488B0 VA: 0x181B4A2B0
+	|-RVA: 0x1B4A0F0 Offset: 0x1B486F0 VA: 0x181B4A0F0
 	|-EnumUInt16TypeInfo<byte>.WriteMetadata
 	|
-	|-RVA: 0x1B4A6A0 Offset: 0x1B48CA0 VA: 0x181B4A6A0
+	|-RVA: 0x1B4A4E0 Offset: 0x1B48AE0 VA: 0x181B4A4E0
 	|-EnumUInt16TypeInfo<char>.WriteMetadata
 	|
-	|-RVA: 0x1B4A580 Offset: 0x1B48B80 VA: 0x181B4A580
+	|-RVA: 0x1B4A3C0 Offset: 0x1B489C0 VA: 0x181B4A3C0
 	|-EnumUInt16TypeInfo<KeyValuePair<object, object>>.WriteMetadata
 	|
-	|-RVA: 0x1B4A340 Offset: 0x1B48940 VA: 0x181B4A340
+	|-RVA: 0x1B4A180 Offset: 0x1B48780 VA: 0x181B4A180
 	|-EnumUInt16TypeInfo<DateTime>.WriteMetadata
 	|
-	|-RVA: 0x1B4A070 Offset: 0x1B48670 VA: 0x181B4A070
+	|-RVA: 0x1B49EB0 Offset: 0x1B484B0 VA: 0x181B49EB0
 	|-EnumUInt16TypeInfo<DateTimeOffset>.WriteMetadata
 	|
-	|-RVA: 0x1B4A7C0 Offset: 0x1B48DC0 VA: 0x181B4A7C0
+	|-RVA: 0x1B4A600 Offset: 0x1B48C00 VA: 0x181B4A600
 	|-EnumUInt16TypeInfo<Decimal>.WriteMetadata
 	|
-	|-RVA: 0x1B4A460 Offset: 0x1B48A60 VA: 0x181B4A460
+	|-RVA: 0x1B4A2A0 Offset: 0x1B488A0 VA: 0x181B4A2A0
 	|-EnumUInt16TypeInfo<EmptyStruct>.WriteMetadata
 	|
-	|-RVA: 0x1B49D10 Offset: 0x1B48310 VA: 0x181B49D10
+	|-RVA: 0x1B49B50 Offset: 0x1B48150 VA: 0x181B49B50
 	|-EnumUInt16TypeInfo<double>.WriteMetadata
 	|
-	|-RVA: 0x1B49F50 Offset: 0x1B48550 VA: 0x181B49F50
+	|-RVA: 0x1B49D90 Offset: 0x1B48390 VA: 0x181B49D90
 	|-EnumUInt16TypeInfo<Guid>.WriteMetadata
 	|
-	|-RVA: 0x1B49DA0 Offset: 0x1B483A0 VA: 0x181B49DA0
+	|-RVA: 0x1B49BE0 Offset: 0x1B481E0 VA: 0x181B49BE0
 	|-EnumUInt16TypeInfo<short>.WriteMetadata
 	|
-	|-RVA: 0x1B4A3D0 Offset: 0x1B489D0 VA: 0x181B4A3D0
+	|-RVA: 0x1B4A210 Offset: 0x1B48810 VA: 0x181B4A210
 	|-EnumUInt16TypeInfo<int>.WriteMetadata
 	|
-	|-RVA: 0x1B49C80 Offset: 0x1B48280 VA: 0x181B49C80
+	|-RVA: 0x1B49AC0 Offset: 0x1B480C0 VA: 0x181B49AC0
 	|-EnumUInt16TypeInfo<long>.WriteMetadata
 	|
-	|-RVA: 0x1B49E30 Offset: 0x1B48430 VA: 0x181B49E30
+	|-RVA: 0x1B49C70 Offset: 0x1B48270 VA: 0x181B49C70
 	|-EnumUInt16TypeInfo<IntPtr>.WriteMetadata
 	|
-	|-RVA: 0x1B4A610 Offset: 0x1B48C10 VA: 0x181B4A610
+	|-RVA: 0x1B4A450 Offset: 0x1B48A50 VA: 0x181B4A450
 	|-EnumUInt16TypeInfo<object>.WriteMetadata
 	|
-	|-RVA: 0x1B49EC0 Offset: 0x1B484C0 VA: 0x181B49EC0
+	|-RVA: 0x1B49D00 Offset: 0x1B48300 VA: 0x181B49D00
 	|-EnumUInt16TypeInfo<sbyte>.WriteMetadata
 	|
-	|-RVA: 0x1B4A850 Offset: 0x1B48E50 VA: 0x181B4A850
+	|-RVA: 0x1B4A690 Offset: 0x1B48C90 VA: 0x181B4A690
 	|-EnumUInt16TypeInfo<float>.WriteMetadata
 	|
-	|-RVA: 0x1B49FE0 Offset: 0x1B485E0 VA: 0x181B49FE0
+	|-RVA: 0x1B49E20 Offset: 0x1B48420 VA: 0x181B49E20
 	|-EnumUInt16TypeInfo<TimeSpan>.WriteMetadata
 	|
-	|-RVA: 0x1B4A220 Offset: 0x1B48820 VA: 0x181B4A220
+	|-RVA: 0x1B4A060 Offset: 0x1B48660 VA: 0x181B4A060
 	|-EnumUInt16TypeInfo<ushort>.WriteMetadata
 	|
-	|-RVA: 0x1B4A100 Offset: 0x1B48700 VA: 0x181B4A100
+	|-RVA: 0x1B49F40 Offset: 0x1B48540 VA: 0x181B49F40
 	|-EnumUInt16TypeInfo<uint>.WriteMetadata
 	|
-	|-RVA: 0x1B4A730 Offset: 0x1B48D30 VA: 0x181B4A730
+	|-RVA: 0x1B4A570 Offset: 0x1B48B70 VA: 0x181B4A570
 	|-EnumUInt16TypeInfo<ulong>.WriteMetadata
 	|
-	|-RVA: 0x1B4A4F0 Offset: 0x1B48AF0 VA: 0x181B4A4F0
+	|-RVA: 0x1B4A330 Offset: 0x1B48930 VA: 0x181B4A330
 	|-EnumUInt16TypeInfo<UIntPtr>.WriteMetadata
 	*/
 
@@ -3060,70 +3060,70 @@ internal sealed class EnumUInt16TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTy
 	public override void WriteData(TraceLoggingDataCollector collector, ref EnumType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B49760 Offset: 0x1B47D60 VA: 0x181B49760
+	|-RVA: 0x1B495A0 Offset: 0x1B47BA0 VA: 0x181B495A0
 	|-EnumUInt16TypeInfo<bool>.WriteData
 	|
-	|-RVA: 0x1B49310 Offset: 0x1B47910 VA: 0x181B49310
+	|-RVA: 0x1B49150 Offset: 0x1B47750 VA: 0x181B49150
 	|-EnumUInt16TypeInfo<byte>.WriteData
 	|
-	|-RVA: 0x1B49270 Offset: 0x1B47870 VA: 0x181B49270
+	|-RVA: 0x1B490B0 Offset: 0x1B476B0 VA: 0x181B490B0
 	|-EnumUInt16TypeInfo<char>.WriteData
 	|
-	|-RVA: 0x1B49B30 Offset: 0x1B48130 VA: 0x181B49B30
+	|-RVA: 0x1B49970 Offset: 0x1B47F70 VA: 0x181B49970
 	|-EnumUInt16TypeInfo<KeyValuePair<object, object>>.WriteData
 	|
-	|-RVA: 0x1B494F0 Offset: 0x1B47AF0 VA: 0x181B494F0
+	|-RVA: 0x1B49330 Offset: 0x1B47930 VA: 0x181B49330
 	|-EnumUInt16TypeInfo<DateTime>.WriteData
 	|
-	|-RVA: 0x1B49800 Offset: 0x1B47E00 VA: 0x181B49800
+	|-RVA: 0x1B49640 Offset: 0x1B47C40 VA: 0x181B49640
 	|-EnumUInt16TypeInfo<DateTimeOffset>.WriteData
 	|
-	|-RVA: 0x1B48FE0 Offset: 0x1B475E0 VA: 0x181B48FE0
+	|-RVA: 0x1B48E20 Offset: 0x1B47420 VA: 0x181B48E20
 	|-EnumUInt16TypeInfo<Decimal>.WriteData
 	|
-	|-RVA: 0x1B48EA0 Offset: 0x1B474A0 VA: 0x181B48EA0
+	|-RVA: 0x1B48CE0 Offset: 0x1B472E0 VA: 0x181B48CE0
 	|-EnumUInt16TypeInfo<EmptyStruct>.WriteData
 	|
-	|-RVA: 0x1B49450 Offset: 0x1B47A50 VA: 0x181B49450
+	|-RVA: 0x1B49290 Offset: 0x1B47890 VA: 0x181B49290
 	|-EnumUInt16TypeInfo<double>.WriteData
 	|
-	|-RVA: 0x1B49950 Offset: 0x1B47F50 VA: 0x181B49950
+	|-RVA: 0x1B49790 Offset: 0x1B47D90 VA: 0x181B49790
 	|-EnumUInt16TypeInfo<Guid>.WriteData
 	|
-	|-RVA: 0x1B493B0 Offset: 0x1B479B0 VA: 0x181B493B0
+	|-RVA: 0x1B491F0 Offset: 0x1B477F0 VA: 0x181B491F0
 	|-EnumUInt16TypeInfo<short>.WriteData
 	|
-	|-RVA: 0x1B49A00 Offset: 0x1B48000 VA: 0x181B49A00
+	|-RVA: 0x1B49840 Offset: 0x1B47E40 VA: 0x181B49840
 	|-EnumUInt16TypeInfo<int>.WriteData
 	|
-	|-RVA: 0x1B49090 Offset: 0x1B47690 VA: 0x181B49090
+	|-RVA: 0x1B48ED0 Offset: 0x1B474D0 VA: 0x181B48ED0
 	|-EnumUInt16TypeInfo<long>.WriteData
 	|
-	|-RVA: 0x1B491D0 Offset: 0x1B477D0 VA: 0x181B491D0
+	|-RVA: 0x1B49010 Offset: 0x1B47610 VA: 0x181B49010
 	|-EnumUInt16TypeInfo<IntPtr>.WriteData
 	|
-	|-RVA: 0x1B498B0 Offset: 0x1B47EB0 VA: 0x181B498B0
+	|-RVA: 0x1B496F0 Offset: 0x1B47CF0 VA: 0x181B496F0
 	|-EnumUInt16TypeInfo<object>.WriteData
 	|
-	|-RVA: 0x1B496C0 Offset: 0x1B47CC0 VA: 0x181B496C0
+	|-RVA: 0x1B49500 Offset: 0x1B47B00 VA: 0x181B49500
 	|-EnumUInt16TypeInfo<sbyte>.WriteData
 	|
-	|-RVA: 0x1B49BE0 Offset: 0x1B481E0 VA: 0x181B49BE0
+	|-RVA: 0x1B49A20 Offset: 0x1B48020 VA: 0x181B49A20
 	|-EnumUInt16TypeInfo<float>.WriteData
 	|
-	|-RVA: 0x1B49130 Offset: 0x1B47730 VA: 0x181B49130
+	|-RVA: 0x1B48F70 Offset: 0x1B47570 VA: 0x181B48F70
 	|-EnumUInt16TypeInfo<TimeSpan>.WriteData
 	|
-	|-RVA: 0x1B49A90 Offset: 0x1B48090 VA: 0x181B49A90
+	|-RVA: 0x1B498D0 Offset: 0x1B47ED0 VA: 0x181B498D0
 	|-EnumUInt16TypeInfo<ushort>.WriteData
 	|
-	|-RVA: 0x1B49590 Offset: 0x1B47B90 VA: 0x181B49590
+	|-RVA: 0x1B493D0 Offset: 0x1B479D0 VA: 0x181B493D0
 	|-EnumUInt16TypeInfo<uint>.WriteData
 	|
-	|-RVA: 0x1B49620 Offset: 0x1B47C20 VA: 0x181B49620
+	|-RVA: 0x1B49460 Offset: 0x1B47A60 VA: 0x181B49460
 	|-EnumUInt16TypeInfo<ulong>.WriteData
 	|
-	|-RVA: 0x1B48F40 Offset: 0x1B47540 VA: 0x181B48F40
+	|-RVA: 0x1B48D80 Offset: 0x1B47380 VA: 0x181B48D80
 	|-EnumUInt16TypeInfo<UIntPtr>.WriteData
 	*/
 
@@ -3160,7 +3160,7 @@ internal sealed class EnumUInt16TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTy
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BFCE0 Offset: 0x19BE2E0 VA: 0x1819BFCE0
+	|-RVA: 0x19BFCA0 Offset: 0x19BE2A0 VA: 0x1819BFCA0
 	|-EnumUInt16TypeInfo<bool>..ctor
 	|-EnumUInt16TypeInfo<byte>..ctor
 	|-EnumUInt16TypeInfo<char>..ctor
@@ -3194,70 +3194,70 @@ internal sealed class EnumInt32TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTyp
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x21368B0 Offset: 0x2134EB0 VA: 0x1821368B0
+	|-RVA: 0x21366F0 Offset: 0x2134CF0 VA: 0x1821366F0
 	|-EnumInt32TypeInfo<bool>.WriteMetadata
 	|
-	|-RVA: 0x2136A60 Offset: 0x2135060 VA: 0x182136A60
+	|-RVA: 0x21368A0 Offset: 0x2134EA0 VA: 0x1821368A0
 	|-EnumInt32TypeInfo<byte>.WriteMetadata
 	|
-	|-RVA: 0x2136700 Offset: 0x2134D00 VA: 0x182136700
+	|-RVA: 0x2136540 Offset: 0x2134B40 VA: 0x182136540
 	|-EnumInt32TypeInfo<char>.WriteMetadata
 	|
-	|-RVA: 0x21364C0 Offset: 0x2134AC0 VA: 0x1821364C0
+	|-RVA: 0x2136300 Offset: 0x2134900 VA: 0x182136300
 	|-EnumInt32TypeInfo<KeyValuePair<object, object>>.WriteMetadata
 	|
-	|-RVA: 0x2136040 Offset: 0x2134640 VA: 0x182136040
+	|-RVA: 0x2135E80 Offset: 0x2134480 VA: 0x182135E80
 	|-EnumInt32TypeInfo<DateTime>.WriteMetadata
 	|
-	|-RVA: 0x2136310 Offset: 0x2134910 VA: 0x182136310
+	|-RVA: 0x2136150 Offset: 0x2134750 VA: 0x182136150
 	|-EnumInt32TypeInfo<DateTimeOffset>.WriteMetadata
 	|
-	|-RVA: 0x2136160 Offset: 0x2134760 VA: 0x182136160
+	|-RVA: 0x2135FA0 Offset: 0x21345A0 VA: 0x182135FA0
 	|-EnumInt32TypeInfo<Decimal>.WriteMetadata
 	|
-	|-RVA: 0x2136550 Offset: 0x2134B50 VA: 0x182136550
+	|-RVA: 0x2136390 Offset: 0x2134990 VA: 0x182136390
 	|-EnumInt32TypeInfo<EmptyStruct>.WriteMetadata
 	|
-	|-RVA: 0x21363A0 Offset: 0x21349A0 VA: 0x1821363A0
+	|-RVA: 0x21361E0 Offset: 0x21347E0 VA: 0x1821361E0
 	|-EnumInt32TypeInfo<double>.WriteMetadata
 	|
-	|-RVA: 0x2135F20 Offset: 0x2134520 VA: 0x182135F20
+	|-RVA: 0x2135D60 Offset: 0x2134360 VA: 0x182135D60
 	|-EnumInt32TypeInfo<Guid>.WriteMetadata
 	|
-	|-RVA: 0x21361F0 Offset: 0x21347F0 VA: 0x1821361F0
+	|-RVA: 0x2136030 Offset: 0x2134630 VA: 0x182136030
 	|-EnumInt32TypeInfo<short>.WriteMetadata
 	|
-	|-RVA: 0x2136430 Offset: 0x2134A30 VA: 0x182136430
+	|-RVA: 0x2136270 Offset: 0x2134870 VA: 0x182136270
 	|-EnumInt32TypeInfo<int>.WriteMetadata
 	|
-	|-RVA: 0x2135FB0 Offset: 0x21345B0 VA: 0x182135FB0
+	|-RVA: 0x2135DF0 Offset: 0x21343F0 VA: 0x182135DF0
 	|-EnumInt32TypeInfo<long>.WriteMetadata
 	|
-	|-RVA: 0x21360D0 Offset: 0x21346D0 VA: 0x1821360D0
+	|-RVA: 0x2135F10 Offset: 0x2134510 VA: 0x182135F10
 	|-EnumInt32TypeInfo<IntPtr>.WriteMetadata
 	|
-	|-RVA: 0x2136940 Offset: 0x2134F40 VA: 0x182136940
+	|-RVA: 0x2136780 Offset: 0x2134D80 VA: 0x182136780
 	|-EnumInt32TypeInfo<object>.WriteMetadata
 	|
-	|-RVA: 0x2136820 Offset: 0x2134E20 VA: 0x182136820
+	|-RVA: 0x2136660 Offset: 0x2134C60 VA: 0x182136660
 	|-EnumInt32TypeInfo<sbyte>.WriteMetadata
 	|
-	|-RVA: 0x2136670 Offset: 0x2134C70 VA: 0x182136670
+	|-RVA: 0x21364B0 Offset: 0x2134AB0 VA: 0x1821364B0
 	|-EnumInt32TypeInfo<float>.WriteMetadata
 	|
-	|-RVA: 0x2135E90 Offset: 0x2134490 VA: 0x182135E90
+	|-RVA: 0x2135CD0 Offset: 0x21342D0 VA: 0x182135CD0
 	|-EnumInt32TypeInfo<TimeSpan>.WriteMetadata
 	|
-	|-RVA: 0x21365E0 Offset: 0x2134BE0 VA: 0x1821365E0
+	|-RVA: 0x2136420 Offset: 0x2134A20 VA: 0x182136420
 	|-EnumInt32TypeInfo<ushort>.WriteMetadata
 	|
-	|-RVA: 0x2136790 Offset: 0x2134D90 VA: 0x182136790
+	|-RVA: 0x21365D0 Offset: 0x2134BD0 VA: 0x1821365D0
 	|-EnumInt32TypeInfo<uint>.WriteMetadata
 	|
-	|-RVA: 0x2136280 Offset: 0x2134880 VA: 0x182136280
+	|-RVA: 0x21360C0 Offset: 0x21346C0 VA: 0x1821360C0
 	|-EnumInt32TypeInfo<ulong>.WriteMetadata
 	|
-	|-RVA: 0x21369D0 Offset: 0x2134FD0 VA: 0x1821369D0
+	|-RVA: 0x2136810 Offset: 0x2134E10 VA: 0x182136810
 	|-EnumInt32TypeInfo<UIntPtr>.WriteMetadata
 	*/
 
@@ -3265,70 +3265,70 @@ internal sealed class EnumInt32TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTyp
 	public override void WriteData(TraceLoggingDataCollector collector, ref EnumType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x21350B0 Offset: 0x21336B0 VA: 0x1821350B0
+	|-RVA: 0x2134EF0 Offset: 0x21334F0 VA: 0x182134EF0
 	|-EnumInt32TypeInfo<bool>.WriteData
 	|
-	|-RVA: 0x2135DF0 Offset: 0x21343F0 VA: 0x182135DF0
+	|-RVA: 0x2135C30 Offset: 0x2134230 VA: 0x182135C30
 	|-EnumInt32TypeInfo<byte>.WriteData
 	|
-	|-RVA: 0x2135D50 Offset: 0x2134350 VA: 0x182135D50
+	|-RVA: 0x2135B90 Offset: 0x2134190 VA: 0x182135B90
 	|-EnumInt32TypeInfo<char>.WriteData
 	|
-	|-RVA: 0x21351F0 Offset: 0x21337F0 VA: 0x1821351F0
+	|-RVA: 0x2135030 Offset: 0x2133630 VA: 0x182135030
 	|-EnumInt32TypeInfo<KeyValuePair<object, object>>.WriteData
 	|
-	|-RVA: 0x21357C0 Offset: 0x2133DC0 VA: 0x1821357C0
+	|-RVA: 0x2135600 Offset: 0x2133C00 VA: 0x182135600
 	|-EnumInt32TypeInfo<DateTime>.WriteData
 	|
-	|-RVA: 0x21355D0 Offset: 0x2133BD0 VA: 0x1821355D0
+	|-RVA: 0x2135410 Offset: 0x2133A10 VA: 0x182135410
 	|-EnumInt32TypeInfo<DateTimeOffset>.WriteData
 	|
-	|-RVA: 0x21352A0 Offset: 0x21338A0 VA: 0x1821352A0
+	|-RVA: 0x21350E0 Offset: 0x21336E0 VA: 0x1821350E0
 	|-EnumInt32TypeInfo<Decimal>.WriteData
 	|
-	|-RVA: 0x2135860 Offset: 0x2133E60 VA: 0x182135860
+	|-RVA: 0x21356A0 Offset: 0x2133CA0 VA: 0x1821356A0
 	|-EnumInt32TypeInfo<EmptyStruct>.WriteData
 	|
-	|-RVA: 0x2135350 Offset: 0x2133950 VA: 0x182135350
+	|-RVA: 0x2135190 Offset: 0x2133790 VA: 0x182135190
 	|-EnumInt32TypeInfo<double>.WriteData
 	|
-	|-RVA: 0x2135B70 Offset: 0x2134170 VA: 0x182135B70
+	|-RVA: 0x21359B0 Offset: 0x2133FB0 VA: 0x1821359B0
 	|-EnumInt32TypeInfo<Guid>.WriteData
 	|
-	|-RVA: 0x21353F0 Offset: 0x21339F0 VA: 0x1821353F0
+	|-RVA: 0x2135230 Offset: 0x2133830 VA: 0x182135230
 	|-EnumInt32TypeInfo<short>.WriteData
 	|
-	|-RVA: 0x2135CC0 Offset: 0x21342C0 VA: 0x182135CC0
+	|-RVA: 0x2135B00 Offset: 0x2134100 VA: 0x182135B00
 	|-EnumInt32TypeInfo<int>.WriteData
 	|
-	|-RVA: 0x2135490 Offset: 0x2133A90 VA: 0x182135490
+	|-RVA: 0x21352D0 Offset: 0x21338D0 VA: 0x1821352D0
 	|-EnumInt32TypeInfo<long>.WriteData
 	|
-	|-RVA: 0x2135C20 Offset: 0x2134220 VA: 0x182135C20
+	|-RVA: 0x2135A60 Offset: 0x2134060 VA: 0x182135A60
 	|-EnumInt32TypeInfo<IntPtr>.WriteData
 	|
-	|-RVA: 0x2135A40 Offset: 0x2134040 VA: 0x182135A40
+	|-RVA: 0x2135880 Offset: 0x2133E80 VA: 0x182135880
 	|-EnumInt32TypeInfo<object>.WriteData
 	|
-	|-RVA: 0x2135150 Offset: 0x2133750 VA: 0x182135150
+	|-RVA: 0x2134F90 Offset: 0x2133590 VA: 0x182134F90
 	|-EnumInt32TypeInfo<sbyte>.WriteData
 	|
-	|-RVA: 0x2135720 Offset: 0x2133D20 VA: 0x182135720
+	|-RVA: 0x2135560 Offset: 0x2133B60 VA: 0x182135560
 	|-EnumInt32TypeInfo<float>.WriteData
 	|
-	|-RVA: 0x2135900 Offset: 0x2133F00 VA: 0x182135900
+	|-RVA: 0x2135740 Offset: 0x2133D40 VA: 0x182135740
 	|-EnumInt32TypeInfo<TimeSpan>.WriteData
 	|
-	|-RVA: 0x21359A0 Offset: 0x2133FA0 VA: 0x1821359A0
+	|-RVA: 0x21357E0 Offset: 0x2133DE0 VA: 0x1821357E0
 	|-EnumInt32TypeInfo<ushort>.WriteData
 	|
-	|-RVA: 0x2135AE0 Offset: 0x21340E0 VA: 0x182135AE0
+	|-RVA: 0x2135920 Offset: 0x2133F20 VA: 0x182135920
 	|-EnumInt32TypeInfo<uint>.WriteData
 	|
-	|-RVA: 0x2135680 Offset: 0x2133C80 VA: 0x182135680
+	|-RVA: 0x21354C0 Offset: 0x2133AC0 VA: 0x1821354C0
 	|-EnumInt32TypeInfo<ulong>.WriteData
 	|
-	|-RVA: 0x2135530 Offset: 0x2133B30 VA: 0x182135530
+	|-RVA: 0x2135370 Offset: 0x2133970 VA: 0x182135370
 	|-EnumInt32TypeInfo<UIntPtr>.WriteData
 	*/
 
@@ -3365,7 +3365,7 @@ internal sealed class EnumInt32TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTyp
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BFCE0 Offset: 0x19BE2E0 VA: 0x1819BFCE0
+	|-RVA: 0x19BFCA0 Offset: 0x19BE2A0 VA: 0x1819BFCA0
 	|-EnumInt32TypeInfo<bool>..ctor
 	|-EnumInt32TypeInfo<byte>..ctor
 	|-EnumInt32TypeInfo<char>..ctor
@@ -3399,70 +3399,70 @@ internal sealed class EnumUInt32TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTy
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B4BF30 Offset: 0x1B4A530 VA: 0x181B4BF30
+	|-RVA: 0x1B4BD70 Offset: 0x1B4A370 VA: 0x181B4BD70
 	|-EnumUInt32TypeInfo<bool>.WriteMetadata
 	|
-	|-RVA: 0x1B4B750 Offset: 0x1B49D50 VA: 0x181B4B750
+	|-RVA: 0x1B4B590 Offset: 0x1B49B90 VA: 0x181B4B590
 	|-EnumUInt32TypeInfo<byte>.WriteMetadata
 	|
-	|-RVA: 0x1B4BC60 Offset: 0x1B4A260 VA: 0x181B4BC60
+	|-RVA: 0x1B4BAA0 Offset: 0x1B4A0A0 VA: 0x181B4BAA0
 	|-EnumUInt32TypeInfo<char>.WriteMetadata
 	|
-	|-RVA: 0x1B4BBD0 Offset: 0x1B4A1D0 VA: 0x181B4BBD0
+	|-RVA: 0x1B4BA10 Offset: 0x1B4A010 VA: 0x181B4BA10
 	|-EnumUInt32TypeInfo<KeyValuePair<object, object>>.WriteMetadata
 	|
-	|-RVA: 0x1B4BD80 Offset: 0x1B4A380 VA: 0x181B4BD80
+	|-RVA: 0x1B4BBC0 Offset: 0x1B4A1C0 VA: 0x181B4BBC0
 	|-EnumUInt32TypeInfo<DateTime>.WriteMetadata
 	|
-	|-RVA: 0x1B4B870 Offset: 0x1B49E70 VA: 0x181B4B870
+	|-RVA: 0x1B4B6B0 Offset: 0x1B49CB0 VA: 0x181B4B6B0
 	|-EnumUInt32TypeInfo<DateTimeOffset>.WriteMetadata
 	|
-	|-RVA: 0x1B4B6C0 Offset: 0x1B49CC0 VA: 0x181B4B6C0
+	|-RVA: 0x1B4B500 Offset: 0x1B49B00 VA: 0x181B4B500
 	|-EnumUInt32TypeInfo<Decimal>.WriteMetadata
 	|
-	|-RVA: 0x1B4B7E0 Offset: 0x1B49DE0 VA: 0x181B4B7E0
+	|-RVA: 0x1B4B620 Offset: 0x1B49C20 VA: 0x181B4B620
 	|-EnumUInt32TypeInfo<EmptyStruct>.WriteMetadata
 	|
-	|-RVA: 0x1B4C170 Offset: 0x1B4A770 VA: 0x181B4C170
+	|-RVA: 0x1B4BFB0 Offset: 0x1B4A5B0 VA: 0x181B4BFB0
 	|-EnumUInt32TypeInfo<double>.WriteMetadata
 	|
-	|-RVA: 0x1B4BB40 Offset: 0x1B4A140 VA: 0x181B4BB40
+	|-RVA: 0x1B4B980 Offset: 0x1B49F80 VA: 0x181B4B980
 	|-EnumUInt32TypeInfo<Guid>.WriteMetadata
 	|
-	|-RVA: 0x1B4BE10 Offset: 0x1B4A410 VA: 0x181B4BE10
+	|-RVA: 0x1B4BC50 Offset: 0x1B4A250 VA: 0x181B4BC50
 	|-EnumUInt32TypeInfo<short>.WriteMetadata
 	|
-	|-RVA: 0x1B4C050 Offset: 0x1B4A650 VA: 0x181B4C050
+	|-RVA: 0x1B4BE90 Offset: 0x1B4A490 VA: 0x181B4BE90
 	|-EnumUInt32TypeInfo<int>.WriteMetadata
 	|
-	|-RVA: 0x1B4BFC0 Offset: 0x1B4A5C0 VA: 0x181B4BFC0
+	|-RVA: 0x1B4BE00 Offset: 0x1B4A400 VA: 0x181B4BE00
 	|-EnumUInt32TypeInfo<long>.WriteMetadata
 	|
-	|-RVA: 0x1B4BAB0 Offset: 0x1B4A0B0 VA: 0x181B4BAB0
+	|-RVA: 0x1B4B8F0 Offset: 0x1B49EF0 VA: 0x181B4B8F0
 	|-EnumUInt32TypeInfo<IntPtr>.WriteMetadata
 	|
-	|-RVA: 0x1B4B990 Offset: 0x1B49F90 VA: 0x181B4B990
+	|-RVA: 0x1B4B7D0 Offset: 0x1B49DD0 VA: 0x181B4B7D0
 	|-EnumUInt32TypeInfo<object>.WriteMetadata
 	|
-	|-RVA: 0x1B4C290 Offset: 0x1B4A890 VA: 0x181B4C290
+	|-RVA: 0x1B4C0D0 Offset: 0x1B4A6D0 VA: 0x181B4C0D0
 	|-EnumUInt32TypeInfo<sbyte>.WriteMetadata
 	|
-	|-RVA: 0x1B4BCF0 Offset: 0x1B4A2F0 VA: 0x181B4BCF0
+	|-RVA: 0x1B4BB30 Offset: 0x1B4A130 VA: 0x181B4BB30
 	|-EnumUInt32TypeInfo<float>.WriteMetadata
 	|
-	|-RVA: 0x1B4C0E0 Offset: 0x1B4A6E0 VA: 0x181B4C0E0
+	|-RVA: 0x1B4BF20 Offset: 0x1B4A520 VA: 0x181B4BF20
 	|-EnumUInt32TypeInfo<TimeSpan>.WriteMetadata
 	|
-	|-RVA: 0x1B4BA20 Offset: 0x1B4A020 VA: 0x181B4BA20
+	|-RVA: 0x1B4B860 Offset: 0x1B49E60 VA: 0x181B4B860
 	|-EnumUInt32TypeInfo<ushort>.WriteMetadata
 	|
-	|-RVA: 0x1B4C200 Offset: 0x1B4A800 VA: 0x181B4C200
+	|-RVA: 0x1B4C040 Offset: 0x1B4A640 VA: 0x181B4C040
 	|-EnumUInt32TypeInfo<uint>.WriteMetadata
 	|
-	|-RVA: 0x1B4B900 Offset: 0x1B49F00 VA: 0x181B4B900
+	|-RVA: 0x1B4B740 Offset: 0x1B49D40 VA: 0x181B4B740
 	|-EnumUInt32TypeInfo<ulong>.WriteMetadata
 	|
-	|-RVA: 0x1B4BEA0 Offset: 0x1B4A4A0 VA: 0x181B4BEA0
+	|-RVA: 0x1B4BCE0 Offset: 0x1B4A2E0 VA: 0x181B4BCE0
 	|-EnumUInt32TypeInfo<UIntPtr>.WriteMetadata
 	*/
 
@@ -3470,70 +3470,70 @@ internal sealed class EnumUInt32TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTy
 	public override void WriteData(TraceLoggingDataCollector collector, ref EnumType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B4B2F0 Offset: 0x1B498F0 VA: 0x181B4B2F0
+	|-RVA: 0x1B4B130 Offset: 0x1B49730 VA: 0x181B4B130
 	|-EnumUInt32TypeInfo<bool>.WriteData
 	|
-	|-RVA: 0x1B4AFB0 Offset: 0x1B495B0 VA: 0x181B4AFB0
+	|-RVA: 0x1B4ADF0 Offset: 0x1B493F0 VA: 0x181B4ADF0
 	|-EnumUInt32TypeInfo<byte>.WriteData
 	|
-	|-RVA: 0x1B4AD20 Offset: 0x1B49320 VA: 0x181B4AD20
+	|-RVA: 0x1B4AB60 Offset: 0x1B49160 VA: 0x181B4AB60
 	|-EnumUInt32TypeInfo<char>.WriteData
 	|
-	|-RVA: 0x1B4B240 Offset: 0x1B49840 VA: 0x181B4B240
+	|-RVA: 0x1B4B080 Offset: 0x1B49680 VA: 0x181B4B080
 	|-EnumUInt32TypeInfo<KeyValuePair<object, object>>.WriteData
 	|
-	|-RVA: 0x1B4A8E0 Offset: 0x1B48EE0 VA: 0x181B4A8E0
+	|-RVA: 0x1B4A720 Offset: 0x1B48D20 VA: 0x181B4A720
 	|-EnumUInt32TypeInfo<DateTime>.WriteData
 	|
-	|-RVA: 0x1B4B4D0 Offset: 0x1B49AD0 VA: 0x181B4B4D0
+	|-RVA: 0x1B4B310 Offset: 0x1B49910 VA: 0x181B4B310
 	|-EnumUInt32TypeInfo<DateTimeOffset>.WriteData
 	|
-	|-RVA: 0x1B4B190 Offset: 0x1B49790 VA: 0x181B4B190
+	|-RVA: 0x1B4AFD0 Offset: 0x1B495D0 VA: 0x181B4AFD0
 	|-EnumUInt32TypeInfo<Decimal>.WriteData
 	|
-	|-RVA: 0x1B4AB40 Offset: 0x1B49140 VA: 0x181B4AB40
+	|-RVA: 0x1B4A980 Offset: 0x1B48F80 VA: 0x181B4A980
 	|-EnumUInt32TypeInfo<EmptyStruct>.WriteData
 	|
-	|-RVA: 0x1B4B390 Offset: 0x1B49990 VA: 0x181B4B390
+	|-RVA: 0x1B4B1D0 Offset: 0x1B497D0 VA: 0x181B4B1D0
 	|-EnumUInt32TypeInfo<double>.WriteData
 	|
-	|-RVA: 0x1B4ADC0 Offset: 0x1B493C0 VA: 0x181B4ADC0
+	|-RVA: 0x1B4AC00 Offset: 0x1B49200 VA: 0x181B4AC00
 	|-EnumUInt32TypeInfo<Guid>.WriteData
 	|
-	|-RVA: 0x1B4A980 Offset: 0x1B48F80 VA: 0x181B4A980
+	|-RVA: 0x1B4A7C0 Offset: 0x1B48DC0 VA: 0x181B4A7C0
 	|-EnumUInt32TypeInfo<short>.WriteData
 	|
-	|-RVA: 0x1B4AAB0 Offset: 0x1B490B0 VA: 0x181B4AAB0
+	|-RVA: 0x1B4A8F0 Offset: 0x1B48EF0 VA: 0x181B4A8F0
 	|-EnumUInt32TypeInfo<int>.WriteData
 	|
-	|-RVA: 0x1B4AE70 Offset: 0x1B49470 VA: 0x181B4AE70
+	|-RVA: 0x1B4ACB0 Offset: 0x1B492B0 VA: 0x181B4ACB0
 	|-EnumUInt32TypeInfo<long>.WriteData
 	|
-	|-RVA: 0x1B4B580 Offset: 0x1B49B80 VA: 0x181B4B580
+	|-RVA: 0x1B4B3C0 Offset: 0x1B499C0 VA: 0x181B4B3C0
 	|-EnumUInt32TypeInfo<IntPtr>.WriteData
 	|
-	|-RVA: 0x1B4B430 Offset: 0x1B49A30 VA: 0x181B4B430
+	|-RVA: 0x1B4B270 Offset: 0x1B49870 VA: 0x181B4B270
 	|-EnumUInt32TypeInfo<object>.WriteData
 	|
-	|-RVA: 0x1B4AC80 Offset: 0x1B49280 VA: 0x181B4AC80
+	|-RVA: 0x1B4AAC0 Offset: 0x1B490C0 VA: 0x181B4AAC0
 	|-EnumUInt32TypeInfo<sbyte>.WriteData
 	|
-	|-RVA: 0x1B4AF10 Offset: 0x1B49510 VA: 0x181B4AF10
+	|-RVA: 0x1B4AD50 Offset: 0x1B49350 VA: 0x181B4AD50
 	|-EnumUInt32TypeInfo<float>.WriteData
 	|
-	|-RVA: 0x1B4B620 Offset: 0x1B49C20 VA: 0x181B4B620
+	|-RVA: 0x1B4B460 Offset: 0x1B49A60 VA: 0x181B4B460
 	|-EnumUInt32TypeInfo<TimeSpan>.WriteData
 	|
-	|-RVA: 0x1B4ABE0 Offset: 0x1B491E0 VA: 0x181B4ABE0
+	|-RVA: 0x1B4AA20 Offset: 0x1B49020 VA: 0x181B4AA20
 	|-EnumUInt32TypeInfo<ushort>.WriteData
 	|
-	|-RVA: 0x1B4AA20 Offset: 0x1B49020 VA: 0x181B4AA20
+	|-RVA: 0x1B4A860 Offset: 0x1B48E60 VA: 0x181B4A860
 	|-EnumUInt32TypeInfo<uint>.WriteData
 	|
-	|-RVA: 0x1B4B050 Offset: 0x1B49650 VA: 0x181B4B050
+	|-RVA: 0x1B4AE90 Offset: 0x1B49490 VA: 0x181B4AE90
 	|-EnumUInt32TypeInfo<ulong>.WriteData
 	|
-	|-RVA: 0x1B4B0F0 Offset: 0x1B496F0 VA: 0x181B4B0F0
+	|-RVA: 0x1B4AF30 Offset: 0x1B49530 VA: 0x181B4AF30
 	|-EnumUInt32TypeInfo<UIntPtr>.WriteData
 	*/
 
@@ -3570,7 +3570,7 @@ internal sealed class EnumUInt32TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTy
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BFCE0 Offset: 0x19BE2E0 VA: 0x1819BFCE0
+	|-RVA: 0x19BFCA0 Offset: 0x19BE2A0 VA: 0x1819BFCA0
 	|-EnumUInt32TypeInfo<bool>..ctor
 	|-EnumUInt32TypeInfo<byte>..ctor
 	|-EnumUInt32TypeInfo<char>..ctor
@@ -3604,70 +3604,70 @@ internal sealed class EnumInt64TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTyp
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2137B10 Offset: 0x2136110 VA: 0x182137B10
+	|-RVA: 0x2137950 Offset: 0x2135F50 VA: 0x182137950
 	|-EnumInt64TypeInfo<bool>.WriteMetadata
 	|
-	|-RVA: 0x2137E70 Offset: 0x2136470 VA: 0x182137E70
+	|-RVA: 0x2137CB0 Offset: 0x21362B0 VA: 0x182137CB0
 	|-EnumInt64TypeInfo<byte>.WriteMetadata
 	|
-	|-RVA: 0x2138020 Offset: 0x2136620 VA: 0x182138020
+	|-RVA: 0x2137E60 Offset: 0x2136460 VA: 0x182137E60
 	|-EnumInt64TypeInfo<char>.WriteMetadata
 	|
-	|-RVA: 0x2137DE0 Offset: 0x21363E0 VA: 0x182137DE0
+	|-RVA: 0x2137C20 Offset: 0x2136220 VA: 0x182137C20
 	|-EnumInt64TypeInfo<KeyValuePair<object, object>>.WriteMetadata
 	|
-	|-RVA: 0x2137BA0 Offset: 0x21361A0 VA: 0x182137BA0
+	|-RVA: 0x21379E0 Offset: 0x2135FE0 VA: 0x1821379E0
 	|-EnumInt64TypeInfo<DateTime>.WriteMetadata
 	|
-	|-RVA: 0x2138380 Offset: 0x2136980 VA: 0x182138380
+	|-RVA: 0x21381C0 Offset: 0x21367C0 VA: 0x1821381C0
 	|-EnumInt64TypeInfo<DateTimeOffset>.WriteMetadata
 	|
-	|-RVA: 0x2137A80 Offset: 0x2136080 VA: 0x182137A80
+	|-RVA: 0x21378C0 Offset: 0x2135EC0 VA: 0x1821378C0
 	|-EnumInt64TypeInfo<Decimal>.WriteMetadata
 	|
-	|-RVA: 0x2137960 Offset: 0x2135F60 VA: 0x182137960
+	|-RVA: 0x21377A0 Offset: 0x2135DA0 VA: 0x1821377A0
 	|-EnumInt64TypeInfo<EmptyStruct>.WriteMetadata
 	|
-	|-RVA: 0x2137D50 Offset: 0x2136350 VA: 0x182137D50
+	|-RVA: 0x2137B90 Offset: 0x2136190 VA: 0x182137B90
 	|-EnumInt64TypeInfo<double>.WriteMetadata
 	|
-	|-RVA: 0x2137F00 Offset: 0x2136500 VA: 0x182137F00
+	|-RVA: 0x2137D40 Offset: 0x2136340 VA: 0x182137D40
 	|-EnumInt64TypeInfo<Guid>.WriteMetadata
 	|
-	|-RVA: 0x2138140 Offset: 0x2136740 VA: 0x182138140
+	|-RVA: 0x2137F80 Offset: 0x2136580 VA: 0x182137F80
 	|-EnumInt64TypeInfo<short>.WriteMetadata
 	|
-	|-RVA: 0x21378D0 Offset: 0x2135ED0 VA: 0x1821378D0
+	|-RVA: 0x2137710 Offset: 0x2135D10 VA: 0x182137710
 	|-EnumInt64TypeInfo<int>.WriteMetadata
 	|
-	|-RVA: 0x2137CC0 Offset: 0x21362C0 VA: 0x182137CC0
+	|-RVA: 0x2137B00 Offset: 0x2136100 VA: 0x182137B00
 	|-EnumInt64TypeInfo<long>.WriteMetadata
 	|
-	|-RVA: 0x2138410 Offset: 0x2136A10 VA: 0x182138410
+	|-RVA: 0x2138250 Offset: 0x2136850 VA: 0x182138250
 	|-EnumInt64TypeInfo<IntPtr>.WriteMetadata
 	|
-	|-RVA: 0x21380B0 Offset: 0x21366B0 VA: 0x1821380B0
+	|-RVA: 0x2137EF0 Offset: 0x21364F0 VA: 0x182137EF0
 	|-EnumInt64TypeInfo<object>.WriteMetadata
 	|
-	|-RVA: 0x21381D0 Offset: 0x21367D0 VA: 0x1821381D0
+	|-RVA: 0x2138010 Offset: 0x2136610 VA: 0x182138010
 	|-EnumInt64TypeInfo<sbyte>.WriteMetadata
 	|
-	|-RVA: 0x2137C30 Offset: 0x2136230 VA: 0x182137C30
+	|-RVA: 0x2137A70 Offset: 0x2136070 VA: 0x182137A70
 	|-EnumInt64TypeInfo<float>.WriteMetadata
 	|
-	|-RVA: 0x21384A0 Offset: 0x2136AA0 VA: 0x1821384A0
+	|-RVA: 0x21382E0 Offset: 0x21368E0 VA: 0x1821382E0
 	|-EnumInt64TypeInfo<TimeSpan>.WriteMetadata
 	|
-	|-RVA: 0x21382F0 Offset: 0x21368F0 VA: 0x1821382F0
+	|-RVA: 0x2138130 Offset: 0x2136730 VA: 0x182138130
 	|-EnumInt64TypeInfo<ushort>.WriteMetadata
 	|
-	|-RVA: 0x21379F0 Offset: 0x2135FF0 VA: 0x1821379F0
+	|-RVA: 0x2137830 Offset: 0x2135E30 VA: 0x182137830
 	|-EnumInt64TypeInfo<uint>.WriteMetadata
 	|
-	|-RVA: 0x2138260 Offset: 0x2136860 VA: 0x182138260
+	|-RVA: 0x21380A0 Offset: 0x21366A0 VA: 0x1821380A0
 	|-EnumInt64TypeInfo<ulong>.WriteMetadata
 	|
-	|-RVA: 0x2137F90 Offset: 0x2136590 VA: 0x182137F90
+	|-RVA: 0x2137DD0 Offset: 0x21363D0 VA: 0x182137DD0
 	|-EnumInt64TypeInfo<UIntPtr>.WriteMetadata
 	*/
 
@@ -3675,70 +3675,70 @@ internal sealed class EnumInt64TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTyp
 	public override void WriteData(TraceLoggingDataCollector collector, ref EnumType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2137640 Offset: 0x2135C40 VA: 0x182137640
+	|-RVA: 0x2137480 Offset: 0x2135A80 VA: 0x182137480
 	|-EnumInt64TypeInfo<bool>.WriteData
 	|
-	|-RVA: 0x2136E30 Offset: 0x2135430 VA: 0x182136E30
+	|-RVA: 0x2136C70 Offset: 0x2135270 VA: 0x182136C70
 	|-EnumInt64TypeInfo<byte>.WriteData
 	|
-	|-RVA: 0x2137330 Offset: 0x2135930 VA: 0x182137330
+	|-RVA: 0x2137170 Offset: 0x2135770 VA: 0x182137170
 	|-EnumInt64TypeInfo<char>.WriteData
 	|
-	|-RVA: 0x2137780 Offset: 0x2135D80 VA: 0x182137780
+	|-RVA: 0x21375C0 Offset: 0x2135BC0 VA: 0x1821375C0
 	|-EnumInt64TypeInfo<KeyValuePair<object, object>>.WriteData
 	|
-	|-RVA: 0x2136ED0 Offset: 0x21354D0 VA: 0x182136ED0
+	|-RVA: 0x2136D10 Offset: 0x2135310 VA: 0x182136D10
 	|-EnumInt64TypeInfo<DateTime>.WriteData
 	|
-	|-RVA: 0x2136D80 Offset: 0x2135380 VA: 0x182136D80
+	|-RVA: 0x2136BC0 Offset: 0x21351C0 VA: 0x182136BC0
 	|-EnumInt64TypeInfo<DateTimeOffset>.WriteData
 	|
-	|-RVA: 0x2137140 Offset: 0x2135740 VA: 0x182137140
+	|-RVA: 0x2136F80 Offset: 0x2135580 VA: 0x182136F80
 	|-EnumInt64TypeInfo<Decimal>.WriteData
 	|
-	|-RVA: 0x2136C40 Offset: 0x2135240 VA: 0x182136C40
+	|-RVA: 0x2136A80 Offset: 0x2135080 VA: 0x182136A80
 	|-EnumInt64TypeInfo<EmptyStruct>.WriteData
 	|
-	|-RVA: 0x2137830 Offset: 0x2135E30 VA: 0x182137830
+	|-RVA: 0x2137670 Offset: 0x2135C70 VA: 0x182137670
 	|-EnumInt64TypeInfo<double>.WriteData
 	|
-	|-RVA: 0x2136B90 Offset: 0x2135190 VA: 0x182136B90
+	|-RVA: 0x21369D0 Offset: 0x2134FD0 VA: 0x1821369D0
 	|-EnumInt64TypeInfo<Guid>.WriteData
 	|
-	|-RVA: 0x2137500 Offset: 0x2135B00 VA: 0x182137500
+	|-RVA: 0x2137340 Offset: 0x2135940 VA: 0x182137340
 	|-EnumInt64TypeInfo<short>.WriteData
 	|
-	|-RVA: 0x21373D0 Offset: 0x21359D0 VA: 0x1821373D0
+	|-RVA: 0x2137210 Offset: 0x2135810 VA: 0x182137210
 	|-EnumInt64TypeInfo<int>.WriteData
 	|
-	|-RVA: 0x21370A0 Offset: 0x21356A0 VA: 0x1821370A0
+	|-RVA: 0x2136EE0 Offset: 0x21354E0 VA: 0x182136EE0
 	|-EnumInt64TypeInfo<long>.WriteData
 	|
-	|-RVA: 0x2137460 Offset: 0x2135A60 VA: 0x182137460
+	|-RVA: 0x21372A0 Offset: 0x21358A0 VA: 0x1821372A0
 	|-EnumInt64TypeInfo<IntPtr>.WriteData
 	|
-	|-RVA: 0x2136AF0 Offset: 0x21350F0 VA: 0x182136AF0
+	|-RVA: 0x2136930 Offset: 0x2134F30 VA: 0x182136930
 	|-EnumInt64TypeInfo<object>.WriteData
 	|
-	|-RVA: 0x21375A0 Offset: 0x2135BA0 VA: 0x1821375A0
+	|-RVA: 0x21373E0 Offset: 0x21359E0 VA: 0x1821373E0
 	|-EnumInt64TypeInfo<sbyte>.WriteData
 	|
-	|-RVA: 0x21376E0 Offset: 0x2135CE0 VA: 0x1821376E0
+	|-RVA: 0x2137520 Offset: 0x2135B20 VA: 0x182137520
 	|-EnumInt64TypeInfo<float>.WriteData
 	|
-	|-RVA: 0x2136CE0 Offset: 0x21352E0 VA: 0x182136CE0
+	|-RVA: 0x2136B20 Offset: 0x2135120 VA: 0x182136B20
 	|-EnumInt64TypeInfo<TimeSpan>.WriteData
 	|
-	|-RVA: 0x2137290 Offset: 0x2135890 VA: 0x182137290
+	|-RVA: 0x21370D0 Offset: 0x21356D0 VA: 0x1821370D0
 	|-EnumInt64TypeInfo<ushort>.WriteData
 	|
-	|-RVA: 0x2137010 Offset: 0x2135610 VA: 0x182137010
+	|-RVA: 0x2136E50 Offset: 0x2135450 VA: 0x182136E50
 	|-EnumInt64TypeInfo<uint>.WriteData
 	|
-	|-RVA: 0x2136F70 Offset: 0x2135570 VA: 0x182136F70
+	|-RVA: 0x2136DB0 Offset: 0x21353B0 VA: 0x182136DB0
 	|-EnumInt64TypeInfo<ulong>.WriteData
 	|
-	|-RVA: 0x21371F0 Offset: 0x21357F0 VA: 0x1821371F0
+	|-RVA: 0x2137030 Offset: 0x2135630 VA: 0x182137030
 	|-EnumInt64TypeInfo<UIntPtr>.WriteData
 	*/
 
@@ -3775,7 +3775,7 @@ internal sealed class EnumInt64TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTyp
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BFCE0 Offset: 0x19BE2E0 VA: 0x1819BFCE0
+	|-RVA: 0x19BFCA0 Offset: 0x19BE2A0 VA: 0x1819BFCA0
 	|-EnumInt64TypeInfo<bool>..ctor
 	|-EnumInt64TypeInfo<byte>..ctor
 	|-EnumInt64TypeInfo<char>..ctor
@@ -3809,70 +3809,70 @@ internal sealed class EnumUInt64TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTy
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B4DC40 Offset: 0x1B4C240 VA: 0x181B4DC40
+	|-RVA: 0x1B4DA80 Offset: 0x1B4C080 VA: 0x181B4DA80
 	|-EnumUInt64TypeInfo<bool>.WriteMetadata
 	|
-	|-RVA: 0x1B4D610 Offset: 0x1B4BC10 VA: 0x181B4D610
+	|-RVA: 0x1B4D450 Offset: 0x1B4BA50 VA: 0x181B4D450
 	|-EnumUInt64TypeInfo<byte>.WriteMetadata
 	|
-	|-RVA: 0x1B4D340 Offset: 0x1B4B940 VA: 0x181B4D340
+	|-RVA: 0x1B4D180 Offset: 0x1B4B780 VA: 0x181B4D180
 	|-EnumUInt64TypeInfo<char>.WriteMetadata
 	|
-	|-RVA: 0x1B4DA90 Offset: 0x1B4C090 VA: 0x181B4DA90
+	|-RVA: 0x1B4D8D0 Offset: 0x1B4BED0 VA: 0x181B4D8D0
 	|-EnumUInt64TypeInfo<KeyValuePair<object, object>>.WriteMetadata
 	|
-	|-RVA: 0x1B4DB20 Offset: 0x1B4C120 VA: 0x181B4DB20
+	|-RVA: 0x1B4D960 Offset: 0x1B4BF60 VA: 0x181B4D960
 	|-EnumUInt64TypeInfo<DateTime>.WriteMetadata
 	|
-	|-RVA: 0x1B4D460 Offset: 0x1B4BA60 VA: 0x181B4D460
+	|-RVA: 0x1B4D2A0 Offset: 0x1B4B8A0 VA: 0x181B4D2A0
 	|-EnumUInt64TypeInfo<DateTimeOffset>.WriteMetadata
 	|
-	|-RVA: 0x1B4D220 Offset: 0x1B4B820 VA: 0x181B4D220
+	|-RVA: 0x1B4D060 Offset: 0x1B4B660 VA: 0x181B4D060
 	|-EnumUInt64TypeInfo<Decimal>.WriteMetadata
 	|
-	|-RVA: 0x1B4D2B0 Offset: 0x1B4B8B0 VA: 0x181B4D2B0
+	|-RVA: 0x1B4D0F0 Offset: 0x1B4B6F0 VA: 0x181B4D0F0
 	|-EnumUInt64TypeInfo<EmptyStruct>.WriteMetadata
 	|
-	|-RVA: 0x1B4DA00 Offset: 0x1B4C000 VA: 0x181B4DA00
+	|-RVA: 0x1B4D840 Offset: 0x1B4BE40 VA: 0x181B4D840
 	|-EnumUInt64TypeInfo<double>.WriteMetadata
 	|
-	|-RVA: 0x1B4D580 Offset: 0x1B4BB80 VA: 0x181B4D580
+	|-RVA: 0x1B4D3C0 Offset: 0x1B4B9C0 VA: 0x181B4D3C0
 	|-EnumUInt64TypeInfo<Guid>.WriteMetadata
 	|
-	|-RVA: 0x1B4D970 Offset: 0x1B4BF70 VA: 0x181B4D970
+	|-RVA: 0x1B4D7B0 Offset: 0x1B4BDB0 VA: 0x181B4D7B0
 	|-EnumUInt64TypeInfo<short>.WriteMetadata
 	|
-	|-RVA: 0x1B4D7C0 Offset: 0x1B4BDC0 VA: 0x181B4D7C0
+	|-RVA: 0x1B4D600 Offset: 0x1B4BC00 VA: 0x181B4D600
 	|-EnumUInt64TypeInfo<int>.WriteMetadata
 	|
-	|-RVA: 0x1B4DCD0 Offset: 0x1B4C2D0 VA: 0x181B4DCD0
+	|-RVA: 0x1B4DB10 Offset: 0x1B4C110 VA: 0x181B4DB10
 	|-EnumUInt64TypeInfo<long>.WriteMetadata
 	|
-	|-RVA: 0x1B4D8E0 Offset: 0x1B4BEE0 VA: 0x181B4D8E0
+	|-RVA: 0x1B4D720 Offset: 0x1B4BD20 VA: 0x181B4D720
 	|-EnumUInt64TypeInfo<IntPtr>.WriteMetadata
 	|
-	|-RVA: 0x1B4D100 Offset: 0x1B4B700 VA: 0x181B4D100
+	|-RVA: 0x1B4CF40 Offset: 0x1B4B540 VA: 0x181B4CF40
 	|-EnumUInt64TypeInfo<object>.WriteMetadata
 	|
-	|-RVA: 0x1B4D3D0 Offset: 0x1B4B9D0 VA: 0x181B4D3D0
+	|-RVA: 0x1B4D210 Offset: 0x1B4B810 VA: 0x181B4D210
 	|-EnumUInt64TypeInfo<sbyte>.WriteMetadata
 	|
-	|-RVA: 0x1B4DBB0 Offset: 0x1B4C1B0 VA: 0x181B4DBB0
+	|-RVA: 0x1B4D9F0 Offset: 0x1B4BFF0 VA: 0x181B4D9F0
 	|-EnumUInt64TypeInfo<float>.WriteMetadata
 	|
-	|-RVA: 0x1B4D850 Offset: 0x1B4BE50 VA: 0x181B4D850
+	|-RVA: 0x1B4D690 Offset: 0x1B4BC90 VA: 0x181B4D690
 	|-EnumUInt64TypeInfo<TimeSpan>.WriteMetadata
 	|
-	|-RVA: 0x1B4D6A0 Offset: 0x1B4BCA0 VA: 0x181B4D6A0
+	|-RVA: 0x1B4D4E0 Offset: 0x1B4BAE0 VA: 0x181B4D4E0
 	|-EnumUInt64TypeInfo<ushort>.WriteMetadata
 	|
-	|-RVA: 0x1B4D4F0 Offset: 0x1B4BAF0 VA: 0x181B4D4F0
+	|-RVA: 0x1B4D330 Offset: 0x1B4B930 VA: 0x181B4D330
 	|-EnumUInt64TypeInfo<uint>.WriteMetadata
 	|
-	|-RVA: 0x1B4D190 Offset: 0x1B4B790 VA: 0x181B4D190
+	|-RVA: 0x1B4CFD0 Offset: 0x1B4B5D0 VA: 0x181B4CFD0
 	|-EnumUInt64TypeInfo<ulong>.WriteMetadata
 	|
-	|-RVA: 0x1B4D730 Offset: 0x1B4BD30 VA: 0x181B4D730
+	|-RVA: 0x1B4D570 Offset: 0x1B4BB70 VA: 0x181B4D570
 	|-EnumUInt64TypeInfo<UIntPtr>.WriteMetadata
 	*/
 
@@ -3880,70 +3880,70 @@ internal sealed class EnumUInt64TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTy
 	public override void WriteData(TraceLoggingDataCollector collector, ref EnumType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B4C5A0 Offset: 0x1B4ABA0 VA: 0x181B4C5A0
+	|-RVA: 0x1B4C3E0 Offset: 0x1B4A9E0 VA: 0x181B4C3E0
 	|-EnumUInt64TypeInfo<bool>.WriteData
 	|
-	|-RVA: 0x1B4C790 Offset: 0x1B4AD90 VA: 0x181B4C790
+	|-RVA: 0x1B4C5D0 Offset: 0x1B4ABD0 VA: 0x181B4C5D0
 	|-EnumUInt64TypeInfo<byte>.WriteData
 	|
-	|-RVA: 0x1B4C500 Offset: 0x1B4AB00 VA: 0x181B4C500
+	|-RVA: 0x1B4C340 Offset: 0x1B4A940 VA: 0x181B4C340
 	|-EnumUInt64TypeInfo<char>.WriteData
 	|
-	|-RVA: 0x1B4CDB0 Offset: 0x1B4B3B0 VA: 0x181B4CDB0
+	|-RVA: 0x1B4CBF0 Offset: 0x1B4B1F0 VA: 0x181B4CBF0
 	|-EnumUInt64TypeInfo<KeyValuePair<object, object>>.WriteData
 	|
-	|-RVA: 0x1B4CD10 Offset: 0x1B4B310 VA: 0x181B4CD10
+	|-RVA: 0x1B4CB50 Offset: 0x1B4B150 VA: 0x181B4CB50
 	|-EnumUInt64TypeInfo<DateTime>.WriteData
 	|
-	|-RVA: 0x1B4C640 Offset: 0x1B4AC40 VA: 0x181B4C640
+	|-RVA: 0x1B4C480 Offset: 0x1B4AA80 VA: 0x181B4C480
 	|-EnumUInt64TypeInfo<DateTimeOffset>.WriteData
 	|
-	|-RVA: 0x1B4CFB0 Offset: 0x1B4B5B0 VA: 0x181B4CFB0
+	|-RVA: 0x1B4CDF0 Offset: 0x1B4B3F0 VA: 0x181B4CDF0
 	|-EnumUInt64TypeInfo<Decimal>.WriteData
 	|
-	|-RVA: 0x1B4CC70 Offset: 0x1B4B270 VA: 0x181B4CC70
+	|-RVA: 0x1B4CAB0 Offset: 0x1B4B0B0 VA: 0x181B4CAB0
 	|-EnumUInt64TypeInfo<EmptyStruct>.WriteData
 	|
-	|-RVA: 0x1B4CAA0 Offset: 0x1B4B0A0 VA: 0x181B4CAA0
+	|-RVA: 0x1B4C8E0 Offset: 0x1B4AEE0 VA: 0x181B4C8E0
 	|-EnumUInt64TypeInfo<double>.WriteData
 	|
-	|-RVA: 0x1B4CE60 Offset: 0x1B4B460 VA: 0x181B4CE60
+	|-RVA: 0x1B4CCA0 Offset: 0x1B4B2A0 VA: 0x181B4CCA0
 	|-EnumUInt64TypeInfo<Guid>.WriteData
 	|
-	|-RVA: 0x1B4C6F0 Offset: 0x1B4ACF0 VA: 0x181B4C6F0
+	|-RVA: 0x1B4C530 Offset: 0x1B4AB30 VA: 0x181B4C530
 	|-EnumUInt64TypeInfo<short>.WriteData
 	|
-	|-RVA: 0x1B4C970 Offset: 0x1B4AF70 VA: 0x181B4C970
+	|-RVA: 0x1B4C7B0 Offset: 0x1B4ADB0 VA: 0x181B4C7B0
 	|-EnumUInt64TypeInfo<int>.WriteData
 	|
-	|-RVA: 0x1B4C830 Offset: 0x1B4AE30 VA: 0x181B4C830
+	|-RVA: 0x1B4C670 Offset: 0x1B4AC70 VA: 0x181B4C670
 	|-EnumUInt64TypeInfo<long>.WriteData
 	|
-	|-RVA: 0x1B4D060 Offset: 0x1B4B660 VA: 0x181B4D060
+	|-RVA: 0x1B4CEA0 Offset: 0x1B4B4A0 VA: 0x181B4CEA0
 	|-EnumUInt64TypeInfo<IntPtr>.WriteData
 	|
-	|-RVA: 0x1B4CF10 Offset: 0x1B4B510 VA: 0x181B4CF10
+	|-RVA: 0x1B4CD50 Offset: 0x1B4B350 VA: 0x181B4CD50
 	|-EnumUInt64TypeInfo<object>.WriteData
 	|
-	|-RVA: 0x1B4C8D0 Offset: 0x1B4AED0 VA: 0x181B4C8D0
+	|-RVA: 0x1B4C710 Offset: 0x1B4AD10 VA: 0x181B4C710
 	|-EnumUInt64TypeInfo<sbyte>.WriteData
 	|
-	|-RVA: 0x1B4C460 Offset: 0x1B4AA60 VA: 0x181B4C460
+	|-RVA: 0x1B4C2A0 Offset: 0x1B4A8A0 VA: 0x181B4C2A0
 	|-EnumUInt64TypeInfo<float>.WriteData
 	|
-	|-RVA: 0x1B4CA00 Offset: 0x1B4B000 VA: 0x181B4CA00
+	|-RVA: 0x1B4C840 Offset: 0x1B4AE40 VA: 0x181B4C840
 	|-EnumUInt64TypeInfo<TimeSpan>.WriteData
 	|
-	|-RVA: 0x1B4CB40 Offset: 0x1B4B140 VA: 0x181B4CB40
+	|-RVA: 0x1B4C980 Offset: 0x1B4AF80 VA: 0x181B4C980
 	|-EnumUInt64TypeInfo<ushort>.WriteData
 	|
-	|-RVA: 0x1B4CBE0 Offset: 0x1B4B1E0 VA: 0x181B4CBE0
+	|-RVA: 0x1B4CA20 Offset: 0x1B4B020 VA: 0x181B4CA20
 	|-EnumUInt64TypeInfo<uint>.WriteData
 	|
-	|-RVA: 0x1B4C320 Offset: 0x1B4A920 VA: 0x181B4C320
+	|-RVA: 0x1B4C160 Offset: 0x1B4A760 VA: 0x181B4C160
 	|-EnumUInt64TypeInfo<ulong>.WriteData
 	|
-	|-RVA: 0x1B4C3C0 Offset: 0x1B4A9C0 VA: 0x181B4C3C0
+	|-RVA: 0x1B4C200 Offset: 0x1B4A800 VA: 0x181B4C200
 	|-EnumUInt64TypeInfo<UIntPtr>.WriteData
 	*/
 
@@ -3980,7 +3980,7 @@ internal sealed class EnumUInt64TypeInfo<EnumType> : TraceLoggingTypeInfo<EnumTy
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BFCE0 Offset: 0x19BE2E0 VA: 0x1819BFCE0
+	|-RVA: 0x19BFCA0 Offset: 0x19BE2A0 VA: 0x1819BFCA0
 	|-EnumUInt64TypeInfo<bool>..ctor
 	|-EnumUInt64TypeInfo<byte>..ctor
 	|-EnumUInt64TypeInfo<char>..ctor
@@ -4118,7 +4118,7 @@ public class EnumConverter : TypeConverter // TypeDefIndex: 2701
 public static class Enumerable // TypeDefIndex: 3198
 {	// Methods
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TSource> Where<TSource>(IEnumerable<TSource> source, Func<TSource, bool> predicate) { }
 	/* GenericInstMethod :
@@ -4220,7 +4220,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Where<Int32Enum>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TResult> Select<TSource, TResult>(IEnumerable<TSource> source, Func<TSource, TResult> selector) { }
 	/* GenericInstMethod :
@@ -4426,7 +4426,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	private static Func<TSource, bool> CombinePredicates<TSource>(Func<TSource, bool> predicate1, Func<TSource, bool> predicate2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B1A010 Offset: 0x1B18610 VA: 0x181B1A010
+	|-RVA: 0x1B19E50 Offset: 0x1B18450 VA: 0x181B19E50
 	|-Enumerable.CombinePredicates<Debugging.EntityInfo>
 	|-Enumerable.CombinePredicates<SkeletonDefinition.Bone>
 	|-Enumerable.CombinePredicates<GameStat.Stat>
@@ -4850,7 +4850,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<object, uint, uint>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TResult> SelectMany<TSource, TResult>(IEnumerable<TSource> source, Func<TSource, IEnumerable<TResult>> selector) { }
 	/* GenericInstMethod :
@@ -4873,7 +4873,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.SelectMany<object, object>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC2180 Offset: 0xC1580 VA: 0x1800C2180
+	[IteratorStateMachineAttribute] // RVA: 0xC2120 Offset: 0xC1520 VA: 0x1800C2120
 	// RVA: -1 Offset: -1
 	private static IEnumerable<TResult> SelectManyIterator<TSource, TResult>(IEnumerable<TSource> source, Func<TSource, IEnumerable<TResult>> selector) { }
 	/* GenericInstMethod :
@@ -4891,7 +4891,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.SelectManyIterator<object, object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TSource> Take<TSource>(IEnumerable<TSource> source, int count) { }
 	/* GenericInstMethod :
@@ -4917,7 +4917,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Take<double>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC36B0 Offset: 0xC2AB0 VA: 0x1800C36B0
+	[IteratorStateMachineAttribute] // RVA: 0xC3610 Offset: 0xC2A10 VA: 0x1800C3610
 	// RVA: -1 Offset: -1
 	private static IEnumerable<TSource> TakeIterator<TSource>(IEnumerable<TSource> source, int count) { }
 	/* GenericInstMethod :
@@ -4934,7 +4934,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.TakeIterator<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TSource> TakeWhile<TSource>(IEnumerable<TSource> source, Func<TSource, bool> predicate) { }
 	/* GenericInstMethod :
@@ -4944,7 +4944,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.TakeWhile<object>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC3880 Offset: 0xC2C80 VA: 0x1800C3880
+	[IteratorStateMachineAttribute] // RVA: 0xC3860 Offset: 0xC2C60 VA: 0x1800C3860
 	// RVA: -1 Offset: -1
 	private static IEnumerable<TSource> TakeWhileIterator<TSource>(IEnumerable<TSource> source, Func<TSource, bool> predicate) { }
 	/* GenericInstMethod :
@@ -4953,7 +4953,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.TakeWhileIterator<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TSource> Skip<TSource>(IEnumerable<TSource> source, int count) { }
 	/* GenericInstMethod :
@@ -4969,7 +4969,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Skip<byte>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC4DE0 Offset: 0xC41E0 VA: 0x1800C4DE0
+	[IteratorStateMachineAttribute] // RVA: 0xC3B30 Offset: 0xC2F30 VA: 0x1800C3B30
 	// RVA: -1 Offset: -1
 	private static IEnumerable<TSource> SkipIterator<TSource>(IEnumerable<TSource> source, int count) { }
 	/* GenericInstMethod :
@@ -4982,7 +4982,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.SkipIterator<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IOrderedEnumerable<TSource> OrderBy<TSource, TKey>(IEnumerable<TSource> source, Func<TSource, TKey> keySelector) { }
 	/* GenericInstMethod :
@@ -5028,7 +5028,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.OrderBy<object, uint>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IOrderedEnumerable<TSource> OrderBy<TSource, TKey>(IEnumerable<TSource> source, Func<TSource, TKey> keySelector, IComparer<TKey> comparer) { }
 	/* GenericInstMethod :
@@ -5038,7 +5038,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.OrderBy<object, object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IOrderedEnumerable<TSource> OrderByDescending<TSource, TKey>(IEnumerable<TSource> source, Func<TSource, TKey> keySelector) { }
 	/* GenericInstMethod :
@@ -5081,7 +5081,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.OrderByDescending<object, float>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IOrderedEnumerable<TSource> ThenBy<TSource, TKey>(IOrderedEnumerable<TSource> source, Func<TSource, TKey> keySelector) { }
 	/* GenericInstMethod :
@@ -5100,7 +5100,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ThenBy<object, uint>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IOrderedEnumerable<TSource> ThenByDescending<TSource, TKey>(IOrderedEnumerable<TSource> source, Func<TSource, TKey> keySelector) { }
 	/* GenericInstMethod :
@@ -5120,7 +5120,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ThenByDescending<object, object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<IGrouping<TKey, TSource>> GroupBy<TSource, TKey>(IEnumerable<TSource> source, Func<TSource, TKey> keySelector) { }
 	/* GenericInstMethod :
@@ -5147,7 +5147,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.GroupBy<object, uint>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TSource> Concat<TSource>(IEnumerable<TSource> first, IEnumerable<TSource> second) { }
 	/* GenericInstMethod :
@@ -5162,7 +5162,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Concat<object>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC5580 Offset: 0xC4980 VA: 0x1800C5580
+	[IteratorStateMachineAttribute] // RVA: 0xC5490 Offset: 0xC4890 VA: 0x1800C5490
 	// RVA: -1 Offset: -1
 	private static IEnumerable<TSource> ConcatIterator<TSource>(IEnumerable<TSource> first, IEnumerable<TSource> second) { }
 	/* GenericInstMethod :
@@ -5175,7 +5175,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ConcatIterator<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TResult> Zip<TFirst, TSecond, TResult>(IEnumerable<TFirst> first, IEnumerable<TSecond> second, Func<TFirst, TSecond, TResult> resultSelector) { }
 	/* GenericInstMethod :
@@ -5187,7 +5187,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Zip<object, object, object>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC5780 Offset: 0xC4B80 VA: 0x1800C5780
+	[IteratorStateMachineAttribute] // RVA: 0xC56E0 Offset: 0xC4AE0 VA: 0x1800C56E0
 	// RVA: -1 Offset: -1
 	private static IEnumerable<TResult> ZipIterator<TFirst, TSecond, TResult>(IEnumerable<TFirst> first, IEnumerable<TSecond> second, Func<TFirst, TSecond, TResult> resultSelector) { }
 	/* GenericInstMethod :
@@ -5197,7 +5197,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ZipIterator<object, object, object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TSource> Distinct<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5210,7 +5210,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Distinct<ServerInfo>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TSource> Distinct<TSource>(IEnumerable<TSource> source, IEqualityComparer<TSource> comparer) { }
 	/* GenericInstMethod :
@@ -5220,7 +5220,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Distinct<object>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC5AD0 Offset: 0xC4ED0 VA: 0x1800C5AD0
+	[IteratorStateMachineAttribute] // RVA: 0xC5A20 Offset: 0xC4E20 VA: 0x1800C5A20
 	// RVA: -1 Offset: -1
 	private static IEnumerable<TSource> DistinctIterator<TSource>(IEnumerable<TSource> source, IEqualityComparer<TSource> comparer) { }
 	/* GenericInstMethod :
@@ -5232,7 +5232,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.DistinctIterator<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TSource> Union<TSource>(IEnumerable<TSource> first, IEnumerable<TSource> second) { }
 	/* GenericInstMethod :
@@ -5245,7 +5245,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Union<char>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC5C10 Offset: 0xC5010 VA: 0x1800C5C10
+	[IteratorStateMachineAttribute] // RVA: 0xC5C00 Offset: 0xC5000 VA: 0x1800C5C00
 	// RVA: -1 Offset: -1
 	private static IEnumerable<TSource> UnionIterator<TSource>(IEnumerable<TSource> first, IEnumerable<TSource> second, IEqualityComparer<TSource> comparer) { }
 	/* GenericInstMethod :
@@ -5257,7 +5257,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.UnionIterator<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TSource> Except<TSource>(IEnumerable<TSource> first, IEnumerable<TSource> second) { }
 	/* GenericInstMethod :
@@ -5272,7 +5272,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Except<object>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC5E10 Offset: 0xC5210 VA: 0x1800C5E10
+	[IteratorStateMachineAttribute] // RVA: 0xC5E60 Offset: 0xC5260 VA: 0x1800C5E60
 	// RVA: -1 Offset: -1
 	private static IEnumerable<TSource> ExceptIterator<TSource>(IEnumerable<TSource> first, IEnumerable<TSource> second, IEqualityComparer<TSource> comparer) { }
 	/* GenericInstMethod :
@@ -5285,7 +5285,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ExceptIterator<Vector2>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TSource> Reverse<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5302,7 +5302,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Reverse<long>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC6090 Offset: 0xC5490 VA: 0x1800C6090
+	[IteratorStateMachineAttribute] // RVA: 0xC60B0 Offset: 0xC54B0 VA: 0x1800C60B0
 	// RVA: -1 Offset: -1
 	private static IEnumerable<TSource> ReverseIterator<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5315,7 +5315,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ReverseIterator<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool SequenceEqual<TSource>(IEnumerable<TSource> first, IEnumerable<TSource> second) { }
 	/* GenericInstMethod :
@@ -5328,7 +5328,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.SequenceEqual<Vector3>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool SequenceEqual<TSource>(IEnumerable<TSource> first, IEnumerable<TSource> second, IEqualityComparer<TSource> comparer) { }
 	/* GenericInstMethod :
@@ -5346,7 +5346,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.SequenceEqual<Vector3>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TSource> AsEnumerable<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5358,7 +5358,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.AsEnumerable<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TSource[] ToArray<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5449,7 +5449,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ToArray<Int32Enum>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static List<TSource> ToList<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5510,7 +5510,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ToList<Vector2>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static Dictionary<TKey, TSource> ToDictionary<TSource, TKey>(IEnumerable<TSource> source, Func<TSource, TKey> keySelector) { }
 	/* GenericInstMethod :
@@ -5520,7 +5520,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ToDictionary<object, object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static Dictionary<TKey, TElement> ToDictionary<TSource, TKey, TElement>(IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector) { }
 	/* GenericInstMethod :
@@ -5539,7 +5539,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ToDictionary<object, uint, object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static Dictionary<TKey, TElement> ToDictionary<TSource, TKey, TElement>(IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
@@ -5564,7 +5564,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ToDictionary<object, uint, object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TResult> OfType<TResult>(IEnumerable source) { }
 	/* GenericInstMethod :
@@ -5584,7 +5584,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.OfTypeIterator<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static IEnumerable<TResult> Cast<TResult>(IEnumerable source) { }
 	/* GenericInstMethod :
@@ -5618,7 +5618,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Cast<int>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC66E0 Offset: 0xC5AE0 VA: 0x1800C66E0
+	[IteratorStateMachineAttribute] // RVA: 0xC6770 Offset: 0xC5B70 VA: 0x1800C6770
 	// RVA: -1 Offset: -1
 	private static IEnumerable<TResult> CastIterator<TResult>(IEnumerable source) { }
 	/* GenericInstMethod :
@@ -5636,7 +5636,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CastIterator<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TSource First<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5672,7 +5672,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.First<KeyValuePair<object, object>>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TSource First<TSource>(IEnumerable<TSource> source, Func<TSource, bool> predicate) { }
 	/* GenericInstMethod :
@@ -5682,7 +5682,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.First<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TSource FirstOrDefault<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5706,7 +5706,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.FirstOrDefault<InventoryRecipe>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TSource FirstOrDefault<TSource>(IEnumerable<TSource> source, Func<TSource, bool> predicate) { }
 	/* GenericInstMethod :
@@ -5727,7 +5727,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.FirstOrDefault<PetCommandList.PetCommandDesc>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TSource Last<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5738,7 +5738,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Last<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TSource LastOrDefault<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5749,7 +5749,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.LastOrDefault<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TSource LastOrDefault<TSource>(IEnumerable<TSource> source, Func<TSource, bool> predicate) { }
 	/* GenericInstMethod :
@@ -5759,7 +5759,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.LastOrDefault<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TSource Single<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5769,7 +5769,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Single<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TSource SingleOrDefault<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5780,7 +5780,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.SingleOrDefault<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TSource SingleOrDefault<TSource>(IEnumerable<TSource> source, Func<TSource, bool> predicate) { }
 	/* GenericInstMethod :
@@ -5791,7 +5791,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.SingleOrDefault<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static TSource ElementAt<TSource>(IEnumerable<TSource> source, int index) { }
 	/* GenericInstMethod :
@@ -5805,11 +5805,11 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ElementAt<object>
 	*/
 
-	// RVA: 0x2229FE0 Offset: 0x22285E0 VA: 0x182229FE0
+	// RVA: 0x2229E20 Offset: 0x2228420 VA: 0x182229E20
 	public static IEnumerable<int> Range(int start, int count) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xC73B0 Offset: 0xC67B0 VA: 0x1800C73B0
-	// RVA: 0x2229F60 Offset: 0x2228560 VA: 0x182229F60
+	[IteratorStateMachineAttribute] // RVA: 0xC7120 Offset: 0xC6520 VA: 0x1800C7120
+	// RVA: 0x2229DA0 Offset: 0x22283A0 VA: 0x182229DA0
 	private static IEnumerable<int> RangeIterator(int start, int count) { }
 
 	// RVA: -1 Offset: -1
@@ -5822,7 +5822,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Empty<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool Any<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5849,7 +5849,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Any<Vector2>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool Any<TSource>(IEnumerable<TSource> source, Func<TSource, bool> predicate) { }
 	/* GenericInstMethod :
@@ -5882,7 +5882,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Any<InventoryRecipe.Ingredient>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool All<TSource>(IEnumerable<TSource> source, Func<TSource, bool> predicate) { }
 	/* GenericInstMethod :
@@ -5896,7 +5896,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.All<Collider>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static int Count<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
@@ -5936,7 +5936,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Count<float>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static int Count<TSource>(IEnumerable<TSource> source, Func<TSource, bool> predicate) { }
 	/* GenericInstMethod :
@@ -5954,7 +5954,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Count<Rigidbody>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool Contains<TSource>(IEnumerable<TSource> source, TSource value) { }
 	/* GenericInstMethod :
@@ -5978,7 +5978,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Contains<ushort>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool Contains<TSource>(IEnumerable<TSource> source, TSource value, IEqualityComparer<TSource> comparer) { }
 	/* GenericInstMethod :
@@ -5999,19 +5999,19 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Contains<ushort>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x222A450 Offset: 0x2228A50 VA: 0x18222A450
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x222A290 Offset: 0x2228890 VA: 0x18222A290
 	public static int Sum(IEnumerable<int> source) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x222A250 Offset: 0x2228850 VA: 0x18222A250
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x222A090 Offset: 0x2228690 VA: 0x18222A090
 	public static long Sum(IEnumerable<long> source) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x222A0A0 Offset: 0x22286A0 VA: 0x18222A0A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x2229EE0 Offset: 0x22284E0 VA: 0x182229EE0
 	public static float Sum(IEnumerable<float> source) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static int Sum<TSource>(IEnumerable<TSource> source, Func<TSource, int> selector) { }
 	/* GenericInstMethod :
@@ -6031,7 +6031,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Sum<Transform>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static long Sum<TSource>(IEnumerable<TSource> source, Func<TSource, long> selector) { }
 	/* GenericInstMethod :
@@ -6041,7 +6041,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Sum<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static float Sum<TSource>(IEnumerable<TSource> source, Func<TSource, float> selector) { }
 	/* GenericInstMethod :
@@ -6051,19 +6051,19 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Sum<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2229D30 Offset: 0x2228330 VA: 0x182229D30
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x2229B70 Offset: 0x2228170 VA: 0x182229B70
 	public static float Min(IEnumerable<float> source) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2229960 Offset: 0x2227F60 VA: 0x182229960
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22297A0 Offset: 0x2227DA0 VA: 0x1822297A0
 	public static int Max(IEnumerable<int> source) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2229B50 Offset: 0x2228150 VA: 0x182229B50
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x2229990 Offset: 0x2227F90 VA: 0x182229990
 	public static float Max(IEnumerable<float> source) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static int Max<TSource>(IEnumerable<TSource> source, Func<TSource, int> selector) { }
 	/* GenericInstMethod :
@@ -6076,12 +6076,12 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Max<FieldInfo>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2229520 Offset: 0x2227B20 VA: 0x182229520
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x2229360 Offset: 0x2227960 VA: 0x182229360
 	public static float Average(IEnumerable<float> source) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2229710 Offset: 0x2227D10 VA: 0x182229710
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x2229550 Offset: 0x2227B50 VA: 0x182229550
 	public static double Average(IEnumerable<double> source) { }
 
 }
@@ -6102,7 +6102,7 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E3470 Offset: 0x19E1A70 VA: 0x1819E3470
+	|-RVA: 0x19E3430 Offset: 0x19E1A30 VA: 0x1819E3430
 	|-Enumerable.Iterator<Debugging.EntityInfo>..ctor
 	|-Enumerable.Iterator<BurstCloth.Chain>..ctor
 	|-Enumerable.Iterator<SkeletonDefinition.Bone>..ctor
@@ -6220,7 +6220,7 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	public virtual void Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E2200 Offset: 0x19E0800 VA: 0x1819E2200
+	|-RVA: 0x19E21C0 Offset: 0x19E07C0 VA: 0x1819E21C0
 	|-Enumerable.Iterator<Debugging.EntityInfo>.Dispose
 	|-Enumerable.Iterator<WeightedStringList.Container>.Dispose
 	|-Enumerable.Iterator<GameStat.Stat>.Dispose
@@ -6230,7 +6230,7 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	|-Enumerable.Iterator<KeyValuePair<object, object>>.Dispose
 	|-Enumerable.Iterator<KeyValuePair<uint, object>>.Dispose
 	|
-	|-RVA: 0x19E2230 Offset: 0x19E0830 VA: 0x1819E2230
+	|-RVA: 0x19E21F0 Offset: 0x19E07F0 VA: 0x1819E21F0
 	|-Enumerable.Iterator<BurstCloth.Chain>.Dispose
 	|-Enumerable.Iterator<PathFinder.Point>.Dispose
 	|-Enumerable.Iterator<PlayerItemRecipe.Ingredient>.Dispose
@@ -6240,42 +6240,42 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	|-Enumerable.Iterator<long>.Dispose
 	|-Enumerable.Iterator<object>.Dispose
 	|
-	|-RVA: 0x19E2290 Offset: 0x19E0890 VA: 0x1819E2290
+	|-RVA: 0x19E2250 Offset: 0x19E0850 VA: 0x1819E2250
 	|-Enumerable.Iterator<SkeletonDefinition.Bone>.Dispose
 	|-Enumerable.Iterator<InventoryItem.Amount>.Dispose
 	|
-	|-RVA: 0x19E2260 Offset: 0x19E0860 VA: 0x1819E2260
+	|-RVA: 0x19E2220 Offset: 0x19E0820 VA: 0x1819E2220
 	|-Enumerable.Iterator<ItemSkinDirectory.Skin>.Dispose
 	|-Enumerable.Iterator<Option>.Dispose
 	|-Enumerable.Iterator<SkinnedMultiMesh.Part>.Dispose
 	|-Enumerable.Iterator<InventoryItem>.Dispose
 	|
-	|-RVA: 0x19E22E0 Offset: 0x19E08E0 VA: 0x1819E22E0
+	|-RVA: 0x19E22A0 Offset: 0x19E08A0 VA: 0x1819E22A0
 	|-Enumerable.Iterator<FourBitNumber>.Dispose
 	|-Enumerable.Iterator<SevenBitNumber>.Dispose
 	|-Enumerable.Iterator<bool>.Dispose
 	|
-	|-RVA: 0x19E2240 Offset: 0x19E0840 VA: 0x1819E2240
+	|-RVA: 0x19E2200 Offset: 0x19E0800 VA: 0x1819E2200
 	|-Enumerable.Iterator<ProjectileWeaponMod.Modifier>.Dispose
 	|-Enumerable.Iterator<Resolution>.Dispose
 	|
-	|-RVA: 0x19E22B0 Offset: 0x19E08B0 VA: 0x1819E22B0
+	|-RVA: 0x19E2270 Offset: 0x19E0870 VA: 0x1819E2270
 	|-Enumerable.Iterator<ServerInfo>.Dispose
 	|-Enumerable.Iterator<ServerInfo>.Dispose
 	|
-	|-RVA: 0x19E21F0 Offset: 0x19E07F0 VA: 0x1819E21F0
+	|-RVA: 0x19E21B0 Offset: 0x19E07B0 VA: 0x1819E21B0
 	|-Enumerable.Iterator<InventoryDefId>.Dispose
 	|-Enumerable.Iterator<int>.Dispose
 	|-Enumerable.Iterator<Int32Enum>.Dispose
 	|-Enumerable.Iterator<float>.Dispose
 	|-Enumerable.Iterator<uint>.Dispose
 	|
-	|-RVA: 0x19E2210 Offset: 0x19E0810 VA: 0x1819E2210
+	|-RVA: 0x19E21D0 Offset: 0x19E07D0 VA: 0x1819E21D0
 	|-Enumerable.Iterator<InventoryRecipe.Ingredient>.Dispose
 	|-Enumerable.Iterator<InventoryRecipe>.Dispose
 	|-Enumerable.Iterator<KeyValuePair<ulong, Dispatch.ResultCallback>>.Dispose
 	|
-	|-RVA: 0x19E2280 Offset: 0x19E0880 VA: 0x1819E2280
+	|-RVA: 0x19E2240 Offset: 0x19E0840 VA: 0x1819E2240
 	|-Enumerable.Iterator<char>.Dispose
 	*/
 
@@ -6283,7 +6283,7 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	public IEnumerator<TSource> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E22F0 Offset: 0x19E08F0 VA: 0x1819E22F0
+	|-RVA: 0x19E22B0 Offset: 0x19E08B0 VA: 0x1819E22B0
 	|-Enumerable.Iterator<Debugging.EntityInfo>.GetEnumerator
 	|-Enumerable.Iterator<BurstCloth.Chain>.GetEnumerator
 	|-Enumerable.Iterator<SkeletonDefinition.Bone>.GetEnumerator
@@ -6352,7 +6352,7 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E2FD0 Offset: 0x19E15D0 VA: 0x1819E2FD0
+	|-RVA: 0x19E2F90 Offset: 0x19E1590 VA: 0x1819E2F90
 	|-Enumerable.Iterator<Debugging.EntityInfo>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<WeightedStringList.Container>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<GameStat.Stat>.System.Collections.IEnumerator.get_Current
@@ -6362,7 +6362,7 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	|-Enumerable.Iterator<KeyValuePair<object, object>>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<KeyValuePair<uint, object>>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E3040 Offset: 0x19E1640 VA: 0x1819E3040
+	|-RVA: 0x19E3000 Offset: 0x19E1600 VA: 0x1819E3000
 	|-Enumerable.Iterator<BurstCloth.Chain>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<PathFinder.Point>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<PlayerItemRecipe.Ingredient>.System.Collections.IEnumerator.get_Current
@@ -6371,47 +6371,47 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	|-Enumerable.Iterator<Friend>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<long>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E3390 Offset: 0x19E1990 VA: 0x1819E3390
+	|-RVA: 0x19E3350 Offset: 0x19E1950 VA: 0x1819E3350
 	|-Enumerable.Iterator<SkeletonDefinition.Bone>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<InventoryItem.Amount>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E30A0 Offset: 0x19E16A0 VA: 0x1819E30A0
+	|-RVA: 0x19E3060 Offset: 0x19E1660 VA: 0x1819E3060
 	|-Enumerable.Iterator<ItemSkinDirectory.Skin>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<Option>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<SkinnedMultiMesh.Part>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<InventoryItem>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E3330 Offset: 0x19E1930 VA: 0x1819E3330
+	|-RVA: 0x19E32F0 Offset: 0x19E18F0 VA: 0x1819E32F0
 	|-Enumerable.Iterator<FourBitNumber>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<SevenBitNumber>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<bool>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E32B0 Offset: 0x19E18B0 VA: 0x1819E32B0
+	|-RVA: 0x19E3270 Offset: 0x19E1870 VA: 0x1819E3270
 	|-Enumerable.Iterator<ProjectileWeaponMod.Modifier>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<Resolution>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E3120 Offset: 0x19E1720 VA: 0x1819E3120
+	|-RVA: 0x19E30E0 Offset: 0x19E16E0 VA: 0x1819E30E0
 	|-Enumerable.Iterator<ServerInfo>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<ServerInfo>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E3250 Offset: 0x19E1850 VA: 0x1819E3250
+	|-RVA: 0x19E3210 Offset: 0x19E1810 VA: 0x1819E3210
 	|-Enumerable.Iterator<InventoryDefId>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<int>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<Int32Enum>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<uint>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E2F50 Offset: 0x19E1550 VA: 0x1819E2F50
+	|-RVA: 0x19E2F10 Offset: 0x19E1510 VA: 0x1819E2F10
 	|-Enumerable.Iterator<InventoryRecipe.Ingredient>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<InventoryRecipe>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<KeyValuePair<ulong, Dispatch.ResultCallback>>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E3410 Offset: 0x19E1A10 VA: 0x1819E3410
+	|-RVA: 0x19E33D0 Offset: 0x19E19D0 VA: 0x1819E33D0
 	|-Enumerable.Iterator<char>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19BFCE0 Offset: 0x19BE2E0 VA: 0x1819BFCE0
+	|-RVA: 0x19BFCA0 Offset: 0x19BE2A0 VA: 0x1819BFCA0
 	|-Enumerable.Iterator<object>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E31E0 Offset: 0x19E17E0 VA: 0x1819E31E0
+	|-RVA: 0x19E31A0 Offset: 0x19E17A0 VA: 0x1819E31A0
 	|-Enumerable.Iterator<float>.System.Collections.IEnumerator.get_Current
 	*/
 
@@ -6464,118 +6464,118 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E2D70 Offset: 0x19E1370 VA: 0x1819E2D70
+	|-RVA: 0x19E2D30 Offset: 0x19E1330 VA: 0x1819E2D30
 	|-Enumerable.Iterator<Debugging.EntityInfo>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2E10 Offset: 0x19E1410 VA: 0x1819E2E10
+	|-RVA: 0x19E2DD0 Offset: 0x19E13D0 VA: 0x1819E2DD0
 	|-Enumerable.Iterator<BurstCloth.Chain>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2A50 Offset: 0x19E1050 VA: 0x1819E2A50
+	|-RVA: 0x19E2A10 Offset: 0x19E1010 VA: 0x1819E2A10
 	|-Enumerable.Iterator<SkeletonDefinition.Bone>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2550 Offset: 0x19E0B50 VA: 0x1819E2550
+	|-RVA: 0x19E2510 Offset: 0x19E0B10 VA: 0x1819E2510
 	|-Enumerable.Iterator<WeightedStringList.Container>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2AA0 Offset: 0x19E10A0 VA: 0x1819E2AA0
+	|-RVA: 0x19E2A60 Offset: 0x19E1060 VA: 0x1819E2A60
 	|-Enumerable.Iterator<GameStat.Stat>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2460 Offset: 0x19E0A60 VA: 0x1819E2460
+	|-RVA: 0x19E2420 Offset: 0x19E0A20 VA: 0x1819E2420
 	|-Enumerable.Iterator<ItemSkinDirectory.Skin>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2EB0 Offset: 0x19E14B0 VA: 0x1819E2EB0
+	|-RVA: 0x19E2E70 Offset: 0x19E1470 VA: 0x1819E2E70
 	|-Enumerable.Iterator<FourBitNumber>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2640 Offset: 0x19E0C40 VA: 0x1819E2640
+	|-RVA: 0x19E2600 Offset: 0x19E0C00 VA: 0x1819E2600
 	|-Enumerable.Iterator<SevenBitNumber>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E24B0 Offset: 0x19E0AB0 VA: 0x1819E24B0
+	|-RVA: 0x19E2470 Offset: 0x19E0A70 VA: 0x1819E2470
 	|-Enumerable.Iterator<PathFinder.Point>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2DC0 Offset: 0x19E13C0 VA: 0x1819E2DC0
+	|-RVA: 0x19E2D80 Offset: 0x19E1380 VA: 0x1819E2D80
 	|-Enumerable.Iterator<PlayerItemRecipe.Ingredient>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2820 Offset: 0x19E0E20 VA: 0x1819E2820
+	|-RVA: 0x19E27E0 Offset: 0x19E0DE0 VA: 0x1819E27E0
 	|-Enumerable.Iterator<PlayerItemRecipe>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2780 Offset: 0x19E0D80 VA: 0x1819E2780
+	|-RVA: 0x19E2740 Offset: 0x19E0D40 VA: 0x1819E2740
 	|-Enumerable.Iterator<ProjectileWeaponMod.Modifier>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2910 Offset: 0x19E0F10 VA: 0x1819E2910
+	|-RVA: 0x19E28D0 Offset: 0x19E0ED0 VA: 0x1819E28D0
 	|-Enumerable.Iterator<Option>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E25F0 Offset: 0x19E0BF0 VA: 0x1819E25F0
+	|-RVA: 0x19E25B0 Offset: 0x19E0BB0 VA: 0x1819E25B0
 	|-Enumerable.Iterator<ServerInfo>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E28C0 Offset: 0x19E0EC0 VA: 0x1819E28C0
+	|-RVA: 0x19E2880 Offset: 0x19E0E80 VA: 0x1819E2880
 	|-Enumerable.Iterator<SkinnedMultiMesh.Part>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2370 Offset: 0x19E0970 VA: 0x1819E2370
+	|-RVA: 0x19E2330 Offset: 0x19E0930 VA: 0x1819E2330
 	|-Enumerable.Iterator<Achievement>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2D20 Offset: 0x19E1320 VA: 0x1819E2D20
+	|-RVA: 0x19E2CE0 Offset: 0x19E12E0 VA: 0x1819E2CE0
 	|-Enumerable.Iterator<InventoryDefId>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2B40 Offset: 0x19E1140 VA: 0x1819E2B40
+	|-RVA: 0x19E2B00 Offset: 0x19E1100 VA: 0x1819E2B00
 	|-Enumerable.Iterator<InventoryItemId>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2F00 Offset: 0x19E1500 VA: 0x1819E2F00
+	|-RVA: 0x19E2EC0 Offset: 0x19E14C0 VA: 0x1819E2EC0
 	|-Enumerable.Iterator<ServerInfo>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2C30 Offset: 0x19E1230 VA: 0x1819E2C30
+	|-RVA: 0x19E2BF0 Offset: 0x19E11F0 VA: 0x1819E2BF0
 	|-Enumerable.Iterator<Friend>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2E60 Offset: 0x19E1460 VA: 0x1819E2E60
+	|-RVA: 0x19E2E20 Offset: 0x19E1420 VA: 0x1819E2E20
 	|-Enumerable.Iterator<InventoryItem.Amount>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2A00 Offset: 0x19E1000 VA: 0x1819E2A00
+	|-RVA: 0x19E29C0 Offset: 0x19E0FC0 VA: 0x1819E29C0
 	|-Enumerable.Iterator<InventoryItem>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2C80 Offset: 0x19E1280 VA: 0x1819E2C80
+	|-RVA: 0x19E2C40 Offset: 0x19E1240 VA: 0x1819E2C40
 	|-Enumerable.Iterator<InventoryRecipe.Ingredient>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2AF0 Offset: 0x19E10F0 VA: 0x1819E2AF0
+	|-RVA: 0x19E2AB0 Offset: 0x19E10B0 VA: 0x1819E2AB0
 	|-Enumerable.Iterator<InventoryRecipe>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2870 Offset: 0x19E0E70 VA: 0x1819E2870
+	|-RVA: 0x19E2830 Offset: 0x19E0E30 VA: 0x1819E2830
 	|-Enumerable.Iterator<bool>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2B90 Offset: 0x19E1190 VA: 0x1819E2B90
+	|-RVA: 0x19E2B50 Offset: 0x19E1150 VA: 0x1819E2B50
 	|-Enumerable.Iterator<char>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2500 Offset: 0x19E0B00 VA: 0x1819E2500
+	|-RVA: 0x19E24C0 Offset: 0x19E0AC0 VA: 0x1819E24C0
 	|-Enumerable.Iterator<DictionaryEntry>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E27D0 Offset: 0x19E0DD0 VA: 0x1819E27D0
+	|-RVA: 0x19E2790 Offset: 0x19E0D90 VA: 0x1819E2790
 	|-Enumerable.Iterator<KeyValuePair<object, int>>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E26E0 Offset: 0x19E0CE0 VA: 0x1819E26E0
+	|-RVA: 0x19E26A0 Offset: 0x19E0CA0 VA: 0x1819E26A0
 	|-Enumerable.Iterator<KeyValuePair<object, object>>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2410 Offset: 0x19E0A10 VA: 0x1819E2410
+	|-RVA: 0x19E23D0 Offset: 0x19E09D0 VA: 0x1819E23D0
 	|-Enumerable.Iterator<KeyValuePair<uint, object>>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2CD0 Offset: 0x19E12D0 VA: 0x1819E2CD0
+	|-RVA: 0x19E2C90 Offset: 0x19E1290 VA: 0x1819E2C90
 	|-Enumerable.Iterator<KeyValuePair<ulong, Dispatch.ResultCallback>>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E23C0 Offset: 0x19E09C0 VA: 0x1819E23C0
+	|-RVA: 0x19E2380 Offset: 0x19E0980 VA: 0x1819E2380
 	|-Enumerable.Iterator<int>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E29B0 Offset: 0x19E0FB0 VA: 0x1819E29B0
+	|-RVA: 0x19E2970 Offset: 0x19E0F70 VA: 0x1819E2970
 	|-Enumerable.Iterator<Int32Enum>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2730 Offset: 0x19E0D30 VA: 0x1819E2730
+	|-RVA: 0x19E26F0 Offset: 0x19E0CF0 VA: 0x1819E26F0
 	|-Enumerable.Iterator<long>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E25A0 Offset: 0x19E0BA0 VA: 0x1819E25A0
+	|-RVA: 0x19E2560 Offset: 0x19E0B60 VA: 0x1819E2560
 	|-Enumerable.Iterator<object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2690 Offset: 0x19E0C90 VA: 0x1819E2690
+	|-RVA: 0x19E2650 Offset: 0x19E0C50 VA: 0x1819E2650
 	|-Enumerable.Iterator<float>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2BE0 Offset: 0x19E11E0 VA: 0x1819E2BE0
+	|-RVA: 0x19E2BA0 Offset: 0x19E11A0 VA: 0x1819E2BA0
 	|-Enumerable.Iterator<uint>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E2960 Offset: 0x19E0F60 VA: 0x1819E2960
+	|-RVA: 0x19E2920 Offset: 0x19E0F20 VA: 0x1819E2920
 	|-Enumerable.Iterator<Resolution>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -6687,88 +6687,88 @@ private class Enumerable.WhereEnumerableIterator<TSource> : Enumerable.Iterator<
 	public override void Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19EB000 Offset: 0x19E9600 VA: 0x1819EB000
+	|-RVA: 0x19EAFC0 Offset: 0x19E95C0 VA: 0x1819EAFC0
 	|-Enumerable.WhereEnumerableIterator<Debugging.EntityInfo>.Dispose
 	|
-	|-RVA: 0x19EBB40 Offset: 0x19EA140 VA: 0x1819EBB40
+	|-RVA: 0x19EBB00 Offset: 0x19EA100 VA: 0x1819EBB00
 	|-Enumerable.WhereEnumerableIterator<SkeletonDefinition.Bone>.Dispose
 	|
-	|-RVA: 0x19EB1B0 Offset: 0x19E97B0 VA: 0x1819EB1B0
+	|-RVA: 0x19EB170 Offset: 0x19E9770 VA: 0x1819EB170
 	|-Enumerable.WhereEnumerableIterator<GameStat.Stat>.Dispose
 	|
-	|-RVA: 0x19EAE50 Offset: 0x19E9450 VA: 0x1819EAE50
+	|-RVA: 0x19EAE10 Offset: 0x19E9410 VA: 0x1819EAE10
 	|-Enumerable.WhereEnumerableIterator<ItemSkinDirectory.Skin>.Dispose
 	|
-	|-RVA: 0x19EAD30 Offset: 0x19E9330 VA: 0x1819EAD30
+	|-RVA: 0x19EACF0 Offset: 0x19E92F0 VA: 0x1819EACF0
 	|-Enumerable.WhereEnumerableIterator<FourBitNumber>.Dispose
 	|
-	|-RVA: 0x19EB510 Offset: 0x19E9B10 VA: 0x1819EB510
+	|-RVA: 0x19EB4D0 Offset: 0x19E9AD0 VA: 0x1819EB4D0
 	|-Enumerable.WhereEnumerableIterator<SevenBitNumber>.Dispose
 	|
-	|-RVA: 0x19EADC0 Offset: 0x19E93C0 VA: 0x1819EADC0
+	|-RVA: 0x19EAD80 Offset: 0x19E9380 VA: 0x1819EAD80
 	|-Enumerable.WhereEnumerableIterator<PathFinder.Point>.Dispose
 	|
-	|-RVA: 0x19EB2D0 Offset: 0x19E98D0 VA: 0x1819EB2D0
+	|-RVA: 0x19EB290 Offset: 0x19E9890 VA: 0x1819EB290
 	|-Enumerable.WhereEnumerableIterator<PlayerItemRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x19EB120 Offset: 0x19E9720 VA: 0x1819EB120
+	|-RVA: 0x19EB0E0 Offset: 0x19E96E0 VA: 0x1819EB0E0
 	|-Enumerable.WhereEnumerableIterator<PlayerItemRecipe>.Dispose
 	|
-	|-RVA: 0x19EACA0 Offset: 0x19E92A0 VA: 0x1819EACA0
+	|-RVA: 0x19EAC60 Offset: 0x19E9260 VA: 0x1819EAC60
 	|-Enumerable.WhereEnumerableIterator<ProjectileWeaponMod.Modifier>.Dispose
 	|
-	|-RVA: 0x19EB3F0 Offset: 0x19E99F0 VA: 0x1819EB3F0
+	|-RVA: 0x19EB3B0 Offset: 0x19E99B0 VA: 0x1819EB3B0
 	|-Enumerable.WhereEnumerableIterator<Option>.Dispose
 	|
-	|-RVA: 0x19EBA20 Offset: 0x19EA020 VA: 0x1819EBA20
+	|-RVA: 0x19EB9E0 Offset: 0x19E9FE0 VA: 0x1819EB9E0
 	|-Enumerable.WhereEnumerableIterator<ServerInfo>.Dispose
 	|
-	|-RVA: 0x19EAC10 Offset: 0x19E9210 VA: 0x1819EAC10
+	|-RVA: 0x19EABD0 Offset: 0x19E91D0 VA: 0x1819EABD0
 	|-Enumerable.WhereEnumerableIterator<SkinnedMultiMesh.Part>.Dispose
 	|
-	|-RVA: 0x19EB5A0 Offset: 0x19E9BA0 VA: 0x1819EB5A0
+	|-RVA: 0x19EB560 Offset: 0x19E9B60 VA: 0x1819EB560
 	|-Enumerable.WhereEnumerableIterator<InventoryItemId>.Dispose
 	|
-	|-RVA: 0x19EB6C0 Offset: 0x19E9CC0 VA: 0x1819EB6C0
+	|-RVA: 0x19EB680 Offset: 0x19E9C80 VA: 0x1819EB680
 	|-Enumerable.WhereEnumerableIterator<InventoryItem>.Dispose
 	|
-	|-RVA: 0x19EB990 Offset: 0x19E9F90 VA: 0x1819EB990
+	|-RVA: 0x19EB950 Offset: 0x19E9F50 VA: 0x1819EB950
 	|-Enumerable.WhereEnumerableIterator<InventoryRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x19EAEE0 Offset: 0x19E94E0 VA: 0x1819EAEE0
+	|-RVA: 0x19EAEA0 Offset: 0x19E94A0 VA: 0x1819EAEA0
 	|-Enumerable.WhereEnumerableIterator<InventoryRecipe>.Dispose
 	|
-	|-RVA: 0x19EB090 Offset: 0x19E9690 VA: 0x1819EB090
+	|-RVA: 0x19EB050 Offset: 0x19E9650 VA: 0x1819EB050
 	|-Enumerable.WhereEnumerableIterator<bool>.Dispose
 	|
-	|-RVA: 0x19EB870 Offset: 0x19E9E70 VA: 0x1819EB870
+	|-RVA: 0x19EB830 Offset: 0x19E9E30 VA: 0x1819EB830
 	|-Enumerable.WhereEnumerableIterator<char>.Dispose
 	|
-	|-RVA: 0x19EAF70 Offset: 0x19E9570 VA: 0x1819EAF70
+	|-RVA: 0x19EAF30 Offset: 0x19E9530 VA: 0x1819EAF30
 	|-Enumerable.WhereEnumerableIterator<KeyValuePair<object, int>>.Dispose
 	|
-	|-RVA: 0x19EB7E0 Offset: 0x19E9DE0 VA: 0x1819EB7E0
+	|-RVA: 0x19EB7A0 Offset: 0x19E9DA0 VA: 0x1819EB7A0
 	|-Enumerable.WhereEnumerableIterator<KeyValuePair<object, object>>.Dispose
 	|
-	|-RVA: 0x19EB480 Offset: 0x19E9A80 VA: 0x1819EB480
+	|-RVA: 0x19EB440 Offset: 0x19E9A40 VA: 0x1819EB440
 	|-Enumerable.WhereEnumerableIterator<KeyValuePair<uint, object>>.Dispose
 	|
-	|-RVA: 0x19EB630 Offset: 0x19E9C30 VA: 0x1819EB630
+	|-RVA: 0x19EB5F0 Offset: 0x19E9BF0 VA: 0x1819EB5F0
 	|-Enumerable.WhereEnumerableIterator<KeyValuePair<ulong, Dispatch.ResultCallback>>.Dispose
 	|
-	|-RVA: 0x19EB360 Offset: 0x19E9960 VA: 0x1819EB360
+	|-RVA: 0x19EB320 Offset: 0x19E9920 VA: 0x1819EB320
 	|-Enumerable.WhereEnumerableIterator<int>.Dispose
 	|
-	|-RVA: 0x19EBAB0 Offset: 0x19EA0B0 VA: 0x1819EBAB0
+	|-RVA: 0x19EBA70 Offset: 0x19EA070 VA: 0x1819EBA70
 	|-Enumerable.WhereEnumerableIterator<Int32Enum>.Dispose
 	|
-	|-RVA: 0x19EB240 Offset: 0x19E9840 VA: 0x1819EB240
+	|-RVA: 0x19EB200 Offset: 0x19E9800 VA: 0x1819EB200
 	|-Enumerable.WhereEnumerableIterator<long>.Dispose
 	|
-	|-RVA: 0x19EB900 Offset: 0x19E9F00 VA: 0x1819EB900
+	|-RVA: 0x19EB8C0 Offset: 0x19E9EC0 VA: 0x1819EB8C0
 	|-Enumerable.WhereEnumerableIterator<object>.Dispose
 	|
-	|-RVA: 0x19EB750 Offset: 0x19E9D50 VA: 0x1819EB750
+	|-RVA: 0x19EB710 Offset: 0x19E9D10 VA: 0x1819EB710
 	|-Enumerable.WhereEnumerableIterator<float>.Dispose
 	|
 	|-RVA: 0x16A3D20 Offset: 0x16A2320 VA: 0x1816A3D20
@@ -6782,88 +6782,88 @@ private class Enumerable.WhereEnumerableIterator<TSource> : Enumerable.Iterator<
 	public override bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19ED8F0 Offset: 0x19EBEF0 VA: 0x1819ED8F0
+	|-RVA: 0x19ED8B0 Offset: 0x19EBEB0 VA: 0x1819ED8B0
 	|-Enumerable.WhereEnumerableIterator<Debugging.EntityInfo>.MoveNext
 	|
-	|-RVA: 0x19EDAD0 Offset: 0x19EC0D0 VA: 0x1819EDAD0
+	|-RVA: 0x19EDA90 Offset: 0x19EC090 VA: 0x1819EDA90
 	|-Enumerable.WhereEnumerableIterator<SkeletonDefinition.Bone>.MoveNext
 	|
-	|-RVA: 0x19EC370 Offset: 0x19EA970 VA: 0x1819EC370
+	|-RVA: 0x19EC330 Offset: 0x19EA930 VA: 0x1819EC330
 	|-Enumerable.WhereEnumerableIterator<GameStat.Stat>.MoveNext
 	|
-	|-RVA: 0x19EEDA0 Offset: 0x19ED3A0 VA: 0x1819EEDA0
+	|-RVA: 0x19EED60 Offset: 0x19ED360 VA: 0x1819EED60
 	|-Enumerable.WhereEnumerableIterator<ItemSkinDirectory.Skin>.MoveNext
 	|
-	|-RVA: 0x19EEA00 Offset: 0x19ED000 VA: 0x1819EEA00
+	|-RVA: 0x19EE9C0 Offset: 0x19ECFC0 VA: 0x1819EE9C0
 	|-Enumerable.WhereEnumerableIterator<FourBitNumber>.MoveNext
 	|
-	|-RVA: 0x19EC850 Offset: 0x19EAE50 VA: 0x1819EC850
+	|-RVA: 0x19EC810 Offset: 0x19EAE10 VA: 0x1819EC810
 	|-Enumerable.WhereEnumerableIterator<SevenBitNumber>.MoveNext
 	|
-	|-RVA: 0x19ECFD0 Offset: 0x19EB5D0 VA: 0x1819ECFD0
+	|-RVA: 0x19ECF90 Offset: 0x19EB590 VA: 0x1819ECF90
 	|-Enumerable.WhereEnumerableIterator<PathFinder.Point>.MoveNext
 	|
-	|-RVA: 0x19ECA10 Offset: 0x19EB010 VA: 0x1819ECA10
+	|-RVA: 0x19EC9D0 Offset: 0x19EAFD0 VA: 0x1819EC9D0
 	|-Enumerable.WhereEnumerableIterator<PlayerItemRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x19ED530 Offset: 0x19EBB30 VA: 0x1819ED530
+	|-RVA: 0x19ED4F0 Offset: 0x19EBAF0 VA: 0x1819ED4F0
 	|-Enumerable.WhereEnumerableIterator<PlayerItemRecipe>.MoveNext
 	|
-	|-RVA: 0x19ECDF0 Offset: 0x19EB3F0 VA: 0x1819ECDF0
+	|-RVA: 0x19ECDB0 Offset: 0x19EB3B0 VA: 0x1819ECDB0
 	|-Enumerable.WhereEnumerableIterator<ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x19EBE00 Offset: 0x19EA400 VA: 0x1819EBE00
+	|-RVA: 0x19EBDC0 Offset: 0x19EA3C0 VA: 0x1819EBDC0
 	|-Enumerable.WhereEnumerableIterator<Option>.MoveNext
 	|
-	|-RVA: 0x19EC550 Offset: 0x19EAB50 VA: 0x1819EC550
+	|-RVA: 0x19EC510 Offset: 0x19EAB10 VA: 0x1819EC510
 	|-Enumerable.WhereEnumerableIterator<ServerInfo>.MoveNext
 	|
-	|-RVA: 0x19ED300 Offset: 0x19EB900 VA: 0x1819ED300
+	|-RVA: 0x19ED2C0 Offset: 0x19EB8C0 VA: 0x1819ED2C0
 	|-Enumerable.WhereEnumerableIterator<SkinnedMultiMesh.Part>.MoveNext
 	|
-	|-RVA: 0x19EE580 Offset: 0x19ECB80 VA: 0x1819EE580
+	|-RVA: 0x19EE540 Offset: 0x19ECB40 VA: 0x1819EE540
 	|-Enumerable.WhereEnumerableIterator<InventoryItemId>.MoveNext
 	|
-	|-RVA: 0x19EBBD0 Offset: 0x19EA1D0 VA: 0x1819EBBD0
+	|-RVA: 0x19EBB90 Offset: 0x19EA190 VA: 0x1819EBB90
 	|-Enumerable.WhereEnumerableIterator<InventoryItem>.MoveNext
 	|
-	|-RVA: 0x19ECBD0 Offset: 0x19EB1D0 VA: 0x1819ECBD0
+	|-RVA: 0x19ECB90 Offset: 0x19EB190 VA: 0x1819ECB90
 	|-Enumerable.WhereEnumerableIterator<InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x19EDD20 Offset: 0x19EC320 VA: 0x1819EDD20
+	|-RVA: 0x19EDCE0 Offset: 0x19EC2E0 VA: 0x1819EDCE0
 	|-Enumerable.WhereEnumerableIterator<InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x19EE740 Offset: 0x19ECD40 VA: 0x1819EE740
+	|-RVA: 0x19EE700 Offset: 0x19ECD00 VA: 0x1819EE700
 	|-Enumerable.WhereEnumerableIterator<bool>.MoveNext
 	|
-	|-RVA: 0x19EE8A0 Offset: 0x19ECEA0 VA: 0x1819EE8A0
+	|-RVA: 0x19EE860 Offset: 0x19ECE60 VA: 0x1819EE860
 	|-Enumerable.WhereEnumerableIterator<char>.MoveNext
 	|
-	|-RVA: 0x19ED710 Offset: 0x19EBD10 VA: 0x1819ED710
+	|-RVA: 0x19ED6D0 Offset: 0x19EBCD0 VA: 0x1819ED6D0
 	|-Enumerable.WhereEnumerableIterator<KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x19EC190 Offset: 0x19EA790 VA: 0x1819EC190
+	|-RVA: 0x19EC150 Offset: 0x19EA750 VA: 0x1819EC150
 	|-Enumerable.WhereEnumerableIterator<KeyValuePair<object, object>>.MoveNext
 	|
-	|-RVA: 0x19EEBC0 Offset: 0x19ED1C0 VA: 0x1819EEBC0
+	|-RVA: 0x19EEB80 Offset: 0x19ED180 VA: 0x1819EEB80
 	|-Enumerable.WhereEnumerableIterator<KeyValuePair<uint, object>>.MoveNext
 	|
-	|-RVA: 0x19EE0A0 Offset: 0x19EC6A0 VA: 0x1819EE0A0
+	|-RVA: 0x19EE060 Offset: 0x19EC660 VA: 0x1819EE060
 	|-Enumerable.WhereEnumerableIterator<KeyValuePair<ulong, Dispatch.ResultCallback>>.MoveNext
 	|
-	|-RVA: 0x19EE420 Offset: 0x19ECA20 VA: 0x1819EE420
+	|-RVA: 0x19EE3E0 Offset: 0x19EC9E0 VA: 0x1819EE3E0
 	|-Enumerable.WhereEnumerableIterator<int>.MoveNext
 	|
-	|-RVA: 0x19EC030 Offset: 0x19EA630 VA: 0x1819EC030
+	|-RVA: 0x19EBFF0 Offset: 0x19EA5F0 VA: 0x1819EBFF0
 	|-Enumerable.WhereEnumerableIterator<Int32Enum>.MoveNext
 	|
-	|-RVA: 0x19EDF40 Offset: 0x19EC540 VA: 0x1819EDF40
+	|-RVA: 0x19EDF00 Offset: 0x19EC500 VA: 0x1819EDF00
 	|-Enumerable.WhereEnumerableIterator<long>.MoveNext
 	|
-	|-RVA: 0x19ED190 Offset: 0x19EB790 VA: 0x1819ED190
+	|-RVA: 0x19ED150 Offset: 0x19EB750 VA: 0x1819ED150
 	|-Enumerable.WhereEnumerableIterator<object>.MoveNext
 	|
-	|-RVA: 0x19EE2C0 Offset: 0x19EC8C0 VA: 0x1819EE2C0
+	|-RVA: 0x19EE280 Offset: 0x19EC880 VA: 0x1819EE280
 	|-Enumerable.WhereEnumerableIterator<float>.MoveNext
 	|
 	|-RVA: 0x16A4020 Offset: 0x16A2620 VA: 0x1816A4020
@@ -6941,10 +6941,10 @@ private class Enumerable.WhereEnumerableIterator<TSource> : Enumerable.Iterator<
 	|-Enumerable.WhereEnumerableIterator<KeyValuePair<uint, object>>.Where
 	|-Enumerable.WhereEnumerableIterator<Resolution>.Where
 	|
-	|-RVA: 0x19EF070 Offset: 0x19ED670 VA: 0x1819EF070
+	|-RVA: 0x19EF030 Offset: 0x19ED630 VA: 0x1819EF030
 	|-Enumerable.WhereEnumerableIterator<SkeletonDefinition.Bone>.Where
 	|
-	|-RVA: 0x19EEFD0 Offset: 0x19ED5D0 VA: 0x1819EEFD0
+	|-RVA: 0x19EEF90 Offset: 0x19ED590 VA: 0x1819EEF90
 	|-Enumerable.WhereEnumerableIterator<ItemSkinDirectory.Skin>.Where
 	|-Enumerable.WhereEnumerableIterator<Option>.Where
 	|-Enumerable.WhereEnumerableIterator<SkinnedMultiMesh.Part>.Where
@@ -6965,10 +6965,10 @@ private class Enumerable.WhereEnumerableIterator<TSource> : Enumerable.Iterator<
 	|-Enumerable.WhereEnumerableIterator<float>.Where
 	|-Enumerable.WhereEnumerableIterator<uint>.Where
 	|
-	|-RVA: 0x19EF110 Offset: 0x19ED710 VA: 0x1819EF110
+	|-RVA: 0x19EF0D0 Offset: 0x19ED6D0 VA: 0x1819EF0D0
 	|-Enumerable.WhereEnumerableIterator<ServerInfo>.Where
 	|
-	|-RVA: 0x19EF1B0 Offset: 0x19ED7B0 VA: 0x1819EF1B0
+	|-RVA: 0x19EF170 Offset: 0x19ED770 VA: 0x1819EF170
 	|-Enumerable.WhereEnumerableIterator<InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereEnumerableIterator<InventoryRecipe>.Where
 	|-Enumerable.WhereEnumerableIterator<KeyValuePair<ulong, Dispatch.ResultCallback>>.Where
@@ -7056,47 +7056,47 @@ private class Enumerable.WhereArrayIterator<TSource> : Enumerable.Iterator<TSour
 	public override bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E9FC0 Offset: 0x19E85C0 VA: 0x1819E9FC0
+	|-RVA: 0x19E9F80 Offset: 0x19E8580 VA: 0x1819E9F80
 	|-Enumerable.WhereArrayIterator<SkeletonDefinition.Bone>.MoveNext
 	|
-	|-RVA: 0x19E9EE0 Offset: 0x19E84E0 VA: 0x1819E9EE0
+	|-RVA: 0x19E9EA0 Offset: 0x19E84A0 VA: 0x1819E9EA0
 	|-Enumerable.WhereArrayIterator<GameStat.Stat>.MoveNext
 	|-Enumerable.WhereArrayIterator<KeyValuePair<object, object>>.MoveNext
 	|
-	|-RVA: 0x19E9DE0 Offset: 0x19E83E0 VA: 0x1819E9DE0
+	|-RVA: 0x19E9DA0 Offset: 0x19E83A0 VA: 0x1819E9DA0
 	|-Enumerable.WhereArrayIterator<ItemSkinDirectory.Skin>.MoveNext
 	|-Enumerable.WhereArrayIterator<Option>.MoveNext
 	|
-	|-RVA: 0x19EA760 Offset: 0x19E8D60 VA: 0x1819EA760
+	|-RVA: 0x19EA720 Offset: 0x19E8D20 VA: 0x1819EA720
 	|-Enumerable.WhereArrayIterator<ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x19E9BF0 Offset: 0x19E81F0 VA: 0x1819E9BF0
+	|-RVA: 0x19E9BB0 Offset: 0x19E81B0 VA: 0x1819E9BB0
 	|-Enumerable.WhereArrayIterator<ServerInfo>.MoveNext
 	|
-	|-RVA: 0x19EA3C0 Offset: 0x19E89C0 VA: 0x1819EA3C0
+	|-RVA: 0x19EA380 Offset: 0x19E8980 VA: 0x1819EA380
 	|-Enumerable.WhereArrayIterator<SkinnedMultiMesh.Part>.MoveNext
 	|
-	|-RVA: 0x19EA1C0 Offset: 0x19E87C0 VA: 0x1819EA1C0
+	|-RVA: 0x19EA180 Offset: 0x19E8780 VA: 0x1819EA180
 	|-Enumerable.WhereArrayIterator<InventoryItem>.MoveNext
 	|
-	|-RVA: 0x19EA2C0 Offset: 0x19E88C0 VA: 0x1819EA2C0
+	|-RVA: 0x19EA280 Offset: 0x19E8880 VA: 0x1819EA280
 	|-Enumerable.WhereArrayIterator<InventoryRecipe.Ingredient>.MoveNext
 	|-Enumerable.WhereArrayIterator<KeyValuePair<ulong, Dispatch.ResultCallback>>.MoveNext
 	|
-	|-RVA: 0x19EA660 Offset: 0x19E8C60 VA: 0x1819EA660
+	|-RVA: 0x19EA620 Offset: 0x19E8C20 VA: 0x1819EA620
 	|-Enumerable.WhereArrayIterator<InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x19E9B30 Offset: 0x19E8130 VA: 0x1819E9B30
+	|-RVA: 0x19E9AF0 Offset: 0x19E80F0 VA: 0x1819E9AF0
 	|-Enumerable.WhereArrayIterator<char>.MoveNext
 	|
-	|-RVA: 0x19EA580 Offset: 0x19E8B80 VA: 0x1819EA580
+	|-RVA: 0x19EA540 Offset: 0x19E8B40 VA: 0x1819EA540
 	|-Enumerable.WhereArrayIterator<KeyValuePair<uint, object>>.MoveNext
 	|
-	|-RVA: 0x19EA4C0 Offset: 0x19E8AC0 VA: 0x1819EA4C0
+	|-RVA: 0x19EA480 Offset: 0x19E8A80 VA: 0x1819EA480
 	|-Enumerable.WhereArrayIterator<int>.MoveNext
 	|-Enumerable.WhereArrayIterator<Int32Enum>.MoveNext
 	|
-	|-RVA: 0x19EA0F0 Offset: 0x19E86F0 VA: 0x1819EA0F0
+	|-RVA: 0x19EA0B0 Offset: 0x19E86B0 VA: 0x1819EA0B0
 	|-Enumerable.WhereArrayIterator<object>.MoveNext
 	*/
 
@@ -7156,30 +7156,30 @@ private class Enumerable.WhereArrayIterator<TSource> : Enumerable.Iterator<TSour
 	public override IEnumerable<TSource> Where(Func<TSource, bool> predicate) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19EAA30 Offset: 0x19E9030 VA: 0x1819EAA30
+	|-RVA: 0x19EA9F0 Offset: 0x19E8FF0 VA: 0x1819EA9F0
 	|-Enumerable.WhereArrayIterator<SkeletonDefinition.Bone>.Where
 	|
-	|-RVA: 0x19EA990 Offset: 0x19E8F90 VA: 0x1819EA990
+	|-RVA: 0x19EA950 Offset: 0x19E8F50 VA: 0x1819EA950
 	|-Enumerable.WhereArrayIterator<GameStat.Stat>.Where
 	|-Enumerable.WhereArrayIterator<ProjectileWeaponMod.Modifier>.Where
 	|-Enumerable.WhereArrayIterator<KeyValuePair<object, object>>.Where
 	|-Enumerable.WhereArrayIterator<KeyValuePair<uint, object>>.Where
 	|
-	|-RVA: 0x19EA850 Offset: 0x19E8E50 VA: 0x1819EA850
+	|-RVA: 0x19EA810 Offset: 0x19E8E10 VA: 0x1819EA810
 	|-Enumerable.WhereArrayIterator<ItemSkinDirectory.Skin>.Where
 	|-Enumerable.WhereArrayIterator<Option>.Where
 	|-Enumerable.WhereArrayIterator<SkinnedMultiMesh.Part>.Where
 	|-Enumerable.WhereArrayIterator<InventoryItem>.Where
 	|
-	|-RVA: 0x19EAAD0 Offset: 0x19E90D0 VA: 0x1819EAAD0
+	|-RVA: 0x19EAA90 Offset: 0x19E9090 VA: 0x1819EAA90
 	|-Enumerable.WhereArrayIterator<ServerInfo>.Where
 	|
-	|-RVA: 0x19EAB70 Offset: 0x19E9170 VA: 0x1819EAB70
+	|-RVA: 0x19EAB30 Offset: 0x19E9130 VA: 0x1819EAB30
 	|-Enumerable.WhereArrayIterator<InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereArrayIterator<InventoryRecipe>.Where
 	|-Enumerable.WhereArrayIterator<KeyValuePair<ulong, Dispatch.ResultCallback>>.Where
 	|
-	|-RVA: 0x19EA8F0 Offset: 0x19E8EF0 VA: 0x1819EA8F0
+	|-RVA: 0x19EA8B0 Offset: 0x19E8EB0 VA: 0x1819EA8B0
 	|-Enumerable.WhereArrayIterator<char>.Where
 	|-Enumerable.WhereArrayIterator<int>.Where
 	|-Enumerable.WhereArrayIterator<Int32Enum>.Where
@@ -7875,652 +7875,652 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	public override void Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19D2C20 Offset: 0x19D1220 VA: 0x1819D2C20
+	|-RVA: 0x19D2BE0 Offset: 0x19D11E0 VA: 0x1819D2BE0
 	|-Enumerable.WhereSelectEnumerableIterator<BurstCloth.Chain, FourBitNumber>.Dispose
 	|
-	|-RVA: 0x19D2710 Offset: 0x19D0D10 VA: 0x1819D2710
+	|-RVA: 0x19D26D0 Offset: 0x19D0CD0 VA: 0x1819D26D0
 	|-Enumerable.WhereSelectEnumerableIterator<BurstCloth.Chain, SevenBitNumber>.Dispose
 	|
-	|-RVA: 0x19D25F0 Offset: 0x19D0BF0 VA: 0x1819D25F0
+	|-RVA: 0x19D25B0 Offset: 0x19D0BB0 VA: 0x1819D25B0
 	|-Enumerable.WhereSelectEnumerableIterator<BurstCloth.Chain, int>.Dispose
 	|
-	|-RVA: 0x19D2D40 Offset: 0x19D1340 VA: 0x1819D2D40
+	|-RVA: 0x19D2D00 Offset: 0x19D1300 VA: 0x1819D2D00
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, Debugging.EntityInfo>.Dispose
 	|
-	|-RVA: 0x19D2DD0 Offset: 0x19D13D0 VA: 0x1819D2DD0
+	|-RVA: 0x19D2D90 Offset: 0x19D1390 VA: 0x1819D2D90
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, PathFinder.Point>.Dispose
 	|
-	|-RVA: 0x19D2CB0 Offset: 0x19D12B0 VA: 0x1819D2CB0
+	|-RVA: 0x19D2C70 Offset: 0x19D1270 VA: 0x1819D2C70
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, ProjectileWeaponMod.Modifier>.Dispose
 	|
-	|-RVA: 0x19D28C0 Offset: 0x19D0EC0 VA: 0x1819D28C0
+	|-RVA: 0x19D2880 Offset: 0x19D0E80 VA: 0x1819D2880
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, Option>.Dispose
 	|
-	|-RVA: 0x19D2A70 Offset: 0x19D1070 VA: 0x1819D2A70
+	|-RVA: 0x19D2A30 Offset: 0x19D1030 VA: 0x1819D2A30
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, InventoryItem>.Dispose
 	|
-	|-RVA: 0x19D29E0 Offset: 0x19D0FE0 VA: 0x1819D29E0
+	|-RVA: 0x19D29A0 Offset: 0x19D0FA0 VA: 0x1819D29A0
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, InventoryRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x19D2680 Offset: 0x19D0C80 VA: 0x1819D2680
+	|-RVA: 0x19D2640 Offset: 0x19D0C40 VA: 0x1819D2640
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, InventoryRecipe>.Dispose
 	|
-	|-RVA: 0x19D2950 Offset: 0x19D0F50 VA: 0x1819D2950
+	|-RVA: 0x19D2910 Offset: 0x19D0F10 VA: 0x1819D2910
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, bool>.Dispose
 	|
-	|-RVA: 0x19D2560 Offset: 0x19D0B60 VA: 0x1819D2560
+	|-RVA: 0x19D2520 Offset: 0x19D0B20 VA: 0x1819D2520
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, KeyValuePair<object, int>>.Dispose
 	|
-	|-RVA: 0x19D27A0 Offset: 0x19D0DA0 VA: 0x1819D27A0
+	|-RVA: 0x19D2760 Offset: 0x19D0D60 VA: 0x1819D2760
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, int>.Dispose
 	|
-	|-RVA: 0x19D2830 Offset: 0x19D0E30 VA: 0x1819D2830
+	|-RVA: 0x19D27F0 Offset: 0x19D0DF0 VA: 0x1819D27F0
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, Int32Enum>.Dispose
 	|
-	|-RVA: 0x19D2B90 Offset: 0x19D1190 VA: 0x1819D2B90
+	|-RVA: 0x19D2B50 Offset: 0x19D1150 VA: 0x1819D2B50
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, long>.Dispose
 	|
-	|-RVA: 0x19D2B00 Offset: 0x19D1100 VA: 0x1819D2B00
+	|-RVA: 0x19D2AC0 Offset: 0x19D10C0 VA: 0x1819D2AC0
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, object>.Dispose
 	|
-	|-RVA: 0x1A18D30 Offset: 0x1A17330 VA: 0x181A18D30
+	|-RVA: 0x1A18CF0 Offset: 0x1A172F0 VA: 0x181A18CF0
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, float>.Dispose
 	|
-	|-RVA: 0x1A1A0E0 Offset: 0x1A186E0 VA: 0x181A1A0E0
+	|-RVA: 0x1A1A0A0 Offset: 0x1A186A0 VA: 0x181A1A0A0
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, Resolution>.Dispose
 	|
-	|-RVA: 0x1A19D80 Offset: 0x1A18380 VA: 0x181A19D80
+	|-RVA: 0x1A19D40 Offset: 0x1A18340 VA: 0x181A19D40
 	|-Enumerable.WhereSelectEnumerableIterator<WeightedStringList.Container, float>.Dispose
 	|
-	|-RVA: 0x1A18040 Offset: 0x1A16640 VA: 0x181A18040
+	|-RVA: 0x1A18000 Offset: 0x1A16600 VA: 0x181A18000
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, Debugging.EntityInfo>.Dispose
 	|
-	|-RVA: 0x1A192D0 Offset: 0x1A178D0 VA: 0x181A192D0
+	|-RVA: 0x1A19290 Offset: 0x1A17890 VA: 0x181A19290
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, PathFinder.Point>.Dispose
 	|
-	|-RVA: 0x1A1A170 Offset: 0x1A18770 VA: 0x181A1A170
+	|-RVA: 0x1A1A130 Offset: 0x1A18730 VA: 0x181A1A130
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, ProjectileWeaponMod.Modifier>.Dispose
 	|
-	|-RVA: 0x1A16E40 Offset: 0x1A15440 VA: 0x181A16E40
+	|-RVA: 0x1A16E00 Offset: 0x1A15400 VA: 0x181A16E00
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, Option>.Dispose
 	|
-	|-RVA: 0x1A19240 Offset: 0x1A17840 VA: 0x181A19240
+	|-RVA: 0x1A19200 Offset: 0x1A17800 VA: 0x181A19200
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, InventoryItem>.Dispose
 	|
-	|-RVA: 0x1A17E90 Offset: 0x1A16490 VA: 0x181A17E90
+	|-RVA: 0x1A17E50 Offset: 0x1A16450 VA: 0x181A17E50
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, InventoryRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x1A183A0 Offset: 0x1A169A0 VA: 0x181A183A0
+	|-RVA: 0x1A18360 Offset: 0x1A16960 VA: 0x181A18360
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, InventoryRecipe>.Dispose
 	|
-	|-RVA: 0x1A184C0 Offset: 0x1A16AC0 VA: 0x181A184C0
+	|-RVA: 0x1A18480 Offset: 0x1A16A80 VA: 0x181A18480
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, bool>.Dispose
 	|
-	|-RVA: 0x1A1A050 Offset: 0x1A18650 VA: 0x181A1A050
+	|-RVA: 0x1A1A010 Offset: 0x1A18610 VA: 0x181A1A010
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, KeyValuePair<object, int>>.Dispose
 	|
-	|-RVA: 0x1A19870 Offset: 0x1A17E70 VA: 0x181A19870
+	|-RVA: 0x1A19830 Offset: 0x1A17E30 VA: 0x181A19830
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, int>.Dispose
 	|
-	|-RVA: 0x1A180D0 Offset: 0x1A166D0 VA: 0x181A180D0
+	|-RVA: 0x1A18090 Offset: 0x1A16690 VA: 0x181A18090
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, Int32Enum>.Dispose
 	|
-	|-RVA: 0x1A18430 Offset: 0x1A16A30 VA: 0x181A18430
+	|-RVA: 0x1A183F0 Offset: 0x1A169F0 VA: 0x181A183F0
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, long>.Dispose
 	|
-	|-RVA: 0x1A18B80 Offset: 0x1A17180 VA: 0x181A18B80
+	|-RVA: 0x1A18B40 Offset: 0x1A17140 VA: 0x181A18B40
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, object>.Dispose
 	|
-	|-RVA: 0x1A16ED0 Offset: 0x1A154D0 VA: 0x181A16ED0
+	|-RVA: 0x1A16E90 Offset: 0x1A15490 VA: 0x181A16E90
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, float>.Dispose
 	|
-	|-RVA: 0x1A189D0 Offset: 0x1A16FD0 VA: 0x181A189D0
+	|-RVA: 0x1A18990 Offset: 0x1A16F90 VA: 0x181A18990
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, Resolution>.Dispose
 	|
-	|-RVA: 0x1A17A10 Offset: 0x1A16010 VA: 0x181A17A10
+	|-RVA: 0x1A179D0 Offset: 0x1A15FD0 VA: 0x181A179D0
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe.Ingredient, FourBitNumber>.Dispose
 	|
-	|-RVA: 0x1A19360 Offset: 0x1A17960 VA: 0x181A19360
+	|-RVA: 0x1A19320 Offset: 0x1A17920 VA: 0x181A19320
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe.Ingredient, SevenBitNumber>.Dispose
 	|
-	|-RVA: 0x1A19630 Offset: 0x1A17C30 VA: 0x181A19630
+	|-RVA: 0x1A195F0 Offset: 0x1A17BF0 VA: 0x181A195F0
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe.Ingredient, int>.Dispose
 	|
-	|-RVA: 0x1A17C50 Offset: 0x1A16250 VA: 0x181A17C50
+	|-RVA: 0x1A17C10 Offset: 0x1A16210 VA: 0x181A17C10
 	|-Enumerable.WhereSelectEnumerableIterator<ProjectileWeaponMod.Modifier, float>.Dispose
 	|
-	|-RVA: 0x1A17110 Offset: 0x1A15710 VA: 0x181A17110
+	|-RVA: 0x1A170D0 Offset: 0x1A156D0 VA: 0x181A170D0
 	|-Enumerable.WhereSelectEnumerableIterator<Option, Option>.Dispose
 	|
-	|-RVA: 0x1A19000 Offset: 0x1A17600 VA: 0x181A19000
+	|-RVA: 0x1A18FC0 Offset: 0x1A175C0 VA: 0x181A18FC0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, Debugging.EntityInfo>.Dispose
 	|
-	|-RVA: 0x1A18DC0 Offset: 0x1A173C0 VA: 0x181A18DC0
+	|-RVA: 0x1A18D80 Offset: 0x1A17380 VA: 0x181A18D80
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, FourBitNumber>.Dispose
 	|
-	|-RVA: 0x1A17D70 Offset: 0x1A16370 VA: 0x181A17D70
+	|-RVA: 0x1A17D30 Offset: 0x1A16330 VA: 0x181A17D30
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, SevenBitNumber>.Dispose
 	|
-	|-RVA: 0x1A19750 Offset: 0x1A17D50 VA: 0x181A19750
+	|-RVA: 0x1A19710 Offset: 0x1A17D10 VA: 0x181A19710
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, PathFinder.Point>.Dispose
 	|
-	|-RVA: 0x1A17B30 Offset: 0x1A16130 VA: 0x181A17B30
+	|-RVA: 0x1A17AF0 Offset: 0x1A160F0 VA: 0x181A17AF0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, ProjectileWeaponMod.Modifier>.Dispose
 	|
-	|-RVA: 0x1A193F0 Offset: 0x1A179F0 VA: 0x181A193F0
+	|-RVA: 0x1A193B0 Offset: 0x1A179B0 VA: 0x181A193B0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, Option>.Dispose
 	|
-	|-RVA: 0x1A19090 Offset: 0x1A17690 VA: 0x181A19090
+	|-RVA: 0x1A19050 Offset: 0x1A17650 VA: 0x181A19050
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, InventoryItem>.Dispose
 	|
-	|-RVA: 0x1A16F60 Offset: 0x1A15560 VA: 0x181A16F60
+	|-RVA: 0x1A16F20 Offset: 0x1A15520 VA: 0x181A16F20
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, InventoryRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x1A171A0 Offset: 0x1A157A0 VA: 0x181A171A0
+	|-RVA: 0x1A17160 Offset: 0x1A15760 VA: 0x181A17160
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, InventoryRecipe>.Dispose
 	|
-	|-RVA: 0x1A18700 Offset: 0x1A16D00 VA: 0x181A18700
+	|-RVA: 0x1A186C0 Offset: 0x1A16CC0 VA: 0x181A186C0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, bool>.Dispose
 	|
-	|-RVA: 0x1A17500 Offset: 0x1A15B00 VA: 0x181A17500
+	|-RVA: 0x1A174C0 Offset: 0x1A15AC0 VA: 0x181A174C0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, KeyValuePair<object, int>>.Dispose
 	|
-	|-RVA: 0x1A18E50 Offset: 0x1A17450 VA: 0x181A18E50
+	|-RVA: 0x1A18E10 Offset: 0x1A17410 VA: 0x181A18E10
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, int>.Dispose
 	|
-	|-RVA: 0x1A181F0 Offset: 0x1A167F0 VA: 0x181A181F0
+	|-RVA: 0x1A181B0 Offset: 0x1A167B0 VA: 0x181A181B0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, Int32Enum>.Dispose
 	|
-	|-RVA: 0x1A17980 Offset: 0x1A15F80 VA: 0x181A17980
+	|-RVA: 0x1A17940 Offset: 0x1A15F40 VA: 0x181A17940
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, long>.Dispose
 	|
-	|-RVA: 0x1A188B0 Offset: 0x1A16EB0 VA: 0x181A188B0
+	|-RVA: 0x1A18870 Offset: 0x1A16E70 VA: 0x181A18870
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, object>.Dispose
 	|
-	|-RVA: 0x1A16D20 Offset: 0x1A15320 VA: 0x181A16D20
+	|-RVA: 0x1A16CE0 Offset: 0x1A152E0 VA: 0x181A16CE0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, float>.Dispose
 	|
-	|-RVA: 0x1A16C00 Offset: 0x1A15200 VA: 0x181A16C00
+	|-RVA: 0x1A16BC0 Offset: 0x1A151C0 VA: 0x181A16BC0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, Resolution>.Dispose
 	|
-	|-RVA: 0x1A17AA0 Offset: 0x1A160A0 VA: 0x181A17AA0
+	|-RVA: 0x1A17A60 Offset: 0x1A16060 VA: 0x181A17A60
 	|-Enumerable.WhereSelectEnumerableIterator<SkinnedMultiMesh.Part, long>.Dispose
 	|
-	|-RVA: 0x1A17620 Offset: 0x1A15C20 VA: 0x181A17620
+	|-RVA: 0x1A175E0 Offset: 0x1A15BE0 VA: 0x181A175E0
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, Debugging.EntityInfo>.Dispose
 	|
-	|-RVA: 0x1A17E00 Offset: 0x1A16400 VA: 0x181A17E00
+	|-RVA: 0x1A17DC0 Offset: 0x1A163C0 VA: 0x181A17DC0
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, PathFinder.Point>.Dispose
 	|
-	|-RVA: 0x1A16B70 Offset: 0x1A15170 VA: 0x181A16B70
+	|-RVA: 0x1A16B30 Offset: 0x1A15130 VA: 0x181A16B30
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, ProjectileWeaponMod.Modifier>.Dispose
 	|
-	|-RVA: 0x1A17CE0 Offset: 0x1A162E0 VA: 0x181A17CE0
+	|-RVA: 0x1A17CA0 Offset: 0x1A162A0 VA: 0x181A17CA0
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, Option>.Dispose
 	|
-	|-RVA: 0x1A18670 Offset: 0x1A16C70 VA: 0x181A18670
+	|-RVA: 0x1A18630 Offset: 0x1A16C30 VA: 0x181A18630
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, InventoryItem>.Dispose
 	|
-	|-RVA: 0x1A18CA0 Offset: 0x1A172A0 VA: 0x181A18CA0
+	|-RVA: 0x1A18C60 Offset: 0x1A17260 VA: 0x181A18C60
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, InventoryRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x1A19900 Offset: 0x1A17F00 VA: 0x181A19900
+	|-RVA: 0x1A198C0 Offset: 0x1A17EC0 VA: 0x181A198C0
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, InventoryRecipe>.Dispose
 	|
-	|-RVA: 0x1A17FB0 Offset: 0x1A165B0 VA: 0x181A17FB0
+	|-RVA: 0x1A17F70 Offset: 0x1A16570 VA: 0x181A17F70
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, bool>.Dispose
 	|
-	|-RVA: 0x1A17590 Offset: 0x1A15B90 VA: 0x181A17590
+	|-RVA: 0x1A17550 Offset: 0x1A15B50 VA: 0x181A17550
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, KeyValuePair<object, int>>.Dispose
 	|
-	|-RVA: 0x1A169C0 Offset: 0x1A14FC0 VA: 0x181A169C0
+	|-RVA: 0x1A16980 Offset: 0x1A14F80 VA: 0x181A16980
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, int>.Dispose
 	|
-	|-RVA: 0x1A18550 Offset: 0x1A16B50 VA: 0x181A18550
+	|-RVA: 0x1A18510 Offset: 0x1A16B10 VA: 0x181A18510
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, Int32Enum>.Dispose
 	|
-	|-RVA: 0x1A185E0 Offset: 0x1A16BE0 VA: 0x181A185E0
+	|-RVA: 0x1A185A0 Offset: 0x1A16BA0 VA: 0x181A185A0
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, long>.Dispose
 	|
-	|-RVA: 0x1A16DB0 Offset: 0x1A153B0 VA: 0x181A16DB0
+	|-RVA: 0x1A16D70 Offset: 0x1A15370 VA: 0x181A16D70
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, object>.Dispose
 	|
-	|-RVA: 0x1A19B40 Offset: 0x1A18140 VA: 0x181A19B40
+	|-RVA: 0x1A19B00 Offset: 0x1A18100 VA: 0x181A19B00
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, float>.Dispose
 	|
-	|-RVA: 0x1A195A0 Offset: 0x1A17BA0 VA: 0x181A195A0
+	|-RVA: 0x1A19560 Offset: 0x1A17B60 VA: 0x181A19560
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, Resolution>.Dispose
 	|
-	|-RVA: 0x1A19E10 Offset: 0x1A18410 VA: 0x181A19E10
+	|-RVA: 0x1A19DD0 Offset: 0x1A183D0 VA: 0x181A19DD0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, Debugging.EntityInfo>.Dispose
 	|
-	|-RVA: 0x1A16FF0 Offset: 0x1A155F0 VA: 0x181A16FF0
+	|-RVA: 0x1A16FB0 Offset: 0x1A155B0 VA: 0x181A16FB0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, PathFinder.Point>.Dispose
 	|
-	|-RVA: 0x1A196C0 Offset: 0x1A17CC0 VA: 0x181A196C0
+	|-RVA: 0x1A19680 Offset: 0x1A17C80 VA: 0x181A19680
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, ProjectileWeaponMod.Modifier>.Dispose
 	|
-	|-RVA: 0x1A19AB0 Offset: 0x1A180B0 VA: 0x181A19AB0
+	|-RVA: 0x1A19A70 Offset: 0x1A18070 VA: 0x181A19A70
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, Option>.Dispose
 	|
-	|-RVA: 0x1A19BD0 Offset: 0x1A181D0 VA: 0x181A19BD0
+	|-RVA: 0x1A19B90 Offset: 0x1A18190 VA: 0x181A19B90
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, InventoryItem>.Dispose
 	|
-	|-RVA: 0x1A18F70 Offset: 0x1A17570 VA: 0x181A18F70
+	|-RVA: 0x1A18F30 Offset: 0x1A17530 VA: 0x181A18F30
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, InventoryRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x1A176B0 Offset: 0x1A15CB0 VA: 0x181A176B0
+	|-RVA: 0x1A17670 Offset: 0x1A15C70 VA: 0x181A17670
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, InventoryRecipe>.Dispose
 	|
-	|-RVA: 0x1A16C90 Offset: 0x1A15290 VA: 0x181A16C90
+	|-RVA: 0x1A16C50 Offset: 0x1A15250 VA: 0x181A16C50
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, bool>.Dispose
 	|
-	|-RVA: 0x1A19480 Offset: 0x1A17A80 VA: 0x181A19480
+	|-RVA: 0x1A19440 Offset: 0x1A17A40 VA: 0x181A19440
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, KeyValuePair<object, int>>.Dispose
 	|
-	|-RVA: 0x1A18EE0 Offset: 0x1A174E0 VA: 0x181A18EE0
+	|-RVA: 0x1A18EA0 Offset: 0x1A174A0 VA: 0x181A18EA0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, int>.Dispose
 	|
-	|-RVA: 0x1A19A20 Offset: 0x1A18020 VA: 0x181A19A20
+	|-RVA: 0x1A199E0 Offset: 0x1A17FE0 VA: 0x181A199E0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, Int32Enum>.Dispose
 	|
-	|-RVA: 0x1A18C10 Offset: 0x1A17210 VA: 0x181A18C10
+	|-RVA: 0x1A18BD0 Offset: 0x1A171D0 VA: 0x181A18BD0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, long>.Dispose
 	|
-	|-RVA: 0x1A16A50 Offset: 0x1A15050 VA: 0x181A16A50
+	|-RVA: 0x1A16A10 Offset: 0x1A15010 VA: 0x181A16A10
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, object>.Dispose
 	|
-	|-RVA: 0x1A17BC0 Offset: 0x1A161C0 VA: 0x181A17BC0
+	|-RVA: 0x1A17B80 Offset: 0x1A16180 VA: 0x181A17B80
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, float>.Dispose
 	|
-	|-RVA: 0x1A17F20 Offset: 0x1A16520 VA: 0x181A17F20
+	|-RVA: 0x1A17EE0 Offset: 0x1A164E0 VA: 0x181A17EE0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, Resolution>.Dispose
 	|
-	|-RVA: 0x1A19C60 Offset: 0x1A18260 VA: 0x181A19C60
+	|-RVA: 0x1A19C20 Offset: 0x1A18220 VA: 0x181A19C20
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, ServerInfo>.Dispose
 	|
-	|-RVA: 0x1A18AF0 Offset: 0x1A170F0 VA: 0x181A18AF0
+	|-RVA: 0x1A18AB0 Offset: 0x1A170B0 VA: 0x181A18AB0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, int>.Dispose
 	|
-	|-RVA: 0x1A16AE0 Offset: 0x1A150E0 VA: 0x181A16AE0
+	|-RVA: 0x1A16AA0 Offset: 0x1A150A0 VA: 0x181A16AA0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, object>.Dispose
 	|
-	|-RVA: 0x1A17740 Offset: 0x1A15D40 VA: 0x181A17740
+	|-RVA: 0x1A17700 Offset: 0x1A15D00 VA: 0x181A17700
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, Debugging.EntityInfo>.Dispose
 	|
-	|-RVA: 0x1A17230 Offset: 0x1A15830 VA: 0x181A17230
+	|-RVA: 0x1A171F0 Offset: 0x1A157F0 VA: 0x181A171F0
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, PathFinder.Point>.Dispose
 	|
-	|-RVA: 0x1A19CF0 Offset: 0x1A182F0 VA: 0x181A19CF0
+	|-RVA: 0x1A19CB0 Offset: 0x1A182B0 VA: 0x181A19CB0
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, ProjectileWeaponMod.Modifier>.Dispose
 	|
-	|-RVA: 0x1A18A60 Offset: 0x1A17060 VA: 0x181A18A60
+	|-RVA: 0x1A18A20 Offset: 0x1A17020 VA: 0x181A18A20
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, Option>.Dispose
 	|
-	|-RVA: 0x1A19990 Offset: 0x1A17F90 VA: 0x181A19990
+	|-RVA: 0x1A19950 Offset: 0x1A17F50 VA: 0x181A19950
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, InventoryItem>.Dispose
 	|
-	|-RVA: 0x1A173E0 Offset: 0x1A159E0 VA: 0x181A173E0
+	|-RVA: 0x1A173A0 Offset: 0x1A159A0 VA: 0x181A173A0
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, InventoryRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x1A18940 Offset: 0x1A16F40 VA: 0x181A18940
+	|-RVA: 0x1A18900 Offset: 0x1A16F00 VA: 0x181A18900
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, InventoryRecipe>.Dispose
 	|
-	|-RVA: 0x1A17470 Offset: 0x1A15A70 VA: 0x181A17470
+	|-RVA: 0x1A17430 Offset: 0x1A15A30 VA: 0x181A17430
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, bool>.Dispose
 	|
-	|-RVA: 0x1A19FC0 Offset: 0x1A185C0 VA: 0x181A19FC0
+	|-RVA: 0x1A19F80 Offset: 0x1A18580 VA: 0x181A19F80
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, KeyValuePair<object, int>>.Dispose
 	|
-	|-RVA: 0x1A19120 Offset: 0x1A17720 VA: 0x181A19120
+	|-RVA: 0x1A190E0 Offset: 0x1A176E0 VA: 0x181A190E0
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, int>.Dispose
 	|
-	|-RVA: 0x1A18820 Offset: 0x1A16E20 VA: 0x181A18820
+	|-RVA: 0x1A187E0 Offset: 0x1A16DE0 VA: 0x181A187E0
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, Int32Enum>.Dispose
 	|
-	|-RVA: 0x1A17350 Offset: 0x1A15950 VA: 0x181A17350
+	|-RVA: 0x1A17310 Offset: 0x1A15910 VA: 0x181A17310
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, long>.Dispose
 	|
-	|-RVA: 0x1A18790 Offset: 0x1A16D90 VA: 0x181A18790
+	|-RVA: 0x1A18750 Offset: 0x1A16D50 VA: 0x181A18750
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, object>.Dispose
 	|
-	|-RVA: 0x1A18160 Offset: 0x1A16760 VA: 0x181A18160
+	|-RVA: 0x1A18120 Offset: 0x1A16720 VA: 0x181A18120
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, float>.Dispose
 	|
-	|-RVA: 0x1A18310 Offset: 0x1A16910 VA: 0x181A18310
+	|-RVA: 0x1A182D0 Offset: 0x1A168D0 VA: 0x181A182D0
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, Resolution>.Dispose
 	|
-	|-RVA: 0x1A19EA0 Offset: 0x1A184A0 VA: 0x181A19EA0
+	|-RVA: 0x1A19E60 Offset: 0x1A18460 VA: 0x181A19E60
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, Debugging.EntityInfo>.Dispose
 	|
-	|-RVA: 0x1A17860 Offset: 0x1A15E60 VA: 0x181A17860
+	|-RVA: 0x1A17820 Offset: 0x1A15E20 VA: 0x181A17820
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, FourBitNumber>.Dispose
 	|
-	|-RVA: 0x1A197E0 Offset: 0x1A17DE0 VA: 0x181A197E0
+	|-RVA: 0x1A197A0 Offset: 0x1A17DA0 VA: 0x181A197A0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, SevenBitNumber>.Dispose
 	|
-	|-RVA: 0x1A17080 Offset: 0x1A15680 VA: 0x181A17080
+	|-RVA: 0x1A17040 Offset: 0x1A15640 VA: 0x181A17040
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, PathFinder.Point>.Dispose
 	|
-	|-RVA: 0x1A16930 Offset: 0x1A14F30 VA: 0x181A16930
+	|-RVA: 0x1A168F0 Offset: 0x1A14EF0 VA: 0x181A168F0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, ProjectileWeaponMod.Modifier>.Dispose
 	|
-	|-RVA: 0x1A19510 Offset: 0x1A17B10 VA: 0x181A19510
+	|-RVA: 0x1A194D0 Offset: 0x1A17AD0 VA: 0x181A194D0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, Option>.Dispose
 	|
-	|-RVA: 0x1A177D0 Offset: 0x1A15DD0 VA: 0x181A177D0
+	|-RVA: 0x1A17790 Offset: 0x1A15D90 VA: 0x181A17790
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryItemId>.Dispose
 	|
-	|-RVA: 0x1A172C0 Offset: 0x1A158C0 VA: 0x181A172C0
+	|-RVA: 0x1A17280 Offset: 0x1A15880 VA: 0x181A17280
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryItem>.Dispose
 	|
-	|-RVA: 0x1A18280 Offset: 0x1A16880 VA: 0x181A18280
+	|-RVA: 0x1A18240 Offset: 0x1A16840 VA: 0x181A18240
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x1A178F0 Offset: 0x1A15EF0 VA: 0x181A178F0
+	|-RVA: 0x1A178B0 Offset: 0x1A15EB0 VA: 0x181A178B0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryRecipe>.Dispose
 	|
-	|-RVA: 0x1A191B0 Offset: 0x1A177B0 VA: 0x181A191B0
+	|-RVA: 0x1A19170 Offset: 0x1A17770 VA: 0x181A19170
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, bool>.Dispose
 	|
-	|-RVA: 0x1A19F30 Offset: 0x1A18530 VA: 0x181A19F30
+	|-RVA: 0x1A19EF0 Offset: 0x1A184F0 VA: 0x181A19EF0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, KeyValuePair<object, int>>.Dispose
 	|
-	|-RVA: 0x1A2A130 Offset: 0x1A28730 VA: 0x181A2A130
+	|-RVA: 0x1A2A0F0 Offset: 0x1A286F0 VA: 0x181A2A0F0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, int>.Dispose
 	|
-	|-RVA: 0x1A27D30 Offset: 0x1A26330 VA: 0x181A27D30
+	|-RVA: 0x1A27CF0 Offset: 0x1A262F0 VA: 0x181A27CF0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, Int32Enum>.Dispose
 	|
-	|-RVA: 0x1A27E50 Offset: 0x1A26450 VA: 0x181A27E50
+	|-RVA: 0x1A27E10 Offset: 0x1A26410 VA: 0x181A27E10
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, long>.Dispose
 	|
-	|-RVA: 0x1A27160 Offset: 0x1A25760 VA: 0x181A27160
+	|-RVA: 0x1A27120 Offset: 0x1A25720 VA: 0x181A27120
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, object>.Dispose
 	|
-	|-RVA: 0x1A293B0 Offset: 0x1A279B0 VA: 0x181A293B0
+	|-RVA: 0x1A29370 Offset: 0x1A27970 VA: 0x181A29370
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, float>.Dispose
 	|
-	|-RVA: 0x1A27940 Offset: 0x1A25F40 VA: 0x181A27940
+	|-RVA: 0x1A27900 Offset: 0x1A25F00 VA: 0x181A27900
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, uint>.Dispose
 	|
-	|-RVA: 0x1A281B0 Offset: 0x1A267B0 VA: 0x181A281B0
+	|-RVA: 0x1A28170 Offset: 0x1A26770 VA: 0x181A28170
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, Resolution>.Dispose
 	|
-	|-RVA: 0x1A28360 Offset: 0x1A26960 VA: 0x181A28360
+	|-RVA: 0x1A28320 Offset: 0x1A26920 VA: 0x181A28320
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem.Amount, InventoryItemId>.Dispose
 	|
-	|-RVA: 0x1A2A5B0 Offset: 0x1A28BB0 VA: 0x181A2A5B0
+	|-RVA: 0x1A2A570 Offset: 0x1A28B70 VA: 0x181A2A570
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem.Amount, uint>.Dispose
 	|
-	|-RVA: 0x1A290E0 Offset: 0x1A276E0 VA: 0x181A290E0
+	|-RVA: 0x1A290A0 Offset: 0x1A276A0 VA: 0x181A290A0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe, PlayerItemRecipe>.Dispose
 	|
-	|-RVA: 0x1A29950 Offset: 0x1A27F50 VA: 0x181A29950
+	|-RVA: 0x1A29910 Offset: 0x1A27F10 VA: 0x181A29910
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe, object>.Dispose
 	|
-	|-RVA: 0x1A27550 Offset: 0x1A25B50 VA: 0x181A27550
+	|-RVA: 0x1A27510 Offset: 0x1A25B10 VA: 0x181A27510
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, Debugging.EntityInfo>.Dispose
 	|
-	|-RVA: 0x1A27CA0 Offset: 0x1A262A0 VA: 0x181A27CA0
+	|-RVA: 0x1A27C60 Offset: 0x1A26260 VA: 0x181A27C60
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, PathFinder.Point>.Dispose
 	|
-	|-RVA: 0x1A2A370 Offset: 0x1A28970 VA: 0x181A2A370
+	|-RVA: 0x1A2A330 Offset: 0x1A28930 VA: 0x181A2A330
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x1A2A1C0 Offset: 0x1A287C0 VA: 0x181A2A1C0
+	|-RVA: 0x1A2A180 Offset: 0x1A28780 VA: 0x181A2A180
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, ProjectileWeaponMod.Modifier>.Dispose
 	|
-	|-RVA: 0x1A29CB0 Offset: 0x1A282B0 VA: 0x181A29CB0
+	|-RVA: 0x1A29C70 Offset: 0x1A28270 VA: 0x181A29C70
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, Option>.Dispose
 	|
-	|-RVA: 0x1A29560 Offset: 0x1A27B60 VA: 0x181A29560
+	|-RVA: 0x1A29520 Offset: 0x1A27B20 VA: 0x181A29520
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, InventoryItem>.Dispose
 	|
-	|-RVA: 0x1A297A0 Offset: 0x1A27DA0 VA: 0x181A297A0
+	|-RVA: 0x1A29760 Offset: 0x1A27D60 VA: 0x181A29760
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x1A27B80 Offset: 0x1A26180 VA: 0x181A27B80
+	|-RVA: 0x1A27B40 Offset: 0x1A26140 VA: 0x181A27B40
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, InventoryRecipe>.Dispose
 	|
-	|-RVA: 0x1A27310 Offset: 0x1A25910 VA: 0x181A27310
+	|-RVA: 0x1A272D0 Offset: 0x1A258D0 VA: 0x181A272D0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, bool>.Dispose
 	|
-	|-RVA: 0x1A27AF0 Offset: 0x1A260F0 VA: 0x181A27AF0
+	|-RVA: 0x1A27AB0 Offset: 0x1A260B0 VA: 0x181A27AB0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, KeyValuePair<object, int>>.Dispose
 	|
-	|-RVA: 0x1A298C0 Offset: 0x1A27EC0 VA: 0x181A298C0
+	|-RVA: 0x1A29880 Offset: 0x1A27E80 VA: 0x181A29880
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, int>.Dispose
 	|
-	|-RVA: 0x1A28E10 Offset: 0x1A27410 VA: 0x181A28E10
+	|-RVA: 0x1A28DD0 Offset: 0x1A273D0 VA: 0x181A28DD0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, Int32Enum>.Dispose
 	|
-	|-RVA: 0x1A2A250 Offset: 0x1A28850 VA: 0x181A2A250
+	|-RVA: 0x1A2A210 Offset: 0x1A28810 VA: 0x181A2A210
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, long>.Dispose
 	|
-	|-RVA: 0x1A28CF0 Offset: 0x1A272F0 VA: 0x181A28CF0
+	|-RVA: 0x1A28CB0 Offset: 0x1A272B0 VA: 0x181A28CB0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, object>.Dispose
 	|
-	|-RVA: 0x1A29D40 Offset: 0x1A28340 VA: 0x181A29D40
+	|-RVA: 0x1A29D00 Offset: 0x1A28300 VA: 0x181A29D00
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, float>.Dispose
 	|
-	|-RVA: 0x1A27790 Offset: 0x1A25D90 VA: 0x181A27790
+	|-RVA: 0x1A27750 Offset: 0x1A25D50 VA: 0x181A27750
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, Resolution>.Dispose
 	|
-	|-RVA: 0x1A29290 Offset: 0x1A27890 VA: 0x181A29290
+	|-RVA: 0x1A29250 Offset: 0x1A27850 VA: 0x181A29250
 	|-Enumerable.WhereSelectEnumerableIterator<DictionaryEntry, KeyValuePair<object, object>>.Dispose
 	|
-	|-RVA: 0x1A27A60 Offset: 0x1A26060 VA: 0x181A27A60
+	|-RVA: 0x1A27A20 Offset: 0x1A26020 VA: 0x181A27A20
 	|-Enumerable.WhereSelectEnumerableIterator<DictionaryEntry, object>.Dispose
 	|
-	|-RVA: 0x1A26F20 Offset: 0x1A25520 VA: 0x181A26F20
+	|-RVA: 0x1A26EE0 Offset: 0x1A254E0 VA: 0x181A26EE0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, Debugging.EntityInfo>.Dispose
 	|
-	|-RVA: 0x1A28BD0 Offset: 0x1A271D0 VA: 0x181A28BD0
+	|-RVA: 0x1A28B90 Offset: 0x1A27190 VA: 0x181A28B90
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, PathFinder.Point>.Dispose
 	|
-	|-RVA: 0x1A270D0 Offset: 0x1A256D0 VA: 0x181A270D0
+	|-RVA: 0x1A27090 Offset: 0x1A25690 VA: 0x181A27090
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, ProjectileWeaponMod.Modifier>.Dispose
 	|
-	|-RVA: 0x1A27670 Offset: 0x1A25C70 VA: 0x181A27670
+	|-RVA: 0x1A27630 Offset: 0x1A25C30 VA: 0x181A27630
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, Option>.Dispose
 	|
-	|-RVA: 0x1A28FC0 Offset: 0x1A275C0 VA: 0x181A28FC0
+	|-RVA: 0x1A28F80 Offset: 0x1A27580 VA: 0x181A28F80
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, InventoryItem>.Dispose
 	|
-	|-RVA: 0x1A28750 Offset: 0x1A26D50 VA: 0x181A28750
+	|-RVA: 0x1A28710 Offset: 0x1A26D10 VA: 0x181A28710
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, InventoryRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x1A29050 Offset: 0x1A27650 VA: 0x181A29050
+	|-RVA: 0x1A29010 Offset: 0x1A27610 VA: 0x181A29010
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, InventoryRecipe>.Dispose
 	|
-	|-RVA: 0x1A283F0 Offset: 0x1A269F0 VA: 0x181A283F0
+	|-RVA: 0x1A283B0 Offset: 0x1A269B0 VA: 0x181A283B0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, bool>.Dispose
 	|
-	|-RVA: 0x1A29710 Offset: 0x1A27D10 VA: 0x181A29710
+	|-RVA: 0x1A296D0 Offset: 0x1A27CD0 VA: 0x181A296D0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, KeyValuePair<object, int>>.Dispose
 	|
-	|-RVA: 0x1A2A520 Offset: 0x1A28B20 VA: 0x181A2A520
+	|-RVA: 0x1A2A4E0 Offset: 0x1A28AE0 VA: 0x181A2A4E0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, int>.Dispose
 	|
-	|-RVA: 0x1A27F70 Offset: 0x1A26570 VA: 0x181A27F70
+	|-RVA: 0x1A27F30 Offset: 0x1A26530 VA: 0x181A27F30
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, Int32Enum>.Dispose
 	|
-	|-RVA: 0x1A27040 Offset: 0x1A25640 VA: 0x181A27040
+	|-RVA: 0x1A27000 Offset: 0x1A25600 VA: 0x181A27000
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, long>.Dispose
 	|
-	|-RVA: 0x1A27700 Offset: 0x1A25D00 VA: 0x181A27700
+	|-RVA: 0x1A276C0 Offset: 0x1A25CC0 VA: 0x181A276C0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, object>.Dispose
 	|
-	|-RVA: 0x1A29DD0 Offset: 0x1A283D0 VA: 0x181A29DD0
+	|-RVA: 0x1A29D90 Offset: 0x1A28390 VA: 0x181A29D90
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, float>.Dispose
 	|
-	|-RVA: 0x1A275E0 Offset: 0x1A25BE0 VA: 0x181A275E0
+	|-RVA: 0x1A275A0 Offset: 0x1A25BA0 VA: 0x181A275A0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, Resolution>.Dispose
 	|
-	|-RVA: 0x1A28090 Offset: 0x1A26690 VA: 0x181A28090
+	|-RVA: 0x1A28050 Offset: 0x1A26650 VA: 0x181A28050
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, Debugging.EntityInfo>.Dispose
 	|
-	|-RVA: 0x1A29B90 Offset: 0x1A28190 VA: 0x181A29B90
+	|-RVA: 0x1A29B50 Offset: 0x1A28150 VA: 0x181A29B50
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, PathFinder.Point>.Dispose
 	|
-	|-RVA: 0x1A27430 Offset: 0x1A25A30 VA: 0x181A27430
+	|-RVA: 0x1A273F0 Offset: 0x1A259F0 VA: 0x181A273F0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, ProjectileWeaponMod.Modifier>.Dispose
 	|
-	|-RVA: 0x1A29F80 Offset: 0x1A28580 VA: 0x181A29F80
+	|-RVA: 0x1A29F40 Offset: 0x1A28540 VA: 0x181A29F40
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, Option>.Dispose
 	|
-	|-RVA: 0x1A2A490 Offset: 0x1A28A90 VA: 0x181A2A490
+	|-RVA: 0x1A2A450 Offset: 0x1A28A50 VA: 0x181A2A450
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, InventoryItem>.Dispose
 	|
-	|-RVA: 0x1A28EA0 Offset: 0x1A274A0 VA: 0x181A28EA0
+	|-RVA: 0x1A28E60 Offset: 0x1A27460 VA: 0x181A28E60
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, InventoryRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x1A2A010 Offset: 0x1A28610 VA: 0x181A2A010
+	|-RVA: 0x1A29FD0 Offset: 0x1A285D0 VA: 0x181A29FD0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, InventoryRecipe>.Dispose
 	|
-	|-RVA: 0x1A294D0 Offset: 0x1A27AD0 VA: 0x181A294D0
+	|-RVA: 0x1A29490 Offset: 0x1A27A90 VA: 0x181A29490
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, bool>.Dispose
 	|
-	|-RVA: 0x1A28000 Offset: 0x1A26600 VA: 0x181A28000
+	|-RVA: 0x1A27FC0 Offset: 0x1A265C0 VA: 0x181A27FC0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, KeyValuePair<object, int>>.Dispose
 	|
-	|-RVA: 0x1A273A0 Offset: 0x1A259A0 VA: 0x181A273A0
+	|-RVA: 0x1A27360 Offset: 0x1A25960 VA: 0x181A27360
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, int>.Dispose
 	|
-	|-RVA: 0x1A29170 Offset: 0x1A27770 VA: 0x181A29170
+	|-RVA: 0x1A29130 Offset: 0x1A27730 VA: 0x181A29130
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, Int32Enum>.Dispose
 	|
-	|-RVA: 0x1A278B0 Offset: 0x1A25EB0 VA: 0x181A278B0
+	|-RVA: 0x1A27870 Offset: 0x1A25E70 VA: 0x181A27870
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, long>.Dispose
 	|
-	|-RVA: 0x1A29E60 Offset: 0x1A28460 VA: 0x181A29E60
+	|-RVA: 0x1A29E20 Offset: 0x1A28420 VA: 0x181A29E20
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, object>.Dispose
 	|
-	|-RVA: 0x1A27820 Offset: 0x1A25E20 VA: 0x181A27820
+	|-RVA: 0x1A277E0 Offset: 0x1A25DE0 VA: 0x181A277E0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, float>.Dispose
 	|
-	|-RVA: 0x1A279D0 Offset: 0x1A25FD0 VA: 0x181A279D0
+	|-RVA: 0x1A27990 Offset: 0x1A25F90 VA: 0x181A27990
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, uint>.Dispose
 	|
-	|-RVA: 0x1A28990 Offset: 0x1A26F90 VA: 0x181A28990
+	|-RVA: 0x1A28950 Offset: 0x1A26F50 VA: 0x181A28950
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, Resolution>.Dispose
 	|
-	|-RVA: 0x1A29C20 Offset: 0x1A28220 VA: 0x181A29C20
+	|-RVA: 0x1A29BE0 Offset: 0x1A281E0 VA: 0x181A29BE0
 	|-Enumerable.WhereSelectEnumerableIterator<int, FourBitNumber>.Dispose
 	|
-	|-RVA: 0x1A29680 Offset: 0x1A27C80 VA: 0x181A29680
+	|-RVA: 0x1A29640 Offset: 0x1A27C40 VA: 0x181A29640
 	|-Enumerable.WhereSelectEnumerableIterator<int, SevenBitNumber>.Dispose
 	|
-	|-RVA: 0x1A28C60 Offset: 0x1A27260 VA: 0x181A28C60
+	|-RVA: 0x1A28C20 Offset: 0x1A27220 VA: 0x181A28C20
 	|-Enumerable.WhereSelectEnumerableIterator<int, int>.Dispose
 	|
-	|-RVA: 0x1A28D80 Offset: 0x1A27380 VA: 0x181A28D80
+	|-RVA: 0x1A28D40 Offset: 0x1A27340 VA: 0x181A28D40
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, Debugging.EntityInfo>.Dispose
 	|
-	|-RVA: 0x1A2A400 Offset: 0x1A28A00 VA: 0x181A2A400
+	|-RVA: 0x1A2A3C0 Offset: 0x1A289C0 VA: 0x181A2A3C0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, PathFinder.Point>.Dispose
 	|
-	|-RVA: 0x1A28870 Offset: 0x1A26E70 VA: 0x181A28870
+	|-RVA: 0x1A28830 Offset: 0x1A26E30 VA: 0x181A28830
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, ProjectileWeaponMod.Modifier>.Dispose
 	|
-	|-RVA: 0x1A287E0 Offset: 0x1A26DE0 VA: 0x181A287E0
+	|-RVA: 0x1A287A0 Offset: 0x1A26DA0 VA: 0x181A287A0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, Option>.Dispose
 	|
-	|-RVA: 0x1A28AB0 Offset: 0x1A270B0 VA: 0x181A28AB0
+	|-RVA: 0x1A28A70 Offset: 0x1A27070 VA: 0x181A28A70
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, InventoryItem>.Dispose
 	|
-	|-RVA: 0x1A28B40 Offset: 0x1A27140 VA: 0x181A28B40
+	|-RVA: 0x1A28B00 Offset: 0x1A27100 VA: 0x181A28B00
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, InventoryRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x1A282D0 Offset: 0x1A268D0 VA: 0x181A282D0
+	|-RVA: 0x1A28290 Offset: 0x1A26890 VA: 0x181A28290
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, InventoryRecipe>.Dispose
 	|
-	|-RVA: 0x1A28120 Offset: 0x1A26720 VA: 0x181A28120
+	|-RVA: 0x1A280E0 Offset: 0x1A266E0 VA: 0x181A280E0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, bool>.Dispose
 	|
-	|-RVA: 0x1A295F0 Offset: 0x1A27BF0 VA: 0x181A295F0
+	|-RVA: 0x1A295B0 Offset: 0x1A27BB0 VA: 0x181A295B0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, KeyValuePair<object, int>>.Dispose
 	|
-	|-RVA: 0x1A2A0A0 Offset: 0x1A286A0 VA: 0x181A2A0A0
+	|-RVA: 0x1A2A060 Offset: 0x1A28660 VA: 0x181A2A060
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, int>.Dispose
 	|
-	|-RVA: 0x1A29830 Offset: 0x1A27E30 VA: 0x181A29830
+	|-RVA: 0x1A297F0 Offset: 0x1A27DF0 VA: 0x181A297F0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, Int32Enum>.Dispose
 	|
-	|-RVA: 0x1A29EF0 Offset: 0x1A284F0 VA: 0x181A29EF0
+	|-RVA: 0x1A29EB0 Offset: 0x1A284B0 VA: 0x181A29EB0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, long>.Dispose
 	|
-	|-RVA: 0x1A285A0 Offset: 0x1A26BA0 VA: 0x181A285A0
+	|-RVA: 0x1A28560 Offset: 0x1A26B60 VA: 0x181A28560
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, object>.Dispose
 	|
-	|-RVA: 0x1A28900 Offset: 0x1A26F00 VA: 0x181A28900
+	|-RVA: 0x1A288C0 Offset: 0x1A26EC0 VA: 0x181A288C0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, float>.Dispose
 	|
-	|-RVA: 0x1A27280 Offset: 0x1A25880 VA: 0x181A27280
+	|-RVA: 0x1A27240 Offset: 0x1A25840 VA: 0x181A27240
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, Resolution>.Dispose
 	|
-	|-RVA: 0x1A28A20 Offset: 0x1A27020 VA: 0x181A28A20
+	|-RVA: 0x1A289E0 Offset: 0x1A26FE0 VA: 0x181A289E0
 	|-Enumerable.WhereSelectEnumerableIterator<object, Debugging.EntityInfo>.Dispose
 	|
-	|-RVA: 0x1A28630 Offset: 0x1A26C30 VA: 0x181A28630
+	|-RVA: 0x1A285F0 Offset: 0x1A26BF0 VA: 0x181A285F0
 	|-Enumerable.WhereSelectEnumerableIterator<object, FourBitNumber>.Dispose
 	|
-	|-RVA: 0x1A29200 Offset: 0x1A27800 VA: 0x181A29200
+	|-RVA: 0x1A291C0 Offset: 0x1A277C0 VA: 0x181A291C0
 	|-Enumerable.WhereSelectEnumerableIterator<object, SevenBitNumber>.Dispose
 	|
-	|-RVA: 0x1A27C10 Offset: 0x1A26210 VA: 0x181A27C10
+	|-RVA: 0x1A27BD0 Offset: 0x1A261D0 VA: 0x181A27BD0
 	|-Enumerable.WhereSelectEnumerableIterator<object, PathFinder.Point>.Dispose
 	|
-	|-RVA: 0x1A271F0 Offset: 0x1A257F0 VA: 0x181A271F0
+	|-RVA: 0x1A271B0 Offset: 0x1A257B0 VA: 0x181A271B0
 	|-Enumerable.WhereSelectEnumerableIterator<object, PlayerItemRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x1A26E90 Offset: 0x1A25490 VA: 0x181A26E90
+	|-RVA: 0x1A26E50 Offset: 0x1A25450 VA: 0x181A26E50
 	|-Enumerable.WhereSelectEnumerableIterator<object, PlayerItemRecipe>.Dispose
 	|
-	|-RVA: 0x1A2A2E0 Offset: 0x1A288E0 VA: 0x181A2A2E0
+	|-RVA: 0x1A2A2A0 Offset: 0x1A288A0 VA: 0x181A2A2A0
 	|-Enumerable.WhereSelectEnumerableIterator<object, ProjectileWeaponMod.Modifier>.Dispose
 	|
-	|-RVA: 0x1A26FB0 Offset: 0x1A255B0 VA: 0x181A26FB0
+	|-RVA: 0x1A26F70 Offset: 0x1A25570 VA: 0x181A26F70
 	|-Enumerable.WhereSelectEnumerableIterator<object, Option>.Dispose
 	|
-	|-RVA: 0x1A286C0 Offset: 0x1A26CC0 VA: 0x181A286C0
+	|-RVA: 0x1A28680 Offset: 0x1A26C80 VA: 0x181A28680
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryItemId>.Dispose
 	|
-	|-RVA: 0x1A274C0 Offset: 0x1A25AC0 VA: 0x181A274C0
+	|-RVA: 0x1A27480 Offset: 0x1A25A80 VA: 0x181A27480
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryItem>.Dispose
 	|
-	|-RVA: 0x1A27DC0 Offset: 0x1A263C0 VA: 0x181A27DC0
+	|-RVA: 0x1A27D80 Offset: 0x1A26380 VA: 0x181A27D80
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryRecipe.Ingredient>.Dispose
 	|
-	|-RVA: 0x1A27EE0 Offset: 0x1A264E0 VA: 0x181A27EE0
+	|-RVA: 0x1A27EA0 Offset: 0x1A264A0 VA: 0x181A27EA0
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryRecipe>.Dispose
 	|
-	|-RVA: 0x1A29A70 Offset: 0x1A28070 VA: 0x181A29A70
+	|-RVA: 0x1A29A30 Offset: 0x1A28030 VA: 0x181A29A30
 	|-Enumerable.WhereSelectEnumerableIterator<object, bool>.Dispose
 	|
-	|-RVA: 0x1A28F30 Offset: 0x1A27530 VA: 0x181A28F30
+	|-RVA: 0x1A28EF0 Offset: 0x1A274F0 VA: 0x181A28EF0
 	|-Enumerable.WhereSelectEnumerableIterator<object, KeyValuePair<object, int>>.Dispose
 	|
-	|-RVA: 0x1A28480 Offset: 0x1A26A80 VA: 0x181A28480
+	|-RVA: 0x1A28440 Offset: 0x1A26A40 VA: 0x181A28440
 	|-Enumerable.WhereSelectEnumerableIterator<object, int>.Dispose
 	|
-	|-RVA: 0x1A29320 Offset: 0x1A27920 VA: 0x181A29320
+	|-RVA: 0x1A292E0 Offset: 0x1A278E0 VA: 0x181A292E0
 	|-Enumerable.WhereSelectEnumerableIterator<object, Int32Enum>.Dispose
 	|
-	|-RVA: 0x1A28510 Offset: 0x1A26B10 VA: 0x181A28510
+	|-RVA: 0x1A284D0 Offset: 0x1A26AD0 VA: 0x181A284D0
 	|-Enumerable.WhereSelectEnumerableIterator<object, long>.Dispose
 	|
-	|-RVA: 0x1A28240 Offset: 0x1A26840 VA: 0x181A28240
+	|-RVA: 0x1A28200 Offset: 0x1A26800 VA: 0x181A28200
 	|-Enumerable.WhereSelectEnumerableIterator<object, object>.Dispose
 	|
-	|-RVA: 0x1A299E0 Offset: 0x1A27FE0 VA: 0x181A299E0
+	|-RVA: 0x1A299A0 Offset: 0x1A27FA0 VA: 0x181A299A0
 	|-Enumerable.WhereSelectEnumerableIterator<object, float>.Dispose
 	|
-	|-RVA: 0x1A29B00 Offset: 0x1A28100 VA: 0x181A29B00
+	|-RVA: 0x1A29AC0 Offset: 0x1A280C0 VA: 0x181A29AC0
 	|-Enumerable.WhereSelectEnumerableIterator<object, uint>.Dispose
 	|
-	|-RVA: 0x1A29440 Offset: 0x1A27A40 VA: 0x181A29440
+	|-RVA: 0x1A29400 Offset: 0x1A27A00 VA: 0x181A29400
 	|-Enumerable.WhereSelectEnumerableIterator<object, Resolution>.Dispose
 	*/
 
@@ -8528,652 +8528,652 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	public override bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19D35C0 Offset: 0x19D1BC0 VA: 0x1819D35C0
+	|-RVA: 0x19D3580 Offset: 0x19D1B80 VA: 0x1819D3580
 	|-Enumerable.WhereSelectEnumerableIterator<BurstCloth.Chain, FourBitNumber>.MoveNext
 	|
-	|-RVA: 0x19D3E90 Offset: 0x19D2490 VA: 0x1819D3E90
+	|-RVA: 0x19D3E50 Offset: 0x19D2450 VA: 0x1819D3E50
 	|-Enumerable.WhereSelectEnumerableIterator<BurstCloth.Chain, SevenBitNumber>.MoveNext
 	|
-	|-RVA: 0x19D4270 Offset: 0x19D2870 VA: 0x1819D4270
+	|-RVA: 0x19D4230 Offset: 0x19D2830 VA: 0x1819D4230
 	|-Enumerable.WhereSelectEnumerableIterator<BurstCloth.Chain, int>.MoveNext
 	|
-	|-RVA: 0x19D43F0 Offset: 0x19D29F0 VA: 0x1819D43F0
+	|-RVA: 0x19D43B0 Offset: 0x19D29B0 VA: 0x1819D43B0
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, Debugging.EntityInfo>.MoveNext
 	|
-	|-RVA: 0x19D30E0 Offset: 0x19D16E0 VA: 0x1819D30E0
+	|-RVA: 0x19D30A0 Offset: 0x19D16A0 VA: 0x1819D30A0
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, PathFinder.Point>.MoveNext
 	|
-	|-RVA: 0x19D3C20 Offset: 0x19D2220 VA: 0x1819D3C20
+	|-RVA: 0x19D3BE0 Offset: 0x19D21E0 VA: 0x1819D3BE0
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x19D4B30 Offset: 0x19D3130 VA: 0x1819D4B30
+	|-RVA: 0x19D4AF0 Offset: 0x19D30F0 VA: 0x1819D4AF0
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, Option>.MoveNext
 	|
-	|-RVA: 0x19D3740 Offset: 0x19D1D40 VA: 0x1819D3740
+	|-RVA: 0x19D3700 Offset: 0x19D1D00 VA: 0x1819D3700
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x19D3340 Offset: 0x19D1940 VA: 0x1819D3340
+	|-RVA: 0x19D3300 Offset: 0x19D1900 VA: 0x1819D3300
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x19D2E60 Offset: 0x19D1460 VA: 0x1819D2E60
+	|-RVA: 0x19D2E20 Offset: 0x19D1420 VA: 0x1819D2E20
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x19D4660 Offset: 0x19D2C60 VA: 0x1819D4660
+	|-RVA: 0x19D4620 Offset: 0x19D2C20 VA: 0x1819D4620
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, bool>.MoveNext
 	|
-	|-RVA: 0x19D48C0 Offset: 0x19D2EC0 VA: 0x1819D48C0
+	|-RVA: 0x19D4880 Offset: 0x19D2E80 VA: 0x1819D4880
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x19D4010 Offset: 0x19D2610 VA: 0x1819D4010
+	|-RVA: 0x19D3FD0 Offset: 0x19D25D0 VA: 0x1819D3FD0
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, int>.MoveNext
 	|
-	|-RVA: 0x19D4DB0 Offset: 0x19D33B0 VA: 0x1819D4DB0
+	|-RVA: 0x19D4D70 Offset: 0x19D3370 VA: 0x1819D4D70
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x19D39C0 Offset: 0x19D1FC0 VA: 0x1819D39C0
+	|-RVA: 0x19D3980 Offset: 0x19D1F80 VA: 0x1819D3980
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, long>.MoveNext
 	|
-	|-RVA: 0x19D5010 Offset: 0x19D3610 VA: 0x1819D5010
+	|-RVA: 0x19D4FD0 Offset: 0x19D35D0 VA: 0x1819D4FD0
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, object>.MoveNext
 	|
-	|-RVA: 0x1A251A0 Offset: 0x1A237A0 VA: 0x181A251A0
+	|-RVA: 0x1A25160 Offset: 0x1A23760 VA: 0x181A25160
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, float>.MoveNext
 	|
-	|-RVA: 0x1A1C8A0 Offset: 0x1A1AEA0 VA: 0x181A1C8A0
+	|-RVA: 0x1A1C860 Offset: 0x1A1AE60 VA: 0x181A1C860
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, Resolution>.MoveNext
 	|
-	|-RVA: 0x1A1F3C0 Offset: 0x1A1D9C0 VA: 0x181A1F3C0
+	|-RVA: 0x1A1F380 Offset: 0x1A1D980 VA: 0x181A1F380
 	|-Enumerable.WhereSelectEnumerableIterator<WeightedStringList.Container, float>.MoveNext
 	|
-	|-RVA: 0x1A25B30 Offset: 0x1A24130 VA: 0x181A25B30
+	|-RVA: 0x1A25AF0 Offset: 0x1A240F0 VA: 0x181A25AF0
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, Debugging.EntityInfo>.MoveNext
 	|
-	|-RVA: 0x1A22AB0 Offset: 0x1A210B0 VA: 0x181A22AB0
+	|-RVA: 0x1A22A70 Offset: 0x1A21070 VA: 0x181A22A70
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, PathFinder.Point>.MoveNext
 	|
-	|-RVA: 0x1A1BBA0 Offset: 0x1A1A1A0 VA: 0x181A1BBA0
+	|-RVA: 0x1A1BB60 Offset: 0x1A1A160 VA: 0x181A1BB60
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x1A216F0 Offset: 0x1A1FCF0 VA: 0x181A216F0
+	|-RVA: 0x1A216B0 Offset: 0x1A1FCB0 VA: 0x181A216B0
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, Option>.MoveNext
 	|
-	|-RVA: 0x1A1EDF0 Offset: 0x1A1D3F0 VA: 0x181A1EDF0
+	|-RVA: 0x1A1EDB0 Offset: 0x1A1D3B0 VA: 0x181A1EDB0
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x1A23700 Offset: 0x1A21D00 VA: 0x181A23700
+	|-RVA: 0x1A236C0 Offset: 0x1A21CC0 VA: 0x181A236C0
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x1A24AF0 Offset: 0x1A230F0 VA: 0x181A24AF0
+	|-RVA: 0x1A24AB0 Offset: 0x1A230B0 VA: 0x181A24AB0
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x1A214E0 Offset: 0x1A1FAE0 VA: 0x181A214E0
+	|-RVA: 0x1A214A0 Offset: 0x1A1FAA0 VA: 0x181A214A0
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, bool>.MoveNext
 	|
-	|-RVA: 0x1A240A0 Offset: 0x1A226A0 VA: 0x181A240A0
+	|-RVA: 0x1A24060 Offset: 0x1A22660 VA: 0x181A24060
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x1A1F1B0 Offset: 0x1A1D7B0 VA: 0x181A1F1B0
+	|-RVA: 0x1A1F170 Offset: 0x1A1D770 VA: 0x181A1F170
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, int>.MoveNext
 	|
-	|-RVA: 0x1A1F5D0 Offset: 0x1A1DBD0 VA: 0x181A1F5D0
+	|-RVA: 0x1A1F590 Offset: 0x1A1DB90 VA: 0x181A1F590
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x1A22020 Offset: 0x1A20620 VA: 0x181A22020
+	|-RVA: 0x1A21FE0 Offset: 0x1A205E0 VA: 0x181A21FE0
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, long>.MoveNext
 	|
-	|-RVA: 0x1A1C680 Offset: 0x1A1AC80 VA: 0x181A1C680
+	|-RVA: 0x1A1C640 Offset: 0x1A1AC40 VA: 0x181A1C640
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, object>.MoveNext
 	|
-	|-RVA: 0x1A24F90 Offset: 0x1A23590 VA: 0x181A24F90
+	|-RVA: 0x1A24F50 Offset: 0x1A23550 VA: 0x181A24F50
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, float>.MoveNext
 	|
-	|-RVA: 0x1A20290 Offset: 0x1A1E890 VA: 0x181A20290
+	|-RVA: 0x1A20250 Offset: 0x1A1E850 VA: 0x181A20250
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, Resolution>.MoveNext
 	|
-	|-RVA: 0x1A23260 Offset: 0x1A21860 VA: 0x181A23260
+	|-RVA: 0x1A23220 Offset: 0x1A21820 VA: 0x181A23220
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe.Ingredient, FourBitNumber>.MoveNext
 	|
-	|-RVA: 0x1A24970 Offset: 0x1A22F70 VA: 0x181A24970
+	|-RVA: 0x1A24930 Offset: 0x1A22F30 VA: 0x181A24930
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe.Ingredient, SevenBitNumber>.MoveNext
 	|
-	|-RVA: 0x1A1FC40 Offset: 0x1A1E240 VA: 0x181A1FC40
+	|-RVA: 0x1A1FC00 Offset: 0x1A1E200 VA: 0x181A1FC00
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe.Ingredient, int>.MoveNext
 	|
-	|-RVA: 0x1A1B120 Offset: 0x1A19720 VA: 0x181A1B120
+	|-RVA: 0x1A1B0E0 Offset: 0x1A196E0 VA: 0x181A1B0E0
 	|-Enumerable.WhereSelectEnumerableIterator<ProjectileWeaponMod.Modifier, float>.MoveNext
 	|
-	|-RVA: 0x1A22CC0 Offset: 0x1A212C0 VA: 0x181A22CC0
+	|-RVA: 0x1A22C80 Offset: 0x1A21280 VA: 0x181A22C80
 	|-Enumerable.WhereSelectEnumerableIterator<Option, Option>.MoveNext
 	|
-	|-RVA: 0x1A1A750 Offset: 0x1A18D50 VA: 0x181A1A750
+	|-RVA: 0x1A1A710 Offset: 0x1A18D10 VA: 0x181A1A710
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, Debugging.EntityInfo>.MoveNext
 	|
-	|-RVA: 0x1A1B620 Offset: 0x1A19C20 VA: 0x181A1B620
+	|-RVA: 0x1A1B5E0 Offset: 0x1A19BE0 VA: 0x181A1B5E0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, FourBitNumber>.MoveNext
 	|
-	|-RVA: 0x1A26900 Offset: 0x1A24F00 VA: 0x181A26900
+	|-RVA: 0x1A268C0 Offset: 0x1A24EC0 VA: 0x181A268C0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, SevenBitNumber>.MoveNext
 	|
-	|-RVA: 0x1A26400 Offset: 0x1A24A00 VA: 0x181A26400
+	|-RVA: 0x1A263C0 Offset: 0x1A249C0 VA: 0x181A263C0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, PathFinder.Point>.MoveNext
 	|
-	|-RVA: 0x1A26BC0 Offset: 0x1A251C0 VA: 0x181A26BC0
+	|-RVA: 0x1A26B80 Offset: 0x1A25180 VA: 0x181A26B80
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x1A20C30 Offset: 0x1A1F230 VA: 0x181A20C30
+	|-RVA: 0x1A20BF0 Offset: 0x1A1F1F0 VA: 0x181A20BF0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, Option>.MoveNext
 	|
-	|-RVA: 0x1A1E2F0 Offset: 0x1A1C8F0 VA: 0x181A1E2F0
+	|-RVA: 0x1A1E2B0 Offset: 0x1A1C8B0 VA: 0x181A1E2B0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x1A1F960 Offset: 0x1A1DF60 VA: 0x181A1F960
+	|-RVA: 0x1A1F920 Offset: 0x1A1DF20 VA: 0x181A1F920
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x1A1B340 Offset: 0x1A19940 VA: 0x181A1B340
+	|-RVA: 0x1A1B300 Offset: 0x1A19900 VA: 0x181A1B300
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x1A1B8E0 Offset: 0x1A19EE0 VA: 0x181A1B8E0
+	|-RVA: 0x1A1B8A0 Offset: 0x1A19EA0 VA: 0x181A1B8A0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, bool>.MoveNext
 	|
-	|-RVA: 0x1A1CE30 Offset: 0x1A1B430 VA: 0x181A1CE30
+	|-RVA: 0x1A1CDF0 Offset: 0x1A1B3F0 VA: 0x181A1CDF0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x1A1DB10 Offset: 0x1A1C110 VA: 0x181A1DB10
+	|-RVA: 0x1A1DAD0 Offset: 0x1A1C0D0 VA: 0x181A1DAD0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, int>.MoveNext
 	|
-	|-RVA: 0x1A25EE0 Offset: 0x1A244E0 VA: 0x181A25EE0
+	|-RVA: 0x1A25EA0 Offset: 0x1A244A0 VA: 0x181A25EA0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x1A24470 Offset: 0x1A22A70 VA: 0x181A24470
+	|-RVA: 0x1A24430 Offset: 0x1A22A30 VA: 0x181A24430
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, long>.MoveNext
 	|
-	|-RVA: 0x1A21090 Offset: 0x1A1F690 VA: 0x181A21090
+	|-RVA: 0x1A21050 Offset: 0x1A1F650 VA: 0x181A21050
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, object>.MoveNext
 	|
-	|-RVA: 0x1A207F0 Offset: 0x1A1EDF0 VA: 0x181A207F0
+	|-RVA: 0x1A207B0 Offset: 0x1A1EDB0 VA: 0x181A207B0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, float>.MoveNext
 	|
-	|-RVA: 0x1A23940 Offset: 0x1A21F40 VA: 0x181A23940
+	|-RVA: 0x1A23900 Offset: 0x1A21F00 VA: 0x181A23900
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, Resolution>.MoveNext
 	|
-	|-RVA: 0x1A21AB0 Offset: 0x1A200B0 VA: 0x181A21AB0
+	|-RVA: 0x1A21A70 Offset: 0x1A20070 VA: 0x181A21A70
 	|-Enumerable.WhereSelectEnumerableIterator<SkinnedMultiMesh.Part, long>.MoveNext
 	|
-	|-RVA: 0x1A22F20 Offset: 0x1A21520 VA: 0x181A22F20
+	|-RVA: 0x1A22EE0 Offset: 0x1A214E0 VA: 0x181A22EE0
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, Debugging.EntityInfo>.MoveNext
 	|
-	|-RVA: 0x1A223D0 Offset: 0x1A209D0 VA: 0x181A223D0
+	|-RVA: 0x1A22390 Offset: 0x1A20990 VA: 0x181A22390
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, PathFinder.Point>.MoveNext
 	|
-	|-RVA: 0x1A21920 Offset: 0x1A1FF20 VA: 0x181A21920
+	|-RVA: 0x1A218E0 Offset: 0x1A1FEE0 VA: 0x181A218E0
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x1A204B0 Offset: 0x1A1EAB0 VA: 0x181A204B0
+	|-RVA: 0x1A20470 Offset: 0x1A1EA70 VA: 0x181A20470
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, Option>.MoveNext
 	|
-	|-RVA: 0x1A1FDC0 Offset: 0x1A1E3C0 VA: 0x181A1FDC0
+	|-RVA: 0x1A1FD80 Offset: 0x1A1E380 VA: 0x181A1FD80
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x1A22230 Offset: 0x1A20830 VA: 0x181A22230
+	|-RVA: 0x1A221F0 Offset: 0x1A207F0 VA: 0x181A221F0
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x1A1D280 Offset: 0x1A1B880 VA: 0x181A1D280
+	|-RVA: 0x1A1D240 Offset: 0x1A1B840 VA: 0x181A1D240
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x1A259B0 Offset: 0x1A23FB0 VA: 0x181A259B0
+	|-RVA: 0x1A25970 Offset: 0x1A23F70 VA: 0x181A25970
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, bool>.MoveNext
 	|
-	|-RVA: 0x1A1CC90 Offset: 0x1A1B290 VA: 0x181A1CC90
+	|-RVA: 0x1A1CC50 Offset: 0x1A1B250 VA: 0x181A1CC50
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x1A23F20 Offset: 0x1A22520 VA: 0x181A23F20
+	|-RVA: 0x1A23EE0 Offset: 0x1A224E0 VA: 0x181A23EE0
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, int>.MoveNext
 	|
-	|-RVA: 0x1A1CB10 Offset: 0x1A1B110 VA: 0x181A1CB10
+	|-RVA: 0x1A1CAD0 Offset: 0x1A1B0D0 VA: 0x181A1CAD0
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x1A22930 Offset: 0x1A20F30 VA: 0x181A22930
+	|-RVA: 0x1A228F0 Offset: 0x1A20EF0 VA: 0x181A228F0
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, long>.MoveNext
 	|
-	|-RVA: 0x1A20100 Offset: 0x1A1E700 VA: 0x181A20100
+	|-RVA: 0x1A200C0 Offset: 0x1A1E6C0 VA: 0x181A200C0
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, object>.MoveNext
 	|
-	|-RVA: 0x1A1A5C0 Offset: 0x1A18BC0 VA: 0x181A1A5C0
+	|-RVA: 0x1A1A580 Offset: 0x1A18B80 VA: 0x181A1A580
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, float>.MoveNext
 	|
-	|-RVA: 0x1A21CF0 Offset: 0x1A202F0 VA: 0x181A21CF0
+	|-RVA: 0x1A21CB0 Offset: 0x1A202B0 VA: 0x181A21CB0
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, Resolution>.MoveNext
 	|
-	|-RVA: 0x1A1C1B0 Offset: 0x1A1A7B0 VA: 0x181A1C1B0
+	|-RVA: 0x1A1C170 Offset: 0x1A1A770 VA: 0x181A1C170
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, Debugging.EntityInfo>.MoveNext
 	|
-	|-RVA: 0x1A1F7E0 Offset: 0x1A1DDE0 VA: 0x181A1F7E0
+	|-RVA: 0x1A1F7A0 Offset: 0x1A1DDA0 VA: 0x181A1F7A0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, PathFinder.Point>.MoveNext
 	|
-	|-RVA: 0x1A1D420 Offset: 0x1A1BA20 VA: 0x181A1D420
+	|-RVA: 0x1A1D3E0 Offset: 0x1A1B9E0 VA: 0x181A1D3E0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x1A242D0 Offset: 0x1A228D0 VA: 0x181A242D0
+	|-RVA: 0x1A24290 Offset: 0x1A22890 VA: 0x181A24290
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, Option>.MoveNext
 	|
-	|-RVA: 0x1A1C340 Offset: 0x1A1A940 VA: 0x181A1C340
+	|-RVA: 0x1A1C300 Offset: 0x1A1A900 VA: 0x181A1C300
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x1A25420 Offset: 0x1A23A20 VA: 0x181A25420
+	|-RVA: 0x1A253E0 Offset: 0x1A239E0 VA: 0x181A253E0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x1A1C4E0 Offset: 0x1A1AAE0 VA: 0x181A1C4E0
+	|-RVA: 0x1A1C4A0 Offset: 0x1A1AAA0 VA: 0x181A1C4A0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x1A1EC70 Offset: 0x1A1D270 VA: 0x181A1EC70
+	|-RVA: 0x1A1EC30 Offset: 0x1A1D230 VA: 0x181A1EC30
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, bool>.MoveNext
 	|
-	|-RVA: 0x1A1E5D0 Offset: 0x1A1CBD0 VA: 0x181A1E5D0
+	|-RVA: 0x1A1E590 Offset: 0x1A1CB90 VA: 0x181A1E590
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x1A1D5B0 Offset: 0x1A1BBB0 VA: 0x181A1D5B0
+	|-RVA: 0x1A1D570 Offset: 0x1A1BB70 VA: 0x181A1D570
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, int>.MoveNext
 	|
-	|-RVA: 0x1A1A440 Offset: 0x1A18A40 VA: 0x181A1A440
+	|-RVA: 0x1A1A400 Offset: 0x1A18A00 VA: 0x181A1A400
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x1A20F10 Offset: 0x1A1F510 VA: 0x181A20F10
+	|-RVA: 0x1A20ED0 Offset: 0x1A1F4D0 VA: 0x181A20ED0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, long>.MoveNext
 	|
-	|-RVA: 0x1A255C0 Offset: 0x1A23BC0 VA: 0x181A255C0
+	|-RVA: 0x1A25580 Offset: 0x1A23B80 VA: 0x181A25580
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, object>.MoveNext
 	|
-	|-RVA: 0x1A20AB0 Offset: 0x1A1F0B0 VA: 0x181A20AB0
+	|-RVA: 0x1A20A70 Offset: 0x1A1F070 VA: 0x181A20A70
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, float>.MoveNext
 	|
-	|-RVA: 0x1A233E0 Offset: 0x1A219E0 VA: 0x181A233E0
+	|-RVA: 0x1A233A0 Offset: 0x1A219A0 VA: 0x181A233A0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, Resolution>.MoveNext
 	|
-	|-RVA: 0x1A1ADF0 Offset: 0x1A193F0 VA: 0x181A1ADF0
+	|-RVA: 0x1A1ADB0 Offset: 0x1A193B0 VA: 0x181A1ADB0
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, ServerInfo>.MoveNext
 	|
-	|-RVA: 0x1A1E760 Offset: 0x1A1CD60 VA: 0x181A1E760
+	|-RVA: 0x1A1E720 Offset: 0x1A1CD20 VA: 0x181A1E720
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, int>.MoveNext
 	|
-	|-RVA: 0x1A1DDD0 Offset: 0x1A1C3D0 VA: 0x181A1DDD0
+	|-RVA: 0x1A1DD90 Offset: 0x1A1C390 VA: 0x181A1DD90
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, object>.MoveNext
 	|
-	|-RVA: 0x1A20650 Offset: 0x1A1EC50 VA: 0x181A20650
+	|-RVA: 0x1A20610 Offset: 0x1A1EC10 VA: 0x181A20610
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, Debugging.EntityInfo>.MoveNext
 	|
-	|-RVA: 0x1A25D60 Offset: 0x1A24360 VA: 0x181A25D60
+	|-RVA: 0x1A25D20 Offset: 0x1A24320 VA: 0x181A25D20
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, PathFinder.Point>.MoveNext
 	|
-	|-RVA: 0x1A1AA20 Offset: 0x1A19020 VA: 0x181A1AA20
+	|-RVA: 0x1A1A9E0 Offset: 0x1A18FE0 VA: 0x181A1A9E0
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x1A230C0 Offset: 0x1A216C0 VA: 0x181A230C0
+	|-RVA: 0x1A23080 Offset: 0x1A21680 VA: 0x181A23080
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, Option>.MoveNext
 	|
-	|-RVA: 0x1A1FF60 Offset: 0x1A1E560 VA: 0x181A1FF60
+	|-RVA: 0x1A1FF20 Offset: 0x1A1E520 VA: 0x181A1FF20
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x1A1BDC0 Offset: 0x1A1A3C0 VA: 0x181A1BDC0
+	|-RVA: 0x1A1BD80 Offset: 0x1A1A380 VA: 0x181A1BD80
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x1A1D970 Offset: 0x1A1BF70 VA: 0x181A1D970
+	|-RVA: 0x1A1D930 Offset: 0x1A1BF30 VA: 0x181A1D930
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x1A23DA0 Offset: 0x1A223A0 VA: 0x181A23DA0
+	|-RVA: 0x1A23D60 Offset: 0x1A22360 VA: 0x181A23D60
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, bool>.MoveNext
 	|
-	|-RVA: 0x1A21E80 Offset: 0x1A20480 VA: 0x181A21E80
+	|-RVA: 0x1A21E40 Offset: 0x1A20440 VA: 0x181A21E40
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x1A22550 Offset: 0x1A20B50 VA: 0x181A22550
+	|-RVA: 0x1A22510 Offset: 0x1A20B10 VA: 0x181A22510
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, int>.MoveNext
 	|
-	|-RVA: 0x1A21360 Offset: 0x1A1F960 VA: 0x181A21360
+	|-RVA: 0x1A21320 Offset: 0x1A1F920 VA: 0x181A21320
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x1A1D100 Offset: 0x1A1B700 VA: 0x181A1D100
+	|-RVA: 0x1A1D0C0 Offset: 0x1A1B6C0 VA: 0x181A1D0C0
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, long>.MoveNext
 	|
-	|-RVA: 0x1A1F020 Offset: 0x1A1D620 VA: 0x181A1F020
+	|-RVA: 0x1A1EFE0 Offset: 0x1A1D5E0 VA: 0x181A1EFE0
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, object>.MoveNext
 	|
-	|-RVA: 0x1A23C10 Offset: 0x1A22210 VA: 0x181A23C10
+	|-RVA: 0x1A23BD0 Offset: 0x1A221D0 VA: 0x181A23BD0
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, float>.MoveNext
 	|
-	|-RVA: 0x1A23570 Offset: 0x1A21B70 VA: 0x181A23570
+	|-RVA: 0x1A23530 Offset: 0x1A21B30 VA: 0x181A23530
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, Resolution>.MoveNext
 	|
-	|-RVA: 0x1A1E0A0 Offset: 0x1A1C6A0 VA: 0x181A1E0A0
+	|-RVA: 0x1A1E060 Offset: 0x1A1C660 VA: 0x181A1E060
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, Debugging.EntityInfo>.MoveNext
 	|
-	|-RVA: 0x1A1ABB0 Offset: 0x1A191B0 VA: 0x181A1ABB0
+	|-RVA: 0x1A1AB70 Offset: 0x1A19170 VA: 0x181A1AB70
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, FourBitNumber>.MoveNext
 	|
-	|-RVA: 0x1A1D730 Offset: 0x1A1BD30 VA: 0x181A1D730
+	|-RVA: 0x1A1D6F0 Offset: 0x1A1BCF0 VA: 0x181A1D6F0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, SevenBitNumber>.MoveNext
 	|
-	|-RVA: 0x1A24730 Offset: 0x1A22D30 VA: 0x181A24730
+	|-RVA: 0x1A246F0 Offset: 0x1A22CF0 VA: 0x181A246F0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, PathFinder.Point>.MoveNext
 	|
-	|-RVA: 0x1A1BF60 Offset: 0x1A1A560 VA: 0x181A1BF60
+	|-RVA: 0x1A1BF20 Offset: 0x1A1A520 VA: 0x181A1BF20
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x1A261A0 Offset: 0x1A247A0 VA: 0x181A261A0
+	|-RVA: 0x1A26160 Offset: 0x1A24760 VA: 0x181A26160
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, Option>.MoveNext
 	|
-	|-RVA: 0x1A1A200 Offset: 0x1A18800 VA: 0x181A1A200
+	|-RVA: 0x1A1A1C0 Offset: 0x1A187C0 VA: 0x181A1A1C0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryItemId>.MoveNext
 	|
-	|-RVA: 0x1A226D0 Offset: 0x1A20CD0 VA: 0x181A226D0
+	|-RVA: 0x1A22690 Offset: 0x1A20C90 VA: 0x181A22690
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x1A25750 Offset: 0x1A23D50 VA: 0x181A25750
+	|-RVA: 0x1A25710 Offset: 0x1A23D10 VA: 0x181A25710
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x1A24D30 Offset: 0x1A23330 VA: 0x181A24D30
+	|-RVA: 0x1A24CF0 Offset: 0x1A232F0 VA: 0x181A24CF0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x1A266C0 Offset: 0x1A24CC0 VA: 0x181A266C0
+	|-RVA: 0x1A26680 Offset: 0x1A24C80 VA: 0x181A26680
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, bool>.MoveNext
 	|
-	|-RVA: 0x1A1EA20 Offset: 0x1A1D020 VA: 0x181A1EA20
+	|-RVA: 0x1A1E9E0 Offset: 0x1A1CFE0 VA: 0x181A1E9E0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x1A2CB60 Offset: 0x1A2B160 VA: 0x181A2CB60
+	|-RVA: 0x1A2CB20 Offset: 0x1A2B120 VA: 0x181A2CB20
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, int>.MoveNext
 	|
-	|-RVA: 0x1A327B0 Offset: 0x1A30DB0 VA: 0x181A327B0
+	|-RVA: 0x1A32770 Offset: 0x1A30D70 VA: 0x181A32770
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x1A2BDC0 Offset: 0x1A2A3C0 VA: 0x181A2BDC0
+	|-RVA: 0x1A2BD80 Offset: 0x1A2A380 VA: 0x181A2BD80
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, long>.MoveNext
 	|
-	|-RVA: 0x1A2BB70 Offset: 0x1A2A170 VA: 0x181A2BB70
+	|-RVA: 0x1A2BB30 Offset: 0x1A2A130 VA: 0x181A2BB30
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, object>.MoveNext
 	|
-	|-RVA: 0x1A32C10 Offset: 0x1A31210 VA: 0x181A32C10
+	|-RVA: 0x1A32BD0 Offset: 0x1A311D0 VA: 0x181A32BD0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, float>.MoveNext
 	|
-	|-RVA: 0x1A2B1B0 Offset: 0x1A297B0 VA: 0x181A2B1B0
+	|-RVA: 0x1A2B170 Offset: 0x1A29770 VA: 0x181A2B170
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, uint>.MoveNext
 	|
-	|-RVA: 0x1A351A0 Offset: 0x1A337A0 VA: 0x181A351A0
+	|-RVA: 0x1A35160 Offset: 0x1A33760 VA: 0x181A35160
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, Resolution>.MoveNext
 	|
-	|-RVA: 0x1A2E840 Offset: 0x1A2CE40 VA: 0x181A2E840
+	|-RVA: 0x1A2E800 Offset: 0x1A2CE00 VA: 0x181A2E800
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem.Amount, InventoryItemId>.MoveNext
 	|
-	|-RVA: 0x1A33B30 Offset: 0x1A32130 VA: 0x181A33B30
+	|-RVA: 0x1A33AF0 Offset: 0x1A320F0 VA: 0x181A33AF0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem.Amount, uint>.MoveNext
 	|
-	|-RVA: 0x1A30FD0 Offset: 0x1A2F5D0 VA: 0x181A30FD0
+	|-RVA: 0x1A30F90 Offset: 0x1A2F590 VA: 0x181A30F90
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe, PlayerItemRecipe>.MoveNext
 	|
-	|-RVA: 0x1A2AC60 Offset: 0x1A29260 VA: 0x181A2AC60
+	|-RVA: 0x1A2AC20 Offset: 0x1A29220 VA: 0x181A2AC20
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe, object>.MoveNext
 	|
-	|-RVA: 0x1A35640 Offset: 0x1A33C40 VA: 0x181A35640
+	|-RVA: 0x1A35600 Offset: 0x1A33C00 VA: 0x181A35600
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, Debugging.EntityInfo>.MoveNext
 	|
-	|-RVA: 0x1A2E470 Offset: 0x1A2CA70 VA: 0x181A2E470
+	|-RVA: 0x1A2E430 Offset: 0x1A2CA30 VA: 0x181A2E430
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, PathFinder.Point>.MoveNext
 	|
-	|-RVA: 0x1A35DB0 Offset: 0x1A343B0 VA: 0x181A35DB0
+	|-RVA: 0x1A35D70 Offset: 0x1A34370 VA: 0x181A35D70
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x1A35FE0 Offset: 0x1A345E0 VA: 0x181A35FE0
+	|-RVA: 0x1A35FA0 Offset: 0x1A345A0 VA: 0x181A35FA0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x1A30B70 Offset: 0x1A2F170 VA: 0x181A30B70
+	|-RVA: 0x1A30B30 Offset: 0x1A2F130 VA: 0x181A30B30
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, Option>.MoveNext
 	|
-	|-RVA: 0x1A33D90 Offset: 0x1A32390 VA: 0x181A33D90
+	|-RVA: 0x1A33D50 Offset: 0x1A32350 VA: 0x181A33D50
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x1A353F0 Offset: 0x1A339F0 VA: 0x181A353F0
+	|-RVA: 0x1A353B0 Offset: 0x1A339B0 VA: 0x181A353B0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x1A36460 Offset: 0x1A34A60 VA: 0x181A36460
+	|-RVA: 0x1A36420 Offset: 0x1A34A20 VA: 0x181A36420
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x1A31FA0 Offset: 0x1A305A0 VA: 0x181A31FA0
+	|-RVA: 0x1A31F60 Offset: 0x1A30560 VA: 0x181A31F60
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, bool>.MoveNext
 	|
-	|-RVA: 0x1A333B0 Offset: 0x1A319B0 VA: 0x181A333B0
+	|-RVA: 0x1A33370 Offset: 0x1A31970 VA: 0x181A33370
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x1A335F0 Offset: 0x1A31BF0 VA: 0x181A335F0
+	|-RVA: 0x1A335B0 Offset: 0x1A31BB0 VA: 0x181A335B0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, int>.MoveNext
 	|
-	|-RVA: 0x1A349A0 Offset: 0x1A32FA0 VA: 0x181A349A0
+	|-RVA: 0x1A34960 Offset: 0x1A32F60 VA: 0x181A34960
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x1A321D0 Offset: 0x1A307D0 VA: 0x181A321D0
+	|-RVA: 0x1A32190 Offset: 0x1A30790 VA: 0x181A32190
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, long>.MoveNext
 	|
-	|-RVA: 0x1A33FE0 Offset: 0x1A325E0 VA: 0x181A33FE0
+	|-RVA: 0x1A33FA0 Offset: 0x1A325A0 VA: 0x181A33FA0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, object>.MoveNext
 	|
-	|-RVA: 0x1A34530 Offset: 0x1A32B30 VA: 0x181A34530
+	|-RVA: 0x1A344F0 Offset: 0x1A32AF0 VA: 0x181A344F0
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, float>.MoveNext
 	|
-	|-RVA: 0x1A302C0 Offset: 0x1A2E8C0 VA: 0x181A302C0
+	|-RVA: 0x1A30280 Offset: 0x1A2E880 VA: 0x181A30280
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, Resolution>.MoveNext
 	|
-	|-RVA: 0x1A2CFD0 Offset: 0x1A2B5D0 VA: 0x181A2CFD0
+	|-RVA: 0x1A2CF90 Offset: 0x1A2B590 VA: 0x181A2CF90
 	|-Enumerable.WhereSelectEnumerableIterator<DictionaryEntry, KeyValuePair<object, object>>.MoveNext
 	|
-	|-RVA: 0x1A35880 Offset: 0x1A33E80 VA: 0x181A35880
+	|-RVA: 0x1A35840 Offset: 0x1A33E40 VA: 0x181A35840
 	|-Enumerable.WhereSelectEnumerableIterator<DictionaryEntry, object>.MoveNext
 	|
-	|-RVA: 0x1A34F70 Offset: 0x1A33570 VA: 0x181A34F70
+	|-RVA: 0x1A34F30 Offset: 0x1A33530 VA: 0x181A34F30
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, Debugging.EntityInfo>.MoveNext
 	|
-	|-RVA: 0x1A2DF30 Offset: 0x1A2C530 VA: 0x181A2DF30
+	|-RVA: 0x1A2DEF0 Offset: 0x1A2C4F0 VA: 0x181A2DEF0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, PathFinder.Point>.MoveNext
 	|
-	|-RVA: 0x1A2EC20 Offset: 0x1A2D220 VA: 0x181A2EC20
+	|-RVA: 0x1A2EBE0 Offset: 0x1A2D1E0 VA: 0x181A2EBE0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x1A2CDA0 Offset: 0x1A2B3A0 VA: 0x181A2CDA0
+	|-RVA: 0x1A2CD60 Offset: 0x1A2B360 VA: 0x181A2CD60
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, Option>.MoveNext
 	|
-	|-RVA: 0x1A32400 Offset: 0x1A30A00 VA: 0x181A32400
+	|-RVA: 0x1A323C0 Offset: 0x1A309C0 VA: 0x181A323C0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x1A2A7E0 Offset: 0x1A28DE0 VA: 0x181A2A7E0
+	|-RVA: 0x1A2A7A0 Offset: 0x1A28DA0 VA: 0x181A2A7A0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x1A36220 Offset: 0x1A34820 VA: 0x181A36220
+	|-RVA: 0x1A361E0 Offset: 0x1A347E0 VA: 0x181A361E0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x1A2F4A0 Offset: 0x1A2DAA0 VA: 0x181A2F4A0
+	|-RVA: 0x1A2F460 Offset: 0x1A2DA60 VA: 0x181A2F460
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, bool>.MoveNext
 	|
-	|-RVA: 0x1A30940 Offset: 0x1A2EF40 VA: 0x181A30940
+	|-RVA: 0x1A30900 Offset: 0x1A2EF00 VA: 0x181A30900
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x1A2C390 Offset: 0x1A2A990 VA: 0x181A2C390
+	|-RVA: 0x1A2C350 Offset: 0x1A2A950 VA: 0x181A2C350
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, int>.MoveNext
 	|
-	|-RVA: 0x1A316A0 Offset: 0x1A2FCA0 VA: 0x181A316A0
+	|-RVA: 0x1A31660 Offset: 0x1A2FC60 VA: 0x181A31660
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x1A2C000 Offset: 0x1A2A600 VA: 0x181A2C000
+	|-RVA: 0x1A2BFC0 Offset: 0x1A2A5C0 VA: 0x181A2BFC0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, long>.MoveNext
 	|
-	|-RVA: 0x1A318B0 Offset: 0x1A2FEB0 VA: 0x181A318B0
+	|-RVA: 0x1A31870 Offset: 0x1A2FE70 VA: 0x181A31870
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, object>.MoveNext
 	|
-	|-RVA: 0x1A32E60 Offset: 0x1A31460 VA: 0x181A32E60
+	|-RVA: 0x1A32E20 Offset: 0x1A31420 VA: 0x181A32E20
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, float>.MoveNext
 	|
-	|-RVA: 0x1A2B950 Offset: 0x1A29F50 VA: 0x181A2B950
+	|-RVA: 0x1A2B910 Offset: 0x1A29F10 VA: 0x181A2B910
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, Resolution>.MoveNext
 	|
-	|-RVA: 0x1A30500 Offset: 0x1A2EB00 VA: 0x181A30500
+	|-RVA: 0x1A304C0 Offset: 0x1A2EAC0 VA: 0x181A304C0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, Debugging.EntityInfo>.MoveNext
 	|
-	|-RVA: 0x1A2C950 Offset: 0x1A2AF50 VA: 0x181A2C950
+	|-RVA: 0x1A2C910 Offset: 0x1A2AF10 VA: 0x181A2C910
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, PathFinder.Point>.MoveNext
 	|
-	|-RVA: 0x1A34BD0 Offset: 0x1A331D0 VA: 0x181A34BD0
+	|-RVA: 0x1A34B90 Offset: 0x1A33190 VA: 0x181A34B90
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x1A2F9D0 Offset: 0x1A2DFD0 VA: 0x181A2F9D0
+	|-RVA: 0x1A2F990 Offset: 0x1A2DF90 VA: 0x181A2F990
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, Option>.MoveNext
 	|
-	|-RVA: 0x1A2C5A0 Offset: 0x1A2ABA0 VA: 0x181A2C5A0
+	|-RVA: 0x1A2C560 Offset: 0x1A2AB60 VA: 0x181A2C560
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x1A2AA20 Offset: 0x1A29020 VA: 0x181A2AA20
+	|-RVA: 0x1A2A9E0 Offset: 0x1A28FE0 VA: 0x181A2A9E0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x1A2B590 Offset: 0x1A29B90 VA: 0x181A2B590
+	|-RVA: 0x1A2B550 Offset: 0x1A29B50 VA: 0x181A2B550
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x1A30DC0 Offset: 0x1A2F3C0 VA: 0x181A30DC0
+	|-RVA: 0x1A30D80 Offset: 0x1A2F380 VA: 0x181A30D80
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, bool>.MoveNext
 	|
-	|-RVA: 0x1A2DB70 Offset: 0x1A2C170 VA: 0x181A2DB70
+	|-RVA: 0x1A2DB30 Offset: 0x1A2C130 VA: 0x181A2DB30
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x1A2D3A0 Offset: 0x1A2B9A0 VA: 0x181A2D3A0
+	|-RVA: 0x1A2D360 Offset: 0x1A2B960 VA: 0x181A2D360
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, int>.MoveNext
 	|
-	|-RVA: 0x1A30730 Offset: 0x1A2ED30 VA: 0x181A30730
+	|-RVA: 0x1A306F0 Offset: 0x1A2ECF0 VA: 0x181A306F0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x1A2D7C0 Offset: 0x1A2BDC0 VA: 0x181A2D7C0
+	|-RVA: 0x1A2D780 Offset: 0x1A2BD80 VA: 0x181A2D780
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, long>.MoveNext
 	|
-	|-RVA: 0x1A34780 Offset: 0x1A32D80 VA: 0x181A34780
+	|-RVA: 0x1A34740 Offset: 0x1A32D40 VA: 0x181A34740
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, object>.MoveNext
 	|
-	|-RVA: 0x1A2FDA0 Offset: 0x1A2E3A0 VA: 0x181A2FDA0
+	|-RVA: 0x1A2FD60 Offset: 0x1A2E360 VA: 0x181A2FD60
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, float>.MoveNext
 	|
-	|-RVA: 0x1A2D5B0 Offset: 0x1A2BBB0 VA: 0x181A2D5B0
+	|-RVA: 0x1A2D570 Offset: 0x1A2BB70 VA: 0x181A2D570
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, uint>.MoveNext
 	|
-	|-RVA: 0x1A329F0 Offset: 0x1A30FF0 VA: 0x181A329F0
+	|-RVA: 0x1A329B0 Offset: 0x1A30FB0 VA: 0x181A329B0
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, Resolution>.MoveNext
 	|
-	|-RVA: 0x1A2B030 Offset: 0x1A29630 VA: 0x181A2B030
+	|-RVA: 0x1A2AFF0 Offset: 0x1A295F0 VA: 0x181A2AFF0
 	|-Enumerable.WhereSelectEnumerableIterator<int, FourBitNumber>.MoveNext
 	|
-	|-RVA: 0x1A33820 Offset: 0x1A31E20 VA: 0x181A33820
+	|-RVA: 0x1A337E0 Offset: 0x1A31DE0 VA: 0x181A337E0
 	|-Enumerable.WhereSelectEnumerableIterator<int, SevenBitNumber>.MoveNext
 	|
-	|-RVA: 0x1A31520 Offset: 0x1A2FB20 VA: 0x181A31520
+	|-RVA: 0x1A314E0 Offset: 0x1A2FAE0 VA: 0x181A314E0
 	|-Enumerable.WhereSelectEnumerableIterator<int, int>.MoveNext
 	|
-	|-RVA: 0x1A2F830 Offset: 0x1A2DE30 VA: 0x181A2F830
+	|-RVA: 0x1A2F7F0 Offset: 0x1A2DDF0 VA: 0x181A2F7F0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, Debugging.EntityInfo>.MoveNext
 	|
-	|-RVA: 0x1A2C7D0 Offset: 0x1A2ADD0 VA: 0x181A2C7D0
+	|-RVA: 0x1A2C790 Offset: 0x1A2AD90 VA: 0x181A2C790
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, PathFinder.Point>.MoveNext
 	|
-	|-RVA: 0x1A339A0 Offset: 0x1A31FA0 VA: 0x181A339A0
+	|-RVA: 0x1A33960 Offset: 0x1A31F60 VA: 0x181A33960
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x1A2F160 Offset: 0x1A2D760 VA: 0x181A2F160
+	|-RVA: 0x1A2F120 Offset: 0x1A2D720 VA: 0x181A2F120
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, Option>.MoveNext
 	|
-	|-RVA: 0x1A33210 Offset: 0x1A31810 VA: 0x181A33210
+	|-RVA: 0x1A331D0 Offset: 0x1A317D0 VA: 0x181A331D0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x1A2D200 Offset: 0x1A2B800 VA: 0x181A2D200
+	|-RVA: 0x1A2D1C0 Offset: 0x1A2B7C0 VA: 0x181A2D1C0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x1A2EFC0 Offset: 0x1A2D5C0 VA: 0x181A2EFC0
+	|-RVA: 0x1A2EF80 Offset: 0x1A2D580 VA: 0x181A2EF80
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x1A34220 Offset: 0x1A32820 VA: 0x181A34220
+	|-RVA: 0x1A341E0 Offset: 0x1A327E0 VA: 0x181A341E0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, bool>.MoveNext
 	|
-	|-RVA: 0x1A31E00 Offset: 0x1A30400 VA: 0x181A31E00
+	|-RVA: 0x1A31DC0 Offset: 0x1A303C0 VA: 0x181A31DC0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x1A2F6B0 Offset: 0x1A2DCB0 VA: 0x181A2F6B0
+	|-RVA: 0x1A2F670 Offset: 0x1A2DC70 VA: 0x181A2F670
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, int>.MoveNext
 	|
-	|-RVA: 0x1A2C210 Offset: 0x1A2A810 VA: 0x181A2C210
+	|-RVA: 0x1A2C1D0 Offset: 0x1A2A7D0 VA: 0x181A2C1D0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x1A2B7D0 Offset: 0x1A29DD0 VA: 0x181A2B7D0
+	|-RVA: 0x1A2B790 Offset: 0x1A29D90 VA: 0x181A2B790
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, long>.MoveNext
 	|
-	|-RVA: 0x1A2DDA0 Offset: 0x1A2C3A0 VA: 0x181A2DDA0
+	|-RVA: 0x1A2DD60 Offset: 0x1A2C360 VA: 0x181A2DD60
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, object>.MoveNext
 	|
-	|-RVA: 0x1A35C30 Offset: 0x1A34230 VA: 0x181A35C30
+	|-RVA: 0x1A35BF0 Offset: 0x1A341F0 VA: 0x181A35BF0
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, float>.MoveNext
 	|
-	|-RVA: 0x1A31AD0 Offset: 0x1A300D0 VA: 0x181A31AD0
+	|-RVA: 0x1A31A90 Offset: 0x1A30090 VA: 0x181A31A90
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, Resolution>.MoveNext
 	|
-	|-RVA: 0x1A2A640 Offset: 0x1A28C40 VA: 0x181A2A640
+	|-RVA: 0x1A2A600 Offset: 0x1A28C00 VA: 0x181A2A600
 	|-Enumerable.WhereSelectEnumerableIterator<object, Debugging.EntityInfo>.MoveNext
 	|
-	|-RVA: 0x1A2EAA0 Offset: 0x1A2D0A0 VA: 0x181A2EAA0
+	|-RVA: 0x1A2EA60 Offset: 0x1A2D060 VA: 0x181A2EA60
 	|-Enumerable.WhereSelectEnumerableIterator<object, FourBitNumber>.MoveNext
 	|
-	|-RVA: 0x1A31210 Offset: 0x1A2F810 VA: 0x181A31210
+	|-RVA: 0x1A311D0 Offset: 0x1A2F7D0 VA: 0x181A311D0
 	|-Enumerable.WhereSelectEnumerableIterator<object, SevenBitNumber>.MoveNext
 	|
-	|-RVA: 0x1A2E140 Offset: 0x1A2C740 VA: 0x181A2E140
+	|-RVA: 0x1A2E100 Offset: 0x1A2C700 VA: 0x181A2E100
 	|-Enumerable.WhereSelectEnumerableIterator<object, PathFinder.Point>.MoveNext
 	|
-	|-RVA: 0x1A30130 Offset: 0x1A2E730 VA: 0x181A30130
+	|-RVA: 0x1A300F0 Offset: 0x1A2E6F0 VA: 0x181A300F0
 	|-Enumerable.WhereSelectEnumerableIterator<object, PlayerItemRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x1A2E2D0 Offset: 0x1A2C8D0 VA: 0x181A2E2D0
+	|-RVA: 0x1A2E290 Offset: 0x1A2C890 VA: 0x181A2E290
 	|-Enumerable.WhereSelectEnumerableIterator<object, PlayerItemRecipe>.MoveNext
 	|
-	|-RVA: 0x1A2B3F0 Offset: 0x1A299F0 VA: 0x181A2B3F0
+	|-RVA: 0x1A2B3B0 Offset: 0x1A299B0 VA: 0x181A2B3B0
 	|-Enumerable.WhereSelectEnumerableIterator<object, ProjectileWeaponMod.Modifier>.MoveNext
 	|
-	|-RVA: 0x1A31C60 Offset: 0x1A30260 VA: 0x181A31C60
+	|-RVA: 0x1A31C20 Offset: 0x1A30220 VA: 0x181A31C20
 	|-Enumerable.WhereSelectEnumerableIterator<object, Option>.MoveNext
 	|
-	|-RVA: 0x1A343A0 Offset: 0x1A329A0 VA: 0x181A343A0
+	|-RVA: 0x1A34360 Offset: 0x1A32960 VA: 0x181A34360
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryItemId>.MoveNext
 	|
-	|-RVA: 0x1A2FC00 Offset: 0x1A2E200 VA: 0x181A2FC00
+	|-RVA: 0x1A2FBC0 Offset: 0x1A2E1C0 VA: 0x181A2FBC0
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x1A33070 Offset: 0x1A31670 VA: 0x181A33070
+	|-RVA: 0x1A33030 Offset: 0x1A31630 VA: 0x181A33030
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x1A2E6A0 Offset: 0x1A2CCA0 VA: 0x181A2E6A0
+	|-RVA: 0x1A2E660 Offset: 0x1A2CC60 VA: 0x181A2E660
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x1A2EE40 Offset: 0x1A2D440 VA: 0x181A2EE40
+	|-RVA: 0x1A2EE00 Offset: 0x1A2D400 VA: 0x181A2EE00
 	|-Enumerable.WhereSelectEnumerableIterator<object, bool>.MoveNext
 	|
-	|-RVA: 0x1A2F300 Offset: 0x1A2D900 VA: 0x181A2F300
+	|-RVA: 0x1A2F2C0 Offset: 0x1A2D8C0 VA: 0x181A2F2C0
 	|-Enumerable.WhereSelectEnumerableIterator<object, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x1A32630 Offset: 0x1A30C30 VA: 0x181A32630
+	|-RVA: 0x1A325F0 Offset: 0x1A30BF0 VA: 0x181A325F0
 	|-Enumerable.WhereSelectEnumerableIterator<object, int>.MoveNext
 	|
-	|-RVA: 0x1A34DF0 Offset: 0x1A333F0 VA: 0x181A34DF0
+	|-RVA: 0x1A34DB0 Offset: 0x1A333B0 VA: 0x181A34DB0
 	|-Enumerable.WhereSelectEnumerableIterator<object, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x1A31390 Offset: 0x1A2F990 VA: 0x181A31390
+	|-RVA: 0x1A31350 Offset: 0x1A2F950 VA: 0x181A31350
 	|-Enumerable.WhereSelectEnumerableIterator<object, long>.MoveNext
 	|
-	|-RVA: 0x1A2AEA0 Offset: 0x1A294A0 VA: 0x181A2AEA0
+	|-RVA: 0x1A2AE60 Offset: 0x1A29460 VA: 0x181A2AE60
 	|-Enumerable.WhereSelectEnumerableIterator<object, object>.MoveNext
 	|
-	|-RVA: 0x1A35AA0 Offset: 0x1A340A0 VA: 0x181A35AA0
+	|-RVA: 0x1A35A60 Offset: 0x1A34060 VA: 0x181A35A60
 	|-Enumerable.WhereSelectEnumerableIterator<object, float>.MoveNext
 	|
-	|-RVA: 0x1A2FFB0 Offset: 0x1A2E5B0 VA: 0x181A2FFB0
+	|-RVA: 0x1A2FF70 Offset: 0x1A2E570 VA: 0x181A2FF70
 	|-Enumerable.WhereSelectEnumerableIterator<object, uint>.MoveNext
 	|
-	|-RVA: 0x1A2D9D0 Offset: 0x1A2BFD0 VA: 0x181A2D9D0
+	|-RVA: 0x1A2D990 Offset: 0x1A2BF90 VA: 0x181A2D990
 	|-Enumerable.WhereSelectEnumerableIterator<object, Resolution>.MoveNext
 	*/
 
@@ -9410,7 +9410,7 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	public override IEnumerable<TResult> Where(Func<TResult, bool> predicate) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19D5280 Offset: 0x19D3880 VA: 0x1819D5280
+	|-RVA: 0x19D5240 Offset: 0x19D3840 VA: 0x1819D5240
 	|-Enumerable.WhereSelectEnumerableIterator<BurstCloth.Chain, FourBitNumber>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<BurstCloth.Chain, SevenBitNumber>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<BurstCloth.Chain, int>.Where
@@ -10377,151 +10377,151 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, SevenBitNumber>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, bool>.MoveNext
 	|
-	|-RVA: 0x19CFEE0 Offset: 0x19CE4E0 VA: 0x1819CFEE0
+	|-RVA: 0x19CFEA0 Offset: 0x19CE4A0 VA: 0x1819CFEA0
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, ProjectileWeaponMod.Modifier>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, Resolution>.MoveNext
 	|
-	|-RVA: 0x19D0E90 Offset: 0x19CF490 VA: 0x1819D0E90
+	|-RVA: 0x19D0E50 Offset: 0x19CF450 VA: 0x1819D0E50
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x19D1FF0 Offset: 0x19D05F0 VA: 0x1819D1FF0
+	|-RVA: 0x19D1FB0 Offset: 0x19D05B0 VA: 0x1819D1FB0
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x19D09B0 Offset: 0x19CEFB0 VA: 0x1819D09B0
+	|-RVA: 0x19D0970 Offset: 0x19CEF70 VA: 0x1819D0970
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x19D1EE0 Offset: 0x19D04E0 VA: 0x1819D1EE0
+	|-RVA: 0x19D1EA0 Offset: 0x19D04A0 VA: 0x1819D1EA0
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, int>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, Int32Enum>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, uint>.MoveNext
 	|
-	|-RVA: 0x19D2440 Offset: 0x19D0A40 VA: 0x1819D2440
+	|-RVA: 0x19D2400 Offset: 0x19D0A00 VA: 0x1819D2400
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, object>.MoveNext
 	|
-	|-RVA: 0x19D2230 Offset: 0x19D0830 VA: 0x1819D2230
+	|-RVA: 0x19D21F0 Offset: 0x19D07F0 VA: 0x1819D21F0
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, float>.MoveNext
 	|
-	|-RVA: 0x19D0880 Offset: 0x19CEE80 VA: 0x1819D0880
+	|-RVA: 0x19D0840 Offset: 0x19CEE40 VA: 0x1819D0840
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe, PlayerItemRecipe>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, Debugging.EntityInfo>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x19CFCC0 Offset: 0x19CE2C0 VA: 0x1819CFCC0
+	|-RVA: 0x19CFC80 Offset: 0x19CE280 VA: 0x1819CFC80
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe, object>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, object>.MoveNext
 	|
-	|-RVA: 0x19D0350 Offset: 0x19CE950 VA: 0x1819D0350
+	|-RVA: 0x19D0310 Offset: 0x19CE910 VA: 0x1819D0310
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, PathFinder.Point>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, long>.MoveNext
 	|
-	|-RVA: 0x19D0010 Offset: 0x19CE610 VA: 0x1819D0010
+	|-RVA: 0x19CFFD0 Offset: 0x19CE5D0 VA: 0x1819CFFD0
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, ProjectileWeaponMod.Modifier>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, Resolution>.MoveNext
 	|
-	|-RVA: 0x19D1900 Offset: 0x19CFF00 VA: 0x1819D1900
+	|-RVA: 0x19D18C0 Offset: 0x19CFEC0 VA: 0x1819D18C0
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, Option>.MoveNext
 	|
-	|-RVA: 0x19D0470 Offset: 0x19CEA70 VA: 0x1819D0470
+	|-RVA: 0x19D0430 Offset: 0x19CEA30 VA: 0x1819D0430
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x19D1500 Offset: 0x19CFB00 VA: 0x1819D1500
+	|-RVA: 0x19D14C0 Offset: 0x19CFAC0 VA: 0x1819D14C0
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x19D0FD0 Offset: 0x19CF5D0 VA: 0x1819D0FD0
+	|-RVA: 0x19D0F90 Offset: 0x19CF590 VA: 0x1819D0F90
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x19D0230 Offset: 0x19CE830 VA: 0x1819D0230
+	|-RVA: 0x19D01F0 Offset: 0x19CE7F0 VA: 0x1819D01F0
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, bool>.MoveNext
 	|
-	|-RVA: 0x19D05A0 Offset: 0x19CEBA0 VA: 0x1819D05A0
+	|-RVA: 0x19D0560 Offset: 0x19CEB60 VA: 0x1819D0560
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, int>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x19D1200 Offset: 0x19CF800 VA: 0x1819D1200
+	|-RVA: 0x19D11C0 Offset: 0x19CF7C0 VA: 0x1819D11C0
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, float>.MoveNext
 	|
-	|-RVA: 0x19D1630 Offset: 0x19CFC30 VA: 0x1819D1630
+	|-RVA: 0x19D15F0 Offset: 0x19CFBF0 VA: 0x1819D15F0
 	|-Enumerable.WhereSelectArrayIterator<int, FourBitNumber>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<int, SevenBitNumber>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, bool>.MoveNext
 	|
-	|-RVA: 0x19CFBE0 Offset: 0x19CE1E0 VA: 0x1819CFBE0
+	|-RVA: 0x19CFBA0 Offset: 0x19CE1A0 VA: 0x1819CFBA0
 	|-Enumerable.WhereSelectArrayIterator<int, int>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, int>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, Int32Enum>.MoveNext
 	|
-	|-RVA: 0x19D0BD0 Offset: 0x19CF1D0 VA: 0x1819D0BD0
+	|-RVA: 0x19D0B90 Offset: 0x19CF190 VA: 0x1819D0B90
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, Debugging.EntityInfo>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x19D0DB0 Offset: 0x19CF3B0 VA: 0x1819D0DB0
+	|-RVA: 0x19D0D70 Offset: 0x19CF370 VA: 0x1819D0D70
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, PathFinder.Point>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, long>.MoveNext
 	|
-	|-RVA: 0x19D1310 Offset: 0x19CF910 VA: 0x1819D1310
+	|-RVA: 0x19D12D0 Offset: 0x19CF8D0 VA: 0x1819D12D0
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, ProjectileWeaponMod.Modifier>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, Resolution>.MoveNext
 	|
-	|-RVA: 0x19D2340 Offset: 0x19D0940 VA: 0x1819D2340
+	|-RVA: 0x19D2300 Offset: 0x19D0900 VA: 0x1819D2300
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, Option>.MoveNext
 	|
-	|-RVA: 0x19D2130 Offset: 0x19D0730 VA: 0x1819D2130
+	|-RVA: 0x19D20F0 Offset: 0x19D06F0 VA: 0x1819D20F0
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x19D1400 Offset: 0x19CFA00 VA: 0x1819D1400
+	|-RVA: 0x19D13C0 Offset: 0x19CF9C0 VA: 0x1819D13C0
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x19D1100 Offset: 0x19CF700 VA: 0x1819D1100
+	|-RVA: 0x19D10C0 Offset: 0x19CF6C0 VA: 0x1819D10C0
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x19D0CC0 Offset: 0x19CF2C0 VA: 0x1819D0CC0
+	|-RVA: 0x19D0C80 Offset: 0x19CF280 VA: 0x1819D0C80
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, object>.MoveNext
 	|
-	|-RVA: 0x19D06C0 Offset: 0x19CECC0 VA: 0x1819D06C0
+	|-RVA: 0x19D0680 Offset: 0x19CEC80 VA: 0x1819D0680
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, float>.MoveNext
 	|
-	|-RVA: 0x19D0140 Offset: 0x19CE740 VA: 0x1819D0140
+	|-RVA: 0x19D0100 Offset: 0x19CE700 VA: 0x1819D0100
 	|-Enumerable.WhereSelectArrayIterator<object, Debugging.EntityInfo>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<object, PlayerItemRecipe>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<object, KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x19D0AF0 Offset: 0x19CF0F0 VA: 0x1819D0AF0
+	|-RVA: 0x19D0AB0 Offset: 0x19CF0B0 VA: 0x1819D0AB0
 	|-Enumerable.WhereSelectArrayIterator<object, FourBitNumber>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<object, SevenBitNumber>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<object, bool>.MoveNext
 	|
-	|-RVA: 0x19D07A0 Offset: 0x19CEDA0 VA: 0x1819D07A0
+	|-RVA: 0x19D0760 Offset: 0x19CED60 VA: 0x1819D0760
 	|-Enumerable.WhereSelectArrayIterator<object, PathFinder.Point>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<object, PlayerItemRecipe.Ingredient>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<object, InventoryItemId>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<object, long>.MoveNext
 	|
-	|-RVA: 0x19D1A30 Offset: 0x19D0030 VA: 0x1819D1A30
+	|-RVA: 0x19D19F0 Offset: 0x19CFFF0 VA: 0x1819D19F0
 	|-Enumerable.WhereSelectArrayIterator<object, ProjectileWeaponMod.Modifier>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<object, Resolution>.MoveNext
 	|
-	|-RVA: 0x19D1C00 Offset: 0x19D0200 VA: 0x1819D1C00
+	|-RVA: 0x19D1BC0 Offset: 0x19D01C0 VA: 0x1819D1BC0
 	|-Enumerable.WhereSelectArrayIterator<object, Option>.MoveNext
 	|
-	|-RVA: 0x19D1DE0 Offset: 0x19D03E0 VA: 0x1819D1DE0
+	|-RVA: 0x19D1DA0 Offset: 0x19D03A0 VA: 0x1819D1DA0
 	|-Enumerable.WhereSelectArrayIterator<object, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x19D1710 Offset: 0x19CFD10 VA: 0x1819D1710
+	|-RVA: 0x19D16D0 Offset: 0x19CFCD0 VA: 0x1819D16D0
 	|-Enumerable.WhereSelectArrayIterator<object, InventoryRecipe.Ingredient>.MoveNext
 	|
-	|-RVA: 0x19CFDE0 Offset: 0x19CE3E0 VA: 0x1819CFDE0
+	|-RVA: 0x19CFDA0 Offset: 0x19CE3A0 VA: 0x1819CFDA0
 	|-Enumerable.WhereSelectArrayIterator<object, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x19D1D00 Offset: 0x19D0300 VA: 0x1819D1D00
+	|-RVA: 0x19D1CC0 Offset: 0x19D02C0 VA: 0x1819D1CC0
 	|-Enumerable.WhereSelectArrayIterator<object, int>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<object, Int32Enum>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<object, uint>.MoveNext
 	|
-	|-RVA: 0x19D1810 Offset: 0x19CFE10 VA: 0x1819D1810
+	|-RVA: 0x19D17D0 Offset: 0x19CFDD0 VA: 0x1819D17D0
 	|-Enumerable.WhereSelectArrayIterator<object, object>.MoveNext
 	|
-	|-RVA: 0x19D1B20 Offset: 0x19D0120 VA: 0x1819D1B20
+	|-RVA: 0x19D1AE0 Offset: 0x19D00E0 VA: 0x1819D1AE0
 	|-Enumerable.WhereSelectArrayIterator<object, float>.MoveNext
 	*/
 
@@ -12435,7 +12435,7 @@ private sealed class Enumerable.<>c__DisplayClass6_0<TSource> // TypeDefIndex: 3
 	internal bool <CombinePredicates>b__0(TSource x) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A026F0 Offset: 0x1A00CF0 VA: 0x181A026F0
+	|-RVA: 0x1A026B0 Offset: 0x1A00CB0 VA: 0x181A026B0
 	|-Enumerable.<>c__DisplayClass6_0<Debugging.EntityInfo>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<GameStat.Stat>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<PlayerItemRecipe>.<CombinePredicates>b__0
@@ -12443,52 +12443,52 @@ private sealed class Enumerable.<>c__DisplayClass6_0<TSource> // TypeDefIndex: 3
 	|-Enumerable.<>c__DisplayClass6_0<KeyValuePair<object, object>>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<KeyValuePair<uint, object>>.<CombinePredicates>b__0
 	|
-	|-RVA: 0x1A02810 Offset: 0x1A00E10 VA: 0x181A02810
+	|-RVA: 0x1A027D0 Offset: 0x1A00DD0 VA: 0x181A027D0
 	|-Enumerable.<>c__DisplayClass6_0<SkeletonDefinition.Bone>.<CombinePredicates>b__0
 	|
-	|-RVA: 0x1A02CA0 Offset: 0x1A012A0 VA: 0x181A02CA0
+	|-RVA: 0x1A02C60 Offset: 0x1A01260 VA: 0x181A02C60
 	|-Enumerable.<>c__DisplayClass6_0<ItemSkinDirectory.Skin>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<Option>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<SkinnedMultiMesh.Part>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<InventoryItem>.<CombinePredicates>b__0
 	|
-	|-RVA: 0x1A02C20 Offset: 0x1A01220 VA: 0x181A02C20
+	|-RVA: 0x1A02BE0 Offset: 0x1A011E0 VA: 0x181A02BE0
 	|-Enumerable.<>c__DisplayClass6_0<FourBitNumber>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<SevenBitNumber>.<CombinePredicates>b__0
 	|
-	|-RVA: 0x1A02BA0 Offset: 0x1A011A0 VA: 0x181A02BA0
+	|-RVA: 0x1A02B60 Offset: 0x1A01160 VA: 0x181A02B60
 	|-Enumerable.<>c__DisplayClass6_0<PathFinder.Point>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<PlayerItemRecipe.Ingredient>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<InventoryItemId>.<CombinePredicates>b__0
 	|
-	|-RVA: 0x1A02A70 Offset: 0x1A01070 VA: 0x181A02A70
+	|-RVA: 0x1A02A30 Offset: 0x1A01030 VA: 0x181A02A30
 	|-Enumerable.<>c__DisplayClass6_0<ProjectileWeaponMod.Modifier>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<Resolution>.<CombinePredicates>b__0
 	|
-	|-RVA: 0x1A028D0 Offset: 0x1A00ED0 VA: 0x181A028D0
+	|-RVA: 0x1A02890 Offset: 0x1A00E90 VA: 0x181A02890
 	|-Enumerable.<>c__DisplayClass6_0<ServerInfo>.<CombinePredicates>b__0
 	|
-	|-RVA: 0x1A02D50 Offset: 0x1A01350 VA: 0x181A02D50
+	|-RVA: 0x1A02D10 Offset: 0x1A01310 VA: 0x181A02D10
 	|-Enumerable.<>c__DisplayClass6_0<InventoryRecipe.Ingredient>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<InventoryRecipe>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<KeyValuePair<ulong, Dispatch.ResultCallback>>.<CombinePredicates>b__0
 	|
-	|-RVA: 0x1A02E80 Offset: 0x1A01480 VA: 0x181A02E80
+	|-RVA: 0x1A02E40 Offset: 0x1A01440 VA: 0x181A02E40
 	|-Enumerable.<>c__DisplayClass6_0<bool>.<CombinePredicates>b__0
 	|
-	|-RVA: 0x1A02B20 Offset: 0x1A01120 VA: 0x181A02B20
+	|-RVA: 0x1A02AE0 Offset: 0x1A010E0 VA: 0x181A02AE0
 	|-Enumerable.<>c__DisplayClass6_0<char>.<CombinePredicates>b__0
 	|
-	|-RVA: 0x1A02790 Offset: 0x1A00D90 VA: 0x181A02790
+	|-RVA: 0x1A02750 Offset: 0x1A00D50 VA: 0x181A02750
 	|-Enumerable.<>c__DisplayClass6_0<int>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<Int32Enum>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<uint>.<CombinePredicates>b__0
 	|
-	|-RVA: 0x1A029F0 Offset: 0x1A00FF0 VA: 0x181A029F0
+	|-RVA: 0x1A029B0 Offset: 0x1A00FB0 VA: 0x181A029B0
 	|-Enumerable.<>c__DisplayClass6_0<long>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<object>.<CombinePredicates>b__0
 	|
-	|-RVA: 0x1A02E00 Offset: 0x1A01400 VA: 0x181A02E00
+	|-RVA: 0x1A02DC0 Offset: 0x1A013C0 VA: 0x181A02DC0
 	|-Enumerable.<>c__DisplayClass6_0<float>.<CombinePredicates>b__0
 	*/
 
@@ -12932,11 +12932,11 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<object, Int32Enum, object>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<object, uint, uint>.<CombineSelectors>b__0
 	|
-	|-RVA: 0x1A03580 Offset: 0x1A01B80 VA: 0x181A03580
+	|-RVA: 0x1A03540 Offset: 0x1A01B40 VA: 0x181A03540
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, Debugging.EntityInfo, Debugging.EntityInfo>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, KeyValuePair<object, int>, KeyValuePair<object, int>>.<CombineSelectors>b__0
 	|
-	|-RVA: 0x1A02FD0 Offset: 0x1A015D0 VA: 0x181A02FD0
+	|-RVA: 0x1A02F90 Offset: 0x1A01590 VA: 0x181A02F90
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, PathFinder.Point, PathFinder.Point>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, long, long>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, PathFinder.Point>.<CombineSelectors>b__0
@@ -12947,42 +12947,42 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, object>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, float>.<CombineSelectors>b__0
 	|
-	|-RVA: 0x1A03300 Offset: 0x1A01900 VA: 0x181A03300
+	|-RVA: 0x1A032C0 Offset: 0x1A018C0 VA: 0x181A032C0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, ProjectileWeaponMod.Modifier, ProjectileWeaponMod.Modifier>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, Resolution, Resolution>.<CombineSelectors>b__0
 	|
-	|-RVA: 0x1A03100 Offset: 0x1A01700 VA: 0x181A03100
+	|-RVA: 0x1A030C0 Offset: 0x1A016C0 VA: 0x181A030C0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, Option, Option>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, InventoryItem, InventoryItem>.<CombineSelectors>b__0
 	|
-	|-RVA: 0x1A02F00 Offset: 0x1A01500 VA: 0x181A02F00
+	|-RVA: 0x1A02EC0 Offset: 0x1A014C0 VA: 0x181A02EC0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, InventoryRecipe, InventoryRecipe>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.<CombineSelectors>b__0
 	|
-	|-RVA: 0x1A031D0 Offset: 0x1A017D0 VA: 0x181A031D0
+	|-RVA: 0x1A03190 Offset: 0x1A01790 VA: 0x181A03190
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, bool, bool>.<CombineSelectors>b__0
 	|
-	|-RVA: 0x1A033D0 Offset: 0x1A019D0 VA: 0x181A033D0
+	|-RVA: 0x1A03390 Offset: 0x1A01990 VA: 0x181A03390
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, int, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, Int32Enum, Int32Enum>.<CombineSelectors>b__0
 	|
-	|-RVA: 0x1A03640 Offset: 0x1A01C40 VA: 0x181A03640
+	|-RVA: 0x1A03600 Offset: 0x1A01C00 VA: 0x181A03600
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, Debugging.EntityInfo>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, KeyValuePair<object, int>>.<CombineSelectors>b__0
 	|
-	|-RVA: 0x1A034D0 Offset: 0x1A01AD0 VA: 0x181A034D0
+	|-RVA: 0x1A03490 Offset: 0x1A01A90 VA: 0x181A03490
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, ProjectileWeaponMod.Modifier>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, Resolution>.<CombineSelectors>b__0
 	|
-	|-RVA: 0x1A03050 Offset: 0x1A01650 VA: 0x181A03050
+	|-RVA: 0x1A03010 Offset: 0x1A01610 VA: 0x181A03010
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, Option>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, InventoryItem>.<CombineSelectors>b__0
 	|
-	|-RVA: 0x1A03250 Offset: 0x1A01850 VA: 0x181A03250
+	|-RVA: 0x1A03210 Offset: 0x1A01810 VA: 0x181A03210
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, InventoryRecipe.Ingredient>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, InventoryRecipe>.<CombineSelectors>b__0
 	|
-	|-RVA: 0x1A03450 Offset: 0x1A01A50 VA: 0x181A03450
+	|-RVA: 0x1A03410 Offset: 0x1A01A10 VA: 0x181A03410
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, float, float>.<CombineSelectors>b__0
 	|
 	|-RVA: 0x144D3A0 Offset: 0x144B9A0 VA: 0x18144D3A0
@@ -13483,7 +13483,7 @@ private sealed class Enumerable.<SelectManyIterator>d__17<TSource, TResult> : IE
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
@@ -13491,7 +13491,7 @@ private sealed class Enumerable.<SelectManyIterator>d__17<TSource, TResult> : IE
 	|-RVA: 0x144B800 Offset: 0x1449E00 VA: 0x18144B800
 	|-Enumerable.<SelectManyIterator>d__17<object, PlayerItemRecipe>..ctor
 	|
-	|-RVA: 0x19E6C00 Offset: 0x19E5200 VA: 0x1819E6C00
+	|-RVA: 0x19E6BC0 Offset: 0x19E51C0 VA: 0x1819E6BC0
 	|-Enumerable.<SelectManyIterator>d__17<object, InventoryRecipe>..ctor
 	|
 	|-RVA: 0x144B7C0 Offset: 0x1449DC0 VA: 0x18144B7C0
@@ -13501,12 +13501,12 @@ private sealed class Enumerable.<SelectManyIterator>d__17<TSource, TResult> : IE
 	|-Enumerable.<SelectManyIterator>d__17<object, object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E68B0 Offset: 0x19E4EB0 VA: 0x1819E68B0
+	|-RVA: 0x19E6870 Offset: 0x19E4E70 VA: 0x1819E6870
 	|-Enumerable.<SelectManyIterator>d__17<object, PlayerItemRecipe>.System.IDisposable.Dispose
 	|-Enumerable.<SelectManyIterator>d__17<object, InventoryRecipe>.System.IDisposable.Dispose
 	|-Enumerable.<SelectManyIterator>d__17<object, byte>.System.IDisposable.Dispose
@@ -13517,16 +13517,16 @@ private sealed class Enumerable.<SelectManyIterator>d__17<TSource, TResult> : IE
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E5AF0 Offset: 0x19E40F0 VA: 0x1819E5AF0
+	|-RVA: 0x19E5AB0 Offset: 0x19E40B0 VA: 0x1819E5AB0
 	|-Enumerable.<SelectManyIterator>d__17<object, PlayerItemRecipe>.MoveNext
 	|
-	|-RVA: 0x19E5810 Offset: 0x19E3E10 VA: 0x1819E5810
+	|-RVA: 0x19E57D0 Offset: 0x19E3DD0 VA: 0x1819E57D0
 	|-Enumerable.<SelectManyIterator>d__17<object, InventoryRecipe>.MoveNext
 	|
-	|-RVA: 0x19E6090 Offset: 0x19E4690 VA: 0x1819E6090
+	|-RVA: 0x19E6050 Offset: 0x19E4650 VA: 0x1819E6050
 	|-Enumerable.<SelectManyIterator>d__17<object, byte>.MoveNext
 	|
-	|-RVA: 0x19E5DC0 Offset: 0x19E43C0 VA: 0x1819E5DC0
+	|-RVA: 0x19E5D80 Offset: 0x19E4380 VA: 0x1819E5D80
 	|-Enumerable.<SelectManyIterator>d__17<object, object>.MoveNext
 	*/
 
@@ -13534,16 +13534,16 @@ private sealed class Enumerable.<SelectManyIterator>d__17<TSource, TResult> : IE
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E6A70 Offset: 0x19E5070 VA: 0x1819E6A70
+	|-RVA: 0x19E6A30 Offset: 0x19E5030 VA: 0x1819E6A30
 	|-Enumerable.<SelectManyIterator>d__17<object, PlayerItemRecipe>.<>m__Finally1
 	|
-	|-RVA: 0x19E6A20 Offset: 0x19E5020 VA: 0x1819E6A20
+	|-RVA: 0x19E69E0 Offset: 0x19E4FE0 VA: 0x1819E69E0
 	|-Enumerable.<SelectManyIterator>d__17<object, InventoryRecipe>.<>m__Finally1
 	|
-	|-RVA: 0x19E6980 Offset: 0x19E4F80 VA: 0x1819E6980
+	|-RVA: 0x19E6940 Offset: 0x19E4F40 VA: 0x1819E6940
 	|-Enumerable.<SelectManyIterator>d__17<object, byte>.<>m__Finally1
 	|
-	|-RVA: 0x19E69D0 Offset: 0x19E4FD0 VA: 0x1819E69D0
+	|-RVA: 0x19E6990 Offset: 0x19E4F90 VA: 0x1819E6990
 	|-Enumerable.<SelectManyIterator>d__17<object, object>.<>m__Finally1
 	*/
 
@@ -13551,20 +13551,20 @@ private sealed class Enumerable.<SelectManyIterator>d__17<TSource, TResult> : IE
 	private void <>m__Finally2() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E6BB0 Offset: 0x19E51B0 VA: 0x1819E6BB0
+	|-RVA: 0x19E6B70 Offset: 0x19E5170 VA: 0x1819E6B70
 	|-Enumerable.<SelectManyIterator>d__17<object, PlayerItemRecipe>.<>m__Finally2
 	|
-	|-RVA: 0x19E6B10 Offset: 0x19E5110 VA: 0x1819E6B10
+	|-RVA: 0x19E6AD0 Offset: 0x19E50D0 VA: 0x1819E6AD0
 	|-Enumerable.<SelectManyIterator>d__17<object, InventoryRecipe>.<>m__Finally2
 	|
-	|-RVA: 0x19E6AC0 Offset: 0x19E50C0 VA: 0x1819E6AC0
+	|-RVA: 0x19E6A80 Offset: 0x19E5080 VA: 0x1819E6A80
 	|-Enumerable.<SelectManyIterator>d__17<object, byte>.<>m__Finally2
 	|
-	|-RVA: 0x19E6B60 Offset: 0x19E5160 VA: 0x1819E6B60
+	|-RVA: 0x19E6B20 Offset: 0x19E5120 VA: 0x1819E6B20
 	|-Enumerable.<SelectManyIterator>d__17<object, object>.<>m__Finally2
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private TResult System.Collections.Generic.IEnumerator<TResult>.get_Current() { }
 	/* GenericInstMethod :
@@ -13582,66 +13582,66 @@ private sealed class Enumerable.<SelectManyIterator>d__17<TSource, TResult> : IE
 	|-Enumerable.<SelectManyIterator>d__17<object, object>.System.Collections.Generic.IEnumerator<TResult>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E6720 Offset: 0x19E4D20 VA: 0x1819E6720
+	|-RVA: 0x19E66E0 Offset: 0x19E4CE0 VA: 0x1819E66E0
 	|-Enumerable.<SelectManyIterator>d__17<object, PlayerItemRecipe>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E66D0 Offset: 0x19E4CD0 VA: 0x1819E66D0
+	|-RVA: 0x19E6690 Offset: 0x19E4C90 VA: 0x1819E6690
 	|-Enumerable.<SelectManyIterator>d__17<object, InventoryRecipe>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E6770 Offset: 0x19E4D70 VA: 0x1819E6770
+	|-RVA: 0x19E6730 Offset: 0x19E4D30 VA: 0x1819E6730
 	|-Enumerable.<SelectManyIterator>d__17<object, byte>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E6680 Offset: 0x19E4C80 VA: 0x1819E6680
+	|-RVA: 0x19E6640 Offset: 0x19E4C40 VA: 0x1819E6640
 	|-Enumerable.<SelectManyIterator>d__17<object, object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E6860 Offset: 0x19E4E60 VA: 0x1819E6860
+	|-RVA: 0x19E6820 Offset: 0x19E4E20 VA: 0x1819E6820
 	|-Enumerable.<SelectManyIterator>d__17<object, PlayerItemRecipe>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E6810 Offset: 0x19E4E10 VA: 0x1819E6810
+	|-RVA: 0x19E67D0 Offset: 0x19E4DD0 VA: 0x1819E67D0
 	|-Enumerable.<SelectManyIterator>d__17<object, InventoryRecipe>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E67C0 Offset: 0x19E4DC0 VA: 0x1819E67C0
+	|-RVA: 0x19E6780 Offset: 0x19E4D80 VA: 0x1819E6780
 	|-Enumerable.<SelectManyIterator>d__17<object, byte>.System.Collections.IEnumerator.get_Current
 	|
 	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	|-Enumerable.<SelectManyIterator>d__17<object, object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<TResult> System.Collections.Generic.IEnumerable<TResult>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E6350 Offset: 0x19E4950 VA: 0x1819E6350
+	|-RVA: 0x19E6310 Offset: 0x19E4910 VA: 0x1819E6310
 	|-Enumerable.<SelectManyIterator>d__17<object, PlayerItemRecipe>.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator
 	|
-	|-RVA: 0x19E6410 Offset: 0x19E4A10 VA: 0x1819E6410
+	|-RVA: 0x19E63D0 Offset: 0x19E49D0 VA: 0x1819E63D0
 	|-Enumerable.<SelectManyIterator>d__17<object, InventoryRecipe>.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator
 	|
-	|-RVA: 0x19E6590 Offset: 0x19E4B90 VA: 0x1819E6590
+	|-RVA: 0x19E6550 Offset: 0x19E4B50 VA: 0x1819E6550
 	|-Enumerable.<SelectManyIterator>d__17<object, byte>.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator
 	|
-	|-RVA: 0x19E64D0 Offset: 0x19E4AD0 VA: 0x1819E64D0
+	|-RVA: 0x19E6490 Offset: 0x19E4A90 VA: 0x1819E6490
 	|-Enumerable.<SelectManyIterator>d__17<object, object>.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E6650 Offset: 0x19E4C50 VA: 0x1819E6650
+	|-RVA: 0x19E6610 Offset: 0x19E4C10 VA: 0x1819E6610
 	|-Enumerable.<SelectManyIterator>d__17<object, PlayerItemRecipe>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<SelectManyIterator>d__17<object, InventoryRecipe>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<SelectManyIterator>d__17<object, byte>.System.Collections.IEnumerable.GetEnumerator
@@ -13667,12 +13667,12 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E8500 Offset: 0x19E6B00 VA: 0x1819E8500
+	|-RVA: 0x19E84C0 Offset: 0x19E6AC0 VA: 0x1819E84C0
 	|-Enumerable.<TakeIterator>d__25<Option>..ctor
 	|-Enumerable.<TakeIterator>d__25<InventoryItem>..ctor
 	|
@@ -13684,7 +13684,7 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	|-Enumerable.<TakeIterator>d__25<object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
@@ -13701,19 +13701,19 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E76D0 Offset: 0x19E5CD0 VA: 0x1819E76D0
+	|-RVA: 0x19E7690 Offset: 0x19E5C90 VA: 0x1819E7690
 	|-Enumerable.<TakeIterator>d__25<Option>.MoveNext
 	|
-	|-RVA: 0x19E7C30 Offset: 0x19E6230 VA: 0x1819E7C30
+	|-RVA: 0x19E7BF0 Offset: 0x19E61F0 VA: 0x1819E7BF0
 	|-Enumerable.<TakeIterator>d__25<InventoryItem>.MoveNext
 	|
-	|-RVA: 0x19E7A70 Offset: 0x19E6070 VA: 0x1819E7A70
+	|-RVA: 0x19E7A30 Offset: 0x19E6030 VA: 0x1819E7A30
 	|-Enumerable.<TakeIterator>d__25<byte>.MoveNext
 	|
-	|-RVA: 0x19E78B0 Offset: 0x19E5EB0 VA: 0x1819E78B0
+	|-RVA: 0x19E7870 Offset: 0x19E5E70 VA: 0x1819E7870
 	|-Enumerable.<TakeIterator>d__25<double>.MoveNext
 	|
-	|-RVA: 0x19E7E10 Offset: 0x19E6410 VA: 0x1819E7E10
+	|-RVA: 0x19E7DD0 Offset: 0x19E63D0 VA: 0x1819E7DD0
 	|-Enumerable.<TakeIterator>d__25<object>.MoveNext
 	*/
 
@@ -13721,23 +13721,23 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E83C0 Offset: 0x19E69C0 VA: 0x1819E83C0
+	|-RVA: 0x19E8380 Offset: 0x19E6980 VA: 0x1819E8380
 	|-Enumerable.<TakeIterator>d__25<Option>.<>m__Finally1
 	|
-	|-RVA: 0x19E8460 Offset: 0x19E6A60 VA: 0x1819E8460
+	|-RVA: 0x19E8420 Offset: 0x19E6A20 VA: 0x1819E8420
 	|-Enumerable.<TakeIterator>d__25<InventoryItem>.<>m__Finally1
 	|
-	|-RVA: 0x19E8370 Offset: 0x19E6970 VA: 0x1819E8370
+	|-RVA: 0x19E8330 Offset: 0x19E6930 VA: 0x1819E8330
 	|-Enumerable.<TakeIterator>d__25<byte>.<>m__Finally1
 	|
-	|-RVA: 0x19E84B0 Offset: 0x19E6AB0 VA: 0x1819E84B0
+	|-RVA: 0x19E8470 Offset: 0x19E6A70 VA: 0x1819E8470
 	|-Enumerable.<TakeIterator>d__25<double>.<>m__Finally1
 	|
-	|-RVA: 0x19E8410 Offset: 0x19E6A10 VA: 0x1819E8410
+	|-RVA: 0x19E83D0 Offset: 0x19E69D0 VA: 0x1819E83D0
 	|-Enumerable.<TakeIterator>d__25<object>.<>m__Finally1
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private TSource System.Collections.Generic.IEnumerator<TSource>.get_Current() { }
 	/* GenericInstMethod :
@@ -13756,28 +13756,28 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	|-Enumerable.<TakeIterator>d__25<object>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E82D0 Offset: 0x19E68D0 VA: 0x1819E82D0
+	|-RVA: 0x19E8290 Offset: 0x19E6890 VA: 0x1819E8290
 	|-Enumerable.<TakeIterator>d__25<Option>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E8280 Offset: 0x19E6880 VA: 0x1819E8280
+	|-RVA: 0x19E8240 Offset: 0x19E6840 VA: 0x1819E8240
 	|-Enumerable.<TakeIterator>d__25<InventoryItem>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E8230 Offset: 0x19E6830 VA: 0x1819E8230
+	|-RVA: 0x19E81F0 Offset: 0x19E67F0 VA: 0x1819E81F0
 	|-Enumerable.<TakeIterator>d__25<byte>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E81E0 Offset: 0x19E67E0 VA: 0x1819E81E0
+	|-RVA: 0x19E81A0 Offset: 0x19E67A0 VA: 0x1819E81A0
 	|-Enumerable.<TakeIterator>d__25<double>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E8320 Offset: 0x19E6920 VA: 0x1819E8320
+	|-RVA: 0x19E82E0 Offset: 0x19E68E0 VA: 0x1819E82E0
 	|-Enumerable.<TakeIterator>d__25<object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
@@ -13786,7 +13786,7 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	|-Enumerable.<TakeIterator>d__25<Option>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.<TakeIterator>d__25<InventoryItem>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E7590 Offset: 0x19E5B90 VA: 0x1819E7590
+	|-RVA: 0x19E7550 Offset: 0x19E5B50 VA: 0x1819E7550
 	|-Enumerable.<TakeIterator>d__25<byte>.System.Collections.IEnumerator.get_Current
 	|
 	|-RVA: 0x176D8D0 Offset: 0x176BED0 VA: 0x18176D8D0
@@ -13796,29 +13796,29 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	|-Enumerable.<TakeIterator>d__25<object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<TSource> System.Collections.Generic.IEnumerable<TSource>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E8080 Offset: 0x19E6680 VA: 0x1819E8080
+	|-RVA: 0x19E8040 Offset: 0x19E6640 VA: 0x1819E8040
 	|-Enumerable.<TakeIterator>d__25<Option>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|-Enumerable.<TakeIterator>d__25<InventoryItem>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|
-	|-RVA: 0x19E8130 Offset: 0x19E6730 VA: 0x1819E8130
+	|-RVA: 0x19E80F0 Offset: 0x19E66F0 VA: 0x1819E80F0
 	|-Enumerable.<TakeIterator>d__25<byte>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|
-	|-RVA: 0x19E7FD0 Offset: 0x19E65D0 VA: 0x1819E7FD0
+	|-RVA: 0x19E7F90 Offset: 0x19E6590 VA: 0x1819E7F90
 	|-Enumerable.<TakeIterator>d__25<double>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|-Enumerable.<TakeIterator>d__25<object>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C6EC0 Offset: 0x19C54C0 VA: 0x1819C6EC0
+	|-RVA: 0x19C6E80 Offset: 0x19C5480 VA: 0x1819C6E80
 	|-Enumerable.<TakeIterator>d__25<Option>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<TakeIterator>d__25<InventoryItem>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<TakeIterator>d__25<byte>.System.Collections.IEnumerable.GetEnumerator
@@ -13845,7 +13845,7 @@ private sealed class Enumerable.<TakeWhileIterator>d__27<TSource> : IEnumerable<
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
@@ -13854,7 +13854,7 @@ private sealed class Enumerable.<TakeWhileIterator>d__27<TSource> : IEnumerable<
 	|-Enumerable.<TakeWhileIterator>d__27<object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
@@ -13867,7 +13867,7 @@ private sealed class Enumerable.<TakeWhileIterator>d__27<TSource> : IEnumerable<
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E8540 Offset: 0x19E6B40 VA: 0x1819E8540
+	|-RVA: 0x19E8500 Offset: 0x19E6B00 VA: 0x1819E8500
 	|-Enumerable.<TakeWhileIterator>d__27<object>.MoveNext
 	*/
 
@@ -13875,11 +13875,11 @@ private sealed class Enumerable.<TakeWhileIterator>d__27<TSource> : IEnumerable<
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E8780 Offset: 0x19E6D80 VA: 0x1819E8780
+	|-RVA: 0x19E8740 Offset: 0x19E6D40 VA: 0x1819E8740
 	|-Enumerable.<TakeWhileIterator>d__27<object>.<>m__Finally1
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private TSource System.Collections.Generic.IEnumerator<TSource>.get_Current() { }
 	/* GenericInstMethod :
@@ -13888,16 +13888,16 @@ private sealed class Enumerable.<TakeWhileIterator>d__27<TSource> : IEnumerable<
 	|-Enumerable.<TakeWhileIterator>d__27<object>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E8730 Offset: 0x19E6D30 VA: 0x1819E8730
+	|-RVA: 0x19E86F0 Offset: 0x19E6CF0 VA: 0x1819E86F0
 	|-Enumerable.<TakeWhileIterator>d__27<object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
@@ -13906,7 +13906,7 @@ private sealed class Enumerable.<TakeWhileIterator>d__27<TSource> : IEnumerable<
 	|-Enumerable.<TakeWhileIterator>d__27<object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<TSource> System.Collections.Generic.IEnumerable<TSource>.GetEnumerator() { }
 	/* GenericInstMethod :
@@ -13915,7 +13915,7 @@ private sealed class Enumerable.<TakeWhileIterator>d__27<TSource> : IEnumerable<
 	|-Enumerable.<TakeWhileIterator>d__27<object>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
@@ -13943,7 +13943,7 @@ private sealed class Enumerable.<SkipIterator>d__31<TSource> : IEnumerable<TSour
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
@@ -13956,7 +13956,7 @@ private sealed class Enumerable.<SkipIterator>d__31<TSource> : IEnumerable<TSour
 	|-Enumerable.<SkipIterator>d__31<object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
@@ -13971,13 +13971,13 @@ private sealed class Enumerable.<SkipIterator>d__31<TSource> : IEnumerable<TSour
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E70F0 Offset: 0x19E56F0 VA: 0x1819E70F0
+	|-RVA: 0x19E70B0 Offset: 0x19E56B0 VA: 0x1819E70B0
 	|-Enumerable.<SkipIterator>d__31<byte>.MoveNext
 	|
-	|-RVA: 0x19E6EA0 Offset: 0x19E54A0 VA: 0x1819E6EA0
+	|-RVA: 0x19E6E60 Offset: 0x19E5460 VA: 0x1819E6E60
 	|-Enumerable.<SkipIterator>d__31<double>.MoveNext
 	|
-	|-RVA: 0x19E6C40 Offset: 0x19E5240 VA: 0x1819E6C40
+	|-RVA: 0x19E6C00 Offset: 0x19E5200 VA: 0x1819E6C00
 	|-Enumerable.<SkipIterator>d__31<object>.MoveNext
 	*/
 
@@ -13985,17 +13985,17 @@ private sealed class Enumerable.<SkipIterator>d__31<TSource> : IEnumerable<TSour
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E7680 Offset: 0x19E5C80 VA: 0x1819E7680
+	|-RVA: 0x19E7640 Offset: 0x19E5C40 VA: 0x1819E7640
 	|-Enumerable.<SkipIterator>d__31<byte>.<>m__Finally1
 	|
-	|-RVA: 0x19E7630 Offset: 0x19E5C30 VA: 0x1819E7630
+	|-RVA: 0x19E75F0 Offset: 0x19E5BF0 VA: 0x1819E75F0
 	|-Enumerable.<SkipIterator>d__31<double>.<>m__Finally1
 	|
-	|-RVA: 0x19E75E0 Offset: 0x19E5BE0 VA: 0x1819E75E0
+	|-RVA: 0x19E75A0 Offset: 0x19E5BA0 VA: 0x1819E75A0
 	|-Enumerable.<SkipIterator>d__31<object>.<>m__Finally1
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private TSource System.Collections.Generic.IEnumerator<TSource>.get_Current() { }
 	/* GenericInstMethod :
@@ -14010,27 +14010,27 @@ private sealed class Enumerable.<SkipIterator>d__31<TSource> : IEnumerable<TSour
 	|-Enumerable.<SkipIterator>d__31<object>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E74A0 Offset: 0x19E5AA0 VA: 0x1819E74A0
+	|-RVA: 0x19E7460 Offset: 0x19E5A60 VA: 0x1819E7460
 	|-Enumerable.<SkipIterator>d__31<byte>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E7540 Offset: 0x19E5B40 VA: 0x1819E7540
+	|-RVA: 0x19E7500 Offset: 0x19E5B00 VA: 0x1819E7500
 	|-Enumerable.<SkipIterator>d__31<double>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E74F0 Offset: 0x19E5AF0 VA: 0x1819E74F0
+	|-RVA: 0x19E74B0 Offset: 0x19E5AB0 VA: 0x1819E74B0
 	|-Enumerable.<SkipIterator>d__31<object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E7590 Offset: 0x19E5B90 VA: 0x1819E7590
+	|-RVA: 0x19E7550 Offset: 0x19E5B50 VA: 0x1819E7550
 	|-Enumerable.<SkipIterator>d__31<byte>.System.Collections.IEnumerator.get_Current
 	|
 	|-RVA: 0x176D8D0 Offset: 0x176BED0 VA: 0x18176D8D0
@@ -14040,25 +14040,25 @@ private sealed class Enumerable.<SkipIterator>d__31<TSource> : IEnumerable<TSour
 	|-Enumerable.<SkipIterator>d__31<object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<TSource> System.Collections.Generic.IEnumerable<TSource>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E73F0 Offset: 0x19E59F0 VA: 0x1819E73F0
+	|-RVA: 0x19E73B0 Offset: 0x19E59B0 VA: 0x1819E73B0
 	|-Enumerable.<SkipIterator>d__31<byte>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|
-	|-RVA: 0x19E7340 Offset: 0x19E5940 VA: 0x1819E7340
+	|-RVA: 0x19E7300 Offset: 0x19E5900 VA: 0x1819E7300
 	|-Enumerable.<SkipIterator>d__31<double>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|-Enumerable.<SkipIterator>d__31<object>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C6EC0 Offset: 0x19C54C0 VA: 0x1819C6EC0
+	|-RVA: 0x19C6E80 Offset: 0x19C5480 VA: 0x1819C6E80
 	|-Enumerable.<SkipIterator>d__31<byte>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<SkipIterator>d__31<double>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<SkipIterator>d__31<object>.System.Collections.IEnumerable.GetEnumerator
@@ -14083,7 +14083,7 @@ private sealed class Enumerable.<ConcatIterator>d__59<TSource> : IEnumerable<TSo
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
@@ -14096,7 +14096,7 @@ private sealed class Enumerable.<ConcatIterator>d__59<TSource> : IEnumerable<TSo
 	|-Enumerable.<ConcatIterator>d__59<object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
@@ -14149,7 +14149,7 @@ private sealed class Enumerable.<ConcatIterator>d__59<TSource> : IEnumerable<TSo
 	|-Enumerable.<ConcatIterator>d__59<object>.<>m__Finally2
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private TSource System.Collections.Generic.IEnumerator<TSource>.get_Current() { }
 	/* GenericInstMethod :
@@ -14162,7 +14162,7 @@ private sealed class Enumerable.<ConcatIterator>d__59<TSource> : IEnumerable<TSo
 	|-Enumerable.<ConcatIterator>d__59<object>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
@@ -14177,7 +14177,7 @@ private sealed class Enumerable.<ConcatIterator>d__59<TSource> : IEnumerable<TSo
 	|-Enumerable.<ConcatIterator>d__59<object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
@@ -14192,7 +14192,7 @@ private sealed class Enumerable.<ConcatIterator>d__59<TSource> : IEnumerable<TSo
 	|-Enumerable.<ConcatIterator>d__59<object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<TSource> System.Collections.Generic.IEnumerable<TSource>.GetEnumerator() { }
 	/* GenericInstMethod :
@@ -14205,7 +14205,7 @@ private sealed class Enumerable.<ConcatIterator>d__59<TSource> : IEnumerable<TSo
 	|-Enumerable.<ConcatIterator>d__59<object>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
@@ -14238,7 +14238,7 @@ private sealed class Enumerable.<ZipIterator>d__65<TFirst, TSecond, TResult> : I
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
@@ -14248,12 +14248,12 @@ private sealed class Enumerable.<ZipIterator>d__65<TFirst, TSecond, TResult> : I
 	|-Enumerable.<ZipIterator>d__65<object, object, object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E68B0 Offset: 0x19E4EB0 VA: 0x1819E68B0
+	|-RVA: 0x19E6870 Offset: 0x19E4E70 VA: 0x1819E6870
 	|-Enumerable.<ZipIterator>d__65<object, long, object>.System.IDisposable.Dispose
 	|-Enumerable.<ZipIterator>d__65<object, object, object>.System.IDisposable.Dispose
 	*/
@@ -14262,10 +14262,10 @@ private sealed class Enumerable.<ZipIterator>d__65<TFirst, TSecond, TResult> : I
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E95A0 Offset: 0x19E7BA0 VA: 0x1819E95A0
+	|-RVA: 0x19E9560 Offset: 0x19E7B60 VA: 0x1819E9560
 	|-Enumerable.<ZipIterator>d__65<object, long, object>.MoveNext
 	|
-	|-RVA: 0x19E92C0 Offset: 0x19E78C0 VA: 0x1819E92C0
+	|-RVA: 0x19E9280 Offset: 0x19E7880 VA: 0x1819E9280
 	|-Enumerable.<ZipIterator>d__65<object, object, object>.MoveNext
 	*/
 
@@ -14273,10 +14273,10 @@ private sealed class Enumerable.<ZipIterator>d__65<TFirst, TSecond, TResult> : I
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E99F0 Offset: 0x19E7FF0 VA: 0x1819E99F0
+	|-RVA: 0x19E99B0 Offset: 0x19E7FB0 VA: 0x1819E99B0
 	|-Enumerable.<ZipIterator>d__65<object, long, object>.<>m__Finally1
 	|
-	|-RVA: 0x19E9A40 Offset: 0x19E8040 VA: 0x1819E9A40
+	|-RVA: 0x19E9A00 Offset: 0x19E8000 VA: 0x1819E9A00
 	|-Enumerable.<ZipIterator>d__65<object, object, object>.<>m__Finally1
 	*/
 
@@ -14284,14 +14284,14 @@ private sealed class Enumerable.<ZipIterator>d__65<TFirst, TSecond, TResult> : I
 	private void <>m__Finally2() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E9A90 Offset: 0x19E8090 VA: 0x1819E9A90
+	|-RVA: 0x19E9A50 Offset: 0x19E8050 VA: 0x1819E9A50
 	|-Enumerable.<ZipIterator>d__65<object, long, object>.<>m__Finally2
 	|
-	|-RVA: 0x19E9AE0 Offset: 0x19E80E0 VA: 0x1819E9AE0
+	|-RVA: 0x19E9AA0 Offset: 0x19E80A0 VA: 0x1819E9AA0
 	|-Enumerable.<ZipIterator>d__65<object, object, object>.<>m__Finally2
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private TResult System.Collections.Generic.IEnumerator<TResult>.get_Current() { }
 	/* GenericInstMethod :
@@ -14301,19 +14301,19 @@ private sealed class Enumerable.<ZipIterator>d__65<TFirst, TSecond, TResult> : I
 	|-Enumerable.<ZipIterator>d__65<object, object, object>.System.Collections.Generic.IEnumerator<TResult>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E9950 Offset: 0x19E7F50 VA: 0x1819E9950
+	|-RVA: 0x19E9910 Offset: 0x19E7F10 VA: 0x1819E9910
 	|-Enumerable.<ZipIterator>d__65<object, long, object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E99A0 Offset: 0x19E7FA0 VA: 0x1819E99A0
+	|-RVA: 0x19E9960 Offset: 0x19E7F60 VA: 0x1819E9960
 	|-Enumerable.<ZipIterator>d__65<object, object, object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
@@ -14323,22 +14323,22 @@ private sealed class Enumerable.<ZipIterator>d__65<TFirst, TSecond, TResult> : I
 	|-Enumerable.<ZipIterator>d__65<object, object, object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<TResult> System.Collections.Generic.IEnumerable<TResult>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E9880 Offset: 0x19E7E80 VA: 0x1819E9880
+	|-RVA: 0x19E9840 Offset: 0x19E7E40 VA: 0x1819E9840
 	|-Enumerable.<ZipIterator>d__65<object, long, object>.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator
 	|-Enumerable.<ZipIterator>d__65<object, object, object>.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E6650 Offset: 0x19E4C50 VA: 0x1819E6650
+	|-RVA: 0x19E6610 Offset: 0x19E4C10 VA: 0x1819E6610
 	|-Enumerable.<ZipIterator>d__65<object, long, object>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<ZipIterator>d__65<object, object, object>.System.Collections.IEnumerable.GetEnumerator
 	*/
@@ -14363,19 +14363,19 @@ private sealed class Enumerable.<DistinctIterator>d__68<TSource> : IEnumerable<T
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E3E60 Offset: 0x19E2460 VA: 0x1819E3E60
+	|-RVA: 0x19E3E20 Offset: 0x19E2420 VA: 0x1819E3E20
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>..ctor
 	|
 	|-RVA: 0x144B840 Offset: 0x1449E40 VA: 0x18144B840
 	|-Enumerable.<DistinctIterator>d__68<object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
@@ -14389,10 +14389,10 @@ private sealed class Enumerable.<DistinctIterator>d__68<TSource> : IEnumerable<T
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E3700 Offset: 0x19E1D00 VA: 0x1819E3700
+	|-RVA: 0x19E36C0 Offset: 0x19E1CC0 VA: 0x1819E36C0
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.MoveNext
 	|
-	|-RVA: 0x19E34B0 Offset: 0x19E1AB0 VA: 0x1819E34B0
+	|-RVA: 0x19E3470 Offset: 0x19E1A70 VA: 0x1819E3470
 	|-Enumerable.<DistinctIterator>d__68<object>.MoveNext
 	*/
 
@@ -14400,14 +14400,14 @@ private sealed class Enumerable.<DistinctIterator>d__68<TSource> : IEnumerable<T
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E3E10 Offset: 0x19E2410 VA: 0x1819E3E10
+	|-RVA: 0x19E3DD0 Offset: 0x19E23D0 VA: 0x1819E3DD0
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.<>m__Finally1
 	|
-	|-RVA: 0x19E3DC0 Offset: 0x19E23C0 VA: 0x1819E3DC0
+	|-RVA: 0x19E3D80 Offset: 0x19E2380 VA: 0x1819E3D80
 	|-Enumerable.<DistinctIterator>d__68<object>.<>m__Finally1
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private TSource System.Collections.Generic.IEnumerator<TSource>.get_Current() { }
 	/* GenericInstMethod :
@@ -14419,48 +14419,48 @@ private sealed class Enumerable.<DistinctIterator>d__68<TSource> : IEnumerable<T
 	|-Enumerable.<DistinctIterator>d__68<object>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E3C90 Offset: 0x19E2290 VA: 0x1819E3C90
+	|-RVA: 0x19E3C50 Offset: 0x19E2250 VA: 0x1819E3C50
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E3CE0 Offset: 0x19E22E0 VA: 0x1819E3CE0
+	|-RVA: 0x19E3CA0 Offset: 0x19E22A0 VA: 0x1819E3CA0
 	|-Enumerable.<DistinctIterator>d__68<object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E3D30 Offset: 0x19E2330 VA: 0x1819E3D30
+	|-RVA: 0x19E3CF0 Offset: 0x19E22F0 VA: 0x1819E3CF0
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.System.Collections.IEnumerator.get_Current
 	|
 	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	|-Enumerable.<DistinctIterator>d__68<object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<TSource> System.Collections.Generic.IEnumerable<TSource>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E3AD0 Offset: 0x19E20D0 VA: 0x1819E3AD0
+	|-RVA: 0x19E3A90 Offset: 0x19E2090 VA: 0x1819E3A90
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|
-	|-RVA: 0x19E3BA0 Offset: 0x19E21A0 VA: 0x1819E3BA0
+	|-RVA: 0x19E3B60 Offset: 0x19E2160 VA: 0x1819E3B60
 	|-Enumerable.<DistinctIterator>d__68<object>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E3C60 Offset: 0x19E2260 VA: 0x1819E3C60
+	|-RVA: 0x19E3C20 Offset: 0x19E2220 VA: 0x1819E3C20
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<DistinctIterator>d__68<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
@@ -14487,7 +14487,7 @@ private sealed class Enumerable.<UnionIterator>d__71<TSource> : IEnumerable<TSou
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
@@ -14499,7 +14499,7 @@ private sealed class Enumerable.<UnionIterator>d__71<TSource> : IEnumerable<TSou
 	|-Enumerable.<UnionIterator>d__71<object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
@@ -14513,10 +14513,10 @@ private sealed class Enumerable.<UnionIterator>d__71<TSource> : IEnumerable<TSou
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E8B70 Offset: 0x19E7170 VA: 0x1819E8B70
+	|-RVA: 0x19E8B30 Offset: 0x19E7130 VA: 0x1819E8B30
 	|-Enumerable.<UnionIterator>d__71<char>.MoveNext
 	|
-	|-RVA: 0x19E87D0 Offset: 0x19E6DD0 VA: 0x1819E87D0
+	|-RVA: 0x19E8790 Offset: 0x19E6D90 VA: 0x1819E8790
 	|-Enumerable.<UnionIterator>d__71<object>.MoveNext
 	*/
 
@@ -14524,10 +14524,10 @@ private sealed class Enumerable.<UnionIterator>d__71<TSource> : IEnumerable<TSou
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E9180 Offset: 0x19E7780 VA: 0x1819E9180
+	|-RVA: 0x19E9140 Offset: 0x19E7740 VA: 0x1819E9140
 	|-Enumerable.<UnionIterator>d__71<char>.<>m__Finally1
 	|
-	|-RVA: 0x19E91D0 Offset: 0x19E77D0 VA: 0x1819E91D0
+	|-RVA: 0x19E9190 Offset: 0x19E7790 VA: 0x1819E9190
 	|-Enumerable.<UnionIterator>d__71<object>.<>m__Finally1
 	*/
 
@@ -14535,14 +14535,14 @@ private sealed class Enumerable.<UnionIterator>d__71<TSource> : IEnumerable<TSou
 	private void <>m__Finally2() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E9270 Offset: 0x19E7870 VA: 0x1819E9270
+	|-RVA: 0x19E9230 Offset: 0x19E7830 VA: 0x1819E9230
 	|-Enumerable.<UnionIterator>d__71<char>.<>m__Finally2
 	|
-	|-RVA: 0x19E9220 Offset: 0x19E7820 VA: 0x1819E9220
+	|-RVA: 0x19E91E0 Offset: 0x19E77E0 VA: 0x1819E91E0
 	|-Enumerable.<UnionIterator>d__71<object>.<>m__Finally2
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private TSource System.Collections.Generic.IEnumerator<TSource>.get_Current() { }
 	/* GenericInstMethod :
@@ -14554,48 +14554,48 @@ private sealed class Enumerable.<UnionIterator>d__71<TSource> : IEnumerable<TSou
 	|-Enumerable.<UnionIterator>d__71<object>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E90E0 Offset: 0x19E76E0 VA: 0x1819E90E0
+	|-RVA: 0x19E90A0 Offset: 0x19E76A0 VA: 0x1819E90A0
 	|-Enumerable.<UnionIterator>d__71<char>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E9090 Offset: 0x19E7690 VA: 0x1819E9090
+	|-RVA: 0x19E9050 Offset: 0x19E7650 VA: 0x1819E9050
 	|-Enumerable.<UnionIterator>d__71<object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E9130 Offset: 0x19E7730 VA: 0x1819E9130
+	|-RVA: 0x19E90F0 Offset: 0x19E76F0 VA: 0x1819E90F0
 	|-Enumerable.<UnionIterator>d__71<char>.System.Collections.IEnumerator.get_Current
 	|
 	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	|-Enumerable.<UnionIterator>d__71<object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<TSource> System.Collections.Generic.IEnumerable<TSource>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E8FC0 Offset: 0x19E75C0 VA: 0x1819E8FC0
+	|-RVA: 0x19E8F80 Offset: 0x19E7580 VA: 0x1819E8F80
 	|-Enumerable.<UnionIterator>d__71<char>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|
-	|-RVA: 0x19E8EF0 Offset: 0x19E74F0 VA: 0x1819E8EF0
+	|-RVA: 0x19E8EB0 Offset: 0x19E74B0 VA: 0x1819E8EB0
 	|-Enumerable.<UnionIterator>d__71<object>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E6650 Offset: 0x19E4C50 VA: 0x1819E6650
+	|-RVA: 0x19E6610 Offset: 0x19E4C10 VA: 0x1819E6610
 	|-Enumerable.<UnionIterator>d__71<char>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<UnionIterator>d__71<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
@@ -14622,7 +14622,7 @@ private sealed class Enumerable.<ExceptIterator>d__77<TSource> : IEnumerable<TSo
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
@@ -14633,11 +14633,11 @@ private sealed class Enumerable.<ExceptIterator>d__77<TSource> : IEnumerable<TSo
 	|-RVA: 0x144B7C0 Offset: 0x1449DC0 VA: 0x18144B7C0
 	|-Enumerable.<ExceptIterator>d__77<float>..ctor
 	|
-	|-RVA: 0x19E5160 Offset: 0x19E3760 VA: 0x1819E5160
+	|-RVA: 0x19E5120 Offset: 0x19E3720 VA: 0x1819E5120
 	|-Enumerable.<ExceptIterator>d__77<Vector2>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
@@ -14652,13 +14652,13 @@ private sealed class Enumerable.<ExceptIterator>d__77<TSource> : IEnumerable<TSo
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E4340 Offset: 0x19E2940 VA: 0x1819E4340
+	|-RVA: 0x19E4300 Offset: 0x19E2900 VA: 0x1819E4300
 	|-Enumerable.<ExceptIterator>d__77<object>.MoveNext
 	|
-	|-RVA: 0x19E47D0 Offset: 0x19E2DD0 VA: 0x1819E47D0
+	|-RVA: 0x19E4790 Offset: 0x19E2D90 VA: 0x1819E4790
 	|-Enumerable.<ExceptIterator>d__77<float>.MoveNext
 	|
-	|-RVA: 0x19E3EA0 Offset: 0x19E24A0 VA: 0x1819E3EA0
+	|-RVA: 0x19E3E60 Offset: 0x19E2460 VA: 0x1819E3E60
 	|-Enumerable.<ExceptIterator>d__77<Vector2>.MoveNext
 	*/
 
@@ -14666,17 +14666,17 @@ private sealed class Enumerable.<ExceptIterator>d__77<TSource> : IEnumerable<TSo
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E5110 Offset: 0x19E3710 VA: 0x1819E5110
+	|-RVA: 0x19E50D0 Offset: 0x19E36D0 VA: 0x1819E50D0
 	|-Enumerable.<ExceptIterator>d__77<object>.<>m__Finally1
 	|
-	|-RVA: 0x19E50C0 Offset: 0x19E36C0 VA: 0x1819E50C0
+	|-RVA: 0x19E5080 Offset: 0x19E3680 VA: 0x1819E5080
 	|-Enumerable.<ExceptIterator>d__77<float>.<>m__Finally1
 	|
-	|-RVA: 0x19E5070 Offset: 0x19E3670 VA: 0x1819E5070
+	|-RVA: 0x19E5030 Offset: 0x19E3630 VA: 0x1819E5030
 	|-Enumerable.<ExceptIterator>d__77<Vector2>.<>m__Finally1
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private TSource System.Collections.Generic.IEnumerator<TSource>.get_Current() { }
 	/* GenericInstMethod :
@@ -14687,26 +14687,26 @@ private sealed class Enumerable.<ExceptIterator>d__77<TSource> : IEnumerable<TSo
 	|-RVA: 0xE72D10 Offset: 0xE71310 VA: 0x180E72D10
 	|-Enumerable.<ExceptIterator>d__77<float>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	|
-	|-RVA: 0x19E4EC0 Offset: 0x19E34C0 VA: 0x1819E4EC0
+	|-RVA: 0x19E4E80 Offset: 0x19E3480 VA: 0x1819E4E80
 	|-Enumerable.<ExceptIterator>d__77<Vector2>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E4F30 Offset: 0x19E3530 VA: 0x1819E4F30
+	|-RVA: 0x19E4EF0 Offset: 0x19E34F0 VA: 0x1819E4EF0
 	|-Enumerable.<ExceptIterator>d__77<object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E4F80 Offset: 0x19E3580 VA: 0x1819E4F80
+	|-RVA: 0x19E4F40 Offset: 0x19E3540 VA: 0x1819E4F40
 	|-Enumerable.<ExceptIterator>d__77<float>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E4EE0 Offset: 0x19E34E0 VA: 0x1819E4EE0
+	|-RVA: 0x19E4EA0 Offset: 0x19E34A0 VA: 0x1819E4EA0
 	|-Enumerable.<ExceptIterator>d__77<Vector2>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
@@ -14714,34 +14714,34 @@ private sealed class Enumerable.<ExceptIterator>d__77<TSource> : IEnumerable<TSo
 	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	|-Enumerable.<ExceptIterator>d__77<object>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E4FD0 Offset: 0x19E35D0 VA: 0x1819E4FD0
+	|-RVA: 0x19E4F90 Offset: 0x19E3590 VA: 0x1819E4F90
 	|-Enumerable.<ExceptIterator>d__77<float>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E5020 Offset: 0x19E3620 VA: 0x1819E5020
+	|-RVA: 0x19E4FE0 Offset: 0x19E35E0 VA: 0x1819E4FE0
 	|-Enumerable.<ExceptIterator>d__77<Vector2>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<TSource> System.Collections.Generic.IEnumerable<TSource>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E4DF0 Offset: 0x19E33F0 VA: 0x1819E4DF0
+	|-RVA: 0x19E4DB0 Offset: 0x19E33B0 VA: 0x1819E4DB0
 	|-Enumerable.<ExceptIterator>d__77<object>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|
-	|-RVA: 0x19E4D20 Offset: 0x19E3320 VA: 0x1819E4D20
+	|-RVA: 0x19E4CE0 Offset: 0x19E32E0 VA: 0x1819E4CE0
 	|-Enumerable.<ExceptIterator>d__77<float>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|
-	|-RVA: 0x19E4C50 Offset: 0x19E3250 VA: 0x1819E4C50
+	|-RVA: 0x19E4C10 Offset: 0x19E3210 VA: 0x1819E4C10
 	|-Enumerable.<ExceptIterator>d__77<Vector2>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E3C60 Offset: 0x19E2260 VA: 0x1819E3C60
+	|-RVA: 0x19E3C20 Offset: 0x19E2220 VA: 0x1819E3C20
 	|-Enumerable.<ExceptIterator>d__77<object>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<ExceptIterator>d__77<float>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<ExceptIterator>d__77<Vector2>.System.Collections.IEnumerable.GetEnumerator
@@ -14765,7 +14765,7 @@ private sealed class Enumerable.<ReverseIterator>d__79<TSource> : IEnumerable<TS
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
@@ -14778,7 +14778,7 @@ private sealed class Enumerable.<ReverseIterator>d__79<TSource> : IEnumerable<TS
 	|-Enumerable.<ReverseIterator>d__79<object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
@@ -14793,17 +14793,17 @@ private sealed class Enumerable.<ReverseIterator>d__79<TSource> : IEnumerable<TS
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E5500 Offset: 0x19E3B00 VA: 0x1819E5500
+	|-RVA: 0x19E54C0 Offset: 0x19E3AC0 VA: 0x1819E54C0
 	|-Enumerable.<ReverseIterator>d__79<char>.MoveNext
 	|
-	|-RVA: 0x19E55C0 Offset: 0x19E3BC0 VA: 0x1819E55C0
+	|-RVA: 0x19E5580 Offset: 0x19E3B80 VA: 0x1819E5580
 	|-Enumerable.<ReverseIterator>d__79<long>.MoveNext
 	|
-	|-RVA: 0x19E5440 Offset: 0x19E3A40 VA: 0x1819E5440
+	|-RVA: 0x19E5400 Offset: 0x19E3A00 VA: 0x1819E5400
 	|-Enumerable.<ReverseIterator>d__79<object>.MoveNext
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private TSource System.Collections.Generic.IEnumerator<TSource>.get_Current() { }
 	/* GenericInstMethod :
@@ -14816,37 +14816,37 @@ private sealed class Enumerable.<ReverseIterator>d__79<TSource> : IEnumerable<TS
 	|-Enumerable.<ReverseIterator>d__79<object>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E5720 Offset: 0x19E3D20 VA: 0x1819E5720
+	|-RVA: 0x19E56E0 Offset: 0x19E3CE0 VA: 0x1819E56E0
 	|-Enumerable.<ReverseIterator>d__79<char>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E56D0 Offset: 0x19E3CD0 VA: 0x1819E56D0
+	|-RVA: 0x19E5690 Offset: 0x19E3C90 VA: 0x1819E5690
 	|-Enumerable.<ReverseIterator>d__79<long>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x19E5680 Offset: 0x19E3C80 VA: 0x1819E5680
+	|-RVA: 0x19E5640 Offset: 0x19E3C40 VA: 0x1819E5640
 	|-Enumerable.<ReverseIterator>d__79<object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E57C0 Offset: 0x19E3DC0 VA: 0x1819E57C0
+	|-RVA: 0x19E5780 Offset: 0x19E3D80 VA: 0x1819E5780
 	|-Enumerable.<ReverseIterator>d__79<char>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x19E5770 Offset: 0x19E3D70 VA: 0x1819E5770
+	|-RVA: 0x19E5730 Offset: 0x19E3D30 VA: 0x1819E5730
 	|-Enumerable.<ReverseIterator>d__79<long>.System.Collections.IEnumerator.get_Current
 	|
 	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	|-Enumerable.<ReverseIterator>d__79<object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<TSource> System.Collections.Generic.IEnumerable<TSource>.GetEnumerator() { }
 	/* GenericInstMethod :
@@ -14859,7 +14859,7 @@ private sealed class Enumerable.<ReverseIterator>d__79<TSource> : IEnumerable<TS
 	|-Enumerable.<ReverseIterator>d__79<object>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
@@ -14887,7 +14887,7 @@ private sealed class Enumerable.<OfTypeIterator>d__97<TResult> : IEnumerable<TRe
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
@@ -14896,7 +14896,7 @@ private sealed class Enumerable.<OfTypeIterator>d__97<TResult> : IEnumerable<TRe
 	|-Enumerable.<OfTypeIterator>d__97<object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
@@ -14909,7 +14909,7 @@ private sealed class Enumerable.<OfTypeIterator>d__97<TResult> : IEnumerable<TRe
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E51A0 Offset: 0x19E37A0 VA: 0x1819E51A0
+	|-RVA: 0x19E5160 Offset: 0x19E3760 VA: 0x1819E5160
 	|-Enumerable.<OfTypeIterator>d__97<object>.MoveNext
 	*/
 
@@ -14917,11 +14917,11 @@ private sealed class Enumerable.<OfTypeIterator>d__97<TResult> : IEnumerable<TRe
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E53E0 Offset: 0x19E39E0 VA: 0x1819E53E0
+	|-RVA: 0x19E53A0 Offset: 0x19E39A0 VA: 0x1819E53A0
 	|-Enumerable.<OfTypeIterator>d__97<object>.<>m__Finally1
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private TResult System.Collections.Generic.IEnumerator<TResult>.get_Current() { }
 	/* GenericInstMethod :
@@ -14930,16 +14930,16 @@ private sealed class Enumerable.<OfTypeIterator>d__97<TResult> : IEnumerable<TRe
 	|-Enumerable.<OfTypeIterator>d__97<object>.System.Collections.Generic.IEnumerator<TResult>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E5390 Offset: 0x19E3990 VA: 0x1819E5390
+	|-RVA: 0x19E5350 Offset: 0x19E3950 VA: 0x1819E5350
 	|-Enumerable.<OfTypeIterator>d__97<object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
@@ -14948,7 +14948,7 @@ private sealed class Enumerable.<OfTypeIterator>d__97<TResult> : IEnumerable<TRe
 	|-Enumerable.<OfTypeIterator>d__97<object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<TResult> System.Collections.Generic.IEnumerable<TResult>.GetEnumerator() { }
 	/* GenericInstMethod :
@@ -14957,7 +14957,7 @@ private sealed class Enumerable.<OfTypeIterator>d__97<TResult> : IEnumerable<TRe
 	|-Enumerable.<OfTypeIterator>d__97<object>.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
@@ -14983,7 +14983,7 @@ private sealed class Enumerable.<CastIterator>d__99<TResult> : IEnumerable<TResu
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
@@ -15001,7 +15001,7 @@ private sealed class Enumerable.<CastIterator>d__99<TResult> : IEnumerable<TResu
 	|-Enumerable.<CastIterator>d__99<object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 7
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
@@ -15061,7 +15061,7 @@ private sealed class Enumerable.<CastIterator>d__99<TResult> : IEnumerable<TResu
 	|-Enumerable.<CastIterator>d__99<object>.<>m__Finally1
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 6
 	private TResult System.Collections.Generic.IEnumerator<TResult>.get_Current() { }
 	/* GenericInstMethod :
@@ -15083,7 +15083,7 @@ private sealed class Enumerable.<CastIterator>d__99<TResult> : IEnumerable<TResu
 	|-Enumerable.<CastIterator>d__99<object>.System.Collections.Generic.IEnumerator<TResult>.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
@@ -15107,7 +15107,7 @@ private sealed class Enumerable.<CastIterator>d__99<TResult> : IEnumerable<TResu
 	|-Enumerable.<CastIterator>d__99<object>.System.Collections.IEnumerator.Reset
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
@@ -15129,7 +15129,7 @@ private sealed class Enumerable.<CastIterator>d__99<TResult> : IEnumerable<TResu
 	|-Enumerable.<CastIterator>d__99<object>.System.Collections.IEnumerator.get_Current
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 4
 	private IEnumerator<TResult> System.Collections.Generic.IEnumerable<TResult>.GetEnumerator() { }
 	/* GenericInstMethod :
@@ -15147,7 +15147,7 @@ private sealed class Enumerable.<CastIterator>d__99<TResult> : IEnumerable<TResu
 	|-Enumerable.<CastIterator>d__99<object>.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
@@ -15180,35 +15180,35 @@ private sealed class Enumerable.<RangeIterator>d__115 : IEnumerable<int>, IEnume
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x222CFB0 Offset: 0x222B5B0 VA: 0x18222CFB0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x222CDF0 Offset: 0x222B3F0 VA: 0x18222CDF0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x222CE30 Offset: 0x222B430 VA: 0x18222CE30 Slot: 8
+	// RVA: 0x222CC70 Offset: 0x222B270 VA: 0x18222CC70 Slot: 8
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0 Slot: 6
 	private int System.Collections.Generic.IEnumerator<System.Int32>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x222CF10 Offset: 0x222B510 VA: 0x18222CF10 Slot: 10
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x222CD50 Offset: 0x222B350 VA: 0x18222CD50 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x222CF60 Offset: 0x222B560 VA: 0x18222CF60 Slot: 9
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x222CDA0 Offset: 0x222B3A0 VA: 0x18222CDA0 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x222CE70 Offset: 0x222B470 VA: 0x18222CE70 Slot: 4
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x222CCB0 Offset: 0x222B2B0 VA: 0x18222CCB0 Slot: 4
 	private IEnumerator<int> System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x222CE70 Offset: 0x222B470 VA: 0x18222CE70 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x222CCB0 Offset: 0x222B2B0 VA: 0x18222CCB0 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }

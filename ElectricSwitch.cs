@@ -22,30 +22,30 @@ public class ElectricSwitch : IOEntity // TypeDefIndex: 8386
 	// RVA: 0x5B0430 Offset: 0x5AEA30 VA: 0x1805B0430 Slot: 148
 	public override bool WantsPower() { }
 
-	[BaseEntity.Menu] // RVA: 0x882D0 Offset: 0x876D0 VA: 0x1800882D0
-	[BaseEntity.Menu.Description] // RVA: 0x882D0 Offset: 0x876D0 VA: 0x1800882D0
-	[BaseEntity.Menu.Icon] // RVA: 0x882D0 Offset: 0x876D0 VA: 0x1800882D0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x882D0 Offset: 0x876D0 VA: 0x1800882D0
+	[BaseEntity.Menu] // RVA: 0x88380 Offset: 0x87780 VA: 0x180088380
+	[BaseEntity.Menu.Description] // RVA: 0x88380 Offset: 0x87780 VA: 0x180088380
+	[BaseEntity.Menu.Icon] // RVA: 0x88380 Offset: 0x87780 VA: 0x180088380
+	[BaseEntity.Menu.ShowIf] // RVA: 0x88380 Offset: 0x87780 VA: 0x180088380
 	// RVA: 0xAC0960 Offset: 0xABEF60 VA: 0x180AC0960
 	public void Menu_TurnOn(BasePlayer player) { }
 
 	// RVA: 0xAC0930 Offset: 0xABEF30 VA: 0x180AC0930
 	public bool Menu_TurnOn_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x886A0 Offset: 0x87AA0 VA: 0x1800886A0
-	[BaseEntity.Menu.Description] // RVA: 0x886A0 Offset: 0x87AA0 VA: 0x1800886A0
-	[BaseEntity.Menu.Icon] // RVA: 0x886A0 Offset: 0x87AA0 VA: 0x1800886A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x886A0 Offset: 0x87AA0 VA: 0x1800886A0
+	[BaseEntity.Menu] // RVA: 0x88760 Offset: 0x87B60 VA: 0x180088760
+	[BaseEntity.Menu.Description] // RVA: 0x88760 Offset: 0x87B60 VA: 0x180088760
+	[BaseEntity.Menu.Icon] // RVA: 0x88760 Offset: 0x87B60 VA: 0x180088760
+	[BaseEntity.Menu.ShowIf] // RVA: 0x88760 Offset: 0x87B60 VA: 0x180088760
 	// RVA: 0xAC08E0 Offset: 0xABEEE0 VA: 0x180AC08E0
 	public void Menu_TurnOff(BasePlayer player) { }
 
 	// RVA: 0xAC08B0 Offset: 0xABEEB0 VA: 0x180AC08B0
 	public bool Menu_TurnOff_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xDAD90 Offset: 0xDA190 VA: 0x1800DAD90
-	[BaseEntity.Menu.Description] // RVA: 0xDAD90 Offset: 0xDA190 VA: 0x1800DAD90
-	[BaseEntity.Menu.Icon] // RVA: 0xDAD90 Offset: 0xDA190 VA: 0x1800DAD90
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDAD90 Offset: 0xDA190 VA: 0x1800DAD90
+	[BaseEntity.Menu] // RVA: 0xDAE00 Offset: 0xDA200 VA: 0x1800DAE00
+	[BaseEntity.Menu.Description] // RVA: 0xDAE00 Offset: 0xDA200 VA: 0x1800DAE00
+	[BaseEntity.Menu.Icon] // RVA: 0xDAE00 Offset: 0xDA200 VA: 0x1800DAE00
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDAE00 Offset: 0xDA200 VA: 0x1800DAE00
 	// RVA: 0xAC0860 Offset: 0xABEE60 VA: 0x180AC0860
 	public void Menu_Toggle(BasePlayer player) { }
 

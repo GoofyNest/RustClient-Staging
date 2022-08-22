@@ -25,7 +25,7 @@ internal struct CodePointIndexer.TableRange // TypeDefIndex: 30
 
 	// Methods
 
-	// RVA: 0x1F6CC0 Offset: 0x1F60C0 VA: 0x1801F6CC0
+	// RVA: 0x1F6C40 Offset: 0x1F6040 VA: 0x1801F6C40
 	public void .ctor(int start, int end, int indexStart) { }
 
 }

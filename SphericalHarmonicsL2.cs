@@ -33,35 +33,35 @@ public struct SphericalHarmonicsL2 : IEquatable<SphericalHarmonicsL2> // TypeDef
 
 	// Methods
 
-	// RVA: 0x222EB0 Offset: 0x2222B0 VA: 0x180222EB0
+	// RVA: 0x222E30 Offset: 0x222230 VA: 0x180222E30
 	public void AddAmbientLight(Color color) { }
 
-	// RVA: 0x222F00 Offset: 0x222300 VA: 0x180222F00
+	// RVA: 0x222E80 Offset: 0x222280 VA: 0x180222E80
 	public void AddDirectionalLight(Vector3 direction, Color color, float intensity) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A300 Offset: 0x79700 VA: 0x18007A300
-	// RVA: 0x19B6800 Offset: 0x19B4E00 VA: 0x1819B6800
+	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
+	// RVA: 0x19B67C0 Offset: 0x19B4DC0 VA: 0x1819B67C0
 	private static void AddDirectionalLightInternal(ref SphericalHarmonicsL2 sh, Vector3 direction, Color color) { }
 
-	// RVA: 0x2231C0 Offset: 0x2225C0 VA: 0x1802231C0
+	// RVA: 0x223140 Offset: 0x222540 VA: 0x180223140
 	public float get_Item(int rgb, int coefficient) { }
 
-	// RVA: 0x2231B0 Offset: 0x2225B0 VA: 0x1802231B0 Slot: 2
+	// RVA: 0x223130 Offset: 0x222530 VA: 0x180223130 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x222F90 Offset: 0x222390 VA: 0x180222F90 Slot: 0
+	// RVA: 0x222F10 Offset: 0x222310 VA: 0x180222F10 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0x2230F0 Offset: 0x2224F0 VA: 0x1802230F0 Slot: 4
+	// RVA: 0x223070 Offset: 0x222470 VA: 0x180223070 Slot: 4
 	public bool Equals(SphericalHarmonicsL2 other) { }
 
-	// RVA: 0x19B6F50 Offset: 0x19B5550 VA: 0x1819B6F50
+	// RVA: 0x19B6F10 Offset: 0x19B5510 VA: 0x1819B6F10
 	public static bool op_Equality(SphericalHarmonicsL2 lhs, SphericalHarmonicsL2 rhs) { }
 
-	// RVA: 0x19B6700 Offset: 0x19B4D00 VA: 0x1819B6700
+	// RVA: 0x19B66C0 Offset: 0x19B4CC0 VA: 0x1819B66C0
 	private static void AddAmbientLight_Injected(ref SphericalHarmonicsL2 _unity_self, ref Color color) { }
 
-	// RVA: 0x19B67A0 Offset: 0x19B4DA0 VA: 0x1819B67A0
+	// RVA: 0x19B6760 Offset: 0x19B4D60 VA: 0x1819B6760
 	private static void AddDirectionalLightInternal_Injected(ref SphericalHarmonicsL2 sh, ref Vector3 direction, ref Color color) { }
 
 }

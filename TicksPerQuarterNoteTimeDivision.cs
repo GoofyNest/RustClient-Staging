@@ -1,6 +1,6 @@
 public sealed class TicksPerQuarterNoteTimeDivision : TimeDivision // TypeDefIndex: 7612
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly short <TicksPerQuarterNote>k__BackingField; // 0x10
 
 	// Properties
@@ -14,7 +14,7 @@ public sealed class TicksPerQuarterNoteTimeDivision : TimeDivision // TypeDefInd
 	// RVA: 0x13A9480 Offset: 0x13A7A80 VA: 0x1813A9480
 	public void .ctor(short ticksPerQuarterNote) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x13A9500 Offset: 0x13A7B00 VA: 0x1813A9500
 	public short get_TicksPerQuarterNote() { }
 

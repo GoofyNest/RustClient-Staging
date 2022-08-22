@@ -11,9 +11,9 @@ public abstract class Stream : MarshalByRefObject, IDisposable // TypeDefIndex: 
 	public abstract bool CanWrite { get; }
 	public abstract long Length { get; }
 	public abstract long Position { get; set; }
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public virtual int ReadTimeout { get; }
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public virtual int WriteTimeout { get; }
 
 	// Methods
@@ -45,19 +45,19 @@ public abstract class Stream : MarshalByRefObject, IDisposable // TypeDefIndex: 
 	// RVA: 0x1633E10 Offset: 0x1632410 VA: 0x181633E10 Slot: 14
 	public virtual int get_WriteTimeout() { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x1632920 Offset: 0x1630F20 VA: 0x181632920
 	public Task CopyToAsync(Stream destination) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x1632890 Offset: 0x1630E90 VA: 0x181632890
 	public Task CopyToAsync(Stream destination, int bufferSize) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x1632510 Offset: 0x1630B10 VA: 0x181632510 Slot: 15
 	public virtual Task CopyToAsync(Stream destination, int bufferSize, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3D20 Offset: 0xA3120 VA: 0x1800A3D20
+	[AsyncStateMachineAttribute] // RVA: 0xA3CA0 Offset: 0xA30A0 VA: 0x1800A3CA0
 	// RVA: 0x16323D0 Offset: 0x16309D0 VA: 0x1816323D0
 	private Task CopyToAsyncInternal(Stream destination, int bufferSize, CancellationToken cancellationToken) { }
 
@@ -88,7 +88,7 @@ public abstract class Stream : MarshalByRefObject, IDisposable // TypeDefIndex: 
 	// RVA: 0x1632C50 Offset: 0x1631250 VA: 0x181632C50 Slot: 20
 	public virtual int EndRead(IAsyncResult asyncResult) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x1633390 Offset: 0x1631990 VA: 0x181633390 Slot: 21
 	public virtual Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
@@ -110,11 +110,11 @@ public abstract class Stream : MarshalByRefObject, IDisposable // TypeDefIndex: 
 	// RVA: 0x1632F20 Offset: 0x1631520 VA: 0x181632F20 Slot: 23
 	public virtual void EndWrite(IAsyncResult asyncResult) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x1633970 Offset: 0x1631F70 VA: 0x181633970
 	public Task WriteAsync(byte[] buffer, int offset, int count) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x1633A10 Offset: 0x1632010 VA: 0x181633A10 Slot: 24
 	public virtual Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
@@ -196,7 +196,7 @@ private sealed class Stream.ReadWriteTask : Task<int>, ITaskCompletionAction // 
 
 private sealed class Stream.NullStream : Stream // TypeDefIndex: 641
 {	// Fields
-	private static Task<int> s_nullReadTask; // 0x2B11240
+	private static Task<int> s_nullReadTask; // 0x2B10260
 
 	// Properties
 	public override bool CanRead { get; }
@@ -249,7 +249,7 @@ private sealed class Stream.NullStream : Stream // TypeDefIndex: 641
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 27
 	public override int Read([In] [Out] byte[] buffer, int offset, int count) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x1629340 Offset: 0x1627940 VA: 0x181629340 Slot: 21
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
@@ -259,7 +259,7 @@ private sealed class Stream.NullStream : Stream // TypeDefIndex: 641
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 29
 	public override void Write(byte[] buffer, int offset, int count) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x1629410 Offset: 0x1627A10 VA: 0x181629410 Slot: 24
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
@@ -402,11 +402,11 @@ private struct Stream.<CopyToAsyncInternal>d__27 : IAsyncStateMachine // TypeDef
 
 	// Methods
 
-	// RVA: 0x1F6620 Offset: 0x1F5A20 VA: 0x1801F6620 Slot: 4
+	// RVA: 0x1F65A0 Offset: 0x1F59A0 VA: 0x1801F65A0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

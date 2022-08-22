@@ -8,20 +8,20 @@ public struct Playable : IEquatable<Playable> // TypeDefIndex: 3864
 
 	// Methods
 
-	// RVA: 0x18FAAC0 Offset: 0x18F90C0 VA: 0x1818FAAC0
+	// RVA: 0x18FAA80 Offset: 0x18F9080 VA: 0x1818FAA80
 	public static Playable get_Null() { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19E490 Offset: 0x19D890 VA: 0x18019E490
+	[VisibleToOtherModulesAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19E410 Offset: 0x19D810 VA: 0x18019E410
 	internal void .ctor(PlayableHandle handle) { }
 
-	// RVA: 0x212F40 Offset: 0x212340 VA: 0x180212F40 Slot: 5
+	// RVA: 0x212EC0 Offset: 0x2122C0 VA: 0x180212EC0 Slot: 5
 	public PlayableHandle GetHandle() { }
 
-	// RVA: 0x217670 Offset: 0x216A70 VA: 0x180217670 Slot: 4
+	// RVA: 0x2175F0 Offset: 0x2169F0 VA: 0x1802175F0 Slot: 4
 	public bool Equals(Playable other) { }
 
-	// RVA: 0x18FAA10 Offset: 0x18F9010 VA: 0x1818FAA10
+	// RVA: 0x18FA9D0 Offset: 0x18F8FD0 VA: 0x1818FA9D0
 	private static void .cctor() { }
 
 }

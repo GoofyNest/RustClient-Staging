@@ -112,70 +112,70 @@ public class GZipStream : Stream // TypeDefIndex: 6945
 	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
 	public string get_Comment() { }
 
-	// RVA: 0x21CF1B0 Offset: 0x21CD7B0 VA: 0x1821CF1B0
+	// RVA: 0x21CEFF0 Offset: 0x21CD5F0 VA: 0x1821CEFF0
 	public void set_Comment(string value) { }
 
 	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
 	public string get_FileName() { }
 
-	// RVA: 0x21CF230 Offset: 0x21CD830 VA: 0x1821CF230
+	// RVA: 0x21CF070 Offset: 0x21CD670 VA: 0x1821CF070
 	public void set_FileName(string value) { }
 
-	// RVA: 0x21CEFB0 Offset: 0x21CD5B0 VA: 0x1821CEFB0
+	// RVA: 0x21CEDF0 Offset: 0x21CD3F0 VA: 0x1821CEDF0
 	public void .ctor(Stream stream, CompressionMode mode) { }
 
-	// RVA: 0x21CEF90 Offset: 0x21CD590 VA: 0x1821CEF90
+	// RVA: 0x21CEDD0 Offset: 0x21CD3D0 VA: 0x1821CEDD0
 	public void .ctor(Stream stream, CompressionMode mode, CompressionLevel level) { }
 
-	// RVA: 0x21CEE00 Offset: 0x21CD400 VA: 0x1821CEE00
+	// RVA: 0x21CEC40 Offset: 0x21CD240 VA: 0x1821CEC40
 	public void .ctor(Stream stream, CompressionMode mode, CompressionLevel level, bool leaveOpen) { }
 
-	// RVA: 0x21CE1E0 Offset: 0x21CC7E0 VA: 0x1821CE1E0 Slot: 17
+	// RVA: 0x21CE020 Offset: 0x21CC620 VA: 0x1821CE020 Slot: 17
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x21CEFE0 Offset: 0x21CD5E0 VA: 0x1821CEFE0 Slot: 7
+	// RVA: 0x21CEE20 Offset: 0x21CD420 VA: 0x1821CEE20 Slot: 7
 	public override bool get_CanRead() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 8
 	public override bool get_CanSeek() { }
 
-	// RVA: 0x21CF070 Offset: 0x21CD670 VA: 0x1821CF070 Slot: 9
+	// RVA: 0x21CEEB0 Offset: 0x21CD4B0 VA: 0x1821CEEB0 Slot: 9
 	public override bool get_CanWrite() { }
 
-	// RVA: 0x21CE740 Offset: 0x21CCD40 VA: 0x1821CE740 Slot: 18
+	// RVA: 0x21CE580 Offset: 0x21CCB80 VA: 0x1821CE580 Slot: 18
 	public override void Flush() { }
 
-	// RVA: 0x21CF100 Offset: 0x21CD700 VA: 0x1821CF100 Slot: 10
+	// RVA: 0x21CEF40 Offset: 0x21CD540 VA: 0x1821CEF40 Slot: 10
 	public override long get_Length() { }
 
-	// RVA: 0x21CF150 Offset: 0x21CD750 VA: 0x1821CF150 Slot: 11
+	// RVA: 0x21CEF90 Offset: 0x21CD590 VA: 0x1821CEF90 Slot: 11
 	public override long get_Position() { }
 
-	// RVA: 0x21CF3C0 Offset: 0x21CD9C0 VA: 0x1821CF3C0 Slot: 12
+	// RVA: 0x21CF200 Offset: 0x21CD800 VA: 0x1821CF200 Slot: 12
 	public override void set_Position(long value) { }
 
-	// RVA: 0x21CE7C0 Offset: 0x21CCDC0 VA: 0x1821CE7C0 Slot: 27
+	// RVA: 0x21CE600 Offset: 0x21CCC00 VA: 0x1821CE600 Slot: 27
 	public override int Read(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x21CEA90 Offset: 0x21CD090 VA: 0x1821CEA90 Slot: 25
+	// RVA: 0x21CE8D0 Offset: 0x21CCED0 VA: 0x1821CE8D0 Slot: 25
 	public override long Seek(long offset, SeekOrigin origin) { }
 
-	// RVA: 0x21CEAE0 Offset: 0x21CD0E0 VA: 0x1821CEAE0 Slot: 26
+	// RVA: 0x21CE920 Offset: 0x21CCF20 VA: 0x1821CE920 Slot: 26
 	public override void SetLength(long value) { }
 
-	// RVA: 0x21CEC50 Offset: 0x21CD250 VA: 0x1821CEC50 Slot: 29
+	// RVA: 0x21CEA90 Offset: 0x21CD090 VA: 0x1821CEA90 Slot: 29
 	public override void Write(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x21CE2E0 Offset: 0x21CC8E0 VA: 0x1821CE2E0
+	// RVA: 0x21CE120 Offset: 0x21CC720 VA: 0x1821CE120
 	private int EmitHeader() { }
 
-	// RVA: 0x21CE0A0 Offset: 0x21CC6A0 VA: 0x1821CE0A0
+	// RVA: 0x21CDEE0 Offset: 0x21CC4E0 VA: 0x1821CDEE0
 	public static byte[] CompressBuffer(byte[] b) { }
 
-	// RVA: 0x21CEB30 Offset: 0x21CD130 VA: 0x1821CEB30
+	// RVA: 0x21CE970 Offset: 0x21CCF70 VA: 0x1821CE970
 	public static byte[] UncompressBuffer(byte[] compressed) { }
 
-	// RVA: 0x21CED60 Offset: 0x21CD360 VA: 0x1821CED60
+	// RVA: 0x21CEBA0 Offset: 0x21CD1A0 VA: 0x1821CEBA0
 	private static void .cctor() { }
 
 }

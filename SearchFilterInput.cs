@@ -3,7 +3,7 @@ public class SearchFilterInput : MonoBehaviour // TypeDefIndex: 9235
 	public GameObject OpenRoot; // 0x18
 	public GameObject ClosedRoot; // 0x20
 	public RustInput InputField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <CurrentSearchInput>k__BackingField; // 0x30
 	public Action<string> OnSearchFilterChanged; // 0x38
 
@@ -16,11 +16,11 @@ public class SearchFilterInput : MonoBehaviour // TypeDefIndex: 9235
 	// RVA: 0x4A6060 Offset: 0x4A4660 VA: 0x1804A6060
 	public bool get_IsOpen() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	public string get_CurrentSearchInput() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
 	private void set_CurrentSearchInput(string value) { }
 

@@ -1,6 +1,6 @@
 public class VisualiseTrigger : MonoBehaviour, IEditorComponent // TypeDefIndex: 11341
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Color colour; // 0x18
 
 	// Methods

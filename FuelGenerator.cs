@@ -28,20 +28,20 @@ public class FuelGenerator : ContainerIOEntity // TypeDefIndex: 8394
 	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	[BaseEntity.Menu] // RVA: 0xE0640 Offset: 0xDFA40 VA: 0x1800E0640
-	[BaseEntity.Menu.Description] // RVA: 0xE0640 Offset: 0xDFA40 VA: 0x1800E0640
-	[BaseEntity.Menu.Icon] // RVA: 0xE0640 Offset: 0xDFA40 VA: 0x1800E0640
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE0640 Offset: 0xDFA40 VA: 0x1800E0640
+	[BaseEntity.Menu] // RVA: 0xE06C0 Offset: 0xDFAC0 VA: 0x1800E06C0
+	[BaseEntity.Menu.Description] // RVA: 0xE06C0 Offset: 0xDFAC0 VA: 0x1800E06C0
+	[BaseEntity.Menu.Icon] // RVA: 0xE06C0 Offset: 0xDFAC0 VA: 0x1800E06C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE06C0 Offset: 0xDFAC0 VA: 0x1800E06C0
 	// RVA: 0x755E50 Offset: 0x754450 VA: 0x180755E50
 	public void Menu_TurnOn(BasePlayer player) { }
 
 	// RVA: 0x6FDC20 Offset: 0x6FC220 VA: 0x1806FDC20
 	public bool Menu_GeneratorOn_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE0A80 Offset: 0xDFE80 VA: 0x1800E0A80
-	[BaseEntity.Menu.Description] // RVA: 0xE0A80 Offset: 0xDFE80 VA: 0x1800E0A80
-	[BaseEntity.Menu.Icon] // RVA: 0xE0A80 Offset: 0xDFE80 VA: 0x1800E0A80
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE0A80 Offset: 0xDFE80 VA: 0x1800E0A80
+	[BaseEntity.Menu] // RVA: 0xE0B00 Offset: 0xDFF00 VA: 0x1800E0B00
+	[BaseEntity.Menu.Description] // RVA: 0xE0B00 Offset: 0xDFF00 VA: 0x1800E0B00
+	[BaseEntity.Menu.Icon] // RVA: 0xE0B00 Offset: 0xDFF00 VA: 0x1800E0B00
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE0B00 Offset: 0xDFF00 VA: 0x1800E0B00
 	// RVA: 0x755E00 Offset: 0x754400 VA: 0x180755E00
 	public void Menu_TurnOff(BasePlayer player) { }
 

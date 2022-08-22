@@ -39,9 +39,9 @@ public class DroppedItemContainer : BaseCombatEntity, LootPanel.IHasLootPanel, I
 	// RVA: 0xAB2400 Offset: 0xAB0A00 VA: 0x180AB2400 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0xDA190 Offset: 0xD9590 VA: 0x1800DA190
-	[BaseEntity.Menu.Description] // RVA: 0xDA190 Offset: 0xD9590 VA: 0x1800DA190
-	[BaseEntity.Menu.Icon] // RVA: 0xDA190 Offset: 0xD9590 VA: 0x1800DA190
+	[BaseEntity.Menu] // RVA: 0xDA1C0 Offset: 0xD95C0 VA: 0x1800DA1C0
+	[BaseEntity.Menu.Description] // RVA: 0xDA1C0 Offset: 0xD95C0 VA: 0x1800DA1C0
+	[BaseEntity.Menu.Icon] // RVA: 0xDA1C0 Offset: 0xD95C0 VA: 0x1800DA1C0
 	// RVA: 0xAB2480 Offset: 0xAB0A80 VA: 0x180AB2480
 	public void Menu_Open(BasePlayer player) { }
 

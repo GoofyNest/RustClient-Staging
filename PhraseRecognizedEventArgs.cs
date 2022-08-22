@@ -8,7 +8,7 @@ public struct PhraseRecognizedEventArgs // TypeDefIndex: 3606
 
 	// Methods
 
-	// RVA: 0x2356F0 Offset: 0x234AF0 VA: 0x1802356F0
+	// RVA: 0x235670 Offset: 0x234A70 VA: 0x180235670
 	internal void .ctor(string text, ConfidenceLevel confidence, SemanticMeaning[] semanticMeanings, DateTime phraseStartTime, TimeSpan phraseDuration) { }
 
 }

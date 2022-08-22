@@ -5,28 +5,28 @@ internal struct ElementWriter // TypeDefIndex: 5838
 
 	// Methods
 
-	// RVA: 0x237600 Offset: 0x236A00 VA: 0x180237600
+	// RVA: 0x237580 Offset: 0x236980 VA: 0x180237580
 	public void .ctor(XmlWriter writer) { }
 
-	// RVA: 0x237560 Offset: 0x236960 VA: 0x180237560
+	// RVA: 0x2374E0 Offset: 0x2368E0 VA: 0x1802374E0
 	public void WriteElement(XElement e) { }
 
-	// RVA: 0x237530 Offset: 0x236930 VA: 0x180237530
+	// RVA: 0x2374B0 Offset: 0x2368B0 VA: 0x1802374B0
 	private string GetPrefixOfNamespace(XNamespace ns, bool allowDefaultNamespace) { }
 
-	// RVA: 0x237540 Offset: 0x236940 VA: 0x180237540
+	// RVA: 0x2374C0 Offset: 0x2368C0 VA: 0x1802374C0
 	private void PushAncestors(XElement e) { }
 
-	// RVA: 0x237550 Offset: 0x236950 VA: 0x180237550
+	// RVA: 0x2374D0 Offset: 0x2368D0 VA: 0x1802374D0
 	private void PushElement(XElement e) { }
 
-	// RVA: 0x237570 Offset: 0x236970 VA: 0x180237570
+	// RVA: 0x2374F0 Offset: 0x2368F0 VA: 0x1802374F0
 	private void WriteEndElement() { }
 
-	// RVA: 0x2375B0 Offset: 0x2369B0 VA: 0x1802375B0
+	// RVA: 0x237530 Offset: 0x236930 VA: 0x180237530
 	private void WriteFullEndElement() { }
 
-	// RVA: 0x2375F0 Offset: 0x2369F0 VA: 0x1802375F0
+	// RVA: 0x237570 Offset: 0x236970 VA: 0x180237570
 	private void WriteStartElement(XElement e) { }
 
 }

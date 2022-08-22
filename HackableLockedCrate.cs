@@ -4,9 +4,9 @@ public class HackableLockedCrate : LootContainer // TypeDefIndex: 8396
 	public const BaseEntity.Flags Flag_Hacking = 128;
 	public const BaseEntity.Flags Flag_FullyHacked = 256;
 	public Text timerText; // 0x470
-	[ServerVar] // RVA: 0xE6510 Offset: 0xE5910 VA: 0x1800E6510
+	[ServerVar] // RVA: 0xE65D0 Offset: 0xE59D0 VA: 0x1800E65D0
 	public static float requiredHackSeconds; // 0x0
-	[ServerVar] // RVA: 0xE6600 Offset: 0xE5A00 VA: 0x1800E6600
+	[ServerVar] // RVA: 0xE66A0 Offset: 0xE5AA0 VA: 0x1800E66A0
 	public static float decaySeconds; // 0x4
 	public SoundPlayer hackProgressBeep; // 0x478
 	private float hackSeconds; // 0x480
@@ -39,7 +39,7 @@ public class HackableLockedCrate : LootContainer // TypeDefIndex: 8396
 	// RVA: 0x6D31A0 Offset: 0x6D17A0 VA: 0x1806D31A0 Slot: 31
 	public override void DestroyShared() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x733FB0 Offset: 0x7325B0 VA: 0x180733FB0
 	public void UpdateHackProgress(int totalSecondsComplete, int totalSecondsRequired) { }
 
@@ -52,10 +52,10 @@ public class HackableLockedCrate : LootContainer // TypeDefIndex: 8396
 	// RVA: 0x733F00 Offset: 0x732500 VA: 0x180733F00 Slot: 153
 	public override bool ShouldShowLootMenus() { }
 
-	[BaseEntity.Menu] // RVA: 0xE6870 Offset: 0xE5C70 VA: 0x1800E6870
-	[BaseEntity.Menu.Description] // RVA: 0xE6870 Offset: 0xE5C70 VA: 0x1800E6870
-	[BaseEntity.Menu.Icon] // RVA: 0xE6870 Offset: 0xE5C70 VA: 0x1800E6870
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE6870 Offset: 0xE5C70 VA: 0x1800E6870
+	[BaseEntity.Menu] // RVA: 0xE6910 Offset: 0xE5D10 VA: 0x1800E6910
+	[BaseEntity.Menu.Description] // RVA: 0xE6910 Offset: 0xE5D10 VA: 0x1800E6910
+	[BaseEntity.Menu.Icon] // RVA: 0xE6910 Offset: 0xE5D10 VA: 0x1800E6910
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE6910 Offset: 0xE5D10 VA: 0x1800E6910
 	// RVA: 0x7339F0 Offset: 0x731FF0 VA: 0x1807339F0
 	public void Menu_Hack(BasePlayer player) { }
 

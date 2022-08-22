@@ -12,13 +12,13 @@ public struct WaitForChangedResult // TypeDefIndex: 2858
 
 	// Methods
 
-	// RVA: 0xF38D0 Offset: 0xF2CD0 VA: 0x1800F38D0
+	// RVA: 0xF3850 Offset: 0xF2C50 VA: 0x1800F3850
 	public void set_ChangeType(WatcherChangeTypes value) { }
 
-	// RVA: 0xF1520 Offset: 0xF0920 VA: 0x1800F1520
+	// RVA: 0xF14A0 Offset: 0xF08A0 VA: 0x1800F14A0
 	public void set_Name(string value) { }
 
-	// RVA: 0xF14F0 Offset: 0xF08F0 VA: 0x1800F14F0
+	// RVA: 0xF1470 Offset: 0xF0870 VA: 0x1800F1470
 	public void set_OldName(string value) { }
 
 }

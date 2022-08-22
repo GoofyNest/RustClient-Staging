@@ -49,7 +49,7 @@ public struct MeshColliderLookup.LookupEntry // TypeDefIndex: 9160
 
 	// Methods
 
-	// RVA: 0xFA8E0 Offset: 0xF9CE0 VA: 0x1800FA8E0
+	// RVA: 0xFA860 Offset: 0xF9C60 VA: 0x1800FA860
 	public void .ctor(MeshColliderInstance instance) { }
 
 }

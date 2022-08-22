@@ -1,8 +1,8 @@
 public class RangeItemHeaderValue : ICloneable // TypeDefIndex: 5805
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<long> <From>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<long> <To>k__BackingField; // 0x20
 
 	// Properties
@@ -14,19 +14,19 @@ public class RangeItemHeaderValue : ICloneable // TypeDefIndex: 5805
 	// RVA: 0x1096400 Offset: 0x1094A00 VA: 0x181096400
 	public void .ctor(Nullable<long> from, Nullable<long> to) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xFE5D80 Offset: 0xFE4380 VA: 0x180FE5D80
 	public Nullable<long> get_From() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x10965A0 Offset: 0x1094BA0 VA: 0x1810965A0
 	private void set_From(Nullable<long> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD67340 Offset: 0xD65940 VA: 0x180D67340
 	public Nullable<long> get_To() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x10965B0 Offset: 0x1094BB0 VA: 0x1810965B0
 	private void set_To(Nullable<long> value) { }
 

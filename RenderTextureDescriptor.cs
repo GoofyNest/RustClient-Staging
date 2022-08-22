@@ -1,38 +1,38 @@
 public struct RenderTextureDescriptor // TypeDefIndex: 3451
 {	// Fields
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private int <width>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private int <height>k__BackingField; // 0x4
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private int <msaaSamples>k__BackingField; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private int <volumeDepth>k__BackingField; // 0xC
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private int <mipCount>k__BackingField; // 0x10
 	private GraphicsFormat _graphicsFormat; // 0x14
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private GraphicsFormat <stencilFormat>k__BackingField; // 0x18
 	private int _depthBufferBits; // 0x1C
 	private static int[] depthFormatBits; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private TextureDimension <dimension>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private ShadowSamplingMode <shadowSamplingMode>k__BackingField; // 0x24
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private VRTextureUsage <vrUsage>k__BackingField; // 0x28
 	private RenderTextureCreationFlags _flags; // 0x2C
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private RenderTextureMemoryless <memoryless>k__BackingField; // 0x30
 
 	// Properties
@@ -57,138 +57,138 @@ public struct RenderTextureDescriptor // TypeDefIndex: 3451
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF37A0 Offset: 0xF2BA0 VA: 0x1800F37A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3720 Offset: 0xF2B20 VA: 0x1800F3720
 	public int get_width() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF38D0 Offset: 0xF2CD0 VA: 0x1800F38D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3850 Offset: 0xF2C50 VA: 0x1800F3850
 	public void set_width(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x14B860 Offset: 0x14AC60 VA: 0x18014B860
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x14B7E0 Offset: 0x14ABE0 VA: 0x18014B7E0
 	public int get_height() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19DFE0 Offset: 0x19D3E0 VA: 0x18019DFE0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19DF60 Offset: 0x19D360 VA: 0x18019DF60
 	public void set_height(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x122E90 Offset: 0x122290 VA: 0x180122E90
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
 	public int get_msaaSamples() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x19DFD0 Offset: 0x19D3D0 VA: 0x18019DFD0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x19DF50 Offset: 0x19D350 VA: 0x18019DF50
 	public void set_msaaSamples(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1AE4B0 Offset: 0x1AD8B0 VA: 0x1801AE4B0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1AE430 Offset: 0x1AD830 VA: 0x1801AE430
 	public int get_volumeDepth() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2228F0 Offset: 0x221CF0 VA: 0x1802228F0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x222870 Offset: 0x221C70 VA: 0x180222870
 	public void set_volumeDepth(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1204E0 Offset: 0x11F8E0 VA: 0x1801204E0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x120460 Offset: 0x11F860 VA: 0x180120460
 	public void set_mipCount(int value) { }
 
-	// RVA: 0x212380 Offset: 0x211780 VA: 0x180212380
+	// RVA: 0x212300 Offset: 0x211700 VA: 0x180212300
 	public GraphicsFormat get_graphicsFormat() { }
 
-	// RVA: 0x222800 Offset: 0x221C00 VA: 0x180222800
+	// RVA: 0x222780 Offset: 0x221B80 VA: 0x180222780
 	public void set_graphicsFormat(GraphicsFormat value) { }
 
-	// RVA: 0x2226A0 Offset: 0x221AA0 VA: 0x1802226A0
+	// RVA: 0x222620 Offset: 0x221A20 VA: 0x180222620
 	public RenderTextureFormat get_colorFormat() { }
 
-	// RVA: 0x222710 Offset: 0x221B10 VA: 0x180222710
+	// RVA: 0x222690 Offset: 0x221A90 VA: 0x180222690
 	public void set_colorFormat(RenderTextureFormat value) { }
 
-	// RVA: 0x2226D0 Offset: 0x221AD0 VA: 0x1802226D0
+	// RVA: 0x222650 Offset: 0x221A50 VA: 0x180222650
 	public bool get_sRGB() { }
 
-	// RVA: 0x222840 Offset: 0x221C40 VA: 0x180222840
+	// RVA: 0x2227C0 Offset: 0x221BC0 VA: 0x1802227C0
 	public void set_sRGB(bool value) { }
 
-	// RVA: 0x2226B0 Offset: 0x221AB0 VA: 0x1802226B0
+	// RVA: 0x222630 Offset: 0x221A30 VA: 0x180222630
 	public int get_depthBufferBits() { }
 
-	// RVA: 0x2227C0 Offset: 0x221BC0 VA: 0x1802227C0
+	// RVA: 0x222740 Offset: 0x221B40 VA: 0x180222740
 	public void set_depthBufferBits(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x12C240 Offset: 0x12B640 VA: 0x18012C240
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x12C1C0 Offset: 0x12B5C0 VA: 0x18012C1C0
 	public TextureDimension get_dimension() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1EF140 Offset: 0x1EE540 VA: 0x1801EF140
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1EF0C0 Offset: 0x1EE4C0 VA: 0x1801EF0C0
 	public void set_dimension(TextureDimension value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1E4CA0 Offset: 0x1E40A0 VA: 0x1801E4CA0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1E4C20 Offset: 0x1E4020 VA: 0x1801E4C20
 	public ShadowSamplingMode get_shadowSamplingMode() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2228A0 Offset: 0x221CA0 VA: 0x1802228A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x222820 Offset: 0x221C20 VA: 0x180222820
 	public void set_shadowSamplingMode(ShadowSamplingMode value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3F50 Offset: 0xF3350 VA: 0x1800F3F50
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3ED0 Offset: 0xF32D0 VA: 0x1800F3ED0
 	public VRTextureUsage get_vrUsage() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3F80 Offset: 0xF3380 VA: 0x1800F3F80
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3F00 Offset: 0xF3300 VA: 0x1800F3F00
 	public void set_vrUsage(VRTextureUsage value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D10C0 Offset: 0x1D04C0 VA: 0x1801D10C0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D1040 Offset: 0x1D0440 VA: 0x1801D1040
 	public RenderTextureMemoryless get_memoryless() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x1D8720 Offset: 0x1D7B20 VA: 0x1801D8720
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x1D86A0 Offset: 0x1D7AA0 VA: 0x1801D86A0
 	public void set_memoryless(RenderTextureMemoryless value) { }
 
-	// RVA: 0x222560 Offset: 0x221960 VA: 0x180222560
+	// RVA: 0x2224E0 Offset: 0x2218E0 VA: 0x1802224E0
 	public void .ctor(int width, int height) { }
 
-	// RVA: 0x2224D0 Offset: 0x2218D0 VA: 0x1802224D0
+	// RVA: 0x222450 Offset: 0x221850 VA: 0x180222450
 	public void .ctor(int width, int height, RenderTextureFormat colorFormat, int depthBufferBits) { }
 
-	// RVA: 0x222680 Offset: 0x221A80 VA: 0x180222680
+	// RVA: 0x222600 Offset: 0x221A00 VA: 0x180222600
 	public void .ctor(int width, int height, GraphicsFormat colorFormat, int depthBufferBits) { }
 
-	// RVA: 0x2224C0 Offset: 0x2218C0 VA: 0x1802224C0
+	// RVA: 0x222440 Offset: 0x221840 VA: 0x180222440
 	public void .ctor(int width, int height, GraphicsFormat colorFormat, int depthBufferBits, int mipCount) { }
 
-	// RVA: 0x2224A0 Offset: 0x2218A0 VA: 0x1802224A0
+	// RVA: 0x222420 Offset: 0x221820 VA: 0x180222420
 	private void SetOrClearRenderTextureCreationFlag(bool value, RenderTextureCreationFlags flag) { }
 
-	// RVA: 0x2226E0 Offset: 0x221AE0 VA: 0x1802226E0
+	// RVA: 0x222660 Offset: 0x221A60 VA: 0x180222660
 	public bool get_useMipMap() { }
 
-	// RVA: 0x2228D0 Offset: 0x221CD0 VA: 0x1802228D0
+	// RVA: 0x222850 Offset: 0x221C50 VA: 0x180222850
 	public void set_useMipMap(bool value) { }
 
-	// RVA: 0x222690 Offset: 0x221A90 VA: 0x180222690
+	// RVA: 0x222610 Offset: 0x221A10 VA: 0x180222610
 	public bool get_autoGenerateMips() { }
 
-	// RVA: 0x2226F0 Offset: 0x221AF0 VA: 0x1802226F0
+	// RVA: 0x222670 Offset: 0x221A70 VA: 0x180222670
 	public void set_autoGenerateMips(bool value) { }
 
-	// RVA: 0x2226C0 Offset: 0x221AC0 VA: 0x1802226C0
+	// RVA: 0x222640 Offset: 0x221A40 VA: 0x180222640
 	public bool get_enableRandomWrite() { }
 
-	// RVA: 0x2227E0 Offset: 0x221BE0 VA: 0x1802227E0
+	// RVA: 0x222760 Offset: 0x221B60 VA: 0x180222760
 	public void set_enableRandomWrite(bool value) { }
 
-	// RVA: 0x2227A0 Offset: 0x221BA0 VA: 0x1802227A0
+	// RVA: 0x222720 Offset: 0x221B20 VA: 0x180222720
 	internal void set_createdFromScript(bool value) { }
 
-	// RVA: 0x2228B0 Offset: 0x221CB0 VA: 0x1802228B0
+	// RVA: 0x222830 Offset: 0x221C30 VA: 0x180222830
 	public void set_useDynamicScale(bool value) { }
 
-	// RVA: 0x19B0920 Offset: 0x19AEF20 VA: 0x1819B0920
+	// RVA: 0x19B08E0 Offset: 0x19AEEE0 VA: 0x1819B08E0
 	private static void .cctor() { }
 
 }

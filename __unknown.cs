@@ -1,15 +1,15 @@
 internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 {
 // Namespace: 
-[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 	// Fields
-	[DebuggerBrowsableAttribute] // RVA: 0x9E940 Offset: 0x9DD40 VA: 0x18009E940
+	[DebuggerBrowsableAttribute] // RVA: 0x9E9D0 Offset: 0x9DDD0 VA: 0x18009E9D0
 	private readonly <message>j__TPar <message>i__Field; // 0x0
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(<message>j__TPar message) { }
 	/* GenericInstMethod :
@@ -19,7 +19,7 @@ internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 	|-<>f__AnonymousType0<string>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object value) { }
 	/* GenericInstMethod :
@@ -28,7 +28,7 @@ internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 	|-<>f__AnonymousType0<object>.Equals
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
@@ -37,7 +37,7 @@ internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 	|-<>f__AnonymousType0<object>.GetHashCode
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
@@ -50,23 +50,23 @@ internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 
 internal class __Filters // TypeDefIndex: 143
 {	// Fields
-	internal static readonly __Filters Instance; // 0x2B11178
+	internal static readonly __Filters Instance; // 0x2B10198
 
 	// Methods
 
-	// RVA: 0x214C3F0 Offset: 0x214A9F0 VA: 0x18214C3F0 Slot: 4
+	// RVA: 0x214C230 Offset: 0x214A830 VA: 0x18214C230 Slot: 4
 	internal virtual bool FilterAttribute(MemberInfo m, object filterCriteria) { }
 
-	// RVA: 0x214C9E0 Offset: 0x214AFE0 VA: 0x18214C9E0 Slot: 5
+	// RVA: 0x214C820 Offset: 0x214AE20 VA: 0x18214C820 Slot: 5
 	internal virtual bool FilterName(MemberInfo m, object filterCriteria) { }
 
-	// RVA: 0x214C820 Offset: 0x214AE20 VA: 0x18214C820 Slot: 6
+	// RVA: 0x214C660 Offset: 0x214AC60 VA: 0x18214C660 Slot: 6
 	internal virtual bool FilterIgnoreCase(MemberInfo m, object filterCriteria) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x214CB90 Offset: 0x214B190 VA: 0x18214CB90
+	// RVA: 0x214C9D0 Offset: 0x214AFD0 VA: 0x18214C9D0
 	private static void .cctor() { }
 
 }
@@ -110,41 +110,41 @@ public sealed class Func<TResult> : MulticastDelegate // TypeDefIndex: 155
 	public virtual TResult Invoke() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B88C00 Offset: 0x1B87200 VA: 0x181B88C00
+	|-RVA: 0x1B88A40 Offset: 0x1B87040 VA: 0x181B88A40
 	|-Func<JsonSerializerSettings>.Invoke
 	|-Func<IReferenceResolver>.Invoke
 	|-Func<string>.Invoke
 	|-Func<object>.Invoke
 	|
-	|-RVA: 0x1B89600 Offset: 0x1B87C00 VA: 0x181B89600
+	|-RVA: 0x1B89440 Offset: 0x1B87A40 VA: 0x181B89440
 	|-Func<bool>.Invoke
 	|-Func<byte>.Invoke
 	|-Func<VoidTaskResult>.Invoke
 	|
-	|-RVA: 0x1B89390 Offset: 0x1B87990 VA: 0x181B89390
+	|-RVA: 0x1B891D0 Offset: 0x1B877D0 VA: 0x181B891D0
 	|-Func<int>.Invoke
 	|
-	|-RVA: 0x1B890E0 Offset: 0x1B876E0 VA: 0x181B890E0
+	|-RVA: 0x1B88F20 Offset: 0x1B87520 VA: 0x181B88F20
 	|-Func<PublishResult>.Invoke
 	|-Func<Nullable<Image>>.Invoke
 	|
 	|-RVA: 0x1220AC0 Offset: 0x121F0C0 VA: 0x181220AC0
 	|-Func<UdpReceiveResult>.Invoke
 	|
-	|-RVA: 0x1B89E00 Offset: 0x1B88400 VA: 0x181B89E00
+	|-RVA: 0x1B89C40 Offset: 0x1B88240 VA: 0x181B89C40
 	|-Func<Nullable<ServerInfo>>.Invoke
 	|
-	|-RVA: 0x1B88950 Offset: 0x1B86F50 VA: 0x181B88950
+	|-RVA: 0x1B88790 Offset: 0x1B86D90 VA: 0x181B88790
 	|-Func<Nullable<InventoryPurchaseResult>>.Invoke
 	|-Func<Nullable<ResultPage>>.Invoke
 	|
-	|-RVA: 0x198A790 Offset: 0x1988D90 VA: 0x18198A790
+	|-RVA: 0x198A750 Offset: 0x1988D50 VA: 0x18198A750
 	|-Func<Nullable<InventoryResult>>.Invoke
 	|
-	|-RVA: 0x1B89870 Offset: 0x1B87E70 VA: 0x181B89870
+	|-RVA: 0x1B896B0 Offset: 0x1B87CB0 VA: 0x181B896B0
 	|-Func<Nullable<Item>>.Invoke
 	|
-	|-RVA: 0x1B88E70 Offset: 0x1B87470 VA: 0x181B88E70
+	|-RVA: 0x1B88CB0 Offset: 0x1B872B0 VA: 0x181B88CB0
 	|-Func<Nullable<int>>.Invoke
 	|-Func<Nullable<Int32Enum>>.Invoke
 	*/
@@ -175,7 +175,7 @@ public sealed class Func<TResult> : MulticastDelegate // TypeDefIndex: 155
 	public virtual TResult EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19F91A0 Offset: 0x19F77A0 VA: 0x1819F91A0
+	|-RVA: 0x19F9160 Offset: 0x19F7760 VA: 0x1819F9160
 	|-Func<PublishResult>.EndInvoke
 	|-Func<Nullable<Image>>.EndInvoke
 	|
@@ -190,17 +190,17 @@ public sealed class Func<TResult> : MulticastDelegate // TypeDefIndex: 155
 	|-RVA: 0x1220A80 Offset: 0x121F080 VA: 0x181220A80
 	|-Func<UdpReceiveResult>.EndInvoke
 	|
-	|-RVA: 0x19F9010 Offset: 0x19F7610 VA: 0x1819F9010
+	|-RVA: 0x19F8FD0 Offset: 0x19F75D0 VA: 0x1819F8FD0
 	|-Func<Nullable<ServerInfo>>.EndInvoke
 	|
-	|-RVA: 0x19F9080 Offset: 0x19F7680 VA: 0x1819F9080
+	|-RVA: 0x19F9040 Offset: 0x19F7640 VA: 0x1819F9040
 	|-Func<Nullable<InventoryPurchaseResult>>.EndInvoke
 	|-Func<Nullable<ResultPage>>.EndInvoke
 	|
-	|-RVA: 0x198A750 Offset: 0x1988D50 VA: 0x18198A750
+	|-RVA: 0x198A710 Offset: 0x1988D10 VA: 0x18198A710
 	|-Func<Nullable<InventoryResult>>.EndInvoke
 	|
-	|-RVA: 0x19F90F0 Offset: 0x19F76F0 VA: 0x1819F90F0
+	|-RVA: 0x19F90B0 Offset: 0x19F76B0 VA: 0x1819F90B0
 	|-Func<Nullable<Item>>.EndInvoke
 	|
 	|-RVA: 0x12213D0 Offset: 0x121F9D0 VA: 0x1812213D0
@@ -762,7 +762,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<InventoryItem, SevenBitNumber>.Invoke
 	|-Func<InventoryItem, bool>.Invoke
 	|
-	|-RVA: 0x1B15A40 Offset: 0x1B14040 VA: 0x181B15A40
+	|-RVA: 0x1B15880 Offset: 0x1B13E80 VA: 0x181B15880
 	|-Func<ArraySegment<byte>, WebSocketHttpRequest>.Invoke
 	|-Func<ImageStorageEntity.ImageRequest, object>.Invoke
 	|-Func<DefaultSerializationBinder.TypeNameKey, object>.Invoke
@@ -778,22 +778,22 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<KeyValuePair<uint, object>, object>.Invoke
 	|-Func<Guid, object>.Invoke
 	|
-	|-RVA: 0x19FDF10 Offset: 0x19FC510 VA: 0x1819FDF10
+	|-RVA: 0x19FDED0 Offset: 0x19FC4D0 VA: 0x1819FDED0
 	|-Func<Exception, bool>.Invoke
 	|-Func<SimpleAsyncResult, bool>.Invoke
 	|-Func<string, bool>.Invoke
 	|-Func<object, bool>.Invoke
 	|
-	|-RVA: 0x212B9C0 Offset: 0x2129FC0 VA: 0x18212B9C0
+	|-RVA: 0x212B800 Offset: 0x2129E00 VA: 0x18212B800
 	|-Func<int, int>.Invoke
 	|-Func<Int32Enum, int>.Invoke
 	|-Func<Int32Enum, Int32Enum>.Invoke
 	|
-	|-RVA: 0x212FEE0 Offset: 0x212E4E0 VA: 0x18212FEE0
+	|-RVA: 0x212FD20 Offset: 0x212E320 VA: 0x18212FD20
 	|-Func<int, float>.Invoke
 	|-Func<Int32Enum, float>.Invoke
 	|
-	|-RVA: 0x19FB240 Offset: 0x19F9840 VA: 0x1819FB240
+	|-RVA: 0x19FB200 Offset: 0x19F9800 VA: 0x1819FB200
 	|-Func<object, string>.Invoke
 	|-Func<object[], JsonConverter>.Invoke
 	|-Func<string, string>.Invoke
@@ -801,30 +801,30 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, object>.Invoke
 	|-Func<AssemblyName, Assembly>.Invoke
 	|
-	|-RVA: 0x18A4B00 Offset: 0x18A3100 VA: 0x1818A4B00
+	|-RVA: 0x18A4AC0 Offset: 0x18A30C0 VA: 0x1818A4AC0
 	|-Func<ulong, bool>.Invoke
 	|-Func<long, bool>.Invoke
 	|
-	|-RVA: 0x19FC0C0 Offset: 0x19FA6C0 VA: 0x1819FC0C0
+	|-RVA: 0x19FC080 Offset: 0x19FA680 VA: 0x1819FC080
 	|-Func<ILayoutElement, float>.Invoke
 	|-Func<object, float>.Invoke
 	|
-	|-RVA: 0x18A4610 Offset: 0x18A2C10 VA: 0x1818A4610
+	|-RVA: 0x18A45D0 Offset: 0x18A2BD0 VA: 0x1818A45D0
 	|-Func<NativeInputUpdateType, bool>.Invoke
 	|-Func<int, bool>.Invoke
 	|-Func<Int32Enum, bool>.Invoke
 	|
-	|-RVA: 0x1B95FE0 Offset: 0x1B945E0 VA: 0x181B95FE0
+	|-RVA: 0x1B95E20 Offset: 0x1B94420 VA: 0x181B95E20
 	|-Func<Admin.PlayerInfo, object>.Invoke
 	|
-	|-RVA: 0x1B94EC0 Offset: 0x1B934C0 VA: 0x181B94EC0
+	|-RVA: 0x1B94D00 Offset: 0x1B93300 VA: 0x181B94D00
 	|-Func<Admin.ServerConvarInfo, object>.Invoke
 	|-Func<InventoryRecipe, object>.Invoke
 	|-Func<InventoryRecipe.Ingredient, long>.Invoke
 	|-Func<InventoryRecipe.Ingredient, object>.Invoke
 	|-Func<KeyValuePair<ulong, Dispatch.ResultCallback>, ulong>.Invoke
 	|
-	|-RVA: 0x1B8DDA0 Offset: 0x1B8C3A0 VA: 0x181B8DDA0
+	|-RVA: 0x1B8DBE0 Offset: 0x1B8C1E0 VA: 0x181B8DBE0
 	|-Func<Debugging.EntityInfo, Debugging.EntityInfo>.Invoke
 	|-Func<PlayerItemRecipe, Debugging.EntityInfo>.Invoke
 	|-Func<PlayerItemRecipe, PlayerItemRecipe>.Invoke
@@ -847,13 +847,13 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<KeyValuePair<object, object>, bool>.Invoke
 	|-Func<KeyValuePair<uint, object>, bool>.Invoke
 	|
-	|-RVA: 0x1B92850 Offset: 0x1B90E50 VA: 0x181B92850
+	|-RVA: 0x1B92690 Offset: 0x1B90C90 VA: 0x181B92690
 	|-Func<Demos.DemoInfo, DateTime>.Invoke
 	|-Func<Demos.DemoInfo, TimeSpan>.Invoke
 	|-Func<InventoryItem, PathFinder.Point>.Invoke
 	|-Func<InventoryItem, InventoryItemId>.Invoke
 	|
-	|-RVA: 0x1B8EC60 Offset: 0x1B8D260 VA: 0x181B8EC60
+	|-RVA: 0x1B8EAA0 Offset: 0x1B8D0A0 VA: 0x181B8EAA0
 	|-Func<Demos.DemoInfo, object>.Invoke
 	|-Func<SkinnedMultiMesh.Part, long>.Invoke
 	|-Func<InventoryItem, long>.Invoke
@@ -871,27 +871,27 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<InventoryItemId, bool>.Invoke
 	|-Func<Friend, bool>.Invoke
 	|
-	|-RVA: 0x1B18B10 Offset: 0x1B17110 VA: 0x181B18B10
+	|-RVA: 0x1B18950 Offset: 0x1B16F50 VA: 0x181B18950
 	|-Func<BurstCloth.Chain, int>.Invoke
 	|-Func<PlayerItemRecipe.Ingredient, int>.Invoke
 	|
-	|-RVA: 0x1B93D50 Offset: 0x1B92350 VA: 0x181B93D50
+	|-RVA: 0x1B93B90 Offset: 0x1B92190 VA: 0x181B93B90
 	|-Func<SkeletonDefinition.Bone, Debugging.EntityInfo>.Invoke
 	|-Func<SkeletonDefinition.Bone, KeyValuePair<object, int>>.Invoke
 	|
-	|-RVA: 0x1B96F10 Offset: 0x1B95510 VA: 0x181B96F10
+	|-RVA: 0x1B96D50 Offset: 0x1B95350 VA: 0x181B96D50
 	|-Func<SkeletonDefinition.Bone, PathFinder.Point>.Invoke
 	|-Func<InventoryItem.Amount, InventoryItemId>.Invoke
 	|
-	|-RVA: 0x1B941F0 Offset: 0x1B927F0 VA: 0x181B941F0
+	|-RVA: 0x1B94030 Offset: 0x1B92630 VA: 0x181B94030
 	|-Func<SkeletonDefinition.Bone, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<SkeletonDefinition.Bone, Resolution>.Invoke
 	|
-	|-RVA: 0x1B8D510 Offset: 0x1B8BB10 VA: 0x181B8D510
+	|-RVA: 0x1B8D350 Offset: 0x1B8B950 VA: 0x181B8D350
 	|-Func<SkeletonDefinition.Bone, Option>.Invoke
 	|-Func<SkeletonDefinition.Bone, InventoryItem>.Invoke
 	|
-	|-RVA: 0x1B93590 Offset: 0x1B91B90 VA: 0x181B93590
+	|-RVA: 0x1B933D0 Offset: 0x1B919D0 VA: 0x181B933D0
 	|-Func<SkeletonDefinition.Bone, InventoryRecipe.Ingredient>.Invoke
 	|-Func<SkeletonDefinition.Bone, InventoryRecipe>.Invoke
 	|
@@ -899,33 +899,33 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<SkeletonDefinition.Bone, bool>.Invoke
 	|-Func<InventoryItem.Amount, bool>.Invoke
 	|
-	|-RVA: 0x1B93A20 Offset: 0x1B92020 VA: 0x181B93A20
+	|-RVA: 0x1B93860 Offset: 0x1B91E60 VA: 0x181B93860
 	|-Func<SkeletonDefinition.Bone, int>.Invoke
 	|-Func<SkeletonDefinition.Bone, Int32Enum>.Invoke
 	|
-	|-RVA: 0x1B8E120 Offset: 0x1B8C720 VA: 0x181B8E120
+	|-RVA: 0x1B8DF60 Offset: 0x1B8C560 VA: 0x181B8DF60
 	|-Func<SkeletonDefinition.Bone, long>.Invoke
 	|-Func<SkeletonDefinition.Bone, object>.Invoke
 	|
-	|-RVA: 0x1B8D990 Offset: 0x1B8BF90 VA: 0x181B8D990
+	|-RVA: 0x1B8D7D0 Offset: 0x1B8BDD0 VA: 0x181B8D7D0
 	|-Func<SkeletonDefinition.Bone, float>.Invoke
 	|
-	|-RVA: 0x1B91E10 Offset: 0x1B90410 VA: 0x181B91E10
+	|-RVA: 0x1B91C50 Offset: 0x1B90250 VA: 0x181B91C50
 	|-Func<WeightedStringList.Container, float>.Invoke
 	|-Func<PlayerItemRecipe, float>.Invoke
 	|-Func<KeyValuePair<object, object>, float>.Invoke
 	|-Func<KeyValuePair<uint, object>, float>.Invoke
 	|
-	|-RVA: 0x18A8110 Offset: 0x18A6710 VA: 0x1818A8110
+	|-RVA: 0x18A80D0 Offset: 0x18A66D0 VA: 0x1818A80D0
 	|-Func<FourBitNumber, FourBitNumber>.Invoke
 	|-Func<FourBitNumber, bool>.Invoke
 	|-Func<SevenBitNumber, SevenBitNumber>.Invoke
 	|-Func<SevenBitNumber, bool>.Invoke
 	|
-	|-RVA: 0x1B95970 Offset: 0x1B93F70 VA: 0x181B95970
+	|-RVA: 0x1B957B0 Offset: 0x1B93DB0 VA: 0x181B957B0
 	|-Func<SevenBitNumber, object>.Invoke
 	|
-	|-RVA: 0x1B94BC0 Offset: 0x1B931C0 VA: 0x181B94BC0
+	|-RVA: 0x1B94A00 Offset: 0x1B93000 VA: 0x181B94A00
 	|-Func<PathFinder.Point, PathFinder.Point>.Invoke
 	|-Func<PlayerItemRecipe.Ingredient, PlayerItemRecipe.Ingredient>.Invoke
 	|-Func<Achievement, PathFinder.Point>.Invoke
@@ -935,12 +935,12 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-RVA: 0x16D4470 Offset: 0x16D2A70 VA: 0x1816D4470
 	|-Func<PetCommandList.PetCommandDesc, bool>.Invoke
 	|
-	|-RVA: 0x1B8F8E0 Offset: 0x1B8DEE0 VA: 0x181B8F8E0
+	|-RVA: 0x1B8F720 Offset: 0x1B8DD20 VA: 0x181B8F720
 	|-Func<PlayerItemRecipe, PathFinder.Point>.Invoke
 	|-Func<KeyValuePair<object, object>, PathFinder.Point>.Invoke
 	|-Func<KeyValuePair<uint, object>, PathFinder.Point>.Invoke
 	|
-	|-RVA: 0x1B90CC0 Offset: 0x1B8F2C0 VA: 0x181B90CC0
+	|-RVA: 0x1B90B00 Offset: 0x1B8F100 VA: 0x181B90B00
 	|-Func<PlayerItemRecipe, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<PlayerItemRecipe, Resolution>.Invoke
 	|-Func<KeyValuePair<object, object>, ProjectileWeaponMod.Modifier>.Invoke
@@ -948,7 +948,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<KeyValuePair<uint, object>, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<KeyValuePair<uint, object>, Resolution>.Invoke
 	|
-	|-RVA: 0x1B90640 Offset: 0x1B8EC40 VA: 0x181B90640
+	|-RVA: 0x1B90480 Offset: 0x1B8EA80 VA: 0x181B90480
 	|-Func<PlayerItemRecipe, Option>.Invoke
 	|-Func<PlayerItemRecipe, InventoryItem>.Invoke
 	|-Func<KeyValuePair<object, object>, Option>.Invoke
@@ -956,7 +956,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<KeyValuePair<uint, object>, Option>.Invoke
 	|-Func<KeyValuePair<uint, object>, InventoryItem>.Invoke
 	|
-	|-RVA: 0x1B90980 Offset: 0x1B8EF80 VA: 0x181B90980
+	|-RVA: 0x1B907C0 Offset: 0x1B8EDC0 VA: 0x181B907C0
 	|-Func<PlayerItemRecipe, InventoryRecipe.Ingredient>.Invoke
 	|-Func<PlayerItemRecipe, InventoryRecipe>.Invoke
 	|-Func<KeyValuePair<object, object>, InventoryRecipe.Ingredient>.Invoke
@@ -964,7 +964,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<KeyValuePair<uint, object>, InventoryRecipe.Ingredient>.Invoke
 	|-Func<KeyValuePair<uint, object>, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x1B932D0 Offset: 0x1B918D0 VA: 0x181B932D0
+	|-RVA: 0x1B93110 Offset: 0x1B91710 VA: 0x181B93110
 	|-Func<PlayerItemRecipe, int>.Invoke
 	|-Func<PlayerItemRecipe, Int32Enum>.Invoke
 	|-Func<KeyValuePair<object, object>, int>.Invoke
@@ -972,7 +972,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<KeyValuePair<uint, object>, int>.Invoke
 	|-Func<KeyValuePair<uint, object>, Int32Enum>.Invoke
 	|
-	|-RVA: 0x19FB9F0 Offset: 0x19F9FF0 VA: 0x1819FB9F0
+	|-RVA: 0x19FB9B0 Offset: 0x19F9FB0 VA: 0x1819FB9B0
 	|-Func<ProjectileWeaponMod.Modifier, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<Resolution, Resolution>.Invoke
 	|
@@ -980,165 +980,165 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<ProjectileWeaponMod.Modifier, bool>.Invoke
 	|-Func<Resolution, bool>.Invoke
 	|
-	|-RVA: 0x1B955C0 Offset: 0x1B93BC0 VA: 0x181B955C0
+	|-RVA: 0x1B95400 Offset: 0x1B93A00 VA: 0x181B95400
 	|-Func<ProjectileWeaponMod.Modifier, float>.Invoke
 	|
-	|-RVA: 0x1B96490 Offset: 0x1B94A90 VA: 0x181B96490
+	|-RVA: 0x1B962D0 Offset: 0x1B948D0 VA: 0x181B962D0
 	|-Func<Option, Option>.Invoke
 	|-Func<InventoryItem, Option>.Invoke
 	|-Func<InventoryItem, InventoryItem>.Invoke
 	|
-	|-RVA: 0x1B92150 Offset: 0x1B90750 VA: 0x181B92150
+	|-RVA: 0x1B91F90 Offset: 0x1B90590 VA: 0x181B91F90
 	|-Func<ServerInfo, Debugging.EntityInfo>.Invoke
 	|-Func<ServerInfo, KeyValuePair<object, int>>.Invoke
 	|
-	|-RVA: 0x18A3F50 Offset: 0x18A2550 VA: 0x1818A3F50
+	|-RVA: 0x18A3F10 Offset: 0x18A2510 VA: 0x1818A3F10
 	|-Func<ServerInfo, FourBitNumber>.Invoke
 	|-Func<ServerInfo, SevenBitNumber>.Invoke
 	|-Func<ServerInfo, bool>.Invoke
 	|-Func<ServerInfo, bool>.Invoke
 	|
-	|-RVA: 0x1B92C20 Offset: 0x1B91220 VA: 0x181B92C20
+	|-RVA: 0x1B92A60 Offset: 0x1B91060 VA: 0x181B92A60
 	|-Func<ServerInfo, PathFinder.Point>.Invoke
 	|
-	|-RVA: 0x1B91040 Offset: 0x1B8F640 VA: 0x181B91040
+	|-RVA: 0x1B90E80 Offset: 0x1B8F480 VA: 0x181B90E80
 	|-Func<ServerInfo, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<ServerInfo, Resolution>.Invoke
 	|
-	|-RVA: 0x1B8E570 Offset: 0x1B8CB70 VA: 0x181B8E570
+	|-RVA: 0x1B8E3B0 Offset: 0x1B8C9B0 VA: 0x181B8E3B0
 	|-Func<ServerInfo, Option>.Invoke
 	|-Func<ServerInfo, InventoryItem>.Invoke
 	|
-	|-RVA: 0x1B8FF50 Offset: 0x1B8E550 VA: 0x181B8FF50
+	|-RVA: 0x1B8FD90 Offset: 0x1B8E390 VA: 0x181B8FD90
 	|-Func<ServerInfo, InventoryRecipe.Ingredient>.Invoke
 	|-Func<ServerInfo, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x1B94690 Offset: 0x1B92C90 VA: 0x181B94690
+	|-RVA: 0x1B944D0 Offset: 0x1B92AD0 VA: 0x181B944D0
 	|-Func<ServerInfo, int>.Invoke
 	|-Func<ServerInfo, Int32Enum>.Invoke
 	|
-	|-RVA: 0x1B8F020 Offset: 0x1B8D620 VA: 0x181B8F020
+	|-RVA: 0x1B8EE60 Offset: 0x1B8D460 VA: 0x181B8EE60
 	|-Func<ServerInfo, long>.Invoke
 	|-Func<ServerInfo, object>.Invoke
 	|-Func<ServerInfo, object>.Invoke
 	|
-	|-RVA: 0x1B97350 Offset: 0x1B95950 VA: 0x181B97350
+	|-RVA: 0x1B97190 Offset: 0x1B95790 VA: 0x181B97190
 	|-Func<ServerInfo, float>.Invoke
 	|
-	|-RVA: 0x1B91750 Offset: 0x1B8FD50 VA: 0x181B91750
+	|-RVA: 0x1B91590 Offset: 0x1B8FB90 VA: 0x181B91590
 	|-Func<ServerInfo, uint>.Invoke
 	|-Func<ServerInfo, int>.Invoke
 	|
-	|-RVA: 0x1B968A0 Offset: 0x1B94EA0 VA: 0x181B968A0
+	|-RVA: 0x1B966E0 Offset: 0x1B94CE0 VA: 0x181B966E0
 	|-Func<Achievement, Debugging.EntityInfo>.Invoke
 	|-Func<Achievement, KeyValuePair<object, int>>.Invoke
 	|-Func<Friend, Debugging.EntityInfo>.Invoke
 	|-Func<Friend, KeyValuePair<object, int>>.Invoke
 	|
-	|-RVA: 0x1B95C70 Offset: 0x1B94270 VA: 0x181B95C70
+	|-RVA: 0x1B95AB0 Offset: 0x1B940B0 VA: 0x181B95AB0
 	|-Func<Achievement, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<Achievement, Resolution>.Invoke
 	|-Func<Friend, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<Friend, Resolution>.Invoke
 	|
-	|-RVA: 0x1B8FC20 Offset: 0x1B8E220 VA: 0x181B8FC20
+	|-RVA: 0x1B8FA60 Offset: 0x1B8E060 VA: 0x181B8FA60
 	|-Func<Achievement, Option>.Invoke
 	|-Func<Achievement, InventoryItem>.Invoke
 	|-Func<Friend, Option>.Invoke
 	|-Func<Friend, InventoryItem>.Invoke
 	|
-	|-RVA: 0x1B95290 Offset: 0x1B93890 VA: 0x181B95290
+	|-RVA: 0x1B950D0 Offset: 0x1B936D0 VA: 0x181B950D0
 	|-Func<Achievement, InventoryRecipe.Ingredient>.Invoke
 	|-Func<Achievement, InventoryRecipe>.Invoke
 	|-Func<Friend, InventoryRecipe.Ingredient>.Invoke
 	|-Func<Friend, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x1B8F6E0 Offset: 0x1B8DCE0 VA: 0x181B8F6E0
+	|-RVA: 0x1B8F520 Offset: 0x1B8DB20 VA: 0x181B8F520
 	|-Func<Achievement, int>.Invoke
 	|-Func<Achievement, Int32Enum>.Invoke
 	|-Func<Friend, int>.Invoke
 	|-Func<Friend, Int32Enum>.Invoke
 	|
-	|-RVA: 0x19FD190 Offset: 0x19FB790 VA: 0x1819FD190
+	|-RVA: 0x19FD150 Offset: 0x19FB750 VA: 0x1819FD150
 	|-Func<Achievement, long>.Invoke
 	|-Func<Achievement, object>.Invoke
 	|-Func<Friend, long>.Invoke
 	|-Func<Friend, object>.Invoke
 	|-Func<ValueTuple<Int32Enum, int>, object>.Invoke
 	|
-	|-RVA: 0x1B96C10 Offset: 0x1B95210 VA: 0x181B96C10
+	|-RVA: 0x1B96A50 Offset: 0x1B95050 VA: 0x181B96A50
 	|-Func<Achievement, float>.Invoke
 	|-Func<Friend, float>.Invoke
 	|
-	|-RVA: 0x212E650 Offset: 0x212CC50 VA: 0x18212E650
+	|-RVA: 0x212E490 Offset: 0x212CA90 VA: 0x18212E490
 	|-Func<InventoryDefId, Debugging.EntityInfo>.Invoke
 	|-Func<InventoryDefId, KeyValuePair<object, int>>.Invoke
 	|
-	|-RVA: 0x212CA70 Offset: 0x212B070 VA: 0x18212CA70
+	|-RVA: 0x212C8B0 Offset: 0x212AEB0 VA: 0x18212C8B0
 	|-Func<InventoryDefId, PathFinder.Point>.Invoke
 	|
-	|-RVA: 0x212BBC0 Offset: 0x212A1C0 VA: 0x18212BBC0
+	|-RVA: 0x212BA00 Offset: 0x212A000 VA: 0x18212BA00
 	|-Func<InventoryDefId, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<InventoryDefId, Resolution>.Invoke
 	|
-	|-RVA: 0x212FBB0 Offset: 0x212E1B0 VA: 0x18212FBB0
+	|-RVA: 0x212F9F0 Offset: 0x212DFF0 VA: 0x18212F9F0
 	|-Func<InventoryDefId, Option>.Invoke
 	|-Func<InventoryDefId, InventoryItem>.Invoke
 	|
-	|-RVA: 0x212D410 Offset: 0x212BA10 VA: 0x18212D410
+	|-RVA: 0x212D250 Offset: 0x212B850 VA: 0x18212D250
 	|-Func<InventoryDefId, InventoryRecipe.Ingredient>.Invoke
 	|-Func<InventoryDefId, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x18A69E0 Offset: 0x18A4FE0 VA: 0x1818A69E0
+	|-RVA: 0x18A69A0 Offset: 0x18A4FA0 VA: 0x1818A69A0
 	|-Func<InventoryDefId, bool>.Invoke
 	|
-	|-RVA: 0x2130800 Offset: 0x212EE00 VA: 0x182130800
+	|-RVA: 0x2130640 Offset: 0x212EC40 VA: 0x182130640
 	|-Func<InventoryDefId, int>.Invoke
 	|-Func<InventoryDefId, Int32Enum>.Invoke
 	|
-	|-RVA: 0x212F500 Offset: 0x212DB00 VA: 0x18212F500
+	|-RVA: 0x212F340 Offset: 0x212D940 VA: 0x18212F340
 	|-Func<InventoryDefId, long>.Invoke
 	|-Func<InventoryDefId, object>.Invoke
 	|
-	|-RVA: 0x2132A80 Offset: 0x2131080 VA: 0x182132A80
+	|-RVA: 0x21328C0 Offset: 0x2130EC0 VA: 0x1821328C0
 	|-Func<InventoryDefId, float>.Invoke
 	|
-	|-RVA: 0x212BF30 Offset: 0x212A530 VA: 0x18212BF30
+	|-RVA: 0x212BD70 Offset: 0x212A370 VA: 0x18212BD70
 	|-Func<ServerInfo, ServerInfo>.Invoke
 	|
-	|-RVA: 0x2131C10 Offset: 0x2130210 VA: 0x182131C10
+	|-RVA: 0x2131A50 Offset: 0x2130050 VA: 0x182131A50
 	|-Func<InventoryItem, Debugging.EntityInfo>.Invoke
 	|-Func<InventoryItem, KeyValuePair<object, int>>.Invoke
 	|
-	|-RVA: 0x212E240 Offset: 0x212C840 VA: 0x18212E240
+	|-RVA: 0x212E080 Offset: 0x212C680 VA: 0x18212E080
 	|-Func<InventoryItem, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<InventoryItem, Resolution>.Invoke
 	|
-	|-RVA: 0x212F7F0 Offset: 0x212DDF0 VA: 0x18212F7F0
+	|-RVA: 0x212F630 Offset: 0x212DC30 VA: 0x18212F630
 	|-Func<InventoryItem, InventoryDefId>.Invoke
 	|-Func<InventoryItem, uint>.Invoke
 	|
-	|-RVA: 0x212DAE0 Offset: 0x212C0E0 VA: 0x18212DAE0
+	|-RVA: 0x212D920 Offset: 0x212BF20 VA: 0x18212D920
 	|-Func<InventoryItem, InventoryRecipe.Ingredient>.Invoke
 	|-Func<InventoryItem, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x212D0E0 Offset: 0x212B6E0 VA: 0x18212D0E0
+	|-RVA: 0x212CF20 Offset: 0x212B520 VA: 0x18212CF20
 	|-Func<InventoryItem, int>.Invoke
 	|-Func<InventoryItem, Int32Enum>.Invoke
 	|
-	|-RVA: 0x212D740 Offset: 0x212BD40 VA: 0x18212D740
+	|-RVA: 0x212D580 Offset: 0x212BB80 VA: 0x18212D580
 	|-Func<InventoryItem, float>.Invoke
 	|
-	|-RVA: 0x2132630 Offset: 0x2130C30 VA: 0x182132630
+	|-RVA: 0x2132470 Offset: 0x2130A70 VA: 0x182132470
 	|-Func<InventoryItem.Amount, uint>.Invoke
 	|
-	|-RVA: 0x212B5C0 Offset: 0x2129BC0 VA: 0x18212B5C0
+	|-RVA: 0x212B400 Offset: 0x2129A00 VA: 0x18212B400
 	|-Func<InventoryRecipe, PlayerItemRecipe>.Invoke
 	|-Func<InventoryRecipe.Ingredient, Debugging.EntityInfo>.Invoke
 	|-Func<InventoryRecipe.Ingredient, KeyValuePair<object, int>>.Invoke
 	|-Func<KeyValuePair<ulong, Dispatch.ResultCallback>, Dispatch.ResultCallback>.Invoke
 	|
-	|-RVA: 0x212C670 Offset: 0x212AC70 VA: 0x18212C670
+	|-RVA: 0x212C4B0 Offset: 0x212AAB0 VA: 0x18212C4B0
 	|-Func<InventoryRecipe, InventoryRecipe>.Invoke
 	|-Func<InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.Invoke
 	|-Func<InventoryRecipe.Ingredient, InventoryRecipe>.Invoke
@@ -1148,40 +1148,40 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<InventoryRecipe.Ingredient, bool>.Invoke
 	|-Func<KeyValuePair<ulong, Dispatch.ResultCallback>, bool>.Invoke
 	|
-	|-RVA: 0x2130C00 Offset: 0x212F200 VA: 0x182130C00
+	|-RVA: 0x2130A40 Offset: 0x212F040 VA: 0x182130A40
 	|-Func<InventoryRecipe.Ingredient, PathFinder.Point>.Invoke
 	|-Func<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient>.Invoke
 	|
-	|-RVA: 0x212ECF0 Offset: 0x212D2F0 VA: 0x18212ECF0
+	|-RVA: 0x212EB30 Offset: 0x212D130 VA: 0x18212EB30
 	|-Func<InventoryRecipe.Ingredient, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<InventoryRecipe.Ingredient, Resolution>.Invoke
 	|
-	|-RVA: 0x212F100 Offset: 0x212D700 VA: 0x18212F100
+	|-RVA: 0x212EF40 Offset: 0x212D540 VA: 0x18212EF40
 	|-Func<InventoryRecipe.Ingredient, Option>.Invoke
 	|-Func<InventoryRecipe.Ingredient, InventoryItem>.Invoke
 	|
-	|-RVA: 0x212DEF0 Offset: 0x212C4F0 VA: 0x18212DEF0
+	|-RVA: 0x212DD30 Offset: 0x212C330 VA: 0x18212DD30
 	|-Func<InventoryRecipe.Ingredient, int>.Invoke
 	|-Func<InventoryRecipe.Ingredient, Int32Enum>.Invoke
 	|
-	|-RVA: 0x21300E0 Offset: 0x212E6E0 VA: 0x1821300E0
+	|-RVA: 0x212FF20 Offset: 0x212E520 VA: 0x18212FF20
 	|-Func<InventoryRecipe.Ingredient, float>.Invoke
 	|
-	|-RVA: 0x2131300 Offset: 0x212F900 VA: 0x182131300
+	|-RVA: 0x2131140 Offset: 0x212F740 VA: 0x182131140
 	|-Func<Item, DateTime>.Invoke
 	|
-	|-RVA: 0x18A3850 Offset: 0x18A1E50 VA: 0x1818A3850
+	|-RVA: 0x18A3810 Offset: 0x18A1E10 VA: 0x1818A3810
 	|-Func<bool, bool>.Invoke
 	|
-	|-RVA: 0x18A6190 Offset: 0x18A4790 VA: 0x1818A6190
+	|-RVA: 0x18A6150 Offset: 0x18A4750 VA: 0x1818A6150
 	|-Func<char, bool>.Invoke
 	|
-	|-RVA: 0x1B17200 Offset: 0x1B15800 VA: 0x181B17200
+	|-RVA: 0x1B17040 Offset: 0x1B15640 VA: 0x181B17040
 	|-Func<KeyValuePair<object, int>, int>.Invoke
 	|-Func<KeyValuePair<uint, object>, uint>.Invoke
 	|-Func<Guid, int>.Invoke
 	|
-	|-RVA: 0x2132020 Offset: 0x2130620 VA: 0x182132020
+	|-RVA: 0x2131E60 Offset: 0x2130460 VA: 0x182131E60
 	|-Func<double, double>.Invoke
 	|
 	|-RVA: 0x146DE40 Offset: 0x146C440 VA: 0x18146DE40
@@ -1189,38 +1189,38 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<int, SevenBitNumber>.Invoke
 	|-Func<uint, bool>.Invoke
 	|
-	|-RVA: 0x2130A00 Offset: 0x212F000 VA: 0x182130A00
+	|-RVA: 0x2130840 Offset: 0x212EE40 VA: 0x182130840
 	|-Func<int, object>.Invoke
 	|-Func<Int32Enum, object>.Invoke
 	|
-	|-RVA: 0x2130490 Offset: 0x212EA90 VA: 0x182130490
+	|-RVA: 0x21302D0 Offset: 0x212E8D0 VA: 0x1821302D0
 	|-Func<Int32Enum, Debugging.EntityInfo>.Invoke
 	|-Func<Int32Enum, KeyValuePair<object, int>>.Invoke
 	|
-	|-RVA: 0x2132330 Offset: 0x2130930 VA: 0x182132330
+	|-RVA: 0x2132170 Offset: 0x2130770 VA: 0x182132170
 	|-Func<Int32Enum, PathFinder.Point>.Invoke
 	|
-	|-RVA: 0x212CD70 Offset: 0x212B370 VA: 0x18212CD70
+	|-RVA: 0x212CBB0 Offset: 0x212B1B0 VA: 0x18212CBB0
 	|-Func<Int32Enum, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<Int32Enum, Resolution>.Invoke
 	|
-	|-RVA: 0x2130FD0 Offset: 0x212F5D0 VA: 0x182130FD0
+	|-RVA: 0x2130E10 Offset: 0x212F410 VA: 0x182130E10
 	|-Func<Int32Enum, Option>.Invoke
 	|-Func<Int32Enum, InventoryItem>.Invoke
 	|
-	|-RVA: 0x212E9C0 Offset: 0x212CFC0 VA: 0x18212E9C0
+	|-RVA: 0x212E800 Offset: 0x212CE00 VA: 0x18212E800
 	|-Func<Int32Enum, InventoryRecipe.Ingredient>.Invoke
 	|-Func<Int32Enum, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x20C7840 Offset: 0x20C5E40 VA: 0x1820C7840
+	|-RVA: 0x20C7680 Offset: 0x20C5C80 VA: 0x1820C7680
 	|-Func<Int32Enum, long>.Invoke
 	|
-	|-RVA: 0x19FAAB0 Offset: 0x19F90B0 VA: 0x1819FAAB0
+	|-RVA: 0x19FAA70 Offset: 0x19F9070 VA: 0x1819FAA70
 	|-Func<long, long>.Invoke
 	|-Func<IntPtr, object>.Invoke
 	|-Func<ulong, ulong>.Invoke
 	|
-	|-RVA: 0x19F9670 Offset: 0x19F7C70 VA: 0x1819F9670
+	|-RVA: 0x19F9630 Offset: 0x19F7C30 VA: 0x1819F9630
 	|-Func<object, Debugging.EntityInfo>.Invoke
 	|-Func<object, PlayerItemRecipe>.Invoke
 	|-Func<object, KeyValuePair<object, int>>.Invoke
@@ -1232,69 +1232,69 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, FourBitNumber>.Invoke
 	|-Func<object, SevenBitNumber>.Invoke
 	|
-	|-RVA: 0x19FB570 Offset: 0x19F9B70 VA: 0x1819FB570
+	|-RVA: 0x19FB530 Offset: 0x19F9B30 VA: 0x1819FB530
 	|-Func<object, PathFinder.Point>.Invoke
 	|-Func<object, PlayerItemRecipe.Ingredient>.Invoke
 	|-Func<object, DateTime>.Invoke
 	|-Func<object, Nullable<int>>.Invoke
 	|-Func<object, Nullable<Int32Enum>>.Invoke
 	|
-	|-RVA: 0x19F9BB0 Offset: 0x19F81B0 VA: 0x1819F9BB0
+	|-RVA: 0x19F9B70 Offset: 0x19F8170 VA: 0x1819F9B70
 	|-Func<object, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<object, Nullable<InventoryResult>>.Invoke
 	|-Func<object, Resolution>.Invoke
 	|
-	|-RVA: 0x19F91E0 Offset: 0x19F77E0 VA: 0x1819F91E0
+	|-RVA: 0x19F91A0 Offset: 0x19F77A0 VA: 0x1819F91A0
 	|-Func<object, Option>.Invoke
 	|-Func<object, InventoryItem>.Invoke
 	|-Func<object, Nullable<InventoryPurchaseResult>>.Invoke
 	|-Func<object, Nullable<ResultPage>>.Invoke
 	|
-	|-RVA: 0x19FA0F0 Offset: 0x19F86F0 VA: 0x1819FA0F0
+	|-RVA: 0x19FA0B0 Offset: 0x19F86B0 VA: 0x1819FA0B0
 	|-Func<object, InventoryDefId>.Invoke
 	|-Func<object, uint>.Invoke
 	|
 	|-RVA: 0x148C340 Offset: 0x148A940 VA: 0x18148C340
 	|-Func<object, InventoryItemId>.Invoke
 	|
-	|-RVA: 0x19FADB0 Offset: 0x19F93B0 VA: 0x1819FADB0
+	|-RVA: 0x19FAD70 Offset: 0x19F9370 VA: 0x1819FAD70
 	|-Func<object, InventoryRecipe.Ingredient>.Invoke
 	|-Func<object, InventoryRecipe>.Invoke
 	|-Func<object, PublishResult>.Invoke
 	|-Func<object, Nullable<Image>>.Invoke
 	|
-	|-RVA: 0x19FA500 Offset: 0x19F8B00 VA: 0x1819FA500
+	|-RVA: 0x19FA4C0 Offset: 0x19F8AC0 VA: 0x1819FA4C0
 	|-Func<object, int>.Invoke
 	|-Func<object, Int32Enum>.Invoke
 	|
 	|-RVA: 0x1477A60 Offset: 0x1476060 VA: 0x181477A60
 	|-Func<object, long>.Invoke
 	|
-	|-RVA: 0x19FC550 Offset: 0x19FAB50 VA: 0x1819FC550
+	|-RVA: 0x19FC510 Offset: 0x19FAB10 VA: 0x1819FC510
 	|-Func<object, Nullable<ServerInfo>>.Invoke
 	|
-	|-RVA: 0x19FD490 Offset: 0x19FBA90 VA: 0x1819FD490
+	|-RVA: 0x19FD450 Offset: 0x19FBA50 VA: 0x1819FD450
 	|-Func<object, Nullable<Item>>.Invoke
 	|
-	|-RVA: 0x19FE310 Offset: 0x19FC910 VA: 0x1819FE310
+	|-RVA: 0x19FE2D0 Offset: 0x19FC8D0 VA: 0x1819FE2D0
 	|-Func<object, VoidTaskResult>.Invoke
 	|
 	|-RVA: 0x133B5E0 Offset: 0x1339BE0 VA: 0x18133B5E0
 	|-Func<object, ulong>.Invoke
 	|
-	|-RVA: 0x18A4810 Offset: 0x18A2E10 VA: 0x1818A4810
+	|-RVA: 0x18A47D0 Offset: 0x18A2DD0 VA: 0x1818A47D0
 	|-Func<float, bool>.Invoke
 	|
-	|-RVA: 0x19FBDD0 Offset: 0x19FA3D0 VA: 0x1819FBDD0
+	|-RVA: 0x19FBD90 Offset: 0x19FA390 VA: 0x1819FBD90
 	|-Func<float, float>.Invoke
 	|
-	|-RVA: 0x19FA7C0 Offset: 0x19F8DC0 VA: 0x1819FA7C0
+	|-RVA: 0x19FA780 Offset: 0x19F8D80 VA: 0x1819FA780
 	|-Func<uint, uint>.Invoke
 	|
-	|-RVA: 0x19FCDF0 Offset: 0x19FB3F0 VA: 0x1819FCDF0
+	|-RVA: 0x19FCDB0 Offset: 0x19FB3B0 VA: 0x1819FCDB0
 	|-Func<Resolution, int>.Invoke
 	|
-	|-RVA: 0x19FCA50 Offset: 0x19FB050 VA: 0x1819FCA50
+	|-RVA: 0x19FCA10 Offset: 0x19FB010 VA: 0x1819FCA10
 	|-Func<Resolution, Vector2Int>.Invoke
 	*/
 
@@ -1302,769 +1302,769 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	public virtual IAsyncResult BeginInvoke(T arg, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B8CA90 Offset: 0x1B8B090 VA: 0x181B8CA90
+	|-RVA: 0x1B8C8D0 Offset: 0x1B8AED0 VA: 0x181B8C8D0
 	|-Func<Admin.PlayerInfo, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8B110 Offset: 0x1B89710 VA: 0x181B8B110
+	|-RVA: 0x1B8AF50 Offset: 0x1B89550 VA: 0x181B8AF50
 	|-Func<Admin.ServerConvarInfo, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8B810 Offset: 0x1B89E10 VA: 0x181B8B810
+	|-RVA: 0x1B8B650 Offset: 0x1B89C50 VA: 0x181B8B650
 	|-Func<Debugging.EntityInfo, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x1B8D090 Offset: 0x1B8B690 VA: 0x181B8D090
+	|-RVA: 0x1B8CED0 Offset: 0x1B8B4D0 VA: 0x181B8CED0
 	|-Func<Debugging.EntityInfo, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8C190 Offset: 0x1B8A790 VA: 0x181B8C190
+	|-RVA: 0x1B8BFD0 Offset: 0x1B8A5D0 VA: 0x181B8BFD0
 	|-Func<Entity.EntityInfo, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8C090 Offset: 0x1B8A690 VA: 0x181B8C090
+	|-RVA: 0x1B8BED0 Offset: 0x1B8A4D0 VA: 0x181B8BED0
 	|-Func<Demos.DemoInfo, DateTime>.BeginInvoke
 	|
-	|-RVA: 0x1B8BC10 Offset: 0x1B8A210 VA: 0x181B8BC10
+	|-RVA: 0x1B8BA50 Offset: 0x1B8A050 VA: 0x181B8BA50
 	|-Func<Demos.DemoInfo, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8C110 Offset: 0x1B8A710 VA: 0x181B8C110
+	|-RVA: 0x1B8BF50 Offset: 0x1B8A550 VA: 0x181B8BF50
 	|-Func<Demos.DemoInfo, TimeSpan>.BeginInvoke
 	|
-	|-RVA: 0x1B8BE90 Offset: 0x1B8A490 VA: 0x181B8BE90
+	|-RVA: 0x1B8BCD0 Offset: 0x1B8A2D0 VA: 0x181B8BCD0
 	|-Func<BurstCloth.Chain, FourBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8D490 Offset: 0x1B8BA90 VA: 0x181B8D490
+	|-RVA: 0x1B8D2D0 Offset: 0x1B8B8D0 VA: 0x181B8D2D0
 	|-Func<BurstCloth.Chain, SevenBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8AE90 Offset: 0x1B89490 VA: 0x181B8AE90
+	|-RVA: 0x1B8ACD0 Offset: 0x1B892D0 VA: 0x181B8ACD0
 	|-Func<BurstCloth.Chain, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8AC90 Offset: 0x1B89290 VA: 0x181B8AC90
+	|-RVA: 0x1B8AAD0 Offset: 0x1B890D0 VA: 0x181B8AAD0
 	|-Func<BurstCloth.Chain, int>.BeginInvoke
 	|
-	|-RVA: 0x1B8B210 Offset: 0x1B89810 VA: 0x181B8B210
+	|-RVA: 0x1B8B050 Offset: 0x1B89650 VA: 0x181B8B050
 	|-Func<RCon.BannedAddresses, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8B790 Offset: 0x1B89D90 VA: 0x181B8B790
+	|-RVA: 0x1B8B5D0 Offset: 0x1B89BD0 VA: 0x181B8B5D0
 	|-Func<SkeletonDefinition.Bone, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x1B8BA90 Offset: 0x1B8A090 VA: 0x181B8BA90
+	|-RVA: 0x1B8B8D0 Offset: 0x1B89ED0 VA: 0x181B8B8D0
 	|-Func<SkeletonDefinition.Bone, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x1B8AC10 Offset: 0x1B89210 VA: 0x181B8AC10
+	|-RVA: 0x1B8AA50 Offset: 0x1B89050 VA: 0x181B8AA50
 	|-Func<SkeletonDefinition.Bone, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x1B8C810 Offset: 0x1B8AE10 VA: 0x181B8C810
+	|-RVA: 0x1B8C650 Offset: 0x1B8AC50 VA: 0x181B8C650
 	|-Func<SkeletonDefinition.Bone, Option>.BeginInvoke
 	|
-	|-RVA: 0x1B8C690 Offset: 0x1B8AC90 VA: 0x181B8C690
+	|-RVA: 0x1B8C4D0 Offset: 0x1B8AAD0 VA: 0x181B8C4D0
 	|-Func<SkeletonDefinition.Bone, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x1B8CA10 Offset: 0x1B8B010 VA: 0x181B8CA10
+	|-RVA: 0x1B8C850 Offset: 0x1B8AE50 VA: 0x181B8C850
 	|-Func<SkeletonDefinition.Bone, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x1B8AA90 Offset: 0x1B89090 VA: 0x181B8AA90
+	|-RVA: 0x1B8A8D0 Offset: 0x1B88ED0 VA: 0x181B8A8D0
 	|-Func<SkeletonDefinition.Bone, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x1B8C910 Offset: 0x1B8AF10 VA: 0x181B8C910
+	|-RVA: 0x1B8C750 Offset: 0x1B8AD50 VA: 0x181B8C750
 	|-Func<SkeletonDefinition.Bone, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8BF90 Offset: 0x1B8A590 VA: 0x181B8BF90
+	|-RVA: 0x1B8BDD0 Offset: 0x1B8A3D0 VA: 0x181B8BDD0
 	|-Func<SkeletonDefinition.Bone, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x1B8B890 Offset: 0x1B89E90 VA: 0x181B8B890
+	|-RVA: 0x1B8B6D0 Offset: 0x1B89CD0 VA: 0x181B8B6D0
 	|-Func<SkeletonDefinition.Bone, int>.BeginInvoke
 	|
-	|-RVA: 0x1B8C610 Offset: 0x1B8AC10 VA: 0x181B8C610
+	|-RVA: 0x1B8C450 Offset: 0x1B8AA50 VA: 0x181B8C450
 	|-Func<SkeletonDefinition.Bone, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x1B8CF10 Offset: 0x1B8B510 VA: 0x181B8CF10
+	|-RVA: 0x1B8CD50 Offset: 0x1B8B350 VA: 0x181B8CD50
 	|-Func<SkeletonDefinition.Bone, long>.BeginInvoke
 	|
-	|-RVA: 0x1B8BC90 Offset: 0x1B8A290 VA: 0x181B8BC90
+	|-RVA: 0x1B8BAD0 Offset: 0x1B8A0D0 VA: 0x181B8BAD0
 	|-Func<SkeletonDefinition.Bone, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8CD10 Offset: 0x1B8B310 VA: 0x181B8CD10
+	|-RVA: 0x1B8CB50 Offset: 0x1B8B150 VA: 0x181B8CB50
 	|-Func<SkeletonDefinition.Bone, float>.BeginInvoke
 	|
-	|-RVA: 0x1B8BD90 Offset: 0x1B8A390 VA: 0x181B8BD90
+	|-RVA: 0x1B8BBD0 Offset: 0x1B8A1D0 VA: 0x181B8BBD0
 	|-Func<SkeletonDefinition.Bone, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x1B8A810 Offset: 0x1B88E10 VA: 0x181B8A810
+	|-RVA: 0x1B8A650 Offset: 0x1B88C50 VA: 0x181B8A650
 	|-Func<WeightedStringList.Container, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8D310 Offset: 0x1B8B910 VA: 0x181B8D310
+	|-RVA: 0x1B8D150 Offset: 0x1B8B750 VA: 0x181B8D150
 	|-Func<WeightedStringList.Container, float>.BeginInvoke
 	|
-	|-RVA: 0x1B8A210 Offset: 0x1B88810 VA: 0x181B8A210
+	|-RVA: 0x1B8A050 Offset: 0x1B88650 VA: 0x181B8A050
 	|-Func<GameStat.Stat, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8A190 Offset: 0x1B88790 VA: 0x181B8A190
+	|-RVA: 0x1B89FD0 Offset: 0x1B885D0 VA: 0x181B89FD0
 	|-Func<ImageStorageEntity.ImageRequest, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8D110 Offset: 0x1B8B710 VA: 0x181B8D110
+	|-RVA: 0x1B8CF50 Offset: 0x1B8B550 VA: 0x181B8CF50
 	|-Func<ItemSkinDirectory.Skin, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8B190 Offset: 0x1B89790 VA: 0x181B8B190
+	|-RVA: 0x1B8AFD0 Offset: 0x1B895D0 VA: 0x181B8AFD0
 	|-Func<FourBitNumber, FourBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8AF90 Offset: 0x1B89590 VA: 0x181B8AF90
+	|-RVA: 0x1B8ADD0 Offset: 0x1B893D0 VA: 0x181B8ADD0
 	|-Func<FourBitNumber, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8C710 Offset: 0x1B8AD10 VA: 0x181B8C710
+	|-RVA: 0x1B8C550 Offset: 0x1B8AB50 VA: 0x181B8C550
 	|-Func<SevenBitNumber, SevenBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8C490 Offset: 0x1B8AA90 VA: 0x181B8C490
+	|-RVA: 0x1B8C2D0 Offset: 0x1B8A8D0 VA: 0x181B8C2D0
 	|-Func<SevenBitNumber, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8A790 Offset: 0x1B88D90 VA: 0x181B8A790
+	|-RVA: 0x1B8A5D0 Offset: 0x1B88BD0 VA: 0x181B8A5D0
 	|-Func<SevenBitNumber, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8CD90 Offset: 0x1B8B390 VA: 0x181B8CD90
+	|-RVA: 0x1B8CBD0 Offset: 0x1B8B1D0 VA: 0x181B8CBD0
 	|-Func<DefaultSerializationBinder.TypeNameKey, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8A990 Offset: 0x1B88F90 VA: 0x181B8A990
+	|-RVA: 0x1B8A7D0 Offset: 0x1B88DD0 VA: 0x181B8A7D0
 	|-Func<ConvertUtils.TypeConvertKey, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8CE90 Offset: 0x1B8B490 VA: 0x181B8CE90
+	|-RVA: 0x1B8CCD0 Offset: 0x1B8B2D0 VA: 0x181B8CCD0
 	|-Func<PathFinder.Point, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x1B8B310 Offset: 0x1B89910 VA: 0x181B8B310
+	|-RVA: 0x1B8B150 Offset: 0x1B89750 VA: 0x181B8B150
 	|-Func<PathFinder.Point, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8B590 Offset: 0x1B89B90 VA: 0x181B8B590
+	|-RVA: 0x1B8B3D0 Offset: 0x1B899D0 VA: 0x181B8B3D0
 	|-Func<PetCommandList.PetCommandDesc, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8A410 Offset: 0x1B88A10 VA: 0x181B8A410
+	|-RVA: 0x1B8A250 Offset: 0x1B88850 VA: 0x181B8A250
 	|-Func<PlayerItemRecipe, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x1B8A710 Offset: 0x1B88D10 VA: 0x181B8A710
+	|-RVA: 0x1B8A550 Offset: 0x1B88B50 VA: 0x181B8A550
 	|-Func<PlayerItemRecipe, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x1B8B290 Offset: 0x1B89890 VA: 0x181B8B290
+	|-RVA: 0x1B8B0D0 Offset: 0x1B896D0 VA: 0x181B8B0D0
 	|-Func<PlayerItemRecipe, PlayerItemRecipe>.BeginInvoke
 	|
-	|-RVA: 0x1B8A610 Offset: 0x1B88C10 VA: 0x181B8A610
+	|-RVA: 0x1B8A450 Offset: 0x1B88A50 VA: 0x181B8A450
 	|-Func<PlayerItemRecipe, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x1B8B990 Offset: 0x1B89F90 VA: 0x181B8B990
+	|-RVA: 0x1B8B7D0 Offset: 0x1B89DD0 VA: 0x181B8B7D0
 	|-Func<PlayerItemRecipe, Option>.BeginInvoke
 	|
-	|-RVA: 0x1B8CB90 Offset: 0x1B8B190 VA: 0x181B8CB90
+	|-RVA: 0x1B8C9D0 Offset: 0x1B8AFD0 VA: 0x181B8C9D0
 	|-Func<PlayerItemRecipe, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x1B8AB90 Offset: 0x1B89190 VA: 0x181B8AB90
+	|-RVA: 0x1B8A9D0 Offset: 0x1B88FD0 VA: 0x181B8A9D0
 	|-Func<PlayerItemRecipe, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x1B8A910 Offset: 0x1B88F10 VA: 0x181B8A910
+	|-RVA: 0x1B8A750 Offset: 0x1B88D50 VA: 0x181B8A750
 	|-Func<PlayerItemRecipe, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x1B8B690 Offset: 0x1B89C90 VA: 0x181B8B690
+	|-RVA: 0x1B8B4D0 Offset: 0x1B89AD0 VA: 0x181B8B4D0
 	|-Func<PlayerItemRecipe, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8AA10 Offset: 0x1B89010 VA: 0x181B8AA10
+	|-RVA: 0x1B8A850 Offset: 0x1B88E50 VA: 0x181B8A850
 	|-Func<PlayerItemRecipe, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x1B8C310 Offset: 0x1B8A910 VA: 0x181B8C310
+	|-RVA: 0x1B8C150 Offset: 0x1B8A750 VA: 0x181B8C150
 	|-Func<PlayerItemRecipe, int>.BeginInvoke
 	|
-	|-RVA: 0x1B8A690 Offset: 0x1B88C90 VA: 0x181B8A690
+	|-RVA: 0x1B8A4D0 Offset: 0x1B88AD0 VA: 0x181B8A4D0
 	|-Func<PlayerItemRecipe, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x1B8C010 Offset: 0x1B8A610 VA: 0x181B8C010
+	|-RVA: 0x1B8BE50 Offset: 0x1B8A450 VA: 0x181B8BE50
 	|-Func<PlayerItemRecipe, long>.BeginInvoke
 	|
-	|-RVA: 0x1B8B410 Offset: 0x1B89A10 VA: 0x181B8B410
+	|-RVA: 0x1B8B250 Offset: 0x1B89850 VA: 0x181B8B250
 	|-Func<PlayerItemRecipe, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8C390 Offset: 0x1B8A990 VA: 0x181B8C390
+	|-RVA: 0x1B8C1D0 Offset: 0x1B8A7D0 VA: 0x181B8C1D0
 	|-Func<PlayerItemRecipe, float>.BeginInvoke
 	|
-	|-RVA: 0x1B8A390 Offset: 0x1B88990 VA: 0x181B8A390
+	|-RVA: 0x1B8A1D0 Offset: 0x1B887D0 VA: 0x181B8A1D0
 	|-Func<PlayerItemRecipe, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x1B8BB90 Offset: 0x1B8A190 VA: 0x181B8BB90
+	|-RVA: 0x1B8B9D0 Offset: 0x1B89FD0 VA: 0x181B8B9D0
 	|-Func<PlayerItemRecipe.Ingredient, FourBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8B910 Offset: 0x1B89F10 VA: 0x181B8B910
+	|-RVA: 0x1B8B750 Offset: 0x1B89D50 VA: 0x181B8B750
 	|-Func<PlayerItemRecipe.Ingredient, SevenBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8AB10 Offset: 0x1B89110 VA: 0x181B8AB10
+	|-RVA: 0x1B8A950 Offset: 0x1B88F50 VA: 0x181B8A950
 	|-Func<PlayerItemRecipe.Ingredient, PlayerItemRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x1B8CC90 Offset: 0x1B8B290 VA: 0x181B8CC90
+	|-RVA: 0x1B8CAD0 Offset: 0x1B8B0D0 VA: 0x181B8CAD0
 	|-Func<PlayerItemRecipe.Ingredient, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8B090 Offset: 0x1B89690 VA: 0x181B8B090
+	|-RVA: 0x1B8AED0 Offset: 0x1B894D0 VA: 0x181B8AED0
 	|-Func<PlayerItemRecipe.Ingredient, int>.BeginInvoke
 	|
-	|-RVA: 0x1B8BD10 Offset: 0x1B8A310 VA: 0x181B8BD10
+	|-RVA: 0x1B8BB50 Offset: 0x1B8A150 VA: 0x181B8BB50
 	|-Func<ProjectileWeaponMod.Modifier, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x1B8A490 Offset: 0x1B88A90 VA: 0x181B8A490
+	|-RVA: 0x1B8A2D0 Offset: 0x1B888D0 VA: 0x181B8A2D0
 	|-Func<ProjectileWeaponMod.Modifier, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8CF90 Offset: 0x1B8B590 VA: 0x181B8CF90
+	|-RVA: 0x1B8CDD0 Offset: 0x1B8B3D0 VA: 0x181B8CDD0
 	|-Func<ProjectileWeaponMod.Modifier, float>.BeginInvoke
 	|
-	|-RVA: 0x1B8D010 Offset: 0x1B8B610 VA: 0x181B8D010
+	|-RVA: 0x1B8CE50 Offset: 0x1B8B450 VA: 0x181B8CE50
 	|-Func<Option, Option>.BeginInvoke
 	|
-	|-RVA: 0x1B8D410 Offset: 0x1B8BA10 VA: 0x181B8D410
+	|-RVA: 0x1B8D250 Offset: 0x1B8B850 VA: 0x181B8D250
 	|-Func<Option, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8B610 Offset: 0x1B89C10 VA: 0x181B8B610
+	|-RVA: 0x1B8B450 Offset: 0x1B89A50 VA: 0x181B8B450
 	|-Func<ServerInfo, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x1B8AD90 Offset: 0x1B89390 VA: 0x181B8AD90
+	|-RVA: 0x1B8ABD0 Offset: 0x1B891D0 VA: 0x181B8ABD0
 	|-Func<ServerInfo, FourBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8BA10 Offset: 0x1B8A010 VA: 0x181B8BA10
+	|-RVA: 0x1B8B850 Offset: 0x1B89E50 VA: 0x181B8B850
 	|-Func<ServerInfo, SevenBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8AF10 Offset: 0x1B89510 VA: 0x181B8AF10
+	|-RVA: 0x1B8AD50 Offset: 0x1B89350 VA: 0x181B8AD50
 	|-Func<ServerInfo, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x1B8AD10 Offset: 0x1B89310 VA: 0x181B8AD10
+	|-RVA: 0x1B8AB50 Offset: 0x1B89150 VA: 0x181B8AB50
 	|-Func<ServerInfo, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x1B8A310 Offset: 0x1B88910 VA: 0x181B8A310
+	|-RVA: 0x1B8A150 Offset: 0x1B88750 VA: 0x181B8A150
 	|-Func<ServerInfo, Option>.BeginInvoke
 	|
-	|-RVA: 0x1B8C510 Offset: 0x1B8AB10 VA: 0x181B8C510
+	|-RVA: 0x1B8C350 Offset: 0x1B8A950 VA: 0x181B8C350
 	|-Func<ServerInfo, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x1B8B390 Offset: 0x1B89990 VA: 0x181B8B390
+	|-RVA: 0x1B8B1D0 Offset: 0x1B897D0 VA: 0x181B8B1D0
 	|-Func<ServerInfo, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x1B8A290 Offset: 0x1B88890 VA: 0x181B8A290
+	|-RVA: 0x1B8A0D0 Offset: 0x1B886D0 VA: 0x181B8A0D0
 	|-Func<ServerInfo, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x1B8CE10 Offset: 0x1B8B410 VA: 0x181B8CE10
+	|-RVA: 0x1B8CC50 Offset: 0x1B8B250 VA: 0x181B8CC50
 	|-Func<ServerInfo, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8BF10 Offset: 0x1B8A510 VA: 0x181B8BF10
+	|-RVA: 0x1B8BD50 Offset: 0x1B8A350 VA: 0x181B8BD50
 	|-Func<ServerInfo, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x1B8CC10 Offset: 0x1B8B210 VA: 0x181B8CC10
+	|-RVA: 0x1B8CA50 Offset: 0x1B8B050 VA: 0x181B8CA50
 	|-Func<ServerInfo, int>.BeginInvoke
 	|
-	|-RVA: 0x1B8C590 Offset: 0x1B8AB90 VA: 0x181B8C590
+	|-RVA: 0x1B8C3D0 Offset: 0x1B8A9D0 VA: 0x181B8C3D0
 	|-Func<ServerInfo, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x1B8BE10 Offset: 0x1B8A410 VA: 0x181B8BE10
+	|-RVA: 0x1B8BC50 Offset: 0x1B8A250 VA: 0x181B8BC50
 	|-Func<ServerInfo, long>.BeginInvoke
 	|
-	|-RVA: 0x1B8C790 Offset: 0x1B8AD90 VA: 0x181B8C790
+	|-RVA: 0x1B8C5D0 Offset: 0x1B8ABD0 VA: 0x181B8C5D0
 	|-Func<ServerInfo, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8AE10 Offset: 0x1B89410 VA: 0x181B8AE10
+	|-RVA: 0x1B8AC50 Offset: 0x1B89250 VA: 0x181B8AC50
 	|-Func<ServerInfo, float>.BeginInvoke
 	|
-	|-RVA: 0x1B8BB10 Offset: 0x1B8A110 VA: 0x181B8BB10
+	|-RVA: 0x1B8B950 Offset: 0x1B89F50 VA: 0x181B8B950
 	|-Func<ServerInfo, uint>.BeginInvoke
 	|
-	|-RVA: 0x1B8A590 Offset: 0x1B88B90 VA: 0x181B8A590
+	|-RVA: 0x1B8A3D0 Offset: 0x1B889D0 VA: 0x181B8A3D0
 	|-Func<ServerInfo, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x1B8C890 Offset: 0x1B8AE90 VA: 0x181B8C890
+	|-RVA: 0x1B8C6D0 Offset: 0x1B8ACD0 VA: 0x181B8C6D0
 	|-Func<SkinnedMultiMesh.Part, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8C290 Offset: 0x1B8A890 VA: 0x181B8C290
+	|-RVA: 0x1B8C0D0 Offset: 0x1B8A6D0 VA: 0x181B8C0D0
 	|-Func<SkinnedMultiMesh.Part, long>.BeginInvoke
 	|
-	|-RVA: 0x1B8D390 Offset: 0x1B8B990 VA: 0x181B8D390
+	|-RVA: 0x1B8D1D0 Offset: 0x1B8B7D0 VA: 0x181B8D1D0
 	|-Func<Achievement, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x1B8CB10 Offset: 0x1B8B110 VA: 0x181B8CB10
+	|-RVA: 0x1B8C950 Offset: 0x1B8AF50 VA: 0x181B8C950
 	|-Func<Achievement, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x1B8B490 Offset: 0x1B89A90 VA: 0x181B8B490
+	|-RVA: 0x1B8B2D0 Offset: 0x1B898D0 VA: 0x181B8B2D0
 	|-Func<Achievement, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x1B8A890 Offset: 0x1B88E90 VA: 0x181B8A890
+	|-RVA: 0x1B8A6D0 Offset: 0x1B88CD0 VA: 0x181B8A6D0
 	|-Func<Achievement, Option>.BeginInvoke
 	|
-	|-RVA: 0x1B8C410 Offset: 0x1B8AA10 VA: 0x181B8C410
+	|-RVA: 0x1B8C250 Offset: 0x1B8A850 VA: 0x181B8C250
 	|-Func<Achievement, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x1B8B510 Offset: 0x1B89B10 VA: 0x181B8B510
+	|-RVA: 0x1B8B350 Offset: 0x1B89950 VA: 0x181B8B350
 	|-Func<Achievement, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x1B8D190 Offset: 0x1B8B790 VA: 0x181B8D190
+	|-RVA: 0x1B8CFD0 Offset: 0x1B8B5D0 VA: 0x181B8CFD0
 	|-Func<Achievement, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x1B8A510 Offset: 0x1B88B10 VA: 0x181B8A510
+	|-RVA: 0x1B8A350 Offset: 0x1B88950 VA: 0x181B8A350
 	|-Func<Achievement, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8D210 Offset: 0x1B8B810 VA: 0x181B8D210
+	|-RVA: 0x1B8D050 Offset: 0x1B8B650 VA: 0x181B8D050
 	|-Func<Achievement, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x1B8B710 Offset: 0x1B89D10 VA: 0x181B8B710
+	|-RVA: 0x1B8B550 Offset: 0x1B89B50 VA: 0x181B8B550
 	|-Func<Achievement, int>.BeginInvoke
 	|
-	|-RVA: 0x1B8C210 Offset: 0x1B8A810 VA: 0x181B8C210
+	|-RVA: 0x1B8C050 Offset: 0x1B8A650 VA: 0x181B8C050
 	|-Func<Achievement, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x1B8C990 Offset: 0x1B8AF90 VA: 0x181B8C990
+	|-RVA: 0x1B8C7D0 Offset: 0x1B8ADD0 VA: 0x181B8C7D0
 	|-Func<Achievement, long>.BeginInvoke
 	|
-	|-RVA: 0x1B8A110 Offset: 0x1B88710 VA: 0x181B8A110
+	|-RVA: 0x1B89F50 Offset: 0x1B88550 VA: 0x181B89F50
 	|-Func<Achievement, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8B010 Offset: 0x1B89610 VA: 0x181B8B010
+	|-RVA: 0x1B8AE50 Offset: 0x1B89450 VA: 0x181B8AE50
 	|-Func<Achievement, float>.BeginInvoke
 	|
-	|-RVA: 0x1B8D290 Offset: 0x1B8B890 VA: 0x181B8D290
+	|-RVA: 0x1B8D0D0 Offset: 0x1B8B6D0 VA: 0x181B8D0D0
 	|-Func<Achievement, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x21276A0 Offset: 0x2125CA0 VA: 0x1821276A0
+	|-RVA: 0x21274E0 Offset: 0x2125AE0 VA: 0x1821274E0
 	|-Func<InventoryDefId, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x2129220 Offset: 0x2127820 VA: 0x182129220
+	|-RVA: 0x2129060 Offset: 0x2127660 VA: 0x182129060
 	|-Func<InventoryDefId, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x2126BA0 Offset: 0x21251A0 VA: 0x182126BA0
+	|-RVA: 0x21269E0 Offset: 0x2124FE0 VA: 0x1821269E0
 	|-Func<InventoryDefId, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x2128DA0 Offset: 0x21273A0 VA: 0x182128DA0
+	|-RVA: 0x2128BE0 Offset: 0x21271E0 VA: 0x182128BE0
 	|-Func<InventoryDefId, Option>.BeginInvoke
 	|
-	|-RVA: 0x2128A20 Offset: 0x2127020 VA: 0x182128A20
+	|-RVA: 0x2128860 Offset: 0x2126E60 VA: 0x182128860
 	|-Func<InventoryDefId, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x212AD20 Offset: 0x2129320 VA: 0x18212AD20
+	|-RVA: 0x212AB60 Offset: 0x2129160 VA: 0x18212AB60
 	|-Func<InventoryDefId, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x2126B20 Offset: 0x2125120 VA: 0x182126B20
+	|-RVA: 0x2126960 Offset: 0x2124F60 VA: 0x182126960
 	|-Func<InventoryDefId, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x2129BA0 Offset: 0x21281A0 VA: 0x182129BA0
+	|-RVA: 0x21299E0 Offset: 0x2127FE0 VA: 0x1821299E0
 	|-Func<InventoryDefId, bool>.BeginInvoke
 	|
-	|-RVA: 0x212A420 Offset: 0x2128A20 VA: 0x18212A420
+	|-RVA: 0x212A260 Offset: 0x2128860 VA: 0x18212A260
 	|-Func<InventoryDefId, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x21269A0 Offset: 0x2124FA0 VA: 0x1821269A0
+	|-RVA: 0x21267E0 Offset: 0x2124DE0 VA: 0x1821267E0
 	|-Func<InventoryDefId, int>.BeginInvoke
 	|
-	|-RVA: 0x212A020 Offset: 0x2128620 VA: 0x18212A020
+	|-RVA: 0x2129E60 Offset: 0x2128460 VA: 0x182129E60
 	|-Func<InventoryDefId, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x2128320 Offset: 0x2126920 VA: 0x182128320
+	|-RVA: 0x2128160 Offset: 0x2126760 VA: 0x182128160
 	|-Func<InventoryDefId, long>.BeginInvoke
 	|
-	|-RVA: 0x212AC20 Offset: 0x2129220 VA: 0x18212AC20
+	|-RVA: 0x212AA60 Offset: 0x2129060 VA: 0x18212AA60
 	|-Func<InventoryDefId, object>.BeginInvoke
 	|
-	|-RVA: 0x21273A0 Offset: 0x21259A0 VA: 0x1821273A0
+	|-RVA: 0x21271E0 Offset: 0x21257E0 VA: 0x1821271E0
 	|-Func<InventoryDefId, float>.BeginInvoke
 	|
-	|-RVA: 0x2128B20 Offset: 0x2127120 VA: 0x182128B20
+	|-RVA: 0x2128960 Offset: 0x2126F60 VA: 0x182128960
 	|-Func<InventoryDefId, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x2128120 Offset: 0x2126720 VA: 0x182128120
+	|-RVA: 0x2127F60 Offset: 0x2126560 VA: 0x182127F60
 	|-Func<InventoryItemId, InventoryItemId>.BeginInvoke
 	|
-	|-RVA: 0x2127620 Offset: 0x2125C20 VA: 0x182127620
+	|-RVA: 0x2127460 Offset: 0x2125A60 VA: 0x182127460
 	|-Func<InventoryItemId, bool>.BeginInvoke
 	|
-	|-RVA: 0x2129FA0 Offset: 0x21285A0 VA: 0x182129FA0
+	|-RVA: 0x2129DE0 Offset: 0x21283E0 VA: 0x182129DE0
 	|-Func<ServerInfo, ServerInfo>.BeginInvoke
 	|
-	|-RVA: 0x212B2A0 Offset: 0x21298A0 VA: 0x18212B2A0
+	|-RVA: 0x212B0E0 Offset: 0x21296E0 VA: 0x18212B0E0
 	|-Func<ServerInfo, bool>.BeginInvoke
 	|
-	|-RVA: 0x21288A0 Offset: 0x2126EA0 VA: 0x1821288A0
+	|-RVA: 0x21286E0 Offset: 0x2126CE0 VA: 0x1821286E0
 	|-Func<ServerInfo, int>.BeginInvoke
 	|
-	|-RVA: 0x2127020 Offset: 0x2125620 VA: 0x182127020
+	|-RVA: 0x2126E60 Offset: 0x2125460 VA: 0x182126E60
 	|-Func<ServerInfo, object>.BeginInvoke
 	|
-	|-RVA: 0x212B420 Offset: 0x2129A20 VA: 0x18212B420
+	|-RVA: 0x212B260 Offset: 0x2129860 VA: 0x18212B260
 	|-Func<Friend, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x2128FA0 Offset: 0x21275A0 VA: 0x182128FA0
+	|-RVA: 0x2128DE0 Offset: 0x21273E0 VA: 0x182128DE0
 	|-Func<Friend, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x2127FA0 Offset: 0x21265A0 VA: 0x182127FA0
+	|-RVA: 0x2127DE0 Offset: 0x21263E0 VA: 0x182127DE0
 	|-Func<Friend, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x212AA20 Offset: 0x2129020 VA: 0x18212AA20
+	|-RVA: 0x212A860 Offset: 0x2128E60 VA: 0x18212A860
 	|-Func<Friend, Option>.BeginInvoke
 	|
-	|-RVA: 0x212A5A0 Offset: 0x2128BA0 VA: 0x18212A5A0
+	|-RVA: 0x212A3E0 Offset: 0x21289E0 VA: 0x18212A3E0
 	|-Func<Friend, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x2126FA0 Offset: 0x21255A0 VA: 0x182126FA0
+	|-RVA: 0x2126DE0 Offset: 0x21253E0 VA: 0x182126DE0
 	|-Func<Friend, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x21277A0 Offset: 0x2125DA0 VA: 0x1821277A0
+	|-RVA: 0x21275E0 Offset: 0x2125BE0 VA: 0x1821275E0
 	|-Func<Friend, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x212ABA0 Offset: 0x21291A0 VA: 0x18212ABA0
+	|-RVA: 0x212A9E0 Offset: 0x2128FE0 VA: 0x18212A9E0
 	|-Func<Friend, bool>.BeginInvoke
 	|
-	|-RVA: 0x212A4A0 Offset: 0x2128AA0 VA: 0x18212A4A0
+	|-RVA: 0x212A2E0 Offset: 0x21288E0 VA: 0x18212A2E0
 	|-Func<Friend, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x2129820 Offset: 0x2127E20 VA: 0x182129820
+	|-RVA: 0x2129660 Offset: 0x2127C60 VA: 0x182129660
 	|-Func<Friend, int>.BeginInvoke
 	|
-	|-RVA: 0x212A120 Offset: 0x2128720 VA: 0x18212A120
+	|-RVA: 0x2129F60 Offset: 0x2128560 VA: 0x182129F60
 	|-Func<Friend, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x212AAA0 Offset: 0x21290A0 VA: 0x18212AAA0
+	|-RVA: 0x212A8E0 Offset: 0x2128EE0 VA: 0x18212A8E0
 	|-Func<Friend, long>.BeginInvoke
 	|
-	|-RVA: 0x21293A0 Offset: 0x21279A0 VA: 0x1821293A0
+	|-RVA: 0x21291E0 Offset: 0x21277E0 VA: 0x1821291E0
 	|-Func<Friend, object>.BeginInvoke
 	|
-	|-RVA: 0x2129120 Offset: 0x2127720 VA: 0x182129120
+	|-RVA: 0x2128F60 Offset: 0x2127560 VA: 0x182128F60
 	|-Func<Friend, float>.BeginInvoke
 	|
-	|-RVA: 0x2128EA0 Offset: 0x21274A0 VA: 0x182128EA0
+	|-RVA: 0x2128CE0 Offset: 0x21272E0 VA: 0x182128CE0
 	|-Func<Friend, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x2127AA0 Offset: 0x21260A0 VA: 0x182127AA0
+	|-RVA: 0x21278E0 Offset: 0x2125EE0 VA: 0x1821278E0
 	|-Func<InventoryItem, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x212AFA0 Offset: 0x21295A0 VA: 0x18212AFA0
+	|-RVA: 0x212ADE0 Offset: 0x21293E0 VA: 0x18212ADE0
 	|-Func<InventoryItem, FourBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x212ACA0 Offset: 0x21292A0 VA: 0x18212ACA0
+	|-RVA: 0x212AAE0 Offset: 0x21290E0 VA: 0x18212AAE0
 	|-Func<InventoryItem, SevenBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x21282A0 Offset: 0x21268A0 VA: 0x1821282A0
+	|-RVA: 0x21280E0 Offset: 0x21266E0 VA: 0x1821280E0
 	|-Func<InventoryItem, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x2129F20 Offset: 0x2128520 VA: 0x182129F20
+	|-RVA: 0x2129D60 Offset: 0x2128360 VA: 0x182129D60
 	|-Func<InventoryItem, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x2129020 Offset: 0x2127620 VA: 0x182129020
+	|-RVA: 0x2128E60 Offset: 0x2127460 VA: 0x182128E60
 	|-Func<InventoryItem, Option>.BeginInvoke
 	|
-	|-RVA: 0x2129AA0 Offset: 0x21280A0 VA: 0x182129AA0
+	|-RVA: 0x21298E0 Offset: 0x2127EE0 VA: 0x1821298E0
 	|-Func<InventoryItem, InventoryDefId>.BeginInvoke
 	|
-	|-RVA: 0x2126F20 Offset: 0x2125520 VA: 0x182126F20
+	|-RVA: 0x2126D60 Offset: 0x2125360 VA: 0x182126D60
 	|-Func<InventoryItem, InventoryItemId>.BeginInvoke
 	|
-	|-RVA: 0x212AF20 Offset: 0x2129520 VA: 0x18212AF20
+	|-RVA: 0x212AD60 Offset: 0x2129360 VA: 0x18212AD60
 	|-Func<InventoryItem, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x212A2A0 Offset: 0x21288A0 VA: 0x18212A2A0
+	|-RVA: 0x212A0E0 Offset: 0x21286E0 VA: 0x18212A0E0
 	|-Func<InventoryItem, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x2127720 Offset: 0x2125D20 VA: 0x182127720
+	|-RVA: 0x2127560 Offset: 0x2125B60 VA: 0x182127560
 	|-Func<InventoryItem, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x2128620 Offset: 0x2126C20 VA: 0x182128620
+	|-RVA: 0x2128460 Offset: 0x2126A60 VA: 0x182128460
 	|-Func<InventoryItem, bool>.BeginInvoke
 	|
-	|-RVA: 0x2128020 Offset: 0x2126620 VA: 0x182128020
+	|-RVA: 0x2127E60 Offset: 0x2126460 VA: 0x182127E60
 	|-Func<InventoryItem, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x21291A0 Offset: 0x21277A0 VA: 0x1821291A0
+	|-RVA: 0x2128FE0 Offset: 0x21275E0 VA: 0x182128FE0
 	|-Func<InventoryItem, int>.BeginInvoke
 	|
-	|-RVA: 0x212A0A0 Offset: 0x21286A0 VA: 0x18212A0A0
+	|-RVA: 0x2129EE0 Offset: 0x21284E0 VA: 0x182129EE0
 	|-Func<InventoryItem, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x2127CA0 Offset: 0x21262A0 VA: 0x182127CA0
+	|-RVA: 0x2127AE0 Offset: 0x21260E0 VA: 0x182127AE0
 	|-Func<InventoryItem, long>.BeginInvoke
 	|
-	|-RVA: 0x2128E20 Offset: 0x2127420 VA: 0x182128E20
+	|-RVA: 0x2128C60 Offset: 0x2127260 VA: 0x182128C60
 	|-Func<InventoryItem, object>.BeginInvoke
 	|
-	|-RVA: 0x2127420 Offset: 0x2125A20 VA: 0x182127420
+	|-RVA: 0x2127260 Offset: 0x2125860 VA: 0x182127260
 	|-Func<InventoryItem, float>.BeginInvoke
 	|
-	|-RVA: 0x212A7A0 Offset: 0x2128DA0 VA: 0x18212A7A0
+	|-RVA: 0x212A5E0 Offset: 0x2128BE0 VA: 0x18212A5E0
 	|-Func<InventoryItem, uint>.BeginInvoke
 	|
-	|-RVA: 0x21296A0 Offset: 0x2127CA0 VA: 0x1821296A0
+	|-RVA: 0x21294E0 Offset: 0x2127AE0 VA: 0x1821294E0
 	|-Func<InventoryItem, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x2129E20 Offset: 0x2128420 VA: 0x182129E20
+	|-RVA: 0x2129C60 Offset: 0x2128260 VA: 0x182129C60
 	|-Func<InventoryItem.Amount, InventoryItemId>.BeginInvoke
 	|
-	|-RVA: 0x21284A0 Offset: 0x2126AA0 VA: 0x1821284A0
+	|-RVA: 0x21282E0 Offset: 0x21268E0 VA: 0x1821282E0
 	|-Func<InventoryItem.Amount, bool>.BeginInvoke
 	|
-	|-RVA: 0x212A9A0 Offset: 0x2128FA0 VA: 0x18212A9A0
+	|-RVA: 0x212A7E0 Offset: 0x2128DE0 VA: 0x18212A7E0
 	|-Func<InventoryItem.Amount, uint>.BeginInvoke
 	|
-	|-RVA: 0x2128220 Offset: 0x2126820 VA: 0x182128220
+	|-RVA: 0x2128060 Offset: 0x2126660 VA: 0x182128060
 	|-Func<InventoryRecipe, PlayerItemRecipe>.BeginInvoke
 	|
-	|-RVA: 0x2126DA0 Offset: 0x21253A0 VA: 0x182126DA0
+	|-RVA: 0x2126BE0 Offset: 0x21251E0 VA: 0x182126BE0
 	|-Func<InventoryRecipe, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x2127BA0 Offset: 0x21261A0 VA: 0x182127BA0
+	|-RVA: 0x21279E0 Offset: 0x2125FE0 VA: 0x1821279E0
 	|-Func<InventoryRecipe, bool>.BeginInvoke
 	|
-	|-RVA: 0x2127C20 Offset: 0x2126220 VA: 0x182127C20
+	|-RVA: 0x2127A60 Offset: 0x2126060 VA: 0x182127A60
 	|-Func<InventoryRecipe, object>.BeginInvoke
 	|
-	|-RVA: 0x2128520 Offset: 0x2126B20 VA: 0x182128520
+	|-RVA: 0x2128360 Offset: 0x2126960 VA: 0x182128360
 	|-Func<InventoryRecipe.Ingredient, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x21278A0 Offset: 0x2125EA0 VA: 0x1821278A0
+	|-RVA: 0x21276E0 Offset: 0x2125CE0 VA: 0x1821276E0
 	|-Func<InventoryRecipe.Ingredient, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x2128C20 Offset: 0x2127220 VA: 0x182128C20
+	|-RVA: 0x2128A60 Offset: 0x2127060 VA: 0x182128A60
 	|-Func<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x2127E20 Offset: 0x2126420 VA: 0x182127E20
+	|-RVA: 0x2127C60 Offset: 0x2126260 VA: 0x182127C60
 	|-Func<InventoryRecipe.Ingredient, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x2126E20 Offset: 0x2125420 VA: 0x182126E20
+	|-RVA: 0x2126C60 Offset: 0x2125260 VA: 0x182126C60
 	|-Func<InventoryRecipe.Ingredient, Option>.BeginInvoke
 	|
-	|-RVA: 0x2129420 Offset: 0x2127A20 VA: 0x182129420
+	|-RVA: 0x2129260 Offset: 0x2127860 VA: 0x182129260
 	|-Func<InventoryRecipe.Ingredient, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x212A6A0 Offset: 0x2128CA0 VA: 0x18212A6A0
+	|-RVA: 0x212A4E0 Offset: 0x2128AE0 VA: 0x18212A4E0
 	|-Func<InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x21270A0 Offset: 0x21256A0 VA: 0x1821270A0
+	|-RVA: 0x2126EE0 Offset: 0x21254E0 VA: 0x182126EE0
 	|-Func<InventoryRecipe.Ingredient, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x2127320 Offset: 0x2125920 VA: 0x182127320
+	|-RVA: 0x2127160 Offset: 0x2125760 VA: 0x182127160
 	|-Func<InventoryRecipe.Ingredient, bool>.BeginInvoke
 	|
-	|-RVA: 0x2128F20 Offset: 0x2127520 VA: 0x182128F20
+	|-RVA: 0x2128D60 Offset: 0x2127360 VA: 0x182128D60
 	|-Func<InventoryRecipe.Ingredient, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x2126EA0 Offset: 0x21254A0 VA: 0x182126EA0
+	|-RVA: 0x2126CE0 Offset: 0x21252E0 VA: 0x182126CE0
 	|-Func<InventoryRecipe.Ingredient, int>.BeginInvoke
 	|
-	|-RVA: 0x21292A0 Offset: 0x21278A0 VA: 0x1821292A0
+	|-RVA: 0x21290E0 Offset: 0x21276E0 VA: 0x1821290E0
 	|-Func<InventoryRecipe.Ingredient, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x2129A20 Offset: 0x2128020 VA: 0x182129A20
+	|-RVA: 0x2129860 Offset: 0x2127E60 VA: 0x182129860
 	|-Func<InventoryRecipe.Ingredient, long>.BeginInvoke
 	|
-	|-RVA: 0x2129C20 Offset: 0x2128220 VA: 0x182129C20
+	|-RVA: 0x2129A60 Offset: 0x2128060 VA: 0x182129A60
 	|-Func<InventoryRecipe.Ingredient, object>.BeginInvoke
 	|
-	|-RVA: 0x2129520 Offset: 0x2127B20 VA: 0x182129520
+	|-RVA: 0x2129360 Offset: 0x2127960 VA: 0x182129360
 	|-Func<InventoryRecipe.Ingredient, float>.BeginInvoke
 	|
-	|-RVA: 0x2126CA0 Offset: 0x21252A0 VA: 0x182126CA0
+	|-RVA: 0x2126AE0 Offset: 0x21250E0 VA: 0x182126AE0
 	|-Func<InventoryRecipe.Ingredient, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x2127D20 Offset: 0x2126320 VA: 0x182127D20
+	|-RVA: 0x2127B60 Offset: 0x2126160 VA: 0x182127B60
 	|-Func<Item, DateTime>.BeginInvoke
 	|
-	|-RVA: 0x212ADA0 Offset: 0x21293A0 VA: 0x18212ADA0
+	|-RVA: 0x212ABE0 Offset: 0x21291E0 VA: 0x18212ABE0
 	|-Func<ArraySegment<byte>, object>.BeginInvoke
 	|
-	|-RVA: 0x2129620 Offset: 0x2127C20 VA: 0x182129620
+	|-RVA: 0x2129460 Offset: 0x2127A60 VA: 0x182129460
 	|-Func<bool, bool>.BeginInvoke
 	|
-	|-RVA: 0x21297A0 Offset: 0x2127DA0 VA: 0x1821297A0
+	|-RVA: 0x21295E0 Offset: 0x2127BE0 VA: 0x1821295E0
 	|-Func<char, bool>.BeginInvoke
 	|
-	|-RVA: 0x21286A0 Offset: 0x2126CA0 VA: 0x1821286A0
+	|-RVA: 0x21284E0 Offset: 0x2126AE0 VA: 0x1821284E0
 	|-Func<DictionaryEntry, bool>.BeginInvoke
 	|
-	|-RVA: 0x212A1A0 Offset: 0x21287A0 VA: 0x18212A1A0
+	|-RVA: 0x2129FE0 Offset: 0x21285E0 VA: 0x182129FE0
 	|-Func<DictionaryEntry, KeyValuePair<object, object>>.BeginInvoke
 	|
-	|-RVA: 0x2129720 Offset: 0x2127D20 VA: 0x182129720
+	|-RVA: 0x2129560 Offset: 0x2127B60 VA: 0x182129560
 	|-Func<DictionaryEntry, object>.BeginInvoke
 	|
-	|-RVA: 0x212B220 Offset: 0x2129820 VA: 0x18212B220
+	|-RVA: 0x212B060 Offset: 0x2129660 VA: 0x18212B060
 	|-Func<KeyValuePair<object, int>, bool>.BeginInvoke
 	|
-	|-RVA: 0x2129DA0 Offset: 0x21283A0 VA: 0x182129DA0
+	|-RVA: 0x2129BE0 Offset: 0x21281E0 VA: 0x182129BE0
 	|-Func<KeyValuePair<object, int>, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x21289A0 Offset: 0x2126FA0 VA: 0x1821289A0
+	|-RVA: 0x21287E0 Offset: 0x2126DE0 VA: 0x1821287E0
 	|-Func<KeyValuePair<object, int>, int>.BeginInvoke
 	|
-	|-RVA: 0x2128BA0 Offset: 0x21271A0 VA: 0x182128BA0
+	|-RVA: 0x21289E0 Offset: 0x2126FE0 VA: 0x1821289E0
 	|-Func<KeyValuePair<object, long>, long>.BeginInvoke
 	|
-	|-RVA: 0x2126C20 Offset: 0x2125220 VA: 0x182126C20
+	|-RVA: 0x2126A60 Offset: 0x2125060 VA: 0x182126A60
 	|-Func<KeyValuePair<object, object>, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x2128AA0 Offset: 0x21270A0 VA: 0x182128AA0
+	|-RVA: 0x21288E0 Offset: 0x2126EE0 VA: 0x1821288E0
 	|-Func<KeyValuePair<object, object>, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x21281A0 Offset: 0x21267A0 VA: 0x1821281A0
+	|-RVA: 0x2127FE0 Offset: 0x21265E0 VA: 0x182127FE0
 	|-Func<KeyValuePair<object, object>, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x21274A0 Offset: 0x2125AA0 VA: 0x1821274A0
+	|-RVA: 0x21272E0 Offset: 0x21258E0 VA: 0x1821272E0
 	|-Func<KeyValuePair<object, object>, Option>.BeginInvoke
 	|
-	|-RVA: 0x212A8A0 Offset: 0x2128EA0 VA: 0x18212A8A0
+	|-RVA: 0x212A6E0 Offset: 0x2128CE0 VA: 0x18212A6E0
 	|-Func<KeyValuePair<object, object>, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x21295A0 Offset: 0x2127BA0 VA: 0x1821295A0
+	|-RVA: 0x21293E0 Offset: 0x21279E0 VA: 0x1821293E0
 	|-Func<KeyValuePair<object, object>, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x212A720 Offset: 0x2128D20 VA: 0x18212A720
+	|-RVA: 0x212A560 Offset: 0x2128B60 VA: 0x18212A560
 	|-Func<KeyValuePair<object, object>, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x2129CA0 Offset: 0x21282A0 VA: 0x182129CA0
+	|-RVA: 0x2129AE0 Offset: 0x21280E0 VA: 0x182129AE0
 	|-Func<KeyValuePair<object, object>, bool>.BeginInvoke
 	|
-	|-RVA: 0x2128420 Offset: 0x2126A20 VA: 0x182128420
+	|-RVA: 0x2128260 Offset: 0x2126860 VA: 0x182128260
 	|-Func<KeyValuePair<object, object>, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x21271A0 Offset: 0x21257A0 VA: 0x1821271A0
+	|-RVA: 0x2126FE0 Offset: 0x21255E0 VA: 0x182126FE0
 	|-Func<KeyValuePair<object, object>, int>.BeginInvoke
 	|
-	|-RVA: 0x212B020 Offset: 0x2129620 VA: 0x18212B020
+	|-RVA: 0x212AE60 Offset: 0x2129460 VA: 0x18212AE60
 	|-Func<KeyValuePair<object, object>, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x2128720 Offset: 0x2126D20 VA: 0x182128720
+	|-RVA: 0x2128560 Offset: 0x2126B60 VA: 0x182128560
 	|-Func<KeyValuePair<object, object>, long>.BeginInvoke
 	|
-	|-RVA: 0x2126A20 Offset: 0x2125020 VA: 0x182126A20
+	|-RVA: 0x2126860 Offset: 0x2124E60 VA: 0x182126860
 	|-Func<KeyValuePair<object, object>, object>.BeginInvoke
 	|
-	|-RVA: 0x212B120 Offset: 0x2129720 VA: 0x18212B120
+	|-RVA: 0x212AF60 Offset: 0x2129560 VA: 0x18212AF60
 	|-Func<KeyValuePair<object, object>, float>.BeginInvoke
 	|
-	|-RVA: 0x2127120 Offset: 0x2125720 VA: 0x182127120
+	|-RVA: 0x2126F60 Offset: 0x2125560 VA: 0x182126F60
 	|-Func<KeyValuePair<object, object>, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x212A620 Offset: 0x2128C20 VA: 0x18212A620
+	|-RVA: 0x212A460 Offset: 0x2128A60 VA: 0x18212A460
 	|-Func<KeyValuePair<uint, object>, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x2127DA0 Offset: 0x21263A0 VA: 0x182127DA0
+	|-RVA: 0x2127BE0 Offset: 0x21261E0 VA: 0x182127BE0
 	|-Func<KeyValuePair<uint, object>, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x212B0A0 Offset: 0x21296A0 VA: 0x18212B0A0
+	|-RVA: 0x212AEE0 Offset: 0x21294E0 VA: 0x18212AEE0
 	|-Func<KeyValuePair<uint, object>, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x212A220 Offset: 0x2128820 VA: 0x18212A220
+	|-RVA: 0x212A060 Offset: 0x2128660 VA: 0x18212A060
 	|-Func<KeyValuePair<uint, object>, Option>.BeginInvoke
 	|
-	|-RVA: 0x2128920 Offset: 0x2126F20 VA: 0x182128920
+	|-RVA: 0x2128760 Offset: 0x2126D60 VA: 0x182128760
 	|-Func<KeyValuePair<uint, object>, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x212B4A0 Offset: 0x2129AA0 VA: 0x18212B4A0
+	|-RVA: 0x212B2E0 Offset: 0x21298E0 VA: 0x18212B2E0
 	|-Func<KeyValuePair<uint, object>, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x2129320 Offset: 0x2127920 VA: 0x182129320
+	|-RVA: 0x2129160 Offset: 0x2127760 VA: 0x182129160
 	|-Func<KeyValuePair<uint, object>, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x212B1A0 Offset: 0x21297A0 VA: 0x18212B1A0
+	|-RVA: 0x212AFE0 Offset: 0x21295E0 VA: 0x18212AFE0
 	|-Func<KeyValuePair<uint, object>, bool>.BeginInvoke
 	|
-	|-RVA: 0x212AEA0 Offset: 0x21294A0 VA: 0x18212AEA0
+	|-RVA: 0x212ACE0 Offset: 0x21292E0 VA: 0x18212ACE0
 	|-Func<KeyValuePair<uint, object>, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x212A520 Offset: 0x2128B20 VA: 0x18212A520
+	|-RVA: 0x212A360 Offset: 0x2128960 VA: 0x18212A360
 	|-Func<KeyValuePair<uint, object>, int>.BeginInvoke
 	|
-	|-RVA: 0x2127220 Offset: 0x2125820 VA: 0x182127220
+	|-RVA: 0x2127060 Offset: 0x2125660 VA: 0x182127060
 	|-Func<KeyValuePair<uint, object>, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x21298A0 Offset: 0x2127EA0 VA: 0x1821298A0
+	|-RVA: 0x21296E0 Offset: 0x2127CE0 VA: 0x1821296E0
 	|-Func<KeyValuePair<uint, object>, long>.BeginInvoke
 	|
-	|-RVA: 0x2129920 Offset: 0x2127F20 VA: 0x182129920
+	|-RVA: 0x2129760 Offset: 0x2127D60 VA: 0x182129760
 	|-Func<KeyValuePair<uint, object>, object>.BeginInvoke
 	|
-	|-RVA: 0x2127920 Offset: 0x2125F20 VA: 0x182127920
+	|-RVA: 0x2127760 Offset: 0x2125D60 VA: 0x182127760
 	|-Func<KeyValuePair<uint, object>, float>.BeginInvoke
 	|
-	|-RVA: 0x21280A0 Offset: 0x21266A0 VA: 0x1821280A0
+	|-RVA: 0x2127EE0 Offset: 0x21264E0 VA: 0x182127EE0
 	|-Func<KeyValuePair<uint, object>, uint>.BeginInvoke
 	|
-	|-RVA: 0x212AB20 Offset: 0x2129120 VA: 0x18212AB20
+	|-RVA: 0x212A960 Offset: 0x2128F60 VA: 0x18212A960
 	|-Func<KeyValuePair<uint, object>, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x2126AA0 Offset: 0x21250A0 VA: 0x182126AA0
+	|-RVA: 0x21268E0 Offset: 0x2124EE0 VA: 0x1821268E0
 	|-Func<KeyValuePair<ulong, Dispatch.ResultCallback>, Dispatch.ResultCallback>.BeginInvoke
 	|
-	|-RVA: 0x212A820 Offset: 0x2128E20 VA: 0x18212A820
+	|-RVA: 0x212A660 Offset: 0x2128C60 VA: 0x18212A660
 	|-Func<KeyValuePair<ulong, Dispatch.ResultCallback>, bool>.BeginInvoke
 	|
-	|-RVA: 0x2126D20 Offset: 0x2125320 VA: 0x182126D20
+	|-RVA: 0x2126B60 Offset: 0x2125160 VA: 0x182126B60
 	|-Func<KeyValuePair<ulong, Dispatch.ResultCallback>, ulong>.BeginInvoke
 	|
-	|-RVA: 0x2128D20 Offset: 0x2127320 VA: 0x182128D20
+	|-RVA: 0x2128B60 Offset: 0x2127160 VA: 0x182128B60
 	|-Func<double, double>.BeginInvoke
 	|
-	|-RVA: 0x2127520 Offset: 0x2125B20 VA: 0x182127520
+	|-RVA: 0x2127360 Offset: 0x2125960 VA: 0x182127360
 	|-Func<Guid, int>.BeginInvoke
 	|
-	|-RVA: 0x2128CA0 Offset: 0x21272A0 VA: 0x182128CA0
+	|-RVA: 0x2128AE0 Offset: 0x21270E0 VA: 0x182128AE0
 	|-Func<Guid, object>.BeginInvoke
 	|
-	|-RVA: 0x21272A0 Offset: 0x21258A0 VA: 0x1821272A0
+	|-RVA: 0x21270E0 Offset: 0x21256E0 VA: 0x1821270E0
 	|-Func<int, FourBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x21279A0 Offset: 0x2125FA0 VA: 0x1821279A0
+	|-RVA: 0x21277E0 Offset: 0x2125DE0 VA: 0x1821277E0
 	|-Func<int, SevenBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x2127820 Offset: 0x2125E20 VA: 0x182127820
+	|-RVA: 0x2127660 Offset: 0x2125C60 VA: 0x182127660
 	|-Func<int, bool>.BeginInvoke
 	|
-	|-RVA: 0x21299A0 Offset: 0x2127FA0 VA: 0x1821299A0
+	|-RVA: 0x21297E0 Offset: 0x2127DE0 VA: 0x1821297E0
 	|-Func<int, int>.BeginInvoke
 	|
-	|-RVA: 0x21283A0 Offset: 0x21269A0 VA: 0x1821283A0
+	|-RVA: 0x21281E0 Offset: 0x21267E0 VA: 0x1821281E0
 	|-Func<int, object>.BeginInvoke
 	|
-	|-RVA: 0x212AE20 Offset: 0x2129420 VA: 0x18212AE20
+	|-RVA: 0x212AC60 Offset: 0x2129260 VA: 0x18212AC60
 	|-Func<int, float>.BeginInvoke
 	|
-	|-RVA: 0x2127B20 Offset: 0x2126120 VA: 0x182127B20
+	|-RVA: 0x2127960 Offset: 0x2125F60 VA: 0x182127960
 	|-Func<Int32Enum, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x2127A20 Offset: 0x2126020 VA: 0x182127A20
+	|-RVA: 0x2127860 Offset: 0x2125E60 VA: 0x182127860
 	|-Func<Int32Enum, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x212A320 Offset: 0x2128920 VA: 0x18212A320
+	|-RVA: 0x212A160 Offset: 0x2128760 VA: 0x18212A160
 	|-Func<Int32Enum, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x212A920 Offset: 0x2128F20 VA: 0x18212A920
+	|-RVA: 0x212A760 Offset: 0x2128D60 VA: 0x18212A760
 	|-Func<Int32Enum, Option>.BeginInvoke
 	|
-	|-RVA: 0x2128820 Offset: 0x2126E20 VA: 0x182128820
+	|-RVA: 0x2128660 Offset: 0x2126C60 VA: 0x182128660
 	|-Func<Int32Enum, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x21275A0 Offset: 0x2125BA0 VA: 0x1821275A0
+	|-RVA: 0x21273E0 Offset: 0x21259E0 VA: 0x1821273E0
 	|-Func<Int32Enum, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x21285A0 Offset: 0x2126BA0 VA: 0x1821285A0
+	|-RVA: 0x21283E0 Offset: 0x21269E0 VA: 0x1821283E0
 	|-Func<Int32Enum, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x21294A0 Offset: 0x2127AA0 VA: 0x1821294A0
+	|-RVA: 0x21292E0 Offset: 0x21278E0 VA: 0x1821292E0
 	|-Func<Int32Enum, bool>.BeginInvoke
 	|
-	|-RVA: 0x2127EA0 Offset: 0x21264A0 VA: 0x182127EA0
+	|-RVA: 0x2127CE0 Offset: 0x21262E0 VA: 0x182127CE0
 	|-Func<Int32Enum, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x2129B20 Offset: 0x2128120 VA: 0x182129B20
+	|-RVA: 0x2129960 Offset: 0x2127F60 VA: 0x182129960
 	|-Func<Int32Enum, int>.BeginInvoke
 	|
-	|-RVA: 0x2129D20 Offset: 0x2128320 VA: 0x182129D20
+	|-RVA: 0x2129B60 Offset: 0x2128160 VA: 0x182129B60
 	|-Func<Int32Enum, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x212A3A0 Offset: 0x21289A0 VA: 0x18212A3A0
+	|-RVA: 0x212A1E0 Offset: 0x21287E0 VA: 0x18212A1E0
 	|-Func<Int32Enum, long>.BeginInvoke
 	|
-	|-RVA: 0x2127F20 Offset: 0x2126520 VA: 0x182127F20
+	|-RVA: 0x2127D60 Offset: 0x2126360 VA: 0x182127D60
 	|-Func<Int32Enum, object>.BeginInvoke
 	|
-	|-RVA: 0x212B3A0 Offset: 0x21299A0 VA: 0x18212B3A0
+	|-RVA: 0x212B1E0 Offset: 0x21297E0 VA: 0x18212B1E0
 	|-Func<Int32Enum, float>.BeginInvoke
 	|
-	|-RVA: 0x21290A0 Offset: 0x21276A0 VA: 0x1821290A0
+	|-RVA: 0x2128EE0 Offset: 0x21274E0 VA: 0x182128EE0
 	|-Func<Int32Enum, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x2129EA0 Offset: 0x21284A0 VA: 0x182129EA0
+	|-RVA: 0x2129CE0 Offset: 0x21282E0 VA: 0x182129CE0
 	|-Func<long, bool>.BeginInvoke
 	|
-	|-RVA: 0x21287A0 Offset: 0x2126DA0 VA: 0x1821287A0
+	|-RVA: 0x21285E0 Offset: 0x2126BE0 VA: 0x1821285E0
 	|-Func<long, long>.BeginInvoke
 	|
-	|-RVA: 0x212B320 Offset: 0x2129920 VA: 0x18212B320
+	|-RVA: 0x212B160 Offset: 0x2129760 VA: 0x18212B160
 	|-Func<IntPtr, object>.BeginInvoke
 	|
 	|-RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380
@@ -2106,37 +2106,37 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, ulong>.BeginInvoke
 	|-Func<object, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x19F8D90 Offset: 0x19F7390 VA: 0x1819F8D90
+	|-RVA: 0x19F8D50 Offset: 0x19F7350 VA: 0x1819F8D50
 	|-Func<float, bool>.BeginInvoke
 	|
-	|-RVA: 0x19F8C90 Offset: 0x19F7290 VA: 0x1819F8C90
+	|-RVA: 0x19F8C50 Offset: 0x19F7250 VA: 0x1819F8C50
 	|-Func<float, float>.BeginInvoke
 	|
-	|-RVA: 0x19F8A90 Offset: 0x19F7090 VA: 0x1819F8A90
+	|-RVA: 0x19F8A50 Offset: 0x19F7050 VA: 0x1819F8A50
 	|-Func<uint, bool>.BeginInvoke
 	|
-	|-RVA: 0x19F8B10 Offset: 0x19F7110 VA: 0x1819F8B10
+	|-RVA: 0x19F8AD0 Offset: 0x19F70D0 VA: 0x1819F8AD0
 	|-Func<uint, uint>.BeginInvoke
 	|
-	|-RVA: 0x19F8F10 Offset: 0x19F7510 VA: 0x1819F8F10
+	|-RVA: 0x19F8ED0 Offset: 0x19F74D0 VA: 0x1819F8ED0
 	|-Func<ulong, bool>.BeginInvoke
 	|
-	|-RVA: 0x19F8D10 Offset: 0x19F7310 VA: 0x1819F8D10
+	|-RVA: 0x19F8CD0 Offset: 0x19F72D0 VA: 0x1819F8CD0
 	|-Func<ulong, ulong>.BeginInvoke
 	|
-	|-RVA: 0x19F8B90 Offset: 0x19F7190 VA: 0x1819F8B90
+	|-RVA: 0x19F8B50 Offset: 0x19F7150 VA: 0x1819F8B50
 	|-Func<ValueTuple<Int32Enum, int>, object>.BeginInvoke
 	|
-	|-RVA: 0x19F8F90 Offset: 0x19F7590 VA: 0x1819F8F90
+	|-RVA: 0x19F8F50 Offset: 0x19F7550 VA: 0x1819F8F50
 	|-Func<Resolution, bool>.BeginInvoke
 	|
-	|-RVA: 0x19F8E10 Offset: 0x19F7410 VA: 0x1819F8E10
+	|-RVA: 0x19F8DD0 Offset: 0x19F73D0 VA: 0x1819F8DD0
 	|-Func<Resolution, int>.BeginInvoke
 	|
-	|-RVA: 0x19F8E90 Offset: 0x19F7490 VA: 0x1819F8E90
+	|-RVA: 0x19F8E50 Offset: 0x19F7450 VA: 0x1819F8E50
 	|-Func<Resolution, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x19F8C10 Offset: 0x19F7210 VA: 0x1819F8C10
+	|-RVA: 0x19F8BD0 Offset: 0x19F71D0 VA: 0x1819F8BD0
 	|-Func<Resolution, Vector2Int>.BeginInvoke
 	*/
 
@@ -2356,7 +2356,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<uint, uint>.EndInvoke
 	|-Func<Resolution, int>.EndInvoke
 	|
-	|-RVA: 0x198A750 Offset: 0x1988D50 VA: 0x18198A750
+	|-RVA: 0x198A710 Offset: 0x1988D10 VA: 0x18198A710
 	|-Func<SkeletonDefinition.Bone, ProjectileWeaponMod.Modifier>.EndInvoke
 	|-Func<SkeletonDefinition.Bone, Resolution>.EndInvoke
 	|-Func<PlayerItemRecipe, ProjectileWeaponMod.Modifier>.EndInvoke
@@ -2385,7 +2385,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, Resolution>.EndInvoke
 	|-Func<Resolution, Resolution>.EndInvoke
 	|
-	|-RVA: 0x19F9080 Offset: 0x19F7680 VA: 0x1819F9080
+	|-RVA: 0x19F9040 Offset: 0x19F7640 VA: 0x1819F9040
 	|-Func<SkeletonDefinition.Bone, Option>.EndInvoke
 	|-Func<SkeletonDefinition.Bone, InventoryItem>.EndInvoke
 	|-Func<PlayerItemRecipe, Option>.EndInvoke
@@ -2414,7 +2414,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, Nullable<InventoryPurchaseResult>>.EndInvoke
 	|-Func<object, Nullable<ResultPage>>.EndInvoke
 	|
-	|-RVA: 0x19F91A0 Offset: 0x19F77A0 VA: 0x1819F91A0
+	|-RVA: 0x19F9160 Offset: 0x19F7760 VA: 0x1819F9160
 	|-Func<SkeletonDefinition.Bone, InventoryRecipe.Ingredient>.EndInvoke
 	|-Func<SkeletonDefinition.Bone, InventoryRecipe>.EndInvoke
 	|-Func<PlayerItemRecipe, InventoryRecipe.Ingredient>.EndInvoke
@@ -2443,7 +2443,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, PublishResult>.EndInvoke
 	|-Func<object, Nullable<Image>>.EndInvoke
 	|
-	|-RVA: 0x19F90C0 Offset: 0x19F76C0 VA: 0x1819F90C0
+	|-RVA: 0x19F9080 Offset: 0x19F7680 VA: 0x1819F9080
 	|-Func<SkeletonDefinition.Bone, float>.EndInvoke
 	|-Func<WeightedStringList.Container, float>.EndInvoke
 	|-Func<PlayerItemRecipe, float>.EndInvoke
@@ -2461,16 +2461,16 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, float>.EndInvoke
 	|-Func<float, float>.EndInvoke
 	|
-	|-RVA: 0x212B520 Offset: 0x2129B20 VA: 0x18212B520
+	|-RVA: 0x212B360 Offset: 0x2129960 VA: 0x18212B360
 	|-Func<ServerInfo, ServerInfo>.EndInvoke
 	|
-	|-RVA: 0x212B590 Offset: 0x2129B90 VA: 0x18212B590
+	|-RVA: 0x212B3D0 Offset: 0x21299D0 VA: 0x18212B3D0
 	|-Func<double, double>.EndInvoke
 	|
-	|-RVA: 0x19F9010 Offset: 0x19F7610 VA: 0x1819F9010
+	|-RVA: 0x19F8FD0 Offset: 0x19F75D0 VA: 0x1819F8FD0
 	|-Func<object, Nullable<ServerInfo>>.EndInvoke
 	|
-	|-RVA: 0x19F90F0 Offset: 0x19F76F0 VA: 0x1819F90F0
+	|-RVA: 0x19F90B0 Offset: 0x19F76B0 VA: 0x1819F90B0
 	|-Func<object, Nullable<Item>>.EndInvoke
 	*/
 
@@ -2529,82 +2529,82 @@ internal struct __DTString // TypeDefIndex: 231
 
 	// Methods
 
-	// RVA: 0x235430 Offset: 0x234830 VA: 0x180235430
+	// RVA: 0x2353B0 Offset: 0x2347B0 VA: 0x1802353B0
 	internal void .ctor(string str, DateTimeFormatInfo dtfi, bool checkDigitToken) { }
 
-	// RVA: 0x235510 Offset: 0x234910 VA: 0x180235510
+	// RVA: 0x235490 Offset: 0x234890 VA: 0x180235490
 	internal void .ctor(string str, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0xF3F70 Offset: 0xF3370 VA: 0x1800F3F70
+	// RVA: 0xF3EF0 Offset: 0xF32F0 VA: 0x1800F3EF0
 	internal CompareInfo get_CompareInfo() { }
 
-	// RVA: 0x2349E0 Offset: 0x233DE0 VA: 0x1802349E0
+	// RVA: 0x234960 Offset: 0x233D60 VA: 0x180234960
 	internal bool GetNext() { }
 
-	// RVA: 0x234890 Offset: 0x233C90 VA: 0x180234890
+	// RVA: 0x234810 Offset: 0x233C10 VA: 0x180234810
 	internal bool AtEnd() { }
 
-	// RVA: 0x234850 Offset: 0x233C50 VA: 0x180234850
+	// RVA: 0x2347D0 Offset: 0x233BD0 VA: 0x1802347D0
 	internal bool Advance(int count) { }
 
-	// RVA: 0x234A20 Offset: 0x233E20 VA: 0x180234A20
+	// RVA: 0x2349A0 Offset: 0x233DA0 VA: 0x1802349A0
 	internal void GetRegularToken(out TokenType tokenType, out int tokenValue, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x234AB0 Offset: 0x233EB0 VA: 0x180234AB0
+	// RVA: 0x234A30 Offset: 0x233E30 VA: 0x180234A30
 	internal TokenType GetSeparatorToken(DateTimeFormatInfo dtfi, out int indexBeforeSeparator, out char charBeforeSeparator) { }
 
-	// RVA: 0x234E70 Offset: 0x234270 VA: 0x180234E70
+	// RVA: 0x234DF0 Offset: 0x2341F0 VA: 0x180234DF0
 	internal bool MatchSpecifiedWord(string target) { }
 
-	// RVA: 0x234DF0 Offset: 0x2341F0 VA: 0x180234DF0
+	// RVA: 0x234D70 Offset: 0x234170 VA: 0x180234D70
 	internal bool MatchSpecifiedWord(string target, int endIndex) { }
 
-	// RVA: 0x234EF0 Offset: 0x2342F0 VA: 0x180234EF0
+	// RVA: 0x234E70 Offset: 0x234270 VA: 0x180234E70
 	internal bool MatchSpecifiedWords(string target, bool checkWordBoundary, ref int matchLength) { }
 
-	// RVA: 0x234F00 Offset: 0x234300 VA: 0x180234F00
+	// RVA: 0x234E80 Offset: 0x234280 VA: 0x180234E80
 	internal bool Match(string str) { }
 
-	// RVA: 0x234FB0 Offset: 0x2343B0 VA: 0x180234FB0
+	// RVA: 0x234F30 Offset: 0x234330 VA: 0x180234F30
 	internal bool Match(char ch) { }
 
-	// RVA: 0x234D40 Offset: 0x234140 VA: 0x180234D40
+	// RVA: 0x234CC0 Offset: 0x2340C0 VA: 0x180234CC0
 	internal int MatchLongestWords(string[] words, ref int maxMatchStrLen) { }
 
-	// RVA: 0x234A30 Offset: 0x233E30 VA: 0x180234A30
+	// RVA: 0x2349B0 Offset: 0x233DB0 VA: 0x1802349B0
 	internal int GetRepeatCount() { }
 
-	// RVA: 0x234960 Offset: 0x233D60 VA: 0x180234960
+	// RVA: 0x2348E0 Offset: 0x233CE0 VA: 0x1802348E0
 	internal bool GetNextDigit() { }
 
-	// RVA: 0x234900 Offset: 0x233D00 VA: 0x180234900
+	// RVA: 0x234880 Offset: 0x233C80 VA: 0x180234880
 	internal char GetChar() { }
 
-	// RVA: 0x234930 Offset: 0x233D30 VA: 0x180234930
+	// RVA: 0x2348B0 Offset: 0x233CB0 VA: 0x1802348B0
 	internal int GetDigit() { }
 
-	// RVA: 0x2352B0 Offset: 0x2346B0 VA: 0x1802352B0
+	// RVA: 0x235230 Offset: 0x234630 VA: 0x180235230
 	internal void SkipWhiteSpaces() { }
 
-	// RVA: 0x2352A0 Offset: 0x2346A0 VA: 0x1802352A0
+	// RVA: 0x235220 Offset: 0x234620 VA: 0x180235220
 	internal bool SkipWhiteSpaceCurrent() { }
 
-	// RVA: 0x235350 Offset: 0x234750 VA: 0x180235350
+	// RVA: 0x2352D0 Offset: 0x2346D0 VA: 0x1802352D0
 	internal void TrimTail() { }
 
-	// RVA: 0x235130 Offset: 0x234530 VA: 0x180235130
+	// RVA: 0x2350B0 Offset: 0x2344B0 VA: 0x1802350B0
 	internal void RemoveTrailingInQuoteSpaces() { }
 
-	// RVA: 0x235010 Offset: 0x234410 VA: 0x180235010
+	// RVA: 0x234F90 Offset: 0x234390 VA: 0x180234F90
 	internal void RemoveLeadingInQuoteSpaces() { }
 
-	// RVA: 0x234BC0 Offset: 0x233FC0 VA: 0x180234BC0
+	// RVA: 0x234B40 Offset: 0x233F40 VA: 0x180234B40
 	internal DTSubString GetSubString() { }
 
-	// RVA: 0x2348A0 Offset: 0x233CA0 VA: 0x1802348A0
+	// RVA: 0x234820 Offset: 0x233C20 VA: 0x180234820
 	internal void ConsumeSubString(DTSubString sub) { }
 
-	// RVA: 0x214C1B0 Offset: 0x214A7B0 VA: 0x18214C1B0
+	// RVA: 0x214BFF0 Offset: 0x214A5F0 VA: 0x18214BFF0
 	private static void .cctor() { }
 
 }
@@ -2612,7 +2612,7 @@ internal struct __DTString // TypeDefIndex: 231
 internal class __ComObject // TypeDefIndex: 429
 {	// Methods
 
-	// RVA: 0x214AF50 Offset: 0x2149550 VA: 0x18214AF50
+	// RVA: 0x214AD90 Offset: 0x2149390 VA: 0x18214AD90
 	private void .ctor() { }
 
 }
@@ -2677,7 +2677,7 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E3470 Offset: 0x19E1A70 VA: 0x1819E3470
+	|-RVA: 0x19E3430 Offset: 0x19E1A30 VA: 0x1819E3430
 	|-Iterator<object>..ctor
 	*/
 
@@ -2701,7 +2701,7 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A02620 Offset: 0x1A00C20 VA: 0x181A02620
+	|-RVA: 0x1A025E0 Offset: 0x1A00BE0 VA: 0x181A025E0
 	|-Iterator<object>.Dispose
 	*/
 
@@ -2709,7 +2709,7 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	protected virtual void Dispose(bool disposing) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E2230 Offset: 0x19E0830 VA: 0x1819E2230
+	|-RVA: 0x19E21F0 Offset: 0x19E07F0 VA: 0x1819E21F0
 	|-Iterator<object>.Dispose
 	*/
 
@@ -2717,7 +2717,7 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	public IEnumerator<TSource> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E22F0 Offset: 0x19E08F0 VA: 0x1819E22F0
+	|-RVA: 0x19E22B0 Offset: 0x19E08B0 VA: 0x1819E22B0
 	|-Iterator<object>.GetEnumerator
 	*/
 
@@ -2749,7 +2749,7 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A026A0 Offset: 0x1A00CA0 VA: 0x181A026A0
+	|-RVA: 0x1A02660 Offset: 0x1A00C60 VA: 0x181A02660
 	|-Iterator<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -2800,7 +2800,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal static readonly Func<Task<Task>, Task<TResult>> TaskWhenAnyCast; // 0x0
 
 	// Properties
-	[DebuggerBrowsableAttribute] // RVA: 0x9E940 Offset: 0x9DD40 VA: 0x18009E940
+	[DebuggerBrowsableAttribute] // RVA: 0x9E9D0 Offset: 0x9DDD0 VA: 0x18009E9D0
 	public TResult Result { get; }
 	internal TResult ResultOnSuccess { get; }
 	public static TaskFactory<TResult> Factory { get; }
@@ -2811,47 +2811,47 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A9CCE0 Offset: 0x1A9B2E0 VA: 0x181A9CCE0
+	|-RVA: 0x1AAB370 Offset: 0x1AA9970 VA: 0x181AAB370
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A9AF00 Offset: 0x1A99500 VA: 0x181A9AF00
+	|-RVA: 0x1AA9590 Offset: 0x1AA7B90 VA: 0x181AA9590
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A9B660 Offset: 0x1A99C60 VA: 0x181A9B660
+	|-RVA: 0x1AA9CF0 Offset: 0x1AA82F0 VA: 0x181AA9CF0
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A9B200 Offset: 0x1A99800 VA: 0x181A9B200
+	|-RVA: 0x1AA9890 Offset: 0x1AA7E90 VA: 0x181AA9890
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A9B9E0 Offset: 0x1A99FE0 VA: 0x181A9B9E0
+	|-RVA: 0x1AAA070 Offset: 0x1AA8670 VA: 0x181AAA070
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A9AB90 Offset: 0x1A99190 VA: 0x181A9AB90
+	|-RVA: 0x1AA9220 Offset: 0x1AA7820 VA: 0x181AA9220
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A9C070 Offset: 0x1A9A670 VA: 0x181A9C070
+	|-RVA: 0x1AAA700 Offset: 0x1AA8D00 VA: 0x181AAA700
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A9C9B0 Offset: 0x1A9AFB0 VA: 0x181A9C9B0
+	|-RVA: 0x1AAB040 Offset: 0x1AA9640 VA: 0x181AAB040
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A9AF60 Offset: 0x1A99560 VA: 0x181A9AF60
+	|-RVA: 0x1AA95F0 Offset: 0x1AA7BF0 VA: 0x181AA95F0
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A9AEA0 Offset: 0x1A994A0 VA: 0x181A9AEA0
+	|-RVA: 0x1AA9530 Offset: 0x1AA7B30 VA: 0x181AA9530
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A57280 Offset: 0x1A55880 VA: 0x181A57280
+	|-RVA: 0x1A57240 Offset: 0x1A55840 VA: 0x181A57240
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A56A60 Offset: 0x1A55060 VA: 0x181A56A60
+	|-RVA: 0x1A56A20 Offset: 0x1A55020 VA: 0x181A56A20
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A565C0 Offset: 0x1A54BC0 VA: 0x181A565C0
+	|-RVA: 0x1A56580 Offset: 0x1A54B80 VA: 0x181A56580
 	|-Task<object>..ctor
 	|-Task<Task>..ctor
 	|
-	|-RVA: 0x1A56AC0 Offset: 0x1A550C0 VA: 0x181A56AC0
+	|-RVA: 0x1A56A80 Offset: 0x1A55080 VA: 0x181A56A80
 	|-Task<VoidTaskResult>..ctor
 	*/
 
@@ -2859,46 +2859,46 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal void .ctor(object state, TaskCreationOptions options) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A9BA40 Offset: 0x1A9A040 VA: 0x181A9BA40
+	|-RVA: 0x1AAA0D0 Offset: 0x1AA86D0 VA: 0x181AAA0D0
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A9BBB0 Offset: 0x1A9A1B0 VA: 0x181A9BBB0
+	|-RVA: 0x1AAA240 Offset: 0x1AA8840 VA: 0x181AAA240
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A9CAA0 Offset: 0x1A9B0A0 VA: 0x181A9CAA0
+	|-RVA: 0x1AAB130 Offset: 0x1AA9730 VA: 0x181AAB130
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A9CC50 Offset: 0x1A9B250 VA: 0x181A9CC50
+	|-RVA: 0x1AAB2E0 Offset: 0x1AA98E0 VA: 0x181AAB2E0
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A9A8B0 Offset: 0x1A98EB0 VA: 0x181A9A8B0
+	|-RVA: 0x1AA8F40 Offset: 0x1AA7540 VA: 0x181AA8F40
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A9B170 Offset: 0x1A99770 VA: 0x181A9B170
+	|-RVA: 0x1AA9800 Offset: 0x1AA7E00 VA: 0x181AA9800
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A9AD80 Offset: 0x1A99380 VA: 0x181A9AD80
+	|-RVA: 0x1AA9410 Offset: 0x1AA7A10 VA: 0x181AA9410
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A9AE10 Offset: 0x1A99410 VA: 0x181A9AE10
+	|-RVA: 0x1AA94A0 Offset: 0x1AA7AA0 VA: 0x181AA94A0
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A997F0 Offset: 0x1A97DF0 VA: 0x181A997F0
+	|-RVA: 0x1AA7E80 Offset: 0x1AA6480 VA: 0x181AA7E80
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A99CC0 Offset: 0x1A982C0 VA: 0x181A99CC0
+	|-RVA: 0x1AA8350 Offset: 0x1AA6950 VA: 0x181AA8350
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A569D0 Offset: 0x1A54FD0 VA: 0x181A569D0
+	|-RVA: 0x1A56990 Offset: 0x1A54F90 VA: 0x181A56990
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A56C40 Offset: 0x1A55240 VA: 0x181A56C40
+	|-RVA: 0x1A56C00 Offset: 0x1A55200 VA: 0x181A56C00
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A570D0 Offset: 0x1A556D0 VA: 0x181A570D0
+	|-RVA: 0x1A57090 Offset: 0x1A55690 VA: 0x181A57090
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A57380 Offset: 0x1A55980 VA: 0x181A57380
+	|-RVA: 0x1A57340 Offset: 0x1A55940 VA: 0x181A57340
 	|-Task<VoidTaskResult>..ctor
 	*/
 
@@ -2906,46 +2906,46 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal void .ctor(TResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A9A650 Offset: 0x1A98C50 VA: 0x181A9A650
+	|-RVA: 0x1AA8CE0 Offset: 0x1AA72E0 VA: 0x181AA8CE0
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A990D0 Offset: 0x1A976D0 VA: 0x181A990D0
+	|-RVA: 0x1AA7760 Offset: 0x1AA5D60 VA: 0x181AA7760
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A99880 Offset: 0x1A97E80 VA: 0x181A99880
+	|-RVA: 0x1AA7F10 Offset: 0x1AA6510 VA: 0x181AA7F10
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A9CA10 Offset: 0x1A9B010 VA: 0x181A9CA10
+	|-RVA: 0x1AAB0A0 Offset: 0x1AA96A0 VA: 0x181AAB0A0
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A9C0D0 Offset: 0x1A9A6D0 VA: 0x181A9C0D0
+	|-RVA: 0x1AAA760 Offset: 0x1AA8D60 VA: 0x181AAA760
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A9BFD0 Offset: 0x1A9A5D0 VA: 0x181A9BFD0
+	|-RVA: 0x1AAA660 Offset: 0x1AA8C60 VA: 0x181AAA660
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A9AFC0 Offset: 0x1A995C0 VA: 0x181A9AFC0
+	|-RVA: 0x1AA9650 Offset: 0x1AA7C50 VA: 0x181AA9650
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A9AB00 Offset: 0x1A99100 VA: 0x181A9AB00
+	|-RVA: 0x1AA9190 Offset: 0x1AA7790 VA: 0x181AA9190
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A9C1B0 Offset: 0x1A9A7B0 VA: 0x181A9C1B0
+	|-RVA: 0x1AAA840 Offset: 0x1AA8E40 VA: 0x181AAA840
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A99C30 Offset: 0x1A98230 VA: 0x181A99C30
+	|-RVA: 0x1AA82C0 Offset: 0x1AA68C0 VA: 0x181AA82C0
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A56DF0 Offset: 0x1A553F0 VA: 0x181A56DF0
+	|-RVA: 0x1A56DB0 Offset: 0x1A553B0 VA: 0x181A56DB0
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A55CD0 Offset: 0x1A542D0 VA: 0x181A55CD0
+	|-RVA: 0x1A55C90 Offset: 0x1A54290 VA: 0x181A55C90
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A56740 Offset: 0x1A54D40 VA: 0x181A56740
+	|-RVA: 0x1A56700 Offset: 0x1A54D00 VA: 0x181A56700
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A56540 Offset: 0x1A54B40 VA: 0x181A56540
+	|-RVA: 0x1A56500 Offset: 0x1A54B00 VA: 0x181A56500
 	|-Task<VoidTaskResult>..ctor
 	*/
 
@@ -2953,46 +2953,46 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal void .ctor(bool canceled, TResult result, TaskCreationOptions creationOptions, CancellationToken ct) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A9CD40 Offset: 0x1A9B340 VA: 0x181A9CD40
+	|-RVA: 0x1AAB3D0 Offset: 0x1AA99D0 VA: 0x181AAB3D0
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A99D50 Offset: 0x1A98350 VA: 0x181A99D50
+	|-RVA: 0x1AA83E0 Offset: 0x1AA69E0 VA: 0x181AA83E0
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A99150 Offset: 0x1A97750 VA: 0x181A99150
+	|-RVA: 0x1AA77E0 Offset: 0x1AA5DE0 VA: 0x181AA77E0
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A9BF20 Offset: 0x1A9A520 VA: 0x181A9BF20
+	|-RVA: 0x1AAA5B0 Offset: 0x1AA8BB0 VA: 0x181AAA5B0
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A99FF0 Offset: 0x1A985F0 VA: 0x181A99FF0
+	|-RVA: 0x1AA8680 Offset: 0x1AA6C80 VA: 0x181AA8680
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A9A470 Offset: 0x1A98A70 VA: 0x181A9A470
+	|-RVA: 0x1AA8B00 Offset: 0x1AA7100 VA: 0x181AA8B00
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A9ACD0 Offset: 0x1A992D0 VA: 0x181A9ACD0
+	|-RVA: 0x1AA9360 Offset: 0x1AA7960 VA: 0x181AA9360
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A9C900 Offset: 0x1A9AF00 VA: 0x181A9C900
+	|-RVA: 0x1AAAF90 Offset: 0x1AA9590 VA: 0x181AAAF90
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A99900 Offset: 0x1A97F00 VA: 0x181A99900
+	|-RVA: 0x1AA7F90 Offset: 0x1AA6590 VA: 0x181AA7F90
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A9A800 Offset: 0x1A98E00 VA: 0x181A9A800
+	|-RVA: 0x1AA8E90 Offset: 0x1AA7490 VA: 0x181AA8E90
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A56E70 Offset: 0x1A55470 VA: 0x181A56E70
+	|-RVA: 0x1A56E30 Offset: 0x1A55430 VA: 0x181A56E30
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A55D50 Offset: 0x1A54350 VA: 0x181A55D50
+	|-RVA: 0x1A55D10 Offset: 0x1A54310 VA: 0x181A55D10
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A561F0 Offset: 0x1A547F0 VA: 0x181A561F0
+	|-RVA: 0x1A561B0 Offset: 0x1A547B0 VA: 0x181A561B0
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A572E0 Offset: 0x1A558E0 VA: 0x181A572E0
+	|-RVA: 0x1A572A0 Offset: 0x1A558A0 VA: 0x181A572A0
 	|-Task<VoidTaskResult>..ctor
 	*/
 
@@ -3000,46 +3000,46 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	public void .ctor(Func<object, TResult> function, object state, CancellationToken cancellationToken, TaskCreationOptions creationOptions) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A9BD60 Offset: 0x1A9A360 VA: 0x181A9BD60
+	|-RVA: 0x1AAA3F0 Offset: 0x1AA89F0 VA: 0x181AAA3F0
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A9BE40 Offset: 0x1A9A440 VA: 0x181A9BE40
+	|-RVA: 0x1AAA4D0 Offset: 0x1AA8AD0 VA: 0x181AAA4D0
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A99550 Offset: 0x1A97B50 VA: 0x181A99550
+	|-RVA: 0x1AA7BE0 Offset: 0x1AA61E0 VA: 0x181AA7BE0
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A99630 Offset: 0x1A97C30 VA: 0x181A99630
+	|-RVA: 0x1AA7CC0 Offset: 0x1AA62C0 VA: 0x181AA7CC0
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A99710 Offset: 0x1A97D10 VA: 0x181A99710
+	|-RVA: 0x1AA7DA0 Offset: 0x1AA63A0 VA: 0x181AA7DA0
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A9A1D0 Offset: 0x1A987D0 VA: 0x181A9A1D0
+	|-RVA: 0x1AA8860 Offset: 0x1AA6E60 VA: 0x181AA8860
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A9B580 Offset: 0x1A99B80 VA: 0x181A9B580
+	|-RVA: 0x1AA9C10 Offset: 0x1AA8210 VA: 0x181AA9C10
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A99DF0 Offset: 0x1A983F0 VA: 0x181A99DF0
+	|-RVA: 0x1AA8480 Offset: 0x1AA6A80 VA: 0x181AA8480
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A99A30 Offset: 0x1A98030 VA: 0x181A99A30
+	|-RVA: 0x1AA80C0 Offset: 0x1AA66C0 VA: 0x181AA80C0
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A9BAD0 Offset: 0x1A9A0D0 VA: 0x181A9BAD0
+	|-RVA: 0x1AAA160 Offset: 0x1AA8760 VA: 0x181AAA160
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A568F0 Offset: 0x1A54EF0 VA: 0x181A568F0
+	|-RVA: 0x1A568B0 Offset: 0x1A54EB0 VA: 0x181A568B0
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A55F10 Offset: 0x1A54510 VA: 0x181A55F10
+	|-RVA: 0x1A55ED0 Offset: 0x1A544D0 VA: 0x181A55ED0
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A562A0 Offset: 0x1A548A0 VA: 0x181A562A0
+	|-RVA: 0x1A56260 Offset: 0x1A54860 VA: 0x181A56260
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A55FF0 Offset: 0x1A545F0 VA: 0x181A55FF0
+	|-RVA: 0x1A55FB0 Offset: 0x1A545B0 VA: 0x181A55FB0
 	|-Task<VoidTaskResult>..ctor
 	*/
 
@@ -3047,46 +3047,46 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal void .ctor(Func<TResult> valueSelector, Task parent, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A9AA20 Offset: 0x1A99020 VA: 0x181A9AA20
+	|-RVA: 0x1AA90B0 Offset: 0x1AA76B0 VA: 0x181AA90B0
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A9C820 Offset: 0x1A9AE20 VA: 0x181A9C820
+	|-RVA: 0x1AAAEB0 Offset: 0x1AA94B0 VA: 0x181AAAEB0
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A9B7E0 Offset: 0x1A99DE0 VA: 0x181A9B7E0
+	|-RVA: 0x1AA9E70 Offset: 0x1AA8470 VA: 0x181AA9E70
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A9B380 Offset: 0x1A99980 VA: 0x181A9B380
+	|-RVA: 0x1AA9A10 Offset: 0x1AA8010 VA: 0x181AA9A10
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A9A940 Offset: 0x1A98F40 VA: 0x181A9A940
+	|-RVA: 0x1AA8FD0 Offset: 0x1AA75D0 VA: 0x181AA8FD0
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A9ABF0 Offset: 0x1A991F0 VA: 0x181A9ABF0
+	|-RVA: 0x1AA9280 Offset: 0x1AA7880 VA: 0x181AA9280
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A9A0F0 Offset: 0x1A986F0 VA: 0x181A9A0F0
+	|-RVA: 0x1AA8780 Offset: 0x1AA6D80 VA: 0x181AA8780
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A9A2B0 Offset: 0x1A988B0 VA: 0x181A9A2B0
+	|-RVA: 0x1AA8940 Offset: 0x1AA6F40 VA: 0x181AA8940
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A9C740 Offset: 0x1A9AD40 VA: 0x181A9C740
+	|-RVA: 0x1AAADD0 Offset: 0x1AA93D0 VA: 0x181AAADD0
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A9A390 Offset: 0x1A98990 VA: 0x181A9A390
+	|-RVA: 0x1AA8A20 Offset: 0x1AA7020 VA: 0x181AA8A20
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A56460 Offset: 0x1A54A60 VA: 0x181A56460
+	|-RVA: 0x1A56420 Offset: 0x1A54A20 VA: 0x181A56420
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A56F10 Offset: 0x1A55510 VA: 0x181A56F10
+	|-RVA: 0x1A56ED0 Offset: 0x1A554D0 VA: 0x181A56ED0
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A56FF0 Offset: 0x1A555F0 VA: 0x181A56FF0
+	|-RVA: 0x1A56FB0 Offset: 0x1A555B0 VA: 0x181A56FB0
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A56380 Offset: 0x1A54980 VA: 0x181A56380
+	|-RVA: 0x1A56340 Offset: 0x1A54940 VA: 0x181A56340
 	|-Task<VoidTaskResult>..ctor
 	*/
 
@@ -3094,46 +3094,46 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal void .ctor(Func<TResult> valueSelector, Task parent, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A9CB30 Offset: 0x1A9B130 VA: 0x181A9CB30
+	|-RVA: 0x1AAB1C0 Offset: 0x1AA97C0 VA: 0x181AAB1C0
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A9C2C0 Offset: 0x1A9A8C0 VA: 0x181A9C2C0
+	|-RVA: 0x1AAA950 Offset: 0x1AA8F50 VA: 0x181AAA950
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A991F0 Offset: 0x1A977F0 VA: 0x181A991F0
+	|-RVA: 0x1AA7880 Offset: 0x1AA5E80 VA: 0x181AA7880
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A9C620 Offset: 0x1A9AC20 VA: 0x181A9C620
+	|-RVA: 0x1AAACB0 Offset: 0x1AA92B0 VA: 0x181AAACB0
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A99ED0 Offset: 0x1A984D0 VA: 0x181A99ED0
+	|-RVA: 0x1AA8560 Offset: 0x1AA6B60 VA: 0x181AA8560
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A99310 Offset: 0x1A97910 VA: 0x181A99310
+	|-RVA: 0x1AA79A0 Offset: 0x1AA5FA0 VA: 0x181AA79A0
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A9B460 Offset: 0x1A99A60 VA: 0x181A9B460
+	|-RVA: 0x1AA9AF0 Offset: 0x1AA80F0 VA: 0x181AA9AF0
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A98FB0 Offset: 0x1A975B0 VA: 0x181A98FB0
+	|-RVA: 0x1AA7640 Offset: 0x1AA5C40 VA: 0x181AA7640
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A99430 Offset: 0x1A97A30 VA: 0x181A99430
+	|-RVA: 0x1AA7AC0 Offset: 0x1AA60C0 VA: 0x181AA7AC0
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A9CDF0 Offset: 0x1A9B3F0 VA: 0x181A9CDF0
+	|-RVA: 0x1AAB480 Offset: 0x1AA9A80 VA: 0x181AAB480
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A567D0 Offset: 0x1A54DD0 VA: 0x181A567D0
+	|-RVA: 0x1A56790 Offset: 0x1A54D90 VA: 0x181A56790
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A57410 Offset: 0x1A55A10 VA: 0x181A57410
+	|-RVA: 0x1A573D0 Offset: 0x1A559D0 VA: 0x181A573D0
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A57160 Offset: 0x1A55760 VA: 0x181A57160
+	|-RVA: 0x1A57120 Offset: 0x1A55720 VA: 0x181A57120
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A56CD0 Offset: 0x1A552D0 VA: 0x181A56CD0
+	|-RVA: 0x1A56C90 Offset: 0x1A55290 VA: 0x181A56C90
 	|-Task<VoidTaskResult>..ctor
 	*/
 
@@ -3141,46 +3141,46 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal void .ctor(Delegate valueSelector, object state, Task parent, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A9A530 Offset: 0x1A98B30 VA: 0x181A9A530
+	|-RVA: 0x1AA8BC0 Offset: 0x1AA71C0 VA: 0x181AA8BC0
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A9B050 Offset: 0x1A99650 VA: 0x181A9B050
+	|-RVA: 0x1AA96E0 Offset: 0x1AA7CE0 VA: 0x181AA96E0
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A9A6E0 Offset: 0x1A98CE0 VA: 0x181A9A6E0
+	|-RVA: 0x1AA8D70 Offset: 0x1AA7370 VA: 0x181AA8D70
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A9C3E0 Offset: 0x1A9A9E0 VA: 0x181A9C3E0
+	|-RVA: 0x1AAAA70 Offset: 0x1AA9070 VA: 0x181AAAA70
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A99B10 Offset: 0x1A98110 VA: 0x181A99B10
+	|-RVA: 0x1AA81A0 Offset: 0x1AA67A0 VA: 0x181AA81A0
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A9C500 Offset: 0x1A9AB00 VA: 0x181A9C500
+	|-RVA: 0x1AAAB90 Offset: 0x1AA9190 VA: 0x181AAAB90
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A9B6C0 Offset: 0x1A99CC0 VA: 0x181A9B6C0
+	|-RVA: 0x1AA9D50 Offset: 0x1AA8350 VA: 0x181AA9D50
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A9B8C0 Offset: 0x1A99EC0 VA: 0x181A9B8C0
+	|-RVA: 0x1AA9F50 Offset: 0x1AA8550 VA: 0x181AA9F50
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A9BC40 Offset: 0x1A9A240 VA: 0x181A9BC40
+	|-RVA: 0x1AAA2D0 Offset: 0x1AA88D0 VA: 0x181AAA2D0
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A9B260 Offset: 0x1A99860 VA: 0x181A9B260
+	|-RVA: 0x1AA98F0 Offset: 0x1AA7EF0 VA: 0x181AA98F0
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A55DF0 Offset: 0x1A543F0 VA: 0x181A55DF0
+	|-RVA: 0x1A55DB0 Offset: 0x1A543B0 VA: 0x181A55DB0
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A56620 Offset: 0x1A54C20 VA: 0x181A56620
+	|-RVA: 0x1A565E0 Offset: 0x1A54BE0 VA: 0x181A565E0
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A560D0 Offset: 0x1A546D0 VA: 0x181A560D0
+	|-RVA: 0x1A56090 Offset: 0x1A54690 VA: 0x181A56090
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A56B20 Offset: 0x1A55120 VA: 0x181A56B20
+	|-RVA: 0x1A56AE0 Offset: 0x1A550E0 VA: 0x181A56AE0
 	|-Task<VoidTaskResult>..ctor
 	*/
 
@@ -3188,46 +3188,46 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal static Task<TResult> StartNew(Task parent, Func<TResult> function, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A98690 Offset: 0x1A96C90 VA: 0x181A98690
+	|-RVA: 0x1AA6D20 Offset: 0x1AA5320 VA: 0x181AA6D20
 	|-Task<PublishResult>.StartNew
 	|
-	|-RVA: 0x1A97910 Offset: 0x1A95F10 VA: 0x181A97910
+	|-RVA: 0x1AA5FA0 Offset: 0x1AA45A0 VA: 0x181AA5FA0
 	|-Task<bool>.StartNew
 	|
-	|-RVA: 0x1A976D0 Offset: 0x1A95CD0 VA: 0x181A976D0
+	|-RVA: 0x1AA5D60 Offset: 0x1AA4360 VA: 0x181AA5D60
 	|-Task<int>.StartNew
 	|
-	|-RVA: 0x1A97D90 Offset: 0x1A96390 VA: 0x181A97D90
+	|-RVA: 0x1AA6420 Offset: 0x1AA4A20 VA: 0x181AA6420
 	|-Task<UdpReceiveResult>.StartNew
 	|
-	|-RVA: 0x1A97B50 Offset: 0x1A96150 VA: 0x181A97B50
+	|-RVA: 0x1AA61E0 Offset: 0x1AA47E0 VA: 0x181AA61E0
 	|-Task<Nullable<ServerInfo>>.StartNew
 	|
-	|-RVA: 0x1A98450 Offset: 0x1A96A50 VA: 0x181A98450
+	|-RVA: 0x1AA6AE0 Offset: 0x1AA50E0 VA: 0x181AA6AE0
 	|-Task<Nullable<Image>>.StartNew
 	|
-	|-RVA: 0x1A97490 Offset: 0x1A95A90 VA: 0x181A97490
+	|-RVA: 0x1AA5B20 Offset: 0x1AA4120 VA: 0x181AA5B20
 	|-Task<Nullable<InventoryPurchaseResult>>.StartNew
 	|
-	|-RVA: 0x1A97250 Offset: 0x1A95850 VA: 0x181A97250
+	|-RVA: 0x1AA58E0 Offset: 0x1AA3EE0 VA: 0x181AA58E0
 	|-Task<Nullable<InventoryResult>>.StartNew
 	|
-	|-RVA: 0x1A98210 Offset: 0x1A96810 VA: 0x181A98210
+	|-RVA: 0x1AA68A0 Offset: 0x1AA4EA0 VA: 0x181AA68A0
 	|-Task<Nullable<Item>>.StartNew
 	|
-	|-RVA: 0x1A97FD0 Offset: 0x1A965D0 VA: 0x181A97FD0
+	|-RVA: 0x1AA6660 Offset: 0x1AA4C60 VA: 0x181AA6660
 	|-Task<Nullable<ResultPage>>.StartNew
 	|
-	|-RVA: 0x1A55440 Offset: 0x1A53A40 VA: 0x181A55440
+	|-RVA: 0x1A55400 Offset: 0x1A53A00 VA: 0x181A55400
 	|-Task<Nullable<int>>.StartNew
 	|
-	|-RVA: 0x1A54D80 Offset: 0x1A53380 VA: 0x181A54D80
+	|-RVA: 0x1A54D40 Offset: 0x1A53340 VA: 0x181A54D40
 	|-Task<Nullable<Int32Enum>>.StartNew
 	|
-	|-RVA: 0x1A54FC0 Offset: 0x1A535C0 VA: 0x181A54FC0
+	|-RVA: 0x1A54F80 Offset: 0x1A53580 VA: 0x181A54F80
 	|-Task<object>.StartNew
 	|
-	|-RVA: 0x1A55200 Offset: 0x1A53800 VA: 0x181A55200
+	|-RVA: 0x1A551C0 Offset: 0x1A537C0 VA: 0x181A551C0
 	|-Task<VoidTaskResult>.StartNew
 	*/
 
@@ -3235,40 +3235,40 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal bool TrySetResult(TResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A98EF0 Offset: 0x1A974F0 VA: 0x181A98EF0
+	|-RVA: 0x1AA7580 Offset: 0x1AA5B80 VA: 0x181AA7580
 	|-Task<PublishResult>.TrySetResult
 	|
-	|-RVA: 0x1A55920 Offset: 0x1A53F20 VA: 0x181A55920
+	|-RVA: 0x1A558E0 Offset: 0x1A53EE0 VA: 0x181A558E0
 	|-Task<bool>.TrySetResult
 	|-Task<VoidTaskResult>.TrySetResult
 	|
-	|-RVA: 0x1A988D0 Offset: 0x1A96ED0 VA: 0x181A988D0
+	|-RVA: 0x1AA6F60 Offset: 0x1AA5560 VA: 0x181AA6F60
 	|-Task<int>.TrySetResult
 	|
-	|-RVA: 0x1A98A40 Offset: 0x1A97040 VA: 0x181A98A40
+	|-RVA: 0x1AA70D0 Offset: 0x1AA56D0 VA: 0x181AA70D0
 	|-Task<UdpReceiveResult>.TrySetResult
 	|
-	|-RVA: 0x1A98C50 Offset: 0x1A97250 VA: 0x181A98C50
+	|-RVA: 0x1AA72E0 Offset: 0x1AA58E0 VA: 0x181AA72E0
 	|-Task<Nullable<ServerInfo>>.TrySetResult
 	|
-	|-RVA: 0x1A98D60 Offset: 0x1A97360 VA: 0x181A98D60
+	|-RVA: 0x1AA73F0 Offset: 0x1AA59F0 VA: 0x181AA73F0
 	|-Task<Nullable<Image>>.TrySetResult
 	|
-	|-RVA: 0x1A98980 Offset: 0x1A96F80 VA: 0x181A98980
+	|-RVA: 0x1AA7010 Offset: 0x1AA5610 VA: 0x181AA7010
 	|-Task<Nullable<InventoryPurchaseResult>>.TrySetResult
 	|-Task<Nullable<ResultPage>>.TrySetResult
 	|
-	|-RVA: 0x1A98E30 Offset: 0x1A97430 VA: 0x181A98E30
+	|-RVA: 0x1AA74C0 Offset: 0x1AA5AC0 VA: 0x181AA74C0
 	|-Task<Nullable<InventoryResult>>.TrySetResult
 	|
-	|-RVA: 0x1A98B00 Offset: 0x1A97100 VA: 0x181A98B00
+	|-RVA: 0x1AA7190 Offset: 0x1AA5790 VA: 0x181AA7190
 	|-Task<Nullable<Item>>.TrySetResult
 	|
-	|-RVA: 0x1A557B0 Offset: 0x1A53DB0 VA: 0x181A557B0
+	|-RVA: 0x1A55770 Offset: 0x1A53D70 VA: 0x181A55770
 	|-Task<Nullable<int>>.TrySetResult
 	|-Task<Nullable<Int32Enum>>.TrySetResult
 	|
-	|-RVA: 0x1A55860 Offset: 0x1A53E60 VA: 0x181A55860
+	|-RVA: 0x1A55820 Offset: 0x1A53E20 VA: 0x181A55820
 	|-Task<object>.TrySetResult
 	|-Task<Task>.TrySetResult
 	*/
@@ -3277,40 +3277,40 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal void DangerousSetResult(TResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A96410 Offset: 0x1A94A10 VA: 0x181A96410
+	|-RVA: 0x1AA4AA0 Offset: 0x1AA30A0 VA: 0x181AA4AA0
 	|-Task<PublishResult>.DangerousSetResult
 	|
-	|-RVA: 0x1A548B0 Offset: 0x1A52EB0 VA: 0x181A548B0
+	|-RVA: 0x1A54870 Offset: 0x1A52E70 VA: 0x181A54870
 	|-Task<bool>.DangerousSetResult
 	|-Task<VoidTaskResult>.DangerousSetResult
 	|
-	|-RVA: 0x1A961C0 Offset: 0x1A947C0 VA: 0x181A961C0
+	|-RVA: 0x1AA4850 Offset: 0x1AA2E50 VA: 0x181AA4850
 	|-Task<int>.DangerousSetResult
 	|
-	|-RVA: 0x1A96220 Offset: 0x1A94820 VA: 0x181A96220
+	|-RVA: 0x1AA48B0 Offset: 0x1AA2EB0 VA: 0x181AA48B0
 	|-Task<UdpReceiveResult>.DangerousSetResult
 	|
-	|-RVA: 0x1A96300 Offset: 0x1A94900 VA: 0x181A96300
+	|-RVA: 0x1AA4990 Offset: 0x1AA2F90 VA: 0x181AA4990
 	|-Task<Nullable<ServerInfo>>.DangerousSetResult
 	|
-	|-RVA: 0x1A96490 Offset: 0x1A94A90 VA: 0x181A96490
+	|-RVA: 0x1AA4B20 Offset: 0x1AA3120 VA: 0x181AA4B20
 	|-Task<Nullable<Image>>.DangerousSetResult
 	|
-	|-RVA: 0x1A96290 Offset: 0x1A94890 VA: 0x181A96290
+	|-RVA: 0x1AA4920 Offset: 0x1AA2F20 VA: 0x181AA4920
 	|-Task<Nullable<InventoryPurchaseResult>>.DangerousSetResult
 	|-Task<Nullable<ResultPage>>.DangerousSetResult
 	|
-	|-RVA: 0x1A96150 Offset: 0x1A94750 VA: 0x181A96150
+	|-RVA: 0x1AA47E0 Offset: 0x1AA2DE0 VA: 0x181AA47E0
 	|-Task<Nullable<InventoryResult>>.DangerousSetResult
 	|
-	|-RVA: 0x1A95FD0 Offset: 0x1A945D0 VA: 0x181A95FD0
+	|-RVA: 0x1AA4660 Offset: 0x1AA2C60 VA: 0x181AA4660
 	|-Task<Nullable<Item>>.DangerousSetResult
 	|
-	|-RVA: 0x1A54910 Offset: 0x1A52F10 VA: 0x181A54910
+	|-RVA: 0x1A548D0 Offset: 0x1A52ED0 VA: 0x181A548D0
 	|-Task<Nullable<int>>.DangerousSetResult
 	|-Task<Nullable<Int32Enum>>.DangerousSetResult
 	|
-	|-RVA: 0x1A54970 Offset: 0x1A52F70 VA: 0x181A54970
+	|-RVA: 0x1A54930 Offset: 0x1A52F30 VA: 0x181A54930
 	|-Task<object>.DangerousSetResult
 	*/
 
@@ -3318,7 +3318,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	public TResult get_Result() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A57530 Offset: 0x1A55B30 VA: 0x181A57530
+	|-RVA: 0x1A574F0 Offset: 0x1A55AF0 VA: 0x181A574F0
 	|-Task<ISocket>.get_Result
 	|-Task<SteamInventoryCrafting.MarketPrice>.get_Result
 	|-Task<Nullable<int>>.get_Result
@@ -3326,31 +3326,31 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<object>.get_Result
 	|-Task<Task>.get_Result
 	|
-	|-RVA: 0x1A9D410 Offset: 0x1A9BA10 VA: 0x181A9D410
+	|-RVA: 0x1AABAA0 Offset: 0x1AAA0A0 VA: 0x181AABAA0
 	|-Task<PublishResult>.get_Result
 	|-Task<Nullable<Image>>.get_Result
 	|
-	|-RVA: 0x1A575A0 Offset: 0x1A55BA0 VA: 0x181A575A0
+	|-RVA: 0x1A57560 Offset: 0x1A55B60 VA: 0x181A57560
 	|-Task<bool>.get_Result
 	|-Task<VoidTaskResult>.get_Result
 	|
-	|-RVA: 0x1A9D3A0 Offset: 0x1A9B9A0 VA: 0x181A9D3A0
+	|-RVA: 0x1AABA30 Offset: 0x1AAA030 VA: 0x181AABA30
 	|-Task<int>.get_Result
 	|
-	|-RVA: 0x1A9D280 Offset: 0x1A9B880 VA: 0x181A9D280
+	|-RVA: 0x1AAB910 Offset: 0x1AA9F10 VA: 0x181AAB910
 	|-Task<UdpReceiveResult>.get_Result
 	|
-	|-RVA: 0x1A9D4B0 Offset: 0x1A9BAB0 VA: 0x181A9D4B0
+	|-RVA: 0x1AABB40 Offset: 0x1AAA140 VA: 0x181AABB40
 	|-Task<Nullable<ServerInfo>>.get_Result
 	|
-	|-RVA: 0x1A9D310 Offset: 0x1A9B910 VA: 0x181A9D310
+	|-RVA: 0x1AAB9A0 Offset: 0x1AA9FA0 VA: 0x181AAB9A0
 	|-Task<Nullable<InventoryPurchaseResult>>.get_Result
 	|-Task<Nullable<ResultPage>>.get_Result
 	|
-	|-RVA: 0x1A9D070 Offset: 0x1A9B670 VA: 0x181A9D070
+	|-RVA: 0x1AAB700 Offset: 0x1AA9D00 VA: 0x181AAB700
 	|-Task<Nullable<InventoryResult>>.get_Result
 	|
-	|-RVA: 0x1A9D110 Offset: 0x1A9B710 VA: 0x181A9D110
+	|-RVA: 0x1AAB7A0 Offset: 0x1AA9DA0 VA: 0x181AAB7A0
 	|-Task<Nullable<Item>>.get_Result
 	*/
 
@@ -3358,7 +3358,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal TResult get_ResultOnSuccess() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A9CF30 Offset: 0x1A9B530 VA: 0x181A9CF30
+	|-RVA: 0x1AAB5C0 Offset: 0x1AA9BC0 VA: 0x181AAB5C0
 	|-Task<PublishResult>.get_ResultOnSuccess
 	|-Task<Nullable<Image>>.get_ResultOnSuccess
 	|
@@ -3372,17 +3372,17 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-RVA: 0x105DDA0 Offset: 0x105C3A0 VA: 0x18105DDA0
 	|-Task<UdpReceiveResult>.get_ResultOnSuccess
 	|
-	|-RVA: 0x1A9D010 Offset: 0x1A9B610 VA: 0x181A9D010
+	|-RVA: 0x1AAB6A0 Offset: 0x1AA9CA0 VA: 0x181AAB6A0
 	|-Task<Nullable<ServerInfo>>.get_ResultOnSuccess
 	|
-	|-RVA: 0x1A9CFF0 Offset: 0x1A9B5F0 VA: 0x181A9CFF0
+	|-RVA: 0x1AAB680 Offset: 0x1AA9C80 VA: 0x181AAB680
 	|-Task<Nullable<InventoryPurchaseResult>>.get_ResultOnSuccess
 	|-Task<Nullable<ResultPage>>.get_ResultOnSuccess
 	|
-	|-RVA: 0x1A9CF10 Offset: 0x1A9B510 VA: 0x181A9CF10
+	|-RVA: 0x1AAB5A0 Offset: 0x1AA9BA0 VA: 0x181AAB5A0
 	|-Task<Nullable<InventoryResult>>.get_ResultOnSuccess
 	|
-	|-RVA: 0x1A9CF50 Offset: 0x1A9B550 VA: 0x181A9CF50
+	|-RVA: 0x1AAB5E0 Offset: 0x1AA9BE0 VA: 0x181AAB5E0
 	|-Task<Nullable<Item>>.get_ResultOnSuccess
 	|
 	|-RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
@@ -3395,34 +3395,34 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal TResult GetResultCore(bool waitCompletionNotification) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A96510 Offset: 0x1A94B10 VA: 0x181A96510
+	|-RVA: 0x1AA4BA0 Offset: 0x1AA31A0 VA: 0x181AA4BA0
 	|-Task<PublishResult>.GetResultCore
 	|-Task<Nullable<Image>>.GetResultCore
 	|
-	|-RVA: 0x1A54A00 Offset: 0x1A53000 VA: 0x181A54A00
+	|-RVA: 0x1A549C0 Offset: 0x1A52FC0 VA: 0x181A549C0
 	|-Task<bool>.GetResultCore
 	|-Task<VoidTaskResult>.GetResultCore
 	|
-	|-RVA: 0x1A96840 Offset: 0x1A94E40 VA: 0x181A96840
+	|-RVA: 0x1AA4ED0 Offset: 0x1AA34D0 VA: 0x181AA4ED0
 	|-Task<int>.GetResultCore
 	|
-	|-RVA: 0x1A967B0 Offset: 0x1A94DB0 VA: 0x181A967B0
+	|-RVA: 0x1AA4E40 Offset: 0x1AA3440 VA: 0x181AA4E40
 	|-Task<UdpReceiveResult>.GetResultCore
 	|
-	|-RVA: 0x1A966D0 Offset: 0x1A94CD0 VA: 0x181A966D0
+	|-RVA: 0x1AA4D60 Offset: 0x1AA3360 VA: 0x181AA4D60
 	|-Task<Nullable<ServerInfo>>.GetResultCore
 	|
-	|-RVA: 0x1A965B0 Offset: 0x1A94BB0 VA: 0x181A965B0
+	|-RVA: 0x1AA4C40 Offset: 0x1AA3240 VA: 0x181AA4C40
 	|-Task<Nullable<InventoryPurchaseResult>>.GetResultCore
 	|-Task<Nullable<ResultPage>>.GetResultCore
 	|
-	|-RVA: 0x1A96640 Offset: 0x1A94C40 VA: 0x181A96640
+	|-RVA: 0x1AA4CD0 Offset: 0x1AA32D0 VA: 0x181AA4CD0
 	|-Task<Nullable<InventoryResult>>.GetResultCore
 	|
-	|-RVA: 0x1A968B0 Offset: 0x1A94EB0 VA: 0x181A968B0
+	|-RVA: 0x1AA4F40 Offset: 0x1AA3540 VA: 0x181AA4F40
 	|-Task<Nullable<Item>>.GetResultCore
 	|
-	|-RVA: 0x1A54A80 Offset: 0x1A53080 VA: 0x181A54A80
+	|-RVA: 0x1A54A40 Offset: 0x1A53040 VA: 0x181A54A40
 	|-Task<Nullable<int>>.GetResultCore
 	|-Task<Nullable<Int32Enum>>.GetResultCore
 	|-Task<object>.GetResultCore
@@ -3432,7 +3432,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal bool TrySetException(object exceptionObject) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A55730 Offset: 0x1A53D30 VA: 0x181A55730
+	|-RVA: 0x1A556F0 Offset: 0x1A53CF0 VA: 0x181A556F0
 	|-Task<PublishResult>.TrySetException
 	|-Task<bool>.TrySetException
 	|-Task<int>.TrySetException
@@ -3453,7 +3453,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal bool TrySetCanceled(CancellationToken tokenToRecord) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A55680 Offset: 0x1A53C80 VA: 0x181A55680
+	|-RVA: 0x1A55640 Offset: 0x1A53C40 VA: 0x181A55640
 	|-Task<PublishResult>.TrySetCanceled
 	|-Task<bool>.TrySetCanceled
 	|-Task<int>.TrySetCanceled
@@ -3474,7 +3474,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal bool TrySetCanceled(CancellationToken tokenToRecord, object cancellationException) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A556B0 Offset: 0x1A53CB0 VA: 0x181A556B0
+	|-RVA: 0x1A55670 Offset: 0x1A53C70 VA: 0x181A55670
 	|-Task<PublishResult>.TrySetCanceled
 	|-Task<bool>.TrySetCanceled
 	|-Task<int>.TrySetCanceled
@@ -3518,40 +3518,40 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal override void InnerInvoke() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A97160 Offset: 0x1A95760 VA: 0x181A97160
+	|-RVA: 0x1AA57F0 Offset: 0x1AA3DF0 VA: 0x181AA57F0
 	|-Task<PublishResult>.InnerInvoke
 	|
-	|-RVA: 0x1A54CB0 Offset: 0x1A532B0 VA: 0x181A54CB0
+	|-RVA: 0x1A54C70 Offset: 0x1A53270 VA: 0x181A54C70
 	|-Task<bool>.InnerInvoke
 	|-Task<VoidTaskResult>.InnerInvoke
 	|
-	|-RVA: 0x1A96C80 Offset: 0x1A95280 VA: 0x181A96C80
+	|-RVA: 0x1AA5310 Offset: 0x1AA3910 VA: 0x181AA5310
 	|-Task<int>.InnerInvoke
 	|
-	|-RVA: 0x1A97070 Offset: 0x1A95670 VA: 0x181A97070
+	|-RVA: 0x1AA5700 Offset: 0x1AA3D00 VA: 0x181AA5700
 	|-Task<UdpReceiveResult>.InnerInvoke
 	|
-	|-RVA: 0x1A96E40 Offset: 0x1A95440 VA: 0x181A96E40
+	|-RVA: 0x1AA54D0 Offset: 0x1AA3AD0 VA: 0x181AA54D0
 	|-Task<Nullable<ServerInfo>>.InnerInvoke
 	|
-	|-RVA: 0x1A969C0 Offset: 0x1A94FC0 VA: 0x181A969C0
+	|-RVA: 0x1AA5050 Offset: 0x1AA3650 VA: 0x181AA5050
 	|-Task<Nullable<Image>>.InnerInvoke
 	|
-	|-RVA: 0x1A96D50 Offset: 0x1A95350 VA: 0x181A96D50
+	|-RVA: 0x1AA53E0 Offset: 0x1AA39E0 VA: 0x181AA53E0
 	|-Task<Nullable<InventoryPurchaseResult>>.InnerInvoke
 	|-Task<Nullable<ResultPage>>.InnerInvoke
 	|
-	|-RVA: 0x1A96F80 Offset: 0x1A95580 VA: 0x181A96F80
+	|-RVA: 0x1AA5610 Offset: 0x1AA3C10 VA: 0x181AA5610
 	|-Task<Nullable<InventoryResult>>.InnerInvoke
 	|
-	|-RVA: 0x1A96AB0 Offset: 0x1A950B0 VA: 0x181A96AB0
+	|-RVA: 0x1AA5140 Offset: 0x1AA3740 VA: 0x181AA5140
 	|-Task<Nullable<Item>>.InnerInvoke
 	|
-	|-RVA: 0x1A54B00 Offset: 0x1A53100 VA: 0x181A54B00
+	|-RVA: 0x1A54AC0 Offset: 0x1A530C0 VA: 0x181A54AC0
 	|-Task<Nullable<int>>.InnerInvoke
 	|-Task<Nullable<Int32Enum>>.InnerInvoke
 	|
-	|-RVA: 0x1A54BD0 Offset: 0x1A531D0 VA: 0x181A54BD0
+	|-RVA: 0x1A54B90 Offset: 0x1A53190 VA: 0x181A54B90
 	|-Task<object>.InnerInvoke
 	|-Task<Task>.InnerInvoke
 	*/
@@ -3560,7 +3560,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	public TaskAwaiter<TResult> GetAwaiter() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A549D0 Offset: 0x1A52FD0 VA: 0x181A549D0
+	|-RVA: 0x1A54990 Offset: 0x1A52F90 VA: 0x181A54990
 	|-Task<CompanionSubscription.Status>.GetAwaiter
 	|-Task<IAuthTicket>.GetAwaiter
 	|-Task<IPlayerInfo>.GetAwaiter
@@ -3596,7 +3596,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	public ConfiguredTaskAwaitable<TResult> ConfigureAwait(bool continueOnCapturedContext) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A53DC0 Offset: 0x1A523C0 VA: 0x181A53DC0
+	|-RVA: 0x1A53D80 Offset: 0x1A52380 VA: 0x181A53D80
 	|-Task<AsyncProtocolResult>.ConfigureAwait
 	|-Task<Stream>.ConfigureAwait
 	|-Task<HttpResponseMessage>.ConfigureAwait
@@ -3623,47 +3623,47 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	public Task ContinueWith(Action<Task<TResult>> continuationAction, TaskContinuationOptions continuationOptions) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A54480 Offset: 0x1A52A80 VA: 0x181A54480
+	|-RVA: 0x1A54440 Offset: 0x1A52A40 VA: 0x181A54440
 	|-Task<ISocket>.ContinueWith
 	|-Task<object>.ContinueWith
 	|
-	|-RVA: 0x1A94C40 Offset: 0x1A93240 VA: 0x181A94C40
+	|-RVA: 0x1AA32D0 Offset: 0x1AA18D0 VA: 0x181AA32D0
 	|-Task<PublishResult>.ContinueWith
 	|
-	|-RVA: 0x1A95320 Offset: 0x1A93920 VA: 0x181A95320
+	|-RVA: 0x1AA39B0 Offset: 0x1AA1FB0 VA: 0x181AA39B0
 	|-Task<bool>.ContinueWith
 	|
-	|-RVA: 0x1A95260 Offset: 0x1A93860 VA: 0x181A95260
+	|-RVA: 0x1AA38F0 Offset: 0x1AA1EF0 VA: 0x181AA38F0
 	|-Task<int>.ContinueWith
 	|
-	|-RVA: 0x1A94D00 Offset: 0x1A93300 VA: 0x181A94D00
+	|-RVA: 0x1AA3390 Offset: 0x1AA1990 VA: 0x181AA3390
 	|-Task<UdpReceiveResult>.ContinueWith
 	|
-	|-RVA: 0x1A951A0 Offset: 0x1A937A0 VA: 0x181A951A0
+	|-RVA: 0x1AA3830 Offset: 0x1AA1E30 VA: 0x181AA3830
 	|-Task<Nullable<ServerInfo>>.ContinueWith
 	|
-	|-RVA: 0x1A945B0 Offset: 0x1A92BB0 VA: 0x181A945B0
+	|-RVA: 0x1AA2C40 Offset: 0x1AA1240 VA: 0x181AA2C40
 	|-Task<Nullable<Image>>.ContinueWith
 	|
-	|-RVA: 0x1A95C60 Offset: 0x1A94260 VA: 0x181A95C60
+	|-RVA: 0x1AA42F0 Offset: 0x1AA28F0 VA: 0x181AA42F0
 	|-Task<Nullable<InventoryPurchaseResult>>.ContinueWith
 	|
-	|-RVA: 0x1A959B0 Offset: 0x1A93FB0 VA: 0x181A959B0
+	|-RVA: 0x1AA4040 Offset: 0x1AA2640 VA: 0x181AA4040
 	|-Task<Nullable<InventoryResult>>.ContinueWith
 	|
-	|-RVA: 0x1A95F10 Offset: 0x1A94510 VA: 0x181A95F10
+	|-RVA: 0x1AA45A0 Offset: 0x1AA2BA0 VA: 0x181AA45A0
 	|-Task<Nullable<Item>>.ContinueWith
 	|
-	|-RVA: 0x1A944F0 Offset: 0x1A92AF0 VA: 0x181A944F0
+	|-RVA: 0x1AA2B80 Offset: 0x1AA1180 VA: 0x181AA2B80
 	|-Task<Nullable<ResultPage>>.ContinueWith
 	|
-	|-RVA: 0x1A54730 Offset: 0x1A52D30 VA: 0x181A54730
+	|-RVA: 0x1A546F0 Offset: 0x1A52CF0 VA: 0x181A546F0
 	|-Task<Nullable<int>>.ContinueWith
 	|
-	|-RVA: 0x1A541D0 Offset: 0x1A527D0 VA: 0x181A541D0
+	|-RVA: 0x1A54190 Offset: 0x1A52790 VA: 0x181A54190
 	|-Task<Nullable<Int32Enum>>.ContinueWith
 	|
-	|-RVA: 0x1A547F0 Offset: 0x1A52DF0 VA: 0x181A547F0
+	|-RVA: 0x1A547B0 Offset: 0x1A52DB0 VA: 0x181A547B0
 	|-Task<VoidTaskResult>.ContinueWith
 	*/
 
@@ -3671,46 +3671,46 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal Task ContinueWith(Action<Task<TResult>> continuationAction, TaskScheduler scheduler, CancellationToken cancellationToken, TaskContinuationOptions continuationOptions, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A953E0 Offset: 0x1A939E0 VA: 0x181A953E0
+	|-RVA: 0x1AA3A70 Offset: 0x1AA2070 VA: 0x181AA3A70
 	|-Task<PublishResult>.ContinueWith
 	|
-	|-RVA: 0x1A95D20 Offset: 0x1A94320 VA: 0x181A95D20
+	|-RVA: 0x1AA43B0 Offset: 0x1AA29B0 VA: 0x181AA43B0
 	|-Task<bool>.ContinueWith
 	|
-	|-RVA: 0x1A94A50 Offset: 0x1A93050 VA: 0x181A94A50
+	|-RVA: 0x1AA30E0 Offset: 0x1AA16E0 VA: 0x181AA30E0
 	|-Task<int>.ContinueWith
 	|
-	|-RVA: 0x1A94860 Offset: 0x1A92E60 VA: 0x181A94860
+	|-RVA: 0x1AA2EF0 Offset: 0x1AA14F0 VA: 0x181AA2EF0
 	|-Task<UdpReceiveResult>.ContinueWith
 	|
-	|-RVA: 0x1A94DC0 Offset: 0x1A933C0 VA: 0x181A94DC0
+	|-RVA: 0x1AA3450 Offset: 0x1AA1A50 VA: 0x181AA3450
 	|-Task<Nullable<ServerInfo>>.ContinueWith
 	|
-	|-RVA: 0x1A94670 Offset: 0x1A92C70 VA: 0x181A94670
+	|-RVA: 0x1AA2D00 Offset: 0x1AA1300 VA: 0x181AA2D00
 	|-Task<Nullable<Image>>.ContinueWith
 	|
-	|-RVA: 0x1A94FB0 Offset: 0x1A935B0 VA: 0x181A94FB0
+	|-RVA: 0x1AA3640 Offset: 0x1AA1C40 VA: 0x181AA3640
 	|-Task<Nullable<InventoryPurchaseResult>>.ContinueWith
 	|
-	|-RVA: 0x1A957C0 Offset: 0x1A93DC0 VA: 0x181A957C0
+	|-RVA: 0x1AA3E50 Offset: 0x1AA2450 VA: 0x181AA3E50
 	|-Task<Nullable<InventoryResult>>.ContinueWith
 	|
-	|-RVA: 0x1A95A70 Offset: 0x1A94070 VA: 0x181A95A70
+	|-RVA: 0x1AA4100 Offset: 0x1AA2700 VA: 0x181AA4100
 	|-Task<Nullable<Item>>.ContinueWith
 	|
-	|-RVA: 0x1A955D0 Offset: 0x1A93BD0 VA: 0x181A955D0
+	|-RVA: 0x1AA3C60 Offset: 0x1AA2260 VA: 0x181AA3C60
 	|-Task<Nullable<ResultPage>>.ContinueWith
 	|
-	|-RVA: 0x1A54290 Offset: 0x1A52890 VA: 0x181A54290
+	|-RVA: 0x1A54250 Offset: 0x1A52850 VA: 0x181A54250
 	|-Task<Nullable<int>>.ContinueWith
 	|
-	|-RVA: 0x1A53DF0 Offset: 0x1A523F0 VA: 0x181A53DF0
+	|-RVA: 0x1A53DB0 Offset: 0x1A523B0 VA: 0x181A53DB0
 	|-Task<Nullable<Int32Enum>>.ContinueWith
 	|
-	|-RVA: 0x1A53FE0 Offset: 0x1A525E0 VA: 0x181A53FE0
+	|-RVA: 0x1A53FA0 Offset: 0x1A525A0 VA: 0x181A53FA0
 	|-Task<object>.ContinueWith
 	|
-	|-RVA: 0x1A54540 Offset: 0x1A52B40 VA: 0x181A54540
+	|-RVA: 0x1A54500 Offset: 0x1A52B00 VA: 0x181A54500
 	|-Task<VoidTaskResult>.ContinueWith
 	*/
 
@@ -3735,7 +3735,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A559D0 Offset: 0x1A53FD0 VA: 0x181A559D0
+	|-RVA: 0x1A55990 Offset: 0x1A53F90 VA: 0x181A55990
 	|-Task<PublishResult>..cctor
 	|-Task<bool>..cctor
 	|-Task<int>..cctor
@@ -3770,7 +3770,7 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A944B0 Offset: 0x1A92AB0 VA: 0x181A944B0
+	|-RVA: 0x1AA2B40 Offset: 0x1AA1140 VA: 0x181AA2B40
 	|-TaskFactory<PublishResult>..ctor
 	|-TaskFactory<bool>..ctor
 	|-TaskFactory<int>..ctor
@@ -3791,7 +3791,7 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	public void .ctor(CancellationToken cancellationToken, TaskCreationOptions creationOptions, TaskContinuationOptions continuationOptions, TaskScheduler scheduler) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A94430 Offset: 0x1A92A30 VA: 0x181A94430
+	|-RVA: 0x1AA2AC0 Offset: 0x1AA10C0 VA: 0x181AA2AC0
 	|-TaskFactory<PublishResult>..ctor
 	|-TaskFactory<bool>..ctor
 	|-TaskFactory<int>..ctor
@@ -3812,46 +3812,46 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	public Task<TResult> StartNew(Func<TResult> function, CancellationToken cancellationToken, TaskCreationOptions creationOptions, TaskScheduler scheduler) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A93EF0 Offset: 0x1A924F0 VA: 0x181A93EF0
+	|-RVA: 0x1AA2580 Offset: 0x1AA0B80 VA: 0x181AA2580
 	|-TaskFactory<PublishResult>.StartNew
 	|
-	|-RVA: 0x1A93860 Offset: 0x1A91E60 VA: 0x181A93860
+	|-RVA: 0x1AA1EF0 Offset: 0x1AA04F0 VA: 0x181AA1EF0
 	|-TaskFactory<bool>.StartNew
 	|
-	|-RVA: 0x1A93710 Offset: 0x1A91D10 VA: 0x181A93710
+	|-RVA: 0x1AA1DA0 Offset: 0x1AA03A0 VA: 0x181AA1DA0
 	|-TaskFactory<int>.StartNew
 	|
-	|-RVA: 0x1A93470 Offset: 0x1A91A70 VA: 0x181A93470
+	|-RVA: 0x1AA1B00 Offset: 0x1AA0100 VA: 0x181AA1B00
 	|-TaskFactory<UdpReceiveResult>.StartNew
 	|
-	|-RVA: 0x1A94040 Offset: 0x1A92640 VA: 0x181A94040
+	|-RVA: 0x1AA26D0 Offset: 0x1AA0CD0 VA: 0x181AA26D0
 	|-TaskFactory<Nullable<ServerInfo>>.StartNew
 	|
-	|-RVA: 0x1A94190 Offset: 0x1A92790 VA: 0x181A94190
+	|-RVA: 0x1AA2820 Offset: 0x1AA0E20 VA: 0x181AA2820
 	|-TaskFactory<Nullable<Image>>.StartNew
 	|
-	|-RVA: 0x1A93320 Offset: 0x1A91920 VA: 0x181A93320
+	|-RVA: 0x1AA19B0 Offset: 0x1A9FFB0 VA: 0x181AA19B0
 	|-TaskFactory<Nullable<InventoryPurchaseResult>>.StartNew
 	|
-	|-RVA: 0x1A93DA0 Offset: 0x1A923A0 VA: 0x181A93DA0
+	|-RVA: 0x1AA2430 Offset: 0x1AA0A30 VA: 0x181AA2430
 	|-TaskFactory<Nullable<InventoryResult>>.StartNew
 	|
-	|-RVA: 0x1A93C50 Offset: 0x1A92250 VA: 0x181A93C50
+	|-RVA: 0x1AA22E0 Offset: 0x1AA08E0 VA: 0x181AA22E0
 	|-TaskFactory<Nullable<Item>>.StartNew
 	|
-	|-RVA: 0x1A935C0 Offset: 0x1A91BC0 VA: 0x181A935C0
+	|-RVA: 0x1AA1C50 Offset: 0x1AA0250 VA: 0x181AA1C50
 	|-TaskFactory<Nullable<ResultPage>>.StartNew
 	|
-	|-RVA: 0x1A93B00 Offset: 0x1A92100 VA: 0x181A93B00
+	|-RVA: 0x1AA2190 Offset: 0x1AA0790 VA: 0x181AA2190
 	|-TaskFactory<Nullable<int>>.StartNew
 	|
-	|-RVA: 0x1A939B0 Offset: 0x1A91FB0 VA: 0x181A939B0
+	|-RVA: 0x1AA2040 Offset: 0x1AA0640 VA: 0x181AA2040
 	|-TaskFactory<Nullable<Int32Enum>>.StartNew
 	|
-	|-RVA: 0x1A931D0 Offset: 0x1A917D0 VA: 0x181A931D0
+	|-RVA: 0x1AA1860 Offset: 0x1A9FE60 VA: 0x181AA1860
 	|-TaskFactory<object>.StartNew
 	|
-	|-RVA: 0x1A942E0 Offset: 0x1A928E0 VA: 0x181A942E0
+	|-RVA: 0x1AA2970 Offset: 0x1AA0F70 VA: 0x181AA2970
 	|-TaskFactory<VoidTaskResult>.StartNew
 	*/
 
@@ -3859,46 +3859,46 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	private static void FromAsyncCoreLogic(IAsyncResult iar, Func<IAsyncResult, TResult> endFunction, Action<IAsyncResult> endAction, Task<TResult> promise, bool requiresSynchronization) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A89460 Offset: 0x1A87A60 VA: 0x181A89460
+	|-RVA: 0x1A97AF0 Offset: 0x1A960F0 VA: 0x181A97AF0
 	|-TaskFactory<PublishResult>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A8A7D0 Offset: 0x1A88DD0 VA: 0x181A8A7D0
+	|-RVA: 0x1A98E60 Offset: 0x1A97460 VA: 0x181A98E60
 	|-TaskFactory<bool>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A89DE0 Offset: 0x1A883E0 VA: 0x181A89DE0
+	|-RVA: 0x1A98470 Offset: 0x1A96A70 VA: 0x181A98470
 	|-TaskFactory<int>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A8AC60 Offset: 0x1A89260 VA: 0x181A8AC60
+	|-RVA: 0x1A992F0 Offset: 0x1A978F0 VA: 0x181A992F0
 	|-TaskFactory<UdpReceiveResult>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A8A270 Offset: 0x1A88870 VA: 0x181A8A270
+	|-RVA: 0x1A98900 Offset: 0x1A96F00 VA: 0x181A98900
 	|-TaskFactory<Nullable<ServerInfo>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A89920 Offset: 0x1A87F20 VA: 0x181A89920
+	|-RVA: 0x1A97FB0 Offset: 0x1A965B0 VA: 0x181A97FB0
 	|-TaskFactory<Nullable<Image>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A8C940 Offset: 0x1A8AF40 VA: 0x181A8C940
+	|-RVA: 0x1A9AFD0 Offset: 0x1A995D0 VA: 0x181A9AFD0
 	|-TaskFactory<Nullable<InventoryPurchaseResult>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A8BA20 Offset: 0x1A8A020 VA: 0x181A8BA20
+	|-RVA: 0x1A9A0B0 Offset: 0x1A986B0 VA: 0x181A9A0B0
 	|-TaskFactory<Nullable<InventoryResult>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A8BEC0 Offset: 0x1A8A4C0 VA: 0x181A8BEC0
+	|-RVA: 0x1A9A550 Offset: 0x1A98B50 VA: 0x181A9A550
 	|-TaskFactory<Nullable<Item>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A8B100 Offset: 0x1A89700 VA: 0x181A8B100
+	|-RVA: 0x1A99790 Offset: 0x1A97D90 VA: 0x181A99790
 	|-TaskFactory<Nullable<ResultPage>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A8C4D0 Offset: 0x1A8AAD0 VA: 0x181A8C4D0
+	|-RVA: 0x1A9AB60 Offset: 0x1A99160 VA: 0x181A9AB60
 	|-TaskFactory<Nullable<int>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A8B5B0 Offset: 0x1A89BB0 VA: 0x181A8B5B0
+	|-RVA: 0x1A99C40 Offset: 0x1A98240 VA: 0x181A99C40
 	|-TaskFactory<Nullable<Int32Enum>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A88B60 Offset: 0x1A87160 VA: 0x181A88B60
+	|-RVA: 0x1A971F0 Offset: 0x1A957F0 VA: 0x181A971F0
 	|-TaskFactory<object>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A88FF0 Offset: 0x1A875F0 VA: 0x181A88FF0
+	|-RVA: 0x1A97680 Offset: 0x1A95C80 VA: 0x181A97680
 	|-TaskFactory<VoidTaskResult>.FromAsyncCoreLogic
 	*/
 
@@ -3906,7 +3906,7 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	public Task<TResult> FromAsync(Func<AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, TResult> endMethod, object state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A93180 Offset: 0x1A91780 VA: 0x181A93180
+	|-RVA: 0x1AA1810 Offset: 0x1A9FE10 VA: 0x181AA1810
 	|-TaskFactory<Stream>.FromAsync
 	|-TaskFactory<UdpReceiveResult>.FromAsync
 	|-TaskFactory<WebResponse>.FromAsync
@@ -3929,46 +3929,46 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	internal static Task<TResult> FromAsyncImpl(Func<AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, TResult> endFunction, Action<IAsyncResult> endAction, object state, TaskCreationOptions creationOptions) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A8E330 Offset: 0x1A8C930 VA: 0x181A8E330
+	|-RVA: 0x1A9C9C0 Offset: 0x1A9AFC0 VA: 0x181A9C9C0
 	|-TaskFactory<PublishResult>.FromAsyncImpl
 	|
-	|-RVA: 0x1A92A90 Offset: 0x1A91090 VA: 0x181A92A90
+	|-RVA: 0x1AA1120 Offset: 0x1A9F720 VA: 0x181AA1120
 	|-TaskFactory<bool>.FromAsyncImpl
 	|
-	|-RVA: 0x1A900B0 Offset: 0x1A8E6B0 VA: 0x181A900B0
+	|-RVA: 0x1A9E740 Offset: 0x1A9CD40 VA: 0x181A9E740
 	|-TaskFactory<int>.FromAsyncImpl
 	|
-	|-RVA: 0x1A92390 Offset: 0x1A90990 VA: 0x181A92390
+	|-RVA: 0x1AA0A20 Offset: 0x1A9F020 VA: 0x181AA0A20
 	|-TaskFactory<UdpReceiveResult>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8F930 Offset: 0x1A8DF30 VA: 0x181A8F930
+	|-RVA: 0x1A9DFC0 Offset: 0x1A9C5C0 VA: 0x181A9DFC0
 	|-TaskFactory<Nullable<ServerInfo>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8CDF0 Offset: 0x1A8B3F0 VA: 0x181A8CDF0
+	|-RVA: 0x1A9B480 Offset: 0x1A99A80 VA: 0x181A9B480
 	|-TaskFactory<Nullable<Image>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A90E90 Offset: 0x1A8F490 VA: 0x181A90E90
+	|-RVA: 0x1A9F520 Offset: 0x1A9DB20 VA: 0x181A9F520
 	|-TaskFactory<Nullable<InventoryPurchaseResult>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8EA60 Offset: 0x1A8D060 VA: 0x181A8EA60
+	|-RVA: 0x1A9D0F0 Offset: 0x1A9B6F0 VA: 0x181A9D0F0
 	|-TaskFactory<Nullable<InventoryResult>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8F180 Offset: 0x1A8D780 VA: 0x181A8F180
+	|-RVA: 0x1A9D810 Offset: 0x1A9BE10 VA: 0x181A9D810
 	|-TaskFactory<Nullable<Item>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8DC10 Offset: 0x1A8C210 VA: 0x181A8DC10
+	|-RVA: 0x1A9C2A0 Offset: 0x1A9A8A0 VA: 0x181A9C2A0
 	|-TaskFactory<Nullable<ResultPage>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A907A0 Offset: 0x1A8EDA0 VA: 0x181A907A0
+	|-RVA: 0x1A9EE30 Offset: 0x1A9D430 VA: 0x181A9EE30
 	|-TaskFactory<Nullable<int>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A915B0 Offset: 0x1A8FBB0 VA: 0x181A915B0
+	|-RVA: 0x1A9FC40 Offset: 0x1A9E240 VA: 0x181A9FC40
 	|-TaskFactory<Nullable<Int32Enum>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8D520 Offset: 0x1A8BB20 VA: 0x181A8D520
+	|-RVA: 0x1A9BBB0 Offset: 0x1A9A1B0 VA: 0x181A9BBB0
 	|-TaskFactory<object>.FromAsyncImpl
 	|
-	|-RVA: 0x1A91CA0 Offset: 0x1A902A0 VA: 0x181A91CA0
+	|-RVA: 0x1AA0330 Offset: 0x1A9E930 VA: 0x181AA0330
 	|-TaskFactory<VoidTaskResult>.FromAsyncImpl
 	*/
 
@@ -4024,7 +4024,7 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	public void .ctor(Task outerTask, bool lookForOce) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A60A90 Offset: 0x1A5F090 VA: 0x181A60A90
+	|-RVA: 0x1A60A50 Offset: 0x1A5F050 VA: 0x181A60A50
 	|-UnwrapPromise<object>..ctor
 	*/
 
@@ -4032,7 +4032,7 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	public void Invoke(Task completingTask) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A603F0 Offset: 0x1A5E9F0 VA: 0x181A603F0
+	|-RVA: 0x1A603B0 Offset: 0x1A5E9B0 VA: 0x181A603B0
 	|-UnwrapPromise<object>.Invoke
 	*/
 
@@ -4040,7 +4040,7 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	private void InvokeCore(Task completingTask) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A60390 Offset: 0x1A5E990 VA: 0x181A60390
+	|-RVA: 0x1A60350 Offset: 0x1A5E950 VA: 0x181A60350
 	|-UnwrapPromise<object>.InvokeCore
 	*/
 
@@ -4048,7 +4048,7 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	private void InvokeCoreAsync(Task completingTask) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A60150 Offset: 0x1A5E750 VA: 0x181A60150
+	|-RVA: 0x1A60110 Offset: 0x1A5E710 VA: 0x181A60110
 	|-UnwrapPromise<object>.InvokeCoreAsync
 	*/
 
@@ -4056,7 +4056,7 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	private void ProcessCompletedOuterTask(Task task) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A60560 Offset: 0x1A5EB60 VA: 0x181A60560
+	|-RVA: 0x1A60520 Offset: 0x1A5EB20 VA: 0x181A60520
 	|-UnwrapPromise<object>.ProcessCompletedOuterTask
 	*/
 
@@ -4064,7 +4064,7 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	private bool TrySetFromTask(Task task, bool lookForOce) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A607C0 Offset: 0x1A5EDC0 VA: 0x181A607C0
+	|-RVA: 0x1A60780 Offset: 0x1A5ED80 VA: 0x181A60780
 	|-UnwrapPromise<object>.TrySetFromTask
 	*/
 
@@ -4072,7 +4072,7 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	private void ProcessInnerTask(Task task) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A60710 Offset: 0x1A5ED10 VA: 0x181A60710
+	|-RVA: 0x1A606D0 Offset: 0x1A5ECD0 VA: 0x181A606D0
 	|-UnwrapPromise<object>.ProcessInnerTask
 	*/
 
@@ -4601,7 +4601,7 @@ public struct TaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletio
 	internal void .ctor(Task<TResult> task) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF1510 Offset: 0xF0910 VA: 0x1800F1510
+	|-RVA: 0xF1490 Offset: 0xF0890 VA: 0x1800F1490
 	|-TaskAwaiter<PublishResult>..ctor
 	|-TaskAwaiter<bool>..ctor
 	|-TaskAwaiter<int>..ctor
@@ -4622,7 +4622,7 @@ public struct TaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletio
 	public bool get_IsCompleted() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x14C140 Offset: 0x14B540 VA: 0x18014C140
+	|-RVA: 0x14C0C0 Offset: 0x14B4C0 VA: 0x18014C0C0
 	|-TaskAwaiter<CompanionSubscription.Status>.get_IsCompleted
 	|-TaskAwaiter<IAuthTicket>.get_IsCompleted
 	|-TaskAwaiter<IPlayerInfo>.get_IsCompleted
@@ -4658,7 +4658,7 @@ public struct TaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletio
 	public void OnCompleted(Action continuation) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x14CA80 Offset: 0x14BE80 VA: 0x18014CA80
+	|-RVA: 0x14CA00 Offset: 0x14BE00 VA: 0x18014CA00
 	|-TaskAwaiter<PublishResult>.OnCompleted
 	|-TaskAwaiter<bool>.OnCompleted
 	|-TaskAwaiter<int>.OnCompleted
@@ -4679,7 +4679,7 @@ public struct TaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletio
 	public void UnsafeOnCompleted(Action continuation) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x14CAB0 Offset: 0x14BEB0 VA: 0x18014CAB0
+	|-RVA: 0x14CA30 Offset: 0x14BE30 VA: 0x18014CA30
 	|-TaskAwaiter<PublishResult>.UnsafeOnCompleted
 	|-TaskAwaiter<bool>.UnsafeOnCompleted
 	|-TaskAwaiter<int>.UnsafeOnCompleted
@@ -4700,7 +4700,7 @@ public struct TaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletio
 	public TResult GetResult() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E3CE0 Offset: 0x1E30E0 VA: 0x1801E3CE0
+	|-RVA: 0x1E3C60 Offset: 0x1E3060 VA: 0x1801E3C60
 	|-TaskAwaiter<CompanionSubscription.Status>.GetResult
 	|-TaskAwaiter<IAuthTicket>.GetResult
 	|-TaskAwaiter<IPlayerInfo>.GetResult
@@ -4718,30 +4718,30 @@ public struct TaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletio
 	|-TaskAwaiter<string>.GetResult
 	|-TaskAwaiter<object>.GetResult
 	|
-	|-RVA: 0x1E2F90 Offset: 0x1E2390 VA: 0x1801E2F90
+	|-RVA: 0x1E2F10 Offset: 0x1E2310 VA: 0x1801E2F10
 	|-TaskAwaiter<PublishResult>.GetResult
 	|-TaskAwaiter<Nullable<Image>>.GetResult
 	|
-	|-RVA: 0x1E3110 Offset: 0x1E2510 VA: 0x1801E3110
+	|-RVA: 0x1E3090 Offset: 0x1E2490 VA: 0x1801E3090
 	|-TaskAwaiter<UdpReceiveResult>.GetResult
 	|
-	|-RVA: 0x1E31C0 Offset: 0x1E25C0 VA: 0x1801E31C0
+	|-RVA: 0x1E3140 Offset: 0x1E2540 VA: 0x1801E3140
 	|-TaskAwaiter<Nullable<ServerInfo>>.GetResult
 	|
-	|-RVA: 0x1E3050 Offset: 0x1E2450 VA: 0x1801E3050
+	|-RVA: 0x1E2FD0 Offset: 0x1E23D0 VA: 0x1801E2FD0
 	|-TaskAwaiter<Nullable<InventoryPurchaseResult>>.GetResult
 	|-TaskAwaiter<Nullable<ResultPage>>.GetResult
 	|
-	|-RVA: 0x1E3400 Offset: 0x1E2800 VA: 0x1801E3400
+	|-RVA: 0x1E3380 Offset: 0x1E2780 VA: 0x1801E3380
 	|-TaskAwaiter<Nullable<InventoryResult>>.GetResult
 	|
-	|-RVA: 0x1E32C0 Offset: 0x1E26C0 VA: 0x1801E32C0
+	|-RVA: 0x1E3240 Offset: 0x1E2640 VA: 0x1801E3240
 	|-TaskAwaiter<Nullable<Item>>.GetResult
 	|
-	|-RVA: 0x1E3CD0 Offset: 0x1E30D0 VA: 0x1801E3CD0
+	|-RVA: 0x1E3C50 Offset: 0x1E3050 VA: 0x1801E3C50
 	|-TaskAwaiter<bool>.GetResult
 	|
-	|-RVA: 0x1E2F00 Offset: 0x1E2300 VA: 0x1801E2F00
+	|-RVA: 0x1E2E80 Offset: 0x1E2280 VA: 0x1801E2E80
 	|-TaskAwaiter<int>.GetResult
 	|-TaskAwaiter<Nullable<int>>.GetResult
 	|-TaskAwaiter<Nullable<Int32Enum>>.GetResult
@@ -4760,7 +4760,7 @@ public struct ConfiguredTaskAwaitable<TResult> // TypeDefIndex: 1294
 	internal void .ctor(Task<TResult> task, bool continueOnCapturedContext) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E90 Offset: 0x1E2290 VA: 0x1801E2E90
+	|-RVA: 0x1E2E10 Offset: 0x1E2210 VA: 0x1801E2E10
 	|-ConfiguredTaskAwaitable<PublishResult>..ctor
 	|-ConfiguredTaskAwaitable<bool>..ctor
 	|-ConfiguredTaskAwaitable<int>..ctor
@@ -4781,7 +4781,7 @@ public struct ConfiguredTaskAwaitable<TResult> // TypeDefIndex: 1294
 	public ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<TResult> GetAwaiter() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x14B7F0 Offset: 0x14ABF0 VA: 0x18014B7F0
+	|-RVA: 0x14B770 Offset: 0x14AB70 VA: 0x18014B770
 	|-ConfiguredTaskAwaitable<AsyncProtocolResult>.GetAwaiter
 	|-ConfiguredTaskAwaitable<Stream>.GetAwaiter
 	|-ConfiguredTaskAwaitable<HttpResponseMessage>.GetAwaiter
@@ -4816,11 +4816,11 @@ internal struct ConcurrentSet<KeyType, ItemType> // TypeDefIndex: 1507
 	public ItemType TryGet(KeyType key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x22B4F0 Offset: 0x22A8F0 VA: 0x18022B4F0
+	|-RVA: 0x22B470 Offset: 0x22A870 VA: 0x18022B470
 	|-ConcurrentSet<KeyValuePair<object, Int32Enum>, object>.TryGet
 	|-ConcurrentSet<KeyValuePair<string, EventTags>, NameInfo>.TryGet
 	|
-	|-RVA: 0x22B5B0 Offset: 0x22A9B0 VA: 0x18022B5B0
+	|-RVA: 0x22B530 Offset: 0x22A930 VA: 0x18022B530
 	|-ConcurrentSet<object, object>.TryGet
 	*/
 
@@ -4828,7 +4828,7 @@ internal struct ConcurrentSet<KeyType, ItemType> // TypeDefIndex: 1507
 	public ItemType GetOrAdd(ItemType newItem) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x22B4E0 Offset: 0x22A8E0 VA: 0x18022B4E0
+	|-RVA: 0x22B460 Offset: 0x22A860 VA: 0x18022B460
 	|-ConcurrentSet<KeyValuePair<object, Int32Enum>, object>.GetOrAdd
 	|-ConcurrentSet<KeyValuePair<string, EventTags>, NameInfo>.GetOrAdd
 	|-ConcurrentSet<object, object>.GetOrAdd
@@ -4878,7 +4878,7 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	public void .ctor(TypeAnalysis typeAnalysis) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B51ED0 Offset: 0x1B504D0 VA: 0x181B51ED0
+	|-RVA: 0x1B51D10 Offset: 0x1B50310 VA: 0x181B51D10
 	|-InvokeTypeInfo<bool>..ctor
 	|-InvokeTypeInfo<byte>..ctor
 	|-InvokeTypeInfo<char>..ctor
@@ -4907,7 +4907,7 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B51890 Offset: 0x1B4FE90 VA: 0x181B51890
+	|-RVA: 0x1B516D0 Offset: 0x1B4FCD0 VA: 0x181B516D0
 	|-InvokeTypeInfo<bool>.WriteMetadata
 	|-InvokeTypeInfo<byte>.WriteMetadata
 	|-InvokeTypeInfo<char>.WriteMetadata
@@ -4936,7 +4936,7 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	public override void WriteData(TraceLoggingDataCollector collector, ref ContainerType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B51800 Offset: 0x1B4FE00 VA: 0x181B51800
+	|-RVA: 0x1B51640 Offset: 0x1B4FC40 VA: 0x181B51640
 	|-InvokeTypeInfo<bool>.WriteData
 	|-InvokeTypeInfo<byte>.WriteData
 	|-InvokeTypeInfo<char>.WriteData
@@ -4965,70 +4965,70 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	public override object GetData(object value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B4FA00 Offset: 0x1B4E000 VA: 0x181B4FA00
+	|-RVA: 0x1B4F840 Offset: 0x1B4DE40 VA: 0x181B4F840
 	|-InvokeTypeInfo<bool>.GetData
 	|
-	|-RVA: 0x1B50680 Offset: 0x1B4EC80 VA: 0x181B50680
+	|-RVA: 0x1B504C0 Offset: 0x1B4EAC0 VA: 0x181B504C0
 	|-InvokeTypeInfo<byte>.GetData
 	|
-	|-RVA: 0x1B4E880 Offset: 0x1B4CE80 VA: 0x181B4E880
+	|-RVA: 0x1B4E6C0 Offset: 0x1B4CCC0 VA: 0x181B4E6C0
 	|-InvokeTypeInfo<char>.GetData
 	|
-	|-RVA: 0x1B50400 Offset: 0x1B4EA00 VA: 0x181B50400
+	|-RVA: 0x1B50240 Offset: 0x1B4E840 VA: 0x181B50240
 	|-InvokeTypeInfo<KeyValuePair<object, object>>.GetData
 	|
-	|-RVA: 0x1B4E380 Offset: 0x1B4C980 VA: 0x181B4E380
+	|-RVA: 0x1B4E1C0 Offset: 0x1B4C7C0 VA: 0x181B4E1C0
 	|-InvokeTypeInfo<DateTime>.GetData
 	|
-	|-RVA: 0x1B4F500 Offset: 0x1B4DB00 VA: 0x181B4F500
+	|-RVA: 0x1B4F340 Offset: 0x1B4D940 VA: 0x181B4F340
 	|-InvokeTypeInfo<DateTimeOffset>.GetData
 	|
-	|-RVA: 0x1B4E600 Offset: 0x1B4CC00 VA: 0x181B4E600
+	|-RVA: 0x1B4E440 Offset: 0x1B4CA40 VA: 0x181B4E440
 	|-InvokeTypeInfo<Decimal>.GetData
 	|
-	|-RVA: 0x1B4ED80 Offset: 0x1B4D380 VA: 0x181B4ED80
+	|-RVA: 0x1B4EBC0 Offset: 0x1B4D1C0 VA: 0x181B4EBC0
 	|-InvokeTypeInfo<EmptyStruct>.GetData
 	|
-	|-RVA: 0x1B50900 Offset: 0x1B4EF00 VA: 0x181B50900
+	|-RVA: 0x1B50740 Offset: 0x1B4ED40 VA: 0x181B50740
 	|-InvokeTypeInfo<double>.GetData
 	|
-	|-RVA: 0x1B4F000 Offset: 0x1B4D600 VA: 0x181B4F000
+	|-RVA: 0x1B4EE40 Offset: 0x1B4D440 VA: 0x181B4EE40
 	|-InvokeTypeInfo<Guid>.GetData
 	|
-	|-RVA: 0x1B50E00 Offset: 0x1B4F400 VA: 0x181B50E00
+	|-RVA: 0x1B50C40 Offset: 0x1B4F240 VA: 0x181B50C40
 	|-InvokeTypeInfo<short>.GetData
 	|
-	|-RVA: 0x1B4EB00 Offset: 0x1B4D100 VA: 0x181B4EB00
+	|-RVA: 0x1B4E940 Offset: 0x1B4CF40 VA: 0x181B4E940
 	|-InvokeTypeInfo<int>.GetData
 	|
-	|-RVA: 0x1B4E100 Offset: 0x1B4C700 VA: 0x181B4E100
+	|-RVA: 0x1B4DF40 Offset: 0x1B4C540 VA: 0x181B4DF40
 	|-InvokeTypeInfo<long>.GetData
 	|
-	|-RVA: 0x1B4FC80 Offset: 0x1B4E280 VA: 0x181B4FC80
+	|-RVA: 0x1B4FAC0 Offset: 0x1B4E0C0 VA: 0x181B4FAC0
 	|-InvokeTypeInfo<IntPtr>.GetData
 	|
-	|-RVA: 0x1B51080 Offset: 0x1B4F680 VA: 0x181B51080
+	|-RVA: 0x1B50EC0 Offset: 0x1B4F4C0 VA: 0x181B50EC0
 	|-InvokeTypeInfo<object>.GetData
 	|
-	|-RVA: 0x1B4F280 Offset: 0x1B4D880 VA: 0x181B4F280
+	|-RVA: 0x1B4F0C0 Offset: 0x1B4D6C0 VA: 0x181B4F0C0
 	|-InvokeTypeInfo<sbyte>.GetData
 	|
-	|-RVA: 0x1B50180 Offset: 0x1B4E780 VA: 0x181B50180
+	|-RVA: 0x1B4FFC0 Offset: 0x1B4E5C0 VA: 0x181B4FFC0
 	|-InvokeTypeInfo<float>.GetData
 	|
-	|-RVA: 0x1B51580 Offset: 0x1B4FB80 VA: 0x181B51580
+	|-RVA: 0x1B513C0 Offset: 0x1B4F9C0 VA: 0x181B513C0
 	|-InvokeTypeInfo<TimeSpan>.GetData
 	|
-	|-RVA: 0x1B4F780 Offset: 0x1B4DD80 VA: 0x181B4F780
+	|-RVA: 0x1B4F5C0 Offset: 0x1B4DBC0 VA: 0x181B4F5C0
 	|-InvokeTypeInfo<ushort>.GetData
 	|
-	|-RVA: 0x1B4FF00 Offset: 0x1B4E500 VA: 0x181B4FF00
+	|-RVA: 0x1B4FD40 Offset: 0x1B4E340 VA: 0x181B4FD40
 	|-InvokeTypeInfo<uint>.GetData
 	|
-	|-RVA: 0x1B50B80 Offset: 0x1B4F180 VA: 0x181B50B80
+	|-RVA: 0x1B509C0 Offset: 0x1B4EFC0 VA: 0x181B509C0
 	|-InvokeTypeInfo<ulong>.GetData
 	|
-	|-RVA: 0x1B51300 Offset: 0x1B4F900 VA: 0x181B51300
+	|-RVA: 0x1B51140 Offset: 0x1B4F740 VA: 0x181B51140
 	|-InvokeTypeInfo<UIntPtr>.GetData
 	*/
 
@@ -5036,24 +5036,24 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	public override void WriteObjectData(TraceLoggingDataCollector collector, object valueObj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B51AC0 Offset: 0x1B500C0 VA: 0x181B51AC0
+	|-RVA: 0x1B51900 Offset: 0x1B4FF00 VA: 0x181B51900
 	|-InvokeTypeInfo<bool>.WriteObjectData
 	|-InvokeTypeInfo<byte>.WriteObjectData
 	|-InvokeTypeInfo<EmptyStruct>.WriteObjectData
 	|-InvokeTypeInfo<sbyte>.WriteObjectData
 	|
-	|-RVA: 0x1B51CC0 Offset: 0x1B502C0 VA: 0x181B51CC0
+	|-RVA: 0x1B51B00 Offset: 0x1B50100 VA: 0x181B51B00
 	|-InvokeTypeInfo<char>.WriteObjectData
 	|-InvokeTypeInfo<short>.WriteObjectData
 	|-InvokeTypeInfo<ushort>.WriteObjectData
 	|
-	|-RVA: 0x1B51A10 Offset: 0x1B50010 VA: 0x181B51A10
+	|-RVA: 0x1B51850 Offset: 0x1B4FE50 VA: 0x181B51850
 	|-InvokeTypeInfo<KeyValuePair<object, object>>.WriteObjectData
 	|-InvokeTypeInfo<DateTimeOffset>.WriteObjectData
 	|-InvokeTypeInfo<Decimal>.WriteObjectData
 	|-InvokeTypeInfo<Guid>.WriteObjectData
 	|
-	|-RVA: 0x1B51C10 Offset: 0x1B50210 VA: 0x181B51C10
+	|-RVA: 0x1B51A50 Offset: 0x1B50050 VA: 0x181B51A50
 	|-InvokeTypeInfo<DateTime>.WriteObjectData
 	|-InvokeTypeInfo<long>.WriteObjectData
 	|-InvokeTypeInfo<IntPtr>.WriteObjectData
@@ -5061,17 +5061,17 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	|-InvokeTypeInfo<ulong>.WriteObjectData
 	|-InvokeTypeInfo<UIntPtr>.WriteObjectData
 	|
-	|-RVA: 0x1B51960 Offset: 0x1B4FF60 VA: 0x181B51960
+	|-RVA: 0x1B517A0 Offset: 0x1B4FDA0 VA: 0x181B517A0
 	|-InvokeTypeInfo<double>.WriteObjectData
 	|
-	|-RVA: 0x1B51E20 Offset: 0x1B50420 VA: 0x181B51E20
+	|-RVA: 0x1B51C60 Offset: 0x1B50260 VA: 0x181B51C60
 	|-InvokeTypeInfo<int>.WriteObjectData
 	|-InvokeTypeInfo<uint>.WriteObjectData
 	|
-	|-RVA: 0x1B51B70 Offset: 0x1B50170 VA: 0x181B51B70
+	|-RVA: 0x1B519B0 Offset: 0x1B4FFB0 VA: 0x181B519B0
 	|-InvokeTypeInfo<object>.WriteObjectData
 	|
-	|-RVA: 0x1B51D70 Offset: 0x1B50370 VA: 0x181B51D70
+	|-RVA: 0x1B51BB0 Offset: 0x1B501B0 VA: 0x181B51BB0
 	|-InvokeTypeInfo<float>.WriteObjectData
 	*/
 
@@ -5100,70 +5100,70 @@ internal abstract class PropertyAccessor<ContainerType> // TypeDefIndex: 1526
 	public static PropertyAccessor<ContainerType> Create(PropertyAnalysis property) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B56210 Offset: 0x1B54810 VA: 0x181B56210
+	|-RVA: 0x1B56050 Offset: 0x1B54650 VA: 0x181B56050
 	|-PropertyAccessor<bool>.Create
 	|
-	|-RVA: 0x1B53EA0 Offset: 0x1B524A0 VA: 0x181B53EA0
+	|-RVA: 0x1B53CE0 Offset: 0x1B522E0 VA: 0x181B53CE0
 	|-PropertyAccessor<byte>.Create
 	|
-	|-RVA: 0x1B54E60 Offset: 0x1B53460 VA: 0x181B54E60
+	|-RVA: 0x1B54CA0 Offset: 0x1B532A0 VA: 0x181B54CA0
 	|-PropertyAccessor<char>.Create
 	|
-	|-RVA: 0x1B56600 Offset: 0x1B54C00 VA: 0x181B56600
+	|-RVA: 0x1B56440 Offset: 0x1B54A40 VA: 0x181B56440
 	|-PropertyAccessor<KeyValuePair<object, object>>.Create
 	|
-	|-RVA: 0x1B57DA0 Offset: 0x1B563A0 VA: 0x181B57DA0
+	|-RVA: 0x1B57BE0 Offset: 0x1B561E0 VA: 0x181B57BE0
 	|-PropertyAccessor<DateTime>.Create
 	|
-	|-RVA: 0x1B54680 Offset: 0x1B52C80 VA: 0x181B54680
+	|-RVA: 0x1B544C0 Offset: 0x1B52AC0 VA: 0x181B544C0
 	|-PropertyAccessor<DateTimeOffset>.Create
 	|
-	|-RVA: 0x1B536C0 Offset: 0x1B51CC0 VA: 0x181B536C0
+	|-RVA: 0x1B53500 Offset: 0x1B51B00 VA: 0x181B53500
 	|-PropertyAccessor<Decimal>.Create
 	|
-	|-RVA: 0x1B54290 Offset: 0x1B52890 VA: 0x181B54290
+	|-RVA: 0x1B540D0 Offset: 0x1B526D0 VA: 0x181B540D0
 	|-PropertyAccessor<EmptyStruct>.Create
 	|
-	|-RVA: 0x1B52AF0 Offset: 0x1B510F0 VA: 0x181B52AF0
+	|-RVA: 0x1B52930 Offset: 0x1B50F30 VA: 0x181B52930
 	|-PropertyAccessor<double>.Create
 	|
-	|-RVA: 0x1B575C0 Offset: 0x1B55BC0 VA: 0x181B575C0
+	|-RVA: 0x1B57400 Offset: 0x1B55A00 VA: 0x181B57400
 	|-PropertyAccessor<Guid>.Create
 	|
-	|-RVA: 0x1B571D0 Offset: 0x1B557D0 VA: 0x181B571D0
+	|-RVA: 0x1B57010 Offset: 0x1B55610 VA: 0x181B57010
 	|-PropertyAccessor<short>.Create
 	|
-	|-RVA: 0x1B55250 Offset: 0x1B53850 VA: 0x181B55250
+	|-RVA: 0x1B55090 Offset: 0x1B53690 VA: 0x181B55090
 	|-PropertyAccessor<int>.Create
 	|
-	|-RVA: 0x1B54A70 Offset: 0x1B53070 VA: 0x181B54A70
+	|-RVA: 0x1B548B0 Offset: 0x1B52EB0 VA: 0x181B548B0
 	|-PropertyAccessor<long>.Create
 	|
-	|-RVA: 0x1B569F0 Offset: 0x1B54FF0 VA: 0x181B569F0
+	|-RVA: 0x1B56830 Offset: 0x1B54E30 VA: 0x181B56830
 	|-PropertyAccessor<IntPtr>.Create
 	|
-	|-RVA: 0x1B579B0 Offset: 0x1B55FB0 VA: 0x181B579B0
+	|-RVA: 0x1B577F0 Offset: 0x1B55DF0 VA: 0x181B577F0
 	|-PropertyAccessor<object>.Create
 	|
-	|-RVA: 0x1B53AB0 Offset: 0x1B520B0 VA: 0x181B53AB0
+	|-RVA: 0x1B538F0 Offset: 0x1B51EF0 VA: 0x181B538F0
 	|-PropertyAccessor<sbyte>.Create
 	|
-	|-RVA: 0x1B55640 Offset: 0x1B53C40 VA: 0x181B55640
+	|-RVA: 0x1B55480 Offset: 0x1B53A80 VA: 0x181B55480
 	|-PropertyAccessor<float>.Create
 	|
-	|-RVA: 0x1B55E20 Offset: 0x1B54420 VA: 0x181B55E20
+	|-RVA: 0x1B55C60 Offset: 0x1B54260 VA: 0x181B55C60
 	|-PropertyAccessor<TimeSpan>.Create
 	|
-	|-RVA: 0x1B55A30 Offset: 0x1B54030 VA: 0x181B55A30
+	|-RVA: 0x1B55870 Offset: 0x1B53E70 VA: 0x181B55870
 	|-PropertyAccessor<ushort>.Create
 	|
-	|-RVA: 0x1B532D0 Offset: 0x1B518D0 VA: 0x181B532D0
+	|-RVA: 0x1B53110 Offset: 0x1B51710 VA: 0x181B53110
 	|-PropertyAccessor<uint>.Create
 	|
-	|-RVA: 0x1B52EE0 Offset: 0x1B514E0 VA: 0x181B52EE0
+	|-RVA: 0x1B52D20 Offset: 0x1B51320 VA: 0x181B52D20
 	|-PropertyAccessor<ulong>.Create
 	|
-	|-RVA: 0x1B56DE0 Offset: 0x1B553E0 VA: 0x181B56DE0
+	|-RVA: 0x1B56C20 Offset: 0x1B55220 VA: 0x181B56C20
 	|-PropertyAccessor<UIntPtr>.Create
 	*/
 
@@ -5209,7 +5209,7 @@ internal class NonGenericProperytWriter<ContainerType> : PropertyAccessor<Contai
 	public void .ctor(PropertyAnalysis property) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B52A60 Offset: 0x1B51060 VA: 0x181B52A60
+	|-RVA: 0x1B528A0 Offset: 0x1B50EA0 VA: 0x181B528A0
 	|-NonGenericProperytWriter<bool>..ctor
 	|-NonGenericProperytWriter<byte>..ctor
 	|-NonGenericProperytWriter<char>..ctor
@@ -5238,24 +5238,24 @@ internal class NonGenericProperytWriter<ContainerType> : PropertyAccessor<Contai
 	public override void Write(TraceLoggingDataCollector collector, ref ContainerType container) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B525E0 Offset: 0x1B50BE0 VA: 0x181B525E0
+	|-RVA: 0x1B52420 Offset: 0x1B50A20 VA: 0x181B52420
 	|-NonGenericProperytWriter<bool>.Write
 	|-NonGenericProperytWriter<byte>.Write
 	|-NonGenericProperytWriter<EmptyStruct>.Write
 	|-NonGenericProperytWriter<sbyte>.Write
 	|
-	|-RVA: 0x1B52690 Offset: 0x1B50C90 VA: 0x181B52690
+	|-RVA: 0x1B524D0 Offset: 0x1B50AD0 VA: 0x181B524D0
 	|-NonGenericProperytWriter<char>.Write
 	|-NonGenericProperytWriter<short>.Write
 	|-NonGenericProperytWriter<ushort>.Write
 	|
-	|-RVA: 0x1B527F0 Offset: 0x1B50DF0 VA: 0x181B527F0
+	|-RVA: 0x1B52630 Offset: 0x1B50C30 VA: 0x181B52630
 	|-NonGenericProperytWriter<KeyValuePair<object, object>>.Write
 	|-NonGenericProperytWriter<DateTimeOffset>.Write
 	|-NonGenericProperytWriter<Decimal>.Write
 	|-NonGenericProperytWriter<Guid>.Write
 	|
-	|-RVA: 0x1B52530 Offset: 0x1B50B30 VA: 0x181B52530
+	|-RVA: 0x1B52370 Offset: 0x1B50970 VA: 0x181B52370
 	|-NonGenericProperytWriter<DateTime>.Write
 	|-NonGenericProperytWriter<long>.Write
 	|-NonGenericProperytWriter<IntPtr>.Write
@@ -5263,17 +5263,17 @@ internal class NonGenericProperytWriter<ContainerType> : PropertyAccessor<Contai
 	|-NonGenericProperytWriter<ulong>.Write
 	|-NonGenericProperytWriter<UIntPtr>.Write
 	|
-	|-RVA: 0x1B52740 Offset: 0x1B50D40 VA: 0x181B52740
+	|-RVA: 0x1B52580 Offset: 0x1B50B80 VA: 0x181B52580
 	|-NonGenericProperytWriter<double>.Write
 	|
-	|-RVA: 0x1B528A0 Offset: 0x1B50EA0 VA: 0x181B528A0
+	|-RVA: 0x1B526E0 Offset: 0x1B50CE0 VA: 0x181B526E0
 	|-NonGenericProperytWriter<int>.Write
 	|-NonGenericProperytWriter<uint>.Write
 	|
-	|-RVA: 0x1B52A00 Offset: 0x1B51000 VA: 0x181B52A00
+	|-RVA: 0x1B52840 Offset: 0x1B50E40 VA: 0x181B52840
 	|-NonGenericProperytWriter<object>.Write
 	|
-	|-RVA: 0x1B52950 Offset: 0x1B50F50 VA: 0x181B52950
+	|-RVA: 0x1B52790 Offset: 0x1B50D90 VA: 0x181B52790
 	|-NonGenericProperytWriter<float>.Write
 	*/
 
@@ -5281,24 +5281,24 @@ internal class NonGenericProperytWriter<ContainerType> : PropertyAccessor<Contai
 	public override object GetData(ContainerType container) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B523B0 Offset: 0x1B509B0 VA: 0x181B523B0
+	|-RVA: 0x1B521F0 Offset: 0x1B507F0 VA: 0x181B521F0
 	|-NonGenericProperytWriter<bool>.GetData
 	|-NonGenericProperytWriter<byte>.GetData
 	|-NonGenericProperytWriter<EmptyStruct>.GetData
 	|-NonGenericProperytWriter<sbyte>.GetData
 	|
-	|-RVA: 0x1B52340 Offset: 0x1B50940 VA: 0x181B52340
+	|-RVA: 0x1B52180 Offset: 0x1B50780 VA: 0x181B52180
 	|-NonGenericProperytWriter<char>.GetData
 	|-NonGenericProperytWriter<short>.GetData
 	|-NonGenericProperytWriter<ushort>.GetData
 	|
-	|-RVA: 0x1B52260 Offset: 0x1B50860 VA: 0x181B52260
+	|-RVA: 0x1B520A0 Offset: 0x1B506A0 VA: 0x181B520A0
 	|-NonGenericProperytWriter<KeyValuePair<object, object>>.GetData
 	|-NonGenericProperytWriter<DateTimeOffset>.GetData
 	|-NonGenericProperytWriter<Decimal>.GetData
 	|-NonGenericProperytWriter<Guid>.GetData
 	|
-	|-RVA: 0x1B521F0 Offset: 0x1B507F0 VA: 0x181B521F0
+	|-RVA: 0x1B52030 Offset: 0x1B50630 VA: 0x181B52030
 	|-NonGenericProperytWriter<DateTime>.GetData
 	|-NonGenericProperytWriter<long>.GetData
 	|-NonGenericProperytWriter<IntPtr>.GetData
@@ -5306,17 +5306,17 @@ internal class NonGenericProperytWriter<ContainerType> : PropertyAccessor<Contai
 	|-NonGenericProperytWriter<ulong>.GetData
 	|-NonGenericProperytWriter<UIntPtr>.GetData
 	|
-	|-RVA: 0x1B522D0 Offset: 0x1B508D0 VA: 0x181B522D0
+	|-RVA: 0x1B52110 Offset: 0x1B50710 VA: 0x181B52110
 	|-NonGenericProperytWriter<double>.GetData
 	|
-	|-RVA: 0x1B524C0 Offset: 0x1B50AC0 VA: 0x181B524C0
+	|-RVA: 0x1B52300 Offset: 0x1B50900 VA: 0x181B52300
 	|-NonGenericProperytWriter<int>.GetData
 	|-NonGenericProperytWriter<uint>.GetData
 	|
-	|-RVA: 0x1B52490 Offset: 0x1B50A90 VA: 0x181B52490
+	|-RVA: 0x1B522D0 Offset: 0x1B508D0 VA: 0x181B522D0
 	|-NonGenericProperytWriter<object>.GetData
 	|
-	|-RVA: 0x1B52420 Offset: 0x1B50A20 VA: 0x181B52420
+	|-RVA: 0x1B52260 Offset: 0x1B50860 VA: 0x181B52260
 	|-NonGenericProperytWriter<float>.GetData
 	*/
 
@@ -5333,202 +5333,202 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	public void .ctor(PropertyAnalysis property) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20C0E00 Offset: 0x20BF400 VA: 0x1820C0E00
+	|-RVA: 0x20C0C40 Offset: 0x20BF240 VA: 0x1820C0C40
 	|-ClassPropertyWriter<bool, int>..ctor
 	|
-	|-RVA: 0x20C4200 Offset: 0x20C2800 VA: 0x1820C4200
+	|-RVA: 0x20C4040 Offset: 0x20C2640 VA: 0x1820C4040
 	|-ClassPropertyWriter<bool, long>..ctor
 	|
-	|-RVA: 0x20C4880 Offset: 0x20C2E80 VA: 0x1820C4880
+	|-RVA: 0x20C46C0 Offset: 0x20C2CC0 VA: 0x1820C46C0
 	|-ClassPropertyWriter<bool, object>..ctor
 	|
-	|-RVA: 0x20C1480 Offset: 0x20BFA80 VA: 0x1820C1480
+	|-RVA: 0x20C12C0 Offset: 0x20BF8C0 VA: 0x1820C12C0
 	|-ClassPropertyWriter<byte, int>..ctor
 	|
-	|-RVA: 0x20C53E0 Offset: 0x20C39E0 VA: 0x1820C53E0
+	|-RVA: 0x20C5220 Offset: 0x20C3820 VA: 0x1820C5220
 	|-ClassPropertyWriter<byte, long>..ctor
 	|
-	|-RVA: 0x20C46E0 Offset: 0x20C2CE0 VA: 0x1820C46E0
+	|-RVA: 0x20C4520 Offset: 0x20C2B20 VA: 0x1820C4520
 	|-ClassPropertyWriter<byte, object>..ctor
 	|
-	|-RVA: 0x20C1140 Offset: 0x20BF740 VA: 0x1820C1140
+	|-RVA: 0x20C0F80 Offset: 0x20BF580 VA: 0x1820C0F80
 	|-ClassPropertyWriter<char, int>..ctor
 	|
-	|-RVA: 0x20C3B80 Offset: 0x20C2180 VA: 0x1820C3B80
+	|-RVA: 0x20C39C0 Offset: 0x20C1FC0 VA: 0x1820C39C0
 	|-ClassPropertyWriter<char, long>..ctor
 	|
-	|-RVA: 0x20C2320 Offset: 0x20C0920 VA: 0x1820C2320
+	|-RVA: 0x20C2160 Offset: 0x20C0760 VA: 0x1820C2160
 	|-ClassPropertyWriter<char, object>..ctor
 	|
-	|-RVA: 0x20C3840 Offset: 0x20C1E40 VA: 0x1820C3840
+	|-RVA: 0x20C3680 Offset: 0x20C1C80 VA: 0x1820C3680
 	|-ClassPropertyWriter<KeyValuePair<object, object>, int>..ctor
 	|
-	|-RVA: 0x20C1B00 Offset: 0x20C0100 VA: 0x1820C1B00
+	|-RVA: 0x20C1940 Offset: 0x20BFF40 VA: 0x1820C1940
 	|-ClassPropertyWriter<KeyValuePair<object, object>, long>..ctor
 	|
-	|-RVA: 0x20C1620 Offset: 0x20BFC20 VA: 0x1820C1620
+	|-RVA: 0x20C1460 Offset: 0x20BFA60 VA: 0x1820C1460
 	|-ClassPropertyWriter<KeyValuePair<object, object>, object>..ctor
 	|
-	|-RVA: 0x20C17C0 Offset: 0x20BFDC0 VA: 0x1820C17C0
+	|-RVA: 0x20C1600 Offset: 0x20BFC00 VA: 0x1820C1600
 	|-ClassPropertyWriter<DateTime, int>..ctor
 	|
-	|-RVA: 0x20C4BC0 Offset: 0x20C31C0 VA: 0x1820C4BC0
+	|-RVA: 0x20C4A00 Offset: 0x20C3000 VA: 0x1820C4A00
 	|-ClassPropertyWriter<DateTime, long>..ctor
 	|
-	|-RVA: 0x20C0FA0 Offset: 0x20BF5A0 VA: 0x1820C0FA0
+	|-RVA: 0x20C0DE0 Offset: 0x20BF3E0 VA: 0x1820C0DE0
 	|-ClassPropertyWriter<DateTime, object>..ctor
 	|
-	|-RVA: 0x20C2CE0 Offset: 0x20C12E0 VA: 0x1820C2CE0
+	|-RVA: 0x20C2B20 Offset: 0x20C1120 VA: 0x1820C2B20
 	|-ClassPropertyWriter<DateTimeOffset, int>..ctor
 	|
-	|-RVA: 0x20C1960 Offset: 0x20BFF60 VA: 0x1820C1960
+	|-RVA: 0x20C17A0 Offset: 0x20BFDA0 VA: 0x1820C17A0
 	|-ClassPropertyWriter<DateTimeOffset, long>..ctor
 	|
-	|-RVA: 0x20C4060 Offset: 0x20C2660 VA: 0x1820C4060
+	|-RVA: 0x20C3EA0 Offset: 0x20C24A0 VA: 0x1820C3EA0
 	|-ClassPropertyWriter<DateTimeOffset, object>..ctor
 	|
-	|-RVA: 0x20C2660 Offset: 0x20C0C60 VA: 0x1820C2660
+	|-RVA: 0x20C24A0 Offset: 0x20C0AA0 VA: 0x1820C24A0
 	|-ClassPropertyWriter<Decimal, int>..ctor
 	|
-	|-RVA: 0x20C4A20 Offset: 0x20C3020 VA: 0x1820C4A20
+	|-RVA: 0x20C4860 Offset: 0x20C2E60 VA: 0x1820C4860
 	|-ClassPropertyWriter<Decimal, long>..ctor
 	|
-	|-RVA: 0x20C50A0 Offset: 0x20C36A0 VA: 0x1820C50A0
+	|-RVA: 0x20C4EE0 Offset: 0x20C34E0 VA: 0x1820C4EE0
 	|-ClassPropertyWriter<Decimal, object>..ctor
 	|
-	|-RVA: 0x20C2B40 Offset: 0x20C1140 VA: 0x1820C2B40
+	|-RVA: 0x20C2980 Offset: 0x20C0F80 VA: 0x1820C2980
 	|-ClassPropertyWriter<EmptyStruct, int>..ctor
 	|
-	|-RVA: 0x20C2E80 Offset: 0x20C1480 VA: 0x1820C2E80
+	|-RVA: 0x20C2CC0 Offset: 0x20C12C0 VA: 0x1820C2CC0
 	|-ClassPropertyWriter<EmptyStruct, long>..ctor
 	|
-	|-RVA: 0x20C29A0 Offset: 0x20C0FA0 VA: 0x1820C29A0
+	|-RVA: 0x20C27E0 Offset: 0x20C0DE0 VA: 0x1820C27E0
 	|-ClassPropertyWriter<EmptyStruct, object>..ctor
 	|
-	|-RVA: 0x20C3500 Offset: 0x20C1B00 VA: 0x1820C3500
+	|-RVA: 0x20C3340 Offset: 0x20C1940 VA: 0x1820C3340
 	|-ClassPropertyWriter<double, int>..ctor
 	|
-	|-RVA: 0x20C3EC0 Offset: 0x20C24C0 VA: 0x1820C3EC0
+	|-RVA: 0x20C3D00 Offset: 0x20C2300 VA: 0x1820C3D00
 	|-ClassPropertyWriter<double, long>..ctor
 	|
-	|-RVA: 0x20C4D60 Offset: 0x20C3360 VA: 0x1820C4D60
+	|-RVA: 0x20C4BA0 Offset: 0x20C31A0 VA: 0x1820C4BA0
 	|-ClassPropertyWriter<double, object>..ctor
 	|
-	|-RVA: 0x20C36A0 Offset: 0x20C1CA0 VA: 0x1820C36A0
+	|-RVA: 0x20C34E0 Offset: 0x20C1AE0 VA: 0x1820C34E0
 	|-ClassPropertyWriter<Guid, int>..ctor
 	|
-	|-RVA: 0x20C3020 Offset: 0x20C1620 VA: 0x1820C3020
+	|-RVA: 0x20C2E60 Offset: 0x20C1460 VA: 0x1820C2E60
 	|-ClassPropertyWriter<Guid, long>..ctor
 	|
-	|-RVA: 0x20C4540 Offset: 0x20C2B40 VA: 0x1820C4540
+	|-RVA: 0x20C4380 Offset: 0x20C2980 VA: 0x1820C4380
 	|-ClassPropertyWriter<Guid, object>..ctor
 	|
-	|-RVA: 0x20C1FE0 Offset: 0x20C05E0 VA: 0x1820C1FE0
+	|-RVA: 0x20C1E20 Offset: 0x20C0420 VA: 0x1820C1E20
 	|-ClassPropertyWriter<short, int>..ctor
 	|
-	|-RVA: 0x20C24C0 Offset: 0x20C0AC0 VA: 0x1820C24C0
+	|-RVA: 0x20C2300 Offset: 0x20C0900 VA: 0x1820C2300
 	|-ClassPropertyWriter<short, long>..ctor
 	|
-	|-RVA: 0x20C1CA0 Offset: 0x20C02A0 VA: 0x1820C1CA0
+	|-RVA: 0x20C1AE0 Offset: 0x20C00E0 VA: 0x1820C1AE0
 	|-ClassPropertyWriter<short, object>..ctor
 	|
-	|-RVA: 0x20C12E0 Offset: 0x20BF8E0 VA: 0x1820C12E0
+	|-RVA: 0x20C1120 Offset: 0x20BF720 VA: 0x1820C1120
 	|-ClassPropertyWriter<int, int>..ctor
 	|
-	|-RVA: 0x20C4F00 Offset: 0x20C3500 VA: 0x1820C4F00
+	|-RVA: 0x20C4D40 Offset: 0x20C3340 VA: 0x1820C4D40
 	|-ClassPropertyWriter<int, long>..ctor
 	|
-	|-RVA: 0x20C43A0 Offset: 0x20C29A0 VA: 0x1820C43A0
+	|-RVA: 0x20C41E0 Offset: 0x20C27E0 VA: 0x1820C41E0
 	|-ClassPropertyWriter<int, object>..ctor
 	|
-	|-RVA: 0x20C0C60 Offset: 0x20BF260 VA: 0x1820C0C60
+	|-RVA: 0x20C0AA0 Offset: 0x20BF0A0 VA: 0x1820C0AA0
 	|-ClassPropertyWriter<long, int>..ctor
 	|
-	|-RVA: 0x20C2800 Offset: 0x20C0E00 VA: 0x1820C2800
+	|-RVA: 0x20C2640 Offset: 0x20C0C40 VA: 0x1820C2640
 	|-ClassPropertyWriter<long, long>..ctor
 	|
-	|-RVA: 0x20C3360 Offset: 0x20C1960 VA: 0x1820C3360
+	|-RVA: 0x20C31A0 Offset: 0x20C17A0 VA: 0x1820C31A0
 	|-ClassPropertyWriter<long, object>..ctor
 	|
-	|-RVA: 0x20C3D20 Offset: 0x20C2320 VA: 0x1820C3D20
+	|-RVA: 0x20C3B60 Offset: 0x20C2160 VA: 0x1820C3B60
 	|-ClassPropertyWriter<IntPtr, int>..ctor
 	|
-	|-RVA: 0x20C5580 Offset: 0x20C3B80 VA: 0x1820C5580
+	|-RVA: 0x20C53C0 Offset: 0x20C39C0 VA: 0x1820C53C0
 	|-ClassPropertyWriter<IntPtr, long>..ctor
 	|
-	|-RVA: 0x20C5240 Offset: 0x20C3840 VA: 0x1820C5240
+	|-RVA: 0x20C5080 Offset: 0x20C3680 VA: 0x1820C5080
 	|-ClassPropertyWriter<IntPtr, object>..ctor
 	|
-	|-RVA: 0x20C1E40 Offset: 0x20C0440 VA: 0x1820C1E40
+	|-RVA: 0x20C1C80 Offset: 0x20C0280 VA: 0x1820C1C80
 	|-ClassPropertyWriter<object, int>..ctor
 	|
-	|-RVA: 0x20C31C0 Offset: 0x20C17C0 VA: 0x1820C31C0
+	|-RVA: 0x20C3000 Offset: 0x20C1600 VA: 0x1820C3000
 	|-ClassPropertyWriter<object, long>..ctor
 	|
-	|-RVA: 0x20C2180 Offset: 0x20C0780 VA: 0x1820C2180
+	|-RVA: 0x20C1FC0 Offset: 0x20C05C0 VA: 0x1820C1FC0
 	|-ClassPropertyWriter<object, object>..ctor
 	|
-	|-RVA: 0x20C39E0 Offset: 0x20C1FE0 VA: 0x1820C39E0
+	|-RVA: 0x20C3820 Offset: 0x20C1E20 VA: 0x1820C3820
 	|-ClassPropertyWriter<sbyte, int>..ctor
 	|
-	|-RVA: 0x20C5720 Offset: 0x20C3D20 VA: 0x1820C5720
+	|-RVA: 0x20C5560 Offset: 0x20C3B60 VA: 0x1820C5560
 	|-ClassPropertyWriter<sbyte, long>..ctor
 	|
-	|-RVA: 0x1B0F860 Offset: 0x1B0DE60 VA: 0x181B0F860
+	|-RVA: 0x1B0F6A0 Offset: 0x1B0DCA0 VA: 0x181B0F6A0
 	|-ClassPropertyWriter<sbyte, object>..ctor
 	|
-	|-RVA: 0x1B115A0 Offset: 0x1B0FBA0 VA: 0x181B115A0
+	|-RVA: 0x1B113E0 Offset: 0x1B0F9E0 VA: 0x181B113E0
 	|-ClassPropertyWriter<float, int>..ctor
 	|
-	|-RVA: 0x1B10F20 Offset: 0x1B0F520 VA: 0x181B10F20
+	|-RVA: 0x1B10D60 Offset: 0x1B0F360 VA: 0x181B10D60
 	|-ClassPropertyWriter<float, long>..ctor
 	|
-	|-RVA: 0x1B0FA00 Offset: 0x1B0E000 VA: 0x181B0FA00
+	|-RVA: 0x1B0F840 Offset: 0x1B0DE40 VA: 0x181B0F840
 	|-ClassPropertyWriter<float, object>..ctor
 	|
-	|-RVA: 0x1B10A40 Offset: 0x1B0F040 VA: 0x181B10A40
+	|-RVA: 0x1B10880 Offset: 0x1B0EE80 VA: 0x181B10880
 	|-ClassPropertyWriter<TimeSpan, int>..ctor
 	|
-	|-RVA: 0x1B10D80 Offset: 0x1B0F380 VA: 0x181B10D80
+	|-RVA: 0x1B10BC0 Offset: 0x1B0F1C0 VA: 0x181B10BC0
 	|-ClassPropertyWriter<TimeSpan, long>..ctor
 	|
-	|-RVA: 0x1B103C0 Offset: 0x1B0E9C0 VA: 0x181B103C0
+	|-RVA: 0x1B10200 Offset: 0x1B0E800 VA: 0x181B10200
 	|-ClassPropertyWriter<TimeSpan, object>..ctor
 	|
-	|-RVA: 0x1B0FEE0 Offset: 0x1B0E4E0 VA: 0x181B0FEE0
+	|-RVA: 0x1B0FD20 Offset: 0x1B0E320 VA: 0x181B0FD20
 	|-ClassPropertyWriter<ushort, int>..ctor
 	|
-	|-RVA: 0x1B10080 Offset: 0x1B0E680 VA: 0x181B10080
+	|-RVA: 0x1B0FEC0 Offset: 0x1B0E4C0 VA: 0x181B0FEC0
 	|-ClassPropertyWriter<ushort, long>..ctor
 	|
-	|-RVA: 0x1B11400 Offset: 0x1B0FA00 VA: 0x181B11400
+	|-RVA: 0x1B11240 Offset: 0x1B0F840 VA: 0x181B11240
 	|-ClassPropertyWriter<ushort, object>..ctor
 	|
-	|-RVA: 0x1B110C0 Offset: 0x1B0F6C0 VA: 0x181B110C0
+	|-RVA: 0x1B10F00 Offset: 0x1B0F500 VA: 0x181B10F00
 	|-ClassPropertyWriter<uint, int>..ctor
 	|
-	|-RVA: 0x1B11260 Offset: 0x1B0F860 VA: 0x181B11260
+	|-RVA: 0x1B110A0 Offset: 0x1B0F6A0 VA: 0x181B110A0
 	|-ClassPropertyWriter<uint, long>..ctor
 	|
-	|-RVA: 0x1B10560 Offset: 0x1B0EB60 VA: 0x181B10560
+	|-RVA: 0x1B103A0 Offset: 0x1B0E9A0 VA: 0x181B103A0
 	|-ClassPropertyWriter<uint, object>..ctor
 	|
-	|-RVA: 0x1B10700 Offset: 0x1B0ED00 VA: 0x181B10700
+	|-RVA: 0x1B10540 Offset: 0x1B0EB40 VA: 0x181B10540
 	|-ClassPropertyWriter<ulong, int>..ctor
 	|
-	|-RVA: 0x1B108A0 Offset: 0x1B0EEA0 VA: 0x181B108A0
+	|-RVA: 0x1B106E0 Offset: 0x1B0ECE0 VA: 0x181B106E0
 	|-ClassPropertyWriter<ulong, long>..ctor
 	|
-	|-RVA: 0x1B0FD40 Offset: 0x1B0E340 VA: 0x181B0FD40
+	|-RVA: 0x1B0FB80 Offset: 0x1B0E180 VA: 0x181B0FB80
 	|-ClassPropertyWriter<ulong, object>..ctor
 	|
-	|-RVA: 0x1B0FBA0 Offset: 0x1B0E1A0 VA: 0x181B0FBA0
+	|-RVA: 0x1B0F9E0 Offset: 0x1B0DFE0 VA: 0x181B0F9E0
 	|-ClassPropertyWriter<UIntPtr, int>..ctor
 	|
-	|-RVA: 0x1B10220 Offset: 0x1B0E820 VA: 0x181B10220
+	|-RVA: 0x1B10060 Offset: 0x1B0E660 VA: 0x181B10060
 	|-ClassPropertyWriter<UIntPtr, long>..ctor
 	|
-	|-RVA: 0x1B10BE0 Offset: 0x1B0F1E0 VA: 0x181B10BE0
+	|-RVA: 0x1B10A20 Offset: 0x1B0F020 VA: 0x181B10A20
 	|-ClassPropertyWriter<UIntPtr, object>..ctor
 	*/
 
@@ -5536,12 +5536,12 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	public override void Write(TraceLoggingDataCollector collector, ref ContainerType container) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20C09C0 Offset: 0x20BEFC0 VA: 0x1820C09C0
+	|-RVA: 0x20C0800 Offset: 0x20BEE00 VA: 0x1820C0800
 	|-ClassPropertyWriter<bool, int>.Write
 	|-ClassPropertyWriter<byte, int>.Write
 	|-ClassPropertyWriter<sbyte, int>.Write
 	|
-	|-RVA: 0x1B0F400 Offset: 0x1B0DA00 VA: 0x181B0F400
+	|-RVA: 0x1B0F240 Offset: 0x1B0D840 VA: 0x181B0F240
 	|-ClassPropertyWriter<bool, long>.Write
 	|-ClassPropertyWriter<bool, object>.Write
 	|-ClassPropertyWriter<byte, long>.Write
@@ -5549,12 +5549,12 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<sbyte, long>.Write
 	|-ClassPropertyWriter<sbyte, object>.Write
 	|
-	|-RVA: 0x1B0F6A0 Offset: 0x1B0DCA0 VA: 0x181B0F6A0
+	|-RVA: 0x1B0F4E0 Offset: 0x1B0DAE0 VA: 0x181B0F4E0
 	|-ClassPropertyWriter<char, int>.Write
 	|-ClassPropertyWriter<short, int>.Write
 	|-ClassPropertyWriter<ushort, int>.Write
 	|
-	|-RVA: 0x1B0F390 Offset: 0x1B0D990 VA: 0x181B0F390
+	|-RVA: 0x1B0F1D0 Offset: 0x1B0D7D0 VA: 0x181B0F1D0
 	|-ClassPropertyWriter<char, long>.Write
 	|-ClassPropertyWriter<char, object>.Write
 	|-ClassPropertyWriter<short, long>.Write
@@ -5562,13 +5562,13 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<ushort, long>.Write
 	|-ClassPropertyWriter<ushort, object>.Write
 	|
-	|-RVA: 0x20C0940 Offset: 0x20BEF40 VA: 0x1820C0940
+	|-RVA: 0x20C0780 Offset: 0x20BED80 VA: 0x1820C0780
 	|-ClassPropertyWriter<KeyValuePair<object, object>, int>.Write
 	|-ClassPropertyWriter<DateTimeOffset, int>.Write
 	|-ClassPropertyWriter<Decimal, int>.Write
 	|-ClassPropertyWriter<Guid, int>.Write
 	|
-	|-RVA: 0x20C0850 Offset: 0x20BEE50 VA: 0x1820C0850
+	|-RVA: 0x20C0690 Offset: 0x20BEC90 VA: 0x1820C0690
 	|-ClassPropertyWriter<KeyValuePair<object, object>, long>.Write
 	|-ClassPropertyWriter<KeyValuePair<object, object>, object>.Write
 	|-ClassPropertyWriter<DateTimeOffset, long>.Write
@@ -5578,47 +5578,47 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<Guid, long>.Write
 	|-ClassPropertyWriter<Guid, object>.Write
 	|
-	|-RVA: 0x1B0F710 Offset: 0x1B0DD10 VA: 0x181B0F710
+	|-RVA: 0x1B0F550 Offset: 0x1B0DB50 VA: 0x181B0F550
 	|-ClassPropertyWriter<DateTime, int>.Write
 	|-ClassPropertyWriter<TimeSpan, int>.Write
 	|
-	|-RVA: 0x1B0F780 Offset: 0x1B0DD80 VA: 0x181B0F780
+	|-RVA: 0x1B0F5C0 Offset: 0x1B0DBC0 VA: 0x181B0F5C0
 	|-ClassPropertyWriter<DateTime, long>.Write
 	|-ClassPropertyWriter<DateTime, object>.Write
 	|-ClassPropertyWriter<TimeSpan, long>.Write
 	|-ClassPropertyWriter<TimeSpan, object>.Write
 	|
-	|-RVA: 0x20C0BF0 Offset: 0x20BF1F0 VA: 0x1820C0BF0
+	|-RVA: 0x20C0A30 Offset: 0x20BF030 VA: 0x1820C0A30
 	|-ClassPropertyWriter<EmptyStruct, int>.Write
 	|
-	|-RVA: 0x20C08D0 Offset: 0x20BEED0 VA: 0x1820C08D0
+	|-RVA: 0x20C0710 Offset: 0x20BED10 VA: 0x1820C0710
 	|-ClassPropertyWriter<EmptyStruct, long>.Write
 	|-ClassPropertyWriter<EmptyStruct, object>.Write
 	|
-	|-RVA: 0x20C0B80 Offset: 0x20BF180 VA: 0x1820C0B80
+	|-RVA: 0x20C09C0 Offset: 0x20BEFC0 VA: 0x1820C09C0
 	|-ClassPropertyWriter<double, int>.Write
 	|
-	|-RVA: 0x20C0AA0 Offset: 0x20BF0A0 VA: 0x1820C0AA0
+	|-RVA: 0x20C08E0 Offset: 0x20BEEE0 VA: 0x1820C08E0
 	|-ClassPropertyWriter<double, long>.Write
 	|-ClassPropertyWriter<double, object>.Write
 	|
-	|-RVA: 0x1B0F7F0 Offset: 0x1B0DDF0 VA: 0x181B0F7F0
+	|-RVA: 0x1B0F630 Offset: 0x1B0DC30 VA: 0x181B0F630
 	|-ClassPropertyWriter<int, int>.Write
 	|-ClassPropertyWriter<uint, int>.Write
 	|
-	|-RVA: 0x1B0F550 Offset: 0x1B0DB50 VA: 0x181B0F550
+	|-RVA: 0x1B0F390 Offset: 0x1B0D990 VA: 0x181B0F390
 	|-ClassPropertyWriter<int, long>.Write
 	|-ClassPropertyWriter<int, object>.Write
 	|-ClassPropertyWriter<uint, long>.Write
 	|-ClassPropertyWriter<uint, object>.Write
 	|
-	|-RVA: 0x1B0F630 Offset: 0x1B0DC30 VA: 0x181B0F630
+	|-RVA: 0x1B0F470 Offset: 0x1B0DA70 VA: 0x181B0F470
 	|-ClassPropertyWriter<long, int>.Write
 	|-ClassPropertyWriter<IntPtr, int>.Write
 	|-ClassPropertyWriter<ulong, int>.Write
 	|-ClassPropertyWriter<UIntPtr, int>.Write
 	|
-	|-RVA: 0x1B0F4E0 Offset: 0x1B0DAE0 VA: 0x181B0F4E0
+	|-RVA: 0x1B0F320 Offset: 0x1B0D920 VA: 0x181B0F320
 	|-ClassPropertyWriter<long, long>.Write
 	|-ClassPropertyWriter<long, object>.Write
 	|-ClassPropertyWriter<IntPtr, long>.Write
@@ -5628,17 +5628,17 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<UIntPtr, long>.Write
 	|-ClassPropertyWriter<UIntPtr, object>.Write
 	|
-	|-RVA: 0x20C0B10 Offset: 0x20BF110 VA: 0x1820C0B10
+	|-RVA: 0x20C0950 Offset: 0x20BEF50 VA: 0x1820C0950
 	|-ClassPropertyWriter<object, int>.Write
 	|
-	|-RVA: 0x20C0A30 Offset: 0x20BF030 VA: 0x1820C0A30
+	|-RVA: 0x20C0870 Offset: 0x20BEE70 VA: 0x1820C0870
 	|-ClassPropertyWriter<object, long>.Write
 	|-ClassPropertyWriter<object, object>.Write
 	|
-	|-RVA: 0x1B0F5C0 Offset: 0x1B0DBC0 VA: 0x181B0F5C0
+	|-RVA: 0x1B0F400 Offset: 0x1B0DA00 VA: 0x181B0F400
 	|-ClassPropertyWriter<float, int>.Write
 	|
-	|-RVA: 0x1B0F470 Offset: 0x1B0DA70 VA: 0x181B0F470
+	|-RVA: 0x1B0F2B0 Offset: 0x1B0D8B0 VA: 0x181B0F2B0
 	|-ClassPropertyWriter<float, long>.Write
 	|-ClassPropertyWriter<float, object>.Write
 	*/
@@ -5647,7 +5647,7 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	public override object GetData(ContainerType container) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B0F1A0 Offset: 0x1B0D7A0 VA: 0x181B0F1A0
+	|-RVA: 0x1B0EFE0 Offset: 0x1B0D5E0 VA: 0x181B0EFE0
 	|-ClassPropertyWriter<bool, int>.GetData
 	|-ClassPropertyWriter<byte, int>.GetData
 	|-ClassPropertyWriter<char, int>.GetData
@@ -5658,7 +5658,7 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<ushort, int>.GetData
 	|-ClassPropertyWriter<uint, int>.GetData
 	|
-	|-RVA: 0x1B0F100 Offset: 0x1B0D700 VA: 0x181B0F100
+	|-RVA: 0x1B0EF40 Offset: 0x1B0D540 VA: 0x181B0EF40
 	|-ClassPropertyWriter<bool, long>.GetData
 	|-ClassPropertyWriter<byte, long>.GetData
 	|-ClassPropertyWriter<char, long>.GetData
@@ -5675,7 +5675,7 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<ulong, long>.GetData
 	|-ClassPropertyWriter<UIntPtr, long>.GetData
 	|
-	|-RVA: 0x1B0F170 Offset: 0x1B0D770 VA: 0x181B0F170
+	|-RVA: 0x1B0EFB0 Offset: 0x1B0D5B0 VA: 0x181B0EFB0
 	|-ClassPropertyWriter<bool, object>.GetData
 	|-ClassPropertyWriter<byte, object>.GetData
 	|-ClassPropertyWriter<char, object>.GetData
@@ -5692,25 +5692,25 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<ulong, object>.GetData
 	|-ClassPropertyWriter<UIntPtr, object>.GetData
 	|
-	|-RVA: 0x20C0570 Offset: 0x20BEB70 VA: 0x1820C0570
+	|-RVA: 0x20C03B0 Offset: 0x20BE9B0 VA: 0x1820C03B0
 	|-ClassPropertyWriter<KeyValuePair<object, object>, int>.GetData
 	|-ClassPropertyWriter<DateTimeOffset, int>.GetData
 	|-ClassPropertyWriter<Decimal, int>.GetData
 	|-ClassPropertyWriter<Guid, int>.GetData
 	|
-	|-RVA: 0x20C0620 Offset: 0x20BEC20 VA: 0x1820C0620
+	|-RVA: 0x20C0460 Offset: 0x20BEA60 VA: 0x1820C0460
 	|-ClassPropertyWriter<KeyValuePair<object, object>, long>.GetData
 	|-ClassPropertyWriter<DateTimeOffset, long>.GetData
 	|-ClassPropertyWriter<Decimal, long>.GetData
 	|-ClassPropertyWriter<Guid, long>.GetData
 	|
-	|-RVA: 0x20C05E0 Offset: 0x20BEBE0 VA: 0x1820C05E0
+	|-RVA: 0x20C0420 Offset: 0x20BEA20 VA: 0x1820C0420
 	|-ClassPropertyWriter<KeyValuePair<object, object>, object>.GetData
 	|-ClassPropertyWriter<DateTimeOffset, object>.GetData
 	|-ClassPropertyWriter<Decimal, object>.GetData
 	|-ClassPropertyWriter<Guid, object>.GetData
 	|
-	|-RVA: 0x1B0F210 Offset: 0x1B0D810 VA: 0x181B0F210
+	|-RVA: 0x1B0F050 Offset: 0x1B0D650 VA: 0x181B0F050
 	|-ClassPropertyWriter<DateTime, int>.GetData
 	|-ClassPropertyWriter<long, int>.GetData
 	|-ClassPropertyWriter<IntPtr, int>.GetData
@@ -5718,27 +5718,27 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<ulong, int>.GetData
 	|-ClassPropertyWriter<UIntPtr, int>.GetData
 	|
-	|-RVA: 0x20C0760 Offset: 0x20BED60 VA: 0x1820C0760
+	|-RVA: 0x20C05A0 Offset: 0x20BEBA0 VA: 0x1820C05A0
 	|-ClassPropertyWriter<double, int>.GetData
 	|
-	|-RVA: 0x1B0F2F0 Offset: 0x1B0D8F0 VA: 0x181B0F2F0
+	|-RVA: 0x1B0F130 Offset: 0x1B0D730 VA: 0x181B0F130
 	|-ClassPropertyWriter<double, long>.GetData
 	|-ClassPropertyWriter<float, long>.GetData
 	|
-	|-RVA: 0x1B0F360 Offset: 0x1B0D960 VA: 0x181B0F360
+	|-RVA: 0x1B0F1A0 Offset: 0x1B0D7A0 VA: 0x181B0F1A0
 	|-ClassPropertyWriter<double, object>.GetData
 	|-ClassPropertyWriter<float, object>.GetData
 	|
-	|-RVA: 0x20C07D0 Offset: 0x20BEDD0 VA: 0x1820C07D0
+	|-RVA: 0x20C0610 Offset: 0x20BEC10 VA: 0x1820C0610
 	|-ClassPropertyWriter<object, int>.GetData
 	|
-	|-RVA: 0x20C06E0 Offset: 0x20BECE0 VA: 0x1820C06E0
+	|-RVA: 0x20C0520 Offset: 0x20BEB20 VA: 0x1820C0520
 	|-ClassPropertyWriter<object, long>.GetData
 	|
-	|-RVA: 0x20C06A0 Offset: 0x20BECA0 VA: 0x1820C06A0
+	|-RVA: 0x20C04E0 Offset: 0x20BEAE0 VA: 0x1820C04E0
 	|-ClassPropertyWriter<object, object>.GetData
 	|
-	|-RVA: 0x1B0F280 Offset: 0x1B0D880 VA: 0x181B0F280
+	|-RVA: 0x1B0F0C0 Offset: 0x1B0D6C0 VA: 0x181B0F0C0
 	|-ClassPropertyWriter<float, int>.GetData
 	*/
 
@@ -5751,7 +5751,7 @@ internal sealed class NullTypeInfo<DataType> : TraceLoggingTypeInfo<DataType> //
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B52AC0 Offset: 0x1B510C0 VA: 0x181B52AC0
+	|-RVA: 0x1B52900 Offset: 0x1B50F00 VA: 0x181B52900
 	|-NullTypeInfo<EmptyStruct>.WriteMetadata
 	|-NullTypeInfo<object>.WriteMetadata
 	*/
@@ -5798,10 +5798,10 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B58580 Offset: 0x1B56B80 VA: 0x181B58580
+	|-RVA: 0x1B583C0 Offset: 0x1B569C0 VA: 0x181B583C0
 	|-TraceLoggingTypeInfo<bool>..ctor
 	|
-	|-RVA: 0x1B9C850 Offset: 0x1B9AE50 VA: 0x181B9C850
+	|-RVA: 0x1B9C690 Offset: 0x1B9AC90 VA: 0x181B9C690
 	|-TraceLoggingTypeInfo<bool[]>..ctor
 	|-TraceLoggingTypeInfo<byte[]>..ctor
 	|-TraceLoggingTypeInfo<char[]>..ctor
@@ -5820,64 +5820,64 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	|-TraceLoggingTypeInfo<ulong[]>..ctor
 	|-TraceLoggingTypeInfo<UIntPtr[]>..ctor
 	|
-	|-RVA: 0x1B9B7A0 Offset: 0x1B99DA0 VA: 0x181B9B7A0
+	|-RVA: 0x1B9B5E0 Offset: 0x1B99BE0 VA: 0x181B9B5E0
 	|-TraceLoggingTypeInfo<byte>..ctor
 	|
-	|-RVA: 0x1B9B630 Offset: 0x1B99C30 VA: 0x181B9B630
+	|-RVA: 0x1B9B470 Offset: 0x1B99A70 VA: 0x181B9B470
 	|-TraceLoggingTypeInfo<char>..ctor
 	|
-	|-RVA: 0x1B9C650 Offset: 0x1B9AC50 VA: 0x181B9C650
+	|-RVA: 0x1B9C490 Offset: 0x1B9AA90 VA: 0x181B9C490
 	|-TraceLoggingTypeInfo<KeyValuePair<object, object>>..ctor
 	|
-	|-RVA: 0x1B9C5C0 Offset: 0x1B9ABC0 VA: 0x181B9C5C0
+	|-RVA: 0x1B9C400 Offset: 0x1B9AA00 VA: 0x181B9C400
 	|-TraceLoggingTypeInfo<DateTime>..ctor
 	|
-	|-RVA: 0x1B9C170 Offset: 0x1B9A770 VA: 0x181B9C170
+	|-RVA: 0x1B9BFB0 Offset: 0x1B9A5B0 VA: 0x181B9BFB0
 	|-TraceLoggingTypeInfo<DateTimeOffset>..ctor
 	|
-	|-RVA: 0x1B9C200 Offset: 0x1B9A800 VA: 0x181B9C200
+	|-RVA: 0x1B9C040 Offset: 0x1B9A640 VA: 0x181B9C040
 	|-TraceLoggingTypeInfo<Decimal>..ctor
 	|
-	|-RVA: 0x1B9B4C0 Offset: 0x1B99AC0 VA: 0x181B9B4C0
+	|-RVA: 0x1B9B300 Offset: 0x1B99900 VA: 0x181B9B300
 	|-TraceLoggingTypeInfo<EmptyStruct>..ctor
 	|
-	|-RVA: 0x1B9B9F0 Offset: 0x1B99FF0 VA: 0x181B9B9F0
+	|-RVA: 0x1B9B830 Offset: 0x1B99E30 VA: 0x181B9B830
 	|-TraceLoggingTypeInfo<double>..ctor
 	|
-	|-RVA: 0x1B9CCA0 Offset: 0x1B9B2A0 VA: 0x181B9CCA0
+	|-RVA: 0x1B9CAE0 Offset: 0x1B9B0E0 VA: 0x181B9CAE0
 	|-TraceLoggingTypeInfo<Guid>..ctor
 	|
-	|-RVA: 0x1B9CB30 Offset: 0x1B9B130 VA: 0x181B9CB30
+	|-RVA: 0x1B9C970 Offset: 0x1B9AF70 VA: 0x181B9C970
 	|-TraceLoggingTypeInfo<short>..ctor
 	|
-	|-RVA: 0x1B9BC40 Offset: 0x1B9A240 VA: 0x181B9BC40
+	|-RVA: 0x1B9BA80 Offset: 0x1B9A080 VA: 0x181B9BA80
 	|-TraceLoggingTypeInfo<int>..ctor
 	|
-	|-RVA: 0x1B9BF70 Offset: 0x1B9A570 VA: 0x181B9BF70
+	|-RVA: 0x1B9BDB0 Offset: 0x1B9A3B0 VA: 0x181B9BDB0
 	|-TraceLoggingTypeInfo<long>..ctor
 	|
-	|-RVA: 0x1B9C6E0 Offset: 0x1B9ACE0 VA: 0x181B9C6E0
+	|-RVA: 0x1B9C520 Offset: 0x1B9AB20 VA: 0x181B9C520
 	|-TraceLoggingTypeInfo<IntPtr>..ctor
 	|
-	|-RVA: 0x1B9C290 Offset: 0x1B9A890 VA: 0x181B9C290
+	|-RVA: 0x1B9C0D0 Offset: 0x1B9A6D0 VA: 0x181B9C0D0
 	|-TraceLoggingTypeInfo<sbyte>..ctor
 	|
-	|-RVA: 0x1B9C9C0 Offset: 0x1B9AFC0 VA: 0x181B9C9C0
+	|-RVA: 0x1B9C800 Offset: 0x1B9AE00 VA: 0x181B9C800
 	|-TraceLoggingTypeInfo<float>..ctor
 	|
-	|-RVA: 0x1B9B070 Offset: 0x1B99670 VA: 0x181B9B070
+	|-RVA: 0x1B9AEB0 Offset: 0x1B994B0 VA: 0x181B9AEB0
 	|-TraceLoggingTypeInfo<TimeSpan>..ctor
 	|
-	|-RVA: 0x1B9CE10 Offset: 0x1B9B410 VA: 0x181B9CE10
+	|-RVA: 0x1B9CC50 Offset: 0x1B9B250 VA: 0x181B9CC50
 	|-TraceLoggingTypeInfo<ushort>..ctor
 	|
-	|-RVA: 0x1B9C000 Offset: 0x1B9A600 VA: 0x181B9C000
+	|-RVA: 0x1B9BE40 Offset: 0x1B9A440 VA: 0x181B9BE40
 	|-TraceLoggingTypeInfo<uint>..ctor
 	|
-	|-RVA: 0x1B9B270 Offset: 0x1B99870 VA: 0x181B9B270
+	|-RVA: 0x1B9B0B0 Offset: 0x1B996B0 VA: 0x181B9B0B0
 	|-TraceLoggingTypeInfo<ulong>..ctor
 	|
-	|-RVA: 0x1B9B100 Offset: 0x1B99700 VA: 0x181B9B100
+	|-RVA: 0x1B9AF40 Offset: 0x1B99540 VA: 0x181B9AF40
 	|-TraceLoggingTypeInfo<UIntPtr>..ctor
 	*/
 
@@ -5885,70 +5885,70 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	protected void .ctor(string name, EventLevel level, EventOpcode opcode, EventKeywords keywords, EventTags tags) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B584A0 Offset: 0x1B56AA0 VA: 0x181B584A0
+	|-RVA: 0x1B582E0 Offset: 0x1B568E0 VA: 0x181B582E0
 	|-TraceLoggingTypeInfo<bool>..ctor
 	|
-	|-RVA: 0x1B9CBC0 Offset: 0x1B9B1C0 VA: 0x181B9CBC0
+	|-RVA: 0x1B9CA00 Offset: 0x1B9B000 VA: 0x181B9CA00
 	|-TraceLoggingTypeInfo<byte>..ctor
 	|
-	|-RVA: 0x1B9BCD0 Offset: 0x1B9A2D0 VA: 0x181B9BCD0
+	|-RVA: 0x1B9BB10 Offset: 0x1B9A110 VA: 0x181B9BB10
 	|-TraceLoggingTypeInfo<char>..ctor
 	|
-	|-RVA: 0x1B9BA80 Offset: 0x1B9A080 VA: 0x181B9BA80
+	|-RVA: 0x1B9B8C0 Offset: 0x1B99EC0 VA: 0x181B9B8C0
 	|-TraceLoggingTypeInfo<KeyValuePair<object, object>>..ctor
 	|
-	|-RVA: 0x1B9BE90 Offset: 0x1B9A490 VA: 0x181B9BE90
+	|-RVA: 0x1B9BCD0 Offset: 0x1B9A2D0 VA: 0x181B9BCD0
 	|-TraceLoggingTypeInfo<DateTime>..ctor
 	|
-	|-RVA: 0x1B9C770 Offset: 0x1B9AD70 VA: 0x181B9C770
+	|-RVA: 0x1B9C5B0 Offset: 0x1B9ABB0 VA: 0x181B9C5B0
 	|-TraceLoggingTypeInfo<DateTimeOffset>..ctor
 	|
-	|-RVA: 0x1B9B910 Offset: 0x1B99F10 VA: 0x181B9B910
+	|-RVA: 0x1B9B750 Offset: 0x1B99D50 VA: 0x181B9B750
 	|-TraceLoggingTypeInfo<Decimal>..ctor
 	|
-	|-RVA: 0x1B9BB60 Offset: 0x1B9A160 VA: 0x181B9BB60
+	|-RVA: 0x1B9B9A0 Offset: 0x1B99FA0 VA: 0x181B9B9A0
 	|-TraceLoggingTypeInfo<EmptyStruct>..ctor
 	|
-	|-RVA: 0x1B9BDB0 Offset: 0x1B9A3B0 VA: 0x181B9BDB0
+	|-RVA: 0x1B9BBF0 Offset: 0x1B9A1F0 VA: 0x181B9BBF0
 	|-TraceLoggingTypeInfo<double>..ctor
 	|
-	|-RVA: 0x1B9B3E0 Offset: 0x1B999E0 VA: 0x181B9B3E0
+	|-RVA: 0x1B9B220 Offset: 0x1B99820 VA: 0x181B9B220
 	|-TraceLoggingTypeInfo<Guid>..ctor
 	|
-	|-RVA: 0x1B9CD30 Offset: 0x1B9B330 VA: 0x181B9CD30
+	|-RVA: 0x1B9CB70 Offset: 0x1B9B170 VA: 0x181B9CB70
 	|-TraceLoggingTypeInfo<short>..ctor
 	|
-	|-RVA: 0x1B9B6C0 Offset: 0x1B99CC0 VA: 0x181B9B6C0
+	|-RVA: 0x1B9B500 Offset: 0x1B99B00 VA: 0x181B9B500
 	|-TraceLoggingTypeInfo<int>..ctor
 	|
-	|-RVA: 0x1B9B300 Offset: 0x1B99900 VA: 0x181B9B300
+	|-RVA: 0x1B9B140 Offset: 0x1B99740 VA: 0x181B9B140
 	|-TraceLoggingTypeInfo<long>..ctor
 	|
-	|-RVA: 0x1B9C320 Offset: 0x1B9A920 VA: 0x181B9C320
+	|-RVA: 0x1B9C160 Offset: 0x1B9A760 VA: 0x181B9C160
 	|-TraceLoggingTypeInfo<IntPtr>..ctor
 	|
-	|-RVA: 0x1B9B550 Offset: 0x1B99B50 VA: 0x181B9B550
+	|-RVA: 0x1B9B390 Offset: 0x1B99990 VA: 0x181B9B390
 	|-TraceLoggingTypeInfo<object>..ctor
 	|
-	|-RVA: 0x1B9C400 Offset: 0x1B9AA00 VA: 0x181B9C400
+	|-RVA: 0x1B9C240 Offset: 0x1B9A840 VA: 0x181B9C240
 	|-TraceLoggingTypeInfo<sbyte>..ctor
 	|
-	|-RVA: 0x1B9C090 Offset: 0x1B9A690 VA: 0x181B9C090
+	|-RVA: 0x1B9BED0 Offset: 0x1B9A4D0 VA: 0x181B9BED0
 	|-TraceLoggingTypeInfo<float>..ctor
 	|
-	|-RVA: 0x1B9C4E0 Offset: 0x1B9AAE0 VA: 0x181B9C4E0
+	|-RVA: 0x1B9C320 Offset: 0x1B9A920 VA: 0x181B9C320
 	|-TraceLoggingTypeInfo<TimeSpan>..ctor
 	|
-	|-RVA: 0x1B9B190 Offset: 0x1B99790 VA: 0x181B9B190
+	|-RVA: 0x1B9AFD0 Offset: 0x1B995D0 VA: 0x181B9AFD0
 	|-TraceLoggingTypeInfo<ushort>..ctor
 	|
-	|-RVA: 0x1B9CA50 Offset: 0x1B9B050 VA: 0x181B9CA50
+	|-RVA: 0x1B9C890 Offset: 0x1B9AE90 VA: 0x181B9C890
 	|-TraceLoggingTypeInfo<uint>..ctor
 	|
-	|-RVA: 0x1B9B830 Offset: 0x1B99E30 VA: 0x181B9B830
+	|-RVA: 0x1B9B670 Offset: 0x1B99C70 VA: 0x181B9B670
 	|-TraceLoggingTypeInfo<ulong>..ctor
 	|
-	|-RVA: 0x1B9C8E0 Offset: 0x1B9AEE0 VA: 0x181B9C8E0
+	|-RVA: 0x1B9C720 Offset: 0x1B9AD20 VA: 0x181B9C720
 	|-TraceLoggingTypeInfo<UIntPtr>..ctor
 	*/
 
@@ -5956,7 +5956,7 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	public static TraceLoggingTypeInfo<DataType> get_Instance() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B58610 Offset: 0x1B56C10 VA: 0x181B58610
+	|-RVA: 0x1B58450 Offset: 0x1B56A50 VA: 0x181B58450
 	|-TraceLoggingTypeInfo<bool>.get_Instance
 	|-TraceLoggingTypeInfo<byte>.get_Instance
 	|-TraceLoggingTypeInfo<char>.get_Instance
@@ -5994,13 +5994,13 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	public override void WriteObjectData(TraceLoggingDataCollector collector, object value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B583F0 Offset: 0x1B569F0 VA: 0x181B583F0
+	|-RVA: 0x1B58230 Offset: 0x1B56830 VA: 0x181B58230
 	|-TraceLoggingTypeInfo<bool>.WriteObjectData
 	|-TraceLoggingTypeInfo<byte>.WriteObjectData
 	|-TraceLoggingTypeInfo<EmptyStruct>.WriteObjectData
 	|-TraceLoggingTypeInfo<sbyte>.WriteObjectData
 	|
-	|-RVA: 0x1B9AE60 Offset: 0x1B99460 VA: 0x181B9AE60
+	|-RVA: 0x1B9ACA0 Offset: 0x1B992A0 VA: 0x181B9ACA0
 	|-TraceLoggingTypeInfo<bool[]>.WriteObjectData
 	|-TraceLoggingTypeInfo<byte[]>.WriteObjectData
 	|-TraceLoggingTypeInfo<char[]>.WriteObjectData
@@ -6019,18 +6019,18 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	|-TraceLoggingTypeInfo<ulong[]>.WriteObjectData
 	|-TraceLoggingTypeInfo<UIntPtr[]>.WriteObjectData
 	|
-	|-RVA: 0x1B9AD00 Offset: 0x1B99300 VA: 0x181B9AD00
+	|-RVA: 0x1B9AB40 Offset: 0x1B99140 VA: 0x181B9AB40
 	|-TraceLoggingTypeInfo<char>.WriteObjectData
 	|-TraceLoggingTypeInfo<short>.WriteObjectData
 	|-TraceLoggingTypeInfo<ushort>.WriteObjectData
 	|
-	|-RVA: 0x1B9AC50 Offset: 0x1B99250 VA: 0x181B9AC50
+	|-RVA: 0x1B9AA90 Offset: 0x1B99090 VA: 0x181B9AA90
 	|-TraceLoggingTypeInfo<KeyValuePair<object, object>>.WriteObjectData
 	|-TraceLoggingTypeInfo<DateTimeOffset>.WriteObjectData
 	|-TraceLoggingTypeInfo<Decimal>.WriteObjectData
 	|-TraceLoggingTypeInfo<Guid>.WriteObjectData
 	|
-	|-RVA: 0x1B9ABA0 Offset: 0x1B991A0 VA: 0x181B9ABA0
+	|-RVA: 0x1B9A9E0 Offset: 0x1B98FE0 VA: 0x181B9A9E0
 	|-TraceLoggingTypeInfo<DateTime>.WriteObjectData
 	|-TraceLoggingTypeInfo<long>.WriteObjectData
 	|-TraceLoggingTypeInfo<IntPtr>.WriteObjectData
@@ -6038,14 +6038,14 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	|-TraceLoggingTypeInfo<ulong>.WriteObjectData
 	|-TraceLoggingTypeInfo<UIntPtr>.WriteObjectData
 	|
-	|-RVA: 0x1B9AFC0 Offset: 0x1B995C0 VA: 0x181B9AFC0
+	|-RVA: 0x1B9AE00 Offset: 0x1B99400 VA: 0x181B9AE00
 	|-TraceLoggingTypeInfo<double>.WriteObjectData
 	|
-	|-RVA: 0x1B9AF10 Offset: 0x1B99510 VA: 0x181B9AF10
+	|-RVA: 0x1B9AD50 Offset: 0x1B99350 VA: 0x181B9AD50
 	|-TraceLoggingTypeInfo<int>.WriteObjectData
 	|-TraceLoggingTypeInfo<uint>.WriteObjectData
 	|
-	|-RVA: 0x1B9ADB0 Offset: 0x1B993B0 VA: 0x181B9ADB0
+	|-RVA: 0x1B9ABF0 Offset: 0x1B991F0 VA: 0x181B9ABF0
 	|-TraceLoggingTypeInfo<float>.WriteObjectData
 	*/
 
@@ -6053,70 +6053,70 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	internal static TraceLoggingTypeInfo<DataType> GetInstance(List<Type> recursionCheck) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B58190 Offset: 0x1B56790 VA: 0x181B58190
+	|-RVA: 0x1B57FD0 Offset: 0x1B565D0 VA: 0x181B57FD0
 	|-TraceLoggingTypeInfo<bool>.GetInstance
 	|
-	|-RVA: 0x1B98080 Offset: 0x1B96680 VA: 0x181B98080
+	|-RVA: 0x1B97EC0 Offset: 0x1B964C0 VA: 0x181B97EC0
 	|-TraceLoggingTypeInfo<byte>.GetInstance
 	|
-	|-RVA: 0x1B99820 Offset: 0x1B97E20 VA: 0x181B99820
+	|-RVA: 0x1B99660 Offset: 0x1B97C60 VA: 0x181B99660
 	|-TraceLoggingTypeInfo<char>.GetInstance
 	|
-	|-RVA: 0x1B99310 Offset: 0x1B97910 VA: 0x181B99310
+	|-RVA: 0x1B99150 Offset: 0x1B97750 VA: 0x181B99150
 	|-TraceLoggingTypeInfo<KeyValuePair<object, object>>.GetInstance
 	|
-	|-RVA: 0x1B99B80 Offset: 0x1B98180 VA: 0x181B99B80
+	|-RVA: 0x1B999C0 Offset: 0x1B97FC0 VA: 0x181B999C0
 	|-TraceLoggingTypeInfo<DateTime>.GetInstance
 	|
-	|-RVA: 0x1B988F0 Offset: 0x1B96EF0 VA: 0x181B988F0
+	|-RVA: 0x1B98730 Offset: 0x1B96D30 VA: 0x181B98730
 	|-TraceLoggingTypeInfo<DateTimeOffset>.GetInstance
 	|
-	|-RVA: 0x1B98FB0 Offset: 0x1B975B0 VA: 0x181B98FB0
+	|-RVA: 0x1B98DF0 Offset: 0x1B973F0 VA: 0x181B98DF0
 	|-TraceLoggingTypeInfo<Decimal>.GetInstance
 	|
-	|-RVA: 0x1B999D0 Offset: 0x1B97FD0 VA: 0x181B999D0
+	|-RVA: 0x1B99810 Offset: 0x1B97E10 VA: 0x181B99810
 	|-TraceLoggingTypeInfo<EmptyStruct>.GetInstance
 	|
-	|-RVA: 0x1B98740 Offset: 0x1B96D40 VA: 0x181B98740
+	|-RVA: 0x1B98580 Offset: 0x1B96B80 VA: 0x181B98580
 	|-TraceLoggingTypeInfo<double>.GetInstance
 	|
-	|-RVA: 0x1B99670 Offset: 0x1B97C70 VA: 0x181B99670
+	|-RVA: 0x1B994B0 Offset: 0x1B97AB0 VA: 0x181B994B0
 	|-TraceLoggingTypeInfo<Guid>.GetInstance
 	|
-	|-RVA: 0x1B98AA0 Offset: 0x1B970A0 VA: 0x181B98AA0
+	|-RVA: 0x1B988E0 Offset: 0x1B96EE0 VA: 0x181B988E0
 	|-TraceLoggingTypeInfo<short>.GetInstance
 	|
-	|-RVA: 0x1B98230 Offset: 0x1B96830 VA: 0x181B98230
+	|-RVA: 0x1B98070 Offset: 0x1B96670 VA: 0x181B98070
 	|-TraceLoggingTypeInfo<int>.GetInstance
 	|
-	|-RVA: 0x1B994C0 Offset: 0x1B97AC0 VA: 0x181B994C0
+	|-RVA: 0x1B99300 Offset: 0x1B97900 VA: 0x181B99300
 	|-TraceLoggingTypeInfo<long>.GetInstance
 	|
-	|-RVA: 0x1B99160 Offset: 0x1B97760 VA: 0x181B99160
+	|-RVA: 0x1B98FA0 Offset: 0x1B975A0 VA: 0x181B98FA0
 	|-TraceLoggingTypeInfo<IntPtr>.GetInstance
 	|
-	|-RVA: 0x1B983E0 Offset: 0x1B969E0 VA: 0x181B983E0
+	|-RVA: 0x1B98220 Offset: 0x1B96820 VA: 0x181B98220
 	|-TraceLoggingTypeInfo<object>.GetInstance
 	|
-	|-RVA: 0x1B979C0 Offset: 0x1B95FC0 VA: 0x181B979C0
+	|-RVA: 0x1B97800 Offset: 0x1B95E00 VA: 0x181B97800
 	|-TraceLoggingTypeInfo<sbyte>.GetInstance
 	|
-	|-RVA: 0x1B98E00 Offset: 0x1B97400 VA: 0x181B98E00
+	|-RVA: 0x1B98C40 Offset: 0x1B97240 VA: 0x181B98C40
 	|-TraceLoggingTypeInfo<float>.GetInstance
 	|
-	|-RVA: 0x1B97ED0 Offset: 0x1B964D0 VA: 0x181B97ED0
+	|-RVA: 0x1B97D10 Offset: 0x1B96310 VA: 0x181B97D10
 	|-TraceLoggingTypeInfo<TimeSpan>.GetInstance
 	|
-	|-RVA: 0x1B97D20 Offset: 0x1B96320 VA: 0x181B97D20
+	|-RVA: 0x1B97B60 Offset: 0x1B96160 VA: 0x181B97B60
 	|-TraceLoggingTypeInfo<ushort>.GetInstance
 	|
-	|-RVA: 0x1B97B70 Offset: 0x1B96170 VA: 0x181B97B70
+	|-RVA: 0x1B979B0 Offset: 0x1B95FB0 VA: 0x181B979B0
 	|-TraceLoggingTypeInfo<uint>.GetInstance
 	|
-	|-RVA: 0x1B98590 Offset: 0x1B96B90 VA: 0x181B98590
+	|-RVA: 0x1B983D0 Offset: 0x1B969D0 VA: 0x181B983D0
 	|-TraceLoggingTypeInfo<ulong>.GetInstance
 	|
-	|-RVA: 0x1B98C50 Offset: 0x1B97250 VA: 0x181B98C50
+	|-RVA: 0x1B98A90 Offset: 0x1B97090 VA: 0x181B98A90
 	|-TraceLoggingTypeInfo<UIntPtr>.GetInstance
 	*/
 
@@ -6124,70 +6124,70 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	private static TraceLoggingTypeInfo<DataType> InitInstance() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B58340 Offset: 0x1B56940 VA: 0x181B58340
+	|-RVA: 0x1B58180 Offset: 0x1B56780 VA: 0x181B58180
 	|-TraceLoggingTypeInfo<bool>.InitInstance
 	|
-	|-RVA: 0x1B9A200 Offset: 0x1B98800 VA: 0x181B9A200
+	|-RVA: 0x1B9A040 Offset: 0x1B98640 VA: 0x181B9A040
 	|-TraceLoggingTypeInfo<byte>.InitInstance
 	|
-	|-RVA: 0x1B9A990 Offset: 0x1B98F90 VA: 0x181B9A990
+	|-RVA: 0x1B9A7D0 Offset: 0x1B98DD0 VA: 0x181B9A7D0
 	|-TraceLoggingTypeInfo<char>.InitInstance
 	|
-	|-RVA: 0x1B99FF0 Offset: 0x1B985F0 VA: 0x181B99FF0
+	|-RVA: 0x1B99E30 Offset: 0x1B98430 VA: 0x181B99E30
 	|-TraceLoggingTypeInfo<KeyValuePair<object, object>>.InitInstance
 	|
-	|-RVA: 0x1B9A6D0 Offset: 0x1B98CD0 VA: 0x181B9A6D0
+	|-RVA: 0x1B9A510 Offset: 0x1B98B10 VA: 0x181B9A510
 	|-TraceLoggingTypeInfo<DateTime>.InitInstance
 	|
-	|-RVA: 0x1B99DE0 Offset: 0x1B983E0 VA: 0x181B99DE0
+	|-RVA: 0x1B99C20 Offset: 0x1B98220 VA: 0x181B99C20
 	|-TraceLoggingTypeInfo<DateTimeOffset>.InitInstance
 	|
-	|-RVA: 0x1B9A410 Offset: 0x1B98A10 VA: 0x181B9A410
+	|-RVA: 0x1B9A250 Offset: 0x1B98850 VA: 0x181B9A250
 	|-TraceLoggingTypeInfo<Decimal>.InitInstance
 	|
-	|-RVA: 0x1B99E90 Offset: 0x1B98490 VA: 0x181B99E90
+	|-RVA: 0x1B99CD0 Offset: 0x1B982D0 VA: 0x181B99CD0
 	|-TraceLoggingTypeInfo<EmptyStruct>.InitInstance
 	|
-	|-RVA: 0x1B9A620 Offset: 0x1B98C20 VA: 0x181B9A620
+	|-RVA: 0x1B9A460 Offset: 0x1B98A60 VA: 0x181B9A460
 	|-TraceLoggingTypeInfo<double>.InitInstance
 	|
-	|-RVA: 0x1B99D30 Offset: 0x1B98330 VA: 0x181B99D30
+	|-RVA: 0x1B99B70 Offset: 0x1B98170 VA: 0x181B99B70
 	|-TraceLoggingTypeInfo<Guid>.InitInstance
 	|
-	|-RVA: 0x1B9AAF0 Offset: 0x1B990F0 VA: 0x181B9AAF0
+	|-RVA: 0x1B9A930 Offset: 0x1B98F30 VA: 0x181B9A930
 	|-TraceLoggingTypeInfo<short>.InitInstance
 	|
-	|-RVA: 0x1B9A570 Offset: 0x1B98B70 VA: 0x181B9A570
+	|-RVA: 0x1B9A3B0 Offset: 0x1B989B0 VA: 0x181B9A3B0
 	|-TraceLoggingTypeInfo<int>.InitInstance
 	|
-	|-RVA: 0x1B99F40 Offset: 0x1B98540 VA: 0x181B99F40
+	|-RVA: 0x1B99D80 Offset: 0x1B98380 VA: 0x181B99D80
 	|-TraceLoggingTypeInfo<long>.InitInstance
 	|
-	|-RVA: 0x1B9A360 Offset: 0x1B98960 VA: 0x181B9A360
+	|-RVA: 0x1B9A1A0 Offset: 0x1B987A0 VA: 0x181B9A1A0
 	|-TraceLoggingTypeInfo<IntPtr>.InitInstance
 	|
-	|-RVA: 0x1B9A830 Offset: 0x1B98E30 VA: 0x181B9A830
+	|-RVA: 0x1B9A670 Offset: 0x1B98C70 VA: 0x181B9A670
 	|-TraceLoggingTypeInfo<object>.InitInstance
 	|
-	|-RVA: 0x1B9A4C0 Offset: 0x1B98AC0 VA: 0x181B9A4C0
+	|-RVA: 0x1B9A300 Offset: 0x1B98900 VA: 0x181B9A300
 	|-TraceLoggingTypeInfo<sbyte>.InitInstance
 	|
-	|-RVA: 0x1B9AA40 Offset: 0x1B99040 VA: 0x181B9AA40
+	|-RVA: 0x1B9A880 Offset: 0x1B98E80 VA: 0x181B9A880
 	|-TraceLoggingTypeInfo<float>.InitInstance
 	|
-	|-RVA: 0x1B9A2B0 Offset: 0x1B988B0 VA: 0x181B9A2B0
+	|-RVA: 0x1B9A0F0 Offset: 0x1B986F0 VA: 0x181B9A0F0
 	|-TraceLoggingTypeInfo<TimeSpan>.InitInstance
 	|
-	|-RVA: 0x1B9A780 Offset: 0x1B98D80 VA: 0x181B9A780
+	|-RVA: 0x1B9A5C0 Offset: 0x1B98BC0 VA: 0x181B9A5C0
 	|-TraceLoggingTypeInfo<ushort>.InitInstance
 	|
-	|-RVA: 0x1B9A0A0 Offset: 0x1B986A0 VA: 0x181B9A0A0
+	|-RVA: 0x1B99EE0 Offset: 0x1B984E0 VA: 0x181B99EE0
 	|-TraceLoggingTypeInfo<uint>.InitInstance
 	|
-	|-RVA: 0x1B9A8E0 Offset: 0x1B98EE0 VA: 0x181B9A8E0
+	|-RVA: 0x1B9A720 Offset: 0x1B98D20 VA: 0x181B9A720
 	|-TraceLoggingTypeInfo<ulong>.InitInstance
 	|
-	|-RVA: 0x1B9A150 Offset: 0x1B98750 VA: 0x181B9A150
+	|-RVA: 0x1B99F90 Offset: 0x1B98590 VA: 0x181B99F90
 	|-TraceLoggingTypeInfo<UIntPtr>.InitInstance
 	*/
 
@@ -6195,150 +6195,150 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 1635
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 0392525BCB01691D1F319D89F2C12BF93A478467 /*Metadata offset 0x521BC8*/; // 0x0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 0588059ACBD52F7EA2835882F977A9CF72EB9775 /*Metadata offset 0x521CC8*/; // 0x100
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=84 0A1ADB22C1D3E1F4B2448EE3F27DF9DE63329C4C /*Metadata offset 0x521D10*/; // 0x148
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=240 121EC59E23F7559B28D338D562528F6299C2DE22 /*Metadata offset 0x521D64*/; // 0x19C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 12D04472A8285260EA12FD3813CDFA9F2D2B548C /*Metadata offset 0x521E54*/; // 0x28C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 13A35EF1A549297C70E2AD46045BBD2ECA17852D /*Metadata offset 0x521E57*/; // 0x28F
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 1730F09044E91DB8371B849EFF5E6D17BDE4AED0 /*Metadata offset 0x521E5A*/; // 0x292
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 1A84029C80CB5518379F199F53FF08A7B764F8FD /*Metadata offset 0x521E72*/; // 0x2AA
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=4096 1AEF3D8DF416A46288C91C724CBF7B154D9E5BF3 /*Metadata offset 0x521E75*/; // 0x2AD
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 1E41C4CD0767AEA21C00DEABA2EA9407F1E6CEA5 /*Metadata offset 0x522E75*/; // 0x12AD
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 1FE6CE411858B3D864679DE2139FB081F08BFACD /*Metadata offset 0x523675*/; // 0x1AAD
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 235D99572263B22ADFEE10FDA0C25E12F4D94FFC /*Metadata offset 0x523685*/; // 0x1ABD
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 25420D0055076FA8D3E4DD96BC53AE24DE6E619F /*Metadata offset 0x523688*/; // 0x1AC0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1208 25CF935D2AE9EDF05DD75BCD47FF84D9255D6F6E /*Metadata offset 0x5236B0*/; // 0x1AE8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=42 29C1A61550F0E3260E1953D4FAD71C256218EF40 /*Metadata offset 0x523B68*/; // 0x1FA0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 2B33BEC8C30DFDC49DAFE20D3BDE19487850D717 /*Metadata offset 0x523B92*/; // 0x1FCA
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 2BA840FF6020B8FF623DBCB7188248CF853FAF4F /*Metadata offset 0x523B9E*/; // 0x1FD6
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 2C840AFA48C27B9C05593E468C1232CA1CC74AFD /*Metadata offset 0x523BC2*/; // 0x1FFA
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 2D1DA5BB407F0C11C3B5116196C0C6374D932B20 /*Metadata offset 0x523C0A*/; // 0x2042
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=14 2D3CF0F15AC2DDEC2956EA1B7BBE43FB8B923130 /*Metadata offset 0x523C1A*/; // 0x2052
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 2F71D2DA12F3CD0A6A112F5A5A75B4FDC6FE8547 /*Metadata offset 0x523C28*/; // 0x2060
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 320B018758ECE3752FFEDBAEB1A6DB67C80B9359 /*Metadata offset 0x523C70*/; // 0x20A8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 34476C29F6F81C989CFCA42F7C06E84C66236834 /*Metadata offset 0x523CB0*/; // 0x20E8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2382 35EED060772F2748D13B745DAEC8CD7BD3B87604 /*Metadata offset 0x523CF8*/; // 0x2130
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=38 375F9AE9769A3D1DA789E9ACFE81F3A1BB14F0D3 /*Metadata offset 0x524646*/; // 0x2A7E
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1450 379C06C9E702D31469C29033F0DD63931EB349F5 /*Metadata offset 0x52466C*/; // 0x2AA4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 399BD13E240F33F808CA7940293D6EC4E6FD5A00 /*Metadata offset 0x524C16*/; // 0x304E
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 39C9CE73C7B0619D409EF28344F687C1B5C130FE /*Metadata offset 0x524C20*/; // 0x3058
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=320 3C53AFB51FEC23491684C7BEDBC6D4E0F409F851 /*Metadata offset 0x524C68*/; // 0x30A0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 3E3442C7396F3F2BB4C7348F4A2074C7DC677D68 /*Metadata offset 0x524DA8*/; // 0x31E0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 3E4BBF9D0CDD2E34F78AA7A9A3979DCE1F7B02BD /*Metadata offset 0x524DAB*/; // 0x31E3
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 3E823444D2DFECF0F90B436B88F02A533CB376F1 /*Metadata offset 0x524DEB*/; // 0x3223
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 3FE6C283BCF384FD2C8789880DFF59664E2AB4A1 /*Metadata offset 0x524DF7*/; // 0x322F
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1665 40981BAA39513E58B28DCF0103CC04DE2A0A0444 /*Metadata offset 0x524E3F*/; // 0x3277
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 40E7C49413D261F3F38AD3A870C0AC69C8BDA048 /*Metadata offset 0x5254C0*/; // 0x38F8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 421EC7E82F2967DF6CA8C3605514DC6F29EE5845 /*Metadata offset 0x5254E8*/; // 0x3920
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 433175D38B13FFE177FDD661A309F1B528B3F6E2 /*Metadata offset 0x525530*/; // 0x3968
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=120 46232052BC757E030490D851F265FB47FA100902 /*Metadata offset 0x525630*/; // 0x3A68
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 4858DB4AA76D3933F1CA9E6712D4FDB16903F628 /*Metadata offset 0x5256A8*/; // 0x3AE0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=48 4E3B533C39447AAEB59A8E48FABD7E15B5B5D195 /*Metadata offset 0x5256F0*/; // 0x3B28
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 4F7A8890F332B22B8DE0BD29D36FA7364748D76A /*Metadata offset 0x525720*/; // 0x3B58
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 536422B321459B242ADED7240B7447E904E083E3 /*Metadata offset 0x525748*/; // 0x3B80
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1080 5382CEF491F422BFE0D6FC46EFAFF9EF9D4C89F3 /*Metadata offset 0x525790*/; // 0x3BC8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 56DFA5053B3131883637F53219E7D88CCEF35949 /*Metadata offset 0x525BC8*/; // 0x4000
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 57218C316B6921E2CD61027A2387EDC31A2D9471 /*Metadata offset 0x525BD2*/; // 0x400A
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 57F320D62696EC99727E0FE2045A05F1289CC0C6 /*Metadata offset 0x525BD5*/; // 0x400D
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=212 594A33A00BC4F785DFD43E3C6C44FBA1242CCAF3 /*Metadata offset 0x525BFD*/; // 0x4035
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 5BBDF8058D4235C33F2E8DCF76004031B6187A2F /*Metadata offset 0x525CD1*/; // 0x4109
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=288 5BCD21C341BE6DDF8FFFAE1A23ABA24DCBB612BF /*Metadata offset 0x525CF5*/; // 0x412D
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 5BFE2819B4778217C56416C7585FF0E56EBACD89 /*Metadata offset 0x525E15*/; // 0x424D
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 609C0E8D8DA86A09D6013D301C86BA8782C16B8C /*Metadata offset 0x525E5D*/; // 0x4295
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=48 62BAB0F245E66C3EB982CF5A7015F0A7C3382283 /*Metadata offset 0x525EDD*/; // 0x4315
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 646036A65DECCD6835C914A46E6E44B729433B60 /*Metadata offset 0x525F0D*/; // 0x4345
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 65E32B4E150FD8D24B93B0D42A17F1DAD146162B /*Metadata offset 0x52670D*/; // 0x4B45
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 6770974FEF1E98B9C1864370E2B5B786EB0EA39E /*Metadata offset 0x526735*/; // 0x4B6D
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 67EEAD805D708D9AA4E14BF747E44CED801744F3 /*Metadata offset 0x526769*/; // 0x4BA1
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=120 6C71197D228427B2864C69B357FEF73D8C9D59DF /*Metadata offset 0x5267B1*/; // 0x4BE9
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 6CEE45445AFD150B047A5866FFA76AA651CDB7B7 /*Metadata offset 0x526829*/; // 0x4C61
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9 6D49C9D487D7AD3491ECE08732D68A593CC2038D /*Metadata offset 0x526839*/; // 0x4C71
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 6D797C11E1D4FB68B6570CF2A92B792433527065 /*Metadata offset 0x526842*/; // 0x4C7A
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3132 6E5DC824F803F8565AF31B42199DAE39FE7F4EA9 /*Metadata offset 0x527042*/; // 0x547A
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76 6FC754859E4EC74E447048364B216D825C6F8FE7 /*Metadata offset 0x527C7E*/; // 0x60B6
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 704939CD172085D1295FCE3F1D92431D685D7AA2 /*Metadata offset 0x527CCA*/; // 0x6102
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 7088AAE49F0627B72729078DE6E3182DDCF8ED99 /*Metadata offset 0x527CF2*/; // 0x612A
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 7341C933A70EAE383CC50C4B945ADB8E08F06737 /*Metadata offset 0x527D0A*/; // 0x6142
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 736D39815215889F11249D9958F6ED12D37B9F57 /*Metadata offset 0x527D52*/; // 0x618A
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=4096 7F42F2EDC974BE29B2746957416ED1AEFA605F47 /*Metadata offset 0x527D55*/; // 0x618D
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 7FE820C9CF0F0B90445A71F1D262D22E4F0C4C68 /*Metadata offset 0x528D55*/; // 0x718D
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=21252 811A927B7DADD378BE60BBDE794B9277AA9B50EC /*Metadata offset 0x528D7D*/; // 0x71B5
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 81917F1E21F3C22B9F916994547A614FB03E968E /*Metadata offset 0x52E081*/; // 0xC4B9
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 823566DA642D6EA356E15585921F2A4CA23D6760 /*Metadata offset 0x52E0A5*/; // 0xC4DD
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 82C2A59850B2E85BCE1A45A479537A384DF6098D /*Metadata offset 0x52E0CD*/; // 0xC505
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=44 82C383F8E6E4D3D87AEBB986A5D0077E8AD157C4 /*Metadata offset 0x52E0D9*/; // 0xC511
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 86F4F563FA2C61798AE6238D789139739428463A /*Metadata offset 0x52E105*/; // 0xC53D
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 871B9CF85DB352BAADF12BAE8F19857683E385AC /*Metadata offset 0x52E108*/; // 0xC540
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 89A040451C8CC5C8FB268BE44BDD74964C104155 /*Metadata offset 0x52E130*/; // 0xC568
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 8CAA092E783257106251246FF5C97F88D28517A6 /*Metadata offset 0x52E140*/; // 0xC578
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2100 8D231DD55FE1AD7631BBD0905A17D5EB616C2154 /*Metadata offset 0x52E168*/; // 0xC5A0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 8E10AC2F34545DFBBF3FCBC06055D797A8C99991 /*Metadata offset 0x52E99C*/; // 0xCDD4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 8F22C9ECE1331718CBD268A9BBFD2F5E451441E3 /*Metadata offset 0x52E9C4*/; // 0xCDFC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=640 90A0542282A011472F94E97CEAE59F8B3B1A3291 /*Metadata offset 0x52EAC4*/; // 0xCEFC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 93A63E90605400F34B49F0EB3361D23C89164BDA /*Metadata offset 0x52ED44*/; // 0xD17C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 94841DD2F330CCB1089BF413E4FA9B04505152E2 /*Metadata offset 0x52ED50*/; // 0xD188
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 95264589E48F94B7857CFF398FB72A537E13EEE2 /*Metadata offset 0x52ED98*/; // 0xD1D0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 95C48758CAE1715783472FB073AB158AB8A0AB2A /*Metadata offset 0x52EDA4*/; // 0xD1DC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 973417296623D8DC6961B09664E54039E44CA5D8 /*Metadata offset 0x52EDEC*/; // 0xD224
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 97FB30C84FF4A41CD4625B44B2940BFC8DB43003 /*Metadata offset 0x52EE34*/; // 0xD26C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=4096 99E2E88877D14C7DDC4E957A0ED7079CA0E9EB24 /*Metadata offset 0x52EE37*/; // 0xD26F
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 9A9C3962CD4753376E3507C8CB5FD8FCC4B4EDB5 /*Metadata offset 0x52FE37*/; // 0xE26F
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 9BB00D1FCCBAF03165447FC8028E7CA07CA9FE88 /*Metadata offset 0x52FE77*/; // 0xE2AF
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 A0074C15377C0C870B055927403EA9FA7A349D12 /*Metadata offset 0x52FE7A*/; // 0xE2B2
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=130 A1319B706116AB2C6D44483F60A7D0ACEA543396 /*Metadata offset 0x52FEA2*/; // 0xE2DA
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 0392525BCB01691D1F319D89F2C12BF93A478467 /*Metadata offset 0x521BDC*/; // 0x0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 0588059ACBD52F7EA2835882F977A9CF72EB9775 /*Metadata offset 0x521CDC*/; // 0x100
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=84 0A1ADB22C1D3E1F4B2448EE3F27DF9DE63329C4C /*Metadata offset 0x521D24*/; // 0x148
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=240 121EC59E23F7559B28D338D562528F6299C2DE22 /*Metadata offset 0x521D78*/; // 0x19C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 12D04472A8285260EA12FD3813CDFA9F2D2B548C /*Metadata offset 0x521E68*/; // 0x28C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 13A35EF1A549297C70E2AD46045BBD2ECA17852D /*Metadata offset 0x521E6B*/; // 0x28F
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 1730F09044E91DB8371B849EFF5E6D17BDE4AED0 /*Metadata offset 0x521E6E*/; // 0x292
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 1A84029C80CB5518379F199F53FF08A7B764F8FD /*Metadata offset 0x521E86*/; // 0x2AA
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=4096 1AEF3D8DF416A46288C91C724CBF7B154D9E5BF3 /*Metadata offset 0x521E89*/; // 0x2AD
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 1E41C4CD0767AEA21C00DEABA2EA9407F1E6CEA5 /*Metadata offset 0x522E89*/; // 0x12AD
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 1FE6CE411858B3D864679DE2139FB081F08BFACD /*Metadata offset 0x523689*/; // 0x1AAD
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 235D99572263B22ADFEE10FDA0C25E12F4D94FFC /*Metadata offset 0x523699*/; // 0x1ABD
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 25420D0055076FA8D3E4DD96BC53AE24DE6E619F /*Metadata offset 0x52369C*/; // 0x1AC0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1208 25CF935D2AE9EDF05DD75BCD47FF84D9255D6F6E /*Metadata offset 0x5236C4*/; // 0x1AE8
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=42 29C1A61550F0E3260E1953D4FAD71C256218EF40 /*Metadata offset 0x523B7C*/; // 0x1FA0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 2B33BEC8C30DFDC49DAFE20D3BDE19487850D717 /*Metadata offset 0x523BA6*/; // 0x1FCA
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 2BA840FF6020B8FF623DBCB7188248CF853FAF4F /*Metadata offset 0x523BB2*/; // 0x1FD6
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 2C840AFA48C27B9C05593E468C1232CA1CC74AFD /*Metadata offset 0x523BD6*/; // 0x1FFA
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 2D1DA5BB407F0C11C3B5116196C0C6374D932B20 /*Metadata offset 0x523C1E*/; // 0x2042
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=14 2D3CF0F15AC2DDEC2956EA1B7BBE43FB8B923130 /*Metadata offset 0x523C2E*/; // 0x2052
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 2F71D2DA12F3CD0A6A112F5A5A75B4FDC6FE8547 /*Metadata offset 0x523C3C*/; // 0x2060
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 320B018758ECE3752FFEDBAEB1A6DB67C80B9359 /*Metadata offset 0x523C84*/; // 0x20A8
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 34476C29F6F81C989CFCA42F7C06E84C66236834 /*Metadata offset 0x523CC4*/; // 0x20E8
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2382 35EED060772F2748D13B745DAEC8CD7BD3B87604 /*Metadata offset 0x523D0C*/; // 0x2130
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=38 375F9AE9769A3D1DA789E9ACFE81F3A1BB14F0D3 /*Metadata offset 0x52465A*/; // 0x2A7E
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1450 379C06C9E702D31469C29033F0DD63931EB349F5 /*Metadata offset 0x524680*/; // 0x2AA4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 399BD13E240F33F808CA7940293D6EC4E6FD5A00 /*Metadata offset 0x524C2A*/; // 0x304E
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 39C9CE73C7B0619D409EF28344F687C1B5C130FE /*Metadata offset 0x524C34*/; // 0x3058
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=320 3C53AFB51FEC23491684C7BEDBC6D4E0F409F851 /*Metadata offset 0x524C7C*/; // 0x30A0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 3E3442C7396F3F2BB4C7348F4A2074C7DC677D68 /*Metadata offset 0x524DBC*/; // 0x31E0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 3E4BBF9D0CDD2E34F78AA7A9A3979DCE1F7B02BD /*Metadata offset 0x524DBF*/; // 0x31E3
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 3E823444D2DFECF0F90B436B88F02A533CB376F1 /*Metadata offset 0x524DFF*/; // 0x3223
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 3FE6C283BCF384FD2C8789880DFF59664E2AB4A1 /*Metadata offset 0x524E0B*/; // 0x322F
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1665 40981BAA39513E58B28DCF0103CC04DE2A0A0444 /*Metadata offset 0x524E53*/; // 0x3277
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 40E7C49413D261F3F38AD3A870C0AC69C8BDA048 /*Metadata offset 0x5254D4*/; // 0x38F8
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 421EC7E82F2967DF6CA8C3605514DC6F29EE5845 /*Metadata offset 0x5254FC*/; // 0x3920
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 433175D38B13FFE177FDD661A309F1B528B3F6E2 /*Metadata offset 0x525544*/; // 0x3968
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=120 46232052BC757E030490D851F265FB47FA100902 /*Metadata offset 0x525644*/; // 0x3A68
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 4858DB4AA76D3933F1CA9E6712D4FDB16903F628 /*Metadata offset 0x5256BC*/; // 0x3AE0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=48 4E3B533C39447AAEB59A8E48FABD7E15B5B5D195 /*Metadata offset 0x525704*/; // 0x3B28
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 4F7A8890F332B22B8DE0BD29D36FA7364748D76A /*Metadata offset 0x525734*/; // 0x3B58
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 536422B321459B242ADED7240B7447E904E083E3 /*Metadata offset 0x52575C*/; // 0x3B80
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1080 5382CEF491F422BFE0D6FC46EFAFF9EF9D4C89F3 /*Metadata offset 0x5257A4*/; // 0x3BC8
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 56DFA5053B3131883637F53219E7D88CCEF35949 /*Metadata offset 0x525BDC*/; // 0x4000
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 57218C316B6921E2CD61027A2387EDC31A2D9471 /*Metadata offset 0x525BE6*/; // 0x400A
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 57F320D62696EC99727E0FE2045A05F1289CC0C6 /*Metadata offset 0x525BE9*/; // 0x400D
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=212 594A33A00BC4F785DFD43E3C6C44FBA1242CCAF3 /*Metadata offset 0x525C11*/; // 0x4035
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 5BBDF8058D4235C33F2E8DCF76004031B6187A2F /*Metadata offset 0x525CE5*/; // 0x4109
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=288 5BCD21C341BE6DDF8FFFAE1A23ABA24DCBB612BF /*Metadata offset 0x525D09*/; // 0x412D
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 5BFE2819B4778217C56416C7585FF0E56EBACD89 /*Metadata offset 0x525E29*/; // 0x424D
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 609C0E8D8DA86A09D6013D301C86BA8782C16B8C /*Metadata offset 0x525E71*/; // 0x4295
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=48 62BAB0F245E66C3EB982CF5A7015F0A7C3382283 /*Metadata offset 0x525EF1*/; // 0x4315
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 646036A65DECCD6835C914A46E6E44B729433B60 /*Metadata offset 0x525F21*/; // 0x4345
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 65E32B4E150FD8D24B93B0D42A17F1DAD146162B /*Metadata offset 0x526721*/; // 0x4B45
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 6770974FEF1E98B9C1864370E2B5B786EB0EA39E /*Metadata offset 0x526749*/; // 0x4B6D
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 67EEAD805D708D9AA4E14BF747E44CED801744F3 /*Metadata offset 0x52677D*/; // 0x4BA1
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=120 6C71197D228427B2864C69B357FEF73D8C9D59DF /*Metadata offset 0x5267C5*/; // 0x4BE9
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 6CEE45445AFD150B047A5866FFA76AA651CDB7B7 /*Metadata offset 0x52683D*/; // 0x4C61
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9 6D49C9D487D7AD3491ECE08732D68A593CC2038D /*Metadata offset 0x52684D*/; // 0x4C71
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 6D797C11E1D4FB68B6570CF2A92B792433527065 /*Metadata offset 0x526856*/; // 0x4C7A
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3132 6E5DC824F803F8565AF31B42199DAE39FE7F4EA9 /*Metadata offset 0x527056*/; // 0x547A
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76 6FC754859E4EC74E447048364B216D825C6F8FE7 /*Metadata offset 0x527C92*/; // 0x60B6
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 704939CD172085D1295FCE3F1D92431D685D7AA2 /*Metadata offset 0x527CDE*/; // 0x6102
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 7088AAE49F0627B72729078DE6E3182DDCF8ED99 /*Metadata offset 0x527D06*/; // 0x612A
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 7341C933A70EAE383CC50C4B945ADB8E08F06737 /*Metadata offset 0x527D1E*/; // 0x6142
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 736D39815215889F11249D9958F6ED12D37B9F57 /*Metadata offset 0x527D66*/; // 0x618A
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=4096 7F42F2EDC974BE29B2746957416ED1AEFA605F47 /*Metadata offset 0x527D69*/; // 0x618D
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 7FE820C9CF0F0B90445A71F1D262D22E4F0C4C68 /*Metadata offset 0x528D69*/; // 0x718D
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=21252 811A927B7DADD378BE60BBDE794B9277AA9B50EC /*Metadata offset 0x528D91*/; // 0x71B5
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 81917F1E21F3C22B9F916994547A614FB03E968E /*Metadata offset 0x52E095*/; // 0xC4B9
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 823566DA642D6EA356E15585921F2A4CA23D6760 /*Metadata offset 0x52E0B9*/; // 0xC4DD
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 82C2A59850B2E85BCE1A45A479537A384DF6098D /*Metadata offset 0x52E0E1*/; // 0xC505
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=44 82C383F8E6E4D3D87AEBB986A5D0077E8AD157C4 /*Metadata offset 0x52E0ED*/; // 0xC511
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 86F4F563FA2C61798AE6238D789139739428463A /*Metadata offset 0x52E119*/; // 0xC53D
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 871B9CF85DB352BAADF12BAE8F19857683E385AC /*Metadata offset 0x52E11C*/; // 0xC540
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 89A040451C8CC5C8FB268BE44BDD74964C104155 /*Metadata offset 0x52E144*/; // 0xC568
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 8CAA092E783257106251246FF5C97F88D28517A6 /*Metadata offset 0x52E154*/; // 0xC578
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2100 8D231DD55FE1AD7631BBD0905A17D5EB616C2154 /*Metadata offset 0x52E17C*/; // 0xC5A0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 8E10AC2F34545DFBBF3FCBC06055D797A8C99991 /*Metadata offset 0x52E9B0*/; // 0xCDD4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 8F22C9ECE1331718CBD268A9BBFD2F5E451441E3 /*Metadata offset 0x52E9D8*/; // 0xCDFC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=640 90A0542282A011472F94E97CEAE59F8B3B1A3291 /*Metadata offset 0x52EAD8*/; // 0xCEFC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 93A63E90605400F34B49F0EB3361D23C89164BDA /*Metadata offset 0x52ED58*/; // 0xD17C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 94841DD2F330CCB1089BF413E4FA9B04505152E2 /*Metadata offset 0x52ED64*/; // 0xD188
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 95264589E48F94B7857CFF398FB72A537E13EEE2 /*Metadata offset 0x52EDAC*/; // 0xD1D0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 95C48758CAE1715783472FB073AB158AB8A0AB2A /*Metadata offset 0x52EDB8*/; // 0xD1DC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 973417296623D8DC6961B09664E54039E44CA5D8 /*Metadata offset 0x52EE00*/; // 0xD224
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 97FB30C84FF4A41CD4625B44B2940BFC8DB43003 /*Metadata offset 0x52EE48*/; // 0xD26C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=4096 99E2E88877D14C7DDC4E957A0ED7079CA0E9EB24 /*Metadata offset 0x52EE4B*/; // 0xD26F
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 9A9C3962CD4753376E3507C8CB5FD8FCC4B4EDB5 /*Metadata offset 0x52FE4B*/; // 0xE26F
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 9BB00D1FCCBAF03165447FC8028E7CA07CA9FE88 /*Metadata offset 0x52FE8B*/; // 0xE2AF
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 A0074C15377C0C870B055927403EA9FA7A349D12 /*Metadata offset 0x52FE8E*/; // 0xE2B2
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=130 A1319B706116AB2C6D44483F60A7D0ACEA543396 /*Metadata offset 0x52FEB6*/; // 0xE2DA
 	internal static readonly long A13AA52274D951A18029131A8DDECF76B569A15D = -44474084896931794; // 0xE360
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 A323DB0813C4D072957BA6FDA79D9776674CD06B /*Metadata offset 0x52FF2C*/; // 0xE368
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=212 A5444763673307F6828C748D4B9708CFC02B0959 /*Metadata offset 0x52FF2F*/; // 0xE36B
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 A6732F8E7FC23766AB329B492D6BF82E3B33233F /*Metadata offset 0x530003*/; // 0xE43F
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=174 A705A106D95282BD15E13EEA6B0AF583FF786D83 /*Metadata offset 0x53004B*/; // 0xE487
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1018 A8A491E4CED49AE0027560476C10D933CE70C8DF /*Metadata offset 0x5300F9*/; // 0xE535
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 AC791C4F39504D1184B73478943D0636258DA7B1 /*Metadata offset 0x5304F3*/; // 0xE92F
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 AFCD4E1211233E99373A3367B23105A3D624B1F2 /*Metadata offset 0x53053B*/; // 0xE977
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 B472ED77CB3B2A66D49D179F1EE2081B70A6AB61 /*Metadata offset 0x53056F*/; // 0xE9AB
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 B4FBD02AAB5B16E0F4BD858DA5D9E348F3CE501D /*Metadata offset 0x530597*/; // 0xE9D3
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 B53A2C6DF21FC88B17AEFC40EB895B8D63210CDF /*Metadata offset 0x5305A7*/; // 0xE9E3
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=4096 B6002BBF29B2704922EC3BBF0F9EE40ABF185D6B /*Metadata offset 0x5306A7*/; // 0xEAE3
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=998 B881DA88BE0B68D8A6B6B6893822586B8B2CFC45 /*Metadata offset 0x5316A7*/; // 0xFAE3
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=162 B8864ACB9DD69E3D42151513C840AAE270BF21C8 /*Metadata offset 0x531A8D*/; // 0xFEC9
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=360 B8F87834C3597B2EEF22BA6D3A392CC925636401 /*Metadata offset 0x531B2F*/; // 0xFF6B
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 B9B670F134A59FB1107AF01A9FE8F8E3980B3093 /*Metadata offset 0x531C97*/; // 0x100D3
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 BE1BDEC0AA74B4DCB079943E70528096CCA985F8 /*Metadata offset 0x531CDF*/; // 0x1011B
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 BEBC9ECC660A13EFC359BA3383411F698CFF25DB /*Metadata offset 0x531CF3*/; // 0x1012F
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 BEE1CFE5DFAA408E14CE4AF4DCD824FA2E42DCB7 /*Metadata offset 0x531D3B*/; // 0x10177
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 BF477463CE2F5EF38FC4C644BBBF4DF109E7670A /*Metadata offset 0x531D63*/; // 0x1019F
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 BF5EB60806ECB74EE484105DD9D6F463BF994867 /*Metadata offset 0x531D66*/; // 0x101A2
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 A323DB0813C4D072957BA6FDA79D9776674CD06B /*Metadata offset 0x52FF40*/; // 0xE368
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=212 A5444763673307F6828C748D4B9708CFC02B0959 /*Metadata offset 0x52FF43*/; // 0xE36B
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 A6732F8E7FC23766AB329B492D6BF82E3B33233F /*Metadata offset 0x530017*/; // 0xE43F
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=174 A705A106D95282BD15E13EEA6B0AF583FF786D83 /*Metadata offset 0x53005F*/; // 0xE487
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1018 A8A491E4CED49AE0027560476C10D933CE70C8DF /*Metadata offset 0x53010D*/; // 0xE535
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 AC791C4F39504D1184B73478943D0636258DA7B1 /*Metadata offset 0x530507*/; // 0xE92F
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 AFCD4E1211233E99373A3367B23105A3D624B1F2 /*Metadata offset 0x53054F*/; // 0xE977
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 B472ED77CB3B2A66D49D179F1EE2081B70A6AB61 /*Metadata offset 0x530583*/; // 0xE9AB
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 B4FBD02AAB5B16E0F4BD858DA5D9E348F3CE501D /*Metadata offset 0x5305AB*/; // 0xE9D3
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 B53A2C6DF21FC88B17AEFC40EB895B8D63210CDF /*Metadata offset 0x5305BB*/; // 0xE9E3
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=4096 B6002BBF29B2704922EC3BBF0F9EE40ABF185D6B /*Metadata offset 0x5306BB*/; // 0xEAE3
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=998 B881DA88BE0B68D8A6B6B6893822586B8B2CFC45 /*Metadata offset 0x5316BB*/; // 0xFAE3
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=162 B8864ACB9DD69E3D42151513C840AAE270BF21C8 /*Metadata offset 0x531AA1*/; // 0xFEC9
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=360 B8F87834C3597B2EEF22BA6D3A392CC925636401 /*Metadata offset 0x531B43*/; // 0xFF6B
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 B9B670F134A59FB1107AF01A9FE8F8E3980B3093 /*Metadata offset 0x531CAB*/; // 0x100D3
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 BE1BDEC0AA74B4DCB079943E70528096CCA985F8 /*Metadata offset 0x531CF3*/; // 0x1011B
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 BEBC9ECC660A13EFC359BA3383411F698CFF25DB /*Metadata offset 0x531D07*/; // 0x1012F
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 BEE1CFE5DFAA408E14CE4AF4DCD824FA2E42DCB7 /*Metadata offset 0x531D4F*/; // 0x10177
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 BF477463CE2F5EF38FC4C644BBBF4DF109E7670A /*Metadata offset 0x531D77*/; // 0x1019F
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 BF5EB60806ECB74EE484105DD9D6F463BF994867 /*Metadata offset 0x531D7A*/; // 0x101A2
 	internal static readonly long C1A1100642BA9685B30A84D97348484E14AA1865 = 23362753784184900; // 0x101A8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 C6F364A0AD934EFED8909446C215752E565D77C1 /*Metadata offset 0x531D74*/; // 0x101B0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=174 CE5835130F5277F63D716FC9115526B0AC68FFAD /*Metadata offset 0x531D84*/; // 0x101C0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 CE93C35B755802BC4B3D180716B048FC61701EF7 /*Metadata offset 0x531E32*/; // 0x1026E
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 CF0B42666EF5E37EDEA0AB8E173E42C196D03814 /*Metadata offset 0x531E38*/; // 0x10274
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 D002CBBE1FF33721AF7C4D1D3ECAD1B7DB5258B7 /*Metadata offset 0x531E78*/; // 0x102B4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 D117188BE8D4609C0D531C51B0BB911A4219DEBE /*Metadata offset 0x531F78*/; // 0x103B4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 D28E8ABDBD777A482CE0EE5C24814ACAE52AABFE /*Metadata offset 0x531F98*/; // 0x103D4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 D2C5BAE967587C6F3D9F2C4551911E0575A1101F /*Metadata offset 0x531FB8*/; // 0x103F4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=82 D76478B994B312CD022DCA207AA2254880D2FCC9 /*Metadata offset 0x5320B8*/; // 0x104F4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=44 D78D08081C7A5AD6FBA7A8DC86BCD6D7A577C636 /*Metadata offset 0x53210A*/; // 0x10546
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76 DA19DB47B583EFCF7825D2E39D661D2354F28219 /*Metadata offset 0x532136*/; // 0x10572
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 DC2B830D8CD59AD6A4E4332D21CA0DCA2821AD82 /*Metadata offset 0x532182*/; // 0x105BE
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 DD3AEFEADB1CD615F3017763F1568179FEE640B0 /*Metadata offset 0x5321BA*/; // 0x105F6
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 E1827270A5FE1C85F5352A66FD87BA747213D006 /*Metadata offset 0x5321EE*/; // 0x1062A
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 E45BAB43F7D5D038672B3E3431F92E34A7AF2571 /*Metadata offset 0x532212*/; // 0x1064E
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 E75835D001C843F156FBA01B001DFE1B8029AC17 /*Metadata offset 0x53223A*/; // 0x10676
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 E92B39D8233061927D9ACDE54665E68E7535635A /*Metadata offset 0x53227A*/; // 0x106B6
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 EA9506959484C55CFE0C139C624DF6060E285866 /*Metadata offset 0x5322AE*/; // 0x106EA
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=262 EB5E9A80A40096AB74D2E226650C7258D7BC5E9D /*Metadata offset 0x5322BA*/; // 0x106F6
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 EBF68F411848D603D059DFDEA2321C5A5EA78044 /*Metadata offset 0x5323C0*/; // 0x107FC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 EC5BB4F59D4B9B2E9ECD3904D44A8275F23AFB11 /*Metadata offset 0x532400*/; // 0x1083C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 EC83FB16C20052BEE2B4025159BC2ED45C9C70C3 /*Metadata offset 0x53240A*/; // 0x10846
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 EC89C317EA2BF49A70EFF5E89C691E34733D7C37 /*Metadata offset 0x53240D*/; // 0x10849
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 F06E829E62F3AFBC045D064E10A4F5DF7C969612 /*Metadata offset 0x532455*/; // 0x10891
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=11614 F073AA332018FDA0D572E99448FFF1D6422BD520 /*Metadata offset 0x53247D*/; // 0x108B9
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=120 F34B0E10653402E8F788F8BC3F7CD7090928A429 /*Metadata offset 0x5351DB*/; // 0x13617
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 F37E34BEADB04F34FCC31078A59F49856CA83D5B /*Metadata offset 0x535253*/; // 0x1368F
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=94 F512A9ABF88066AAEB92684F95CC05D8101B462B /*Metadata offset 0x53529B*/; // 0x136D7
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 F8FAABB821300AA500C2CEC6091B3782A7FB44A4 /*Metadata offset 0x5352F9*/; // 0x13735
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2350 FCBD2781A933F0828ED4AAF88FD8B08D76DDD49B /*Metadata offset 0x535305*/; // 0x13741
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 C6F364A0AD934EFED8909446C215752E565D77C1 /*Metadata offset 0x531D88*/; // 0x101B0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=174 CE5835130F5277F63D716FC9115526B0AC68FFAD /*Metadata offset 0x531D98*/; // 0x101C0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 CE93C35B755802BC4B3D180716B048FC61701EF7 /*Metadata offset 0x531E46*/; // 0x1026E
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 CF0B42666EF5E37EDEA0AB8E173E42C196D03814 /*Metadata offset 0x531E4C*/; // 0x10274
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 D002CBBE1FF33721AF7C4D1D3ECAD1B7DB5258B7 /*Metadata offset 0x531E8C*/; // 0x102B4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 D117188BE8D4609C0D531C51B0BB911A4219DEBE /*Metadata offset 0x531F8C*/; // 0x103B4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 D28E8ABDBD777A482CE0EE5C24814ACAE52AABFE /*Metadata offset 0x531FAC*/; // 0x103D4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 D2C5BAE967587C6F3D9F2C4551911E0575A1101F /*Metadata offset 0x531FCC*/; // 0x103F4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=82 D76478B994B312CD022DCA207AA2254880D2FCC9 /*Metadata offset 0x5320CC*/; // 0x104F4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=44 D78D08081C7A5AD6FBA7A8DC86BCD6D7A577C636 /*Metadata offset 0x53211E*/; // 0x10546
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76 DA19DB47B583EFCF7825D2E39D661D2354F28219 /*Metadata offset 0x53214A*/; // 0x10572
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 DC2B830D8CD59AD6A4E4332D21CA0DCA2821AD82 /*Metadata offset 0x532196*/; // 0x105BE
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 DD3AEFEADB1CD615F3017763F1568179FEE640B0 /*Metadata offset 0x5321CE*/; // 0x105F6
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 E1827270A5FE1C85F5352A66FD87BA747213D006 /*Metadata offset 0x532202*/; // 0x1062A
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 E45BAB43F7D5D038672B3E3431F92E34A7AF2571 /*Metadata offset 0x532226*/; // 0x1064E
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 E75835D001C843F156FBA01B001DFE1B8029AC17 /*Metadata offset 0x53224E*/; // 0x10676
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 E92B39D8233061927D9ACDE54665E68E7535635A /*Metadata offset 0x53228E*/; // 0x106B6
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 EA9506959484C55CFE0C139C624DF6060E285866 /*Metadata offset 0x5322C2*/; // 0x106EA
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=262 EB5E9A80A40096AB74D2E226650C7258D7BC5E9D /*Metadata offset 0x5322CE*/; // 0x106F6
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 EBF68F411848D603D059DFDEA2321C5A5EA78044 /*Metadata offset 0x5323D4*/; // 0x107FC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 EC5BB4F59D4B9B2E9ECD3904D44A8275F23AFB11 /*Metadata offset 0x532414*/; // 0x1083C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 EC83FB16C20052BEE2B4025159BC2ED45C9C70C3 /*Metadata offset 0x53241E*/; // 0x10846
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 EC89C317EA2BF49A70EFF5E89C691E34733D7C37 /*Metadata offset 0x532421*/; // 0x10849
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 F06E829E62F3AFBC045D064E10A4F5DF7C969612 /*Metadata offset 0x532469*/; // 0x10891
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=11614 F073AA332018FDA0D572E99448FFF1D6422BD520 /*Metadata offset 0x532491*/; // 0x108B9
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=120 F34B0E10653402E8F788F8BC3F7CD7090928A429 /*Metadata offset 0x5351EF*/; // 0x13617
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 F37E34BEADB04F34FCC31078A59F49856CA83D5B /*Metadata offset 0x535267*/; // 0x1368F
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=94 F512A9ABF88066AAEB92684F95CC05D8101B462B /*Metadata offset 0x5352AF*/; // 0x136D7
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 F8FAABB821300AA500C2CEC6091B3782A7FB44A4 /*Metadata offset 0x53530D*/; // 0x13735
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2350 FCBD2781A933F0828ED4AAF88FD8B08D76DDD49B /*Metadata offset 0x535319*/; // 0x13741
 
 	// Methods
 
@@ -6350,7 +6350,7 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 1635
 internal class __Il2CppComObject // TypeDefIndex: 1690
 {	// Methods
 
-	// RVA: 0x214CBF0 Offset: 0x214B1F0 VA: 0x18214CBF0 Slot: 1
+	// RVA: 0x214CA30 Offset: 0x214B030 VA: 0x18214CA30 Slot: 1
 	protected override void Finalize() { }
 
 }
@@ -6358,41 +6358,41 @@ internal class __Il2CppComObject // TypeDefIndex: 1690
 internal sealed class __Il2CppComDelegate : __Il2CppComObject // TypeDefIndex: 1691
 {	// Methods
 
-	// RVA: 0x214CBF0 Offset: 0x214B1F0 VA: 0x18214CBF0 Slot: 1
+	// RVA: 0x214CA30 Offset: 0x214B030 VA: 0x18214CA30 Slot: 1
 	protected override void Finalize() { }
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 1772
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 12D04472A8285260EA12FD3813CDFA9F2D2B548C /*Metadata offset 0x535F0B*/; // 0x0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 13A35EF1A549297C70E2AD46045BBD2ECA17852D /*Metadata offset 0x535F0E*/; // 0x3
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 12D04472A8285260EA12FD3813CDFA9F2D2B548C /*Metadata offset 0x535F1F*/; // 0x0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 13A35EF1A549297C70E2AD46045BBD2ECA17852D /*Metadata offset 0x535F22*/; // 0x3
 	internal static readonly long 16968835DEF6DD3BB86EABA9DEC53BF41851CD6D = -1295888024253181014; // 0x8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 1A84029C80CB5518379F199F53FF08A7B764F8FD /*Metadata offset 0x535F19*/; // 0x10
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 235D99572263B22ADFEE10FDA0C25E12F4D94FFC /*Metadata offset 0x535F1C*/; // 0x13
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=14 2D3CF0F15AC2DDEC2956EA1B7BBE43FB8B923130 /*Metadata offset 0x535F1F*/; // 0x16
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 320B018758ECE3752FFEDBAEB1A6DB67C80B9359 /*Metadata offset 0x535F2D*/; // 0x24
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 3E3442C7396F3F2BB4C7348F4A2074C7DC677D68 /*Metadata offset 0x535F6D*/; // 0x64
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=48 4E3B533C39447AAEB59A8E48FABD7E15B5B5D195 /*Metadata offset 0x535F70*/; // 0x67
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 56DFA5053B3131883637F53219E7D88CCEF35949 /*Metadata offset 0x535FA0*/; // 0x97
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9 6D49C9D487D7AD3491ECE08732D68A593CC2038D /*Metadata offset 0x535FAA*/; // 0xA1
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3132 6E5DC824F803F8565AF31B42199DAE39FE7F4EA9 /*Metadata offset 0x535FB3*/; // 0xAA
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 1A84029C80CB5518379F199F53FF08A7B764F8FD /*Metadata offset 0x535F2D*/; // 0x10
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 235D99572263B22ADFEE10FDA0C25E12F4D94FFC /*Metadata offset 0x535F30*/; // 0x13
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=14 2D3CF0F15AC2DDEC2956EA1B7BBE43FB8B923130 /*Metadata offset 0x535F33*/; // 0x16
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 320B018758ECE3752FFEDBAEB1A6DB67C80B9359 /*Metadata offset 0x535F41*/; // 0x24
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 3E3442C7396F3F2BB4C7348F4A2074C7DC677D68 /*Metadata offset 0x535F81*/; // 0x64
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=48 4E3B533C39447AAEB59A8E48FABD7E15B5B5D195 /*Metadata offset 0x535F84*/; // 0x67
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 56DFA5053B3131883637F53219E7D88CCEF35949 /*Metadata offset 0x535FB4*/; // 0x97
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9 6D49C9D487D7AD3491ECE08732D68A593CC2038D /*Metadata offset 0x535FBE*/; // 0xA1
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3132 6E5DC824F803F8565AF31B42199DAE39FE7F4EA9 /*Metadata offset 0x535FC7*/; // 0xAA
 	internal static readonly long 6FA00AC9FFFD87F82A38A7F9ECC8134F4A7052AF = 22609615381091406; // 0xCE8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 736D39815215889F11249D9958F6ED12D37B9F57 /*Metadata offset 0x536BF7*/; // 0xCF0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 86F4F563FA2C61798AE6238D789139739428463A /*Metadata offset 0x536BFA*/; // 0xCF3
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 97FB30C84FF4A41CD4625B44B2940BFC8DB43003 /*Metadata offset 0x536BFD*/; // 0xCF6
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 9A9C3962CD4753376E3507C8CB5FD8FCC4B4EDB5 /*Metadata offset 0x536C00*/; // 0xCF9
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 9BB00D1FCCBAF03165447FC8028E7CA07CA9FE88 /*Metadata offset 0x536C40*/; // 0xD39
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 A323DB0813C4D072957BA6FDA79D9776674CD06B /*Metadata offset 0x536C43*/; // 0xD3C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 736D39815215889F11249D9958F6ED12D37B9F57 /*Metadata offset 0x536C0B*/; // 0xCF0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 86F4F563FA2C61798AE6238D789139739428463A /*Metadata offset 0x536C0E*/; // 0xCF3
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 97FB30C84FF4A41CD4625B44B2940BFC8DB43003 /*Metadata offset 0x536C11*/; // 0xCF6
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 9A9C3962CD4753376E3507C8CB5FD8FCC4B4EDB5 /*Metadata offset 0x536C14*/; // 0xCF9
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 9BB00D1FCCBAF03165447FC8028E7CA07CA9FE88 /*Metadata offset 0x536C54*/; // 0xD39
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 A323DB0813C4D072957BA6FDA79D9776674CD06B /*Metadata offset 0x536C57*/; // 0xD3C
 	internal static readonly long AEA5F1CC5CFE1660539EDD691FE017F775F63A0D = 2676302836908902219; // 0xD40
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 BE1BDEC0AA74B4DCB079943E70528096CCA985F8 /*Metadata offset 0x536C4E*/; // 0xD48
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 BF477463CE2F5EF38FC4C644BBBF4DF109E7670A /*Metadata offset 0x536C62*/; // 0xD5C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 CF0B42666EF5E37EDEA0AB8E173E42C196D03814 /*Metadata offset 0x536C65*/; // 0xD5F
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 D28E8ABDBD777A482CE0EE5C24814ACAE52AABFE /*Metadata offset 0x536CA5*/; // 0xD9F
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 D2C5BAE967587C6F3D9F2C4551911E0575A1101F /*Metadata offset 0x536CC5*/; // 0xDBF
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 E75835D001C843F156FBA01B001DFE1B8029AC17 /*Metadata offset 0x536DC5*/; // 0xEBF
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 EC5BB4F59D4B9B2E9ECD3904D44A8275F23AFB11 /*Metadata offset 0x536E05*/; // 0xEFF
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 EC83FB16C20052BEE2B4025159BC2ED45C9C70C3 /*Metadata offset 0x536E0F*/; // 0xF09
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 BE1BDEC0AA74B4DCB079943E70528096CCA985F8 /*Metadata offset 0x536C62*/; // 0xD48
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 BF477463CE2F5EF38FC4C644BBBF4DF109E7670A /*Metadata offset 0x536C76*/; // 0xD5C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 CF0B42666EF5E37EDEA0AB8E173E42C196D03814 /*Metadata offset 0x536C79*/; // 0xD5F
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 D28E8ABDBD777A482CE0EE5C24814ACAE52AABFE /*Metadata offset 0x536CB9*/; // 0xD9F
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 D2C5BAE967587C6F3D9F2C4551911E0575A1101F /*Metadata offset 0x536CD9*/; // 0xDBF
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 E75835D001C843F156FBA01B001DFE1B8029AC17 /*Metadata offset 0x536DD9*/; // 0xEBF
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 EC5BB4F59D4B9B2E9ECD3904D44A8275F23AFB11 /*Metadata offset 0x536E19*/; // 0xEFF
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 EC83FB16C20052BEE2B4025159BC2ED45C9C70C3 /*Metadata offset 0x536E23*/; // 0xF09
 
 	// Methods
 
@@ -6403,45 +6403,45 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 1772
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 2431
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 0701435C4E2C38EFE43C51BD22C114AB8B80124D /*Metadata offset 0x537D79*/; // 0x0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 0EE6555EB2C89F29655BD23FAB0573D8D684331A /*Metadata offset 0x537D85*/; // 0xC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=68 0F6A1E2CEA2FA691D57F3F3FDCF9B82A3FBF6EE1 /*Metadata offset 0x537DA9*/; // 0x30
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 161F91CE1721D8F16622810CBB39887D21C47031 /*Metadata offset 0x537DED*/; // 0x74
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 2051D7520B96DCC12F2E4DE851CB9F203D623805 /*Metadata offset 0x537DF9*/; // 0x80
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=44 221CE291CD044114B4369175B9B91177F5932876 /*Metadata offset 0x537E19*/; // 0xA0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=38 2A4F1BD548EC71F652E24985361CD72F0FE1BE7D /*Metadata offset 0x537E45*/; // 0xCC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 360487BE4278986419B568EFD887F6145383168A /*Metadata offset 0x537E6B*/; // 0xF2
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 42DDBEE388AB59C20A3D7D4D6555E78D74A45AE1 /*Metadata offset 0x537E93*/; // 0x11A
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 485F43E332C2F7530815B17C08DAC169A8F697E0 /*Metadata offset 0x537EA7*/; // 0x12E
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=112 49C5BA13401986EC93E4677F52CBE2248184DFBD /*Metadata offset 0x537EC7*/; // 0x14E
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 51E4CA1C2B009A2876C6E57D8E69E3502BCA3440 /*Metadata offset 0x537F37*/; // 0x1BE
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=960 553E235E202D57C9F1156E7D232E02BBDC920165 /*Metadata offset 0x537F4F*/; // 0x1D6
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 574B9D4E4C39F6E8004181E5765B627B75EB1AD1 /*Metadata offset 0x53830F*/; // 0x596
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 5BE9DB9EEB9CBB4D22472CA9734B1FA1D36126BD /*Metadata offset 0x538347*/; // 0x5CE
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 5D100A87B697F3AE2015A5D3B2A7B5419E1BCA98 /*Metadata offset 0x538353*/; // 0x5DA
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=664 68D0F86889D5D656483EEE829BCEECDFEC91D8EA /*Metadata offset 0x538359*/; // 0x5E0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=416 6A0D50D692745A6663128CD315B71079584F3E59 /*Metadata offset 0x5385F1*/; // 0x878
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 702F6A3276CBE481D247A77C20B5459FB94D07D2 /*Metadata offset 0x538791*/; // 0xA18
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 7A32E1A19C182315E4263A65A72066492550D8CD /*Metadata offset 0x5387A9*/; // 0xA30
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 8B4E5E81A88D29642679AFCE41DCA380F9000462 /*Metadata offset 0x5387C9*/; // 0xA50
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=960 977375E4E1ED54F588076ACA36CC17E6C2195CB9 /*Metadata offset 0x5387D9*/; // 0xA60
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 99F0664C2AC8464B51252D92FC24F3834C6FB90C /*Metadata offset 0x538B99*/; // 0xE20
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28 9E31F24F64765FCAA589F589324D17C9FCF6A06D /*Metadata offset 0x538BA5*/; // 0xE2C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=144 9E374D7263B2452E25DE3D6E617F6A728D98A439 /*Metadata offset 0x538BC1*/; // 0xE48
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=68 A933F173482FF50754B4942AF8DFC584EF14A45B /*Metadata offset 0x538C51*/; // 0xED8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 AB4EAD1DB94B8220FAAEDAA6A593B2E6DB0A8A9C /*Metadata offset 0x538C95*/; // 0xF1C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=416 B368804F0C6DAB083B253A6B106D0783D5C32E90 /*Metadata offset 0x538CAD*/; // 0xF34
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 B9F0004E3873FDDCABFDA6174EA18F0859B637B4 /*Metadata offset 0x538E4D*/; // 0x10D4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 BAD037B714E1CD1052149B51238A3D4351DD10B5 /*Metadata offset 0x538E75*/; // 0x10FC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 C2D6E36D84DDA5D661B95D7B32D3F47CD7ACBF6C /*Metadata offset 0x538E89*/; // 0x1110
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 0701435C4E2C38EFE43C51BD22C114AB8B80124D /*Metadata offset 0x537D8D*/; // 0x0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 0EE6555EB2C89F29655BD23FAB0573D8D684331A /*Metadata offset 0x537D99*/; // 0xC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=68 0F6A1E2CEA2FA691D57F3F3FDCF9B82A3FBF6EE1 /*Metadata offset 0x537DBD*/; // 0x30
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 161F91CE1721D8F16622810CBB39887D21C47031 /*Metadata offset 0x537E01*/; // 0x74
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 2051D7520B96DCC12F2E4DE851CB9F203D623805 /*Metadata offset 0x537E0D*/; // 0x80
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=44 221CE291CD044114B4369175B9B91177F5932876 /*Metadata offset 0x537E2D*/; // 0xA0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=38 2A4F1BD548EC71F652E24985361CD72F0FE1BE7D /*Metadata offset 0x537E59*/; // 0xCC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 360487BE4278986419B568EFD887F6145383168A /*Metadata offset 0x537E7F*/; // 0xF2
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 42DDBEE388AB59C20A3D7D4D6555E78D74A45AE1 /*Metadata offset 0x537EA7*/; // 0x11A
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 485F43E332C2F7530815B17C08DAC169A8F697E0 /*Metadata offset 0x537EBB*/; // 0x12E
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=112 49C5BA13401986EC93E4677F52CBE2248184DFBD /*Metadata offset 0x537EDB*/; // 0x14E
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 51E4CA1C2B009A2876C6E57D8E69E3502BCA3440 /*Metadata offset 0x537F4B*/; // 0x1BE
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=960 553E235E202D57C9F1156E7D232E02BBDC920165 /*Metadata offset 0x537F63*/; // 0x1D6
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 574B9D4E4C39F6E8004181E5765B627B75EB1AD1 /*Metadata offset 0x538323*/; // 0x596
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 5BE9DB9EEB9CBB4D22472CA9734B1FA1D36126BD /*Metadata offset 0x53835B*/; // 0x5CE
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 5D100A87B697F3AE2015A5D3B2A7B5419E1BCA98 /*Metadata offset 0x538367*/; // 0x5DA
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=664 68D0F86889D5D656483EEE829BCEECDFEC91D8EA /*Metadata offset 0x53836D*/; // 0x5E0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=416 6A0D50D692745A6663128CD315B71079584F3E59 /*Metadata offset 0x538605*/; // 0x878
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 702F6A3276CBE481D247A77C20B5459FB94D07D2 /*Metadata offset 0x5387A5*/; // 0xA18
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 7A32E1A19C182315E4263A65A72066492550D8CD /*Metadata offset 0x5387BD*/; // 0xA30
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 8B4E5E81A88D29642679AFCE41DCA380F9000462 /*Metadata offset 0x5387DD*/; // 0xA50
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=960 977375E4E1ED54F588076ACA36CC17E6C2195CB9 /*Metadata offset 0x5387ED*/; // 0xA60
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 99F0664C2AC8464B51252D92FC24F3834C6FB90C /*Metadata offset 0x538BAD*/; // 0xE20
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28 9E31F24F64765FCAA589F589324D17C9FCF6A06D /*Metadata offset 0x538BB9*/; // 0xE2C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=144 9E374D7263B2452E25DE3D6E617F6A728D98A439 /*Metadata offset 0x538BD5*/; // 0xE48
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=68 A933F173482FF50754B4942AF8DFC584EF14A45B /*Metadata offset 0x538C65*/; // 0xED8
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 AB4EAD1DB94B8220FAAEDAA6A593B2E6DB0A8A9C /*Metadata offset 0x538CA9*/; // 0xF1C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=416 B368804F0C6DAB083B253A6B106D0783D5C32E90 /*Metadata offset 0x538CC1*/; // 0xF34
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 B9F0004E3873FDDCABFDA6174EA18F0859B637B4 /*Metadata offset 0x538E61*/; // 0x10D4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 BAD037B714E1CD1052149B51238A3D4351DD10B5 /*Metadata offset 0x538E89*/; // 0x10FC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 C2D6E36D84DDA5D661B95D7B32D3F47CD7ACBF6C /*Metadata offset 0x538E9D*/; // 0x1110
 	internal static readonly long DB9F879BE80CC2DA24DEF633D23DBB2B1ADBCC81 = 361700859878507267; // 0x1120
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 DCF398750721AA7A27A6BA56E99350329B06E8B1 /*Metadata offset 0x538EA1*/; // 0x1128
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 DCF398750721AA7A27A6BA56E99350329B06E8B1 /*Metadata offset 0x538EB5*/; // 0x1128
 	internal static readonly long EBC658B067B5C785A3F0BB67D73755F6FEE7F70C = 3659217647501344; // 0x1138
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 ED18A4A1FF7C89B400D7CA156BA8D11BB09E1DE4 /*Metadata offset 0x538EB9*/; // 0x1140
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 EE3413A2C088FF9432054D6E60A7CB6A498D25F0 /*Metadata offset 0x538EDD*/; // 0x1164
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 F64F25EAE9A3D7A356813C4218000185541D7779 /*Metadata offset 0x538F1D*/; // 0x11A4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1212 FB0C58D8B3094F018764CC6E3094B9576DB08069 /*Metadata offset 0x538F41*/; // 0x11C8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 FFE3F15642234E7FAD6951D432F1134D5AD15922 /*Metadata offset 0x5393FD*/; // 0x1684
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 ED18A4A1FF7C89B400D7CA156BA8D11BB09E1DE4 /*Metadata offset 0x538ECD*/; // 0x1140
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 EE3413A2C088FF9432054D6E60A7CB6A498D25F0 /*Metadata offset 0x538EF1*/; // 0x1164
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 F64F25EAE9A3D7A356813C4218000185541D7779 /*Metadata offset 0x538F31*/; // 0x11A4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1212 FB0C58D8B3094F018764CC6E3094B9576DB08069 /*Metadata offset 0x538F55*/; // 0x11C8
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 FFE3F15642234E7FAD6951D432F1134D5AD15922 /*Metadata offset 0x539411*/; // 0x1684
 
 	// Methods
 
@@ -6453,27 +6453,27 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 2431
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 3155
 {
 // Namespace: 
-[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 3155
 	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=14 0283A6AF88802AB45989B29549915BEA0F6CD515 /*Metadata offset 0x53A5B7*/; // 0x0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=14 0283A6AF88802AB45989B29549915BEA0F6CD515 /*Metadata offset 0x53A5CB*/; // 0x0
 	internal static readonly long 03F4297FCC30D0FD5E420E5D26E7FA711167C7EF = 2533317740920864; // 0x10
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9 1A39764B112685485A5BA7B2880D878B858C1A7A /*Metadata offset 0x53A5CD*/; // 0x18
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 1A84029C80CB5518379F199F53FF08A7B764F8FD /*Metadata offset 0x53A5D6*/; // 0x21
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 3BE77BF818331C2D8400FFFFF9FADD3F16AD89AC /*Metadata offset 0x53A5D9*/; // 0x24
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 53437C3B2572EDB9B8640C3195DF3BC2729C5EA1 /*Metadata offset 0x53A5E5*/; // 0x30
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 59F5BD34B6C013DEACC784F69C67E95150033A84 /*Metadata offset 0x53A5EF*/; // 0x3A
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 5BC3486B05BA8CF4689C7BDB198B3F477BB4E20C /*Metadata offset 0x53A60F*/; // 0x5A
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9 6D49C9D487D7AD3491ECE08732D68A593CC2038D /*Metadata offset 0x53A615*/; // 0x60
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 6F3AD3DC3AF8047587C4C9D696EB68A01FEF796E /*Metadata offset 0x53A61E*/; // 0x69
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 8821BF2BDFF225D177372C9F3E0A8286EE241FF4 /*Metadata offset 0x53A69E*/; // 0xE9
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=44 8E0EF3D67A3EB1863224EE3CACB424BC2F8CFBA3 /*Metadata offset 0x53A6A4*/; // 0xEF
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9 1A39764B112685485A5BA7B2880D878B858C1A7A /*Metadata offset 0x53A5E1*/; // 0x18
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=3 1A84029C80CB5518379F199F53FF08A7B764F8FD /*Metadata offset 0x53A5EA*/; // 0x21
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 3BE77BF818331C2D8400FFFFF9FADD3F16AD89AC /*Metadata offset 0x53A5ED*/; // 0x24
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 53437C3B2572EDB9B8640C3195DF3BC2729C5EA1 /*Metadata offset 0x53A5F9*/; // 0x30
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 59F5BD34B6C013DEACC784F69C67E95150033A84 /*Metadata offset 0x53A603*/; // 0x3A
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 5BC3486B05BA8CF4689C7BDB198B3F477BB4E20C /*Metadata offset 0x53A623*/; // 0x5A
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9 6D49C9D487D7AD3491ECE08732D68A593CC2038D /*Metadata offset 0x53A629*/; // 0x60
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 6F3AD3DC3AF8047587C4C9D696EB68A01FEF796E /*Metadata offset 0x53A632*/; // 0x69
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 8821BF2BDFF225D177372C9F3E0A8286EE241FF4 /*Metadata offset 0x53A6B2*/; // 0xE9
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=44 8E0EF3D67A3EB1863224EE3CACB424BC2F8CFBA3 /*Metadata offset 0x53A6B8*/; // 0xEF
 	internal static readonly long 98A44A6F8606AE6F23FE230286C1D6FBCC407226 = 11540663026319392; // 0x120
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 C02C28AFEBE998F767E4AF43E3BE8F5E9FA11536 /*Metadata offset 0x53A6D8*/; // 0x128
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 CCEEADA43268372341F81AE0C9208C6856441C04 /*Metadata offset 0x53A6F8*/; // 0x148
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 C02C28AFEBE998F767E4AF43E3BE8F5E9FA11536 /*Metadata offset 0x53A6EC*/; // 0x128
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 CCEEADA43268372341F81AE0C9208C6856441C04 /*Metadata offset 0x53A70C*/; // 0x148
 	internal static readonly long E5BC1BAFADE1862DD6E0B9FB632BFAA6C3873A78 = 2533330625626144; // 0x1C8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 EC5842B3154E1AF94500B57220EB9F684BCCC42A /*Metadata offset 0x53A780*/; // 0x1D0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 EEAFE8C6E1AB017237567305EE925C976CDB6458 /*Metadata offset 0x53A7A0*/; // 0x1F0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 EC5842B3154E1AF94500B57220EB9F684BCCC42A /*Metadata offset 0x53A794*/; // 0x1D0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 EEAFE8C6E1AB017237567305EE925C976CDB6458 /*Metadata offset 0x53A7B4*/; // 0x1F0
 
 	// Methods
 
@@ -6693,7 +6693,7 @@ internal abstract class OrderedEnumerable<TElement> : IOrderedEnumerable<TElemen
 
 	// Methods
 
-	[IteratorStateMachineAttribute] // RVA: 0xD1A60 Offset: 0xD0E60 VA: 0x1800D1A60
+	[IteratorStateMachineAttribute] // RVA: 0xD1AA0 Offset: 0xD0EA0 VA: 0x1800D1AA0
 	// RVA: -1 Offset: -1 Slot: 5
 	public IEnumerator<TElement> GetEnumerator() { }
 	/* GenericInstMethod :
@@ -6891,85 +6891,85 @@ internal struct Buffer<TElement> // TypeDefIndex: 3238
 	internal void .ctor(IEnumerable<TElement> source) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2253A0 Offset: 0x2247A0 VA: 0x1802253A0
+	|-RVA: 0x225320 Offset: 0x224720 VA: 0x180225320
 	|-Buffer<Debugging.EntityInfo>..ctor
 	|
-	|-RVA: 0x2253D0 Offset: 0x2247D0 VA: 0x1802253D0
+	|-RVA: 0x225350 Offset: 0x224750 VA: 0x180225350
 	|-Buffer<Demos.DemoInfo>..ctor
 	|
-	|-RVA: 0x225470 Offset: 0x224870 VA: 0x180225470
+	|-RVA: 0x2253F0 Offset: 0x2247F0 VA: 0x1802253F0
 	|-Buffer<GameStat.Stat>..ctor
 	|
-	|-RVA: 0x225330 Offset: 0x224730 VA: 0x180225330
+	|-RVA: 0x2252B0 Offset: 0x2246B0 VA: 0x1802252B0
 	|-Buffer<ItemSkinDirectory.Skin>..ctor
 	|
-	|-RVA: 0x225350 Offset: 0x224750 VA: 0x180225350
+	|-RVA: 0x2252D0 Offset: 0x2246D0 VA: 0x1802252D0
 	|-Buffer<FourBitNumber>..ctor
 	|
-	|-RVA: 0x225390 Offset: 0x224790 VA: 0x180225390
+	|-RVA: 0x225310 Offset: 0x224710 VA: 0x180225310
 	|-Buffer<SevenBitNumber>..ctor
 	|
-	|-RVA: 0x225460 Offset: 0x224860 VA: 0x180225460
+	|-RVA: 0x2253E0 Offset: 0x2247E0 VA: 0x1802253E0
 	|-Buffer<Option>..ctor
 	|
-	|-RVA: 0x225430 Offset: 0x224830 VA: 0x180225430
+	|-RVA: 0x2253B0 Offset: 0x2247B0 VA: 0x1802253B0
 	|-Buffer<ServerInfo>..ctor
 	|
-	|-RVA: 0x225360 Offset: 0x224760 VA: 0x180225360
+	|-RVA: 0x2252E0 Offset: 0x2246E0 VA: 0x1802252E0
 	|-Buffer<SkinnedMultiMesh.Part>..ctor
 	|
-	|-RVA: 0x225410 Offset: 0x224810 VA: 0x180225410
+	|-RVA: 0x225390 Offset: 0x224790 VA: 0x180225390
 	|-Buffer<InventoryDefId>..ctor
 	|
-	|-RVA: 0x225480 Offset: 0x224880 VA: 0x180225480
+	|-RVA: 0x225400 Offset: 0x224800 VA: 0x180225400
 	|-Buffer<InventoryItemId>..ctor
 	|
-	|-RVA: 0x225340 Offset: 0x224740 VA: 0x180225340
+	|-RVA: 0x2252C0 Offset: 0x2246C0 VA: 0x1802252C0
 	|-Buffer<InventoryItem>..ctor
 	|
-	|-RVA: 0x225440 Offset: 0x224840 VA: 0x180225440
+	|-RVA: 0x2253C0 Offset: 0x2247C0 VA: 0x1802253C0
 	|-Buffer<InventoryRecipe.Ingredient>..ctor
 	|
-	|-RVA: 0x2253F0 Offset: 0x2247F0 VA: 0x1802253F0
+	|-RVA: 0x225370 Offset: 0x224770 VA: 0x180225370
 	|-Buffer<InventoryRecipe>..ctor
 	|
-	|-RVA: 0x225380 Offset: 0x224780 VA: 0x180225380
+	|-RVA: 0x225300 Offset: 0x224700 VA: 0x180225300
 	|-Buffer<Item>..ctor
 	|
-	|-RVA: 0x2253E0 Offset: 0x2247E0 VA: 0x1802253E0
+	|-RVA: 0x225360 Offset: 0x224760 VA: 0x180225360
 	|-Buffer<byte>..ctor
 	|
-	|-RVA: 0x225450 Offset: 0x224850 VA: 0x180225450
+	|-RVA: 0x2253D0 Offset: 0x2247D0 VA: 0x1802253D0
 	|-Buffer<char>..ctor
 	|
-	|-RVA: 0x2253B0 Offset: 0x2247B0 VA: 0x1802253B0
+	|-RVA: 0x225330 Offset: 0x224730 VA: 0x180225330
 	|-Buffer<KeyValuePair<object, int>>..ctor
 	|
-	|-RVA: 0x225400 Offset: 0x224800 VA: 0x180225400
+	|-RVA: 0x225380 Offset: 0x224780 VA: 0x180225380
 	|-Buffer<KeyValuePair<object, long>>..ctor
 	|
-	|-RVA: 0x2253C0 Offset: 0x2247C0 VA: 0x1802253C0
+	|-RVA: 0x225340 Offset: 0x224740 VA: 0x180225340
 	|-Buffer<KeyValuePair<object, object>>..ctor
 	|
-	|-RVA: 0x225490 Offset: 0x224890 VA: 0x180225490
+	|-RVA: 0x225410 Offset: 0x224810 VA: 0x180225410
 	|-Buffer<double>..ctor
 	|
-	|-RVA: 0x225300 Offset: 0x224700 VA: 0x180225300
+	|-RVA: 0x225280 Offset: 0x224680 VA: 0x180225280
 	|-Buffer<int>..ctor
 	|
-	|-RVA: 0x225370 Offset: 0x224770 VA: 0x180225370
+	|-RVA: 0x2252F0 Offset: 0x2246F0 VA: 0x1802252F0
 	|-Buffer<Int32Enum>..ctor
 	|
-	|-RVA: 0x225420 Offset: 0x224820 VA: 0x180225420
+	|-RVA: 0x2253A0 Offset: 0x2247A0 VA: 0x1802253A0
 	|-Buffer<long>..ctor
 	|
-	|-RVA: 0x2254A0 Offset: 0x2248A0 VA: 0x1802254A0
+	|-RVA: 0x225420 Offset: 0x224820 VA: 0x180225420
 	|-Buffer<object>..ctor
 	|
-	|-RVA: 0x225310 Offset: 0x224710 VA: 0x180225310
+	|-RVA: 0x225290 Offset: 0x224690 VA: 0x180225290
 	|-Buffer<uint>..ctor
 	|
-	|-RVA: 0x225320 Offset: 0x224720 VA: 0x180225320
+	|-RVA: 0x2252A0 Offset: 0x2246A0 VA: 0x1802252A0
 	|-Buffer<Resolution>..ctor
 	*/
 
@@ -6977,7 +6977,7 @@ internal struct Buffer<TElement> // TypeDefIndex: 3238
 	internal TElement[] ToArray() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x225200 Offset: 0x224600 VA: 0x180225200
+	|-RVA: 0x225180 Offset: 0x224580 VA: 0x180225180
 	|-Buffer<Debugging.EntityInfo>.ToArray
 	|-Buffer<Demos.DemoInfo>.ToArray
 	|-Buffer<GameStat.Stat>.ToArray
@@ -7012,26 +7012,26 @@ internal struct Buffer<TElement> // TypeDefIndex: 3238
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 3258
 {
 // Namespace: 
-[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 3258
 	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=120 0AA802CD6847EB893FE786B5EA5168B2FDCD7B93 /*Metadata offset 0x53AA37*/; // 0x0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 0C4110BC17D746F018F47B49E0EB0D6590F69939 /*Metadata offset 0x53AAAF*/; // 0x78
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 20733E1283D873EBE47133A95C233E11B76F5F11 /*Metadata offset 0x53ABAF*/; // 0x178
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 21F4CBF8283FF1CAEB4A39316A97FC1D6DF1D35E /*Metadata offset 0x53AFAF*/; // 0x578
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 23DFDCA6F045D4257BF5AC8CB1CF2EFADAFE9B94 /*Metadata offset 0x53B3AF*/; // 0x978
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 30A0358B25B1372DD598BB4B1AC56AD6B8F08A47 /*Metadata offset 0x53B7AF*/; // 0xD78
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 5B5DF5A459E902D96F7DB0FB235A25346CA85C5D /*Metadata offset 0x53BBAF*/; // 0x1178
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 5BE411F1438EAEF33726D855E99011D5FECDDD4E /*Metadata offset 0x53BFAF*/; // 0x1578
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 8F22C9ECE1331718CBD268A9BBFD2F5E451441E3 /*Metadata offset 0x53C3AF*/; // 0x1978
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 A02DD1D8604EA8EC2D2BDA717A93A4EE85F13E53 /*Metadata offset 0x53C4AF*/; // 0x1A78
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 AE2F76ECEF8B08F0BC7EA95DCFE945E1727927C9 /*Metadata offset 0x53C8AF*/; // 0x1E78
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=120 0AA802CD6847EB893FE786B5EA5168B2FDCD7B93 /*Metadata offset 0x53AA4B*/; // 0x0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 0C4110BC17D746F018F47B49E0EB0D6590F69939 /*Metadata offset 0x53AAC3*/; // 0x78
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 20733E1283D873EBE47133A95C233E11B76F5F11 /*Metadata offset 0x53ABC3*/; // 0x178
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 21F4CBF8283FF1CAEB4A39316A97FC1D6DF1D35E /*Metadata offset 0x53AFC3*/; // 0x578
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 23DFDCA6F045D4257BF5AC8CB1CF2EFADAFE9B94 /*Metadata offset 0x53B3C3*/; // 0x978
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 30A0358B25B1372DD598BB4B1AC56AD6B8F08A47 /*Metadata offset 0x53B7C3*/; // 0xD78
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 5B5DF5A459E902D96F7DB0FB235A25346CA85C5D /*Metadata offset 0x53BBC3*/; // 0x1178
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 5BE411F1438EAEF33726D855E99011D5FECDDD4E /*Metadata offset 0x53BFC3*/; // 0x1578
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 8F22C9ECE1331718CBD268A9BBFD2F5E451441E3 /*Metadata offset 0x53C3C3*/; // 0x1978
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 A02DD1D8604EA8EC2D2BDA717A93A4EE85F13E53 /*Metadata offset 0x53C4C3*/; // 0x1A78
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 AE2F76ECEF8B08F0BC7EA95DCFE945E1727927C9 /*Metadata offset 0x53C8C3*/; // 0x1E78
 
 }
 
 public struct BatchQueryJob<CommandT, ResultT> // TypeDefIndex: 3307
 {	// Fields
-	[ReadOnlyAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ReadOnlyAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	internal NativeArray<CommandT> commands; // 0x0
 	internal NativeArray<ResultT> results; // 0x0
 
@@ -7041,7 +7041,7 @@ public struct BatchQueryJob<CommandT, ResultT> // TypeDefIndex: 3307
 	public void .ctor(NativeArray<CommandT> commands, NativeArray<ResultT> results) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FA0B0 Offset: 0x1F94B0 VA: 0x1801FA0B0
+	|-RVA: 0x1FA030 Offset: 0x1F9430 VA: 0x1801FA030
 	|-BatchQueryJob<RaycastCommand, RaycastHit>..ctor
 	*/
 
@@ -7049,13 +7049,13 @@ public struct BatchQueryJob<CommandT, ResultT> // TypeDefIndex: 3307
 
 internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private UnityAction<T1> Delegate; // 0x0
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	protected void add_Delegate(UnityAction<T1> value) { }
 	/* GenericInstMethod :
@@ -7071,7 +7071,7 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	|-InvokableCall<Vector2>.add_Delegate
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	protected void remove_Delegate(UnityAction<T1> value) { }
 	/* GenericInstMethod :
@@ -7109,10 +7109,10 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	|-RVA: 0x17ACB10 Offset: 0x17AB110 VA: 0x1817ACB10
 	|-InvokableCall<float>..ctor
 	|
-	|-RVA: 0x19BD9F0 Offset: 0x19BBFF0 VA: 0x1819BD9F0
+	|-RVA: 0x19BD9B0 Offset: 0x19BBFB0 VA: 0x1819BD9B0
 	|-InvokableCall<Color>..ctor
 	|
-	|-RVA: 0x19BD8C0 Offset: 0x19BBEC0 VA: 0x1819BD8C0
+	|-RVA: 0x19BD880 Offset: 0x19BBE80 VA: 0x1819BD880
 	|-InvokableCall<Vector2>..ctor
 	*/
 
@@ -7153,10 +7153,10 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	|-RVA: 0x17ABC60 Offset: 0x17AA260 VA: 0x1817ABC60
 	|-InvokableCall<float>.Invoke
 	|
-	|-RVA: 0x19BD540 Offset: 0x19BBB40 VA: 0x1819BD540
+	|-RVA: 0x19BD500 Offset: 0x19BBB00 VA: 0x1819BD500
 	|-InvokableCall<Color>.Invoke
 	|
-	|-RVA: 0x19BD690 Offset: 0x19BBC90 VA: 0x1819BD690
+	|-RVA: 0x19BD650 Offset: 0x19BBC50 VA: 0x1819BD650
 	|-InvokableCall<Vector2>.Invoke
 	*/
 
@@ -7180,10 +7180,10 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	|-RVA: 0x17ABDA0 Offset: 0x17AA3A0 VA: 0x1817ABDA0
 	|-InvokableCall<float>.Invoke
 	|
-	|-RVA: 0x19BD7E0 Offset: 0x19BBDE0 VA: 0x1819BD7E0
+	|-RVA: 0x19BD7A0 Offset: 0x19BBDA0 VA: 0x1819BD7A0
 	|-InvokableCall<Color>.Invoke
 	|
-	|-RVA: 0x19BD850 Offset: 0x19BBE50 VA: 0x1819BD850
+	|-RVA: 0x19BD810 Offset: 0x19BBE10 VA: 0x1819BD810
 	|-InvokableCall<Vector2>.Invoke
 	*/
 
@@ -7232,30 +7232,30 @@ public sealed class UnityAction<T0> : MulticastDelegate // TypeDefIndex: 3641
 	public virtual void Invoke(T0 arg0) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C8870 Offset: 0x19C6E70 VA: 0x1819C8870
+	|-RVA: 0x19C8830 Offset: 0x19C6E30 VA: 0x1819C8830
 	|-UnityAction<Option>.Invoke
 	|
-	|-RVA: 0x19C8310 Offset: 0x19C6910 VA: 0x1819C8310
+	|-RVA: 0x19C82D0 Offset: 0x19C68D0 VA: 0x1819C82D0
 	|-UnityAction<bool>.Invoke
 	|
-	|-RVA: 0x19C8120 Offset: 0x19C6720 VA: 0x1819C8120
+	|-RVA: 0x19C80E0 Offset: 0x19C66E0 VA: 0x1819C80E0
 	|-UnityAction<int>.Invoke
 	|-UnityAction<Int32Enum>.Invoke
 	|
-	|-RVA: 0x19C7E00 Offset: 0x19C6400 VA: 0x1819C7E00
+	|-RVA: 0x19C7DC0 Offset: 0x19C63C0 VA: 0x1819C7DC0
 	|-UnityAction<object>.Invoke
 	|-UnityAction<Component>.Invoke
 	|
-	|-RVA: 0x19C7840 Offset: 0x19C5E40 VA: 0x1819C7840
+	|-RVA: 0x19C7800 Offset: 0x19C5E00 VA: 0x1819C7800
 	|-UnityAction<float>.Invoke
 	|
 	|-RVA: 0x12A5590 Offset: 0x12A3B90 VA: 0x1812A5590
 	|-UnityAction<Color>.Invoke
 	|
-	|-RVA: 0x19C7B20 Offset: 0x19C6120 VA: 0x1819C7B20
+	|-RVA: 0x19C7AE0 Offset: 0x19C60E0 VA: 0x1819C7AE0
 	|-UnityAction<Scene>.Invoke
 	|
-	|-RVA: 0x19C8590 Offset: 0x19C6B90 VA: 0x1819C8590
+	|-RVA: 0x19C8550 Offset: 0x19C6B50 VA: 0x1819C8550
 	|-UnityAction<Vector2>.Invoke
 	*/
 
@@ -7263,31 +7263,31 @@ public sealed class UnityAction<T0> : MulticastDelegate // TypeDefIndex: 3641
 	public virtual IAsyncResult BeginInvoke(T0 arg0, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C74C0 Offset: 0x19C5AC0 VA: 0x1819C74C0
+	|-RVA: 0x19C7480 Offset: 0x19C5A80 VA: 0x1819C7480
 	|-UnityAction<Option>.BeginInvoke
 	|
-	|-RVA: 0x19C75C0 Offset: 0x19C5BC0 VA: 0x1819C75C0
+	|-RVA: 0x19C7580 Offset: 0x19C5B80 VA: 0x1819C7580
 	|-UnityAction<bool>.BeginInvoke
 	|
-	|-RVA: 0x19C7540 Offset: 0x19C5B40 VA: 0x1819C7540
+	|-RVA: 0x19C7500 Offset: 0x19C5B00 VA: 0x1819C7500
 	|-UnityAction<int>.BeginInvoke
 	|
-	|-RVA: 0x19C7440 Offset: 0x19C5A40 VA: 0x1819C7440
+	|-RVA: 0x19C7400 Offset: 0x19C5A00 VA: 0x1819C7400
 	|-UnityAction<Int32Enum>.BeginInvoke
 	|
 	|-RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380
 	|-UnityAction<object>.BeginInvoke
 	|
-	|-RVA: 0x19C7740 Offset: 0x19C5D40 VA: 0x1819C7740
+	|-RVA: 0x19C7700 Offset: 0x19C5D00 VA: 0x1819C7700
 	|-UnityAction<float>.BeginInvoke
 	|
-	|-RVA: 0x19C77C0 Offset: 0x19C5DC0 VA: 0x1819C77C0
+	|-RVA: 0x19C7780 Offset: 0x19C5D80 VA: 0x1819C7780
 	|-UnityAction<Color>.BeginInvoke
 	|
-	|-RVA: 0x19C7640 Offset: 0x19C5C40 VA: 0x1819C7640
+	|-RVA: 0x19C7600 Offset: 0x19C5C00 VA: 0x1819C7600
 	|-UnityAction<Scene>.BeginInvoke
 	|
-	|-RVA: 0x19C76C0 Offset: 0x19C5CC0 VA: 0x1819C76C0
+	|-RVA: 0x19C7680 Offset: 0x19C5C80 VA: 0x1819C7680
 	|-UnityAction<Vector2>.BeginInvoke
 	*/
 
@@ -7315,12 +7315,12 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 
 	// Methods
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CBD10 Offset: 0x19CA310 VA: 0x1819CBD10
+	|-RVA: 0x19CBCD0 Offset: 0x19CA2D0 VA: 0x1819CBCD0
 	|-UnityEvent<Brush>..ctor
 	|-UnityEvent<Option>..ctor
 	|-UnityEvent<bool>..ctor
@@ -7340,7 +7340,7 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	public void AddListener(UnityAction<T0> call) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C9EA0 Offset: 0x19C84A0 VA: 0x1819C9EA0
+	|-RVA: 0x19C9E60 Offset: 0x19C8460 VA: 0x1819C9E60
 	|-UnityEvent<Option>.AddListener
 	|-UnityEvent<bool>.AddListener
 	|-UnityEvent<int>.AddListener
@@ -7357,7 +7357,7 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	public void RemoveListener(UnityAction<T0> call) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CBCC0 Offset: 0x19CA2C0 VA: 0x1819CBCC0
+	|-RVA: 0x19CBC80 Offset: 0x19CA280 VA: 0x1819CBC80
 	|-UnityEvent<Option>.RemoveListener
 	|-UnityEvent<bool>.RemoveListener
 	|-UnityEvent<int>.RemoveListener
@@ -7373,33 +7373,33 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	protected override MethodInfo FindMethod_Impl(string name, object targetObj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CA540 Offset: 0x19C8B40 VA: 0x1819CA540
+	|-RVA: 0x19CA500 Offset: 0x19C8B00 VA: 0x1819CA500
 	|-UnityEvent<Brush>.FindMethod_Impl
 	|-UnityEvent<object>.FindMethod_Impl
 	|-UnityEvent<string>.FindMethod_Impl
 	|-UnityEvent<BaseEventData>.FindMethod_Impl
 	|-UnityEvent<MessageEventArgs>.FindMethod_Impl
 	|
-	|-RVA: 0x19C9EE0 Offset: 0x19C84E0 VA: 0x1819C9EE0
+	|-RVA: 0x19C9EA0 Offset: 0x19C84A0 VA: 0x1819C9EA0
 	|-UnityEvent<Option>.FindMethod_Impl
 	|
-	|-RVA: 0x19CA210 Offset: 0x19C8810 VA: 0x1819CA210
+	|-RVA: 0x19CA1D0 Offset: 0x19C87D0 VA: 0x1819CA1D0
 	|-UnityEvent<bool>.FindMethod_Impl
 	|
-	|-RVA: 0x19CA100 Offset: 0x19C8700 VA: 0x1819CA100
+	|-RVA: 0x19CA0C0 Offset: 0x19C86C0 VA: 0x1819CA0C0
 	|-UnityEvent<int>.FindMethod_Impl
 	|
-	|-RVA: 0x19CA430 Offset: 0x19C8A30 VA: 0x1819CA430
+	|-RVA: 0x19CA3F0 Offset: 0x19C89F0 VA: 0x1819CA3F0
 	|-UnityEvent<Int32Enum>.FindMethod_Impl
 	|-UnityEvent<TouchScreenKeyboard.Status>.FindMethod_Impl
 	|
-	|-RVA: 0x19C9FF0 Offset: 0x19C85F0 VA: 0x1819C9FF0
+	|-RVA: 0x19C9FB0 Offset: 0x19C85B0 VA: 0x1819C9FB0
 	|-UnityEvent<float>.FindMethod_Impl
 	|
-	|-RVA: 0x19CA320 Offset: 0x19C8920 VA: 0x1819CA320
+	|-RVA: 0x19CA2E0 Offset: 0x19C88E0 VA: 0x1819CA2E0
 	|-UnityEvent<Color>.FindMethod_Impl
 	|
-	|-RVA: 0x19CA650 Offset: 0x19C8C50 VA: 0x1819CA650
+	|-RVA: 0x19CA610 Offset: 0x19C8C10 VA: 0x1819CA610
 	|-UnityEvent<Vector2>.FindMethod_Impl
 	*/
 
@@ -7407,7 +7407,7 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CA760 Offset: 0x19C8D60 VA: 0x1819CA760
+	|-RVA: 0x19CA720 Offset: 0x19C8D20 VA: 0x1819CA720
 	|-UnityEvent<Brush>.GetDelegate
 	|-UnityEvent<Option>.GetDelegate
 	|-UnityEvent<bool>.GetDelegate
@@ -7427,7 +7427,7 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	private static BaseInvokableCall GetDelegate(UnityAction<T0> action) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CA7E0 Offset: 0x19C8DE0 VA: 0x1819CA7E0
+	|-RVA: 0x19CA7A0 Offset: 0x19C8DA0 VA: 0x1819CA7A0
 	|-UnityEvent<Option>.GetDelegate
 	|-UnityEvent<bool>.GetDelegate
 	|-UnityEvent<int>.GetDelegate
@@ -7442,33 +7442,33 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	public void Invoke(T0 arg0) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CA8B0 Offset: 0x19C8EB0 VA: 0x1819CA8B0
+	|-RVA: 0x19CA870 Offset: 0x19C8E70 VA: 0x1819CA870
 	|-UnityEvent<Brush>.Invoke
 	|-UnityEvent<object>.Invoke
 	|-UnityEvent<string>.Invoke
 	|-UnityEvent<BaseEventData>.Invoke
 	|-UnityEvent<MessageEventArgs>.Invoke
 	|
-	|-RVA: 0x19CB280 Offset: 0x19C9880 VA: 0x1819CB280
+	|-RVA: 0x19CB240 Offset: 0x19C9840 VA: 0x1819CB240
 	|-UnityEvent<Option>.Invoke
 	|
-	|-RVA: 0x19CB540 Offset: 0x19C9B40 VA: 0x1819CB540
+	|-RVA: 0x19CB500 Offset: 0x19C9B00 VA: 0x1819CB500
 	|-UnityEvent<bool>.Invoke
 	|
-	|-RVA: 0x19CB7C0 Offset: 0x19C9DC0 VA: 0x1819CB7C0
+	|-RVA: 0x19CB780 Offset: 0x19C9D80 VA: 0x1819CB780
 	|-UnityEvent<int>.Invoke
 	|
-	|-RVA: 0x19CAAE0 Offset: 0x19C90E0 VA: 0x1819CAAE0
+	|-RVA: 0x19CAAA0 Offset: 0x19C90A0 VA: 0x1819CAAA0
 	|-UnityEvent<Int32Enum>.Invoke
 	|-UnityEvent<TouchScreenKeyboard.Status>.Invoke
 	|
-	|-RVA: 0x19CB000 Offset: 0x19C9600 VA: 0x1819CB000
+	|-RVA: 0x19CAFC0 Offset: 0x19C95C0 VA: 0x1819CAFC0
 	|-UnityEvent<float>.Invoke
 	|
-	|-RVA: 0x19CAD60 Offset: 0x19C9360 VA: 0x1819CAD60
+	|-RVA: 0x19CAD20 Offset: 0x19C9320 VA: 0x1819CAD20
 	|-UnityEvent<Color>.Invoke
 	|
-	|-RVA: 0x19CBA40 Offset: 0x19CA040 VA: 0x1819CBA40
+	|-RVA: 0x19CBA00 Offset: 0x19CA000 VA: 0x1819CBA00
 	|-UnityEvent<Vector2>.Invoke
 	*/
 
@@ -7497,17 +7497,17 @@ public sealed class UnityAction<T0, T1> : MulticastDelegate // TypeDefIndex: 364
 	|-RVA: 0x1111140 Offset: 0x110F740 VA: 0x181111140
 	|-UnityAction<object, object>.Invoke
 	|
-	|-RVA: 0x19C8E50 Offset: 0x19C7450 VA: 0x1819C8E50
+	|-RVA: 0x19C8E10 Offset: 0x19C7410 VA: 0x1819C8E10
 	|-UnityAction<ulong, object>.Invoke
 	|
-	|-RVA: 0x19C9790 Offset: 0x19C7D90 VA: 0x1819C9790
+	|-RVA: 0x19C9750 Offset: 0x19C7D50 VA: 0x1819C9750
 	|-UnityAction<Scene, Int32Enum>.Invoke
 	|-UnityAction<Scene, LoadSceneMode>.Invoke
 	|
-	|-RVA: 0x19C9180 Offset: 0x19C7780 VA: 0x1819C9180
+	|-RVA: 0x19C9140 Offset: 0x19C7740 VA: 0x1819C9140
 	|-UnityAction<Scene, Scene>.Invoke
 	|
-	|-RVA: 0x19C9490 Offset: 0x19C7A90 VA: 0x1819C9490
+	|-RVA: 0x19C9450 Offset: 0x19C7A50 VA: 0x1819C9450
 	|-UnityAction<Vector2, object>.Invoke
 	*/
 
@@ -7518,16 +7518,16 @@ public sealed class UnityAction<T0, T1> : MulticastDelegate // TypeDefIndex: 364
 	|-RVA: 0xAE4580 Offset: 0xAE2B80 VA: 0x180AE4580
 	|-UnityAction<object, object>.BeginInvoke
 	|
-	|-RVA: 0x19C8D30 Offset: 0x19C7330 VA: 0x1819C8D30
+	|-RVA: 0x19C8CF0 Offset: 0x19C72F0 VA: 0x1819C8CF0
 	|-UnityAction<ulong, object>.BeginInvoke
 	|
-	|-RVA: 0x19C8CA0 Offset: 0x19C72A0 VA: 0x1819C8CA0
+	|-RVA: 0x19C8C60 Offset: 0x19C7260 VA: 0x1819C8C60
 	|-UnityAction<Scene, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x19C8DC0 Offset: 0x19C73C0 VA: 0x1819C8DC0
+	|-RVA: 0x19C8D80 Offset: 0x19C7380 VA: 0x1819C8D80
 	|-UnityAction<Scene, Scene>.BeginInvoke
 	|
-	|-RVA: 0x19C8C10 Offset: 0x19C7210 VA: 0x1819C8C10
+	|-RVA: 0x19C8BD0 Offset: 0x19C71D0 VA: 0x1819C8BD0
 	|-UnityAction<Vector2, object>.BeginInvoke
 	*/
 
@@ -7551,12 +7551,12 @@ public abstract class UnityEvent<T0, T1> : UnityEventBase // TypeDefIndex: 3644
 
 	// Methods
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CBD10 Offset: 0x19CA310 VA: 0x1819CBD10
+	|-RVA: 0x19CBCD0 Offset: 0x19CA2D0 VA: 0x1819CBCD0
 	|-UnityEvent<object, object>..ctor
 	|-UnityEvent<ulong, object>..ctor
 	|-UnityEvent<ulong, string>..ctor
@@ -7568,14 +7568,14 @@ public abstract class UnityEvent<T0, T1> : UnityEventBase // TypeDefIndex: 3644
 	protected override MethodInfo FindMethod_Impl(string name, object targetObj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CBD40 Offset: 0x19CA340 VA: 0x1819CBD40
+	|-RVA: 0x19CBD00 Offset: 0x19CA300 VA: 0x1819CBD00
 	|-UnityEvent<object, object>.FindMethod_Impl
 	|
-	|-RVA: 0x19CC060 Offset: 0x19CA660 VA: 0x1819CC060
+	|-RVA: 0x19CC020 Offset: 0x19CA620 VA: 0x1819CC020
 	|-UnityEvent<ulong, object>.FindMethod_Impl
 	|-UnityEvent<ulong, string>.FindMethod_Impl
 	|
-	|-RVA: 0x19CBED0 Offset: 0x19CA4D0 VA: 0x1819CBED0
+	|-RVA: 0x19CBE90 Offset: 0x19CA490 VA: 0x1819CBE90
 	|-UnityEvent<Vector2, Brush>.FindMethod_Impl
 	|-UnityEvent<Vector2, object>.FindMethod_Impl
 	*/
@@ -7584,7 +7584,7 @@ public abstract class UnityEvent<T0, T1> : UnityEventBase // TypeDefIndex: 3644
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CC1F0 Offset: 0x19CA7F0 VA: 0x1819CC1F0
+	|-RVA: 0x19CC1B0 Offset: 0x19CA7B0 VA: 0x1819CC1B0
 	|-UnityEvent<object, object>.GetDelegate
 	|-UnityEvent<ulong, object>.GetDelegate
 	|-UnityEvent<ulong, string>.GetDelegate
@@ -7596,14 +7596,14 @@ public abstract class UnityEvent<T0, T1> : UnityEventBase // TypeDefIndex: 3644
 	public void Invoke(T0 arg0, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CC870 Offset: 0x19CAE70 VA: 0x1819CC870
+	|-RVA: 0x19CC830 Offset: 0x19CAE30 VA: 0x1819CC830
 	|-UnityEvent<object, object>.Invoke
 	|
-	|-RVA: 0x19CC270 Offset: 0x19CA870 VA: 0x1819CC270
+	|-RVA: 0x19CC230 Offset: 0x19CA830 VA: 0x1819CC230
 	|-UnityEvent<ulong, object>.Invoke
 	|-UnityEvent<ulong, string>.Invoke
 	|
-	|-RVA: 0x19CC570 Offset: 0x19CAB70 VA: 0x1819CC570
+	|-RVA: 0x19CC530 Offset: 0x19CAB30 VA: 0x1819CC530
 	|-UnityEvent<Vector2, Brush>.Invoke
 	|-UnityEvent<Vector2, object>.Invoke
 	*/
@@ -7629,7 +7629,7 @@ public sealed class UnityAction<T0, T1, T2> : MulticastDelegate // TypeDefIndex:
 	|-RVA: 0x1349BF0 Offset: 0x13481F0 VA: 0x181349BF0
 	|-UnityAction<object, int, int>.Invoke
 	|
-	|-RVA: 0x19C9B40 Offset: 0x19C8140 VA: 0x1819C9B40
+	|-RVA: 0x19C9B00 Offset: 0x19C8100 VA: 0x1819C9B00
 	|-UnityAction<object, object, object>.Invoke
 	*/
 
@@ -7637,7 +7637,7 @@ public sealed class UnityAction<T0, T1, T2> : MulticastDelegate // TypeDefIndex:
 	public virtual IAsyncResult BeginInvoke(T0 arg0, T1 arg1, T2 arg2, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19C9AA0 Offset: 0x19C80A0 VA: 0x1819C9AA0
+	|-RVA: 0x19C9A60 Offset: 0x19C8060 VA: 0x1819C9A60
 	|-UnityAction<object, int, int>.BeginInvoke
 	|
 	|-RVA: 0x130F9A0 Offset: 0x130DFA0 VA: 0x18130F9A0
@@ -7661,12 +7661,12 @@ public abstract class UnityEvent<T0, T1, T2> : UnityEventBase // TypeDefIndex: 3
 
 	// Methods
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CBD10 Offset: 0x19CA310 VA: 0x1819CBD10
+	|-RVA: 0x19CBCD0 Offset: 0x19CA2D0 VA: 0x1819CBCD0
 	|-UnityEvent<object, int, int>..ctor
 	|-UnityEvent<object, object, object>..ctor
 	|-UnityEvent<string, int, int>..ctor
@@ -7676,11 +7676,11 @@ public abstract class UnityEvent<T0, T1, T2> : UnityEventBase // TypeDefIndex: 3
 	protected override MethodInfo FindMethod_Impl(string name, object targetObj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CCB10 Offset: 0x19CB110 VA: 0x1819CCB10
+	|-RVA: 0x19CCAD0 Offset: 0x19CB0D0 VA: 0x1819CCAD0
 	|-UnityEvent<object, int, int>.FindMethod_Impl
 	|-UnityEvent<string, int, int>.FindMethod_Impl
 	|
-	|-RVA: 0x19CCD10 Offset: 0x19CB310 VA: 0x1819CCD10
+	|-RVA: 0x19CCCD0 Offset: 0x19CB2D0 VA: 0x1819CCCD0
 	|-UnityEvent<object, object, object>.FindMethod_Impl
 	*/
 
@@ -7688,7 +7688,7 @@ public abstract class UnityEvent<T0, T1, T2> : UnityEventBase // TypeDefIndex: 3
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CA760 Offset: 0x19C8D60 VA: 0x1819CA760
+	|-RVA: 0x19CA720 Offset: 0x19C8D20 VA: 0x1819CA720
 	|-UnityEvent<object, int, int>.GetDelegate
 	|-UnityEvent<object, object, object>.GetDelegate
 	|-UnityEvent<string, int, int>.GetDelegate
@@ -7698,11 +7698,11 @@ public abstract class UnityEvent<T0, T1, T2> : UnityEventBase // TypeDefIndex: 3
 	public void Invoke(T0 arg0, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CD230 Offset: 0x19CB830 VA: 0x1819CD230
+	|-RVA: 0x19CD1F0 Offset: 0x19CB7F0 VA: 0x1819CD1F0
 	|-UnityEvent<object, int, int>.Invoke
 	|-UnityEvent<string, int, int>.Invoke
 	|
-	|-RVA: 0x19CCF10 Offset: 0x19CB510 VA: 0x1819CCF10
+	|-RVA: 0x19CCED0 Offset: 0x19CB4D0 VA: 0x1819CCED0
 	|-UnityEvent<object, object, object>.Invoke
 	*/
 
@@ -7751,12 +7751,12 @@ public abstract class UnityEvent<T0, T1, T2, T3> : UnityEventBase // TypeDefInde
 
 	// Methods
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CBD10 Offset: 0x19CA310 VA: 0x1819CBD10
+	|-RVA: 0x19CBCD0 Offset: 0x19CA2D0 VA: 0x1819CBCD0
 	|-UnityEvent<object, object, object, object>..ctor
 	*/
 
@@ -7764,7 +7764,7 @@ public abstract class UnityEvent<T0, T1, T2, T3> : UnityEventBase // TypeDefInde
 	protected override MethodInfo FindMethod_Impl(string name, object targetObj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CD5E0 Offset: 0x19CBBE0 VA: 0x1819CD5E0
+	|-RVA: 0x19CD5A0 Offset: 0x19CBBA0 VA: 0x1819CD5A0
 	|-UnityEvent<object, object, object, object>.FindMethod_Impl
 	*/
 
@@ -7772,7 +7772,7 @@ public abstract class UnityEvent<T0, T1, T2, T3> : UnityEventBase // TypeDefInde
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CD850 Offset: 0x19CBE50 VA: 0x1819CD850
+	|-RVA: 0x19CD810 Offset: 0x19CBE10 VA: 0x1819CD810
 	|-UnityEvent<object, object, object, object>.GetDelegate
 	*/
 
@@ -7870,7 +7870,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x17886F0 Offset: 0x1786CF0 VA: 0x1817886F0
 	|-RBTree<int>.InitTree
 	|
-	|-RVA: 0x20C96F0 Offset: 0x20C7CF0 VA: 0x1820C96F0
+	|-RVA: 0x20C9530 Offset: 0x20C7B30 VA: 0x1820C9530
 	|-RBTree<object>.InitTree
 	*/
 
@@ -7890,7 +7890,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x1786A60 Offset: 0x1785060 VA: 0x181786A60
 	|-RBTree<int>.AllocPage
 	|
-	|-RVA: 0x20C8330 Offset: 0x20C6930 VA: 0x1820C8330
+	|-RVA: 0x20C8170 Offset: 0x20C6770 VA: 0x1820C8170
 	|-RBTree<object>.AllocPage
 	*/
 
@@ -7928,7 +7928,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x1787840 Offset: 0x1785E40 VA: 0x181787840
 	|-RBTree<int>.FreeNode
 	|
-	|-RVA: 0x20C8B20 Offset: 0x20C7120 VA: 0x1820C8B20
+	|-RVA: 0x20C8960 Offset: 0x20C6F60 VA: 0x1820C8960
 	|-RBTree<object>.FreeNode
 	*/
 
@@ -7939,7 +7939,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x1787DD0 Offset: 0x17863D0 VA: 0x181787DD0
 	|-RBTree<int>.GetIndexOfPageWithFreeSlot
 	|
-	|-RVA: 0x20C8E90 Offset: 0x20C7490 VA: 0x1820C8E90
+	|-RVA: 0x20C8CD0 Offset: 0x20C72D0 VA: 0x1820C8CD0
 	|-RBTree<object>.GetIndexOfPageWithFreeSlot
 	*/
 
@@ -7969,7 +7969,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x1788040 Offset: 0x1786640 VA: 0x181788040
 	|-RBTree<int>.GetNewNode
 	|
-	|-RVA: 0x20C9090 Offset: 0x20C7690 VA: 0x1820C9090
+	|-RVA: 0x20C8ED0 Offset: 0x20C74D0 VA: 0x1820C8ED0
 	|-RBTree<object>.GetNewNode
 	*/
 
@@ -7989,7 +7989,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178C290 Offset: 0x178A890 VA: 0x18178C290
 	|-RBTree<int>.Successor
 	|
-	|-RVA: 0x20CD000 Offset: 0x20CB600 VA: 0x1820CD000
+	|-RVA: 0x20CCE40 Offset: 0x20CB440 VA: 0x1820CCE40
 	|-RBTree<object>.Successor
 	*/
 
@@ -8009,7 +8009,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x1788A20 Offset: 0x1787020 VA: 0x181788A20
 	|-RBTree<int>.LeftRotate
 	|
-	|-RVA: 0x20C99F0 Offset: 0x20C7FF0 VA: 0x1820C99F0
+	|-RVA: 0x20C9830 Offset: 0x20C7E30 VA: 0x1820C9830
 	|-RBTree<object>.LeftRotate
 	*/
 
@@ -8020,7 +8020,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178B8D0 Offset: 0x1789ED0 VA: 0x18178B8D0
 	|-RBTree<int>.RightRotate
 	|
-	|-RVA: 0x20CC630 Offset: 0x20CAC30 VA: 0x1820CC630
+	|-RVA: 0x20CC470 Offset: 0x20CAA70 VA: 0x1820CC470
 	|-RBTree<object>.RightRotate
 	*/
 
@@ -8031,7 +8031,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178A7D0 Offset: 0x1788DD0 VA: 0x18178A7D0
 	|-RBTree<int>.RBInsert
 	|
-	|-RVA: 0x20CB560 Offset: 0x20C9B60 VA: 0x1820CB560
+	|-RVA: 0x20CB3A0 Offset: 0x20C99A0 VA: 0x1820CB3A0
 	|-RBTree<object>.RBInsert
 	*/
 
@@ -8042,7 +8042,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178C4F0 Offset: 0x178AAF0 VA: 0x18178C4F0
 	|-RBTree<int>.UpdateNodeKey
 	|
-	|-RVA: 0x20CD160 Offset: 0x20CB760 VA: 0x1820CD160
+	|-RVA: 0x20CCFA0 Offset: 0x20CB5A0 VA: 0x1820CCFA0
 	|-RBTree<object>.UpdateNodeKey
 	*/
 
@@ -8053,7 +8053,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x1787790 Offset: 0x1785D90 VA: 0x181787790
 	|-RBTree<int>.DeleteByIndex
 	|
-	|-RVA: 0x20C8A70 Offset: 0x20C7070 VA: 0x1820C8A70
+	|-RVA: 0x20C88B0 Offset: 0x20C6EB0 VA: 0x1820C88B0
 	|-RBTree<object>.DeleteByIndex
 	*/
 
@@ -8074,7 +8074,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x1789B10 Offset: 0x1788110 VA: 0x181789B10
 	|-RBTree<int>.RBDeleteX
 	|
-	|-RVA: 0x20CA8E0 Offset: 0x20C8EE0 VA: 0x1820CA8E0
+	|-RVA: 0x20CA720 Offset: 0x20C8D20 VA: 0x1820CA720
 	|-RBTree<object>.RBDeleteX
 	*/
 
@@ -8085,7 +8085,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x1789240 Offset: 0x1787840 VA: 0x181789240
 	|-RBTree<int>.RBDeleteFixup
 	|
-	|-RVA: 0x20CA010 Offset: 0x20C8610 VA: 0x1820CA010
+	|-RVA: 0x20C9E50 Offset: 0x20C8450 VA: 0x1820C9E50
 	|-RBTree<object>.RBDeleteFixup
 	*/
 
@@ -8096,7 +8096,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178BE00 Offset: 0x178A400 VA: 0x18178BE00
 	|-RBTree<int>.SearchSubTree
 	|
-	|-RVA: 0x20CCB60 Offset: 0x20CB160 VA: 0x1820CCB60
+	|-RVA: 0x20CC9A0 Offset: 0x20CAFA0 VA: 0x1820CC9A0
 	|-RBTree<object>.SearchSubTree
 	*/
 
@@ -8117,7 +8117,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x17883C0 Offset: 0x17869C0 VA: 0x1817883C0
 	|-RBTree<int>.GetNodeByKey
 	|
-	|-RVA: 0x20C9440 Offset: 0x20C7A40 VA: 0x1820C9440
+	|-RVA: 0x20C9280 Offset: 0x20C7880 VA: 0x1820C9280
 	|-RBTree<object>.GetNodeByKey
 	*/
 
@@ -8137,7 +8137,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x1787C80 Offset: 0x1786280 VA: 0x181787C80
 	|-RBTree<int>.GetIndexByNode
 	|
-	|-RVA: 0x20C8D40 Offset: 0x20C7340 VA: 0x1820C8D40
+	|-RVA: 0x20C8B80 Offset: 0x20C7180 VA: 0x1820C8B80
 	|-RBTree<object>.GetIndexByNode
 	*/
 
@@ -8175,7 +8175,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x17882E0 Offset: 0x17868E0 VA: 0x1817882E0
 	|-RBTree<int>.GetNodeByIndex
 	|
-	|-RVA: 0x20C9340 Offset: 0x20C7940 VA: 0x1820C9340
+	|-RVA: 0x20C9180 Offset: 0x20C7780 VA: 0x1820C9180
 	|-RBTree<object>.GetNodeByIndex
 	*/
 
@@ -8220,7 +8220,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	public IEnumerator GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20C8CC0 Offset: 0x20C72C0 VA: 0x1820C8CC0
+	|-RVA: 0x20C8B00 Offset: 0x20C7100 VA: 0x1820C8B00
 	|-RBTree<DataRow>.GetEnumerator
 	|-RBTree<object>.GetEnumerator
 	|
@@ -8232,7 +8232,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	public int IndexOf(int nodeId, K item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20C95F0 Offset: 0x20C7BF0 VA: 0x1820C95F0
+	|-RVA: 0x20C9430 Offset: 0x20C7A30 VA: 0x1820C9430
 	|-RBTree<DataRow>.IndexOf
 	|-RBTree<object>.IndexOf
 	|
@@ -8257,7 +8257,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x17888E0 Offset: 0x1786EE0 VA: 0x1817888E0
 	|-RBTree<int>.InsertAt
 	|
-	|-RVA: 0x20C98E0 Offset: 0x20C7EE0 VA: 0x1820C98E0
+	|-RVA: 0x20C9720 Offset: 0x20C7D20 VA: 0x1820C9720
 	|-RBTree<object>.InsertAt
 	*/
 
@@ -8285,7 +8285,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	public void CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20C86A0 Offset: 0x20C6CA0 VA: 0x1820C86A0
+	|-RVA: 0x20C84E0 Offset: 0x20C6AE0 VA: 0x1820C84E0
 	|-RBTree<DataRow>.CopyTo
 	|-RBTree<object>.CopyTo
 	|
@@ -8297,7 +8297,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	public void CopyTo(K[] array, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20C8840 Offset: 0x20C6E40 VA: 0x1820C8840
+	|-RVA: 0x20C8680 Offset: 0x20C6C80 VA: 0x1820C8680
 	|-RBTree<DataRow>.CopyTo
 	|-RBTree<object>.CopyTo
 	|
@@ -8312,7 +8312,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178C140 Offset: 0x178A740 VA: 0x18178C140
 	|-RBTree<int>.SetRight
 	|
-	|-RVA: 0x20CCEB0 Offset: 0x20CB4B0 VA: 0x1820CCEB0
+	|-RVA: 0x20CCCF0 Offset: 0x20CB2F0 VA: 0x1820CCCF0
 	|-RBTree<object>.SetRight
 	*/
 
@@ -8323,7 +8323,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178BFF0 Offset: 0x178A5F0 VA: 0x18178BFF0
 	|-RBTree<int>.SetLeft
 	|
-	|-RVA: 0x20CCD60 Offset: 0x20CB360 VA: 0x1820CCD60
+	|-RVA: 0x20CCBA0 Offset: 0x20CB1A0 VA: 0x1820CCBA0
 	|-RBTree<object>.SetLeft
 	*/
 
@@ -8334,7 +8334,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178C0D0 Offset: 0x178A6D0 VA: 0x18178C0D0
 	|-RBTree<int>.SetParent
 	|
-	|-RVA: 0x20CCE40 Offset: 0x20CB440 VA: 0x1820CCE40
+	|-RVA: 0x20CCC80 Offset: 0x20CB280 VA: 0x1820CCC80
 	|-RBTree<object>.SetParent
 	*/
 
@@ -8345,7 +8345,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178BF10 Offset: 0x178A510 VA: 0x18178BF10
 	|-RBTree<int>.SetColor
 	|
-	|-RVA: 0x20CCC70 Offset: 0x20CB270 VA: 0x1820CCC70
+	|-RVA: 0x20CCAB0 Offset: 0x20CB0B0 VA: 0x1820CCAB0
 	|-RBTree<object>.SetColor
 	*/
 
@@ -8356,7 +8356,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178BF80 Offset: 0x178A580 VA: 0x18178BF80
 	|-RBTree<int>.SetKey
 	|
-	|-RVA: 0x20CCCE0 Offset: 0x20CB2E0 VA: 0x1820CCCE0
+	|-RVA: 0x20CCB20 Offset: 0x20CB120 VA: 0x1820CCB20
 	|-RBTree<object>.SetKey
 	*/
 
@@ -8367,7 +8367,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178C060 Offset: 0x178A660 VA: 0x18178C060
 	|-RBTree<int>.SetNext
 	|
-	|-RVA: 0x20CCDD0 Offset: 0x20CB3D0 VA: 0x1820CCDD0
+	|-RVA: 0x20CCC10 Offset: 0x20CB210 VA: 0x1820CCC10
 	|-RBTree<object>.SetNext
 	*/
 
@@ -8378,7 +8378,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178C1B0 Offset: 0x178A7B0 VA: 0x18178C1B0
 	|-RBTree<int>.SetSubTreeSize
 	|
-	|-RVA: 0x20CCF20 Offset: 0x20CB520 VA: 0x1820CCF20
+	|-RVA: 0x20CCD60 Offset: 0x20CB360 VA: 0x1820CCD60
 	|-RBTree<object>.SetSubTreeSize
 	*/
 
@@ -8389,7 +8389,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x17884F0 Offset: 0x1786AF0 VA: 0x1817884F0
 	|-RBTree<int>.IncreaseSize
 	|
-	|-RVA: 0x20C9580 Offset: 0x20C7B80 VA: 0x1820C9580
+	|-RVA: 0x20C93C0 Offset: 0x20C79C0 VA: 0x1820C93C0
 	|-RBTree<object>.IncreaseSize
 	*/
 
@@ -8400,7 +8400,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178B710 Offset: 0x1789D10 VA: 0x18178B710
 	|-RBTree<int>.RecomputeSize
 	|
-	|-RVA: 0x20CC4A0 Offset: 0x20CAAA0 VA: 0x1820CC4A0
+	|-RVA: 0x20CC2E0 Offset: 0x20CA8E0 VA: 0x1820CC2E0
 	|-RBTree<object>.RecomputeSize
 	*/
 
@@ -8411,7 +8411,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x1787720 Offset: 0x1785D20 VA: 0x181787720
 	|-RBTree<int>.DecreaseSize
 	|
-	|-RVA: 0x20C8A00 Offset: 0x20C7000 VA: 0x1820C8A00
+	|-RVA: 0x20C8840 Offset: 0x20C6E40 VA: 0x1820C8840
 	|-RBTree<object>.DecreaseSize
 	*/
 
@@ -8422,7 +8422,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178BD90 Offset: 0x178A390 VA: 0x18178BD90
 	|-RBTree<int>.Right
 	|
-	|-RVA: 0x20CCAF0 Offset: 0x20CB0F0 VA: 0x1820CCAF0
+	|-RVA: 0x20CC930 Offset: 0x20CAF30 VA: 0x1820CC930
 	|-RBTree<object>.Right
 	*/
 
@@ -8433,7 +8433,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x1788EF0 Offset: 0x17874F0 VA: 0x181788EF0
 	|-RBTree<int>.Left
 	|
-	|-RVA: 0x20C9EC0 Offset: 0x20C84C0 VA: 0x1820C9EC0
+	|-RVA: 0x20C9D00 Offset: 0x20C8300 VA: 0x1820C9D00
 	|-RBTree<object>.Left
 	*/
 
@@ -8444,7 +8444,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x17891D0 Offset: 0x17877D0 VA: 0x1817891D0
 	|-RBTree<int>.Parent
 	|
-	|-RVA: 0x20C9FA0 Offset: 0x20C85A0 VA: 0x1820C9FA0
+	|-RVA: 0x20C9DE0 Offset: 0x20C83E0 VA: 0x1820C9DE0
 	|-RBTree<object>.Parent
 	*/
 
@@ -8455,7 +8455,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178C620 Offset: 0x178AC20 VA: 0x18178C620
 	|-RBTree<int>.color
 	|
-	|-RVA: 0x20CD230 Offset: 0x20CB830 VA: 0x1820CD230
+	|-RVA: 0x20CD070 Offset: 0x20CB670 VA: 0x1820CD070
 	|-RBTree<object>.color
 	*/
 
@@ -8466,7 +8466,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x1789160 Offset: 0x1787760 VA: 0x181789160
 	|-RBTree<int>.Next
 	|
-	|-RVA: 0x20C9F30 Offset: 0x20C8530 VA: 0x1820C9F30
+	|-RVA: 0x20C9D70 Offset: 0x20C8370 VA: 0x1820C9D70
 	|-RBTree<object>.Next
 	*/
 
@@ -8477,7 +8477,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x178C220 Offset: 0x178A820 VA: 0x18178C220
 	|-RBTree<int>.SubTreeSize
 	|
-	|-RVA: 0x20CCF90 Offset: 0x20CB590 VA: 0x1820CCF90
+	|-RVA: 0x20CCDD0 Offset: 0x20CB3D0 VA: 0x1820CCDD0
 	|-RBTree<object>.SubTreeSize
 	*/
 
@@ -8488,7 +8488,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	|-RVA: 0x17889B0 Offset: 0x1786FB0 VA: 0x1817889B0
 	|-RBTree<int>.Key
 	|
-	|-RVA: 0x20C9980 Offset: 0x20C7F80 VA: 0x1820C9980
+	|-RVA: 0x20C97C0 Offset: 0x20C7DC0 VA: 0x1820C97C0
 	|-RBTree<object>.Key
 	*/
 
@@ -8578,48 +8578,48 @@ internal sealed class Listeners<TElem> // TypeDefIndex: 4304
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 4436
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 0EE6555EB2C89F29655BD23FAB0573D8D684331A /*Metadata offset 0x53EE63*/; // 0x0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=152 229F48C8598232AD9236772DD710E64615D0EE51 /*Metadata offset 0x53EE87*/; // 0x24
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=38 2A4F1BD548EC71F652E24985361CD72F0FE1BE7D /*Metadata offset 0x53EF1F*/; // 0xBC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=152 547FF12759F2EA9866F3E2095113686A6379ABBF /*Metadata offset 0x53EF45*/; // 0xE2
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=176 57F92A12C48A0856350D3C95C4145F2AF4C9DEFF /*Metadata offset 0x53EFDD*/; // 0x17A
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=152 624B37B4C211942F3422DFFEAE9F44901E57339C /*Metadata offset 0x53F08D*/; // 0x22A
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 DD3AEFEADB1CD615F3017763F1568179FEE640B0 /*Metadata offset 0x53F125*/; // 0x2C2
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 E92B39D8233061927D9ACDE54665E68E7535635A /*Metadata offset 0x53F159*/; // 0x2F6
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 FA7899481F1198B5A3F90368A998C285FCE19878 /*Metadata offset 0x53F18D*/; // 0x32A
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=152 FF8FD0AC7542FD42A8A7C8D145E120345BA51C56 /*Metadata offset 0x53F1CD*/; // 0x36A
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=36 0EE6555EB2C89F29655BD23FAB0573D8D684331A /*Metadata offset 0x53EE77*/; // 0x0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=152 229F48C8598232AD9236772DD710E64615D0EE51 /*Metadata offset 0x53EE9B*/; // 0x24
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=38 2A4F1BD548EC71F652E24985361CD72F0FE1BE7D /*Metadata offset 0x53EF33*/; // 0xBC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=152 547FF12759F2EA9866F3E2095113686A6379ABBF /*Metadata offset 0x53EF59*/; // 0xE2
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=176 57F92A12C48A0856350D3C95C4145F2AF4C9DEFF /*Metadata offset 0x53EFF1*/; // 0x17A
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=152 624B37B4C211942F3422DFFEAE9F44901E57339C /*Metadata offset 0x53F0A1*/; // 0x22A
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 DD3AEFEADB1CD615F3017763F1568179FEE640B0 /*Metadata offset 0x53F139*/; // 0x2C2
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 E92B39D8233061927D9ACDE54665E68E7535635A /*Metadata offset 0x53F16D*/; // 0x2F6
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 FA7899481F1198B5A3F90368A998C285FCE19878 /*Metadata offset 0x53F1A1*/; // 0x32A
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=152 FF8FD0AC7542FD42A8A7C8D145E120345BA51C56 /*Metadata offset 0x53F1E1*/; // 0x36A
 
 }
 
 internal sealed class _AndroidJNIHelper // TypeDefIndex: 4471
 {	// Methods
 
-	// RVA: 0x227AE10 Offset: 0x2279410 VA: 0x18227AE10
+	// RVA: 0x227AC50 Offset: 0x2279250 VA: 0x18227AC50
 	public static IntPtr CreateJavaProxy(IntPtr delegateHandle, AndroidJavaProxy proxy) { }
 
-	// RVA: 0x2272490 Offset: 0x2270A90 VA: 0x182272490
+	// RVA: 0x22722D0 Offset: 0x22708D0 VA: 0x1822722D0
 	public static IntPtr CreateJavaRunnable(AndroidJavaRunnable jrunnable) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x227C030 Offset: 0x227A630 VA: 0x18227C030
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x227BE70 Offset: 0x227A470 VA: 0x18227BE70
 	public static IntPtr InvokeJavaProxyMethod(AndroidJavaProxy proxy, IntPtr jmethodName, IntPtr jargs) { }
 
-	// RVA: 0x227A360 Offset: 0x2278960 VA: 0x18227A360
+	// RVA: 0x227A1A0 Offset: 0x22787A0 VA: 0x18227A1A0
 	public static jvalue[] CreateJNIArgArray(object[] args) { }
 
-	// RVA: 0x227C300 Offset: 0x227A900 VA: 0x18227C300
+	// RVA: 0x227C140 Offset: 0x227A740 VA: 0x18227C140
 	public static object UnboxArray(AndroidJavaObject obj) { }
 
-	// RVA: 0x227C830 Offset: 0x227AE30 VA: 0x18227C830
+	// RVA: 0x227C670 Offset: 0x227AC70 VA: 0x18227C670
 	public static object Unbox(AndroidJavaObject obj) { }
 
-	// RVA: 0x2278B80 Offset: 0x2277180 VA: 0x182278B80
+	// RVA: 0x22789C0 Offset: 0x2276FC0 VA: 0x1822789C0
 	public static AndroidJavaObject Box(object obj) { }
 
-	// RVA: 0x22725C0 Offset: 0x2270BC0 VA: 0x1822725C0
+	// RVA: 0x2272400 Offset: 0x2270A00 VA: 0x182272400
 	public static void DeleteJNIArgArray(object[] args, jvalue[] jniArgs) { }
 
-	// RVA: 0x2279A70 Offset: 0x2278070 VA: 0x182279A70
+	// RVA: 0x22798B0 Offset: 0x2277EB0 VA: 0x1822798B0
 	public static IntPtr ConvertToJNIArray(Array array) { }
 
 	// RVA: -1 Offset: -1
@@ -8654,7 +8654,7 @@ internal sealed class _AndroidJNIHelper // TypeDefIndex: 4471
 	|-_AndroidJNIHelper.ConvertFromJNIArray<float>
 	*/
 
-	// RVA: 0x22726F0 Offset: 0x2270CF0 VA: 0x1822726F0
+	// RVA: 0x2272530 Offset: 0x2270B30 VA: 0x182272530
 	public static IntPtr GetConstructorID(IntPtr jclass, object[] args) { }
 
 	// RVA: -1 Offset: -1
@@ -8673,19 +8673,19 @@ internal sealed class _AndroidJNIHelper // TypeDefIndex: 4471
 	|-_AndroidJNIHelper.GetMethodID<float>
 	*/
 
-	// RVA: 0x227AF70 Offset: 0x2279570 VA: 0x18227AF70
+	// RVA: 0x227ADB0 Offset: 0x22793B0 VA: 0x18227ADB0
 	public static IntPtr GetConstructorID(IntPtr jclass, string signature) { }
 
-	// RVA: 0x227B1D0 Offset: 0x22797D0 VA: 0x18227B1D0
+	// RVA: 0x227B010 Offset: 0x2279610 VA: 0x18227B010
 	public static IntPtr GetMethodID(IntPtr jclass, string methodName, string signature, bool isStatic) { }
 
-	// RVA: 0x227B140 Offset: 0x2279740 VA: 0x18227B140
+	// RVA: 0x227AF80 Offset: 0x2279580 VA: 0x18227AF80
 	private static IntPtr GetMethodIDFallback(IntPtr jclass, string methodName, string signature, bool isStatic) { }
 
-	// RVA: 0x227B3B0 Offset: 0x22799B0 VA: 0x18227B3B0
+	// RVA: 0x227B1F0 Offset: 0x22797F0 VA: 0x18227B1F0
 	public static string GetSignature(object obj) { }
 
-	// RVA: 0x227BF50 Offset: 0x227A550 VA: 0x18227BF50
+	// RVA: 0x227BD90 Offset: 0x227A390 VA: 0x18227BD90
 	public static string GetSignature(object[] args) { }
 
 	// RVA: -1 Offset: -1
@@ -8767,15 +8767,15 @@ public class Memoized<TResult, TArgs> // TypeDefIndex: 4824
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 4849
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=146 062825E0D4AB4302B73500604BF9520511ACFD15 /*Metadata offset 0x53F777*/; // 0x136E0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=146 062825E0D4AB4302B73500604BF9520511ACFD15 /*Metadata offset 0x53F78B*/; // 0x136E0
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 4899
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=104 1D1E8406C3A31F2298952B0976625EEDFB010FDC /*Metadata offset 0x53F8DD*/; // 0x0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76 339A8BB625A037BA37DB4DF24A276E689D62172D /*Metadata offset 0x53F945*/; // 0x68
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76 48DE754CC0C776DAD1A85DB81BEFAAADE3A447E9 /*Metadata offset 0x53F991*/; // 0xB4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=104 1D1E8406C3A31F2298952B0976625EEDFB010FDC /*Metadata offset 0x53F8F1*/; // 0x0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76 339A8BB625A037BA37DB4DF24A276E689D62172D /*Metadata offset 0x53F959*/; // 0x68
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76 48DE754CC0C776DAD1A85DB81BEFAAADE3A447E9 /*Metadata offset 0x53F9A5*/; // 0xB4
 	internal static readonly long A5F5D64EF7BB696455C9841B907D2E09986EA902 = 2533317740920876; // 0x100
 
 	// Methods
@@ -8787,13 +8787,13 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 4899
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5096
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 7BBE37982E6C057ED87163CAFC7FD6E5E42EEA46 /*Metadata offset 0x53FCEB*/; // 0x2B11160
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 7BBE37982E6C057ED87163CAFC7FD6E5E42EEA46 /*Metadata offset 0x53FCFF*/; // 0x2B10180
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5561
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=5 B1A9AA820F353E1BEF1F7D40CD3F58447AA91D123BC2539918BC70F8A66E75B9 /*Metadata offset 0x540925*/; // 0x2B111D0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=5 B1A9AA820F353E1BEF1F7D40CD3F58447AA91D123BC2539918BC70F8A66E75B9 /*Metadata offset 0x540939*/; // 0x2B101F0
 
 	// Methods
 
@@ -8804,7 +8804,7 @@ internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5561
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5616
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 BA8C008E9A9CA9629B0D5A47EB9DFDC7E9E88D61 /*Metadata offset 0x540B01*/; // 0x2B11160
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 BA8C008E9A9CA9629B0D5A47EB9DFDC7E9E88D61 /*Metadata offset 0x540B15*/; // 0x2B10180
 
 }
 
@@ -8902,20 +8902,20 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5677
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 00C40B3F013EDA60390F2E849C4581815A9419E4 /*Metadata offset 0x540B7F*/; // 0x0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 03B569C38E3CD6B720388919D43735A904012C52 /*Metadata offset 0x540BA7*/; // 0x28
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76 1FDC8DB567F5AAA7068D0D2A601CD71657CBDF38 /*Metadata offset 0x540BCF*/; // 0x50
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 373B494F210C656134C5728D551D4C97B013EB33 /*Metadata offset 0x540C1B*/; // 0x9C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 6BC4EAB0D604C8D4599021AD611C5DBA7FF7E306 /*Metadata offset 0x54101B*/; // 0x49C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 89CE0E8EA590FD37283D6BEFD9E6805C8C47ADBD /*Metadata offset 0x541043*/; // 0x4C4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 DB7C763C9670DD0F6ED34B75B3410A39D835F964 /*Metadata offset 0x541053*/; // 0x4D4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 ED032026472FF77A8A17BA4AFF3FC57AF4B4BF79 /*Metadata offset 0x54107B*/; // 0x4FC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 00C40B3F013EDA60390F2E849C4581815A9419E4 /*Metadata offset 0x540B93*/; // 0x0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 03B569C38E3CD6B720388919D43735A904012C52 /*Metadata offset 0x540BBB*/; // 0x28
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=76 1FDC8DB567F5AAA7068D0D2A601CD71657CBDF38 /*Metadata offset 0x540BE3*/; // 0x50
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 373B494F210C656134C5728D551D4C97B013EB33 /*Metadata offset 0x540C2F*/; // 0x9C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 6BC4EAB0D604C8D4599021AD611C5DBA7FF7E306 /*Metadata offset 0x54102F*/; // 0x49C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 89CE0E8EA590FD37283D6BEFD9E6805C8C47ADBD /*Metadata offset 0x541057*/; // 0x4C4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 DB7C763C9670DD0F6ED34B75B3410A39D835F964 /*Metadata offset 0x541067*/; // 0x4D4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 ED032026472FF77A8A17BA4AFF3FC57AF4B4BF79 /*Metadata offset 0x54108F*/; // 0x4FC
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5812
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=127 A097044521F478B3A2A9A3AC52887BA733E4DE56 /*Metadata offset 0x541124*/; // 0x2B11170
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=127 A097044521F478B3A2A9A3AC52887BA733E4DE56 /*Metadata offset 0x541138*/; // 0x2B10190
 
 	// Methods
 
@@ -8934,7 +8934,7 @@ internal sealed class XHashtable<TValue> // TypeDefIndex: 5818
 	public void .ctor(XHashtable.ExtractKeyDelegate<TValue> extractKey, int capacity) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A685A0 Offset: 0x1A66BA0 VA: 0x181A685A0
+	|-RVA: 0x1A68560 Offset: 0x1A66B60 VA: 0x181A68560
 	|-XHashtable<object>..ctor
 	|-XHashtable<WeakReference>..ctor
 	|-XHashtable<XName>..ctor
@@ -8944,7 +8944,7 @@ internal sealed class XHashtable<TValue> // TypeDefIndex: 5818
 	public bool TryGetValue(string key, int index, int count, out TValue value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A68560 Offset: 0x1A66B60 VA: 0x181A68560
+	|-RVA: 0x1A68520 Offset: 0x1A66B20 VA: 0x181A68520
 	|-XHashtable<object>.TryGetValue
 	|-XHashtable<WeakReference>.TryGetValue
 	|-XHashtable<XName>.TryGetValue
@@ -8954,7 +8954,7 @@ internal sealed class XHashtable<TValue> // TypeDefIndex: 5818
 	public TValue Add(TValue value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A683D0 Offset: 0x1A669D0 VA: 0x181A683D0
+	|-RVA: 0x1A68390 Offset: 0x1A66990 VA: 0x181A68390
 	|-XHashtable<object>.Add
 	|-XHashtable<WeakReference>.Add
 	|-XHashtable<XName>.Add
@@ -8965,7 +8965,7 @@ internal sealed class XHashtable<TValue> // TypeDefIndex: 5818
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5852
 {
 // Namespace: 
-[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 5852
 	// Methods
 
@@ -9013,33 +9013,33 @@ internal sealed class MethodCall<T, TResult> : MulticastDelegate // TypeDefIndex
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 6148
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28 9E31F24F64765FCAA589F589324D17C9FCF6A06D /*Metadata offset 0x54158E*/; // 0x0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 ADFD2E1C801C825415DD53F4F2F72A13B389313C /*Metadata offset 0x5415AA*/; // 0x1C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 D40004AB0E92BF6C8DFE481B56BE3D04ABDA76EB /*Metadata offset 0x5415B6*/; // 0x28
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 DD3AEFEADB1CD615F3017763F1568179FEE640B0 /*Metadata offset 0x5415C0*/; // 0x32
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 E92B39D8233061927D9ACDE54665E68E7535635A /*Metadata offset 0x5415F4*/; // 0x66
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28 9E31F24F64765FCAA589F589324D17C9FCF6A06D /*Metadata offset 0x5415A2*/; // 0x0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 ADFD2E1C801C825415DD53F4F2F72A13B389313C /*Metadata offset 0x5415BE*/; // 0x1C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=10 D40004AB0E92BF6C8DFE481B56BE3D04ABDA76EB /*Metadata offset 0x5415CA*/; // 0x28
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 DD3AEFEADB1CD615F3017763F1568179FEE640B0 /*Metadata offset 0x5415D4*/; // 0x32
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 E92B39D8233061927D9ACDE54665E68E7535635A /*Metadata offset 0x541608*/; // 0x66
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 6262
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 553AD71118F2B31C74BC988917343BADFA8F78EE /*Metadata offset 0x541741*/; // 0x2B11170
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 553AD71118F2B31C74BC988917343BADFA8F78EE /*Metadata offset 0x541755*/; // 0x2B10190
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 6635
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 373B494F210C656134C5728D551D4C97B013EB33 /*Metadata offset 0x541D9A*/; // 0x0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 E03C5B88B476F381E452F92C935A5B86131DFC4A /*Metadata offset 0x54219A*/; // 0x400
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 373B494F210C656134C5728D551D4C97B013EB33 /*Metadata offset 0x541DAE*/; // 0x0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 E03C5B88B476F381E452F92C935A5B86131DFC4A /*Metadata offset 0x5421AE*/; // 0x400
 
 }
 
 internal class <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA} // TypeDefIndex: 6713
 {	// Fields
-	internal static <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA}.__StaticArrayInitTypeSize=32 $$method0x600002d-1 /*Metadata offset 0x542A83*/; // 0x0
-	internal static <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA}.__StaticArrayInitTypeSize=32 $$method0x600002d-2 /*Metadata offset 0x542AA3*/; // 0x20
-	internal static <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA}.__StaticArrayInitTypeSize=128 $$method0x600002d-3 /*Metadata offset 0x542AC3*/; // 0x40
-	internal static <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA}.__StaticArrayInitTypeSize=256 $$method0x600002d-4 /*Metadata offset 0x542B43*/; // 0xC0
+	internal static <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA}.__StaticArrayInitTypeSize=32 $$method0x600002d-1 /*Metadata offset 0x542A97*/; // 0x0
+	internal static <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA}.__StaticArrayInitTypeSize=32 $$method0x600002d-2 /*Metadata offset 0x542AB7*/; // 0x20
+	internal static <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA}.__StaticArrayInitTypeSize=128 $$method0x600002d-3 /*Metadata offset 0x542AD7*/; // 0x40
+	internal static <PrivateImplementationDetails>{A0874672-3A49-45D7-A8B0-51E6098CECDA}.__StaticArrayInitTypeSize=256 $$method0x600002d-4 /*Metadata offset 0x542B57*/; // 0xC0
 
 }
 
@@ -9074,7 +9074,7 @@ public class FastAction<A> // TypeDefIndex: 6738
 	public void Call(A a) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A53240 Offset: 0x1A51840 VA: 0x181A53240
+	|-RVA: 0x1A53200 Offset: 0x1A51800 VA: 0x181A53200
 	|-FastAction<bool>.Call
 	|
 	|-RVA: 0x17AB750 Offset: 0x17A9D50 VA: 0x1817AB750
@@ -9224,45 +9224,45 @@ public enum _VerticalAlignmentOptions // TypeDefIndex: 6828
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 6870
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 7BBE37982E6C057ED87163CAFC7FD6E5E42EEA46 /*Metadata offset 0x543253*/; // 0x38A0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 7BBE37982E6C057ED87163CAFC7FD6E5E42EEA46 /*Metadata offset 0x543267*/; // 0x38A0
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 6937
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=18 B633673BF635D4C719EF5A0496BD28129A8CE5D3B76217371B6C1FDDFFDD780B /*Metadata offset 0x5432AD*/; // 0x2B11180
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=18 B633673BF635D4C719EF5A0496BD28129A8CE5D3B76217371B6C1FDDFFDD780B /*Metadata offset 0x5432C1*/; // 0x2B101A0
 
 }
 
 internal class <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7} // TypeDefIndex: 6968
 {	// Fields
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=76 $$method0x6000504-1 /*Metadata offset 0x5433B3*/; // 0x0
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=68 $$method0x6000505-1 /*Metadata offset 0x5433FF*/; // 0x4C
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=6144 $$method0x6000507-1 /*Metadata offset 0x543443*/; // 0x90
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=384 $$method0x6000507-2 /*Metadata offset 0x544C43*/; // 0x1890
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=124 $$method0x6000507-3 /*Metadata offset 0x544DC3*/; // 0x1A10
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=124 $$method0x6000507-4 /*Metadata offset 0x544E3F*/; // 0x1A8C
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=120 $$method0x6000507-5 /*Metadata offset 0x544EBB*/; // 0x1B08
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=120 $$method0x6000507-6 /*Metadata offset 0x544F33*/; // 0x1B80
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=116 $$method0x6000509-1 /*Metadata offset 0x544FAB*/; // 0x1BF8
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=120 $$method0x6000509-2 /*Metadata offset 0x54501F*/; // 0x1C6C
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=76 $$method0x6000509-3 /*Metadata offset 0x545097*/; // 0x1CE4
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=19 $$method0x6000509-4 /*Metadata offset 0x5450E3*/; // 0x1D30
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=512 $$method0x6000509-5 /*Metadata offset 0x5450F6*/; // 0x1D43
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=256 $$method0x6000509-6 /*Metadata offset 0x5452F6*/; // 0x1F43
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=116 $$method0x6000509-7 /*Metadata offset 0x5453F6*/; // 0x2043
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=120 $$method0x6000509-8 /*Metadata offset 0x54546A*/; // 0x20B7
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=1152 $$method0x6000475-1 /*Metadata offset 0x5454E2*/; // 0x212F
-	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=120 $$method0x6000475-2 /*Metadata offset 0x545962*/; // 0x25AF
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=76 $$method0x6000504-1 /*Metadata offset 0x5433C7*/; // 0x0
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=68 $$method0x6000505-1 /*Metadata offset 0x543413*/; // 0x4C
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=6144 $$method0x6000507-1 /*Metadata offset 0x543457*/; // 0x90
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=384 $$method0x6000507-2 /*Metadata offset 0x544C57*/; // 0x1890
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=124 $$method0x6000507-3 /*Metadata offset 0x544DD7*/; // 0x1A10
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=124 $$method0x6000507-4 /*Metadata offset 0x544E53*/; // 0x1A8C
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=120 $$method0x6000507-5 /*Metadata offset 0x544ECF*/; // 0x1B08
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=120 $$method0x6000507-6 /*Metadata offset 0x544F47*/; // 0x1B80
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=116 $$method0x6000509-1 /*Metadata offset 0x544FBF*/; // 0x1BF8
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=120 $$method0x6000509-2 /*Metadata offset 0x545033*/; // 0x1C6C
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=76 $$method0x6000509-3 /*Metadata offset 0x5450AB*/; // 0x1CE4
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=19 $$method0x6000509-4 /*Metadata offset 0x5450F7*/; // 0x1D30
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=512 $$method0x6000509-5 /*Metadata offset 0x54510A*/; // 0x1D43
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=256 $$method0x6000509-6 /*Metadata offset 0x54530A*/; // 0x1F43
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=116 $$method0x6000509-7 /*Metadata offset 0x54540A*/; // 0x2043
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=120 $$method0x6000509-8 /*Metadata offset 0x54547E*/; // 0x20B7
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=1152 $$method0x6000475-1 /*Metadata offset 0x5454F6*/; // 0x212F
+	internal static <PrivateImplementationDetails>{510A9A0A-2EB8-4C1C-AA23-D4ACD845FEA7}.__StaticArrayInitTypeSize=120 $$method0x6000475-2 /*Metadata offset 0x545976*/; // 0x25AF
 
 }
 
 internal class <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8} // TypeDefIndex: 6993
 {	// Fields
-	internal static <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=32 $$method0x600007d-1 /*Metadata offset 0x545A13*/; // 0x0
-	internal static <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=32 $$method0x600007d-2 /*Metadata offset 0x545A33*/; // 0x20
-	internal static <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=128 $$method0x600007d-3 /*Metadata offset 0x545A53*/; // 0x40
-	internal static <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=256 $$method0x600007d-4 /*Metadata offset 0x545AD3*/; // 0xC0
+	internal static <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=32 $$method0x600007d-1 /*Metadata offset 0x545A27*/; // 0x0
+	internal static <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=32 $$method0x600007d-2 /*Metadata offset 0x545A47*/; // 0x20
+	internal static <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=128 $$method0x600007d-3 /*Metadata offset 0x545A67*/; // 0x40
+	internal static <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=256 $$method0x600007d-4 /*Metadata offset 0x545AE7*/; // 0xC0
 
 }
 
@@ -9284,10 +9284,10 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	public void .ctor(TResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x228D90 Offset: 0x228190 VA: 0x180228D90
+	|-RVA: 0x228D10 Offset: 0x228110 VA: 0x180228D10
 	|-ValueTask<bool>..ctor
 	|
-	|-RVA: 0x228D00 Offset: 0x228100 VA: 0x180228D00
+	|-RVA: 0x228C80 Offset: 0x228080 VA: 0x180228C80
 	|-ValueTask<object>..ctor
 	*/
 
@@ -9295,10 +9295,10 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	public void .ctor(Task<TResult> task) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x228CB0 Offset: 0x2280B0 VA: 0x180228CB0
+	|-RVA: 0x228C30 Offset: 0x228030 VA: 0x180228C30
 	|-ValueTask<bool>..ctor
 	|
-	|-RVA: 0x228D40 Offset: 0x228140 VA: 0x180228D40
+	|-RVA: 0x228CC0 Offset: 0x2280C0 VA: 0x180228CC0
 	|-ValueTask<object>..ctor
 	*/
 
@@ -9306,10 +9306,10 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x228A90 Offset: 0x227E90 VA: 0x180228A90
+	|-RVA: 0x228A10 Offset: 0x227E10 VA: 0x180228A10
 	|-ValueTask<bool>.GetHashCode
 	|
-	|-RVA: 0x228AD0 Offset: 0x227ED0 VA: 0x180228AD0
+	|-RVA: 0x228A50 Offset: 0x227E50 VA: 0x180228A50
 	|-ValueTask<object>.GetHashCode
 	*/
 
@@ -9317,10 +9317,10 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x228750 Offset: 0x227B50 VA: 0x180228750
+	|-RVA: 0x2286D0 Offset: 0x227AD0 VA: 0x1802286D0
 	|-ValueTask<bool>.Equals
 	|
-	|-RVA: 0x228890 Offset: 0x227C90 VA: 0x180228890
+	|-RVA: 0x228810 Offset: 0x227C10 VA: 0x180228810
 	|-ValueTask<object>.Equals
 	*/
 
@@ -9328,10 +9328,10 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	public bool Equals(ValueTask<TResult> other) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2289B0 Offset: 0x227DB0 VA: 0x1802289B0
+	|-RVA: 0x228930 Offset: 0x227D30 VA: 0x180228930
 	|-ValueTask<bool>.Equals
 	|
-	|-RVA: 0x228860 Offset: 0x227C60 VA: 0x180228860
+	|-RVA: 0x2287E0 Offset: 0x227BE0 VA: 0x1802287E0
 	|-ValueTask<object>.Equals
 	*/
 
@@ -9339,10 +9339,10 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	public bool get_IsCompleted() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x228DF0 Offset: 0x2281F0 VA: 0x180228DF0
+	|-RVA: 0x228D70 Offset: 0x228170 VA: 0x180228D70
 	|-ValueTask<bool>.get_IsCompleted
 	|
-	|-RVA: 0x228F30 Offset: 0x228330 VA: 0x180228F30
+	|-RVA: 0x228EB0 Offset: 0x2282B0 VA: 0x180228EB0
 	|-ValueTask<object>.get_IsCompleted
 	*/
 
@@ -9350,10 +9350,10 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	public bool get_IsCompletedSuccessfully() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x228DE0 Offset: 0x2281E0 VA: 0x180228DE0
+	|-RVA: 0x228D60 Offset: 0x228160 VA: 0x180228D60
 	|-ValueTask<bool>.get_IsCompletedSuccessfully
 	|
-	|-RVA: 0x228DD0 Offset: 0x2281D0 VA: 0x180228DD0
+	|-RVA: 0x228D50 Offset: 0x228150 VA: 0x180228D50
 	|-ValueTask<object>.get_IsCompletedSuccessfully
 	*/
 
@@ -9361,10 +9361,10 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	public TResult get_Result() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x229080 Offset: 0x228480 VA: 0x180229080
+	|-RVA: 0x229000 Offset: 0x228400 VA: 0x180229000
 	|-ValueTask<bool>.get_Result
 	|
-	|-RVA: 0x229070 Offset: 0x228470 VA: 0x180229070
+	|-RVA: 0x228FF0 Offset: 0x2283F0 VA: 0x180228FF0
 	|-ValueTask<object>.get_Result
 	*/
 
@@ -9372,10 +9372,10 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	public ValueTaskAwaiter<TResult> GetAwaiter() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2289D0 Offset: 0x227DD0 VA: 0x1802289D0
+	|-RVA: 0x228950 Offset: 0x227D50 VA: 0x180228950
 	|-ValueTask<bool>.GetAwaiter
 	|
-	|-RVA: 0x228A20 Offset: 0x227E20 VA: 0x180228A20
+	|-RVA: 0x2289A0 Offset: 0x227DA0 VA: 0x1802289A0
 	|-ValueTask<object>.GetAwaiter
 	*/
 
@@ -9383,10 +9383,10 @@ public struct ValueTask<TResult> : IEquatable<ValueTask<TResult>> // TypeDefInde
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x228BE0 Offset: 0x227FE0 VA: 0x180228BE0
+	|-RVA: 0x228B60 Offset: 0x227F60 VA: 0x180228B60
 	|-ValueTask<bool>.ToString
 	|
-	|-RVA: 0x228B10 Offset: 0x227F10 VA: 0x180228B10
+	|-RVA: 0x228A90 Offset: 0x227E90 VA: 0x180228A90
 	|-ValueTask<object>.ToString
 	*/
 
@@ -9405,10 +9405,10 @@ public struct ValueTaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyComp
 	internal void .ctor(ValueTask<TResult> value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E3DB0 Offset: 0x1E31B0 VA: 0x1801E3DB0
+	|-RVA: 0x1E3D30 Offset: 0x1E3130 VA: 0x1801E3D30
 	|-ValueTaskAwaiter<bool>..ctor
 	|
-	|-RVA: 0x1E3DD0 Offset: 0x1E31D0 VA: 0x1801E3DD0
+	|-RVA: 0x1E3D50 Offset: 0x1E3150 VA: 0x1801E3D50
 	|-ValueTaskAwaiter<object>..ctor
 	*/
 
@@ -9416,22 +9416,22 @@ public struct ValueTaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyComp
 	public bool get_IsCompleted() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E3E30 Offset: 0x1E3230 VA: 0x1801E3E30
+	|-RVA: 0x1E3DB0 Offset: 0x1E31B0 VA: 0x1801E3DB0
 	|-ValueTaskAwaiter<bool>.get_IsCompleted
 	|
-	|-RVA: 0x1E3DF0 Offset: 0x1E31F0 VA: 0x1801E3DF0
+	|-RVA: 0x1E3D70 Offset: 0x1E3170 VA: 0x1801E3D70
 	|-ValueTaskAwaiter<object>.get_IsCompleted
 	*/
 
-	[StackTraceHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[StackTraceHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public TResult GetResult() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E3CF0 Offset: 0x1E30F0 VA: 0x1801E3CF0
+	|-RVA: 0x1E3C70 Offset: 0x1E3070 VA: 0x1801E3C70
 	|-ValueTaskAwaiter<bool>.GetResult
 	|
-	|-RVA: 0x1E3D30 Offset: 0x1E3130 VA: 0x1801E3D30
+	|-RVA: 0x1E3CB0 Offset: 0x1E30B0 VA: 0x1801E3CB0
 	|-ValueTaskAwaiter<object>.GetResult
 	*/
 
@@ -9439,10 +9439,10 @@ public struct ValueTaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyComp
 	public void OnCompleted(Action continuation) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E3D80 Offset: 0x1E3180 VA: 0x1801E3D80
+	|-RVA: 0x1E3D00 Offset: 0x1E3100 VA: 0x1801E3D00
 	|-ValueTaskAwaiter<bool>.OnCompleted
 	|
-	|-RVA: 0x1E3D70 Offset: 0x1E3170 VA: 0x1801E3D70
+	|-RVA: 0x1E3CF0 Offset: 0x1E30F0 VA: 0x1801E3CF0
 	|-ValueTaskAwaiter<object>.OnCompleted
 	*/
 
@@ -9450,10 +9450,10 @@ public struct ValueTaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyComp
 	public void UnsafeOnCompleted(Action continuation) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E3D90 Offset: 0x1E3190 VA: 0x1801E3D90
+	|-RVA: 0x1E3D10 Offset: 0x1E3110 VA: 0x1801E3D10
 	|-ValueTaskAwaiter<bool>.UnsafeOnCompleted
 	|
-	|-RVA: 0x1E3DA0 Offset: 0x1E31A0 VA: 0x1801E3DA0
+	|-RVA: 0x1E3D20 Offset: 0x1E3120 VA: 0x1801E3D20
 	|-ValueTaskAwaiter<object>.UnsafeOnCompleted
 	*/
 
@@ -9461,90 +9461,90 @@ public struct ValueTaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyComp
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 7366
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 C92FBDBB320D6C40BEB41D97EE6C7B301C4ADB1D /*Metadata offset 0x547ACB*/; // 0x2B11168
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 C92FBDBB320D6C40BEB41D97EE6C7B301C4ADB1D /*Metadata offset 0x547ADF*/; // 0x2B10188
 
 }
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 7415
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 021F8912B268BE164A590D1440F05920A3F2A63B9874F994402C7AFFC6F92F82 /*Metadata offset 0x548307*/; // 0x0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 02E68C9160BF270CAF19E18D3A77BC2EAA90EFCB3ECA3C454B58CD5BBA5FF7ED /*Metadata offset 0x548347*/; // 0x40
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 047D891CAC8D4F883998ACEFD1EB63F6A679046FFD19EC1276A057F847EE37F6 /*Metadata offset 0x548447*/; // 0x140
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 06ADCD404637282636289E77FA01C56630CB4945332C96D5FA2D9239FE0D6B04 /*Metadata offset 0x548457*/; // 0x150
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 06D49AE61368F7B7C195381125B5A5E8F6830EA024D49F5C1A62950E74DBAF3D /*Metadata offset 0x5484D7*/; // 0x1D0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=144 091971E0756262C068D16B941EA6256855E94532833A9CE3374D9768E27E4596 /*Metadata offset 0x548517*/; // 0x210
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 124360CE49E1C84604EFA93F8F0C3292C1D216DB605CF153414D893922B18C9F /*Metadata offset 0x5485A7*/; // 0x2A0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 13BE6783CC652C89CC0161446DBD67966CAC410DEA4DE4279FC767A259EFD546 /*Metadata offset 0x5485E7*/; // 0x2E0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 1B8D49F1227D3FC61644822B9FC00CE70A3B2438A1064323BFBE6A022A26F042 /*Metadata offset 0x54861F*/; // 0x318
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 1C01F69BD2391DE00F8F1B377D2D9E5991674702AD777030BA910AC531E4B0FE /*Metadata offset 0x54862F*/; // 0x328
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 22E5D3D9ABC124EE0214CEF7079F24CFF9BE30FD6AF6BA5BBE15920C57497EA1 /*Metadata offset 0x54866F*/; // 0x368
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 2A03DC27FE2EB4E5D0A4358E22435065F2FB1BBF8CC2C4D9F754A9F24089344E /*Metadata offset 0x54867F*/; // 0x378
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=60 2A1C6CEE1B003A06B471AA7632C6B5C4ED18A4E1A4784BF8CA09BD4F38BA4BB5 /*Metadata offset 0x5486BF*/; // 0x3B8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 2BCE8E19B19AAD97CC510F21B5828CCB319639FA317FB59926A436ED3543F58D /*Metadata offset 0x5486FB*/; // 0x3F4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 2C72B27AAD08F98379E9F3E0F6A2D625F895C9E55F61404790377FC196FA14B8 /*Metadata offset 0x54873B*/; // 0x434
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 2F4596419894C88417AC4DF5C99E98A374EFE4B57B7A4EB89CE65FEB92850A61 /*Metadata offset 0x54877B*/; // 0x474
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 320B0930454D74130DD5E245B70DA1736A2C1B5E664DD5BB82B490E60F3ECA2A /*Metadata offset 0x54878B*/; // 0x484
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 3229DAC3DA84FAC1A1018091DAF2A0C3D6B3624AC33BECF13A371238DAC95055 /*Metadata offset 0x54879B*/; // 0x494
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=92 3543AE0E1ED6A92350687219F717764E126E06D4FA179DE5B0CB3E2BDFE4AC9E /*Metadata offset 0x5487AB*/; // 0x4A4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 3554CE8BB09083C24D298DF77456CB67242E6EEE3DEDFE595E11B90D2F70C0FF /*Metadata offset 0x548807*/; // 0x500
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1500 3B42FF7B534B27868E300720C678882AF0698E9434D0FA135656E097480324FF /*Metadata offset 0x548847*/; // 0x540
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 3EDD050356C639DD16815E64CA19652B1B981F1BA2FF76176BB3995FF0DB860D /*Metadata offset 0x548E23*/; // 0xB1C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 4053901EA5134D137292C48A98E1382B09C1E49C98EEF77C2D00D8FF24481D4F /*Metadata offset 0x548E33*/; // 0xB2C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 419EB5F371A1171DBE8C085F1BB25D78AA0647C1365608E167054A37BFEAD834 /*Metadata offset 0x548E73*/; // 0xB6C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 4517AF16CD9D95D0B56C33292D289749B763021F170127ED439165498D243E69 /*Metadata offset 0x548E83*/; // 0xB7C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 4E7A2BE1E8600FA773FA4952A14AE27AD21E294C2C90F674BEA6BB8B089F39C1 /*Metadata offset 0x548E97*/; // 0xB90
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 550560694565D72C91221BEE89B41C8AA412660E1CF28C626BC523BC959438A9 /*Metadata offset 0x548EB7*/; // 0xBB0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=8748 5600405012DD0807E058E5A8F3F7A9AF31716C8560F552613672D0D770364603 /*Metadata offset 0x548EF7*/; // 0xBF0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=144 56C5F192F58A478FC32D5428DA86D03B15A95E9A982E82BA5026E6EBE259FE48 /*Metadata offset 0x54B123*/; // 0x2E1C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 57CD95842F6B0D5A0823F7A82A33632D2D4DA79615A834507722CBBBD054E3CF /*Metadata offset 0x54B1B3*/; // 0x2EAC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 58BB6050E828A1FDB65D46F61ADBE862543CF7261AA487580A1328D24E944BBD /*Metadata offset 0x54B1F3*/; // 0x2EEC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=144 5ED52DA9C543DD730BD7056787DF87C0AED3189F42C3321C4196EA8B70C87D2A /*Metadata offset 0x54B203*/; // 0x2EFC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=88 6547EC5EB178C3DBF6A302152A1FE3BDF747E8E5EB41343EECEA2F45D745E5D1 /*Metadata offset 0x54B293*/; // 0x2F8C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 673F8620472294A2666EB7018FC21EF377E5B15A76872E89803CBDBDBC17F1B8 /*Metadata offset 0x54B2EB*/; // 0x2FE4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 6807ED2269DB8E9A70F5D22C6D41806D26C51C306050C58861DEBD9B21D76D0B /*Metadata offset 0x54B2FB*/; // 0x2FF4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 6810D47101B1F88C982302E36EF8DBDB344EAFDF31E058B2AE9B23522DA15D89 /*Metadata offset 0x54B30B*/; // 0x3004
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=92 683133215F3906FE49DACDB11CE3F917EF1B439110BF4CE1092DB8F15D087E2F /*Metadata offset 0x54B31B*/; // 0x3014
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 68F20C1D1F9AD9A40A6FF9C3879482F58AED8E4A58995CEB0F83B2575DCFD2BC /*Metadata offset 0x54B377*/; // 0x3070
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 6B6C31FF54224894CC66030691DB54C3EEE6BE4D42DB3DDA43EEC126F036360E /*Metadata offset 0x54B387*/; // 0x3080
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 70CBEAD43E82DC4CCC445D5552A983D797EEF8D2AD3665EB8FAAB2187F64F6FE /*Metadata offset 0x54B3C7*/; // 0x30C0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 70CF9A93794FD166C020BBDF13AE34B6B43B3A2271EC768A35797C135FC62D20 /*Metadata offset 0x54B407*/; // 0x3100
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 79B6797C01D7827A0E35892156B642BD84A9FA528E603C743515D3822864A051 /*Metadata offset 0x54B43F*/; // 0x3138
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 7A5DCFD7518F8A0A3FA422FA014FF84FE08070112345B17E00C0FB0AFC6D7461 /*Metadata offset 0x54B45F*/; // 0x3158
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 7CC4C8FC1CA4B0FA871FEB4911499E0268FE161D01C6ADFD186B0378C4063EBA /*Metadata offset 0x54B47F*/; // 0x3178
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 8C6C0F60451FBE1D2DDDF80A2A9F0B7684893D5B0B8CEAB4CA837EE615B3954E /*Metadata offset 0x54B49F*/; // 0x3198
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 941D4DCAADBEC3CC42B0F9F20212661AC83343F86BC7F873B237BC25AF1B195C /*Metadata offset 0x54BC9F*/; // 0x3998
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 9742CA838C60363B639BEC16A2086253E96A532C05331B73181E45ED9D213F13 /*Metadata offset 0x54BCDF*/; // 0x39D8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=324 9F53690DAB4D28E43D6BB3EB96D00F76FAF99D7681A6E8F0061297C8DD5EFF33 /*Metadata offset 0x54BD1F*/; // 0x3A18
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 9FB71D398994B2E0C6CE3CE99EE4CBD26EE1524A81DDB919603C13A2885F5483 /*Metadata offset 0x54BE63*/; // 0x3B5C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 A28E77C3345C5351A69C7393656A759AABE24F2E59F5BFC49A771E190D9C9FCC /*Metadata offset 0x54BEA3*/; // 0x3B9C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 A3F937EE796D2312148DDB921F1293E76047E426F9BF3864DD12817D66034E74 /*Metadata offset 0x54BEB3*/; // 0x3BAC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 A4B3F75E2EA169B5351F2BAA4DBAB862A18EDFBAE5B1CB4DBEFAEC4E22DA6BD3 /*Metadata offset 0x54BEF3*/; // 0x3BEC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 A84E72B8CD1EB5B569F80091ADA35B15F45C05E48515346C276DFBC7457817CD /*Metadata offset 0x54BF33*/; // 0x3C2C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 AC808BDFC94A2720F9A403E96C598F28C4A82AACBF21E2A1A6347C32A66B6425 /*Metadata offset 0x54BFB3*/; // 0x3CAC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 B107577D43B15DF28D27533ADF012E72BD63868C2A2E688AC15978DC38CD5677 /*Metadata offset 0x54BFC3*/; // 0x3CBC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 B10D5342782BFD3820C0FFBD8DDCDF80BAA0ED5F0DF5746D2EA885110239AC7A /*Metadata offset 0x54BFD3*/; // 0x3CCC
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 B79C140A0DE10B238571FE854A6BC223D6D8C50F6ED4E227CCC677094DCB3558 /*Metadata offset 0x54C013*/; // 0x3D0C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 B9C5D4C45600219530B355BB1786AA4E282347901A9E3BF35DC8EE98E1307DFB /*Metadata offset 0x54C033*/; // 0x3D2C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=92 BBDCD859D8A76172AF0C213EFB99A6F64E8AB028BECE6D313FA5B6BCF96CD15A /*Metadata offset 0x54C043*/; // 0x3D3C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=92 C271A86BEFE71CEF20615946687F7A3A13E980C14FD4637951697CD4A6112156 /*Metadata offset 0x54C09F*/; // 0x3D98
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 C31F1438706DA962938E7F1D03470E164E0EA9EE1CD0F0D19CA29C7E932C91DC /*Metadata offset 0x54C0FB*/; // 0x3DF4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 C3FBE83D14A8E5B3DCCAF45D7AD6C35F769326FFAED483A102ACF50FB824C9C2 /*Metadata offset 0x54C10B*/; // 0x3E04
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 C6D060549430A52150918BF2837FCCD94C6D727B74A5946A8F7EF51B940C3CF7 /*Metadata offset 0x54C14B*/; // 0x3E44
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=92 C775F22681F0D15310756B294BB58FC4364A5DE6030B819E8D3EEC4E75454915 /*Metadata offset 0x54C183*/; // 0x3E7C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 C807773510A04834C84A6A093A8267D127DC4413714AD99057315D8CABE1D467 /*Metadata offset 0x54C1DF*/; // 0x3ED8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=92 C842A7F36E23186A8F55DC7D0E63E781469950969CB88357227234F95C35DEA9 /*Metadata offset 0x54C1FF*/; // 0x3EF8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 CCC564D5CDB40E327F07151E33EF8AD040EEB5129CE505D00FE6EC11BD28C359 /*Metadata offset 0x54C25B*/; // 0x3F54
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=144 CD4DE47C20503BFF1B99694EAF6390723510293766C75243F8B3CA7B56C89359 /*Metadata offset 0x54C293*/; // 0x3F8C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 D20525C66D9D2B26BC9D3A773951775A3813FC7F97CC4A2EADFF258D3C9D869E /*Metadata offset 0x54C323*/; // 0x401C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 D3310F8730C74E00C7014874471A5E27574CD015457352EFB0373E8C5DA85FD1 /*Metadata offset 0x54C333*/; // 0x402C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 DD54E6E73536232DFD682C64D36E265B59ACF8AD04FC6062A2EB7225BBDDDB02 /*Metadata offset 0x54C343*/; // 0x403C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 DDC358E79464AB64B601CE4D8FBC308D787438D4CE92844B5FD77F2DE1E21575 /*Metadata offset 0x54C37B*/; // 0x4074
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 DE26AA4452A148F1FCFF9D95EA656766D0DC19BDCEE086F85BC3F9BD8AB7F25B /*Metadata offset 0x54C47B*/; // 0x4174
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 E2AA696710083FEFF382491A86DF649DB1E8EE6AA4ECF99E8D98CFBF871BFCE4 /*Metadata offset 0x54C48B*/; // 0x4184
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=60 ED977BBA7102E7758BEF3DA21CD69B44B8864A1D6F43BB20E6BF59862487ECBA /*Metadata offset 0x54C49B*/; // 0x4194
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 EFC52C86FFF3F24CE6C0C14D161FCF00584AB329C5997334034F2B4D91225307 /*Metadata offset 0x54C4D7*/; // 0x41D0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 F1B0145A5F0D3E964A90201094730422F3013B94D7B9E73B6FFDED5643D486A2 /*Metadata offset 0x54C51F*/; // 0x4218
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 F8756C1F7B8F886752A7B73230C5AC5397F7CE2B1BFDC5C139DBED513BD228C3 /*Metadata offset 0x54C557*/; // 0x4250
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 021F8912B268BE164A590D1440F05920A3F2A63B9874F994402C7AFFC6F92F82 /*Metadata offset 0x54831B*/; // 0x0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 02E68C9160BF270CAF19E18D3A77BC2EAA90EFCB3ECA3C454B58CD5BBA5FF7ED /*Metadata offset 0x54835B*/; // 0x40
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 047D891CAC8D4F883998ACEFD1EB63F6A679046FFD19EC1276A057F847EE37F6 /*Metadata offset 0x54845B*/; // 0x140
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 06ADCD404637282636289E77FA01C56630CB4945332C96D5FA2D9239FE0D6B04 /*Metadata offset 0x54846B*/; // 0x150
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 06D49AE61368F7B7C195381125B5A5E8F6830EA024D49F5C1A62950E74DBAF3D /*Metadata offset 0x5484EB*/; // 0x1D0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=144 091971E0756262C068D16B941EA6256855E94532833A9CE3374D9768E27E4596 /*Metadata offset 0x54852B*/; // 0x210
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 124360CE49E1C84604EFA93F8F0C3292C1D216DB605CF153414D893922B18C9F /*Metadata offset 0x5485BB*/; // 0x2A0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 13BE6783CC652C89CC0161446DBD67966CAC410DEA4DE4279FC767A259EFD546 /*Metadata offset 0x5485FB*/; // 0x2E0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 1B8D49F1227D3FC61644822B9FC00CE70A3B2438A1064323BFBE6A022A26F042 /*Metadata offset 0x548633*/; // 0x318
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 1C01F69BD2391DE00F8F1B377D2D9E5991674702AD777030BA910AC531E4B0FE /*Metadata offset 0x548643*/; // 0x328
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 22E5D3D9ABC124EE0214CEF7079F24CFF9BE30FD6AF6BA5BBE15920C57497EA1 /*Metadata offset 0x548683*/; // 0x368
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 2A03DC27FE2EB4E5D0A4358E22435065F2FB1BBF8CC2C4D9F754A9F24089344E /*Metadata offset 0x548693*/; // 0x378
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=60 2A1C6CEE1B003A06B471AA7632C6B5C4ED18A4E1A4784BF8CA09BD4F38BA4BB5 /*Metadata offset 0x5486D3*/; // 0x3B8
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 2BCE8E19B19AAD97CC510F21B5828CCB319639FA317FB59926A436ED3543F58D /*Metadata offset 0x54870F*/; // 0x3F4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 2C72B27AAD08F98379E9F3E0F6A2D625F895C9E55F61404790377FC196FA14B8 /*Metadata offset 0x54874F*/; // 0x434
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 2F4596419894C88417AC4DF5C99E98A374EFE4B57B7A4EB89CE65FEB92850A61 /*Metadata offset 0x54878F*/; // 0x474
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 320B0930454D74130DD5E245B70DA1736A2C1B5E664DD5BB82B490E60F3ECA2A /*Metadata offset 0x54879F*/; // 0x484
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 3229DAC3DA84FAC1A1018091DAF2A0C3D6B3624AC33BECF13A371238DAC95055 /*Metadata offset 0x5487AF*/; // 0x494
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=92 3543AE0E1ED6A92350687219F717764E126E06D4FA179DE5B0CB3E2BDFE4AC9E /*Metadata offset 0x5487BF*/; // 0x4A4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 3554CE8BB09083C24D298DF77456CB67242E6EEE3DEDFE595E11B90D2F70C0FF /*Metadata offset 0x54881B*/; // 0x500
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1500 3B42FF7B534B27868E300720C678882AF0698E9434D0FA135656E097480324FF /*Metadata offset 0x54885B*/; // 0x540
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 3EDD050356C639DD16815E64CA19652B1B981F1BA2FF76176BB3995FF0DB860D /*Metadata offset 0x548E37*/; // 0xB1C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 4053901EA5134D137292C48A98E1382B09C1E49C98EEF77C2D00D8FF24481D4F /*Metadata offset 0x548E47*/; // 0xB2C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 419EB5F371A1171DBE8C085F1BB25D78AA0647C1365608E167054A37BFEAD834 /*Metadata offset 0x548E87*/; // 0xB6C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 4517AF16CD9D95D0B56C33292D289749B763021F170127ED439165498D243E69 /*Metadata offset 0x548E97*/; // 0xB7C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 4E7A2BE1E8600FA773FA4952A14AE27AD21E294C2C90F674BEA6BB8B089F39C1 /*Metadata offset 0x548EAB*/; // 0xB90
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 550560694565D72C91221BEE89B41C8AA412660E1CF28C626BC523BC959438A9 /*Metadata offset 0x548ECB*/; // 0xBB0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=8748 5600405012DD0807E058E5A8F3F7A9AF31716C8560F552613672D0D770364603 /*Metadata offset 0x548F0B*/; // 0xBF0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=144 56C5F192F58A478FC32D5428DA86D03B15A95E9A982E82BA5026E6EBE259FE48 /*Metadata offset 0x54B137*/; // 0x2E1C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 57CD95842F6B0D5A0823F7A82A33632D2D4DA79615A834507722CBBBD054E3CF /*Metadata offset 0x54B1C7*/; // 0x2EAC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 58BB6050E828A1FDB65D46F61ADBE862543CF7261AA487580A1328D24E944BBD /*Metadata offset 0x54B207*/; // 0x2EEC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=144 5ED52DA9C543DD730BD7056787DF87C0AED3189F42C3321C4196EA8B70C87D2A /*Metadata offset 0x54B217*/; // 0x2EFC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=88 6547EC5EB178C3DBF6A302152A1FE3BDF747E8E5EB41343EECEA2F45D745E5D1 /*Metadata offset 0x54B2A7*/; // 0x2F8C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 673F8620472294A2666EB7018FC21EF377E5B15A76872E89803CBDBDBC17F1B8 /*Metadata offset 0x54B2FF*/; // 0x2FE4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 6807ED2269DB8E9A70F5D22C6D41806D26C51C306050C58861DEBD9B21D76D0B /*Metadata offset 0x54B30F*/; // 0x2FF4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 6810D47101B1F88C982302E36EF8DBDB344EAFDF31E058B2AE9B23522DA15D89 /*Metadata offset 0x54B31F*/; // 0x3004
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=92 683133215F3906FE49DACDB11CE3F917EF1B439110BF4CE1092DB8F15D087E2F /*Metadata offset 0x54B32F*/; // 0x3014
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 68F20C1D1F9AD9A40A6FF9C3879482F58AED8E4A58995CEB0F83B2575DCFD2BC /*Metadata offset 0x54B38B*/; // 0x3070
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 6B6C31FF54224894CC66030691DB54C3EEE6BE4D42DB3DDA43EEC126F036360E /*Metadata offset 0x54B39B*/; // 0x3080
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 70CBEAD43E82DC4CCC445D5552A983D797EEF8D2AD3665EB8FAAB2187F64F6FE /*Metadata offset 0x54B3DB*/; // 0x30C0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 70CF9A93794FD166C020BBDF13AE34B6B43B3A2271EC768A35797C135FC62D20 /*Metadata offset 0x54B41B*/; // 0x3100
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 79B6797C01D7827A0E35892156B642BD84A9FA528E603C743515D3822864A051 /*Metadata offset 0x54B453*/; // 0x3138
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 7A5DCFD7518F8A0A3FA422FA014FF84FE08070112345B17E00C0FB0AFC6D7461 /*Metadata offset 0x54B473*/; // 0x3158
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 7CC4C8FC1CA4B0FA871FEB4911499E0268FE161D01C6ADFD186B0378C4063EBA /*Metadata offset 0x54B493*/; // 0x3178
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 8C6C0F60451FBE1D2DDDF80A2A9F0B7684893D5B0B8CEAB4CA837EE615B3954E /*Metadata offset 0x54B4B3*/; // 0x3198
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 941D4DCAADBEC3CC42B0F9F20212661AC83343F86BC7F873B237BC25AF1B195C /*Metadata offset 0x54BCB3*/; // 0x3998
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 9742CA838C60363B639BEC16A2086253E96A532C05331B73181E45ED9D213F13 /*Metadata offset 0x54BCF3*/; // 0x39D8
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=324 9F53690DAB4D28E43D6BB3EB96D00F76FAF99D7681A6E8F0061297C8DD5EFF33 /*Metadata offset 0x54BD33*/; // 0x3A18
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 9FB71D398994B2E0C6CE3CE99EE4CBD26EE1524A81DDB919603C13A2885F5483 /*Metadata offset 0x54BE77*/; // 0x3B5C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 A28E77C3345C5351A69C7393656A759AABE24F2E59F5BFC49A771E190D9C9FCC /*Metadata offset 0x54BEB7*/; // 0x3B9C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 A3F937EE796D2312148DDB921F1293E76047E426F9BF3864DD12817D66034E74 /*Metadata offset 0x54BEC7*/; // 0x3BAC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 A4B3F75E2EA169B5351F2BAA4DBAB862A18EDFBAE5B1CB4DBEFAEC4E22DA6BD3 /*Metadata offset 0x54BF07*/; // 0x3BEC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 A84E72B8CD1EB5B569F80091ADA35B15F45C05E48515346C276DFBC7457817CD /*Metadata offset 0x54BF47*/; // 0x3C2C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 AC808BDFC94A2720F9A403E96C598F28C4A82AACBF21E2A1A6347C32A66B6425 /*Metadata offset 0x54BFC7*/; // 0x3CAC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 B107577D43B15DF28D27533ADF012E72BD63868C2A2E688AC15978DC38CD5677 /*Metadata offset 0x54BFD7*/; // 0x3CBC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 B10D5342782BFD3820C0FFBD8DDCDF80BAA0ED5F0DF5746D2EA885110239AC7A /*Metadata offset 0x54BFE7*/; // 0x3CCC
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 B79C140A0DE10B238571FE854A6BC223D6D8C50F6ED4E227CCC677094DCB3558 /*Metadata offset 0x54C027*/; // 0x3D0C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 B9C5D4C45600219530B355BB1786AA4E282347901A9E3BF35DC8EE98E1307DFB /*Metadata offset 0x54C047*/; // 0x3D2C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=92 BBDCD859D8A76172AF0C213EFB99A6F64E8AB028BECE6D313FA5B6BCF96CD15A /*Metadata offset 0x54C057*/; // 0x3D3C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=92 C271A86BEFE71CEF20615946687F7A3A13E980C14FD4637951697CD4A6112156 /*Metadata offset 0x54C0B3*/; // 0x3D98
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 C31F1438706DA962938E7F1D03470E164E0EA9EE1CD0F0D19CA29C7E932C91DC /*Metadata offset 0x54C10F*/; // 0x3DF4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 C3FBE83D14A8E5B3DCCAF45D7AD6C35F769326FFAED483A102ACF50FB824C9C2 /*Metadata offset 0x54C11F*/; // 0x3E04
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 C6D060549430A52150918BF2837FCCD94C6D727B74A5946A8F7EF51B940C3CF7 /*Metadata offset 0x54C15F*/; // 0x3E44
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=92 C775F22681F0D15310756B294BB58FC4364A5DE6030B819E8D3EEC4E75454915 /*Metadata offset 0x54C197*/; // 0x3E7C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=32 C807773510A04834C84A6A093A8267D127DC4413714AD99057315D8CABE1D467 /*Metadata offset 0x54C1F3*/; // 0x3ED8
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=92 C842A7F36E23186A8F55DC7D0E63E781469950969CB88357227234F95C35DEA9 /*Metadata offset 0x54C213*/; // 0x3EF8
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 CCC564D5CDB40E327F07151E33EF8AD040EEB5129CE505D00FE6EC11BD28C359 /*Metadata offset 0x54C26F*/; // 0x3F54
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=144 CD4DE47C20503BFF1B99694EAF6390723510293766C75243F8B3CA7B56C89359 /*Metadata offset 0x54C2A7*/; // 0x3F8C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 D20525C66D9D2B26BC9D3A773951775A3813FC7F97CC4A2EADFF258D3C9D869E /*Metadata offset 0x54C337*/; // 0x401C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 D3310F8730C74E00C7014874471A5E27574CD015457352EFB0373E8C5DA85FD1 /*Metadata offset 0x54C347*/; // 0x402C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 DD54E6E73536232DFD682C64D36E265B59ACF8AD04FC6062A2EB7225BBDDDB02 /*Metadata offset 0x54C357*/; // 0x403C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 DDC358E79464AB64B601CE4D8FBC308D787438D4CE92844B5FD77F2DE1E21575 /*Metadata offset 0x54C38F*/; // 0x4074
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 DE26AA4452A148F1FCFF9D95EA656766D0DC19BDCEE086F85BC3F9BD8AB7F25B /*Metadata offset 0x54C48F*/; // 0x4174
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 E2AA696710083FEFF382491A86DF649DB1E8EE6AA4ECF99E8D98CFBF871BFCE4 /*Metadata offset 0x54C49F*/; // 0x4184
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=60 ED977BBA7102E7758BEF3DA21CD69B44B8864A1D6F43BB20E6BF59862487ECBA /*Metadata offset 0x54C4AF*/; // 0x4194
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=72 EFC52C86FFF3F24CE6C0C14D161FCF00584AB329C5997334034F2B4D91225307 /*Metadata offset 0x54C4EB*/; // 0x41D0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 F1B0145A5F0D3E964A90201094730422F3013B94D7B9E73B6FFDED5643D486A2 /*Metadata offset 0x54C533*/; // 0x4218
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 F8756C1F7B8F886752A7B73230C5AC5397F7CE2B1BFDC5C139DBED513BD228C3 /*Metadata offset 0x54C56B*/; // 0x4250
 
 }
 
@@ -9572,7 +9572,7 @@ internal sealed class TimedObjectsComparer<TObject> : IComparer<TObject> // Type
 public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
 {	// Fields
 	private readonly long _time; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly TValue <Value>k__BackingField; // 0x0
 
 	// Properties
@@ -9599,7 +9599,7 @@ public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
 	|-ValueChange<object>.get_Time
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public TValue get_Value() { }
 	/* GenericInstMethod :
@@ -9654,7 +9654,7 @@ public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
 
 public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnumerable // TypeDefIndex: 7505
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private EventHandler ValuesChanged; // 0x0
 	private readonly TimedObjectsComparer<ValueChange<TValue>> _comparer; // 0x0
 	private readonly List<ValueChange<TValue>> _valueChanges; // 0x0
@@ -9664,7 +9664,7 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal void add_ValuesChanged(EventHandler value) { }
 	/* GenericInstMethod :
@@ -9675,7 +9675,7 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	|-ValueLine<object>.add_ValuesChanged
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal void remove_ValuesChanged(EventHandler value) { }
 	/* GenericInstMethod :
@@ -9786,13 +9786,13 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 7638
 {	// Fields
-	internal static readonly int B52DDE3D967E604310620E80EFBFBED9B6FB8C0605B3CB29D31534DAA6181A7C = 505223448; // 0x2B112D4
+	internal static readonly int B52DDE3D967E604310620E80EFBFBED9B6FB8C0605B3CB29D31534DAA6181A7C = 505223448; // 0x2B102F4
 
 }
 
 internal class <PrivateImplementationDetails> // TypeDefIndex: 7836
 {	// Fields
-	internal static <PrivateImplementationDetails>.$ArrayType$132 $$field-0 /*Metadata offset 0x54D5A5*/; // 0x2300
+	internal static <PrivateImplementationDetails>.$ArrayType$132 $$field-0 /*Metadata offset 0x54D5B9*/; // 0x2300
 
 	// Methods
 
@@ -9803,13 +9803,13 @@ internal class <PrivateImplementationDetails> // TypeDefIndex: 7836
 
 internal class <PrivateImplementationDetails> // TypeDefIndex: 7854
 {	// Fields
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x54DDD5*/; // 0x0
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-1 /*Metadata offset 0x54DFD5*/; // 0x200
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-2 /*Metadata offset 0x54E1D5*/; // 0x400
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-3 /*Metadata offset 0x54E3D5*/; // 0x600
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-4 /*Metadata offset 0x54E5D5*/; // 0x800
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-5 /*Metadata offset 0x54E7D5*/; // 0xA00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-6 /*Metadata offset 0x54E9D5*/; // 0xC00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x54DDE9*/; // 0x0
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-1 /*Metadata offset 0x54DFE9*/; // 0x200
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-2 /*Metadata offset 0x54E1E9*/; // 0x400
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-3 /*Metadata offset 0x54E3E9*/; // 0x600
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-4 /*Metadata offset 0x54E5E9*/; // 0x800
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-5 /*Metadata offset 0x54E7E9*/; // 0xA00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-6 /*Metadata offset 0x54E9E9*/; // 0xC00
 
 	// Methods
 
@@ -9820,14 +9820,14 @@ internal class <PrivateImplementationDetails> // TypeDefIndex: 7854
 
 internal class <PrivateImplementationDetails> // TypeDefIndex: 7895
 {	// Fields
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x54F381*/; // 0x0
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-1 /*Metadata offset 0x54F581*/; // 0x200
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-2 /*Metadata offset 0x54F781*/; // 0x400
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-3 /*Metadata offset 0x54F981*/; // 0x600
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-4 /*Metadata offset 0x54FB81*/; // 0x800
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-5 /*Metadata offset 0x54FD81*/; // 0xA00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-6 /*Metadata offset 0x54FF81*/; // 0xC00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-7 /*Metadata offset 0x550181*/; // 0xE00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x54F395*/; // 0x0
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-1 /*Metadata offset 0x54F595*/; // 0x200
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-2 /*Metadata offset 0x54F795*/; // 0x400
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-3 /*Metadata offset 0x54F995*/; // 0x600
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-4 /*Metadata offset 0x54FB95*/; // 0x800
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-5 /*Metadata offset 0x54FD95*/; // 0xA00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-6 /*Metadata offset 0x54FF95*/; // 0xC00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-7 /*Metadata offset 0x550195*/; // 0xE00
 
 	// Methods
 
@@ -9838,43 +9838,43 @@ internal class <PrivateImplementationDetails> // TypeDefIndex: 7895
 
 internal class <PrivateImplementationDetails> // TypeDefIndex: 7973
 {	// Fields
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x550B2D*/; // 0x0
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-1 /*Metadata offset 0x550D2D*/; // 0x200
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-2 /*Metadata offset 0x550F2D*/; // 0x400
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-3 /*Metadata offset 0x55112D*/; // 0x600
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-4 /*Metadata offset 0x55132D*/; // 0x800
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-5 /*Metadata offset 0x55152D*/; // 0xA00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-6 /*Metadata offset 0x55172D*/; // 0xC00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-7 /*Metadata offset 0x55192D*/; // 0xE00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-8 /*Metadata offset 0x551B2D*/; // 0x1000
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-9 /*Metadata offset 0x551D2D*/; // 0x1200
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-10 /*Metadata offset 0x551F2D*/; // 0x1400
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-11 /*Metadata offset 0x55212D*/; // 0x1600
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-12 /*Metadata offset 0x55232D*/; // 0x1800
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-13 /*Metadata offset 0x55252D*/; // 0x1A00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-14 /*Metadata offset 0x55272D*/; // 0x1C00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-15 /*Metadata offset 0x55292D*/; // 0x1E00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-16 /*Metadata offset 0x552B2D*/; // 0x2000
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-17 /*Metadata offset 0x552D2D*/; // 0x2200
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-18 /*Metadata offset 0x552F2D*/; // 0x2400
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-19 /*Metadata offset 0x55312D*/; // 0x2600
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-20 /*Metadata offset 0x55332D*/; // 0x2800
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-21 /*Metadata offset 0x55352D*/; // 0x2A00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-22 /*Metadata offset 0x55372D*/; // 0x2C00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-23 /*Metadata offset 0x55392D*/; // 0x2E00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-24 /*Metadata offset 0x553B2D*/; // 0x3000
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-25 /*Metadata offset 0x553D2D*/; // 0x3200
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-26 /*Metadata offset 0x553F2D*/; // 0x3400
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-27 /*Metadata offset 0x55412D*/; // 0x3600
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-28 /*Metadata offset 0x55432D*/; // 0x3800
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-29 /*Metadata offset 0x55452D*/; // 0x3A00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-30 /*Metadata offset 0x55472D*/; // 0x3C00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-31 /*Metadata offset 0x55492D*/; // 0x3E00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-32 /*Metadata offset 0x554B2D*/; // 0x4000
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-33 /*Metadata offset 0x554D2D*/; // 0x4200
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-34 /*Metadata offset 0x554F2D*/; // 0x4400
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-35 /*Metadata offset 0x55512D*/; // 0x4600
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-36 /*Metadata offset 0x55532D*/; // 0x4800
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x550B41*/; // 0x0
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-1 /*Metadata offset 0x550D41*/; // 0x200
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-2 /*Metadata offset 0x550F41*/; // 0x400
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-3 /*Metadata offset 0x551141*/; // 0x600
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-4 /*Metadata offset 0x551341*/; // 0x800
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-5 /*Metadata offset 0x551541*/; // 0xA00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-6 /*Metadata offset 0x551741*/; // 0xC00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-7 /*Metadata offset 0x551941*/; // 0xE00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-8 /*Metadata offset 0x551B41*/; // 0x1000
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-9 /*Metadata offset 0x551D41*/; // 0x1200
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-10 /*Metadata offset 0x551F41*/; // 0x1400
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-11 /*Metadata offset 0x552141*/; // 0x1600
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-12 /*Metadata offset 0x552341*/; // 0x1800
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-13 /*Metadata offset 0x552541*/; // 0x1A00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-14 /*Metadata offset 0x552741*/; // 0x1C00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-15 /*Metadata offset 0x552941*/; // 0x1E00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-16 /*Metadata offset 0x552B41*/; // 0x2000
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-17 /*Metadata offset 0x552D41*/; // 0x2200
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-18 /*Metadata offset 0x552F41*/; // 0x2400
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-19 /*Metadata offset 0x553141*/; // 0x2600
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-20 /*Metadata offset 0x553341*/; // 0x2800
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-21 /*Metadata offset 0x553541*/; // 0x2A00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-22 /*Metadata offset 0x553741*/; // 0x2C00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-23 /*Metadata offset 0x553941*/; // 0x2E00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-24 /*Metadata offset 0x553B41*/; // 0x3000
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-25 /*Metadata offset 0x553D41*/; // 0x3200
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-26 /*Metadata offset 0x553F41*/; // 0x3400
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-27 /*Metadata offset 0x554141*/; // 0x3600
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-28 /*Metadata offset 0x554341*/; // 0x3800
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-29 /*Metadata offset 0x554541*/; // 0x3A00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-30 /*Metadata offset 0x554741*/; // 0x3C00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-31 /*Metadata offset 0x554941*/; // 0x3E00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-32 /*Metadata offset 0x554B41*/; // 0x4000
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-33 /*Metadata offset 0x554D41*/; // 0x4200
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-34 /*Metadata offset 0x554F41*/; // 0x4400
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-35 /*Metadata offset 0x555141*/; // 0x4600
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-36 /*Metadata offset 0x555341*/; // 0x4800
 
 	// Methods
 
@@ -9885,21 +9885,21 @@ internal class <PrivateImplementationDetails> // TypeDefIndex: 7973
 
 internal class <PrivateImplementationDetails> // TypeDefIndex: 8007
 {	// Fields
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x555CD9*/; // 0x0
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-1 /*Metadata offset 0x555ED9*/; // 0x200
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-2 /*Metadata offset 0x5560D9*/; // 0x400
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-3 /*Metadata offset 0x5562D9*/; // 0x600
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-4 /*Metadata offset 0x5564D9*/; // 0x800
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-5 /*Metadata offset 0x5566D9*/; // 0xA00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-6 /*Metadata offset 0x5568D9*/; // 0xC00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-7 /*Metadata offset 0x556AD9*/; // 0xE00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-8 /*Metadata offset 0x556CD9*/; // 0x1000
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-9 /*Metadata offset 0x556ED9*/; // 0x1200
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-10 /*Metadata offset 0x5570D9*/; // 0x1400
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-11 /*Metadata offset 0x5572D9*/; // 0x1600
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-12 /*Metadata offset 0x5574D9*/; // 0x1800
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-13 /*Metadata offset 0x5576D9*/; // 0x1A00
-	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-14 /*Metadata offset 0x5578D9*/; // 0x1C00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-0 /*Metadata offset 0x555CED*/; // 0x0
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-1 /*Metadata offset 0x555EED*/; // 0x200
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-2 /*Metadata offset 0x5560ED*/; // 0x400
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-3 /*Metadata offset 0x5562ED*/; // 0x600
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-4 /*Metadata offset 0x5564ED*/; // 0x800
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-5 /*Metadata offset 0x5566ED*/; // 0xA00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-6 /*Metadata offset 0x5568ED*/; // 0xC00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-7 /*Metadata offset 0x556AED*/; // 0xE00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-8 /*Metadata offset 0x556CED*/; // 0x1000
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-9 /*Metadata offset 0x556EED*/; // 0x1200
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-10 /*Metadata offset 0x5570ED*/; // 0x1400
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-11 /*Metadata offset 0x5572ED*/; // 0x1600
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-12 /*Metadata offset 0x5574ED*/; // 0x1800
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-13 /*Metadata offset 0x5576ED*/; // 0x1A00
+	internal static <PrivateImplementationDetails>.$ArrayType$512 $$field-14 /*Metadata offset 0x5578ED*/; // 0x1C00
 
 	// Methods
 
@@ -10361,17 +10361,17 @@ public class CC_Sharpen : CC_Base // TypeDefIndex: 8058
 
 public class CC_SharpenAndVignette : CC_Base, IImageEffect // TypeDefIndex: 8059
 {	// Fields
-	[HeaderAttribute] // RVA: 0xC3A10 Offset: 0xC2E10 VA: 0x1800C3A10
+	[HeaderAttribute] // RVA: 0xC3AA0 Offset: 0xC2EA0 VA: 0x1800C3AA0
 	public bool applySharpen; // 0x28
-	[RangeAttribute] // RVA: 0x759D0 Offset: 0x74DD0 VA: 0x1800759D0
+	[RangeAttribute] // RVA: 0x75A70 Offset: 0x74E70 VA: 0x180075A70
 	public float strength; // 0x2C
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float clamp; // 0x30
-	[HeaderAttribute] // RVA: 0xC4F40 Offset: 0xC4340 VA: 0x1800C4F40
+	[HeaderAttribute] // RVA: 0xC5040 Offset: 0xC4440 VA: 0x1800C5040
 	public bool applyVignette; // 0x34
-	[RangeAttribute] // RVA: 0xC5020 Offset: 0xC4420 VA: 0x1800C5020
+	[RangeAttribute] // RVA: 0xC5190 Offset: 0xC4590 VA: 0x1800C5190
 	public float sharpness; // 0x38
-	[RangeAttribute] // RVA: 0x77D60 Offset: 0x77160 VA: 0x180077D60
+	[RangeAttribute] // RVA: 0x77EF0 Offset: 0x772F0 VA: 0x180077EF0
 	public float darkness; // 0x3C
 
 	// Methods
@@ -10441,12 +10441,12 @@ public class CC_Wiggle : CC_Base, IImageEffect // TypeDefIndex: 8062
 
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 8239
 {	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=19552 1DC4C1B55DC0F7A09DD49557857282243A661721 /*Metadata offset 0x557FA4*/; // 0x0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=420 4D97B7EA75C57A5C53C1E01B1C6253465DE43B65 /*Metadata offset 0x55CC04*/; // 0x4C60
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=15874 9B733B2872507920FB43A4A60F4CBE3E17200C8C /*Metadata offset 0x55CDA8*/; // 0x4E04
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=15874 C01F4A345A0DC451B12954EDA4ED605D0075A2A5 /*Metadata offset 0x560BAA*/; // 0x8C06
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 DD09230AEF3C2384FBC6D4B1BC4EADBE9911368E /*Metadata offset 0x5649AC*/; // 0xCA08
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9776 F2AB9A53871DA3CF4444B73A4D38E5580D8F8ED3 /*Metadata offset 0x5649E0*/; // 0xCA3C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=19552 1DC4C1B55DC0F7A09DD49557857282243A661721 /*Metadata offset 0x557FB8*/; // 0x0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=420 4D97B7EA75C57A5C53C1E01B1C6253465DE43B65 /*Metadata offset 0x55CC18*/; // 0x4C60
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=15874 9B733B2872507920FB43A4A60F4CBE3E17200C8C /*Metadata offset 0x55CDBC*/; // 0x4E04
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=15874 C01F4A345A0DC451B12954EDA4ED605D0075A2A5 /*Metadata offset 0x560BBE*/; // 0x8C06
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 DD09230AEF3C2384FBC6D4B1BC4EADBE9911368E /*Metadata offset 0x5649C0*/; // 0xCA08
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=9776 F2AB9A53871DA3CF4444B73A4D38E5580D8F8ED3 /*Metadata offset 0x5649F4*/; // 0xCA3C
 
 }
 
@@ -10468,14 +10468,14 @@ private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=19552 //
 internal class <Module> // TypeDefIndex: 8245
 
 // Namespace: 
-[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <State>j__TPar> // TypeDefIndex: 8246
 	// Fields
-	[DebuggerBrowsableAttribute] // RVA: 0x9E940 Offset: 0x9DD40 VA: 0x18009E940
+	[DebuggerBrowsableAttribute] // RVA: 0x9E9D0 Offset: 0x9DDD0 VA: 0x18009E9D0
 	private readonly <Identifier>j__TPar <Identifier>i__Field; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x9E940 Offset: 0x9DD40 VA: 0x18009E940
+	[DebuggerBrowsableAttribute] // RVA: 0x9E9D0 Offset: 0x9DDD0 VA: 0x18009E9D0
 	private readonly <Name>j__TPar <Name>i__Field; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x9E940 Offset: 0x9DD40 VA: 0x18009E940
+	[DebuggerBrowsableAttribute] // RVA: 0x9E9D0 Offset: 0x9DDD0 VA: 0x18009E9D0
 	private readonly <State>j__TPar <State>i__Field; // 0x0
 
 	// Properties
@@ -10514,7 +10514,7 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	|-<>f__AnonymousType0<object, object, object>.get_State
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public void .ctor(<Identifier>j__TPar Identifier, <Name>j__TPar Name, <State>j__TPar State) { }
 	/* GenericInstMethod :
@@ -10527,7 +10527,7 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	|-<>f__AnonymousType0<object, object, object>..ctor
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 0
 	public override bool Equals(object value) { }
 	/* GenericInstMethod :
@@ -10539,7 +10539,7 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	|-<>f__AnonymousType0<object, object, object>.Equals
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 2
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
@@ -10551,7 +10551,7 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	|-<>f__AnonymousType0<object, object, object>.GetHashCode
 	*/
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1 Slot: 3
 	public override string ToString() { }
 	/* GenericInstMethod :
@@ -10594,25 +10594,25 @@ public class v_chainsaw : MonoBehaviour // TypeDefIndex: 8896
 
 	// Methods
 
-	// RVA: 0x1AAC020 Offset: 0x1AAA620 VA: 0x181AAC020
+	// RVA: 0x1A95C90 Offset: 0x1A94290 VA: 0x181A95C90
 	public void OnEnable() { }
 
-	// RVA: 0x1AABE60 Offset: 0x1AAA460 VA: 0x181AABE60
+	// RVA: 0x1A95AD0 Offset: 0x1A940D0 VA: 0x181A95AD0
 	private void Awake() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void Start() { }
 
-	// RVA: 0x1AAC130 Offset: 0x1AAA730 VA: 0x181AAC130
+	// RVA: 0x1A95DA0 Offset: 0x1A943A0 VA: 0x181A95DA0
 	private void ScrollChainTexture() { }
 
-	// RVA: 0x1AAC240 Offset: 0x1AAA840 VA: 0x181AAC240
+	// RVA: 0x1A95EB0 Offset: 0x1A944B0 VA: 0x181A95EB0
 	private void Update() { }
 
-	// RVA: 0x1AABEA0 Offset: 0x1AAA4A0 VA: 0x181AABEA0
+	// RVA: 0x1A95B10 Offset: 0x1A94110 VA: 0x181A95B10
 	private void DoHitSound(SoundDefinition soundDef) { }
 
-	// RVA: 0x1AAC7B0 Offset: 0x1AAADB0 VA: 0x181AAC7B0
+	// RVA: 0x1A96420 Offset: 0x1A94A20 VA: 0x181A96420
 	public void .ctor() { }
 
 }
@@ -10620,32 +10620,32 @@ public class v_chainsaw : MonoBehaviour // TypeDefIndex: 8896
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 12153
 {
 // Namespace: 
-[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal sealed class <PrivateImplementationDetails> // TypeDefIndex: 12153
 	// Fields
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 08A598D3DC7ED63443A0CAF087F7CDF5BAA67E3D /*Metadata offset 0x56AAAD*/; // 0x0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 0ED907628EE272F93737B500A23D77C9B1C88368 /*Metadata offset 0x56AAC5*/; // 0x18
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28 17ADC9F18EEFE619644F7B3C7C90D5FD8DCDE2BB /*Metadata offset 0x56AAD9*/; // 0x2C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 1C910D34886830DDE4A52B59726EB240ADBF9F34 /*Metadata offset 0x56AAF5*/; // 0x48
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 2277B245F935EBA3EA2D03B6871C13871FD4D572 /*Metadata offset 0x56AAFB*/; // 0x4E
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 24F287DA5BA36E31C3946E2FBE95B8388C241662 /*Metadata offset 0x56AB0B*/; // 0x5E
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 386DD6935C2F38BB8114CA4DF96C8BC2D3E639DA /*Metadata offset 0x56AB23*/; // 0x76
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 42A4001D1CFDC98C761C0CFE5497A75F739D92F8 /*Metadata offset 0x56AB2F*/; // 0x82
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 43A214299CEA27B6A55E61A929FC7B62C5D4941E /*Metadata offset 0x56AB3B*/; // 0x8E
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 44D235DAFB9C469EBDA7640EB1F2CC833B40E9E5 /*Metadata offset 0x56B33B*/; // 0x88E
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 08A598D3DC7ED63443A0CAF087F7CDF5BAA67E3D /*Metadata offset 0x56AAC1*/; // 0x0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 0ED907628EE272F93737B500A23D77C9B1C88368 /*Metadata offset 0x56AAD9*/; // 0x18
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28 17ADC9F18EEFE619644F7B3C7C90D5FD8DCDE2BB /*Metadata offset 0x56AAED*/; // 0x2C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=6 1C910D34886830DDE4A52B59726EB240ADBF9F34 /*Metadata offset 0x56AB09*/; // 0x48
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=16 2277B245F935EBA3EA2D03B6871C13871FD4D572 /*Metadata offset 0x56AB0F*/; // 0x4E
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 24F287DA5BA36E31C3946E2FBE95B8388C241662 /*Metadata offset 0x56AB1F*/; // 0x5E
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 386DD6935C2F38BB8114CA4DF96C8BC2D3E639DA /*Metadata offset 0x56AB37*/; // 0x76
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 42A4001D1CFDC98C761C0CFE5497A75F739D92F8 /*Metadata offset 0x56AB43*/; // 0x82
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 43A214299CEA27B6A55E61A929FC7B62C5D4941E /*Metadata offset 0x56AB4F*/; // 0x8E
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 44D235DAFB9C469EBDA7640EB1F2CC833B40E9E5 /*Metadata offset 0x56B34F*/; // 0x88E
 	internal static readonly long 4CAECE539B039B16E16206EA2478F8C5FFB2CA05 = 727905341920923785; // 0x8D0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 59E933D7501F1D8F431F5807AC6C357BBA5F2D58 /*Metadata offset 0x56B383*/; // 0x8D8
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 6B8D5CC14D2709C84958ED5E3855C874DA314CB4 /*Metadata offset 0x56B39B*/; // 0x8F0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 6BA637A252B6BFA8895B67AD72DCCAE79715984C /*Metadata offset 0x56B49B*/; // 0x9F0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=80 6DBA8D05A3CD51B9E01E83FDDF49241693E5D4E4 /*Metadata offset 0x56B4DB*/; // 0xA30
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 843D396E2EE569B035A7AC2BEB7A8253FC4AEDA7 /*Metadata offset 0x56B52B*/; // 0xA80
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 9365FDAD4BD75AEF9446E0B22483D217BE36E309 /*Metadata offset 0x56B537*/; // 0xA8C
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=288 9EFF88EB2F3540C5CE20FEF36A8E3AA37629AF80 /*Metadata offset 0x56B54F*/; // 0xAA4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 B9B198B061D08812F585C9E56641F4E897E88E38 /*Metadata offset 0x56B66F*/; // 0xBC4
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 C18072E27FC2B4816C8694EB22427195375388F0 /*Metadata offset 0x56B67B*/; // 0xBD0
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28 C7F420F4B2F68D0B3647564554BA8DB99509F64F /*Metadata offset 0x56B6B3*/; // 0xC08
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 D950356082C70AD4018410AD313BA99D655D4D4A /*Metadata offset 0x56B6CF*/; // 0xC24
-	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 E3D5EABE71635FCDE2C05162A6CDE245A9796318 /*Metadata offset 0x56B6DB*/; // 0xC30
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 59E933D7501F1D8F431F5807AC6C357BBA5F2D58 /*Metadata offset 0x56B397*/; // 0x8D8
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 6B8D5CC14D2709C84958ED5E3855C874DA314CB4 /*Metadata offset 0x56B3AF*/; // 0x8F0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 6BA637A252B6BFA8895B67AD72DCCAE79715984C /*Metadata offset 0x56B4AF*/; // 0x9F0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=80 6DBA8D05A3CD51B9E01E83FDDF49241693E5D4E4 /*Metadata offset 0x56B4EF*/; // 0xA30
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 843D396E2EE569B035A7AC2BEB7A8253FC4AEDA7 /*Metadata offset 0x56B53F*/; // 0xA80
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=24 9365FDAD4BD75AEF9446E0B22483D217BE36E309 /*Metadata offset 0x56B54B*/; // 0xA8C
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=288 9EFF88EB2F3540C5CE20FEF36A8E3AA37629AF80 /*Metadata offset 0x56B563*/; // 0xAA4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 B9B198B061D08812F585C9E56641F4E897E88E38 /*Metadata offset 0x56B683*/; // 0xBC4
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=56 C18072E27FC2B4816C8694EB22427195375388F0 /*Metadata offset 0x56B68F*/; // 0xBD0
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=28 C7F420F4B2F68D0B3647564554BA8DB99509F64F /*Metadata offset 0x56B6C7*/; // 0xC08
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=12 D950356082C70AD4018410AD313BA99D655D4D4A /*Metadata offset 0x56B6E3*/; // 0xC24
+	internal static readonly <PrivateImplementationDetails>.__StaticArrayInitTypeSize=128 E3D5EABE71635FCDE2C05162A6CDE245A9796318 /*Metadata offset 0x56B6EF*/; // 0xC30
 	internal static readonly long FCBA60311CDE80DE090AE6F8834C9CEC477FA56A = 5927942488114331648; // 0xCB0
 
 	// Methods

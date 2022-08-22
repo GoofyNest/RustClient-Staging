@@ -76,7 +76,7 @@ public class SellOrderEntry : MonoBehaviour, IInventoryChanged // TypeDefIndex: 
 	// RVA: 0x58B840 Offset: 0x589E40 VA: 0x18058B840
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x58B0B0 Offset: 0x5896B0 VA: 0x18058B0B0
 	private bool <CurrencyAvailable>b__30_0(Item x) { }
 

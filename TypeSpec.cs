@@ -17,40 +17,40 @@ internal class TypeSpec // TypeDefIndex: 414
 	// RVA: 0x12A54D0 Offset: 0x12A3AD0 VA: 0x1812A54D0
 	internal bool get_HasModifiers() { }
 
-	// RVA: 0x213E220 Offset: 0x213C820 VA: 0x18213E220
+	// RVA: 0x213E060 Offset: 0x213C660 VA: 0x18213E060
 	private string GetDisplayFullName(TypeSpec.DisplayNameFormat flags) { }
 
-	// RVA: 0x213E660 Offset: 0x213CC60 VA: 0x18213E660
+	// RVA: 0x213E4A0 Offset: 0x213CAA0 VA: 0x18213E4A0
 	private StringBuilder GetModifierString(StringBuilder sb) { }
 
-	// RVA: 0x2140050 Offset: 0x213E650 VA: 0x182140050
+	// RVA: 0x213FE90 Offset: 0x213E490 VA: 0x18213FE90
 	internal string get_DisplayFullName() { }
 
-	// RVA: 0x213E840 Offset: 0x213CE40 VA: 0x18213E840
+	// RVA: 0x213E680 Offset: 0x213CC80 VA: 0x18213E680
 	internal static TypeSpec Parse(string typeName) { }
 
-	// RVA: 0x213FF70 Offset: 0x213E570 VA: 0x18213FF70
+	// RVA: 0x213FDB0 Offset: 0x213E3B0 VA: 0x18213FDB0
 	internal static string UnescapeInternalName(string displayName) { }
 
-	// RVA: 0x213F670 Offset: 0x213DC70 VA: 0x18213F670
+	// RVA: 0x213F4B0 Offset: 0x213DAB0 VA: 0x18213F4B0
 	internal Type Resolve(Func<AssemblyName, Assembly> assemblyResolver, Func<Assembly, string, bool, Type> typeResolver, bool throwOnError, bool ignoreCase) { }
 
-	// RVA: 0x213E0C0 Offset: 0x213C6C0 VA: 0x18213E0C0
+	// RVA: 0x213DF00 Offset: 0x213C500 VA: 0x18213DF00
 	private void AddName(string type_name) { }
 
-	// RVA: 0x213E020 Offset: 0x213C620 VA: 0x18213E020
+	// RVA: 0x213DE60 Offset: 0x213C460 VA: 0x18213DE60
 	private void AddModifier(ModifierSpec md) { }
 
-	// RVA: 0x213FEC0 Offset: 0x213E4C0 VA: 0x18213FEC0
+	// RVA: 0x213FD00 Offset: 0x213E300 VA: 0x18213FD00
 	private static void SkipSpace(string name, ref int pos) { }
 
-	// RVA: 0x213E1A0 Offset: 0x213C7A0 VA: 0x18213E1A0
+	// RVA: 0x213DFE0 Offset: 0x213C5E0 VA: 0x18213DFE0
 	private static void BoundCheck(int idx, string s) { }
 
-	// RVA: 0x213D510 Offset: 0x213BB10 VA: 0x18213D510
+	// RVA: 0x213D350 Offset: 0x213B950 VA: 0x18213D350
 	private static TypeIdentifier ParsedTypeIdentifier(string displayName) { }
 
-	// RVA: 0x213E900 Offset: 0x213CF00 VA: 0x18213E900
+	// RVA: 0x213E740 Offset: 0x213CD40 VA: 0x18213E740
 	private static TypeSpec Parse(string name, ref int p, bool is_recurse, bool allow_aqn) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

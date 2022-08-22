@@ -1,13 +1,13 @@
 public class Impostor : MonoBehaviour, IClientComponent // TypeDefIndex: 10677
 {	// Fields
 	public ImpostorAsset asset; // 0x18
-	[HeaderAttribute] // RVA: 0xF0870 Offset: 0xEFC70 VA: 0x1800F0870
+	[HeaderAttribute] // RVA: 0xF0900 Offset: 0xEFD00 VA: 0x1800F0900
 	public GameObject reference; // 0x20
 	public float angle; // 0x28
 	public int resolution; // 0x2C
 	public int padding; // 0x30
 	public bool spriteOutlineAsMesh; // 0x34
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private ImpostorInstanceData <InstanceData>k__BackingField; // 0x38
 	public bool keepTrying; // 0x40
 
@@ -16,11 +16,11 @@ public class Impostor : MonoBehaviour, IClientComponent // TypeDefIndex: 10677
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
 	public ImpostorInstanceData get_InstanceData() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6AD5B0 Offset: 0x6ABBB0 VA: 0x1806AD5B0
 	private void set_InstanceData(ImpostorInstanceData value) { }
 

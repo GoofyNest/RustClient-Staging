@@ -7,19 +7,19 @@ internal sealed class BitHelper // TypeDefIndex: 3253
 
 	// Methods
 
-	// RVA: 0x2229440 Offset: 0x2227A40 VA: 0x182229440
+	// RVA: 0x2229280 Offset: 0x2227880 VA: 0x182229280
 	internal void .ctor(int* bitArrayPtr, int length) { }
 
-	// RVA: 0x2229480 Offset: 0x2227A80 VA: 0x182229480
+	// RVA: 0x22292C0 Offset: 0x22278C0 VA: 0x1822292C0
 	internal void .ctor(int[] bitArray, int length) { }
 
-	// RVA: 0x22293A0 Offset: 0x22279A0 VA: 0x1822293A0
+	// RVA: 0x22291E0 Offset: 0x22277E0 VA: 0x1822291E0
 	internal void MarkBit(int bitPosition) { }
 
-	// RVA: 0x2229310 Offset: 0x2227910 VA: 0x182229310
+	// RVA: 0x2229150 Offset: 0x2227750 VA: 0x182229150
 	internal bool IsMarked(int bitPosition) { }
 
-	// RVA: 0x2229420 Offset: 0x2227A20 VA: 0x182229420
+	// RVA: 0x2229260 Offset: 0x2227860 VA: 0x182229260
 	internal static int ToIntArrayLength(int n) { }
 
 }

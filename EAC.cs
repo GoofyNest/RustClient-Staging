@@ -34,7 +34,7 @@ public static class EAC // TypeDefIndex: 9186
 	// RVA: 0xAB7130 Offset: 0xAB5730 VA: 0x180AB7130
 	private static void SendToServer(byte[] message, int messageLength) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD72F0 Offset: 0xD66F0 VA: 0x1800D72F0
+	[IteratorStateMachineAttribute] // RVA: 0xD7360 Offset: 0xD6760 VA: 0x1800D7360
 	// RVA: 0xAB6640 Offset: 0xAB4C40 VA: 0x180AB6640
 	public static IEnumerator DoStartup() { }
 
@@ -44,7 +44,7 @@ public static class EAC // TypeDefIndex: 9186
 	// RVA: 0xAB6690 Offset: 0xAB4C90 VA: 0x180AB6690
 	public static void DoUpdate() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD7410 Offset: 0xD6810 VA: 0x1800D7410
+	[AsyncStateMachineAttribute] // RVA: 0xD7480 Offset: 0xD6880 VA: 0x1800D7480
 	// RVA: 0xAB6960 Offset: 0xAB4F60 VA: 0x180AB6960
 	public static Task OnJoinServer() { }
 
@@ -70,26 +70,26 @@ private sealed class EAC.<DoStartup>d__12 : IEnumerator<object>, IEnumerator, ID
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0xAC59E0 Offset: 0xAC3FE0 VA: 0x180AC59E0 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xAC5D20 Offset: 0xAC4320 VA: 0x180AC5D20 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
@@ -103,11 +103,11 @@ private struct EAC.<OnJoinServer>d__16 : IAsyncStateMachine // TypeDefIndex: 918
 
 	// Methods
 
-	// RVA: 0xFC6E0 Offset: 0xFBAE0 VA: 0x1800FC6E0 Slot: 4
+	// RVA: 0xFC660 Offset: 0xFBA60 VA: 0x1800FC660 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

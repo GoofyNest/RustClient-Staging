@@ -1,22 +1,22 @@
 public class MonumentInfo : LandmarkInfo, IPrefabPreProcess // TypeDefIndex: 9966
 {	// Fields
-	[HeaderAttribute] // RVA: 0xAB250 Offset: 0xAA650 VA: 0x1800AB250
+	[HeaderAttribute] // RVA: 0xAB340 Offset: 0xAA740 VA: 0x1800AB340
 	public MonumentType Type; // 0x30
-	[InspectorFlagsAttribute] // RVA: 0x70AC0 Offset: 0x6FEC0 VA: 0x180070AC0
+	[InspectorFlagsAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
 	public MonumentTier Tier; // 0x34
 	public int MinWorldSize; // 0x38
 	public Bounds Bounds; // 0x3C
 	public bool HasNavmesh; // 0x54
 	public bool IsSafeZone; // 0x55
-	[HideInInspector] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public bool WantsDungeonLink; // 0x56
-	[HideInInspector] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public bool HasDungeonLink; // 0x57
-	[HideInInspector] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public DungeonGridInfo DungeonEntrance; // 0x58
-	[HideInInspector] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public float PreventBuildingRadius; // 0x60
-	[HideInInspector] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public Vector3 PreventBuildingOrigin; // 0x64
 
 	// Properties

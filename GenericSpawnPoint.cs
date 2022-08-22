@@ -2,7 +2,7 @@ public class GenericSpawnPoint : BaseSpawnPoint // TypeDefIndex: 9999
 {	// Fields
 	public bool dropToGround; // 0x18
 	public bool randomRot; // 0x19
-	[RangeAttribute] // RVA: 0xACE10 Offset: 0xAC210 VA: 0x1800ACE10
+	[RangeAttribute] // RVA: 0xACEB0 Offset: 0xAC2B0 VA: 0x1800ACEB0
 	public float randomRotSnapDegrees; // 0x1C
 	public GameObjectRef spawnEffect; // 0x20
 	public UnityEvent OnObjectSpawnedEvent; // 0x28

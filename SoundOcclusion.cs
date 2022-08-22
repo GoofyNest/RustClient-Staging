@@ -1,7 +1,7 @@
 public class SoundOcclusion : MonoBehaviour // TypeDefIndex: 9038
 {	// Fields
 	public LayerMask occlusionLayerMask; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <isOccluded>k__BackingField; // 0x1C
 	private float occlusionAmount; // 0x20
 	private Sound sound; // 0x28
@@ -18,11 +18,11 @@ public class SoundOcclusion : MonoBehaviour // TypeDefIndex: 9038
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7D0C30 Offset: 0x7CF230 VA: 0x1807D0C30
 	public bool get_isOccluded() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7D0CA0 Offset: 0x7CF2A0 VA: 0x1807D0CA0
 	private void set_isOccluded(bool value) { }
 

@@ -14,43 +14,43 @@ internal struct FloatTween : ITweenValue // TypeDefIndex: 5042
 
 	// Methods
 
-	// RVA: 0x117180 Offset: 0x116580 VA: 0x180117180
+	// RVA: 0x117100 Offset: 0x116500 VA: 0x180117100
 	public float get_startValue() { }
 
-	// RVA: 0x1171C0 Offset: 0x1165C0 VA: 0x1801171C0
+	// RVA: 0x117140 Offset: 0x116540 VA: 0x180117140
 	public void set_startValue(float value) { }
 
-	// RVA: 0x117190 Offset: 0x116590 VA: 0x180117190
+	// RVA: 0x117110 Offset: 0x116510 VA: 0x180117110
 	public float get_targetValue() { }
 
-	// RVA: 0x1171D0 Offset: 0x1165D0 VA: 0x1801171D0
+	// RVA: 0x117150 Offset: 0x116550 VA: 0x180117150
 	public void set_targetValue(float value) { }
 
-	// RVA: 0x116AE0 Offset: 0x115EE0 VA: 0x180116AE0 Slot: 6
+	// RVA: 0x116A60 Offset: 0x115E60 VA: 0x180116A60 Slot: 6
 	public float get_duration() { }
 
-	// RVA: 0x1171A0 Offset: 0x1165A0 VA: 0x1801171A0
+	// RVA: 0x117120 Offset: 0x116520 VA: 0x180117120
 	public void set_duration(float value) { }
 
-	// RVA: 0x1170C0 Offset: 0x1164C0 VA: 0x1801170C0 Slot: 5
+	// RVA: 0x117040 Offset: 0x116440 VA: 0x180117040 Slot: 5
 	public bool get_ignoreTimeScale() { }
 
-	// RVA: 0x1171B0 Offset: 0x1165B0 VA: 0x1801171B0
+	// RVA: 0x117130 Offset: 0x116530 VA: 0x180117130
 	public void set_ignoreTimeScale(bool value) { }
 
-	// RVA: 0x19E680 Offset: 0x19DA80 VA: 0x18019E680 Slot: 4
+	// RVA: 0x19E600 Offset: 0x19DA00 VA: 0x18019E600 Slot: 4
 	public void TweenValue(float floatPercentage) { }
 
-	// RVA: 0x19E670 Offset: 0x19DA70 VA: 0x18019E670
+	// RVA: 0x19E5F0 Offset: 0x19D9F0 VA: 0x18019E5F0
 	public void AddOnChangedCallback(UnityAction<float> callback) { }
 
-	// RVA: 0x1170C0 Offset: 0x1164C0 VA: 0x1801170C0
+	// RVA: 0x117040 Offset: 0x116440 VA: 0x180117040
 	public bool GetIgnoreTimescale() { }
 
-	// RVA: 0x116AE0 Offset: 0x115EE0 VA: 0x180116AE0
+	// RVA: 0x116A60 Offset: 0x115E60 VA: 0x180116A60
 	public float GetDuration() { }
 
-	// RVA: 0xF4FD0 Offset: 0xF43D0 VA: 0x1800F4FD0 Slot: 7
+	// RVA: 0xF4F50 Offset: 0xF4350 VA: 0x1800F4F50 Slot: 7
 	public bool ValidTarget() { }
 
 }
@@ -79,43 +79,43 @@ internal struct FloatTween : ITweenValue // TypeDefIndex: 6753
 
 	// Methods
 
-	// RVA: 0x117180 Offset: 0x116580 VA: 0x180117180
+	// RVA: 0x117100 Offset: 0x116500 VA: 0x180117100
 	public float get_startValue() { }
 
-	// RVA: 0x1171C0 Offset: 0x1165C0 VA: 0x1801171C0
+	// RVA: 0x117140 Offset: 0x116540 VA: 0x180117140
 	public void set_startValue(float value) { }
 
-	// RVA: 0x117190 Offset: 0x116590 VA: 0x180117190
+	// RVA: 0x117110 Offset: 0x116510 VA: 0x180117110
 	public float get_targetValue() { }
 
-	// RVA: 0x1171D0 Offset: 0x1165D0 VA: 0x1801171D0
+	// RVA: 0x117150 Offset: 0x116550 VA: 0x180117150
 	public void set_targetValue(float value) { }
 
-	// RVA: 0x116AE0 Offset: 0x115EE0 VA: 0x180116AE0 Slot: 6
+	// RVA: 0x116A60 Offset: 0x115E60 VA: 0x180116A60 Slot: 6
 	public float get_duration() { }
 
-	// RVA: 0x1171A0 Offset: 0x1165A0 VA: 0x1801171A0
+	// RVA: 0x117120 Offset: 0x116520 VA: 0x180117120
 	public void set_duration(float value) { }
 
-	// RVA: 0x1170C0 Offset: 0x1164C0 VA: 0x1801170C0 Slot: 5
+	// RVA: 0x117040 Offset: 0x116440 VA: 0x180117040 Slot: 5
 	public bool get_ignoreTimeScale() { }
 
-	// RVA: 0x1171B0 Offset: 0x1165B0 VA: 0x1801171B0
+	// RVA: 0x117130 Offset: 0x116530 VA: 0x180117130
 	public void set_ignoreTimeScale(bool value) { }
 
-	// RVA: 0x1170D0 Offset: 0x1164D0 VA: 0x1801170D0 Slot: 4
+	// RVA: 0x117050 Offset: 0x116450 VA: 0x180117050 Slot: 4
 	public void TweenValue(float floatPercentage) { }
 
-	// RVA: 0x117010 Offset: 0x116410 VA: 0x180117010
+	// RVA: 0x116F90 Offset: 0x116390 VA: 0x180116F90
 	public void AddOnChangedCallback(UnityAction<float> callback) { }
 
-	// RVA: 0x1170C0 Offset: 0x1164C0 VA: 0x1801170C0
+	// RVA: 0x117040 Offset: 0x116440 VA: 0x180117040
 	public bool GetIgnoreTimescale() { }
 
-	// RVA: 0x116AE0 Offset: 0x115EE0 VA: 0x180116AE0
+	// RVA: 0x116A60 Offset: 0x115E60 VA: 0x180116A60
 	public float GetDuration() { }
 
-	// RVA: 0xF4FD0 Offset: 0xF43D0 VA: 0x1800F4FD0 Slot: 7
+	// RVA: 0xF4F50 Offset: 0xF4350 VA: 0x1800F4F50 Slot: 7
 	public bool ValidTarget() { }
 
 }

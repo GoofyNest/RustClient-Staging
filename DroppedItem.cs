@@ -1,6 +1,6 @@
 public class DroppedItem : WorldItem // TypeDefIndex: 9791
 {	// Fields
-	[HeaderAttribute] // RVA: 0x99190 Offset: 0x98590 VA: 0x180099190
+	[HeaderAttribute] // RVA: 0x99310 Offset: 0x98710 VA: 0x180099310
 	public GameObject itemModel; // 0x178
 	private Collider childCollider; // 0x180
 
@@ -24,7 +24,7 @@ public class DroppedItem : WorldItem // TypeDefIndex: 9791
 	// RVA: 0xAB2E40 Offset: 0xAB1440 VA: 0x180AB2E40
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xAB2E10 Offset: 0xAB1410 VA: 0x180AB2E10
 	private bool <PostInitShared>b__2_0(ItemSkinDirectory.Skin x) { }
 

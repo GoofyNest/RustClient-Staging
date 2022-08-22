@@ -65,7 +65,7 @@ public class MD4Managed : MD4 // TypeDefIndex: 1756
 
 	// Methods
 
-	// RVA: 0x1AB7EF0 Offset: 0x1AB64F0 VA: 0x181AB7EF0
+	// RVA: 0x1AB7D30 Offset: 0x1AB6330 VA: 0x181AB7D30
 	public void .ctor() { }
 
 	// RVA: 0x174B700 Offset: 0x1749D00 VA: 0x18174B700 Slot: 16
@@ -74,10 +74,10 @@ public class MD4Managed : MD4 // TypeDefIndex: 1756
 	// RVA: 0x174B3C0 Offset: 0x17499C0 VA: 0x18174B3C0 Slot: 17
 	protected override void HashCore(byte[] array, int ibStart, int cbSize) { }
 
-	// RVA: 0x1AB7D00 Offset: 0x1AB6300 VA: 0x181AB7D00 Slot: 18
+	// RVA: 0x1AB7B40 Offset: 0x1AB6140 VA: 0x181AB7B40 Slot: 18
 	protected override byte[] HashFinal() { }
 
-	// RVA: 0x1AB7E80 Offset: 0x1AB6480 VA: 0x181AB7E80
+	// RVA: 0x1AB7CC0 Offset: 0x1AB62C0 VA: 0x181AB7CC0
 	private byte[] Padding(int nLength) { }
 
 	// RVA: 0x174B2F0 Offset: 0x17498F0 VA: 0x18174B2F0

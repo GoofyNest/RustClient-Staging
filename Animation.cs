@@ -11,22 +11,22 @@ public class AnimationCurve : IEquatable<AnimationCurve> // TypeDefIndex: 3353
 
 	// Methods
 
-	[FreeFunctionAttribute] // RVA: 0xF0280 Offset: 0xEF680 VA: 0x1800F0280
+	[FreeFunctionAttribute] // RVA: 0xF0200 Offset: 0xEF600 VA: 0x1800F0200
 	// RVA: 0x181C6E0 Offset: 0x181ACE0 VA: 0x18181C6E0
 	private static void Internal_Destroy(IntPtr ptr) { }
 
-	[FreeFunctionAttribute] // RVA: 0xF0360 Offset: 0xEF760 VA: 0x1800F0360
+	[FreeFunctionAttribute] // RVA: 0xF0310 Offset: 0xEF710 VA: 0x1800F0310
 	// RVA: 0x181C6A0 Offset: 0x181ACA0 VA: 0x18181C6A0
 	private static IntPtr Internal_Create(Keyframe[] keys) { }
 
-	[FreeFunctionAttribute] // RVA: 0xF04C0 Offset: 0xEF8C0 VA: 0x1800F04C0
+	[FreeFunctionAttribute] // RVA: 0xF03F0 Offset: 0xEF7F0 VA: 0x1800F03F0
 	// RVA: 0x181C720 Offset: 0x181AD20 VA: 0x18181C720
 	private bool Internal_Equals(IntPtr other) { }
 
 	// RVA: 0x181C4E0 Offset: 0x181AAE0 VA: 0x18181C4E0 Slot: 1
 	protected override void Finalize() { }
 
-	[ThreadSafeAttribute] // RVA: 0x93BC0 Offset: 0x92FC0 VA: 0x180093BC0
+	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
 	// RVA: 0x181C490 Offset: 0x181AA90 VA: 0x18181C490
 	public float Evaluate(float time) { }
 
@@ -39,27 +39,27 @@ public class AnimationCurve : IEquatable<AnimationCurve> // TypeDefIndex: 3353
 	// RVA: 0x181BF70 Offset: 0x181A570 VA: 0x18181BF70
 	public int AddKey(Keyframe key) { }
 
-	[NativeMethodAttribute] // RVA: 0xF06A0 Offset: 0xEFAA0 VA: 0x1800F06A0
+	[NativeMethodAttribute] // RVA: 0xF05E0 Offset: 0xEF9E0 VA: 0x1800F05E0
 	// RVA: 0x181BF20 Offset: 0x181A520 VA: 0x18181BF20
 	private int AddKey_Internal(Keyframe key) { }
 
 	// RVA: 0x181CAF0 Offset: 0x181B0F0 VA: 0x18181CAF0
 	public Keyframe get_Item(int index) { }
 
-	[NativeMethodAttribute] // RVA: 0xF07C0 Offset: 0xEFBC0 VA: 0x1800F07C0
+	[NativeMethodAttribute] // RVA: 0xF0730 Offset: 0xEFB30 VA: 0x1800F0730
 	// RVA: 0x181CB80 Offset: 0x181B180 VA: 0x18181CB80
 	public int get_length() { }
 
-	[FreeFunctionAttribute] // RVA: 0xF0970 Offset: 0xEFD70 VA: 0x1800F0970
+	[FreeFunctionAttribute] // RVA: 0xF0850 Offset: 0xEFC50 VA: 0x1800F0850
 	// RVA: 0x181CA10 Offset: 0x181B010 VA: 0x18181CA10
 	private void SetKeys(Keyframe[] keys) { }
 
-	[NativeThrowsAttribute] // RVA: 0xF0AB0 Offset: 0xEFEB0 VA: 0x1800F0AB0
-	[FreeFunctionAttribute] // RVA: 0xF0AB0 Offset: 0xEFEB0 VA: 0x1800F0AB0
+	[FreeFunctionAttribute] // RVA: 0xF0A00 Offset: 0xEFE00 VA: 0x1800F0A00
+	[NativeThrowsAttribute] // RVA: 0xF0A00 Offset: 0xEFE00 VA: 0x1800F0A00
 	// RVA: 0x181C5F0 Offset: 0x181ABF0 VA: 0x18181C5F0
 	private Keyframe GetKey(int index) { }
 
-	[FreeFunctionAttribute] // RVA: 0xF0D00 Offset: 0xF0100 VA: 0x1800F0D00
+	[FreeFunctionAttribute] // RVA: 0xF0C40 Offset: 0xF0040 VA: 0x1800F0C40
 	// RVA: 0x181C660 Offset: 0x181AC60 VA: 0x18181C660
 	private Keyframe[] GetKeys() { }
 
@@ -72,18 +72,18 @@ public class AnimationCurve : IEquatable<AnimationCurve> // TypeDefIndex: 3353
 	// RVA: 0x181C000 Offset: 0x181A600 VA: 0x18181C000
 	public static AnimationCurve EaseInOut(float timeStart, float valueStart, float timeEnd, float valueEnd) { }
 
-	[NativeMethodAttribute] // RVA: 0xF0EA0 Offset: 0xF02A0 VA: 0x1800F0EA0
+	[NativeMethodAttribute] // RVA: 0xF0DE0 Offset: 0xF01E0 VA: 0x1800F0DE0
 	// RVA: 0x181CC00 Offset: 0x181B200 VA: 0x18181CC00
 	public void set_preWrapMode(WrapMode value) { }
 
-	[NativeMethodAttribute] // RVA: 0xF0FB0 Offset: 0xF03B0 VA: 0x1800F0FB0
+	[NativeMethodAttribute] // RVA: 0xF0F30 Offset: 0xF0330 VA: 0x1800F0F30
 	// RVA: 0x181CBC0 Offset: 0x181B1C0 VA: 0x18181CBC0
 	public void set_postWrapMode(WrapMode value) { }
 
 	// RVA: 0x181CAA0 Offset: 0x181B0A0 VA: 0x18181CAA0
 	public void .ctor(Keyframe[] keys) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x181CA60 Offset: 0x181B060 VA: 0x18181CA60
 	public void .ctor() { }
 
@@ -106,19 +106,19 @@ public class AnimationCurve : IEquatable<AnimationCurve> // TypeDefIndex: 3353
 
 public sealed class AnimationClip : Motion // TypeDefIndex: 4479
 {	// Properties
-	[NativePropertyAttribute] // RVA: 0xC91D0 Offset: 0xC85D0 VA: 0x1800C91D0
+	[NativePropertyAttribute] // RVA: 0xC9230 Offset: 0xC8630 VA: 0x1800C9230
 	public float length { get; }
 
 	// Methods
 
-	// RVA: 0x22DAA20 Offset: 0x22D9020 VA: 0x1822DAA20
+	// RVA: 0x22DA860 Offset: 0x22D8E60 VA: 0x1822DA860
 	public void .ctor() { }
 
-	[FreeFunctionAttribute] // RVA: 0xC8F90 Offset: 0xC8390 VA: 0x1800C8F90
-	// RVA: 0x22DA9E0 Offset: 0x22D8FE0 VA: 0x1822DA9E0
+	[FreeFunctionAttribute] // RVA: 0xC9030 Offset: 0xC8430 VA: 0x1800C9030
+	// RVA: 0x22DA820 Offset: 0x22D8E20 VA: 0x1822DA820
 	private static void Internal_CreateAnimationClip(AnimationClip self) { }
 
-	// RVA: 0x22DAAA0 Offset: 0x22D90A0 VA: 0x1822DAAA0
+	// RVA: 0x22DA8E0 Offset: 0x22D8EE0 VA: 0x1822DA8E0
 	public float get_length() { }
 
 }
@@ -154,22 +154,22 @@ public sealed class AnimationEvent // TypeDefIndex: 4497
 
 	// Methods
 
-	// RVA: 0x22DAAE0 Offset: 0x22D90E0 VA: 0x1822DAAE0
+	// RVA: 0x22DA920 Offset: 0x22D8F20 VA: 0x1822DA920
 	public void .ctor() { }
 
-	// RVA: 0x1A6C720 Offset: 0x1A6AD20 VA: 0x181A6C720
+	// RVA: 0x1A6C6E0 Offset: 0x1A6ACE0 VA: 0x181A6C6E0
 	public string get_stringParameter() { }
 
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_stringParameter(string value) { }
 
-	// RVA: 0x22DABD0 Offset: 0x22D91D0 VA: 0x1822DABD0
+	// RVA: 0x22DAA10 Offset: 0x22D9010 VA: 0x1822DAA10
 	public int get_intParameter() { }
 
-	// RVA: 0x22DABE0 Offset: 0x22D91E0 VA: 0x1822DABE0
+	// RVA: 0x22DAA20 Offset: 0x22D9020 VA: 0x1822DAA20
 	public bool get_isFiredByAnimator() { }
 
-	// RVA: 0x22DAB70 Offset: 0x22D9170 VA: 0x1822DAB70
+	// RVA: 0x22DA9B0 Offset: 0x22D8FB0 VA: 0x1822DA9B0
 	public AnimatorClipInfo get_animatorClipInfo() { }
 
 }
@@ -181,52 +181,52 @@ public sealed class Animation : Behaviour, IEnumerable // TypeDefIndex: 4499
 
 	// Methods
 
-	// RVA: 0x22DB4E0 Offset: 0x22D9AE0 VA: 0x1822DB4E0
+	// RVA: 0x22DB320 Offset: 0x22D9920 VA: 0x1822DB320
 	public void Stop() { }
 
-	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DB4E0 Offset: 0x22D9AE0 VA: 0x1822DB4E0
+	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DB320 Offset: 0x22D9920 VA: 0x1822DB320
 	private static void INTERNAL_CALL_Stop(Animation self) { }
 
-	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DB650 Offset: 0x22D9C50 VA: 0x1822DB650
+	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DB490 Offset: 0x22D9A90 VA: 0x1822DB490
 	public bool get_isPlaying() { }
 
-	// RVA: 0x22DB490 Offset: 0x22D9A90 VA: 0x1822DB490
+	// RVA: 0x22DB2D0 Offset: 0x22D98D0 VA: 0x1822DB2D0
 	public AnimationState get_Item(string name) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DB610 Offset: 0x22D9C10 VA: 0x1822DB610
+	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DB450 Offset: 0x22D9A50 VA: 0x1822DB450
 	public bool Play() { }
 
-	// RVA: 0x22DB520 Offset: 0x22D9B20 VA: 0x1822DB520
+	// RVA: 0x22DB360 Offset: 0x22D9960 VA: 0x1822DB360
 	public bool Play(PlayMode mode) { }
 
-	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DB5B0 Offset: 0x22D9BB0 VA: 0x1822DB5B0
+	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DB3F0 Offset: 0x22D99F0 VA: 0x1822DB3F0
 	public bool Play(string animation, PlayMode mode) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DB560 Offset: 0x22D9B60 VA: 0x1822DB560
+	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DB3A0 Offset: 0x22D99A0 VA: 0x1822DB3A0
 	public bool Play(string animation) { }
 
-	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DB520 Offset: 0x22D9B20 VA: 0x1822DB520
+	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DB360 Offset: 0x22D9960 VA: 0x1822DB360
 	private bool PlayDefaultAnimation(PlayMode mode) { }
 
-	// RVA: 0x22DB3A0 Offset: 0x22D99A0 VA: 0x1822DB3A0 Slot: 4
+	// RVA: 0x22DB1E0 Offset: 0x22D97E0 VA: 0x1822DB1E0 Slot: 4
 	public IEnumerator GetEnumerator() { }
 
-	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DB490 Offset: 0x22D9A90 VA: 0x1822DB490
+	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DB2D0 Offset: 0x22D98D0 VA: 0x1822DB2D0
 	internal AnimationState GetState(string name) { }
 
-	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DB410 Offset: 0x22D9A10 VA: 0x1822DB410
+	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DB250 Offset: 0x22D9850 VA: 0x1822DB250
 	internal AnimationState GetStateAtIndex(int index) { }
 
-	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DB450 Offset: 0x22D9A50 VA: 0x1822DB450
+	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DB290 Offset: 0x22D9890 VA: 0x1822DB290
 	internal int GetStateCount() { }
 
 }
@@ -244,10 +244,10 @@ private sealed class Animation.Enumerator : IEnumerator // TypeDefIndex: 4500
 	// RVA: 0x11B9A60 Offset: 0x11B8060 VA: 0x1811B9A60
 	internal void .ctor(Animation outer) { }
 
-	// RVA: 0x22DD3F0 Offset: 0x22DB9F0 VA: 0x1822DD3F0 Slot: 5
+	// RVA: 0x22DD230 Offset: 0x22DB830 VA: 0x1822DD230 Slot: 5
 	public object get_Current() { }
 
-	// RVA: 0x22DD390 Offset: 0x22DB990 VA: 0x1822DD390 Slot: 4
+	// RVA: 0x22DD1D0 Offset: 0x22DB7D0 VA: 0x1822DD1D0 Slot: 4
 	public bool MoveNext() { }
 
 	// RVA: 0x117C410 Offset: 0x117AA10 VA: 0x18117C410 Slot: 6
@@ -263,20 +263,20 @@ public sealed class AnimationState : TrackedReference // TypeDefIndex: 4501
 
 	// Methods
 
-	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DB350 Offset: 0x22D9950 VA: 0x1822DB350
+	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DB190 Offset: 0x22D9790 VA: 0x1822DB190
 	public void set_time(float value) { }
 
-	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DB2C0 Offset: 0x22D98C0 VA: 0x1822DB2C0
+	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DB100 Offset: 0x22D9700 VA: 0x1822DB100
 	public float get_speed() { }
 
-	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DB300 Offset: 0x22D9900 VA: 0x1822DB300
+	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DB140 Offset: 0x22D9740 VA: 0x1822DB140
 	public void set_speed(float value) { }
 
-	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DB280 Offset: 0x22D9880 VA: 0x1822DB280
+	[GeneratedByOldBindingsGeneratorAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DB0C0 Offset: 0x22D96C0 VA: 0x1822DB0C0
 	public float get_length() { }
 
 	// RVA: 0x79B550 Offset: 0x799B50 VA: 0x18079B550
@@ -287,20 +287,20 @@ public sealed class AnimationState : TrackedReference // TypeDefIndex: 4501
 public struct AnimationClipPlayable : IEquatable<AnimationClipPlayable> // TypeDefIndex: 4503
 {
 // Namespace: UnityEngine.Animations
-[NativeHeaderAttribute] // RVA: 0xD0890 Offset: 0xCFC90 VA: 0x1800D0890
-[RequiredByNativeCodeAttribute] // RVA: 0xD0890 Offset: 0xCFC90 VA: 0x1800D0890
-[StaticAccessorAttribute] // RVA: 0xD0890 Offset: 0xCFC90 VA: 0x1800D0890
-[NativeHeaderAttribute] // RVA: 0xD0890 Offset: 0xCFC90 VA: 0x1800D0890
+[NativeHeaderAttribute] // RVA: 0xD0920 Offset: 0xCFD20 VA: 0x1800D0920
+[RequiredByNativeCodeAttribute] // RVA: 0xD0920 Offset: 0xCFD20 VA: 0x1800D0920
+[StaticAccessorAttribute] // RVA: 0xD0920 Offset: 0xCFD20 VA: 0x1800D0920
+[NativeHeaderAttribute] // RVA: 0xD0920 Offset: 0xCFD20 VA: 0x1800D0920
 public struct AnimationClipPlayable : IEquatable<AnimationClipPlayable> // TypeDefIndex: 4503
 	// Fields
 	private PlayableHandle m_Handle; // 0x0
 
 	// Methods
 
-	// RVA: 0x212F40 Offset: 0x212340 VA: 0x180212F40 Slot: 5
+	// RVA: 0x212EC0 Offset: 0x2122C0 VA: 0x180212EC0 Slot: 5
 	public PlayableHandle GetHandle() { }
 
-	// RVA: 0x23C750 Offset: 0x23BB50 VA: 0x18023C750 Slot: 4
+	// RVA: 0x23C6D0 Offset: 0x23BAD0 VA: 0x18023C6D0 Slot: 4
 	public bool Equals(AnimationClipPlayable other) { }
 
 }
@@ -318,16 +318,16 @@ public struct AnimationLayerMixerPlayable : IEquatable<AnimationLayerMixerPlayab
 
 	// Methods
 
-	// RVA: 0x23C890 Offset: 0x23BC90 VA: 0x18023C890
+	// RVA: 0x23C810 Offset: 0x23BC10 VA: 0x18023C810
 	internal void .ctor(PlayableHandle handle) { }
 
-	// RVA: 0x212F40 Offset: 0x212340 VA: 0x180212F40 Slot: 5
+	// RVA: 0x212EC0 Offset: 0x2122C0 VA: 0x180212EC0 Slot: 5
 	public PlayableHandle GetHandle() { }
 
-	// RVA: 0x23C800 Offset: 0x23BC00 VA: 0x18023C800 Slot: 4
+	// RVA: 0x23C780 Offset: 0x23BB80 VA: 0x18023C780 Slot: 4
 	public bool Equals(AnimationLayerMixerPlayable other) { }
 
-	// RVA: 0x22DABF0 Offset: 0x22D91F0 VA: 0x1822DABF0
+	// RVA: 0x22DAA30 Offset: 0x22D9030 VA: 0x1822DAA30
 	private static void .cctor() { }
 
 }
@@ -339,16 +339,16 @@ public struct AnimationMixerPlayable : IEquatable<AnimationMixerPlayable> // Typ
 
 	// Methods
 
-	// RVA: 0x23C9C0 Offset: 0x23BDC0 VA: 0x18023C9C0
+	// RVA: 0x23C940 Offset: 0x23BD40 VA: 0x18023C940
 	internal void .ctor(PlayableHandle handle) { }
 
-	// RVA: 0x212F40 Offset: 0x212340 VA: 0x180212F40 Slot: 5
+	// RVA: 0x212EC0 Offset: 0x2122C0 VA: 0x180212EC0 Slot: 5
 	public PlayableHandle GetHandle() { }
 
-	// RVA: 0x23C930 Offset: 0x23BD30 VA: 0x18023C930 Slot: 4
+	// RVA: 0x23C8B0 Offset: 0x23BCB0 VA: 0x18023C8B0 Slot: 4
 	public bool Equals(AnimationMixerPlayable other) { }
 
-	// RVA: 0x22DACE0 Offset: 0x22D92E0 VA: 0x1822DACE0
+	// RVA: 0x22DAB20 Offset: 0x22D9120 VA: 0x1822DAB20
 	private static void .cctor() { }
 
 }
@@ -360,16 +360,16 @@ internal struct AnimationMotionXToDeltaPlayable : IEquatable<AnimationMotionXToD
 
 	// Methods
 
-	// RVA: 0x23CAF0 Offset: 0x23BEF0 VA: 0x18023CAF0
+	// RVA: 0x23CA70 Offset: 0x23BE70 VA: 0x18023CA70
 	private void .ctor(PlayableHandle handle) { }
 
-	// RVA: 0x212F40 Offset: 0x212340 VA: 0x180212F40 Slot: 5
+	// RVA: 0x212EC0 Offset: 0x2122C0 VA: 0x180212EC0 Slot: 5
 	public PlayableHandle GetHandle() { }
 
-	// RVA: 0x23CA60 Offset: 0x23BE60 VA: 0x18023CA60 Slot: 4
+	// RVA: 0x23C9E0 Offset: 0x23BDE0 VA: 0x18023C9E0 Slot: 4
 	public bool Equals(AnimationMotionXToDeltaPlayable other) { }
 
-	// RVA: 0x22DADD0 Offset: 0x22D93D0 VA: 0x1822DADD0
+	// RVA: 0x22DAC10 Offset: 0x22D9210 VA: 0x1822DAC10
 	private static void .cctor() { }
 
 }
@@ -381,16 +381,16 @@ internal struct AnimationOffsetPlayable : IEquatable<AnimationOffsetPlayable> //
 
 	// Methods
 
-	// RVA: 0x23CC40 Offset: 0x23C040 VA: 0x18023CC40
+	// RVA: 0x23CBC0 Offset: 0x23BFC0 VA: 0x18023CBC0
 	internal void .ctor(PlayableHandle handle) { }
 
-	// RVA: 0x212F40 Offset: 0x212340 VA: 0x180212F40 Slot: 5
+	// RVA: 0x212EC0 Offset: 0x2122C0 VA: 0x180212EC0 Slot: 5
 	public PlayableHandle GetHandle() { }
 
-	// RVA: 0x23CB90 Offset: 0x23BF90 VA: 0x18023CB90 Slot: 4
+	// RVA: 0x23CB10 Offset: 0x23BF10 VA: 0x18023CB10 Slot: 4
 	public bool Equals(AnimationOffsetPlayable other) { }
 
-	// RVA: 0x22DAEC0 Offset: 0x22D94C0 VA: 0x1822DAEC0
+	// RVA: 0x22DAD00 Offset: 0x22D9300 VA: 0x1822DAD00
 	private static void .cctor() { }
 
 }
@@ -408,16 +408,16 @@ internal struct AnimationPosePlayable : IEquatable<AnimationPosePlayable> // Typ
 
 	// Methods
 
-	// RVA: 0x23CD90 Offset: 0x23C190 VA: 0x18023CD90
+	// RVA: 0x23CD10 Offset: 0x23C110 VA: 0x18023CD10
 	internal void .ctor(PlayableHandle handle) { }
 
-	// RVA: 0x212F40 Offset: 0x212340 VA: 0x180212F40 Slot: 5
+	// RVA: 0x212EC0 Offset: 0x2122C0 VA: 0x180212EC0 Slot: 5
 	public PlayableHandle GetHandle() { }
 
-	// RVA: 0x23CCE0 Offset: 0x23C0E0 VA: 0x18023CCE0 Slot: 4
+	// RVA: 0x23CC60 Offset: 0x23C060 VA: 0x18023CC60 Slot: 4
 	public bool Equals(AnimationPosePlayable other) { }
 
-	// RVA: 0x22DAFB0 Offset: 0x22D95B0 VA: 0x1822DAFB0
+	// RVA: 0x22DADF0 Offset: 0x22D93F0 VA: 0x1822DADF0
 	private static void .cctor() { }
 
 }
@@ -429,16 +429,16 @@ internal struct AnimationRemoveScalePlayable : IEquatable<AnimationRemoveScalePl
 
 	// Methods
 
-	// RVA: 0x23CEE0 Offset: 0x23C2E0 VA: 0x18023CEE0
+	// RVA: 0x23CE60 Offset: 0x23C260 VA: 0x18023CE60
 	internal void .ctor(PlayableHandle handle) { }
 
-	// RVA: 0x212F40 Offset: 0x212340 VA: 0x180212F40 Slot: 5
+	// RVA: 0x212EC0 Offset: 0x2122C0 VA: 0x180212EC0 Slot: 5
 	public PlayableHandle GetHandle() { }
 
-	// RVA: 0x23CE30 Offset: 0x23C230 VA: 0x18023CE30 Slot: 4
+	// RVA: 0x23CDB0 Offset: 0x23C1B0 VA: 0x18023CDB0 Slot: 4
 	public bool Equals(AnimationRemoveScalePlayable other) { }
 
-	// RVA: 0x22DB0A0 Offset: 0x22D96A0 VA: 0x1822DB0A0
+	// RVA: 0x22DAEE0 Offset: 0x22D94E0 VA: 0x1822DAEE0
 	private static void .cctor() { }
 
 }
@@ -450,16 +450,16 @@ public struct AnimationScriptPlayable : IEquatable<AnimationScriptPlayable> // T
 
 	// Methods
 
-	// RVA: 0x23D010 Offset: 0x23C410 VA: 0x18023D010
+	// RVA: 0x23CF90 Offset: 0x23C390 VA: 0x18023CF90
 	internal void .ctor(PlayableHandle handle) { }
 
-	// RVA: 0x212F40 Offset: 0x212340 VA: 0x180212F40 Slot: 5
+	// RVA: 0x212EC0 Offset: 0x2122C0 VA: 0x180212EC0 Slot: 5
 	public PlayableHandle GetHandle() { }
 
-	// RVA: 0x23CF80 Offset: 0x23C380 VA: 0x18023CF80 Slot: 4
+	// RVA: 0x23CF00 Offset: 0x23C300 VA: 0x18023CF00 Slot: 4
 	public bool Equals(AnimationScriptPlayable other) { }
 
-	// RVA: 0x22DB190 Offset: 0x22D9790 VA: 0x1822DB190
+	// RVA: 0x22DAFD0 Offset: 0x22D95D0 VA: 0x1822DAFD0
 	private static void .cctor() { }
 
 }
@@ -496,20 +496,20 @@ public class AnimationTriggers // TypeDefIndex: 4904
 	private const string kDefaultPressedAnimName = "Pressed";
 	private const string kDefaultSelectedAnimName = "Selected";
 	private const string kDefaultDisabledAnimName = "Disabled";
-	[FormerlySerializedAsAttribute] // RVA: 0xE1A10 Offset: 0xE0E10 VA: 0x1800E1A10
-	[SerializeField] // RVA: 0xE1A10 Offset: 0xE0E10 VA: 0x1800E1A10
+	[FormerlySerializedAsAttribute] // RVA: 0xE1A70 Offset: 0xE0E70 VA: 0x1800E1A70
+	[SerializeField] // RVA: 0xE1A70 Offset: 0xE0E70 VA: 0x1800E1A70
 	private string m_NormalTrigger; // 0x10
-	[FormerlySerializedAsAttribute] // RVA: 0xE1AA0 Offset: 0xE0EA0 VA: 0x1800E1AA0
-	[SerializeField] // RVA: 0xE1AA0 Offset: 0xE0EA0 VA: 0x1800E1AA0
+	[FormerlySerializedAsAttribute] // RVA: 0xE1B70 Offset: 0xE0F70 VA: 0x1800E1B70
+	[SerializeField] // RVA: 0xE1B70 Offset: 0xE0F70 VA: 0x1800E1B70
 	private string m_HighlightedTrigger; // 0x18
-	[FormerlySerializedAsAttribute] // RVA: 0xE2EE0 Offset: 0xE22E0 VA: 0x1800E2EE0
-	[SerializeField] // RVA: 0xE2EE0 Offset: 0xE22E0 VA: 0x1800E2EE0
+	[FormerlySerializedAsAttribute] // RVA: 0xE42D0 Offset: 0xE36D0 VA: 0x1800E42D0
+	[SerializeField] // RVA: 0xE42D0 Offset: 0xE36D0 VA: 0x1800E42D0
 	private string m_PressedTrigger; // 0x20
-	[FormerlySerializedAsAttribute] // RVA: 0xE43A0 Offset: 0xE37A0 VA: 0x1800E43A0
-	[SerializeField] // RVA: 0xE43A0 Offset: 0xE37A0 VA: 0x1800E43A0
+	[FormerlySerializedAsAttribute] // RVA: 0xE4740 Offset: 0xE3B40 VA: 0x1800E4740
+	[SerializeField] // RVA: 0xE4740 Offset: 0xE3B40 VA: 0x1800E4740
 	private string m_SelectedTrigger; // 0x28
-	[FormerlySerializedAsAttribute] // RVA: 0xE47D0 Offset: 0xE3BD0 VA: 0x1800E47D0
-	[SerializeField] // RVA: 0xE47D0 Offset: 0xE3BD0 VA: 0x1800E47D0
+	[FormerlySerializedAsAttribute] // RVA: 0xE4890 Offset: 0xE3C90 VA: 0x1800E4890
+	[SerializeField] // RVA: 0xE4890 Offset: 0xE3C90 VA: 0x1800E4890
 	private string m_DisabledTrigger; // 0x30
 
 	// Properties
@@ -591,11 +591,11 @@ public class AnimationEvents : BaseMonoBehaviour // TypeDefIndex: 9326
 {	// Fields
 	public Transform rootObject; // 0x18
 	public HeldEntity targetEntity; // 0x20
-	[TooltipAttribute] // RVA: 0xE77A0 Offset: 0xE6BA0 VA: 0x1800E77A0
+	[TooltipAttribute] // RVA: 0xE7870 Offset: 0xE6C70 VA: 0x1800E7870
 	public string effectFolder; // 0x28
 	public bool enforceClipWeights; // 0x30
 	public string localFolder; // 0x38
-	[TooltipAttribute] // RVA: 0xE78D0 Offset: 0xE6CD0 VA: 0x1800E78D0
+	[TooltipAttribute] // RVA: 0xE7970 Offset: 0xE6D70 VA: 0x1800E7970
 	public bool customLocalFolder; // 0x40
 	public bool IsBusy; // 0x41
 	private IAnimationEventReceiver cachedEventReceiver; // 0x48

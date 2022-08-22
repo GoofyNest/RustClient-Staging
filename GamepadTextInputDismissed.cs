@@ -10,10 +10,10 @@ internal struct GamepadTextInputDismissed_t : ICallbackData // TypeDefIndex: 533
 
 	// Methods
 
-	// RVA: 0x1E8CF0 Offset: 0x1E80F0 VA: 0x1801E8CF0 Slot: 5
+	// RVA: 0x1E8C70 Offset: 0x1E8070 VA: 0x1801E8C70 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E8CE0 Offset: 0x1E80E0 VA: 0x1801E8CE0 Slot: 4
+	// RVA: 0x1E8C60 Offset: 0x1E8060 VA: 0x1801E8C60 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1371640 Offset: 0x136FC40 VA: 0x181371640

@@ -1,19 +1,19 @@
 public sealed class DownloadHandlerBuffer : DownloadHandler // TypeDefIndex: 4133
 {	// Methods
 
-	// RVA: 0x229F2F0 Offset: 0x229D8F0 VA: 0x18229F2F0
+	// RVA: 0x229F130 Offset: 0x229D730 VA: 0x18229F130
 	private static IntPtr Create(DownloadHandlerBuffer obj) { }
 
-	// RVA: 0x229F370 Offset: 0x229D970 VA: 0x18229F370
+	// RVA: 0x229F1B0 Offset: 0x229D7B0 VA: 0x18229F1B0
 	private void InternalCreateBuffer() { }
 
-	// RVA: 0x229F3B0 Offset: 0x229D9B0 VA: 0x18229F3B0
+	// RVA: 0x229F1F0 Offset: 0x229D7F0 VA: 0x18229F1F0
 	public void .ctor() { }
 
-	// RVA: 0x229F330 Offset: 0x229D930 VA: 0x18229F330 Slot: 5
+	// RVA: 0x229F170 Offset: 0x229D770 VA: 0x18229F170 Slot: 5
 	protected override byte[] GetData() { }
 
-	// RVA: 0x229F330 Offset: 0x229D930 VA: 0x18229F330
+	// RVA: 0x229F170 Offset: 0x229D770 VA: 0x18229F170
 	private byte[] InternalGetData() { }
 
 }

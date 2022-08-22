@@ -11,7 +11,7 @@ public struct Info // TypeDefIndex: 11673
 
 	// Methods
 
-	// RVA: 0xF4FD0 Offset: 0xF43D0 VA: 0x1800F4FD0
+	// RVA: 0xF4F50 Offset: 0xF4350 VA: 0x1800F4F50
 	public bool get_IsValid() { }
 
 }

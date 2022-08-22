@@ -5,19 +5,19 @@ public struct Sphere // TypeDefIndex: 6593
 
 	// Methods
 
-	// RVA: 0xFB280 Offset: 0xFA680 VA: 0x1800FB280
+	// RVA: 0xFB200 Offset: 0xFA600 VA: 0x1800FB200
 	public void .ctor(Vector3 position, float radius) { }
 
-	// RVA: 0x22D910 Offset: 0x22CD10 VA: 0x18022D910
+	// RVA: 0x22D890 Offset: 0x22CC90 VA: 0x18022D890
 	public bool Contains(Vector3 target) { }
 
-	// RVA: 0x22D8D0 Offset: 0x22CCD0 VA: 0x18022D8D0
+	// RVA: 0x22D850 Offset: 0x22CC50 VA: 0x18022D850
 	public Vector3 ClosestPoint(Vector3 target) { }
 
-	// RVA: 0x22D9D0 Offset: 0x22CDD0 VA: 0x18022D9D0
+	// RVA: 0x22D950 Offset: 0x22CD50 VA: 0x18022D950
 	public void Move(Vector3 direction, float distance, int layerMask = 0) { }
 
-	// RVA: 0x22DBA0 Offset: 0x22CFA0 VA: 0x18022DBA0
+	// RVA: 0x22DB20 Offset: 0x22CF20 VA: 0x18022DB20
 	public bool Trace(Ray ray, out RaycastHit hit, float maxDistance = ∞) { }
 
 }

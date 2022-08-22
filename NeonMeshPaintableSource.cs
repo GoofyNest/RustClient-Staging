@@ -19,7 +19,7 @@ public class NeonMeshPaintableSource : MeshPaintableSource // TypeDefIndex: 8834
 	// RVA: 0x7CC180 Offset: 0x7CA780 VA: 0x1807CC180
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7CBBD0 Offset: 0x7CA1D0 VA: 0x1807CBBD0
 	private Color <UpdateFrom>g__GetColorForRegion|8_0(int x, int y, int regionWidth, int regionHeight, ref NeonMeshPaintableSource.<>c__DisplayClass8_0 ) { }
 

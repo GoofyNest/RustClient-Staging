@@ -1,6 +1,6 @@
 public static class ContextMenuUI // TypeDefIndex: 10840
 {	// Fields
-	public static ContextMenuUI.MenuType type; // 0x2B11194
+	public static ContextMenuUI.MenuType type; // 0x2B101B4
 
 	// Methods
 

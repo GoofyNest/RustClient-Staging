@@ -11,10 +11,10 @@ internal struct LeaderboardScoresDownloaded_t : ICallbackData // TypeDefIndex: 5
 
 	// Methods
 
-	// RVA: 0x1EB300 Offset: 0x1EA700 VA: 0x1801EB300 Slot: 5
+	// RVA: 0x1EB280 Offset: 0x1EA680 VA: 0x1801EB280 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EB2F0 Offset: 0x1EA6F0 VA: 0x1801EB2F0 Slot: 4
+	// RVA: 0x1EB270 Offset: 0x1EA670 VA: 0x1801EB270 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1373570 Offset: 0x1371B70 VA: 0x181373570

@@ -1,15 +1,15 @@
 public class SoundClass : ScriptableObject // TypeDefIndex: 9024
 {	// Fields
-	[HeaderAttribute] // RVA: 0xCD780 Offset: 0xCCB80 VA: 0x1800CD780
+	[HeaderAttribute] // RVA: 0xCD7C0 Offset: 0xCCBC0 VA: 0x1800CD7C0
 	public AudioMixerGroup output; // 0x18
 	public AudioMixerGroup firstPersonOutput; // 0x20
-	[HeaderAttribute] // RVA: 0xCD7E0 Offset: 0xCCBE0 VA: 0x1800CD7E0
+	[HeaderAttribute] // RVA: 0xCD870 Offset: 0xCCC70 VA: 0x1800CD870
 	public bool enableOcclusion; // 0x28
 	public bool playIfOccluded; // 0x29
 	public float occlusionGain; // 0x2C
-	[TooltipAttribute] // RVA: 0xCD9C0 Offset: 0xCCDC0 VA: 0x1800CD9C0
+	[TooltipAttribute] // RVA: 0xCDAA0 Offset: 0xCCEA0 VA: 0x1800CDAA0
 	public AudioMixerGroup occludedOutput; // 0x30
-	[HeaderAttribute] // RVA: 0xCDB00 Offset: 0xCCF00 VA: 0x1800CDB00
+	[HeaderAttribute] // RVA: 0xCDB90 Offset: 0xCCF90 VA: 0x1800CDB90
 	public int globalVoiceMaxCount; // 0x38
 	public int priority; // 0x3C
 	public List<SoundDefinition> definitions; // 0x40

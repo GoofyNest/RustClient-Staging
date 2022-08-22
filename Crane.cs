@@ -11,13 +11,13 @@ public class Crane : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6413
 
 	// Methods
 
-	// RVA: 0x20B5900 Offset: 0x20B3F00 VA: 0x1820B5900
+	// RVA: 0x20B5740 Offset: 0x20B3D40 VA: 0x1820B5740
 	public static void ResetToPool(Crane instance) { }
 
-	// RVA: 0x20B59C0 Offset: 0x20B3FC0 VA: 0x1820B59C0
+	// RVA: 0x20B5800 Offset: 0x20B3E00 VA: 0x1820B5800
 	public void ResetToPool() { }
 
-	// RVA: 0x20B5500 Offset: 0x20B3B00 VA: 0x1820B5500 Slot: 9
+	// RVA: 0x20B5340 Offset: 0x20B3940 VA: 0x1820B5340 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -26,64 +26,64 @@ public class Crane : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6413
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFB230 Offset: 0x1BF9830 VA: 0x181BFB230
+	// RVA: 0x1BFB070 Offset: 0x1BF9670 VA: 0x181BFB070
 	public void CopyTo(Crane instance) { }
 
-	// RVA: 0x20B4000 Offset: 0x20B2600 VA: 0x1820B4000
+	// RVA: 0x20B3E40 Offset: 0x20B2440 VA: 0x1820B3E40
 	public Crane Copy() { }
 
-	// RVA: 0x20B4860 Offset: 0x20B2E60 VA: 0x1820B4860
+	// RVA: 0x20B46A0 Offset: 0x20B2CA0 VA: 0x1820B46A0
 	public static Crane Deserialize(Stream stream) { }
 
-	// RVA: 0x20B4090 Offset: 0x20B2690 VA: 0x1820B4090
+	// RVA: 0x20B3ED0 Offset: 0x20B24D0 VA: 0x1820B3ED0
 	public static Crane DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20B4480 Offset: 0x20B2A80 VA: 0x1820B4480
+	// RVA: 0x20B42C0 Offset: 0x20B28C0 VA: 0x1820B42C0
 	public static Crane DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20B5160 Offset: 0x20B3760 VA: 0x1820B5160
+	// RVA: 0x20B4FA0 Offset: 0x20B35A0 VA: 0x1820B4FA0
 	public static Crane Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20B5640 Offset: 0x20B3C40 VA: 0x1820B5640
+	// RVA: 0x20B5480 Offset: 0x20B3A80 VA: 0x1820B5480
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20B60D0 Offset: 0x20B46D0 VA: 0x1820B60D0 Slot: 12
+	// RVA: 0x20B5F10 Offset: 0x20B4510 VA: 0x1820B5F10 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20B60F0 Offset: 0x20B46F0 VA: 0x1820B60F0 Slot: 13
+	// RVA: 0x20B5F30 Offset: 0x20B4530 VA: 0x1820B5F30 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Crane previous) { }
 
-	// RVA: 0x20B58E0 Offset: 0x20B3EE0 VA: 0x1820B58E0 Slot: 14
+	// RVA: 0x20B5720 Offset: 0x20B3D20 VA: 0x1820B5720 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20B4DE0 Offset: 0x20B33E0 VA: 0x1820B4DE0
+	// RVA: 0x20B4C20 Offset: 0x20B3220 VA: 0x1820B4C20
 	public static Crane Deserialize(byte[] buffer, Crane instance, bool isDelta = False) { }
 
-	// RVA: 0x20B4B40 Offset: 0x20B3140 VA: 0x1820B4B40
+	// RVA: 0x20B4980 Offset: 0x20B2F80 VA: 0x1820B4980
 	public static Crane Deserialize(Stream stream, Crane instance, bool isDelta) { }
 
-	// RVA: 0x20B4110 Offset: 0x20B2710 VA: 0x1820B4110
+	// RVA: 0x20B3F50 Offset: 0x20B2550 VA: 0x1820B3F50
 	public static Crane DeserializeLengthDelimited(Stream stream, Crane instance, bool isDelta) { }
 
-	// RVA: 0x20B4510 Offset: 0x20B2B10 VA: 0x1820B4510
+	// RVA: 0x20B4350 Offset: 0x20B2950 VA: 0x1820B4350
 	public static Crane DeserializeLength(Stream stream, int length, Crane instance, bool isDelta) { }
 
-	// RVA: 0x20B5A80 Offset: 0x20B4080 VA: 0x1820B5A80
+	// RVA: 0x20B58C0 Offset: 0x20B3EC0 VA: 0x1820B58C0
 	public static void SerializeDelta(Stream stream, Crane instance, Crane previous) { }
 
-	// RVA: 0x20B5F20 Offset: 0x20B4520 VA: 0x1820B5F20
+	// RVA: 0x20B5D60 Offset: 0x20B4360 VA: 0x1820B5D60
 	public static void Serialize(Stream stream, Crane instance) { }
 
-	// RVA: 0x20B60C0 Offset: 0x20B46C0 VA: 0x1820B60C0
+	// RVA: 0x20B5F00 Offset: 0x20B4500 VA: 0x1820B5F00
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20B60D0 Offset: 0x20B46D0 VA: 0x1820B60D0
+	// RVA: 0x20B5F10 Offset: 0x20B4510 VA: 0x1820B5F10
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20B5E10 Offset: 0x20B4410 VA: 0x1820B5E10
+	// RVA: 0x20B5C50 Offset: 0x20B4250 VA: 0x1820B5C50
 	public static byte[] SerializeToBytes(Crane instance) { }
 
-	// RVA: 0x20B5D60 Offset: 0x20B4360 VA: 0x1820B5D60
+	// RVA: 0x20B5BA0 Offset: 0x20B41A0 VA: 0x1820B5BA0
 	public static void SerializeLengthDelimited(Stream stream, Crane instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80

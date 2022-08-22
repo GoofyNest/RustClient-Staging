@@ -1,7 +1,7 @@
 public class HolsterPaddleInput : BaseTip // TypeDefIndex: 11613
 {	// Fields
 	public static Translate.Phrase Phrase; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static bool <hasPaddledWithEquippedEntity>k__BackingField; // 0x8
 
 	// Properties
@@ -16,11 +16,11 @@ public class HolsterPaddleInput : BaseTip // TypeDefIndex: 11613
 	// RVA: 0x75F240 Offset: 0x75D840 VA: 0x18075F240 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x75F540 Offset: 0x75DB40 VA: 0x18075F540
 	public static bool get_hasPaddledWithEquippedEntity() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x75F5A0 Offset: 0x75DBA0 VA: 0x18075F5A0
 	public static void set_hasPaddledWithEquippedEntity(bool value) { }
 

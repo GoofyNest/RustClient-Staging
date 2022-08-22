@@ -4,13 +4,13 @@ public abstract class MaskableGraphic : Graphic, IClippable, IMaskable, IMateria
 	protected Material m_MaskMaterial; // 0x98
 	private RectMask2D m_ParentMask; // 0xA0
 	private bool m_Maskable; // 0xA8
-	[EditorBrowsableAttribute] // RVA: 0x75E40 Offset: 0x75240 VA: 0x180075E40
-	[ObsoleteAttribute] // RVA: 0x75E40 Offset: 0x75240 VA: 0x180075E40
+	[EditorBrowsableAttribute] // RVA: 0x75F10 Offset: 0x75310 VA: 0x180075F10
+	[ObsoleteAttribute] // RVA: 0x75F10 Offset: 0x75310 VA: 0x180075F10
 	protected bool m_IncludeForMasking; // 0xA9
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private MaskableGraphic.CullStateChangedEvent m_OnCullStateChanged; // 0xB0
-	[EditorBrowsableAttribute] // RVA: 0x76020 Offset: 0x75420 VA: 0x180076020
-	[ObsoleteAttribute] // RVA: 0x76020 Offset: 0x75420 VA: 0x180076020
+	[EditorBrowsableAttribute] // RVA: 0x760A0 Offset: 0x754A0 VA: 0x1800760A0
+	[ObsoleteAttribute] // RVA: 0x760A0 Offset: 0x754A0 VA: 0x1800760A0
 	protected bool m_ShouldRecalculate; // 0xB8
 	protected int m_StencilValue; // 0xBC
 	private readonly Vector3[] m_Corners; // 0xC0
@@ -55,8 +55,8 @@ public abstract class MaskableGraphic : Graphic, IClippable, IMaskable, IMateria
 	// RVA: 0x17161B0 Offset: 0x17147B0 VA: 0x1817161B0 Slot: 12
 	protected override void OnTransformParentChanged() { }
 
-	[EditorBrowsableAttribute] // RVA: 0x75E40 Offset: 0x75240 VA: 0x180075E40
-	[ObsoleteAttribute] // RVA: 0x75E40 Offset: 0x75240 VA: 0x180075E40
+	[EditorBrowsableAttribute] // RVA: 0x75F10 Offset: 0x75310 VA: 0x180075F10
+	[ObsoleteAttribute] // RVA: 0x75F10 Offset: 0x75310 VA: 0x180075F10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 60
 	public virtual void ParentMaskStateChanged() { }
 

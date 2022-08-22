@@ -38,7 +38,7 @@ public class ReactiveTarget : IOEntity // TypeDefIndex: 8433
 	// RVA: 0x6A9C30 Offset: 0x6A8230 VA: 0x1806A9C30
 	public bool CanToggle() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6AA220 Offset: 0x6A8820 VA: 0x1806AA220
 	public void HitEffect(BaseEntity.RPCMessage msg) { }
 
@@ -51,20 +51,20 @@ public class ReactiveTarget : IOEntity // TypeDefIndex: 8433
 	// RVA: 0x6AAE00 Offset: 0x6A9400 VA: 0x1806AAE00
 	private void UpdateAnimationParameters(bool isOn) { }
 
-	[BaseEntity.Menu] // RVA: 0x7F200 Offset: 0x7E600 VA: 0x18007F200
-	[BaseEntity.Menu.Description] // RVA: 0x7F200 Offset: 0x7E600 VA: 0x18007F200
-	[BaseEntity.Menu.Icon] // RVA: 0x7F200 Offset: 0x7E600 VA: 0x18007F200
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7F200 Offset: 0x7E600 VA: 0x18007F200
+	[BaseEntity.Menu] // RVA: 0x7F300 Offset: 0x7E700 VA: 0x18007F300
+	[BaseEntity.Menu.Description] // RVA: 0x7F300 Offset: 0x7E700 VA: 0x18007F300
+	[BaseEntity.Menu.Icon] // RVA: 0x7F300 Offset: 0x7E700 VA: 0x18007F300
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7F300 Offset: 0x7E700 VA: 0x18007F300
 	// RVA: 0x6AADC0 Offset: 0x6A93C0 VA: 0x1806AADC0
 	public void Reset_target(BasePlayer player) { }
 
 	// RVA: 0x6AA460 Offset: 0x6A8A60 VA: 0x1806AA460
 	public bool Menu_Reset_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7F540 Offset: 0x7E940 VA: 0x18007F540
-	[BaseEntity.Menu.Description] // RVA: 0x7F540 Offset: 0x7E940 VA: 0x18007F540
-	[BaseEntity.Menu.Icon] // RVA: 0x7F540 Offset: 0x7E940 VA: 0x18007F540
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7F540 Offset: 0x7E940 VA: 0x18007F540
+	[BaseEntity.Menu] // RVA: 0x7F610 Offset: 0x7EA10 VA: 0x18007F610
+	[BaseEntity.Menu.Description] // RVA: 0x7F610 Offset: 0x7EA10 VA: 0x18007F610
+	[BaseEntity.Menu.Icon] // RVA: 0x7F610 Offset: 0x7EA10 VA: 0x18007F610
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7F610 Offset: 0x7EA10 VA: 0x18007F610
 	// RVA: 0x6AA3D0 Offset: 0x6A89D0 VA: 0x1806AA3D0
 	public void Lower_Target(BasePlayer player) { }
 

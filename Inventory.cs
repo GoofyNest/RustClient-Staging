@@ -3,38 +3,38 @@ public class Inventory : ConsoleSystem // TypeDefIndex: 11938
 	private static float _quickCraftDelay; // 0x20460
 
 	// Properties
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static float quickcraftdelay { get; set; }
 
 	// Methods
 
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	// RVA: 0x3646C0 Offset: 0x362CC0 VA: 0x1803646C0
 	public static void defs(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	// RVA: 0x364A70 Offset: 0x363070 VA: 0x180364A70
 	public static void reloaddefs(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x364B30 Offset: 0x363130 VA: 0x180364B30
 	public static void toggle() { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x3648C0 Offset: 0x362EC0 VA: 0x1803648C0
 	public static void examineheld() { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x364B90 Offset: 0x363190 VA: 0x180364B90
 	public static void togglecrafting() { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x3645A0 Offset: 0x362BA0 VA: 0x1803645A0
 	public static void ResetCraftCounts() { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x364520 Offset: 0x362B20 VA: 0x180364520
 	public static void ListCraftCounts() { }
 

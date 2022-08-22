@@ -6,7 +6,7 @@ public class DefaultTraceListener : TraceListener // TypeDefIndex: 2655
 	private string logFileName; // 0x38
 
 	// Properties
-	[MonoTODOAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[MonoTODOAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public string LogFileName { get; }
 
 	// Methods

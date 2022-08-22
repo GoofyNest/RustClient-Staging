@@ -2,10 +2,10 @@ public class Properties // TypeDefIndex: 7055
 {	// Fields
 	private object Parent; // 0x10
 	private RectTransform Canvas; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Action UpdateControlsFromValues; // 0x20
 	public List<FieldInfo> Fields; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <IsDirty>k__BackingField; // 0x30
 
 	// Properties
@@ -13,11 +13,11 @@ public class Properties // TypeDefIndex: 7055
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xFC8B10 Offset: 0xFC7110 VA: 0x180FC8B10
 	public void add_UpdateControlsFromValues(Action value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xFC8BB0 Offset: 0xFC71B0 VA: 0x180FC8BB0
 	public void remove_UpdateControlsFromValues(Action value) { }
 
@@ -57,11 +57,11 @@ public class Properties // TypeDefIndex: 7055
 	// RVA: 0xFC8270 Offset: 0xFC6870 VA: 0x180FC8270
 	public void SetValues(Dictionary<string, object> a, Dictionary<string, object> b, float delta) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x82BC90 Offset: 0x82A290 VA: 0x18082BC90
 	public bool get_IsDirty() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x82BCC0 Offset: 0x82A2C0 VA: 0x18082BCC0
 	public void set_IsDirty(bool value) { }
 

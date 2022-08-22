@@ -7,7 +7,7 @@ public class RuntimeInitializeOnLoadMethodAttribute : PreserveAttribute // TypeD
 
 	// Methods
 
-	// RVA: 0x19B3B90 Offset: 0x19B2190 VA: 0x1819B3B90
+	// RVA: 0x19B3B50 Offset: 0x19B2150 VA: 0x1819B3B50
 	public void .ctor() { }
 
 	// RVA: 0xB11110 Offset: 0xB0F710 VA: 0x180B11110

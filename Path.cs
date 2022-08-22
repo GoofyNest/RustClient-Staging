@@ -1,6 +1,6 @@
 public static class Path // TypeDefIndex: 678
 {	// Fields
-	[ObsoleteAttribute] // RVA: 0xA7F20 Offset: 0xA7320 VA: 0x1800A7F20
+	[ObsoleteAttribute] // RVA: 0xA7F40 Offset: 0xA7340 VA: 0x1800A7F40
 	public static readonly char[] InvalidPathChars; // 0x0
 	public static readonly char AltDirectorySeparatorChar; // 0x8
 	public static readonly char DirectorySeparatorChar; // 0xA

@@ -1,14 +1,14 @@
 public class MidiConvar : MonoBehaviour // TypeDefIndex: 9313
 {	// Fields
 	private static bool _enabled; // 0x0
-	[ClientVar] // RVA: 0xE72B0 Offset: 0xE66B0 VA: 0x1800E72B0
+	[ClientVar] // RVA: 0xE7330 Offset: 0xE6730 VA: 0x1800E7330
 	public static bool debugMode; // 0x1
 	private static MidiConvar Instance; // 0x8
 	private List<MidiConvar.KnobBinding> knobBindings; // 0x18
 	private List<MidiConvar.NoteBinding> noteBindings; // 0x20
 
 	// Properties
-	[ClientVar] // RVA: 0xE76F0 Offset: 0xE6AF0 VA: 0x1800E76F0
+	[ClientVar] // RVA: 0xE77C0 Offset: 0xE6BC0 VA: 0x1800E77C0
 	public static bool Enabled { get; set; }
 
 	// Methods
@@ -19,31 +19,31 @@ public class MidiConvar : MonoBehaviour // TypeDefIndex: 9313
 	// RVA: 0x970080 Offset: 0x96E680 VA: 0x180970080
 	public static void set_Enabled(bool value) { }
 
-	[ClientVar] // RVA: 0xE72F0 Offset: 0xE66F0 VA: 0x1800E72F0
+	[ClientVar] // RVA: 0xE73E0 Offset: 0xE67E0 VA: 0x1800E73E0
 	// RVA: 0x96D2E0 Offset: 0x96B8E0 VA: 0x18096D2E0
 	public static void BindKnob(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0xE7380 Offset: 0xE6780 VA: 0x1800E7380
+	[ClientVar] // RVA: 0xE7420 Offset: 0xE6820 VA: 0x1800E7420
 	// RVA: 0x96CE70 Offset: 0x96B470 VA: 0x18096CE70
 	public static void BindKnobRelative(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0xE7490 Offset: 0xE6890 VA: 0x1800E7490
+	[ClientVar] // RVA: 0xE7530 Offset: 0xE6930 VA: 0x1800E7530
 	// RVA: 0x96CC20 Offset: 0x96B220 VA: 0x18096CC20
 	public static void BindKeyOn(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0xE7550 Offset: 0xE6950 VA: 0x1800E7550
+	[ClientVar] // RVA: 0xE75F0 Offset: 0xE69F0 VA: 0x1800E75F0
 	// RVA: 0x96C9D0 Offset: 0x96AFD0 VA: 0x18096C9D0
 	public static void BindKeyOff(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x81790 Offset: 0x80B90 VA: 0x180081790
+	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
 	// RVA: 0x96ED60 Offset: 0x96D360 VA: 0x18096ED60
 	public static void PrintBindings(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x81790 Offset: 0x80B90 VA: 0x180081790
+	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
 	// RVA: 0x96D9B0 Offset: 0x96BFB0 VA: 0x18096D9B0
 	public static void ClearAllBindings(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0xE76B0 Offset: 0xE6AB0 VA: 0x1800E76B0
+	[ClientVar] // RVA: 0xE7750 Offset: 0xE6B50 VA: 0x1800E7750
 	// RVA: 0x96FAF0 Offset: 0x96E0F0 VA: 0x18096FAF0
 	public static void ReloadBindings(ConsoleSystem.Arg arg) { }
 

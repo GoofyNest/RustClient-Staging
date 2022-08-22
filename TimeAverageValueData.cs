@@ -6,13 +6,13 @@ public struct TimeAverageValueData // TypeDefIndex: 6688
 
 	// Methods
 
-	// RVA: 0x237500 Offset: 0x236900 VA: 0x180237500
+	// RVA: 0x237480 Offset: 0x236880 VA: 0x180237480
 	public ulong Calculate() { }
 
-	// RVA: 0x237510 Offset: 0x236910 VA: 0x180237510
+	// RVA: 0x237490 Offset: 0x236890 VA: 0x180237490
 	public void Increment() { }
 
-	// RVA: 0x237520 Offset: 0x236920 VA: 0x180237520
+	// RVA: 0x2374A0 Offset: 0x2368A0 VA: 0x1802374A0
 	public void Reset() { }
 
 }

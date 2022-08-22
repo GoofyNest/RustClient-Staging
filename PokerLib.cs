@@ -31,7 +31,7 @@ public static class PokerLib // TypeDefIndex: 8226
 	// RVA: 0x1073890 Offset: 0x1071E90 VA: 0x181073890
 	public static string HandToString(int[] hand) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1073AD0 Offset: 0x10720D0 VA: 0x181073AD0
 	internal static int <FindCard>g__Rank|6_0(int card) { }
 

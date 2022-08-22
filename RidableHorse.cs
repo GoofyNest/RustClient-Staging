@@ -1,6 +1,6 @@
 public class RidableHorse : BaseRidableAnimal // TypeDefIndex: 8635
 {	// Fields
-	[ServerVar] // RVA: 0xB4270 Offset: 0xB3670 VA: 0x1800B4270
+	[ServerVar] // RVA: 0xB4310 Offset: 0xB3710 VA: 0x1800B4310
 	public static float Population; // 0x0
 	public string distanceStatName; // 0x6E8
 	public HorseBreed[] breeds; // 0x6F0
@@ -49,7 +49,7 @@ public class RidableHorse : BaseRidableAnimal // TypeDefIndex: 8635
 	// RVA: 0x4C6F80 Offset: 0x4C5580 VA: 0x1804C6F80 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4C6D60 Offset: 0x4C5360 VA: 0x1804C6D60
 	public void GetDistanceTravelled(BaseEntity.RPCMessage msg) { }
 

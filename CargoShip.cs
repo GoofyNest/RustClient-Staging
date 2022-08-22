@@ -46,7 +46,7 @@ public class CargoShip : BaseEntity // TypeDefIndex: 8287
 	// RVA: 0x52C3B0 Offset: 0x52A9B0 VA: 0x18052C3B0 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x52BEB0 Offset: 0x52A4B0 VA: 0x18052BEB0
 	public void DoHornSound(BaseEntity.RPCMessage msg) { }
 

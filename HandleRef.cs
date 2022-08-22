@@ -8,10 +8,10 @@ public struct HandleRef // TypeDefIndex: 1348
 
 	// Methods
 
-	// RVA: 0x14C6A0 Offset: 0x14BAA0 VA: 0x18014C6A0
+	// RVA: 0x14C620 Offset: 0x14BA20 VA: 0x18014C620
 	public void .ctor(object wrapper, IntPtr handle) { }
 
-	// RVA: 0xF3F40 Offset: 0xF3340 VA: 0x1800F3F40
+	// RVA: 0xF3EC0 Offset: 0xF32C0 VA: 0x1800F3EC0
 	public IntPtr get_Handle() { }
 
 }

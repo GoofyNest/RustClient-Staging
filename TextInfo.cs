@@ -1,28 +1,28 @@
 public class TextInfo : ICloneable, IDeserializationCallback // TypeDefIndex: 719
 {	// Fields
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	private string m_listSeparator; // 0x10
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	private bool m_isReadOnly; // 0x18
-	[OptionalFieldAttribute] // RVA: 0xA9B30 Offset: 0xA8F30 VA: 0x1800A9B30
+	[OptionalFieldAttribute] // RVA: 0xA9AF0 Offset: 0xA8EF0 VA: 0x1800A9AF0
 	private string m_cultureName; // 0x20
 	private CultureData m_cultureData; // 0x28
 	private string m_textInfoName; // 0x30
 	private Nullable<bool> m_IsAsciiCasingSameAsInvariant; // 0x38
 	internal static TextInfo s_Invariant; // 0x0
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	private string customCultureName; // 0x40
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	internal int m_nDataItem; // 0x48
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	internal bool m_useUserOverride; // 0x4C
-	[OptionalFieldAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
+	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
 	internal int m_win32LangID; // 0x50
 	private const int wordSeparatorMask = 536672256;
 
 	// Properties
 	internal static TextInfo Invariant { get; }
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public string CultureName { get; }
 	private bool IsAsciiCasingSameAsInvariant { get; }
 
@@ -34,18 +34,18 @@ public class TextInfo : ICloneable, IDeserializationCallback // TypeDefIndex: 71
 	// RVA: 0x1389F30 Offset: 0x1388530 VA: 0x181389F30
 	internal void .ctor(CultureData cultureData) { }
 
-	[OnDeserializingAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnDeserializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1388B60 Offset: 0x1387160 VA: 0x181388B60
 	private void OnDeserializing(StreamingContext ctx) { }
 
 	// RVA: 0x1388A20 Offset: 0x1387020 VA: 0x181388A20
 	private void OnDeserialized() { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1388B50 Offset: 0x1387150 VA: 0x181388B50
 	private void OnDeserialized(StreamingContext ctx) { }
 
-	[OnSerializingAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1388BA0 Offset: 0x13871A0 VA: 0x181388BA0
 	private void OnSerializing(StreamingContext ctx) { }
 
@@ -70,7 +70,7 @@ public class TextInfo : ICloneable, IDeserializationCallback // TypeDefIndex: 71
 	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
 	public string get_CultureName() { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x1387F80 Offset: 0x1386580 VA: 0x181387F80 Slot: 6
 	public virtual object Clone() { }
 

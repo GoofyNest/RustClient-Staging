@@ -779,10 +779,10 @@ public struct OcclusionCulling.Sphere // TypeDefIndex: 11524
 
 	// Methods
 
-	// RVA: 0xFB270 Offset: 0xFA670 VA: 0x1800FB270
+	// RVA: 0xFB1F0 Offset: 0xFA5F0 VA: 0x1800FB1F0
 	public bool IsValid() { }
 
-	// RVA: 0xFB280 Offset: 0xFA680 VA: 0x1800FB280
+	// RVA: 0xFB200 Offset: 0xFA600 VA: 0x1800FB200
 	public void .ctor(Vector3 position, float radius) { }
 
 }

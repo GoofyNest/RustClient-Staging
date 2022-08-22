@@ -6,10 +6,10 @@ public struct GlyphPairKey // TypeDefIndex: 6782
 
 	// Methods
 
-	// RVA: 0x1174F0 Offset: 0x1168F0 VA: 0x1801174F0
+	// RVA: 0x117470 Offset: 0x116870 VA: 0x180117470
 	public void .ctor(uint firstGlyphIndex, uint secondGlyphIndex) { }
 
-	// RVA: 0x117510 Offset: 0x116910 VA: 0x180117510
+	// RVA: 0x117490 Offset: 0x116890 VA: 0x180117490
 	internal void .ctor(TMP_GlyphPairAdjustmentRecord record) { }
 
 }

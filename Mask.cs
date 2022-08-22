@@ -1,7 +1,7 @@
 public class Mask : UIBehaviour, ICanvasRaycastFilter, IMaterialModifier // TypeDefIndex: 4984
 {	// Fields
 	private RectTransform m_RectTransform; // 0x18
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool m_ShowMaskGraphic; // 0x20
 	private Graphic m_Graphic; // 0x28
 	private Material m_MaskMaterial; // 0x30
@@ -32,7 +32,7 @@ public class Mask : UIBehaviour, ICanvasRaycastFilter, IMaterialModifier // Type
 	// RVA: 0x17156F0 Offset: 0x1713CF0 VA: 0x1817156F0 Slot: 19
 	public virtual bool MaskEnabled() { }
 
-	[ObsoleteAttribute] // RVA: 0x75CE0 Offset: 0x750E0 VA: 0x180075CE0
+	[ObsoleteAttribute] // RVA: 0x75DD0 Offset: 0x751D0 VA: 0x180075DD0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 20
 	public virtual void OnSiblingGraphicEnabledDisabled() { }
 

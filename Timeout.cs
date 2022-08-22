@@ -1,7 +1,7 @@
 public static class Timeout // TypeDefIndex: 821
 {	// Fields
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
-	public static readonly TimeSpan InfiniteTimeSpan; // 0x2B11310
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	public static readonly TimeSpan InfiniteTimeSpan; // 0x2B10330
 
 	// Methods
 

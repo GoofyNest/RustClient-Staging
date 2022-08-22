@@ -3,7 +3,7 @@ public class DeferredAction // TypeDefIndex: 11313
 	private Object sender; // 0x10
 	private Action action; // 0x18
 	private ActionPriority priority; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <Idle>k__BackingField; // 0x24
 
 	// Properties
@@ -12,11 +12,11 @@ public class DeferredAction // TypeDefIndex: 11313
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x774690 Offset: 0x772C90 VA: 0x180774690
 	public bool get_Idle() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7746D0 Offset: 0x772CD0 VA: 0x1807746D0
 	private void set_Idle(bool value) { }
 

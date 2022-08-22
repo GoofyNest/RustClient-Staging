@@ -20,7 +20,7 @@ internal class StackBuilderSink : IMessageSink // TypeDefIndex: 1262
 	// RVA: 0x148DB10 Offset: 0x148C110 VA: 0x18148DB10
 	private void CheckParameters(IMessage msg) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x148E4A0 Offset: 0x148CAA0 VA: 0x18148E4A0
 	private void <AsyncProcessMessage>b__4_0(object data) { }
 

@@ -4,13 +4,13 @@ public static class Performance // TypeDefIndex: 6208
 	public static Func<int> GetGarbageCollections; // 0x8
 	private static Stopwatch Stopwatch; // 0x10
 	private static int frames; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static int <FrameCountLastSecond>k__BackingField; // 0x1C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static int <MemoryUsage>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static int <GarbageCollections>k__BackingField; // 0x24
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static float <SecondsSinceLastConnection>k__BackingField; // 0x28
 	public static int TargetFrameRate; // 0x2C
 	private static int[] frameBuckets; // 0x30
@@ -30,38 +30,38 @@ public static class Performance // TypeDefIndex: 6208
 	// RVA: 0x14B7480 Offset: 0x14B5A80 VA: 0x1814B7480
 	public static FrameRateCategory get_FrameRateCategory() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B73C0 Offset: 0x14B59C0 VA: 0x1814B73C0
 	public static int get_FrameCountLastSecond() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B77B0 Offset: 0x14B5DB0 VA: 0x1814B77B0
 	private static void set_FrameCountLastSecond(int value) { }
 
 	// RVA: 0x14B7240 Offset: 0x14B5840 VA: 0x1814B7240
 	public static double get_AvgFrameTimeLastSecond() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B76F0 Offset: 0x14B5CF0 VA: 0x1814B76F0
 	public static int get_MemoryUsage() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B7870 Offset: 0x14B5E70 VA: 0x1814B7870
 	private static void set_MemoryUsage(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B7690 Offset: 0x14B5C90 VA: 0x1814B7690
 	public static int get_GarbageCollections() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B7810 Offset: 0x14B5E10 VA: 0x1814B7810
 	private static void set_GarbageCollections(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B7750 Offset: 0x14B5D50 VA: 0x1814B7750
 	public static float get_SecondsSinceLastConnection() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14B78D0 Offset: 0x14B5ED0 VA: 0x1814B78D0
 	private static void set_SecondsSinceLastConnection(float value) { }
 

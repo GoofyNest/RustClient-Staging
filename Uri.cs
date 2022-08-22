@@ -136,7 +136,7 @@ private struct Uri.UriScheme // TypeDefIndex: 53
 
 	// Methods
 
-	// RVA: 0x1DB460 Offset: 0x1DA860 VA: 0x1801DB460
+	// RVA: 0x1DB3E0 Offset: 0x1DA7E0 VA: 0x1801DB3E0
 	public void .ctor(string s, string d, int p) { }
 
 }

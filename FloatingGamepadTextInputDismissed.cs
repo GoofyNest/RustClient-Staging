@@ -8,10 +8,10 @@ internal struct FloatingGamepadTextInputDismissed_t : ICallbackData // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x1E5A90 Offset: 0x1E4E90 VA: 0x1801E5A90 Slot: 5
+	// RVA: 0x1E5A10 Offset: 0x1E4E10 VA: 0x1801E5A10 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E5A80 Offset: 0x1E4E80 VA: 0x1801E5A80 Slot: 4
+	// RVA: 0x1E5A00 Offset: 0x1E4E00 VA: 0x1801E5A00 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x13704B0 Offset: 0x136EAB0 VA: 0x1813704B0

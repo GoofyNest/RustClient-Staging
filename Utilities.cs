@@ -1,10 +1,10 @@
 internal static class Utilities // TypeDefIndex: 6272
 {	// Methods
 
-	// RVA: 0x193F280 Offset: 0x193D880 VA: 0x18193F280
+	// RVA: 0x193F240 Offset: 0x193D840 VA: 0x18193F240
 	internal static int SelectBucketIndex(int bufferSize) { }
 
-	// RVA: 0x231A0A0 Offset: 0x23186A0 VA: 0x18231A0A0
+	// RVA: 0x2319EE0 Offset: 0x23184E0 VA: 0x182319EE0
 	internal static int GetMaxSizeForBucket(int binIndex) { }
 
 }

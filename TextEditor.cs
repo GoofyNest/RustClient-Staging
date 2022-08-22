@@ -6,7 +6,7 @@ public class TextEditor // TypeDefIndex: 4061
 	public bool multiline; // 0x28
 	public bool hasHorizontalCursorPos; // 0x29
 	public bool isPasswordField; // 0x2A
-	[VisibleToOtherModulesAttribute] // RVA: 0xDC300 Offset: 0xDB700 VA: 0x1800DC300
+	[VisibleToOtherModulesAttribute] // RVA: 0xDC3A0 Offset: 0xDB7A0 VA: 0x1800DC3A0
 	internal bool m_HasFocus; // 0x2B
 	public Vector2 scrollOffset; // 0x2C
 	private GUIContent m_Content; // 0x38
@@ -36,272 +36,272 @@ public class TextEditor // TypeDefIndex: 4061
 
 	// Methods
 
-	// RVA: 0x22E4390 Offset: 0x22E2990 VA: 0x1822E4390
+	// RVA: 0x22E41D0 Offset: 0x22E27D0 VA: 0x1822E41D0
 	public string get_text() { }
 
-	// RVA: 0x22E4520 Offset: 0x22E2B20 VA: 0x1822E4520
+	// RVA: 0x22E4360 Offset: 0x22E2960 VA: 0x1822E4360
 	public void set_text(string value) { }
 
-	// RVA: 0x22E4370 Offset: 0x22E2970 VA: 0x1822E4370
+	// RVA: 0x22E41B0 Offset: 0x22E27B0 VA: 0x1822E41B0
 	public Rect get_position() { }
 
-	// RVA: 0x22E4400 Offset: 0x22E2A00 VA: 0x1822E4400
+	// RVA: 0x22E4240 Offset: 0x22E2840 VA: 0x1822E4240
 	public void set_position(Rect value) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xDD7E0 Offset: 0xDCBE0 VA: 0x1800DD7E0
-	// RVA: 0x22E4360 Offset: 0x22E2960 VA: 0x1822E4360 Slot: 4
+	[VisibleToOtherModulesAttribute] // RVA: 0xDD840 Offset: 0xDCC40 VA: 0x1800DD840
+	// RVA: 0x22E41A0 Offset: 0x22E27A0 VA: 0x1822E41A0 Slot: 4
 	internal virtual Rect get_localPosition() { }
 
-	// RVA: 0x22E4340 Offset: 0x22E2940 VA: 0x1822E4340
+	// RVA: 0x22E4180 Offset: 0x22E2780 VA: 0x1822E4180
 	public int get_cursorIndex() { }
 
-	// RVA: 0x22E43B0 Offset: 0x22E29B0 VA: 0x1822E43B0
+	// RVA: 0x22E41F0 Offset: 0x22E27F0 VA: 0x1822E41F0
 	public void set_cursorIndex(int value) { }
 
-	// RVA: 0x22E4380 Offset: 0x22E2980 VA: 0x1822E4380
+	// RVA: 0x22E41C0 Offset: 0x22E27C0 VA: 0x1822E41C0
 	public int get_selectIndex() { }
 
-	// RVA: 0x22E44D0 Offset: 0x22E2AD0 VA: 0x1822E44D0
+	// RVA: 0x22E4310 Offset: 0x22E2910 VA: 0x1822E4310
 	public void set_selectIndex(int value) { }
 
-	// RVA: 0x22DD7E0 Offset: 0x22DBDE0 VA: 0x1822DD7E0
+	// RVA: 0x22DD620 Offset: 0x22DBC20 VA: 0x1822DD620
 	private void ClearCursorPos() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22E4220 Offset: 0x22E2820 VA: 0x1822E4220
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22E4060 Offset: 0x22E2660 VA: 0x1822E4060
 	public void .ctor() { }
 
-	// RVA: 0x22E10B0 Offset: 0x22DF6B0 VA: 0x1822E10B0
+	// RVA: 0x22E0EF0 Offset: 0x22DF4F0 VA: 0x1822E0EF0
 	public void OnFocus() { }
 
-	// RVA: 0x22E1160 Offset: 0x22DF760 VA: 0x1822E1160
+	// RVA: 0x22E0FA0 Offset: 0x22DF5A0 VA: 0x1822E0FA0
 	public void OnLostFocus() { }
 
-	// RVA: 0x22DEE90 Offset: 0x22DD490 VA: 0x1822DEE90
+	// RVA: 0x22DECD0 Offset: 0x22DD2D0 VA: 0x1822DECD0
 	private void GrabGraphicalCursorPos() { }
 
-	// RVA: 0x22DEF90 Offset: 0x22DD590 VA: 0x1822DEF90
+	// RVA: 0x22DEDD0 Offset: 0x22DD3D0 VA: 0x1822DEDD0
 	public bool HandleKeyEvent(Event e) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22DF090 Offset: 0x22DD690 VA: 0x1822DF090
+	[VisibleToOtherModulesAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22DEED0 Offset: 0x22DD4D0 VA: 0x1822DEED0
 	internal bool HandleKeyEvent(Event e, bool textIsReadOnly) { }
 
-	// RVA: 0x22DD920 Offset: 0x22DBF20 VA: 0x1822DD920
+	// RVA: 0x22DD760 Offset: 0x22DBD60 VA: 0x1822DD760
 	public bool DeleteLineBack() { }
 
-	// RVA: 0x22DDC40 Offset: 0x22DC240 VA: 0x1822DDC40
+	// RVA: 0x22DDA80 Offset: 0x22DC080 VA: 0x1822DDA80
 	public bool DeleteWordBack() { }
 
-	// RVA: 0x22DDD50 Offset: 0x22DC350 VA: 0x1822DDD50
+	// RVA: 0x22DDB90 Offset: 0x22DC190 VA: 0x1822DDB90
 	public bool DeleteWordForward() { }
 
-	// RVA: 0x22DDE20 Offset: 0x22DC420 VA: 0x1822DDE20
+	// RVA: 0x22DDC60 Offset: 0x22DC260 VA: 0x1822DDC60
 	public bool Delete() { }
 
-	// RVA: 0x22DD500 Offset: 0x22DBB00 VA: 0x1822DD500
+	// RVA: 0x22DD340 Offset: 0x22DB940 VA: 0x1822DD340
 	public bool Backspace() { }
 
-	// RVA: 0x22E2400 Offset: 0x22E0A00 VA: 0x1822E2400
+	// RVA: 0x22E2240 Offset: 0x22E0840 VA: 0x1822E2240
 	public void SelectAll() { }
 
-	// RVA: 0x22E2CE0 Offset: 0x22E12E0 VA: 0x1822E2CE0
+	// RVA: 0x22E2B20 Offset: 0x22E1120 VA: 0x1822E2B20
 	public void SelectNone() { }
 
-	// RVA: 0x22E4350 Offset: 0x22E2950 VA: 0x1822E4350
+	// RVA: 0x22E4190 Offset: 0x22E2790 VA: 0x1822E4190
 	public bool get_hasSelection() { }
 
-	// RVA: 0x22DDA10 Offset: 0x22DC010 VA: 0x1822DDA10
+	// RVA: 0x22DD850 Offset: 0x22DBE50 VA: 0x1822DD850
 	public bool DeleteSelection() { }
 
-	// RVA: 0x22E22B0 Offset: 0x22E08B0 VA: 0x1822E22B0
+	// RVA: 0x22E20F0 Offset: 0x22E06F0 VA: 0x1822E20F0
 	public void ReplaceSelection(string replace) { }
 
-	// RVA: 0x22DF820 Offset: 0x22DDE20 VA: 0x1822DF820
+	// RVA: 0x22DF660 Offset: 0x22DDC60 VA: 0x1822DF660
 	public void Insert(char c) { }
 
-	// RVA: 0x22E0630 Offset: 0x22DEC30 VA: 0x1822E0630
+	// RVA: 0x22E0470 Offset: 0x22DEA70 VA: 0x1822E0470
 	public void MoveRight() { }
 
-	// RVA: 0x22E0030 Offset: 0x22DE630 VA: 0x1822E0030
+	// RVA: 0x22DFE70 Offset: 0x22DE470 VA: 0x1822DFE70
 	public void MoveLeft() { }
 
-	// RVA: 0x22E0A40 Offset: 0x22DF040 VA: 0x1822E0A40
+	// RVA: 0x22E0880 Offset: 0x22DEE80 VA: 0x1822E0880
 	public void MoveUp() { }
 
-	// RVA: 0x22DFD10 Offset: 0x22DE310 VA: 0x1822DFD10
+	// RVA: 0x22DFB50 Offset: 0x22DE150 VA: 0x1822DFB50
 	public void MoveDown() { }
 
-	// RVA: 0x22E0270 Offset: 0x22DE870 VA: 0x1822E0270
+	// RVA: 0x22E00B0 Offset: 0x22DE6B0 VA: 0x1822E00B0
 	public void MoveLineStart() { }
 
-	// RVA: 0x22E0140 Offset: 0x22DE740 VA: 0x1822E0140
+	// RVA: 0x22DFF80 Offset: 0x22DE580 VA: 0x1822DFF80
 	public void MoveLineEnd() { }
 
-	// RVA: 0x22DFF80 Offset: 0x22DE580 VA: 0x1822DFF80
+	// RVA: 0x22DFDC0 Offset: 0x22DE3C0 VA: 0x1822DFDC0
 	public void MoveGraphicalLineStart() { }
 
-	// RVA: 0x22DFED0 Offset: 0x22DE4D0 VA: 0x1822DFED0
+	// RVA: 0x22DFD10 Offset: 0x22DE310 VA: 0x1822DFD10
 	public void MoveGraphicalLineEnd() { }
 
-	// RVA: 0x22E0810 Offset: 0x22DEE10 VA: 0x1822E0810
+	// RVA: 0x22E0650 Offset: 0x22DEC50 VA: 0x1822E0650
 	public void MoveTextStart() { }
 
-	// RVA: 0x22E0750 Offset: 0x22DED50 VA: 0x1822E0750
+	// RVA: 0x22E0590 Offset: 0x22DEB90 VA: 0x1822E0590
 	public void MoveTextEnd() { }
 
-	// RVA: 0x22DF1A0 Offset: 0x22DD7A0 VA: 0x1822DF1A0
+	// RVA: 0x22DEFE0 Offset: 0x22DD5E0 VA: 0x1822DEFE0
 	private int IndexOfEndOfLine(int startIndex) { }
 
-	// RVA: 0x22E04D0 Offset: 0x22DEAD0 VA: 0x1822E04D0
+	// RVA: 0x22E0310 Offset: 0x22DE910 VA: 0x1822E0310
 	public void MoveParagraphForward() { }
 
-	// RVA: 0x22E0380 Offset: 0x22DE980 VA: 0x1822E0380
+	// RVA: 0x22E01C0 Offset: 0x22DE7C0 VA: 0x1822E01C0
 	public void MoveParagraphBackward() { }
 
-	// RVA: 0x22DFB70 Offset: 0x22DE170 VA: 0x1822DFB70
+	// RVA: 0x22DF9B0 Offset: 0x22DDFB0 VA: 0x1822DF9B0
 	public void MoveCursorToPosition(Vector2 cursorPosition) { }
 
-	// RVA: 0x22DF9E0 Offset: 0x22DDFE0 VA: 0x1822DF9E0
+	// RVA: 0x22DF820 Offset: 0x22DDE20 VA: 0x1822DF820
 	protected internal void MoveCursorToPosition_Internal(Vector2 cursorPosition, bool shift) { }
 
-	// RVA: 0x22E3220 Offset: 0x22E1820 VA: 0x1822E3220
+	// RVA: 0x22E3060 Offset: 0x22E1660 VA: 0x1822E3060
 	public void SelectToPosition(Vector2 cursorPosition) { }
 
-	// RVA: 0x22E2C00 Offset: 0x22E1200 VA: 0x1822E2C00
+	// RVA: 0x22E2A40 Offset: 0x22E1040 VA: 0x1822E2A40
 	public void SelectLeft() { }
 
-	// RVA: 0x22E2FF0 Offset: 0x22E15F0 VA: 0x1822E2FF0
+	// RVA: 0x22E2E30 Offset: 0x22E1430 VA: 0x1822E2E30
 	public void SelectRight() { }
 
-	// RVA: 0x22E39F0 Offset: 0x22E1FF0 VA: 0x1822E39F0
+	// RVA: 0x22E3830 Offset: 0x22E1E30 VA: 0x1822E3830
 	public void SelectUp() { }
 
-	// RVA: 0x22E2A20 Offset: 0x22E1020 VA: 0x1822E2A20
+	// RVA: 0x22E2860 Offset: 0x22E0E60 VA: 0x1822E2860
 	public void SelectDown() { }
 
-	// RVA: 0x22E30D0 Offset: 0x22E16D0 VA: 0x1822E30D0
+	// RVA: 0x22E2F10 Offset: 0x22E1510 VA: 0x1822E2F10
 	public void SelectTextEnd() { }
 
-	// RVA: 0x22E3150 Offset: 0x22E1750 VA: 0x1822E3150
+	// RVA: 0x22E2F90 Offset: 0x22E1590 VA: 0x1822E2F90
 	public void SelectTextStart() { }
 
-	// RVA: 0x22DF9D0 Offset: 0x22DDFD0 VA: 0x1822DF9D0
+	// RVA: 0x22DF810 Offset: 0x22DDE10 VA: 0x1822DF810
 	public void MouseDragSelectsWholeWords(bool on) { }
 
 	// RVA: 0xCA6AC0 Offset: 0xCA50C0 VA: 0x180CA6AC0
 	public void DblClickSnap(TextEditor.DblClickSnapping snapping) { }
 
-	// RVA: 0x22DED50 Offset: 0x22DD350 VA: 0x1822DED50
+	// RVA: 0x22DEB90 Offset: 0x22DD190 VA: 0x1822DEB90
 	private int GetGraphicalLineStart(int p) { }
 
-	// RVA: 0x22DEC40 Offset: 0x22DD240 VA: 0x1822DEC40
+	// RVA: 0x22DEA80 Offset: 0x22DD080 VA: 0x1822DEA80
 	private int GetGraphicalLineEnd(int p) { }
 
-	// RVA: 0x22DE930 Offset: 0x22DCF30 VA: 0x1822DE930
+	// RVA: 0x22DE770 Offset: 0x22DCD70 VA: 0x1822DE770
 	private int FindNextSeperator(int startPos) { }
 
-	// RVA: 0x22DE9D0 Offset: 0x22DCFD0 VA: 0x1822DE9D0
+	// RVA: 0x22DE810 Offset: 0x22DCE10 VA: 0x1822DE810
 	private int FindPrevSeperator(int startPos) { }
 
-	// RVA: 0x22E0D10 Offset: 0x22DF310 VA: 0x1822E0D10
+	// RVA: 0x22E0B50 Offset: 0x22DF150 VA: 0x1822E0B50
 	public void MoveWordRight() { }
 
-	// RVA: 0x22E0970 Offset: 0x22DEF70 VA: 0x1822E0970
+	// RVA: 0x22E07B0 Offset: 0x22DEDB0 VA: 0x1822E07B0
 	public void MoveToStartOfNextWord() { }
 
-	// RVA: 0x22E08A0 Offset: 0x22DEEA0 VA: 0x1822E08A0
+	// RVA: 0x22E06E0 Offset: 0x22DECE0 VA: 0x1822E06E0
 	public void MoveToEndOfPreviousWord() { }
 
-	// RVA: 0x22E3980 Offset: 0x22E1F80 VA: 0x1822E3980
+	// RVA: 0x22E37C0 Offset: 0x22E1DC0 VA: 0x1822E37C0
 	public void SelectToStartOfNextWord() { }
 
-	// RVA: 0x22E31B0 Offset: 0x22E17B0 VA: 0x1822E31B0
+	// RVA: 0x22E2FF0 Offset: 0x22E15F0 VA: 0x1822E2FF0
 	public void SelectToEndOfPreviousWord() { }
 
-	// RVA: 0x22DD6B0 Offset: 0x22DBCB0 VA: 0x1822DD6B0
+	// RVA: 0x22DD4F0 Offset: 0x22DBAF0 VA: 0x1822DD4F0
 	private TextEditor.CharacterType ClassifyChar(int index) { }
 
-	// RVA: 0x22DEA70 Offset: 0x22DD070 VA: 0x1822DEA70
+	// RVA: 0x22DE8B0 Offset: 0x22DCEB0 VA: 0x1822DE8B0
 	public int FindStartOfNextWord(int p) { }
 
-	// RVA: 0x22DE860 Offset: 0x22DCE60 VA: 0x1822DE860
+	// RVA: 0x22DE6A0 Offset: 0x22DCCA0 VA: 0x1822DE6A0
 	private int FindEndOfPreviousWord(int p) { }
 
-	// RVA: 0x22E0BC0 Offset: 0x22DF1C0 VA: 0x1822E0BC0
+	// RVA: 0x22E0A00 Offset: 0x22DF000 VA: 0x1822E0A00
 	public void MoveWordLeft() { }
 
-	// RVA: 0x22E3C10 Offset: 0x22E2210 VA: 0x1822E3C10
+	// RVA: 0x22E3A50 Offset: 0x22E2050 VA: 0x1822E3A50
 	public void SelectWordRight() { }
 
-	// RVA: 0x22E3AC0 Offset: 0x22E20C0 VA: 0x1822E3AC0
+	// RVA: 0x22E3900 Offset: 0x22E1F00 VA: 0x1822E3900
 	public void SelectWordLeft() { }
 
-	// RVA: 0x22DE610 Offset: 0x22DCC10 VA: 0x1822DE610
+	// RVA: 0x22DE450 Offset: 0x22DCA50 VA: 0x1822DE450
 	public void ExpandSelectGraphicalLineStart() { }
 
-	// RVA: 0x22DE520 Offset: 0x22DCB20 VA: 0x1822DE520
+	// RVA: 0x22DE360 Offset: 0x22DC960 VA: 0x1822DE360
 	public void ExpandSelectGraphicalLineEnd() { }
 
-	// RVA: 0x22E2B90 Offset: 0x22E1190 VA: 0x1822E2B90
+	// RVA: 0x22E29D0 Offset: 0x22E0FD0 VA: 0x1822E29D0
 	public void SelectGraphicalLineStart() { }
 
-	// RVA: 0x22E2B20 Offset: 0x22E1120 VA: 0x1822E2B20
+	// RVA: 0x22E2960 Offset: 0x22E0F60 VA: 0x1822E2960
 	public void SelectGraphicalLineEnd() { }
 
-	// RVA: 0x22E2EB0 Offset: 0x22E14B0 VA: 0x1822E2EB0
+	// RVA: 0x22E2CF0 Offset: 0x22E12F0 VA: 0x1822E2CF0
 	public void SelectParagraphForward() { }
 
-	// RVA: 0x22E2D40 Offset: 0x22E1340 VA: 0x1822E2D40
+	// RVA: 0x22E2B80 Offset: 0x22E1180 VA: 0x1822E2B80
 	public void SelectParagraphBackward() { }
 
-	// RVA: 0x22E2600 Offset: 0x22E0C00 VA: 0x1822E2600
+	// RVA: 0x22E2440 Offset: 0x22E0A40 VA: 0x1822E2440
 	public void SelectCurrentWord() { }
 
-	// RVA: 0x22DE700 Offset: 0x22DCD00 VA: 0x1822DE700
+	// RVA: 0x22DE540 Offset: 0x22DCB40 VA: 0x1822DE540
 	private int FindEndOfClassification(int p, TextEditor.Direction dir) { }
 
-	// RVA: 0x22E24B0 Offset: 0x22E0AB0 VA: 0x1822E24B0
+	// RVA: 0x22E22F0 Offset: 0x22E08F0 VA: 0x1822E22F0
 	public void SelectCurrentParagraph() { }
 
-	// RVA: 0x22E3D60 Offset: 0x22E2360 VA: 0x1822E3D60
+	// RVA: 0x22E3BA0 Offset: 0x22E21A0 VA: 0x1822E3BA0
 	public void UpdateScrollOffsetIfNeeded(Event evt) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x22E3DB0 Offset: 0x22E23B0 VA: 0x1822E3DB0
+	[VisibleToOtherModulesAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x22E3BF0 Offset: 0x22E21F0 VA: 0x1822E3BF0
 	internal void UpdateScrollOffset() { }
 
-	// RVA: 0x22DDEE0 Offset: 0x22DC4E0 VA: 0x1822DDEE0
+	// RVA: 0x22DDD20 Offset: 0x22DC320 VA: 0x1822DDD20
 	public void DrawCursor(string newText) { }
 
-	// RVA: 0x22E12C0 Offset: 0x22DF8C0 VA: 0x1822E12C0
+	// RVA: 0x22E1100 Offset: 0x22DF700 VA: 0x1822E1100
 	private bool PerformOperation(TextEditor.TextEditOp operation, bool textIsReadOnly) { }
 
-	// RVA: 0x22E23B0 Offset: 0x22E09B0 VA: 0x1822E23B0
+	// RVA: 0x22E21F0 Offset: 0x22E07F0 VA: 0x1822E21F0
 	public void SaveBackup() { }
 
-	// RVA: 0x22DD880 Offset: 0x22DBE80 VA: 0x1822DD880
+	// RVA: 0x22DD6C0 Offset: 0x22DBCC0 VA: 0x1822DD6C0
 	public bool Cut() { }
 
-	// RVA: 0x22DD7F0 Offset: 0x22DBDF0 VA: 0x1822DD7F0
+	// RVA: 0x22DD630 Offset: 0x22DBC30 VA: 0x1822DD630
 	public void Copy() { }
 
-	// RVA: 0x22E2230 Offset: 0x22E0830 VA: 0x1822E2230
+	// RVA: 0x22E2070 Offset: 0x22E0670 VA: 0x1822E2070
 	private static string ReplaceNewlinesWithSpaces(string value) { }
 
-	// RVA: 0x22E11D0 Offset: 0x22DF7D0 VA: 0x1822E11D0
+	// RVA: 0x22E1010 Offset: 0x22DF610 VA: 0x1822E1010
 	public bool Paste() { }
 
-	// RVA: 0x22DF950 Offset: 0x22DDF50 VA: 0x1822DF950
+	// RVA: 0x22DF790 Offset: 0x22DDD90 VA: 0x1822DF790
 	private static void MapKey(string key, TextEditor.TextEditOp action) { }
 
-	// RVA: 0x22DF210 Offset: 0x22DD810 VA: 0x1822DF210
+	// RVA: 0x22DF050 Offset: 0x22DD650 VA: 0x1822DF050
 	private void InitKeyActions() { }
 
 	// RVA: 0x95F830 Offset: 0x95DE30 VA: 0x18095F830
 	public void DetectFocusChange() { }
 
-	// RVA: 0x22E0F70 Offset: 0x22DF570 VA: 0x1822E0F70 Slot: 5
+	// RVA: 0x22E0DB0 Offset: 0x22DF3B0 VA: 0x1822E0DB0 Slot: 5
 	internal virtual void OnDetectFocusChange() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 6
@@ -310,19 +310,19 @@ public class TextEditor // TypeDefIndex: 4061
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	internal virtual void OnSelectIndexChange() { }
 
-	// RVA: 0x22DD620 Offset: 0x22DBC20 VA: 0x1822DD620
+	// RVA: 0x22DD460 Offset: 0x22DBA60 VA: 0x1822DD460
 	private void ClampTextIndex(ref int index) { }
 
-	// RVA: 0x22DE3A0 Offset: 0x22DC9A0 VA: 0x1822DE3A0
+	// RVA: 0x22DE1E0 Offset: 0x22DC7E0 VA: 0x1822DE1E0
 	private void EnsureValidCodePointIndex(ref int index) { }
 
-	// RVA: 0x22DF850 Offset: 0x22DDE50 VA: 0x1822DF850
+	// RVA: 0x22DF690 Offset: 0x22DDC90 VA: 0x1822DF690
 	private bool IsValidCodePointIndex(int index) { }
 
-	// RVA: 0x22E2180 Offset: 0x22E0780 VA: 0x1822E2180
+	// RVA: 0x22E1FC0 Offset: 0x22E05C0 VA: 0x1822E1FC0
 	private int PreviousCodePointIndex(int index) { }
 
-	// RVA: 0x22E0E70 Offset: 0x22DF470 VA: 0x1822E0E70
+	// RVA: 0x22E0CB0 Offset: 0x22DF2B0 VA: 0x1822E0CB0
 	private int NextCodePointIndex(int index) { }
 
 }

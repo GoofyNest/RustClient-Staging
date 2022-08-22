@@ -31,17 +31,17 @@ public class DeployedRecorder : StorageContainer, ICassettePlayer // TypeDefInde
 	// RVA: 0x979160 Offset: 0x977760 VA: 0x180979160 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	[BaseEntity.Menu] // RVA: 0xD6A40 Offset: 0xD5E40 VA: 0x1800D6A40
-	[BaseEntity.Menu.Description] // RVA: 0xD6A40 Offset: 0xD5E40 VA: 0x1800D6A40
-	[BaseEntity.Menu.Icon] // RVA: 0xD6A40 Offset: 0xD5E40 VA: 0x1800D6A40
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD6A40 Offset: 0xD5E40 VA: 0x1800D6A40
+	[BaseEntity.Menu] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
+	[BaseEntity.Menu.Description] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
+	[BaseEntity.Menu.Icon] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
 	// RVA: 0x97A550 Offset: 0x978B50 VA: 0x18097A550
 	public void Play(BasePlayer forPlayer) { }
 
-	[BaseEntity.Menu] // RVA: 0xD6CA0 Offset: 0xD60A0 VA: 0x1800D6CA0
-	[BaseEntity.Menu.Description] // RVA: 0xD6CA0 Offset: 0xD60A0 VA: 0x1800D6CA0
-	[BaseEntity.Menu.Icon] // RVA: 0xD6CA0 Offset: 0xD60A0 VA: 0x1800D6CA0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD6CA0 Offset: 0xD60A0 VA: 0x1800D6CA0
+	[BaseEntity.Menu] // RVA: 0xD6D10 Offset: 0xD6110 VA: 0x1800D6D10
+	[BaseEntity.Menu.Description] // RVA: 0xD6D10 Offset: 0xD6110 VA: 0x1800D6D10
+	[BaseEntity.Menu.Icon] // RVA: 0xD6D10 Offset: 0xD6110 VA: 0x1800D6D10
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD6D10 Offset: 0xD6110 VA: 0x1800D6D10
 	// RVA: 0x97A660 Offset: 0x978C60 VA: 0x18097A660
 	public void Stop(BasePlayer forPlayer) { }
 
@@ -60,11 +60,11 @@ public class DeployedRecorder : StorageContainer, ICassettePlayer // TypeDefInde
 	// RVA: 0x97A780 Offset: 0x978D80 VA: 0x18097A780
 	private void UpdateCassetteMesh() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x979180 Offset: 0x977780 VA: 0x180979180
 	public void Client_OnCassetteInserted(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x979320 Offset: 0x977920 VA: 0x180979320
 	public void Client_OnCassetteRemoved(BaseEntity.RPCMessage msg) { }
 

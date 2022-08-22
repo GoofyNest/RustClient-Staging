@@ -1,16 +1,16 @@
 public struct GlyphRect : IEquatable<GlyphRect> // TypeDefIndex: 4110
 {	// Fields
-	[NativeNameAttribute] // RVA: 0x85990 Offset: 0x84D90 VA: 0x180085990
-	[SerializeField] // RVA: 0x85990 Offset: 0x84D90 VA: 0x180085990
+	[NativeNameAttribute] // RVA: 0x85A80 Offset: 0x84E80 VA: 0x180085A80
+	[SerializeField] // RVA: 0x85A80 Offset: 0x84E80 VA: 0x180085A80
 	private int m_X; // 0x0
-	[SerializeField] // RVA: 0x85AE0 Offset: 0x84EE0 VA: 0x180085AE0
-	[NativeNameAttribute] // RVA: 0x85AE0 Offset: 0x84EE0 VA: 0x180085AE0
+	[SerializeField] // RVA: 0x85B50 Offset: 0x84F50 VA: 0x180085B50
+	[NativeNameAttribute] // RVA: 0x85B50 Offset: 0x84F50 VA: 0x180085B50
 	private int m_Y; // 0x4
-	[NativeNameAttribute] // RVA: 0x85BD0 Offset: 0x84FD0 VA: 0x180085BD0
-	[SerializeField] // RVA: 0x85BD0 Offset: 0x84FD0 VA: 0x180085BD0
+	[NativeNameAttribute] // RVA: 0x85C40 Offset: 0x85040 VA: 0x180085C40
+	[SerializeField] // RVA: 0x85C40 Offset: 0x85040 VA: 0x180085C40
 	private int m_Width; // 0x8
-	[SerializeField] // RVA: 0x85CD0 Offset: 0x850D0 VA: 0x180085CD0
-	[NativeNameAttribute] // RVA: 0x85CD0 Offset: 0x850D0 VA: 0x180085CD0
+	[SerializeField] // RVA: 0x85D60 Offset: 0x85160 VA: 0x180085D60
+	[NativeNameAttribute] // RVA: 0x85D60 Offset: 0x85160 VA: 0x180085D60
 	private int m_Height; // 0xC
 	private static readonly GlyphRect s_ZeroGlyphRect; // 0x0
 
@@ -23,34 +23,34 @@ public struct GlyphRect : IEquatable<GlyphRect> // TypeDefIndex: 4110
 
 	// Methods
 
-	// RVA: 0x13A620 Offset: 0x139A20 VA: 0x18013A620
+	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0
 	public int get_x() { }
 
-	// RVA: 0x13A380 Offset: 0x139780 VA: 0x18013A380
+	// RVA: 0x13A300 Offset: 0x139700 VA: 0x18013A300
 	public int get_y() { }
 
-	// RVA: 0x13ACA0 Offset: 0x13A0A0 VA: 0x18013ACA0
+	// RVA: 0x13AC20 Offset: 0x13A020 VA: 0x18013AC20
 	public int get_width() { }
 
-	// RVA: 0x221DE0 Offset: 0x2211E0 VA: 0x180221DE0
+	// RVA: 0x221D60 Offset: 0x221160 VA: 0x180221D60
 	public int get_height() { }
 
-	// RVA: 0x22F0DD0 Offset: 0x22EF3D0 VA: 0x1822F0DD0
+	// RVA: 0x22F0C10 Offset: 0x22EF210 VA: 0x1822F0C10
 	public static GlyphRect get_zero() { }
 
-	// RVA: 0x223630 Offset: 0x222A30 VA: 0x180223630
+	// RVA: 0x2235B0 Offset: 0x2229B0 VA: 0x1802235B0
 	public void .ctor(int x, int y, int width, int height) { }
 
-	// RVA: 0x23DEB0 Offset: 0x23D2B0 VA: 0x18023DEB0 Slot: 2
+	// RVA: 0x23DE30 Offset: 0x23D230 VA: 0x18023DE30 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x23DDB0 Offset: 0x23D1B0 VA: 0x18023DDB0 Slot: 0
+	// RVA: 0x23DD30 Offset: 0x23D130 VA: 0x18023DD30 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x23DE20 Offset: 0x23D220 VA: 0x18023DE20 Slot: 4
+	// RVA: 0x23DDA0 Offset: 0x23D1A0 VA: 0x18023DDA0 Slot: 4
 	public bool Equals(GlyphRect other) { }
 
-	// RVA: 0x22F0D80 Offset: 0x22EF380 VA: 0x1822F0D80
+	// RVA: 0x22F0BC0 Offset: 0x22EF1C0 VA: 0x1822F0BC0
 	private static void .cctor() { }
 
 }

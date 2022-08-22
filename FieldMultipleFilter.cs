@@ -1,7 +1,7 @@
 internal class FieldMultipleFilter : PathFilter // TypeDefIndex: 6086
 {
 // Namespace: Newtonsoft.Json.Linq.JsonPath
-[PreserveAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 internal class FieldMultipleFilter : PathFilter // TypeDefIndex: 6086
 	// Methods
 
@@ -12,7 +12,7 @@ internal class FieldMultipleFilter : PathFilter // TypeDefIndex: 6086
 
 private sealed class FieldMultipleFilter.<>c // TypeDefIndex: 6087
 {	// Fields
-	public static readonly FieldMultipleFilter.<>c <>9; // 0x2B11264
+	public static readonly FieldMultipleFilter.<>c <>9; // 0x2B10284
 
 	// Methods
 

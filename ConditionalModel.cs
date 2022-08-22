@@ -4,7 +4,7 @@ public class ConditionalModel : PrefabAttribute // TypeDefIndex: 9051
 	public bool onClient; // 0xA0
 	public bool onServer; // 0xA1
 	public ModelConditionTest[] conditions; // 0xA8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private uint <targetPrefabId>k__BackingField; // 0xB0
 
 	// Properties
@@ -12,11 +12,11 @@ public class ConditionalModel : PrefabAttribute // TypeDefIndex: 9051
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x2FA5B0 Offset: 0x2F8BB0 VA: 0x1802FA5B0
 	public uint get_targetPrefabId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x2FA5C0 Offset: 0x2F8BC0 VA: 0x1802FA5C0
 	private void set_targetPrefabId(uint value) { }
 

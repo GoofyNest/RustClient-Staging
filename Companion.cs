@@ -14,7 +14,7 @@ public class CompanionSetupScreen : SingletonComponent<CompanionSetupScreen> // 
 	public GameObject pairButton; // 0x68
 	public RustText serverName; // 0x70
 	public RustButton helpButton; // 0x78
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private CompanionSetupScreen.ScreenState <State>k__BackingField; // 0x80
 	private bool _isLoading; // 0x84
 	private Nullable<bool> _enabled; // 0x85
@@ -25,11 +25,11 @@ public class CompanionSetupScreen : SingletonComponent<CompanionSetupScreen> // 
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x582940 Offset: 0x580F40 VA: 0x180582940
 	public CompanionSetupScreen.ScreenState get_State() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x582950 Offset: 0x580F50 VA: 0x180582950
 	private void set_State(CompanionSetupScreen.ScreenState value) { }
 
@@ -39,15 +39,15 @@ public class CompanionSetupScreen : SingletonComponent<CompanionSetupScreen> // 
 	// RVA: 0x582420 Offset: 0x580A20 VA: 0x180582420
 	public void Refresh() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x94FB0 Offset: 0x943B0 VA: 0x180094FB0
+	[AsyncStateMachineAttribute] // RVA: 0x95060 Offset: 0x94460 VA: 0x180095060
 	// RVA: 0x582350 Offset: 0x580950 VA: 0x180582350
 	public void RefreshImpl() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x950E0 Offset: 0x944E0 VA: 0x1800950E0
+	[AsyncStateMachineAttribute] // RVA: 0x95260 Offset: 0x94660 VA: 0x180095260
 	// RVA: 0x581F70 Offset: 0x580570 VA: 0x180581F70
 	public void Enable() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x952A0 Offset: 0x946A0 VA: 0x1800952A0
+	[AsyncStateMachineAttribute] // RVA: 0x95320 Offset: 0x94720 VA: 0x180095320
 	// RVA: 0x581EA0 Offset: 0x5804A0 VA: 0x180581EA0
 	public void Disable() { }
 
@@ -100,11 +100,11 @@ private struct CompanionSetupScreen.<RefreshImpl>d__24 : IAsyncStateMachine // T
 
 	// Methods
 
-	// RVA: 0xF2DA0 Offset: 0xF21A0 VA: 0x1800F2DA0 Slot: 4
+	// RVA: 0xF2D20 Offset: 0xF2120 VA: 0x1800F2D20 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF15B0 Offset: 0xF09B0 VA: 0x1800F15B0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF1530 Offset: 0xF0930 VA: 0x1800F1530 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -118,11 +118,11 @@ private struct CompanionSetupScreen.<Enable>d__25 : IAsyncStateMachine // TypeDe
 
 	// Methods
 
-	// RVA: 0xF2D90 Offset: 0xF2190 VA: 0x1800F2D90 Slot: 4
+	// RVA: 0xF2D10 Offset: 0xF2110 VA: 0x1800F2D10 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF15B0 Offset: 0xF09B0 VA: 0x1800F15B0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF1530 Offset: 0xF0930 VA: 0x1800F1530 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -136,11 +136,11 @@ private struct CompanionSetupScreen.<Disable>d__26 : IAsyncStateMachine // TypeD
 
 	// Methods
 
-	// RVA: 0xF2D80 Offset: 0xF2180 VA: 0x1800F2D80 Slot: 4
+	// RVA: 0xF2D00 Offset: 0xF2100 VA: 0x1800F2D00 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF15B0 Offset: 0xF09B0 VA: 0x1800F15B0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF1530 Offset: 0xF0930 VA: 0x1800F1530 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -155,15 +155,15 @@ public static class CompanionSubscription // TypeDefIndex: 11090
 
 	// Methods
 
-	[AsyncStateMachineAttribute] // RVA: 0x956B0 Offset: 0x94AB0 VA: 0x1800956B0
+	[AsyncStateMachineAttribute] // RVA: 0x957A0 Offset: 0x94BA0 VA: 0x1800957A0
 	// RVA: 0x582A30 Offset: 0x581030 VA: 0x180582A30
 	public static Task<CompanionSubscription.Status> CheckStatus() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x95770 Offset: 0x94B70 VA: 0x180095770
+	[AsyncStateMachineAttribute] // RVA: 0x957F0 Offset: 0x94BF0 VA: 0x1800957F0
 	// RVA: 0x582960 Offset: 0x580F60 VA: 0x180582960
 	public static Task Add() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x958F0 Offset: 0x94CF0 VA: 0x1800958F0
+	[AsyncStateMachineAttribute] // RVA: 0x959E0 Offset: 0x94DE0 VA: 0x1800959E0
 	// RVA: 0x582D00 Offset: 0x581300 VA: 0x180582D00
 	public static Task Remove() { }
 
@@ -210,11 +210,11 @@ private struct CompanionSubscription.<CheckStatus>d__5 : IAsyncStateMachine // T
 
 	// Methods
 
-	// RVA: 0xF4830 Offset: 0xF3C30 VA: 0x1800F4830 Slot: 4
+	// RVA: 0xF47B0 Offset: 0xF3BB0 VA: 0x1800F47B0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF4840 Offset: 0xF3C40 VA: 0x1800F4840 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF47C0 Offset: 0xF3BC0 VA: 0x1800F47C0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -229,11 +229,11 @@ private struct CompanionSubscription.<Add>d__6 : IAsyncStateMachine // TypeDefIn
 
 	// Methods
 
-	// RVA: 0xF4820 Offset: 0xF3C20 VA: 0x1800F4820 Slot: 4
+	// RVA: 0xF47A0 Offset: 0xF3BA0 VA: 0x1800F47A0 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -248,11 +248,11 @@ private struct CompanionSubscription.<Remove>d__7 : IAsyncStateMachine // TypeDe
 
 	// Methods
 
-	// RVA: 0xF4890 Offset: 0xF3C90 VA: 0x1800F4890 Slot: 4
+	// RVA: 0xF4810 Offset: 0xF3C10 VA: 0x1800F4810 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF21F0 Offset: 0xF15F0 VA: 0x1800F21F0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF2170 Offset: 0xF1570 VA: 0x1800F2170 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

@@ -10,7 +10,7 @@ public struct Packet // TypeDefIndex: 6647
 
 	// Methods
 
-	// RVA: 0x23C5B0 Offset: 0x23B9B0 VA: 0x18023C5B0
+	// RVA: 0x23C530 Offset: 0x23B930 VA: 0x18023C530
 	public bool get_isValid() { }
 
 }

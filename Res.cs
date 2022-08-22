@@ -12,10 +12,10 @@ internal static class Res // TypeDefIndex: 2035
 internal static class Res // TypeDefIndex: 5850
 {	// Methods
 
-	// RVA: 0x2215F40 Offset: 0x2214540 VA: 0x182215F40
+	// RVA: 0x2215D80 Offset: 0x2214380 VA: 0x182215D80
 	public static string GetString(string name) { }
 
-	// RVA: 0x2215EB0 Offset: 0x22144B0 VA: 0x182215EB0
+	// RVA: 0x2215CF0 Offset: 0x22142F0 VA: 0x182215CF0
 	public static string GetString(string name, object[] args) { }
 
 }

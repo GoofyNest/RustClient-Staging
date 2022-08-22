@@ -10,10 +10,10 @@ internal struct CreateBeaconCallback_t : ICallbackData // TypeDefIndex: 5356
 
 	// Methods
 
-	// RVA: 0x1E5260 Offset: 0x1E4660 VA: 0x1801E5260 Slot: 5
+	// RVA: 0x1E51E0 Offset: 0x1E45E0 VA: 0x1801E51E0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E5250 Offset: 0x1E4650 VA: 0x1801E5250 Slot: 4
+	// RVA: 0x1E51D0 Offset: 0x1E45D0 VA: 0x1801E51D0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x136F460 Offset: 0x136DA60 VA: 0x18136F460

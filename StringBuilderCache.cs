@@ -1,17 +1,17 @@
 internal static class StringBuilderCache // TypeDefIndex: 464
 {	// Fields
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static StringBuilder CachedInstance; // 0x80000000
 
 	// Methods
 
-	// RVA: 0x191F810 Offset: 0x191DE10 VA: 0x18191F810
+	// RVA: 0x191F7D0 Offset: 0x191DDD0 VA: 0x18191F7D0
 	public static StringBuilder Acquire(int capacity = 16) { }
 
-	// RVA: 0x191F9B0 Offset: 0x191DFB0 VA: 0x18191F9B0
+	// RVA: 0x191F970 Offset: 0x191DF70 VA: 0x18191F970
 	public static void Release(StringBuilder sb) { }
 
-	// RVA: 0x191F920 Offset: 0x191DF20 VA: 0x18191F920
+	// RVA: 0x191F8E0 Offset: 0x191DEE0 VA: 0x18191F8E0
 	public static string GetStringAndRelease(StringBuilder sb) { }
 
 }

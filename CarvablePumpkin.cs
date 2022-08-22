@@ -9,10 +9,10 @@ public class CarvablePumpkin : BaseOven, ILOD, ISignage, IUGCBrowserEntity // Ty
 	public uint[] textureIDs; // 0x600
 	internal RealTimeSince[] timeSinceRequest; // 0x608
 	internal uint[] loadedTextures; // 0x610
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static float textureRequestDistance; // 0x0
 	private bool textureRequestSent; // 0x618
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private bool <withinTextureRange>k__BackingField; // 0x619
 	private LODCell cell; // 0x620
 
@@ -53,24 +53,24 @@ public class CarvablePumpkin : BaseOven, ILOD, ISignage, IUGCBrowserEntity // Ty
 	// RVA: 0x52D570 Offset: 0x52BB70 VA: 0x18052D570
 	private void LoadTexture(int frame, uint id, byte[] data) { }
 
-	[BaseEntity.Menu] // RVA: 0xD1890 Offset: 0xD0C90 VA: 0x1800D1890
-	[BaseEntity.Menu.Icon] // RVA: 0xD1890 Offset: 0xD0C90 VA: 0x1800D1890
-	[BaseEntity.Menu.Description] // RVA: 0xD1890 Offset: 0xD0C90 VA: 0x1800D1890
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD1890 Offset: 0xD0C90 VA: 0x1800D1890
+	[BaseEntity.Menu] // RVA: 0xD1920 Offset: 0xD0D20 VA: 0x1800D1920
+	[BaseEntity.Menu.Icon] // RVA: 0xD1920 Offset: 0xD0D20 VA: 0x1800D1920
+	[BaseEntity.Menu.Description] // RVA: 0xD1920 Offset: 0xD0D20 VA: 0x1800D1920
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD1920 Offset: 0xD0D20 VA: 0x1800D1920
 	// RVA: 0x52DA50 Offset: 0x52C050 VA: 0x18052DA50
 	public void Menu_ChangeText(BasePlayer player) { }
 
 	// RVA: 0x52E040 Offset: 0x52C640 VA: 0x18052E040 Slot: 167
 	public virtual void OnTextureWasEdited(int frame, Texture2D texture, bool fromFile = False) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x52E690 Offset: 0x52CC90 VA: 0x18052E690
 	public void RecieveTexture(BaseEntity.RPCMessage msg) { }
 
 	// RVA: 0x52CB90 Offset: 0x52B190 VA: 0x18052CB90
 	private void EnsureInitialized() { }
 
-	[ConditionalAttribute] // RVA: 0x83DB0 Offset: 0x831B0 VA: 0x180083DB0
+	[ConditionalAttribute] // RVA: 0x83E20 Offset: 0x83220 VA: 0x180083E20
 	// RVA: 0x52EC30 Offset: 0x52D230 VA: 0x18052EC30
 	private static void SignDebugLog(string str) { }
 
@@ -95,11 +95,11 @@ public class CarvablePumpkin : BaseOven, ILOD, ISignage, IUGCBrowserEntity // Ty
 	// RVA: 0x52D810 Offset: 0x52BE10 VA: 0x18052D810 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x52EFF0 Offset: 0x52D5F0 VA: 0x18052EFF0
 	protected bool get_withinTextureRange() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x52F000 Offset: 0x52D600 VA: 0x18052F000
 	private void set_withinTextureRange(bool value) { }
 
@@ -121,17 +121,17 @@ public class CarvablePumpkin : BaseOven, ILOD, ISignage, IUGCBrowserEntity // Ty
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 170
 	protected virtual void OnExitTextureRange() { }
 
-	[BaseEntity.Menu] // RVA: 0x7C470 Offset: 0x7B870 VA: 0x18007C470
-	[BaseEntity.Menu.Icon] // RVA: 0x7C470 Offset: 0x7B870 VA: 0x18007C470
-	[BaseEntity.Menu.Description] // RVA: 0x7C470 Offset: 0x7B870 VA: 0x18007C470
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C470 Offset: 0x7B870 VA: 0x18007C470
+	[BaseEntity.Menu] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
+	[BaseEntity.Menu.Icon] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
+	[BaseEntity.Menu.Description] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
 	// RVA: 0x52DB70 Offset: 0x52C170 VA: 0x18052DB70
 	public void Menu_LockSign(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7C700 Offset: 0x7BB00 VA: 0x18007C700
-	[BaseEntity.Menu.Icon] // RVA: 0x7C700 Offset: 0x7BB00 VA: 0x18007C700
-	[BaseEntity.Menu.Description] // RVA: 0x7C700 Offset: 0x7BB00 VA: 0x18007C700
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C700 Offset: 0x7BB00 VA: 0x18007C700
+	[BaseEntity.Menu] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
+	[BaseEntity.Menu.Icon] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
+	[BaseEntity.Menu.Description] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
 	// RVA: 0x52DBB0 Offset: 0x52C1B0 VA: 0x18052DBB0
 	public void Menu_UnLockSign(BasePlayer player) { }
 
@@ -147,7 +147,7 @@ public class CarvablePumpkin : BaseOven, ILOD, ISignage, IUGCBrowserEntity // Ty
 	// RVA: 0x52ECC0 Offset: 0x52D2C0 VA: 0x18052ECC0
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x52EC90 Offset: 0x52D290 VA: 0x18052EC90
 	private void <Menu_ChangeText>b__21_0(int i, Texture2D x) { }
 

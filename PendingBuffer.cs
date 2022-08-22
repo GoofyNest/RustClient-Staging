@@ -12,34 +12,34 @@ internal class PendingBuffer // TypeDefIndex: 5663
 
 	// Methods
 
-	// RVA: 0x2303A70 Offset: 0x2302070 VA: 0x182303A70
+	// RVA: 0x23038B0 Offset: 0x2301EB0 VA: 0x1823038B0
 	public void .ctor(int bufsize) { }
 
-	// RVA: 0x2303640 Offset: 0x2301C40 VA: 0x182303640
+	// RVA: 0x2303480 Offset: 0x2301A80 VA: 0x182303480
 	public void Reset() { }
 
-	// RVA: 0x2303970 Offset: 0x2301F70 VA: 0x182303970
+	// RVA: 0x23037B0 Offset: 0x2301DB0 VA: 0x1823037B0
 	public void WriteShort(int s) { }
 
-	// RVA: 0x2303790 Offset: 0x2301D90 VA: 0x182303790
+	// RVA: 0x23035D0 Offset: 0x2301BD0 VA: 0x1823035D0
 	public void WriteBlock(byte[] block, int offset, int len) { }
 
 	// RVA: 0x7D0C00 Offset: 0x7CF200 VA: 0x1807D0C00
 	public int get_BitCount() { }
 
-	// RVA: 0x2303470 Offset: 0x2301A70 VA: 0x182303470
+	// RVA: 0x23032B0 Offset: 0x23018B0 VA: 0x1823032B0
 	public void AlignToByte() { }
 
-	// RVA: 0x2303650 Offset: 0x2301C50 VA: 0x182303650
+	// RVA: 0x2303490 Offset: 0x2301A90 VA: 0x182303490
 	public void WriteBits(int b, int count) { }
 
-	// RVA: 0x2303870 Offset: 0x2301E70 VA: 0x182303870
+	// RVA: 0x23036B0 Offset: 0x2301CB0 VA: 0x1823036B0
 	public void WriteShortMSB(int s) { }
 
-	// RVA: 0x2303AD0 Offset: 0x23020D0 VA: 0x182303AD0
+	// RVA: 0x2303910 Offset: 0x2301F10 VA: 0x182303910
 	public bool get_IsFlushed() { }
 
-	// RVA: 0x2303580 Offset: 0x2301B80 VA: 0x182303580
+	// RVA: 0x23033C0 Offset: 0x23019C0 VA: 0x1823033C0
 	public int Flush(byte[] output, int offset, int length) { }
 
 }

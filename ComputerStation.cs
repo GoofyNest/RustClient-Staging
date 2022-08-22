@@ -6,13 +6,13 @@ public class ComputerStation : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x20B14A0 Offset: 0x20AFAA0 VA: 0x1820B14A0
+	// RVA: 0x20B12E0 Offset: 0x20AF8E0 VA: 0x1820B12E0
 	public static void ResetToPool(ComputerStation instance) { }
 
-	// RVA: 0x20B1530 Offset: 0x20AFB30 VA: 0x1820B1530
+	// RVA: 0x20B1370 Offset: 0x20AF970 VA: 0x1820B1370
 	public void ResetToPool() { }
 
-	// RVA: 0x20B1350 Offset: 0x20AF950 VA: 0x1820B1350 Slot: 9
+	// RVA: 0x20B1190 Offset: 0x20AF790 VA: 0x1820B1190 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -21,64 +21,64 @@ public class ComputerStation : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1D67D50 Offset: 0x1D66350 VA: 0x181D67D50
+	// RVA: 0x1D67B90 Offset: 0x1D66190 VA: 0x181D67B90
 	public void CopyTo(ComputerStation instance) { }
 
-	// RVA: 0x20B09B0 Offset: 0x20AEFB0 VA: 0x1820B09B0
+	// RVA: 0x20B07F0 Offset: 0x20AEDF0 VA: 0x1820B07F0
 	public ComputerStation Copy() { }
 
-	// RVA: 0x20B0F60 Offset: 0x20AF560 VA: 0x1820B0F60
+	// RVA: 0x20B0DA0 Offset: 0x20AF3A0 VA: 0x1820B0DA0
 	public static ComputerStation Deserialize(Stream stream) { }
 
-	// RVA: 0x20B0A30 Offset: 0x20AF030 VA: 0x1820B0A30
+	// RVA: 0x20B0870 Offset: 0x20AEE70 VA: 0x1820B0870
 	public static ComputerStation DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20B0CD0 Offset: 0x20AF2D0 VA: 0x1820B0CD0
+	// RVA: 0x20B0B10 Offset: 0x20AF110 VA: 0x1820B0B10
 	public static ComputerStation DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20B10E0 Offset: 0x20AF6E0 VA: 0x1820B10E0
+	// RVA: 0x20B0F20 Offset: 0x20AF520 VA: 0x1820B0F20
 	public static ComputerStation Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20B1460 Offset: 0x20AFA60 VA: 0x1820B1460
+	// RVA: 0x20B12A0 Offset: 0x20AF8A0 VA: 0x1820B12A0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20B19A0 Offset: 0x20AFFA0 VA: 0x1820B19A0 Slot: 12
+	// RVA: 0x20B17E0 Offset: 0x20AFDE0 VA: 0x1820B17E0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20B19C0 Offset: 0x20AFFC0 VA: 0x1820B19C0 Slot: 13
+	// RVA: 0x20B1800 Offset: 0x20AFE00 VA: 0x1820B1800 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ComputerStation previous) { }
 
-	// RVA: 0x20B1480 Offset: 0x20AFA80 VA: 0x1820B1480 Slot: 14
+	// RVA: 0x20B12C0 Offset: 0x20AF8C0 VA: 0x1820B12C0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20B0FE0 Offset: 0x20AF5E0 VA: 0x1820B0FE0
+	// RVA: 0x20B0E20 Offset: 0x20AF420 VA: 0x1820B0E20
 	public static ComputerStation Deserialize(byte[] buffer, ComputerStation instance, bool isDelta = False) { }
 
-	// RVA: 0x20B1200 Offset: 0x20AF800 VA: 0x1820B1200
+	// RVA: 0x20B1040 Offset: 0x20AF640 VA: 0x1820B1040
 	public static ComputerStation Deserialize(Stream stream, ComputerStation instance, bool isDelta) { }
 
-	// RVA: 0x20B0AB0 Offset: 0x20AF0B0 VA: 0x1820B0AB0
+	// RVA: 0x20B08F0 Offset: 0x20AEEF0 VA: 0x1820B08F0
 	public static ComputerStation DeserializeLengthDelimited(Stream stream, ComputerStation instance, bool isDelta) { }
 
-	// RVA: 0x20B0D60 Offset: 0x20AF360 VA: 0x1820B0D60
+	// RVA: 0x20B0BA0 Offset: 0x20AF1A0 VA: 0x1820B0BA0
 	public static ComputerStation DeserializeLength(Stream stream, int length, ComputerStation instance, bool isDelta) { }
 
-	// RVA: 0x20B15C0 Offset: 0x20AFBC0 VA: 0x1820B15C0
+	// RVA: 0x20B1400 Offset: 0x20AFA00 VA: 0x1820B1400
 	public static void SerializeDelta(Stream stream, ComputerStation instance, ComputerStation previous) { }
 
-	// RVA: 0x20B18A0 Offset: 0x20AFEA0 VA: 0x1820B18A0
+	// RVA: 0x20B16E0 Offset: 0x20AFCE0 VA: 0x1820B16E0
 	public static void Serialize(Stream stream, ComputerStation instance) { }
 
-	// RVA: 0x20B1990 Offset: 0x20AFF90 VA: 0x1820B1990
+	// RVA: 0x20B17D0 Offset: 0x20AFDD0 VA: 0x1820B17D0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20B19A0 Offset: 0x20AFFA0 VA: 0x1820B19A0
+	// RVA: 0x20B17E0 Offset: 0x20AFDE0 VA: 0x1820B17E0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20B1790 Offset: 0x20AFD90 VA: 0x1820B1790
+	// RVA: 0x20B15D0 Offset: 0x20AFBD0 VA: 0x1820B15D0
 	public static byte[] SerializeToBytes(ComputerStation instance) { }
 
-	// RVA: 0x20B16E0 Offset: 0x20AFCE0 VA: 0x1820B16E0
+	// RVA: 0x20B1520 Offset: 0x20AFB20 VA: 0x1820B1520
 	public static void SerializeLengthDelimited(Stream stream, ComputerStation instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -88,7 +88,7 @@ public class ComputerStation : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 public class ComputerStation : BaseMountable // TypeDefIndex: 8562
 {	// Fields
-	[HeaderAttribute] // RVA: 0xAAA80 Offset: 0xA9E80 VA: 0x1800AAA80
+	[HeaderAttribute] // RVA: 0xAAB20 Offset: 0xA9F20 VA: 0x1800AAB20
 	public GameObjectRef menuPrefab; // 0x320
 	public ComputerMenu computerMenu; // 0x328
 	public EntityRef currentlyControllingEnt; // 0x330
@@ -119,7 +119,7 @@ public class ComputerStation : BaseMountable // TypeDefIndex: 8562
 	// RVA: 0x6D34A0 Offset: 0x6D1AA0 VA: 0x1806D34A0 Slot: 175
 	public override Quaternion GetMountedRotation() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x6D4340 Offset: 0x6D2940 VA: 0x1806D4340
 	public void ReceiveBookmarks(BaseEntity.RPCMessage msg) { }
 

@@ -1,6 +1,6 @@
 internal class NullFileWatcher : IFileWatcher // TypeDefIndex: 2852
 {	// Fields
-	private static IFileWatcher instance; // 0x2B11180
+	private static IFileWatcher instance; // 0x2B101A0
 
 	// Methods
 

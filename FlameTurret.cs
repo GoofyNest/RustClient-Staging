@@ -34,7 +34,7 @@ public class FlameTurret : StorageContainer // TypeDefIndex: 8569
 	// RVA: 0x78FEC0 Offset: 0x78E4C0 VA: 0x18078FEC0
 	public void ClientThink() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x78FE20 Offset: 0x78E420 VA: 0x18078FE20
 	public void CLIENT_ReceiveAimDir(BaseEntity.RPCMessage rpc) { }
 

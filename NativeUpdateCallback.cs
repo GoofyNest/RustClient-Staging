@@ -10,7 +10,7 @@ internal sealed class NativeUpdateCallback : MulticastDelegate // TypeDefIndex: 
 	// RVA: 0xDE2860 Offset: 0xDE0E60 VA: 0x180DE2860 Slot: 12
 	public virtual void Invoke(NativeInputUpdateType updateType, NativeInputEventBuffer* buffer) { }
 
-	// RVA: 0x23220E0 Offset: 0x23206E0 VA: 0x1823220E0 Slot: 13
+	// RVA: 0x2321F20 Offset: 0x2320520 VA: 0x182321F20 Slot: 13
 	public virtual IAsyncResult BeginInvoke(NativeInputUpdateType updateType, NativeInputEventBuffer* buffer, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

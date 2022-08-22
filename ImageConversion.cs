@@ -1,28 +1,28 @@
 public static class ImageConversion // TypeDefIndex: 4068
 {
 // Namespace: UnityEngine
-[NativeHeaderAttribute] // RVA: 0xE1B60 Offset: 0xE0F60 VA: 0x1800E1B60
-[ExtensionAttribute] // RVA: 0xE1B60 Offset: 0xE0F60 VA: 0x1800E1B60
+[NativeHeaderAttribute] // RVA: 0xE1BC0 Offset: 0xE0FC0 VA: 0x1800E1BC0
+[ExtensionAttribute] // RVA: 0xE1BC0 Offset: 0xE0FC0 VA: 0x1800E1BC0
 public static class ImageConversion // TypeDefIndex: 4068
 	// Methods
 
-	[ExtensionAttribute] // RVA: 0xE2F30 Offset: 0xE2330 VA: 0x1800E2F30
-	[NativeMethodAttribute] // RVA: 0xE2F30 Offset: 0xE2330 VA: 0x1800E2F30
-	// RVA: 0x2322E20 Offset: 0x2321420 VA: 0x182322E20
+	[ExtensionAttribute] // RVA: 0xE4320 Offset: 0xE3720 VA: 0x1800E4320
+	[NativeMethodAttribute] // RVA: 0xE4320 Offset: 0xE3720 VA: 0x1800E4320
+	// RVA: 0x2322C60 Offset: 0x2321260 VA: 0x182322C60
 	public static byte[] EncodeToPNG(Texture2D tex) { }
 
-	[NativeMethodAttribute] // RVA: 0xE43F0 Offset: 0xE37F0 VA: 0x1800E43F0
-	[ExtensionAttribute] // RVA: 0xE43F0 Offset: 0xE37F0 VA: 0x1800E43F0
-	// RVA: 0x2322DE0 Offset: 0x23213E0 VA: 0x182322DE0
+	[NativeMethodAttribute] // RVA: 0xE4790 Offset: 0xE3B90 VA: 0x1800E4790
+	[ExtensionAttribute] // RVA: 0xE4790 Offset: 0xE3B90 VA: 0x1800E4790
+	// RVA: 0x2322C20 Offset: 0x2321220 VA: 0x182322C20
 	public static byte[] EncodeToJPG(Texture2D tex, int quality) { }
 
-	[ExtensionAttribute] // RVA: 0xE4890 Offset: 0xE3C90 VA: 0x1800E4890
-	[NativeMethodAttribute] // RVA: 0xE4890 Offset: 0xE3C90 VA: 0x1800E4890
-	// RVA: 0x2322EB0 Offset: 0x23214B0 VA: 0x182322EB0
+	[ExtensionAttribute] // RVA: 0xE48E0 Offset: 0xE3CE0 VA: 0x1800E48E0
+	[NativeMethodAttribute] // RVA: 0xE48E0 Offset: 0xE3CE0 VA: 0x1800E48E0
+	// RVA: 0x2322CF0 Offset: 0x23212F0 VA: 0x182322CF0
 	public static bool LoadImage(Texture2D tex, byte[] data, bool markNonReadable) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x2322E60 Offset: 0x2321460 VA: 0x182322E60
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x2322CA0 Offset: 0x23212A0 VA: 0x182322CA0
 	public static bool LoadImage(Texture2D tex, byte[] data) { }
 
 }

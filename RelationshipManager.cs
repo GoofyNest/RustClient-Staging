@@ -9,13 +9,13 @@ public class RelationshipManager : IDisposable, Pool.IPooled, IProto // TypeDefI
 
 	// Methods
 
-	// RVA: 0x1E01640 Offset: 0x1DFFC40 VA: 0x181E01640
+	// RVA: 0x1E01480 Offset: 0x1DFFA80 VA: 0x181E01480
 	public static void ResetToPool(RelationshipManager instance) { }
 
-	// RVA: 0x1E01310 Offset: 0x1DFF910 VA: 0x181E01310
+	// RVA: 0x1E01150 Offset: 0x1DFF750 VA: 0x181E01150
 	public void ResetToPool() { }
 
-	// RVA: 0x1E01250 Offset: 0x1DFF850 VA: 0x181E01250 Slot: 9
+	// RVA: 0x1E01090 Offset: 0x1DFF690 VA: 0x181E01090 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -24,64 +24,64 @@ public class RelationshipManager : IDisposable, Pool.IPooled, IProto // TypeDefI
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E00110 Offset: 0x1DFE710 VA: 0x181E00110
+	// RVA: 0x1DFFF50 Offset: 0x1DFE550 VA: 0x181DFFF50
 	public void CopyTo(RelationshipManager instance) { }
 
-	// RVA: 0x1E003A0 Offset: 0x1DFE9A0 VA: 0x181E003A0
+	// RVA: 0x1E001E0 Offset: 0x1DFE7E0 VA: 0x181E001E0
 	public RelationshipManager Copy() { }
 
-	// RVA: 0x1E00CB0 Offset: 0x1DFF2B0 VA: 0x181E00CB0
+	// RVA: 0x1E00AF0 Offset: 0x1DFF0F0 VA: 0x181E00AF0
 	public static RelationshipManager Deserialize(Stream stream) { }
 
-	// RVA: 0x1E00420 Offset: 0x1DFEA20 VA: 0x181E00420
+	// RVA: 0x1E00260 Offset: 0x1DFE860 VA: 0x181E00260
 	public static RelationshipManager DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E00870 Offset: 0x1DFEE70 VA: 0x181E00870
+	// RVA: 0x1E006B0 Offset: 0x1DFECB0 VA: 0x181E006B0
 	public static RelationshipManager DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E01130 Offset: 0x1DFF730 VA: 0x181E01130
+	// RVA: 0x1E00F70 Offset: 0x1DFF570 VA: 0x181E00F70
 	public static RelationshipManager Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E012D0 Offset: 0x1DFF8D0 VA: 0x181E012D0
+	// RVA: 0x1E01110 Offset: 0x1DFF710 VA: 0x181E01110
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E022C0 Offset: 0x1E008C0 VA: 0x181E022C0 Slot: 12
+	// RVA: 0x1E02100 Offset: 0x1E00700 VA: 0x181E02100 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E022E0 Offset: 0x1E008E0 VA: 0x181E022E0 Slot: 13
+	// RVA: 0x1E02120 Offset: 0x1E00720 VA: 0x181E02120 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, RelationshipManager previous) { }
 
-	// RVA: 0x1E012F0 Offset: 0x1DFF8F0 VA: 0x181E012F0 Slot: 14
+	// RVA: 0x1E01130 Offset: 0x1DFF730 VA: 0x181E01130 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E00D30 Offset: 0x1DFF330 VA: 0x181E00D30
+	// RVA: 0x1E00B70 Offset: 0x1DFF170 VA: 0x181E00B70
 	public static RelationshipManager Deserialize(byte[] buffer, RelationshipManager instance, bool isDelta = False) { }
 
-	// RVA: 0x1E00E30 Offset: 0x1DFF430 VA: 0x181E00E30
+	// RVA: 0x1E00C70 Offset: 0x1DFF270 VA: 0x181E00C70
 	public static RelationshipManager Deserialize(Stream stream, RelationshipManager instance, bool isDelta) { }
 
-	// RVA: 0x1E004A0 Offset: 0x1DFEAA0 VA: 0x181E004A0
+	// RVA: 0x1E002E0 Offset: 0x1DFE8E0 VA: 0x181E002E0
 	public static RelationshipManager DeserializeLengthDelimited(Stream stream, RelationshipManager instance, bool isDelta) { }
 
-	// RVA: 0x1E00900 Offset: 0x1DFEF00 VA: 0x181E00900
+	// RVA: 0x1E00740 Offset: 0x1DFED40 VA: 0x181E00740
 	public static RelationshipManager DeserializeLength(Stream stream, int length, RelationshipManager instance, bool isDelta) { }
 
-	// RVA: 0x1E01960 Offset: 0x1DFFF60 VA: 0x181E01960
+	// RVA: 0x1E017A0 Offset: 0x1DFFDA0 VA: 0x181E017A0
 	public static void SerializeDelta(Stream stream, RelationshipManager instance, RelationshipManager previous) { }
 
-	// RVA: 0x1E01F10 Offset: 0x1E00510 VA: 0x181E01F10
+	// RVA: 0x1E01D50 Offset: 0x1E00350 VA: 0x181E01D50
 	public static void Serialize(Stream stream, RelationshipManager instance) { }
 
-	// RVA: 0x1E022B0 Offset: 0x1E008B0 VA: 0x181E022B0
+	// RVA: 0x1E020F0 Offset: 0x1E006F0 VA: 0x181E020F0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E022C0 Offset: 0x1E008C0 VA: 0x181E022C0
+	// RVA: 0x1E02100 Offset: 0x1E00700 VA: 0x181E02100
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E01E00 Offset: 0x1E00400 VA: 0x181E01E00
+	// RVA: 0x1E01C40 Offset: 0x1E00240 VA: 0x181E01C40
 	public static byte[] SerializeToBytes(RelationshipManager instance) { }
 
-	// RVA: 0x1E01D50 Offset: 0x1E00350 VA: 0x181E01D50
+	// RVA: 0x1E01B90 Offset: 0x1E00190 VA: 0x181E01B90
 	public static void SerializeLengthDelimited(Stream stream, RelationshipManager instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -103,13 +103,13 @@ public class RelationshipManager.PlayerRelationshipInfo : IDisposable, Pool.IPoo
 
 	// Methods
 
-	// RVA: 0x1DF88E0 Offset: 0x1DF6EE0 VA: 0x181DF88E0
+	// RVA: 0x1DF8720 Offset: 0x1DF6D20 VA: 0x181DF8720
 	public static void ResetToPool(RelationshipManager.PlayerRelationshipInfo instance) { }
 
-	// RVA: 0x1DF87C0 Offset: 0x1DF6DC0 VA: 0x181DF87C0
+	// RVA: 0x1DF8600 Offset: 0x1DF6C00 VA: 0x181DF8600
 	public void ResetToPool() { }
 
-	// RVA: 0x1DF80B0 Offset: 0x1DF66B0 VA: 0x181DF80B0 Slot: 9
+	// RVA: 0x1DF7EF0 Offset: 0x1DF64F0 VA: 0x181DF7EF0 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -118,64 +118,64 @@ public class RelationshipManager.PlayerRelationshipInfo : IDisposable, Pool.IPoo
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DF65A0 Offset: 0x1DF4BA0 VA: 0x181DF65A0
+	// RVA: 0x1DF63E0 Offset: 0x1DF49E0 VA: 0x181DF63E0
 	public void CopyTo(RelationshipManager.PlayerRelationshipInfo instance) { }
 
-	// RVA: 0x1DF6610 Offset: 0x1DF4C10 VA: 0x181DF6610
+	// RVA: 0x1DF6450 Offset: 0x1DF4A50 VA: 0x181DF6450
 	public RelationshipManager.PlayerRelationshipInfo Copy() { }
 
-	// RVA: 0x1DF7980 Offset: 0x1DF5F80 VA: 0x181DF7980
+	// RVA: 0x1DF77C0 Offset: 0x1DF5DC0 VA: 0x181DF77C0
 	public static RelationshipManager.PlayerRelationshipInfo Deserialize(Stream stream) { }
 
-	// RVA: 0x1DF66C0 Offset: 0x1DF4CC0 VA: 0x181DF66C0
+	// RVA: 0x1DF6500 Offset: 0x1DF4B00 VA: 0x181DF6500
 	public static RelationshipManager.PlayerRelationshipInfo DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DF6EC0 Offset: 0x1DF54C0 VA: 0x181DF6EC0
+	// RVA: 0x1DF6D00 Offset: 0x1DF5300 VA: 0x181DF6D00
 	public static RelationshipManager.PlayerRelationshipInfo DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DF7CB0 Offset: 0x1DF62B0 VA: 0x181DF7CB0
+	// RVA: 0x1DF7AF0 Offset: 0x1DF60F0 VA: 0x181DF7AF0
 	public static RelationshipManager.PlayerRelationshipInfo Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DF8130 Offset: 0x1DF6730 VA: 0x181DF8130
+	// RVA: 0x1DF7F70 Offset: 0x1DF6570 VA: 0x181DF7F70
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DF9170 Offset: 0x1DF7770 VA: 0x181DF9170 Slot: 12
+	// RVA: 0x1DF8FB0 Offset: 0x1DF75B0 VA: 0x181DF8FB0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DF9190 Offset: 0x1DF7790 VA: 0x181DF9190 Slot: 13
+	// RVA: 0x1DF8FD0 Offset: 0x1DF75D0 VA: 0x181DF8FD0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, RelationshipManager.PlayerRelationshipInfo previous) { }
 
-	// RVA: 0x1DF8420 Offset: 0x1DF6A20 VA: 0x181DF8420 Slot: 14
+	// RVA: 0x1DF8260 Offset: 0x1DF6860 VA: 0x181DF8260 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DF72B0 Offset: 0x1DF58B0 VA: 0x181DF72B0
+	// RVA: 0x1DF70F0 Offset: 0x1DF56F0 VA: 0x181DF70F0
 	public static RelationshipManager.PlayerRelationshipInfo Deserialize(byte[] buffer, RelationshipManager.PlayerRelationshipInfo instance, bool isDelta = False) { }
 
-	// RVA: 0x1DF7690 Offset: 0x1DF5C90 VA: 0x181DF7690
+	// RVA: 0x1DF74D0 Offset: 0x1DF5AD0 VA: 0x181DF74D0
 	public static RelationshipManager.PlayerRelationshipInfo Deserialize(Stream stream, RelationshipManager.PlayerRelationshipInfo instance, bool isDelta) { }
 
-	// RVA: 0x1DF6740 Offset: 0x1DF4D40 VA: 0x181DF6740
+	// RVA: 0x1DF6580 Offset: 0x1DF4B80 VA: 0x181DF6580
 	public static RelationshipManager.PlayerRelationshipInfo DeserializeLengthDelimited(Stream stream, RelationshipManager.PlayerRelationshipInfo instance, bool isDelta) { }
 
-	// RVA: 0x1DF6B10 Offset: 0x1DF5110 VA: 0x181DF6B10
+	// RVA: 0x1DF6950 Offset: 0x1DF4F50 VA: 0x181DF6950
 	public static RelationshipManager.PlayerRelationshipInfo DeserializeLength(Stream stream, int length, RelationshipManager.PlayerRelationshipInfo instance, bool isDelta) { }
 
-	// RVA: 0x1DF8A00 Offset: 0x1DF7000 VA: 0x181DF8A00
+	// RVA: 0x1DF8840 Offset: 0x1DF6E40 VA: 0x181DF8840
 	public static void SerializeDelta(Stream stream, RelationshipManager.PlayerRelationshipInfo instance, RelationshipManager.PlayerRelationshipInfo previous) { }
 
-	// RVA: 0x1DF8F10 Offset: 0x1DF7510 VA: 0x181DF8F10
+	// RVA: 0x1DF8D50 Offset: 0x1DF7350 VA: 0x181DF8D50
 	public static void Serialize(Stream stream, RelationshipManager.PlayerRelationshipInfo instance) { }
 
-	// RVA: 0x1DF9160 Offset: 0x1DF7760 VA: 0x181DF9160
+	// RVA: 0x1DF8FA0 Offset: 0x1DF75A0 VA: 0x181DF8FA0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DF9170 Offset: 0x1DF7770 VA: 0x181DF9170
+	// RVA: 0x1DF8FB0 Offset: 0x1DF75B0 VA: 0x181DF8FB0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DF8E00 Offset: 0x1DF7400 VA: 0x181DF8E00
+	// RVA: 0x1DF8C40 Offset: 0x1DF7240 VA: 0x181DF8C40
 	public static byte[] SerializeToBytes(RelationshipManager.PlayerRelationshipInfo instance) { }
 
-	// RVA: 0x1DF8D50 Offset: 0x1DF7350 VA: 0x181DF8D50
+	// RVA: 0x1DF8B90 Offset: 0x1DF7190 VA: 0x181DF8B90
 	public static void SerializeLengthDelimited(Stream stream, RelationshipManager.PlayerRelationshipInfo instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -192,13 +192,13 @@ public class RelationshipManager.PlayerRelationships : IDisposable, Pool.IPooled
 
 	// Methods
 
-	// RVA: 0x1DFAB10 Offset: 0x1DF9110 VA: 0x181DFAB10
+	// RVA: 0x1DFA950 Offset: 0x1DF8F50 VA: 0x181DFA950
 	public static void ResetToPool(RelationshipManager.PlayerRelationships instance) { }
 
-	// RVA: 0x1DFACD0 Offset: 0x1DF92D0 VA: 0x181DFACD0
+	// RVA: 0x1DFAB10 Offset: 0x1DF9110 VA: 0x181DFAB10
 	public void ResetToPool() { }
 
-	// RVA: 0x1DFAA50 Offset: 0x1DF9050 VA: 0x181DFAA50 Slot: 9
+	// RVA: 0x1DFA890 Offset: 0x1DF8E90 VA: 0x181DFA890 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -207,64 +207,64 @@ public class RelationshipManager.PlayerRelationships : IDisposable, Pool.IPooled
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DF91B0 Offset: 0x1DF77B0 VA: 0x181DF91B0
+	// RVA: 0x1DF8FF0 Offset: 0x1DF75F0 VA: 0x181DF8FF0
 	public void CopyTo(RelationshipManager.PlayerRelationships instance) { }
 
-	// RVA: 0x1DF9370 Offset: 0x1DF7970 VA: 0x181DF9370
+	// RVA: 0x1DF91B0 Offset: 0x1DF77B0 VA: 0x181DF91B0
 	public RelationshipManager.PlayerRelationships Copy() { }
 
-	// RVA: 0x1DFA2F0 Offset: 0x1DF88F0 VA: 0x181DFA2F0
+	// RVA: 0x1DFA130 Offset: 0x1DF8730 VA: 0x181DFA130
 	public static RelationshipManager.PlayerRelationships Deserialize(Stream stream) { }
 
-	// RVA: 0x1DF9A80 Offset: 0x1DF8080 VA: 0x181DF9A80
+	// RVA: 0x1DF98C0 Offset: 0x1DF7EC0 VA: 0x181DF98C0
 	public static RelationshipManager.PlayerRelationships DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DF9B00 Offset: 0x1DF8100 VA: 0x181DF9B00
+	// RVA: 0x1DF9940 Offset: 0x1DF7F40 VA: 0x181DF9940
 	public static RelationshipManager.PlayerRelationships DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DFA930 Offset: 0x1DF8F30 VA: 0x181DFA930
+	// RVA: 0x1DFA770 Offset: 0x1DF8D70 VA: 0x181DFA770
 	public static RelationshipManager.PlayerRelationships Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DFAAD0 Offset: 0x1DF90D0 VA: 0x181DFAAD0
+	// RVA: 0x1DFA910 Offset: 0x1DF8F10 VA: 0x181DFA910
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DFB4C0 Offset: 0x1DF9AC0 VA: 0x181DFB4C0 Slot: 12
+	// RVA: 0x1DFB300 Offset: 0x1DF9900 VA: 0x181DFB300 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DFB4E0 Offset: 0x1DF9AE0 VA: 0x181DFB4E0 Slot: 13
+	// RVA: 0x1DFB320 Offset: 0x1DF9920 VA: 0x181DFB320 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, RelationshipManager.PlayerRelationships previous) { }
 
-	// RVA: 0x1DFAAF0 Offset: 0x1DF90F0 VA: 0x181DFAAF0 Slot: 14
+	// RVA: 0x1DFA930 Offset: 0x1DF8F30 VA: 0x181DFA930 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DFA1F0 Offset: 0x1DF87F0 VA: 0x181DFA1F0
+	// RVA: 0x1DFA030 Offset: 0x1DF8630 VA: 0x181DFA030
 	public static RelationshipManager.PlayerRelationships Deserialize(byte[] buffer, RelationshipManager.PlayerRelationships instance, bool isDelta = False) { }
 
-	// RVA: 0x1DFA370 Offset: 0x1DF8970 VA: 0x181DFA370
+	// RVA: 0x1DFA1B0 Offset: 0x1DF87B0 VA: 0x181DFA1B0
 	public static RelationshipManager.PlayerRelationships Deserialize(Stream stream, RelationshipManager.PlayerRelationships instance, bool isDelta) { }
 
-	// RVA: 0x1DF93F0 Offset: 0x1DF79F0 VA: 0x181DF93F0
+	// RVA: 0x1DF9230 Offset: 0x1DF7830 VA: 0x181DF9230
 	public static RelationshipManager.PlayerRelationships DeserializeLengthDelimited(Stream stream, RelationshipManager.PlayerRelationships instance, bool isDelta) { }
 
-	// RVA: 0x1DF9B90 Offset: 0x1DF8190 VA: 0x181DF9B90
+	// RVA: 0x1DF99D0 Offset: 0x1DF7FD0 VA: 0x181DF99D0
 	public static RelationshipManager.PlayerRelationships DeserializeLength(Stream stream, int length, RelationshipManager.PlayerRelationships instance, bool isDelta) { }
 
-	// RVA: 0x1DFAE90 Offset: 0x1DF9490 VA: 0x181DFAE90
+	// RVA: 0x1DFACD0 Offset: 0x1DF92D0 VA: 0x181DFACD0
 	public static void SerializeDelta(Stream stream, RelationshipManager.PlayerRelationships instance, RelationshipManager.PlayerRelationships previous) { }
 
-	// RVA: 0x1DFB290 Offset: 0x1DF9890 VA: 0x181DFB290
+	// RVA: 0x1DFB0D0 Offset: 0x1DF96D0 VA: 0x181DFB0D0
 	public static void Serialize(Stream stream, RelationshipManager.PlayerRelationships instance) { }
 
-	// RVA: 0x1DFB4B0 Offset: 0x1DF9AB0 VA: 0x181DFB4B0
+	// RVA: 0x1DFB2F0 Offset: 0x1DF98F0 VA: 0x181DFB2F0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DFB4C0 Offset: 0x1DF9AC0 VA: 0x181DFB4C0
+	// RVA: 0x1DFB300 Offset: 0x1DF9900 VA: 0x181DFB300
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DFB180 Offset: 0x1DF9780 VA: 0x181DFB180
+	// RVA: 0x1DFAFC0 Offset: 0x1DF95C0 VA: 0x181DFAFC0
 	public static byte[] SerializeToBytes(RelationshipManager.PlayerRelationships instance) { }
 
-	// RVA: 0x1DFB0D0 Offset: 0x1DF96D0 VA: 0x181DFB0D0
+	// RVA: 0x1DFAF10 Offset: 0x1DF9510 VA: 0x181DFAF10
 	public static void SerializeLengthDelimited(Stream stream, RelationshipManager.PlayerRelationships instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -278,9 +278,9 @@ public class RelationshipManager : BaseEntity // TypeDefIndex: 8628
 	private const int MugshotMaxFileSize = 65536;
 	private const float MugshotMaxDistance = 50;
 	public static RelationshipManager.PlayerRelationships localRelationships; // 0x0
-	[ClientVar] // RVA: 0xB3B30 Offset: 0xB2F30 VA: 0x1800B3B30
+	[ClientVar] // RVA: 0xB3BA0 Offset: 0xB2FA0 VA: 0x1800B3BA0
 	public static Vector3 mugshotOffset; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static RelationshipManager <ClientInstance>k__BackingField; // 0x18
 	public static int clientMaxTeamSize; // 0x20
 
@@ -295,11 +295,11 @@ public class RelationshipManager : BaseEntity // TypeDefIndex: 8628
 	// RVA: 0x94BD40 Offset: 0x94A340 VA: 0x18094BD40
 	public static void RequestUpdatedContacts() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x949860 Offset: 0x947E60 VA: 0x180949860
 	public void CLIENT_DoMugshot(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x949940 Offset: 0x947F40 VA: 0x180949940
 	public void CLIENT_RecieveLocalRelationships(BaseEntity.RPCMessage msg) { }
 
@@ -318,11 +318,11 @@ public class RelationshipManager : BaseEntity // TypeDefIndex: 8628
 	// RVA: 0x94B2E0 Offset: 0x9498E0 VA: 0x18094B2E0
 	private static uint GetSteamIdHash(ulong requesterSteamId, ulong targetSteamId) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x94C1A0 Offset: 0x94A7A0 VA: 0x18094C1A0
 	public static RelationshipManager get_ClientInstance() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x94C200 Offset: 0x94A800 VA: 0x18094C200
 	private static void set_ClientInstance(RelationshipManager value) { }
 

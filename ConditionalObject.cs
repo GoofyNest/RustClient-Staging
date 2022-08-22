@@ -11,7 +11,7 @@ public class ConditionalObject // TypeDefIndex: 12096
 	public ConditionalObject.AdjacentMatchType adjacentMatch; // 0x3C
 	public bool restrictOnLockable; // 0x40
 	public bool lockableRestriction; // 0x41
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Nullable<bool> <IsActive>k__BackingField; // 0x42
 
 	// Properties
@@ -19,11 +19,11 @@ public class ConditionalObject // TypeDefIndex: 12096
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BB480 Offset: 0x4B9A80 VA: 0x1804BB480
 	public Nullable<bool> get_IsActive() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BB490 Offset: 0x4B9A90 VA: 0x1804BB490
 	private void set_IsActive(Nullable<bool> value) { }
 

@@ -9,25 +9,25 @@ public struct PlayableOutputHandle : IEquatable<PlayableOutputHandle> // TypeDef
 
 	// Methods
 
-	// RVA: 0x18FA850 Offset: 0x18F8E50 VA: 0x1818FA850
+	// RVA: 0x18FA810 Offset: 0x18F8E10 VA: 0x1818FA810
 	public static PlayableOutputHandle get_Null() { }
 
-	// RVA: 0x2172E0 Offset: 0x2166E0 VA: 0x1802172E0 Slot: 2
+	// RVA: 0x217260 Offset: 0x216660 VA: 0x180217260 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x18FA8C0 Offset: 0x18F8EC0 VA: 0x1818FA8C0
+	// RVA: 0x18FA880 Offset: 0x18F8E80 VA: 0x1818FA880
 	public static bool op_Equality(PlayableOutputHandle lhs, PlayableOutputHandle rhs) { }
 
-	// RVA: 0x2174A0 Offset: 0x2168A0 VA: 0x1802174A0 Slot: 0
+	// RVA: 0x217420 Offset: 0x216820 VA: 0x180217420 Slot: 0
 	public override bool Equals(object p) { }
 
-	// RVA: 0x217400 Offset: 0x216800 VA: 0x180217400 Slot: 4
+	// RVA: 0x217380 Offset: 0x216780 VA: 0x180217380 Slot: 4
 	public bool Equals(PlayableOutputHandle other) { }
 
-	// RVA: 0x18FA500 Offset: 0x18F8B00 VA: 0x1818FA500
+	// RVA: 0x18FA4C0 Offset: 0x18F8AC0 VA: 0x1818FA4C0
 	internal static bool CompareVersion(PlayableOutputHandle lhs, PlayableOutputHandle rhs) { }
 
-	// RVA: 0x18FA810 Offset: 0x18F8E10 VA: 0x1818FA810
+	// RVA: 0x18FA7D0 Offset: 0x18F8DD0 VA: 0x1818FA7D0
 	private static void .cctor() { }
 
 }

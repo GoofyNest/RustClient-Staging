@@ -1,6 +1,6 @@
 public class Exception : ISerializable, _Exception // TypeDefIndex: 218
 {	// Fields
-	[OptionalFieldAttribute] // RVA: 0x7B620 Offset: 0x7AA20 VA: 0x18007B620
+	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
 	private static object s_EDILock; // 0x0
 	private string _className; // 0x10
 	internal string _message; // 0x18
@@ -14,7 +14,7 @@ public class Exception : ISerializable, _Exception // TypeDefIndex: 218
 	private object _dynamicMethods; // 0x58
 	internal int _HResult; // 0x60
 	private string _source; // 0x68
-	[OptionalFieldAttribute] // RVA: 0x7B700 Offset: 0x7AB00 VA: 0x18007B700
+	[OptionalFieldAttribute] // RVA: 0x7B710 Offset: 0x7AB10 VA: 0x18007B710
 	private SafeSerializationManager _safeSerializationManager; // 0x70
 	internal StackTrace[] captured_traces; // 0x78
 	private IntPtr[] native_trace_ips; // 0x80
@@ -66,7 +66,7 @@ public class Exception : ISerializable, _Exception // TypeDefIndex: 218
 	// RVA: 0x10DC5C0 Offset: 0x10DABC0 VA: 0x1810DC5C0
 	private string GetStackTrace(bool needFileInfo) { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x574440 Offset: 0x572A40 VA: 0x180574440
 	internal void SetErrorCode(int hr) { }
 
@@ -82,7 +82,7 @@ public class Exception : ISerializable, _Exception // TypeDefIndex: 218
 	// RVA: 0x10DC1B0 Offset: 0x10DA7B0 VA: 0x1810DC1B0 Slot: 10
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x10DC740 Offset: 0x10DAD40 VA: 0x1810DC740
 	private void OnDeserialized(StreamingContext context) { }
 

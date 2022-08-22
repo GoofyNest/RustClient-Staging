@@ -1,14 +1,14 @@
 public static class ScreenCapture // TypeDefIndex: 4558
 {
 // Namespace: UnityEngine
-[NativeHeaderAttribute] // RVA: 0x78410 Offset: 0x77810 VA: 0x180078410
+[NativeHeaderAttribute] // RVA: 0x78510 Offset: 0x77910 VA: 0x180078510
 public static class ScreenCapture // TypeDefIndex: 4558
 	// Methods
 
-	// RVA: 0x23232D0 Offset: 0x23218D0 VA: 0x1823232D0
+	// RVA: 0x2323110 Offset: 0x2321710 VA: 0x182323110
 	public static void CaptureScreenshot(string filename, int superSize) { }
 
-	// RVA: 0x2323320 Offset: 0x2321920 VA: 0x182323320
+	// RVA: 0x2323160 Offset: 0x2321760 VA: 0x182323160
 	private static void CaptureScreenshot(string filename, int superSize, ScreenCapture.StereoScreenCaptureMode CaptureMode) { }
 
 }

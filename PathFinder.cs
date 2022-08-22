@@ -79,7 +79,7 @@ public struct PathFinder.Point : IEquatable<PathFinder.Point> // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0xF8950 Offset: 0xF7D50 VA: 0x1800F8950
+	// RVA: 0xF88D0 Offset: 0xF7CD0 VA: 0x1800F88D0
 	public void .ctor(int x, int y) { }
 
 	// RVA: 0x8752C0 Offset: 0x8738C0 VA: 0x1808752C0
@@ -100,13 +100,13 @@ public struct PathFinder.Point : IEquatable<PathFinder.Point> // TypeDefIndex: 1
 	// RVA: 0x875320 Offset: 0x873920 VA: 0x180875320
 	public static bool op_Inequality(PathFinder.Point a, PathFinder.Point b) { }
 
-	// RVA: 0xF9540 Offset: 0xF8940 VA: 0x1800F9540 Slot: 2
+	// RVA: 0xF94C0 Offset: 0xF88C0 VA: 0x1800F94C0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0xF9490 Offset: 0xF8890 VA: 0x1800F9490 Slot: 0
+	// RVA: 0xF9410 Offset: 0xF8810 VA: 0x1800F9410 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0xF9520 Offset: 0xF8920 VA: 0x1800F9520 Slot: 4
+	// RVA: 0xF94A0 Offset: 0xF88A0 VA: 0x1800F94A0 Slot: 4
 	public bool Equals(PathFinder.Point other) { }
 
 }
@@ -116,9 +116,9 @@ public class PathFinder.Node : IMinHeapNode<PathFinder.Node>, ILinkedListNode<Pa
 	public PathFinder.Point point; // 0x10
 	public int cost; // 0x18
 	public int heuristic; // 0x1C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PathFinder.Node <next>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PathFinder.Node <child>k__BackingField; // 0x28
 
 	// Properties
@@ -128,19 +128,19 @@ public class PathFinder.Node : IMinHeapNode<PathFinder.Node>, ILinkedListNode<Pa
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 7
 	public PathFinder.Node get_next() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0 Slot: 8
 	public void set_next(PathFinder.Node value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330 Slot: 4
 	public PathFinder.Node get_child() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7EE340 Offset: 0x7EC940 VA: 0x1807EE340 Slot: 5
 	public void set_child(PathFinder.Node value) { }
 

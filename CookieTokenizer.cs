@@ -89,13 +89,13 @@ private struct CookieTokenizer.RecognizedAttribute // TypeDefIndex: 2937
 
 	// Methods
 
-	// RVA: 0xF91E0 Offset: 0xF85E0 VA: 0x1800F91E0
+	// RVA: 0xF9160 Offset: 0xF8560 VA: 0x1800F9160
 	internal void .ctor(string name, CookieToken token) { }
 
-	// RVA: 0x122E90 Offset: 0x122290 VA: 0x180122E90
+	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
 	internal CookieToken get_Token() { }
 
-	// RVA: 0x1F1DF0 Offset: 0x1F11F0 VA: 0x1801F1DF0
+	// RVA: 0x1F1D70 Offset: 0x1F1170 VA: 0x1801F1D70
 	internal bool IsEqualTo(string value) { }
 
 }

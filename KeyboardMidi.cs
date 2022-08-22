@@ -1,12 +1,12 @@
 public static class KeyboardMidi // TypeDefIndex: 12115
 {	// Fields
-	[ClientVar] // RVA: 0xDC1A0 Offset: 0xDB5A0 VA: 0x1800DC1A0
+	[ClientVar] // RVA: 0xDC320 Offset: 0xDB720 VA: 0x1800DC320
 	public static string midikeymap; // 0x0
 	private static Dictionary<string, Dictionary<int, KeyCode[]>> MidiLookup; // 0x8
 
 	// Methods
 
-	[ClientVar] // RVA: 0xDC380 Offset: 0xDB780 VA: 0x1800DC380
+	[ClientVar] // RVA: 0xDC420 Offset: 0xDB820 VA: 0x1800DC420
 	// RVA: 0x4BEC30 Offset: 0x4BD230 VA: 0x1804BEC30
 	public static void Reload() { }
 

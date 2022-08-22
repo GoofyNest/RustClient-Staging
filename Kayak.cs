@@ -9,7 +9,7 @@ public class Kayak : BaseBoat, IPoolVehicle // TypeDefIndex: 8593
 	public GameObjectRef backSplashEffect; // 0x458
 	public ParticleSystem moveSplashEffect; // 0x460
 	public float animationLerpSpeed; // 0x468
-	[HeaderAttribute] // RVA: 0x72010 Offset: 0x71410 VA: 0x180072010
+	[HeaderAttribute] // RVA: 0x720C0 Offset: 0x714C0 VA: 0x1800720C0
 	public BlendedSoundLoops waterLoops; // 0x470
 	public float waterSoundSpeedDivisor; // 0x478
 	public GameObjectRef pushLandEffect; // 0x480
@@ -24,7 +24,7 @@ public class Kayak : BaseBoat, IPoolVehicle // TypeDefIndex: 8593
 	// RVA: 0x67E820 Offset: 0x67CE20 VA: 0x18067E820 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x67E720 Offset: 0x67CD20 VA: 0x18067E720
 	public void OnPaddled(BaseEntity.RPCMessage msg) { }
 

@@ -8,7 +8,7 @@ internal struct GlyphMarshallingStruct // TypeDefIndex: 4122
 
 	// Methods
 
-	// RVA: 0x23DB80 Offset: 0x23CF80 VA: 0x18023DB80
+	// RVA: 0x23DB00 Offset: 0x23CF00 VA: 0x18023DB00
 	public void .ctor(Glyph glyph) { }
 
 }

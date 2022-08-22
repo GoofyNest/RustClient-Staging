@@ -8,10 +8,10 @@ internal struct SessionMask // TypeDefIndex: 1621
 
 	// Methods
 
-	// RVA: 0x19F710 Offset: 0x19EB10 VA: 0x18019F710
+	// RVA: 0x19F690 Offset: 0x19EA90 VA: 0x18019F690
 	public void .ctor(uint mask = 0) { }
 
-	// RVA: 0x19F6F0 Offset: 0x19EAF0 VA: 0x18019F6F0
+	// RVA: 0x19F670 Offset: 0x19EA70 VA: 0x18019F670
 	public bool IsEqualOrSupersetOf(SessionMask m) { }
 
 	// RVA: 0x10E4BC0 Offset: 0x10E31C0 VA: 0x1810E4BC0
@@ -20,16 +20,16 @@ internal struct SessionMask // TypeDefIndex: 1621
 	// RVA: 0x10E4B80 Offset: 0x10E3180 VA: 0x1810E4B80
 	public static SessionMask FromId(int perEventSourceSessionId) { }
 
-	// RVA: 0x19F700 Offset: 0x19EB00 VA: 0x18019F700
+	// RVA: 0x19F680 Offset: 0x19EA80 VA: 0x18019F680
 	public ulong ToEventKeywords() { }
 
 	// RVA: 0x10E4B70 Offset: 0x10E3170 VA: 0x1810E4B70
 	public static SessionMask FromEventKeywords(ulong m) { }
 
-	// RVA: 0x19F720 Offset: 0x19EB20 VA: 0x18019F720
+	// RVA: 0x19F6A0 Offset: 0x19EAA0 VA: 0x18019F6A0
 	public bool get_Item(int perEventSourceSessionId) { }
 
-	// RVA: 0x19F740 Offset: 0x19EB40 VA: 0x18019F740
+	// RVA: 0x19F6C0 Offset: 0x19EAC0 VA: 0x18019F6C0
 	public void set_Item(int perEventSourceSessionId, bool value) { }
 
 	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0

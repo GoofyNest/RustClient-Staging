@@ -21,10 +21,10 @@ public class ElectricalBranch : IOEntity // TypeDefIndex: 8385
 	// RVA: 0x69F4B0 Offset: 0x69DAB0 VA: 0x18069F4B0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0xDA6F0 Offset: 0xD9AF0 VA: 0x1800DA6F0
-	[BaseEntity.Menu.Description] // RVA: 0xDA6F0 Offset: 0xD9AF0 VA: 0x1800DA6F0
-	[BaseEntity.Menu.Icon] // RVA: 0xDA6F0 Offset: 0xD9AF0 VA: 0x1800DA6F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDA6F0 Offset: 0xD9AF0 VA: 0x1800DA6F0
+	[BaseEntity.Menu] // RVA: 0xDA760 Offset: 0xD9B60 VA: 0x1800DA760
+	[BaseEntity.Menu.Description] // RVA: 0xDA760 Offset: 0xD9B60 VA: 0x1800DA760
+	[BaseEntity.Menu.Icon] // RVA: 0xDA760 Offset: 0xD9B60 VA: 0x1800DA760
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDA760 Offset: 0xD9B60 VA: 0x1800DA760
 	// RVA: 0xAC1870 Offset: 0xABFE70 VA: 0x180AC1870
 	public void Menu_SetBranch(BasePlayer player) { }
 

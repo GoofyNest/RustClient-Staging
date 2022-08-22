@@ -8,10 +8,10 @@ internal struct ScreenshotRequested_t : ICallbackData // TypeDefIndex: 5407
 
 	// Methods
 
-	// RVA: 0x1D7DD0 Offset: 0x1D71D0 VA: 0x1801D7DD0 Slot: 5
+	// RVA: 0x1D7D50 Offset: 0x1D7150 VA: 0x1801D7D50 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7DC0 Offset: 0x1D71C0 VA: 0x1801D7DC0 Slot: 4
+	// RVA: 0x1D7D40 Offset: 0x1D7140 VA: 0x1801D7D40 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128ECA0 Offset: 0x128D2A0 VA: 0x18128ECA0

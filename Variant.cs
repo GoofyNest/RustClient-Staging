@@ -23,14 +23,14 @@ internal struct Variant // TypeDefIndex: 418
 
 	// Methods
 
-	// RVA: 0x234730 Offset: 0x233B30 VA: 0x180234730
+	// RVA: 0x2346B0 Offset: 0x233AB0 VA: 0x1802346B0
 	public void Clear() { }
 
 }
 
 public abstract class Variant : IConvertible // TypeDefIndex: 11588
 {	// Fields
-	protected static readonly IFormatProvider FormatProvider; // 0x2B11160
+	protected static readonly IFormatProvider FormatProvider; // 0x2B10180
 
 	// Properties
 	public virtual Variant Item { get; set; }

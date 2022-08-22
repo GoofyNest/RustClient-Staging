@@ -10,13 +10,13 @@ internal abstract class TypeNames.ATypeName : TypeName, IEquatable<TypeName> // 
 	// RVA: -1 Offset: -1 Slot: 6
 	public abstract string get_DisplayName();
 
-	// RVA: 0x213CF40 Offset: 0x213B540 VA: 0x18213CF40 Slot: 5
+	// RVA: 0x213CD80 Offset: 0x213B380 VA: 0x18213CD80 Slot: 5
 	public bool Equals(TypeName other) { }
 
-	// RVA: 0x213D080 Offset: 0x213B680 VA: 0x18213D080 Slot: 2
+	// RVA: 0x213CEC0 Offset: 0x213B4C0 VA: 0x18213CEC0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x213CFC0 Offset: 0x213B5C0 VA: 0x18213CFC0 Slot: 0
+	// RVA: 0x213CE00 Offset: 0x213B400 VA: 0x18213CE00 Slot: 0
 	public override bool Equals(object other) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

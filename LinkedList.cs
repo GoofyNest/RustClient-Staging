@@ -16,11 +16,11 @@ public struct LinkedList.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerato
 	internal void .ctor(LinkedList<T> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x149AD0 Offset: 0x148ED0 VA: 0x180149AD0
+	|-RVA: 0x149A50 Offset: 0x148E50 VA: 0x180149A50
 	|-LinkedList.Enumerator<KeyValuePair<object, object>>..ctor
 	|-LinkedList.Enumerator<KeyValuePair<uint, object>>..ctor
 	|
-	|-RVA: 0x149C40 Offset: 0x149040 VA: 0x180149C40
+	|-RVA: 0x149BC0 Offset: 0x148FC0 VA: 0x180149BC0
 	|-LinkedList.Enumerator<object>..ctor
 	*/
 
@@ -28,13 +28,13 @@ public struct LinkedList.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerato
 	private void .ctor(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x149CC0 Offset: 0x1490C0 VA: 0x180149CC0
+	|-RVA: 0x149C40 Offset: 0x149040 VA: 0x180149C40
 	|-LinkedList.Enumerator<KeyValuePair<object, object>>..ctor
 	|
-	|-RVA: 0x149CE0 Offset: 0x1490E0 VA: 0x180149CE0
+	|-RVA: 0x149C60 Offset: 0x149060 VA: 0x180149C60
 	|-LinkedList.Enumerator<KeyValuePair<uint, object>>..ctor
 	|
-	|-RVA: 0x149CA0 Offset: 0x1490A0 VA: 0x180149CA0
+	|-RVA: 0x149C20 Offset: 0x149020 VA: 0x180149C20
 	|-LinkedList.Enumerator<object>..ctor
 	*/
 
@@ -42,13 +42,13 @@ public struct LinkedList.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerato
 	public T get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF3F70 Offset: 0xF3370 VA: 0x1800F3F70
+	|-RVA: 0xF3EF0 Offset: 0xF32F0 VA: 0x1800F3EF0
 	|-LinkedList.Enumerator<ItemCraftTask>.get_Current
 	|-LinkedList.Enumerator<NotesBuilder.NoteDescriptor>.get_Current
 	|-LinkedList.Enumerator<WebConnectionGroup.ConnectionState>.get_Current
 	|-LinkedList.Enumerator<object>.get_Current
 	|
-	|-RVA: 0x116F90 Offset: 0x116390 VA: 0x180116F90
+	|-RVA: 0x116F10 Offset: 0x116310 VA: 0x180116F10
 	|-LinkedList.Enumerator<KeyValuePair<uint, FileStorage.CacheData>>.get_Current
 	|-LinkedList.Enumerator<KeyValuePair<object, object>>.get_Current
 	|-LinkedList.Enumerator<KeyValuePair<uint, object>>.get_Current
@@ -58,13 +58,13 @@ public struct LinkedList.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerato
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x149800 Offset: 0x148C00 VA: 0x180149800
+	|-RVA: 0x149780 Offset: 0x148B80 VA: 0x180149780
 	|-LinkedList.Enumerator<KeyValuePair<object, object>>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x1496C0 Offset: 0x148AC0 VA: 0x1801496C0
+	|-RVA: 0x149640 Offset: 0x148A40 VA: 0x180149640
 	|-LinkedList.Enumerator<KeyValuePair<uint, object>>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x149940 Offset: 0x148D40 VA: 0x180149940
+	|-RVA: 0x1498C0 Offset: 0x148CC0 VA: 0x1801498C0
 	|-LinkedList.Enumerator<object>.System.Collections.IEnumerator.get_Current
 	*/
 
@@ -72,16 +72,16 @@ public struct LinkedList.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerato
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x147F30 Offset: 0x147330 VA: 0x180147F30
+	|-RVA: 0x147EB0 Offset: 0x1472B0 VA: 0x180147EB0
 	|-LinkedList.Enumerator<ItemCraftTask>.MoveNext
 	|-LinkedList.Enumerator<NotesBuilder.NoteDescriptor>.MoveNext
 	|-LinkedList.Enumerator<WebConnectionGroup.ConnectionState>.MoveNext
 	|-LinkedList.Enumerator<object>.MoveNext
 	|
-	|-RVA: 0x1489C0 Offset: 0x147DC0 VA: 0x1801489C0
+	|-RVA: 0x148940 Offset: 0x147D40 VA: 0x180148940
 	|-LinkedList.Enumerator<KeyValuePair<object, object>>.MoveNext
 	|
-	|-RVA: 0x148490 Offset: 0x147890 VA: 0x180148490
+	|-RVA: 0x148410 Offset: 0x147810 VA: 0x180148410
 	|-LinkedList.Enumerator<KeyValuePair<uint, FileStorage.CacheData>>.MoveNext
 	|-LinkedList.Enumerator<KeyValuePair<uint, object>>.MoveNext
 	*/
@@ -90,13 +90,13 @@ public struct LinkedList.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerato
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x149140 Offset: 0x148540 VA: 0x180149140
+	|-RVA: 0x1490C0 Offset: 0x1484C0 VA: 0x1801490C0
 	|-LinkedList.Enumerator<KeyValuePair<object, object>>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x148E40 Offset: 0x148240 VA: 0x180148E40
+	|-RVA: 0x148DC0 Offset: 0x1481C0 VA: 0x180148DC0
 	|-LinkedList.Enumerator<KeyValuePair<uint, object>>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x1490A0 Offset: 0x1484A0 VA: 0x1801490A0
+	|-RVA: 0x149020 Offset: 0x148420 VA: 0x180149020
 	|-LinkedList.Enumerator<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -104,7 +104,7 @@ public struct LinkedList.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerato
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF1F30 Offset: 0xF1330 VA: 0x1800F1F30
+	|-RVA: 0xF1EB0 Offset: 0xF12B0 VA: 0x1800F1EB0
 	|-LinkedList.Enumerator<ItemCraftTask>.Dispose
 	|-LinkedList.Enumerator<NotesBuilder.NoteDescriptor>.Dispose
 	|-LinkedList.Enumerator<KeyValuePair<object, object>>.Dispose
@@ -118,13 +118,13 @@ public struct LinkedList.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerato
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x149A90 Offset: 0x148E90 VA: 0x180149A90
+	|-RVA: 0x149A10 Offset: 0x148E10 VA: 0x180149A10
 	|-LinkedList.Enumerator<KeyValuePair<object, object>>.System.Runtime.Serialization.ISerializable.GetObjectData
 	|
-	|-RVA: 0x149A70 Offset: 0x148E70 VA: 0x180149A70
+	|-RVA: 0x1499F0 Offset: 0x148DF0 VA: 0x1801499F0
 	|-LinkedList.Enumerator<KeyValuePair<uint, object>>.System.Runtime.Serialization.ISerializable.GetObjectData
 	|
-	|-RVA: 0x149AB0 Offset: 0x148EB0 VA: 0x180149AB0
+	|-RVA: 0x149A30 Offset: 0x148E30 VA: 0x180149A30
 	|-LinkedList.Enumerator<object>.System.Runtime.Serialization.ISerializable.GetObjectData
 	*/
 
@@ -132,13 +132,13 @@ public struct LinkedList.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerato
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x149A60 Offset: 0x148E60 VA: 0x180149A60
+	|-RVA: 0x1499E0 Offset: 0x148DE0 VA: 0x1801499E0
 	|-LinkedList.Enumerator<KeyValuePair<object, object>>.System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
 	|
-	|-RVA: 0x149A40 Offset: 0x148E40 VA: 0x180149A40
+	|-RVA: 0x1499C0 Offset: 0x148DC0 VA: 0x1801499C0
 	|-LinkedList.Enumerator<KeyValuePair<uint, object>>.System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
 	|
-	|-RVA: 0x149A50 Offset: 0x148E50 VA: 0x180149A50
+	|-RVA: 0x1499D0 Offset: 0x148DD0 VA: 0x1801499D0
 	|-LinkedList.Enumerator<object>.System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
 	*/
 

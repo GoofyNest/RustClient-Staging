@@ -8,25 +8,25 @@ public class StreamContent : HttpContent // TypeDefIndex: 5756
 
 	// Methods
 
-	// RVA: 0x231BD40 Offset: 0x231A340 VA: 0x18231BD40
+	// RVA: 0x231BB80 Offset: 0x231A180 VA: 0x18231BB80
 	public void .ctor(Stream content) { }
 
-	// RVA: 0x231BE00 Offset: 0x231A400 VA: 0x18231BE00
+	// RVA: 0x231BC40 Offset: 0x231A240 VA: 0x18231BC40
 	public void .ctor(Stream content, int bufferSize) { }
 
-	// RVA: 0x231BC60 Offset: 0x231A260 VA: 0x18231BC60
+	// RVA: 0x231BAA0 Offset: 0x231A0A0 VA: 0x18231BAA0
 	internal void .ctor(Stream content, CancellationToken cancellationToken) { }
 
-	// RVA: 0x231BA50 Offset: 0x231A050 VA: 0x18231BA50 Slot: 5
+	// RVA: 0x231B890 Offset: 0x2319E90 VA: 0x18231B890 Slot: 5
 	protected override Task<Stream> CreateContentReadStreamAsync() { }
 
-	// RVA: 0x231BAB0 Offset: 0x231A0B0 VA: 0x18231BAB0 Slot: 6
+	// RVA: 0x231B8F0 Offset: 0x2319EF0 VA: 0x18231B8F0 Slot: 6
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x231BB00 Offset: 0x231A100 VA: 0x18231BB00 Slot: 7
+	// RVA: 0x231B940 Offset: 0x2319F40 VA: 0x18231B940 Slot: 7
 	protected internal override Task SerializeToStreamAsync(Stream stream, TransportContext context) { }
 
-	// RVA: 0x231BBE0 Offset: 0x231A1E0 VA: 0x18231BBE0 Slot: 8
+	// RVA: 0x231BA20 Offset: 0x231A020 VA: 0x18231BA20 Slot: 8
 	protected internal override bool TryComputeLength(out long length) { }
 
 }

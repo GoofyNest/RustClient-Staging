@@ -29,33 +29,33 @@ public class PhoneController : EntityComponent<BaseEntity> // TypeDefIndex: 9451
 	public float RingingLightFrequency; // 0xC0
 	public AudioSource answeringMachineSound; // 0xC8
 	public EntityRef currentPlayerRef; // 0xD0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <lastDialedNumber>k__BackingField; // 0xE0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PhoneDirectory <savedNumbers>k__BackingField; // 0xE8
 	public List<VoicemailEntry> savedVoicemail; // 0xF0
 	private SoundDefinition currentlyLoadedPreloadedContent; // 0xF8
 	private string connectedPlayerId; // 0x100
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Telephone.CallState <clientCallState>k__BackingField; // 0x108
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PhoneDialler <CurrentDialog>k__BackingField; // 0x110
 	private float callStartTime; // 0x118
 	private Sound ringingSound; // 0x120
 	private Sound dialingSound; // 0x128
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private PhoneDirectory <currentDirectory>k__BackingField; // 0x130
 	private TimeSince lastDirectoryUpdate; // 0x138
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <ConnectedCallPhoneNumber>k__BackingField; // 0x13C
 	private int voicemailTarget; // 0x140
 	private OggEncoder currentEncoder; // 0x148
 	private AudioInterceptComponent activeIntercept; // 0x150
 	private int requestedDialNumber; // 0x158
 	private bool cachedCanLeaveVoicemail; // 0x15C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private TimeSince <AnsweringMessageStartTime>k__BackingField; // 0x160
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float <AnsweringMachineMessageLength>k__BackingField; // 0x164
 
 	// Properties
@@ -101,19 +101,19 @@ public class PhoneController : EntityComponent<BaseEntity> // TypeDefIndex: 9451
 	// RVA: 0x872080 Offset: 0x870680 VA: 0x180872080
 	private bool get_isServer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x872130 Offset: 0x870730 VA: 0x180872130
 	public int get_lastDialedNumber() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8721B0 Offset: 0x8707B0 VA: 0x1808721B0
 	public void set_lastDialedNumber(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x872140 Offset: 0x870740 VA: 0x180872140
 	public PhoneDirectory get_savedNumbers() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8721C0 Offset: 0x8707C0 VA: 0x1808721C0
 	public void set_savedNumbers(PhoneDirectory value) { }
 
@@ -123,38 +123,38 @@ public class PhoneController : EntityComponent<BaseEntity> // TypeDefIndex: 9451
 	// RVA: 0x871F10 Offset: 0x870510 VA: 0x180871F10
 	private Cassette get_cachedCassette() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x871FF0 Offset: 0x8705F0 VA: 0x180871FF0
 	public Telephone.CallState get_clientCallState() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x872190 Offset: 0x870790 VA: 0x180872190
 	private void set_clientCallState(Telephone.CallState value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x871D30 Offset: 0x870330 VA: 0x180871D30
 	public PhoneDialler get_CurrentDialog() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x872180 Offset: 0x870780 VA: 0x180872180
 	private void set_CurrentDialog(PhoneDialler value) { }
 
 	// RVA: 0x871CF0 Offset: 0x8702F0 VA: 0x180871CF0
 	public float get_CallDuration() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x701810 Offset: 0x6FFE10 VA: 0x180701810
 	public PhoneDirectory get_currentDirectory() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7018A0 Offset: 0x6FFEA0 VA: 0x1807018A0
 	private void set_currentDirectory(PhoneDirectory value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x871D20 Offset: 0x870320 VA: 0x180871D20
 	public int get_ConnectedCallPhoneNumber() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x872170 Offset: 0x870770 VA: 0x180872170
 	private void set_ConnectedCallPhoneNumber(int value) { }
 
@@ -197,19 +197,19 @@ public class PhoneController : EntityComponent<BaseEntity> // TypeDefIndex: 9451
 	// RVA: 0x86F7B0 Offset: 0x86DDB0 VA: 0x18086F7B0
 	public void ClientPlayAnsweringMessage(BaseEntity.RPCMessage msg) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x871CE0 Offset: 0x8702E0 VA: 0x180871CE0
 	public TimeSince get_AnsweringMessageStartTime() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x872160 Offset: 0x870760 VA: 0x180872160
 	private void set_AnsweringMessageStartTime(TimeSince value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x871CD0 Offset: 0x8702D0 VA: 0x180871CD0
 	public float get_AnsweringMachineMessageLength() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x872150 Offset: 0x870750 VA: 0x180872150
 	private void set_AnsweringMachineMessageLength(float value) { }
 
@@ -264,15 +264,15 @@ public class PhoneController : EntityComponent<BaseEntity> // TypeDefIndex: 9451
 	// RVA: 0x871C70 Offset: 0x870270 VA: 0x180871C70
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x871B70 Offset: 0x870170 VA: 0x180871B70
 	private void <ClientToggleVoicemail>b__3_0(AudioClip clip, bool success) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x871AB0 Offset: 0x8700B0 VA: 0x180871AB0
 	private void <ClientReceiveAnsweringData>b__93_0(AudioClip clip, bool success) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x8719F0 Offset: 0x86FFF0 VA: 0x1808719F0
 	private void <ClientPlayAnsweringMessage>b__94_0(AudioClip clip, bool success) { }
 

@@ -11,7 +11,7 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	|-CollectionUtils.IsNullOrEmpty<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static void AddRange<T>(IList<T> initial, IEnumerable<T> collection) { }
 	/* GenericInstMethod :
@@ -24,7 +24,7 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	|-CollectionUtils.AddRange<MemberInfo>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static void AddRange<T>(IList<T> initial, IEnumerable collection) { }
 	/* GenericInstMethod :
@@ -43,7 +43,7 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	// RVA: 0x17FEC80 Offset: 0x17FD280 VA: 0x1817FEC80
 	public static ConstructorInfo ResolveEnumerableCollectionConstructor(Type collectionType, Type collectionItemType, Type constructorArgumentType) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static int IndexOf<T>(IEnumerable<T> collection, Func<T, bool> predicate) { }
 	/* GenericInstMethod :
@@ -53,7 +53,7 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	|-CollectionUtils.IndexOf<PropertyInfo>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static bool Contains<T>(List<T> list, T value, IEqualityComparer comparer) { }
 	/* GenericInstMethod :
@@ -62,7 +62,7 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	|-CollectionUtils.Contains<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	public static int IndexOfReference<T>(List<T> list, T item) { }
 	/* GenericInstMethod :

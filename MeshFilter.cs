@@ -5,22 +5,22 @@ public sealed class MeshFilter : Component // TypeDefIndex: 3409
 
 	// Methods
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void DontStripMeshFilter() { }
 
-	// RVA: 0x18F3640 Offset: 0x18F1C40 VA: 0x1818F3640
+	// RVA: 0x18F3600 Offset: 0x18F1C00 VA: 0x1818F3600
 	public Mesh get_sharedMesh() { }
 
-	// RVA: 0x18F36D0 Offset: 0x18F1CD0 VA: 0x1818F36D0
+	// RVA: 0x18F3690 Offset: 0x18F1C90 VA: 0x1818F3690
 	public void set_sharedMesh(Mesh value) { }
 
-	[NativeNameAttribute] // RVA: 0x958C0 Offset: 0x94CC0 VA: 0x1800958C0
-	// RVA: 0x18F3600 Offset: 0x18F1C00 VA: 0x1818F3600
+	[NativeNameAttribute] // RVA: 0x95940 Offset: 0x94D40 VA: 0x180095940
+	// RVA: 0x18F35C0 Offset: 0x18F1BC0 VA: 0x1818F35C0
 	public Mesh get_mesh() { }
 
-	[NativeNameAttribute] // RVA: 0x95940 Offset: 0x94D40 VA: 0x180095940
-	// RVA: 0x18F3680 Offset: 0x18F1C80 VA: 0x1818F3680
+	[NativeNameAttribute] // RVA: 0x95A30 Offset: 0x94E30 VA: 0x180095A30
+	// RVA: 0x18F3640 Offset: 0x18F1C40 VA: 0x1818F3640
 	public void set_mesh(Mesh value) { }
 
 }

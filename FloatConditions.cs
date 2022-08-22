@@ -19,7 +19,7 @@ public struct FloatConditions.Condition // TypeDefIndex: 11370
 
 	// Methods
 
-	// RVA: 0xF5370 Offset: 0xF4770 VA: 0x1800F5370
+	// RVA: 0xF52F0 Offset: 0xF46F0 VA: 0x1800F52F0
 	public bool Test(float val) { }
 
 }

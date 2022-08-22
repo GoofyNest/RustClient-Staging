@@ -4,7 +4,7 @@ public class CookieCollection : ICollection, IEnumerable // TypeDefIndex: 2940
 	private ArrayList m_list; // 0x18
 	private DateTime m_TimeStamp; // 0x20
 	private bool m_has_other_versions; // 0x28
-	[OptionalFieldAttribute] // RVA: 0x7B620 Offset: 0x7AA20 VA: 0x18007B620
+	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
 	private bool m_IsReadOnly; // 0x29
 
 	// Properties

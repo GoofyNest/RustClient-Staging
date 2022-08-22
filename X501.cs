@@ -52,16 +52,16 @@ public sealed class X501 // TypeDefIndex: 1713
 
 	// Methods
 
-	// RVA: 0x227D600 Offset: 0x227BC00 VA: 0x18227D600
+	// RVA: 0x227D440 Offset: 0x227BA40 VA: 0x18227D440
 	public static string ToString(ASN1 seq) { }
 
-	// RVA: 0x227D710 Offset: 0x227BD10 VA: 0x18227D710
+	// RVA: 0x227D550 Offset: 0x227BB50 VA: 0x18227D550
 	public static string ToString(ASN1 seq, bool reversed, string separator, bool quotes) { }
 
-	// RVA: 0x227CDE0 Offset: 0x227B3E0 VA: 0x18227CDE0
+	// RVA: 0x227CC20 Offset: 0x227B220 VA: 0x18227CC20
 	private static void AppendEntry(StringBuilder sb, ASN1 entry, bool quotes) { }
 
-	// RVA: 0x227D8C0 Offset: 0x227BEC0 VA: 0x18227D8C0
+	// RVA: 0x227D700 Offset: 0x227BD00 VA: 0x18227D700
 	private static void .cctor() { }
 
 }

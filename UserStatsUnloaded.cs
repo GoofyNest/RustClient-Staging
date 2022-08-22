@@ -9,10 +9,10 @@ internal struct UserStatsUnloaded_t : ICallbackData // TypeDefIndex: 5393
 
 	// Methods
 
-	// RVA: 0x1DC8B0 Offset: 0x1DBCB0 VA: 0x1801DC8B0 Slot: 5
+	// RVA: 0x1DC830 Offset: 0x1DBC30 VA: 0x1801DC830 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DC8A0 Offset: 0x1DBCA0 VA: 0x1801DC8A0 Slot: 4
+	// RVA: 0x1DC820 Offset: 0x1DBC20 VA: 0x1801DC820 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x1291EA0 Offset: 0x12904A0 VA: 0x181291EA0

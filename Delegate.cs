@@ -93,7 +93,7 @@ public abstract class Delegate : ICloneable, ISerializable // TypeDefIndex: 356
 	// RVA: 0xD712C0 Offset: 0xD6F8C0 VA: 0x180D712C0
 	public static Delegate Combine(Delegate a, Delegate b) { }
 
-	[ComVisibleAttribute] // RVA: 0x75F80 Offset: 0x75380 VA: 0x180075F80
+	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	// RVA: 0xD710A0 Offset: 0xD6F6A0 VA: 0x180D710A0
 	public static Delegate Combine(Delegate[] delegates) { }
 

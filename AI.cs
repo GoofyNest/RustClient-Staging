@@ -11,13 +11,13 @@ public class AIDesign : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6540
 
 	// Methods
 
-	// RVA: 0x200B0F0 Offset: 0x20096F0 VA: 0x18200B0F0
+	// RVA: 0x200AF30 Offset: 0x2009530 VA: 0x18200AF30
 	public static void ResetToPool(AIDesign instance) { }
 
-	// RVA: 0x200B380 Offset: 0x2009980 VA: 0x18200B380
+	// RVA: 0x200B1C0 Offset: 0x20097C0 VA: 0x18200B1C0
 	public void ResetToPool() { }
 
-	// RVA: 0x200B030 Offset: 0x2009630 VA: 0x18200B030 Slot: 9
+	// RVA: 0x200AE70 Offset: 0x2009470 VA: 0x18200AE70 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -26,64 +26,64 @@ public class AIDesign : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6540
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x2009D40 Offset: 0x2008340 VA: 0x182009D40
+	// RVA: 0x2009B80 Offset: 0x2008180 VA: 0x182009B80
 	public void CopyTo(AIDesign instance) { }
 
-	// RVA: 0x2009F70 Offset: 0x2008570 VA: 0x182009F70
+	// RVA: 0x2009DB0 Offset: 0x20083B0 VA: 0x182009DB0
 	public AIDesign Copy() { }
 
-	// RVA: 0x200A9E0 Offset: 0x2008FE0 VA: 0x18200A9E0
+	// RVA: 0x200A820 Offset: 0x2008E20 VA: 0x18200A820
 	public static AIDesign Deserialize(Stream stream) { }
 
-	// RVA: 0x2009FF0 Offset: 0x20085F0 VA: 0x182009FF0
+	// RVA: 0x2009E30 Offset: 0x2008430 VA: 0x182009E30
 	public static AIDesign DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x200A950 Offset: 0x2008F50 VA: 0x18200A950
+	// RVA: 0x200A790 Offset: 0x2008D90 VA: 0x18200A790
 	public static AIDesign DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x200AB60 Offset: 0x2009160 VA: 0x18200AB60
+	// RVA: 0x200A9A0 Offset: 0x2008FA0 VA: 0x18200A9A0
 	public static AIDesign Deserialize(byte[] buffer) { }
 
-	// RVA: 0x200B0B0 Offset: 0x20096B0 VA: 0x18200B0B0
+	// RVA: 0x200AEF0 Offset: 0x20094F0 VA: 0x18200AEF0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x200BF80 Offset: 0x200A580 VA: 0x18200BF80 Slot: 12
+	// RVA: 0x200BDC0 Offset: 0x200A3C0 VA: 0x18200BDC0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x200BFA0 Offset: 0x200A5A0 VA: 0x18200BFA0 Slot: 13
+	// RVA: 0x200BDE0 Offset: 0x200A3E0 VA: 0x18200BDE0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AIDesign previous) { }
 
-	// RVA: 0x200B0D0 Offset: 0x20096D0 VA: 0x18200B0D0 Slot: 14
+	// RVA: 0x200AF10 Offset: 0x2009510 VA: 0x18200AF10 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x200AA60 Offset: 0x2009060 VA: 0x18200AA60
+	// RVA: 0x200A8A0 Offset: 0x2008EA0 VA: 0x18200A8A0
 	public static AIDesign Deserialize(byte[] buffer, AIDesign instance, bool isDelta = False) { }
 
-	// RVA: 0x200AC80 Offset: 0x2009280 VA: 0x18200AC80
+	// RVA: 0x200AAC0 Offset: 0x20090C0 VA: 0x18200AAC0
 	public static AIDesign Deserialize(Stream stream, AIDesign instance, bool isDelta) { }
 
-	// RVA: 0x200A070 Offset: 0x2008670 VA: 0x18200A070
+	// RVA: 0x2009EB0 Offset: 0x20084B0 VA: 0x182009EB0
 	public static AIDesign DeserializeLengthDelimited(Stream stream, AIDesign instance, bool isDelta) { }
 
-	// RVA: 0x200A4F0 Offset: 0x2008AF0 VA: 0x18200A4F0
+	// RVA: 0x200A330 Offset: 0x2008930 VA: 0x18200A330
 	public static AIDesign DeserializeLength(Stream stream, int length, AIDesign instance, bool isDelta) { }
 
-	// RVA: 0x200B610 Offset: 0x2009C10 VA: 0x18200B610
+	// RVA: 0x200B450 Offset: 0x2009A50 VA: 0x18200B450
 	public static void SerializeDelta(Stream stream, AIDesign instance, AIDesign previous) { }
 
-	// RVA: 0x200BBE0 Offset: 0x200A1E0 VA: 0x18200BBE0
+	// RVA: 0x200BA20 Offset: 0x200A020 VA: 0x18200BA20
 	public static void Serialize(Stream stream, AIDesign instance) { }
 
-	// RVA: 0x200BF70 Offset: 0x200A570 VA: 0x18200BF70
+	// RVA: 0x200BDB0 Offset: 0x200A3B0 VA: 0x18200BDB0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x200BF80 Offset: 0x200A580 VA: 0x18200BF80
+	// RVA: 0x200BDC0 Offset: 0x200A3C0 VA: 0x18200BDC0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x200BAD0 Offset: 0x200A0D0 VA: 0x18200BAD0
+	// RVA: 0x200B910 Offset: 0x2009F10 VA: 0x18200B910
 	public static byte[] SerializeToBytes(AIDesign instance) { }
 
-	// RVA: 0x200BA20 Offset: 0x200A020 VA: 0x18200BA20
+	// RVA: 0x200B860 Offset: 0x2009E60 VA: 0x18200B860
 	public static void SerializeLengthDelimited(Stream stream, AIDesign instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -102,13 +102,13 @@ public class AIStateContainer : IDisposable, Pool.IPooled, IProto // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x2011E00 Offset: 0x2010400 VA: 0x182011E00
+	// RVA: 0x2011C40 Offset: 0x2010240 VA: 0x182011C40
 	public static void ResetToPool(AIStateContainer instance) { }
 
-	// RVA: 0x2011C10 Offset: 0x2010210 VA: 0x182011C10
+	// RVA: 0x2011A50 Offset: 0x2010050 VA: 0x182011A50
 	public void ResetToPool() { }
 
-	// RVA: 0x2011B50 Offset: 0x2010150 VA: 0x182011B50 Slot: 9
+	// RVA: 0x2011990 Offset: 0x200FF90 VA: 0x182011990 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -117,64 +117,64 @@ public class AIStateContainer : IDisposable, Pool.IPooled, IProto // TypeDefInde
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x2010570 Offset: 0x200EB70 VA: 0x182010570
+	// RVA: 0x20103B0 Offset: 0x200E9B0 VA: 0x1820103B0
 	public void CopyTo(AIStateContainer instance) { }
 
-	// RVA: 0x2010720 Offset: 0x200ED20 VA: 0x182010720
+	// RVA: 0x2010560 Offset: 0x200EB60 VA: 0x182010560
 	public AIStateContainer Copy() { }
 
-	// RVA: 0x2011130 Offset: 0x200F730 VA: 0x182011130
+	// RVA: 0x2010F70 Offset: 0x200F570 VA: 0x182010F70
 	public static AIStateContainer Deserialize(Stream stream) { }
 
-	// RVA: 0x2010910 Offset: 0x200EF10 VA: 0x182010910
+	// RVA: 0x2010750 Offset: 0x200ED50 VA: 0x182010750
 	public static AIStateContainer DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2010D30 Offset: 0x200F330 VA: 0x182010D30
+	// RVA: 0x2010B70 Offset: 0x200F170 VA: 0x182010B70
 	public static AIStateContainer DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2011510 Offset: 0x200FB10 VA: 0x182011510
+	// RVA: 0x2011350 Offset: 0x200F950 VA: 0x182011350
 	public static AIStateContainer Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2011BD0 Offset: 0x20101D0 VA: 0x182011BD0
+	// RVA: 0x2011A10 Offset: 0x2010010 VA: 0x182011A10
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2012760 Offset: 0x2010D60 VA: 0x182012760 Slot: 12
+	// RVA: 0x20125A0 Offset: 0x2010BA0 VA: 0x1820125A0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2012780 Offset: 0x2010D80 VA: 0x182012780 Slot: 13
+	// RVA: 0x20125C0 Offset: 0x2010BC0 VA: 0x1820125C0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AIStateContainer previous) { }
 
-	// RVA: 0x2011BF0 Offset: 0x20101F0 VA: 0x182011BF0 Slot: 14
+	// RVA: 0x2011A30 Offset: 0x2010030 VA: 0x182011A30 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2011410 Offset: 0x200FA10 VA: 0x182011410
+	// RVA: 0x2011250 Offset: 0x200F850 VA: 0x182011250
 	public static AIStateContainer Deserialize(byte[] buffer, AIStateContainer instance, bool isDelta = False) { }
 
-	// RVA: 0x2011890 Offset: 0x200FE90 VA: 0x182011890
+	// RVA: 0x20116D0 Offset: 0x200FCD0 VA: 0x1820116D0
 	public static AIStateContainer Deserialize(Stream stream, AIStateContainer instance, bool isDelta) { }
 
-	// RVA: 0x2010990 Offset: 0x200EF90 VA: 0x182010990
+	// RVA: 0x20107D0 Offset: 0x200EDD0 VA: 0x1820107D0
 	public static AIStateContainer DeserializeLengthDelimited(Stream stream, AIStateContainer instance, bool isDelta) { }
 
-	// RVA: 0x2010DC0 Offset: 0x200F3C0 VA: 0x182010DC0
+	// RVA: 0x2010C00 Offset: 0x200F200 VA: 0x182010C00
 	public static AIStateContainer DeserializeLength(Stream stream, int length, AIStateContainer instance, bool isDelta) { }
 
-	// RVA: 0x2011FF0 Offset: 0x20105F0 VA: 0x182011FF0
+	// RVA: 0x2011E30 Offset: 0x2010430 VA: 0x182011E30
 	public static void SerializeDelta(Stream stream, AIStateContainer instance, AIStateContainer previous) { }
 
-	// RVA: 0x20124B0 Offset: 0x2010AB0 VA: 0x1820124B0
+	// RVA: 0x20122F0 Offset: 0x20108F0 VA: 0x1820122F0
 	public static void Serialize(Stream stream, AIStateContainer instance) { }
 
-	// RVA: 0x2012750 Offset: 0x2010D50 VA: 0x182012750
+	// RVA: 0x2012590 Offset: 0x2010B90 VA: 0x182012590
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2012760 Offset: 0x2010D60 VA: 0x182012760
+	// RVA: 0x20125A0 Offset: 0x2010BA0 VA: 0x1820125A0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20123A0 Offset: 0x20109A0 VA: 0x1820123A0
+	// RVA: 0x20121E0 Offset: 0x20107E0 VA: 0x1820121E0
 	public static byte[] SerializeToBytes(AIStateContainer instance) { }
 
-	// RVA: 0x20122F0 Offset: 0x20108F0 VA: 0x1820122F0
+	// RVA: 0x2012130 Offset: 0x2010730 VA: 0x182012130
 	public static void SerializeLengthDelimited(Stream stream, AIStateContainer instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -208,13 +208,13 @@ public class AIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 65
 
 	// Methods
 
-	// RVA: 0x200DEF0 Offset: 0x200C4F0 VA: 0x18200DEF0
+	// RVA: 0x200DD30 Offset: 0x200C330 VA: 0x18200DD30
 	public static void ResetToPool(AIEventData instance) { }
 
-	// RVA: 0x200E2B0 Offset: 0x200C8B0 VA: 0x18200E2B0
+	// RVA: 0x200E0F0 Offset: 0x200C6F0 VA: 0x18200E0F0
 	public void ResetToPool() { }
 
-	// RVA: 0x200DE30 Offset: 0x200C430 VA: 0x18200DE30 Slot: 9
+	// RVA: 0x200DC70 Offset: 0x200C270 VA: 0x18200DC70 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -223,64 +223,64 @@ public class AIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 65
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x200BFC0 Offset: 0x200A5C0 VA: 0x18200BFC0
+	// RVA: 0x200BE00 Offset: 0x200A400 VA: 0x18200BE00
 	public void CopyTo(AIEventData instance) { }
 
-	// RVA: 0x200C3E0 Offset: 0x200A9E0 VA: 0x18200C3E0
+	// RVA: 0x200C220 Offset: 0x200A820 VA: 0x18200C220
 	public AIEventData Copy() { }
 
-	// RVA: 0x200D4B0 Offset: 0x200BAB0 VA: 0x18200D4B0
+	// RVA: 0x200D2F0 Offset: 0x200B8F0 VA: 0x18200D2F0
 	public static AIEventData Deserialize(Stream stream) { }
 
-	// RVA: 0x200CC10 Offset: 0x200B210 VA: 0x18200CC10
+	// RVA: 0x200CA50 Offset: 0x200B050 VA: 0x18200CA50
 	public static AIEventData DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x200D420 Offset: 0x200BA20 VA: 0x18200D420
+	// RVA: 0x200D260 Offset: 0x200B860 VA: 0x18200D260
 	public static AIEventData DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x200DC10 Offset: 0x200C210 VA: 0x18200DC10
+	// RVA: 0x200DA50 Offset: 0x200C050 VA: 0x18200DA50
 	public static AIEventData Deserialize(byte[] buffer) { }
 
-	// RVA: 0x200DEB0 Offset: 0x200C4B0 VA: 0x18200DEB0
+	// RVA: 0x200DCF0 Offset: 0x200C2F0 VA: 0x18200DCF0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2010530 Offset: 0x200EB30 VA: 0x182010530 Slot: 12
+	// RVA: 0x2010370 Offset: 0x200E970 VA: 0x182010370 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2010550 Offset: 0x200EB50 VA: 0x182010550 Slot: 13
+	// RVA: 0x2010390 Offset: 0x200E990 VA: 0x182010390 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AIEventData previous) { }
 
-	// RVA: 0x200DED0 Offset: 0x200C4D0 VA: 0x18200DED0 Slot: 14
+	// RVA: 0x200DD10 Offset: 0x200C310 VA: 0x18200DD10 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x200DD30 Offset: 0x200C330 VA: 0x18200DD30
+	// RVA: 0x200DB70 Offset: 0x200C170 VA: 0x18200DB70
 	public static AIEventData Deserialize(byte[] buffer, AIEventData instance, bool isDelta = False) { }
 
-	// RVA: 0x200D530 Offset: 0x200BB30 VA: 0x18200D530
+	// RVA: 0x200D370 Offset: 0x200B970 VA: 0x18200D370
 	public static AIEventData Deserialize(Stream stream, AIEventData instance, bool isDelta) { }
 
-	// RVA: 0x200C460 Offset: 0x200AA60 VA: 0x18200C460
+	// RVA: 0x200C2A0 Offset: 0x200A8A0 VA: 0x18200C2A0
 	public static AIEventData DeserializeLengthDelimited(Stream stream, AIEventData instance, bool isDelta) { }
 
-	// RVA: 0x200CC90 Offset: 0x200B290 VA: 0x18200CC90
+	// RVA: 0x200CAD0 Offset: 0x200B0D0 VA: 0x18200CAD0
 	public static AIEventData DeserializeLength(Stream stream, int length, AIEventData instance, bool isDelta) { }
 
-	// RVA: 0x200E670 Offset: 0x200CC70 VA: 0x18200E670
+	// RVA: 0x200E4B0 Offset: 0x200CAB0 VA: 0x18200E4B0
 	public static void SerializeDelta(Stream stream, AIEventData instance, AIEventData previous) { }
 
-	// RVA: 0x200F740 Offset: 0x200DD40 VA: 0x18200F740
+	// RVA: 0x200F580 Offset: 0x200DB80 VA: 0x18200F580
 	public static void Serialize(Stream stream, AIEventData instance) { }
 
-	// RVA: 0x2010520 Offset: 0x200EB20 VA: 0x182010520
+	// RVA: 0x2010360 Offset: 0x200E960 VA: 0x182010360
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2010530 Offset: 0x200EB30 VA: 0x182010530
+	// RVA: 0x2010370 Offset: 0x200E970 VA: 0x182010370
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x200F630 Offset: 0x200DC30 VA: 0x18200F630
+	// RVA: 0x200F470 Offset: 0x200DA70 VA: 0x18200F470
 	public static byte[] SerializeToBytes(AIEventData instance) { }
 
-	// RVA: 0x200F580 Offset: 0x200DB80 VA: 0x18200F580
+	// RVA: 0x200F3C0 Offset: 0x200D9C0 VA: 0x18200F3C0
 	public static void SerializeLengthDelimited(Stream stream, AIEventData instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80
@@ -326,10 +326,10 @@ public class NPCTalking : NPCShopKeeper, IConversationProvider // TypeDefIndex: 
 	// RVA: 0x49BB60 Offset: 0x49A160 VA: 0x18049BB60 Slot: 157
 	public bool ProviderBusy() { }
 
-	[BaseEntity.Menu] // RVA: 0x7BBE0 Offset: 0x7AFE0 VA: 0x18007BBE0
-	[BaseEntity.Menu.Description] // RVA: 0x7BBE0 Offset: 0x7AFE0 VA: 0x18007BBE0
-	[BaseEntity.Menu.Icon] // RVA: 0x7BBE0 Offset: 0x7AFE0 VA: 0x18007BBE0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7BBE0 Offset: 0x7AFE0 VA: 0x18007BBE0
+	[BaseEntity.Menu] // RVA: 0x7BCB0 Offset: 0x7B0B0 VA: 0x18007BCB0
+	[BaseEntity.Menu.Description] // RVA: 0x7BCB0 Offset: 0x7B0B0 VA: 0x18007BCB0
+	[BaseEntity.Menu.Icon] // RVA: 0x7BCB0 Offset: 0x7B0B0 VA: 0x18007BCB0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7BCB0 Offset: 0x7B0B0 VA: 0x18007BCB0
 	// RVA: 0x7C4BF0 Offset: 0x7C31F0 VA: 0x1807C4BF0
 	public void Menu_Talk(BasePlayer player) { }
 
@@ -342,21 +342,21 @@ public class NPCTalking : NPCShopKeeper, IConversationProvider // TypeDefIndex: 
 	// RVA: 0x7C47D0 Offset: 0x7C2DD0 VA: 0x1807C47D0 Slot: 156
 	public Vector3 GetConversationWorldOrigin() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7C4550 Offset: 0x7C2B50 VA: 0x1807C4550
 	public void Client_StartConversation(BaseEntity.RPCMessage msg) { }
 
 	// RVA: 0x7C4650 Offset: 0x7C2C50 VA: 0x1807C4650 Slot: 154
 	public void EndConversation(bool fromServer) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7C4480 Offset: 0x7C2A80 VA: 0x1807C4480
 	public void Client_ForceSpeechNode(BaseEntity.RPCMessage msg) { }
 
 	// RVA: 0x7C57B0 Offset: 0x7C3DB0 VA: 0x1807C57B0 Slot: 153
 	public void ResponsePressed(int index) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7C4470 Offset: 0x7C2A70 VA: 0x1807C4470
 	public void Client_EndConversation(BaseEntity.RPCMessage msg) { }
 
@@ -398,7 +398,7 @@ public class NPCVendingOrder.Entry // TypeDefIndex: 8723
 	public ItemDefinition currencyItem; // 0x20
 	public int currencyAmount; // 0x28
 	public bool currencyAsBP; // 0x2C
-	[TooltipAttribute] // RVA: 0x777B0 Offset: 0x76BB0 VA: 0x1800777B0
+	[TooltipAttribute] // RVA: 0x778E0 Offset: 0x76CE0 VA: 0x1800778E0
 	public int weight; // 0x30
 	public int refillAmount; // 0x34
 	public float refillDelay; // 0x38
@@ -531,7 +531,7 @@ public class AICoverPoint : AIPoint // TypeDefIndex: 8903
 public class AICoverPointTool : MonoBehaviour // TypeDefIndex: 8904
 {	// Methods
 
-	[ContextMenu] // RVA: 0xC1F00 Offset: 0xC1300 VA: 0x1800C1F00
+	[ContextMenu] // RVA: 0xC1FD0 Offset: 0xC13D0 VA: 0x1800C1FD0
 	// RVA: 0xA90280 Offset: 0xA8E880 VA: 0x180A90280
 	public void PlaceCoverPoints() { }
 
@@ -569,9 +569,9 @@ public class AIInformationCell // TypeDefIndex: 8906
 	public List<AIInformationCell> NeighbourCells; // 0x28
 	public AIInformationCellContents<AIMovePoint> MovePoints; // 0x30
 	public AIInformationCellContents<AICoverPoint> CoverPoints; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly int <X>k__BackingField; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private readonly int <Z>k__BackingField; // 0x44
 
 	// Properties
@@ -580,11 +580,11 @@ public class AIInformationCell // TypeDefIndex: 8906
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
 	public int get_X() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5DE450 Offset: 0x5DCA50 VA: 0x1805DE450
 	public int get_Z() { }
 
@@ -684,7 +684,7 @@ public class AIInformationGrid : MonoBehaviour // TypeDefIndex: 8908
 
 	// Methods
 
-	[ContextMenu] // RVA: 0xC3700 Offset: 0xC2B00 VA: 0x1800C3700
+	[ContextMenu] // RVA: 0xC3790 Offset: 0xC2B90 VA: 0x1800C3790
 	// RVA: 0xA93990 Offset: 0xA91F90 VA: 0x180A93990
 	public void Init() { }
 
@@ -834,7 +834,7 @@ public class AIMovePointPath : MonoBehaviour // TypeDefIndex: 8913
 	// RVA: 0xA947B0 Offset: 0xA92DB0 VA: 0x180A947B0
 	private void OnDrawGizmosSelected() { }
 
-	[ContextMenu] // RVA: 0xC37A0 Offset: 0xC2BA0 VA: 0x1800C37A0
+	[ContextMenu] // RVA: 0xC3830 Offset: 0xC2C30 VA: 0x1800C3830
 	// RVA: 0xA94270 Offset: 0xA92870 VA: 0x180A94270
 	public void AddChildPoints() { }
 
@@ -1170,7 +1170,7 @@ public class AnimalAnimation : MonoBehaviour, IClientComponent // TypeDefIndex: 
 	public SoundDefinition saddleMovementSoundDefWood; // 0x48
 	public SoundDefinition saddleMovementSoundDefRoadsign; // 0x50
 	public AnimationCurve saddleMovementGainCurve; // 0x58
-	[ReadOnlyAttribute] // RVA: 0x70AC0 Offset: 0x6FEC0 VA: 0x180070AC0
+	[ReadOnlyAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
 	public string BaseFolder; // 0x60
 	public const BaseEntity.Flags Flag_WoodArmor = 2048;
 	public const BaseEntity.Flags Flag_RoadsignArmor = 16384;
@@ -1303,9 +1303,9 @@ public class AIDesignSO : BaseScriptableObject // TypeDefIndex: 9378
 
 public class AIDesign // TypeDefIndex: 9379
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private AIDesignScope <Scope>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Description>k__BackingField; // 0x18
 	public List<AIState> AvailableStates; // 0x20
 	public int DefaultStateContainerID; // 0x28
@@ -1317,19 +1317,19 @@ public class AIDesign // TypeDefIndex: 9379
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public AIDesignScope get_Scope() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
 	private void set_Scope(AIDesignScope value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public string get_Description() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
 	private void set_Description(string value) { }
 
@@ -1412,7 +1412,7 @@ public enum AIEventType // TypeDefIndex: 9381
 public class AIEvents // TypeDefIndex: 9382
 {	// Fields
 	public AIMemory Memory; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <CurrentInputMemorySlot>k__BackingField; // 0x18
 	private List<BaseAIEvent> events; // 0x20
 	private IAIEventListener eventListener; // 0x28
@@ -1425,11 +1425,11 @@ public class AIEvents // TypeDefIndex: 9382
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
 	public int get_CurrentInputMemorySlot() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x7D0C80 Offset: 0x7CF280 VA: 0x1807D0C80
 	private void set_CurrentInputMemorySlot(int value) { }
 
@@ -1548,12 +1548,12 @@ public class AIMemoryBank<T> // TypeDefIndex: 9388
 
 public class AIStateContainer // TypeDefIndex: 9422
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <ID>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private AIState <State>k__BackingField; // 0x14
 	public List<BaseAIEvent> Events; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <InputMemorySlot>k__BackingField; // 0x20
 
 	// Properties
@@ -1563,27 +1563,27 @@ public class AIStateContainer // TypeDefIndex: 9422
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public int get_ID() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
 	private void set_ID(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0
 	public AIState get_State() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x57C9F0 Offset: 0x57AFF0 VA: 0x18057C9F0
 	private void set_State(AIState value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
 	public int get_InputMemorySlot() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x69D620 Offset: 0x69BC20 VA: 0x18069D620
 	private void set_InputMemorySlot(int value) { }
 
@@ -1645,19 +1645,19 @@ public class NPCSpawner : SpawnGroup // TypeDefIndex: 10004
 	public int AdditionalLOSBlockingLayer; // 0x48
 	public MonumentNavMesh monumentNavMesh; // 0x50
 	public bool shouldFillOnSpawn; // 0x58
-	[HeaderAttribute] // RVA: 0xAD0F0 Offset: 0xAC4F0 VA: 0x1800AD0F0
+	[HeaderAttribute] // RVA: 0xAD190 Offset: 0xAC590 VA: 0x1800AD190
 	public AIInformationZone VirtualInfoZone; // 0x60
-	[HeaderAttribute] // RVA: 0xAE440 Offset: 0xAD840 VA: 0x1800AE440
+	[HeaderAttribute] // RVA: 0xAE5E0 Offset: 0xAD9E0 VA: 0x1800AE5E0
 	public AIMovePointPath Path; // 0x68
 	public BasePath AStarGraph; // 0x70
-	[HeaderAttribute] // RVA: 0xAE8D0 Offset: 0xADCD0 VA: 0x1800AE8D0
+	[HeaderAttribute] // RVA: 0xAFD40 Offset: 0xAF140 VA: 0x1800AFD40
 	public bool UseStatModifiers; // 0x78
 	public float SenseRange; // 0x7C
 	public float TargetLostRange; // 0x80
 	public float AttackRangeMultiplier; // 0x84
 	public float ListenRange; // 0x88
 	public float CanUseHealingItemsChance; // 0x8C
-	[HeaderAttribute] // RVA: 0xAFCD0 Offset: 0xAF0D0 VA: 0x1800AFCD0
+	[HeaderAttribute] // RVA: 0xAFDE0 Offset: 0xAF1E0 VA: 0x1800AFDE0
 	public PlayerInventoryProperties[] Loadouts; // 0x90
 
 	// Methods
@@ -1669,31 +1669,31 @@ public class NPCSpawner : SpawnGroup // TypeDefIndex: 10004
 
 public class AI : ConsoleSystem // TypeDefIndex: 11880
 {	// Fields
-	[ReplicatedVar] // RVA: 0x858A0 Offset: 0x84CA0 VA: 0x1800858A0
+	[ReplicatedVar] // RVA: 0x85960 Offset: 0x84D60 VA: 0x180085960
 	public static bool allowdesigning; // 0x0
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static bool designing; // 0x1
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static bool groundAlign; // 0x2
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static float maxGroundAlignDist; // 0x4
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static bool debugVis; // 0x8
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static bool npc_no_foot_ik; // 0x9
 	private static HitTest lookingAtNpcCache; // 0x10
 
 	// Methods
 
-	[ClientVar] // RVA: 0x85D70 Offset: 0x85170 VA: 0x180085D70
+	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
 	// RVA: 0x6C95B0 Offset: 0x6C7BB0 VA: 0x1806C95B0
 	public static void aiDebug_lookat(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x85D70 Offset: 0x85170 VA: 0x180085D70
+	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
 	// RVA: 0x6C93F0 Offset: 0x6C79F0 VA: 0x1806C93F0
 	public static void aiDebug_LoadBalanceOverdueReport(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x85D70 Offset: 0x85170 VA: 0x180085D70
+	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void selectNPCLookat(ConsoleSystem.Arg args) { }
 
@@ -1710,7 +1710,7 @@ public class AI : ConsoleSystem // TypeDefIndex: 11880
 
 public class AiManagedAgent : FacepunchBehaviour, IServerComponent // TypeDefIndex: 12133
 {	// Fields
-	[TooltipAttribute] // RVA: 0xE02C0 Offset: 0xDF6C0 VA: 0x1800E02C0
+	[TooltipAttribute] // RVA: 0xE0380 Offset: 0xDF780 VA: 0x1800E0380
 	public int AgentTypeIndex; // 0x18
 
 	// Methods
@@ -1722,14 +1722,14 @@ public class AiManagedAgent : FacepunchBehaviour, IServerComponent // TypeDefInd
 
 public class AiManager : SingletonComponent<AiManager>, IServerComponent // TypeDefIndex: 12134
 {	// Fields
-	[HeaderAttribute] // RVA: 0xE04D0 Offset: 0xDF8D0 VA: 0x1800E04D0
-	[SerializeField] // RVA: 0xE04D0 Offset: 0xDF8D0 VA: 0x1800E04D0
+	[HeaderAttribute] // RVA: 0xE0590 Offset: 0xDF990 VA: 0x1800E0590
+	[SerializeField] // RVA: 0xE0590 Offset: 0xDF990 VA: 0x1800E0590
 	public bool UseCover; // 0x18
 	public float CoverPointVolumeCellSize; // 0x1C
 	public float CoverPointVolumeCellHeight; // 0x20
 	public float CoverPointRayLength; // 0x24
 	public CoverPointVolume cpvPrefab; // 0x28
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public LayerMask DynamicCoverPointVolumeLayerMask; // 0x30
 	private WorldSpaceGrid<CoverPointVolume> coverPointVolumeGrid; // 0x38
 
@@ -1751,7 +1751,7 @@ public class AiManager : SingletonComponent<AiManager>, IServerComponent // Type
 
 public class ScientistSpawner : SpawnGroup // TypeDefIndex: 12136
 {	// Fields
-	[HeaderAttribute] // RVA: 0xE0940 Offset: 0xDFD40 VA: 0x1800E0940
+	[HeaderAttribute] // RVA: 0xE0A50 Offset: 0xDFE50 VA: 0x1800E0A50
 	public bool Mobile; // 0x48
 	public bool NeverMove; // 0x49
 	public bool SpawnHostile; // 0x4A
@@ -1763,7 +1763,7 @@ public class ScientistSpawner : SpawnGroup // TypeDefIndex: 12136
 	public Transform[] LookAtInterestPointsStationary; // 0x58
 	public Vector2 RadioEffectRepeatRange; // 0x60
 	public Model Model; // 0x68
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private AiLocationManager _mgr; // 0x70
 
 	// Methods
@@ -1776,9 +1776,9 @@ public class ScientistSpawner : SpawnGroup // TypeDefIndex: 12136
 public class AiLocationManager : FacepunchBehaviour, IServerComponent // TypeDefIndex: 12137
 {	// Fields
 	public static List<AiLocationManager> Managers; // 0x0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public AiLocationSpawner MainSpawner; // 0x18
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	public AiLocationSpawner.SquadSpawnerLocation LocationWhenMainSpawnerIsNull; // 0x20
 	public Transform CoverPointGroup; // 0x28
 	public Transform PatrolPointGroup; // 0x30
@@ -1845,7 +1845,7 @@ public class ScientistJunkpileSpawner : MonoBehaviour, IServerComponent // TypeD
 	public float MovementRadius; // 0x40
 	public bool ReducedLongRangeAccuracy; // 0x44
 	public ScientistJunkpileSpawner.JunkpileType SpawnType; // 0x48
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float SpawnBaseChance; // 0x4C
 
 	// Methods

@@ -38,15 +38,15 @@ public class TreeManager : BaseEntity // TypeDefIndex: 8658
 	// RVA: 0xA1D2F0 Offset: 0xA1B8F0 VA: 0x180A1D2F0
 	private static ImpostorInstanceData CreateImpostorInstanceData(BaseEntity entity, Vector3 position, Vector3 scale) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA1C9A0 Offset: 0xA1AFA0 VA: 0x180A1C9A0
 	private void CLIENT_ReceiveTrees(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA1CD70 Offset: 0xA1B370 VA: 0x180A1CD70
 	private void CLIENT_TreeDestroyed(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA1CEF0 Offset: 0xA1B4F0 VA: 0x180A1CEF0
 	private void CLIENT_TreeSpawned(BaseEntity.RPCMessage msg) { }
 

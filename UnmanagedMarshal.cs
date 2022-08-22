@@ -151,13 +151,13 @@ private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=11614 //
 private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=21252 // TypeDefIndex: 1686
 
 // Namespace: System.Reflection.Emit
-[ComVisibleAttribute] // RVA: 0x78600 Offset: 0x77A00 VA: 0x180078600
-[ObsoleteAttribute] // RVA: 0x78600 Offset: 0x77A00 VA: 0x180078600
+[ComVisibleAttribute] // RVA: 0x785B0 Offset: 0x779B0 VA: 0x1800785B0
+[ObsoleteAttribute] // RVA: 0x785B0 Offset: 0x779B0 VA: 0x1800785B0
 [Serializable]
 public sealed class UnmanagedMarshal // TypeDefIndex: 1687
 	// Methods
 
-	// RVA: 0x18D7DB0 Offset: 0x18D63B0 VA: 0x1818D7DB0
+	// RVA: 0x18D7D70 Offset: 0x18D6370 VA: 0x1818D7D70
 	internal void .ctor() { }
 
 }

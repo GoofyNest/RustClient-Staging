@@ -15,9 +15,9 @@ public class BaseAnimalNPC : BaseNpc, IAIAttack, IAITirednessAbove, IAISleep, IA
 	// RVA: 0x7D1200 Offset: 0x7CF800 VA: 0x1807D1200 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	[BaseEntity.Menu] // RVA: 0x83110 Offset: 0x82510 VA: 0x180083110
-	[BaseEntity.Menu.Description] // RVA: 0x83110 Offset: 0x82510 VA: 0x180083110
-	[BaseEntity.Menu.ShowIf] // RVA: 0x83110 Offset: 0x82510 VA: 0x180083110
+	[BaseEntity.Menu] // RVA: 0x831D0 Offset: 0x825D0 VA: 0x1800831D0
+	[BaseEntity.Menu.Description] // RVA: 0x831D0 Offset: 0x825D0 VA: 0x1800831D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x831D0 Offset: 0x825D0 VA: 0x1800831D0
 	// RVA: 0x7D10C0 Offset: 0x7CF6C0 VA: 0x1807D10C0
 	public void MenuDesignAI(BasePlayer ply) { }
 

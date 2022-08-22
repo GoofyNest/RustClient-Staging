@@ -12,7 +12,7 @@ public sealed class SecureString : IDisposable // TypeDefIndex: 903
 	// RVA: 0x17C2760 Offset: 0x17C0D60 VA: 0x1817C2760
 	public void .ctor() { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x17C27C0 Offset: 0x17C0DC0 VA: 0x1817C27C0
 	public void .ctor(char* value, int length) { }
 

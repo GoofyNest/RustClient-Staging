@@ -6,9 +6,9 @@ public class GregorianCalendar : Calendar // TypeDefIndex: 702
 	private static Calendar s_defaultInstance; // 0x10
 
 	// Properties
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public override DateTime MinSupportedDateTime { get; }
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	public override DateTime MaxSupportedDateTime { get; }
 	internal override int ID { get; }
 	public override int[] Eras { get; }
@@ -16,7 +16,7 @@ public class GregorianCalendar : Calendar // TypeDefIndex: 702
 
 	// Methods
 
-	[OnDeserializedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x16F3ED0 Offset: 0x16F24D0 VA: 0x1816F3ED0
 	private void OnDeserialized(StreamingContext ctx) { }
 

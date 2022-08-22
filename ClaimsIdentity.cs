@@ -5,21 +5,21 @@ public class ClaimsIdentity : IIdentity // TypeDefIndex: 935
 	private Collection<IEnumerable<Claim>> m_externalClaims; // 0x20
 	private string m_nameType; // 0x28
 	private string m_roleType; // 0x30
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	private string m_version; // 0x38
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	private ClaimsIdentity m_actor; // 0x40
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	private string m_authenticationType; // 0x48
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	private object m_bootstrapContext; // 0x50
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	private string m_label; // 0x58
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	private string m_serializedNameType; // 0x60
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	private string m_serializedRoleType; // 0x68
-	[OptionalFieldAttribute] // RVA: 0x92F70 Offset: 0x92370 VA: 0x180092F70
+	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
 	private string m_serializedClaims; // 0x70
 
 	// Properties
@@ -54,7 +54,7 @@ public class ClaimsIdentity : IIdentity // TypeDefIndex: 935
 	// RVA: 0x16F84A0 Offset: 0x16F6AA0 VA: 0x1816F84A0
 	public void set_Actor(ClaimsIdentity value) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xC6450 Offset: 0xC5850 VA: 0x1800C6450
+	[IteratorStateMachineAttribute] // RVA: 0xC64E0 Offset: 0xC58E0 VA: 0x1800C64E0
 	// RVA: 0x16F8400 Offset: 0x16F6A00 VA: 0x1816F8400 Slot: 7
 	public virtual IEnumerable<Claim> get_Claims() { }
 
@@ -73,15 +73,15 @@ public class ClaimsIdentity : IIdentity // TypeDefIndex: 935
 	// RVA: 0x16F7060 Offset: 0x16F5660 VA: 0x1816F7060 Slot: 10
 	public virtual Claim FindFirst(string type) { }
 
-	[OnSerializingAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x16F7800 Offset: 0x16F5E00 VA: 0x1816F7800
 	private void OnSerializingMethod(StreamingContext context) { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x16F7680 Offset: 0x16F5C80 VA: 0x1816F7680
 	private void OnDeserializedMethod(StreamingContext context) { }
 
-	[OnDeserializingAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[OnDeserializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x16F7750 Offset: 0x16F5D50 VA: 0x1816F7750
 	private void OnDeserializingMethod(StreamingContext context) { }
 
@@ -118,11 +118,11 @@ private sealed class ClaimsIdentity.<get_Claims>d__51 : IEnumerable<Claim>, IEnu
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xD87490 Offset: 0xD85A90 VA: 0x180D87490
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x170B490 Offset: 0x1709A90 VA: 0x18170B490 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
@@ -132,23 +132,23 @@ private sealed class ClaimsIdentity.<get_Claims>d__51 : IEnumerable<Claim>, IEnu
 	// RVA: 0x170B540 Offset: 0x1709B40 VA: 0x18170B540
 	private void <>m__Finally1() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 6
 	private Claim System.Collections.Generic.IEnumerator<System.Security.Claims.Claim>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x170B440 Offset: 0x1709A40 VA: 0x18170B440 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 9
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x170B3A0 Offset: 0x17099A0 VA: 0x18170B3A0 Slot: 4
 	private IEnumerator<Claim> System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x170B3A0 Offset: 0x17099A0 VA: 0x18170B3A0 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 

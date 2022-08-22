@@ -7,26 +7,26 @@ public class StandaloneInputModule : PointerInputModule // TypeDefIndex: 5085
 	private Vector2 m_MousePosition; // 0x70
 	private GameObject m_CurrentFocusedGameObject; // 0x78
 	private PointerEventData m_InputPointerEvent; // 0x80
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string m_HorizontalAxis; // 0x88
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string m_VerticalAxis; // 0x90
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string m_SubmitButton; // 0x98
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string m_CancelButton; // 0xA0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_InputActionsPerSecond; // 0xA8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_RepeatDelay; // 0xAC
-	[SerializeField] // RVA: 0x88530 Offset: 0x87930 VA: 0x180088530
-	[FormerlySerializedAsAttribute] // RVA: 0x88530 Offset: 0x87930 VA: 0x180088530
+	[SerializeField] // RVA: 0x885A0 Offset: 0x879A0 VA: 0x1800885A0
+	[FormerlySerializedAsAttribute] // RVA: 0x885A0 Offset: 0x879A0 VA: 0x1800885A0
 	private bool m_ForceModuleActive; // 0xB0
 
 	// Properties
-	[ObsoleteAttribute] // RVA: 0x88890 Offset: 0x87C90 VA: 0x180088890
+	[ObsoleteAttribute] // RVA: 0x88900 Offset: 0x87D00 VA: 0x180088900
 	public StandaloneInputModule.InputMode inputMode { get; }
-	[ObsoleteAttribute] // RVA: 0x889E0 Offset: 0x87DE0 VA: 0x1800889E0
+	[ObsoleteAttribute] // RVA: 0x88B30 Offset: 0x87F30 VA: 0x180088B30
 	public bool allowActivationOnMobileDevice { get; set; }
 	public bool forceModuleActive { get; set; }
 	public float inputActionsPerSecond { get; set; }
@@ -134,7 +134,7 @@ public class StandaloneInputModule : PointerInputModule // TypeDefIndex: 5085
 	// RVA: 0x10CABA0 Offset: 0x10C91A0 VA: 0x1810CABA0
 	protected void ProcessMouseEvent() { }
 
-	[ObsoleteAttribute] // RVA: 0x88810 Offset: 0x87C10 VA: 0x180088810
+	[ObsoleteAttribute] // RVA: 0x88880 Offset: 0x87C80 VA: 0x180088880
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 30
 	protected virtual bool ForceAutoSelect() { }
 

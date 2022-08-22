@@ -8,18 +8,18 @@ internal class SendMouseEvents // TypeDefIndex: 4076
 
 	// Methods
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x23158A0 Offset: 0x2313EA0 VA: 0x1823158A0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x23156E0 Offset: 0x2313CE0 VA: 0x1823156E0
 	private static void SetMouseMoved() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0x23140E0 Offset: 0x23126E0 VA: 0x1823140E0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0x2313F20 Offset: 0x2312520 VA: 0x182313F20
 	private static void DoSendMouseEvents(int skipRTCameras) { }
 
-	// RVA: 0x2314DE0 Offset: 0x23133E0 VA: 0x182314DE0
+	// RVA: 0x2314C20 Offset: 0x2313220 VA: 0x182314C20
 	private static void SendEvents(int i, SendMouseEvents.HitInfo hit) { }
 
-	// RVA: 0x2315900 Offset: 0x2313F00 VA: 0x182315900
+	// RVA: 0x2315740 Offset: 0x2313D40 VA: 0x182315740
 	private static void .cctor() { }
 
 }
@@ -31,13 +31,13 @@ private struct SendMouseEvents.HitInfo // TypeDefIndex: 4077
 
 	// Methods
 
-	// RVA: 0x240AF0 Offset: 0x23FEF0 VA: 0x180240AF0
+	// RVA: 0x240A70 Offset: 0x23FE70 VA: 0x180240A70
 	public void SendMessage(string name) { }
 
-	// RVA: 0x23138A0 Offset: 0x2311EA0 VA: 0x1823138A0
+	// RVA: 0x23136E0 Offset: 0x2311CE0 VA: 0x1823136E0
 	public static bool op_Implicit(SendMouseEvents.HitInfo exists) { }
 
-	// RVA: 0x23137E0 Offset: 0x2311DE0 VA: 0x1823137E0
+	// RVA: 0x2313620 Offset: 0x2311C20 VA: 0x182313620
 	public static bool Compare(SendMouseEvents.HitInfo lhs, SendMouseEvents.HitInfo rhs) { }
 
 }

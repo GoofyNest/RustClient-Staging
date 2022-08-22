@@ -2,7 +2,7 @@ public class SmartSwitch : AppIOEntity // TypeDefIndex: 8450
 {	// Fields
 	private Option __menuOption_Menu_TurnOff; // 0x2E0
 	private Option __menuOption_Menu_TurnOn; // 0x338
-	[HeaderAttribute] // RVA: 0x881E0 Offset: 0x875E0 VA: 0x1800881E0
+	[HeaderAttribute] // RVA: 0x88250 Offset: 0x87650 VA: 0x180088250
 	public Animator ReceiverAnimator; // 0x390
 	private static readonly int ReceiverNoPower; // 0x0
 	private static readonly int ReceiverOn; // 0x4
@@ -30,20 +30,20 @@ public class SmartSwitch : AppIOEntity // TypeDefIndex: 8450
 	// RVA: 0x5B0320 Offset: 0x5AE920 VA: 0x1805B0320
 	public void OnSwitchStatusChange(bool isOn) { }
 
-	[BaseEntity.Menu] // RVA: 0x882D0 Offset: 0x876D0 VA: 0x1800882D0
-	[BaseEntity.Menu.Description] // RVA: 0x882D0 Offset: 0x876D0 VA: 0x1800882D0
-	[BaseEntity.Menu.Icon] // RVA: 0x882D0 Offset: 0x876D0 VA: 0x1800882D0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x882D0 Offset: 0x876D0 VA: 0x1800882D0
+	[BaseEntity.Menu] // RVA: 0x88380 Offset: 0x87780 VA: 0x180088380
+	[BaseEntity.Menu.Description] // RVA: 0x88380 Offset: 0x87780 VA: 0x180088380
+	[BaseEntity.Menu.Icon] // RVA: 0x88380 Offset: 0x87780 VA: 0x180088380
+	[BaseEntity.Menu.ShowIf] // RVA: 0x88380 Offset: 0x87780 VA: 0x180088380
 	// RVA: 0x5B0160 Offset: 0x5AE760 VA: 0x1805B0160
 	public void Menu_TurnOn(BasePlayer player) { }
 
 	// RVA: 0x5B0090 Offset: 0x5AE690 VA: 0x1805B0090
 	public bool Menu_TurnOn_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x886A0 Offset: 0x87AA0 VA: 0x1800886A0
-	[BaseEntity.Menu.Description] // RVA: 0x886A0 Offset: 0x87AA0 VA: 0x1800886A0
-	[BaseEntity.Menu.Icon] // RVA: 0x886A0 Offset: 0x87AA0 VA: 0x1800886A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x886A0 Offset: 0x87AA0 VA: 0x1800886A0
+	[BaseEntity.Menu] // RVA: 0x88760 Offset: 0x87B60 VA: 0x180088760
+	[BaseEntity.Menu.Description] // RVA: 0x88760 Offset: 0x87B60 VA: 0x180088760
+	[BaseEntity.Menu.Icon] // RVA: 0x88760 Offset: 0x87B60 VA: 0x180088760
+	[BaseEntity.Menu.ShowIf] // RVA: 0x88760 Offset: 0x87B60 VA: 0x180088760
 	// RVA: 0x5B0050 Offset: 0x5AE650 VA: 0x1805B0050
 	public void Menu_TurnOff(BasePlayer player) { }
 

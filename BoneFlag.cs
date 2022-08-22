@@ -1,7 +1,7 @@
 public enum BoneFlag // TypeDefIndex: 7343
 {
 // Namespace: Facepunch
-[FlagsAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+[FlagsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 public enum BoneFlag // TypeDefIndex: 7343
 	// Fields
 	public int value__; // 0x0

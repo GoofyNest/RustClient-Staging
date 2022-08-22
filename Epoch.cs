@@ -1,6 +1,6 @@
 internal static class Epoch // TypeDefIndex: 5253
 {	// Fields
-	private static readonly DateTime epoch; // 0x2B11180
+	private static readonly DateTime epoch; // 0x2B101A0
 
 	// Properties
 	public static int Current { get; }

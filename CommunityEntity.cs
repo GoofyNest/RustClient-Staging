@@ -12,7 +12,7 @@ public class CommunityEntity : PointEntity // TypeDefIndex: 8551
 	// RVA: 0x580BF0 Offset: 0x57F1F0 VA: 0x180580BF0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x57ECC0 Offset: 0x57D2C0 VA: 0x18057ECC0
 	public void CL_ReceiveFilePng(BaseEntity.RPCMessage msg) { }
 
@@ -40,7 +40,7 @@ public class CommunityEntity : PointEntity // TypeDefIndex: 8551
 	// RVA: 0x581680 Offset: 0x57FC80 VA: 0x180581680
 	private static void RegisterUi(GameObject go) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x57E000 Offset: 0x57C600 VA: 0x18057E000
 	public void AddUI(BaseEntity.RPCMessage msg) { }
 
@@ -65,11 +65,11 @@ public class CommunityEntity : PointEntity // TypeDefIndex: 8551
 	// RVA: 0x5809F0 Offset: 0x57EFF0 VA: 0x1805809F0
 	private void GraphicComponentCreated(Graphic c, Object obj) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xAA1E0 Offset: 0xA95E0 VA: 0x1800AA1E0
+	[IteratorStateMachineAttribute] // RVA: 0xAA280 Offset: 0xA9680 VA: 0x1800AA280
 	// RVA: 0x580B60 Offset: 0x57F160 VA: 0x180580B60
 	private IEnumerator LoadTextureFromWWW(RawImage c, string p) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x580800 Offset: 0x57EE00 VA: 0x180580800
 	public void DestroyUI(BaseEntity.RPCMessage msg) { }
 
@@ -234,26 +234,26 @@ private sealed class CommunityEntity.<LoadTextureFromWWW>d__22 : IEnumerator<obj
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x5875B0 Offset: 0x585BB0 VA: 0x1805875B0 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x5879D0 Offset: 0x585FD0 VA: 0x1805879D0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 

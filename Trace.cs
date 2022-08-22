@@ -1,6 +1,6 @@
 public sealed class Trace // TypeDefIndex: 2637
 {	// Fields
-	private static CorrelationManager correlationManager; // 0x2B1127C
+	private static CorrelationManager correlationManager; // 0x2B1029C
 
 	// Properties
 	public static TraceListenerCollection Listeners { get; }

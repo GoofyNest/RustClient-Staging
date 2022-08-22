@@ -10,13 +10,13 @@ internal class ContrastEnhance : PostEffectsBase // TypeDefIndex: 8174
 
 	// Methods
 
-	// RVA: 0x21D9090 Offset: 0x21D7690 VA: 0x1821D9090 Slot: 4
+	// RVA: 0x21D8ED0 Offset: 0x21D74D0 VA: 0x1821D8ED0 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x21D9170 Offset: 0x21D7770 VA: 0x1821D9170
+	// RVA: 0x21D8FB0 Offset: 0x21D75B0 VA: 0x1821D8FB0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21D9520 Offset: 0x21D7B20 VA: 0x1821D9520
+	// RVA: 0x21D9360 Offset: 0x21D7960 VA: 0x1821D9360
 	public void .ctor() { }
 
 }

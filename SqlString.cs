@@ -25,31 +25,31 @@ public struct SqlString : INullable, IComparable, IXmlSerializable // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x11B5A0 Offset: 0x11A9A0 VA: 0x18011B5A0
+	// RVA: 0x11B520 Offset: 0x11A920 VA: 0x18011B520
 	private void .ctor(bool fNull) { }
 
-	// RVA: 0x11B5E0 Offset: 0x11A9E0 VA: 0x18011B5E0
+	// RVA: 0x11B560 Offset: 0x11A960 VA: 0x18011B560
 	public void .ctor(string data, int lcid, SqlCompareOptions compareOptions) { }
 
-	// RVA: 0x11B590 Offset: 0x11A990 VA: 0x18011B590
+	// RVA: 0x11B510 Offset: 0x11A910 VA: 0x18011B510
 	public void .ctor(string data) { }
 
-	// RVA: 0x11B5F0 Offset: 0x11A9F0 VA: 0x18011B5F0
+	// RVA: 0x11B570 Offset: 0x11A970 VA: 0x18011B570
 	private void .ctor(int lcid, SqlCompareOptions compareOptions, string data, CompareInfo cmpInfo) { }
 
-	// RVA: 0x11B6C0 Offset: 0x11AAC0 VA: 0x18011B6C0 Slot: 4
+	// RVA: 0x11B640 Offset: 0x11AA40 VA: 0x18011B640 Slot: 4
 	public bool get_IsNull() { }
 
-	// RVA: 0x11B6D0 Offset: 0x11AAD0 VA: 0x18011B6D0
+	// RVA: 0x11B650 Offset: 0x11AA50 VA: 0x18011B650
 	public string get_Value() { }
 
-	// RVA: 0x11B3C0 Offset: 0x11A7C0 VA: 0x18011B3C0
+	// RVA: 0x11B340 Offset: 0x11A740 VA: 0x18011B340
 	private void SetCompareInfo() { }
 
 	// RVA: 0xCCAAC0 Offset: 0xCC90C0 VA: 0x180CCAAC0
 	public static SqlString op_Implicit(string x) { }
 
-	// RVA: 0x11B570 Offset: 0x11A970 VA: 0x18011B570 Slot: 3
+	// RVA: 0x11B4F0 Offset: 0x11A8F0 VA: 0x18011B4F0 Slot: 3
 	public override string ToString() { }
 
 	// RVA: 0xCCA7E0 Offset: 0xCC8DE0 VA: 0x180CCA7E0
@@ -70,7 +70,7 @@ public struct SqlString : INullable, IComparable, IXmlSerializable // TypeDefInd
 	// RVA: 0xCC9550 Offset: 0xCC7B50 VA: 0x180CC9550
 	public static CompareOptions CompareOptionsFromSqlCompareOptions(SqlCompareOptions compareOptions) { }
 
-	// RVA: 0x11B390 Offset: 0x11A790 VA: 0x18011B390
+	// RVA: 0x11B310 Offset: 0x11A710 VA: 0x18011B310
 	private bool FBinarySort() { }
 
 	// RVA: 0xCC92E0 Offset: 0xCC78E0 VA: 0x180CC92E0
@@ -79,25 +79,25 @@ public struct SqlString : INullable, IComparable, IXmlSerializable // TypeDefInd
 	// RVA: 0xCC9170 Offset: 0xCC7770 VA: 0x180CC9170
 	private static int CompareBinary2(SqlString x, SqlString y) { }
 
-	// RVA: 0x11B230 Offset: 0x11A630 VA: 0x18011B230 Slot: 5
+	// RVA: 0x11B1B0 Offset: 0x11A5B0 VA: 0x18011B1B0 Slot: 5
 	public int CompareTo(object value) { }
 
-	// RVA: 0x11B350 Offset: 0x11A750 VA: 0x18011B350
+	// RVA: 0x11B2D0 Offset: 0x11A6D0 VA: 0x18011B2D0
 	public int CompareTo(SqlString value) { }
 
-	// RVA: 0x11B380 Offset: 0x11A780 VA: 0x18011B380 Slot: 0
+	// RVA: 0x11B300 Offset: 0x11A700 VA: 0x18011B300 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x11B3B0 Offset: 0x11A7B0 VA: 0x18011B3B0 Slot: 2
+	// RVA: 0x11B330 Offset: 0x11A730 VA: 0x18011B330 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x117E00 Offset: 0x117200 VA: 0x180117E00 Slot: 6
+	// RVA: 0x117D80 Offset: 0x117180 VA: 0x180117D80 Slot: 6
 	private XmlSchema System.Xml.Serialization.IXmlSerializable.GetSchema() { }
 
-	// RVA: 0x11B3D0 Offset: 0x11A7D0 VA: 0x18011B3D0 Slot: 7
+	// RVA: 0x11B350 Offset: 0x11A750 VA: 0x18011B350 Slot: 7
 	private void System.Xml.Serialization.IXmlSerializable.ReadXml(XmlReader reader) { }
 
-	// RVA: 0x11B4D0 Offset: 0x11A8D0 VA: 0x18011B4D0 Slot: 8
+	// RVA: 0x11B450 Offset: 0x11A850 VA: 0x18011B450 Slot: 8
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
 	// RVA: 0xCC9D00 Offset: 0xCC8300 VA: 0x180CC9D00

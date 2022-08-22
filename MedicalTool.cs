@@ -26,7 +26,7 @@ public class MedicalTool : AttackEntity // TypeDefIndex: 8603
 	// RVA: 0x95C860 Offset: 0x95AE60 VA: 0x18095C860 Slot: 144
 	public override void OnViewmodelEvent(string name) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x95CA70 Offset: 0x95B070 VA: 0x18095CA70
 	public void Reset() { }
 

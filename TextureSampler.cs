@@ -6,19 +6,19 @@ public class TextureSampler // TypeDefIndex: 5613
 
 	// Methods
 
-	// RVA: 0x19A3A10 Offset: 0x19A2010 VA: 0x1819A3A10
+	// RVA: 0x19A39D0 Offset: 0x19A1FD0 VA: 0x1819A39D0
 	public Color GetPixelBilinear(float u, float v) { }
 
-	// RVA: 0x19A3E30 Offset: 0x19A2430 VA: 0x1819A3E30
+	// RVA: 0x19A3DF0 Offset: 0x19A23F0 VA: 0x1819A3DF0
 	public Color GetPixel(float x, float y) { }
 
-	// RVA: 0x19A3EF0 Offset: 0x19A24F0 VA: 0x1819A3EF0
+	// RVA: 0x19A3EB0 Offset: 0x19A24B0 VA: 0x1819A3EB0
 	private float Mod(float x, float y) { }
 
-	// RVA: 0x19A3F70 Offset: 0x19A2570 VA: 0x1819A3F70
+	// RVA: 0x19A3F30 Offset: 0x19A2530 VA: 0x1819A3F30
 	private float WrapBetween(float value, float min, float max) { }
 
-	// RVA: 0x19A4010 Offset: 0x19A2610 VA: 0x1819A4010
+	// RVA: 0x19A3FD0 Offset: 0x19A25D0 VA: 0x1819A3FD0
 	public void .ctor(Texture2D source) { }
 
 }

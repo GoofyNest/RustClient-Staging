@@ -32,7 +32,7 @@ public class ReflectionProbeEx : MonoBehaviour // TypeDefIndex: 10690
 	public ReflectionProbeRefreshMode refreshMode; // 0xA8
 	public bool timeSlicing; // 0xAC
 	public int resolution; // 0xB0
-	[InspectorNameAttribute] // RVA: 0x71820 Offset: 0x70C20 VA: 0x180071820
+	[InspectorNameAttribute] // RVA: 0x71950 Offset: 0x70D50 VA: 0x180071950
 	public bool hdr; // 0xB4
 	public float shadowDistance; // 0xB8
 	public ReflectionProbeClearFlags clearFlags; // 0xBC
@@ -283,7 +283,7 @@ private struct ReflectionProbeEx.CubemapFaceMatrices // TypeDefIndex: 10692
 
 	// Methods
 
-	// RVA: 0xFA400 Offset: 0xF9800 VA: 0x1800FA400
+	// RVA: 0xFA380 Offset: 0xF9780 VA: 0x1800FA380
 	public void .ctor(Vector3 x, Vector3 y, Vector3 z) { }
 
 }
@@ -306,7 +306,7 @@ public struct ReflectionProbeEx.RenderListEntry // TypeDefIndex: 10694
 
 	// Methods
 
-	// RVA: 0xFA470 Offset: 0xF9870 VA: 0x1800FA470
+	// RVA: 0xFA3F0 Offset: 0xF97F0 VA: 0x1800FA3F0
 	public void .ctor(Renderer renderer, bool alwaysEnabled) { }
 
 }

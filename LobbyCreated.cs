@@ -10,10 +10,10 @@ internal struct LobbyCreated_t : ICallbackData // TypeDefIndex: 5344
 
 	// Methods
 
-	// RVA: 0x1EB530 Offset: 0x1EA930 VA: 0x1801EB530 Slot: 5
+	// RVA: 0x1EB4B0 Offset: 0x1EA8B0 VA: 0x1801EB4B0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EB520 Offset: 0x1EA920 VA: 0x1801EB520 Slot: 4
+	// RVA: 0x1EB4A0 Offset: 0x1EA8A0 VA: 0x1801EB4A0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x13738C0 Offset: 0x1371EC0 VA: 0x1813738C0

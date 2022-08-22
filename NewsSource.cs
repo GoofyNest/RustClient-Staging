@@ -56,10 +56,10 @@ private struct NewsSource.ParagraphBuilder // TypeDefIndex: 11128
 	// RVA: 0x9EAE20 Offset: 0x9E9420 VA: 0x1809EAE20
 	public static NewsSource.ParagraphBuilder New() { }
 
-	// RVA: 0xFB210 Offset: 0xFA610 VA: 0x1800FB210
+	// RVA: 0xFB190 Offset: 0xFA590 VA: 0x1800FB190
 	public void AppendLine() { }
 
-	// RVA: 0xFB230 Offset: 0xFA630 VA: 0x1800FB230
+	// RVA: 0xFB1B0 Offset: 0xFA5B0 VA: 0x1800FB1B0
 	public void Append(string text) { }
 
 }

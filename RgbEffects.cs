@@ -1,12 +1,12 @@
 public class RgbEffects : SingletonComponent<RgbEffects> // TypeDefIndex: 10706
 {	// Fields
-	[ClientVar] // RVA: 0x72460 Offset: 0x71860 VA: 0x180072460
+	[ClientVar] // RVA: 0x72600 Offset: 0x71A00 VA: 0x180072600
 	public static bool Enabled; // 0x0
-	[ClientVar] // RVA: 0x73950 Offset: 0x72D50 VA: 0x180073950
+	[ClientVar] // RVA: 0x73A70 Offset: 0x72E70 VA: 0x180073A70
 	public static Vector3 ColorCorrection_SteelSeries; // 0x4
-	[ClientVar] // RVA: 0x73B00 Offset: 0x72F00 VA: 0x180073B00
+	[ClientVar] // RVA: 0x73BD0 Offset: 0x72FD0 VA: 0x180073BD0
 	public static Vector3 ColorCorrection_Razer; // 0x10
-	[ClientVar] // RVA: 0x73B40 Offset: 0x72F40 VA: 0x180073B40
+	[ClientVar] // RVA: 0x73CF0 Offset: 0x730F0 VA: 0x180073CF0
 	public static float Brightness; // 0x1C
 	public Color defaultColor; // 0x18
 	public Color buildingPrivilegeColor; // 0x28
@@ -66,13 +66,13 @@ public class RgbEffects : SingletonComponent<RgbEffects> // TypeDefIndex: 10706
 	// RVA: 0x4C53A0 Offset: 0x4C39A0 VA: 0x1804C53A0
 	private static Nullable<ValueTuple<RgbColor, float>> GetCurrentFlash() { }
 
-	[ClientVar] // RVA: 0x73D40 Offset: 0x73140 VA: 0x180073D40
-	[EditorBrowsableAttribute] // RVA: 0x73D40 Offset: 0x73140 VA: 0x180073D40
+	[ClientVar] // RVA: 0x73E60 Offset: 0x73260 VA: 0x180073E60
+	[EditorBrowsableAttribute] // RVA: 0x73E60 Offset: 0x73260 VA: 0x180073E60
 	// RVA: 0x4C4D00 Offset: 0x4C3300 VA: 0x1804C4D00
 	public static void ConVar_Static(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x73ED0 Offset: 0x732D0 VA: 0x180073ED0
-	[EditorBrowsableAttribute] // RVA: 0x73ED0 Offset: 0x732D0 VA: 0x180073ED0
+	[ClientVar] // RVA: 0x75330 Offset: 0x74730 VA: 0x180075330
+	[EditorBrowsableAttribute] // RVA: 0x75330 Offset: 0x74730 VA: 0x180075330
 	// RVA: 0x4C4AD0 Offset: 0x4C30D0 VA: 0x1804C4AD0
 	public static void ConVar_Pulse(ConsoleSystem.Arg args) { }
 

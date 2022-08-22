@@ -11,7 +11,7 @@ public class JunkPile : BaseEntity // TypeDefIndex: 8592
 	// RVA: 0x67D2C0 Offset: 0x67B8C0 VA: 0x18067D2C0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x67D160 Offset: 0x67B760 VA: 0x18067D160
 	public void CLIENT_StartSink(BaseEntity.RPCMessage msg) { }
 

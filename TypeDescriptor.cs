@@ -12,13 +12,13 @@ public sealed class TypeDescriptor // TypeDefIndex: 2758
 	private static readonly Guid[] _pipelineFilterKeys; // 0x40
 	private static readonly Guid[] _pipelineAttributeFilterKeys; // 0x48
 	private static object _internalSyncObject; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static RefreshEventHandler Refreshed; // 0x58
 
 	// Properties
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	public static Type ComObjectType { get; }
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	public static Type InterfaceType { get; }
 	internal static int MetadataVersion { get; }
 
@@ -33,7 +33,7 @@ public sealed class TypeDescriptor // TypeDefIndex: 2758
 	// RVA: 0x17411C0 Offset: 0x173F7C0 VA: 0x1817411C0
 	internal static int get_MetadataVersion() { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	// RVA: 0x173A5F0 Offset: 0x1738BF0 VA: 0x18173A5F0
 	public static void AddProvider(TypeDescriptionProvider provider, Type type) { }
 
@@ -46,7 +46,7 @@ public sealed class TypeDescriptor // TypeDefIndex: 2758
 	// RVA: 0x173B1B0 Offset: 0x17397B0 VA: 0x18173B1B0
 	private static ArrayList FilterMembers(IList members, Attribute[] attributes) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	// RVA: 0x173B3D0 Offset: 0x17399D0 VA: 0x18173B3D0
 	public static object GetAssociation(Type type, object primary) { }
 
@@ -56,7 +56,7 @@ public sealed class TypeDescriptor // TypeDefIndex: 2758
 	// RVA: 0x173B850 Offset: 0x1739E50 VA: 0x18173B850
 	public static AttributeCollection GetAttributes(object component) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	// RVA: 0x173B980 Offset: 0x1739F80 VA: 0x18173B980
 	public static AttributeCollection GetAttributes(object component, bool noCustomTypeDesc) { }
 
@@ -84,7 +84,7 @@ public sealed class TypeDescriptor // TypeDefIndex: 2758
 	// RVA: 0x173CB90 Offset: 0x173B190 VA: 0x18173CB90
 	public static PropertyDescriptorCollection GetProperties(object component) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	// RVA: 0x173CB20 Offset: 0x173B120 VA: 0x18173CB20
 	public static PropertyDescriptorCollection GetProperties(object component, bool noCustomTypeDesc) { }
 
@@ -94,7 +94,7 @@ public sealed class TypeDescriptor // TypeDefIndex: 2758
 	// RVA: 0x173CC40 Offset: 0x173B240 VA: 0x18173CC40
 	internal static TypeDescriptionProvider GetProviderRecursive(Type type) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
 	// RVA: 0x173CCA0 Offset: 0x173B2A0 VA: 0x18173CCA0
 	public static Type GetReflectionType(Type type) { }
 
@@ -262,22 +262,22 @@ private struct TypeDescriptor.TypeDescriptionNode.DefaultExtendedTypeDescriptor 
 
 	// Methods
 
-	// RVA: 0xF5AD0 Offset: 0xF4ED0 VA: 0x1800F5AD0
+	// RVA: 0xF5A50 Offset: 0xF4E50 VA: 0x1800F5A50
 	internal void .ctor(TypeDescriptor.TypeDescriptionNode node, object instance) { }
 
-	// RVA: 0x207A60 Offset: 0x206E60 VA: 0x180207A60 Slot: 4
+	// RVA: 0x2079E0 Offset: 0x206DE0 VA: 0x1802079E0 Slot: 4
 	private AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes() { }
 
-	// RVA: 0x207A70 Offset: 0x206E70 VA: 0x180207A70 Slot: 5
+	// RVA: 0x2079F0 Offset: 0x206DF0 VA: 0x1802079F0 Slot: 5
 	private TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter() { }
 
-	// RVA: 0x207A90 Offset: 0x206E90 VA: 0x180207A90 Slot: 6
+	// RVA: 0x207A10 Offset: 0x206E10 VA: 0x180207A10 Slot: 6
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties() { }
 
-	// RVA: 0x207A80 Offset: 0x206E80 VA: 0x180207A80 Slot: 7
+	// RVA: 0x207A00 Offset: 0x206E00 VA: 0x180207A00 Slot: 7
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties(Attribute[] attributes) { }
 
-	// RVA: 0x207AA0 Offset: 0x206EA0 VA: 0x180207AA0 Slot: 8
+	// RVA: 0x207A20 Offset: 0x206E20 VA: 0x180207A20 Slot: 8
 	private object System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(PropertyDescriptor pd) { }
 
 }
@@ -290,22 +290,22 @@ private struct TypeDescriptor.TypeDescriptionNode.DefaultTypeDescriptor : ICusto
 
 	// Methods
 
-	// RVA: 0xF5CF0 Offset: 0xF50F0 VA: 0x1800F5CF0
+	// RVA: 0xF5C70 Offset: 0xF5070 VA: 0x1800F5C70
 	internal void .ctor(TypeDescriptor.TypeDescriptionNode node, Type objectType, object instance) { }
 
-	// RVA: 0x207AD0 Offset: 0x206ED0 VA: 0x180207AD0 Slot: 4
+	// RVA: 0x207A50 Offset: 0x206E50 VA: 0x180207A50 Slot: 4
 	private AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes() { }
 
-	// RVA: 0x207AE0 Offset: 0x206EE0 VA: 0x180207AE0 Slot: 5
+	// RVA: 0x207A60 Offset: 0x206E60 VA: 0x180207A60 Slot: 5
 	private TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter() { }
 
-	// RVA: 0x207B00 Offset: 0x206F00 VA: 0x180207B00 Slot: 6
+	// RVA: 0x207A80 Offset: 0x206E80 VA: 0x180207A80 Slot: 6
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties() { }
 
-	// RVA: 0x207AF0 Offset: 0x206EF0 VA: 0x180207AF0 Slot: 7
+	// RVA: 0x207A70 Offset: 0x206E70 VA: 0x180207A70 Slot: 7
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties(Attribute[] attributes) { }
 
-	// RVA: 0x207B10 Offset: 0x206F10 VA: 0x180207B10 Slot: 8
+	// RVA: 0x207A90 Offset: 0x206E90 VA: 0x180207A90 Slot: 8
 	private object System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(PropertyDescriptor pd) { }
 
 }

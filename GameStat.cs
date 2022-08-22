@@ -33,7 +33,7 @@ public class GameStat : MonoBehaviour // TypeDefIndex: 10930
 	// RVA: 0x75CFD0 Offset: 0x75B5D0 VA: 0x18075CFD0
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x75CE50 Offset: 0x75B450 VA: 0x18075CE50
 	private bool <Refresh>b__14_0(GameStat.Stat x) { }
 

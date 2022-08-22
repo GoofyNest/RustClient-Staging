@@ -254,94 +254,94 @@ public class BigInteger // TypeDefIndex: 1763
 
 	// Methods
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x1AB03B0 Offset: 0x1AAE9B0 VA: 0x181AB03B0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x1AB01F0 Offset: 0x1AAE7F0 VA: 0x181AB01F0
 	public void .ctor(BigInteger.Sign sign, uint len) { }
 
-	// RVA: 0x1AB0260 Offset: 0x1AAE860 VA: 0x181AB0260
+	// RVA: 0x1AB00A0 Offset: 0x1AAE6A0 VA: 0x181AB00A0
 	public void .ctor(BigInteger bi) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x1AB0180 Offset: 0x1AAE780 VA: 0x181AB0180
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x1AAFFC0 Offset: 0x1AAE5C0 VA: 0x181AAFFC0
 	public void .ctor(BigInteger bi, uint len) { }
 
-	// RVA: 0x1AAFE00 Offset: 0x1AAE400 VA: 0x181AAFE00
+	// RVA: 0x1AAFC40 Offset: 0x1AAE240 VA: 0x181AAFC40
 	public void .ctor(byte[] inData) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x1AB0320 Offset: 0x1AAE920 VA: 0x181AB0320
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x1AB0160 Offset: 0x1AAE760 VA: 0x181AB0160
 	public void .ctor(uint ui) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x1AB0620 Offset: 0x1AAEC20 VA: 0x181AB0620
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x1AB0460 Offset: 0x1AAEA60 VA: 0x181AB0460
 	public static BigInteger op_Implicit(uint value) { }
 
-	// RVA: 0x1AB0680 Offset: 0x1AAEC80 VA: 0x181AB0680
+	// RVA: 0x1AB04C0 Offset: 0x1AAEAC0 VA: 0x181AB04C0
 	public static BigInteger op_Implicit(int value) { }
 
-	// RVA: 0x1AB0B20 Offset: 0x1AAF120 VA: 0x181AB0B20
+	// RVA: 0x1AB0960 Offset: 0x1AAEF60 VA: 0x181AB0960
 	public static BigInteger op_Subtraction(BigInteger bi1, BigInteger bi2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x163BE50 Offset: 0x163A450 VA: 0x18163BE50
 	public static uint op_Modulus(BigInteger bi, uint ui) { }
 
-	// RVA: 0x1AB07F0 Offset: 0x1AAEDF0 VA: 0x181AB07F0
+	// RVA: 0x1AB0630 Offset: 0x1AAEC30 VA: 0x181AB0630
 	public static BigInteger op_Modulus(BigInteger bi1, BigInteger bi2) { }
 
-	// RVA: 0x1AB0510 Offset: 0x1AAEB10 VA: 0x181AB0510
+	// RVA: 0x1AB0350 Offset: 0x1AAE950 VA: 0x181AB0350
 	public static BigInteger op_Division(BigInteger bi1, BigInteger bi2) { }
 
-	// RVA: 0x1AB0830 Offset: 0x1AAEE30 VA: 0x181AB0830
+	// RVA: 0x1AB0670 Offset: 0x1AAEC70 VA: 0x181AB0670
 	public static BigInteger op_Multiply(BigInteger bi1, BigInteger bi2) { }
 
-	// RVA: 0x1AB07E0 Offset: 0x1AAEDE0 VA: 0x181AB07E0
+	// RVA: 0x1AB0620 Offset: 0x1AAEC20 VA: 0x181AB0620
 	public static BigInteger op_LeftShift(BigInteger bi1, int shiftVal) { }
 
-	// RVA: 0x1AB0B10 Offset: 0x1AAF110 VA: 0x181AB0B10
+	// RVA: 0x1AB0950 Offset: 0x1AAEF50 VA: 0x181AB0950
 	public static BigInteger op_RightShift(BigInteger bi1, int shiftVal) { }
 
-	// RVA: 0x1AB0420 Offset: 0x1AAEA20 VA: 0x181AB0420
+	// RVA: 0x1AB0260 Offset: 0x1AAE860 VA: 0x181AB0260
 	private static RandomNumberGenerator get_Rng() { }
 
-	// RVA: 0x1AAF3C0 Offset: 0x1AAD9C0 VA: 0x181AAF3C0
+	// RVA: 0x1AAF200 Offset: 0x1AAD800 VA: 0x181AAF200
 	public static BigInteger GenerateRandom(int bits, RandomNumberGenerator rng) { }
 
-	// RVA: 0x1AAF290 Offset: 0x1AAD890 VA: 0x181AAF290
+	// RVA: 0x1AAF0D0 Offset: 0x1AAD6D0 VA: 0x181AAF0D0
 	public static BigInteger GenerateRandom(int bits) { }
 
 	// RVA: 0x1639A10 Offset: 0x1638010 VA: 0x181639A10
 	public int BitCount() { }
 
-	// RVA: 0x1AAF900 Offset: 0x1AADF00 VA: 0x181AAF900
+	// RVA: 0x1AAF740 Offset: 0x1AADD40 VA: 0x181AAF740
 	public bool TestBit(int bitNum) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x163AD00 Offset: 0x1639300 VA: 0x18163AD00
 	public void SetBit(uint bitNum) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x163AC80 Offset: 0x1639280 VA: 0x18163AC80
 	public void SetBit(uint bitNum, bool value) { }
 
-	// RVA: 0x1AAF7C0 Offset: 0x1AADDC0 VA: 0x181AAF7C0
+	// RVA: 0x1AAF600 Offset: 0x1AADC00 VA: 0x181AAF600
 	public int LowestSetBit() { }
 
-	// RVA: 0x1AAF5F0 Offset: 0x1AADBF0 VA: 0x181AAF5F0
+	// RVA: 0x1AAF430 Offset: 0x1AADA30 VA: 0x181AAF430
 	public byte[] GetBytes() { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x163B9F0 Offset: 0x1639FF0 VA: 0x18163B9F0
 	public static bool op_Equality(BigInteger bi1, uint ui) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
 	// RVA: 0x163BD60 Offset: 0x163A360 VA: 0x18163BD60
 	public static bool op_Inequality(BigInteger bi1, uint ui) { }
 
-	// RVA: 0x1AB0550 Offset: 0x1AAEB50 VA: 0x181AB0550
+	// RVA: 0x1AB0390 Offset: 0x1AAE990 VA: 0x181AB0390
 	public static bool op_Equality(BigInteger bi1, BigInteger bi2) { }
 
-	// RVA: 0x1AB0710 Offset: 0x1AAED10 VA: 0x181AB0710
+	// RVA: 0x1AB0550 Offset: 0x1AAEB50 VA: 0x181AB0550
 	public static bool op_Inequality(BigInteger bi1, BigInteger bi2) { }
 
 	// RVA: 0x163BB80 Offset: 0x163A180 VA: 0x18163BB80
@@ -356,12 +356,12 @@ public class BigInteger // TypeDefIndex: 1763
 	// RVA: 0x163BE10 Offset: 0x163A410 VA: 0x18163BE10
 	public static bool op_LessThanOrEqual(BigInteger bi1, BigInteger bi2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x1AAF9B0 Offset: 0x1AADFB0 VA: 0x181AAF9B0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x1AAF7F0 Offset: 0x1AADDF0 VA: 0x181AAF7F0
 	public string ToString(uint radix) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x1AAFA40 Offset: 0x1AAE040 VA: 0x181AAFA40
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x1AAF880 Offset: 0x1AADE80 VA: 0x181AAF880
 	public string ToString(uint radix, string characterSet) { }
 
 	// RVA: 0x163A930 Offset: 0x1638F30 VA: 0x18163A930
@@ -370,22 +370,22 @@ public class BigInteger // TypeDefIndex: 1763
 	// RVA: 0x163A370 Offset: 0x1638970 VA: 0x18163A370 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1AAFA00 Offset: 0x1AAE000 VA: 0x181AAFA00 Slot: 3
+	// RVA: 0x1AAF840 Offset: 0x1AADE40 VA: 0x181AAF840 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1AAEEC0 Offset: 0x1AAD4C0 VA: 0x181AAEEC0 Slot: 0
+	// RVA: 0x1AAED00 Offset: 0x1AAD300 VA: 0x181AAED00 Slot: 0
 	public override bool Equals(object o) { }
 
-	// RVA: 0x1AAF8F0 Offset: 0x1AADEF0 VA: 0x181AAF8F0
+	// RVA: 0x1AAF730 Offset: 0x1AADD30 VA: 0x181AAF730
 	public BigInteger ModInverse(BigInteger modulus) { }
 
-	// RVA: 0x1AAF220 Offset: 0x1AAD820 VA: 0x181AAF220
+	// RVA: 0x1AAF060 Offset: 0x1AAD660 VA: 0x181AAF060
 	public static BigInteger GeneratePseudoPrime(int bits) { }
 
 	// RVA: 0x163A3C0 Offset: 0x16389C0 VA: 0x18163A3C0
 	public void Incr2() { }
 
-	// RVA: 0x1AAFD90 Offset: 0x1AAE390 VA: 0x181AAFD90
+	// RVA: 0x1AAFBD0 Offset: 0x1AAE1D0 VA: 0x181AAFBD0
 	private static void .cctor() { }
 
 }
@@ -406,23 +406,23 @@ public sealed class BigInteger.ModulusRing // TypeDefIndex: 1765
 
 	// Methods
 
-	// RVA: 0x1AB9320 Offset: 0x1AB7920 VA: 0x181AB9320
+	// RVA: 0x1AB9160 Offset: 0x1AB7760 VA: 0x181AB9160
 	public void .ctor(BigInteger modulus) { }
 
-	// RVA: 0x1AB8650 Offset: 0x1AB6C50 VA: 0x181AB8650
+	// RVA: 0x1AB8490 Offset: 0x1AB6A90 VA: 0x181AB8490
 	public void BarrettReduction(BigInteger x) { }
 
-	// RVA: 0x1AB8DC0 Offset: 0x1AB73C0 VA: 0x181AB8DC0
+	// RVA: 0x1AB8C00 Offset: 0x1AB7200 VA: 0x181AB8C00
 	public BigInteger Multiply(BigInteger a, BigInteger b) { }
 
-	// RVA: 0x1AB8B70 Offset: 0x1AB7170 VA: 0x181AB8B70
+	// RVA: 0x1AB89B0 Offset: 0x1AB6FB0 VA: 0x181AB89B0
 	public BigInteger Difference(BigInteger a, BigInteger b) { }
 
-	// RVA: 0x1AB90D0 Offset: 0x1AB76D0 VA: 0x181AB90D0
+	// RVA: 0x1AB8F10 Offset: 0x1AB7510 VA: 0x181AB8F10
 	public BigInteger Pow(BigInteger a, BigInteger k) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x1AB92A0 Offset: 0x1AB78A0 VA: 0x181AB92A0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x1AB90E0 Offset: 0x1AB76E0 VA: 0x181AB90E0
 	public BigInteger Pow(uint b, BigInteger exp) { }
 
 }
@@ -430,7 +430,7 @@ public sealed class BigInteger.ModulusRing // TypeDefIndex: 1765
 private sealed class BigInteger.Kernel // TypeDefIndex: 1766
 {	// Methods
 
-	// RVA: 0x1AB5D50 Offset: 0x1AB4350 VA: 0x181AB5D50
+	// RVA: 0x1AB5B90 Offset: 0x1AB4190 VA: 0x181AB5B90
 	public static BigInteger Subtract(BigInteger big, BigInteger small) { }
 
 	// RVA: 0x163D8D0 Offset: 0x163BED0 VA: 0x18163D8D0
@@ -448,16 +448,16 @@ private sealed class BigInteger.Kernel // TypeDefIndex: 1766
 	// RVA: 0x163BE50 Offset: 0x163A450 VA: 0x18163BE50
 	public static uint DwordMod(BigInteger n, uint d) { }
 
-	// RVA: 0x1AB54A0 Offset: 0x1AB3AA0 VA: 0x181AB54A0
+	// RVA: 0x1AB52E0 Offset: 0x1AB38E0 VA: 0x181AB52E0
 	public static BigInteger[] DwordDivMod(BigInteger n, uint d) { }
 
-	// RVA: 0x1AB6C00 Offset: 0x1AB5200 VA: 0x181AB6C00
+	// RVA: 0x1AB6A40 Offset: 0x1AB5040 VA: 0x181AB6A40
 	public static BigInteger[] multiByteDivide(BigInteger bi1, BigInteger bi2) { }
 
-	// RVA: 0x1AB57C0 Offset: 0x1AB3DC0 VA: 0x181AB57C0
+	// RVA: 0x1AB5600 Offset: 0x1AB3C00 VA: 0x181AB5600
 	public static BigInteger LeftShift(BigInteger bi, int n) { }
 
-	// RVA: 0x1AB5AE0 Offset: 0x1AB40E0 VA: 0x181AB5AE0
+	// RVA: 0x1AB5920 Offset: 0x1AB3F20 VA: 0x181AB5920
 	public static BigInteger RightShift(BigInteger bi, int n) { }
 
 	// RVA: 0x163DD30 Offset: 0x163C330 VA: 0x18163DD30
@@ -466,10 +466,10 @@ private sealed class BigInteger.Kernel // TypeDefIndex: 1766
 	// RVA: 0x163DC10 Offset: 0x163C210 VA: 0x18163DC10
 	public static void MultiplyMod2p32pmod(uint[] x, int xOffset, int xLen, uint[] y, int yOffest, int yLen, uint[] d, int dOffset, int mod) { }
 
-	// RVA: 0x1AB6010 Offset: 0x1AB4610 VA: 0x181AB6010
+	// RVA: 0x1AB5E50 Offset: 0x1AB4450 VA: 0x181AB5E50
 	public static uint modInverse(BigInteger bi, uint modulus) { }
 
-	// RVA: 0x1AB6140 Offset: 0x1AB4740 VA: 0x181AB6140
+	// RVA: 0x1AB5F80 Offset: 0x1AB4580 VA: 0x181AB5F80
 	public static BigInteger modInverse(BigInteger bi, BigInteger modulus) { }
 
 }
@@ -490,189 +490,189 @@ public struct BigInteger : IFormattable, IComparable, IComparable<BigInteger>, I
 
 	// Methods
 
-	// RVA: 0x237C60 Offset: 0x237060 VA: 0x180237C60
+	// RVA: 0x237BE0 Offset: 0x236FE0 VA: 0x180237BE0
 	public void .ctor(int value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x237C70 Offset: 0x237070 VA: 0x180237C70
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x237BF0 Offset: 0x236FF0 VA: 0x180237BF0
 	public void .ctor(uint value) { }
 
-	// RVA: 0x237C40 Offset: 0x237040 VA: 0x180237C40
+	// RVA: 0x237BC0 Offset: 0x236FC0 VA: 0x180237BC0
 	public void .ctor(long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x237C50 Offset: 0x237050 VA: 0x180237C50
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x237BD0 Offset: 0x236FD0 VA: 0x180237BD0
 	public void .ctor(ulong value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x237B80 Offset: 0x236F80 VA: 0x180237B80
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x237B00 Offset: 0x236F00 VA: 0x180237B00
 	public void .ctor(byte[] value) { }
 
-	// RVA: 0x237C90 Offset: 0x237090 VA: 0x180237C90
+	// RVA: 0x237C10 Offset: 0x237010 VA: 0x180237C10
 	public void .ctor(ReadOnlySpan<byte> value) { }
 
-	// RVA: 0xFCB60 Offset: 0xFBF60 VA: 0x1800FCB60
+	// RVA: 0xFCAE0 Offset: 0xFBEE0 VA: 0x1800FCAE0
 	internal void .ctor(int n, uint[] rgu) { }
 
-	// RVA: 0x237C80 Offset: 0x237080 VA: 0x180237C80
+	// RVA: 0x237C00 Offset: 0x237000 VA: 0x180237C00
 	internal void .ctor(uint[] value, bool negative) { }
 
-	// RVA: 0x2230370 Offset: 0x222E970 VA: 0x182230370
+	// RVA: 0x22301B0 Offset: 0x222E7B0 VA: 0x1822301B0
 	public static BigInteger get_Zero() { }
 
-	// RVA: 0x237CC0 Offset: 0x2370C0 VA: 0x180237CC0
+	// RVA: 0x237C40 Offset: 0x237040 VA: 0x180237C40
 	public bool get_IsZero() { }
 
-	// RVA: 0x222EC90 Offset: 0x222D290 VA: 0x18222EC90
+	// RVA: 0x222EAD0 Offset: 0x222D0D0 VA: 0x18222EAD0
 	public static BigInteger Parse(string value, IFormatProvider provider) { }
 
-	// RVA: 0x222ED30 Offset: 0x222D330 VA: 0x18222ED30
+	// RVA: 0x222EB70 Offset: 0x222D170 VA: 0x18222EB70
 	public static BigInteger Parse(string value, NumberStyles style, IFormatProvider provider) { }
 
-	// RVA: 0x237A10 Offset: 0x236E10 VA: 0x180237A10 Slot: 2
+	// RVA: 0x237990 Offset: 0x236D90 VA: 0x180237990 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x237970 Offset: 0x236D70 VA: 0x180237970 Slot: 0
+	// RVA: 0x2378F0 Offset: 0x236CF0 VA: 0x1802378F0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x237960 Offset: 0x236D60 VA: 0x180237960
+	// RVA: 0x2378E0 Offset: 0x236CE0 VA: 0x1802378E0
 	public bool Equals(long other) { }
 
-	// RVA: 0x237940 Offset: 0x236D40 VA: 0x180237940 Slot: 7
+	// RVA: 0x2378C0 Offset: 0x236CC0 VA: 0x1802378C0 Slot: 7
 	public bool Equals(BigInteger other) { }
 
-	// RVA: 0x237930 Offset: 0x236D30 VA: 0x180237930
+	// RVA: 0x2378B0 Offset: 0x236CB0 VA: 0x1802378B0
 	public int CompareTo(long other) { }
 
-	// RVA: 0x237910 Offset: 0x236D10 VA: 0x180237910 Slot: 6
+	// RVA: 0x237890 Offset: 0x236C90 VA: 0x180237890 Slot: 6
 	public int CompareTo(BigInteger other) { }
 
-	// RVA: 0x237840 Offset: 0x236C40 VA: 0x180237840 Slot: 5
+	// RVA: 0x2377C0 Offset: 0x236BC0 VA: 0x1802377C0 Slot: 5
 	public int CompareTo(object obj) { }
 
-	// RVA: 0x237A70 Offset: 0x236E70 VA: 0x180237A70
+	// RVA: 0x2379F0 Offset: 0x236DF0 VA: 0x1802379F0
 	public byte[] ToByteArray() { }
 
-	// RVA: 0x237B40 Offset: 0x236F40 VA: 0x180237B40
+	// RVA: 0x237AC0 Offset: 0x236EC0 VA: 0x180237AC0
 	private byte[] TryGetBytes(BigInteger.GetBytesMode mode, Span<byte> destination, ref int bytesWritten) { }
 
-	// RVA: 0x237AC0 Offset: 0x236EC0 VA: 0x180237AC0 Slot: 3
+	// RVA: 0x237A40 Offset: 0x236E40 VA: 0x180237A40 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x237B00 Offset: 0x236F00 VA: 0x180237B00 Slot: 4
+	// RVA: 0x237A80 Offset: 0x236E80 VA: 0x180237A80 Slot: 4
 	public string ToString(string format, IFormatProvider provider) { }
 
-	// RVA: 0x222E500 Offset: 0x222CB00 VA: 0x18222E500
+	// RVA: 0x222E340 Offset: 0x222C940 VA: 0x18222E340
 	private static BigInteger Add(uint[] leftBits, int leftSign, uint[] rightBits, int rightSign) { }
 
-	// RVA: 0x2231800 Offset: 0x222FE00 VA: 0x182231800
+	// RVA: 0x2231640 Offset: 0x222FC40 VA: 0x182231640
 	public static BigInteger op_Subtraction(BigInteger left, BigInteger right) { }
 
-	// RVA: 0x222ED90 Offset: 0x222D390 VA: 0x18222ED90
+	// RVA: 0x222EBD0 Offset: 0x222D1D0 VA: 0x18222EBD0
 	private static BigInteger Subtract(uint[] leftBits, int leftSign, uint[] rightBits, int rightSign) { }
 
-	// RVA: 0x2231310 Offset: 0x222F910 VA: 0x182231310
+	// RVA: 0x2231150 Offset: 0x222F750 VA: 0x182231150
 	public static BigInteger op_Implicit(byte value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x2231240 Offset: 0x222F840 VA: 0x182231240
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x2231080 Offset: 0x222F680 VA: 0x182231080
 	public static BigInteger op_Implicit(sbyte value) { }
 
-	// RVA: 0x2231290 Offset: 0x222F890 VA: 0x182231290
+	// RVA: 0x22310D0 Offset: 0x222F6D0 VA: 0x1822310D0
 	public static BigInteger op_Implicit(short value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x22312C0 Offset: 0x222F8C0 VA: 0x1822312C0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x2231100 Offset: 0x222F700 VA: 0x182231100
 	public static BigInteger op_Implicit(ushort value) { }
 
-	// RVA: 0x2231340 Offset: 0x222F940 VA: 0x182231340
+	// RVA: 0x2231180 Offset: 0x222F780 VA: 0x182231180
 	public static BigInteger op_Implicit(int value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x2231220 Offset: 0x222F820 VA: 0x182231220
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x2231060 Offset: 0x222F660 VA: 0x182231060
 	public static BigInteger op_Implicit(uint value) { }
 
-	// RVA: 0x2231270 Offset: 0x222F870 VA: 0x182231270
+	// RVA: 0x22310B0 Offset: 0x222F6B0 VA: 0x1822310B0
 	public static BigInteger op_Implicit(long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x22312F0 Offset: 0x222F8F0 VA: 0x1822312F0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x2231130 Offset: 0x222F730 VA: 0x182231130
 	public static BigInteger op_Implicit(ulong value) { }
 
-	// RVA: 0x2231050 Offset: 0x222F650 VA: 0x182231050
+	// RVA: 0x2230E90 Offset: 0x222F490 VA: 0x182230E90
 	public static byte op_Explicit(BigInteger value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x2230B40 Offset: 0x222F140 VA: 0x182230B40
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x2230980 Offset: 0x222EF80 VA: 0x182230980
 	public static sbyte op_Explicit(BigInteger value) { }
 
-	// RVA: 0x2230D40 Offset: 0x222F340 VA: 0x182230D40
+	// RVA: 0x2230B80 Offset: 0x222F180 VA: 0x182230B80
 	public static short op_Explicit(BigInteger value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x2230AC0 Offset: 0x222F0C0 VA: 0x182230AC0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x2230900 Offset: 0x222EF00 VA: 0x182230900
 	public static ushort op_Explicit(BigInteger value) { }
 
-	// RVA: 0x2230940 Offset: 0x222EF40 VA: 0x182230940
+	// RVA: 0x2230780 Offset: 0x222ED80 VA: 0x182230780
 	public static int op_Explicit(BigInteger value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x2230DC0 Offset: 0x222F3C0 VA: 0x182230DC0
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x2230C00 Offset: 0x222F200 VA: 0x182230C00
 	public static uint op_Explicit(BigInteger value) { }
 
-	// RVA: 0x2230670 Offset: 0x222EC70 VA: 0x182230670
+	// RVA: 0x22304B0 Offset: 0x222EAB0 VA: 0x1822304B0
 	public static long op_Explicit(BigInteger value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F3E0 Offset: 0x6E7E0 VA: 0x18006F3E0
-	// RVA: 0x2230800 Offset: 0x222EE00 VA: 0x182230800
+	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	// RVA: 0x2230640 Offset: 0x222EC40 VA: 0x182230640
 	public static ulong op_Explicit(BigInteger value) { }
 
-	// RVA: 0x2230BC0 Offset: 0x222F1C0 VA: 0x182230BC0
+	// RVA: 0x2230A00 Offset: 0x222F000 VA: 0x182230A00
 	public static float op_Explicit(BigInteger value) { }
 
-	// RVA: 0x22310D0 Offset: 0x222F6D0 VA: 0x1822310D0
+	// RVA: 0x2230F10 Offset: 0x222F510 VA: 0x182230F10
 	public static double op_Explicit(BigInteger value) { }
 
-	// RVA: 0x2230E90 Offset: 0x222F490 VA: 0x182230E90
+	// RVA: 0x2230CD0 Offset: 0x222F2D0 VA: 0x182230CD0
 	public static Decimal op_Explicit(BigInteger value) { }
 
-	// RVA: 0x2231A70 Offset: 0x2230070 VA: 0x182231A70
+	// RVA: 0x22318B0 Offset: 0x222FEB0 VA: 0x1822318B0
 	public static BigInteger op_UnaryNegation(BigInteger value) { }
 
-	// RVA: 0x22303E0 Offset: 0x222E9E0 VA: 0x1822303E0
+	// RVA: 0x2230220 Offset: 0x222E820 VA: 0x182230220
 	public static BigInteger op_Addition(BigInteger left, BigInteger right) { }
 
-	// RVA: 0x2231460 Offset: 0x222FA60 VA: 0x182231460
+	// RVA: 0x22312A0 Offset: 0x222F8A0 VA: 0x1822312A0
 	public static BigInteger op_Multiply(BigInteger left, BigInteger right) { }
 
-	// RVA: 0x22313B0 Offset: 0x222F9B0 VA: 0x1822313B0
+	// RVA: 0x22311F0 Offset: 0x222F7F0 VA: 0x1822311F0
 	public static bool op_LessThanOrEqual(BigInteger left, BigInteger right) { }
 
-	// RVA: 0x2231380 Offset: 0x222F980 VA: 0x182231380
+	// RVA: 0x22311C0 Offset: 0x222F7C0 VA: 0x1822311C0
 	public static bool op_Inequality(BigInteger left, BigInteger right) { }
 
-	// RVA: 0x2231420 Offset: 0x222FA20 VA: 0x182231420
+	// RVA: 0x2231260 Offset: 0x222F860 VA: 0x182231260
 	public static bool op_LessThan(BigInteger left, long right) { }
 
-	// RVA: 0x22313E0 Offset: 0x222F9E0 VA: 0x1822313E0
+	// RVA: 0x2231220 Offset: 0x222F820 VA: 0x182231220
 	public static bool op_LessThanOrEqual(BigInteger left, long right) { }
 
-	// RVA: 0x2230650 Offset: 0x222EC50 VA: 0x182230650
+	// RVA: 0x2230490 Offset: 0x222EA90 VA: 0x182230490
 	public static bool op_Equality(BigInteger left, long right) { }
 
-	// RVA: 0x2231360 Offset: 0x222F960 VA: 0x182231360
+	// RVA: 0x22311A0 Offset: 0x222F7A0 VA: 0x1822311A0
 	public static bool op_Inequality(BigInteger left, long right) { }
 
-	// RVA: 0x2231440 Offset: 0x222FA40 VA: 0x182231440
+	// RVA: 0x2231280 Offset: 0x222F880 VA: 0x182231280
 	public static bool op_LessThan(long left, BigInteger right) { }
 
-	// RVA: 0x2231400 Offset: 0x222FA00 VA: 0x182231400
+	// RVA: 0x2231240 Offset: 0x222F840 VA: 0x182231240
 	public static bool op_LessThanOrEqual(long left, BigInteger right) { }
 
-	// RVA: 0x222EC20 Offset: 0x222D220 VA: 0x18222EC20
+	// RVA: 0x222EA60 Offset: 0x222D060 VA: 0x18222EA60
 	internal static int GetDiffLength(uint[] rgu1, uint[] rgu2, int cu) { }
 
-	// RVA: 0x222F540 Offset: 0x222DB40 VA: 0x18222F540
+	// RVA: 0x222F380 Offset: 0x222D980 VA: 0x18222F380
 	private static void .cctor() { }
 
 }

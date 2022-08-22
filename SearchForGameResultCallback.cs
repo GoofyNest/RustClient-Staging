@@ -14,10 +14,10 @@ internal struct SearchForGameResultCallback_t : ICallbackData // TypeDefIndex: 5
 
 	// Methods
 
-	// RVA: 0x1D7EB0 Offset: 0x1D72B0 VA: 0x1801D7EB0 Slot: 5
+	// RVA: 0x1D7E30 Offset: 0x1D7230 VA: 0x1801D7E30 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7EA0 Offset: 0x1D72A0 VA: 0x1801D7EA0 Slot: 4
+	// RVA: 0x1D7E20 Offset: 0x1D7220 VA: 0x1801D7E20 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x128EDF0 Offset: 0x128D3F0 VA: 0x18128EDF0

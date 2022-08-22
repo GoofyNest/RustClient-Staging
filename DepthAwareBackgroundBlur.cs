@@ -6,10 +6,10 @@ public class DepthAwareBackgroundBlur : DepthOfField // TypeDefIndex: 8177
 
 	// Methods
 
-	// RVA: 0x21DA770 Offset: 0x21D8D70 VA: 0x1821DA770
+	// RVA: 0x21DA5B0 Offset: 0x21D8BB0 VA: 0x1821DA5B0
 	private void Awake() { }
 
-	// RVA: 0x21DA790 Offset: 0x21D8D90 VA: 0x1821DA790
+	// RVA: 0x21DA5D0 Offset: 0x21D8BD0 VA: 0x1821DA5D0
 	public void .ctor() { }
 
 }

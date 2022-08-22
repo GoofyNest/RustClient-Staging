@@ -55,13 +55,13 @@ public class Chat : ConsoleSystem // TypeDefIndex: 11886
 {	// Fields
 	private const float textRange = 50;
 	private const float textVolumeBoost = 0,2;
-	[ServerVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
-	[ClientVar] // RVA: 0x8AB90 Offset: 0x89F90 VA: 0x18008AB90
+	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	public static bool enabled; // 0x0
 	public static Chat.MuteList muted; // 0x8
 
 	// Properties
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static bool muteglobal { get; set; }
 
 	// Methods
@@ -75,23 +75,23 @@ public class Chat : ConsoleSystem // TypeDefIndex: 11886
 	// RVA: 0x6CCCD0 Offset: 0x6CB2D0 VA: 0x1806CCCD0
 	public static void LoadMuteList() { }
 
-	[ClientVar] // RVA: 0x85D70 Offset: 0x85170 VA: 0x180085D70
+	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
 	// RVA: 0x6CD6F0 Offset: 0x6CBCF0 VA: 0x1806CD6F0
 	public static void add(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x85D70 Offset: 0x85170 VA: 0x180085D70
+	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
 	// RVA: 0x6CD460 Offset: 0x6CBA60 VA: 0x1806CD460
 	public static void add2(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x6CDB70 Offset: 0x6CC170 VA: 0x1806CDB70
 	public static void mute(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x6CE1A0 Offset: 0x6CC7A0 VA: 0x1806CE1A0
 	public static void unmute(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x6CDBF0 Offset: 0x6CC1F0 VA: 0x1806CDBF0
 	public static void mutelist(ConsoleSystem.Arg arg) { }
 
@@ -107,15 +107,15 @@ public class Chat : ConsoleSystem // TypeDefIndex: 11886
 	// RVA: 0x6CCC20 Offset: 0x6CB220 VA: 0x1806CCC20
 	public static bool IsSteamIDMuted(ulong id) { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x6CE320 Offset: 0x6CC920 VA: 0x1806CE320
 	public static void unmuteall(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x6CE040 Offset: 0x6CC640 VA: 0x1806CE040
 	public static void open() { }
 
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	// RVA: 0x6CD910 Offset: 0x6CBF10 VA: 0x1806CD910
 	public static void clear() { }
 
@@ -139,17 +139,17 @@ public enum Chat.ChatChannel // TypeDefIndex: 11887
 
 public struct Chat.ChatEntry // TypeDefIndex: 11888
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Chat.ChatChannel <Channel>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Message>k__BackingField; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <UserId>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Username>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string <Color>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private int <Time>k__BackingField; // 0x28
 
 	// Properties
@@ -162,52 +162,52 @@ public struct Chat.ChatEntry // TypeDefIndex: 11888
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF37A0 Offset: 0xF2BA0 VA: 0x1800F37A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3720 Offset: 0xF2B20 VA: 0x1800F3720
 	public Chat.ChatChannel get_Channel() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF38D0 Offset: 0xF2CD0 VA: 0x1800F38D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3850 Offset: 0xF2C50 VA: 0x1800F3850
 	public void set_Channel(Chat.ChatChannel value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3F40 Offset: 0xF3340 VA: 0x1800F3F40
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3EC0 Offset: 0xF32C0 VA: 0x1800F3EC0
 	public string get_Message() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF1520 Offset: 0xF0920 VA: 0x1800F1520
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF14A0 Offset: 0xF08A0 VA: 0x1800F14A0
 	public void set_Message(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3F60 Offset: 0xF3360 VA: 0x1800F3F60
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3EE0 Offset: 0xF32E0 VA: 0x1800F3EE0
 	public string get_UserId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF14F0 Offset: 0xF08F0 VA: 0x1800F14F0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF1470 Offset: 0xF0870 VA: 0x1800F1470
 	public void set_UserId(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3F70 Offset: 0xF3370 VA: 0x1800F3F70
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3EF0 Offset: 0xF32F0 VA: 0x1800F3EF0
 	public string get_Username() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF1500 Offset: 0xF0900 VA: 0x1800F1500
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF1480 Offset: 0xF0880 VA: 0x1800F1480
 	public void set_Username(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF37B0 Offset: 0xF2BB0 VA: 0x1800F37B0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3730 Offset: 0xF2B30 VA: 0x1800F3730
 	public string get_Color() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF1560 Offset: 0xF0960 VA: 0x1800F1560
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF14E0 Offset: 0xF08E0 VA: 0x1800F14E0
 	public void set_Color(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3F50 Offset: 0xF3350 VA: 0x1800F3F50
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3ED0 Offset: 0xF32D0 VA: 0x1800F3ED0
 	public int get_Time() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF3F80 Offset: 0xF3380 VA: 0x1800F3F80
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF3F00 Offset: 0xF3300 VA: 0x1800F3F00
 	public void set_Time(int value) { }
 
 }
@@ -220,7 +220,7 @@ public struct Chat.MuteEntry // TypeDefIndex: 11889
 
 	// Methods
 
-	// RVA: 0xF4190 Offset: 0xF3590 VA: 0x1800F4190
+	// RVA: 0xF4110 Offset: 0xF3510 VA: 0x1800F4110
 	public void .ctor(ulong id, string name) { }
 
 }

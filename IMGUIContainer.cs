@@ -3,22 +3,22 @@ public class IMGUIContainer : VisualElement // TypeDefIndex: 4591
 	private Action m_OnGUIHandler; // 0x160
 	private ObjectGUIState m_ObjectGUIState; // 0x168
 	internal bool useOwnerObjectGUIState; // 0x170
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private Rect <lastWorldClip>k__BackingField; // 0x174
 	private GUILayoutUtility.LayoutCache m_Cache; // 0x188
 	private Rect m_CachedClippingRect; // 0x190
 	private Matrix4x4 m_CachedTransform; // 0x1A0
-	[DebuggerBrowsableAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
-	[CompilerGeneratedAttribute] // RVA: 0x70760 Offset: 0x6FB60 VA: 0x180070760
+	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
 	private ContextType <contextType>k__BackingField; // 0x1E0
 	private bool lostFocus; // 0x1E4
 	private bool receivedFocus; // 0x1E5
 	private FocusChangeDirection focusChangeDirection; // 0x1E8
 	private bool hasFocusableControls; // 0x1F0
 	private int newKeyboardFocusControlID; // 0x1F4
-	[CompilerGeneratedAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
-	[DebuggerBrowsableAttribute] // RVA: 0x708D0 Offset: 0x6FCD0 VA: 0x1800708D0
+	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
 	private bool <focusOnlyIfHasFocusableControls>k__BackingField; // 0x1F8
 	public static readonly string ussClassName; // 0x0
 	private IMGUIContainer.GUIGlobals m_GUIGlobals; // 0x1FC
@@ -41,7 +41,7 @@ public class IMGUIContainer : VisualElement // TypeDefIndex: 4591
 	// RVA: 0xEB1A40 Offset: 0xEB0040 VA: 0x180EB1A40
 	internal ObjectGUIState get_guiState() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xEB1AF0 Offset: 0xEB00F0 VA: 0x180EB1AF0
 	internal Rect get_lastWorldClip() { }
 
@@ -54,11 +54,11 @@ public class IMGUIContainer : VisualElement // TypeDefIndex: 4591
 	// RVA: 0xEB1B00 Offset: 0xEB0100 VA: 0x180EB1B00
 	private float get_layoutMeasuredHeight() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xEB1A30 Offset: 0xEB0030 VA: 0x180EB1A30
 	public ContextType get_contextType() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xDB3FC0 Offset: 0xDB25C0 VA: 0x180DB3FC0
 	internal bool get_focusOnlyIfHasFocusableControls() { }
 

@@ -1,17 +1,17 @@
 public static class Output // TypeDefIndex: 11988
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static Action<string, string, LogType> OnMessage; // 0x0
 	public static bool installed; // 0x8
 	public static List<Output.Entry> HistoryOutput; // 0x10
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x794E70 Offset: 0x793470 VA: 0x180794E70
 	public static void add_OnMessage(Action<string, string, LogType> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x794F60 Offset: 0x793560 VA: 0x180794F60
 	public static void remove_OnMessage(Action<string, string, LogType> value) { }
 

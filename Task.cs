@@ -50,46 +50,46 @@ private sealed class Task.<>c<TResult> // TypeDefIndex: 843
 	internal Task<TResult> <.cctor>b__64_0(Task<Task> completed) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A9DB50 Offset: 0x1A9C150 VA: 0x181A9DB50
+	|-RVA: 0x1AAC1E0 Offset: 0x1AAA7E0 VA: 0x181AAC1E0
 	|-Task.<>c<PublishResult>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A9D890 Offset: 0x1A9BE90 VA: 0x181A9D890
+	|-RVA: 0x1AABF20 Offset: 0x1AAA520 VA: 0x181AABF20
 	|-Task.<>c<bool>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A9DCB0 Offset: 0x1A9C2B0 VA: 0x181A9DCB0
+	|-RVA: 0x1AAC340 Offset: 0x1AAA940 VA: 0x181AAC340
 	|-Task.<>c<int>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A9D5D0 Offset: 0x1A9BBD0 VA: 0x181A9D5D0
+	|-RVA: 0x1AABC60 Offset: 0x1AAA260 VA: 0x181AABC60
 	|-Task.<>c<UdpReceiveResult>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A9D940 Offset: 0x1A9BF40 VA: 0x181A9D940
+	|-RVA: 0x1AABFD0 Offset: 0x1AAA5D0 VA: 0x181AABFD0
 	|-Task.<>c<Nullable<ServerInfo>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A9DE10 Offset: 0x1A9C410 VA: 0x181A9DE10
+	|-RVA: 0x1AAC4A0 Offset: 0x1AAAAA0 VA: 0x181AAC4A0
 	|-Task.<>c<Nullable<Image>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A9D7E0 Offset: 0x1A9BDE0 VA: 0x181A9D7E0
+	|-RVA: 0x1AABE70 Offset: 0x1AAA470 VA: 0x181AABE70
 	|-Task.<>c<Nullable<InventoryPurchaseResult>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A9DEC0 Offset: 0x1A9C4C0 VA: 0x181A9DEC0
+	|-RVA: 0x1AAC550 Offset: 0x1AAAB50 VA: 0x181AAC550
 	|-Task.<>c<Nullable<InventoryResult>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A9D730 Offset: 0x1A9BD30 VA: 0x181A9D730
+	|-RVA: 0x1AABDC0 Offset: 0x1AAA3C0 VA: 0x181AABDC0
 	|-Task.<>c<Nullable<Item>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A9D680 Offset: 0x1A9BC80 VA: 0x181A9D680
+	|-RVA: 0x1AABD10 Offset: 0x1AAA310 VA: 0x181AABD10
 	|-Task.<>c<Nullable<ResultPage>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A9DAA0 Offset: 0x1A9C0A0 VA: 0x181A9DAA0
+	|-RVA: 0x1AAC130 Offset: 0x1AAA730 VA: 0x181AAC130
 	|-Task.<>c<Nullable<int>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A9DD60 Offset: 0x1A9C360 VA: 0x181A9DD60
+	|-RVA: 0x1AAC3F0 Offset: 0x1AAA9F0 VA: 0x181AAC3F0
 	|-Task.<>c<Nullable<Int32Enum>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A9D9F0 Offset: 0x1A9BFF0 VA: 0x181A9D9F0
+	|-RVA: 0x1AAC080 Offset: 0x1AAA680 VA: 0x181AAC080
 	|-Task.<>c<object>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A9DC00 Offset: 0x1A9C200 VA: 0x181A9DC00
+	|-RVA: 0x1AAC290 Offset: 0x1AAA890 VA: 0x181AAC290
 	|-Task.<>c<VoidTaskResult>.<.cctor>b__64_0
 	*/
 
@@ -97,9 +97,9 @@ private sealed class Task.<>c<TResult> // TypeDefIndex: 843
 
 public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefIndex: 853
 {	// Fields
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	internal static Task t_currentTask; // 0x80000000
-	[ThreadStaticAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private static StackGuard t_stackGuard; // 0x80000008
 	internal static int s_taskIdCounter; // 0x0
 	private static readonly TaskFactory s_factory; // 0x8
@@ -129,7 +129,7 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	private const int CANCELLATION_REQUESTED = 1;
 	private object m_continuationObject; // 0x40
 	private static readonly object s_taskCompletionSentinel; // 0x10
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	internal static bool s_asyncDebuggingEnabled; // 0x18
 	private static readonly Dictionary<int, Task> s_currentActiveTasks; // 0x20
 	private static readonly object s_activeTasksLock; // 0x28
@@ -178,11 +178,11 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 
 	// Methods
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x149CB40 Offset: 0x149B140 VA: 0x18149CB40
 	internal static bool AddToActiveTasks(Task task) { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14A15A0 Offset: 0x149FBA0 VA: 0x1814A15A0
 	internal static void RemoveFromActiveTasks(int taskId) { }
 
@@ -573,11 +573,11 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	|-Task.FromException<VoidTaskResult>
 	*/
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x14A01B0 Offset: 0x149E7B0 VA: 0x1814A01B0
 	internal static Task FromCancellation(CancellationToken cancellationToken) { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal static Task<TResult> FromCancellation<TResult>(CancellationToken cancellationToken) { }
 	/* GenericInstMethod :
@@ -688,7 +688,7 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	// RVA: 0x14A2CC0 Offset: 0x14A12C0 VA: 0x1814A2CC0
 	public static Task<Task> WhenAny(Task[] tasks) { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: -1 Offset: -1
 	internal static Task<TResult> CreateUnwrapPromise<TResult>(Task outerTask, bool lookForOce) { }
 	/* GenericInstMethod :

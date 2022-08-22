@@ -42,23 +42,23 @@ public class RustInput : RustControl // TypeDefIndex: 7021
 	// RVA: 0xFCCE50 Offset: 0xFCB450 VA: 0x180FCCE50
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xFCCD10 Offset: 0xFCB310 VA: 0x180FCCD10
 	private void <Awake>b__15_0(string x) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xFCCD70 Offset: 0xFCB370 VA: 0x180FCCD70
 	private void <Awake>b__15_1(string x) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xFCCDD0 Offset: 0xFCB3D0 VA: 0x180FCCDD0
 	private void <Awake>b__15_2(string x) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xFCCE30 Offset: 0xFCB430 VA: 0x180FCCE30
 	private void <Awake>b__15_3(string x) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xFCCE30 Offset: 0xFCB430 VA: 0x180FCCE30
 	private void <Awake>b__15_4(string x) { }
 

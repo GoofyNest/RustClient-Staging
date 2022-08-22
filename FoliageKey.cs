@@ -4,19 +4,19 @@ public struct FoliageKey : IEquatable<FoliageKey> // TypeDefIndex: 9876
 
 	// Methods
 
-	// RVA: 0xF1510 Offset: 0xF0910 VA: 0x1800F1510
+	// RVA: 0xF1490 Offset: 0xF0890 VA: 0x1800F1490
 	public void .ctor(Material material) { }
 
-	// RVA: 0xF4F80 Offset: 0xF4380 VA: 0x1800F4F80
+	// RVA: 0xF4F00 Offset: 0xF4300 VA: 0x1800F4F00
 	public void .ctor(FoliageRenderer renderer) { }
 
-	// RVA: 0xF2D10 Offset: 0xF2110 VA: 0x1800F2D10 Slot: 2
+	// RVA: 0xF2C90 Offset: 0xF2090 VA: 0x1800F2C90 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0xF4EB0 Offset: 0xF42B0 VA: 0x1800F4EB0 Slot: 0
+	// RVA: 0xF4E30 Offset: 0xF4230 VA: 0x1800F4E30 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0xF4E40 Offset: 0xF4240 VA: 0x1800F4E40 Slot: 4
+	// RVA: 0xF4DC0 Offset: 0xF41C0 VA: 0x1800F4DC0 Slot: 4
 	public bool Equals(FoliageKey other) { }
 
 }

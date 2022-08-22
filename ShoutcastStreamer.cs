@@ -2,11 +2,11 @@ public class ShoutcastStreamer : MonoBehaviour, IClientComponent // TypeDefIndex
 {	// Fields
 	public string Host; // 0x18
 	public AudioSource Source; // 0x20
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static int MaxAudioStreams; // 0x0
-	[ClientVar] // RVA: 0x81790 Offset: 0x80B90 VA: 0x180081790
+	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
 	public static bool DebugStreams; // 0x4
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static bool StreamingAnalytics; // 0x5
 	private static bool _allowInternetStreams; // 0x6
 	private static HashSet<ShoutcastStreamer> activeStreams; // 0x8
@@ -15,7 +15,7 @@ public class ShoutcastStreamer : MonoBehaviour, IClientComponent // TypeDefIndex
 	private bool _readingData; // 0x38
 	private AudioClip streamClip; // 0x40
 	private int sampleRate; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private uint <CurrentReadIndex>k__BackingField; // 0x4C
 	private const uint BufferStartCutOff = 81920;
 	private bool canUpdate; // 0x50
@@ -27,7 +27,7 @@ public class ShoutcastStreamer : MonoBehaviour, IClientComponent // TypeDefIndex
 	private float waitUntilBuffer; // 0x68
 
 	// Properties
-	[ClientVar] // RVA: 0x81290 Offset: 0x80690 VA: 0x180081290
+	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
 	public static bool AllowInternetStreams { get; set; }
 	public static int ActiveStreamCount { get; }
 	public uint CurrentReadIndex { get; set; }
@@ -47,11 +47,11 @@ public class ShoutcastStreamer : MonoBehaviour, IClientComponent // TypeDefIndex
 	// RVA: 0x599C10 Offset: 0x598210 VA: 0x180599C10
 	public static int get_ActiveStreamCount() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x599D40 Offset: 0x598340 VA: 0x180599D40
 	public uint get_CurrentReadIndex() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x59A0F0 Offset: 0x5986F0 VA: 0x18059A0F0
 	public void set_CurrentReadIndex(uint value) { }
 
@@ -94,7 +94,7 @@ public class ShoutcastStreamer : MonoBehaviour, IClientComponent // TypeDefIndex
 	// RVA: 0x599D00 Offset: 0x598300 VA: 0x180599D00
 	private float get_BufferedPercentage() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCBFF0 Offset: 0xCB3F0 VA: 0x1800CBFF0
+	[AsyncStateMachineAttribute] // RVA: 0xCC050 Offset: 0xCB450 VA: 0x1800CC050
 	// RVA: 0x5993E0 Offset: 0x5979E0 VA: 0x1805993E0
 	private void ReadData() { }
 
@@ -118,11 +118,11 @@ private struct ShoutcastStreamer.<ReadData>d__46 : IAsyncStateMachine // TypeDef
 
 	// Methods
 
-	// RVA: 0xF3480 Offset: 0xF2880 VA: 0x1800F3480 Slot: 4
+	// RVA: 0xF3400 Offset: 0xF2800 VA: 0x1800F3400 Slot: 4
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
-	// RVA: 0xF15B0 Offset: 0xF09B0 VA: 0x1800F15B0 Slot: 5
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	// RVA: 0xF1530 Offset: 0xF0930 VA: 0x1800F1530 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

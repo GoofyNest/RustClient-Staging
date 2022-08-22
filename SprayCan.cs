@@ -32,12 +32,12 @@ public class SprayCan : HeldEntity // TypeDefIndex: 8641
 	public SteamInventoryItem FreeSprayUnlockItem; // 0x298
 	public ParticleSystem.MinMaxGradient DecalSprayGradient; // 0x2A0
 	public SoundDefinition SprayLoopDef; // 0x2D8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private SprayCan.SprayMode <currentMode>k__BackingField; // 0x2E0
 	private int selectedDecalSkin; // 0x2E4
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static bool UseAccurateMeshSnapping; // 0x18
-	[ClientVar] // RVA: 0x71100 Offset: 0x70500 VA: 0x180071100
+	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
 	public static bool DebugMeshSnapping; // 0x19
 	private static int paramAttack; // 0x1C
 	private static int paramAttackHold; // 0x20
@@ -73,7 +73,7 @@ public class SprayCan : HeldEntity // TypeDefIndex: 8641
 	// RVA: 0xA88AF0 Offset: 0xA870F0 VA: 0x180A88AF0
 	public void RegisterInProcessSpray(SprayCanSpray_Freehand spray, List<AlignedLineDrawer.LinePoint> setPoints) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA845A0 Offset: 0xA82BA0 VA: 0x180A845A0
 	private void Client_ChangeSprayColour(BaseEntity.RPCMessage msg) { }
 
@@ -101,11 +101,11 @@ public class SprayCan : HeldEntity // TypeDefIndex: 8641
 	// RVA: 0xA86C60 Offset: 0xA85260 VA: 0x180A86C60
 	private bool IsSprayBlockedByTrigger(Vector3 pos) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x69F190 Offset: 0x69D790 VA: 0x18069F190
 	public SprayCan.SprayMode get_currentMode() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA89F50 Offset: 0xA88550 VA: 0x180A89F50
 	private void set_currentMode(SprayCan.SprayMode value) { }
 
@@ -133,7 +133,7 @@ public class SprayCan : HeldEntity // TypeDefIndex: 8641
 	// RVA: 0xA88460 Offset: 0xA86A60 VA: 0x180A88460 Slot: 144
 	public override void OnViewmodelEvent(string name) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA84750 Offset: 0xA82D50 VA: 0x180A84750
 	private void Client_ReskinResult(BaseEntity.RPCMessage msg) { }
 
@@ -164,23 +164,23 @@ public class SprayCan : HeldEntity // TypeDefIndex: 8641
 	// RVA: 0xA89500 Offset: 0xA87B00 VA: 0x180A89500
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA89230 Offset: 0xA87830 VA: 0x180A89230
 	private void <FreePaintInput>b__20_0(BasePlayer ply) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA89230 Offset: 0xA87830 VA: 0x180A89230
 	private void <FreePaintInput>b__20_2(BasePlayer ply) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA89260 Offset: 0xA87860 VA: 0x180A89260
 	private bool <TrySnapPointToRenderMesh>g__HitPoint|33_0(Renderer forRenderer, out Vector3 trySnapPointToRenderMesh, ref SprayCan.<>c__DisplayClass33_0 ) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA89240 Offset: 0xA87840 VA: 0x180A89240
 	private void <OnInput>b__63_0(BasePlayer ply) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0xA89250 Offset: 0xA87850 VA: 0x180A89250
 	private void <OnInput>b__63_1(BasePlayer ply) { }
 

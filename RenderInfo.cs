@@ -33,7 +33,7 @@ public struct RenderInfo.RendererInstance // TypeDefIndex: 12025
 	// RVA: 0x798A60 Offset: 0x797060 VA: 0x180798A60
 	public static RenderInfo.RendererInstance From(Renderer renderer) { }
 
-	// RVA: 0xF55A0 Offset: 0xF49A0 VA: 0x1800F55A0
+	// RVA: 0xF5520 Offset: 0xF4920 VA: 0x1800F5520
 	public void ReadMesh(Mesh mesh) { }
 
 }

@@ -1,6 +1,6 @@
 public class SoundSource : MonoBehaviour, IClientComponentEx, ILOD, ISoundBudgetedUpdate // TypeDefIndex: 9043
 {	// Fields
-	[HeaderAttribute] // RVA: 0xD0490 Offset: 0xCF890 VA: 0x1800D0490
+	[HeaderAttribute] // RVA: 0xD0520 Offset: 0xCF920 VA: 0x1800D0520
 	public bool handleOcclusionChecks; // 0x18
 	public LayerMask occlusionLayerMask; // 0x1C
 	public List<SoundSource.OcclusionPoint> occlusionPoints; // 0x20

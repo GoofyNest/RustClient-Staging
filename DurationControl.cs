@@ -16,10 +16,10 @@ internal struct DurationControl_t : ICallbackData // TypeDefIndex: 5306
 
 	// Methods
 
-	// RVA: 0x1E5570 Offset: 0x1E4970 VA: 0x1801E5570 Slot: 5
+	// RVA: 0x1E54F0 Offset: 0x1E48F0 VA: 0x1801E54F0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E5560 Offset: 0x1E4960 VA: 0x1801E5560 Slot: 4
+	// RVA: 0x1E54E0 Offset: 0x1E48E0 VA: 0x1801E54E0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
 	// RVA: 0x13700D0 Offset: 0x136E6D0 VA: 0x1813700D0

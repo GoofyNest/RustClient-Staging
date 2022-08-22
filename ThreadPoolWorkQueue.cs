@@ -49,7 +49,7 @@ internal class ThreadPoolWorkQueue.SparseArray<T> // TypeDefIndex: 810
 	internal void .ctor(int initialSize) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A53D40 Offset: 0x1A52340 VA: 0x181A53D40
+	|-RVA: 0x1A53D00 Offset: 0x1A52300 VA: 0x181A53D00
 	|-ThreadPoolWorkQueue.SparseArray<object>..ctor
 	|-ThreadPoolWorkQueue.SparseArray<ThreadPoolWorkQueue.WorkStealingQueue>..ctor
 	*/
@@ -67,7 +67,7 @@ internal class ThreadPoolWorkQueue.SparseArray<T> // TypeDefIndex: 810
 	internal int Add(T e) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A53960 Offset: 0x1A51F60 VA: 0x181A53960
+	|-RVA: 0x1A53920 Offset: 0x1A51F20 VA: 0x181A53920
 	|-ThreadPoolWorkQueue.SparseArray<object>.Add
 	|-ThreadPoolWorkQueue.SparseArray<ThreadPoolWorkQueue.WorkStealingQueue>.Add
 	*/
@@ -76,7 +76,7 @@ internal class ThreadPoolWorkQueue.SparseArray<T> // TypeDefIndex: 810
 	internal void Remove(T e) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A53BC0 Offset: 0x1A521C0 VA: 0x181A53BC0
+	|-RVA: 0x1A53B80 Offset: 0x1A52180 VA: 0x181A53B80
 	|-ThreadPoolWorkQueue.SparseArray<object>.Remove
 	|-ThreadPoolWorkQueue.SparseArray<ThreadPoolWorkQueue.WorkStealingQueue>.Remove
 	*/
@@ -127,7 +127,7 @@ internal class ThreadPoolWorkQueue.QueueSegment // TypeDefIndex: 812
 	// RVA: 0x1606140 Offset: 0x1604740 VA: 0x181606140
 	private bool CompareExchangeIndexes(ref int prevUpper, int newUpper, ref int prevLower, int newLower) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83CE0 Offset: 0x830E0 VA: 0x180083CE0
+	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
 	// RVA: 0x1606480 Offset: 0x1604A80 VA: 0x181606480
 	public void .ctor() { }
 

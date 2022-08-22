@@ -1,26 +1,26 @@
 public sealed class LensDistortion : PostProcessEffectSettings // TypeDefIndex: 11790
 {	// Fields
-	[RangeAttribute] // RVA: 0x716E0 Offset: 0x70AE0 VA: 0x1800716E0
-	[TooltipAttribute] // RVA: 0x716E0 Offset: 0x70AE0 VA: 0x1800716E0
+	[RangeAttribute] // RVA: 0x71810 Offset: 0x70C10 VA: 0x180071810
+	[TooltipAttribute] // RVA: 0x71810 Offset: 0x70C10 VA: 0x180071810
 	public FloatParameter intensity; // 0x30
-	[RangeAttribute] // RVA: 0x71880 Offset: 0x70C80 VA: 0x180071880
-	[DisplayNameAttribute] // RVA: 0x71880 Offset: 0x70C80 VA: 0x180071880
-	[TooltipAttribute] // RVA: 0x71880 Offset: 0x70C80 VA: 0x180071880
+	[RangeAttribute] // RVA: 0x719B0 Offset: 0x70DB0 VA: 0x1800719B0
+	[DisplayNameAttribute] // RVA: 0x719B0 Offset: 0x70DB0 VA: 0x1800719B0
+	[TooltipAttribute] // RVA: 0x719B0 Offset: 0x70DB0 VA: 0x1800719B0
 	public FloatParameter intensityX; // 0x38
-	[RangeAttribute] // RVA: 0x71A40 Offset: 0x70E40 VA: 0x180071A40
-	[DisplayNameAttribute] // RVA: 0x71A40 Offset: 0x70E40 VA: 0x180071A40
-	[TooltipAttribute] // RVA: 0x71A40 Offset: 0x70E40 VA: 0x180071A40
+	[RangeAttribute] // RVA: 0x71B70 Offset: 0x70F70 VA: 0x180071B70
+	[DisplayNameAttribute] // RVA: 0x71B70 Offset: 0x70F70 VA: 0x180071B70
+	[TooltipAttribute] // RVA: 0x71B70 Offset: 0x70F70 VA: 0x180071B70
 	public FloatParameter intensityY; // 0x40
-	[SpaceAttribute] // RVA: 0x71C90 Offset: 0x71090 VA: 0x180071C90
-	[RangeAttribute] // RVA: 0x71C90 Offset: 0x71090 VA: 0x180071C90
-	[TooltipAttribute] // RVA: 0x71C90 Offset: 0x71090 VA: 0x180071C90
+	[SpaceAttribute] // RVA: 0x71E40 Offset: 0x71240 VA: 0x180071E40
+	[RangeAttribute] // RVA: 0x71E40 Offset: 0x71240 VA: 0x180071E40
+	[TooltipAttribute] // RVA: 0x71E40 Offset: 0x71240 VA: 0x180071E40
 	public FloatParameter centerX; // 0x48
-	[RangeAttribute] // RVA: 0x71F20 Offset: 0x71320 VA: 0x180071F20
-	[TooltipAttribute] // RVA: 0x71F20 Offset: 0x71320 VA: 0x180071F20
+	[RangeAttribute] // RVA: 0x720F0 Offset: 0x714F0 VA: 0x1800720F0
+	[TooltipAttribute] // RVA: 0x720F0 Offset: 0x714F0 VA: 0x1800720F0
 	public FloatParameter centerY; // 0x50
-	[SpaceAttribute] // RVA: 0x72170 Offset: 0x71570 VA: 0x180072170
-	[RangeAttribute] // RVA: 0x72170 Offset: 0x71570 VA: 0x180072170
-	[TooltipAttribute] // RVA: 0x72170 Offset: 0x71570 VA: 0x180072170
+	[SpaceAttribute] // RVA: 0x72300 Offset: 0x71700 VA: 0x180072300
+	[RangeAttribute] // RVA: 0x72300 Offset: 0x71700 VA: 0x180072300
+	[TooltipAttribute] // RVA: 0x72300 Offset: 0x71700 VA: 0x180072300
 	public FloatParameter scale; // 0x58
 
 	// Methods

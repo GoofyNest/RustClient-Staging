@@ -28,10 +28,10 @@ public static class Tuple // TypeDefIndex: 135
 	// RVA: 0x1557150 Offset: 0x1555750 VA: 0x181557150
 	internal static int CombineHashCodes(int h1, int h2) { }
 
-	// RVA: 0x213D4E0 Offset: 0x213BAE0 VA: 0x18213D4E0
+	// RVA: 0x213D320 Offset: 0x213B920 VA: 0x18213D320
 	internal static int CombineHashCodes(int h1, int h2, int h3) { }
 
-	// RVA: 0x213D4F0 Offset: 0x213BAF0 VA: 0x18213D4F0
+	// RVA: 0x213D330 Offset: 0x213B930 VA: 0x18213D330
 	internal static int CombineHashCodes(int h1, int h2, int h3, int h4) { }
 
 }

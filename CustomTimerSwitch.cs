@@ -23,10 +23,10 @@ public class CustomTimerSwitch : TimerSwitch // TypeDefIndex: 8377
 	// RVA: 0x6C7C80 Offset: 0x6C6280 VA: 0x1806C7C80
 	public void SendNewTime(float seconds) { }
 
-	[BaseEntity.Menu] // RVA: 0xD6890 Offset: 0xD5C90 VA: 0x1800D6890
-	[BaseEntity.Menu.Description] // RVA: 0xD6890 Offset: 0xD5C90 VA: 0x1800D6890
-	[BaseEntity.Menu.Icon] // RVA: 0xD6890 Offset: 0xD5C90 VA: 0x1800D6890
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD6890 Offset: 0xD5C90 VA: 0x1800D6890
+	[BaseEntity.Menu] // RVA: 0xD6900 Offset: 0xD5D00 VA: 0x1800D6900
+	[BaseEntity.Menu.Description] // RVA: 0xD6900 Offset: 0xD5D00 VA: 0x1800D6900
+	[BaseEntity.Menu.Icon] // RVA: 0xD6900 Offset: 0xD5D00 VA: 0x1800D6900
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD6900 Offset: 0xD5D00 VA: 0x1800D6900
 	// RVA: 0x6C7980 Offset: 0x6C5F80 VA: 0x1806C7980
 	public void Menu_SetTime(BasePlayer player) { }
 

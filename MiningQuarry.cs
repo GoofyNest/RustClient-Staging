@@ -7,13 +7,13 @@ public class MiningQuarry : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 	// Methods
 
-	// RVA: 0x1F4A070 Offset: 0x1F48670 VA: 0x181F4A070
+	// RVA: 0x1F49EB0 Offset: 0x1F484B0 VA: 0x181F49EB0
 	public static void ResetToPool(MiningQuarry instance) { }
 
-	// RVA: 0x1F4A120 Offset: 0x1F48720 VA: 0x181F4A120
+	// RVA: 0x1F49F60 Offset: 0x1F48560 VA: 0x181F49F60
 	public void ResetToPool() { }
 
-	// RVA: 0x1F49F00 Offset: 0x1F48500 VA: 0x181F49F00 Slot: 9
+	// RVA: 0x1F49D40 Offset: 0x1F48340 VA: 0x181F49D40 Slot: 9
 	public virtual void Dispose() { }
 
 	// RVA: 0x10A5B00 Offset: 0x10A4100 VA: 0x1810A5B00 Slot: 10
@@ -22,64 +22,64 @@ public class MiningQuarry : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 	// RVA: 0x10A5B30 Offset: 0x10A4130 VA: 0x1810A5B30 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F49120 Offset: 0x1F47720 VA: 0x181F49120
+	// RVA: 0x1F48F60 Offset: 0x1F47560 VA: 0x181F48F60
 	public void CopyTo(MiningQuarry instance) { }
 
-	// RVA: 0x1F491B0 Offset: 0x1F477B0 VA: 0x181F491B0
+	// RVA: 0x1F48FF0 Offset: 0x1F475F0 VA: 0x181F48FF0
 	public MiningQuarry Copy() { }
 
-	// RVA: 0x1F49D40 Offset: 0x1F48340 VA: 0x181F49D40
+	// RVA: 0x1F49B80 Offset: 0x1F48180 VA: 0x181F49B80
 	public static MiningQuarry Deserialize(Stream stream) { }
 
-	// RVA: 0x1F494F0 Offset: 0x1F47AF0 VA: 0x181F494F0
+	// RVA: 0x1F49330 Offset: 0x1F47930 VA: 0x181F49330
 	public static MiningQuarry DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F497B0 Offset: 0x1F47DB0 VA: 0x181F497B0
+	// RVA: 0x1F495F0 Offset: 0x1F47BF0 VA: 0x181F495F0
 	public static MiningQuarry DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F49840 Offset: 0x1F47E40 VA: 0x181F49840
+	// RVA: 0x1F49680 Offset: 0x1F47C80 VA: 0x181F49680
 	public static MiningQuarry Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F4A030 Offset: 0x1F48630 VA: 0x181F4A030
+	// RVA: 0x1F49E70 Offset: 0x1F48470 VA: 0x181F49E70
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F4A790 Offset: 0x1F48D90 VA: 0x181F4A790 Slot: 12
+	// RVA: 0x1F4A5D0 Offset: 0x1F48BD0 VA: 0x181F4A5D0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F4A7B0 Offset: 0x1F48DB0 VA: 0x181F4A7B0 Slot: 13
+	// RVA: 0x1F4A5F0 Offset: 0x1F48BF0 VA: 0x181F4A5F0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, MiningQuarry previous) { }
 
-	// RVA: 0x1F4A050 Offset: 0x1F48650 VA: 0x181F4A050 Slot: 14
+	// RVA: 0x1F49E90 Offset: 0x1F48490 VA: 0x181F49E90 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F49C40 Offset: 0x1F48240 VA: 0x181F49C40
+	// RVA: 0x1F49A80 Offset: 0x1F48080 VA: 0x181F49A80
 	public static MiningQuarry Deserialize(byte[] buffer, MiningQuarry instance, bool isDelta = False) { }
 
-	// RVA: 0x1F49AB0 Offset: 0x1F480B0 VA: 0x181F49AB0
+	// RVA: 0x1F498F0 Offset: 0x1F47EF0 VA: 0x181F498F0
 	public static MiningQuarry Deserialize(Stream stream, MiningQuarry instance, bool isDelta) { }
 
-	// RVA: 0x1F49280 Offset: 0x1F47880 VA: 0x181F49280
+	// RVA: 0x1F490C0 Offset: 0x1F476C0 VA: 0x181F490C0
 	public static MiningQuarry DeserializeLengthDelimited(Stream stream, MiningQuarry instance, bool isDelta) { }
 
-	// RVA: 0x1F49570 Offset: 0x1F47B70 VA: 0x181F49570
+	// RVA: 0x1F493B0 Offset: 0x1F479B0 VA: 0x181F493B0
 	public static MiningQuarry DeserializeLength(Stream stream, int length, MiningQuarry instance, bool isDelta) { }
 
-	// RVA: 0x1F4A1D0 Offset: 0x1F487D0 VA: 0x181F4A1D0
+	// RVA: 0x1F4A010 Offset: 0x1F48610 VA: 0x181F4A010
 	public static void SerializeDelta(Stream stream, MiningQuarry instance, MiningQuarry previous) { }
 
-	// RVA: 0x1F4A5A0 Offset: 0x1F48BA0 VA: 0x181F4A5A0
+	// RVA: 0x1F4A3E0 Offset: 0x1F489E0 VA: 0x181F4A3E0
 	public static void Serialize(Stream stream, MiningQuarry instance) { }
 
-	// RVA: 0x1F4A780 Offset: 0x1F48D80 VA: 0x181F4A780
+	// RVA: 0x1F4A5C0 Offset: 0x1F48BC0 VA: 0x181F4A5C0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F4A790 Offset: 0x1F48D90 VA: 0x181F4A790
+	// RVA: 0x1F4A5D0 Offset: 0x1F48BD0 VA: 0x181F4A5D0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F4A490 Offset: 0x1F48A90 VA: 0x181F4A490
+	// RVA: 0x1F4A2D0 Offset: 0x1F488D0 VA: 0x181F4A2D0
 	public static byte[] SerializeToBytes(MiningQuarry instance) { }
 
-	// RVA: 0x1F4A3E0 Offset: 0x1F489E0 VA: 0x181F4A3E0
+	// RVA: 0x1F4A220 Offset: 0x1F48820 VA: 0x181F4A220
 	public static void SerializeLengthDelimited(Stream stream, MiningQuarry instance) { }
 
 	// RVA: 0x1020A80 Offset: 0x101F080 VA: 0x181020A80

@@ -7,10 +7,10 @@ public struct MidiMessage // TypeDefIndex: 7641
 
 	// Methods
 
-	// RVA: 0x240C20 Offset: 0x240020 VA: 0x180240C20
+	// RVA: 0x240BA0 Offset: 0x23FFA0 VA: 0x180240BA0
 	public void .ctor(ulong data) { }
 
-	// RVA: 0x240C10 Offset: 0x240010 VA: 0x180240C10 Slot: 3
+	// RVA: 0x240B90 Offset: 0x23FF90 VA: 0x180240B90 Slot: 3
 	public override string ToString() { }
 
 }

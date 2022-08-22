@@ -12,13 +12,13 @@ public struct TraceInfo // TypeDefIndex: 9261
 
 	// Methods
 
-	// RVA: 0xFB430 Offset: 0xFA830 VA: 0x1800FB430
+	// RVA: 0xFB3B0 Offset: 0xFA7B0 VA: 0x1800FB3B0
 	public void UpdateHitTest(HitTest test) { }
 
-	// RVA: 0xFB2A0 Offset: 0xFA6A0 VA: 0x1800FB2A0
+	// RVA: 0xFB220 Offset: 0xFA620 VA: 0x1800FB220
 	public uint BoneID() { }
 
-	// RVA: 0xFB360 Offset: 0xFA760 VA: 0x1800FB360
+	// RVA: 0xFB2E0 Offset: 0xFA6E0 VA: 0x1800FB2E0
 	public uint MaterialID() { }
 
 }

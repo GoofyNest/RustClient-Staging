@@ -68,19 +68,19 @@ private struct CommandBufferManager.CommandBufferEntry : IEquatable<CommandBuffe
 
 	// Methods
 
-	// RVA: 0xF2CE0 Offset: 0xF20E0 VA: 0x1800F2CE0
+	// RVA: 0xF2C60 Offset: 0xF2060 VA: 0x1800F2C60
 	public void Add(int orderId, Action<CommandBuffer> value) { }
 
-	// RVA: 0xF2D40 Offset: 0xF2140 VA: 0x1800F2D40
+	// RVA: 0xF2CC0 Offset: 0xF20C0 VA: 0x1800F2CC0
 	public void Remove(int orderId) { }
 
-	// RVA: 0xF2CF0 Offset: 0xF20F0 VA: 0x1800F2CF0
+	// RVA: 0xF2C70 Offset: 0xF2070 VA: 0x1800F2C70
 	public bool Contains(int orderId) { }
 
-	// RVA: 0xF2D00 Offset: 0xF2100 VA: 0x1800F2D00 Slot: 4
+	// RVA: 0xF2C80 Offset: 0xF2080 VA: 0x1800F2C80 Slot: 4
 	public bool Equals(CommandBufferManager.CommandBufferEntry other) { }
 
-	// RVA: 0xF2D10 Offset: 0xF2110 VA: 0x1800F2D10 Slot: 2
+	// RVA: 0xF2C90 Offset: 0xF2090 VA: 0x1800F2C90 Slot: 2
 	public override int GetHashCode() { }
 
 }

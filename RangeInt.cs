@@ -8,10 +8,10 @@ public struct RangeInt // TypeDefIndex: 3520
 
 	// Methods
 
-	// RVA: 0x217B80 Offset: 0x216F80 VA: 0x180217B80
+	// RVA: 0x217B00 Offset: 0x216F00 VA: 0x180217B00
 	public int get_end() { }
 
-	// RVA: 0xF8950 Offset: 0xF7D50 VA: 0x1800F8950
+	// RVA: 0xF88D0 Offset: 0xF7CD0 VA: 0x1800F88D0
 	public void .ctor(int start, int length) { }
 
 }

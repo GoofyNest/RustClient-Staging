@@ -5,7 +5,7 @@ public struct MaterialPropertyDesc // TypeDefIndex: 10686
 
 	// Methods
 
-	// RVA: 0xFA9E0 Offset: 0xF9DE0 VA: 0x1800FA9E0
+	// RVA: 0xFA960 Offset: 0xF9D60 VA: 0x1800FA960
 	public void .ctor(string name, Type type) { }
 
 }

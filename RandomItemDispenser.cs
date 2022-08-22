@@ -17,7 +17,7 @@ public struct RandomItemDispenser.RandomItemChance // TypeDefIndex: 9675
 {	// Fields
 	public ItemDefinition Item; // 0x0
 	public int Amount; // 0x8
-	[RangeAttribute] // RVA: 0x71300 Offset: 0x70700 VA: 0x180071300
+	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
 	public float Chance; // 0xC
 
 }

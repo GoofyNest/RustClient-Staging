@@ -10,7 +10,7 @@ public static class Monitor // TypeDefIndex: 788
 	// RVA: 0x1497460 Offset: 0x1495A60 VA: 0x181497460
 	private static void ThrowLockTakenException() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D80 Offset: 0x76180 VA: 0x180076D80
+	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
 	// RVA: 0x1496FB0 Offset: 0x14955B0 VA: 0x181496FB0
 	public static void Exit(object obj) { }
 
@@ -63,7 +63,7 @@ public static class Monitor // TypeDefIndex: 788
 
 public abstract class Monitor // TypeDefIndex: 11821
 {	// Fields
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private RenderTexture <output>k__BackingField; // 0x10
 	internal bool requested; // 0x18
 
@@ -72,11 +72,11 @@ public abstract class Monitor // TypeDefIndex: 11821
 
 	// Methods
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
 	public RenderTexture get_output() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
 	protected void set_output(RenderTexture value) { }
 

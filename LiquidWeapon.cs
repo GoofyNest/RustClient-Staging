@@ -1,6 +1,6 @@
 public class LiquidWeapon : BaseLiquidVessel // TypeDefIndex: 8597
 {	// Fields
-	[HeaderAttribute] // RVA: 0xB0210 Offset: 0xAF610 VA: 0x1800B0210
+	[HeaderAttribute] // RVA: 0xB02B0 Offset: 0xAF6B0 VA: 0x1800B02B0
 	public float FireRate; // 0x2F8
 	public float MaxRange; // 0x2FC
 	public int FireAmountML; // 0x300

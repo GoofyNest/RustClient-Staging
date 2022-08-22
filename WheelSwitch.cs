@@ -35,10 +35,10 @@ public class WheelSwitch : IOEntity // TypeDefIndex: 8487
 	// RVA: 0x8F59B0 Offset: 0x8F3FB0 VA: 0x1808F59B0
 	public void Update() { }
 
-	[BaseEntity.Menu] // RVA: 0x9CE50 Offset: 0x9C250 VA: 0x18009CE50
-	[BaseEntity.Menu.Description] // RVA: 0x9CE50 Offset: 0x9C250 VA: 0x18009CE50
-	[BaseEntity.Menu.Icon] // RVA: 0x9CE50 Offset: 0x9C250 VA: 0x18009CE50
-	[BaseEntity.Menu.ShowIf] // RVA: 0x9CE50 Offset: 0x9C250 VA: 0x18009CE50
+	[BaseEntity.Menu] // RVA: 0x9CF10 Offset: 0x9C310 VA: 0x18009CF10
+	[BaseEntity.Menu.Description] // RVA: 0x9CF10 Offset: 0x9C310 VA: 0x18009CF10
+	[BaseEntity.Menu.Icon] // RVA: 0x9CF10 Offset: 0x9C310 VA: 0x18009CF10
+	[BaseEntity.Menu.ShowIf] // RVA: 0x9CF10 Offset: 0x9C310 VA: 0x18009CF10
 	// RVA: 0x8F5820 Offset: 0x8F3E20 VA: 0x1808F5820
 	public void Menu_Turn(BasePlayer player) { }
 

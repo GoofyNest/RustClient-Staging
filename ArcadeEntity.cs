@@ -13,7 +13,7 @@ public class ArcadeEntity : BaseMonoBehaviour // TypeDefIndex: 8759
 	public bool localAuthorativeOverride; // 0x49
 	public ArcadeEntity arcadeEntityParent; // 0x50
 	public uint prefabID; // 0x58
-	[HeaderAttribute] // RVA: 0xBE420 Offset: 0xBD820 VA: 0x1800BE420
+	[HeaderAttribute] // RVA: 0xBE480 Offset: 0xBD880 VA: 0x1800BE480
 	public bool takesDamage; // 0x5C
 	public float health; // 0x60
 	public float maxHealth; // 0x64

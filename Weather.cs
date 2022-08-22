@@ -1,76 +1,76 @@
 public class Weather : ConsoleSystem // TypeDefIndex: 11976
 {	// Fields
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float wetness_rain; // 0x0
-	[ServerVar] // RVA: 0x81A60 Offset: 0x80E60 VA: 0x180081A60
+	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
 	public static float wetness_snow; // 0x4
 
 	// Properties
-	[ReplicatedVar] // RVA: 0xC5B70 Offset: 0xC4F70 VA: 0x1800C5B70
+	[ReplicatedVar] // RVA: 0xC5CB0 Offset: 0xC50B0 VA: 0x1800C5CB0
 	public static float clear_chance { get; set; }
-	[ReplicatedVar] // RVA: 0x9AB90 Offset: 0x99F90 VA: 0x18009AB90
+	[ReplicatedVar] // RVA: 0x9AD00 Offset: 0x9A100 VA: 0x18009AD00
 	public static float dust_chance { get; set; }
-	[ReplicatedVar] // RVA: 0x9AB90 Offset: 0x99F90 VA: 0x18009AB90
+	[ReplicatedVar] // RVA: 0x9AD00 Offset: 0x9A100 VA: 0x18009AD00
 	public static float fog_chance { get; set; }
-	[ReplicatedVar] // RVA: 0x9AB90 Offset: 0x99F90 VA: 0x18009AB90
+	[ReplicatedVar] // RVA: 0x9AD00 Offset: 0x9A100 VA: 0x18009AD00
 	public static float overcast_chance { get; set; }
-	[ReplicatedVar] // RVA: 0x9AB90 Offset: 0x99F90 VA: 0x18009AB90
+	[ReplicatedVar] // RVA: 0x9AD00 Offset: 0x9A100 VA: 0x18009AD00
 	public static float storm_chance { get; set; }
-	[ReplicatedVar] // RVA: 0x9AB90 Offset: 0x99F90 VA: 0x18009AB90
+	[ReplicatedVar] // RVA: 0x9AD00 Offset: 0x9A100 VA: 0x18009AD00
 	public static float rain_chance { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float rain { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float wind { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float thunder { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float rainbow { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float fog { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float atmosphere_rayleigh { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float atmosphere_mie { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float atmosphere_brightness { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float atmosphere_contrast { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float atmosphere_directionality { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float cloud_size { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float cloud_opacity { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float cloud_coverage { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float cloud_sharpness { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float cloud_coloring { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float cloud_attenuation { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float cloud_saturation { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float cloud_scattering { get; set; }
-	[ReplicatedVar] // RVA: 0xC60E0 Offset: 0xC54E0 VA: 0x1800C60E0
+	[ReplicatedVar] // RVA: 0xC6170 Offset: 0xC5570 VA: 0x1800C6170
 	public static float cloud_brightness { get; set; }
 
 	// Methods
 
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	// RVA: 0x36F110 Offset: 0x36D710 VA: 0x18036F110
 	public static void load(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	// RVA: 0x36FC20 Offset: 0x36E220 VA: 0x18036FC20
 	public static void reset(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
-	[ServerVar] // RVA: 0x935D0 Offset: 0x929D0 VA: 0x1800935D0
+	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
 	// RVA: 0x36F420 Offset: 0x36DA20 VA: 0x18036F420
 	public static void report(ConsoleSystem.Arg args) { }
 

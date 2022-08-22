@@ -1,6 +1,6 @@
 internal abstract class RequestCache // TypeDefIndex: 3089
 {	// Fields
-	internal static readonly char[] LineSplits; // 0x2B11160
+	internal static readonly char[] LineSplits; // 0x2B10180
 
 	// Methods
 

@@ -12,11 +12,11 @@ public class LootSpawn : ScriptableObject // TypeDefIndex: 10743
 
 public struct LootSpawn.Entry // TypeDefIndex: 10744
 {	// Fields
-	[TooltipAttribute] // RVA: 0x77550 Offset: 0x76950 VA: 0x180077550
+	[TooltipAttribute] // RVA: 0x77620 Offset: 0x76A20 VA: 0x180077620
 	public int extraSpawns; // 0x0
-	[TooltipAttribute] // RVA: 0x776A0 Offset: 0x76AA0 VA: 0x1800776A0
+	[TooltipAttribute] // RVA: 0x777D0 Offset: 0x76BD0 VA: 0x1800777D0
 	public LootSpawn category; // 0x8
-	[TooltipAttribute] // RVA: 0x777B0 Offset: 0x76BB0 VA: 0x1800777B0
+	[TooltipAttribute] // RVA: 0x778E0 Offset: 0x76CE0 VA: 0x1800778E0
 	public int weight; // 0x10
 
 }

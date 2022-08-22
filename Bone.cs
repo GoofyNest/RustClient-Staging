@@ -9,19 +9,19 @@ public struct Bone : IEquatable<Bone> // TypeDefIndex: 4148
 
 	// Methods
 
-	// RVA: 0x1FBB30 Offset: 0x1FAF30 VA: 0x1801FBB30
+	// RVA: 0x1FBAB0 Offset: 0x1FAEB0 VA: 0x1801FBAB0
 	internal ulong get_deviceId() { }
 
-	// RVA: 0x13ACA0 Offset: 0x13A0A0 VA: 0x18013ACA0
+	// RVA: 0x13AC20 Offset: 0x13A020 VA: 0x18013AC20
 	internal uint get_featureIndex() { }
 
-	// RVA: 0x23E330 Offset: 0x23D730 VA: 0x18023E330 Slot: 0
+	// RVA: 0x23E2B0 Offset: 0x23D6B0 VA: 0x18023E2B0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x23E3E0 Offset: 0x23D7E0 VA: 0x18023E3E0 Slot: 4
+	// RVA: 0x23E360 Offset: 0x23D760 VA: 0x18023E360 Slot: 4
 	public bool Equals(Bone other) { }
 
-	// RVA: 0x23E420 Offset: 0x23D820 VA: 0x18023E420 Slot: 2
+	// RVA: 0x23E3A0 Offset: 0x23D7A0 VA: 0x18023E3A0 Slot: 2
 	public override int GetHashCode() { }
 
 }

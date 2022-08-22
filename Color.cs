@@ -25,22 +25,22 @@ public struct Color : IEquatable<Color> // TypeDefIndex: 3460
 
 	// Methods
 
-	// RVA: 0xF2B40 Offset: 0xF1F40 VA: 0x1800F2B40
+	// RVA: 0xF2AC0 Offset: 0xF1EC0 VA: 0x1800F2AC0
 	public void .ctor(float r, float g, float b, float a) { }
 
-	// RVA: 0x213180 Offset: 0x212580 VA: 0x180213180
+	// RVA: 0x213100 Offset: 0x212500 VA: 0x180213100
 	public void .ctor(float r, float g, float b) { }
 
-	// RVA: 0x213170 Offset: 0x212570 VA: 0x180213170 Slot: 3
+	// RVA: 0x2130F0 Offset: 0x2124F0 VA: 0x1802130F0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x2130D0 Offset: 0x2124D0 VA: 0x1802130D0 Slot: 2
+	// RVA: 0x213050 Offset: 0x212450 VA: 0x180213050 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x212F80 Offset: 0x212380 VA: 0x180212F80 Slot: 0
+	// RVA: 0x212F00 Offset: 0x212300 VA: 0x180212F00 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0x213060 Offset: 0x212460 VA: 0x180213060 Slot: 4
+	// RVA: 0x212FE0 Offset: 0x2123E0 VA: 0x180212FE0 Slot: 4
 	public bool Equals(Color other) { }
 
 	// RVA: 0x1824A60 Offset: 0x1823060 VA: 0x181824A60
@@ -70,7 +70,7 @@ public struct Color : IEquatable<Color> // TypeDefIndex: 3460
 	// RVA: 0x1824270 Offset: 0x1822870 VA: 0x181824270
 	public static Color Lerp(Color a, Color b, float t) { }
 
-	// RVA: 0x213130 Offset: 0x212530 VA: 0x180213130
+	// RVA: 0x2130B0 Offset: 0x2124B0 VA: 0x1802130B0
 	internal Color RGBMultiplied(float multiplier) { }
 
 	// RVA: 0x1824A00 Offset: 0x1823000 VA: 0x181824A00
@@ -106,16 +106,16 @@ public struct Color : IEquatable<Color> // TypeDefIndex: 3460
 	// RVA: 0x1824730 Offset: 0x1822D30 VA: 0x181824730
 	public static Color get_clear() { }
 
-	// RVA: 0x213350 Offset: 0x212750 VA: 0x180213350
+	// RVA: 0x2132D0 Offset: 0x2126D0 VA: 0x1802132D0
 	public float get_grayscale() { }
 
-	// RVA: 0x213390 Offset: 0x212790 VA: 0x180213390
+	// RVA: 0x213310 Offset: 0x212710 VA: 0x180213310
 	public Color get_linear() { }
 
-	// RVA: 0x213290 Offset: 0x212690 VA: 0x180213290
+	// RVA: 0x213210 Offset: 0x212610 VA: 0x180213210
 	public Color get_gamma() { }
 
-	// RVA: 0x2133B0 Offset: 0x2127B0 VA: 0x1802133B0
+	// RVA: 0x213330 Offset: 0x212730 VA: 0x180213330
 	public float get_maxColorComponent() { }
 
 	// RVA: 0x1824C00 Offset: 0x1823200 VA: 0x181824C00
@@ -124,7 +124,7 @@ public struct Color : IEquatable<Color> // TypeDefIndex: 3460
 	// RVA: 0x1824BC0 Offset: 0x18231C0 VA: 0x181824BC0
 	public static Color op_Implicit(Vector4 v) { }
 
-	// RVA: 0x2131A0 Offset: 0x2125A0 VA: 0x1802131A0
+	// RVA: 0x213120 Offset: 0x212520 VA: 0x180213120
 	public float get_Item(int index) { }
 
 	// RVA: 0x1823F50 Offset: 0x1822550 VA: 0x181823F50

@@ -1,6 +1,6 @@
 public class TerrainAlphaMap : TerrainMap<byte> // TypeDefIndex: 10390
 {	// Fields
-	[FormerlySerializedAsAttribute] // RVA: 0xCE060 Offset: 0xCD460 VA: 0x1800CE060
+	[FormerlySerializedAsAttribute] // RVA: 0xCE140 Offset: 0xCD540 VA: 0x1800CE140
 	public Texture2D AlphaTexture; // 0x48
 
 	// Methods

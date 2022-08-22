@@ -1,10 +1,10 @@
 public class MaterialConfig : ScriptableObject // TypeDefIndex: 11314
 {	// Fields
-	[HorizontalAttribute] // RVA: 0xA45A0 Offset: 0xA39A0 VA: 0x1800A45A0
+	[HorizontalAttribute] // RVA: 0xA4660 Offset: 0xA3A60 VA: 0x1800A4660
 	public MaterialConfig.ShaderParametersFloat[] Floats; // 0x18
-	[HorizontalAttribute] // RVA: 0xA45A0 Offset: 0xA39A0 VA: 0x1800A45A0
+	[HorizontalAttribute] // RVA: 0xA4660 Offset: 0xA3A60 VA: 0x1800A4660
 	public MaterialConfig.ShaderParametersColor[] Colors; // 0x20
-	[HorizontalAttribute] // RVA: 0xA45A0 Offset: 0xA39A0 VA: 0x1800A45A0
+	[HorizontalAttribute] // RVA: 0xA4660 Offset: 0xA3A60 VA: 0x1800A4660
 	public MaterialConfig.ShaderParametersTexture[] Textures; // 0x28
 	public string[] ScaleUV; // 0x30
 	private MaterialPropertyBlock properties; // 0x38

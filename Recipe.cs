@@ -1,15 +1,15 @@
 public class Recipe : ScriptableObject // TypeDefIndex: 10752
 {	// Fields
-	[HeaderAttribute] // RVA: 0x781C0 Offset: 0x775C0 VA: 0x1800781C0
+	[HeaderAttribute] // RVA: 0x78380 Offset: 0x77780 VA: 0x180078380
 	public ItemDefinition ProducedItem; // 0x18
 	public int ProducedItemCount; // 0x20
 	public bool CanQueueMultiple; // 0x24
-	[HeaderAttribute] // RVA: 0x78370 Offset: 0x77770 VA: 0x180078370
+	[HeaderAttribute] // RVA: 0x784E0 Offset: 0x778E0 VA: 0x1800784E0
 	public GameObjectRef SpawnedItem; // 0x28
 	public string SpawnedItemName; // 0x30
 	public string SpawnedItemDescription; // 0x38
 	public Sprite SpawnedItemIcon; // 0x40
-	[HeaderAttribute] // RVA: 0x71E00 Offset: 0x71200 VA: 0x180071E00
+	[HeaderAttribute] // RVA: 0x71EA0 Offset: 0x712A0 VA: 0x180071EA0
 	public bool RequiresBlueprint; // 0x48
 	public Recipe.RecipeIngredient[] Ingredients; // 0x50
 	public float MixingDuration; // 0x58

@@ -26,11 +26,11 @@ public sealed class NamedPermissionSet : PermissionSet // TypeDefIndex: 901
 	// RVA: 0x17B4030 Offset: 0x17B2630 VA: 0x1817B4030 Slot: 12
 	public override SecurityElement ToXml() { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x17B3F40 Offset: 0x17B2540 VA: 0x1817B3F40 Slot: 0
 	public override bool Equals(object obj) { }
 
-	[ComVisibleAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
 	// RVA: 0x17B3FC0 Offset: 0x17B25C0 VA: 0x1817B3FC0 Slot: 2
 	public override int GetHashCode() { }
 

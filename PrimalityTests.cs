@@ -18,10 +18,10 @@ internal sealed class PrimalityTests // TypeDefIndex: 86
 public sealed class PrimalityTests // TypeDefIndex: 1769
 {	// Methods
 
-	// RVA: 0x1AC14D0 Offset: 0x1ABFAD0 VA: 0x181AC14D0
+	// RVA: 0x1AC1310 Offset: 0x1ABF910 VA: 0x181AC1310
 	private static int GetSPPRounds(BigInteger bi, ConfidenceFactor confidence) { }
 
-	// RVA: 0x1AC1690 Offset: 0x1ABFC90 VA: 0x181AC1690
+	// RVA: 0x1AC14D0 Offset: 0x1ABFAD0 VA: 0x181AC14D0
 	public static bool RabinMillerTest(BigInteger n, ConfidenceFactor confidence) { }
 
 }

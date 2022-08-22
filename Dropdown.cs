@@ -1,26 +1,26 @@
 public class Dropdown : Selectable, IPointerClickHandler, IEventSystemHandler, ISubmitHandler, ICancelHandler // TypeDefIndex: 4921
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private RectTransform m_Template; // 0xE8
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Text m_CaptionText; // 0xF0
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Image m_CaptionImage; // 0xF8
-	[SpaceAttribute] // RVA: 0x7CC70 Offset: 0x7C070 VA: 0x18007CC70
-	[SerializeField] // RVA: 0x7CC70 Offset: 0x7C070 VA: 0x18007CC70
+	[SpaceAttribute] // RVA: 0x7CD40 Offset: 0x7C140 VA: 0x18007CD40
+	[SerializeField] // RVA: 0x7CD40 Offset: 0x7C140 VA: 0x18007CD40
 	private Text m_ItemText; // 0x100
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Image m_ItemImage; // 0x108
-	[SpaceAttribute] // RVA: 0x7CC70 Offset: 0x7C070 VA: 0x18007CC70
-	[SerializeField] // RVA: 0x7CC70 Offset: 0x7C070 VA: 0x18007CC70
+	[SpaceAttribute] // RVA: 0x7CD40 Offset: 0x7C140 VA: 0x18007CD40
+	[SerializeField] // RVA: 0x7CD40 Offset: 0x7C140 VA: 0x18007CD40
 	private int m_Value; // 0x110
-	[SpaceAttribute] // RVA: 0x7CC70 Offset: 0x7C070 VA: 0x18007CC70
-	[SerializeField] // RVA: 0x7CC70 Offset: 0x7C070 VA: 0x18007CC70
+	[SpaceAttribute] // RVA: 0x7CD40 Offset: 0x7C140 VA: 0x18007CD40
+	[SerializeField] // RVA: 0x7CD40 Offset: 0x7C140 VA: 0x18007CD40
 	private Dropdown.OptionDataList m_Options; // 0x118
-	[SpaceAttribute] // RVA: 0x7CC70 Offset: 0x7C070 VA: 0x18007CC70
-	[SerializeField] // RVA: 0x7CC70 Offset: 0x7C070 VA: 0x18007CC70
+	[SpaceAttribute] // RVA: 0x7CD40 Offset: 0x7C140 VA: 0x18007CD40
+	[SerializeField] // RVA: 0x7CD40 Offset: 0x7C140 VA: 0x18007CD40
 	private Dropdown.DropdownEvent m_OnValueChanged; // 0x120
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private float m_AlphaFadeSpeed; // 0x128
 	private GameObject m_Dropdown; // 0x130
 	private GameObject m_Blocker; // 0x138
@@ -188,7 +188,7 @@ public class Dropdown : Selectable, IPointerClickHandler, IEventSystemHandler, I
 	// RVA: 0x10C0740 Offset: 0x10BED40 VA: 0x1810C0740
 	public void Hide() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xE7900 Offset: 0xE6D00 VA: 0x1800E7900
+	[IteratorStateMachineAttribute] // RVA: 0xE79A0 Offset: 0xE6DA0 VA: 0x1800E79A0
 	// RVA: 0x10C0600 Offset: 0x10BEC00 VA: 0x1810C0600
 	private IEnumerator DelayedDestroyDropdownList(float delay) { }
 
@@ -205,9 +205,9 @@ public class Dropdown : Selectable, IPointerClickHandler, IEventSystemHandler, I
 
 public class Dropdown.OptionData // TypeDefIndex: 4923
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private string m_Text; // 0x10
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private Sprite m_Image; // 0x18
 
 	// Properties
@@ -244,7 +244,7 @@ public class Dropdown.OptionData // TypeDefIndex: 4923
 
 public class Dropdown.OptionDataList // TypeDefIndex: 4924
 {	// Fields
-	[SerializeField] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	private List<Dropdown.OptionData> m_Options; // 0x10
 
 	// Properties
@@ -299,26 +299,26 @@ private sealed class Dropdown.<DelayedDestroyDropdownList>d__74 : IEnumerator<ob
 
 	// Methods
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
 	// RVA: 0x1604BF0 Offset: 0x16031F0 VA: 0x181604BF0 Slot: 6
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 4
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x1604CA0 Offset: 0x16032A0 VA: 0x181604CA0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3A0 Offset: 0x6E7A0 VA: 0x18006F3A0
+	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 

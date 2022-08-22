@@ -1,6 +1,6 @@
 public class Bear : BaseAnimalNPC // TypeDefIndex: 8920
 {	// Fields
-	[ServerVar] // RVA: 0xB4270 Offset: 0xB3670 VA: 0x1800B4270
+	[ServerVar] // RVA: 0xB4310 Offset: 0xB3710 VA: 0x1800B4310
 	public static float Population; // 0x1BDC
 
 	// Properties

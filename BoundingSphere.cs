@@ -5,7 +5,7 @@ public struct BoundingSphere // TypeDefIndex: 3364
 
 	// Methods
 
-	// RVA: 0xFB280 Offset: 0xFA680 VA: 0x1800FB280
+	// RVA: 0xFB200 Offset: 0xFA600 VA: 0x1800FB200
 	public void .ctor(Vector3 pos, float rad) { }
 
 }
